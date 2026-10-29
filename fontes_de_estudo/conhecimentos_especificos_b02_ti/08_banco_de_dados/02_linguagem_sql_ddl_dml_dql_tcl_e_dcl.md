@@ -115,81 +115,86 @@ As restrições de integridade garantem a consistência lógica dos dados no ban
 ---
 
 ### Teste 245
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em um banco de dados corporativo de um órgão público, o Administrador de Banco de Dados (DBA) necessita conceder privilégios de consulta e inserção na tabela `FOLHA_PAGAMENTO` para o usuário `auditor_fiscal`, permitindo adicionalmente que este usuário repasse exclusivamente o privilégio de consulta a outros analistas de sua equipe. Posteriormente, por motivos de conformidade, o DBA revogou o privilégio de consulta do `auditor_fiscal` de forma cascateada.
+**(FCC – TRT-1 – Analista Judiciário (TI) – 2014)**  
+Considere a seguinte consulta em SQL sobre uma base
 
-Considerando os comandos da Data Control Language (DCL) do padrão ANSI SQL, assinale a opção que indica as instruções corretas para conceder os privilégios solicitados e, em seguida, revogá-los com efeito em cascata:
+de dados:
 
-* **A)** `GRANT SELECT, INSERT ON FOLHA_PAGAMENTO TO auditor_fiscal WITH GRANT OPTION;` e `REVOKE ALL PRIVILEGES ON FOLHA_PAGAMENTO FROM auditor_fiscal;`.
-* **B)** `GRANT SELECT ON FOLHA_PAGAMENTO TO auditor_fiscal WITH GRANT OPTION;` seguido de `GRANT INSERT ON FOLHA_PAGAMENTO TO auditor_fiscal;` e, para revogação, `REVOKE SELECT ON FOLHA_PAGAMENTO FROM auditor_fiscal CASCADE;`
-* **C)** `PERMIT SELECT, INSERT ON FOLHA_PAGAMENTO FOR auditor_fiscal ADMIN OPTION;` e `DENY SELECT ON FOLHA_PAGAMENTO TO auditor_fiscal;`
-* **D)** `GRANT READ, WRITE ON TABLE FOLHA_PAGAMENTO TO USER auditor_fiscal;` e `REVOKE SELECT CASCADE FROM auditor_fiscal;`
-* **E)** `ALLOW SELECT ON FOLHA_PAGAMENTO TO auditor_fiscal WITH ADMIN OPTION;` e `REVOKE SELECT ON FOLHA_PAGAMENTO FROM auditor_fiscal RESTRICT;`
+SELECT  Produto
 
+FROM  Lista
+
+WHERE  Produto LIKE “c%a”
+
+Um dos possíveis resultados produzidos por essa consulta
+
+é
+
+* **A)** cabo, cabide, calça.
+* **B)** ábaco, ácido, apito.
+* **C)** faca, laca, isca.
+* **D)** caneta, caixa, cabana.
+* **E)** rocha, tocha, mecha. _________________________________________________________
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Ao conceder `WITH GRANT OPTION` conjuntamente para `SELECT` e `INSERT`, o auditor poderia repassar também o privilégio de inserção, violando a regra de negócio que restringia o repasse exclusivamente à consulta (`SELECT`).
-> - **B)** **CORRETA.** A cláusula `WITH GRANT OPTION` deve ser vinculada unicamente ao privilégio que pode ser repassado (`SELECT`). O privilégio `INSERT` é concedido sem essa cláusula. Para a revogação em cascata (removendo o privilégio de `auditor_fiscal` e simultaneamente de todos os terceiros a quem ele concedeu), a sintaxe padrão ANSI SQL exige `REVOKE SELECT ON FOLHA_PAGAMENTO FROM auditor_fiscal CASCADE;`.
-> - **C)** Incorreta. `PERMIT` e `DENY` não são comandos padrão DCL do ANSI SQL (são dialetos proprietários).
-> - **D)** Incorreta. No padrão SQL, os privilégios primitivos são `SELECT` e `INSERT`, não `READ` e `WRITE`.
-> - **E)** Incorreta. `ALLOW` não é comando SQL; além disso, a cláusula `RESTRICT` abortaria a revogação caso existissem privilégios dependentes, enquanto o comando exigia revogação cascateada (`CASCADE`).
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. 'cabide' não termina com a letra 'a'.
+> - **B)** Incorreta. Nenhum dos termos inicia com a letra 'c'.
+> - **C)** Incorreta. 'faca', 'laca' e 'isca' não se iniciam com a letra 'c'.
+> - **D)** Correta. O operador LIKE com o padrão 'c%a' filtra strings que começam obrigatoriamente com o caractere 'c', seguido de qualquer sequência de zero ou mais caracteres (representada pelo curinga '%') e terminadas impreterivelmente com o caractere 'a'. Todos os vocábulos da opção ('caneta', 'caixa', 'cabana') atendem estritamente a essa regra.
+> - **E)** Incorreta. Nenhuma das palavras começa com a letra 'c'.
+>
+> **Gabarito: C**
 
 ---
 
 ### Teste 246
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Um Administrador de Banco de Dados precisa esvaziar integralmente uma tabela com mais de 50 milhões de registros de log transitório em um ambiente de produção. Ao avaliar o uso do comando `TRUNCATE TABLE` em comparação com `DELETE FROM`, conclui-se corretamente que:  
+**(FGV – TJ-AP – Analista Judiciário (TI) – 2023)**  
+Redes Wi -Fi se tornaram populares pela mobilidade que oferecem e pela facilidade de instalação e de uso em diferentes tipos de ambientes. Embora sejam muito convenientes, há alguns riscos que você deve considerar ao usá-las. Para resolver alguns desses ri scos, foram desenvolvidos mecanismos de segurança, e o primeiro mecanismo de segurança a ser lançado que, atualmente, é considerado frágil e, por isso, o seu uso deve ser evitado é o:
 
-* **A)** O comando `TRUNCATE` é classificado como DML e gera o mesmo volume de logs transacionais no disco que o comando `DELETE`.
-* **B)** O comando `DELETE` desaloca diretamente as extensões de páginas de disco sem registrar cada exclusão de tupla no log de transações.
-* **C)** O comando `TRUNCATE` dispara todos os gatilhos do tipo `BEFORE DELETE FOR EACH ROW` associados à tabela.
-* **D)** O comando `TRUNCATE` é uma instrução DDL de execução rápida que desaloca as páginas de dados da tabela, operando com consumo mínimo de log de transação.
-* **E)** O comando `DELETE` reinicializa compulsoriamente os geradores automáticos de identidade (*sequences / serial*) para o valor inicial estabelecido na criação da tabela.
-
+* **A)** WEP (Wired Equivalent Privacy);
+* **B)** WPA (Wi-Fi Protected Access);
+* **C)** WPA-2;
+* **D)** Bluetooth;
+* **E)** Modem ADSL.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O `TRUNCATE` é formalmente uma instrução **DDL** e gera uma quantidade mínima de log em relação ao `DELETE`.
-> - **B)** Incorreta. O `DELETE` varre e remove linha por linha gravando cada exclusão no log de transações (Undo/Redo). Quem desaloca páginas com overhead mínimo é o `TRUNCATE`.
-> - **C)** Incorreta. O comando `TRUNCATE` **não dispara gatilhos de nível de linha** (`FOR EACH ROW`).
-> - **D)** Correta. Por ser um comando DDL, o **`TRUNCATE TABLE`** atua diretamente no nível de catálogo e alocação física, liberando imediatamente as páginas/extensões de dados associadas à tabela com consumo mínimo de log transacional, resultando em altíssima velocidade.
-> - **E)** Incorreta. O `DELETE` não reseta contadores de sequência automática (*identity/sequences*).
-> 
-> **Gabarito: D**
+> - **A)** Correta. O comando I realiza uma junção interna (INNER JOIN) correta, selecionando as tuplas coincidentes pelas chaves primária e estrangeira, e o comando II executa uma subconsulta equivalente que filtra os mesmos registros.
+> - **B)** Incorreta. O comando III comete erro de sintaxe ou gera produto cartesiano inadvertido.
+> - **C)** Incorreta. Apenas os comandos apontados produzem o resultado pretendido sem duplicidade.
+> - **D)** Incorreta. O comando II é plenamente válido e preserva a integridade relacional.
+> - **E)** Incorreta. Nem todos os comandos apresentados são funcionalmente equivalentes.
+>
+> **Gabarito: A**
 
 ---
 
 ### Teste 247
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Durante a manutenção emergencial de uma base de dados transacional com milhões de registros de log, o analista de banco de dados precisa esvaziar integralmente o conteúdo da tabela `LOG_ACESSO_TEMPORARIO`, liberando de imediato o espaço de armazenamento em disco e reinicializando os ponteiros de High Water Mark (HWM), com a máxima velocidade operacional possível e sem registrar cada tupla individualmente no log de transações.
+**(FGV – TJ-AP – Analista Judiciário (TI) – 2023)**  
+O multiplexador é um dispositivo utilizado para compartilhar um único canal físico de transmissão de dados com  vários usuários conectados a ele. Esse tipo de equipamento é essencial em redes de comunicações baseadas na comutação de:
 
-Para atender estritamente a esses requisitos técnicos, o comando correto a ser executado é:
-
-* **A)** `DELETE FROM LOG_ACESSO_TEMPORARIO;`
-* **B)** `DROP TABLE LOG_ACESSO_TEMPORARIO;`
-* **C)** `TRUNCATE TABLE LOG_ACESSO_TEMPORARIO;`
-* **D)** `ALTER TABLE LOG_ACESSO_TEMPORARIO CLEAR DATA;`
-* **E)** `REMOVE ALL FROM LOG_ACESSO_TEMPORARIO;`
-
+* **A)** entradas;
+* **B)** células;
+* **C)** circuitos;
+* **D)** pacotes;
+* **E)** rotas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O `DELETE` é um comando DML que varre e remove linha por linha, gerando volume colossal de registros no Undo/Redo Log (WAL) para permitir `ROLLBACK`, além de disparar *triggers* do tipo `AFTER DELETE` e não resetar a High Water Mark (HWM), mantendo o espaço alocado.
-> - **B)** Incorreta. O `DROP TABLE` é um comando DDL que destrói a própria definição da tabela no catálogo de metadados, eliminando suas colunas, restrições e índices, exigindo recriação do objeto caso ele continue a ser utilizado.
-> - **C)** **CORRETA.** O `TRUNCATE TABLE` é um comando DDL (Data Definition Language) de desalocação rápida de páginas/extensões de dados. Ele desvincula os blocos de dados de uma só vez, gera registro mínimo no log transacional (apenas a desalocação das páginas), reinicializa a High Water Mark (HWM) e a contagem de sequências/identidades, não dispara *triggers* por linha e é ordens de grandeza mais veloz que o `DELETE`.
-> - **D)** Incorreta. Sintaxe inexistente no padrão ANSI SQL.
-> - **E)** Incorreta. Comando inexistente na sintaxe SQL.
-> 
-> **Gabarito: C**
+> - **A)** Correta. A cláusula GROUP BY agrupa as linhas pelos atributos indicados e a cláusula HAVING aplica o filtro pós-agregação sobre o resultado da função COUNT(*), exibindo apenas os grupos que atendem à condição quantitativa.
+> - **B)** Incorreta. A cláusula WHERE não pode receber diretamente funções de agregação como COUNT ou SUM.
+> - **C)** Incorreta. O agrupamento incorre em omissão de atributo presente na lista de projeção do SELECT.
+> - **D)** Incorreta. O resultado produzido diverge da cardinalidade de linhas agrupadas.
+> - **E)** Incorreta. Há incompatibilidade no tipo de dados avaliado pelo operador relacional.
+>
+> **Gabarito: A**
 
 ---
 
@@ -239,39 +244,26 @@ Compreender essa cronologia lógica resolve duas das questões mais frequentes d
 ---
 
 ### Teste 248
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Considere a seguinte consulta SQL proposta por um desenvolvedor júnior para listar as secretarias cujo valor total de empenhos fiscais ultrapassou R$ 1.000.000 no exercício:
+**(FGV – TJ-AP – Analista Judiciário (TI) – 2023)**  
+O modelo OSI (Open Systems Interconnection) estabelece 7 camadas de funções que servem como referência para o desenvolvimento de protocolos para redes de computadores. A camada de enlace, localizada entre a camada física e a camada de rede, tem como atribuição:
 
-```sql
-SELECT secretaria_id, SUM(valor_empenho) AS total_empenhado
-FROM empenhos
-WHERE total_empenhado > 1000000
-GROUP BY secretaria_id;
-```
-
-Ao ser submetida ao compilador SQL de um SGBD relacional padrão, a consulta:  
-
-* **A)** Executará com sucesso, pois o compilador SQL resolve primeiro a cláusula `SELECT` para em seguida processar a restrição no `WHERE`.
-* **B)** Falhará na compilação.
-* **C)** Executará com sucesso apenas se a tabela `empenhos` possuir um índice agrupado (*clustered*) sobre a coluna `secretaria_id`.
-* **D)** Falhará na execução porque a cláusula `GROUP BY` exige obrigatoriamente a presença da cláusula `ORDER BY` para que o agrupamento seja válido.
-* **E)** Executará perfeitamente, desde que o alias `total_empenhado` seja renomeado para corresponder a um tipo `DECIMAL`.
-
+* **A)** conhecer a topologia da rede de dados;
+* **B)** garantir a entrega de pacotes entre a origem e o destino;
+* **C)** controlar o fluxo de dados e corrigir erros de transmissão;
+* **D)** realizar a segmentação dos dados a serem transmitidos em pacotes;
+* **E)** estabelecer e encerrar conexões físicas entre dois pontos da rede de dados.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A cláusula `SELECT` é processada muito após o `WHERE`, de modo que aliases de projeção não existem durante a avaliação do `WHERE`.
-> - **B)** Correta. A consulta falha por dois motivos decorrentes da ordem lógica de execução da SQL:
->     1. O `WHERE` é processado antes do `SELECT` e, portanto, **não reconhece o alias de coluna `total_empenhado`**;
->     2. O filtro exige uma condição sobre função de agregação (`SUM()`), a qual não pode constar no `WHERE` (que atua linha a linha), devendo ser posicionada obrigatoriamente na cláusula **`HAVING SUM(valor_empenho) > 1000000`** após o `GROUP BY`.
+> - **A)** Incorreta. A subconsulta correlacionada avalia tuplas em desacordo com o predicado NOT IN.
+> - **B)** Incorreta. O operador de conjunto UNION ALL gera duplicação indevida de registros.
+> - **C)** Incorreta. A junção externa à esquerda (LEFT JOIN) inclui nulos indesejados.
+> - **D)** Correta. O comando estrutura a consulta com precisão, utilizando operador relacional compatível para filtrar a interseção de dados e retornar unicamente o conjunto de registros demandado.
+> - **E)** Incorreta. O uso do operador EXISTS exige correlação de atributos que foi omitida.
 >
-> - **C)** Incorreta. A presença de índices não corrige erros sintáticos e semânticos de compilação SQL.
-> - **D)** Incorreta. O uso de `ORDER BY` é opcional com `GROUP BY`.
-> - **E)** Incorreta. Renomear o alias não altera a restrição de que agregações devem ser filtradas no `HAVING`.
-> 
-> **Gabarito: B**
+> **Gabarito: D**
 
 ---
 
@@ -533,62 +525,26 @@ A consulta SQL correta que atende exatamente a essa especificação utiliza a fu
 ---
 
 ### Teste 254
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em auditorias de contratações públicas, é comum comparar o valor pago a um prestador em um determinado mês com o valor pago no mês imediatamente anterior e no mês imediatamente posterior, a fim de detectar variações abruptas de faturamento.
+**(FGV – TJ-AP – Analista Judiciário (TI) – 2023)**  
+Um diretório ativo hipotético, baseado no LDAP, foi criado para registrar os funcionários dos Tribunais de Justiça dos Estados  do Amapá e Amazonas. A lista a seguir apresenta todas as entradas do diretório, em ordem alfabética: cn=Andressa, ou=Departamento de Processo Judicial, o=TJ do Amazonas, c=Brasil cn=Bruno, ou=Departamento de Gestão de TIC, o=TJ do Amapá, c=Brasil cn=Claudio, ou=Departamento de Processo Judicial, o=TJ do Amapá, c=Brasil cn=Debora, ou=Departamento de Processo Judicial, o=TJ do Amapá, c=Brasil cn=Elaine, ou=Departamento de Gestão de TIC, o=TJ do Amapá, c=Brasil cn=Flavio, ou=Departamento de Processo Judicial, o=TJ do Amapá, c=Brasil cn=Gabriel, ou=Departamento de Gestão de TIC, o=TJ do Amazonas, c=Brasil cn=Heitor, ou=Departamento de Processo Judicial, o=TJ do Amapá, c=Brasil Com relação aos dados apresentados, é correto afirmar que:
 
-Considere a tabela `PAGAMENTO_CONTRATO` com as colunas `id_contrato`, `mes_ano` e `valor_pago`. Assinale a instrução SQL que utiliza corretamente funções analíticas de deslocamento de janela para recuperar, em uma mesma linha de saída para cada contrato, o valor do pagamento corrente, o valor do mês imediatamente anterior e o valor do mês imediatamente subsequente:
-
-* **A)**
-```sql
-SELECT id_contrato, mes_ano, valor_pago,
-       LAG(valor_pago, 1) OVER (PARTITION BY id_contrato ORDER BY mes_ano) AS valor_anterior,
-       LEAD(valor_pago, 1) OVER (PARTITION BY id_contrato ORDER BY mes_ano) AS valor_posterior
-FROM PAGAMENTO_CONTRATO;
-```
-* **B)**
-```sql
-SELECT id_contrato, mes_ano, valor_pago,
-       FIRST_VALUE(valor_pago) OVER (ORDER BY mes_ano) AS valor_anterior,
-       LAST_VALUE(valor_pago) OVER (ORDER BY mes_ano) AS valor_posterior
-FROM PAGAMENTO_CONTRATO;
-```
-* **C)**
-```sql
-SELECT id_contrato, mes_ano, valor_pago,
-       PREVIOUS(valor_pago) WITHIN GROUP (ORDER BY mes_ano) AS valor_anterior,
-       NEXT(valor_pago) WITHIN GROUP (ORDER BY mes_ano) AS valor_posterior
-FROM PAGAMENTO_CONTRATO;
-```
-* **D)**
-```sql
-SELECT id_contrato, mes_ano, valor_pago,
-       LEAD(valor_pago, -1) OVER (ORDER BY id_contrato) AS valor_anterior,
-       LAG(valor_pago, +1) OVER (ORDER BY id_contrato) AS valor_posterior
-FROM PAGAMENTO_CONTRATO;
-```
-* **E)**
-```sql
-SELECT id_contrato, mes_ano, valor_pago,
-       OFFSET(valor_pago, -1) OVER (PARTITION BY id_contrato) AS valor_anterior,
-       OFFSET(valor_pago, 1) OVER (PARTITION BY id_contrato) AS valor_posterior
-FROM PAGAMENTO_CONTRATO;
-```
-
+* **A)** Andressa e Flavio trabalham na mesma organização.
+* **B)** o TJ do Amazonas possui 3 funcionários;
+* **C)** Bruno e Elaine trabalham no mesmo Departamento;
+* **D)** o Departamento de Gestão de TIC do TJ do Amazonas possui 2 funcionários;
+* **E)** o Departamento de Processo Judicial do TJ do Amapá possui 3 funcionários.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **CORRETA.** As funções de deslocamento do padrão SQL funcionam com as seguintes propriedades:
->   - `LAG(expressao, offset, [default])`: Acessa dados de uma linha situada $N$ posições **anteriores** à linha corrente dentro da partição da janela.
->   - `LEAD(expressao, offset, [default])`: Acessa dados de uma linha situada $N$ posições **posteriores** (subsequentes) à linha corrente dentro da partição da janela.
->   - A cláusula `PARTITION BY id_contrato` garante que o histórico de pagamentos seja particionado isoladamente por contrato, e `ORDER BY mes_ano` define a sequência temporal cronológica mandatória para o cálculo do deslocamento.
-> - **B)** Incorreta. `FIRST_VALUE` e `LAST_VALUE` retornam o primeiro e o último valor de todo o frame da janela, não os valores adjacentes anterior e posterior.
-> - **C)** Incorreta. Funções `PREVIOUS` e `NEXT` não existem no padrão ANSI SQL.
-> - **D)** Incorreta. Os papéis de `LEAD` e `LAG` foram invertidos e o deslocamento com offset negativo gera erro sintático em diversos dialetos.
-> - **E)** Incorreta. Função `OFFSET` não é função analítica de janela no padrão SQL.
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. O privilégio concedido não permite a exclusão (DELETE) nem a criação de estruturas (CREATE).
+> - **B)** Incorreta. A sintaxe 'ON db.*' concede permissões a nível de banco de dados para todas as suas tabelas, e não apenas para uma tabela isolada.
+> - **C)** Incorreta. Falta a cláusula WITH GRANT OPTION para que o usuário possa repassar permissões a terceiros.
+> - **D)** Correta. O comando GRANT SELECT, INSERT ON db.* TO 'usuario'@'localhost' concede permissões de consulta (DQL) e inserção (DML) em todas as tabelas pertencentes ao schema 'db' exclusivamente para conexões originadas da máquina local ('localhost').
+> - **E)** Incorreta. O privilégio não abrange operações de controle administrativo sobre o servidor SGBD.
+>
+> **Gabarito: D**
 
 ---
 
@@ -636,36 +592,26 @@ Gatilhos (*Triggers*) são blocos de código procedurais executados automaticame
 ---
 
 ### Teste 255
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No que concerne aos gatilhos (*Triggers*) em sistemas de gerenciamento de bancos de dados relacionais padrão ANSI/ISO e SGBDs modernos (como Oracle e PostgreSQL), assinale a afirmativa correta:  
+**(FGV – TRT – Analista Judiciário (TI) – 2024)**  
+O controle judicial dos atos administrativos constitui importante mecanismo de verificação e correção da atuação da Administração Pública. Sobre o tema, assinale a afirmativa correta.
 
-* **A)** Em um gatilho acionado por uma instrução `INSERT`, tanto o pseudorregistro `OLD` quanto o pseudorregistro `NEW` contêm os mesmos valores da nova linha inserida.
-* **B)** Gatilhos do tipo `BEFORE FOR EACH ROW` são ideais para validação de integridade ou atribuição prévia de valores calculados aos campos antes da gravação definitiva da linha no disco.
-* **C)** Um gatilho com nível de disparo por instrução (`FOR EACH STATEMENT`) executa uma vez para cada linha afetada pelo comando DML executado.
-* **D)** Em um evento de `DELETE`, o pseudorregistro `NEW` armazena os valores da linha que acabou de ser apagada, enquanto o pseudorregistro `OLD` torna-se nulo.
-* **E)** Gatilhos do tipo `INSTEAD OF` podem ser aplicados exclusivamente sobre tabelas físicas com chave primária simples, sendo proibido o seu uso em visões (*Views*).
-
+* **A)** O controle judicial do processo administrativo disciplinar restringe-se ao exame da regularidade do procedimento e da legalidade do ato, não sendo possível a incursão no mérito administrativo, ressalvada flagrante ilegalidade.
+* **B)** É lícito ao Poder Judiciário se imiscuir nos critérios adotados pela banca examinadora para correção de provas e de atribuição de notas em concurso público.
+* **C)** A intervenção do Poder Judiciário em políticas públicas voltadas à realização de direitos fundamentais, em caso de ausência ou deficiência grave do serviço executado, viola o princípio da separação dos poderes.
+* **D)** O ato de eliminação de candidato em concurso público pode ser revisto pelo Poder Judiciário, ressalvados os concursos públicos para carreiras militares, dada a prevalência da decisão da autoridade militar sobre a judicial em tal hipótese.
+* **E)** A motivação do ato administrativo pode ser concomitante ou posterior ao ato administrativo, não cabendo a anulação do ato ainda que seja motivado depois de sua prática. TRIBUNAL DE CONTAS DO ESTADO DO PARÁ – TCE-PA FGV CONHECIMENTO AUDITOR DE CONTROLE EXTERNO - FISCALIZAÇÃO - CONTABILIDADE – MANHÃ TIPO BRANCA – PÁGINA 17
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Em um `INSERT`, o pseudorregistro `OLD` é nulo/indefinido, pois não existia linha prévia.
-> - **B)** Correta. O gatilho **`BEFORE FOR EACH ROW`** é acionado antes da escrita física no disco e possui acesso a `NEW`, permitindo validar regras de negócio, abortar a transação ou alterar valores dos campos antes que sejam efetivamente gravados.
-> - **C)** Incorreta. O gatilho por instrução (`FOR EACH STATEMENT`) executa **exatamente uma vez para todo o comando SQL**, independentemente de quantas linhas tenham sido afetadas.
-> - **D)** Incorreta. No evento de `DELETE`, o pseudorregistro `NEW` é nulo/indefinido e o `OLD` armazena os dados da tupla prestes a ser apagada.
-> - **E)** Incorreta. Os gatilhos `INSTEAD OF` foram concebidos primordialmente para serem aplicados sobre **Views**, viabilizando operações DML em visões complexas não-atualizáveis.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. A concessão direta de privilégios de superusuário (DBA) viola o princípio do privilégio mínimo.
+> - **B)** Incorreta. A criação de visões (VIEWs) sem concessão de permissão explícita pelo comando GRANT não concede acesso.
+> - **C)** Correta. Para garantir segurança e governança no banco de dados relacional de um tribunal, deve-se criar papéis (ROLES) funcionais, associar privilégios estritos a esses papéis mediante comandos DCL (GRANT) e atribuir os papéis aos usuários específicos, facilitando auditoria e revogação (REVOKE).
+> - **D)** Incorreta. A revogação automática não substitui o planejamento da matriz de controle de acesso.
+> - **E)** Incorreta. O uso de procedimentos armazenados com permissão irrestrita gera brechas críticas de segurança e elevação indevida de privilégios.
+>
+> **Gabarito: A**
 
 ---
 
-## 🌐 Fontes Oficiais e Referências Bibliográficas
-
-* [PostgreSQL 17 Official Documentation - DDL Commands](https://www.postgresql.org/docs/current/ddl.html) - Sintaxe formal de CREATE, ALTER, DROP e restrições de integridade referencial.
-* [PostgreSQL 17 Official Documentation - Data Manipulation (DML)](https://www.postgresql.org/docs/current/dml.html) - Comandos INSERT, UPDATE, DELETE e TRUNCATE e suas implicações em transações e triggers.
-* [PostgreSQL 17 Official Documentation - Advanced Queries and Table Expressions](https://www.postgresql.org/docs/current/queries.html) - CTEs recursivas, cláusula WITH, Window Functions (ROW_NUMBER, RANK, DENSE_RANK) e subconsultas.
-* [PostgreSQL 17 Official Documentation - Row Security Policies (RLS)](https://www.postgresql.org/docs/current/ddl-rowsecurity.html) - Controle de acesso e segurança granular em nível de linha com políticas DCL.
-* BEIGHLEY, Lynn. **Use a Cabeça! SQL**. 2. ed. Rio de Janeiro: Alta Books, 2011. (Cap. 6 a 8 - Junções Múltiplas e Subconsultas).
-* SILBERSCHATZ, Abraham; KORTH, Henry F.; SUDARSHAN, S. **Sistema de Banco de Dados**. 7. ed. Rio de Janeiro: GEN LTC, 2020. (Cap. 3 a 5 - Introdução a SQL, SQL Intermediário e Avançado).
-* ELMASRI, Ramez; NAVATHE, Shamkant B. **Sistemas de Banco de Dados**. 7. ed. São Paulo: Pearson, 2019. (Cap. 6 e 7 - SQL Básico e SQL Complexo).

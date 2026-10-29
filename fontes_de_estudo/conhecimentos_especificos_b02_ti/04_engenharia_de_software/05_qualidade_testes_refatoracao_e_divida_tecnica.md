@@ -96,27 +96,26 @@ A manutenibilidade reflete a facilidade e a eficiência com que o software pode 
 ---
 
 ### Teste 043
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Durante uma auditoria operacional de infraestrutura e acordos de nível de serviço (SLA) de TI em um Tribunal de Contas, a equipe de fiscalização analisou as métricas de confiabilidade e disponibilidade do portal de serviços ao jurisdicionado. No cálculo formal preconizado pela literatura de engenharia de software e normas ISO/IEC de qualidade de produto, utilizam-se o MTBF (*Mean Time Between Failures* - Tempo Médio Entre Falhas) e o MTTR (*Mean Time To Repair* - Tempo Médio Para Reparo). A fórmula clássica que expressa a Disponibilidade Operacional ($D$) de um sistema computacional é:
+**(FCC – TRT-1 – Analista Judiciário (TI) – 2014)**  
+A qualidade de software  constitui-se em um fator de grande importância no seu desenvolvimento. Dentre as propriedades utilizadas para determinar a qualidade de software ,
 
-* **A)** $D = \frac{MTBF}{MTBF + MTTR}$
-* **B)** $D = \frac{MTTR}{MTBF + MTTR}$
-* **C)** $D = MTBF - MTTR$
-* **D)** $D = \frac{MTBF \times MTTR}{100}$
-* **E)** $D = \frac{MTTR}{MTBF}$
-
+* **A)** mede-se, exclusivamente, a qualidade da documen- tação produzida para o software .
+* **B)** verifica-se a satisfação de requisitos estabelecidos, incluindo o desempenho.
+* **C)** não se abrange questões relativas à interface do software .
+* **D)** não há preocupação com a facilidade de manuten- ção do software .
+* **E)** não se inclui a confiabilidade esperada do software . _________________________________________________________
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) CORRETA.** A **Disponibilidade Operacional ($D$)** representa a fração de tempo em que o sistema está operacional e apto para uso. O tempo total de ciclo é a soma do tempo de operação estável ($MTBF$) com o tempo de indisponibilidade para reparo ($MTTR$). Logo, a disponibilidade é a razão entre o tempo produtivo e o tempo total: $D = \frac{MTBF}{MTBF + MTTR}$.
-> - **B) Incorreta.** Essa equação calcula a taxa de **indisponibilidade fracionária** (*unavailability*).
-> - **C) Incorreta.** Subtração dimensionalmente desprovida de sentido estatístico para cálculo de disponibilidade percentual.
-> - **D) Incorreta.** Produto desprovido de base teórica no cálculo de confiabilidade de sistemas.
-> - **E) Incorreta.** A razão de MTTR por MTBF não representa percentual de disponibilidade.
+> - **A)** Incorreta. A portabilidade refere-se à facilidade com que o software pode ser transferido de um ambiente computacional para outro.
+> - **B)** Correta. Segundo as normas de qualidade de produto de software (ISO/IEC 9126 e ISO/IEC 25010 SQuaRE), a confiabilidade (reliability) avalia a capacidade do software de manter seu nível de desempenho sob condições estabelecidas durante um período determinado, abrangendo maturidade, tolerância a falhas e capacidade de recuperação.
+> - **C)** Incorreta. A manutenibilidade mede o esforço necessário para modificar o software (corretiva, adaptativa ou evolutivamente).
+> - **D)** Incorreta. A usabilidade diz respeito à facilidade de aprendizado e operação pelo usuário.
+> - **E)** Incorreta. A eficiência avalia o tempo de resposta e o consumo adequado de recursos do sistema.
 >
-> **Gabarito: A**
+> **Gabarito: B**
 
 ---
 
@@ -184,116 +183,142 @@ Proposta por Thomas McCabe em 1976, a **Complexidade Ciclomática ($V(G)$)** med
 ---
 
 ### Teste 044
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A Pirâmide de Testes, conceito consolidado na engenharia de software moderna por Mike Cohn e Martin Fowler, estabelece a proporção e distribuição ideal entre diferentes categorias de testes automatizados em um pipeline de integração contínua (CI/CD). Em conformidade com as diretrizes desse modelo, é correto afirmar:
+**(FCC – TRT-1 – Analista Judiciário (TI) – 2014)**  
+Considerando o teste de software , há o chamado teste de unidade, que consiste em testar
 
-* **A)** a base da pirâmide deve concentrar o maior volume de testes automatizados da aplicação, sendo constituída por Testes de Unidade, caracterizados por alta velocidade de execução, isolamento rigoroso de dependências externas e baixo custo de manutenção.
-* **B)** o topo da pirâmide deve concentrar mais de 80% do esforço de testes por meio de testes manuais exaustivos de ponta a ponta na interface gráfica de usuário.
-* **C)** a camada intermediária de testes de integração deve ser suprimida em arquiteturas de microsserviços, transferindo toda a validação de rede para os testes de unidade.
-* **D)** a pirâmide recomenda a inversão de sua geometria (formato cone de sorvete) quando o sistema opera sob infraestrutura de nuvem pública.
-* **E)** os testes de unidade demandam maior tempo de execução computacional do que os testes ponta a ponta em virtude da complexidade de mocks e stubs.
-
+* **A)** o software completo, incluindo todos os seus compo- nentes ou módulos, no ambiente de testes.
+* **B)** o funcionamento dos compiladores que estiverem sendo utilizados no desenvolvimento do software .
+* **C)** individualmente, componentes ou módulos de software que, posteriormente devem ser testados de maneira integrada.
+* **D)** o software completo em seu ambiente final de operação, já com o hardware base do projeto.
+* **E)** apenas componentes ou módulos de software cujo código fonte tenha mais de 100 linhas. _________________________________________________________
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) CORRETA.** A **Pirâmide de Testes** prescreve:
->     - **Base (maior volume):** Testes de **Unidade** (rápidos, baratos, isolados, executam em milissegundos sem I/O pesado);
->     - **Meio (volume moderado):** Testes de **Integração / Serviços** (validam comunicação entre componentes, banco de dados e APIs);
->     - **Topo (menor volume):** Testes de **Ponta a Ponta (E2E / UI)** (lentos, caros, frágeis e suscetíveis a falsos positivos).
-> - **B) Incorreta.** Concentrar o esforço no topo configura o anti-padrão do "cone de sorvete" (*ice-cream cone anti-pattern*), que torna a suíte lenta e instável.
-> - **C) Incorreta.** Testes de integração são indispensáveis para validar comunicação entre módulos, bancos e contratos de rede.
-> - **D) Incorreta.** O modelo em cone de sorvete é um anti-padrão nocivo a ser evitado em qualquer ambiente tecnológico.
-> - **E) Incorreta.** Inversão completa: testes unitários são ordens de grandeza mais rápidos e leves que testes ponta a ponta.
+> - **A)** Incorreta. Testar a comunicação entre subsistemas e módulos integrados caracteriza os testes de integração.
+> - **B)** Incorreta. Avaliar o sistema completo em conformidade com as regras de negócio finais é o objetivo do teste de aceitação.
+> - **C)** Correta. O teste de unidade (ou unitário) consiste em testar a menor parte testável de uma aplicação de software (como funções, métodos, classes ou módulos isolados), verificando se o componente individual se comporta rigorosamente conforme o especificado, tipicamente isolando dependências externas com o uso de stubs e mocks.
+> - **D)** Incorreta. Testar o comportamento sob alta carga de acessos concorrentes define os testes de estresse/desempenho.
+> - **E)** Incorreta. A verificação do sistema contra ataques externos refere-se aos testes de segurança e vulnerabilidade.
 >
-> **Gabarito: A**
+> **Gabarito: C**
 
 ---
 
 ### Teste 045
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No desenvolvimento orientado por testes (*Test-Driven Development* - TDD) e na construção de testes unitários isolados para sistemas de auditoria corporativos, empregam-se diferentes categorias de dublês de teste (*Test Doubles*, conforme taxonomia de Gerard Meszaros). O dublê que é pré-configurado especificamente com expectativas formais sobre quais métodos devem ser chamados, com quais parâmetros exatos e em qual quantidade de invocações, fazendo com que o teste falhe automaticamente caso as interações não ocorram conforme o esperado, classifica-se como:
+**(FCC – TRT-14 – Analista Judiciário (TI) – 2016)**  
+Considere o código em Java que realiza testes unitários com o framework JUnit: import junit.framework.TestCase; public class MatematicaTest ......I  { private Matematica math=new Matematica(18, 3); public void testadd() { this.assertTrue(this.math.add()==21); } public void testsubtract() { this.assertTrue(this.math.subtract()=15); } public void testmultiply() { this.assertTrue(this.math.multiply()==54); } public void testdivide() { this.assertTrue(this.math.divide()==6); } public static void main(String[] args) { junit.textui.TestRunner.run( ......II  ); } } As lacunas I e II devem ser, correta e respectivamente, preenchidas com
 
-* **A)** Mock.
-* **B)** Stub.
-* **C)** Dummy.
-* **D)** Fake.
-* **E)** Spy.
-
+* **A)** extends TestCase e MatematicaTest.class
+* **B)** extends junit e MatematicaTest
+* **C)** protected e assertEquals (MatematicaTest.class)
+* **D)** protected TestCase e assertEquals(MatematicaTest)
+* **E)** throws Exception e assertSame (MatematicaTest) Caderno de Prova ’C03’, Tipo 001 TRT14R-An.Jud.-Tec.Informação-C03 11
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) CORRETA.** Na taxonomia de Meszaros:
->     - **Mock:** É o dublê de **verificação de comportamento**. É pré-programado com *expectativas* (quais métodos devem ser chamados, parâmetros e contagem). O mock realiza verificação ativa e falha o teste caso o fluxo de chamadas divirja do esperado;
->     - **Stub:** Fornece respostas enlatadas (*canned answers*) pré-definidas para as chamadas feitas durante o teste, sem verificar comportamento;
->     - **Dummy:** Objeto passado apenas para preencher parâmetros de assinatura de método, nunca sendo invocado;
->     - **Fake:** Implementação simplificada funcionalmente funcional, mas inadequada para produção (ex.: banco em memória H2 ou repositório em HashMap);
->     - **Spy:** Registra passivamente informações sobre como foi chamado para verificação posterior (*asserts*).
-> - **B) Incorreta.** O Stub retorna respostas fixas sem validar expectativas de chamadas.
-> - **C) Incorreta.** O Dummy apenas preenche assinaturas sem uso ativo.
-> - **D) Incorreta.** O Fake possui lógica funcional real simplificada.
-> - **E) Incorreta.** O Spy registra chamadas, mas a verificação é feita a posteriori pelo teste, não por expectativas pré-programadas ativas como no Mock.
+> - **A)** Correta. No framework de testes JUnit para Java, o método asserção assertEquals(esperado, obtido) verifica se o valor retornado pelo método sob teste coincide exatamente com o valor esperado, provocando a falha do teste caso haja discrepância.
+> - **B)** Incorreta. O método assertTrue avalia condições estritamente booleanas, e não igualdade de valores numéricos complexos.
+> - **C)** Incorreta. A anotação @Test identifica os métodos executáveis de teste, não servindo como método de verificação de resultado.
+> - **D)** Incorreta. O método fail() força explicitamente a reprovação do teste sem comparar resultados.
+> - **E)** Incorreta. assertSame verifica a identidade de referência em memória (==), e não a igualdade de valores de objetos.
 >
 > **Gabarito: A**
 
 ---
 
 ### Teste 046
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No âmbito das técnicas funcionais de teste de software (Caixa-Preta), o Particionamento em Classes de Equivalência e a Análise de Valor Limite são métodos fundamentais para a seleção sistemática de casos de teste. A respeito dos fundamentos técnicos e das regras de aplicação dessas abordagens, é correto afirmar:
+**(FCC – TRT-14 – Analista Judiciário (TI) – 2016)**  
+Ao escrever testes funcionais, um Analista precisa utilizar um controle de espera para que uma ação seja disparada depois d e alguma outra ação. No Selenium WebDriver, um Analista pode optar pela utilização de um controle de espera
 
-* **A)** No particionamento em classes de equivalência, divide-se o domínio de dados de entrada em partições válidas e inválidas, partindo da premissa de que qualquer dado representativo selecionado dentro de uma mesma partição revelará comportamento análogo do sistema.
-* **B)** O particionamento em classes de equivalência requer a descompilação e análise do código-fonte para contabilizar o número de instruções condicionais `if-else`.
-* **C)** A análise de valor limite assume que a probabilidade de ocorrência de erros no software é estatisticamente uniforme em todo o intervalo contínuo de entrada, dispensando testes nas fronteiras.
-* **D)** As técnicas de teste funcional de caixa-preta baseiam-se primordialmente na complexidade ciclomática de McCabe e na cobertura de comandos do código compilado.
-* **E)** A análise de valor limite restringe-se a testar exclusivamente o ponto médio aritmético de cada partição, ignorando os extremos superior e inferior.
-
+* **A)** implícito, como o Thread.sleep(), que determina um tempo fixo que alguma ação no teste precisa esperar antes de ser executada. Se este tempo for ultrapassado, o teste não falhará.
+* **B)** explícito, como o Thread.sleep(). Se a ação estiver pronta para ser executada antes do tempo fixado, o teste conti- nuará.
+* **C)** explícito, como o WebDriver.manage().timeouts(), que permite esperar por um certo elemento na tela por um tempo de espera mínimo. Se este tempo for ultrapassado, o teste falhará.
+* **D)** implícito, cujo valor padrão é 0. Este tempo deve ser baixo, para evitar que o Selenium fique esperando por um elemento na tela antes de acusar um erro de tempo de espera excedido.
+* **E)** explícito, cujo valor padrão é 10. Seu valor não deve ser ba ixo para evitar problemas em controle de tempo entre ações no teste.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) CORRETA.** O **Particionamento em Classes de Equivalência** divide o domínio de entrada em partições de dados equivalentes (válidas e inválidas). Assume-se que todos os membros de uma partição são tratados da mesma forma pela aplicação; logo, testar um único valor típico de cada classe é suficiente para inferir a conformidade dos demais.
-> - **B) Incorreta.** Inspecionar código-fonte ou descompilar binários é característica de testes estruturais (**Caixa-Branca**), e não de técnicas funcionais de Caixa-Preta.
-> - **C) Incorreta.** A premissa da **Análise de Valor Limite** é exatamente oposta: a vasta maioria dos defeitos de software concentra-se nas **fronteiras e limites** das classes de equivalência ($min$, $min-1$, $min+1$, $max$, $max-1$, $max+1$).
-> - **D) Incorreta.** Complexidade ciclomática e cobertura de comandos são métricas de teste de Caixa-Branca.
-> - **E) Incorreta.** O ponto médio aritmético é o valor típico testado no particionamento de equivalência; o valor limite foca estritamente nas fronteiras superior e inferior.
+> - **A)** Incorreta. A espera estática rígida (Thread.sleep) é uma má prática que torna os testes lentos e instáveis.
+> - **B)** Incorreta. O polling contínuo sem timeout pode gerar loops infinitos na suíte de testes automatizados.
+> - **C)** Incorreta. A espera implícita global afeta todos os elementos indiscriminadamente, não tratando condições específicas de eventos assíncronos.
+> - **D)** Correta. Na automação de testes funcionais (como no Selenium WebDriver), a Espera Explícita (Explicit Wait / WebDriverWait) configura o controle ideal para aguardar dinamicamente até que uma condição esperada (ExpectedCondition) específica se concretize antes de prosseguir com a interação, evitando quebras por assincronismo sem desperdício de tempo.
+> - **E)** Incorreta. O tratamento genérico de exceções mascara defeitos reais na interface gráfica da aplicação.
 >
-> **Gabarito: A**
+> **Gabarito: D**
 
 ---
 
 ### Teste 047
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere um método Java que implementa a regra de validação de elegibilidade de licitantes em um sistema de compras governamentais. A inspeção do grafo de fluxo de controle desse método identificou três comandos condicionais `if` simples independentes, uma estrutura de repetição `while` e um comando `switch-case` composto por quatro cláusulas `case` e uma cláusula `default`. Aplicando a técnica de teste estrutural de Caixa-Branca baseada na Complexidade Ciclomática de Thomas McCabe ($V(G)$), a quantidade de caminhos linearmente independentes e, consequentemente, o número mínimo de casos de teste necessários para assegurar cobertura integral de ramificações (*branch coverage*) é:
+**(FCC – TRT – Analista Judiciário (TI) – 2024)**  
+Considerando o DevOps e suas boas práticas, analise os itens a
 
-* **A)** 9.
-* **B)** 8.
-* **C)** 10.
-* **D)** 12.
-* **E)** 7.
+seguir:
 
+I. Testes integrados são uma parte importante do processo
+
+DevOps. Esses testes devem levar em consideração as
+
+práticas de Test -Driven Development e Behavior -Driven
+
+Development, dessa forma a execução automática desses
+
+testes pode ser integrada ao pipeline de  CI. No entanto, é
+
+importante integrar outros tipos de testes, como testes
+
+funcionais ou testes de integração, que permitem que o
+
+aplicativo seja testado funcionalmente do início ao fim com
+
+os outros componentes do seu ecossistema.
+
+II. Recomenda-se automat izar apenas as tarefas críticas que
+
+envolvam poucas atualizações na implementação e nos testes
+
+dos aplicativos nas infraestruturas. Essas tarefas devem ser
+
+automatizadas em scripts que podem ser facilmente
+
+integradas e executadas em pipelines de CI/CD.
+
+III. A construção de pipelines de CI/CD envolvem a escolha de
+
+ferramentas de DevOps adequadas pelas equipes
+
+considerando a natureza da empresa. E necessário levar em
+
+conta aspectos financeiros, avaliar entre ferramentas de
+
+código aberto e gratuitas e as propr ietárias, que são mais
+
+ricas em recursos e suporte, mas exigem um investimento
+
+significativo.
+
+Está correto apenas o que se afirma em
+
+* **A)** I e III.
+* **B)** I.
+* **C)** I e II.
+* **D)** II e III.
+* **E)** II.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) CORRETA.** Pela consagrada métrica de Complexidade Ciclomática de McCabe:
->     $$V(G) = P + 1$$
->     onde $P$ representa a quantidade de pontos de decisão (predicados binários no código):
->     - 3 comandos `if` simples = 3 pontos de decisão;
->     - 1 laço `while` = 1 ponto de decisão;
->     - 1 estrutura `switch` com 4 cláusulas `case` = 4 pontos de decisão (cada `case` atua como um desvio alternativo; o `default` é o caminho residual).
->     
->     Total de pontos de decisão: $P = 3 + 1 + 4 = 8$.  
->     Logo: $V(G) = 8 + 1 = 9$ caminhos linearmente independentes.
-> - **B) Incorreta.** Equivale a calcular apenas $P$ sem somar o caminho linear básico ($+1$).
-> - **C) Incorreta.** Contabilizou indevidamente o ramo `default` como predicado adicional.
-> - **D) Incorreta.** Valor arbitrário inflacionado.
-> - **E) Incorreta.** Subestimou as ramificações do laço de repetição ou dos desvios `case`.
+> - **A)** Correta. Nas práticas modernas de DevOps e Integração Contínua (CI/CD), a execução automatizada de testes integrados e regressivos no pipeline de entrega assegura a detecção precoce de incompatibilidades entre microsserviços e bibliotecas antes da promoção de artefatos para o ambiente de produção.
+> - **B)** Incorreta. O item II nega a utilidade dos testes de regressão automatizados, contrariando as premissas centrais do DevOps.
+> - **C)** Incorreta. O isolamento manual de ambientes sem automação eleva o risco de falhas operacionais em produção.
+> - **D)** Incorreta. O teste de fumaça (smoke test) não substitui os testes funcionais de cobertura completa.
+> - **E)** Incorreta. A ausência de monitoramento pós-deploy contraria a cultura de observabilidade do DevOps.
 >
 > **Gabarito: A**
 

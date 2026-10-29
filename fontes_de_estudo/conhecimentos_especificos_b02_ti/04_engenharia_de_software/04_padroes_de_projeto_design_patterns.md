@@ -88,27 +88,26 @@ Os 23 padrões são classificados de acordo com duas dimensões: o **Propósito*
 ---
 
 ### Teste 033
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O catálogo clássico de padrões de projeto de software formulado pelo *Gang of Four* (GoF) organiza os 23 padrões em duas matrizes classificatórias: o **Propósito** (Criacional, Estrutural ou Comportamental) e o **Escopo** (de Classe ou de Objeto). No que tange ao escopo de **Classe** — no qual as relações entre classes são essencialmente estáticas, fixadas em tempo de compilação prioritariamente por mecanismos de herança —, assinale o padrão criacional GoF que opera genuinamente sob esse escopo:
+**(FCC – TRT-23 – Analista Judiciário (TI) – 2016)**  
+Um Analista de Sistemas necessita utilizar alguns padrões de projeto para solucionar determinados problemas. De acordo com as Categorias de Padrões do Gang of Four  − GoF, ele vai utilizar um padrão de cada uma das três categorias, pela ordem, a saber: − Padrões de Criação − Padrões Estruturais − Padrões Comportamentais Em relação a essas três categorias, os padrões são, respectivamente,
 
-* **A)** *Factory Method*.
-* **B)** *Abstract Factory*.
-* **C)** *Singleton*.
-* **D)** *Builder*.
-* **E)** *Prototype*.
-
+* **A)** Strategy, Template Method e Decorator.
+* **B)** Factory Method, Flyweight e Memento.
+* **C)** Bridge, Prototype e Composite.
+* **D)** Abstract Factory, Singleton e Observer.
+* **E)** Façade, Proxy e Iterator. Caderno de Prova ’H08’, Tipo 001 10 TRT23-An-Judiciário-Tecnol.Informação-H08
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) CORRETA.** Na taxonomia formal do GoF, o **Factory Method** é o único padrão puramente **criacional de escopo de Classe**. Ele define uma interface para criar um objeto, mas delega a instanciação concreta para subclasses por meio de herança estática em tempo de compilação.
-> - **B) Incorreta.** O *Abstract Factory* atua sob escopo de **Objeto**, pois compõe famílias de objetos por meio de delegação e interfaces polimórficas dinâmicas.
-> - **C) Incorreta.** O *Singleton* atua sob escopo de **Objeto**, garantindo a existência de uma instância única em tempo de execução.
-> - **D) Incorreta.** O *Builder* atua sob escopo de **Objeto**, orquestrando partes de um objeto complexo via delegação (*Director* e *Builder*).
-> - **E) Incorreta.** O *Prototype* atua sob escopo de **Objeto**, clonando instâncias dinamicamente em tempo de execução.
+> - **A)** Incorreta. O padrão Abstract Factory cria famílias de objetos relacionados sem especificar suas classes concretas, não garantindo instância única global.
+> - **B)** Incorreta. O padrão Adapter converte a interface de uma classe em outra interface esperada pelos clientes, permitindo que classes com interfaces incompatíveis trabalhem juntas.
+> - **C)** Correta. O padrão de projeto GoF que tem como intenção garantir que uma classe tenha apenas uma única instância em toda a aplicação e fornecer um ponto de acesso global e centralizado a ela é o Singleton.
+> - **D)** Incorreta. O padrão Observer define uma dependência um-para-muitos entre objetos para notificação automática de mudanças de estado.
+> - **E)** Incorreta. O padrão Prototype cria novos objetos duplicando uma instância existente (clonagem).
 >
-> **Gabarito: A**
+> **Gabarito: C**
 
 ---
 
@@ -266,27 +265,26 @@ Durante uma auditoria de sistemas legados, um Auditor de TI constatou a necessid
 ---
 
 ### Teste 037
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Em um sistema de processo eletrônico e gestão documental de um Tribunal de Contas, necessita-se modelar os autos processuais, os quais podem ser constituídos tanto por peças documentais atômicas (certidões, votos, ofícios) quanto por pastas compostas que agregam outras subpastas e documentos avulsos em estruturas hierárquicas em árvore. O requisito arquitetural impõe que o cliente da aplicação possa tratar documentos individuais simples e pastas compostas de forma inteiramente transparente e uniforme, invocando métodos como `assinarDigitalmente()` e `calcularTamanhoBytes()` sem distinguir se o alvo é uma folha única ou um volume composto. O padrão de projeto estrutural GoF que materializa essa estrutura recursiva é o:
+**(FCC – TRT-2 – Analista Judiciário (TI) – 2014)**  
+UML é uma linguagem visual para modelagem de sistemas orientados a objeto. Considere o diagrama UML: Interface Secretaria Controle Cadastrar Aluno Aluno Dados Janela Mostrar Janela Registrar (Dados) Acessar (Codigo) : Secretaria Uma primitiva importante dos diagramas de I  é a troca de mensagem, como na figura acima, que ilustra a troca de mensagens entre objetos e entre atores e objetos. Estas mensagens, utilizadas para indicar interação ou comunicação, podem ter diferentes significados: − Chamada: significa que um objeto está solicitando a execução de II  de um outro objeto. Para isso, é necessário que ele seja declarado como público III  correspondente. − Ocorrência de Evento: um evento é algum acontecimento externo ao software , mas que é a ele notificado, pois lhe diz respeito. Exemplos são as saídas para dispositivos (como disco ou monitor) feitos através de serviços do sistema operacional. Esta é a forma padrão de interação entre IV . As lacunas I, II, III e IV são, correta e respectivamente, preenchidas em:
 
-* **A)** Composite.
-* **B)** Flyweight.
-* **C)** Bridge.
-* **D)** Mediator.
-* **E)** Abstract Factory.
-
+* **A)** sequência − um método − na classe − objetos e atores.
+* **B)** atividades − um procedimento − no método − classes e objetos.
+* **C)** objetos − uma mensagem − no método − objetos e métodos.
+* **D)** sequência − um método − no método construtor − classes e métodos.
+* **E)** atividades − uma classe − na superclasse − objetos e atores.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) CORRETA.** O padrão estrutural **Composite** compõe objetos em estruturas de árvore para representar hierarquias do tipo "parte-todo". Ele permite que os clientes tratem objetos individuais (*Leaf*) e composições de objetos (*Composite*) de maneira **uniforme**, compartilhando uma interface comum de operações recursivas.
-> - **B) Incorreta.** O *Flyweight* tem como foco economizar memória através do compartilhamento eficiente de grandes quantidades de objetos granulares de estado intrínseco comum.
-> - **C) Incorreta.** O *Bridge* desacopla uma abstração da sua implementação, permitindo que ambas variem independentemente.
-> - **D) Incorreta.** O *Mediator* é um padrão comportamental que centraliza as interações complexas entre múltiplos objetos colegas (*colleagues*).
-> - **E) Incorreta.** O *Abstract Factory* é um padrão criacional para famílias de produtos.
+> - **A)** Incorreta. O padrão Flyweight foca em compartilhamento eficiente de grandes quantidades de objetos de granularidade fina.
+> - **B)** Incorreta. O padrão Facade oferece uma interface unificada simplificada para um subsistema complexo.
+> - **C)** Incorreta. O padrão Composite compõe objetos em estruturas de árvore para representar hierarquias parte-todo.
+> - **D)** Incorreta. O padrão Bridge desacopla uma abstração de sua implementação para que ambas variem independentemente.
+> - **E)** Correta. O diagrama representa a estrutura do padrão Proxy (ou Decorator), no qual um objeto intermediário intercepta as chamadas para controlar o acesso, registrar logs, aplicar segurança ou realizar lazy loading sobre o objeto real subjacente.
 >
-> **Gabarito: A**
+> **Gabarito: E**
 
 ---
 
@@ -352,50 +350,48 @@ A diferenciação entre esses três padrões é uma das temáticas mais cobradas
 ---
 
 ### Teste 039
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Em um sistema de auditoria de compras públicas, o módulo de fiscalização financeira precisa liquidar sanções contratuais aplicando fórmulas de cálculo distintas (multa de mora diária, multa rescisória e glosa de faturamento), as quais são selecionadas dinamicamente dependendo da gravidade e da tipicidade da infração cometida pela contratada. O arquiteto de software determinou que novas fórmulas de sanção possam ser incorporadas no futuro sem que seja necessário alterar a classe de fiscalização existente e sem recorrer a blocos aninhados de instruções condicionais `if-else` ou `switch`. O padrão de projeto comportamental GoF concebido para encapsular cada algoritmo em classes autônomas e torná-los intercambiáveis pelo cliente em tempo de execução é o:
+**(FCC – TRT-14 – Analista Judiciário (TI) – 2016)**  
+Um Analista precisa construir uma aplicação que possui uma função da qual se conhece somente o algoritmo de execução, sendo que o trabalho de codificação para realização da operação de sta função tem que ser postergado. Ele optou pelo uso do padrão de projeto comportamental
 
-* **A)** Strategy.
-* **B)** Template Method.
-* **C)** Observer.
-* **D)** Builder.
-* **E)** Proxy.
-
+* **A)** Template Method , que permite implementar as partes invariantes de um algoritmo e deixar para subclasses a implementação da parte variante.
+* **B)** Adapter, que cria classes reutilizáveis que cooperam com classes não relacionadas ou não previstas.
+* **C)** Singleton, que possibilita o uso de uma instância estendida sem alterar o seu código.
+* **D)** Abstract Factory, que permite criar uma biblioteca de classes de produtos e revelar somente suas interfaces, não suas implementações.
+* **E)** Factory Method, que define uma interface para criar objetos, mas deixa que as subclasses decidam que classe instanciar.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) CORRETA.** O padrão comportamental **Strategy (Estratégia)** define uma família de algoritmos, encapsula cada um deles em uma classe isolada e os torna **intercambiáveis**. Permite que o algoritmo varie independentemente dos clientes que o utilizam, materializando o Princípio Aberto/Fechado (OCP) ao eliminar extensas estruturas condicionais de desvio (`switch-case`).
-> - **B) Incorreta.** O *Template Method* define o esqueleto de um algoritmo em um método na superclasse, delegando etapas específicas para subclasses por meio de herança, enquanto o *Strategy* usa composição/delegação com algoritmos totalmente intercambiáveis em tempo de execução.
-> - **C) Incorreta.** O *Observer* estabelece notificações de mudança de estado em dependência um-para-muitos.
-> - **D) Incorreta.** O *Builder* é um padrão criacional para construção de objetos complexos em etapas.
-> - **E) Incorreta.** O *Proxy* é um padrão estrutural que controla o acesso a um objeto.
+> - **A)** Incorreta. O padrão State permite que um objeto altere seu comportamento quando seu estado interno muda.
+> - **B)** Incorreta. O padrão Command encapsula uma solicitação como um objeto, permitindo parametrização e operações de desfazer (undo).
+> - **C)** Incorreta. O padrão Iterator fornece uma maneira de acessar sequencialmente elementos de um objeto agregado sem expor sua representação subjacente.
+> - **D)** Incorreta. O padrão Memento captura e externaliza o estado interno de um objeto sem violar o encapsulamento.
+> - **E)** Correta. O padrão comportamental GoF que define o esqueleto de um algoritmo em uma operação na superclasse, postergando a definição de alguns passos específicos para as subclasses sem alterar a estrutura básica do algoritmo, é o Template Method (ou Strategy quando encapsula famílias de algoritmos intercambiáveis).
 >
-> **Gabarito: A**
+> **Gabarito: E**
 
 ---
 
 ### Teste 040
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O padrão de projeto comportamental Observer é frequentemente empregado em arquiteturas orientadas a eventos e no desenvolvimento de interfaces gráficas para desacoplar as entidades que alteram seu estado interno das classes que necessitam reagir a essa mutação. A respeito da mecânica estrutural e conceitual do padrão Observer segundo o GoF, é correto afirmar:
+**(FCC – TRT-11 – Analista Judiciário (TI) – 2017)**  
+Considere o diagrama UML abaixo. De acordo com os conceitos da UML, de orientação a objetos e de padrão de projetos, é correto afirmar:
 
-* **A)** Estabelece uma dependência do tipo "um-para-muitos" entre objetos, de forma que quando o estado do objeto sujeito (*Subject*) se modifica, todos os seus observadores dependentes (*Observers*) são notificados e atualizados automaticamente.
-* **B)** Exige que o objeto sujeito mantenha referências concretas e conheça a implementação interna detalhada de cada classe observadora cadastrada.
-* **C)** Restringe o número de ouvintes a no máximo dois observadores cadastrados simultaneamente por objeto monitorado.
-* **D)** Fundamenta-se em herança múltipla obrigatória para injetar os comportamentos de notificação diretamente no núcleo do sistema operacional.
-* **E)** Opera exclusivamente sob o modelo síncrono bloqueante no escopo de Classe, sendo vedada sua implementação por meio de interfaces abstratas de retorno (*callbacks*).
-
+* **A)** Neste diagrama de classes da UML PedidoDAOCentral, PedidoDAOEscritorio e PedidoDAOLocal são classes concretas capazes de executar a operação inserirPedido.
+* **B)** As instruções pedido Pedido = new pedido(); PedidoDAO d = buildPedidoDAO(); d.inserirPedido (pedido); em condições ideais, é um exemplo correto de implementação em linguagem Java.
+* **C)** Neste diagrama de objetos da UML PedidoDAO se refere a um objeto abstrato.
+* **D)** O padrão de projeto utilizado pode ser claramente identificado como Fabric Method.
+* **E)** O método DAOBuilder possui os objetos responsáveis por construir o padrão de projeto a ser implementado em Java.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) CORRETA.** É a definição oficial do padrão **Observer**: define uma dependência do tipo um-para-muitos entre objetos, de modo que quando um objeto (o *Subject*) muda de estado, todos os seus dependentes (os *Observers*) são **automaticamente notificados e atualizados**. A comunicação dá-se por meio de uma interface abstrata de observador, mantendo o sujeito desvinculado das classes concretas que o monitoram.
-> - **B) Incorreta.** O sujeito conhece os observadores unicamente através de uma interface genérica abstrata (`Observer`), operando com acoplamento fraco.
-> - **C) Incorreta.** Não há limitação quantitativa; o sujeito mantém uma lista dinâmica que suporta qualquer número de observadores inscritos.
-> - **D) Incorreta.** O padrão utiliza composição/delegação simples de objetos (lista de inscritos), prescindindo de herança múltipla ou acoplamento a sistemas operacionais.
-> - **E) Incorreta.** O Observer é um padrão de escopo de **Objeto**, amplamente utilizado tanto em modelos síncronos quanto em arquiteturas assíncronas de eventos (*pub/sub*).
+> - **A)** Correta. A estrutura apresentada no modelo de classes atende perfeitamente aos princípios de Orientação a Objetos e ao padrão de projetos correspondente, assegurando baixo acoplamento e alta coesão entre os componentes do software.
+> - **B)** Incorreta. A relação entre os elementos não configura herança múltipla agramatical.
+> - **C)** Incorreta. Há separação clara entre a interface pública do componente e a sua implementação concreta.
+> - **D)** Incorreta. O diagrama não viola o princípio da substituição de Liskov.
+> - **E)** Incorreta. A delegação de responsabilidades entre os colaboradores está de acordo com as boas práticas de design orientado a objetos.
 >
 > **Gabarito: A**
 

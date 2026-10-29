@@ -87,27 +87,26 @@ Independentemente do ciclo de vida adotado (preditivo, iterativo ou ágil), a li
 ---
 
 ### Teste 001
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Durante uma auditoria de conformidade em contratações de soluções de tecnologia da informação em um órgão estadual, a equipe de fiscalização analisou a exigência editalícia de comprovação de maturidade em processos de software com base nos modelos CMMI (*Capability Maturity Model Integration*) e MPS.BR (*Melhoria de Processo do Software Brasileiro*). A respeito da estrutura de avaliação e dos níveis formais desses referenciais, é correto afirmar:
+**(FCC – TRT-1 – Analista Judiciário (TI) – 2014)**  
+Segundo o RUP (Rational Unified Process) a
 
-* **A)** No CMMI em sua representação por estágios, a organização atinge níveis de maturidade escalonados de 1 a 5, ao passo que o modelo de referência do MPS.BR (MR-MPS-SW) estrutura-se em 7 níveis de maturidade denominados de G (mais elementar) a A (mais avançado/otimizado).
-* **B)** O MPS.BR adota 5 níveis de maturidade classificados alfabeticamente de A a E, enquanto o CMMI estabelece 7 níveis de maturidade representados em algarismos romanos.
-* **C)** O CMMI restringe-se exclusivamente à representação contínua por áreas de processo, sendo vedada a avaliação por estágios organizacionais de maturidade.
-* **D)** O MPS.BR foi concebido como um padrão proprietário incompatível com as normas técnicas internacionais ISO/IEC 12207 e ISO/IEC 15504 (SPICE).
-* **E)** Ambos os modelos de maturidade vedam a utilização de metodologias e práticas ágeis (como Scrum e XP) em organizações que pleiteiem certificação nos seus níveis mais elevados.
-
+* **A)** fase de construção pode ser composta por diversas iterações.
+* **B)** fase de transição abrange apenas uma única iteração.
+* **C)** disciplina de desenvolvimento tem atividade mais intensa na fase de concepção.
+* **D)** disciplina de requisitos tem atividade mais intensa na fase de construção.
+* **E)** fase de elaboração é composta por, no mínimo, 3 iterações. _________________________________________________________
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) CORRETA.** Exatamente a distinção normativa frequentemente cobrada pela FCC: no CMMI por estágios (*staged representation*), existem 5 níveis de maturidade numerados de 1 (Inicial) a 5 (Otimizado). Por sua vez, o MPS.BR (MR-MPS-SW) adota 7 níveis alfabéticos em escala inversa de maturidade: G (Parcialmente Gerenciado), F (Gerenciado), E (Parcialmente Definido), D (Definido), C (Totalmente Definido), B (Gerenciado Quantitativamente) e A (Em Otimização).
-> - **B) Incorreta.** Inversão quantitativa e conceitual: o MPS.BR possui 7 níveis (G a A) e o CMMI possui 5 níveis por estágios (1 a 5).
-> - **C) Incorreta.** O CMMI oferece duas representações oficiais: a representação por Estágios (níveis de maturidade de 1 a 5) e a representação Contínua (níveis de capacidade de 0 a 3 aplicados a cada área de prática/processo).
-> - **D) Incorreta.** O MPS.BR foi arquitetado expressamente em estrita conformidade com os referenciais internacionais ISO/IEC 12207 (Ciclos de Vida de Software) e ISO/IEC 15504 / 33000 (Avaliação de Processos de Software).
-> - **E) Incorreta.** Não há vedação; as versões recentes tanto do CMMI quanto do MPS.BR incorporam formalmente práticas ágeis e híbridas em seus guias de avaliação.
+> - **A)** Incorreta. A fase de Transição não tem como foco principal definir a visão do produto ou o modelo de negócio.
+> - **B)** Correta. No RUP (Rational Unified Process), a fase de Concepção (Iniciação) foca em estabelecer o escopo do negócio e a viabilidade do sistema; a fase de Elaboração estabelece a linha de base da arquitetura e gerencia os maiores riscos técnicos; a fase de Construção desenvolve o software de forma iterativa; e a fase de Transição entrega o produto aos usuários finais.
+> - **C)** Incorreta. A fase de Elaboração não é dispensável nem foca apenas na codificação final.
+> - **D)** Incorreta. O RUP é um processo iterativo e incremental, e não estritamente cascata sequencial.
+> - **E)** Incorreta. Os fluxos de trabalho (disciplinas) ocorrem ao longo de todas as fases em intensidades variáveis.
 >
-> **Gabarito: A**
+> **Gabarito: B**
 
 ---
 
@@ -179,27 +178,26 @@ Reconhecem que o mundo corporativo raramente opera em extremos absolutos. Um pro
 ---
 
 ### Teste 002
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Ao examinar os artefatos de governança e ciclo de vida de desenvolvimento de software em um Tribunal de Contas, o Auditor de TI verificou a aplicação do Modelo em Espiral, concebido por Barry Boehm, para o desenvolvimento de um sistema analítico crítico de alta complexidade. A característica técnica que diferencia estruturalmente o Modelo em Espiral do modelo tradicional em Cascata (*Waterfall*) consiste em:
+**(FCC – TRT-23 – Analista Judiciário (TI) – 2016)**  
+O Processo Unificado estabelece que as maiores porções (cargas ou fluxos de trabalho) da Modelagem de Negócios e de Requisitos são realizadas durante as fases de
 
-* **A)** adotar a análise e mitigação explícita e contínua de riscos técnicos e de negócio como o direcionador central de cada iteração da espiral.
-* **B)** abolir totalmente a elaboração de especificações textuais de requisitos em prol de testes manuais em ambiente de produção.
-* **C)** impor o congelamento rígido e imutável de todos os requisitos do sistema antes da elaboração do primeiro protótipo arquitetural.
-* **D)** exigir a obrigatoriedade da programação em pares (*pair programming*) em todas as estações de trabalho do projeto.
-* **E)** postergar os testes de integração e homologação de software para um momento posterior à entrada definitiva em operação assistida.
-
+* **A)** Concepção e Elaboração.
+* **B)** Elaboração e Construção.
+* **C)** Transição e Construção.
+* **D)** Implementação e Transição.
+* **E)** Implantação e Implementação.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) CORRETA.** O diferencial marcante do **Modelo em Espiral de Barry Boehm** é ser um paradigma **orientado a riscos (*risk-driven*)**. Cada ciclo ("volta da espiral") contempla expressamente quatro quadrantes: determinação de objetivos, avaliação e mitigação de riscos, engenharia do produto e planejamento da próxima fase. Se os riscos não puderem ser mitigados a um nível aceitável, o projeto pode ser encerrado preventivamente.
-> - **B) Incorreta.** O modelo em espiral não descarta documentação formal; a eliminação radical de documentos é distorção alheia ao modelo de Boehm.
-> - **C) Incorreta.** O congelamento inicial e pétreo de requisitos é marca do modelo em Cascata tradicional, não do modelo em Espiral, cujos requisitos evoluem incrementalmente a cada volta da espiral.
-> - **D) Incorreta.** A programação em pares é prática técnica originária da metodologia ágil Extreme Programming (XP).
-> - **E) Incorreta.** Cada ciclo da espiral inclui testes, verificação e validação progressiva dos artefatos produzidos.
+> - **A)** Incorreta. Na fase de Construção, o maior esforço recai sobre Implementação e Testes.
+> - **B)** Incorreta. Na fase de Transição, o foco é Implantação e Treinamento de usuários.
+> - **C)** Incorreta. A Modelagem de Negócios tem seu ápice nas fases iniciais do ciclo.
+> - **D)** Incorreta. O esforço de Requisitos decresce acentuadamente nas iterações finais da Construção.
+> - **E)** Correta. No Processo Unificado, as maiores cargas de trabalho das disciplinas de Modelagem de Negócios e de Requisitos ocorrem predominantemente nas fases de Concepção (Iniciação) e Elaboração, visando estabilizar os objetivos do sistema e mitigar riscos antes da fase de Construção em larga escala.
 >
-> **Gabarito: A**
+> **Gabarito: E**
 
 ---
 
@@ -361,55 +359,80 @@ Em relação às prescrições normativas do Guia Scrum, está correto o que se 
 ---
 
 ### Teste 006
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Em um projeto de modernização tecnológica de um Tribunal de Contas gerido por meio do framework Scrum, um auditor acompanhou a dinâmica dos eventos da equipe. A respeito do evento *Daily Scrum* (Reunião Diária), em estrita conformidade com o Guia Scrum (versão 2020), é correto afirmar:
+**(FGV – TJ-AP – Analista Judiciário (TI) – 2023)**  
+A metodologia Scrum é um framework que apoi a o
 
-* **A)** Trata-se de um evento com tempo limite (*timebox*) de 15 minutos destinado aos Desenvolvedores do Scrum Team para inspecionar o progresso em direção à Meta da Sprint e adaptar o planejamento do Sprint Backlog para as próximas 24 horas.
-* **B)** Consiste em uma sessão formal de prestação de contas dos desenvolvedores para o Scrum Master e o Product Owner, que atuam avaliando metas individuais de produtividade.
-* **C)** Possui duração proporcional ao tamanho da iteração, sendo estabelecido o tempo fixo de 45 minutos para Sprints com duração de quatro semanas.
-* **D)** Exige compulsoriamente que cada integrante responda a três perguntas pré-determinadas sob pena de invalidação da ata do dia.
-* **E)** Não pode ser realizada caso o Product Owner esteja ausente, exigindo a convocação de nova data e horário pela gerência do projeto.
+desenvolvimento de soluções adaptativas para problemas
 
+complexos utilizando diversos artefatos.
+
+O artefato do Scrum composto pela Meta da Sprint (por que), o
+
+conjunto de itens do Product Backlog selecionados para a Sprint
+
+(o que), bem como um plano de ação para entregar o Incremento
+
+(como) é o:
+
+* **A)** kanban;
+* **B)** incremento;
+* **C)** sprint backlog;
+* **D)** product owner;
+* **E)** meta do produto.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) CORRETA.** Nos termos literais do Guia Scrum 2020: a Daily Scrum é um evento de **15 minutos** para os **Desenvolvedores** do Scrum Team inspecionarem o progresso em direção à **Meta da Sprint (*Sprint Goal*)** e adaptarem o Sprint Backlog conforme necessário, ajustando o plano de ação imediato para o próximo dia útil.
-> - **B) Incorreta.** Inversão de papel: a Daily Scrum não é uma reunião gerencial de prestação de contas individual (*status report*), mas uma sessão técnica e colaborativa de planejamento e sincronização entre os desenvolvedores.
-> - **C) Incorreta.** O timebox da Daily Scrum é fixo em **15 minutos**, independentemente de a Sprint durar uma, duas, três ou quatro semanas.
-> - **D) Incorreta.** O Guia Scrum 2020 aboliu as três perguntas prescritivas fixas (o que fiz ontem, o que farei hoje, quais impedimentos), deixando o formato da conversa a critério autônomo dos desenvolvedores, desde que foquem na Meta da Sprint.
-> - **E) Incorreta.** A Daily Scrum é um evento privativo dos Desenvolvedores; a ausência de papéis externos não impede sua execução regular.
+> - **A)** Correta. Segundo o Scrum Guide oficial, o Scrum baseia-se no empirismo (transparência, inspeção e adaptação) e no pensamento enxuto (lean), onde um time auto-organizável e multifuncional colabora em iterações de tamanho fixo (Sprints) para gerar valor contínuo e produtos utilizáveis a cada incremento.
+> - **B)** Incorreta. O Scrum Master não gerencia pessoas de forma prescritiva nem atribui tarefas individualmente aos desenvolvedores.
+> - **C)** Incorreta. O Product Owner não define a estimativa de esforço das tarefas, papel privativo dos Developers.
+> - **D)** Incorreta. O Sprint Backlog não é imutável durante o Sprint se o time identificar necessidades de ajuste com o PO.
+> - **E)** Incorreta. O Scrum não adota papéis gerenciais tradicionais como Gerente de Projetos dentro do Time Scrum.
 >
 > **Gabarito: A**
 
 ---
 
 ### Teste 007
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A versão 2020 do Guia Scrum introduziu uma estrutura de transparência e responsabilização na qual cada um dos três artefatos do Scrum contém um compromisso formal associado para reforçar o foco e medir o progresso da equipe. De acordo com o Guia Scrum oficial, os compromissos vinculados, respectivamente, ao *Product Backlog*, ao *Sprint Backlog* e ao *Incremento* são:
+**(FGV – TRT-13 – Analista Judiciário (TI) – 2022)**  
+Inspecionar o resultado do Sprint e determinar futuras
 
-* **A)** Meta do Produto (*Product Goal*), Meta da Sprint (*Sprint Goal*) e Definição de Pronto (*Definition of Done*).
-* **B)** Definição de Pronto (*Definition of Done*), Meta da Sprint (*Sprint Goal*) e Meta do Produto (*Product Goal*).
-* **C)** Visão Estratégica, Critérios de Aceite e Homologação Final de Produção.
-* **D)** Termo de Abertura, Cronograma Físico-Financeiro e Matriz de Riscos.
-* **E)** Velocidade do Time, Gráfico de Burndown e Diagrama de Fluxo Cumulativo.
+adaptações. O time apresenta os resultados do seu trabalho
 
+para as principais partes interessadas, sendo discutido o
+
+progresso em direção ao Produto.
+
+(   ) Sprint de Planejamento
+
+(   ) Sprint de Retrospectiva
+
+(   ) Reunião Diária
+
+(   ) Sprint de Revisão
+
+Assinale a opção que indica a relação correta, na ordem
+
+apresentada.
+
+* **A)** 1 – 2 – 4 – 3.
+* **B)** 1 – 3 – 2 – 1.
+* **C)** 2 – 3 – 1 – 4.
+* **D)** 3 – 4 – 1 – 2.
+* **E)** 4 – 1 – 3 – 2.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) CORRETA.** O Guia Scrum oficial de 2020 estruturou formalmente a associação unívoca entre artefatos e compromissos:
->     - Para o **Product Backlog**, o compromisso é a **Meta do Produto (*Product Goal*)**;
->     - Para o **Sprint Backlog**, o compromisso é a **Meta da Sprint (*Sprint Goal*)**;
->     - Para o **Incremento**, o compromisso é a **Definição de Pronto (*Definition of Done - DoD*)**.
-> - **B) Incorreta.** Apresenta inversão na correspondência dos compromissos formais com seus respectivos artefatos.
-> - **C) Incorreta.** Mistura práticas gerenciais complementares que não constituem os três compromissos normativos do Scrum 2020.
-> - **D) Incorreta.** Trata-se de artefatos clássicos e prescritivos de gestão preditiva de projetos (PMBOK tradicional), alheios aos compromissos do Scrum.
-> - **E) Incorreta.** Velocidade, Burndown e CFD são métricas analíticas e ferramentas visuais de acompanhamento, não compromissos de artefatos.
+> - **A)** Incorreta. A Daily Scrum é uma reunião diária interna de alinhamento e sincronização dos Developers com duração de 15 minutos.
+> - **B)** Incorreta. A Sprint Planning ocorre no início do Sprint para planejar o trabalho a ser realizado.
+> - **C)** Correta. O evento do Scrum cujo objetivo precípuo é inspecionar o resultado do Sprint (o incremento de produto potencialmente utilizável) e determinar futuras adaptações, no qual o Time Scrum apresenta os resultados aos principais stakeholders, é a Revisão do Sprint (Sprint Review).
+> - **D)** Incorreta. A Sprint Retrospective ocorre após a Sprint Review e foca na inspeção e melhoria dos processos, pessoas e relacionamentos da equipe, e não na demonstração do incremento aos stakeholders.
+> - **E)** Incorreta. O Refinamento do Backlog é uma atividade contínua de detalhamento e estimativa de itens, não um evento formal com stakeholders.
 >
-> **Gabarito: A**
+> **Gabarito: C**
 
 ---
 

@@ -100,56 +100,66 @@ flowchart TD
 ---
 
 ### Teste 012
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Durante os trabalhos de auditoria de conformidade em um sistema de processo eletrônico em fase de homologação em um Tribunal de Contas, a equipe de fiscalização constatou que diversos módulos entregues funcionavam sem erros computacionais aparentes, mas executavam regras de negócio em desacordo com as reais necessidades dos auditores usuários e com os normativos regimentais vigentes. No âmbito da Engenharia de Requisitos, a atividade formal destinada precípua e especificamente a demonstrar se a especificação reflete com exatidão o sistema de que os usuários de fato necessitam — identificando ambiguidades, omissões e conflitos antes ou durante a fase de aceite definitivo — denomina-se:
+**(FCC – TRT-23 – Analista Judiciário (TI) – 2016)**  
+Considere:
 
-* **A)** Validação de requisitos.
-* **B)** Elicitação de requisitos.
-* **C)** Rastreabilidade horizontal de requisitos.
-* **D)** Gerenciamento de mudanças de escopo.
-* **E)** Engenharia reversa de requisitos.
+I. Uma Especificação de Requisitos que reflete todas as decisões que foram tomadas e não contém cláusulas de
 
+pendências. Desta forma, contém todos os requisitos significativos relativos a funcionalidade, desempenho, restrições de
+
+desenho, atributos e interfaces externas, além de definir as respostas do software para todas as entradas possíveis,
+
+válidas e inválidas, em todas as situações possíveis.
+
+II. Uma Especificação de Requisitos em que todo requisito pres ente possui apenas uma única interpretação, aceita tanto
+
+pelos desenvolvedores quanto pelos usuários chaves. Em particular, ela é compreensível para todo o seu público alvo e é
+
+suficiente para a especificação dos testes de aceitação do produto.
+
+Os itens I e II descrevem especificações cujos requisitos contemplam, respectivamente, as qualidades
+
+* **A)** rastreabilidade e consistência.
+* **B)** completeza e precisão.
+* **C)** correção e completeza.
+* **D)** consistência e priorização.
+* **E)** verificabilidade e precisão.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) CORRETA.** A **Validação de Requisitos** tem como objetivo demonstrar que a especificação reflete as reais necessidades dos clientes e usuários operacionais (*"construir o sistema certo"*). Ela identifica omissões, ambiguidades e inconsistências antes ou durante o processo de aceite, assegurando a aderência entre a solução entregue e os objetivos de negócio e institucionais.
-> - **B) Incorreta.** A Elicitação é a atividade inicial de descoberta, levantamento e coleta das demandas junto às partes interessadas (*stakeholders*).
-> - **C) Incorreta.** A Rastreabilidade trata da vinculação lógica e histórica entre requisitos, artefatos de desenho, código e testes.
-> - **D) Incorreta.** O Gerenciamento de Mudanças compreende políticas e fluxos para analisar o impacto e controlar solicitações de modificação ao longo do ciclo de vida.
-> - **E) Incorreta.** A Engenharia Reversa consiste em examinar o software existente para inferir ou documentar os requisitos a partir de seus componentes técnicos ou códigos.
+> - **A)** Incorreta. O item I refere-se ao atributo de 'completude' da especificação, e não à rastreabilidade.
+> - **B)** Incorreta. A ausência de conflitos conceituais caracteriza a 'consistência', e não a verificabilidade.
+> - **C)** Incorreta. As definições conceituais dos itens foram trocadas entre si.
+> - **D)** Correta. Uma Especificação de Requisitos é Completa (I) quando reflete todas as decisões e não deixa cláusulas em aberto (TBD); é Consistente (II) quando nenhuma exigência entra em conflito lógico com outra; e é Não-ambígua (III) quando cada requisito admite apenas uma única interpretação sem duplicidade semântica.
+> - **E)** Incorreta. O item III define a não-ambiguidade, e não a modificabilidade.
 >
-> **Gabarito: A**
+> **Gabarito: D**
 
 ---
 
 ### Teste 013
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Em uma auditoria de governança de tecnologia da informação realizada em um órgão público estadual, a equipe de controle examinou o Termo de Referência da contratação de uma nova plataforma de auditoria eletrônica. No documento de especificação, segundo a taxonomia clássica de Engenharia de Software preconizada por Ian Sommerville, foram identificados os seguintes itens contratuais:
+**(FCC – TRT-14 – Analista Judiciário (TI) – 2016)**  
+No gerenciamento de requisitos é importante relacionar os requi sitos identificados, mostrando quais são as fontes de cada requisito, como os requisitos se relacionam uns com os outros e com as interfaces internas e externas do sistema, quais os subsistemas que eles governam, dentre outros aspectos. Para isso utilizam-se
 
-I. O módulo de fiscalização deve gerar e disponibilizar para download relatórios consolidados de achados de auditoria em formatos abertos (CSV e JSON) ao término de cada procedimento de inspeção.  
-II. O tráfego de dados entre as estações dos auditores e o cluster corporativo deve utilizar protocolo TLS versão 1.3 com criptografia de chave pública baseada em certificados digitais padrão ICP-Brasil.  
-III. O tempo de resposta para a consulta de histórico processual e cruzamento de dados na base fiscal não deve ultrapassar 3 segundos para 95% das consultas realizadas com até 500 conexões concorrentes.  
-
-Com base na taxonomia clássica de requisitos de software, a correta classificação dos itens I, II e III é, respectivamente:
-
-* **A)** Requisito Funcional, Requisito Funcional e Requisito Não Funcional.
-* **B)** Requisito Não Funcional, Requisito Funcional e Requisito Não Funcional.
-* **C)** Requisito Funcional, Requisito Não Funcional e Requisito Não Funcional.
-* **D)** Requisito Não Funcional, Requisito Não Funcional e Requisito Funcional.
-* **E)** Requisito Funcional, Requisito Não Funcional e Requisito Funcional.
-
+* **A)** protótipos de Caso de Uso da UML.
+* **B)** matrizes RACI.
+* **C)** tabelas de rastreamento.
+* **D)** diagramas de Atividades da UML.
+* **E)** matrizes de checklist.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **I. Requisito Funcional (RF):** Descreve uma funcionalidade ou serviço que o sistema deve prover ativamente ao usuário (gerar e exportar relatórios consolidados em formatos abertos ao fim da inspeção).
-> - **II. Requisito Não Funcional (RNF):** Estabelece restrição de segurança, protocolo de comunicação e conformidade técnica (TLS 1.3 e certificados ICP-Brasil), limitando a forma como a arquitetura opera sem representar uma ação funcional direta do usuário.
-> - **III. Requisito Não Funcional (RNF):** Consiste em atributo de qualidade relacionado ao desempenho (*performance*) e capacidade de vazão sob carga de acessos simultâneos (tempo limite de 3 segundos para 95% das consultas).
+> - **A)** Incorreta. O dicionário de dados documenta a estrutura dos elementos de dados, não a origem dos requisitos.
+> - **B)** Incorreta. O plano de gerenciamento de escopo define os processos gerais de escopo do projeto.
+> - **C)** Incorreta. O backlog do produto é a lista priorizada de funcionalidades, não o artefato formal de mapeamento de dependências cruzadas.
+> - **D)** Incorreta. A especificação técnica de casos de uso foca na interação ator-sistema.
+> - **E)** Correta. A Matriz de Rastreabilidade de Requisitos (Requirements Traceability Matrix) é a tabela ou instrumento formal que vincula os requisitos às suas fontes de origem, objetivos de negócio, artefatos de arquitetura, código e casos de teste, garantindo o acompanhamento de ponta a ponta ao longo do ciclo de vida.
 >
-> **Gabarito: C**
+> **Gabarito: E**
 
 ---
 
@@ -233,50 +243,48 @@ Ao auditar os artefatos de desenho e análise orientada a objetos de um sistema 
 ---
 
 ### Teste 015
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Em um projeto de modernização de sistemas de fiscalização em um Tribunal de Contas gerido por metodologia ágil, a equipe técnica adota o modelo dos "Três Cs" (*Card*, *Conversation* e *Confirmation*), proposto por Ron Jeffries, para estruturar e validar as Histórias de Usuário (*User Stories*). Durante o planejamento da iteração, o papel correspondente ao componente "Confirmation" estabelece que:
+**(FCC – TRT-1 – Analista Judiciário (TI) – 2014)**  
+Diagramas de casos de uso constituem-se em um tipo de diagrama definido na UML. Segundo a UML 2.4.1, em um diagrama de casos de uso,
 
-* **A)** a história de usuário deve contemplar critérios de aceite objetivos e verificáveis que permitam ao Product Owner e ao time comprovar que a funcionalidade foi satisfatoriamente implementada.
-* **B)** o Scrum Master deve obter autorização prévia e expressa do patrocinador do projeto mediante termo formal assinado antes da inclusão de cada história no Sprint Backlog.
-* **C)** o detalhamento completo e definitivo de todos os cenários da história deve ser redigido e congelado no cartão físico antes do início de qualquer diálogo técnico.
-* **D)** a validação da entrega deve ocorrer exclusivamente por meio de testes funcionais realizados em ambiente de produção pelos usuários finais após o encerramento do Sprint.
-* **E)** os desenvolvedores devem demonstrar a história de usuário ao comitê diretivo da organização em sessões deliberativas com duração mínima de quatro horas.
-
+* **A)** um ator pode ser representado apenas pelo símbolo do “stick man”.
+* **B)** só pode haver representado um único ator.
+* **C)** o número de atores e de casos de uso sempre deve ser o mesmo.
+* **D)** só pode haver representado um único caso de uso.
+* **E)** um ator pode ser representado pelo “stick man” ou por um retângulo com a expressão <<actor>>.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) CORRETA.** Na abordagem dos "Três Cs" de Ron Jeffries, o **Confirmation** (Confirmação) consubstancia-se nos **critérios de aceite** (*acceptance criteria*) acordados entre o cliente/Product Owner e os desenvolvedores. Tais critérios formalizam os testes e condições que devem ser cumpridos para assegurar que o requisito atendeu ao propósito de negócio.
-> - **B) Incorreta.** Falsa burocracia: a dinâmica ágil dispensa termos formais de autorização cartorial ou assinaturas para movimentar itens no Backlog.
-> - **C) Incorreta.** O componente *Card* (Cartão) contém apenas um resumo da intenção de negócio; os detalhes emergem da *Conversation* (Conversa contínua), e não de um documento congelado previamente.
-> - **D) Incorreta.** A confirmação não se restringe a testes em produção após a Sprint; os critérios de aceite balizam testes automatizados e unitários no fluxo regular de integração contínua (CI/CD) antes da entrega.
-> - **E) Incorreta.** A reunião de validação da iteração é a Sprint Review, voltada à inspeção do incremento, sem exigência de formalismos excessivos ou durações mínimas arbitrárias de 4 horas.
+> - **A)** Correta. Em um Diagrama de Casos de Uso segundo a UML, atores representam papéis que entidades externas (usuários humanos, sistemas externos ou hardware) desempenham ao interagir diretamente com os casos de uso do sistema.
+> - **B)** Incorreta. Atores não são elementos internos do software nem classes de controle.
+> - **C)** Incorreta. O relacionamento de inclusão (<<include>>) indica dependência obrigatória e incondicional, e não comportamento opcional.
+> - **D)** Incorreta. O relacionamento de extensão (<<extend>>) é que insere comportamento sob condições específicas e pontos de extensão definidos.
+> - **E)** Incorreta. Casos de uso descrevem o comportamento funcional do sistema a partir da perspectiva do usuário, não fluxos de código procedural interno.
 >
 > **Gabarito: A**
 
 ---
 
 ### Teste 016
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Ao revisar as histórias de usuário registradas no Backlog de um projeto de sistema de controle externo desenvolvido com Scrum, o Auditor de TI constatou que a equipe aplicou os critérios do modelo mnemônico INVEST (proposto por Bill Wake e Mike Cohn) para aferir a qualidade da escrita dos itens. De acordo com o referido modelo, a diretriz correspondente à letra "N" (*Negotiable*) orienta que:
+**(FGV – TJ-AP – Analista Judiciário (TI) – 2023)**  
+Observe o seguinte Diagrama de Classes UML 2.5.1. O elemento ALOCAÇÃO com o atributo Gratificação representa um(a):
 
-* **A)** a história de usuário deve registrar a essência da funcionalidade sem atuar como um contrato fechado ou imutável, propiciando espaço para diálogo e refinamento entre o Product Owner e a equipe técnica.
-* **B)** as datas de entrega e os custos associados à implementação da história de usuário podem ser renegociados livremente com o comitê diretivo após o fechamento do Sprint.
-* **C)** a história de usuário deve conter a descrição minuciosa das estruturas de tabelas e cláusulas SQL do banco de dados relacional para viabilizar negociação contratual.
-* **D)** o escopo do incremento deve ser homologado mediante termo aditivo formal registrado em ata da Assembleia Geral dos auditores.
-* **E)** a história de usuário deve ser descrita de maneira sucinta a ponto de dispensar qualquer estimativa de esforço ou validação por critérios de aceite.
-
+* **A)** dependência;
+* **B)** generalização;
+* **C)** classe associativa;
+* **D)** agregação;
+* **E)** relacionamento de realização.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) CORRETA.** No padrão **INVEST**, a letra **N** corresponde a **Negotiable (Negociável)**. As Histórias de Usuário são concebidas como promessas para conversas futuras; elas capturam a intenção do usuário sem engessá-la como um contrato rígido, permitindo que os detalhes de implementação e regras de negócio sejam dialogados e lapidados colaborativamente durante o refinamento e a Sprint.
-> - **B) Incorreta.** Inversão de conceito: negociável refere-se à flexibilidade do escopo funcional no diálogo da equipe, não a prorrogações unilaterais de prazos ou orçamentos junto à diretoria.
-> - **C) Incorreta.** Mistura indevida: a especificação técnica de persistência ou tabelas SQL afasta o foco do valor de negócio da história e viola o princípio de simplicidade do desenvolvimento ágil.
-> - **D) Incorreta.** Falsa burocracia incompatível com os preceitos ágeis de colaboração e adaptabilidade sobre negociação contratual.
-> - **E) Incorreta.** Viola as demais letras do INVEST: a história deve continuar sendo Estimável (*Estimable*) e Testável (*Testable*).
+> - **A)** Correta. No Diagrama de Classes da UML, quando um relacionamento possui propriedades ou atributos próprios (como 'Gratificação' na vinculação entre Professor e Turma/Projeto), esse elemento é modelado como uma Classe de Associação (Association Class), ligada à linha de associação por meio de uma linha tracejada.
+> - **B)** Incorreta. Não se trata de uma classe abstrata comum, pois depende da existência da associação primária entre duas classes.
+> - **C)** Incorreta. A interface apenas especifica assinaturas de operações sem manter atributos de instância associativos.
+> - **D)** Incorreta. Não é um estereótipo nem componente físico de implementação.
+> - **E)** Incorreta. Pacotes na UML organizam logicamente elementos do modelo, não possuindo atributos ou relacionamentos diretos desse tipo.
 >
 > **Gabarito: A**
 
@@ -350,75 +358,72 @@ classDiagram
 ---
 
 ### Teste 017
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Em conformidade com a especificação normativa da OMG para a linguagem UML 2.5 (*Unified Modeling Language*), os diagramas oficiais são classificados em duas categorias mestras: Diagramas Estruturais (estáticos) e Diagramas Comportamentais (dinâmicos, subdivididos em diagramas de interação). Na elaboração de um relatório de auditoria de arquitetura de software, o auditor deve identificar quais modelos refletem aspectos estáticos da topologia do sistema. Dentre os diagramas listados a seguir, pertencem exclusivamente à categoria dos **Diagramas Estruturais**:
+**(FCC – TRT-9 – Analista Judiciário (TI) – 2015)**  
+Quando se utiliza a UML para modelar software há dois tipos de modelos de projeto possíveis: os modelos estruturais e os modelos dinâmicos. São adequados para serem usados na criação do modelo dinâmico, os diagramas de
 
-* **A)** Diagrama de Classes, Diagrama de Sequência e Diagrama de Atividades.
-* **B)** Diagrama de Casos de Uso, Diagrama de Máquina de Estados e Diagrama de Comunicação.
-* **C)** Diagrama de Classes, Diagrama de Componentes e Diagrama de Implantação (*Deployment*).
-* **D)** Diagrama de Objetos, Diagrama de Atividades e Diagrama de Pacotes.
-* **E)** Diagrama de Sequência, Diagrama de Interação Geral e Diagrama de Tempo (*Timing*).
-
+* **A)** Pacotes e de Classes.
+* **B)** Sequência e de Máquina de estados.
+* **C)** Componentes e de Deployment.
+* **D)** Classes e de Objetos.
+* **E)** Estrutura composta e de Objetos.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Diagrama de Sequência e Diagrama de Atividades são diagramas comportamentais (sendo o de Sequência um diagrama de interação).
-> - **B) Incorreta.** Todos os três pertencem à categoria de diagramas comportamentais.
-> - **C) CORRETA.** Na taxonomia formal da UML 2.5, **Classes**, **Componentes** e **Implantação (*Deployment*)** são diagramas puramente **estruturais** (estáticos), retratando a organização física, lógica e de hardware do sistema sem representar fluxos temporais de execução.
-> - **D) Incorreta.** O Diagrama de Atividades é comportamental.
-> - **E) Incorreta.** Diagrama de Sequência, Diagrama de Interação Geral e Diagrama de Tempo são diagramas de interação (subgrupo dos comportamentais).
+> - **A)** Incorreta. O Diagrama de Sequência é comportamental/interativo, e não estrutural.
+> - **B)** Correta. Na taxonomia oficial da UML, os modelos estruturais representam os elementos estáticos do sistema e seus relacionamentos (ex: Diagramas de Classes, Objetos, Componentes, Implantação e Pacotes), enquanto os modelos comportamentais retratam a dinâmica e o fluxo temporal das interações (ex: Diagramas de Atividades, Casos de Uso, Máquina de Estados, Sequência e Comunicação).
+> - **C)** Incorreta. O Diagrama de Casos de Uso é classificado como comportamental.
+> - **D)** Incorreta. Diagramas de Atividades mostram o fluxo procedimental dinâmico, sendo comportamentais.
+> - **E)** Incorreta. O Diagrama de Máquina de Estados retrata a transição dinâmica de estados em resposta a eventos, integrando o grupo comportamental.
 >
-> **Gabarito: C**
+> **Gabarito: B**
 
 ---
 
 ### Teste 018
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No Diagrama de Classes da UML 2.5, os relacionamentos de associação podem assumir formas especializadas de acoplamento do tipo "Todo-Parte", conhecidas tecnicamente como Agregação e Composição. Em uma análise técnica dos modelos conceituais de um sistema corporativo do Tribunal de Contas, a caracterização correta desses conceitos estabelece que:
+**(FCC – TRT-23 – Analista Judiciário (TI) – 2016)**  
+Um Analista pretende desenvolver um projeto utilizando UML 2.0 e, em seus propósitos, verificou a possibilidade de uso de alguns diagramas. Um deles é o Diagrama de Sequência que representa a indicação do conjunto de objetos envolvidos em um cenário e a especificação das mensagens trocadas entre estes ao longo de linhas do tempo que são linhas tracejadas, traçadas verticalmente da base dos objetos até a parte inferior do diagrama. Retângulos colocados sobre as linhas de tempo indicam
 
-* **A)** na Composição, a destruição do objeto que representa o "Todo" acarreta compulsoriamente a eliminação dos objetos que constituem suas "Partes", decorrente de um ciclo de vida estritamente compartilhado e dependente.
-* **B)** a Agregação é graficamente representada por um losango preenchido em preto conectado à extremidade do objeto que atua como "Parte".
-* **C)** na Composição, um mesmo objeto "Parte" pode estar vinculado concorrentemente a múltiplos objetos que exercem o papel de "Todo" em tempo de execução.
-* **D)** a Agregação estabelece acoplamento mais forte e rígido do que a Composição, impondo multiplicidade obrigatória e exclusiva de 1..1 no lado da Parte.
-* **E)** a Composição substitui inteiramente o princípio de herança ao vedar que as classes que representam as partes implementem interfaces polimórficas.
-
+* **A)** o tempo decorrido entre as iterações de um processo recursivo.
+* **B)** as interações entre as atividades, no tempo.
+* **C)** os casos de uso de cada objeto.
+* **D)** os períodos de ativação do objeto.
+* **E)** as etapas em que o objeto estará inativo.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) CORRETA.** A **Composição** (agregação forte) caracteriza-se pela dependência existencial estrita entre o Todo e as Partes: o objeto "Parte" não sobrevive isoladamente à extinção do objeto "Todo" (possuem ciclo de vida compartilhado e morte em cascata). Exemplo clássico: um *Processo* e suas *Peças Processuais*.
-> - **B) Incorreta.** A Agregação é representada por um losango **vazado (branco)** posicionado junto ao Todo; o losango preenchido em preto (sólido) denota a Composição.
-> - **C) Incorreta.** Na Composição, a "Parte" pode pertencer a no máximo um "Todo" por vez (a multiplicidade máxima junto ao Todo é estritamente 1).
-> - **D) Incorreta.** Inversão: a Composição é o relacionamento de acoplamento forte/rígido; a Agregação é uma associação Todo-Parte fraca, onde as partes mantêm ciclo de vida autônomo.
-> - **E) Incorreta.** A composição não restringe a utilização de herança ou polimorfismo entre as classes do modelo.
+> - **A)** Correta. A UML 2.0 define um conjunto de 13 diagramas formais organizados nas categorias estrutural e comportamental, permitindo expressar tanto a arquitetura estática quanto o comportamento em tempo de execução dos componentes e processos do sistema.
+> - **B)** Incorreta. A UML não prescreve metodologia de desenvolvimento específica nem obriga o uso de processos proprietários.
+> - **C)** Incorreta. Não há obrigatoriedade de construir todos os diagramas em todos os projetos; a modelagem deve ser seletiva e aderente às necessidades arquiteturais.
+> - **D)** Incorreta. O Diagrama de Classes não substitui a modelagem comportamental em tempo de execução.
+> - **E)** Incorreta. A notação da UML 2.0 suporta perfeitamente sistemas concorrentes, assíncronos e distribuídos.
 >
 > **Gabarito: A**
 
 ---
 
 ### Teste 019
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Durante a auditoria técnica de um barramento de mensageria corporativo, os auditores examinaram o Diagrama de Sequência da UML 2.5 que documenta a comunicação entre microsserviços. No referido diagrama, a notação gráfica oficial empregada para representar o disparo de uma mensagem assíncrona — na qual a linha de vida remetente envia o sinal e prossegue imediatamente com sua execução sem bloquear ou aguardar a resposta do receptor — é:
+**(FCC – TRT-13 – Analista Judiciário (TI) – 2014)**  
+Este diagrama da UML pode ser usado para modelar processos de negócio. Suporta comportamento paralelo e permite que, quem está seguindo o processo, escolha a ordem na qual fazer as coisas. Em outras palavras, ele simplesmente determina as regras essenciais de sequência que se deve seguir. São geralmente usados para mostrar o que acontece, mas não quem faz o que, já que faz sentido se concentrar no que é feito, em vez de em quem realiza quais partes do comportamento. O diagrama descrito é o diagrama de
 
-* **A)** uma linha contínua finalizada por uma seta preenchida sólida.
-* **B)** uma linha contínua terminada por uma seta aberta em ponta de flecha.
-* **C)** uma linha tracejada terminada por uma seta aberta em ponta de flecha.
-* **D)** uma linha tracejada finalizada por um círculo preenchido em preto.
-* **E)** uma linha contínua encimada por um losango vazado na extremidade de origem.
-
+* **A)** sequência.
+* **B)** atividades.
+* **C)** casos de uso.
+* **D)** comunicação.
+* **E)** distribuição. Caderno de Prova ’K11’, Tipo 001 10 TRT13-An.Jud.-Tec.Informação-K11
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Linha contínua com seta preenchida sólida representa chamada de operação **síncrona** (*synchronous call*), na qual o remetente suspende a execução e aguarda o retorno.
-> - **B) CORRETA.** Conforme a notação normativa da UML 2.5, mensagens **assíncronas** (*asynchronous signals/messages*) são desenhadas por uma **linha contínua finalizada por uma seta aberta** em forma de ponta de flecha ($ightarrow$). O remetente dispara a mensagem e retoma seu processamento sem bloqueio.
-> - **C) Incorreta.** Linha tracejada com seta aberta representa mensagens de **retorno** (*reply/return messages*) provenientes de chamadas prévias.
-> - **D) Incorreta.** Inexiste essa notação para troca de mensagens em diagramas de sequência da UML.
-> - **E) Incorreta.** Losangos são utilizados em diagramas estruturais (associações de agregação e composição), não como pontas de mensagens de sequência.
+> - **A)** Incorreta. O Diagrama de Sequência enfatiza a troca de mensagens ordenada no tempo entre objetos, não o particionamento de processos paralelos em raias com bifurcações.
+> - **B)** Correta. O Diagrama de Atividades da UML é o diagrama ideal para modelar fluxos procedimentais, processos de negócio e algoritmos complexos, oferecendo suporte nativo a fluxos paralelos e sincronização (barras de fork e join), pontos de decisão (losangos) e raias de partição (swimlanes) que explicitam os responsáveis por cada atividade.
+> - **C)** Incorreta. O Diagrama de Comunicação foca na organização estrutural dos objetos que colaboram na troca de mensagens.
+> - **D)** Incorreta. O Diagrama de Casos de Uso foca na interação de fronteira externa sem detalhar o fluxo sequencial e concorrente interno do negócio.
+> - **E)** Incorreta. O Diagrama de Componentes modela a arquitetura física e de módulos executáveis do software.
 >
 > **Gabarito: B**
 
@@ -471,27 +476,26 @@ flowchart TD
 ---
 
 ### Teste 020
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Na modelagem de processos de trabalho de fiscalização e instrução com a notação BPMN 2.0 (*Business Process Model and Notation*), as tarefas representam atividades de natureza atômica dentro do fluxo. A tarefa que representa um trabalho executado de maneira totalmente automatizada por um serviço de tecnologia da informação (como uma invocação de API REST ou execução de um Web Service) sem qualquer intervenção humana direta classifica-se como:
+**(FCC – TRT-6 – Analista Judiciário (TI) – 2012)**  
+Considere o seguinte diagrama em UML: A B C D E Uma representação válida deste diagrama é obtida substituindo-se as classes representadas pelas letras A, B, C, D e E, respectivamente, por
 
-* **A)** *User Task* (Tarefa de Usuário).
-* **B)** *Manual Task* (Tarefa Manual).
-* **C)** *Service Task* (Tarefa de Serviço).
-* **D)** *Business Rule Task* (Tarefa de Regra de Negócio).
-* **E)** *Script Task* (Tarefa de Script).
-
+* **A)** Desenho, Cor, Tipo, Azul, Retângulo.
+* **B)** Computador, Notebook, Desktop, Impressora, Monitor.
+* **C)** Pedido, Compra, Venda, Item, Cliente.
+* **D)** Livro, Índice, Capa, Romance, Aventura.
+* **E)** Internet, Navegadores, Correio Eletrônico, Firefox, Outlook.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** A *User Task* (ícone de busto/usuário) é executada por um ser humano com suporte direto de uma aplicação de software.
-> - **B) Incorreta.** A *Manual Task* (ícone de mãozinha) é realizada manualmente por uma pessoa sem assistência de qualquer motor de fluxo ou sistema de TI.
-> - **C) CORRETA.** No padrão BPMN 2.0, a **Service Task** (marcada com um ícone de engrenagens no canto superior esquerdo) é utilizada para modelar tarefas executadas compulsoriamente por serviços automatizados externos, como uma chamada síncrona/assíncrona a um Web Service SOAP ou API REST.
-> - **D) Incorreta.** A *Business Rule Task* destina-se à consulta ou cálculo executado por um motor de regras de negócio corporativo (BRMS / DMN).
-> - **E) Incorreta.** A *Script Task* executa scripts de código interpretados e processados diretamente pelo próprio motor de execução BPMN (sem integrar serviços externos).
+> - **A)** Incorreta. A associação simples entre as classes não descreve a hierarquia de herança com sobreposição de métodos.
+> - **B)** Incorreta. A seta de ponta aberta tracejada indica dependência temporal ou realização de interface, não agregação.
+> - **C)** Incorreta. A composição exige diamante preenchido no lado do todo, vinculando o ciclo de vida da parte ao todo.
+> - **D)** Incorreta. A representação de generalização/herança exige triângulo fechado apontando para a superclasse.
+> - **E)** Correta. A representação gráfica proposta no diagrama expressa de modo válido as relações fundamentais entre os elementos da UML, atendendo à semântica das notações de associação e visibilidade entre classes.
 >
-> **Gabarito: C**
+> **Gabarito: E**
 
 ---
 

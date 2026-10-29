@@ -14457,7 +14457,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/04_engenharia_de_software/02_requisitos_historias_de_usuario_uml_e_bpmn.md",
       "target_section": "### 3.2 Diagrama de Classes: Visibilidade, Multiplicidade, Agregação e Composição",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TJAP-2023-FGV-Q54",
@@ -15906,7 +15906,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/11_sistemas_operacionais_redes_e_nuvem/04_protocolos_de_aplicacao_redes_sem_fio_e_seguranca_de_rede.md",
       "target_section": "### 4.4 Evolução da Segurança Sem Fio: WEP, WPA, WPA2 e WPA3 (Personal vs. Enterprise)",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TJAP-2023-FGV-Q43",
@@ -16593,7 +16593,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/04_engenharia_de_software/01_ciclo_de_vida_e_metodologias_ageis.md",
       "target_section": "### 3.4 Artefatos Oficiais e seus Três Compromissos Formais",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TJAP-2023-FGV-Q75",
@@ -17622,7 +17622,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/13_legislacao_aplicada_a_ti/02_marco_civil_da_internet_lei_12965_2014.md",
       "target_section": "### 1.1 Vocabulário Técnico-Jurídico Essencial (Art. 5º)",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TJAP-2023-FGV-Q44",
@@ -17643,7 +17643,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/11_sistemas_operacionais_redes_e_nuvem/03_redes_tcp_ip_enderecamento_ipv4_ipv6_dns_dhcp.md",
       "target_section": "### 1.1 Estrutura em Camadas do Modelo OSI (7 Níveis)",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TJAP-2023-FGV-Q45",
@@ -18021,7 +18021,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/25_gestao_de_pessoas/01_processos_de_gp_recrutamento_selecao_e_integracao.md",
       "target_section": "### 3. Rotinas Administrativas do Departamento de Pessoal no Setor Público",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TJAP-2023-FGV-Q63",
@@ -19155,7 +19155,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/04_engenharia_de_software/04_padroes_de_projeto_design_patterns.md",
       "target_section": "### 2.1 Factory Method vs. Abstract Factory",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT14-2016-FCC-Q37",
@@ -19218,7 +19218,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/04_engenharia_de_software/02_requisitos_historias_de_usuario_uml_e_bpmn.md",
       "target_section": "### 3.1 Taxonomia dos Diagramas UML: Estruturais vs. Comportamentais",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT14-2016-FCC-Q40",
@@ -19239,7 +19239,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/04_engenharia_de_software/02_requisitos_historias_de_usuario_uml_e_bpmn.md",
       "target_section": "### 3.2 Diagrama de Classes: Visibilidade, Multiplicidade, Agregação e Composição",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT14-2016-FCC-Q41",
@@ -19260,7 +19260,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/04_engenharia_de_software/05_qualidade_testes_refatoracao_e_divida_tecnica.md",
       "target_section": "### 3.1 Testes de Regressão e Automação Contínua",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT14-2016-FCC-Q42",
@@ -20247,7 +20247,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/08_banco_de_dados/01_modelagem_de_dados_mer_e_normalizacao.md",
       "target_section": "### 2.1 Entidades Fortes (Regulares) vs. Entidades Fracas",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT23-2016-FCC-Q30",
@@ -20352,7 +20352,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/08_banco_de_dados/01_modelagem_de_dados_mer_e_normalizacao.md",
       "target_section": "### 1.4 Tabela Comparativa dos Níveis de Abstração",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT23-2016-FCC-Q35",
@@ -20373,7 +20373,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/04_engenharia_de_software/02_requisitos_historias_de_usuario_uml_e_bpmn.md",
       "target_section": "### 3.3 Diagramas de Sequência, Atividades e Máquina de Estados",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT23-2016-FCC-Q36",
@@ -20415,7 +20415,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/04_engenharia_de_software/04_padroes_de_projeto_design_patterns.md",
       "target_section": "### 1.3 A Matriz Canônica dos 23 Padrões GoF (Propósito vs. Escopo)",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT23-2016-FCC-Q38",
@@ -20436,7 +20436,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/04_engenharia_de_software/01_ciclo_de_vida_e_metodologias_ageis.md",
       "target_section": "### 2.1 Abordagem Preditiva: Modelo Cascata (Waterfall) e Modelo V",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT23-2016-FCC-Q39",
@@ -20457,7 +20457,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/04_engenharia_de_software/02_requisitos_historias_de_usuario_uml_e_bpmn.md",
       "target_section": "### 1.1 Ciclo de Vida da Engenharia de Requisitos",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT23-2016-FCC-Q40",
@@ -21633,7 +21633,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/04_engenharia_de_software/02_requisitos_historias_de_usuario_uml_e_bpmn.md",
       "target_section": "### 3.1 Taxonomia dos Diagramas UML: Estruturais vs. Comportamentais",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT6-2012-FCC-Q36",
@@ -21801,7 +21801,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/08_banco_de_dados/01_modelagem_de_dados_mer_e_normalizacao.md",
       "target_section": "### 2.3 Relacionamentos, Cardinalidade e Participação (Total vs. Parcial)",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT6-2012-FCC-Q44",
@@ -22746,7 +22746,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/04_engenharia_de_software/02_requisitos_historias_de_usuario_uml_e_bpmn.md",
       "target_section": "### 3.1 Taxonomia dos Diagramas UML: Estruturais vs. Comportamentais",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT9-2015-FCC-Q33",
@@ -38049,7 +38049,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/08_banco_de_dados/01_modelagem_de_dados_mer_e_normalizacao.md",
       "target_section": "### 4.1 Dependências Funcionais: Total, Parcial e Transitiva",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TJBA-2015-FGV-Q41",
@@ -40740,7 +40740,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/08_banco_de_dados/01_modelagem_de_dados_mer_e_normalizacao.md",
       "target_section": "### 2.3 Relacionamentos, Cardinalidade e Participação (Total vs. Parcial)",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT1-2014-FCC-Q32",
@@ -40761,7 +40761,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/08_banco_de_dados/02_linguagem_sql_ddl_dml_dql_tcl_e_dcl.md",
       "target_section": "### 2.2 O Conflito WHERE vs. HAVING e a Ilegalidade de Aliases",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT1-2014-FCC-Q33",
@@ -40803,7 +40803,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/04_engenharia_de_software/02_requisitos_historias_de_usuario_uml_e_bpmn.md",
       "target_section": "### 2.1 Modelagem de Casos de Uso: Elementos e Relacionamentos («include» vs. «extend»)",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT1-2014-FCC-Q35",
@@ -40824,7 +40824,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/04_engenharia_de_software/01_ciclo_de_vida_e_metodologias_ageis.md",
       "target_section": "### 2.1 Abordagem Preditiva: Modelo Cascata (Waterfall) e Modelo V",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT1-2014-FCC-Q36",
@@ -40845,7 +40845,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/04_engenharia_de_software/05_qualidade_testes_refatoracao_e_divida_tecnica.md",
       "target_section": "## 1. Atributos e Métricas de Qualidade de Software (ISO/IEC 25010)",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT1-2014-FCC-Q37",
@@ -40866,7 +40866,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/04_engenharia_de_software/05_qualidade_testes_refatoracao_e_divida_tecnica.md",
       "target_section": "### 2.1 A Pirâmide de Testes de Mike Cohn",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT1-2014-FCC-Q38",
@@ -42210,7 +42210,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/04_engenharia_de_software/02_requisitos_historias_de_usuario_uml_e_bpmn.md",
       "target_section": "### 3.1 Taxonomia dos Diagramas UML: Estruturais vs. Comportamentais",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT11-2017-FCC-Q54",
@@ -43176,7 +43176,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/04_engenharia_de_software/02_requisitos_historias_de_usuario_uml_e_bpmn.md",
       "target_section": "### 3.1 Taxonomia dos Diagramas UML: Estruturais vs. Comportamentais",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT13-2014-FCC-Q34",
@@ -48672,7 +48672,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/04_engenharia_de_software/02_requisitos_historias_de_usuario_uml_e_bpmn.md",
       "target_section": "### 3.1 Taxonomia dos Diagramas UML: Estruturais vs. Comportamentais",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT2-2014-FCC-Q34",
@@ -52518,7 +52518,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/04_engenharia_de_software/01_ciclo_de_vida_e_metodologias_ageis.md",
       "target_section": "### 3.3 Eventos Formais do Scrum e Regras de Time-box",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRTDA13REGIO-2022-FGV-Q56",
@@ -53868,7 +53868,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/04_engenharia_de_software/05_qualidade_testes_refatoracao_e_divida_tecnica.md",
       "target_section": "### 3.3 Práticas de TDD (Test-Driven Development) e BDD (Behavior-Driven Development)",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT-2024-FCC-Q58",
@@ -76751,7 +76751,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/15_nocoes_de_direito_administrativo/01_regime_juridico_principios_e_lindb.md",
       "target_section": "### 4.3 Princípio da Autotutela (Súmulas 346 e 473 do STF): Anulação vs. Revogação",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT-2024-FGV-Q71",

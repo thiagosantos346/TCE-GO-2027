@@ -101,29 +101,26 @@ flowchart LR
 ---
 
 ### Teste 234
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No ciclo de vida do projeto de bancos de dados relacionais, a modelagem é classicamente particionada em três níveis conceituais progressivos: Modelo Conceitual, Modelo Lógico e Modelo Físico. 
+**(FCC – TRT-6 – Analista Judiciário (TI) – 2012)**  
+No modelo entidade-relacionamento,
 
-A respeito desses modelos e de suas respectivas características arquiteturais, assinale a afirmativa correta:
-
-* **A)** O modelo físico independe do Sistema Gerenciador de Banco de Dados (SGBD) adotado, concentrando-se na especificação pura das regras de negócio e diagramas de classes sem tipos primitivos.
-* **B)** O modelo conceitual possui dependência direta do paradigma de dados escolhido (relacional, hierárquico ou grafos), determinando a alocação de chaves primárias e tipos de dados de armazenamento como `VARCHAR` e `INT`.
-* **C)** O modelo lógico é uma representação de alto nível voltada à comunicação com o usuário final de negócio, na qual não constam tabelas, chaves primárias ou chaves estrangeiras.
-* **D)** O modelo conceitual captura os requisitos de negócio e a semântica dos dados independentemente de tecnologia ou SGBD; o modelo lógico mapeia essas entidades para o paradigma relacional (tabelas, chaves); e o modelo físico define o armazenamento, estruturas de partição, índices e parâmetros de desempenho específicos do SGBD.
-* **E)** A desnormalização é uma decisão estritamente tomada durante o modelo conceitual com o intuito de facilitar a validação dos diagramas pelos gestores de negócio.
-
+* **A)** entidades podem ter atributos, mas relacionamentos não podem ter atributos.
+* **B)** uma chave é um conjunto de atributos cujos valores identificam um relacionamento de maneira única.
+* **C)** um relacionamento é uma associação entre atributos.
+* **D)** todo relacionamento tem uma chave.
+* **E)** uma chave é um conjunto de atributos cujos valores identificam uma entidade de maneira única.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O modelo físico é 100% dependente do SGBD específico (Oracle, PostgreSQL, MySQL), definindo scripts DDL, tablespaces, alocação de blocos e tipos nativos de armazenamento.
-> - **B)** Incorreta. O modelo conceitual é completamente independente de paradigma de banco de dados e de tecnologia de SGBD.
-> - **C)** Incorreta. O modelo lógico já adota o paradigma relacional, definindo rigorosamente tabelas, atributos, chaves primárias (PK), chaves estrangeiras (FK) e normalização.
-> - **D)** **CORRETA.** Descreve com exatidão a clássica divisão de três esquemas proposta pela arquitetura ANSI/SPARC: Modelo Conceitual (independente de SGBD e de modelo de dados lógico), Modelo Lógico (dependente do modelo relacional, independente do software SGBD específico) e Modelo Físico (implementação concreta no SGBD).
-> - **E)** Incorreta. A desnormalização ocorre nas fases lógica/física para otimização de leitura e desempenho transacional/analítico, jamais no modelo conceitual.
-> 
-> **Gabarito: D**
+> - **A)** Correta. No modelo entidade-relacionamento (MER), entidades fortes possuem chave primária própria e existência independente, enquanto entidades fracas dependem existencialmente de uma entidade proprietária para sua identificação.
+> - **B)** Incorreta. Atributos multivalorados não podem ser representados diretamente como chave estrangeira atômica sem normalização.
+> - **C)** Incorreta. A cardinalidade mínima (0 ou 1) indica a participação opcional ou obrigatória da entidade no relacionamento, e não a cardinalidade máxima.
+> - **D)** Incorreta. Um relacionamento não pode existir isoladamente sem a vinculação das entidades participantes.
+> - **E)** Incorreta. O modelo lógico relacional não admite atributos compostos sem prévia decomposição em atributos simples.
+>
+> **Gabarito: A**
 
 ---
 
@@ -187,34 +184,26 @@ No modelo clássico de Chen, os atributos são expressos por elipses conectadas 
 ---
 
 ### Teste 235
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No contexto do Diagrama Entidade-Relacionamento (DER) segundo a notação original proposta por Peter Chen, analise a seguinte situação de negócio:  
-*"Em um órgão de fiscalização fazendária, cada PROCESSO_FISCAL possui um número de processo que o identifica unicamente. Cada processo pode conter múltiplos TERMOS_FISCAIS. Um termo fiscal possui apenas uma numeração sequencial interna (ex.: 1, 2, 3), só faz sentido existir vinculado ao seu respectivo processo fiscal e sua identificação plena depende da chave primária do processo."*
+**(FCC – TRT-23 – Analista Judiciário (TI) – 2016)**  
+Um Analista está desenvolvendo um Modelo Entidade-Relacionamento do banco de dados de um tribunal sob uma perspectiva lógica e parte do modelo é formado pelas duas entidades abaixo, relacionadas com cardinalidade n:m. A entidade Processo contém os atributos: − NuM_Seq (número sequencial do processo por unidade de origem) − valor inteiro − (PK). − Dig (dígito verificador) − valor inteiro − (PK). − Ano (ano do ajuizamento) − valor inteiro − (PK). − Org (órgão ou segmento do Poder Judiciário, sendo 5 o correspondente à Justiça do Trabalho) − valor inteiro. − Tribunal (tribunal do segmento do Poder Judiciário, sendo 23 para o TRT da 23a Região) − valor inteiro (FK). − Origem (unidade de origem do processo, sendo 4 zeros para o TRT) − valor inteiro. A entidade Advogado contém os atributos: − Num_OAB (número da OAB) − cadeia de caracteres − primary key. − Nome (nome do advogado) − cadeia de caracteres. − Telefone (telefone residencial e comercial) − cadeia de caracteres. Considerando que Advogado acompanha Processo,
 
-Conforme a teoria canônica do DER, a entidade `TERMO_FISCAL`, a numeração sequencial interna e o relacionamento entre `PROCESSO_FISCAL` e `TERMO_FISCAL` são classificados, respectivamente, como:  
-
-* **A)** Entidade Associativa, Atributo Composto e Auto-relacionamento.
-* **B)** Entidade Fraca, Chave Parcial (discriminador) e Relacionamento Identificador.
-* **C)** Entidade Regular, Atributo Multivalorado e Relacionamento Não-identificador.
-* **D)** Entidade Fraca, Atributo Derivado e Agregação.
-* **E)** Superclasse, Atributo Atômico e Relacionamento Ternário.
-
+* **A)** o atributo Num_OAB precisa aparecer também na entidade Processo, como chave estrangeira, para garantir a integridade referencial entre os dados.
+* **B)** o relacionamento não pode ser n:m, pois em cada Processo não se pode referenciar mais do que um Advogado para cada uma das partes, logo, trata-se de um relacionamento 1:n.
+* **C)** o atributo Tribunal não pode ser chave estrangeira na entidade Processo, pois dos Tribunais não há necessidade de se cadastrar nada além do número.
+* **D)** na implementação das tabelas, o relacionamento n:m deverá ser dividido em duas relações 1:n e uma nova tabela deverá ser criada para representar o relacionamento.
+* **E)** como a relação é n:m, os atributos chave primária da entidade Processo devem aparecer na entidade Advogado como chave estrangeira e vice-versa. Caderno de Prova ’H08’, Tipo 001 8 TRT23-An-Judiciário-Tecnol.Informação-H08
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Entidades associativas resolvem relacionamentos $N:M$ com atributos próprios, e auto-relacionamento ocorre quando uma entidade se relaciona consigo mesma.
-> - **B)** Correta. Classificação impecável segundo a teoria de Chen:
->     1. `TERMO_FISCAL` depende existencialmente de `PROCESSO_FISCAL` e não possui chave primária global própria; logo, é uma **Entidade Fraca** (representada por retângulo de linha dupla);
->     2. A numeração sequencial interna (1, 2, 3) identifica o termo apenas dentro de cada processo; logo, é uma **Chave Parcial** ou **Discriminador** (representada por elipse com sublinhado tracejado);
->     3. O relacionamento que conecta a entidade fraca à sua proprietária é um **Relacionamento Identificador** (representado por losango de linha dupla).
+> - **A)** Incorreta. A generalização/especialização total exige que toda instância da superclasse pertença obrigatoriamente a uma subclasse.
+> - **B)** Incorreta. A modelagem lógica não dispensa a definição de chaves primárias e estrangeiras.
+> - **C)** Correta. Na perspectiva lógica do modelo entidade-relacionamento, atributos derivados ou calculados não devem ser persistidos fisicamente na tabela para evitar redundância e inconsistência de dados, sendo obtidos por consultas ou visões dinâmicas.
+> - **D)** Incorreta. Relacionamentos recursivos (auto-relacionamentos) são perfeitamente admitidos na modelagem lógica.
+> - **E)** Incorreta. Entidades fracas não possuem identificador primário próprio sem a composição com a chave da entidade dominante.
 >
-> - **C)** Incorreta. `TERMO_FISCAL` não é uma entidade regular (forte), pois depende da proprietária para sua identificação plena.
-> - **D)** Incorreta. A numeração sequencial não é atributo derivado (calculado dinamicamente).
-> - **E)** Incorreta. Conceitos de especialização/generalização e relacionamentos ternários não se aplicam ao cenário.
-> 
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
 
@@ -250,27 +239,26 @@ As lacunas [ I ] e [ II ] são, correta e respectivamente, preenchidas por:
 ---
 
 ### Teste 237
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No Modelo Entidade-Relacionamento utilizado para projetar bancos de dados relacionais, quando se define que há um conjunto de relacionamentos de cardinalidade muitos para muitos ($N:M$) entre dois conjuntos de entidades $A$ e $B$, essa especificação significa e exige, do ponto de vista conceitual e de conversão lógica, que:
+**(FCC – TRT-1 – Analista Judiciário (TI) – 2014)**  
+No modelo entidade-relacionamento utilizado para mode- lar Bancos de Dados relacionais, quando se indica que há um conjunto de relacionamentos do tipo muitos para mui- tos entre 2 conjuntos de entidades A e B, significa que
 
-* **A)** uma entidade de $A$ está associada compulsoriamente a exatamente uma entidade de $B$, e cada entidade de $B$ está associada a no máximo duas entidades de $A$.
-* **B)** uma entidade do conjunto $A$ pode estar associada a várias instâncias do conjunto $B$, e uma entidade do conjunto $B$ também pode estar associada a várias instâncias de $A$. Na conversão para o modelo relacional lógico, exige a criação de uma tabela associativa intermediária contendo as chaves primárias de $A$ e $B$ como chaves estrangeiras.
-* **C)** os conjuntos de entidades $A$ e $B$ devem necessariamente possuir esquemas idênticos com o mesmo número e tipos de atributos primitivos.
-* **D)** a chave primária de $A$ deve ser migrada diretamente como atributo simples e chave estrangeira na tabela $B$, tornando dispensável a criação de qualquer nova relação no banco de dados.
-* **E)** uma entidade do conjunto $B$ associa-se a apenas uma entidade de $A$, configurando uma dependência existencial que transforma a entidade $B$ em entidade fraca.
-
+* **A)** uma entidade do conjunto A está sempre associada a mais de uma entidade de conjunto B e vice-versa.
+* **B)** uma entidade do conjunto A pode estar associada a várias entidades do conjunto B e vice-versa.
+* **C)** os conjuntos de entidades A e B possuem, cada um deles, número igual de atributos.
+* **D)** os conjuntos de entidades A e B possuem diversos atributos com a possibilidade de terem valores nulos.
+* **E)** uma entidade do conjunto B está associada a apenas uma entidade do conjunto A, mas uma en- tidade do conjunto A está associada a várias en- tidades do conjunto B. _________________________________________________________
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A cardinalidade $N:M$ não restringe as associações a números fixos como "exatamente uma" ou "no máximo duas".
-> - **B)** **CORRETA.** O relacionamento muitos-para-muitos ($N:M$) define que cada registro em $A$ pode relacionar-se com zero, um ou vários registros em $B$, e vice-versa. Na etapa de conversão lógica para o modelo relacional, um relacionamento $N:M$ não pode ser resolvido com inserção de chave estrangeira simples em nenhuma das tabelas originais sem violar a Primeira Forma Normal (1FN); logo, é mandatória a criação de uma **tabela associativa** (tabela de junção) cuja chave primária é tipicamente composta pelas chaves estrangeiras que referenciam $A$ e $B$.
-> - **C)** Incorreta. Entidades relacionadas não precisam compartilhar os mesmos atributos.
-> - **D)** Incorreta. A migração direta de FK resolve relacionamentos $1:N$ (migra-se a PK do lado 1 para a tabela do lado $N$), mas é inviável em $N:M$.
-> - **E)** Incorreta. A assertiva descreve um relacionamento $1:N$ com dependência de existência, não uma relação $N:M$.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. O relacionamento muitos para muitos não exige que a associação seja compulsória a 'mais de uma' em todos os casos.
+> - **B)** Correta. A cardinalidade muitos para muitos (N:M) entre dois conjuntos de entidades A e B define que uma entidade de A pode estar associada a várias (zero, uma ou muitas) entidades de B, e reciprocamente cada entidade de B pode estar associada a várias entidades de A.
+> - **C)** Incorreta. O número de atributos de cada entidade é completamente independente da cardinalidade do relacionamento.
+> - **D)** Incorreta. A cardinalidade não determina a nulidade de atributos.
+> - **E)** Incorreta. A definição apresentada na alternativa corresponde a um relacionamento de um para muitos (1:N), e não muitos para muitos (N:M).
+>
+> **Gabarito: E**
 
 ---
 
@@ -319,35 +307,26 @@ São operações construídas a partir da composição das primitivas fundamenta
 ---
 
 ### Teste 238
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em sistemas de banco de dados relacionais, deseja-se elaborar uma consulta algébrica formal para responder à seguinte demanda de auditoria:  
-*"Recuperar o código de todos os Auditores Fiscais que realizaram inspeções em TODOS os estabelecimentos cadastrados no estado."*
+**(FGV – TJ-BA – Analista Judiciário (TI) – 2015)**  
+Considere as seguintes dependências funcionais sobre os atributos A, B, C e D de uma tabela relacional, listadas a seguir. AB AC CD A dependência funcional que NÃO pode ser derivada das dependências acima é:
 
-Considere os esquemas das relações:
-
-- `INSPECAO (CodAuditor, CodEstabelecimento)`
-- `ESTABELECIMENTO (CodEstabelecimento)`
-
-A operação da Álgebra Relacional que expressa diretamente essa semântica de quantificação universal ("para todos"), sem a necessidade de aninhamentos complexos de operadores de diferença, é a:  
-
-* **A)** Junção Externa Completa (`INSPECAO` $\mathbin{⟗}$ `ESTABELECIMENTO`)
-* **B)** Equijunção (`INSPECAO` $\bowtie_{\text{CodEstabelecimento} = \text{CodEstabelecimento}}$ `ESTABELECIMENTO`)
-* **C)** Divisão Relacional (`INSPECAO` $\div$ `ESTABELECIMENTO`)
-* **D)** Produto Cartesiano (`INSPECAO` $\times$ `ESTABELECIMENTO`)
-* **E)** Interseção (`INSPECAO` $\cap$ `ESTABELECIMENTO`)
-
+* **A)** BC
+* **B)** AD
+* **C)** AB,C
+* **D)** A,B,CA,B
+* **E)** C,BD,B
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O Full Outer Join preserva tuplas sem correspondência em ambos os lados preenchendo com nulos, sem filtrar por quantificação universal.
-> - **B)** Incorreta. A Equijunção apenas relaciona inspeções a estabelecimentos existentes, retornando auditores que inspecionaram *ao menos um* estabelecimento.
-> - **C)** Correta. A **Divisão Relacional ($R \div S$)** é o operador formal da álgebra relacional projetado para expressar o quantificador universal $\forall$ (*"para todos"*). A operação `INSPECAO` $\div$ `ESTABELECIMENTO` retorna unicamente as tuplas de `CodAuditor` que estão combinadas com **todas** as tuplas presentes na relação `ESTABELECIMENTO`.
-> - **D)** Incorreta. O Produto Cartesiano gera todas as combinações possíveis entre auditores e estabelecimentos, multiplicando o número de tuplas.
-> - **E)** Incorreta. A Interseção exige esquemas compatíveis quanto à união (mesmo número e tipos de atributos), o que não ocorre entre relações com graus diferentes.
-> 
-> **Gabarito: C**
+> - **A)** Incorreta. A relação atinge a 1ª Forma Normal, mas viola formas normais superiores pelas dependências funcionais parciais.
+> - **B)** Incorreta. Há dependências funcionais transitivas que impedem o alcance da 3ª Forma Normal.
+> - **C)** Incorreta. O esquema viola os critérios da Forma Normal de Boyce-Codd (BCNF).
+> - **D)** Correta. A análise das dependências funcionais determina que a chave candidata é composta e que os atributos não-chave dependem totalmente dela, cumprindo os requisitos de integridade da normalização.
+> - **E)** Incorreta. O conjunto de dependências não caracteriza a 4ª Forma Normal por envolver dependências multivaloradas não tratadas.
+>
+> **Gabarito: D**
 
 ---
 
@@ -589,38 +568,26 @@ flowchart TD
 ---
 
 ### Teste 244
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No projeto de bancos de dados analíticos (Data Warehouses) e repositórios de dados para auditoria contínua, analistas de TI frequentemente ponderam entre o esquema puramente em estrela (*Star Schema*) e o esquema em flocos de neve (*Snowflake Schema*).
+**(FCC – TRT-23 – Analista Judiciário (TI) – 2016)**  
+Na abordagem Star Schema, usada para modelar data warehouses , os fatos são representados na tabela de fatos, que normalmente
 
-A respeito da técnica de modelagem multidimensional e de seus impactos arquiteturais sobre o desempenho das consultas analíticas, assinale a afirmativa correta:
-
-* **A)** A normalização das tabelas de dimensão (esquema Snowflake) elimina redundâncias, mas impacta negativamente o tempo de resposta das consultas analíticas (OLAP) ao exigir uma maior quantidade de junções (*joins*) entre tabelas normalizadas.
-* **B)** O esquema Star Schema é totalmente normalizado até a Boyce-Codd Normal Form (BCNF), o que minimiza o espaço de armazenamento consumido em disco e maximiza a quantidade de tabelas no data warehouse.
-* **C)** A técnica de desnormalização é fortemente recomendada em sistemas puramente transacionais (OLTP) de alta concorrência para acelerar as operações concorrentes de `INSERT` e `UPDATE`.
-* **D)** A criação de chaves substitutas (*surrogate keys*) nas tabelas dimensionais prejudica a governança e inviabiliza o rastreamento histórico de dimensões de alteração lenta (SCD).
-* **E)** O Snowflake Schema é o padrão adotado em todos os data marts por dispensar completamente o uso de índices e por apresentar desempenho de leitura invariavelmente superior ao Star Schema.
-
+* **A)** é única em um diagrama e ocupa a posição central.
+* **B)** está ligada com cardinalidade n:m às tabelas de dimensão.
+* **C)** está ligada às tabelas de dimensão, que se relacionam entre si com cardinalidade 1:n.
+* **D)** tem chave primária formada independente das chaves estrangeiras das tabelas de dimensão.
+* **E)** está ligada a outras tabelas de fatos em um layout em forma de estrela. Caderno de Prova ’H08’, Tipo 001 TRT23-An-Judiciário-Tecnol.Informação-H08 9
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **CORRETA.** O modelo *Snowflake* decompõe as tabelas de dimensão em múltiplas sub-tabelas normalizadas (ex.: normalizar `Cidade` e `Estado` para fora da dimensão `Cliente`). Embora reduza o consumo de armazenamento ao eliminar dados duplicados, ele degrada significativamente o desempenho de consultas OLAP complexas porque força o motor SQL a executar múltiplos *joins* pesados para reconstituir o contexto da dimensão. Já o *Star Schema* adota dimensões propositalmente desnormalizadas, favorecendo consultas simples e varreduras extremamente rápidas.
-> - **B)** Incorreta. O *Star Schema* é intencionalmente **desnormalizado** em suas dimensões; quem busca normalização dimensional é o modelo Snowflake.
-> - **C)** Incorreta. Em sistemas OLTP, a desnormalização introduz redundância de dados que encarece e desacelera operações de escrita (`INSERT`, `UPDATE`), além de gerar riscos de inconsistência transacional.
-> - **D)** Incorreta. As chaves substitutas (*surrogate keys*) são essenciais justamente para permitir o gerenciamento de dimensões que mudam lentamente (Slowly Changing Dimensions - SCD Tipos 2 e 3).
-> - **E)** Incorreta. O *Star Schema* é a estrutura dimensional predominante e recomendada por Ralph Kimball para data marts justamente por sua simplicidade e superior performance em leitura.
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. A tabela fato contém predominantemente chaves estrangeiras que apontam para as dimensões e medidas numéricas aditivas.
+> - **B)** Incorreta. As dimensões no modelo Star Schema são mantidas desnormalizadas propositalmente para otimizar consultas.
+> - **C)** Incorreta. A tabela fato não é menor em número de linhas que as tabelas de dimensão; ao contrário, possui volume muito superior.
+> - **D)** Incorreta. O modelo Star Schema não normaliza as tabelas de dimensão (o modelo Snowflake é que realiza essa normalização).
+> - **E)** Correta. No esquema estrela (Star Schema), os fatos representam eventos quantitativos do negócio com atributos numéricos (medidas) associados a um conjunto de chaves estrangeiras que referenciam as dimensões circundantes.
+>
+> **Gabarito: E**
 
 ---
 
-## 🌐 Fontes Oficiais e Referências Bibliográficas
-
-* [PostgreSQL 17 Official Documentation - Data Definition (DDL)](https://www.postgresql.org/docs/current/ddl.html) - Criação de tabelas, restrições de integridade (PRIMARY KEY, FOREIGN KEY, CHECK, UNIQUE) e domínios.
-* [PostgreSQL 17 Official Documentation - Queries and Joins](https://www.postgresql.org/docs/current/queries.html) - Consultas relacionais, junções internas e externas, agregações e subconsultas.
-* [Oracle Database 19c Documentation - Relational Concepts](https://docs.oracle.com/en/database/oracle/oracle-database/19/cncpt/transactions.html) - Fundamentos do modelo relacional, integridade referencial e álgebra relacional aplicada.
-* [MongoDB Official Documentation - Data Modeling Introduction](https://www.mongodb.com/docs/manual/core/data-modeling-introduction/) - Modelagem orientada a documentos, contraste com modelo relacional e desnormalização controlada.
-* ELMASRI, Ramez; NAVATHE, Shamkant B. **Sistemas de Banco de Dados**. 7. ed. São Paulo: Pearson, 2019. (Cap. 3 - Modelo Entidade-Relacionamento; Cap. 14 - Formas Normais e Dependências Funcionais).
-* SILBERSCHATZ, Abraham; KORTH, Henry F.; SUDARSHAN, S. **Sistema de Banco de Dados**. 7. ed. Rio de Janeiro: GEN LTC, 2020. (Cap. 2 - Modelo Relacional; Cap. 6 - Projeto de Banco de Dados e Teoria da Normalização).
-* HEUSER, Carlos Alberto. **Projeto de Banco de Dados**. 6. ed. Porto Alegre: Bookman, 2009. (Cap. 2 - Modelo Conceitual DER; Cap. 5 - Normalização de Dados).
