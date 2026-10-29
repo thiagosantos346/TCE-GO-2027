@@ -117,7 +117,7 @@ Na Análise SWOT Cruzada (Matriz FOFA), o confronto entre o ambiente interno (Fo
 A postura estratégica recomendada quando a organização diagnostica um cenário caracterizado predominantemente pelo cruzamento entre **Fraquezas Internas** e **Ameaças Externas** é a postura de:
 
 * **A)** Sobrevivência (ou Defensiva), visando reduzir danos, conter prejuízos e desinvestir em áreas críticas inviabilizadas.
-* **B)** Desenvolvimento (ou Alavancagem agressiva), priorizando a expansão maciça de novos serviços e instalações.
+* **B)** Desenvolvimento (ou Alavancagem agressiva), priorizando a expansão maciça de novos serviços e instalações no âmbito da administração pública direta e indireta.
 * **C)** Domínio Monopolista irrestrito de mercado.
 * **D)** Crescimento acelerado por meio de fusões estatais corporativas.
 * **E)** Terceirização integral das atividades exclusivas de Estado.
@@ -167,7 +167,7 @@ De acordo com o modelo de análise das Cinco Forças Competitivas desenvolvido p
 * **A)** Barreiras à entrada, tais como economias de escala consolidadas e elevados requisitos de capital inicial.
 * **B)** Alta rivalidade interna e ausência de regulamentação governamental setorial.
 * **C)** Facilidade de acesso aos canais de distribuição tradicionais pelos recém-chegados.
-* **D)** Baixo custo de mudança (*switching costs*) suportado pelos consumidores ao migrarem de fornecedor.
+* **D)** Baixo custo de mudança (*switching costs*) suportado pelos consumidores ao migrarem de fornecedor no âmbito da administração pública direta e indireta.
 * **E)** Existência de produtos substitutos com preços significativamente menores no mercado.
 
 
@@ -228,7 +228,7 @@ Michael Porter formulou o célebre modelo das Cinco Forças Competitivas que det
 São forças competitivas integrantes do modelo original de Porter:
 
 * **A)** Rivalidade entre os concorrentes existentes, Ameaça de novos entrantes, Poder de barganha dos compradores (clientes), Poder de barganha dos fornecedores e Ameaça de produtos ou serviços substitutos.
-* **B)** Poder Judiciário, Poder Executivo, Poder Legislativo, Ministério Público e Tribunal de Contas.
+* **B)** Poder Judiciário, Poder Executivo, Poder Legislativo, Ministério Público e Tribunal de Contas considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **C)** Gravidade, Urgência, Tendência, Capacidade Operacional e Risco Jurídico.
 * **D)** Inflação, Taxa Selic, Produto Interno Bruto, Balança Comercial e Dívida Soberana.
 * **E)** Hardware, Software, Peopleware, Sistemas de Redes e Dados na Nuvem.
@@ -326,7 +326,7 @@ Na Visão Baseada em Recursos (RBV - *Resource-Based View*) e no framework **VRI
 * **B)** Ser Volátil, Razoável, Imediato e Onipresente.
 * **C)** Ser Vigoroso, Regular, Inflexível e Oneroso.
 * **D)** Ter Vencimento anual, Restrição orçamentária, Isenção tributária e Opção de resgate.
-* **E)** Ter Valor monetário alto, Rapidez de liquidação, Inscrição em dívida ativa e Ordem bancária emitida.
+* **E)** Ter Valor monetário alto, Rapidez de liquidação, Inscrição em dívida ativa e Ordem bancária emitida no âmbito da administração pública direta e indireta.
 
 
 ---
@@ -382,7 +382,7 @@ A respeito da ferramenta Business Model Canvas desenvolvida por Alexander Osterw
 * **A)** O bloco da Proposta de Valor descreve detalhadamente o organograma hierárquico e as linhas formais de subordinação funcional da empresa.
 * **B)** O bloco de Segmentos de Clientes situa-se no lado de infraestrutura interna (back-stage), ao lado da estrutura de custos e fornecedores.
 * **C)** O modelo Canvas é composto por nove blocos interdependentes que descrevem a lógica de como uma organização cria, entrega e captura valor perante seu público.
-* **D)** A ferramenta Canvas foi desenhada com a finalidade exclusiva de substituir as Demonstrações Contábeis Aplicadas ao Setor Público (DCASP).
+* **D)** A ferramenta Canvas foi desenhada com a finalidade exclusiva de substituir as Demonstrações Contábeis Aplicadas ao Setor Público (DCASP) no âmbito da administração pública direta e indireta.
 * **E)** O bloco das Parcerias Principais destina-se a mensurar os prazos cronológicos das tarefas críticas de projetos de curto prazo.
 
 
@@ -405,7 +405,7 @@ A respeito da ferramenta Business Model Canvas desenvolvida por Alexander Osterw
 Na modelagem inovadora de serviços e projetos públicos pelo *Business Model Canvas* (Alexander Osterwalder), o bloco que define como a instituição se comunica e entrega a sua proposta de valor aos diferentes segmentos de usuários e cidadãos é denominado:
 
 * **A)** Canais (de Comunicação, Distribuição e Acesso).
-* **B)** Estrutura de Custos.
+* **B)** Estrutura de Custos no âmbito da administração pública direta e indireta.
 * **C)** Fluxo de Receitas.
 * **D)** Recursos Principais.
 * **E)** Parcerias-Chave.

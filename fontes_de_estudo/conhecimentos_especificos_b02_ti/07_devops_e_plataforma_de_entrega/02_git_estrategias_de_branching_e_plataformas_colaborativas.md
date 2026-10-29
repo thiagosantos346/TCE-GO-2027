@@ -195,7 +195,7 @@ Em uma instituição que busca atingir os mais altos níveis de desempenho avali
 
 A respeito do Trunk-Based Development e de seus habilitadores técnicos, assinale a afirmativa correta:  
 
-* **A)** O Trunk-Based Development exige a criação de ramos de desenvolvimento que fiquem isolados por pelo menos trinta dias, assegurando que o código nunca seja compartilhado antes de passar por uma auditoria manual externa.
+* **A)** O Trunk-Based Development exige a criação de ramos de desenvolvimento que fiquem isolados por pelo menos trinta dias, assegurando que o código nunca seja compartilhado antes de passar por uma auditoria manual externa no âmbito da administração pública direta e indireta.
 * **B)** No Trunk-Based Development, para permitir que desenvolvedores integrem código ao ramo principal com alta frequência sem disponibilizar funcionalidades incompletas aos usuários finais em produção, utiliza-se a técnica de *Feature Flags* (ou *Feature Toggles*).
 * **C)** O modelo Trunk-Based Development proíbe a execução de testes automatizados no pipeline de Integração Contínua para não desacelerar os merges diários no ramo principal.
 * **D)** No Trunk-Based Development, é mandatório manter duas branches permanentes em paralelo: uma denominada `trunk` e outra denominada `develop`, ambas recebendo commits ao mesmo tempo.
@@ -220,7 +220,7 @@ A respeito do Trunk-Based Development e de seus habilitadores técnicos, assinal
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 O modelo de ramificação *GitHub Flow* destaca-se por sua simplicidade e alinhamento estreito com práticas de Implantação Contínua. Diferentemente do complexo modelo *Git Flow*, a premissa central de governança do *GitHub Flow* estabelece que:
 
-* **A)** Devem existir permanentemente cinco branches perenes no repositório com releases a cada dois anos.
+* **A)** Devem existir permanentemente cinco branches perenes no repositório com releases a cada dois anos considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **B)** Há apenas uma branch de vida longa (`main` ou `master`), a qual deve estar permanentemente em estado de produção (testada e estável); novas funcionalidades são criadas a partir dela em branches descritivas de curta duração, integradas rapidamente via *Pull Request* e implantadas imediatamente em produção.
 * **C)** Desenvolvedores são expressamente proibidos de abrir *Pull Requests* para revisão por pares.
 * **D)** O código da branch principal nunca pode ser enviado para servidores de produção.
@@ -245,7 +245,7 @@ O modelo de ramificação *GitHub Flow* destaca-se por sua simplicidade e alinha
 **(FCC - Adaptada / TI - GitHub Flow e GitLab Flow)**
 Em relação aos modelos de ramificação simplificados com foco em ambientes de computação em nuvem, assinale a afirmativa correta sobre o **GitHub Flow** e o **GitLab Flow**:  
 
-* **A)** No GitHub Flow, o código deve ser obrigatoriamente submetido a aprovação de pelo menos quatro ramos intermediários (`develop`, `homolog`, `staging` e `canary`) antes que qualquer branch de tarefa possa ser criada.
+* **A)** No GitHub Flow, o código deve ser obrigatoriamente submetido a aprovação de pelo menos quatro ramos intermediários (`develop`, `homolog`, `staging` e `canary`) antes que qualquer branch de tarefa possa ser criada considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **B)** O GitLab Flow com branches de ambiente (*Environment Branches*) propõe que alterações fluam sequencialmente entre ramos representativos de infraestrutura (por exemplo, da branch `main` para `pre-production`, e desta para `production`), mantendo a rastreabilidade do que está implantado em cada estágio.
 * **C)** No GitHub Flow, o branch `main` nunca reflete o código de produção, servindo apenas para testes de protótipos que são descartados semanalmente.
 * **D)** No GitLab Flow, é proibido o uso de *Merge Requests*, sendo a sincronização entre branches realizada exclusivamente por comandos de upload via FTP.
@@ -312,7 +312,7 @@ No Git, ao integrar duas ramificações cuja branch de destino não sofreu alter
 
 * **A)** A destruição de todos os arquivos modificados na branch de origem.
 * **B)** A criação forçada de um commit de mescla (*merge commit*) com múltiplos pais, preservando formalmente no histórico gráfico a evidência histórica de que aqueles commits pertenceram a uma branch de desenvolvimento independente.
-* **C)** A conversão do repositório Git local em um repositório centralizado Apache Subversion (SVN).
+* **C)** A conversão do repositório Git local em um repositório centralizado Apache Subversion (SVN) considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **D)** O rebaseamento automático de todos os commits diretamente na memória ROM da placa-mãe.
 * **E)** A execução de uma checagem de tipos estáticos sem criação de novos nós na árvore de commits.
 
@@ -341,7 +341,7 @@ O principal benefício técnico proporcionado pela estratégia de **Squash and M
 * **B)** Converter a branch em um contêiner Docker para execução automática antes da compilação.
 * **C)** Combinar todos os 12 commits fragmentados da branch secundária em um único commit coeso e descritivo na branch principal (`main`), mantendo o histórico de produção limpo e facilitando eventuais reversões (*git revert*).
 * **D)** Preservar todos os nós de commit individuais e gerar um commit com três nós pais obrigatórios no grafo do Git.
-* **E)** Reescrever os certificados digitais de commit do autor para mascarar a autoria de quem realizou a modificação no código.
+* **E)** Reescrever os certificados digitais de commit do autor para mascarar a autoria de quem realizou a modificação no código considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 
 
 ---
@@ -363,7 +363,7 @@ O principal benefício técnico proporcionado pela estratégia de **Squash and M
 Em plataformas modernas de desenvolvimento colaborativo (como GitHub e GitLab), uma das opções de fechamento de Pull Requests é o *Rebase and Merge*. A principal consequência dessa estratégia na topologia do histórico da branch principal é:
 
 * **A)** A geração de múltiplos commits de mescla entrelaçados em formato de teia de aranha.
-* **B)** A geração de um histórico de commits estritamente linear e limpo, uma vez que os commits da feature branch são reaplicados um a um sobre a ponta da branch principal com novos hashes SHA, dispensando a criação de um commit de merge adicional.
+* **B)** A geração de um histórico de commits estritamente linear e limpo.
 * **C)** A descompactação de todos os arquivos em um servidor FTP legado.
 * **D)** A impossibilidade de compilar o software após o merge.
 * **E)** O travamento permanente de todas as demais branches do projeto.
@@ -441,7 +441,7 @@ Para atingir esses três objetivos, a configuração necessária envolve, respec
 
 * **A)** Desativar o pipeline de CI; habilitar a opção *Allow force pushes*; e criar um arquivo `.gitignore` listando a pasta `/database/`.
 * **B)** Ativar as regras de proteção de branch (*Branch Protection Rules*) bloqueando *force pushes*; configurar *Required status checks* vinculados ao job de testes do CI; e configurar o arquivo `CODEOWNERS` mapeando o caminho `/database/` para a equipe de DBAs com aprovação obrigatória.
-* **C)** Atribuir a todos os usuários o perfil de *Owner* do repositório; habilitar o acesso anônimo via HTTP; e apagar o histórico de commits anteriores da branch principal.
+* **C)** Atribuir a todos os usuários o perfil de *Owner* do repositório; habilitar o acesso anônimo via HTTP; e apagar o histórico de commits anteriores da branch principal considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **D)** Configurar o GitLab Runner em modo compartilhado sem restrição de tags; habilitar a flag `fast-forward only`; e renomear os arquivos `.sql` para `.txt`.
 * **E)** Revogar o acesso de leitura de todos os membros da equipe e realizar commits manuais em produção utilizando um pendrive criptografado.
 
@@ -468,7 +468,7 @@ Para atingir esses três objetivos, a configuração necessária envolve, respec
 **(FCC – Inédita – Padrão TCE-GO)**  
 No âmbito da governança de código e controle de acesso a repositórios de software corporativos, o arquivo especial `CODEOWNERS` (suportado por GitHub e GitLab) tem como função primordial:
 
-* **A)** Definir senhas de acesso aos servidores de banco de dados de produção.
+* **A)** Definir senhas de acesso aos servidores de banco de dados de produção considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **B)** Mapear padrões de arquivos e diretórios a pessoas ou equipes responsáveis (*owners*), associando-se a regras de proteção de branch para exigir a aprovação formal e obrigatória desses proprietários antes que Pull Requests que alterem esses caminhos específicos possam ser mesclados.
 * **C)** Listar os salários dos funcionários que contribuem com o código-fonte.
 * **D)** Proibir que desenvolvedores júnior leiam arquivos de teste.
@@ -494,7 +494,7 @@ No âmbito da governança de código e controle de acesso a repositórios de sof
 As duas plataformas de desenvolvimento colaborativo e DevOps mais adotadas na administração pública são o GitHub e o GitLab. A respeito da correspondência terminológica e conceitual entre ambas as plataformas, é correto afirmar:
 
 * **A)** A solicitação formal de revisão e mescla de código denomina-se *Pull Request* no GitHub e *Merge Request* no GitLab.
-* **B)** O GitLab não suporta integração contínua (CI/CD), exigindo a contratação de ferramentas externas proprietárias.
+* **B)** O GitLab não suporta integração contínua (CI/CD), exigindo a contratação de ferramentas externas proprietárias no âmbito da administração pública direta e indireta.
 * **C)** O GitHub proíbe a utilização de contêineres Docker em seus executores de pipeline (*Runners*).
 * **D)** *Issues* existem apenas no GitHub, não havendo mecanismo de acompanhamento de demandas e chamados no GitLab.
 * **E)** O GitLab exige que todo o código seja armazenado em fitas magnéticas analógicas.

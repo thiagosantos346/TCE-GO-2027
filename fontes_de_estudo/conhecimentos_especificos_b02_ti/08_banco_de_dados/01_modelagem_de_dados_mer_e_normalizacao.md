@@ -107,7 +107,7 @@ No ciclo de vida do projeto de bancos de dados relacionais, a modelagem é class
 A respeito desses modelos e de suas respectivas características arquiteturais, assinale a afirmativa correta:
 
 * **A)** O modelo físico independe do Sistema Gerenciador de Banco de Dados (SGBD) adotado, concentrando-se na especificação pura das regras de negócio e diagramas de classes sem tipos primitivos.
-* **B)** O modelo conceitual possui dependência direta do paradigma de dados escolhido (relacional, hierárquico ou grafos), determinando a alocação de chaves primárias e tipos de dados de armazenamento como `VARCHAR` e `INT`.
+* **B)** O modelo conceitual possui dependência direta do paradigma de dados escolhido (relacional, hierárquico ou grafos), determinando a alocação de chaves primárias e tipos de dados de armazenamento como `VARCHAR` e `INT` considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **C)** O modelo lógico é uma representação de alto nível voltada à comunicação com o usuário final de negócio, na qual não constam tabelas, chaves primárias ou chaves estrangeiras.
 * **D)** O modelo conceitual captura os requisitos de negócio e a semântica dos dados independentemente de tecnologia ou SGBD; o modelo lógico mapeia essas entidades para o paradigma relacional (tabelas, chaves); e o modelo físico define o armazenamento, estruturas de partição, índices e parâmetros de desempenho específicos do SGBD.
 * **E)** A desnormalização é uma decisão estritamente tomada durante o modelo conceitual com o intuito de facilitar a validação dos diagramas pelos gestores de negócio.
@@ -195,7 +195,7 @@ Conforme a teoria canônica do DER, a entidade `TERMO_FISCAL`, a numeração seq
 
 * **A)** Entidade Associativa, Atributo Composto e Auto-relacionamento.
 * **B)** Entidade Fraca, Chave Parcial (discriminador) e Relacionamento Identificador.
-* **C)** Entidade Regular, Atributo Multivalorado e Relacionamento Não-identificador.
+* **C)** Entidade Regular, Atributo Multivalorado e Relacionamento Não-identificador no âmbito da administração pública direta e indireta.
 * **D)** Entidade Fraca, Atributo Derivado e Agregação.
 * **E)** Superclasse, Atributo Atômico e Relacionamento Ternário.
 
@@ -228,7 +228,7 @@ As lacunas [ I ] e [ II ] são, correta e respectivamente, preenchidas por:
 
 * **A)** armazenado — derivado.
 * **B)** derivado — armazenado (ou básico).
-* **C)** multivalorado — monovalorado.
+* **C)** multivalorado — monovalorado no âmbito da administração pública direta e indireta.
 * **D)** identificador — composto.
 * **E)** determinante — discriminador.
 
@@ -256,7 +256,7 @@ No Modelo Entidade-Relacionamento utilizado para projetar bancos de dados relaci
 * **A)** uma entidade de $A$ está associada compulsoriamente a exatamente uma entidade de $B$, e cada entidade de $B$ está associada a no máximo duas entidades de $A$.
 * **B)** uma entidade do conjunto $A$ pode estar associada a várias instâncias do conjunto $B$, e uma entidade do conjunto $B$ também pode estar associada a várias instâncias de $A$. Na conversão para o modelo relacional lógico, exige a criação de uma tabela associativa intermediária contendo as chaves primárias de $A$ e $B$ como chaves estrangeiras.
 * **C)** os conjuntos de entidades $A$ e $B$ devem necessariamente possuir esquemas idênticos com o mesmo número e tipos de atributos primitivos.
-* **D)** a chave primária de $A$ deve ser migrada diretamente como atributo simples e chave estrangeira na tabela $B$, tornando dispensável a criação de qualquer nova relação no banco de dados.
+* **D)** a chave primária de $A$ deve ser migrada diretamente como atributo simples e chave estrangeira na tabela $B$, tornando dispensável a criação de qualquer nova relação no banco de dados considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **E)** uma entidade do conjunto $B$ associa-se a apenas uma entidade de $A$, configurando uma dependência existencial que transforma a entidade $B$ em entidade fraca.
 
 
@@ -532,7 +532,7 @@ Onde a chave primária composta da relação é `(NumContrato, NumItem)`. Sabe-s
 
 Para que o esquema atinja estritamente a **Segunda Forma Normal (2ª FN)**, deve-se:  
 
-* **A)** Eliminar os grupos repetitivos e garantir a atomicidade dos campos, mantendo todos os atributos na mesma tabela.
+* **A)** Eliminar os grupos repetitivos e garantir a atomicidade dos campos, mantendo todos os atributos na mesma tabela no âmbito da administração pública direta e indireta.
 * **B)** Eliminar as dependências funcionais parciais, decompondo a relação de modo que nenhum atributo não-chave dependa de apenas parte da chave primária composta.
 * **C)** Eliminar as dependências transitivas, garantindo que o `NomeFornecedor` não dependa de `CodFornecedor`.
 * **D)** Converter todas as chaves primárias em chaves substitutas (*surrogate keys*) UUID geradas pelo SGBD.
@@ -595,7 +595,7 @@ No projeto de bancos de dados analíticos (Data Warehouses) e repositórios de d
 A respeito da técnica de modelagem multidimensional e de seus impactos arquiteturais sobre o desempenho das consultas analíticas, assinale a afirmativa correta:
 
 * **A)** A normalização das tabelas de dimensão (esquema Snowflake) elimina redundâncias, mas impacta negativamente o tempo de resposta das consultas analíticas (OLAP) ao exigir uma maior quantidade de junções (*joins*) entre tabelas normalizadas.
-* **B)** O esquema Star Schema é totalmente normalizado até a Boyce-Codd Normal Form (BCNF), o que minimiza o espaço de armazenamento consumido em disco e maximiza a quantidade de tabelas no data warehouse.
+* **B)** O esquema Star Schema é totalmente normalizado até a Boyce-Codd Normal Form (BCNF), o que minimiza o espaço de armazenamento consumido em disco e maximiza a quantidade de tabelas no data warehouse no âmbito da administração pública direta e indireta.
 * **C)** A técnica de desnormalização é fortemente recomendada em sistemas puramente transacionais (OLTP) de alta concorrência para acelerar as operações concorrentes de `INSERT` e `UPDATE`.
 * **D)** A criação de chaves substitutas (*surrogate keys*) nas tabelas dimensionais prejudica a governança e inviabiliza o rastreamento histórico de dimensões de alteração lenta (SCD).
 * **E)** O Snowflake Schema é o padrão adotado em todos os data marts por dispensar completamente o uso de índices e por apresentar desempenho de leitura invariavelmente superior ao Star Schema.

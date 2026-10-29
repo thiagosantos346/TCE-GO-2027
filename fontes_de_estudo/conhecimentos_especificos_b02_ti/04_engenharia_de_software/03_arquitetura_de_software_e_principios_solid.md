@@ -94,7 +94,7 @@ O modelo arquitetural "4+1 Visões", concebido por Philippe Kruchten, organiza a
 * **A)** Lógica (*Logical View*).
 * **B)** de Processo (*Process View*).
 * **C)** de Desenvolvimento ou de Implementação (*Development/Implementation View*).
-* **D)** Física ou de Implantação (*Physical/Deployment View*).
+* **D)** Física ou de Implantação (*Physical/Deployment View*) no âmbito da administração pública direta e indireta.
 * **E)** de Casos de Uso ou Cenários (*Scenarios / +1 View*).
 
 
@@ -216,7 +216,7 @@ A Arquitetura Hexagonal (*Ports and Adapters*), idealizada por Alistair Cockburn
 * **B)** o banco de dados e a interface gráfica do usuário devem obrigatoriamente ser acoplados diretamente ao domínio central do sistema.
 * **C)** o padrão proíbe o uso de testes unitários automatizados no domínio interno sem a presença de um servidor de aplicação web ativo.
 * **D)** a arquitetura hexagonal exige a utilização de seis camadas físicas de hardware redundantes para operar em produção.
-* **E)** portas e adaptadores só podem ser implementados se a aplicação utilizar banco de dados relacional baseado em linguagem SQL padrão ANSI.
+* **E)** portas e adaptadores só podem ser implementados se a aplicação utilizar banco de dados relacional baseado em linguagem SQL padrão ANSI no âmbito da administração pública direta e indireta no âmbito da administração pública direta e indireta.
 
 
 ---
@@ -239,7 +239,7 @@ No modelo de Arquitetura Orientada a Serviços (SOA), o Barramento Corporativo d
 
 * **A)** A compilação em tempo de execução de todo o código-fonte Java e Python existente nos clientes web.
 * **B)** O roteamento inteligente de mensagens, a transformação entre formatos e protocolos de comunicação heterogêneos e a mediação de serviços corporativos.
-* **C)** A substituição permanente de qualquer banco de dados relacional pelo armazenamento de dados diretamente no buffer da memória RAM do barramento.
+* **C)** A substituição permanente de qualquer banco de dados relacional pelo armazenamento de dados diretamente no buffer da memória RAM do barramento no âmbito da administração pública direta e indireta.
 * **D)** A imposição de que todos os serviços legados da empresa sejam reescritos obrigatoriamente na mesma linguagem de programação.
 * **E)** A execução de algoritmos de inteligência artificial generativa para criação autônoma de novos produtos bancários.
 
@@ -288,7 +288,7 @@ Em uma arquitetura de microsserviços distribuídos, para evitar que a indisponi
 A Arquitetura Orientada a Eventos (*Event-Driven Architecture* - EDA) é caracterizada pela comunicação assíncrona desacoplada baseada na produção, detecção e consumo de eventos de negócio. Nesse paradigma, quando associado ao padrão CQRS (*Command Query Responsibility Segregation*), tem-se que:
 
 * **A)** as operações de alteração de estado (*Commands*) e as operações de consulta (*Queries*) utilizam modelos conceituais distintos, permitindo otimizar a escrita e a leitura de forma independente.
-* **B)** toda e qualquer requisição de leitura deve travar o banco de dados em modo monousuário até que as mensagens pendentes na fila sejam totalmente apagadas.
+* **B)** toda e qualquer requisição de leitura deve travar o banco de dados em modo monousuário até que as mensagens pendentes na fila sejam totalmente apagadas no âmbito da administração pública direta e indireta.
 * **C)** os produtores de eventos precisam conhecer o endereço de rede IP e a tecnologia interna de cada um dos consumidores para que o evento seja entregue.
 * **D)** o padrão exige o descarte de mecanismos de mensageria assíncrona em favor de chamadas HTTP síncronas bloqueantes ponto a ponto.
 * **E)** as consultas nunca podem retornar dados desatualizados, mesmo que o sistema utilize consistência eventual (*eventual consistency*).
@@ -399,7 +399,7 @@ Em um sistema corporativo em Java, uma interface denominada `DispositivoMultifun
 * **A)** Princípio da Responsabilidade Única (SRP).
 * **B)** Princípio Aberto/Fechado (OCP).
 * **C)** Princípio da Segregação de Interfaces (ISP).
-* **D)** Princípio da Inversão de Dependência (DIP).
+* **D)** Princípio da Inversão de Dependência (DIP) no âmbito da administração pública direta e indireta.
 * **E)** Princípio da Substituição de Liskov (LSP).
 
 
@@ -446,7 +446,7 @@ Considere uma classe Java que calcula o valor do frete para pedidos de um tribun
 **(FCC – SEFAZ – Auditor de Tecnologia da Informação)**  
 No contexto das boas práticas de engenharia e arquitetura de software, os acrônimos DRY e YAGNI orientam a tomada de decisões no projeto de sistemas. A correta definição desses princípios estabelece que:
 
-* **A)** DRY (*Don't Repeat Yourself*) determina que duas classes jamais podem conter a mesma assinatura de método; YAGNI (*You Aren't Gonna Need It*) proíbe o uso de testes unitários automatizados em ambientes de produção.
+* **A)** DRY (*Don't Repeat Yourself*) determina que duas classes jamais podem conter a mesma assinatura de método; YAGNI (*You Aren't Gonna Need It*) proíbe o uso de testes unitários automatizados em ambientes de produção no âmbito da administração pública direta e indireta no âmbito da administração pública direta e indireta.
 * **B)** DRY determina que cada porção de conhecimento ou lógica de negócio em um sistema deve possuir uma representação única, não ambígua e definitiva; YAGNI recomenda aos desenvolvedores não implementar funcionalidades antecipadas baseadas em suposições futuras até que sejam estritamente necessárias.
 * **C)** DRY refere-se exclusivamente à padronização de nomenclatura de variáveis de banco de dados; YAGNI recomenda a criação preventiva de tabelas adicionais para suportar ampliações cadastrais.
 * **D)** YAGNI estabelece a obrigatoriedade de reescrever todo o código legado a cada seis meses; DRY impõe que todo código-fonte deva ser distribuído em licença de código aberto.

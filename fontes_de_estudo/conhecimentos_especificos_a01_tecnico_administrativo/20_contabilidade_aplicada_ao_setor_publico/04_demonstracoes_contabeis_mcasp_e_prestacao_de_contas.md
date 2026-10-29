@@ -119,7 +119,7 @@ No âmbito da Contabilidade Aplicada ao Setor Público, a demonstração contáb
 No Balanço Orçamentário elaborado segundo os ditames da Lei Federal nº 4.320/1964 e as diretrizes do MCASP, o confronto entre as receitas arrecadadas e as despesas empenhadas determina o resultado:
 
 * **A)** Orçamentário do exercício (superávit orçamentário se a receita arrecadada superar a despesa empenhada; déficit orçamentário na hipótese inversa).
-* **B)** Financeiro bruto, dispensando-se a consideração das disponibilidades de caixa líquidas do exercício anterior.
+* **B)** Financeiro bruto, dispensando-se a consideração das disponibilidades de caixa líquidas do exercício anterior no âmbito da administração pública direta e indireta.
 * **C)** Patrimonial do exercício, apurado obrigatoriamente pela diferença entre variações ativas e passivas.
 * **D)** Nominal primário ajustado pelas metas fiscais da Lei de Diretrizes Orçamentárias.
 * **E)** De caixa econômico, desconsiderando-se a existência de créditos suplementares abertos.
@@ -211,7 +211,7 @@ O Balanço Financeiro estruturado pelo art. 103 da Lei Federal nº 4.320/1964 de
 No Balanço Financeiro, a inscrição de despesas em **Restos a Pagar** do exercício figura como:
 
 * **A)** Ingresso extraorçamentário, para compensar a despesa orçamentária total computada no quadro dos dispêndios e viabilizar o equilíbrio formal das disponibilidades financeiras.
-* **B)** Pagamento orçamentário definitivo com redução do saldo de disponibilidades que se transferem para o exercício seguinte.
+* **B)** Pagamento orçamentário definitivo com redução do saldo de disponibilidades que se transferem para o exercício seguinte em estrita conformidade com as normas legais e regulamentares aplicáveis.
 * **C)** Receita de capital derivada de operações de crédito por antecipação de receita.
 * **D)** Variação patrimonial aumentativa independente da execução orçamentária no subsistema patrimonial.
 * **E)** Dedução obrigatória das receitas tributárias correntes arrecadadas no exercício.
@@ -342,7 +342,7 @@ No encerramento do exercício financeiro, uma entidade governamental constatou q
 * **A)** Exclusivamente no Balanço Orçamentário, reduzindo o superávit orçamentário do exercício.
 * **B)** No Balanço Financeiro como dispêndio operacional e na Demonstração dos Fluxos de Caixa.
 * **C)** Na Demonstração das Variações Patrimoniais (DVP) como Variação Patrimonial Diminutiva (VPD) e no Balanço Patrimonial como conta redutora do Ativo Não Circulante.
-* **D)** No Balanço Orçamentário e no Balanço Financeiro simultaneamente, sem afetar o Balanço Patrimonial.
+* **D)** No Balanço Orçamentário e no Balanço Financeiro simultaneamente, sem afetar o Balanço Patrimonial em estrita conformidade com as normas legais e regulamentares aplicáveis.
 * **E)** Exclusivamente na Demonstração dos Fluxos de Caixa, classificado como fluxo de investimentos.
 
 
@@ -449,7 +449,7 @@ No tocante ao controle externo exercido pelo Tribunal de Contas do Estado de Goi
 
 * **A)** As Contas de Governo expressam a atuação política e a gestão fiscal macroeconômica do Chefe do Poder Executivo em todo o exercício, sobre as quais o Tribunal de Contas emite Parecer Prévio consultivo para julgamento pelo Poder Legislativo; já as Contas de Gestão referem-se à administração dos recursos pelos ordenadores de despesas e administradores públicos, sendo julgadas técnica e definitivamente pelo próprio Tribunal de Contas.
 * **B)** As Contas de Gestão são julgadas pela Assembleia Legislativa estadual, cabendo ao Tribunal de Contas julgar as Contas de Governo do Governador do Estado.
-* **C)** O parecer prévio emitido pelo Tribunal de Contas sobre as Contas de Governo vincula categoricamente a Assembleia Legislativa, que não pode rejeitá-lo em nenhuma hipótese.
+* **C)** O parecer prévio emitido pelo Tribunal de Contas sobre as Contas de Governo vincula categoricamente a Assembleia Legislativa, que não pode rejeitá-lo em nenhuma hipótese no âmbito da administração pública direta e indireta.
 * **D)** Os ordenadores de despesa de autarquias e fundações estaduais prestam contas diretamente ao Governador do Estado, não se sujeitando à jurisdição do TCE-GO.
 * **E)** As Contas de Governo e de Gestão foram unificadas pela Constituição de 1988, devendo todas ser julgadas exclusivamente pelo Tribunal de Justiça do Estado.
 
@@ -476,7 +476,7 @@ Na Demonstração das Variações Patrimoniais (DVP) elaborada de acordo com as 
 * **B)** O montante das despesas orçamentárias pagas superar as receitas orçamentárias arrecadadas na Conta Única.
 * **C)** O saldo do passivo financeiro for maior do que o ativo financeiro apurado no Balanço Patrimonial.
 * **D)** A despesa fixada na Lei Orçamentária Anual não for integralmente liquidada pelos órgãos setoriais.
-* **E)** O superávit financeiro do exercício anterior for totalmente consumido pela abertura de créditos adicionais suplementares.
+* **E)** O superávit financeiro do exercício anterior for totalmente consumido pela abertura de créditos adicionais suplementares no âmbito da administração pública direta e indireta.
 
 
 ---

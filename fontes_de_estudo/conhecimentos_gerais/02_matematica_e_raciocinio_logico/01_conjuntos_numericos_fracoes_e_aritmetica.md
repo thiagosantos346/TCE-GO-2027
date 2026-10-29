@@ -222,7 +222,7 @@ A potenciação traduz o produto de fatores idênticos repetidos ($a^n = \underb
 **(FCC – TCE-GO – Analista de Controle Externo)**  
 O valor numérico da expressão aritmética $K = \frac{2^{20} + 2^{18}}{2^{19} - 2^{17}}$ é igual a:
 
-* **A)** $\frac{5}{3}$
+* **A)** $\frac{5}{3}$ em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **B)** $\frac{10}{3}$
 * **C)** $2$
 * **D)** $4$

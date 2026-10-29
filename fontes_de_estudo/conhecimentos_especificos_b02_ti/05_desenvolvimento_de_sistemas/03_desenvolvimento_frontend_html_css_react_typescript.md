@@ -174,7 +174,7 @@ No desenvolvimento de páginas governamentais com HTML5 aderentes às diretrizes
 * **B)** O uso do atributo `tabindex="5"` é a prática recomendada para botões de submissão, pois garante que eles sempre recebam o foco antes de qualquer campo do formulário.
 * **C)** O elemento `<main>` deve encapsular o conteúdo central e específico do documento, não devendo ser duplicado em um mesmo documento exibido, e conteúdos que se repetem entre páginas (como cabeçalhos de topo e rodapés gerais) devem ficar fora dele.
 * **D)** As tags de agrupamento genérico `<div>` e `<span>` possuem semântica rica superior às tags `<section>` e `<nav>`, sendo preferíveis pelos leitores de tela.
-* **E)** O atributo `aria-hidden="true"` instrui os navegadores a ocultar o elemento visualmente na tela para usuários videntes, mas mantém sua leitura intacta para deficientes visuais em leitores de tela.
+* **E)** O atributo `aria-hidden="true"` instrui os navegadores a ocultar o elemento visualmente na tela para usuários videntes, mas mantém sua leitura intacta para deficientes visuais em leitores de tela no âmbito da administração pública direta e indireta.
 
 
 ---
@@ -195,7 +195,7 @@ No desenvolvimento de páginas governamentais com HTML5 aderentes às diretrizes
 **(FCC – TCE – Auditor de Controle Externo / Tecnologia da Informação)**  
 As diretrizes de acessibilidade para conteúdo web (WCAG 2.1) e a especificação WAI-ARIA definem normas e atributos semânticos para tornar aplicações web acessíveis a pessoas com deficiência. Em relação a essas normas, é correto afirmar:
 
-* **A)** O atributo `alt` em elementos `<img>` deve ser sempre preenchido com textos genéricos como "imagem" ou "foto" para atender ao critério de acessibilidade.
+* **A)** O atributo `alt` em elementos `<img>` deve ser sempre preenchido com textos genéricos como "imagem" ou "foto" para atender ao critério de acessibilidade no âmbito da administração pública direta e indireta.
 * **B)** O atributo `aria-label` permite fornecer um rótulo textual acessível a leitores de tela para elementos interativos que não possuem texto visível na interface (como botões representados apenas por ícones).
 * **C)** O atributo `aria-hidden="true"` força o elemento a ser lido prioritariamente em voz alta por leitores de tela.
 * **D)** As WCAG preconizam que o contraste entre texto e fundo deve ser o menor possível para não ofuscar a visão do usuário.
@@ -375,7 +375,7 @@ A cor final com que o texto do título `Relatório de Conformidade` será render
 
 * **A)** Azul, porque o seletor com o identificador direto `#titulo-destaque` possui a maior especificidade absoluta entre todas as regras.
 * **B)** Vermelho, porque a Regra 1 é mais genérica e o navegador sempre prioriza seletores de tag simples para garantir padronização tipográfica.
-* **C)** Roxo (*purple*), porque a Regra 4 combina um ID (`#secao-principal`), uma classe (`.titulo`) e duas tags (`div` e `h1`), somando uma especificidade superior à da Regra 2.
+* **C)** Roxo (*purple*).
 * **D)** Verde, porque a Regra 3 é a penúltima declarada e as classes sobrepõem identificadores únicos no CSS3 moderno.
 * **E)** Roxo (*purple*), porque a regra foi escrita na última linha do arquivo CSS e o desempate na cascata dá vitória estrita à regra de menor número de seletores.
 
@@ -403,7 +403,7 @@ A cor final com que o texto do título `Relatório de Conformidade` será render
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 No modelo de caixa do CSS3 (*Box Model*), a propriedade `box-sizing` altera a forma como a largura (*width*) e a altura (*height*) totais de um elemento HTML são calculadas no layout da página. Ao aplicar a regra `box-sizing: border-box;` a um elemento com `width: 300px; padding: 20px; border: 5px solid black;`, tem-se que:
 
-* **A)** A largura total renderizada do elemento será de 350px, somando o conteúdo, os paddings e as bordas.
+* **A)** A largura total renderizada do elemento será de 350px, somando o conteúdo, os paddings e as bordas em estrita conformidade com as normas legais e regulamentares aplicáveis.
 * **B)** A largura total renderizada do elemento permanecerá exatamente em 300px, sendo o padding e a borda absorvidos internamente no espaço total especificado.
 * **C)** O navegador ignorará o padding e exibirá o conteúdo com largura de 300px e borda invisível.
 * **D)** A propriedade `border-box` elimina a margem externa (*margin*) do elemento em todas as resoluções.
@@ -543,7 +543,7 @@ O TypeScript inclui um conjunto poderoso de utilitários de transformação de t
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 Na linguagem TypeScript, os tipos especiais `any` e `unknown` fornecem suporte a valores cujos tipos não são conhecidos a priori. A diferença crucial de segurança de tipos (*type safety*) entre `any` e `unknown` consiste em:
 
-* **A)** `any` força a checagem rigorosa de tipos pelo compilador, enquanto `unknown` desativa todas as regras de tipagem estática.
+* **A)** `any` força a checagem rigorosa de tipos pelo compilador, enquanto `unknown` desativa todas as regras de tipagem estática considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **B)** variáveis tipadas como `unknown` não permitem a invocação direta de métodos ou acesso a propriedades sem que ocorra previamente uma verificação ou refinamento de tipo (*type narrowing*), ao passo que variáveis tipadas como `any` desabilitam completamente a checagem do compilador.
 * **C)** `unknown` só pode armazenar valores booleanos primitivos, enquanto `any` aceita qualquer objeto.
 * **D)** o TypeScript não aceita atribuição de novos valores a variáveis do tipo `unknown`.
@@ -570,7 +570,7 @@ No ecossistema TypeScript, desenvolvedores podem declarar formatos estruturais u
 
 * **A)** A declaração de propriedades opcionais com `?`.
 * **B)** A mesclagem automática de declarações (*declaration merging*), permitindo que múltiplas declarações de uma interface com o mesmo identificador sejam unificadas em uma única interface composta.
-* **C)** A criação de uniões de tipos primitivos utilizando o operador `|`.
+* **C)** A criação de uniões de tipos primitivos utilizando o operador `|` considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **D)** A compatibilidade com tipagem estática em tempo de compilação.
 * **E)** O suporte a parâmetros genéricos.
 
@@ -766,7 +766,7 @@ A respeito do propósito e do funcionamento da propriedade `key` no algoritmo de
 
 * **A)** A `key` serve unicamente para estilização visual via CSS, sendo convertida em uma classe HTML automática no DOM real.
 * **B)** O React utiliza a `key` para identificar de forma estável quais elementos da lista foram alterados, adicionados ou removidos entre renderizações, permitindo atualizar apenas os nós do DOM que sofreram modificação efetiva.
-* **C)** O uso do índice do array (`key={index}`) é a estratégia oficial recomendada pela Meta para listas dinâmicas com operações frequentes de ordenação e inserção no início da fila.
+* **C)** O uso do índice do array (`key={index}`) é a estratégia oficial recomendada pela Meta para listas dinâmicas com operações frequentes de ordenação e inserção no início da fila no âmbito da administração pública direta e indireta.
 * **D)** As chaves `key` devem ser obrigatoriamente números inteiros sequenciais gerados aleatoriamente com `Math.random()` a cada ciclo de renderização.
 * **E)** A propriedade `key` é repassada automaticamente pelo React para o componente filho como uma prop ordinária, podendo ser acessada livremente no código filho via `props.key`.
 
@@ -807,7 +807,7 @@ Ao executar essa aplicação no navegador, o comportamento verificado pelo desen
 
 * **A)** A requisição à API é disparada apenas uma única vez na montagem da tela, funcionando de forma perfeitamente otimizada.
 * **B)** Ocorre um laço infinito de renderizações (*infinite loop*), provocando sucessivas requisições HTTP e congelamento da interface do usuário.
-* **C)** O React emite um erro de compilação em tempo de execução porque funções assíncronas não são permitidas dentro de componentes funcionais.
+* **C)** O React emite um erro de compilação em tempo de execução porque funções assíncronas não são permitidas dentro de componentes funcionais no âmbito da administração pública direta e indireta.
 * **D)** A lista de processos jamais será atualizada porque o Hook `useState` não dispara re-renderização quando recebe arrays de dados.
 * **E)** A requisição HTTP falha compulsoriamente devido à falta do cabeçalho de acessibilidade `aria-live` no elemento `<div>`.
 
@@ -837,7 +837,7 @@ Ao executar essa aplicação no navegador, o comportamento verificado pelo desen
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 Na biblioteca React (versões 16.8+ baseadas em Hooks), a otimização de performance e a manipulação de instâncias mutáveis utilizam hooks especializados. A correta distinção conceitual entre `useMemo`, `useCallback` e `useRef` estabelece que:
 
-* **A)** `useMemo` memoriza a referência de uma função, `useCallback` memoriza o valor de retorno calculado de uma função, e `useRef` força uma nova renderização imediata do componente sempre que seu atributo `.current` é modificado.
+* **A)** `useMemo` memoriza a referência de uma função, `useCallback` memoriza o valor de retorno calculado de uma função, e `useRef` força uma nova renderização imediata do componente sempre que seu atributo `.current` é modificado considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **B)** `useMemo` armazena em cache o resultado computacional de uma função cara evitando recálculos desnecessários; `useCallback` memoriza a própria instância da definição de uma função entre renderizações; e `useRef` cria um objeto mutável persistente cuja propriedade `.current` pode ser alterada sem disparar nova renderização do componente.
 * **C)** todos os três hooks são executados exclusivamente após a aplicação ser desinstalada da máquina do cliente.
 * **D)** `useRef` só pode ser utilizado para conectar a aplicação ao banco de dados PostgreSQL.

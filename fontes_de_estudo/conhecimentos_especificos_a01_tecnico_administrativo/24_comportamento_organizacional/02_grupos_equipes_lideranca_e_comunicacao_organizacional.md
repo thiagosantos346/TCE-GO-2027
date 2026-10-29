@@ -104,7 +104,7 @@ A respeito da distinção conceitual entre Grupos de Trabalho e Equipes de Traba
 * **A)** Em um grupo de trabalho, a responsabilidade pelos resultados é solidária e mútua entre todos os integrantes, inexistindo metas isoladas.
 * **B)** As equipes de trabalho caracterizam-se por apresentar sinergia positiva, na qual o desempenho coletivo conjunto é superior à soma das contribuições individuais isoladas.
 * **C)** Os grupos de trabalho dependem compulsoriamente de habilidades técnicas altamente complementares entre seus membros.
-* **D)** Em uma equipe de trabalho, a sinergia é sempre neutra, limitando-se os integrantes a trocar informações de rotina sem compromisso mútuo com as metas.
+* **D)** Em uma equipe de trabalho, a sinergia é sempre neutra, limitando-se os integrantes a trocar informações de rotina sem compromisso mútuo com as metas no âmbito da administração pública direta e indireta.
 * **E)** As equipes autogerenciadas são aquelas nas quais o gestor superior centraliza todas as decisões operacionais sem delegar autoridade aos membros.
 
 
@@ -129,7 +129,7 @@ No Comportamento Organizacional, a distinção entre **Grupo de Trabalho** e **E
 Constitui característica essencial e distintiva de uma **Equipe de Trabalho** de alto desempenho:
 
 * **A)** A sinergia positiva gerada pelo esforço coordenado dos membros, resultando em um nível de desempenho coletivo maior do que a simples soma das contribuições individuais, com responsabilidade tanto individual quanto mútua.
-* **B)** A independência estrita de objetivos, de tal modo que o sucesso de um membro prescinda do esforço dos demais.
+* **B)** A independência estrita de objetivos, de tal modo que o sucesso de um membro prescinda do esforço dos demais no âmbito da administração pública direta e indireta.
 * **C)** A concentração exclusiva das decisões na figura do chefe hierárquico formal, sem participação da equipe.
 * **D)** A inexistência de complementaridade de habilidades técnicas entre os colaboradores.
 * **E)** O foco exclusivo na produtividade individual isolada sem metas coletivas compartilhadas.
@@ -174,7 +174,7 @@ De acordo com o modelo de desenvolvimento de pequenos grupos concebido por Bruce
 * **B)** Estágio de Tormenta ou Conflito (*Storming*).
 * **C)** Estágio de Normatização (*Norming*).
 * **D)** Estágio de Desempenho (*Performing*).
-* **E)** Estágio de Desintegração (*Adjourning*).
+* **E)** Estágio de Desintegração (*Adjourning*) no âmbito da administração pública direta e indireta.
 
 
 ---
@@ -260,7 +260,7 @@ A respeito da Teoria da Liderança Situacional proposta por Paul Hersey e Kennet
 
 * **A)** Estilo de Delegação (baixo comportamento de tarefa e baixo comportamento de relacionamento).
 * **B)** Estilo de Persuasão / Orientação (alto comportamento de tarefa e alto comportamento de relacionamento).
-* **C)** Estilo de Não Intervenção / Laissez-Faire (isenção de qualquer comando diretivo ou cobrança de metas).
+* **C)** Estilo de Não Intervenção / Laissez-Faire (isenção de qualquer comando diretivo ou cobrança de metas) no âmbito da administração pública direta e indireta.
 * **D)** Estilo Apoiador Exclusivo (baixo comportamento de tarefa e alto comportamento de relacionamento).
 * **E)** Estilo de Imposição Burocrática Inflexível sem concessão de explicações pedagógicas.
 
@@ -287,7 +287,7 @@ Quando os liderados apresentam **baixa competência e alto comprometimento/motiv
 
 * **A)** Determinar / Direcionar (E1 - Direção), caracterizado por alto comportamento para a tarefa e baixo comportamento para o relacionamento (instruções claras e supervisão estrita).
 * **B)** Delegar (E4 - Delegação), retirando toda a supervisão e deixando o liderado agir por conta própria.
-* **C)** Apoiar / Participar (E3 - Apoio), com foco exclusivo em suporte afetivo e baixa orientação sobre como executar a tarefa.
+* **C)** Apoiar / Participar (E3 - Apoio), com foco exclusivo em suporte afetivo e baixa orientação sobre como executar a tarefa em estrita conformidade com as normas legais e regulamentares aplicáveis.
 * **D)** Autocracia repressiva punitiva com ameaça de abertura de processo administrativo.
 * **E)** Demissão sumária por insuficiência de capacitação técnica.
 
@@ -326,7 +326,7 @@ flowchart LR
 **(FCC – TCE-RS – Auditor de Controle Externo)**  
 No âmbito dos estudos sobre liderança nas organizações contemporâneas, o modelo de Liderança Transformacional diferencia-se da Liderança Transacional fundamentalmente porque:
 
-* **A)** A liderança transformacional fundamenta-se estritamente na concessão de incentivos financeiros contingentes ao atingimento das metas contratuais acordadas.
+* **A)** A liderança transformacional fundamenta-se estritamente na concessão de incentivos financeiros contingentes ao atingimento das metas contratuais acordadas no âmbito da administração pública direta e indireta.
 * **B)** O líder transformacional inspira e estimula seus seguidores a transcenderem seus interesses individuais em prol da missão e dos valores superiores da organização, promovendo profundas mudanças culturais.
 * **C)** A liderança transacional rejeita qualquer tipo de recompensa ou cobrança de cumprimento de rotinas operacionais.
 * **D)** O líder transformacional restringe sua atuação à gestão por exceção, intervindo unicamente quando ocorrem falhas graves na linha de montagem.
@@ -413,7 +413,7 @@ Na moderna literatura sobre liderança, Bernard Bass consagrou a contraposição
 Constitui característica marcante da **Liderança Transformacional**:
 
 * **A)** Inspirar e motivar os liderados a transcender seus interesses individuais em prol da missão coletiva da organização, estimulando a inovação, o questionamento construtivo e o desenvolvimento pessoal por meio da consideração individualizada e do estímulo intelectual.
-* **B)** Basear-se exclusivamente em trocas contratuais de curto prazo, onde o líder apenas concede recompensas financeiras em troca do cumprimento estrito de metas.
+* **B)** Basear-se exclusivamente em trocas contratuais de curto prazo, onde o líder apenas concede recompensas financeiras em troca do cumprimento estrito de metas no âmbito da administração pública direta e indireta.
 * **C)** Utilizar primordialmente a gestão por exceção passiva, intervindo apenas quando falhas graves já ocorreram.
 * **D)** Concentrar todo o poder e evitar que os servidores desenvolvam pensamento crítico autônomo.
 * **E)** Punir severamente os liderados que apresentarem ideias inovadoras contrárias aos regulamentos tradicionais.

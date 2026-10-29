@@ -227,7 +227,7 @@ A frase em que a concordância verbal, a regência e o emprego do sinal indicati
 * **A)** *"Devem haver razões plausíveis para que o gestor desobedeça os ditames da Lei de Licitações."*
 * **B)** *"Deve haver razões plausíveis para que o gestor desobedeça aos ditames da Lei de Licitações."*
 * **C)** *"Devem existir razões plausíveis para que o gestor desobedeça aos ditames da Lei de Licitações, visando à obtenção de vantagens indevidas."*
-* **D)** *"Fazem muitos anos que a comissão técnica visa à anulação de contratos que implicam em prejuízo ao erário."*
+* **D)** *"Fazem muitos anos que a comissão técnica visa à anulação de contratos que implicam em prejuízo ao erário."* em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **E)** *"Tratam-se de condutas graves que desobedecem as normas orçamentárias e conduzem à severas sanções."*
 
 
@@ -311,7 +311,7 @@ Expressões formadas pelo verbo *ser* mais adjetivo qualificando um substantivo 
 No tocante às normas de **concordância nominal**, assinale a frase inteiramente correta:
 
 * **A)** *"Seguem anexo aos autos as cópias das certidões e os comprovantes de despesa pública."*
-* **B)** *"A servidora estava meia apreensiva diante das perguntas formuladas pela comissão de sindicância."*
+* **B)** *"A servidora estava meia apreensiva diante das perguntas formuladas pela comissão de sindicância."* em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **C)** *"Remeto a Vossas Excelências inclusas as planilhas financeiras com os cálculos atualizados do débito."*
 * **D)** *"Naquela secretaria estadual, havia menas servidoras lotadas no setor de tecnologia."*
 * **E)** *"É proibida entrada de pessoas sem identificação nas dependências do tribunal."*
@@ -337,7 +337,7 @@ Assinale a alternativa em que a concordância nominal atende integralmente às e
 
 * **A)** Seguem anexos as certidões negativas e os comprovantes de quitação eleitoral dos candidatos.
 * **B)** A procuradora declarou que estava meia preocupada com o resultado do julgamento dos embargos.
-* **C)** É proibido a entrada de pessoas não autorizadas na sala de deliberações secretas dos conselheiros.
+* **C)** É proibido a entrada de pessoas não autorizadas na sala de deliberações secretas dos conselheiros em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **D)** As auditoras mesmas elaboraram os relatórios circunstanciados, demonstrando que haviam bastantes motivos para impugnar o edital.
 * **E)** Havia menas divergências entre os membros da corte técnica durante a última sessão plenária.
 
@@ -607,7 +607,7 @@ Assinale a frase em que o sinal indicativo de crase está empregado em **estrita
 
 * **A)** *"A decisão do Tribunal Pleno foi comunicada à todas as autoridades presentes na assembleia."*
 * **B)** *"O conselheiro começou à redigir o voto conclusivo nas primeiras horas da manhã."*
-* **C)** *"Os auditores permaneceram frente à frente com os gestores investigados durante o depoimento."*
+* **C)** *"Os auditores permaneceram frente à frente com os gestores investigados durante o depoimento."* em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **D)** *"O recurso ordinário foi remetido diretamente àquela diretoria responsável pela fiscalização de obras."*
 * **E)** *"O presidente do órgão concedeu audiência à um grupo de manifestantes da área de saúde."*
 
@@ -631,7 +631,7 @@ Assinale a frase em que o sinal indicativo de crase está empregado em **estrita
 O sinal indicativo de crase está empregado em estrita observância à norma-padrão em:
 
 * **A)** A comissão de licitação procedeu à abertura dos envelopes perante à uma plateia atenta.
-* **B)** Os auditores compareceram à audiência pública dispostos à colaborar com o esclarecimento dos fatos.
+* **B)** Os auditores compareceram à audiência pública dispostos à colaborar com o esclarecimento dos fatos em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **C)** O presidente do tribunal comunicou o resultado à Vossa Excelência durante a reunião do conselho.
 * **D)** À medida que os documentos contábeis eram analisados, as fraudes vinham à tona de forma irrefutável.
 * **E)** O auditor entregou o parecer à um de seus assessores diretos logo após o almoço.

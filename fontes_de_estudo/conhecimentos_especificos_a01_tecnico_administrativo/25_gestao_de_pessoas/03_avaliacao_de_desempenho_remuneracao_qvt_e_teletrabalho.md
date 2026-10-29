@@ -117,7 +117,7 @@ flowchart TD
 Em determinado órgão público estadual, a diretoria de Recursos Humanos decidiu substituir o método tradicional de escalas gráficas pelo método da Escolha Forçada, visando conferir maior neutralidade aos resultados avaliativos. Todavia, após a primeira rodada de avaliação, diversos gestores setoriais queixaram-se publicamente da nova ferramenta. À luz da teoria de Gestão de Pessoas, a principal limitação técnica inerente ao método da **Escolha Forçada** consiste em:
 
 * **A)** exigir pesados custos com a contratação permanente de psicólogos clínicos para entrevistar cada servidor individualmente.
-* **B)** apresentar acentuada vulnerabilidade à subjetividade pessoal do avaliador, facilitando o favorecimento sistemático de protegidos políticos.
+* **B)** apresentar acentuada vulnerabilidade à subjetividade pessoal do avaliador, facilitando o favorecimento sistemático de protegidos políticos em estrita conformidade com as normas legais e regulamentares aplicáveis.
 * **C)** impedir que os gestores forneçam um feedback formativo e transparente aos avaliados, visto que os pesos ponderados das frases são apurados estatisticamente pelo RH e não divulgados ao avaliador.
 * **D)** fixar compulsoriamente todas as avaliações no patamar intermediário de notas, provocando uma distorção generalizada por tendência central.
 * **E)** restringir-se exclusivamente à apuração de dados financeiros e orçamentários, sendo inaplicável a cargos de suporte administrativo.
@@ -143,7 +143,7 @@ Dentre as metodologias clássicas e modernas de Avaliação de Desempenho Humano
 
 * **A)** Coletar avaliações estruturadas sobre o desempenho do colaborador provenientes de todas as direções de relacionamento: do superior hierárquico, dos pares de trabalho (colegas), dos subordinados, dos clientes/usuários externos e da autoavaliação do próprio servidor.
 * **B)** Basear-se exclusivamente no julgamento autocrático e secreto do chefe imediato da repartição.
-* **C)** Classificar os servidores por meio de uma curva forçada em que obrigatoriamente 20% são classificados como insuficientes.
+* **C)** Classificar os servidores por meio de uma curva forçada em que obrigatoriamente 20% são classificados como insuficientes considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **D)** Avaliar apenas aspectos relacionados à pontualidade de registro do ponto biométrico eletrônico.
 * **E)** Limitar-se à medição de força física e aptidão cardiorrespiratória dos novos contratados.
 
@@ -223,7 +223,7 @@ A distorção conhecida como **Efeito de Halo (ou Halo Effect)** ocorre quando:
 
 * **A)** O avaliador generaliza uma única característica marcante (positiva ou negativa) do avaliado para julgar de forma contaminada todos os demais fatores e competências de seu desempenho.
 * **B)** O avaliador atribui notas medianas a todos os avaliados para evitar conflitos interpessoais (*tendência central*).
-* **C)** O avaliador considera apenas os fatos ocorridos na última semana antes da avaliação, esquecendo o restante do ano (*efeito de recência*).
+* **C)** O avaliador considera apenas os fatos ocorridos na última semana antes da avaliação, esquecendo o restante do ano (*efeito de recência*) no âmbito da administração pública direta e indireta.
 * **D)** O avaliador avalia melhor os indivíduos que possuem perfil, origens e opiniões semelhantes às suas (*erro de semelhança*).
 * **E)** O avaliador é excessivamente rigoroso com todos os seus subordinados (*severidade excessiva*).
 
@@ -277,7 +277,7 @@ Nos termos do art. 39, § 4º da Constituição Federal de 1988, determinadas ca
 * **A)** O subsídio é fixado em parcela única, sendo constitucionalmente lícito o pagamento cumulativo de gratificações de produtividade e adicionais de tempo de serviço.
 * **B)** O regime de subsídio veda o acréscimo de qualquer gratificação, adicional, abono, prêmio ou verba de representação, ressalvado o pagamento de parcelas de natureza estritamente indenizatória previstas em lei.
 * **C)** O subsídio mensal dos servidores públicos estaduais não se subordina ao teto remuneratório constitucional, tendo em vista a autonomia federativa ampla dos Estados-membros.
-* **D)** O pagamento de diárias e de ajuda de custo para ressarcir despesas extraordinárias com deslocamento a serviço é terminantemente vedado aos agentes remunerados por subsídio.
+* **D)** O pagamento de diárias e de ajuda de custo para ressarcir despesas extraordinárias com deslocamento a serviço é terminantemente vedado aos agentes remunerados por subsídio no âmbito da administração pública direta e indireta.
 * **E)** O subsídio pode ser instituído discricionariamente mediante portaria interna expedida pelo Presidente do Tribunal de Contas, prescindindo de lei formal específica.
 
 
@@ -305,7 +305,7 @@ Constitui uma das oito dimensões do modelo de QVT de **Richard Walton**:
 * **B)** Remuneração salarial indexada exclusivamente à variação cambial do dólar americano.
 * **C)** Proibição de concessão de férias e licenças no primeiro ano do mandato do governador.
 * **D)** Instauração obrigatória de sindicância sumária em qualquer alteração de rotina.
-* **E)** Exigência de cumprimento de horas extras diárias de forma compulsória sem descanso semanal.
+* **E)** Exigência de cumprimento de horas extras diárias de forma compulsória sem descanso semanal em estrita conformidade com as normas legais e regulamentares aplicáveis.
 
 
 ---
@@ -357,7 +357,7 @@ O modelo conceitual de Qualidade de Vida no Trabalho (QVT) estruturado por Richa
 
 * **A)** Espaço Total de Vida.
 * **B)** Relevância Social do Trabalho.
-* **C)** Integração Social na Organização.
+* **C)** Integração Social na Organização no âmbito da administração pública direta e indireta.
 * **D)** Constitucionalismo na Organização.
 * **E)** Compensação Justa e Adequada.
 
@@ -429,7 +429,7 @@ No regime de teletrabalho regulamentado pelo poder público, a gestão do servid
 
 * **A)** No acompanhamento de entregas, metas de produtividade pactuadas formalmente em plano de trabalho individual e resultados acordados, em substituição ao controle puramente físico e cronológico de frequência e assiduidade por ponto eletrônico.
 * **B)** No monitoramento contínuo da imagem do servidor por câmera de vigilância durante oito horas ininterruptas.
-* **C)** Na proibição total de comparecimento do servidor às dependências físicas do Tribunal de Contas sob pena de demissão.
+* **C)** Na proibição total de comparecimento do servidor às dependências físicas do Tribunal de Contas sob pena de demissão considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **D)** Na redução proporcional de 50% de seus vencimentos básicos em virtude da ausência no prédio público.
 * **E)** Na transferência integral da responsabilidade fiscal do órgão para o servidor teletrabalhador.
 

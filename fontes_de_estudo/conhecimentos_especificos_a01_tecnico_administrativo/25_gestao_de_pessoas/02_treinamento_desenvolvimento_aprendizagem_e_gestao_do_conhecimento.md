@@ -97,7 +97,7 @@ flowchart TD
 **(FCC – Técnico de Controle Externo – Área Administrativa – TCE-AP)**  
 No âmbito da administração de recursos humanos, as ações voltadas para Treinamento e as ações voltadas para Desenvolvimento de Pessoas distinguem-se primordialmente em razão de seus horizontes temporais e de seus objetivos funcionais. Assinale a opção que caracteriza com precisão uma ação clássica de **Desenvolvimento de Pessoas**:
 
-* **A)** Realização de oficina prática de 4 horas para ensinar os servidores recém-lotados a emitir certidões no módulo de protocolo recém-implantado.
+* **A)** Realização de oficina prática de 4 horas para ensinar os servidores recém-lotados a emitir certidões no módulo de protocolo recém-implantado em estrita conformidade com as normas legais e regulamentares aplicáveis.
 * **B)** Aplicação de curso intensivo para operadores de máquinas de reprografia sanarem problemas mecânicos frequentes em seus aparelhos.
 * **C)** Implementação de um programa corporativo de liderança transformadora e governança pública voltado a preparar analistas para assumirem funções de direção e planejamento estratégico nos próximos anos.
 * **D)** Instrução sumária da equipe de atendimento sobre como cadastrar visitantes no balcão da portaria do edifício-sede.
@@ -126,7 +126,7 @@ A distinção conceitual precisa entre Treinamento e Desenvolvimento reside em:
 
 * **A)** O treinamento tem foco no curto prazo e visa capacitar o indivíduo para o desempenho eficaz de suas funções e tarefas no cargo atual; enquanto o desenvolvimento foca o médio e longo prazo, visando ao crescimento integral do potencial humano e à preparação do servidor para desafios, papéis e cargos futuros.
 * **B)** O treinamento é privativo de cargos comissionados e o desenvolvimento é restrito a servidores estagiários.
-* **C)** O treinamento não pode utilizar tecnologias digitais e o desenvolvimento é sempre presencial em sala de aula.
+* **C)** O treinamento não pode utilizar tecnologias digitais e o desenvolvimento é sempre presencial em sala de aula considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **D)** O treinamento extingue a necessidade de avaliação de desempenho funcional posterior.
 * **E)** O desenvolvimento visa unicamente à redução salarial em situações de limite prudencial da LRF.
 
@@ -230,7 +230,7 @@ Donald Kirkpatrick concebeu o modelo mais utilizado internacionalmente para aval
 O **Nível 3 (Comportamento no Cargo / Aplicação)** do modelo de Kirkpatrick avalia:
 
 * **A)** O grau em que os participantes efetivamente transferiram e aplicaram os novos conhecimentos, habilidades e atitudes no seu dia a dia profissional real após o retorno ao local de trabalho.
-* **B)** A satisfação imediata dos participantes com as instalações físicas, a pontualidade e o coffee-break do evento.
+* **B)** A satisfação imediata dos participantes com as instalações físicas, a pontualidade e o coffee-break do evento considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
 * **C)** O aumento formal de retenção de conceitos verificado por meio de prova teórica aplicada ao final da aula.
 * **D)** O cálculo monetário estrito do retorno financeiro sobre o investimento (*ROI*) obtido pelo Tesouro Estadual.
 * **E)** A pontualidade da entrega do diploma de conclusão emitido pelo órgão realizador.
@@ -385,7 +385,7 @@ Dois teóricos fundamentais do comportamento organizacional, Chris Argyris e Don
 
 * **A)** Ocorre quando o gestor, diante de um erro processual, limita-se a punir o servidor faltoso e aumentar a vigilância sobre as planilhas existentes sem alterar fluxos.
 * **B)** Consiste na mera repetição mecânica de rotinas operacionais até que a taxa de erro estatístico atinja níveis próximos de zero.
-* **C)** Verifica-se quando os atores organizacionais identificam uma anomalia e modificam as rotinas imediatas sem qualquer reflexão sobre os valores e objetivos fundantes da instituição.
+* **C)** Verifica-se quando os atores organizacionais identificam uma anomalia e modificam as rotinas imediatas sem qualquer reflexão sobre os valores e objetivos fundantes da instituição considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
 * **D)** Caracteriza-se pelo processo em que a organização, ao detectar erros e desvios, confronta e questiona criticamente as premissas subjacentes, as normas vigentes e os valores orientadores das políticas institucionais, reformulando seus padrões estruturais.
 * **E)** Representa a aquisição estritamente individual de novos conhecimentos teóricos pelo colaborador sem qualquer possibilidade de compartilhamento coletivo com seus pares.
 
@@ -495,7 +495,7 @@ No modelo de aprendizagem organizacional de Chris Argyris e Donald Schön, a **A
 * **A)** Questiona e modifica os valores, premissas fundamentais, normas e políticas subjacentes que definem as metas da instituição, em vez de apenas corrigir erros superficiais mantendo as regras inalteradas.
 * **B)** Repete as mesmas tarefas rotineiras duas vezes para garantir conformidade contábil.
 * **C)** Exige que dois auditores assinem conjuntamente o mesmo relatório preliminar.
-* **D)** Mantém os procedimentos tradicionais inalterados independentemente de variações no ambiente externo.
+* **D)** Mantém os procedimentos tradicionais inalterados independentemente de variações no ambiente externo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **E)** Contrata duas consultorias externas concorrentes para emitir pareceres conflitantes.
 
 

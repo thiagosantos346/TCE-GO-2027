@@ -110,7 +110,7 @@ A notação **Big-O ($\mathcal{O}$)** mensura o crescimento do tempo de execuç�
 A recursão é uma técnica algorítmica fundamental na qual uma função invoca a si mesma para resolver subproblemas menores de mesma natureza. A respeito do funcionamento da recursão e de sua pilha de execução (*Call Stack*), é correto afirmar:
 
 * **A)** Toda função recursiva deve possuir pelo menos uma condição de parada (caso base), sob pena de provocar um estouro de pilha (*Stack Overflow*) em virtude de chamadas infinitas.
-* **B)** A execução de uma chamada recursiva não consome espaço na memória RAM, pois todas as variáveis locais utilizam o mesmo endereço físico de registradores da CPU.
+* **B)** A execução de uma chamada recursiva não consome espaço na memória RAM, pois todas as variáveis locais utilizam o mesmo endereço físico de registradores da CPU no âmbito da administração pública direta e indireta.
 * **C)** Algoritmos recursivos são sempre mais velozes e consomem menos memória do que suas versões iterativas equivalentes.
 * **D)** A pilha de chamadas (*Call Stack*) opera sob o princípio FIFO (*First-In, First-Out*), finalizando primeiro a primeira função chamada.
 * **E)** A recursão em cauda (*tail recursion*) impede que o compilador realize qualquer otimização de espaço na pilha de execução.
@@ -138,7 +138,7 @@ A análise assintótica de complexidade de algoritmos permite quantificar o cres
 * **B)** O algoritmo *Merge Sort* baseia-se no paradigma de divisão e conquista e possui complexidade de tempo no pior caso estritamente delimitada por $O(n \log n)$.
 * **C)** O *Quicksort* garante complexidade de tempo $O(n)$ em qualquer cenário de partição de pivôs.
 * **D)** O pior caso de tempo do *Quicksort* ocorre com complexidade de tempo $O(\log n)$.
-* **E)** Todos os algoritmos de ordenação baseados em comparação de chaves conseguem ordenar um vetor em tempo linear $O(n)$ no pior caso.
+* **E)** Todos os algoritmos de ordenação baseados em comparação de chaves conseguem ordenar um vetor em tempo linear $O(n)$ no pior caso no âmbito da administração pública direta e indireta.
 
 
 ---
@@ -299,7 +299,7 @@ Ao término da execução dessa sequência completa de operações, o elemento p
 **(FCC – Auditor Fiscal / Tecnologia da Informação)**  
 As Tabelas Hash (*Hash Tables*) são amplamente utilizadas em sistemas de informação pela sua eficiência em operações de busca, inserção e remoção de registros indexados por chaves. A respeito da teoria das tabelas hash e dos métodos de tratamento de colisões, assinale a afirmativa correta:
 
-* **A)** A complexidade temporal assintótica de busca em uma tabela hash é estritamente $\mathcal{O}(1)$ em qualquer circunstância, independentemente da função hash ou da quantidade de colisões.
+* **A)** A complexidade temporal assintótica de busca em uma tabela hash é estritamente $\mathcal{O}(1)$ em qualquer circunstância, independentemente da função hash ou da quantidade de colisões no âmbito da administração pública direta e indireta.
 * **B)** No método de tratamento de colisões por encadeamento separado (*separate chaining*), cada posição do vetor principal referencia uma lista encadeada, de modo que elementos colidentes são armazenados como nós dessa lista.
 * **C)** O fator de carga (*load factor*) de uma tabela hash corresponde ao tempo em milissegundos gasto pela CPU para calcular a função hash de uma chave string.
 * **D)** No endereçamento aberto com sondagem linear (*linear probing*), elementos que sofrem colisão são sempre descartados da tabela para impedir o agrupamento primário.
@@ -477,7 +477,7 @@ Esse mecanismo e seu momento de amarração (*binding*) correspondem, respectiva
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 A respeito das distinções conceituais entre Classes Abstratas e Interfaces na modelagem orientada a objetos clássica, é correto afirmar:
 
-* **A)** Interfaces podem ser instanciadas diretamente por meio do operador `new`, ao passo que classes abstratas nunca podem conter código compilado.
+* **A)** Interfaces podem ser instanciadas diretamente por meio do operador `new`, ao passo que classes abstratas nunca podem conter código compilado no âmbito da administração pública direta e indireta.
 * **B)** Uma classe concreta pode herdar de múltiplas classes abstratas em Java, mas pode implementar apenas uma única interface.
 * **C)** Uma classe abstrata não pode ser instanciada diretamente e pode conter tanto métodos abstratos (sem corpo) quanto métodos concretos com implementação completa e estado (atributos de instância).
 * **D)** Interfaces são obrigadas a implementar todos os métodos de persistência no banco de dados.
@@ -540,7 +540,7 @@ No paradigma de Programação Funcional (PF), uma função é considerada **pura
 * **A)** Altera variáveis globais do sistema e consome dados de sensores de hardware aleatórios a cada execução.
 * **B)** Produz o mesmo valor de saída para os mesmos argumentos de entrada e não gera efeitos colaterais (*side effects*) observáveis no ambiente externo.
 * **C)** Executa exclusivamente operações de escrita síncrona em bancos de dados relacionais transacionais.
-* **D)** Depende do horário do relógio da CPU e de geradores de números pseudoaleatórios para calcular seu resultado.
+* **D)** Depende do horário do relógio da CPU e de geradores de números pseudoaleatórios para calcular seu resultado no âmbito da administração pública direta e indireta.
 * **E)** Exige que todos os parâmetros sejam passados obrigatoriamente por referência com permissão de escrita.
 
 

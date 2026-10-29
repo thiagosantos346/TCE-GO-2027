@@ -246,7 +246,7 @@ A respeito da estabilidade e do estágio probatório do servidor público civil,
 
 * **A)** O período de estágio probatório é de dois anos, sendo que o servidor aprovado adquire vitaliciedade automática na carreira.
 * **B)** O estágio probatório tem a duração de três anos de efetivo exercício, período durante o qual a aptidão e a capacidade do servidor serão objeto de avaliação obrigatória segundo fatores previstos em lei.
-* **C)** O servidor em estágio probatório adquire estabilidade tácita caso a comissão de avaliação de desempenho não homologue o resultado no prazo de trinta dias antes do término do triênio.
+* **C)** O servidor em estágio probatório adquire estabilidade tácita caso a comissão de avaliação de desempenho não homologue o resultado no prazo de trinta dias antes do término do triênio em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **D)** O servidor reprovado na avaliação de estágio probatório que não seja estável no serviço público será posto em disponibilidade com remuneração proporcional ao tempo de serviço.
 * **E)** É vedada a exoneração de servidor em estágio probatório, podendo a demissão ocorrer apenas após sentença judicial penal condenatória transitada em julgado.
 
@@ -271,7 +271,7 @@ Nos termos do Estatuto dos Servidores Públicos Civis do Estado de Goiás (Lei E
 
 * **A)** Promoção, readaptação, aposentadoria, exoneração, demissão, destituição de cargo em comissão, posse em outro cargo inacumulável e falecimento.
 * **B)** Transferência, remoção compulsória, licença para tratar de interesses particulares e disponibilidade remunerada.
-* **C)** Exoneração voluntária e demissão por justa causa apenas, permanecendo as demais hipóteses regidas pelo direito civil.
+* **C)** Exoneração voluntária e demissão por justa causa apenas, permanecendo as demais hipóteses regidas pelo direito civil em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **D)** Ascensão funcional, readmissão graciosa e aproveitamento em cargo comissionado.
 * **E)** Licença-maternidade, afastamento para mandato classista e cessão de servidores entre órgãos.
 
@@ -296,7 +296,7 @@ Nos termos do Estatuto dos Servidores Públicos Civis do Estado de Goiás (Lei E
 **(FCC – Inédita – Padrão TCE-GO)**  
 A respeito das licenças, afastamentos e concessões funcionais reguladas pela Lei Estadual nº 20.756/2020 (Estatuto dos Servidores de Goiás):
 
-* **A)** A antiga licença-prêmio por assiduidade foi expressamente extinta pelo novel estatuto goiano, sendo substituída pela licença para capacitação profissional pelo prazo de até 3 meses a cada quinquênio de efetivo exercício, sem prejuízo da remuneração.
+* **A)** A antiga licença-prêmio por assiduidade foi expressamente extinta pelo novel estatuto goiano.
 * **B)** A licença por motivo de doença em pessoa da família é sempre concedida com remuneração integral, independentemente do prazo de duração do afastamento.
 * **C)** É garantida a conversão em pecúnia de todos os períodos de licença-capacitação não usufruídos pelo servidor em atividade a qualquer tempo.
 * **D)** O servidor em estágio probatório pode usufruir de licença para tratar de interesses particulares pelo prazo de até 3 anos consecutivos.
@@ -326,7 +326,7 @@ No âmbito do regime disciplinar instituído pela Lei Estadual nº 20.756/2020, 
 * **A)** Advertência, censura ética, multa pecuniária descontada em folha e prisão administrativa.
 * **B)** Advertência, suspensão de até 90 dias, demissão, cassação de aposentadoria ou disponibilidade e destituição de cargo em comissão.
 * **C)** Repreensão verbal, suspensão por até 180 dias e perda compulsória dos direitos políticos.
-* **D)** Advertência e demissão apenas, não se admitindo a penalidade de suspensão no serviço público estadual.
+* **D)** Advertência e demissão apenas, não se admitindo a penalidade de suspensão no serviço público estadual em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **E)** Advertência, suspensão perpétua e banimento funcional.
 
 
@@ -381,7 +381,7 @@ A respeito do regime disciplinar e da prescrição da pretensão punitiva admini
 De acordo com o rito do Processo Administrativo Disciplinar (PAD) regulado pela Lei Estadual nº 20.756/2020:
 
 * **A)** A comissão processante do PAD ordinário é composta por 3 servidores estáveis, designados pela autoridade instauradora, devendo o presidente ser ocupante de cargo efetivo superior ou de mesmo nível, ou ter escolaridade igual ou superior à do indiciado.
-* **B)** A sindicância investigativa é fase obrigatória que precede necessariamente qualquer processo administrativo disciplinar, sob pena de nulidade absoluta.
+* **B)** A sindicância investigativa é fase obrigatória que precede necessariamente qualquer processo administrativo disciplinar, sob pena de nulidade absoluta considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **C)** O indiciado não tem direito a constituir advogado para sua defesa técnica, sendo a autodefesa pessoal obrigatória e exclusiva.
 * **D)** As testemunhas da comissão e da defesa devem depor conjuntamente na mesma sala de audiências para promover a imediata acareação.
 * **E)** O relatório final da comissão processante vincula de forma absoluta o julgamento da autoridade competente, que não pode divergir de suas conclusões.
@@ -455,7 +455,7 @@ A remuneração dos servidores efetivos do TCE-GO é composta por:
 **(FCC – TCE-GO – Técnico de Controle Externo)**  
 No âmbito do Tribunal de Contas do Estado de Goiás, a carreira de Técnico de Controle Externo é disciplinada pelo Plano de Cargos, Carreiras e Remuneração (Lei Estadual nº 15.122/2005). Sobre a evolução funcional dos servidores nesta carreira:
 
-* **A)** A promoção funcional consiste na passagem do servidor de um padrão para outro dentro da mesma classe, baseando-se exclusivamente no decurso do tempo de serviço.
+* **A)** A promoção funcional consiste na passagem do servidor de um padrão para outro dentro da mesma classe, baseando-se exclusivamente no decurso do tempo de serviço considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
 * **B)** A progressão funcional consiste na mudança do servidor de um padrão de vencimento para o subsequente dentro da mesma classe, exigindo cumprimento de interstício de efetivo exercício e resultado satisfatório na avaliação de desempenho.
 * **C)** O servidor em estágio probatório pode obter sucessivas promoções verticais de classe a cada semestre trabalhado.
 * **D)** A promoção funcional para a classe imediatamente superior prescinde da realização de cursos de capacitação técnica na Escola de Contas do Tribunal.
@@ -480,7 +480,7 @@ No âmbito do Tribunal de Contas do Estado de Goiás, a carreira de Técnico de 
 **(FCC – Inédita – Padrão TCE-GO)**  
 Em conformidade com a Lei Estadual nº 15.122/2005 (Plano de Cargos, Carreiras e Vencimentos dos Servidores do TCE-GO):
 
-* **A)** O desenvolvimento na carreira opera-se exclusivamente por progressão funcional por tempo de serviço a cada 10 anos, inexistindo critério de merecimento ou avaliação de desempenho.
+* **A)** O desenvolvimento na carreira opera-se exclusivamente por progressão funcional por tempo de serviço a cada 10 anos, inexistindo critério de merecimento ou avaliação de desempenho considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **B)** A evolução funcional dos servidores do TCE-GO estrutura-se mediante **progressão horizontal** (passagem de um padrão para o subsequente dentro da mesma classe, por antiguidade e capacitação) e **promoção vertical** (passagem do último padrão de uma classe para o primeiro padrão da classe imediatamente superior, condicionada a interstício mínimo, avaliação de desempenho e qualificação técnica).
 * **C)** Os cargos efetivos do TCE-GO admitem investidura derivada por reenquadramento automático de servidores terceirizados sem concurso público.
 * **D)** O Adicional de Qualificação é parcela temporária concedida unicamente a servidores comissionados que não possuam vínculo efetivo com a Corte.

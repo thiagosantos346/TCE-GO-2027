@@ -92,7 +92,7 @@ flowchart TD
 Segundo a teoria da Cadeia de Valor concebida por Michael Porter, as atividades organizacionais dividem-se em atividades primárias e atividades de apoio (suporte). Dentre as alternativas a seguir, assinale a que apresenta unicamente Atividades de Apoio:
 
 * **A)** Logística de entrada, operações e logística de saída.
-* **B)** Marketing e vendas, serviços pós-venda e infraestrutura da organização.
+* **B)** Marketing e vendas, serviços pós-venda e infraestrutura da organização no âmbito da administração pública direta e indireta.
 * **C)** Gestão de recursos humanos, desenvolvimento tecnológico e aquisições (compras).
 * **D)** Operações fabris, compras de matéria-prima e distribuição comercial.
 * **E)** Logística interna, assistência técnica a clientes e recursos humanos.
@@ -161,7 +161,7 @@ Constitui típica **Atividade Primária** da Cadeia de Valor:
 * **A)** Logística Interna (recebimento, armazenamento e distribuição de insumos e matérias-primas).
 * **B)** Gestão de Recursos Humanos (recrutamento, seleção, treinamento e remuneração).
 * **C)** Desenvolvimento de Tecnologia e Pesquisa (P&D).
-* **D)** Infraestrutura da Empresa (planejamento, contabilidade, finanças e assessoria jurídica).
+* **D)** Infraestrutura da Empresa (planejamento, contabilidade, finanças e assessoria jurídica) no âmbito da administração pública direta e indireta.
 * **E)** Aquisição / Compras de suprimentos corporativos gerais.
 
 
@@ -213,7 +213,7 @@ flowchart TD
 **(FCC – TRT-2ª Região – Analista Judiciário: Área Administrativa)**  
 No processo de desdobramento da estratégia corporativa pelo Balanced Scorecard (BSC), a metodologia exige a articulação harmônica de quatro componentes operacionais para garantir a efetividade da execução. A associação correta entre o componente do BSC e sua respectiva definição é:
 
-* **A)** Objetivo Estratégico: o plano orçamentário específico que detalha a dotação de diárias dos servidores.
+* **A)** Objetivo Estratégico: o plano orçamentário específico que detalha a dotação de diárias dos servidores no âmbito da administração pública direta e indireta.
 * **B)** Indicador-Chave (KPI): a métrica quantificável utilizada para mensurar periodicamente o nível de alcance de determinado objetivo estratégico.
 * **C)** Meta: o projeto inovador financiado pela alta direção para criar novas unidades físicas.
 * **D)** Iniciativa Estratégica: o valor numérico fixo que expressa o grau de incerteza do ambiente externo.
@@ -240,7 +240,7 @@ No processo de desdobramento da estratégia corporativa pelo Balanced Scorecard,
 
 * **A)** Desdobrar e traduzir os objetivos, metas e indicadores corporativos do nível estratégico para os níveis tático e operacional, alinhando as diretorias setoriais, gerências e equipes individuais à estratégia mestre da organização.
 * **B)** Eliminar a remuneração variável e gratificações dos servidores públicos estaduais.
-* **C)** Concentrar todas as decisões de compras na presidência da comissão permanente de licitação.
+* **C)** Concentrar todas as decisões de compras na presidência da comissão permanente de licitação considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **D)** Impor a demissão periódica de 10% dos servidores com pior produtividade mecânica.
 * **E)** Substituir os sistemas de gestão eletrônica de processos por formulários impressos.
 
@@ -342,7 +342,7 @@ Para romper as barreiras de execução, a governança pública moderna institui 
 **(FCC – DPE-RS – Analista: Área Administrativa)**  
 Com o propósito de assegurar a governança e a implementação efetiva de seu plano estratégico, determinado órgão público instituiu uma unidade permanente denominada Escritório de Gestão Estratégica (EGE) e fixou Reuniões de Avaliação da Estratégia (RAE) com periodicidade bimestral. A finalidade precípua das RAEs é:
 
-* **A)** Realizar sindicâncias administrativas para apuração de infrações disciplinares dos analistas operacionais.
+* **A)** Realizar sindicâncias administrativas para apuração de infrações disciplinares dos analistas operacionais considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **B)** Avaliar o desempenho dos indicadores estratégicos no painel de controle executivo e deliberar tempestivamente sobre ações corretivas para objetivos que estejam distantes das metas pactuadas.
 * **C)** Redigir pareceres jurídicos conclusivos sobre recursos administrativos de servidores subalternos.
 * **D)** Proceder ao inventário físico anual de bens móveis e equipamentos de informática do almoxarifado.
@@ -370,7 +370,7 @@ Na governança estratégica moderna dos órgãos públicos (como no TCE-GO), as 
 O propósito primordial das RAEs é:
 
 * **A)** Avaliar o andamento das iniciativas e indicadores estratégicos institucionais em periodicidade definida, debatendo causas de desvios e decidindo intervenções saneadoras e alocação de recursos em alto nível.
-* **B)** Realizar a apuração de faltas funcionais disciplinares individuais dos servidores para abertura de PAD.
+* **B)** Realizar a apuração de faltas funcionais disciplinares individuais dos servidores para abertura de PAD considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **C)** Fiscalizar a conformidade fiscal das declarações de imposto de renda de pessoas físicas.
 * **D)** Redigir pareceres jurídicos para aprovação de editais de concurso público.
 * **E)** Conceder recesso administrativo remunerado aos membros dos comitês executivos.
@@ -395,7 +395,7 @@ Dentre as atribuições típicas do EGE em uma corte de contas, destaca-se:
 
 * **A)** Facilitar o processo de planejamento estratégico institucional, apoiar as áreas na definição de indicadores e metas, consolidar relatórios de desempenho e secretariar as Reuniões de Avaliação da Estratégia.
 * **B)** Emitir votos de julgamento de mérito com força jurisdicional nos processos de fiscalização contábil.
-* **C)** Fiscalizar in loco as obras de construção civil e realizar medições de asfalto em rodovias estaduais.
+* **C)** Fiscalizar in loco as obras de construção civil e realizar medições de asfalto em rodovias estaduais considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **D)** Gerenciar a segurança armada e o policiamento ostensivo das portarias do prédio sede.
 * **E)** Substituir os Conselheiros titulares do Tribunal em caso de vacância definitiva do cargo.
 

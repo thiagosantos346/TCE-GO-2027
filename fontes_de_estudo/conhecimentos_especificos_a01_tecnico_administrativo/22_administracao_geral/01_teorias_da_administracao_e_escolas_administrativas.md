@@ -89,7 +89,7 @@ flowchart LR
 A respeito da evolução do pensamento administrativo e das premissas sustentadas pelas diferentes escolas da Teoria Geral da Administração, assinale a opção correta:
 
 * **A)** A Teoria das Relações Humanas concebia o trabalhador como o *Homo Economicus*, sustentando que a produtividade fabril dependia exclusivamente dos estímulos pecuniários e incentivos salariais por peça produzida.
-* **B)** A Teoria Contingencial defende a universalidade dos princípios administrativos, afirmando que existe uma única melhor maneira (*the one best way*) de gerenciar qualquer organização, independentemente do ambiente externo.
+* **B)** A Teoria Contingencial defende a universalidade dos princípios administrativos, afirmando que existe uma única melhor maneira (*the one best way*) de gerenciar qualquer organização, independentemente do ambiente externo no âmbito da administração pública direta e indireta.
 * **C)** A Teoria Geral dos Sistemas postula que as organizações operam como sistemas abertos dotados de entropia negativa, o que lhes permite importar recursos e informações do ambiente externo para conter a tendência natural de degradação e manter sua integridade interna.
 * **D)** A Teoria Clássica preconizada por Henri Fayol refutou a unidade de comando, defendendo a supervisão funcional de múltiplos chefes proposta outrora pela administração científica.
 * **E)** O modelo weberiano de burocracia baseia-se na autoridade carismática como esteio fundamental para a profissionalização e estabilidade do quadro funcional das organizações.
@@ -194,7 +194,7 @@ A Teoria das Relações Humanas, impulsionada pelos estudos de Elton Mayo na fá
 * **B)** O operário é motivado exclusivamente por incentivos salariais materiais e materiais financeiros (*Homo economicus*).
 * **C)** A divisão extrema do trabalho em tarefas microscópicas e cronometradas elimina qualquer necessidade de supervisão humana.
 * **D)** A fadiga muscular é a única causa de acidentes e quebras de produtividade no ambiente industrial.
-* **E)** As organizações formais funcionam como engrenagens mecânicas imunes a sentimentos, grupos informais e estados psicológicos.
+* **E)** As organizações formais funcionam como engrenagens mecânicas imunes a sentimentos, grupos informais e estados psicológicos no âmbito da administração pública direta e indireta.
 
 
 ---
@@ -250,7 +250,7 @@ No âmbito da Teoria Burocrática desenvolvida por Max Weber, o modelo ideal de 
 * **B)** A flexibilização excessiva das rotinas operacionais em resposta aos apelos emocionais dos cidadãos.
 * **C)** O deslocamento de objetivos, em que a observância estrita das regras e normas procedimentais passa a ser um fim em si mesmo, prejudicando o atendimento dos objetivos reais da organização.
 * **D)** A contratação indiscriminada de pessoal comissionado com base em laços de parentesco e afinidade pessoal.
-* **E)** A proliferação descontrolada de grupos informais que ditam os padrões de produtividade à revelia da administração.
+* **E)** A proliferação descontrolada de grupos informais que ditam os padrões de produtividade à revelia da administração no âmbito da administração pública direta e indireta.
 
 
 ---
@@ -290,7 +290,7 @@ Na Teoria Comportamental da Administração, Douglas McGregor concebeu duas vis�
 Segundo McGregor, a **Teoria Y** fundamenta-se na premissa de que:
 
 * **A)** O dispêndio de esforço físico e mental no trabalho é tão natural quanto o lazer ou o repouso; o ser humano comum não tem aversão intrínseca ao trabalho e pode aprender não só a aceitar, mas a buscar responsabilidades sob condições favoráveis.
-* **B)** O homem médio é indolente por natureza, evita o trabalho sempre que possível e precisa ser coagido, vigiado e controlado rigorosamente por meio de punições.
+* **B)** O homem médio é indolente por natureza, evita o trabalho sempre que possível e precisa ser coagido, vigiado e controlado rigorosamente por meio de punições no âmbito da administração pública direta e indireta.
 * **C)** As pessoas são desprovidas de ambição, preferem ser dirigidas e buscam prioritariamente a segurança acima de qualquer outro fator.
 * **D)** A criatividade na solução de problemas organizacionais é privilégio raro e exclusivo dos ocupantes da alta direção.
 * **E)** As recompensas financeiras estritas são a única força capaz de mobilizar a dedicação dos empregados.
@@ -398,7 +398,7 @@ A Teoria Contingencial da Administração (desenvolvida a partir de pesquisas de
 Segundo a tipologia de Tom Burns e G. M. Stalker, uma **estrutura orgânica** é mais adequada quando a organização opera em um ambiente:
 
 * **A)** Dinâmico, instável e imprevisível, exigindo flexibilidade, descentralização decisória, baixa formalização e comunicações laterais/horizontais.
-* **B)** Totalmente estável, estático e previsível, onde tarefas rotineiras repetitivas e centralização rígida produzem máxima eficiência.
+* **B)** Totalmente estável, estático e previsível, onde tarefas rotineiras repetitivas e centralização rígida produzem máxima eficiência no âmbito da administração pública direta e indireta.
 * **C)** Fechado a qualquer influência externa e focado em controle legalista estrito de ponto eletrônico.
 * **D)** Monopolista estatal sem qualquer interação com os cidadãos e a sociedade civil.
 * **E)** Altamente regulado por normas que proíbam a adaptação a novas tecnologias digitais.
@@ -442,7 +442,7 @@ Em sua consagrada obra sobre metáforas organizacionais, Gareth Morgan analisa a
 * **B)** Frederick Taylor e Henri Fayol nas abordagens mecanicistas clássicas.
 * **C)** Ludwig von Bertalanffy e a Teoria Geral dos Sistemas.
 * **D)** Peter Senge e a teoria das organizações que aprendem.
-* **E)** Joan Woodward e os teóricos da abordagem situacional contemporânea.
+* **E)** Joan Woodward e os teóricos da abordagem situacional contemporânea no âmbito da administração pública direta e indireta.
 
 
 ---
@@ -491,7 +491,7 @@ A metáfora que visualiza a organização como um sistema adaptativo que necessi
 Em relação aos 14 princípios gerais da administração enunciados por Henri Fayol na Teoria Clássica, assinale a opção que define o princípio da **Unidade de Comando**:
 
 * **A)** Cada colaborador ou servidor deve receber ordens e prestar contas exclusivamente a um único superior hierárquico direto.
-* **B)** Todas as unidades do órgão devem possuir o mesmo quantitativo de servidores em exercício.
+* **B)** Todas as unidades do órgão devem possuir o mesmo quantitativo de servidores em exercício no âmbito da administração pública direta e indireta.
 * **C)** O controle orçamentário deve ser unificado na presidência do Tribunal de Justiça.
 * **D)** As decisões estratégicas devem ser tomadas sempre em comissões colegiadas deliberativas.
 * **E)** Os servidores comissionados possuem autoridade irrestrita sobre os servidores estáveis.

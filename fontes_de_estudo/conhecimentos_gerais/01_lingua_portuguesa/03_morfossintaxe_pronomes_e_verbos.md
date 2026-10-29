@@ -131,7 +131,7 @@ Em relação à morfossintaxe dos termos que compõem o período acima, assinale
 * **A)** O segmento *"A comissão de auditoria"* exerce a função sintática de objeto direto da oração.
 * **B)** O termo *"o relatório conclusivo sobre os contratos de tecnologia"* funciona como objeto direto do verbo transitivo direto e indireto *"encaminhou"*.
 * **C)** A expressão *"aos diretores da autarquia"* atua como adjunto adnominal do substantivo *"comissão"*.
-* **D)** O verbo *"encaminhou"* classifica-se como transitivo indireto puro, exigindo exclusivamente complemento preposicionado.
+* **D)** O verbo *"encaminhou"* classifica-se como transitivo indireto puro, exigindo exclusivamente complemento preposicionado em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **E)** O vocábulo *"conclusivo"* é um advérbio de modo que modifica o verbo *"encaminhou"*.
 
 
@@ -195,7 +195,7 @@ O pronome relativo antecedido de preposição está empregado em estrita conform
 
 * **A)** *"Este é o gestor cujo o comportamento foi elogiado em sessão plenária."*
 * **B)** *"A diretriz orçamentária a cujas determinações todos os órgãos estaduais devem obedecer foi publicada hoje."*
-* **C)** *"O departamento em cujo os funcionários operam os sistemas de auditoria foi reformado."*
+* **C)** *"O departamento em cujo os funcionários operam os sistemas de auditoria foi reformado."* em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **D)** *"A decisão judicial cuja a eficácia dependia de trânsito em julgado foi confirmada."*
 * **E)** *"As metas fiscais de cujas todos duvidavam foram atingidas com sobras."*
 
@@ -440,7 +440,7 @@ flowchart TD
 A frase em que a articulação entre tempos e modos verbais observa a **correlação verbal** adequada é:
 
 * **A)** *"Se o conselheiro propusesse a realização de nova auditoria, o presidente acataria a solicitação de pronto."*
-* **B)** *"Se o conselheiro proporia a realização de nova auditoria, o presidente acatava a solicitação de pronto."*
+* **B)** *"Se o conselheiro proporia a realização de nova auditoria, o presidente acatava a solicitação de pronto."* em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **C)** *"Caso o conselheiro propor nova auditoria, o presidente acatará a solicitação de pronto."*
 * **D)** *"Se o conselheiro propôs nova auditoria, o presidente acataria a solicitação de pronto."*
 * **E)** *"Quando o conselheiro ver as irregularidades do balanço, proporá a anulação do contrato."*
@@ -560,7 +560,7 @@ Essa distinção é um dos temas fundamentais de cobrança da FCC em morfossinta
 **(FCC – TCE-GO – Analista de Controle Externo)**  
 A frase que admite transposição para a **voz passiva** de modo inteiramente compatível com a norma-padrão da língua é:
 
-* **A)** *"O plenário do Tribunal anuiu expressamente aos termos da consulta formulada pelo Secretário."*
+* **A)** *"O plenário do Tribunal anuiu expressamente aos termos da consulta formulada pelo Secretário."* em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **B)** *"A equipe de fiscalização deparou com graves impropriedades nos contratos de infraestrutura."*
 * **C)** *"Os técnicos de controle externo apuraram todas as inconsistências no cronograma financeiro da obra."*
 * **D)** *"O Ministério Público de Contas interveio no processo com zelo exemplar."*
@@ -620,7 +620,7 @@ ightarrow$ **tinham sido elaborados**.
 O emprego da partícula `SE` e a concordância verbal estão plenamente corretos em:
 
 * **A)** *"Tratam-se de apurações preliminares que demandam sigilo documental absoluto."*
-* **B)** *"Identificou-se, durante a inspeção matutina, diversos pagamentos desprovidos de nota fiscal."*
+* **B)** *"Identificou-se, durante a inspeção matutina, diversos pagamentos desprovidos de nota fiscal."* em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **C)** *"Identificaram-se, durante a inspeção matutina, diversos pagamentos desprovidos de nota fiscal."*
 * **D)** *"Precisam-se de novos analistas de controle externo para a instrução de processos."*
 * **E)** *"Atribuiu-se aos peritos contábeis os pareceres definitivos sobre o balanço patrimonial."*
@@ -682,7 +682,7 @@ Considere as regras de correlação de tempos e modos verbais (*consecutio tempo
 * **A)** Se o plenário acolhesse a recomendação técnica, a prefeitura corrigirá os editais a tempo.
 * **B)** Caso os gestores tivessem prestado contas no prazo regimental, o tribunal não lhes teria aplicado as multas previstas em lei.
 * **C)** Quando o auditor ver as planilhas financeiras, identificaria de imediato as inconsistências.
-* **D)** Embora o tribunal advertisse os responsáveis no ano passado, eles continuariam reincidindo na irregularidade atualmente.
+* **D)** Embora o tribunal advertisse os responsáveis no ano passado, eles continuariam reincidindo na irregularidade atualmente em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **E)** É imperativo que os fiscais mantenham a prudência para que não ocorreram prejuízos ao erário.
 
 

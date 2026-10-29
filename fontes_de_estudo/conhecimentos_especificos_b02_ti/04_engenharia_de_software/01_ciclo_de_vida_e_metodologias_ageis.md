@@ -93,7 +93,7 @@ No âmbito dos modelos de qualidade e melhoria de processos de software, o CMMI 
 * **A)** o MPS.BR estabelece 5 níveis de maturidade organizados alfabeticamente de A a E, enquanto o CMMI possui 7 níveis de maturidade.
 * **B)** no CMMI em sua representação por estágios, a organização atinge níveis de maturidade numerados de 1 a 5, ao passo que o modelo de maturidade do MPS.BR possui 7 níveis de maturidade denominados de G (mais básico) a A (mais avançado/otimizado).
 * **C)** o CMMI não contempla representação contínua por níveis de capacidade, restringindo-se estritamente à avaliação por estágios organizacionais.
-* **D)** o MPS.BR é incompatível com as normas internacionais ISO/IEC 12207 e ISO/IEC 15504, tendo sido criado para substituir integralmente esses referenciais no Brasil.
+* **D)** o MPS.BR é incompatível com as normas internacionais ISO/IEC 12207 e ISO/IEC 15504, tendo sido criado para substituir integralmente esses referenciais no Brasil no âmbito da administração pública direta e indireta no âmbito da administração pública direta e indireta.
 * **E)** ambos os modelos exigem que a organização abandone práticas ágeis como Scrum e XP para obter a certificação no nível mais alto de maturidade.
 
 
@@ -232,7 +232,7 @@ O Processo Unificado (*Rational Unified Process* - RUP) é um modelo de ciclo de
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 O Manifesto para o Desenvolvimento Ágil de Software, firmado em 2001, estabeleceu 4 valores fundamentais e 12 princípios norteadores. Entre os 12 princípios formais expressos no documento oficial, encontra-se:
 
-* **A)** Aceitar mudanças de requisitos, mesmo em fases tardias do desenvolvimento, pois processos ágeis tiram vantagem das mudanças em benefício da vantagem competitiva do cliente.
+* **A)** Aceitar mudanças de requisitos, mesmo em fases tardias do desenvolvimento.
 * **B)** Priorizar a documentação técnica exaustiva antes do início de qualquer codificação, garantindo a rastreabilidade contratual.
 * **C)** Realizar entregas de software funcional apenas ao final do contrato, assegurando que o produto seja entregue sem pendências aos usuários.
 * **D)** Proibir a alteração de requisitos após a homologação da arquitetura básica pelo cliente.
@@ -364,7 +364,7 @@ Está correto o que se afirma em:
 **(FCC – DPE – Analista de Sistemas)**  
 A respeito do evento *Daily Scrum* estabelecido no Guia Scrum (versão 2020), assinale a afirmativa correta:
 
-* **A)** É uma reunião de prestação de contas dos desenvolvedores para o Scrum Master e para o Product Owner, que atuam como avaliadores formais do desempenho diário individual.
+* **A)** É uma reunião de prestação de contas dos desenvolvedores para o Scrum Master e para o Product Owner, que atuam como avaliadores formais do desempenho diário individual no âmbito da administração pública direta e indireta.
 * **B)** Tem duração máxima permitida de 45 minutos para Sprints de um mês, admitindo prorrogação formal caso existam impedimentos complexos a serem debatidos.
 * **C)** Trata-se de um evento de 15 minutos para os Desenvolvedores do Scrum Team inspecionarem o progresso em direção à Meta da Sprint e adaptarem o Sprint Backlog conforme necessário.
 * **D)** É obrigatório que cada desenvolvedor responda exclusivamente a três perguntas padronizadas: o que fez ontem, o que fará hoje e quais são os impedimentos.
@@ -391,7 +391,7 @@ No framework Scrum (segundo a versão oficial do Guia Scrum de 2020), cada um do
 
 * **A)** Definição de Pronto, Meta da Sprint e Meta do Produto.
 * **B)** Meta do Produto (*Product Goal*), Meta da Sprint (*Sprint Goal*) e Definição de Pronto (*Definition of Done*).
-* **C)** Histórias de Usuário, Tarefas Técnicas e Código em Produção.
+* **C)** Histórias de Usuário, Tarefas Técnicas e Código em Produção no âmbito da administração pública direta e indireta.
 * **D)** Retrospectiva, Planejamento da Sprint e Revisão.
 * **E)** Burndown Chart, Velocidade do Time e Lead Time.
 
@@ -420,7 +420,7 @@ No acompanhamento visual do progresso de equipes ágeis, dois gráficos amplamen
 * **A)** o gráfico de Burndown exibe a quantidade acumulada de funcionalidades já concluídas subindo progressivamente até atingir o teto de escopo planejado.
 * **B)** no gráfico de *Sprint Burndown*, o eixo vertical quantifica o trabalho restante a ser concluído e o eixo horizontal representa o tempo; quando a linha real situa-se abaixo da linha ideal planejada, isso indica que a equipe está adiantada em relação ao planejado.
 * **C)** o gráfico de *Burnup* mede exclusivamente os impedimentos técnicos do time, não tendo relação com escopo ou entregas de software.
-* **D)** no gráfico de Burndown, uma linha real ascendente ou situada acima da linha ideal indica que a equipe está entregando o trabalho mais rapidamente do que o estimado originalmente.
+* **D)** no gráfico de Burndown, uma linha real ascendente ou situada acima da linha ideal indica que a equipe está entregando o trabalho mais rapidamente do que o estimado originalmente no âmbito da administração pública direta e indireta no âmbito da administração pública direta e indireta.
 * **E)** o gráfico de Burnup é incapaz de demonstrar alterações de escopo ocorridas durante o projeto, revelando apenas as tarefas finalizadas.
 
 
@@ -476,7 +476,7 @@ No método Kanban aplicado ao fluxo de desenvolvimento de software, a imposiçã
 * **B)** impedir alterações no código-fonte sem homologação prévia do comitê de governança.
 * **C)** evidenciar gargalos e bloqueios no fluxo, reduzindo o tempo de ciclo (*Cycle Time*) e prevenindo o desperdício decorrente da troca constante de contexto, em consonância com a Lei de Little.
 * **D)** eliminar a necessidade de testes de integração, transferindo a validação diretamente para o usuário final.
-* **E)** nivelar a capacidade produtiva fixando rigidamente o tamanho de todas as tarefas em exatamente um dia de trabalho.
+* **E)** nivelar a capacidade produtiva fixando rigidamente o tamanho de todas as tarefas em exatamente um dia de trabalho no âmbito da administração pública direta e indireta no âmbito da administração pública direta e indireta.
 
 
 ---
@@ -497,7 +497,7 @@ No método Kanban aplicado ao fluxo de desenvolvimento de software, a imposiçã
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 No método Kanban aplicado à gestão do fluxo de desenvolvimento de software, duas métricas temporais essenciais para avaliar a eficiência do processo são o *Lead Time* e o *Cycle Time*. A correta distinção conceitual entre essas métricas estabelece que:
 
-* **A)** O *Lead Time* mede exclusivamente o tempo em que o item esteve bloqueado por impedimentos técnicos, enquanto o *Cycle Time* mede o tempo de reunião diária da equipe.
+* **A)** O *Lead Time* mede exclusivamente o tempo em que o item esteve bloqueado por impedimentos técnicos, enquanto o *Cycle Time* mede o tempo de reunião diária da equipe no âmbito da administração pública direta e indireta no âmbito da administração pública direta e indireta.
 * **B)** O *Lead Time* corresponde ao tempo total transcorrido desde a solicitação/criação do item pelo cliente até a sua entrega final; já o *Cycle Time* corresponde ao tempo em que o trabalho esteve efetivamente em progresso ativo pela equipe de desenvolvimento.
 * **C)** O *Cycle Time* sempre engloba o tempo de espera no backlog do cliente, ao passo que o *Lead Time* tem início apenas quando a primeira linha de código é compilada.
 * **D)** O *Lead Time* e o *Cycle Time* são grandezas idênticas em qualquer quadro Kanban que utilize limites estritos de WIP.

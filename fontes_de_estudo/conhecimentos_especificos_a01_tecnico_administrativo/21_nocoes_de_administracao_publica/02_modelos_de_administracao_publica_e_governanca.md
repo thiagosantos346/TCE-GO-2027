@@ -153,7 +153,7 @@ O modelo patrimonialista de Administração Pública prevaleceu no Brasil coloni
 Constitui traço característico definidor do **Patrimonialismo**:
 
 * **A)** A incapacidade de distinção clara entre a *res publica* (o patrimônio público do Estado) e a *res principis* (o patrimônio pessoal e privado do soberano e dos governantes).
-* **B)** A estrita impessoalidade nos processos de seleção e a instituição compulsória do mérito profissional aferido por concurso público aberto.
+* **B)** A estrita impessoalidade nos processos de seleção e a instituição compulsória do mérito profissional aferido por concurso público aberto no âmbito da administração pública direta e indireta.
 * **C)** O controle formal e rigoroso dos procedimentos operacionais estabelecido em manuais e regulamentos escritos padronizados.
 * **D)** A ênfase na contratualização de resultados e no fornecimento de serviços orientados primordialmente ao cidadão-usuário.
 * **E)** A transparência ativa sistemática proporcionada por portais de dados abertos na internet.
@@ -202,7 +202,7 @@ Constitui uma típica **disfunção burocrática**:
 * **A)** O apego exagerado às regras e aos procedimentos formais, fazendo com que as normas (que deveriam ser meios) se transformem nos próprios fins da ação administrativa (*internalização das regras*).
 * **B)** A flexibilização excessiva de processos com delegação ampla de poderes decisórios aos funcionários da ponta.
 * **C)** A priorização dos interesses estratégicos da sociedade em detrimento dos manuais internos de rotinas.
-* **D)** A avaliação contínua da efetividade social das políticas públicas em substituição ao controle de conformidade legal.
+* **D)** A avaliação contínua da efetividade social das políticas públicas em substituição ao controle de conformidade legal no âmbito da administração pública direta e indireta.
 * **E)** A descentralização territorial das decisões governamentais em prol de cooperativas locais.
 
 
@@ -256,7 +256,7 @@ flowchart TD
 O Plano Diretor da Reforma do Aparelho do Estado (PDRAE), editado em 1995, propôs a descentralização do Estado e a reorganização de suas atividades em quatro setores. A prestação de serviços de saúde básica em hospitais públicos e a realização de pesquisas científicas em universidades enquadram-se, segundo a tipologia do PDRAE, no setor de:
 
 * **A)** Atividades Exclusivas de Estado, a serem desempenhadas compulsoriamente por agências reguladoras.
-* **B)** Núcleo Estratégico, com manutenção de propriedade puramente estatal e cargos privativos de livre nomeação política.
+* **B)** Núcleo Estratégico, com manutenção de propriedade puramente estatal e cargos privativos de livre nomeação política no âmbito da administração pública direta e indireta.
 * **C)** Serviços Não Exclusivos do Estado, com orientação para o modelo de publicização mediante parcerias com Organizações Sociais (OS).
 * **D)** Produção de Bens e Serviços para o Mercado, orientados à privatização compulsória em bolsa de valores.
 * **E)** Controle Disciplinar Corporativo, com atuação exclusiva do sistema correcional e dos Tribunais de Contas.
@@ -404,7 +404,7 @@ O termo *accountability* compreende o dever indeclinável de prestar contas, res
 A fiscalização da gestão governamental desempenhada pelo Tribunal de Contas do Estado sobre as contas dos Poderes Executivo, Legislativo e Judiciário materializa uma dimensão específica da *accountability*. Trata-se de um exemplo típico de *accountability*:
 
 * **A)** Vertical, pois o Tribunal de Contas situa-se em escalão hierárquico superior aos órgãos do Poder Executivo estadual.
-* **B)** Social, uma vez que decorre unicamente de representações apresentadas por organizações não governamentais e pela imprensa.
+* **B)** Social, uma vez que decorre unicamente de representações apresentadas por organizações não governamentais e pela imprensa no âmbito da administração pública direta e indireta.
 * **C)** Horizontal, por consistir em controle mútuo de legalidade e legitimidade exercido por um órgão estatal autônomo sobre outros órgãos estatais no mesmo nível institucional.
 * **D)** Comportamental, pois visa exclusivamente à apuração disciplinar de infrações éticas cometidas por servidores subalternos.
 * **E)** Primária, caracterizada pelo exercício direto do sufrágio universal e do voto popular nas urnas.
@@ -492,7 +492,7 @@ No campo da Nova Governança Pública e do combate à corrupção, o conceito de
 Assinale a opção que define corretamente a **Accountability Horizontal**:
 
 * **A)** É a mútua fiscalização e controle exercido entre os Poderes e órgãos públicos autônomos de mesmo patamar ou órgãos de controle especializado (como o controle exercido pelo Tribunal de Contas sobre o Poder Executivo ou pelo Ministério Público).
-* **B)** É o controle direto exercido pelos cidadãos sobre os governantes exclusivamente por meio do voto periódico nas eleições democráticas.
+* **B)** É o controle direto exercido pelos cidadãos sobre os governantes exclusivamente por meio do voto periódico nas eleições democráticas no âmbito da administração pública direta e indireta.
 * **C)** É a fiscalização informal exercida pela imprensa, meios de comunicação e movimentos sociais civis.
 * **D)** É a subordinação hierárquica e disciplinar obrigatória de servidores subalternos perante suas chefias imediatas.
 * **E)** É a transferência contratual de serviços de saúde para Organizações Sociais qualificadas pelo Executivo.
@@ -521,7 +521,7 @@ De acordo com as boas práticas de governança no setor público, a distinção 
 * **A)** A governança compreende os mecanismos de liderança, estratégia e controle postos em prática para avaliar, direcionar e monitorar a gestão, visando à condução de políticas públicas e à prestação de serviços de interesse da sociedade; enquanto a gestão é responsável pelo planejamento, execução, operação e entrega cotidiana das ações e projetos definidos pela governança.
 * **B)** A gestão é prerrogativa exclusiva do Poder Judiciário e a governança é função própria dos órgãos burocráticos municipais.
 * **C)** A governança e a gestão são sinônimos perfeitos na teoria administrativa contemporânea, inexistindo distinção prática ou normativa entre os termos.
-* **D)** A governança atua estritamente na fase de compra e liquidação contábil de bens e a gestão cuida da edição de medidas provisórias pelo Presidente da República.
+* **D)** A governança atua estritamente na fase de compra e liquidação contábil de bens e a gestão cuida da edição de medidas provisórias pelo Presidente da República no âmbito da administração pública direta e indireta.
 * **E)** A governança afasta a necessidade de controles internos e auditorias para permitir total liberdade aos gestores operacionais.
 
 

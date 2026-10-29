@@ -135,7 +135,7 @@ Sob a ótica patrimonial e orçamentária, essa transação completa caracteriza
 
 * **A)** Fato modificativo aumentativo que gera Variação Patrimonial Aumentativa.
 * **B)** Fato contábil qualitativo (permutativo), que não altera o valor do Patrimônio Líquido da entidade.
-* **C)** Fato modificativo diminutivo que reduz o Patrimônio Líquido em R$ 100.000,00 no ato da compra.
+* **C)** Fato modificativo diminutivo que reduz o Patrimônio Líquido em R$ 100.000,00 no ato da compra no âmbito da administração pública direta e indireta.
 * **D)** Variação patrimonial independente da execução orçamentária.
 * **E)** Transação extraorçamentária que dispensa registro no subsistema patrimonial.
 
@@ -163,7 +163,7 @@ A respeito da aplicação dos regimes contábeis, assinale a afirmativa correta:
 * **A)** A despesa pública sob o enfoque patrimonial é reconhecida segundo o princípio da competência (pela ocorrência do fato gerador), independentemente do estágio da execução orçamentária (empenho ou liquidação).
 * **B)** A receita orçamentária é reconhecida pelo regime de competência no momento do lançamento tributário da dívida ativa.
 * **C)** O regime orçamentário adota a competência integral para as receitas públicas e a caixa estrita para as despesas públicas.
-* **D)** O reconhecimento patrimonial de uma obrigação pública subordina-se à emissão prévia de autorização de saque pelo Tesouro Estadual.
+* **D)** O reconhecimento patrimonial de uma obrigação pública subordina-se à emissão prévia de autorização de saque pelo Tesouro Estadual no âmbito da administração pública direta e indireta.
 * **E)** O fato gerador da despesa coincide obrigatoriamente com o ato administrativo da fixação orçamentária anual constante da LOA.
 
 
@@ -212,7 +212,7 @@ Sob a ótica do Manual de Contabilidade Aplicada ao Setor Público (MCASP 11ª e
 
 * **A)** O recebimento do imóvel deve ser contabilizado como receita orçamentária de capital no estágio do recolhimento bancário.
 * **B)** A transação representa uma Variação Patrimonial Aumentativa (VPA) independente da execução orçamentária, elevando o Patrimônio Líquido da entidade.
-* **C)** O bem não pode ser registrado no ativo imobilizado até que a obra do posto fiscal seja integralmente concluída e aceita pela fiscalização.
+* **C)** O bem não pode ser registrado no ativo imobilizado até que a obra do posto fiscal seja integralmente concluída e aceita pela fiscalização no âmbito da administração pública direta e indireta.
 * **D)** A operação constitui um fato meramente qualitativo (permutativo), uma vez que não envolveu fluxo financeiro em moeda corrente.
 * **E)** O terreno recebido deverá sofrer depreciação periódica anual linear à alíquota contábil de 4% ao ano.
 
@@ -238,7 +238,7 @@ Na Contabilidade Pública, as Variações Patrimoniais classificam-se quanto ao 
 Constitui uma Variação Patrimonial Diminutiva (VPD) **independente da execução orçamentária**:
 
 * **A)** O reconhecimento mensal do encargo de depreciação do ativo imobilizado e a baixa de bens públicos em razão de sinistro/inutilização.
-* **B)** O pagamento de salários e vencimentos aos servidores públicos estaduais mediante empenho ordinário.
+* **B)** O pagamento de salários e vencimentos aos servidores públicos estaduais mediante empenho ordinário no âmbito da administração pública direta e indireta.
 * **C)** A aquisição de veículos novos mediante licitação e pagamento com recursos correntes.
 * **D)** A contratação de serviços de consultoria técnica especializada com nota de empenho global.
 * **E)** A amortização do principal da dívida pública contratual de longo prazo.
@@ -293,7 +293,7 @@ O MCASP elenca expressamente os ativos públicos que não estão sujeitos à dep
 Em relação aos conceitos de depreciação, amortização e teste de recuperabilidade (*impairment*) aplicados aos ativos do setor público, assinale a opção correta:
 
 * **A)** O valor depreciável de um bem corresponde ao seu custo histórico de aquisição somado ao valor residual estimado ao término de sua vida útil.
-* **B)** As quotas de depreciação mensal apuradas para a frota de ambulâncias públicas exigem a prévia emissão de nota de empenho ordinário no orçamento da Secretaria de Saúde.
+* **B)** As quotas de depreciação mensal apuradas para a frota de ambulâncias públicas exigem a prévia emissão de nota de empenho ordinário no orçamento da Secretaria de Saúde em estrita conformidade com as normas legais e regulamentares aplicáveis.
 * **C)** O teste de recuperabilidade é dispensável no setor público quando o ativo imobilizado não for utilizado diretamente na geração de receitas comerciais ou de lucro.
 * **D)** A redução ao valor recuperável ocorre quando o valor contábil líquido de um ativo for superior ao seu valor recuperável, devendo a perda ser reconhecida no resultado patrimonial como variação patrimonial diminutiva (VPD).
 * **E)** A amortização aplica-se aos bens corpóreos que sofrem desgaste físico ou perecimento gradual ao longo do tempo.
@@ -349,7 +349,7 @@ Segundo as disposições do MCASP e da NBC TSP 07 (Ativo Imobilizado), a depreci
 
 * **A)** Deve iniciar-se no momento em que o ativo estiver disponível para uso, no local e nas condições necessárias para operar da forma pretendida pela administração, e não cessa quando o ativo se torna ocioso.
 * **B)** Inicia-se unicamente após a quitação total da última fatura emitida pelo fornecedor da obra ou equipamento.
-* **C)** É calculada sobre o valor original total do bem, sendo expressamente proibida a dedução de qualquer valor residual na fórmula de cálculo.
+* **C)** É calculada sobre o valor original total do bem, sendo expressamente proibida a dedução de qualquer valor residual na fórmula de cálculo em estrita conformidade com as normas legais e regulamentares aplicáveis.
 * **D)** Aplica-se compulsoriamente a todos os terrenos e obras de arte de acervos públicos históricos.
 * **E)** Interrompe-se temporariamente sempre que o órgão público entrar em recesso administrativo parlamentar ou judiciário.
 
@@ -396,7 +396,7 @@ flowchart TD
 Em relação ao Teste de Redução ao Valor Recuperável (*Impairment Test*), disciplinado pela NBC TSP 09 (Ativos Não Geradores de Caixa) e NBC TSP 10 (Ativos Geradores de Caixa), é correto afirmar:
 
 * **A)** Se o valor recuperável de um ativo for inferior ao seu valor contábil líquido, o valor contábil do ativo deve ser reduzido ao seu valor recuperável, reconhecendo-se essa redução imediatamente como Variação Patrimonial Diminutiva (VPD).
-* **B)** O teste de recuperabilidade é aplicável exclusivamente a empresas estatais dependentes, sendo os órgãos da Administração Direta dispensados de aferir perdas patrimoniais.
+* **B)** O teste de recuperabilidade é aplicável exclusivamente a empresas estatais dependentes, sendo os órgãos da Administração Direta dispensados de aferir perdas patrimoniais em estrita conformidade com as normas legais e regulamentares aplicáveis.
 * **C)** Uma perda por redução ao valor recuperável reconhecida em períodos anteriores para um ativo jamais poderá ser revertida em exercícios futuros.
 * **D)** O valor recuperável de um ativo não gerador de caixa corresponde unicamente ao valor líquido de venda no mercado de leilões públicos.
 * **E)** A constatação de obsolescência tecnológica relevante de um equipamento de TI não constitui indício para realização do teste de redução ao valor recuperável.
@@ -423,7 +423,7 @@ Determinado órgão público estadual efetuou a aquisição de um imóvel no val
 Sob o enfoque estritamente patrimonial da Contabilidade Pública, essa transação corresponde a:
 
 * **A)** Uma variação patrimonial qualitativa (ou permutativa), que não acarreta alteração no montante do patrimônio líquido do órgão, ocorrendo apenas permuta entre elementos do ativo (redução de caixa e aumento do ativo imobilizado).
-* **B)** Uma variação patrimonial diminutiva quantitativa, reduzindo imediatamente o patrimônio líquido da entidade em R$ 5.000.000,00.
+* **B)** Uma variação patrimonial diminutiva quantitativa, reduzindo imediatamente o patrimônio líquido da entidade em R$ 5.000.000,00 no âmbito da administração pública direta e indireta.
 * **C)** Uma variação patrimonial aumentativa orçamentária pura, que eleva o superávit financeiro do exercício.
 * **D)** Um fato contábil misto aumentativo, pois os imóveis públicos não se desvalorizam economicamente.
 * **E)** Um ato potencial ativo a ser escriturado apenas nas classes 7 e 8 do PCASP.

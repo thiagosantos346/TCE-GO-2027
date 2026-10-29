@@ -137,7 +137,7 @@ O fator do Big Five que descreve a tendência do indivíduo de ser responsável,
 * **B)** Extroversão.
 * **C)** Agradabilidade (ou Amabilidade).
 * **D)** Abertura para Experiências.
-* **E)** Estabilidade Emocional (baixo Neuroticismo).
+* **E)** Estabilidade Emocional (baixo Neuroticismo) no âmbito da administração pública direta e indireta.
 
 
 ---
@@ -207,7 +207,7 @@ Segundo a Teoria da Dissonância Cognitiva formulada por Leon Festinger, quando 
 
 * **A)** Ele experimenta uma tensão psicológica desconfortável (dissonância) que o motiva a reduzir a inconsistência, alterando seu comportamento, modificando sua atitude ou racionalizando a discrepância.
 * **B)** O indivíduo entra em estado de catatonia permanente sem capacidade de decisão.
-* **C)** A dissonância cognitiva consolida automaticamente o comprometimento afetivo com o órgão público.
+* **C)** A dissonância cognitiva consolida automaticamente o comprometimento afetivo com o órgão público no âmbito da administração pública direta e indireta.
 * **D)** Ocorre necessariamente a imediata demissão voluntária do cargo público.
 * **E)** A incongruência atitudinal é eliminada por decreto do Chefe do Poder Executivo.
 
@@ -271,7 +271,7 @@ Determinado gestor público, objetivando elevar a motivação dos servidores do 
 * **A)** As medidas implementadas atuaram exclusivamente sobre os fatores higiênicos, os quais são capazes de evitar a insatisfação funcional, mas não possuem a propriedade de gerar motivação genuína.
 * **B)** A melhoria das condições físicas viola o princípio da equidade distributiva ao desconsiderar a valência das recompensas pecuniárias.
 * **C)** O gestor ignorou a necessidade de autoafirmação primária prevista na base da pirâmide de Clayton Alderfer.
-* **D)** O ambiente físico e o salário constituem fatores motivacionais de conteúdo que só produzem efeito quando associados a punições disciplinares.
+* **D)** O ambiente físico e o salário constituem fatores motivacionais de conteúdo que só produzem efeito quando associados a punições disciplinares no âmbito da administração pública direta e indireta.
 * **E)** O mobiliário moderno reduz a expectativa de esforço, eliminando a instrumentalidade postulada por Victor Vroom.
 
 
@@ -314,7 +314,7 @@ Na Teoria dos Dois Fatores (ou Teoria Bifatorial) de Frederick Herzberg, os elem
 Segundo Herzberg, os **Fatores Higiênicos** (como salário, condições físicas de trabalho, políticas da empresa e segurança do emprego):
 
 * **A)** São capazes apenas de evitar a insatisfação quando presentes e adequados, mas não geram motivação nem satisfação genuína duradoura no trabalho.
-* **B)** São a principal fonte geradora de autorrealização e orgulho profissional profundo no servidor.
+* **B)** São a principal fonte geradora de autorrealização e orgulho profissional profundo no servidor no âmbito da administração pública direta e indireta.
 * **C)** Referem-se ao conteúdo íntimo do cargo e aos desafios e responsabilidades inerentes à tarefa.
 * **D)** Provocam alta satisfação mesmo quando as relações interpessoais com a chefia forem péssimas.
 * **E)** Devem ser suprimidos das organizações públicas contemporâneas para evitar o comodismo.
@@ -447,7 +447,7 @@ Na Teoria da Expectativa (ou Teoria da Expectância) de Victor Vroom, a motivaç
 O conceito de **Instrumentalidade** corresponde à crença do indivíduo de que:
 
 * **A)** O alcance de um determinado nível de desempenho bem-sucedido será recompensado com um resultado ou recompensa organizacional concreta (relação desempenho-recompensa).
-* **B)** O seu esforço despendido resultará infalivelmente em um bom desempenho no trabalho (relação esforço-desempenho).
+* **B)** O seu esforço despendido resultará infalivelmente em um bom desempenho no trabalho (relação esforço-desempenho) em estrita conformidade com as normas legais e regulamentares aplicáveis.
 * **C)** O valor ou peso atrativo atribuído subjetivamente à recompensa oferecida pela organização é positivo.
 * **D)** Os computadores e instrumentos de tecnologia fornecidos pela chefia são suficientes para a auditoria.
 * **E)** A chefia é imune a pressões sindicais na distribuição de funções de confiança.
@@ -478,7 +478,7 @@ Quando o servidor público percebe uma situação de **iniquidade negativa** (se
 * **B)** Aumentar espontaneamente sua carga horária de trabalho diário sem solicitar remuneração adicional.
 * **C)** Renunciar voluntariamente ao cargo público estável em favor daquele colega menos produtivo.
 * **D)** Desconsiderar completamente as recompensas institucionais e dobrar o ritmo de trabalho.
-* **E)** Ignorar qualquer parâmetro de comparação social e atuar em estado de isolamento afetivo voluntário.
+* **E)** Ignorar qualquer parâmetro de comparação social e atuar em estado de isolamento afetivo voluntário no âmbito da administração pública direta e indireta.
 
 
 ---

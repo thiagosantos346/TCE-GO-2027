@@ -221,7 +221,7 @@ A Carta de Serviços ao Usuário é um instrumento de governança e transparênc
 Cidadão compareceu ao setor de protocolo de uma secretaria de Estado para requerer certidão de regularidade funcional, apresentando cópia simples de sua cédula de identidade acompanhada do documento original. O atendente público recusou o recebimento da documentação, exigindo que o requerente providenciasse prévia autenticação da cópia e reconhecimento de firma em cartório de notas. Considerando o disposto no Decreto Federal nº 9.094/2017 e na legislação correlata sobre simplificação de serviços públicos:
 
 * **A)** A conduta do atendente foi correta, pois a fé pública de documentos apresentados ao Estado depende de reconhecimento notarial.
-* **B)** A conduta do atendente foi indevida, pois é vedada a exigência de reconhecimento de firma e de cópia autenticada, cabendo ao próprio servidor público atestar a autenticidade mediante cotejo da cópia com o original apresentado.
+* **B)** A conduta do atendente foi indevida.
 * **C)** O atendente agiu com respaldo legal, desde que o prazo de validade da cédula de identidade apresentada pelo cidadão tenha expirado há mais de cinco anos.
 * **D)** O atendimento só poderia ser recusado se o cidadão não comprovasse residência fixa no Estado por meio de certidão cartorária.
 * **E)** A dispensa de autenticação cartorária somente se aplica a pessoas jurídicas sem fins lucrativos qualificadas como organizações sociais.
@@ -250,7 +250,7 @@ Esses dois estágios do ciclo BPM são internacionalmente denominados, respectiv
 * **A)** Mapeamento *AS-IS* (como o processo é executado atualmente) e Modelagem *TO-BE* (como o processo deverá ser executado no futuro após otimização).
 * **B)** Planejamento *BOTTOM-UP* e Execução *TOP-DOWN*.
 * **C)** Cadeia de Suprimentos *KANBAN* e Manufatura *JUST-IN-TIME*.
-* **D)** Metodologia *SCRUM* e Painel de Controle *BALANCED SCORECARD*.
+* **D)** Metodologia *SCRUM* e Painel de Controle *BALANCED SCORECARD* no âmbito da administração pública direta e indireta.
 * **E)** Matriz *SWOT* e Matriz *BCG*.
 
 
@@ -321,7 +321,7 @@ flowchart LR
 No âmbito da modelagem e do gerenciamento de processos de negócio (BPM - Business Process Management), os processos organizacionais são classificados em finalísticos, de suporte e de gerenciamento. Assinale a alternativa que apresenta um exemplo legítimo de processo de suporte (secundário) em uma organização pública:
 
 * **A)** Realização de fiscalização tributária e lançamento de ofício do crédito tributário estadual.
-* **B)** Concessão de aposentadorias e pensões aos servidores vinculados ao regime próprio de previdência.
+* **B)** Concessão de aposentadorias e pensões aos servidores vinculados ao regime próprio de previdência no âmbito da administração pública direta e indireta.
 * **C)** Gestão de compras e contratação de serviços de vigilância e limpeza para as dependências do prédio sede.
 * **D)** Julgamento de autos de infração fiscal pelo Tribunal Administrativo Tributário.
 * **E)** Auditoria de regularidade das despesas públicas municipais efetuada pelo Tribunal de Contas.
@@ -351,7 +351,7 @@ No framework **Scrum**, a reunião diária, curta e estruturada (de cerca de 15 
 * **B)** Sprint Review.
 * **C)** Sprint Retrospective.
 * **D)** Sprint Planning.
-* **E)** Product Backlog Refinement.
+* **E)** Product Backlog Refinement no âmbito da administração pública direta e indireta.
 
 
 ---
@@ -419,7 +419,7 @@ No âmbito da gestão estratégica e da teoria das organizações, a respeito da
 * **B)** A modelagem de processos denominada AS-IS refere-se ao desenho ideal do fluxo futuro após a eliminação de redundâncias e automação tecnológica.
 * **C)** O projeto é um esforço temporário empreendido para criar um produto, serviço ou resultado exclusivo, enquanto os processos representam fluxos de trabalho permanentes e padronizados.
 * **D)** A Estrutura Analítica do Projeto (EAP) consiste em um gráfico de barras cronológico destinado a mensurar os custos diários incorridos pela equipe.
-* **E)** Os processos primários ou finalísticos de um órgão público são aqueles voltados exclusivamente para dar suporte administrativo às áreas de informática e compras.
+* **E)** Os processos primários ou finalísticos de um órgão público são aqueles voltados exclusivamente para dar suporte administrativo às áreas de informática e compras no âmbito da administração pública direta e indireta.
 
 
 ---
@@ -444,7 +444,7 @@ Em relação ao gerenciamento de projetos estruturado segundo as boas práticas 
 * **B)** A Estrutura Analítica do Projeto (EAP) tem por objetivo decompor hierarquicamente o trabalho total do projeto em partes menores e gerenciáveis orientadas a entregas.
 * **C)** O grupo de processos de encerramento do projeto dispensa a aceitação formal das entregas pelo cliente quando o cronograma for cumprido no prazo previsto.
 * **D)** A restrição tripla do gerenciamento de projetos é composta exclusivamente por variáveis comportamentais: motivação, liderança e clima institucional.
-* **E)** O gerente de projeto adquire autoridade formal para aplicar recursos da organização apenas no momento em que a equipe conclui a fase de encerramento contratual.
+* **E)** O gerente de projeto adquire autoridade formal para aplicar recursos da organização apenas no momento em que a equipe conclui a fase de encerramento contratual no âmbito da administração pública direta e indireta.
 
 
 ---
@@ -470,7 +470,7 @@ A respeito das exigências documentais dirigidas aos cidadãos e usuários do se
 * **A)** É vedada a exigência de reconhecimento de firma e de cópia autenticada em cartório de documentos expedidos no País, devendo a autenticação ser feita pelo próprio agente público mediante confronto com o original, ressalvada expressa previsão legal em contrário.
 * **B)** É obrigatória a apresentação mensal de certidões negativas de débito cível e criminal em todo requerimento administrativo individual de protocolo.
 * **C)** A Administração Pública não pode admitir a autodeclaração de veracidade sob nenhuma hipótese, exigindo sempre laudos periciais cartorários.
-* **D)** O cidadão tem o ônus exclusivo de obter certidões emitidas por outros órgãos do próprio Poder Executivo, sendo proibido o compartilhamento eletrônico de dados entre repartições estatais.
+* **D)** O cidadão tem o ônus exclusivo de obter certidões emitidas por outros órgãos do próprio Poder Executivo, sendo proibido o compartilhamento eletrônico de dados entre repartições estatais no âmbito da administração pública direta e indireta.
 * **E)** A Carta de Serviços ao Cidadão possui caráter meramente facultativo e sigiloso, não devendo ser publicada na internet.
 
 
@@ -495,7 +495,7 @@ Na elaboração do Termo de Abertura do Projeto (*Project Charter*) e no planeja
 * **A)** Estrutura Analítica do Projeto (EAP) / *Work Breakdown Structure (WBS)*.
 * **B)** Diagrama de Dispersão de Ishikawa.
 * **C)** Curva ABC de Pareto.
-* **D)** Matriz GUT de Gravidade, Urgência e Tendência.
+* **D)** Matriz GUT de Gravidade, Urgência e Tendência no âmbito da administração pública direta e indireta.
 * **E)** Análise de Regressão Linear Múltipla.
 
 

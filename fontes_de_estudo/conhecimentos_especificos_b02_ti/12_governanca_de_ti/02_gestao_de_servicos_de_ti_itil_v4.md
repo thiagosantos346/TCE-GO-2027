@@ -92,7 +92,7 @@ flowchart TD
 
 * **A)** A utilidade (*utility*) refere-se exclusivamente à segurança da informação e à taxa de disponibilidade mensal do hardware, sendo sinônimo estrito de garantia técnica.
 * **B)** A garantia (*warranty*) representa a aptidão para o propósito (*fit for purpose*), avaliando unicamente se o software possui os botões e telas solicitados pelo usuário final.
-* **C)** O valor de um serviço é criado e entregue de forma puramente unilateral pelo departamento de TI, sendo dispensável qualquer interação, feedback ou co-criação por parte do consumidor do serviço.
+* **C)** O valor de um serviço é criado e entregue de forma puramente unilateral pelo departamento de TI, sendo dispensável qualquer interação, feedback ou co-criação por parte do consumidor do serviço no âmbito da administração pública direta e indireta.
 * **D)** Para que um serviço viabilize a criação de valor, ele deve fornecer simultaneamente utilidade (*fit for purpose* - o que o serviço faz) e garantia (*fit for use* - como o serviço atende a disponibilidade, capacidade, segurança e continuidade).
 * **E)** A ITIL v4 determina que um serviço só pode ser considerado existente se for composto estritamente por bens materiais físicos tangíveis, excluindo softwares em nuvem e fluxos lógicos de suporte.
 
@@ -292,7 +292,7 @@ flowchart TD
 * **A)** A atividade 'Obter/Construir' (*Obtain/Build*) tem como foco principal realizar o atendimento de suporte telefônico e registrar chamados de help desk dos usuários.
 * **B)** A atividade 'Engajar' (*Engage*) visa proporcionar um bom entendimento das necessidades dos stakeholders, transparência e engajamento contínuo em todo o ciclo de vida dos serviços.
 * **C)** A atividade 'Planejar' (*Plan*) é restrita à codificação em linguagens de baixo nível e à compilação de binários para servidores locais.
-* **D)** A atividade 'Melhorar' (*Improve*) é realizada uma única vez durante a homologação do sistema, sendo expressamente vedada a sua repetição em serviços já em produção.
+* **D)** A atividade 'Melhorar' (*Improve*) é realizada uma única vez durante a homologação do sistema, sendo expressamente vedada a sua repetição em serviços já em produção no âmbito da administração pública direta e indireta.
 * **E)** A atividade 'Entregar e Suportar' (*Deliver & Support*) visa exclusivamente negociar termos de distrato com fornecedores externos sancionados pelo Tribunal.
 
 
@@ -512,7 +512,7 @@ As situações 1, 2 e 3 classificam-se, respectivamente, como mudanças:
 * **A)** Gerenciamento de Nível de Serviço e Central de Serviços.
 * **B)** Gerenciamento de Configuração de Serviço e Gerenciamento de Ativos de TI (*ITAM*).
 * **C)** Gerenciamento de Problemas e Habilitação de Mudanças.
-* **D)** Gerenciamento de Ativos de TI (*ITAM*) e Gerenciamento de Liberação.
+* **D)** Gerenciamento de Ativos de TI (*ITAM*) e Gerenciamento de Liberação no âmbito da administração pública direta e indireta.
 * **E)** Gerenciamento de Continuidade e Gerenciamento de Disponibilidade.
 
 
@@ -548,7 +548,7 @@ A prática articula três tipos de instrumentos fundamentais:
 
 * **A)** Capacidade e Desempenho de Serviços.
 * **B)** Configuração de Serviços (CMDB).
-* **C)** Continuidade de Serviços de TI (ITSCM).
+* **C)** Continuidade de Serviços de TI (ITSCM) no âmbito da administração pública direta e indireta.
 * **D)** Ativos de TI (ITAM).
 * **E)** Nível de Serviço (*Service Level Management*).
 
@@ -584,7 +584,7 @@ Responsável por garantir que a disponibilidade e o desempenho dos serviços de 
 * **B)** O RPO estipula o tempo decorrido até que a equipe de desenvolvimento termine a escrita do manual de usuário de uma aplicação.
 * **C)** O RTO define o tempo máximo aceitável para restaurar a operação de um serviço de TI após uma interrupção, enquanto o RPO define a tolerância máxima a perdas de dados transacionais ocorrida entre o último ponto de restauração válido e o desastre.
 * **D)** Valores de RTO iguais a zero e RPO iguais a zero indicam ausência de proteção tecnológica e desídia administrativa por parte dos gestores de TI.
-* **E)** A definição de RTO e RPO é uma decisão puramente técnica que deve ser tomada pela equipe de suporte básico de TI, sem qualquer consulta aos gestores de negócio ou à alta administração do Tribunal.
+* **E)** A definição de RTO e RPO é uma decisão puramente técnica que deve ser tomada pela equipe de suporte básico de TI, sem qualquer consulta aos gestores de negócio ou à alta administração do Tribunal no âmbito da administração pública direta e indireta.
 
 
 ---

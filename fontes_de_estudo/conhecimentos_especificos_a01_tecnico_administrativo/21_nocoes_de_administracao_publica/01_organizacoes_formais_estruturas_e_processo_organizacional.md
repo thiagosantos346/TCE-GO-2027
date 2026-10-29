@@ -124,7 +124,7 @@ Considere uma organização pública estadual que decida reduzir o número de se
 * **A)** O estreitamento da amplitude de controle e a verticalização da estrutura organizacional.
 * **B)** A eliminação da divisão do trabalho e a conversão automática para a estrutura linear pura.
 * **C)** O alargamento da amplitude de controle dos gestores e o achatamento (horizontalização) da estrutura organizacional.
-* **D)** A centralização absoluta de todas as decisões na cúpula diretiva em razão do aumento do número de chefes.
+* **D)** A centralização absoluta de todas as decisões na cúpula diretiva em razão do aumento do número de chefes no âmbito da administração pública direta e indireta.
 * **E)** A transformação imediata do modelo organizacional em departamentalização estritamente geográfica.
 
 
@@ -149,7 +149,7 @@ No estudo das organizações formais e do processo administrativo clássico (POD
 * **A)** A distribuição de tarefas, a alocação criteriosa de recursos humanos e materiais entre os órgãos e a definição da estrutura de autoridade, responsabilidade e linhas de comunicação formal da instituição.
 * **B)** A fixação dos objetivos corporativos de longo prazo e a escolha das estratégias mestras para alcançá-los.
 * **C)** A motivação, orientação, liderança e coordenação interpessoal direta das equipes de trabalho no cotidiano operacional.
-* **D)** A comparação sistemática entre os resultados obtidos e os padrões preestabelecidos, com aplicação de eventuais correções corretivas.
+* **D)** A comparação sistemática entre os resultados obtidos e os padrões preestabelecidos, com aplicação de eventuais correções corretivas em estrita conformidade com as normas legais e regulamentares aplicáveis.
 * **E)** A realização de auditorias financeiras externas de conformidade legal sobre os balanços patrimoniais.
 
 
@@ -245,7 +245,7 @@ A respeito da amplitude administrativa (ou amplitude de controle) e dos níveis 
 
 * **A)** Uma amplitude de controle estreita (poucos subordinados por chefe) tende a produzir uma estrutura organizacional verticalizada (alongada), com múltiplos níveis hierárquicos e maior custo administrativo de supervisão.
 * **B)** Uma estrutura organizacional achatada (plana) decorre necessariamente de amplitudes de controle muito reduzidas.
-* **C)** Quanto maior o número de níveis hierárquicos em uma repartição pública, mais ágil e desprovida de distorções e ruídos torna-se a comunicação vertical ascendente.
+* **C)** Quanto maior o número de níveis hierárquicos em uma repartição pública, mais ágil e desprovida de distorções e ruídos torna-se a comunicação vertical ascendente em estrita conformidade com as normas legais e regulamentares aplicáveis.
 * **D)** A amplitude de controle refere-se unicamente ao limite territorial de competência jurisdicional de uma corte de contas.
 * **E)** A descentralização administrativa exige compulsoriamente a eliminação de qualquer amplitude de supervisão nos órgãos setoriais.
 
@@ -297,7 +297,7 @@ flowchart TD
 Em relação aos modelos de departamentalização das organizações formais, a estrutura **Matricial** diferencia-se dos modelos clássicos por:
 
 * **A)** Sobrepor uma coordenação horizontal orientada a projetos ou produtos a uma estrutura vertical departamentalizada por funções, gerando dupla subordinação hierárquica para os membros das equipes.
-* **B)** Basear-se exclusivamente no critério geográfico ou territorial, alocando todos os servidores em unidades regionais autônomas.
+* **B)** Basear-se exclusivamente no critério geográfico ou territorial, alocando todos os servidores em unidades regionais autônomas em estrita conformidade com as normas legais e regulamentares aplicáveis.
 * **C)** Extinguir totalmente a especialização técnica dos servidores para transformá-los em operadores generalistas.
 * **D)** Proibir a formação de equipes multidisciplinares temporárias em qualquer setor da Administração Pública.
 * **E)** Impor rigidez funcional extrema que impede o compartilhamento de especialistas entre diferentes áreas do órgão.
@@ -378,7 +378,7 @@ O controle assegura que o desempenho real esteja em consonância com o que foi p
 **(FCC – AL-AP – Analista Legislativo: Administração)**
 Uma das etapas cruciais da função administrativa de Direção é a comunicação organizacional. A respeito dos fluxos comunicacionais e de suas barreiras nas organizações públicas, assinale a alternativa correta:
 
-* **A)** O fluxo de comunicação descendente transporta prioritariamente relatórios de desempenho, pedidos de esclarecimento e sugestões de melhoria vindos da base operacional.
+* **A)** O fluxo de comunicação descendente transporta prioritariamente relatórios de desempenho, pedidos de esclarecimento e sugestões de melhoria vindos da base operacional no âmbito da administração pública direta e indireta.
 * **B)** O fluxo horizontal ou lateral refere-se à troca de informações entre servidores situados no mesmo nível hierárquico, sendo indispensável para a coordenação interdepartamental.
 * **C)** Barreiras semânticas decorrem exclusivamente de falhas mecânicas nos equipamentos de transmissão e instabilidade nas redes de computadores.
 * **D)** A comunicação diagonal ocorre exclusivamente entre a chefia superior de um setor e os estagiários daquele mesmo departamento.
@@ -407,7 +407,7 @@ No âmbito da administração contemporânea, o processo administrativo de contr
 * **B)** A aplicação de penalidade contratual de multa a uma empresa fornecedora que entregou bens com defeito de fabricação.
 * **C)** A medição semanal em tempo real do avanço físico de uma rodovia estadual pelo fiscal da administração durante a execução da obra.
 * **D)** A exigência de apresentação prévia de certidões de regularidade fiscal e habilitação jurídica no edital antes da contratação da empresa licitante.
-* **E)** A realização de auditoria de conformidade ex post destinada a quantificar o dano ao erário decorrente de sobrepreço em contrato encerrado.
+* **E)** A realização de auditoria de conformidade ex post destinada a quantificar o dano ao erário decorrente de sobrepreço em contrato encerrado no âmbito da administração pública direta e indireta.
 
 
 ---
@@ -459,7 +459,7 @@ flowchart TD
 **(FCC – TCE-RS – Auditor de Controle Externo)**
 A respeito das funções do processo administrativo (planejamento, organização, direção e controle) e das diferenças entre a gestão pública e a gestão privada, assinale a opção correta:
 
-* **A)** A função administrativa de planejamento restringe-se ao nível operacional da instituição, cabendo à função de organização a definição das metas estratégicas de longo prazo.
+* **A)** A função administrativa de planejamento restringe-se ao nível operacional da instituição, cabendo à função de organização a definição das metas estratégicas de longo prazo no âmbito da administração pública direta e indireta.
 * **B)** A gestão pública e a gestão privada diferenciam-se essencialmente pelo regime de legalidade, na medida em que, na administração pública, o administrador só pode fazer o que a lei expressamente autoriza ou determina.
 * **C)** O controle é a primeira função administrativa a ser desempenhada no processo de trabalho, dispensando a existência de padrões prévios fixados no planejamento.
 * **D)** A amplitude de controle administrativa define a quantidade total de departamentos existentes na organização, independentemente do número de subordinados por chefia.
@@ -489,7 +489,7 @@ Sobre esses conceitos fundamentais, assinale a alternativa correta:
 * **A)** A desconcentração envolve a distribuição interna de competências decisórias dentro de uma mesma pessoa jurídica (órgão público), mantendo-se a relação de subordinação hierárquica; já a descentralização consiste na transferência de competências para outra pessoa jurídica distinta (da Administração Indireta ou particular).
 * **B)** A criação de uma autarquia estadual constitui típico exemplo de desconcentração administrativa sem personalidade jurídica própria.
 * **C)** A criação de delegacias de polícia ou postos de atendimento ao cidadão em municípios do interior configura típica descentralização por outorga legal.
-* **D)** A descentralização preserva a hierarquia direta e a subordinação disciplinar entre o Chefe do Executivo e os dirigentes das entidades privadas contratadas.
+* **D)** A descentralização preserva a hierarquia direta e a subordinação disciplinar entre o Chefe do Executivo e os dirigentes das entidades privadas contratadas no âmbito da administração pública direta e indireta.
 * **E)** A desconcentração enseja a extinção imediata do poder regulamentar do ente estatal matriz.
 
 
@@ -514,7 +514,7 @@ No exercício da função administrativa de **Controle**, a literatura e a juris
 Constitui exemplo de controle governamental **prévio** (ou preventivo):
 
 * **A)** O exame e homologação prévia de editais de licitação de grande vulto ou a concessão de tutela de urgência cautelar para suspender a assinatura de contrato com indícios de sobrepreço.
-* **B)** A auditoria contábil operacional realizada pelo Tribunal de Contas após o encerramento do exercício sobre as despesas de Restos a Pagar.
+* **B)** A auditoria contábil operacional realizada pelo Tribunal de Contas após o encerramento do exercício sobre as despesas de Restos a Pagar no âmbito da administração pública direta e indireta.
 * **C)** A instauração de Tomada de Contas Especial cinco anos após a execução irregular de um convênio de repasse.
 * **D)** O julgamento formal das contas dos ordenadores de despesas referente ao ano financeiro pretérito.
 * **E)** A cobrança judicial via execução fiscal dos valores de multas imputadas pelo Tribunal de Contas.

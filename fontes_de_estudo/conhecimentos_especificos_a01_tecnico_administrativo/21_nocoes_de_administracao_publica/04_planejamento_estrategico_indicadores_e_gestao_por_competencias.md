@@ -98,7 +98,7 @@ A respeito desses níveis, é correto afirmar:
 * **A)** O planejamento estratégico tem horizonte temporal de longo prazo, abrange a organização como uma totalidade sistêmica e define a missão, visão e objetivos corporativos mestres; já o planejamento operacional foca o curto prazo e detalha tarefas e procedimentos diários de execução.
 * **B)** O planejamento tático é formulado pelos operários da linha de frente para solucionar problemas de atendimento imediato.
 * **C)** O planejamento operacional abrange o macroambiente externo e analisa as forças competitivas da economia internacional.
-* **D)** O planejamento estratégico é privativo de empresas comerciais de mercado, inexistindo aplicação prática no âmbito dos Tribunais de Contas e órgãos públicos.
+* **D)** O planejamento estratégico é privativo de empresas comerciais de mercado, inexistindo aplicação prática no âmbito dos Tribunais de Contas e órgãos públicos no âmbito da administração pública direta e indireta.
 * **E)** O planejamento tático foca exclusivamente em investimentos com prazo superior a quinze anos.
 
 
@@ -161,7 +161,7 @@ flowchart TD
 **(FCC – TCE-PI – Auditor de Controle Externo)**  
 Ao estruturar o seu Plano Estratégico Institucional, determinado Tribunal de Contas utilizou a metodologia do Balanced Scorecard (BSC). Ao elaborar o mapa estratégico, a equipe de planejamento definiu quatro perspectivas de objetivos. Considerando as peculiaridades das organizações públicas em relação às empresas privadas com fins lucrativos, no modelo adotado pelo Tribunal:
 
-* **A)** A perspectiva financeira deve ocupar obrigatoriamente a posição superior do mapa, tendo como meta a geração de lucro operacional e dividendos públicos.
+* **A)** A perspectiva financeira deve ocupar obrigatoriamente a posição superior do mapa, tendo como meta a geração de lucro operacional e dividendos públicos no âmbito da administração pública direta e indireta.
 * **B)** A perspectiva dos cidadãos e da sociedade ocupa o ápice da cadeia de causalidade estratégica, enquanto os recursos orçamentários figuram como viabilizadores das entregas públicas.
 * **C)** O aprendizado e o crescimento funcional são eliminados do mapa por serem exclusivos de indústrias manufatureiras.
 * **D)** As relações de causa e efeito deixam de existir, passando os objetivos a ser medidos de forma isolada e autônoma.
@@ -187,7 +187,7 @@ Ao estruturar o seu Plano Estratégico Institucional, determinado Tribunal de Co
 Na transposição do Balanced Scorecard (BSC - Kaplan e Norton) para as organizações públicas e entidades de controle governamental (como o TCE-GO), a adaptação mais relevante no mapa estratégico consiste em:
 
 * **A)** Deslocar a perspectiva dos "Clientes / Cidadãos-Usuários e Sociedade" para o topo do mapa estratégico como objetivo final supremo, passando a perspectiva financeira a atuar como viabilizadora e restrição orçamentária dos serviços prestados.
-* **B)** Eliminar completamente a perspectiva de Aprendizado e Crescimento, visto que servidores públicos estáveis não necessitam de capacitação continuada.
+* **B)** Eliminar completamente a perspectiva de Aprendizado e Crescimento, visto que servidores públicos estáveis não necessitam de capacitação continuada no âmbito da administração pública direta e indireta.
 * **C)** Substituir os indicadores de eficácia social por índices de lucro líquido financeiro a ser distribuído aos cidadãos como dividendos monetários.
 * **D)** Considerar a perspectiva de Processos Internos como a única relevante, descartando qualquer métrica voltada para a satisfação da sociedade.
 * **E)** Proibir o estabelecimento de relações de causa e efeito entre os objetivos estratégicos institucionais.
@@ -334,7 +334,7 @@ O significado e escopo da letra **"H" (*How Much*)** na estrutura do 5W2H corres
 * **A)** Quanto custará a execução da ação (estimativa orçamentária de custos e desembolsos financeiros envolvidos).
 * **B)** Quem será o executor responsável pela atividade.
 * **C)** Quando e em quais datas a ação será iniciada e finalizada.
-* **D)** Por que a ação deve ser realizada e qual a sua justificativa estratégica.
+* **D)** Por que a ação deve ser realizada e qual a sua justificativa estratégica no âmbito da administração pública direta e indireta.
 * **E)** Onde a ação será implementada geograficamente.
 
 
@@ -447,7 +447,7 @@ A respeito do processo decisório nas organizações e das conclusões da Teoria
 * **A)** O tomador de decisão atua sempre como o "homem econômico", processando a totalidade das variáveis e alternativas possíveis para atingir a decisão ótima perfeita.
 * **B)** O comportamento decisório dos gestores é orientado por informações completas, perfeita previsibilidade do futuro e tempo ilimitado para deliberação.
 * **C)** Diante da escassez de tempo, limitações cognitivas e insuficiência de dados completos, o gestor atua como o "homem administrativo", selecionando uma alternativa satisfatória que atenda a padrões mínimos aceitáveis.
-* **D)** A teoria da racionalidade limitada defende que o administrador público deve decidir de forma puramente arbitrária e intuitiva, dispensando critérios analíticos de avaliação.
+* **D)** A teoria da racionalidade limitada defende que o administrador público deve decidir de forma puramente arbitrária e intuitiva, dispensando critérios analíticos de avaliação no âmbito da administração pública direta e indireta.
 * **E)** As decisões operacionais tomadas sob racionalidade limitada prescindem da fixação prévia de objetivos organizacionais pelo planejamento.
 
 
@@ -532,7 +532,7 @@ As letras que compõem a sigla **CHA** representam:
 * **A)** Conhecimento (o saber teórico), Habilidade (o saber fazer prático) e Atitude (o querer fazer / agir proativo).
 * **B)** Controle fiscal, Hierarquia funcional e Autoridade delegada.
 * **C)** Celeridade operacional, Honestidade profissional e Aptidão física.
-* **D)** Criatividade técnica, Homogeneidade de tarefas e Assertividade comunicacional.
+* **D)** Criatividade técnica, Homogeneidade de tarefas e Assertividade comunicacional no âmbito da administração pública direta e indireta.
 * **E)** Conformidade regulamentar, Homologação decisória e Atendimento cortês.
 
 
@@ -557,7 +557,7 @@ Um programa público de vacinação infantil que imunizou 98% do público-alvo p
 * **B)** Alta Economicidade e Baixa Eficiência orçamentária.
 * **C)** Baixa Eficácia e Ausência de Efetividade social.
 * **D)** Execução financeira passiva e Baixa Excelência de atendimento.
-* **E)** Fato gerador contábil sem reflexo em indicadores de desempenho da gestão.
+* **E)** Fato gerador contábil sem reflexo em indicadores de desempenho da gestão no âmbito da administração pública direta e indireta.
 
 
 ---

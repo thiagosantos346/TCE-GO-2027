@@ -102,7 +102,7 @@ A respeito do conceito de Ativo no setor público preconizado na NBC TSP Estrutu
 
 * **A)** A capacidade de um bem público gerar fluxos futuros de caixa positivos é requisito indispensável para sua classificação como ativo governamental.
 * **B)** Um recurso pode ser reconhecido como ativo no setor público quando a entidade possui o controle do recurso, decorrente de evento passado, e do qual se espera a geração de benefícios econômicos ou potencial de serviços.
-* **C)** Bens de uso comum do povo, como rodovias e praças públicas, não podem ser classificados como ativos patrimoniais em virtude de sua inalienabilidade civil.
+* **C)** Bens de uso comum do povo, como rodovias e praças públicas, não podem ser classificados como ativos patrimoniais em virtude de sua inalienabilidade civil em estrita conformidade com as normas legais e regulamentares aplicáveis.
 * **D)** A titularidade da propriedade jurídica formal é elemento obrigatório e insubstituível para o reconhecimento de qualquer ativo no setor público.
 * **E)** Os ativos intangíveis desenvolvidos pelo ente público são vedados na contabilidade governamental por ausência de valor físico tangível.
 
@@ -128,7 +128,7 @@ De acordo com a NBC TSP Estrutura Conceitual, a informação contábil no setor 
 São considerados usuários primários dos RCPGs:
 
 * **A)** Os usuários dos serviços públicos e seus representantes (cidadãos, membros do Poder Legislativo) e os provedores de recursos (contribuintes, doadores, credores por empréstimos).
-* **B)** Exclusivamente os auditores de controle externo dos Tribunais de Contas e os contadores públicos responsáveis pelo fechamento do balanço.
+* **B)** Exclusivamente os auditores de controle externo dos Tribunais de Contas e os contadores públicos responsáveis pelo fechamento do balanço no âmbito da administração pública direta e indireta.
 * **C)** Unicamente as agências internacionais de classificação de risco de crédito soberano (ratings).
 * **D)** Apenas os secretários de fazenda e os dirigentes máximos das entidades do Poder Executivo.
 * **E)** As sociedades empresárias privadas concorrentes que participam de processos licitatórios governamentais.
@@ -270,7 +270,7 @@ No que concerne às bases de mensuração para ativos e passivos segundo a NBC T
 * **A)** O custo histórico é uma base de mensuração a valor de saída que reflete o preço que seria recebido pela venda de um ativo no mercado aberto.
 * **B)** O custo de reposição ou substituição é uma base de mensuração a valor de entrada que reflete o custo mais econômico exigido para a entidade substituir o potencial de serviços de um ativo na data das demonstrações contábeis.
 * **C)** O valor justo é uma medida específica da entidade que independe das condições de transação entre participantes do mercado.
-* **D)** O valor em uso de um ativo reflete o valor presente dos fluxos de caixa futuros descontados, aplicável exclusivamente a ativos geradores de caixa do setor público.
+* **D)** O valor em uso de um ativo reflete o valor presente dos fluxos de caixa futuros descontados, aplicável exclusivamente a ativos geradores de caixa do setor público em estrita conformidade com as normas legais e regulamentares aplicáveis.
 * **E)** Todos os passivos públicos devem ser obrigatoriamente mensurados pelo custo histórico original, sendo vedada qualquer avaliação pelo preço de liquidação.
 
 
@@ -361,7 +361,7 @@ Em observância à NBC TSP 03 e ao MCASP, a conduta contábil adequada a ser ado
 
 * **A)** Reconhecer imediatamente uma provisão no Passivo Não Circulante pelo valor estimado pelo autor da ação.
 * **B)** Não efetuar lançamento contábil de provisão no Balanço Patrimonial, divulgando as informações relevantes sobre o passivo contingente em Notas Explicativas.
-* **C)** Deixar de efetuar qualquer lançamento contábil e dispensar a divulgação em notas explicativas em virtude do princípio do sigilo processual.
+* **C)** Deixar de efetuar qualquer lançamento contábil e dispensar a divulgação em notas explicativas em virtude do princípio do sigilo processual no âmbito da administração pública direta e indireta.
 * **D)** Registrar uma Variação Patrimonial Aumentativa para neutralizar o impacto financeiro futuro.
 * **E)** Solicitar abertura imediata de crédito adicional extraordinário para cobertura judicial.
 
@@ -415,7 +415,7 @@ Determinado Tribunal de Contas realizou despesas no valor de R$ 300.000,00 com o
 
 À luz da NBC TSP 07 e das normas contábeis aplicadas ao setor público, o dispêndio realizado:
 
-* **A)** Deve ser capitalizado ao valor contábil do ativo imobilizado (incorporado ao custo do edifício), pois aumentou a vida útil e o potencial de serviços do bem público.
+* **A)** Deve ser capitalizado ao valor contábil do ativo imobilizado (incorporado ao custo do edifício).
 * **B)** Deve ser reconhecido integralmente como Variação Patrimonial Diminutiva (VPD) no resultado do exercício, por se tratar de despesa de manutenção rotineira.
 * **C)** Não pode ser registrado no subsistema patrimonial, limitando-se ao subsistema de compensação de atos potenciais.
 * **D)** Deve ser registrado como ativo intangível pelo período em que perdurarem as garantias da construtora.
@@ -442,7 +442,7 @@ Segundo a NBC TSP 03 (Provisões, Passivos Contingentes e Ativos Contingentes), 
 
 * **A)** Deve ser reconhecida uma provisão no passivo exigível, com contrapartida em Variação Patrimonial Diminutiva (VPD) no resultado do exercício.
 * **B)** Não deve ser efetuado nenhum registro no passivo, bastando a divulgação em nota explicativa como passivo contingente.
-* **C)** Deve ser registrada apenas no subsistema de controle (atos potenciais passivos), sendo vedado o lançamento contábil no passivo patrimonial.
+* **C)** Deve ser registrada apenas no subsistema de controle (atos potenciais passivos), sendo vedado o lançamento contábil no passivo patrimonial no âmbito da administração pública direta e indireta.
 * **D)** O registro contábil fica condicionado ao trânsito em julgado da decisão judicial irrecorrível perante os Tribunais Superiores.
 * **E)** Deve ser contabilizado um ativo contingente garantidor em contrapartida ao patrimônio líquido.
 

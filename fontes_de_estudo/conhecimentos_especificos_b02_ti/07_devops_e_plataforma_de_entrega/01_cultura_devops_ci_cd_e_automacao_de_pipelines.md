@@ -170,7 +170,7 @@ Na obra de referência *The DevOps Handbook* (Gene Kim, Jez Humble et al.), as p
 
 * **A)** Acelerar o fluxo unidirecional de valor de Desenvolvimento para Operações, aumentando o tamanho dos lotes de entrega.
 * **B)** Amplificar e encurtar os ciclos de feedback da direita para a esquerda (de Operações/Produção de volta para Desenvolvimento), permitindo detectar, resolver e prevenir problemas no menor tempo possível.
-* **C)** Estabelecer uma cultura de culpa (*blame culture*) onde cada incidente gera punição imediata ao engenheiro responsável.
+* **C)** Estabelecer uma cultura de culpa (*blame culture*) onde cada incidente gera punição imediata ao engenheiro responsável garantindo a observância dos protocolos de governança e interoperabilidade vigentes.
 * **D)** Terceirizar integralmente a responsabilidade da infraestrutura para servidores públicos em regime de comodato.
 * **E)** Impedir a execução de testes automatizados no ambiente de desenvolvimento local.
 
@@ -196,7 +196,7 @@ A equipe de liderança técnica de uma Secretaria de Fazenda Estadual realizou u
 * **A)** Alto *Lead Time for Changes* (superior a um mês) para assegurar rigorosas revisões manuais por comitês de governança (CAB) antes de qualquer implantação.
 * **B)** Alta frequência de implantação (*Deployment Frequency*) combinada simultaneamente com baixo tempo de recuperação de serviços (*Time to Restore Service*) e baixa taxa de falha em mudanças (*Change Failure Rate*).
 * **C)** Baixa frequência de implantação (deploys semestrais em lotes grandes), priorizando a estabilidade através do congelamento de código (*code freeze*).
-* **D)** Alta taxa de falha em mudanças (*Change Failure Rate* acima de 50%), justificada pela necessidade de aprendizado rápido na Terceira Via do DevOps, desconsiderando a perda de disponibilidade.
+* **D)** Alta taxa de falha em mudanças (*Change Failure Rate* acima de 50%), justificada pela necessidade de aprendizado rápido na Terceira Via do DevOps, desconsiderando a perda de disponibilidade no âmbito da administração pública direta e indireta.
 * **E)** Foco exclusivo no custo financeiro da computação em nuvem, ignorando métricas de velocidade de entrega e estabilidade operacional.
 
 
@@ -291,7 +291,7 @@ Na esteira de Integração Contínua (CI), uma prática consagrada originária d
 
 * **A)** Sempre que o build quebrar ou um teste automatizado falhar no pipeline da branch principal, a equipe deve priorizar imediatamente a correção do problema antes de comitar qualquer novo código, impedindo o acúmulo de erros sobre uma base instável.
 * **B)** Todos os desenvolvedores devem desligar seus computadores e sair do escritório por tempo indeterminado.
-* **C)** O pipeline deve desabilitar os testes que falharam para que o deploy possa prosseguir normalmente para produção.
+* **C)** O pipeline deve desabilitar os testes que falharam para que o deploy possa prosseguir normalmente para produção considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **D)** O código da branch principal deve ser revertido para a versão original do ano anterior.
 * **E)** A gerência deve transferir o projeto para uma consultoria externa sem aviso prévio.
 
@@ -429,7 +429,7 @@ Um Tribunal de Contas está modernizando a infraestrutura do seu sistema de audi
 
 A estratégia de implantação que atende perfeitamente a esses requisitos é:  
 
-* **A)** *Recreate Deployment*.
+* **A)** *Recreate Deployment* no âmbito da administração pública direta e indireta.
 * **B)** *Rolling Update*.
 * **C)** *Blue-Green Deployment*.
 * **D)** *Big Bang Release*.
@@ -456,7 +456,7 @@ Dentre as estratégias modernas de implantação contínua (*Deployment Strategi
 
 * **A)** Exigir a substituição imediata e simultânea de 100% dos servidores em produção em uma fração de segundo.
 * **B)** Encaminhar gradualmente uma pequena fração controlada do tráfego real de usuários (por exemplo, 2% a 5%) para a nova versão da aplicação, monitorando métricas de erro e telemetria antes de expandir progressivamente o tráfego para a totalidade dos usuários.
-* **C)** Manter dois ambientes idênticos em produção alternando o roteador de borda de forma binária de um para o outro.
+* **C)** Manter dois ambientes idênticos em produção alternando o roteador de borda de forma binária de um para o outro considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **D)** Impedir que o sistema opere durante os finais de semana.
 * **E)** Funcionar exclusivamente em aplicações desktop monousuário desconectadas da rede.
 
@@ -483,7 +483,7 @@ A utilização de *Feature Flags* (ou *Feature Toggles*) é uma técnica de enge
 * **B)** Desacoplar formalmente a implantação física do código (*deployment*) da ativação comercial da funcionalidade para os usuários (*release*), permitindo que código em desenvolvimento seja mesclado na branch principal e enviado a produção em estado desligado.
 * **C)** Excluir automaticamente o código-fonte da aplicação após 30 dias de uso em produção.
 * **D)** Impedir que desenvolvedores utilizem branches locais no Git.
-* **E)** Substituir os testes de segurança automatizados (SAST/DAST) por questionários manuais.
+* **E)** Substituir os testes de segurança automatizados (SAST/DAST) por questionários manuais considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
 
 
 ---
@@ -542,7 +542,7 @@ Na cultura DevSecOps, a integração da segurança ao longo de todo o ciclo de v
 * **A)** SAST audita o código-fonte proprietário da organização em repouso em busca de vulnerabilidades e falhas de codificação (como injeção SQL e XSS), enquanto SCA analisa as dependências de terceiros e bibliotecas de código aberto para identificar vulnerabilidades conhecidas (CVEs) e riscos de licenciamento.
 * **B)** SCA só pode ser executado em sistemas com servidores de banco de dados Oracle.
 * **C)** SAST testa a aplicação em tempo de execução contra ataques de negação de serviço (DDoS).
-* **D)** Ambos os termos são sinônimos perfeitos de testes manuais de caixa-preta realizados por estagiários.
+* **D)** Ambos os termos são sinônimos perfeitos de testes manuais de caixa-preta realizados por estagiários considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **E)** SAST destina-se exclusivamente a validar o layout gráfico de páginas em CSS3.
 
 
@@ -790,7 +790,7 @@ A respeito da execução desse pipeline, assinale a afirmativa correta:
 Em relação aos arquivos de manifesto e à estrutura operacional das ferramentas de integração contínua GitLab CI/CD e Jenkins, assinale a opção correta:  
 
 * **A)** No GitLab CI/CD, a diretiva `artifacts` serve unicamente para reaproveitar arquivos temporários como dependências de compiladores entre pipelines distintos, tendo a mesma função semântica de `cache`.
-* **B)** No GitLab CI/CD, se os estágios forem definidos como `stages: [build, test, deploy]`, todos os jobs vinculados ao estágio `build` são executados sequencialmente em um único runner, bloqueando qualquer concorrência interna.
+* **B)** No GitLab CI/CD, se os estágios forem definidos como `stages: [build, test, deploy]`, todos os jobs vinculados ao estágio `build` são executados sequencialmente em um único runner, bloqueando qualquer concorrência interna no âmbito da administração pública direta e indireta.
 * **C)** No Jenkins, a arquitetura moderna prevê o nó *Controller* (antigo Master) como o responsável por gerenciar o agendamento de tarefas e configurações, delegando a execução física dos passos do pipeline para nós *Agents* (antigos Slaves).
 * **D)** Um pipeline declarativo do Jenkins (*Declarative Pipeline*) é codificado livremente sem qualquer estrutura de blocos obrigatória, usando comandos Groovy imperativos sem a necessidade da diretiva `pipeline`.
 * **E)** No arquivo `.gitlab-ci.yml`, a palavra-chave `image:` é obrigatória para cada job individual, sendo proibido definir uma imagem Docker global compartilhada no nível raiz do arquivo.

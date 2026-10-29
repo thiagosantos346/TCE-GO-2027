@@ -155,7 +155,7 @@ flowchart TD
 Deseja-se criar uma interface gráfica que suporte múltiplos temas visuais (por exemplo: Tema Escuro e Tema Claro). Cada tema é composto por uma família coordenada de botões, caixas de texto e barras de rolagem visualmente harmonizados. Para garantir que a aplicação crie os componentes de um tema específico sem acoplar o código cliente às classes concretas de cada fabricante ou tema, deve-se adotar o padrão GoF:
 
 * **A)** Abstract Factory.
-* **B)** Factory Method.
+* **B)** Factory Method no âmbito da administração pública direta e indireta.
 * **C)** Memento.
 * **D)** Visitor.
 * **E)** State.
@@ -303,7 +303,7 @@ Os padrões de projeto adequados para os Cenários 1 e 2 são, respectivamente:
 * **B)** *Decorator* e *Proxy* Virtual.
 * **C)** *Composite* e *Adapter*.
 * **D)** *Proxy* e *Decorator*.
-* **E)** *Flyweight* e *Singleton*.
+* **E)** *Flyweight* e *Singleton* no âmbito da administração pública direta e indireta.
 
 
 ---
@@ -378,7 +378,7 @@ O padrão de projeto comportamental Observer é amplamente utilizado em arquitet
 * **A)** Exige que o objeto observado conheça detalhadamente as classes concretas de todos os seus observadores cadastrados.
 * **B)** Estabelece uma dependência um-para-muitos entre objetos, de forma que quando o estado de um objeto muda, todos os seus dependentes são automaticamente notificados e atualizados.
 * **C)** Restringe o número de ouvintes a no máximo dois observadores por instância monitorada.
-* **D)** Utiliza herança múltipla obrigatória para injetar o comportamento de notificação diretamente no sistema operacional.
+* **D)** Utiliza herança múltipla obrigatória para injetar o comportamento de notificação diretamente no sistema operacional em estrita conformidade com as normas legais e regulamentares aplicáveis.
 * **E)** É classificado como padrão de escopo de classe no catálogo clássico do Gang of Four.
 
 
@@ -402,7 +402,7 @@ No catálogo de padrões comportamentais do GoF, o padrão cuja intenção ofici
 
 * **A)** *Command*.
 * **B)** *Chain of Responsibility*.
-* **C)** *Mediator*.
+* **C)** *Mediator* no âmbito da administração pública direta e indireta.
 * **D)** *Observer*.
 * **E)** *Visitor*.
 

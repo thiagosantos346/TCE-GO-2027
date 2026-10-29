@@ -90,401 +90,260 @@ flowchart TD
 ---
 
 ### Teste 176
-**(FCC - Auditor de Controle Externo / TCE-GO)**
-Os regimentos internos dos Tribunais de Contas e as normas de fiscalização tipificam diferentes instrumentos de fiscalização para a consecução do controle externo: auditoria, levantamento, acompanhamento, monitoramento e inspeção.
+**(FCC – Auditor de Controle Externo / TCE-GO / Simulado)**  
+Os regimentos internos dos Tribunais de Contas e as normas de fiscalização governamental disciplinam os instrumentos de controle externo cabíveis para a atuação fiscalizatória das Cortes de Contas. A respeito do instrumento adequado para verificar o cumprimento de deliberações e os resultados dos acórdãos do Tribunal, é correto afirmar que se trata de:
 
-A respeito das finalidades específicas do 'monitoramento' e do 'levantamento', assinale a afirmativa correta.
-
-* **A)** O monitoramento é o instrumento utilizado privativamente para apurar denúncias anônimas de fraudes graves que demandem busca e apreensão.
-* **B)** O monitoramento é o instrumento de fiscalização utilizado para verificar o cumprimento das deliberações do Tribunal de Contas (determinações e recomendações) e os resultados delas decorrentes.
-* **C)** O levantamento destina-se a aplicar multas diárias imediatas aos gestores faltosos sem oportunizar o contraditório.
-* **D)** A inspeção substitui a tomada de contas especial nos casos de desfalque comprovado de recursos financeiros.
-* **E)** O acompanhamento destina-se exclusivamente a fiscalizar contratos já liquidados e pagos há mais de dez anos.
-
+* **A)** inspeção extraordinária de obras públicas estaduais.
+* **B)** monitoramento processual de determinações e recomendações.
+* **C)** levantamento preliminar da estrutura dos órgãos jurisdicionados.
+* **D)** acompanhamento simultâneo da execução de despesas de custeio.
+* **E)** auditoria operacional integrada de conformidade legal.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O instrumento adequado para apurar denúncias pontuais com urgência in loco é a **inspeção**.
-> - **B)** Correta. Conceito regimental e normativo canônico dos Tribunais de Contas (RI/TCU e RI/TCE-GO): o **monitoramento** é o instrumento de controle externo utilizado para averiguar o cumprimento das deliberações do Tribunal (acórdãos, recomendações e determinações) e avaliar o impacto positivo das medidas corretivas adotadas pela entidade auditada. O **levantamento** visa a conhecer a organização e o funcionamento das instituições para identificar objetos e viabilidade de futuras auditorias.
-> - **C)** Incorreta. O levantamento é instrumento de diagnóstico de sistemas e planejamento, não possuindo viés punitivo direto.
-> - **D)** Incorreta. A tomada de contas especial é processo específico de ressarcimento de dano que não se confunde com inspeção.
-> - **E)** Incorreta. O acompanhamento fiscaliza a gestão em tempo real (concomitantemente), e não fatos de uma década atrás.
+> - **A)** **Incorreto**. A inspeção é utilizada para suprir omissões, esclarecer dúvidas ou apurar denúncias e representações em situações pontuais urgentes.
+> - **B)** **Correto**. O monitoramento é o instrumento específico e formal utilizado pelos Tribunais de Contas (conforme normas da INTOSAI, NBASP e regimentos dos TCs) para verificar o cumprimento de suas deliberações (determinações e recomendações) e avaliar os resultados e impactos práticos advindos de suas decisões.
+> - **C)** **Incorreto**. O levantamento destina-se a conhecer a organização e funcionamento dos órgãos para subsidiar o planejamento futuro de auditorias.
+> - **D)** **Incorreto**. O acompanhamento atua de forma concomitante ao longo de determinado período para avaliar a legalidade e legitimidade de atos de gestão contínuos.
+> - **E)** **Incorreto**. A auditoria operacional examina a economicidade, eficiência, eficácia e efetividade de programas e órgãos.
 >
 > **Gabarito: B**
-
----
 
 ### Teste 177
-**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
-De acordo com as Normas Brasileiras de Auditoria do Setor Público (NBASP 100 e 300) e as disposições que regem a fiscalização dos Tribunais de Contas, o instrumento formal destinado especificamente a verificar o cumprimento de deliberações anteriores do Tribunal e os resultados práticos delas decorrentes denomina-se:
+**(FGV – TCE-GO – Analista de Controle Externo - 2024)**  
+Os princípios de auditoria constantes nas Normas Internacionais das Entidades Fiscalizadoras Superiores (ISSAI / NBASP) são fundamentais para a condução de uma fiscalização técnica escorreita.  
+Assinale a opção que indica o princípio de auditoria governamental que enfatiza a necessidade de comunicação eficaz e transparente por parte dos auditores ao longo de todo o processo fiscalizatório:
 
-* **A)** Levantamento.
-* **B)** Auditoria de Conformidade.
-* **C)** Inspeção.
-* **D)** Monitoramento.
-* **E)** Acompanhamento.
-
+* **A)** Ética e independência profissional.
+* **B)** Controle de qualidade do trabalho.
+* **C)** Comunicação com a entidade auditada.
+* **D)** Gestão de equipes e habilidades técnicas.
+* **E)** Ceticismo e julgamento profissionais.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta:** O levantamento serve para mapear processos e conhecer o funcionamento das entidades para planejar fiscalizações futuras.  
-> - **B) Incorreta:** A auditoria de conformidade avalia a legalidade e regularidade dos atos administrativos e contratos em face da lei.  
-> - **C) Incorreta:** A inspeção tem a finalidade de suprir omissões pontuais em processos ou apurar denúncias e representações de natureza urgente.  
-> - **D) CORRETA:** O **Monitoramento** é o instrumento regimental e normativo expressamente concebido para aferir o cumprimento das deliberações (determinações e recomendações) exaradas pelo Tribunal de Contas em seus acórdãos e decisões monocráticas.  
-> - **E) Incorreta:** O acompanhamento é a fiscalização exercida de forma contínua e concomitante ao longo de um determinado período (ex.: grandes obras em andamento).
-> 
-> **Gabarito: D**
-
----
-
-## 2. Tipologia das Auditorias Governamentais (Normas NBASP / INTOSAI)
-
-Conforme a **NBASP 100** (Princípios Fundamentais de Auditoria do Setor Público), emitida pelo Instituto Rui Barbosa (IRB) em convergência com as normas da INTOSAI, existem três tipos clássicos de auditoria governamental:
-
-```mermaid
-flowchart TD
-    NBASP["Auditoria Governamental (NBASP 100)"]
-    NBASP --> Conf["Auditoria de Conformidade<br/>(NBASP 400)"]
-    NBASP --> Oper["Auditoria Operacional<br/>(NBASP 300)"]
-    NBASP --> Fin["Auditoria Financeira<br/>(NBASP 200)"]
-
-    Conf --> C1["Foco: Legalidade e Normas<br/>Critério: Leis, Editais, Contratos<br/>Resultado: Sanções e Débitos"]
-    Oper --> O1["Foco: Desempenho e 4 Es<br/>Critério: Metas e Boas Práticas<br/>Resultado: Recomendações"]
-    Fin --> F1["Foco: Demonstrações Contábeis<br/>Critério: Normas NBC TSP/MCASP<br/>Resultado: Opinião do Auditor"]
-```
-
-### 2.1 Auditoria de Conformidade (NBASP 400)
-- **Foco:** Avaliar se as atividades, transações financeiras e atos administrativos cumprem a legislação e a regulamentação aplicável.
-- **Critérios:** Normas jurídicas positivadas (Lei nº 14.133/2021, LRF, Constituição, decretos e termos contratuais).
-- **Desfecho:** Identificação de irregularidades, infrações à norma legal e danos ao erário, culminando em relatórios com propostas de imputação de débito e cominação de multas.
-
-### 2.2 Auditoria Operacional ou de Desempenho e os 4 Es (NBASP 300)
-- **Foco:** Avaliar o desempenho de programas, projetos e órgãos públicos sob a perspectiva dos **4 Es da Administração Pública**:
-    1. **Economicidade:** Minimização dos custos dos recursos empregados na realização de uma atividade, sem comprometer a qualidade (*comprar bem e pelo preço justo*).
-    2. **Eficiência:** Relação técnica entre os insumos empregados (*inputs*) e os produtos, obras ou serviços gerados (*outputs*) - maximizar entregas com o menor dispêndio de recursos.
-    3. **Eficácia:** Grau de alcance dos objetivos e metas formais estabelecidos no planejamento governamental (*atingir o percentual previsto no PPA/LOA*).
-    4. **Efetividade:** Impacto social real e duradouro alcançado sobre a população-alvo e o meio ambiente (*transformação positiva na realidade dos cidadãos*).
-
-- **Desfecho:** Emissão preponderante de **recomendações pedagógicas de melhoria de gestão**, reservando-se as determinações apenas para obrigações legais vinculadas.
-
-> ⭐ **IMPORTANTE (EFICÁCIA vs. EFETIVIDADE NA BANCA FCC):**  
+> - **A)** **Incorreto**. Refere-se à conduta moral, probidade, autonomia e neutralidade dos membros da equipe.
+> - **B)** **Incorreto**. Abrange os procedimentos institucionais para assegurar que a auditoria atenda aos padrões técnicos de qualidade.
+> - **C)** **Correto**. Conforme a NBASP 100 / ISSAI 100, o princípio da "Comunicação" estabelece que os auditores governamentais devem manter canais de comunicação claros e eficazes com a administração auditada e partes responsáveis ao longo de todas as etapas (planejamento, execução e relatório), promovendo a transparência e evitando surpresas nas conclusões.
+> - **D)** **Incorreto**. Diz respeito à alocação de auditores com capacitação adequada ao objeto fiscalizado.
+> - **E)** **Incorreto**. Refere-se à postura crítica e questionadora do auditor ao analisar as evidências colhidas.
 >
-> - Uma campanha pública de vacinação que vacinou 100% das crianças estipuladas na meta física foi **EFICAZ**.  
-> - Se, apesar de vacinadas, a taxa de internações pela doença permaneceu alta devido à perda de refrigeração do lote de vacinas, o programa **NÃO FOI EFETIVO**!  
-> - A eficácia afere a entrega física da meta; a efetividade afere a alteração concreta da realidade socioeconômica.
-
-### 2.3 Auditoria Financeira e os Tipos de Opinião do Auditor (NBASP 200)
-A auditoria financeira destina-se a emitir uma **opinião independente** sobre se as demonstrações contábeis e financeiras refletem fidedignamente a posição patrimonial e orçamentária do órgão público.
-
-```mermaid
-flowchart TD
-    Opiniao["Tipos de Opinião do Auditor (NBASP 200)"]
-    Opiniao --> NaoMod["Opinião Sem Ressalvas<br/>(Opinião Não Modificada)"]
-    Opiniao --> Mod["Opinião Modificada"]
-    Mod --> Ressalva["1. Com Ressalvas<br/>(Distorções Relevantes, mas NÃO Generalizadas)"]
-    Mod --> Adversa["2. Adversa<br/>(Distorções Relevantes E Generalizadas)"]
-    Mod --> Abstencao["3. Abstenção de Opinião<br/>(Limitação de Escopo Relevante E Generalizada)"]
-```
-
-| Tipo de Opinião | Relevância da Distorção / Incerteza | A Distorção é Generalizada (*Pervasive*)? | Significado Prático |
-| :--- | :--- | :--- | :--- |
-| **Opinião Sem Ressalvas** | Não há distorções relevantes | Não | Demonstrações contábeis estão adequadas e fidedignas. |
-| **Opinião Com Ressalvas** | Relevante | **NÃO** | Há distorções específicas relevantes, mas o conjunto das demonstrações ainda é confiável. |
-| **Opinião Adversa** | Relevante | **SIM** | As demonstrações contábeis contêm erros tão graves e disseminados que não merecem fé pública. |
-| **Abstenção de Opinião** | Relevante (Incerteza) | **SIM** | O auditor não conseguiu obter evidências suficientes por sonegação de dados ou extravio total de registros. |
-
----
+> **Gabarito: C**
 
 ### Teste 178
-**(FGV - Auditor de Controle Externo / TCE-SC)**
-A NBASP 300 (Norma Brasileira de Auditoria do Setor Público equivalente à ISSAI 300) estabelece os princípios e as diretrizes fundamentais da auditoria operacional (ou de desempenho).
+**(FGV – TCE-GO – Analista de Controle Externo - 2024)**  
+A Declaração de Lima é considerada a Carta Magna da auditoria governamental no plano internacional, uma vez que lançou as bases fundamentais do controle público moderno.  
+Sobre a Declaração de Lima, analise os itens a seguir:
 
-Sobre os objetivos e as dimensões avaliadas na auditoria operacional (princípios dos 4 Es), assinale a afirmativa correta.
+I. O principal objetivo da Declaração de Lima é defender a necessidade de uma fiscalização independente do setor público.  
+II. Dada a importância histórica e institucional global deste documento, a Declaração de Lima foi oficialmente integrada à estrutura da NBASP.  
+III. A Declaração de Lima se fundamenta no Estado de Direito e na Democracia, premissas para uma fiscalização do setor público dependente.  
 
-* **A)** A auditoria operacional limita-se a conferir a fidedignidade contábil dos balanços patrimoniais e a regularidade fiscal das notas de empenho.
-* **B)** A auditoria operacional examina a gestão pública sob os critérios de economicidade (minimização dos custos dos recursos sem comprometer a qualidade), eficiência (obtenção do máximo rendimento dos recursos empregados) e eficácia (grau de alcance dos objetivos e metas estabelecidos).
-* **C)** Na auditoria operacional, o auditor emite uma opinião formal com certificação padronizada sobre as demonstrações financeiras nos moldes de parecer de auditoria contábil independente.
-* **D)** A dimensão da efetividade na auditoria operacional preocupa-se exclusivamente com a rapidez na assinatura dos contratos administrativos de compras públicas.
-* **E)** A auditoria operacional é terminantemente proibida de emitir recomendações aos gestores públicos sobre melhorias procedimentais.
+Está correto o que se afirma em:
 
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A conferência contábil de balanços é objeto precípuo da **auditoria financeira**; a conformidade de empenhos é da **auditoria de conformidade**.
-> - **B)** Correta. A teor da NBASP 300 e da doutrina consolidada, a **auditoria operacional** avalia o desempenho dos programas, órgãos e políticas públicas com foco na **economicidade** (relação insumo/custo), **eficiência** (relação insumo/produto), **eficácia** (relação produto/meta) e **efetividade** (impacto social real na população).
-> - **C)** Incorreta. A emissão de parecer/opinião sobre demonstrações financeiras é privativa da **auditoria financeira**. A auditoria operacional conclui com relatório analítico de achados e recomendações de aperfeiçoamento gerencial.
-> - **D)** Incorreta. A efetividade avalia o alcance dos resultados e os impactos sociais de longo prazo da política pública (ex.: redução da mortalidade infantil, e não simples celeridade na compra de remédios).
-> - **E)** Incorreta. As recomendações propositivas constituem o principal produto e valor agregado da auditoria de desempenho.
+> - **A)** **Incorreto**. O item II também é verdadeiro no sistema NBASP/INTOSAI.
+> - **B)** **Correto**. O item I é verdadeiro: o postulado central da Declaração de Lima (1977) é consagrar a independência funcional, institucional e financeira das Entidades Fiscalizadoras Superiores (EFS). O item II é verdadeiro: a Declaração de Lima constitui a norma NBASP 1 (ISSAI 1), alicerce máximo da auditoria no setor público brasileiro. O item III é falso porque a fiscalização defendida pela Declaração de Lima deve ser estritamente *independente* (e não "dependente").
+> - **C)** **Incorreto**. O item III contém erro evidente ("fiscalização dependente").
+> - **D)** **Incorreto**. O item I é plenamente verdadeiro.
+> - **E)** **Incorreto**. O item III inviabiliza a opção.
 >
 > **Gabarito: B**
-
----
 
 ### Teste 179
-**(FCC - Adaptada / TCE-RO - Auditor de Controle Externo)**
-Em auditoria operacional realizada sobre programa estadual de saneamento básico, a equipe de auditoria do Tribunal de Contas constatou que as obras da rede de esgoto sanitário foram concluídas integralmente dentro do cronograma físico e orçamentário, cobrindo cem por cento da população-alvo prevista no edital. Todavia, a taxa de internações hospitalares infantis por doenças de veiculação hídrica na comunidade beneficiada permaneceu inalterada devido à contaminação prévia dos mananciais de captação de água domiciliar.
+**(FGV – TCE-GO – Analista de Controle Externo - 2024)**  
+A NBASP 10 traz os princípios que devem ser observados pelo Tribunal de Contas para preservar a sua independência institucional, o que tem impactos diretos na imparcialidade e na credibilidade das conclusões de seus trabalhos e relatórios.  
+Assinale a opção que indica o princípio da NBASP 10 que preconiza que os Tribunais de Contas devem operar sem sofrer qualquer ingerência por parte da Administração Pública sobre o desempenho de suas funções:
 
-Sob a ótica dos princípios da auditoria de desempenho público consagrados na NBASP 300:
-
-* **A)** O programa governamental foi eficiente e eficaz, porém não alcançou a efetividade social esperada.
-* **B)** O programa governamental demonstrou elevada efetividade, contudo violou o princípio da eficiência técnica.
-* **C)** Restou violado o princípio da economicidade, configurando crime tipificado contra as finanças públicas estaduais.
-* **D)** O programa governamental foi manifestamente ineficaz, na medida em que falhou na entrega física das redes de saneamento.
-* **E)** O achado de auditoria configura distorção relevante em auditoria financeira, impondo emissão de parecer com abstenção de opinião.
-
+* **A)** Independência dos Tribunais de Contas para o desempenho de suas competências.
+* **B)** Acesso irrestrito a todas as informações e bases de dados de órgãos públicos.
+* **C)** Prevenção ao conflito de interesses na atuação dos auditores governamentais.
+* **D)** Previsão legal da independência dos Tribunais de Contas na ordem jurídica nacional.
+* **E)** Cooperação interinstitucional sem prejuízo da autonomia orgânica da Corte de Contas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) CORRETA:** O programa foi **eficiente** (entregou a infraestrutura otimizando insumos e respeitando os custos e prazos orçados) e **eficaz** (atingiu 100% da meta física estipulada no planejamento), porém **não foi efetivo**, pois o impacto final transformador na saúde pública (redução das internações por doenças hídricas) não se concretizou.  
-> - **B) Incorreta:** A efetividade social foi expressamente frustrada e a eficiência foi plenamente alcançada na execução da obra.  
-> - **C) Incorreta:** O custo respeitou o orçamento previsto, não havendo demonstração de sobrepreço, antieconomicidade ou crime fiscal.  
-> - **D) Incorreta:** O programa foi eficaz no cumprimento de sua meta física direta (conclusão de 100% da rede de esgoto prevista).  
-> - **E) Incorreta:** Trata-se de exame de desempenho de política pública em sede de auditoria operacional, e não de análise contábil de auditoria financeira.
-> 
+> - **A)** **Correto**. O Princípio 3 da Declaração do México / NBASP 10 estabelece expressamente a "Independência dos Tribunais de Contas para o desempenho de suas competências", vedando qualquer tipo de interferência, pressão ou ingerência política ou hierárquica por parte do Poder Executivo ou da Administração Pública na definição de suas pautas, cronogramas e metodologias de auditoria.
+> - **B)** **Incorreto**. O Princípio 4 trata do "Acesso irrestrito a informações" para a obtenção tempestiva de evidências.
+> - **C)** **Incorreto**. Refere-se à conduta ética individual de auditores e conselheiros.
+> - **D)** **Incorreto**. O Princípio 1 exige a existência de um quadro constitucional/estatutário e a aplicação efetiva das disposições dessa estrutura.
+> - **E)** **Incorreto**. A cooperação interinstitucional é princípio de articulação harmônica, mas não o princípio definidor da vedação à ingerência executiva.
+>
 > **Gabarito: A**
 
----
-
 ### Teste 180
-**(FCC - Adaptada / Analista de Controle Externo - Auditoria)**
-Durante os trabalhos de campo de uma auditoria financeira realizada pelo Tribunal de Contas no balanço geral consolidado de uma grande autarquia estadual, os auditores detectaram que os registros patrimoniais e os estoques de medicamentos continham erros contábeis materiais gravíssimos e omissões generalizadas em praticamente todas as contas do ativo circulante e não circulante. Constatou-se que as demonstrações não representavam a posição financeira real da entidade.
+**(FGV – TCE – Auditor de Controle Externo - 2024)**  
+A NBASP 400 - Princípios de Auditoria de Conformidade estabelece diretrizes fundamentais para a realização de fiscalizações destinadas a verificar se atos, contratos e operações governamentais atendem às normas aplicáveis.  
+Nesse contexto, analise as afirmativas a seguir:
 
-De acordo com as normas da NBASP 200 (Auditoria Financeira), a equipe de auditoria deve propor a emissão de:
+I. A auditoria de conformidade é a avaliação independente para determinar se um dado objeto está em conformidade com normas aplicáveis identificadas como critérios.  
+II. As auditorias de conformidade são realizadas para avaliar se atividades, transações orçamentárias e informações cumprem, em todos os aspectos relevantes, as normas que regem a entidade auditada.  
+III. A auditoria de conformidade não integra o mandato de uma Entidade Fiscalizadora Superior, sendo restrita ao controle interno.  
 
-* **A)** Opinião Sem Ressalvas (Não Modificada).
-* **B)** Opinião Com Ressalvas.
-* **C)** Opinião Adversa.
-* **D)** Abstenção de Opinião.
-* **E)** Recomendações operacionais, arquivando-se o processo por falta de interesse de agir.
+Está correto o que se afirma em:
 
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta:** A opinião sem ressalvas é emitida quando as demonstrações estão adequadas e livres de distorções relevantes.  
-> - **B) Incorreta:** A opinião com ressalvas aplica-se quando as distorções são relevantes, porém **não generalizadas** (isto é, limitadas a itens contábeis isolados).  
-> - **C) CORRETA:** Conforme a NBASP 200, quando o auditor obtém evidência apropriada e suficiente e conclui que as distorções são **relevantes e generalizadas** (*pervasive*) para as demonstrações contábeis como um todo, deve expressar uma **Opinião Adversa**.  
-> - **D) Incorreta:** A abstenção de opinião decorre da impossibilidade de obter evidências suficientes (limitação grave de escopo), enquanto no enunciado os auditores obtiveram evidências e constataram os erros disseminados.  
-> - **E) Incorreta:** Em auditoria financeira, o dever formal do auditor é emitir opinião técnica sobre as contas públicas.
-> 
-> **Gabarito: C**
-
----
+> - **A)** **Incorreto**. O item II também expressa com fidelidade a literalidade da norma NBASP 400.
+> - **B)** **Correto**. O item I reproduz a definição do item 12 da NBASP 400 ("avaliação independente para determinar se um dado objeto está em conformidade com as normas aplicáveis identificadas como critérios"). O item II transcreve o objetivo central da conformidade (verificar cumprimento substancial das normas orçamentárias, financeiras e regulamentares). O item III é falso porque a auditoria de conformidade é atribuição nuclear e precípua do mandato dos Tribunais de Contas (EFS) em todo o mundo.
+> - **C)** **Incorreto**. O item III é manifestamente falso.
+> - **D)** **Incorreto**. O item I é verdadeiro e o item III é falso.
+> - **E)** **Incorreto**. O item III impede a opção integral.
+>
+> **Gabarito: B**
 
 ### Teste 181
-**(FCC - Analista de Controle Externo / TCE-GO)**
-De acordo com a estrutura normativa da NBASP / INTOSAI, a auditoria do setor público divide-se em três tipos principais: auditoria financeira, auditoria de conformidade e auditoria operacional.
+**(FCC – Analista de Controle Externo / TCE-GO / Simulado)**  
+De acordo com a estrutura normativa da NBASP 100 / INTOSAI, a auditoria no setor público compreende três tipos principais: financeira, de conformidade e operacional. A respeito do objeto e escopo específico da auditoria operacional, é correto afirmar:
 
-Assinale a afirmativa que apresenta a correta caracterização da 'auditoria financeira':
-
-* **A)** Foca no exame da moralidade subjetiva dos agentes públicos para avaliar desvios de conduta privada.
-* **B)** Concentra-se em determinar se as informações financeiras de uma entidade são apresentadas, em todos os aspectos relevantes, em conformidade com a estrutura de relatório financeiro e o arcabouço contábil aplicável, emitindo o auditor uma opinião sobre a fidedignidade dessas demonstrações (NBASP 200).
-* **C)** Destina-se com exclusividade a punir disciplinarmente os chefes de tesouraria de municípios com menos de dez mil habitantes.
-* **D)** Tem como objeto unicamente a legalidade dos processos licitatórios de obras rodoviárias.
-* **E)** Prescinde do conceito de materialidade e relevância, exigindo a checagem individualizada de 100% dos lançamentos contábeis do órgão.
-
+* **A)** Tem por objetivo exclusivo atestar a fidedignidade formal das demonstrações contábeis e notas explicativas.
+* **B)** Avalia o desempenho de órgãos e programas públicos segundo a economicidade, eficiência e eficácia.
+* **C)** Foca prioritariamente na verificação da estrita legalidade de contratos administrativos e processos licitatórios.
+* **D)** É vedada a análise de indicadores de efetividade social sob pena de violação do mérito administrativo do Executivo.
+* **E)** Subordina suas conclusões à aprovação prévia e discricionária da Controladoria-Geral do respectivo Estado.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A auditoria financeira examina dados e demonstrações contábeis e orçamentárias, não vida privada de agentes.
-> - **B)** Correta. A NBASP 200 / ISSAI 200 define que a **auditoria financeira** visa a obter segurança razoável de que as demonstrações financeiras tomadas em conjunto estão livres de distorções relevantes, decorrentes de fraude ou erro, permitindo ao auditor expressar uma opinião técnica fundamentada sobre se as demonstrações refletem adequadamente a situação patrimonial e orçamentária do ente.
-> - **C)** Incorreta. Aplica-se a todos os entes públicos jurisdicionados e não visa a aplicar penas disciplinares funcionais.
-> - **D)** Incorreta. O exame de licitações é objeto clássico da auditoria de **conformidade**.
-> - **E)** Incorreta. O conceito de **materialidade** (relevância econômica e qualitativa) é pilar estruturante da auditoria financeira.
+> - **A)** **Incorreto**. Atestar a fidedignidade das demonstrações contábeis (se estão livres de distorções relevantes) é o escopo da auditoria financeira (NBASP 200).
+> - **B)** **Correto**. Conforme a NBASP 100 e a NBASP 300, a auditoria operacional foca em determinar se intervenções, programas e instituições estão operando em conformidade com os princípios da economicidade, eficiência, eficácia e efetividade (os "4Es"), visando identificar oportunidades de melhoria na gestão pública.
+> - **C)** **Incorreto**. A verificação de conformidade a leis e regulamentos cabe à auditoria de conformidade (NBASP 400).
+> - **D)** **Incorreto**. A efetividade social (impacto real da política pública na sociedade) é dimensão precípua do controle operacional moderno.
+> - **E)** **Incorreto**. A auditoria pelo Tribunal de Contas é autônoma e independente de controladorias executivas.
 >
 > **Gabarito: B**
-
----
-
-## 3. Estrutura Normativa NBASP / INTOSAI e as Três Partes da Auditoria
-
-A INTOSAI (*International Organization of Supreme Audit Institutions*) e o Instituto Rui Barbosa (IRB) estruturam as normas em níveis hierárquicos:
-
-- **Nível 1:** Princípios Fundamentais - **Declaração de Lima (ISSAI 1 / NBASP 1)**, considerada a Carta Magna da independência das Entidades Fiscalizadoras Superiores.
-- **Nível 2:** Pré-requisitos Institucionais para o funcionamento dos Tribunais de Contas (independência, código de ética e controle de qualidade).
-- **Nível 3:** Princípios Fundamentais de Auditoria do Setor Público (NBASP 100, 200, 300 e 400).
-- **As Três Partes Envolvidas na Auditoria Pública:**
-    1. O **Auditor:** Tribunal de Contas e sua equipe técnica de controle externo;
-    2. A **Parte Responsável:** O gestor público ou entidade auditada encarregada da gestão dos recursos;
-    3. Os **Usuários Previstos:** A sociedade civil (cidadãos) e os órgãos de representação política (Poder Legislativo).
-
----
 
 ### Teste 182
-**(FGV - Auditor de Controle Externo / TCE-SC)**
-A NBASP 100 (Princípios Fundamentais de Auditoria do Setor Público) estabelece que uma auditoria do setor público envolve tipicamente três partes distintas que se relacionam no processo fiscalizatório.
+**(FGV – Auditor de Controle Externo / TCE-SC / Simulado)**  
+A NBASP 100 estabelece que os trabalhos de auditoria do setor público podem ser executados sob a forma de trabalhos de asseguração razoável ou limitada. A respeito da natureza da asseguração razoável, é correto afirmar que:
 
-Essas três partes são:
-
-* **A)** O Poder Executivo, o Poder Legislativo e o Poder Judiciário.
-* **B)** O auditor (representado pela equipe do Tribunal de Contas), a parte responsável (os gestores públicos responsáveis pela gestão dos recursos e pela informação objeto do controle) e os usuários previstos (os órgãos legislativos, os órgãos de controle e a sociedade/cidadãos).
-* **C)** O autor da representação, o réu e a testemunha de acusação.
-* **D)** A empresa contratada, o banco financiador e o engenheiro fiscal de obras.
-* **E)** O Ministério Público de Contas, a Controladoria-Geral da União e a Polícia Federal.
-
+* **A)** consiste em uma garantia absoluta de que todas as fraudes ou erros cometidos na gestão foram detectados.
+* **B)** expressa um nível alto, mas não absoluto, de certeza de que o objeto auditado está livre de distorções relevantes.
+* **C)** dispensa a obtenção de evidências suficientes e apropriadas quando o controle interno for considerado robusto.
+* **D)** conclui na forma negativa, declarando que nada chegou ao conhecimento do auditor que indicasse qualquer irregularidade.
+* **E)** é aplicável apenas a inspeções extraordinárias instauradas com a finalidade de apurar denúncias anônimas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Trata-se da divisão constitucional clássica dos Poderes estatais.
-> - **B)** Correta. Conforme a NBASP 100 (item 25), a auditoria do setor público estrutura-se na relação entre **três partes fundamentais**: (1) **O Auditor**: a pessoa ou equipe que conduz a auditoria vinculada à Entidade Fiscalizadora Superior (Tribunal de Contas); (2) **A Parte Responsável**: os indivíduos ou órgãos responsáveis pelo objeto da auditoria (gestores públicos executores); (3) **Os Usuários Previstos**: aqueles para quem o auditor prepara o relatório de auditoria (o Parlamento, órgãos reguladores e o público em geral/sociedade).
-> - **C)** Incorreta. Relação processual penal/civil, e não estrutura conceitual de auditoria pública.
-> - **D)** Incorreta. Partes de relação contratual de engenharia.
-> - **E)** Incorreta. Órgãos autônomos de fiscalização e persecução.
+> - **A)** **Incorreto**. A asseguração razoável nunca é absoluta devido às limitações inerentes à auditoria (uso de amostragem, limitações do controle interno e julgamento profissional).
+> - **B)** **Correto**. Conforme a NBASP 100, a asseguração razoável é de nível alto, embora não absoluto. A conclusão do auditor é expressa de forma positiva, transmitindo aos usuários confiança de que as informações estão substancialmente corretas e livres de distorção relevante.
+> - **C)** **Incorreto**. A obtenção de evidência suficiente e apropriada é indispensável em qualquer trabalho de asseguração razoável.
+> - **D)** **Incorreto**. A forma negativa de conclusão ("nada chegou ao conhecimento que indicasse...") é a característica da asseguração limitada.
+> - **E)** **Incorreto**. A asseguração razoável é o padrão típico das auditorias financeiras e de grande parte das auditorias de conformidade.
 >
 > **Gabarito: B**
-
----
-
-## 4. Postura e Conduta Profissional do Auditor (NBASP 100)
-
-1. **Ceticismo Profissional:** Atitude mental que inclui postura permanente de questionamento, alerta a condições que possam indicar possíveis distorções por erro ou fraude, e avaliação crítica da confiabilidade dos documentos apresentados pelo gestor.
-2. **Julgamento Profissional:** Aplicação do conhecimento técnico, treinamento prático e discernimento ético do auditor na interpretação das normas e ponderação das evidências colhidas.
-3. **Independência e Imparcialidade:** O auditor deve atuar isento de quaisquer pressões políticas, partidárias ou interesses particulares que possam comprometer seu relatório.
-4. **Devido Zelo e Sigilo:** Obrigação de aplicar as melhores práticas técnicas com cautela e resguardar confidencialidade sobre dados sob sigilo legal.
-
----
 
 ### Teste 183
-**(FCC - Adaptada / Técnico de Controle Externo)**
-Ao desempenhar suas atividades de fiscalização in loco em órgão público jurisdicionado, o auditor de controle externo mantém atitude constante de questionamento sobre a autenticidade e validade das evidências fornecidas pelos servidores locais, mantendo-se alerta para situações que possam indicar fraude ou erro deliberado na emissão de certidões.
+**(FCC – Técnico de Controle Externo / Simulado)**  
+De acordo com a NBASP 100, as auditorias do setor público envolvem três partes distintas (três sujeitos): o auditor, a parte responsável e os usuários previstos. A respeito da identificação dessas partes no controle externo, é correto afirmar:
 
-Essa postura profissional exigida pelas normas NBASP 100 denomina-se:
-
-* **A)** Julgamento Discricionário.
-* **B)** Ceticismo Profissional.
-* **C)** Imparcialidade Política.
-* **D)** Desconfiança Presuntiva Vinculada.
-* **E)** Reserva Mental Processual.
-
+* **A)** O Poder Executivo atua simultaneamente como auditor governamental e destinatário exclusivo dos relatórios de auditoria.
+* **B)** A parte responsável é a entidade ou gestor encarregado da gestão dos recursos e do objeto sob exame.
+* **C)** Os usuários previstos são exclusivamente os magistrados e promotores do Poder Judiciário e Ministério Público Estadual.
+* **D)** O auditor é o agente submetido à fiscalização contábil obrigado a prestar contas anuais aos órgãos do Poder Legislativo.
+* **E)** A sociedade civil e os cidadãos são expressamente excluídos da condição de usuários previstos nos trabalhos de controle.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta:** O julgamento profissional é a aplicação do saber técnico, não se confundindo com o conceito de mente questionadora.  
-> - **B) CORRETA:** Conforme a NBASP 100, o **Ceticismo Profissional** é a postura que inclui uma mente questionadora, o permanente estado de alerta para circunstâncias indicativas de fraude ou erro e a avaliação crítica de todas as evidências obtidas ao longo da auditoria.  
-> - **C) Incorreta:** Imparcialidade política refere-se à independência e neutralidade partidária do servidor.  
-> - **D) Incorreta:** O ceticismo profissional não se confunde com "desconfiança presuntiva", que é termo inexistente nas normas técnicas.  
-> - **E) Incorreta:** Conceito estranho à auditoria governamental.
-> 
+> - **A)** **Incorreto**. No controle externo, o auditor é o Tribunal de Contas (EFS) e sua equipe de fiscalização.
+> - **B)** **Correto**. Conforme o modelo da NBASP 100: a "parte responsável" é a autoridade ou entidade gestora encarregada da gestão da coisa pública ou da elaboração das informações auditadas; o "auditor" é o órgão de fiscalização independente; e os "usuários previstos" são o Poder Legislativo e a sociedade (cidadãos).
+> - **C)** **Incorreto**. Os principais usuários previstos são os órgãos legislativos e a própria coletividade cidadã.
+> - **D)** **Incorreto**. O responsável pelas contas é a parte responsável auditada, e não o auditor.
+> - **E)** **Incorreto**. A sociedade é titular de interesse direto nos resultados das auditorias governamentais públicas.
+>
 > **Gabarito: B**
-
----
 
 ### Teste 184
-**(FCC - Técnico de Controle Externo / TCE-GO)**
-De acordo com os princípios da NBASP 100 e do Código de Ética das Entidades Fiscalizadoras Superiores (NBASP 30), o auditor do Tribunal de Contas deve pautar sua conduta profissional pelo ceticismo profissional e pelo julgamento profissional.
+**(FCC – Técnico de Controle Externo / TCE-GO / Simulado)**  
+De acordo com os princípios da NBASP 30 (Código de Ética da INTOSAI) e os padrões profissionais da auditoria governamental, analise as condutas exigidas dos auditores no exercício do controle externo. É correto afirmar que:
 
-Sobre esses atributos, assinale a afirmativa correta.
-
-* **A)** O ceticismo profissional impõe que o auditor assuma previamente que todo gestor público é culpado por dolo de corrupção, cabendo ao auditado provar sua inocência moral.
-* **B)** O ceticismo profissional implica manter uma postura que inclui uma mente questionadora e alerta a condições que possam indicar possíveis distorções decorrentes de erro ou fraude, com avaliação crítica das evidências obtidas ao longo de todo o trabalho de auditoria.
-* **C)** O julgamento profissional autoriza o auditor a ignorar normas técnicas e determinar sanções com base em impressões subjetivas pessoais.
-* **D)** A independência do auditor é irrelevante quando a auditoria envolver órgãos de seu próprio círculo de amizade íntima.
-* **E)** O auditor do Tribunal de Contas fica desobrigado de manter sigilo profissional sobre informações reservadas obtidas durante os trabalhos de campo.
-
+* **A)** O auditor pode aceitar presentes ou favores pessoais da administração auditada se o valor for irrelevante perante o mercado.
+* **B)** A integridade, a independência, o sigilo profissional e a competência técnica constituem valores éticos obrigatórios.
+* **C)** O ceticismo profissional deve ser abandonado sempre que os gestores auditados comprovarem idoneidade moral pretérita.
+* **D)** É dever do auditor emitir juízos de valor em redes sociais sobre processos de auditoria antes da deliberação do Plenário.
+* **E)** O auditor está dispensado do dever de confidencialidade quando prestar consultoria particular remunerada a terceiros.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O ceticismo profissional não se confunde com presunção preconceituosa de má-fé ou perseguição pessoal; é postura técnica imparcial e prudente.
-> - **B)** Correta. A NBASP 100 define o **ceticismo profissional** como a atitude que inclui uma mente questionadora, alerta a condições que possam indicar distorções em decorrência de erro ou fraude, e uma avaliação crítica das evidências de auditoria. O auditor não presume que a administração seja desonesta nem assume sua honestidade inquestionável sem evidências corroborativas.
-> - **C)** Incorreta. O julgamento profissional é a aplicação de conhecimento e experiência técnica às circunstâncias concretas para tomar decisões fundamentadas nos limites das normas de auditoria.
-> - **D)** Incorreta. A independência e a imparcialidade são os pilares éticos máximos do auditor (NBASP 30); amizade íntima é causa expressa de suspeição/impedimento.
-> - **E)** Incorreta. O sigilo profissional e a confidencialidade são deveres funcionais indeclináveis.
+> - **A)** **Incorreto**. A NBASP 30 veda expressamente a aceitação de presentes, favores ou hospitalidades que possam comprometer, de fato ou na aparência, a independência e imparcialidade do auditor.
+> - **B)** **Correto**. A NBASP 30 / ISSAI 130 estrutura o Código de Ética em cinco pilares axiológicos essenciais: integridade, independência e objetividade, competência técnica, comportamento profissional e sigilo/confidencialidade.
+> - **C)** **Incorreto**. O ceticismo profissional é atitude permanente que mantém a mente aberta e questionadora ao avaliar criticamente a validade das evidências.
+> - **D)** **Incorreto**. A divulgação prematura ou manifestação em redes sociais sobre processos não julgados afronta o dever de discrição e sigilo.
+> - **E)** **Incorreto**. O dever de sigilo é indeclinável e a consultoria privada sobre áreas afins ao controle padece de vedação legal absoluta.
 >
 > **Gabarito: B**
-
----
-
-## 5. Matrizes Metodológicas de Trabalho: Planejamento e Achados
-
-A moderna auditoria governamental dos Tribunais de Contas opera com base em duas matrizes estruturantes:
-
-- **Matriz de Planejamento:** Elaborada na fase preliminar; define as questões de auditoria, as informações requeridas, as fontes de consulta, os procedimentos de coleta/análise e as limitações de escopo.
-- **Matriz de Achados:** Elaborada na fase de execução; estrutura a constatação do auditor dividida em:
-    - *Achado:* O fato relevante identificado;
-    - *Situação Encontrada:* O que realmente ocorreu na prática (evidência fática);
-    - *Critério:* O que deveria ter ocorrido (norma legal, índice técnico ou boa prática);
-    - *Causa:* O motivo raiz pelo qual a situação divergiu do critério;
-    - *Efeito / Impacto:* A consequência danosa ou risco gerado para a sociedade e o erário;
-    - *Proposta de Encaminhamento:* Determinação ou recomendação corretiva a ser submetida ao Plenário.
-
----
 
 ### Teste 185
-**(FCC - Adaptada / Analista de Gestão Pública)**
-Na metodologia de auditoria governamental aplicada pelos Tribunais de Contas, a ferramenta estruturada que consolida as conclusões do auditor mediante a descrição do fato relevante apurado, o confronto entre a situação encontrada e o critério normativo, a identificação da causa, o apontamento dos efeitos gerados e a formulação da proposta de encaminhamento é denominada:
+**(FCC – Analista de Gestão Pública / Simulado)**  
+Na auditoria financeira governamental regida pela NBASP 200, a responsabilidade do auditor ao emitir o seu relatório culmina na formulação de uma opinião técnica fundamentada sobre as demonstrações contábeis. A respeito dos tipos de opinião modificada, é correto afirmar que:
 
-* **A)** Matriz de Riscos Pré-Contratual.
-* **B)** Matriz de Planejamento de Amostragem.
-* **C)** Matriz de Achados.
-* **D)** Termo Circunstanciado de Ocorrência.
-* **E)** Nota de Empenho Ordinário.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A) Incorreta:** A matriz de riscos é instrumento contratual da Lei 14.133/2021 para alocação de encargos entre as partes.  
-> - **B) Incorreta:** A matriz de planejamento é elaborada antes da execução e contém questões de auditoria e métodos de coleta.  
-> - **C) CORRETA:** A **Matriz de Achados** é a ferramenta consagrada que estrutura cada achado de auditoria a partir de seus elementos essenciais: situação encontrada, critério legal/técnico, causa primária, efeitos/consequências e a respectiva proposta de deliberação ao colegiado.  
-> - **D) Incorreta:** O TCO é instrumento do direito processual penal (Lei 9.099/1995).  
-> - **E) Incorreta:** A nota de empenho é o estágio inicial da despesa orçamentária (Lei 4.320/1964).
-> 
-> **Gabarito: C**
-
----
-
-### Teste 186
-**(FGV - Analista Jurídico de Controle Externo / TCE-GO)**
-A Declaração de Lima, adotada no IX Congresso da Organização Internacional das Entidades Fiscalizadoras Superiores (INTOSAI) em 1977, é reconhecida mundialmente como a 'Carta Magna da Auditoria Governamental'.
-
-A respeito dos postulados consagrados pela Declaração de Lima, assinale a afirmativa correta.
-
-* **A)** As Entidades Fiscalizadoras Superiores (Tribunais de Contas) devem ser subordinadas hierarquicamente ao Ministério da Fazenda para assegurar o equilíbrio fiscal.
-* **B)** A independência das Entidades Fiscalizadoras Superiores e de seus membros em relação às instituições auditadas, garantida pela Constituição e pelas leis, constitui condição indispensável para a credibilidade e a eficácia do controle externo das finanças públicas.
-* **C)** O controle financeiro externo deve ser exclusivamente a posteriori, sendo vedado qualquer exame prévio ou concomitante de operações públicas.
-* **D)** A fiscalização do uso dos recursos públicos deve ser sigilosa e inacessível aos cidadãos, para não constranger os gestores governamentais.
-* **E)** As decisões dos órgãos de controle externo submetem-se à homologação prévia da chefia do Poder Executivo.
-
+* **A)** A opinião sem ressalva é expressa quando o auditor identifica distorções relevantes e generalizadas nas contas públicas.
+* **B)** A abstenção de opinião ocorre quando há falta de evidência apropriada com efeitos relevantes e generalizados.
+* **C)** A opinião adversa é emitida quando a limitação de escopo impede a formação de qualquer conclusão técnica pelos auditores.
+* **D)** A opinião com ressalva é vedada na administração pública estadual em razão do princípio da unidade de tesouraria do Estado.
+* **E)** O relatório com opinião modificada é automaticamente descartado sem envio à Assembleia Legislativa estadual competente.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A Declaração de Lima veda veementemente a subordinação das Cortes de Contas a qualquer órgão do Poder Executivo.
-> - **B)** Correta. A Declaração de Lima estatui no seu artigo 1º que o controle das finanças públicas é indispensável e que *"as Entidades Fiscalizadoras Superiores só poderão desempenhar suas funções com eficácia se forem **independentes da instituição auditada e protegidas contra influências externas**"*. Essa independência deve estar expressamente ancorada na Constituição e nas leis, abrangendo independência funcional, orgânica e financeira.
-> - **C)** Incorreta. A Declaração de Lima reconhece a coexistência e legitimidade do controle prévio, concomitante e a posteriori.
-> - **D)** Incorreta. A prestação de contas pública e a transparência perante a sociedade são preceitos centrais da Declaração.
-> - **E)** Incorreta. O controle externo não depende de chancela ou homologação do Executivo.
+> - **A)** **Incorreto**. Diante de distorções relevantes e generalizadas, a opinião técnica é "adversa", e não sem ressalva.
+> - **B)** **Correto**. Conforme a NBASP 200 / NBC TA 705: o auditor deve emitir uma "abstenção de opinião" (ou declinar de opinar) quando, devido a graves limitações de escopo impostas pela administração auditada, ele não consegue obter evidência de auditoria suficiente e apropriada para fundamentar sua opinião, e concluir que os possíveis efeitos de distorções não detectadas sobre as demonstrações contábeis podem ser tanto relevantes quanto generalizados.
+> - **C)** **Incorreto**. A limitação de escopo com efeitos generalizados conduz à abstenção de opinião; a opinião adversa exige a certeza de que as distorções existem e são relevantes e generalizadas.
+> - **D)** **Incorreto**. A opinião com ressalva é plenamente cabível quando há distorções relevantes, mas não generalizadas.
+> - **E)** **Incorreto**. Os relatórios de auditoria com pareceres modificados são as principais peças técnicas apreciadas pelo Legislativo.
 >
 > **Gabarito: B**
 
+### Teste 186
+**(FGV – Analista Jurídico de Controle Externo / TCE-GO / Simulado)**  
+A Declaração de Lima consagra preceitos vitais para assegurar a autonomia financeira das Entidades Fiscalizadoras Superiores (Seção 7). De acordo com esse tratado internacional e sua recepção na ordem jurídica brasileira, é correto afirmar:
+
+* **A)** As Cortes de Contas devem ser dotadas de recursos financeiros próprios que lhes permitam cumprir integralmente suas tarefas.
+* **B)** O Poder Executivo detém prerrogativa discricionária de contingenciar os repasses duodecimais do Tribunal de Contas a qualquer tempo.
+* **C)** A dotação orçamentária do Tribunal de Contas deve ser aprovada diretamente em sessão plenária sem envio prévio ao Legislativo.
+* **D)** A contratação de bens e serviços pelo Tribunal de Contas subordina-se à autorização prévia da Secretaria da Fazenda Estadual.
+* **E)** As Cortes de Contas estão isentas de submeter suas despesas administrativas à prestação de contas perante o Poder Legislativo.
+
 ---
 
-## 🌐 Fontes Oficiais & Normativas Recomendadas
+> **Comentário Detalhado:**
+>
+> - **A)** **Correto**. A Seção 7 da Declaração de Lima dispõe que as EFS devem dispor dos meios financeiros necessários ao cumprimento de suas funções constitucionais, devendo requerer os recursos diretamente ao órgão com competência orçamentária (o Poder Legislativo). Na ordem brasileira, o art. 168 da CF/88 consagra os duodécimos orçamentários obrigatórios repassados até o dia 20 de cada mês.
+> - **B)** **Incorreto**. O art. 168 da CF/88 veda a retenção ou o contingenciamento arbitrário dos repasses orçamentários devidos aos Tribunais de Contas pelo Executivo.
+> - **C)** **Incorreto**. O Tribunal propõe sua dotação na lei orçamentária, que é apreciada e votada pelo Poder Legislativo.
+> - **D)** **Incorreto**. A contratação interna é autônoma, vedada a tutela hierárquica por secretarias de Fazenda.
+> - **E)** **Incorreto**. As contas de gestão do Tribunal de Contas são fiscalizadas anualmente pela Assembleia Legislativa.
+>
+> **Gabarito: A**
 
-* [TCU - Normas de Auditoria Governamental (NAT)](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Referencial técnico do TCU contendo diretrizes sobre planejamento e execução de auditorias públicas.
-* [Lei Estadual nº 16.168/2007 (Instrumentos de Fiscalização do TCE-GO)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/86708/lei-16168) - Instrumentos formais de controle: auditorias, inspeções, acompanhamentos, monitoramentos e levantamentos.
-* [TCE-GO - Resolução nº 22/2008 (Regimento Interno no GNOI)](https://gnoi.tce.go.gov.br/atoNormativo/Publicado?id=9544) - Disciplina a atuação técnica das secretarias de controle externo e os procedimentos de auditoria.
-* [TCE-GO - Resultados e Relatórios de Fiscalização](https://portal.tce.go.gov.br/resultados-de-auditoria) - Publicações oficiais dos relatórios conclusivos de auditorias de conformidade e operacionais.
-* [Constituição Federal de 1988 - Art. 71 (Atribuições de Controle do TC)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art71) - Dispositivo constitucional matriz que define o rol de atribuições fiscalizatórias das Cortes de Contas.
-* CHAVES, Francisco Eduardo Carrilho. **Controle Externo da Gestão Pública**. 3. ed. Niterói: Impetus, 2016. (Cap. 4 - Instrumentos de Fiscalização e Tipos de Auditoria Governamental).
-* INSTITUTO RUI BARBOSA (IRB). **Normas Brasileiras de Auditoria do Setor Público (NBASP/ISSAI)**. Belo Horizonte: Fórum, 2020. (NBASP 100 - Princípios Fundamentais de Auditoria do Setor Público; NBASP 300 - Auditoria Operacional).
-* CASTRO, Domingos Poubel de. **Auditoria e Controle Interno na Administração Pública**. 3. ed. São Paulo: Atlas, 2019. (Cap. 3 a 5 - Auditoria de Conformidade e Operacional).

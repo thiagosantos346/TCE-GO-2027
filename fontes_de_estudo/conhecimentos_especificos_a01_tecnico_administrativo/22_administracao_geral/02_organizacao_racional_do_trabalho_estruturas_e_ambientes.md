@@ -97,7 +97,7 @@ flowchart TD
 A respeito da Organização Racional do Trabalho (ORT) desenvolvida por Frederick Winslow Taylor e das características da abordagem clássica da administração, assinale a assertiva correta:
 
 * **A)** A ORT propunha que os operários determinassem livremente seus próprios métodos operacionais de trabalho, eliminando qualquer forma de padronização industrial.
-* **B)** A teoria partia da premissa do *Homo Socialis*, sustentando que os operários trabalhavam motivados preponderantemente pelo bem-estar afetivo e harmonia do grupo informal.
+* **B)** A teoria partia da premissa do *Homo Socialis*, sustentando que os operários trabalhavam motivados preponderantemente pelo bem-estar afetivo e harmonia do grupo informal no âmbito da administração pública direta e indireta.
 * **C)** O estudo dos tempos e movimentos objetivava decompor as tarefas fabris em operações elementares para eliminar movimentos desnecessários e determinar o tempo-padrão de execução.
 * **D)** Taylor defendia a preservação estrita do capataz geral de fábrica com comando único, condenando a divisão da supervisão em funções especializadas.
 * **E)** A fadiga humana era ignorada pela ORT por ser considerada um fenômeno psicológico irrelevante para a produtividade fabril.
@@ -126,7 +126,7 @@ Dentre os pilares da ORT, o **Estudo dos Tempos e Movimentos** (*Motion and Time
 * **A)** Decompor cada tarefa fabril em seus movimentos elementares para eliminar movimentos inúteis, simplificar a execução e fixar o tempo-padrão de realização.
 * **B)** Fixar os prazos de tramitação de processos administrativos no âmbito dos Tribunais de Contas.
 * **C)** Estabelecer o horário fixo de entrada e saída dos servidores com tolerância de dez minutos.
-* **D)** Organizar os intervalos de repouso conforme a vontade individual espontânea de cada trabalhador.
+* **D)** Organizar os intervalos de repouso conforme a vontade individual espontânea de cada trabalhador em estrita conformidade com as normas legais e regulamentares aplicáveis.
 * **E)** Subordinar a chefia de fábrica à avaliação semestral de clima organizacional pelos empregados.
 
 
@@ -177,7 +177,7 @@ flowchart LR
 **(FCC – TCE-RS – Auditor de Controle Externo)**  
 Determinada unidade de fiscalização governamental realizou uma auditoria utilizando técnicas modernas de amostragem eletrônica, reduzindo o custo operacional em 40% e concluindo os trabalhos na metade do tempo médio histórico previsto. Não obstante a velocidade e economia de recursos empregados, o relatório final omitiu as irregularidades materiais mais graves que assolavam o órgão auditado, inviabilizando a responsabilização dos gestores ímprobos. Sob a ótica das teorias da administração:
 
-* **A)** O trabalho da equipe foi altamente eficiente e eficaz, visto que atendeu aos parâmetros de produtividade estipulados pela chefia.
+* **A)** O trabalho da equipe foi altamente eficiente e eficaz, visto que atendeu aos parâmetros de produtividade estipulados pela chefia no âmbito da administração pública direta e indireta.
 * **B)** A unidade atuou com eficiência no uso dos recursos e métodos, contudo foi ineficaz no tocante ao alcance do objetivo finalístico primordial da fiscalização.
 * **C)** A equipe demonstrou alta eficácia operacional aliada à total ineficiência metodológica.
 * **D)** A omissão decorreu exclusivamente da atuação autônoma da organização informal da equipe técnica.
@@ -226,7 +226,7 @@ flowchart TD
 **(FCC – ARTESP – Especialista em Regulação de Transportes)**  
 A respeito da organização formal e da organização informal no cotidiano das instituições públicas, assinale a opção correta:
 
-* **A)** A organização informal deve ser formalmente dissolvida pelos gestores por meio de sanções disciplinares, pois é incompatível com o princípio constitucional da eficiência.
+* **A)** A organização informal deve ser formalmente dissolvida pelos gestores por meio de sanções disciplinares, pois é incompatível com o princípio constitucional da eficiência no âmbito da administração pública direta e indireta.
 * **B)** A organização formal é aquela planejada pela cúpula e oficializada em atos normativos, enquanto a organização informal decorre da rede espontânea de interações sociais e afetivas entre os colaboradores.
 * **C)** A liderança informal coincide compulsoriamente com a autoridade formal atribuída aos servidores nomeados para cargos de direção e chefia.
 * **D)** Os canais informais de comunicação (rádio-peão) transmitem informações de forma mais lenta e burocrática do que os canais hierárquicos regimentais.
@@ -255,7 +255,7 @@ Constitui característica exclusiva da **Organização Informal**:
 
 * **A)** O surgimento espontâneo a partir das interações sociais, simpatias, antipatias e afinidades interpessoais entre os servidores, não figurando nos organogramas e manuais oficiais.
 * **B)** A formalização expressa em decretos de criação e estatutos jurídicos aprovados pelo Poder Legislativo.
-* **C)** A definição prévia de níveis hierárquicos e competências funcionais taxativamente atribuídas por portaria.
+* **C)** A definição prévia de níveis hierárquicos e competências funcionais taxativamente atribuídas por portaria em estrita conformidade com as normas legais e regulamentares aplicáveis.
 * **D)** A obrigatoriedade de registro dos fluxos de comunicação em livros de ata públicos.
 * **E)** A estabilidade jurídica vitalícia conferida por concurso público formal.
 
@@ -332,7 +332,7 @@ Na teoria da administração, a delegação de autoridade é instrumento indispe
 A respeito da delegação de autoridade, é uma regra fundamental da ciência da administração que:
 
 * **A)** A autoridade pode ser delegada, mas a responsabilidade final pelo resultado alcançado permanece indelegável perante a autoridade superior que realizou a delegação.
-* **B)** Tanto a autoridade quanto a responsabilidade integral são transferidas definitivamente ao subordinado, eximindo o superior de qualquer dever de supervisão.
+* **B)** Tanto a autoridade quanto a responsabilidade integral são transferidas definitivamente ao subordinado, eximindo o superior de qualquer dever de supervisão no âmbito da administração pública direta e indireta.
 * **C)** É obrigatória a delegação de atos normativos de caráter geral e a decisão de recursos administrativos ordinários.
 * **D)** A delegação só é lícita quando envolver poderes irrevogáveis com prazo mínimo de dez anos.
 * **E)** O subordinado que recebe autoridade delegada passa a responder diretamente ao Chefe do Poder Executivo.
@@ -425,7 +425,7 @@ Constitui elemento integrante do **Ambiente de Tarefa (Microambiente)** de uma o
 * **A)** Os fornecedores de bens e serviços licitados, os cidadãos-usuários diretos dos serviços e os órgãos de controle externo fiscalizadores.
 * **B)** As variáveis demográficas de longo prazo da população nacional.
 * **C)** A conjuntura macroeconômica global e a taxa de câmbio internacional.
-* **D)** O sistema jurídico-constitucional abstrato do país e as tendências climáticas planetárias.
+* **D)** O sistema jurídico-constitucional abstrato do país e as tendências climáticas planetárias no âmbito da administração pública direta e indireta.
 * **E)** O conjunto de inovações científicas mundiais em física quântica.
 
 
@@ -447,7 +447,7 @@ Em uma organização pública que busca aprimorar sua gestão, o diretor de depa
 A ênfase conferida pelo diretor concentrou-se primordialmente na dimensão da:
 
 * **A)** Eficiência (otimização do uso de insumos e recursos em relação aos produtos entregues / relação insumo-produto).
-* **B)** Efetividade (grau de transformação e impacto social na comunidade de longo prazo).
+* **B)** Efetividade (grau de transformação e impacto social na comunidade de longo prazo) no âmbito da administração pública direta e indireta.
 * **C)** Eficácia pura (medida estrita do atingimento da meta final de atendimento).
 * **D)** Descentralização operacional desverticalizada.
 * **E)** Resiliência cibernética sistêmica.

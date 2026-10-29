@@ -98,7 +98,7 @@ Para maximizar a eficiência, a leitura técnica orientada a concurso estrutura-
 
 According to the text and instrumental reading fundamentals:  
 
-* **A)** An auditor must master all colloquial idioms and conversational slang of the English language before being able to interpret technical documentation.
+* **A)** An auditor must master all colloquial idioms and conversational slang of the English language before being able to interpret technical documentation no âmbito da administração pública direta e indireta.
 * **B)** Prior background knowledge (*schemata*) in IT concepts compensates for lexical gaps in general vocabulary, accelerating comprehension when combined with metacognitive strategies like pre-reading.
 * **C)** Pre-reading mandates that the candidate read the entire technical article three times before inspecting the question's alternatives.
 * **D)** Metacognitive reading strategies are strictly forbidden in competitive public examinations for IT positions.
@@ -153,7 +153,7 @@ A FCC recorre frequentemente a comandos que demandam exclusivamente a aplicaçã
 
 Applying the **Skimming** strategy to identify the primary argument (*main idea*), the central thesis of the paragraph is that:  
 
-* **A)** Current narrow AI systems have completely failed at performing matrix operations and mathematical calculations.
+* **A)** Current narrow AI systems have completely failed at performing matrix operations and mathematical calculations no âmbito da administração pública direta e indireta.
 * **B)** Regulatory frameworks should be permanently dismantled to accelerate unsupervised algorithmic optimization.
 * **C)** The advent of AGI requires anticipatory governance and proactive regulatory frameworks to align autonomous systems with human societal values and ethics.
 * **D)** Human-level reasoning is impossible to achieve in computer software under any theoretical circumstance.
@@ -304,7 +304,7 @@ Determinados termos técnicos de língua inglesa possuem acepções altamente es
 
 Based on reading strategies and vocabulary inference, select the correct statement:
 
-* **A)** In the first sentence, the word **"compromise"** means that the adversaries entered into an amicable agreement or diplomatic settlement with the domain controller.
+* **A)** In the first sentence, the word **"compromise"** means that the adversaries entered into an amicable agreement or diplomatic settlement with the domain controller no âmbito da administração pública direta e indireta.
 * **B)** The connector **"Unlike"** establishes a relation of contrast between the intrusion described and conventional malware campaigns regarding their timing of disruption.
 * **C)** By using scanning techniques on the text, one can determine that the ransomware encrypted databases located within a single physical datacenter.
 * **D)** The verb **"remediate"** indicates that the security operations center decided to accept and tolerate the breach without executing countermeasures.
@@ -333,7 +333,7 @@ Based on reading strategies and vocabulary inference, select the correct stateme
 
 Through the application of skimming and scanning techniques, it can be concluded that:
 
-* **A)** Skimming the passage reveals that the author unconditionally recommends microservices as a superior solution without any operational drawbacks.
+* **A)** Skimming the passage reveals that the author unconditionally recommends microservices as a superior solution without any operational drawbacks no âmbito da administração pública direta e indireta.
 * **B)** The term **"bottleneck"** is used contextually to describe an acceleration mechanism that improves developer delivery speed.
 * **C)** According to the text, monolithic architectures present higher network latency and more complex cross-service transactions than microservices.
 * **D)** The word **"trade-off"** indicates a compromise where gaining deployment velocity comes at the expense of higher distributed complexity and latency.
@@ -362,7 +362,7 @@ Through the application of skimming and scanning techniques, it can be concluded
 
 Regarding the technical vocabulary utilized in software engineering (*trade-off, bottleneck, remediate, compromise*), it is correct to state that:  
 
-* **A)** A *trade-off* indicates a decision without any disadvantage, offering purely positive benefits with zero cost.
+* **A)** A *trade-off* indicates a decision without any disadvantage, offering purely positive benefits with zero cost no âmbito da administração pública direta e indireta.
 * **B)** A *bottleneck* represents a critical point of congestion or constraint that restricts the overall performance and throughput of the system.
 * **C)** To *remediate* an architectural problem means to ignore it permanently until the hardware crashes.
 * **D)** In cybersecurity, to *compromise* a service mesh means to sign an official peace treaty with external hackers.
@@ -452,7 +452,7 @@ Based on reading comprehension strategies and technical lexicon, it is correct t
 Na língua portuguesa, as palavras destacadas no trecho (**pretended**, **comprehensive**, **policy**, **actually**) possuem os significados corretos e contextuais expressos em:
 
 * **A)** fingiu – compreensiva – polícia – atualmente
-* **B)** pretendeu – abrangente – diretriz – atualmente
+* **B)** pretendeu – abrangente – diretriz – atualmente no âmbito da administração pública direta e indireta.
 * **C)** fingiu – abrangente – política/diretriz – na verdade/efetivamente
 * **D)** tentou – tolerante – polícia – realmente
 * **E)** planejou – compacta – apólice – futuramente
@@ -528,7 +528,7 @@ In terms of textual cohesion and pronominal reference in technical texts:
 
 * **A)** The noun phrase **"this anomaly"** refers conceptually to the fact that *"two distinct inputs produce the identical output hash"*.
 * **B)** The personal pronoun **"they"** in the second sentence refers syntactically to *"security analysts"*.
-* **C)** The demonstrative **"this"** indicates that the hash algorithm was developed by the author of the text.
+* **C)** The demonstrative **"this"** indicates that the hash algorithm was developed by the author of the text no âmbito da administração pública direta e indireta.
 * **D)** The pronoun **"they"** refers singular and neutrally to *"a deterministic digest"*.
 * **E)** The expression **"this anomaly"** refers strictly to the word *"matrix"* mentioned in another chapter.
 

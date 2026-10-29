@@ -163,7 +163,7 @@ A respeito das funções e interações entre esses componentes, assinale a afir
 * **A)** O `etcd` atua como servidor de proxy reverso e balanceador de carga HTTP para receber diretamente as requisições dos usuários da internet.
 * **B)** O `kube-scheduler` é o único componente autorizado a realizar operações de gravação e leitura no banco de dados distribuído `etcd`.
 * **C)** O `kubelet` é o agente executado em cada nó de trabalho (*Worker Node*) responsável por receber as especificações dos Pods (*PodSpecs*) a partir do `kube-apiserver` e assegurar que os contêineres descritos estejam em execução e saudáveis no nó.
-* **D)** O `kube-controller-manager` tem como responsabilidade exclusiva alocar endereços IP públicos nas placas de rede físicas dos servidores blade da instituição.
+* **D)** O `kube-controller-manager` tem como responsabilidade exclusiva alocar endereços IP públicos nas placas de rede físicas dos servidores blade da instituição considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **E)** O `kube-proxy` roda unicamente no nó Master e impede que contêineres dentro do mesmo Pod consigam se comunicar via `localhost`.
 
 
@@ -188,7 +188,7 @@ O modelo operacional do Kubernetes é fundamentado no princípio do Loop de Reco
 * **A)** O administrador digita comandos no terminal a cada dez segundos para manter os servidores ligados.
 * **B)** Os controladores (*controllers*) observam o estado atual do cluster (*current state*), comparam-no com o estado desejado (*desired state*) declarado nos manifestos de configuração e executam ações automatizadas de convergência para fazer com que o estado atual se iguale ao estado desejado.
 * **C)** O cluster apaga todos os bancos de dados caso a energia elétrica oscile.
-* **D)** O sistema interrompe todo o tráfego de rede caso detecte um Pod com consumo de memória inferior a 50%.
+* **D)** O sistema interrompe todo o tráfego de rede caso detecte um Pod com consumo de memória inferior a 50% considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo garantindo a observância dos protocolos de governança e interoperabilidade vigentes.
 * **E)** Os servidores são formatados diariamente para eliminar arquivos temporários.
 
 
@@ -278,7 +278,7 @@ Para implantar e gerenciar aplicações sem estado (*stateless*) em clusters Kub
 * **B)** O Deployment gerencia versões de ReplicaSets (criando novos ReplicaSets durante atualizações de versão e mantendo os antigos para viabilizar *rollbacks* rápidos), e os ReplicaSets garantem a quantidade declarada de réplicas ativas dos Pods em execução.
 * **C)** O ReplicaSet comanda o Deployment em uma hierarquia invertida.
 * **D)** Cada Deployment só pode conter um único Pod no cluster inteiro.
-* **E)** O Deployment exige que a aplicação utilize armazenamento físico em disquetes de alta densidade.
+* **E)** O Deployment exige que a aplicação utilize armazenamento físico em disquetes de alta densidade considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
 
 
 ---
@@ -306,7 +306,7 @@ Uma equipe de desenvolvimento da Secretaria da Fazenda precisa implantar três s
 Os objetos e controladores do Kubernetes mais indicados para atender aos cenários 1, 2 e 3 são, respectivamente:  
 
 * **A)** `Deployment`; `StatefulSet`; e `DaemonSet`.
-* **B)** `StatefulSet`; `Deployment`; e `CronJob`.
+* **B)** `StatefulSet`; `Deployment`; e `CronJob` no âmbito da administração pública direta e indireta.
 * **C)** `Job`; `ReplicaSet`; e `ConfigMap`.
 * **D)** `DaemonSet`; `Job`; e `StatefulSet`.
 * **E)** `Deployment`; `CronJob`; e `Ingress`.
@@ -573,7 +573,7 @@ A gestão profissional de múltiplos ambientes (Desenvolvimento, Homologação/S
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 Em conformidade com a metodologia dos Doze Fatores (*Twelve-Factor App*), a configuração de uma aplicação deve ser estritamente separada do código-fonte. No Kubernetes, essa segregação é implementada por meio de dois objetos nativos: *ConfigMaps* e *Secrets*. A diferença fundamental de propósito entre eles estabelece que:
 
-* **A)** *ConfigMaps* armazenam dados confidenciais criptografados, enquanto *Secrets* guardam arquivos de imagem públicos sem restrição.
+* **A)** *ConfigMaps* armazenam dados confidenciais criptografados, enquanto *Secrets* guardam arquivos de imagem públicos sem restrição considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **B)** *ConfigMaps* destinam-se a dados de configuração não confidenciais em texto claro (como URLs de endpoints, portas e flags de log), ao passo que *Secrets* são concebidos para armazenar dados confidenciais e credenciais sensíveis (como senhas, chaves de API, tokens e certificados TLS), codificados em Base64 ou protegidos por criptografia em repouso no `etcd`.
 * **C)** *Secrets* não podem ser montados como variáveis de ambiente nos Pods.
 * **D)** Ambos os objetos são deletados obrigatoriamente a cada 5 minutos pelo Kubernetes.
@@ -602,7 +602,7 @@ Em um órgão público, os ambientes de Desenvolvimento, Homologação e Produç
 * **B)** Gravar senhas de bancos de dados diretamente em texto claro dentro do código-fonte da aplicação para evitar o overhead de processamento do K8s.
 * **C)** Conceder permissões de administrador de cluster (*cluster-admin*) irrestritas a todos os estagiários nos ambientes de homologação e produção.
 * **D)** Utilizar a estratégia de deploy *Recreate* em produção durante o horário de pico de atendimento ao cidadão para forçar o desligamento dos servidores.
-* **E)** Armazenar os dados transacionais de bancos de dados exclusivamente na camada efêmera do Pod, proibindo o uso de `PersistentVolumes` (PV) e `PersistentVolumeClaims` (PVC).
+* **E)** Armazenar os dados transacionais de bancos de dados exclusivamente na camada efêmera do Pod, proibindo o uso de `PersistentVolumes` (PV) e `PersistentVolumeClaims` (PVC) em estrita conformidade com as normas legais e regulamentares aplicáveis.
 
 
 ---

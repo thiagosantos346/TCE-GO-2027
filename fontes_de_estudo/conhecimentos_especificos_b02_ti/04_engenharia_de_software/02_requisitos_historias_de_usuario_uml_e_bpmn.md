@@ -211,7 +211,7 @@ $$\text{"Como [papel de usuário], eu quero [funcionalidade/ação], para que [b
 **(FCC – TCE-GO – Analista de Controle Externo / TI)**  
 Em um diagrama de casos de uso da UML (versão 2.5), os relacionamentos entre casos de uso podem ser representados por estereótipos como «include» e «extend». A respeito desses relacionamentos, é correto afirmar que:
 
-* **A)** O relacionamento «extend» representa uma inclusão incondicional e obrigatória de comportamento em todos os fluxos de execução do caso de uso base.
+* **A)** O relacionamento «extend» representa uma inclusão incondicional e obrigatória de comportamento em todos os fluxos de execução do caso de uso base considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **B)** O relacionamento «include» indica que a execução do caso de uso incluído é obrigatória para que o caso de uso base seja completado com sucesso, enquanto o relacionamento «extend» representa um comportamento opcional ou condicional que é disparado a partir de um ponto de extensão.
 * **C)** As setas tracejadas de ambos os relacionamentos apontam sempre do caso de uso estendido/incluído em direção ao ator primário.
 * **D)** O relacionamento «include» só pode ocorrer entre atores do sistema, não entre casos de uso.
@@ -236,7 +236,7 @@ Em um diagrama de casos de uso da UML (versão 2.5), os relacionamentos entre ca
 **(FCC – DPE – Analista de Sistemas)**  
 No contexto do desenvolvimento ágil, Ron Jeffries sintetizou os componentes essenciais de uma História de Usuário (*User Story*) por meio da abordagem dos "Três Cs": *Card*, *Conversation* e *Confirmation*. O papel correspondente ao "Confirmation" estabelece que:
 
-* **A)** o gerente de projetos deve assinar formalmente uma ordem de serviço em cartório antes do início do Sprint.
+* **A)** o gerente de projetos deve assinar formalmente uma ordem de serviço em cartório antes do início do Sprint no âmbito da administração pública direta e indireta no âmbito da administração pública direta e indireta.
 * **B)** a História de Usuário deve conter critérios de aceite explícitos e verificáveis que permitam ao Product Owner e ao time comprovar que a funcionalidade foi entregue conforme o esperado.
 * **C)** deve ser realizada uma reunião de confirmação diária de 2 horas entre todos os diretores da organização.
 * **D)** a história deve ser impressa em três cartões coloridos fixados no quadro Kanban.
@@ -261,7 +261,7 @@ No contexto do desenvolvimento ágil, Ron Jeffries sintetizou os componentes ess
 **(FCC – SEFAZ – Auditor Fiscal da Receita Estadual)**  
 Ao redigir Histórias de Usuário (*User Stories*) em projetos orientados por metodologias ágeis, os analistas empregam o acrônimo INVEST para avaliar a qualidade técnica das histórias escritas. A letra "N" do referido acrônimo estabelece que a história deve ser:
 
-* **A)** Notável (*Notable*), ou seja, deve figurar obrigatoriamente entre as três principais prioridades estratégicas da diretoria da organização.
+* **A)** Notável (*Notable*), ou seja, deve figurar obrigatoriamente entre as três principais prioridades estratégicas da diretoria da organização no âmbito da administração pública direta e indireta.
 * **B)** Negociável (*Negotiable*), demonstrando que a história não representa um contrato rígido ou imutável, devendo deixar espaço para debate e refinamento entre o cliente e os desenvolvedores.
 * **C)** Normalizada (*Normalized*), seguindo rigorosamente a terceira forma normal de banco de dados relacional.
 * **D)** Nominal (*Nominal*), contendo a assinatura formal em cartório do patrocinador do projeto antes do início de cada Sprint.
@@ -354,7 +354,7 @@ classDiagram
 A linguagem UML (Unified Modeling Language, versão 2.5) define 14 diagramas oficiais divididos em duas grandes categorias: Diagramas Estruturais e Diagramas Comportamentais (com o subgrupo de Interação). Dentre os diagramas listados a seguir, pertencem exclusivamente à categoria dos **Diagramas Estruturais**:
 
 * **A)** Diagrama de Classes, Diagrama de Sequência e Diagrama de Atividades.
-* **B)** Diagrama de Casos de Uso, Diagrama de Máquina de Estados e Diagrama de Comunicação.
+* **B)** Diagrama de Casos de Uso, Diagrama de Máquina de Estados e Diagrama de Comunicação no âmbito da administração pública direta e indireta.
 * **C)** Diagrama de Classes, Diagrama de Componentes e Diagrama de Implantação (*Deployment Diagram*).
 * **D)** Diagrama de Objetos, Diagrama de Atividades e Diagrama de Pacotes.
 * **E)** Diagrama de Sequência, Diagrama de Interação Geral e Diagrama de Tempo.
@@ -382,7 +382,7 @@ No Diagrama de Classes da UML 2.5, os relacionamentos de associação podem assu
 * **B)** A Agregação é visualmente representada por um losango preenchido em preto conectado ao objeto da "Parte".
 * **C)** Na Composição, as "Partes" podem pertencer simultaneamente a múltiplos objetos "Todo" em tempo de execução.
 * **D)** A Agregação representa um acoplamento mais forte e rígido do que a Composição, exigindo obrigatoriamente multiplicidade de 1..1.
-* **E)** Na UML, a generalização entre classes concretas substitui integralmente a necessidade de composição quando se deseja implementar herança múltipla.
+* **E)** Na UML, a generalização entre classes concretas substitui integralmente a necessidade de composição quando se deseja implementar herança múltipla em estrita conformidade com as normas legais e regulamentares aplicáveis.
 
 
 ---
@@ -403,7 +403,7 @@ No Diagrama de Classes da UML 2.5, os relacionamentos de associação podem assu
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 No Diagrama de Sequência da UML 2.5, utilizado para modelar a dinâmica de interação temporal entre objetos, a notação gráfica para representar uma mensagem assíncrona (na qual o remetente envia o estímulo e prossegue imediatamente com seu processamento sem aguardar a conclusão do receptor) é:
 
-* **A)** Uma linha contínua com uma seta preenchida sólida ($lacktriangleright$).
+* **A)** Uma linha contínua com uma seta preenchida sólida ($lacktriangleright$) no âmbito da administração pública direta e indireta.
 * **B)** Uma linha contínua terminada por uma seta aberta em forma de ponta de flecha ($
 ightarrow$).
 * **C)** Uma linha tracejada terminada por um círculo preenchido.
@@ -526,7 +526,7 @@ Na modelagem de processos de negócio com a notação BPMN 2.0, um analista prec
 **(FCC – TCE – Auditor de Controle Externo / TI)**  
 No que diz respeito à notação BPMN 2.0 e suas regras formais de modelagem de processos corporativos, assinale a afirmativa correta:
 
-* **A)** Um Fluxo de Sequência (*Sequence Flow*) pode conectar diretamente uma atividade contida em uma Piscina (*Pool*) a uma atividade contida em outra Piscina distinta.
+* **A)** Um Fluxo de Sequência (*Sequence Flow*) pode conectar diretamente uma atividade contida em uma Piscina (*Pool*) a uma atividade contida em outra Piscina distinta no âmbito da administração pública direta e indireta.
 * **B)** Uma Piscina (*Pool*) representa uma organização ou participante independente no processo, enquanto as Raias (*Lanes*) são subdivisões internas usadas para separar funções ou departamentos daquela organização.
 * **C)** Mensagens trocadas entre diferentes participantes de um processo devem ser modeladas obrigatoriamente utilizando linhas sólidas com setas preenchidas.
 * **D)** Um evento de início do tipo Temporizador só pode ser posicionado dentro de um subprocesso de eventos com gatilho de erro fatal.

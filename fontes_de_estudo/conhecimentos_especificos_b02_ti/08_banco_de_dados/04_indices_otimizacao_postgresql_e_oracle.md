@@ -135,7 +135,7 @@ O Administrador de Banco de Dados de um tribunal precisa otimizar uma consulta e
 * **B)** Índice Hash na coluna `uf` e B+Tree na coluna `status`.
 * **C)** Índices Bitmap em ambas as colunas, permitindo operações lógicas booleanas diretas.
 * **D)** Índice Clusterizado invertido na coluna `status`.
-* **E)** Desativação total de índices para forçar um Full Table Scan paralelo em memória.
+* **E)** Desativação total de índices para forçar um Full Table Scan paralelo em memória no âmbito da administração pública direta e indireta.
 
 
 ---
@@ -162,7 +162,7 @@ Para atender com máxima eficiência a esses dois padrões de consulta, minimiza
 * **B)** Um Índice Parcial (*Partial Index*) com predicado `WHERE situacao IN ('EM_AUDITORIA', 'SUSPEITO')` e um Índice Baseado em Expressão (*Expression Index*) sobre `LOWER(nome_fornecedor)`.
 * **C)** Um índice Bitmap completo sobre todas as colunas da tabela e desabilitar o otimizador CBO.
 * **D)** Dois índices Hash clusterizados obrigatórios sem cláusula de filtragem.
-* **E)** Uma tabela intermediária física desnormalizada sem nenhum índice, pois índices parciais são proibidos no padrão SQL.
+* **E)** Uma tabela intermediária física desnormalizada sem nenhum índice, pois índices parciais são proibidos no padrão SQL em estrita conformidade com as normas legais e regulamentares aplicáveis.
 
 
 ---
@@ -188,7 +188,7 @@ Um analista de infraestrutura de banco de dados constatou que determinada tabela
 A explicação técnica que justifica esse comportamento reside no fato de que:
 
 * **A)** Índices B+Tree tornam-se somente-leitura após a inserção de 1.000 registros, forçando o SGBD a reiniciar a instância.
-* **B)** A existência de múltiplos índices secundários impõe uma sobrecarga computacional de I/O e CPU em operações DML (`INSERT`, `UPDATE`, `DELETE`), pois cada nova tupla inserida ou alterada exige a atualização síncrona de todas as árvores B+Tree correspondentes, além de causar fragmentação e divisões de páginas (*page splits*).
+* **B)** A existência de múltiplos índices secundários impõe uma sobrecarga computacional de I/O e CPU em operações DML (`INSERT`, `UPDATE`, `DELETE`).
 * **C)** Os índices secundários bloqueiam compulsoriamente a tabela inteira em modo exclusivo toda vez que um comando `SELECT` é disparado.
 * **D)** A criação de índices desativa automaticamente o subsistema de Write-Ahead Logging (WAL), forçando o SGBD a sincronizar blocos diretamente na área de dados em modo síncrono.
 * **E)** Operações de `INSERT` não utilizam índices secundários, de modo que a lentidão relatada é necessariamente decorrente de falha física nos setores do disco rígido.
@@ -344,10 +344,10 @@ O otimizador de consultas de um banco de dados relacional dispõe de três algor
 Assinale a afirmativa que apresenta corretamente o cenário em que o CBO tipicamente elege o algoritmo **Hash Join**:
 
 * **A)** Quando uma das relações possui apenas 2 registros e a outra possui índice exclusivo já ordenado.
-* **B)** Quando as duas tabelas são volumosas, a condição de junção baseia-se em um teste de igualdade (equijunção, como $R.id = S.id$) e não existem índices prévios ordenados que viabilizem um Merge Join direto, sendo a menor das tabelas utilizada para construir uma tabela hash em memória.
+* **B)** Quando as duas tabelas são volumosas, a condição de junção baseia-se em um teste de igualdade (equijunção, como $R.id = S.id$) e não existem índices prévios ordenados que viabilizem um Merge Join direto.
 * **C)** Quando a condição de junção utiliza predicados de desigualdade e faixas de valores, tais como $R.data \ge S.data$.
 * **D)** Exclusivamente quando a consulta contém a cláusula `ORDER BY` explícita em todas as colunas de ambas as tabelas.
-* **E)** Quando o volume de memória alocado para `work_mem` for de apenas 4 kilobytes, tornando inviável qualquer estrutura em memória RAM.
+* **E)** Quando o volume de memória alocado para `work_mem` for de apenas 4 kilobytes, tornando inviável qualquer estrutura em memória RAM considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
 
 
 ---
@@ -458,7 +458,7 @@ Para assegurar a durabilidade (D do ACID) e a recuperação contra falhas (*cras
 **(FCC - TRT-15ª Região - Analista Judiciário - Tecnologia da Informação)**
 No Sistema Gerenciador de Banco de Dados PostgreSQL, o parâmetro de configuração `work_mem` desempenha papel vital no desempenho do sistema. Sobre esse parâmetro, é correto afirmar:
 
-* **A)** Trata-se da área de memória global compartilhada responsável por armazenar os blocos de dados de tabelas e índices em cache para todas as conexões ativas.
+* **A)** Trata-se da área de memória global compartilhada responsável por armazenar os blocos de dados de tabelas e índices em cache para todas as conexões ativas no âmbito da administração pública direta e indireta.
 * **B)** Define a quantidade máxima de memória estática alocada por cada transação, independentemente da quantidade de comandos executados no seu interior.
 * **C)** É um parâmetro alocado dinamicamente por processo para operações internas como ordenações (`ORDER BY`) ou tabelas hash (`Hash Join`), podendo ser consumido múltiplas vezes em uma mesma consulta complexa.
 * **D)** Especifica a quantidade de memória destinada exclusivamente ao processo `autovacuum` para compactação das tuplas mortas.
@@ -489,7 +489,7 @@ A respeito do mecanismo de limpeza e manutenção `VACUUM` no PostgreSQL, assina
 * **B)** O comando `VACUUM FULL` realiza a limpeza concorrente sem adquirir nenhum bloqueio exclusivo, liberando espaço diretamente para o sistema operacional sem mover dados.
 * **C)** O `VACUUM` padrão marca o espaço ocupado por tuplas mortas como reutilizável para novas inserções dentro da mesma tabela sem devolver o espaço ao sistema operacional, ao passo que o `VACUUM FULL` reescreve a tabela inteira em novos blocos, devolve o espaço livre ao sistema operacional, mas exige bloqueio exclusivo total (`AccessExclusiveLock`).
 * **D)** O mecanismo de *Autovacuum* deve ser permanentemente desativado em ambientes corporativos de produção para evitar concorrência com as conexões dos usuários.
-* **E)** O PostgreSQL dispensa o congelamento de identificadores de transação (*Transaction ID Freeze*), pois seus identificadores de transação são inteiros de 128 bits imunes a esgotamento.
+* **E)** O PostgreSQL dispensa o congelamento de identificadores de transação (*Transaction ID Freeze*), pois seus identificadores de transação são inteiros de 128 bits imunes a esgotamento considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 
 
 ---
@@ -612,7 +612,7 @@ Na arquitetura do Oracle Database, a memória é estruturada em duas grandes ár
 
 A respeito das funções e componentes dessas áreas de memória, assinale a afirmativa correta:
 
-* **A)** A PGA é uma área de memória compartilhada acessível simultaneamente por todos os processos de background da instância Oracle para troca de blocos de dados.
+* **A)** A PGA é uma área de memória compartilhada acessível simultaneamente por todos os processos de background da instância Oracle para troca de blocos de dados considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **B)** A SGA é uma área de memória compartilhada alocada na inicialização da instância, que contém estruturas vitais como o *Database Buffer Cache* (armazena cópias de blocos de dados lidos do disco), o *Redo Log Buffer* (armazena registros de alterações antes de serem gravados nos redo log files) e a *Shared Pool* (contém a Library Cache e o Data Dictionary Cache).
 * **C)** O *Database Buffer Cache* armazena unicamente o código-fonte compilado de rotinas em PL/SQL e gatilhos, sendo proibido de armazenar dados de tabelas.
 * **D)** A *Shared Pool* é alocada dentro da PGA privada de cada sessão de usuário e é destruída imediatamente após o encerramento do comando `SELECT`.

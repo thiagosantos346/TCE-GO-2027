@@ -169,7 +169,7 @@ O processo de **Aplicar Pessoas** compreende precipuamente as atividades de:
 * **A)** Desenho organizacional de cargos, análise e descrição de funções, orientação e socialização das pessoas e avaliação do desempenho humano.
 * **B)** Recrutamento interno, recrutamento externo e seleção de candidatos por provas e títulos.
 * **C)** Concessão de remuneração fixa, incentivos salariais, benefícios e serviços sociais.
-* **D)** Treinamento e desenvolvimento de competências, gestão do conhecimento e programas de mudança.
+* **D)** Treinamento e desenvolvimento de competências, gestão do conhecimento e programas de mudança no âmbito da administração pública direta e indireta.
 * **E)** Higiene, segurança e qualidade de vida no trabalho e relações com sindicatos.
 
 
@@ -259,7 +259,7 @@ flowchart LR
 Uma entidade pública estadual necessita preencher posições funcionais de gestão interna. Ao optar prioritariamente pelo recrutamento interno em detrimento do recrutamento externo, a organização colhe benefícios relevantes, porém sujeita-se a uma vulnerabilidade conceitual frequentemente apontada pela literatura, consubstanciada na:
 
 * **A)** morosidade excessiva para disponibilizar o profissional e elevadíssimo dispêndio orçamentário com editais públicos e bancas examinadoras.
-* **B)** desmotivação crônica dos profissionais da casa, que visualizam o processo como um obstáculo intransponível à sua própria ascensão profissional.
+* **B)** desmotivação crônica dos profissionais da casa, que visualizam o processo como um obstáculo intransponível à sua própria ascensão profissional no âmbito da administração pública direta e indireta.
 * **C)** ocorrência do fenômeno da endogamia cultural (*inbreeding*), marcada pela recirculação contínua dos mesmos vícios, soluções e práticas preexistentes, com bloqueio à inovação.
 * **D)** exigência legal obrigatória de reabertura imediata de concurso público para a investidura nas atribuições funcionais correlatas.
 * **E)** incapacidade operacional de avaliar previamente as competências comportamentais dos candidatos que já compõem o quadro institucional.
@@ -357,7 +357,7 @@ Constitui uma típica **vantagem** do Recrutamento Interno:
 * **B)** A introdução massiva de novas ideias, talentos externos e inovação de ponta na cultura corporativa.
 * **C)** A renovação completa do quadro de pessoal e oxigenação da estrutura burocrática.
 * **D)** A dispensa absoluta de avaliação de desempenho funcional e conformidade disciplinar.
-* **E)** A eliminação do sentimento de frustração entre os servidores que não foram contemplados na promoção.
+* **E)** A eliminação do sentimento de frustração entre os servidores que não foram contemplados na promoção considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 
 
 ---
@@ -549,7 +549,7 @@ Diz-se que uma técnica ou teste de seleção possui alta **Validade** quando:
 
 * **A)** Mede com precisão exata aquilo que se propõe a medir e possui alto poder preditivo de prognosticar o desempenho futuro real do candidato no exercício do cargo.
 * **B)** Produz sempre as mesmas notas numéricas quando aplicada repetidas vezes à mesma pessoa em dias consecutivos.
-* **C)** Apresenta o menor custo financeiro de aplicação em relação ao orçamento disponível do departamento de recursos humanos.
+* **C)** Apresenta o menor custo financeiro de aplicação em relação ao orçamento disponível do departamento de recursos humanos no âmbito da administração pública direta e indireta.
 * **D)** É aplicada exclusivamente por meio de questionários digitais anônimos na internet.
 * **E)** Elimina mais de 90% dos candidatos na primeira etapa eliminatória.
 

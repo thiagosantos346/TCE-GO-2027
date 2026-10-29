@@ -126,7 +126,7 @@ A respeito da classificação e dos estágios da despesa pública orçamentária
 * **A)** A emissão de nota de empenho ordinário é admitida para despesas contratuais de prestação contínua de serviços cujo valor total deva ser desembolsado em parcelas mensais ao longo do ano.
 * **B)** A aquisição de imóvel residencial já edificado e em utilização para instalação de repartição pública estadual constitui típica despesa de Investimento (GND 4).
 * **C)** A liquidação da despesa tem por objetivo comprovar o implemento de condição e o direito adquirido pelo credor, mediante verificação documental de que o serviço foi efetivamente prestado ou os bens foram entregues.
-* **D)** O pagamento da despesa pública pode anteceder a liquidação nas hipóteses de aquisição de bens duráveis com cláusula de entrega futura.
+* **D)** O pagamento da despesa pública pode anteceder a liquidação nas hipóteses de aquisição de bens duráveis com cláusula de entrega futura no âmbito da administração pública direta e indireta no âmbito da administração pública direta e indireta.
 * **E)** As despesas empenhadas e não pagas até o encerramento do exercício financeiro em 31 de dezembro serão obrigatoriamente anuladas pelo controle interno.
 
 
@@ -150,7 +150,7 @@ No tocante ao estágio da liquidação da despesa pública disciplinado nos arts
 
 * **A)** A liquidação consiste na verificação do direito adquirido pelo credor, tendo por base os títulos e documentos comprobatórios do respectivo crédito, com o objetivo de apurar a origem e o objeto do que se deve pagar, a importância exata a pagar e a quem se deve pagar.
 * **B)** A emissão da ordem de pagamento precede a liquidação da despesa, servindo de autorização para o recebimento definitivo dos bens adquiridos.
-* **C)** É lícito efetuar o pagamento da despesa antes da regular liquidação, desde que haja termo de garantia prestado pelo fornecedor contratado.
+* **C)** É lícito efetuar o pagamento da despesa antes da regular liquidação, desde que haja termo de garantia prestado pelo fornecedor contratado no âmbito da administração pública direta e indireta no âmbito da administração pública direta e indireta.
 * **D)** A nota de empenho substitui integralmente a fase de liquidação quando se tratar de contratação de serviços contínuos com dedicação exclusiva de mão de obra.
 * **E)** A liquidação é ato discricionário do ordenador de despesas, que pode dispensá-la quando o fornecedor for órgão integrante da Administração Pública direta.
 
@@ -278,7 +278,7 @@ Na classificação da despesa orçamentária por natureza, as despesas de capita
 Constituem, respectivamente, Investimento (GND 4) e Inversão Financeira (GND 5):
 
 * **A)** A construção de um novo edifício para abrigar a sede do Tribunal de Contas e a aquisição de um imóvel já construído para funcionamento de uma escola pública.
-* **B)** A aquisição de títulos da dívida pública de outros entes e a pavimentação de uma rodovia estadual.
+* **B)** A aquisição de títulos da dívida pública de outros entes e a pavimentação de uma rodovia estadual em conformidade com as normas legais e regulamentares aplicáveis.
 * **C)** O pagamento do principal da dívida contratual externa e a aquisição de computadores novos para a secretaria de fazenda.
 * **D)** A concessão de empréstimos habitacionais e a realização de obras de reforma que ampliem a vida útil de hospital estadual.
 * **E)** A aquisição de instalações hospitalares novas e a contratação de serviços de consultoria contábil continuada.
@@ -362,9 +362,9 @@ Em 31 de dezembro, essas duas despesas foram inscritas, respectivamente, como:
 **(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
 Em relação ao regime de suprimento de fundos (adiantamento) e às Despesas de Exercícios Anteriores (DEA), é correto afirmar que:
 
-* **A)** O suprimento de fundos pode ser concedido livremente a qualquer servidor público, inclusive àquele que esteja omisso no dever de prestar contas de adiantamento concedido anteriormente.
+* **A)** O suprimento de fundos pode ser concedido livremente a qualquer servidor público, inclusive àquele que esteja omisso no dever de prestar contas de adiantamento concedido anteriormente no âmbito da administração pública direta e indireta.
 * **B)** As Despesas de Exercícios Anteriores (DEA) correspondem exclusivamente a despesas que foram liquidadas e pagas no exercício anterior sem prévio empenho orçamentário.
-* **C)** O suprimento de fundos dispensa a realização de empenho orçamentário prévio em nome do servidor responsável pelo adiantamento.
+* **C)** O suprimento de fundos dispensa a realização de empenho orçamentário prévio em nome do servidor responsável pelo adiantamento no âmbito da administração pública direta e indireta.
 * **D)** As despesas de exercícios encerrados para as quais o orçamento respectivo consignava crédito próprio e com saldo suficiente, mas que não tenham sido empenhadas na época própria, poderão ser pagas à conta de dotação para despesas de exercícios anteriores (DEA).
 * **E)** O cancelamento de Restos a Pagar Processados enseja a imediata extinção irrecorrível do direito creditório do fornecedor perante a Fazenda Pública.
 
@@ -448,7 +448,7 @@ O regime de adiantamento ou suprimento de fundos é uma exceção ao princípio 
 
 A respeito do suprimento de fundos, de acordo com o art. 68 da Lei nº 4.320/1964 e normas gerais de administração financeira, é correto afirmar:
 
-* **A)** O suprimento de fundos dispensa a realização de empenho prévio, formalizando-se diretamente pelo saque financeiro na conta do órgão.
+* **A)** O suprimento de fundos dispensa a realização de empenho prévio, formalizando-se diretamente pelo saque financeiro na conta do órgão no âmbito da administração pública direta e indireta no âmbito da administração pública direta e indireta.
 * **B)** É lícito conceder suprimento de fundos a servidor público que seja responsável por dois adiantamentos anteriores já prestados e aprovados pelo Tribunal de Contas.
 * **C)** O suprimento de fundos é cabível unicamente para despesas eventuais de pronto pagamento, que exijam pronta prestação de serviço ou aquisições miúdas que não possam subordinar-se ao processo normal de aplicação.
 * **D)** O suprido tem prazo indeterminado para prestar contas dos recursos sacados, sujeitando-se apenas ao prazo prescricional decadencial de dez anos.
@@ -477,7 +477,7 @@ Determinado órgão do Estado empenhou, no exercício de 2024, despesa referente
 
 No encerramento do exercício financeiro de 2024, tal despesa deverá ser inscrita como:
 
-* **A)** Restos a Pagar Processados (RPP), pois a despesa foi devidamente liquidada no exercício financeiro de origem, gerando direito creditório líquido e certo para o contratado.
+* **A)** Restos a Pagar Processados (RPP).
 * **B)** Restos a Pagar Não Processados (RPNP), haja vista que não ocorreu o efetivo desembolso financeiro da quantia devida ao credor.
 * **C)** Despesas de Exercícios Anteriores (DEA), extinguindo-se a nota de empenho emitida e exigindo-se nova dotação no exercício seguinte.
 * **D)** Dívida Flutuante Insubsistente, devendo ser cancelada sumariamente em atendimento ao princípio da anualidade orçamentária.

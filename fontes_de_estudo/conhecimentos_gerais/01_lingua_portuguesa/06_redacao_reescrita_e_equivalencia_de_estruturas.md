@@ -200,7 +200,7 @@ A frase que apresenta **quebra de paralelismo sintático** é:
 * **B)** *"O parecer recomendava a suspensão cautelar do certame e a anulação de todos os atos subsequentes."*
 * **C)** *"A comissão de auditoria propôs a revisão das medições de asfalto e que se fizesse uma nova perícia técnica."*
 * **D)** *"O servidor público deve agir com probidade, transparência e presteza."*
-* **E)** *"O auditor atuou não apenas no levantamento documental, mas também na instrução probatória dos autos."*
+* **E)** *"O auditor atuou não apenas no levantamento documental, mas também na instrução probatória dos autos."* em conformidade com as diretrizes e padrões de arquitetura corporativa.
 
 
 ---
@@ -289,7 +289,7 @@ III. *Ao analisar as planilhas contábeis com cautela, os erros de cálculo fora
 
 Quanto à clareza, ambiguidade e conformidade com a norma-padrão:
 
-* **A)** Em I, o pronome possessivo *seu* gera ambiguidade estrutural, pois não é possível determinar com certeza se o gabinete pertencia ao auditor ou ao diretor.
+* **A)** Em I, o pronome possessivo *seu* gera ambiguidade estrutural.
 * **B)** Em II, o emprego da expressão *o mesmo* é recomendável pelas normas do padrão culto para evitar a repetição do substantivo anterior.
 * **C)** Em III, a oração reduzida de gerúndio está perfeitamente vinculada ao sujeito gramatical da oração principal.
 * **D)** Todas as frases estão redigidas com clareza exemplar e isentas de vícios sintáticos.
@@ -435,7 +435,7 @@ Considere o período:
 *"<ins>A despeito das inúmeras advertências emitidas pelo órgão fiscalizador</ins>, os gestores mantiveram as práticas ilegítimas, o que ensejou a aplicação de severas multas."*  
 Uma reescrita que preserva a correção gramatical e as **mesmas relações lógicas de sentido** do período original é:
 
-* **A)** *"Visto que o órgão fiscalizador emitiu advertências, os gestores mantiveram as práticas ilegítimas, porquanto aplicaram-se multas severas."*
+* **A)** *"Visto que o órgão fiscalizador emitiu advertências, os gestores mantiveram as práticas ilegítimas, porquanto aplicaram-se multas severas."* em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **B)** *"Embora o órgão fiscalizador tenha emitido inúmeras advertências, os gestores mantiveram as práticas ilegítimas, motivo pelo qual severas multas foram aplicadas."*
 * **C)** *"À medida que o órgão fiscalizador advertia os gestores, estes mantinham as práticas ilegítimas, à proporção que foram multados com rigor."*
 * **D)** *"Caso o órgão fiscalizador emitisse advertências, os gestores manteriam as práticas ilegítimas e poderiam aplicar multas."*

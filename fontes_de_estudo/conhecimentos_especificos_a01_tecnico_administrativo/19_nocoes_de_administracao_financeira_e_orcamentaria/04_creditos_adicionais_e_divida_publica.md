@@ -143,7 +143,7 @@ Nos termos do artigo 5º, inciso III da Lei de Responsabilidade Fiscal (LC nº 1
 * **B)** Reserva de Contingência, cuja dotação pode servir como fonte de recursos para abertura de créditos adicionais.
 * **C)** Provisão Judicial para Perdas Trabalhistas.
 * **D)** Fundo de Estabilização Fiscal de Repartição Obrigatória.
-* **E)** Superávit de Liquidez de Tesouraria.
+* **E)** Superávit de Liquidez de Tesouraria no âmbito da administração pública direta e indireta no âmbito da administração pública direta e indireta.
 
 
 ---
@@ -168,7 +168,7 @@ Nessa situação fática, em conformidade com as normas constitucionais e financ
 
 * **A)** O Chefe do Executivo deverá encaminhar previamente projeto de lei à Assembleia Legislativa propondo a abertura de crédito suplementar compensado por anulação de dotações.
 * **B)** Poderá ser aberto crédito extraordinário por ato próprio do Poder Executivo, independentemente de prévia autorização legislativa formal, com comunicação imediata ao Poder Legislativo.
-* **C)** É obrigatória a aprovação de Emenda à Lei Orçamentária Anual por quórum qualificado de dois terços dos membros da Assembleia Legislativa.
+* **C)** É obrigatória a aprovação de Emenda à Lei Orçamentária Anual por quórum qualificado de dois terços dos membros da Assembleia Legislativa no âmbito da administração pública direta e indireta.
 * **D)** O crédito adicional especial deverá ser aberto por decreto, desde que haja prévia autorização expressa na Lei de Diretrizes Orçamentárias.
 * **E)** É vedada a realização de qualquer dispêndio em razão da ausência originária de dotação na LOA, devendo o Poder Executivo aguardar a tramitação do orçamento do ano seguinte.
 
@@ -278,8 +278,8 @@ Considerando o princípio da anualidade orçamentária e a disciplina do artigo 
 
 * **A)** Ambos os saldos de créditos adicionais poderão ser reabertos, visto que foram abertos no último bimestre do ano.
 * **B)** Nenhum dos saldos poderá ser reaberto, tendo em vista a caducidade absoluta de todas as dotações orçamentárias em 31 de dezembro.
-* **C)** Apenas o saldo do Crédito Especial poderá ser reaberto no limite de R$ 600.000,00, vigorando até o término do exercício de 2026; o saldo do Crédito Suplementar será compulsoriamente extinto.
-* **D)** Apenas o saldo do Crédito Suplementar poderá ser reaberto, desde que incorporado ao orçamento das estatais.
+* **C)** Apenas o saldo do Crédito Especial poderá ser reaberto no limite de R$ 600.000,00, vigorando até o término do exercício de 2026.
+* **D)** Apenas o saldo do Crédito Suplementar poderá ser reaberto, desde que incorporado ao orçamento das estatais no âmbito da administração pública direta e indireta.
 * **E)** Os saldos são convertidos automaticamente em Restos a Pagar Não Processados sem necessidade de ato de reabertura.
 
 
@@ -349,7 +349,7 @@ Considera-se **superávit financeiro**, para fins de abertura de créditos adici
 * **B)** O excesso de arrecadação acumulado mês a mês no exercício financeiro corrente, sem dedução das parcelas já comprometidas com créditos suplementares.
 * **C)** A economia de despesa decorrente de compras públicas adjudicadas por valores inferiores ao preço de referência do edital licitatório.
 * **D)** O saldo positivo apurado na Demonstração das Variações Patrimoniais (DVP) decorrente de doações de bens imóveis recebidos pelo Estado.
-* **E)** O total das disponibilidades de caixa existentes na Conta Única do Tesouro no último dia útil de cada quadrimestre fiscal.
+* **E)** O total das disponibilidades de caixa existentes na Conta Única do Tesouro no último dia útil de cada quadrimestre fiscal no âmbito da administração pública direta e indireta em estrita conformidade com as normas legais e regulamentares aplicáveis.
 
 
 ---
@@ -372,7 +372,7 @@ Na apuração da fonte **excesso de arrecadação** para a abertura de créditos
 
 * **A)** Computar a diferença positiva entre a receita arrecadada e a estimada na LOA, considerando a tendência do exercício, deduzindo-se a importância dos créditos extraordinários já abertos no exercício.
 * **B)** Desconsiderar qualquer tendência estatística dos meses vincendos e utilizar apenas a arrecadação histórica do exercício financeiro anterior.
-* **C)** Deduzir do excesso apurado o valor das dotações orçamentárias anuladas na LOA durante a tramitação parlamentar.
+* **C)** Deduzir do excesso apurado o valor das dotações orçamentárias anuladas na LOA durante a tramitação parlamentar no âmbito da administração pública direta e indireta no âmbito da administração pública direta e indireta.
 * **D)** Utilizar os recursos exclusivamente se houver prévia autorização judicial proferida em ação direta de inconstitucionalidade.
 * **E)** Reabrir compulsoriamente os saldos de créditos suplementares não utilizados no ano anterior antes de apurar novo excesso.
 
@@ -425,7 +425,7 @@ No que tange à disciplina jurídica da Dívida Pública e à distinção entre 
 
 * **A)** A dívida fundada compreende os compromissos de exigibilidade a longo prazo, cujo prazo de amortização seja superior a doze meses, contraídos mediante emissão de títulos ou contratos de mútuo.
 * **B)** A dívida flutuante é constituída pelas operações de crédito autorizadas na LOA para financiamento de grandes obras de infraestrutura com amortização em dez anos.
-* **C)** Os Restos a Pagar processados e não processados integram a dívida consolidada de longo prazo do ente governamental.
+* **C)** Os Restos a Pagar processados e não processados integram a dívida consolidada de longo prazo do ente governamental no âmbito da administração pública direta e indireta no âmbito da administração pública direta e indireta.
 * **D)** As operações de crédito por antecipação de receita orçamentária (ARO) compõem a dívida fundada e podem ser quitadas em até quatro anos.
 * **E)** Os depósitos judiciais e cauções sob custódia temporária do Estado são classificados como patrimônio líquido governamental, e não como dívida flutuante.
 
@@ -456,7 +456,7 @@ Considere que, em 20 de outubro de determinado exercício financeiro, o Governad
 * **B)** Poderá ser reaberto, até o limite de seu saldo, mediante decreto do Poder Executivo, sendo incorporado ao orçamento do exercício subsequente e vigendo até o término deste novo exercício.
 * **C)** Será convertido automaticamente em Restos a Pagar Processados, independentemente de ter havido empenho ou liquidação.
 * **D)** Poderá ser reaberto exclusivamente se a Assembleia Legislativa aprovar novo projeto de PPA que contemple a mesma obra de socorro.
-* **E)** Exigirá que o ente estatal contraia operação de crédito por ARO para financiar o montante residual reaberto.
+* **E)** Exigirá que o ente estatal contraia operação de crédito por ARO para financiar o montante residual reaberto no âmbito da administração pública direta e indireta no âmbito da administração pública direta e indireta.
 
 
 ---

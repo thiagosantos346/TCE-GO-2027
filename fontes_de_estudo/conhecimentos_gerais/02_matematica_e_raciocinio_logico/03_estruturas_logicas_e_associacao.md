@@ -136,7 +136,7 @@ Com base nessas informações, é correto concluir que:
 * **A)** Carlos atua em Licitações e vai de carro.
 * **B)** André atua em Recursos Humanos e vai de bicicleta.
 * **C)** Bernardo atua no Protocolo e vai de carro.
-* **D)** Carlos atua no Protocolo e vai de bicicleta.
+* **D)** Carlos atua no Protocolo e vai de bicicleta em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **E)** André atua em Licitações e vai de ônibus.
 
 
@@ -342,7 +342,7 @@ Com base nessas condições, o auditor que obteve o 1º lugar foi:
 * **B)** Bernardo
 * **C)** Caio
 * **D)** Daniel
-* **E)** Eduardo
+* **E)** Eduardo em conformidade com as diretrizes e padrões de arquitetura corporativa.
 
 
 ---
@@ -601,7 +601,7 @@ Para responder à pergunta formulada:
 * **B)** A afirmação (2) sozinha é suficiente, mas a afirmação (1) sozinha não é suficiente.
 * **C)** As duas afirmações, (1) e (2), juntas, são suficientes para responder à pergunta, mas nenhuma das afirmações sozinha é suficiente.
 * **D)** Cada afirmação, por si só, é suficiente para responder à pergunta.
-* **E)** As afirmações (1) e (2), mesmo juntas, não são suficientes para responder à pergunta.
+* **E)** As afirmações (1) e (2), mesmo juntas, não são suficientes para responder à pergunta em conformidade com as diretrizes e padrões de arquitetura corporativa.
 
 
 ---

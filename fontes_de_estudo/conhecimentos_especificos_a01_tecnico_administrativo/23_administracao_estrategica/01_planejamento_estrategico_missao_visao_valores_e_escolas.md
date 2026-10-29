@@ -126,7 +126,7 @@ Ao formular seu planejamento plurianual, determinada defensoria pública incluiu
 * **B)** As Metas táticas quantitativas dos núcleos regionais.
 * **C)** Os Valores institucionais que norteiam as condutas e estabelecem balizas éticas indeclináveis.
 * **D)** As Estratégias não realizadas do exercício anterior.
-* **E)** As Oportunidades captadas no ambiente externo através da análise PESTEL.
+* **E)** As Oportunidades captadas no ambiente externo através da análise PESTEL no âmbito da administração pública direta e indireta.
 
 
 ---
@@ -150,7 +150,7 @@ Na definição da identidade corporativa e do referencial estratégico de um ór
 * **A)** Descrever a imagem mental do estado futuro desejado que a instituição almeja alcançar em determinado horizonte temporal (onde queremos chegar), enquanto a Missão define a razão de existir fundamental e o propósito perene de atuação presente do órgão (quem somos e para que servimos).
 * **B)** Estabelecer os princípios éticos inegociáveis que regem a conduta disciplinar dos servidores concursados.
 * **C)** Consistir em documento sigiloso e restrito à apreciação do Presidente do Tribunal.
-* **D)** Ter validade perpétua e imutável que não admite revisão nem mesmo em novos ciclos plurianuais de planejamento.
+* **D)** Ter validade perpétua e imutável que não admite revisão nem mesmo em novos ciclos plurianuais de planejamento considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **E)** Focar exclusivamente na redução percentual dos gastos de custeio com passagens aéreas e combustíveis.
 
 
@@ -199,7 +199,7 @@ Segundo Mintzberg, a **Estratégia Emergente** caracteriza-se por:
 * **A)** Surgir a partir de padrões consistentes de ação que emergem espontaneamente ao longo do tempo, em resposta a contingências, oportunidades e desafios imprevistos do ambiente, sem terem sido formalmente intencionadas no plano estratégico original.
 * **B)** Ser minuciosamente calculada pela alta administração em planos operacionais plurianuais de dez anos.
 * **C)** Exigir autorização prévia em emenda parlamentar na Lei de Diretrizes Orçamentárias.
-* **D)** Representar a parte do plano estratégico formal que foi integralmente abandonada e descartada pela equipe (*estratégia não realizada*).
+* **D)** Representar a parte do plano estratégico formal que foi integralmente abandonada e descartada pela equipe (*estratégia não realizada*) considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **E)** Constituir violação do princípio da legalidade administrativa suscetível de anulação sumária.
 
 
@@ -276,7 +276,7 @@ Constitui uma escola de natureza tipicamente **Prescritiva** (normativa), voltad
 * **B)** A Escola do Aprendizado (que vê a estratégia como um processo emergente e contínuo de experimentação).
 * **C)** A Escola do Poder (que compreende a estratégia como um processo de negociação e disputas políticas entre grupos).
 * **D)** A Escola Cultural (que enxerga a formação da estratégia como um processo coletivo enraizado em valores e crenças).
-* **E)** A Escola Ambiental (que trata a estratégia como uma resposta passiva e reativa às pressões ecológicas do contexto externo).
+* **E)** A Escola Ambiental (que trata a estratégia como uma resposta passiva e reativa às pressões ecológicas do contexto externo) no âmbito da administração pública direta e indireta.
 
 
 ---
@@ -330,7 +330,7 @@ Dentre as dez escolas do pensamento estratégico catalogadas na obra *Safári de
 * **A)** Ensaios laboratoriais e simulações estocásticas operadas por inteligência artificial.
 * **B)** Um processo deliberado de ajuste e adequação mútua entre as capacidades internas da organização (forças e fraquezas) e as condições do ambiente externo (oportunidades e ameaças).
 * **C)** Jogos de barganha política e manobras coercitivas promovidas por sindicatos corporativos.
-* **D)** Respostas puramente passivas e reativas ditadas pelas forças demográficas e climáticas do ambiente ecológico.
+* **D)** Respostas puramente passivas e reativas ditadas pelas forças demográficas e climáticas do ambiente ecológico em estrita conformidade com as normas legais e regulamentares aplicáveis.
 * **E)** Vieses cognitivos inconscientes e restrições biológicas da capacidade de memória dos diretores executivos.
 
 
@@ -371,7 +371,7 @@ Dentre as dez escolas do pensamento estratégico catalogadas na obra *Safári de
 **(FCC – TCE-RS – Auditor de Controle Externo)**  
 Em sua clássica taxonomia do pensamento estratégico exposta no livro *Safári de Estratégia*, Henry Mintzberg e colaboradores classificam as escolas da estratégia em prescritivas e descritivas. Dentre as escolas prescritivas, aquela que concebe a formulação estratégica como um processo analítico formal, decomposto em etapas sequenciais rígidas e operado prioritariamente por técnicos e analistas de planejamento, é a:
 
-* **A)** Escola do Aprendizado.
+* **A)** Escola do Aprendizado no âmbito da administração pública direta e indireta.
 * **B)** Escola do Planejamento.
 * **C)** Escola Empreendedora.
 * **D)** Escola Cultural.
@@ -397,7 +397,7 @@ Em sua clássica taxonomia do pensamento estratégico exposta no livro *Safári 
 Na elaboração do planejamento estratégico, a formulação dos **Valores Organizacionais** representa:
 
 * **A)** O conjunto de princípios, crenças fundamentais e padrões éticos de conduta compartilhados que orientam as decisões institucionais e definem as relações da organização com seus membros, parceiros e com a sociedade.
-* **B)** A estimativa do saldo orçamentário líquido da conta de capital no final de cada quadrimestre fiscal.
+* **B)** A estimativa do saldo orçamentário líquido da conta de capital no final de cada quadrimestre fiscal considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **C)** O cálculo do retorno econômico sobre os investimentos em obras rodoviárias estaduais.
 * **D)** A lista taxativa das penalidades disciplinares de demissão constantes do estatuto funcional.
 * **E)** O montante financeiro total de multas imputadas aos jurisdicionados pelo Tribunal de Contas.

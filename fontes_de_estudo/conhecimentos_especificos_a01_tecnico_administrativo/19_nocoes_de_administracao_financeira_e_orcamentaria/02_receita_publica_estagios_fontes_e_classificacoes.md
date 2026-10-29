@@ -90,7 +90,7 @@ Os **ingressos extraorçamentários** não configuram receita orçamentária, n�
 Na execução orçamentária de determinada entidade autárquica estadual, os valores descontados mensalmente na folha de pagamentos dos seus servidores a título de contribuição previdenciária própria e de pensão alimentícia judicial fixada por sentença constituem:
 
 * **A)** Receitas Correntes Patrimoniais da própria autarquia.
-* **B)** Ingressos Extraorçamentários, haja vista que a entidade é mera depositária temporária dos valores que serão repassados aos seus legítimos destinatários.
+* **B)** Ingressos Extraorçamentários.
 * **C)** Receitas de Capital decorrentes de amortização forçada de encargos de pessoal.
 * **D)** Receitas Tributárias originárias de competência privativa do Poder Executivo.
 * **E)** Recursos vinculados de transferências voluntárias intergovernamentais.
@@ -179,7 +179,7 @@ No tocante ao estágio da arrecadação e ao princípio da unidade de caixa na e
 * **A)** O recolhimento de todas as receitas far-se-á em estrita observância ao princípio de unidade de tesouraria, vedando-se a fragmentação de disponibilidades governamentais em contas bancárias descentralizadas sem autorização legal.
 * **B)** A arrecadação confunde-se juridicamente com o recolhimento, ocorrendo ambos simultaneamente quando o contribuinte entrega o valor à instituição bancária credenciada.
 * **C)** É facultado às autarquias manterem receitas públicas sob a guarda de cofres particulares, dispensando-se a transferência para a Conta Única do Tesouro.
-* **D)** As receitas vinculadas a fundos especiais não se sujeitam à unidade de caixa, devendo seus recursos permanecerem fora do sistema bancário oficial.
+* **D)** As receitas vinculadas a fundos especiais não se sujeitam à unidade de caixa, devendo seus recursos permanecerem fora do sistema bancário oficial no âmbito da administração pública direta e indireta no âmbito da administração pública direta e indireta.
 * **E)** O recolhimento consiste no ato pelo qual os agentes arrecadadores entregam os recursos aos agentes fiscais para conferência manual antes do depósito no Tesouro.
 
 
@@ -288,7 +288,7 @@ Segundo a classificação por categoria econômica estabelecida pela Lei Federal
 * **A)** Receita Patrimonial decorrente de aluguéis de imóveis públicos e Receita decorrente de Alienação de Bens Imóveis.
 * **B)** Amortização de Empréstimos concedidos e Receita Tributária proveniente de impostos sobre patrimônio.
 * **C)** Operações de Crédito de longo prazo e Receita de Serviços prestados pelo ente estatal.
-* **D)** Alienação de Bens Móveis inservíveis e Receita de Contribuições Sociais.
+* **D)** Alienação de Bens Móveis inservíveis e Receita de Contribuições Sociais no âmbito da administração pública direta e indireta.
 * **E)** Transferências de Capital recebidas para obras e Receita Agropecuária decorrente de produção própria.
 
 
@@ -316,7 +316,7 @@ O primeiro dígito "1" e o segundo dígito "3" identificam, na estrutura oficial
 * **B)** Origem da Receita (Receitas Tributárias) e Espécie da Receita (Taxas).
 * **C)** Subdivisão de Recursos e Vinculação Constitucional de Impostos.
 * **D)** Categoria Econômica (Receitas de Capital) e Tipo de Receita (Principal).
-* **E)** Esfera Orçamentária e Identificador de Uso (IDUSO).
+* **E)** Esfera Orçamentária e Identificador de Uso (IDUSO) no âmbito da administração pública direta e indireta.
 
 
 ---
@@ -367,7 +367,7 @@ O Governo do Estado de Goiás promoveu a alienação, mediante concorrência pú
 De acordo com o artigo 44 da Lei Complementar nº 101/2000 (Lei de Responsabilidade Fiscal):
 
 * **A)** A pretensão governamental é lícita, pois a saúde pública constitui prioridade orçamentária imune a restrições fiscais.
-* **B)** A aplicação é vedada, pois a receita de capital derivada da alienação de bens públicos não pode ser aplicada no financiamento de despesas correntes, salvo se destinada por lei aos regimes de previdência social.
+* **B)** A aplicação é vedada.
 * **C)** A receita de alienação de bens pode ser destinada a qualquer tipo de despesa pública, desde que autorizada por decreto executivo simples.
 * **D)** O valor arrecadado deve ser compulsoriamente recolhido ao Tesouro Nacional para amortização de títulos federais.
 * **E)** A alienação de imóveis públicos converte-se automaticamente em receita corrente tributária após o depósito bancário.
@@ -394,7 +394,7 @@ Determinado Secretário de Estado da Fazenda propôs projeto de lei concedendo i
 À luz do artigo 14 da Lei de Responsabilidade Fiscal (LC nº 101/2000):
 
 * **A)** A concessão do benefício é válida de pleno direito, visto que o Estado detém soberania para instituir e conceder isenções de seus tributos privativos.
-* **B)** A proposição viola a Lei de Responsabilidade Fiscal, pois a concessão de benefício tributário da qual decorra renúncia de receita exige estimativa de impacto no exercício e nos dois seguintes, além de comprovação de que não afetará as metas fiscais ou de adoção de medidas compensatórias de arrecadação.
+* **B)** A proposição viola a Lei de Responsabilidade Fiscal.
 * **C)** A renúncia de receitas somente atinge isenções concedidas a pessoas jurídicas de direito privado, sendo dispensada qualquer formalidade para pessoas físicas adquirentes de veículos.
 * **D)** As medidas compensatórias exigidas pela LRF aplicam-se com exclusividade a impostos federais compartilhados, dispensando-se do IPVA estadual.
 * **E)** A exigência de estimativa trienal restringe-se aos dois últimos anos de mandato do Chefe do Poder Executivo.
@@ -445,10 +445,10 @@ Determinado Município goiano realizou a alienação de diversos imóveis públi
 
 À luz do art. 44 da Lei Complementar nº 101/2000 (LRF):
 
-* **A)** A destinação proposta pelo Prefeito é plenamente lícita, pois os recursos provenientes da venda de bens móveis ou imóveis integram a receita livre do ente e podem ser aplicados em qualquer despesa pública.
+* **A)** A destinação proposta pelo Prefeito é plenamente lícita, pois os recursos provenientes da venda de bens móveis ou imóveis integram a receita livre do ente e podem ser aplicados em qualquer despesa pública no âmbito da administração pública direta e indireta.
 * **B)** A destinação para pagamento de folha de salários é expressamente vedada pela LRF, configurando nulidade do ato e infração fiscal, sendo a aplicação em pavimentação asfáltica perfeitamente regular por se tratar de despesa de capital.
 * **C)** Ambos os gastos propostos são ilícitos, pois a receita de alienação de ativos só pode ser utilizada para aplicação exclusiva no mercado de ações e títulos públicos.
-* **D)** É permitido o pagamento de pessoal com receitas de alienação de bens desde que haja autorização prévia por decreto do Governador do Estado.
+* **D)** É permitido o pagamento de pessoal com receitas de alienação de bens desde que haja autorização prévia por decreto do Governador do Estado no âmbito da administração pública direta e indireta.
 * **E)** O Município pode utilizar o produto da alienação para despesa de pessoal, desde que o montante não ultrapasse o limite prudencial de gastos da LRF.
 
 

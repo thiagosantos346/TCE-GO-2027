@@ -122,7 +122,7 @@ Na gestão de segurança de aplicações corporativas, a distinção conceitual 
 
 * **A)** Autenticação verifica a identidade declarada por um usuário ou sistema ("quem é você?"), ao passo que Autorização determina as permissões de acesso e ações que o usuário autenticado pode executar ("o que você pode fazer?").
 * **B)** Autenticação concede privilégios administrativos no banco de dados, enquanto Autorização verifica a assinatura digital do certificado TLS.
-* **C)** Autenticação e Autorização são termos estritamente sinônimos na norma ISO/IEC 27001, podendo ser implementados indiferentemente pela mesma rotina de hash SHA-256.
+* **C)** Autenticação e Autorização são termos estritamente sinônimos na norma ISO/IEC 27001, podendo ser implementados indiferentemente pela mesma rotina de hash SHA-256 em estrita conformidade com as normas legais e regulamentares aplicáveis.
 * **D)** A autorização deve ser realizada necessariamente antes da autenticação em qualquer sistema computacional.
 * **E)** A autenticação define o teto salarial de um servidor público no portal da transparência.
 
@@ -148,7 +148,7 @@ A Autenticação Multifator (*Multi-Factor Authentication* - MFA) eleva substanc
 * **A)** Senha alfanumérica, senha numérica e senha biométrica.
 * **B)** Algo que você sabe (conhecimento), algo que você tem (posse) e algo que você é (biometria/inerência).
 * **C)** Endereço de IP de rede, máscara de sub-rede e porta lógica TCP.
-* **D)** Certificado público, certificado privado e autoridade certificadora intermediária.
+* **D)** Certificado público, certificado privado e autoridade certificadora intermediária no âmbito da administração pública direta e indireta.
 * **E)** Teclado mecânico, monitor de alta definição e leitor óptico.
 
 
@@ -276,7 +276,7 @@ Considerando as boas práticas contemporâneas de segurança preconizadas pela I
 * **B)** O protocolo OpenID Connect (OIDC) deve ser empregado na camada de autenticação, utilizando o fluxo *Authorization Code Grant* com a extensão PKCE (RFC 7636), emitindo um `id_token` para identificar o usuário perante a aplicação React e um `access_token` para consumir a API.
 * **C)** O protocolo OAuth 2.0 isolado é suficiente para autenticar o auditor perante o frontend React, bastando conferir a presença do escopo `read:processos` na requisição.
 * **D)** O fluxo mais recomendado para esse cenário é o *Resource Owner Password Credentials* (ROPC), pelo qual o frontend coleta login e senha diretamente em um formulário comum e os repassa ao servidor de autorização.
-* **E)** A integridade e autenticidade do token JWT devem ser verificadas no frontend através de um algoritmo simétrico HS256, armazenando o segredo compartilhado nas variáveis de ambiente estáticas do código JavaScript.
+* **E)** A integridade e autenticidade do token JWT devem ser verificadas no frontend através de um algoritmo simétrico HS256, armazenando o segredo compartilhado nas variáveis de ambiente estáticas do código JavaScript em estrita conformidade com as normas legais e regulamentares aplicáveis.
 
 
 ---
@@ -324,8 +324,8 @@ De acordo com o framework OAuth 2.0 (RFC 6749), o fluxo de concessão (*Grant Ty
 **(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
 Para proteger aplicações clientes públicas (como SPAs executando em navegadores e aplicativos móveis nativos) contra o ataque de interceptação do código de autorização, a especificação OAuth 2.0 define a extensão PKCE (*Proof Key for Code Exchange*, RFC 7636). O funcionamento do fluxo PKCE baseia-se na geração de:
 
-* **A)** Uma senha mestra criptografada com algoritmo DES de 56 bits armazenada no código-fonte do cliente.
-* **B)** Um segredo criptográfico temporário denominado *code_verifier*, cuja versão transformada em hash SHA-256 (*code_challenge*) é enviada na requisição inicial de autorização, sendo o *code_verifier* original revelado apenas no momento da troca do código pelo token de acesso.
+* **A)** Uma senha mestra criptografada com algoritmo DES de 56 bits armazenada no código-fonte do cliente considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
+* **B)** Um segredo criptográfico temporário denominado *code_verifier*, cuja versão transformada em hash SHA-256 (*code_challenge*) é enviada na requisição inicial de autorização.
 * **C)** Um token estático com validade indeterminada de 10 anos.
 * **D)** Um certificado SSL autoassinado instalado na pasta raiz do aparelho celular do usuário.
 * **E)** Uma chave privada RSA de 4096 bits embutida nos cookies do navegador.
@@ -392,7 +392,7 @@ Na arquitetura de segurança moderna para sistemas distribuídos e Single Sign-O
 * **A)** O OAuth 2.0 foi projetado originalmente como um framework de **Autorização** (delegação de acesso a recursos por meio de Access Tokens), enquanto o OpenID Connect adiciona uma camada padronizada de **Autenticação e Identidade** sobre o OAuth 2.0, introduzindo o *ID Token* (formatado em JWT) para transmitir informações do usuário autenticado.
 * **B)** O OAuth 2.0 não permite a transmissão de dados pela Internet sem cabos de fibra óptica dedicados.
 * **C)** O OpenID Connect substitui todos os bancos de dados por arquivos de texto simples não criptografados.
-* **D)** O OAuth 2.0 serve exclusivamente para autenticação facial, ao passo que o OIDC gerencia exclusivamente senhas biométricas digitais.
+* **D)** O OAuth 2.0 serve exclusivamente para autenticação facial, ao passo que o OIDC gerencia exclusivamente senhas biométricas digitais considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **E)** O OIDC proíbe a utilização de tokens no padrão JSON Web Token (JWT).
 
 
@@ -537,7 +537,7 @@ A respeito dessa validação, assinale a afirmativa correta:
 * **A)** No algoritmo simétrico HS256, o Servidor de Recursos (API) precisa possuir apenas uma chave pública para validar a assinatura, impedindo o comprometimento do segredo de emissão.
 * **B)** No algoritmo assimétrico RS256, o Servidor de Autorização assina o token com sua chave privada, e qualquer Servidor de Recursos pode validar a assinatura de forma independente utilizando a respectiva chave pública disponibilizada em um endpoint JWKS (*JSON Web Key Set*).
 * **C)** A alteração de qualquer caractere no Payload de um token JWT não invalida a assinatura calculada com RS256, desde que a claim `exp` permaneça no futuro.
-* **D)** Caso o cabeçalho do token informe `"alg": "none"`, a aplicação receptora deve aceitar o token automaticamente como infalível, pois esse identificador sinaliza aprovação prévia por autoridade certificadora de raiz.
+* **D)** Caso o cabeçalho do token informe `"alg": "none"`, a aplicação receptora deve aceitar o token automaticamente como infalível, pois esse identificador sinaliza aprovação prévia por autoridade certificadora de raiz em estrita conformidade com as normas legais e regulamentares aplicáveis.
 * **E)** O algoritmo RS256 utiliza a mesma chave secreta tanto para assinar o JWT quanto para verificar sua assinatura em todos os nós da rede.
 
 

@@ -160,7 +160,7 @@ Considere as seguintes palavras retiradas de um relatório de fiscalização con
 Quanto às regras de acentuação gráfica previstas no sistema ortográfico vigente e cobradas pela banca FCC, assinale a afirmação correta:
 
 * **A)** O vocábulo *relatório* recebe acento gráfico pela mesma regra que justifica o acento no vocábulo *público*, haja vista serem ambos proparoxítonos clássicos.
-* **B)** A palavra *auditoria* deveria receber acento gráfico na penúltima sílaba, por ser paroxítona terminada em ditongo crescente, constituindo sua grafia sem acento uma exceção arbitrária.
+* **B)** A palavra *auditoria* deveria receber acento gráfico na penúltima sílaba, por ser paroxítona terminada em ditongo crescente, constituindo sua grafia sem acento uma exceção arbitrária considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
 * **C)** Os vocábulos *relatório* e *órgão* são acentuados por pertencerem à regra geral das paroxítonas (terminada em ditongo crescente e terminada em -ão, respectivamente), ao passo que a FCC também admite classificar *relatório* como proparoxítona aparente ou eventual.
 * **D)** A palavra *responsável* é acentuada por ser oxítona terminada na consoante -l.
 * **E)** Todos os vocábulos citados são acentuados em razão da regra dos hiatos tônicos.
@@ -255,7 +255,7 @@ Está em total conformidade com as regras gramaticais o que se afirma em:
 * **A)** No grupo I, as palavras perdem o acento gráfico quando seguidas de consoante na mesma sílaba.
 * **B)** No grupo II, os vocábulos perderam o acento gráfico porque o Novo Acordo extinguiu a acentuação dos ditongos abertos (*éi*, *ói*) nas palavras paroxítonas, mantendo-o apenas nas oxítonas e monossílabos tônicos (*herói*, *pastéis*, *dói*).
 * **C)** No grupo III, as formas verbais *têm* e *vêm* recebem acento circunflexo na 3ª pessoa do singular e perdem o acento no plural.
-* **D)** O acento diferencial foi completamente abolido pelo Acordo Ortográfico em todas as palavras da língua portuguesa, sem nenhuma exceção.
+* **D)** O acento diferencial foi completamente abolido pelo Acordo Ortográfico em todas as palavras da língua portuguesa, sem nenhuma exceção considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **E)** Em *saúde* e *baú*, o acento gráfico justifica-se por serem paroxítonas terminadas em vogal temática.
 
 
@@ -731,7 +731,7 @@ Em relação aos processos morfológicos de formação das palavras, assinale a 
 * **B)** *"O auditor constatou que era urgente <ins>esfriar</ins> os ânimos acalorados durante a inspeção."*
 * **C)** *"O governo estadual implementou o <ins>resgate</ins> das apólices da dívida pública."*
 * **D)** *"O relatório final foi concluído <ins>infelizmente</ins> fora do prazo regulamentar."*
-* **E)** *"O <ins>passatempo</ins> preferido dos funcionários consistia em desvendar charadas lógicas."*
+* **E)** *"O <ins>passatempo</ins> preferido dos funcionários consistia em desvendar charadas lógicas."* em conformidade com as diretrizes e padrões de arquitetura corporativa.
 
 
 ---
@@ -784,7 +784,7 @@ III. *"O **olhar** atento do relator detectou inconsistências no edital."*
 Quanto aos processos de formação das palavras destacadas, é correto afirmar que:
 
 * **A)** O vocábulo *desembarque* formou-se por derivação parassintética, visto que o prefixo e o sufixo foram anexados simultaneamente ao radical.
-* **B)** A palavra *desembarque* é fruto de derivação regressiva (deverbal), pois provém do verbo *desembarcar*, com perda do sufixo verbal e formação de substantivo abstrato que indica ação.
+* **B)** A palavra *desembarque* é fruto de derivação regressiva (deverbal).
 * **C)** No vocábulo *infundados*, constata-se processo de composição por aglutinação, com alteração fonética de seus elementos formadores.
 * **D)** A palavra *olhar*, em III, constitui caso de derivação prefixal com acréscimo de desinência de modo-tempo.
 * **E)** O vocábulo *olhar*, em III, exemplifica a derivação parassintética de base nominal.

@@ -114,388 +114,244 @@ flowchart TD
 ---
 
 ### Teste 187
-**(FCC - Auditor de Controle Externo / TCE-GO)**
-No planejamento de uma auditoria governamental, a avaliação do risco de auditoria é fundamental para dimensionar a extensão, a oportunidade e a natureza dos procedimentos a serem aplicados.
+**(FCC – Auditor de Controle Externo / TCE-GO / Simulado)**  
+No planejamento de uma auditoria governamental de acordo com as normas da NBASP / INTOSAI, a elaboração da Matriz de Planejamento é etapa essencial para estruturar os trabalhos de campo. A respeito dos elementos integrantes da Matriz de Planejamento, é correto afirmar:
 
-Sobre os componentes do risco de auditoria (risco inerente, risco de controle e risco de detecção), assinale a afirmativa correta.
-
-* **A)** O risco de detecção decorre da suscetibilidade de uma afirmação a uma distorção relevante antes da consideração de quaisquer controles internos compensatórios.
-* **B)** O risco inerente e o risco de controle existem independentemente da auditoria e são próprios da entidade auditada e de seus processos internos de governança.
-* **C)** O risco de controle é o risco de que os procedimentos executados pelo auditor não detectem uma distorção relevante existente no órgão fiscalizado.
-* **D)** O auditor do Tribunal de Contas pode controlar e modificar diretamente o nível de risco inerente existente na secretaria auditada.
-* **E)** Se o auditor avaliar o risco de controle interno como muito alto, ele deve reduzir o volume de testes substantivos de auditoria para economizar recursos.
-
+* **A)** A delimitação do escopo dispensa a formulação prévia de questões de auditoria quando o órgão for submetido a inspeção ordinária pelo TC.
+* **B)** As questões de auditoria orientam as informações requeridas, fontes de dados, procedimentos e possíveis achados.
+* **C)** A equipe de fiscalização é impedida de alterar o cronograma ou os testes previstos na matriz durante a execução dos trabalhos.
+* **D)** A definição de critérios é restrita aos preceitos legais e regulamentares formais, vedado o emprego de boas práticas gerenciais.
+* **E)** As limitações metodológicas devem ser mantidas em segredo pelos auditores para resguardar a presunção de veracidade da Corte.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A suscetibilidade intrínseca a distorções antes de considerar os controles é o **risco inerente** (NBASP 200).
-> - **B)** Correta. A doutrina e as normas de auditoria internacional (NBASP 100/200) estabelecem que o **risco inerente** (inerente à complexidade ou volatilidade da atividade pública) e o **risco de controle** (risco de o sistema de controle interno do órgão falhar em prevenir ou detectar tempestivamente uma distorção) são riscos próprios da entidade auditada, existindo independentemente da realização de auditoria externa.
-> - **C)** Incorreta. O risco de que os procedimentos do auditor falhem em detectar o erro é o **risco de detecção**, que é o único componente diretamente controlado pela equipe de auditoria (por meio do tamanho da amostra e profundidade dos testes).
-> - **D)** Incorreta. O risco inerente independe da atuação do auditor; o auditor apenas o avalia.
-> - **E)** Incorreta. Quanto mais alto o risco de controle, **maior** deve ser a quantidade de testes substantivos e procedimentos de detecção do auditor para mitigar o risco global de auditoria.
+> - **A)** **Incorreto**. As questões de auditoria são o eixo central da Matriz de Planejamento, definindo exatamente o que se pretende responder.
+> - **B)** **Correto**. Conforme os manuais de auditoria governamental (TCU/ATRICON/NBASP): a Matriz de Planejamento articula logicamente as questões de auditoria com os critérios, informações requeridas, fontes de informação, procedimentos de coleta e análise de dados, limitações e possíveis achados esperados.
+> - **C)** **Incorreto**. A Matriz de Planejamento é um instrumento dinâmico e flexível que pode ser ajustado à medida que novos fatos surgem no campo.
+> - **D)** **Incorreto**. Em auditoria operacional, os critérios podem abranger padrões de desempenho, boas práticas e referenciais técnicos aceitos.
+> - **E)** **Incorreto**. As limitações metodológicas devem constar expressamente do relatório em obséquio à transparência profissional.
 >
 > **Gabarito: B**
-
----
 
 ### Teste 188
-**(FCC - Adaptada / Auditor Governamental)**
-Acerca do modelo de avaliação de risco de auditoria e dos fatores de risco considerados no planejamento das ações de controle externo, assinale a opção correta:
+**(FCC – Auditor Governamental / Simulado)**  
+Acerca do modelo conceitual de risco de auditoria ($Risco = RI \times RC \times RD$) e da avaliação dos controles internos preconizada pela NBASP 200 / NBASP 100, é correto afirmar:
 
-* **A)** O risco de detecção é o risco de que os controles internos da entidade auditada não consigam prevenir tempestivamente uma fraude contábil relevante.
-* **B)** O risco inerente decorre exclusivamente de erros cometidos pela própria equipe de auditores durante a aplicação de seus testes substantivos.
-* **C)** O risco de controle e o risco inerente são intrínsecos ao ambiente do órgão auditado, cabendo ao auditor gerenciar e reduzir o risco de detecção para manter o risco global de auditoria em patamar aceitável.
-* **D)** Diante de controles internos eficientes e ausência de risco inerente, o auditor de controle externo pode dispensar a aplicação de quaisquer testes e aprovar as contas sumariamente.
-* **E)** O risco de auditoria independe da extensão dos procedimentos aplicados pelo órgão de controle externo.
-
+* **A)** O risco de detecção é independente da atuação dos auditores, dependendo exclusivamente da estrutura do órgão auditado.
+* **B)** A constatação de elevado risco de controle autoriza a equipe a reduzir o tamanho da amostra e os testes substantivos.
+* **C)** O risco de detecção refere-se aos procedimentos executados pelo auditor para reduzir o risco a um nível aceitável.
+* **D)** O risco de auditoria refere-se à possibilidade de a administração auditada não implementar as determinações do acórdão do Plenário.
+* **E)** O risco inerente decorre da incapacidade dos controles internos da entidade de prevenir fraudes de forma tempestiva.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta:** O risco de o controle interno falhar denomina-se **Risco de Controle (RC)**. Risco de detecção é a falha dos procedimentos do próprio auditor.  
-> - **B) Incorreta:** O risco inerente refere-se à suscetibilidade da própria atividade auditada ao erro antes de qualquer controle.  
-> - **C) CORRETA:** O auditor não pode alterar o risco inerente nem o risco de controle do jurisdicionado. Portanto, ao se deparar com um órgão de elevado risco (alto risco inerente e fragilidade de controles internos), o auditor deve **reduzir o risco de detecção (RD)** mediante a aplicação de testes mais profundos, com amostras maiores e maior ceticismo profissional.  
-> - **D) Incorreta:** Testes substantivos nunca podem ser totalmente dispensados pelas normas de auditoria governamental.  
-> - **E) Incorreta:** O risco global de auditoria varia em proporção inversa à extensão e qualidade dos procedimentos executados pela equipe.
-> 
+> - **A)** **Incorreto**. O risco de detecção é o único componente diretamente controlado pelo auditor, decorrendo da eficácia de seus procedimentos.
+> - **B)** **Incorreto**. Se o risco de controle for elevado, o auditor deve aplicar testes substantivos mais extensos (amostras maiores) para compensar.
+> - **C)** **Correto**. Conforme a NBASP 200 / NBC TA 200: Risco de Detecção (RD) é o risco de que os procedimentos executados pelo auditor para reduzir o risco de auditoria a um nível aceitavelmente baixo não detectem uma distorção que exista e que possa ser relevante, individualmente ou em conjunto com outras distorções.
+> - **D)** **Incorreto**. Risco de auditoria é o risco de o auditor expressar uma opinião inadequada quando as informações contiverem distorção relevante.
+> - **E)** **Incorreto**. A incapacidade do controle interno de prevenir/detectar erro é a definição exata de Risco de Controle (RC), não inerente.
+>
 > **Gabarito: C**
-
----
-
-## 2. Programas de Auditoria e Documentação (Papéis de Trabalho)
-
-- **Programa de Auditoria:** Roteiro operacional e detalhado das etapas, procedimentos e testes substantivos e de conformidade que os membros da equipe devem executar no trabalho de campo.
-- **Papéis de Trabalho (Documentação de Auditoria):**
-    - *Finalidade:* Registrar as evidências colhidas, suportar técnica e juridicamente o relatório final e comprovar o cumprimento das normas profissionais da NBASP.
-    - *Titularidade e Custódia:* São de **propriedade exclusiva do Tribunal de Contas**, sujeitos a sigilo legal durante a fase de instrução e arquivamento regulamentar.
-    - *Classificação Arquivística:*
-    - **Arquivo Corrente:** Guarda documentos e papéis específicos daquela auditoria em exercício financeiro determinado (ex.: notas fiscais, empenhos daquele mês e atas de medição);
-    - **Arquivo Permanente:** Guarda documentos de uso contínuo por vários exercícios (ex.: lei de criação da entidade, organogramas, regimentos internos e manuais de rotina).
-
----
 
 ### Teste 189
-**(FCC - Adaptada / Técnico de Controle Externo)**
-Em relação aos papéis de trabalho (documentação de auditoria) elaborados e custodiados no âmbito dos Tribunais de Contas, é correto afirmar:
+**(FCC – Técnico de Controle Externo / Simulado)**  
+Em relação aos papéis de trabalho (documentação de auditoria) disciplinados nas normas de fiscalização dos Tribunais de Contas, analise as afirmativas:
 
-* **A)** Pertencem pessoalmente ao auditor que os confeccionou, que detém o direito autoral de levá-los consigo ao se aposentar.
-* **B)** O arquivo permanente é destinado à guarda de documentos específicos de uma única auditoria em exercício financeiro determinado, como notas fiscais daquele mês.
-* **C)** Os papéis de trabalho pertencem ao Tribunal de Contas, destinando-se a fundamentar as conclusões do relatório técnico e a comprovar a observância das normas profissionais de auditoria.
-* **D)** São de livre acesso público irrestrito e devem ser divulgados em tempo real na internet durante a realização dos testes de campo.
-* **E)** Devem ser destruídos imediatamente após a publicação da deliberação plenária terminativa do processo de controle externo.
-
+* **A)** O descarte de papéis de trabalho pode ocorrer no encerramento da execução, dispensando-se arquivo permanente.
+* **B)** A documentação de auditoria deve ser mantida em sigilo absoluto mesmo perante os membros julgadores do Tribunal.
+* **C)** Os papéis de trabalho devem ser suficientes para permitir que auditor experiente compreenda a natureza e achados.
+* **D)** É vedada a utilização de registros fotográficos e gravações digitais como suporte probatório de achados no campo.
+* **E)** A guarda dos papéis de trabalho é facultativa para auditorias de conformidade com parecer prévio sem ressalvas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta:** Os papéis de trabalho são patrimônio documental oficial e institucional exclusivo do Tribunal de Contas.  
-> - **B) Incorreta:** O arquivo que guarda os dados de uma única auditoria anual é o **arquivo corrente**. O arquivo permanente abriga dados de uso continuado por anos (leis de criação do órgão, organogramas, estatutos).  
-> - **C) CORRETA:** Conforme as normas técnicas da NBASP e Manuais de Auditoria, a documentação de auditoria pertence privativamente ao Tribunal e tem o objetivo primordial de registrar as evidências, fundamentar a opinião expressa e demonstrar a qualidade dos testes executados.  
-> - **D) Incorreta:** Durante a fase de instrução e coleta, os papéis de trabalho mantêm-se sob sigilo e confidencialidade profissional para resguardar a integridade das apurações.  
-> - **E) Incorreta:** Os papéis de trabalho devem ser mantidos sob guarda e custódia arquivística pelo prazo regulamentar para fins de segurança jurídica e eventual reexame.
-> 
+> - **A)** **Incorreto**. Os papéis de trabalho devem ser arquivados em meio físico ou eletrônico e conservados pelo prazo legal (regra de 5 a 10 anos).
+> - **B)** **Incorreto**. A documentação de auditoria serve de suporte probatório direto para o julgamento pelos Conselheiros e Ministros.
+> - **C)** **Correto**. Conforme a NBASP 100 / NBASP 200: a documentação de auditoria deve ser preparada de modo tempestivo e ser suficientemente completa e detalhada para permitir que um auditor experiente, sem conexão prévia com o trabalho, compreenda a natureza, a época e a extensão dos procedimentos, os resultados obtidos e os fundamentos técnicos das conclusões.
+> - **D)** **Incorreto**. Registros audiovisuais e digitais são papéis de trabalho amplamente aceitos e recomendados.
+> - **E)** **Incorreto**. A guarda e custódia documental é obrigatória para todos os trabalhos fiscalizatórios.
+>
 > **Gabarito: C**
-
----
 
 ### Teste 190
-**(FGV - Analista de Controle Externo / TCE-GO)**
-Os papéis de trabalho (documentação de auditoria) constituem o registro físico ou eletrônico de todo o planejamento, dos procedimentos técnicos aplicados, das evidências obtidas e das conclusões alcançadas pela equipe de fiscalização do Tribunal de Contas.
+**(FGV – Analista de Controle Externo / TCE-GO / Simulado)**  
+Os papéis de trabalho constituem a documentação indispensável do planejamento, da execução e dos resultados alcançados pelo controle externo. A respeito da finalidade e propriedade dos papéis de trabalho, é correto afirmar:
 
-A respeito dos papéis de trabalho na auditoria do setor público (NBASP 100 e NBASP 230), assinale a afirmativa correta.
-
-* **A)** Os papéis de trabalho são de propriedade exclusiva do gestor público auditado, devendo ser devolvidos ao órgão no encerramento da inspeção in loco.
-* **B)** A documentação de auditoria deve ser suficientemente completa e detalhada para permitir que um auditor experiente, sem nenhum contato prévio com a auditoria, compreenda a natureza, a época, a extensão dos procedimentos executados, as evidências obtidas e as conclusões alcançadas.
-* **C)** É dispensável registrar nos papéis de trabalho a metodologia empregada na seleção de amostras estatísticas.
-* **D)** O auditor pode destruir de ofício papéis de trabalho que contenham evidências divergentes das conclusões emitidas no relatório final.
-* **E)** Os papéis de trabalho elaborados em fiscalizações de controle externo não possuem valor probatório para fins de instauração de tomada de contas especial.
-
+* **A)** Pertencem originariamente ao administrador do órgão fiscalizado, cabendo ao Tribunal de Contas apenas a consulta.
+* **B)** Constituem propriedade privativa do Tribunal de Contas e fundamentam o relatório, as conclusões e a proposta de voto.
+* **C)** Têm como única finalidade subsidiar a aplicação de sanções administrativas aos gestores públicos do Poder Executivo.
+* **D)** Não podem ser examinados pelas equipes de controle de qualidade dos Tribunais de Contas por força de sigilo funcional.
+* **E)** São dispensáveis nas fiscalizações concomitantes que adotam a metodologia de monitoramento contínuo informatizado.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Os papéis de trabalho são de **propriedade da Entidade Fiscalizadora Superior (Tribunal de Contas)** e ficam sob sua custódia e responsabilidade permanente.
-> - **B)** Correta. A NBASP 230 (Documentação de Auditoria) estabelece a chamada regra do **auditor experiente**: a documentação deve ser preparada em nível de detalhamento e clareza suficiente para que um auditor experiente, que não tenha participado anteriormente do trabalho, compreenda os objetivos, a metodologia, os testes realizados, as evidências que suportam os achados e a fundamentação técnica das conclusões e recomendações emitidas.
-> - **C)** Incorreta. Toda a memória de cálculo e os parâmetros amostrais devem constar obrigatoriamente nos papéis de trabalho.
-> - **D)** Incorreta. A destruição ou sonegação de evidências é infração gravíssima; evidências contraditórias devem ser registradas e tratadas tecnicamente.
-> - **E)** Incorreta. Os papéis de trabalho formam a base probatória idônea e documental indispensável que lastreia os achados e os processos de responsabilização no Tribunal de Contas.
+> - **A)** **Incorreto**. Os papéis de trabalho são de propriedade exclusiva do Tribunal de Contas / entidade fiscalizadora que os produziu ou reuniu.
+> - **B)** **Correto**. Os papéis de trabalho pertencem à Corte de Contas, servindo para evidenciar o cumprimento das normas de auditoria, apoiar a supervisão do trabalho e fundamentar com solidez documental o relatório, o parecer do Ministério Público de Contas e a decisão do colegiado.
+> - **C)** **Incorreto**. Subsidiam também o planejamento futuro, o controle de qualidade e a emissão de determinações corretivas.
+> - **D)** **Incorreto**. A revisão por pares e o controle de qualidade interno exigem o acesso irrestrito aos papéis de trabalho.
+> - **E)** **Incorreto**. Toda e qualquer fiscalização exige registro e arquivo comprobatório de evidências.
 >
 > **Gabarito: B**
-
----
-
-## 3. Técnicas e Procedimentos de Auditoria Governamental
-
-### 3.1 Quadro Geral dos Procedimentos de Obtenção de Evidências
-
-| Procedimento / Técnica | Conceito Operacional | Exemplo Prático de Aplicação |
-| :--- | :--- | :--- |
-| **Exame Documental** | Análise minuciosa da validade, idoneidade e legalidade formal de documentos fiscais, administrativos e contratuais. | Exame de termos de referência, certidões de regularidade, notas de empenho e notas fiscais eletrônicas. |
-| **Inspeção Física** | Constatação presencial e sensorial direta da existência física e qualidade de bens, estoques ou obras públicas. | Vistoria presencial em trecho de rodovia estadual para aferir espessura de asfalto e drenagem. |
-| **Conferência de Cálculos (Recálculo)** | Reexecução aritmética independente de operações matemáticas realizadas pelo órgão auditado. | Recálculo de fórmulas de reajuste de tarifas de transporte ou índices de BDI em planilhas de obras. |
-| **Observação Direta** | Acompanhamento ocular presencial de uma atividade operacional no momento exato em que é realizada. | Observação do procedimento de descarte de resíduos hospitalares pelo pessoal terceirizado. |
-| **Circularização (Confirmação Externa)** | Obtenção de declaração direta por escrito de terceiros independentes alheios ao órgão fiscalizado. | Envio de ofício a banco conveniado solicitando confirmação do saldo e titularidade de conta de convênio. |
-| **Procedimentos Analíticos (Revisão Analítica)** | Estudo e comparação de flutuações, índices e relações plausíveis entre dados operacionais e financeiros. | Confronto mensal entre o total de horas extras pagas e o volume de procedimentos médicos cirúrgicos realizados. |
-
-### 3.2 Modalidades de Circularização (Confirmação Externa)
-
-```mermaid
-flowchart TD
-    Circ["Modalidades de Circularização (Confirmação Externa)"]
-    Circ --> PosB["Positiva em Branco:<br/>Não informa o valor; terceiro preenche o saldo.<br/>(Altíssima confiabilidade)"]
-    Circ --> PosP["Positiva em Preto:<br/>Informa o saldo e pede confirmação de exatidão.<br/>(Alta confiabilidade)"]
-    Circ --> Neg["Negativa:<br/>Terceiro só responde se DISCORDAR do valor.<br/>(Baixa confiabilidade - silêncio gera dúvida)"]
-```
-
----
 
 ### Teste 191
-**(FCC - Analista Judiciário - Área Administrativa)**
-No planejamento da execução de auditoria contábil e de conformidade em uma secretaria estadual com milhares de processos de pagamento anuais, a equipe de auditoria optou pelo emprego de amostragem em auditoria.
+**(FCC – Analista Judiciário / Administrativa / Simulado)**  
+No planejamento e execução de auditorias do setor público, as equipes utilizam técnicas de amostragem para fundamentar suas conclusões sobre a população sob exame. A respeito da amostragem estatística e não estatística, é correto afirmar:
 
-Sobre as técnicas e modalidades de amostragem em auditoria governamental, assinale a afirmativa correta.
-
-* **A)** A amostragem não estatística (por julgamento) permite ao auditor mensurar matematicamente o risco de amostragem e extrapolar com precisão probabilística os resultados para toda a população.
-* **B)** Na amostragem estatística, a seleção dos itens da amostra ocorre de forma aleatória ou sistemática fundamentada no cálculo de probabilidades, permitindo que todos os itens da população tenham chance conhecida de serem selecionados, viabilizando a mensuração do risco de amostragem.
-* **C)** O risco de amostragem é o risco de o auditor aplicar testes inadequados ou interpretar incorretamente os documentos fiscais analisados.
-* **D)** A amostragem é obrigatória em 100% das fiscalizações de controle externo, sendo proibido aos auditores o exame integral (censo) de qualquer contrato.
-* **E)** O tamanho da amostra estatística independe do nível de confiança e da taxa de desvio tolerável definidos no plano de auditoria.
-
+* **A)** A amostragem não estatística (por julgamento) permite mensurar objetivamente o risco de amostragem em percentual.
+* **B)** A amostragem estatística exige seleção aleatória dos itens e aplicação da teoria das probabilidades aos dados.
+* **C)** O erro tolerável é o montante máximo de distorção aceito pelo gestor do órgão auditado na prestação de contas.
+* **D)** A estratificação populacional é vedada na auditoria financeira governamental por distorcer a média aritmética.
+* **E)** O tamanho da amostra diminui linearmente quando o auditor reduz o nível de risco de amostragem aceitável no teste de controle.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A amostragem não estatística (baseada exclusivamente no tirocínio ou julgamento do auditor) não permite calcular matematicamente o risco de amostragem nem extrapolar os resultados com rigor probabilístico.
-> - **B)** Correta. Na **amostragem estatística**, os itens são selecionados aleatoriamente com apoio no cálculo de probabilidades, conferindo a todos os elementos do universo a mesma probabilidade matemática de seleção e permitindo quantificar objetivamente o **risco de amostragem** e o nível de precisão dos testes.
-> - **C)** Incorreta. Falhas humanas na interpretação ou seleção de procedimentos inadequados configuram o **risco não amostral**. O risco de amostragem é a possibilidade de a conclusão baseada na amostra ser diferente daquela que seria obtida se toda a população fosse examinada.
-> - **D)** Incorreta. O auditor pode optar pelo exame integral (100% da população) quando o universo for pequeno ou quando os itens tiverem valor econômico extremamente elevado ou risco crítico.
-> - **E)** Incorreta. O tamanho da amostra é calculado em função direta do nível de confiança desejado, da margem de erro e da taxa de desvio tolerável.
+> - **A)** **Incorreto**. A amostragem não estatística fundamenta-se exclusivamente no julgamento do auditor, não permitindo o cálculo matemático exato do risco de amostragem.
+> - **B)** **Correto**. Conforme a NBASP 200 / NBC TA 530: a abordagem de amostragem que tem como características a seleção aleatória dos itens da amostra e o uso da teoria das probabilidades para avaliar os resultados (inclusive mensurar o risco de amostragem) é classificada tecnicamente como amostragem estatística.
+> - **C)** **Incorreto**. O erro/distorção tolerável é fixado tecnicamente pelo auditor (nível de materialidade na amostragem), e não pelo gestor.
+> - **D)** **Incorreto**. A estratificação (subdivisão da população em subpopulações homogêneas) é técnica altamente recomendada para aumentar a eficiência amostral.
+> - **E)** **Incorreto**. Se o auditor deseja correr menos risco (risco aceitável menor), ele deve aumentar o tamanho da amostra.
 >
 > **Gabarito: B**
-
----
 
 ### Teste 192
-**(FCC - Adaptada / TCE-RS - Auditor de Controle Externo)**
-No âmbito dos trabalhos de fiscalização governamental conduzidos por equipe de controle externo do Tribunal de Contas, os auditores compararam o volume mensal de combustível faturado por uma secretaria de estado com a quilometragem média rodada pelos veículos no mesmo período, constatando desvios e picos anômalos de consumo em determinados meses. A técnica de auditoria utilizada pela equipe denomina-se:
+**(FCC – Auditor de Controle Externo / TCE-RS / Simulado)**  
+No âmbito dos trabalhos de fiscalização governamental conduzidos por Tribunal de Contas, a equipe de auditoria decide obter uma declaração escrita diretamente de uma instituição bancária sobre os saldos mantidos por determinado fundo previdenciário público. Esse procedimento técnico de auditoria é denominado:
 
-* **A)** Circularização ativa.
-* **B)** Revisão analítica (ou procedimentos analíticos).
-* **C)** Inspeção física.
-* **D)** Conciliação contábil.
-* **E)** Conferência de cálculos.
-
+* **A)** inspeção física direta de bens e ativos estatais.
+* **B)** confirmação externa (circularização).
+* **C)** recálculo aritmético de lançamentos.
+* **D)** procedimento analítico comparativo.
+* **E)** reexecução de rotinas operacionais.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta:** Circularização consiste em obter confirmação externa formal de terceiros alheios à entidade auditada.  
-> - **B) CORRETA:** Os procedimentos analíticos (ou revisão analítica) compreendem a avaliação de informações financeiras e operacionais por meio de estudo e comparação das relações plausíveis entre dados financeiros e não financeiros, permitindo a detecção de flutuações, índices incoerentes ou variações atípicas que exijam investigação direcionada.  
-> - **C) Incorreta:** Inspeção física exige o exame presencial e sensorial da existência palpável de bens, obras ou estoques.  
-> - **D) Incorreta:** Conciliação contábil consiste em confrontar saldos contábeis internos com documentos de suporte (ex.: razão contábil e extrato bancário).  
-> - **E) Incorreta:** Conferência de cálculos consiste na mera repetição aritmética de cálculos prévios efetuados pela administração pública.
-> 
+> - **A)** **Incorreto**. Inspeção física consiste no exame físico de ativos ou bens tangíveis (ex.: conferir existência física de um veículo ou obra).
+> - **B)** **Correto**. A confirmação externa (comumente denominada circularização) é o procedimento de auditoria pelo qual o auditor obtém evidência direta de uma terceira parte independente (fora da entidade auditada), em formato escrito, para corroborar saldos bancários, contas a pagar/receber ou litígios em curso (NBASP 200 / NBC TA 505).
+> - **C)** **Incorreto**. Recálculo consiste na conferência da exatidão matemática de documentos ou registros.
+> - **D)** **Incorreto**. Procedimento analítico avalia informações financeiras por meio de análise de relações plausíveis entre dados.
+> - **E)** **Incorreto**. Reexecução envolve a realização independente pelo auditor de procedimentos ou controles já executados pela entidade.
+>
 > **Gabarito: B**
-
----
 
 ### Teste 193
-**(FGV - Auditor de Controle Externo / TCE-SC)**
-Durante auditoria de conformidade em contrato de fornecimento de merenda escolar, a equipe técnica do Tribunal de Contas necessitou confirmar os saldos financeiros e as entregas efetivas de mercadorias declaradas pela empresa contratada em notas fiscais suspeitas.
+**(FGV – Auditor de Controle Externo / TCE-SC / Simulado)**  
+Durante auditoria de conformidade em contrato de fornecimento de merenda escolar, a equipe de controle externo constatou indícios de superfaturamento de quantitativos e entrega de gêneros alimentícios impróprios para consumo. Para constatar a real ocorrência dos fatos, os auditores compareceram aos depósitos escolares durante o recebimento dos alimentos e examinaram as notas fiscais e certificados fitossanitários. Os procedimentos aplicados correspondem, respectivamente, a:
 
-Para tanto, os auditores enviaram correspondência formal direta aos fornecedores atacadistas primários da empresa, solicitando a confirmação formal e por escrito das quantidades e dos valores das notas emitidas contra a contratada.
-
-O procedimento de auditoria adotado denomina-se:
-
-* **A)** Inspeção física, que consiste no exame in loco das características visuais de um canteiro de obras.
-* **B)** Confirmação externa (circularização), caracterizada pela obtenção direta de uma declaração por escrito de um terceiro independente sobre determinadas informações fiscais, bancárias ou operacionais.
-* **C)** Procedimento analítico preliminar, baseado unicamente em gráficos e estatísticas orçamentárias gerais.
-* **D)** Reexecução, consubstanciada na repetição independente pelo auditor de cálculos aritméticos efetuados pela contabilidade.
-* **E)** Observação direta passiva de uma rotina burocrática de almoxarifado.
-
+* **A)** procedimento analítico e recálculo.
+* **B)** observação direta e inspeção documental.
+* **C)** confirmação externa e reexecução.
+* **D)** circularização e entrevista estruturada.
+* **E)** conciliação bancária e teste de aderência.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Inspeção física é a verificação material presencial da existência de bens ou obras.
-> - **B)** Correta. A **confirmação externa (ou circularização)**, disciplinada pela NBASP 505 / NBC TA 505, é a evidência obtida pelo auditor como uma resposta direta, por escrito e emitida por um terceiro independente (a parte que confirma) ao auditor, seja em formato de papel, eletrônico ou outro meio. É considerada uma das evidências de maior confiabilidade em auditoria governamental.
-> - **C)** Incorreta. Procedimentos analíticos envolvem avaliações de informações financeiras por meio de análise de relações plausíveis entre dados financeiros e não financeiros (análise de tendências e índices).
-> - **D)** Incorreta. A conferência matemática de somas e produtos denomina-se **recálculo**; **reexecução** é a realização independente de processos ou controles.
-> - **E)** Incorreta. Observação consiste em acompanhar presencialmente a realização de um procedimento executado por terceiros.
+> - **A)** **Incorreto**. Procedimento analítico envolve índices financeiros e recálculo confere cálculos aritméticos.
+> - **B)** **Correto**. Acompanhar in loco o recebimento físico dos alimentos configura o procedimento de "observação" (exame de um processo ou procedimento executado por terceiros). Por sua vez, o exame das notas fiscais e certificados fitossanitários constitui o procedimento de "inspeção" documental (exame de registros ou documentos, internos ou externos, em papel ou meio eletrônico - NBASP 100/200).
+> - **C)** **Incorreto**. Confirmação externa exige comunicação com terceiro externo e reexecução é refazer controles.
+> - **D)** **Incorreto**. Circularização é envio de cartas a terceiros.
+> - **E)** **Incorreto**. Não se trata de reconciliação de contas contábeis.
 >
 > **Gabarito: B**
-
----
-
-## 4. Evidências de Auditoria: Os Três Pilares da Validade
-
-As conclusões do relatório de auditoria dependem da colheita de evidências que satisfaçam cumulativamente:
-
-1. **Suficiência (Aspecto Quantitativo):** Mede a quantidade de evidência colhida. Deve ser persuasiva o bastante para convencer uma pessoa sensata e prudente.
-2. **Adequação / Relevância (Aspecto Qualitativo):** Pertinência da evidência em relação aos objetivos dos testes e às questões de auditoria formuladas.
-3. **Confiabilidade:** Grau de autenticidade da evidência.
-    - Evidências obtidas de **fontes externas independentes** são mais confiáveis do que as obtidas dentro da entidade auditada.
-    - Evidências obtidas **diretamente pelo auditor** (ex.: inspeção física pessoal) são mais confiáveis do que as obtidas indiretamente.
-    - Documentos **originais** são mais confiáveis do que fotocópias ou impressões digitalizadas.
-
----
 
 ### Teste 194
-**(FCC - Procurador do Estado / Adaptada)**
-A validade e a força persuasiva de um relatório de auditoria emitido pelo Tribunal de Contas dependem diretamente da qualidade das evidências coligidas pela equipe técnica durante os trabalhos de fiscalização.
+**(FCC – Procurador do Estado / Simulado)**  
+A validade e a força persuasiva de um relatório de fiscalização do Tribunal de Contas dependem da qualidade das evidências obtidas pelos auditores durante a instrução do processo. A respeito dos atributos da suficiência e da apropriação (relevância e confiabilidade) das evidências de auditoria, é correto afirmar:
 
-Nos termos da NBASP 100, para que sustentem adequadamente um achado de auditoria, as evidências devem ser:
-
-* **A)** Secretas e mantidas fora do alcance do contraditório do gestor responsável até a publicação do acórdão condenatório.
-* **B)** Suficientes (em quantidade adequada para convencer uma pessoa razoável) e apropriadas (relevantes, válidas e confiáveis em relação ao critério e ao objeto da auditoria).
-* **C)** Obtidas exclusivamente mediante confissão expressa do servidor público em termo de oitiva formal.
-* **D)** Subjetivas e fundamentadas em ilações conjecturais da imprensa local.
-* **E)** Restritas a cópias reprográficas autenticadas em cartório por tabelião de notas.
-
+* **A)** A suficiência é a medida da qualidade da evidência obtida pelos auditores no campo.
+* **B)** A suficiência é a medida da quantidade da evidência, e a apropriação é a medida de sua qualidade.
+* **C)** Evidências obtidas de fontes internas da entidade são mais confiáveis do que as de fontes externas.
+* **D)** A obtenção de evidências orais colhidas em conversas informais dispensa a formalização por escrito.
+* **E)** Documentos originais e cópias autenticadas possuem menor valor probatório do que impressões anônimas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. As evidências devem ser disponibilizadas ao auditado para assegurar o contraditório e a ampla defesa.
-> - **B)** Correta. A NBASP 100 estatui categoricamente que o auditor deve obter **evidência de auditoria suficiente e apropriada** para fundamentar suas conclusões e recomendações: (1) **Suficiência** é a medida da *quantidade* de evidência necessária; (2) **Apropriação** é a medida da *qualidade* da evidência (sua relevância em relação ao critério e sua confiabilidade na representação da realidade).
-> - **C)** Incorreta. Em auditoria governamental a evidência documental, física e analítica prevalece sobre o mero testemunho verbal.
-> - **D)** Incorreta. Achados não podem ser embasados em meras suposições, boatos ou conjecturas; exigem substrato probatório fático e documental idôneo.
-> - **E)** Incorreta. O princípio da verdade material e o art. 37 da CF dispensam a autenticação cartorária de documentos oficiais da administração pública.
+> - **A)** **Incorreto**. A qualidade é mensurada pela *apropriação* (relevância e confiabilidade); a suficiência afere a quantidade.
+> - **B)** **Correto**. Conforme a NBASP 100 e a NBASP 200: a "suficiência" é a medida da quantidade de evidência de auditoria necessária para fundamentar as conclusões (influenciada pelo risco de auditoria e pela qualidade dessas evidências). A "apropriação" é a medida da qualidade da evidência de auditoria, ou seja, sua relevância e sua confiabilidade para fornecer suporte às conclusões do auditor.
+> - **C)** **Incorreto**. A confiabilidade da evidência é maior quando obtida de fontes independentes externas à entidade auditada.
+> - **D)** **Incorreto**. Evidências orais isoladas são de baixa confiabilidade e devem ser confirmadas por escrito ou complementadas por provas documentais.
+> - **E)** **Incorreto**. Documentos originais possuem maior confiabilidade do que cópias ou documentos apócrifos.
 >
 > **Gabarito: B**
-
----
-
-## 5. A Estrutura Anatômica do Achado de Auditoria
-
-### 5.1 Os Quatro Elementos do Achado
-O **Achado de Auditoria** é a discrepância relevante identificada entre a situação real constatada e o parâmetro ideal normativo:
-
-```text
-┌────────────────────────────────────────────────────────────────────────┐
-│                        ANATOMIA DO ACHADO DE AUDITORIA                 │
-├───────────────────┬────────────────────────────────────────────────────┤
-│ 1. CRITÉRIO       │ O padrão normativo ideal ("O que deveria ser")     │
-│                   │ Ex.: O art. 72 da Lei 14.133/21 exige prévio ETP.  │
-├───────────────────┼────────────────────────────────────────────────────┤
-│ 2. CONDIÇÃO       │ A realidade fática encontrada ("O que é")          │
-│                   │ Ex.: Contratação de R$ 3 milhões executada sem ETP.│
-├───────────────────┼────────────────────────────────────────────────────┤
-│ 3. CAUSA          │ A razão explicativa do desvio ("Por que ocorreu")  │
-│                   │ Ex.: Falha no controle interno e falta de servidores.│
-├───────────────────┼────────────────────────────────────────────────────┤
-│ 4. EFEITO         │ A consequência real ou potencial ("Qual o impacto")│
-│                   │ Ex.: Superfaturamento e contratação superdimensionada.│
-└───────────────────┴────────────────────────────────────────────────────┘
-```
-
-### 5.2 Matriz de Responsabilização e a LINDB (Art. 28)
-Ao propor imputação de débito ou cominação de multas sancionatórias a agentes públicos, a equipe de auditoria deve confeccionar obrigatoriamente a **Matriz de Responsabilização**, demonstrando:
-
-- **Identificação Individual:** Nome, CPF e cargo do agente público ou privado;
-- **Conduta:** Ação ou omissão específica imputada ao gestor;
-- **Nexo de Causalidade:** Vínculo fático entre o ato praticado e o resultado lesivo gerado ao erário;
-- **Culpabilidade:** Demonstração expressa de que o agente agiu com **dolo ou erro grosseiro** (culpa manifesta e inescusável), nos exatos termos do **Art. 28 da LINDB**.
-
----
 
 ### Teste 195
-**(FCC - Adaptada / TCE-AM - Auditor de Controle Externo)**
-Em relatório de fiscalização de obras rodoviárias, a equipe técnica do Tribunal de Contas registrou a ocorrência de fissuras e afundamentos prematuros no asfalto decorrentes da utilização de ligante betuminoso com espessura inferior à exigida nas especificações do projeto executivo aprovado pela Agência Goiana de Infraestrutura. De acordo com a metodologia de estruturação de achados de auditoria preconizada pelas normas de auditoria do setor público (NBASP), a especificação do projeto executivo e o asfalto com espessura inferior constituem, respectivamente:
+**(FCC – Auditor de Controle Externo / TCE-AM / Simulado)**  
+Em relatório de auditoria de obras rodoviárias, a equipe do Tribunal de Contas apontou que a camada asfáltica executada pela empreiteira apresentou espessura média de 3 cm (situação encontrada), enquanto as especificações do edital e o projeto executivo exigiam espessura de 5 cm (critério normativo), gerando degradação prematura do pavimento e risco de prejuízo financeiro ao Estado (efeito). No jargão da auditoria governamental, a integração harmônica desses elementos caracteriza um:
 
-* **A)** Condição e Critério.
-* **B)** Causa e Efeito.
-* **C)** Critério e Condição.
-* **D)** Efeito e Causa.
-* **E)** Matriz de Risco e Evidência.
-
+* **A)** escopo de amostragem estatística.
+* **B)** plano preliminar de fiscalização.
+* **C)** achado de auditoria governamental.
+* **D)** mapa institucional de riscos operacionais.
+* **E)** termo de ajustamento de conduta executivo.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta:** A ordem está invertida.  
-> - **B) Incorreta:** A causa foi a falha na dosagem ou fiscalização do executor; o efeito foram as fissuras e o prejuízo financeiro.  
-> - **C) CORRETA:** Na metodologia do achado de auditoria:  
->     - **Critério:** É o padrão normativo, contratual ou técnico ideal ("o que deveria ser") – neste caso, as especificações técnicas obrigatórias do projeto executivo aprovado.  
->     - **Condição (ou Situação Encontrada):** É a realidade fática verificada pelo auditor *in loco* ("o que é") – neste caso, a aplicação de camada asfáltica com espessura inferior à contratada.  
-> - **D) Incorreta:** As deformidades e fissuras representam o efeito/impacto danoso gerado na rodovia.  
-> - **E) Incorreta:** Matriz de risco é ferramenta prévia de planejamento, e não elemento integrante da anatomia do achado.
-> 
+> - **A)** **Incorreto**. Escopo define os limites e a amplitude dos exames.
+> - **B)** **Incorreto**. Plano de fiscalização antecede a execução da auditoria.
+> - **C)** **Correto**. Conforme o Manual de Auditoria do TCU, a NBASP 100 e a NBASP 300: o "Achado de Auditoria" é qualquer fato significativo, relevante e respaldado por evidências suficientes e apropriadas, composto classicamente por quatro elementos estruturantes: Condição (situação encontrada), Critério (o que deveria ser conforme a norma), Causa (a razão da desconformidade) e Efeito/Impacto (as consequências reais ou potenciais da distorção).
+> - **D)** **Incorreto**. Mapa de riscos é ferramenta de governança da administração pública.
+> - **E)** **Incorreto**. TAC é instrumento consensual de resolução de conflitos celebrado com o MP.
+>
 > **Gabarito: C**
 
----
-
 ### Teste 196
-**(FCC - Adaptada / Analista Jurídico de Controle)**
-Ao elaborar a Matriz de Responsabilização em processo de tomada de contas especial decorrente de auditoria, a unidade técnica do Tribunal de Contas imputou dever de ressarcir o erário a determinado Secretário de Estado em virtude de pagamento indevido de adicional de periculosidade a servidores administrativos.
+**(FCC – Analista Jurídico de Controle / Simulado)**  
+Ao elaborar a Matriz de Responsabilização em processo de tomada de contas especial decorrente de achado de superfaturamento em compras públicas, a equipe de auditoria deve identificar com rigor técnico o nexo causal e o elemento subjetivo da conduta dos responsáveis. Para imputação de débito sancionatório com base no art. 28 da LINDB, é indispensável demonstrar que o agente público atuou com:
 
-Nos termos do artigo 28 da Lei de Introdução às Normas do Direito Brasileiro (LINDB), para que o agente público responda pessoalmente por suas decisões perante o Tribunal de Contas, é necessário demonstrar que ele agiu:
-
-* **A)** Com qualquer modalidade de culpa leve, aplicando-se a teoria do risco integral administrativo.
-* **B)** Com dolo ou erro grosseiro.
-* **C)** Sem aprovação prévia da Procuradoria-Geral do Estado, independentemente de demonstração de culpabilidade.
-* **D)** Exclusivamente com motivação político-partidária de oposição.
-* **E)** Em contrariedade a parecer técnico não vinculante emitido por estagiário do órgão.
-
+* **A)** culpa leve decorrente de erro procedimental escusável.
+* **B)** dolo ou erro grosseiro na prática do ato administrativo.
+* **C)** responsabilidade objetiva pura decorrente da titularidade do cargo público.
+* **D)** boa-fé estrita respaldada em parecer técnico vinculante.
+* **E)** omissão irrelevante desprovida de nexo com o dano apurado.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta:** A responsabilidade pessoal sancionatória e ressarcitória do gestor perante o Tribunal de Contas não é objetiva (risco integral), exigindo elemento subjetivo qualificado. Culpa levíssima ou escusável não autoriza condenação pessoal.  
-> - **B) CORRETA:** O art. 28 da LINDB (com redação dada pela Lei nº 13.655/2018) estabelece categoricamente: *"O agente público responderá pessoalmente por suas decisões ou opiniões técnicas em caso de **dolo ou erro grosseiro**."* O erro grosseiro é a culpa grave, inescusável, resultante de desatenção manifesta que o gestor médio não cometeria.  
-> - **C) Incorreta:** A ausência de consulta jurídica isoladamente não presume a culpa grave do agente.  
-> - **D) Incorreta:** O art. 28 exige dolo ou erro grosseiro no plano da conduta material, e não motivação partidária.  
-> - **E) Incorreta:** Pareceres informais não vinculantes não constituem critério objetivo para definição da responsabilidade do gestor.
-> 
+> - **A)** **Incorreto**. O art. 28 da LINDB afasta a responsabilização pessoal por mera culpa leve ou erro desprovido de gravidade excepcional.
+> - **B)** **Correto**. Conforme o art. 28 da Lei de Introdução às Normas do Direito Brasileiro (LINDB - Decreto-Lei nº 4.657/1942, incluído pela Lei nº 13.655/2018): "O agente público responderá pessoalmente por suas decisões ou opiniões técnicas em caso de dolo ou erro grosseiro". A jurisprudência consolidada do STF e do TCU define o erro grosseiro como a culpa grave, caracterizada pela inobservância do dever geral de cuidado que uma pessoa com diligência média adotaria nas mesmas circunstâncias.
+> - **C)** **Incorreto**. A responsabilidade do gestor perante os Tribunais de Contas é de natureza subjetiva, exigindo comprovação de conduta, dano, nexo causal e dolo ou culpa grave.
+> - **D)** **Incorreto**. A boa-fé elide a sanção, e não a fundamenta.
+> - **E)** **Incorreto**. Sem nexo de causalidade não há responsabilização civil ou sancionatória.
+>
 > **Gabarito: B**
-
----
 
 ### Teste 197
-**(FGV - Analista Jurídico de Controle Externo / TCE-GO)**
-Ao finalizar os trabalhos de fiscalização, a equipe de auditoria do Tribunal de Contas estruturou a matriz de achados, identificando deficiências materiais na execução de um programa estadual de incentivo à agricultura familiar.
+**(FGV – Analista Jurídico de Controle Externo / TCE-GO / Simulado)**  
+Ao finalizar os trabalhos de execução no campo, antes da emissão definitiva do relatório de auditoria, a equipe técnica do Tribunal de Contas realiza reuniões com a administração auditada para apresentação preliminar dos achados e discussão das conclusões. A respeito da comunicação dos achados de auditoria e da solicitação de manifestação dos gestores antes do relatório final, é correto afirmar:
 
-A respeito dos elementos constitutivos de um achado de auditoria e das deliberações propositivas emitidas pelo Tribunal de Contas, assinale a afirmativa correta.
-
-* **A)** A condição é o padrão ideal que deveria existir conforme estabelecido na lei ou nas melhores práticas de gestão.
-* **B)** O achado de auditoria estrutura-se em quatro elementos fundamentais: a condição (a situação encontrada na prática), o critério (o que deveria ser segundo a lei ou padrão), a causa (a razão pela qual a condição ocorreu) e o efeito (a consequência prática ou impacto do desvio).
-* **C)** A recomendação constitui mandamento cogente e impositivo que obriga o gestor a cumprir ordem específica sob pena de prisão imediata.
-* **D)** A determinação é mera sugestão de melhoria operacional desprovida de qualquer força coercitiva.
-* **E)** O efeito de um achado de auditoria limita-se unicamente ao valor monetário do prejuízo contábil imediato.
-
+* **A)** É vedada aos auditores sob pena de violação do sigilo das apurações preliminares do Tribunal de Contas.
+* **B)** É prática recomendada para assegurar clareza aos fatos e oportunidade de esclarecimento prévio.
+* **C)** Transfere para a administração auditada a titularidade formal sobre a redação do relatório final de controle externo.
+* **D)** Condiciona a validade do relatório à anuência e concordância expressa de todas as autoridades fiscalizadas.
+* **E)** Impede a posterior aplicação de sanções administrativas caso os gestores reconheçam expressamente a falha.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O padrão normativo que deveria existir denomina-se **critério**. A situação fática real encontrada no órgão é a **condição**.
-> - **B)** Correta. Dogmática clássica de auditoria governamental (NBASP 300 e Manual de Auditoria Operacional do TCU/TCEs): todo **achado de auditoria** compõe-se de quatro elementos indissociáveis: (1) **Condição**: o que é (a realidade fática constatada); (2) **Critério**: o que deveria ser (a norma legal, técnica ou boa prática); (3) **Causa**: por que ocorreu (a falha estrutural, omissão ou deficiência); (4) **Efeito**: qual a consequência (o dano patrimonial, social ou ineficiência gerada).
-> - **C)** Incorreta. A recomendação tem caráter propositivo e orientativo para aperfeiçoar a gestão; não é ordem coativa punível com prisão.
-> - **D)** Incorreta. A **determinação** tem caráter cogente e impositivo, determinando a correção de ilegalidade sob pena de multa e responsabilização funcional do gestor.
-> - **E)** Incorreta. O efeito abrange tanto impactos financeiros quanto sociais, qualitativos, ambientais e institucionais.
+> - **A)** **Incorreto**. As normas internacionais de auditoria e os regimentos dos TCs preconizam expressamente a comunicação e o diálogo prévio com a entidade auditada.
+> - **B)** **Correto**. Conforme as diretrizes da NBASP 100, NBASP 300 e dos Manuais de Auditoria do TCU e dos Tribunais de Contas: a apresentação da versão preliminar dos achados (ou reunião de encerramento dos trabalhos de campo) oportuniza à entidade auditada manifestar-se sobre a fidedignidade dos fatos narrados, apontar eventuais equívocos fáticos ou apresentar documentos adicionais, agregando solidez e credibilidade às conclusões dos auditores.
+> - **C)** **Incorreto**. O relatório permanece sob a inteira e exclusiva responsabilidade técnica e autoral da equipe de fiscalização.
+> - **D)** **Incorreto**. A discordância da administração auditada não impede a manutenção do achado, cabendo apenas o registro de suas contra-argumentações.
+> - **E)** **Incorreto**. O reconhecimento não anula a irregularidade nem elide a competência sancionatória do Tribunal.
 >
 > **Gabarito: B**
 
----
-
-## 🌐 Fontes Oficiais & Manuais Técnicos Recomendados
-
-* [TCU - Boas Práticas e Padrões de Auditoria Governamental](https://portal.tcu.gov.br/governanca/governanca-no-tcu/) - Diretrizes institucionais de auditoria, matriz de planejamento, achados e matriz de responsabilização.
-* [Lei Estadual nº 16.168/2007 - Do Planejamento das Fiscalizações](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/86708/lei-16168) - Regras para inclusão de matérias no plano anual de fiscalização e dever de colaboração dos gestores.
-* [TCE-GO - Plano Institucional de Fiscalização e Governança](https://portal.tce.go.gov.br/governanca-planejamento-e-gestao/planos-institucionais/plano-de-fiscalizacao) - Planejamento anual e plurianual das ações de fiscalização externa no Estado de Goiás.
-* [TCE-GO - Competências e Jurisdição Institucional](https://portal.tce.go.gov.br/competencias) - Bases legais para requisição de documentos, fixação de prazos e fiscalização de convênios e contratos.
-* [Constituição Federal de 1988 - Arts. 70 a 74 (Controle Interno e Externo)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art70) - Apoio obrigatório do controle interno ao controle externo e dever de comunicação de irregularidades sob pena de responsabilidade solidária.
-* CHAVES, Francisco Eduardo Carrilho. **Controle Externo da Gestão Pública**. 3. ed. Niterói: Impetus, 2016. (Cap. 5 - Fases da Auditoria: Planejamento, Execução e Achados).
-* CASTRO, Domingos Poubel de. **Auditoria e Controle Interno na Administração Pública**. 3. ed. São Paulo: Atlas, 2019. (Cap. 6 - Procedimentos de Auditoria, Amostragem e Evidências).
-* ZYMLER, Benjamin. **Direito Administrativo e Controle**. 3. ed. Belo Horizonte: Fórum, 2015. (Cap. 4 - O Achado de Auditoria e a Matriz de Responsabilização).

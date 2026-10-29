@@ -249,7 +249,7 @@ Quanto à função sintática exercida pelas orações destacadas, assinale a al
 * **A)** Em 1, a oração é subordinada substantiva objetiva direta; em 2, é subordinada substantiva subjetiva.
 * **B)** Em 1, a oração exerce a função de sujeito do verbo *ser* (subordinada substantiva subjetiva); em 2, funciona como objeto direto da forma verbal *constatou* (subordinada substantiva objetiva direta).
 * **C)** Ambas as orações exercem a função de aposto explicativo do termo antecedente.
-* **D)** Em 1 e 2, as orações classificam-se como subordinadas adjetivas explicativas introduzidas por pronome relativo.
+* **D)** Em 1 e 2, as orações classificam-se como subordinadas adjetivas explicativas introduzidas por pronome relativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **E)** Em 1, a oração é completiva nominal dependente do predicativo *fundamental*; em 2, é adverbial causal.
 
 
@@ -275,7 +275,7 @@ A respeito da oração sublinhada e do emprego das vírgulas que a isolam, é co
 * **A)** A oração é subordinada adjetiva restritiva, e a eliminação das duas vírgulas manteria inalterado o sentido original do enunciado.
 * **B)** Trata-se de oração subordinada adjetiva explicativa, cuja supressão das vírgulas manteria a correção gramatical, mas alteraria o sentido original do período.
 * **C)** As vírgulas são de emprego facultativo, pois isolam adjunto adverbial de curta extensão.
-* **D)** A oração exerce função de oração coordenada sindética explicativa, sendo obrigatória a substituição do pronome *que* por *porquanto*.
+* **D)** A oração exerce função de oração coordenada sindética explicativa, sendo obrigatória a substituição do pronome *que* por *porquanto* em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **E)** A retirada das vírgulas tornaria a frase agramatical e incorreta perante a norma-padrão.
 
 
@@ -369,7 +369,7 @@ Os conectivos destacados expressam, correta e respectivamente, as noções circu
 * **A)** tempo e causa.
 * **B)** proporção e consequência.
 * **C)** concessão e finalidade.
-* **D)** condição e conformidade.
+* **D)** condição e conformidade em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **E)** proporção e explicação.
 
 
@@ -416,7 +416,7 @@ O conectivo destacado introduz relação de sentido e pode ser substituído, man
 **(FCC – DPE-RS – Analista de Processos)**  
 Assinale a frase em que o conectivo **COMO** expressa relação semântica de **causa**:
 
-* **A)** *"O técnico de suporte agiu rapidamente, como orientava o protocolo de segurança da informação."*
+* **A)** *"O técnico de suporte agiu rapidamente, como orientava o protocolo de segurança da informação."* em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **B)** *"O novo sistema operacional era rápido e silencioso como um raio."*
 * **C)** *"Como o prazo de apresentação de defesa havia expirado na véspera, o gestor foi declarado revel."*
 * **D)** *"A comissão convocou não apenas o presidente da fundação, como também o contador-geral."*
@@ -539,7 +539,7 @@ Considere a pontuação no período abaixo:
 Sobre o emprego dos sinais de pontuação no trecho, assinale a alternativa correta:
 
 * **A)** O ponto e vírgula separa orações coordenadas de certa extensão que guardam contraste semântico, estando a segunda oração marcada por conectivo adversativo deslocado.
-* **B)** O ponto e vírgula foi empregado incorretamente, devendo ser compulsoriamente substituído por dois-pontos para introduzir uma citação.
+* **B)** O ponto e vírgula foi empregado incorretamente, devendo ser compulsoriamente substituído por dois-pontos para introduzir uma citação em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **C)** As vírgulas que isolam *"no entanto"* são de emprego facultativo, podendo ser suprimidas sem nenhum prejuízo às normas gramaticais.
 * **D)** O ponto e vírgula deveria ser substituído por ponto de exclamação para realçar a indignação do autor.
 * **E)** É obrigatória a aposição de vírgula imediatamente após o termo *"combalidos financeiramente"*, sob pena de quebra da regência verbal.
@@ -570,7 +570,7 @@ Comparando-se as frases I e II quanto aos efeitos semânticos e sintáticos deco
 
 * **A)** Em I e II, o sentido é estritamente idêntico, sendo o uso das vírgulas mero capricho de estilo do redator.
 * **B)** Em I, a oração sem vírgulas restringe o sentido de *auditores*, indicando que apenas um grupo específico deles concluiu o curso; em II, a oração entre vírgulas é explicativa, atribuindo a conclusão da capacitação à totalidade dos auditores referidos.
-* **C)** Em II, a oração entre vírgulas restringe o universo dos auditores, ao passo que em I generaliza para toda a categoria profissional.
+* **C)** Em II, a oração entre vírgulas restringe o universo dos auditores, ao passo que em I generaliza para toda a categoria profissional considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **D)** A frase I contém erro gramatical grave por não pontuar oração adjetiva introduzida por pronome relativo.
 * **E)** A frase II apresenta pontuação incorreta porque nunca se deve isolar orações adjetivas por vírgulas.
 

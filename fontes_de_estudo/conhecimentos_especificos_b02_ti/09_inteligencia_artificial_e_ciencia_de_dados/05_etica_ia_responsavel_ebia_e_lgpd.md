@@ -108,7 +108,7 @@ A governança ética da Inteligência Artificial consolidou-se internacionalment
 
 A respeito dos princípios reitores estabelecidos pela OCDE para sistemas de IA confiáveis (*Trustworthy AI*), assinale a afirmativa correta:
 
-* **A)** A OCDE recomenda que o desenvolvimento de sistemas de IA seja mantido em sigilo governamental, dispensando transparência e rastreabilidade para acelerar a inovação.
+* **A)** A OCDE recomenda que o desenvolvimento de sistemas de IA seja mantido em sigilo governamental, dispensando transparência e rastreabilidade para acelerar a inovação considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **B)** Os princípios da OCDE determinam que os sistemas de IA devem: (1) impulsionar o crescimento inclusivo, desenvolvimento sustentável e bem-estar; (2) respeitar os direitos humanos, Estado de Direito e equidade; (3) operar com transparência e explicabilidade responsável; (4) garantir robustez técnica, segurança contínua e proteção; e (5) contar com responsabilização e prestação de contas (*accountability*) dos atores de IA.
 * **C)** A OCDE estabelece a proibição global de qualquer aplicação de IA no setor público e no poder judiciário.
 * **D)** A Recomendação da UNESCO preconiza que modelos de linguagem devem substituir juízes e conselheiros de tribunais em decisões colegiadas vinculantes.
@@ -144,7 +144,7 @@ No contexto de avaliação de preconceito algorítmico, o critério do **Impacto
 * **B)** Exatamente 80% das linhas do banco de dados contêm valores nulos na coluna demográfica.
 * **C)** O modelo atinge acurácia global de 80% em testes sintéticos em laboratório.
 * **D)** O sistema de IA descarta 80% de todas as candidaturas sem qualquer leitura de atributos.
-* **E)** O modelo é aprovado sem vieses se o número de conexões na rede neural for múltiplo de 80.
+* **E)** O modelo é aprovado sem vieses se o número de conexões na rede neural for múltiplo de 80 considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
 
 
 ---
@@ -171,7 +171,7 @@ A respeito dos conceitos de equidade (*fairness*) e dos modelos de supervisão h
 
 * **A)** O modelo *Human-in-the-Loop* (HITL) caracteriza-se pela completa ausência de supervisores humanos na esteira operacional, permitindo que a IA tome decisões definitivas de maneira 100% autônoma e irrecorrível.
 * **B)** O viés de representação (*representation bias*) ocorre quando determinadas classes ou grupos sociais estão insuficientemente representados ou ausentes da base amostral de treinamento do modelo, o que pode provocar degradação de desempenho e maior taxa de erros contra esses grupos.
-* **C)** O princípio da Não Discriminação é plenamente atendido pela simples eliminação formal do atributo "gênero" ou "raça" da tabela, sendo impossível que outras variáveis presentes (como CEP ou ocupação) funcionem como variáveis substitutas (*proxies*) indiretas.
+* **C)** O princípio da Não Discriminação é plenamente atendido pela simples eliminação formal do atributo "gênero" ou "raça" da tabela, sendo impossível que outras variáveis presentes (como CEP ou ocupação) funcionem como variáveis substitutas (*proxies*) indiretas no âmbito da administração pública direta e indireta.
 * **D)** O modelo *Human-on-the-Loop* (HOTL) exige que o magistrado humano execute manualmente todos os cálculos matriciais de tensores antes de autorizar o processamento do algoritmo.
 * **E)** A equidade algorítmica é um conceito puramente comercial sem relevância para os órgãos públicos do Poder Judiciário e Tribunais de Contas.
 
@@ -260,7 +260,7 @@ Em projetos de Inteligência Artificial aplicada ao setor público, gestores e c
 A respeito da classificação dos modelos segundo esse paradigma, assinale a afirmativa correta:
 
 * **A)** Redes neurais convolucionais profundas e modelos *Ensemble* baseados em *Gradient Boosting* (como XGBoost) são modelos intrinsecamente interpretáveis por natureza (*White-Box*), permitindo inspecionar cada decisão por meio de simples fórmulas aritméticas de uma única linha.
-* **B)** Modelos como Regressão Linear, Regressão Logística e Árvores de Decisão de baixa profundidade possuem alta interpretabilidade intrínseca (*Simulated Transparency*), pois sua estrutura de coeficientes ou caminhos de nós lógicos é inteligível para seres humanos; contudo, podem apresentar menor capacidade preditiva em padrões altamente não lineares e complexos em comparação a modelos "caixa-preta" (*Black-Box*).
+* **B)** Modelos como Regressão Linear, Regressão Logística e Árvores de Decisão de baixa profundidade possuem alta interpretabilidade intrínseca (*Simulated Transparency*).
 * **C)** A explicabilidade de um modelo é irrelevante em auditorias governamentais e processos judiciais eletrônicos, visto que a legislação brasileira proíbe qualquer questionamento sobre decisões automatizadas por software.
 * **D)** Aumentar o número de camadas ocultas e parâmetros de uma rede neural profunda melhora automaticamente sua transparência e facilidade de auditoria.
 * **E)** Todos os algoritmos de Machine Learning possuem exatamente o mesmo nível de opacidade matemática.
@@ -290,7 +290,7 @@ A respeito dos fundamentos matemáticos e características do SHAP e do LIME, as
 * **A)** O SHAP baseia-se na Teoria dos Jogos Cooperativos formulada por Lloyd Shapley, garantindo propriedades axiomáticas de consistência, simetria e aditividade local ao mensurar a contribuição marginal de cada variável para a predição.
 * **B)** O LIME é um método estritamente global que só é capaz de explicar o comportamento de modelos lineares de regressão, sendo incapaz de processar redes neurais ou árvores de decisão.
 * **C)** O SHAP descarta as permutações de coalizões de atributos e atribui pesos aleatórios aos dados com base em uma função de densidade de Poisson uniforme.
-* **D)** O método LIME calcula o valor exato de todas as coalizões de atributos em nível populacional global com garantia matemática de aditividade exata, enquanto o SHAP restringe-se a perturbações empíricas pontuais.
+* **D)** O método LIME calcula o valor exato de todas as coalizões de atributos em nível populacional global com garantia matemática de aditividade exata, enquanto o SHAP restringe-se a perturbações empíricas pontuais no âmbito da administração pública direta e indireta.
 * **E)** Ambos os métodos exigem acesso obrigatório e exclusivo aos códigos-fonte proprietários dos compiladores para operar, sendo proibido seu uso em bibliotecas abertas como Scikit-Learn.
 
 
@@ -316,7 +316,7 @@ A respeito do mecanismo de funcionamento matemático e conceitual do LIME, assin
 
 * **A)** O LIME substitui permanentemente o modelo caixa-preta global por uma única equação diferencial em todo o espaço de dados.
 * **B)** O LIME baseia-se no princípio de que, embora um modelo complexo de IA possa ser altamente não linear e incompreensível globalmente, o seu comportamento no entorno local de uma predição específica pode ser satisfatoriamente aproximado por um modelo interpretável simples (como uma regressão linear ponderada), treinado sobre amostras artificialmente perturbadas ao redor da instância sob análise.
-* **C)** O LIME só funciona com algoritmos baseados em árvores de decisão, sendo incompatível com redes neurais ou modelos de processamento de texto.
+* **C)** O LIME só funciona com algoritmos baseados em árvores de decisão, sendo incompatível com redes neurais ou modelos de processamento de texto considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **D)** O LIME exige acesso irrestrito ao código-fonte interno e às derivadas dos gradientes da rede neural, violando o princípio modelo-agnóstico.
 * **E)** A explicabilidade do LIME é estritamente global, revelando o funcionamento da base inteira sem focar em instâncias individuais.
 
@@ -394,7 +394,7 @@ Dentre os princípios expressos no Art. 6º da LGPD, o preceito legal que vincul
 
 * **A)** Princípio do Livre Acesso, que obriga a publicação irrestrita de todas as senhas de banco de dados na internet.
 * **B)** Princípio da Não Discriminação, o qual estabelece a impossibilidade de realização do tratamento de dados pessoais para fins discriminatórios ilícitos ou abusivos.
-* **C)** Princípio da Portabilidade, que exige a transferência compulsória de dados entre tribunais concorrentes sem consentimento.
+* **C)** Princípio da Portabilidade, que exige a transferência compulsória de dados entre tribunais concorrentes sem consentimento no âmbito da administração pública direta e indireta.
 * **D)** Princípio da Finalidade, que autoriza o uso genérico e indefinido de dados para qualquer objetivo futuro imprevisível.
 * **E)** Princípio da Retaliação, que permite punir cidadãos que solicitarem a exclusão de seus dados pessoais.
 
@@ -423,7 +423,7 @@ Um contribuinte teve sua certidão negativa de débitos fiscais cancelada de for
 
 * **A)** O controlador agiu de forma estritamente legal, pois a LGPD não prevê qualquer prerrogativa de revisão para decisões tomadas com base em tratamento automatizado de dados pessoais.
 * **B)** Nos termos do Artigo 20 da LGPD, o titular dos dados tem o direito de solicitar a revisão de decisões tomadas unicamente com base em tratamento automatizado de dados pessoais que afetem seus interesses, tendo o controlador a obrigação de prestar informações claras e adequadas a respeito dos critérios e dos procedimentos utilizados.
-* **C)** A alegação de sigilo comercial e industrial por parte do controlador cessa qualquer possibilidade de auditoria pelo Estado, extinguindo as competências da Autoridade Nacional de Proteção de Dados (ANPD).
+* **C)** A alegação de sigilo comercial e industrial por parte do controlador cessa qualquer possibilidade de auditoria pelo Estado, extinguindo as competências da Autoridade Nacional de Proteção de Dados (ANPD) considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **D)** As decisões tomadas por algoritmos no setor público prescindem de motivação legal, dada a presunção jurídica de infalibilidade dos cálculos matemáticos.
 * **E)** A LGPD autoriza expressamente a discriminação ilícita ou abusiva quando esta for executada por algoritmos de aprendizado profundo (*deep learning*).
 
@@ -448,7 +448,7 @@ Um Tribunal Regional Federal planeja implantar um sistema automatizado de inteli
 Considerando as regras da LGPD e as diretrizes internacionais de governança ética em IA, assinale a alternativa correta:
 
 * **A)** O uso de biometria facial e perfilamento em larga escala qualifica-se como tratamento de dados pessoais sensíveis com potencial de elevado risco aos direitos fundamentais, justificando a realização de um Relatório de Impacto à Proteção de Dados Pessoais (RIPD) e a adoção de medidas reforçadas de segurança e mitigação de falsos positivos.
-* **B)** A LGPD isenta expressamente qualquer órgão do Poder Judiciário da elaboração de Relatórios de Impacto à Proteção de Dados Pessoais (RIPD), mesmo quando envolver inteligência artificial e dados sensíveis.
+* **B)** A LGPD isenta expressamente qualquer órgão do Poder Judiciário da elaboração de Relatórios de Impacto à Proteção de Dados Pessoais (RIPD), mesmo quando envolver inteligência artificial e dados sensíveis considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **C)** Os princípios da OCDE sobre IA preconizam a exclusão sumária de qualquer mecanismo de auditoria algorítmica para garantir a proteção irrestrita da propriedade intelectual de desenvolvedores privados.
 * **D)** O princípio da Minimização de Dados impõe que o órgão público colete a maior quantidade possível de dados pessoais irrelevantes para alimentar a memória do algoritmo sem finalidade específica.
 * **E)** Sistemas de IA aplicados à segurança pública prescindem de qualquer controle de precisão técnica ou teste de estresse de segurança cibernética.
@@ -525,7 +525,7 @@ A respeito da taxonomia e da divisão temática dos eixos da EBIA, assinale a af
 * **A)** A EBIA divide-se estritamente em 3 Eixos Transversais (Legislação, Regulação e Uso Ético; Governança de IA; e Aspectos Internacionais) e 6 Eixos Verticais (Educação e Capacitação; Força de Trabalho e Capacitação; Pesquisa, Desenvolvimento, Inovação e Empreendedorismo; Aplicação nos Setores Produtivos; Aplicação no Poder Público; e Segurança Pública).
 * **B)** O documento proíbe categoricamente qualquer iniciativa de pesquisa em IA no Poder Público para evitar interferências em rotinas burocráticas consolidadas.
 * **C)** Os Eixos Transversais da EBIA são: Finanças Corporativas, Mineração de Criptomoedas e Automação de Jogos Eletrônicos.
-* **D)** A EBIA impõe que todo modelo de inteligência artificial comercializado no Brasil obtenha autorização ministerial prévia com homologação em cartório de títulos e documentos antes de qualquer fase de teste.
+* **D)** A EBIA impõe que todo modelo de inteligência artificial comercializado no Brasil obtenha autorização ministerial prévia com homologação em cartório de títulos e documentos antes de qualquer fase de teste considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **E)** A EBIA determina que a substituição de empregos decorrente da automação dispensa programas de capacitação ou requalificação profissional por parte do Estado.
 
 
@@ -552,7 +552,7 @@ A estrutura formal da EBIA articula-se em **3 Eixos Transversais** e **6 Eixos V
 * **A)** Os três eixos transversais são: Legislação, Regulação e Uso Ético; Governança de IA; e Aspectos Internacionais. Já os seis eixos verticais englobam: Educação; Força de Trabalho e Capacitação; Pesquisa, Desenvolvimento, Inovação e Empreendedorismo; Aplicação no Setor Público; Aplicação nos Setores Produtivos; e Segurança Pública.
 * **B)** A EBIA possui apenas um eixo vertical unificado voltado exclusivamente para a aquisição de criptomoedas pelo Banco Central.
 * **C)** Os eixos verticais da EBIA preveem a extinção completa dos tribunais de contas até o ano de 2026.
-* **D)** A EBIA proíbe qualquer tipo de cooperação técnica internacional entre o Brasil e organismos multilaterais no campo da inteligência artificial.
+* **D)** A EBIA proíbe qualquer tipo de cooperação técnica internacional entre o Brasil e organismos multilaterais no campo da inteligência artificial considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo garantindo a observância dos protocolos de governança e interoperabilidade vigentes.
 * **E)** Os eixos transversais da EBIA são: Redes Neurais, Algoritmos Genéticos e Árvores de Decisão; e os eixos verticais são: Windows, Linux e Unix.
 
 

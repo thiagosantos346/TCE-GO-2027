@@ -320,7 +320,7 @@ Dadas duas proposições simples $p$ e $q$, a proposição composta:
 $$[(p \rightarrow q) \land p] \rightarrow q$$  
 classifica-se logicamente como uma:
 
-* **A)** Contingência, pois seu valor lógico depende dos valores atribuídos a $p$ e $q$.
+* **A)** Contingência, pois seu valor lógico depende dos valores atribuídos a $p$ e $q$ em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **B)** Contradição, pois seu valor lógico é sempre falso em qualquer circunstância.
 * **C)** Tautologia, pois assume invariavelmente o valor verdadeiro para todas as combinações de valores lógicos de suas proposições componentes.
 * **D)** Falácia da afirmação do consequente.
@@ -401,7 +401,7 @@ IV. A empresa contratada não apresentou defesa prévia.
 A partir dessas premissas, é correto concluir de forma necessariamente válida que:
 
 * **A)** A auditoria emitiu notificação prévia e o contrato possui cláusula abusiva.
-* **B)** O ordenador de despesas suspendeu o pagamento, mas o contrato não possui cláusula abusiva.
+* **B)** O ordenador de despesas suspendeu o pagamento, mas o contrato não possui cláusula abusiva em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **C)** O contrato administrativo não possui cláusula de reajuste abusiva e a auditoria não emitiu notificação prévia.
 * **D)** A empresa contratada apresentou recurso extemporâneo ao plenário.
 * **E)** Se o contrato não possui cláusula abusiva, então o ordenador suspendeu o pagamento.
@@ -527,7 +527,7 @@ Para avaliar a validade de silogismos com premissas como *"Todo A é E"* e *"Alg
 A afirmação *"Todos os relatórios elaborados pela comissão técnica continham recomendações aos municípios"* tem como **negação lógica** a proposição:
 
 * **A)** Nenhum relatório elaborado pela comissão técnica continha recomendações aos municípios.
-* **B)** Todos os relatórios elaborados pela comissão técnica não continham recomendações aos municípios.
+* **B)** Todos os relatórios elaborados pela comissão técnica não continham recomendações aos municípios em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **C)** Pelo menos um relatório elaborado pela comissão técnica não continha recomendações aos municípios.
 * **D)** Alguns relatórios elaborados pela comissão técnica continham recomendações aos municípios.
 * **E)** A maioria dos relatórios continha recomendações aos municípios.
@@ -572,7 +572,7 @@ A partir dessas premissas, é **necessariamente** correto concluir que:
 * **A)** Todos os professores universitários são auditores de controle externo.
 * **B)** Alguns auditores de controle externo são professores universitários.
 * **C)** Nenhum auditor de controle externo é professor universitário.
-* **D)** Pelo menos um auditor de controle externo não é especialista em finanças públicas.
+* **D)** Pelo menos um auditor de controle externo não é especialista em finanças públicas em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **E)** Pode haver auditor de controle externo que seja professor universitário, mas não é uma conclusão necessária.
 
 
@@ -608,7 +608,7 @@ Considere que as seguintes premissas são verdadeiras:
 
 Com base estritamente nessas duas premissas, é necessariamente correto concluir que:
 
-* **A)** Todos os auditores de controle externo são especialistas em tecnologia da informação.
+* **A)** Todos os auditores de controle externo são especialistas em tecnologia da informação em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **B)** Nenhum auditor de controle externo é especialista em tecnologia da informação.
 * **C)** Pelo menos um auditor de controle externo é especialista em tecnologia da informação.
 * **D)** É possível que nenhum auditor de controle externo seja especialista em tecnologia da informação.

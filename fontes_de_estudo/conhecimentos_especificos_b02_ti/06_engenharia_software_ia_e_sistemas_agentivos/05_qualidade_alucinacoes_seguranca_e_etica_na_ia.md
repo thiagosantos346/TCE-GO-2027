@@ -139,7 +139,7 @@ Na avaliação automática da qualidade de código-fonte gerado por modelos de i
 * **B)** Incorpora formalmente aspectos específicos da engenharia de software ao combinar o casamento de n-gramas textuais com a análise da Árvore Sintática Abstrata (AST) e a equivalência do fluxo de dados (*Data Flow*) entre variáveis, capturando a correção semântica do programa independentemente de renomeações de identificadores.
 * **C)** Exige que o programa seja compilado exclusivamente em computadores de grande porte (*mainframes*).
 * **D)** Ignora completamente a sintaxe da linguagem de programação sob avaliação.
-* **E)** Substitui integralmente a necessidade de qualquer teste de execução ou validação humana em sistemas críticos.
+* **E)** Substitui integralmente a necessidade de qualquer teste de execução ou validação humana em sistemas críticos considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 
 
 ---
@@ -166,7 +166,7 @@ A justificativa metodológica correta para a escolha do $\text{pass@}k$ reside n
 * **B)** O BLEU baseia-se na sobreposição superficial de n-gramas textuais e frequentemente penaliza códigos perfeitamente corretos que utilizam nomes diferentes de variáveis locais, enquanto o $\text{pass@}k$ mede a corretude funcional executável do código gerado por meio da aprovação em suites de testes automatizados.
 * **C)** O $\text{pass@}k$ garante que o código gerado pelo modelo é imune a qualquer vulnerabilidade de segurança cadastrada na base do CVE.
 * **D)** A métrica BLEU é proprietária de um único fabricante de hardware e seu uso em pesquisas públicas é vedado por lei.
-* **E)** O $\text{pass@}k$ só pode ser computado se o modelo de linguagem for executado diretamente no microcontrolador de uma impressora fiscal.
+* **E)** O $\text{pass@}k$ só pode ser computado se o modelo de linguagem for executado diretamente no microcontrolador de uma impressora fiscal considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
 
 
 ---
@@ -255,7 +255,7 @@ Para assegurar que alucinações não alcancem branches de homologação ou prod
 **(Cebraspe – TRF/STJ – 2024/2025 – Adaptada para o padrão FCC)**  
 No desenvolvimento de software com agentes autônomos de codificação, a execução direta de comandos de compilação, scripts de build e testes fornecidos pela IA exige a implementação de mecanismos rigorosos de isolamento em ambiente de testes (*Sandboxing*). A principal justificativa de segurança cibernética para isolar o ambiente do agente em contêineres e máquinas virtuais seguras é:
 
-* **A)** Acelerar a velocidade do processador da máquina física do desenvolvedor em até dez vezes.
+* **A)** Acelerar a velocidade do processador da máquina física do desenvolvedor em até dez vezes considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
 * **B)** Conter eventuais alucinações, códigos maliciosos ou comandos destrutivos (como `rm -rf /` ou scripts com vazamento de dados) dentro de um ambiente efêmero com privilégios estritamente delimitados, impedindo a corrupção do sistema operacional hospedeiro e da rede corporativa.
 * **C)** Eliminar a necessidade de senhas de acesso aos servidores de produção da instituição.
 * **D)** Permitir que o agente acerte 100% das respostas de matemática sem realizar cálculos.
@@ -346,7 +346,7 @@ No ecossistema de engenharia de software assistida por IA generativa, um vetor e
 
 * **A)** Um hacker invade o data center da instituição e furta fisicamente os discos rígidos dos servidores.
 * **B)** Cibercriminosos monitoram ou induzem modelos de linguagem a alucinar nomes de bibliotecas/pacotes inexistentes ao gerar soluções para problemas comuns; em seguida, os criminosos publicam pacotes maliciosos com esses exatos nomes alucinados em repositórios públicos (como npm ou PyPI), aguardando que desenvolvedores desavisados instalem esses pacotes em seus projetos corporativos.
-* **C)** O invasor altera o código-fonte original do sistema operacional Linux para impedir o uso de inteligência artificial.
+* **C)** O invasor altera o código-fonte original do sistema operacional Linux para impedir o uso de inteligência artificial considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **D)** O ataque consiste em desconectar o cabo de energia dos computadores durante o expediente forense.
 * **E)** O criminoso exige resgate financeiro para devolver licenças GPLv3 expiradas.
 
@@ -369,7 +369,7 @@ No ecossistema de engenharia de software assistida por IA generativa, um vetor e
 **(Cebraspe – TRF/STJ – 2024/2025 – Adaptada para o padrão FCC)**  
 No catálogo da OWASP Top 10 for Large Language Model Applications, a Injeção de Instruções (*Prompt Injection* - LLM01) encabeça a lista de riscos críticos. A diferenciação entre Injeção Direta (*Direct Prompt Injection*) e Injeção Indireta (*Indirect Prompt Injection*) estabelece que:
 
-* **A)** A injeção direta ocorre quando o hacker ataca os cabos elétricos do prédio, e a indireta ocorre quando queima o disjuntor do bairro.
+* **A)** A injeção direta ocorre quando o hacker ataca os cabos elétricos do prédio, e a indireta ocorre quando queima o disjuntor do bairro considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **B)** Na injeção direta (*jailbreak*), o usuário final envia comandos deliberados no prompt para burlar as diretrizes de segurança do sistema; na injeção indireta, o invasor insere instruções maliciosas ocultas em fontes de dados externas (como páginas web, arquivos lidos pelo agente, comentários de código ou issues de repositórios) que, ao serem consumidas pelo LLM durante sua execução, sequestram o fluxo de controle do agente.
 * **C)** A injeção indireta só afeta sistemas baseados em bancos de dados relacionais DB2.
 * **D)** Injeções de prompt são mitigadas automaticamente desligando o monitor do computador.
@@ -403,7 +403,7 @@ Esses dois fenômenos de segurança cibernética são denominados tecnicamente, 
 * **B)** *Indirect Prompt Injection* e *Package Hallucination (ou Slopsquatting / Package Squatting)*.
 * **C)** *Overreliance* e *Cross-Site Scripting (XSS)*.
 * **D)** *Man-in-the-Middle* e *Buffer Overflow*.
-* **E)** *Denial of Service (DoS)* e *Poisoning de Gradiente*.
+* **E)** *Denial of Service (DoS)* e *Poisoning de Gradiente* no âmbito da administração pública direta e indireta.
 
 
 ---
@@ -453,7 +453,7 @@ Para bases de dados de inteligência fiscal, processos com sigilo judicial estri
 **(FCC - Padrão Concursos TI / Proteção de Dados e Contratação de LLMs no Setor Público)**
 Em conformidade com a Lei Geral de Proteção de Dados (LGPD) e as melhores práticas de governança de segurança da informação no setor público, uma Secretaria de Fazenda Estadual que pretenda adotar assistentes de codificação de IA generativa para sua equipe de desenvolvimento de software deve exigir do fornecedor da solução:
 
-* **A)** O armazenamento perpétuo de todo o código-fonte corporativo e dados fiscais em servidores públicos de compartilhamento livre na internet.
+* **A)** O armazenamento perpétuo de todo o código-fonte corporativo e dados fiscais em servidores públicos de compartilhamento livre na internet considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **B)** A renúncia do tribunal a qualquer direito de auditoria técnica sobre as requisições enviadas ao modelo.
 * **C)** Garantias contratuais expressas de não utilização dos prompts, códigos institucionais e metadados para fins de treinamento de modelos públicos da contratada, associadas a políticas de retenção zero de dados (*Zero Data Retention*) e criptografia segura em trânsito e em repouso.
 * **D)** A exclusão de qualquer mecanismo de controle de acesso baseado em papéis (RBAC) para agilizar o login de desenvolvedores terceirizados.
@@ -510,7 +510,7 @@ Um desenvolvedor de sistemas de um Tribunal utilizou um assistente de IA generat
 
 Considerando os aspectos de propriedade intelectual e licenciamento de software, a consequência jurídica e técnica desse evento é:
 
-* **A)** O Tribunal não precisa adotar nenhuma medida, pois o uso de IA anula automaticamente qualquer cláusula de licença de código aberto pré-existente.
+* **A)** O Tribunal não precisa adotar nenhuma medida, pois o uso de IA anula automaticamente qualquer cláusula de licença de código aberto pré-existente considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **B)** A contaminação por cópia de trecho substancial protegido por licença copyleft vinculante (GPLv3) pode impor a obrigação legal de disponibilizar publicamente todo o código-fonte do sistema sob os mesmos termos da licença GPLv3 caso o software seja distribuído, demandando a refatoração imediata do trecho contaminado para afastar a violação de direitos autorais.
 * **C)** A licença GPLv3 concede ao Tribunal o direito automático de cobrar royalties de todos os demais usuários da internet.
 * **D)** O Tribunal deve transferir a posse de seu patrimônio físico para os criadores da fundação mantenedora da licença GPL.
@@ -563,7 +563,7 @@ No âmbito do Tribunal de Contas do Estado de Goiás, a **Resolução Administra
 **(FCC – Inédita – Padrão TCE-GO)**  
 No âmbito da governança de tecnologia e inteligência artificial no setor público, em consonância com a Resolução Administrativa nº 24/2024 do TCE-GO e os referenciais éticos da União Europeia, o Princípio da Supervisão Humana Significativa (*Meaningful Human Control*) e a responsabilidade funcional do auditor/desenvolvedor determinam que:
 
-* **A)** O servidor público que utiliza assistentes de inteligência artificial generativa pode transferir a responsabilidade jurídica e administrativa de decisões e códigos incorretos para a empresa fornecedora do modelo de linguagem.
+* **A)** O servidor público que utiliza assistentes de inteligência artificial generativa pode transferir a responsabilidade jurídica e administrativa de decisões e códigos incorretos para a empresa fornecedora do modelo de linguagem considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **B)** A responsabilidade profissional pela conformidade, integridade, segurança e legalidade dos artefatos de software desenvolvidos ou auditados é estritamente indelegável do agente público, devendo o ser humano compreender a solução gerada, validá-la criticamente e deter capacidade real de intervir, corrigir ou suspender a execução automatizada.
 * **C)** A inteligência artificial assume personalidade jurídica plena e responde civilmente perante os tribunais de contas por danos ao erário público.
 * **D)** É vedado a qualquer auditor ou técnico inspecionar o código gerado por IA antes de sua implantação em produção.

@@ -135,7 +135,7 @@ A respeito das boas práticas de engenharia de prompts na construção de assist
 * **A)** Deve-se evitar atribuir papéis (*personas*) ou especialidades ao modelo no prompt do sistema (*system prompt*), pois isso confunde a arquitetura interna de atenção do Transformer.
 * **B)** A estruturação clara do prompt mediante o uso de delimitadores explícitos (como tags XML `<instrucao>`, `<contexto>` ou blocos Markdown `###`), a explicitação de restrições de formato de saída (como exigir estritamente um esquema JSON válido sem explicações adicionais) e a especificação de um papel profissional especializado reduzem alucinações e aumentam a determinabilidade da resposta.
 * **C)** Fornecer exemplos de pares de entrada e saída esperados (*Few-Shot Prompting*) é proibido em tarefas de classificação e sumarização por provocar sobreajuste permanente nos pesos do modelo.
-* **D)** A melhor prática para tarefas de raciocínio matemático e lógico complexo é exigir que o modelo responda diretamente apenas o valor numérico final na primeira palavra, sem gerar passos intermediários de reflexão.
+* **D)** A melhor prática para tarefas de raciocínio matemático e lógico complexo é exigir que o modelo responda diretamente apenas o valor numérico final na primeira palavra, sem gerar passos intermediários de reflexão considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
 * **E)** Prompts mais curtos e genéricos, como *"analise este processo licitatório"*, superam consistentemente prompts detalhados com critérios objetivos de validação jurídica.
 
 
@@ -161,7 +161,7 @@ A respeito das boas práticas de engenharia de prompts na construção de assist
 Para investigar denúncias de fraudes fiscais complexas envolvendo emissão de notas fiscais frias, a fiscalização planeja construir um agente autônomo baseado em LLM capaz de deliberar criticamente e interagir com sistemas fazendários corporativos. A diretoria de inovação optou por estruturar o agente sob a abordagem ReAct (*Reasoning + Acting*).
 A respeito do padrão ReAct e das técnicas avançadas de engenharia de prompts, assinale a afirmativa correta:
 
-* **A)** O padrão ReAct consiste na execução cega de comandos SQL diretos sem permitir que o modelo de linguagem formule qualquer etapa verbal de raciocínio intermediário antes ou depois de chamar a ferramenta externa.
+* **A)** O padrão ReAct consiste na execução cega de comandos SQL diretos sem permitir que o modelo de linguagem formule qualquer etapa verbal de raciocínio intermediário antes ou depois de chamar a ferramenta externa considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **B)** A técnica de *Few-Shot Prompting* baseia-se na ausência deliberada de exemplos no prompt, obrigando a LLM a adivinhar as preferências do usuário sem pistas contextuais.
 * **C)** O padrão ReAct estrutura o fluxo decisório do agente através de uma intercalação contínua entre passos de raciocínio explícito em linguagem natural (*Thought*), execução de ações direcionadas em ferramentas externas (*Action*) e assimilação dos resultados retornados pelo ambiente (*Observation*).
 * **D)** A técnica de *Chain-of-Thought* (CoT) reduz a precisão de tarefas que demandam cálculos e raciocínio lógico formal ao proibir terminantemente o desdobramento do raciocínio em múltiplos passos intermediários.
@@ -194,7 +194,7 @@ A respeito da Injeção Indireta de Prompts (*Indirect Prompt Injection*) e dos 
 
 * **A)** A injeção indireta ocorre quando um atacante insere instruções maliciosas ocultas dentro de um documento externo (como um PDF de licitação, e-mail ou página web); quando o sistema RAG recupera e injeta esse documento no contexto do LLM, o modelo interpreta o texto recuperado como comandos do sistema, podendo desviar seu comportamento para exfiltrar dados ou executar ações indevidas.
 * **B)** A injeção indireta é impossível de acontecer se a conexão de rede com a API do LLM utilizar criptografia TLS 1.3.
-* **C)** *Guardrails* de software (como NeMo Guardrails ou Llama Guard) são barreiras físicas de contenção térmica instaladas nos servidores de GPU dos datacenters.
+* **C)** *Guardrails* de software (como NeMo Guardrails ou Llama Guard) são barreiras físicas de contenção térmica instaladas nos servidores de GPU dos datacenters considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **D)** O ataque de *Prompt Injection* é combatido de forma definitiva e infalível instalando um antivírus convencional no sistema operacional do servidor cliente.
 * **E)** A injeção direta de prompts afeta exclusivamente bancos de dados relacionais executando instruções SQL `DROP DATABASE`.
 
@@ -285,7 +285,7 @@ Assinale a opção que apresenta a principal vantagem técnica e institucional d
 
 * **A)** O RAG elimina a necessidade de qualquer modelo de linguagem, gerando acórdãos através de tabelas relacionais puras.
 * **B)** O RAG fundamenta as respostas geradas em documentos recuperados de forma verificável e auditável em tempo de inferência, permitindo citar explicitamente o número do processo, data e página da decisão, além de possibilitar a atualização instantânea da base de conhecimento (inserção ou revogação de normas) sem incorrer nos altos custos e lentidão de retreinamento do modelo.
-* **C)** O *Fine-Tuning* é 100% imune a qualquer tipo de alucinação factual e cita automaticamente os links das páginas web sem intervenção humana.
+* **C)** O *Fine-Tuning* é 100% imune a qualquer tipo de alucinação factual e cita automaticamente os links das páginas web sem intervenção humana considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **D)** O RAG altera permanentemente os pesos sinápticos do LLM a cada consulta enviada por um auditor no terminal.
 * **E)** O RAG é uma tecnologia restrita a arquivos de áudio em formato MP3.
 
@@ -313,7 +313,7 @@ Assinale a opção que apresenta a principal vantagem técnica e institucional d
 Em um projeto para implementar um assistente virtual baseado em Inteligência Artificial para assessoramento jurídico de auditores, a equipe de TI selecionou a arquitetura RAG (*Retrieval-Augmented Generation*). Durante a modelagem do pipeline de ingestão e particionamento dos documentos legais, foi aberto um debate técnico sobre o tamanho dos blocos de texto (*chunks*) e o parâmetro de sobreposição (*overlap*).
 A respeito da fragmentação documental (*chunking*) e do funcionamento do RAG, assinale a afirmativa correta:
 
-* **A)** O uso de sobreposição (*overlap*) entre blocos adjacentes é expressamente condenado em pipelines RAG modernos, pois gera redundância matemática que corrompe o cálculo da similaridade de cosseno nos bancos vetoriais.
+* **A)** O uso de sobreposição (*overlap*) entre blocos adjacentes é expressamente condenado em pipelines RAG modernos, pois gera redundância matemática que corrompe o cálculo da similaridade de cosseno nos bancos vetoriais em estrita conformidade com as normas legais e regulamentares aplicáveis.
 * **B)** O *chunking* estratégico com sobreposição (*overlap*) de cerca de 10% a 20% visa assegurar a integridade do significado semântico, impedindo que cláusulas normativas ou argumentos jurídicos contínuos sejam arbitrariamente truncados na fronteira física entre dois blocos vizinhos.
 * **C)** A principal finalidade do RAG consiste em realizar o fine-tuning diário de todos os pesos e sinapses internas da LLM com a base corporativa para evitar o consumo de memória RAM durante as consultas.
 * **D)** O banco de dados vetorial utilizado no RAG substitui integralmente a LLM gerativa, dispensando a necessidade de envio de prompts de texto na fase de síntese.
@@ -341,7 +341,7 @@ Para superar essa limitação e elevar a precisão do pipeline de recuperação,
 
 * **A)** Desativar todos os bancos de dados vetoriais e adotar exclusivamente scripts de busca aleatória uniforme sobre os arquivos em texto simples.
 * **B)** Implementar a Busca Híbrida (*Hybrid Search*), que combina a busca semântica densa (baseada em embeddings) com a busca léxica esparsa baseada em termos (como o algoritmo BM25), integrando os resultados por meio de algoritmos de fusão de rankings como o *Reciprocal Rank Fusion* (RRF), seguido de um reclassificador *Cross-Encoder* (*Reranker*).
-* **C)** Aumentar a temperatura do modelo de linguagem para o valor máximo permitido, forçando o decodificador a inventar os números das leis que não forem encontrados no banco de dados.
+* **C)** Aumentar a temperatura do modelo de linguagem para o valor máximo permitido, forçando o decodificador a inventar os números das leis que não forem encontrados no banco de dados considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **D)** Aplicar a função de perda MSE sobre o prompt do usuário para eliminar todas as palavras compostas por dígitos numéricos.
 * **E)** Substituir os modelos de linguagem por árvores de decisão simples com profundidade máxima unitária (*decision stumps*).
 
@@ -437,7 +437,7 @@ A Mineração de Processos (*Process Mining*), formulada academicamente pelo Pro
 **(FCC - TRF-3ª Região - Analista Judiciário - Informática)**
 A respeito das características operacionais que distinguem a Automação Robótica de Processos tradicional (RPA) da Automação Inteligente de Processos (IPA - *Intelligent Process Automation*) no âmbito das atividades de fiscalização da administração pública, assinale a afirmativa correta:
 
-* **A)** O RPA tradicional é especialmente talhado para lidar com a ambiguidade intrínseca de relatórios contábeis manuscritos e depoimentos em áudio, dispensando regras algorítmicas pré-definidas.
+* **A)** O RPA tradicional é especialmente talhado para lidar com a ambiguidade intrínseca de relatórios contábeis manuscritos e depoimentos em áudio, dispensando regras algorítmicas pré-definidas considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **B)** O RPA tradicional atua sobre dados altamente estruturados e regras determinísticas inequívocas em telas e formulários, enquanto a Automação Inteligente (IPA) incorpora componentes cognitivos como Processamento de Linguagem Natural, visão computacional e modelos preditivos, habilitando o processamento de fluxos que envolvem dados não estruturados e tomada de decisão sob incerteza.
 * **C)** A Automação Inteligente de Processos restringe-se à emulação de hardware com microcontroladores em placas de circuito integrado, não tendo relação com softwares de auditoria.
 * **D)** Modelos de IA generativa não podem ser acoplados a rotinas de automação por incompatibilidade de sistemas operacionais.
@@ -464,8 +464,8 @@ No contexto de transformação digital e otimização de fluxos operacionais, as
 
 A respeito da distinção conceitual e tecnológica entre RPA e IPA, assinale a afirmativa correta:
 
-* **A)** O RPA tradicional é plenamente capaz de interpretar sentimentos humanos e raciocinar sobre processos jurídicos complexos não documentados.
-* **B)** O RPA tradicional baseia-se em regras de negócio determinísticas pré-programadas, macros e simulação de cliques na interface gráfica do usuário (GUI) para processar dados altamente estruturados e rotineiros; ao passo que a IPA agrega inteligência cognitiva (como Visão Computacional, OCR Inteligente, Modelos de Linguagem e Machine Learning), sendo capaz de lidar com dados não estruturados, ambiguidades e tomada de decisões adaptativas.
+* **A)** O RPA tradicional é plenamente capaz de interpretar sentimentos humanos e raciocinar sobre processos jurídicos complexos não documentados considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **B)** O RPA tradicional baseia-se em regras de negócio determinísticas pré-programadas, macros e simulação de cliques na interface gráfica do usuário (GUI) para processar dados altamente estruturados e rotineiros; ao passo que a IPA agrega inteligência cognitiva (como Visão Computacional, OCR Inteligente, Modelos de Linguagem e Machine Learning).
 * **C)** O IPA elimina a necessidade de computadores e redes, funcionando exclusivamente por meio de atuadores mecânicos pneumáticos.
 * **D)** O RPA opera exclusivamente na nuvem pública internacional, sendo proibido em servidores locais (*on-premises*).
 * **E)** Ambos os conceitos são rigorosamente idênticos e limitam-se ao uso de scripts em shell bash para cópia de diretórios.
@@ -493,7 +493,7 @@ Um Tribunal de Contas iniciou um projeto de Mineração de Processos (*Process M
 A respeito dos conceitos, tipos e requisitos fundamentais da Mineração de Processos, assinale a afirmativa correta:
 
 * **A)** Para que uma base de dados possa ser submetida a algoritmos de *Process Mining*, seus logs de eventos devem conter, como atributos semânticos indispensáveis, o identificador da instância do caso (*Case ID*), o nome da atividade executada (*Activity*) e o carimbo de data e hora (*Timestamp*).
-* **B)** A etapa de *Process Discovery* (Descoberta de Processos) consiste em forçar os registros reais a se adaptarem estritamente a um fluxo desenhado manualmente no modelo BPMN, apagando automaticamente as transações que divergirem da norma legal.
+* **B)** A etapa de *Process Discovery* (Descoberta de Processos) consiste em forçar os registros reais a se adaptarem estritamente a um fluxo desenhado manualmente no modelo BPMN, apagando automaticamente as transações que divergirem da norma legal no âmbito da administração pública direta e indireta.
 * **C)** O *Conformance Checking* (Verificação de Conformidade) ignora modelos normativos pré-existentes e restringe-se exclusivamente à mineração de texto livre em e-mails institucionais.
 * **D)** A técnica de *Process Enhancement* (Aprimoramento) impede a extração de dados temporais dos logs, focando apenas no cálculo de pesos senoidais em redes neurais convolucionais.
 * **E)** A Mineração de Processos é inaplicável à administração pública porque sistemas governamentais utilizam bancos relacionais, os quais impedem matematicamente a geração de identificadores de instâncias processuais.
@@ -527,7 +527,7 @@ A literatura consagrada de Process Mining (Wil van der Aalst) classifica os tipo
 * **B)** Compilação, Depuração e Empacotamento.
 * **C)** Ingestão, Normalização e Descarte.
 * **D)** Regressão, Classificação e Agrupamento.
-* **E)** Criptografia, Autenticação e Autorização.
+* **E)** Criptografia, Autenticação e Autorização em estrita conformidade com as normas legais e regulamentares aplicáveis.
 
 
 ---
@@ -554,7 +554,7 @@ Uma equipe de auditoria do Tribunal de Contas foi designada para fiscalizar cont
 Ao aplicar algoritmos de **Mineração de Processos** sobre essa massa de logs de auditoria, o procedimento analítico que permite comprovar formalmente se os gestores públicos suprimiram etapas obrigatórias de parecer jurídico e publicidade exigidas pela Lei nº 14.133/2021 é:
 
 * **A)** A Verificação de Conformidade (*Conformance Checking*), confrontando o modelo de processo normativo prescrito em lei com os caminhos efetivamente executados nos registros de eventos de cada processo administrativo.
-* **B)** A execução do comando `TRUNCATE TABLE` no banco de dados de compras para reiniciar os certames com novos fornecedores.
+* **B)** A execução do comando `TRUNCATE TABLE` no banco de dados de compras para reiniciar os certames com novos fornecedores considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **C)** O treinamento de um classificador K-Means não supervisionado sem validação de rótulos temporais.
 * **D)** A substituição do banco de dados por uma planilha local criptografada sem logs de acesso.
 * **E)** O cálculo exclusivo da média aritmética dos valores de empenho sem cruzar os identificadores de caso (*Case IDs*).

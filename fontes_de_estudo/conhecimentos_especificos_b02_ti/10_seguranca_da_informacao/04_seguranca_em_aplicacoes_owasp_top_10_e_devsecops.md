@@ -153,7 +153,7 @@ No contexto das vulnerabilidades catalogadas pelo **OWASP Top 10**, essa falha �
 
 * **A)** Server-Side Request Forgery (SSRF - A10).
 * **B)** Insecure Direct Object References (IDOR), inserida na categoria de Broken Access Control (A01).
-* **C)** Cryptographic Failures (A02), originada pelo uso incorreto do protocolo HTTPS.
+* **C)** Cryptographic Failures (A02), originada pelo uso incorreto do protocolo HTTPS no âmbito da administração pública direta e indireta.
 * **D)** Security Logging and Monitoring Failures (A09).
 * **E)** SQL Injection cego (Blind SQLi - A03).
 
@@ -179,7 +179,7 @@ No ranking OWASP Top 10:2021, a categoria **A02:2021 - Cryptographic Failures** 
 No desenvolvimento de sistemas de processo judicial e administrativo eletrônico, a diretriz recomendada pela OWASP e pelo NIST para armazenar senhas de usuários em bancos de dados de forma estritamente segura consiste em:
 
 * **A)** Cifrar as senhas utilizando o algoritmo simétrico DES em modo ECB sem chave secreta.
-* **B)** Armazenar as senhas aplicando uma função hash rápida simples como MD5 ou SHA-1 pura sem qualquer valor de sal (*salt*).
+* **B)** Armazenar as senhas aplicando uma função hash rápida simples como MD5 ou SHA-1 pura sem qualquer valor de sal (*salt*) considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **C)** Utilizar uma função de derivação de chaves adaptativa e deliberadamente lenta com alto consumo de memória (*memory-hard* / *work factor* ajustável), tais como **Argon2id**, **bcrypt** ou **PBKDF2**, combinada com um **Salt** criptograficamente aleatório e exclusivo para cada usuário gerado com no mínimo 128 bits.
 * **D)** Gravar as senhas em texto puro (*plaintext*) protegido apenas por permissão de arquivo no Linux.
 * **E)** Converter a senha em caracteres Base64 invertidos e armazenar em uma coluna pública da tabela de usuários.
@@ -215,7 +215,7 @@ usuario = cursor.fetchone()
 Considerando a classificação de vulnerabilidades do **OWASP Top 10** e os princípios de codificação segura, assinale a afirmativa correta:
 
 * **A)** O código é imune a ataques cibernéticos, visto que a linguagem Python trata strings concatenadas como números binários criptografados.
-* **B)** O código apresenta grave vulnerabilidade de Injeção de SQL (*SQL Injection* - A03 do OWASP), pois concatena dados fornecidos pelo usuário diretamente na instrução SQL; para solucionar definitivamente a falha, o desenvolvedor deve utilizar consultas parametrizadas (*Prepared Statements*), delegando a separação entre código e dados ao driver do banco de dados.
+* **B)** O código apresenta grave vulnerabilidade de Injeção de SQL (*SQL Injection* - A03 do OWASP).
 * **C)** A vulnerabilidade apresentada é classificada como *Cross-Site Scripting (XSS)*, e sua única forma de mitigação consiste em desativar o firewall de aplicação web (WAF).
 * **D)** A vulnerabilidade *Broken Access Control* (A01) foi abolida da lista da OWASP, não se aplicando mais ao desenvolvimento de aplicações modernas em nuvem.
 * **E)** O uso de parâmetros vinculados (*bind variables*) em consultas parametrizadas é desaconselhado pela OWASP por provocar vazamento de memória na máquina hospedeira.
@@ -253,7 +253,7 @@ A literatura da OWASP e os manuais de segurança em aplicações web classificam
 
 Assinale a afirmativa que descreve corretamente o **XSS Armazenado (Stored / Persistent XSS)**:
 
-* **A)** O script hostil é enviado em uma requisição HTTP imediata (como um parâmetro de busca em link) e refletido instantaneamente na resposta do servidor sem ser persistido em banco de dados.
+* **A)** O script hostil é enviado em uma requisição HTTP imediata (como um parâmetro de busca em link) e refletido instantaneamente na resposta do servidor sem ser persistido em banco de dados considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **B)** A injeção maliciosa é salva de forma persistente no banco de dados do servidor (ex.: em um campo de comentários de processo, fórum ou cadastro de fornecedor); toda vez que um usuário legítimo ou auditor carrega a página correspondente, o script hostil gravado é renderizado e executado automaticamente em seu navegador, podendo roubar cookies de sessão e realizar ações em nome da vítima.
 * **C)** O ataque ocorre exclusivamente pela manipulação do objeto `window.location` no código JavaScript local do navegador sem qualquer tráfego com o servidor.
 * **D)** O XSS armazenado afeta apenas computadores desligados sem conexão com a rede elétrica.
@@ -288,7 +288,7 @@ A vulnerabilidade de SSRF caracteriza-se quando:
 * **B)** Uma aplicação web servidora é induzida por um atacante a realizar requisições HTTP arbitrárias e desprotegidas para destinos remotos ou para recursos internos da própria rede do servidor (tais como serviços de metadados da nuvem - ex.: `http://169.254.169.254` na AWS/Azure/GCP -, portas locais de loopback `127.0.0.1` ou bancos de dados isolados por firewall), permitindo ao invasor acessar dados confidenciais e credenciais de instâncias.
 * **C)** O banco de dados relacional rejeita qualquer comando com a cláusula `WHERE`.
 * **D)** O cabo de rede do servidor sofre interferência eletromagnética por tempestades solares.
-* **E)** O usuário esquece sua senha corporativa e solicita redefinição pelo portal de autoatendimento.
+* **E)** O usuário esquece sua senha corporativa e solicita redefinição pelo portal de autoatendimento considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 
 
 ---
@@ -375,8 +375,8 @@ A cultura **DevSecOps** prega a integração contínua de práticas e controles 
 
 O fundamento econômico e técnico que justifica a adoção do princípio *Shift-Left* nas esteiras de integração e entrega contínua (CI/CD) de tribunais reside no fato de que:
 
-* **A)** O custo financeiro e o esforço de engenharia necessários para remediar uma vulnerabilidade de segurança crescem exponencialmente à medida que a falha avança pelas fases do ciclo de desenvolvimento, sendo infinitamente mais barato e ágil corrigi-la precocemente durante as fases de design e codificação do que após a entrada do sistema em produção.
-* **B)** A segurança da informação deve ser delegada exclusivamente a uma equipe externa de auditores no dia anterior ao lançamento do sistema em produção.
+* **A)** O custo financeiro e o esforço de engenharia necessários para remediar uma vulnerabilidade de segurança crescem exponencialmente à medida que a falha avança pelas fases do ciclo de desenvolvimento.
+* **B)** A segurança da informação deve ser delegada exclusivamente a uma equipe externa de auditores no dia anterior ao lançamento do sistema em produção no âmbito da administração pública direta e indireta.
 * **C)** Testes automatizados de segurança desaceleram os deploys e, portanto, devem ser excluídos dos pipelines de CI/CD.
 * **D)** O termo Shift-Left indica que todos os programadores devem trabalhar obrigatoriamente com a mão esquerda no teclado.
 * **E)** O DevSecOps preconiza a eliminação completa dos desenvolvedores de software, mantendo apenas profissionais de segurança física patrimonial.
@@ -432,7 +432,7 @@ Na esteira de Integração e Entrega Contínua (CI/CD) de uma instituição púb
 
 A respeito das ferramentas e abordagens de testes de segurança de software, assinale a afirmativa correta:
 
-* **A)** O teste estático (SAST - *Static Application Security Testing*) exige que a aplicação esteja completamente implantada e em execução em um servidor de homologação para que requisições HTTP maliciosas sejam enviadas contra ela por fora.
+* **A)** O teste estático (SAST - *Static Application Security Testing*) exige que a aplicação esteja completamente implantada e em execução em um servidor de homologação para que requisições HTTP maliciosas sejam enviadas contra ela por fora em estrita conformidade com as normas legais e regulamentares aplicáveis.
 * **B)** O teste dinâmico (DAST - *Dynamic Application Security Testing*) analisa exclusivamente o código-fonte em repouso sem executar o software, mapeando o fluxo de dados em árvores sintáticas para identificar variáveis não inicializadas.
 * **C)** A Análise de Composição de Software (SCA - *Software Composition Analysis*) tem como objetivo primordial mapear a árvore de dependências e bibliotecas de terceiros (código aberto) utilizadas pelo projeto, identificando versões desatualizadas e componentes associados a vulnerabilidades conhecidas (CVEs).
 * **D)** O princípio do *Shift-Left* preceitua que as análises de segurança da informação devem ser adiadas para a última semana anterior à entrada em produção, para evitar atrasos aos desenvolvedores.
@@ -515,7 +515,7 @@ A vulnerabilidade categorizada como **API1:2023 - Broken Object Level Authorizat
 * **A)** A API é atacada por um vírus de setor de inicialização que formata o disco rígido do servidor de aplicação.
 * **B)** Os endpoints da API expõem identificadores de objetos diretamente na URI (como `GET /api/v1/contratos/10452/dados_sigilosos`) e o código do backend falha em validar se o usuário autenticado que originou a requisição possui realmente direito legal de acesso àquele objeto específico de terceiro, permitindo que qualquer usuário altere o ID numérico na requisição para visualizar dados restritos de outros cidadãos ou órgãos.
 * **C)** O certificado digital HTTPS expira e a API passa a responder com código de status HTTP 404.
-* **D)** A API utiliza tokens JWT com assinatura criptográfica assimétrica de 4096 bits devidamente validada em todas as chamadas.
+* **D)** A API utiliza tokens JWT com assinatura criptográfica assimétrica de 4096 bits devidamente validada em todas as chamadas considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **E)** Um invasor sobrecarrega o servidor enviando requisições com a sintaxe correta do protocolo GraphQL.
 
 
@@ -542,7 +542,7 @@ A implantação de aplicações em contêineres Docker orquestrados por Kubernet
 
 Dentre as boas práticas consagradas de segurança para imagens e execução de contêineres, assinale a afirmativa correta:
 
-* **A)** O processo principal no interior do contêiner deve rodar compulsoriamente como usuário `root` (UID 0) com a flag de execução `--privileged` ativada por padrão para facilitar o acesso irrestrito ao hardware.
+* **A)** O processo principal no interior do contêiner deve rodar compulsoriamente como usuário `root` (UID 0) com a flag de execução `--privileged` ativada por padrão para facilitar o acesso irrestrito ao hardware considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **B)** Devem-se construir imagens de contêiner mínimas (como imagens *Distroless* ou baseadas em Alpine Linux), remover compiladores e utilitários de shell desnecessários em produção, configurar o contêiner para executar com um usuário sem privilégios (*Non-Root User*), montar o sistema de arquivos raiz em modo somente-leitura (`readOnlyRootFilesystem: true`) e escanear periodicamente as imagens contra vulnerabilidades conhecidas com ferramentas de SCA/Container Scanning.
 * **C)** O compartilhamento irrestrito do namespace de rede e de processos com o nó hospedeiro (`hostNetwork: true` e `hostPID: true`) é o mecanismo mais seguro recomendado pela CNCF para contêineres de produção.
 * **D)** As senhas de banco de dados devem ser gravadas diretamente em texto puro dentro do arquivo `Dockerfile` na diretiva `ENV`.

@@ -148,9 +148,9 @@ onde $Q$ são as Consultas (*Queries*), $K$ são as Chaves (*Keys*), $V$ são os
 Durante o planejamento de uma esteira analítica de Processamento de Linguagem Natural (PLN) para indexação temática e extração de entidades em acórdãos e peças jurídicas de um tribunal, os analistas debatem os métodos adequados de normalização textual e representação vetorial.
 A respeito das técnicas de processamento de texto, assinale a alternativa correta:
 
-* **A)** O *Stemming* consiste na identificação morfológica e sintática da classe gramatical de cada vocábulo em um dicionário estruturado para retornar unicamente o infinitivo canônico oficial do termo, enquanto a *Lematização* descarta regras gramaticais e aplica supressões de sufixos de forma puramente mecânica.
+* **A)** O *Stemming* consiste na identificação morfológica e sintática da classe gramatical de cada vocábulo em um dicionário estruturado para retornar unicamente o infinitivo canônico oficial do termo, enquanto a *Lematização* descarta regras gramaticais e aplica supressões de sufixos de forma puramente mecânica no âmbito da administração pública direta e indireta.
 * **B)** O algoritmo de tokenização por subpalavras *Byte-Pair Encoding* (BPE) inicia com um vocabulário fixo composto exclusivamente por sentenças inteiras e as divide progressivamente até alcançar letras individuais, gerando matrizes esparsas sem redundância.
-* **C)** Em abordagens estatísticas de recuperação de informação baseadas em TF-IDF, a remoção de *stopwords* é indicada para mitigar a alta dimensionalidade e expurgar palavras frequentes de baixo teor discriminativo; contudo, em modelos contextuais baseados em Transformers (como o BERT), as *stopwords* não devem ser removidas, pois a presença de artigos, pronomes e preposições é indispensável para o cálculo das relações de autoatenção contextual.
+* **C)** Em abordagens estatísticas de recuperação de informação baseadas em TF-IDF, a remoção de *stopwords* é indicada para mitigar a alta dimensionalidade e expurgar palavras frequentes de baixo teor discriminativo; contudo, em modelos contextuais baseados em Transformers (como o BERT), as *stopwords* não devem ser removidas.
 * **D)** O componente IDF (*Inverse Document Frequency*) da matriz TF-IDF atribui peso máximo a termos que ocorrem em cem por cento dos documentos da coleção, visto que termos universais são estatisticamente os melhores descritores da base temática.
 * **E)** O modelo *Word2Vec* gera representações vetoriais dinâmicas que alteram as coordenadas de uma palavra conforme o contexto imediato de cada sentença em que ela se encontra, superando a rigidez estática dos modelos contextuais BERT e GPT.
 
@@ -176,7 +176,7 @@ No Processamento de Linguagem Natural (PLN), a representação matemática do te
 A respeito das abordagens de vetorização textual clássicas (*Bag-of-Words* e *TF-IDF*) e dos modelos modernos de *Embeddings* estáticos (*Word2Vec*), assinale a afirmativa correta:
 
 * **A)** O modelo *Bag-of-Words* (BoW) preserva integralmente a estrutura sintática, a ordem cronológica dos termos e a gramática complexa da frase.
-* **B)** A métrica TF-IDF (*Term Frequency-Inverse Document Frequency*) atribui pesos mais elevados a palavras extremamente frequentes em todos os documentos do corpus (como artigos e preposições), pois elas carregam maior poder de diferenciação semântica.
+* **B)** A métrica TF-IDF (*Term Frequency-Inverse Document Frequency*) atribui pesos mais elevados a palavras extremamente frequentes em todos os documentos do corpus (como artigos e preposições), pois elas carregam maior poder de diferenciação semântica considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **C)** O modelo *Word2Vec* (nas arquiteturas CBOW e Skip-Gram) mapeia palavras para vetores densos de baixa dimensionalidade em um espaço contínuo, onde palavras semanticamente similares ou que compartilham contextos afins situam-se geometricamente próximas, permitindo operações de aritmética vetorial (como $vetor(\text{"Rei"}) - vetor(\text{"Homem"}) + vetor(\text{"Mulher"}) \approx vetor(\text{"Rainha"})$).
 * **D)** O TF-IDF gera vetores puramente densos de no máximo 50 posições para qualquer vocabulário, eliminando a esparsidade de matrizes.
 * **E)** O modelo Skip-Gram utiliza as palavras do contexto para prever a palavra central, ao passo que o CBOW (*Continuous Bag-of-Words*) utiliza a palavra central para prever o contexto circunvizinho.
@@ -202,8 +202,8 @@ A publicação da arquitetura *Transformer* impulsionou a criação de modelos d
 Sobre as diferenças técnicas entre as famílias BERT e GPT, assinale a afirmativa correta:
 
 * **A)** O modelo BERT baseia-se exclusivamente no Decodificador do Transformer, empregando máscaras causais triangulares para impedir que tokens à direita interfiram na classificação do texto presente.
-* **B)** O modelo GPT fundamenta-se no Codificador do Transformer e processa sentenças em regime estritamente bidirecional, sendo treinado para reconstruir palavras ocultadas aleatoriamente por tokens especiais de preenchimento.
-* **C)** O modelo BERT baseia-se no Codificador e processa as sequências de forma bidirecional no treinamento para aprender representações contextuais profundas, sendo excelente para tarefas de classificação, busca semântica e reconhecimento de entidades; enquanto os modelos da família GPT são decodificadores autoregressivos unidirecionais voltados precipuamente à geração contínua do próximo token.
+* **B)** O modelo GPT fundamenta-se no Codificador do Transformer e processa sentenças em regime estritamente bidirecional, sendo treinado para reconstruir palavras ocultadas aleatoriamente por tokens especiais de preenchimento no âmbito da administração pública direta e indireta.
+* **C)** O modelo BERT baseia-se no Codificador e processa as sequências de forma bidirecional no treinamento para aprender representações contextuais profundas.
 * **D)** O mecanismo de autoatenção escalada divide o produto escalar das matrizes de Consulta e Chave pelo cubo da dimensionalidade dos vetores para induzir a explosão intencional dos gradientes na fase de retropropagação.
 * **E)** Os modelos BERT e GPT dispensam etapas de pré-treinamento auto-supervisionado, sendo inicializados e treinados diretamente em conjuntos de dados supervisionados anotados manualmente por auditores.
 
@@ -291,7 +291,7 @@ A Inteligência Artificial Generativa baseia-se na formulação de modelos proba
 Do ponto de vista da teoria estatística de aprendizado de máquina, a distinção formal entre um **Modelo Generativo** e um **Modelo Discriminativo** consiste em:
 
 * **A)** O modelo generativo aprende a distribuição de probabilidade conjunta $P(X, Y)$ ou a distribuição dos próprios dados $P(X)$, permitindo gerar novos exemplos realistas; ao passo que o modelo discriminativo aprende a probabilidade condicional $P(Y | X)$, focando exclusivamente em distinguir ou prever o rótulo $Y$ dado um vetor de características $X$.
-* **B)** Modelos discriminativos são exclusivos de tarefas não supervisionadas, enquanto modelos generativos só podem ser aplicados em problemas de regressão linear simples.
+* **B)** Modelos discriminativos são exclusivos de tarefas não supervisionadas, enquanto modelos generativos só podem ser aplicados em problemas de regressão linear simples considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
 * **C)** Modelos generativos avaliam se uma amostra pertence à classe A ou B sem modelar a distribuição dos dados de entrada.
 * **D)** Redes neurais nunca podem ser utilizadas como modelos generativos, sendo essa tarefa restrita a autômatos celulares determinísticos.
 * **E)** O modelo discriminativo tem como objetivo principal gerar imagens e áudios a partir de prompts em linguagem natural.
@@ -318,10 +318,10 @@ Do ponto de vista da teoria estatística de aprendizado de máquina, a distinç�
 No domínio da Inteligência Artificial Generativa, diferentes famílias de redes neurais profundas foram consolidadas para síntese realista de dados multidimensionais, destacando-se as Redes Adversárias Generativas (GANs) e os Modelos de Difusão (*Diffusion Models*).
 A respeito das características arquiteturais dessas tecnologias generativas, assinale a alternativa correta:
 
-* **A)** As GANs consistem em um jogo de minimax competitivo no qual o Gerador busca mapear vetores de ruído em dados sintéticos fidedignos para enganar o Discriminador, sendo o fenômeno de Colapso de Modo (*Mode Collapse*) uma patologia clássica em que o Gerador passa a emitir saídas repetitivas de variedade extremamente restrita.
+* **A)** As GANs consistem em um jogo de minimax competitivo no qual o Gerador busca mapear vetores de ruído em dados sintéticos fidedignos para enganar o Discriminador.
 * **B)** Os Modelos de Difusão são treinados por um jogo adversário de soma zero entre duas redes antagônicas que calculam a divergência estocástica de matrizes convolucionais estáticas.
 * **C)** O processo reverso dos Modelos de Difusão consiste na degradação contínua da imagem real mediante a injeção paulatina de ruído branco gaussiano, dispensando o uso de redes neurais para reconstrução de padrões.
-* **D)** As GANs são consagradas pelo meio acadêmico devido à sua garantia inata de estabilidade matemática irrestrita de convergência de gradientes durante o processo de treinamento, sendo imunes a desbalanceamentos de forças entre as redes.
+* **D)** As GANs são consagradas pelo meio acadêmico devido à sua garantia inata de estabilidade matemática irrestrita de convergência de gradientes durante o processo de treinamento, sendo imunes a desbalanceamentos de forças entre as redes no âmbito da administração pública direta e indireta.
 * **E)** Modelos de Difusão são incapazes de gerar imagens a partir de descrições textuais (*Text-to-Image*), operando exclusivamente sobre tensores tabulares esparsos de bancos relacionais.
 
 
@@ -347,7 +347,7 @@ O princípio físico e matemático fundamental que rege o treinamento e a infer�
 
 * **A)** Treinar duas redes em competição adversarial de soma zero até que o discriminador atinja 100% de acurácia.
 * **B)** Um Processo Direto (*Forward Process*), no qual ruído Gaussiano é gradualmente injetado nos dados ao longo de múltiplos passos de tempo até que a imagem se torne puro ruído aleatório; e um Processo Reverso (*Reverse Process*), no qual uma rede neural (tipicamente uma U-Net) aprende a estimar e remover progressivamente esse ruído, reconstruindo a imagem a partir do ruído puro condicionada a um prompt textual.
-* **C)** Executar uma busca em profundidade numa árvore de sintaxe abstrata para compor matrizes de pixels RGB por interpolação bicúbica.
+* **C)** Executar uma busca em profundidade numa árvore de sintaxe abstrata para compor matrizes de pixels RGB por interpolação bicúbica considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **D)** Comprimir a imagem em um único número inteiro de 8 bits e descompactá-lo usando o algoritmo de Huffman.
 * **E)** Aplicar transformadas de Fourier bidimensionais sem qualquer parâmetro ajustável por gradiente descendente.
 
@@ -380,7 +380,7 @@ Para controlar o grau de aleatoriedade, criatividade e determinismo do texto ger
 * **A)** Uma Temperatura configurada em 0,0 torna a amostragem completamente estocástica e caótica, escolhendo palavras com as menores probabilidades possíveis.
 * **B)** Aumentar a Temperatura achata a distribuição de probabilidade dos tokens (distribuição mais uniforme), aumentando a probabilidade de seleção de tokens menos prováveis e tornando o texto mais criativo e diverso; ao passo que reduzir a Temperatura para próximo de zero aproxima o modelo de uma busca gananciosa (*Greedy Search*), tornando a resposta altamente previsível e determinística.
 * **C)** O parâmetro Top-$p$ descarta os $p$ primeiros tokens do vocabulário e sorteia apenas entre os termos restantes.
-* **D)** Em tarefas de auditoria estrita e extração factual de dados tabulares de editais de licitação, recomenda-se configurar a Temperatura em seu valor máximo (ex.: 2.0) para maximizar o número de alucinações inovadoras.
+* **D)** Em tarefas de auditoria estrita e extração factual de dados tabulares de editais de licitação, recomenda-se configurar a Temperatura em seu valor máximo (ex.: 2.0) para maximizar o número de alucinações inovadoras considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **E)** A Temperatura e o Top-$p$ atuam exclusivamente no processo de pré-treinamento com trilhões de tokens, sendo impossível alterá-los durante a chamada de API em tempo de execução.
 
 
@@ -477,7 +477,7 @@ Assinale a opção que mapeia correta e respectivamente os elementos do framewor
 
 * **A)** Performance: Banco de dados relacional; Environment: Teclado; Actuators: Memória RAM; Sensors: Cabos de fibra óptica.
 * **B)** Performance: Taxa de acerto na identificação de pagamentos indevidos e minimização de falsos positivos; Environment: Base de dados do tribunal, sistemas do e-Social e diários oficiais; Actuators: Emissão de relatórios de alerta, bloqueio cautelar preventivo e envio de notificações formais; Sensors: Conexões de rede, APIs de consulta a folhas de pagamento e leitores de arquivos de remessa bancária.
-* **C)** Performance: Consumo elétrico dos servidores em watts; Environment: Processador Intel Xeon; Actuators: Mouse; Sensors: Monitor LCD.
+* **C)** Performance: Consumo elétrico dos servidores em watts; Environment: Processador Intel Xeon; Actuators: Mouse; Sensors: Monitor LCD considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **D)** Performance: Código-fonte em Python; Environment: Sistema operacional Linux; Actuators: Disco SSD; Sensors: Placa de vídeo.
 * **E)** O framework PEAS proíbe a especificação de medidas de desempenho quantitativas para agentes públicos de controle.
 
@@ -543,7 +543,7 @@ A respeito da classificação e do comportamento dos agentes inteligentes, assin
 * **A)** Os Agentes Reativos Simples tomam decisões baseadas no planejamento preditivo de cenários futuros contingenciais e mantêm um histórico analítico de todas as percepções passadas.
 * **B)** Os Agentes Reativos Baseados em Modelos mantêm um estado interno dependente do histórico de percepções, o que lhes permite atuar de forma coerente em ambientes parcialmente observáveis, inferindo variáveis e aspectos do mundo que não estão acessíveis nos sensores no instante da decisão.
 * **C)** Os Agentes Baseados em Objetivos utilizam uma função escalar contínua de utilidade para equilibrar matematicamente a compensação entre objetivos conflitantes quando nenhum resultado perfeito for passível de concretização.
-* **D)** O ambiente de auditoria e fiscalização fiscal de um órgão de controle externo é classificado no framework PEAS como totalmente observável e estático, pois todos os fatos econômicos dos jurisdicionados são imediatamente conhecidos sem latência ou incerteza.
+* **D)** O ambiente de auditoria e fiscalização fiscal de um órgão de controle externo é classificado no framework PEAS como totalmente observável e estático, pois todos os fatos econômicos dos jurisdicionados são imediatamente conhecidos sem latência ou incerteza no âmbito da administração pública direta e indireta.
 * **E)** Um agente racional é definido estritamente como aquele que reproduz com total exatidão as falhas cognitivas e o processo emocional do cérebro humano, rejeitando o conceito de maximização de medidas de desempenho esperadas.
 
 
@@ -600,7 +600,7 @@ Sobre os fundamentos operacionais e os benefícios metodológicos da arquitetura
 
 * **A)** O modelo CLIP opera unicamente como um software sequencial de OCR baseado em expressões regulares, sendo inapto a manipular fotografias de objetos do mundo real que não possuam letreiros gravados.
 * **B)** O treinamento contrastivo do modelo CLIP projeta os vetores emitidos por um codificador visual e por um codificador textual em um espaço latente compartilhado, maximizando a similaridade de cosseno entre pares correspondentes (imagem e legenda descritiva) e minimizando a similaridade de pares desacoplados.
-* **C)** O CLIP exige que qualquer nova categoria de classificação seja submetida a um retreinamento supervisionado completo de todos os seus bilhões de parâmetros (*full fine-tuning*), sendo incapaz de executar predições no modo *Zero-Shot*.
+* **C)** O CLIP exige que qualquer nova categoria de classificação seja submetida a um retreinamento supervisionado completo de todos os seus bilhões de parâmetros (*full fine-tuning*), sendo incapaz de executar predições no modo *Zero-Shot* considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
 * **D)** O codificador visual do CLIP converte obrigatoriamente matrizes bidimensionais de pixels em faixas de áudio comprimidas antes da extração de embeddings semânticos.
 * **E)** O alinhamento semântico cross-modal exige rigorosamente que as sentenças de texto possuam o mesmo número de pixels em resolução gráfica que as matrizes de entrada das imagens.
 

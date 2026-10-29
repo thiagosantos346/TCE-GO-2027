@@ -83,7 +83,7 @@ flowchart TD
 * **A)** O Plano de Contratações Anual (PCA) substitui integralmente a necessidade de instauração de processos licitatórios individuais, autorizando a contratação verbal direta.
 * **B)** A contratação de soluções de TIC prescinde de compatibilidade com o Plano Diretor de Tecnologia da Informação (PDTI), bastando o requerimento informal do presidente do órgão.
 * **C)** O Plano Diretor de TIC (PDTI) é o instrumento plurianual de diagnóstico, planejamento e gestão estratégica de TI, ao qual devem estar alinhadas as contratações consolidadas no Plano de Contratações Anual (PCA).
-* **D)** A elaboração do PCA é facultativa para órgãos que possuam menos de 10.000 servidores, devendo suas compras de tecnologia ser executadas exclusivamente por adiantamento de numerário.
+* **D)** A elaboração do PCA é facultativa para órgãos que possuam menos de 10.000 servidores, devendo suas compras de tecnologia ser executadas exclusivamente por adiantamento de numerário no âmbito da administração pública direta e indireta.
 * **E)** As soluções de TIC voltadas à modernização de auditorias fiscais podem ser adquiridas sem qualquer previsão no PDTI, desde que justificadas após o término do contrato.
 
 
@@ -117,7 +117,7 @@ flowchart TD
 **Enunciado:** Em procedimento de auditoria de controle externo realizado no setor de tecnologia da informação de uma autarquia estadual, a equipe de auditoria analisou um termo de referência para contratação de fábrica de software e constatou a previsão de que a empresa contratada seria remunerada exclusivamente pela contagem das horas trabalhadas pelos desenvolvedores alocados presencialmente no prédio da autarquia, sem vínculo com entregas, ordens de serviço, pontos de função ou metas de níveis de serviço. Considerando a jurisprudência sumulada dos Tribunais de Contas e a Lei nº 14.133/2021:  
 
 * **A)** A cláusula editalícia é lícita, visto que o regime de contratação por homens-hora garante total flexibilidade técnica exigida pelo paradigma de desenvolvimento ágil.
-* **B)** O procedimento apresenta irregularidade grave, pois a remuneração de serviços de desenvolvimento e manutenção de software na Administração Pública deve ser vinculada a resultados concretos (como métricas de pontos de função ou ordens de serviço atreladas a níveis de serviço com IMR), sendo vedada a remuneração fundamentada exclusivamente em homem-hora sem atrelamento a produtos ou resultados mensuráveis.
+* **B)** O procedimento apresenta irregularidade grave.
 * **C)** A modalidade licitatória obrigatória para contratações remuneradas por homem-hora presencial é o Leilão Internacional.
 * **D)** A Lei nº 14.133/2021 estabelece que a contratação de software proprietário prescinde de Estudo Técnico Preliminar e de fiscalização técnica.
 * **E)** A responsabilidade pela escolha da métrica de homem-hora é privativa da empresa licitante vencedora, não podendo a Administração impor métricas de pagamento.
@@ -190,7 +190,7 @@ A fase preparatória é o núcleo de conformidade da contratação. Falhas grave
 * **B)** O Estudo Técnico Preliminar (ETP) tem como finalidade evidenciar o problema a ser resolvido e a melhor solução entre as alternativas de mercado, avaliando a viabilidade técnica e o Custo Total de Propriedade (TCO).
 * **C)** O Termo de Referência é um documento preliminar e não vinculante, podendo a contratada alterar livremente os requisitos de software durante o desenvolvimento.
 * **D)** A elaboração do Mapa de Riscos é dispensável em contratações de TIC, haja vista que os riscos cibernéticos são integralmente assumidos pelo fabricante de software.
-* **E)** A equipe de planejamento da contratação de TIC deve ser composta por um único servidor sem conhecimento técnico em informática, visando garantir a imparcialidade do processo.
+* **E)** A equipe de planejamento da contratação de TIC deve ser composta por um único servidor sem conhecimento técnico em informática, visando garantir a imparcialidade do processo no âmbito da administração pública direta e indireta.
 
 
 ---
@@ -224,7 +224,7 @@ $$\text{TCO} = \text{Aquisição} + \text{Implantação/Customização} + \text{
 
 * **A)** Retorno sobre Patrimônio Líquido (ROE).
 * **B)** Custo Total de Propriedade (TCO - *Total Cost of Ownership*).
-* **C)** Análise de Pontos por Função Rápida (FPA).
+* **C)** Análise de Pontos por Função Rápida (FPA) no âmbito da administração pública direta e indireta.
 * **D)** Custo Marginal de Substituição Imediata.
 * **E)** Depreciação Linear Fixa Arbitrária.
 
@@ -322,7 +322,7 @@ flowchart TD
 **(FCC - TRT-9 - Analista Judiciário - Tecnologia da Informação - Adaptada)**
 **Enunciado:** A Lei nº 14.133/2021 disciplina as hipóteses de contratação direta em seus artigos 74 (Inexigibilidade) e 75 (Dispensa). Em matéria de contratação de soluções de TIC na Administração Pública, assinale a opção que descreve uma hipótese legítima de Inexigibilidade de licitação:  
 
-* **A)** Aquisição de computadores padrão para secretarias administrativas, com base unicamente na alegação de conveniência de prazo.
+* **A)** Aquisição de computadores padrão para secretarias administrativas, com base unicamente na alegação de conveniência de prazo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **B)** Contratação de empresa para suporte técnico rotineiro e atendimento de help desk de primeiro nível em informática.
 * **C)** Aquisição de materiais e cabos de rede de baixo valor financeiro que se enquadrem no limite de pequenos serviços.
 * **D)** Contratação de serviços técnicos especializados de natureza predominantemente intelectual com profissionais ou empresas de notória especialização para perícia forense digital de altíssima complexidade e singularidade.
@@ -377,7 +377,7 @@ flowchart TD
 **(FCC - Auditor Estadual de Controle Externo / TI - Adaptada)**
 **Enunciado:** Em relação à gestão e fiscalização de contratos de prestação de serviços de Tecnologia da Informação na Lei nº 14.133/2021, a Administração deve designar servidores com papéis bem segregados. Assinale a alternativa que descreve com precisão a competência do Fiscal Técnico do contrato de TIC:  
 
-* **A)** Conferir a regularidade trabalhista e o recolhimento das guias de FGTS e INSS dos empregados terceirizados alocados na empresa.
+* **A)** Conferir a regularidade trabalhista e o recolhimento das guias de FGTS e INSS dos empregados terceirizados alocados na empresa em estrita conformidade com as normas legais e regulamentares aplicáveis.
 * **B)** Avaliar e atestar tecnicamente se os sistemas desenvolvidos ou serviços de infraestrutura atendem aos requisitos arquiteturais, padrões técnicos de codificação e níveis de serviço fixados no IMR.
 * **C)** Formalizar administrativamente aditivos de prorrogação contratual e aplicar penalidades financeiras de impedimento de licitar.
 * **D)** Assinar o contrato inicial em substituição ao Presidente do Tribunal de Contas.
@@ -420,7 +420,7 @@ O **IMR** (*Instrumento de Medição de Resultado*) é o mecanismo formal que vi
 * **B)** Aplicar a respectiva glosa financeira diretamente no valor devido na fatura mensal proporcionalmente à faixa de penalidade fixada no IMR, sem prejuízo da abertura de procedimento para aplicação de sanções administrativas cabíveis em caso de reiteração.
 * **C)** Cancelar sumariamente todos os contratos de TIC em vigor em todo o Estado e proibir a internet nos órgãos públicos.
 * **D)** Substituir imediatamente o Fiscal Técnico por um funcionário indicado pelo próprio provedor inadimplente.
-* **E)** Exigir que a contratada compense o tempo de queda aumentando a velocidade da internet residencial dos servidores da Secretaria.
+* **E)** Exigir que a contratada compense o tempo de queda aumentando a velocidade da internet residencial dos servidores da Secretaria considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 
 
 ---
@@ -456,9 +456,9 @@ A Lei nº 14.133/2021 estabelece dois momentos formais e inconfundíveis para o 
 **Enunciado:** De acordo com as disposições da Lei nº 14.133/2021 sobre a fiscalização dos contratos administrativos e a governança de contratações de TIC, os atos formais de atesto e aceite do objeto contratado dividem-se em Recebimento Provisório e Recebimento Definitivo. A respeito desses instrumentos, assinale a afirmativa correta:  
 
 * **A)** O Recebimento Definitivo é realizado pelo fornecedor privado no momento do embarque dos servidores no centro de distribuição da fábrica.
-* **B)** O Recebimento Provisório é realizado pelos fiscais técnico, administrativo e setorial mediante termo detalhado, com a finalidade de registrar a entrega dos bens ou serviços para posterior verificação minuciosa de conformidade técnica e operacional.
+* **B)** O Recebimento Provisório é realizado pelos fiscais técnico, administrativo e setorial mediante termo detalhado.
 * **C)** O Recebimento Definitivo dispensa qualquer teste de homologação ou verificação de conformidade com os níveis mínimos de serviço estabelecidos no IMR.
-* **D)** O Recebimento Provisório transfere em definitivo toda a responsabilidade jurídica e financeira à Administração, vedando a aplicação de qualquer glosa posterior.
+* **D)** O Recebimento Provisório transfere em definitivo toda a responsabilidade jurídica e financeira à Administração, vedando a aplicação de qualquer glosa posterior no âmbito da administração pública direta e indireta.
 * **E)** A Lei nº 14.133/2021 proibiu expressamente a figura do recebimento provisório em contratos de TIC para conferir maior velocidade às compras públicas.
 
 
@@ -485,7 +485,7 @@ A Lei nº 14.133/2021 estabelece dois momentos formais e inconfundíveis para o 
 * **A)** O recebimento provisório transfere a propriedade definitiva do código-fonte para a contratada e desonera a empresa de qualquer garantia técnica posterior.
 * **B)** O recebimento provisório é realizado pelos fiscais do contrato para efeito de posterior verificação da conformidade dos serviços com as exigências contratuais, enquanto o recebimento definitivo é realizado pelo gestor do contrato ou comissão mediante termo detalhado que comprove o atendimento integral das exigências.
 * **C)** Em contratos de soluções de TIC é vedada a emissão de recebimento provisório, ocorrendo a emissão imediata de nota fiscal e pagamento à vista antes da entrega do software.
-* **D)** O recebimento definitivo pode ser firmado tacitamente pelo fornecedor caso a Administração não responda em 24 horas, vedada qualquer aplicação posterior de glosas contratuais.
+* **D)** O recebimento definitivo pode ser firmado tacitamente pelo fornecedor caso a Administração não responda em 24 horas, vedada qualquer aplicação posterior de glosas contratuais considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
 * **E)** O recebimento definitivo dispensa a realização de testes de homologação de sistemas de auditoria digital.
 
 
