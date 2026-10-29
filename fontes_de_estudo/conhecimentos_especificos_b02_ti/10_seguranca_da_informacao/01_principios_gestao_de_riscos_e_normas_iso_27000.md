@@ -244,33 +244,26 @@ Está correto o que se afirma em:
 ---
 
 ### Teste 358
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No âmbito da governança de segurança da informação fundamentada nas normas ABNT NBR ISO/IEC 27001 e 27002, a classificação e a rotulagem de ativos informacionais são mandatórias para garantir que a informação receba um nível adequado de proteção de acordo com sua sensibilidade e criticidade.
+**(FCC – TRT-23 – Analista Judiciário (TI) – 2016)**  
+Um Analista do TRT23 deve estabelecer o sistema de gestão de segurança do Tribunal baseado na norma ABNT NBR ISO/IEC 27001:2013. Na fase de planejamento, os objetivos de segurança devem ser
 
-Em uma estrutura corporativa padrão de 4 níveis, assinale a afirmativa que define corretamente a categoria **Confidencial**:
-
-* **A)** Informação destinada à divulgação ampla para a sociedade civil, sem qualquer restrição de acesso ou direitos autorais.
-* **B)** Informação de uso irrestrito por qualquer colaborador da organização, cuja divulgação não causa nenhum impacto negativo à instituição.
-* **C)** Informação de elevado valor estratégico ou sensibilidade jurídica, cujo acesso é restrito estritamente a indivíduos com necessidade funcional indispensável de conhecê-la (*Need-to-Know*), e cujo vazamento ou divulgação não autorizada provocaria prejuízos financeiros, regulatórios, institucionais ou operacionais graves à organização.
-* **D)** Informação que não precisa de senhas ou criptografia e pode ser postada livremente nas redes sociais corporativas.
-* **E)** Documentos exclusivamente históricos produzidos há mais de 100 anos desprovidos de validade jurídica.
-
+* **A)** independentes da política de segurança da informação.
+* **B)** mantidos em segredo pela alta direção da organização.
+* **C)** fixos e imutáveis para possibilitar a avaliação de desempenho.
+* **D)** distintos ao plano de negócio da organização.
+* **E)** elaborados considerando os tratamentos de riscos.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Descreve a categoria **Pública**.
-> - **B)** Incorreta. Descreve a categoria **Uso Interno** (ou Corporativo Geral).
-> - **C)** **CORRETA.** Na taxonomia corporativa de segurança da informação (ISO/IEC 27002, controle 5.12):
->   - **Pública:** Divulgação irrestrita.
->   - **Interna:** Acessível por funcionários para atividades rotineiras.
->   - **Restrita:** Acessível por áreas ou grupos funcionais específicos.
->   - **Confidencial (ou Estritamente Confidencial):** Mais alto grau de proteção na taxonomia corporativa privada/geral. Exige segregação severa de privilégios baseada na "necessidade de conhecer" (*Need-to-Know*), criptografia em repouso e em trânsito, auditoria minuciosa de acessos e termo de confidencialidade formal, visto que seu comprometimento acarreta danos severos à instituição.
-> - **D)** Incorreta. É a antítese de informação confidencial.
-> - **E)** Incorreta. O critério de confidencialidade é a sensibilidade do dano em caso de vazamento, e não a antiguidade física do papel.
-> 
-> **Gabarito: C**
+> - **A)** Incorreta. Conforme a ABNT NBR ISO/IEC 27001 (item 6.2), os objetivos de segurança da informação devem ser estritamente consistentes com a política de segurança da informação da organização.
+> - **B)** Incorreta. Os objetivos de segurança devem ser devidamente comunicados a todas as partes interessadas relevantes, e não mantidos em segredo.
+> - **C)** Incorreta. A norma estabelece que os objetivos de segurança devem ser monitorados e atualizados conforme apropriado (ciclo PDCA/melhoria contínua), não sendo fixos nem imutáveis.
+> - **D)** Incorreta. A ISO 27001 exige alinhamento estratégico entre os objetivos de segurança e os objetivos de negócio da instituição.
+> - **E)** Correta. Nos termos do item 6.2 da ABNT NBR ISO/IEC 27001, ao planejar como alcançar seus objetivos de segurança da informação, a organização deve considerar os resultados da avaliação de riscos e os tratamentos de riscos aplicados.
+>
+> **Gabarito: E**
 
 ---
 
@@ -336,33 +329,26 @@ Concluída a avaliação do risco, a organização deve optar formalmente por um
 ---
 
 ### Teste 359
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Segundo as diretrizes para gestão de riscos de segurança da informação da ABNT NBR ISO/IEC 27005, o risco é formalmente concebido como a combinação da probabilidade de ocorrência de um evento com suas consequências/impactos sobre os ativos organizacionais.
+**(FCC – TRT-14 – Analista Judiciário (TI) – 2016)**  
+A etapa de análise de riscos, no processo de Gestão de Riscos, pode ser realizada de forma quantitativa ou qualitativa. Apó s a categorização dos riscos, deve-se decidir pelo tratamento e recursos a alocar. Uma das opções disponíveis para tratamento do risco é
 
-A respeito das definições normativas dos componentes do risco, assinale a afirmativa correta:
-
-* **A)** Uma ameaça é uma fraqueza ou falha intrínseca de um ativo ou controle que pode ser explorada por agentes externos.
-* **B)** Uma vulnerabilidade é uma causa potencial de um incidente indesejado, que pode resultar em dano a um sistema ou organização.
-* **C)** O risco manifesta-se quando uma **Ameaça** (agente com potencial de causar dano) explora com sucesso uma **Vulnerabilidade** (fraqueza ou brecha em hardware, software, processos ou pessoas), provocando um impacto adverso sobre um **Ativo** de informação valioso.
-* **D)** Se uma organização possui uma vulnerabilidade grave em um sistema isolado que não possui nenhuma ameaça correspondente nem é exposto a rede, o risco é matematicamente infinito.
-* **E)** Ativo de informação é exclusivamente o gabinete metálico da CPU do computador.
-
+* **A)** eliminar o sistema que gerou o risco, visando reduzir o risco.
+* **B)** atuar sobre os ativos que sofrem as consequências do risco, visando eliminar o risco.
+* **C)** escolher apenas uma alternativa que seja economicamente viável, já que é impossível reter o risco.
+* **D)** utilizar sempre medidas de caráter contingencial ou mitigatório, evitando-se as medidas preventivas.
+* **E)** transferir o risco, por meio de seguros, cooperação ou outra ação adequada.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Inverteu o conceito: fraqueza ou brecha intrínseca é uma **Vulnerabilidade**.
-> - **B)** Incorreta. Inverteu o conceito: causa potencial de incidente indesejado é uma **Ameaça**.
-> - **C)** **CORRETA.** Relação ontológica canônica da **ISO/IEC 27005**:
->   - **Ativo (Asset):** Qualquer coisa que tenha valor para a organização (dados, software, reputação, infraestrutura).
->   - **Ameaça (Threat):** Evento, ator ou fenômeno com potencial de provocar danos (hackers, malwares, desastres naturais, erros humanos).
->   - **Vulnerabilidade (Vulnerability):** Fragilidade ou ponto fraco em um ativo ou salvaguarda que pode ser explorado por uma ou mais ameaças.
->   - **Risco:** O potencial de uma ameaça explorar uma vulnerabilidade para causar impacto negativo nos objetivos de negócio. Sem vulnerabilidade ou sem ameaça, o risco é nulo.
-> - **D)** Incorreta. Sem ameaça presente, a probabilidade de exploração é zero, logo o risco residual é nulo ou negligenciável ($Risco = Ameaça \times Vulnerabilidade \times Impacto$).
-> - **E)** Incorreta. Ativo abrange informações digitais, impressas, conhecimento humano, softwares, bancos de dados e serviços.
-> 
-> **Gabarito: C**
+> - **A)** Incorreta. Eliminar um sistema que gera risco é uma medida de 'evitar o risco' (eliminação da atividade), e não de redução.
+> - **B)** Incorreta. Atuar sobre vulnerabilidades ou ameaças visa mitigar ou reduzir o risco, sendo praticamente impossível 'eliminar' de forma absoluta o risco sem descontinuar a operação.
+> - **C)** Incorreta. Reter (aceitar) o risco residual é uma das opções fundamentais de tratamento quando o impacto está dentro dos limites de tolerância e o custo de controle supera o benefício.
+> - **D)** Incorreta. As normas de gestão de riscos (ISO 27005 / ISO 31000) priorizam a prevenção e a redução pró-ativa sobre medidas puramente contingenciais.
+> - **E)** Correta. De acordo com os frameworks de gestão de riscos (ISO 31000 e ISO/IEC 27005), as opções de tratamento de riscos compreendem: evitar o risco, mitigar/reduzir o risco, reter/aceitar o risco e compartilhar/transferir o risco (por meio de contratos de seguro, terceirização ou cooperação institucional).
+>
+> **Gabarito: E**
 
 ---
 
@@ -601,27 +587,26 @@ A edição atualizada (ISO/IEC 27002:2022) simplificou os antigos 14 domínios d
 ---
 
 ### Teste 364
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A respeito dos conceitos de gestão de riscos e da família de normas ABNT NBR ISO/IEC 27000, assinale a afirmativa correta:
+**(FCC – TRT-23 – Analista Judiciário (TI) – 2016)**  
+De acordo com a norma ABNT NBR ISO/IEC 27002:2013 a política de controle de acesso deve considerar
 
-* **A)** Uma vulnerabilidade é o agente externo causador do dano (como um invasor ou uma tempestade), enquanto a ameaça é a falha ou brecha interna de um sistema.
-* **B)** A norma ABNT NBR ISO/IEC 27001 é um padrão certificável que define os requisitos para estabelecer, implementar, manter e melhorar continuamente um Sistema de Gestão de Segurança da Informação (SGSI), estruturado nas cláusulas de alto nível harmonizadas e no ciclo PDCA.
-* **C)** A edição atualizada da norma ISO/IEC 27002 organiza seus controles em 14 domínios tecnológicos idênticos aos da versão de 2005, proibindo expressamente o tratamento de controles organizacionais e de pessoas.
-* **D)** O cálculo do risco quantitativo Annualized Loss Expectancy (ALE) é obtido somando-se a taxa anual de ocorrência (ARO) com a metade do patrimônio líquido da organização.
-* **E)** A opção de tratamento de risco denominada "Aceitação" consiste em instalar firewalls redundantes e sistemas IPS para zerar o risco residual.
-
+* **A)** a disponibilidade de referências de caráter satisfatórias do usuário, por exemplo, uma profissional e uma pessoal.
+* **B)** verificações financeiras e verificações de registros criminais do usuário.
+* **C)** ações a serem tomadas no caso de o funcionário desrespeitar os requisitos de segurança da informação da organização.
+* **D)** a legislação pertinente e qualquer obrigação contratual relativa à proteção de acesso para dados ou serviços.
+* **E)** a confirmação e documentação das qualificações acadêmicas e profissionais do usuário.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Os conceitos foram invertidos: **Vulnerabilidade** é a fraqueza interna do ativo; **Ameaça** é o agente ou evento externo causador do dano potencial.
-> - **B)** **Correta.** A **ABNT NBR ISO/IEC 27001** prescreve formalmente os **requisitos do SGSI**, sendo a única norma da família 27000 passível de certificação institucional para organizações.
-> - **C)** Incorreta. A ISO/IEC 27002:2022 consolidou os antigos 14 domínios em **4 temas integrados**: Organizacionais, Pessoas, Físicos e Tecnológicos, somando 93 controles.
-> - **D)** Incorreta. A fórmula quantitativa correta é a multiplicação: $\text{ALE} = \text{SLE} \times \text{ARO}$, sem relação com somas de patrimônio líquido.
-> - **E)** Incorreta. A Aceitação do risco (*Risk Acceptance*) não adiciona controles técnicos; consiste em assumir formalmente o risco residual sem novas salvaguardas quando o custo de mitigação não for justificável.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. Referências de caráter pessoal/profissional referem-se aos controles de segurança em recursos humanos (seleção e admissão), não à política de controle de acesso aos sistemas.
+> - **B)** Incorreta. Verificações de antecedentes integram o processo pré-contratual de RH.
+> - **C)** Incorreta. Ações sancionatórias disciplinares compõem o processo disciplinar formal previsto na seção de recursos humanos.
+> - **D)** Correta. De acordo com a norma ABNT NBR ISO/IEC 27002 (Controle 9.1.1 - Requisitos de negócio para controle de acesso), a política de controle de acesso deve levar em consideração os requisitos de negócio, as políticas de segurança, a legislação pertinente e quaisquer obrigações contratuais relativas à proteção de acesso a dados ou serviços.
+> - **E)** Incorreta. A comprovação de qualificações acadêmicas é controle típico de triagem pré-admissional em recursos humanos.
+>
+> **Gabarito: D**
 
 ---
 

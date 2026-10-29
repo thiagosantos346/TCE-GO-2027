@@ -12801,7 +12801,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/11_sistemas_operacionais_redes_e_nuvem/02_servicos_de_diretorio_active_directory_e_ldap.md",
       "target_section": "### 2.2 Tipos e Escopos de Grupos no AD DS",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT-2024-FGV-Q87",
@@ -14898,7 +14898,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/10_seguranca_da_informacao/05_ameacas_malware_engenharia_social_e_defesa_de_redes.md",
       "target_section": "### 1.3 Canais Alternativos e Golpes Físicos (Vishing, Smishing, Pretexting e Baiting)",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TJAP-2023-FGV-Q75",
@@ -16320,7 +16320,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/10_seguranca_da_informacao/04_seguranca_em_aplicacoes_owasp_top_10_e_devsecops.md",
       "target_section": "### 1.4 Injection (#3): SQL Injection vs. Consultas Parametrizadas e Modalidades de XSS",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TJAP-2023-FGV-Q62",
@@ -16341,7 +16341,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_gerais/03_legislacao_institucional/06_politicas_institucionais_e_resolucoes_normativas.md",
       "target_section": "### 2.3 Tratamento de Incidentes Cibernéticos e Rastreabilidade",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TJAP-2023-FGV-Q63",
@@ -16383,7 +16383,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/10_seguranca_da_informacao/05_ameacas_malware_engenharia_social_e_defesa_de_redes.md",
       "target_section": "### 3.1 Gerações de Firewalls: Stateless vs. Stateful vs. NGFW",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TJAP-2023-FGV-Q65",
@@ -16425,7 +16425,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/07_devops_e_plataforma_de_entrega/04_orquestracao_com_kubernetes_e_gestao_de_ambientes.md",
       "target_section": "### 1.2 Componentes dos Nós de Execução (Worker Nodes)",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TJAP-2023-FGV-Q67",
@@ -18966,7 +18966,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/10_seguranca_da_informacao/01_principios_gestao_de_riscos_e_normas_iso_27000.md",
       "target_section": "### 3.3 As Quatro Estratégias de Tratamento do Risco (ISO/IEC 27005)",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT14-2016-FCC-Q28",
@@ -19029,7 +19029,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/10_seguranca_da_informacao/05_ameacas_malware_engenharia_social_e_defesa_de_redes.md",
       "target_section": "### 3.2 IDS vs. IPS: Arquiteturas Passiva vs. In-Line",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT14-2016-FCC-Q31",
@@ -20835,7 +20835,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/10_seguranca_da_informacao/01_principios_gestao_de_riscos_e_normas_iso_27000.md",
       "target_section": "### 5.1 A Norma Certificável ISO/IEC 27001 e o Anexo SL",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT23-2016-FCC-Q58",
@@ -20856,7 +20856,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/10_seguranca_da_informacao/01_principios_gestao_de_riscos_e_normas_iso_27000.md",
       "target_section": "### 5.1 A Norma Certificável ISO/IEC 27001 e o Anexo SL",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT23-2016-FCC-Q59",
@@ -20877,7 +20877,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/10_seguranca_da_informacao/02_criptografia_icp_brasil_e_assinatura_digital.md",
       "target_section": "### 1.2 Cifras de Bloco vs. Cifras de Fluxo (AES, DES, 3DES, ChaCha20)",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT23-2016-FCC-Q60",
@@ -20898,7 +20898,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_gerais/01_lingua_portuguesa/07_redacao_oficial.md",
       "target_section": "## 2. Atributos Fundamentais da Redação Oficial",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT6-2012-FCC-Q01",
@@ -21948,7 +21948,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/13_legislacao_aplicada_a_ti/03_seguranca_em_contratacoes_e_certificacao_digital.md",
       "target_section": "### 2.3 Presunção Legal de Veracidade e Validade de Assinaturas Não-ICP",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT6-2012-FCC-Q52",
@@ -23103,7 +23103,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/10_seguranca_da_informacao/01_principios_gestao_de_riscos_e_normas_iso_27000.md",
       "target_section": "### 5.1 A Norma Certificável ISO/IEC 27001 e o Anexo SL",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT9-2015-FCC-Q50",
@@ -27369,7 +27369,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/10_seguranca_da_informacao/02_criptografia_icp_brasil_e_assinatura_digital.md",
       "target_section": "### 2.1 Princípios Matemáticos e as Duas Operações Fundamentais",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT16-2022-FGV-Q74",
@@ -44625,7 +44625,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/10_seguranca_da_informacao/04_seguranca_em_aplicacoes_owasp_top_10_e_devsecops.md",
       "target_section": "### 1.4 Injection (#3): SQL Injection vs. Consultas Parametrizadas e Modalidades de XSS",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT13-2022-FGV-Q43",
@@ -45075,7 +45075,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/10_seguranca_da_informacao/05_ameacas_malware_engenharia_social_e_defesa_de_redes.md",
       "target_section": "### 2.1 Taxonomia dos Malwares: Vírus vs. Worms vs. Trojans",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT13-2022-FGV-Q63",
@@ -49683,7 +49683,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/10_seguranca_da_informacao/04_seguranca_em_aplicacoes_owasp_top_10_e_devsecops.md",
       "target_section": "### 1.4 Injection (#3): SQL Injection vs. Consultas Parametrizadas e Modalidades de XSS",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT24-2017-FCC-Q52",
@@ -49830,7 +49830,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/10_seguranca_da_informacao/02_criptografia_icp_brasil_e_assinatura_digital.md",
       "target_section": "### 4.4 Tipos de Certificados na ICP-Brasil (A1 vs. A3, Séries S e T)",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT24-2017-FCC-Q59",
@@ -54671,9 +54671,9 @@
     {
       "id": "TRT-2024-FGV-Q17",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 17,
       "enunciado": "No exercício de suas atribuições como auditor de controle \nexterno do Tribunal de Contas do Estado do Pará, regularmente \ninvestido no cargo,  Rozendo entendeu ser necessário averiguar \nas normas aplicáveis aos servidores no tocante às relações com o \nfiscalizado, à luz da Resolução nº 18.523/2013 (Código de Ética), \nvindo a concluir corretamente que, durante os trabalhos de \nfiscalização a cargo do Tribunal, o servidor deverá:",
       "alternativas": {
@@ -55196,9 +55196,9 @@
     {
       "id": "TRT-2024-FGV-Q42",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 42,
       "enunciado": "Avalie se as seguintes afirmativas a seguir, contidas no \nPlanejamento Estratégico do TCE -PA, correspondem a um valor \ninstitucional, à missão da organização ou à visão da organização. \nI. Ser instituição de referência no controle externo e contribuir \npara o aperfeiçoamento da administração pública.  \nII. Primar pela divulgação clara e acessível dos seus atos e dos \ndecorrentes de sua missão.  \nIII. Exercer o controle externo da gestão de recursos públicos \nestaduais em benefício da sociedade.  \nIV. Atuar com liberdade, imparcialidade e autonomia.  \nAs afirmativas referem-se, respectivamente, a",
       "alternativas": {
@@ -55490,9 +55490,9 @@
     {
       "id": "TRT-2024-FGV-Q56",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 56,
       "enunciado": "Uma pessoa jurídica devidamente identificada apresentou uma \ndenúncia ao TCE -PA em que indicava graves irregularidades na \nexecução de um contrato de obras públicas firmado entre um \nórgão jurisdicionado ao Tribunal e a empresa XPTO Ltda. \nNo entanto, restaram algumas dúvidas quanto aos fatos \napontados. O Relator também considerou a necessidade de \napurar a legalidade dos fatos e do objeto da denúncia \napresentada. \nPara a adoção dessas medidas, o RITCE -PA permite o uso do \ninstrumento de fiscalização denominado",
       "alternativas": {
@@ -55574,9 +55574,9 @@
     {
       "id": "TRT-2024-FGV-Q60",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 60,
       "enunciado": "José, diretor de uma fundação pública de um órgão estadual \njurisdicionado ao TCE -PA, praticou ato ilegíti mo e antieconômico \ndo qual não resultou danos ao erário, razão pela qual o Tribunal \njulgou as suas contas regulares com ressalva, lhe impondo o \ncumprimento de determinações para execução de medidas \nnecessárias à correção das faltas identificadas e lhe apli cando \nmulta no valor de 5.000 (cinco mil) Unidades Padrão Fiscal do \nEstado do Pará. \nNessa situação, o Tribunal deverá conferir a José certificado de \nquitação",
       "alternativas": {
@@ -56750,9 +56750,9 @@
     {
       "id": "TRT-2024-FGV-Q17",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 17,
       "enunciado": "No exercício de suas atribuições como auditor de controle \nexterno do Tribunal de Contas do Estado do Pará, regularmente \ninvestido no cargo, Rozendo entendeu ser necessário averiguar \nas normas aplicáveis aos servidores no tocante às relações com o \nfiscalizado, à luz da Resolução nº 18.523/2013 (Código de Ética), \nvindo a concluir corretamente que, durante os trabalhos de \nfiscalização a cargo do Tribunal, o servidor deverá:",
       "alternativas": {
@@ -57269,9 +57269,9 @@
     {
       "id": "TRT-2024-FGV-Q03",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 3,
       "enunciado": "Disponibilidade: Garantir que a informação e os recursos \nestejam disponíveis para uso quando necessário. \nEsses conceitos são frequentemente referidos como a Tríade CIA \n(Confidentiality, Integrity, Availability). \nA equipe de TI do TCE -PA está desenvolvendo um plano de \nsegurança da informação. Eles precisam garantir que informações \nsensíveis estejam protegidas contra acessos não autorizados, que \nos dados das transações permaneçam inalterados e corretos, e \nque os sistemas estejam sempre disponíveis para realizarem suas \noperações. \nAssinale a opção que melhor representa a implementação dos \ntrês pilares da segurança da informação (confidencialidade, \nintegridade e disponibilidade) no cenário descrito.",
       "alternativas": {
@@ -57290,9 +57290,9 @@
     {
       "id": "TRT-2024-FGV-Q42",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 42,
       "enunciado": "O TCE -PA está revisando suas políticas de segurança da \ninformação para garantir que tanto a segurança física quanto a \nlógica estejam adequadamente implementadas. O objetivo é \nproteger os ativos do tribunal contra uma variedade de ameaças, \ndesde intrusões físicas até ataques cibernéticos. \nAssinale a opção que exemplifica a integração de medidas de \nsegurança física e lógica, respectivamente, para proteger os \nativos da organização.",
       "alternativas": {
@@ -57353,9 +57353,9 @@
     {
       "id": "TRT-2024-FGV-Q45",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 45,
       "enunciado": "O TCE -PA deseja fortalecer ( hardening) a segurança de suas \nestações de trabalho para proteger contra diversas ameaças. As \nações que devem ser tomadas pelo tribunal incluem",
       "alternativas": {
@@ -57395,9 +57395,9 @@
     {
       "id": "TRT-2024-FGV-Q47",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 47,
       "enunciado": "O TCE -PA está implementando medidas de segurança para \nproteger suas comunicações e dados sensíveis. \nPara assegurar a proteção das comunicações do tribunal por \nmeio da internet, a organização deve utilizar o protocolo",
       "alternativas": {
@@ -57416,9 +57416,9 @@
     {
       "id": "TRT-2024-FGV-Q48",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 48,
       "enunciado": "O departamento de TI do TCE -PA está implementando medidas \npara proteger seus sistemas contra diferentes tipos de malware. \nOs programas maliciosos que se disfarçam como softwares \nlegítimos são denominados",
       "alternativas": {
@@ -57437,9 +57437,9 @@
     {
       "id": "TRT-2024-FGV-Q49",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 49,
       "enunciado": "O TCE -PA está implementando um sistema de assinatura digital \npara garantir a autenticidade e integridade dos documentos \neletrônicos que serão enviados e recebidos pelos seus sistemas. \nPara assegurar que a chave pública do emissor esteja \ncorretamente associada à sua identidade, o tribunal deve utilizar \num",
       "alternativas": {
@@ -57453,7 +57453,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/10_seguranca_da_informacao/02_criptografia_icp_brasil_e_assinatura_digital.md",
       "target_section": "### 4.2 Certificados Digitais Padrão X.509 v3 e Ciclo de Vida",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT-2024-FGV-Q50",
@@ -58511,9 +58511,9 @@
     {
       "id": "TRT-2024-FGV-Q98",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 98,
       "enunciado": "A equipe de TI do TCE -PA está implementando o ElasticSearch \npara melhorar a busca e análise de seus dados corporativos. \nPara garantir a alta disponibilidade, tolerância a falhas e auxiliar \nna performance durante a busca dos dados, a organização deve \nconfigurar",
       "alternativas": {
@@ -58910,9 +58910,9 @@
     {
       "id": "TRT-2024-FGV-Q17",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 17,
       "enunciado": "No exercício de suas atribuições como auditor de controle \nexterno do Tribunal de Contas do Estado do Pará, regularmente \ninvestido no cargo,  Rozendo entendeu ser necessário averiguar \nas normas aplicáveis aos servidores no tocante às relações com o \nfiscalizado, à luz da Resolução nº 18.523/2013 (Código de Ética), \nvindo a concluir corretamente que, durante os trabalhos de \nfiscalização a cargo do Tribunal, o servidor deverá:",
       "alternativas": {
@@ -59435,9 +59435,9 @@
     {
       "id": "TRT-2024-FGV-Q42",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 42,
       "enunciado": "Avalie se as seguintes afirmativas a seguir, contidas no \nPlanejamento Estratégico do TCE -PA, correspondem a um valor \ninstitucional, à missão da organização ou à visão da organização. \nI. Ser instituição de referência no controle externo e contribuir \npara o aperfeiçoamento da administração pública.  \nII. Primar pela divulgação clara e acessível dos seus atos e dos \ndecorrentes de sua missão.  \nIII. Exercer o controle externo da gestão de recursos públicos \nestaduais em benefício da sociedade.  \nIV. Atuar com liberdade, imparcialidade e autonomia.  \nAs afirmativas referem-se, respectivamente, a",
       "alternativas": {
@@ -59729,9 +59729,9 @@
     {
       "id": "TRT-2024-FGV-Q56",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 56,
       "enunciado": "Uma pessoa jurídica devidamente identificada apresentou uma \ndenúncia ao TCE -PA em que indicava graves irregularidades na \nexecução de um contrato de obras públicas firmado entre um \nórgão jurisdicionado ao Tribunal e a empresa XPTO Ltda. \nNo entanto, restaram algumas dúvidas quanto aos fatos \napontados. O Relator também considerou a necessidade de \napurar a legalidade dos fatos e do objeto da denúncia \napresentada. \nPara a adoção dessas medidas, o RITCE -PA permite o uso do \ninstrumento de fiscalização denominado",
       "alternativas": {
@@ -59813,9 +59813,9 @@
     {
       "id": "TRT-2024-FGV-Q60",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 60,
       "enunciado": "José, diretor de uma fundação pública de um órgão estadual \njurisdicionado ao TCE -PA, praticou ato ilegíti mo e antieconômico \ndo qual não resultou danos ao erário, razão pela qual o Tribunal \njulgou as suas contas regulares com ressalva, lhe impondo o \ncumprimento de determinações para execução de medidas \nnecessárias à correção das faltas identificadas e lhe apli cando \nmulta no valor de 5.000 (cinco mil) Unidades Padrão Fiscal do \nEstado do Pará. \nNessa situação, o Tribunal deverá conferir a José certificado de \nquitação",
       "alternativas": {
@@ -61010,9 +61010,9 @@
     {
       "id": "TRT-2024-FGV-Q17",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 17,
       "enunciado": "No exercício de suas atribuições como auditor de controle \nexterno do Tribunal de Contas do Estado do Pará, regularmente \ninvestido no cargo, Rozen do entendeu ser necessário averiguar \nas normas aplicáveis aos servidores no tocante às relações com o \nfiscalizado, à luz da Resolução nº 18.523/2013 (Código de Ética), \nvindo a concluir corretamente que, durante os trabalhos de \nfiscalização a cargo do Tribunal, o servidor deverá:",
       "alternativas": {
@@ -61535,9 +61535,9 @@
     {
       "id": "TRT-2024-FGV-Q42",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 42,
       "enunciado": "Avalie se as seguintes afirmativas a seguir, contidas no \nPlanejamento Estratégico do TCE -PA, correspondem a um valor \ninstitucional, à missão da organização ou à visão da organização. \nI. Ser instituição de referência no controle externo e c ontribuir \npara o aperfeiçoamento da administração pública.  \nII. Primar pela divulgação clara e acessível dos seus atos e dos \ndecorrentes de sua missão.  \nIII. Exercer o controle externo da gestão de recursos públicos \nestaduais em benefício da sociedade.  \nIV. Atuar com liberdade, imparcialidade e autonomia.  \nAs afirmativas referem-se, respectivamente, a",
       "alternativas": {
@@ -61829,9 +61829,9 @@
     {
       "id": "TRT-2024-FGV-Q56",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 56,
       "enunciado": "Uma pessoa jurídica devidamente identificada apresentou uma \ndenúncia ao TCE -PA em que indicava graves irregularidades na \nexecução de um contrato de obras públicas firmado entre um \nórgão jurisdicionado ao Tribunal e a empresa XPTO Ltda. \nNo entanto, restaram algumas dúvidas quanto aos fatos \napontados. O Relator também considerou a necessidade de \napurar a legalidade dos fatos e do objeto da denúncia \napresentada. \nPara a adoção dessas medidas, o RITCE -PA permite o uso do \ninstrumento de fiscalização denominado",
       "alternativas": {
@@ -61850,9 +61850,9 @@
     {
       "id": "TRT-2024-FGV-Q57",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 57,
       "enunciado": "Ao realizar uma fiscalização de contas em um órgão de estadual \njurisdicionado ao TCE -PA, a equipe de auditoria evidenciou a \nprática de atos danosos ao erário. \nNo mesmo processo, apurou-se os fatos e atos que resultaram no \ndano quantificado em R$ 550 mil, bem como o nexo de \ncausalidade entre as condutas dos responsáveis e o dano \napurado, sendo -lhes imputado o débito naquele valor após \njulgamento em que lhes fora assegurado o contraditório e a \nampla defesa. \nNessa hipótese e considerando as disposições da LOTCE -PA, o \nTribunal poderá aplicar aos responsáveis a sanção de:",
       "alternativas": {
@@ -61913,9 +61913,9 @@
     {
       "id": "TRT-2024-FGV-Q60",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 60,
       "enunciado": "José, diretor de uma fundação pública de um órgão estadual \njurisdicionado ao TCE -PA, praticou ato ilegítimo e antieconômico \ndo qual não resultou danos ao erário, razão pela qual o Tribu nal \njulgou as suas contas regulares com ressalva, lhe impondo o \ncumprimento de determinações para execução de medidas \nnecessárias à correção das faltas identificadas e lhe aplicando \nmulta no valor de 5.000 (cinco mil) Unidades Padrão Fiscal do \nEstado do Pará. \nNessa situação, o Tribunal deverá conferir a José certificado de \nquitação",
       "alternativas": {
@@ -63110,9 +63110,9 @@
     {
       "id": "TRT-2024-FGV-Q17",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 17,
       "enunciado": "No exercício de suas atribuições como auditor de controle \nexterno do Tribunal de Contas do Estado do Pará, regularmente \ninvestido no cargo, Rozendo entendeu ser necessário averiguar \nas normas aplicáveis aos servidores no tocante às relações com o \nfiscalizado, à luz da Resolução nº 18.523/2013 (Código de Ética), \nvindo a concluir corretamente que, durante os trabalhos de \nfiscalização a cargo do Tribunal, o servidor deverá:",
       "alternativas": {
@@ -63635,9 +63635,9 @@
     {
       "id": "TRT-2024-FGV-Q42",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 42,
       "enunciado": "Avalie se as seguintes afirmativas a seguir, contidas no \nPlanejamento Estratégico do TCE -PA, correspondem a um valor \ninstitucional, à missão da organização ou à visão da organização. \nI. Ser instituição de referência no controle externo e contribuir \npara o aperfeiçoamento da administração pública.  \nII. Primar pela divulgação clara e acessível dos seus atos e dos \ndecorrentes de sua missão.  \nIII. Exercer o controle externo da gestão de recursos públicos \nestaduais em benefício da sociedade.  \nIV. Atuar com liberdade, imparcialidade e autonomia.  \nAs afirmativas referem-se, respectivamente, a",
       "alternativas": {
@@ -63929,9 +63929,9 @@
     {
       "id": "TRT-2024-FGV-Q56",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 56,
       "enunciado": "Uma pessoa jurídica devidamente identificada apresentou uma \ndenúncia ao TCE -PA em que indicava graves irregularidades na \nexecução de um contrato de obras públicas firmado entre um \nórgão jurisdicionado ao Tribunal e a empresa XPTO Ltda. \nNo entanto, restaram algumas dúvidas quanto aos fatos \napontados. O Relator também considerou a necessidade de \napurar a legalidade dos fatos e do objeto da denúncia \napresentada. \nPara a adoção dessas medidas, o RITCE -PA permite o uso do \ninstrumento de fiscalização denominado",
       "alternativas": {
@@ -64013,9 +64013,9 @@
     {
       "id": "TRT-2024-FGV-Q60",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 60,
       "enunciado": "José, diretor de uma fundação pública de um órgão estadual \njurisdicionado ao TCE -PA, praticou ato ilegítimo e antieconômico \ndo qual não resultou danos ao erário, razão pela qual o Tribunal \njulgou as suas contas regulares com ressalva, lhe impondo o \ncumprimento de determinações para execução de medidas \nnecessárias à correção das faltas identificadas e lhe aplicando \nmulta no valor de 5.000 (cinco mil) Unidades Padrão Fiscal do \nEstado do Pará. \nNessa situação, o Tribunal deverá conferir a José certificado de \nquitação",
       "alternativas": {
@@ -65225,9 +65225,9 @@
     {
       "id": "TRT-2024-FGV-Q17",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 17,
       "enunciado": "No exercício de suas atribuições como auditor de controle \nexterno do Tribunal de Contas do Estado do Pará, regularmente \ninvestido no cargo,  Rozendo entendeu ser necessário averiguar \nas normas aplicáveis aos servidores no tocante às relações com o \nfiscalizado, à luz da Resolução nº 18.523/2013 (Código de Ética), \nvindo a concluir corretamente que, durante os trabalhos de \nfiscalização a cargo do Tribunal, o servidor deverá:",
       "alternativas": {
@@ -65750,9 +65750,9 @@
     {
       "id": "TRT-2024-FGV-Q42",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 42,
       "enunciado": "Avalie se as seguintes afirmativas a seguir, contidas no \nPlanejamento Estratégico do TCE -PA, correspondem a um valor \ninstitucional, à missão da organização ou à visão da organização. \nI. Ser instituição de referência no controle externo e contribuir \npara o aperfeiçoamento da administração pública.  \nII. Primar pela divulgação clara e acessível dos seus atos e dos \ndecorrentes de sua missão.  \nIII. Exercer o controle externo da gestão de recursos públicos \nestaduais em benefício da sociedade.  \nIV. Atuar com liberdade, imparcialidade e autonomia.  \nAs afirmativas referem-se, respectivamente, a",
       "alternativas": {
@@ -66044,9 +66044,9 @@
     {
       "id": "TRT-2024-FGV-Q56",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 56,
       "enunciado": "Uma pessoa jurídica devidamente identificada apresentou uma \ndenúncia ao TCE -PA em que indicava graves irregularidades na \nexecução de um contrato de obras públicas firmado entre um \nórgão jurisdicionado ao Tribunal e a empresa XPTO Ltda. \nNo entanto, restaram algumas dúvidas quanto aos fatos \napontados. O Relator também considerou a necessidade de \napurar a legalidade dos fatos e do objeto da denúncia \napresentada. \nPara a adoção dessas medidas, o RITCE -PA permite o uso do \ninstrumento de fiscalização denominado",
       "alternativas": {
@@ -66128,9 +66128,9 @@
     {
       "id": "TRT-2024-FGV-Q60",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 60,
       "enunciado": "José, diretor de uma fundação pública de um órgão estadual \njurisdicionado ao TCE -PA, praticou ato ilegíti mo e antieconômico \ndo qual não resultou danos ao erário, razão pela qual o Tribunal \njulgou as suas contas regulares com ressalva, lhe impondo o \ncumprimento de determinações para execução de medidas \nnecessárias à correção das faltas identificadas e lhe apli cando \nmulta no valor de 5.000 (cinco mil) Unidades Padrão Fiscal do \nEstado do Pará. \nNessa situação, o Tribunal deverá conferir a José certificado de \nquitação",
       "alternativas": {
@@ -67355,9 +67355,9 @@
     {
       "id": "TRT-2024-FGV-Q17",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 17,
       "enunciado": "No exercício de suas atribuições como auditor de controle \nexterno do Tribunal de Contas do Estado do Pará, regularmente \ninvestido no cargo, Rozendo entendeu ser necessário averiguar \nas normas aplicáveis aos servidores no tocante às relações com o \nfiscalizado, à luz da Resolução nº 18.523/2013 (Código de Ética), \nvindo a concluir corretamente que, durante os trabalhos de \nfiscalização a cargo do Tribunal, o servidor deverá:",
       "alternativas": {
@@ -67880,9 +67880,9 @@
     {
       "id": "TRT-2024-FGV-Q42",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 42,
       "enunciado": "Avalie se as seguintes afirmativas a seguir, contidas no \nPlanejamento Estratégico do TCE -PA, correspondem a um valor \ninstitucional, à missão da organização ou à visão da organização. \nI. Ser instituição de referência no controle externo e contribuir \npara o aperfeiçoamento da administração pública.  \nII. Primar pela divulgação clara e acessível dos seus atos e dos \ndecorrentes de sua missão.  \nIII. Exercer o controle externo da gestão de recursos públicos \nestaduais em benefício da sociedade.  \nIV. Atuar com liberdade, imparcialidade e autonomia.  \nAs afirmativas referem-se, respectivamente, a",
       "alternativas": {
@@ -68174,9 +68174,9 @@
     {
       "id": "TRT-2024-FGV-Q56",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 56,
       "enunciado": "Uma pessoa jurídica devidamente identificada apresentou uma \ndenúncia ao TCE -PA em que indicava graves irregularidades na \nexecução de um contrato de obras públicas firmado entre um \nórgão jurisdicionado ao Tribunal e a empresa XPTO Ltda. \nNo entanto, restaram algumas dúvidas quanto aos fatos \napontados. O Relator também considerou a necessidade de \napurar a legalidade dos fatos e do objeto da denúncia \napresentada. \nPara a adoção dessas medidas, o RITCE -PA permite o uso do \ninstrumento de fiscalização denominado",
       "alternativas": {
@@ -68258,9 +68258,9 @@
     {
       "id": "TRT-2024-FGV-Q60",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 60,
       "enunciado": "José, diretor de uma fundação pública de um órgão estadual \njurisdicionado ao TCE -PA, praticou ato ilegítimo e antieconômico \ndo qual não resultou danos ao erário, razão pela qual o Tribunal \njulgou as suas contas regulares com ressalva, lhe impondo o \ncumprimento de determinações para execução de medidas \nnecessárias à correção das faltas identificadas e lhe aplicando \nmulta no valor de 5.000 (cinco mil) Unidades Padrão Fiscal do \nEstado do Pará. \nNessa situação, o Tribunal deverá conferir a José certificado de \nquitação",
       "alternativas": {
@@ -69392,9 +69392,9 @@
     {
       "id": "TRT-2024-FGV-Q16",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 16,
       "enunciado": "Um objetivo consagrado no Código de Ética e Disciplina  \ndos Servidores do Tribunal de Contas do Estado do Pará \n(Resolução nº 18.523/2013), é o de",
       "alternativas": {
@@ -69497,9 +69497,9 @@
     {
       "id": "TRT-2024-FGV-Q21",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 21,
       "enunciado": "O Tribunal de Contas do Estado do Pará recebeu, para fins de \napreciação de sua legalidade, atos de concessão de \naposentadoria editados no âmbito do Poder Executivo do Estado. \nHavia informação, no processo administrativo, de que foram \ndescumpridos prazos estabelecidos no Regimento Interno. \nEm situações dessa natureza, à luz da Lei Complementar estadual \nnº 81/2012, é correto afirmar que o Tribunal de Contas",
       "alternativas": {
@@ -69539,9 +69539,9 @@
     {
       "id": "TRT-2024-FGV-Q23",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 23,
       "enunciado": "Ana, servidora do Tribunal de Contas do Estado do Pará, foi \nincumbida por seu superior hierárquico de encaminhar \ndeterminado expediente ao órgão ou agente competente para \nexercer os encargos de inspeção e correição geral permanentes. \nApós analisar o regimento interno Tribunal, Ana concluiu \ncorretamente que o referido órgão é",
       "alternativas": {
@@ -70106,9 +70106,9 @@
     {
       "id": "TRT-2024-FGV-Q50",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 50,
       "enunciado": "No exercício de suas atribuições como auditor de controle \nexterno do Tribunal de Contas do Estado do Pará, para fins de \nelaboração de certos contratos administrativos, Ednardo foi \ninstado a se manifestar acerca da existência de discricionariedade \nquanto à previsão de matriz de alocação de riscos entre \ncontratante e contratado nos respectivos editais. \nNesse contexto, diante do disposto na Lei nº 14.133/2021, \nEdnardo respondeu corretamente que",
       "alternativas": {
@@ -70253,9 +70253,9 @@
     {
       "id": "TRT-2024-FGV-Q57",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 57,
       "enunciado": "Em processo de representação apresentado por Membro do \nMinistério Público de Contas junto ao TCE -PA, o Relator deferiu \npedido de medida cautelar em que determinou ao gestor do \nórgão jurisdicionado que não realizasse os pagamentos \ndecorrentes do contrato impugnado na referida representação \naté que houvesse decisão definitiva pelo Tribunal. \nEm face da decisão do Relator cabe recurso de",
       "alternativas": {
@@ -70295,9 +70295,9 @@
     {
       "id": "TRT-2024-FGV-Q59",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 59,
       "enunciado": "Durante o julgamento de um processo de tomada de contas em \nSessão Ordinária do Plenário do TCE -PA, um dos Conselheiros \nrequereu vistas dos autos para apreciar de forma mais \naprofundada o seu conteúdo e formar sua convicção, tendo o seu \npedido deferido na forma do Regimento Interno do Tribunal. \nNessa hipótese, avalie se o Conselheiro que estiver em posse dos \nautos para vista poderá: \nI. determinar a realização de diligências externas. \nII. requerer a juntada de documentos, independentemente de \naprovação do Tribunal Pleno. \nIII. observar o prazo de adiamento do julgamento por, no \nmáximo, duas sessões ordinárias, salvo prorrogação desse \nprazo por decisão do Tribunal Pleno. \nIV. na sessão em que o processo retornar à pauta, reabrir a \ndiscussão do voto -vista, não sendo possível a concessão de \nnovos pedidos de vista aos demais Conselheiros. \nEstá correto o que se afirma em",
       "alternativas": {
@@ -70316,9 +70316,9 @@
     {
       "id": "TRT-2024-FGV-Q60",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 60,
       "enunciado": "Nos termos do Regimento Interno do TCE -PA, as deliberações do \nTribunal Pleno serão na forma de Resolução quando se tratar de",
       "alternativas": {
@@ -73502,9 +73502,9 @@
     {
       "id": "TRT-2024-FGV-Q16",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 16,
       "enunciado": "Um objetivo consagrado no Código de Ética e Disciplina  \ndos Servidores do Tribunal de Contas do Estado do Pará \n(Resolução nº 18.523/2013), é o de",
       "alternativas": {
@@ -73607,9 +73607,9 @@
     {
       "id": "TRT-2024-FGV-Q21",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 21,
       "enunciado": "O Tribunal de Contas do Estado do Pará recebeu, para fins de \napreciação de sua legalidade, atos de concessão de \naposentadoria editados no âmbito do Poder Executivo do Estado. \nHavia informação, no processo administrativo, de que foram \ndescumpridos prazos estabelecidos no Regimento Interno. \nEm situações dessa natureza, à luz da Lei Complementar estadual \nnº 81/2012, é correto afirmar que o Tribunal de Contas",
       "alternativas": {
@@ -73649,9 +73649,9 @@
     {
       "id": "TRT-2024-FGV-Q23",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 23,
       "enunciado": "Ana, servidora do Tribunal de Contas do Estado do Pará, foi \nincumbida por seu superior hierárquico de encaminhar \ndeterminado expediente ao órgão ou agente competente para \nexercer os encargos de inspeção e correição geral permanentes. \nApós analisar o regimento interno Tribunal, Ana concluiu \ncorretamente que o referido órgão é",
       "alternativas": {
@@ -74216,9 +74216,9 @@
     {
       "id": "TRT-2024-FGV-Q50",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 50,
       "enunciado": "No exercício de suas atribuições como auditor de controle \nexterno do Tribunal de Contas do Estado do Pará, para fins de \nelaboração de certos contratos administrativos, Ednardo foi \ninstado a se manifestar acerca da existência de discricionariedade \nquanto à previsão de matriz de alocação de riscos entre \ncontratante e contratado nos respectivos editais. \nNesse contexto, diante do disposto na Lei nº 14.133/2021, \nEdnardo respondeu corretamente que",
       "alternativas": {
@@ -74363,9 +74363,9 @@
     {
       "id": "TRT-2024-FGV-Q57",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 57,
       "enunciado": "Em processo de representação apresentado por Membro do \nMinistério Público de Contas junto ao TCE -PA, o Relator deferiu \npedido de medida cautelar em que determinou ao gestor do \nórgão jurisdicionado que não realizasse os pagamentos \ndecorrentes do contrato impugnado na referida representação \naté que houvesse decisão definitiva pelo Tribunal. \nEm face da decisão do Relator cabe recurso de",
       "alternativas": {
@@ -74405,9 +74405,9 @@
     {
       "id": "TRT-2024-FGV-Q59",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 59,
       "enunciado": "Durante o julgamento de um processo de tomada de contas em \nSessão Ordinária do Plenário do TCE -PA, um dos Conselheiros \nrequereu vistas dos autos para apreciar de forma mais \naprofundada o seu conteúdo e formar sua convicção, tendo o seu \npedido deferido na forma do Regimento Interno do Tribunal. \nNessa hipótese, avalie se o Conselheiro que estiver em posse dos \nautos para vista poderá: \nI. determinar a realização de diligências externas. \nII. requerer a juntada de documentos, independentemente de \naprovação do Tribunal Pleno. \nIII. observar o prazo de adiamento do julgamento por, no \nmáximo, duas sessões ordinárias, salvo prorrogação desse \nprazo por decisão do Tribunal Pleno. \nIV. na sessão em que o processo retornar à pauta, reabrir a \ndiscussão do voto -vista, não sendo possível a concessão de \nnovos pedidos de vista aos demais Conselheiros. \nEstá correto o que se afirma em",
       "alternativas": {
@@ -74426,9 +74426,9 @@
     {
       "id": "TRT-2024-FGV-Q60",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 60,
       "enunciado": "Nos termos do Regimento Interno do TCE -PA, as deliberações do \nTribunal Pleno serão na forma de Resolução quando se tratar de",
       "alternativas": {
@@ -74468,9 +74468,9 @@
     {
       "id": "TRT-2024-FGV-Q62",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 62,
       "enunciado": "José, Auditor de Controle Externo do TCE -PA, integrava a equipe \nde auditorias que realizava um trabalho de conformidade em um \nórgão da administração pública estadual paraense. Ao analisar a \nevidência de um achado de auditoria, José, por motivos \nideológicos, não manteve o distanciamento profissional \nnecessário e não demonstrou uma atitude questionadora ao \navaliar se a evidência obtida era suficiente e apropriada. \nConsiderando as disposições das NBASP -100, assinale o princípio \nfundamental de auditoria no setor público que não foi observado \npor José.",
       "alternativas": {
@@ -74489,9 +74489,9 @@
     {
       "id": "TRT-2024-FGV-Q63",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 63,
       "enunciado": "Ao realizar um trabalho de auditoria financeira em um órgão \nsujeito à jurisdição do TCE -PA, a respectiva equipe de auditoria, \ncom base em evidências suficientes e apropriadas, concluiu que \nas distorções, em conjunto, são generalizadas. \nNessa hipótese, os auditores podem emitir opinião de auditoria \nmodificada que se classifica como",
       "alternativas": {
@@ -75601,9 +75601,9 @@
     {
       "id": "TRT-2024-FGV-Q16",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 16,
       "enunciado": "Um objetivo consagrado no Código de Ética e Disciplina  \ndos Servidores do Tribunal de Contas do Estado do Pará \n(Resolução nº 18.523/2013), é o de",
       "alternativas": {
@@ -75706,9 +75706,9 @@
     {
       "id": "TRT-2024-FGV-Q21",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 21,
       "enunciado": "O Tribunal de Contas do Estado do Pará recebeu, para fins de \napreciação de sua legalidade, atos de concessão de \naposentadoria editados no âmbito do Poder Executivo do Estado. \nHavia informação, no processo administrativo, de que foram \ndescumpridos prazos estabelecidos no Regimento Interno. \nEm situações dessa natureza, à luz da Lei Complementar estadual \nnº 81/2012, é correto afirmar que o Tribunal de Contas",
       "alternativas": {
@@ -75748,9 +75748,9 @@
     {
       "id": "TRT-2024-FGV-Q23",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 23,
       "enunciado": "Ana, servidora do Tribunal de Contas do Estado do Pará, foi \nincumbida por seu superior hierárquico de encaminhar \ndeterminado expediente ao órgão ou agente competente para \nexercer os encargos de inspeção e correição geral permanentes. \nApós analisar o regimento interno Tribunal, Ana concluiu \ncorretamente que o referido órgão é",
       "alternativas": {
@@ -76315,9 +76315,9 @@
     {
       "id": "TRT-2024-FGV-Q50",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 50,
       "enunciado": "No exercício de suas atribuições como auditor de controle \nexterno do Tribunal de Contas do Estado do Pará, para fins de \nelaboração de certos contratos administrativos, Ednardo foi \ninstado a se manifestar acerca da existência de discricionariedade \nquanto à previsão de matriz de alocação de riscos entre \ncontratante e contratado nos respectivos editais. \nNesse contexto, diante do disposto na Lei nº 14.133/2021, \nEdnardo respondeu corretamente que",
       "alternativas": {
@@ -76462,9 +76462,9 @@
     {
       "id": "TRT-2024-FGV-Q57",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 57,
       "enunciado": "Em processo de representação apresentado por Membro do \nMinistério Público de Contas junto ao TCE -PA, o Relator deferiu \npedido de medida cautelar em que determinou ao gestor do \nórgão jurisdicionado que não realizasse os pagamentos \ndecorrentes do contrato impugnado na referida representação \naté que houvesse decisão definitiva pelo Tribunal. \nEm face da decisão do Relator cabe recurso de",
       "alternativas": {
@@ -76504,9 +76504,9 @@
     {
       "id": "TRT-2024-FGV-Q59",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 59,
       "enunciado": "Durante o julgamento de um processo de tomada de contas em \nSessão Ordinária do Plenário do TCE -PA, um dos Conselheiros \nrequereu vistas dos autos para apreciar de forma mais \naprofundada o seu conteúdo e formar sua convicção, tendo o seu \npedido deferido na forma do Regimento Interno do Tribunal. \nNessa hipótese, avalie se o Conselheiro que estiver em posse dos \nautos para vista poderá: \nI. determinar a realização de diligências externas. \nII. requerer a juntada de documentos, independentemente de \naprovação do Tribunal Pleno. \nIII. observar o prazo de adiamento do julgamento por, no \nmáximo, duas sessões ordinárias, salvo prorrogação desse \nprazo por decisão do Tribunal Pleno. \nIV. na sessão em que o processo retornar à pauta, reabrir a \ndiscussão do voto -vista, não sendo possível a concessão de \nnovos pedidos de vista aos demais Conselheiros. \nEstá correto o que se afirma em",
       "alternativas": {
@@ -76525,9 +76525,9 @@
     {
       "id": "TRT-2024-FGV-Q60",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 60,
       "enunciado": "Nos termos do Regimento Interno do TCE -PA, as deliberações do \nTribunal Pleno serão na forma de Resolução quando se tratar de",
       "alternativas": {
@@ -76567,9 +76567,9 @@
     {
       "id": "TRT-2024-FGV-Q62",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 62,
       "enunciado": "José, Auditor de Controle Externo do TCE -PA, integrava a equipe \nde auditorias que realizava um trabalho de conformidade em um \nórgão da administração pública estadual paraense. Ao analisar a \nevidência de um achado de auditoria, José, por motivos \nideológicos, não manteve o distanciamento profissional \nnecessário e não demonstrou uma atitude questionadora ao \navaliar se a evidência obtida era suficiente e apropriada. \nConsiderando as disposições das NBASP -100, assinale o princípio \nfundamental de auditoria no setor público que não foi observado \npor José.",
       "alternativas": {
@@ -76588,9 +76588,9 @@
     {
       "id": "TRT-2024-FGV-Q63",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 63,
       "enunciado": "Ao realizar um trabalho de auditoria financeira em um órgão \nsujeito à jurisdição do TCE -PA, a respectiva equipe de auditoria, \ncom base em evidências suficientes e apropriadas, concluiu que \nas distorções, em conjunto, são generalizadas. \nNessa hipótese, os auditores podem emitir opinião de auditoria \nmodificada que se classifica como",
       "alternativas": {
@@ -76777,9 +76777,9 @@
     {
       "id": "TRT-2024-FGV-Q72",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-PA",
+      "ano": "2024",
+      "cargo": "Auditor de Controle Externo - Tecnologia da Informação",
       "numero_original": 72,
       "enunciado": "O Departamento de Controle Externo do Tribunal de Contas do \nEstado do Pará está preparando o seu plano anual de fiscalização, \na ser apresentado ao Tribunal Pleno para deliberação.  \nNa identificação dos objetos auditáveis foram elencados, entre \noutros: \n[1]. Conhecimento do funcionamento da política de concessão de \nbenefícios fiscais. \n[2]. Supervisionar o desempenho de modelagem de concessão de \nserviço público de abastecimento de água e esgotamento \nsanitário a ser realizada por ente municipal daqui a seis \nmeses. \n[3]. Verificar o cumprimento pela Secretaria de Estado de Saúde \nde determinações e recomendações prolatadas pelo Tribunal \nde Contas para aperfeiçoamento da regulação em âmbito \nestadual do sistema de saúde. \nOs instrumentos de fiscalização que devem ser sugeridos em \nfunção dos objetos [1], [2] e [3], considerando a definição \nconstante do Regimento Interno do TCE -PA, são, \nrespectivamente,",
       "alternativas": {

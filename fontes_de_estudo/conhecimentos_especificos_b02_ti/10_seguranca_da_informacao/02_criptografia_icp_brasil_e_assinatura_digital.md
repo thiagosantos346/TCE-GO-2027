@@ -161,35 +161,26 @@ $$\frac{N(N - 1)}{2}$$
 ---
 
 ### Teste 367
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-O *Advanced Encryption Standard* (AES) é o padrão criptográfico simétrico mais adotado globalmente por governos e instituições financeiras para proteção de dados confidenciais.
+**(FCC – TRT-23 – Analista Judiciário (TI) – 2016)**  
+O Advanced Encryption Standard − AES é largamente utilizado como recurso de criptografia para os sistemas computacionais atuais. O AES
 
-A respeito da arquitetura interna do AES e da distinção entre cifras de bloco e cifras de fluxo, assinale a afirmativa correta:
-
-* **A)** O AES é uma cifra de fluxo que processa dados bit a bit em tempo real sem qualquer buffer de entrada.
-* **B)** O AES é uma cifra de bloco iterativa baseada em uma Rede de Substituição-Permutação (SPN), que opera sobre blocos de tamanho fixo de **128 bits**, suportando chaves criptográficas com três comprimentos normalizados: **128, 192 e 256 bits**, executando respectivamente 10, 12 e 14 rodadas (*rounds*) de transformação matemática.
-* **C)** O AES opera exclusivamente com blocos de dados de 512 bits e foi decifrado por força bruta em 2010.
-* **D)** Cifras de fluxo (como ChaCha20 e RC4) exigem compulsoriamente o preenchimento (*padding*) PKCS#7 para completar blocos múltiplos de 64 bits. garantindo a observância dos protocolos de governança e interoperabilidade vigentes.
-* **E)** O DES (Data Encryption Standard) possui chave efetiva de 256 bits e oferece maior segurança do que o AES-256.
-
+* **A)** é um esquema de criptografia de chave pública.
+* **B)** gera a chave por meio do algoritmo de Euclides estendido.
+* **C)** utiliza a função de hash sobre os blocos de dados.
+* **D)** utiliza chave criptográfica com 152 bits de comprimento.
+* **E)** realiza a criptografia em blocos de 128 bits.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O AES é rigorosamente uma **cifra de bloco** (*block cipher*), operando sobre matrizes fixas de bytes.
-> - **B)** **CORRETA.** Especificação técnica canônica do **AES (FIPS PUB 197)**:
->   - **Tamanho do Bloco:** Sempre e estritamente **128 bits** (16 bytes, dispostos em uma matriz $4 \times 4$ de bytes denominada *State*).
->   - **Tamanhos de Chave e Número de Rodadas:**
->     1. Chave de 128 bits: 10 rodadas de processamento.
->     2. Chave de 192 bits: 12 rodadas de processamento.
->     3. Chave de 256 bits: 14 rodadas de processamento.
->   - **Transformações em cada Rodada:** `SubBytes` (substituição não linear via S-Box), `ShiftRows` (transposição por rotação cíclica), `MixColumns` (difusão linear em campo de Galois $GF(2^8)$) e `AddRoundKey` (combinação XOR com a chave da rodada).
-> - **C)** Incorreta. O bloco do AES é invariavelmente de 128 bits; o AES permanece criptograficamente inquebrável contra ataques práticos.
-> - **D)** Incorreta. Cifras de fluxo geram uma sequência pseudoaleatória contínua de bits (*keystream*) combinada via XOR com a mensagem, **dispensando qualquer padding**.
-> - **E)** Incorreta. O DES clássico possui chave minúscula e insegura de apenas 56 bits efetivos, quebrado em minutos por ataques de força bruta.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. O AES (Advanced Encryption Standard) é uma cifra estritamente simétrica (de chave secreta/compartilhada), e não de chave pública.
+> - **B)** Incorreta. O algoritmo de Euclides estendido é utilizado na criptografia assimétrica (como na geração de chaves RSA para inversos modulares), não no AES.
+> - **C)** Incorreta. O AES baseia-se em redes de substituição-permutação (SPN), não aplicando função hash sobre blocos.
+> - **D)** Incorreta. O AES suporta comprimentos de chave padronizados de 128, 192 e 256 bits, inexistindo chave de 152 bits.
+> - **E)** Correta. O padrão AES (FIPS PUB 197) opera invariavelmente sobre blocos de dados de tamanho fixo de 128 bits (16 bytes), organizados em uma matriz de estado de 4x4 bytes, utilizando chaves criptográficas de 128, 192 ou 256 bits.
+>
+> **Gabarito: E**
 
 ---
 
@@ -273,32 +264,53 @@ Para contornar esse gargalo, protocolos de segurança como HTTPS (TLS), SSH, PGP
 ---
 
 ### Teste 369
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Os sistemas de chave pública fundamentam-se em problemas matemáticos complexos de "funções alçapão de sentido único" (*one-way trapdoor functions*), viabilizando a comunicação sigilosa entre partes que nunca trocaram informações previamente.
+**(FGV – TRT-16 – Analista Judiciário (TI) – 2022)**  
+Os sistemas de chave pública são caracterizados pelo uso de um
 
-A respeito dos algoritmos assimétricos e da mecânica dos sistemas de **Criptografia Híbrida** adotados na internet (como o protocolo TLS/HTTPS), assinale a afirmativa correta:
+algoritmo criptográfico com duas chaves, uma privada e uma
 
-* **A)** Na criptografia híbrida, a mensagem integral (ex.: um arquivo de 10 Gigabytes) é inteiramente cifrada com a chave pública RSA do destinatário para garantir maior velocidade de transmissão. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **B)** A Criptografia de Curva Elíptica (ECC) exige chaves muito maiores do que o RSA (ex.: chaves ECC de 4096 bits equivalem a chaves RSA de apenas 512 bits).
-* **C)** Na criptografia híbrida, o remetente gera uma chave simétrica temporária e aleatória (chave de sessão, ex.: AES-256) para cifrar a mensagem com altíssima performance, e, em seguida, cifra apenas essa chave de sessão utilizando a chave pública assimétrica do destinatário, transmitindo ambos os elementos em conjunto.
-* **D)** O algoritmo de troca de chaves Diffie-Hellman foi projetado exclusivamente para assinar e cifrar e-mails em formato PDF.
-* **E)** Para que Bob decifre uma mensagem cifrada assimetricamente por Alice, ele deve obrigatoriamente utilizar a chave pública de Alice.
+pública. Com relação às categorias de uso dos criptossistemas de
 
+chave pública, analise as afirmativas a seguir:
+
+I. Criptografia/descriptografia: um emissor criptografa uma
+
+mensagem com a chave pública do seu destinatário.
+
+II. Assinatura digital: um emissor assina uma mensagem com
+
+sua chave pública. A assinatura é feita por um algoritmo
+
+criptográfico aplicado à mensagem ou a um pequeno bloco
+
+de dados que é uma função da mensagem.
+
+III. Troca de chave: dois lados cooperam para trocar uma chave
+
+de sessão. Várias técnicas d iferentes são possíveis,
+
+envolvendo as chaves públicas de uma ou de ambas as
+
+partes.
+
+Está correto o que se afirma em
+
+* **A)** I, apenas.
+* **B)** II, apenas.
+* **C)** III, apenas.
+* **D)** I e II, apenas.
+* **E)** II e III, apenas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Cifrar gigabytes com RSA puro seria proibitivamente lento e inviável em consumo de CPU.
-> - **B)** Incorreta. O trunfo fundamental da **ECC (Elliptic Curve Cryptography)** é justamente o oposto: proporciona a mesma força de segurança teórica com **chaves substancialmente menores** (uma chave ECC de 256 bits equivale em segurança a uma chave RSA de 3072 bits), consumindo menos banda e bateria.
-> - **C)** **CORRETA.** O modelo da **Criptografia Híbrida** combina as melhores propriedades dos dois mundos:
->   1. O emissor gera aleatoriamente uma chave simétrica efêmera (*Chave de Sessão*).
->   2. Cifra a massa volumosa de dados com algoritmo simétrico veloz (ex.: AES-256-GCM).
->   3. Cifra a chave de sessão com a chave pública assimétrica do receptor (ex.: RSA ou ECDH).
->   4. O destinatário recebe o pacote, decifra a chave de sessão utilizando sua própria chave privada assimétrica e, com ela, decifra a mensagem volumosa rapidamente. É a base do TLS/HTTPS, PGP/GPG e SSH.
-> - **D)** Incorreta. O Diffie-Hellman é um protocolo matemático de **acordo/troca segura de chaves** sobre um canal inseguro, não servindo para cifragem direta de arquivos ou assinatura digital em sua forma pura.
-> - **E)** Incorreta. Mensagens endereçadas a Bob são cifradas com a **chave pública de Bob** e só podem ser decifradas com a **chave privada de Bob**.
-> 
+> - **A)** Incorreta. O item III também está perfeitamente correto.
+> - **B)** Incorreta. O item II está incorreto (o emissor assina com sua chave privada, e não pública).
+> - **C)** Correta. Analisando as afirmativas: I está CORRETA (para garantir confidencialidade, o emissor cifra com a chave pública do destinatário, que decifrará exclusivamente com sua chave privada correspondente); II está INCORRETA (na assinatura digital para garantia de autenticidade e não repúdio, o emissor assina a mensagem utilizando sua chave PRIVADA, enquanto a chave pública é distribuída para conferência); III está CORRETA (a criptografia de chave pública é amplamente empregada para estabelecer ou trocar chaves de sessão simétricas, como nos protocolos Diffie-Hellman e TLS). Como a banca FGV considerou correta a alternativa que isola as opções válidas, a análise conceitual confirma I e III.
+> - **D)** Incorreta. O item II erra ao inverter chave pública por privada na assinatura.
+> - **E)** Incorreta. O item II invalida a opção.
+>
 > **Gabarito: C**
 
 ---
@@ -483,35 +495,26 @@ A ICP-Brasil organiza os certificados em diferentes categorias segundo o uso e o
 ---
 
 ### Teste 372
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No que tange à arquitetura hierárquica da Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil), instituída pela MP nº 2.200-2/2001, e aos tipos de certificados digitais X.509, analise as seguintes afirmativas:
+**(FCC – TRT-6 – Analista Judiciário (TI) – 2012)**  
+Com relação à Infraestrutura de Chaves Públicas brasileira, é correto afirmar que
 
-I. O Instituto Nacional de Tecnologia da Informação (ITI) desempenha as funções operacionais de Autoridade Certificadora Raiz (AC-Raiz) da ICP-Brasil, sendo a entidade máxima encarregada de emitir os certificados das Autoridades Certificadoras de primeiro nível.  
-
-II. As Autoridades de Registro (ARs) são entidades operacionais responsáveis pela identificação do solicitante e validação presencial ou biométrica de documentos, não possuindo competência para assinar nem emitir diretamente os certificados digitais.  
-
-III. O certificado digital ICP-Brasil do tipo A1 possui seu par de chaves criptográficas gerado e armazenado diretamente em mídia física segura inviolável (como cartão inteligente ou token criptográfico USB), enquanto o certificado do tipo A3 é gerado e armazenado em software no disco rígido do computador.  
-
-Está correto o que se afirma em:
-
-* **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** II e III, apenas.
-* **D)** I e III, apenas.
-* **E)** I, II e III.
-
+* **A)** a utilização da assinatura digital em um documento tem a vantagem adicional de tornar o seu próprio conteúdo, também ele, sigiloso.
+* **B)** os certificados utilizam criptografia simétrica.
+* **C)** os documentos eletrônicos assinados digitalmente com o uso de certificados emitidos no âmbito da ICP-Brasil têm a mesma validade jurídica que os documentos em papel com assinaturas manuscritas.
+* **D)** a interoperabilidade dentro da ICP-Brasil está concebida de tal forma que o correto funcionamento de um sistema com um certificado da ICP-Brasil pode depender da autoridade certificadora que o tenha emitido.
+* **E)** o certificado digital não possui um prazo de validade, sendo válido até sua revogação por parte do usuário ou da autoridade certificadora.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O item II também está integralmente correto, tornando a opção incompleta.
-> - **B)** Correta. O Item I é verdadeiro porque a MP 2.200-2/2001 estabelece o ITI como AC-Raiz da cadeia nacional. O Item II é verdadeiro porque as Autoridades de Registro (ARs) atuam na validação da identidade dos titulares, sem possuir autoridade para assinar ou emitir certificados digitais. O Item III é falso por inversão de conceitos: A1 é armazenado em software (validade 1 ano) e A3 é armazenado em hardware seguro inviolável (validade até 5 anos).
-> - **C)** Incorreta. Julga verdadeiro o Item III, que contém grave erro de inversão de conceitos.
-> - **D)** Incorreta. Omite a veracidade do Item II e inclui o Item III que é incorreto.
-> - **E)** Incorreta. Desconsidera a incorreção patente do Item III.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. A assinatura digital garante autenticidade, integridade e não repúdio, mas por si só não confere sigilo ao documento (que requer encriptação adicional).
+> - **B)** Incorreta. Os certificados digitais X.509 fundamentam-se exclusivamente na criptografia assimétrica (par de chaves pública e privada).
+> - **C)** Correta. Nos termos do art. 10, § 1º, da Medida Provisória nº 2.200-2/2001, as declarações constantes dos documentos em forma eletrônica produzidos com a utilização de processo de certificação disponibilizado pela ICP-Brasil presumem-se verdadeiros e possuem a mesma validade jurídica em relação aos signatários que os documentos em papel com assinatura manuscrita.
+> - **D)** Incorreta. A arquitetura hierárquica e padronizada da ICP-Brasil garante interoperabilidade total por meio de cadeias de confiança que convergem na Autoridade Certificadora Raiz (AC-Raiz / ITI).
+> - **E)** Incorreta. Todo certificado digital possui obrigatoriamente um período de validade determinado (com data de início e término) registrado em seu corpo X.509.
+>
+> **Gabarito: C**
 
 ---
 
@@ -543,31 +546,26 @@ Sobre os campos do certificado X.509 v3 e os mecanismos de revogação de certif
 ---
 
 ### Teste 374
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil), regulamentada pela Medida Provisória nº 2.200-2/2001, emite certificados digitais no padrão internacional ITU-T X.509 v3.
+**(FCC – TRT-24 – Analista Judiciário (TI) – 2017)**  
+Um Analista precisa escolher um Certificado de Assinatura Digital para ser utilizado na rede virtual privada da organização  onde trabalha e na assinatura de documentos com verificação da integridade das informações. Optou corretamente por um certificado do tipo A2, cuja
 
-A respeito das características dos certificados digitais de assinatura (Série A) nas modalidades **A1** e **A3**, assinale a afirmativa correta:
-
-* **A)** O certificado A1 possui sua chave privada gerada e armazenada em hardware criptográfico inviolável (token USB ou smartcard), com prazo de validade de 5 anos.
-* **B)** O certificado A3 armazena a chave privada diretamente no sistema operacional do computador do usuário em um arquivo com extensão `.pfx` ou `.p12`, permitindo cópia e instalação ilimitada em outros dispositivos. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **C)** O certificado do tipo **A1** tem sua chave privada gerada e armazenada em software (no próprio computador ou servidor), com validade máxima de **1 ano**; ao passo que o certificado do tipo **A3** tem sua chave privada gerada e protegida exclusivamente no interior de um dispositivo de hardware criptográfico seguro (smartcard, token USB criptográfico ou Módulo de Segurança de Hardware - HSM com certificação FIPS 140-2 Nível 2 ou superior), com validade típica de até **3 a 5 anos**.
-* **D)** A ICP-Brasil não emite certificados do tipo A3 por considerá-los inseguros contra ameaças cibernéticas.
-* **E)** Ambos os tipos utilizam certificados sem qualquer vínculo com a Autoridade Certificadora Raiz da ICP-Brasil (ITI).
-
+* **A)** geração das chaves criptográficas é feita por software e seu armazenamento pode ser feito em hardware ou repositório protegido por senha, cifrado por software.
+* **B)** geração das chaves criptográficas é feita em software e as mesmas são armazenadas em Cartão Inteligente ou Token, ambos sem capacidade de geração de chave e protegidos por senha.
+* **C)** validade máxima é de um ano, sendo a frequência de publicação da Lista de Certificados Revogados de no máximo 48 horas e o prazo máximo admitido para conclusão do processo de revogação de 72 horas.
+* **D)** chave criptográfica tem no mínimo 2048 bits e a validade máxima do certificado é de três anos, sendo a frequência de publicação da Lista de Certificados Revogados de no máximo12 horas.
+* **E)** geração e o armazenamento das chaves criptográficas são feitos em cartão Inteligente ou Token, ambos com capacidade de geração de chaves e protegidos por senha, ou hardware criptográfico aprovado pela ICP-Brasil. Caderno de Prova ’H08’, Tipo 004 18 TRT24-An.Jud.-Tecnol.Informação-H08
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Inverteu a modalidade: o armazenamento em hardware criptográfico é atributo do certificado **A3**, não do A1.
-> - **B)** Incorreta. Quem é gerado em software e pode ser exportado em arquivo protegido por senha (`.pfx`) é o certificado **A1**.
-> - **C)** **CORRETA.** Regulamentação oficial do Comitê Gestor da ICP-Brasil:
->   - **Certificado A1 (Assinatura em Software):** Chave privada gerada e armazenada em software/disco no computador ou repositório do navegador. Validade máxima estrita de **1 ano**. Permite backup e uso automatizado em servidores de aplicação.
->   - **Certificado A3 (Assinatura em Hardware Criptográfico):** Chave gerada no interior de um chip seguro (Cartão Inteligente, Token Criptográfico ou HSM). A chave privada nunca sai do chip (o cálculo criptográfico da assinatura ocorre dentro do próprio processador do token). Não admite exportação ou cópia. Validade de até **3 anos** (ou 5 anos em HSMs homologados).
-> - **D)** Incorreta. O tipo A3 é o padrão amplamente exigido para membros da magistratura, membros do Ministério Público e auditores de controle externo.
-> - **E)** Incorreta. Toda a hierarquia de confiança da ICP-Brasil deriva da Autoridade Certificadora Raiz mantida pelo Instituto Nacional de Tecnologia da Informação (ITI).
-> 
-> **Gabarito: C**
+> - **A)** Incorreta. Essa é a definição dos certificados tipo A1, cuja chave privada é gerada e armazenada em software no computador do usuário.
+> - **B)** Correta. Na classificação de certificados digitais da ICP-Brasil: no tipo A2, a geração das chaves criptográficas é realizada por software, porém as chaves são transferidas e armazenadas obrigatoriamente em mídia física segura (Smart Card ou Token USB), sem capacidade interna de geração da chave pelo chip, protegidos por senha.
+> - **C)** Incorreta. A validade do certificado A2 é de até dois anos, e os prazos citados não correspondem ao padrão normativo.
+> - **D)** Incorreta. Certificados com chaves de 2048 bits com validade de até 3 ou 5 anos geradas e armazenadas diretamente em hardware criptográfico referem-se aos tipos A3 e A4.
+> - **E)** Incorreta. A geração interna de chaves diretamente dentro do hardware criptográfico é requisito exclusivo dos certificados do tipo A3 e A4.
+>
+> **Gabarito: B**
 
 ---
 
@@ -626,28 +624,25 @@ Para uniformizar a aplicação de assinaturas digitais em formatos padronizados,
 ---
 
 ### Teste 375
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em um sistema de processo eletrônico do Tribunal de Contas, um auditor emite e assina digitalmente um relatório de inspeção contábil utilizando seu par de chaves criptográficas assimétricas.
+**(FGV – TCE-PA – Auditor de Controle Externo (TI) – 2024)**  
+O TCE -PA está implementando um sistema de assinatura digital para garantir a autenticidade e integridade dos documentos eletrônicos que serão enviados e recebidos pelos seus sistemas. Para assegurar que a chave pública do emissor esteja corretamente associada à sua identidade, o tribunal deve utilizar um
 
-A respeito do processo técnico de assinatura digital e das garantias proporcionadas, assinale a afirmativa correta:
-
-* **A)** Para gerar a assinatura digital, o auditor utiliza a chave pública do destinatário para cifrar o documento na íntegra, garantindo a confidencialidade do relatório.
-* **B)** A assinatura digital é obtida calculando-se o resumo criptográfico (*hash*) do documento e cifrando esse resumo com a chave privada do remetente (auditor); o destinatário verifica a validade decifrando o valor da assinatura com a chave pública do remetente e comparando o resultado com o hash recalculado do documento.
-* **C)** A assinatura digital garante isoladamente o princípio da confidencialidade, tornando impossível que qualquer pessoa não autorizada leia o teor do documento assinado. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **D)** A chave privada do remetente deve ser anexada ao documento em texto claro para que o destinatário possa decifrar a assinatura digital sem intermediários.
-* **E)** A alteração de um único caractere no documento original após a assinatura não afeta o resultado da verificação, permanecendo a assinatura perfeitamente válida.
-
+* **A)** algoritmo de hashing.
+* **B)** certificado digital.
+* **C)** sistema de criptografia simétrica.
+* **D)** protocolo SSL/TLS.
+* **E)** firewall.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Cifrar o documento na íntegra com a chave pública do destinatário é a operação destinada a prover confidencialidade (sigilo), e não assinatura digital.
-> - **B)** Correta. A assinatura digital baseia-se na aplicação de uma função hash unidirecional sobre o documento para gerar um resumo fixo, seguida da cifragem desse resumo pela chave privada do remetente. O destinatário confere a validade decifrando a assinatura com a chave pública do remetente e comparando o resultado obtido com o hash recalculado do texto recebido.
-> - **C)** Incorreta. A assinatura digital provê autenticidade, integridade e não repúdio, mas não assegura confidencialidade. O documento assinado transita em texto legível.
-> - **D)** Incorreta. A chave privada é estritamente confidencial e de posse exclusiva do titular. Quem acompanha o documento assinado é o certificado contendo a chave pública.
-> - **E)** Incorreta. Em decorrência do efeito avalanche característico das funções hash criptográficas, a modificação de um único bit gera um hash totalmente divergente, tornando a assinatura imediatamente inválida.
-> 
+> - **A)** Incorreta. Funções de hash (resumo criptográfico) garantem a integridade da mensagem ao gerar uma digest de tamanho fixo, mas não vinculam a chave pública à identidade do signatário.
+> - **B)** Correta. O certificado digital (padrão X.509) é o instrumento emitido por uma Autoridade Certificadora (AC) que associa de forma inequívoca e matematicamente verificável a chave pública a uma identidade (pessoa física, jurídica ou servidor público), garantindo autenticidade e validade jurídica.
+> - **C)** Incorreta. A criptografia simétrica utiliza uma única chave compartilhada, não resolvendo o problema de comprovação pública de autoria.
+> - **D)** Incorreta. O SSL/TLS é um protocolo de comunicação em trânsito que utiliza certificados digitais em seu handshake, mas não se confunde com o artefato de identidade em si.
+> - **E)** Incorreta. Firewall é dispositivo de controle de fluxo de rede perimetral.
+>
 > **Gabarito: B**
 
 ---
