@@ -4176,7 +4176,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/25_gestao_de_pessoas/01_processos_de_gp_recrutamento_selecao_e_integracao.md",
       "target_section": "### 2. Os Seis Processos da Gestão de Pessoas (Chiavenato)",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT-2024-FGV-Q98",
@@ -18756,7 +18756,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/25_gestao_de_pessoas/02_treinamento_desenvolvimento_aprendizagem_e_gestao_do_conhecimento.md",
       "target_section": "### 2. O Ciclo de Treinamento em Quatro Etapas e a Avaliação de Kirkpatrick",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT14-2016-FCC-Q18",
@@ -18798,7 +18798,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_gerais/02_matematica_e_raciocinio_logico/04_raciocinio_sequencial_temporal_espacial_e_verbal.md",
       "target_section": "### 5.2 O Método do Par Contraditório",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT14-2016-FCC-Q20",
@@ -22347,7 +22347,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_gerais/01_lingua_portuguesa/05_concordancia_regencia_e_crase.md",
       "target_section": "### 3.5 Expressões do Tipo É Proibido, É Necessário e É Bom",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT9-2015-FCC-Q14",
@@ -26190,7 +26190,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/05_desenvolvimento_de_sistemas/05_autenticacao_identidade_oauth2_oidc_jwt.md",
       "target_section": "### 1.1 Autenticação (AuthN) vs. Autorização (AuthZ)",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT16-2022-FGV-Q02",
@@ -26457,7 +26457,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_gerais/02_matematica_e_raciocinio_logico/05_logica_de_argumentacao_e_conclusoes_validas.md",
       "target_section": "### 1.2 Os Três Princípios Fundamentais da Lógica Clássica",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT16-2022-FGV-Q14",
@@ -38925,7 +38925,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/08_banco_de_dados/01_modelagem_de_dados_mer_e_normalizacao.md",
       "target_section": "### 4.3 Forma Normal de Boyce-Codd (FNBC / BCNF) vs. 3ª FN",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TJMT-2024-FGV-Q22",
@@ -39009,7 +39009,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/04_engenharia_de_software/05_qualidade_testes_refatoracao_e_divida_tecnica.md",
       "target_section": "### 2.3 Testes de Caixa-Preta (Funcionais) vs. Testes de Caixa-Branca (Estruturais)",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TJMT-2024-FGV-Q26",
@@ -44037,7 +44037,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_gerais/02_matematica_e_raciocinio_logico/03_estruturas_logicas_e_associacao.md",
       "target_section": "### 5.2 Condições Necessárias, Suficientes e Redundantes",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT13-2022-FGV-Q15",
@@ -49500,7 +49500,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/10_seguranca_da_informacao/05_ameacas_malware_engenharia_social_e_defesa_de_redes.md",
       "target_section": "### 2.1 Taxonomia dos Malwares: Vírus vs. Worms vs. Trojans",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT24-2017-FCC-Q34",
@@ -54561,7 +54561,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_gerais/02_matematica_e_raciocinio_logico/03_estruturas_logicas_e_associacao.md",
       "target_section": "### 5.2 Condições Necessárias, Suficientes e Redundantes",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT-2024-FGV-Q12",
@@ -54603,7 +54603,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_gerais/02_matematica_e_raciocinio_logico/01_conjuntos_numericos_fracoes_e_aritmetica.md",
       "target_section": "### 3.1 Critérios de Divisibilidade Aplicados",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT-2024-FGV-Q14",
@@ -54624,7 +54624,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_gerais/02_matematica_e_raciocinio_logico/03_estruturas_logicas_e_associacao.md",
       "target_section": "### 5.2 Condições Necessárias, Suficientes e Redundantes",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT-2024-FGV-Q15",
@@ -69303,7 +69303,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/10_seguranca_da_informacao/02_criptografia_icp_brasil_e_assinatura_digital.md",
       "target_section": "### 3.2 Algoritmos Seguros vs. Vulneráveis (SHA-2, SHA-3, MD5, SHA-1)",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT-2024-FGV-Q12",
@@ -69345,7 +69345,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/04_engenharia_de_software/05_qualidade_testes_refatoracao_e_divida_tecnica.md",
       "target_section": "### 1.1 Desempenho e Eficiência de Recursos",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT-2024-FGV-Q14",
@@ -69366,7 +69366,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/04_engenharia_de_software/01_ciclo_de_vida_e_metodologias_ageis.md",
       "target_section": "### 4.3 Métricas de Fluxo: Lead Time, Cycle Time, Throughput e CFD",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT-2024-FGV-Q15",

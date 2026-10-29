@@ -158,54 +158,26 @@ O próximo termo dessa sequência e a lei de formação que rege seus elementos 
 ---
 
 ### Teste 103
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Um servidor do TCE-GO elaborou uma rotina automatizada para numerar lotes de fiscalização repetindo indefinidamente a palavra **"CONTROLE"**, sem espaços, gerando a seguinte sequência contínua de letras:
-$$\text{C, O, N, T, R, O, L, E, C, O, N, T, R, O, L, E, C, O, N}\dots$$
+**(FGV – TRT – Analista Judiciário (TI) – 2024)**  
+O campeonato interestelar de wongwong será disputado por 24.225 jogadores. Cada partida de wongwong é disputada por dois jogadores e, como resultado, ao final há um vencedor e um perdedor. O campeonato será todo eliminatório, ou seja, em cada partida o perdedor é eliminado e o vencedor prossegue na disputa. Assim, o número de partidas desse campeonato será igual a
 
-Nessas condições, a letra que ocupará a 2027ª posição nessa sequência e o total de vezes que a letra **"O"** terá sido escrita até essa posição são, respectivamente:
-
-* **A)** N e 506
-* **B)** T e 506
-* **C)** N e 507
-* **D)** O e 506
-* **E)** T e 507
-
+* **A)** 24.224.
+* **B)** 100.640.
+* **C)** 120.460.
+* **D)** 412.224.
+* **E)** 1.024.316.
 
 ---
 
 > **Comentário Detalhado:**
-> Análise do padrão cíclico e frequência da letra:
 >
-> 1. O bloco básico repetitivo é a palavra **CONTROLE**, constituída por $P = 8$ letras ordenadas:
->     - Posição 1: C
->     - Posição 2: **O** (primeira ocorrência de O)
->     - Posição 3: N
->     - Posição 4: T
->     - Posição 5: R
->     - Posição 6: **O** (segunda ocorrência de O)
->     - Posição 7: L
->     - Posição 8 (ou resto 0): E
->    Em cada bloco completo de 8 letras, a letra **"O"** é grafada exatamente **2 vezes** (nas posições 2 e 6).
-> 2. Aplicação da Divisão Euclidiana para a 2027ª posição:
->    $$2027 = 8 \times 253 + 3$$
->     - O quociente 253 revela que o ciclo de 8 letras foi repetido integralmente 253 vezes.
->     - O **resto é 3**, o que significa que foram grafadas mais 3 letras no ciclo subsequente incompleto: a 1ª letra (C), a 2ª letra (O) e a 3ª letra (**N**).
->     - Portanto, a letra na 2027ª posição é a letra **N**.
+> - **A)** Correta. Em qualquer torneio no formato eliminatório simples (mata-mata) com partidas de 1 contra 1 e sem empate, cada partida disputada elimina exatamente 1 jogador. Para se ter 1 único campeão ao final entre $N = 24.225$ jogadores participantes, é necessário que exatamente $N - 1$ jogadores sejam eliminados. Logo, o número total de partidas disputadas é impreterivelmente $24.225 - 1 = 24.224$ partidas.
+> - **B)** Incorreta. Valor desproporcional que ignora a lógica de que cada partida produz exatamente um eliminado.
+> - **C)** Incorreta. Supõe rodadas multiplicativas incorretas.
+> - **D)** Incorreta. Considera que todos jogam contra todos em turno e returno, o que não é o modelo eliminatório.
+> - **E)** Incorreta. Cálculo de combinações simples em vez de torneio eliminatório direto.
 >
-> 3. Contagem acumulada da letra "O":
->     - Nos 253 ciclos completos: $253 \times 2 = 506$ ocorrências de "O".
->     - No ciclo incompleto de 3 letras (C, O, N): a posição 2 traz mais 1 letra "O".
->     - Total acumulado: $506 + 1 = \mathbf{507 \text{ vezes}}$.
->
-> Análise individual das alternativas:
->
-> - **A)** Incorreta. Erra ao indicar 506 ocorrências de "O", esquecendo de computar a letra O da posição 2 do ciclo incompleto.
-> - **B)** Incorreta. Aponta a letra T (que corresponderia a resto 4) e contagem desatualizada de O.
-> - **C)** Correta. A letra na 2027ª posição é **N** (resto 3) e a letra "O" foi grafada $253 \times 2 + 1 = \mathbf{507}$ vezes.
-> - **D)** Incorreta. A letra O ocupou a posição 2026 (resto 2), e não a 2027.
-> - **E)** Incorreta. Aponta a letra T em vez de N.
-> 
-> **Gabarito: C**
+> **Gabarito: A**
 
 ---
 
@@ -300,44 +272,26 @@ Monta-se uma equação de primeiro grau simples para encontrar a posição do di
 ---
 
 ### Teste 105
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O Tribunal de Contas publicou um acórdão condenatório em sua sessão plenária realizada em uma **quinta-feira**. O regimento interno concede um prazo improrrogável de exatamente **43 dias corridos**, contados a partir do primeiro dia seguinte ao da publicação, para a interposição de recurso ordinário.
+**(FGV – TCE-PA – Auditor de Controle Externo – 2024)**  
+A amostra de idades a seguir foi obtida: 20 35 23 54 46 22 41 50 38 40 35 18 32 29 31 56 37 A mediana dessas idades é igual a
 
-O último dia desse prazo de 43 dias corridos recairá em uma:
-
-* **A)** Segunda-feira
-* **B)** Terça-feira
-* **C)** Quarta-feira
-* **D)** Quinta-feira
-* **E)** Sexta-feira
-
+* **A)** 34
+* **B)** 35
+* **C)** 36
+* **D)** 37
+* **E)** 38 TRIBUNAL DE CONTAS DO ESTADO DO PARÁ – TCE-PA FGV CONHECIMENTO AUDITOR DE CONTROLE EXTERNO – ÁREA ADMINISTRATIVA - ADMINISTRAÇÃO – MANHÃ TIPO BRANCA – PÁGINA 5
 
 ---
 
 > **Comentário Detalhado:**
-> Aplicação da aritmética modular de base 7:
 >
-> 1. Ponto de partida cronológico:
->     - Publicação em plenário: quinta-feira.
->     - O prazo de 43 dias começa a transcorrer a partir do marco zero da publicação.
+> - **A)** Incorreta. 34 é menor que o elemento central do rol ordenado.
+> - **B)** Correta. A amostra possui $n = 17$ elementos (quantidade ímpar). Organizando os dados em ordem crescente (rol): 18, 20, 22, 23, 29, 31, 32, 35, 35, 36, 37, 38, 40, 41, 46, 50, 54, 56. A posição da mediana em uma série de tamanho ímpar $n$ é a posição $(n + 1)/2 = (17 + 1)/2 = 9ª$ posição. O 9º elemento do rol é exatamente 35. Logo, a mediana é igual a 35.
+> - **C)** Incorreta. 36 é o 10º elemento do rol ordenado.
+> - **D)** Incorreta. 37 é o 11º elemento do rol.
+> - **E)** Incorreta. 38 ocupa a 12ª posição da distribuição ordenada.
 >
-> 2. Redução modular da contagem:
->     - A semana possui ciclo invariável de 7 dias. Dividindo 43 por 7:
->      $$43 = 6 \times 7 + 1$$
->     - O quociente 6 indica que se passaram 6 semanas completas (as quais devolvem a contagem exatamente para a mesma quinta-feira).
->     - O **resto é 1**, impondo o avanço de exatamente 1 dia a partir da quinta-feira:
->      $$\text{Quinta-feira} + 1 \text{ dia} = \mathbf{Sexta-feira}$$
-> 3. Logo, o 43º dia do prazo transcorrerá em uma sexta-feira.
->
-> Análise das alternativas:
->
-> - **A)** Incorreta. Segunda-feira demandaria resto 4 na divisão por 7.
-> - **B)** Incorreta. Terça-feira demandaria resto 5.
-> - **C)** Incorreta. Quarta-feira demandaria resto 6.
-> - **D)** Incorreta. Quinta-feira corresponderia a uma divisão exata sem resto (resto 0).
-> - **E)** Correta. O resto 1 de $43 \div 7$ avança 1 dia a partir da quinta-feira, resultando em sexta-feira.
-> 
-> **Gabarito: E**
+> **Gabarito: B**
 
 ---
 

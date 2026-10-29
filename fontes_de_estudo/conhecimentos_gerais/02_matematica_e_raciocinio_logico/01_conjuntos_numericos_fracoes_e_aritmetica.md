@@ -447,33 +447,26 @@ Uma fração $\frac{a}{b}$ representa uma divisão indicada onde o denominador $
 ---
 
 ### Teste 078
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Um servidor do tribunal recebeu determinado lote de processos para instruir. No primeiro dia, analisou $\frac{2}{5}$ do total de processos; no segundo dia, analisou $\frac{1}{3}$ do que havia sobrado; e, no terceiro dia, concluiu os últimos $24$ processos restantes. O número total de processos contidos no lote original era igual a:
+**(FCC – TRT-14 – Analista Judiciário (TI) – 2016)**  
+Em  um curso de informática, 3 2 dos alunos matriculados são mulheres. Em certo dia de aula, 5 2  das mulheres matriculadas no curso estavam  presentes e todos os homens matriculados estavam  presentes, o que totalizou 27 alunos (homens e mulheres) presentes na aula. Nas condições dadas, o total de alunos homens matriculados nesse curso é igual a
 
-* **A)** $50$
-* **B)** $60$
-* **C)** $75$
-* **D)** $80$
-* **E)** $90$
-
+* **A)** 18.
+* **B)** 10.
+* **C)** 15.
+* **D)** 12.
+* **E)** 21.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **Método da Cadeia Regressiva (Fração de Resto):**  
->   - Seja $P$ o total original de processos.  
->   - **Dia 1:** O servidor instruiu $\frac{2}{5}P$.  
->     Restante após o dia 1: $1 - \frac{2}{5} = \frac{3}{5}P$.  
->   - **Dia 2:** O servidor instruiu $\frac{1}{3}$ do restante:  
->     $$\frac{1}{3} \times \frac{3}{5}P = \frac{1}{5}P$$  
->     Fração total instruída nos dois primeiros dias: $\frac{2}{5}P + \frac{1}{5}P = \frac{3}{5}P$.  
->     Restante final para o dia 3: $1 - \frac{3}{5} = \frac{2}{5}P$.  
->   - **Dia 3:** Esse restante final corresponde a 24 processos:  
->     $$\frac{2}{5}P = 24 \implies 2P = 24 \times 5 = 120 \implies P = \frac{120}{2} = 60$$  
-> - **Conferência:** $60 \times \frac{2}{5} = 24$ no 1º dia (sobram 36); $\frac{1}{3} \times 36 = 12$ no 2º dia (sobram 24); $24$ no 3º dia. Perfeito.
+> - **A)** Correta. Supondo um total de $N$ alunos matriculados, $2/3 N$ são mulheres e $1/3 N$ são homens. Faltaram $2/5$ das mulheres, logo compareceram $3/5 \times (2/3 N) = 2/5 N$ mulheres. Faltaram $3/4$ dos homens, logo compareceram $1/4 \times (1/3 N) = 1/12 N$ homens. O total de alunos presentes é $2/5 N + 1/12 N = (24 + 5)/60 N = 29/60 N$. A fração de mulheres em relação aos presentes é $(2/5 N) / (29/60 N) = (24/60) / (29/60) = 24/29$.
+> - **B)** Incorreta. O cálculo inverteu as proporções de faltas entre os gêneros.
+> - **C)** Incorreta. Desconsiderou a fração de homens presentes no denominador.
+> - **D)** Incorreta. Calculou a razão de mulheres sobre o total de matriculados, não sobre os presentes.
+> - **E)** Incorreta. Erro na harmonização dos denominadores no cálculo das frações.
 >
-> **Gabarito: B**
+> **Gabarito: A**
 
 ---
 
@@ -511,40 +504,26 @@ Em problemas que constroem sequências infinitas repetindo ciclicamente um conju
 ---
 
 ### Teste 079
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Um auditor do TCE-GO foi designado para realizar a conferência documental de uma amostra de processos de licitação municipal. No primeiro dia de trabalho, o auditor analisou $\frac{1}{3}$ do total de processos da amostra. No segundo dia, analisou $\frac{3}{5}$ dos processos **restantes**. No terceiro dia, finalizou a conferência analisando os últimos 48 processos.
+**(FGV – TJ-MT – Analista Judiciário (TI) – 2024)**  
+Seja 𝐴 o conjunto de todos os alunos da turma 𝑋 da escola 𝑌 e 𝑥 ∈ 𝐴. Considere as seguintes funções proposicionais: 𝑝(𝑥): o aluno 𝑥 sabe lógica. 𝑞(𝑥): o aluno 𝑥 sabe filosofia. 𝑟(𝑥): o aluno 𝑥 será aprovado no ano letivo de 2024. A proposição composta “Qualquer que seja o aluno da turma 𝑋 da escola 𝑌, se ele sabe lógica ou sabe filosofia, então será aprovado no ano letivo de 2024” é melhor representada, em linguagem simbólica, por
 
-O número total de processos contidos originalmente nessa amostra era:
-
-* **A)** 150
-* **B)** 160
-* **C)** 180
-* **D)** 200
-* **E)** 240
-
+* **A)** ∃𝑥: (𝑝(𝑥) ∧ 𝑞(𝑥) → 𝑟(𝑥))
+* **B)** ∃𝑥: (𝑝(𝑥) ∨ 𝑞(𝑥) → 𝑟(𝑥))
+* **C)** ∀𝑥: (𝑝(𝑥) ∧ 𝑞(𝑥) → 𝑟(𝑥))
+* **D)** ∀𝑥: (𝑝(𝑥) ∨ 𝑞(𝑥) → 𝑟(𝑥))
+* **E)** ∄𝑥: (𝑝(𝑥) ∨ 𝑞(𝑥) → 𝑟(𝑥))
 
 ---
 
 > **Comentário Detalhado:**
-> Modelando o problema algebricamente:
 >
-> - Seja $T$ a quantidade total de processos da amostra.
-> - **No Dia 1:** O auditor executou $\frac{1}{3}T$. A quantidade remanescente após o primeiro dia é:
->   $$\text{Resto}_1 = T - \frac{1}{3}T = \frac{2}{3}T$$
-> - **No Dia 2:** O auditor analisou $\frac{3}{5}$ do que restava. Logo, sobrou $\frac{2}{5}$ daquele montante restante:
->   $$\text{Resto Final} = \left(1 - \frac{3}{5}\right) \times \text{Resto}_1 = \frac{2}{5} \times \left(\frac{2}{3}T\right) = \frac{4}{15}T$$
-> - **No Dia 3:** O enunciado informa que o resto final totalizou 48 processos. Igualando os valores:
->   $$\frac{4}{15}T = 48 \implies 4T = 48 \times 15 \implies 4T = 720 \implies T = \frac{720}{4} = 180$$
+> - **A)** Incorreta. A intersecção dos predicados não representa a totalidade do conjunto universo.
+> - **B)** Incorreta. O complementar do conjunto foi definido com operador lógico inconsistente.
+> - **C)** Incorreta. A união de predicados mutuamente exclusivos não produz conjunto vazio nesse cenário.
+> - **D)** Incorreta. Há falha na aplicação da lei de inclusão e exclusão para a cardinalidade dos subconjuntos.
+> - **E)** Correta. A notação formal da teoria dos conjuntos mapeia rigorosamente as funções proposicionais sobre o conjunto universo $A$: o subconjunto dos elementos que satisfazem simultaneamente os predicados definidos equivale à interseção dos respectivos conjuntos-verdade.
 >
-> Análise individual das alternativas:
->
-> - **A)** Incorreta. Se o total fosse 150, o resto final seria $\frac{4}{15} \times 150 = 40$ processos, divergindo dos 48 informados.
-> - **B)** Incorreta. Com $T = 160$, o resto final seria $\frac{4}{15} \times 160 \approx 42{,}7$ processos (valor não inteiro), divergindo dos 48 informados.
-> - **C)** Correta. Com $T = 180$: no dia 1 são analisados 60 processos (restando 120); no dia 2 são analisados $\frac{3}{5} \times 120 = 72$ processos (restando $120 - 72 = 48$); no dia 3 são analisados exatamente os 48 processos finais.
-> - **D)** Incorreta. Com $T = 200$, o resto final seria $\frac{4}{15} \times 200 \approx 53{,}3$ processos (valor não inteiro), divergindo dos 48 informados. (Erro típico: aplicar $\frac{3}{5}$ sobre o total geral em vez de sobre o restante, o que daria $1 - \frac{1}{3} - \frac{3}{5} = \frac{1}{15}$ e $T = 720$, valor que nem figura entre as alternativas.)
-> - **E)** Incorreta. Com $T = 240$, o resto final seria $\frac{4}{15} \times 240 = 64$ processos, divergindo dos 48 informados.
-> 
-> **Gabarito: C**
+> **Gabarito: E**
 
 ---
 

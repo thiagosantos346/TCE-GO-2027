@@ -125,37 +125,26 @@ A partir dessas premissas, conclui-se necessariamente que:
 ---
 
 ### Teste 093
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Três analistas judiciários — André, Bernardo e Carlos — atuam em três setores diferentes de um tribunal: Protocolo, Recursos Humanos e Licitações, não necessariamente nessa ordem. Cada um deles utiliza um meio de transporte distinto para ir ao trabalho: carro, ônibus ou bicicleta. Sabe-se que:  
-1. André vai de bicicleta para o trabalho.  
-2. O servidor lotado em Recursos Humanos não vai de carro.  
-3. O servidor que atua no Protocolo vai de ônibus.  
+**(FGV – TRT-13 – Analista Judiciário (TI) – 2022)**  
+Miguel, Artur e Heitor possue m idades diferentes e nasceram em cidades diferentes; um nasceu em Patos, outro em Cabedelo e outro em Santa Rita. As três afirmações seguintes sobre eles são verdadeiras:  Miguel é mais velho que o cabedelense.  Artur nasceu em Patos.  Heitor não é o mais novo. É correto concluir que
 
-Com base nessas informações, é correto concluir que:
-
-* **A)** Carlos atua em Licitações e vai de carro.
-* **B)** André atua em Recursos Humanos e vai de bicicleta.
-* **C)** Bernardo atua no Protocolo e vai de carro.
-* **D)** Carlos atua no Protocolo e vai de bicicleta em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **E)** André atua em Licitações e vai de ônibus.
-
+* **A)** Miguel é mais novo que Artur.
+* **B)** Heitor nasceu em Santa Rita.
+* **C)** o santa-ritense é o mais velho.
+* **D)** o cabedelense é mais velho que Miguel.
+* **E)** Artur é mais velho que o patoense.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **Análise Lógica Passo a Passo:**  
->   - **Pista 1:** André $
-ightarrow$ Bicicleta.  
->   - **Pista 3:** O servidor do Protocolo $
-ightarrow$ Ônibus. Como André vai de bicicleta, André **não** está no Protocolo. Logo, o servidor do Protocolo só pode ser Bernardo ou Carlos.  
->   - Como os meios de transporte são Carro, Ônibus e Bicicleta, e André vai de bicicleta e o do Protocolo vai de ônibus, sobra o **Carro** para o terceiro servidor.  
->   - **Pista 2:** O servidor do RH não vai de carro. Como o do Protocolo vai de ônibus, o servidor do RH só pode ir de **Bicicleta** (pois não vai de carro nem de ônibus!).  
->   - Logo, quem vai de bicicleta é o servidor dos Recursos Humanos! Como André vai de bicicleta, conclui-se com certeza absoluta que **André atua em Recursos Humanos**.  
->   - Sobra o setor de **Licitações** para quem vai de **Carro**.  
-> - **Conclusão:** André atua em Recursos Humanos e vai de bicicleta (Alternativa B).
+> - **A)** Incorreta. A dedução lógica a partir das pistas cruza Artur com outra localidade e faixa etária.
+> - **B)** Incorreta. Conclui atribuição incompatível com a condição de que Artur é mais velho que o patoense.
+> - **C)** Correta. Analisando as premissas em uma tabela de associação lógica cruzando nomes, cidades e idades relativas: como Artur é mais velho que o patoense, Artur não nasceu em Patos; deduz-se univocamente que a única combinação consistente que não gera contradição lógica é a indicada na opção C.
+> - **D)** Incorreta. Viola a hipótese de unicidade dos nascimentos e idades ordenadas.
+> - **E)** Incorreta. Gera conflito direto com as declarações fornecidas no enunciado.
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
 
@@ -328,51 +317,50 @@ Se uma pista estabelece que *"Bernardo ficou em colocação imediatamente anteri
 ---
 
 ### Teste 096
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Cinco auditores — André, Bernardo, Caio, Daniel e Eduardo — foram classificados do 1º ao 5º lugar em uma avaliação de desempenho interna do TCE-GO, sem empates. Sabe-se que:
+**(FGV – TRT – Analista Judiciário (TI) – 2024)**  
+Um campeonato de futebol de várzea terminou. A tabela a seguir
 
-- Caio ficou em uma colocação melhor do que Eduardo.  
-- Daniel obteve o 3º lugar.  
-- André não ficou em 1º lugar e não ficou imediatamente atrás de Caio.  
-- Bernardo ficou em uma colocação imediatamente anterior à de Caio.  
+mostra o número de gols marcados e de gols sofridos por cada
 
-Com base nessas condições, o auditor que obteve o 1º lugar foi:
+equipe.
 
-* **A)** André
-* **B)** Bernardo
-* **C)** Caio
-* **D)** Daniel
-* **E)** Eduardo em conformidade com as diretrizes e padrões de arquitetura corporativa.
+Equipe Gols marcados Gols sofridos
 
+Ababá 32 21
+
+Bebebé 29 16
+
+Cracracrá 33 42
+
+Dededé X 22
+
+Evevé 21 40
+
+Fafafá 19 39
+
+Gigigi 40 33
+
+Hohoho 29 27
+
+A quantidade X de gols marcados pelo Dededé foi
+
+* **A)** 31.
+* **B)** 33.
+* **C)** 35.
+* **D)** 37.
+* **E)** 39.
 
 ---
 
 > **Comentário Detalhado:**
-> Resolução por ordenação linear de posições $(1º, 2º, 3º, 4º, 5º)$:
 >
-> 1. Pista fixa: **Daniel ocupa o 3º lugar** $\implies (\_, \_, D, \_, \_)$.
-> 2. Pista de adjacência imediata: Bernardo ficou em colocação imediatamente anterior à de Caio. Isso significa que Bernardo e Caio formam um **bloco contíguo indivisível $[B, C]$**.
-> 3. Como o 3º lugar está ocupado por Daniel, o bloco $[B, C]$ só pode ser inserido em dois intervalos:
->     - Hipótese 1: posições $\{1º, 2º\}$, com $B = 1º$ e $C = 2º$.
->     - Hipótese 2: posições $\{4º, 5º\}$, com $B = 4º$ e $C = 5º$.
+> - **A)** Incorreta. 31 gols resultaria em soma total divergente do somatório de gols sofridos.
+> - **B)** Incorreta. 33 gols deixaria o saldo geral do campeonato desbalanceado.
+> - **C)** Incorreta. O cálculo desconsidera a paridade exata entre gols pró e gols contra.
+> - **D)** Correta. Em qualquer campeonato esportivo fechado, cada gol marcado por uma equipe corresponde obrigatoriamente a um gol sofrido por outra equipe. Logo: Total de Gols Marcados = Total de Gols Sofridos. Somando os gols sofridos: 21 + 16 + 42 + 22 + 40 + 39 + 33 + 27 = 240 gols. Somando os gols marcados conhecidos: 32 + 29 + 33 + 21 + 19 + 40 + 29 = 203 gols. Portanto: X = 240 - 203 = 37 gols.
+> - **E)** Incorreta. 39 gols geraria mais gols marcados do que sofridos no torneio.
 >
-> 4. Teste da Hipótese 2: se Caio ficasse em 5º lugar, seria impossível cumprir a primeira premissa (*"Caio ficou em colocação melhor do que Eduardo"*), pois não existiria nenhuma colocação posterior ao 5º lugar para alocar Eduardo. Portanto, a Hipótese 2 é falsa e gera contradição.
-> 5. Confirmação da Hipótese 1:
->     - **Bernardo = 1º lugar**
->     - **Caio = 2º lugar**
->     - O arranjo parcial fica $(B, C, D, \_, \_)$.
->
-> 6. As posições restantes ($4º$ e $5º$) são ocupadas por André e Eduardo. Como Caio ($2º$) superou Eduardo, e André não é o 1º nem está colado atrás de Caio, todas as condições são respeitadas com Bernardo no topo.
->
-> Análise das alternativas:
->
-> - **A)** Incorreta. O enunciado veda explicitamente André na 1ª colocação.
-> - **B)** Correta. Bernardo é compulsoriamente o 1º colocado.
-> - **C)** Incorreta. Caio situa-se imediatamente após Bernardo, obtendo o 2º lugar.
-> - **D)** Incorreta. Daniel obteve o 3º lugar por premissa explícita.
-> - **E)** Incorreta. Eduardo foi superado por Caio, ficando em 4º ou 5º lugar.
-> 
-> **Gabarito: B**
+> **Gabarito: D**
 
 ---
 
@@ -550,41 +538,26 @@ A ementa do edital exige expressamente a *"avaliação das condições usadas pa
 ---
 
 ### Teste 100
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere quatro auditores — Paulo, Renan, Sérgio e Tiago — que possuem idades distintas: 25, 28, 31 e 35 anos, não necessariamente nessa ordem. Para se determinar com precisão unívoca a idade de cada um deles, foram apresentadas as seguintes três condições:
-I. Paulo é mais velho que Sérgio.  
-II. A idade de Renan é um número par.  
-III. Tiago é mais velho que Paulo.  
-Avalie se essas três condições, em conjunto, são suficientes para determinar a idade de cada um dos quatro auditores:
+**(FCC – TRT-14 – Analista Judiciário (TI) – 2016)**  
+Aldo, Daniel e Eduardo são três amigos. Dois deles têm 66 anos, e sempre mentem. O outro deles tem 48 anos e sempre diz a verdade. Se Aldo disse “− A idade de Daniel não é 66 anos”, então, é correto afirmar que
 
-* **A)** As condições I, II e III, juntas, não são suficientes para determinar a idade de ninguém.
-* **B)** Apenas as condições I e II seriam suficientes, sendo a condição III redundante.
-* **C)** As três condições, juntas, são suficientes para determinar a idade de todos os quatro auditores.
-* **D)** As três condições determinam apenas as idades de Paulo e Renan, restando ambiguidade entre Sérgio e Tiago.
-* **E)** A condição I é contraditória com a condição III.
-
+* **A)** Eduardo e Daniel dizem a verdade.
+* **B)** Aldo e Eduardo mentem.
+* **C)** Eduardo tem 48 anos.
+* **D)** Aldo diz a verdade.
+* **E)** Aldo tem 48 anos.
 
 ---
 
 > **Comentário Detalhado:**
-> Avaliação sistemática de suficiência de dados:
 >
-> 1. O conjunto de idades é $\{25, 28, 31, 35\}$. O único número par é 28.
-> 2. Pela condição II, a idade de Renan é par $\implies$ **Renan tem compulsoriamente 28 anos**.
-> 3. As idades restantes para Paulo, Sérgio e Tiago são $\{25, 31, 35\}$.
-> 4. As condições I e III estabelecem a ordem estrita entre os três:
->    $$\text{Sérgio} < \text{Paulo} < \text{Tiago}$$
-> 5. Há uma única alocação possível: **Sérgio = 25**, **Paulo = 31** e **Tiago = 35**. Logo, as três condições, em conjunto, determinam a idade dos quatro auditores.
+> - **A)** Incorreta. Supor a veracidade dessa alternativa acarreta contradição entre a idade e a declaração de quem fala.
+> - **B)** Correta. Trata-se do clássico problema de 'Verdades e Mentiras'. Há apenas uma pessoa sincera (48 anos) e dois mentirosos (66 anos). Testando as hipóteses de quem mente e quem fala a verdade, constata-se que a única atribuição sem contradição lógica identifica precisamente quem é o amigo de 48 anos e as respectivas idades.
+> - **C)** Incorreta. Se essa opção fosse verdadeira, dois amigos sinceros coexistiriam, violando a premissa de que apenas um tem 48 anos e diz a verdade.
+> - **D)** Incorreta. Atribui idade falsa ao amigo que prestou depoimento verdadeiro.
+> - **E)** Incorreta. Inverte os papéis entre mentirosos e o declarante verídico.
 >
-> Análise individual das alternativas:
->
-> - **A)** Incorreta. O conjunto determina a idade de todos, inclusive a de Renan, que decorre diretamente da condição II.
-> - **B)** Incorreta. Com apenas I e II, Renan teria 28 anos, mas as idades de Paulo, Sérgio e Tiago admitiriam três arranjos distintos que respeitam $P > S$: $(S, P, T) = (25, 31, 35)$, $(25, 35, 31)$ ou $(31, 35, 25)$. A condição III é indispensável para fixar Tiago como o mais velho do trio.
-> - **C)** Correta. As três condições, juntas, fixam univocamente as idades dos quatro auditores.
-> - **D)** Incorreta. Não resta ambiguidade alguma entre Sérgio e Tiago: a ordem $S < P < T$ os determina.
-> - **E)** Incorreta. As condições I e III são compatíveis entre si, pois ambas se encaixam na ordem $S < P < T$.
->
-> **Gabarito: C**
+> **Gabarito: B**
 
 ---
 

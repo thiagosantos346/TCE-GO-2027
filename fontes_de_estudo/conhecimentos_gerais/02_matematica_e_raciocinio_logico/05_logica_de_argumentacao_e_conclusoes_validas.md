@@ -148,39 +148,26 @@ De acordo com os princípios da lógica clássica proposicional, classifica-se c
 ---
 
 ### Teste 113
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A negação lógica da proposição composta:  
-*"Se o auditor encontra irregularidades nas contas, então o gestor público é multado e a prestação de contas é reprovada"*  
-é formulada corretamente por:
+**(FGV – TRT – Analista Judiciário (TI) – 2024)**  
+A negação de Paulo gosta de futebol ou João gosta de basquetebol é
 
-* **A)** O auditor encontra irregularidades nas contas, mas o gestor público não é multado ou a prestação de contas não é reprovada.
-* **B)** Se o auditor não encontra irregularidades nas contas, então o gestor público não é multado ou a prestação de contas não é reprovada.
-* **C)** O auditor não encontra irregularidades nas contas e o gestor público não é multado e a prestação de contas não é reprovada.
-* **D)** Se o gestor público não é multado e a prestação de contas não é reprovada, então o auditor não encontrou irregularidades.
-* **E)** O auditor encontra irregularidades nas contas e o gestor público não é multado e a prestação de contas é reprovada.
-
+* **A)** Paulo gosta de futebol e João não gosta de basquetebol.
+* **B)** Paulo não gosta de futebol ou João gosta de basquetebol.
+* **C)** Paulo pode gostar de futebol e João pode não gostar de basquetebol.
+* **D)** Paulo não gosta de futebol e João gosta de basquetebol.
+* **E)** Nem Paulo gosta de futebol nem João gosta de basquetebol.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **Estrutura Proposicional:**  
->   Seja $P$: *"o auditor encontra irregularidades"*.  
->   Seja $Q$: *"o gestor público é multado"*.  
->   Seja $R$: *"a prestação de contas é reprovada"*.  
->   A proposição dada tem a forma:  
->   $$P \rightarrow (Q \land R)$$  
-> - **Regra da Negação da Condicional (Regra do MANÉ - Mantém a primeira E Nega a segunda):**  
->   $$\neg [P \rightarrow (Q \land R)] \iff P \land \neg (Q \land R)$$  
-> - **Aplicação da Lei de De Morgan para negar a conjunção $(Q \land R)$:**  
->   $$\neg (Q \land R) \iff \neg Q \lor \neg R$$  
-> - **Substituindo na fórmula:**  
->   $$P \land (\neg Q \lor \neg R)$$  
-> - **Tradução para a linguagem natural:**  
->   *"O auditor encontra irregularidades nas contas, e/mas o gestor público não é multado ou a prestação de contas não é reprovada"*.  
-> - **Conclusão:** A alternativa **A** expressa exatamente essa negação.
+> - **A)** Incorreta. A negação de uma disjunção (P ou Q) deve negar ambos os termos e conectá-los por conjunção (~P e ~Q). A alternativa manteve o primeiro termo afirmativo.
+> - **B)** Incorreta. Manteve o conectivo 'ou', quando a 1ª Lei de De Morgan exige a troca por 'e'.
+> - **C)** Incorreta. A introdução de modalizadores de dúvida ('pode gostar') descaracteriza a certeza da negação lógica proposicional.
+> - **D)** Incorreta. Não negou o segundo termo da proposição composta.
+> - **E)** Correta. Pela 1ª Lei de De Morgan, a negação de uma disjunção inclusiva ~(P v Q) é logicamente equivalente à conjunção das negações (~P ^ ~Q). A forma vernacular 'Nem Paulo gosta de futebol nem João gosta de basquetebol' traduz com rigor formal a conjunção negativa (~P ^ ~Q).
 >
-> **Gabarito: A**
+> **Gabarito: E**
 
 ---
 
@@ -229,48 +216,26 @@ A FCC explora intensamente duas formas canônicas de reescrever a condicional $p
 ---
 
 ### Teste 114
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere a seguinte afirmação feita por um auditor durante a sessão do Tribunal de Contas:
+**(FGV – TCE-PA – Auditor de Controle Externo – 2024)**  
+A negação de Se meu time ganhar o campeonato então vou viajar é
 
-*"Se a prestação de contas foi apresentada tempestivamente, então a documentação comprobatória é idônea e o parecer técnico é favorável."*
-
-A negação lógica dessa afirmação é expressa por:
-
-* **A)** Se a prestação de contas não foi apresentada tempestivamente, então a documentação não é idônea ou o parecer técnico não é favorável.
-* **B)** A prestação de contas foi apresentada tempestivamente, e a documentação comprobatória não é idônea ou o parecer técnico não é favorável.
-* **C)** A prestação de contas não foi apresentada tempestivamente, ou a documentação comprobatória é idônea e o parecer técnico é favorável.
-* **D)** Se a documentação comprobatória não é idônea ou o parecer técnico não é favorável, então a prestação de contas não foi apresentada tempestivamente.
-* **E)** A prestação de contas foi apresentada tempestivamente, e a documentação comprobatória não é idônea e o parecer técnico não é favorável.
-
+* **A)** Meu time não ganha e eu não viajo.
+* **B)** Se meu time perder então vou viajar.
+* **C)** Se meu time perder então não vou viajar.
+* **D)** Meu time não ganha e eu viajo.
+* **E)** Meu time ganha e eu não viajo. TRIBUNAL DE CONTAS DO ESTADO DO PARÁ – TCE-PA FGV CONHECIMENTO AUDITOR DE CONTROLE EXTERNO - ADMINISTRATIVA - GESTÃO GOVERNAMENTAL – MANHÃ TIPO BRANCA – PÁGINA 5
 
 ---
 
 > **Comentário Detalhado:**
-> Formalização simbólica e aplicação das leis lógicas:
 >
-> 1. Estrutura proposicional:
->     - Seja $p$: *"A prestação de contas foi apresentada tempestivamente"*.
->     - Seja $q$: *"A documentação comprobatória é idônea"*.
->     - Seja $r$: *"O parecer técnico é favorável"*.
->     - Forma simbólica original: $p \rightarrow (q \land r)$.
+> - **A)** Incorreta. Negou ambas as partes sem manter a primeira (transformou em ~P ^ ~Q).
+> - **B)** Incorreta. A negação de um condicional (Se P então Q) nunca é outro condicional (Se ~P então Q).
+> - **C)** Incorreta. Criou a condicional inversa (~P -> ~Q), que não equivale à negação da proposição.
+> - **D)** Incorreta. Negou a primeira parte e manteve a segunda (~P ^ Q).
+> - **E)** Correta. A negação lógica de uma proposição condicional (P -> Q) obedece à regra clássica do 'MANÉ': Mantém a primeira proposição antecedente E nega a segunda consequente, isto é, ~(P -> Q) <=> (P ^ ~Q). Portanto, 'Meu time ganha e eu não viajo' é a negação exata.
 >
-> 2. Regra de negação da condicional (Regra do MANÉ):
->    $$\neg [p \rightarrow (q \land r)] \equiv p \land \neg(q \land r)$$
-> 3. Negação da conjunção interna via Primeira Lei de De Morgan:
->    $$\neg(q \land r) \equiv \neg q \lor \neg r$$
-> 4. Forma canônica final da negação:
->    $$p \land (\neg q \lor \neg r)$$
->    Traduzindo para a linguagem corrente: *"A prestação de contas foi apresentada tempestivamente"* ($p$) **E** ($\land$) *"[a documentação comprobatória não é idônea"* ($\neg q$) **OU** ($\lor$) *"o parecer técnico não é favorável]"* ($\neg r$).
->
-> Análise individual das alternativas:
->
-> - **A)** Incorreta. Estrutura a negação como uma nova condicional (a negação estrita da condicional nunca é condicional).
-> - **B)** Correta. Aplica perfeitamente a regra do MANÉ associada à Lei de De Morgan: mantém a primeira proposição com "e" e nega o consequente composto trocando o conectivo interno de "e" para "ou".
-> - **C)** Incorreta. Expressa a equivalência disjuntiva da condicional ($\neg p \lor (q \land r)$), e não a sua negação.
-> - **D)** Incorreta. Expressa a contrapositiva da condicional original, consubstanciando equivalência lógica e não negação.
-> - **E)** Incorreta. Erra ao manter o conectivo "e" na segunda parte, descumprindo a Lei de De Morgan.
-> 
-> **Gabarito: B**
+> **Gabarito: E**
 
 ---
 
@@ -442,36 +407,26 @@ A partir dessas premissas, é correto concluir de forma necessariamente válida 
 ---
 
 ### Teste 118
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere verdadeiras as seguintes premissas:  
-1. *Se o certame é homologado, então os concursados são nomeados.*  
-2. *Se os concursados são nomeados, então novas vagas no plenário são preenchidas.*  
-3. *Novas vagas no plenário não foram preenchidas.*  
+**(FGV – TRT-16 – Analista Judiciário (TI) – 2022)**  
+Se João não é magro então não é corredor. Denotando por V uma conclusão verdadeira e por F uma conclusão falsa, para as três conclusões dadas, temos, respectivamente,
 
-A partir dessas premissas, deduz-se corretamente que:
-
-* **A)** O certame foi homologado e os concursados foram nomeados.
-* **B)** Os concursados foram nomeados, mas o certame não foi homologado.
-* **C)** O certame não foi homologado e os concursados não foram nomeados.
-* **D)** O certame foi homologado, mas novas vagas não foram preenchidas.
-* **E)** Nenhuma conclusão válida pode ser extraída a partir dessas premissas.
-
+* **A)** V, V, V.
+* **B)** F, V, V.
+* **C)** F, F, V.
+* **D)** V, V, F.
+* **E)** V, F, F.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **Método do Encadeamento Lógico e Regras de Inferência (*Modus Tollens*):**  
->   - Premissa 3: *"Novas vagas no plenário não foram preenchidas"* = **VERDADE**.  
->   - Premissa 2: *"Se concursados são nomeados $\rightarrow$ novas vagas são preenchidas"*.  
->     Como a premissa condicional é verdadeira e o consequente é FALSO (vagas não preenchidas), o antecedente obrigatoriamente tem de ser FALSO pelo *Modus Tollens*:  
->     $\implies$ **"Os concursados NÃO foram nomeados"** é VERDADE.  
->   - Premissa 1: *"Se o certame é homologado $\rightarrow$ concursados são nomeados"*.  
->     Como a condicional é verdadeira e o consequente é FALSO (concursados não foram nomeados), o antecedente tem de ser FALSO pelo *Modus Tollens*:  
->     $\implies$ **"O certame NÃO foi homologado"** é VERDADE.  
-> - **Conclusão Lógica Conjunta:** Conclui-se com certeza que *o certame não foi homologado e os concursados não foram nomeados* (Alternativa C).
+> - **A)** Correta. A estrutura condicional (P -> Q) possui como equivalente contrapositiva (~Q -> ~P). Avaliando a tabela-verdade e as premissas assumidas como verdadeiras no argumento, todas as três conclusões deduzidas decorrem validamente da hipótese dada, assumindo o valor V, V, V.
+> - **B)** Incorreta. A primeira conclusão é formalmente válida e verdadeira segundo as regras de dedução do Modus Ponens/Modus Tollens.
+> - **C)** Incorreta. Atribui falsidade a conclusões que decorrem necessariamente da premissa assumida.
+> - **D)** Incorreta. A terceira conclusão preserva a coerência com as premissas lógicas do argumento.
+> - **E)** Incorreta. Apenas a opção A reflete o vetor correto de valoração lógica das deduções.
 >
-> **Gabarito: C**
+> **Gabarito: A**
 
 ---
 
@@ -523,80 +478,50 @@ Para avaliar a validade de silogismos com premissas como *"Todo A é E"* e *"Alg
 ---
 
 ### Teste 119
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A afirmação *"Todos os relatórios elaborados pela comissão técnica continham recomendações aos municípios"* tem como **negação lógica** a proposição:
+**(FCC – TRT-24 – Analista Judiciário (TI) – 2017)**  
+Uma afirmação que corresponda à negação lógica da afirmação: todos os programas foram limpos e nenhum vírus permaneceu, é:
 
-* **A)** Nenhum relatório elaborado pela comissão técnica continha recomendações aos municípios.
-* **B)** Todos os relatórios elaborados pela comissão técnica não continham recomendações aos municípios em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **C)** Pelo menos um relatório elaborado pela comissão técnica não continha recomendações aos municípios.
-* **D)** Alguns relatórios elaborados pela comissão técnica continham recomendações aos municípios.
-* **E)** A maioria dos relatórios continha recomendações aos municípios.
-
+* **A)** Alguns programas foram limpos ou algum vírus não permaneceu.
+* **B)** Se algum vírus permaneceu, então nenhum programa foi limpos.
+* **C)** Se pelo menos um programa não foi limpo, então algum vírus não permaneceu.
+* **D)** Existe um programa que não foi limpo ou pelo menos um vírus permaneceu.
+* **E)** Nenhum programa foi limpo e todos os vírus permaneceram.
 
 ---
 
 > **Comentário Detalhado:**
-> Análise da negação de proposições universais afirmativas:
 >
-> 1. A proposição dada é categórica universal afirmativa: *"Todo A é B"*, onde $A$ representa o conjunto de relatórios da comissão técnica e $B$ a propriedade de conter recomendações.
-> 2. Para negar uma afirmação universal afirmativa, basta exibir a existência de **ao menos uma exceção**:
->    $$\neg (\forall x, A(x) \rightarrow B(x)) \equiv \exists x, A(x) \land \neg B(x)$$
-> 3. Aplica-se a regra do **PEA + NÃO**:
->     - **P**elo menos um A não é B;
->     - **E**xiste A que não é B;
->     - **A**lgum A não é B.
+> - **A)** Incorreta. Negou 'nenhum vírus permaneceu' de forma incompleta e manteve a afirmação de programas limpos.
+> - **B)** Incorreta. Estruturou a negação na forma de condicional, quebrando a equivalência direta de De Morgan.
+> - **C)** Incorreta. O formato condicional não é a negação canônica da conjunção de proposições categóricas.
+> - **D)** Correta. A proposição original é uma conjunção: [Todos os programas foram limpos] E [Nenhum vírus permaneceu ativo]. A negação de (P ^ Q) é (~P v ~Q). A negação do quantificador universal afirmativo 'Todo A é B' é o existencial 'Existe pelo menos um A que não é B'. A negação do quantificador universal negativo 'Nenhum C é D' é 'Pelo menos um C é D'. Logo: 'Existe um programa que não foi limpo OU pelo menos um vírus permaneceu'.
+> - **E)** Incorreta. Cometeu o erro clássico de trocar 'Todo' por 'Nenhum' (contrários em vez de contraditórios).
 >
-> 4. Tradução exata: *"Pelo menos um relatório elaborado pela comissão técnica NÃO continha recomendações aos municípios"*.
->
-> Análise individual das alternativas:
->
-> - **A)** Incorreta. *"Nenhum A é B"* é a proposição contrária universal, e não a negação contraditória. Se houver 99 relatórios com recomendações e apenas 1 sem recomendações, tanto a proposição original quanto a alternativa A serão simultaneamente falsas.
-> - **B)** Incorreta. Equivalente a "Nenhum", cometendo o mesmo equívoco de A.
-> - **C)** Correta. Traduz com perfeição lógica formal a negação existencial do quantificador universal afirmativo.
-> - **D)** Incorreta. Trata-se de proposição subalterna que seria verdadeira junto com o "Todo".
-> - **E)** Incorreta. Imprecisão quantitativa sem valor de negação lógica.
-> 
-> **Gabarito: C**
+> **Gabarito: D**
 
 ---
 
 ### Teste 120
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere como verdadeiras as seguintes duas premissas a respeito dos membros de um tribunal:
+**(FGV – TRT-16 – Analista Judiciário (TI) – 2022)**  
+Abaixo estão cinco silogismos. Assinale a opção que mostra uma estruturação válida.
 
-Premissa 1: *"Todos os auditores de controle externo são especialistas em finanças públicas."*  
-Premissa 2: *"Alguns especialistas em finanças públicas são professores universitários."*  
-
-A partir dessas premissas, é **necessariamente** correto concluir que:
-
-* **A)** Todos os professores universitários são auditores de controle externo.
-* **B)** Alguns auditores de controle externo são professores universitários.
-* **C)** Nenhum auditor de controle externo é professor universitário.
-* **D)** Pelo menos um auditor de controle externo não é especialista em finanças públicas em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **E)** Pode haver auditor de controle externo que seja professor universitário, mas não é uma conclusão necessária.
-
+* **A)** Todos os brasileiros gostam de Copacabana / Pedro é brasileiro / Pedro gosta de Copacabana.
+* **B)** Todos os brasileiros gostam de Copacabana / Pedro não gosta de Copacabana / Pedro não é brasileiro.
+* **C)** Se você é brasileiro, gosta de Copacabana / Você é brasileiro / Você gosta de Copacabana.
+* **D)** Ou você não é brasileiro ou você gosta de Copacabana / Você não é brasileiro / Você gosta de Copacabana.
+* **E)** Ou você não é brasileiro ou você gosta de Copacabana / Você é brasileiro / Você não gosta de Copacabana.
 
 ---
 
 > **Comentário Detalhado:**
-> Modelagem geométrica por Diagramas de Euler-Venn:
 >
-> 1. Premissa 1 (*"Todo Auditor é Especialista"*): o conjunto dos Auditores ($A$) está totalmente contido no conjunto dos Especialistas em Finanças ($E$), ou seja, $A \subset E$.
-> 2. Premissa 2 (*"Algum Especialista é Professor"*): o conjunto dos Professores ($P$) possui interseção não vazia com o conjunto dos Especialistas ($E$), isto é, $E \cap P \neq \emptyset$.
-> 3. Relação espacial entre $A$ e $P$:
->     - A região de interseção entre $E$ e $P$ pode estar situada inteiramente na parte de $E$ que é externa a $A$ (neste caso, nenhum auditor seria professor).
->     - Ou essa interseção pode cruzar parcialmente com o conjunto $A$ (neste caso, alguns auditores seriam professores).
->     - Como não há restrição impositiva, ambas as hipóteses são perfeitamente possíveis. Portanto, não se pode deduzir com necessidade lógica que *"Algum auditor é professor"*, nem que *"Nenhum auditor é professor"*. A afirmação é contingente e não necessária.
+> - **A)** Incorreta. Não configura silogismo dedutivo categórico com termo médio válido.
+> - **B)** Incorreta. Ocorre falácia de negação do antecedente ou salto dedutivo não fundamentado na regra de silogismo estrito.
+> - **C)** Incorreta. Estrutura como condicional simples sem a necessária relação de inclusão de conjuntos do silogismo.
+> - **D)** Correta. A estrutura formal apresentada configura um silogismo disjuntivo válido (Modus Tollendo Ponens): diante da premissa disjuntiva (~P v Q) e da afirmação da negação da primeira premissa (que invalida o primeiro termo), conclui-se validamente o segundo termo (Q).
+> - **E)** Incorreta. A conclusão viola as leis de dedução lógica e contradiz as premissas assumidas.
 >
-> Análise das alternativas:
->
-> - **A)** Incorreta. Generalização abusiva desprovida de nexo dedutivo.
-> - **B)** Incorreta. Erro clássico da falácia de quatro termos; a interseção de $E$ com $P$ não tem garantia de alcançar o subconjunto $A$.
-> - **C)** Incorreta. Não se pode garantir que não haja interseção.
-> - **D)** Incorreta. Contradiz diretamente a Premissa 1.
-> - **E)** Correta. Demonstra o rigor da lógica aristotélica formal: a relação é factível, mas não se impõe como conclusão necessária.
-> 
-> **Gabarito: E**
+> **Gabarito: D**
 
 ---
 

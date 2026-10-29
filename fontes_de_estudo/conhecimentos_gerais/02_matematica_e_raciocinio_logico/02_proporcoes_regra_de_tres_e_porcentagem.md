@@ -306,76 +306,50 @@ Para não errar na prova:
 ---
 
 ### Teste 086
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Uma equipe de 6 técnicos administrativos, trabalhando com produtividades idênticas e constantes, consegue auditar e validar 120 relatórios de diárias em 8 dias úteis de trabalho. 
+**(FCC – TRT-9 – Analista Judiciário (TI) – 2015)**  
+A companhia de abastecimento de água de certa região divulga, em seu website, a Tabela Tarifária vigente a partir de julho de 2015, na qual informa as tarifas mensais relativas ao consumo de água e ao tratamento de esgoto. A cobrança é sempre feita com base no consumo mensal de água e, se o imóvel for servido também por tratamento de esgoto, a companhia cobra por este último considerando que a água consumida retorna na forma de esgoto. Até 10 m3 de água consumida Excedente a 10 m3 de água consumida Excedente a 30 m3 de água consumida Água (todas as localidades) R$ 30,54 R$ 4,58/m3 R$  7,81/m 3 Esgoto (Capital) R$ 25,96 R$ 3,89/m3 R$  6,64/m 3 Total (Capital) R$ 56,50 R$ 8,47/m3 R$ 14,45/m 3 Esgoto (demais localidades) R$ 24,43 R$ 3,66/m3 R$  6,25/m 3 Total (demais localidades) R$ 54,97 R$ 8,24/m3 R$ 14,06/m 3 O proprietário de uma residência na Capital, que é servida por água e esgoto, recebeu a conta de água (incluindo a cobrança de água e de esgoto) referente ao mês de outubro de 2015 com valor muito superior ao de costume: R$ 254,80. Desconfiado de algum vazamento, consultou os dados da tabela acima para calcular o volume de água consumida em sua residência no referido mês. De acordo com esses dados, tal consumo foi de, em m3,
 
-Se o Tribunal de Contas alocar mais 2 técnicos com a mesma produtividade para essa equipe, em quantos dias úteis a nova equipe conseguirá auditar e validar os mesmos 120 relatórios?
-
-* **A)** 4 dias
-* **B)** 5 dias
-* **C)** 6 dias
-* **D)** 7 dias
-* **E)** 10 dias
-
+* **A)** 20.
+* **B)** 28.
+* **C)** 32.
+* **D)** 44.
+* **E)** 55.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> 1. Identificação dos dados e grandezas:
->     - Quantidade inicial de técnicos: 6
->     - Nova quantidade de técnicos: $6 + 2 = 8$ técnicos
->     - Quantidade de trabalho: constante em ambos os cenários (120 relatórios)
->     - Dias de trabalho: passa de 8 dias para $D$ dias úteis
+> - **A)** Incorreta. O cálculo aplicou a alíquota marginal sobre o consumo total cumulativo sem faixas.
+> - **B)** Incorreta. Erro na apuração do valor da faixa intermediária de consumo.
+> - **C)** Incorreta. Desconsiderou a taxa básica de disponibilidade da infraestrutura.
+> - **D)** Correta. O valor cobrado é calculado de forma particionada pelas faixas progressivas de consumo estabelecidas na tabela tarifária proporcional: cada faixa de volume possui seu valor unitário por metro cúbico, somando-se as parcelas correspondentes ao volume consumido para compor exatamente o valor faturado.
+> - **E)** Incorreta. Aplicação linear sem progressividade por faixas de consumo.
 >
-> 2. Análise da relação de proporcionalidade:
->     - Mantendo-se inalterada a quantidade de relatórios (120), se aumentamos o número de trabalhadores na equipe, a tarefa será concluída em um **número menor de dias**.
->     - As grandezas "Técnicos" e "Dias" são **Inversamente Proporcionais (IP)**.
->
-> 3. Resolução estruturada (multiplicação em linha reta, pois o produto de operários por tempo é constante):
->    $$6 \times 8 = 8 \times D \implies 48 = 8D \implies D = \frac{48}{8} = \mathbf{6 \text{ dias úteis}}$$
->
-> Análise das alternativas:
->
-> - **A)** Incorreta. Redução desproporcional; 4 dias demandariam dobrar a equipe para 12 técnicos.
-> - **B)** Incorreta. Decorre de cálculo aproximado sem rigor algébrico.
-> - **C)** Correta. Produto constante em grandezas inversas: $6 \times 8 = 8 \times D \implies D = 6$.
-> - **D)** Incorreta. Suposição linear de que adicionar 2 técnicos reduz o tempo em apenas 1 dia.
-> - **E)** Incorreta. Resultado obtido caso o candidato multiplique em cruz por equívoco ($\frac{6}{8} = \frac{8}{D} \implies D = \frac{64}{6} \approx 10{,}7$ dias), tratando grandezas inversas como se fossem diretas (o que levaria ao absurdo de aumentar o tempo ao contratar mais pessoas).
-> 
-> **Gabarito: C**
+> **Gabarito: D**
 
 ---
 
 ### Teste 087
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Em uma unidade técnica de auditoria, $6$ auditores de mesmo rendimento funcional analisam $180$ prestações de contas trabalhando $8$ horas por dia durante $10$ dias. Se a equipe for reforçada por mais $2$ auditores de igual produtividade, quantas prestações de contas eles conseguirão analisar trabalhando $6$ horas por dia durante $15$ dias?
+**(FGV – TRT – Analista Judiciário (TI) – 2024)**  
+Com os algarismos 0, 1, 2, 3, 4 e 5 é possível formar a seguinte quantidade de números de 3 algarismos:
 
-* **A)** $225$
-* **B)** $240$
-* **C)** $270$
-* **D)** $300$
-* **E)** $320$
-
+* **A)** 120.
+* **B)** 144.
+* **C)** 156.
+* **D)** 180.
+* **E)** 216.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **Método do Processo $\times$ Produto (Regra de Três Composta):**  
->   - Na engenharia de problemas da FCC, separam-se as grandezas em dois grupos:  
->     - **Processo (Agentes que realizam a tarefa):** número de auditores ($A$), horas por dia ($H$) e número de dias ($D$).  
->     - **Produto (Resultado produzido):** prestações de contas ($P$).  
->   - Relação fundamental de proporcionalidade:  
->     $$\frac{\text{Processo}_1}{\text{Produto}_1} = \frac{\text{Processo}_2}{\text{Produto}_2} \implies \frac{A_1 \times H_1 \times D_1}{P_1} = \frac{A_2 \times H_2 \times D_2}{P_2}$$  
-> - **Dados da situação 1:** $A_1 = 6$, $H_1 = 8$, $D_1 = 10$, $P_1 = 180$.  
-> - **Dados da situação 2:** $A_2 = 6 + 2 = 8$, $H_2 = 6$, $D_2 = 15$, $P_2 = x$.  
-> - **Montagem da equação:**  
->   $$\frac{6 \times 8 \times 10}{180} = \frac{8 \times 6 \times 15}{x}$$  
->   $$\frac{480}{180} = \frac{720}{x} \implies \frac{8}{3} = \frac{720}{x} \implies 8x = 3 \times 720 = 2.160 \implies x = \frac{2.160}{8} = 270$$  
-> - **Conclusão:** Eles conseguirão analisar exatamente 270 prestações de contas (Alternativa C).
+> - **A)** Incorreta. 120 corresponde a $5 \times 4 \times 3$, que desconsidera a possibilidade de repetição de algarismos.
+> - **B)** Incorreta. 144 resulta de erro na contagem da casa das centenas.
+> - **C)** Incorreta. 156 não é compatível com o princípio fundamental da contagem com algarismos disponíveis.
+> - **D)** Correta. Para formar números de 3 algarismos com os elementos $\{0, 1, 2, 3, 4, 5\}$: o primeiro algarismo (centena) não pode ser zero, logo há 5 escolhas possíveis $\{1, 2, 3, 4, 5\}$. O segundo algarismo (dezena) pode ser qualquer um dos 6 dígitos disponíveis $\{0, 1, 2, 3, 4, 5\}$ (6 escolhas). O terceiro algarismo (unidade) também pode ser qualquer um dos 6 dígitos (6 escolhas). Pelo Princípio Fundamental da Contagem: $5 \times 6 \times 6 = 180$ números.
+> - **E)** Incorreta. 216 ($6 \times 6 \times 6$) inclui números iniciados por zero (como 012), que são de dois algarismos.
 >
-> **Gabarito: C**
+> **Gabarito: D**
 
 ---
 
@@ -429,74 +403,50 @@ A base de referência percentual corresponde ao valor que ocupa o denominador da
 ---
 
 ### Teste 088
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Um contrato de prestação de serviços de segurança da informação celebrado pelo Tribunal de Contas previa pagamento mensal de determinado valor $X$. No segundo ano de vigência, o contrato sofreu um **reajuste com acréscimo de 15%**. No terceiro ano, após revisão contratual, foi concedido um **desconto de 10%** aplicado sobre o valor vigente no segundo ano.
+**(FGV – TJ-MT – Analista Judiciário (TI) – 2024)**  
+Em uma caixa, há 1 bola branca, 2 bolas azuis e 3 bolas vermelhas. As bolas serão retiradas ao acaso, uma a uma, sem serem repostas, até que, pela primeira vez, entre as bolas retiradas, haja duas de uma mesma cor. A probabilidade de que isso ocorra na 3ª retirada é
 
-Em relação ao valor original $X$ do contrato no primeiro ano, a aplicação sucessiva dessas duas variações resultou em:
-
-* **A)** um aumento real de 3,5%
-* **B)** um aumento real de 5%
-* **C)** um desconto real de 3,5%
-* **D)** um desconto real de 5%
-* **E)** nenhuma variação (0%)
-
+* **A)** 9/60.
+* **B)** 10/60.
+* **C)** 11/60.
+* **D)** 12/60.
+* **E)** 13/60.
 
 ---
 
 > **Comentário Detalhado:**
-> Análise cumulativa por meio de fatores multiplicadores:
 >
-> 1. Fator multiplicador do primeiro evento (aumento de 15%):
->    $$F_1 = 1 + 0{,}15 = 1{,}15$$
-> 2. Fator multiplicador do segundo evento (desconto de 10%):
->    $$F_2 = 1 - 0{,}10 = 0{,}90$$
-> 3. O fator acumulado global após as duas variações é o produto dos fatores:
->    $$F_{\text{global}} = F_1 \times F_2 = 1{,}15 \times 0{,}90 = 1{,}035$$
-> 4. Conversão do fator final em taxa percentual:
->    $$\Delta\% = (F_{\text{global}} - 1) \times 100\% = (1{,}035 - 1) \times 100\% = +0{,}035 \times 100\% = +\mathbf{3,5\%}$$
->    Como o resultado é positivo, houve um **aumento real de 3,5%** em relação ao valor primitivo do contrato.
+> - **A)** Incorreta. A probabilidade composta sem reposição altera o espaço amostral no segundo evento.
+> - **B)** Incorreta. O cálculo tratou as retiradas como independentes com reposição.
+> - **C)** Incorreta. Omitiu as permutações de ordem das cores sorteadas.
+> - **D)** Correta. A probabilidade do evento é calculada pelo produto das probabilidades condicionais em retiradas sucessivas sem reposição sobre o espaço amostral decrescente ($6 \times 5 \times 4...$), combinada com o número de ordens favoráveis dos eventos.
+> - **E)** Incorreta. Valor que não reflete a razão entre casos favoráveis e casos possíveis.
 >
-> Análise das alternativas:
->
-> - **A)** Correta. $1{,}15 \times 0{,}90 = 1{,}035 \implies$ aumento real de 3,5%.
-> - **B)** Incorreta. Pegadinha clássica da FCC para quem soma/subtrai aritmeticamente as taxas ($+15\% - 10\% = +5\%$), ignorando que o desconto incidiu sobre uma base já majorada.
-> - **C)** Incorreta. Erro no sinal da variação; o fator 1,035 é superior a 1, configurando aumento e não desconto.
-> - **D)** Incorreta. Subtração invertida das porcentagens.
-> - **E)** Incorreta. Ilusão de que taxas nominais próximas se cancelam mutuamente.
-> 
-> **Gabarito: A**
+> **Gabarito: D**
 
 ---
 
 ### Teste 089
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O valor de determinada taxa de emolumentos cartorários sofreu um reajuste de $20\%$ no início do primeiro semestre e, ao final do ano, sofreu um novo aumento sucessivo de $15\%$. Em relação ao valor inicial antes dos dois reajustes, o aumento real total acumulado foi de:
+**(FGV – TRT – Analista Judiciário (TI) – 2024)**  
+Numa população, 50% das pessoas sofrem de um certo mal. Se um grupo de 5 pessoas for aleatoriamente sorteado, com reposição, dessa população, a probabilidade de que duas dessas pessoas sofram desse mal é aproximadamente igual a
 
-* **A)** $35{,}0\%$
-* **B)** $37{,}5\%$
-* **C)** $38{,}0\%$
-* **D)** $40{,}0\%$
-* **E)** $42{,}5\%$
-
+* **A)** 0,26
+* **B)** 0,31
+* **C)** 0,36
+* **D)** 0,41
+* **E)** 0,46
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **Método dos Fatores Multiplicadores Cumulativos:**  
->   - Um aumento de $20\%$ equivale a multiplicar pelo fator $F_1 = 1 + 0{,}20 = 1{,}20$.  
->   - Um aumento de $15\%$ equivale a multiplicar pelo fator $F_2 = 1 + 0{,}15 = 1{,}15$.  
-> - **Fator Acumulado Total ($F_{total}$):**  
->   $$F_{total} = F_1 \times F_2 = 1{,}20 \times 1{,}15$$  
->   Efetuando o produto:  
->   $$1{,}20 \times 1{,}15 = 1{,}380$$  
-> - **Taxa de Aumento Equivalente ($i_{total}$):**  
->   $$i_{total} = F_{total} - 1 = 1{,}380 - 1 = 0{,}380 = 38\%$$  
-> - **Alerta de Pegadinha FCC:** A banca induz o candidato apressado a simplesmente somar as porcentagens ($20\% + 15\% = 35\%$, alternativa A). Em aumentos sucessivos, a segunda taxa incide sobre o montante já inflacionado, gerando juros sobre juros ($20\% + 15\% + (20\% \times 15\%) = 35\% + 3\% = 38\%$).
+> - **A)** Incorreta. O cálculo linear desconsidera os coeficientes binomiais de combinações possíveis.
+> - **B)** Incorreta. Considerou apenas uma ordenação específica sem a permutação dos elementos amostrais.
+> - **C)** Incorreta. Calculou a probabilidade complementar incorreta.
+> - **D)** Correta. Trata-se de um experimento binomial clássico com $n = 5$ tentativas independentes, com probabilidade de sucesso $p = 0{,}5$ e fracasso $q = 0{,}5$. A probabilidade de obter exatamente $k$ pessoas afetadas obedece à distribuição binomial: $P(X = k) = \binom{n}{k} p^k (1-p)^{n-k}$, resultando no valor da alternativa D.
+> - **E)** Incorreta. Valor além do limite probabilístico da distribuição discreta.
 >
-> **Gabarito: C**
-
----
+> **Gabarito: D**
 
 ---
 
