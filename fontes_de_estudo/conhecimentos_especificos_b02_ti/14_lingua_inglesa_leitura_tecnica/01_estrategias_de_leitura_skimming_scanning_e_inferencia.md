@@ -91,14 +91,14 @@ Para maximizar a eficiência, a leitura técnica orientada a concurso estrutura-
 ---
 
 ### Teste 565
-**(FCC - Adaptada / Analista de Sistemas - Governança e Métodos)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Read the paragraph below regarding English for Specific Purposes (ESP) applied to technical auditing:*
 
 > *"Technical reading in computer science does not require exhaustive vocabulary knowledge of conversational English. Instead, an auditor relies on a tripartite cognitive model: domain-specific schemata (prior background knowledge), minimal grammatical architecture (such as modal auxiliaries and passive voice), and metacognitive reading strategies. During the pre-reading phase, examining the question stem and answer options before confronting the source text allows the reader to establish mental anchors and discard irrelevant details."*
 
 According to the text and instrumental reading fundamentals:  
 
-* **A)** An auditor must master all colloquial idioms and conversational slang of the English language before being able to interpret technical documentation no âmbito da administração pública direta e indireta.
+* **A)** An auditor must master all colloquial idioms and conversational slang of the English language before being able to interpret technical documentation.
 * **B)** Prior background knowledge (*schemata*) in IT concepts compensates for lexical gaps in general vocabulary, accelerating comprehension when combined with metacognitive strategies like pre-reading.
 * **C)** Pre-reading mandates that the candidate read the entire technical article three times before inspecting the question's alternatives.
 * **D)** Metacognitive reading strategies are strictly forbidden in competitive public examinations for IT positions.
@@ -135,10 +135,10 @@ O **Skimming** (derivado do verbo *to skim*, "desnatar", retirar a camada superi
 
 A FCC recorre frequentemente a comandos que demandam exclusivamente a aplicação de *Skimming*:
 
-- *"The main purpose of the text is to..."* (O objetivo central do texto é...)
+- *"The main purpose of the text is to.."* (O objetivo central do texto é..)
 - *"Which of the following statements best expresses the primary argument of the author?"* (Qual afirmação melhor resume a tese primordial do autor?)
-- *"The central theme discussed in the passage revolves around..."* (O tema central discutido no texto gira em torno de...)
-- *"The overall tone of the author can be characterized as..."* (O tom do autor pode ser classificado como neutro, analítico, prescritivo, cético ou laudatório).
+- *"The central theme discussed in the passage revolves around.."* (O tema central discutido no texto gira em torno de..)
+- *"The overall tone of the author can be characterized as.."* (O tom do autor pode ser classificado como neutro, analítico, prescritivo, cético ou laudatório).
 
 > 💡 **Dica de Prova FCC:**  
 > Ao resolver questões de ideia principal (*Skimming*), elimine imediatamente alternativas que apresentem fatos verdadeiros contidos no texto, mas que se refiram a detalhes secundários ou exemplos pontuais de um único parágrafo. Uma ideia central deve cobrir a totalidade do texto, e não um aspecto isolado.
@@ -146,14 +146,14 @@ A FCC recorre frequentemente a comandos que demandam exclusivamente a aplicaçã
 ---
 
 ### Teste 566
-**(FCC - Adaptada / Tribunal de Contas - Auditoria de Inteligência Artificial)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Carefully read the following excerpt on Artificial General Intelligence (AGI):*
 
 > *"The emergence of Artificial General Intelligence represents a profound inflection point for modern civilization. While current narrow AI systems excel at specialized tasks like pattern matching or matrix multiplication, AGI posits autonomous agents capable of human-level reasoning across multidisciplinary domains. Consequently, organizational leaders must anticipate seismic shifts in workforce dynamics and digital governance. Addressing these challenges demands proactive regulatory frameworks that align autonomous optimization with societal ethics before full deployment occurs."*
 
 Applying the **Skimming** strategy to identify the primary argument (*main idea*), the central thesis of the paragraph is that:  
 
-* **A)** Current narrow AI systems have completely failed at performing matrix operations and mathematical calculations no âmbito da administração pública direta e indireta.
+* **A)** Current narrow AI systems have completely failed at performing matrix operations and mathematical calculations.
 * **B)** Regulatory frameworks should be permanently dismantled to accelerate unsupervised algorithmic optimization.
 * **C)** The advent of AGI requires anticipatory governance and proactive regulatory frameworks to align autonomous systems with human societal values and ethics.
 * **D)** Human-level reasoning is impossible to achieve in computer software under any theoretical circumstance.
@@ -197,7 +197,7 @@ O **Scanning** (análogo à operação de busca de um comando `grep` ou ao feixe
 | **Ponto de Partida** | Inicia no topo do texto, percorrendo as seções estruturantes | Inicia **no enunciado da questão**, definindo a âncora antes de ir ao texto |
 | **Modo de Varredura** | Linear seletivo (lê os tópicos frasais de cima para baixo) | Totalmente não-linear (olhos movem-se em zigue-zague buscando o padrão gráfico) |
 | **Velocidade** | Acelerada (600 a 800 palavras por minuto) | Instantânea (tempo estritamente necessário para localizar a âncora) |
-| **Comandos Típicos FCC** | *"The main purpose is...", "The author primarily argues..."* | *"According to paragraph 2...", "The latency threshold in 2025 was..."* |
+| **Comandos Típicos FCC** | *"The main purpose is..", "The author primarily argues.."* | *"According to paragraph 2..", "The latency threshold in 2025 was.."* |
 
 ```mermaid
 flowchart TD
@@ -219,7 +219,7 @@ flowchart TD
 ---
 
 ### Teste 567
-**(FGV - TRT / TCE-GO - Analista de TI - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Consider the sentence below extracted from a technical paper on computing scalability:*
 
 > *"Over the past **roughly** fifty thousand hours of continuous automated monitoring, the distributed database cluster handled over ten billion transactional queries without a single unrecoverable data loss event."*
@@ -297,14 +297,14 @@ Determinados termos técnicos de língua inglesa possuem acepções altamente es
 ---
 
 ### Teste 568
-**(FCC - Adaptada / Analista de Sistemas - Segurança da Informação)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Carefully read the text excerpt below regarding cybersecurity incident handling:*
 
 > *"During the post-incident investigation, forensics analysts discovered that adversaries managed to **compromise** the primary domain controller by exploiting an unpatched remote code execution vulnerability. Once inside, the attackers deployed sophisticated **ransomware** that encrypted critical databases across multiple physical sites. **Unlike** conventional malware campaigns that disrupt operations immediately, this intrusion remained dormant for weeks to exfiltrate proprietary data. To **remediate** the breach, the security operations center had to revoke all privileged credentials and rebuild directory services from verified cold backups."*
 
 Based on reading strategies and vocabulary inference, select the correct statement:
 
-* **A)** In the first sentence, the word **"compromise"** means that the adversaries entered into an amicable agreement or diplomatic settlement with the domain controller no âmbito da administração pública direta e indireta.
+* **A)** In the first sentence, the word **"compromise"** means that the adversaries entered into an amicable agreement or diplomatic settlement with the domain controller.
 * **B)** The connector **"Unlike"** establishes a relation of contrast between the intrusion described and conventional malware campaigns regarding their timing of disruption.
 * **C)** By using scanning techniques on the text, one can determine that the ransomware encrypted databases located within a single physical datacenter.
 * **D)** The verb **"remediate"** indicates that the security operations center decided to accept and tolerate the breach without executing countermeasures.
@@ -326,14 +326,14 @@ Based on reading strategies and vocabulary inference, select the correct stateme
 ---
 
 ### Teste 569
-**(FCC - Adaptada / Tribunal de Contas - Infraestrutura e Nuvem)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Read the technical excerpt concerning cloud architecture evaluation:*
 
 > *"Monolithic systems are often praised for their initial architectural simplicity and straightforward deployment pipelines. However, as organizations scale, maintaining a massive unified codebase introduces a formidable development **bottleneck**. In contrast, a microservices pattern partitions the business domain into autonomous, loosely coupled services that can be scaled independently. **Nonetheless**, adopting microservices entails a non-trivial **trade-off**: while it enhances deployment velocity, it substantially escalates distributed operational complexity, network latency, and the difficulty of enforcing cross-service transactional consistency."*
 
 Through the application of skimming and scanning techniques, it can be concluded that:
 
-* **A)** Skimming the passage reveals that the author unconditionally recommends microservices as a superior solution without any operational drawbacks no âmbito da administração pública direta e indireta.
+* **A)** Skimming the passage reveals that the author unconditionally recommends microservices as a superior solution without any operational drawbacks.
 * **B)** The term **"bottleneck"** is used contextually to describe an acceleration mechanism that improves developer delivery speed.
 * **C)** According to the text, monolithic architectures present higher network latency and more complex cross-service transactions than microservices.
 * **D)** The word **"trade-off"** indicates a compromise where gaining deployment velocity comes at the expense of higher distributed complexity and latency.
@@ -355,14 +355,14 @@ Through the application of skimming and scanning techniques, it can be concluded
 ---
 
 ### Teste 570
-**(FCC - Adaptada / Analista de Sistemas - Arquitetura de Software)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Read the architectural decision record below:*
 
 > *"Migrating our core monolith to a microservices architecture introduces a major **trade-off**: although it enhances deployment agility and horizontal scalability, network latency becomes a significant **bottleneck**. To **remediate** this issue and ensure that unauthorized endpoints cannot **compromise** the service mesh, engineers implemented strict mTLS authentication and distributed caching."*
 
 Regarding the technical vocabulary utilized in software engineering (*trade-off, bottleneck, remediate, compromise*), it is correct to state that:  
 
-* **A)** A *trade-off* indicates a decision without any disadvantage, offering purely positive benefits with zero cost no âmbito da administração pública direta e indireta.
+* **A)** A *trade-off* indicates a decision without any disadvantage, offering purely positive benefits with zero cost.
 * **B)** A *bottleneck* represents a critical point of congestion or constraint that restricts the overall performance and throughput of the system.
 * **C)** To *remediate* an architectural problem means to ignore it permanently until the hardware crashes.
 * **D)** In cybersecurity, to *compromise* a service mesh means to sign an official peace treaty with external hackers.
@@ -415,7 +415,7 @@ Já os **Falsos Cognatos (*False Friends / False Cognates*)** possuem grafia e p
 ---
 
 ### Teste 571
-**(FCC - Adaptada / Analista de Tecnologia da Informação - SEFAZ)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Carefully read the excerpt below regarding modern enterprise infrastructure security:*
 
 > *"Zero Trust is not a single tool, but rather an overarching security model. Traditional perimeter defenses assume that everything inside an organization's internal network can be trusted. In contrast, Zero Trust operates on the principle of 'never trust, always verify'. Consequently, even after users and devices obtain initial access to a subnet, their authorization must be continually re-evaluated using granular policies based on identity, endpoint health, and context. Because legacy systems often lack native support for dynamic telemetry, modernizing them can **eventually** require substantial engineering effort."*
@@ -437,14 +437,14 @@ Based on reading comprehension strategies and technical lexicon, it is correct t
 > - **B)** Incorreta. Mediante *Skimming*, nota-se que o parágrafo apresenta a superioridade conceitual e a necessidade do modelo Zero Trust frente às defesas tradicionais de perímetro, que assumiam presunções ingênuas de confiança interna. O autor não afirma que o modelo tradicional é superior.
 > - **C)** Incorreta. Mediante *Scanning*, verifica-se que o texto assinala expressamente o oposto: *"even after users and devices obtain initial access to a subnet, their authorization must be continually re-evaluated"* (mesmo após obter acesso inicial, a autorização deve ser continuamente reavaliada, logo não permanece estática).
 > - **D)** Correta. Captura com fidelidade a tese central do modelo Zero Trust expressa no texto: a exigência de reavaliação contínua e dinâmica dos privilégios de autorização (*continually re-evaluated using granular policies*), inclusive para dispositivos e usuários já presentes na rede interna.
-> - **E)** Incorreta. Análise de referência pronominal (*Reference Words*): o pronome possessivo plural **"their"** retoma anaforicamente o sintagma plural antecedente **"users and devices"** (*"even after users and devices obtain initial access to a subnet, their authorization..."*), e não "traditional perimeter defenses".
+> - **E)** Incorreta. Análise de referência pronominal (*Reference Words*): o pronome possessivo plural **"their"** retoma anaforicamente o sintagma plural antecedente **"users and devices"** (*"even after users and devices obtain initial access to a subnet, their authorization.."*), e não "traditional perimeter defenses".
 > 
 > **Gabarito: D**
 
 ---
 
 ### Teste 572
-**(FCC - Adaptada / Tribunal de Contas - Auditoria de TI)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Consider the sentence below taken from an official software engineering audit report:*
 
 > *"Although the technical team **pretended** to ignore the severe vulnerabilities discovered during the automated pipeline audit, the directorate implemented a **comprehensive** governance **policy** that **actually** mitigated external threat vectors."*
@@ -452,7 +452,7 @@ Based on reading comprehension strategies and technical lexicon, it is correct t
 Na língua portuguesa, as palavras destacadas no trecho (**pretended**, **comprehensive**, **policy**, **actually**) possuem os significados corretos e contextuais expressos em:
 
 * **A)** fingiu – compreensiva – polícia – atualmente
-* **B)** pretendeu – abrangente – diretriz – atualmente no âmbito da administração pública direta e indireta.
+* **B)** pretendeu – abrangente – diretriz – atualmente.
 * **C)** fingiu – abrangente – política/diretriz – na verdade/efetivamente
 * **D)** tentou – tolerante – polícia – realmente
 * **E)** planejou – compacta – apólice – futuramente
@@ -519,7 +519,7 @@ flowchart LR
 ---
 
 ### Teste 573
-**(FCC - Adaptada / Auditoria Governamental - Tecnologia da Informação)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Consider the excerpt below regarding cryptographic hash functions and data integrity:*
 
 > *"Cryptographic hash functions generate a deterministic, fixed-size digest from arbitrary input data. When two distinct inputs produce the identical output hash, **this anomaly** is technically defined as a collision. Security analysts must continuously monitor legacy algorithms, as **they** may become vulnerable over time due to cryptanalytic advances."*
@@ -528,7 +528,7 @@ In terms of textual cohesion and pronominal reference in technical texts:
 
 * **A)** The noun phrase **"this anomaly"** refers conceptually to the fact that *"two distinct inputs produce the identical output hash"*.
 * **B)** The personal pronoun **"they"** in the second sentence refers syntactically to *"security analysts"*.
-* **C)** The demonstrative **"this"** indicates that the hash algorithm was developed by the author of the text no âmbito da administração pública direta e indireta.
+* **C)** The demonstrative **"this"** indicates that the hash algorithm was developed by the author of the text.
 * **D)** The pronoun **"they"** refers singular and neutrally to *"a deterministic digest"*.
 * **E)** The expression **"this anomaly"** refers strictly to the word *"matrix"* mentioned in another chapter.
 
@@ -548,7 +548,7 @@ In terms of textual cohesion and pronominal reference in technical texts:
 ---
 
 ### Teste 574
-**(FCC - Adaptada / Auditoria Governamental - Inteligência Artificial)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Consider the text below on algorithmic governance:*
 
 > *"Auditing modern machine learning models presents **novel** challenges for oversight agencies. Deep neural networks function largely as black boxes, making it difficult to extract explainable decision pathways. When public institutions deploy predictive models to grant social benefits or score fiscal risk, undetected algorithmic bias can harm vulnerable citizens. **To prevent this**, regulatory authorities advocate for strict validation protocols. Data scientists must ensure that training datasets are **sensible**, representative, and sanitized against historical disparities. **They** must also provide comprehensive audit trails before any model enters production."*
@@ -569,7 +569,7 @@ Regarding reading comprehension, context clues, and reference words in the text,
 > - **A)** Incorreta. Empregada como adjetivo de língua inglesa, a palavra **"novel"** significa novo, inédito, original ou inovador (raiz latina de novidade). Não guarda relação com algo antigo ou tradicional, tampouco com romances literários.
 > - **B)** Correta. Ocorre aqui o encapsulamento conceitual anafórico: a locução demonstrativa **"To prevent this"** (Para prevenir que isso aconteça) retoma todo o fato crítico enunciado imediatamente antes: o viés algorítmico inadvertido prejudicar cidadãos em situação vulnerável (*undetected algorithmic bias can harm vulnerable citizens*).
 > - **C)** Incorreta. O adjetivo **"sensible"** é falso cognato e traduz-se como sensato, criterioso, razoável e prudente. A noção de suscetibilidade emocional ou dados protegidos traduz-se por *sensitive*.
-> - **D)** Incorreta. Na construção sintática da oração anterior (*"Data scientists must ensure that... They must also provide..."*), o pronome pessoal plural **"They"** retoma diretamente os **"Data scientists"** (cientistas de dados), agentes responsáveis por gerar as trilhas de auditoria, e não os cidadãos vulneráveis.
+> - **D)** Incorreta. Na construção sintática da oração anterior (*"Data scientists must ensure that.. They must also provide.."*), o pronome pessoal plural **"They"** retoma diretamente os **"Data scientists"** (cientistas de dados), agentes responsáveis por gerar as trilhas de auditoria, e não os cidadãos vulneráveis.
 > - **E)** Incorreta. O texto defende expressamente o oposto: os modelos só devem entrar em produção após a garantia de validações rigorosas e trilhas de auditoria abrangentes (*comprehensive audit trails before any model enters production*).
 > 
 > **Gabarito: B**

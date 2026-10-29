@@ -99,7 +99,7 @@ A relação entre a ordenação lógica do índice e a ordenação física dos b
     - A própria tabela física é ordenada e armazenada de acordo com a chave do índice. As folhas da B+Tree contêm os próprios dados da linha, e não apenas ponteiros.
     - Como os dados físicos só podem seguir uma única ordem sequencial no disco, **uma tabela pode ter no máximo UM índice clusterizado** (frequentemente associado à Chave Primária).
     - Vantagem: Dispensa salto secundário aos blocos de dados (*table lookup*).
-    - No PostgreSQL, o comando `CLUSTER tabela USING nome_indice` reorganiza as linhas fisicamente no disco com base no índice, mas **não mantém essa ordem automaticamente** em inserções futuras (exige nova execução manual de `CLUSTER`). No Oracle, as tabelas organizadas por índice são explicitamente criadas como `CREATE TABLE ... ORGANIZATION INDEX`.
+    - No PostgreSQL, o comando `CLUSTER tabela USING nome_indice` reorganiza as linhas fisicamente no disco com base no índice, mas **não mantém essa ordem automaticamente** em inserções futuras (exige nova execução manual de `CLUSTER`). No Oracle, as tabelas organizadas por índice são explicitamente criadas como `CREATE TABLE .. ORGANIZATION INDEX`.
 
 * **Índice Não-Clusterizado (*Non-Clustered / Heap Table with Secondary Index*):**
     - Os dados da tabela residem em uma estrutura de *Heap* (pilha de blocos não ordenada). O índice secundário é uma estrutura separada cujos nós-folha armazenam a chave indexada e um ponteiro direto (`ROWID` ou `TID`) para a tupla física na tabela heap.
@@ -122,20 +122,20 @@ A relação entre a ordenação lógica do índice e a ordenação física dos b
 A criação excessiva ou inadequada de índices acarreta degradação do sistema:
 
 - **Sobrecarga de Escrita:** A cada `INSERT`, `UPDATE` (que altere coluna indexada) ou `DELETE`, todos os índices da tabela precisam ser sincronizados atomicamente.
-- **Amplificação de I/O e Fragmentação:** Divisões de nós em árvores (*page splits*) provocam fragmentação física e lógica, exigindo manutenções periódicas (`REINDEX` no PostgreSQL ou `ALTER INDEX ... REBUILD` no Oracle).
+- **Amplificação de I/O e Fragmentação:** Divisões de nós em árvores (*page splits*) provocam fragmentação física e lógica, exigindo manutenções periódicas (`REINDEX` no PostgreSQL ou `ALTER INDEX .. REBUILD` no Oracle).
 - **Consumo de Memória de Buffer:** Índices volumosos competem com os blocos de dados por espaço na memória cache principal (`shared_buffers` no PostgreSQL / `Buffer Cache` no Oracle).
 
 ---
 
 ### Teste 267
-**(FCC - DPE-RS - Analista de Banco de Dados)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 O Administrador de Banco de Dados de um tribunal precisa otimizar uma consulta em uma tabela que contém 15 milhões de registros. A consulta utiliza uma cláusula `WHERE status = 'CONCLUIDO' AND uf = 'RS'`, sendo que o campo `status` possui apenas 3 valores possíveis ('PENDENTE', 'EM_ANDAMENTO', 'CONCLUIDO') e `uf` possui as 27 siglas das unidades federativas do Brasil. O ambiente é predominantemente de leitura analítica com baixíssima frequência de atualizações concorrentes. Para otimizar o tempo de resposta dessas operações combinadas, a estrutura de indexação mais indicada é:
 
 * **A)** Índice B+Tree individual em cada uma das colunas.
 * **B)** Índice Hash na coluna `uf` e B+Tree na coluna `status`.
 * **C)** Índices Bitmap em ambas as colunas, permitindo operações lógicas booleanas diretas.
 * **D)** Índice Clusterizado invertido na coluna `status`.
-* **E)** Desativação total de índices para forçar um Full Table Scan paralelo em memória no âmbito da administração pública direta e indireta.
+* **E)** Desativação total de índices para forçar um Full Table Scan paralelo em memória.
 
 
 ---
@@ -153,7 +153,7 @@ O Administrador de Banco de Dados de um tribunal precisa otimizar uma consulta e
 ---
 
 ### Teste 268
-**(FGV - TJ-AP / Analista Judiciário - Banco de Dados - Índices Parciais e Baseados em Expressões)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em um sistema de auditoria de compras públicas executado sobre PostgreSQL, a tabela `PROCESSO_LICITATORIO` armazena 5.000.000 de registros. Sabe-se que 98% dos processos possuem a coluna `situacao` igual a `'CONCLUIDO'`, e apenas 2% (100.000 registros) possuem `situacao` igual a `'EM_AUDITORIA'` ou `'SUSPEITO'`. As consultas investigativas mais críticas e frequentes filtram especificamente os processos com `situacao IN ('EM_AUDITORIA', 'SUSPEITO')`. Adicionalmente, consultas por nome do fornecedor realizam buscas ignorando maiúsculas e minúsculas (`LOWER(nome_fornecedor)`).
 
 Para atender com máxima eficiência a esses dois padrões de consulta, minimizando o consumo de armazenamento em disco e a sobrecarga de cache na memória RAM, o DBA deve criar:
@@ -162,7 +162,7 @@ Para atender com máxima eficiência a esses dois padrões de consulta, minimiza
 * **B)** Um Índice Parcial (*Partial Index*) com predicado `WHERE situacao IN ('EM_AUDITORIA', 'SUSPEITO')` e um Índice Baseado em Expressão (*Expression Index*) sobre `LOWER(nome_fornecedor)`.
 * **C)** Um índice Bitmap completo sobre todas as colunas da tabela e desabilitar o otimizador CBO.
 * **D)** Dois índices Hash clusterizados obrigatórios sem cláusula de filtragem.
-* **E)** Uma tabela intermediária física desnormalizada sem nenhum índice, pois índices parciais são proibidos no padrão SQL em estrita conformidade com as normas legais e regulamentares aplicáveis.
+* **E)** Uma tabela intermediária física desnormalizada sem nenhum índice, pois índices parciais são proibidos no padrão SQL.
 
 
 ---
@@ -182,7 +182,7 @@ Para atender com máxima eficiência a esses dois padrões de consulta, minimiza
 ---
 
 ### Teste 269
-**(FCC - TRT / Analista Judiciário - TI - Trade-offs e Custos de Manutenção de Índices)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Um analista de infraestrutura de banco de dados constatou que determinada tabela transacional de protocolo processual possuía 18 índices B+Tree secundários criados para atender a diversas consultas históricas pontuais. Embora as consultas de leitura fossem velozes, os usuários começaram a relatar lentidão excessiva e travamentos intermitentes durante operações rotineiras de cadastro de novos processos e tramitação em lote.
 
 A explicação técnica que justifica esse comportamento reside no fato de que:
@@ -236,12 +236,12 @@ Para inspecionar a decisão tomada pelo CBO, o desenvolvedor ou DBA utiliza ferr
 ```
 QUERY PLAN
 -------------------------------------------------------------------------------------------------------------------------
-Hash Join  (cost=12.50..35.20 rows=150 width=64) (actual time=0.085..0.210 rows=145 loops=1)
+Hash Join  (cost=12.50.35.20 rows=150 width=64) (actual time=0.085.0.210 rows=145 loops=1)
   Hash Cond: (p.categoria_id = c.id)
-  ->  Seq Scan on produtos p  (cost=0.00..18.00 rows=500 width=40) (actual time=0.012..0.080 rows=500 loops=1)
-  ->  Hash  (cost=10.00..10.00 rows=20 width=28) (actual time=0.045..0.045 rows=20 loops=1)
+  ->  Seq Scan on produtos p  (cost=0.00.18.00 rows=500 width=40) (actual time=0.012.0.080 rows=500 loops=1)
+  ->  Hash  (cost=10.00.10.00 rows=20 width=28) (actual time=0.045.0.045 rows=20 loops=1)
         Buckets: 1024  Batches: 1  Memory Usage: 10kB
-        ->  Seq Scan on categorias c  (cost=0.00..10.00 rows=20 width=28) (actual time=0.008..0.025 rows=20 loops=1)
+        ->  Seq Scan on categorias c  (cost=0.00.10.00 rows=20 width=28) (actual time=0.008.0.025 rows=20 loops=1)
 Planning Time: 0.150 ms
 Execution Time: 0.265 ms
 ```
@@ -284,7 +284,7 @@ A combinação de conjuntos de tuplas originários de duas tabelas (ou subconsul
 ---
 
 ### Teste 270
-**(FGV - TRT / Analista Judiciário - TI - Otimizador Baseado em Custo e Coleta de Estatísticas)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No PostgreSQL e em outros SGBDs modernos, o subsistema responsável por avaliar múltiplos caminhos de acesso alternativos e selecionar o plano de execução mais eficiente é o Otimizador Baseado em Custo (*Cost-Based Optimizer - CBO*).
 
 Para que o CBO realize estimativas precisas de cardinalidade e escolha entre uma varredura sequencial (*Seq Scan*) e uma varredura por índice (*Index Scan*), é indispensável que o catálogo de metadados do banco (`pg_statistic` / `pg_stats`) mantenha informações atualizadas. O comando administrativo que coleta e recalcula essas estatísticas amostrais sem bloquear a tabela para leitura é:
@@ -311,7 +311,7 @@ Para que o CBO realize estimativas precisas de cardinalidade e escolha entre uma
 ---
 
 ### Teste 271
-**(FCC - SEFAZ-PE - Auditor Fiscal do Tesouro Estadual)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No contexto de otimização de consultas e análise de planos de execução de banco de dados, avalie a seguinte instrução:
 `EXPLAIN ANALYZE SELECT * FROM lancamentos WHERE valor > 50000;`
 A respeito das características dos comandos `EXPLAIN` e `EXPLAIN ANALYZE`, é correto afirmar que:
@@ -338,7 +338,7 @@ A respeito das características dos comandos `EXPLAIN` e `EXPLAIN ANALYZE`, é c
 ---
 
 ### Teste 272
-**(FCC - TRT / Analista Judiciário - TI - Algoritmos de Junção Física: Nested Loop, Hash Join e Merge Join)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 O otimizador de consultas de um banco de dados relacional dispõe de três algoritmos fundamentais para processar a junção (*join*) física entre duas relações $R$ (externa/outer) e $S$ (interna/inner): *Nested Loop Join*, *Hash Join* e *Sort-Merge Join*.
 
 Assinale a afirmativa que apresenta corretamente o cenário em que o CBO tipicamente elege o algoritmo **Hash Join**:
@@ -455,10 +455,10 @@ Para assegurar a durabilidade (D do ACID) e a recuperação contra falhas (*cras
 ---
 
 ### Teste 273
-**(FCC - TRT-15ª Região - Analista Judiciário - Tecnologia da Informação)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No Sistema Gerenciador de Banco de Dados PostgreSQL, o parâmetro de configuração `work_mem` desempenha papel vital no desempenho do sistema. Sobre esse parâmetro, é correto afirmar:
 
-* **A)** Trata-se da área de memória global compartilhada responsável por armazenar os blocos de dados de tabelas e índices em cache para todas as conexões ativas no âmbito da administração pública direta e indireta.
+* **A)** Trata-se da área de memória global compartilhada responsável por armazenar os blocos de dados de tabelas e índices em cache para todas as conexões ativas.
 * **B)** Define a quantidade máxima de memória estática alocada por cada transação, independentemente da quantidade de comandos executados no seu interior.
 * **C)** É um parâmetro alocado dinamicamente por processo para operações internas como ordenações (`ORDER BY`) ou tabelas hash (`Hash Join`), podendo ser consumido múltiplas vezes em uma mesma consulta complexa.
 * **D)** Especifica a quantidade de memória destinada exclusivamente ao processo `autovacuum` para compactação das tuplas mortas.
@@ -480,7 +480,7 @@ No Sistema Gerenciador de Banco de Dados PostgreSQL, o parâmetro de configuraç
 ---
 
 ### Teste 274
-**(FGV - TRT / Analista Judiciário - TI - PostgreSQL: VACUUM, Bloat e Transaction ID Wraparound)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em razão da arquitetura MVCC do PostgreSQL, comandos de `UPDATE` e `DELETE` não sobrescrevem tuplas fisicamente nem liberam o espaço em disco de imediato, gerando tuplas mortas (*dead tuples*) no interior das páginas de dados.
 
 A respeito do mecanismo de limpeza e manutenção `VACUUM` no PostgreSQL, assinale a afirmativa correta:
@@ -489,7 +489,7 @@ A respeito do mecanismo de limpeza e manutenção `VACUUM` no PostgreSQL, assina
 * **B)** O comando `VACUUM FULL` realiza a limpeza concorrente sem adquirir nenhum bloqueio exclusivo, liberando espaço diretamente para o sistema operacional sem mover dados.
 * **C)** O `VACUUM` padrão marca o espaço ocupado por tuplas mortas como reutilizável para novas inserções dentro da mesma tabela sem devolver o espaço ao sistema operacional, ao passo que o `VACUUM FULL` reescreve a tabela inteira em novos blocos, devolve o espaço livre ao sistema operacional, mas exige bloqueio exclusivo total (`AccessExclusiveLock`).
 * **D)** O mecanismo de *Autovacuum* deve ser permanentemente desativado em ambientes corporativos de produção para evitar concorrência com as conexões dos usuários.
-* **E)** O PostgreSQL dispensa o congelamento de identificadores de transação (*Transaction ID Freeze*), pois seus identificadores de transação são inteiros de 128 bits imunes a esgotamento considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **E)** O PostgreSQL dispensa o congelamento de identificadores de transação (*Transaction ID Freeze*), pois seus identificadores de transação são inteiros de 128 bits imunes a esgotamento.
 
 
 ---
@@ -607,12 +607,12 @@ TABLESPACE ────────► SEGMENTO ────────► EXTE
 ---
 
 ### Teste 275
-**(FGV - TJ-AP / Analista Judiciário - Banco de Dados - Arquitetura Oracle: Estruturas de Memória SGA e PGA)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na arquitetura do Oracle Database, a memória é estruturada em duas grandes áreas conceituais: a *System Global Area* (SGA) e a *Program Global Area* (PGA).
 
 A respeito das funções e componentes dessas áreas de memória, assinale a afirmativa correta:
 
-* **A)** A PGA é uma área de memória compartilhada acessível simultaneamente por todos os processos de background da instância Oracle para troca de blocos de dados considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **A)** A PGA é uma área de memória compartilhada acessível simultaneamente por todos os processos de background da instância Oracle para troca de blocos de dados.
 * **B)** A SGA é uma área de memória compartilhada alocada na inicialização da instância, que contém estruturas vitais como o *Database Buffer Cache* (armazena cópias de blocos de dados lidos do disco), o *Redo Log Buffer* (armazena registros de alterações antes de serem gravados nos redo log files) e a *Shared Pool* (contém a Library Cache e o Data Dictionary Cache).
 * **C)** O *Database Buffer Cache* armazena unicamente o código-fonte compilado de rotinas em PL/SQL e gatilhos, sendo proibido de armazenar dados de tabelas.
 * **D)** A *Shared Pool* é alocada dentro da PGA privada de cada sessão de usuário e é destruída imediatamente após o encerramento do comando `SELECT`.
@@ -639,7 +639,7 @@ A respeito das funções e componentes dessas áreas de memória, assinale a afi
 ---
 
 ### Teste 276
-**(FCC - TCE-RS - Auditor Público Externo - Tecnologia da Informação)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No banco de dados Oracle, a comunicação entre as estruturas de memória da Instância e a gravação permanente no disco é realizada por processos de segundo plano (*background processes*). O processo responsável por efetuar a gravação síncrona das entradas do *Redo Log Buffer* nos arquivos físicos de *Redo Log* no momento exato em que uma transação emite o comando `COMMIT` é o:
 
 * **A)** DBWn (Database Writer).
@@ -664,7 +664,7 @@ No banco de dados Oracle, a comunicação entre as estruturas de memória da Ins
 ---
 
 ### Teste 277
-**(FCC - TRF-3ª Região - Analista Judiciário - Informática)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na arquitetura do Oracle Database, a organização do armazenamento divide-se entre estruturas físicas e estruturas lógicas. Considere as seguintes assertivas:
 
 I. Uma *Tablespace* é uma estrutura lógica que pode ser composta por um ou mais *Datafiles* físicos, mas um *Datafile* físico pode pertencer a apenas uma única *Tablespace*.  

@@ -87,7 +87,7 @@ As deliberações do Tribunal de Contas proferidas no julgamento de relatórios 
 ---
 
 ### Teste 198
-**(FCC – Analista de Controle Externo / TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito da comunicação dos resultados das fiscalizações e da tramitação processual dos relatórios de auditoria no âmbito dos Tribunais de Contas, analise as proposições:
 
 * **A)** O relatório de auditoria é peça vinculante de julgamento, não admitindo emissão de parecer divergente pelo MPC competente.
@@ -109,7 +109,7 @@ A respeito da comunicação dos resultados das fiscalizações e da tramitação
 > **Gabarito: B**
 
 ### Teste 199
-**(FGV – Auditor de Controle Externo / TCE-SC / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A Tomada de Contas Especial (TCE) é um processo administrativo formal que visa a apurar a responsabilidade por ocorrência de dano ao erário. A respeito dos pressupostos materiais para a instauração de TCE perante o controle externo, é correto afirmar:
 
 * **A)** Instala-se diante de omissão na prestação de contas, desfalque, desvio de bens ou prática de ato ilegal lesivo ao erário.
@@ -131,7 +131,7 @@ A Tomada de Contas Especial (TCE) é um processo administrativo formal que visa 
 > **Gabarito: A**
 
 ### Teste 200
-**(FCC – Auditor de Controle Externo / TCE-PI / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito da Tomada de Contas Especial (TCE) perante o sistema constitucional de controle externo e sua tramitação no Tribunal de Contas, analise as proposições:
 
 * **A)** A citação do responsável no processo de TCE constitui faculdade instrutória exercida a critério discricionário do relator.
@@ -153,7 +153,7 @@ A respeito da Tomada de Contas Especial (TCE) perante o sistema constitucional d
 > **Gabarito: C**
 
 ### Teste 201
-**(FCC – Analista de Controle Externo / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No processo de tomada ou prestação de contas submetido ao julgamento do Tribunal de Contas, as contas dos gestores serão julgadas:
 
 * **A)** regulares, regulares com ressalva, irregulares ou iliquidáveis.
@@ -175,7 +175,7 @@ No processo de tomada ou prestação de contas submetido ao julgamento do Tribun
 > **Gabarito: A**
 
 ### Teste 202
-**(FCC – Procurador do Estado / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Determinada autoridade administrativa, regularmente citada para apresentar defesa em processo de tomada de contas especial perante o Tribunal de Contas, permaneceu inerte, não apresentando justificativas no prazo fixado. A respeito dos efeitos da revelia no processo de controle externo, é correto afirmar:
 
 * **A)** A revelia induz a confissão ficta imediata quanto a toda a matéria de fato articulada na auditoria.
@@ -197,7 +197,7 @@ Determinada autoridade administrativa, regularmente citada para apresentar defes
 > **Gabarito: B**
 
 ### Teste 203
-**(FCC – Auditor de Controle Externo / TCE-AM / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Um Tribunal de Contas estadual, ao analisar o processo de prestação de contas de uma autarquia, identificou grave infração a norma legal de licitações praticada pelo diretor presidente, embora sem demonstração de locupletamento pessoal direto. Nesse caso, quanto ao poder sancionatório do Tribunal de Contas, é correto afirmar que a Corte:
 
 * **A)** não pode aplicar sanção ao responsável na ausência de comprovação de dano financeiro efetivo ao patrimônio público.
@@ -219,7 +219,7 @@ Um Tribunal de Contas estadual, ao analisar o processo de prestação de contas 
 > **Gabarito: B**
 
 ### Teste 204
-**(FGV – TCE – Auditor de Controle Externo - 2024)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A Lei nº 9.504/1997 (Lei das Eleições) atribui funções específicas aos Tribunais de Contas no contexto do processo eleitoral e na fiscalização das candidaturas públicas.  
 Assinale a opção que apresenta a atribuição legal cometida diretamente aos Tribunais de Contas pela legislação eleitoral:
 
@@ -242,7 +242,7 @@ Assinale a opção que apresenta a atribuição legal cometida diretamente aos T
 > **Gabarito: C**
 
 ### Teste 205
-**(FCC – Procuradoria Legislativa / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Contra acórdão proferido pelo Plenário do Tribunal de Contas que julgue irregulares as contas de determinado administrador público com imputação de débito e multa, a espécie recursal cabível, no prazo regimental de quinze dias e dotada de efeito suspensivo, é o:
 
 * **A)** pedido de reexame de relatório.
@@ -264,7 +264,7 @@ Contra acórdão proferido pelo Plenário do Tribunal de Contas que julgue irreg
 > **Gabarito: C**
 
 ### Teste 206
-**(FCC – Técnico de Controle Externo / TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Sobre o sistema recursal no processo de controle externo perante o Tribunal de Contas, analise as hipóteses de cabimento do Recurso de Revisão:
 
 * **A)** É cabível no prazo preclusivo de quinze dias contados da notificação do acórdão condenatório.
@@ -286,7 +286,7 @@ Sobre o sistema recursal no processo de controle externo perante o Tribunal de C
 > **Gabarito: B**
 
 ### Teste 207
-**(FCC – Analista de Gestão Pública / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Acerca dos reflexos eleitorais decorrentes das decisões terminativas e condenatórias dos Tribunais de Contas, a Lei Complementar nº 64/1990 (Lei das Inelegibilidades, art. 1º, I, alínea 'g') exige, para a configuração da inelegibilidade:
 
 * **A)** aprovação com ressalvas das contas anuais e ausência de recurso ao Poder Judiciário.
@@ -308,7 +308,7 @@ Acerca dos reflexos eleitorais decorrentes das decisões terminativas e condenat
 > **Gabarito: B**
 
 ### Teste 208
-**(FGV – TCE – Analista de Controle Externo - 2025)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A adoção da forma republicana de Estado acarreta o dever permanente de accountability, impondo-se a responsabilidade pessoal dos agentes públicos pela guarda e aplicação dos recursos públicos. A decisão do Tribunal de Contas que extingue o processo com julgamento de mérito das contas prestadas por administrador público de sociedade de economia mista estadual é classificada formalmente como decisão:
 
 * **A)** Preliminar, não sujeita a recurso por se tratar de pronunciamento de índole estritamente administrativa.

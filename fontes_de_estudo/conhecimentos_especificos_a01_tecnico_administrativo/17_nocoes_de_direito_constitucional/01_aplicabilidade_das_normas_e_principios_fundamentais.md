@@ -93,7 +93,7 @@ No controle judicial de políticas públicas decorrentes de normas programática
 ---
 
 ### Teste 110
-**(FGV – TRF-1ª Região – Analista Judiciário - 2024)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Na clássica classificação tripartite das normas constitucionais quanto à sua eficácia e aplicabilidade proposta pelo constitucionalista José Afonso da Silva, as normas constitucionais são agrupadas em normas de eficácia plena, contida e limitada. A respeito das características dogmáticas dessa classificação, é correto afirmar que:
 
 * **A)** as normas de eficácia contida dependem de normação infraconstitucional integrativa para produzirem efeitos essenciais.
@@ -114,7 +114,7 @@ Na clássica classificação tripartite das normas constitucionais quanto à sua
 >
 > **Gabarito: B**
 ### Teste 111
-**(FCC – Analista Judiciário – TRT / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O art. 5º, XIII, da Constituição Federal estabelece: "é livre o exercício de qualquer trabalho, ofício ou profissão, atendidas as qualificações profissionais que a lei estabelecer". Sob a ótica da aplicabilidade e eficácia das normas constitucionais, o referido dispositivo classifica-se como norma de eficácia:
 
 * **A)** Plena, pois veda qualquer restrição por lei posterior em respeito ao direito adquirido do trabalhador.
@@ -135,7 +135,7 @@ O art. 5º, XIII, da Constituição Federal estabelece: "é livre o exercício d
 >
 > **Gabarito: B**
 ### Teste 112
-**(FGV – TRT – Analista Judiciário - 2024)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O art. 37, VII, da Constituição Federal preceitua que "o direito de greve será exercido nos termos e nos limites definidos em lei específica". Diante da omissão legislativa do Congresso Nacional em regulamentar a referida norma por mais de três décadas, o Supremo Tribunal Federal apreciou o tema em sede de Mandado de Injunção (MIs 670, 708 e 712). 
 
 A respeito da eficácia da norma e da atuação da Suprema Corte, assinale a opção correta:
@@ -158,7 +158,7 @@ A respeito da eficácia da norma e da atuação da Suprema Corte, assinale a op�
 >
 > **Gabarito: C**
 ### Teste 113
-**(FCC – Analista de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No estudo da aplicabilidade das normas constitucionais, doutrina especializada identifica a existência de normas de eficácia exaurida ou de aplicabilidade esgotada. Caracteriza-se como norma de eficácia exaurida aquela que:
 
 * **A)** Extinguiu a produção de seus efeitos após a ocorrência da condição fática prevista.
@@ -246,7 +246,7 @@ A República Federativa do Brasil rege-se em suas relações internacionais pelo
 ---
 
 ### Teste 114
-**(FCC – Técnico de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O art. 1º da Constituição Federal de 1988 elenca os fundamentos do Estado Democrático de Direito na República Federativa do Brasil. Não constitui fundamento expresso da República previsto no referido artigo:
 
 * **A)** A soberania estatal.
@@ -267,7 +267,7 @@ O art. 1º da Constituição Federal de 1988 elenca os fundamentos do Estado Dem
 >
 > **Gabarito: D**
 ### Teste 115
-**(FCC – Procurador do Estado – PGE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito do princípio da separação de poderes consagrado no art. 2º da Constituição Federal ("São Poderes da União, independentes e harmônicos entre si, o Legislativo, o Executivo e o Judiciário"), assinale a afirmativa correta:
 
 * **A)** A separação de poderes é absoluta, vedada a atribuição de qualquer função administrativa ou jurisdicional atípica.
@@ -288,7 +288,7 @@ A respeito do princípio da separação de poderes consagrado no art. 2º da Con
 >
 > **Gabarito: B**
 ### Teste 116
-**(FCC – TRT-9ª Região – Analista Judiciário - 2015)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere os seguintes preceitos constitucionais:  
 I. Promover o bem de todos, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação.  
 II. Garantir o desenvolvimento nacional.  
@@ -314,7 +314,7 @@ III. A prevalência dos direitos humanos e a defesa da paz.
 >
 > **Gabarito: A**
 ### Teste 117
-**(FGV – TJ-RR – Analista Judiciário - 2024)**  
+**(FGV – TJ-RR – Analista Judiciário - Suporte e Infraestrutura de TI – 2024)**  
 A República Federativa do Brasil rege-se, em suas relações internacionais, por princípios fundamentais expressamente previstos no art. 4º da Constituição Federal de 1988. Assinale a opção que indica princípio que rege o Brasil nas suas relações internacionais:
 
 * **A)** Pluralismo político e soberania popular.
@@ -335,7 +335,7 @@ A República Federativa do Brasil rege-se, em suas relações internacionais, po
 >
 > **Gabarito: B**
 ### Teste 118
-**(FCC – Analista de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O parágrafo único do art. 4º da Constituição Federal estabelece importante diretriz para a política externa e de cooperação da República Federativa do Brasil. Conforme preceitua expressamente o texto constitucional, o Brasil buscará a integração:
 
 * **A)** militar, defensiva e armamentista dos Estados do hemisfério sul para constituir força de coalizão conjunta.
@@ -356,7 +356,7 @@ O parágrafo único do art. 4º da Constituição Federal estabelece importante 
 >
 > **Gabarito: B**
 ### Teste 119
-**(FCC – Procurador do Estado – PGE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O mecanismo de freios e contrapesos (checks and balances), teorizado por Montesquieu e acolhido pela ordem constitucional brasileira de 1988, impede a hegemonia ou tirania de qualquer dos Poderes da República. Constitui exemplo legítimo de aplicação do sistema de freios e contrapesos:
 
 * **A)** A edição de decreto legislativo pelo Congresso para anular sentenças judiciais transitadas em julgado.
@@ -377,7 +377,7 @@ O mecanismo de freios e contrapesos (checks and balances), teorizado por Montesq
 >
 > **Gabarito: C**
 ### Teste 120
-**(FGV – Analista Judiciário – TJ-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No controle de constitucionalidade difuso e incidental, o Poder Judiciário declara a inconstitucionalidade de determinada lei aprovada pelo Poder Legislativo e sancionada pelo Governador. A respeito da compatibilidade desse controle com o princípio da separação de poderes:
 
 * **A)** O controle judicial de constitucionalidade viola a separação de poderes ao invalidar atos de representantes eleitos.

@@ -119,7 +119,7 @@ A trajetória histórica da IA subdivide-se em duas correntes metodológicas cen
 ---
 
 ### Teste 300
-**(FGV - TRT / Analista Judiciário - TI - Agentes Racionais de Russell & Norvig)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na obra clássica de Stuart Russell e Peter Norvig (*Artificial Intelligence: A Modern Approach*), a definição canônica de Inteligência Artificial gravita em torno do conceito de **Agente Racional**.
 
 A respeito do conceito formal de racionalidade e da definição de agente racional nessa taxonomia, assinale a afirmativa correta:
@@ -146,14 +146,14 @@ A respeito do conceito formal de racionalidade e da definição de agente racion
 ---
 
 ### Teste 301
-**(FCC - TRT / Analista Judiciário - TI - Paradigma Simbólico vs. Paradigma Conexionista)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A evolução histórica da Inteligência Artificial é marcada pela coexistência e competição entre duas correntes epistemológicas e arquiteturais: a **IA Simbólica** (Good Old-Fashioned AI - GOFAI) e a **IA Conexionista** (baseada em Aprendizado de Máquina e Redes Neurais Artificiais).
 
 A respeito das distinções técnicas fundamentais entre esses dois paradigmas, assinale a afirmativa correta:
 
 * **A)** A IA Simbólica baseia-se em manipulação explícita de símbolos, lógica formal e regras determinísticas (*se-então*), caracterizando-se por alta interpretabilidade humana, porém com grande fragilidade para lidar com ruídos, ambiguidade e dados brutos não estruturados.
 * **B)** O paradigma conexionista armazena o conhecimento em bancos de regras ontológicas explícitas escritas manualmente por especialistas de domínio.
-* **C)** As redes neurais profundas pertencem à IA Simbólica, pois seus pesos sinápticos são perfeitamente legíveis como proposições booleanas de primeira ordem considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **C)** As redes neurais profundas pertencem à IA Simbólica, pois seus pesos sinápticos são perfeitamente legíveis como proposições booleanas de primeira ordem. em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **D)** A IA Conexionista dispensa treinamento com dados e independe de funções de custo diferenciáveis ou otimização matemática.
 * **E)** Sistemas Especialistas baseados em árvores de inferência lógica constituem a principal tecnologia do paradigma conexionista moderno.
 
@@ -226,7 +226,7 @@ A combinação coordenada de múltiplos estimadores fracos (*weak learners*) per
  (Treinamento em PARALELO e INDEPENDENTE)
 
 [BOOSTING - XGBoost / AdaBoost]
- Dataset ──► [Modelo Fraco 1] ──(Resíduos/Erros)──► [Modelo Fraco 2] ──(Resíduos)──► ...
+ Dataset ──► [Modelo Fraco 1] ──(Resíduos/Erros)──► [Modelo Fraco 2] ──(Resíduos)──► ..
  (Treinamento SEQUENCIAL / ADAPTATIVO)               Reduz o VIÉS (Underfitting)
 ```
 
@@ -286,7 +286,7 @@ Para estabilizar o modelo, adiciona-se uma penalidade matemática $\lambda \cdot
 ---
 
 ### Teste 302
-**(FGV - TRT / Analista Judiciário - TI - Algoritmo Naive Bayes e Independência Condicional)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 O classificador Naive Bayes é um algoritmo de aprendizado de máquina supervisionado amplamente empregado na triagem automatizada de petições judiciais e detecção de fraudes em licitações públicas.
 
 O termo "Naive" (ingênuo) atribuído a esse classificador probabilístico decorre diretamente da seguinte premissa matemática:
@@ -294,7 +294,7 @@ O termo "Naive" (ingênuo) atribuído a esse classificador probabilístico decor
 * **A)** Supor que todos os atributos de entrada possuem distribuição uniforme contínua com média zero.
 * **B)** Assumir a hipótese simplificadora de que todos os atributos preditores são condicionalmente independentes entre si, dada a classe do objeto.
 * **C)** Exigir que a variável alvo (*target*) seja obrigatoriamente um vetor contínuo de números irracionais.
-* **D)** Ignorar completamente a probabilidade a priori das classes durante o cálculo da probabilidade a posteriori no âmbito da administração pública direta e indireta.
+* **D)** Ignorar completamente a probabilidade a priori das classes durante o cálculo da probabilidade a posteriori.
 * **E)** Utilizar exclusivamente árvores de decisão binárias com profundidade máxima igual a 1.
 
 
@@ -317,7 +317,7 @@ O termo "Naive" (ingênuo) atribuído a esse classificador probabilístico decor
 ---
 
 ### Teste 303
-**(FCC - SEFAZ-PE - Auditoria de Tecnologia da Informação)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Uma equipe de auditores de dados está implementando modelos de aprendizado de máquina para classificar notas fiscais e declarações fiscais de contribuintes estaduais em duas classes: "Conforme" ou "Potencialmente Fraudulenta". Durante o desenvolvimento, debateu-se a utilização de algoritmos baseados em Comitês de Modelos (*Ensemble Learning*), especificamente comparando o *Random Forest* (baseado em *Bagging*) com o *XGBoost* e *LightGBM* (baseados em *Boosting*).
 Sobre os fundamentos teóricos desses métodos de ensemble, é correto afirmar:
 
@@ -325,7 +325,7 @@ Sobre os fundamentos teóricos desses métodos de ensemble, é correto afirmar:
 * **B)** O método de *Bagging* treina múltiplos estimadores em paralelo a partir de amostras geradas com reposição (*bootstrap*), tendo como foco matemático primordial a redução da variância do ensemble final sem aumentar substancialmente o seu viés.
 * **C)** Os algoritmos de *Boosting* constroem árvores de decisão profundas e complexas de maneira totalmente independente, utilizando a votação por maioria simples para reduzir a variância.
 * **D)** No *Random Forest*, o processo de amostragem aleatória restringe-se exclusivamente às linhas do dataset, sendo vedada a seleção aleatória de subconjuntos de atributos (*features*) na divisão dos nós.
-* **E)** O *AdaBoost* mantém pesos uniformes e imutáveis para todas as instâncias de treino ao longo de todas as iterações, independentemente de os estimadores anteriores terem classificado o registro corretamente ou não no âmbito da administração pública direta e indireta.
+* **E)** O *AdaBoost* mantém pesos uniformes e imutáveis para todas as instâncias de treino ao longo de todas as iterações, independentemente de os estimadores anteriores terem classificado o registro corretamente ou não.
 
 
 ---
@@ -343,14 +343,14 @@ Sobre os fundamentos teóricos desses métodos de ensemble, é correto afirmar:
 ---
 
 ### Teste 304
-**(FCC - SEFAZ-PE - Auditor Fiscal do Tesouro Estadual)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Um cientista de dados está desenvolvendo um modelo preditivo de regressão para projetar a arrecadação tributária estadual a partir de duzentas variáveis macroeconômicas. Sabendo que muitas dessas variáveis apresentam alta correlação entre si e que diversas delas não contribuem relevantemente para o poder explicativo do modelo, o analista deseja aplicar uma técnica de regularização que execute **seleção automática de atributos**, forçando expressamente a zero os coeficientes das variáveis irrelevantes para gerar um modelo final esparso e parcimonioso.
 A técnica de modelagem que atende estritamente ao requisito de zerar coeficientes e sua correspondente penalização matemática é:
 
 * **A)** Regressão Ridge, que utiliza uma penalidade baseada na norma $L_2$ (soma dos quadrados dos coeficientes).
 * **B)** Mínimos Quadrados Ordinários (OLS), que utiliza restrições de posto pleno para anular colinearidades.
 * **C)** Regressão Lasso (*Least Absolute Shrinkage and Selection Operator*), que utiliza uma penalidade baseada na norma $L_1$ (soma dos valores absolutos dos coeficientes).
-* **D)** Regressão Logística com regularização nula, que elimina preditores irrelevantes pelo determinante da matriz Hessiana no âmbito da administração pública direta e indireta.
+* **D)** Regressão Logística com regularização nula, que elimina preditores irrelevantes pelo determinante da matriz Hessiana.
 * **E)** Análise Discriminante Linear, que zera coeficientes descartando autovalores inferiores à unidade.
 
 
@@ -418,7 +418,7 @@ Um **Agente** aprende a tomar decisões sequenciais ideais através de tentativa
 ---
 
 ### Teste 305
-**(FCC - TCE-RS - Auditor Público Externo - Tecnologia da Informação)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em uma auditoria de contratos de obras públicas, um auditor necessita aplicar técnicas de Aprendizado Não Supervisionado (*Clustering*) para segmentar os pagamentos emitidos e detectar desvios operacionais atípicos. O conjunto de dados apresenta geometrias arbitrárias com densidades heterogêneas e a auditoria não possui uma estimativa prévia de quantos grupos naturais existem na base.
 Nesse contexto, o algoritmo mais apropriado para a tarefa e sua fundamentação técnica é o:
 
@@ -426,7 +426,7 @@ Nesse contexto, o algoritmo mais apropriado para a tarefa e sua fundamentação 
 * **B)** PCA, pois é um algoritmo de particionamento estocástico que divide a base em grupos convexos através dos autovetores da matriz de confusão.
 * **C)** DBSCAN, pois identifica agrupamentos baseando-se na densidade local de pontos delimitada por raio e vizinhos mínimos, não exige o fornecimento prévio da quantidade de clusters e classifica dados em regiões rarefeitas explicitamente como ruído (*outliers*).
 * **D)** Regressão Logística, pois dispensa rótulos de classe para traçar a fronteira linear que separa automaticamente anomalias de observações regulares.
-* **E)** Agrupamento Hierárquico Divisivo com ligação simples (*Single Linkage*), pois exige a parametrização de centroides esféricos pré-fixados para evitar o efeito de encadeamento (*chaining*) em estrita conformidade com as normas legais e regulamentares aplicáveis.
+* **E)** Agrupamento Hierárquico Divisivo com ligação simples (*Single Linkage*), pois exige a parametrização de centroides esféricos pré-fixados para evitar o efeito de encadeamento (*chaining*).
 
 
 ---
@@ -444,12 +444,12 @@ Nesse contexto, o algoritmo mais apropriado para a tarefa e sua fundamentação 
 ---
 
 ### Teste 306
-**(FGV - TRT / Analista Judiciário - TI - Redução de Dimensionalidade com PCA)**
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
 A Análise de Componentes Principais (*Principal Component Analysis - PCA*) é uma técnica estatística e de aprendizado não supervisionado fundamental para mitigar a "maldição da dimensionalidade" em grandes bases de dados de auditoria governamental.
 
 A respeito dos fundamentos matemáticos e operacionais do PCA, assinale a afirmativa correta:
 
-* **A)** O PCA é uma técnica supervisionada que seleciona os atributos com maior correlação linear com a variável alvo de classe considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **A)** O PCA é uma técnica supervisionada que seleciona os atributos com maior correlação linear com a variável alvo de classe.
 * **B)** Os novos eixos ortogonais (componentes principais) são obtidos pelo cálculo dos autovetores e autovalores da matriz de covariância (ou correlação) dos dados, onde o primeiro componente principal aponta na direção de máxima variância dos dados, e os componentes subsequentes são mutuamente ortogonais entre si.
 * **C)** O PCA aumenta o número total de variáveis da base de dados para garantir que não haja nenhuma perda de informação.
 * **D)** O PCA exige que os dados categóricos nominais sejam mantidos em formato textual sem qualquer pré-processamento numérico.
@@ -475,7 +475,7 @@ A respeito dos fundamentos matemáticos e operacionais do PCA, assinale a afirma
 ---
 
 ### Teste 307
-**(FCC - TRT / Analista Judiciário - TI - Aprendizado por Reforço e Q-Learning)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 O Aprendizado por Reforço (*Reinforcement Learning - RL*) distingue-se do aprendizado supervisionado e não supervisionado pelo fato de o sistema aprender por tentativa e erro através da interação contínua com um ambiente dinâmico.
 
 A respeito dos elementos conceituais do RL e do consagrado algoritmo **Q-Learning**, assinale a afirmativa correta:
@@ -483,7 +483,7 @@ A respeito dos elementos conceituais do RL e do consagrado algoritmo **Q-Learnin
 * **A)** No Aprendizado por Reforço, o agente recebe um conjunto de dados estático contendo pares prévios de entrada e rótulo correto fornecidos por um supervisor humano.
 * **B)** O algoritmo Q-Learning é um método *model-free* baseado em diferenças temporais que busca aprender uma função de valor de ação $Q(s, a)$, a qual estima a recompensa total acumulada descontada que o agente obterá ao tomar a ação $a$ no estado $s$ e seguir a política ótima a partir de então.
 * **C)** O fator de desconto $\gamma$ (gama) deve ser configurado como zero para que o agente priorize exclusivamente as recompensas distantes no longo prazo.
-* **D)** O dilema *Exploration vs. Exploitation* é irrelevante no Aprendizado por Reforço, devendo o agente sempre executar apenas a ação que forneceu a menor recompensa no passado considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **D)** O dilema *Exploration vs. Exploitation* é irrelevante no Aprendizado por Reforço, devendo o agente sempre executar apenas a ação que forneceu a menor recompensa no passado. em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **E)** O Q-Learning não converge se o ambiente for modelado como um Processo de Decisão de Markov (MDP).
 
 
@@ -570,14 +570,14 @@ O ciclo de aprendizado de redes profundas articula quatro etapas fundamentais:
 ---
 
 ### Teste 308
-**(FCC - TRT-15ª Região - Analista Judiciário - Tecnologia da Informação)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em arquiteturas de Redes Neurais Artificiais profundas (*Deep Learning*), as funções de ativação não lineares são elementos indispensáveis para viabilizar o aprendizado de fronteiras complexas. A respeito do comportamento dessas funções de ativação e de suas características computacionais, assinale a alternativa correta:
 
 * **A)** A função de ativação ReLU (*Rectified Linear Unit*), definida por $f(z) = \max(0, z)$, resolve o desvanecimento do gradiente para valores positivos ($z > 0$), porém pode apresentar a patologia do "neurônio morto" (*Dying ReLU*) quando as entradas $z$ são negativas, caso em que o neurônio emite saída e gradiente nulos.
 * **B)** A função Sigmoide é a escolha recomendada para todas as camadas ocultas intermediárias de redes profundas com centenas de camadas, pois suas derivadas nunca se aproximam de zero.
 * **C)** A função de ativação *Softmax* pode ser aplicada indistintamente em qualquer camada oculta intermediária de redes convolucionais para acelerar o cálculo de tensores.
 * **D)** A função Tangente Hiperbólica ($\tanh$) gera valores de saída estritamente limitados ao intervalo de $0$ a $+1$, comportando-se de forma equivalente à função logística sigmoide.
-* **E)** A retropropagação (*Backpropagation*) dispensa a regra da cadeia e utiliza apenas a média aritmética simples dos erros da camada final para atualizar os pesos de todas as camadas considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **E)** A retropropagação (*Backpropagation*) dispensa a regra da cadeia e utiliza apenas a média aritmética simples dos erros da camada final para atualizar os pesos de todas as camadas. em conformidade com as diretrizes e padrões de arquitetura corporativa.
 
 
 ---
@@ -595,7 +595,7 @@ Em arquiteturas de Redes Neurais Artificiais profundas (*Deep Learning*), as fun
 ---
 
 ### Teste 309
-**(FGV - TRT / Analista Judiciário - TI - Treinamento de Redes Profundas: Backpropagation e Adam)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No treinamento de Redes Neurais Artificiais profundas (*Deep Learning*), o algoritmo de retropropagação do erro (*Backpropagation*) é utilizado para calcular os gradientes da função de perda em relação a cada peso sináptico da rede.
 
 A respeito do mecanismo de treinamento, do ajuste de gradientes e dos algoritmos otimizadores, assinale a afirmativa correta:
@@ -625,12 +625,12 @@ A respeito do mecanismo de treinamento, do ajuste de gradientes e dos algoritmos
 ---
 
 ### Teste 310
-**(FCC - TRF-3ª Região - Analista Judiciário - Informática)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No ecossistema de arquiteturas especializadas de Aprendizado Profundo (*Deep Learning*), diversas redes foram desenvolvidas para processar eficientemente imagens, fluxos de áudio e dados textuais sequenciais.
 Sobre as características estruturais dessas arquiteturas, assinale a alternativa correta:
 
 * **A)** As Redes Neurais Convolucionais (CNNs) utilizam filtros deslizantes com compartilhamento de pesos nas camadas convolucionais, proporcionando invariância à translação espacial e reduzindo substancialmente a quantidade de parâmetros em comparação com redes totalmente conectadas.
-* **B)** As camadas de *Max Pooling* em uma rede convolucional aumentam a resolução espacial das matrizes de características para expandir o número de parâmetros ajustáveis na retropropagação considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **B)** As camadas de *Max Pooling* em uma rede convolucional aumentam a resolução espacial das matrizes de características para expandir o número de parâmetros ajustáveis na retropropagação.
 * **C)** As Redes Neurais Recorrentes (RNNs) simples conseguem manter dependências contextuais de longuíssimo prazo sem sofrer atenuação de gradientes, tornando as células LSTM obsoletas.
 * **D)** A arquitetura *Transformer* baseia-se exclusivamente em convoluções bidimensionais causais e descarta inteiramente mecanismos de atenção entre tokens.
 * **E)** As células LSTM (*Long Short-Term Memory*) descartam qualquer tipo de porta reguladora, substituindo todo o fluxo interno por uma única camada Perceptron sem função de ativação.

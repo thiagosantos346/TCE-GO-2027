@@ -111,7 +111,7 @@ flowchart TD
 ---
 
 ### Teste 045
-**(FCC – Analista de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A Constituição Federal de 1988 estabelece que os Poderes Legislativo, Executivo e Judiciário manterão, de forma integrada, sistema de controle interno com finalidades expressas no art. 74. A respeito das atribuições constitucionais do controle interno e de sua articulação com o controle externo, assinale a afirmativa correta:
 
 * **A)** Os responsáveis pelo controle interno, cientes de irregularidades, devem avisar o Tribunal de Contas sob responsabilidade solidária.
@@ -132,7 +132,7 @@ A Constituição Federal de 1988 estabelece que os Poderes Legislativo, Executiv
 >
 > **Gabarito: A**
 ### Teste 046
-**(FCC – Técnico de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No âmbito da sistemática de fiscalização dos atos estatais, o acórdão proferido pelo Tribunal de Contas que imputar débito ou aplicar multa comina sanção de natureza patrimonial ao responsável. Segundo o art. 71, § 3º, da Constituição Federal e a jurisprudência pacificada do Supremo Tribunal Federal (Tema nº 642):
 
 * **A)** A decisão do Tribunal de Contas que imputa débito tem eficácia de título executivo, cobrada pela Fazenda Pública credora.
@@ -172,7 +172,7 @@ O controle externo a cargo do Poder Legislativo é exercido com o auxílio técn
 ---
 
 ### Teste 047
-**(FCC – TRT – Analista Judiciário - 2009)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Compete privativamente ao Tribunal de Contas do Estado, no exercício do controle externo financeiro e orçamentário que lhe incumbe a ordem constitucional, desempenhar atribuições técnicas fiscalizatórias. Dentre as competências fixadas na Constituição Federal (art. 71) e na Constituição Estadual, é correto afirmar que cabe ao Tribunal de Contas:
 
 * **A)** julgar anualmente as contas prestadas pelo Chefe do Poder Executivo estadual e fixar sua remuneração política.
@@ -193,7 +193,7 @@ Compete privativamente ao Tribunal de Contas do Estado, no exercício do control
 >
 > **Gabarito: C**
 ### Teste 048
-**(FCC – Procurador do Estado – PGE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em processo de Tomada de Contas Especial instaurado no Tribunal de Contas do Estado de Goiás para apurar desvio de recursos públicos em convênio estadual, o relator determinou a citação solidária do ex-Prefeito convenente e da empresa privada contratada. A respeito do julgamento das contas e de seus efeitos legais:
 
 * **A)** A condenação do ex-Prefeito ao ressarcimento do erário pelo Tribunal de Contas gera automática inelegibilidade de natureza criminal.
@@ -240,7 +240,7 @@ O controle judicial sobre atos discricionários não se restringe à literalidad
 ---
 
 ### Teste 049
-**(FCC – Analista de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O Secretário Municipal de Saúde de determinado município goiano descumpriu reiteradamente ordem de alocação de leitos pediátricos de UTI pactuados no SUS, alegando a discricionariedade na gestão das vagas hospitalares. O Ministério Público ajuizou Ação Civil Pública pleiteando a imediata internação de recém-nascidos em risco de morte. A intervenção judicial:
 
 * **A)** É vedada pelo princípio da separação dos poderes, que impede qualquer controle judicial sobre a área sanitária.
@@ -261,7 +261,7 @@ O Secretário Municipal de Saúde de determinado município goiano descumpriu re
 >
 > **Gabarito: B**
 ### Teste 050
-**(FCC – TRT – Analista Judiciário - 2009)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Ato lesivo ao patrimônio público, à moralidade administrativa e ao meio ambiente, praticado por autoridade pública estadual mediante desvio de verbas destinadas a programa de habitação popular, sujeita-se a mecanismos constitucionais de controle jurisdicional. A respeito da Ação Popular (art. 5º, LXXIII, da CF/88), é correto afirmar que:
 
 * **A)** qualquer cidadão no gozo de seus direitos políticos detém legitimidade ativa originária para ajuizá-la.
@@ -318,7 +318,7 @@ O art. 1º, § 8º, da LIA estabelece expressamente que **não configura improbi
 ---
 
 ### Teste 051
-**(FGV – TJ-MT – Analista Judiciário - 2024)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em dezembro de 2024, João, estagiário voluntário que atuava sem remuneração em determinado cartório de vara judicial estadual, utilizou indevidamente as senhas de acesso restrito de magistrado para obter vantagens financeiras de advogados em processos em trâmite. 
 
 Considerando as alterações promovidas pela Lei Federal nº 14.230/2021 na Lei de Improbidade Administrativa (Lei nº 8.429/1992):
@@ -341,7 +341,7 @@ Considerando as alterações promovidas pela Lei Federal nº 14.230/2021 na Lei 
 >
 > **Gabarito: B**
 ### Teste 052
-**(FCC – TRT – Analista Judiciário - 2024)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Antônio, servidor público estadual ocupante de função de gestão financeira, cometeu equívoco formal na prestação de contas de adiantamento de despesas em 2018, agindo com manifesta imprudência, mas sem qualquer intenção de lesar o erário ou desviar verbas. O Ministério Público ajuizou ação de improbidade em 2020 por conduta culposa. 
 
 Com a edição da Lei nº 14.230/2021 e a fixação da tese de repercussão geral pelo STF no Tema nº 1.199:
@@ -420,7 +420,7 @@ flowchart TD
 ---
 
 ### Teste 053
-**(FGV – TRT – Analista Judiciário - 2024)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A Lei Federal nº 8.429/1992, reformulada pela Lei Federal nº 14.230/2021, tipifica os atos de improbidade administrativa que importam enriquecimento ilícito (art. 9º), os que causam prejuízo ao erário (art. 10) e os que atentam contra os princípios da administração pública (art. 11). 
 
 Constitui ato de improbidade administrativa que importa ENRIQUECIMENTO ILÍCITO (art. 9º da LIA):
@@ -443,7 +443,7 @@ Constitui ato de improbidade administrativa que importa ENRIQUECIMENTO ILÍCITO 
 >
 > **Gabarito: B**
 ### Teste 054
-**(FGV – TRT-1ª Região – Analista Judiciário - 2024)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A Lei nº 14.230/2021 alterou profundamente o regime dos atos de improbidade administrativa que atentam contra os princípios da administração pública (art. 11 da Lei nº 8.429/1992). 
 
 A respeito da nova disciplina jurídica conferida ao art. 11 da LIA pelo legislador reformador, é correto afirmar que:
@@ -466,7 +466,7 @@ A respeito da nova disciplina jurídica conferida ao art. 11 da LIA pelo legisla
 >
 > **Gabarito: A**
 ### Teste 055
-**(FGV – TRT – Analista Judiciário - 2024)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Determinada autoridade administrativa foi processada judicialmente por ato de improbidade administrativa ajuizado pelo Ministério Público. A respeito das novas regras de prescrição geral e prescrição intercorrente introduzidas na Lei nº 8.429/1992 pela Lei nº 14.230/2021, é correto afirmar que:
 
 * **A)** a ação prescreve em dez anos contados do término do mandato ou do cargo em comissão exercido pelo agente.

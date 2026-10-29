@@ -92,7 +92,7 @@ flowchart TD
 ---
 
 ### Teste 099
-**(FGV – TRF-1ª Região – Analista Judiciário - 2024)**  
+**(FGV – TRF-1 – Analista Judiciário - Tecnologia da Informação – 2024)**  
 As chamadas cláusulas exorbitantes correspondem às prerrogativas conferidas pelo ordenamento jurídico à Administração Pública na celebração e execução dos contratos administrativos (art. 104 da Lei nº 14.133/2021). A respeito dessas prerrogativas especiais, é correto afirmar que:
 
 * **A)** A Administração pode rescindir unilateralmente o contrato em caso de inexecução culposa da contratada.
@@ -136,7 +136,7 @@ Para combater o problema crônico nacional de paralisação e abandono de obras 
 ---
 
 ### Teste 100
-**(FCC – Analista Judiciário – TRT / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em uma licitação de obra pública de grande vulto (orçada em trezentos milhões de reais), a Administração incluiu no edital a exigência de seguro-garantia com cláusula de retomada (step-in rights). Conforme disciplinado nos arts. 96 a 102 da Lei nº 14.133/2021:
 
 * **A)** O seguro-garantia em obras de grande vulto pode atingir até 30% do valor inicial do contrato.
@@ -174,7 +174,7 @@ O art. 106 da NLLC estabelece uma revolução para os contratos de serviços e f
 ---
 
 ### Teste 101
-**(FCC – TRT-1ª Região – Analista Judiciário - 2014)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A disciplina da duração e da prorrogação dos contratos administrativos de serviços contínuos sofreu relevante modernização na Lei Federal nº 14.133/2021 (arts. 106 e 107). A respeito dos prazos de vigência desses contratos, é correto afirmar que:
 
 * **A)** Os contratos de serviços e fornecimentos contínuos podem ser celebrados pelo prazo inicial de até cinco anos.
@@ -225,7 +225,7 @@ O art. 140 da NLLC disciplina as fases de entrega do objeto contratado:
 ---
 
 ### Teste 102
-**(FCC – Procurador do Estado – PGE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Na terceirização de serviços continuados de limpeza e vigilância predial no âmbito estadual, a autoridade administrativa designou fiscais para acompanhar a execução contratual. Segundo o art. 117 da Lei Federal nº 14.133/2021:
 
 * **A)** A fiscalização do contrato pode ser exercida por particular terceirizado contratado para substituir a comissão oficial.
@@ -246,7 +246,7 @@ Na terceirização de serviços continuados de limpeza e vigilância predial no 
 >
 > **Gabarito: B**
 ### Teste 103
-**(FGV – TRT – Analista Judiciário - 2025)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Empregado terceirizado que prestava serviços de vigilância desarmada a órgão público ajuizou reclamação trabalhista postulando a condenação subsidiária da Administração Pública pelo inadimplemento de verbas rescisórias da empresa terceirizada. À luz do art. 121, § 1º da Lei nº 14.133/2021 e da tese vinculante fixada pelo STF no Tema nº 246 (ADC 16 e RE 760.931):
 
 * **A)** O inadimplemento da empresa terceirizada transfere automaticamente a responsabilidade pelo pagamento ao erário.
@@ -300,7 +300,7 @@ A garantia da equação econômico-financeira original é direito fundamental do
 ---
 
 ### Teste 104
-**(FGV – Analista de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Durante a execução de um contrato administrativo de pavimentação asfáltica, a Secretaria de Obras constatou a necessidade de realizar acréscimos quantitativos na extensão da via e ajustes qualitativos no traçado do projeto básico. Nos termos do art. 125 da Lei Federal nº 14.133/2021:
 
 * **A)** O contratado fica obrigado a aceitar acréscimos ou supressões de até 25% do valor inicial atualizado do contrato.
@@ -321,7 +321,7 @@ Durante a execução de um contrato administrativo de pavimentação asfáltica,
 >
 > **Gabarito: A**
 ### Teste 105
-**(FCC – Analista de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O Tribunal de Contas formalizou contrato administrativo de serviços de tecnologia com prazo de três anos. A respeito dos institutos jurídicos da recomposição (revisão), do reajuste em sentido estrito e da repactuação contratual na Lei nº 14.133/2021:
 
 * **A)** O reajuste em sentido estrito aplica-se a serviços com dedicação exclusiva de mão de obra para repassar convenção coletiva.
@@ -342,7 +342,7 @@ O Tribunal de Contas formalizou contrato administrativo de serviços de tecnolog
 >
 > **Gabarito: B**
 ### Teste 106
-**(FCC – Auditor de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Durante a execução de um contrato administrativo de serviços de limpeza urbana, a Fazenda Pública municipal atrasou injustificadamente o pagamento das faturas devidas à empresa contratada. De acordo com o art. 137, § 2º, IV, da Lei Federal nº 14.133/2021, o contratado tem o direito de suspender o cumprimento de suas obrigações caso o atraso nos pagamentos ultrapasse:
 
 * **A)** dois meses da nota fiscal, salvo calamidade pública ou grave perturbação da ordem.
@@ -387,7 +387,7 @@ A reabilitação perante a Administração exige cumulativamente:
 ---
 
 ### Teste 107
-**(FCC – Auditor de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito do sistema sancionatório previsto no art. 156 da Lei nº 14.133/2021, a Administração Pública poderá aplicar aos licitantes ou contratados inadimplentes diversas sanções administrativas cominatórias. Constituem sanções expressamente estabelecidas no referido dispositivo:
 
 * **A)** advertência, multa, impedimento de licitar e declaração de inidoneidade para licitar/contratar.
@@ -408,7 +408,7 @@ A respeito do sistema sancionatório previsto no art. 156 da Lei nº 14.133/2021
 >
 > **Gabarito: A**
 ### Teste 108
-**(FCC – Técnico de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Durante a execução de um contrato administrativo de fornecimento de ambulâncias para o Estado de Goiás, restou comprovado que a empresa contratada cometeu fraude dolosa ao entregar veículos usados com hodômetros adulterados. Diante da gravidade da infração, a autoridade instaurou processo de declaração de inidoneidade. A respeito dessa sanção (art. 156, § 6º da Lei nº 14.133/2021):
 
 * **A)** A inidoneidade é competência exclusiva do Secretário de Estado e tem eficácia em toda a Federação.
@@ -429,7 +429,7 @@ Durante a execução de um contrato administrativo de fornecimento de ambulânci
 >
 > **Gabarito: A**
 ### Teste 109
-**(FGV – Analista Jurídico – PGE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O art. 160 da Lei nº 14.133/2021 estabelece os requisitos e o procedimento para a aplicação da desconsideração da personalidade jurídica no âmbito das licitações e dos contratos administrativos. A respeito desse instituto, é correto afirmar que:
 
 * **A)** A desconsideração pode ser aplicada para estender as sanções de inidoneidade aos sócios e administradores com poderes.

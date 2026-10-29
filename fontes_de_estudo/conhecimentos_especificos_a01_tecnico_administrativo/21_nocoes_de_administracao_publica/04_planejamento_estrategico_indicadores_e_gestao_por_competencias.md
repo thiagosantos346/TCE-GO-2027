@@ -90,7 +90,7 @@ flowchart TD
 ---
 
 ### Teste 330
-**(FCC - Adaptada / Analista de Planejamento e Gestão)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 O planejamento organizacional é estruturado em três níveis hierárquicos interligados: Estratégico, Tático e Operacional.
 
 A respeito desses níveis, é correto afirmar:
@@ -98,7 +98,7 @@ A respeito desses níveis, é correto afirmar:
 * **A)** O planejamento estratégico tem horizonte temporal de longo prazo, abrange a organização como uma totalidade sistêmica e define a missão, visão e objetivos corporativos mestres; já o planejamento operacional foca o curto prazo e detalha tarefas e procedimentos diários de execução.
 * **B)** O planejamento tático é formulado pelos operários da linha de frente para solucionar problemas de atendimento imediato.
 * **C)** O planejamento operacional abrange o macroambiente externo e analisa as forças competitivas da economia internacional.
-* **D)** O planejamento estratégico é privativo de empresas comerciais de mercado, inexistindo aplicação prática no âmbito dos Tribunais de Contas e órgãos públicos no âmbito da administração pública direta e indireta.
+* **D)** O planejamento estratégico é privativo de empresas comerciais de mercado, inexistindo aplicação prática no âmbito dos Tribunais de Contas e órgãos públicos.
 * **E)** O planejamento tático foca exclusivamente em investimentos com prazo superior a quinze anos.
 
 
@@ -158,10 +158,10 @@ flowchart TD
 ---
 
 ### Teste 331
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Ao estruturar o seu Plano Estratégico Institucional, determinado Tribunal de Contas utilizou a metodologia do Balanced Scorecard (BSC). Ao elaborar o mapa estratégico, a equipe de planejamento definiu quatro perspectivas de objetivos. Considerando as peculiaridades das organizações públicas em relação às empresas privadas com fins lucrativos, no modelo adotado pelo Tribunal:
 
-* **A)** A perspectiva financeira deve ocupar obrigatoriamente a posição superior do mapa, tendo como meta a geração de lucro operacional e dividendos públicos no âmbito da administração pública direta e indireta.
+* **A)** A perspectiva financeira deve ocupar obrigatoriamente a posição superior do mapa, tendo como meta a geração de lucro operacional e dividendos públicos.
 * **B)** A perspectiva dos cidadãos e da sociedade ocupa o ápice da cadeia de causalidade estratégica, enquanto os recursos orçamentários figuram como viabilizadores das entregas públicas.
 * **C)** O aprendizado e o crescimento funcional são eliminados do mapa por serem exclusivos de indústrias manufatureiras.
 * **D)** As relações de causa e efeito deixam de existir, passando os objetivos a ser medidos de forma isolada e autônoma.
@@ -183,11 +183,11 @@ Ao estruturar o seu Plano Estratégico Institucional, determinado Tribunal de Co
 ---
 
 ### Teste 332
-**(FCC - Adaptada / Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na transposição do Balanced Scorecard (BSC - Kaplan e Norton) para as organizações públicas e entidades de controle governamental (como o TCE-GO), a adaptação mais relevante no mapa estratégico consiste em:
 
 * **A)** Deslocar a perspectiva dos "Clientes / Cidadãos-Usuários e Sociedade" para o topo do mapa estratégico como objetivo final supremo, passando a perspectiva financeira a atuar como viabilizadora e restrição orçamentária dos serviços prestados.
-* **B)** Eliminar completamente a perspectiva de Aprendizado e Crescimento, visto que servidores públicos estáveis não necessitam de capacitação continuada no âmbito da administração pública direta e indireta.
+* **B)** Eliminar completamente a perspectiva de Aprendizado e Crescimento, visto que servidores públicos estáveis não necessitam de capacitação continuada.
 * **C)** Substituir os indicadores de eficácia social por índices de lucro líquido financeiro a ser distribuído aos cidadãos como dividendos monetários.
 * **D)** Considerar a perspectiva de Processos Internos como a única relevante, descartando qualquer métrica voltada para a satisfação da sociedade.
 * **E)** Proibir o estabelecimento de relações de causa e efeito entre os objetivos estratégicos institucionais.
@@ -237,7 +237,7 @@ flowchart TD
 ---
 
 ### Teste 333
-**(FCC – TRT-2ª Região – Analista Judiciário: Área Administrativa)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Durante a realização de um diagnóstico institucional, os analistas de um tribunal identificaram os seguintes fatores:
 
 1. Elevado índice de qualificação acadêmica do quadro próprio de analistas (pós-graduados).
@@ -326,7 +326,7 @@ Para assegurar a utilidade e fidedignidade dos relatórios de governança, os in
 ---
 
 ### Teste 334
-**(FCC - Adaptada / Analista de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na formulação de planos de intervenção operacional decorrentes de achados de auditoria ou do planejamento setorial, a ferramenta **5W2H** é amplamente utilizada para operacionalizar as decisões em planos de ação objetivos.
 
 O significado e escopo da letra **"H" (*How Much*)** na estrutura do 5W2H corresponde a responder:
@@ -334,7 +334,7 @@ O significado e escopo da letra **"H" (*How Much*)** na estrutura do 5W2H corres
 * **A)** Quanto custará a execução da ação (estimativa orçamentária de custos e desembolsos financeiros envolvidos).
 * **B)** Quem será o executor responsável pela atividade.
 * **C)** Quando e em quais datas a ação será iniciada e finalizada.
-* **D)** Por que a ação deve ser realizada e qual a sua justificativa estratégica no âmbito da administração pública direta e indireta.
+* **D)** Por que a ação deve ser realizada e qual a sua justificativa estratégica.
 * **E)** Onde a ação será implementada geograficamente.
 
 
@@ -375,7 +375,7 @@ flowchart LR
 ---
 
 ### Teste 335
-**(FCC – DPE-RS – Analista: Gestão Pública)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Na gestão de pessoas no setor público, a metodologia de Gestão por Competências estrutura o perfil funcional a partir da tríade CHA (Conhecimentos, Habilidades e Atitudes). Quando um servidor público domina minuciosamente as regras teóricas da Nova Lei de Licitações (Lei nº 14.133/2021), mas demonstra insegurança técnica e não consegue operar o sistema eletrônico de compras públicas para cadastrar o edital, verifica-se que o servidor possui:
 
 * **A)** Atitude e Habilidade, mas carece de Conhecimento.
@@ -441,13 +441,13 @@ flowchart TD
 ---
 
 ### Teste 336
-**(FCC – TCE-RS – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito do processo decisório nas organizações e das conclusões da Teoria da Racionalidade Limitada proposta por Herbert Simon, é correto afirmar:
 
 * **A)** O tomador de decisão atua sempre como o "homem econômico", processando a totalidade das variáveis e alternativas possíveis para atingir a decisão ótima perfeita.
 * **B)** O comportamento decisório dos gestores é orientado por informações completas, perfeita previsibilidade do futuro e tempo ilimitado para deliberação.
 * **C)** Diante da escassez de tempo, limitações cognitivas e insuficiência de dados completos, o gestor atua como o "homem administrativo", selecionando uma alternativa satisfatória que atenda a padrões mínimos aceitáveis.
-* **D)** A teoria da racionalidade limitada defende que o administrador público deve decidir de forma puramente arbitrária e intuitiva, dispensando critérios analíticos de avaliação no âmbito da administração pública direta e indireta.
+* **D)** A teoria da racionalidade limitada defende que o administrador público deve decidir de forma puramente arbitrária e intuitiva, dispensando critérios analíticos de avaliação.
 * **E)** As decisões operacionais tomadas sob racionalidade limitada prescindem da fixação prévia de objetivos organizacionais pelo planejamento.
 
 
@@ -499,7 +499,7 @@ flowchart TD
 ---
 
 ### Teste 337
-**(FCC – ARTESP – Especialista em Regulação de Transportes)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Dois diretores de uma agência reguladora divergem categoricamente a respeito dos critérios de reajuste tarifário do transporte intermunicipal. Ambos demonstram alta preocupação em fazer valer suas teses técnicas individuais (alta assertividade), mas recusam-se terminantemente a ouvir os argumentos da outra parte ou a construir um consenso cooperativo (baixa cooperação). Segundo o modelo de estilos de administração de conflitos de Thomas-Kilmann, o comportamento adotado por esses gestores caracteriza o estilo de:
 
 * **A)** Colaboração (Ganha-Ganha).
@@ -524,7 +524,7 @@ Dois diretores de uma agência reguladora divergem categoricamente a respeito do
 ---
 
 ### Teste 338
-**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A Gestão por Competências no setor público busca alinhar o desenvolvimento dos servidores aos objetivos estratégicos da organização. De acordo com o modelo amplamente consagrado na doutrina administrativa (Dutra, Zarifian, Fleury), a competência individual fundamenta-se no tripé conceitual **C.H.A.**.
 
 As letras que compõem a sigla **CHA** representam:
@@ -532,7 +532,7 @@ As letras que compõem a sigla **CHA** representam:
 * **A)** Conhecimento (o saber teórico), Habilidade (o saber fazer prático) e Atitude (o querer fazer / agir proativo).
 * **B)** Controle fiscal, Hierarquia funcional e Autoridade delegada.
 * **C)** Celeridade operacional, Honestidade profissional e Aptidão física.
-* **D)** Criatividade técnica, Homogeneidade de tarefas e Assertividade comunicacional no âmbito da administração pública direta e indireta.
+* **D)** Criatividade técnica, Homogeneidade de tarefas e Assertividade comunicacional.
 * **E)** Conformidade regulamentar, Homologação decisória e Atendimento cortês.
 
 
@@ -548,7 +548,7 @@ As letras que compõem a sigla **CHA** representam:
 ---
 
 ### Teste 339
-**(FCC - Adaptada / TCE-GO - Analista de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A respeito dos indicadores de desempenho da gestão pública e das dimensões clássicas dos **6 Es** (Eficácia, Eficiência, Efetividade, Economicidade, Excelência e Execução):
 
 Um programa público de vacinação infantil que imunizou 98% do público-alvo planejado, gerando como reflexo a erradicação de determinada doença infectocontagiosa na população infantil do Estado no ano subsequente, demonstrou, com relação ao atingimento da meta quantitativa e ao impacto social transformador duradouro, respectivamente:
@@ -557,7 +557,7 @@ Um programa público de vacinação infantil que imunizou 98% do público-alvo p
 * **B)** Alta Economicidade e Baixa Eficiência orçamentária.
 * **C)** Baixa Eficácia e Ausência de Efetividade social.
 * **D)** Execução financeira passiva e Baixa Excelência de atendimento.
-* **E)** Fato gerador contábil sem reflexo em indicadores de desempenho da gestão no âmbito da administração pública direta e indireta.
+* **E)** Fato gerador contábil sem reflexo em indicadores de desempenho da gestão.
 
 
 ---

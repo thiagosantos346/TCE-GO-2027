@@ -113,11 +113,11 @@ flowchart TD
 ---
 
 ### Teste 450
-**(FCC – Técnico de Controle Externo – Gestão Pública – TCE-AP)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em determinado órgão público estadual, a diretoria de Recursos Humanos decidiu substituir o método tradicional de escalas gráficas pelo método da Escolha Forçada, visando conferir maior neutralidade aos resultados avaliativos. Todavia, após a primeira rodada de avaliação, diversos gestores setoriais queixaram-se publicamente da nova ferramenta. À luz da teoria de Gestão de Pessoas, a principal limitação técnica inerente ao método da **Escolha Forçada** consiste em:
 
 * **A)** exigir pesados custos com a contratação permanente de psicólogos clínicos para entrevistar cada servidor individualmente.
-* **B)** apresentar acentuada vulnerabilidade à subjetividade pessoal do avaliador, facilitando o favorecimento sistemático de protegidos políticos em estrita conformidade com as normas legais e regulamentares aplicáveis.
+* **B)** apresentar acentuada vulnerabilidade à subjetividade pessoal do avaliador, facilitando o favorecimento sistemático de protegidos políticos.
 * **C)** impedir que os gestores forneçam um feedback formativo e transparente aos avaliados, visto que os pesos ponderados das frases são apurados estatisticamente pelo RH e não divulgados ao avaliador.
 * **D)** fixar compulsoriamente todas as avaliações no patamar intermediário de notas, provocando uma distorção generalizada por tendência central.
 * **E)** restringir-se exclusivamente à apuração de dados financeiros e orçamentários, sendo inaplicável a cargos de suporte administrativo.
@@ -138,12 +138,12 @@ Em determinado órgão público estadual, a diretoria de Recursos Humanos decidi
 ---
 
 ### Teste 451
-**(FCC - Adaptada / Analista de Gestão Pública)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Dentre as metodologias clássicas e modernas de Avaliação de Desempenho Humano nas organizações, a **Avaliação 360 Graus (ou Feedback Circular / Multirrequisital)** caracteriza-se por:
 
 * **A)** Coletar avaliações estruturadas sobre o desempenho do colaborador provenientes de todas as direções de relacionamento: do superior hierárquico, dos pares de trabalho (colegas), dos subordinados, dos clientes/usuários externos e da autoavaliação do próprio servidor.
 * **B)** Basear-se exclusivamente no julgamento autocrático e secreto do chefe imediato da repartição.
-* **C)** Classificar os servidores por meio de uma curva forçada em que obrigatoriamente 20% são classificados como insuficientes considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **C)** Classificar os servidores por meio de uma curva forçada em que obrigatoriamente 20% são classificados como insuficientes.
 * **D)** Avaliar apenas aspectos relacionados à pontualidade de registro do ponto biométrico eletrônico.
 * **E)** Limitar-se à medição de força física e aptidão cardiorrespiratória dos novos contratados.
 
@@ -191,7 +191,7 @@ flowchart LR
 ---
 
 ### Teste 452
-**(FCC – Analista de Controle Externo – TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Um diretor de fiscalização do Tribunal de Contas realizou a avaliação anual de desempenho de um técnico administrativo recém-lotado em sua gerência. Ao analisar a pontualidade impecável e a cortesia no atendimento demonstradas pelo servidor no dia a dia, o diretor atribuiu pontuação máxima em todos os itens da avaliação, inclusive naqueles relativos a domínio técnico avançado de auditoria de obras e redação de relatórios complexos, competências que sequer haviam sido desempenhadas ou verificadas no período. A falha cognitiva que maculou o procedimento avaliativo configura o denominado:
 
 * **A)** Erro de tendência central.
@@ -216,14 +216,14 @@ Um diretor de fiscalização do Tribunal de Contas realizou a avaliação anual 
 ---
 
 ### Teste 453
-**(FCC - Adaptada / Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No processo de Avaliação de Desempenho, o avaliador está sujeito a vieses cognitivos e distorções perceptivas involuntárias que podem comprometer a fidedignidade dos resultados.
 
 A distorção conhecida como **Efeito de Halo (ou Halo Effect)** ocorre quando:
 
 * **A)** O avaliador generaliza uma única característica marcante (positiva ou negativa) do avaliado para julgar de forma contaminada todos os demais fatores e competências de seu desempenho.
 * **B)** O avaliador atribui notas medianas a todos os avaliados para evitar conflitos interpessoais (*tendência central*).
-* **C)** O avaliador considera apenas os fatos ocorridos na última semana antes da avaliação, esquecendo o restante do ano (*efeito de recência*) no âmbito da administração pública direta e indireta.
+* **C)** O avaliador considera apenas os fatos ocorridos na última semana antes da avaliação, esquecendo o restante do ano (*efeito de recência*).
 * **D)** O avaliador avalia melhor os indivíduos que possuem perfil, origens e opiniões semelhantes às suas (*erro de semelhança*).
 * **E)** O avaliador é excessivamente rigoroso com todos os seus subordinados (*severidade excessiva*).
 
@@ -271,13 +271,13 @@ flowchart LR
 ---
 
 ### Teste 454
-**(FCC – Auditor de Controle Externo – TCE-RO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Nos termos do art. 39, § 4º da Constituição Federal de 1988, determinadas categorias de agentes públicos devem ser remuneradas exclusivamente pelo regime de subsídio. A respeito dessa disciplina constitucional, é correto afirmar:
 
 * **A)** O subsídio é fixado em parcela única, sendo constitucionalmente lícito o pagamento cumulativo de gratificações de produtividade e adicionais de tempo de serviço.
 * **B)** O regime de subsídio veda o acréscimo de qualquer gratificação, adicional, abono, prêmio ou verba de representação, ressalvado o pagamento de parcelas de natureza estritamente indenizatória previstas em lei.
 * **C)** O subsídio mensal dos servidores públicos estaduais não se subordina ao teto remuneratório constitucional, tendo em vista a autonomia federativa ampla dos Estados-membros.
-* **D)** O pagamento de diárias e de ajuda de custo para ressarcir despesas extraordinárias com deslocamento a serviço é terminantemente vedado aos agentes remunerados por subsídio no âmbito da administração pública direta e indireta.
+* **D)** O pagamento de diárias e de ajuda de custo para ressarcir despesas extraordinárias com deslocamento a serviço é terminantemente vedado aos agentes remunerados por subsídio.
 * **E)** O subsídio pode ser instituído discricionariamente mediante portaria interna expedida pelo Presidente do Tribunal de Contas, prescindindo de lei formal específica.
 
 
@@ -296,7 +296,7 @@ Nos termos do art. 39, § 4º da Constituição Federal de 1988, determinadas ca
 ---
 
 ### Teste 455
-**(FCC - Adaptada / Analista de Planejamento e Controle)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No estudo da Qualidade de Vida no Trabalho (QVT), o modelo conceitual mais abrangente e citado na literatura administrativa foi proposto por Richard Walton (1973), estruturado em oito dimensões clássicas.
 
 Constitui uma das oito dimensões do modelo de QVT de **Richard Walton**:
@@ -305,7 +305,7 @@ Constitui uma das oito dimensões do modelo de QVT de **Richard Walton**:
 * **B)** Remuneração salarial indexada exclusivamente à variação cambial do dólar americano.
 * **C)** Proibição de concessão de férias e licenças no primeiro ano do mandato do governador.
 * **D)** Instauração obrigatória de sindicância sumária em qualquer alteração de rotina.
-* **E)** Exigência de cumprimento de horas extras diárias de forma compulsória sem descanso semanal em estrita conformidade com as normas legais e regulamentares aplicáveis.
+* **E)** Exigência de cumprimento de horas extras diárias de forma compulsória sem descanso semanal.
 
 
 ---
@@ -352,12 +352,12 @@ flowchart TD
 ---
 
 ### Teste 456
-**(FCC – Analista Judiciário – TRT-21ª)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O modelo conceitual de Qualidade de Vida no Trabalho (QVT) estruturado por Richard Walton estabelece oito dimensões fundamentais para a criação de um ecossistema laboral saudável e motivador. A dimensão que prevê expressamente o respeito à privacidade dos colaboradores, a vigência de regras claras e transparentes de conduta funcional, a liberdade de expressão responsável e a garantia do devido processo legal e ampla defesa diante de averiguações funcionais é denominada por Walton de:
 
 * **A)** Espaço Total de Vida.
 * **B)** Relevância Social do Trabalho.
-* **C)** Integração Social na Organização no âmbito da administração pública direta e indireta.
+* **C)** Integração Social na Organização.
 * **D)** Constitucionalismo na Organização.
 * **E)** Compensação Justa e Adequada.
 
@@ -397,7 +397,7 @@ A consolidação do regime de teletrabalho transformou a dinâmica das institui�
 ---
 
 ### Teste 457
-**(FCC – Analista de Gestão Pública – DPE-RS)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Com o avanço da transformação digital na administração pública, o regime de teletrabalho consolidou-se como instrumento relevante de modernização gerencial. Sob a ótica do planejamento e gestão de pessoas, a correta implementação do teletrabalho no setor público pressupõe:
 
 * **A)** a intensificação dos mecanismos cartoriais de fiscalização contínua de horários por meio de relógios de ponto virtuais e acionamento de câmeras de vídeo a cada 30 minutos.
@@ -422,14 +422,14 @@ Com o avanço da transformação digital na administração pública, o regime d
 ---
 
 ### Teste 458
-**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Com a regulamentação do teletrabalho e do trabalho híbrido no serviço público brasileiro (Decreto Federal nº 11.072/2022 - Programa de Gestão e Desempenho e normativos do TCE-GO), a dinâmica da gestão funcional passou por transformações estruturais.
 
 No regime de teletrabalho regulamentado pelo poder público, a gestão do servidor público fundamenta-se prioritariamente:
 
 * **A)** No acompanhamento de entregas, metas de produtividade pactuadas formalmente em plano de trabalho individual e resultados acordados, em substituição ao controle puramente físico e cronológico de frequência e assiduidade por ponto eletrônico.
 * **B)** No monitoramento contínuo da imagem do servidor por câmera de vigilância durante oito horas ininterruptas.
-* **C)** Na proibição total de comparecimento do servidor às dependências físicas do Tribunal de Contas sob pena de demissão considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **C)** Na proibição total de comparecimento do servidor às dependências físicas do Tribunal de Contas sob pena de demissão.
 * **D)** Na redução proporcional de 50% de seus vencimentos básicos em virtude da ausência no prédio público.
 * **E)** Na transferência integral da responsabilidade fiscal do órgão para o servidor teletrabalhador.
 
@@ -446,7 +446,7 @@ No regime de teletrabalho regulamentado pelo poder público, a gestão do servid
 ---
 
 ### Teste 459
-**(FCC - Adaptada / TCE-GO - Analista de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No tocante à estrutura do Sistema de Remuneração no Setor Público e aos Planos de Cargos, Carreiras e Vencimentos (PCCV), a contraprestação pecuniária mensal devida ao servidor pelo efetivo exercício do cargo público, fixada em lei, desprovida de quaisquer adicionais ou gratificações, denomina-se:
 
 * **A)** Vencimento básico (ou padrão).

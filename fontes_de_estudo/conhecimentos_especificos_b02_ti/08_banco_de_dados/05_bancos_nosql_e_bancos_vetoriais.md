@@ -107,7 +107,7 @@ Enquanto os bancos relacionais transacionais regem-se pelo rigor determinístico
 ---
 
 ### Teste 278
-**(FCC - DPE-RS - Analista de Tecnologia da Informação)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Um arquiteto de software de um tribunal público avalia a infraestrutura de dados para dois projetos de modernização institucional:
 
 1. Uma plataforma analítica de combate à corrupção encarregada de mapear redes de parentesco, cruzamento de quadros societários e rastreamento de laranjas em contratações de órgãos jurisdicionados.
@@ -119,7 +119,7 @@ Considerando as famílias NoSQL mais eficientes para os casos e as regras de sis
 * **B)** O Projeto 1 deve utilizar Banco de Grafos (ex.: Neo4j); o Projeto 2 deve utilizar Banco Chave-Valor em memória (ex.: Redis); e, em sistemas distribuídos sob partição de rede (P), é compulsório optar entre Consistência estrita (C) ou Disponibilidade (A).
 * **C)** O Projeto 1 deve utilizar Banco de Famílias de Colunas; o Projeto 2 deve utilizar Banco de Documentos; e o Teorema CAP não se aplica a arquiteturas NoSQL com persistência em disco.
 * **D)** O Projeto 1 deve utilizar Banco de Documentos; o Projeto 2 deve utilizar Banco Relacional Monolítico; e o modelo BASE substitui integralmente a necessidade de tolerância a partições físicas.
-* **E)** O Projeto 1 deve utilizar Banco de Séries Temporais; o Projeto 2 deve utilizar Banco Orientado a Objetos; e transações ACID distribuídas mantêm disponibilidade total mesmo com isolamento físico de rede entre datacenters no âmbito da administração pública direta e indireta.
+* **E)** O Projeto 1 deve utilizar Banco de Séries Temporais; o Projeto 2 deve utilizar Banco Orientado a Objetos; e transações ACID distribuídas mantêm disponibilidade total mesmo com isolamento físico de rede entre datacenters.
 
 
 ---
@@ -140,13 +140,13 @@ Considerando as famílias NoSQL mais eficientes para os casos e as regras de sis
 ---
 
 ### Teste 279
-**(FGV - TJ-MT / Analista Judiciário - TI - O Teorema PACELC de Daniel Abadi)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 O Teorema CAP (Brewer) postula que um sistema distribuído não pode garantir simultaneamente Consistência (C), Disponibilidade (A) e Tolerância a Particionamentos de Rede (P). No entanto, o Teorema CAP aborda apenas o comportamento do sistema durante partições de rede anormais. Para descrever o comportamento em operação de rede normal, Daniel Abadi formulou o Teorema PACELC.
 
 A respeito dos postulados formais do Teorema PACELC, assinale a afirmativa correta:
 
 * **A)** O Teorema PACELC estabelece que se houver Partição (P), deve-se escolher entre Disponibilidade (A) e Consistência (C); Senão (Else - E), deve-se escolher entre Latência (L) e Consistência (C).
-* **B)** O Teorema PACELC afirma que bancos NoSQL podem garantir Consistência forte e Latência zero em 100% do tempo sem violar leis da física em estrita conformidade com as normas legais e regulamentares aplicáveis.
+* **B)** O Teorema PACELC afirma que bancos NoSQL podem garantir Consistência forte e Latência zero em 100% do tempo sem violar leis da física.
 * **C)** No teorema PACELC, a letra 'E' significa Criptografia ponta a ponta (*End-to-end Encryption*) obrigatória em redes sem fio.
 * **D)** Sistemas classificados como PC/EC priorizam sempre a disponibilidade operacional em detrimento de qualquer validação de integridade.
 * **E)** O teorema PACELC aplica-se exclusivamente a bancos de dados centralizados legados em servidores *mainframe*.
@@ -170,7 +170,7 @@ A respeito dos postulados formais do Teorema PACELC, assinale a afirmativa corre
 ---
 
 ### Teste 280
-**(FCC - TCE-RS - Auditor Público Externo - Tecnologia da Informação)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em ambientes de computação distribuída e bancos de dados NoSQL projetados para suportar partições de rede com alta disponibilidade, a teoria de sistemas adota com frequência o modelo **BASE** em contraposição ao modelo **ACID** dos SGBDs relacionais clássicos. O pilar fundamental do modelo BASE que estabelece que, se nenhuma nova atualização for enviada ao sistema, ao longo do tempo todas as réplicas convergentes propagarão seus dados e alcançarão o mesmo estado consolidado é denominado:
 
 * **A)** Soft State.
@@ -295,14 +295,14 @@ RETURN auditor.nome, contrato.numero, empresa.razao_social, socio.nome
 ---
 
 ### Teste 281
-**(FGV - TRT / Analista Judiciário - TI - Bancos Orientados a Documentos: MongoDB e Modelagem)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em um projeto de modernização de sistemas do tribunal, a equipe de desenvolvimento optou por utilizar o banco de dados orientado a documentos MongoDB para armazenar os autos e pareceres de auditoria.
 
 A respeito das características arquiteturais e das técnicas de modelagem de dados no MongoDB, assinale a afirmativa correta:
 
 * **A)** O MongoDB armazena dados em tabelas rígidas com colunas estáticas definidas em scripts DDL pré-compilados.
 * **B)** Os documentos no MongoDB são serializados internamente no formato BSON (*Binary JSON*), o qual estende o JSON padrão suportando tipos de dados adicionais como datas, inteiros de 64 bits e identificadores binários (`ObjectId`).
-* **C)** No MongoDB é terminantemente proibido embutir documentos dentro de outros documentos (*embedding*), sendo obrigatório o uso de referências via chave estrangeira com junções `INNER JOIN` em todas as coleções no âmbito da administração pública direta e indireta.
+* **C)** No MongoDB é terminantemente proibido embutir documentos dentro de outros documentos (*embedding*), sendo obrigatório o uso de referências via chave estrangeira com junções `INNER JOIN` em todas as coleções.
 * **D)** O MongoDB não suporta nenhum tipo de índice, realizando varreduras completas em coleções para qualquer consulta.
 * **E)** As transações multi-documento são fisicamente impossíveis de serem executadas no MongoDB, mesmo em clusters de réplicas modernas.
 
@@ -322,11 +322,11 @@ A respeito das características arquiteturais e das técnicas de modelagem de da
 ---
 
 ### Teste 282
-**(FCC - TRT-2ª Região - Analista Judiciário - Tecnologia da Informação)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No banco de dados NoSQL Redis, o gerenciamento eficiente da memória RAM e as opções de salvaguarda dos dados em disco baseiam-se em estruturas e parâmetros bem definidos. Sobre o funcionamento do Redis, é correto afirmar:
 
 * **A)** O tipo de dados *Sorted Set (ZSET)* armazena elementos duplicados sequenciados exclusivamente pelo horário de inserção na fila.
-* **B)** O mecanismo de persistência RDB (*Redis Database*) realiza a gravação síncrona de cada instrução individual de escrita em um arquivo sequencial contínuo imediatamente após a execução do comando no âmbito da administração pública direta e indireta.
+* **B)** O mecanismo de persistência RDB (*Redis Database*) realiza a gravação síncrona de cada instrução individual de escrita em um arquivo sequencial contínuo imediatamente após a execução do comando.
 * **C)** O mecanismo de persistência AOF (*Append Only File*) atua como um log transacional sequencial, registrando em disco os comandos executados que modificam os dados, viabilizando a restauração fiel do estado do banco após falhas.
 * **D)** O comando de expiração temporal TTL (*Time-To-Live*) não existe no Redis, demandando rotinas em scripts externos para varredura e exclusão manual de chaves obsoletas.
 * **E)** A estrutura de dados *Hash* permite o armazenamento de apenas uma chave simples atrelada a uma string escalar, não suportando subcampos internos.
@@ -347,7 +347,7 @@ No banco de dados NoSQL Redis, o gerenciamento eficiente da memória RAM e as op
 ---
 
 ### Teste 283
-**(FCC - TRT / Analista Judiciário - TI - Apache Cassandra e Modelo Wide-Column)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 O Apache Cassandra é um banco de dados NoSQL distribuído pertencente à família de colunas largas (*Wide-Column / Column Family*), projetado para suportar volumes massivos de dados com escrita de altíssima velocidade e sem ponto único de falha (*Single Point of Failure*).
 
 Na definição de uma tabela no Cassandra via CQL (*Cassandra Query Language*), a chave primária (*Primary Key*) pode ser composta por dois tipos de componentes com funções operacionais distintas:
@@ -368,7 +368,7 @@ Nessa definição, assinale a afirmativa que expressa corretamente os papéis de
 * **B)** `sigla_orgao` é um índice secundário invertido, ao passo que `data_acesso` é uma chave estrangeira que aponta para um banco relacional externo.
 * **C)** Todas as três colunas são Chaves de Partição independentes, distribuindo cada linha aleatoriamente em nós distintos sem qualquer relação entre si.
 * **D)** O Cassandra não suporta ordenação em disco, sendo obrigatório ordenar todas as linhas na aplicação cliente via comandos em Python.
-* **E)** A chave primária no Cassandra serve exclusivamente para exibição gráfica no terminal, sem qualquer influência na distribuição física de rede ou disco considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **E)** A chave primária no Cassandra serve exclusivamente para exibição gráfica no terminal, sem qualquer influência na distribuição física de rede ou disco.
 
 
 ---
@@ -388,7 +388,7 @@ Nessa definição, assinale a afirmativa que expressa corretamente os papéis de
 ---
 
 ### Teste 284
-**(FCC - TRF-3ª Região - Analista Judiciário - Informática)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Ao planejar uma solução tecnológica para identificar fraudes tributárias sofisticadas caracterizadas por blindagem patrimonial em teias complexas de sócios cruzados, empresas coligadas e holdings familiares com 6 a 8 níveis de relacionamento hierárquico, uma equipe técnica optou pelo uso de um banco de dados orientado a grafos nativo (como o Neo4j).
 A decisão técnica justifica-se primariamente porque:
 
@@ -396,7 +396,7 @@ A decisão técnica justifica-se primariamente porque:
 * **B)** Os bancos de grafos nativos utilizam o princípio da Adjacência Livre de Índice (*Index-free Adjacency*), no qual cada nó armazena referências de ponteiros diretos para seus nós vizinhos, tornando o custo de navegação dependente apenas do subgrafo percorrido, evitando a explosão combinatória de múltiplos JOINs relacionais sucessivos.
 * **C)** Os grafos de propriedades proíbem a inclusão de atributos descritivos nas arestas de relacionamento, simplificando os cálculos de álgebra booleana.
 * **D)** Os bancos de dados relacionais tradicionais não admitem a execução de junções entre tabelas que possuam chaves primárias do tipo inteiro.
-* **E)** A linguagem Cypher baseia-se exclusivamente em comandos imperativos procedurais em linguagem C, sendo compilada estaticamente durante a inicialização do cluster considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **E)** A linguagem Cypher baseia-se exclusivamente em comandos imperativos procedurais em linguagem C, sendo compilada estaticamente durante a inicialização do cluster.
 
 
 ---
@@ -414,7 +414,7 @@ A decisão técnica justifica-se primariamente porque:
 ---
 
 ### Teste 285
-**(FCC - TRT / Analista Judiciário - TI - Escolha Arquitetural: NoSQL vs. RDBMS no Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em um projeto de engenharia de dados do Tribunal de Contas, a equipe de TI deve definir a tecnologia de persistência para dois subsistemas com perfis de carga e requisitos funcionais completamente distintos:
 
 - **Subsistema 1:** Módulo de Execução Financeira e Folha de Pagamento dos servidores, exigindo estrita conformidade com ACID, integridade referencial mandatória com chaves estrangeiras, ausência de redundâncias e processamento transacional com isolamento serializável.  
@@ -426,7 +426,7 @@ Para atender com máxima aderência técnica a cada subsistema, o arquiteto de T
 * **B)** Subsistema 1: Banco Relacional com suporte completo a ACID (PostgreSQL / Oracle); Subsistema 2: Banco NoSQL escalável horizontalmente (Wide-Column Cassandra ou Banco Orientado a Documentos).
 * **C)** Subsistema 1: Banco Chave-Valor puro sem persistência em disco (Redis); Subsistema 2: Banco Orientado a Grafos sem índices (Neo4j).
 * **D)** Ambos os subsistemas devem ser obrigatoriamente implementados em arquivos de planilha eletrônica no formato CSV em disco compartilhado NFS.
-* **E)** Ambos os subsistemas devem utilizar obrigatoriamente um banco de dados NoSQL baseado no Teorema CAP com consistência eventual sem durabilidade no âmbito da administração pública direta e indireta.
+* **E)** Ambos os subsistemas devem utilizar obrigatoriamente um banco de dados NoSQL baseado no Teorema CAP com consistência eventual sem durabilidade.
 
 
 ---
@@ -457,7 +457,7 @@ Um **embedding** é a conversão algorítmica de um dado arbitrário não estrut
 - Duas sentenças que expressem a mesma ideia semântica, ainda que com vocabulário formal e palavras inteiramente distintas (ex.: *"sobrepreço em pavimentação asfáltica"* e *"desvio orçamentário na compra de asfalto municipal"*), geram vetores densos com altíssima proximidade geométrica e angular.
 
 ```
-Texto Bruto: "Edital com sobrepreço" ──► [Modelo Transformer] ──► Vetor: [0.15, -0.42, 0.88, ..., 0.05]
+Texto Bruto: "Edital com sobrepreço" ──► [Modelo Transformer] ──► Vetor: [0.15, -0.42, 0.88, .., 0.05]
                                                                         (1.536 dimensões)
 ```
 
@@ -523,9 +523,9 @@ USING hnsw (vetor_embedding vector_cosine_ops);
 
 -- Consulta por similaridade semântica (operador <=> calcula a distância de cosseno)
 SELECT numero_processo, conteudo_ementa, 
-       1 - (vetor_embedding <=> '[0.012, -0.045, ...]'::vector) AS similaridade
+       1 - (vetor_embedding <=> '[0.012, -0.045, ..]'::vector) AS similaridade
 FROM acordaos_tce
-ORDER BY vetor_embedding <=> '[0.012, -0.045, ...]'::vector
+ORDER BY vetor_embedding <=> '[0.012, -0.045, ..]'::vector
 LIMIT 5;
 ```
 
@@ -541,13 +541,13 @@ LIMIT 5;
 ---
 
 ### Teste 286
-**(FGV - TRT / Analista Judiciário - TI - Embeddings Vetoriais em Inteligência Artificial)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Com o advento dos Modelos de Linguagem de Grande Porte (LLMs) e das arquiteturas de Geração Aumentada por Recuperação (RAG), o conceito de *Embeddings* tornou-se central para a busca semântica em repositórios de jurisprudência e relatórios de auditoria.
 
 A respeito dos *embeddings* vetoriais e de suas propriedades matemáticas e computacionais, assinale a afirmativa correta:
 
 * **A)** Um embedding vetorial é uma representação numérica contínua em que textos, imagens ou áudios são convertidos em vetores densos de números de ponto flutuante em um espaço euclidiano multidimensional (ex.: 768 ou 1536 dimensões), onde a proximidade geométrica entre vetores reflete sua similaridade semântica.
-* **B)** Embeddings vetoriais utilizam representação *sparse* (esparsa) binária do tipo One-Hot Encoding, na qual o vetor possui o tamanho exato do dicionário e 99,9% dos elementos contêm o valor zero sem capturar contexto considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **B)** Embeddings vetoriais utilizam representação *sparse* (esparsa) binária do tipo One-Hot Encoding, na qual o vetor possui o tamanho exato do dicionário e 99,9% dos elementos contêm o valor zero sem capturar contexto.
 * **C)** Dois textos com palavras sinônimas distintas (como *"licitação fraudada"* e *"certame viciado"*) geram vetores ortogonais com similaridade cosseno igual a zero no espaço de embeddings.
 * **D)** A dimensionalidade de um embedding pode ser livremente alterada após a geração do vetor sem necessidade de reprocessar os textos no modelo de aprendizado profundo.
 * **E)** Bancos de dados vetoriais dispensam vetores numéricos, realizando buscas puramente por contagem léxica de caracteres ASCII.
@@ -568,12 +568,12 @@ A respeito dos *embeddings* vetoriais e de suas propriedades matemáticas e comp
 ---
 
 ### Teste 287
-**(FCC - TCE-PI - Auditor de Controle Externo - Tecnologia da Informação)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A implementação de sistemas de Inteligência Artificial Generativa e Arquiteturas de Recuperação Aumentada por Geração (RAG) em órgãos de controle externo demanda a utilização de bancos de dados vetoriais para indexação semântica de peças processuais e relatórios de auditoria. Sobre os conceitos matemáticos e a operação de bancos de dados vetoriais, assinale a alternativa correta:
 
 * **A)** Os embeddings transformam textos em hashes criptográficos MD5, permitindo que a busca vetorial localize documentos exclusivamente quando houver correspondência exata de todos os caracteres alfanuméricos.
 * **B)** A similaridade de cosseno avalia o cosseno do ângulo formado entre dois vetores densos em um hiperespaço multidimensional, medindo a orientação semântica relativa de forma independente da magnitude do comprimento dos textos.
-* **C)** Os algoritmos de busca aproximada por vizinhos mais próximos (ANN), como o HNSW, utilizam exclusivamente a varredura linear exaustiva de força bruta em 100% da base vetorial, garantindo complexidade $\mathcal{O}(N)$ no âmbito da administração pública direta e indireta.
+* **C)** Os algoritmos de busca aproximada por vizinhos mais próximos (ANN), como o HNSW, utilizam exclusivamente a varredura linear exaustiva de força bruta em 100% da base vetorial, garantindo complexidade $\mathcal{O}(N)$.
 * **D)** O PostgreSQL não possui extensões de código aberto para tratamento de dados vetoriais, sendo mandatória a contratação de ferramentas proprietárias externas em nuvem para execução de buscas por similaridade.
 * **E)** Em espaços vetoriais densos, um valor de similaridade de cosseno igual a zero indica que os conceitos representados possuem máxima correlação e equivalência semântica absoluta.
 
@@ -593,7 +593,7 @@ A implementação de sistemas de Inteligência Artificial Generativa e Arquitetu
 ---
 
 ### Teste 288
-**(FGV - TRT / Analista Judiciário - TI - Busca Vetorial Aproximada: IVFFlat vs. HNSW no pgvector)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A extensão `pgvector` viabiliza o armazenamento e a busca vetorial em bancos de dados PostgreSQL. Para acelerar a busca pelos $k$ vizinhos mais próximos ($k$-NN) em bases com milhões de vetores, utilizam-se algoritmos de Busca Aproximada por Vizinhos Mais Próximos (*Approximate Nearest Neighbor - ANN*).
 
 No `pgvector`, os dois principais tipos de índices disponíveis para busca aproximada são o **IVFFlat** e o **HNSW**. A respeito da comparação técnica entre essas duas estruturas de indexação, assinale a afirmativa correta:
@@ -602,7 +602,7 @@ No `pgvector`, os dois principais tipos de índices disponíveis para busca apro
 * **B)** O índice HNSW só funciona com vetores de no máximo 3 dimensões, sendo proibido para aplicações de IA generativa.
 * **C)** O índice IVFFlat oferece 100% de garantia matemática de encontrar os vizinhos exatos (*Exact Nearest Neighbor*) sem qualquer aproximação heurística.
 * **D)** O índice HNSW é uma árvore B+Tree simples que ordena vetores apenas pela soma algébrica de suas coordenadas.
-* **E)** Ambos os índices dispensam a definição de métricas de distância, calculando exclusivamente a distância de Manhattan sem suporte a Similaridade Cosseno ou Distância Euclidiana ($L_2$) considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **E)** Ambos os índices dispensam a definição de métricas de distância, calculando exclusivamente a distância de Manhattan sem suporte a Similaridade Cosseno ou Distância Euclidiana ($L_2$).
 
 
 ---

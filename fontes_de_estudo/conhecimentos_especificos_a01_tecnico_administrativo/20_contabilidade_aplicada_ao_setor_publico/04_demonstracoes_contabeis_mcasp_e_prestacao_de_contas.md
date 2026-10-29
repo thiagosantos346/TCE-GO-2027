@@ -90,7 +90,7 @@ $$\text{Resultado Orçamentário} = \text{Receitas Realizadas} - \text{Despesas 
 ---
 
 ### Teste 290
-**(FCC - Adaptada / TCE-RS - Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No âmbito da Contabilidade Aplicada ao Setor Público, a demonstração contábil que evidencia as receitas previstas em confronto com as realizadas e as despesas fixadas em confronto com as executadas (empenhadas, liquidadas e pagas), apurando o resultado orçamentário do exercício, é o:
 
 * **A)** Balanço Financeiro.
@@ -115,11 +115,11 @@ No âmbito da Contabilidade Aplicada ao Setor Público, a demonstração contáb
 ---
 
 ### Teste 291
-**(FCC - Adaptada / Analista Contábil)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No Balanço Orçamentário elaborado segundo os ditames da Lei Federal nº 4.320/1964 e as diretrizes do MCASP, o confronto entre as receitas arrecadadas e as despesas empenhadas determina o resultado:
 
 * **A)** Orçamentário do exercício (superávit orçamentário se a receita arrecadada superar a despesa empenhada; déficit orçamentário na hipótese inversa).
-* **B)** Financeiro bruto, dispensando-se a consideração das disponibilidades de caixa líquidas do exercício anterior no âmbito da administração pública direta e indireta.
+* **B)** Financeiro bruto, dispensando-se a consideração das disponibilidades de caixa líquidas do exercício anterior.
 * **C)** Patrimonial do exercício, apurado obrigatoriamente pela diferença entre variações ativas e passivas.
 * **D)** Nominal primário ajustado pelas metas fiscais da Lei de Diretrizes Orçamentárias.
 * **E)** De caixa econômico, desconsiderando-se a existência de créditos suplementares abertos.
@@ -180,7 +180,7 @@ A diferença entre o somatório das entradas e das saídas é exatamente equilib
 ---
 
 ### Teste 292
-**(FCC - Adaptada / DPE-RS - Analista: Ciências Contábeis)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em relação ao Balanço Financeiro disciplinado pela Lei nº 4.320/1964 e pelo Manual de Contabilidade Aplicada ao Setor Público (MCASP), é correto afirmar que:
 
 * **A)** Apura em sua última linha o montante do superávit financeiro que servirá de fonte para abertura de créditos suplementares.
@@ -205,13 +205,13 @@ Em relação ao Balanço Financeiro disciplinado pela Lei nº 4.320/1964 e pelo 
 ---
 
 ### Teste 293
-**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 O Balanço Financeiro estruturado pelo art. 103 da Lei Federal nº 4.320/1964 demonstra a receita e a despesa orçamentárias, bem como os recebimentos e pagamentos de natureza extraorçamentária, conjugados com os saldos em espécie provenientes do exercício anterior e os que se transferem para o exercício seguinte.
 
 No Balanço Financeiro, a inscrição de despesas em **Restos a Pagar** do exercício figura como:
 
 * **A)** Ingresso extraorçamentário, para compensar a despesa orçamentária total computada no quadro dos dispêndios e viabilizar o equilíbrio formal das disponibilidades financeiras.
-* **B)** Pagamento orçamentário definitivo com redução do saldo de disponibilidades que se transferem para o exercício seguinte em estrita conformidade com as normas legais e regulamentares aplicáveis.
+* **B)** Pagamento orçamentário definitivo com redução do saldo de disponibilidades que se transferem para o exercício seguinte.
 * **C)** Receita de capital derivada de operações de crédito por antecipação de receita.
 * **D)** Variação patrimonial aumentativa independente da execução orçamentária no subsistema patrimonial.
 * **E)** Dedução obrigatória das receitas tributárias correntes arrecadadas no exercício.
@@ -268,7 +268,7 @@ flowchart LR
 ---
 
 ### Teste 294
-**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Ao final do exercício financeiro de 2023, determinado órgão público estadual apurou as seguintes informações em seus registros contábeis para fechamento do Balanço Patrimonial:
 
 - Ativo Financeiro: R$ 12.000.000,00
@@ -336,13 +336,13 @@ flowchart TD
 ---
 
 ### Teste 295
-**(FCC - Adaptada / SEFAZ-SC - Auditor Fiscal da Receita Estadual)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No encerramento do exercício financeiro, uma entidade governamental constatou que o reconhecimento da quota anual de depreciação de seus veículos operacionais no montante de R$ 500.000,00 produziu impactos nas Demonstrações Contábeis Aplicadas ao Setor Público. O reflexo desse fato contábil ocorreu:
 
 * **A)** Exclusivamente no Balanço Orçamentário, reduzindo o superávit orçamentário do exercício.
 * **B)** No Balanço Financeiro como dispêndio operacional e na Demonstração dos Fluxos de Caixa.
 * **C)** Na Demonstração das Variações Patrimoniais (DVP) como Variação Patrimonial Diminutiva (VPD) e no Balanço Patrimonial como conta redutora do Ativo Não Circulante.
-* **D)** No Balanço Orçamentário e no Balanço Financeiro simultaneamente, sem afetar o Balanço Patrimonial em estrita conformidade com as normas legais e regulamentares aplicáveis.
+* **D)** No Balanço Orçamentário e no Balanço Financeiro simultaneamente, sem afetar o Balanço Patrimonial.
 * **E)** Exclusivamente na Demonstração dos Fluxos de Caixa, classificado como fluxo de investimentos.
 
 
@@ -361,7 +361,7 @@ No encerramento do exercício financeiro, uma entidade governamental constatou q
 ---
 
 ### Teste 296
-**(FCC - Adaptada / TCE-SC - Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na Demonstração dos Fluxos de Caixa (DFC) elaborada pelas entidades do setor público de acordo com a NBC TSP 12 e o MCASP:
 
 * **A)** Os fluxos de caixa devem ser obrigatoriamente segregados em três grandes categorias de atividades: Operacionais, de Investimento e de Financiamento.
@@ -419,7 +419,7 @@ Os processos de prestação de contas enviados anualmente ao TCE-GO devem conter
 ---
 
 ### Teste 297
-**(FCC - Adaptada / TCE-GO - Analista de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A respeito da prestação de contas dos administradores públicos perante o Tribunal de Contas do Estado de Goiás (TCE-GO), assinale a afirmativa correta:
 
 * **A)** As contas prestadas pelo Chefe do Poder Executivo são submetidas a julgamento técnico irrecorrível pelo próprio Tribunal de Contas, cabendo à Assembleia Legislativa apenas tomar conhecimento.
@@ -444,12 +444,12 @@ A respeito da prestação de contas dos administradores públicos perante o Trib
 ---
 
 ### Teste 298
-**(FCC - Adaptada / TCE-GO - Analista de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No tocante ao controle externo exercido pelo Tribunal de Contas do Estado de Goiás (TCE-GO) sobre a prestação de contas dos Chefes dos Poderes e gestores públicos, assinale a opção que distingue corretamente Contas de Governo e Contas de Gestão:
 
 * **A)** As Contas de Governo expressam a atuação política e a gestão fiscal macroeconômica do Chefe do Poder Executivo em todo o exercício, sobre as quais o Tribunal de Contas emite Parecer Prévio consultivo para julgamento pelo Poder Legislativo; já as Contas de Gestão referem-se à administração dos recursos pelos ordenadores de despesas e administradores públicos, sendo julgadas técnica e definitivamente pelo próprio Tribunal de Contas.
 * **B)** As Contas de Gestão são julgadas pela Assembleia Legislativa estadual, cabendo ao Tribunal de Contas julgar as Contas de Governo do Governador do Estado.
-* **C)** O parecer prévio emitido pelo Tribunal de Contas sobre as Contas de Governo vincula categoricamente a Assembleia Legislativa, que não pode rejeitá-lo em nenhuma hipótese no âmbito da administração pública direta e indireta.
+* **C)** O parecer prévio emitido pelo Tribunal de Contas sobre as Contas de Governo vincula categoricamente a Assembleia Legislativa, que não pode rejeitá-lo em nenhuma hipótese.
 * **D)** Os ordenadores de despesa de autarquias e fundações estaduais prestam contas diretamente ao Governador do Estado, não se sujeitando à jurisdição do TCE-GO.
 * **E)** As Contas de Governo e de Gestão foram unificadas pela Constituição de 1988, devendo todas ser julgadas exclusivamente pelo Tribunal de Justiça do Estado.
 
@@ -469,14 +469,14 @@ No tocante ao controle externo exercido pelo Tribunal de Contas do Estado de Goi
 ---
 
 ### Teste 299
-**(FCC - Adaptada / Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na Demonstração das Variações Patrimoniais (DVP) elaborada de acordo com as normas da CASP (NBC TSP e MCASP), o resultado patrimonial do exercício é considerado **deficitário** quando:
 
 * **A)** O total das Variações Patrimoniais Diminutivas (VPD) for superior ao total das Variações Patrimoniais Aumentativas (VPA), reduzindo o patrimônio líquido da entidade.
 * **B)** O montante das despesas orçamentárias pagas superar as receitas orçamentárias arrecadadas na Conta Única.
 * **C)** O saldo do passivo financeiro for maior do que o ativo financeiro apurado no Balanço Patrimonial.
 * **D)** A despesa fixada na Lei Orçamentária Anual não for integralmente liquidada pelos órgãos setoriais.
-* **E)** O superávit financeiro do exercício anterior for totalmente consumido pela abertura de créditos adicionais suplementares no âmbito da administração pública direta e indireta.
+* **E)** O superávit financeiro do exercício anterior for totalmente consumido pela abertura de créditos adicionais suplementares.
 
 
 ---

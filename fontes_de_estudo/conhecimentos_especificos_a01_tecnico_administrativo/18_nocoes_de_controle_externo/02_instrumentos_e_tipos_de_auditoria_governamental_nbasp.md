@@ -90,7 +90,7 @@ flowchart TD
 ---
 
 ### Teste 176
-**(FCC – Auditor de Controle Externo / TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Os regimentos internos dos Tribunais de Contas e as normas de fiscalização governamental disciplinam os instrumentos de controle externo cabíveis para a atuação fiscalizatória das Cortes de Contas. A respeito do instrumento adequado para verificar o cumprimento de deliberações e os resultados dos acórdãos do Tribunal, é correto afirmar que se trata de:
 
 * **A)** inspeção extraordinária de obras públicas estaduais.
@@ -112,7 +112,7 @@ Os regimentos internos dos Tribunais de Contas e as normas de fiscalização gov
 > **Gabarito: B**
 
 ### Teste 177
-**(FGV – TCE-GO – Analista de Controle Externo - 2024)**  
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**  
 Os princípios de auditoria constantes nas Normas Internacionais das Entidades Fiscalizadoras Superiores (ISSAI / NBASP) são fundamentais para a condução de uma fiscalização técnica escorreita.  
 Assinale a opção que indica o princípio de auditoria governamental que enfatiza a necessidade de comunicação eficaz e transparente por parte dos auditores ao longo de todo o processo fiscalizatório:
 
@@ -135,7 +135,7 @@ Assinale a opção que indica o princípio de auditoria governamental que enfati
 > **Gabarito: C**
 
 ### Teste 178
-**(FGV – TCE-GO – Analista de Controle Externo - 2024)**  
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**  
 A Declaração de Lima é considerada a Carta Magna da auditoria governamental no plano internacional, uma vez que lançou as bases fundamentais do controle público moderno.  
 Sobre a Declaração de Lima, analise os itens a seguir:
 
@@ -164,7 +164,7 @@ Está correto o que se afirma em:
 > **Gabarito: B**
 
 ### Teste 179
-**(FGV – TCE-GO – Analista de Controle Externo - 2024)**  
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**  
 A NBASP 10 traz os princípios que devem ser observados pelo Tribunal de Contas para preservar a sua independência institucional, o que tem impactos diretos na imparcialidade e na credibilidade das conclusões de seus trabalhos e relatórios.  
 Assinale a opção que indica o princípio da NBASP 10 que preconiza que os Tribunais de Contas devem operar sem sofrer qualquer ingerência por parte da Administração Pública sobre o desempenho de suas funções:
 
@@ -187,7 +187,7 @@ Assinale a opção que indica o princípio da NBASP 10 que preconiza que os Trib
 > **Gabarito: A**
 
 ### Teste 180
-**(FGV – TCE – Auditor de Controle Externo - 2024)**  
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**  
 A NBASP 400 - Princípios de Auditoria de Conformidade estabelece diretrizes fundamentais para a realização de fiscalizações destinadas a verificar se atos, contratos e operações governamentais atendem às normas aplicáveis.  
 Nesse contexto, analise as afirmativas a seguir:
 
@@ -216,7 +216,7 @@ Está correto o que se afirma em:
 > **Gabarito: B**
 
 ### Teste 181
-**(FCC – Analista de Controle Externo / TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 De acordo com a estrutura normativa da NBASP 100 / INTOSAI, a auditoria no setor público compreende três tipos principais: financeira, de conformidade e operacional. A respeito do objeto e escopo específico da auditoria operacional, é correto afirmar:
 
 * **A)** Tem por objetivo exclusivo atestar a fidedignidade formal das demonstrações contábeis e notas explicativas.
@@ -238,7 +238,7 @@ De acordo com a estrutura normativa da NBASP 100 / INTOSAI, a auditoria no setor
 > **Gabarito: B**
 
 ### Teste 182
-**(FGV – Auditor de Controle Externo / TCE-SC / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A NBASP 100 estabelece que os trabalhos de auditoria do setor público podem ser executados sob a forma de trabalhos de asseguração razoável ou limitada. A respeito da natureza da asseguração razoável, é correto afirmar que:
 
 * **A)** consiste em uma garantia absoluta de que todas as fraudes ou erros cometidos na gestão foram detectados.
@@ -260,7 +260,7 @@ A NBASP 100 estabelece que os trabalhos de auditoria do setor público podem ser
 > **Gabarito: B**
 
 ### Teste 183
-**(FCC – Técnico de Controle Externo / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 De acordo com a NBASP 100, as auditorias do setor público envolvem três partes distintas (três sujeitos): o auditor, a parte responsável e os usuários previstos. A respeito da identificação dessas partes no controle externo, é correto afirmar:
 
 * **A)** O Poder Executivo atua simultaneamente como auditor governamental e destinatário exclusivo dos relatórios de auditoria.
@@ -282,7 +282,7 @@ De acordo com a NBASP 100, as auditorias do setor público envolvem três partes
 > **Gabarito: B**
 
 ### Teste 184
-**(FCC – Técnico de Controle Externo / TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 De acordo com os princípios da NBASP 30 (Código de Ética da INTOSAI) e os padrões profissionais da auditoria governamental, analise as condutas exigidas dos auditores no exercício do controle externo. É correto afirmar que:
 
 * **A)** O auditor pode aceitar presentes ou favores pessoais da administração auditada se o valor for irrelevante perante o mercado.
@@ -304,7 +304,7 @@ De acordo com os princípios da NBASP 30 (Código de Ética da INTOSAI) e os pad
 > **Gabarito: B**
 
 ### Teste 185
-**(FCC – Analista de Gestão Pública / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Na auditoria financeira governamental regida pela NBASP 200, a responsabilidade do auditor ao emitir o seu relatório culmina na formulação de uma opinião técnica fundamentada sobre as demonstrações contábeis. A respeito dos tipos de opinião modificada, é correto afirmar que:
 
 * **A)** A opinião sem ressalva é expressa quando o auditor identifica distorções relevantes e generalizadas nas contas públicas.
@@ -326,7 +326,7 @@ Na auditoria financeira governamental regida pela NBASP 200, a responsabilidade 
 > **Gabarito: B**
 
 ### Teste 186
-**(FGV – Analista Jurídico de Controle Externo / TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A Declaração de Lima consagra preceitos vitais para assegurar a autonomia financeira das Entidades Fiscalizadoras Superiores (Seção 7). De acordo com esse tratado internacional e sua recepção na ordem jurídica brasileira, é correto afirmar:
 
 * **A)** As Cortes de Contas devem ser dotadas de recursos financeiros próprios que lhes permitam cumprir integralmente suas tarefas.

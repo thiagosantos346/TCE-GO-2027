@@ -129,7 +129,7 @@ flowchart TD
 ---
 
 ### Teste 320
-**(FCC – DPE-RS – Analista: Área Administrativa)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Determinada equipe de modernização administrativa do Tribunal de Contas recebeu a incumbência de identificar as causas fundamentais dos atrasos reiterados na instrução processual de tomadas de contas especiais. Para estruturar a análise, os analistas utilizaram uma ferramenta visual que categoriza as causas potenciais em fatores como procedimentos e rotinas (Método), capacitação dos auditores (Mão de obra), sistemas informatizados utilizados (Máquinas/Tecnologia) e insumos documentais recebidos dos jurisdicionados (Matéria-prima). A ferramenta descrita é o:
 
 * **A)** Diagrama de Ishikawa (Espinha de Peixe).
@@ -154,7 +154,7 @@ Determinada equipe de modernização administrativa do Tribunal de Contas recebe
 ---
 
 ### Teste 321
-**(FCC - Adaptada / Analista de Planejamento e Gestão)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 O Ciclo PDCA (desenvolvido por Walter Shewhart e amplamente disseminado por W. Edwards Deming) constitui metodologia clássica de melhoria contínua de processos organizacionais.
 
 A etapa do ciclo em que a organização analisa e avalia sistematicamente as diferenças entre os resultados executados e as metas planejadas, identificando causas de variações para adoção de medidas saneadoras, denomina-se:
@@ -217,7 +217,7 @@ A Carta de Serviços ao Usuário é um instrumento de governança e transparênc
 ---
 
 ### Teste 322
-**(FCC – TCE-PI – Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Cidadão compareceu ao setor de protocolo de uma secretaria de Estado para requerer certidão de regularidade funcional, apresentando cópia simples de sua cédula de identidade acompanhada do documento original. O atendente público recusou o recebimento da documentação, exigindo que o requerente providenciasse prévia autenticação da cópia e reconhecimento de firma em cartório de notas. Considerando o disposto no Decreto Federal nº 9.094/2017 e na legislação correlata sobre simplificação de serviços públicos:
 
 * **A)** A conduta do atendente foi correta, pois a fé pública de documentos apresentados ao Estado depende de reconhecimento notarial.
@@ -242,7 +242,7 @@ Cidadão compareceu ao setor de protocolo de uma secretaria de Estado para reque
 ---
 
 ### Teste 323
-**(FCC - Adaptada / Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na Gestão de Processos de Negócio (BPM), a análise da situação corrente do processo para mapear seus gargalos, ineficiências e retrabalhos existentes é contraposta ao desenho da situação ideal futura pretendida.
 
 Esses dois estágios do ciclo BPM são internacionalmente denominados, respectivamente:
@@ -250,7 +250,7 @@ Esses dois estágios do ciclo BPM são internacionalmente denominados, respectiv
 * **A)** Mapeamento *AS-IS* (como o processo é executado atualmente) e Modelagem *TO-BE* (como o processo deverá ser executado no futuro após otimização).
 * **B)** Planejamento *BOTTOM-UP* e Execução *TOP-DOWN*.
 * **C)** Cadeia de Suprimentos *KANBAN* e Manufatura *JUST-IN-TIME*.
-* **D)** Metodologia *SCRUM* e Painel de Controle *BALANCED SCORECARD* no âmbito da administração pública direta e indireta.
+* **D)** Metodologia *SCRUM* e Painel de Controle *BALANCED SCORECARD*.
 * **E)** Matriz *SWOT* e Matriz *BCG*.
 
 
@@ -317,11 +317,11 @@ flowchart LR
 ---
 
 ### Teste 324
-**(FCC – SEFAZ-SC – Auditor Fiscal da Receita Estadual)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No âmbito da modelagem e do gerenciamento de processos de negócio (BPM - Business Process Management), os processos organizacionais são classificados em finalísticos, de suporte e de gerenciamento. Assinale a alternativa que apresenta um exemplo legítimo de processo de suporte (secundário) em uma organização pública:
 
 * **A)** Realização de fiscalização tributária e lançamento de ofício do crédito tributário estadual.
-* **B)** Concessão de aposentadorias e pensões aos servidores vinculados ao regime próprio de previdência no âmbito da administração pública direta e indireta.
+* **B)** Concessão de aposentadorias e pensões aos servidores vinculados ao regime próprio de previdência.
 * **C)** Gestão de compras e contratação de serviços de vigilância e limpeza para as dependências do prédio sede.
 * **D)** Julgamento de autos de infração fiscal pelo Tribunal Administrativo Tributário.
 * **E)** Auditoria de regularidade das despesas públicas municipais efetuada pelo Tribunal de Contas.
@@ -342,7 +342,7 @@ No âmbito da modelagem e do gerenciamento de processos de negócio (BPM - Busin
 ---
 
 ### Teste 325
-**(FCC - Adaptada / Analista de Tecnologia e Controle)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No Gerenciamento de Projetos, as metodologias ágeis (como o Scrum) ganharam amplo espaço no setor público pela necessidade de entregas parciais e adaptação constante a mudanças.
 
 No framework **Scrum**, a reunião diária, curta e estruturada (de cerca de 15 minutos), na qual a equipe alinha o andamento dos trabalhos e identifica impedimentos imediatos, é denominada:
@@ -351,7 +351,7 @@ No framework **Scrum**, a reunião diária, curta e estruturada (de cerca de 15 
 * **B)** Sprint Review.
 * **C)** Sprint Retrospective.
 * **D)** Sprint Planning.
-* **E)** Product Backlog Refinement no âmbito da administração pública direta e indireta.
+* **E)** Product Backlog Refinement.
 
 
 ---
@@ -412,14 +412,14 @@ A alteração em qualquer um desses vértices impacta compulsoriamente os outros
 ---
 
 ### Teste 326
-**(FCC – TCE-RS – Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No âmbito da gestão estratégica e da teoria das organizações, a respeito das distinções essenciais entre a gestão de processos de negócio e a gestão de projetos:
 
 * **A)** Os projetos caracterizam-se por sua natureza contínua e repetitiva, destinando-se a manter estabilizadas as operações de rotina da organização.
 * **B)** A modelagem de processos denominada AS-IS refere-se ao desenho ideal do fluxo futuro após a eliminação de redundâncias e automação tecnológica.
 * **C)** O projeto é um esforço temporário empreendido para criar um produto, serviço ou resultado exclusivo, enquanto os processos representam fluxos de trabalho permanentes e padronizados.
 * **D)** A Estrutura Analítica do Projeto (EAP) consiste em um gráfico de barras cronológico destinado a mensurar os custos diários incorridos pela equipe.
-* **E)** Os processos primários ou finalísticos de um órgão público são aqueles voltados exclusivamente para dar suporte administrativo às áreas de informática e compras no âmbito da administração pública direta e indireta.
+* **E)** Os processos primários ou finalísticos de um órgão público são aqueles voltados exclusivamente para dar suporte administrativo às áreas de informática e compras.
 
 
 ---
@@ -437,14 +437,14 @@ No âmbito da gestão estratégica e da teoria das organizações, a respeito da
 ---
 
 ### Teste 327
-**(FCC – ARTESP – Especialista em Regulação de Transportes)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em relação ao gerenciamento de projetos estruturado segundo as boas práticas do guia PMBOK (Project Management Institute), assinale a opção correta:
 
 * **A)** O Termo de Abertura do Projeto (TAP) é emitido após o término da execução física para consolidar as lições aprendidas pela equipe.
 * **B)** A Estrutura Analítica do Projeto (EAP) tem por objetivo decompor hierarquicamente o trabalho total do projeto em partes menores e gerenciáveis orientadas a entregas.
 * **C)** O grupo de processos de encerramento do projeto dispensa a aceitação formal das entregas pelo cliente quando o cronograma for cumprido no prazo previsto.
 * **D)** A restrição tripla do gerenciamento de projetos é composta exclusivamente por variáveis comportamentais: motivação, liderança e clima institucional.
-* **E)** O gerente de projeto adquire autoridade formal para aplicar recursos da organização apenas no momento em que a equipe conclui a fase de encerramento contratual no âmbito da administração pública direta e indireta.
+* **E)** O gerente de projeto adquire autoridade formal para aplicar recursos da organização apenas no momento em que a equipe conclui a fase de encerramento contratual.
 
 
 ---
@@ -462,7 +462,7 @@ Em relação ao gerenciamento de projetos estruturado segundo as boas práticas 
 ---
 
 ### Teste 328
-**(FCC - Adaptada / Analista Jurídico de Controle)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 O Decreto Federal nº 9.094/2017 (que simplifica o atendimento aos usuários dos serviços públicos e institui a Carta de Serviços) e a Lei Federal nº 13.460/2017 trazem normas expressas para a desburocratização administrativa.
 
 A respeito das exigências documentais dirigidas aos cidadãos e usuários do serviço público, de acordo com o Decreto nº 9.094/2017:
@@ -470,7 +470,7 @@ A respeito das exigências documentais dirigidas aos cidadãos e usuários do se
 * **A)** É vedada a exigência de reconhecimento de firma e de cópia autenticada em cartório de documentos expedidos no País, devendo a autenticação ser feita pelo próprio agente público mediante confronto com o original, ressalvada expressa previsão legal em contrário.
 * **B)** É obrigatória a apresentação mensal de certidões negativas de débito cível e criminal em todo requerimento administrativo individual de protocolo.
 * **C)** A Administração Pública não pode admitir a autodeclaração de veracidade sob nenhuma hipótese, exigindo sempre laudos periciais cartorários.
-* **D)** O cidadão tem o ônus exclusivo de obter certidões emitidas por outros órgãos do próprio Poder Executivo, sendo proibido o compartilhamento eletrônico de dados entre repartições estatais no âmbito da administração pública direta e indireta.
+* **D)** O cidadão tem o ônus exclusivo de obter certidões emitidas por outros órgãos do próprio Poder Executivo, sendo proibido o compartilhamento eletrônico de dados entre repartições estatais.
 * **E)** A Carta de Serviços ao Cidadão possui caráter meramente facultativo e sigiloso, não devendo ser publicada na internet.
 
 
@@ -489,13 +489,13 @@ A respeito das exigências documentais dirigidas aos cidadãos e usuários do se
 ---
 
 ### Teste 329
-**(FCC - Adaptada / TCE-GO - Analista de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na elaboração do Termo de Abertura do Projeto (*Project Charter*) e no planejamento do escopo segundo as boas práticas do Guia PMBOK, a ferramenta estruturada que decompõe hierarquicamente o trabalho total do projeto em entregas menores e pacotes de trabalho gerenciáveis é a:
 
 * **A)** Estrutura Analítica do Projeto (EAP) / *Work Breakdown Structure (WBS)*.
 * **B)** Diagrama de Dispersão de Ishikawa.
 * **C)** Curva ABC de Pareto.
-* **D)** Matriz GUT de Gravidade, Urgência e Tendência no âmbito da administração pública direta e indireta.
+* **D)** Matriz GUT de Gravidade, Urgência e Tendência.
 * **E)** Análise de Regressão Linear Múltipla.
 
 

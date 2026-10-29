@@ -68,7 +68,7 @@ A Lei do Governo Digital aplica-se obrigatoriamente a todos os entes e Poderes d
 ---
 
 ### Teste 505
-**(FCC - Auditor Estadual de Controle Externo / TI - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** A Lei Federal nº 14.129/2021 estabelece princípios, regras e instrumentos para o Governo Digital e o aumento da eficiência pública. Em relação ao âmbito de aplicação subjetivo e institucional da referida lei, assinale a afirmativa correta:  
 
 * **A)** A Lei do Governo Digital aplica-se com exclusividade ao Poder Executivo Federal, sendo expressamente vedada sua aplicação aos Estados, Distrito Federal e Municípios considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
@@ -125,7 +125,7 @@ O Art. 5º, inciso VI e o Art. 12 da Lei nº 14.129/2021 consagram expressamente
 ---
 
 ### Teste 506
-**(FCC - Técnico de Controle Externo / TI - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** Em uma repartição da Secretaria Estadual de Fazenda, um microempreendedor individual compareceu para solicitar seu credenciamento formal perante o Fisco. O servidor de atendimento recusou o protocolo digital sob o argumento de que o contribuinte não apresentou cópia física autenticada em cartório de sua cédula de identidade civil e nem certidão de quitação expedida por outro órgão do mesmo Poder Executivo Estadual. Considerando as disposições imperativas da Lei do Governo Digital (Lei Federal nº 14.129/2021):  
 
 * **A)** A exigência imposta pelo atendente foi plenamente legítima, visto que a presunção de má-fé do contribuinte impera no direito administrativo digital até comprovação documental cartorária física.
@@ -165,10 +165,10 @@ Os dados governamentais não sigilosos devem ser abertos ativamente em sítios o
 ---
 
 ### Teste 507
-**(FCC - Auditor Federal de Controle Externo / TI - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** A Lei Federal nº 14.129/2021 estabelece diretrizes rigorosas para a publicação de Dados Abertos e transparência ativa pelos órgãos dos Tribunais de Contas e da Administração Pública em geral. Com relação aos padrões técnicos mandatórios para disponibilização de dados abertos governamentais, a norma determina que os dados devem ser:  
 
-* **A)** Disponibilizados prioritariamente em documentos de texto protegidos por senha e em arquivos de imagem rasterizada (JPG ou BMP) com baixa resolução, a fim de impedir cópias por terceiros no âmbito da administração pública direta e indireta.
+* **A)** Disponibilizados prioritariamente em documentos de texto protegidos por senha e em arquivos de imagem rasterizada (JPG ou BMP) com baixa resolução, a fim de impedir cópias por terceiros.
 * **B)** Ofertados em formatos abertos, não proprietários e estruturados (como CSV, JSON ou XML), que permitam a livre reutilização e o processamento automatizado por máquina por qualquer interessado, de forma gratuita.
 * **C)** Comercializados com cobrança de tarifa bancária por megabyte baixado, transferindo-se a receita para associações privadas de tecnologia.
 * **D)** Disponibilizados apenas se o interessado assinar termo de renúncia prévia a qualquer fiscalização contábil ou representação perante o Tribunal de Contas.
@@ -208,14 +208,14 @@ flowchart TD
 ---
 
 ### Teste 508
-**(FCC - Analista de TI / Sistemas - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** A plataforma digital única GOV.BR disponibiliza mecanismos de autenticação com três níveis progressivos de segurança e confiabilidade cadastral: Bronze, Prata e Ouro. A respeito dos requisitos para obtenção desses níveis e seus respectivos graus de privilégio, assinale a alternativa correta:  
 
 * **A)** A conta de nível Bronze exige compulsoriamente a validação biométrica facial do usuário cruzada com a base de dados da Justiça Eleitoral (TSE/CIN).
 * **B)** O nível Prata pode ser obtido mediante validação biométrica facial na base da CNH (Senatran) ou validação de credenciais bancárias de instituições financeiras credenciadas via Open Finance.
 * **C)** O nível Ouro restringe-se unicamente ao envio de SMS para telefone celular pré-pago sem necessidade de confirmação cadastral prévia.
 * **D)** A obtenção de qualquer nível de conta no GOV.BR exige a presença física obrigatória do cidadão em Brasília com pagamento de taxa consular.
-* **E)** O nível Bronze é o único que autoriza a realização de transações fiscais sigilosas críticas e a assinatura eletrônica avançada de contratos administrativos no âmbito da administração pública direta e indireta.
+* **E)** O nível Bronze é o único que autoriza a realização de transações fiscais sigilosas críticas e a assinatura eletrônica avançada de contratos administrativos.
 
 
 ---
@@ -259,12 +259,12 @@ flowchart LR
 ---
 
 ### Teste 509
-**(FCC - Analista de Sistemas / Governança Digital - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** A respeito dos tipos de assinatura eletrônica aplicáveis às interações com os órgãos e entidades da Administração Pública, regulamentados pela Lei nº 14.063/2020 e pela Lei do Governo Digital (Lei nº 14.129/2021), assinale a afirmativa correta:  
 
 * **A)** A assinatura eletrônica simples exige obrigatoriamente a utilização de token criptográfico físico com certificado digital ICP-Brasil do tipo A3.
 * **B)** A assinatura eletrônica avançada é aquela que utiliza garantias que asseguram a associação unívoca ao signatário e a detecção de qualquer modificação posterior dos dados.
-* **C)** É terminantemente proibido o uso de qualquer assinatura eletrônica que não seja qualificada (ICP-Brasil) em contratos de prestação de serviços com a Administração Pública no âmbito da administração pública direta e indireta.
+* **C)** É terminantemente proibido o uso de qualquer assinatura eletrônica que não seja qualificada (ICP-Brasil) em contratos de prestação de serviços com a Administração Pública.
 * **D)** A assinatura qualificada é o padrão mais frágil e inseguro existente na legislação brasileira, sendo permitida unicamente em redes sociais e canais de lazer.
 * **E)** Os três tipos de assinaturas eletrônicas têm o mesmo nível de segurança técnica e são emitidos sem qualquer controle de credenciamento.
 
@@ -294,7 +294,7 @@ O paradigma de **Governo Como Plataforma** (*Government as a Platform - GaaP*) r
 ---
 
 ### Teste 510
-**(FCC - Analista de Sistemas - Governança Digital - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** O modelo conceitual de 'Governo Como Plataforma' (*Government as a Platform - GaaP*) e as diretrizes de interoperabilidade da Lei nº 14.129/2021 estabelecem uma nova arquitetura para a tecnologia no setor público. A respeito desse modelo, assinale a afirmativa correta:  
 
 * **A)** Cada órgão público deve programar seus próprios sistemas em silos isolados, sendo proibida a utilização de APIs governamentais compartilhadas para troca de informações.
@@ -331,14 +331,14 @@ A ENGD 2024–2027 é uma política pública de **amplitude nacional federativa*
 ---
 
 ### Teste 511
-**(FCC - Auditor de Controle Externo / TI - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** A Estratégia Nacional de Governo Digital (ENGD 2024–2027), instituída pelo Decreto nº 12.069/2024, consagra princípios de articulação federativa para a transformação digital do Estado. Sobre a abrangência e objetivos da ENGD 2024–2027, assinale a afirmativa correta:  
 
 * **A)** A ENGD restringe suas metas à modernização dos gabinetes dos Ministérios da Esplanada em Brasília, vedando repasses de tecnologia aos Estados e Municípios.
 * **B)** A nova estratégia adota abordagem estritamente federativa, buscando diminuir disparidades regionais e integrar serviços públicos digitais da União, dos Estados, do DF e dos Municípios em torno de padrões comuns de interoperabilidade e segurança.
 * **C)** O Decreto nº 12.069/2024 determinou a extinção de todas as políticas de dados abertos e transparência ativa no Brasil.
 * **D)** A ENGD estabelece que os serviços digitais governamentais devem ser inacessíveis a pessoas com deficiência física ou visual.
-* **E)** A transformação digital preconizada pela ENGD visa terceirizar integralmente a gestão da política de segurança cibernética nacional para provedores internacionais sem regulação em estrita conformidade com as normas legais e regulamentares aplicáveis.
+* **E)** A transformação digital preconizada pela ENGD visa terceirizar integralmente a gestão da política de segurança cibernética nacional para provedores internacionais sem regulação.
 
 
 ---
@@ -383,10 +383,10 @@ flowchart TD
 ---
 
 ### Teste 512
-**(FCC Inédita - Analista de TI / Governo Digital - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** O Decreto Federal nº 12.069, de 21 de junho de 2024, instituiu a Estratégia Nacional de Governo Digital (ENGD) para o ciclo 2024 a 2027, direcionada a articular a governança e a modernização digital no âmbito da União, dos Estados, do Distrito Federal e dos Municípios. A respeito das diretrizes estratégicas e dos novos paradigmas de atendimento público fixados pela ENGD 2024–2027, assinale a afirmativa correta:  
 
-* **A)** A ENGD estabelece a extinção compulsória de todos os canais de atendimento presencial nos órgãos públicos municipais e estaduais até 2025, tornando o autoatendimento em smartphones o único canal juridicamente aceito no país considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **A)** A ENGD estabelece a extinção compulsória de todos os canais de atendimento presencial nos órgãos públicos municipais e estaduais até 2025, tornando o autoatendimento em smartphones o único canal juridicamente aceito no país.
 * **B)** A estratégia consagra o paradigma dos serviços públicos proativos, segundo o qual o Estado deve atuar de forma antecipada, utilizando a integração de bases de dados seguras para identificar o direito do cidadão e prestar serviços ou conceder benefícios de forma automática, dispensando requerimentos prévios sempre que possível.
 * **C)** O Decreto nº 12.069/2024 proíbe a integração de sistemas e o compartilhamento de informações cadastrais entre estados e a União, sob o fundamento de preservar a soberania informática de cada ente da federação.
 * **D)** As diretrizes da ENGD proíbem categoricamente o uso de algoritmos de inteligência artificial em quaisquer plataformas governamentais de suporte ao atendimento.
@@ -408,7 +408,7 @@ flowchart TD
 ---
 
 ### Teste 513
-**(FCC - Auditor Fiscal da Receita Estadual / TI - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** A Estratégia Nacional de Governo Digital (ENGD 2024–2027) estrutura a evolução tecnológica governamental brasileira em cinco Eixos Estratégicos. A iniciativa que prevê a ampliação e consolidação da infraestrutura pública digital de barramentos de serviços (como o ConectaGov), viabilizando o consumo mútuo de dados fiscais, cadastrais e previdenciários entre a União, os 26 Estados, o DF e os Municípios para eliminar duplicidade de cadastros e racionalizar investimentos, insere-se precipuamente no:  
 
 * **A)** Eixo 1 - Governo Integrado e Eficiente.
@@ -450,12 +450,12 @@ A ENGD 2024–2027 estrutura a evolução digital do país em três pilares fund
 ---
 
 ### Teste 514
-**(FCC - Técnico de Controle Externo / TI - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** A ENGD 2024–2027 (Decreto nº 12.069/2024) preconiza a transição de um modelo de serviços puramente reativo para a oferta de Serviços Públicos Proativos, alicerçados no conceito de Infraestrutura Pública Digital (DPI - *Digital Public Infrastructure*). A respeito desses conceitos, assinale a afirmativa correta:  
 
 * **A)** Nos serviços públicos proativos, o Estado identifica automaticamente que o cidadão atingiu os requisitos previstos em lei e concede/oferece ativamente o serviço sem que o indivíduo precise solicitá-lo formalmente ou enfrentar burocracias de protocolo prévio.
 * **B)** A Infraestrutura Pública Digital (DPI) baseia-se na volta do uso de fichas de papelão perfuradas para armazenamento de cadastros sociais.
-* **C)** No modelo proativo, o cidadão é obrigado a contratar despachantes privados para intermediar eletronicamente o acesso aos benefícios sociais a que tem direito considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **C)** No modelo proativo, o cidadão é obrigado a contratar despachantes privados para intermediar eletronicamente o acesso aos benefícios sociais a que tem direito.
 * **D)** A DPI é composta exclusivamente por impressoras matriciais de alta velocidade, excluindo componentes de identidade digital ou pagamentos instantâneos.
 * **E)** O modelo proativo exige que o cidadão protocole petições físicas anuais perante o Tribunal de Contas para validar sua existência civil.
 

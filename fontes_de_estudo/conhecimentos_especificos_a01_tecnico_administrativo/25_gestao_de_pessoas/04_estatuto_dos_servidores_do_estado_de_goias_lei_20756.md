@@ -205,7 +205,7 @@ O desrespeito aos prazos legais acarreta efeitos administrativos substancialment
 ---
 
 ### Teste 460
-**(FCC – Analista de Controle Externo – TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Um cidadão regularmente aprovado em concurso público para o cargo de Técnico de Controle Externo do Tribunal de Contas do Estado de Goiás teve sua nomeação publicada no Diário Oficial do Estado no dia 1º de março. Ele compareceu à Diretoria de Gestão de Pessoas e tomou posse formal no dia 20 de março. De acordo com as disposições expressas da Lei Estadual de Goiás nº 20.756/2020, o prazo legal máximo para que esse servidor entre em efetivo exercício e a consequência administrativa caso ele não o faça dentro do prazo são, respectivamente:
 
 * **A)** 30 dias contados da posse; e a sua demissão administrativa por abandono de cargo.
@@ -232,13 +232,13 @@ Um cidadão regularmente aprovado em concurso público para o cargo de Técnico 
 ---
 
 ### Teste 461
-**(FCC – Inédita – Padrão TCE-GO)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 De acordo com a Lei Estadual nº 20.756/2020 (Regime Jurídico dos Servidores Públicos Civis do Estado de Goiás), a respeito dos prazos legais do ciclo de investidura (posse e exercício), assinale a afirmativa correta:
 
 * **A)** A posse dar-se-á no prazo improrrogável de 30 (trinta) dias contados da publicação oficial do ato de provimento (nomeação), e o servidor terá o prazo de 15 (quinze) dias, contados da data da posse, para entrar em efetivo exercício.
 * **B)** A posse deve ocorrer em até 90 dias úteis e o exercício inicia-se compulsoriamente no mesmo dia da posse.
 * **C)** Caso o nomeado não tome posse no prazo legal, ser-lhe-á concedida licença não remunerada automática de três meses.
-* **D)** O servidor empossado que não entrar em exercício no prazo legal será sumariamente demitido a bem do serviço público mediante processo disciplinar considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **D)** O servidor empossado que não entrar em exercício no prazo legal será sumariamente demitido a bem do serviço público mediante processo disciplinar.
 * **E)** A posse é exigida para cargos efetivos, mas é expressamente dispensada para cargos em comissão e funções de confiança.
 
 
@@ -316,11 +316,11 @@ Conforme o art. 41, § 1º, e o art. 169, § 4º, da Constituição Federal de 1
 ---
 
 ### Teste 462
-**(FCC – Inédita – Padrão TCE-GO)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No regime estatutário do Estado de Goiás (Lei nº 20.756/2020), o servidor público estável que tiver sua demissão invalidada por decisão judicial ou administrativa irrecorrível terá direito ao instituto da:
 
 * **A)** Reintegração, com o ressarcimento integral de todos os vencimentos, direitos e vantagens funcionais que deixou de auferir durante o período do afastamento ilegal.
-* **B)** Recondução sumária sem pagamento de parcelas financeiras retroativas em atendimento à responsabilidade fiscal no âmbito da administração pública direta e indireta.
+* **B)** Recondução sumária sem pagamento de parcelas financeiras retroativas em atendimento à responsabilidade fiscal.
 * **C)** Readaptação em cargo compatível com sua nova limitação física ou psíquica atestada em junta médica.
 * **D)** Reversão compulsória no interesse exclusivo do serviço público da entidade autárquica.
 * **E)** Aproveitamento prioritário em cargo de atribuições e remuneração inferiores.
@@ -390,10 +390,10 @@ Vacância é o ato ou fato administrativo que extingue o provimento, tornando de
 ---
 
 ### Teste 463
-**(FCC – Auditor de Controle Externo – TCE-RO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Rodrigo, servidor público estável do Estado de Goiás, foi demitido da repartição após processo disciplinar sumário. Inconformado, Rodrigo ajuizou ação ordinária e obteve sentença judicial transitada em julgado que declarou a manifesta nulidade do ato demissório por cerceamento do direito de ampla defesa. No momento em que Rodrigo retornou ao órgão público, constatou-se que seu cargo original estava regularmente ocupado por Marcos, outro servidor público estável que havia sido promovido legitimamente. Consoante a disciplina da Lei Estadual nº 20.756/2020, o retorno de Rodrigo ao serviço ativo e a situação jurídica de Marcos configuram, respectivamente:
 
-* **A)** Recondução de Rodrigo com ressarcimento integral; e exoneração compulsória de Marcos sem direito a indenização considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **A)** Recondução de Rodrigo com ressarcimento integral; e exoneração compulsória de Marcos sem direito a indenização.
 * **B)** Reversão de Rodrigo com vencimentos proporcionais; e transferência de Marcos para a administração indireta.
 * **C)** Reintegração de Rodrigo com ressarcimento de todos os direitos e vantagens pecuniárias retroativas; e recondução de Marcos ao cargo anterior, sem direito a indenização, ou seu aproveitamento em outro cargo.
 * **D)** Readaptação de Rodrigo com redução de jornada; e colocação imediata de Marcos em demissão administrativa.
@@ -417,14 +417,14 @@ Rodrigo, servidor público estável do Estado de Goiás, foi demitido da reparti
 ---
 
 ### Teste 464
-**(FCC – Inédita – Padrão TCE-GO)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Acerca do regime de férias remuneradas disciplinado pela Lei Estadual nº 20.756/2020 dos Servidores Públicos Civis de Goiás, é correto afirmar:
 
 * **A)** As férias anuais de 30 (trinta) dias poderão ser parceladas em até 3 (três) períodos, por solicitação do servidor e interesse da administração, desde que nenhum deles seja inferior a 10 (dez) dias corridos.
 * **B)** É obrigatória a conversão em dinheiro (venda) de pelo menos 50% do período de férias dos servidores de controle externo.
 * **C)** O servidor tem direito a férias no seu primeiro ano de serviço sem a necessidade de cumprimento de qualquer período aquisitivo inicial.
 * **D)** O adicional constitucional de férias no Estado de Goiás é pago à razão de metade (50%) da remuneração do mês de gozo.
-* **E)** É proibida a acumulação de férias sob qualquer pretexto, extinguindo-se o direito caso o servidor não usufrua o descanso até o fim do ano civil em estrita conformidade com as normas legais e regulamentares aplicáveis.
+* **E)** É proibida a acumulação de férias sob qualquer pretexto, extinguindo-se o direito caso o servidor não usufrua o descanso até o fim do ano civil.
 
 
 ---
@@ -490,11 +490,11 @@ flowchart TD
 ---
 
 ### Teste 465
-**(FCC – Técnico de Controle Externo – Área Administrativa – TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Nos moldes da Lei Estadual nº 20.756/2020, o servidor público estável poderá obter autorização administrativa para afastar-se de suas funções a fim de tratar de interesses particulares. A respeito dessa licença estatutária, assinale a afirmativa correta:
 
 * **A)** A licença poderá ser concedida pelo prazo de até cinco anos consecutivos, mantido o pagamento integral de seu vencimento básico.
-* **B)** A concessão da licença é direito público subjetivo incondicionado do servidor, não podendo a autoridade administrativa negá-la, ainda que haja manifesto prejuízo ao serviço considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **B)** A concessão da licença é direito público subjetivo incondicionado do servidor, não podendo a autoridade administrativa negá-la, ainda que haja manifesto prejuízo ao serviço.
 * **C)** A licença para o trato de interesses particulares dar-se-á sem remuneração e vigorará pelo prazo de até 3 (três) anos consecutivos, permanecendo condicionada à prévia aquisição de estabilidade funcional e ao juízo de conveniência e oportunidade da administração.
 * **D)** O servidor em cumprimento de estágio probatório faz jus à referida licença após completar doze meses de efetivo exercício no cargo.
 * **E)** Durante o período de fruição da licença sem vencimentos, o servidor continuará computando o tempo integralmente para efeitos de promoção por merecimento funcional.
@@ -633,14 +633,14 @@ flowchart LR
 ---
 
 ### Teste 466
-**(FCC – Analista Jurídico – PGE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Um servidor público titular de cargo efetivo da administração direta do Estado de Goiás ausentou-se deliberadamente e sem qualquer justificativa legal de seu posto de trabalho por 35 (trinta e cinco) dias consecutivos durante o mês de janeiro. Ciente do fato, a chefia imediata oficiou à autoridade competente. Conforme o Estatuto dos Servidores Públicos Civis de Goiás (Lei nº 20.756/2020), a conduta do servidor caracteriza:
 
 * **A)** Inassiduidade habitual, cominada com penalidade de suspensão pelo prazo improrrogável de trinta dias.
 * **B)** Abandono de cargo público, passível de punição disciplinar com a penalidade de demissão, apurada mediante processo administrativo disciplinar.
 * **C)** Falta justificada ficta, sujeita exclusivamente à conversão dos dias em banco de horas compensatório.
 * **D)** Desobediência hierárquica atenuada, sancionada unicamente com repreensão oral lavrada em ata interna.
-* **E)** Inaptidão probatória superveniente, ensejando a aposentadoria compulsória do agente com proventos integrais no âmbito da administração pública direta e indireta.
+* **E)** Inaptidão probatória superveniente, ensejando a aposentadoria compulsória do agente com proventos integrais.
 
 
 ---
@@ -658,12 +658,12 @@ Um servidor público titular de cargo efetivo da administração direta do Estad
 ---
 
 ### Teste 467
-**(FCC – Analista de Controle Externo – Gestão Governamental – TCE-AP)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em matéria de poder disciplinar sancionador preconizado na Lei Estadual de Goiás nº 20.756/2020, a pretensão disciplinar da administração pública estadual para punir o servidor prescreve, respectivamente, nos seguintes prazos, a contar da data em que o fato se tornou conhecido pela autoridade competente:
 
 * **A)** Em 5 anos, para faltas puníveis com demissão; em 2 anos, para a penalidade de suspensão; e em 180 dias, para a penalidade de advertência.
 * **B)** Em 10 anos, para a demissão; em 5 anos, para a suspensão; e em 1 ano, para a advertência escrita.
-* **C)** Em 4 anos para quaisquer penalidades disciplinares, tendo em vista o princípio da uniformidade processual do Estado federado no âmbito da administração pública direta e indireta.
+* **C)** Em 4 anos para quaisquer penalidades disciplinares, tendo em vista o princípio da uniformidade processual do Estado federado.
 * **D)** Em 5 anos, para as infrações puníveis com advertência; e imprescritível para as infrações que cominem demissão e improbidade.
 * **E)** Em 180 dias para a demissão; e em 30 dias para a suspensão funcional de servidores de controle.
 
@@ -686,7 +686,7 @@ Em matéria de poder disciplinar sancionador preconizado na Lei Estadual de Goi�
 ---
 
 ### Teste 468
-**(FCC – Inédita – Padrão TCE-GO)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em matéria de responsabilidade funcional e penalidades disciplinares no Estatuto dos Servidores Públicos Civis de Goiás (Lei nº 20.756/2020), considere a seguinte infração:
 
 Determinado servidor efetivo do Estado de Goiás cometeu ato de incontinência pública ou conduta escandalosa na repartição que perturbou a ordem dos serviços e causou grave dano moral à imagem da instituição.
@@ -713,13 +713,13 @@ Determinado servidor efetivo do Estado de Goiás cometeu ato de incontinência p
 ---
 
 ### Teste 469
-**(FCC – Inédita – Padrão TCE-GO)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Quanto aos prazos de prescrição da pretensão punitiva disciplinar da Administração Pública estadual previstos na Lei Estadual nº 20.756/2020, a ação disciplinar prescreve em:
 
 * **A)** 5 (cinco) anos, quanto às infrações puníveis com demissão, cassação de aposentadoria ou disponibilidade e destituição de cargo em comissão; 2 (dois) anos, quanto às puníveis com suspensão; e 180 (cento e oitenta) dias, quanto às puníveis com advertência.
 * **B)** 10 anos para qualquer penalidade funcional, respeitada a prescrição civil do Código Civil.
 * **C)** 30 dias para todas as penalidades, a contar da prática do ato faltoso.
-* **D)** Prazo imprescritível em se tratando de infrações disciplinares cometidas por servidores de controle externo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **D)** Prazo imprescritível em se tratando de infrações disciplinares cometidas por servidores de controle externo.
 * **E)** 1 ano para demissão e 5 anos para advertência escrita.
 
 

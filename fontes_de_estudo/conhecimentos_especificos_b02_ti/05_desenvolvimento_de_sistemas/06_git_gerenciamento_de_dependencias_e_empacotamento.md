@@ -192,12 +192,12 @@ O comando `git reset <hash>` move o ponteiro HEAD para trás:
 ---
 
 ### Teste 108
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Internamente, o Git armazena todo o histórico e a árvore de arquivos de um projeto em um repositório orientado a objetos (*Content-Addressable Storage*) dentro da pasta `.git/objects`. Os objetos fundamentais desse modelo estruturam-se em:
 
 * **A)** Arquivos `.doc`, planilhas `.xls` e executáveis `.exe`.
 * **B)** *Blobs* (que armazenam o conteúdo dos arquivos), *Trees* (que representam diretórios e mapeiam nomes de arquivos e permissões para blobs ou outras trees) e *Commits* (que apontam para uma tree raiz e armazenam autor, data, mensagem e ponteiros para os commits pais).
-* **C)** Registros relacionais indexados por chaves primárias do tipo auto-incremento considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **C)** Registros relacionais indexados por chaves primárias do tipo auto-incremento.
 * **D)** Tabelas de partição de sistema de arquivos NTFS.
 * **E)** Sockets de rede virtuais com endereçamento IPv6.
 
@@ -221,7 +221,7 @@ Internamente, o Git armazena todo o histórico e a árvore de arquivos de um pro
 ---
 
 ### Teste 109
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Um repositório Git local organiza o ciclo de vida dos arquivos em três áreas conceituais fundamentais: a Área de Trabalho (*Working Directory*), a Área de Preparação (*Staging Area* ou *Index*) e o Repositório Local (*Commit History* / `.git`). O comando utilizado para mover arquivos modificados do *Working Directory* para a *Staging Area*, preparando-os para o próximo commit, é:
 
 * **A)** `git push`
@@ -246,12 +246,12 @@ Um repositório Git local organiza o ciclo de vida dos arquivos em três áreas 
 ---
 
 ### Teste 110
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Ao integrar o código de uma branch de desenvolvimento (*feature branch*) à branch principal (*main*), o desenvolvedor pode optar pelo comando `git merge` ou pelo comando `git rebase`. A respeito das consequências dessas duas abordagens no histórico do projeto, é correto afirmar:
 
 * **A)** O `git merge` lineariza o histórico reescrevendo os hashes de todos os commits anteriores, eliminando bifurcações.
 * **B)** O `git merge` (sem fast-forward) preserva o histórico original intacto e cria um novo commit de junção (*merge commit*) com dois pais, ao passo que o `git rebase` reaplica os commits da feature branch um a um no topo da branch de destino, reescrevendo o histórico de commits de forma linear.
-* **C)** O `git rebase` é uma operação estritamente recomendada para branches públicas compartilhadas por múltiplos desenvolvedores remotos considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **C)** O `git rebase` é uma operação estritamente recomendada para branches públicas compartilhadas por múltiplos desenvolvedores remotos.
 * **D)** Ambos os comandos executam exatamente a mesma rotina física sem alterar qualquer ponteiro de commit.
 * **E)** O `git merge` só pode ser executado se o computador estiver conectado à Internet.
 
@@ -271,12 +271,12 @@ Ao integrar o código de uma branch de desenvolvimento (*feature branch*) à bra
 ---
 
 ### Teste 111
-**(FCC - Analista de TI / Sistemas)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No modelo operacional do Git, o comando `git reset` permite retroceder a posição do ponteiro `HEAD` para um determinado commit anterior da árvore histórica. Esse comando aceita diferentes parâmetros que determinam o destino das alterações existentes nos arquivos.
 
 Sobre os efeitos dos parâmetros do comando `git reset`, assinale a afirmativa correta:  
 
-* **A)** O comando `git reset --soft HEAD~1` move o ponteiro HEAD para o commit anterior e descarta permanentemente todas as alterações tanto da Staging Area quanto do Working Directory considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **A)** O comando `git reset --soft HEAD~1` move o ponteiro HEAD para o commit anterior e descarta permanentemente todas as alterações tanto da Staging Area quanto do Working Directory.
 * **B)** O comando `git reset --mixed HEAD~1` (modo padrão) move o ponteiro HEAD para o commit anterior, desfaz a preparação dos arquivos na Staging Area, mas preserva todas as modificações no Working Directory como arquivos modificados não rastreados para o próximo commit.
 * **C)** O comando `git reset --hard HEAD~1` mantém intactas as modificações no Working Directory e apenas remove os arquivos da Staging Area.
 * **D)** O comando `git reset --hard` é o mecanismo recomendado para branches públicas compartilhadas, pois não afeta o histórico de commits dos demais desenvolvedores.
@@ -307,7 +307,7 @@ Em branches públicas compartilhadas, o `git reset` é proibido. Para desfazer a
 ---
 
 ### Teste 112
-**(FCC - Analista de TI / Sistemas)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Um analista de sistemas do Tribunal de Contas estava desenvolvendo uma nova rotina de auditoria financeira no ramo de trabalho `feature-auditoria`. Durante o desenvolvimento, com dezenas de arquivos editados na sua área de trabalho (*working directory*) e na área de preparação (*staging area*), ele recebeu uma ordem prioritária para corrigir imediatamente uma falha crítica de segurança no ramo principal `main`. O analista não deseja realizar um commit parcial de código incompleto, mas necessita que sua árvore de trabalho fique totalmente limpa para permitir alternar de ramo sem erros.
 
 Posteriormente, após solucionar a falha e submeter a correção ao repositório remoto público compartilhado com toda a equipe de engenharia, ele constatou que um commit anterior presente na branch pública compartilhada causou um efeito colateral indesejado. Ele precisa anular e desfazer as alterações introduzidas por aquele commit específico sem reescrever ou apagar a linha histórica já sincronizada pelos demais desenvolvedores.
@@ -317,7 +317,7 @@ Para atender a esses dois requisitos com segurança e conformidade com as boas p
 * **A)** `git stash` para armazenar temporariamente as modificações não consolidadas em uma pilha interna; e `git revert <hash>` para gerar um novo commit que anula exatamente as modificações do commit defeituoso na branch pública.
 * **B)** `git reset --hard` para limpar o diretório de trabalho; e `git reset --soft <hash>` para remover o commit do histórico compartilhado.
 * **C)** `git checkout -b hotfix` para ignorar o trabalho não salvo; e `git rebase -i` para expurgar a linha do commit na branch compartilhada.
-* **D)** `git stash` para guardar as alterações; e `git reset --hard <hash>` acompanhado de `git push --force` para sobrescrever a branch pública considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **D)** `git stash` para guardar as alterações; e `git reset --hard <hash>` acompanhado de `git push --force` para sobrescrever a branch pública.
 * **E)** `git clean -df` para ocultar o código local; e `git commit --amend` para renomear o commit defeituoso no repositório remoto.
 
 
@@ -393,7 +393,7 @@ flowchart LR
 
 ### 2.3 Manifestos vs. Arquivos de Trava (Lockfiles) e o Comando `npm ci`
 - **Arquivo de Manifesto (`package.json`, `pom.xml`, `requirements.txt`):** Descreve os metadados do projeto e declara faixas de tolerância flexíveis para as dependências (ex.: `"express": "^4.18.0"`).
-- **Arquivo de Trava (*Lockfile* - `package-lock.json`, `poetry.lock`, `yarn.lock`):** É gerado automaticamente pelo gerenciador de pacotes para congelar a **árvore completa e exata de dependências transitivas**, gravando a versão exata de cada subdependência instalada e o seu **hash criptográfico de integridade** (`integrity: sha512-...`). Garante compilações 100% determinísticas e reproduzíveis em qualquer máquina.
+- **Arquivo de Trava (*Lockfile* - `package-lock.json`, `poetry.lock`, `yarn.lock`):** É gerado automaticamente pelo gerenciador de pacotes para congelar a **árvore completa e exata de dependências transitivas**, gravando a versão exata de cada subdependência instalada e o seu **hash criptográfico de integridade** (`integrity: sha512-..`). Garante compilações 100% determinísticas e reproduzíveis em qualquer máquina.
 
 > 🚨 **ALERTA DE PROVA / FCC:**  
 > **`npm install` vs. `npm ci` em Esteiras de CI/CD:**  
@@ -433,7 +433,7 @@ flowchart LR
 ---
 
 ### Teste 113
-**(FCC – TCE – Auditor de Controle Externo / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No gerenciamento de dependências de software moderno (como Maven, npm ou Poetry), quando um projeto declara explicitamente a biblioteca A, e esta, por sua vez, requer internamente a biblioteca B para funcionar, a biblioteca B é caracterizada na arquitetura do projeto como uma:
 
 * **A)** Dependência circular primária.
@@ -458,7 +458,7 @@ No gerenciamento de dependências de software moderno (como Maven, npm ou Poetry
 ---
 
 ### Teste 114
-**(FCC - Técnico de Controle Externo / TI)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Considere uma biblioteca de auditoria governamental que adota rigorosamente a especificação de Versionamento Semântico (*Semantic Versioning* - SemVer 2.0.0), encontrando-se atualmente na versão de distribuição `2.4.1`. A equipe de desenvolvimento realizou intervenções de melhoria e disponibilizou novas versões do pacote.
 
 A respeito das regras formais do SemVer e da gestão de dependências com gerenciadores de pacotes modernos, assinale a afirmativa correta:  
@@ -485,13 +485,13 @@ A respeito das regras formais do SemVer e da gestão de dependências com gerenc
 ---
 
 ### Teste 115
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em ambientes de Integração Contínua (CI/CD) com Node.js, recomenda-se a utilização do comando `npm ci` em substituição ao clássico `npm install`. Essa recomendação fundamenta-se no fato de que o `npm ci`:
 
 * **A)** Atualiza automaticamente todas as bibliotecas para a última versão disponível no repositório público do npm.
 * **B)** Requer a presença obrigatória do arquivo de trava `package-lock.json` e instala rigorosamente as versões exatas de dependências especificadas no lockfile, deletando previamente a pasta `node_modules` e garantindo builds estritamente reprodutíveis e determinísticos.
 * **C)** Ignora completamente o arquivo `package-lock.json` e compila apenas o código C++.
-* **D)** Permite a instalação de pacotes sem acesso à rede local ou remota, criando o código das bibliotecas via inteligência artificial considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **D)** Permite a instalação de pacotes sem acesso à rede local ou remota, criando o código das bibliotecas via inteligência artificial.
 * **E)** Funciona exclusivamente se o servidor de CI estiver executando sobre o sistema operacional Windows 98.
 
 
@@ -510,14 +510,14 @@ Em ambientes de Integração Contínua (CI/CD) com Node.js, recomenda-se a utili
 ---
 
 ### Teste 116
-**(FCC - Analista de Sistemas / Integração Contínua e Build)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No ecossistema de desenvolvimento de sistemas em Java gerenciado pela ferramenta Apache Maven, o ciclo de vida de construção (*build lifecycle*) organiza a execução de objetivos (*goals*) em fases pré-definidas. Simultaneamente, em ambientes de esteiras de Integração Contínua (CI/CD), a garantia de builds reprodutíveis e determinísticos tornou-se um requisito mandatório de conformidade e segurança da cadeia de suprimentos.
 
 A respeito do ciclo de vida do Maven e dos mecanismos que garantem builds reproduzíveis em gerenciadores de dependências modernos, assinale a afirmativa correta:  
 
 * **A)** A fase `package` do Maven precede a fase `compile`, permitindo empacotar o artefato antes da compilação do código Java para acelerar o processo de testes.
 * **B)** O comando `mvn install` compila o código, roda os testes, gera o pacote e copia o artefato resultante para o repositório local do desenvolvedor (`~/.m2/repository`), disponibilizando-o como dependência para outros projetos na mesma máquina.
-* **C)** Em projetos Node.js em esteiras de CI/CD, o comando `npm install` deve sempre substituir o comando `npm ci`, pois o `npm install` impede qualquer modificação no arquivo `package-lock.json` no âmbito da administração pública direta e indireta.
+* **C)** Em projetos Node.js em esteiras de CI/CD, o comando `npm install` deve sempre substituir o comando `npm ci`, pois o `npm install` impede qualquer modificação no arquivo `package-lock.json`.
 * **D)** As coordenadas de um artefato Maven declaradas no `pom.xml` são definidas unicamente pelo parâmetro `releaseDate`, dispensando a indicação de `groupId` e `artifactId`.
 * **E)** O arquivo de lockfile (`package-lock.json` ou `poetry.lock`) impede a compilação de código caso o repositório remoto contenha novas versões maiores (*MAJOR*) de bibliotecas de terceiros.
 
@@ -583,13 +583,13 @@ Em ambientes corporativos como tribunais de contas, o acesso a repositórios pú
 ---
 
 ### Teste 117
-**(FGV – TJ – Analista Judiciário / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 As ferramentas de empacotamento web (*bundlers*) evoluíram significativamente com o surgimento do Vite. A principal inovação arquitetural que confere ao Vite velocidade de inicialização do servidor de desenvolvimento ordens de grandeza superior à do Webpack tradicional reside no fato de que o Vite:
 
 * **A)** Não permite o uso de arquivos TypeScript ou JavaScript moderno.
 * **B)** Aproveita a disponibilidade nativa de módulos JavaScript (*Native ES Modules* - ESM) nos navegadores modernos e delega o pré-empacotamento de dependências pesadas a ferramentas escritas em Go de alta performance (*esbuild*), empacotando sob demanda apenas o módulo requisitado pelo navegador.
 * **C)** Exige que todo o código seja convertido em imagens vetoriais SVG antes da visualização na tela.
-* **D)** Elimina a necessidade do navegador web, executando todo o front-end diretamente no prompt de comando do terminal considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **D)** Elimina a necessidade do navegador web, executando todo o front-end diretamente no prompt de comando do terminal.
 * **E)** Compila todos os arquivos CSS para código binário em linguagem Assembly.
 
 
@@ -608,7 +608,7 @@ As ferramentas de empacotamento web (*bundlers*) evoluíram significativamente c
 ---
 
 ### Teste 118
-**(FCC - Auditor Fiscal / Tecnologia da Informação)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No contexto do desenvolvimento de aplicações web modernas com ferramentas de empacotamento (*module bundlers* como Webpack, Rollup e Vite), o processo que visa reduzir o volume de dados transferido para os navegadores dos usuários finais recorre a técnicas sofisticadas de otimização de código.
 
 A técnica que consiste na análise estática das instruções `import` e `export` dos módulos ECMAScript (ESM) para identificar e eliminar blocos de código, funções e variáveis exportadas que nunca são efetivamente utilizados no restante da aplicação denomina-se:  

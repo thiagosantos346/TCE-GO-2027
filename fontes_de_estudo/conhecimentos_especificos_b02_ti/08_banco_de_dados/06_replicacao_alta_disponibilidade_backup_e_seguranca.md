@@ -105,14 +105,14 @@ Cliente ◄──(2. SUCESSO)── Primário
 ---
 
 ### Teste 289
-**(FCC - TRT / Analista Judiciário - TI - Replicação Síncrona vs. Assíncrona e RPO)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em projetos de alta disponibilidade de bancos de dados para órgãos de controle externo, a escolha entre replicação síncrona e assíncrona impacta diretamente os indicadores de continuidade de negócios e o desempenho das transações.
 
 A respeito das características operacionais da **Replicação Síncrona**, assinale a afirmativa correta:
 
 * **A)** A replicação síncrona garante que não haverá perda de dados em caso de desastre no nó primário ($RPO = 0$), ao custo de impor uma penalidade de latência de escrita (*write latency penalty*), visto que a transação no nó primário só recebe confirmação de `COMMIT` após os dados ou registros de log serem recebidos e confirmados por ao menos uma réplica em rede.
 * **B)** A replicação síncrona reduz a latência de escrita para zero porque dispensa o envio de logs para os nós secundários.
-* **C)** Em caso de lentidão severa na rede entre o nó primário e a réplica síncrona, a replicação síncrona aborta o cluster inteiro e converte o banco para somente-leitura considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **C)** Em caso de lentidão severa na rede entre o nó primário e a réplica síncrona, a replicação síncrona aborta o cluster inteiro e converte o banco para somente-leitura.
 * **D)** A replicação assíncrona é a única que consegue atingir matematicamente um Recovery Point Objective igual a zero ($RPO = 0$).
 * **E)** O PostgreSQL não suporta replicação síncrona, operando exclusivamente em modo assíncrono não-transacional.
 
@@ -134,12 +134,12 @@ A respeito das características operacionais da **Replicação Síncrona**, assi
 ---
 
 ### Teste 290
-**(FGV - TJ-AP / Analista Judiciário - Banco de Dados - Replicação Física vs. Replicação Lógica)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No ecossistema PostgreSQL, administradores de banco de dados podem implementar tanto a Replicação Física por Fluxo (*Physical Streaming Replication*) quanto a Replicação Lógica (*Logical Replication*).
 
 A respeito das distinções conceituais e operacionais entre essas duas abordagens de replicação, assinale a afirmativa correta:
 
-* **A)** A replicação lógica exige versões idênticas do PostgreSQL e a mesma arquitetura de hardware em todos os nós, ao passo que a replicação física permite replicar dados entre sistemas operacionais e versões principais (*major versions*) diferentes considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **A)** A replicação lógica exige versões idênticas do PostgreSQL e a mesma arquitetura de hardware em todos os nós, ao passo que a replicação física permite replicar dados entre sistemas operacionais e versões principais (*major versions*) diferentes.
 * **B)** A replicação física transfere blocos exatos do Write-Ahead Log (WAL) byte a byte, replicando a instância inteira de modo homogêneo (todas as bases de dados e objetos), enquanto a replicação lógica opera no nível de publicação/assinatura (*publish/subscribe*), permitindo replicar seletivamente tabelas individuais e executar versões diferentes do SGBD nos nós de destino.
 * **C)** A replicação física permite que as réplicas em modo *Standby* recebam operações concorrentes de escrita (`INSERT` e `UPDATE`) em tabelas de produção.
 * **D)** A replicação lógica dispensa a existência de chaves primárias ou identificadores únicos nas tabelas replicadas.
@@ -233,7 +233,7 @@ Para erradicar a ocorrência de split-brain, os sistemas modernos de HA utilizam
 ---
 
 ### Teste 291
-**(FGV - TJ-AP / Analista Judiciário - Banco de Dados - Switchover vs. Failover em Alta Disponibilidade)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em ambientes de missão crítica de tribunais, a gestão de continuidade de serviços de tecnologia da informação diferencia com rigor os procedimentos de **Switchover** e **Failover**.
 
 A respeito dessas duas operações de transição de papéis entre nós de banco de dados, assinale a afirmativa correta:
@@ -241,7 +241,7 @@ A respeito dessas duas operações de transição de papéis entre nós de banco
 * **A)** O *Switchover* é uma transição planejada e controlada na qual o nó primário ativo transfere a liderança para uma réplica standby sincronizada sem qualquer perda de dados ($RPO = 0$).
 * **B)** O *Failover* é realizado exclusivamente em janelas programadas durante os finais de semana e nunca envolve a promoção de réplicas.
 * **C)** O *Switchover* acarreta necessariamente a perda irremediável de 1 hora de transações da base de dados.
-* **D)** O *Failover* exige a aprovação física de três auditores em formulário impresso antes que qualquer software de monitoramento possa atuar no âmbito da administração pública direta e indireta.
+* **D)** O *Failover* exige a aprovação física de três auditores em formulário impresso antes que qualquer software de monitoramento possa atuar.
 * **E)** Ambos os termos são sinônimos perfeitos e referem-se à restauração de backups em fitas magnéticas.
 
 
@@ -262,12 +262,12 @@ A respeito dessas duas operações de transição de papéis entre nós de banco
 ---
 
 ### Teste 292
-**(FCC - TRF-3ª Região - Analista Judiciário - Informática)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em clusters de alta disponibilidade operando com réplicas distribuídas em datacenters geograficamente separados, a ruptura física dos canais de comunicação de rede entre os nós pode ocasionar uma partição de rede. A respeito dos mecanismos de consenso utilizados para prevenir a corrupção de dados e a ocorrência de *Split-Brain*, é correto afirmar:
 
 * **A)** O fenômeno de *Split-Brain* é naturalmente impossível em clusters compostos por exatamente 2 nós de pesos idênticos.
 * **B)** Os algoritmos de consenso baseados em quórum de maioria (como Raft e Paxos) exigem que um nó ou subconjunto de nós obtenha a maioria absoluta de votos ($\lfloor N/2 \rfloor + 1$) para prosseguir com operações de escrita, forçando os nós isolados na partição minoritária a suspender gravações.
-* **C)** A técnica de STONITH (*Shoot The Other Node In The Head*) consiste em promover simultaneamente todos os nós isolados a servidores mestres com o objetivo de multiplicar a capacidade de escrita considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **C)** A técnica de STONITH (*Shoot The Other Node In The Head*) consiste em promover simultaneamente todos os nós isolados a servidores mestres com o objetivo de multiplicar a capacidade de escrita.
 * **D)** A ocorrência de dois nós primários concorrentes não acarreta danos à integridade do banco de dados, pois sistemas relacionais conciliam divergências automaticamente por união natural.
 * **E)** Para garantir a mitigação de falhas em partições de rede, os clusters distribuídos devem ser projetados prioritariamente com um número par de servidores.
 
@@ -359,7 +359,7 @@ A elaboração de acordos de nível de serviço (SLA) para desastres baseia-se e
 ---
 
 ### Teste 293
-**(FCC - TRT-15ª Região - Analista Judiciário - Tecnologia da Informação)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A equipe de infraestrutura de dados de um tribunal adota a seguinte política semanal de cópias de segurança:
 
 - **Domingo às 01h00:** Backup Físico Completo (*Full*).
@@ -390,7 +390,7 @@ Sobre os procedimentos técnicos de restauração (*Restore*) na quinta-feira, �
 ---
 
 ### Teste 294
-**(FGV - TRT-16 / Analista Judiciário - TI - Estratégias de Backup: Full, Diferencial e Incremental)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Para mitigar o risco de perda de dados e estabelecer janelas eficientes de cópia de segurança em uma instituição pública com 10 Terabytes de dados, a equipe de TI avaliou as estratégias de backup: Completo (*Full*), Diferencial e Incremental.
 
 Considere a seguinte política semanal: no domingo à meia-noite é executado um Backup Full. De segunda a sábado à meia-noite, são executadas cópias auxiliares. Na quinta-feira às 10h da manhã ocorreu uma quebra física irreversível no subsistema de armazenamento primário.
@@ -422,7 +422,7 @@ A respeito do tempo de execução, consumo de armazenamento e processo de recupe
 ---
 
 ### Teste 295
-**(FCC - DPE-RS - Analista de Tecnologia da Informação)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Às 14h35 de uma terça-feira, durante a realização de uma rotina emergencial no banco de dados de produção de um tribunal, um operador executou inadvertidamente o comando `DROP TABLE CADASTRO_SERVIDORES`. A organização adota uma política com Backup Físico Completo (*Full*) todos os domingos às 00h00, backups incrementais diários às 23h00 e mantém o arquivamento contínuo ininterrupto de todos os logs de transação (*WAL / Archived Redo Logs*).
 Para reverter o banco de dados exatamente ao estado em que se encontrava às 14h34m59s (um segundo antes do comando destrutivo), minimizando a perda de transações legítimas, a estratégia técnica apropriada é:
 
@@ -430,7 +430,7 @@ Para reverter o banco de dados exatamente ao estado em que se encontrava às 14h
 * **B)** Utilizar o mecanismo de *Point-in-Time Recovery* (PITR), restaurando a cópia física base e reaplicando sequencialmente os arquivos de log transacional arquivados até o carimbo de data e hora especificado anterior à falha.
 * **C)** Executar uma rotina de Backup Lógico Frio para exportar os metadados da tabela a partir da memória do sistema operacional.
 * **D)** Emitir um comando de `ROLLBACK` na sessão do usuário que executou o comando destrutivo para anular a exclusão dos dados.
-* **E)** Restaurar unicamente o arquivo de backup incremental de segunda-feira, sendo tecnicamente impossível recuperar dados transacionados entre as 23h00 de segunda e as 14h35 de terça no âmbito da administração pública direta e indireta.
+* **E)** Restaurar unicamente o arquivo de backup incremental de segunda-feira, sendo tecnicamente impossível recuperar dados transacionados entre as 23h00 de segunda e as 14h35 de terça.
 
 
 ---
@@ -448,7 +448,7 @@ Para reverter o banco de dados exatamente ao estado em que se encontrava às 14h
 ---
 
 ### Teste 296
-**(FCC - TCE-PI - Auditor de Controle Externo - Tecnologia da Informação)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 O Plano de Continuidade de Negócios e Recuperação de Desastres de um Tribunal de Contas estabeleceu duas diretrizes mandatórias para os sistemas corporativos de auditoria:
 
 1. Em caso de desastre físico no datacenter principal, a tolerância para descarte de dados fiscais é de **zero transações confirmadas**.
@@ -459,7 +459,7 @@ A respeito das métricas de resiliência e dos modelos de replicação envolvido
 * **A)** A primeira diretriz define o RTO, podendo ser atendida exclusivamente por backups em fitas magnéticas semanais.
 * **B)** A primeira diretriz define um RPO igual a zero, exigindo replicação síncrona de dados para o nó secundário; enquanto a segunda diretriz define um RTO de 15 minutos, demandando infraestrutura com detecção ágil e failover automatizado.
 * **C)** O fenômeno de *Split-Brain* é definido formalmente como o estado no qual o RTO de um cluster supera 48 horas ininterruptas.
-* **D)** A replicação puramente assíncrona garante perda zero de dados em caso de destruição repentina do nó primário, pois os dados comitados ficam congelados na rede até a confirmação da réplica no âmbito da administração pública direta e indireta.
+* **D)** A replicação puramente assíncrona garante perda zero de dados em caso de destruição repentina do nó primário, pois os dados comitados ficam congelados na rede até a confirmação da réplica.
 * **E)** RPO e RTO são conceitos financeiros atrelados ao custo de licenças de software, sem relação com tempos de contingência operacional.
 
 
@@ -512,7 +512,7 @@ O **Dynamic Data Masking (DDM)** intercepta as consultas SQL no momento de sua e
 ---
 
 ### Teste 297
-**(FCC - TCE-RS - Auditor Público Externo - Tecnologia da Informação)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em conformidade com as exigências de privacidade da Lei Geral de Proteção de Dados (LGPD) e as boas práticas de segurança corporativa em órgãos públicos, a equipe de administração de banco de dados implementou duas medidas técnicas:
 
 1. Criptografia dos blocos de dados físicos em repouso (*data-at-rest*) no disco rígido e nas fitas de backup de maneira imperceptível para as instruções SQL e aplicações conectadas.
@@ -544,12 +544,12 @@ As duas abordagens de segurança correspondem, respectivamente, a:
 ---
 
 ### Teste 298
-**(FGV - TJ-AP / Analista Judiciário - Banco de Dados - Mascaramento Dinâmico de Dados - DDM e LGPD)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Com o advento da Lei Geral de Proteção de Dados Pessoais (LGPD), órgãos de auditoria pública implementaram a técnica de Mascaramento Dinâmico de Dados (*Dynamic Data Masking - DDM*) em seus sistemas gerenciadores de banco de dados.
 
 A respeito dos princípios de funcionamento e dos benefícios de segurança proporcionados pelo DDM, assinale a afirmativa correta:
 
-* **A)** O DDM altera permanentemente os valores gravados nas páginas físicas do disco rígido, destruindo de forma irreversível os dados cadastrais originais da base considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **A)** O DDM altera permanentemente os valores gravados nas páginas físicas do disco rígido, destruindo de forma irreversível os dados cadastrais originais da base.
 * **B)** O DDM atua na camada de apresentação da consulta SQL em tempo real, ofuscando campos confidenciais (como CPF, números de cartão e remunerações) com base em privilégios e papéis do usuário conectado, mantendo os dados originais integralmente intactos e inalterados no armazenamento físico em disco.
 * **C)** O DDM é uma tecnologia exclusiva de criptografia assimétrica de chaves públicas do padrão RSA de 4096 bits.
 * **D)** O DDM impede que auditores realizem comandos `SELECT` nas tabelas mascaradas, retornando sempre uma mensagem de erro de compilação SQL.
@@ -574,12 +574,12 @@ A respeito dos princípios de funcionamento e dos benefícios de segurança prop
 ---
 
 ### Teste 299
-**(FGV - TJ-RR / Analista Judiciário - Governança de TI - Controle de Acesso RBAC e Trilhas de Auditoria)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A segurança da informação em bancos de dados corporativos baseia-se em princípios de defesa em profundidade, destacando-se o Controle de Acesso Baseado em Papéis (*Role-Based Access Control - RBAC*) e a geração de Trilhas de Auditoria (*Audit Trails*).
 
 Em relação às boas práticas de governança e implementação desses controles em SGBDs, assinale a afirmativa correta:
 
-* **A)** O princípio do privilégio mínimo (*Least Privilege*) estabelece que privilégios administrativos irrestritos (`SUPERUSER` ou `DBA`) devem ser atribuídos preventivamente a todos os usuários corporativos para evitar abertura de chamados no suporte em estrita conformidade com as normas legais e regulamentares aplicáveis.
+* **A)** O princípio do privilégio mínimo (*Least Privilege*) estabelece que privilégios administrativos irrestritos (`SUPERUSER` ou `DBA`) devem ser atribuídos preventivamente a todos os usuários corporativos para evitar abertura de chamados no suporte.
 * **B)** A utilização de *Roles* (Papéis) permite agrupar privilégios de acesso a objetos do banco segundo funções de negócio (ex.: `role_auditor_externo`), associando os usuários aos papéis correspondentes, o que simplifica a governança e previne privilégios residuais decorrentes de transferências de pessoal.
 * **C)** Trilhas de auditoria de banco de dados devem registrar exclusivamente operações de `SELECT`, sendo proibido registrar comandos DDL como `DROP` e `ALTER TABLE` por restrições constitucionais.
 * **D)** O controle de acesso discricionário (DAC) impede que o proprietário de uma tabela conceda permissões de leitura a outros usuários.

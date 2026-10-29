@@ -78,7 +78,7 @@ As informações fornecidas dividem-se em três modalidades lógicas:
 ---
 
 ### Teste 092
-**(FCC – TRT – Analista Judiciário)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em uma equipe de suporte da TI do Tribunal de Contas, quatro analistas — Lucas, Mateus, Nivaldo e Otávio — são responsáveis por quatro sistemas corporativos: Folha de Pagamento, Processo Eletrônico, Portal da Transparência e Controle de Bens. Sabe-se que:
 
 1. Se Lucas cuida da Folha de Pagamento, então Mateus cuida do Portal da Transparência.  
@@ -125,7 +125,7 @@ A partir dessas premissas, conclui-se necessariamente que:
 ---
 
 ### Teste 093
-**(FCC – TRT-23 – Analista Judiciário)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Três analistas judiciários — André, Bernardo e Carlos — atuam em três setores diferentes de um tribunal: Protocolo, Recursos Humanos e Licitações, não necessariamente nessa ordem. Cada um deles utiliza um meio de transporte distinto para ir ao trabalho: carro, ônibus ou bicicleta. Sabe-se que:  
 1. André vai de bicicleta para o trabalho.  
 2. O servidor lotado em Recursos Humanos não vai de carro.  
@@ -205,7 +205,7 @@ Quando o texto apresenta a pista: *"O servidor formado em Direito reside em Apar
 ---
 
 ### Teste 094
-**(FCC – TCE-GO – Técnico de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Três servidores do TCE-GO — Alice, Bruno e Camila — trabalham em gabinetes de três Conselheiros distintos: Conselheiro $X$, Conselheiro $Y$ e Conselheiro $Z$. Cada servidor possui uma formação acadêmica superior diferente: Direito, Ciências Contábeis e Economia. Além disso, cada um reside em uma cidade goiana distinta: Goiânia, Aparecida de Goiânia e Anápolis. Sabe-se que:
 
 1. O servidor lotado no gabinete do Conselheiro $X$ é formado em Economia.  
@@ -253,7 +253,7 @@ Com base nessas informações, é correto concluir que:
 ---
 
 ### Teste 095
-**(FCC – TCE-GO – Analista de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Quatro conselheiros de um Tribunal de Contas — Afonso, Beatriz, Celso e Daniel — residem em quatro cidades goianas diferentes: Goiânia, Anápolis, Rio Verde e Itumbiara. Cada um deles é relator de uma área técnica distinta: Obras Públicas, Saúde, Educação e Previdência. Sabe-se que:  
 1. O conselheiro que mora em Anápolis é o relator da área de Educação.  
 2. Afonso reside em Rio Verde e não relata Obras Públicas nem Saúde.  
@@ -328,7 +328,7 @@ Se uma pista estabelece que *"Bernardo ficou em colocação imediatamente anteri
 ---
 
 ### Teste 096
-**(FCC – TCE-GO – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Cinco auditores — André, Bernardo, Caio, Daniel e Eduardo — foram classificados do 1º ao 5º lugar em uma avaliação de desempenho interna do TCE-GO, sem empates. Sabe-se que:
 
 - Caio ficou em uma colocação melhor do que Eduardo.  
@@ -377,7 +377,7 @@ Com base nessas condições, o auditor que obteve o 1º lugar foi:
 ---
 
 ### Teste 097
-**(FCC – DPE-RS – Analista)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Cinco servidores — Paulo, Quéfren, Rodrigo, Sérgio e Tiago — trabalham em um edifício administrativo de 5 andares, cada um em um andar diferente (do 1º ao 5º andar). Sabe-se que:  
 1. Rodrigo trabalha em um andar mais alto do que Paulo.  
 2. Sérgio trabalha exatamente no andar intermediário (3º andar).  
@@ -449,7 +449,7 @@ Todos os demais ocupantes não são vizinhos imediatos.
 ---
 
 ### Teste 098
-**(FCC – TCE-PI – Analista de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Seis Conselheiros do Tribunal de Contas — Alberto, Beatriz, Carlos, Diana, Elias e Flávia — sentam-se ao redor de uma mesa de reuniões circular com 6 cadeiras igualmente espaçadas, numeradas de 1 a 6 no sentido horário (vistas de cima). Todos estão voltados para o centro da mesa. Sabe-se que:
 1. Alberto senta-se diametralmente oposto a Diana.  
 2. Beatriz senta-se imediatamente à direita de Alberto.  
@@ -489,7 +489,7 @@ Nessas condições, quem está sentado imediatamente à direita de Diana?
 ---
 
 ### Teste 099
-**(FCC – METRÔ-SP – Analista)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Seis membros de uma banca examinadora — A, B, C, D, E e F — sentam-se ao redor de uma mesa circular com seis cadeiras igualmente espaçadas. Sabe-se que:  
 1. A senta-se exatamente em frente a D (diametralmente oposto).  
 2. B senta-se imediatamente à direita de A.  
@@ -550,7 +550,7 @@ A ementa do edital exige expressamente a *"avaliação das condições usadas pa
 ---
 
 ### Teste 100
-**(FCC – TCE-GO – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere quatro auditores — Paulo, Renan, Sérgio e Tiago — que possuem idades distintas: 25, 28, 31 e 35 anos, não necessariamente nessa ordem. Para se determinar com precisão unívoca a idade de cada um deles, foram apresentadas as seguintes três condições:
 I. Paulo é mais velho que Sérgio.  
 II. A idade de Renan é um número par.  
@@ -589,7 +589,7 @@ Avalie se essas três condições, em conjunto, são suficientes para determinar
 ---
 
 ### Teste 101
-**(FCC – TRT-14 – Analista Judiciário)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere o problema de suficiência de dados a seguir para determinar o salário mensal de um auditor:  
 *Pergunta: Qual é o valor exato do salário de Marcelo?*  
 *Afirmação (1): O salário de Marcelo é R$ 2.000,00 superior ao de Renato.*  

@@ -148,8 +148,7 @@ Outro ponto importante é o **vocabulário em contexto**: a FCC frequentemente p
 
 
 ### Teste 001
-
-**(FCC – TCE-GO – Analista de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 *Considere o seguinte excerto:*  
 *"A velocidade vertiginosa com que as novas tecnologias de inteligência artificial são integradas ao cotidiano suscita promessas sedutoras de eficiência administrativa absoluta e erradicação do erro humano. Contudo, essa aparente panaceia obscurece o fato de que os sistemas algorítmicos herdaram os próprios vieses, preconceitos e miopias éticas dos dados históricos que os alimentam. Longe de representarem uma objetividade asséptica, tais instrumentos podem operar como sofisticados espelhos que reproduzem, com roupagem matemática, as velhas assimetrias sociais"*.
 
@@ -208,7 +207,7 @@ Na prova, isso aparece em perguntas sobre o **ponto de vista** do autor, sobre o
 --- 
 
 ### Teste 002
-**(FCC – DPE-RS – Analista – Processual)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere o seguinte trecho:  
 *"A recente decisão governamental de rever a concessão de incentivos fiscais para determinados setores produtivos não deve ser encarada sob a ótica simplista do confronto ideológico. Trata-se, em verdade, de imperativo inadiável de responsabilidade fiscal e transparência republicana. Não é concebível que renúncias bilionárias continuem sendo renovadas sem a devida comprovação de contrapartidas sociais e geração efetiva de empregos. A sociedade tem o direito de saber o retorno exato de cada centavo que deixa de ingressar nos cofres públicos."*  
 (Adaptado de publicação institucional de órgão de imprensa)
@@ -268,7 +267,7 @@ A **injunção** orienta o comportamento do leitor: diz o que fazer e como fazer
 --- 
 
 ### Teste 003
-**(FCC – TRT-23 – Analista Judiciário)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere o seguinte excerto:  
 *"O relator ajeitou os óculos sobre o nariz, respirou fundo e abriu a pasta de capa azul que continha o processo de licitação sob suspeita. O silêncio na sala de sessões era denso, quebrado apenas pelo sussurro intermitente do aparelho de ar-condicionado. Naquelas quatrocentas páginas, repousavam indícios materiais de sobrepreço que desviavam recursos destinados ao transporte escolar. A negligência fiscalizatória da administração pública não é mera desatenção burocrática: traduz-se no abandono de crianças sem acesso às salas de aula e corrói a própria legitimidade das instituições democráticas."*
 
@@ -350,7 +349,7 @@ O **subentendido** é uma insinuação que **depende do contexto** e da interpre
 ---
 
 ### Teste 004
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere o seguinte trecho argumentativo:  
 *"Costuma-se argumentar que a imposição de regras rígidas de controle prévio nas contratações públicas paralisa a máquina administrativa e asfixia o dinamismo dos investimentos estatais. No entanto, estudos empíricos desenvolvidos pela OCDE e por centros de pesquisa econômica demonstram que cada real investido em fiscalização tempestiva economiza até quatro vezes mais em custos de reparação de danos e sobrepreços contratuais. Portanto, o controle não constitui entrave burocrático, mas sim salvaguarda indispensável à sustentabilidade fiscal do Estado."*
 
@@ -377,7 +376,7 @@ Na organização dos argumentos do excerto, o autor:
 ---
 
 ### Teste 005
-**(FCC – TRT-14 – Analista Judiciário)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere a frase a seguir:  
 *"Após a auditoria operacional, o órgão previdenciário **voltou a** publicar mensalmente as planilhas de desembolso financeiro, e os novos gestores **ainda** mantêm os relatórios acessíveis à consulta pública."*
 
@@ -424,7 +423,7 @@ A conotação está na base das **figuras de linguagem** (item 9), especialmente
 ---
 
 ### Teste 006
-**(FCC – DPE-RS – Analista Jurídico)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Assinale a alternativa em que a relação entre orações do texto expressa valor semântico de conotação e linguagem figurada:
 
 * **A)** *"O contrato administrativo foi rescindido unilateralmente pela administração com base no artigo 137 da legislação vigente."*
@@ -491,7 +490,7 @@ Exemplo: *"O relator permaneceu em silêncio. **Como solucionar aquele impasse s
 ---
 
 ### Teste 007
-**(FCC – TRT – Analista Judiciário)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 *Observe o fragmento a seguir:*  
 *"O relator permaneceu em silêncio por longos minutos diante dos autos volumosos. Como solucionar aquele impasse procedimental sem ferir a jurisprudência consolidada da Casa? Sabia que os olhares de todos os presentes convergiam para sua bancada. Era preciso decidir, e decidir imediatamente"*.
 
@@ -556,7 +555,7 @@ A transposição exige **ajuste simultâneo** de todos os elementos: uma alterna
 ---
 
 ### Teste 008
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Transpondo-se a oração em discurso direto:  
 *O auditor afirmou aos gestores: "Concluirei a fiscalização amanhã e entregarei este relatório à presidência"*  
 para o discurso indireto, a forma verbal e os elementos dêiticos ajustam-se corretamente em:
@@ -611,7 +610,7 @@ A **alusão** é uma **referência indireta**, breve e sem citação literal, a 
 
 
 ### Teste 009
-**(FCC – TCE-GO – Analista de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere os dois textos abaixo:  
 
 **Texto I** (Gonçalves Dias, *Canção do Exílio*):  
@@ -704,7 +703,7 @@ Exploram a **sonoridade** das palavras, sendo frequentes em poesia, publicidade 
 ---
 
 ### Teste 010
-**(FCC – METRÔ-SP – Analista de Comunicação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere os versos e expressões a seguir:  
 
 I. *"A cidade dormia sob o manto pesado de um silêncio ensurdecedor."*  
@@ -743,7 +742,7 @@ As figuras de linguagem presentes nos trechos I, II e III são, respectivamente:
 ---
 
 ### Teste 011
-**(FCC – TRT – Analista Judiciário)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere o seguinte período:  
 *"O procurador examinava minuciosamente os autos da representação; o auditor, as planilhas financeiras das empreiteiras contratadas."*
 

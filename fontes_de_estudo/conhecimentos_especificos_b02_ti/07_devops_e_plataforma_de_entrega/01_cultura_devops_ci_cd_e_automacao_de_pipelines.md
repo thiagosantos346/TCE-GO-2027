@@ -135,7 +135,7 @@ As métricas DORA resultam de quase uma década de pesquisas empíricas e rigor 
 ---
 
 ### Teste 171
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O framework C.A.L.M.S., concebido por Damon Edwards e John Willis, resume os cinco pilares fundacionais da cultura DevOps em organizações de alto desempenho. Os cinco pilares representados pelo acrônimo C.A.L.M.S. são:
 
 * **A)** *Control, Architecture, Legacy, Monitoring, Speed*
@@ -165,7 +165,7 @@ O framework C.A.L.M.S., concebido por Damon Edwards e John Willis, resume os cin
 ---
 
 ### Teste 172
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Na obra de referência *The DevOps Handbook* (Gene Kim, Jez Humble et al.), as práticas e princípios que norteiam a transformação DevOps são organizados nas "Três Vias" (*The Three Ways*). A Segunda Via (*The Second Way*) tem como objetivo primordial:
 
 * **A)** Acelerar o fluxo unidirecional de valor de Desenvolvimento para Operações, aumentando o tamanho dos lotes de entrega.
@@ -190,13 +190,13 @@ Na obra de referência *The DevOps Handbook* (Gene Kim, Jez Humble et al.), as p
 ---
 
 ### Teste 173
-**(FCC - Adaptada / TI - Métricas DORA e Desempenho em Engenharia de Software)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A equipe de liderança técnica de uma Secretaria de Fazenda Estadual realizou uma avaliação de maturidade de seus processos de entrega contínua com base no framework DORA (*DevOps Research and Assessment*). De acordo com os relatórios consolidados do State of DevOps Report da DORA, as organizações classificadas como de alta performance técnica (*high performers*) são caracterizadas por:  
 
 * **A)** Alto *Lead Time for Changes* (superior a um mês) para assegurar rigorosas revisões manuais por comitês de governança (CAB) antes de qualquer implantação.
 * **B)** Alta frequência de implantação (*Deployment Frequency*) combinada simultaneamente com baixo tempo de recuperação de serviços (*Time to Restore Service*) e baixa taxa de falha em mudanças (*Change Failure Rate*).
 * **C)** Baixa frequência de implantação (deploys semestrais em lotes grandes), priorizando a estabilidade através do congelamento de código (*code freeze*).
-* **D)** Alta taxa de falha em mudanças (*Change Failure Rate* acima de 50%), justificada pela necessidade de aprendizado rápido na Terceira Via do DevOps, desconsiderando a perda de disponibilidade no âmbito da administração pública direta e indireta.
+* **D)** Alta taxa de falha em mudanças (*Change Failure Rate* acima de 50%), justificada pela necessidade de aprendizado rápido na Terceira Via do DevOps, desconsiderando a perda de disponibilidade.
 * **E)** Foco exclusivo no custo financeiro da computação em nuvem, ignorando métricas de velocidade de entrega e estabilidade operacional.
 
 
@@ -286,12 +286,12 @@ A **Implantação Contínua (*Continuous Deployment*)** representa o nível máx
 ---
 
 ### Teste 174
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Na esteira de Integração Contínua (CI), uma prática consagrada originária do Sistema Toyota de Produção (metáfora do *Andon Cord*) é o princípio do *"Stop the Line"* (Parar a Linha de Montagem). No contexto do desenvolvimento de software em equipe, esse princípio determina que:
 
 * **A)** Sempre que o build quebrar ou um teste automatizado falhar no pipeline da branch principal, a equipe deve priorizar imediatamente a correção do problema antes de comitar qualquer novo código, impedindo o acúmulo de erros sobre uma base instável.
 * **B)** Todos os desenvolvedores devem desligar seus computadores e sair do escritório por tempo indeterminado.
-* **C)** O pipeline deve desabilitar os testes que falharam para que o deploy possa prosseguir normalmente para produção considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **C)** O pipeline deve desabilitar os testes que falharam para que o deploy possa prosseguir normalmente para produção. em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **D)** O código da branch principal deve ser revertido para a versão original do ano anterior.
 * **E)** A gerência deve transferir o projeto para uma consultoria externa sem aviso prévio.
 
@@ -311,7 +311,7 @@ Na esteira de Integração Contínua (CI), uma prática consagrada originária d
 ---
 
 ### Teste 175
-**(FCC - Adaptada / TI - Práticas de CI/CD e Espectro de Automação)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No contexto da cultura DevOps e das práticas modernas de engenharia de software, considere as seguintes afirmativas sobre Integração Contínua (CI), Entrega Contínua (*Continuous Delivery*) e Implantação Contínua (*Continuous Deployment*):
 
 I. Na Integração Contínua (*Continuous Integration*), desenvolvedores integram código ao ramo principal com alta frequência, disparando compilações e execuções de testes automatizados a cada *commit*, de modo a identificar falhas de integração precocemente.  
@@ -407,7 +407,7 @@ flowchart TD
 
 ### 3.5 Feature Flags / Feature Toggles e Dark Launching
 
-- **Feature Flags (ou Toggles):** Mecanismo de controle em nível de código-fonte que permite encapsular novas funcionalidades em blocos condicionais (`if (featureManager.isEnabled("NOVO_MODULO_FISCAL")) { ... }`). Permite desacoplar a implantação do código (*deployment*) da ativação comercial do recurso (*release*). Um código pode estar rodando em produção com a funcionalidade desligada no servidor de configuração remota, sendo ativada sob demanda sem a necessidade de novo pipeline de deploy.
+- **Feature Flags (ou Toggles):** Mecanismo de controle em nível de código-fonte que permite encapsular novas funcionalidades em blocos condicionais (`if (featureManager.isEnabled("NOVO_MODULO_FISCAL")) { .. }`). Permite desacoplar a implantação do código (*deployment*) da ativação comercial do recurso (*release*). Um código pode estar rodando em produção com a funcionalidade desligada no servidor de configuração remota, sendo ativada sob demanda sem a necessidade de novo pipeline de deploy.
 - **Dark Launching:** O código novo é implantado em produção e passa a ser executado em segundo plano de forma invisível aos usuários (ex.: para cada requisição recebida, o sistema envia uma chamada assíncrona ao novo algoritmo fiscal em paralelo, comparando os resultados e medindo o impacto em banco de dados sem exibir as saídas na interface do usuário).
 
 > 🚨 **ALERTA DE PROVA / PEGADINHA FCC:**  
@@ -420,7 +420,7 @@ flowchart TD
 ---
 
 ### Teste 176
-**(FCC - Adaptada / TI - Estratégias Modernas de Implantação / Deployment)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Um Tribunal de Contas está modernizando a infraestrutura do seu sistema de auditoria eletrônica para permitir atualizações frequentes sem causar indisponibilidade aos auditores e aos cidadãos. A equipe de arquitetura necessita adotar uma estratégia de implantação que atenda aos seguintes requisitos:
 
 - Permitir testar a nova versão do sistema em um ambiente produtivo idêntico ao atual antes de liberar o acesso geral;
@@ -429,7 +429,7 @@ Um Tribunal de Contas está modernizando a infraestrutura do seu sistema de audi
 
 A estratégia de implantação que atende perfeitamente a esses requisitos é:  
 
-* **A)** *Recreate Deployment* no âmbito da administração pública direta e indireta.
+* **A)** *Recreate Deployment*.
 * **B)** *Rolling Update*.
 * **C)** *Blue-Green Deployment*.
 * **D)** *Big Bang Release*.
@@ -451,12 +451,12 @@ A estratégia de implantação que atende perfeitamente a esses requisitos é:
 ---
 
 ### Teste 177
-**(FCC – TCE – Auditor de Controle Externo / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Dentre as estratégias modernas de implantação contínua (*Deployment Strategies*), o *Canary Deployment* (Implantação Canário) diferencia-se da estratégia *Blue-Green* pelo fato de:
 
 * **A)** Exigir a substituição imediata e simultânea de 100% dos servidores em produção em uma fração de segundo.
 * **B)** Encaminhar gradualmente uma pequena fração controlada do tráfego real de usuários (por exemplo, 2% a 5%) para a nova versão da aplicação, monitorando métricas de erro e telemetria antes de expandir progressivamente o tráfego para a totalidade dos usuários.
-* **C)** Manter dois ambientes idênticos em produção alternando o roteador de borda de forma binária de um para o outro considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **C)** Manter dois ambientes idênticos em produção alternando o roteador de borda de forma binária de um para o outro. em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **D)** Impedir que o sistema opere durante os finais de semana.
 * **E)** Funcionar exclusivamente em aplicações desktop monousuário desconectadas da rede.
 
@@ -476,14 +476,14 @@ Dentre as estratégias modernas de implantação contínua (*Deployment Strategi
 ---
 
 ### Teste 178
-**(FGV – TJ – Analista Judiciário / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A utilização de *Feature Flags* (ou *Feature Toggles*) é uma técnica de engenharia de software indispensável para viabilizar entregas contínuas com Trunk-Based Development. A principal vantagem arquitetural proporcionada pelo uso de Feature Flags reside em:
 
 * **A)** Acelerar a velocidade de clock do banco de dados relacional.
 * **B)** Desacoplar formalmente a implantação física do código (*deployment*) da ativação comercial da funcionalidade para os usuários (*release*), permitindo que código em desenvolvimento seja mesclado na branch principal e enviado a produção em estado desligado.
 * **C)** Excluir automaticamente o código-fonte da aplicação após 30 dias de uso em produção.
 * **D)** Impedir que desenvolvedores utilizem branches locais no Git.
-* **E)** Substituir os testes de segurança automatizados (SAST/DAST) por questionários manuais considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **E)** Substituir os testes de segurança automatizados (SAST/DAST) por questionários manuais. em conformidade com as diretrizes e padrões de arquitetura corporativa.
 
 
 ---
@@ -536,13 +536,13 @@ Proposta por Mike Cohn, a pirâmide de testes orienta a distribuição ótima do
 ---
 
 ### Teste 179
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Na cultura DevSecOps, a integração da segurança ao longo de todo o ciclo de vida do software (*Shift-Left Security*) apoia-se em duas ferramentas automatizadas centrais no pipeline: SAST (*Static Application Security Testing*) e SCA (*Software Composition Analysis*). A correta distinção entre SAST e SCA estabelece que:
 
 * **A)** SAST audita o código-fonte proprietário da organização em repouso em busca de vulnerabilidades e falhas de codificação (como injeção SQL e XSS), enquanto SCA analisa as dependências de terceiros e bibliotecas de código aberto para identificar vulnerabilidades conhecidas (CVEs) e riscos de licenciamento.
 * **B)** SCA só pode ser executado em sistemas com servidores de banco de dados Oracle.
 * **C)** SAST testa a aplicação em tempo de execução contra ataques de negação de serviço (DDoS).
-* **D)** Ambos os termos são sinônimos perfeitos de testes manuais de caixa-preta realizados por estagiários considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **D)** Ambos os termos são sinônimos perfeitos de testes manuais de caixa-preta realizados por estagiários.
 * **E)** SAST destina-se exclusivamente a validar o layout gráfico de páginas em CSS3.
 
 
@@ -682,8 +682,8 @@ O Jenkins é um dos servidores de automação de código aberto mais tradicionai
     - **Controller (antigo Master):** Servidor central que hospeda a interface web, gerencia as configurações dos projetos, agenda a fila de execução e supervisiona a distribuição de cargas de trabalho. O Controller **não deve executar compilações ou testes pesados diretamente**, a fim de preservar sua estabilidade.
     - **Agents (antigos Slaves):** Instâncias de computação (máquinas virtuais, nós físicos ou contêineres Docker efêmeros) que recebem comandos do Controller para executar fisicamente as etapas do pipeline.
 - **Jenkinsfile e Estilos de Pipeline:** O pipeline é versionado dentro do projeto em um arquivo chamado `Jenkinsfile`:
-    1. **Declarative Pipeline (Estilo Moderno e Padronizado):** Utiliza uma sintaxe declarativa estrita e de fácil leitura, iniciando obrigatoriamente pelo bloco raiz `pipeline { ... }`. Possui seções estruturadas para `agent`, `stages`, `stage`, `steps` e blocos de encerramento `post { success { ... } failure { ... } }`.
-    2. **Scripted Pipeline (Estilo Tradicional em Groovy):** Sintaxe imperativa legada baseada diretamente na linguagem Groovy, iniciando por blocos `node { ... }`. Permite construções lógicas complexas e laços imperativos, mas apresenta curva de aprendizado mais íngreme e menor facilidade de manutenção.
+    1. **Declarative Pipeline (Estilo Moderno e Padronizado):** Utiliza uma sintaxe declarativa estrita e de fácil leitura, iniciando obrigatoriamente pelo bloco raiz `pipeline { .. }`. Possui seções estruturadas para `agent`, `stages`, `stage`, `steps` e blocos de encerramento `post { success { .. } failure { .. } }`.
+    2. **Scripted Pipeline (Estilo Tradicional em Groovy):** Sintaxe imperativa legada baseada diretamente na linguagem Groovy, iniciando por blocos `node { .. }`. Permite construções lógicas complexas e laços imperativos, mas apresenta curva de aprendizado mais íngreme e menor facilidade de manutenção.
 
 Exemplo de Jenkinsfile Declarativo:
 
@@ -693,19 +693,19 @@ pipeline {
     stages {
         stage('Compilação e Lint') {
             steps {
-                echo 'Compilando a aplicação...'
+                echo 'Compilando a aplicação..'
                 sh 'mvn clean compile'
             }
         }
         stage('Testes Automatizados') {
             steps {
-                echo 'Executando testes de unidade...'
+                echo 'Executando testes de unidade..'
                 sh 'mvn test'
             }
         }
         stage('Homologação e Deploy') {
             steps {
-                echo 'Implantando no cluster corporativo...'
+                echo 'Implantando no cluster corporativo..'
                 sh './scripts/deploy.sh'
             }
         }
@@ -727,12 +727,12 @@ pipeline {
 >
 > - **GitHub Actions:** Configurado em `.github/workflows/*.yml`; usa `needs:` para dependência de jobs (que rodam em paralelo por padrão); usa `runs-on:` para runners.
 > - **GitLab CI/CD:** Arquivo `.gitlab-ci.yml`; organiza por `stages` (jobs de um mesmo stage rodam em paralelo; stages rodam em sequência); distingue `artifacts` (transferência no mesmo pipeline) de `cache` (reaproveitamento entre pipelines).
-> - **Jenkins:** Arquitetura `Controller-Agent` (o Controller gerencia; os Agents executam); pipelines declarativos iniciam com `pipeline { agent any; stages { ... } }`.
+> - **Jenkins:** Arquitetura `Controller-Agent` (o Controller gerencia; os Agents executam); pipelines declarativos iniciam com `pipeline { agent any; stages { .. } }`.
 
 ---
 
 ### Teste 180
-**(FCC - Adaptada / TI - Ferramentas de CI/CD: GitHub Actions)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Considere o seguinte trecho de manifesto de automação do GitHub Actions definido no caminho `.github/workflows/pipeline.yml`:
 
 ```yaml
@@ -786,11 +786,11 @@ A respeito da execução desse pipeline, assinale a afirmativa correta:
 ---
 
 ### Teste 181
-**(FCC - Adaptada / TI - GitLab CI/CD e Jenkins: Estrutura e Diretivas)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em relação aos arquivos de manifesto e à estrutura operacional das ferramentas de integração contínua GitLab CI/CD e Jenkins, assinale a opção correta:  
 
 * **A)** No GitLab CI/CD, a diretiva `artifacts` serve unicamente para reaproveitar arquivos temporários como dependências de compiladores entre pipelines distintos, tendo a mesma função semântica de `cache`.
-* **B)** No GitLab CI/CD, se os estágios forem definidos como `stages: [build, test, deploy]`, todos os jobs vinculados ao estágio `build` são executados sequencialmente em um único runner, bloqueando qualquer concorrência interna no âmbito da administração pública direta e indireta.
+* **B)** No GitLab CI/CD, se os estágios forem definidos como `stages: [build, test, deploy]`, todos os jobs vinculados ao estágio `build` são executados sequencialmente em um único runner, bloqueando qualquer concorrência interna.
 * **C)** No Jenkins, a arquitetura moderna prevê o nó *Controller* (antigo Master) como o responsável por gerenciar o agendamento de tarefas e configurações, delegando a execução física dos passos do pipeline para nós *Agents* (antigos Slaves).
 * **D)** Um pipeline declarativo do Jenkins (*Declarative Pipeline*) é codificado livremente sem qualquer estrutura de blocos obrigatória, usando comandos Groovy imperativos sem a necessidade da diretiva `pipeline`.
 * **E)** No arquivo `.gitlab-ci.yml`, a palavra-chave `image:` é obrigatória para cada job individual, sendo proibido definir uma imagem Docker global compartilhada no nível raiz do arquivo.
@@ -803,7 +803,7 @@ Em relação aos arquivos de manifesto e à estrutura operacional das ferramenta
 > - **A)** Incorreta. No GitLab CI/CD existe distinção conceitual nítida entre `artifacts` e `cache`. **Artifacts** são saídas formais geradas por um job (como binários compilados `.jar` ou relatórios de testes) salvas no GitLab e transmitidas aos estágios posteriores do **mesmo pipeline**. **Cache** serve para acelerar builds armazenando dependências de bibliotecas de terceiros (como `.m2` ou `node_modules`) compartilhadas entre **diferentes execuções de pipelines**.
 > - **B)** Incorreta. Jobs associados ao mesmo estágio (*stage*) executam **em paralelo** caso existam múltiplos runners disponíveis no GitLab, acelerando o tempo de processamento.
 > - **C)** Correta. A arquitetura padrão do Jenkins é distribuída (*Controller-Agent*). O nó Controller gerencia os jobs, agenda filas e hospeda a interface gráfica, delegando a execução física das compilações, testes e comandos de shell para os nós Agents.
-> - **D)** Incorreta. Essa descrição aplica-se ao *Scripted Pipeline* (baseado em Groovy imperativo puro iniciado por blocos `node { ... }`). O *Declarative Pipeline* possui sintaxe estrita obrigatória, iniciando sempre pelo bloco estruturado `pipeline { agent any; stages { ... } }`.
+> - **D)** Incorreta. Essa descrição aplica-se ao *Scripted Pipeline* (baseado em Groovy imperativo puro iniciado por blocos `node { .. }`). O *Declarative Pipeline* possui sintaxe estrita obrigatória, iniciando sempre pelo bloco estruturado `pipeline { agent any; stages { .. } }`.
 > - **E)** Incorreta. No GitLab CI/CD, é perfeitamente válido declarar a diretiva `image:` no nível global (raiz) do arquivo `.gitlab-ci.yml`, tornando aquela imagem Docker o padrão compartilhado para todos os jobs que não definirem sua própria imagem específica.
 > 
 > **Gabarito: C**

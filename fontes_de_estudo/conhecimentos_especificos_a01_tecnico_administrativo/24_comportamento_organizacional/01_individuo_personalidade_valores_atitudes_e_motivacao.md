@@ -103,7 +103,7 @@ flowchart LR
 ---
 
 ### Teste 400
-**(FCC – TRT-20ª Região – Analista Judiciário: Área Administrativa)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No modelo dos Cinco Grandes Fatores de Personalidade (*Big Five*), amplamente adotado nas pesquisas contemporâneas de comportamento organizacional, o traço que se revelou empiricamente como o preditor mais consistente e fidedigno de alto desempenho profissional na ampla maioria das ocupações é a:
 
 * **A)** Extroversão.
@@ -128,7 +128,7 @@ No modelo dos Cinco Grandes Fatores de Personalidade (*Big Five*), amplamente ad
 ---
 
 ### Teste 401
-**(FCC - Adaptada / Analista de Gestão Pública)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No estudo da personalidade humana no Comportamento Organizacional, o **Modelo dos Cinco Grandes Fatores (Big Five)** é amplamente aceito pela literatura científica contemporânea.
 
 O fator do Big Five que descreve a tendência do indivíduo de ser responsável, disciplinado, organizado, pontual e orientado para o cumprimento rigoroso de metas e deveres é a:
@@ -137,7 +137,7 @@ O fator do Big Five que descreve a tendência do indivíduo de ser responsável,
 * **B)** Extroversão.
 * **C)** Agradabilidade (ou Amabilidade).
 * **D)** Abertura para Experiências.
-* **E)** Estabilidade Emocional (baixo Neuroticismo) no âmbito da administração pública direta e indireta.
+* **E)** Estabilidade Emocional (baixo Neuroticismo).
 
 
 ---
@@ -177,7 +177,7 @@ Fenômeno caracterizado por desconforto e tensão psicológica profunda quando o
 ---
 
 ### Teste 402
-**(FCC – DPE-RS – Analista: Área Administrativa)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito das dimensões do comprometimento organizacional formuladas por John Meyer e Natalie Allen, considere a situação em que um servidor público federal recusa uma proposta de trabalho na iniciativa privada porque sente que a organização em que atua cumpriu um papel fundamental na sua formação profissional inicial, experimentando um profundo senso de obrigação moral e lealdade ética de permanecer servindo àquela instituição pública. Trata-se de um exemplo de comprometimento:
 
 * **A)** Instrumental.
@@ -202,12 +202,12 @@ A respeito das dimensões do comprometimento organizacional formuladas por John 
 ---
 
 ### Teste 403
-**(FCC - Adaptada / Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Segundo a Teoria da Dissonância Cognitiva formulada por Leon Festinger, quando um indivíduo percebe uma contradição ou inconsistência desconfortável entre duas atitudes ou entre sua atitude e seu comportamento real:
 
 * **A)** Ele experimenta uma tensão psicológica desconfortável (dissonância) que o motiva a reduzir a inconsistência, alterando seu comportamento, modificando sua atitude ou racionalizando a discrepância.
 * **B)** O indivíduo entra em estado de catatonia permanente sem capacidade de decisão.
-* **C)** A dissonância cognitiva consolida automaticamente o comprometimento afetivo com o órgão público no âmbito da administração pública direta e indireta.
+* **C)** A dissonância cognitiva consolida automaticamente o comprometimento afetivo com o órgão público.
 * **D)** Ocorre necessariamente a imediata demissão voluntária do cargo público.
 * **E)** A incongruência atitudinal é eliminada por decreto do Chefe do Poder Executivo.
 
@@ -265,13 +265,13 @@ flowchart TD
 ---
 
 ### Teste 404
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Determinado gestor público, objetivando elevar a motivação dos servidores do setor de protocolo, promoveu uma reforma completa no ambiente físico do trabalho, instalando mobiliário ergonômico moderno, ar-condicionado de última geração e ampliando a remuneração com novo benefício de alimentação. Não obstante as medidas adotadas, os índices de proatividade e dedicação às tarefas intelectuais do setor permaneceram inalterados após alguns meses. Sob a perspectiva da Teoria dos Dois Fatores formulada por Frederick Herzberg, a ausência de elevação da motivação explica-se porque:
 
 * **A)** As medidas implementadas atuaram exclusivamente sobre os fatores higiênicos, os quais são capazes de evitar a insatisfação funcional, mas não possuem a propriedade de gerar motivação genuína.
 * **B)** A melhoria das condições físicas viola o princípio da equidade distributiva ao desconsiderar a valência das recompensas pecuniárias.
 * **C)** O gestor ignorou a necessidade de autoafirmação primária prevista na base da pirâmide de Clayton Alderfer.
-* **D)** O ambiente físico e o salário constituem fatores motivacionais de conteúdo que só produzem efeito quando associados a punições disciplinares no âmbito da administração pública direta e indireta.
+* **D)** O ambiente físico e o salário constituem fatores motivacionais de conteúdo que só produzem efeito quando associados a punições disciplinares.
 * **E)** O mobiliário moderno reduz a expectativa de esforço, eliminando a instrumentalidade postulada por Victor Vroom.
 
 
@@ -308,13 +308,13 @@ Afirma que a motivação dos indivíduos é moldada por três necessidades essen
 ---
 
 ### Teste 405
-**(FCC - Adaptada / Analista de Planejamento e Gestão)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na Teoria dos Dois Fatores (ou Teoria Bifatorial) de Frederick Herzberg, os elementos do ambiente de trabalho dividem-se em Fatores Higiênicos (extrínsecos) e Fatores Motivacionais (intrínsecos).
 
 Segundo Herzberg, os **Fatores Higiênicos** (como salário, condições físicas de trabalho, políticas da empresa e segurança do emprego):
 
 * **A)** São capazes apenas de evitar a insatisfação quando presentes e adequados, mas não geram motivação nem satisfação genuína duradoura no trabalho.
-* **B)** São a principal fonte geradora de autorrealização e orgulho profissional profundo no servidor no âmbito da administração pública direta e indireta.
+* **B)** São a principal fonte geradora de autorrealização e orgulho profissional profundo no servidor.
 * **C)** Referem-se ao conteúdo íntimo do cargo e aos desafios e responsabilidades inerentes à tarefa.
 * **D)** Provocam alta satisfação mesmo quando as relações interpessoais com a chefia forem péssimas.
 * **E)** Devem ser suprimidos das organizações públicas contemporâneas para evitar o comodismo.
@@ -360,7 +360,7 @@ flowchart LR
 ---
 
 ### Teste 406
-**(FCC – TCE-RS – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Segundo a Teoria da Expectativa desenvolvida por Victor Vroom, a motivação de um indivíduo para se dedicar com afinco a uma atividade profissional resulta da interação cognitiva entre três variáveis fundamentais. A convicção pessoal de um servidor de que o alcance do desempenho esperado e a conclusão da meta pactuada serão efetivamente seguidos pela entrega da recompensa institucional prometida pela organização traduz o conceito de:
 
 * **A)** Valência.
@@ -398,7 +398,7 @@ $$\frac{\text{Recompensas Próprias}}{\text{Insumos Próprios}} \quad \text{vers
 ---
 
 ### Teste 407
-**(FCC – SEFAZ-PE – Auditor Fiscal do Tesouro Estadual)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Um auditor fiscal estadual constatou que um colega recém-empossado na mesma gerência, desempenhando idênticas tarefas de fiscalização tributária e possuindo formação equivalente, foi contemplado com uma gratificação especial de produtividade 50% superior sem justificativa plausível de mérito. O auditor sentiu-se revoltado e passou a reduzir propositalmente seu ritmo diário de autuações e a faltar com frequência aos plantões fiscais. O comportamento adotado pelo auditor é explicado primordialmente pela:
 
 * **A)** Teoria da Dissonância Comportamental de Skinner.
@@ -441,13 +441,13 @@ Abordagem comportamentalista segundo a qual o comportamento é condicionado por 
 ---
 
 ### Teste 408
-**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na Teoria da Expectativa (ou Teoria da Expectância) de Victor Vroom, a motivação para agir decorre da multiplicação de três variáveis cognitivas: **Expectativa**, **Instrumentalidade** e **Valência** (\(M = E 	imes I 	imes V\)).
 
 O conceito de **Instrumentalidade** corresponde à crença do indivíduo de que:
 
 * **A)** O alcance de um determinado nível de desempenho bem-sucedido será recompensado com um resultado ou recompensa organizacional concreta (relação desempenho-recompensa).
-* **B)** O seu esforço despendido resultará infalivelmente em um bom desempenho no trabalho (relação esforço-desempenho) em estrita conformidade com as normas legais e regulamentares aplicáveis.
+* **B)** O seu esforço despendido resultará infalivelmente em um bom desempenho no trabalho (relação esforço-desempenho).
 * **C)** O valor ou peso atrativo atribuído subjetivamente à recompensa oferecida pela organização é positivo.
 * **D)** Os computadores e instrumentos de tecnologia fornecidos pela chefia são suficientes para a auditoria.
 * **E)** A chefia é imune a pressões sindicais na distribuição de funções de confiança.
@@ -469,7 +469,7 @@ ightarrow Recompensa\)); **Valência (V)**: o valor subjetivo ou atratividade qu
 ---
 
 ### Teste 409
-**(FCC - Adaptada / TCE-GO - Analista de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Segundo a Teoria da Equidade de J. Stacy Adams, os indivíduos no ambiente de trabalho comparam a relação entre seus insumos/contribuições (esforço, dedicação, competência) e seus resultados/recompensas (remuneração, reconhecimento, promoções) com a relação insumo/resultado de outros colegas em funções semelhantes.
 
 Quando o servidor público percebe uma situação de **iniquidade negativa** (sente-se injustiçado ao constatar que contribui mais e recebe menos reconhecimento que colegas em situação similar), a teoria prevê que ele tenderá a:
@@ -478,7 +478,7 @@ Quando o servidor público percebe uma situação de **iniquidade negativa** (se
 * **B)** Aumentar espontaneamente sua carga horária de trabalho diário sem solicitar remuneração adicional.
 * **C)** Renunciar voluntariamente ao cargo público estável em favor daquele colega menos produtivo.
 * **D)** Desconsiderar completamente as recompensas institucionais e dobrar o ritmo de trabalho.
-* **E)** Ignorar qualquer parâmetro de comparação social e atuar em estado de isolamento afetivo voluntário no âmbito da administração pública direta e indireta.
+* **E)** Ignorar qualquer parâmetro de comparação social e atuar em estado de isolamento afetivo voluntário.
 
 
 ---

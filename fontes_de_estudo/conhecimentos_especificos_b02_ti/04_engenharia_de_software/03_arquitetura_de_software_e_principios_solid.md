@@ -88,13 +88,13 @@ flowchart LR
 ---
 
 ### Teste 023
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
-O modelo arquitetural "4+1 Visões", concebido por Philippe Kruchten, organiza a descrição de uma arquitetura de software sob diferentes perspectivas de múltiplos *stakeholders*. A visão do modelo que se destina primordialmente aos programadores e gerentes de software, descrevendo a organização estática do código-fonte em módulos, pacotes, camadas e subsistemas, denomina-se Visão:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+O modelo arquitetural "4+1 Visões", concebido por Philippe Kruchten, organiza a descrição de uma arquitetura de software sob diferentes perspectivas de múltiplos *stakeholders*. Em uma auditoria de sistemas de fiscalização, a equipe técnica necessita inspecionar a visão que se destina primordialmente aos desenvolvedores e gerentes de configuração, descrevendo a organização estática dos módulos de código-fonte, pacotes, camadas e gerenciamento de dependências. Essa perspectiva denomina-se Visão:
 
-* **A)** Lógica (*Logical View*).
-* **B)** de Processo (*Process View*).
-* **C)** de Desenvolvimento ou de Implementação (*Development/Implementation View*).
-* **D)** Física ou de Implantação (*Physical/Deployment View*) no âmbito da administração pública direta e indireta.
+* **A)** de Desenvolvimento ou de Implementação (*Development/Implementation View*).
+* **B)** Lógica (*Logical View*).
+* **C)** de Processo (*Process View*).
+* **D)** Física ou de Implantação (*Physical/Deployment View*).
 * **E)** de Casos de Uso ou Cenários (*Scenarios / +1 View*).
 
 
@@ -102,38 +102,38 @@ O modelo arquitetural "4+1 Visões", concebido por Philippe Kruchten, organiza a
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** A Visão Lógica descreve a modelagem orientada a objetos (classes e entidades de negócio) sob a perspectiva dos analistas e usuários finais.
-> - **B) Incorreta.** A Visão de Processo foca no comportamento dinâmico, concorrência, threads e desempenho.
-> - **C) Correta.** A Visão de Desenvolvimento (ou de Implementação) concentra-se na organização estrutural do código-fonte, módulos, bibliotecas e pacotes de software gerenciados no ambiente de desenvolvimento.
-> - **D) Incorreta.** A Visão Física (ou de Implantação) descreve o mapeamento dos componentes sobre a topologia de hardware e nós de rede.
-> - **E) Incorreta.** Os Cenários (+1) integram e validam as quatro visões anteriores a partir dos casos de uso críticos do negócio.
+> - **A) CORRETA.** No modelo "4+1" de Kruchten, a **Visão de Desenvolvimento (ou de Implementação)** aborda a organização estática dos módulos de software no ambiente de desenvolvimento: hierarquia de pacotes, bibliotecas, subsistemas, frameworks e código-fonte, tendo como público-alvo prioritário os programadores e engenheiros de software.
+> - **B) Incorreta.** A Visão Lógica (*Logical View*) atende aos analistas de negócio e usuários finais, representando as abstrações do domínio, classes, interfaces e diagramas de classes e estados.
+> - **C) Incorreta.** A Visão de Processo (*Process View*) foca em integradores e arquitetos de infraestrutura, descrevendo os aspectos dinâmicos de concorrência, threads, sincronização e desempenho em tempo de execução.
+> - **D) Incorreta.** A Visão Física ou de Implantação (*Physical/Deployment View*) mapeia a distribuição dos componentes de software sobre a topologia física de hardware, servidores e nós de rede.
+> - **E) Incorreta.** A Visão de Cenários (*+1 View*) reúne casos de uso essenciais que ilustram, validam e costuram harmonicamente as quatro outras visões arquiteturais.
 >
-> **Gabarito: C**
+> **Gabarito: A**
 
 ---
 
 ### Teste 024
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
-Na engenharia de software modular e orientada a objetos, dois conceitos fundamentais que determinam a manutenibilidade, testabilidade e elegância do código são a Coesão e o Acoplamento. A respeito desses conceitos, assinale a afirmativa tecnicamente correta:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Na engenharia de software modular e no projeto arquitetural orientado a objetos, dois conceitos fundamentais que condicionam diretamente a manutenibilidade, testabilidade e elegância técnica do sistema são a Coesão e o Acoplamento. A respeito desses conceitos, assinale a afirmativa tecnicamente correta:
 
-* **A)** O projeto ideal busca módulos com baixo acoplamento e baixa coesão, para que cada classe compartilhe o maior número possível de variáveis globais.
-* **B)** A alta coesão indica que os elementos e responsabilidades de um mesmo módulo estão intimamente relacionados a um único propósito conceitual claro e bem delimitado.
-* **C)** O acoplamento mede a força de relacionamento interno entre as linhas de código de uma mesma função privada.
-* **D)** O alto acoplamento é altamente recomendável em sistemas críticos, pois assegura que qualquer alteração em um módulo propague seus efeitos diretamente em todos os demais componentes.
-* **E)** Módulos altamente coesos dependem obrigatoriamente de conexões diretas com detalhes de implementação do banco de dados relacional.
+* **A)** A alta coesão indica que os elementos e responsabilidades de um mesmo módulo estão intimamente relacionados a um único propósito conceitual claro e bem delimitado, devendo ser buscada em conjunto com o baixo acoplamento entre módulos distintos.
+* **B)** O projeto arquitetural ideal busca módulos com baixo acoplamento e baixa coesão, para que cada classe compartilhe o maior número possível de responsabilidades operacionais.
+* **C)** O acoplamento afere a afinidade lógica interna entre os métodos privados de uma mesma classe, devendo ser maximizado para garantir integridade transacional.
+* **D)** O alto acoplamento entre subsistemas é altamente desejável em arquiteturas corporativas, pois assegura que alterações em uma classe reflitam compulsoriamente em todos os demais componentes.
+* **E)** Módulos com alta coesão dependem compulsoriamente de conexões rígidas com as classes concretas de banco de dados para validar suas regras de negócio.
 
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** A meta de design de software é sempre **Alta Coesão e Baixo Acoplamento**; variáveis globais elevam perigosamente o acoplamento.
-> - **B) Correta.** Alta coesão significa que os métodos e atributos de um componente convergem para uma responsabilidade única e coesa, facilitando manutenção e reuso.
-> - **C) Incorreta.** A força interna dos elementos do mesmo módulo é a *coesão*; o *acoplamento* mede a dependência externa entre módulos distintos.
-> - **D) Incorreta.** O alto acoplamento gera código frágil e rígido (*efeito cascata* de quebras diante de mudanças).
-> - **E) Incorreta.** Módulos coesos seguem a inversão de dependência e devem desacoplar-se de detalhes de infraestrutura e persistência.
+> - **A) CORRETA.** O princípio mestre da boa arquitetura de software é a busca contínua por **Alta Coesão** (módulos focados em uma única responsabilidade conceitual bem delimitada) e **Baixo Acoplamento** (independência mútua entre módulos, minimizando dependências diretas e permitindo alterações isoladas sem efeitos colaterais em cascata).
+> - **B) Incorreta.** Baixa coesão é indesejável (gera classes inchadas com responsabilidades desconexas, conhecidas como *God Classes*).
+> - **C) Incorreta.** Inversão: o relacionamento interno entre os elementos de uma mesma classe define a **coesão**; o **acoplamento** mede o grau de interdependência entre classes ou módulos distintos.
+> - **D) Incorreta.** O alto acoplamento gera fragilidade e rigidez arquitetural, fazendo com que uma modificação simples propague erros inesperados por todo o sistema.
+> - **E) Incorreta.** Alta coesão independe de banco de dados; pelo contrário, conectar o domínio diretamente a tabelas físicas eleva o acoplamento tecnológico e viola o isolamento de camadas.
 >
-> **Gabarito: B**
+> **Gabarito: A**
 
 ---
 
@@ -209,61 +209,61 @@ Estilo arquitetural fundamentado na produção, captura, processamento e reaçã
 ---
 
 ### Teste 025
-**(FCC – TCE – Auditor de Controle Externo / Tecnologia da Informação)**  
-A Arquitetura Hexagonal (*Ports and Adapters*), idealizada por Alistair Cockburn, consolidou-se como um dos padrões arquiteturais fundamentais para sistemas modernos que buscam isolar as regras de negócio de frameworks e detalhes tecnológicos externos. Em relação a essa arquitetura, é correto afirmar que:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A Arquitetura Hexagonal (*Ports and Adapters*), idealizada por Alistair Cockburn, consolidou-se como um referencial arquitetural para sistemas corporativos que buscam isolar o núcleo das regras de negócio de tecnologias de persistência, protocolos de rede e interfaces com o usuário. A respeito dos princípios formais dessa arquitetura, é correto afirmar:
 
-* **A)** as regras de negócio residem no centro do hexágono e comunicam-se com o mundo externo exclusivamente por meio de Portas (*Ports* - interfaces abstratas), cujas implementações concretas são fornecidas pelos Adaptadores (*Adapters*).
-* **B)** o banco de dados e a interface gráfica do usuário devem obrigatoriamente ser acoplados diretamente ao domínio central do sistema.
-* **C)** o padrão proíbe o uso de testes unitários automatizados no domínio interno sem a presença de um servidor de aplicação web ativo.
-* **D)** a arquitetura hexagonal exige a utilização de seis camadas físicas de hardware redundantes para operar em produção.
-* **E)** portas e adaptadores só podem ser implementados se a aplicação utilizar banco de dados relacional baseado em linguagem SQL padrão ANSI no âmbito da administração pública direta e indireta no âmbito da administração pública direta e indireta.
+* **A)** O núcleo de domínio da aplicação reside no interior do hexágono e interage com o ambiente externo estritamente por meio de Portas (*Ports* - interfaces abstratas), cujas implementações tecnológicas concretas são providas por Adaptadores (*Adapters*).
+* **B)** A interface gráfica com o usuário e as bibliotecas de persistência relacional devem ser acopladas diretamente às entidades de domínio para viabilizar auditorias imediatas.
+* **C)** O padrão veda a execução de testes unitários automatizados no domínio interno sem a presença ativa de um servidor de aplicação web e banco de dados físico em produção.
+* **D)** A arquitetura exige a alocação de seis servidores físicos redundantes para implementar cada um dos vértices do hexágono computacional.
+* **E)** As portas e adaptadores somente podem ser empregados se a camada de comunicação externa utilizar exclusivamente mensagens em padrão SOAP com assinatura digital.
 
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Correta.** No padrão Ports and Adapters, a lógica de domínio reside no núcleo isolado; ela define *Portas* (interfaces de entrada/saída) e o mundo externo (REST, filas, bancos, CLI) conecta-se a essas portas através de *Adaptadores*.
-> - **B) Incorreta.** O princípio central da arquitetura hexagonal é justamente desacoplar o banco de dados e a UI da lógica de negócio.
-> - **C) Incorreta.** A maior vantagem da arquitetura hexagonal é permitir testar 100% da lógica de negócio em isolamento absoluto, sem necessidade de banco, web ou infraestrutura externa.
-> - **D) Incorreta.** O nome "hexagonal" é meramente uma metáfora visual gráfica; não se refere a nós de hardware.
-> - **E) Incorreta.** A arquitetura é agnóstica em relação a mecanismos de persistência (relacional, NoSQL, arquivos em memória, etc.).
+> - **A) CORRETA.** Na **Arquitetura Hexagonal (Portas e Adaptadores)**, o domínio central de negócio é completamente agnóstico a detalhes de infraestrutura. Ele se comunica com o mundo exterior por meio de **Portas** (interfaces de entrada/saída) e **Adaptadores** (componentes periféricos que convertem sinais externos — como requisições HTTP, filas Kafka ou repositórios SQL — para as chamadas de método definidas pelas portas).
+> - **B) Incorreta.** Viola o princípio basilar da arquitetura, que é exatamente desacoplar o domínio de bancos de dados ou frameworks de interface gráfica.
+> - **C) Incorreta.** Uma das maiores vantagens da arquitetura hexagonal é a alta testabilidade: o domínio pode ser integralmente testado por testes unitários puros em memória com *mocks* de portas, sem dependência de servidores web ou bancos reais.
+> - **D) Incorreta.** O "hexágono" é uma metáfora visual de desenho lógico, não uma exigência física de hardware ou servidores de rede.
+> - **E) Incorreta.** Os adaptadores podem adotar qualquer protocolo (REST, GraphQL, gRPC, CLI, JDBC, etc.), não havendo restrição a SOAP.
 >
 > **Gabarito: A**
 
 ---
 
 ### Teste 026
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
-No modelo de Arquitetura Orientada a Serviços (SOA), o Barramento Corporativo de Serviços (*Enterprise Service Bus* - ESB) desempenha um papel de integração centralizada na infraestrutura organizacional. Dentre as responsabilidades e capacidades fundamentais desempenhadas por um ESB clássico, destaca-se:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No modelo de Arquitetura Orientada a Serviços (SOA), o Barramento Corporativo de Serviços (*Enterprise Service Bus* - ESB) desempenha papel central de infraestrutura na integração de sistemas heterogêneos. Dentre as capacidades e responsabilidades técnicas atribuídas a um ESB em ambientes de alta governança pública, destaca-se:
 
-* **A)** A compilação em tempo de execução de todo o código-fonte Java e Python existente nos clientes web.
-* **B)** O roteamento inteligente de mensagens, a transformação entre formatos e protocolos de comunicação heterogêneos e a mediação de serviços corporativos.
-* **C)** A substituição permanente de qualquer banco de dados relacional pelo armazenamento de dados diretamente no buffer da memória RAM do barramento no âmbito da administração pública direta e indireta.
-* **D)** A imposição de que todos os serviços legados da empresa sejam reescritos obrigatoriamente na mesma linguagem de programação.
-* **E)** A execução de algoritmos de inteligência artificial generativa para criação autônoma de novos produtos bancários.
+* **A)** O roteamento inteligente de mensagens, a mediação de serviços e a transformação transparente entre diferentes protocolos e formatos de dados corporativos.
+* **B)** A compilação em tempo real e injeção dinâmica de código-fonte nas estações de trabalho de todos os usuários finais do órgão.
+* **C)** A eliminação definitiva de sistemas de gerenciamento de banco de dados relacionais em proveito de tabelas gravadas exclusivamente em memória volátil no barramento.
+* **D)** A obrigatoriedade de reescrever todas as aplicações legadas da instituição na linguagem Java antes de conectá-las ao barramento.
+* **E)** A delegação automática de deliberações decisórias de auditoria a algoritmos não supervisionados sem registro de trilha de auditoria.
 
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** O ESB não é compilador de linguagens.
-> - **B) Correta.** As funções essenciais do ESB são roteamento, mediação, mensageria, segurança e transformação de formatos e protocolos (por exemplo, converter chamadas SOAP/XML em REST/JSON ou conectores JMS).
-> - **C) Incorreta.** O ESB é uma plataforma de transporte e integração de mensagens, não um banco de dados transacional substituto.
-> - **D) Incorreta.** SOA e ESB promovem a interoperabilidade entre linguagens e plataformas heterogêneas, sem exigir reescrita na mesma linguagem.
-> - **E) Incorreta.** Atividade fictícia e alheia ao escopo clássico de integração via ESB.
+> - **A) CORRETA.** Em uma infraestrutura SOA clássica, o **ESB (Enterprise Service Bus)** fornece conectividade desacoplada, oferecendo **roteamento baseado em conteúdo**, **transformação de protocolos e formatos de mensagens** (ex.: converter JSON REST em SOAP XML ou arquivos posicionais), enriquecimento de dados, controle de tráfego e aplicação de políticas de segurança e auditoria corporativa.
+> - **B) Incorreta.** O ESB lida com transporte e integração de mensagens entre serviços de backend, não com compilação de código ou injeção em clientes de front-end.
+> - **C) Incorreta.** O barramento não substitui bancos de dados; a persistência de dados permanece sob gestão dos serviços e repositórios especialistas de cada aplicação.
+> - **D) Incorreta.** Um dos maiores atrativos do ESB é justamente a capacidade de integrar sistemas legados heterogêneos escritos em COBOL, C, .NET, Java, etc., sem necessidade de reescrita da base legada.
+> - **E) Incorreta.** Afirmação absurda que colide com princípios de governança, conformidade e rastreabilidade pública.
 >
-> **Gabarito: B**
+> **Gabarito: A**
 
 ---
 
 ### Teste 027
-**(FCC – TCE-GO – Técnico de Controle Externo / TI)**  
-Em uma arquitetura de microsserviços distribuídos, para evitar que a indisponibilidade ou latência excessiva de um serviço secundário externo provoque falhas em cascata e o esgotamento dos recursos de computação do serviço principal chamador, adota-se um padrão de resiliência que monitora as chamadas recentes. Se a taxa de falhas exceder um limiar pré-definido, o padrão interrompe imediatamente as chamadas subsequentes, retornando erro ou resposta de contingência instantânea sem sobrecarregar a rede, testando periodicamente se o serviço remoto se recuperou. Esse padrão é denominado:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Em uma arquitetura de microsserviços distribuídos voltada a serviços de auditoria digital, um serviço principal depende de sucessivas chamadas a uma API externa de consulta cadastral. Para evitar que eventuais lentidões severas ou a indisponibilidade dessa API externa provoquem o esgotamento dos recursos de processamento (*thread starvation*) do serviço chamador e desencadeiem falhas em cascata em todo o ecossistema, adota-se um padrão de resiliência que intercepta as invocações. Caso a proporção de falhas ultrapasse um limiar crítico, esse mecanismo interrompe temporariamente as chamadas subsequentes, retornando imediatamente uma resposta alternativa (*fallback*), e passa a monitorar em intervalos programados se o serviço remoto restabeleceu sua operação estável. Esse padrão arquitetural é denominado:
 
-* **A)** API Gateway.
-* **B)** Circuit Breaker.
+* **A)** Circuit Breaker.
+* **B)** API Gateway.
 * **C)** Service Registry.
 * **D)** Event Sourcing.
 * **E)** Command Query Responsibility Segregation (CQRS).
@@ -273,56 +273,54 @@ Em uma arquitetura de microsserviços distribuídos, para evitar que a indisponi
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** O API Gateway atua como ponto único de entrada para requisições de clientes externos, concentrando autenticação e roteamento, mas não implementa a máquina de estados de tolerância a falhas do disjuntor em si.
-> - **B) CORRETA.** O padrão de resiliência **Circuit Breaker (Disjuntor)** opera exatamente monitorando o tráfego remoto e chaveando entre três estados: *Fechado* (fluxo normal), *Aberto* (rejeição imediata *fail-fast* ao atingir taxa de erro crítica) e *Semi-Aberto* (envio de requisições piloto de teste após um período de timeout).
-> - **C) Incorreta.** O Service Registry atua como catálogo de registro e localização dinâmica de endereços de rede das instâncias ativas de microsserviços.
-> - **D) Incorreta.** O Event Sourcing armazena todas as mutações de dados como uma trilha histórica imutável de eventos de negócio.
-> - **E) Incorreta.** O CQRS separa modelos computacionais de escrita (*Commands*) e modelos de consulta (*Queries*).
-> 
-> **Gabarito: B**
+> - **A) CORRETA.** O padrão **Circuit Breaker (Disjuntor)**, popularizado por Michael Nygard em sistemas distribuídos, atua exatamente como um disjuntor elétrico em três estados: **Fechado (*Closed*)** (requisições passam normalmente); **Aberto (*Open*)** (após sucessivas falhas ou latências acima do limiar, as chamadas são bloqueadas de imediato, disparando fallbacks sem onerar a rede ou travar threads); e **Meio-Aberto (*Half-Open*)** (após um tempo de espera, permite um número controlado de chamadas de teste para verificar a recuperação do serviço).
+> - **B) Incorreta.** O API Gateway é um ponto único de entrada para clientes externos, responsável por roteamento reverso, agregação de chamadas, autenticação e limitação de taxa (*rate limiting*).
+> - **C) Incorreta.** O Service Registry atua como um catálogo de serviços para localização dinâmica de instâncias e balanceamento de carga (*service discovery*).
+> - **D) Incorreta.** O Event Sourcing armazena as mudanças de estado da aplicação como uma sequência histórica append-only de eventos de negócio imutáveis.
+> - **E) Incorreta.** O CQRS segrega as operações de mutação de dados (Commands) das operações de consulta (Queries) em modelos separados.
+>
+> **Gabarito: A**
 
 ---
 
 ### Teste 028
-**(FGV – TJ – Analista Judiciário / Tecnologia da Informação)**  
-A Arquitetura Orientada a Eventos (*Event-Driven Architecture* - EDA) é caracterizada pela comunicação assíncrona desacoplada baseada na produção, detecção e consumo de eventos de negócio. Nesse paradigma, quando associado ao padrão CQRS (*Command Query Responsibility Segregation*), tem-se que:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A Arquitetura Orientada a Eventos (*Event-Driven Architecture* - EDA) baseia-se na troca assíncrona de estímulos corporativos entre produtores e consumidores de eventos, promovendo alto desacoplamento e escalabilidade. Quando associada ao padrão arquitetural CQRS (*Command Query Responsibility Segregation*), estabelece-se que:
 
-* **A)** as operações de alteração de estado (*Commands*) e as operações de consulta (*Queries*) utilizam modelos conceituais distintos, permitindo otimizar a escrita e a leitura de forma independente.
-* **B)** toda e qualquer requisição de leitura deve travar o banco de dados em modo monousuário até que as mensagens pendentes na fila sejam totalmente apagadas no âmbito da administração pública direta e indireta.
-* **C)** os produtores de eventos precisam conhecer o endereço de rede IP e a tecnologia interna de cada um dos consumidores para que o evento seja entregue.
-* **D)** o padrão exige o descarte de mecanismos de mensageria assíncrona em favor de chamadas HTTP síncronas bloqueantes ponto a ponto.
-* **E)** as consultas nunca podem retornar dados desatualizados, mesmo que o sistema utilize consistência eventual (*eventual consistency*).
+* **A)** as operações de mutação de estado (*Commands*) e as operações de consulta (*Queries*) utilizam modelos conceituais segregados, viabilizando a otimização independente do banco de escrita e dos bancos de leitura.
+* **B)** todas as transações de escrita e leitura devem ocorrer obrigatoriamente sobre o mesmo esquema de banco de dados relacional para garantir bloqueio pessimista imediato.
+* **C)** os produtores de eventos necessitam manter acoplamento síncrono com o endereço IP de todos os consumidores cadastrados antes de liberar o evento na fila.
+* **D)** as operações de consulta (*Queries*) passam a ter a prerrogativa de disparar alterações definitivas no modelo de escrita a fim de atualizar estatísticas de acesso.
+* **E)** o padrão veda expressamente o uso de consistência eventual (*eventual consistency*) entre os repositórios de leitura e o repositório principal de comandos.
 
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Correta.** O CQRS separa formalmente as operações de escrita (*Commands*, que modificam o estado) das operações de leitura (*Queries*, que apenas consultam dados), permitindo que cada lado tenha esquemas de dados e estratégias de escalabilidade customizadas.
-> - **B) Incorreta.** EDA e CQRS promovem concorrência de alto desempenho e assincronismo, jamais travamento monousuário.
-> - **C) Incorreta.** Em EDA, o produtor emite o evento para um broker de mensageria sem conhecer a identidade ou localização dos consumidores (desacoplamento espacial).
-> - **D) Incorreta.** EDA fundamenta-se primordialmente em brokers de mensageria assíncrona (como Kafka e RabbitMQ), e não em HTTP síncrono bloqueante.
-> - **E) Incorreta.** Em sistemas distribuídos com CQRS e projeções assíncronas, o modelo de leitura opera frequentemente sob consistência eventual.
+> - **A) CORRETA.** O padrão **CQRS** (segregação de responsabilidade entre comandos e consultas) divide estruturalmente a aplicação em dois fluxos: o lado de **Escrita/Comandos (*Commands*)**, focado em regras de consistência transacional profunda e validação de negócio; e o lado de **Leitura/Consultas (*Queries*)**, focado em alta velocidade de resposta por meio de visões desnormalizadas, índices especializados e caches, que podem ser sincronizados assincronamente via eventos (EDA).
+> - **B) Incorreta.** O objetivo primário do CQRS é justamente libertar a aplicação do modelo único compartilhado de dados para escrita e leitura.
+> - **C) Incorreta.** Na arquitetura orientada a eventos, os produtores são desacoplados dos consumidores (publicam no barramento/tópico sem conhecimento da identidade ou endereço dos consumidores).
+> - **D) Incorreta.** Princípio estrito de comandos e consultas: consultas nunca devem produzir efeitos colaterais de alteração de estado no domínio (*queries do not change state*).
+> - **E) Incorreta.** Pelo contrário: a consistência eventual é o modelo comumente adotado na sincronização assíncrona entre o banco de escrita e as projeções de leitura no CQRS.
 >
 > **Gabarito: A**
 
 ---
 
 ### Teste 029
-**(FCC – TCE – Auditor de Controle Externo / TI)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em relação aos estilos arquiteturais para sistemas corporativos, analise as afirmativas a respeito da Arquitetura Orientada a Serviços (SOA) e da Arquitetura de Microsserviços:
 
-I. Em SOA tradicional, é comum a utilização de um Barramento de Serviços Corporativo (ESB) centralizado que concentra regras complexas de roteamento, orquestração e transformação de protocolos.  
+I. Na arquitetura SOA clássica, é comum a utilização de um Barramento de Serviços Corporativo (ESB) centralizado que concentra regras de mediação, roteamento e transformação de protocolos complexos.  
+II. Na arquitetura de microsserviços, a boa prática de engenharia prescreve o compartilhamento obrigatório de uma única base de dados relacional entre todos os serviços do ecossistema, a fim de assegurar transações atômicas globais imediatas.  
+III. A arquitetura de microsserviços privilegia serviços autônomos com ciclos de implantação independentes, pautando-se pelo princípio de *smart endpoints and dumb pipes*, em que a inteligência de negócio reside nos próprios serviços e o transporte de mensagens utiliza mecanismos leves e desacoplados.  
 
-II. Na arquitetura de microsserviços, recomenda-se a utilização de um banco de dados relacional único compartilhado entre todos os serviços para garantir transações atômicas ACID globais imediatas.  
+Em relação aos conceitos arquiteturais consagrados na literatura técnica, está correto o que se afirma em:
 
-III. Os microsserviços enfatizam serviços autônomos com deploys independentes e o conceito de *smart endpoints and dumb pipes*, mantendo a lógica de negócio nas pontas e a comunicação por mecanismos leves.  
-
-Está correto o que se afirma em:
-
-* **A)** I e II, apenas.
-* **B)** II e III, apenas.
-* **C)** I e III, apenas.
+* **A)** I e III, apenas.
+* **B)** I e II, apenas.
+* **C)** II e III, apenas.
 * **D)** I, II e III.
 * **E)** III, apenas.
 
@@ -331,13 +329,11 @@ Está correto o que se afirma em:
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** O item II é falso; banco de dados único compartilhado é antipadrão severo em arquitetura de microsserviços (*Database per Service*).
-> - **B) Incorreta.** Inclui o item II falso e desconsidera o item I que descreve fielmente a função do ESB em SOA.
-> - **C) CORRETA.** Estão corretos exclusivamente os itens I (em SOA, o ESB atua como canal inteligente de integração) e III (microsserviços adotam pontos terminais inteligentes e canais de comunicação simples: *smart endpoints and dumb pipes*).
-> - **D) Incorreta.** O item II viola o isolamento dos microsserviços.
-> - **E) Incorreta.** Omissão do item I, cuja definição de SOA está plenamente correta.
-> 
-> **Gabarito: C**
+> - **I. Correta.** SOA tradicionalmente adota um barramento corporativo (ESB) central que orquestra a comunicação, converte formatos de dados pesados (XML/SOAP) e concentra a inteligência da integração corporativa.
+> - **II. Incorreta.** Em microsserviços, compartilhar um banco de dados central único (*Database-per-service anti-pattern*) cria um acoplamento oculto severo que inviabiliza implantações independentes e gera gargalos de escala. A recomendação mestre é o padrão **Database-per-Service** (cada microsserviço gerencia privativamente seu próprio banco de dados).
+> - **III. Correta.** Princípio cunhado por Martin Fowler: microsserviços adotam *"endpoints inteligentes e canais burros"* (*smart endpoints and dumb pipes*), mantendo a lógica de processamento e validações dentro dos microsserviços e utilizando canais de comunicação leves e padronizados (como HTTP REST ou mensageria Kafka/RabbitMQ).
+>
+> **Gabarito: A**
 
 ---
 
@@ -393,13 +389,13 @@ graph TD
 ---
 
 ### Teste 030
-**(FCC – TCE-GO – Analista de Controle Externo / TI)**  
-Em um sistema corporativo em Java, uma interface denominada `DispositivoMultifuncional` declara os seguintes métodos: `imprimirDocumento()`, `digitalizarDocumento()`, `enviarFax()` e `grampearFolhas()`. Uma classe denominada `ImpressoraBasicaDomestica` implementa essa interface, mas, por não possuir scanner, fax nem grampeador, é forçada a lançar exceções do tipo `UnsupportedOperationException` no corpo desses três últimos métodos. De acordo com os princípios de orientação a objetos SOLID preconizados por Robert C. Martin, essa estrutura viola diretamente o:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Durante a revisão de código de um sistema corporativo de gestão de processos administrativos em Java, um Auditor de TI inspecionou uma interface denominada `DispositivoMultifuncional`, que declarava os seguintes métodos: `imprimirDocumento()`, `digitalizarDocumento()`, `enviarFax()` e `grampearFolhas()`. Verificou-se que a classe `ImpressoraBasicaGabinete` implementava essa interface, mas, por tratar-se de um equipamento simples que não possui scanner, módulo de fax nem grampeador mecânico, seu código era forçado a lançar exceções do tipo `UnsupportedOperationException` no corpo dos três últimos métodos. De acordo com os princípios de orientação a objetos SOLID preconizados por Robert C. Martin, essa modelagem viola frontalmente o:
 
-* **A)** Princípio da Responsabilidade Única (SRP).
-* **B)** Princípio Aberto/Fechado (OCP).
-* **C)** Princípio da Segregação de Interfaces (ISP).
-* **D)** Princípio da Inversão de Dependência (DIP) no âmbito da administração pública direta e indireta.
+* **A)** Princípio da Segregação de Interfaces (ISP).
+* **B)** Princípio da Responsabilidade Única (SRP).
+* **C)** Princípio Aberto/Fechado (OCP).
+* **D)** Princípio da Inversão de Dependência (DIP).
 * **E)** Princípio da Substituição de Liskov (LSP).
 
 
@@ -407,63 +403,65 @@ Em um sistema corporativo em Java, uma interface denominada `DispositivoMultifun
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** O SRP estabelece que uma classe deve ter um único motivo para mudar perante seus stakeholders, não tratando da imposição de métodos supérfluos em interfaces.
-> - **B) Incorreta.** O OCP versa sobre a extensibilidade sem modificação de código existente.
-> - **C) CORRETA.** O **Princípio da Segregação de Interfaces (ISP - *Interface Segregation Principle*)** determina formalmente que clientes não devem ser forçados a depender de interfaces e métodos que não utilizam. Quando uma interface agrega métodos demais ("interface gorda"), forçando implementadores parciais a lançar exceções ou deixar métodos vazios, viola-se frontalmente o ISP. A refatoração correta consiste em segregar em interfaces coesas (`Imprimivel`, `Digitalizavel`, `Faxavel`).
-> - **D) Incorreta.** O DIP determina a dependência mútua de abstrações entre módulos de alto e baixo nível.
-> - **E) Incorreta.** Embora lançar exceções em métodos afete o polimorfismo, a causa raiz e o princípio expressamente criado para coibir interfaces hiperdimensionadas é o ISP.
-> 
-> **Gabarito: C**
+> - **A) CORRETA.** O **Princípio da Segregação de Interfaces (ISP - *Interface Segregation Principle*)** estabelece formalmente que *"nenhum cliente deve ser forçado a depender de métodos que não utiliza"*. Em vez de interfaces genéricas e volumosas (*fat interfaces*), o arquiteto deve decompor a interface em contratos menores e específicos (ex.: `Imprimivel`, `Digitalizavel`, `Grampeavel`), permitindo que as classes clientes implementem estritamente as capacidades que de fato possuem.
+> - **B) Incorreta.** O SRP dita que uma classe ou módulo deve ter um, e apenas um, motivo para mudar (*single reason to change*).
+> - **C) Incorreta.** O OCP estabelece que entidades de software devem estar abertas para extensão, mas fechadas para modificação.
+> - **D) Incorreta.** O DIP prescreve que módulos de alto nível não devem depender de módulos de baixo nível, mas sim de abstrações.
+> - **E) Incorreta.** O LSP preconiza que objetos de subclasses devem poder substituir objetos da superclasse sem alterar a corretude do sistema (embora o lançamento de UnsupportedOperationException configure um sintoma prático na hierarquia, a raiz direta da má modelagem de contratos inchados é a violação do ISP).
+>
+> **Gabarito: A**
 
 ---
 
 ### Teste 031
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
-Considere uma classe Java que calcula o valor do frete para pedidos de um tribunal. O método `calcularFrete` possui uma estrutura sequencial de instruções `if-else-if` verificando a modalidade de entrega: caso seja "SEDEX", aplica uma fórmula; se for "PAC", aplica outra; se for "TRANSPORTADORA", aplica uma terceira. Sempre que o órgão firma contrato com uma nova transportadora, o desenvolvedor é obrigado a abrir a classe de serviço existente e adicionar uma nova cláusula `else-if`. Essa estrutura arquitetural viola diretamente o princípio SOLID:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Considere uma classe Java responsável pelo cálculo da tarifa de serviços operacionais em um Tribunal de Contas. O método `calcularTarifa` possui uma estrutura sequencial de instruções condicionais `if-else-if` encadeadas: caso o tipo de procedimento seja "INSPECAO", aplica uma fórmula; se for "AUDITORIA", aplica outra; se for "PERICIA", aplica uma terceira. Sempre que o Tribunal regulamenta uma nova modalidade de procedimento fiscalizatório, os analistas são obrigados a abrir a classe de serviço já testada em produção e adicionar manualmente uma nova cláusula `else-if`. Do ponto de vista dos princípios arquiteturais SOLID, essa estrutura viola diretamente o:
 
-* **A)** Aberto/Fechado (OCP - Open/Closed Principle).
-* **B)** Substituição de Liskov (LSP - Liskov Substitution Principle).
-* **C)** Segregação de Interfaces (ISP - Interface Segregation Principle).
-* **D)** Don't Repeat Yourself (DRY).
-* **E)** Keep It Simple, Stupid (KISS).
+* **A)** Princípio Aberto/Fechado (OCP - *Open/Closed Principle*).
+* **B)** Princípio da Substituição de Liskov (LSP - *Liskov Substitution Principle*).
+* **C)** Princípio da Segregação de Interfaces (ISP - *Interface Segregation Principle*).
+* **D)** Princípio *Don't Repeat Yourself* (DRY).
+* **E)** Princípio *You Aren't Gonna Need It* (YAGNI).
 
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) CORRETA.** O **Princípio Aberto/Fechado (OCP - *Open/Closed Principle*)** postula que módulos devem estar **abertos para extensão, mas fechados para modificação**. A necessidade recorrente de editar o código-fonte de uma classe funcional consolidada para adicionar novos tipos de cálculo mediante `if-else-if` viola o OCP. O correto é extrair o cálculo para uma interface polimórfica (`EstrategiaFrete`) com implementações separadas (Padrão de Projeto *Strategy*).
-> - **B) Incorreta.** O LSP cuida da integridade semântica de subtipos ao herdarem classes base, não do encadeamento de condicionais de tipo.
-> - **C) Incorreta.** O ISP trata de interfaces com métodos excessivos.
-> - **D) Incorreta.** DRY visa combater a duplicação de lógica repetida, o que não é o problema estrutural do acoplamento por condicionais.
-> - **E) Incorreta.** KISS é um princípio geral de simplicidade, não integrando o acrônimo formal SOLID.
-> 
+> - **A) CORRETA.** O **Princípio Aberto/Fechado (OCP)** dita que *"artefatos de software devem estar abertos para extensão, porém fechados para modificação"*. Quando a introdução de um novo comportamento exige alterar o código-fonte de uma classe pré-existente e estável (adicionando condicionais `if/else` ou `switch`), o princípio é violado. A solução técnica correta é aplicar polimorfismo (por exemplo, com o padrão *Strategy*), criando novas classes especializadas que implementem uma interface comum, estendendo o sistema sem alterar o código estável original.
+> - **B) Incorreta.** O LSP assegura que tipos derivados possam substituir perfeitamente seus tipos base sem quebrar o comportamento do programa.
+> - **C) Incorreta.** O ISP trata do tamanho e foco de interfaces abstratas, evitando contratos inchados.
+> - **D) Incorreta.** DRY combate a duplicação de conhecimento e regras de negócio no sistema.
+> - **E) Incorreta.** YAGNI recomenda não implementar recursos antecipadamente até que sejam comprovadamente necessários.
+>
 > **Gabarito: A**
 
 ---
 
 ### Teste 032
-**(FCC – SEFAZ – Auditor de Tecnologia da Informação)**  
-No contexto das boas práticas de engenharia e arquitetura de software, os acrônimos DRY e YAGNI orientam a tomada de decisões no projeto de sistemas. A correta definição desses princípios estabelece que:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No âmbito das boas práticas de arquitetura e qualidade de código em desenvolvimento de software, os acrônimos DRY (*Don't Repeat Yourself*) e YAGNI (*You Aren't Gonna Need It*) são amplamente referenciados como balizadores de simplificação e manutenibilidade. A respeito da correta fundamentação técnica desses dois princípios, assinale a afirmativa correta:
 
-* **A)** DRY (*Don't Repeat Yourself*) determina que duas classes jamais podem conter a mesma assinatura de método; YAGNI (*You Aren't Gonna Need It*) proíbe o uso de testes unitários automatizados em ambientes de produção no âmbito da administração pública direta e indireta no âmbito da administração pública direta e indireta.
-* **B)** DRY determina que cada porção de conhecimento ou lógica de negócio em um sistema deve possuir uma representação única, não ambígua e definitiva; YAGNI recomenda aos desenvolvedores não implementar funcionalidades antecipadas baseadas em suposições futuras até que sejam estritamente necessárias.
-* **C)** DRY refere-se exclusivamente à padronização de nomenclatura de variáveis de banco de dados; YAGNI recomenda a criação preventiva de tabelas adicionais para suportar ampliações cadastrais.
-* **D)** YAGNI estabelece a obrigatoriedade de reescrever todo o código legado a cada seis meses; DRY impõe que todo código-fonte deva ser distribuído em licença de código aberto.
-* **E)** Ambos os princípios foram concebidos pelo modelo CMMI para fundamentar a documentação textual exaustiva de projetos antes de qualquer codificação.
+* **A)** O princípio DRY preconiza que cada porção de conhecimento ou lógica de negócio em um sistema deve possuir uma representação única, não ambígua e definitiva; ao passo que o YAGNI orienta os desenvolvedores a não implementarem funcionalidades ou abstrações antecipadas com base em meras suposições de necessidades futuras.
+* **B)** O princípio DRY impede que classes distintas possuam métodos com a mesma assinatura ou nomenclatura; ao passo que o YAGNI proíbe expressamente a utilização de testes unitários automatizados em ambientes de produção.
+* **C)** O princípio DRY aplica-se unicamente à padronização de nomenclatura de colunas em bancos de dados relacionais; enquanto o YAGNI recomenda a criação preventiva de tabelas adicionais para acomodar futuras demandas.
+* **D)** O princípio YAGNI impõe a obrigatoriedade de reescrever integralmente o código legado a cada ciclo anual; enquanto o DRY determina que todo software público deve ser licenciado em código aberto.
+* **E)** Ambos os princípios foram originalmente formulados pela norma ISO 9001 para auditar contratos de aquisição de bens permanentes de TI.
 
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Compartilhar assinaturas é a base do polimorfismo; e o YAGNI apoia ativamente a confecção de testes unitários.
-> - **B) CORRETA.** O princípio **DRY (*Don't Repeat Yourself*)**, formulado por Andy Hunt e Dave Thomas, visa garantir que cada conhecimento do domínio tenha uma representação única e sem duplicações no sistema. O princípio **YAGNI (*You Aren't Gonna Need It*)**, oriundo do Extreme Programming (XP), preceitua que os desenvolvedores não devem gastar tempo implementando funcionalidades especulativas baseadas em suposições de demandas futuras até que elas sejam realmente necessárias.
-> - **C) Incorreta.** Criar tabelas preventivamente por especulação futura é exatamente a sobre-engenharia (*overengineering*) que o YAGNI combate.
-> - **D) Incorreta.** Conceituações absurdas sem qualquer aderência às boas práticas de engenharia de software.
-> - **E) Incorreta.** DRY e YAGNI são princípios ágeis de código limpo e desenvolvimento pragmático, não oriundos do modelo tradicional CMMI.
-> 
-> **Gabarito: B**
+> - **A) CORRETA.** Formulados pela comunidade de engenharia ágil e desenvolvimento pragmático:
+>     - **DRY (*Don't Repeat Yourself* - Andy Hunt e Dave Thomas):** Estabelece que toda porção de conhecimento e regra de negócio deve ter uma representação única, autoritativa e não ambígua no sistema, combatendo duplicação de lógica e inconsistências;
+>     - **YAGNI (*You Aren't Gonna Need It* - Extreme Programming):** Recomenda implementar apenas o que é estritamente necessário para atender aos requisitos atuais, evitando o desperdício de codificar arquiteturas ou funcionalidades hipotéticas para o futuro ("prematuridade especulativa").
+> - **B) Incorreta.** Assinaturas idênticas de métodos em classes diferentes fazem parte do polimorfismo natural; testes automatizados são indispensáveis e incentivados pelo YAGNI/XP.
+> - **C) Incorreta.** Distorção completa: criar tabelas preventivas para suposições futuras viola diretamente a essência do YAGNI.
+> - **D) Incorreta.** Não há nenhuma regra de reescrita compulsória anual de legado nem obrigatoriedade de licenciamento no teor do DRY/YAGNI.
+> - **E) Incorreta.** São princípios de engenharia e boas práticas de codificação artesanal de software (*software craftsmanship*), não cláusulas da norma ISO 9001.
+>
+> **Gabarito: A**
 
 ---
 

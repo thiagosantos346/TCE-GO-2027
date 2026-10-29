@@ -118,13 +118,13 @@ flowchart TD
 ---
 
 ### Teste 300
-**(FCC – TRT-2ª Região – Analista Judiciário: Área Administrativa)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Considere uma organização pública estadual que decida reduzir o número de seus escalões hierárquicos intermediários de sete para apenas três níveis, mantendo o mesmo quantitativo total de servidores em seus quadros operacionais. Sob a ótica da teoria da organização formal, essa reforma provocará:
 
 * **A)** O estreitamento da amplitude de controle e a verticalização da estrutura organizacional.
 * **B)** A eliminação da divisão do trabalho e a conversão automática para a estrutura linear pura.
 * **C)** O alargamento da amplitude de controle dos gestores e o achatamento (horizontalização) da estrutura organizacional.
-* **D)** A centralização absoluta de todas as decisões na cúpula diretiva em razão do aumento do número de chefes no âmbito da administração pública direta e indireta.
+* **D)** A centralização absoluta de todas as decisões na cúpula diretiva em razão do aumento do número de chefes.
 * **E)** A transformação imediata do modelo organizacional em departamentalização estritamente geográfica.
 
 
@@ -143,13 +143,13 @@ Considere uma organização pública estadual que decida reduzir o número de se
 ---
 
 ### Teste 301
-**(FCC - Adaptada / Analista de Gestão Pública)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No estudo das organizações formais e do processo administrativo clássico (PODC - Planejar, Organizar, Dirigir e Controlar), a função **Organização** compreende precipuamente:
 
 * **A)** A distribuição de tarefas, a alocação criteriosa de recursos humanos e materiais entre os órgãos e a definição da estrutura de autoridade, responsabilidade e linhas de comunicação formal da instituição.
 * **B)** A fixação dos objetivos corporativos de longo prazo e a escolha das estratégias mestras para alcançá-los.
 * **C)** A motivação, orientação, liderança e coordenação interpessoal direta das equipes de trabalho no cotidiano operacional.
-* **D)** A comparação sistemática entre os resultados obtidos e os padrões preestabelecidos, com aplicação de eventuais correções corretivas em estrita conformidade com as normas legais e regulamentares aplicáveis.
+* **D)** A comparação sistemática entre os resultados obtidos e os padrões preestabelecidos, com aplicação de eventuais correções corretivas.
 * **E)** A realização de auditorias financeiras externas de conformidade legal sobre os balanços patrimoniais.
 
 
@@ -215,7 +215,7 @@ flowchart TD
 ---
 
 ### Teste 302
-**(FCC – TCE-PI – Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Determinada autarquia estadual de regulação de transportes estruturou suas equipes de fiscalização agrupando os servidores em torno de projetos especiais com prazos pré-fixados, mantendo concomitantemente as diretorias técnicas fixas de engenharia, finanças e tecnologia. Nesse modelo, os auditores reportam-se tanto ao coordenador do projeto específico quanto ao diretor da sua respectiva área técnica de origem. Trata-se de típica estrutura organizacional:
 
 * **A)** Linear.
@@ -240,12 +240,12 @@ Determinada autarquia estadual de regulação de transportes estruturou suas equ
 ---
 
 ### Teste 303
-**(FCC - Adaptada / Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A respeito da amplitude administrativa (ou amplitude de controle) e dos níveis hierárquicos nas organizações formais, assinale a afirmativa correta:
 
 * **A)** Uma amplitude de controle estreita (poucos subordinados por chefe) tende a produzir uma estrutura organizacional verticalizada (alongada), com múltiplos níveis hierárquicos e maior custo administrativo de supervisão.
 * **B)** Uma estrutura organizacional achatada (plana) decorre necessariamente de amplitudes de controle muito reduzidas.
-* **C)** Quanto maior o número de níveis hierárquicos em uma repartição pública, mais ágil e desprovida de distorções e ruídos torna-se a comunicação vertical ascendente em estrita conformidade com as normas legais e regulamentares aplicáveis.
+* **C)** Quanto maior o número de níveis hierárquicos em uma repartição pública, mais ágil e desprovida de distorções e ruídos torna-se a comunicação vertical ascendente.
 * **D)** A amplitude de controle refere-se unicamente ao limite territorial de competência jurisdicional de uma corte de contas.
 * **E)** A descentralização administrativa exige compulsoriamente a eliminação de qualquer amplitude de supervisão nos órgãos setoriais.
 
@@ -293,11 +293,11 @@ flowchart TD
 ---
 
 ### Teste 304
-**(FCC - Adaptada / Analista de Planejamento e Gestão)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em relação aos modelos de departamentalização das organizações formais, a estrutura **Matricial** diferencia-se dos modelos clássicos por:
 
 * **A)** Sobrepor uma coordenação horizontal orientada a projetos ou produtos a uma estrutura vertical departamentalizada por funções, gerando dupla subordinação hierárquica para os membros das equipes.
-* **B)** Basear-se exclusivamente no critério geográfico ou territorial, alocando todos os servidores em unidades regionais autônomas em estrita conformidade com as normas legais e regulamentares aplicáveis.
+* **B)** Basear-se exclusivamente no critério geográfico ou territorial, alocando todos os servidores em unidades regionais autônomas.
 * **C)** Extinguir totalmente a especialização técnica dos servidores para transformá-los em operadores generalistas.
 * **D)** Proibir a formação de equipes multidisciplinares temporárias em qualquer setor da Administração Pública.
 * **E)** Impor rigidez funcional extrema que impede o compartilhamento de especialistas entre diferentes áreas do órgão.
@@ -375,10 +375,10 @@ O controle assegura que o desempenho real esteja em consonância com o que foi p
 ---
 
 ### Teste 305
-**(FCC – AL-AP – Analista Legislativo: Administração)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Uma das etapas cruciais da função administrativa de Direção é a comunicação organizacional. A respeito dos fluxos comunicacionais e de suas barreiras nas organizações públicas, assinale a alternativa correta:
 
-* **A)** O fluxo de comunicação descendente transporta prioritariamente relatórios de desempenho, pedidos de esclarecimento e sugestões de melhoria vindos da base operacional no âmbito da administração pública direta e indireta.
+* **A)** O fluxo de comunicação descendente transporta prioritariamente relatórios de desempenho, pedidos de esclarecimento e sugestões de melhoria vindos da base operacional.
 * **B)** O fluxo horizontal ou lateral refere-se à troca de informações entre servidores situados no mesmo nível hierárquico, sendo indispensável para a coordenação interdepartamental.
 * **C)** Barreiras semânticas decorrem exclusivamente de falhas mecânicas nos equipamentos de transmissão e instabilidade nas redes de computadores.
 * **D)** A comunicação diagonal ocorre exclusivamente entre a chefia superior de um setor e os estagiários daquele mesmo departamento.
@@ -400,14 +400,14 @@ Uma das etapas cruciais da função administrativa de Direção é a comunicaç�
 ---
 
 ### Teste 306
-**(FCC – DPE-RS – Analista: Área Administrativa)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No âmbito da administração contemporânea, o processo administrativo de controle desdobra-se em três momentos temporais fundamentais: prévio, concomitante e posterior. Constitui exemplo típico de controle prévio (preventivo) no setor público:
 
 * **A)** A análise da prestação de contas do ordenador de despesa efetuada pelo Tribunal de Contas após o encerramento do exercício financeiro.
 * **B)** A aplicação de penalidade contratual de multa a uma empresa fornecedora que entregou bens com defeito de fabricação.
 * **C)** A medição semanal em tempo real do avanço físico de uma rodovia estadual pelo fiscal da administração durante a execução da obra.
 * **D)** A exigência de apresentação prévia de certidões de regularidade fiscal e habilitação jurídica no edital antes da contratação da empresa licitante.
-* **E)** A realização de auditoria de conformidade ex post destinada a quantificar o dano ao erário decorrente de sobrepreço em contrato encerrado no âmbito da administração pública direta e indireta.
+* **E)** A realização de auditoria de conformidade ex post destinada a quantificar o dano ao erário decorrente de sobrepreço em contrato encerrado.
 
 
 ---
@@ -456,10 +456,10 @@ flowchart TD
 ---
 
 ### Teste 307
-**(FCC – TCE-RS – Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A respeito das funções do processo administrativo (planejamento, organização, direção e controle) e das diferenças entre a gestão pública e a gestão privada, assinale a opção correta:
 
-* **A)** A função administrativa de planejamento restringe-se ao nível operacional da instituição, cabendo à função de organização a definição das metas estratégicas de longo prazo no âmbito da administração pública direta e indireta.
+* **A)** A função administrativa de planejamento restringe-se ao nível operacional da instituição, cabendo à função de organização a definição das metas estratégicas de longo prazo.
 * **B)** A gestão pública e a gestão privada diferenciam-se essencialmente pelo regime de legalidade, na medida em que, na administração pública, o administrador só pode fazer o que a lei expressamente autoriza ou determina.
 * **C)** O controle é a primeira função administrativa a ser desempenhada no processo de trabalho, dispensando a existência de padrões prévios fixados no planejamento.
 * **D)** A amplitude de controle administrativa define a quantidade total de departamentos existentes na organização, independentemente do número de subordinados por chefia.
@@ -481,7 +481,7 @@ A respeito das funções do processo administrativo (planejamento, organização
 ---
 
 ### Teste 308
-**(FCC - Adaptada / TCE-SC - Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na Administração Pública contemporânea, a distinção entre **Concentração/Desconcentração** e **Centralização/Descentralização** é basilar para a compreensão da estrutura estatal.
 
 Sobre esses conceitos fundamentais, assinale a alternativa correta:
@@ -489,7 +489,7 @@ Sobre esses conceitos fundamentais, assinale a alternativa correta:
 * **A)** A desconcentração envolve a distribuição interna de competências decisórias dentro de uma mesma pessoa jurídica (órgão público), mantendo-se a relação de subordinação hierárquica; já a descentralização consiste na transferência de competências para outra pessoa jurídica distinta (da Administração Indireta ou particular).
 * **B)** A criação de uma autarquia estadual constitui típico exemplo de desconcentração administrativa sem personalidade jurídica própria.
 * **C)** A criação de delegacias de polícia ou postos de atendimento ao cidadão em municípios do interior configura típica descentralização por outorga legal.
-* **D)** A descentralização preserva a hierarquia direta e a subordinação disciplinar entre o Chefe do Executivo e os dirigentes das entidades privadas contratadas no âmbito da administração pública direta e indireta.
+* **D)** A descentralização preserva a hierarquia direta e a subordinação disciplinar entre o Chefe do Executivo e os dirigentes das entidades privadas contratadas.
 * **E)** A desconcentração enseja a extinção imediata do poder regulamentar do ente estatal matriz.
 
 
@@ -508,13 +508,13 @@ Sobre esses conceitos fundamentais, assinale a alternativa correta:
 ---
 
 ### Teste 309
-**(FCC - Adaptada / TCE-GO - Analista de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No exercício da função administrativa de **Controle**, a literatura e a jurisprudência consagraram a classificação do controle governamental quanto ao momento de sua efetivação em: prévio (preventivo), concomitante e a posteriori (corretivo).
 
 Constitui exemplo de controle governamental **prévio** (ou preventivo):
 
 * **A)** O exame e homologação prévia de editais de licitação de grande vulto ou a concessão de tutela de urgência cautelar para suspender a assinatura de contrato com indícios de sobrepreço.
-* **B)** A auditoria contábil operacional realizada pelo Tribunal de Contas após o encerramento do exercício sobre as despesas de Restos a Pagar no âmbito da administração pública direta e indireta.
+* **B)** A auditoria contábil operacional realizada pelo Tribunal de Contas após o encerramento do exercício sobre as despesas de Restos a Pagar.
 * **C)** A instauração de Tomada de Contas Especial cinco anos após a execução irregular de um convênio de repasse.
 * **D)** O julgamento formal das contas dos ordenadores de despesas referente ao ano financeiro pretérito.
 * **E)** A cobrança judicial via execução fiscal dos valores de multas imputadas pelo Tribunal de Contas.

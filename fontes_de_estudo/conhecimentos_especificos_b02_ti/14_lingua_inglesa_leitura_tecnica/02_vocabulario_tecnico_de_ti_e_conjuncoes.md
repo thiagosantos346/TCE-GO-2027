@@ -121,7 +121,7 @@ Acrescentam argumentos adicionais alinhados à mesma linha de raciocínio, sem i
 
 - **Furthermore, Moreover, In addition, Additionally, Besides (Além disso, ademais, outrossim):** Conectivos aditivos cumulativos que introduzem novos fatos reforçadores.
     - *Exemplo:* *"The firewall blocks unauthorized IP subnets; **furthermore**, it inspects deep application payloads."*
-- **Not only... but also... (Não apenas... mas também...):** Estrutura correlativa de soma e reforço enfático.
+- **Not only.. but also.. (Não apenas.. mas também..):** Estrutura correlativa de soma e reforço enfático.
 
 ### 1.6 Relações de Condição e a Lógica do Unless
 
@@ -130,7 +130,7 @@ Estabelecem os pré-requisitos lógicos para que determinada asserção técnica
 - **If (Se):** Condição direta afirmativa.
 - **Provided that, Providing that, As long as, On condition that (Contanto que, desde que):** Conectivos que introduzem condições necessárias ou restrições de conformidade.
     - *Exemplo:* *"The gateway accepts API requests **provided that** a valid JWT bearer token is supplied."*
-- **Unless (A não ser que, a menos que):** Conjunção que embute semanticamente uma condição negativa, equivalendo estritamente a **"if... not"** ou **"except if"**.
+- **Unless (A não ser que, a menos que):** Conjunção que embute semanticamente uma condição negativa, equivalendo estritamente a **"if.. not"** ou **"except if"**.
     - *Exemplo:* *"The transaction will not be committed **unless** all distributed replicas acknowledge receipt."*  
     $\equiv$ *"The transaction will not be committed **if** all distributed replicas **do not** acknowledge receipt."*
 
@@ -149,20 +149,20 @@ Estabelecem os pré-requisitos lógicos para que determinada asserção técnica
 | **Causa (Sintagma)** | *Due to, Owing to, Because of* | Seguidos de sintagma nominal | *Due to $\leftrightarrow$ Owing to $\leftrightarrow$ Because of* | *"Network slowdowns occurred **due to** routing packet loss."* |
 | **Consequência / Conclusão** | *Therefore, Thus, Hence, Consequently* | Oração conclusiva decorrente | *Therefore $\leftrightarrow$ Thus $\leftrightarrow$ Consequently $\leftrightarrow$ Hence* | *"The token expired; **hence**, access was denied."* |
 | **Adição / Continuidade** | *Furthermore, Moreover, In addition* | Adiciona proposição cumulativa | *Furthermore $\leftrightarrow$ Moreover $\leftrightarrow$ Additionally* | *"The tool scans code; **moreover**, it audits cloud IAM roles."* |
-| **Condição Negativa** | *Unless* | Equivale logicamente a *if... not* | *Unless $\equiv$ Except if $\equiv$ If not* | *"Data will be deleted **unless** archives are verified."* |
+| **Condição Negativa** | *Unless* | Equivale logicamente a *if.. not* | *Unless $\equiv$ Except if $\equiv$ If not* | *"Data will be deleted **unless** archives are verified."* |
 | **Condição Restritiva** | *Provided that, As long as* | Condição mandatória requerida | *Provided that $\leftrightarrow$ As long as* | *"Requests succeed **provided that** rate limits are respected."* |
 
 ---
 
 ### Teste 575
-**(FCC - Adaptada / TRT - Analista Judiciário - Tecnologia da Informação)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Carefully read the technical excerpt below on distributed systems:*
 
 > *"**Despite** the sudden network partition and sporadic hardware failures, the distributed ledger maintained strong data consistency across all active nodes. **Although** write throughput temporarily stalled during leader election, no uncommitted transactions were lost. The engineering team, **however**, scheduled an emergency firmware update to mitigate residual latency spikes."*
 
 Com base no texto técnico e nas regras morfossintáticas e coesivas da língua inglesa, assinale a afirmação correta:
 
-* **A)** A substituição do conectivo **"Despite"** pela locução **"Despite of"** preservaria a correção gramatical e o sentido original do período no âmbito da administração pública direta e indireta.
+* **A)** A substituição do conectivo **"Despite"** pela locução **"Despite of"** preservaria a correção gramatical e o sentido original do período.
 * **B)** A oração introduzida por **"Although"** expressa uma concessão que poderia ser substituída sem prejuízo sintático ou semântico por **"Even though"**.
 * **C)** O termo **"however"** introduz uma oração subordinada causal explicativa sobre a atualização de firmware.
 * **D)** A expressão **"in spite of"** não poderia substituir **"Despite"** no primeiro período, pois exige oração subordinada com verbo conjugado.
@@ -176,7 +176,7 @@ Com base no texto técnico e nas regras morfossintáticas e coesivas da língua 
 > - **A)** Incorreta. A forma **"Despite of" NÃO EXISTE** na língua inglesa padrão. É uma clássica armadilha de bancas de concurso (FCC/FGV). O correto é utilizar **"Despite"** (sem preposição) ou **"In spite of"** (com preposição).
 > - **B)** Correta. As conjunções subordinativas concessivas **"Although"**, **"Even though"** e **"Though"** são semanticamente intercambiáveis e exigem a mesma estrutura sintática (sujeito + verbo finito conjugado: *"write throughput temporarily stalled"*).
 > - **C)** Incorreta. O vocábulo **"however"** é um advérbio conjuntivo adversativo que expressa **contraste, ressalva ou oposição** (no entanto, porém, contudo), e não causa ou explicação.
-> - **D)** Incorreta. A locução prepositiva **"in spite of"** é sinônima exata de **"despite"** e exige sintagma nominal (*noun phrase*): *"In spite of the sudden network partition..."* seria plenamente correto.
+> - **D)** Incorreta. A locução prepositiva **"in spite of"** é sinônima exata de **"despite"** e exige sintagma nominal (*noun phrase*): *"In spite of the sudden network partition.."* seria plenamente correto.
 > - **E)** Incorreta. **"Although"** é uma conjunção e exige oração completa com verbo (*"write throughput temporarily stalled"*). Quem exige sintagma nominal é *despite* ou *in spite of*.
 > 
 > **Gabarito: B**
@@ -184,7 +184,7 @@ Com base no texto técnico e nas regras morfossintáticas e coesivas da língua 
 ---
 
 ### Teste 576
-**(FCC - Adaptada / Tribunal de Contas - Auditoria Governamental de TI)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Read the continuous delivery policy statement below:*
 
 > *"The automated deployment pipeline will not release the production artifact into the sovereign cloud cluster **unless** all static code analysis checks report zero critical vulnerabilities **and** the regression suite passes with 100% compliance."*
@@ -193,7 +193,7 @@ No contexto da infraestrutura de CI/CD apresentada e da semântica dos conectivo
 
 * **A)** Todos os testes estáticos reportarem zero vulnerabilidades críticas e os testes de regressão obtiverem 100% de conformidade.
 * **B)** Os testes estáticos acusarem vulnerabilidades críticas ou os testes de regressão falharem.
-* **C)** A equipe de auditoria dispensar formalmente a verificação de vulnerabilidades em virtude de prazos urgentes no âmbito da administração pública direta e indireta.
+* **C)** A equipe de auditoria dispensar formalmente a verificação de vulnerabilidades em virtude de prazos urgentes.
 * **D)** O cluster de nuvem registrar latência nula, independentemente do resultado dos analisadores estáticos.
 * **E)** O deploy ocorrer em ambiente de homologação (*staging*) desprovido de regras de integridade.
 
@@ -202,7 +202,7 @@ No contexto da infraestrutura de CI/CD apresentada e da semântica dos conectivo
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. A conjunção condicional **"unless"** equivale estritamente a **"if... not"** (*a não ser que, a menos que, exceto se*). A frase estabelece: *"O pipeline não fará o release a não ser que (unless) A e B ocorram"*. Portanto, para que haja o release, é mandatório que **ambas** as condições (A e B) sejam plenamente satisfeitas.
+> - **A)** Correta. A conjunção condicional **"unless"** equivale estritamente a **"if.. not"** (*a não ser que, a menos que, exceto se*). A frase estabelece: *"O pipeline não fará o release a não ser que (unless) A e B ocorram"*. Portanto, para que haja o release, é mandatório que **ambas** as condições (A e B) sejam plenamente satisfeitas.
 > - **B)** Incorreta. Se houver vulnerabilidades ou se os testes de regressão falharem, o pipeline **bloqueará** a implantação, exatamente o inverso da afirmativa.
 > - **C)** Incorreta. A regra é automatizada e não prevê dispensa por urgência no texto técnico.
 > - **D)** Incorreta. Não há menção a latência ou dispensa de analisadores estáticos.
@@ -213,7 +213,7 @@ No contexto da infraestrutura de CI/CD apresentada e da semântica dos conectivo
 ---
 
 ### Teste 577
-**(FCC - Adaptada / Tribunal de Contas - Auditoria de TI)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na redação técnica em língua inglesa sobre infraestrutura distribuída e bancos de dados, o enunciado:
 
 > *"Engineers must balance the trade-off between strict consistency and high availability; **in spite of** the replication lag, the distributed database guarantees eventual consistency."*
@@ -242,7 +242,7 @@ apresenta a expressão conectiva **"in spite of"**. Assinale a opção que indic
 ---
 
 ### Teste 578
-**(FCC - Adaptada / Auditor de TI - Fiscalização de Contratos de Nuvem)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Consider the analytical report below regarding multi-tenant cloud storage:*
 
 > *"Relational engines enforce strict schema validation; **whereas**, document databases store unstructured documents. **Due to** recent compliance audits, administrators had to verify that cryptographic logs were **tamper-proof**. **Furthermore**, the cloud provider agreed to **mitigate** all critical hypervisor flaws discovered during penetration testing."*
@@ -271,7 +271,7 @@ A respeito das relações semânticas e do vocabulário técnico empregados no p
 ---
 
 ### Teste 579
-**(FCC - Adaptada / Analista de Governança de TI - SEFAZ)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Consider the sentence extracted from a technical systems architecture evaluation:*
 
 > *"The newly adopted microservices architecture offers superior horizontal scalability; **nevertheless**, it introduces substantial operational **overhead** and network latency. **Therefore**, the development team decided not to migrate the mission-critical core service **unless** rigorous benchmark metrics prove that throughput remains acceptable."*
@@ -282,7 +282,7 @@ A respeito dos marcadores discursivos e do vocabulário técnico empregados no t
 * **B)** O termo **"overhead"** refere-se exclusivamente aos encargos financeiros de licenciamento cobrados pelo fornecedor do software de orquestração.
 * **C)** O conectivo **"Therefore"** expressa conclusão/consequência lógica e pode ser substituído, sem alteração substancial de significado, por *"Consequently"*.
 * **D)** A conjunção **"unless"** introduz uma concessão incondicional, com o mesmo valor sintático e semântico de *"although"*.
-* **E)** A oração iniciada por *"unless rigorous benchmark metrics prove..."* indica que o serviço central será migrado de imediato, independentemente dos testes de vazão.
+* **E)** A oração iniciada por *"unless rigorous benchmark metrics prove.."* indica que o serviço central será migrado de imediato, independentemente dos testes de vazão.
 
 
 ---
@@ -292,7 +292,7 @@ A respeito dos marcadores discursivos e do vocabulário técnico empregados no t
 > - **A)** Incorreta. O conectivo **"Nevertheless"** (contudo, todavia, no entanto, não obstante) é um marcador discursivo coordenativo de **contraste/adversidade**. Ele pontua uma ressalva ou restrição à proposição anterior, e não uma relação explicativa de causa (*because*).
 > - **B)** Incorreta. Em arquitetura de sistemas e computação distribuída, o vocábulo **"overhead"** exprime a sobrecarga operacional computacional de processamento, consumo adicional de memória/CPU ou comunicações de rede para coordenação. Não denota despesas financeiras ou royalties.
 > - **C)** Correta. O conectivo **"Therefore"** (portanto, logo, por conseguinte) estabelece uma dedução lógica de **consequência/conclusão**. Possui equivalência perfeita de sentido com **"Consequently"**, **"Thus"** e **"Hence"**.
-> - **D)** Incorreta. A conjunção **"unless"** expressa uma **condição negativa** (*a menos que*, *a não ser que*, equivalente lógico a *if... not*), e não uma oração concessiva (*although*).
+> - **D)** Incorreta. A conjunção **"unless"** expressa uma **condição negativa** (*a menos que*, *a não ser que*, equivalente lógico a *if.. not*), e não uma oração concessiva (*although*).
 > - **E)** Incorreta. O trecho assevera o oposto: a equipe deliberou **NÃO migrar** o serviço de missão crítica a não ser que testes rigorosos de benchmark comprovem que a vazão (*throughput*) permaneça satisfatória. A migração está explicitamente condicionada ao sucesso métrico.
 > 
 > **Gabarito: C**
@@ -371,7 +371,7 @@ flowchart RL
 ---
 
 ### Teste 580
-**(FCC - Adaptada / Analista de Sistemas - Desenvolvimento)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Analyze the technical sentence below regarding cloud computing architecture:*
 
 > *"The architectural **maintainability** and **scalability** of cloud-native microservices ensure that distributed workloads degrade **gracefully** during unexpected traffic bursts."*
@@ -379,7 +379,7 @@ flowchart RL
 Em relação à morfologia das palavras em destaque e seus sufixos na língua inglesa, assinale a afirmativa correta:
 
 * **A)** Os vocábulos **"maintainability"** e **"scalability"** são substantivos abstratos derivados de adjetivos com sufixo *-able* acrescidos do sufixo nominalizador *-ity*.
-* **B)** A terminação *-ly* em **"gracefully"** caracteriza um adjetivo descritivo invariável que qualifica o substantivo *workloads* no âmbito da administração pública direta e indireta.
+* **B)** A terminação *-ly* em **"gracefully"** caracteriza um adjetivo descritivo invariável que qualifica o substantivo *workloads*.
 * **C)** O sufixo *-ity* transforma substantivos em verbos no infinitivo.
 * **D)** As palavras *maintainability* e *scalability* funcionam sintaticamente como advérbios de modo que indicam tempo de resposta.
 * **E)** A terminação *-able* presente na raiz das palavras traduz uma impossibilidade ou veto técnico categórico.
@@ -404,7 +404,7 @@ ightarrow$ *scalability* (substantivo). O sufixo derivacional **-ity** forma **s
 ---
 
 ### Teste 581
-**(FCC - Adaptada / Analista de Infraestrutura e Redes)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Read the excerpt from an infrastructure deployment manual:*
 
 > *"To guarantee zero downtime during datacenter updates, our team configured a **fault-tolerant high-availability cluster provisioning system**. The infrastructure operates **seamlessly** across two distinct availability zones, ensuring that failover occurs automatically without dropping active user sessions."*
@@ -486,7 +486,7 @@ Está correto o que se afirma em:
 ---
 
 ### Teste 582
-**(FCC - Adaptada / TCE-GO - Engenharia de Software)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Read the architectural review summary below:*
 
 > *"The audit team observed excessive **boilerplate** code across the data access layer, coupled with high **coupling** and low **cohesion** between payment services. To resolve this technical debt, the lead architect proposed continuous **refactoring**, acknowledging the inevitable **trade-off** between immediate delivery speed and long-term maintainability."*
@@ -496,7 +496,7 @@ Com base na terminologia técnica consagrada na engenharia de software e no text
 * **A)** O termo **"refactoring"** designa a reescrita de código com a finalidade exclusiva de alterar as saídas e regras de negócio externas observáveis pelos usuários.
 * **B)** A expressão **"trade-off"** refere-se a uma decisão de engenharia na qual a obtenção de uma vantagem técnica implica forçosamente abrir mão de outro benefício ou aceitar um custo correlato.
 * **C)** O conceito de **"boilerplate"** define módulos de software altamente customizados e exclusivos que encerram algoritmos confidenciais de negócio.
-* **D)** O estado de **"high coupling"** (alto acoplamento) constitui a melhor prática arquitetural recomendada, pois assegura que módulos dependam criticamente uns dos outros para operar no âmbito da administração pública direta e indireta.
+* **D)** O estado de **"high coupling"** (alto acoplamento) constitui a melhor prática arquitetural recomendada, pois assegura que módulos dependam criticamente uns dos outros para operar.
 * **E)** O vocábulo **"cohesion"** (coesão) indica a quantidade de pacotes de dados perdidos em uma transmissão de rede local.
 
 
@@ -515,7 +515,7 @@ Com base na terminologia técnica consagrada na engenharia de software e no text
 ---
 
 ### Teste 583
-**(FCC - Adaptada / Analista Judiciário - TRT - Tecnologia da Informação)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Carefully read the technical paragraph below regarding concurrent programming:*
 
 > *"When multiple threads concurrently access shared memory without proper synchronization, a hazardous **race condition** may emerge. If two threads enter a circular dependency while competing for exclusive locks, the operating system enters a permanent **deadlock**. To avoid these anomalies, developers can employ immutable data structures, **provided that** the garbage collector can efficiently recycle discarded instances **without** triggering disruptive latency spikes."*
@@ -544,7 +544,7 @@ Com base no texto técnico e nas regras gramaticais da língua inglesa, assinale
 ---
 
 ### Teste 584
-**(FCC - Adaptada / Segurança Cibernética e Auditoria de Sistemas)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Read the cybersecurity incident report excerpt below:*
 
 > *"During the external penetration test, the adversary attempted to bypass perimeter firewalls via **IP spoofing** and gain administrative access through targeted **phishing**. However, cryptographic **tamper-proof** event logs maintained on an immutable write-once store allowed forensic auditors to establish **non-repudiation** and swiftly execute threat **mitigation** procedures."*
@@ -553,7 +553,7 @@ No âmbito da segurança da informação e auditoria de sistemas, a correta inte
 
 * **A)** **"IP spoofing"** consiste na criptografia legítima do endereço IP de origem para acelerar o roteamento de pacotes prioritários.
 * **B)** Registros descritos como **"tamper-proof"** são trilhas de auditoria dotadas de salvaguardas que impedem ou evidenciam qualquer adulteração ou manipulação não autorizada de dados.
-* **C)** O princípio de **"non-repudiation"** (não repúdio) confere ao autor da ação a faculdade técnica de negar a autoria de qualquer transação efetuada no sistema no âmbito da administração pública direta e indireta.
+* **C)** O princípio de **"non-repudiation"** (não repúdio) confere ao autor da ação a faculdade técnica de negar a autoria de qualquer transação efetuada no sistema.
 * **D)** O termo **"mitigation"** descreve a intensificação intencional de vulnerabilidades operacionais em servidores expostos na internet.
 * **E)** **"Phishing"** caracteriza a exclusão definitiva de logs de eventos mediante ataques de inundação de pacotes syn-flood.
 

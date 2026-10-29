@@ -94,10 +94,10 @@ flowchart TD
 ---
 
 ### Teste 440
-**(FCC – Técnico de Controle Externo – Área Administrativa – TCE-AP)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No âmbito da administração de recursos humanos, as ações voltadas para Treinamento e as ações voltadas para Desenvolvimento de Pessoas distinguem-se primordialmente em razão de seus horizontes temporais e de seus objetivos funcionais. Assinale a opção que caracteriza com precisão uma ação clássica de **Desenvolvimento de Pessoas**:
 
-* **A)** Realização de oficina prática de 4 horas para ensinar os servidores recém-lotados a emitir certidões no módulo de protocolo recém-implantado em estrita conformidade com as normas legais e regulamentares aplicáveis.
+* **A)** Realização de oficina prática de 4 horas para ensinar os servidores recém-lotados a emitir certidões no módulo de protocolo recém-implantado.
 * **B)** Aplicação de curso intensivo para operadores de máquinas de reprografia sanarem problemas mecânicos frequentes em seus aparelhos.
 * **C)** Implementação de um programa corporativo de liderança transformadora e governança pública voltado a preparar analistas para assumirem funções de direção e planejamento estratégico nos próximos anos.
 * **D)** Instrução sumária da equipe de atendimento sobre como cadastrar visitantes no balcão da portaria do edifício-sede.
@@ -119,14 +119,14 @@ No âmbito da administração de recursos humanos, as ações voltadas para Trei
 ---
 
 ### Teste 441
-**(FCC - Adaptada / Analista de Gestão Pública)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na gestão de pessoas, **Treinamento** e **Desenvolvimento de Pessoas (T&D)** são processos distintos, embora complementares.
 
 A distinção conceitual precisa entre Treinamento e Desenvolvimento reside em:
 
 * **A)** O treinamento tem foco no curto prazo e visa capacitar o indivíduo para o desempenho eficaz de suas funções e tarefas no cargo atual; enquanto o desenvolvimento foca o médio e longo prazo, visando ao crescimento integral do potencial humano e à preparação do servidor para desafios, papéis e cargos futuros.
 * **B)** O treinamento é privativo de cargos comissionados e o desenvolvimento é restrito a servidores estagiários.
-* **C)** O treinamento não pode utilizar tecnologias digitais e o desenvolvimento é sempre presencial em sala de aula considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **C)** O treinamento não pode utilizar tecnologias digitais e o desenvolvimento é sempre presencial em sala de aula.
 * **D)** O treinamento extingue a necessidade de avaliação de desempenho funcional posterior.
 * **E)** O desenvolvimento visa unicamente à redução salarial em situações de limite prudencial da LRF.
 
@@ -199,7 +199,7 @@ flowchart TD
 ---
 
 ### Teste 442
-**(FCC – Analista de Gestão Pública – DPE-RS)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Para avaliar o impacto de um programa de treinamento sobre a nova Lei de Licitações e Contratos (Lei nº 14.133/2021) ofertado aos pregoeiros de uma entidade governamental, a área de Gestão de Pessoas realizou uma pesquisa formal 60 dias após o encerramento do curso, acompanhando a redução do índice de despachos devolvidos por vícios formais e observando se as minutas contratuais elaboradas pelos servidores incorporavam os novos entendimentos ensinados. Consoante a metodologia de avaliação de treinamento em quatro níveis desenvolvida por Donald Kirkpatrick, a medição realizada corresponde ao:
 
 * **A)** Nível 1 – Reação.
@@ -224,7 +224,7 @@ Para avaliar o impacto de um programa de treinamento sobre a nova Lei de Licita�
 ---
 
 ### Teste 443
-**(FCC - Adaptada / Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Donald Kirkpatrick concebeu o modelo mais utilizado internacionalmente para avaliação da eficácia de programas de capacitação, estruturado em quatro níveis sucessivos de impacto.
 
 O **Nível 3 (Comportamento no Cargo / Aplicação)** do modelo de Kirkpatrick avalia:
@@ -314,7 +314,7 @@ flowchart TD
 ---
 
 ### Teste 444
-**(FCC – Auditor de Controle Externo – TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O Tribunal de Contas do Estado de Goiás, buscando consolidar as melhores práticas desenvolvidas pelos seus auditores sêniores na detecção de fraudes em licitações públicas informatizadas, organizou oficinas temáticas nas quais esses profissionais veteranos estruturaram conceitos, descreveram rotinas investigativas e redigiram detalhados manuais de procedimentos e fluxogramas operacionais para consulta geral. De acordo com o modelo de criação do conhecimento organizacional proposto por Ikujiro Nonaka e Hirotaka Takeuchi (Modelo SECI), o processo de conversão do conhecimento verificado nessa iniciativa classifica-se como:
 
 * **A)** Socialização.
@@ -339,7 +339,7 @@ O Tribunal de Contas do Estado de Goiás, buscando consolidar as melhores práti
 ---
 
 ### Teste 445
-**(FCC - Adaptada / Analista de Tecnologia e Controle)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Ikujiro Nonaka e Hirotaka Takeuchi desenvolveram o consagrado modelo **SECI** para explicar a criação e a conversão do conhecimento organizacional através da interação entre o conhecimento tácito e o conhecimento explícito.
 
 A modalidade de conversão do conhecimento que consiste em transformar o **conhecimento tácito em conhecimento explícito** (por exemplo, quando um auditor experiente redige um manual detalhado de auditoria de obras sistematizando seus anos de intuição e prática para toda a equipe) é a:
@@ -380,7 +380,7 @@ A aprendizagem organizacional ocorre quando o aprendizado individual e coletivo 
 ---
 
 ### Teste 446
-**(FCC – Analista Judiciário – Área Judiciária – TRT-15ª)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Dois teóricos fundamentais do comportamento organizacional, Chris Argyris e Donald Schön, formularam a distinção seminal entre a aprendizagem em circuito simples (*single-loop*) e a aprendizagem em circuito duplo (*double-loop*). Assinale a afirmativa que define corretamente a **aprendizagem em circuito duplo**:
 
 * **A)** Ocorre quando o gestor, diante de um erro processual, limita-se a punir o servidor faltoso e aumentar a vigilância sobre as planilhas existentes sem alterar fluxos.
@@ -431,7 +431,7 @@ flowchart TD
 ---
 
 ### Teste 447
-**(FCC – Analista de Controle Externo – TCE-RO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em sua consagrada obra sobre organizações que aprendem (*Learning Organizations*), Peter Senge afirma que uma disciplina específica atua como a pedra angular e a força integradora de todas as demais, permitindo aos líderes e gestores compreenderem que a organização pública é um sistema vivo composto por inter-relações interdependentes, no qual as soluções fáceis que atacam apenas sintomas de curto prazo costumam agravar os problemas estruturais de longo prazo. Essa disciplina integradora é denominada por Senge de:
 
 * **A)** Domínio Pessoal.
@@ -465,7 +465,7 @@ No setor público moderno, a visão fragmentada de "cursos isolados" foi substit
 ---
 
 ### Teste 448
-**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na obra clássica *A Quinta Disciplina*, Peter Senge apresenta os fundamentos necessários para a construção de organizações que aprendem (*learning organizations*).
 
 A disciplina que Senge considera a "pedra angular" e a mais integradora de todas, por permitir que os gestores enxerguem as inter-relações e os padrões de mudança sistêmicos em vez de eventos estáticos e isolados, é o:
@@ -489,13 +489,13 @@ A disciplina que Senge considera a "pedra angular" e a mais integradora de todas
 ---
 
 ### Teste 449
-**(FCC - Adaptada / TCE-GO - Analista de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No modelo de aprendizagem organizacional de Chris Argyris e Donald Schön, a **Aprendizagem de Circuito Duplo** (*Double-Loop Learning*) ocorre quando a organização:
 
 * **A)** Questiona e modifica os valores, premissas fundamentais, normas e políticas subjacentes que definem as metas da instituição, em vez de apenas corrigir erros superficiais mantendo as regras inalteradas.
 * **B)** Repete as mesmas tarefas rotineiras duas vezes para garantir conformidade contábil.
 * **C)** Exige que dois auditores assinem conjuntamente o mesmo relatório preliminar.
-* **D)** Mantém os procedimentos tradicionais inalterados independentemente de variações no ambiente externo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **D)** Mantém os procedimentos tradicionais inalterados independentemente de variações no ambiente externo.
 * **E)** Contrata duas consultorias externas concorrentes para emitir pareceres conflitantes.
 
 

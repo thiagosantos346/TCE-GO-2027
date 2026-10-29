@@ -111,7 +111,7 @@ A **desconcentração** é uma técnica puramente interna de divisão e distribu
 ---
 
 ### Teste 012
-**(FGV – TRT – Analista Judiciário - 2022)**  
+**(FGV – TRT – Analista Judiciário - Suporte e Infraestrutura de TI – 2022)**  
 O Prefeito do Município Alfa decidiu promover uma ampla reestruturação da estrutura administrativa municipal. Para tanto, adotou duas medidas:  
 (1) encaminhou à Câmara Municipal projeto de lei para a criação de uma autarquia municipal de trânsito e de uma empresa pública de informática;  
 (2) editou decreto extinguindo secretarias adjuntas e redistribuindo internamente suas competências regimentais entre diretorias de uma mesma Secretaria de Governo.
@@ -192,7 +192,7 @@ Entre a Administração Direta e as entidades da Administração Indireta **NÃO
 ---
 
 ### Teste 013
-**(FGV – Analista de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 As autarquias constituem pessoas jurídicas de direito público integrantes da Administração Indireta, criadas diretamente por lei específica para o desempenho de atividades típicas de Estado. Acerca do regime jurídico das autarquias, assinale a afirmativa correta:
 
 * **A)** Seus dirigentes gozam de mandato fixo e inamovível, vedada a destituição por ato do Chefe do Executivo.
@@ -213,7 +213,7 @@ As autarquias constituem pessoas jurídicas de direito público integrantes da A
 >
 > **Gabarito: B**
 ### Teste 014
-**(FCC – Analista de Gestão Pública – SEAD-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O Governo do Estado de Goiás, com o propósito de aprimorar a exploração de atividade econômica de relevante interesse coletivo, pretende autorizar determinada sociedade de economia mista estadual a criar uma subsidiária integral e a participar de empresa privada. À luz do art. 37, XIX e XX, da CF/88 e da jurisprudência do STF:
 
 * **A)** A criação da subsidiária exige lei específica autorizativa, vedada a previsão genérica na lei de instituição da estatal matriz.
@@ -234,7 +234,7 @@ O Governo do Estado de Goiás, com o propósito de aprimorar a exploração de a
 >
 > **Gabarito: C**
 ### Teste 015
-**(FGV – TRT – Analista Judiciário - 2024)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A Lei nº 13.303/2016 (Estatuto Jurídico das Empresas Públicas e Sociedades de Economia Mista) estabelece diretrizes de governança e regras sobre a atuação dos órgãos de controle interno e externo das três esferas da federação. A respeito da fiscalização desempenhada pelos Tribunais de Contas sobre empresas estatais exploradoras de atividade econômica em regime de concorrência, é correto afirmar que:
 
 * **A)** as deliberações do Tribunal de Contas podem impor restrições à gestão comercial não previstas na legislação de mercado.
@@ -255,7 +255,7 @@ A Lei nº 13.303/2016 (Estatuto Jurídico das Empresas Públicas e Sociedades de
 >
 > **Gabarito: C**
 ### Teste 016
-**(FCC – Auditor de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O controle finalístico, tutela administrativa ou supervisão ministerial consubstancia o poder conferido à Administração Direta para fiscalizar e harmonizar as atividades desenvolvidas pelas entidades da Administração Indireta. A respeito dos contornos dogmáticos e limites da tutela administrativa, assinale a opção correta:
 
 * **A)** Opera de forma presumida e ampla em relação a qualquer ato, independentemente de previsão expressa na legislação de regência.
@@ -297,7 +297,7 @@ O Terceiro Setor compreende entidades privadas sem fins lucrativos que colaboram
 ---
 
 ### Teste 017
-**(FGV – Analista de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Determinada entidade privada sem fins lucrativos obteve a qualificação como Organização Social (OS) perante o Poder Executivo estadual e celebrou Contrato de Gestão para operacionalizar um hospital público goiano. Paralelamente, outra associação qualificou-se como Organização da Sociedade Civil de Interesse Público (OSCIP) e firmou Termo de Parceria na área cultural. Sobre esses regimes jurídicos:
 
 * **A)** As duas entidades passam a integrar a Administração Indireta e seus empregados submetem-se ao regime de concurso público estatutário.
@@ -385,7 +385,7 @@ Superando divergências anteriores, o STF pacificou a tese com eficácia vincula
 ---
 
 ### Teste 018
-**(FCC – Técnico de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No âmbito de uma Secretaria de Estado, o Secretário Titular pretende delegar parte de suas atribuições administrativas a um Diretor de Departamento hierarquicamente subordinado. Considerando as regras de delegação e avocação de competência estabelecidas na Lei de Processo Administrativo (Lei Federal nº 9.784/1999 e Lei Estadual nº 13.800/2001), é correto afirmar que:
 
 * **A)** A delegação exige que o órgão delegado seja necessariamente subordinado hierárquico ao órgão delegante na estrutura administrativa.
@@ -406,7 +406,7 @@ No âmbito de uma Secretaria de Estado, o Secretário Titular pretende delegar p
 >
 > **Gabarito: B**
 ### Teste 019
-**(FCC – TRT-1ª Região – Analista Judiciário - 2014)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Quando se diz que as relações no âmbito interno da Administração Pública estão estruturadas sob a égide dos poderes hierárquico e disciplinar, significa assinalar que a autoridade administrativa, no exercício regular dessas prerrogativas:
 
 * **A)** instaura processos administrativos disciplinares para apurar infrações funcionais com base no poder de polícia estatal.
@@ -427,7 +427,7 @@ Quando se diz que as relações no âmbito interno da Administração Pública e
 >
 > **Gabarito: E**
 ### Teste 020
-**(FCC – TRT – Analista Judiciário - 2009)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No exercício de seu poder regulamentar e normativo, o Chefe do Poder Executivo pode expedir decretos e regulamentos para disciplinar matérias afetas à Administração Pública. A respeito das espécies de decretos e de sua conformidade constitucional (art. 84, IV e VI, da CF/88), é correto afirmar que os decretos:
 
 * **A)** autônomos podem criar ou extinguir órgãos públicos desde que não gerem aumento global de despesa orçamentária.
@@ -448,7 +448,7 @@ No exercício de seu poder regulamentar e normativo, o Chefe do Poder Executivo 
 >
 > **Gabarito: C**
 ### Teste 021
-**(FCC – Procurador do Estado – PGE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Determinada empresa pública estadual, constituída sob personalidade jurídica de direito privado para prestar serviços de trânsito, pretende exercer atividades de fiscalização de velocidade e aplicar sanções pecuniárias aos motoristas infratores. À luz da doutrina sobre o ciclo de polícia e da jurisprudência do Supremo Tribunal Federal (Tema nº 532 / RE 633.782):
 
 * **A)** É constitucional a delegação das fases de fiscalização e de sanção a pessoas jurídicas privadas não integrantes da Administração.
@@ -507,7 +507,7 @@ O art. 2º da Lei nº 13.869/2019 estabelece que é sujeito ativo de crime de ab
 ---
 
 ### Teste 022
-**(FGV – TRF-1ª Região – Analista Judiciário - 2024)**  
+**(FGV – TRF-1 – Analista Judiciário - Tecnologia da Informação – 2024)**  
 Fernando, técnico judiciário do Tribunal Regional Federal da 1ª Região, estava conversando com seu colega de trabalho a respeito das distinções conceituais e operacionais entre o poder de polícia administrativa e o poder de polícia judiciária no ordenamento jurídico brasileiro. 
 
 Ao debaterem sobre a natureza e as características dessas duas formas de atuação estatal, é correto afirmar que:

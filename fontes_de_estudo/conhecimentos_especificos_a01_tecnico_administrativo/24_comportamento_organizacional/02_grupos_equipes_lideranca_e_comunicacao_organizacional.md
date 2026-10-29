@@ -98,13 +98,13 @@ flowchart TD
 ---
 
 ### Teste 410
-**(FCC – DPE-RS – Analista: Área Administrativa)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito da distinção conceitual entre Grupos de Trabalho e Equipes de Trabalho segundo a literatura especializada de comportamento organizacional, assinale a opção correta:
 
 * **A)** Em um grupo de trabalho, a responsabilidade pelos resultados é solidária e mútua entre todos os integrantes, inexistindo metas isoladas.
 * **B)** As equipes de trabalho caracterizam-se por apresentar sinergia positiva, na qual o desempenho coletivo conjunto é superior à soma das contribuições individuais isoladas.
 * **C)** Os grupos de trabalho dependem compulsoriamente de habilidades técnicas altamente complementares entre seus membros.
-* **D)** Em uma equipe de trabalho, a sinergia é sempre neutra, limitando-se os integrantes a trocar informações de rotina sem compromisso mútuo com as metas no âmbito da administração pública direta e indireta.
+* **D)** Em uma equipe de trabalho, a sinergia é sempre neutra, limitando-se os integrantes a trocar informações de rotina sem compromisso mútuo com as metas.
 * **E)** As equipes autogerenciadas são aquelas nas quais o gestor superior centraliza todas as decisões operacionais sem delegar autoridade aos membros.
 
 
@@ -123,13 +123,13 @@ A respeito da distinção conceitual entre Grupos de Trabalho e Equipes de Traba
 ---
 
 ### Teste 411
-**(FCC - Adaptada / Analista de Gestão Pública)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No Comportamento Organizacional, a distinção entre **Grupo de Trabalho** e **Equipe de Trabalho** é fundamental para a gestão de pessoas.
 
 Constitui característica essencial e distintiva de uma **Equipe de Trabalho** de alto desempenho:
 
 * **A)** A sinergia positiva gerada pelo esforço coordenado dos membros, resultando em um nível de desempenho coletivo maior do que a simples soma das contribuições individuais, com responsabilidade tanto individual quanto mútua.
-* **B)** A independência estrita de objetivos, de tal modo que o sucesso de um membro prescinda do esforço dos demais no âmbito da administração pública direta e indireta.
+* **B)** A independência estrita de objetivos, de tal modo que o sucesso de um membro prescinda do esforço dos demais.
 * **C)** A concentração exclusiva das decisões na figura do chefe hierárquico formal, sem participação da equipe.
 * **D)** A inexistência de complementaridade de habilidades técnicas entre os colaboradores.
 * **E)** O foco exclusivo na produtividade individual isolada sem metas coletivas compartilhadas.
@@ -167,14 +167,14 @@ flowchart LR
 ---
 
 ### Teste 412
-**(FCC – TRT-2ª Região – Analista Judiciário: Área Administrativa)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 De acordo com o modelo de desenvolvimento de pequenos grupos concebido por Bruce Tuckman, o estágio em que surgem conflitos explícitos entre os participantes, disputas internas pelo controle do grupo e resistências à liderança formal pré-estabelecida é denominado:
 
 * **A)** Estágio de Formação (*Forming*).
 * **B)** Estágio de Tormenta ou Conflito (*Storming*).
 * **C)** Estágio de Normatização (*Norming*).
 * **D)** Estágio de Desempenho (*Performing*).
-* **E)** Estágio de Desintegração (*Adjourning*) no âmbito da administração pública direta e indireta.
+* **E)** Estágio de Desintegração (*Adjourning*).
 
 
 ---
@@ -192,7 +192,7 @@ De acordo com o modelo de desenvolvimento de pequenos grupos concebido por Bruce
 ---
 
 ### Teste 413
-**(FCC - Adaptada / Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Bruce Tuckman propôs um modelo seminal que descreve os cinco estágios universais pelos quais passam os grupos e equipes ao longo de seu ciclo de desenvolvimento.
 
 O estágio em que o grupo supera conflitos internos de poder, estabelece coesão, define normas claras de convivência e desenvolve forte sentimento de identidade e camaradagem mútua é denominado:
@@ -255,12 +255,12 @@ flowchart TD
 ---
 
 ### Teste 414
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito da Teoria da Liderança Situacional proposta por Paul Hersey e Kenneth Blanchard, considere um grupo de servidores recém-aprovados em concurso público que acaba de ser lotado em uma gerência de fiscalização contábil. Os novos servidores apresentam grande entusiasmo e disposição para aprender, todavia desconhecem completamente as normas regimentais específicas e as ferramentas operacionais do sistema informatizado de controle externo (nível de maturidade M2). De acordo com a teoria, o estilo de liderança mais apropriado a ser adotado pelo gestor da unidade é:
 
 * **A)** Estilo de Delegação (baixo comportamento de tarefa e baixo comportamento de relacionamento).
 * **B)** Estilo de Persuasão / Orientação (alto comportamento de tarefa e alto comportamento de relacionamento).
-* **C)** Estilo de Não Intervenção / Laissez-Faire (isenção de qualquer comando diretivo ou cobrança de metas) no âmbito da administração pública direta e indireta.
+* **C)** Estilo de Não Intervenção / Laissez-Faire (isenção de qualquer comando diretivo ou cobrança de metas).
 * **D)** Estilo Apoiador Exclusivo (baixo comportamento de tarefa e alto comportamento de relacionamento).
 * **E)** Estilo de Imposição Burocrática Inflexível sem concessão de explicações pedagógicas.
 
@@ -280,14 +280,14 @@ A respeito da Teoria da Liderança Situacional proposta por Paul Hersey e Kennet
 ---
 
 ### Teste 415
-**(FCC - Adaptada / Analista de Planejamento e Controle)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na Teoria da Liderança Situacional formulada por Paul Hersey e Kenneth Blanchard, o estilo de liderança mais eficaz não é fixo, mas depende do nível de **prontidão (ou maturidade)** dos liderados para desempenhar uma tarefa específica.
 
 Quando os liderados apresentam **baixa competência e alto comprometimento/motivação** (estágio de maturidade M1), o estilo de liderança mais indicado pelo modelo é:
 
 * **A)** Determinar / Direcionar (E1 - Direção), caracterizado por alto comportamento para a tarefa e baixo comportamento para o relacionamento (instruções claras e supervisão estrita).
 * **B)** Delegar (E4 - Delegação), retirando toda a supervisão e deixando o liderado agir por conta própria.
-* **C)** Apoiar / Participar (E3 - Apoio), com foco exclusivo em suporte afetivo e baixa orientação sobre como executar a tarefa em estrita conformidade com as normas legais e regulamentares aplicáveis.
+* **C)** Apoiar / Participar (E3 - Apoio), com foco exclusivo em suporte afetivo e baixa orientação sobre como executar a tarefa.
 * **D)** Autocracia repressiva punitiva com ameaça de abertura de processo administrativo.
 * **E)** Demissão sumária por insuficiência de capacitação técnica.
 
@@ -323,10 +323,10 @@ flowchart LR
 ---
 
 ### Teste 416
-**(FCC – TCE-RS – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No âmbito dos estudos sobre liderança nas organizações contemporâneas, o modelo de Liderança Transformacional diferencia-se da Liderança Transacional fundamentalmente porque:
 
-* **A)** A liderança transformacional fundamenta-se estritamente na concessão de incentivos financeiros contingentes ao atingimento das metas contratuais acordadas no âmbito da administração pública direta e indireta.
+* **A)** A liderança transformacional fundamenta-se estritamente na concessão de incentivos financeiros contingentes ao atingimento das metas contratuais acordadas.
 * **B)** O líder transformacional inspira e estimula seus seguidores a transcenderem seus interesses individuais em prol da missão e dos valores superiores da organização, promovendo profundas mudanças culturais.
 * **C)** A liderança transacional rejeita qualquer tipo de recompensa ou cobrança de cumprimento de rotinas operacionais.
 * **D)** O líder transformacional restringe sua atuação à gestão por exceção, intervindo unicamente quando ocorrem falhas graves na linha de montagem.
@@ -382,7 +382,7 @@ flowchart LR
 ---
 
 ### Teste 417
-**(FCC – ARTESP – Especialista em Regulação de Transportes)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Durante a elaboração de um relatório de fiscalização, determinado analista deliberadamente omitiu informações cruciais sobre irregularidades graves na conservação da malha rodoviária, selecionando e apresentando apenas dados favoráveis à concessionária, com o objetivo expresso de evitar atritos com seu superior hierárquico e fazer com que o documento parecesse positivo. No processo de comunicação organizacional, a conduta desse servidor materializa a barreira denominada:
 
 * **A)** Sobrecarga informacional.
@@ -407,13 +407,13 @@ Durante a elaboração de um relatório de fiscalização, determinado analista 
 ---
 
 ### Teste 418
-**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na moderna literatura sobre liderança, Bernard Bass consagrou a contraposição entre **Liderança Transacional** e **Liderança Transformacional**.
 
 Constitui característica marcante da **Liderança Transformacional**:
 
 * **A)** Inspirar e motivar os liderados a transcender seus interesses individuais em prol da missão coletiva da organização, estimulando a inovação, o questionamento construtivo e o desenvolvimento pessoal por meio da consideração individualizada e do estímulo intelectual.
-* **B)** Basear-se exclusivamente em trocas contratuais de curto prazo, onde o líder apenas concede recompensas financeiras em troca do cumprimento estrito de metas no âmbito da administração pública direta e indireta.
+* **B)** Basear-se exclusivamente em trocas contratuais de curto prazo, onde o líder apenas concede recompensas financeiras em troca do cumprimento estrito de metas.
 * **C)** Utilizar primordialmente a gestão por exceção passiva, intervindo apenas quando falhas graves já ocorreram.
 * **D)** Concentrar todo o poder e evitar que os servidores desenvolvam pensamento crítico autônomo.
 * **E)** Punir severamente os liderados que apresentarem ideias inovadoras contrárias aos regulamentos tradicionais.
@@ -432,7 +432,7 @@ Constitui característica marcante da **Liderança Transformacional**:
 ---
 
 ### Teste 419
-**(FCC - Adaptada / TCE-GO - Analista de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No processo de comunicação organizacional, a barreira que ocorre quando o emissor manipula deliberadamente as informações para que sejam vistas de modo mais favorável e lisonjeiro pelo receptor (muito comum em relações verticais ascendentes em que subordinados ocultam más notícias de seus chefes) é denominada:
 
 * **A)** Filtragem.

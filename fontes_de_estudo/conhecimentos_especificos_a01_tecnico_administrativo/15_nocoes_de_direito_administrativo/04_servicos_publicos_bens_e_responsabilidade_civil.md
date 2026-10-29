@@ -139,7 +139,7 @@ O Supremo Tribunal Federal, ao julgar o RE 1.027.633 sob a sistemática da reper
 ---
 
 ### Teste 034
-**(FCC – Analista Judiciário – TRT / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Motorista de ambulância pertencente à Secretaria de Saúde de determinado Estado da Federação, ao conduzir o veículo oficial em velocidade compatível durante o transporte regular de paciente, colidiu contra o automóvel de um particular que avançou o sinal vermelho de um cruzamento. Diante dos danos materiais causados ao particular:
 
 * **A)** O Estado responde de forma objetiva fundada no risco integral, sendo irrelevante a conduta culposa do terceiro.
@@ -160,7 +160,7 @@ Motorista de ambulância pertencente à Secretaria de Saúde de determinado Esta
 >
 > **Gabarito: B**
 ### Teste 035
-**(FGV – TJ-MT – Analista Judiciário - 2024)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No estudo da Responsabilidade Civil Extracontratual do Estado, a doutrina e a jurisprudência distinguem a Teoria do Risco Administrativo da Teoria do Risco Integral. A respeito das hipóteses em que o ordenamento jurídico pátrio adota excepcionalmente a Teoria do Risco Integral (em que o Estado responde sem possibilidade de alegar excludentes de culpabilidade da vítima ou força maior), assinale a opção que indica caso regido por essa teoria:
 
 * **A)** Danos decorrentes de acidentes automobilísticos com viaturas policiais em perseguição de fugitivos.
@@ -181,7 +181,7 @@ No estudo da Responsabilidade Civil Extracontratual do Estado, a doutrina e a ju
 >
 > **Gabarito: C**
 ### Teste 036
-**(FCC – Auditor de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Durante o período noturno de custódia em estabelecimento prisional estadual administrado pela Secretaria de Administração Penitenciária, um detento foi assassinado por companheiros de cela com instrumentos perfurantes artesanais. À luz do art. 5º, XLIX, da Constituição Federal e da jurisprudência vinculante do Supremo Tribunal Federal (Tema nº 592 de Repercussão Geral):
 
 * **A)** O Estado responde de forma puramente subjetiva, exigindo dos herdeiros prova cabal de dolo dos policiais penais.
@@ -202,7 +202,7 @@ Durante o período noturno de custódia em estabelecimento prisional estadual ad
 >
 > **Gabarito: C**
 ### Teste 037
-**(FCC – Analista de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Uma viatura oficial pertencente ao Tribunal de Contas, conduzida por servidor público efetivo em missão institucional, abalroou veículo de particular por negligência do agente ao não respeitar a preferência em rotatória. De acordo com o art. 37, § 6º, da CF/88 e a jurisprudência pacificada pelo Supremo Tribunal Federal no Tema nº 940:
 
 * **A)** O particular pode optar por propor a demanda indenizatória unicamente contra o servidor público condutor.
@@ -282,7 +282,7 @@ As Parcerias Público-Privadas constituem concessões especiais destinadas a via
 ---
 
 ### Teste 038
-**(FCC – Procurador do Estado – PGE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Sobre os princípios que informam a prestação de serviços públicos previstos na Lei Federal nº 8.987/1995 e na doutrina administrativista contemporânea, assinale a opção correta:
 
 * **A)** A continuidade veda em absoluto a interrupção do serviço, mesmo após aviso prévio por inadimplemento de fatura de água.
@@ -303,7 +303,7 @@ Sobre os princípios que informam a prestação de serviços públicos previstos
 >
 > **Gabarito: C**
 ### Teste 039
-**(FGV – Analista de Gestão Pública – SEAD-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito dos regimes de delegação de serviços públicos previstos na Lei Federal nº 8.987/1995, assinale a afirmativa que apresenta distinção correta entre concessão comum e permissão de serviço público:
 
 * **A)** A concessão é outorgada a pessoa física ou jurídica, enquanto a permissão formaliza-se unicamente com pessoa jurídica.
@@ -324,7 +324,7 @@ A respeito dos regimes de delegação de serviços públicos previstos na Lei Fe
 >
 > **Gabarito: B**
 ### Teste 040
-**(FCC – Procurador do Estado – PGE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O Estado de Goiás celebrou contrato de concessão de serviço público rodoviário com uma sociedade empresária pelo prazo de vinte anos. Transcorridos cinco anos, em razão de relevante interesse público e conveniência estratégica estadual, o Governador pretende retomar a prestação direta da rodovia antes do término contratual. Nos termos da Lei nº 8.987/1995:
 
 * **A)** O Estado pode promover a encampação unilateral mediante decreto, sem necessidade de lei ou prévia indenização.
@@ -345,7 +345,7 @@ O Estado de Goiás celebrou contrato de concessão de serviço público rodoviá
 >
 > **Gabarito: C**
 ### Teste 041
-**(FGV – TRT – Analista Judiciário - 2025)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No Brasil, as Parcerias Público-Privadas (PPPs) são disciplinadas pela Lei Federal nº 11.079/2004 e contemplam duas modalidades contratuais distintas: a concessão patrocinada e a concessão administrativa. A respeito da concessão patrocinada, é correto afirmar que consiste no contrato de concessão de serviços públicos ou de obras públicas:
 
 * **A)** em que a remuneração do parceiro privado advém unicamente de subsídio orçamentário mensal pago pela Administração.
@@ -395,7 +395,7 @@ O regime jurídico dos bens públicos é informado por quatro prerrogativas estr
 ---
 
 ### Teste 042
-**(FCC – TRT – Analista Judiciário - 2009)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O Código Civil brasileiro, em seu art. 99, classifica os bens públicos em bens de uso comum do povo, bens de uso especial e bens dominicais. A respeito do regime jurídico que recai sobre essas três categorias de bens públicos, assinale a opção correta:
 
 * **A)** Os bens de uso comum do povo e os de uso especial são inalienáveis enquanto conservarem a sua qualificação legal.
@@ -416,7 +416,7 @@ O Código Civil brasileiro, em seu art. 99, classifica os bens públicos em bens
 >
 > **Gabarito: A**
 ### Teste 043
-**(FGV – Analista de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A afetação e a desafetação de bens públicos expressam a consagração ou a desvinculação de uma coisa pública a uma finalidade estatal específica. A respeito dos modos de afetação e desafetação e de suas repercussões para o controle patrimonial, é correto afirmar que:
 
 * **A)** A afetação exige sempre lei autorizativa específica aprovada pelo Legislativo, vedada a afetação tácita fática.
@@ -437,7 +437,7 @@ A afetação e a desafetação de bens públicos expressam a consagração ou a 
 >
 > **Gabarito: B**
 ### Teste 044
-**(FCC – Analista Judiciário – TRT / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Determinada área de terras devolutas pertencente ao patrimônio do Estado de Goiás foi invadida por particulares que ali construíram residências e desenvolveram atividade agropastoril contínua e pacífica por mais de quinze anos ininterruptos. Diante do pleito de usucapião formulado pelos posseiros em face da Fazenda Pública estadual:
 
 * **A)** A pretensão é juridicamente inviável, pois a Constituição veda o usucapião de imóveis públicos de qualquer espécie.

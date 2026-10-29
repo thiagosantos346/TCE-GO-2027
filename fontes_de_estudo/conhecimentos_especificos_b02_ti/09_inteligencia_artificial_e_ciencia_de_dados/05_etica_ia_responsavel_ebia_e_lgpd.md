@@ -103,12 +103,12 @@ Para mitigar decisões automatizadas danosas e salvaguardar garantias constituci
 ---
 
 ### Teste 344
-**(FGV - TRT / Analista Judiciário - Governança de TI - Diretrizes Internacionais de Ética em IA: OCDE e UNESCO)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A governança ética da Inteligência Artificial consolidou-se internacionalmente a partir da Recomendação sobre Inteligência Artificial da OCDE (2019) e da Recomendação sobre a Ética da Inteligência Artificial da UNESCO (2021).
 
 A respeito dos princípios reitores estabelecidos pela OCDE para sistemas de IA confiáveis (*Trustworthy AI*), assinale a afirmativa correta:
 
-* **A)** A OCDE recomenda que o desenvolvimento de sistemas de IA seja mantido em sigilo governamental, dispensando transparência e rastreabilidade para acelerar a inovação considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **A)** A OCDE recomenda que o desenvolvimento de sistemas de IA seja mantido em sigilo governamental, dispensando transparência e rastreabilidade para acelerar a inovação.
 * **B)** Os princípios da OCDE determinam que os sistemas de IA devem: (1) impulsionar o crescimento inclusivo, desenvolvimento sustentável e bem-estar; (2) respeitar os direitos humanos, Estado de Direito e equidade; (3) operar com transparência e explicabilidade responsável; (4) garantir robustez técnica, segurança contínua e proteção; e (5) contar com responsabilização e prestação de contas (*accountability*) dos atores de IA.
 * **C)** A OCDE estabelece a proibição global de qualquer aplicação de IA no setor público e no poder judiciário.
 * **D)** A Recomendação da UNESCO preconiza que modelos de linguagem devem substituir juízes e conselheiros de tribunais em decisões colegiadas vinculantes.
@@ -135,7 +135,7 @@ A respeito dos princípios reitores estabelecidos pela OCDE para sistemas de IA 
 ---
 
 ### Teste 345
-**(FGV - TRT / Analista Judiciário - TI - Métricas de Equidade e Impacto Desproporcional em IA)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Sistemas automatizados de triagem e classificação baseados em Machine Learning podem perpetuar ou amplificar discriminações históricas presentes nas bases de treinamento. Para detectar e quantificar esses vieses, a área de *Fairness in AI* (Equidade em IA) emprega testes formais de paridade estatística.
 
 No contexto de avaliação de preconceito algorítmico, o critério do **Impacto Desproporcional** (*Disparate Impact / Regra dos Quatro Quintos ou dos 80%*) é definido formalmente quando:
@@ -144,7 +144,7 @@ No contexto de avaliação de preconceito algorítmico, o critério do **Impacto
 * **B)** Exatamente 80% das linhas do banco de dados contêm valores nulos na coluna demográfica.
 * **C)** O modelo atinge acurácia global de 80% em testes sintéticos em laboratório.
 * **D)** O sistema de IA descarta 80% de todas as candidaturas sem qualquer leitura de atributos.
-* **E)** O modelo é aprovado sem vieses se o número de conexões na rede neural for múltiplo de 80 considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **E)** O modelo é aprovado sem vieses se o número de conexões na rede neural for múltiplo de 80. em conformidade com as diretrizes e padrões de arquitetura corporativa.
 
 
 ---
@@ -165,13 +165,13 @@ No contexto de avaliação de preconceito algorítmico, o critério do **Impacto
 ---
 
 ### Teste 346
-**(FCC - TRT-15ª Região - Analista Judiciário - Tecnologia da Informação)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Ao implantar um sistema inteligente de triagem automática de processos trabalhistas e recursos judiciais, o Tribunal estabeleceu diretrizes éticas para impedir vieses algorítmicos e assegurar a adequada governança institucional sobre as decisões automatizadas.
 A respeito dos conceitos de equidade (*fairness*) e dos modelos de supervisão humana em sistemas de inteligência artificial, assinale a afirmativa correta:
 
 * **A)** O modelo *Human-in-the-Loop* (HITL) caracteriza-se pela completa ausência de supervisores humanos na esteira operacional, permitindo que a IA tome decisões definitivas de maneira 100% autônoma e irrecorrível.
 * **B)** O viés de representação (*representation bias*) ocorre quando determinadas classes ou grupos sociais estão insuficientemente representados ou ausentes da base amostral de treinamento do modelo, o que pode provocar degradação de desempenho e maior taxa de erros contra esses grupos.
-* **C)** O princípio da Não Discriminação é plenamente atendido pela simples eliminação formal do atributo "gênero" ou "raça" da tabela, sendo impossível que outras variáveis presentes (como CEP ou ocupação) funcionem como variáveis substitutas (*proxies*) indiretas no âmbito da administração pública direta e indireta.
+* **C)** O princípio da Não Discriminação é plenamente atendido pela simples eliminação formal do atributo "gênero" ou "raça" da tabela, sendo impossível que outras variáveis presentes (como CEP ou ocupação) funcionem como variáveis substitutas (*proxies*) indiretas.
 * **D)** O modelo *Human-on-the-Loop* (HOTL) exige que o magistrado humano execute manualmente todos os cálculos matriciais de tensores antes de autorizar o processamento do algoritmo.
 * **E)** A equidade algorítmica é um conceito puramente comercial sem relevância para os órgãos públicos do Poder Judiciário e Tribunais de Contas.
 
@@ -254,7 +254,7 @@ Introduzido por Marco Tulio Ribeiro et al. (2016), o **LIME** fundamenta-se na *
 ---
 
 ### Teste 347
-**(FGV - TRT / Analista Judiciário - TI - O Dilema Acurácia vs. Interpretabilidade em XAI)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em projetos de Inteligência Artificial aplicada ao setor público, gestores e cientistas de dados confrontam com frequência o chamado **Dilema entre Desempenho Preditivo e Interpretabilidade** (*Performance vs. Interpretability Trade-off*).
 
 A respeito da classificação dos modelos segundo esse paradigma, assinale a afirmativa correta:
@@ -283,14 +283,14 @@ A respeito da classificação dos modelos segundo esse paradigma, assinale a afi
 ---
 
 ### Teste 348
-**(FCC - TCE-RS - Auditor Público Externo - Tecnologia da Informação)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em auditorias de controle externo com uso intensivo de modelos de aprendizado de máquina supervisionados para detecção de conluio em licitações públicas, a explicabilidade técnica dos algoritmos é pré-requisito indispensável para a sustentação jurídica dos relatórios periciais. Dois dos métodos agósticos de explicação mais consolidados na literatura são o SHAP (*SHapley Additive exPlanations*) e o LIME (*Local Interpretable Model-agnostic Explanations*).
 A respeito dos fundamentos matemáticos e características do SHAP e do LIME, assinale a afirmativa correta:
 
 * **A)** O SHAP baseia-se na Teoria dos Jogos Cooperativos formulada por Lloyd Shapley, garantindo propriedades axiomáticas de consistência, simetria e aditividade local ao mensurar a contribuição marginal de cada variável para a predição.
 * **B)** O LIME é um método estritamente global que só é capaz de explicar o comportamento de modelos lineares de regressão, sendo incapaz de processar redes neurais ou árvores de decisão.
 * **C)** O SHAP descarta as permutações de coalizões de atributos e atribui pesos aleatórios aos dados com base em uma função de densidade de Poisson uniforme.
-* **D)** O método LIME calcula o valor exato de todas as coalizões de atributos em nível populacional global com garantia matemática de aditividade exata, enquanto o SHAP restringe-se a perturbações empíricas pontuais no âmbito da administração pública direta e indireta.
+* **D)** O método LIME calcula o valor exato de todas as coalizões de atributos em nível populacional global com garantia matemática de aditividade exata, enquanto o SHAP restringe-se a perturbações empíricas pontuais.
 * **E)** Ambos os métodos exigem acesso obrigatório e exclusivo aos códigos-fonte proprietários dos compiladores para operar, sendo proibido seu uso em bibliotecas abertas como Scikit-Learn.
 
 
@@ -309,14 +309,14 @@ A respeito dos fundamentos matemáticos e características do SHAP e do LIME, as
 ---
 
 ### Teste 349
-**(FCC - TRT / Analista Judiciário - TI - Método LIME em Explicabilidade de Modelos)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 O algoritmo LIME (*Local Interpretable Model-Agnostic Explanations*) é uma das ferramentas mais consagradas de Inteligência Artificial Explicável (XAI) do tipo *post-hoc*.
 
 A respeito do mecanismo de funcionamento matemático e conceitual do LIME, assinale a afirmativa correta:
 
 * **A)** O LIME substitui permanentemente o modelo caixa-preta global por uma única equação diferencial em todo o espaço de dados.
 * **B)** O LIME baseia-se no princípio de que, embora um modelo complexo de IA possa ser altamente não linear e incompreensível globalmente, o seu comportamento no entorno local de uma predição específica pode ser satisfatoriamente aproximado por um modelo interpretável simples (como uma regressão linear ponderada), treinado sobre amostras artificialmente perturbadas ao redor da instância sob análise.
-* **C)** O LIME só funciona com algoritmos baseados em árvores de decisão, sendo incompatível com redes neurais ou modelos de processamento de texto considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **C)** O LIME só funciona com algoritmos baseados em árvores de decisão, sendo incompatível com redes neurais ou modelos de processamento de texto.
 * **D)** O LIME exige acesso irrestrito ao código-fonte interno e às derivadas dos gradientes da rede neural, violando o princípio modelo-agnóstico.
 * **E)** A explicabilidade do LIME é estritamente global, revelando o funcionamento da base inteira sem focar em instâncias individuais.
 
@@ -387,14 +387,14 @@ Nos termos do Art. 38 da LGPD, a ANPD pode exigir a elaboração de um **Relató
 ---
 
 ### Teste 350
-**(FGV - TRT / Analista Judiciário - TI - A LGPD e o Princípio da Não Discriminação na IA)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A aplicação de algoritmos de Inteligência Artificial no tratamento de dados pessoais no âmbito da administração pública deve guardar estrita consonância com os princípios da Lei Geral de Proteção de Dados Pessoais (LGPD - Lei nº 13.709/2018).
 
 Dentre os princípios expressos no Art. 6º da LGPD, o preceito legal que vincula diretamente os cientistas de dados ao dever de auditoria algorítmica para evitar que modelos preditivos resultem em exclusões injustas ou preconceitos estruturais é o:
 
 * **A)** Princípio do Livre Acesso, que obriga a publicação irrestrita de todas as senhas de banco de dados na internet.
 * **B)** Princípio da Não Discriminação, o qual estabelece a impossibilidade de realização do tratamento de dados pessoais para fins discriminatórios ilícitos ou abusivos.
-* **C)** Princípio da Portabilidade, que exige a transferência compulsória de dados entre tribunais concorrentes sem consentimento no âmbito da administração pública direta e indireta.
+* **C)** Princípio da Portabilidade, que exige a transferência compulsória de dados entre tribunais concorrentes sem consentimento.
 * **D)** Princípio da Finalidade, que autoriza o uso genérico e indefinido de dados para qualquer objetivo futuro imprevisível.
 * **E)** Princípio da Retaliação, que permite punir cidadãos que solicitarem a exclusão de seus dados pessoais.
 
@@ -417,13 +417,13 @@ Dentre os princípios expressos no Art. 6º da LGPD, o preceito legal que vincul
 ---
 
 ### Teste 351
-**(FCC - SEFAZ-PE - Auditoria Fiscal - LGPD e Decisões Automatizadas)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Um contribuinte teve sua certidão negativa de débitos fiscais cancelada de forma imediata e sumária por um módulo autônomo de inteligência artificial de uma Secretaria da Fazenda. O sistema tomou a decisão com base em cruzamentos algorítmicos automatizados de notas fiscais eletrônicas de terceiros. Ao solicitar esclarecimentos formais sobre os critérios adotados na autuação, o contribuinte recebeu como resposta de que a decisão era fruto de processamento fechado e protegido por sigilo tecnológico interno, nada havendo a ser esclarecido.
 À luz da Lei Geral de Proteção de Dados (Lei nº 13.709/2018 - LGPD), assinale a alternativa correta:
 
 * **A)** O controlador agiu de forma estritamente legal, pois a LGPD não prevê qualquer prerrogativa de revisão para decisões tomadas com base em tratamento automatizado de dados pessoais.
 * **B)** Nos termos do Artigo 20 da LGPD, o titular dos dados tem o direito de solicitar a revisão de decisões tomadas unicamente com base em tratamento automatizado de dados pessoais que afetem seus interesses, tendo o controlador a obrigação de prestar informações claras e adequadas a respeito dos critérios e dos procedimentos utilizados.
-* **C)** A alegação de sigilo comercial e industrial por parte do controlador cessa qualquer possibilidade de auditoria pelo Estado, extinguindo as competências da Autoridade Nacional de Proteção de Dados (ANPD) considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **C)** A alegação de sigilo comercial e industrial por parte do controlador cessa qualquer possibilidade de auditoria pelo Estado, extinguindo as competências da Autoridade Nacional de Proteção de Dados (ANPD). em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **D)** As decisões tomadas por algoritmos no setor público prescindem de motivação legal, dada a presunção jurídica de infalibilidade dos cálculos matemáticos.
 * **E)** A LGPD autoriza expressamente a discriminação ilícita ou abusiva quando esta for executada por algoritmos de aprendizado profundo (*deep learning*).
 
@@ -443,12 +443,12 @@ Um contribuinte teve sua certidão negativa de débitos fiscais cancelada de for
 ---
 
 ### Teste 352
-**(FCC - TRF-3ª Região - Analista Judiciário - Governança de TI)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Um Tribunal Regional Federal planeja implantar um sistema automatizado de inteligência artificial dotado de visão computacional para reconhecimento facial e perfilamento biométrico em tempo real para controle de acesso físico e segurança em suas dependências judiciárias.
 Considerando as regras da LGPD e as diretrizes internacionais de governança ética em IA, assinale a alternativa correta:
 
 * **A)** O uso de biometria facial e perfilamento em larga escala qualifica-se como tratamento de dados pessoais sensíveis com potencial de elevado risco aos direitos fundamentais, justificando a realização de um Relatório de Impacto à Proteção de Dados Pessoais (RIPD) e a adoção de medidas reforçadas de segurança e mitigação de falsos positivos.
-* **B)** A LGPD isenta expressamente qualquer órgão do Poder Judiciário da elaboração de Relatórios de Impacto à Proteção de Dados Pessoais (RIPD), mesmo quando envolver inteligência artificial e dados sensíveis considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **B)** A LGPD isenta expressamente qualquer órgão do Poder Judiciário da elaboração de Relatórios de Impacto à Proteção de Dados Pessoais (RIPD), mesmo quando envolver inteligência artificial e dados sensíveis. em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **C)** Os princípios da OCDE sobre IA preconizam a exclusão sumária de qualquer mecanismo de auditoria algorítmica para garantir a proteção irrestrita da propriedade intelectual de desenvolvedores privados.
 * **D)** O princípio da Minimização de Dados impõe que o órgão público colete a maior quantidade possível de dados pessoais irrelevantes para alimentar a memória do algoritmo sem finalidade específica.
 * **E)** Sistemas de IA aplicados à segurança pública prescindem de qualquer controle de precisão técnica ou teste de estresse de segurança cibernética.
@@ -518,14 +518,14 @@ A EBIA estrutura-se em uma arquitetura matricial dividida categoricamente entre 
 ---
 
 ### Teste 353
-**(FCC - DPE-RS - Analista de Tecnologia da Informação)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A Estratégia Brasileira de Inteligência Artificial (EBIA), aprovada formalmente por meio da Portaria MCTI nº 4.617/2021, foi instituída com a missão de orientar o desenvolvimento ético, sustentável e inovador da IA no território brasileiro, organizando-se em eixos estruturais complementares.
 A respeito da taxonomia e da divisão temática dos eixos da EBIA, assinale a afirmativa correta:
 
 * **A)** A EBIA divide-se estritamente em 3 Eixos Transversais (Legislação, Regulação e Uso Ético; Governança de IA; e Aspectos Internacionais) e 6 Eixos Verticais (Educação e Capacitação; Força de Trabalho e Capacitação; Pesquisa, Desenvolvimento, Inovação e Empreendedorismo; Aplicação nos Setores Produtivos; Aplicação no Poder Público; e Segurança Pública).
 * **B)** O documento proíbe categoricamente qualquer iniciativa de pesquisa em IA no Poder Público para evitar interferências em rotinas burocráticas consolidadas.
 * **C)** Os Eixos Transversais da EBIA são: Finanças Corporativas, Mineração de Criptomoedas e Automação de Jogos Eletrônicos.
-* **D)** A EBIA impõe que todo modelo de inteligência artificial comercializado no Brasil obtenha autorização ministerial prévia com homologação em cartório de títulos e documentos antes de qualquer fase de teste considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **D)** A EBIA impõe que todo modelo de inteligência artificial comercializado no Brasil obtenha autorização ministerial prévia com homologação em cartório de títulos e documentos antes de qualquer fase de teste. em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **E)** A EBIA determina que a substituição de empregos decorrente da automação dispensa programas de capacitação ou requalificação profissional por parte do Estado.
 
 
@@ -544,7 +544,7 @@ A respeito da taxonomia e da divisão temática dos eixos da EBIA, assinale a af
 ---
 
 ### Teste 354
-**(FGV - TRT / Analista Judiciário - Governança de TI - Estrutura de Eixos da EBIA)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A Estratégia Brasileira de Inteligência Artificial (EBIA), instituída por meio da Portaria MCTI nº 4.617/2021, estabelece as diretrizes estratégicas nacionais para o desenvolvimento, fomento e uso responsável da Inteligência Artificial no Brasil.
 
 A estrutura formal da EBIA articula-se em **3 Eixos Transversais** e **6 Eixos Verticais (Temáticos)**. Assinale a afirmativa que apresenta corretamente os componentes que integram essa matriz estratégica:
@@ -552,7 +552,7 @@ A estrutura formal da EBIA articula-se em **3 Eixos Transversais** e **6 Eixos V
 * **A)** Os três eixos transversais são: Legislação, Regulação e Uso Ético; Governança de IA; e Aspectos Internacionais. Já os seis eixos verticais englobam: Educação; Força de Trabalho e Capacitação; Pesquisa, Desenvolvimento, Inovação e Empreendedorismo; Aplicação no Setor Público; Aplicação nos Setores Produtivos; e Segurança Pública.
 * **B)** A EBIA possui apenas um eixo vertical unificado voltado exclusivamente para a aquisição de criptomoedas pelo Banco Central.
 * **C)** Os eixos verticais da EBIA preveem a extinção completa dos tribunais de contas até o ano de 2026.
-* **D)** A EBIA proíbe qualquer tipo de cooperação técnica internacional entre o Brasil e organismos multilaterais no campo da inteligência artificial considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo garantindo a observância dos protocolos de governança e interoperabilidade vigentes.
+* **D)** A EBIA proíbe qualquer tipo de cooperação técnica internacional entre o Brasil e organismos multilaterais no campo da inteligência artificial. garantindo a observância dos protocolos de governança e interoperabilidade vigentes.
 * **E)** Os eixos transversais da EBIA são: Redes Neurais, Algoritmos Genéticos e Árvores de Decisão; e os eixos verticais são: Windows, Linux e Unix.
 
 

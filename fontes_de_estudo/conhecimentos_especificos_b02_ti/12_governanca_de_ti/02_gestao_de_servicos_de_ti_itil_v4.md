@@ -87,12 +87,12 @@ flowchart TD
 ---
 
 ### Teste 475
-**(FGV - TJ-RR - Analista Judiciário - Governança e Gestão de TI - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** A ITIL v4 redefine o conceito central de serviço e a forma como o valor é percebido pelas organizações. Acerca dos conceitos fundamentais de serviço, co-criação de valor, utilidade e garantia, assinale a alternativa correta:  
 
 * **A)** A utilidade (*utility*) refere-se exclusivamente à segurança da informação e à taxa de disponibilidade mensal do hardware, sendo sinônimo estrito de garantia técnica.
 * **B)** A garantia (*warranty*) representa a aptidão para o propósito (*fit for purpose*), avaliando unicamente se o software possui os botões e telas solicitados pelo usuário final.
-* **C)** O valor de um serviço é criado e entregue de forma puramente unilateral pelo departamento de TI, sendo dispensável qualquer interação, feedback ou co-criação por parte do consumidor do serviço no âmbito da administração pública direta e indireta.
+* **C)** O valor de um serviço é criado e entregue de forma puramente unilateral pelo departamento de TI, sendo dispensável qualquer interação, feedback ou co-criação por parte do consumidor do serviço.
 * **D)** Para que um serviço viabilize a criação de valor, ele deve fornecer simultaneamente utilidade (*fit for purpose* - o que o serviço faz) e garantia (*fit for use* - como o serviço atende a disponibilidade, capacidade, segurança e continuidade).
 * **E)** A ITIL v4 determina que um serviço só pode ser considerado existente se for composto estritamente por bens materiais físicos tangíveis, excluindo softwares em nuvem e fluxos lógicos de suporte.
 
@@ -142,7 +142,7 @@ Essas quatro dimensões sofrem pressão contínua de fatores externos incontrol�
 ---
 
 ### Teste 476
-**(FCC - Auditor Federal de Controle Externo / TI - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** O Sistema de Valor de Serviço (SVS) da ITIL v4 apoia-se em Quatro Dimensões do Gerenciamento de Serviço, fundamentais para assegurar a co-criação equilibrada e sustentável de valor. A dimensão que abrange a cultura da organização, as competências técnicas dos colaboradores, os estilos de liderança e a gestão das linhas de comunicação internas denomina-se:  
 
 * **A)** Informação e Tecnologia.
@@ -225,7 +225,7 @@ Os princípios orientadores da ITIL v4 são recomendações perenes, aplicáveis
 ---
 
 ### Teste 477
-**(FCC - Analista de Sistemas / Governança de TI - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** A ITIL v4 estabelece os 7 Princípios Orientadores (*Guiding Principles*), que representam recomendações que podem orientar uma organização em qualquer circunstância, independentemente de mudanças em suas metas, estratégias ou estrutura de trabalho. Dentre esses princípios, aquele que preconiza que a organização não deve descartar prematuramente soluções e processos existentes sem antes avaliar o que já está disponível e funcionando adequadamente, denomina-se:  
 
 * **A)** Foco no Valor (*Focus on Value*).
@@ -286,13 +286,13 @@ flowchart TD
 ---
 
 ### Teste 478
-**(FCC - Analista de Sistemas - Governança de TI - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** A Cadeia de Valor de Serviço (SVC - *Service Value Chain*) é o elemento operacional nuclear do Sistema de Valor de Serviço (SVS) da ITIL v4, sendo composta por seis atividades-chave interconectadas. Assinale a alternativa que relaciona corretamente a atividade da cadeia de valor ao seu respectivo propósito:  
 
 * **A)** A atividade 'Obter/Construir' (*Obtain/Build*) tem como foco principal realizar o atendimento de suporte telefônico e registrar chamados de help desk dos usuários.
 * **B)** A atividade 'Engajar' (*Engage*) visa proporcionar um bom entendimento das necessidades dos stakeholders, transparência e engajamento contínuo em todo o ciclo de vida dos serviços.
 * **C)** A atividade 'Planejar' (*Plan*) é restrita à codificação em linguagens de baixo nível e à compilação de binários para servidores locais.
-* **D)** A atividade 'Melhorar' (*Improve*) é realizada uma única vez durante a homologação do sistema, sendo expressamente vedada a sua repetição em serviços já em produção no âmbito da administração pública direta e indireta.
+* **D)** A atividade 'Melhorar' (*Improve*) é realizada uma única vez durante a homologação do sistema, sendo expressamente vedada a sua repetição em serviços já em produção.
 * **E)** A atividade 'Entregar e Suportar' (*Deliver & Support*) visa exclusivamente negociar termos de distrato com fornecedores externos sancionados pelo Tribunal.
 
 
@@ -339,7 +339,7 @@ A **Central de Serviços** atua como o **Ponto Único de Contato (SPOC - *Single
 ---
 
 ### Teste 479
-**(FCC - Técnico de Controle Externo / TI - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** Na ITIL v4, a prática da Central de Serviços (*Service Desk*) desempenha um papel tático indispensável na relação cotidiana entre os usuários institucionais e a Diretoria de Tecnologia da Informação. Sobre as características, modelos organizacionais e competências da Central de Serviços, assinale a alternativa correta:  
 
 * **A)** A Central de Serviços atua precipuamente como Ponto Único de Contato (SPOC - *Single Point of Contact*), sendo o canal centralizador para relatos de incidentes e solicitações de serviços da organização.
@@ -395,7 +395,7 @@ flowchart LR
 ---
 
 ### Teste 480
-**(FCC - Analista de TI / Suporte e Operações - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** Em um Tribunal de Contas Estadual, a equipe de infraestrutura e operações de TIC vivenciou os seguintes episódios durante a rotina de sustentação tecnológica:  
 
 I. O sistema de protocolo eletrônico tornou-se subitamente indisponível no início do expediente; o analista plantonista reiniciou imediatamente os serviços de aplicação e executou um script de liberação de conexões residuais, restabelecendo a operação aos usuários em menos de dez minutos.  
@@ -461,7 +461,7 @@ stateDiagram-v2
 ---
 
 ### Teste 481
-**(FCC - Técnico de Controle Externo / TI - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** A respeito da prática de Habilitação de Mudanças (*Change Enablement*) da ITIL v4 e da classificação de tipos de mudança, considere as três situações a seguir em um órgão público:  
 
 1. Criação de login e concessão de perfil de acesso de rede padronizado para um novo servidor público empossado, conforme procedimento documentado e testado.  
@@ -506,13 +506,13 @@ As situações 1, 2 e 3 classificam-se, respectivamente, como mudanças:
 ---
 
 ### Teste 482
-**(FCC - Analista de TI / Infraestrutura de Redes - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** Na gestão operacional de serviços de TI de uma instituição pública, dois repositórios de dados desempenham funções essenciais, porém com finalidades distintas: o repositório de Itens de Configuração (CIs) que mapeia os relacionamentos técnicos entre hardware, software e serviços para suporte operacional e análise de impacto, e o repositório financeiro/patrimonial destinado ao controle de licenças de software, custos de aquisição e ciclo de vida contábil dos equipamentos. Esses dois papéis correspondem, respectivamente, às práticas da ITIL v4 de:  
 
 * **A)** Gerenciamento de Nível de Serviço e Central de Serviços.
 * **B)** Gerenciamento de Configuração de Serviço e Gerenciamento de Ativos de TI (*ITAM*).
 * **C)** Gerenciamento de Problemas e Habilitação de Mudanças.
-* **D)** Gerenciamento de Ativos de TI (*ITAM*) e Gerenciamento de Liberação no âmbito da administração pública direta e indireta.
+* **D)** Gerenciamento de Ativos de TI (*ITAM*) e Gerenciamento de Liberação.
 * **E)** Gerenciamento de Continuidade e Gerenciamento de Disponibilidade.
 
 
@@ -543,12 +543,12 @@ A prática articula três tipos de instrumentos fundamentais:
 ---
 
 ### Teste 483
-**(FGV - TRT - Analista Judiciário - Suporte e Infraestrutura de TI - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** Segundo o ITIL versão 4, a prática que define metas claras e baseadas no negócio para o desempenho dos serviços, permitindo que a entrega de um serviço seja devidamente avaliada, monitorada e gerenciada com relação a essas metas, articulando instrumentos como SLA, OLA e Contratos de Apoio (UC), é o gerenciamento de:  
 
 * **A)** Capacidade e Desempenho de Serviços.
 * **B)** Configuração de Serviços (CMDB).
-* **C)** Continuidade de Serviços de TI (ITSCM) no âmbito da administração pública direta e indireta.
+* **C)** Continuidade de Serviços de TI (ITSCM).
 * **D)** Ativos de TI (ITAM).
 * **E)** Nível de Serviço (*Service Level Management*).
 
@@ -577,14 +577,14 @@ Responsável por garantir que a disponibilidade e o desempenho dos serviços de 
 ---
 
 ### Teste 484
-**(FCC - Tribunal de Contas - Auditor de TI - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** Em uma auditoria de resiliência e segurança operacional no data center de um Tribunal de Contas, os auditores avaliaram o Plano de Continuidade de Serviços de TI (ITSCM). A respeito das métricas RTO (*Recovery Time Objective*) e RPO (*Recovery Point Objective*), assinale a afirmativa correta:  
 
 * **A)** O RTO representa a quantidade máxima admissível de dados perdidos em uma falha, mensurada em gigabytes de memória RAM.
 * **B)** O RPO estipula o tempo decorrido até que a equipe de desenvolvimento termine a escrita do manual de usuário de uma aplicação.
 * **C)** O RTO define o tempo máximo aceitável para restaurar a operação de um serviço de TI após uma interrupção, enquanto o RPO define a tolerância máxima a perdas de dados transacionais ocorrida entre o último ponto de restauração válido e o desastre.
 * **D)** Valores de RTO iguais a zero e RPO iguais a zero indicam ausência de proteção tecnológica e desídia administrativa por parte dos gestores de TI.
-* **E)** A definição de RTO e RPO é uma decisão puramente técnica que deve ser tomada pela equipe de suporte básico de TI, sem qualquer consulta aos gestores de negócio ou à alta administração do Tribunal no âmbito da administração pública direta e indireta.
+* **E)** A definição de RTO e RPO é uma decisão puramente técnica que deve ser tomada pela equipe de suporte básico de TI, sem qualquer consulta aos gestores de negócio ou à alta administração do Tribunal.
 
 
 ---

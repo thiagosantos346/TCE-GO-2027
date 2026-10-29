@@ -113,13 +113,13 @@ A governança assegura a integração bidirecional contínua entre a estratégia
 ---
 
 ### Teste 465
-**(FGV - TJ-MT - Analista Judiciário - Tecnologia da Informação - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** A governança de TI é fundamental para alinhar os recursos e investimentos de tecnologia aos objetivos estratégicos organizacionais, assegurando a geração de valor público e a mitigação de riscos. A respeito das diferenças estruturais e operacionais entre governança e gestão de tecnologia da informação, assinale a alternativa correta:  
 
 * **A)** A governança de TI concentra-se precipuamente na execução de atividades operacionais rotineiras, como configuração de switches de rede, homologação de código e atendimento diário de chamados de suporte de primeiro nível.
 * **B)** A governança de TI é responsável por avaliar as necessidades estratégicas, direcionar as prioridades institucionais por meio de políticas e monitorar o desempenho e a conformidade, cabendo à gestão planejar, construir, executar e monitorar as atividades técnicas em consonância com as diretrizes estabelecidas.
 * **C)** A gestão de TI possui horizonte temporal plurianual e é exercida com exclusividade pelos membros do Plenário e da alta administração, não se subordinando às diretrizes dos comitês estratégicos institucionais.
-* **D)** A governança e a gestão de tecnologia constituem funções idênticas e intercambiáveis, de modo que os frameworks internacionais (como COBIT 2019 e ISO/IEC 38500) não estabelecem segregação de papéis ou responsabilidades entre os dois domínios em estrita conformidade com as normas legais e regulamentares aplicáveis.
+* **D)** A governança e a gestão de tecnologia constituem funções idênticas e intercambiáveis, de modo que os frameworks internacionais (como COBIT 2019 e ISO/IEC 38500) não estabelecem segregação de papéis ou responsabilidades entre os dois domínios.
 * **E)** A responsabilidade final pela governança corporativa de TI deve ser compulsoriamente transferida e delegada às empresas contratadas que fornecem infraestrutura de data center ou sustentação de sistemas.
 
 
@@ -170,13 +170,13 @@ sequenceDiagram
 ---
 
 ### Teste 466
-**(FCC - Tribunal de Contas - Auditor de TI - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** A norma ABNT NBR ISO/IEC 38500:2024 define que a governança de Tecnologia da Informação pela alta administração é exercida por meio de um ciclo contínuo de três tarefas fundamentais (modelo EDM). Acerca desse modelo e dos papéis desempenhados pelo órgão de governança, assinale a alternativa correta:  
 
 * **A)** Na tarefa de Dirigir (*Direct*), o órgão de governança assume diretamente a programação de scripts e o deploy contínuo de aplicações em ambientes de produção.
 * **B)** Na tarefa de Avaliar (*Evaluate*), o órgão de governança examina e julga o uso presente e futuro da TI, considerando as estratégias institucionais, propostas de projetos e demandas das partes interessadas (*stakeholders*).
 * **C)** O modelo EDM determina que a tarefa de Monitorar (*Monitor*) é dispensável caso a organização possua certificação ISO 9001 e auditoria interna constituída.
-* **D)** A governança corporativa de TI conforme a ISO/IEC 38500 limita-se a organizações privadas com fins lucrativos, sendo vedada sua aplicação em tribunais de contas ou autarquias públicas no âmbito da administração pública direta e indireta.
+* **D)** A governança corporativa de TI conforme a ISO/IEC 38500 limita-se a organizações privadas com fins lucrativos, sendo vedada sua aplicação em tribunais de contas ou autarquias públicas.
 * **E)** A tarefa de Dirigir (*Direct*) consiste exclusivamente na realização de auditorias fiscais pós-fato, sem competência para emitir políticas ou planos de investimento.
 
 
@@ -213,7 +213,7 @@ A ISO/IEC 38500 prescreve **seis princípios** fundamentais que orientam a tomad
 ---
 
 ### Teste 467
-**(FCC - Analista de TI / Governança - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** A norma ABNT NBR ISO/IEC 38500 fornece diretrizes para que dirigentes e órgãos de governança assegurem o uso eficaz, eficiente e aceitável da Tecnologia da Informação. Acerca dos princípios e do modelo de atuação prescritos por essa norma, assinale a alternativa correta:  
 
 * **A)** O modelo da ISO/IEC 38500 estabelece que a atuação do órgão de governança ocorre por meio de três tarefas fundamentais: Avaliar (*Evaluate*), Dirigir (*Direct*) e Monitorar (*Monitor*).
@@ -285,7 +285,7 @@ flowchart LR
 ---
 
 ### Teste 468
-**(FCC - Analista de Controle Externo / Auditoria de TI - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** O framework COBIT 2019 estruturou seus fundamentos separando os princípios aplicáveis ao "Sistema de Governança" dos princípios aplicáveis ao "Framework de Governança". A respeito dessa classificação e dos componentes de governança do COBIT 2019, assinale a afirmativa correta:  
 
 * **A)** "Baseado em um modelo conceitual", "Aberto e flexível" e "Alinhado aos principais padrões" constituem os 3 princípios do Framework de Governança.
@@ -324,7 +324,7 @@ Para construir, operar e manter um sistema de governança funcional, o COBIT 201
 ---
 
 ### Teste 469
-**(FGV - TRT-13 - Analista Judiciário - TI - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** O COBIT 2019 estabelece que um sistema de governança requer fatores e recursos de diferentes naturezas trabalhando em conjunto, estruturados em 7 categorias de Componentes. A respeito desses componentes, assinale a alternativa correta:  
 
 * **A)** O componente 'Processos' é o único obrigatório no COBIT 2019, sendo os demais 6 componentes considerados elementos puramente cosméticos e facultativos pela ISACA.
@@ -371,7 +371,7 @@ Uma **Área de Foco** descreve um tópico, domínio de governança ou desafio te
 ---
 
 ### Teste 470
-**(FGV - TJ-RR - Analista Judiciário - Governança e Gestão de TI - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** No COBIT 2019, o sistema de governança deve ser moldado sob medida para cada organização, recusando a premissa de 'tamanho único' (*one size fits all*). Para essa personalização e adaptação (*tailoring*), o framework utiliza os Fatores de Design (*Design Factors*). Sobre os Fatores de Design e as Áreas de Foco no COBIT 2019, assinale a alternativa correta:  
 
 * **A)** Os 11 Fatores de Design incluem aspectos como Estratégia corporativa, Perfil de risco, Cenário de ameaças, Requisitos de conformidade e Modelo de fornecimento de TI.
@@ -414,11 +414,11 @@ flowchart TD
 ---
 
 ### Teste 471
-**(FCC - Auditor Fiscal da Receita Estadual / TI - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** Em uma auditoria de governança de TI no setor público, a equipe avaliou como as metas institucionais do órgão são traduzidas em prioridades concretas de investimento tecnológico por meio do mecanismo de Cascatamento de Objetivos (*Goals Cascade*) e dos Fatores de Design (*Design Factors*) do COBIT 2019. A respeito desses instrumentos, assinale a alternativa correta:  
 
 * **A)** O cascatamento de objetivos do COBIT 2019 estabelece que as necessidades dos stakeholders devem ser desdobradas primeiramente em 13 Objetivos Corporativos (*Enterprise Goals*), os quais se desdobram em 13 Objetivos de Alinhamento (*Alignment Goals*) e, finalmente, nos 40 Objetivos de Governança e Gestão.
-* **B)** Os Fatores de Design foram concebidos com a finalidade exclusiva de impedir a customização do COBIT 2019, tornando sua adoção rígida e idêntica para qualquer entidade do planeta considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **B)** Os Fatores de Design foram concebidos com a finalidade exclusiva de impedir a customização do COBIT 2019, tornando sua adoção rígida e idêntica para qualquer entidade do planeta.
 * **C)** O Perfil de Risco e o Cenário de Ameaças são classificados pelo COBIT 2019 como objetivos de alinhamento financeiro, não exercendo papel na definição dos fatores de design.
 * **D)** O número de objetivos corporativos no COBIT 2019 foi ampliado para 114 itens, abolindo-se a correlação com as perspectivas clássicas do Balanced Scorecard (BSC).
 * **E)** A estratégia corporativa da organização não exerce influência sobre o desenho do sistema de governança de TI, sendo este definido exclusivamente pelo fornecedor de hardware.
@@ -517,13 +517,13 @@ flowchart TB
 ---
 
 ### Teste 472
-**(FCC - Auditor de Controle Externo / TI - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** O framework COBIT 2019 da ISACA estabelece uma distinção estrutural e operacional inequívoca entre Governança e Gestão de TI na organização. Com base nas definições dos domínios e competências organizacionais do COBIT 2019, assinale a alternativa correta:  
 
 * **A)** A Governança tem como domínio executivo primário o APO (*Align, Plan and Organize*), sendo de sua competência a programação de sprints de desenvolvimento e a instalação de atualizações operacionais de sistemas.
 * **B)** O domínio de Governança no COBIT 2019 é o EDM (*Evaluate, Direct and Monitor*), cabendo aos dirigentes máximos e comitês de governança avaliar necessidades, dirigir políticas e monitorar o alcance estratégico, enquanto a Gestão opera por meio de quatro domínios (APO, BAI, DSS e MEA).
 * **C)** As atividades operacionais de atendimento a incidentes de suporte e requisições de serviço na Central de Serviços integram o domínio EDM, sob a responsabilidade direta dos membros do Conselho de Administração.
-* **D)** O COBIT 2019 revogou o princípio da separação entre governança e gestão preconizado pelo COBIT 5, determinando que gerentes operacionais de redes acumulem privativamente as funções de deliberação estratégica e fixação de apetite a risco no âmbito da administração pública direta e indireta.
+* **D)** O COBIT 2019 revogou o princípio da separação entre governança e gestão preconizado pelo COBIT 5, determinando que gerentes operacionais de redes acumulem privativamente as funções de deliberação estratégica e fixação de apetite a risco.
 * **E)** O domínio BAI (*Build, Acquire and Implement*) é o único domínio classificado como de governança, destinando-se exclusivamente à fiscalização judicial de contratos públicos de TI.
 
 
@@ -568,7 +568,7 @@ flowchart LR
 ---
 
 ### Teste 473
-**(FCC - Técnico de Controle Externo / TI - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** O modelo de Gestão de Desempenho do COBIT 2019 (CPM - *COBIT Performance Management*) utiliza a abordagem de Níveis de Capacidade de Processo (*Process Capability Levels*) alinhada ao CMMI, graduando a maturidade de execução de cada processo em uma escala de 0 a 5. Um processo que atinge o seu propósito por meio da aplicação de procedimentos formalmente padronizados, documentados e disseminados por toda a organização, classifica-se no:  
 
 * **A)** Nível 0 - Incompleto (*Incomplete*).
@@ -604,7 +604,7 @@ Cada atividade é avaliada conforme a escala percentual de alcance:
 ---
 
 ### Teste 474
-**(FCC - TRT-14 - Analista Judiciário - Tecnologia da Informação - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** No modelo de Gestão de Desempenho do COBIT 2019 (CPM), para determinar o nível de capacidade de um processo, avalia-se o grau de alcance das práticas e atividades de governança e gestão por meio de uma escala percentual padrão dividida em quatro níveis (N, P, L e F). Assinale a alternativa que descreve corretamente essa escala:  
 
 * **A)** Uma atividade com evidência de alcance entre maior que 15% e 50% é classificada como Parcialmente Atingida (*Partially Achieved* - P).

@@ -126,7 +126,7 @@ Quando o sujeito da oração é constituído por pronome relativo:
 ---
 
 ### Teste 042
-**(FCC – TRT-23 – Analista Judiciário)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere as frases a seguir quanto à concordância verbal segundo a norma culta:  
 
 I. *A maioria dos auditores de controle externo **rejeitou** a proposta de acordo.*  
@@ -221,7 +221,7 @@ A concordância com o pronome *se* depende da transitividade do predicado:
 ---
 
 ### Teste 043
-**(FCC – TCE-GO – Analista de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A frase em que a concordância verbal, a regência e o emprego do sinal indicativo de crase atendem plenamente às exigências da norma-padrão é:
 
 * **A)** *"Devem haver razões plausíveis para que o gestor desobedeça os ditames da Lei de Licitações."*
@@ -307,7 +307,7 @@ Expressões formadas pelo verbo *ser* mais adjetivo qualificando um substantivo 
 ---
 
 ### Teste 044
-**(FCC – DPE-RS – Analista de Gestão Pública)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No tocante às normas de **concordância nominal**, assinale a frase inteiramente correta:
 
 * **A)** *"Seguem anexo aos autos as cópias das certidões e os comprovantes de despesa pública."*
@@ -332,7 +332,7 @@ No tocante às normas de **concordância nominal**, assinale a frase inteirament
 ---
 
 ### Teste 045
-**(FCC – TCE-GO – Analista de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Assinale a alternativa em que a concordância nominal atende integralmente às exigências da norma culta:
 
 * **A)** Seguem anexos as certidões negativas e os comprovantes de quitação eleitoral dos candidatos.
@@ -400,7 +400,7 @@ Um dos pontos mais sofisticados da sintaxe na banca FCC reside na combinação d
 ---
 
 ### Teste 046
-**(FCC – METRÔ-SP – Analista Jurídico)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito da regência do verbo **PREFERIR**, assinale a opção que atende à norma-padrão:
 
 * **A)** *"O diretor financeiro prefere antes investir em servidores modernos do que renovar contratos antigos."*
@@ -427,7 +427,7 @@ A respeito da regência do verbo **PREFERIR**, assinale a opção que atende à 
 ---
 
 ### Teste 047
-**(FCC – TRT – Técnico Judiciário)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere a frase:  
 *"O projeto de infraestrutura _________ o secretário se referiu com entusiasmo é o mesmo _________ execução a população tanto aspira."*  
 As lacunas da frase acima são correta e respectivamente preenchidas por:
@@ -480,7 +480,7 @@ O complemento nominal completa o sentido passivo de uma palavra que, por si só,
 ---
 
 ### Teste 048
-**(FCC – METRÔ-SP – Advogado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere as lacunas no período seguinte:  
 *"A conduta do servidor público deve ser sempre compatível __________ a dignidade da função; suas manifestações técnicas não podem ser alheias __________ preceitos constitucionais, devendo o parecer mostrar-se atinente __________ matérias estritamente submetidas à sua apreciação."*
 
@@ -602,7 +602,7 @@ Ocorre a fusão da preposição *a* (exigida por regência verbal ou nominal) co
 ---
 
 ### Teste 049
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Assinale a frase em que o sinal indicativo de crase está empregado em **estrita conformidade** com a norma culta:
 
 * **A)** *"A decisão do Tribunal Pleno foi comunicada à todas as autoridades presentes na assembleia."*
@@ -627,7 +627,7 @@ Assinale a frase em que o sinal indicativo de crase está empregado em **estrita
 ---
 
 ### Teste 050
-**(FCC – DPE-RS – Analista Processual)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O sinal indicativo de crase está empregado em estrita observância à norma-padrão em:
 
 * **A)** A comissão de licitação procedeu à abertura dos envelopes perante à uma plateia atenta.
@@ -652,7 +652,7 @@ O sinal indicativo de crase está empregado em estrita observância à norma-pad
 ---
 
 ### Teste 051
-**(FCC – TRT-14 – Analista Judiciário)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere as frases a seguir no tocante ao emprego do acento indicativo de crase:  
 
 I. *O assessor fez menção **àquela** portaria revogada pela presidência.*  

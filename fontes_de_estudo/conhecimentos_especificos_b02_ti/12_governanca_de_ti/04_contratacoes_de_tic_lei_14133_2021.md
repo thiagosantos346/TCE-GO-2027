@@ -77,13 +77,13 @@ flowchart TD
 ---
 
 ### Teste 495
-**(FCC - Tribunal de Contas - Auditor de Controle Externo / TI - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** Em conformidade com a Lei nº 14.133/2021 e as boas práticas de governança de contratações públicas de TIC, os processos de compra de soluções tecnológicas devem observar estrito alinhamento ao planejamento prévio institucional. A respeito dos instrumentos de planejamento, assinale a afirmativa correta:  
 
 * **A)** O Plano de Contratações Anual (PCA) substitui integralmente a necessidade de instauração de processos licitatórios individuais, autorizando a contratação verbal direta.
 * **B)** A contratação de soluções de TIC prescinde de compatibilidade com o Plano Diretor de Tecnologia da Informação (PDTI), bastando o requerimento informal do presidente do órgão.
 * **C)** O Plano Diretor de TIC (PDTI) é o instrumento plurianual de diagnóstico, planejamento e gestão estratégica de TI, ao qual devem estar alinhadas as contratações consolidadas no Plano de Contratações Anual (PCA).
-* **D)** A elaboração do PCA é facultativa para órgãos que possuam menos de 10.000 servidores, devendo suas compras de tecnologia ser executadas exclusivamente por adiantamento de numerário no âmbito da administração pública direta e indireta.
+* **D)** A elaboração do PCA é facultativa para órgãos que possuam menos de 10.000 servidores, devendo suas compras de tecnologia ser executadas exclusivamente por adiantamento de numerário.
 * **E)** As soluções de TIC voltadas à modernização de auditorias fiscais podem ser adquiridas sem qualquer previsão no PDTI, desde que justificadas após o término do contrato.
 
 
@@ -113,7 +113,7 @@ flowchart TD
 ---
 
 ### Teste 496
-**(FCC - Auditor de Controle Externo / TI - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** Em procedimento de auditoria de controle externo realizado no setor de tecnologia da informação de uma autarquia estadual, a equipe de auditoria analisou um termo de referência para contratação de fábrica de software e constatou a previsão de que a empresa contratada seria remunerada exclusivamente pela contagem das horas trabalhadas pelos desenvolvedores alocados presencialmente no prédio da autarquia, sem vínculo com entregas, ordens de serviço, pontos de função ou metas de níveis de serviço. Considerando a jurisprudência sumulada dos Tribunais de Contas e a Lei nº 14.133/2021:  
 
 * **A)** A cláusula editalícia é lícita, visto que o regime de contratação por homens-hora garante total flexibilidade técnica exigida pelo paradigma de desenvolvimento ágil.
@@ -183,14 +183,14 @@ A fase preparatória é o núcleo de conformidade da contratação. Falhas grave
 ---
 
 ### Teste 497
-**(FGV - TJ-AP - Analista Judiciário - Tecnologia da Informação - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** Na fase preparatória de uma contratação de TIC sob a égide da Lei nº 14.133/2021 e normativos de contratação de soluções digitais, a equipe de planejamento da contratação é responsável por elaborar artefatos estruturantes. A respeito desses documentos, assinale a afirmativa correta:  
 
 * **A)** O Documento de Oficialização da Demanda (DOD) é emitido pela empresa vencedora da licitação para comunicar à Administração o início da entrega de hardware.
 * **B)** O Estudo Técnico Preliminar (ETP) tem como finalidade evidenciar o problema a ser resolvido e a melhor solução entre as alternativas de mercado, avaliando a viabilidade técnica e o Custo Total de Propriedade (TCO).
 * **C)** O Termo de Referência é um documento preliminar e não vinculante, podendo a contratada alterar livremente os requisitos de software durante o desenvolvimento.
 * **D)** A elaboração do Mapa de Riscos é dispensável em contratações de TIC, haja vista que os riscos cibernéticos são integralmente assumidos pelo fabricante de software.
-* **E)** A equipe de planejamento da contratação de TIC deve ser composta por um único servidor sem conhecimento técnico em informática, visando garantir a imparcialidade do processo no âmbito da administração pública direta e indireta.
+* **E)** A equipe de planejamento da contratação de TIC deve ser composta por um único servidor sem conhecimento técnico em informática, visando garantir a imparcialidade do processo.
 
 
 ---
@@ -219,12 +219,12 @@ $$\text{TCO} = \text{Aquisição} + \text{Implantação/Customização} + \text{
 ---
 
 ### Teste 498
-**(FCC - Auditor Fiscal da Receita Estadual / TI - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** No processo preparatório para a contratação de uma nova solução integrada de armazenamento em nuvem e banco de dados corporativo, a equipe de planejamento da contratação elaborou o Estudo Técnico Preliminar (ETP). Para comparar adequadamente a aquisição de infraestrutura física local (*on-premises*) com a contratação de serviços em nuvem (*cloud computing*), a equipe calculou não apenas os custos de compra imediata de licenças e servidores, mas também os gastos projetados com implantação, capacitação de servidores, suporte técnico anual, climatização de datacenter e futura migração de dados ao longo de cinco anos. Essa técnica de avaliação econômica e financeira denomina-se:  
 
 * **A)** Retorno sobre Patrimônio Líquido (ROE).
 * **B)** Custo Total de Propriedade (TCO - *Total Cost of Ownership*).
-* **C)** Análise de Pontos por Função Rápida (FPA) no âmbito da administração pública direta e indireta.
+* **C)** Análise de Pontos por Função Rápida (FPA).
 * **D)** Custo Marginal de Substituição Imediata.
 * **E)** Depreciação Linear Fixa Arbitrária.
 
@@ -280,7 +280,7 @@ flowchart TD
 ---
 
 ### Teste 499
-**(FCC - Analista de TI / Governança e Contratos - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** Determinada Secretaria Estadual de Fazenda identificou a necessidade premente de modernizar seu ecossistema de detecção de fraudes fiscais complexas por meio de inteligência artificial generativa de ponta. No entanto, após realizar estudos iniciais, a equipe técnica concluiu que a Administração não possui conhecimento suficiente para redigir as especificações técnicas definitivas da solução, necessitando dialogar amplamente com o mercado tecnológico para avaliar os modelos algorítmicos, custos e arquiteturas disponíveis antes de receber as propostas finais. Nos termos estritos da Lei nº 14.133/2021, a modalidade de licitação cabível para esse cenário é o:  
 
 * **A)** Pregão Presencial.
@@ -319,10 +319,10 @@ flowchart TD
 ---
 
 ### Teste 500
-**(FCC - TRT-9 - Analista Judiciário - Tecnologia da Informação - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** A Lei nº 14.133/2021 disciplina as hipóteses de contratação direta em seus artigos 74 (Inexigibilidade) e 75 (Dispensa). Em matéria de contratação de soluções de TIC na Administração Pública, assinale a opção que descreve uma hipótese legítima de Inexigibilidade de licitação:  
 
-* **A)** Aquisição de computadores padrão para secretarias administrativas, com base unicamente na alegação de conveniência de prazo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **A)** Aquisição de computadores padrão para secretarias administrativas, com base unicamente na alegação de conveniência de prazo.
 * **B)** Contratação de empresa para suporte técnico rotineiro e atendimento de help desk de primeiro nível em informática.
 * **C)** Aquisição de materiais e cabos de rede de baixo valor financeiro que se enquadrem no limite de pequenos serviços.
 * **D)** Contratação de serviços técnicos especializados de natureza predominantemente intelectual com profissionais ou empresas de notória especialização para perícia forense digital de altíssima complexidade e singularidade.
@@ -374,10 +374,10 @@ flowchart TD
 ---
 
 ### Teste 501
-**(FCC - Auditor Estadual de Controle Externo / TI - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** Em relação à gestão e fiscalização de contratos de prestação de serviços de Tecnologia da Informação na Lei nº 14.133/2021, a Administração deve designar servidores com papéis bem segregados. Assinale a alternativa que descreve com precisão a competência do Fiscal Técnico do contrato de TIC:  
 
-* **A)** Conferir a regularidade trabalhista e o recolhimento das guias de FGTS e INSS dos empregados terceirizados alocados na empresa em estrita conformidade com as normas legais e regulamentares aplicáveis.
+* **A)** Conferir a regularidade trabalhista e o recolhimento das guias de FGTS e INSS dos empregados terceirizados alocados na empresa.
 * **B)** Avaliar e atestar tecnicamente se os sistemas desenvolvidos ou serviços de infraestrutura atendem aos requisitos arquiteturais, padrões técnicos de codificação e níveis de serviço fixados no IMR.
 * **C)** Formalizar administrativamente aditivos de prorrogação contratual e aplicar penalidades financeiras de impedimento de licitar.
 * **D)** Assinar o contrato inicial em substituição ao Presidente do Tribunal de Contas.
@@ -413,14 +413,14 @@ O **IMR** (*Instrumento de Medição de Resultado*) é o mecanismo formal que vi
 ---
 
 ### Teste 502
-**(FCC - Analista de Sistemas / Fiscalização de Contratos - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** Em um contrato de prestação de serviços de TIC para manutenção de portais governamentais, o Termo de Referência fixou um Instrumento de Medição de Resultado (IMR) contendo como indicador de nível de serviço (SLA) a meta mensal de disponibilidade mínima do portal em 99,8%. Durante a fiscalização do terceiro mês, o Fiscal Técnico constatou, por meio de ferramentas automatizadas de monitoramento, que o portal permaneceu indisponível por 18 horas ininterruptas em horário comercial, atingindo apenas 97,5% de disponibilidade naquele ciclo. Diante do descumprimento da meta de SLA estabelecida no IMR, o procedimento contratual cabível consiste em:  
 
 * **A)** Efetuar o pagamento integral do valor da fatura sem qualquer desconto e indenizar a empresa pela instabilidade gerada.
 * **B)** Aplicar a respectiva glosa financeira diretamente no valor devido na fatura mensal proporcionalmente à faixa de penalidade fixada no IMR, sem prejuízo da abertura de procedimento para aplicação de sanções administrativas cabíveis em caso de reiteração.
 * **C)** Cancelar sumariamente todos os contratos de TIC em vigor em todo o Estado e proibir a internet nos órgãos públicos.
 * **D)** Substituir imediatamente o Fiscal Técnico por um funcionário indicado pelo próprio provedor inadimplente.
-* **E)** Exigir que a contratada compense o tempo de queda aumentando a velocidade da internet residencial dos servidores da Secretaria considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **E)** Exigir que a contratada compense o tempo de queda aumentando a velocidade da internet residencial dos servidores da Secretaria.
 
 
 ---
@@ -452,13 +452,13 @@ A Lei nº 14.133/2021 estabelece dois momentos formais e inconfundíveis para o 
 ---
 
 ### Teste 503
-**(FCC - Técnico de Controle Externo / TI - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** De acordo com as disposições da Lei nº 14.133/2021 sobre a fiscalização dos contratos administrativos e a governança de contratações de TIC, os atos formais de atesto e aceite do objeto contratado dividem-se em Recebimento Provisório e Recebimento Definitivo. A respeito desses instrumentos, assinale a afirmativa correta:  
 
 * **A)** O Recebimento Definitivo é realizado pelo fornecedor privado no momento do embarque dos servidores no centro de distribuição da fábrica.
 * **B)** O Recebimento Provisório é realizado pelos fiscais técnico, administrativo e setorial mediante termo detalhado.
 * **C)** O Recebimento Definitivo dispensa qualquer teste de homologação ou verificação de conformidade com os níveis mínimos de serviço estabelecidos no IMR.
-* **D)** O Recebimento Provisório transfere em definitivo toda a responsabilidade jurídica e financeira à Administração, vedando a aplicação de qualquer glosa posterior no âmbito da administração pública direta e indireta.
+* **D)** O Recebimento Provisório transfere em definitivo toda a responsabilidade jurídica e financeira à Administração, vedando a aplicação de qualquer glosa posterior.
 * **E)** A Lei nº 14.133/2021 proibiu expressamente a figura do recebimento provisório em contratos de TIC para conferir maior velocidade às compras públicas.
 
 
@@ -479,13 +479,13 @@ A Lei nº 14.133/2021 estabelece dois momentos formais e inconfundíveis para o 
 ---
 
 ### Teste 504
-**(FCC - Técnico de Controle Externo / TI - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** No âmbito dos contratos de prestação de serviços e fornecimento de software e infraestrutura de TIC regidos pela Lei nº 14.133/2021, o processo de liquidação e pagamento depende dos atos formais de recebimento do objeto. Acerca do recebimento provisório e definitivo, assinale a afirmativa correta:  
 
 * **A)** O recebimento provisório transfere a propriedade definitiva do código-fonte para a contratada e desonera a empresa de qualquer garantia técnica posterior.
 * **B)** O recebimento provisório é realizado pelos fiscais do contrato para efeito de posterior verificação da conformidade dos serviços com as exigências contratuais, enquanto o recebimento definitivo é realizado pelo gestor do contrato ou comissão mediante termo detalhado que comprove o atendimento integral das exigências.
 * **C)** Em contratos de soluções de TIC é vedada a emissão de recebimento provisório, ocorrendo a emissão imediata de nota fiscal e pagamento à vista antes da entrega do software.
-* **D)** O recebimento definitivo pode ser firmado tacitamente pelo fornecedor caso a Administração não responda em 24 horas, vedada qualquer aplicação posterior de glosas contratuais considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **D)** O recebimento definitivo pode ser firmado tacitamente pelo fornecedor caso a Administração não responda em 24 horas, vedada qualquer aplicação posterior de glosas contratuais.
 * **E)** O recebimento definitivo dispensa a realização de testes de homologação de sistemas de auditoria digital.
 
 

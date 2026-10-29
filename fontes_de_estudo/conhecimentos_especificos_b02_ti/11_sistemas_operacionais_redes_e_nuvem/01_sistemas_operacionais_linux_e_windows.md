@@ -118,12 +118,12 @@ sequenceDiagram
 ---
 
 ### Teste 410
-**(FGV - TRT / Analista Judiciário - TI - Modos de Operação do Processador: User vs. Kernel)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A arquitetura de processadores modernos e sistemas operacionais de uso geral (como Linux e Windows) implementa anéis de proteção (*protection rings*) em hardware para segregar a execução de programas e garantir a estabilidade do sistema.
 
 A respeito dos modos de operação do processador (**User Mode / Modo Usuário** e **Kernel Mode / Modo Núcleo**) e da transição entre eles, assinale a afirmativa correta:
 
-* **A)** Softwares aplicativos de usuários comuns (como navegadores e suítes de escritório) rodam diretamente em Modo Núcleo (*Kernel Mode / Ring 0*), possuindo acesso irrestrito e direto a qualquer endereço físico de memória RAM e portas de I/O da máquina considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **A)** Softwares aplicativos de usuários comuns (como navegadores e suítes de escritório) rodam diretamente em Modo Núcleo (*Kernel Mode / Ring 0*), possuindo acesso irrestrito e direto a qualquer endereço físico de memória RAM e portas de I/O da máquina.
 * **B)** A transição segura do Modo Usuário (*Ring 3*) para o Modo Núcleo (*Ring 0*) ocorre por meio de uma instrução especial de **Chamada de Sistema (*System Call / Trap*)**, na qual o hardware suspende a execução do processo, eleva o nível de privilégio e transfere o controle para um tratador específico (*Interrupt/Syscall Handler*) definido pelo kernel.
 * **C)** No modo usuário, um programa tem autorização de hardware para desabilitar as interrupções de relógio da CPU e reconfigurar os registradores de controle de gerenciamento de memória.
 * **D)** As chamadas de sistema dispensam qualquer troca de contexto de registradores na CPU, mantendo a pilha de execução inalterada.
@@ -213,12 +213,12 @@ Quando múltiplos processos ou threads acessam variáveis e recursos compartilha
 ---
 
 ### Teste 411
-**(FCC - TRT / Analista Judiciário - TI - Processos vs. Threads)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No gerenciamento de processos e concorrência em sistemas operacionais multitarefa preemptivos, diferencia-se o conceito de **Processo Pesado** do conceito de **Thread** (*Processo Leve*).
 
 A respeito do compartilhamento de recursos entre múltiplas threads pertencentes a um mesmo processo, assinale a afirmativa correta:
 
-* **A)** Múltiplas threads do mesmo processo possuem, cada uma, um espaço de endereçamento de memória virtual totalmente isolado e tabelas de páginas exclusivas sem nenhum dado compartilhado considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **A)** Múltiplas threads do mesmo processo possuem, cada uma, um espaço de endereçamento de memória virtual totalmente isolado e tabelas de páginas exclusivas sem nenhum dado compartilhado. em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **B)** Todas as threads pertencentes a um mesmo processo compartilham o **espaço de endereçamento de memória**, as seções de código (*text*), os dados globais (*data/BSS*), a área de alocação dinâmica (*heap*) e os descritores de arquivos abertos; contudo, cada thread possui compulsoriamente sua própria **Pilha de Execução (*Stack*)**, seu próprio ponteiro de instrução (*Program Counter - PC*) e seu próprio conjunto individual de **Registradores da CPU**.
 * **C)** A criação e a troca de contexto entre threads consomem mais tempo de CPU do que a criação e a troca de contexto entre processos pesados distintos.
 * **D)** Se uma thread de um processo trava por erro de divisão por zero, as outras threads daquele mesmo processo continuam operando normalmente sem que o processo seja finalizado.
@@ -242,11 +242,11 @@ A respeito do compartilhamento de recursos entre múltiplas threads pertencentes
 ---
 
 ### Teste 412
-**(FCC - Adaptada / Analista de Tecnologia da Informação - Sistemas)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em relação aos conceitos de concorrência, processos, threads e algoritmos de escalonamento de processador em sistemas operacionais, assinale a afirmação correta:
 
 * **A)** No algoritmo de escalonamento *Round Robin* (Alternância Circular), caso o tamanho da fatia de tempo (*quantum*) seja definido com um valor excessivamente grande, o comportamento do sistema degenera e aproxima-se do algoritmo FCFS (*First-Come, First-Served*).
-* **B)** O algoritmo de escalonamento SJF (*Shortest Job First*) em sua modalidade preemptiva impede a ocorrência do fenômeno de inanição (*starvation*), garantindo tempo de resposta equitativo para processos intensivos em CPU no âmbito da administração pública direta e indireta.
+* **B)** O algoritmo de escalonamento SJF (*Shortest Job First*) em sua modalidade preemptiva impede a ocorrência do fenômeno de inanição (*starvation*), garantindo tempo de resposta equitativo para processos intensivos em CPU.
 * **C)** As threads criadas no interior de um mesmo processo possuem espaços de endereçamento de memória virtual completamente isolados e independentes, exigindo o uso de pipes ou sockets para qualquer troca de variáveis.
 * **D)** A troca de contexto (*context switch*) é uma operação puramente lógica que não impõe nenhum custo computacional de sobrecarga (*overhead*) para a CPU nem interfere no conteúdo das memórias cache.
 * **E)** O algoritmo de escalonamento FCFS é classificado como estritamente preemptivo, interrompendo processos de longa duração sempre que um novo processo requisita acesso à CPU.
@@ -267,13 +267,13 @@ Em relação aos conceitos de concorrência, processos, threads e algoritmos de 
 ---
 
 ### Teste 413
-**(FGV - TRT / Analista Judiciário - TI - Sincronização e Exclusão Mútua: Mutex vs. Semáforos)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em programação concorrente e em sistemas operacionais multithreaded, o acesso não coordenado a recursos compartilhados pode gerar **Condições de Corrida** (*Race Conditions*), corrompendo o estado da aplicação.
 
 Para garantir a **Exclusão Mútua** na Região Crítica, utilizam-se primitivas de sincronização como **Mutex** (*Mutual Exclusion Lock*) e **Semáforos** (Dijkstra). A respeito da distinção conceitual e do funcionamento dessas primitivas, assinale a afirmativa correta:
 
 * **A)** O Mutex é um mecanismo binário com conceito estrito de titularidade (*ownership*), no qual apenas a thread específica que adquiriu a trava (*Lock*) possui autorização para liberá-la (*Unlock*); ao passo que um **Semáforo Contador** gerencia um contador de recursos disponíveis, onde qualquer thread pode executar uma operação de sinalização (`signal` / `V()`) para incrementar o contador e desbloquear outra thread em espera, mesmo sem ter executado a operação de espera (`wait` / `P()`).
-* **B)** Semáforos só podem assumir os valores 0 e 1, sendo proibido utilizá-los para controlar estoques de múltiplos recursos considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **B)** Semáforos só podem assumir os valores 0 e 1, sendo proibido utilizá-los para controlar estoques de múltiplos recursos.. em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **C)** O Mutex deve ser liberado compulsoriamente por qualquer thread da CPU que esteja ociosa no momento.
 * **D)** A inversão de prioridades é um fenômeno que afeta exclusivamente semáforos contadores de números negativos.
 * **E)** Bloqueios do tipo *Spinlock* colocam a thread para dormir no disco rígido enquanto o recurso estiver ocupado.
@@ -349,7 +349,7 @@ flowchart TD
 ---
 
 ### Teste 414
-**(FCC - Adaptada / Técnico Judiciário - Tecnologia da Informação)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No gerenciamento de memória virtual por paginação sob demanda em sistemas operacionais modernos, um processo em execução gera uma solicitação de acesso a um determinado endereço lógico. Durante a operação de tradução conduzida pela unidade de gerenciamento de memória (MMU), identifica-se que o bit de validade correspondente na tabela de páginas está marcado como ausente (bit 0).
 
 Nessa situação, o evento gerado pela arquitetura de hardware e a ação imediata subsequente realizada pelo sistema operacional são:
@@ -357,7 +357,7 @@ Nessa situação, o evento gerado pela arquitetura de hardware e a ação imedia
 * **A)** Uma interrupção de *Page Fault*, que transfere o controle ao núcleo do sistema operacional para buscar a página solicitada no armazenamento secundário e carregá-la em uma moldura livre da memória principal.
 * **B)** Uma violação de segmento (*Segmentation Fault*), que resulta na terminação imediata e compulsória do processo por invasão de área de memória protegida.
 * **C)** Um *TLB Hit*, no qual o processador busca o endereço diretamente na memória cache L1 sem consultar as tabelas do núcleo.
-* **D)** Um procedimento de *Swapping* compulsório de todos os processos ativos para o disco, paralisando a CPU até que a memória RAM seja totalmente desfragmentada no âmbito da administração pública direta e indireta.
+* **D)** Um procedimento de *Swapping* compulsório de todos os processos ativos para o disco, paralisando a CPU até que a memória RAM seja totalmente desfragmentada.
 * **E)** Uma chamada de sistema `mmap`, solicitando que o processo usuário reconfigure o seu próprio bloco de controle de processo (PCB).
 
 
@@ -376,14 +376,14 @@ Nessa situação, o evento gerado pela arquitetura de hardware e a ação imedia
 ---
 
 ### Teste 415
-**(FCC - TRT / Analista Judiciário - TI - Memória Virtual e Hiperpaginação / Thrashing)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 O subsistema de Memória Virtual permite que programas sejam executados mesmo quando seu espaço de endereçamento total excede a capacidade física de memória RAM instalada na máquina, transferindo blocos para a área de *Swap* em disco.
 
 No entanto, quando a quantidade de memória RAM disponível torna-se criticamente insuficiente para acomodar o conjunto de trabalho (*Working Set*) de todos os processos ativos simultâneos, o sistema operacional pode entrar no colapso de desempenho denominado **Hiperpaginação (*Thrashing*)**.
 
 A característica operacional que define formalmente o fenômeno do *Thrashing* consiste em:
 
-* **A)** A CPU atinge 100% de utilização processando cálculos matemáticos puros sem nenhum acesso a disco considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
+* **A)** A CPU atinge 100% de utilização processando cálculos matemáticos puros sem nenhum acesso a disco. considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
 * **B)** O sistema passa a maior parte do tempo transferindo páginas de memória de e para o disco rígido (alta taxa ininterrupta de *Page Faults* e saturação de I/O), enquanto a taxa de utilização útil da CPU cai drasticamente para níveis próximos de zero, travando a resposta aos usuários.
 * **C)** A destruição física permanente dos módulos de memória RAM por superaquecimento.
 * **D)** O fechamento imediato do sistema operacional sem emissão de qualquer log de evento.
@@ -461,7 +461,7 @@ $$\text{Exemplo: } 750 \implies \text{Dono: } 4+2+1=7\,(rwx); \quad \text{Grupo:
 ---
 
 ### Teste 416
-**(FCC - Adaptada / Analista de TI - Infraestrutura)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A respeito da arquitetura de sistemas de arquivos em ambientes baseados em Linux e da estrutura interna de inodes (*index nodes*), considere as seguintes afirmativas:
 
 I. Cada inode armazena metadados fundamentais do arquivo, tais como tamanho, permissões de acesso, identificadores de usuário e grupo, carimbos temporais e ponteiros para os blocos de dados, mas não contém o nome do arquivo nem seu caminho absoluto.  
@@ -494,7 +494,7 @@ Está correto o que se afirma em:
 ---
 
 ### Teste 417
-**(FCC - TRT / Analista Judiciário - TI - Permissões Octais e Especiais no Linux: SUID, SGID e Sticky Bit)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Nos sistemas de arquivos de ambientes Linux/POSIX, a segurança de arquivos e diretórios é regida pela matriz de permissões associadas ao Proprietário (*User - u*), Grupo (*Group - g*) e Outros (*Others - o*), acrescida dos três bits de permissões especiais: **SUID**, **SGID** e **Sticky Bit**.
 
 Considere um diretório compartilhado de auditoria `/var/auditoria_compartilhada` cujas permissões foram configuradas pelo administrador através do comando:
@@ -507,7 +507,7 @@ A respeito do significado do primeiro dígito `1` (Sticky Bit) e dos efeitos pr�
 * **B)** O bit 1 representa o **Sticky Bit** (representado pelo caractere `t` no final da string de permissões, ex.: `drwxrwx--t`); em um diretório com o Sticky Bit ativado, embora múltiplos usuários pertencentes ao grupo possam criar e editar arquivos no local, **apenas o proprietário de um arquivo específico (ou o superusuário root) tem permissão de renomear ou excluir o seu próprio arquivo**, impedindo que um usuário do grupo apague documentos criados por seus colegas.
 * **C)** O bit 1 bloqueia o acesso de qualquer usuário ao diretório, tornando-o invisível no comando `ls`.
 * **D)** O Sticky Bit força que todos os novos arquivos criados herdem compulsoriamente o grupo primário do diretório pai.
-* **E)** As permissões 770 atribuem leitura, escrita e execução irrestrita para todos os usuários anônimos do mundo exterior (*others*) considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **E)** As permissões 770 atribuem leitura, escrita e execução irrestrita para todos os usuários anônimos do mundo exterior (*others*).. em conformidade com as diretrizes e padrões de arquitetura corporativa.
 
 
 ---
@@ -561,7 +561,7 @@ O **systemd** é o sistema de inicialização padrão do Linux moderno:
 ---
 
 ### Teste 418
-**(FCC - Adaptada / Analista de TI - Infraestrutura de Sistemas)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Considere um servidor Linux em ambiente de produção onde um analista precisa configurar os privilégios de acesso de um script administrativo crítico denominado `rotina_backup.sh`. Os requisitos de conformidade determinam que:
 
 - O proprietário do arquivo tenha permissão total de leitura, escrita e execução;
@@ -594,7 +594,7 @@ Assinale a alternativa que indica, correta e respectivamente, o comando para atr
 ---
 
 ### Teste 419
-**(FGV - TRT / Analista Judiciário - TI - Gerenciamento de Serviços e Logs no Linux com systemd)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 O `systemd` consolidou-se como o sistema de inicialização (*init system*) e gerenciador de serviços padrão na esmagadora maioria das distribuições Linux empresariais modernas (RHEL, Debian, Ubuntu, Rocky Linux).
 
 Para administrar serviços de rede (como o servidor web Apache/Nginx ou PostgreSQL) e inspecionar logs centralizados de auditoria no terminal Linux, os utilitários de linha de comando padronizados do `systemd` e seus respectivos comandos são:
@@ -603,7 +603,7 @@ Para administrar serviços de rede (como o servidor web Apache/Nginx ou PostgreS
 * **B)** O comando `systemctl` para gerenciar unidades de serviço (ex.: `systemctl start`, `systemctl enable` para inicialização automática no boot, e `systemctl status`); e o comando `journalctl` para consultar e filtrar os registros do diário estruturado indexado do systemd (ex.: `journalctl -u nome_servico -f` para seguir logs em tempo real).
 * **C)** O comando `killall -9 kernel` para atualizar os serviços em produção.
 * **D)** O systemd foi descontinuado do Linux e substituído pelo MS-DOS em 2023.
-* **E)** Todos os serviços do systemd rodam sem arquivos de configuração em disco, dependendo de comandos de áudio no microfone considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **E)** Todos os serviços do systemd rodam sem arquivos de configuração em disco, dependendo de comandos de áudio no microfone. em conformidade com as diretrizes e padrões de arquitetura corporativa.
 
 
 ---
@@ -676,14 +676,14 @@ As políticas de execução controlam as condições para execução de scripts 
 ---
 
 ### Teste 420
-**(FCC - Adaptada / Analista de Sistemas - Suporte e Infraestrutura Windows)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No contexto de administração e automação de servidores Windows Server utilizando o Windows PowerShell, um administrador recebeu a demanda de auditar todos os serviços instalados cujo status operacional atual seja `Running`, extraindo um relatório contendo estritamente as propriedades relativas ao nome de sistema do serviço (`Name`) e seu nome legível para exibição (`DisplayName`).
 
 Considerando a arquitetura interna do PowerShell, baseada na manipulação de coleções de objetos .NET estruturados ao longo do pipeline, assinale a linha de comando canônica e correta para a execução dessa tarefa:
 
 * **A)** `Get-Service | grep "Running" | cut -d " " -f 1,2`
 * **B)** `Get-Service | Where-Object { $_.Status -eq 'Running' } | Select-Object -Property Name, DisplayName`
-* **C)** `Get-Process | Where-Object { $_.State == 'Running' } | Out-String -Columns Name, DisplayName` no âmbito da administração pública direta e indireta.
+* **C)** `Get-Process | Where-Object { $_.State == 'Running' } | Out-String -Columns Name, DisplayName`.
 * **D)** `List-Service -Filter "Running" | Format-Table Name, DisplayName`
 * **E)** `Get-Service | ForEach-Object { if ($_.State -eq 'Running') { Write-Host $_.Name } }`
 

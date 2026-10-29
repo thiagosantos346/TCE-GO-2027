@@ -88,7 +88,7 @@ Essa propriedade é a base algébrica definitiva para solucionar repartições o
 ---
 
 ### Teste 082
-**(FCC – TRT – Analista Judiciário)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em um tribunal, a razão entre o número de processos físicos e o número de processos eletrônicos que aguardavam triagem era de $3$ para $7$. Se o número total de processos aguardando triagem era de $250$, quantos processos eletrônicos havia a mais do que processos físicos?
 
 * **A)** $80$
@@ -159,7 +159,7 @@ Reduzem-se as frações resultantes a termos inteiros via MMC e aplica-se o mét
 ---
 
 ### Teste 083
-**(FCC – TCE-GO – Analista de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Uma gratificação extraordinária no valor de R$ 18.000,00 foi dividida entre três auditores de controle externo em partes diretamente proporcionais aos seus respectivos tempos de atuação no órgão: $2$ anos, $3$ anos e $5$ anos. O auditor com maior tempo de serviço recebeu:
 
 * **A)** R$ 3.600,00
@@ -188,7 +188,7 @@ Uma gratificação extraordinária no valor de R$ 18.000,00 foi dividida entre t
 ---
 
 ### Teste 084
-**(FCC – Auditor Fiscal da Receita – Adaptada TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A Diretoria de Fiscalização de um Tribunal de Contas distribuiu um bônus de incentivo de R$ 45.000,00 entre três equipes técnicas de auditoria ($A$, $B$ e $C$) em partes **inversamente proporcionais** ao número de dias de atraso na entrega dos seus respectivos relatórios finais. A equipe $A$ atrasou 2 dias; a equipe $B$ atrasou 3 dias; e a equipe $C$ atrasou 4 dias.
 
 Nessas condições, o valor recebido pela equipe $A$ superou o valor recebido pela equipe $C$ em:
@@ -230,7 +230,7 @@ Nessas condições, o valor recebido pela equipe $A$ superou o valor recebido pe
 ---
 
 ### Teste 085
-**(FCC – TCE-GO – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Uma gratificação especial de desempenho no valor de R$ 36.000,00 foi dividida entre dois auditores, Rodrigo e Samuel. O regulamento determinou que a divisão fosse **diretamente proporcional ao tempo de serviço** no Tribunal (Rodrigo tem 6 anos e Samuel tem 4 anos) e, simultaneamente, **inversamente proporcional ao número de processos pendentes** de julgamento em seus gabinetes (Rodrigo tem 3 processos pendentes e Samuel tem 1 processo pendente).
 
 Com base nessas regras, a quantia recebida por Samuel foi de:
@@ -306,7 +306,7 @@ Para não errar na prova:
 ---
 
 ### Teste 086
-**(FCC – TRT – Analista Judiciário)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Uma equipe de 6 técnicos administrativos, trabalhando com produtividades idênticas e constantes, consegue auditar e validar 120 relatórios de diárias em 8 dias úteis de trabalho. 
 
 Se o Tribunal de Contas alocar mais 2 técnicos com a mesma produtividade para essa equipe, em quantos dias úteis a nova equipe conseguirá auditar e validar os mesmos 120 relatórios?
@@ -348,7 +348,7 @@ Se o Tribunal de Contas alocar mais 2 técnicos com a mesma produtividade para e
 ---
 
 ### Teste 087
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em uma unidade técnica de auditoria, $6$ auditores de mesmo rendimento funcional analisam $180$ prestações de contas trabalhando $8$ horas por dia durante $10$ dias. Se a equipe for reforçada por mais $2$ auditores de igual produtividade, quantas prestações de contas eles conseguirão analisar trabalhando $6$ horas por dia durante $15$ dias?
 
 * **A)** $225$
@@ -429,7 +429,7 @@ A base de referência percentual corresponde ao valor que ocupa o denominador da
 ---
 
 ### Teste 088
-**(FCC – TCE-GO – Técnico de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Um contrato de prestação de serviços de segurança da informação celebrado pelo Tribunal de Contas previa pagamento mensal de determinado valor $X$. No segundo ano de vigência, o contrato sofreu um **reajuste com acréscimo de 15%**. No terceiro ano, após revisão contratual, foi concedido um **desconto de 10%** aplicado sobre o valor vigente no segundo ano.
 
 Em relação ao valor original $X$ do contrato no primeiro ano, a aplicação sucessiva dessas duas variações resultou em:
@@ -469,7 +469,7 @@ Em relação ao valor original $X$ do contrato no primeiro ano, a aplicação su
 ---
 
 ### Teste 089
-**(FCC – DPE-RS – Analista)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O valor de determinada taxa de emolumentos cartorários sofreu um reajuste de $20\%$ no início do primeiro semestre e, ao final do ano, sofreu um novo aumento sucessivo de $15\%$. Em relação ao valor inicial antes dos dois reajustes, o aumento real total acumulado foi de:
 
 * **A)** $35{,}0\%$
@@ -501,7 +501,7 @@ O valor de determinada taxa de emolumentos cartorários sofreu um reajuste de $2
 ---
 
 ### Teste 090
-**(FCC – TCE-PI – Técnico Judiciário)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em determinado setor do Tribunal de Contas do Estado de Goiás, o número de processos em meio eletrônico é 25% maior do que o número de processos físicos em papel. 
 
 Em relação ao número de processos eletrônicos, o número de processos em papel é inferior em:
@@ -541,7 +541,7 @@ Em relação ao número de processos eletrônicos, o número de processos em pap
 ---
 
 ### Teste 091
-**(FCC – TRT-14 – Analista Judiciário)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em determinado município goiano, a alíquota do Imposto Sobre Serviços (ISS) incidente sobre serviços de informática passou de $2\%$ para $3\%$ da receita bruta. Comparando a alíquota final com a inicial, verifica-se que houve um acréscimo de:
 
 * **A)** $1$ ponto percentual e uma variação percentual relativa de $50\%$.

@@ -101,13 +101,13 @@ flowchart LR
 ---
 
 ### Teste 234
-**(FGV - TRT / Analista Judiciário - TI - Fases do Projeto e Níveis de Abstração)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No ciclo de vida do projeto de bancos de dados relacionais, a modelagem é classicamente particionada em três níveis conceituais progressivos: Modelo Conceitual, Modelo Lógico e Modelo Físico. 
 
 A respeito desses modelos e de suas respectivas características arquiteturais, assinale a afirmativa correta:
 
 * **A)** O modelo físico independe do Sistema Gerenciador de Banco de Dados (SGBD) adotado, concentrando-se na especificação pura das regras de negócio e diagramas de classes sem tipos primitivos.
-* **B)** O modelo conceitual possui dependência direta do paradigma de dados escolhido (relacional, hierárquico ou grafos), determinando a alocação de chaves primárias e tipos de dados de armazenamento como `VARCHAR` e `INT` considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **B)** O modelo conceitual possui dependência direta do paradigma de dados escolhido (relacional, hierárquico ou grafos), determinando a alocação de chaves primárias e tipos de dados de armazenamento como `VARCHAR` e `INT`.
 * **C)** O modelo lógico é uma representação de alto nível voltada à comunicação com o usuário final de negócio, na qual não constam tabelas, chaves primárias ou chaves estrangeiras.
 * **D)** O modelo conceitual captura os requisitos de negócio e a semântica dos dados independentemente de tecnologia ou SGBD; o modelo lógico mapeia essas entidades para o paradigma relacional (tabelas, chaves); e o modelo físico define o armazenamento, estruturas de partição, índices e parâmetros de desempenho específicos do SGBD.
 * **E)** A desnormalização é uma decisão estritamente tomada durante o modelo conceitual com o intuito de facilitar a validação dos diagramas pelos gestores de negócio.
@@ -187,7 +187,7 @@ No modelo clássico de Chen, os atributos são expressos por elipses conectadas 
 ---
 
 ### Teste 235
-**(FCC - Adaptada / TI - Modelo Entidade-Relacionamento de Peter Chen)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No contexto do Diagrama Entidade-Relacionamento (DER) segundo a notação original proposta por Peter Chen, analise a seguinte situação de negócio:  
 *"Em um órgão de fiscalização fazendária, cada PROCESSO_FISCAL possui um número de processo que o identifica unicamente. Cada processo pode conter múltiplos TERMOS_FISCAIS. Um termo fiscal possui apenas uma numeração sequencial interna (ex.: 1, 2, 3), só faz sentido existir vinculado ao seu respectivo processo fiscal e sua identificação plena depende da chave primária do processo."*
 
@@ -195,7 +195,7 @@ Conforme a teoria canônica do DER, a entidade `TERMO_FISCAL`, a numeração seq
 
 * **A)** Entidade Associativa, Atributo Composto e Auto-relacionamento.
 * **B)** Entidade Fraca, Chave Parcial (discriminador) e Relacionamento Identificador.
-* **C)** Entidade Regular, Atributo Multivalorado e Relacionamento Não-identificador no âmbito da administração pública direta e indireta.
+* **C)** Entidade Regular, Atributo Multivalorado e Relacionamento Não-identificador.
 * **D)** Entidade Fraca, Atributo Derivado e Agregação.
 * **E)** Superclasse, Atributo Atômico e Relacionamento Ternário.
 
@@ -219,7 +219,7 @@ Conforme a teoria canônica do DER, a entidade `TERMO_FISCAL`, a numeração seq
 ---
 
 ### Teste 236
-**(FCC - TRT-2 / Analista Judiciário - TI - Tipologia dos Atributos no MER)**
+**(FCC – TRT-2 – Analista Judiciário - Tecnologia da Informação – 2014)**
 Em alguns casos, dois ou mais valores de atributos em um modelo de Entidade-Relacionamento estão relacionados. Por exemplo, os atributos `Idade` e `Data_Nascimento` de um Auditor de Controle Externo. Para uma entidade `AUDITOR` em particular, o valor de `Idade` pode ser determinado pela data corrente do sistema e pelo valor de `Data_Nascimento` persistido. 
 
 Portanto, segundo a teoria formal do MER concebida por Peter Chen, o atributo `Idade` é denominado atributo [ I ], ao passo que `Data_Nascimento` é denominado atributo [ II ].
@@ -228,7 +228,7 @@ As lacunas [ I ] e [ II ] são, correta e respectivamente, preenchidas por:
 
 * **A)** armazenado — derivado.
 * **B)** derivado — armazenado (ou básico).
-* **C)** multivalorado — monovalorado no âmbito da administração pública direta e indireta.
+* **C)** multivalorado — monovalorado.
 * **D)** identificador — composto.
 * **E)** determinante — discriminador.
 
@@ -250,13 +250,13 @@ As lacunas [ I ] e [ II ] são, correta e respectivamente, preenchidas por:
 ---
 
 ### Teste 237
-**(FCC - TRT-1 / Analista Judiciário - TI - Relacionamentos e Mapeamento N:M)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No Modelo Entidade-Relacionamento utilizado para projetar bancos de dados relacionais, quando se define que há um conjunto de relacionamentos de cardinalidade muitos para muitos ($N:M$) entre dois conjuntos de entidades $A$ e $B$, essa especificação significa e exige, do ponto de vista conceitual e de conversão lógica, que:
 
 * **A)** uma entidade de $A$ está associada compulsoriamente a exatamente uma entidade de $B$, e cada entidade de $B$ está associada a no máximo duas entidades de $A$.
 * **B)** uma entidade do conjunto $A$ pode estar associada a várias instâncias do conjunto $B$, e uma entidade do conjunto $B$ também pode estar associada a várias instâncias de $A$. Na conversão para o modelo relacional lógico, exige a criação de uma tabela associativa intermediária contendo as chaves primárias de $A$ e $B$ como chaves estrangeiras.
 * **C)** os conjuntos de entidades $A$ e $B$ devem necessariamente possuir esquemas idênticos com o mesmo número e tipos de atributos primitivos.
-* **D)** a chave primária de $A$ deve ser migrada diretamente como atributo simples e chave estrangeira na tabela $B$, tornando dispensável a criação de qualquer nova relação no banco de dados considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **D)** a chave primária de $A$ deve ser migrada diretamente como atributo simples e chave estrangeira na tabela $B$, tornando dispensável a criação de qualquer nova relação no banco de dados.
 * **E)** uma entidade do conjunto $B$ associa-se a apenas uma entidade de $A$, configurando uma dependência existencial que transforma a entidade $B$ em entidade fraca.
 
 
@@ -319,7 +319,7 @@ São operações construídas a partir da composição das primitivas fundamenta
 ---
 
 ### Teste 238
-**(FCC - Adaptada / TI - Álgebra Relacional e Divisão Relacional)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em sistemas de banco de dados relacionais, deseja-se elaborar uma consulta algébrica formal para responder à seguinte demanda de auditoria:  
 *"Recuperar o código de todos os Auditores Fiscais que realizaram inspeções em TODOS os estabelecimentos cadastrados no estado."*
 
@@ -352,7 +352,7 @@ A operação da Álgebra Relacional que expressa diretamente essa semântica de 
 ---
 
 ### Teste 239
-**(FCC - Adaptada / TI - Álgebra Relacional)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na Álgebra Relacional, uma consulta sobre duas relações $R(A, B, C)$ e $S(C, D, E)$ tem por objetivo filtrar as tuplas de $R$ onde o atributo $A = 10$, concatenar com as tuplas correspondentes de $S$ onde $R.C = S.C$, e projetar apenas as colunas $B$ e $D$.
 
 A expressão formal algébrica que representa essa operação com precisão é:  
@@ -426,7 +426,7 @@ A **Forma Normal de Boyce-Codd (FNBC)** é uma versão mais estrita da 3ª FN cr
 ---
 
 ### Teste 240
-**(FGV - TJ-BA / Analista Judiciário - TI - Dependências Funcionais e Axiomas de Armstrong)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Considere uma relação $R(A, B, C, D)$ sobre a qual vigora o seguinte conjunto de dependências funcionais primitivas:
 
 $$F = \{ A \rightarrow B, \quad A \rightarrow C, \quad C \rightarrow D \}$$
@@ -455,7 +455,7 @@ Com base nos Axiomas de Armstrong (Reflexividade, Aumento e Transitividade) e em
 ---
 
 ### Teste 241
-**(FGV - TRT / Analista Judiciário - TI - Normalização e Primeira Forma Normal)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 O modelo de dados conceitual de um sistema de gestão de recursos humanos prevê a entidade `FUNCIONARIO`. Para fins de cálculo de benefícios e assistência médica, é necessário cadastrar os dados dos dependentes de cada funcionário (`NomeDependente`, `DataNascDependente`, `Parentesco`), sem limite superior de quantidade.
 
 Para implementar esse modelo em um banco de dados relacional assegurando a conformidade rigorosa com a **Primeira Forma Normal (1FN)**, avalie as seguintes abordagens técnicas:
@@ -486,7 +486,7 @@ Conforme a teoria da normalização relacional de Codd, está correto apenas o q
 ---
 
 ### Teste 242
-**(FCC - Adaptada / TI - Forma Normal de Boyce-Codd vs. 3ª FN)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Considere uma relação $R(A, B, C)$ com o seguinte conjunto de dependências funcionais:  
 $F = \{ (A, B) \rightarrow C, \quad C \rightarrow B \}$  
 Sabe-se que as chaves candidatas dessa relação são $(A, B)$ e $(A, C)$.
@@ -520,7 +520,7 @@ Com base nas definições formais das Formas Normais, afirma-se corretamente que
 ---
 
 ### Teste 243
-**(FCC - Adaptada / TI - Teoria da Normalização)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Considere uma relação não normalizada de um sistema de compras públicas representada pelo esquema:  
 `CONTRATO (NumContrato, NumItem, CodFornecedor, NomeFornecedor, DescricaoItem, Quantidade, ValorUnitario)`  
 Onde a chave primária composta da relação é `(NumContrato, NumItem)`. Sabe-se ainda que existem as seguintes dependências funcionais:
@@ -532,7 +532,7 @@ Onde a chave primária composta da relação é `(NumContrato, NumItem)`. Sabe-s
 
 Para que o esquema atinja estritamente a **Segunda Forma Normal (2ª FN)**, deve-se:  
 
-* **A)** Eliminar os grupos repetitivos e garantir a atomicidade dos campos, mantendo todos os atributos na mesma tabela no âmbito da administração pública direta e indireta.
+* **A)** Eliminar os grupos repetitivos e garantir a atomicidade dos campos, mantendo todos os atributos na mesma tabela.
 * **B)** Eliminar as dependências funcionais parciais, decompondo a relação de modo que nenhum atributo não-chave dependa de apenas parte da chave primária composta.
 * **C)** Eliminar as dependências transitivas, garantindo que o `NomeFornecedor` não dependa de `CodFornecedor`.
 * **D)** Converter todas as chaves primárias em chaves substitutas (*surrogate keys*) UUID geradas pelo SGBD.
@@ -589,13 +589,13 @@ flowchart TD
 ---
 
 ### Teste 244
-**(FGV - TJ-AP / Analista Judiciário - Banco de Dados - Desnormalização e Trade-offs OLTP vs. OLAP)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No projeto de bancos de dados analíticos (Data Warehouses) e repositórios de dados para auditoria contínua, analistas de TI frequentemente ponderam entre o esquema puramente em estrela (*Star Schema*) e o esquema em flocos de neve (*Snowflake Schema*).
 
 A respeito da técnica de modelagem multidimensional e de seus impactos arquiteturais sobre o desempenho das consultas analíticas, assinale a afirmativa correta:
 
 * **A)** A normalização das tabelas de dimensão (esquema Snowflake) elimina redundâncias, mas impacta negativamente o tempo de resposta das consultas analíticas (OLAP) ao exigir uma maior quantidade de junções (*joins*) entre tabelas normalizadas.
-* **B)** O esquema Star Schema é totalmente normalizado até a Boyce-Codd Normal Form (BCNF), o que minimiza o espaço de armazenamento consumido em disco e maximiza a quantidade de tabelas no data warehouse no âmbito da administração pública direta e indireta.
+* **B)** O esquema Star Schema é totalmente normalizado até a Boyce-Codd Normal Form (BCNF), o que minimiza o espaço de armazenamento consumido em disco e maximiza a quantidade de tabelas no data warehouse.
 * **C)** A técnica de desnormalização é fortemente recomendada em sistemas puramente transacionais (OLTP) de alta concorrência para acelerar as operações concorrentes de `INSERT` e `UPDATE`.
 * **D)** A criação de chaves substitutas (*surrogate keys*) nas tabelas dimensionais prejudica a governança e inviabiliza o rastreamento histórico de dimensões de alteração lenta (SCD).
 * **E)** O Snowflake Schema é o padrão adotado em todos os data marts por dispensar completamente o uso de índices e por apresentar desempenho de leitura invariavelmente superior ao Star Schema.

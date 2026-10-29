@@ -117,12 +117,12 @@ flowchart TD
 ---
 
 ### Teste 098
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Na gestão de segurança de aplicações corporativas, a distinção conceitual entre Autenticação (*Authentication* - AuthN) e Autorização (*Authorization* - AuthZ) estabelece que:
 
 * **A)** Autenticação verifica a identidade declarada por um usuário ou sistema ("quem é você?"), ao passo que Autorização determina as permissões de acesso e ações que o usuário autenticado pode executar ("o que você pode fazer?").
 * **B)** Autenticação concede privilégios administrativos no banco de dados, enquanto Autorização verifica a assinatura digital do certificado TLS.
-* **C)** Autenticação e Autorização são termos estritamente sinônimos na norma ISO/IEC 27001, podendo ser implementados indiferentemente pela mesma rotina de hash SHA-256 em estrita conformidade com as normas legais e regulamentares aplicáveis.
+* **C)** Autenticação e Autorização são termos estritamente sinônimos na norma ISO/IEC 27001, podendo ser implementados indiferentemente pela mesma rotina de hash SHA-256.
 * **D)** A autorização deve ser realizada necessariamente antes da autenticação em qualquer sistema computacional.
 * **E)** A autenticação define o teto salarial de um servidor público no portal da transparência.
 
@@ -142,13 +142,13 @@ Na gestão de segurança de aplicações corporativas, a distinção conceitual 
 ---
 
 ### Teste 099
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A Autenticação Multifator (*Multi-Factor Authentication* - MFA) eleva substancialmente o nível de segurança do acesso ao exigir a combinação de múltiplos elementos probatórios pertencentes a categorias independentes. Os três fatores de autenticação clássicos são categorizados como:
 
 * **A)** Senha alfanumérica, senha numérica e senha biométrica.
 * **B)** Algo que você sabe (conhecimento), algo que você tem (posse) e algo que você é (biometria/inerência).
 * **C)** Endereço de IP de rede, máscara de sub-rede e porta lógica TCP.
-* **D)** Certificado público, certificado privado e autoridade certificadora intermediária no âmbito da administração pública direta e indireta.
+* **D)** Certificado público, certificado privado e autoridade certificadora intermediária.
 * **E)** Teclado mecânico, monitor de alta definição e leitor óptico.
 
 
@@ -199,7 +199,7 @@ flowchart TD
 | **Authorization Code com PKCE** | Clientes públicos: Single Page Applications (SPAs em React, Angular) e Apps Mobile nativos. | **Máximo** | **Obrigatório** pelas diretrizes contemporâneas (RFC 7636 e OAuth 2.1). |
 | **Client Credentials** | Comunicação direta máquina-a-máquina (M2M), microsserviços internos, scripts batch e daemons sem usuário. | **Alto** | Padrão oficial para comunicação automatizada entre sistemas. |
 | **Refresh Token Grant** | Renovação transparente de *Access Tokens* expirados sem requerer novo login do usuário. | **Alto** | Empregado como mecanismo complementar aos fluxos de código. |
-| **Implicit Grant** | SPAs legadas nos primórdios da web, onde o token vinha diretamente exposto no fragmento da URL (`#access_token=...`). | **Vulnerável** | **DEPRECADO E PROIBIDO** no OAuth 2.1 devido a riscos de interceptação no histórico do navegador. |
+| **Implicit Grant** | SPAs legadas nos primórdios da web, onde o token vinha diretamente exposto no fragmento da URL (`#access_token=..`). | **Vulnerável** | **DEPRECADO E PROIBIDO** no OAuth 2.1 devido a riscos de interceptação no histórico do navegador. |
 | **Resource Owner Password Credentials (ROPC)** | O usuário digita suas credenciais corporativas diretamente na tela da aplicação cliente. | **Crítico** | **DEPRECADO E PROIBIDO** no OAuth 2.1 (viola a premissa central de não compartilhar senhas com clientes terceiros). |
 
 ### 2.3 A Extensão PKCE (RFC 7636) para Clientes Públicos
@@ -216,7 +216,7 @@ sequenceDiagram
     participant API as Resource Server (API)
 
     Note over Client: 1. Gera code_verifier aleatório<br/>2. Calcula code_challenge = Base64URL(SHA256(verifier))
-    Client->>AS: GET /authorize?response_type=code&code_challenge=...&code_challenge_method=S256
+    Client->>AS: GET /authorize?response_type=code&code_challenge=..&code_challenge_method=S256
     Usuário->>AS: Autentica-se e autoriza o acesso
     AS-->>Client: Redireciona com Código Temporário (?code=AUTH_CODE)
     Client->>AS: POST /token (code=AUTH_CODE, code_verifier=SEGREDO_ORIGINAL)
@@ -242,7 +242,7 @@ Os **escopos (*scopes*)** no OAuth 2.0 são identificadores textuais que express
 ---
 
 ### Teste 100
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O framework de autorização OAuth 2.0 (RFC 6749) define quatro papéis (*roles*) operacionais no ecossistema de delegação de acesso seguro. A entidade capaz de conceder acesso a um recurso protegido (tipicamente o próprio usuário final proprietário dos dados) é denominada:
 
 * **A)** *Resource Server* (Servidor de Recursos).
@@ -267,7 +267,7 @@ O framework de autorização OAuth 2.0 (RFC 6749) define quatro papéis (*roles*
 ---
 
 ### Teste 101
-**(FCC - Analista de TI / Segurança e Arquitetura)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Uma equipe de desenvolvimento do Tribunal de Contas está projetando a integração de uma nova aplicação Web Single Page Application (SPA), construída com React, com a API de auditoria de processos governamentais. A aplicação cliente executa integralmente no navegador do usuário (*public client*) e necessita autenticar a identidade dos auditores para obter acesso aos endpoints protegidos.
 
 Considerando as boas práticas contemporâneas de segurança preconizadas pela IETF e pela OpenID Foundation:  
@@ -276,7 +276,7 @@ Considerando as boas práticas contemporâneas de segurança preconizadas pela I
 * **B)** O protocolo OpenID Connect (OIDC) deve ser empregado na camada de autenticação, utilizando o fluxo *Authorization Code Grant* com a extensão PKCE (RFC 7636), emitindo um `id_token` para identificar o usuário perante a aplicação React e um `access_token` para consumir a API.
 * **C)** O protocolo OAuth 2.0 isolado é suficiente para autenticar o auditor perante o frontend React, bastando conferir a presença do escopo `read:processos` na requisição.
 * **D)** O fluxo mais recomendado para esse cenário é o *Resource Owner Password Credentials* (ROPC), pelo qual o frontend coleta login e senha diretamente em um formulário comum e os repassa ao servidor de autorização.
-* **E)** A integridade e autenticidade do token JWT devem ser verificadas no frontend através de um algoritmo simétrico HS256, armazenando o segredo compartilhado nas variáveis de ambiente estáticas do código JavaScript em estrita conformidade com as normas legais e regulamentares aplicáveis.
+* **E)** A integridade e autenticidade do token JWT devem ser verificadas no frontend através de um algoritmo simétrico HS256, armazenando o segredo compartilhado nas variáveis de ambiente estáticas do código JavaScript.
 
 
 ---
@@ -294,7 +294,7 @@ Considerando as boas práticas contemporâneas de segurança preconizadas pela I
 ---
 
 ### Teste 102
-**(FCC - Analista de TI / Sistemas)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em uma arquitetura de microsserviços do Tribunal de Contas, uma rotina de integração em lote (*batch*) executada durante a madrugada no backend precisa consumir dados da API da Secretaria da Fazenda para conciliação contábil. Esse processo é totalmente automatizado e executado sem nenhuma intervenção de usuário humano final.
 
 De acordo com o framework OAuth 2.0 (RFC 6749), o fluxo de concessão (*Grant Type*) mais adequado e recomendado para essa comunicação máquina-a-máquina (M2M) é o:  
@@ -321,7 +321,7 @@ De acordo com o framework OAuth 2.0 (RFC 6749), o fluxo de concessão (*Grant Ty
 ---
 
 ### Teste 103
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Para proteger aplicações clientes públicas (como SPAs executando em navegadores e aplicativos móveis nativos) contra o ataque de interceptação do código de autorização, a especificação OAuth 2.0 define a extensão PKCE (*Proof Key for Code Exchange*, RFC 7636). O funcionamento do fluxo PKCE baseia-se na geração de:
 
 * **A)** Uma senha mestra criptografada com algoritmo DES de 56 bits armazenada no código-fonte do cliente considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
@@ -386,13 +386,13 @@ O OpenID Connect padroniza os endpoints do Provedor de Identidade (*Identity Pro
 ---
 
 ### Teste 104
-**(FGV – TJ – Analista Judiciário / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Na arquitetura de segurança moderna para sistemas distribuídos e Single Sign-On (SSO), o protocolo OpenID Connect (OIDC 1.0) estende as capacidades do framework OAuth 2.0. A principal diferença de propósito entre o OAuth 2.0 e o OpenID Connect reside no fato de que:
 
 * **A)** O OAuth 2.0 foi projetado originalmente como um framework de **Autorização** (delegação de acesso a recursos por meio de Access Tokens), enquanto o OpenID Connect adiciona uma camada padronizada de **Autenticação e Identidade** sobre o OAuth 2.0, introduzindo o *ID Token* (formatado em JWT) para transmitir informações do usuário autenticado.
 * **B)** O OAuth 2.0 não permite a transmissão de dados pela Internet sem cabos de fibra óptica dedicados.
 * **C)** O OpenID Connect substitui todos os bancos de dados por arquivos de texto simples não criptografados.
-* **D)** O OAuth 2.0 serve exclusivamente para autenticação facial, ao passo que o OIDC gerencia exclusivamente senhas biométricas digitais considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **D)** O OAuth 2.0 serve exclusivamente para autenticação facial, ao passo que o OIDC gerencia exclusivamente senhas biométricas digitais.
 * **E)** O OIDC proíbe a utilização de tokens no padrão JSON Web Token (JWT).
 
 
@@ -422,7 +422,7 @@ O JWT (RFC 7519) é um padrão aberto compacto e autocontido (*stateless*) para 
 ```mermaid
 flowchart LR
     H["Header (JSON)<br/>{ 'alg': 'RS256', 'typ': 'JWT' }"] -->|"Base64URL"| H64["Parte 1: Header"]
-    P["Payload (JSON)<br/>{ 'sub': '123', 'iss': 'tce', 'exp': ... }"] -->|"Base64URL"| P64["Parte 2: Payload"]
+    P["Payload (JSON)<br/>{ 'sub': '123', 'iss': 'tce', 'exp': .. }"] -->|"Base64URL"| P64["Parte 2: Payload"]
     H64 --> S["Assinatura Criptográfica:<br/>Hash(Header + '.' + Payload, Chave)"]
     P64 --> S
     S --> S64["Parte 3: Signature"]
@@ -493,7 +493,7 @@ flowchart TD
 ---
 
 ### Teste 105
-**(FCC - Técnico de Controle Externo / TI)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em relação à arquitetura e estrutura do padrão JSON Web Token (JWT - RFC 7519), analise as seguintes afirmativas:
 
 I. Um JWT serializado no formato compacto JWS é composto por três blocos concatenados por pontos (`.`): Cabeçalho (*Header*), Carga Útil (*Payload*) e Assinatura (*Signature*), codificados em Base64URL.  
@@ -529,7 +529,7 @@ Está correto o que se afirma em:
 ---
 
 ### Teste 106
-**(FCC - Auditor Fiscal / Tecnologia da Informação)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No ecossistema corporativo de segurança digital, ao validar um token JWT assinado digitalmente que circula entre múltiplos microsserviços, a escolha entre algoritmos simétricos e assimétricos traz impactos profundos na gestão das chaves.
 
 A respeito dessa validação, assinale a afirmativa correta:  
@@ -537,7 +537,7 @@ A respeito dessa validação, assinale a afirmativa correta:
 * **A)** No algoritmo simétrico HS256, o Servidor de Recursos (API) precisa possuir apenas uma chave pública para validar a assinatura, impedindo o comprometimento do segredo de emissão.
 * **B)** No algoritmo assimétrico RS256, o Servidor de Autorização assina o token com sua chave privada, e qualquer Servidor de Recursos pode validar a assinatura de forma independente utilizando a respectiva chave pública disponibilizada em um endpoint JWKS (*JSON Web Key Set*).
 * **C)** A alteração de qualquer caractere no Payload de um token JWT não invalida a assinatura calculada com RS256, desde que a claim `exp` permaneça no futuro.
-* **D)** Caso o cabeçalho do token informe `"alg": "none"`, a aplicação receptora deve aceitar o token automaticamente como infalível, pois esse identificador sinaliza aprovação prévia por autoridade certificadora de raiz em estrita conformidade com as normas legais e regulamentares aplicáveis.
+* **D)** Caso o cabeçalho do token informe `"alg": "none"`, a aplicação receptora deve aceitar o token automaticamente como infalível, pois esse identificador sinaliza aprovação prévia por autoridade certificadora de raiz.
 * **E)** O algoritmo RS256 utiliza a mesma chave secreta tanto para assinar o JWT quanto para verificar sua assinatura em todos os nós da rede.
 
 
@@ -556,7 +556,7 @@ A respeito dessa validação, assinale a afirmativa correta:
 ---
 
 ### Teste 107
-**(FCC - Analista de Sistemas / Segurança da Informação)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A respeito do armazenamento seguro de tokens de acesso no navegador web e dos modelos de controle de acesso aos recursos, assinale a afirmativa correta:  
 
 * **A)** Gravar o token de acesso no `localStorage` do navegador é a prática mais segura do mercado para mitigar ataques de Cross-Site Scripting (XSS), pois scripts maliciosos não conseguem ler dados do armazenamento local.

@@ -87,27 +87,27 @@ Independentemente do ciclo de vida adotado (preditivo, iterativo ou ágil), a li
 ---
 
 ### Teste 001
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
-No âmbito dos modelos de qualidade e melhoria de processos de software, o CMMI (Capability Maturity Model Integration) e o MPS.BR (Melhoria de Processo do Software Brasileiro) apresentam estruturas formais de avaliação. A respeito das características comparativas entre ambos, é correto afirmar que:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Durante uma auditoria de conformidade em contratações de soluções de tecnologia da informação em um órgão estadual, a equipe de fiscalização analisou a exigência editalícia de comprovação de maturidade em processos de software com base nos modelos CMMI (*Capability Maturity Model Integration*) e MPS.BR (*Melhoria de Processo do Software Brasileiro*). A respeito da estrutura de avaliação e dos níveis formais desses referenciais, é correto afirmar:
 
-* **A)** o MPS.BR estabelece 5 níveis de maturidade organizados alfabeticamente de A a E, enquanto o CMMI possui 7 níveis de maturidade.
-* **B)** no CMMI em sua representação por estágios, a organização atinge níveis de maturidade numerados de 1 a 5, ao passo que o modelo de maturidade do MPS.BR possui 7 níveis de maturidade denominados de G (mais básico) a A (mais avançado/otimizado).
-* **C)** o CMMI não contempla representação contínua por níveis de capacidade, restringindo-se estritamente à avaliação por estágios organizacionais.
-* **D)** o MPS.BR é incompatível com as normas internacionais ISO/IEC 12207 e ISO/IEC 15504, tendo sido criado para substituir integralmente esses referenciais no Brasil no âmbito da administração pública direta e indireta no âmbito da administração pública direta e indireta.
-* **E)** ambos os modelos exigem que a organização abandone práticas ágeis como Scrum e XP para obter a certificação no nível mais alto de maturidade.
+* **A)** No CMMI em sua representação por estágios, a organização atinge níveis de maturidade escalonados de 1 a 5, ao passo que o modelo de referência do MPS.BR (MR-MPS-SW) estrutura-se em 7 níveis de maturidade denominados de G (mais elementar) a A (mais avançado/otimizado).
+* **B)** O MPS.BR adota 5 níveis de maturidade classificados alfabeticamente de A a E, enquanto o CMMI estabelece 7 níveis de maturidade representados em algarismos romanos.
+* **C)** O CMMI restringe-se exclusivamente à representação contínua por áreas de processo, sendo vedada a avaliação por estágios organizacionais de maturidade.
+* **D)** O MPS.BR foi concebido como um padrão proprietário incompatível com as normas técnicas internacionais ISO/IEC 12207 e ISO/IEC 15504 (SPICE).
+* **E)** Ambos os modelos de maturidade vedam a utilização de metodologias e práticas ágeis (como Scrum e XP) em organizações que pleiteiem certificação nos seus níveis mais elevados.
 
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** O MPS.BR possui 7 níveis de maturidade (de G até A), e o CMMI possui 5 níveis de maturidade na representação por estágios (1 a 5).
-> - **B) Correta.** Exatamente a distinção cobrada pela FCC: CMMI por estágios vai do nível 1 (Inicial) ao 5 (Otimizado), enquanto o MPS.BR estrutura-se em 7 níveis: G (Parcialmente Gerenciado), F (Gerenciado), E (Parcialmente Definido), D (Definido), C (Totalmente Definido), B (Gerenciado Quantitativamente) e A (Em Otimização).
-> - **C) Incorreta.** O CMMI oferece duas representações: por Estágios (níveis de maturidade de 1 a 5) e Contínua (níveis de capacidade de 0 a 3 nas áreas de processo).
-> - **D) Incorreta.** O MPS.BR foi desenvolvido expressamente em conformidade com as normas ISO/IEC 12207 e ISO/IEC 15504 (SPICE) / ISO/IEC 33000.
-> - **E) Incorreta.** Nenhum dos modelos proíbe metodologias ágeis; ao contrário, versões recentes do CMMI e do MPS.BR incorporam formalmente práticas ágeis.
+> - **A) CORRETA.** Exatamente a distinção normativa frequentemente cobrada pela FCC: no CMMI por estágios (*staged representation*), existem 5 níveis de maturidade numerados de 1 (Inicial) a 5 (Otimizado). Por sua vez, o MPS.BR (MR-MPS-SW) adota 7 níveis alfabéticos em escala inversa de maturidade: G (Parcialmente Gerenciado), F (Gerenciado), E (Parcialmente Definido), D (Definido), C (Totalmente Definido), B (Gerenciado Quantitativamente) e A (Em Otimização).
+> - **B) Incorreta.** Inversão quantitativa e conceitual: o MPS.BR possui 7 níveis (G a A) e o CMMI possui 5 níveis por estágios (1 a 5).
+> - **C) Incorreta.** O CMMI oferece duas representações oficiais: a representação por Estágios (níveis de maturidade de 1 a 5) e a representação Contínua (níveis de capacidade de 0 a 3 aplicados a cada área de prática/processo).
+> - **D) Incorreta.** O MPS.BR foi arquitetado expressamente em estrita conformidade com os referenciais internacionais ISO/IEC 12207 (Ciclos de Vida de Software) e ISO/IEC 15504 / 33000 (Avaliação de Processos de Software).
+> - **E) Incorreta.** Não há vedação; as versões recentes tanto do CMMI quanto do MPS.BR incorporam formalmente práticas ágeis e híbridas em seus guias de avaliação.
 >
-> **Gabarito: B**
+> **Gabarito: A**
 
 ---
 
@@ -179,75 +179,75 @@ Reconhecem que o mundo corporativo raramente opera em extremos absolutos. Um pro
 ---
 
 ### Teste 002
-**(FCC – TCE – Auditor de Controle Externo / TI)**  
-O modelo de ciclo de vida em Espiral, concebido por Barry Boehm, diferencia-se substancialmente do modelo em Cascata tradicional por incorporar formalmente como seu direcionador central e sistemático:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Ao examinar os artefatos de governança e ciclo de vida de desenvolvimento de software em um Tribunal de Contas, o Auditor de TI verificou a aplicação do Modelo em Espiral, concebido por Barry Boehm, para o desenvolvimento de um sistema analítico crítico de alta complexidade. A característica técnica que diferencia estruturalmente o Modelo em Espiral do modelo tradicional em Cascata (*Waterfall*) consiste em:
 
-* **A)** A eliminação de qualquer documentação textual em favor de entregas contínuas em microsserviços.
-* **B)** A análise e a mitigação explícita de riscos em cada ciclo de evolução do software.
-* **C)** O pareamento permanente de programadores em estações de trabalho unificadas.
-* **D)** O congelamento irrevogável dos requisitos do sistema antes de qualquer prototipação.
-* **E)** A substituição de todas as fases de testes por inspeções formais de conformidade jurídica.
+* **A)** adotar a análise e mitigação explícita e contínua de riscos técnicos e de negócio como o direcionador central de cada iteração da espiral.
+* **B)** abolir totalmente a elaboração de especificações textuais de requisitos em prol de testes manuais em ambiente de produção.
+* **C)** impor o congelamento rígido e imutável de todos os requisitos do sistema antes da elaboração do primeiro protótipo arquitetural.
+* **D)** exigir a obrigatoriedade da programação em pares (*pair programming*) em todas as estações de trabalho do projeto.
+* **E)** postergar os testes de integração e homologação de software para um momento posterior à entrada definitiva em operação assistida.
 
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** O modelo em Espiral não dispensa documentação formal e foi proposto muito antes da era dos microsserviços.
-> - **B) CORRETA.** A marca distintiva fundamental do **Modelo em Espiral de Barry Boehm** é ser um modelo **dirigido a riscos (*risk-driven*)**, em que cada espira do ciclo de desenvolvimento prevê expressamente uma etapa rigorosa de avaliação, modelagem e mitigação de incertezas e riscos técnicos e operacionais antes de avançar para a fase construtiva.
-> - **C) Incorreta.** O pareamento de desenvolvedores é uma prática exclusiva do Extreme Programming (XP).
-> - **D) Incorreta.** O congelamento inicial de requisitos caracteriza o modelo Cascata (*Waterfall*); no modelo Espiral, os requisitos evoluem de forma incremental a cada volta da espiral.
-> - **E) Incorreta.** Testes, protótipos e validações com usuários são atividades essenciais integradas em cada ciclo espiral.
-> 
-> **Gabarito: B**
+> - **A) CORRETA.** O diferencial marcante do **Modelo em Espiral de Barry Boehm** é ser um paradigma **orientado a riscos (*risk-driven*)**. Cada ciclo ("volta da espiral") contempla expressamente quatro quadrantes: determinação de objetivos, avaliação e mitigação de riscos, engenharia do produto e planejamento da próxima fase. Se os riscos não puderem ser mitigados a um nível aceitável, o projeto pode ser encerrado preventivamente.
+> - **B) Incorreta.** O modelo em espiral não descarta documentação formal; a eliminação radical de documentos é distorção alheia ao modelo de Boehm.
+> - **C) Incorreta.** O congelamento inicial e pétreo de requisitos é marca do modelo em Cascata tradicional, não do modelo em Espiral, cujos requisitos evoluem incrementalmente a cada volta da espiral.
+> - **D) Incorreta.** A programação em pares é prática técnica originária da metodologia ágil Extreme Programming (XP).
+> - **E) Incorreta.** Cada ciclo da espiral inclui testes, verificação e validação progressiva dos artefatos produzidos.
+>
+> **Gabarito: A**
 
 ---
 
 ### Teste 003
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
-O Processo Unificado (*Rational Unified Process* - RUP) é um modelo de ciclo de vida de software iterativo e incremental estruturado em quatro fases sequenciais ao longo do tempo. A fase do RUP cuja meta precípua é estabelecer uma arquitetura executável estável, mitigar os riscos técnicos mais severos e validar a viabilidade da solução técnica é a fase de:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+O Processo Unificado (*Rational Unified Process* - RUP) é um modelo de ciclo de vida de desenvolvimento de software iterativo e incremental, caracterizado por ser centrado em arquitetura e dirigido por casos de uso. Ao auditar as fases cronológicas de um contrato estruturado sob o RUP, o auditor identifica que a fase cujo objetivo precíua e formalmente estabelecido é mitigar os riscos técnicos mais severos e validar a linha de base arquitetural executável (*executable architectural baseline*) denomina-se:
 
-* **A)** Iniciação (*Inception*).
-* **B)** Elaboração (*Elaboration*).
+* **A)** Elaboração (*Elaboration*).
+* **B)** Concepção / Iniciação (*Inception*).
 * **C)** Construção (*Construction*).
 * **D)** Transição (*Transition*).
-* **E)** Homologação (*Acceptance*).
+* **E)** Homologação Operacional (*Acceptance*).
 
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** A Iniciação foca no escopo do negócio, estimativas macro de viabilidade e limites do sistema.
-> - **B) Correta.** A fase de Elaboração tem como objetivo central detalhar os requisitos, mitigar os maiores riscos arquiteturais e estabelecer uma baseline arquitetural executável estável.
-> - **C) Incorreta.** A Construção foca no desenvolvimento em larga escala de todos os componentes e funcionalidades restantes.
-> - **D) Incorreta.** A Transição foca na implantação, entrega aos usuários, correção de defeitos em produção e treinamento.
-> - **E) Incorreta.** Homologação não é uma das quatro fases canônicas do RUP.
+> - **A) CORRETA.** No RUP, a fase de **Elaboração (*Elaboration*)** destina-se a analisar o domínio do problema, estabelecer a baseline da arquitetura executável estável, mitigar os riscos técnicos de maior impacto e especificar detalhadamente a maioria dos casos de uso críticos.
+> - **B) Incorreta.** A fase de Concepção (*Inception*) estabelece o escopo de negócio do projeto, a viabilidade econômica preliminar e a visão global da solução.
+> - **C) Incorreta.** A fase de Construção (*Construction*) foca na codificação em larga escala, integração sistemática de módulos e desenvolvimento dos casos de uso restantes.
+> - **D) Incorreta.** A fase de Transição (*Transition*) destina-se à implantação do sistema no ambiente dos usuários, testes beta, migração de dados e treinamento operacional.
+> - **E) Incorreta.** "Homologação Operacional" não é uma das quatro fases canônicas estruturais do RUP.
 >
-> **Gabarito: B**
+> **Gabarito: A**
 
 ---
 
 ### Teste 004
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
-O Manifesto para o Desenvolvimento Ágil de Software, firmado em 2001, estabeleceu 4 valores fundamentais e 12 princípios norteadores. Entre os 12 princípios formais expressos no documento oficial, encontra-se:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+O Manifesto para o Desenvolvimento Ágil de Software, marco histórico do movimento ágil firmado em 2001, consagrou 4 valores fundamentais e 12 princípios norteadores. Entre as diretrizes expressamente consagradas nos 12 princípios formais do Manifesto Ágil, insere-se:
 
-* **A)** Aceitar mudanças de requisitos, mesmo em fases tardias do desenvolvimento.
-* **B)** Priorizar a documentação técnica exaustiva antes do início de qualquer codificação, garantindo a rastreabilidade contratual.
-* **C)** Realizar entregas de software funcional apenas ao final do contrato, assegurando que o produto seja entregue sem pendências aos usuários.
-* **D)** Proibir a alteração de requisitos após a homologação da arquitetura básica pelo cliente.
-* **E)** Concentrar a comunicação exclusivamente por meio de relatórios formais de status report escritos pela gerência.
+* **A)** aceitar alterações de requisitos, mesmo em fases adiantadas do projeto, aproveitando as mudanças para promover vantagem competitiva para o cliente.
+* **B)** priorizar a formalização documental detalhada de todas as regras de negócio antes de iniciar a construção dos incrementos funcionais.
+* **C)** realizar entregas de incrementos de software executável exclusivamente ao término de cada exercício financeiro da organização.
+* **D)** condicionar o avanço do desenvolvimento à validação jurídica de termos de responsabilidade assinados por todas as partes envolvidas.
+* **E)** canalizar a troca de informações entre desenvolvedores e gestores prioritariamente por meio de relatórios formais periódicos de status report.
 
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Correta.** É a literalidade do segundo princípio do Manifesto Ágil: "Aceitar mudanças de requisitos, mesmo no fim do desenvolvimento. Processos ágeis se adequam a mudanças, para que o cliente possa tirar vantagens competitivas".
-> - **B) Incorreta.** O Manifesto valoriza software em funcionamento mais do que documentação abrangente.
-> - **C) Incorreta.** O princípio ágil preconiza "entregar software funcionando com frequência, na escala de semanas a meses, com preferência aos períodos mais curtos".
-> - **D) Incorreta.** A adaptabilidade é a espinha dorsal do desenvolvimento ágil; mudanças são bem-vindas.
-> - **E) Incorreta.** O método mais eficiente e eficaz de transmitir informações para e dentro de uma equipe de desenvolvimento é a conversa face a face.
+> - **A) CORRETA.** Transcrição do segundo princípio do Manifesto Ágil: *"Aceitar mudanças de requisitos, mesmo no fim do desenvolvimento. Processos ágeis se adequam a mudanças, para que o cliente possa tirar vantagens competitivas"*.
+> - **B) Incorreta.** O Manifesto valoriza *"software em funcionamento mais que documentação abrangente"*, repudiando documentações prévias exaustivas que retardem a entrega de valor.
+> - **C) Incorreta.** O princípio prescreve *"entregar software funcionando com frequência, na escala de semanas a meses, com preferência aos períodos mais curtos"*, e não intervalos anuais burocráticos.
+> - **D) Incorreta.** Falsa burocracia: o valor ágil preconiza *"colaboração com o cliente mais que negociação de contratos"*.
+> - **E) Incorreta.** O Manifesto enfatiza que *"o método mais eficiente e eficaz de transmitir informações para e entre uma equipe de desenvolvimento é a conversa face a face"*.
 >
 > **Gabarito: A**
 
@@ -332,18 +332,18 @@ Cada um dos três artefatos do Scrum contém um **compromisso formal** associado
 ---
 
 ### Teste 005
-**(FGV – TJ-RR – Analista Judiciário / Tecnologia da Informação)**  
-Em relação às características do Scrum Team estabelecidas no Guia Scrum (versão 2020), analise as afirmativas a seguir:  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A respeito da composição estrutural e das responsabilidades do Scrum Team delineadas na versão oficial do Guia Scrum (2020), considere as seguintes afirmativas:
 
-I. O Scrum Team é uma unidade coesa de profissionais que engloba um Product Owner, um Scrum Master e os Desenvolvedores, caracterizando-se por ser autogerenciado e multifuncional.  
-II. O Product Owner é o único responsável pela gestão do Product Backlog e por maximizar o valor do produto entregue, não havendo subordinação hierárquica entre ele e os demais membros do time.  
-III. O Scrum Master é o superior hierárquico do time e detém a prerrogativa formal de atribuir tarefas diárias nominais e individuais aos desenvolvedores.  
+I. O Scrum Team é uma equipe coesa composta por um Product Owner, um Scrum Master e os Desenvolvedores, caracterizando-se essencialmente por ser multifuncional e autogerenciada.  
+II. O Product Owner é o único responsável pela gestão eficaz do Product Backlog e pela maximização do valor decorrente do trabalho executado, não existindo relação de subordinação hierárquica entre ele e os demais integrantes do time.  
+III. O Scrum Master atua como chefe executivo do time ágil, cabendo-lhe distribuir privativamente as tarefas diárias nominais e aprovar as horas registradas pelos desenvolvedores.  
 
-Está correto o que se afirma em:
+Em relação às prescrições normativas do Guia Scrum, está correto o que se afirma em:
 
-* **A)** I, apenas.
-* **B)** III, apenas.
-* **C)** I e II, apenas.
+* **A)** I e II, apenas.
+* **B)** I, apenas.
+* **C)** III, apenas.
 * **D)** II e III, apenas.
 * **E)** I, II e III.
 
@@ -352,89 +352,89 @@ Está correto o que se afirma em:
 
 > **Comentário Detalhado:**
 >
-> - **I. Correta.** O time Scrum é autogerenciado (decide quem faz o que, quando e como) e multifuncional (possui todas as habilidades para gerar um incremento).
-> - **II. Correta.** O PO é o responsável exclusivo pela gestão eficaz do Product Backlog e maximização de valor; não há hierarquia dentro do Scrum Team.
-> - **III. Incorreta.** O Scrum Master é um "líder que serve" (*servant leader*), não um gerente tradicional; ele não atribui tarefas nominais e os Desenvolvedores autogerenciam seu trabalho.
+> - **I. Correta.** Conforme o Guia Scrum 2020, o Scrum Team não tem hierarquias internas nem subequipes; é uma unidade autogerenciada (a própria equipe decide quem faz o que, quando e como) e multifuncional (possui internamente todas as competências necessárias para gerar valor em cada Sprint).
+> - **II. Correta.** O Product Owner é explicitamente a pessoa responsável por maximizar o valor do produto e gerenciar com transparência o Product Backlog. Ele atua como par colaborativo, inexistindo subordinação hierárquica com o time.
+> - **III. Incorreta.** No Scrum, o Scrum Master é um verdadeiro líder que serve (*servant leader*), responsável pela eficácia do Scrum Team e por remover impedimentos organizacionais. Ele **não é chefe/gerente funcional** e não atribui tarefas nominais — os próprios desenvolvedores selecionam e distribuem as tarefas do Sprint Backlog.
 >
-> **Gabarito: C**
+> **Gabarito: A**
 
 ---
 
 ### Teste 006
-**(FCC – DPE – Analista de Sistemas)**  
-A respeito do evento *Daily Scrum* estabelecido no Guia Scrum (versão 2020), assinale a afirmativa correta:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Em um projeto de modernização tecnológica de um Tribunal de Contas gerido por meio do framework Scrum, um auditor acompanhou a dinâmica dos eventos da equipe. A respeito do evento *Daily Scrum* (Reunião Diária), em estrita conformidade com o Guia Scrum (versão 2020), é correto afirmar:
 
-* **A)** É uma reunião de prestação de contas dos desenvolvedores para o Scrum Master e para o Product Owner, que atuam como avaliadores formais do desempenho diário individual no âmbito da administração pública direta e indireta.
-* **B)** Tem duração máxima permitida de 45 minutos para Sprints de um mês, admitindo prorrogação formal caso existam impedimentos complexos a serem debatidos.
-* **C)** Trata-se de um evento de 15 minutos para os Desenvolvedores do Scrum Team inspecionarem o progresso em direção à Meta da Sprint e adaptarem o Sprint Backlog conforme necessário.
-* **D)** É obrigatório que cada desenvolvedor responda exclusivamente a três perguntas padronizadas: o que fez ontem, o que fará hoje e quais são os impedimentos.
-* **E)** Caso o Product Owner ou o Scrum Master não possam comparecer presencialmente ao evento, a Daily Scrum deve ser compulsoriamente cancelada naquele dia.
+* **A)** Trata-se de um evento com tempo limite (*timebox*) de 15 minutos destinado aos Desenvolvedores do Scrum Team para inspecionar o progresso em direção à Meta da Sprint e adaptar o planejamento do Sprint Backlog para as próximas 24 horas.
+* **B)** Consiste em uma sessão formal de prestação de contas dos desenvolvedores para o Scrum Master e o Product Owner, que atuam avaliando metas individuais de produtividade.
+* **C)** Possui duração proporcional ao tamanho da iteração, sendo estabelecido o tempo fixo de 45 minutos para Sprints com duração de quatro semanas.
+* **D)** Exige compulsoriamente que cada integrante responda a três perguntas pré-determinadas sob pena de invalidação da ata do dia.
+* **E)** Não pode ser realizada caso o Product Owner esteja ausente, exigindo a convocação de nova data e horário pela gerência do projeto.
 
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** A Daily Scrum não é uma reunião de *status report* ou avaliação de chefia; o Scrum Team é autogerenciado.
-> - **B) Incorreta.** O time-box da Daily Scrum é fixo em **15 minutos**, independentemente da extensão temporal da Sprint.
-> - **C) CORRETA.** Conforme a versão 2020 do Guia Scrum, a Daily Scrum é um evento de **15 minutos** para os **Desenvolvedores do Scrum Team**, com o objetivo de inspecionar o progresso em direção à Meta da Sprint (*Sprint Goal*) e adaptar o Sprint Backlog conforme necessário, ajustando o plano de trabalho para as próximas 24 horas.
-> - **D) Incorreta.** O Guia Scrum 2020 aboliu a exigência obrigatória das três clássicas perguntas, conferindo total liberdade aos Desenvolvedores para estruturar a reunião da forma mais eficiente para o time.
-> - **E) Incorreta.** O evento é privativo dos Desenvolvedores; se o PO ou o SM não estiverem trabalhando ativamente em tarefas do Sprint Backlog, a sua ausência não impede a realização regular da Daily.
-> 
-> **Gabarito: C**
+> - **A) CORRETA.** Nos termos literais do Guia Scrum 2020: a Daily Scrum é um evento de **15 minutos** para os **Desenvolvedores** do Scrum Team inspecionarem o progresso em direção à **Meta da Sprint (*Sprint Goal*)** e adaptarem o Sprint Backlog conforme necessário, ajustando o plano de ação imediato para o próximo dia útil.
+> - **B) Incorreta.** Inversão de papel: a Daily Scrum não é uma reunião gerencial de prestação de contas individual (*status report*), mas uma sessão técnica e colaborativa de planejamento e sincronização entre os desenvolvedores.
+> - **C) Incorreta.** O timebox da Daily Scrum é fixo em **15 minutos**, independentemente de a Sprint durar uma, duas, três ou quatro semanas.
+> - **D) Incorreta.** O Guia Scrum 2020 aboliu as três perguntas prescritivas fixas (o que fiz ontem, o que farei hoje, quais impedimentos), deixando o formato da conversa a critério autônomo dos desenvolvedores, desde que foquem na Meta da Sprint.
+> - **E) Incorreta.** A Daily Scrum é um evento privativo dos Desenvolvedores; a ausência de papéis externos não impede sua execução regular.
+>
+> **Gabarito: A**
 
 ---
 
 ### Teste 007
-**(FCC – TCE-GO – Analista de Controle Externo / TI)**  
-No framework Scrum (segundo a versão oficial do Guia Scrum de 2020), cada um dos três artefatos possui um compromisso formal associado que fornece informações transparentes e foco para a equipe. Os compromissos associados ao Product Backlog, ao Sprint Backlog e ao Incremento são, respectivamente:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A versão 2020 do Guia Scrum introduziu uma estrutura de transparência e responsabilização na qual cada um dos três artefatos do Scrum contém um compromisso formal associado para reforçar o foco e medir o progresso da equipe. De acordo com o Guia Scrum oficial, os compromissos vinculados, respectivamente, ao *Product Backlog*, ao *Sprint Backlog* e ao *Incremento* são:
 
-* **A)** Definição de Pronto, Meta da Sprint e Meta do Produto.
-* **B)** Meta do Produto (*Product Goal*), Meta da Sprint (*Sprint Goal*) e Definição de Pronto (*Definition of Done*).
-* **C)** Histórias de Usuário, Tarefas Técnicas e Código em Produção no âmbito da administração pública direta e indireta.
-* **D)** Retrospectiva, Planejamento da Sprint e Revisão.
-* **E)** Burndown Chart, Velocidade do Time e Lead Time.
+* **A)** Meta do Produto (*Product Goal*), Meta da Sprint (*Sprint Goal*) e Definição de Pronto (*Definition of Done*).
+* **B)** Definição de Pronto (*Definition of Done*), Meta da Sprint (*Sprint Goal*) e Meta do Produto (*Product Goal*).
+* **C)** Visão Estratégica, Critérios de Aceite e Homologação Final de Produção.
+* **D)** Termo de Abertura, Cronograma Físico-Financeiro e Matriz de Riscos.
+* **E)** Velocidade do Time, Gráfico de Burndown e Diagrama de Fluxo Cumulativo.
 
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Inverteu a ordem de associação dos artefatos com seus respectivos compromissos formais.
-> - **B) CORRETA.** O Guia Scrum oficial de 2020 introduziu formalmente a vinculação unívoca de um compromisso para cada artefato:
+> - **A) CORRETA.** O Guia Scrum oficial de 2020 estruturou formalmente a associação unívoca entre artefatos e compromissos:
 >     - Para o **Product Backlog**, o compromisso é a **Meta do Produto (*Product Goal*)**;
 >     - Para o **Sprint Backlog**, o compromisso é a **Meta da Sprint (*Sprint Goal*)**;
 >     - Para o **Incremento**, o compromisso é a **Definição de Pronto (*Definition of Done - DoD*)**.
-> - **C) Incorreta.** Histórias de usuário e tarefas constituem técnicas complementares amplamente usadas, mas não são compromissos previstos no Guia Scrum.
-> - **D) Incorreta.** Retrospectiva, Planejamento e Revisão são três dos eventos oficiais do Scrum, e não compromissos de artefatos.
-> - **E) Incorreta.** Burndown chart, velocidade e lead time são gráficos e métricas analíticas de fluxo e produtividade.
-> 
-> **Gabarito: B**
+> - **B) Incorreta.** Apresenta inversão na correspondência dos compromissos formais com seus respectivos artefatos.
+> - **C) Incorreta.** Mistura práticas gerenciais complementares que não constituem os três compromissos normativos do Scrum 2020.
+> - **D) Incorreta.** Trata-se de artefatos clássicos e prescritivos de gestão preditiva de projetos (PMBOK tradicional), alheios aos compromissos do Scrum.
+> - **E) Incorreta.** Velocidade, Burndown e CFD são métricas analíticas e ferramentas visuais de acompanhamento, não compromissos de artefatos.
+>
+> **Gabarito: A**
 
 ---
 
 ### Teste 008
-**(FCC – TCE – Auditor de Controle Externo / Tecnologia da Informação)**  
-No acompanhamento visual do progresso de equipes ágeis, dois gráficos amplamente utilizados são o *Sprint Burndown* e o *Release Burnup*. A correta caracterização e interpretação desses gráficos estabelece que:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No acompanhamento visual e na gestão quantitativa do progresso de equipes ágeis em um projeto de fiscalização de TI, utilizam-se com frequência os gráficos *Sprint Burndown* e *Release Burnup*. A respeito da interpretação técnica e das características comparativas desses gráficos, é correto afirmar:
 
-* **A)** o gráfico de Burndown exibe a quantidade acumulada de funcionalidades já concluídas subindo progressivamente até atingir o teto de escopo planejado.
-* **B)** no gráfico de *Sprint Burndown*, o eixo vertical quantifica o trabalho restante a ser concluído e o eixo horizontal representa o tempo; quando a linha real situa-se abaixo da linha ideal planejada, isso indica que a equipe está adiantada em relação ao planejado.
-* **C)** o gráfico de *Burnup* mede exclusivamente os impedimentos técnicos do time, não tendo relação com escopo ou entregas de software.
-* **D)** no gráfico de Burndown, uma linha real ascendente ou situada acima da linha ideal indica que a equipe está entregando o trabalho mais rapidamente do que o estimado originalmente no âmbito da administração pública direta e indireta no âmbito da administração pública direta e indireta.
-* **E)** o gráfico de Burnup é incapaz de demonstrar alterações de escopo ocorridas durante o projeto, revelando apenas as tarefas finalizadas.
+* **A)** no gráfico de *Sprint Burndown*, o eixo vertical quantifica o trabalho restante planejado e o eixo horizontal representa o tempo; quando a linha real situa-se abaixo da linha ideal de tendência, indica que a equipe está com ritmo de entrega adiantado em relação ao cronograma previsto.
+* **B)** no gráfico de *Sprint Burndown*, o traçado da linha real deve ascender continuamente até atingir o limite orçamentário previsto para o projeto.
+* **C)** o gráfico de *Release Burnup* restringe-se a exibir a quantidade de impedimentos resolvidos, sendo incapaz de sinalizar expansões ou reduções no escopo global do projeto.
+* **D)** no gráfico de *Sprint Burndown*, se a linha real mantiver trajetória acima da linha ideal planejada, conclui-se que o ritmo de entrega está superando as estimativas iniciais de vazão da equipe.
+* **E)** o gráfico de *Release Burnup* monitora exclusivamente a performance computacional dos servidores de integração contínua durante a compilação do código.
 
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** O Burndown mede o trabalho *restante* ("queimando" para baixo em direção a zero). O gráfico que sobe progressivamente é o *Burnup*.
-> - **B) Correta.** No Burndown, o eixo Y mostra o trabalho restante (horas ou story points). Se a linha real está abaixo da linha guia ideal, restam menos tarefas do que o previsto, indicando que a equipe está trabalhando mais rápido/adiantada.
-> - **C) Incorreta.** O Burnup rastreia o progresso acumulado em direção à meta e mostra a linha de escopo total.
-> - **D) Incorreta.** Se a linha real está acima da linha ideal, resta mais trabalho do que o esperado, denotando atraso ou acréscimo de escopo.
-> - **E) Incorreta.** A principal vantagem do Burnup sobre o Burndown é justamente a capacidade de exibir explicitamente a variação da linha de escopo total ao longo do tempo.
+> - **A) CORRETA.** No gráfico de **Burndown**, o objetivo é "queimar" o trabalho restante em direção a zero. O eixo vertical expressa o esforço restante (em pontos de história ou horas) e o horizontal expressa os dias da Sprint. Caso a linha de execução real esteja **abaixo da linha ideal guia**, resta menos trabalho do que o originalmente estimado para aquele dia, indicando que o time está **adiantado**.
+> - **B) Incorreta.** O Burndown é descendente (mede trabalho restante decrescendo até zero); o gráfico que acumula entregas para cima de forma ascendente é o *Burnup*.
+> - **C) Incorreta.** Uma das grandes vantagens analíticas do *Release Burnup* sobre o Burndown é justamente possuir duas linhas distintas (uma de escopo total e outra de trabalho realizado), tornando imediatamente transparentes acréscimos ou cortes de escopo ao longo da iteração.
+> - **D) Incorreta.** Linha real acima da linha ideal em um Burndown indica atraso (resta mais trabalho pendente do que o previsto para aquele momento).
+> - **E) Incorreta.** O Burnup é um gráfico de acompanhamento de entrega de escopo de negócio por iteração, não uma métrica de telemetria de infraestrutura.
 >
-> **Gabarito: B**
+> **Gabarito: A**
 
 ---
 
@@ -469,54 +469,54 @@ O Kanban opera como um **sistema puxado (*pull system*)**:
 ---
 
 ### Teste 009
-**(FGV – TJ-MT – Analista Judiciário / Tecnologia da Informação)**  
-No método Kanban aplicado ao fluxo de desenvolvimento de software, a imposição de limites explícitos de Trabalho em Progresso (*Work in Progress* - WIP) nas colunas do quadro de tarefas tem como objetivo primordial e fundamentação técnica:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Ao auditar o fluxo contínuo de trabalho e os processos operacionais de desenvolvimento de uma entidade pública orientados pelo método Kanban, o auditor de controle externo verificou a instituição de limites explícitos de Trabalho em Progresso (*Work In Progress* - WIP) nas colunas do quadro. Na teoria e na prática do Kanban, o objetivo técnico central dessa restrição é:
 
-* **A)** forçar a equipe a realizar horas extras para desocupar postos de trabalho travados.
-* **B)** impedir alterações no código-fonte sem homologação prévia do comitê de governança.
-* **C)** evidenciar gargalos e bloqueios no fluxo, reduzindo o tempo de ciclo (*Cycle Time*) e prevenindo o desperdício decorrente da troca constante de contexto, em consonância com a Lei de Little.
-* **D)** eliminar a necessidade de testes de integração, transferindo a validação diretamente para o usuário final.
-* **E)** nivelar a capacidade produtiva fixando rigidamente o tamanho de todas as tarefas em exatamente um dia de trabalho no âmbito da administração pública direta e indireta no âmbito da administração pública direta e indireta.
+* **A)** expor gargalos e bloqueios no fluxo operacional, reduzindo o tempo de ciclo total (*Cycle Time*) e prevenindo o desperdício decorrente da troca constante de contexto (*multitasking*).
+* **B)** compelir os desenvolvedores a cumprirem horas extraordinárias sempre que o número de tarefas ultrapassar o limite pré-fixado na coluna.
+* **C)** exigir a homologação formal de cada item por um comitê diretivo antes de autorizar sua passagem para a coluna seguinte.
+* **D)** dispensar a execução de testes funcionais automatizados para acelerar a taxa de liberação de pacotes em produção.
+* **E)** padronizar compulsoriamente para um tamanho idêntico o esforço e a complexidade de todas as demandas recebidas no fluxo.
 
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** O Kanban busca ritmo sustentável de trabalho, não exploração com horas extras.
-> - **B) Incorreta.** Limites de WIP não atuam como barreiras burocráticas de homologação, mas como restrição de concorrência operacional.
-> - **C) Correta.** Segundo a Lei de Little ($Lead\ Time = WIP / Throughput$), limitar o WIP reduz diretamente o tempo de ciclo total, expõe gargalos operacionais no fluxo e combate o desperdício de *multitasking*.
-> - **D) Incorreta.** Limitar o WIP eleva a qualidade e não elimina qualquer etapa de testes.
-> - **E) Incorreta.** Os itens no Kanban podem ter tamanhos variáveis; o limite aplica-se à quantidade simultânea de itens na coluna, não ao tamanho da tarefa.
+> - **A) CORRETA.** O princípio orientador do método Kanban sintetiza-se no lema *"pare de começar e comece a terminar"*. A fixação de limites explícitos de WIP restringe o volume de tarefas concorrentes em cada etapa, expõe gargalos operacionais (impedindo que etapas a montante sobrecarreguem etapas a jusante), minimiza a perda de produtividade por troca de contexto e, por consequência direta da **Lei de Little** ($Lead\ Time = WIP / Throughput$), diminui o tempo de ciclo de entrega.
+> - **B) Incorreta.** O limite de WIP busca promover ritmo sustentável e balanceamento de capacidade, e não impor sobrecarga ou horas extras artificiais.
+> - **C) Incorreta.** Falsa burocracia: a transição entre colunas é orientada por políticas explícitas da equipe (*Definition of Workflow*), e não por atos comitiais formais.
+> - **D) Incorreta.** A limitação de WIP foca na elevação da qualidade das entregas, não admitindo a supressão de testes ou controles de engenharia.
+> - **E) Incorreta.** O Kanban lida pragmaticamente com itens de tamanhos e naturezas heterogêneas; o limite incide sobre a contagem simultânea de itens na raia/coluna, e não sobre o tamanho fixo da demanda.
 >
-> **Gabarito: C**
+> **Gabarito: A**
 
 ---
 
 ### Teste 010
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
-No método Kanban aplicado à gestão do fluxo de desenvolvimento de software, duas métricas temporais essenciais para avaliar a eficiência do processo são o *Lead Time* e o *Cycle Time*. A correta distinção conceitual entre essas métricas estabelece que:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No âmbito da governança e gestão quantitativa de demandas de TI com o método Kanban, duas métricas temporais essenciais para diagnosticar a eficiência e a previsibilidade das entregas aos usuários são o *Lead Time* e o *Cycle Time*. A correta distinção conceitual entre essas grandezas estabelece que:
 
-* **A)** O *Lead Time* mede exclusivamente o tempo em que o item esteve bloqueado por impedimentos técnicos, enquanto o *Cycle Time* mede o tempo de reunião diária da equipe no âmbito da administração pública direta e indireta no âmbito da administração pública direta e indireta.
-* **B)** O *Lead Time* corresponde ao tempo total transcorrido desde a solicitação/criação do item pelo cliente até a sua entrega final; já o *Cycle Time* corresponde ao tempo em que o trabalho esteve efetivamente em progresso ativo pela equipe de desenvolvimento.
-* **C)** O *Cycle Time* sempre engloba o tempo de espera no backlog do cliente, ao passo que o *Lead Time* tem início apenas quando a primeira linha de código é compilada.
-* **D)** O *Lead Time* e o *Cycle Time* são grandezas idênticas em qualquer quadro Kanban que utilize limites estritos de WIP.
-* **E)** O *Throughput* representa a diferença matemática obtida pela subtração do *Cycle Time* pelo *Lead Time*.
+* **A)** o *Lead Time* compreende o tempo total decorrido desde a solicitação ou registro formal da demanda pelo usuário até sua entrega final em produção, ao passo que o *Cycle Time* mensura o intervalo em que a equipe esteve efetivamente trabalhando no desenvolvimento ativo do item.
+* **B)** o *Lead Time* calcula exclusivamente o tempo durante o qual o item permaneceu bloqueado por impedimentos, enquanto o *Cycle Time* afere a duração das reuniões diárias da equipe.
+* **C)** o *Cycle Time* abrange desde o momento da idealização pelo cliente até a homologação, enquanto o *Lead Time* tem início apenas com a primeira compilação do código-fonte.
+* **D)** o *Lead Time* e o *Cycle Time* são métricas necessariamente coincidentes em qualquer ambiente Kanban que opere com fluxo puxado.
+* **E)** o *Throughput* representa a grandeza temporal resultante da subtração matemática do *Cycle Time* pelo *Lead Time*.
 
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Confunde métricas de tempo de fluxo com tempos de bloqueio de cartões e cerimônias ágeis.
-> - **B) CORRETA.** No método Kanban:
->     - **Lead Time:** É a visão sob a ótica do cliente/usuário, correspondendo ao intervalo total desde o registro formal do pedido até a sua entrega concluída em produção;
->     - **Cycle Time:** É a visão sob a ótica da equipe técnica de desenvolvimento, correspondendo ao intervalo em que o item esteve em andamento ativo (da coluna "Em Progresso" até "Concluído").
-> - **C) Incorreta.** Inverte de forma diametral as definições consagradas das duas métricas.
-> - **D) Incorreta.** Mesmo com WIP delimitado, as grandezas são distintas, pois o item pode aguardar em filas de espera e refinamento antes de ter sua execução iniciada.
-> - **E) Incorreta.** O *Throughput* (vazão) corresponde ao volume quantitativo de itens finalizados por unidade de tempo, não sendo resultado de subtração.
-> 
-> **Gabarito: B**
+> - **A) CORRETA.** No método Kanban:
+>     - **Lead Time (Tempo de Atendimento):** Representa a perspectiva do **cliente/usuário**. É o tempo total transcorrido desde o registro formal da necessidade no sistema de chamados/backlog até a entrega do item pronto para uso em produção (engloba tempo de espera em fila + tempo de trabalho ativo);
+>     - **Cycle Time (Tempo de Ciclo):** Representa a perspectiva da **equipe técnica**. É o intervalo transcorrido a partir do momento em que o item é puxado para o fluxo de execução ativa ("Em Andamento") até a sua conclusão.
+> - **B) Incorreta.** Mistura tempos de fluxo com tempos de bloqueio e cerimônias ágeis.
+> - **C) Incorreta.** Inverte diametralmente as definições consagradas das métricas.
+> - **D) Incorreta.** São métricas distintas; o Lead Time sempre engloba o tempo de espera nas filas prévias de compromisso, sendo tipicamente superior ao Cycle Time.
+> - **E) Incorreta.** *Throughput* (vazão) é uma métrica quantitativa (número de itens concluídos por unidade de tempo, ex.: 15 itens/semana), não o resultado de subtração de tempos.
+>
+> **Gabarito: A**
 
 ---
 
@@ -556,27 +556,27 @@ Adaptado do Sistema Toyota de Produção por Mary e Tom Poppendieck, o desenvolv
 ---
 
 ### Teste 011
-**(FCC – TCE-GO – Técnico de Controle Externo / TI)**  
-Em relação às metodologias e práticas de engenharia de software ágil, a prática de desenvolvimento que consiste em programar com dois desenvolvedores compartilhando a mesma estação de trabalho (um atuando como "piloto" digitando o código e outro como "copiloto" revisando estrategicamente a solução em tempo real), bem como a técnica de escrever o teste automatizado antes do código de produção (ciclo Red-Green-Refactor), são práticas originárias e mandatórias do:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Em uma fiscalização de contratos de fábrica de software de um órgão público, o Auditor de Controle Externo analisou as práticas de engenharia de software preconizadas no Termo de Referência. Entre as práticas exigidas contratualmente, constavam a Programação em Par (*Pair Programming* — dois programadores atuando conjuntamente em uma mesma estação, com papéis de piloto e copiloto), o Desenvolvimento Orientado por Testes (*Test-Driven Development* - TDD, no ciclo Red-Green-Refactor) e a Refatoração Contínua. No rol das metodologias e frameworks ágeis, essas práticas de codificação são originárias e consagradas primariamente pelo:
 
-* **A)** Scrum.
-* **B)** Método Cascata.
-* **C)** Extreme Programming (XP).
-* **D)** CMMI Nível 5.
-* **E)** Rational Unified Process (RUP).
+* **A)** Extreme Programming (XP).
+* **B)** Scrum.
+* **C)** Rational Unified Process (RUP).
+* **D)** Método em Cascata (*Waterfall*).
+* **E)** CMMI Nível 5.
 
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** O Scrum é um framework de gestão de trabalho e desenvolvimento de produtos que não dita práticas técnicas específicas de codificação como pareamento ou testes.
-> - **B) Incorreta.** O modelo em Cascata prescreve segregação temporal estrita entre fases de especificação, codificação e testes, incompatível com a simultaneidade do pareamento ou testes antes do código.
-> - **C) CORRETA.** O **Extreme Programming (XP)**, formulado por Kent Beck, estabelece formalmente a **Programação em Par (*Pair Programming*)** (com as funções de Driver e Navigator) e o **Desenvolvimento Guiado por Testes (*TDD*)**, ao lado de refatoração contínua, integração contínua e propriedade coletiva de código.
-> - **D) Incorreta.** O CMMI é um modelo de avaliação de maturidade e capacidade de processos corporativos de engenharia, e não uma metodologia de codificação ágil.
-> - **E) Incorreta.** O RUP é um processo iterativo pesado com 4 fases formais dirigido por arquitetura e casos de uso, sem exigir programação em par ou TDD mandatório.
-> 
-> **Gabarito: C**
+> - **A) CORRETA.** O **Extreme Programming (XP)**, formulado por Kent Beck, é a metodologia ágil estritamente focada em **excelência técnica de engenharia e programação**. É a fonte de práticas consagradas como *Pair Programming* (dois desenvolvedores compartilhando teclado/tela), *TDD* (escrever o teste unitário antes do código de produção), *Refactoring* sistemático, integração contínua, metáfora do sistema e propriedade coletiva do código.
+> - **B) Incorreta.** O Scrum é um framework holístico de gestão e desenvolvimento de produtos centrado em papéis, eventos e artefatos, não prescrevendo práticas técnicas específicas de codificação como pair programming ou TDD.
+> - **C) Incorreta.** O RUP é um processo pesado e prescritivo com 4 fases formais e modelagem intensiva em UML, não tendo como pilares mandatórios o TDD ou o pareamento.
+> - **D) Incorreta.** O modelo em Cascata segrega estritamente as fases de especificação, codificação e testes, colidindo com a dinâmica contínua do TDD e da programação em pares.
+> - **E) Incorreta.** O CMMI é um modelo conceitual corporativo de avaliação de maturidade e capacidade de processos, não uma metodologia de codificação ágil.
+>
+> **Gabarito: A**
 
 ---
 

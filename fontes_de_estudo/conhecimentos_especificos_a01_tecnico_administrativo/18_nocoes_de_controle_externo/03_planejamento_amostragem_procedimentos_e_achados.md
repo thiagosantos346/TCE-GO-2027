@@ -114,7 +114,7 @@ flowchart TD
 ---
 
 ### Teste 187
-**(FCC – Auditor de Controle Externo / TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No planejamento de uma auditoria governamental de acordo com as normas da NBASP / INTOSAI, a elaboração da Matriz de Planejamento é etapa essencial para estruturar os trabalhos de campo. A respeito dos elementos integrantes da Matriz de Planejamento, é correto afirmar:
 
 * **A)** A delimitação do escopo dispensa a formulação prévia de questões de auditoria quando o órgão for submetido a inspeção ordinária pelo TC.
@@ -136,7 +136,7 @@ No planejamento de uma auditoria governamental de acordo com as normas da NBASP 
 > **Gabarito: B**
 
 ### Teste 188
-**(FCC – Auditor Governamental / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Acerca do modelo conceitual de risco de auditoria ($Risco = RI \times RC \times RD$) e da avaliação dos controles internos preconizada pela NBASP 200 / NBASP 100, é correto afirmar:
 
 * **A)** O risco de detecção é independente da atuação dos auditores, dependendo exclusivamente da estrutura do órgão auditado.
@@ -158,7 +158,7 @@ Acerca do modelo conceitual de risco de auditoria ($Risco = RI \times RC \times 
 > **Gabarito: C**
 
 ### Teste 189
-**(FCC – Técnico de Controle Externo / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em relação aos papéis de trabalho (documentação de auditoria) disciplinados nas normas de fiscalização dos Tribunais de Contas, analise as afirmativas:
 
 * **A)** O descarte de papéis de trabalho pode ocorrer no encerramento da execução, dispensando-se arquivo permanente.
@@ -180,7 +180,7 @@ Em relação aos papéis de trabalho (documentação de auditoria) disciplinados
 > **Gabarito: C**
 
 ### Teste 190
-**(FGV – Analista de Controle Externo / TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Os papéis de trabalho constituem a documentação indispensável do planejamento, da execução e dos resultados alcançados pelo controle externo. A respeito da finalidade e propriedade dos papéis de trabalho, é correto afirmar:
 
 * **A)** Pertencem originariamente ao administrador do órgão fiscalizado, cabendo ao Tribunal de Contas apenas a consulta.
@@ -202,7 +202,7 @@ Os papéis de trabalho constituem a documentação indispensável do planejament
 > **Gabarito: B**
 
 ### Teste 191
-**(FCC – Analista Judiciário / Administrativa / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No planejamento e execução de auditorias do setor público, as equipes utilizam técnicas de amostragem para fundamentar suas conclusões sobre a população sob exame. A respeito da amostragem estatística e não estatística, é correto afirmar:
 
 * **A)** A amostragem não estatística (por julgamento) permite mensurar objetivamente o risco de amostragem em percentual.
@@ -224,7 +224,7 @@ No planejamento e execução de auditorias do setor público, as equipes utiliza
 > **Gabarito: B**
 
 ### Teste 192
-**(FCC – Auditor de Controle Externo / TCE-RS / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No âmbito dos trabalhos de fiscalização governamental conduzidos por Tribunal de Contas, a equipe de auditoria decide obter uma declaração escrita diretamente de uma instituição bancária sobre os saldos mantidos por determinado fundo previdenciário público. Esse procedimento técnico de auditoria é denominado:
 
 * **A)** inspeção física direta de bens e ativos estatais.
@@ -246,7 +246,7 @@ No âmbito dos trabalhos de fiscalização governamental conduzidos por Tribunal
 > **Gabarito: B**
 
 ### Teste 193
-**(FGV – Auditor de Controle Externo / TCE-SC / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Durante auditoria de conformidade em contrato de fornecimento de merenda escolar, a equipe de controle externo constatou indícios de superfaturamento de quantitativos e entrega de gêneros alimentícios impróprios para consumo. Para constatar a real ocorrência dos fatos, os auditores compareceram aos depósitos escolares durante o recebimento dos alimentos e examinaram as notas fiscais e certificados fitossanitários. Os procedimentos aplicados correspondem, respectivamente, a:
 
 * **A)** procedimento analítico e recálculo.
@@ -268,7 +268,7 @@ Durante auditoria de conformidade em contrato de fornecimento de merenda escolar
 > **Gabarito: B**
 
 ### Teste 194
-**(FCC – Procurador do Estado / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A validade e a força persuasiva de um relatório de fiscalização do Tribunal de Contas dependem da qualidade das evidências obtidas pelos auditores durante a instrução do processo. A respeito dos atributos da suficiência e da apropriação (relevância e confiabilidade) das evidências de auditoria, é correto afirmar:
 
 * **A)** A suficiência é a medida da qualidade da evidência obtida pelos auditores no campo.
@@ -290,7 +290,7 @@ A validade e a força persuasiva de um relatório de fiscalização do Tribunal 
 > **Gabarito: B**
 
 ### Teste 195
-**(FCC – Auditor de Controle Externo / TCE-AM / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em relatório de auditoria de obras rodoviárias, a equipe do Tribunal de Contas apontou que a camada asfáltica executada pela empreiteira apresentou espessura média de 3 cm (situação encontrada), enquanto as especificações do edital e o projeto executivo exigiam espessura de 5 cm (critério normativo), gerando degradação prematura do pavimento e risco de prejuízo financeiro ao Estado (efeito). No jargão da auditoria governamental, a integração harmônica desses elementos caracteriza um:
 
 * **A)** escopo de amostragem estatística.
@@ -312,7 +312,7 @@ Em relatório de auditoria de obras rodoviárias, a equipe do Tribunal de Contas
 > **Gabarito: C**
 
 ### Teste 196
-**(FCC – Analista Jurídico de Controle / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Ao elaborar a Matriz de Responsabilização em processo de tomada de contas especial decorrente de achado de superfaturamento em compras públicas, a equipe de auditoria deve identificar com rigor técnico o nexo causal e o elemento subjetivo da conduta dos responsáveis. Para imputação de débito sancionatório com base no art. 28 da LINDB, é indispensável demonstrar que o agente público atuou com:
 
 * **A)** culpa leve decorrente de erro procedimental escusável.
@@ -334,7 +334,7 @@ Ao elaborar a Matriz de Responsabilização em processo de tomada de contas espe
 > **Gabarito: B**
 
 ### Teste 197
-**(FGV – Analista Jurídico de Controle Externo / TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Ao finalizar os trabalhos de execução no campo, antes da emissão definitiva do relatório de auditoria, a equipe técnica do Tribunal de Contas realiza reuniões com a administração auditada para apresentação preliminar dos achados e discussão das conclusões. A respeito da comunicação dos achados de auditoria e da solicitação de manifestação dos gestores antes do relatório final, é correto afirmar:
 
 * **A)** É vedada aos auditores sob pena de violação do sigilo das apurações preliminares do Tribunal de Contas.

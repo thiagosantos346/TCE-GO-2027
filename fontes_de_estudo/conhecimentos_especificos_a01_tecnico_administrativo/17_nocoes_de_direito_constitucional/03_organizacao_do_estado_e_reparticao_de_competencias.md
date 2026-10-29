@@ -91,7 +91,7 @@ O art. 19 da Carta da República veda à União, aos Estados, ao Distrito Federa
 ---
 
 ### Teste 132
-**(FCC – TRT – Analista Judiciário - 2009)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Incluem-se entre os bens dos Estados:
 
 * **A)** as terras devolutas indispensáveis à defesa das fronteiras e fortificações militares.
@@ -113,7 +113,7 @@ Incluem-se entre os bens dos Estados:
 > **Gabarito: D**
 
 ### Teste 133
-**(FCC – TRT-2ª Região – Analista Judiciário - 2014)**  
+**(FCC – TRT-2 – Analista Judiciário - Tecnologia da Informação – 2014)**  
 É competência privativa da União legislar sobre as matérias de direito:
 
 * **A)** agrário, direito econômico, sistema estatístico e registros públicos.
@@ -135,7 +135,7 @@ Incluem-se entre os bens dos Estados:
 > **Gabarito: D**
 
 ### Teste 134
-**(FGV – TRT-1ª Região – Analista Judiciário - 2024)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O Estado Alfa, à míngua de normas da União disciplinando a respectiva temática, editou a Lei estadual nº X. Em momento posterior, a União editou a Lei nº Y, em sentido diametralmente oposto ao da Lei estadual nº X.  
 Considerando os balizamentos estabelecidos pela ordem constitucional, é correto afirmar que a Lei nº Y:
 
@@ -158,7 +158,7 @@ Considerando os balizamentos estabelecidos pela ordem constitucional, é correto
 > **Gabarito: D**
 
 ### Teste 135
-**(FCC – Procuradoria Legislativa / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em tema de repartição constitucional de competências legislativas e materiais dos Municípios (art. 30 da CF/88), analise as proposições à luz da jurisprudência consolidada do STF:
 
 * **A)** É constitucional lei municipal que fixa horário de funcionamento de agências bancárias locais.
@@ -180,7 +180,7 @@ Em tema de repartição constitucional de competências legislativas e materiais
 > **Gabarito: E**
 
 ### Teste 136
-**(FCC – Procurador do Estado / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A criação, a incorporação, a fusão e o desmembramento de Municípios dependem de observância a um complexo rito constitucional previsto no art. 18, § 4º, da Constituição Federal. De acordo com o texto constitucional vigente, tais transformações:
 
 * **A)** dependem de decreto legislativo do Congresso Nacional aprovado por maioria absoluta dos parlamentares.
@@ -202,7 +202,7 @@ A criação, a incorporação, a fusão e o desmembramento de Municípios depend
 > **Gabarito: D**
 
 ### Teste 137
-**(FGV – Analista de Controle Externo / TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A intervenção federal nos Estados e no Distrito Federal (art. 34 da CF/88) é medida excepcional que suspende temporariamente a autonomia do ente federativo. Sobre as hipóteses e o procedimento da intervenção federal, é correto afirmar:
 
 * **A)** A intervenção para prover a execução de lei federal depende de representação do Procurador-Geral da República.
@@ -224,7 +224,7 @@ A intervenção federal nos Estados e no Distrito Federal (art. 34 da CF/88) é 
 > **Gabarito: B**
 
 ### Teste 138
-**(FCC – Técnico de Controle Externo / TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No âmbito do regime constitucional da Administração Pública e da disciplina remuneratória dos agentes estatais (art. 37 da CF/88), considere as seguintes regras sobre o teto remuneratório e acumulação de cargos:
 
 * **A)** O subsídio dos Deputados Estaduais serve como limite único para todos os servidores públicos estaduais.
@@ -246,7 +246,7 @@ No âmbito do regime constitucional da Administração Pública e da disciplina 
 > **Gabarito: C**
 
 ### Teste 139
-**(FGV – TJ-AP – Analista Judiciário - 2023)**  
+**(FGV – TJ-AP – Analista Judiciário - Tecnologia da Informação – 2023)**  
 Nair, servidora pública ocupante de cargo de provimento efetivo, logrou ser eleita vereadora no município em que é domiciliada.  
 Preocupada com a possibilidade de conciliar o cargo público com a vereança, analisou os balizamentos estabelecidos pela Constituição da República, tendo concluído corretamente que:
 
@@ -269,7 +269,7 @@ Preocupada com a possibilidade de conciliar o cargo público com a vereança, an
 > **Gabarito: C**
 
 ### Teste 140
-**(FGV – TRF-1ª Região – Analista Judiciário - 2024)**  
+**(FGV – TRF-1 – Analista Judiciário - Tecnologia da Informação – 2024)**  
 Maria, servidora pública federal, foi condenada, em sentença penal transitada em julgado, pela prática de infração penal. No momento em que o regime de cumprimento da pena passou para o aberto, procurou se informar em relação aos atos da cidadania que poderia, ou não, praticar enquanto estivesse cumprindo a pena.  
 Ao final, Maria concluiu corretamente que, na perspectiva das eleições para cargos dos Poderes Executivo e Legislativo:
 
@@ -292,7 +292,7 @@ Ao final, Maria concluiu corretamente que, na perspectiva das eleições para ca
 > **Gabarito: A**
 
 ### Teste 141
-**(FCC – Analista Judiciário / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Sobre o regime constitucional de estabilidade dos servidores públicos ocupantes de cargo de provimento efetivo (art. 41 da CF/88), analise as hipóteses de aquisição e perda do cargo público estável. É correto afirmar que:
 
 * **A)** O servidor adquire estabilidade após dois anos de efetivo exercício, prescindindo de avaliação de desempenho.
@@ -314,7 +314,7 @@ Sobre o regime constitucional de estabilidade dos servidores públicos ocupantes
 > **Gabarito: C**
 
 ### Teste 142
-**(FGV – Analista de Controle Externo / Auditoria / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A estabilidade no serviço público é direito constitucional assegurado aos servidores nomeados para cargo de provimento efetivo em virtude de concurso público. A respeito da extinção do cargo ou declaração de sua desnecessidade, é correto afirmar:
 
 * **A)** O servidor estável cujo cargo for extinto será sumariamente demitido do serviço público com indenização pecuniária.

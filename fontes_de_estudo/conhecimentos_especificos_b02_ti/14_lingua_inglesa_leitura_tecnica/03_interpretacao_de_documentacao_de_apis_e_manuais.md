@@ -97,14 +97,14 @@ flowchart TD
 ---
 
 ### Teste 585
-**(FCC - Adaptada / Tribunal de Contas - Auditoria de TI)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Read the standard specification clause below regarding secure communications:*
 
 > *"The authentication service **MUST NOT** transmit user credentials in plaintext over unencrypted communication channels. Furthermore, client applications **SHOULD** implement exponential backoff upon receiving status 429, and **MAY** include a custom telemetry header for diagnostic monitoring."*
 
 De acordo com as diretrizes formais de interpretação normativa da IETF (RFC 2119 e RFC 8174), é correto afirmar que:
 
-* **A)** A locução **"MUST NOT"** representa mera recomendação estilística de segurança, cuja inobservância pode ser ignorada pelos desenvolvedores sem comprometer a conformidade com a especificação no âmbito da administração pública direta e indireta.
+* **A)** A locução **"MUST NOT"** representa mera recomendação estilística de segurança, cuja inobservância pode ser ignorada pelos desenvolvedores sem comprometer a conformidade com a especificação.
 * **B)** O termo **"SHOULD"** impõe uma recomendação técnica enfática que, embora possa admitir exceções motivadas em circunstâncias específicas, não deve ser desprezada sem plena avaliação e justificativa de suas implicações.
 * **C)** O vocábulo **"MAY"** estabelece um requisito obrigatório e estritamente mandatório para todos os clientes compatíveis.
 * **D)** O verbo modal **"MUST NOT"** autoriza o envio de senhas em texto puro desde que a rede interna seja cabeada e protegida por firewall perimetral.
@@ -126,7 +126,7 @@ De acordo com as diretrizes formais de interpretação normativa da IETF (RFC 21
 ---
 
 ### Teste 586
-**(FCC - Adaptada / Analista de Sistemas - Integração de Plataformas)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Consider the excerpt below from a technical specification draft for a public auditory API:*
 
 > *"Section 4.2 – Authentication and Message Security  
@@ -142,7 +142,7 @@ According to the normative definitions established by RFC 2119, it is correct to
 * **B)** Servers are strictly permitted to validate tokens signed with the 'none' algorithm in development environments.
 * **C)** Asymmetric RSA-256 signature is a recommended practice, meaning that valid reasons may exist to employ an alternative, but the full implications must be weighed.
 * **D)** Including a cryptographic JWT in the `Authorization` header is an optional feature that can be ignored at the client's discretion.
-* **E)** The term **"SHOULD"** in item 3 implies that asymmetric RSA-256 signature is strictly mandatory and cannot be substituted under any circumstances no âmbito da administração pública direta e indireta.
+* **E)** The term **"SHOULD"** in item 3 implies that asymmetric RSA-256 signature is strictly mandatory and cannot be substituted under any circumstances.
 
 
 ---
@@ -160,7 +160,7 @@ According to the normative definitions established by RFC 2119, it is correct to
 ---
 
 ### Teste 587
-**(FCC - Adaptada / Tribunal de Contas - Infraestrutura e Engenharia de Dados)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Read the excerpt extracted from a distributed database configuration guide:*
 
 > *"Section 6: Network Partitioning and Split-Brain Prevention  
@@ -169,7 +169,7 @@ According to the normative definitions established by RFC 2119, it is correct to
 
 Based on reading technical manuals and understanding operational directives, it is correct to state that:
 
-* **A)** The manual indicates that synchronizing system clocks with NTP is an optional step that can be safely bypassed in multi-region deployments no âmbito da administração pública direta e indireta.
+* **A)** The manual indicates that synchronizing system clocks with NTP is an optional step that can be safely bypassed in multi-region deployments.
 * **B)** A clock drift higher than 250 milliseconds is considered normal and will not impact heartbeat communications between nodes.
 * **C)** The directive labeled **"Caution"** advises configuring an even number of voting nodes to maximize electoral redundancy during partitions.
 * **D)** According to the guide, a strict majority quorum is indispensable to elect a primary leader and prevent the emergence of conflicting writes in distinct partitions.
@@ -281,7 +281,7 @@ Diferentemente do padrão REST, no qual cada recurso ocupa uma URI distinta, o p
 ---
 
 ### Teste 588
-**(FCC - Adaptada / Analista de Sistemas - Integração e Microsserviços)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Read the API reference documentation snippet below:*
 
 > *"The payment gateway exposes the following endpoint:*  
@@ -290,7 +290,7 @@ Diferentemente do padrão REST, no qual cada recurso ocupa uma URI distinta, o p
 
 Considerando a semântica dos verbos HTTP na arquitetura RESTful e a documentação apresentada, assinale a alternativa correta:
 
-* **A)** As requisições executadas com o verbo **GET** são consideradas operações não-seguras e não-idempotentes, pois invariavelmente alteram o estado do banco de dados no servidor no âmbito da administração pública direta e indireta.
+* **A)** As requisições executadas com o verbo **GET** são consideradas operações não-seguras e não-idempotentes, pois invariavelmente alteram o estado do banco de dados no servidor.
 * **B)** A operação via método **POST** descrita é não-idempotente porque requisições sucessivas idênticas com o mesmo corpo podem criar múltiplos lançamentos e cobranças bancárias duplicadas.
 * **C)** O método **PUT** destina-se primordialmente a consultas parciais de dados e possui comportamento inerentemente não-idempotente pelo padrão HTTP.
 * **D)** O verbo **DELETE** é considerado não-idempotente, uma vez que a exclusão repetida de um recurso já removido resulta na restauração automática da entidade.
@@ -312,7 +312,7 @@ Considerando a semântica dos verbos HTTP na arquitetura RESTful e a documentaç
 ---
 
 ### Teste 589
-**(FCC - Adaptada / SEFAZ - Auditoria Fiscal da Receita Estadual - Especialidade TI)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Examine the following OpenAPI 3.0 specification excerpt describing an electronic fiscal auditing endpoint:*
 
 ```yaml
@@ -388,7 +388,7 @@ Está correto o que se afirma em:
 ---
 
 ### Teste 590
-**(FCC - Adaptada / Tribunal de Contas - Especialidade Tecnologia da Informação)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Carefully analyze the API documentation response snippet provided below:*
 
 ```http
@@ -409,7 +409,7 @@ A partir da leitura técnica da documentação e dos cabeçalhos HTTP apresentad
 * **A)** A requisição foi processada com êxito pelo servidor, mas o cliente foi alertado de que o formato JSON é inválido.
 * **B)** O cliente excedeu a cota de requisições permitida (*rate limit*) e foi instruído, por meio do cabeçalho `Retry-After`, a aguardar 120 segundos antes de reenviar a chamada.
 * **C)** A mensagem `Warning` adverte que o serviço falhou catastroficamente e seus dados foram corrompidos permanentemente no banco de dados.
-* **D)** O termo *deprecated* indica que o endpoint acabou de ser atualizado para uma versão de maior desempenho recomendada para novas integrações no âmbito da administração pública direta e indireta.
+* **D)** O termo *deprecated* indica que o endpoint acabou de ser atualizado para uma versão de maior desempenho recomendada para novas integrações.
 * **E)** O status 429 indica um erro interno de falha de infraestrutura no lado do servidor (*Internal Server Error*).
 
 
@@ -428,7 +428,7 @@ A partir da leitura técnica da documentação e dos cabeçalhos HTTP apresentad
 ---
 
 ### Teste 591
-**(FCC - Adaptada / SEFAZ - Auditoria Fiscal e Sistemas)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Read the GraphQL Schema Definition Language (SDL) snippet below:*
 
 ```graphql
@@ -512,14 +512,14 @@ A correta interpretação do ciclo de vida de componentes de software é essenci
 ---
 
 ### Teste 592
-**(FCC - Adaptada / Analista de TI - Governança de Software)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Read the technical release note excerpt below regarding an enterprise authentication library:*
 
 > *"**Notice:** Version 3.4 marks the endpoint `/v1/auth/legacy-token` as **deprecated**. While the endpoint remains functional throughout the 3.x release series to ensure backward compatibility, security teams are strongly advised to migrate to `/v2/oauth/token`. In version 4.0, this endpoint will be fully **decommissioned**, and any subsequent invocation will immediately return HTTP 410 Gone."*
 
 Com base na terminologia técnica empregada para definir o ciclo de vida de componentes de software e no texto acima:
 
-* **A)** Um componente classificado como **"deprecated"** já foi completamente removido da base de código e não processa nenhuma requisição desde o lançamento da versão 3.4 em estrita conformidade com as normas legais e regulamentares aplicáveis.
+* **A)** Um componente classificado como **"deprecated"** já foi completamente removido da base de código e não processa nenhuma requisição desde o lançamento da versão 3.4.
 * **B)** A classificação de um recurso como **"deprecated"** adverte que, embora ainda permaneça funcional na versão corrente, seu uso é formalmente desaconselhado e sua remoção definitiva (*decommissioning*) ocorrerá em versão futura.
 * **C)** O termo **"decommissioned"** significa que o recurso continuará recebendo novas funcionalidades e atualizações prioritárias de segurança indefinidamente.
 * **D)** A resposta `HTTP 410 Gone` indica que a requisição ao endpoint `/v1/auth/legacy-token` foi atendida com pleno sucesso e autorização irrestrita.
@@ -559,7 +559,7 @@ flowchart TD
 ```
 
 1. **Title & Abstract:** O núcleo de maior densidade do paper. Sintetiza a motivação central, a fraqueza das abordagens tradicionais, a solução inovadora formulada e os ganhos numéricos consolidados (ex.: redução de latência em 42%).
-2. **Introduction:** Expõe a relevância do problema e lista textualmente as contribuições primárias do trabalho (*"In this paper, our main contributions are..."*).
+2. **Introduction:** Expõe a relevância do problema e lista textualmente as contribuições primárias do trabalho (*"In this paper, our main contributions are.."*).
 3. **Related Work:** Confronta a solução com trabalhos anteriores (*prior art*).
 4. **Proposed Architecture / Algorithm:** Detalhamento da arquitetura técnica ou algoritmo implementado.
 5. **Experimental Evaluation & Discussion:** Apresentação rigorosa das métricas de desempenho sob carga de trabalho corporativa real (*enterprise workloads*).
@@ -586,7 +586,7 @@ Conforme preconizado pelo Prof. S. Keshav, a leitura de papers em ambientes de p
 ---
 
 ### Teste 593
-**(FCC - Adaptada / Analista de TI - Avaliação de Arquiteturas de Nuvem)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Read the abstract of an IEEE computer systems research paper:*
 
 > *"Abstract—Serverless computing has emerged as a compelling paradigm for event-driven microservices due to its elastic autoscale and pay-per-use billing. **However**, cold-start latency remains a severe impediment for latency-sensitive public services. In this paper, we propose *KubeWarm*, a lightweight proactive container pre-warming framework integrated with Kubernetes. **Unlike** conventional reactive autoscalers that spawn container runtimes only after incoming HTTP requests arrive, *KubeWarm* utilizes an autoregressive machine learning model to predict invocation spikes. Our extensive experimental results on enterprise workloads demonstrate that *KubeWarm* reduces tail latency by 42% and eliminates 87% of cold starts, while incurring less than 3% CPU **overhead**."*
@@ -615,7 +615,7 @@ Based on paper reading techniques (*Abstract comprehension*) and technical vocab
 ---
 
 ### Teste 594
-**(FCC - Adaptada / Auditor de Controle Externo - Tecnologia da Informação)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 *Read the research paper excerpt on distributed storage systems:*
 
 > *"In this paper, we evaluate **AuroraKV**, a novel distributed key-value store designed for geo-replicated transactional workloads. In extensive empirical evaluations using the Yahoo! Cloud Serving **Benchmark** (YCSB), AuroraKV **outperforms** state-of-the-art baselines by up to 45% in write throughput while keeping tail latency (P99) under 15ms. Furthermore, our consensus optimizations introduce an operational **overhead** of less than 2.8% on server CPU utilization, demonstrating the feasibility of near-instant multi-region consistency."*
@@ -625,7 +625,7 @@ Com base nas convenções léxicas e metodológicas da literatura científica in
 * **A)** O termo **"outperforms"** expressa que a solução proposta apresentou desempenho inferior ao das tecnologias comparadas.
 * **B)** A palavra **"Benchmark"** designa um conjunto padronizado de testes e cargas de trabalho concebido para avaliar e comparar o desempenho de sistemas computacionais de maneira empírica.
 * **C)** A expressão **"overhead"** descreve o ganho patrimonial direto obtido pela equipe de desenvolvedores ao publicar o artigo.
-* **D)** A métrica de **"tail latency (P99)"** expressa o tempo médio de resposta apurado sobre 99% das requisições mais velozes do cluster no âmbito da administração pública direta e indireta.
+* **D)** A métrica de **"tail latency (P99)"** expressa o tempo médio de resposta apurado sobre 99% das requisições mais velozes do cluster.
 * **E)** O vocábulo **"baselines"** designa erros de compilação irreparáveis detectados no código-fonte dos servidores.
 
 

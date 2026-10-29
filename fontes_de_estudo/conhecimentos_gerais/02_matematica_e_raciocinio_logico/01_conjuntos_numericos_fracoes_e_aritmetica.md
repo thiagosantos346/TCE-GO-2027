@@ -111,7 +111,7 @@ Propriedades críticas da divisão inteira:
 ---
 
 ### Teste 072
-**(FCC – TRT-23 – Analista Judiciário)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere a expressão numérica $E = 0{,}333... + \frac{1}{6} - 0{,}25$. O valor exato de $E$ expresso sob a forma de fração irredutível é igual a:
 
 * **A)** $\frac{1}{4}$
@@ -143,7 +143,7 @@ Considere a expressão numérica $E = 0{,}333... + \frac{1}{6} - 0{,}25$. O valo
 ---
 
 ### Teste 073
-**(FCC – TCE-GO – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere a sequência infinita de números formados pela repetição cíclica dos algarismos do número 74582:
 $$7, 4, 5, 8, 2, 7, 4, 5, 8, 2, 7, 4, 5, 8, 2, \dots$$
 O algarismo que ocupa a 2027ª posição nessa sequência e o resto da divisão de 2027 por 5 são, respectivamente:
@@ -219,7 +219,7 @@ A potenciação traduz o produto de fatores idênticos repetidos ($a^n = \underb
 ---
 
 ### Teste 074
-**(FCC – TCE-GO – Analista de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O valor numérico da expressão aritmética $K = \frac{2^{20} + 2^{18}}{2^{19} - 2^{17}}$ é igual a:
 
 * **A)** $\frac{5}{3}$ em conformidade com as diretrizes e padrões de arquitetura corporativa.
@@ -310,7 +310,7 @@ $$\text{MMC}(a, b) \times \text{MDC}(a, b) = a \times b$$
 ---
 
 ### Teste 075
-**(FCC – METRÔ-SP – Analista)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O número de divisores naturais positivos do número inteiro $N = 360$ é igual a:
 
 * **A)** $18$
@@ -342,7 +342,7 @@ O número de divisores naturais positivos do número inteiro $N = 360$ é igual 
 ---
 
 ### Teste 076
-**(FCC – Auditor Fiscal da Receita – Adaptada)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Três equipes de fiscalização do Tribunal de Contas realizam auditorias periódicas em municípios do interior goiano. A equipe Alfa realiza auditorias a cada 12 dias; a equipe Beta, a cada 18 dias; e a equipe Gama, a cada 20 dias. No dia 1º de março de determinado ano não bissexto, as três equipes iniciaram suas inspeções simultaneamente.
 
 O número de dias que decorrerão até que as três equipes voltem a iniciar suas auditorias no mesmo dia é:
@@ -380,7 +380,7 @@ O número de dias que decorrerão até que as três equipes voltem a iniciar sua
 ---
 
 ### Teste 077
-**(FCC – TCE-PI – Técnico de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Uma coordenadoria administrativa do TCE-GO precisa arquivar 168 pastas de auditoria do tipo A, 216 pastas do tipo B e 264 pastas do tipo C em caixas organizadoras. Todas as caixas devem conter o mesmo número de pastas, sendo que cada caixa conterá pastas de um único tipo, e o número de pastas por caixa deve ser o **maior possível**, sem que sobre nenhuma pasta avulsa.
 
 Nessas condições, o **número total de caixas organizadoras** necessárias para arquivar todas as pastas é:
@@ -447,7 +447,7 @@ Uma fração $\frac{a}{b}$ representa uma divisão indicada onde o denominador $
 ---
 
 ### Teste 078
-**(FCC – TRT-14 – Analista Judiciário)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Um servidor do tribunal recebeu determinado lote de processos para instruir. No primeiro dia, analisou $\frac{2}{5}$ do total de processos; no segundo dia, analisou $\frac{1}{3}$ do que havia sobrado; e, no terceiro dia, concluiu os últimos $24$ processos restantes. O número total de processos contidos no lote original era igual a:
 
 * **A)** $50$
@@ -511,7 +511,7 @@ Em problemas que constroem sequências infinitas repetindo ciclicamente um conju
 ---
 
 ### Teste 079
-**(FCC – TCE-GO – Analista de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Um auditor do TCE-GO foi designado para realizar a conferência documental de uma amostra de processos de licitação municipal. No primeiro dia de trabalho, o auditor analisou $\frac{1}{3}$ do total de processos da amostra. No segundo dia, analisou $\frac{3}{5}$ dos processos **restantes**. No terceiro dia, finalizou a conferência analisando os últimos 48 processos.
 
 O número total de processos contidos originalmente nessa amostra era:
@@ -549,7 +549,7 @@ O número total de processos contidos originalmente nessa amostra era:
 ---
 
 ### Teste 080
-**(FCC – TRT – Técnico Judiciário)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Dois técnicos de controle externo, Bruno e Camila, foram encarregados de digitalizar e indexar um acervo de processos arquivados. Trabalhando sozinho, Bruno realiza todo o serviço em 6 horas. Camila, trabalhando sozinha, executa o mesmo serviço em 4 horas. 
 
 Se Bruno e Camila trabalharem juntos, no mesmo ritmo de produtividade constante, o tempo necessário para digitalizar e indexar todo o acervo será de:
@@ -590,7 +590,7 @@ Se Bruno e Camila trabalharem juntos, no mesmo ritmo de produtividade constante,
 ---
 
 ### Teste 081
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere a sequência infinita de letras:  
 $$T, C, E, G, O, I, A, S, T, C, E, G, O, I, A, S, T, C, E, ...$$  
 formada pela repetição contínua do bloco de palavras *"TCEGOIAS"*. A letra que ocupa a 2027ª posição dessa sequência é:

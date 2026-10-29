@@ -100,54 +100,54 @@ flowchart TD
 ---
 
 ### Teste 012
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
-O processo de Engenharia de Requisitos compreende um conjunto de atividades estruturadas destinadas a descobrir, analisar, documentar e manter os requisitos de um sistema de software. A atividade desse processo cuja finalidade precípua é demonstrar formalmente que a especificação de requisitos define com precisão o sistema que os clientes realmente desejam e necessitam, identificando ambiguidades, omissões e inconsistências antes da codificação, denomina-se:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Durante os trabalhos de auditoria de conformidade em um sistema de processo eletrônico em fase de homologação em um Tribunal de Contas, a equipe de fiscalização constatou que diversos módulos entregues funcionavam sem erros computacionais aparentes, mas executavam regras de negócio em desacordo com as reais necessidades dos auditores usuários e com os normativos regimentais vigentes. No âmbito da Engenharia de Requisitos, a atividade formal destinada precípua e especificamente a demonstrar se a especificação reflete com exatidão o sistema de que os usuários de fato necessitam — identificando ambiguidades, omissões e conflitos antes ou durante a fase de aceite definitivo — denomina-se:
 
-* **A)** Elicitação de requisitos.
-* **B)** Validação de requisitos.
-* **C)** Rastreabilidade de requisitos.
-* **D)** Gerenciamento de mudanças.
-* **E)** Modelagem de domínio.
+* **A)** Validação de requisitos.
+* **B)** Elicitação de requisitos.
+* **C)** Rastreabilidade horizontal de requisitos.
+* **D)** Gerenciamento de mudanças de escopo.
+* **E)** Engenharia reversa de requisitos.
 
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** A Elicitação é a atividade inicial de descoberta e levantamento dos requisitos junto aos stakeholders.
-> - **B) Correta.** A Validação de Requisitos verifica se o documento de especificação reflete as reais necessidades dos clientes e usuários (*construir o sistema certo*), detectando erros, omissões e conflitos antes do desenvolvimento.
-> - **C) Incorreta.** A Rastreabilidade mantém os vínculos históricos entre requisitos, código, testes e artefatos de negócio.
-> - **D) Incorreta.** O Gerenciamento de Mudanças lida com o controle e impacto das solicitações de alteração ao longo do ciclo de vida.
-> - **E) Incorreta.** A Modelagem de Domínio foca na representação das entidades conceituais e regras do negócio.
+> - **A) CORRETA.** A **Validação de Requisitos** tem como objetivo demonstrar que a especificação reflete as reais necessidades dos clientes e usuários operacionais (*"construir o sistema certo"*). Ela identifica omissões, ambiguidades e inconsistências antes ou durante o processo de aceite, assegurando a aderência entre a solução entregue e os objetivos de negócio e institucionais.
+> - **B) Incorreta.** A Elicitação é a atividade inicial de descoberta, levantamento e coleta das demandas junto às partes interessadas (*stakeholders*).
+> - **C) Incorreta.** A Rastreabilidade trata da vinculação lógica e histórica entre requisitos, artefatos de desenho, código e testes.
+> - **D) Incorreta.** O Gerenciamento de Mudanças compreende políticas e fluxos para analisar o impacto e controlar solicitações de modificação ao longo do ciclo de vida.
+> - **E) Incorreta.** A Engenharia Reversa consiste em examinar o software existente para inferir ou documentar os requisitos a partir de seus componentes técnicos ou códigos.
 >
-> **Gabarito: B**
+> **Gabarito: A**
 
 ---
 
 ### Teste 013
-**(FCC – SEFAZ – Auditor Fiscal da Receita Estadual)**  
-Na especificação de requisitos de software segundo a taxonomia clássica de Ian Sommerville, os requisitos são categorizados em Requisitos Funcionais (RF) e Requisitos Não Funcionais (RNF). Considere os seguintes requisitos elicitados para um sistema corporativo:  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Em uma auditoria de governança de tecnologia da informação realizada em um órgão público estadual, a equipe de controle examinou o Termo de Referência da contratação de uma nova plataforma de auditoria eletrônica. No documento de especificação, segundo a taxonomia clássica de Engenharia de Software preconizada por Ian Sommerville, foram identificados os seguintes itens contratuais:
 
-I. O sistema deve emitir o relatório de arrecadação diária consolidado por região fiscal às 18h de cada dia útil.  
-II. A comunicação entre o cliente web e a API de backend deve utilizar criptografia TLS versão 1.3 com certificados digitais padrão ICP-Brasil.  
-III. O tempo de resposta para a consulta de certidões fiscais não deve exceder 2 segundos para 95% das requisições sob carga de 1.000 usuários simultâneos.  
+I. O módulo de fiscalização deve gerar e disponibilizar para download relatórios consolidados de achados de auditoria em formatos abertos (CSV e JSON) ao término de cada procedimento de inspeção.  
+II. O tráfego de dados entre as estações dos auditores e o cluster corporativo deve utilizar protocolo TLS versão 1.3 com criptografia de chave pública baseada em certificados digitais padrão ICP-Brasil.  
+III. O tempo de resposta para a consulta de histórico processual e cruzamento de dados na base fiscal não deve ultrapassar 3 segundos para 95% das consultas realizadas com até 500 conexões concorrentes.  
 
-A correta classificação dos itens I, II e III é, respectivamente:
+Com base na taxonomia clássica de requisitos de software, a correta classificação dos itens I, II e III é, respectivamente:
 
-* **A)** RF, RF e RNF.
-* **B)** RNF, RF e RNF.
-* **C)** RF, RNF e RNF.
-* **D)** RNF, RNF e RF.
-* **E)** RF, RNF e RF.
+* **A)** Requisito Funcional, Requisito Funcional e Requisito Não Funcional.
+* **B)** Requisito Não Funcional, Requisito Funcional e Requisito Não Funcional.
+* **C)** Requisito Funcional, Requisito Não Funcional e Requisito Não Funcional.
+* **D)** Requisito Não Funcional, Requisito Não Funcional e Requisito Funcional.
+* **E)** Requisito Funcional, Requisito Não Funcional e Requisito Funcional.
 
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **I. Requisito Funcional (RF):** Descreve uma função/serviço que o sistema deve executar (emitir relatório específico em determinado horário).
-> - **II. Requisito Não Funcional (RNF):** Estabelece uma restrição técnica de segurança e protocolo de comunicação (segurança / conformidade).
-> - **III. Requisito Não Funcional (RNF):** Trata-se de uma restrição e atributo de qualidade relativo ao desempenho/tempo de resposta e escalabilidade sob carga.
+> - **I. Requisito Funcional (RF):** Descreve uma funcionalidade ou serviço que o sistema deve prover ativamente ao usuário (gerar e exportar relatórios consolidados em formatos abertos ao fim da inspeção).
+> - **II. Requisito Não Funcional (RNF):** Estabelece restrição de segurança, protocolo de comunicação e conformidade técnica (TLS 1.3 e certificados ICP-Brasil), limitando a forma como a arquitetura opera sem representar uma ação funcional direta do usuário.
+> - **III. Requisito Não Funcional (RNF):** Consiste em atributo de qualidade relacionado ao desempenho (*performance*) e capacidade de vazão sob carga de acessos simultâneos (tempo limite de 3 segundos para 95% das consultas).
 >
 > **Gabarito: C**
 
@@ -208,77 +208,77 @@ $$\text{"Como [papel de usuário], eu quero [funcionalidade/ação], para que [b
 ---
 
 ### Teste 014
-**(FCC – TCE-GO – Analista de Controle Externo / TI)**  
-Em um diagrama de casos de uso da UML (versão 2.5), os relacionamentos entre casos de uso podem ser representados por estereótipos como «include» e «extend». A respeito desses relacionamentos, é correto afirmar que:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Ao auditar os artefatos de desenho e análise orientada a objetos de um sistema integrado de tramitação processual no âmbito de um Tribunal de Contas, um Auditor de TI inspecionou o diagrama de casos de uso modelado na notação UML 2.5. No diagrama, observou o emprego dos relacionamentos com estereótipos «include» e «extend». De acordo com as especificações formais da UML, é correto afirmar:
 
-* **A)** O relacionamento «extend» representa uma inclusão incondicional e obrigatória de comportamento em todos os fluxos de execução do caso de uso base considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
-* **B)** O relacionamento «include» indica que a execução do caso de uso incluído é obrigatória para que o caso de uso base seja completado com sucesso, enquanto o relacionamento «extend» representa um comportamento opcional ou condicional que é disparado a partir de um ponto de extensão.
-* **C)** As setas tracejadas de ambos os relacionamentos apontam sempre do caso de uso estendido/incluído em direção ao ator primário.
-* **D)** O relacionamento «include» só pode ocorrer entre atores do sistema, não entre casos de uso.
-* **E)** O relacionamento «extend» impede a ocorrência de cenários alternativos no caso de uso base.
+* **A)** O relacionamento «include» indica que o caso de uso base depende da execução do caso de uso incluído para completar seu objetivo com sucesso, ao passo que o relacionamento «extend» especifica um comportamento condicional e acessório disparado a partir de um ponto de extensão.
+* **B)** O relacionamento «extend» estabelece uma inclusão incondicional de comportamento executada obrigatoriamente em todos os cenários de execução do caso de uso base.
+* **C)** No relacionamento «extend», o caso de uso base conhece previamente os detalhes e a estrutura do caso de uso extensor, exigindo que a seta tracejada aponte do caso base para o extensor.
+* **D)** Ambos os relacionamentos («include» e «extend») conectam atores primários a casos de uso abstratos, sendo vedado seu uso na comunicação direta entre casos de uso concretos.
+* **E)** O relacionamento «include» somente pode ser utilizado para descrever situações excepcionais de erro de negócio ou falhas de infraestrutura.
 
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** A inclusão incondicional e obrigatória de comportamento define o relacionamento de inclusão (`«include»`), e não de extensão (`«extend»`).
-> - **B) CORRETA.** Nos termos formais da especificação UML 2.5: o estereótipo `«include»` modela uma dependência obrigatória e incondicional (o caso base não atinge seu objetivo sem a execução do caso incluído); por sua vez, o estereótipo `«extend»` modela um comportamento acessório, opcional ou excepcional, cuja ativação depende da ocorrência de uma condição em um ponto de extensão (*extension point*) pré-definido.
-> - **C) Incorreta.** Os relacionamentos `«include»` e `«extend»` interligam casos de uso entre si, jamais casos de uso a atores primários.
-> - **D) Incorreta.** O relacionamento entre atores dá-se por herança/generalização; o `«include»` é exclusivo entre casos de uso.
-> - **E) Incorreta.** O `«extend»` apenas adiciona funcionalidade complementar opcional, em nada restringindo os caminhos alternativos do caso base.
-> 
-> **Gabarito: B**
+> - **A) CORRETA.** Nos termos da OMG UML 2.5: o estereótipo `«include»` modela dependência obrigatória e incondicional (o fluxo do caso base incorpora o comportamento do caso incluído como etapa indispensável); já o estereótipo `«extend»` modela comportamento acessório ou alternativo que só é acionado se determinada condição pré-definida for satisfeita em um ponto de extensão (*extension point*).
+> - **B) Incorreta.** Inversão conceitual: a inclusão incondicional e obrigatória caracteriza o `«include»`, não o `«extend»`.
+> - **C) Incorreta.** O caso de uso base é independente do caso extensor e não precisa conhecer seus detalhes; na notação gráfica, a seta tracejada do `«extend»` aponta do caso de uso extensor em direção ao caso de uso base.
+> - **D) Incorreta.** Os estereótipos `«include»` e `«extend»` conectam casos de uso entre si, nunca atores a casos de uso. A conexão de atores a casos de uso dá-se por associação simples ou generalização entre atores.
+> - **E) Incorreta.** O `«include»` é utilizado para reaproveitar comportamentos comuns e obrigatórios compartilhados entre casos de uso (como autenticação ou validação de sessão), e não apenas para falhas.
+>
+> **Gabarito: A**
 
 ---
 
 ### Teste 015
-**(FCC – DPE – Analista de Sistemas)**  
-No contexto do desenvolvimento ágil, Ron Jeffries sintetizou os componentes essenciais de uma História de Usuário (*User Story*) por meio da abordagem dos "Três Cs": *Card*, *Conversation* e *Confirmation*. O papel correspondente ao "Confirmation" estabelece que:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Em um projeto de modernização de sistemas de fiscalização em um Tribunal de Contas gerido por metodologia ágil, a equipe técnica adota o modelo dos "Três Cs" (*Card*, *Conversation* e *Confirmation*), proposto por Ron Jeffries, para estruturar e validar as Histórias de Usuário (*User Stories*). Durante o planejamento da iteração, o papel correspondente ao componente "Confirmation" estabelece que:
 
-* **A)** o gerente de projetos deve assinar formalmente uma ordem de serviço em cartório antes do início do Sprint no âmbito da administração pública direta e indireta no âmbito da administração pública direta e indireta.
-* **B)** a História de Usuário deve conter critérios de aceite explícitos e verificáveis que permitam ao Product Owner e ao time comprovar que a funcionalidade foi entregue conforme o esperado.
-* **C)** deve ser realizada uma reunião de confirmação diária de 2 horas entre todos os diretores da organização.
-* **D)** a história deve ser impressa em três cartões coloridos fixados no quadro Kanban.
-* **E)** o código-fonte deve ser compilado e confirmado em três ambientes de nuvem distintos antes do commit.
+* **A)** a história de usuário deve contemplar critérios de aceite objetivos e verificáveis que permitam ao Product Owner e ao time comprovar que a funcionalidade foi satisfatoriamente implementada.
+* **B)** o Scrum Master deve obter autorização prévia e expressa do patrocinador do projeto mediante termo formal assinado antes da inclusão de cada história no Sprint Backlog.
+* **C)** o detalhamento completo e definitivo de todos os cenários da história deve ser redigido e congelado no cartão físico antes do início de qualquer diálogo técnico.
+* **D)** a validação da entrega deve ocorrer exclusivamente por meio de testes funcionais realizados em ambiente de produção pelos usuários finais após o encerramento do Sprint.
+* **E)** os desenvolvedores devem demonstrar a história de usuário ao comitê diretivo da organização em sessões deliberativas com duração mínima de quatro horas.
 
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Prática burocrática alheia ao desenvolvimento ágil.
-> - **B) Correta.** O "Confirmation" (Confirmação) representa os critérios de aceite (*acceptance criteria*) que formalizam os testes e condições que devem ser satisfeitos para que a história seja considerada aceita pelo Product Owner.
-> - **C) Incorreta.** Não existe tal reunião de 2 horas na definição dos Três Cs.
-> - **D) Incorreta.** O "Card" (Cartão) é apenas o suporte inicial resumido da história; o "Confirmation" não é a impressão física de três cartões.
-> - **E) Incorreta.** Descrição técnica desprovida de conexão com o framework de histórias de usuário de Jeffries.
+> - **A) CORRETA.** Na abordagem dos "Três Cs" de Ron Jeffries, o **Confirmation** (Confirmação) consubstancia-se nos **critérios de aceite** (*acceptance criteria*) acordados entre o cliente/Product Owner e os desenvolvedores. Tais critérios formalizam os testes e condições que devem ser cumpridos para assegurar que o requisito atendeu ao propósito de negócio.
+> - **B) Incorreta.** Falsa burocracia: a dinâmica ágil dispensa termos formais de autorização cartorial ou assinaturas para movimentar itens no Backlog.
+> - **C) Incorreta.** O componente *Card* (Cartão) contém apenas um resumo da intenção de negócio; os detalhes emergem da *Conversation* (Conversa contínua), e não de um documento congelado previamente.
+> - **D) Incorreta.** A confirmação não se restringe a testes em produção após a Sprint; os critérios de aceite balizam testes automatizados e unitários no fluxo regular de integração contínua (CI/CD) antes da entrega.
+> - **E) Incorreta.** A reunião de validação da iteração é a Sprint Review, voltada à inspeção do incremento, sem exigência de formalismos excessivos ou durações mínimas arbitrárias de 4 horas.
 >
-> **Gabarito: B**
+> **Gabarito: A**
 
 ---
 
 ### Teste 016
-**(FCC – SEFAZ – Auditor Fiscal da Receita Estadual)**  
-Ao redigir Histórias de Usuário (*User Stories*) em projetos orientados por metodologias ágeis, os analistas empregam o acrônimo INVEST para avaliar a qualidade técnica das histórias escritas. A letra "N" do referido acrônimo estabelece que a história deve ser:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Ao revisar as histórias de usuário registradas no Backlog de um projeto de sistema de controle externo desenvolvido com Scrum, o Auditor de TI constatou que a equipe aplicou os critérios do modelo mnemônico INVEST (proposto por Bill Wake e Mike Cohn) para aferir a qualidade da escrita dos itens. De acordo com o referido modelo, a diretriz correspondente à letra "N" (*Negotiable*) orienta que:
 
-* **A)** Notável (*Notable*), ou seja, deve figurar obrigatoriamente entre as três principais prioridades estratégicas da diretoria da organização no âmbito da administração pública direta e indireta.
-* **B)** Negociável (*Negotiable*), demonstrando que a história não representa um contrato rígido ou imutável, devendo deixar espaço para debate e refinamento entre o cliente e os desenvolvedores.
-* **C)** Normalizada (*Normalized*), seguindo rigorosamente a terceira forma normal de banco de dados relacional.
-* **D)** Nominal (*Nominal*), contendo a assinatura formal em cartório do patrocinador do projeto antes do início de cada Sprint.
-* **E)** Não-funcional (*Non-functional*), priorizando exclusivamente requisitos de segurança e volumetria de infraestrutura.
+* **A)** a história de usuário deve registrar a essência da funcionalidade sem atuar como um contrato fechado ou imutável, propiciando espaço para diálogo e refinamento entre o Product Owner e a equipe técnica.
+* **B)** as datas de entrega e os custos associados à implementação da história de usuário podem ser renegociados livremente com o comitê diretivo após o fechamento do Sprint.
+* **C)** a história de usuário deve conter a descrição minuciosa das estruturas de tabelas e cláusulas SQL do banco de dados relacional para viabilizar negociação contratual.
+* **D)** o escopo do incremento deve ser homologado mediante termo aditivo formal registrado em ata da Assembleia Geral dos auditores.
+* **E)** a história de usuário deve ser descrita de maneira sucinta a ponto de dispensar qualquer estimativa de esforço ou validação por critérios de aceite.
 
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** O "N" não significa notável na metodologia ágil de escrita de requisitos.
-> - **B) CORRETA.** No modelo mnemônico **INVEST** (proposto por Bill Wake e popularizado por Mike Cohn), a letra **N** representa **Negotiable (Negociável)**. As Histórias de Usuário são concebidas como convites para conversas futuras; elas capturam a intenção do usuário sem engessá-la como um contrato rígido e definitivo, mantendo flexibilidade para negociação técnica durante o planejamento e a execução da iteração.
-> - **C) Incorreta.** Normalização de banco de dados é um conceito puramente relacional de persistência física, alheio à técnica de redação de histórias.
-> - **D) Incorreta.** A exigência de validação cartorial contradiz frontalmente a premissa de colaboração sobre negociação contratual expressa no Manifesto Ágil.
-> - **E) Incorreta.** Histórias de usuário descrevem prioritariamente funcionalidades de negócio voltadas a entregar valor direto aos usuários.
-> 
-> **Gabarito: B**
+> - **A) CORRETA.** No padrão **INVEST**, a letra **N** corresponde a **Negotiable (Negociável)**. As Histórias de Usuário são concebidas como promessas para conversas futuras; elas capturam a intenção do usuário sem engessá-la como um contrato rígido, permitindo que os detalhes de implementação e regras de negócio sejam dialogados e lapidados colaborativamente durante o refinamento e a Sprint.
+> - **B) Incorreta.** Inversão de conceito: negociável refere-se à flexibilidade do escopo funcional no diálogo da equipe, não a prorrogações unilaterais de prazos ou orçamentos junto à diretoria.
+> - **C) Incorreta.** Mistura indevida: a especificação técnica de persistência ou tabelas SQL afasta o foco do valor de negócio da história e viola o princípio de simplicidade do desenvolvimento ágil.
+> - **D) Incorreta.** Falsa burocracia incompatível com os preceitos ágeis de colaboração e adaptabilidade sobre negociação contratual.
+> - **E) Incorreta.** Viola as demais letras do INVEST: a história deve continuar sendo Estimável (*Estimable*) e Testável (*Testable*).
+>
+> **Gabarito: A**
 
 ---
 
@@ -350,77 +350,75 @@ classDiagram
 ---
 
 ### Teste 017
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
-A linguagem UML (Unified Modeling Language, versão 2.5) define 14 diagramas oficiais divididos em duas grandes categorias: Diagramas Estruturais e Diagramas Comportamentais (com o subgrupo de Interação). Dentre os diagramas listados a seguir, pertencem exclusivamente à categoria dos **Diagramas Estruturais**:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Em conformidade com a especificação normativa da OMG para a linguagem UML 2.5 (*Unified Modeling Language*), os diagramas oficiais são classificados em duas categorias mestras: Diagramas Estruturais (estáticos) e Diagramas Comportamentais (dinâmicos, subdivididos em diagramas de interação). Na elaboração de um relatório de auditoria de arquitetura de software, o auditor deve identificar quais modelos refletem aspectos estáticos da topologia do sistema. Dentre os diagramas listados a seguir, pertencem exclusivamente à categoria dos **Diagramas Estruturais**:
 
 * **A)** Diagrama de Classes, Diagrama de Sequência e Diagrama de Atividades.
-* **B)** Diagrama de Casos de Uso, Diagrama de Máquina de Estados e Diagrama de Comunicação no âmbito da administração pública direta e indireta.
-* **C)** Diagrama de Classes, Diagrama de Componentes e Diagrama de Implantação (*Deployment Diagram*).
+* **B)** Diagrama de Casos de Uso, Diagrama de Máquina de Estados e Diagrama de Comunicação.
+* **C)** Diagrama de Classes, Diagrama de Componentes e Diagrama de Implantação (*Deployment*).
 * **D)** Diagrama de Objetos, Diagrama de Atividades e Diagrama de Pacotes.
-* **E)** Diagrama de Sequência, Diagrama de Interação Geral e Diagrama de Tempo.
+* **E)** Diagrama de Sequência, Diagrama de Interação Geral e Diagrama de Tempo (*Timing*).
 
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Sequência e Atividades são comportamentais.
-> - **B) Incorreta.** Todos os três listados são comportamentais.
-> - **C) Correta.** Classes, Componentes e Implantação (*Deployment*) são todos diagramas estáticos/estruturais da UML 2.5.
+> - **A) Incorreta.** Diagrama de Sequência e Diagrama de Atividades são diagramas comportamentais (sendo o de Sequência um diagrama de interação).
+> - **B) Incorreta.** Todos os três pertencem à categoria de diagramas comportamentais.
+> - **C) CORRETA.** Na taxonomia formal da UML 2.5, **Classes**, **Componentes** e **Implantação (*Deployment*)** são diagramas puramente **estruturais** (estáticos), retratando a organização física, lógica e de hardware do sistema sem representar fluxos temporais de execução.
 > - **D) Incorreta.** O Diagrama de Atividades é comportamental.
-> - **E) Incorreta.** São diagramas de interação, que constituem uma subclasse dos comportamentais.
+> - **E) Incorreta.** Diagrama de Sequência, Diagrama de Interação Geral e Diagrama de Tempo são diagramas de interação (subgrupo dos comportamentais).
 >
 > **Gabarito: C**
 
 ---
 
 ### Teste 018
-**(FCC – TRF – Analista Judiciário / TI)**  
-No Diagrama de Classes da UML 2.5, os relacionamentos de associação podem assumir formas especializadas de acoplamento do tipo Todo-Parte conhecidas como Agregação e Composição. Sobre esses conceitos, assinale a afirmação correta:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No Diagrama de Classes da UML 2.5, os relacionamentos de associação podem assumir formas especializadas de acoplamento do tipo "Todo-Parte", conhecidas tecnicamente como Agregação e Composição. Em uma análise técnica dos modelos conceituais de um sistema corporativo do Tribunal de Contas, a caracterização correta desses conceitos estabelece que:
 
-* **A)** Na Composição, a destruição do objeto que representa o "Todo" acarreta obrigatoriamente a destruição dos objetos que compõem suas "Partes", caracterizando um ciclo de vida estritamente compartilhado e dependente.
-* **B)** A Agregação é visualmente representada por um losango preenchido em preto conectado ao objeto da "Parte".
-* **C)** Na Composição, as "Partes" podem pertencer simultaneamente a múltiplos objetos "Todo" em tempo de execução.
-* **D)** A Agregação representa um acoplamento mais forte e rígido do que a Composição, exigindo obrigatoriamente multiplicidade de 1..1.
-* **E)** Na UML, a generalização entre classes concretas substitui integralmente a necessidade de composição quando se deseja implementar herança múltipla em estrita conformidade com as normas legais e regulamentares aplicáveis.
+* **A)** na Composição, a destruição do objeto que representa o "Todo" acarreta compulsoriamente a eliminação dos objetos que constituem suas "Partes", decorrente de um ciclo de vida estritamente compartilhado e dependente.
+* **B)** a Agregação é graficamente representada por um losango preenchido em preto conectado à extremidade do objeto que atua como "Parte".
+* **C)** na Composição, um mesmo objeto "Parte" pode estar vinculado concorrentemente a múltiplos objetos que exercem o papel de "Todo" em tempo de execução.
+* **D)** a Agregação estabelece acoplamento mais forte e rígido do que a Composição, impondo multiplicidade obrigatória e exclusiva de 1..1 no lado da Parte.
+* **E)** a Composição substitui inteiramente o princípio de herança ao vedar que as classes que representam as partes implementem interfaces polimórficas.
 
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) CORRETA.** A **Composição** é uma variante forte da relação Todo-Parte caracterizada por forte dependência existencial e ciclo de vida compartilhado: o objeto "Parte" pertence exclusivamente a um único "Todo" e, caso o objeto "Todo" seja destruído ou excluído da memória, todas as suas "Partes" integrantes são destruídas em cascata.
-> - **B) Incorreta.** O losango preenchido em preto (sólido) representa a Composição; a Agregação é graficamente denotada por um losango vazado (branco).
-> - **C) Incorreta.** Na Composição, a Parte só pode estar atrelada a no máximo um Todo de cada vez (multiplicidade máxima 1 do lado do Todo).
-> - **D) Incorreta.** A Composição é que constitui acoplamento forte; a Agregação constitui acoplamento fraco com partes independentes.
-> - **E) Incorreta.** Generalização modela relação de herança funcional ("é um"), ao passo que a composição expressa posse ou contenção estrutural ("tem um").
-> 
+> - **A) CORRETA.** A **Composição** (agregação forte) caracteriza-se pela dependência existencial estrita entre o Todo e as Partes: o objeto "Parte" não sobrevive isoladamente à extinção do objeto "Todo" (possuem ciclo de vida compartilhado e morte em cascata). Exemplo clássico: um *Processo* e suas *Peças Processuais*.
+> - **B) Incorreta.** A Agregação é representada por um losango **vazado (branco)** posicionado junto ao Todo; o losango preenchido em preto (sólido) denota a Composição.
+> - **C) Incorreta.** Na Composição, a "Parte" pode pertencer a no máximo um "Todo" por vez (a multiplicidade máxima junto ao Todo é estritamente 1).
+> - **D) Incorreta.** Inversão: a Composição é o relacionamento de acoplamento forte/rígido; a Agregação é uma associação Todo-Parte fraca, onde as partes mantêm ciclo de vida autônomo.
+> - **E) Incorreta.** A composição não restringe a utilização de herança ou polimorfismo entre as classes do modelo.
+>
 > **Gabarito: A**
 
 ---
 
 ### Teste 019
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
-No Diagrama de Sequência da UML 2.5, utilizado para modelar a dinâmica de interação temporal entre objetos, a notação gráfica para representar uma mensagem assíncrona (na qual o remetente envia o estímulo e prossegue imediatamente com seu processamento sem aguardar a conclusão do receptor) é:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Durante a auditoria técnica de um barramento de mensageria corporativo, os auditores examinaram o Diagrama de Sequência da UML 2.5 que documenta a comunicação entre microsserviços. No referido diagrama, a notação gráfica oficial empregada para representar o disparo de uma mensagem assíncrona — na qual a linha de vida remetente envia o sinal e prossegue imediatamente com sua execução sem bloquear ou aguardar a resposta do receptor — é:
 
-* **A)** Uma linha contínua com uma seta preenchida sólida ($lacktriangleright$) no âmbito da administração pública direta e indireta.
-* **B)** Uma linha contínua terminada por uma seta aberta em forma de ponta de flecha ($
-ightarrow$).
-* **C)** Uma linha tracejada terminada por um círculo preenchido.
-* **D)** Um losango preenchido na extremidade do emissor.
-* **E)** Uma linha dupla contínua sem extremidades direcionais.
+* **A)** uma linha contínua finalizada por uma seta preenchida sólida.
+* **B)** uma linha contínua terminada por uma seta aberta em ponta de flecha.
+* **C)** uma linha tracejada terminada por uma seta aberta em ponta de flecha.
+* **D)** uma linha tracejada finalizada por um círculo preenchido em preto.
+* **E)** uma linha contínua encimada por um losango vazado na extremidade de origem.
 
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** A seta preenchida e sólida com linha contínua representa uma chamada de procedimento síncrona (*synchronous call*).
-> - **B) Correta.** Mensagens assíncronas (*asynchronous signals/messages*) são representadas na UML por uma linha contínua finalizada por uma seta aberta em forma de ponta de flecha ($
-ightarrow$).
-> - **C) Incorreta.** Linha tracejada com seta aberta representa mensagens de retorno (*reply/return messages*).
-> - **D) Incorreta.** O losango preenchido denota composição no Diagrama de Classes.
-> - **E) Incorreta.** Inexiste essa notação para mensagens em diagramas de sequência UML.
+> - **A) Incorreta.** Linha contínua com seta preenchida sólida representa chamada de operação **síncrona** (*synchronous call*), na qual o remetente suspende a execução e aguarda o retorno.
+> - **B) CORRETA.** Conforme a notação normativa da UML 2.5, mensagens **assíncronas** (*asynchronous signals/messages*) são desenhadas por uma **linha contínua finalizada por uma seta aberta** em forma de ponta de flecha ($ightarrow$). O remetente dispara a mensagem e retoma seu processamento sem bloqueio.
+> - **C) Incorreta.** Linha tracejada com seta aberta representa mensagens de **retorno** (*reply/return messages*) provenientes de chamadas prévias.
+> - **D) Incorreta.** Inexiste essa notação para troca de mensagens em diagramas de sequência da UML.
+> - **E) Incorreta.** Losangos são utilizados em diagramas estruturais (associações de agregação e composição), não como pontas de mensagens de sequência.
 >
 > **Gabarito: B**
 
@@ -473,77 +471,77 @@ flowchart TD
 ---
 
 ### Teste 020
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
-Na notação BPMN 2.0 (*Business Process Model and Notation*), as tarefas são atividades atômicas que compõem o fluxo do processo. A tarefa que representa um trabalho executado por um serviço automatizado (como um Web Service, API externa ou rotina de backend) sem qualquer intervenção humana direta é denominada:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Na modelagem de processos de trabalho de fiscalização e instrução com a notação BPMN 2.0 (*Business Process Model and Notation*), as tarefas representam atividades de natureza atômica dentro do fluxo. A tarefa que representa um trabalho executado de maneira totalmente automatizada por um serviço de tecnologia da informação (como uma invocação de API REST ou execução de um Web Service) sem qualquer intervenção humana direta classifica-se como:
 
 * **A)** *User Task* (Tarefa de Usuário).
 * **B)** *Manual Task* (Tarefa Manual).
 * **C)** *Service Task* (Tarefa de Serviço).
 * **D)** *Business Rule Task* (Tarefa de Regra de Negócio).
-* **E)** *Script Task* (Tarefa de Script executada pelo próprio motor BPMN).
+* **E)** *Script Task* (Tarefa de Script).
 
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** A *User Task* é realizada por um ser humano com o auxílio de uma interface de software.
-> - **B) Incorreta.** A *Manual Task* é executada fisicamente por um ser humano sem assistência de qualquer sistema ou motor de processo.
-> - **C) Correta.** A *Service Task* (representada pelo ícone de engrenagens no canto superior esquerdo da atividade) representa a invocação de um serviço externo automatizado, como uma chamada de API REST ou Web Service SOAP.
-> - **D) Incorreta.** A *Business Rule Task* é específica para execução de regras corporativas via motor de decisão (DMN/BRMS).
-> - **E) Incorreta.** A *Script Task* executa scripts diretamente interpretados pelo próprio motor BPMN, diferindo da invocação de serviços externos via *Service Task*.
+> - **A) Incorreta.** A *User Task* (ícone de busto/usuário) é executada por um ser humano com suporte direto de uma aplicação de software.
+> - **B) Incorreta.** A *Manual Task* (ícone de mãozinha) é realizada manualmente por uma pessoa sem assistência de qualquer motor de fluxo ou sistema de TI.
+> - **C) CORRETA.** No padrão BPMN 2.0, a **Service Task** (marcada com um ícone de engrenagens no canto superior esquerdo) é utilizada para modelar tarefas executadas compulsoriamente por serviços automatizados externos, como uma chamada síncrona/assíncrona a um Web Service SOAP ou API REST.
+> - **D) Incorreta.** A *Business Rule Task* destina-se à consulta ou cálculo executado por um motor de regras de negócio corporativo (BRMS / DMN).
+> - **E) Incorreta.** A *Script Task* executa scripts de código interpretados e processados diretamente pelo próprio motor de execução BPMN (sem integrar serviços externos).
 >
 > **Gabarito: C**
 
 ---
 
 ### Teste 021
-**(FCC – TCE-GO – Técnico de Controle Externo / TI)**  
-Na modelagem de processos de negócio com a notação BPMN 2.0, um analista precisa representar uma bifurcação no fluxo em que duas atividades subsequentes devem ser executadas simultaneamente (em paralelo), independentemente de qualquer condição ou teste de dados. Para essa finalidade, deve-se empregar o gateway:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Ao mapear o fluxo de processamento de denúncias no Tribunal de Contas com base no padrão BPMN 2.0, o Auditor de TI necessita representar uma bifurcação decisória na qual duas rotas de fiscalização subsequentes devam ser iniciadas e executadas concorrentemente (em paralelo), de modo incondicional e independente do teor dos dados da petição. Para atender formalmente a esse requisito de modelagem, deve-se empregar o gateway:
 
-* **A)** Exclusivo baseado em dados (marcado com um "X").
-* **B)** Paralelo (marcado com um sinal de soma "+").
+* **A)** Paralelo (marcado com um sinal de adição "+").
+* **B)** Exclusivo baseado em dados (marcado com um "X" ou losango vazio).
 * **C)** Inclusivo (marcado com um círculo "O").
-* **D)** Complexo (marcado com um asterisco "*").
-* **E)** Baseado em eventos (marcado com um pentágono).
+* **D)** Baseado em eventos (marcado com um pentágono).
+* **E)** Complexo (marcado com um asterisco "*").
 
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** O gateway exclusivo (XOR) toma estritamente uma única rota de saída com base em condições de dados mutuamente excludentes.
-> - **B) CORRETA.** O **Gateway Paralelo (AND)**, graficamente identificado por um **sinal de adição "+""** no interior do losango, é empregado para sincronizar ou dividir o fluxo de controle em múltiplos ramos que são ativados simultaneamente e concorrentemente, sem avaliação de testes booleanos de dados.
-> - **C) Incorreta.** O gateway inclusivo (OR - círculo) pode disparar um ou mais ramos, mas subordina-se à validação de condições lógicas em dados.
-> - **D) Incorreta.** O gateway complexo (*) atende a cenários avançados não cobertos pelos gateways padrão.
-> - **E) Incorreta.** O gateway baseado em eventos decide o caminho a partir da ocorrência do primeiro evento disparador (mensagem ou relógio).
-> 
-> **Gabarito: B**
+> - **A) CORRETA.** No BPMN 2.0, o **Gateway Paralelo (AND)**, graficamente caracterizado pelo marcador de **adição "+"** no interior do losango, é empregado para bifurcar o fluxo em múltiplos caminhos concorrentes que são executados simultaneamente e incondicionalmente (sem avaliação de testes lógicos ou dados de entrada). Na junção (*join*), ele sincroniza os fluxos aguardando a finalização de todos os ramos.
+> - **B) Incorreta.** O Gateway Exclusivo (XOR - "X") roteia o fluxo para rigorosamente uma única rota de saída com base em condições mutuamente excludentes.
+> - **C) Incorreta.** O Gateway Inclusivo (OR - "O") pode disparar múltiplos caminhos, porém subordina cada ramo de saída à avaliação de expressões booleanas sobre dados.
+> - **D) Incorreta.** O Gateway Baseado em Eventos direciona o fluxo com base na ocorrência cronológica do primeiro evento intermediário registrado (como recepção de mensagem ou disparo de temporizador).
+> - **E) Incorreta.** O Gateway Complexo (*) destina-se a comportamentos de sincronização avançados que não se enquadram nos gateways tradicionais.
+>
+> **Gabarito: A**
 
 ---
 
 ### Teste 022
-**(FCC – TCE – Auditor de Controle Externo / TI)**  
-No que diz respeito à notação BPMN 2.0 e suas regras formais de modelagem de processos corporativos, assinale a afirmativa correta:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A respeito das regras sintáticas e estruturas de particionamento estabelecidas pela especificação BPMN 2.0 para modelagem e auditoria de processos de negócio corporativos, assinale a afirmativa correta:
 
-* **A)** Um Fluxo de Sequência (*Sequence Flow*) pode conectar diretamente uma atividade contida em uma Piscina (*Pool*) a uma atividade contida em outra Piscina distinta no âmbito da administração pública direta e indireta.
-* **B)** Uma Piscina (*Pool*) representa uma organização ou participante independente no processo, enquanto as Raias (*Lanes*) são subdivisões internas usadas para separar funções ou departamentos daquela organização.
-* **C)** Mensagens trocadas entre diferentes participantes de um processo devem ser modeladas obrigatoriamente utilizando linhas sólidas com setas preenchidas.
-* **D)** Um evento de início do tipo Temporizador só pode ser posicionado dentro de um subprocesso de eventos com gatilho de erro fatal.
-* **E)** Os objetos de dados (*Data Objects*) são elementos de execução que controlam ativamente o redirecionamento das rotas do processo de negócio.
+* **A)** Uma Piscina (*Pool*) representa um participante independente no processo, enquanto as Raias (*Lanes*) atuam como subdivisões internas destinadas a segregar funções, departamentos ou papéis operacionais daquela organização.
+* **B)** Um Fluxo de Sequência (*Sequence Flow*) pode interligar diretamente uma tarefa situada em uma Piscina (*Pool*) a uma tarefa localizada no interior de outra Piscina distinta.
+* **C)** O Fluxo de Mensagem (*Message Flow*) é desenhado por meio de uma linha contínua finalizada por uma seta preenchida sólida conectando raias da mesma piscina.
+* **D)** A notação proíbe que um processo contenha mais de uma raia (*lane*) caso as atividades façam uso de objetos de dados de leitura e gravação.
+* **E)** Os Objetos de Dados (*Data Objects*) são elementos de controle ativo responsáveis por direcionar o desvio e a tomada de decisão das rotas de fluxo.
 
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Regra estrutural do padrão BPMN 2.0: um Fluxo de Sequência (linha contínua) **nunca pode cruzar as fronteiras entre duas Pools distintas**. Apenas o Fluxo de Mensagem cruza Pools.
-> - **B) CORRETA.** No metamodelo do BPMN, uma **Piscina (*Pool*)** representa graficamente um participante autônomo (uma entidade corporativa ou processo independente), e as **Raias (*Lanes*)** atuam como partições internas dentro da Pool para segregar e organizar responsabilidades de departamentos, funções ou sistemas.
-> - **C) Incorreta.** O Fluxo de Mensagem (*Message Flow*) é desenhado estritamente com **linha tracejada**, portando um círculo vazado na origem e uma seta aberta no destino.
-> - **D) Incorreta.** Eventos de início de temporizador atuam regularmente como disparadores de processos periódicos programados na raiz do fluxo.
-> - **E) Incorreta.** Objetos de dados têm função informativa e descritiva dos insumos e produtos gerados pelas tarefas, não operando como controladores de desvio de rotas.
-> 
-> **Gabarito: B**
+> - **A) CORRETA.** No metamodelo oficial do BPMN 2.0, a **Piscina (*Pool*)** delimita um participante corporativo autônomo (uma organização, entidade externa ou processo independente). As **Raias (*Lanes*)** funcionam como partições internas da Pool para agrupar e organizar responsabilidades por setores, papéis funcionais ou sistemas operacionais internos daquela entidade.
+> - **B) Incorreta.** Regra fundamental e estrita do BPMN: o Fluxo de Sequência (linha contínua) **nunca pode cruzar as fronteiras entre Pools distintas**. A comunicação entre diferentes Pools dá-se obrigatoriamente por Fluxo de Mensagem (*Message Flow*).
+> - **C) Incorreta.** O Fluxo de Mensagem é graficamente representado por **linha tracejada com círculo vazado na origem e seta aberta no destino**, conectando elementos entre Pools distintas.
+> - **D) Incorreta.** Uma Piscina pode comportar múltiplas raias organizacionais independentemente da presença de objetos de dados.
+> - **E) Incorreta.** Objetos de dados têm natureza meramente informacional (mostram quais dados ou documentos são produzidos ou requeridos pelas atividades), não exercendo controle ativo sobre desvios de rota.
+>
+> **Gabarito: A**
 
 ---
 

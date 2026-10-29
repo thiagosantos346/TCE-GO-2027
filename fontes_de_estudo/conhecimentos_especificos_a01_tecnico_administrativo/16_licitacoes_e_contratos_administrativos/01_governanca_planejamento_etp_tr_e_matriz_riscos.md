@@ -90,7 +90,7 @@ A NLLC elevou a governança ao patamar de exigência legal expressa (art. 11, pa
 ---
 
 ### Teste 066
-**(FGV – Auditor de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A Lei nº 14.133/2021 (Nova Lei de Licitações e Contratos Administrativos) consolidou no art. 5º um rol abrangente de princípios aplicáveis às contratações públicas. A respeito dos princípios expressos e setoriais da novel legislação, assinale a opção correta:
 
 * **A)** O princípio do planejamento veda qualquer alteração no cronograma físico-financeiro das obras públicas contratadas.
@@ -111,7 +111,7 @@ A Lei nº 14.133/2021 (Nova Lei de Licitações e Contratos Administrativos) con
 >
 > **Gabarito: B**
 ### Teste 067
-**(FCC – Analista de Gestão Pública – SEAD-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em consonância com as diretrizes de governança pública insculpidas no art. 11 da Lei Federal nº 14.133/2021, o processo licitatório tem por objetivos precípuos assegurar a seleção da proposta apta a gerar o resultado de contratação mais vantajoso. Sob a ótica da governança das contratações:
 
 * **A)** A alta administração deve implementar processos de gestão de riscos e controles preventivos.
@@ -188,7 +188,7 @@ Se o agente público for demandado nas esferas judicial ou controladora (perante
 ---
 
 ### Teste 068
-**(FGV – Analista de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A Lei nº 14.133/2021 inovou ao disciplinar a gestão por competências como critério obrigatório para a designação dos agentes públicos que atuam nas licitações e contratos (art. 7º). A respeito dos requisitos legais exigidos para a designação desses agentes:
 
 * **A)** Os agentes designados devem ser preferencialmente servidores efetivos dos quadros permanentes.
@@ -209,7 +209,7 @@ A Lei nº 14.133/2021 inovou ao disciplinar a gestão por competências como cri
 >
 > **Gabarito: A**
 ### Teste 069
-**(FCC – Técnico de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No âmbito do Tribunal de Contas, a comissão encarregada de planejar as contratações submeteu minuta de edital para seleção de agente de contratação e comissão de licitação. À luz das disposições do art. 8º da Lei nº 14.133/2021:
 
 * **A)** A licitação na modalidade pregão pode ser conduzida por leiloeiro oficial credenciado perante o tribunal.
@@ -230,7 +230,7 @@ No âmbito do Tribunal de Contas, a comissão encarregada de planejar as contrat
 >
 > **Gabarito: C**
 ### Teste 070
-**(FCC – Analista de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O Diretor-Geral de uma autarquia estadual designou um mesmo servidor público efetivo para atuar como pregoeiro responsável pela condução do certame e, simultaneamente, como fiscal titular e ordenador de despesas do contrato decorrente. O ato de designação:
 
 * **A)** É válido e eficiente, pois a concentração de funções reduz custos operacionais em estruturas autárquicas pequenas.
@@ -251,7 +251,7 @@ O Diretor-Geral de uma autarquia estadual designou um mesmo servidor público ef
 >
 > **Gabarito: B**
 ### Teste 071
-**(FCC – Procurador do Estado – PGE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O art. 10 da Lei Federal nº 14.133/2021 estabelece importante prerrogativa funcional aos agentes públicos que atuam nas licitações e contratos estatais. Caso o servidor responda a processo judicial ou administrativo em razão de ato praticado no exercício regular de suas funções e em consonância com pareceres técnicos e jurídicos:
 
 * **A)** Caberá à advocacia pública que orientou a contratação exercer a sua representação judicial ou extrajudicial.
@@ -318,7 +318,7 @@ flowchart TD
 ---
 
 ### Teste 072
-**(FGV – TRF-1ª Região – Analista Judiciário - 2024)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O Tribunal iniciou o planejamento da contratação para o desenvolvimento de uma nova solução tecnológica com vistas a integrar os sistemas processuais eletrônicos. No âmbito da fase preparatória, a equipe de planejamento da contratação elaborou o Estudo Técnico Preliminar (ETP) com fundamento no art. 18 da Lei Federal nº 14.133/2021. 
 
 A respeito dos elementos essenciais e da finalidade do Estudo Técnico Preliminar, é correto afirmar que o ETP:
@@ -341,7 +341,7 @@ A respeito dos elementos essenciais e da finalidade do Estudo Técnico Prelimina
 >
 > **Gabarito: B**
 ### Teste 073
-**(FCC – Procurador do Estado – PGE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Durante a fase preparatória de uma contratação de serviços técnicos especializados de consultoria atuarial, a equipe de planejamento autárquica elaborou Estudo Técnico Preliminar simplificado. Nos termos do art. 18, § 2º, da Lei Federal nº 14.133/2021, constituem elementos OBRIGATÓRIOS indeclináveis que devem figurar em qualquer ETP:
 
 * **A)** A descrição da necessidade, a estimativa do valor e o parecer conclusivo de viabilidade.
@@ -362,7 +362,7 @@ Durante a fase preparatória de uma contratação de serviços técnicos especia
 >
 > **Gabarito: A**
 ### Teste 074
-**(FCC – Auditor de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Na fase preparatória das contratações regidas pela Lei nº 14.133/2021, a caracterização adequada do objeto a ser licitado materializa-se em documentos técnicos específicos. A respeito da distinção conceitual e aplicabilidade do Termo de Referência (TR), do Projeto Básico (PB) e do Projeto Executivo (PE):
 
 * **A)** O Termo de Referência aplica-se à contratação de obras de engenharia, ao passo que o Projeto Básico destina-se a compras.
@@ -383,7 +383,7 @@ Na fase preparatória das contratações regidas pela Lei nº 14.133/2021, a car
 >
 > **Gabarito: C**
 ### Teste 075
-**(FCC – Auditor de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em licitação de obra de engenharia de grande vulto (valor estimado superior a duzentos milhões de reais), a Administração estadual incluiu no edital a Matriz de Alocação de Riscos entre o contratante público e o contratado privado. Segundo o art. 103 da Lei Federal nº 14.133/2021:
 
 * **A)** A inclusão da matriz de riscos é vedada nas contratações integradas por transferir ônus ao parceiro particular.
@@ -423,7 +423,7 @@ O **Portal Nacional de Contratações Públicas (PNCP)**, disciplinado pelos art
 ---
 
 ### Teste 076
-**(FCC – Analista Judiciário – TRT / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O Estado de Goiás homologou seu Plano de Contratações Anual (PCA), consolidando todas as demandas de compras e serviços pretendidas pelos órgãos estaduais para o exercício financeiro subsequente. A respeito do Plano de Contratações Anual na disciplina da Lei Federal nº 14.133/2021:
 
 * **A)** O PCA tem por objetivo primordial subsidiar a elaboração das leis orçamentárias e evitar o fracionamento indevido.

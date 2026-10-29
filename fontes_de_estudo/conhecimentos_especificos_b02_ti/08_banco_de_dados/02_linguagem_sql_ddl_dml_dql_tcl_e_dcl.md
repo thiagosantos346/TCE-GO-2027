@@ -40,7 +40,7 @@
     7. [Teste 251](#Teste-251)
     8. [Teste 252](#Teste-252)
 4. [Funções Analíticas de Janela (Window Functions)](#4-funcoes-analiticas-de-janela-window-functions)
-    1. [Sintaxe Geral e Cláusula OVER (PARTITION BY ... ORDER BY ...)](#41-sintaxe-geral-e-clausula-over-partition-by-order-by)
+    1. [Sintaxe Geral e Cláusula OVER (PARTITION BY .. ORDER BY ..)](#41-sintaxe-geral-e-clausula-over-partition-by-order-by)
     2. [Funções de Ranking: ROW_NUMBER(), RANK() e DENSE_RANK()](#42-funcoes-de-ranking-rownumber-rank-e-denserank)
     3. [Funções de Deslocamento: LEAD() e LAG()](#43-funcoes-de-deslocamento-lead-e-lag)
     4. [Teste 253](#Teste-253)
@@ -115,12 +115,12 @@ As restrições de integridade garantem a consistência lógica dos dados no ban
 ---
 
 ### Teste 245
-**(FGV - TRT / Analista Judiciário - TI - Comandos DCL e Gestão de Privilégios)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em um banco de dados corporativo de um órgão público, o Administrador de Banco de Dados (DBA) necessita conceder privilégios de consulta e inserção na tabela `FOLHA_PAGAMENTO` para o usuário `auditor_fiscal`, permitindo adicionalmente que este usuário repasse exclusivamente o privilégio de consulta a outros analistas de sua equipe. Posteriormente, por motivos de conformidade, o DBA revogou o privilégio de consulta do `auditor_fiscal` de forma cascateada.
 
 Considerando os comandos da Data Control Language (DCL) do padrão ANSI SQL, assinale a opção que indica as instruções corretas para conceder os privilégios solicitados e, em seguida, revogá-los com efeito em cascata:
 
-* **A)** `GRANT SELECT, INSERT ON FOLHA_PAGAMENTO TO auditor_fiscal WITH GRANT OPTION;` e `REVOKE ALL PRIVILEGES ON FOLHA_PAGAMENTO FROM auditor_fiscal;` em estrita conformidade com as normas legais e regulamentares aplicáveis.
+* **A)** `GRANT SELECT, INSERT ON FOLHA_PAGAMENTO TO auditor_fiscal WITH GRANT OPTION;` e `REVOKE ALL PRIVILEGES ON FOLHA_PAGAMENTO FROM auditor_fiscal;`.
 * **B)** `GRANT SELECT ON FOLHA_PAGAMENTO TO auditor_fiscal WITH GRANT OPTION;` seguido de `GRANT INSERT ON FOLHA_PAGAMENTO TO auditor_fiscal;` e, para revogação, `REVOKE SELECT ON FOLHA_PAGAMENTO FROM auditor_fiscal CASCADE;`
 * **C)** `PERMIT SELECT, INSERT ON FOLHA_PAGAMENTO FOR auditor_fiscal ADMIN OPTION;` e `DENY SELECT ON FOLHA_PAGAMENTO TO auditor_fiscal;`
 * **D)** `GRANT READ, WRITE ON TABLE FOLHA_PAGAMENTO TO USER auditor_fiscal;` e `REVOKE SELECT CASCADE FROM auditor_fiscal;`
@@ -142,7 +142,7 @@ Considerando os comandos da Data Control Language (DCL) do padrão ANSI SQL, ass
 ---
 
 ### Teste 246
-**(FCC - Adaptada / TI - DDL vs. DML: Comandos TRUNCATE e DELETE)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Um Administrador de Banco de Dados precisa esvaziar integralmente uma tabela com mais de 50 milhões de registros de log transitório em um ambiente de produção. Ao avaliar o uso do comando `TRUNCATE TABLE` em comparação com `DELETE FROM`, conclui-se corretamente que:  
 
 * **A)** O comando `TRUNCATE` é classificado como DML e gera o mesmo volume de logs transacionais no disco que o comando `DELETE`.
@@ -167,7 +167,7 @@ Um Administrador de Banco de Dados precisa esvaziar integralmente uma tabela com
 ---
 
 ### Teste 247
-**(FCC - TRT-14 / Analista Judiciário - TI - Comandos DDL vs. DML: DROP, TRUNCATE e DELETE)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Durante a manutenção emergencial de uma base de dados transacional com milhões de registros de log, o analista de banco de dados precisa esvaziar integralmente o conteúdo da tabela `LOG_ACESSO_TEMPORARIO`, liberando de imediato o espaço de armazenamento em disco e reinicializando os ponteiros de High Water Mark (HWM), com a máxima velocidade operacional possível e sem registrar cada tupla individualmente no log de transações.
 
 Para atender estritamente a esses requisitos técnicos, o comando correto a ser executado é:
@@ -239,7 +239,7 @@ Compreender essa cronologia lógica resolve duas das questões mais frequentes d
 ---
 
 ### Teste 248
-**(FCC - Adaptada / TI - Ordem Lógica de Execução e Agrupamento: WHERE vs. HAVING)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Considere a seguinte consulta SQL proposta por um desenvolvedor júnior para listar as secretarias cujo valor total de empenhos fiscais ultrapassou R$ 1.000.000 no exercício:
 
 ```sql
@@ -327,7 +327,7 @@ JOIN AuditoriasRecentes ar ON a.id = ar.auditor_id;
 ---
 
 ### Teste 249
-**(FGV - TJ-AP / Analista Judiciário - Banco de Dados - Junções SQL e Tratamento de Nulos)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Considere duas tabelas em um banco de dados relacional: `ORGAO` (com as colunas `id_orgao`, `nome_orgao`) contendo 10 registros, e `CONTRATO` (com as colunas `id_contrato`, `id_orgao`, `valor`) contendo 50 registros. Sabe-se que 2 órgãos da tabela `ORGAO` não possuem nenhum contrato cadastrado e que todos os 50 contratos da tabela `CONTRATO` possuem um `id_orgao` válido associado.
 
 Um auditor executou a seguinte instrução SQL:
@@ -341,7 +341,7 @@ LEFT JOIN CONTRATO C ON O.id_orgao = C.id_orgao;
 A quantidade exata de linhas retornadas por essa consulta e o conteúdo dos campos `C.id_contrato` e `C.valor` para os 2 órgãos que não possuem contratos são, respectivamente:
 
 * **A)** 48 linhas, e as linhas dos órgãos sem contratos são omitidas do resultado.
-* **B)** 50 linhas, e as linhas dos órgãos sem contratos exibem valor 0 nos campos numéricos no âmbito da administração pública direta e indireta.
+* **B)** 50 linhas, e as linhas dos órgãos sem contratos exibem valor 0 nos campos numéricos.
 * **C)** 52 linhas, e as linhas dos 2 órgãos sem contratos exibem o valor `NULL` nos campos `id_contrato` e `valor`.
 * **D)** 60 linhas, correspondendo ao produto cartesiano das tabelas.
 * **E)** 10 linhas, retornando apenas uma linha condensada para cada órgão existente.
@@ -365,7 +365,7 @@ A quantidade exata de linhas retornadas por essa consulta e o conteúdo dos camp
 ---
 
 ### Teste 250
-**(FCC - TRT / Analista Judiciário - TI - Operadores de Conjunto: UNION vs. UNION ALL)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em procedimentos analíticos de auditoria de dados, um auditor necessita consolidar em uma única lista todos os CPFs de fornecedores que receberam pagamentos no Exercício de 2024 (tabela `PAGAMENTOS_2024`, com 100.000 registros, contendo CPFs repetidos) e no Exercício de 2025 (tabela `PAGAMENTOS_2025`, com 80.000 registros, também com repetições). Sabe-se que 20.000 CPFs distintos aparecem em ambos os exercícios.
 
 Considerando os operadores de conjunto da linguagem SQL padrão ANSI, avalie as afirmativas:
@@ -396,7 +396,7 @@ Está correto o que se afirma em:
 ---
 
 ### Teste 251
-**(FCC - Adaptada / TI - Subconsultas e a Lógica de Nulos com NOT IN vs. NOT EXISTS)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Considere duas tabelas em um banco de dados fazendário:
 
 - `CONTRIBUINTE (id_contribuinte, nome)` com 1.000 registros.
@@ -415,7 +415,7 @@ O resultado obtido por essa consulta será:
 * **A)** Uma relação contendo exatamente os contribuintes sem registros correspondentes na tabela de infração.
 * **B)** Uma relação com todos os 1.000 contribuintes da tabela original.
 * **C)** Um conjunto vazio (zero registros retornados), em virtude da presença de valores nulos na subconsulta avaliada pelo operador `NOT IN`.
-* **D)** Uma mensagem de erro de compilação SQL, visto que o operador `NOT IN` não suporta subconsultas como argumento no âmbito da administração pública direta e indireta.
+* **D)** Uma mensagem de erro de compilação SQL, visto que o operador `NOT IN` não suporta subconsultas como argumento.
 * **E)** Uma relação com exatamente 495 registros, correspondente à diferença algébrica simples.
 
 
@@ -434,14 +434,14 @@ O resultado obtido por essa consulta será:
 ---
 
 ### Teste 252
-**(FGV - TJ-AP / Analista Judiciário - Banco de Dados - Common Table Expressions e CTE Recursiva)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em um sistema de auditoria governamental, a estrutura de subordinação hierárquica dos órgãos de controle é modelada na tabela `UNIDADE_ORGANIZACIONAL (id_unidade, nome_unidade, id_unidade_superior)`.
 
 Para percorrer recursivamente todos os níveis descendentes a partir de uma unidade raiz (`id_unidade = 1`), o padrão ANSI SQL:1999 disponibiliza o recurso de Common Table Expressions (CTEs) recursivas. A respeito da construção sintática e do funcionamento operacional de uma `WITH RECURSIVE`, assinale a afirmativa correta:
 
 * **A)** A cláusula `WITH RECURSIVE` é composta obrigatoriamente por dois membros unidos por `UNION` ou `UNION ALL`: o membro-âncora (termo inicial não-recursivo) e o membro recursivo (que faz referência ao próprio nome da CTE), cessando a execução quando o membro recursivo retorna um conjunto vazio.
 * **B)** A consulta recursiva executa um loop infinito no SGBD a menos que seja incluída compulsoriamente uma cláusula `LIMIT 100` na definição da tabela âncora.
-* **C)** Funções de agregação como `SUM()` e `AVG()` podem ser livremente empregadas dentro da subconsulta do membro recursivo sem restrições sintáticas pelo padrão ANSI considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **C)** Funções de agregação como `SUM()` e `AVG()` podem ser livremente empregadas dentro da subconsulta do membro recursivo sem restrições sintáticas pelo padrão ANSI.
 * **D)** Uma CTE recursiva não pode ser utilizada com o comando `SELECT`, sendo um recurso exclusivo de instruções de modificação de dados (`UPDATE` e `DELETE`).
 * **E)** O operador de junção entre o membro-âncora e o membro recursivo deve ser compulsoriamente um `CROSS JOIN`.
 
@@ -450,7 +450,7 @@ Para percorrer recursivamente todos os níveis descendentes a partir de uma unid
 
 > **Comentário Detalhado:**
 >
-> - **A)** **CORRETA.** A arquitetura da CTE recursiva (`WITH RECURSIVE nome_cte AS (...)`) é rigorosamente estruturada em:
+> - **A)** **CORRETA.** A arquitetura da CTE recursiva (`WITH RECURSIVE nome_cte AS (..)`) é rigorosamente estruturada em:
 >   1. **Membro-Âncora (Anchor Member):** Executa uma única vez para gerar o conjunto de dados base (ex.: recuperar o órgão com `id_unidade = 1`).
 >   2. **Operador de União:** `UNION ALL` (mais comum por performance) ou `UNION`.
 >   3. **Membro Recursivo (Recursive Member):** Faz referência direta a `nome_cte` unida com a tabela física (`UNIDADE_ORGANIZACIONAL`) para descer/subir na árvore. O motor avalia iterativamente até que uma iteração retorne zero registros (conjunto vazio), momento em que a recursão atinge sua condição natural de parada.
@@ -467,7 +467,7 @@ Para percorrer recursivamente todos os níveis descendentes a partir de uma unid
 
 Diferente da cláusula `GROUP BY` (que colapsa múltiplas linhas em um único registro agregado por partição), as **funções de janela (*Window Functions*)** realizam cálculos agregados e analíticos **sem colapsar as tuplas**, preservando a identidade e o detalhe de cada linha individual.
 
-### 4.1 Sintaxe Geral e Cláusula OVER (PARTITION BY ... ORDER BY ...)
+### 4.1 Sintaxe Geral e Cláusula OVER (PARTITION BY .. ORDER BY ..)
 
 ```sql
 FUNCAO_ANALITICA() OVER (
@@ -492,7 +492,7 @@ Considere quatro servidores avaliados por salário dentro de uma partição: Ana
 | Carlos | 10.000 | **3** | **1** | **1** |
 | Daniel | 8.000 | **4** | **4** *(Pula 2 e 3)* | **2** *(Não pula números)* |
 
-- **`ROW_NUMBER()`:** Atribui um número inteiro sequencial e estritamente exclusivo a cada linha da partição (1, 2, 3, 4...). Desconsidera empates.
+- **`ROW_NUMBER()`:** Atribui um número inteiro sequencial e estritamente exclusivo a cada linha da partição (1, 2, 3, 4..). Desconsidera empates.
 - **`RANK()`:** Atribui a mesma posição a valores empatados, porém **pula números na sequência** proporcionalmente ao tamanho do empate (deixa lacunas no ranking).
 - **`DENSE_RANK()`:** Atribui a mesma posição a valores empatados, porém **NÃO pula números na sequência**; a numeração subsequente continua estritamente consecutiva (ranking denso sem lacunas).
 
@@ -506,7 +506,7 @@ Permitem acessar dados de linhas vizinhas na mesma partição sem necessidade de
 ---
 
 ### Teste 253
-**(FCC - Adaptada / TI - Funções de Janela em SQL)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Considere uma tabela denominada `AUDITORIA_FOLHA` que armazena os vencimentos de servidores, com as colunas `Matricula`, `Orgao` e `Salario`. Um analista precisa gerar um relatório onde os servidores sejam classificados em ordem decrescente de salário dentro de cada órgão (`Orgao`), de modo que servidores com salários idênticos recebam a mesma posição no ranking e a numeração da posição subsequente continue consecutiva, sem deixar lacunas ou "pular" números.
 
 A consulta SQL correta que atende exatamente a essa especificação utiliza a função de janela:  
@@ -522,9 +522,9 @@ A consulta SQL correta que atende exatamente a essa especificação utiliza a fu
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O `ROW_NUMBER()` gera um sequencial estritamente único para cada linha (1, 2, 3...), desconsiderando empates salariais.
+> - **A)** Incorreta. O `ROW_NUMBER()` gera um sequencial estritamente único para cada linha (1, 2, 3..), desconsiderando empates salariais.
 > - **B)** Incorreta. O `RANK()` atribui a mesma posição aos empatados, mas pula posições subsequentes na sequência (ex.: se houver dois primeiros colocados, o próximo recebe a posição 3), deixando lacunas.
-> - **C)** Correta. A função **`DENSE_RANK()`** atribui a mesma posição aos registros com valores empatados e garante que a posição imediatamente seguinte seja a próxima na ordem inteira contígua (1, 1, 2, 3...), preservando o ranqueamento denso sem deixar lacunas na numeração.
+> - **C)** Correta. A função **`DENSE_RANK()`** atribui a mesma posição aos registros com valores empatados e garante que a posição imediatamente seguinte seja a próxima na ordem inteira contígua (1, 1, 2, 3..), preservando o ranqueamento denso sem deixar lacunas na numeração.
 > - **D)** Incorreta. `COUNT()` é uma função de agregação de contagem, não uma função de ranqueamento.
 > - **E)** Incorreta. `LEAD()` é uma função analítica de deslocamento para acessar valores de linhas posteriores na janela, não atribuindo posições de classificação.
 > 
@@ -533,7 +533,7 @@ A consulta SQL correta que atende exatamente a essa especificação utiliza a fu
 ---
 
 ### Teste 254
-**(FGV - TRT-DA 24-REGIÃO / Analista Judiciário - TI - Funções de Deslocamento: LEAD e LAG)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em auditorias de contratações públicas, é comum comparar o valor pago a um prestador em um determinado mês com o valor pago no mês imediatamente anterior e no mês imediatamente posterior, a fim de detectar variações abruptas de faturamento.
 
 Considere a tabela `PAGAMENTO_CONTRATO` com as colunas `id_contrato`, `mes_ano` e `valor_pago`. Assinale a instrução SQL que utiliza corretamente funções analíticas de deslocamento de janela para recuperar, em uma mesma linha de saída para cada contrato, o valor do pagamento corrente, o valor do mês imediatamente anterior e o valor do mês imediatamente subsequente:
@@ -636,10 +636,10 @@ Gatilhos (*Triggers*) são blocos de código procedurais executados automaticame
 ---
 
 ### Teste 255
-**(FCC - Adaptada / TI - Gatilhos / Triggers e Pseudorregistros)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No que concerne aos gatilhos (*Triggers*) em sistemas de gerenciamento de bancos de dados relacionais padrão ANSI/ISO e SGBDs modernos (como Oracle e PostgreSQL), assinale a afirmativa correta:  
 
-* **A)** Em um gatilho acionado por uma instrução `INSERT`, tanto o pseudorregistro `OLD` quanto o pseudorregistro `NEW` contêm os mesmos valores da nova linha inserida no âmbito da administração pública direta e indireta.
+* **A)** Em um gatilho acionado por uma instrução `INSERT`, tanto o pseudorregistro `OLD` quanto o pseudorregistro `NEW` contêm os mesmos valores da nova linha inserida.
 * **B)** Gatilhos do tipo `BEFORE FOR EACH ROW` são ideais para validação de integridade ou atribuição prévia de valores calculados aos campos antes da gravação definitiva da linha no disco.
 * **C)** Um gatilho com nível de disparo por instrução (`FOR EACH STATEMENT`) executa uma vez para cada linha afetada pelo comando DML executado.
 * **D)** Em um evento de `DELETE`, o pseudorregistro `NEW` armazena os valores da linha que acabou de ser apagada, enquanto o pseudorregistro `OLD` torna-se nulo.

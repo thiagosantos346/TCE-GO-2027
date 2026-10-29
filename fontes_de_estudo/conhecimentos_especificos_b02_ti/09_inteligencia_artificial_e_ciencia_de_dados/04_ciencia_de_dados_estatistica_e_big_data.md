@@ -122,14 +122,14 @@ O **CRISP-DM (*Cross-Industry Standard Process for Data Mining*)** é o padrão 
 ---
 
 ### Teste 333
-**(FCC - TCE-RS - Auditor Público Externo - Tecnologia da Informação)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No desenvolvimento de um projeto de ciência de dados estruturado sob a metodologia CRISP-DM para análise de superfaturamento em contratos de obras públicas, os analistas estão executando a etapa de *Data Preparation*. Durante a identificação de valores discrepantes no custo unitário do metro quadrado de asfalto, a equipe optou pela técnica do Intervalo Interquartil (IQR).
 A base de dados indicou que o primeiro quartil ($Q_1$) foi apurado em R$ 200,00 e o terceiro quartil ($Q_3$) foi apurado em R$ 350,00.
 A respeito da metodologia CRISP-DM e dos critérios de pré-processamento de outliers, assinale a afirmativa correta:
 
 * **A)** O Intervalo Interquartil (IQR) é de R$ 550,00, e qualquer valor acima de R$ 900,00 será classificado como valor regular.
 * **B)** O IQR é de R$ 150,00 ($350 - 200$), o Limite Inferior é de R$ -25,00 ($200 - 1{,}5 \times 150$) e o Limite Superior é de R$ 575,00 ($350 + 1{,}5 \times 150$), configurando como outlier qualquer custo unitário superior a R$ 575,00.
-* **C)** Na metodologia CRISP-DM, a fase de *Business Understanding* sucede a fase de *Deployment*, visto que o entendimento dos objetivos de negócio só pode ocorrer após a solução estar em produção no âmbito da administração pública direta e indireta.
+* **C)** Na metodologia CRISP-DM, a fase de *Business Understanding* sucede a fase de *Deployment*, visto que o entendimento dos objetivos de negócio só pode ocorrer após a solução estar em produção.
 * **D)** A técnica de Padronização (*Z-Score*) deve ser evitada em modelos baseados em gradiente descendente, sendo imperativo o uso exclusivo do One-Hot Encoding para variáveis puramente numéricas.
 * **E)** A metodologia CRISP-DM proíbe expressamente qualquer retorno ou iteração entre a fase de Modelagem (*Modeling*) e a fase de Preparação de Dados (*Data Preparation*).
 
@@ -153,7 +153,7 @@ A respeito da metodologia CRISP-DM e dos critérios de pré-processamento de out
 ---
 
 ### Teste 334
-**(FGV - TJ-RR / Analista Judiciário - TI - Tratamento de Outliers e Critério IQR)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em um projeto de ciência de dados para auditoria de contratos emergenciais de saúde, a equipe técnica precisa identificar desvios grosseiros e valores atípicos (*outliers*) nos preços unitários de medicamentos, utilizando um método estatístico não paramétrico e robusto à presença de distribuições assimétricas.
 
 O método amplamente recomendado pela literatura é o do **Intervalo Interquartil** (*Interquartile Range - IQR*). Considerando o Primeiro Quartil ($Q_1$) e o Terceiro Quartil ($Q_3$) de uma série ordenada de preços, assinale a opção que apresenta os limites inferior e superior que definem formalmente um *outlier* pelo critério de Tukey:
@@ -185,14 +185,14 @@ O método amplamente recomendado pela literatura é o do **Intervalo Interquarti
 ---
 
 ### Teste 335
-**(FGV - TRT / Analista Judiciário - TI - Escalonamento de Recursos e Prevenção de Data Leakage)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na etapa de pré-processamento de um modelo de Machine Learning preditor de probabilidade de insolvência de fornecedores públicos, o cientista de dados depara-se com variáveis numéricas em escalas de grandezas muito distintas (ex.: `faturamento_anual` na ordem de milhões de reais e `tempo_empresa_anos` variando de 0 a 30).
 
 A respeito das técnicas de escalonamento e dos cuidados mandatórios no fluxo de validação cruzada, assinale a afirmativa correta:
 
 * **A)** Algoritmos baseados em distâncias euclidianas (como KNN e SVM) ou gradiente descendente são imunes à escala dos atributos, dispensando qualquer técnica de escalonamento.
 * **B)** A padronização (*StandardScaler*) transforma a variável de modo que ela passe a ter média igual a zero e desvio padrão unitário ($Z = \frac{X - \mu}{\sigma}$).
-* **C)** O ajuste dos parâmetros de escalonamento (como média e desvio padrão) deve ser calculado simultaneamente sobre toda a base unificada (treino + teste) antes da divisão em folds para acelerar o processamento no âmbito da administração pública direta e indireta.
+* **C)** O ajuste dos parâmetros de escalonamento (como média e desvio padrão) deve ser calculado simultaneamente sobre toda a base unificada (treino + teste) antes da divisão em folds para acelerar o processamento.
 * **D)** O escalonamento de variáveis deve ser aplicado obrigatoriamente também na variável alvo categórica de classificação binária.
 * **E)** Árvores de decisão puras (Decision Trees) e Random Forests sofrem severa perda de acurácia se as variáveis numéricas não forem escalonadas entre 0 e 1.
 
@@ -278,14 +278,14 @@ Estrutura formal de tomada de decisão estatística sob incerteza:
 ---
 
 ### Teste 336
-**(FCC - TRF-3ª Região - Analista Judiciário - Estatística Aplicada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na análise estatística dos salários praticados por fornecedores contratados pelo setor público, observou-se que a distribuição de rendimentos apresenta uma acentuada **Assimetria Positiva (à direita)**, decorrente da existência de uma minoria de executivos com salários desproporcionalmente vultosos em comparação com o grande contingente de operários.
 Considerando o comportamento das medidas de tendência central e os conceitos de inferência estatística, assinale a alternativa correta:
 
 * **A)** Em uma distribuição contínua unimodal com assimetria positiva, a relação de ordem observada entre as medidas de posição é: $\text{Moda} < \text{Mediana} < \text{Média}$.
 * **B)** Em uma distribuição perfeitamente simétrica gaussiana, a Média é estritamente superior à Mediana, e a Moda assume obrigatoriamente valor nulo.
 * **C)** O Erro Tipo I em um teste de hipóteses ocorre quando o auditor decide não rejeitar a hipótese nula $H_0$, mesmo sendo ela flagrantemente falsa.
-* **D)** Um $p$-valor de $0{,}001$ obtido em um teste estatístico indica que se deve aceitar a hipótese nula $H_0$ sob o nível de significância padrão de $\alpha = 0{,}05$ no âmbito da administração pública direta e indireta.
+* **D)** Um $p$-valor de $0{,}001$ obtido em um teste estatístico indica que se deve aceitar a hipótese nula $H_0$ sob o nível de significância padrão de $\alpha = 0{,}05$.
 * **E)** O desvio padrão amostral de uma variável não se altera quando todos os valores observados na amostra são multiplicados por uma constante real não nula.
 
 
@@ -304,14 +304,14 @@ Considerando o comportamento das medidas de tendência central e os conceitos de
 ---
 
 ### Teste 337
-**(FGV - TRT / Analista Judiciário - TI - Distribuição Normal e Teorema Central do Limite)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A Distribuição Normal (Gaussiana) é o modelo probabilístico mais importante da inferência estatística e da ciência de dados, formalmente expressa por sua densidade de probabilidade $X \sim \mathcal{N}(\mu, \sigma^2)$.
 
 A respeito das propriedades geométricas e teóricas da Distribuição Normal, assinale a afirmativa correta:
 
 * **A)** A curva da distribuição normal é assimétrica e bimodal, onde a moda diverge significativamente da média e da mediana.
 * **B)** Na distribuição normal, a média, a mediana e a moda coincidem no centro exato da curva; além disso, pela regra empírica (regra 68-95-99.7), aproximadamente 68,26% das observações situam-se no intervalo de $\mu \pm 1\sigma$, aproximadamente 95,44% em $\mu \pm 2\sigma$ e cerca de 99,73% em $\mu \pm 3\sigma$.
-* **C)** O Teorema Central do Limite estabelece que a soma ou média de variáveis aleatórias independentes e identicamente distribuídas converge para uma distribuição exponencial quando o tamanho da amostra tende ao infinito considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **C)** O Teorema Central do Limite estabelece que a soma ou média de variáveis aleatórias independentes e identicamente distribuídas converge para uma distribuição exponencial quando o tamanho da amostra tende ao infinito.
 * **D)** A área total sob a curva de densidade de probabilidade de uma Gaussiana é igual a 100,0.
 * **E)** O desvio padrão ($\sigma$) desloca a curva horizontalmente para a direita ou esquerda sem afetar o seu achatamento ou dispersão.
 
@@ -337,14 +337,14 @@ A respeito das propriedades geométricas e teóricas da Distribuição Normal, a
 ---
 
 ### Teste 338
-**(FGV - TRT / Analista Judiciário - TI - Testes de Hipóteses, Erros Tipo I e II e p-Valor)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na auditoria estatística de folha de pagamento, os auditores formulam um teste de hipóteses para avaliar se a média de horas extras de determinado departamento ($H_1$) é estatisticamente superior ao limite legal regulamentado ($H_0$).
 
 A respeito dos conceitos de hipótese nula, erros de decisão e interpretação do $p$-valor, assinale a afirmativa correta:
 
 * **A)** O Erro Tipo I ($lpha$) ocorre quando o teste rejeita a hipótese nula ($H_0$) sendo ela verdadeira (Falso Positivo); ao passo que o Erro Tipo II ($eta$) ocorre quando o teste não rejeita a hipótese nula sendo ela falsa (Falso Negativo).
 * **B)** O nível de significância $\alpha$ deve ser fixado em 99% para garantir que não haja erros de tipo I.
-* **C)** Um $p$-valor menor que o nível de significância estipulado (ex.: $p < 0,05$) indica que a hipótese nula ($H_0$) deve ser aceita e confirmada como verdadeira com certeza absoluta em estrita conformidade com as normas legais e regulamentares aplicáveis.
+* **C)** Um $p$-valor menor que o nível de significância estipulado (ex.: $p < 0,05$) indica que a hipótese nula ($H_0$) deve ser aceita e confirmada como verdadeira com certeza absoluta.
 * **D)** O Poder do Teste estatístico é dado algebricamente por $1 - \alpha$.
 * **E)** A hipótese alternativa ($H_1$) representa o estado inicial de conformidade ou ausência de efeito a ser mantido caso faltem evidências probatórias.
 
@@ -420,7 +420,7 @@ $$\text{Erro de Teste} = \text{Viés}^2 + \text{Variância} + \sigma_{\text{ruí
 ---
 
 ### Teste 339
-**(FCC - TRT / Analista Judiciário - TI - O Dilema Viés vs. Variância em Modelos Preditivos)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na avaliação do erro de generalização de algoritmos de aprendizado supervisionado, o Erro Médio Quadrático Esperado de predição sobre dados não vistos pode ser decomposto matematicamente em três componentes fundamentais:
 
 $$\mathbb{E}[Erro] = \text{Viés}^2 + \text{Variância} + \sigma_{\epsilon}^2$$
@@ -428,7 +428,7 @@ $$\mathbb{E}[Erro] = \text{Viés}^2 + \text{Variância} + \sigma_{\epsilon}^2$$
 A respeito do comportamento dessas componentes e do fenômeno do **Bias-Variance Tradeoff**, assinale a afirmativa correta:
 
 * **A)** Modelos com alto viés (*high bias*) tendem a superajustar-se aos ruídos aleatórios do conjunto de treinamento, resultando em acurácia de 100% no teste.
-* **B)** O termo $\sigma_{\epsilon}^2$ representa o erro redutível, que pode ser reduzido a zero simplesmente escolhendo o algoritmo de inteligência artificial mais moderno do mercado considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **B)** O termo $\sigma_{\epsilon}^2$ representa o erro redutível, que pode ser reduzido a zero simplesmente escolhendo o algoritmo de inteligência artificial mais moderno do mercado.
 * **C)** Modelos excessivamente simples e rígidos (como regressão linear em dados curvilíneos) sofrem de **alto viés e baixa variância**, caracterizando o fenômeno do **Subajuste (*Underfitting*)**; enquanto modelos hipercomplexos e flexíveis (como árvores de decisão profundas sem poda) sofrem de **baixo viés e alta variância**, decorando os ruídos do treino e caracterizando o **Sobreajuste (*Overfitting*)**.
 * **D)** Aumentar a quantidade de variáveis irrelevantes e ruídos na base diminui a variância do modelo.
 * **E)** Técnicas de regularização (como penalidades L1/L2) servem para aumentar a variância do modelo a níveis extremos.
@@ -452,7 +452,7 @@ A respeito do comportamento dessas componentes e do fenômeno do **Bias-Variance
 ---
 
 ### Teste 340
-**(FCC - DPE-RS - Analista de Tecnologia da Informação)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Um Tribunal de Contas implantou um algoritmo de aprendizado de máquina para triagem de prestações de contas municipais. Em uma amostra de teste com 10.000 processos auditados, sabe-se que 200 processos continham irregularidades graves (positivos) e 9.800 eram processos estritamente regulares (negativos).
 Após a execução do classificador, os resultados observados na matriz de confusão foram:
 
@@ -488,14 +488,14 @@ Avaliando o desempenho desse modelo para o controle externo, assinale a afirmati
 ---
 
 ### Teste 341
-**(FCC - TRT / Analista Judiciário - TI - Avaliação de Modelos: Curva ROC, AUC e Métricas de Erro)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Para mensurar a eficácia de um classificador probabilístico encarregado de apontar licitações suspeitas de fraude sob diferentes limiares de corte (*thresholds*), a área técnica utiliza a **Curva ROC** (*Receiver Operating Characteristic*) e sua respectiva área sob a curva (**AUC-ROC**).
 
 A respeito dessas métricas de avaliação de desempenho, assinale a afirmativa correta:
 
 * **A)** A Curva ROC plota graficamente a Taxa de Verdadeiros Positivos (Sensibilidade / *Recall*) no eixo $Y$ contra a Taxa de Falsos Positivos ($1 - \text{Especificidade}$) no eixo $X$, para todos os limiares de classificação possíveis.
 * **B)** Um classificador perfeitamente aleatório, equivalente ao lançamento de uma moeda honesta, apresenta um valor de AUC-ROC igual a 1,0.
-* **C)** A métrica MAE (*Mean Absolute Error*) penaliza os grandes erros individuais com mais severidade do que o RMSE (*Root Mean Squared Error*), pois eleva os resíduos ao quadrado em estrita conformidade com as normas legais e regulamentares aplicáveis.
+* **C)** A métrica MAE (*Mean Absolute Error*) penaliza os grandes erros individuais com mais severidade do que o RMSE (*Root Mean Squared Error*), pois eleva os resíduos ao quadrado.
 * **D)** O valor máximo teórico atingível pela métrica AUC-ROC é de 0,5.
 * **E)** A Curva ROC só pode ser construída se a base de dados tiver exatamente 50% de instâncias de cada classe, sendo inoperante em problemas com classes desbalanceadas.
 
@@ -583,14 +583,14 @@ O **Apache Spark** superou as limitações de I/O do Hadoop executando a computa
 ---
 
 ### Teste 342
-**(FCC - TRT-2ª Região - Analista Judiciário - Tecnologia da Informação)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No âmbito do armazenamento e processamento distribuído de grandes volumes de dados governamentais com o ecossistema Apache Hadoop, assinale a afirmativa correta a respeito da arquitetura do HDFS (*Hadoop Distributed File System*):
 
 * **A)** O *NameNode* atua como o nó mestre do cluster e armazena os metadados do sistema de arquivos e a localização dos blocos prioritariamente em memória RAM, enquanto os *DataNodes* funcionam como nós de trabalho que guardam fisicamente os blocos de dados em seus sistemas de disco locais.
 * **B)** O tamanho padrão de um bloco de dados no HDFS é de 512 bytes, tamanho idêntico aos setores de discos rígidos convencionais para agilizar o particionamento de pequenos arquivos de texto.
 * **C)** A perda de qualquer *DataNode* no HDFS acarreta a destruição imediata e irrecuperável de todo o cluster, visto que o Hadoop não contempla mecanismos de replicação de blocos.
 * **D)** O componente *YARN* foi inteiramente descontinuado na versão Hadoop 2.x por ser incompatível com sistemas operacionais corporativos de código aberto.
-* **E)** O paradigma MapReduce realiza todo o processamento analítico estritamente na memória volátil dos nós, dispensando por completo gravações intermediárias em disco rígido entre as fases de Map e Reduce considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **E)** O paradigma MapReduce realiza todo o processamento analítico estritamente na memória volátil dos nós, dispensando por completo gravações intermediárias em disco rígido entre as fases de Map e Reduce.
 
 
 ---
@@ -608,7 +608,7 @@ No âmbito do armazenamento e processamento distribuído de grandes volumes de d
 ---
 
 ### Teste 343
-**(FCC - SEFAZ-PE - Auditoria Fiscal - Processamento Distribuído com Apache Spark)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Durante o processamento em lote de dezenas de milhões de documentos fiscais eletrônicos em um cluster com Apache Spark, um analista escreveu o seguinte trecho de código:
 
 ```python

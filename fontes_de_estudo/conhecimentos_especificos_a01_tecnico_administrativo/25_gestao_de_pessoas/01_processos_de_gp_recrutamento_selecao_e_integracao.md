@@ -136,7 +136,7 @@ flowchart TD
 ---
 
 ### Teste 430
-**(FCC – Analista de Controle Externo – TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No âmbito da literatura clássica de Gestão de Pessoas formulada por Idalberto Chiavenato, os macroprocessos organizacionais integram um conjunto articulado de subsistemas interconectados. Ao estruturar os processos de gestão, o desenho de cargos, a socialização organizacional dos novos colaboradores e a sistemática de avaliação de desempenho funcional integram expressamente o macroprocesso de:
 
 * **A)** Agregar Pessoas.
@@ -161,7 +161,7 @@ No âmbito da literatura clássica de Gestão de Pessoas formulada por Idalberto
 ---
 
 ### Teste 431
-**(FCC - Adaptada / Analista de Gestão Pública)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Idalberto Chiavenato estrutura a moderna Gestão de Pessoas em seis processos básicos interdependentes: Agregar, Aplicar, Recompensar, Desenvolver, Manter e Monitorar pessoas.
 
 O processo de **Aplicar Pessoas** compreende precipuamente as atividades de:
@@ -169,7 +169,7 @@ O processo de **Aplicar Pessoas** compreende precipuamente as atividades de:
 * **A)** Desenho organizacional de cargos, análise e descrição de funções, orientação e socialização das pessoas e avaliação do desempenho humano.
 * **B)** Recrutamento interno, recrutamento externo e seleção de candidatos por provas e títulos.
 * **C)** Concessão de remuneração fixa, incentivos salariais, benefícios e serviços sociais.
-* **D)** Treinamento e desenvolvimento de competências, gestão do conhecimento e programas de mudança no âmbito da administração pública direta e indireta.
+* **D)** Treinamento e desenvolvimento de competências, gestão do conhecimento e programas de mudança.
 * **E)** Higiene, segurança e qualidade de vida no trabalho e relações com sindicatos.
 
 
@@ -255,11 +255,11 @@ flowchart LR
 ---
 
 ### Teste 432
-**(FCC – Auditor de Controle Externo – TCE-RO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Uma entidade pública estadual necessita preencher posições funcionais de gestão interna. Ao optar prioritariamente pelo recrutamento interno em detrimento do recrutamento externo, a organização colhe benefícios relevantes, porém sujeita-se a uma vulnerabilidade conceitual frequentemente apontada pela literatura, consubstanciada na:
 
 * **A)** morosidade excessiva para disponibilizar o profissional e elevadíssimo dispêndio orçamentário com editais públicos e bancas examinadoras.
-* **B)** desmotivação crônica dos profissionais da casa, que visualizam o processo como um obstáculo intransponível à sua própria ascensão profissional no âmbito da administração pública direta e indireta.
+* **B)** desmotivação crônica dos profissionais da casa, que visualizam o processo como um obstáculo intransponível à sua própria ascensão profissional.
 * **C)** ocorrência do fenômeno da endogamia cultural (*inbreeding*), marcada pela recirculação contínua dos mesmos vícios, soluções e práticas preexistentes, com bloqueio à inovação.
 * **D)** exigência legal obrigatória de reabertura imediata de concurso público para a investidura nas atribuições funcionais correlatas.
 * **E)** incapacidade operacional de avaliar previamente as competências comportamentais dos candidatos que já compõem o quadro institucional.
@@ -323,7 +323,7 @@ flowchart TD
 ---
 
 ### Teste 433
-**(FCC – Analista Administrativo – DPE-SP)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em uma entrevista de seleção baseada na gestão por competências, o examinador formula a seguinte questão ao candidato: *"Descreva uma ocasião em seu trabalho anterior na qual um prazo orçamentário complexo estava na iminência de se esgotar, detalhe qual era o desafio sob sua responsabilidade direta, as ações práticas que você implementou para contornar o obstáculo e quais foram os resultados mensuráveis obtidos"*. A técnica de seleção adotada classifica-se como:
 
 * **A)** Entrevista não diretiva e livre de avaliação projetiva.
@@ -348,7 +348,7 @@ Em uma entrevista de seleção baseada na gestão por competências, o examinado
 ---
 
 ### Teste 434
-**(FCC - Adaptada / Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No tocante às rotinas de recrutamento de pessoal, o **Recrutamento Interno** contrapõe-se ao **Recrutamento Externo** ao privilegiar a movimentação de servidores da própria organização.
 
 Constitui uma típica **vantagem** do Recrutamento Interno:
@@ -357,7 +357,7 @@ Constitui uma típica **vantagem** do Recrutamento Interno:
 * **B)** A introdução massiva de novas ideias, talentos externos e inovação de ponta na cultura corporativa.
 * **C)** A renovação completa do quadro de pessoal e oxigenação da estrutura burocrática.
 * **D)** A dispensa absoluta de avaliação de desempenho funcional e conformidade disciplinar.
-* **E)** A eliminação do sentimento de frustração entre os servidores que não foram contemplados na promoção considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **E)** A eliminação do sentimento de frustração entre os servidores que não foram contemplados na promoção.
 
 
 ---
@@ -404,7 +404,7 @@ flowchart TD
 ---
 
 ### Teste 435
-**(FCC – Analista de Controle Externo – TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 De acordo com os preceitos expressos no art. 37 da Constituição Federal de 1988 e a jurisprudência sumulada e vinculante dos Tribunais Superiores acerca do concurso público:
 
 * **A)** A realização de prova de títulos em concursos públicos pode ostentar caráter classificatório ou eliminatório, a exclusivo critério discricionário do edital regulamentador.
@@ -429,7 +429,7 @@ De acordo com os preceitos expressos no art. 37 da Constituição Federal de 198
 ---
 
 ### Teste 436
-**(FCC - Adaptada / Analista de Planejamento e Gestão)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No processo de socialização organizacional (*onboarding*) dos novos servidores públicos ingressantes, John Van Maanen e Edgar Schein categorizam as táticas institucionais de socialização empregadas pela organização.
 
 A tática de socialização caracterizada por integrar os novatos em grupos que passam pelas mesmas experiências e trilhas formativas conjuntas, com um cronograma predeterminado de etapas de acolhimento e mentoria, é classificada como:
@@ -480,7 +480,7 @@ flowchart LR
 ---
 
 ### Teste 437
-**(FCC – Técnico Judiciário – Área Administrativa – TRT-24ª)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O processo de socialização organizacional compreende o conjunto de mecanismos pelos quais a instituição transmite sua cultura, crenças e normas aos novos colaboradores. Segundo a doutrina de comportamento organizacional e gestão de pessoas, o momento em que o servidor recém-empossado ingressa na repartição e depara-se com as rotinas práticas, confrontando suas expectativas prévias com a realidade fática do ambiente de trabalho, denomina-se:
 
 * **A)** Estágio de Metamorfose Cultural.
@@ -515,7 +515,7 @@ O processo de socialização organizacional compreende o conjunto de mecanismos 
 ---
 
 ### Teste 438
-**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na Administração Pública brasileira, o concurso público de provas ou de provas e títulos constitui o instrumento constitucional republicano por excelência para a investidura em cargo ou emprego público (art. 37, II da CF/88).
 
 A respeito das regras constitucionais do concurso público, é correto afirmar:
@@ -542,14 +542,14 @@ A respeito das regras constitucionais do concurso público, é correto afirmar:
 ---
 
 ### Teste 439
-**(FCC - Adaptada / TCE-GO - Analista de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No processo seletivo de pessoas, as técnicas de seleção devem apresentar dois requisitos psicométricos e metodológicos indispensáveis: **Validade** e **Confiabilidade (Fidedignidade)**.
 
 Diz-se que uma técnica ou teste de seleção possui alta **Validade** quando:
 
 * **A)** Mede com precisão exata aquilo que se propõe a medir e possui alto poder preditivo de prognosticar o desempenho futuro real do candidato no exercício do cargo.
 * **B)** Produz sempre as mesmas notas numéricas quando aplicada repetidas vezes à mesma pessoa em dias consecutivos.
-* **C)** Apresenta o menor custo financeiro de aplicação em relação ao orçamento disponível do departamento de recursos humanos no âmbito da administração pública direta e indireta.
+* **C)** Apresenta o menor custo financeiro de aplicação em relação ao orçamento disponível do departamento de recursos humanos.
 * **D)** É aplicada exclusivamente por meio de questionários digitais anônimos na internet.
 * **E)** Elimina mais de 90% dos candidatos na primeira etapa eliminatória.
 

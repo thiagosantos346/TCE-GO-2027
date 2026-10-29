@@ -86,7 +86,7 @@ Os **ingressos extraorçamentários** não configuram receita orçamentária, n�
 ---
 
 ### Teste 220
-**(FCC - Adaptada / Analista de Gestão Pública)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na execução orçamentária de determinada entidade autárquica estadual, os valores descontados mensalmente na folha de pagamentos dos seus servidores a título de contribuição previdenciária própria e de pensão alimentícia judicial fixada por sentença constituem:
 
 * **A)** Receitas Correntes Patrimoniais da própria autarquia.
@@ -148,7 +148,7 @@ flowchart LR
 ---
 
 ### Teste 221
-**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A respeito das etapas e estágios da receita orçamentária e dos ingressos nos cofres estaduais, assinale a assertiva correta:
 
 * **A)** As garantias contratuais depositadas em dinheiro por licitantes vencedores configuram receita orçamentária corrente, devendo constar previamente estimadas na Lei Orçamentária Anual.
@@ -173,13 +173,13 @@ A respeito das etapas e estágios da receita orçamentária e dos ingressos nos 
 ---
 
 ### Teste 222
-**(FCC - Adaptada / Analista de Planejamento e Orçamento)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No tocante ao estágio da arrecadação e ao princípio da unidade de caixa na execução orçamentária das receitas públicas (art. 56 da Lei nº 4.320/1964), assinale a afirmativa correta:
 
 * **A)** O recolhimento de todas as receitas far-se-á em estrita observância ao princípio de unidade de tesouraria, vedando-se a fragmentação de disponibilidades governamentais em contas bancárias descentralizadas sem autorização legal.
 * **B)** A arrecadação confunde-se juridicamente com o recolhimento, ocorrendo ambos simultaneamente quando o contribuinte entrega o valor à instituição bancária credenciada.
 * **C)** É facultado às autarquias manterem receitas públicas sob a guarda de cofres particulares, dispensando-se a transferência para a Conta Única do Tesouro.
-* **D)** As receitas vinculadas a fundos especiais não se sujeitam à unidade de caixa, devendo seus recursos permanecerem fora do sistema bancário oficial no âmbito da administração pública direta e indireta no âmbito da administração pública direta e indireta.
+* **D)** As receitas vinculadas a fundos especiais não se sujeitam à unidade de caixa, devendo seus recursos permanecerem fora do sistema bancário oficial.
 * **E)** O recolhimento consiste no ato pelo qual os agentes arrecadadores entregam os recursos aos agentes fiscais para conferência manual antes do depósito no Tesouro.
 
 
@@ -249,7 +249,7 @@ $$\text{C . O . E . D1 . D2 . D3 . D4 . T}$$
 ---
 
 ### Teste 223
-**(FCC - Adaptada / TCE-RS - Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Determinado Estado da Federação recebeu as seguintes quantias financeiras em sua conta única do Tesouro ao longo do mês:
 
 I. R$ 500.000,00 referentes à venda em leilão público de veículos automotores inservíveis de sua frota administrativa.  
@@ -282,13 +282,13 @@ Nos termos da Lei Federal nº 4.320/1964 e das normas do MCASP, os itens I, II e
 ---
 
 ### Teste 224
-**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Segundo a classificação por categoria econômica estabelecida pela Lei Federal nº 4.320/1964 e pelo Manual de Contabilidade Aplicada ao Setor Público (MCASP), constituem, respectivamente, Receita Corrente e Receita de Capital:
 
 * **A)** Receita Patrimonial decorrente de aluguéis de imóveis públicos e Receita decorrente de Alienação de Bens Imóveis.
 * **B)** Amortização de Empréstimos concedidos e Receita Tributária proveniente de impostos sobre patrimônio.
 * **C)** Operações de Crédito de longo prazo e Receita de Serviços prestados pelo ente estatal.
-* **D)** Alienação de Bens Móveis inservíveis e Receita de Contribuições Sociais no âmbito da administração pública direta e indireta.
+* **D)** Alienação de Bens Móveis inservíveis e Receita de Contribuições Sociais.
 * **E)** Transferências de Capital recebidas para obras e Receita Agropecuária decorrente de produção própria.
 
 
@@ -307,7 +307,7 @@ Segundo a classificação por categoria econômica estabelecida pela Lei Federal
 ---
 
 ### Teste 225
-**(FCC - Adaptada / TCE-RS - Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A classificação por natureza da receita orçamentária é estruturada em 8 (oito) dígitos decimais padronizados nacionalmente pela SOF e STN. Considere o código de natureza de receita `1.3.2.1.01.1.1`:
 
 O primeiro dígito "1" e o segundo dígito "3" identificam, na estrutura oficial, respectivamente:
@@ -316,7 +316,7 @@ O primeiro dígito "1" e o segundo dígito "3" identificam, na estrutura oficial
 * **B)** Origem da Receita (Receitas Tributárias) e Espécie da Receita (Taxas).
 * **C)** Subdivisão de Recursos e Vinculação Constitucional de Impostos.
 * **D)** Categoria Econômica (Receitas de Capital) e Tipo de Receita (Principal).
-* **E)** Esfera Orçamentária e Identificador de Uso (IDUSO) no âmbito da administração pública direta e indireta.
+* **E)** Esfera Orçamentária e Identificador de Uso (IDUSO).
 
 
 ---
@@ -361,7 +361,7 @@ flowchart TD
 ---
 
 ### Teste 226
-**(FCC - Adaptada / Técnico de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 O Governo do Estado de Goiás promoveu a alienação, mediante concorrência pública, de um edifício comercial de sua propriedade que estava desocupado, arrecadando R$ 10.000.000,00. O Governador pretende aplicar integralmente essa receita para pagar o reajuste salarial concedido aos servidores públicos da Secretaria da Saúde.
 
 De acordo com o artigo 44 da Lei Complementar nº 101/2000 (Lei de Responsabilidade Fiscal):
@@ -388,7 +388,7 @@ De acordo com o artigo 44 da Lei Complementar nº 101/2000 (Lei de Responsabilid
 ---
 
 ### Teste 227
-**(FCC - Adaptada / Analista de Planejamento e Orçamento)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Determinado Secretário de Estado da Fazenda propôs projeto de lei concedendo isenção temporária de IPVA para proprietários de veículos elétricos e híbridos matriculados no Estado. O projeto de lei foi aprovado pela Assembleia Legislativa sem a apresentação de estimativa de impacto orçamentário-financeiro e desacompanhado de medidas de compensação fiscal.
 
 À luz do artigo 14 da Lei de Responsabilidade Fiscal (LC nº 101/2000):
@@ -415,7 +415,7 @@ Determinado Secretário de Estado da Fazenda propôs projeto de lei concedendo i
 ---
 
 ### Teste 228
-**(FCC - Adaptada / Analista Jurídico de Controle)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 O art. 14 da Lei de Responsabilidade Fiscal (LC nº 101/2000) impõe condicionantes rigorosas para a concessão ou ampliação de incentivo ou benefício de natureza tributária da qual resulte renúncia de receita. Sobre o tema, é INCORRETO afirmar:
 
 * **A)** A renúncia compreende anistia, remissão, subsídio, crédito presumido, isenção em caráter não geral, alteração de alíquota ou modificação de base de cálculo que implique redução discriminada de tributos ou contribuições.
@@ -440,15 +440,15 @@ O art. 14 da Lei de Responsabilidade Fiscal (LC nº 101/2000) impõe condicionan
 ---
 
 ### Teste 229
-**(FCC - Adaptada / TCE-GO - Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Determinado Município goiano realizou a alienação de diversos imóveis públicos de seu patrimônio disponível, arrecadando R$ 10.000.000,00. Visando equilibrar o caixa municipal no final do mandato, o Prefeito enviou projeto de lei autorizando a utilização de 50% desses recursos para pagamento da folha salarial atrasada dos servidores públicos municipais e 50% para obras de pavimentação asfáltica.
 
 À luz do art. 44 da Lei Complementar nº 101/2000 (LRF):
 
-* **A)** A destinação proposta pelo Prefeito é plenamente lícita, pois os recursos provenientes da venda de bens móveis ou imóveis integram a receita livre do ente e podem ser aplicados em qualquer despesa pública no âmbito da administração pública direta e indireta.
+* **A)** A destinação proposta pelo Prefeito é plenamente lícita, pois os recursos provenientes da venda de bens móveis ou imóveis integram a receita livre do ente e podem ser aplicados em qualquer despesa pública.
 * **B)** A destinação para pagamento de folha de salários é expressamente vedada pela LRF, configurando nulidade do ato e infração fiscal, sendo a aplicação em pavimentação asfáltica perfeitamente regular por se tratar de despesa de capital.
 * **C)** Ambos os gastos propostos são ilícitos, pois a receita de alienação de ativos só pode ser utilizada para aplicação exclusiva no mercado de ações e títulos públicos.
-* **D)** É permitido o pagamento de pessoal com receitas de alienação de bens desde que haja autorização prévia por decreto do Governador do Estado no âmbito da administração pública direta e indireta.
+* **D)** É permitido o pagamento de pessoal com receitas de alienação de bens desde que haja autorização prévia por decreto do Governador do Estado.
 * **E)** O Município pode utilizar o produto da alienação para despesa de pessoal, desde que o montante não ultrapasse o limite prudencial de gastos da LRF.
 
 

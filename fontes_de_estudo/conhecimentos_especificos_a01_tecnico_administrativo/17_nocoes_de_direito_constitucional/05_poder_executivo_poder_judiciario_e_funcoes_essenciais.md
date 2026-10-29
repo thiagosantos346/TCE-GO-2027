@@ -118,7 +118,7 @@ O Presidente da República responde perante o STF por crimes comuns e perante o 
 ---
 
 ### Teste 154
-**(FCC – Analista de Controle Externo / TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O art. 84, VI, da Constituição Federal autoriza o Presidente da República a dispor, mediante decreto autônomo, sobre determinadas matérias de organização administrativa. A respeito dos limites dessa competência regulamentar executiva, é correto afirmar que o decreto autônomo:
 
 * **A)** pode criar órgãos públicos e secretarias de Estado desde que a medida não importe aumento de despesa pública.
@@ -140,7 +140,7 @@ O art. 84, VI, da Constituição Federal autoriza o Presidente da República a d
 > **Gabarito: B**
 
 ### Teste 155
-**(FCC – TRT – Analista Judiciário - 2009)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Vagando simultaneamente os cargos de Presidente e Vice-Presidente da República:
 
 * **A)** será chamado ao exercício definitivo da Presidência o Presidente da Câmara dos Deputados para cumprir todo o mandato restante.
@@ -162,7 +162,7 @@ Vagando simultaneamente os cargos de Presidente e Vice-Presidente da República:
 > **Gabarito: B**
 
 ### Teste 156
-**(FCC – TRT-2ª Região – Analista Judiciário - 2014)**  
+**(FCC – TRT-2 – Analista Judiciário - Tecnologia da Informação – 2014)**  
 Entre as atribuições conferidas pelo texto constitucional ao Presidente da República está o poder de "conceder indulto e comutar penas" (art. 84, XII). O exercício dessa atribuição presidencial não é cabível, nos termos da Constituição Federal, para beneficiar os condenados pela prática das infrações criminais de:
 
 * **A)** terrorismo, racismo, crimes hediondos e ação de grupos armados contra a ordem constitucional.
@@ -184,7 +184,7 @@ Entre as atribuições conferidas pelo texto constitucional ao Presidente da Rep
 > **Gabarito: C**
 
 ### Teste 157
-**(FGV – Auditor de Controle Externo / TCE-SC / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A responsabilidade política e penal do Presidente da República é disciplinada no art. 86 da Constituição Federal. De acordo com as normas constitucionais vigentes e a jurisprudência do STF, é correto afirmar:
 
 * **A)** Admitida a acusação por dois terços da Câmara dos Deputados, o Presidente será submetido a julgamento no STF ou Senado.
@@ -206,7 +206,7 @@ A responsabilidade política e penal do Presidente da República é disciplinada
 > **Gabarito: A**
 
 ### Teste 158
-**(FCC – Analista Judiciário / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A Constituição Federal de 1988 assegura aos magistrados um sólido conjunto de garantias institucionais inerentes ao livre exercício da função jurisdicional (art. 95). A respeito da vitaliciedade dos juízes, é correto afirmar que:
 
 * **A)** é adquirida no ato da posse perante o Tribunal de Justiça, vedada qualquer fase prévia de estágio probatório.
@@ -228,7 +228,7 @@ A Constituição Federal de 1988 assegura aos magistrados um sólido conjunto de
 > **Gabarito: B**
 
 ### Teste 159
-**(FGV – TJ-MT – Analista Judiciário - 2024)**  
+**(FGV – TJ-MT – Analista Judiciário - Tecnologia da Informação – 2024)**  
 Determinado órgão, em âmbito nacional, tem a competência de controlar a atuação administrativa e financeira do Poder Judiciário e o cumprimento dos deveres funcionais dos juízes, além de outras atribuições que lhe forem conferidas pelo Estatuto da Magistratura.  
 Nesse cenário, considerando as disposições da Constituição Federal de 1988, está-se diante de uma competência do:
 
@@ -251,7 +251,7 @@ Nesse cenário, considerando as disposições da Constituição Federal de 1988,
 > **Gabarito: B**
 
 ### Teste 160
-**(FGV – TJ-RR – Analista Judiciário - 2024)**  
+**(FGV – TJ-RR – Analista Judiciário - Suporte e Infraestrutura de TI – 2024)**  
 O Conselho Nacional de Justiça compõe-se de 15 (quinze) membros com mandato de 2 (dois) anos, admitida 1 (uma) recondução. As opções a seguir apresentam membros que participam da composição constitucional desse Conselho, à exceção de uma. Assinale-a:
 
 * **A)** Um juiz de Tribunal Regional Federal, indicado pelo Superior Tribunal de Justiça.
@@ -273,7 +273,7 @@ O Conselho Nacional de Justiça compõe-se de 15 (quinze) membros com mandato de
 > **Gabarito: D**
 
 ### Teste 161
-**(FGV – Analista Jurídico de Controle Externo / TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O art. 103-A da Constituição Federal confere ao Supremo Tribunal Federal a competência para editar súmulas com efeito vinculante em relação aos demais órgãos do Poder Judiciário e à administração pública. A respeito da súmula vinculante, é correto afirmar:
 
 * **A)** A aprovação de enunciado de súmula vinculante exige o quórum de maioria simples dos membros presentes no Plenário do STF.
@@ -295,7 +295,7 @@ O art. 103-A da Constituição Federal confere ao Supremo Tribunal Federal a com
 > **Gabarito: B**
 
 ### Teste 162
-**(FCC – Procurador do Estado / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O Ministério Público é instituição permanente, essencial à função jurisdicional do Estado, incumbindo-lhe a defesa da ordem jurídica, do regime democrático e dos interesses sociais e individuais indisponíveis. A respeito dos seus princípios institucionais, é correto afirmar:
 
 * **A)** A unidade, a indivisibilidade e a independência funcional são princípios institucionais do Ministério Público.
@@ -317,7 +317,7 @@ O Ministério Público é instituição permanente, essencial à função jurisd
 > **Gabarito: A**
 
 ### Teste 163
-**(FCC – Oficial de Defensoria Pública / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Acerca do regime constitucional conferido às Funções Essenciais à Justiça, em especial à Defensoria Pública (art. 134 da CF/88), analise as prerrogativas e garantias asseguradas pela ordem constitucional. É correto afirmar que:
 
 * **A)** Às Defensorias Públicas são asseguradas a autonomia funcional, administrativa e a iniciativa de sua proposta orçamentária.
@@ -339,7 +339,7 @@ Acerca do regime constitucional conferido às Funções Essenciais à Justiça, 
 > **Gabarito: A**
 
 ### Teste 164
-**(FGV – Analista de Controle Externo / Auditoria / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito da Advocacia Pública disciplinada nos artigos 131 e 132 da Constituição Federal, analise as competências conferidas à Advocacia-Geral da União e às Procuradorias dos Estados e do Distrito Federal. É correto afirmar que:
 
 * **A)** A representação judicial da União nas execuções de dívida ativa de natureza tributária compete privativamente à CGU.

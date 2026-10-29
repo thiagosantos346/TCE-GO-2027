@@ -90,7 +90,7 @@ Se a oração subordinada for retirada, a oração principal torna-se sintaticam
 ---
 
 ### Teste 032
-**(FCC – DPE-RS – Analista Jurídico)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere o período:  
 *"O plenário não acolheu as preliminares da defesa, nem os auditores encontraram atenuantes nos documentos acostados aos autos."*
 
@@ -108,7 +108,7 @@ Em relação à estrutura sintática do período acima, é correto afirmar que:
 > **Comentário Detalhado:**
 >
 > - **A)** Incorreta. O período é composto por coordenação, pois as orações são sintaticamente independentes entre si (não exercem função de termo oracional de outra oração).
-> - **B)** Correta. A conjunção coordenativa aditiva *"nem"* equivale a *"e não"*, ligando duas orações coordenadas que expressam soma de ideias negativas: *"O plenário não acolheu as preliminares (...) e os auditores não encontraram atenuantes..."*. Trata-se de oração coordenada sindética aditiva.
+> - **B)** Correta. A conjunção coordenativa aditiva *"nem"* equivale a *"e não"*, ligando duas orações coordenadas que expressam soma de ideias negativas: *"O plenário não acolheu as preliminares (..) e os auditores não encontraram atenuantes.."*. Trata-se de oração coordenada sindética aditiva.
 > - **C)** Incorreta. Não há nexo causal-consecutivo entre as orações, mas simples adição de fatos constatados.
 > - **D)** Incorreta. *"Nem"* é aditivo, ao passo que *"por conseguinte"* é conclusivo.
 > - **E)** Incorreta. A dependência sintática é própria da subordinação. Na coordenação, cada oração possui estrutura sintática completa e autônoma.
@@ -131,7 +131,7 @@ As orações coordenadas dividem-se em dois grandes grupos: assindéticas (despr
 A gramática normativa e os exames da Fundação Carlos Chagas reconhecem cinco modalidades de orações coordenadas sindéticas:
 
 1. **Aditivas:** Expressam ideia de soma, acréscimo ou adição de pensamentos:
-    * Conectivos: *e, nem* (= e não), *não só... mas também, não só... como também, bem como, tanto... quanto*.
+    * Conectivos: *e, nem* (= e não), *não só.. mas também, não só.. como também, bem como, tanto.. quanto*.
     * Exemplo: *"A fiscalização não apenas apontou o sobrepreço, como também recomendou a aplicação de multa."*
 
 2. **Adversativas:** Indicam oposição, contraste, compensação ou quebra de expectativa entre proposições:
@@ -139,7 +139,7 @@ A gramática normativa e os exames da Fundação Carlos Chagas reconhecem cinco 
     * Exemplo: *"O gestor apresentou os balancetes, porém não comprovou a liquidação das despesas."*
 
 3. **Alternativas:** Exprimem ideia de escolha, exclusão mútua ou alternância de situações:
-    * Conectivos: *ou, ou... ou, ora... ora, quer... quer, seja... seja, já... já*.
+    * Conectivos: *ou, ou.. ou, ora.. ora, quer.. quer, seja.. seja, já.. já*.
     * Exemplo: *"Ou o município regulariza o portal da transparência, ou sofrerá sanções administrativas."*
 
 4. **Conclusivas:** Expressam dedução lógica, resultado ou consequência direta da proposição anterior:
@@ -164,7 +164,7 @@ A conjunção *pois* assume comportamentos sintáticos diametralmente opostos em
 ---
 
 ### Teste 033
-**(FCC – AL-SP – Analista Legislativo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere o período:  
 *"Os pareceres técnicos da controladoria demonstraram cabalmente a regularidade do processo licitatório; o plenário aprovou, <ins>pois</ins>, as contas do ordenador de despesas."*  
 No contexto acima, o termo destacado expressa valor semântico de:
@@ -238,7 +238,7 @@ flowchart TD
 ---
 
 ### Teste 034
-**(FCC – TCE-GO – Analista de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere as duas orações destacadas a seguir:  
 
 1. *"É fundamental **que os gestores apresentem as notas fiscais originais**."*  
@@ -249,7 +249,7 @@ Quanto à função sintática exercida pelas orações destacadas, assinale a al
 * **A)** Em 1, a oração é subordinada substantiva objetiva direta; em 2, é subordinada substantiva subjetiva.
 * **B)** Em 1, a oração exerce a função de sujeito do verbo *ser* (subordinada substantiva subjetiva); em 2, funciona como objeto direto da forma verbal *constatou* (subordinada substantiva objetiva direta).
 * **C)** Ambas as orações exercem a função de aposto explicativo do termo antecedente.
-* **D)** Em 1 e 2, as orações classificam-se como subordinadas adjetivas explicativas introduzidas por pronome relativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **D)** Em 1 e 2, as orações classificam-se como subordinadas adjetivas explicativas introduzidas por pronome relativo.
 * **E)** Em 1, a oração é completiva nominal dependente do predicativo *fundamental*; em 2, é adverbial causal.
 
 
@@ -267,7 +267,7 @@ ightarrow$ *"ISSO é fundamental"*. O termo *"ISSO"* funciona como sujeito da or
 ---
 
 ### Teste 035
-**(FCC – TRT – Analista Judiciário)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere o segmento:  
 *"Os auditores de controle externo, <ins>que fiscalizam a correta aplicação dos recursos públicos estaduais</ins>, atuam com estrita independência funcional."*  
 A respeito da oração sublinhada e do emprego das vírgulas que a isolam, é correto afirmar:
@@ -304,13 +304,13 @@ A gramática normativa classifica as orações subordinadas adverbiais em nove c
 | Categoria | Ideia Central | Conjunções e Locuções Principais | Exemplo de Aplicação |
 | :--- | :--- | :--- | :--- |
 | **Causal** | Motivo, razão ou causa da oração principal | *porque, visto que, já que, uma vez que, como* (no início), *porquanto, dado que* | *"Como chovia torrencialmente, o fiscal adiou a vistoria."* |
-| **Consecutiva** | Consequência, resultado ou efeito decorrente | *tal... que, tanto... que, tão... que, tamanho... que, de forma que, de modo que* | *"A fraude foi tamanha que chocou os auditores."* |
+| **Consecutiva** | Consequência, resultado ou efeito decorrente | *tal.. que, tanto.. que, tão.. que, tamanho.. que, de forma que, de modo que* | *"A fraude foi tamanha que chocou os auditores."* |
 | **Condicional** | Condição indispensável ou hipótese | *se, caso, contanto que, desde que, a não ser que, a menos que* | *"Caso o plenário autorize, iniciaremos a inspeção."* |
 | **Concessiva** | Fato que se opõe à principal sem impedi-la | *embora, conquanto, ainda que, mesmo que, a despeito de, posto que, se bem que* | *"Conquanto houvesse pressão, o relator manteve o voto."* |
 | **Conformativa** | Conformidade, acordo ou modelo seguido | *conforme, consoante, segundo, como* (= conforme) | *"O edital foi publicado, como prescreve a lei."* |
-| **Comparativa** | Confronto analógico entre dois elementos | *como, assim como, tal qual, mais... do que, menos... do que* | *"O técnico procedeu com rigor como um perito criminal."* |
+| **Comparativa** | Confronto analógico entre dois elementos | *como, assim como, tal qual, mais.. do que, menos.. do que* | *"O técnico procedeu com rigor como um perito criminal."* |
 | **Final** | Objetivo, desígnio ou finalidade | *a fim de que, para que, com o fito de, com o intuito de* | *"O tribunal aprovou novas resoluções para que haja transparência."* |
-| **Proporcional** | Proporcionalidade ou simultaneidade progressiva | *à medida que, à proporção que, ao passo que, quanto mais... mais* | *"À medida que os autos avançavam, surgiam novas provas."* |
+| **Proporcional** | Proporcionalidade ou simultaneidade progressiva | *à medida que, à proporção que, ao passo que, quanto mais.. mais* | *"À medida que os autos avançavam, surgiam novas provas."* |
 | **Temporal** | Momento cronológico em que ocorre a ação | *quando, enquanto, logo que, assim que, desde que, todas as vezes que* | *"Assim que a sessão terminou, a ata foi lavrada."* |
 
 ### 4.2 Adversativas vs. Concessivas: Conflito Sintático, Semântico e Modal
@@ -355,12 +355,12 @@ O conectivo *como* assume múltiplos papéis dependendo da sua posição na fras
 1. **Como Causal:** Ocorre tipicamente anteposto ao período (no início da frase), equivalendo a *já que, visto que, dado que*: *"**Como** o prazo de apresentação de defesa havia expirado na véspera, o gestor foi declarado revel"*.
 2. **Como Conformativo:** Equivale a *conforme, segundo, consoante*, indicando adequação a uma norma ou modelo: *"O concurso público realizou-se, **como** determina a Constituição Estadual"*.
 3. **Como Comparativo:** Estabelece confronto de semelhança analógica (= *tal qual, assim como*): *"O fiscal examinou as planilhas **como** um analista forense minucioso"*.
-4. **Como Aditivo (Correlativo):** Integra a estrutura aditiva correlata *não só... como também*: *"O parecer apontou **não só** desídia administrativa, **como também** dano patrimonial"*.
+4. **Como Aditivo (Correlativo):** Integra a estrutura aditiva correlata *não só.. como também*: *"O parecer apontou **não só** desídia administrativa, **como também** dano patrimonial"*.
 
 ---
 
 ### Teste 036
-**(FCC – TRT – Analista Judiciário)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere o período:  
 *"À medida que as investigações avançavam, novos indícios de irregularidades vinham à tona, de modo que a comissão decidiu prorrogar os trabalhos por mais trinta dias."*
 
@@ -386,7 +386,7 @@ Os conectivos destacados expressam, correta e respectivamente, as noções circu
 ---
 
 ### Teste 037
-**(FCC – TCE-GO – Analista de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere o seguinte período:  
 *"<ins>Conquanto</ins> a equipe de auditoria tenha coligido indícios substanciais de superfaturamento na compra de medicamentos, a autoridade julgadora decidiu pela conversão dos autos em diligência saneadora."*  
 O conectivo destacado introduz relação de sentido e pode ser substituído, mantendo-se a correção gramatical e o sentido original do período, por:
@@ -413,7 +413,7 @@ O conectivo destacado introduz relação de sentido e pode ser substituído, man
 ---
 
 ### Teste 038
-**(FCC – DPE-RS – Analista de Processos)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Assinale a frase em que o conectivo **COMO** expressa relação semântica de **causa**:
 
 * **A)** *"O técnico de suporte agiu rapidamente, como orientava o protocolo de segurança da informação."* em conformidade com as diretrizes e padrões de arquitetura corporativa.
@@ -430,7 +430,7 @@ Assinale a frase em que o conectivo **COMO** expressa relação semântica de **
 > - **A)** Incorreta. A oração *como orientava o protocolo* veicula sentido de conformidade, equivalendo a *conforme* ou *segundo* (oração subordinada adverbial conformativa).
 > - **B)** Incorreta. O segmento *como um raio* opera comparação analógica de semelhança, equivalendo a *tal qual* (oração subordinada adverbial comparativa).
 > - **C)** Correta. Posicionado no início do período e encabeçando oração anteposta à principal, o conectivo **como** expressa inequívoco valor de **causa** (= *já que, visto que, dado que, porque*). A circunstância de o prazo haver expirado foi a causa motriz que determinou o efeito de o gestor ser declarado revel.
-> - **D)** Incorreta. A estrutura *não apenas... como também* é uma locução correlativa coordenativa de adição.
+> - **D)** Incorreta. A estrutura *não apenas.. como também* é uma locução correlativa coordenativa de adição.
 > - **E)** Incorreta. O vocábulo *como* atua como advérbio interrogativo de modo em oração subordinada substantiva objetiva direta, indicando a maneira pela qual a fraude era praticada.
 > 
 > **Gabarito: C**
@@ -507,7 +507,7 @@ A pontuação é ferramenta de arquitetura do sentido discursivo. O deslocamento
 ---
 
 ### Teste 039
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A frase cuja pontuação atende plenamente às normas da norma culta da língua portuguesa é:
 
 * **A)** *"O pleno do Tribunal de Contas, após detido exame dos relatórios de engenharia votou pela anulação da concorrência."*
@@ -523,7 +523,7 @@ A frase cuja pontuação atende plenamente às normas da norma culta da língua 
 >
 > - **A)** Incorreta. O segmento adverbial intercalado *"após detido exame dos relatórios de engenharia"* foi aberto com uma vírgula após o sujeito, mas não foi fechado antes do verbo *votou*. Isso gerou a proibição inegociável de separar o sujeito do predicado por uma vírgula simples solitária.
 > - **B)** Incorreta. Incorre no mesmo erro da assertiva A sob feição inversa: não abriu a vírgula antes do adjunto adverbial intercalado, deixando uma vírgula solitária antes do verbo *votou*, cindindo indevidamente a oração direta.
-> - **C)** Correta. O adjunto adverbial de tempo de longa extensão encontra-se devidamente intercalado entre o sujeito (*O pleno do Tribunal de Contas*) e o predicado (*votou pela anulação...*), estando perfeitamente isolado por **duas vírgulas simétricas** (uma no início e outra no término do termo intercalado).
+> - **C)** Correta. O adjunto adverbial de tempo de longa extensão encontra-se devidamente intercalado entre o sujeito (*O pleno do Tribunal de Contas*) e o predicado (*votou pela anulação..*), estando perfeitamente isolado por **duas vírgulas simétricas** (uma no início e outra no término do termo intercalado).
 > - **D)** Incorreta. A vírgula empregada após o verbo *votou* separa indevidamente o verbo de seu objeto indireto regido pela preposição *por* (*votou pela anulação*), ferindo a regra estrutural da cadeia SVC.
 > - **E)** Incorreta. A vírgula após o pronome relativo *que* cinde indevidamente o pronome relativo do verbo da oração adjetiva (*continha*).
 > 
@@ -532,7 +532,7 @@ A frase cuja pontuação atende plenamente às normas da norma culta da língua 
 ---
 
 ### Teste 040
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere a pontuação no período abaixo:  
 *"A Lei de Responsabilidade Fiscal impõe limites severos para os gastos com pessoal; os municípios combalidos financeiramente, no entanto, frequentemente ultrapassam esses tetos prudenciais."*
 
@@ -551,7 +551,7 @@ Sobre o emprego dos sinais de pontuação no trecho, assinale a alternativa corr
 >
 > - **A)** Correta. O ponto e vírgula é o sinal de pontuação ideal na sintaxe culta da FCC para separar orações coordenadas extensas que se contrapõem em sentido, especialmente quando uma delas já possui vírgulas internas isolando adjuntos ou conjunções adversativas deslocadas (como *"no entanto"* entre vírgulas).
 > - **B)** Incorreta. Não se trata de enumeração explicativa nem citação literal, razão pela qual o ponto e vírgula é plenamente legítimo e elegante.
-> - **C)** Incorreta. Estando a conjunção adversativa (*no entanto*) deslocada para o meio da oração (após o sujeito *"os municípios..."*), o isolamento por vírgulas é **rigorosamente obrigatório**.
+> - **C)** Incorreta. Estando a conjunção adversativa (*no entanto*) deslocada para o meio da oração (após o sujeito *"os municípios.."*), o isolamento por vírgulas é **rigorosamente obrigatório**.
 > - **D)** Incorreta. O texto é técnico-dissertativo e descarta pontuação enfática de teor emotivo.
 > - **E)** Incorreta. *"combalidos financeiramente"* é adjunto adnominal restritivo de *municípios*; colocar vírgula após ele separaria o sujeito do seu verbo (*ultrapassam*), violando a regra de ouro SVC.
 >
@@ -560,7 +560,7 @@ Sobre o emprego dos sinais de pontuação no trecho, assinale a alternativa corr
 ---
 
 ### Teste 041
-**(FCC – TRT-23 – Técnico Judiciário)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere as seguintes frases:  
 
 I. *"Os auditores que concluíram a capacitação técnica elaboraram pareceres impecáveis."*  
@@ -570,7 +570,7 @@ Comparando-se as frases I e II quanto aos efeitos semânticos e sintáticos deco
 
 * **A)** Em I e II, o sentido é estritamente idêntico, sendo o uso das vírgulas mero capricho de estilo do redator.
 * **B)** Em I, a oração sem vírgulas restringe o sentido de *auditores*, indicando que apenas um grupo específico deles concluiu o curso; em II, a oração entre vírgulas é explicativa, atribuindo a conclusão da capacitação à totalidade dos auditores referidos.
-* **C)** Em II, a oração entre vírgulas restringe o universo dos auditores, ao passo que em I generaliza para toda a categoria profissional considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **C)** Em II, a oração entre vírgulas restringe o universo dos auditores, ao passo que em I generaliza para toda a categoria profissional. em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **D)** A frase I contém erro gramatical grave por não pontuar oração adjetiva introduzida por pronome relativo.
 * **E)** A frase II apresenta pontuação incorreta porque nunca se deve isolar orações adjetivas por vírgulas.
 

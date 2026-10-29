@@ -102,7 +102,7 @@ Na sistemática da NLLC, os recursos administrativos não são mais interpostos 
 ---
 
 ### Teste 077
-**(FCC – Analista de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A Lei nº 14.133/2021 estruturou o processo de licitação em uma sequência de fases no art. 17. A respeito da ordem legal canônica das fases do procedimento licitatório ordinário na Nova Lei de Licitações, assinale a opção que indica a sequência correta:
 
 * **A)** Preparatória, divulgação do edital, apresentação de propostas, julgamento, habilitação, recursal e homologação.
@@ -123,7 +123,7 @@ A Lei nº 14.133/2021 estruturou o processo de licitação em uma sequência de 
 >
 > **Gabarito: A**
 ### Teste 078
-**(FCC – Técnico de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em um certame licitatório conduzido sob a modalidade Concorrência, a Administração Pública estadual pretende antecipar a fase de habilitação para que ocorra antes do julgamento das propostas. Nos termos expressos do art. 17, § 1º, da Lei nº 14.133/2021:
 
 * **A)** A inversão de fases para realizar a habilitação antes do julgamento é vedada em qualquer hipótese licitatória.
@@ -144,7 +144,7 @@ Em um certame licitatório conduzido sob a modalidade Concorrência, a Administr
 >
 > **Gabarito: B**
 ### Teste 079
-**(FGV – TRT – Analista Judiciário - 2024)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Após a conclusão da fase de habilitação em determinado procedimento licitatório realizado sob a égide da Lei Federal nº 14.133/2021, foi aberto prazo para a interposição de recursos administrativos pelos licitantes participantes. A respeito da fase recursal única disciplinada no art. 165 da NLLC, é correto afirmar que:
 
 * **A)** os licitantes devem interpor recursos autônomos e sucessivos imediatamente após cada ato decisório na sessão.
@@ -223,7 +223,7 @@ A NLLC **extinguiu formal e definitivamente as modalidades Tomada de Preços e C
 ---
 
 ### Teste 080
-**(FCC – Analista de Gestão Pública – SEAD-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O Departamento Estadual de Infraestrutura necessita licitar a construção de um complexo hospitalar de alta complexidade e optou pela modalidade Concorrência. A respeito da modalidade Concorrência na disciplina da Lei Federal nº 14.133/2021 (arts. 6º, XXXVIII e 29):
 
 * **A)** A concorrência aplica-se a obras de engenharia, admitindo critérios de menor preço ou técnica e preço.
@@ -244,7 +244,7 @@ O Departamento Estadual de Infraestrutura necessita licitar a construção de um
 >
 > **Gabarito: A**
 ### Teste 081
-**(FCC – TRT – Analista Judiciário - 2009)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A modalidade de licitação denominada Pregão, disciplinada no art. 6º, XLI e art. 29 da Lei nº 14.133/2021, é obrigatória para a aquisição de bens e serviços comuns no âmbito de todos os Poderes e esferas estatais. A respeito do Pregão e de seus limites legais:
 
 * **A)** É cabível para contratação de serviços técnicos especializados de natureza predominantemente intelectual.
@@ -265,7 +265,7 @@ A modalidade de licitação denominada Pregão, disciplinada no art. 6º, XLI e 
 >
 > **Gabarito: C**
 ### Teste 082
-**(FGV – Analista de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito da modalidade licitatória denominada Concurso, disciplinada no art. 6º, XXXIX e art. 30 da Lei Federal nº 14.133/2021, assinale a afirmativa correta:
 
 * **A)** O concurso destina-se à alienação de bens móveis inservíveis e veículos penhorados em execução fiscal.
@@ -286,7 +286,7 @@ A respeito da modalidade licitatória denominada Concurso, disciplinada no art. 
 >
 > **Gabarito: B**
 ### Teste 083
-**(FCC – Analista de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O Tribunal de Contas do Estado necessita alienar vinte veículos de sua frota oficial classificados formalmente como bens móveis inservíveis e antieconômicos para a repartição. À luz das normas da Lei nº 14.133/2021 (arts. 6º, XL e 31):
 
 * **A)** A alienação de bens móveis inservíveis e de imóveis públicos realiza-se privativamente na modalidade leilão.
@@ -307,7 +307,7 @@ O Tribunal de Contas do Estado necessita alienar vinte veículos de sua frota of
 >
 > **Gabarito: A**
 ### Teste 084
-**(FGV – TJ-RR – Analista Judiciário - 2024)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A nova Lei de Licitações e Contratos Administrativos (Lei Federal nº 14.133/2021) instituiu uma inovadora modalidade de licitação voltada para a contratação de obras, serviços e compras em que a Administração Pública busca desenvolver soluções complexas ou inovações tecnológicas diante da impossibilidade de definir previamente as especificações técnicas no mercado. 
 
 Essa modalidade licitatória denomina-se:
@@ -366,7 +366,7 @@ Critério inovador privativo da celebração de **Contratos de Eficiência**:
 ---
 
 ### Teste 085
-**(FCC – Técnico de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Na disciplina dos critérios de julgamento estabelecidos no art. 33 da Lei Federal nº 14.133/2021, o julgamento das propostas dos licitantes pode adotar diferentes parâmetros de vantajabilidade. A respeito desses critérios, assinale a afirmativa correta:
 
 * **A)** O critério de maior desconto aplica-se a serviços comuns, tendo como base o preço global fixado no edital.
@@ -387,7 +387,7 @@ Na disciplina dos critérios de julgamento estabelecidos no art. 33 da Lei Feder
 >
 > **Gabarito: A**
 ### Teste 086
-**(FGV – TRT – Analista Judiciário - 2024)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Determinada entidade governamental pretende licitar a modernização do parque de iluminação pública e climatização de prédios estaduais mediante celebração de contrato de eficiência, em que a remuneração do particular contratado será proporcional à economia orçamentária gerada para o erário. 
 
 Nos termos do art. 39 da Lei nº 14.133/2021, o critério de julgamento adequado para o contrato de eficiência é o de:
@@ -439,7 +439,7 @@ Os prazos mínimos de divulgação do edital contam-se a partir da data de publi
 ---
 
 ### Teste 087
-**(FGV – Analista Jurídico – PGE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Os modos de disputa na Lei Federal nº 14.133/2021 podem ser aberto, fechado ou combinado, conforme preceitua o art. 56. A respeito da disciplina normativa dos modos de disputa nas licitações públicas, assinale a opção correta:
 
 * **A)** O modo de disputa aberto admite o envio de propostas sigilosas até a abertura simultânea pelo pregoeiro.

@@ -120,13 +120,13 @@ A legislação orçamentária prevê três modalidades formais de empenho, a ser
 ---
 
 ### Teste 230
-**(FCC - Adaptada / TCE-RS - Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A respeito da classificação e dos estágios da despesa pública orçamentária, assinale a opção correta:
 
 * **A)** A emissão de nota de empenho ordinário é admitida para despesas contratuais de prestação contínua de serviços cujo valor total deva ser desembolsado em parcelas mensais ao longo do ano.
 * **B)** A aquisição de imóvel residencial já edificado e em utilização para instalação de repartição pública estadual constitui típica despesa de Investimento (GND 4).
 * **C)** A liquidação da despesa tem por objetivo comprovar o implemento de condição e o direito adquirido pelo credor, mediante verificação documental de que o serviço foi efetivamente prestado ou os bens foram entregues.
-* **D)** O pagamento da despesa pública pode anteceder a liquidação nas hipóteses de aquisição de bens duráveis com cláusula de entrega futura no âmbito da administração pública direta e indireta no âmbito da administração pública direta e indireta.
+* **D)** O pagamento da despesa pública pode anteceder a liquidação nas hipóteses de aquisição de bens duráveis com cláusula de entrega futura.
 * **E)** As despesas empenhadas e não pagas até o encerramento do exercício financeiro em 31 de dezembro serão obrigatoriamente anuladas pelo controle interno.
 
 
@@ -145,12 +145,12 @@ A respeito da classificação e dos estágios da despesa pública orçamentária
 ---
 
 ### Teste 231
-**(FCC - Adaptada / Analista de Planejamento e Orçamento)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No tocante ao estágio da liquidação da despesa pública disciplinado nos arts. 62 e 63 da Lei Federal nº 4.320/1964, é correto afirmar:
 
 * **A)** A liquidação consiste na verificação do direito adquirido pelo credor, tendo por base os títulos e documentos comprobatórios do respectivo crédito, com o objetivo de apurar a origem e o objeto do que se deve pagar, a importância exata a pagar e a quem se deve pagar.
 * **B)** A emissão da ordem de pagamento precede a liquidação da despesa, servindo de autorização para o recebimento definitivo dos bens adquiridos.
-* **C)** É lícito efetuar o pagamento da despesa antes da regular liquidação, desde que haja termo de garantia prestado pelo fornecedor contratado no âmbito da administração pública direta e indireta no âmbito da administração pública direta e indireta.
+* **C)** É lícito efetuar o pagamento da despesa antes da regular liquidação, desde que haja termo de garantia prestado pelo fornecedor contratado.
 * **D)** A nota de empenho substitui integralmente a fase de liquidação quando se tratar de contratação de serviços contínuos com dedicação exclusiva de mão de obra.
 * **E)** A liquidação é ato discricionário do ordenador de despesas, que pode dispensá-la quando o fornecedor for órgão integrante da Administração Pública direta.
 
@@ -170,7 +170,7 @@ No tocante ao estágio da liquidação da despesa pública disciplinado nos arts
 ---
 
 ### Teste 232
-**(FCC - Adaptada / Analista de Planejamento e Orçamento)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Para a realização de despesas rotineiras de manutenção das instalações de uma secretaria de estado, o gestor público determinou a emissão de nota de empenho no início do mês de janeiro para cobrir os gastos com fornecimento contínuo de energia elétrica e abastecimento de água ao longo de todo o ano, sem que seja possível conhecer previamente o consumo exato a cada mês.
 
 A modalidade de empenho adequada e legalmente exigida para essa situação é o empenho:
@@ -245,7 +245,7 @@ flowchart TD
 ---
 
 ### Teste 233
-**(FCC - Adaptada / Técnico de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Determinada empresa pública estadual adquiriu, mediante procedimento licitatório de compra direta, um terreno urbano desocupado para futura expansão de seu almoxarifado no valor de R$ 2.000.000,00, bem como contratou uma empreiteira para a construção de um novo edifício administrativo no mesmo local pelo montante de R$ 5.000.000,00.
 
 Segundo a estrutura da despesa pública por sua natureza (Portaria Interministerial STN/SOF nº 163/2001 e MCASP), essas despesas classificam-se, respectivamente, nos seguintes Grupos de Natureza da Despesa (GND):
@@ -272,7 +272,7 @@ Segundo a estrutura da despesa pública por sua natureza (Portaria Interminister
 ---
 
 ### Teste 234
-**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na classificação da despesa orçamentária por natureza, as despesas de capital dividem-se em três Grupos de Natureza da Despesa (GND): Investimentos (GND 4), Inversões Financeiras (GND 5) e Amortização da Dívida (GND 6).
 
 Constituem, respectivamente, Investimento (GND 4) e Inversão Financeira (GND 5):
@@ -328,7 +328,7 @@ As dívidas passadas de exercícios orçamentários já encerrados serão empenh
 ---
 
 ### Teste 235
-**(FCC - Adaptada / Analista Jurídico de Controle)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Ao final do exercício financeiro em 31 de dezembro, a Secretaria de Infraestrutura do Estado possuía dois contratos em execução:
 
 I. Contrato de pavimentação asfáltica, cuja medição final foi regularmente atestada pela fiscalização no dia 20 de dezembro e a nota fiscal devidamente liquidada, mas a ordem bancária de pagamento de R$ 800.000,00 não foi emitida até o encerramento do expediente bancário do ano.  
@@ -359,12 +359,12 @@ Em 31 de dezembro, essas duas despesas foram inscritas, respectivamente, como:
 ---
 
 ### Teste 236
-**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em relação ao regime de suprimento de fundos (adiantamento) e às Despesas de Exercícios Anteriores (DEA), é correto afirmar que:
 
-* **A)** O suprimento de fundos pode ser concedido livremente a qualquer servidor público, inclusive àquele que esteja omisso no dever de prestar contas de adiantamento concedido anteriormente no âmbito da administração pública direta e indireta.
+* **A)** O suprimento de fundos pode ser concedido livremente a qualquer servidor público, inclusive àquele que esteja omisso no dever de prestar contas de adiantamento concedido anteriormente.
 * **B)** As Despesas de Exercícios Anteriores (DEA) correspondem exclusivamente a despesas que foram liquidadas e pagas no exercício anterior sem prévio empenho orçamentário.
-* **C)** O suprimento de fundos dispensa a realização de empenho orçamentário prévio em nome do servidor responsável pelo adiantamento no âmbito da administração pública direta e indireta.
+* **C)** O suprimento de fundos dispensa a realização de empenho orçamentário prévio em nome do servidor responsável pelo adiantamento.
 * **D)** As despesas de exercícios encerrados para as quais o orçamento respectivo consignava crédito próprio e com saldo suficiente, mas que não tenham sido empenhadas na época própria, poderão ser pagas à conta de dotação para despesas de exercícios anteriores (DEA).
 * **E)** O cancelamento de Restos a Pagar Processados enseja a imediata extinção irrecorrível do direito creditório do fornecedor perante a Fazenda Pública.
 
@@ -384,7 +384,7 @@ Em relação ao regime de suprimento de fundos (adiantamento) e às Despesas de 
 ---
 
 ### Teste 237
-**(FCC - Adaptada / TCE-SC - Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A respeito do reconhecimento e pagamento de Despesas de Exercícios Anteriores (DEA), disciplinadas pelo art. 37 da Lei Federal nº 4.320/1964 e normas correlatas, analise as hipóteses a seguir:
 
 I. Despesas de exercícios encerrados para os quais o orçamento respectivo consignava crédito próprio, com saldo suficiente para atendê-las, que não se tenham processado na época própria.  
@@ -443,12 +443,12 @@ flowchart TD
 ---
 
 ### Teste 238
-**(FCC - Adaptada / Analista Jurídico de Controle)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 O regime de adiantamento ou suprimento de fundos é uma exceção ao princípio geral de que o pagamento de despesas públicas deve ser precedido de regular empenho e liquidação pelo rito ordinário.
 
 A respeito do suprimento de fundos, de acordo com o art. 68 da Lei nº 4.320/1964 e normas gerais de administração financeira, é correto afirmar:
 
-* **A)** O suprimento de fundos dispensa a realização de empenho prévio, formalizando-se diretamente pelo saque financeiro na conta do órgão no âmbito da administração pública direta e indireta no âmbito da administração pública direta e indireta.
+* **A)** O suprimento de fundos dispensa a realização de empenho prévio, formalizando-se diretamente pelo saque financeiro na conta do órgão.
 * **B)** É lícito conceder suprimento de fundos a servidor público que seja responsável por dois adiantamentos anteriores já prestados e aprovados pelo Tribunal de Contas.
 * **C)** O suprimento de fundos é cabível unicamente para despesas eventuais de pronto pagamento, que exijam pronta prestação de serviço ou aquisições miúdas que não possam subordinar-se ao processo normal de aplicação.
 * **D)** O suprido tem prazo indeterminado para prestar contas dos recursos sacados, sujeitando-se apenas ao prazo prescricional decadencial de dez anos.
@@ -470,7 +470,7 @@ A respeito do suprimento de fundos, de acordo com o art. 68 da Lei nº 4.320/196
 ---
 
 ### Teste 239
-**(FCC - Adaptada / TCE-GO - Analista de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em relação aos Restos a Pagar (RAP), sua classificação e regras de controle fiscal, considere a seguinte situação fática:
 
 Determinado órgão do Estado empenhou, no exercício de 2024, despesa referente à aquisição de equipamentos de tecnologia. Os equipamentos foram formalmente entregues, atestados pela comissão de recebimento e liquidados pela unidade orçamentária em 20 de dezembro de 2024, mas a ordem bancária de pagamento não pôde ser emitida até 31 de dezembro por razões operacionais de fechamento do sistema bancário.

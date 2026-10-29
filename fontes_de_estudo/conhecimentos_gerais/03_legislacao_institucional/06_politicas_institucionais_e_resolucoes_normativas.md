@@ -92,13 +92,13 @@ As atividades finalísticas e corporativas do Tribunal são executadas por secre
 ---
 
 ### Teste 172
-**(FCC – Inédita – Padrão TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 De acordo com a Estrutura Organizacional e Competências Técnicas do TCE-GO aprovada pela Resolução Administrativa nº 14/2025:
 
 * **A)** A Secretaria-Geral de Controle Externo subordina-se hierarquicamente à Procuradoria-Geral do Estado para fins de definição das diretrizes de auditoria.
 * **B)** A macroestrutura executiva do Tribunal de Contas do Estado de Goiás compreende unidades de assessoramento superior, a Secretaria de Controle Externo (responsável pela coordenação executiva e técnica das ações fiscalizatórias especializadas) e a Secretaria de Gestão Integrada, estruturadas para conferir celeridade, inovação e rigor metodológico ao controle governamental.
 * **C)** A criação ou extinção de diretorias e secretarias operacionais dispensa qualquer aprovação do Tribunal Pleno.
-* **D)** As equipes de auditoria técnica das gerências especializadas possuem competência para aplicar multas e emitir acórdãos terminativos de forma monocrática e independente do Tribunal Pleno considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
+* **D)** As equipes de auditoria técnica das gerências especializadas possuem competência para aplicar multas e emitir acórdãos terminativos de forma monocrática e independente do Tribunal Pleno. considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
 * **E)** As decisões administrativas sobre recursos humanos da Secretaria de Controle Externo são julgadas exclusivamente pelo Ministério Público de Contas.
 
 
@@ -157,7 +157,7 @@ A infraestrutura do TCE-GO conta com a **Equipe de Tratamento de Incidentes de R
 ---
 
 ### Teste 173
-**(FCC – DPE-RS – Analista de Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito da Política de Segurança da Informação (PSI) do Tribunal de Contas do Estado de Goiás, veiculada pela Resolução Administrativa nº 17/2024, assinale a afirmativa correta:
 
 * **A)** Os princípios fundamentais da PSI restringem-se à disponibilidade e agilidade computacional, reputando-se secundária a confidencialidade no setor público.
@@ -182,7 +182,7 @@ A respeito da Política de Segurança da Informação (PSI) do Tribunal de Conta
 ---
 
 ### Teste 174
-**(FCC – Inédita – Padrão TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A Política de Segurança da Informação (PSI) do TCE-GO, instituída pela Resolução Administrativa nº 17/2024, baseia-se nos pilares essenciais da segurança cibernética (CIDA+L). No tocante à classificação e ao tratamento da informação institucional:
 
 * **A)** Toda informação produzida ou custodiada pelo Tribunal é classificada automaticamente como ultrassecreta por tempo indeterminado, sendo vedado o acesso aos cidadãos.
@@ -234,7 +234,7 @@ A governança de dados pessoais no TCE-GO é estruturada com clareza funcional:
 ---
 
 ### Teste 175
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Determinado jurisdicionado ingressou com requerimento administrativo perante o TCE-GO exigindo a imediata exclusão e o expurgo de seus dados cadastrais e financeiros constantes de procedimento de fiscalização de obras, invocando o direito de eliminação assegurado pela Lei Geral de Proteção de Dados (LGPD). De acordo com a Resolução Normativa nº 5/2024 do TCE-GO e com a Lei nº 13.709/2018:
 
 * **A)** O Tribunal deve atender prontamente ao pedido, sob pena de incorrer em infração civil gravíssima sujeita a multa cominada pela ANPD.
@@ -259,10 +259,10 @@ Determinado jurisdicionado ingressou com requerimento administrativo perante o T
 ---
 
 ### Teste 176
-**(FCC – Inédita – Padrão TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em relação à governança de privacidade e à proteção de dados pessoais no âmbito do TCE-GO (Resolução Normativa nº 5/2024, em sintonia com a Lei Geral de Proteção de Dados Pessoais - LGPD, Lei nº 13.709/2018):
 
-* **A)** O tratamento de dados pessoais realizado pelo TCE-GO para o cumprimento de suas competências constitucionais de fiscalização e controle externo depende do prévio e expresso consentimento de cada gestor auditado considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **A)** O tratamento de dados pessoais realizado pelo TCE-GO para o cumprimento de suas competências constitucionais de fiscalização e controle externo depende do prévio e expresso consentimento de cada gestor auditado. em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **B)** O Tribunal de Contas pode tratar dados pessoais de jurisdicionados, licitantes e servidores sem necessidade de consentimento do titular, com fundamento na base legal do cumprimento de obrigação legal e execução de políticas públicas previstas em lei (arts. 7º, II e III, e 23 da LGPD), devendo observar o princípio da minimização e adotar salvaguardas técnicas adequadas.
 * **C)** O Encarregado pelo Tratamento de Dados Pessoais (DPO) do TCE-GO responde solidariamente com seu patrimônio pessoal por qualquer vazamento externo provocado por criminosos virtuais.
 * **D)** O Relatório de Impacto à Proteção de Dados Pessoais (RIPD) é documento dispensável mesmo quando houver tratamento de dados sensíveis em larga escala.
@@ -318,7 +318,7 @@ O servidor que utilizar ferramentas de IA para redigir peças processuais, despa
 ---
 
 ### Teste 177
-**(FCC – TCE-GO – Analista de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em conformidade com a Resolução Administrativa nº 24/2024 do Tribunal de Contas do Estado de Goiás, que disciplina o uso de ferramentas de Inteligência Artificial (IA) no âmbito da Corte, o auditor que utiliza assistente generativo para subsidiar a elaboração de matriz de auditoria governamental:
 
 * **A)** Fica isento de responsabilidade funcional caso a ferramenta produza precedentes jurisprudenciais fictícios ou cite dispositivos revogados.
@@ -343,10 +343,10 @@ Em conformidade com a Resolução Administrativa nº 24/2024 do Tribunal de Cont
 ---
 
 ### Teste 178
-**(FCC – Inédita – Padrão TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A Resolução Administrativa nº 24/2024 estabelece a Política de Governança e Uso de Inteligência Artificial no TCE-GO. Sobre as diretrizes éticas e operacionais de ferramentas de IA na Corte de Contas goiana, é correto afirmar:
 
-* **A)** É permitida a delegação integral da tomada de decisão de mérito em processos de contas aos algoritmos de inteligência artificial generativa, dispensando a intervenção humana considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **A)** É permitida a delegação integral da tomada de decisão de mérito em processos de contas aos algoritmos de inteligência artificial generativa, dispensando a intervenção humana.
 * **B)** É expressamente vedada a inserção de documentos sigilosos, dados pessoais não públicos ou peças de auditoria sob segredo de justiça em modelos públicos ou abertos de inteligência artificial generativa baseados em nuvem externa, subsistindo a supervisão humana obrigatória (*human-in-the-loop*) e a responsabilidade funcional indelegável do servidor que utilizar a ferramenta.
 * **C)** A inteligência artificial pode ser utilizada para gerar automaticamente acórdãos condenatórios sem conferência técnica do relator.
 * **D)** As ferramentas de IA utilizadas no Tribunal são dispensadas de observar princípios de explicabilidade e auditabilidade algorítmica.
@@ -404,7 +404,7 @@ graph TD
 ---
 
 ### Teste 179
-**(FCC – TCE-GO – Técnico de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito da Política de Comunicação Institucional (Resolução Administrativa nº 19/2024) e da Política de Gestão de Pessoas (Resolução Administrativa nº 5/2024) do TCE-GO:
 
 * **A)** A Política de Comunicação incentiva o uso de linguagem rebuscada e jargões processuais latinos em todos os atos públicos para demonstrar erudição jurídica.
@@ -429,14 +429,14 @@ A respeito da Política de Comunicação Institucional (Resolução Administrati
 ---
 
 ### Teste 180
-**(FCC – TCE-SE – Analista de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No âmbito do Sistema de Planejamento e Gestão Institucional do TCE-GO, normatizado pela Resolução Administrativa nº 15/2024, a gestão de riscos e os controles internos da gestão estruturam-se consoante o internacionalmente reconhecido Modelo das Três Linhas (*Three Lines Model* do IIA). Nesse modelo, as atribuições da 1ª Linha, da 2ª Linha e da 3ª Linha correspondem, respectivamente, a:
 
 * **A)** Auditoria interna independente; Ministério Público de Contas; Tribunal Pleno.
 * **B)** Gestores operacionais diretos que gerenciam os riscos nos processos diários; Unidades de supervisão, conformidade e governança de riscos; Auditoria interna independente.
 * **C)** Ouvidoria e cidadãos; Assessoria de Comunicação; Diretoria de Recursos Humanos.
 * **D)** Assembleia Legislativa do Estado; Governador do Estado; Tribunal de Justiça.
-* **E)** Empresas terceirizadas; Conselheiros relatores; Servidores em estágio probatório considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **E)** Empresas terceirizadas; Conselheiros relatores; Servidores em estágio probatório.
 
 
 ---
@@ -454,7 +454,7 @@ No âmbito do Sistema de Planejamento e Gestão Institucional do TCE-GO, normati
 ---
 
 ### Teste 181
-**(FCC – Inédita – Padrão TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Quanto ao regime de teletrabalho disciplinado na Política de Gestão de Pessoas do TCE-GO (Resolução Administrativa nº 5/2024):
 
 * **A)** O teletrabalho é direito subjetivo incondicionado de todo servidor recém-empossado, independentemente de avaliação do estágio probatório ou interesse da administração.

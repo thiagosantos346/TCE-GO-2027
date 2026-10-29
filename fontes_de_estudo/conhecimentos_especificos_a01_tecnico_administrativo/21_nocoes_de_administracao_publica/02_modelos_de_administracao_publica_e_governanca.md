@@ -110,7 +110,7 @@ flowchart LR
 ---
 
 ### Teste 310
-**(FCC – TCE-PI – Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A respeito da evolução dos modelos de administração pública e das reformas administrativas contemporâneas, considere as afirmativas a seguir:
 
 I. O modelo burocrático weberiano introduziu a impessoalidade e o mérito no serviço público com o objetivo de combater as práticas clientelistas e patrimonialistas da administração tradicional.  
@@ -147,13 +147,13 @@ Está correto o que se afirma em:
 ---
 
 ### Teste 311
-**(FCC - Adaptada / Analista de Gestão Pública)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 O modelo patrimonialista de Administração Pública prevaleceu no Brasil colonial e imperial, deixando traços na cultura organizacional do Estado.
 
 Constitui traço característico definidor do **Patrimonialismo**:
 
 * **A)** A incapacidade de distinção clara entre a *res publica* (o patrimônio público do Estado) e a *res principis* (o patrimônio pessoal e privado do soberano e dos governantes).
-* **B)** A estrita impessoalidade nos processos de seleção e a instituição compulsória do mérito profissional aferido por concurso público aberto no âmbito da administração pública direta e indireta.
+* **B)** A estrita impessoalidade nos processos de seleção e a instituição compulsória do mérito profissional aferido por concurso público aberto.
 * **C)** O controle formal e rigoroso dos procedimentos operacionais estabelecido em manuais e regulamentos escritos padronizados.
 * **D)** A ênfase na contratualização de resultados e no fornecimento de serviços orientados primordialmente ao cidadão-usuário.
 * **E)** A transparência ativa sistemática proporcionada por portais de dados abertos na internet.
@@ -194,7 +194,7 @@ flowchart TD
 ---
 
 ### Teste 312
-**(FCC - Adaptada / Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na teoria sociológica e administrativa, a Administração Pública Burocrática de Max Weber foi concebida para combater a corrupção e o nepotismo patrimonialista, baseando-se na legalidade, impessoalidade e formalismo. Todavia, a prática organizacional evidenciou as chamadas "disfunções da burocracia" (analisadas por Robert Merton).
 
 Constitui uma típica **disfunção burocrática**:
@@ -202,7 +202,7 @@ Constitui uma típica **disfunção burocrática**:
 * **A)** O apego exagerado às regras e aos procedimentos formais, fazendo com que as normas (que deveriam ser meios) se transformem nos próprios fins da ação administrativa (*internalização das regras*).
 * **B)** A flexibilização excessiva de processos com delegação ampla de poderes decisórios aos funcionários da ponta.
 * **C)** A priorização dos interesses estratégicos da sociedade em detrimento dos manuais internos de rotinas.
-* **D)** A avaliação contínua da efetividade social das políticas públicas em substituição ao controle de conformidade legal no âmbito da administração pública direta e indireta.
+* **D)** A avaliação contínua da efetividade social das políticas públicas em substituição ao controle de conformidade legal.
 * **E)** A descentralização territorial das decisões governamentais em prol de cooperativas locais.
 
 
@@ -252,11 +252,11 @@ flowchart TD
 ---
 
 ### Teste 313
-**(FCC – ARTESP – Especialista em Regulação de Transportes)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 O Plano Diretor da Reforma do Aparelho do Estado (PDRAE), editado em 1995, propôs a descentralização do Estado e a reorganização de suas atividades em quatro setores. A prestação de serviços de saúde básica em hospitais públicos e a realização de pesquisas científicas em universidades enquadram-se, segundo a tipologia do PDRAE, no setor de:
 
 * **A)** Atividades Exclusivas de Estado, a serem desempenhadas compulsoriamente por agências reguladoras.
-* **B)** Núcleo Estratégico, com manutenção de propriedade puramente estatal e cargos privativos de livre nomeação política no âmbito da administração pública direta e indireta.
+* **B)** Núcleo Estratégico, com manutenção de propriedade puramente estatal e cargos privativos de livre nomeação política.
 * **C)** Serviços Não Exclusivos do Estado, com orientação para o modelo de publicização mediante parcerias com Organizações Sociais (OS).
 * **D)** Produção de Bens e Serviços para o Mercado, orientados à privatização compulsória em bolsa de valores.
 * **E)** Controle Disciplinar Corporativo, com atuação exclusiva do sistema correcional e dos Tribunais de Contas.
@@ -277,7 +277,7 @@ O Plano Diretor da Reforma do Aparelho do Estado (PDRAE), editado em 1995, prop�
 ---
 
 ### Teste 314
-**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A Reforma do Aparelho do Estado de 1995 (Plano Diretor da Reforma do Aparelho do Estado - PDRAE), liderada pelo MARE, estruturou a atuação governamental em quatro setores estratégicos.
 
 O setor do Estado que executa as funções exclusivas que envolvem o uso do poder extroverso e de polícia estatal (legislar, julgar, fiscalizar, arrecadar tributos e exercer o controle externo), sendo vedado à terceirização e à delegação a entidades privadas, é denominado pelo PDRAE:
@@ -337,7 +337,7 @@ flowchart LR
 ---
 
 ### Teste 315
-**(FCC – DPE-RS – Analista: Área Administrativa)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Considere que determinado município gaúcho implementou um programa de alfabetização de adultos com orçamento de R$ 1.000.000,00. Ao final do projeto, constatou-se que:
 
 1. O custo por aluno atendido foi o menor registrado no Estado, sem desperdício de material pedagógico.
@@ -400,11 +400,11 @@ O termo *accountability* compreende o dever indeclinável de prestar contas, res
 ---
 
 ### Teste 316
-**(FCC – TCE-GO – Analista de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A fiscalização da gestão governamental desempenhada pelo Tribunal de Contas do Estado sobre as contas dos Poderes Executivo, Legislativo e Judiciário materializa uma dimensão específica da *accountability*. Trata-se de um exemplo típico de *accountability*:
 
 * **A)** Vertical, pois o Tribunal de Contas situa-se em escalão hierárquico superior aos órgãos do Poder Executivo estadual.
-* **B)** Social, uma vez que decorre unicamente de representações apresentadas por organizações não governamentais e pela imprensa no âmbito da administração pública direta e indireta.
+* **B)** Social, uma vez que decorre unicamente de representações apresentadas por organizações não governamentais e pela imprensa.
 * **C)** Horizontal, por consistir em controle mútuo de legalidade e legitimidade exercido por um órgão estatal autônomo sobre outros órgãos estatais no mesmo nível institucional.
 * **D)** Comportamental, pois visa exclusivamente à apuração disciplinar de infrações éticas cometidas por servidores subalternos.
 * **E)** Primária, caracterizada pelo exercício direto do sufrágio universal e do voto popular nas urnas.
@@ -461,7 +461,7 @@ As informações cuja divulgação possa colocar em risco a segurança da socied
 ---
 
 ### Teste 317
-**(FCC – TCE-RS – Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Nos termos da Lei Federal nº 12.527/2011 (Lei de Acesso à Informação), a respeito dos prazos de resposta aos pedidos de acesso à informação formulados por cidadãos e da classificação de sigilo documental, é correto afirmar:
 
 * **A)** O prazo para resposta ao pedido de informação não atendido de imediato é de 30 dias, vedada qualquer prorrogação.
@@ -486,13 +486,13 @@ Nos termos da Lei Federal nº 12.527/2011 (Lei de Acesso à Informação), a res
 ---
 
 ### Teste 318
-**(FCC - Adaptada / TCE-SC - Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No campo da Nova Governança Pública e do combate à corrupção, o conceito de *Accountability* desdobra-se em diferentes dimensões fundamentais na relação entre governantes, sociedade e instituições fiscalizadoras.
 
 Assinale a opção que define corretamente a **Accountability Horizontal**:
 
 * **A)** É a mútua fiscalização e controle exercido entre os Poderes e órgãos públicos autônomos de mesmo patamar ou órgãos de controle especializado (como o controle exercido pelo Tribunal de Contas sobre o Poder Executivo ou pelo Ministério Público).
-* **B)** É o controle direto exercido pelos cidadãos sobre os governantes exclusivamente por meio do voto periódico nas eleições democráticas no âmbito da administração pública direta e indireta.
+* **B)** É o controle direto exercido pelos cidadãos sobre os governantes exclusivamente por meio do voto periódico nas eleições democráticas.
 * **C)** É a fiscalização informal exercida pela imprensa, meios de comunicação e movimentos sociais civis.
 * **D)** É a subordinação hierárquica e disciplinar obrigatória de servidores subalternos perante suas chefias imediatas.
 * **E)** É a transferência contratual de serviços de saúde para Organizações Sociais qualificadas pelo Executivo.
@@ -513,7 +513,7 @@ Assinale a opção que define corretamente a **Accountability Horizontal**:
 ---
 
 ### Teste 319
-**(FCC - Adaptada / TCE-GO - Analista de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 O Decreto Federal nº 9.203/2017 dispõe sobre a política de governança da administração pública federal e define conceitos e diretrizes fundamentais também recepcionados pelos órgãos de controle estaduais (TCE-GO).
 
 De acordo com as boas práticas de governança no setor público, a distinção entre **Governança** e **Gestão** reside essencialmente em:
@@ -521,7 +521,7 @@ De acordo com as boas práticas de governança no setor público, a distinção 
 * **A)** A governança compreende os mecanismos de liderança, estratégia e controle postos em prática para avaliar, direcionar e monitorar a gestão, visando à condução de políticas públicas e à prestação de serviços de interesse da sociedade; enquanto a gestão é responsável pelo planejamento, execução, operação e entrega cotidiana das ações e projetos definidos pela governança.
 * **B)** A gestão é prerrogativa exclusiva do Poder Judiciário e a governança é função própria dos órgãos burocráticos municipais.
 * **C)** A governança e a gestão são sinônimos perfeitos na teoria administrativa contemporânea, inexistindo distinção prática ou normativa entre os termos.
-* **D)** A governança atua estritamente na fase de compra e liquidação contábil de bens e a gestão cuida da edição de medidas provisórias pelo Presidente da República no âmbito da administração pública direta e indireta.
+* **D)** A governança atua estritamente na fase de compra e liquidação contábil de bens e a gestão cuida da edição de medidas provisórias pelo Presidente da República.
 * **E)** A governança afasta a necessidade de controles internos e auditorias para permitir total liberdade aos gestores operacionais.
 
 

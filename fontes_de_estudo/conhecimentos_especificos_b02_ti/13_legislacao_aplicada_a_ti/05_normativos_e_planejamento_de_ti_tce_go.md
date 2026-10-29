@@ -87,12 +87,12 @@ flowchart TD
 ---
 
 ### Teste 555
-**(FCC Inédita - Auditor Estadual de Controle Externo / TI)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** No desenho da estrutura de governança e gestão de tecnologia da informação do Tribunal de Contas do Estado de Goiás, a Resolução Normativa nº 13/2016 instituiu o Comitê Estratégico de Tecnologia da Informação (CETI). Considerando os preceitos de segregação de funções entre instâncias de governança superior e órgãos executivos de gestão técnica, assinale a opção que expressa uma competência atribuída ao CETI:  
 
 * **A)** Programar rotinas de banco de dados em linguagem SQL e configurar portas de switches de borda no Data Center.
 * **B)** Aprovar formalmente as diretrizes do Plano Diretor de Tecnologia da Informação (PDTI) e priorizar as iniciativas e investimentos estratégicos de TIC alinhados ao planejamento do Tribunal.
-* **C)** Atender a chamados de primeiro nível de suporte técnico de usuários que esqueceram senhas na intranet institucional em estrita conformidade com as normas legais e regulamentares aplicáveis.
+* **C)** Atender a chamados de primeiro nível de suporte técnico de usuários que esqueceram senhas na intranet institucional.
 * **D)** Homologar individualmente cada commit de código-fonte produzido pelos analistas de desenvolvimento da DTI.
 * **E)** Assinar monocraticamente contratos de compra de computadores sem a instauração de procedimento licitatório regular.
 
@@ -112,13 +112,13 @@ flowchart TD
 ---
 
 ### Teste 556
-**(FCC Inédita - Analista de Sistemas / Engenharia de Software)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** Em conformidade com a Resolução Administrativa nº 14/2025, que reestruturou a Diretoria de Tecnologia da Informação (DTI) do TCE-GO, assinale a opção que descreve atribuições típicas das unidades técnicas subordinadas à DTI:  
 
 * **A)** Julgar as contas prestadas pelos prefeitos municipais goianos com força executiva de título judicial.
 * **B)** Desenvolver, sustentar e testar os softwares corporativos de controle externo, gerenciar a infraestrutura de redes e data centers, administrar bancos de dados corporativos e prestar atendimento de suporte ao usuário (Service Desk).
 * **C)** Elaborar o projeto de lei orçamentária anual do Estado de Goiás para votação na Assembleia Legislativa.
-* **D)** Substituir monocraticamente o Plenário do Tribunal na emissão de pareceres prévios sobre as contas do Governador do Estado considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **D)** Substituir monocraticamente o Plenário do Tribunal na emissão de pareceres prévios sobre as contas do Governador do Estado.
 * **E)** Fiscalizar presencialmente a regularidade de tráfego de veículos rodoviários nas rodovias estaduais goianas.
 
 
@@ -157,10 +157,10 @@ O CETI é composto por membros natos e designados da alta cúpula decisória do 
 ---
 
 ### Teste 557
-**(FCC – Inédita – Padrão TCE-GO - Auditor Estadual de Controle Externo / TI)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** O Comitê Estratégico de Tecnologia da Informação (CETI) do Tribunal de Contas do Estado de Goiás, instituído pela Resolução Normativa nº 13/2016, é a instância máxima colegiada de governança de TI. Acerca da composição e das competências privativas do CETI, assinale a afirmativa correta:  
 
-* **A)** O CETI é composto exclusivamente por técnicos terceirizados contratados por empresas de suporte, sendo vedada a presença de membros da alta cúpula do Tribunal em estrita conformidade com as normas legais e regulamentares aplicáveis.
+* **A)** O CETI é composto exclusivamente por técnicos terceirizados contratados por empresas de suporte, sendo vedada a presença de membros da alta cúpula do Tribunal.
 * **B)** Compete ao CETI aprovar formalmente o Plano Diretor de TI (PDTI) e suas revisões periódicas, além de estabelecer a priorização dos projetos e contratações de TIC de grande vulto e apreciar a Política de Segurança da Informação.
 * **C)** O CETI tem como atribuição cotidiana o atendimento de chamados de formatação de computadores e a troca de toners de impressoras das secretarias.
 * **D)** As decisões deliberadas pelo CETI têm caráter meramente folclórico e não vinculam o planejamento ou a execução orçamentária de tecnologia do Tribunal.
@@ -196,13 +196,13 @@ A Resolução Administrativa nº 14/2024 consolidou o modelo de Governança Púb
 ---
 
 ### Teste 558
-**(FCC – Inédita – Padrão TCE-GO - Analista de Controle Externo / Governança)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** A Resolução Administrativa nº 14/2024 estabeleceu a Política de Governança Organizacional do Tribunal de Contas do Estado de Goiás, adotando referenciais internacionais de controle e o consagrado Modelo das Três Linhas. No que se refere à estrutura de responsabilidades do Modelo das Três Linhas aplicado à gestão e controle no TCE-GO, assinale a afirmativa correta:  
 
 * **A)** A 1ª Linha é exercida pela Auditoria Interna, sendo a única responsável por aplicar penalidades aos jurisdicionados municipais.
 * **B)** A 2ª Linha é composta pelos fornecedores privados contratados, que fiscalizam os auditores fiscais concursados do Tribunal.
 * **C)** A 1ª Linha é composta pelos gestores operacionais responsáveis pela entrega direta dos serviços e controles primários; a 2ª Linha atua no suporte, conformidade e gestão de riscos; e a 3ª Linha (Auditoria Interna) fornece avaliação objetiva e independente da eficácia dos controles e da governança.
-* **D)** O Modelo das Três Linhas extinguiu qualquer dever de prestação de contas (*accountability*) da Diretoria de TI perante o Plenário do Tribunal considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **D)** O Modelo das Três Linhas extinguiu qualquer dever de prestação de contas (*accountability*) da Diretoria de TI perante o Plenário do Tribunal.
 * **E)** As três linhas operam em subordinação hierárquica direta à empresa vencedora da licitação de outsourcing de informática.
 
 
@@ -249,7 +249,7 @@ flowchart LR
 ---
 
 ### Teste 559
-**(FCC Inédita - Auditor Estadual de Controle Externo / TI)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** Durante uma inspeção extraordinária sobre indícios de fraude em licitação promovida por secretaria de estado, a equipe de auditoria do TCE-GO coletou documentos fiscais sigilosos e relatórios de inteligência financeira. Segundo a Resolução Administrativa nº 17/2024 (Política de Segurança da Informação do TCE-GO), quanto à classificação da informação e tratamento desses ativos:  
 
 * **A)** Esses relatórios preliminares de inspeção sigilosa e dados fiscais devem ser classificados no nível Restrito/Sigiloso, tendo seu acesso restrito unicamente aos auditores legalmente designados e autoridades autorizadas.
@@ -294,13 +294,13 @@ flowchart LR
 ---
 
 ### Teste 560
-**(FCC Inédita - Técnico de Controle Externo / Tecnologia da Informação)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** Um auditor técnico do TCE-GO, atuando no regime de teletrabalho, necessita acessar a base de dados do sistema de controle de processos administrativos para instruir um relatório de fiscalização. Em conformidade com a Política de Segurança da Informação (PSI) do Tribunal, instituída pela Resolução Administrativa nº 17/2024:  
 
 * **A)** O auditor deve conectar-se obrigatoriamente por meio de Rede Privada Virtual (VPN) corporativa com uso de autenticação de múltiplos fatores (MFA).
 * **B)** O auditor pode desativar a política de antivírus institucional caso sinta lentidão no processamento de planilhas.
 * **C)** É permitido compartilhar sua senha pessoal de rede com familiares próximos para agilizar a digitação de dados.
-* **D)** O acesso a documentos sigilosos de auditoria pode ser realizado a partir de computadores de uso público em cibercafés ou hotéis sem qualquer proteção criptográfica no âmbito da administração pública direta e indireta.
+* **D)** O acesso a documentos sigilosos de auditoria pode ser realizado a partir de computadores de uso público em cibercafés ou hotéis sem qualquer proteção criptográfica.
 * **E)** O uso de autenticação de duplo fator é expressamente proibido pela PSI por retardar o trabalho remoto.
 
 
@@ -335,14 +335,14 @@ A Resolução Administrativa nº 14/2025 modernizou a estrutura organizacional d
 ---
 
 ### Teste 561
-**(FCC – Inédita – Padrão TCE-GO - Analista de TI / Governança e Planejamento)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** A Resolução Administrativa nº 14/2025 disciplinou a estrutura organizacional e as atribuições privativas da Diretoria de Tecnologia da Informação (DTI) do TCE-GO. Em face do princípio da segregação entre governança e gestão, assinale a opção que descreve uma atribuição genuinamente executiva da DTI:  
 
 * **A)** Homologar em plenário as contas anuais prestadas pelo Governador do Estado de Goiás.
 * **B)** Deliberar de forma autônoma sobre a extinção de cargos efetivos do quadro de controle externo do Tribunal.
 * **C)** Planejar, gerenciar, executar e manter as soluções tecnológicas corporativas, elaborar Estudos Técnicos Preliminares (ETP) e Termos de Referência (TR) para aquisições de TIC e subsidiar tecnicamente o CETI.
 * **D)** Substituir a Assembleia Legislativa do Estado na votação da Lei Orçamentária Anual.
-* **E)** Julgar os recursos de apelação cível interpostos pelos contribuintes do ICMS perante o Tribunal de Justiça considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **E)** Julgar os recursos de apelação cível interpostos pelos contribuintes do ICMS perante o Tribunal de Justiça.
 
 
 ---
@@ -370,12 +370,12 @@ A Resolução Administrativa nº 14/2025 modernizou a estrutura organizacional d
 ---
 
 ### Teste 562
-**(FCC – Inédita – Padrão TCE-GO - Técnico de Controle Externo / TI)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** De acordo com a Resolução Administrativa nº 14/2025 do TCE-GO, a Diretoria de Tecnologia da Informação (DTI) organiza suas competências funcionais em unidades gerenciais vinculadas. Assinale a alternativa que correlaciona corretamente a gerência às suas respectivas atribuições regulamentares:  
 
 * **A)** Gerência de Infraestrutura e Redes: encarregada da gestão de RH e concessão de aposentadorias de servidores.
 * **B)** Gerência de Atendimento e Suporte ao Usuário (*Service Desk*): atua como Ponto Único de Contato (SPOC) para atendimento a incidentes, requisições de serviço de TI e microinformática.
-* **C)** Gerência de Banco de Dados e Informações Estratégicas: responsável privativa pela aquisição de veículos automotores e controle da frota do Tribunal no âmbito da administração pública direta e indireta.
+* **C)** Gerência de Banco de Dados e Informações Estratégicas: responsável privativa pela aquisição de veículos automotores e controle da frota do Tribunal.
 * **D)** Gerência de Sistemas de Informação: responsável pela limpeza predial e segurança patrimonial armada do edifício-sede.
 * **E)** Núcleo de Segurança da Informação: encarregado de proibir que o Tribunal utilize computadores em suas rotinas de trabalho.
 
@@ -423,11 +423,11 @@ flowchart TD
 ---
 
 ### Teste 563
-**(FCC – Inédita – Padrão TCE-GO - Auditor Estadual de Controle Externo / TI)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** O Plano Diretor de TI (PDTI 2025–2026), aprovado pela Ordem de Serviço nº 001/2025-CETI, estruturou suas metas táticas a partir de um rigoroso Diagnóstico Estratégico fundamentado na Matriz SWOT. No contexto desse planejamento, assinale a afirmativa que apresenta uma Ameaça (*Threat*) externa e uma Oportunidade (*Opportunity*) externa identificadas para o ecossistema tecnológico do TCE-GO:  
 
 * **A)** Ameaça: sofisticação crescente de ataques cibernéticos globais (*ransomware*) e forte concorrência do mercado privado na retenção de talentos de TIC; Oportunidade: expansão do uso de inteligência artificial preditiva no controle de despesas e adoção de soluções de nuvem híbrida elástica.
-* **B)** Ameaça: posse de servidores concursados de alta qualificação técnica no órgão; Oportunidade: obsolescência forçada de todos os bancos de dados relacionais considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **B)** Ameaça: posse de servidores concursados de alta qualificação técnica no órgão; Oportunidade: obsolescência forçada de todos os bancos de dados relacionais.
 * **C)** Ameaça: realização de sessões plenárias ao vivo pela internet; Oportunidade: proibição do uso de fibra óptica em órgãos públicos goianos.
 * **D)** Ameaça: aprovação da Lei Geral de Proteção de Dados Pessoais; Oportunidade: corte total do orçamento de TIC do Tribunal.
 * **E)** Ameaça: extinção de todas as ameaças cibernéticas no mundo digital; Oportunidade: retorno definitivo aos processos judiciais em papel carbono.
@@ -460,10 +460,10 @@ flowchart TD
 ---
 
 ### Teste 564
-**(FCC Inédita - Analista de TI / Governança e Planejamento)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** O Plano Diretor de Tecnologia da Informação (PDTI) para o biênio 2025–2026 do Tribunal de Contas do Estado de Goiás foi aprovado pela Ordem de Serviço nº 001/2025-CETI. Em relação ao alinhamento estratégico, à estrutura e aos objetivos do PDTI 2025–2026, é correto afirmar:  
 
-* **A)** O PDTI é um instrumento puramente contábil que apenas lista a depreciação de monitores antigos, sem qualquer conexão com os objetivos finalísticos do Tribunal considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **A)** O PDTI é um instrumento puramente contábil que apenas lista a depreciação de monitores antigos, sem qualquer conexão com os objetivos finalísticos do Tribunal.
 * **B)** As contratações de TIC a serem deflagradas pelo Tribunal devem guardar estrita correlação e previsão no PDTI vigente, o qual estabelece eixos estratégicos voltados à modernização em nuvem resiliente, automação inteligente com IA no controle externo, cibersegurança e transformação digital.
 * **C)** A vigência do PDTI do TCE-GO é perpétua e imutável, sendo dispensada a revisão semestral pelo CETI.
 * **D)** As diretrizes de modernização de infraestrutura do PDTI dispensam a observância aos parâmetros de interoperabilidade com os demais Poderes do Estado de Goiás.

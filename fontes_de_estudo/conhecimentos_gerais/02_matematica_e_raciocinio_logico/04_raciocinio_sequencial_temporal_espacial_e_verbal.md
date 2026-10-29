@@ -110,7 +110,7 @@ flowchart TD
 ---
 
 ### Teste 102
-**(FCC – TCE-GO – Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere a sequência numérica infinita cujos primeiros termos são apresentados a seguir:
 $$3, 5, 9, 17, 33, 65, \dots$$
 
@@ -158,7 +158,7 @@ O próximo termo dessa sequência e a lei de formação que rege seus elementos 
 ---
 
 ### Teste 103
-**(FCC – TCE-GO – Técnico de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Um servidor do TCE-GO elaborou uma rotina automatizada para numerar lotes de fiscalização repetindo indefinidamente a palavra **"CONTROLE"**, sem espaços, gerando a seguinte sequência contínua de letras:
 $$\text{C, O, N, T, R, O, L, E, C, O, N, T, R, O, L, E, C, O, N}\dots$$
 
@@ -210,7 +210,7 @@ Nessas condições, a letra que ocupará a 2027ª posição nessa sequência e o
 ---
 
 ### Teste 104
-**(FCC – TRT-23 – Analista Judiciário)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere a sucessão lógica de letras:  
 $$U, D, T, Q, C, S, S, O, N, ...$$  
 A próxima letra que dá continuidade lógica e consistente a essa sequência é:
@@ -300,7 +300,7 @@ Monta-se uma equação de primeiro grau simples para encontrar a posição do di
 ---
 
 ### Teste 105
-**(FCC – TRT – Analista Judiciário)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O Tribunal de Contas publicou um acórdão condenatório em sua sessão plenária realizada em uma **quinta-feira**. O regimento interno concede um prazo improrrogável de exatamente **43 dias corridos**, contados a partir do primeiro dia seguinte ao da publicação, para a interposição de recurso ordinário.
 
 O último dia desse prazo de 43 dias corridos recairá em uma:
@@ -342,7 +342,7 @@ O último dia desse prazo de 43 dias corridos recairá em uma:
 ---
 
 ### Teste 106
-**(FCC – TCE-GO – Analista de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Um relógio analógico convencional de ponteiros marca exatamente $3$ horas e $40$ minutos. A medida do menor ângulo formado entre o ponteiro das horas e o ponteiro dos minutos nesse instante é igual a:
 
 * **A)** $120^\circ$
@@ -409,7 +409,7 @@ Consiste em determinar a projeção visual bidimensional de uma estrutura tridim
 ---
 
 ### Teste 107
-**(FCC – TCE-PI – Analista de Sistemas)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Observe a planificação de um dado cúbico convencional, cujas faces contêm os símbolos $\heartsuit$, $\spadesuit$, $\diamondsuit$, $\clubsuit$, $\bigstar$ e $\blacktriangle$:
 
 ```text
@@ -453,7 +453,7 @@ Ao montar o cubo a partir dessa planificação, a face que ficará **diametralme
 ---
 
 ### Teste 108
-**(FCC – METRÔ-SP – Analista)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Uma pilha maciça de cubos idênticos de $1\text{ cm}$ de aresta foi montada sobre uma mesa plana de modo que sua vista frontal e sua vista lateral direita são ambas formadas por uma grade quadrada de $3 \times 3$ cubos completamente preenchida. O número MÍNIMO de cubinhos necessários para formar essa pilha é:
 
 * **A)** $9$
@@ -498,7 +498,7 @@ Resolvem-se pela equivalência de transformações: *"A está para B assim como 
 ---
 
 ### Teste 109
-**(FCC – DPE-RS – Analista)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere o conjunto de cinco palavras a seguir:  
 *Goiânia*, *Curitiba*, *Brasília*, *Teresina*, *Manaus*
 
@@ -562,7 +562,7 @@ Caso não haja contradição explícita direta entre os depoimentos:
 ---
 
 ### Teste 110
-**(FCC – TCE-GO – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Durante uma auditoria interna para apurar o vazamento de um relatório sigiloso, quatro servidores — Daniel, Eduardo, Fernando e Gabriel — foram interrogados e fizeram as seguintes declarações:
 - Daniel: *"Fernando é o responsável pelo vazamento."*  
 - Eduardo: *"Eu não vazei o relatório."*  
@@ -601,7 +601,7 @@ Sabendo-se que **apenas um dos quatro servidores mentiu** e que apenas um deles 
 ---
 
 ### Teste 111
-**(FCC – TRT-14 – Analista Judiciário)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Três suspeitos de vazar um relatório confidencial de auditoria prestaram os seguintes depoimentos:  
 - **Alberto:** *"Bruno é culpado."*  
 - **Bruno:** *"Carlos é culpado."*  

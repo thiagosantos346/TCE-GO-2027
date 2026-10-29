@@ -125,13 +125,13 @@ Durante a fase de inferência (geração da resposta), o modelo projeta logits (
 ---
 
 ### Teste 119
-**(FCC - Padrão Concursos TI / Fundamentos de Tokenização e Transformers)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Durante a integração de um modelo de linguagem baseado na arquitetura Transformer com uma esteira de desenvolvimento de software em uma Secretaria da Fazenda, a equipe de arquitetura analisou os aspectos de tokenização de código-fonte e o mecanismo de atenção do modelo.
 
 A respeito desse funcionamento interno, assinale a afirmativa correta:  
 
 * **A)** O mecanismo de *Self-Attention* analisa apenas a palavra imediatamente anterior na sequência, comportando-se exatamente como uma Cadeia de Markov de primeira ordem.
-* **B)** O processo de tokenização baseado em algoritmos como Byte-Pair Encoding (BPE) converte palavras em tokens indivisíveis de no mínimo dez caracteres, impedindo a fragmentação de identificadores em código no âmbito da administração pública direta e indireta.
+* **B)** O processo de tokenização baseado em algoritmos como Byte-Pair Encoding (BPE) converte palavras em tokens indivisíveis de no mínimo dez caracteres, impedindo a fragmentação de identificadores em código.
 * **C)** Na arquitetura Transformer do tipo *Decoder-Only*, a máscara causal (*Causal Masking*) impede que a previsão do próximo token tenha acesso aos tokens subsequentes da sequência, viabilizando a geração de código autoregressiva.
 * **D)** A indentação em Python (quatro espaços) consome obrigatoriamente 40 tokens por linha em qualquer tokenizador moderno, inviabilizando o uso de LLMs para desenvolvimento nessa linguagem.
 * **E)** Os vetores de Consulta ($Q$), Chave ($K$) e Valor ($V$) no mecanismo de atenção são constantes numéricas fixas imutáveis, definidas pelos desenvolvedores e independentes do texto de entrada.
@@ -152,10 +152,10 @@ A respeito desse funcionamento interno, assinale a afirmativa correta:
 ---
 
 ### Teste 120
-**(Cebraspe – TRF/STJ – 2024/2025 – Adaptada para o padrão FCC)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No desenvolvimento de sistemas assistidos por inteligência artificial, a arquitetura *Transformer* deu origem a três famílias arquiteturais predominantes: *Encoder-Only*, *Decoder-Only* e *Encoder-Decoder*. A respeito das características e dos casos de uso de cada família em tarefas de engenharia de software, é correto afirmar:
 
-* **A)** Modelos *Encoder-Only* (como o BERT) são amplamente empregados para geração autorregressiva contínua de grandes blocos de código-fonte em tempo real no âmbito da administração pública direta e indireta.
+* **A)** Modelos *Encoder-Only* (como o BERT) são amplamente empregados para geração autorregressiva contínua de grandes blocos de código-fonte em tempo real.
 * **B)** Modelos *Decoder-Only* (como a família GPT, Claude e LLaMA) operam por geração autorregressiva token a token guiada por máscaras causais de atenção.
 * **C)** Modelos *Encoder-Decoder* são incapazes de realizar tradução de código entre linguagens distintas (como COBOL para Java).
 * **D)** A atenção bidirecional irrestrita é uma característica exclusiva dos modelos *Decoder-Only*.
@@ -177,13 +177,13 @@ No desenvolvimento de sistemas assistidos por inteligência artificial, a arquit
 ---
 
 ### Teste 121
-**(FCC – Inédita – Padrão TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O pipeline moderno de treinamento de modelos de linguagem para engenharia de software é estruturado em três fases fundamentais: Pré-treinamento (*Pre-training*), Ajuste Fino Supervisionado (*Supervised Fine-Tuning* - SFT) e Alinhamento (*Alignment* via RLHF ou DPO). A esse respeito, assinale a afirmativa tecnicamente correta:
 
 * **A)** O pré-treinamento exige anotação manual linha a linha por engenheiros humanos de cada arquivo de código consumido pelo modelo.
 * **B)** O Ajuste Fino Supervisionado (SFT) utiliza conjuntos de dados de instruções com pares curados de solicitações e respostas ideais (prompts e códigos corretos) para ensinar o modelo a seguir instruções e dialogar com o desenvolvedor.
 * **C)** O alinhamento por Aprendizado por Reforço com Feedback Humano (RLHF) serve exclusivamente para acelerar a velocidade de clock da placa de vídeo GPU durante o treinamento.
-* **D)** O DPO (*Direct Preference Optimization*) exige obrigatoriamente o treinamento de um modelo de recompensa (*reward model*) separado e instável, ao contrário do RLHF clássico em estrita conformidade com as normas legais e regulamentares aplicáveis.
+* **D)** O DPO (*Direct Preference Optimization*) exige obrigatoriamente o treinamento de um modelo de recompensa (*reward model*) separado e instável, ao contrário do RLHF clássico.
 * **E)** Após o pré-treinamento, o modelo base já possui capacidade nativa e alinhada para recusar instruções maliciosas de exploração de vulnerabilidades.
 
 
@@ -202,7 +202,7 @@ O pipeline moderno de treinamento de modelos de linguagem para engenharia de sof
 ---
 
 ### Teste 122
-**(Cebraspe – TRF/STJ – 2024/2025 – Adaptada para o padrão FCC)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Na inferência de modelos de linguagem utilizados para geração de código-fonte de missão crítica, a calibração de hiperparâmetros de amostragem exerce impacto decisivo na corretude e determinismo dos programas gerados. A respeito dos hiperparâmetros *Temperature* e *Top-P* (*Nucleus Sampling*), é correto afirmar:
 
 * **A)** Valores elevados de *Temperature* (próximos a 1.5 ou 2.0) tornam a distribuição de probabilidades mais íngreme, garantindo código determinístico, rigoroso e sem bugs de sintaxe.
@@ -255,7 +255,7 @@ Na programação clássica, o compilador atua como um juiz sintático inflexíve
 - A intenção é descrita textualmente, mas ancorada por especificações formais de entrada e saída, eliminando ambiguidade semântica.
 
 ### 2.3 Especificações Dirigidas por Comportamento (BDD) como Prompts Executáveis
-A disciplina do BDD (*Behavior-Driven Development*) serve como ponte natural entre intenção em linguagem humana e testes automatizados. Cenários descritos em sintaxe Gherkin (`Dado que... Quando... Então...`) são utilizados como especificações inequívocas:
+A disciplina do BDD (*Behavior-Driven Development*) serve como ponte natural entre intenção em linguagem humana e testes automatizados. Cenários descritos em sintaxe Gherkin (`Dado que.. Quando.. Então..`) são utilizados como especificações inequívocas:
 
 ```gherkin
 Cenário: Aplicação de glosa por sobrepreço em auditoria de obras
@@ -271,7 +271,7 @@ O LLM recebe esse contrato comportamental e gera simultaneamente a suíte de tes
 ---
 
 ### Teste 123
-**(FCC - Adaptada / TI - Intent-Based Programming e Gestão de Contexto)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No contexto da evolução da engenharia de software assistida por inteligência artificial, destacam-se os conceitos de Programação Baseada em Intenção (*Intent-Based Programming*) e a gestão criteriosa da janela de contexto (*Context Window*).
 
 Sobre esses conceitos, assinale a afirmativa correta:  
@@ -298,7 +298,7 @@ Sobre esses conceitos, assinale a afirmativa correta:
 ---
 
 ### Teste 124
-**(FCC – Inédita – Padrão TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No paradigma de Programação Baseada em Intenção (*Intent-Based Programming*), o desenvolvedor expressa a intenção de negócio em linguagem natural estruturada, cabendo a agentes de IA sintetizar a lógica técnica e a implementação. No entanto, na integração desse código aos pipelines de entrega, a relação entre semântica declarativa e sintaxe estrita exige que:
 
 * **A)** O código gerado pela IA seja enviado para produção imediatamente sem compilação, pois a intenção declarada sobrepõe-se às regras de sintaxe do compilador garantindo a observância dos protocolos de governança e interoperabilidade vigentes.
@@ -346,7 +346,7 @@ classDiagram
 1. **Papel e Persona (*System Prompt*):** Define a identidade, senioridade e princípios arquiteturais (ex.: *"Você é um arquiteto de software sênior especialista em Java 21 e Spring Boot 3. Priorize código idiomático, imutabilidade, princípios SOLID e práticas de segurança OWASP"*).
 2. **Contexto e Restrições Não Negociáveis:** Define versões estritas, limites de bibliotecas (ex.: *"Não utilize bibliotecas externas fora do JDK padrão e Spring Web; aplique o padrão Repository"*).
 3. **Entrada de Dados e Contratos:** Código pré-existente, esquemas de tabelas SQL, modelos DTO e payloads esperados.
-4. **Formato e Critérios de Saída:** Exige código em bloco Markdown limpo, sem elipses (`// ... restante do código`), tipagem estrita e inclusão de testes unitários com JUnit 5 e Mockito.
+4. **Formato e Critérios de Saída:** Exige código em bloco Markdown limpo, sem elipses (`// .. restante do código`), tipagem estrita e inclusão de testes unitários com JUnit 5 e Mockito.
 
 ### 3.2 Técnicas Centrais de Prompting: Zero-Shot, Few-Shot, CoT e Test-Driven
 
@@ -403,7 +403,7 @@ Para contornar o efeito *Lost in the Middle* e evitar estouros de cotas financei
 ---
 
 ### Teste 125
-**(FCC - Adaptada / TI - Engenharia de Prompts e Hiperparâmetros de Inferência)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Um desenvolvedor de software de um Tribunal de Contas Estadual está configurando a integração de uma ferramenta de IA generativa para auxiliar na geração automatizada de funções de validação de regras fiscais e cálculos contábeis em Python. Ele precisa garantir que as implementações geradas sejam estritamente determinísticas, fiéis à sintaxe da linguagem e sigam um padrão corporativo pré-estabelecido de tratamento de exceções.
 
 Considerando as técnicas de engenharia de prompts e a calibração de modelos de linguagem (LLMs):  
@@ -430,7 +430,7 @@ Considerando as técnicas de engenharia de prompts e a calibração de modelos d
 ---
 
 ### Teste 126
-**(FCC - Padrão Concursos TI / Engenharia de Prompts e Chain-of-Thought)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Um analista de sistemas da área fiscal precisa refatorar uma rotina crítica de cálculo do ITCMD (Imposto sobre Transmissão Causa Mortis e Doação) que envolve alíquotas progressivas, meação, herança legítima e múltiplas condições de isenção. Para obter da IA generativa uma solução robusta e livre de falhas de lógica contábil, ele decide aplicar técnicas avançadas de engenharia de prompts.
 
 Nesse cenário, a abordagem metodologicamente mais adequada é:  
@@ -438,7 +438,7 @@ Nesse cenário, a abordagem metodologicamente mais adequada é:
 * **A)** Utilizar a técnica *Zero-Shot* com temperatura ajustada em $1.0$, instruindo o modelo a fornecer apenas o código final em uma única linha compactada sem comentários.
 * **B)** Aplicar a técnica de *Chain-of-Thought* (Cadeia de Pensamento), instruindo explicitamente o modelo a decompor as regras tributárias, detalhar o raciocínio matemático passo a passo e, somente após validar as etapas lógicas, emitir o código Python correspondente com testes unitários cobrindo as faixas de tributação.
 * **C)** Evitar o uso de *System Prompts*, pois estes anulam as diretrizes de segurança da plataforma de IA.
-* **D)** Utilizar a técnica de *Tree-of-Thoughts* apenas para alterar o nome das variáveis para formatos em caixa-alta, pois a lógica fiscal dispensa decomposição passo a passo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **D)** Utilizar a técnica de *Tree-of-Thoughts* apenas para alterar o nome das variáveis para formatos em caixa-alta, pois a lógica fiscal dispensa decomposição passo a passo. em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **E)** Aumentar a `Frequency Penalty` para seu valor máximo possível, garantindo que palavras reservadas da linguagem como `if` e `return` nunca se repitam no código gerado.
 
 
@@ -457,12 +457,12 @@ Nesse cenário, a abordagem metodologicamente mais adequada é:
 ---
 
 ### Teste 127
-**(Cebraspe – TRF/STJ – 2024/2025 – Adaptada para o padrão FCC)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em arquiteturas de LLMs com janelas de contexto estendidas (acima de 128k tokens), pesquisadores identificaram o fenômeno empírico denominado *"Lost in the Middle"*. Esse efeito consiste na tendência de o modelo:
 
 * **A)** Esquecer completamente todas as palavras iniciadas pela letra "M" ao longo do texto.
 * **B)** Apresentar atenção e capacidade de recuperação substancialmente superiores para informações situadas no início e no final do prompt de contexto, degradando a precisão na recuperação de fatos e restrições posicionados no meio do contexto volumoso.
-* **C)** Exigir o reinício manual do computador sempre que o prompt ultrapassar 500 caracteres considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **C)** Exigir o reinício manual do computador sempre que o prompt ultrapassar 500 caracteres. em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **D)** Alucinar apenas em tarefas que envolvem operações de banco de dados relacional.
 * **E)** Travar o mecanismo de autocompletar da IDE exclusivamente durante a madrugada.
 
@@ -482,13 +482,13 @@ Em arquiteturas de LLMs com janelas de contexto estendidas (acima de 128k tokens
 ---
 
 ### Teste 128
-**(FCC - Padrão Concursos TI / Curadoria de Contexto e Estruturação de Prompts)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na formulação de prompts para agentes de geração de código em larga escala, a equipe técnica deparou-se com a necessidade de submeter múltiplos artefatos: a especificação de uma API REST, esquemas de banco de dados e requisitos de negócio complexos.
 
 Considerando as boas práticas de curadoria de contexto e a mitigação de vieses posicionais em LLMs:  
 
 * **A)** Todas as diretrizes obrigatórias e regras de negócio críticas devem ser colocadas exatamente no centro geométrico do prompt, pois é a região onde o mecanismo de atenção possui seu pico de sensibilidade.
-* **B)** O desenvolvedor deve concatenar todos os arquivos do repositório, incluindo pastas de dependências compiladas (`node_modules` e arquivos `.lock`), sem filtragem prévia, para maximizar a entropia do modelo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **B)** O desenvolvedor deve concatenar todos os arquivos do repositório, incluindo pastas de dependências compiladas (`node_modules` e arquivos `.lock`), sem filtragem prévia, para maximizar a entropia do modelo. em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **C)** As instruções fundamentais, restrições invioláveis de arquitetura e o comando principal de execução devem ser posicionados nas extremidades do prompt (no início e no final), aplicando-se técnicas de delimitação clara de contexto (como tags estruturadas) e expurgando arquivos irrelevantes para contornar o efeito *"Lost in the Middle"*.
 * **D)** O uso de tags delimitadoras (como marcadores XML ou blocos Markdown) é proibido por provedores de LLMs, pois causa falhas irreparáveis no decodificador causal.
 * **E)** A janela de contexto não impõe nenhum custo financeiro adicional em provedores de nuvem, visto que a tarifação incide unicamente sobre o tempo de conexão TCP/IP mantido aberto.

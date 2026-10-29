@@ -93,11 +93,11 @@ flowchart TD
 ---
 
 ### Teste 350
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito da Organização Racional do Trabalho (ORT) desenvolvida por Frederick Winslow Taylor e das características da abordagem clássica da administração, assinale a assertiva correta:
 
 * **A)** A ORT propunha que os operários determinassem livremente seus próprios métodos operacionais de trabalho, eliminando qualquer forma de padronização industrial.
-* **B)** A teoria partia da premissa do *Homo Socialis*, sustentando que os operários trabalhavam motivados preponderantemente pelo bem-estar afetivo e harmonia do grupo informal no âmbito da administração pública direta e indireta.
+* **B)** A teoria partia da premissa do *Homo Socialis*, sustentando que os operários trabalhavam motivados preponderantemente pelo bem-estar afetivo e harmonia do grupo informal.
 * **C)** O estudo dos tempos e movimentos objetivava decompor as tarefas fabris em operações elementares para eliminar movimentos desnecessários e determinar o tempo-padrão de execução.
 * **D)** Taylor defendia a preservação estrita do capataz geral de fábrica com comando único, condenando a divisão da supervisão em funções especializadas.
 * **E)** A fadiga humana era ignorada pela ORT por ser considerada um fenômeno psicológico irrelevante para a produtividade fabril.
@@ -118,7 +118,7 @@ A respeito da Organização Racional do Trabalho (ORT) desenvolvida por Frederic
 ---
 
 ### Teste 351
-**(FCC - Adaptada / Analista de Gestão Pública)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A Organização Racional do Trabalho (ORT), núcleo da Administração Científica de Frederick W. Taylor, estruturou-se em fundamentos técnicos para combater a "vadiagem sistemática" dos operários e elevar a produtividade.
 
 Dentre os pilares da ORT, o **Estudo dos Tempos e Movimentos** (*Motion and Time Study*) visava essencialmente:
@@ -126,7 +126,7 @@ Dentre os pilares da ORT, o **Estudo dos Tempos e Movimentos** (*Motion and Time
 * **A)** Decompor cada tarefa fabril em seus movimentos elementares para eliminar movimentos inúteis, simplificar a execução e fixar o tempo-padrão de realização.
 * **B)** Fixar os prazos de tramitação de processos administrativos no âmbito dos Tribunais de Contas.
 * **C)** Estabelecer o horário fixo de entrada e saída dos servidores com tolerância de dez minutos.
-* **D)** Organizar os intervalos de repouso conforme a vontade individual espontânea de cada trabalhador em estrita conformidade com as normas legais e regulamentares aplicáveis.
+* **D)** Organizar os intervalos de repouso conforme a vontade individual espontânea de cada trabalhador.
 * **E)** Subordinar a chefia de fábrica à avaliação semestral de clima organizacional pelos empregados.
 
 
@@ -174,10 +174,10 @@ flowchart LR
 ---
 
 ### Teste 352
-**(FCC – TCE-RS – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Determinada unidade de fiscalização governamental realizou uma auditoria utilizando técnicas modernas de amostragem eletrônica, reduzindo o custo operacional em 40% e concluindo os trabalhos na metade do tempo médio histórico previsto. Não obstante a velocidade e economia de recursos empregados, o relatório final omitiu as irregularidades materiais mais graves que assolavam o órgão auditado, inviabilizando a responsabilização dos gestores ímprobos. Sob a ótica das teorias da administração:
 
-* **A)** O trabalho da equipe foi altamente eficiente e eficaz, visto que atendeu aos parâmetros de produtividade estipulados pela chefia no âmbito da administração pública direta e indireta.
+* **A)** O trabalho da equipe foi altamente eficiente e eficaz, visto que atendeu aos parâmetros de produtividade estipulados pela chefia.
 * **B)** A unidade atuou com eficiência no uso dos recursos e métodos, contudo foi ineficaz no tocante ao alcance do objetivo finalístico primordial da fiscalização.
 * **C)** A equipe demonstrou alta eficácia operacional aliada à total ineficiência metodológica.
 * **D)** A omissão decorreu exclusivamente da atuação autônoma da organização informal da equipe técnica.
@@ -223,10 +223,10 @@ flowchart TD
 ---
 
 ### Teste 353
-**(FCC – ARTESP – Especialista em Regulação de Transportes)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito da organização formal e da organização informal no cotidiano das instituições públicas, assinale a opção correta:
 
-* **A)** A organização informal deve ser formalmente dissolvida pelos gestores por meio de sanções disciplinares, pois é incompatível com o princípio constitucional da eficiência no âmbito da administração pública direta e indireta.
+* **A)** A organização informal deve ser formalmente dissolvida pelos gestores por meio de sanções disciplinares, pois é incompatível com o princípio constitucional da eficiência.
 * **B)** A organização formal é aquela planejada pela cúpula e oficializada em atos normativos, enquanto a organização informal decorre da rede espontânea de interações sociais e afetivas entre os colaboradores.
 * **C)** A liderança informal coincide compulsoriamente com a autoridade formal atribuída aos servidores nomeados para cargos de direção e chefia.
 * **D)** Os canais informais de comunicação (rádio-peão) transmitem informações de forma mais lenta e burocrática do que os canais hierárquicos regimentais.
@@ -248,14 +248,14 @@ A respeito da organização formal e da organização informal no cotidiano das 
 ---
 
 ### Teste 354
-**(FCC - Adaptada / Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No estudo da dinâmica organizacional, a **Organização Informal** coexiste paralelamente com a **Organização Formal** em toda repartição pública.
 
 Constitui característica exclusiva da **Organização Informal**:
 
 * **A)** O surgimento espontâneo a partir das interações sociais, simpatias, antipatias e afinidades interpessoais entre os servidores, não figurando nos organogramas e manuais oficiais.
 * **B)** A formalização expressa em decretos de criação e estatutos jurídicos aprovados pelo Poder Legislativo.
-* **C)** A definição prévia de níveis hierárquicos e competências funcionais taxativamente atribuídas por portaria em estrita conformidade com as normas legais e regulamentares aplicáveis.
+* **C)** A definição prévia de níveis hierárquicos e competências funcionais taxativamente atribuídas por portaria.
 * **D)** A obrigatoriedade de registro dos fluxos de comunicação em livros de ata públicos.
 * **E)** A estabilidade jurídica vitalícia conferida por concurso público formal.
 
@@ -301,7 +301,7 @@ A delegação é o ato administrativo mediante o qual uma autoridade transfere a
 ---
 
 ### Teste 355
-**(FCC – TRT-2ª Região – Analista Judiciário: Área Administrativa)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No tocante à dinâmica da delegação de competências e à centralização versus descentralização administrativa nas organizações formais, assinale a opção correta:
 
 * **A)** A descentralização decisória implica concentrar a tomada de decisões na diretoria executiva, garantindo que os gestores operacionais executem tarefas sem qualquer margem de arbítrio.
@@ -326,13 +326,13 @@ No tocante à dinâmica da delegação de competências e à centralização ver
 ---
 
 ### Teste 356
-**(FCC - Adaptada / Analista de Planejamento e Controle)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na teoria da administração, a delegação de autoridade é instrumento indispensável para a descentralização gerencial e agilização dos processos decisórios.
 
 A respeito da delegação de autoridade, é uma regra fundamental da ciência da administração que:
 
 * **A)** A autoridade pode ser delegada, mas a responsabilidade final pelo resultado alcançado permanece indelegável perante a autoridade superior que realizou a delegação.
-* **B)** Tanto a autoridade quanto a responsabilidade integral são transferidas definitivamente ao subordinado, eximindo o superior de qualquer dever de supervisão no âmbito da administração pública direta e indireta.
+* **B)** Tanto a autoridade quanto a responsabilidade integral são transferidas definitivamente ao subordinado, eximindo o superior de qualquer dever de supervisão.
 * **C)** É obrigatória a delegação de atos normativos de caráter geral e a decisão de recursos administrativos ordinários.
 * **D)** A delegação só é lícita quando envolver poderes irrevogáveis com prazo mínimo de dez anos.
 * **E)** O subordinado que recebe autoridade delegada passa a responder diretamente ao Chefe do Poder Executivo.
@@ -392,7 +392,7 @@ flowchart TD
 ---
 
 ### Teste 357
-**(FCC – DPE-RS – Analista: Área Administrativa)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em relação ao estudo dos ambientes organizacionais e sua influência sobre o funcionamento das instituições públicas, é correto afirmar que:
 
 * **A)** O ambiente de tarefa é composto por forças macroscópicas universais, tais como taxas de inflação, fatores climáticos e mudanças sociodemográficas nacionais.
@@ -417,7 +417,7 @@ Em relação ao estudo dos ambientes organizacionais e sua influência sobre o f
 ---
 
 ### Teste 358
-**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na análise do ambiente organizacional, os teóricos contemporâneos distinguem o **Macroambiente (Ambiente Geral)** do **Microambiente (Ambiente de Tarefa ou Operacional)**.
 
 Constitui elemento integrante do **Ambiente de Tarefa (Microambiente)** de uma organização pública:
@@ -425,7 +425,7 @@ Constitui elemento integrante do **Ambiente de Tarefa (Microambiente)** de uma o
 * **A)** Os fornecedores de bens e serviços licitados, os cidadãos-usuários diretos dos serviços e os órgãos de controle externo fiscalizadores.
 * **B)** As variáveis demográficas de longo prazo da população nacional.
 * **C)** A conjuntura macroeconômica global e a taxa de câmbio internacional.
-* **D)** O sistema jurídico-constitucional abstrato do país e as tendências climáticas planetárias no âmbito da administração pública direta e indireta.
+* **D)** O sistema jurídico-constitucional abstrato do país e as tendências climáticas planetárias.
 * **E)** O conjunto de inovações científicas mundiais em física quântica.
 
 
@@ -441,13 +441,13 @@ Constitui elemento integrante do **Ambiente de Tarefa (Microambiente)** de uma o
 ---
 
 ### Teste 359
-**(FCC - Adaptada / TCE-GO - Analista de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em uma organização pública que busca aprimorar sua gestão, o diretor de departamento determinou que suas equipes eliminassem desperdícios de materiais e reduzissem os custos operacionais com papel e suprimentos de impressão em 30%, sem alterar a qualidade do serviço.
 
 A ênfase conferida pelo diretor concentrou-se primordialmente na dimensão da:
 
 * **A)** Eficiência (otimização do uso de insumos e recursos em relação aos produtos entregues / relação insumo-produto).
-* **B)** Efetividade (grau de transformação e impacto social na comunidade de longo prazo) no âmbito da administração pública direta e indireta.
+* **B)** Efetividade (grau de transformação e impacto social na comunidade de longo prazo).
 * **C)** Eficácia pura (medida estrita do atingimento da meta final de atendimento).
 * **D)** Descentralização operacional desverticalizada.
 * **E)** Resiliência cibernética sistêmica.

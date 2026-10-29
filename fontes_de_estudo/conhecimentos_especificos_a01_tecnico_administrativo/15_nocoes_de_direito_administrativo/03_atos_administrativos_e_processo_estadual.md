@@ -97,7 +97,7 @@ flowchart TD
 ---
 
 ### Teste 023
-**(FCC – Analista Judiciário – TRT / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No estudo da Teoria Geral do Ato Administrativo, os planos da existência, da validade e da eficácia representam momentos conceituais distintos. A respeito da distinção dogmática entre a validade e a eficácia dos atos administrativos, é correto afirmar que:
 
 * **A)** Um ato administrativo válido é necessariamente eficaz, produzindo efeitos jurídicos desde a sua assinatura.
@@ -179,7 +179,7 @@ O objeto é o efeito jurídico imediato e substantivo que o ato produz no mundo 
 ---
 
 ### Teste 024
-**(FGV – Auditor de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A autoridade competente de determinada autarquia estadual instaurou processo administrativo de fiscalização e aplicou sanção a uma sociedade empresária credenciada. Inconformada, a empresa alegou vício de competência do agente sancionador. Sobre o elemento competência do ato administrativo, assinale a opção correta:
 
 * **A)** A competência administrativa é de exercício obrigatório, intransferível e indelegável em qualquer circunstância.
@@ -200,7 +200,7 @@ A autoridade competente de determinada autarquia estadual instaurou processo adm
 >
 > **Gabarito: C**
 ### Teste 025
-**(FCC – Auditor de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O Governador do Estado exonerou servidor ocupante de cargo em comissão de livre nomeação e exoneração, consignando na portaria que a dispensa decorreu de readequação orçamentária e corte de gastos com folha. Em processo de auditoria, comprovou-se que na mesma data foram nomeados dois assessores com vencimentos idênticos. O ato de exoneração:
 
 * **A)** É discricionário e prescinde de motivação, não ficando vinculado aos motivos declarados na portaria.
@@ -221,7 +221,7 @@ O Governador do Estado exonerou servidor ocupante de cargo em comissão de livre
 >
 > **Gabarito: B**
 ### Teste 026
-**(FCC – TRT – Analista Judiciário - 2009)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No estudo dogmático do ato administrativo, a doutrina tradicional e o art. 2º da Lei Federal nº 4.717/1965 (Lei da Ação Popular) estruturam a validade dos atos em cinco elementos ou requisitos essenciais. Dentre os elementos indispensáveis à formação do ato administrativo, citam-se:
 
 * **A)** a autoexecutoriedade, a imperatividade e a presunção de legitimidade perante administrados.
@@ -283,7 +283,7 @@ Consiste na faculdade de impor obrigações coercitivas e restrições unilatera
 ---
 
 ### Teste 027
-**(FGV – Analista Judiciário – TJ-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Determinada fiscalização de vigilância sanitária estadual constatou que um restaurante comercializava alimentos estragados e impróprios para o consumo humano, gerando risco iminente de intoxicação coletiva. De imediato, a equipe de fiscalização determinou a interdição do estabelecimento e apreendeu as mercadorias. Sobre a autoexecutoriedade:
 
 * **A)** Exige prévia autorização judicial liminar para a sua incidência, em observância à inafastabilidade da jurisdição.
@@ -336,7 +336,7 @@ O julgamento da legalidade e a concessão de registro de aposentadoria, pensão 
 ---
 
 ### Teste 028
-**(FGV – TRT – Analista Judiciário - 2024)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Na classificação doutrinária dos atos administrativos quanto à formação da vontade estatal, a doutrina tradicional distingue os atos simples, os atos complexos e os atos compostos. A respeito da distinção dogmática entre ato complexo e ato composto, é correto afirmar que:
 
 * **A)** o ato complexo resulta da manifestação de dois órgãos que emitem um ato principal e outro acessório instrumental.
@@ -357,7 +357,7 @@ Na classificação doutrinária dos atos administrativos quanto à formação da
 >
 > **Gabarito: C**
 ### Teste 029
-**(FGV – TRT – Analista Judiciário - 2024)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Determinada autarquia estadual publicou ato concedendo aposentadoria a servidor público estatutário e enviou os autos funcionais ao Tribunal de Contas do Estado para fins de registro e controle de legalidade. Decorridos seis anos da entrada do processo na Corte de Contas sem deliberação, o processo foi pautado para julgamento. À luz do art. 71, III, da CF/88 e do Tema nº 445 do STF:
 
 * **A)** O ato de concessão de aposentadoria é ato composto, restando precluso o exame de legalidade pelo Tribunal de Contas.
@@ -415,7 +415,7 @@ A convalidação (ou sanatória) é o ato administrativo pelo qual a Administra�
 ---
 
 ### Teste 030
-**(FGV – TRF-1ª Região – Analista Judiciário - 2024)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Ao estudar as modalidades de extinção do ato administrativo no Direito Administrativo brasileiro, Júlia verificou a ocorrência de uma hipótese em que o beneficiário de uma licença outorgada pelo Poder Público descumpriu dolosamente as normas legais e condicionantes impostas no momento da expedição do ato. 
 
 Nesse contexto doutrinário, a modalidade de desfazimento do ato administrativo decorrente da superveniente culpa do beneficiário denomina-se:
@@ -438,7 +438,7 @@ Nesse contexto doutrinário, a modalidade de desfazimento do ato administrativo 
 >
 > **Gabarito: C**
 ### Teste 031
-**(FCC – TRT – Analista Judiciário - 2009)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em relação à invalidação, revogação e convalidação dos atos administrativos no ordenamento jurídico brasileiro, é correto afirmar que:
 
 * **A)** apenas os atos discricionários podem ser objeto de revogação por conveniência e oportunidade da Administração.
@@ -495,7 +495,7 @@ Para assegurar a imparcialidade nas decisões administrativas, a lei estadual es
 ---
 
 ### Teste 032
-**(FCC – TRT – Analista Judiciário - 2024)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O Presidente de determinada autarquia delegou a órgão hierarquicamente inferior a competência para instruir procedimentos apuratórios e expedir certidões, fixando prazo determinado de vigência para a delegação. 
 
 A respeito dos efeitos do ato de delegação sobre a autoridade delegante, com base na Lei de Processo Administrativo (Lei nº 9.784/1999):
@@ -518,7 +518,7 @@ A respeito dos efeitos do ato de delegação sobre a autoridade delegante, com b
 >
 > **Gabarito: A**
 ### Teste 033
-**(FGV – Analista Judiciário – TJ-GO / Simulado - Lei Estadual nº 13.800/2001)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 De acordo com o regime jurídico do processo administrativo no âmbito da Administração Pública do Estado de Goiás (Lei Estadual nº 13.800/2001), a autoridade ou servidor que incorrer em impedimento funcional deve comunicar o fato incontinenti à autoridade competente, abstendo-se de atuar no feito. 
 
 Configura hipótese de IMPEDIMENTO legal, nos termos expressos do art. 18 da referida legislação estadual, a participação de autoridade ou servidor que:

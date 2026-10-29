@@ -86,7 +86,7 @@ flowchart TD
 ---
 
 ### Teste 380
-**(FCC – TRT-20ª Região – Analista Judiciário: Área Administrativa)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Determinada entidade governamental realizou o diagnóstico de seu ambiente por meio da matriz SWOT cruzada. A equipe constatou a existência concomitante de graves fragilidades operacionais internas (sistemas obsoletos e déficit crônico de servidores) associadas a um ambiente externo marcado por severas restrições orçamentárias impostas por lei e risco iminente de descontinuidade de convênios. Diante desse cenário de predomínio de fraquezas internas e ameaças externas, a postura estratégica recomendada pela teoria da administração é a:
 
 * **A)** Postura de Alavancagem ou Ofensiva.
@@ -111,13 +111,13 @@ Determinada entidade governamental realizou o diagnóstico de seu ambiente por m
 ---
 
 ### Teste 381
-**(FCC - Adaptada / Analista de Planejamento e Gestão)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na Análise SWOT Cruzada (Matriz FOFA), o confronto entre o ambiente interno (Forças e Fraquezas) e o ambiente externo (Oportunidades e Ameaças) permite delinear posturas estratégicas fundamentais para a organização.
 
 A postura estratégica recomendada quando a organização diagnostica um cenário caracterizado predominantemente pelo cruzamento entre **Fraquezas Internas** e **Ameaças Externas** é a postura de:
 
 * **A)** Sobrevivência (ou Defensiva), visando reduzir danos, conter prejuízos e desinvestir em áreas críticas inviabilizadas.
-* **B)** Desenvolvimento (ou Alavancagem agressiva), priorizando a expansão maciça de novos serviços e instalações no âmbito da administração pública direta e indireta.
+* **B)** Desenvolvimento (ou Alavancagem agressiva), priorizando a expansão maciça de novos serviços e instalações.
 * **C)** Domínio Monopolista irrestrito de mercado.
 * **D)** Crescimento acelerado por meio de fusões estatais corporativas.
 * **E)** Terceirização integral das atividades exclusivas de Estado.
@@ -161,13 +161,13 @@ flowchart TD
 ---
 
 ### Teste 382
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 De acordo com o modelo de análise das Cinco Forças Competitivas desenvolvido por Michael Porter, a intensidade com que novas empresas ou organizações ameaçam ingressar em determinado setor de atividade econômica é contida fundamentalmente pela presença de:
 
 * **A)** Barreiras à entrada, tais como economias de escala consolidadas e elevados requisitos de capital inicial.
 * **B)** Alta rivalidade interna e ausência de regulamentação governamental setorial.
 * **C)** Facilidade de acesso aos canais de distribuição tradicionais pelos recém-chegados.
-* **D)** Baixo custo de mudança (*switching costs*) suportado pelos consumidores ao migrarem de fornecedor no âmbito da administração pública direta e indireta.
+* **D)** Baixo custo de mudança (*switching costs*) suportado pelos consumidores ao migrarem de fornecedor.
 * **E)** Existência de produtos substitutos com preços significativamente menores no mercado.
 
 
@@ -197,7 +197,7 @@ De acordo com o modelo de análise das Cinco Forças Competitivas desenvolvido p
 ---
 
 ### Teste 383
-**(FCC – SEFAZ-PE – Auditor Fiscal do Tesouro Estadual)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No modelo das Estratégias Genéricas formulado por Michael Porter, a organização que opta por desenvolver serviços ou produtos com atributos peculiares e exclusivos, fortemente reconhecidos pelo público-alvo pela sua excelência técnica, design inovador e credibilidade institucional, cobra preços diferenciados e busca fidelizar seus usuários, adota a estratégia genérica de:
 
 * **A)** Liderança em Custo Total.
@@ -222,13 +222,13 @@ No modelo das Estratégias Genéricas formulado por Michael Porter, a organizaç
 ---
 
 ### Teste 384
-**(FCC - Adaptada / Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Michael Porter formulou o célebre modelo das Cinco Forças Competitivas que determinam a atratividade e o nível de rentabilidade de uma indústria.
 
 São forças competitivas integrantes do modelo original de Porter:
 
 * **A)** Rivalidade entre os concorrentes existentes, Ameaça de novos entrantes, Poder de barganha dos compradores (clientes), Poder de barganha dos fornecedores e Ameaça de produtos ou serviços substitutos.
-* **B)** Poder Judiciário, Poder Executivo, Poder Legislativo, Ministério Público e Tribunal de Contas considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **B)** Poder Judiciário, Poder Executivo, Poder Legislativo, Ministério Público e Tribunal de Contas.
 * **C)** Gravidade, Urgência, Tendência, Capacidade Operacional e Risco Jurídico.
 * **D)** Inflação, Taxa Selic, Produto Interno Bruto, Balança Comercial e Dívida Soberana.
 * **E)** Hardware, Software, Peopleware, Sistemas de Redes e Dados na Nuvem.
@@ -291,7 +291,7 @@ flowchart TD
 ---
 
 ### Teste 385
-**(FCC – TCE-RS – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Segundo a Visão Baseada em Recursos (RBV) e o modelo conceitual VRIO formulado por Jay Barney, um recurso organizacional que seja considerado valioso pela organização e raro no seu mercado de atuação, porém passível de imitação a baixo custo pelos demais concorrentes, proporciona à entidade:
 
 * **A)** Desvantagem competitiva prolongada.
@@ -319,14 +319,14 @@ Segundo a Visão Baseada em Recursos (RBV) e o modelo conceitual VRIO formulado 
 ---
 
 ### Teste 386
-**(FCC - Adaptada / Analista de Tecnologia e Controle)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na Visão Baseada em Recursos (RBV - *Resource-Based View*) e no framework **VRIO** desenvolvido por Jay Barney, para que um recurso interno gere uma **Vantagem Competitiva Sustentável** de longo prazo para a organização, ele deve preencher cumulativamente os quatro requisitos:
 
 * **A)** Ser Valioso (V), Raro (R), Difícil de Imitar/Inimitável (I) e a organização estar Organizada (O) para explorá-lo plenamente.
 * **B)** Ser Volátil, Razoável, Imediato e Onipresente.
 * **C)** Ser Vigoroso, Regular, Inflexível e Oneroso.
 * **D)** Ter Vencimento anual, Restrição orçamentária, Isenção tributária e Opção de resgate.
-* **E)** Ter Valor monetário alto, Rapidez de liquidação, Inscrição em dívida ativa e Ordem bancária emitida no âmbito da administração pública direta e indireta.
+* **E)** Ter Valor monetário alto, Rapidez de liquidação, Inscrição em dívida ativa e Ordem bancária emitida.
 
 
 ---
@@ -376,13 +376,13 @@ flowchart TD
 ---
 
 ### Teste 387
-**(FCC – DPE-RS – Analista: Área Administrativa)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito da ferramenta Business Model Canvas desenvolvida por Alexander Osterwalder, assinale a opção correta:
 
 * **A)** O bloco da Proposta de Valor descreve detalhadamente o organograma hierárquico e as linhas formais de subordinação funcional da empresa.
 * **B)** O bloco de Segmentos de Clientes situa-se no lado de infraestrutura interna (back-stage), ao lado da estrutura de custos e fornecedores.
 * **C)** O modelo Canvas é composto por nove blocos interdependentes que descrevem a lógica de como uma organização cria, entrega e captura valor perante seu público.
-* **D)** A ferramenta Canvas foi desenhada com a finalidade exclusiva de substituir as Demonstrações Contábeis Aplicadas ao Setor Público (DCASP) no âmbito da administração pública direta e indireta.
+* **D)** A ferramenta Canvas foi desenhada com a finalidade exclusiva de substituir as Demonstrações Contábeis Aplicadas ao Setor Público (DCASP).
 * **E)** O bloco das Parcerias Principais destina-se a mensurar os prazos cronológicos das tarefas críticas de projetos de curto prazo.
 
 
@@ -401,11 +401,11 @@ A respeito da ferramenta Business Model Canvas desenvolvida por Alexander Osterw
 ---
 
 ### Teste 388
-**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na modelagem inovadora de serviços e projetos públicos pelo *Business Model Canvas* (Alexander Osterwalder), o bloco que define como a instituição se comunica e entrega a sua proposta de valor aos diferentes segmentos de usuários e cidadãos é denominado:
 
 * **A)** Canais (de Comunicação, Distribuição e Acesso).
-* **B)** Estrutura de Custos no âmbito da administração pública direta e indireta.
+* **B)** Estrutura de Custos.
 * **C)** Fluxo de Receitas.
 * **D)** Recursos Principais.
 * **E)** Parcerias-Chave.
@@ -426,7 +426,7 @@ Na modelagem inovadora de serviços e projetos públicos pelo *Business Model Ca
 ---
 
 ### Teste 389
-**(FCC - Adaptada / TCE-GO - Analista de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Segundo as Estratégias Genéricas de Michael Porter, quando uma organização busca se destacar perante os usuários e a sociedade criando produtos ou serviços amplamente percebidos como únicos, de qualidade superior e com atributos exclusivos inigualáveis no setor, ela adota a estratégia de:
 
 * **A)** Diferenciação.

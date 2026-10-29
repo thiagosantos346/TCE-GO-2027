@@ -114,7 +114,7 @@ Os Conselheiros Substitutos (Auditores) ingressam na carreira do TCE-GO exclusiv
 ---
 
 ### Teste 142
-**(FCC – TCE-GO – Analista de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito da distribuição de competências entre os órgãos colegiados deliberativos do Tribunal de Contas do Estado de Goiás, em conformidade com as regras do seu Regimento Interno (Resolução nº 22/2008), compete privativamente ao Tribunal Pleno:
 
 * **A)** O exame e registro da concessão inicial de aposentadorias de magistrados e membros do Ministério Público Estadual.
@@ -139,7 +139,7 @@ A respeito da distribuição de competências entre os órgãos colegiados delib
 ---
 
 ### Teste 143
-**(FCC – Inédita – Padrão TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 De acordo com o Regimento Interno do Tribunal de Contas do Estado de Goiás (Resolução nº 22/2008, arts. 1º a 35), quanto à competência e funcionamento dos órgãos colegiados:
 
 * **A)** As Câmaras têm competência para emitir o parecer prévio sobre as contas anuais prestadas pelo Governador do Estado.
@@ -194,7 +194,7 @@ O Ministério Público de Contas atua junto ao TCE-GO como fiscal permanente da 
 ---
 
 ### Teste 144
-**(FCC – TCE-GO – Técnico de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No âmbito dos órgãos diretivos do Tribunal de Contas do Estado de Goiás, a eleição do Presidente, Vice-Presidente e Corregedor-Geral é regida pela Resolução nº 22/2008, a qual preconiza que:
 
 * **A)** O mandato dos dirigentes é de quatro anos, sendo admitida uma reeleição consecutiva para o mesmo cargo.
@@ -219,12 +219,12 @@ No âmbito dos órgãos diretivos do Tribunal de Contas do Estado de Goiás, a e
 ---
 
 ### Teste 145
-**(FCC – Inédita – Padrão TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No tocante às atribuições da Corregedoria-Geral e da Ouvidoria do TCE-GO, previstas no Regimento Interno (Resolução nº 22/2008):
 
 * **A)** O Corregedor-Geral é eleito dentre os servidores de carreira do quadro de analistas de controle externo, por votação secreta da assembleia funcional.
 * **B)** A Corregedoria-Geral tem por finalidade a fiscalização disciplinar dos membros e servidores do Tribunal, a realização de correições ordinárias e extraordinárias nas unidades técnicas e o controle dos prazos de instrução e julgamento processual.
-* **C)** A Ouvidoria do TCE-GO pode acolher denúncias anônimas como peças processuais autônomas com capacidade probatória imediata, dispensando apuração preliminar considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **C)** A Ouvidoria do TCE-GO pode acolher denúncias anônimas como peças processuais autônomas com capacidade probatória imediata, dispensando apuração preliminar.
 * **D)** O Corregedor-Geral acumula automaticamente as funções jurisdicionais de relator nos processos de prestação de contas do Governador.
 * **E)** As decisões disciplinares sancionatórias do Corregedor-Geral são irrecorríveis e não comportam revisão pelo Pleno.
 
@@ -279,12 +279,12 @@ As deliberações do Pleno e das Câmaras ocorrem em:
 ---
 
 ### Teste 146
-**(FCC – Inédita – Padrão TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Acerca das regras regimentais de impedimento e suspeição de Conselheiros e da sistemática do Plenário Virtual no TCE-GO (Resolução nº 22/2008):
 
 * **A)** O Conselheiro é considerado impedido de atuar em processo no qual tenha interesse puramente acadêmico ou científico sobre o tema jurídico debatido.
 * **B)** Considera-se impedido de relatar ou votar no processo o Conselheiro que for cônjuge, companheiro ou parente em linha reta ou colateral até o terceiro grau de qualquer uma das partes ou de seus procuradores formalmente constituídos nos autos.
-* **C)** A arguição de suspeição de Conselheiro pode ser apresentada oralmente por qualquer pessoa presente ao plenário, sem necessidade de fundamentação fática considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **C)** A arguição de suspeição de Conselheiro pode ser apresentada oralmente por qualquer pessoa presente ao plenário, sem necessidade de fundamentação fática.
 * **D)** No Plenário Virtual, a ausência de manifestação de voto pelo Conselheiro no prazo regimental computa-se como voto divergente da proposta do Relator.
 * **E)** As sessões virtuais não admitem pedido de vista ou destaque para julgamento em sessão presencial.
 
@@ -304,7 +304,7 @@ Acerca das regras regimentais de impedimento e suspeição de Conselheiros e da 
 ---
 
 ### Teste 147
-**(FCC – TCE-SE – Analista de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Nos processos submetidos a julgamento perante os órgãos colegiados do TCE-GO, no tocante ao direito de manifestação dos procuradores das partes e à ordem dos trabalhos regimentais:
 
 * **A)** A sustentação oral é permitida aos advogados das partes pelo prazo improrrogável de quinze minutos, mediante prévio requerimento formulado perante a Secretaria das Sessões.
@@ -329,7 +329,7 @@ Nos processos submetidos a julgamento perante os órgãos colegiados do TCE-GO, 
 ---
 
 ### Teste 148
-**(FCC – Inédita – Padrão TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em relação ao direito de sustentação oral e à disciplina do pedido de vista nas sessões de julgamento do TCE-GO, conforme o RITCE-GO (arts. 100 a 115):
 
 * **A)** A sustentação oral da parte ou de seu advogado legalmente habilitado é realizada após a proclamação formal do resultado pelo Presidente da sessão.
@@ -405,7 +405,7 @@ Os atos de admissão de concursados e as concessões iniciais de aposentadorias,
 ---
 
 ### Teste 149
-**(FCC – TCE-MA – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Determinado Presidente de Empresa Pública Estadual de Goiás encaminhou expediente de Consulta ao Tribunal de Contas do Estado de Goiás para saber se, diante das peculiaridades de um contrato em andamento com fornecedor específico de software, poderia efetuar a prorrogação contratual por mais 12 meses. A consulta veio desacompanhada de parecer jurídico interno. De acordo com o Regimento Interno do TCE-GO:
 
 * **A)** A consulta deve ser conhecida e respondida pelo Conselheiro Relator monocraticamente, pois há urgência na continuidade do serviço público.
@@ -430,7 +430,7 @@ Determinado Presidente de Empresa Pública Estadual de Goiás encaminhou expedie
 ---
 
 ### Teste 150
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Cidadão que teve conhecimento de irregularidades no pagamento de sobrepreço em obras públicas estaduais decide formalizar denúncia perante o Tribunal de Contas do Estado de Goiás. Segundo as normas regimentais da Corte:
 
 * **A)** A denúncia formulada de forma anônima deve ser imediatamente autuada e encaminhada a julgamento pelo Tribunal Pleno sem necessidade de diligências.
@@ -455,12 +455,12 @@ Cidadão que teve conhecimento de irregularidades no pagamento de sobrepreço em
 ---
 
 ### Teste 151
-**(FCC – Inédita – Padrão TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Quanto ao processo de Representação perante o Tribunal de Contas do Estado de Goiás (arts. 135 a 140 do RITCE-GO):
 
 * **A)** A Representação é privativa dos membros do Poder Legislativo, não podendo ser manejada por órgãos de controle interno ou equipes de auditoria.
 * **B)** Têm legitimidade concorrente para formalizar representação ao TCE-GO: os Conselheiros e Conselheiros Substitutos, o Ministério Público de Contas, os titulares de órgãos de controle interno estadual, as autoridades públicas que tiverem ciência de irregularidades no exercício da função e as equipes técnicas de auditoria.
-* **C)** A representação protocolada por equipe técnica de fiscalização pode ser arquivada monocraticamente pelo Presidente do Tribunal sem distribuição a relator considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **C)** A representação protocolada por equipe técnica de fiscalização pode ser arquivada monocraticamente pelo Presidente do Tribunal sem distribuição a relator. em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **D)** A representação prescreve no prazo improrrogável de 6 meses contados da ocorrência do fato sob apuração.
 * **E)** Não cabe a aplicação de medidas cautelares no âmbito de processo instaurado por representação.
 

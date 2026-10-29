@@ -74,7 +74,7 @@ flowchart TD
 ---
 
 ### Teste 088
-**(FCC – Analista Judiciário – TRT / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No âmbito das contratações públicas regidas pela Lei nº 14.133/2021, o legislador disciplinou no art. 78 os procedimentos auxiliares das licitações e das contratações. Constituem procedimentos auxiliares expressamente previstos no referido dispositivo legal:
 
 * **A)** credenciamento, pré-qualificação, PMI, sistema de registro de preços e registro cadastral.
@@ -175,7 +175,7 @@ A Lei nº 14.133/2021 impõe a criação do sistema de registro cadastral unific
 ---
 
 ### Teste 089
-**(FGV – Auditor de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O credenciamento constitui procedimento auxiliar expressamente disciplinado no art. 79 da Lei Federal nº 14.133/2021. A respeito das hipóteses de cabimento e das regras operacionais do credenciamento, assinale a opção correta:
 
 * **A)** O credenciamento é cabível quando for viável a contratação simultânea de todos os qualificados.
@@ -196,7 +196,7 @@ O credenciamento constitui procedimento auxiliar expressamente disciplinado no a
 >
 > **Gabarito: A**
 ### Teste 090
-**(FCC – Analista Judiciário – TRT / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O Secretário de Saúde necessita adquirir insumos hospitalares complexos e optou por instaurar procedimento auxiliar de pré-qualificação. Nos termos do art. 80 da Lei Federal nº 14.133/2021, o procedimento auxiliar de pré-qualificação:
 
 * **A)** Presta-se a pré-qualificar licitantes e certificar a qualidade técnica de bens.
@@ -217,7 +217,7 @@ O Secretário de Saúde necessita adquirir insumos hospitalares complexos e opto
 >
 > **Gabarito: A**
 ### Teste 091
-**(FCC – Técnico de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Uma autarquia estadual goiana pretende adquirir medicamentos essenciais para distribuição hospitalar continuada mediante utilização do Sistema de Registro de Preços (SRP). De acordo com as disposições do art. 82 da Lei Federal nº 14.133/2021:
 
 * **A)** O SRP obriga a Administração a adquirir integralmente os quantitativos registrados na Ata de Registro de Preços.
@@ -238,7 +238,7 @@ Uma autarquia estadual goiana pretende adquirir medicamentos essenciais para dis
 >
 > **Gabarito: C**
 ### Teste 092
-**(FCC – Procurador do Estado – PGE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No que se refere ao Sistema de Registro de Preços (SRP) e à utilização da ata por órgão não participante (figura do "carona"), com fundamento no art. 86 da Lei Federal nº 14.133/2021, a adesão à ata de outro ente federado:
 
 * **A)** Exige prévia consulta e concordância expressa do órgão gerenciador e demonstração da vantajabilidade econômica.
@@ -278,7 +278,7 @@ Tanto a dispensa quanto a inexigibilidade não significam informalidade ou ausê
 ---
 
 ### Teste 093
-**(FGV – Analista de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O art. 72 da Lei nº 14.133/2021 estabelece a instrução processual obrigatória que deve instruir os processos de contratação direta por inexigibilidade ou por dispensa de licitação. Constitui requisito indispensável do processo de contratação direta:
 
 * **A)** A demonstração da dotação orçamentária compatível com a despesa a ser assumida.
@@ -329,7 +329,7 @@ A contratação direta sem licitação para serviços técnicos especializados e
 ---
 
 ### Teste 094
-**(FCC – Analista de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O Tribunal de Contas do Estado necessita contratar com profissional do setor artístico consagrado pela crítica especializada para apresentação cultural em simpósio comemorativo. À luz das regras sobre Inexigibilidade de Licitação (art. 74 da Lei nº 14.133/2021):
 
 * **A)** A inexigibilidade aplica-se exclusivamente às situações expressamente tipificadas nos incisos do art. 74 em rol taxativo.
@@ -350,7 +350,7 @@ O Tribunal de Contas do Estado necessita contratar com profissional do setor art
 >
 > **Gabarito: B**
 ### Teste 095
-**(FCC – TRT-2ª Região – Analista Judiciário - 2014)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A Administração Pública tem necessidade de contratar profissional de notória especialização para emitir parecer jurídico de alta complexidade constitucional em processo judicial de relevante interesse financeiro do Estado. A respeito da inexigibilidade para contratação de serviços técnicos especializados (art. 74, III da Lei nº 14.133/2021):
 
 * **A)** Exige serviço técnico especializado, caráter intelectual e notória especialização.
@@ -401,7 +401,7 @@ A dispensa de licitação ocorre em circunstâncias nas quais a competição ent
 ---
 
 ### Teste 096
-**(FGV – TRF-1ª Região – Analista Judiciário - 2024)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Tendo em vista que determinada unidade administrativa necessita adquirir materiais de consumo de pronto atendimento e serviços de manutenção predial com despesas estimadas abaixo dos limites legais do art. 75, I e II, da Lei nº 14.133/2021, o Diretor questionou se o órgão poderia licitar ou realizar contratação direta. 
 
 A respeito da dispensa de licitação em razão do valor e das regras sobre fracionamento de despesa, é correto afirmar que:
@@ -424,7 +424,7 @@ A respeito da dispensa de licitação em razão do valor e das regras sobre frac
 >
 > **Gabarito: B**
 ### Teste 097
-**(FCC – Auditor de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em razão de chuvas torrenciais atípicas que destruíram a principal ponte de acesso a determinado município goiano, isolando a população local, o Governador do Estado autorizou a contratação emergencial de empresa de engenharia para reconstrução da via com base no art. 75, VIII da Lei nº 14.133/2021. Sobre a dispensa emergencial:
 
 * **A)** O contrato emergencial pode ter vigência de até um ano contado da emergência, vedada a sua prorrogação contratual.
@@ -445,7 +445,7 @@ Em razão de chuvas torrenciais atípicas que destruíram a principal ponte de a
 >
 > **Gabarito: A**
 ### Teste 098
-**(FGV – Analista de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Determinada pasta estadual deflagrou licitação sob a modalidade pregão eletrônico para aquisição de combustíveis. Na data designada na sessão pública, nenhum licitante compareceu ou encaminhou propostas (licitação deserta). Diante disso, a respeito das providências cabíveis com base no art. 75, III, "a" da Lei nº 14.133/2021:
 
 * **A)** A Administração pode contratar diretamente mantendo as condições do edital deserto.

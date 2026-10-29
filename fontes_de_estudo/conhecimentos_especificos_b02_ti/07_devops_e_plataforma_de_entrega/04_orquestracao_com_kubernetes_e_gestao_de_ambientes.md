@@ -130,7 +130,7 @@ Se um desenvolvedor define `replicas: 4` em um manifesto e um nó físico deslig
 ---
 
 ### Teste 203
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A arquitetura do Kubernetes é dividida entre o Plano de Controle (*Control Plane*) e os Nós de Execução (*Worker Nodes*). O componente central do *Control Plane* que atua como o único banco de dados de armazenamento consistente e altamente disponível, guardando todo o estado do cluster, suas configurações e especificações de objetos no modelo chave-valor, é o:
 
 * **A)** `kube-scheduler`
@@ -155,7 +155,7 @@ A arquitetura do Kubernetes é dividida entre o Plano de Controle (*Control Plan
 ---
 
 ### Teste 204
-**(FCC - Adaptada / TI - Arquitetura de Clusters Kubernetes)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Durante o planejamento de alta disponibilidade para a infraestrutura de computação em nuvem de um Tribunal de Contas, a equipe de operações analisou a distribuição de responsabilidades entre os componentes do Plano de Controle (*Control Plane*) e dos Nós de Execução (*Worker Nodes*) do Kubernetes.
 
 A respeito das funções e interações entre esses componentes, assinale a afirmativa correta:  
@@ -163,7 +163,7 @@ A respeito das funções e interações entre esses componentes, assinale a afir
 * **A)** O `etcd` atua como servidor de proxy reverso e balanceador de carga HTTP para receber diretamente as requisições dos usuários da internet.
 * **B)** O `kube-scheduler` é o único componente autorizado a realizar operações de gravação e leitura no banco de dados distribuído `etcd`.
 * **C)** O `kubelet` é o agente executado em cada nó de trabalho (*Worker Node*) responsável por receber as especificações dos Pods (*PodSpecs*) a partir do `kube-apiserver` e assegurar que os contêineres descritos estejam em execução e saudáveis no nó.
-* **D)** O `kube-controller-manager` tem como responsabilidade exclusiva alocar endereços IP públicos nas placas de rede físicas dos servidores blade da instituição considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **D)** O `kube-controller-manager` tem como responsabilidade exclusiva alocar endereços IP públicos nas placas de rede físicas dos servidores blade da instituição.
 * **E)** O `kube-proxy` roda unicamente no nó Master e impede que contêineres dentro do mesmo Pod consigam se comunicar via `localhost`.
 
 
@@ -182,13 +182,13 @@ A respeito das funções e interações entre esses componentes, assinale a afir
 ---
 
 ### Teste 205
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O modelo operacional do Kubernetes é fundamentado no princípio do Loop de Reconciliação Contínua (*Reconciliation Loop*). Esse mecanismo arquitetural opera continuamente por meio da seguinte dinâmica:
 
 * **A)** O administrador digita comandos no terminal a cada dez segundos para manter os servidores ligados.
 * **B)** Os controladores (*controllers*) observam o estado atual do cluster (*current state*), comparam-no com o estado desejado (*desired state*) declarado nos manifestos de configuração e executam ações automatizadas de convergência para fazer com que o estado atual se iguale ao estado desejado.
 * **C)** O cluster apaga todos os bancos de dados caso a energia elétrica oscile.
-* **D)** O sistema interrompe todo o tráfego de rede caso detecte um Pod com consumo de memória inferior a 50% considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo garantindo a observância dos protocolos de governança e interoperabilidade vigentes.
+* **D)** O sistema interrompe todo o tráfego de rede caso detecte um Pod com consumo de memória inferior a 50%. garantindo a observância dos protocolos de governança e interoperabilidade vigentes.
 * **E)** Os servidores são formatados diariamente para eliminar arquivos temporários.
 
 
@@ -271,14 +271,14 @@ Projetado para aplicações que demandam persistência de dados e ordenação es
 ---
 
 ### Teste 206
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Para implantar e gerenciar aplicações sem estado (*stateless*) em clusters Kubernetes, o controlador de carga de trabalho recomendado como padrão na arquitetura é o **Deployment**. A relação estrutural entre um objeto *Deployment* e os objetos *ReplicaSets* e *Pods* sob sua gestão estabelece que:
 
 * **A)** O Deployment gerencia diretamente contêineres individuais sem a existência de Pods.
 * **B)** O Deployment gerencia versões de ReplicaSets (criando novos ReplicaSets durante atualizações de versão e mantendo os antigos para viabilizar *rollbacks* rápidos), e os ReplicaSets garantem a quantidade declarada de réplicas ativas dos Pods em execução.
 * **C)** O ReplicaSet comanda o Deployment em uma hierarquia invertida.
 * **D)** Cada Deployment só pode conter um único Pod no cluster inteiro.
-* **E)** O Deployment exige que a aplicação utilize armazenamento físico em disquetes de alta densidade considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **E)** O Deployment exige que a aplicação utilize armazenamento físico em disquetes de alta densidade. em conformidade com as diretrizes e padrões de arquitetura corporativa.
 
 
 ---
@@ -296,7 +296,7 @@ Para implantar e gerenciar aplicações sem estado (*stateless*) em clusters Kub
 ---
 
 ### Teste 207
-**(FCC - Adaptada / TI - Controladores de Carga de Trabalho: Workloads K8s)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Uma equipe de desenvolvimento da Secretaria da Fazenda precisa implantar três soluções distintas no cluster Kubernetes institucional:
 
 1. Uma API de consulta tributária sem estado (*stateless*), que deve permitir atualizações de versão sem parada de serviço (*rolling updates*) e escalabilidade horizontal automática.
@@ -306,7 +306,7 @@ Uma equipe de desenvolvimento da Secretaria da Fazenda precisa implantar três s
 Os objetos e controladores do Kubernetes mais indicados para atender aos cenários 1, 2 e 3 são, respectivamente:  
 
 * **A)** `Deployment`; `StatefulSet`; e `DaemonSet`.
-* **B)** `StatefulSet`; `Deployment`; e `CronJob` no âmbito da administração pública direta e indireta.
+* **B)** `StatefulSet`; `Deployment`; e `CronJob`.
 * **C)** `Job`; `ReplicaSet`; e `ConfigMap`.
 * **D)** `DaemonSet`; `Job`; e `StatefulSet`.
 * **E)** `Deployment`; `CronJob`; e `Ingress`.
@@ -330,7 +330,7 @@ Os objetos e controladores do Kubernetes mais indicados para atender aos cenári
 ---
 
 ### Teste 208
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em um cluster Kubernetes corporativo, a equipe de operações necessita assegurar que exatamente uma cópia de um Pod de coleta de logs (como o Fluentd) e de um agente de monitoramento de infraestrutura execute em **todos** os nós de trabalho (*Worker Nodes*), inclusive sendo provisionado automaticamente em novos nós adicionados ao cluster. O objeto controlador do Kubernetes concebido especificamente para esse propósito é o:
 
 * **A)** *Job*
@@ -404,7 +404,7 @@ Enquanto criar múltiplos serviços do tipo `LoadBalancer` gera custos financeir
 ---
 
 ### Teste 209
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Os objetos do tipo *Service* no Kubernetes fornecem abstração de rede estável e balanceamento de carga para conjuntos dinâmicos de Pods. O tipo de *Service* padrão, que atribui um endereço IP virtual interno alcançável exclusivamente dentro dos limites do cluster, denomina-se:
 
 * **A)** `NodePort`
@@ -429,7 +429,7 @@ Os objetos do tipo *Service* no Kubernetes fornecem abstração de rede estável
 ---
 
 ### Teste 210
-**(FCC - Adaptada / TI - Objetos de Rede: Services e Ingress)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No Kubernetes, o mecanismo de abstração que permite agrupar um conjunto de Pods sob um mesmo endereço IP estável e balancear o tráfego de rede entre eles, bem como o componente responsável por receber tráfego HTTP/HTTPS externo e roteá-lo com base no nome do domínio e no caminho da URL para múltiplos serviços internos, são denominados, respectivamente:  
 
 * **A)** `ConfigMap` e `kubelet`.
@@ -507,7 +507,7 @@ flowchart TD
 ---
 
 ### Teste 211
-**(FCC - Adaptada / TI - Monitoramento de Saúde de Pods: Probes)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Considere uma aplicação Java rodando em um contêiner no Kubernetes que, devido a um vazamento severo de conexões com o banco de dados, parou completamente de responder às requisições da rede e entrou em estado de deadlock irrecuperável. No manifesto de implantação da aplicação, foram configuradas sondas do tipo `livenessProbe` e `readinessProbe`.
 
 Diante da falha contínua da verificação realizada pela sonda `livenessProbe`, a ação executada pelo agente `kubelet` será:  
@@ -570,10 +570,10 @@ A gestão profissional de múltiplos ambientes (Desenvolvimento, Homologação/S
 ---
 
 ### Teste 212
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em conformidade com a metodologia dos Doze Fatores (*Twelve-Factor App*), a configuração de uma aplicação deve ser estritamente separada do código-fonte. No Kubernetes, essa segregação é implementada por meio de dois objetos nativos: *ConfigMaps* e *Secrets*. A diferença fundamental de propósito entre eles estabelece que:
 
-* **A)** *ConfigMaps* armazenam dados confidenciais criptografados, enquanto *Secrets* guardam arquivos de imagem públicos sem restrição considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **A)** *ConfigMaps* armazenam dados confidenciais criptografados, enquanto *Secrets* guardam arquivos de imagem públicos sem restrição.
 * **B)** *ConfigMaps* destinam-se a dados de configuração não confidenciais em texto claro (como URLs de endpoints, portas e flags de log), ao passo que *Secrets* são concebidos para armazenar dados confidenciais e credenciais sensíveis (como senhas, chaves de API, tokens e certificados TLS), codificados em Base64 ou protegidos por criptografia em repouso no `etcd`.
 * **C)** *Secrets* não podem ser montados como variáveis de ambiente nos Pods.
 * **D)** Ambos os objetos são deletados obrigatoriamente a cada 5 minutos pelo Kubernetes.
@@ -595,14 +595,14 @@ Em conformidade com a metodologia dos Doze Fatores (*Twelve-Factor App*), a conf
 ---
 
 ### Teste 213
-**(FCC - Adaptada / TI - Gestão de Ambientes, Segregação e Armazenamento Persistente)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em um órgão público, os ambientes de Desenvolvimento, Homologação e Produção compartilham a infraestrutura de computação. Para garantir a governança e o isolamento operacional desses ambientes de acordo com as boas práticas do Kubernetes e da metodologia dos Doze Fatores (*Twelve-Factor App*), a equipe técnica deve:  
 
 * **A)** Utilizar `Namespaces` distintos combinados com `ResourceQuotas` para impor limites máximos de consumo de CPU e memória em cada ambiente, associando segredos e credenciais via objetos `Secret` e configurações não sensíveis via `ConfigMap`.
 * **B)** Gravar senhas de bancos de dados diretamente em texto claro dentro do código-fonte da aplicação para evitar o overhead de processamento do K8s.
 * **C)** Conceder permissões de administrador de cluster (*cluster-admin*) irrestritas a todos os estagiários nos ambientes de homologação e produção.
 * **D)** Utilizar a estratégia de deploy *Recreate* em produção durante o horário de pico de atendimento ao cidadão para forçar o desligamento dos servidores.
-* **E)** Armazenar os dados transacionais de bancos de dados exclusivamente na camada efêmera do Pod, proibindo o uso de `PersistentVolumes` (PV) e `PersistentVolumeClaims` (PVC) em estrita conformidade com as normas legais e regulamentares aplicáveis.
+* **E)** Armazenar os dados transacionais de bancos de dados exclusivamente na camada efêmera do Pod, proibindo o uso de `PersistentVolumes` (PV) e `PersistentVolumeClaims` (PVC).
 
 
 ---

@@ -113,7 +113,7 @@ A língua culta formal não admite o uso de pronomes pessoais do caso reto (*ele
 ---
 
 ### Teste 052
-**(FCC – TRT-23 – Analista Judiciário)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 As normas de concordância, regência e colocação pronominal estão plenamente respeitadas na frase:
 
 * **A)** Devem haver outros motivos para que os conselheiros hajam recusado a prestação de contas que lhes enviou o prefeito.
@@ -168,7 +168,7 @@ Nas estruturas formadas por pares de conectivos correlativos (*não só... mas t
 ---
 
 ### Teste 053
-**(FCC – TCE-GO – Analista de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A frase cuja redação prima pela clareza, pela concisão e pela **estrita correção gramatical**, sem qualquer vício de paralelismo sintático ou de regência, é:
 
 * **A)** *"A equipe de fiscalização dedicou-se a examinar os contratos de tecnologia e na verificação das certidões fiscais das licitantes."*
@@ -193,7 +193,7 @@ A frase cuja redação prima pela clareza, pela concisão e pela **estrita corre
 ---
 
 ### Teste 054
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A frase que apresenta **quebra de paralelismo sintático** é:
 
 * **A)** *"O tribunal exige dos candidatos idoneidade moral, notório conhecimento e capacidade de liderança."*
@@ -253,7 +253,7 @@ O Manual de Redação da Presidência da República e a boa gramática normativa
 ---
 
 ### Teste 055
-**(FCC – AL-SP – Técnico Legislativo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Assinale a alternativa em que a reescrita da frase entre parênteses elimina a ambiguidade mantendo a clareza e a correção gramatical:  
 *(O presidente comunicou ao conselheiro que sua assessoria seria transferida para o novo gabinete.)*
 
@@ -280,7 +280,7 @@ Assinale a alternativa em que a reescrita da frase entre parênteses elimina a a
 ---
 
 ### Teste 056
-**(FCC – TCE-GO – Analista de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere as seguintes frases elaboradas em redação administrativa:  
 
 I. *O auditor entregou os documentos ao diretor da autarquia em seu gabinete.*  
@@ -339,7 +339,7 @@ A reorganização de um período não pode corromper a progressão tópica. Os c
 ---
 
 ### Teste 057
-**(FCC – DPE-RS – Analista Jurídico)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Assinale a alternativa que propõe uma redação clara, coesa, concisa e inteiramente correta para as seguintes informações:  
 *"O Tribunal de Contas julgou as contas do gestor. O julgamento ocorreu em sessão extraordinária. O Tribunal considerou as contas irregulares. O Tribunal aplicou ao gestor uma multa pecuniária proporcional ao dano."*
 
@@ -430,7 +430,7 @@ A equivalência sintática frequentemente explora a alternância entre voz ativa
 ---
 
 ### Teste 058
-**(FCC – TRT – Técnico Judiciário)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere o período:  
 *"<ins>A despeito das inúmeras advertências emitidas pelo órgão fiscalizador</ins>, os gestores mantiveram as práticas ilegítimas, o que ensejou a aplicação de severas multas."*  
 Uma reescrita que preserva a correção gramatical e as **mesmas relações lógicas de sentido** do período original é:
@@ -457,7 +457,7 @@ Uma reescrita que preserva a correção gramatical e as **mesmas relações lóg
 ---
 
 ### Teste 059
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere o seguinte período:  
 *"Embora o relatório da comissão tenha apontado inconsistências formais nos procedimentos licitatórios, o pleno do tribunal optou por aprovar as contas com ressalvas."*
 
@@ -540,7 +540,7 @@ Para garantir a perfeição no confronto de frases da FCC:
 ---
 
 ### Teste 060
-**(FCC – DPE-RS – Analista Jurídico)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere as frases e o emprego das quatro formas dos **porquês**:  
 
 I. *"Gostaria de compreender <ins>por que</ins> o cronograma físico-financeiro sofreu sucessivas prorrogações."*  
@@ -575,7 +575,7 @@ O emprego das palavras sublinhadas está plenamente correto em:
 ---
 
 ### Teste 061
-**(FCC – METRÔ-SP – Advogado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere as frases a seguir quanto à precisão vocabular e semântica de suas locuções:  
 
 I. *A decisão liminar do conselheiro veio **ao encontro dos** anseios da sociedade por transparência, prestigiando a fiscalização.*  

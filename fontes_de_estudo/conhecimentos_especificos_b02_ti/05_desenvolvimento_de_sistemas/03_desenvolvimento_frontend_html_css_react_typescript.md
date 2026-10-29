@@ -118,7 +118,7 @@ O HTML5 modernizou a coleta de dados com novos tipos semânticos de `<input>` e 
     - `type="email"`: Valida o formato sintático de endereço de correio eletrônico (`usuario@dominio.com`).
     - `type="number"`: Força entrada numérica, permitindo definir limites com `min="1"`, `max="100"` e granularidade com `step="1"`.
     - `type="date"`, `time`, `datetime-local`: Renderiza seletores nativos de calendário e horário adaptados ao sistema operacional.
-    - `type="url"`: Valida URLs absolutas com protocolo (`https://...`).
+    - `type="url"`: Valida URLs absolutas com protocolo (`https://..`).
     - `type="tel"`: Otimizado para teclado numérico de discagem em celulares.
 - **Atributos de Validação:**
     - `required`: Torna o preenchimento do campo estritamente obrigatório para submissão do formulário.
@@ -167,14 +167,14 @@ As diretrizes WCAG (*Web Content Accessibility Guidelines*) da W3C são organiza
 ---
 
 ### Teste 076
-**(FCC - Auditor Fiscal / Tecnologia da Informação)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No desenvolvimento de páginas governamentais com HTML5 aderentes às diretrizes de acessibilidade na Web (W3C / WCAG), assinale a afirmativa tecnicamente correta:  
 
 * **A)** O elemento `<article>` deve ser utilizado exclusivamente para criar tabelas de dados financeiros de auditoria, sendo vedado para artigos de texto.
 * **B)** O uso do atributo `tabindex="5"` é a prática recomendada para botões de submissão, pois garante que eles sempre recebam o foco antes de qualquer campo do formulário.
 * **C)** O elemento `<main>` deve encapsular o conteúdo central e específico do documento, não devendo ser duplicado em um mesmo documento exibido, e conteúdos que se repetem entre páginas (como cabeçalhos de topo e rodapés gerais) devem ficar fora dele.
 * **D)** As tags de agrupamento genérico `<div>` e `<span>` possuem semântica rica superior às tags `<section>` e `<nav>`, sendo preferíveis pelos leitores de tela.
-* **E)** O atributo `aria-hidden="true"` instrui os navegadores a ocultar o elemento visualmente na tela para usuários videntes, mas mantém sua leitura intacta para deficientes visuais em leitores de tela no âmbito da administração pública direta e indireta.
+* **E)** O atributo `aria-hidden="true"` instrui os navegadores a ocultar o elemento visualmente na tela para usuários videntes, mas mantém sua leitura intacta para deficientes visuais em leitores de tela.
 
 
 ---
@@ -192,10 +192,10 @@ No desenvolvimento de páginas governamentais com HTML5 aderentes às diretrizes
 ---
 
 ### Teste 077
-**(FCC – TCE – Auditor de Controle Externo / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 As diretrizes de acessibilidade para conteúdo web (WCAG 2.1) e a especificação WAI-ARIA definem normas e atributos semânticos para tornar aplicações web acessíveis a pessoas com deficiência. Em relação a essas normas, é correto afirmar:
 
-* **A)** O atributo `alt` em elementos `<img>` deve ser sempre preenchido com textos genéricos como "imagem" ou "foto" para atender ao critério de acessibilidade no âmbito da administração pública direta e indireta.
+* **A)** O atributo `alt` em elementos `<img>` deve ser sempre preenchido com textos genéricos como "imagem" ou "foto" para atender ao critério de acessibilidade.
 * **B)** O atributo `aria-label` permite fornecer um rótulo textual acessível a leitores de tela para elementos interativos que não possuem texto visível na interface (como botões representados apenas por ícones).
 * **C)** O atributo `aria-hidden="true"` força o elemento a ser lido prioritariamente em voz alta por leitores de tela.
 * **D)** As WCAG preconizam que o contraste entre texto e fundo deve ser o menor possível para não ofuscar a visão do usuário.
@@ -229,7 +229,7 @@ O CSS (*Cascading Style Sheets*) baseia-se no princípio da **Cascata** para res
 flowchart LR
     subgraph Cascata["Ordem de Prioridade na Cascata CSS"]
         Imp["!important (Prioridade Máxima)"]
-        Inline["Estilo Inline: style='...' (Peso: 1,0,0,0)"]
+        Inline["Estilo Inline: style='..' (Peso: 1,0,0,0)"]
         IDs["Seletores de ID: #menu (Peso: 0,1,0,0)"]
         Classes["Classes, Atributos e Pseudo-classes: .card, [type='text'], :hover (Peso: 0,0,1,0)"]
         Tags["Tags e Pseudo-elementos: div, h1, ::before (Peso: 0,0,0,1)"]
@@ -346,7 +346,7 @@ Diferentemente do Flexbox, o CSS Grid (`display: grid`) é um sistema **bidimens
 ---
 
 ### Teste 078
-**(FCC - Analista de TI / Sistemas)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Considere as seguintes regras de estilização declaradas em um arquivo CSS3 externo para formatar um mesmo elemento de título em uma página web:
 
 ```css
@@ -400,10 +400,10 @@ A cor final com que o texto do título `Relatório de Conformidade` será render
 ---
 
 ### Teste 079
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No modelo de caixa do CSS3 (*Box Model*), a propriedade `box-sizing` altera a forma como a largura (*width*) e a altura (*height*) totais de um elemento HTML são calculadas no layout da página. Ao aplicar a regra `box-sizing: border-box;` a um elemento com `width: 300px; padding: 20px; border: 5px solid black;`, tem-se que:
 
-* **A)** A largura total renderizada do elemento será de 350px, somando o conteúdo, os paddings e as bordas em estrita conformidade com as normas legais e regulamentares aplicáveis.
+* **A)** A largura total renderizada do elemento será de 350px, somando o conteúdo, os paddings e as bordas.
 * **B)** A largura total renderizada do elemento permanecerá exatamente em 300px, sendo o padding e a borda absorvidos internamente no espaço total especificado.
 * **C)** O navegador ignorará o padding e exibirá o conteúdo com largura de 300px e borda invisível.
 * **D)** A propriedade `border-box` elimina a margem externa (*margin*) do elemento em todas as resoluções.
@@ -425,7 +425,7 @@ No modelo de caixa do CSS3 (*Box Model*), a propriedade `box-sizing` altera a fo
 ---
 
 ### Teste 080
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No módulo CSS Flexible Box Layout (*Flexbox*), para alinhar os itens filhos (*flex items*) ao longo do eixo transversal ou cruzado (*cross axis*) dentro do contêiner flexível, utiliza-se no elemento pai a propriedade:
 
 * **A)** `justify-content`
@@ -540,10 +540,10 @@ O TypeScript inclui um conjunto poderoso de utilitários de transformação de t
 ---
 
 ### Teste 081
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Na linguagem TypeScript, os tipos especiais `any` e `unknown` fornecem suporte a valores cujos tipos não são conhecidos a priori. A diferença crucial de segurança de tipos (*type safety*) entre `any` e `unknown` consiste em:
 
-* **A)** `any` força a checagem rigorosa de tipos pelo compilador, enquanto `unknown` desativa todas as regras de tipagem estática considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **A)** `any` força a checagem rigorosa de tipos pelo compilador, enquanto `unknown` desativa todas as regras de tipagem estática.
 * **B)** variáveis tipadas como `unknown` não permitem a invocação direta de métodos ou acesso a propriedades sem que ocorra previamente uma verificação ou refinamento de tipo (*type narrowing*), ao passo que variáveis tipadas como `any` desabilitam completamente a checagem do compilador.
 * **C)** `unknown` só pode armazenar valores booleanos primitivos, enquanto `any` aceita qualquer objeto.
 * **D)** o TypeScript não aceita atribuição de novos valores a variáveis do tipo `unknown`.
@@ -565,12 +565,12 @@ Na linguagem TypeScript, os tipos especiais `any` e `unknown` fornecem suporte a
 ---
 
 ### Teste 082
-**(FGV – TJ – Analista de Sistemas / Front-end)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No ecossistema TypeScript, desenvolvedores podem declarar formatos estruturais utilizando `interface` ou `type` (*type alias*). Um recurso exclusivo das `interfaces` que não é suportado por `type aliases` é:
 
 * **A)** A declaração de propriedades opcionais com `?`.
 * **B)** A mesclagem automática de declarações (*declaration merging*), permitindo que múltiplas declarações de uma interface com o mesmo identificador sejam unificadas em uma única interface composta.
-* **C)** A criação de uniões de tipos primitivos utilizando o operador `|` considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **C)** A criação de uniões de tipos primitivos utilizando o operador `|`.
 * **D)** A compatibilidade com tipagem estática em tempo de compilação.
 * **E)** O suporte a parâmetros genéricos.
 
@@ -590,7 +590,7 @@ No ecossistema TypeScript, desenvolvedores podem declarar formatos estruturais u
 ---
 
 ### Teste 083
-**(FCC - Técnico de Controle Externo / TI)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na linguagem TypeScript, suponha que exista a definição do seguinte tipo base:
 
 ```typescript
@@ -638,7 +638,7 @@ React é uma biblioteca JavaScript declarativa para a construção de interfaces
     - `for` em `<label>` torna-se `htmlFor`.
     - Atributos de evento utilizam convenção camelCase (`onClick`, `onChange`, `onSubmit`).
     - Todos os elementos devem ser fechados explicitamente (`<input />`, `<img />`).
-    - Múltiplos elementos na raiz devem ser envelopados por um elemento pai ou por um Fragment (`<> ... </>`).
+    - Múltiplos elementos na raiz devem ser envelopados por um elemento pai ou por um Fragment (`<> .. </>`).
 
 ### 4.2 Virtual DOM e o Algoritmo de Reconciliação (Fiber)
 Manipular o DOM real do navegador diretamente é uma operação custosa computacionalmente devido aos ciclos de *Reflow* e *Repaint*. O React resolve isso por meio do **Virtual DOM (VDOM)**:
@@ -759,14 +759,14 @@ const handleClick = useCallback(() => { enviarAuditoria(id); }, [id]);
 ---
 
 ### Teste 084
-**(FCC - Analista de Sistemas / Desenvolvimento)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na biblioteca React, ao iterar sobre uma lista de dados para renderizar múltiplos componentes utilizando a função `.map()`, os desenvolvedores devem obrigatoriamente fornecer a propriedade especial `key` para cada item retornado.
 
 A respeito do propósito e do funcionamento da propriedade `key` no algoritmo de reconciliação do React, assinale a afirmativa correta:  
 
 * **A)** A `key` serve unicamente para estilização visual via CSS, sendo convertida em uma classe HTML automática no DOM real.
 * **B)** O React utiliza a `key` para identificar de forma estável quais elementos da lista foram alterados, adicionados ou removidos entre renderizações, permitindo atualizar apenas os nós do DOM que sofreram modificação efetiva.
-* **C)** O uso do índice do array (`key={index}`) é a estratégia oficial recomendada pela Meta para listas dinâmicas com operações frequentes de ordenação e inserção no início da fila no âmbito da administração pública direta e indireta.
+* **C)** O uso do índice do array (`key={index}`) é a estratégia oficial recomendada pela Meta para listas dinâmicas com operações frequentes de ordenação e inserção no início da fila.
 * **D)** As chaves `key` devem ser obrigatoriamente números inteiros sequenciais gerados aleatoriamente com `Math.random()` a cada ciclo de renderização.
 * **E)** A propriedade `key` é repassada automaticamente pelo React para o componente filho como uma prop ordinária, podendo ser acessada livremente no código filho via `props.key`.
 
@@ -786,7 +786,7 @@ A respeito do propósito e do funcionamento da propriedade `key` no algoritmo de
 ---
 
 ### Teste 085
-**(FCC - Analista de TI / Front-end)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em uma aplicação desenvolvida com a biblioteca React utilizando componentes funcionais e Hooks, um programador implementou a seguinte rotina para sincronizar uma listagem de auditorias fiscais com o servidor backend:
 
 ```jsx
@@ -807,7 +807,7 @@ Ao executar essa aplicação no navegador, o comportamento verificado pelo desen
 
 * **A)** A requisição à API é disparada apenas uma única vez na montagem da tela, funcionando de forma perfeitamente otimizada.
 * **B)** Ocorre um laço infinito de renderizações (*infinite loop*), provocando sucessivas requisições HTTP e congelamento da interface do usuário.
-* **C)** O React emite um erro de compilação em tempo de execução porque funções assíncronas não são permitidas dentro de componentes funcionais no âmbito da administração pública direta e indireta.
+* **C)** O React emite um erro de compilação em tempo de execução porque funções assíncronas não são permitidas dentro de componentes funcionais.
 * **D)** A lista de processos jamais será atualizada porque o Hook `useState` não dispara re-renderização quando recebe arrays de dados.
 * **E)** A requisição HTTP falha compulsoriamente devido à falta do cabeçalho de acessibilidade `aria-live` no elemento `<div>`.
 
@@ -834,10 +834,10 @@ Ao executar essa aplicação no navegador, o comportamento verificado pelo desen
 ---
 
 ### Teste 086
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Na biblioteca React (versões 16.8+ baseadas em Hooks), a otimização de performance e a manipulação de instâncias mutáveis utilizam hooks especializados. A correta distinção conceitual entre `useMemo`, `useCallback` e `useRef` estabelece que:
 
-* **A)** `useMemo` memoriza a referência de uma função, `useCallback` memoriza o valor de retorno calculado de uma função, e `useRef` força uma nova renderização imediata do componente sempre que seu atributo `.current` é modificado considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **A)** `useMemo` memoriza a referência de uma função, `useCallback` memoriza o valor de retorno calculado de uma função, e `useRef` força uma nova renderização imediata do componente sempre que seu atributo `.current` é modificado.
 * **B)** `useMemo` armazena em cache o resultado computacional de uma função cara evitando recálculos desnecessários; `useCallback` memoriza a própria instância da definição de uma função entre renderizações; e `useRef` cria um objeto mutável persistente cuja propriedade `.current` pode ser alterada sem disparar nova renderização do componente.
 * **C)** todos os três hooks são executados exclusivamente após a aplicação ser desinstalada da máquina do cliente.
 * **D)** `useRef` só pode ser utilizado para conectar a aplicação ao banco de dados PostgreSQL.

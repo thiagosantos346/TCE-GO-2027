@@ -88,11 +88,11 @@ flowchart TD
 ---
 
 ### Teste 390
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Segundo a teoria da Cadeia de Valor concebida por Michael Porter, as atividades organizacionais dividem-se em atividades primárias e atividades de apoio (suporte). Dentre as alternativas a seguir, assinale a que apresenta unicamente Atividades de Apoio:
 
 * **A)** Logística de entrada, operações e logística de saída.
-* **B)** Marketing e vendas, serviços pós-venda e infraestrutura da organização no âmbito da administração pública direta e indireta.
+* **B)** Marketing e vendas, serviços pós-venda e infraestrutura da organização.
 * **C)** Gestão de recursos humanos, desenvolvimento tecnológico e aquisições (compras).
 * **D)** Operações fabris, compras de matéria-prima e distribuição comercial.
 * **E)** Logística interna, assistência técnica a clientes e recursos humanos.
@@ -113,7 +113,7 @@ Segundo a teoria da Cadeia de Valor concebida por Michael Porter, as atividades 
 ---
 
 ### Teste 391
-**(FCC – SEFAZ-PE – Auditor Fiscal do Tesouro Estadual)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No âmbito da administração pública gerencial, a aplicação da teoria da Cadeia de Valor exige a transposição dos conceitos originalmente desenhados para empresas mercantis privadas. Em um Tribunal de Contas estadual, a atividade primária correspondente ao processamento interno das fiscalizações, análise documental de contratos e elaboração de relatórios técnicos de auditoria é categorizada como:
 
 * **A)** Infraestrutura Organizacional.
@@ -153,7 +153,7 @@ No setor público, a "Margem de Lucro Privada" é convertida no conceito fundame
 ---
 
 ### Teste 392
-**(FCC - Adaptada / Analista de Gestão Pública)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na Cadeia de Valor de Michael Porter, as atividades empresariais e organizacionais são rigorosamente classificadas em Atividades Primárias e Atividades de Apoio (ou Suporte).
 
 Constitui típica **Atividade Primária** da Cadeia de Valor:
@@ -161,7 +161,7 @@ Constitui típica **Atividade Primária** da Cadeia de Valor:
 * **A)** Logística Interna (recebimento, armazenamento e distribuição de insumos e matérias-primas).
 * **B)** Gestão de Recursos Humanos (recrutamento, seleção, treinamento e remuneração).
 * **C)** Desenvolvimento de Tecnologia e Pesquisa (P&D).
-* **D)** Infraestrutura da Empresa (planejamento, contabilidade, finanças e assessoria jurídica) no âmbito da administração pública direta e indireta.
+* **D)** Infraestrutura da Empresa (planejamento, contabilidade, finanças e assessoria jurídica).
 * **E)** Aquisição / Compras de suprimentos corporativos gerais.
 
 
@@ -210,10 +210,10 @@ flowchart TD
 ---
 
 ### Teste 393
-**(FCC – TRT-2ª Região – Analista Judiciário: Área Administrativa)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No processo de desdobramento da estratégia corporativa pelo Balanced Scorecard (BSC), a metodologia exige a articulação harmônica de quatro componentes operacionais para garantir a efetividade da execução. A associação correta entre o componente do BSC e sua respectiva definição é:
 
-* **A)** Objetivo Estratégico: o plano orçamentário específico que detalha a dotação de diárias dos servidores no âmbito da administração pública direta e indireta.
+* **A)** Objetivo Estratégico: o plano orçamentário específico que detalha a dotação de diárias dos servidores.
 * **B)** Indicador-Chave (KPI): a métrica quantificável utilizada para mensurar periodicamente o nível de alcance de determinado objetivo estratégico.
 * **C)** Meta: o projeto inovador financiado pela alta direção para criar novas unidades físicas.
 * **D)** Iniciativa Estratégica: o valor numérico fixo que expressa o grau de incerteza do ambiente externo.
@@ -235,12 +235,12 @@ No processo de desdobramento da estratégia corporativa pelo Balanced Scorecard 
 ---
 
 ### Teste 394
-**(FCC - Adaptada / Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No processo de desdobramento da estratégia corporativa pelo Balanced Scorecard, a técnica denominada **Cascading** (Estratégia em Cascata) tem por objetivo central:
 
 * **A)** Desdobrar e traduzir os objetivos, metas e indicadores corporativos do nível estratégico para os níveis tático e operacional, alinhando as diretorias setoriais, gerências e equipes individuais à estratégia mestre da organização.
 * **B)** Eliminar a remuneração variável e gratificações dos servidores públicos estaduais.
-* **C)** Concentrar todas as decisões de compras na presidência da comissão permanente de licitação considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **C)** Concentrar todas as decisões de compras na presidência da comissão permanente de licitação.
 * **D)** Impor a demissão periódica de 10% dos servidores com pior produtividade mecânica.
 * **E)** Substituir os sistemas de gestão eletrônica de processos por formulários impressos.
 
@@ -281,7 +281,7 @@ flowchart TD
 ---
 
 ### Teste 395
-**(FCC – TCE-RS – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No contexto do alinhamento organizacional e desdobramento da estratégia pelo Balanced Scorecard (BSC), Robert Kaplan e David Norton identificaram as principais barreiras que impedem a execução eficaz dos planos estratégicos nas instituições. A constatação empírica de que a imensa maioria dos orçamentos financeiros e dos planos anuais de compras não guarda conexão direta com as prioridades e iniciativas definidas no plano estratégico de longo prazo tipifica a:
 
 * **A)** Barreira da visão.
@@ -306,7 +306,7 @@ No contexto do alinhamento organizacional e desdobramento da estratégia pelo Ba
 ---
 
 ### Teste 396
-**(FCC - Adaptada / Analista de Planejamento e Gestão)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Kaplan e Norton identificaram as quatro barreiras primordiais que impedem a execução eficaz das estratégias organizacionais nas instituições.
 
 A barreira que ocorre quando a alta direção formula a estratégia, mas não a comunica nem a torna compreensível para os servidores e colaboradores que executam os serviços cotidianos na ponta da linha é denominada:
@@ -339,10 +339,10 @@ Para romper as barreiras de execução, a governança pública moderna institui 
 ---
 
 ### Teste 397
-**(FCC – DPE-RS – Analista: Área Administrativa)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Com o propósito de assegurar a governança e a implementação efetiva de seu plano estratégico, determinado órgão público instituiu uma unidade permanente denominada Escritório de Gestão Estratégica (EGE) e fixou Reuniões de Avaliação da Estratégia (RAE) com periodicidade bimestral. A finalidade precípua das RAEs é:
 
-* **A)** Realizar sindicâncias administrativas para apuração de infrações disciplinares dos analistas operacionais considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **A)** Realizar sindicâncias administrativas para apuração de infrações disciplinares dos analistas operacionais.
 * **B)** Avaliar o desempenho dos indicadores estratégicos no painel de controle executivo e deliberar tempestivamente sobre ações corretivas para objetivos que estejam distantes das metas pactuadas.
 * **C)** Redigir pareceres jurídicos conclusivos sobre recursos administrativos de servidores subalternos.
 * **D)** Proceder ao inventário físico anual de bens móveis e equipamentos de informática do almoxarifado.
@@ -364,13 +364,13 @@ Com o propósito de assegurar a governança e a implementação efetiva de seu p
 ---
 
 ### Teste 398
-**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na governança estratégica moderna dos órgãos públicos (como no TCE-GO), as **Reuniões de Avaliação da Estratégia (RAE)** desempenham papel crucial na governança executiva.
 
 O propósito primordial das RAEs é:
 
 * **A)** Avaliar o andamento das iniciativas e indicadores estratégicos institucionais em periodicidade definida, debatendo causas de desvios e decidindo intervenções saneadoras e alocação de recursos em alto nível.
-* **B)** Realizar a apuração de faltas funcionais disciplinares individuais dos servidores para abertura de PAD considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **B)** Realizar a apuração de faltas funcionais disciplinares individuais dos servidores para abertura de PAD.
 * **C)** Fiscalizar a conformidade fiscal das declarações de imposto de renda de pessoas físicas.
 * **D)** Redigir pareceres jurídicos para aprovação de editais de concurso público.
 * **E)** Conceder recesso administrativo remunerado aos membros dos comitês executivos.
@@ -388,14 +388,14 @@ O propósito primordial das RAEs é:
 ---
 
 ### Teste 399
-**(FCC - Adaptada / TCE-GO - Analista de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No âmbito dos Tribunais de Contas, o **Escritório de Gestão Estratégica (EGE)** atua como unidade técnica de apoio à governança corporativa.
 
 Dentre as atribuições típicas do EGE em uma corte de contas, destaca-se:
 
 * **A)** Facilitar o processo de planejamento estratégico institucional, apoiar as áreas na definição de indicadores e metas, consolidar relatórios de desempenho e secretariar as Reuniões de Avaliação da Estratégia.
 * **B)** Emitir votos de julgamento de mérito com força jurisdicional nos processos de fiscalização contábil.
-* **C)** Fiscalizar in loco as obras de construção civil e realizar medições de asfalto em rodovias estaduais considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **C)** Fiscalizar in loco as obras de construção civil e realizar medições de asfalto em rodovias estaduais.
 * **D)** Gerenciar a segurança armada e o policiamento ostensivo das portarias do prédio sede.
 * **E)** Substituir os Conselheiros titulares do Tribunal em caso de vacância definitiva do cargo.
 

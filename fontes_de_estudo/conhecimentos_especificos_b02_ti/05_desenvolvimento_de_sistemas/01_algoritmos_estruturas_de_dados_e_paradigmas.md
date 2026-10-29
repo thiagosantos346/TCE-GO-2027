@@ -106,11 +106,11 @@ A notação **Big-O ($\mathcal{O}$)** mensura o crescimento do tempo de execuç�
 ---
 
 ### Teste 054
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A recursão é uma técnica algorítmica fundamental na qual uma função invoca a si mesma para resolver subproblemas menores de mesma natureza. A respeito do funcionamento da recursão e de sua pilha de execução (*Call Stack*), é correto afirmar:
 
 * **A)** Toda função recursiva deve possuir pelo menos uma condição de parada (caso base), sob pena de provocar um estouro de pilha (*Stack Overflow*) em virtude de chamadas infinitas.
-* **B)** A execução de uma chamada recursiva não consome espaço na memória RAM, pois todas as variáveis locais utilizam o mesmo endereço físico de registradores da CPU no âmbito da administração pública direta e indireta.
+* **B)** A execução de uma chamada recursiva não consome espaço na memória RAM, pois todas as variáveis locais utilizam o mesmo endereço físico de registradores da CPU.
 * **C)** Algoritmos recursivos são sempre mais velozes e consomem menos memória do que suas versões iterativas equivalentes.
 * **D)** A pilha de chamadas (*Call Stack*) opera sob o princípio FIFO (*First-In, First-Out*), finalizando primeiro a primeira função chamada.
 * **E)** A recursão em cauda (*tail recursion*) impede que o compilador realize qualquer otimização de espaço na pilha de execução.
@@ -131,14 +131,14 @@ A recursão é uma técnica algorítmica fundamental na qual uma função invoca
 ---
 
 ### Teste 055
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A análise assintótica de complexidade de algoritmos permite quantificar o crescimento do consumo de tempo de execução e memória à medida que o tamanho da entrada ($n$) cresce assintoticamente. Em relação aos algoritmos clássicos de ordenação de vetores em memória interna, é correto afirmar que:
 
 * **A)** O algoritmo *Bubble Sort* possui complexidade de tempo de pior caso igual a $O(n \log n)$.
 * **B)** O algoritmo *Merge Sort* baseia-se no paradigma de divisão e conquista e possui complexidade de tempo no pior caso estritamente delimitada por $O(n \log n)$.
 * **C)** O *Quicksort* garante complexidade de tempo $O(n)$ em qualquer cenário de partição de pivôs.
 * **D)** O pior caso de tempo do *Quicksort* ocorre com complexidade de tempo $O(\log n)$.
-* **E)** Todos os algoritmos de ordenação baseados em comparação de chaves conseguem ordenar um vetor em tempo linear $O(n)$ no pior caso no âmbito da administração pública direta e indireta.
+* **E)** Todos os algoritmos de ordenação baseados em comparação de chaves conseguem ordenar um vetor em tempo linear $O(n)$ no pior caso.
 
 
 ---
@@ -252,7 +252,7 @@ graph TD
 ---
 
 ### Teste 056
-**(FCC – Analista de TI / Sistemas)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em uma estrutura de dados do tipo Pilha (*Stack*), as operações de manipulação de dados obedecem rigorosamente à disciplina LIFO (*Last In, First Out*). Considere uma pilha inicialmente vazia que é submetida, passo a passo, à seguinte sequência consecutiva de comandos:
 
 ```text
@@ -296,10 +296,10 @@ Ao término da execução dessa sequência completa de operações, o elemento p
 ---
 
 ### Teste 057
-**(FCC – Auditor Fiscal / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 As Tabelas Hash (*Hash Tables*) são amplamente utilizadas em sistemas de informação pela sua eficiência em operações de busca, inserção e remoção de registros indexados por chaves. A respeito da teoria das tabelas hash e dos métodos de tratamento de colisões, assinale a afirmativa correta:
 
-* **A)** A complexidade temporal assintótica de busca em uma tabela hash é estritamente $\mathcal{O}(1)$ em qualquer circunstância, independentemente da função hash ou da quantidade de colisões no âmbito da administração pública direta e indireta.
+* **A)** A complexidade temporal assintótica de busca em uma tabela hash é estritamente $\mathcal{O}(1)$ em qualquer circunstância, independentemente da função hash ou da quantidade de colisões.
 * **B)** No método de tratamento de colisões por encadeamento separado (*separate chaining*), cada posição do vetor principal referencia uma lista encadeada, de modo que elementos colidentes são armazenados como nós dessa lista.
 * **C)** O fator de carga (*load factor*) de uma tabela hash corresponde ao tempo em milissegundos gasto pela CPU para calcular a função hash de uma chave string.
 * **D)** No endereçamento aberto com sondagem linear (*linear probing*), elementos que sofrem colisão são sempre descartados da tabela para impedir o agrupamento primário.
@@ -321,7 +321,7 @@ As Tabelas Hash (*Hash Tables*) são amplamente utilizadas em sistemas de inform
 ---
 
 ### Teste 058
-**(FCC – Analista de TI / Sistemas)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere uma Árvore Binária de Busca (BST) construída a partir da inserção sucessiva dos seguintes números inteiros em uma árvore inicialmente vazia, respeitando as regras estritas da estrutura (valores menores à esquerda, maiores à direita):
 
 ```text
@@ -366,7 +366,7 @@ Se essa árvore for percorrida utilizando os algoritmos de percurso em **Pré-Or
 ---
 
 ### Teste 059
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Uma Árvore AVL é uma Árvore Binária de Busca (BST) estritamente auto-balanceada na qual a diferença de altura entre as subárvores esquerda e direita de qualquer nó (fator de balanceamento $FB = h_{esq} - h_{dir}$) deve pertencer obrigatoriamente ao conjunto:
 
 * **A)** $\{-2, 0, +2\}$
@@ -422,7 +422,7 @@ Essa comparação é cobrada com frequência máxima pela banca FCC:
 ---
 
 ### Teste 060
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No paradigma de Programação Orientada a Objetos, o pilar que estabelece a técnica de ocultar os detalhes internos de implementação e o estado de um objeto, restringindo o acesso direto aos seus atributos e expondo apenas uma interface pública controlada de métodos, denomina-se:
 
 * **A)** Herança múltipla.
@@ -447,7 +447,7 @@ No paradigma de Programação Orientada a Objetos, o pilar que estabelece a téc
 ---
 
 ### Teste 061
-**(FCC – Técnico de Controle Externo / TI)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No contexto do paradigma de Programação Orientada a Objetos (POO), analise o mecanismo pelo qual uma subclasse fornece uma definição específica para um método que já foi declarado e implementado por sua superclasse direta ou indireta, preservando integralmente o mesmo nome, a mesma quantidade e os mesmos tipos de parâmetros, permitindo a seleção da implementação adequada durante a execução do programa (*runtime*).
 
 Esse mecanismo e seu momento de amarração (*binding*) correspondem, respectivamente, a:
@@ -474,10 +474,10 @@ Esse mecanismo e seu momento de amarração (*binding*) correspondem, respectiva
 ---
 
 ### Teste 062
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito das distinções conceituais entre Classes Abstratas e Interfaces na modelagem orientada a objetos clássica, é correto afirmar:
 
-* **A)** Interfaces podem ser instanciadas diretamente por meio do operador `new`, ao passo que classes abstratas nunca podem conter código compilado no âmbito da administração pública direta e indireta.
+* **A)** Interfaces podem ser instanciadas diretamente por meio do operador `new`, ao passo que classes abstratas nunca podem conter código compilado.
 * **B)** Uma classe concreta pode herdar de múltiplas classes abstratas em Java, mas pode implementar apenas uma única interface.
 * **C)** Uma classe abstrata não pode ser instanciada diretamente e pode conter tanto métodos abstratos (sem corpo) quanto métodos concretos com implementação completa e estado (atributos de instância).
 * **D)** Interfaces são obrigadas a implementar todos os métodos de persistência no banco de dados.
@@ -534,13 +534,13 @@ flowchart LR
 ---
 
 ### Teste 063
-**(FGV – TJ – Analista Judiciário / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No paradigma de Programação Funcional (PF), uma função é considerada **pura** (*pure function*) quando satisfaz a dois critérios rigorosos:
 
 * **A)** Altera variáveis globais do sistema e consome dados de sensores de hardware aleatórios a cada execução.
 * **B)** Produz o mesmo valor de saída para os mesmos argumentos de entrada e não gera efeitos colaterais (*side effects*) observáveis no ambiente externo.
 * **C)** Executa exclusivamente operações de escrita síncrona em bancos de dados relacionais transacionais.
-* **D)** Depende do horário do relógio da CPU e de geradores de números pseudoaleatórios para calcular seu resultado no âmbito da administração pública direta e indireta.
+* **D)** Depende do horário do relógio da CPU e de geradores de números pseudoaleatórios para calcular seu resultado.
 * **E)** Exige que todos os parâmetros sejam passados obrigatoriamente por referência com permissão de escrita.
 
 
@@ -559,7 +559,7 @@ No paradigma de Programação Funcional (PF), uma função é considerada **pura
 ---
 
 ### Teste 064
-**(FCC – Analista de Sistemas / Desenvolvimento)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No paradigma de Programação Funcional (PF), a manipulação de coleções é realizada prioritariamente por meio de funções de alta ordem (*higher-order functions*) que operam sobre estruturas imutáveis. Considere o processamento de uma lista contendo os salários de 5 colaboradores: `[2000, 3000, 4000, 5000, 6000]`. Deseja-se realizar, sequencialmente, as seguintes operações:
 
 1. Filtrar apenas os colaboradores com salário estritamente superior a `3500`.

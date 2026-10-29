@@ -136,11 +136,11 @@ flowchart TD
 ---
 
 ### Teste 129
-**(FCC – Inédita – Padrão TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Na evolução da inteligência artificial aplicada ao desenvolvimento de software, a transição de chatbots passivos para sistemas agentivos orientados a objetivos (*Goal-Driven Agents*) representa um salto paradigmático fundamental. A principal distinção operacional entre essas duas abordagens consiste em:
 
 * **A)** Chatbots passivos respondem a prompts isolados com sugestões textuais que exigem intervenção humana para cópia e aplicação manual no projeto, enquanto agentes orientados a objetivos recebem metas de alto nível, planejam passos intermediários, utilizam ferramentas para interagir com o ambiente (leitura de arquivos, execução de comandos, testes) e iteram até atingir o objetivo com verificação de resultados.
-* **B)** Chatbots passivos só funcionam em computadores quânticos, ao passo que agentes autônomos executam em qualquer microcontrolador simples considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **B)** Chatbots passivos só funcionam em computadores quânticos, ao passo que agentes autônomos executam em qualquer microcontrolador simples.
 * **C)** Agentes orientados a objetivos dispensam completamente o uso de modelos de linguagem (LLMs).
 * **D)** Chatbots passivos são capazes de depurar pipelines de CI/CD de forma totalmente autônoma.
 * **E)** Agentes orientados a objetivos têm seu uso restrito à criação de interfaces gráficas em HTML puro.
@@ -161,13 +161,13 @@ Na evolução da inteligência artificial aplicada ao desenvolvimento de softwar
 ---
 
 ### Teste 130
-**(Cebraspe – TRF/STJ – 2024/2025 – Adaptada para o padrão FCC)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A arquitetura estrutural canônica de um agente de inteligência artificial voltado para a engenharia de software articula-se em quatro componentes fundamentais. Assinale a alternativa que elenca corretamente esses quatro componentes:
 
 * **A)** Monitor de vídeo, placa de rede cabeada, disco rígido SATA e teclado mecânico.
 * **B)** Percepção/Contexto (sensores/leitores), Mecanismo de Raciocínio e Planejamento (LLM), Memória (curto e longo prazo) e Ferramental de Ação (atuadores/tools/APIs).
 * **C)** Compilador C++, interpretador PHP, banco de dados Access e firewall de borda.
-* **D)** Diagrama de casos de uso, diagrama de classes, diagrama de sequência e diagrama de atividades em estrita conformidade com as normas legais e regulamentares aplicáveis.
+* **D)** Diagrama de casos de uso, diagrama de classes, diagrama de sequência e diagrama de atividades.
 * **E)** Linters estáticos, bibliotecas de terceiros, variáveis de ambiente e licenças GPLv3.
 
 
@@ -190,7 +190,7 @@ A arquitetura estrutural canônica de um agente de inteligência artificial volt
 ---
 
 ### Teste 131
-**(FCC - Padrão Concursos TI / Comparação CLI vs IDE Agentiva)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Analise as afirmativas abaixo a respeito das diferenças operacionais e arquiteturais entre assistentes agentivos de linha de comando (CLI) e extensões integradas a Ambientes de Desenvolvimento Integrados (IDEs):
 
 I. Agentes em CLI (como Claude Code ou Aider) possuem integração direta com o ambiente de terminal do sistema operacional, permitindo encadear ferramentas nativas de busca textual (como `grep`), comandos de compilação e automação de scripts bash sem a necessidade de uma interface gráfica ativa.  
@@ -307,7 +307,7 @@ Para evitar que o agente entre em ciclos infinitos de tentativa e erro que consu
 ---
 
 ### Teste 132
-**(FCC - Adaptada / TI - Sistemas Agentivos e Ciclo ReAct)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Diferente dos chatbots passivos baseados em LLMs tradicionais, os sistemas agentivos modernos de desenvolvimento de software (como agentes de codificação em terminal e IDEs inteligentes) operam com base em ciclos autônomos orientados a objetivos (*Goal-Driven Agents*).
 
 A respeito da dinâmica de funcionamento e das propriedades de um ciclo agentivo de desenvolvimento, assinale a afirmativa correta:  
@@ -316,7 +316,7 @@ A respeito da dinâmica de funcionamento e das propriedades de um ciclo agentivo
 * **B)** No paradigma ReAct (*Reasoning + Acting*), o ciclo operacional do agente envolve os passos ordenados de pensamento/raciocínio (*Thought*), execução de uma ferramenta no ambiente (*Action*), coleta e assimilação do resultado obtido (*Observation*) e reavaliação (*Reflection*) até atingir o critério de parada.
 * **C)** Os agentes de software em linha de comando (CLI) são conceituados como modelos puramente estáticos que não possuem capacidade de invocar ferramentas do sistema operacional ou inspecionar o sistema de arquivos local.
 * **D)** O uso de memória de curto prazo em sistemas agentivos substitui a necessidade de manter janelas de contexto ativas, operando sem consumir tokens de inferência do modelo de linguagem.
-* **E)** Caso um teste unitário falhe durante a execução de uma tarefa de codificação pelo agente, o ciclo agentivo é imediatamente abortado por razões de conformidade, sendo proibido ao agente rodar suites de teste subsequentes considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **E)** Caso um teste unitário falhe durante a execução de uma tarefa de codificação pelo agente, o ciclo agentivo é imediatamente abortado por razões de conformidade, sendo proibido ao agente rodar suites de teste subsequentes.
 
 
 ---
@@ -334,13 +334,13 @@ A respeito da dinâmica de funcionamento e das propriedades de um ciclo agentivo
 ---
 
 ### Teste 133
-**(FCC – Inédita – Padrão TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Na primeira etapa do ciclo agentivo (*The Agentic Loop*), denominada Fase de Percepção ou Descoberta de Contexto, antes de efetuar qualquer alteração no repositório de software, o agente deve:
 
 * **A)** Deletar todos os arquivos da pasta `.git` para economizar memória do agente.
 * **B)** Explorar a estrutura de diretórios, inspecionar contratos de interfaces, ler arquivos de documentação técnica e mapear o código relevante relacionado à tarefa, evitando modificações cegas no código-fonte.
 * **C)** Executar commits forçados com a flag `--force` na branch `main` de produção.
-* **D)** Solicitar autorização judicial para ler arquivos de texto com extensão `.md` considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **D)** Solicitar autorização judicial para ler arquivos de texto com extensão `.md`. em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **E)** Paralisar todos os contêineres Docker do cluster de homologação.
 
 
@@ -359,11 +359,11 @@ Na primeira etapa do ciclo agentivo (*The Agentic Loop*), denominada Fase de Per
 ---
 
 ### Teste 134
-**(Cebraspe – TRF/STJ – 2024/2025 – Adaptada para o padrão FCC)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No âmbito dos sistemas agentivos aplicados à engenharia de software, a etapa de Planejamento e Decomposição de Metas (*Task Decomposition*) tem por finalidade técnica:
 
 * **A)** Reduzir uma demanda complexa de negócio a uma sequência estruturada de subtarefas atômicas e verificáveis, permitindo ao agente raciocinar sobre passos intermediários antes de disparar ações com efeitos colaterais no repositório.
-* **B)** Unificar todas as classes do sistema em um único arquivo monolítico de 100.000 linhas de código considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **B)** Unificar todas as classes do sistema em um único arquivo monolítico de 100.000 linhas de código. em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **C)** Excluir todas as suítes de testes unitários para evitar reprovação do build.
 * **D)** Impedir que o desenvolvedor humano visualize as etapas planejadas pelo sistema.
 * **E)** Substituir o uso de linguagens de alto nível por cartões perfurados.
@@ -384,7 +384,7 @@ No âmbito dos sistemas agentivos aplicados à engenharia de software, a etapa d
 ---
 
 ### Teste 135
-**(FCC - Padrão Concursos TI / Mecânica do Self-Healing Loop)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em um fluxo de integração contínua (CI), um agente autônomo foi configurado para resolver chamados de correção de defeitos em microsserviços legados em Java. Durante o processamento de um chamado, o agente realizou a modificação do arquivo `CalculadoraAliquotaService.java`, mas o comando de compilação disparado pelo próprio agente retornou o erro: `error: cannot find symbol: class BigDecimalUtils`.
 
 Diante dessa situação em um ciclo agentivo dotado de *Self-Healing*, a ação esperada do agente é:  
@@ -393,7 +393,7 @@ Diante dessa situação em um ciclo agentivo dotado de *Self-Healing*, a ação 
 * **B)** Capturar a mensagem de erro da saída do compilador (`stderr`), interpretar que a dependência ou classe auxiliar não foi importada ou não existe, buscar referências similares no repositório, realizar o ajuste atômico do código e reexecutar o comando de compilação.
 * **C)** Ignorar a mensagem de erro e realizar o merge forçado da alteração no branch principal do repositório de produção.
 * **D)** Reescrever todo o sistema operacional da máquina servidora em linguagem Rust para contornar o erro de compilação do Java.
-* **E)** Solicitar que o usuário humano reescreva todo o método do zero, pois agentes são formalmente incapazes de ler mensagens de erro de compiladores considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **E)** Solicitar que o usuário humano reescreva todo o método do zero, pois agentes são formalmente incapazes de ler mensagens de erro de compiladores. em conformidade com as diretrizes e padrões de arquitetura corporativa.
 
 
 ---
@@ -411,7 +411,7 @@ Diante dessa situação em um ciclo agentivo dotado de *Self-Healing*, a ação 
 ---
 
 ### Teste 136
-**(FCC - Padrão Concursos TI / Critérios de Parada e Circuit Breakers em Agentes)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em arquiteturas de agentes de software autônomos, o conceito de Critério de Parada (*Stop Condition*) ou Disjuntor (*Circuit Breaker*) é essencial para garantir a estabilidade e a viabilidade econômica do sistema.
 
 A função primária desse mecanismo é:  
@@ -473,10 +473,10 @@ flowchart TD
 ---
 
 ### Teste 137
-**(FCC – Inédita – Padrão TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Na arquitetura multiagente hierárquica utilizada em ferramentas modernas de engenharia de software assistida (como no ecossistema Antigravity), o agente orquestrador principal delega tarefas especializadas para subagentes dedicados. A principal vantagem arquitetural dessa segregação de responsabilidades é:
 
-* **A)** Aumentar a poluição da janela de contexto do agente principal com milhares de linhas de saídas intermediárias de debug e comandos do terminal considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **A)** Aumentar a poluição da janela de contexto do agente principal com milhares de linhas de saídas intermediárias de debug e comandos do terminal. em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **B)** Isolar contextos de raciocínio, permitindo que subagentes especializados executem pesquisas profundas ou tarefas de escrita em workspaces dedicados, retornando apenas os resultados consolidados ao agente pai e mantendo a janela de contexto principal limpa e eficiente.
 * **C)** Eliminar a necessidade de qualquer modelo de linguagem nas tomadas de decisão.
 * **D)** Exigir que todos os subagentes compartilhem obrigatoriamente a mesma thread síncrona bloqueante.
@@ -498,12 +498,12 @@ Na arquitetura multiagente hierárquica utilizada em ferramentas modernas de eng
 ---
 
 ### Teste 138
-**(FCC - Adaptada / TI - Governança e Segurança em Agentes Autônomos)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Ao adotar ferramentas de engenharia de software assistidas por IA com execução de comandos no terminal (CLI) e no sistema de arquivos, uma organização pública de controle externo deve mitigar riscos cibernéticos decorrentes de ações potencialmente destrutivas ou não autorizadas no ambiente de infraestrutura.
 
 Para equilibrar produtividade e governança corporativa na operação desses agentes autônomos, a melhor prática arquitetural consiste em:  
 
-* **A)** Conceder ao processo do agente privilégios de superusuário (*root* ou *Administrator*) com bypass irrestrito de confirmação para todas as chamadas de sistema, a fim de garantir autonomia total considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **A)** Conceder ao processo do agente privilégios de superusuário (*root* ou *Administrator*) com bypass irrestrito de confirmação para todas as chamadas de sistema, a fim de garantir autonomia total. em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **B)** Impedir qualquer leitura de arquivos do repositório pelo agente, restringindo sua atuação exclusivamente à emissão de trechos de código em formato texto no chat da interface gráfica.
 * **C)** Implementar políticas de isolamento em ambiente de desenvolvimento controlado (*sandboxing* / containers) e mecanismos de aprovação humana (*Human-in-the-Loop*) para comandos de alto impacto ou potencialmente destrutivos (como remoção recursiva de diretórios, formatação de volumes ou operações com dados produtivos).
 * **D)** Desativar a coleta de logs e telemetria das ações tomadas pelo agente, pois registros de comandos executados no shell expõem os pesos internos do modelo de linguagem.

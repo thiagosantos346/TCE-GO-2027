@@ -115,7 +115,7 @@ Sob o prisma **objetivo, material ou funcional**, a Administração Pública cor
 ---
 
 ### Teste 001
-**(FCC – TRT – Analista Judiciário - 2009)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere as afirmações abaixo, relativas ao conceito e sentidos da Administração Pública e de serviço público:
 
 I. O conceito de serviço público é dinâmico e variável no tempo e no espaço, subordinado às contingências históricas e às necessidades da coletividade.  
@@ -179,7 +179,7 @@ A jurisprudência do STF e do STJ acolhe expressamente a distinção doutrinári
 ---
 
 ### Teste 002
-**(FGV – TRT – Analista Judiciário - 2024)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Patrícia é proprietária de um imóvel urbano situado no Município Alfa. O Poder Público Municipal, com fundamento na supremacia do interesse público sobre o privado e na necessidade premente de ampliação da rede de saúde, decretou a utilidade pública do referido imóvel para fins de desapropriação. 
 
 Considerando os princípios que informam o regime jurídico-administrativo e o instituto da desapropriação, assinale a afirmativa correta.
@@ -248,7 +248,7 @@ Inserido formalmente no rol do art. 37 pela Reforma Administrativa (EC nº 19/19
 ---
 
 ### Teste 003
-**(FCC – TRT-9ª Região – Analista Judiciário - 2015)**  
+**(FCC – TRT-9 – Analista Judiciário - Tecnologia da Informação – 2015)**  
 A Administração pública está sujeita a princípios que conformam sua atuação. Para esse fim, é dizer, da sujeição aos princípios elencados no caput do art. 37 da Constituição Federal, o termo Administração abrange a Administração:
 
 * **A)** direta, não estando sujeita aos mesmos princípios a Administração indireta nem o Judiciário, em virtude da separação dos poderes.
@@ -269,7 +269,7 @@ A Administração pública está sujeita a princípios que conformam sua atuaç�
 >
 > **Gabarito: C**
 ### Teste 004
-**(FCC – Analista de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O Prefeito de determinado município goiano autorizou a veiculação de campanha institucional sobre vacinação contendo seu nome, fotografia e slogan eleitoral. À luz do art. 37, § 1º, da Constituição Federal e da jurisprudência dos Tribunais de Contas:
 
 * **A)** A conduta é lícita, pois a publicidade alcançou o objetivo informativo de saúde pública sem gastos extras.
@@ -290,7 +290,7 @@ O Prefeito de determinado município goiano autorizou a veiculação de campanha
 >
 > **Gabarito: B**
 ### Teste 005
-**(FCC – TRT-23ª Região – Analista Judiciário - 2016)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O princípio da moralidade administrativa, consagrado no art. 37, caput, da Constituição Federal e corporificado na Súmula Vinculante nº 13 do Supremo Tribunal Federal, veda expressamente práticas de nepotismo no âmbito dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios. Sob a ótica desse enunciado sumular, é proibida a nomeação para cargo em comissão ou função de confiança de cônjuge, companheiro ou parente em linha reta, colateral ou por afinidade:
 
 * **A)** até o segundo grau, exclusivamente na linha reta consanguínea de agentes políticos.
@@ -311,7 +311,7 @@ O princípio da moralidade administrativa, consagrado no art. 37, caput, da Cons
 >
 > **Gabarito: C**
 ### Teste 006
-**(FGV – Analista de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Introduzido formalmente no caput do art. 37 da Constituição Federal pela Emenda Constitucional nº 19/1998, o princípio da eficiência impõe à Administração Pública e a seus agentes a busca pelo melhor rendimento com o menor dispêndio. Sob o aspecto jurídico-doutrinário e dogmático, esse princípio:
 
 * **A)** Subordina a estrita legalidade ao juízo de oportunidade do gestor, legitimando atos contra legem em prol de metas orçamentárias.
@@ -392,7 +392,7 @@ Os serviços públicos representam a prestação material de necessidades indecl
 ---
 
 ### Teste 007
-**(FCC – TRT-9ª Região – Analista Judiciário - 2015)**  
+**(FCC – TRT-9 – Analista Judiciário - Tecnologia da Informação – 2015)**  
 O denominado poder de autotutela é uma decorrência do princípio da legalidade. Cuida-se de controle que a Administração exerce sobre seus próprios atos, que podem ser:
 
 * **A)** anulados, quando eivados de vícios ilegais, sendo vedada a revogação por conveniência na via administrativa.
@@ -413,7 +413,7 @@ O denominado poder de autotutela é uma decorrência do princípio da legalidade
 >
 > **Gabarito: C**
 ### Teste 008
-**(FGV – TRT – Analista Judiciário - 2024)**  
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**  
 Ana, servidora pública no âmbito do Estado de Goiás, em conluio com João, requereu o pagamento de determinado benefício funcional que sabia indevido, fraudando documentos funcionais. A autoridade competente deferiu a vantagem. Decorridos oito anos do pagamento continuado, a Administração constatou a ilicitude mediante regular processo administrativo. 
 
 Nesse caso, com fulcro na autotutela e na Lei de Processo Administrativo (Lei nº 9.784/1999 e Lei Estadual nº 13.800/2001):
@@ -436,7 +436,7 @@ Nesse caso, com fulcro na autotutela e na Lei de Processo Administrativo (Lei n�
 >
 > **Gabarito: A**
 ### Teste 009
-**(FCC – Procurador do Estado – PGE / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Determinada autoridade administrativa removeu ex officio um servidor público, consignando formalmente na portaria que a medida se dava em razão da imperiosa necessidade de reforço de pessoal na unidade de destino. Restou documentalmente provado, contudo, que aquela unidade contava com excesso de servidores e nenhuma demanda reprimida. À luz da Teoria dos Motivos Determinantes, o ato de remoção é:
 
 * **A)** Válido e eficaz, pois a remoção funcional de ofício consubstancia ato administrativo eminentemente discricionário.
@@ -490,7 +490,7 @@ A Lei de Introdução às Normas do Direito Brasileiro (LINDB - Decreto-Lei nº 
 ---
 
 ### Teste 010
-**(FGV – TJ-MT – Analista Judiciário - 2024)**  
+**(FGV – TJ-MT – Analista Judiciário - Tecnologia da Informação – 2024)**  
 Caio, após tomar posse no cargo de analista no Tribunal de Justiça, constatou a importância prática da Lei de Introdução às Normas do Direito Brasileiro (LINDB), em razão de uma atuação normativa pujante e da criação de novas leis e regulamentos. Nesse cenário, considerando as disposições da LINDB (Decreto-Lei nº 4.657/1942), assinale a afirmativa INCORRETA:
 
 * **A)** A lei nova que estabeleça disposições gerais ou especiais a par das já existentes não revoga nem modifica a lei anterior.
@@ -511,7 +511,7 @@ Caio, após tomar posse no cargo de analista no Tribunal de Justiça, constatou 
 >
 > **Gabarito: C**
 ### Teste 011
-**(FGV – TRT-1ª Região – Analista Judiciário - 2024)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A Lei nº 13.655/2018 introduziu, no Decreto-Lei nº 4.657/1942 (LINDB), disposições expressas acerca da segurança jurídica e eficiência na criação e na aplicação do direito público. Entre as inovações, destacam-se preceitos voltados a decisões proferidas nas esferas administrativa, controladora e judicial, impondo que a invalidação de ato, contrato ou ajuste considere expressamente as consequências jurídicas e administrativas da medida. 
 
 Nesse contexto normativo, é correto afirmar que tal determinação:

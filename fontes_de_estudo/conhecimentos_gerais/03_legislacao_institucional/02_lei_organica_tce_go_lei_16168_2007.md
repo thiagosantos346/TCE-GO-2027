@@ -113,10 +113,10 @@ Nos moldes dos artigos 1º a 3º da Lei nº 16.168/2007, compete privativamente 
 ---
 
 ### Teste 132
-**(FCC – Inédita – Padrão TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 De acordo com as disposições da Lei Orgânica do Tribunal de Contas do Estado de Goiás (Lei Estadual nº 16.168/2007, arts. 1º a 4º), estão sujeitos à jurisdição do TCE-GO:
 
-* **A)** Exclusivamente os chefes dos Poderes Executivo, Legislativo e Judiciário, excluindo-se servidores subordinados e dirigentes de entidades privadas considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **A)** Exclusivamente os chefes dos Poderes Executivo, Legislativo e Judiciário, excluindo-se servidores subordinados e dirigentes de entidades privadas. em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **B)** Qualquer pessoa física ou jurídica, pública ou privada, que utilize, arrecade, guarde, gerencie ou administre dinheiros, bens e valores públicos estaduais ou pelos quais o Estado responda, bem como aqueles que derem causa a perda, extravio ou outra irregularidade de que resulte dano ao erário.
 * **C)** Apenas os agentes que praticarem atos com dolo comprovado, ficando as condutas culposas isentas da jurisdição fiscalizatória da Corte de Contas.
 * **D)** As empresas públicas e sociedades de economia mista apenas no que tange às suas atividades-meio de contratação de pessoal temporário.
@@ -166,7 +166,7 @@ O Tribunal fiscaliza procedimentos de licitação, editais, atas de registro de 
 ---
 
 ### Teste 133
-**(FCC – Inédita – Padrão TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A Lei Orgânica do TCE-GO (Lei nº 16.168/2007, arts. 5º a 10) tipifica os instrumentos operacionais de fiscalização a serem utilizados pelo Tribunal. Considere as seguintes definições:  
 
 1. *Instrumento destinado a verificar a legalidade e a legitimidade dos atos e fatos administrativos em andamento ou já praticados, bem como coligir dados preliminares ou esclarecer dúvidas decorrentes de denúncia ou representação.*  
@@ -245,7 +245,7 @@ graph TD
 ---
 
 ### Teste 134
-**(FCC – TCE-AP – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito da Tomada de Contas Especial (TCE) disciplinada nas leis orgânicas dos Tribunais de Contas e na Lei Orgânica do TCE-GO, assinale a opção correta:
 
 * **A)** A Tomada de Contas Especial pode ser instaurada imediatamente pelo Tribunal de Contas perante qualquer indício de irregularidade, prescindindo da tentativa de adoção de medidas saneadoras internas pelo órgão de origem.
@@ -270,7 +270,7 @@ A respeito da Tomada de Contas Especial (TCE) disciplinada nas leis orgânicas d
 ---
 
 ### Teste 135
-**(FCC – TCE-GO – Analista de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em decorrência de auditoria operacional e contábil realizada no âmbito de determinada Secretaria de Estado, o Tribunal de Contas do Estado de Goiás constatou que o gestor ordenou despesas amparado em documentação formalmente incompleta, mas que as obras foram integralmente executadas, o valor praticado foi condizente com a tabela de referência de preços oficiais e não houve prejuízo financeiro aos cofres públicos. Consoante o regramento expresso da Lei Estadual nº 16.168/2007 (Lei Orgânica do TCE-GO), as contas desse gestor deverão ser julgadas:
 
 * **A)** Irregulares, aplicando-se multa rescisória e declarando-se a inidoneidade para licitar, tendo em vista o princípio da legalidade estrita que rege a despesa pública.
@@ -328,7 +328,7 @@ Em casos revestidos de especial gravidade, o Tribunal Pleno do TCE-GO poderá de
 ---
 
 ### Teste 136
-**(FCC – TCE-PR – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Sobre o poder sancionatório e a aplicação de medidas punitivas pelo Tribunal de Contas do Estado de Goiás com fundamento na Lei Estadual nº 16.168/2007, assinale a afirmativa correta:
 
 * **A)** A condenação em débito para ressarcimento de dano causado ao erário impede a cominação concomitante de penalidade de multa, sob pena de configurar *bis in idem*.
@@ -353,7 +353,7 @@ Sobre o poder sancionatório e a aplicação de medidas punitivas pelo Tribunal 
 ---
 
 ### Teste 137
-**(FCC – Inédita – Padrão TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Quanto ao poder cautelar e sancionatório do Tribunal de Contas do Estado de Goiás previsto na Lei Estadual nº 16.168/2007 (arts. 41 a 47):
 
 * **A)** O TCE-GO não possui competência para adotar medidas cautelares sem prévia autorização judicial expedida pelo Tribunal de Justiça do Estado de Goiás.
@@ -423,7 +423,7 @@ Em consonância com as teses vinculantes fixadas pelo Supremo Tribunal Federal (
 ---
 
 ### Teste 138
-**(FCC – TCE-RS – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Determinado Secretário de Estado de Goiás foi sancionado pelo Tribunal Pleno do TCE-GO em processo de fiscalização de licitação pública com aplicação de penalidade de multa por grave infração a preceito da Lei de Licitações. Querendo recorrer da decisão colegiada, o gestor deverá utilizar a via recursal cabível segundo a Lei Orgânica do TCE-GO (Lei Estadual nº 16.168/2007), que prevê:
 
 * **A)** Recurso de Reconsideração, a ser interposto no prazo preclusivo de quinze dias úteis, dotado de efeito apenas devolutivo.
@@ -448,7 +448,7 @@ Determinado Secretário de Estado de Goiás foi sancionado pelo Tribunal Pleno d
 ---
 
 ### Teste 139
-**(FCC – TCE-CE – Técnico de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Decorridos dois anos da publicação de acórdão definitivo transitado em julgado do TCE-GO que condenou um ex-ordenador de despesas a ressarcir os cofres públicos por suposto desvio de recursos, foram localizadas nos arquivos da Secretaria notas fiscais originais e atestados de recebimento da época que comprovam inequivocamente a efetiva entrega das mercadorias e a regularidade do pagamento. Diante dessa nova situação, o ex-gestor:
 
 * **A)** Não poderá mais recorrer no âmbito administrativo do TCE-GO, haja vista a preclusão absoluta operada pelo decurso do prazo de trinta dias da decisão definitiva em conformidade com as diretrizes e padrões de arquitetura corporativa.
@@ -473,7 +473,7 @@ Decorridos dois anos da publicação de acórdão definitivo transitado em julga
 ---
 
 ### Teste 140
-**(FCC – Inédita – Padrão TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Sobre o sistema recursal disciplinado nos artigos 54 a 65 da Lei Orgânica do TCE-GO (Lei nº 16.168/2007), assinale a afirmativa correta:
 
 * **A)** O Pedido de Reconsideração é cabível em face de qualquer acórdão proferido pelo Tribunal Pleno em grau originário de recurso.
@@ -500,10 +500,10 @@ Sobre o sistema recursal disciplinado nos artigos 54 a 65 da Lei Orgânica do TC
 ---
 
 ### Teste 141
-**(FCC – Inédita – Padrão TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em conformidade com a jurisprudência do Supremo Tribunal Federal (Tema 899 de Repercussão Geral - RE 636.886) e as normas de controle externo do TCE-GO acerca da prescrição:
 
-* **A)** As ações de ressarcimento ao erário fundadas em decisões dos Tribunais de Contas são imprescritíveis em qualquer hipótese, nos termos literais do artigo 37, § 5º, da CF/88 considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **A)** As ações de ressarcimento ao erário fundadas em decisões dos Tribunais de Contas são imprescritíveis em qualquer hipótese, nos termos literais do artigo 37, § 5º, da CF/88. em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **B)** É prescritível a pretensão de ressarcimento ao erário fundada em decisão de Tribunal de Contas, aplicando-se o prazo prescricional de 5 anos para a cobrança judicial do título executivo, sem prejuízo da incidência da prescrição intercorrente no curso do processo administrativo de controle externo.
 * **C)** A prescrição da pretensão punitiva do Tribunal de Contas ocorre no prazo decadencial de 20 anos previsto no Código Civil.
 * **D)** A citação válida do responsável no processo de tomada de contas especial não interrompe o curso do prazo prescricional.

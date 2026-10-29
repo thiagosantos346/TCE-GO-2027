@@ -77,10 +77,10 @@ flowchart TD
 ---
 
 ### Teste 535
-**(FCC - Auditor de Controle Externo / TI - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** O planejamento de contratações de TIC na Administração Pública exige a incorporação de requisitos de segurança da informação desde os primeiros estudos preliminares, em consonância com a Lei nº 14.133/2021 e a norma ABNT NBR ISO/IEC 27001. A respeito da segurança da informação na fase preparatória, assinale a afirmativa correta:  
 
-* **A)** A definição de requisitos de segurança cibernética deve ocorrer exclusivamente após a homologação final do software em produção, vedada a inserção de exigências no Estudo Técnico Preliminar (ETP) no âmbito da administração pública direta e indireta.
+* **A)** A definição de requisitos de segurança cibernética deve ocorrer exclusivamente após a homologação final do software em produção, vedada a inserção de exigências no Estudo Técnico Preliminar (ETP).
 * **B)** O Mapa de Gerenciamento de Riscos deve contemplar ameaças de vazamento de dados pessoais, indisponibilidade de serviços essenciais e estratégias para evitar o aprisionamento tecnológico (*vendor lock-in*).
 * **C)** É obrigatório que o órgão público dispense a exigência de testes estáticos (SAST) e dinâmicos (DAST) de vulnerabilidades para desonerar financeiramente a licitante vencedora.
 * **D)** A Política de Segurança da Informação (PSI) do órgão contratante não possui força cogente para balizar as cláusulas do Termo de Referência de TIC.
@@ -118,7 +118,7 @@ flowchart TD
 ---
 
 ### Teste 536
-**(FCC - Auditor Estadual de Controle Externo / Tecnologia da Informação)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** O Tribunal de Contas de determinado Estado publicou edital de licitação para contratação de desenvolvimento e sustentação de sistemas de auditoria contábil. No termo de referência e na minuta contratual, a comissão de planejamento estipulou as seguintes cláusulas:  
 
 I. O pagamento mensal à contratada dar-se-á estritamente com base na quantidade bruta de horas trabalhadas apontadas pelos funcionários da empresa terceirizada em folha de ponto, sem qualquer vinculação à conclusão de entregáveis ou cumprimento de acordos de nível de serviço (SLA).  
@@ -133,7 +133,7 @@ IV. Ao término da vigência contratual, a contratada fica obrigada a realizar a
 
 * **A)** As cláusulas I, II, III e IV estão em perfeita conformidade com as boas práticas administrativas.
 * **B)** Apenas a cláusula I é irregular perante as normas de controle externo, sendo as cláusulas II, III e IV regulares e essenciais para a segurança e governança de TIC.
-* **C)** A cláusula III é ilegal, pois a legislação de propriedade intelectual veda a transferência de direitos autorais de software para órgãos públicos contratantes no âmbito da administração pública direta e indireta.
+* **C)** A cláusula III é ilegal, pois a legislação de propriedade intelectual veda a transferência de direitos autorais de software para órgãos públicos contratantes.
 * **D)** A cláusula IV é prescindível e contraria o princípio da livre iniciativa por impor custos de desmobilização à contratada.
 * **E)** A cláusula II viola a presunção de boa-fé dos prestadores de serviço e não tem eficácia jurídica na esfera administrativa.
 
@@ -179,7 +179,7 @@ flowchart TD
 ---
 
 ### Teste 537
-**(FCC - Analista Judiciário - Tecnologia da Informação - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** A Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil), instituída pela MP nº 2.200-2/2001, é estruturada de forma hierárquica. Acerca dos atores e papéis que compõem a ICP-Brasil, assinale a afirmativa correta:  
 
 * **A)** A Autoridade Certificadora Raiz (AC-Raiz) da ICP-Brasil é operada privativamente pelo Instituto Nacional de Tecnologia da Informação (ITI).
@@ -214,13 +214,13 @@ flowchart TD
 ---
 
 ### Teste 538
-**(FCC - Analista Judiciário / Tecnologia da Informação / Segurança da Informação)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** A respeito da Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil) instituída pela Medida Provisória nº 2.200-2/2001 e das características de seus certificados digitais:  
 
 * **A)** O certificado digital do tipo A1 possui sua chave privada armazenada de maneira inviolável em hardware criptográfico padrão FIPS 140-2 Level 3 e validade de 5 anos.
 * **B)** A Autoridade Certificadora Raiz (AC-Raiz) da ICP-Brasil é operada de forma compartilhada por um consórcio de empresas privadas de telefonia sob concessão da Anatel.
 * **C)** O certificado digital do tipo A3 armazena sua chave privada em hardware criptográfico (como cartão inteligente ou token criptográfico), impedindo sua cópia ou exportação, enquanto o certificado do tipo A1 é gerado por software e armazenado diretamente no computador ou dispositivo.
-* **D)** Documentos eletrônicos assinados fora da estrutura da ICP-Brasil são nulos de pleno direito no Brasil, mesmo que as partes envolvidas tenham acordado expressamente sobre sua validade considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **D)** Documentos eletrônicos assinados fora da estrutura da ICP-Brasil são nulos de pleno direito no Brasil, mesmo que as partes envolvidas tenham acordado expressamente sobre sua validade.
 * **E)** A Autoridade de Registro (AR) possui a competência exclusiva de assinar digitalmente as Listas de Certificados Revogados (LCR) de todas as ACs subordinadas.
 
 
@@ -249,11 +249,11 @@ flowchart TD
 ---
 
 ### Teste 539
-**(FCC - TRT-6 - Analista Judiciário - Tecnologia da Informação - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** No tocante à validade jurídica das assinaturas e documentos eletrônicos sob a égide da Medida Provisória nº 2.200-2/2001, assinale a afirmativa correta:  
 
 * **A)** Os documentos eletrônicos assinados digitalmente com o uso de certificados emitidos no âmbito da ICP-Brasil presumem-se verdadeiros em relação aos signatários, na forma do Código Civil.
-* **B)** A MP nº 2.200-2/2001 declarou expressamente nulo qualquer documento assinado eletronicamente por meio que não utilize certificado digital da ICP-Brasil no âmbito da administração pública direta e indireta.
+* **B)** A MP nº 2.200-2/2001 declarou expressamente nulo qualquer documento assinado eletronicamente por meio que não utilize certificado digital da ICP-Brasil.
 * **C)** O certificado digital da ICP-Brasil não possui prazo de validade temporal, permanecendo ativo de forma perpétua mesmo após o falecimento do signatário.
 * **D)** A assinatura digitalICP-Brasil substitui a necessidade de conexão física de cabos de fibra óptica nas redes de computadores.
 * **E)** É proibido utilizar criptografia assimétrica na composição de assinaturas digitais brasileiras.
@@ -304,7 +304,7 @@ flowchart TD
 ---
 
 ### Teste 540
-**(FGV - TRT - Analista Judiciário - Tecnologia da Informação - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** Analise as afirmativas a seguir sobre criptografia assimétrica, funções de resumo (*hash*) e assinaturas digitais aplicadas a sistemas de controle e processo eletrônico:  
 
 I. A criptografia assimétrica opera com um par de chaves matematicamente correlacionadas: a chave pública (que pode ser amplamente distribuída) e a chave privada (que deve ser mantida em sigilo absoluto pelo titular).  
@@ -333,14 +333,14 @@ Está correto o que se afirma em:
 ---
 
 ### Teste 541
-**(FCC - Analista em Gestão e TI / Governança)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** Nos termos da Lei Federal nº 14.063/2020, assinale a opção que descreve hipóteses em que é **obrigatória** a utilização da **assinatura eletrônica qualificada** (emitida por certificado digital ICP-Brasil):  
 
 * **A)** Requerimentos de agendamento de atendimento presencial em agências do trabalho e consultas cadastrais simples.
 * **B)** Nos atos normativos assinados pelos Chefes de Poder, Ministros de Estado ou titulares de Poder ou de órgão constitucionalmente autônomo de ente federativo, bem como na emissão de notas fiscais eletrônicas (com ressalvas legais para MEI) e em atos de transferência de bens imóveis.
 * **C)** Em todas as petições de esclarecimento em licitações públicas com valor estimado inferior a cinquenta mil reais.
 * **D)** No envio de currículos profissionais para processos seletivos de estágio na administração direta.
-* **E)** Exclusivamente em contratos celebrados entre particulares que versem sobre compra e venda de mercadorias no varejo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **E)** Exclusivamente em contratos celebrados entre particulares que versem sobre compra e venda de mercadorias no varejo.
 
 
 ---
@@ -370,7 +370,7 @@ A regra visa desonerar o cidadão do custo de adquirir certificados digitais pag
 ---
 
 ### Teste 542
-**(FCC - Técnico de Controle Externo / Tecnologia da Informação)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** Um cidadão interessado em acompanhar as contas públicas de seu município acessa o Portal do Cidadão do Tribunal de Contas para solicitar cópia de relatórios de gestão fiscal já publicados no diário oficial. O sistema informatizado exige, para a conclusão do requerimento de acesso à informação (LAI), que o cidadão assine digitalmente o formulário utilizando obrigatoriamente um certificado digital pessoal no padrão ICP-Brasil (token A3 físico).  
 Considerando as regras sobre níveis de assinaturas eletrônicas previstas na Lei Federal nº 14.063/2020:  
 
@@ -411,10 +411,10 @@ Nos sistemas informatizados de auditoria governamental e processo eletrônico do
 ---
 
 ### Teste 543
-**(FCC - Auditor de Controle Externo / Redes e Infraestrutura)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** O TCE-GO necessita implementar um mecanismo de auditoria contínua em tempo real sobre os sistemas de liquidação de despesa da Secretaria da Fazenda Estadual. Para garantir que a comunicação máquina-a-máquina entre os clusters de microsserviços de ambos os órgãos ocorra com autenticidade mútua, integridade de ponta a ponta e sem risco de ataques do tipo *Man-in-the-Middle*, a melhor prática de engenharia de segurança é:  
 
-* **A)** Implementar o protocolo HTTP plano com envio do token de autorização na URL como parâmetro de consulta (*query parameter*) considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **A)** Implementar o protocolo HTTP plano com envio do token de autorização na URL como parâmetro de consulta (*query parameter*).
 * **B)** Configurar autenticação mútua TLS (mTLS) utilizando certificados digitais X.509 em ambas as pontas da conexão, garantindo que o cliente e o servidor comprovem suas identidades criptograficamente e trafeguem os payloads cifrados com AES-GCM.
 * **C)** Restringir o acesso unicamente por meio de verificação de cabeçalho *Referer* na camada de aplicação.
 * **D)** Dispensar criptografia de transporte e utilizar chaves de API estáticas codificadas em Base64 em tráfego aberto.
@@ -438,13 +438,13 @@ Nos sistemas informatizados de auditoria governamental e processo eletrônico do
 ---
 
 ### Teste 544
-**(FCC - Tribunal de Contas - Auditor de TI - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** Em sistemas de processo eletrônico e repositórios digitais confiáveis de Tribunais de Contas, a preservação e a comprovação probatória de documentos a longo prazo exigem a adoção de padrões técnicos avançados. Acerca do Carimbo do Tempo (*Time Stamping*) e das políticas de assinatura digital de longo prazo, assinale a afirmativa correta:  
 
 * **A)** O Carimbo do Tempo emitido por uma Autoridade de Carimbo do Tempo (ACT) atesta com fé pública eletrônica a data e a hora exatas em que um documento foi assinado, assegurando a validade probatória mesmo após a expiração temporal do certificado digital do signatário.
 * **B)** O Carimbo do Tempo consiste unicamente no relógio interno do sistema operacional do computador do usuário, dispensando conexão com servidores oficiais.
 * **C)** Políticas de assinatura de longo prazo (como PAdES-LTV) são proibidas em órgãos de controle externo em razão de incompatibilidade com o formato PDF.
-* **D)** A expiração natural de um certificado digital anula retroativamente e torna ilícitos todos os acórdãos e relatórios emitidos legitimamente durante sua vigência considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **D)** A expiração natural de um certificado digital anula retroativamente e torna ilícitos todos os acórdãos e relatórios emitidos legitimamente durante sua vigência.
 * **E)** O carimbo do tempo pode ser gerado manualmente pelo próprio advogado mediante alteração das propriedades do arquivo no explorador de arquivos do Windows.
 
 

@@ -153,7 +153,7 @@ Monossílabos tônicos terminados em *-i* ou *-u* (*ti, vi, tu, cru, nus*) não 
 ---
 
 ### Teste 012
-**(FCC – TRT – Analista Judiciário)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere as seguintes palavras retiradas de um relatório de fiscalização contábil:  
 *relatório* – *órgão* – *auditoria* – *público* – *responsável*
 
@@ -243,7 +243,7 @@ O Novo Acordo Ortográfico eliminou a quase totalidade dos acentos diferenciais 
 ---
 
 ### Teste 013
-**(FCC – TCE-GO – Analista de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Avalie os seguintes grupos de vocábulos quanto à aplicação das regras especiais de acentuação gráfica do Acordo Ortográfico vigente:  
 
 I. *juízes*, *saúde*, *baú*, *balaústre*  
@@ -255,7 +255,7 @@ Está em total conformidade com as regras gramaticais o que se afirma em:
 * **A)** No grupo I, as palavras perdem o acento gráfico quando seguidas de consoante na mesma sílaba.
 * **B)** No grupo II, os vocábulos perderam o acento gráfico porque o Novo Acordo extinguiu a acentuação dos ditongos abertos (*éi*, *ói*) nas palavras paroxítonas, mantendo-o apenas nas oxítonas e monossílabos tônicos (*herói*, *pastéis*, *dói*).
 * **C)** No grupo III, as formas verbais *têm* e *vêm* recebem acento circunflexo na 3ª pessoa do singular e perdem o acento no plural.
-* **D)** O acento diferencial foi completamente abolido pelo Acordo Ortográfico em todas as palavras da língua portuguesa, sem nenhuma exceção considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **D)** O acento diferencial foi completamente abolido pelo Acordo Ortográfico em todas as palavras da língua portuguesa, sem nenhuma exceção.
 * **E)** Em *saúde* e *baú*, o acento gráfico justifica-se por serem paroxítonas terminadas em vogal temática.
 
 
@@ -351,7 +351,7 @@ Entretanto, o Acordo Ortográfico determinou o **fim do hífen nas locuções de
 ---
 
 ### Teste 014
-**(FCC – TRF – Analista Judiciário)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Quanto ao emprego do hífen em palavras formadas por derivação prefixal em consonância com o Acordo Ortográfico vigente, assinale a opção inteiramente correta:
 
 * **A)** anti-inflamatório, auto-escola, micro-ondas, hiper-resistente.
@@ -384,7 +384,7 @@ Quanto ao emprego do hífen em palavras formadas por derivação prefixal em con
 ---
 
 ### Teste 015
-**(FCC – DPE-RS – Analista Jurídico)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Assinale a opção em que todas as palavras estão grafadas em perfeita conformidade com as normas de emprego do hífen estabelecidas pelo Acordo Ortográfico:
 
 * **A)** auto-escola, anti-social, micro-ondas, semi-aberto.
@@ -476,7 +476,7 @@ Os parônimos são palavras muito semelhantes na grafia e na pronúncia, mas que
 ---
 
 ### Teste 016
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere os vocábulos destacados nas frases abaixo:  
 
 I. *"O plenário do Tribunal encerrou a <ins>sessão</ins> extraordinária às dezoito horas."*  
@@ -519,7 +519,7 @@ A grafia e o emprego semântico dos vocábulos sublinhados estão corretos em:
 ---
 
 ### Teste 017
-**(FCC – METRÔ-SP – Advogado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere as lacunas no seguinte texto administrativo:  
 *"O Tribunal Pleno realizou extraordinária __________ para deliberar sobre a __________ de uso de bem público imóvel aos servidores. O parecer técnico apontou risco __________ de desmoronamento estrutural na ala sul do edifício."*
 
@@ -604,7 +604,7 @@ São fonemas inseridos unicamente por imperativo de eufonia, isto é, para viabi
 ---
 
 ### Teste 018
-**(FCC – TCE-GO – Analista de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Assinale a alternativa em que ambos os vocábulos sublinhados são acentuados com fundamento na **mesma regra gramatical**:
 
 * **A)** *"O <ins>relatório</ins> do Tribunal contém dados sobre a <ins>renúncia</ins> de receita."*
@@ -724,7 +724,7 @@ Além dos processos clássicos, a língua recorre a outros expedientes formais:
 ---
 
 ### Teste 019
-**(FCC – AL-SP – Técnico Legislativo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em relação aos processos morfológicos de formação das palavras, assinale a alternativa em que a palavra destacada é formada por **derivação parassintética**:
 
 * **A)** *"A leitura do processo revelou a <ins>deslealdade</ins> do administrador perante o erário."*
@@ -749,7 +749,7 @@ Em relação aos processos morfológicos de formação das palavras, assinale a 
 ---
 
 ### Teste 020
-**(FCC – METRÔ-SP – Analista de Gestão)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O vocábulo formado por **derivação regressiva** (também denominada deverbal) encontra-se presente na frase:
 
 * **A)** *"O <ins>debate</ins> entre os candidatos à vaga de conselheiro prolongou-se pela madrugada."*
@@ -774,7 +774,7 @@ O vocábulo formado por **derivação regressiva** (também denominada deverbal)
 ---
 
 ### Teste 021
-**(FCC – TRT – Técnico Judiciário)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere os vocábulos destacados nas frases abaixo:  
 
 I. *"O **desembarque** da equipe de auditoria ocorreu nas primeiras horas da manhã."*  

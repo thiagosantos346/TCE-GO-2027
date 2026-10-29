@@ -105,13 +105,13 @@ Assistentes de desenvolvimento integrados à IDE operam combinando predição es
 ---
 
 ### Teste 139
-**(FCC - Padrão Concursos TI / Migração de Legado e Riscos Numéricos)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Ao utilizar um assistente de inteligência artificial para traduzir uma rotina crítica de apuração de tributos escrita em COBOL para a linguagem Java, a equipe de engenharia de software de uma Secretaria de Fazenda deve prestar atenção especial a qual das seguintes armadilhas de código frequentemente induzidas pelo modelo?  
 
 * **A)** O modelo recusar-se a criar métodos públicos por limitações de licença de software livre.
 * **B)** A substituição de variáveis com precisão decimal exata (`COMP-3` do COBOL) por tipos de ponto flutuante primitivos como `double` ou `float` em Java, causando erros cumulativos de arredondamento em cálculos de centavos e multas.
 * **C)** A conversão forçada de todo o código em scripts de inicialização de BIOS de hardware.
-* **D)** A exigência obrigatória de compilar o novo código Java utilizando exclusivamente placas aceleradoras de inteligência artificial na nuvem considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **D)** A exigência obrigatória de compilar o novo código Java utilizando exclusivamente placas aceleradoras de inteligência artificial na nuvem.
 * **E)** O bloqueio automático de conexões com bancos de dados relacionais padrão SQL.
 
 
@@ -130,12 +130,12 @@ Ao utilizar um assistente de inteligência artificial para traduzir uma rotina c
 ---
 
 ### Teste 140
-**(FCC – Inédita – Padrão TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Os motores modernos de completamento de código em IDEs operam frequentemente por meio de renderização de *Ghost Text* (código semitransparente sugerido à frente do cursor). Para que essas sugestões sejam relevantes e apresentem latência imperceptível ao programador (abaixo de 100ms), a arquitetura do motor deve:
 
 * **A)** Enviar o disco rígido inteiro compactado para a nuvem a cada caractere digitado.
 * **B)** Combinar modelos locais de baixa latência ou modelos em nuvem otimizados com a Árvore Sintática Abstrata (AST) do arquivo corrente, contexto das abas recentemente abertas e importações do projeto.
-* **C)** Exigir que o programador pressione um botão físico externo no gabinete do servidor a cada linha sugerida considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **C)** Exigir que o programador pressione um botão físico externo no gabinete do servidor a cada linha sugerida.
 * **D)** Substituir todas as bibliotecas do projeto por códigoAssembly não comentado.
 * **E)** Limitar o tamanho total do projeto a três funções matemáticas básicas.
 
@@ -205,14 +205,14 @@ A IA lê o conjunto completo de alterações (*diffs*) entre branches e sintetiz
 ---
 
 ### Teste 141
-**(FCC - Adaptada / TI - Revisão de Código Assistida por IA em CI/CD)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Uma equipe de desenvolvimento governamental decidiu integrar um agente de IA generativa ao fluxo de Integração Contínua (CI/CD) para realizar a revisão automática inicial (*automated code review*) de todos os *Pull Requests* antes da avaliação pelos pares técnicos.
 
 Considerando os benefícios e os cuidados dessa prática, é correto afirmar:  
 
 * **A)** A ferramenta de IA deve receber credenciais irrestritas de administrador do repositório para realizar o merge automático em produção sem necessidade de aprovação humana.
 * **B)** A IA atua com alta eficácia na detecção precoce de más práticas de formatação (*code smells*), violações óbvias de princípios SOLID e potenciais credenciais ou chaves expostas (*hardcoded secrets*), mas a análise humana é indispensável para validação arquitetural e conformidade com regras de negócio.
-* **C)** Para submeter os trechos de código do tribunal à API pública de revisão da IA, é dispensável qualquer verificação contratual sobre a política de privacidade e uso dos dados pelo provedor da ferramenta considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **C)** Para submeter os trechos de código do tribunal à API pública de revisão da IA, é dispensável qualquer verificação contratual sobre a política de privacidade e uso dos dados pelo provedor da ferramenta.
 * **D)** A revisão de código por IA torna obsoletos os linters estáticos tradicionais (como SonarQube ou ESLint), pois LLMs executam compilação binária determinística com menor custo computacional.
 * **E)** A IA deve ser configurada para rejeitar sumariamente qualquer *Pull Request* que contenha comentários explicativos ou docstrings, priorizando código não documentado.
 
@@ -232,7 +232,7 @@ Considerando os benefícios e os cuidados dessa prática, é correto afirmar:
 ---
 
 ### Teste 142
-**(Cebraspe – TRF/STJ – 2024/2025 – Adaptada para o padrão FCC)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Na revisão automatizada de código assistida por IA (*AI Code Review*), agentes inteligentes conseguem identificar anomalias semânticas e arquiteturais de nível superior que extrapolam as capacidades de linters tradicionais baseados em expressões regulares. Dentre essas anomalias de design, inclui-se a identificação de:
 
 * **A)** Violações do Princípio da Responsabilidade Única (SRP) do SOLID, caracterizadas por classes com métodos heterogêneos acumulando múltiplos motivos para mudar (*God Class*).
@@ -257,10 +257,10 @@ Na revisão automatizada de código assistida por IA (*AI Code Review*), agentes
 ---
 
 ### Teste 143
-**(FCC – Inédita – Padrão TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em pipelines de CI/CD que integram agentes de revisão de código por IA, a detecção de segredos e credenciais codificados diretamente no código (*hardcoded secrets*) é uma exigência inegociável de segurança da informação. Ao identificar uma chave de API ou senha em um Pull Request, a postura correta do agente e do pipeline é:
 
-* **A)** Comitar o segredo na branch principal e criar uma issue pública no GitHub divulgando a senha considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **A)** Comitar o segredo na branch principal e criar uma issue pública no GitHub divulgando a senha. em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **B)** Bloquear imediatamente o merge do Pull Request (*fail the build*), alertar o desenvolvedor para revogar e rotacionar a credencial comprometida e exigir a parametrização do segredo por meio de variáveis de ambiente ou cofre de segredos corporativo (*Secrets Manager*).
 * **C)** Enviar o segredo por e-mail para todos os usuários do sistema.
 * **D)** Desabilitar todos os mecanismos de autenticação do sistema corporativo.
@@ -306,11 +306,11 @@ Em vez de diagramas estáticos desenhados em ferramentas gráficas externas (que
 ---
 
 ### Teste 144
-**(Cebraspe – TRF/STJ – 2024/2025 – Adaptada para o padrão FCC)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No processo de modernização e documentação de sistemas legados de órgãos públicos que não possuem documentação formal de interface, agentes de IA podem realizar engenharia reversa do código-fonte de controladores (*controllers* e rotas) para gerar automaticamente:
 
 * **A)** Uma especificação OpenAPI 3.0 padronizada em formato YAML/JSON descrevendo rigorosamente endpoints, métodos HTTP, parâmetros de consulta, cabeçalhos, schemas de requisição e códigos de resposta esperados.
-* **B)** Um arquivo executável `.bat` que formata o sistema operacional do servidor de banco de dados considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **B)** Um arquivo executável `.bat` que formata o sistema operacional do servidor de banco de dados. em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **C)** Um contrato de prestação de serviços civis sem valor jurídico.
 * **D)** Novas licenças de software comercial sem pagamento de royalties.
 * **E)** Um relatório financeiro com as despesas pessoais do gestor de TI.
@@ -354,7 +354,7 @@ Ao identificar a causa-raiz de um incidente, a boa prática da engenharia de sof
 ---
 
 ### Teste 145
-**(FCC – Inédita – Padrão TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Durante a depuração de incidentes em produção, a análise de *Stack Traces* por assistentes de IA acelera significativamente a resolução de problemas críticos. Para que o diagnóstico seja assertivo e identifique a causa-raiz com precisão, a análise deve correlacionar a pilha de erro com:
 
 * **A)** O clima meteorológico da cidade onde se localiza o data center.
@@ -379,7 +379,7 @@ Durante a depuração de incidentes em produção, a análise de *Stack Traces* 
 ---
 
 ### Teste 146
-**(FCC - Padrão Concursos TI / Depuração e Root Cause Analysis com IA)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em um incidente de produção no qual um microsserviço de emissão de guias de recolhimento apresenta travamento intermitente por esgotamento de conexões com o banco de dados (*connection pool exhaustion*), a equipe recorreu a um modelo de IA para auxiliar na depuração através da análise dos logs de eventos e do código da aplicação.
 
 A respeito da atuação da IA no processo de depuração (*debugging*), assinale a afirmativa correta:  
@@ -388,7 +388,7 @@ A respeito da atuação da IA no processo de depuração (*debugging*), assinale
 * **B)** A IA altera os servidores físicos da infraestrutura em tempo real sem emitir registros nos logs de auditoria.
 * **C)** Ferramentas de IA são incapazes de analisar arquivos de log em formato texto estruturado como JSON ou Logstash.
 * **D)** O uso de IA para diagnóstico exime a necessidade de a equipe reproduzir o problema em ambientes de homologação.
-* **E)** Modelos de linguagem conseguem interceptar o fluxo elétrico das fontes de alimentação dos servidores para eliminar deadlocks considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **E)** Modelos de linguagem conseguem interceptar o fluxo elétrico das fontes de alimentação dos servidores para eliminar deadlocks.
 
 
 ---
@@ -476,7 +476,7 @@ flowchart LR
 ---
 
 ### Teste 147
-**(Cebraspe – TRF/STJ – 2024/2025 – Adaptada para o padrão FCC)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Ao utilizar assistentes de IA generativa para a criação automatizada de testes de software, engenheiros de controle de qualidade identificam com frequência a denominada *"Armadilha da Implementação Defeituosa"*. Essa falha metodológica crítica ocorre quando:
 
 * **A)** O modelo de linguagem recusa-se a gerar qualquer assertiva de teste unitário.
@@ -501,12 +501,12 @@ Ao utilizar assistentes de IA generativa para a criação automatizada de testes
 ---
 
 ### Teste 148
-**(FCC - Adaptada / TI - Geração de Testes com IA e Armadilhas)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Durante a fase de homologação de um módulo contábil no TCE-GO, um programador utilizou uma ferramenta de inteligência artificial generativa para gerar automaticamente uma suíte de testes unitários em JUnit a partir do código-fonte recém-escrito de uma classe de cálculo de multas.
 
 Ao analisar as práticas recomendadas e os riscos associados à geração de testes automatizados assistidos por IA, assinale a afirmativa correta:  
 
-* **A)** O uso de IA para testes dispensa totalmente a verificação humana das asserções (`assert`), já que modelos de linguagem possuem prova formal matemática de corretude lógica considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **A)** O uso de IA para testes dispensa totalmente a verificação humana das asserções (`assert`), já que modelos de linguagem possuem prova formal matemática de corretude lógica. em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **B)** A ferramenta de IA é incapaz de testar casos de borda (*edge cases*), limitando-se unicamente ao caminho feliz (*happy path*) pré-definido pelo framework de teste.
 * **C)** Um dos principais riscos da geração de testes com base apenas no código existente é o teste da implementação em vez do comportamento pretendido: se o código possuir um bug na fórmula matemática, a IA pode gerar testes que asseveram o resultado incorreto como sendo o esperado, perpetuando o defeito.
 * **D)** Testes unitários gerados por IA tornam desnecessárias as etapas subsequentes de testes de integração, testes de carga e testes de segurança da aplicação.
@@ -528,7 +528,7 @@ Ao analisar as práticas recomendadas e os riscos associados à geração de tes
 ---
 
 ### Teste 149
-**(FCC - Padrão Concursos TI / Avaliação de Qualidade com Testes de Mutação)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Para aferir a real qualidade de uma suite de testes unitários sintetizada por uma ferramenta de IA generativa, um arquiteto de software sugeriu a aplicação de Testes de Mutação (*Mutation Testing*).
 
 O princípio básico dos Testes de Mutação para validar a eficácia da suíte de testes gerada pela IA consiste em:  
@@ -536,7 +536,7 @@ O princípio básico dos Testes de Mutação para validar a eficácia da suíte 
 * **A)** Modificar os testes até que a taxa de cobertura de código atinja exatamente 200%.
 * **B)** Introduzir modificações sintáticas pontuais e deliberadas no código-fonte sob teste (mutantes), verificando se a suíte de testes é capaz de falhar ao executá-los; caso os testes continuem passando mesmo com as alterações defeituosas no código, evidencia-se a ineficácia das asserções dos testes gerados.
 * **C)** Treinar um novo modelo de IA que substitui todo o código da aplicação por scripts em shell script.
-* **D)** Validar unicamente a velocidade de inicialização do sistema operacional da máquina onde o teste é executado considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **D)** Validar unicamente a velocidade de inicialização do sistema operacional da máquina onde o teste é executado.
 * **E)** Comparar a quantidade de caracteres do código com o tamanho do disco rígido da estação de trabalho.
 
 

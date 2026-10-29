@@ -88,7 +88,7 @@ flowchart TD
 ---
 
 ### Teste 370
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Determinado Tribunal de Contas publicou seu Plano Estratégico com os seguintes enunciados institucionais:
 
 I. "Garantir a adequada aplicação dos recursos públicos em benefício da sociedade por meio do controle externo tempestivo e orientador."  
@@ -119,14 +119,14 @@ Nos termos da teoria do planejamento estratégico, os enunciados I e II correspo
 ---
 
 ### Teste 371
-**(FCC – DPE-RS – Analista: Área Administrativa)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Ao formular seu planejamento plurianual, determinada defensoria pública incluiu expressamente em seu documento diretor os seguintes postulados: "Independência funcional, defesa irrestrita dos direitos humanos, transparência e urbanidade no atendimento aos cidadãos vulneráveis". Sob a perspectiva da teoria da administração estratégica, esses postulados representam:
 
 * **A)** A Visão de futuro da defensoria para os próximos dez anos.
 * **B)** As Metas táticas quantitativas dos núcleos regionais.
 * **C)** Os Valores institucionais que norteiam as condutas e estabelecem balizas éticas indeclináveis.
 * **D)** As Estratégias não realizadas do exercício anterior.
-* **E)** As Oportunidades captadas no ambiente externo através da análise PESTEL no âmbito da administração pública direta e indireta.
+* **E)** As Oportunidades captadas no ambiente externo através da análise PESTEL.
 
 
 ---
@@ -144,13 +144,13 @@ Ao formular seu planejamento plurianual, determinada defensoria pública incluiu
 ---
 
 ### Teste 372
-**(FCC - Adaptada / Analista de Planejamento e Gestão)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na definição da identidade corporativa e do referencial estratégico de um órgão de controle externo, a **Visão de Futuro** diferencia-se da **Missão Institucional** por:
 
 * **A)** Descrever a imagem mental do estado futuro desejado que a instituição almeja alcançar em determinado horizonte temporal (onde queremos chegar), enquanto a Missão define a razão de existir fundamental e o propósito perene de atuação presente do órgão (quem somos e para que servimos).
 * **B)** Estabelecer os princípios éticos inegociáveis que regem a conduta disciplinar dos servidores concursados.
 * **C)** Consistir em documento sigiloso e restrito à apreciação do Presidente do Tribunal.
-* **D)** Ter validade perpétua e imutável que não admite revisão nem mesmo em novos ciclos plurianuais de planejamento considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **D)** Ter validade perpétua e imutável que não admite revisão nem mesmo em novos ciclos plurianuais de planejamento.
 * **E)** Focar exclusivamente na redução percentual dos gastos de custeio com passagens aéreas e combustíveis.
 
 
@@ -191,7 +191,7 @@ flowchart TD
 ---
 
 ### Teste 373
-**(FCC - Adaptada / Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Henry Mintzberg, ao analisar a formação das estratégias organizacionais, contrapôs o modelo puramente racional e deliberado ao surgimento de estratégias não previstas.
 
 Segundo Mintzberg, a **Estratégia Emergente** caracteriza-se por:
@@ -199,7 +199,7 @@ Segundo Mintzberg, a **Estratégia Emergente** caracteriza-se por:
 * **A)** Surgir a partir de padrões consistentes de ação que emergem espontaneamente ao longo do tempo, em resposta a contingências, oportunidades e desafios imprevistos do ambiente, sem terem sido formalmente intencionadas no plano estratégico original.
 * **B)** Ser minuciosamente calculada pela alta administração em planos operacionais plurianuais de dez anos.
 * **C)** Exigir autorização prévia em emenda parlamentar na Lei de Diretrizes Orçamentárias.
-* **D)** Representar a parte do plano estratégico formal que foi integralmente abandonada e descartada pela equipe (*estratégia não realizada*) considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **D)** Representar a parte do plano estratégico formal que foi integralmente abandonada e descartada pela equipe (*estratégia não realizada*).
 * **E)** Constituir violação do princípio da legalidade administrativa suscetível de anulação sumária.
 
 
@@ -242,7 +242,7 @@ flowchart LR
 ---
 
 ### Teste 374
-**(FCC – TRT-2ª Região – Analista Judiciário: Área Administrativa)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 De acordo com os conceitos desenvolvidos por Henry Mintzberg sobre a dinâmica da formulação e implementação estratégica, as ações e padrões de conduta que emergem espontaneamente na rotina operacional da organização, sem terem sido previamente previstos no plano formal deliberado pela cúpula, são denominadas:
 
 * **A)** Estratégias Pretendidas.
@@ -267,7 +267,7 @@ De acordo com os conceitos desenvolvidos por Henry Mintzberg sobre a dinâmica d
 ---
 
 ### Teste 375
-**(FCC - Adaptada / Analista de Planejamento e Controle)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na clássica obra *Safári de Estratégia*, Henry Mintzberg, Bruce Ahlstrand e Joseph Lampel classificam o pensamento estratégico em dez escolas, agrupadas em **Prescritivas** e **Descritivas**.
 
 Constitui uma escola de natureza tipicamente **Prescritiva** (normativa), voltada para prescrever *como a estratégia deve ser idealmente formulada*:
@@ -276,7 +276,7 @@ Constitui uma escola de natureza tipicamente **Prescritiva** (normativa), voltad
 * **B)** A Escola do Aprendizado (que vê a estratégia como um processo emergente e contínuo de experimentação).
 * **C)** A Escola do Poder (que compreende a estratégia como um processo de negociação e disputas políticas entre grupos).
 * **D)** A Escola Cultural (que enxerga a formação da estratégia como um processo coletivo enraizado em valores e crenças).
-* **E)** A Escola Ambiental (que trata a estratégia como uma resposta passiva e reativa às pressões ecológicas do contexto externo) no âmbito da administração pública direta e indireta.
+* **E)** A Escola Ambiental (que trata a estratégia como uma resposta passiva e reativa às pressões ecológicas do contexto externo).
 
 
 ---
@@ -324,13 +324,13 @@ flowchart TD
 ---
 
 ### Teste 376
-**(FCC – ARTESP – Especialista em Regulação de Transportes)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Dentre as dez escolas do pensamento estratégico catalogadas na obra *Safári de Estratégia*, a Escola do Design destaca-se historicamente por defender que a estratégia deve ser concebida por meio de:
 
 * **A)** Ensaios laboratoriais e simulações estocásticas operadas por inteligência artificial.
 * **B)** Um processo deliberado de ajuste e adequação mútua entre as capacidades internas da organização (forças e fraquezas) e as condições do ambiente externo (oportunidades e ameaças).
 * **C)** Jogos de barganha política e manobras coercitivas promovidas por sindicatos corporativos.
-* **D)** Respostas puramente passivas e reativas ditadas pelas forças demográficas e climáticas do ambiente ecológico em estrita conformidade com as normas legais e regulamentares aplicáveis.
+* **D)** Respostas puramente passivas e reativas ditadas pelas forças demográficas e climáticas do ambiente ecológico.
 * **E)** Vieses cognitivos inconscientes e restrições biológicas da capacidade de memória dos diretores executivos.
 
 
@@ -368,10 +368,10 @@ Dentre as dez escolas do pensamento estratégico catalogadas na obra *Safári de
 ---
 
 ### Teste 377
-**(FCC – TCE-RS – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em sua clássica taxonomia do pensamento estratégico exposta no livro *Safári de Estratégia*, Henry Mintzberg e colaboradores classificam as escolas da estratégia em prescritivas e descritivas. Dentre as escolas prescritivas, aquela que concebe a formulação estratégica como um processo analítico formal, decomposto em etapas sequenciais rígidas e operado prioritariamente por técnicos e analistas de planejamento, é a:
 
-* **A)** Escola do Aprendizado no âmbito da administração pública direta e indireta.
+* **A)** Escola do Aprendizado.
 * **B)** Escola do Planejamento.
 * **C)** Escola Empreendedora.
 * **D)** Escola Cultural.
@@ -393,11 +393,11 @@ Em sua clássica taxonomia do pensamento estratégico exposta no livro *Safári 
 ---
 
 ### Teste 378
-**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na elaboração do planejamento estratégico, a formulação dos **Valores Organizacionais** representa:
 
 * **A)** O conjunto de princípios, crenças fundamentais e padrões éticos de conduta compartilhados que orientam as decisões institucionais e definem as relações da organização com seus membros, parceiros e com a sociedade.
-* **B)** A estimativa do saldo orçamentário líquido da conta de capital no final de cada quadrimestre fiscal considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **B)** A estimativa do saldo orçamentário líquido da conta de capital no final de cada quadrimestre fiscal.
 * **C)** O cálculo do retorno econômico sobre os investimentos em obras rodoviárias estaduais.
 * **D)** A lista taxativa das penalidades disciplinares de demissão constantes do estatuto funcional.
 * **E)** O montante financeiro total de multas imputadas aos jurisdicionados pelo Tribunal de Contas.
@@ -415,7 +415,7 @@ Na elaboração do planejamento estratégico, a formulação dos **Valores Organ
 ---
 
 ### Teste 379
-**(FCC - Adaptada / TCE-GO - Analista de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 O ciclo integrado de gestão estratégica nas organizações públicas envolve etapas encadeadas para garantir que as decisões não se restrinjam a documentos formais engavetados.
 
 A etapa do ciclo em que a alta direção e os comitês de governança comparam periodicamente o avanço real dos indicadores frente às metas estipuladas, promovendo os ajustes necessários no plano, denomina-se:

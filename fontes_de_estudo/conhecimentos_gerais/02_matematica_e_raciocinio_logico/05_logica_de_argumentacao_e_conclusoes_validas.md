@@ -114,7 +114,7 @@ A condicional $p \rightarrow q$ é a estrutura que mais induz candidatos a erro.
 ---
 
 ### Teste 112
-**(FCC – TRT-23 – Analista Judiciário)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere as seguintes frases:  
 
 I. *"O Tribunal de Contas fiscaliza a execução orçamentária dos municípios goianos."*  
@@ -148,7 +148,7 @@ De acordo com os princípios da lógica clássica proposicional, classifica-se c
 ---
 
 ### Teste 113
-**(FCC – TCE-GO – Analista de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A negação lógica da proposição composta:  
 *"Se o auditor encontra irregularidades nas contas, então o gestor público é multado e a prestação de contas é reprovada"*  
 é formulada corretamente por:
@@ -229,7 +229,7 @@ A FCC explora intensamente duas formas canônicas de reescrever a condicional $p
 ---
 
 ### Teste 114
-**(FCC – Auditor Fiscal da Receita – Adaptada TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere a seguinte afirmação feita por um auditor durante a sessão do Tribunal de Contas:
 
 *"Se a prestação de contas foi apresentada tempestivamente, então a documentação comprobatória é idônea e o parecer técnico é favorável."*
@@ -275,7 +275,7 @@ A negação lógica dessa afirmação é expressa por:
 ---
 
 ### Teste 115
-**(FCC – TCE-GO – Técnico de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Do ponto de vista da lógica formal, a proposição:  
 *"Se o servidor público observa o princípio da moralidade, então sua conduta administrativa é inatacável"*  
 é logicamente equivalente a:
@@ -315,7 +315,7 @@ Do ponto de vista da lógica formal, a proposição:
 ---
 
 ### Teste 116
-**(FCC – DPE-RS – Analista)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Dadas duas proposições simples $p$ e $q$, a proposição composta:  
 $$[(p \rightarrow q) \land p] \rightarrow q$$  
 classifica-se logicamente como uma:
@@ -387,7 +387,7 @@ O método prático para resolver questões com múltiplas premissas condicionais
 ---
 
 ### Teste 117
-**(FCC – TCE-GO – Analista de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere verdadeiras as seguintes quatro premissas a respeito das rotinas de controle do Tribunal:
 
 I. Se o contrato administrativo possui cláusula de reajuste abusiva, então a auditoria emite notificação prévia.  
@@ -442,7 +442,7 @@ A partir dessas premissas, é correto concluir de forma necessariamente válida 
 ---
 
 ### Teste 118
-**(FCC – METRÔ-SP – Analista)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere verdadeiras as seguintes premissas:  
 1. *Se o certame é homologado, então os concursados são nomeados.*  
 2. *Se os concursados são nomeados, então novas vagas no plenário são preenchidas.*  
@@ -523,7 +523,7 @@ Para avaliar a validade de silogismos com premissas como *"Todo A é E"* e *"Alg
 ---
 
 ### Teste 119
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A afirmação *"Todos os relatórios elaborados pela comissão técnica continham recomendações aos municípios"* tem como **negação lógica** a proposição:
 
 * **A)** Nenhum relatório elaborado pela comissão técnica continha recomendações aos municípios.
@@ -561,7 +561,7 @@ A afirmação *"Todos os relatórios elaborados pela comissão técnica continha
 ---
 
 ### Teste 120
-**(FCC – TRT – Analista Judiciário)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere como verdadeiras as seguintes duas premissas a respeito dos membros de um tribunal:
 
 Premissa 1: *"Todos os auditores de controle externo são especialistas em finanças públicas."*  
@@ -601,7 +601,7 @@ A partir dessas premissas, é **necessariamente** correto concluir que:
 ---
 
 ### Teste 121
-**(FCC – TRT-14 – Analista Judiciário)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere que as seguintes premissas são verdadeiras:  
 1. *Todos os auditores de controle externo são servidores dedicados.*  
 2. *Alguns servidores dedicados são especialistas em tecnologia da informação.*  

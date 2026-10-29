@@ -143,10 +143,10 @@ flowchart LR
 ---
 
 ### Teste 214
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Na implementação de Infraestrutura como Código (IaC), as ferramentas podem adotar a abordagem declarativa ou a abordagem imperativa. A característica definidora do paradigma **declarativo** (adotado pelo Terraform e pelo Kubernetes) estabelece que o engenheiro:
 
-* **A)** Descreve uma sequência detalhada e linear de comandos com laços e desvios condicionais que o sistema operacional deve executar passo a passo até a conclusão considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **A)** Descreve uma sequência detalhada e linear de comandos com laços e desvios condicionais que o sistema operacional deve executar passo a passo até a conclusão.
 * **B)** Especifica o estado final desejado da infraestrutura ("o quê"), cabendo ao motor da ferramenta calcular automaticamente as diferenças e aplicar as ações necessárias de criação, modificação ou destruição para convergir a infraestrutura real ao estado declarado.
 * **C)** Exige que a infraestrutura seja reconfigurada manualmente pela interface gráfica a cada novo deploy.
 * **D)** Só permite o provisionamento de servidores desprovidos de conexão de rede.
@@ -168,13 +168,13 @@ Na implementação de Infraestrutura como Código (IaC), as ferramentas podem ad
 ---
 
 ### Teste 215
-**(FCC - Adaptada / TI - Fundamentos de IaC, Idempotência e Drift)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Uma equipe de governança de TI de uma Secretaria de Fazenda está auditando a conformidade dos processos de implantação de infraestrutura em nuvem pública. Durante a auditoria, foram avaliados os conceitos de Idempotência, Abordagem Declarativa e Desvio de Configuração (*Configuration Drift*).
 
 A respeito desses conceitos fundamentais de Infraestrutura como Código (IaC), assinale a afirmativa correta:  
 
 * **A)** A idempotência significa que cada execução de um arquivo de IaC adiciona cumulativamente um novo conjunto de instâncias duplicadas no provedor de nuvem.
-* **B)** O paradigma declarativo obriga o administrador a especificar detalhadamente cada uma das chamadas de API, laços `for` e condicionais imperativas que a infraestrutura deve seguir para criar cada componente em estrita conformidade com as normas legais e regulamentares aplicáveis.
+* **B)** O paradigma declarativo obriga o administrador a especificar detalhadamente cada uma das chamadas de API, laços `for` e condicionais imperativas que a infraestrutura deve seguir para criar cada componente.
 * **C)** O desvio de configuração (*Configuration Drift*) ocorre quando recursos de infraestrutura em produção são modificados manualmente fora do controle do código de IaC, criando discrepâncias entre o estado real da nuvem e o estado definido nos manifestos versionados.
 * **D)** Ferramentas de IaC declarativas como o Terraform não são capazes de identificar recursos que foram alterados manualmente por operadores técnicos.
 * **E)** A idempotência aplica-se exclusivamente a bancos de dados relacionais NoSQL, sendo inaplicável a sistemas operacionais e regras de firewall em nuvem.
@@ -195,12 +195,12 @@ A respeito desses conceitos fundamentais de Infraestrutura como Código (IaC), a
 ---
 
 ### Teste 216
-**(FCC - Adaptada / TI - Infraestrutura Mutável vs. Imutável)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No âmbito das práticas de DevOps e entrega contínua, o debate entre **Infraestrutura Mutável** e **Infraestrutura Imutável** é frequentemente ilustrado pela analogia *"Pets vs. Cattle"* (Animais de Estimação vs. Gado).
 
 A esse respeito, assinale a opção que descreve corretamente a abordagem de **Infraestrutura Imutável**:  
 
-* **A)** Os servidores recebem identificadores fixos e poéticos, e quando um pacote precisa de atualização de segurança, técnicos conectam via SSH para aplicar o patch diretamente na máquina ativa no âmbito da administração pública direta e indireta.
+* **A)** Os servidores recebem identificadores fixos e poéticos, e quando um pacote precisa de atualização de segurança, técnicos conectam via SSH para aplicar o patch diretamente na máquina ativa.
 * **B)** Quando uma modificação ou nova versão do software precisa ser implantada, uma nova imagem ou contêiner contendo toda a pilha atualizada é instanciada para substituir os componentes antigos, os quais são prontamente descartados e destruídos.
 * **C)** Os servidores tornam-se servidores "Snowflake", acumulando configurações históricas manuais que impedem que o ambiente seja replicado a partir do zero.
 * **D)** As instâncias nunca podem ser desligadas sob qualquer hipótese, exigindo replicação física de hardware para garantir a imutabilidade do silício.
@@ -300,7 +300,7 @@ output "vpc_id" {
 ---
 
 ### Teste 217
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O Terraform utiliza a linguagem declarativa HCL (*HashiCorp Configuration Language*). No manifesto HCL, o bloco utilizado especificamente para consultar e extrair informações de recursos que já existem previamente na nuvem (sem gerenciá-los diretamente como novas criações do código corrente) é o bloco:
 
 * **A)** `resource`
@@ -325,10 +325,10 @@ O Terraform utiliza a linguagem declarativa HCL (*HashiCorp Configuration Langua
 ---
 
 ### Teste 218
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em ambientes corporativos onde múltiplos engenheiros colaboram nos mesmos manifestos de infraestrutura Terraform, a configuração de um *Remote Backend* com suporte a *State Locking* (travamento de estado) é mandatória. A razão técnica precípua do *State Locking* consiste em:
 
-* **A)** Impedir que o código-fonte Terraform seja lido por engenheiros que utilizam o sistema operacional Linux considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **A)** Impedir que o código-fonte Terraform seja lido por engenheiros que utilizam o sistema operacional Linux. em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **B)** Prevenir a corrupção do arquivo de estado (`terraform.tfstate`) decorrente de execuções concorrentes de comandos `terraform apply`, travando o estado com uma chave exclusiva enquanto uma operação de escrita estiver em andamento.
 * **C)** Bloquear todas as portas de firewall da nuvem permanentemente.
 * **D)** Acelerar a velocidade de download de imagens Docker em 500%.
@@ -350,12 +350,12 @@ Em ambientes corporativos onde múltiplos engenheiros colaboram nos mesmos manif
 ---
 
 ### Teste 219
-**(FCC - Adaptada / TI - Terraform: Ciclo de Vida e Arquivo de Estado)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Considere o fluxo operacional do Terraform ao gerenciar recursos em um provedor de nuvem pública. Um engenheiro de software concluiu alterações em um arquivo `main.tf` e necessita avaliar o impacto das alterações sem aplicá-las efetivamente na nuvem, além de garantir que nenhum outro colega de equipe corrompa o arquivo de estado executando operações simultâneas.
 
 Os mecanismos e comandos do Terraform relacionados a essas necessidades são, respectivamente:  
 
-* **A)** O comando `terraform destroy` para simular as alterações; e o arquivo `.gitignore` para bloquear o acesso concorrente em estrita conformidade com as normas legais e regulamentares aplicáveis.
+* **A)** O comando `terraform destroy` para simular as alterações; e o arquivo `.gitignore` para bloquear o acesso concorrente.
 * **B)** O comando `terraform plan` para visualizar a prévia das ações planejadas; e o mecanismo de *State Locking* configurado no backend remoto para garantir controle de concorrência.
 * **C)** O comando `terraform init` para aplicar as alterações; e a exclusão definitiva do arquivo `terraform.tfstate`.
 * **D)** O comando `terraform apply -force` para simulação; e o uso de servidores FTP locais compartilhados.
@@ -472,11 +472,11 @@ A prática de ponta em engenharia de plataforma e DevOps preconiza a combinaçã
 ---
 
 ### Teste 220
-**(FCC - Adaptada / TI - Gerenciamento de Configuração: Ansible vs. Puppet vs. Chef)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No que diz respeito à arquitetura operacional e aos modelos de comunicação das ferramentas líderes de gerenciamento automatizado de configuração (Ansible, Puppet e Chef), assinale a afirmativa correta:  
 
 * **A)** O Ansible exige a instalação prévia de um agente residente em segundo plano (*daemon*) em cada nó gerenciado para receber as diretivas via protocolo Telnet desprotegido.
-* **B)** O Puppet e o Chef utilizam tipicamente o modelo de comunicação *Push*, no qual o servidor central empurra compulsoriamente os comandos para os clientes sem a presença de daemons locais no âmbito da administração pública direta e indireta.
+* **B)** O Puppet e o Chef utilizam tipicamente o modelo de comunicação *Push*, no qual o servidor central empurra compulsoriamente os comandos para os clientes sem a presença de daemons locais.
 * **C)** O Ansible adota uma arquitetura *agentless* (sem agente) e opera com base no modelo *Push*, comunicando-se com os nós de destino por meio de canais padrão de comunicação segura (como SSH em hosts Linux e WinRM em hosts Windows).
 * **D)** O Puppet rejeita arquivos declarativos, utilizando scripts imperativos puramente compilados em linguagem C++ para orquestrar as máquinas virtuais.
 * **E)** O Chef é escrito exclusivamente em arquivos binários fechados, sendo impossível customizar suas receitas com linguagens de script.
@@ -497,10 +497,10 @@ No que diz respeito à arquitetura operacional e aos modelos de comunicação da
 ---
 
 ### Teste 221
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Entre as principais ferramentas de gerenciamento de configuração de servidores na cultura DevOps, o Ansible diferencia-se historicamente de ferramentas como Puppet e Chef por adotar uma arquitetura:
 
-* **A)** Baseada em agentes locais pesados instalados em todos os servidores alvos operando em modelo *pull* considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
+* **A)** Baseada em agentes locais pesados instalados em todos os servidores alvos operando em modelo *pull*. considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
 * **B)** Sem agentes (*Agentless*), operando em modelo *push* no qual o nó de controle conecta-se aos nós gerenciados via protocolo SSH padrão (ou WinRM no Windows) e executa módulos descritos em manifestos YAML (*Playbooks*), dispensando a manutenção de daemons residentes nos nós alvos.
 * **C)** Que só permite o gerenciamento de servidores baseados no sistema operacional MS-DOS.
 * **D)** Totalmente dependente de conexão física com cabos seriais RS-232.
@@ -522,7 +522,7 @@ Entre as principais ferramentas de gerenciamento de configuração de servidores
 ---
 
 ### Teste 222
-**(FCC - Adaptada / TI - Componentes do Ansible: Playbooks, Handlers e Inventário)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Considere o seguinte trecho simplificado de automação em Ansible:
 
 ```yaml
@@ -553,7 +553,7 @@ A respeito da execução desse *Playbook* e do comportamento de seus componentes
 * **A)** Se o arquivo de template `nginx.conf.j2` não contiver alterações em relação ao arquivo já existente no nó remoto, a tarefa reportará o status `ok` (sem modificações), o evento `notify` não disparará o handler e o serviço Nginx **não** será reiniciado.
 * **B)** O handler `Reiniciar o Nginx` será executado compulsoriamente dez vezes no início do playbook antes da instalação do pacote `nginx`.
 * **C)** A diretiva `hosts: webservers` indica que o playbook será executado exclusivamente no nó de controle local, ignorando o arquivo de inventário.
-* **D)** O parâmetro `state: present` no módulo `apt` força a reinstalação do Nginx mesmo se o pacote já estiver presente na versão correta, violando a idempotência considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **D)** O parâmetro `state: present` no módulo `apt` força a reinstalação do Nginx mesmo se o pacote já estiver presente na versão correta, violando a idempotência.
 * **E)** A sintaxe desse arquivo é codificada em JSON estrito, sendo incompatível com a linguagem YAML.
 
 
@@ -572,13 +572,13 @@ A respeito da execução desse *Playbook* e do comportamento de seus componentes
 ---
 
 ### Teste 223
-**(FCC – TCE – Auditor de Controle Externo / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Na arquitetura de entrega contínua moderna de infraestrutura, a sinergia entre ferramentas de provisionamento e ferramentas de gerenciamento de configuração é amplamente recomendada pela divisão de papéis:
 
 * **A)** O Ansible deve ser usado para criar switches físicos e o Terraform para formatar pen drives.
 * **B)** O Terraform é a ferramenta ideal para o provisionamento e ciclo de vida da infraestrutura básica (redes VPC, sub-redes, instâncias de VM, clusters Kubernetes e storages gerenciados), ao passo que o Ansible atua na etapa subsequente para gerenciar a configuração interna dos servidores (instalação de pacotes, usuários, arquivos de configuração e serviços do sistema operacional).
 * **C)** O uso combinado de Terraform e Ansible é estritamente proibido pelos padrões de arquitetura de nuvem pública.
-* **D)** O Terraform só pode ser utilizado se todos os servidores forem mantidos em infraestrutura local própria (*on-premise*) considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **D)** O Terraform só pode ser utilizado se todos os servidores forem mantidos em infraestrutura local própria (*on-premise*).
 * **E)** Ambas as ferramentas devem ser substituídas permanentemente pela edição manual de arquivos no bloco de notas.
 
 

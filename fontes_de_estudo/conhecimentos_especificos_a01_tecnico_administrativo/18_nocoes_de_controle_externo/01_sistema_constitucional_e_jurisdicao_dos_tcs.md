@@ -123,7 +123,7 @@ flowchart TD
 ---
 
 ### Teste 165
-**(FGV – TCE – Auditor de Controle Externo - 2024)**  
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**  
 Em um Tribunal de Contas Estadual havia sete conselheiros, sendo quatro nomeados pela Assembleia Legislativa e três nomeados pelo Governador do Estado com aprovação do parlamento estadual. Surgida vaga de conselheiro reservada ao Poder Executivo estadual, o Governador pretende nomear membro do Ministério Público de Contas para ocupar a respectiva vaga.  
 À luz do modelo constitucional de composição dos Tribunais de Contas dos Estados (art. 73, § 2º c/c art. 75 da CF/88), a pretensão governamental:
 
@@ -146,7 +146,7 @@ Em um Tribunal de Contas Estadual havia sete conselheiros, sendo quatro nomeados
 > **Gabarito: E**
 
 ### Teste 166
-**(FGV – TCE – Auditor de Controle Externo - 2024)**  
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**  
 A NBASP 50 - Princípios de Atividades Jurisdicionais dos Tribunais de Contas desenvolve princípios fundamentais aplicáveis às Cortes que exercem função judicante sobre a responsabilidade de gestores. Considere as seguintes afirmativas:
 
 I. O Tribunal de Contas deve ser dotado de garantias legais e institucionais que assegurem independência e autonomia a seus membros.  
@@ -174,7 +174,7 @@ Está correto o que se afirma em:
 > **Gabarito: B**
 
 ### Teste 167
-**(FGV – TCE – Analista de Controle Externo - 2024)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Certo Tribunal de Contas, no âmbito de sua competência fiscalizatória, realizou uma Tomada de Contas Especial para apurar eventuais danos causados ao patrimônio público em decorrência de irregularidades graves na execução de convênio com repasse de verbas públicas firmado pelo Município. Ao final da instrução processual, apurou-se a responsabilidade direta do Prefeito na má aplicação dos recursos repassados.  
 Considerando a jurisprudência vinculante do Supremo Tribunal Federal (Temas 157 e 835) e o regime de controle externo, é correto afirmar que:
 
@@ -197,7 +197,7 @@ Considerando a jurisprudência vinculante do Supremo Tribunal Federal (Temas 157
 > **Gabarito: B**
 
 ### Teste 168
-**(FCC – TCE-GO – Analista de Controle Externo - 2009)**  
+**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**  
 Sobre as disposições constitucionais referentes ao controle externo das entidades públicas (art. 71 da CF/88), é correto afirmar:
 
 * **A)** O Tribunal de Contas tem competência para apreciar a legalidade de atos de admissão de pessoal a qualquer título.
@@ -219,7 +219,7 @@ Sobre as disposições constitucionais referentes ao controle externo das entida
 > **Gabarito: B**
 
 ### Teste 169
-**(FCC – Analista de Controle Externo / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito da natureza jurídica e do alcance da jurisdição própria dos Tribunais de Contas no ordenamento jurídico brasileiro, analise as seguintes afirmações:
 
 * **A)** A jurisdição dos Tribunais de Contas abrange apenas as autoridades do Executivo, excluindo o Judiciário e Legislativo.
@@ -241,7 +241,7 @@ A respeito da natureza jurídica e do alcance da jurisdição própria dos Tribu
 > **Gabarito: C**
 
 ### Teste 170
-**(FGV – TCE – Auditor de Controle Externo - 2025)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em razão da prática de ato danoso ao erário apurado em regular processo de auditoria, o Tribunal de Contas do Estado aplicou multa e imputou débito de ressarcimento a determinado gestor público que gerenciava verbas estaduais. Intimado regularmente, o responsável não efetuou o recolhimento das quantias nem interpôs recurso no prazo regimental.  
 Sobre a cobrança das quantias imputadas e a eficácia executiva do acórdão condenatório, é correto afirmar que:
 
@@ -264,7 +264,7 @@ Sobre a cobrança das quantias imputadas e a eficácia executiva do acórdão co
 > **Gabarito: B**
 
 ### Teste 171
-**(FCC – Procuradoria Legislativa / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No exercício da fiscalização contábil, financeira e orçamentária, os Tribunais de Contas deparam-se com atos administrativos e contratos irregulares praticados pelo Poder Executivo. A respeito dos procedimentos de sustação de atos e contratos, é correto afirmar:
 
 * **A)** A sustação de ato administrativo ilegal compete diretamente ao Tribunal de Contas se o órgão não adotar providências.
@@ -286,7 +286,7 @@ No exercício da fiscalização contábil, financeira e orçamentária, os Tribu
 > **Gabarito: A**
 
 ### Teste 172
-**(FGV – TCE-GO – Analista de Controle Externo - 2024)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A Constituição do Estado de Goiás e a Lei Orgânica do TCE-GO asseguram ao Tribunal de Contas do Estado prerrogativas institucionais indispensáveis ao pleno exercício de sua missão fiscalizatória. A respeito da autonomia do Tribunal de Contas, é correto afirmar que:
 
 * **A)** possui iniciativa de lei reservada para a criação e extinção de seus cargos e fixação de vencimentos.
@@ -308,7 +308,7 @@ A Constituição do Estado de Goiás e a Lei Orgânica do TCE-GO asseguram ao Tr
 > **Gabarito: A**
 
 ### Teste 173
-**(FCC – Auditor de Controle Externo / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No âmbito dos Tribunais de Contas, a figura dos Auditores (atualmente denominados Conselheiros Substitutos pela jurisprudência e legislação nacional) exerce atribuições fundamentais na instrução e julgamento de processos de contas. A respeito do seu estatuto constitucional, é correto afirmar:
 
 * **A)** Os Auditores são nomeados em comissão pelo Presidente da Corte dentre pessoas com formação de nível médio.
@@ -330,7 +330,7 @@ No âmbito dos Tribunais de Contas, a figura dos Auditores (atualmente denominad
 > **Gabarito: B**
 
 ### Teste 174
-**(FGV – TCE-GO – Analista de Controle Externo - 2024)**  
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**  
 A Lei nº 16.168, de 11 de dezembro de 2007, estabelece a Lei Orgânica do Tribunal de Contas do Estado de Goiás (LOTCE-GO), disciplinando sua jurisdição, competência e processo. À luz da LOTCE-GO, é correto afirmar que:
 
 * **A)** os responsáveis por contas de gestão que causarem prejuízo ao erário respondem solidariamente com seus subordinados.
@@ -352,7 +352,7 @@ A Lei nº 16.168, de 11 de dezembro de 2007, estabelece a Lei Orgânica do Tribu
 > **Gabarito: A**
 
 ### Teste 175
-**(FGV – Analista de Controle Externo / Auditoria / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O Supremo Tribunal Federal, ao julgar os Temas 897 e 899 de Repercussão Geral, fixou teses de grande impacto sobre a prescritibilidade das sanções e do ressarcimento ao erário nos Tribunais de Contas. De acordo com a jurisprudência vinculante do STF, é correto afirmar:
 
 * **A)** As ações de ressarcimento ao erário fundadas em decisões dos Tribunais de Contas são absolutamente imprescritíveis.

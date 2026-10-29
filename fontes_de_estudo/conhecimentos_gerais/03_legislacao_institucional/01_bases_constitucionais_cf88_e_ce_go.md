@@ -157,7 +157,7 @@ $$\text{Ato Administrativo (Comissivo)} + \text{Dano Efetivo} + \text{Nexo Causa
 ---
 
 ### Teste 122
-**(FCC – TCE-GO – Analista de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Nos termos do artigo 37, inciso XVI, e do artigo 38 da Constituição Federal de 1988, a respeito da acumulação remunerada de cargos públicos e do exercício de mandato eletivo por servidor público:
 
 * **A)** É permitida a acumulação remunerada de três cargos de professor, desde que comprovada a compatibilidade de horários.
@@ -182,7 +182,7 @@ Nos termos do artigo 37, inciso XVI, e do artigo 38 da Constituição Federal de
 ---
 
 ### Teste 123
-**(FCC – TRT – Área Judiciária)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Acerca do regime constitucional dos servidores públicos civis (artigos 37 a 41 da CF/88) e da responsabilidade civil do Estado, considere as seguintes afirmativas:
 
 I. O servidor público estável somente perderá o cargo em virtude de sentença judicial transitada em julgado ou mediante processo administrativo disciplinar no qual lhe seja assegurada ampla defesa, inexistindo qualquer outra hipótese constitucional de perda de cargo.  
@@ -215,7 +215,7 @@ Está correto o que se afirma APENAS em:
 ---
 
 ### Teste 124
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em matéria de responsabilidade civil da Administração Pública (art. 37, § 6º, da CF/88) e atuação de agentes públicos:
 
 * **A)** As pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos responderão pelos danos que seus agentes causarem a terceiros com base na teoria da culpa administrativa subjetiva em conformidade com as diretrizes e padrões de arquitetura corporativa.
@@ -315,7 +315,7 @@ Qualquer tentativa das Constituições Estaduais de inovar, restringir competên
 ---
 
 ### Teste 125
-**(FCC – TCE-GO – Analista de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No tocante ao controle externo exercido pelo Tribunal de Contas sobre os atos de pessoal e concessão de benefícios previdenciários (art. 71, III, da CF/88):
 
 * **A)** O registro de aposentadorias, reformas e pensões pelos Tribunais de Contas é ato meramente homologatório, não podendo a Corte de Contas recusar registro fundado em ilegalidade.
@@ -340,12 +340,12 @@ No tocante ao controle externo exercido pelo Tribunal de Contas sobre os atos de
 ---
 
 ### Teste 126
-**(FCC – TRT – Analista Judiciário)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Sobre o rito constitucional de fiscalização e sustação de atos e contratos administrativos disciplinado no artigo 71, incisos IX a XI e §§ 1º e 2º, da Constituição Federal:
 
 * **A)** Tanto a sustação de ato administrativo quanto a de contrato administrativo são atos privativos de competência originária e direta do Tribunal de Contas.
 * **B)** No caso de contrato administrativo com irregularidade grave, a competência para a sustação é primariamente do Congresso Nacional (ou Assembleia Legislativa), cabendo ao Tribunal de Contas decidir sobre a sustação caso o Poder Legislativo não se manifeste no prazo de 90 dias.
-* **C)** O Tribunal de Contas pode sustar imediatamente um contrato administrativo sem necessidade de qualquer prévia comunicação ao Poder Legislativo ou ao Poder Executivo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **C)** O Tribunal de Contas pode sustar imediatamente um contrato administrativo sem necessidade de qualquer prévia comunicação ao Poder Legislativo ou ao Poder Executivo. em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **D)** A sustação de ato administrativo impugnado pelo Tribunal de Contas depende sempre de prévia autorização da Assembleia Legislativa.
 * **E)** Se o Poder Legislativo sustar o contrato, o Tribunal de Contas deverá anular a decisão parlamentar no prazo de 30 dias.
 
@@ -367,7 +367,7 @@ Sobre o rito constitucional de fiscalização e sustação de atos e contratos a
 ---
 
 ### Teste 127
-**(FCC – TCE-AP – Técnico de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Nos termos do artigo 74 da Constituição Federal de 1988, os responsáveis pelo sistema de controle interno integrado dos Poderes Executivo, Legislativo e Judiciário têm a obrigação constitucional de:
 
 * **A)** Homologar judicialmente as decisões condenatórias exaradas pelo Tribunal de Contas no prazo improrrogável de quinze dias.
@@ -392,7 +392,7 @@ Nos termos do artigo 74 da Constituição Federal de 1988, os responsáveis pelo
 ---
 
 ### Teste 128
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito das normas constitucionais federais aplicáveis ao sistema de fiscalização contábil, financeira e orçamentária e da jurisprudência consolidada do Supremo Tribunal Federal, assinale a opção correta:
 
 * **A)** A competência para julgar as contas prestadas anualmente pelo Governador de Estado pertence ao respectivo Tribunal de Contas, o qual profere julgamento definitivo imune à revisão judicial de mérito.
@@ -485,12 +485,12 @@ Além das atribuições comuns simétricas ao art. 71 da CF, destacam-se prazos 
 ---
 
 ### Teste 129
-**(FCC – TCE-GO – Analista de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Segundo as normas da Constituição do Estado de Goiás que disciplinam a organização e o funcionamento do Tribunal de Contas do Estado de Goiás (TCE-GO), a escolha e a nomeação de seus Conselheiros submetem-se ao seguinte regramento:
 
 * **A)** Cinco Conselheiros são indicados e nomeados pela Assembleia Legislativa e dois pelo Governador do Estado com aprovação prévia do Tribunal de Justiça.
 * **B)** Quatro Conselheiros são indicados pela Assembleia Legislativa e três pelo Governador do Estado, com prévia aprovação legislativa, devendo dois destes últimos recair necessariamente sobre membros de carreira técnica (um Conselheiro Substituto e um membro do MPC-GO).
-* **C)** Todos os sete Conselheiros são livremente nomeados pelo Governador do Estado, cabendo à Assembleia Legislativa a fixação prévia de lista sêxtupla representativa considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **C)** Todos os sete Conselheiros são livremente nomeados pelo Governador do Estado, cabendo à Assembleia Legislativa a fixação prévia de lista sêxtupla representativa.
 * **D)** O Tribunal é composto por nove Conselheiros vitalícios, exigindo-se idade mínima de trinta anos e formação privativa em Ciências Contábeis ou Econômicas.
 * **E)** A vaga destinada aos membros do Ministério Público de Contas prescinde de lista tríplice, sendo o candidato nomeado por antiguidade absoluta apurada na carreira.
 
@@ -510,7 +510,7 @@ Segundo as normas da Constituição do Estado de Goiás que disciplinam a organi
 ---
 
 ### Teste 130
-**(FCC – DPE-RS – Analista Jurídico)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito das garantias constitucionais da magistratura atribuídas aos membros dos Tribunais de Contas pela Constituição da República de 1988 e reproduzidas nas Constituições Estaduais, os Conselheiros gozam de:
 
 * **A)** Estabilidade simples após aprovação em estágio probatório de três anos, sendo equiparados aos Procuradores de Estado.
@@ -535,12 +535,12 @@ A respeito das garantias constitucionais da magistratura atribuídas aos membros
 ---
 
 ### Teste 131
-**(FCC – Inédita – Padrão TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 De acordo com o artigo 30 da Constituição do Estado de Goiás e a jurisprudência sumulada do Supremo Tribunal Federal a respeito do Ministério Público de Contas (MPC):
 
 * **A)** O Ministério Público de Contas compõe ramo autônomo do Ministério Público do Estado de Goiás (MPE-GO), sendo chefiado pelo Procurador-Geral de Justiça do Estado.
 * **B)** O Ministério Público junto ao Tribunal de Contas do Estado de Goiás possui quadro próprio de membros, investidos por concurso público específico de provas e títulos, submetendo-se administrativamente à estrutura orgânica do Tribunal de Contas, sem personalidade jurídica própria.
-* **C)** Os Procuradores do MPC de Goiás não gozam das garantias de vitaliciedade, inamovibilidade e irredutibilidade de subsídios conferidas aos membros do Ministério Público comum considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **C)** Os Procuradores do MPC de Goiás não gozam das garantias de vitaliciedade, inamovibilidade e irredutibilidade de subsídios conferidas aos membros do Ministério Público comum. em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **D)** Compete ao Ministério Público de Contas ajuizar ações civis públicas perante o Poder Judiciário para cobrança de títulos executivos emitidos pelo TCE-GO.
 * **E)** O Procurador-Geral de Contas é livremente nomeado pelo Presidente do TCE-GO, sem participação do Governador do Estado.
 

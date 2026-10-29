@@ -308,12 +308,12 @@ Permite o processamento declarativo e funcional de coleções de dados:
 ---
 
 ### Teste 065
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Na Máquina Virtual Java (JVM), o gerenciamento de memória divide-se principalmente entre a memória *Stack* (Pilha) e a memória *Heap*. A respeito da organização e do ciclo de vida dos dados nessas áreas, é correto afirmar:
 
 * **A)** Todas as instâncias de objetos criadas via operador `new` são alocadas na memória *Heap*, enquanto as variáveis locais de tipos primitivos e as referências aos objetos residem na memória *Stack*.
 * **B)** A memória *Stack* é compartilhada por todas as threads da JVM, sendo limpa exclusivamente pelo *Garbage Collector*.
-* **C)** Os objetos instanciados na *Heap* são desalocados imediatamente no instante exato em que a chave de fechamento do método atual é executada em estrita conformidade com as normas legais e regulamentares aplicáveis.
+* **C)** Os objetos instanciados na *Heap* são desalocados imediatamente no instante exato em que a chave de fechamento do método atual é executada.
 * **D)** O *Garbage Collector* da JVM varre e gerencia a memória *Stack*, mas nunca atua sobre os objetos da *Heap*.
 * **E)** A memória *Heap* opera sob a política de primeiro a entrar, primeiro a sair (FIFO), impedindo o reaproveitamento de blocos liberados.
 
@@ -333,7 +333,7 @@ Na Máquina Virtual Java (JVM), o gerenciamento de memória divide-se principalm
 ---
 
 ### Teste 066
-**(FCC - Técnico de Controle Externo / TI)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na linguagem de programação Java, a respeito das palavras-chave de controle de acesso, modificadores de comportamento e tratamento da orientação a objetos, assinale a afirmativa correta:  
 
 * **A)** Um atributo declarado com o modificador `private` pode ser acessado diretamente por quaisquer subclasses pertencentes ao mesmo pacote da superclasse.
@@ -358,7 +358,7 @@ Na linguagem de programação Java, a respeito das palavras-chave de controle de
 ---
 
 ### Teste 067
-**(FCC - Auditor Fiscal / Tecnologia da Informação)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No ecossistema da linguagem Java, o tratamento robusto de erros baseia-se na hierarquia da classe `java.lang.Throwable`. A respeito da distinção entre *Checked Exceptions* (exceções checadas) e *Unchecked Exceptions* (exceções não checadas), assinale a afirmativa correta:  
 
 * **A)** Exceções filhas de `java.lang.RuntimeException`, como `NullPointerException` e `IllegalArgumentException`, são do tipo *Checked Exceptions* e exigem tratamento obrigatório com bloco `try-catch` em tempo de compilação.
@@ -410,10 +410,10 @@ try (BufferedReader br = new BufferedReader(new FileReader("auditoria.log"))) {
 ---
 
 ### Teste 068
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No *Java Collections Framework*, as três interfaces fundamentais de coleção (`List`, `Set` e `Map`) apresentam características estruturais distintas. A respeito dessas estruturas, é correto afirmar:
 
-* **A)** A interface `Set` permite armazenar elementos duplicados e garante a recuperação estrita na ordem exata de inserção em todas as suas implementações no âmbito da administração pública direta e indireta.
+* **A)** A interface `Set` permite armazenar elementos duplicados e garante a recuperação estrita na ordem exata de inserção em todas as suas implementações.
 * **B)** A interface `List` representa uma coleção ordenada que admite elementos duplicados e permite o acesso posicional aos elementos por meio de índices inteiros.
 * **C)** A classe `HashMap` proíbe o armazenamento de valores nulos e garante que as chaves fiquem automaticamente ordenadas alfabeticamente.
 * **D)** A classe `TreeSet` não exige que seus elementos implementem a interface `Comparable` ou utilizem um `Comparator`.
@@ -441,7 +441,7 @@ A evolução da especificação ECMAScript padronizou mecanismos determinístico
 
 | Característica | `var` | `let` | `const` |
 |---|---|---|---|
-| **Escopo** | **De Função** ou Global | **De Bloco** (`{ ... }`) | **De Bloco** (`{ ... }`) |
+| **Escopo** | **De Função** ou Global | **De Bloco** (`{ .. }`) | **De Bloco** (`{ .. }`) |
 | **Içamento (*Hoisting*)** | Sim (inicializada com `undefined`) | Sim (fica inacessível na TDZ) | Sim (fica inacessível na TDZ) |
 | **Zona Morta Temporal (TDZ)** | Não se aplica | Sim | Sim |
 | **Redeclaração no mesmo escopo** | Permitida | Erro de Sintaxe (*SyntaxError*) | Erro de Sintaxe (*SyntaxError*) |
@@ -499,14 +499,14 @@ const usuario = { nome: "Carlos", cargo: "Auditor", matricula: 9481 };
 const { nome, cargo } = usuario;
 
 // Desestruturação de Array com valores padrão
-const [primeiro, segundo = 0, ...demais] = [10, 20, 30, 40];
+const [primeiro, segundo = 0, ..demais] = [10, 20, 30, 40];
 ```
 
-#### Operadores Spread e Rest (`...`)
+#### Operadores Spread e Rest (`..`)
 - **Rest Operator (no parâmetro):** Agrupa múltiplos argumentos restantes em um array real:
 
 ```javascript
-function somar(...numeros) {
+function somar(..numeros) {
     return numeros.reduce((acc, curr) => acc + curr, 0);
 }
 ```
@@ -515,8 +515,8 @@ function somar(...numeros) {
 
 ```javascript
 const listaOriginal = [1, 2, 3];
-const copiaEstendida = [0, ...listaOriginal, 4]; // [0, 1, 2, 3, 4]
-const configFinal = { ...configPadrao, timeout: 8000 };
+const copiaEstendida = [0, ..listaOriginal, 4]; // [0, 1, 2, 3, 4]
+const configFinal = { ..configPadrao, timeout: 8000 };
 ```
 
 ### 2.4 Escopo Léxico, Closures e Funções de Alta Ordem
@@ -538,7 +538,7 @@ console.log(contador.incrementar()); // 11
 ---
 
 ### Teste 069
-**(FCC - Analista de Sistemas / Desenvolvimento)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em JavaScript moderno, a utilização de variáveis e a criação de funções de fechamento (*closures*) dentro de laços de repetição assíncronos comportam-se de maneira distinta dependendo de como as variáveis são declaradas. Analise os dois fragmentos de código abaixo:
 
 **Fragmento 1:**
@@ -584,7 +584,7 @@ Após o término dos temporizadores de 100 milissegundos, as saídas produzidas 
 ---
 
 ### Teste 070
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em JavaScript moderno, a comparação de valores pode ser realizada por meio do operador de igualdade abstrata (`==`) ou do operador de igualdade estrita (`===`). Considere as seguintes expressões avaliadas pelo interpretador JavaScript:  
 
 I. `5 == "5"`  
@@ -613,7 +613,7 @@ Os valores booleanos resultantes da avaliação das expressões I, II e III são
 ---
 
 ### Teste 071
-**(FCC - Analista de TI / Sistemas)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Considere o seguinte trecho de código escrito na linguagem Python 3:
 
 ```python
@@ -655,7 +655,7 @@ Funções anônimas concisas com sintaxe de seta `() => {}`. Possuem duas difere
 
 1. **Vinculação Léxica do `this`:** As arrow functions **não possuem seu próprio contexto `this`**. Elas capturam o valor de `this` do escopo léxico envolvente no momento de sua definição. Não podem ser alteradas por `.bind()`, `.call()` ou `.apply()`.
 2. **Não são construtoras:** Não possuem método interno `[[Construct]]`, não podem ser chamadas com o operador `new` e não possuem a propriedade `prototype`.
-3. **Ausência do objeto `arguments`:** Para capturar parâmetros variáveis, deve-se usar a sintaxe rest `(...args)`.
+3. **Ausência do objeto `arguments`:** Para capturar parâmetros variáveis, deve-se usar a sintaxe rest `(..args)`.
 
 ---
 
@@ -748,7 +748,7 @@ Introduzida no ES2017, funciona como açúcar sintático sobre Promises:
 | Critério | CommonJS (CJS) | ECMAScript Modules (ESM) |
 |---|---|---|
 | **Sintaxe de Importação** | `const fs = require('fs');` | `import fs from 'fs';` |
-| **Sintaxe de Exportação** | `module.exports = { ... };` | `export default ...;` ou `export { ... };` |
+| **Sintaxe de Exportação** | `module.exports = { .. };` | `export default ..;` ou `export { .. };` |
 | **Carregamento** | Síncrono e dinâmico em tempo de execução | Assíncrono e estático em tempo de compilação/parse |
 | **Padrão no Node.js** | Padrão histórico (`.js` sem `"type": "module"`) | Ativado com `"type": "module"` no `package.json` ou `.mjs` |
 | **Variáveis Globais Mágicas** | Suporta `__dirname` e `__filename` | Não possui `__dirname` nativo (utiliza-se `import.meta.url`) |
@@ -756,7 +756,7 @@ Introduzida no ES2017, funciona como açúcar sintático sobre Promises:
 #### Módulos Nativos Essenciais do Node.js
 - **`fs` (File System):** Permite ler, gravar e manipular arquivos de forma síncrona (`fs.readFileSync`), baseada em callbacks (`fs.readFile`) ou orientada a promessas (`fs.promises.readFile`).
 - **`path`:** Fornece utilitários multiplataforma para resolução e concatenação segura de caminhos de arquivos (`path.join(__dirname, 'dados', 'arquivo.txt')`, `path.resolve()`).
-- **`http` / `https`:** Permite instanciar servidores HTTP de alta performance sem depender de bibliotecas externas (`http.createServer((req, res) => { ... })`).
+- **`http` / `https`:** Permite instanciar servidores HTTP de alta performance sem depender de bibliotecas externas (`http.createServer((req, res) => { .. })`).
 - **`events` (`EventEmitter`):** Núcleo do padrão Observer no Node.js, viabilizando emissão e escuta customizada de eventos (`emitter.on('evento', callback)` e `emitter.emit('evento', dados)`).
 - **`os`:** Fornece informações do sistema operacional hospedeiro (CPUs, memória livre/total, arquitetura).
 
@@ -770,7 +770,7 @@ Introduzida no ES2017, funciona como açúcar sintático sobre Promises:
 ---
 
 ### Teste 072
-**(FCC - Analista de TI / Sistemas)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em relação ao modelo de execução assíncrona do ambiente Node.js e da linguagem JavaScript, considere o seguinte fragmento de código:
 
 ```javascript
@@ -801,11 +801,11 @@ A ordem exata em que os caracteres serão impressos no console do terminal duran
 > **Comentário Detalhado:**
 >
 > - **A)** Incorreta. Supõe uma execução linear tradicional síncrona, desconsiderando que o `setTimeout` e a resolução do método `.then()` de uma `Promise` são despachados para filas assíncronas do Event Loop.
-> - **B)** Incorreta. Supõe erroneamente que a macrotarefa agendada pelo `setTimeout(..., 0)` possui prioridade sobre a microtarefa da Promise. Na especificação do ECMAScript e no motor V8/libuv, a fila de microtarefas (*Microtask Queue*) é sempre completamente drenada antes de qualquer macrotarefa ser processada.
+> - **B)** Incorreta. Supõe erroneamente que a macrotarefa agendada pelo `setTimeout(.., 0)` possui prioridade sobre a microtarefa da Promise. Na especificação do ECMAScript e no motor V8/libuv, a fila de microtarefas (*Microtask Queue*) é sempre completamente drenada antes de qualquer macrotarefa ser processada.
 > - **C)** **CORRETA.** Passo a passo da execução:
 >     1. O código síncrono é carregado e executado na Call Stack: `console.log("A")` imprime **A**.
 >     2. O `setTimeout` registra seu temporizador e despacha seu callback para a fila de macrotarefas (*Macrotask Queue*).
->     3. `Promise.resolve().then(...)` agenda seu callback na fila de microtarefas prioritárias (*Microtask Queue*).
+>     3. `Promise.resolve().then(..)` agenda seu callback na fila de microtarefas prioritárias (*Microtask Queue*).
 >     4. O código síncrono prossegue na Call Stack: `console.log("D")` imprime **D**.
 >     5. A Call Stack fica vazia. O Event Loop drena primeiro todas as microtarefas pendentes: o callback da Promise executa e imprime **C**.
 >     6. Estando a fila de microtarefas limpa, o Event Loop busca a primeira macrotarefa da fila: o callback do `setTimeout` executa e imprime **B**. Ordem final: **A, D, C, B**.
@@ -818,11 +818,11 @@ A ordem exata em que os caracteres serão impressos no console do terminal duran
 ---
 
 ### Teste 073
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em relação ao tratamento de operações assíncronas em JavaScript e Node.js utilizando *Promises* e a sintaxe `async/await`, assinale a afirmativa correta:
 
 * **A)** Uma função declarada com o modificador `async` sempre retorna implicitamente uma *Promise*, que resolve com o valor retornado pela função.
-* **B)** A palavra-chave `await` pode ser utilizada no corpo de qualquer função tradicional síncrona sem necessidade de declaração assíncrona no âmbito da administração pública direta e indireta.
+* **B)** A palavra-chave `await` pode ser utilizada no corpo de qualquer função tradicional síncrona sem necessidade de declaração assíncrona.
 * **C)** Uma *Promise* rejeitada só pode ser tratada por meio de blocos de repetição `while(true)`.
 * **D)** O método `Promise.all()` aguarda a resolução de todas as promises do array, mesmo se uma delas for rejeitada imediatamente.
 * **E)** A execução de `await` bloqueia a thread principal do sistema operacional, impedindo a CPU de executar qualquer outro processo.
@@ -849,7 +849,7 @@ Python é uma linguagem multiparadigma de alto nível focada na legibilidade do 
 
 - **Tipagem Dinâmica:** O tipo de dados é associado dinamicamente ao valor do objeto na memória em tempo de execução, e não ao nome da variável.
 - **Tipagem Forte:** O interpretador **não realiza conversão arbitrária entre tipos incompatíveis**. Se você tentar somar uma string com um número (`"Valor: " + 10`), Python lançará explicitamente um `TypeError` (diferentemente do JavaScript, que realizaria coerção para `"Valor: 10"`).
-- **Indentação Significativa:** A hierarquia e a delimitação de blocos lógicos (funções, classes, laços, condicionais) são feitas exclusivamente por recuo de espaços em branco (padronizado em **4 espaços** pela PEP 8), dispensando chaves `{}` ou delimitadores `begin...end`.
+- **Indentação Significativa:** A hierarquia e a delimitação de blocos lógicos (funções, classes, laços, condicionais) são feitas exclusivamente por recuo de espaços em branco (padronizado em **4 espaços** pela PEP 8), dispensando chaves `{}` ou delimitadores `begin..end`.
 - **PEP 8:** Guia oficial de estilo da linguagem (nomes de variáveis e funções em `snake_case`, nomes de classes em `PascalCase`, constantes em `UPPER_CASE`).
 
 ### 4.2 Estruturas de Dados Nativas: Listas, Tuplas, Dicionários e Conjuntos
@@ -1014,10 +1014,10 @@ def obter_processo(id):
 ---
 
 ### Teste 074
-**(FCC – TRT – Analista Judiciário / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Na linguagem Python 3, duas das estruturas de dados sequenciais mais empregadas são as Listas (`list`) e as Tuplas (`tuple`). A diferença fundamental entre essas duas estruturas reside no fato de que:
 
-* **A)** As listas são imutáveis e delimitadas por parênteses `()`, enquanto as tuplas são mutáveis e delimitadas por colchetes `[]` no âmbito da administração pública direta e indireta.
+* **A)** As listas são imutáveis e delimitadas por parênteses `()`, enquanto as tuplas são mutáveis e delimitadas por colchetes `[]`.
 * **B)** As listas são mutáveis (podem ter elementos adicionados, alterados ou removidos após a criação), enquanto as tuplas são estritamente imutáveis.
 * **C)** As tuplas aceitam apenas dados numéricos inteiros, enquanto as listas aceitam apenas cadeias de texto (*strings*).
 * **D)** As listas não admitem elementos duplicados, enquanto as tuplas permitem duplicações infinitas.
@@ -1039,7 +1039,7 @@ Na linguagem Python 3, duas das estruturas de dados sequenciais mais empregadas 
 ---
 
 ### Teste 075
-**(FGV – TJ – Analista Judiciário / Tecnologia da Informação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere o seguinte trecho de código em Python 3:  
 
 ```python
@@ -1082,7 +1082,7 @@ Após a execução do código acima, o valor da variável `resultado` será:
 | **Modelo de Concorrência** | Multithread real nativo com suporte moderno a *Virtual Threads* | Single-Thread com I/O assíncrono via Event Loop (libuv) | Single-Thread no interpretador CPython devido ao GIL (*asyncio* para I/O) |
 | **Tratamento de Exceções** | *Checked Exceptions* obrigatórias e *Unchecked Exceptions* | *Unchecked* via `try-catch` | *Unchecked* via `try-except-else-finally` |
 | **Gerenciamento de Recursos** | Bloco `finally` e `try-with-resources` (`AutoCloseable`) | Bloco `finally` | Bloco `finally` e `with` (`__enter__` / `__exit__`) |
-| **Estrutura de Blocos** | Delimitada por chaves `{ ... }` | Delimitada por chaves `{ ... }` | Delimitada por recuo de espaços (**indentação obrigatória**) |
+| **Estrutura de Blocos** | Delimitada por chaves `{ .. }` | Delimitada por chaves `{ .. }` | Delimitada por recuo de espaços (**indentação obrigatória**) |
 
 
 

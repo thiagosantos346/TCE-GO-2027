@@ -80,7 +80,7 @@ flowchart LR
 ---
 
 ### Teste 420
-**(FCC – DPE-RS – Analista: Área Administrativa)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No âmbito da teoria contemporânea de gestão de conflitos, a abordagem Interacionista defende que:
 
 * **A)** Todo conflito em qualquer nível é intrinsicamente danoso e prejudicial à eficácia da instituição, devendo ser erradicado sumariamente pela chefia.
@@ -105,13 +105,13 @@ No âmbito da teoria contemporânea de gestão de conflitos, a abordagem Interac
 ---
 
 ### Teste 421
-**(FCC - Adaptada / Analista de Planejamento e Gestão)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na evolução teórica a respeito dos conflitos organizacionais, três visões sucederam-se historicamente: a Visão Tradicional, a Visão de Relações Humanas e a Visão Interacionista.
 
 Segundo a **Visão Interacionista** do conflito:
 
 * **A)** O conflito não só é uma força natural inevitável nas organizações, como um nível mínimo de conflito construtivo e funcional é absolutamente necessário para manter o grupo viável, autocrítico, inovador e produtivo.
-* **B)** Todo conflito é prejudicial, disfuncional e destrutivo, devendo ser imediatamente eliminado e reprimido pelas chefias no âmbito da administração pública direta e indireta.
+* **B)** Todo conflito é prejudicial, disfuncional e destrutivo, devendo ser imediatamente eliminado e reprimido pelas chefias.
 * **C)** O conflito decorre exclusivamente da má contratação de servidores públicos no concurso público.
 * **D)** A harmonia absoluta e a ausência de divergências garantem que a instituição atinja a excelência máxima de inovação.
 * **E)** Os conflitos de relacionamento devem ser estimulados em níveis máximos para criar disputa destrutiva interna.
@@ -154,7 +154,7 @@ flowchart TD
 ---
 
 ### Teste 422
-**(FCC - Adaptada / Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Kenneth Thomas e Ralph Kilmann desenvolveram um modelo seminal de cinco estilos de administração de conflitos, estruturado em duas dimensões comportamentais: **Assertividade** (grau em que o indivíduo busca satisfazer seus próprios interesses) e **Cooperatividade** (grau em que busca satisfazer os interesses da outra parte).
 
 O estilo de gestão de conflitos caracterizado por **alta assertividade e alta cooperatividade**, no qual as partes buscam uma solução ganha-ganha (*win-win*) que integre plenamente as preocupações de ambos, denomina-se:
@@ -163,7 +163,7 @@ O estilo de gestão de conflitos caracterizado por **alta assertividade e alta c
 * **B)** Competição (ou Confrontação Forçada).
 * **C)** Acomodação (ou Suavização).
 * **D)** Não Enfrentamento (ou Evitação / Fuga).
-* **E)** Acordo de Compromisso (ou Meio-termo superficial) no âmbito da administração pública direta e indireta.
+* **E)** Acordo de Compromisso (ou Meio-termo superficial).
 
 
 ---
@@ -198,10 +198,10 @@ flowchart LR
 ---
 
 ### Teste 423
-**(FCC – ARTESP – Especialista em Regulação de Transportes)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Durante uma negociação contratual complexa entre um órgão público e uma empresa concessionária de serviços, as partes optaram por adotar os preceitos da Negociação Integrativa (*Ganha-Ganha*). Essa modalidade negocial caracteriza-se essencialmente por:
 
-* **A)** Focar exclusivamente na defesa intransigente de posições antagônicas pré-fixadas e na partilha de recursos fixos em regime de soma zero no âmbito da administração pública direta e indireta.
+* **A)** Focar exclusivamente na defesa intransigente de posições antagônicas pré-fixadas e na partilha de recursos fixos em regime de soma zero.
 * **B)** Buscar a expansão do valor total disponível e a construção de soluções colaborativas que atendam aos interesses subjacentes de ambas as partes, preservando o relacionamento de longo prazo.
 * **C)** Exigir que uma das partes capitule integralmente em suas pretensões econômicas em favor da outra para viabilizar o acordo.
 * **D)** Eliminar a Zona de Possível Acordo (ZOPA) e desconsiderar o valor de reserva estipulado no termo de referência.
@@ -223,11 +223,11 @@ Durante uma negociação contratual complexa entre um órgão público e uma emp
 ---
 
 ### Teste 424
-**(FCC - Adaptada / Analista de Tecnologia e Controle)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na teoria da negociação baseada nos princípios do Projeto de Negociação de Harvard (Fisher, Ury e Patton), a **Negociação Integrativa (ou Baseada em Princípios)** distingue-se da Negociação Distributiva (ou Posicional) por:
 
 * **A)** Concentrar-se nos interesses subjacentes reais das partes e não em posições rígidas assumidas, gerando opções de ganho mútuo e utilizando critérios objetivos justos para a solução das controvérsias.
-* **B)** Tratar a negociação como uma disputa de soma-zero em que o ganho de uma parte equivale necessariamente à perda da outra ("divisão de um bolo fixo") no âmbito da administração pública direta e indireta.
+* **B)** Tratar a negociação como uma disputa de soma-zero em que o ganho de uma parte equivale necessariamente à perda da outra ("divisão de um bolo fixo").
 * **C)** Empregar táticas de pressão psicológica extrema, blefes e ocultação deliberada de dados essenciais.
 * **D)** Impor a judicialização compulsória de todo conflito de gestão administrativa perante a Justiça Federal.
 * **E)** Condicionar o desfecho da negociação à concessão de reajustes orçamentários automáticos pelo Tesouro.
@@ -273,7 +273,7 @@ flowchart TD
 ---
 
 ### Teste 425
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Segundo a teoria dos níveis da cultura organizacional desenvolvida por Edgar Schein, os elementos mais profundos, enraizados e invisíveis da cultura, constituídos por crenças e percepções tidas como verdades absolutas e inquestionáveis que orientam o comportamento dos colaboradores sem que eles sequer tomem consciência disso, denominam-se:
 
 * **A)** Artefatos visíveis.
@@ -323,11 +323,11 @@ flowchart LR
 ---
 
 ### Teste 426
-**(FCC – TRT-2ª Região – Analista Judiciário: Área Administrativa)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito da diferença essencial entre Cultura Organizacional e Clima Organizacional, assinale a afirmativa correta:
 
 * **A)** O clima organizacional é duradouro e perene, demandando décadas de história para ser alterado, ao passo que a cultura organizacional é efêmera e flutua semanalmente.
-* **B)** A cultura organizacional reflete as percepções momentâneas e o estado de ânimo conjuntural dos colaboradores, ao passo que o clima constitui o DNA estrutural da entidade no âmbito da administração pública direta e indireta.
+* **B)** A cultura organizacional reflete as percepções momentâneas e o estado de ânimo conjuntural dos colaboradores, ao passo que o clima constitui o DNA estrutural da entidade.
 * **C)** A cultura organizacional é a personalidade e o alicerce antropológico profundo da instituição, enquanto o clima organizacional é a atmosfera psicológica conjuntural e perceptual do momento.
 * **D)** A cultura e o clima são termos estritamente sinônimos na teoria das organizações, distinguindo-se apenas quanto ao nível hierárquico dos avaliados.
 * **E)** O clima organizacional manifesta-se exclusivamente através dos pressupostos básicos subjacentes inconscientes descritos por Edgar Schein.
@@ -372,11 +372,11 @@ flowchart LR
 ---
 
 ### Teste 427
-**(FCC – TCE-RS – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No modelo clássico de gestão da mudança organizacional formulado por Kurt Lewin, a fase em que a liderança da instituição cria intencionalmente a necessidade percebida de mudança, desestabilizando o *status quo* vigente e quebrando velhos hábitos arraigados na equipe para prepará-la para o aprendizado de novas práticas operacionais, é denominada:
 
 * **A)** Descongelamento (*Unfreezing*).
-* **B)** Recongelamento (*Refreezing*) no âmbito da administração pública direta e indireta.
+* **B)** Recongelamento (*Refreezing*).
 * **C)** Movimento (*Moving*).
 * **D)** Entropia negativa.
 * **E)** Institucionalização de valor.
@@ -397,13 +397,13 @@ No modelo clássico de gestão da mudança organizacional formulado por Kurt Lew
 ---
 
 ### Teste 428
-**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Edgar Schein estruturou a Cultura Organizacional em três níveis hierárquicos de visibilidade e profundidade psicológica: **Artefatos**, **Valores Compartilhados** e **Pressupostos Básicos**.
 
 Os **Pressupostos Básicos** caracterizam-se por:
 
 * **A)** Serem crenças, percepções e sentimentos inconscientes, invisíveis e profundamente arraigados, aceitos tacitamente como verdades inquestionáveis que orientam automaticamente a forma como os membros sentem e agem.
-* **B)** Compreenderem a estrutura física dos prédios, o vestuário dos servidores e os manuais de procedimentos impressos no âmbito da administração pública direta e indireta.
+* **B)** Compreenderem a estrutura física dos prédios, o vestuário dos servidores e os manuais de procedimentos impressos.
 * **C)** Consistirem em discursos oficiais gravados em vídeos institucionais divulgados nas redes sociais.
 * **D)** Serem facilmente modificados a cada eleição mediante a edição de portarias administrativas simplificadas.
 * **E)** Limitarem-se ao regimento interno do Tribunal de Contas aprovado em resolução.
@@ -423,7 +423,7 @@ Os **Pressupostos Básicos** caracterizam-se por:
 ---
 
 ### Teste 429
-**(FCC - Adaptada / TCE-GO - Analista de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No modelo clássico de Desenvolvimento Organizacional e Gestão da Mudança proposto por Kurt Lewin, o processo de transformação estruturada de uma instituição desenvolve-se em três etapas sequenciais:
 
 A ordem cronológica correta das três etapas de Kurt Lewin é:
@@ -432,7 +432,7 @@ A ordem cronológica correta das três etapas de Kurt Lewin é:
 * **B)** Planejamento, Execução e Fiscalização orçamentária.
 * **C)** Licitação, Homologação e Pagamento financeiro.
 * **D)** Avaliação de Desempenho, Promoção e Aposentadoria.
-* **E)** Centralização, Desconcentração e Extinção funcional no âmbito da administração pública direta e indireta.
+* **E)** Centralização, Desconcentração e Extinção funcional.
 
 
 ---

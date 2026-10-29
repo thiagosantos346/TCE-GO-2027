@@ -101,7 +101,7 @@ O art. 53 da Constituição consagra o plexo de garantias institucionais dos mem
 ---
 
 ### Teste 143
-**(FCC – Analista Legislativo / Processo Legislativo / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 As Comissões Parlamentares de Inquérito (CPIs), previstas no art. 58, § 3º, da Constituição Federal, possuem poderes de investigação próprios das autoridades judiciais, além de outros previstos nos regimentos das respectivas Casas. A respeito dos limites constitucionais de atuação das CPIs, é correto afirmar que:
 
 * **A)** podem decretar a quebra do sigilo bancário e fiscal de investigados fundamentadamente.
@@ -123,7 +123,7 @@ As Comissões Parlamentares de Inquérito (CPIs), previstas no art. 58, § 3º, 
 > **Gabarito: A**
 
 ### Teste 144
-**(FCC – TRT – Analista Judiciário - 2009)**  
+**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**  
 Compete ao Congresso Nacional, com a sanção do Presidente da República:
 
 * **A)** dispor sobre fixação do subsídio dos Ministros do Supremo Tribunal Federal por lei específica.
@@ -145,7 +145,7 @@ Compete ao Congresso Nacional, com a sanção do Presidente da República:
 > **Gabarito: A**
 
 ### Teste 145
-**(FCC – TRT – Analista Judiciário - 2009)**  
+**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**  
 Ao organizar o Poder Legislativo na esfera federal, a Constituição da República prevê que:
 
 * **A)** a Câmara dos Deputados será composta de representantes eleitos pelo sistema proporcional em cada unidade federada.
@@ -167,7 +167,7 @@ Ao organizar o Poder Legislativo na esfera federal, a Constituição da Repúbli
 > **Gabarito: A**
 
 ### Teste 146
-**(FCC – Procurador do Estado / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito dos limites ao poder constituinte derivado reformador no processo legislativo de emendas à Constituição (art. 60 da CF/88), analise as regras constitucionais. É correto afirmar que:
 
 * **A)** A proposta de emenda deve ser votada em sessão unicameral conjunta do Congresso Nacional.
@@ -189,7 +189,7 @@ A respeito dos limites ao poder constituinte derivado reformador no processo leg
 > **Gabarito: E**
 
 ### Teste 147
-**(FCC – Analista Legislativo / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Acerca do processo legislativo ordinário disciplinado na Constituição Federal (arts. 61 a 67 da CF/88), analise as regras sobre iniciativa e veto presidencial. É correto afirmar que:
 
 * **A)** O veto parcial do Presidente da República deve abranger o texto integral de artigo, de parágrafo, de inciso ou de alínea.
@@ -211,7 +211,7 @@ Acerca do processo legislativo ordinário disciplinado na Constituição Federal
 > **Gabarito: A**
 
 ### Teste 148
-**(FGV – Analista de Controle Externo / TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O art. 62 da Constituição da República autoriza o Presidente a adotar medidas provisórias, com força de lei, em caso de relevância e urgência. A respeito do regime constitucional das medidas provisórias, é correto afirmar:
 
 * **A)** É permitida a edição de medida provisória que discipline matéria afeta a direito penal e processo penal.
@@ -233,7 +233,7 @@ O art. 62 da Constituição da República autoriza o Presidente a adotar medidas
 > **Gabarito: B**
 
 ### Teste 149
-**(FGV – TRT – Analista Judiciário - 2024)**  
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**  
 O artigo 31 da Constituição Federal do Brasil estabelece que a fiscalização no âmbito municipal será conduzida pelo Poder Legislativo Municipal, por meio de controle externo, e pelos sistemas de controle interno do Poder Executivo Municipal, conforme determinado pela legislação.  
 Assinale a opção que indica o órgão que auxilia o controle externo da Câmara Municipal:
 
@@ -256,7 +256,7 @@ Assinale a opção que indica o órgão que auxilia o controle externo da Câmar
 > **Gabarito: B**
 
 ### Teste 150
-**(FCC – Analista de Controle Externo / TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A Câmara Municipal de determinado município goiano recebeu o parecer prévio desfavorável emitido pelo Tribunal de Contas sobre as contas anuais de governo prestadas pelo Prefeito. Considerando a jurisprudência fixada pelo STF em repercussão geral (Temas 157 e 835), analise as regras de julgamento:
 
 * **A)** O parecer prévio do Tribunal de Contas tem natureza vinculante imediata e gera a inelegibilidade automática.
@@ -278,7 +278,7 @@ A Câmara Municipal de determinado município goiano recebeu o parecer prévio d
 > **Gabarito: D**
 
 ### Teste 151
-**(FCC – TCE-GO – Analista de Controle Externo - 2009)**  
+**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**  
 Compete ao Tribunal de Contas do Estado de Goiás:
 
 * **A)** julgar as contas dos administradores e demais responsáveis por bens públicos da administração direta e indireta.
@@ -300,7 +300,7 @@ Compete ao Tribunal de Contas do Estado de Goiás:
 > **Gabarito: A**
 
 ### Teste 152
-**(FCC – Técnico de Controle Externo / TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O Plenário do Tribunal de Contas do Estado de Goiás, ao fiscalizar a legalidade da folha de pagamento de determinado órgão estadual, deparou-se com gratificação instituída por lei cuja compatibilidade com o teto constitucional era duvidosa. À luz da Súmula 347 do STF e da jurisprudência recente da Suprema Corte sobre o tema, analise a atuação da Corte de Contas:
 
 * **A)** O Tribunal de Contas pode declarar formalmente a inconstitucionalidade de lei estadual com efeitos erga omnes.
@@ -322,7 +322,7 @@ O Plenário do Tribunal de Contas do Estado de Goiás, ao fiscalizar a legalidad
 > **Gabarito: B**
 
 ### Teste 153
-**(FGV – Analista Jurídico de Controle Externo / TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A fiscalização dos municípios é exercida pelo Poder Legislativo com o auxílio do Tribunal de Contas competente. Em relação à organização dos Tribunais de Contas municipais no direito brasileiro e à vedação expressa do art. 31, § 4º, da Constituição Federal, é correto afirmar:
 
 * **A)** É permitida a criação de novos Tribunais de Contas municipais em cidades com mais de dois milhões de habitantes.

@@ -85,7 +85,7 @@ flowchart TD
 ---
 
 ### Teste 515
-**(FCC - Auditor de Controle Externo / Tecnologia da Informação)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** Um arquiteto de software da Diretoria de Tecnologia da Informação de um órgão de controle externo está projetando a nova arquitetura do sistema de protocolo e tramitação processual eletrônica. Durante o levantamento de requisitos, a equipe propôs três medidas de segurança e tratamento de dados:  
 
 I. Substituir o CPF dos cidadãos denunciantes por um hash criptográfico com salt aleatório gerado pelo servidor corporativo, cuja tabela de correspondência fica protegida em repositório seguro acessível unicamente pelos auditores responsáveis pela instrução da denúncia.  
@@ -98,7 +98,7 @@ III. Ativar, por padrão, em todos os novos formulários públicos web, caixas d
 
 * **A)** As medidas I e II configuram anonimização perfeita, excluindo ambos os conjuntos de dados da incidência da LGPD.
 * **B)** A medida I configura pseudonimização, razão pela qual os dados tratados continuam sendo considerados dados pessoais sob a égide da LGPD; a medida II configura anonimização, excluindo os dados da lei (salvo reversão por meios razoáveis); e a medida III viola flagrantemente o princípio do *Privacy by Default*.
-* **C)** A medida I descaracteriza os dados como pessoais, pois o hash criptográfico com salt impede a leitura direta por parte dos atacantes externos, afastando a fiscalização da ANPD considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **C)** A medida I descaracteriza os dados como pessoais, pois o hash criptográfico com salt impede a leitura direta por parte dos atacantes externos, afastando a fiscalização da ANPD.
 * **D)** A medida II configura pseudonimização imperfeita, uma vez que algoritmos de ruído matemático nunca possuem validade perante as diretrizes da LGPD.
 * **E)** A medida III é juridicamente válida e recomendável pelo *Privacy by Default*, tendo em vista que desonera o usuário da tarefa manual de consentir explicitamente.
 
@@ -132,14 +132,14 @@ III. Ativar, por padrão, em todos os novos formulários públicos web, caixas d
 ---
 
 ### Teste 516
-**(FGV - TJ-RR - Analista Judiciário - Governança e Gestão de TI - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** No contexto da Lei Geral de Proteção de Dados Pessoais (LGPD - Lei nº 13.709/2018), a definição dos papéis dos agentes de tratamento e do encarregado é essencial para estabelecer responsabilidades jurídicas e arquiteturais em sistemas informatizados. Acerca do Controlador, do Operador e do Encarregado (DPO), assinale a afirmativa correta:  
 
 * **A)** O Controlador é a pessoa natural ou jurídica responsável por executar o tratamento estritamente sob as ordens do Operador, sem qualquer poder deliberativo sobre a finalidade dos dados.
 * **B)** O Operador decide monocraticamente as bases legais e as finalidades institucionais do tratamento, atuando como o titular patrimonial dos dados.
 * **C)** O Encarregado (DPO) tem a responsabilidade exclusiva de indenizar os titulares em caso de vazamento ilícito de dados perpetrado por hackers.
 * **D)** O Controlador compete as decisões referentes ao tratamento de dados pessoais; o Operador realiza o tratamento em nome do controlador e segundo suas diretrizes; e o Encarregado atua como canal de comunicação entre o controlador, os titulares dos dados e a ANPD.
-* **E)** O papel de Encarregado pelo tratamento de dados pessoais só pode ser desempenhado por servidores públicos federais da carreira policial, vedada a indicação de terceirizados ou pessoas jurídicas em estrita conformidade com as normas legais e regulamentares aplicáveis.
+* **E)** O papel de Encarregado pelo tratamento de dados pessoais só pode ser desempenhado por servidores públicos federais da carreira policial, vedada a indicação de terceirizados ou pessoas jurídicas.
 
 
 ---
@@ -196,10 +196,10 @@ O Art. 6º da LGPD elenca dez princípios fundamentais que regem as atividades d
 ---
 
 ### Teste 517
-**(FCC - Analista de Sistemas / Engenharia de Software - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** O Artigo 6º da LGPD estabelece dez princípios fundamentais que regem as atividades de tratamento de dados pessoais. Sob a ótica da Engenharia de Software e da Arquitetura de Dados, o princípio da **Necessidade** (também denominado princípio da **Minimização de Dados**) impõe que os sistemas corporativos:  
 
-* **A)** Devem coletar a maior quantidade possível de dados pessoais e biometrias em formulários públicos, mesmo sem utilidade atual, prevendo eventuais demandas futuras de machine learning no âmbito da administração pública direta e indireta.
+* **A)** Devem coletar a maior quantidade possível de dados pessoais e biometrias em formulários públicos, mesmo sem utilidade atual, prevendo eventuais demandas futuras de machine learning.
 * **B)** Devem limitar o tratamento ao mínimo necessário para a realização de suas finalidades específicas, abrangendo apenas dados pertinentes, proporcionais e não excessivos em relação aos objetivos do serviço.
 * **C)** Estão autorizados a manter permanentemente em tabelas de log o histórico de senhas em texto puro de todos os usuários cadastrados.
 * **D)** Devem conceder privilégios irrestritos de administrador de banco de dados (DBA) a todos os desenvolvedores juniores e fornecedores terceirizados.
@@ -257,7 +257,7 @@ flowchart LR
 ---
 
 ### Teste 518
-**(FCC - Técnico de Controle Externo / Tecnologia da Informação)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** Durante o desenvolvimento de um aplicativo mobile para consulta de processos pelos cidadãos, o time de engenharia de software decide implementar as diretrizes de *Privacy by Design* formuladas por Ann Cavoukian. Ao tratar do princípio da "Funcionalidade Total" (*Full Functionality: Positive-Sum, not Zero-Sum*), a equipe deve adotar como premissa:  
 
 * **A)** A privacidade dos titulares de dados deve ser sacrificada sempre que houver necessidade de aumentar o desempenho e a vazão de requisições por segundo na API do Tribunal considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
@@ -293,7 +293,7 @@ flowchart LR
 ---
 
 ### Teste 519
-**(FCC - Técnico de Controle Externo / TI - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** Na implementação dos conceitos de Proteção de Dados desde a Concepção (*Privacy by Design*) e por Padrão (*Privacy by Default*), a equipe de desenvolvimento de software de um Tribunal de Contas deve adotar padrões arquiteturais restritivos nativos. A respeito da regra do *Privacy by Default*, assinale a afirmativa correta:  
 
 * **A)** O sistema deve ser configurado para que, por padrão de fábrica (*out-of-the-box*), as configurações mais protetivas à privacidade sejam ativadas automaticamente, exigindo ação deliberada do usuário caso deseje compartilhar dados adicionais.
@@ -335,10 +335,10 @@ Na pseudonimização (Art. 13, § 4º da LGPD), o dado pessoal tem seu identific
 ---
 
 ### Teste 520
-**(FCC - Auditor Estadual de Controle Externo / TI - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** A LGPD distingue formalmente os institutos da Anonimização e da Pseudonimização no ciclo de vida de desenvolvimento e análise de dados. Sob o ponto de vista criptográfico e de segurança da informação, assinale a afirmativa correta sobre a Pseudonimização:  
 
-* **A)** O dado pseudonimizado é aquele que perdeu definitiva e irreversivelmente qualquer possibilidade de associação direta ou indireta a um indivíduo, deixando de ser considerado dado pessoal para todos os efeitos da LGPD no âmbito da administração pública direta e indireta.
+* **A)** O dado pseudonimizado é aquele que perdeu definitiva e irreversivelmente qualquer possibilidade de associação direta ou indireta a um indivíduo, deixando de ser considerado dado pessoal para todos os efeitos da LGPD.
 * **B)** A pseudonimização é o tratamento por meio do qual um dado perde a possibilidade de associação, direta ou indireta, a um indivíduo, senão pelo uso de informação adicional mantida separadamente pelo controlador em ambiente seguro e controlado.
 * **C)** A aplicação de algoritmo de hash MD5 simples sem *salt* em uma coluna de CPF garante a anonimização irreversível e absoluta da base de dados.
 * **D)** Os dados pseudonimizados deixam de se sujeitar à LGPD, podendo ser vendidos livremente a empresas de telemarketing.
@@ -394,13 +394,13 @@ flowchart TD
 ---
 
 ### Teste 521
-**(FCC - Auditor Estadual de Controle Externo / Tecnologia da Informação)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** Em relação às técnicas computacionais de proteção à privacidade aplicadas à publicação de microdados e aos algoritmos de anonimização sob a ótica da segurança da informação, analise o seguinte cenário:  
 Um analista aplicou generalização de atributos (faixas etárias e agrupamento de CEP) para garantir que cada registro em uma tabela médica publicada por uma Secretaria Estadual de Saúde seja indistinguível de pelo menos outros quatro registros em relação aos atributos quase-identificadores. No entanto, dentro de determinado grupo de equivalência contendo 5 registros idênticos nos quase-identificadores, todos os 5 registros possuem exatamente o mesmo valor sensível no diagnóstico médico: "Tuberculose Pulmonar".  
 Com base nos conceitos teóricos de anonimização, esse conjunto de dados:  
 
 * **A)** Satisfaz a métrica de 5-anonimato (k-anonymity com k=5), mas falha em relação à métrica de l-diversidade (l-diversity), ficando vulnerável ao ataque de homogeneidade.
-* **B)** Falha tanto no k-anonimato quanto na privacidade diferencial, pois para k-anonimato ser satisfeito é obrigatório que haja diversidade em todos os campos do registro no âmbito da administração pública direta e indireta.
+* **B)** Falha tanto no k-anonimato quanto na privacidade diferencial, pois para k-anonimato ser satisfeito é obrigatório que haja diversidade em todos os campos do registro.
 * **C)** Garante privacidade diferencial perfeita com epsilon igual a zero.
 * **D)** Satisfaz plenamente a métrica de t-closeness, eliminando qualquer risco de reidentificação por inferência.
 * **E)** Enquadra-se como dado pseudonimizado com chave simétrica AES-GCM.
@@ -462,10 +462,10 @@ sequenceDiagram
 ---
 
 ### Teste 522
-**(FCC - Analista Judiciário / Apoio Especializado / Análise de Sistemas)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** Determinado Tribunal de Justiça implementou uma solução corporativa para gerenciamento do ciclo de vida dos dados pessoais em conformidade com o Art. 18 da LGPD. Um cidadão que teve um procedimento administrativo disciplinar arquivado sem penalidades aciona o sistema solicitando a "eliminação definitiva de todos os seus dados pessoais e registros de movimentação processual dos bancos de dados do Tribunal". Diante desse cenário e das bases legais para o tratamento de dados no setor público, a conduta correta do órgão é:  
 
-* **A)** Atender compulsoriamente à exclusão imediata e física de todos os dados do requerente, uma vez que o direito à eliminação previsto no Art. 18 é absoluto e incondicionado na esfera pública considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **A)** Atender compulsoriamente à exclusão imediata e física de todos os dados do requerente, uma vez que o direito à eliminação previsto no Art. 18 é absoluto e incondicionado na esfera pública.
 * **B)** Negar o pedido de eliminação quanto aos registros processuais e atos oficiais de arquivamento mantidos para cumprimento de obrigação legal ou regulatória e exercício regular de direitos em processo judicial ou administrativo, mantendo a guarda desses dados com fulcro no Art. 16 da LGPD.
 * **C)** Excluir os dados apenas se o requerente pagar uma taxa de expurgo eletrônico estipulada em resolução interna do tribunal.
 * **D)** Proceder à destruição física de todos os discos rígidos e backups magnéticos do Tribunal que contenham menção ao nome do titular.
@@ -503,10 +503,10 @@ O Art. 48 da LGPD determina que o **Controlador** deve comunicar à Autoridade N
 ---
 
 ### Teste 523
-**(FCC - Analista de Gestão e Tecnologia / Segurança da Informação)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** Uma autarquia pública estadual sofreu um incidente de segurança cibernética consistente na exfiltração não autorizada da base de dados de seus servidores efetivos, contendo dados bancários, endereços residenciais e senhas criptografadas em hash MD5 sem salt. De acordo com o Art. 48 da Lei nº 13.709/2018 (LGPD) e a regulamentação expedida pela ANPD sobre a matéria:  
 
-* **A)** O controlador deve comunicar à Autoridade Nacional de Proteção de Dados (ANPD) e aos titulares a ocorrência de qualquer incidente de segurança, ainda que insignificante e desprovido de qualquer risco aos direitos dos titulares em estrita conformidade com as normas legais e regulamentares aplicáveis.
+* **A)** O controlador deve comunicar à Autoridade Nacional de Proteção de Dados (ANPD) e aos titulares a ocorrência de qualquer incidente de segurança, ainda que insignificante e desprovido de qualquer risco aos direitos dos titulares.
 * **B)** A comunicação de incidentes à ANPD e aos titulares é obrigatória quando o evento de segurança puder acarretar risco ou dano relevante aos titulares, devendo ser realizada em prazo razoável e descrever, entre outros pontos, a natureza dos dados afetados e as medidas de mitigação adotadas.
 * **C)** A responsabilidade pela comunicação recai unicamente sobre o Operador contratado que hospedava o servidor, ficando o Controlador isento de qualquer obrigação perante a ANPD.
 * **D)** A autarquia está dispensada de comunicar o fato se publicar uma nota genérica de desculpas em sua conta institucional em redes sociais em até 90 dias úteis.
@@ -530,12 +530,12 @@ O Art. 48 da LGPD determina que o **Controlador** deve comunicar à Autoridade N
 ---
 
 ### Teste 524
-**(FCC - Analista Judiciário - Segurança da Informação - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** Em relação à gestão de riscos de privacidade e auditoria em sistemas públicos, a LGPD prevê o Relatório de Impacto à Proteção de Dados Pessoais (RIPD / DPIA). Acerca desse instrumento e das boas práticas de segurança, assinale a afirmativa correta:  
 
 * **A)** O RIPD é um documento de preenchimento facultativo que deve ser mantido em segredo absoluto, sendo vedado à ANPD solicitar seu compartilhamento.
 * **B)** O RIPD descreve os processos de tratamento de dados pessoais que podem gerar riscos às liberdades civis e aos direitos fundamentais, bem como medidas, salvaguardas e mecanismos de mitigação de risco adotados pela organização.
-* **C)** A elaboração do RIPD exime o controlador de cumprir os princípios de segurança da informação e dispensa a comunicação de incidentes de segurança cibernética em estrita conformidade com as normas legais e regulamentares aplicáveis.
+* **C)** A elaboração do RIPD exime o controlador de cumprir os princípios de segurança da informação e dispensa a comunicação de incidentes de segurança cibernética.
 * **D)** O RIPD é obrigatório exclusivamente para operações que envolvam dados públicos abertos sem qualquer identificador pessoal.
 * **E)** Compete privativamente ao estagiário de atendimento de suporte a emissão e homologação do RIPD, sendo dispensada a participação do Encarregado (DPO).
 

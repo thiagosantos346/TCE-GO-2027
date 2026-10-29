@@ -122,7 +122,7 @@ A predicação verbal analisa a exigência de complementos pelos verbos no conte
 ---
 
 ### Teste 022
-**(FCC – TRT-23 – Analista Judiciário)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere o seguinte período:  
 *"A comissão de auditoria encaminhou aos diretores da autarquia o relatório conclusivo sobre os contratos de tecnologia."*
 
@@ -190,7 +190,7 @@ O pronome relativo *cujo* (e suas flexões *cuja, cujos, cujas*) é um dos ponto
 ---
 
 ### Teste 023
-**(FCC – METRÔ-SP – Analista de Comunicação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O pronome relativo antecedido de preposição está empregado em estrita conformidade com a norma-padrão em:
 
 * **A)** *"Este é o gestor cujo o comportamento foi elogiado em sessão plenária."*
@@ -283,7 +283,7 @@ Ao associar os pronomes diretos *o, a, os, as* à forma verbal enclítica, ocorr
 ---
 
 ### Teste 024
-**(FCC – TRT – Técnico Judiciário)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere a oração:  
 *"O diretor da comissão <ins>apresentou as justificativas técnicas</ins> e <ins>remeteu o parecer conclusivo</ins> ao setor de compras."*  
 Substituindo-se adequadamente as expressões sublinhadas pelos respectivos pronomes oblíquos átonos, obtém-se:
@@ -362,7 +362,7 @@ Em locuções compostas por verbo auxiliar mais verbo principal no infinitivo, g
 ---
 
 ### Teste 025
-**(FCC – TCE-GO – Analista de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Avalie a colocação pronominal nas frases a seguir, de acordo com o padrão culto da língua:  
 
 I. *Não informaram-nos sobre o adiamento da sessão plenária.*  
@@ -436,7 +436,7 @@ flowchart TD
 ---
 
 ### Teste 026
-**(FCC – DPE-RS – Analista Jurídico)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A frase em que a articulação entre tempos e modos verbais observa a **correlação verbal** adequada é:
 
 * **A)** *"Se o conselheiro propusesse a realização de nova auditoria, o presidente acataria a solicitação de pronto."*
@@ -461,7 +461,7 @@ A frase em que a articulação entre tempos e modos verbais observa a **correla�
 ---
 
 ### Teste 027
-**(FCC – TRT – Analista Judiciário)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere as formas verbais destacadas nas seguintes frases:  
 
 I. *Se o auditor **intervir** tempestivamente no processo, os prejuízos serão contornados.*  
@@ -557,7 +557,7 @@ Essa distinção é um dos temas fundamentais de cobrança da FCC em morfossinta
 ---
 
 ### Teste 028
-**(FCC – TCE-GO – Analista de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A frase que admite transposição para a **voz passiva** de modo inteiramente compatível com a norma-padrão da língua é:
 
 * **A)** *"O plenário do Tribunal anuiu expressamente aos termos da consulta formulada pelo Secretário."* em conformidade com as diretrizes e padrões de arquitetura corporativa.
@@ -584,7 +584,7 @@ A frase que admite transposição para a **voz passiva** de modo inteiramente co
 ---
 
 ### Teste 029
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Transpondo-se para a voz passiva analítica a oração:  
 *"Os auditores de controle externo tinham elaborado relatórios minuciosos sobre os contratos"*  
 obtém-se a forma verbal:
@@ -616,7 +616,7 @@ ightarrow$ **tinham sido elaborados**.
 ---
 
 ### Teste 030
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O emprego da partícula `SE` e a concordância verbal estão plenamente corretos em:
 
 * **A)** *"Tratam-se de apurações preliminares que demandam sigilo documental absoluto."*
@@ -676,7 +676,7 @@ Nas orações subordinadas substantivas integrantes (introduzidas por *que* ou *
 ---
 
 ### Teste 031
-**(FCC – TRT-14 – Analista Judiciário)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere as regras de correlação de tempos e modos verbais (*consecutio temporum*). Assinale a frase redigida em estrita conformidade com a norma culta:
 
 * **A)** Se o plenário acolhesse a recomendação técnica, a prefeitura corrigirá os editais a tempo.

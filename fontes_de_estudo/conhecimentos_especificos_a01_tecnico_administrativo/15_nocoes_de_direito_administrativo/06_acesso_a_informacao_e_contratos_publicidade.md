@@ -105,7 +105,7 @@ O procedimento de atendimento às solicitações de informação rege-se pelos s
 ---
 
 ### Teste 056
-**(FCC – Auditor de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A Lei de Acesso à Informação (Lei Federal nº 12.527/2011) regulamenta o direito constitucional fundamental de acesso a informações públicas (art. 5º, XXXIII da CF/88). A respeito das diretrizes fundamentais estabelecidas no art. 3º da LAI, assinale a opção correta:
 
 * **A)** O sigilo de documentos estatais é a regra originária da administração, constituindo a publicidade exceção estrita.
@@ -126,7 +126,7 @@ A Lei de Acesso à Informação (Lei Federal nº 12.527/2011) regulamenta o dire
 >
 > **Gabarito: B**
 ### Teste 057
-**(FCC – Auditor de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Determinada associação de servidores públicos ajuizou ação civil contra o Estado postulando a retirada dos nomes e vencimentos dos seus associados do Portal da Transparência, sob alegação de ofensa à intimidade e à vida privada. À luz da LAI e da jurisprudência fixada pelo STF no Tema nº 483:
 
 * **A)** É válida a divulgação nominal dos vencimentos de servidores no Portal da Transparência por atender ao interesse público.
@@ -147,7 +147,7 @@ Determinada associação de servidores públicos ajuizou ação civil contra o E
 >
 > **Gabarito: A**
 ### Teste 058
-**(FCC – Analista de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Um cidadão protocolou pedido formal de acesso a informações perante determinada autarquia estadual goiana requerendo cópia de notas de empenho de obras rodoviárias. Considerando as normas gerais de transparência passiva disciplinadas na Lei Federal nº 12.527/2011:
 
 * **A)** O órgão público deve fornecer a informação de imediato ou no prazo improrrogável de até cinco dias corridos.
@@ -168,7 +168,7 @@ Um cidadão protocolou pedido formal de acesso a informações perante determina
 >
 > **Gabarito: B**
 ### Teste 059
-**(FGV – Analista de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Determinado cidadão protocolou requerimento de acesso à informação perante uma autarquia estadual e teve seu pedido indeferido com fundamento genérico de sigilo. A respeito do regime recursal disciplinado no art. 15 da Lei nº 12.527/2011, assinale a opção correta:
 
 * **A)** O requerente dispõe de dez dias para recorrer à autoridade hierarquicamente superior à que proferiu a decisão.
@@ -237,7 +237,7 @@ O art. 31 da LAI estabelece regime especial de proteção para as informações 
 ---
 
 ### Teste 060
-**(FCC – Analista de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Determinada informação de interesse da segurança pública estadual foi submetida a processo de classificação de sigilo pela comissão técnica competente. Nos termos expressos do art. 24, § 1º, da Lei Federal nº 12.527/2011, os prazos máximos de restrição de acesso à informação vigoram a partir da data de sua produção e são de:
 
 * **A)** cinquenta anos para ultrassecreta, vinte e cinco anos para secreta e dez anos para reservada.
@@ -258,7 +258,7 @@ Determinada informação de interesse da segurança pública estadual foi submet
 >
 > **Gabarito: B**
 ### Teste 061
-**(FCC – Técnico de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No que concerne à classificação de informações sigilosas e à competência funcional das autoridades no âmbito estadual, com fundamento no art. 27 da Lei Federal nº 12.527/2011, a competência para classificar informação no grau ULTRASSECRETO cabe a:
 
 * **A)** qualquer servidor ocupante de cargo efetivo da área de inteligência policial estadual.
@@ -279,7 +279,7 @@ No que concerne à classificação de informações sigilosas e à competência 
 >
 > **Gabarito: B**
 ### Teste 062
-**(FGV – Analista de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Determinado cidadão requereu, com fundamento na LAI, acesso aos prontuários médicos e laudos psicológicos de determinado candidato nomeado em concurso público estadual. De acordo com o art. 31 da Lei Federal nº 12.527/2011 e a Lei Geral de Proteção de Dados Pessoais (LGPD):
 
 * **A)** Os dados relativos à intimidade, vida privada e saúde têm acesso restrito pelo prazo máximo de cem anos.
@@ -346,7 +346,7 @@ Para garantir o julgamento impessoal e estritamente técnico:
 ---
 
 ### Teste 063
-**(FCC – Técnico de Controle Externo – TCE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Uma autarquia estadual pretende deflagrar procedimento licitatório para contratação de serviços de publicidade institucional prestados por agência de propaganda. Considerando as normas gerais estabelecidas na Lei Federal nº 12.232/2010 e na Lei Federal nº 14.133/2021:
 
 * **A)** A licitação para serviços de publicidade deve ser realizada compulsoriamente pela modalidade pregão eletrônico.
@@ -367,7 +367,7 @@ Uma autarquia estadual pretende deflagrar procedimento licitatório para contrat
 >
 > **Gabarito: B**
 ### Teste 064
-**(FCC – Procurador do Estado – PGE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A contratação de serviços de publicidade institucional prestados por intermédio de agências de propaganda, regida pela Lei Federal nº 12.232/2010, submete-se a rigoroso procedimento de julgamento de propostas técnicas. A respeito da composição e funcionamento da subcomissão técnica (art. 10 da lei):
 
 * **A)** A subcomissão técnica deve ser constituída por membros indicados livremente pela agência que venceu o plano.
@@ -388,7 +388,7 @@ A contratação de serviços de publicidade institucional prestados por intermé
 >
 > **Gabarito: B**
 ### Teste 065
-**(FCC – Analista Jurídico – PGE-GO / Simulado)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No âmbito de procedimento licitatório processado sob o regime da Lei Federal nº 12.232/2010 para contratação de agência de publicidade pelo Estado de Goiás, foram inseridas cláusulas para disciplinar pagamentos e bonificações. A respeito da disciplina dos pagamentos e das vedações expressas nessa legislação:
 
 * **A)** A agência de publicidade pode reter valores de descontos obtidos de veículos de comunicação sem repasse ao erário.

@@ -68,11 +68,11 @@ Segundo a padronização do Project Management Institute (PMI), um **Projeto** �
 ---
 
 ### Teste 485
-**(FCC - Analista Judiciário - Tecnologia da Informação - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** O Guia PMBOK estabelece distinções fundamentais entre as características de um projeto e as rotinas de uma operação contínua dentro de uma organização de TI. Acerca dessa comparação, assinale a alternativa correta:  
 
 * **A)** Projetos são contínuos e repetitivos, visando unicamente manter os sistemas legados funcionando sem qualquer alteração de infraestrutura.
-* **B)** As operações são caracterizadas pela temporariedade estrita, tendo data formal de início e término com dissolução imediata da equipe ao término de cada chamado no âmbito da administração pública direta e indireta.
+* **B)** As operações são caracterizadas pela temporariedade estrita, tendo data formal de início e término com dissolução imediata da equipe ao término de cada chamado.
 * **C)** Um projeto é um esforço temporário empreendido para criar um produto, serviço ou resultado exclusivo, enquanto as operações sustentam a execução contínua do negócio.
 * **D)** A elaboração progressiva é uma característica exclusiva das operações financeiras, sendo expressamente vedada na gestão de projetos de tecnologia da informação.
 * **E)** Projetos de desenvolvimento de software prescindem de objetivos ou escopo delimitado, devendo prolongar-se indefinidamente pela vida útil da instituição.
@@ -121,7 +121,7 @@ flowchart TD
 ---
 
 ### Teste 486
-**(FCC - Técnico de Controle Externo / TI - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** A respeito da estrutura de governança de projetos, programas e portfólios preconizada pelas boas práticas do Project Management Institute (PMI), assinale a afirmativa correta:  
 
 * **A)** Um portfólio consiste exclusivamente em um conjunto de projetos que possuem dependências técnicas operacionais obrigatórias e sequenciais entre si.
@@ -159,10 +159,10 @@ A gestão de projetos passou a ser compreendida dentro de um **Sistema de Entreg
 ---
 
 ### Teste 487
-**(FGV - TRT - Analista Judiciário - Tecnologia da Informação - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** Nas diretrizes contemporâneas do Guia PMBOK (7ª e 8ª edições), a gestão de projetos é articulada dentro de um 'Sistema de Entrega de Valor' (*System for Value Delivery*), superando o modelo puramente prescritivo de processos mecânicos. A respeito dos princípios e desse sistema de entrega de valor, assinale a alternativa correta:  
 
-* **A)** O sistema de entrega de valor preconiza que o único objetivo do gestor de projetos é a geração burocrática de documentos e artefatos em papel, desconsiderando se o produto gerou valor ao negócio no âmbito da administração pública direta e indireta.
+* **A)** O sistema de entrega de valor preconiza que o único objetivo do gestor de projetos é a geração burocrática de documentos e artefatos em papel, desconsiderando se o produto gerou valor ao negócio.
 * **B)** O foco da gestão contemporânea de projetos desloca-se da mera entrega física de produtos (*deliverables*) para a realização efetiva de benefícios e resultados estratégicos (*outcomes and business value*).
 * **C)** O PMBOK estabelece que a liderança em projetos deve ser autoritária e centralizadora, sendo proibida a adoção de posturas de liderança servidora em equipes ágeis.
 * **D)** O sistema de entrega de valor é restrito a empresas privadas com fins lucrativos, sendo inaplicável a órgãos públicos ou tribunais de contas.
@@ -205,7 +205,7 @@ Os 12 Princípios do PMBOK orientam a conduta profissional dos gestores e equipe
 ---
 
 ### Teste 488
-**(FCC - Analista de TI / Sistemas - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** O padrão de gestão de projetos moderno do Guia PMBOK abandonou a estrutura estritamente processual e prescritiva, adotando uma abordagem holística estruturada em 12 Princípios de Entrega de Projetos e 8 Domínios de Desempenho. O princípio que estabelece a necessidade deliberada de ajustar e personalizar a governança, os métodos, as ferramentas e a quantidade de documentação de acordo com as características específicas, o porte e o nível de incerteza de cada projeto denomina-se:  
 
 * **A)** Stewardship (Administração Diligente).
@@ -259,7 +259,7 @@ flowchart TD
 ---
 
 ### Teste 489
-**(FCC - Auditor Fiscal da Receita Estadual / TI - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** O Guia PMBOK define os 8 Domínios de Desempenho do Projeto (*Project Performance Domains*). O domínio que trata de atividades como o gerenciamento do fluxo de trabalho físico e digital, a alocação eficiente de recursos materiais, a remoção de impedimentos e o gerenciamento contínuo das aquisições e contratos durante o ciclo diário do projeto denomina-se:  
 
 * **A)** Domínio das Partes Interessadas (*Stakeholders*).
@@ -326,7 +326,7 @@ flowchart TD
 ---
 
 ### Teste 490
-**(FCC - Auditor Federal de Controle Externo / TI - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** No âmbito do Domínio de Desempenho da Abordagem de Desenvolvimento e Ciclo de Vida do PMBOK, a escolha do ciclo de vida adequado para um projeto de TI deve equilibrar previsibilidade e agilidade. Ao planejar o desenvolvimento de um grande sistema previdenciário público, a equipe optou por fixar o escopo macro, o limite orçamentário e os marcos regulatórios de conformidade em um plano formal inicial, enquanto os módulos de software são implementados e homologados em sprints quinzenais por times ágeis. Essa configuração caracteriza uma abordagem:  
 
 * **A)** Preditiva pura (Cascata).
@@ -361,7 +361,7 @@ O princípio do **Tailoring** dita que não existe uma metodologia universal. Ca
 ---
 
 ### Teste 491
-**(FCC - TRT-14 - Analista Judiciário - Tecnologia da Informação - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** O Guia PMBOK enfatiza o princípio da Adaptação Contextual (*Tailoring*), reconhecendo que abordagens de desenvolvimento (preditivas, ágeis ou híbridas) devem ser moldadas às características exclusivas de cada projeto e organização. Acerca do *Tailoring* e dos ciclos de vida de projetos, assinale a alternativa correta:  
 
 * **A)** Em abordagens puramente preditivas (em cascata), o escopo, prazo e custo são definidos em detalhes nas fases iniciais, visando minimizar alterações ao longo do ciclo.
@@ -401,7 +401,7 @@ A **Análise de Valor Agregado** (*Earned Value Management*) integra escopo, cro
 ---
 
 ### Teste 492
-**(FCC - Auditor de Controle Externo / TI - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** A Análise de Valor Agregado (EVM) fundamenta-se em três grandezas quantitativas centrais para aferir a saúde econômico-temporal de um projeto: Valor Planejado (VP), Custo Real (CR) e Valor Agregado (VA). Sobre essas variáveis, assinale a alternativa correta:  
 
 * **A)** O Valor Agregado (VA) corresponde ao montante de recursos financeiros transferido compulsoriamente aos acionistas da empresa contratada a título de dividendos.
@@ -459,7 +459,7 @@ A **Análise de Valor Agregado** (*Earned Value Management*) integra escopo, cro
 ---
 
 ### Teste 493
-**(FCC - Analista de TI / Gestão de Projetos - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** Em uma auditoria de acompanhamento de um projeto estratégico de desenvolvimento de software em um Tribunal de Contas, o fiscal técnico de TI apurou os seguintes valores na Análise de Valor Agregado (EVM) ao término do quinto mês:  
 
 - Valor Planejado (VP): R$ 400.000,00  
@@ -470,7 +470,7 @@ Com base nesses valores, os cálculos do Índice de Desempenho de Prazos (IDP) e
 * **A)** Adiantado no cronograma (IDP = 1,25) e gastando mais que o previsto (IDC = 0,75).
 * **B)** Atrasado no cronograma (IDP = 0,80) e com desempenho de custos favorável, abaixo do orçamento para o trabalho executado (IDC = 1,067).
 * **C)** Rigorosamente no prazo (IDP = 1,00) e com equilíbrio fiscal absoluto (IDC = 1,00).
-* **D)** Atrasado no cronograma (IDP = 0,80) e com prejuízo financeiro grave, estourando os custos orçados (IDC = 0,937) no âmbito da administração pública direta e indireta.
+* **D)** Atrasado no cronograma (IDP = 0,80) e com prejuízo financeiro grave, estourando os custos orçados (IDC = 0,937).
 * **E)** Adiantado no cronograma (IDP = 1,33) e com custos favoráveis (IDC = 1,20).
 
 
@@ -511,12 +511,12 @@ A **Gestão de Portfólio de TI** conecta a estratégia institucional do Tribuna
 ---
 
 ### Teste 494
-**(FCC - Tribunal de Contas - Auditor de TI - Adaptada)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** A Gestão de Portfólio de TI é o elo estratégico que alinha as decisões de investimento em tecnologia às prioridades institucionais de um Tribunal de Contas. A respeito das atribuições de governança e práticas de gestão de portfólio, assinale a afirmativa correta:  
 
 * **A)** A gestão de portfólio visa garantir que a organização execute a combinação ideal de projetos e programas que maximize o valor institucional e respeite a capacidade orçamentária e operacional.
 * **B)** O portfólio de TIC deve conter exclusivamente projetos de desenvolvimento de software em linguagem Java, sendo vedada a inclusão de projetos de aquisição de infraestrutura de nuvem.
-* **C)** A priorização de projetos em um portfólio público deve basear-se exclusivamente na ordem cronológica de abertura de chamados no help desk, sem uso de modelos de pontuação estratégica no âmbito da administração pública direta e indireta.
+* **C)** A priorização de projetos em um portfólio público deve basear-se exclusivamente na ordem cronológica de abertura de chamados no help desk, sem uso de modelos de pontuação estratégica.
 * **D)** A governança de portfólio determina que, uma vez aprovado pelo Comitê Estratégico, um projeto jamais pode ser cancelado ou suspenso, ainda que perca sua viabilidade técnica ou legal.
 * **E)** O gerenciamento de portfólio é atribuição privativa do estagiário de suporte técnico de primeiro nível, dispensando apreciação pelo Comitê de Governança de TI.
 

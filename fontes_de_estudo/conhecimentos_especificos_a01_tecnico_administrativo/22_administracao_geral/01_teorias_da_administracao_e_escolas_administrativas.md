@@ -85,11 +85,11 @@ flowchart LR
 ---
 
 ### Teste 340
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito da evolução do pensamento administrativo e das premissas sustentadas pelas diferentes escolas da Teoria Geral da Administração, assinale a opção correta:
 
 * **A)** A Teoria das Relações Humanas concebia o trabalhador como o *Homo Economicus*, sustentando que a produtividade fabril dependia exclusivamente dos estímulos pecuniários e incentivos salariais por peça produzida.
-* **B)** A Teoria Contingencial defende a universalidade dos princípios administrativos, afirmando que existe uma única melhor maneira (*the one best way*) de gerenciar qualquer organização, independentemente do ambiente externo no âmbito da administração pública direta e indireta.
+* **B)** A Teoria Contingencial defende a universalidade dos princípios administrativos, afirmando que existe uma única melhor maneira (*the one best way*) de gerenciar qualquer organização, independentemente do ambiente externo.
 * **C)** A Teoria Geral dos Sistemas postula que as organizações operam como sistemas abertos dotados de entropia negativa, o que lhes permite importar recursos e informações do ambiente externo para conter a tendência natural de degradação e manter sua integridade interna.
 * **D)** A Teoria Clássica preconizada por Henri Fayol refutou a unidade de comando, defendendo a supervisão funcional de múltiplos chefes proposta outrora pela administração científica.
 * **E)** O modelo weberiano de burocracia baseia-se na autoridade carismática como esteio fundamental para a profissionalização e estabilidade do quadro funcional das organizações.
@@ -110,7 +110,7 @@ A respeito da evolução do pensamento administrativo e das premissas sustentada
 ---
 
 ### Teste 341
-**(FCC – TRT-20ª Região – Analista Judiciário: Área Administrativa)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere que um gestor público de departamento estadual dividiu as rotinas de trabalho em tarefas elementares repetitivas, cronometrou os tempos de digitação de cada processo e estipulou uma premiação pecuniária individual para os servidores que superassem a meta diária de processos autuados, partindo da premissa de que os indivíduos trabalham motivados exclusivamente pelo ganho monetário. Essa postura gerencial reflete diretamente os postulados da:
 
 * **A)** Teoria das Relações Humanas e a busca pela integração grupal informal.
@@ -187,14 +187,14 @@ Desenvolvida a partir de 1932 nos Estados Unidos, a Teoria das Relações Humana
 ---
 
 ### Teste 342
-**(FCC - Adaptada / Analista de Gestão Pública)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A Teoria das Relações Humanas, impulsionada pelos estudos de Elton Mayo na fábrica de Hawthorne (Western Electric Company, 1927-1932), revolucionou a teoria administrativa ao demonstrar que:
 
 * **A)** O nível de produção e a produtividade no trabalho são determinados primordialmente pela integração social e pelas normas informais do grupo, e não apenas pela capacidade física ou fisiológica do trabalhador.
 * **B)** O operário é motivado exclusivamente por incentivos salariais materiais e materiais financeiros (*Homo economicus*).
 * **C)** A divisão extrema do trabalho em tarefas microscópicas e cronometradas elimina qualquer necessidade de supervisão humana.
 * **D)** A fadiga muscular é a única causa de acidentes e quebras de produtividade no ambiente industrial.
-* **E)** As organizações formais funcionam como engrenagens mecânicas imunes a sentimentos, grupos informais e estados psicológicos no âmbito da administração pública direta e indireta.
+* **E)** As organizações formais funcionam como engrenagens mecânicas imunes a sentimentos, grupos informais e estados psicológicos.
 
 
 ---
@@ -243,14 +243,14 @@ O sociólogo Robert Merton demonstrou que a tentativa de buscar o máximo de pre
 ---
 
 ### Teste 343
-**(FCC – SEFAZ-PE – Auditor Fiscal do Tesouro Estadual)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No âmbito da Teoria Burocrática desenvolvida por Max Weber, o modelo ideal de burocracia é fundamentado no tipo de dominação racional-legal. No entanto, autores pós-weberianos como Robert Merton identificaram que a aplicação prática desse modelo suscita desvios conhecidos como disfunções da burocracia. Constitui uma clássica disfunção burocrática descrita por Merton:
 
 * **A)** A substituição da unidade de comando clássica pela supervisão funcional de múltiplos especialistas.
 * **B)** A flexibilização excessiva das rotinas operacionais em resposta aos apelos emocionais dos cidadãos.
 * **C)** O deslocamento de objetivos, em que a observância estrita das regras e normas procedimentais passa a ser um fim em si mesmo, prejudicando o atendimento dos objetivos reais da organização.
 * **D)** A contratação indiscriminada de pessoal comissionado com base em laços de parentesco e afinidade pessoal.
-* **E)** A proliferação descontrolada de grupos informais que ditam os padrões de produtividade à revelia da administração no âmbito da administração pública direta e indireta.
+* **E)** A proliferação descontrolada de grupos informais que ditam os padrões de produtividade à revelia da administração.
 
 
 ---
@@ -284,13 +284,13 @@ A Teoria Comportamental (Behaviorista) consolidou-se na década de 1950, adotand
 ---
 
 ### Teste 344
-**(FCC - Adaptada / Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na Teoria Comportamental da Administração, Douglas McGregor concebeu duas visões antagônicas a respeito da natureza humana e da atitude dos indivíduos em relação ao trabalho: a **Teoria X** e a **Teoria Y**.
 
 Segundo McGregor, a **Teoria Y** fundamenta-se na premissa de que:
 
 * **A)** O dispêndio de esforço físico e mental no trabalho é tão natural quanto o lazer ou o repouso; o ser humano comum não tem aversão intrínseca ao trabalho e pode aprender não só a aceitar, mas a buscar responsabilidades sob condições favoráveis.
-* **B)** O homem médio é indolente por natureza, evita o trabalho sempre que possível e precisa ser coagido, vigiado e controlado rigorosamente por meio de punições no âmbito da administração pública direta e indireta.
+* **B)** O homem médio é indolente por natureza, evita o trabalho sempre que possível e precisa ser coagido, vigiado e controlado rigorosamente por meio de punições.
 * **C)** As pessoas são desprovidas de ambição, preferem ser dirigidas e buscam prioritariamente a segurança acima de qualquer outro fator.
 * **D)** A criatividade na solução de problemas organizacionais é privilégio raro e exclusivo dos ocupantes da alta direção.
 * **E)** As recompensas financeiras estritas são a única força capaz de mobilizar a dedicação dos empregados.
@@ -367,7 +367,7 @@ flowchart TD
 ---
 
 ### Teste 345
-**(FCC – DPE-RS – Analista: Área Administrativa)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Estudos conduzidos por Tom Burns e G. M. Stalker, no âmbito da Teoria Contingencial, demonstraram que o desenho das organizações deve ajustar-se às demandas do ambiente externo, dividindo os sistemas gerenciais em mecanicistas e orgânicos. Em relação a essas duas tipologias, é correto afirmar:
 
 * **A)** Organizações que operam sob sistemas mecanicistas caracterizam-se por estruturas descentralizadas, canais de comunicação horizontais e adaptação veloz a ambientes altamente turbulentos.
@@ -392,13 +392,13 @@ Estudos conduzidos por Tom Burns e G. M. Stalker, no âmbito da Teoria Contingen
 ---
 
 ### Teste 346
-**(FCC - Adaptada / Analista de Planejamento e Gestão)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 A Teoria Contingencial da Administração (desenvolvida a partir de pesquisas de Lawrence & Lorsch, Burns & Stalker e Joan Woodward) estabelece que não existe uma "única melhor maneira" (*the one best way*) de administrar e organizar, pois a estrutura e as práticas organizacionais dependem das variáveis ambientais e tecnológicas.
 
 Segundo a tipologia de Tom Burns e G. M. Stalker, uma **estrutura orgânica** é mais adequada quando a organização opera em um ambiente:
 
 * **A)** Dinâmico, instável e imprevisível, exigindo flexibilidade, descentralização decisória, baixa formalização e comunicações laterais/horizontais.
-* **B)** Totalmente estável, estático e previsível, onde tarefas rotineiras repetitivas e centralização rígida produzem máxima eficiência no âmbito da administração pública direta e indireta.
+* **B)** Totalmente estável, estático e previsível, onde tarefas rotineiras repetitivas e centralização rígida produzem máxima eficiência.
 * **C)** Fechado a qualquer influência externa e focado em controle legalista estrito de ponto eletrônico.
 * **D)** Monopolista estatal sem qualquer interação com os cidadãos e a sociedade civil.
 * **E)** Altamente regulado por normas que proíbam a adaptação a novas tecnologias digitais.
@@ -435,14 +435,14 @@ flowchart TD
 ---
 
 ### Teste 347
-**(FCC – TCE-RS – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em sua consagrada obra sobre metáforas organizacionais, Gareth Morgan analisa as diversas imagens conceituais utilizadas para compreender o funcionamento das instituições. Ao retratar a organização sob a metáfora de uma máquina, o autor alinha-se prioritariamente às ideias sustentadas por:
 
 * **A)** Elton Mayo e a Escola das Relações Humanas.
 * **B)** Frederick Taylor e Henri Fayol nas abordagens mecanicistas clássicas.
 * **C)** Ludwig von Bertalanffy e a Teoria Geral dos Sistemas.
 * **D)** Peter Senge e a teoria das organizações que aprendem.
-* **E)** Joan Woodward e os teóricos da abordagem situacional contemporânea no âmbito da administração pública direta e indireta.
+* **E)** Joan Woodward e os teóricos da abordagem situacional contemporânea.
 
 
 ---
@@ -460,7 +460,7 @@ Em sua consagrada obra sobre metáforas organizacionais, Gareth Morgan analisa a
 ---
 
 ### Teste 348
-**(FCC - Adaptada / TCE-PI - Auditor de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Na obra clássica *Imagens da Organização*, Gareth Morgan analisa as organizações por meio de diferentes metáforas para explicar como gestores percebem e projetam as instituições.
 
 A metáfora que visualiza a organização como um sistema adaptativo que necessita processar informações constantemente, aprender com os erros e reestruturar sua própria base de conhecimento e diretrizes (conceito de circuito duplo de aprendizagem) é a:
@@ -487,11 +487,11 @@ A metáfora que visualiza a organização como um sistema adaptativo que necessi
 ---
 
 ### Teste 349
-**(FCC - Adaptada / TCE-GO - Analista de Controle Externo)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em relação aos 14 princípios gerais da administração enunciados por Henri Fayol na Teoria Clássica, assinale a opção que define o princípio da **Unidade de Comando**:
 
 * **A)** Cada colaborador ou servidor deve receber ordens e prestar contas exclusivamente a um único superior hierárquico direto.
-* **B)** Todas as unidades do órgão devem possuir o mesmo quantitativo de servidores em exercício no âmbito da administração pública direta e indireta.
+* **B)** Todas as unidades do órgão devem possuir o mesmo quantitativo de servidores em exercício.
 * **C)** O controle orçamentário deve ser unificado na presidência do Tribunal de Justiça.
 * **D)** As decisões estratégicas devem ser tomadas sempre em comissões colegiadas deliberativas.
 * **E)** Os servidores comissionados possuem autoridade irrestrita sobre os servidores estáveis.

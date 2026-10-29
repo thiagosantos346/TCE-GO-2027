@@ -189,7 +189,7 @@ O PAD é o procedimento contraditório formal destinado a apurar a responsabilid
 ---
 
 ### Teste 152
-**(FCC – TCE-GO – Analista de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Lucas, servidor público estável do Estado de Goiás, obteve aprovação em concurso público e foi nomeado para cargo de outra carreira estadual inacumulável. Durante a realização do estágio probatório do novo cargo, foi considerado inapto pela comissão de avaliação e formalmente inabilitado. Paralelamente, em outra repartição, Beatriz, servidora pública estável demitida por falta funcional, teve sua demissão invalidada por decisão judicial transitada em julgado. De acordo com a Lei Estadual nº 20.756/2020, o retorno de Lucas ao cargo primitivo e a reintegração de Beatriz ao cargo público ocupado anteriormente caracterizam, respectivamente:
 
 * **A)** Reversão e Aproveitamento.
@@ -216,7 +216,7 @@ Lucas, servidor público estável do Estado de Goiás, obteve aprovação em con
 ---
 
 ### Teste 153
-**(FCC – DPE-RS – Analista de Gestão e Pessoal)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Mariana foi nomeada para cargo de provimento efetivo no serviço público de Goiás e compareceu tempestivamente à repartição, prestando compromisso e assinando o termo de posse. Entretanto, por motivos estritamente particulares, Mariana não compareceu para assumir as atribuições funcionais e não entrou em efetivo exercício no prazo legal fixado pelo estatuto funcional. De acordo com as normas da Lei Estadual nº 20.756/2020:
 
 * **A)** O ato de nomeação de Mariana será sumariamente tornado sem efeito por decreto do Governador.
@@ -241,7 +241,7 @@ Mariana foi nomeada para cargo de provimento efetivo no serviço público de Goi
 ---
 
 ### Teste 154
-**(FCC – TCE-AP – Técnico de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito da estabilidade e do estágio probatório do servidor público civil, regulamentados pela Lei Estadual nº 20.756/2020, considere:
 
 * **A)** O período de estágio probatório é de dois anos, sendo que o servidor aprovado adquire vitaliciedade automática na carreira.
@@ -266,7 +266,7 @@ A respeito da estabilidade e do estágio probatório do servidor público civil,
 ---
 
 ### Teste 155
-**(FCC – Inédita – Padrão TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Nos termos do Estatuto dos Servidores Públicos Civis do Estado de Goiás (Lei Estadual nº 20.756/2020), a vacância do cargo público decorre taxativamente de:
 
 * **A)** Promoção, readaptação, aposentadoria, exoneração, demissão, destituição de cargo em comissão, posse em outro cargo inacumulável e falecimento.
@@ -293,7 +293,7 @@ Nos termos do Estatuto dos Servidores Públicos Civis do Estado de Goiás (Lei E
 ---
 
 ### Teste 156
-**(FCC – Inédita – Padrão TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito das licenças, afastamentos e concessões funcionais reguladas pela Lei Estadual nº 20.756/2020 (Estatuto dos Servidores de Goiás):
 
 * **A)** A antiga licença-prêmio por assiduidade foi expressamente extinta pelo novel estatuto goiano.
@@ -320,7 +320,7 @@ A respeito das licenças, afastamentos e concessões funcionais reguladas pela L
 ---
 
 ### Teste 157
-**(FCC – Inédita – Padrão TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No âmbito do regime disciplinar instituído pela Lei Estadual nº 20.756/2020, as penalidades disciplinares aplicáveis aos servidores públicos estatutários de Goiás são:
 
 * **A)** Advertência, censura ética, multa pecuniária descontada em folha e prisão administrativa.
@@ -352,7 +352,7 @@ No âmbito do regime disciplinar instituído pela Lei Estadual nº 20.756/2020, 
 ---
 
 ### Teste 158
-**(FCC – ARTESP – Especialista em Regulação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito do regime disciplinar e da prescrição da pretensão punitiva administrativa regulados pela Lei Estadual nº 20.756/2020, assinale a opção correta:
 
 * **A)** A penalidade de suspensão não poderá exceder a noventa dias, acarretando a perda da remuneração dos dias em que perdurar o afastamento.
@@ -377,11 +377,11 @@ A respeito do regime disciplinar e da prescrição da pretensão punitiva admini
 ---
 
 ### Teste 159
-**(FCC – Inédita – Padrão TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 De acordo com o rito do Processo Administrativo Disciplinar (PAD) regulado pela Lei Estadual nº 20.756/2020:
 
 * **A)** A comissão processante do PAD ordinário é composta por 3 servidores estáveis, designados pela autoridade instauradora, devendo o presidente ser ocupante de cargo efetivo superior ou de mesmo nível, ou ter escolaridade igual ou superior à do indiciado.
-* **B)** A sindicância investigativa é fase obrigatória que precede necessariamente qualquer processo administrativo disciplinar, sob pena de nulidade absoluta considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **B)** A sindicância investigativa é fase obrigatória que precede necessariamente qualquer processo administrativo disciplinar, sob pena de nulidade absoluta.
 * **C)** O indiciado não tem direito a constituir advogado para sua defesa técnica, sendo a autodefesa pessoal obrigatória e exclusiva.
 * **D)** As testemunhas da comissão e da defesa devem depor conjuntamente na mesma sala de audiências para promover a imediata acareação.
 * **E)** O relatório final da comissão processante vincula de forma absoluta o julgamento da autoridade competente, que não pode divergir de suas conclusões.
@@ -452,7 +452,7 @@ A remuneração dos servidores efetivos do TCE-GO é composta por:
 ---
 
 ### Teste 160
-**(FCC – TCE-GO – Técnico de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No âmbito do Tribunal de Contas do Estado de Goiás, a carreira de Técnico de Controle Externo é disciplinada pelo Plano de Cargos, Carreiras e Remuneração (Lei Estadual nº 15.122/2005). Sobre a evolução funcional dos servidores nesta carreira:
 
 * **A)** A promoção funcional consiste na passagem do servidor de um padrão para outro dentro da mesma classe, baseando-se exclusivamente no decurso do tempo de serviço considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
@@ -477,10 +477,10 @@ No âmbito do Tribunal de Contas do Estado de Goiás, a carreira de Técnico de 
 ---
 
 ### Teste 161
-**(FCC – Inédita – Padrão TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Em conformidade com a Lei Estadual nº 15.122/2005 (Plano de Cargos, Carreiras e Vencimentos dos Servidores do TCE-GO):
 
-* **A)** O desenvolvimento na carreira opera-se exclusivamente por progressão funcional por tempo de serviço a cada 10 anos, inexistindo critério de merecimento ou avaliação de desempenho considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **A)** O desenvolvimento na carreira opera-se exclusivamente por progressão funcional por tempo de serviço a cada 10 anos, inexistindo critério de merecimento ou avaliação de desempenho.
 * **B)** A evolução funcional dos servidores do TCE-GO estrutura-se mediante **progressão horizontal** (passagem de um padrão para o subsequente dentro da mesma classe, por antiguidade e capacitação) e **promoção vertical** (passagem do último padrão de uma classe para o primeiro padrão da classe imediatamente superior, condicionada a interstício mínimo, avaliação de desempenho e qualificação técnica).
 * **C)** Os cargos efetivos do TCE-GO admitem investidura derivada por reenquadramento automático de servidores terceirizados sem concurso público.
 * **D)** O Adicional de Qualificação é parcela temporária concedida unicamente a servidores comissionados que não possuam vínculo efetivo com a Corte.

@@ -80,7 +80,7 @@ O Código de Ética do TCE-GO encontra-se em total sintonia com a **ISSAI 130 (C
 ---
 
 ### Teste 162
-**(FCC – Inédita – Padrão TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O Código de Ética dos Servidores do TCE-GO orienta-se pelos padrões éticos internacionais consolidados na norma ISSAI 130 da Organização Internacional das Instituições Superiores de Controle (INTOSAI). Entre os valores axiais que norteiam a integridade do auditor governamental, destaca-se:
 
 * **A)** A flexibilidade moral nas auditorias operacionais, autorizando o auditor a transigir com irregularidades formais em favor de interesses corporativos.
@@ -130,10 +130,10 @@ No âmbito do TCE-GO, o manuseio de dados fiscais, bancários, orçamentários e
 ---
 
 ### Teste 163
-**(FCC – Inédita – Padrão TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Nos termos do Código de Ética dos Servidores do TCE-GO, quanto aos deveres funcionais e à postura profissional do servidor:
 
-* **A)** É facultado ao auditor tratar com rispidez cidadãos e gestores fiscalizados para assegurar a autoridade do cargo e a imposição da fiscalização considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **A)** É facultado ao auditor tratar com rispidez cidadãos e gestores fiscalizados para assegurar a autoridade do cargo e a imposição da fiscalização.
 * **B)** O servidor deve desempenhar suas funções com zelo, celeridade e assiduidade, pautando suas relações interpessoais pela urbanidade, respeito e consideração mútua tanto perante os jurisdicionados quanto perante seus colegas de trabalho.
 * **C)** A produtividade técnica do servidor isenta-o de observar a pontualidade e o decoro no ambiente físico e virtual de trabalho.
 * **D)** O servidor pode priorizar a instrução de processos de interesse de conhecidos ou amigos íntimos, desde que não receba remuneração extra.
@@ -157,7 +157,7 @@ Nos termos do Código de Ética dos Servidores do TCE-GO, quanto aos deveres fun
 ---
 
 ### Teste 164
-**(FCC – Inédita – Padrão TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Sobre o dever de sigilo profissional e a custódia de dados confidenciais regulados no Código de Ética do TCE-GO:
 
 * **A)** O servidor está autorizado a repassar dados de auditorias em andamento a familiares próximos, desde que advertidos sobre a reserva do assunto.
@@ -226,7 +226,7 @@ O conflito de interesses ocorre quando o interesse privado do servidor pode infl
 ---
 
 ### Teste 165
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Flávio, Técnico de Controle Externo do TCE-GO, teve acesso a um relatório preliminar de auditoria ainda sigiloso que apura irregularidades na gestão de saúde pública estadual. Indignado com os achados, Flávio publica trechos dos documentos e fotografias em suas redes sociais pessoais, tecendo críticas severas aos gestores envolvidos antes do julgamento do processo pela Câmara. À luz das normas deontológicas do TCE-GO:
 
 * **A)** A atitude de Flávio é protegida pelo direito constitucional à livre manifestação do pensamento, não configurando infração ética.
@@ -251,7 +251,7 @@ Flávio, Técnico de Controle Externo do TCE-GO, teve acesso a um relatório pre
 ---
 
 ### Teste 166
-**(FCC – TCE-GO – Analista de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Rodrigo, Técnico de Controle Externo do TCE-GO designado para compor comissão de fiscalização de contratos de serviços de informática, é abordado pelo diretor comercial de uma grande empresa de tecnologia que disputa novo certame estadual. O empresário oferece a Rodrigo o pagamento integral de passagens aéreas, estadia em hotel de luxo e inscrições para um congresso temático no exterior. Paralelamente, envia ao gabinete de Rodrigo uma cesta de vinhos importados de alto valor comercial. Diante das regras deontológicas constantes do Código de Ética dos Servidores do TCE-GO, Rodrigo deverá:
 
 * **A)** Aceitar as passagens e a inscrição no congresso, pois revertem em benefício à qualificação técnica do Tribunal, mas doar os vinhos ao almoxarifado em conformidade com as diretrizes e padrões de arquitetura corporativa.
@@ -276,7 +276,7 @@ Rodrigo, Técnico de Controle Externo do TCE-GO designado para compor comissão 
 ---
 
 ### Teste 167
-**(FCC – TCE-AM – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 De acordo com os princípios da INTOSAI (ISSAI 130) e as diretrizes do Código de Ética do Tribunal de Contas do Estado de Goiás, na hipótese de um servidor ser designado para fiscalizar entidade cujo dirigente máximo seja seu cônjuge ou parente colateral até o terceiro grau:
 
 * **A)** O servidor poderá realizar a auditoria normalmente, desde que se limite à análise de demonstrativos numéricos desprovidos de juízo discricionário em conformidade com as diretrizes e padrões de arquitetura corporativa.
@@ -301,11 +301,11 @@ De acordo com os princípios da INTOSAI (ISSAI 130) e as diretrizes do Código d
 ---
 
 ### Teste 168
-**(FCC – Inédita – Padrão TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No que concerne às proibições éticas e conduta pública do servidor do TCE-GO nas redes sociais e no ambiente profissional:
 
 * **A)** É expressamente vedado ao servidor manifestar-se publicamente em redes sociais como porta-voz do Tribunal sem a devida autorização institucional, bem como emitir juízos depreciativos sobre processos e fiscalizações que estejam pendentes de deliberação pela Corte.
-* **B)** O servidor pode utilizar livremente os canais oficiais do Tribunal para defender interesses político-partidários pessoais e promover candidaturas eleitorais de parentes considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **B)** O servidor pode utilizar livremente os canais oficiais do Tribunal para defender interesses político-partidários pessoais e promover candidaturas eleitorais de parentes.
 * **C)** É lícito ao servidor atuar como procurador ou consultor de empresa que dispute licitação fiscalizada pela sua própria unidade técnica.
 * **D)** O Código de Ética autoriza que o auditor receba presentes de alto valor de dirigentes de empreiteiras auditadas, desde que divididos com os colegas de equipe.
 * **E)** As vedações éticas sobre conflito de interesses aplicam-se unicamente no horário de expediente presencial nas dependências físicas do Tribunal.
@@ -369,7 +369,7 @@ graph TD
 ---
 
 ### Teste 169
-**(FCC – DPE-SP – Oficial de Defensoria)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere que um servidor recém-empossado no TCE-GO possua dúvidas legítimas sobre a possibilidade de exercer, cumulativamente com suas funções públicas, atividade de docência acadêmica em universidade privada e a publicação de artigos científicos na área orçamentária. Nesse cenário, à luz dos mecanismos de governança ética:
 
 * **A)** O servidor deverá consultar previamente a Comissão de Ética do órgão, a qual possui atribuição consultiva para dirimir dúvidas éticas e orientar os servidores.
@@ -394,7 +394,7 @@ Considere que um servidor recém-empossado no TCE-GO possua dúvidas legítimas 
 ---
 
 ### Teste 170
-**(FCC – TCE-RO – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito da Comissão de Ética e do rito de apuração de infrações comportamentais no âmbito dos Tribunais de Contas, assinale a opção correta:
 
 * **A)** A Comissão de Ética tem competência para aplicar diretamente as penas de suspensão funcional e demissão do cargo público.
@@ -419,12 +419,12 @@ A respeito da Comissão de Ética e do rito de apuração de infrações comport
 ---
 
 ### Teste 171
-**(FCC – Inédita – Padrão TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Sobre as competências da Comissão de Ética do Tribunal de Contas do Estado de Goiás e o rito do processo ético:
 
 * **A)** A Comissão de Ética pode aplicar diretamente aos servidores as penalidades estatutárias de demissão e cassação de aposentadoria.
 * **B)** A única sanção de competência sancionatória direta da Comissão de Ética é a pena de **Censura Ética**, devendo a Comissão, quando constatar indícios de falta disciplinar de maior gravidade, remeter cópia integral dos autos à Corregedoria-Geral para instauração de processo disciplinar competente.
-* **C)** O processo perante a Comissão de Ética não admite a apresentação de defesa prévia pelo investigado, vigendo a presunção absoluta de veracidade da denúncia considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **C)** O processo perante a Comissão de Ética não admite a apresentação de defesa prévia pelo investigado, vigendo a presunção absoluta de veracidade da denúncia. em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **D)** A Comissão de Ética é composta exclusivamente por magistrados de carreira requisitados do Poder Judiciário.
 * **E)** As deliberações da Comissão de Ética têm natureza puramente punitiva e repressiva, sendo vedada qualquer atuação preventiva ou pedagógica.
 

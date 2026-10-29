@@ -60,13 +60,13 @@ A norma foi concebida para conciliar dois vetores complementares:
 ---
 
 ### Teste 545
-**(FCC – Inédita – Padrão TCE-GO - Auditor Estadual de Controle Externo / TI)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** A Lei Complementar Estadual nº 205, de 19 de maio de 2025, instituiu a Política Estadual de Inteligência Artificial no Estado de Goiás. A respeito dos objetivos centrais e do escopo regulatório estabelecido por esse diploma legal para a administração pública goiana, assinale a afirmativa correta:  
 
 * **A)** A lei visa fomentar exclusivamente a substituição integral de todos os auditores fiscais e juízes por sistemas autônomos de tomada de decisão não auditáveis.
 * **B)** A norma tem como escopo conciliar o fomento à inovação tecnológica, ao desenvolvimento socioeconômico e à governança digital com a salvaguarda inegociável de direitos fundamentais, transparência algorítmica e proteção de dados pessoais.
 * **C)** A política estadual veda terminantemente que universidades e centros de pesquisa estaduais desenvolvam modelos de inteligência artificial em cooperação com o setor produtivo.
-* **D)** A LC nº 205/2025 autoriza os órgãos públicos do Estado a utilizarem dados pessoais para fins discriminatórios sempre que houver potencial de aumento da arrecadação tributária em estrita conformidade com as normas legais e regulamentares aplicáveis.
+* **D)** A LC nº 205/2025 autoriza os órgãos públicos do Estado a utilizarem dados pessoais para fins discriminatórios sempre que houver potencial de aumento da arrecadação tributária.
 * **E)** O escopo da lei restringe-se exclusivamente a empresas privadas do setor financeiro, não vinculando os órgãos da administração pública direta ou indireta de Goiás.
 
 
@@ -122,10 +122,10 @@ flowchart TD
 ---
 
 ### Teste 546
-**(FCC – Inédita – Padrão TCE-GO - Analista de Sistemas / Ciência de Dados)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** Um dos princípios mais relevantes da LC nº 205/2025 é a **Transparência Algorítmica e a Explicabilidade** (*Explainable AI - XAI*). Ao fiscalizar a utilização de modelos complexos de aprendizado de máquina (como redes neurais profundas e gradient boosting) empregados por secretarias de estado na concessão de benefícios assistenciais, o auditor do TCE-GO deve verificar se:  
 
-* **A)** A Administração Pública esconde a documentação técnica sob segredo comercial irrestrito, impedindo o cidadão de conhecer os critérios da decisão considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **A)** A Administração Pública esconde a documentação técnica sob segredo comercial irrestrito, impedindo o cidadão de conhecer os critérios da decisão.
 * **B)** São adotadas metodologias e ferramentas técnicas de interpretabilidade e explicabilidade (como valores SHAP, LIME ou modelos substitutos interpretáveis) que permitam justificar de forma inteligível ao cidadão e aos órgãos de controle as variáveis determinantes do ato administrativo automatizado.
 * **C)** O modelo foi construído utilizando parâmetros aleatórios que dispensam qualquer comprovação lógica ou estatística.
 * **D)** A explicabilidade é tratada como opcional quando o custo de processamento computacional da inferência for superior a um centavo de real.
@@ -147,12 +147,12 @@ flowchart TD
 ---
 
 ### Teste 547
-**(FCC Inédita - Auditor Estadual de Controle Externo / TI)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** Em uma auditoria governamental de conformidade algorítmica realizada pelo TCE-GO sobre o sistema automatizado de cobrança e suspensão cadastral de contribuintes gerido pelo Poder Executivo Estadual, a equipe técnica verificou que o modelo de aprendizado de máquina bloqueava automaticamente as certidões negativas de débito sem qualquer possibilidade de revisão ou recurso por analista humano. À luz dos princípios éticos da LC nº 205/2025:  
 
 * **A)** O procedimento é lícito e exemplar, pois a automação integral sem interferência humana é a meta suprema exigida pela legislação goiana.
 * **B)** O sistema viola a diretriz mandatória de supervisão humana (*Human-in-the-Loop*), que assegura ao cidadão e aos jurisdicionados a explicabilidade do ato e o direito de obter a revisão humana de decisões automatizadas que afetem seus direitos.
-* **C)** O Tribunal de Contas não tem competência funcional para auditar a lógica de algoritmos governamentais, devendo limitar-se ao valor financeiro da nota fiscal da licitação em estrita conformidade com as normas legais e regulamentares aplicáveis.
+* **C)** O Tribunal de Contas não tem competência funcional para auditar a lógica de algoritmos governamentais, devendo limitar-se ao valor financeiro da nota fiscal da licitação.
 * **D)** A decisão automatizada pura é permitida desde que a taxa de acerto do modelo estatístico seja superior a noventa por cento em dados de teste.
 * **E)** O cidadão deve renunciar previamente ao direito de defesa administrativa para interagir com sistemas de governo digital em Goiás.
 
@@ -190,7 +190,7 @@ A Lei Complementar nº 205/2025 estrutura a política pública estadual sobre tr
 ---
 
 ### Teste 548
-**(FCC – Inédita – Padrão TCE-GO - Técnico de Controle Externo / TI)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** O *Sandbox Estadual Permanente de Inteligência Artificial*, regulamentado pela LC nº 205/2025 de Goiás, foi concebido como um ambiente pioneiro no Brasil. A respeito das condições e salvaguardas mandatórias para que uma empresa ou consórcio participe desse ambiente experimental de inovação, assinale a afirmativa correta:  
 
 * **A)** A admissão no sandbox dispensa a empresa de cumprir as regras da Lei Geral de Proteção de Dados Pessoais (LGPD).
@@ -215,12 +215,12 @@ A Lei Complementar nº 205/2025 estrutura a política pública estadual sobre tr
 ---
 
 ### Teste 549
-**(FCC Inédita - Analista de Controle Externo / Tecnologia da Informação)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** A Lei Complementar Estadual nº 205, de 19 de maio de 2025, disciplinou a Política Estadual de Inovação e Governança em Inteligência Artificial no Estado de Goiás. Ao tratar dos instrumentos para fomento e segurança jurídica, a referida lei instituiu o *Sandbox Estadual Permanente de Inteligência Artificial*. Em relação a esse instrumento regulatório, é correto afirmar:  
 
 * **A)** Consiste em um ambiente fechado e exclusivo para órgãos de repressão criminal do Estado, vedada a participação de startups ou entidades civis.
 * **B)** Permite a experimentação controlada de modelos e soluções tecnológicas de IA com flexibilização temporária e monitorada de certas exigências regulatórias, condicionada à apresentação de plano de gestão de riscos e estrita observância à proteção de dados e direitos fundamentais.
-* **C)** Isenta totalmente as empresas participantes de qualquer responsabilidade civil ou criminal por danos materiais causados a cidadãos durante o período de testes considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **C)** Isenta totalmente as empresas participantes de qualquer responsabilidade civil ou criminal por danos materiais causados a cidadãos durante o período de testes.
 * **D)** Tem duração efêmera e vigência obrigatória de apenas 30 dias contados da publicação da lei complementar, sendo extinto após essa data.
 * **E)** Autoriza o tratamento irrestrito de dados pessoais sensíveis sem necessidade de observância aos preceitos da Lei Geral de Proteção de Dados Pessoais (LGPD).
 
@@ -253,12 +253,12 @@ Colegiado de natureza **consultiva e propositiva**, reunindo representantes do P
 ---
 
 ### Teste 550
-**(FCC Inédita - Analista de Sistemas / Engenharia de Software)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** O Núcleo de Ética e Inovação em Inteligência Artificial (NEI-IA), criado pela Lei Complementar Estadual nº 205/2025 no Estado de Goiás, possui como uma de suas funções primordiais:  
 
 * **A)** Exercer com exclusividade o julgamento e aplicação de penas de prisão perpétua a hackers e fraudadores de sistemas estaduais.
 * **B)** Atuar como órgão colegiado consultivo e propositivo para estabelecer diretrizes de ética, governança, mitigação de viés algorítmico e boas práticas no desenvolvimento e uso de inteligência artificial na administração estadual.
-* **C)** Monopolizar todo o desenvolvimento de código-fonte de TI no Estado, extinguindo as diretorias de TI dos demais órgãos públicos considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **C)** Monopolizar todo o desenvolvimento de código-fonte de TI no Estado, extinguindo as diretorias de TI dos demais órgãos públicos.
 * **D)** Autorizar previamente a compra de qualquer computador de uso pessoal adquirido por cidadãos residentes em território goiano.
 * **E)** Substituir as câmaras de julgamento de processos de contas do Tribunal de Contas do Estado de Goiás.
 
@@ -300,10 +300,10 @@ flowchart LR
 ---
 
 ### Teste 551
-**(FCC – Inédita – Padrão TCE-GO - Analista de Controle Externo / Governança de TI)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** A diretriz de **Inteligência Artificial Aberta (*Open Source AI*)**, positivada no marco legal da LC nº 205/2025, estabelece que os órgãos e entidades do Estado de Goiás deem preferência a modelos e ferramentas de código aberto. Sob a ótica do controle externo e da auditoria de TI do TCE-GO, essa diretriz fundamenta-se tecnicamente em:  
 
-* **A)** Reduzir o nível de segurança dos servidores públicos, permitindo que qualquer invasor externo delete os bancos de dados estaduais sem ser identificado considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **A)** Reduzir o nível de segurança dos servidores públicos, permitindo que qualquer invasor externo delete os bancos de dados estaduais sem ser identificado.
 * **B)** Garantir a auditabilidade profunda e independente de códigos-fonte, arquitetura e pesos dos modelos (eliminando o problema da "caixa-preta"), além de preservar a soberania de dados do Estado e mitigar o risco de dependência de fornecedor (*vendor lock-in*).
 * **C)** Proibir que o Estado celebre convênios com a Universidade Federal de Goiás (UFG) ou com a Fapeg.
 * **D)** Obrigar o pagamento de royalties abusivos a monopólios internacionais de computação em nuvem proprietária.
@@ -325,7 +325,7 @@ flowchart LR
 ---
 
 ### Teste 552
-**(FCC Inédita - Técnico de Controle Externo / Tecnologia da Informação)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** A Administração Pública do Estado de Goiás publicou edital para contratação de solução inteligente de triagem e encaminhamento de atendimentos em unidades hospitalares públicas. Para atender à diretriz estratégica de governança tecnológica instituída expressamente pelo art. 4º da Lei Complementar nº 205/2025, o termo de referência deve priorizar:  
 
 * **A)** A compra de soluções baseadas em modelos proprietários de código fechado (*closed-source*), visando garantir segredo comercial intransponível perante a sociedade garantindo a observância dos protocolos de governança e interoperabilidade vigentes.
@@ -394,14 +394,14 @@ sequenceDiagram
 ---
 
 ### Teste 553
-**(FCC – Inédita – Padrão TCE-GO - Auditor Estadual de Controle Externo / TI)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** Na realização de auditorias operacionais e de conformidade sobre soluções governamentais que utilizam sistemas de inteligência artificial em Goiás, o corpo técnico de fiscalização de TIC do TCE-GO estrutura seus trabalhos em três dimensões avaliativas essenciais. Assinale a afirmativa que descreve corretamente a **Auditoria de Dados de Treinamento (*Data-Centric AI Audit*)**:  
 
 * **A)** Consiste exclusivamente em verificar a marca dos gabinetes dos computadores onde os dados foram digitados por estagiários.
 * **B)** Avalia a licitude da coleta e tratamento das bases de treino perante a LGPD, a representatividade estatística das amostras, a qualidade do processo de rotulagem e a higidez histórica para prevenir a perpetuação ou indução de vieses algorítmicos discriminatórios.
 * **C)** Avalia unicamente se o contrato foi assinado em cartório físico de notas no interior do Estado.
 * **D)** Visa impedir que os órgãos públicos realizem limpeza e pré-processamento nos dados brutos antes de treinar os algoritmos.
-* **E)** Restringe-se a checar se os dados de treino foram comprados em fóruns ilegais da dark web para garantir maior variedade de informações considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **E)** Restringe-se a checar se os dados de treino foram comprados em fóruns ilegais da dark web para garantir maior variedade de informações.
 
 
 ---
@@ -429,10 +429,10 @@ O próprio TCE-GO, alinhado à LC nº 205/2025, implementou regulação interna 
 ---
 
 ### Teste 554
-**(FCC Inédita - Auditor de Tecnologia da Informação / Ciência de Dados)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 **Enunciado:** Em relação à governança de dados e ao uso de ferramentas baseadas em inteligência artificial no âmbito das instituições públicas goianas, nos termos da Lei Complementar Estadual nº 205/2025 combinada com a Resolução Administrativa nº 24/2024 do TCE-GO, assinale a opção correta:  
 
-* **A)** Dados fiscais sigilosos podem ser inseridos livremente em serviços públicos e gratuitos de IA generativa em nuvem aberta internacional, haja vista a prevalência da inovação sobre as normas de sigilo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **A)** Dados fiscais sigilosos podem ser inseridos livremente em serviços públicos e gratuitos de IA generativa em nuvem aberta internacional, haja vista a prevalência da inovação sobre as normas de sigilo.
 * **B)** As ferramentas de inteligência artificial generativa e preditiva no setor público goiano atuam como instrumentos auxiliares de suporte técnico e eficiência operacional, não dispensando a validação humana e a responsabilidade funcional do servidor público signatário do ato processual.
 * **C)** A explicabilidade algorítmica (*Explainable AI - XAI*) é dispensada caso o sistema seja adquirido de empresas estrangeiras.
 * **D)** Modelos de IA desenvolvidos em parceria com a Fundação de Amparo à Pesquisa do Estado de Goiás (Fapeg) estão isentos de apresentar documentação de arquitetura e mitigação de riscos.

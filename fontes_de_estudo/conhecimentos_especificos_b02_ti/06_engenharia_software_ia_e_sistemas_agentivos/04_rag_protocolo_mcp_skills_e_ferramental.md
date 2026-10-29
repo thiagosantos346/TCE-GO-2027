@@ -94,7 +94,7 @@ Para viabilizar fluxos agentivos em bases de código de milhões de linhas:
 ---
 
 ### Teste 150
-**(FCC – Inédita – Padrão TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O mecanismo de autoatenção (*Self-Attention*) canônico da arquitetura Transformer calcula a relação entre todos os pares de tokens da sequência de entrada. Esse mecanismo acarreta, em termos de complexidade computacional teórica de tempo e memória em relação ao comprimento da sequência ($N$), uma taxa de crescimento:
 
 * **A)** Linear: $O(N)$
@@ -119,10 +119,10 @@ O mecanismo de autoatenção (*Self-Attention*) canônico da arquitetura Transfo
 ---
 
 ### Teste 151
-**(Cebraspe – TRF/STJ – 2024/2025 – Adaptada para o padrão FCC)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No desenvolvimento assistido por agentes em repositórios corporativos de grande porte, a técnica de *Prompt Caching* (disponibilizada por provedores de LLMs avançados) proporciona economia expressiva de tempo e custo financeiro. O funcionamento e benefício central do *Prompt Caching* reside no fato de que:
 
-* **A)** O modelo de linguagem armazena em disco o código-fonte gerado em linguagem binária pura considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **A)** O modelo de linguagem armazena em disco o código-fonte gerado em linguagem binária pura.
 * **B)** Prefixos idênticos de prompts longos (como documentações do sistema, esquemas de bancos de dados e instruções de agentes) são mantidos em cache na memória de aceleração das GPUs dos servidores de inferência, permitindo processar requisições subsequentes com até 90% de desconto no custo de tokens e latência drasticamente reduzida.
 * **C)** O agente é proibido de realizar novas consultas de código durante 24 horas consecutivas.
 * **D)** Todos os tokens em cache são permanentemente destruídos caso o usuário feche a IDE.
@@ -212,7 +212,7 @@ Bases de código dependem criticamente de nomes literais exatos (como o nome de 
 ---
 
 ### Teste 152
-**(FCC - Adaptada / TI - RAG e Bancos de Dados Vetoriais)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Uma instituição pública precisa capacitar um agente de IA para analisar e auditar a conformidade de novos softwares em relação a um gigantesco repositório corporativo que contém milhões de linhas de código e dezenas de manuais técnicos que sofrem atualizações diárias.
 
 Para permitir que a IA consulte essas informações atualizadas com alta precisão e custo sustentável, mantendo a integridade semântica do código, a equipe deve adotar:  
@@ -221,7 +221,7 @@ Para permitir que a IA consulte essas informações atualizadas com alta precis�
 * **B)** Uma arquitetura de RAG (*Retrieval-Augmented Generation*), realizando o fracionamento (*chunking*) do código com base na Árvore de Sintaxe Abstrata (AST) para preservar blocos lógicos inteiros (como classes e funções), gerando embeddings armazenados em um banco vetorial para busca semântica em tempo de inferência.
 * **C)** A conversão de todos os arquivos de código-fonte em um único prompt contínuo de texto sem chunking, submetendo-o a modelos sem janela de contexto delimitada.
 * **D)** O particionamento arbitrário de código em blocos fixos de 10 linhas de texto, ignorando a estrutura sintática de métodos e classes, para maximizar o índice de acerto da busca léxica.
-* **E)** A técnica de *Fine-Tuning* supervisionado com exclusão de qualquer banco de dados vetorial, visto que embeddings numéricos são incapazes de representar proximidade semântica entre termos técnicos considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **E)** A técnica de *Fine-Tuning* supervisionado com exclusão de qualquer banco de dados vetorial, visto que embeddings numéricos são incapazes de representar proximidade semântica entre termos técnicos. em conformidade com as diretrizes e padrões de arquitetura corporativa.
 
 
 ---
@@ -239,13 +239,13 @@ Para permitir que a IA consulte essas informações atualizadas com alta precis�
 ---
 
 ### Teste 153
-**(FCC – Inédita – Padrão TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Na preparação de uma base de código-fonte para indexação e recuperação semântica em pipelines de RAG (*Retrieval-Augmented Generation*), a técnica de divisão de texto (*chunking*) baseada em Árvore Sintática Abstrata (*AST-Based Chunking*) apresenta superioridade técnica sobre a divisão ingênua por quantidade fixa de caracteres porque:
 
 * **A)** Converte todo o código para linguagem natural antes da criação dos vetores de embeddings.
 * **B)** Respeita os limites gramaticais e estruturais da linguagem de programação, garantindo que funções inteiras, métodos de classes e blocos lógicos coesos não sejam truncados arbitrariamente no meio de expressões, preservando o contexto semântico e as assinaturas completas.
 * **C)** Exige que cada arquivo do projeto contenha no máximo 10 linhas de código.
-* **D)** Desconsidera a sintaxe da linguagem para unificar códigos Python e Java na mesma tabela relacional considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **D)** Desconsidera a sintaxe da linguagem para unificar códigos Python e Java na mesma tabela relacional. em conformidade com as diretrizes e padrões de arquitetura corporativa.
 * **E)** Aumenta o tamanho dos arquivos em 1000% para ocupar todo o espaço do banco de dados vetorial.
 
 
@@ -264,7 +264,7 @@ Na preparação de uma base de código-fonte para indexação e recuperação se
 ---
 
 ### Teste 154
-**(FCC - Padrão Concursos TI / Busca Híbrida e Similaridade de Cosseno)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em um sistema de busca semântica de código para auditoria governamental baseado em banco de dados vetorial, um arquiteto implementou uma estratégia de Busca Híbrida (*Hybrid Search*).
 
 A justificativa técnica para a adoção da Busca Híbrida em vez da busca vetorial pura em repositórios de software é:  
@@ -273,7 +273,7 @@ A justificativa técnica para a adoção da Busca Híbrida em vez da busca vetor
 * **B)** A busca híbrida combina a recuperação semântica densa (baseada em embeddings e similaridade de cosseno) com a busca textual esparsa tradicional (como BM25 ou busca full-text), garantindo tanto a compreensão conceitual quanto o casamento exato de identificadores literais, nomes de tabelas e códigos de erro específicos.
 * **C)** A busca híbrida substitui os bancos de dados vetoriais por fitas magnéticas analógicas para reduzir o consumo de energia.
 * **D)** O uso de busca esparsa impede qualquer tentativa de injeção de prompt por parte de usuários maliciosos.
-* **E)** A similaridade de cosseno mede exclusivamente o número de caracteres coincidentes entre duas strings semânticas em ordem alfabética considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo garantindo a observância dos protocolos de governança e interoperabilidade vigentes.
+* **E)** A similaridade de cosseno mede exclusivamente o número de caracteres coincidentes entre duas strings semânticas em ordem alfabética. garantindo a observância dos protocolos de governança e interoperabilidade vigentes.
 
 
 ---
@@ -291,12 +291,12 @@ A justificativa técnica para a adoção da Busca Híbrida em vez da busca vetor
 ---
 
 ### Teste 155
-**(FCC - Padrão Concursos TI / RAG vs Fine-Tuning em Engenharia de Software)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em um projeto de automação fiscal na Secretaria da Fazenda, a equipe técnica precisa decidir entre a adoção de uma arquitetura de RAG (Geração Aumentada por Recuperação) e o processo de Fine-Tuning supervisionado de um modelo de linguagem aberto.
 
 Sobre os critérios comparativos que orientam essa escolha técnica, assinale a afirmativa correta:  
 
-* **A)** O Fine-Tuning é a melhor escolha para dados factuais altamente voláteis, pois a atualização de tabelas de alíquotas diárias no modelo dispensa custos computacionais de treino no âmbito da administração pública direta e indireta.
+* **A)** O Fine-Tuning é a melhor escolha para dados factuais altamente voláteis, pois a atualização de tabelas de alíquotas diárias no modelo dispensa custos computacionais de treino.
 * **B)** O RAG possui total auditabilidade e rastreabilidade, permitindo indicar com precisão cirúrgica quais arquivos de código e trechos normativos foram recuperados e inseridos no contexto para fundamentar a resposta gerada.
 * **C)** O Fine-Tuning elimina completamente a ocorrência de alucinações, enquanto o RAG necessariamente multiplica as alucinações ao introduzir textos externos.
 * **D)** Modelos submetidos a RAG perdem permanentemente a capacidade de gerar código sintaticamente válido na linguagem Python.
@@ -393,13 +393,13 @@ A especificação do MCP padroniza dois canais de comunicação utilizando mensa
 ---
 
 ### Teste 156
-**(Cebraspe – TRF/STJ – 2024/2025 – Adaptada para o padrão FCC)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O Model Context Protocol (MCP), padrão aberto introduzido para estabelecer interoperabilidade universal entre assistentes de IA e fontes de dados/ferramentas externas, estrutura-se em uma arquitetura cliente-servidor clara. Em relação às responsabilidades de cada entidade no ecossistema MCP, é correto afirmar:
 
 * **A)** O MCP Server é a IDE ou interface de chat que exibe a tela para o usuário final.
 * **B)** O MCP Host é a aplicação que coordena a interação (como o Antigravity ou Claude Desktop), que contém clientes MCP (*MCP Clients*) responsáveis por estabelecer conexões 1:1 seguras com múltiplos servidores MCP (*MCP Servers*), os quais expõem recursos de dados (*Resources*), ferramentas executáveis (*Tools*) e instruções (*Prompts*).
 * **C)** O protocolo MCP só permite conexão com um único servidor externo por computador.
-* **D)** O MCP Client executa todo o código-fonte em linguagem COBOL no servidor do provedor da nuvem considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **D)** O MCP Client executa todo o código-fonte em linguagem COBOL no servidor do provedor da nuvem.
 * **E)** O MCP Server não pode se comunicar com bancos de dados relacionais como PostgreSQL ou MySQL.
 
 
@@ -421,7 +421,7 @@ O Model Context Protocol (MCP), padrão aberto introduzido para estabelecer inte
 ---
 
 ### Teste 157
-**(FCC - Adaptada / TI - Model Context Protocol e Interoperabilidade)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 No desenvolvimento de ecossistemas corporativos baseados em inteligência artificial, a proliferação de integrações proprietárias ponto-a-ponto entre assistentes inteligentes e sistemas legados motivou a criação do protocolo aberto *Model Context Protocol* (MCP).
 
 A respeito da arquitetura, primitivas e funcionamento do protocolo MCP, assinale a afirmativa correta:  
@@ -429,7 +429,7 @@ A respeito da arquitetura, primitivas e funcionamento do protocolo MCP, assinale
 * **A)** O MCP é um protocolo proprietário e fechado cujo funcionamento restringe-se exclusivamente à execução de scripts Python em ambientes isolados na nuvem.
 * **B)** Na arquitetura do MCP, o *MCP Host* conecta-se a múltiplos *MCP Servers*, que expõem padronizadamente três primitivas essenciais: *Resources* (dados passivos que podem ser lidos), *Tools* (funções executáveis que realizam ações ou consultas) e *Prompts* (templates de mensagens pré-configurados).
 * **C)** As primitivas denominadas *Tools* no MCP servem exclusivamente para exibir documentação estática ao usuário final, sendo vedada a chamada a APIs de backend ou operações com efeitos colaterais.
-* **D)** O transporte padrão para comunicação entre clientes e servidores locais no MCP utiliza exclusivamente websockets não autenticados, sendo proibida a comunicação via `stdio` (entrada/saída padrão de processos) considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **D)** O transporte padrão para comunicação entre clientes e servidores locais no MCP utiliza exclusivamente websockets não autenticados, sendo proibida a comunicação via `stdio` (entrada/saída padrão de processos).
 * **E)** A utilização do MCP dispensa o modelo de IA de interpretar parâmetros em esquemas JSON Schema, delegando a tipagem de dados integralmente ao sistema operacional hospedeiro.
 
 
@@ -452,13 +452,13 @@ A respeito da arquitetura, primitivas e funcionamento do protocolo MCP, assinale
 ---
 
 ### Teste 158
-**(FCC - Padrão Concursos TI / Primitivas e Segurança no Model Context Protocol)**
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
 Em uma auditoria de segurança da informação sobre uma solução corporativa que utiliza o *Model Context Protocol* (MCP) para conectar agentes de IA ao banco de dados PostgreSQL e ao repositório Git institucional, foi avaliado o risco de execução indevida de comandos de alteração estrutural.
 
 Considerando o funcionamento das primitivas e a governança do MCP, a equipe de auditoria deve verificar se:  
 
 * **A)** As operações com potencial de alteração ou exclusão de dados e código foram implementadas exclusivamente através da primitiva *Resources*, sem permissões de rede.
-* **B)** O agente de IA tem autorização para invocar primitivas *Tools* com ações destrutivas (como drops de tabelas ou commits forçados) de maneira autônoma e irrestrita, sem validação de parâmetros ou supervisão humana (*Human-in-the-Loop*) no âmbito da administração pública direta e indireta.
+* **B)** O agente de IA tem autorização para invocar primitivas *Tools* com ações destrutivas (como drops de tabelas ou commits forçados) de maneira autônoma e irrestrita, sem validação de parâmetros ou supervisão humana (*Human-in-the-Loop*).
 * **C)** As operações de leitura de esquemas e documentação utilizam a primitiva *Resources* (somente-leitura), enquanto operações de mutação utilizam primitivas *Tools* com esquemas JSON Schema rígidos e controle de privilégios de acesso que exigem confirmação explícita de operador autorizado.
 * **D)** O protocolo MCP foi configurado para converter todos os dados confidenciais do banco de dados em imagens bitmap públicas antes do envio ao modelo.
 * **E)** As conexões locais via transporte `stdio` foram substituídas por conexões telnet sem criptografia na rede pública.
@@ -479,14 +479,14 @@ Considerando o funcionamento das primitivas e a governança do MCP, a equipe de 
 ---
 
 ### Teste 159
-**(FCC – Inédita – Padrão TCE-GO)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A especificação oficial do Model Context Protocol (MCP) padroniza dois mecanismos fundamentais de transporte de dados para a troca de mensagens formatadas em JSON-RPC entre clientes e servidores MCP:
 
 * **A)** `FTP` e `Telnet`
 * **B)** `stdio` (entrada e saída padrão do processo local) e `SSE` (*Server-Sent Events* sobre HTTP com requisições POST para mensagens do cliente)
 * **C)** `SMTP` e `POP3`
 * **D)** `Bluetooth` e `NFC`
-* **E)** Cabos coaxiais e sinais de rádio AM/FM considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **E)** Cabos coaxiais e sinais de rádio AM/FM.
 
 
 ---
@@ -546,10 +546,10 @@ Em arquiteturas corporativas avançadas, a complexidade de um sistema de softwar
 ---
 
 ### Teste 160
-**(Cebraspe – TRF/STJ – 2024/2025 – Adaptada para o padrão FCC)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No mecanismo de *Tool Use* (ou *Function Calling*) utilizado por modelos de linguagem avançados para interagir com o ambiente de desenvolvimento, o papel formal do modelo de linguagem (LLM) e do cliente da aplicação estrutura-se da seguinte maneira:
 
-* **A)** O LLM executa diretamente comandos de baixo nível no processador do servidor de banco de dados sem passar por qualquer software intermediário considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **A)** O LLM executa diretamente comandos de baixo nível no processador do servidor de banco de dados sem passar por qualquer software intermediário.
 * **B)** O LLM recebe a descrição das ferramentas disponíveis formatada em JSON Schema; quando decide que uma ferramenta é necessária, o modelo interrompe a geração e emite uma estrutura JSON com o nome da função e os argumentos requeridos; cabe ao cliente local executar o código real da ferramenta e devolver os dados resultantes para que o LLM continue o raciocínio.
 * **C)** O cliente local não tem permissão para auditar ou barrar os comandos emitidos pelo LLM.
 * **D)** A especificação das ferramentas deve ser escrita obrigatoriamente em código binário hexadecimal de 32 bits.

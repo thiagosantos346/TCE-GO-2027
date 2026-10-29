@@ -92,12 +92,12 @@ O documento de referência primária no Brasil é o **Manual de Redação da Pre
 ---
 
 ### Teste 062
-**(FCC – TCE-GO – Analista de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Segundo as diretrizes consagradas pelo Manual de Redação da Presidência da República (3ª edição) e pelo ordenamento constitucional vigente (art. 37 da CF/88):
 
 * **A)** A redação oficial admite a inserção de impressões pessoais e juízos subjetivos do redator, desde que justificados pelo interesse público primário.
 * **B)** A impessoalidade da redação oficial desdobra-se em tríplice dimensão: impessoalidade do emissor (é o serviço público quem se manifesta, e não o servidor individualmente), impessoalidade do destinatário (o texto destina-se ao cidadão ou a outro órgão com tratamento uniforme e isonômico) e impessoalidade do assunto (trata-se estritamente do interesse público, sem paixões político-partidárias).
-* **C)** O Decreto Federal nº 9.758/2019 instituiu o uso obrigatório dos pronomes *Vossa Excelência* e *Ilustríssimo* em toda e qualquer comunicação direta com os cidadãos comuns considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **C)** O Decreto Federal nº 9.758/2019 instituiu o uso obrigatório dos pronomes *Vossa Excelência* e *Ilustríssimo* em toda e qualquer comunicação direta com os cidadãos comuns.
 * **D)** A publicidade dos atos administrativos autoriza a utilização de gírias e jargões regionais nos expedientes oficiais visando aproximar o Estado das massas populares.
 * **E)** O princípio da eficiência desobriga os órgãos de controle externo de observar o padrão culto da língua portuguesa na elaboração de seus relatórios.
 
@@ -137,7 +137,7 @@ A impessoalidade é a viga mestra da redação pública, decompondo-se em três 
 A concisão consiste em transmitir o máximo de conteúdo informativo útil com o menor número possível de palavras, sem jamais sacrificar a clareza. São regras práticas para atingir a concisão:
 
 * Cortar adjetivações vazias, advérbios redundantes e superlativos artificiais;
-* Eliminar rodeios oratórios e circunlóquios burocráticos (*"Vimos pela presente trazer ao vosso conhecimento o fato de que..."* $\rightarrow$ substitua simplesmente por: *"Comunico que..."*);
+* Eliminar rodeios oratórios e circunlóquios burocráticos (*"Vimos pela presente trazer ao vosso conhecimento o fato de que.."* $\rightarrow$ substitua simplesmente por: *"Comunico que.."*);
 * Suprimir períodos de introdução cerimoniosa que nada acrescentam à matéria de fato.
 
 ### 2.4 Formalidade, Padronização e Tipografia
@@ -155,7 +155,7 @@ O emprego da norma-padrão da língua portuguesa decorre do fato de que a língu
 ---
 
 ### Teste 063
-**(FCC – DPE-RS – Analista de Comunicação)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Assinale a alternativa que apresenta um trecho de correspondência oficial eivado de **vício de impessoalidade e prolixidade**, em desacordo com as diretrizes do Manual de Redação Oficial:
 
 * **A)** *"Comunico que a fiscalização das obras da rodovia estadual terá início na próxima segunda-feira, às nove horas."*
@@ -180,10 +180,10 @@ Assinale a alternativa que apresenta um trecho de correspondência oficial eivad
 ---
 
 ### Teste 064
-**(FCC – TRT-23 – Analista Judiciário)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Quanto à diagramação, tipografia e padrão gráfico dos expedientes oficiais prescritos na 3ª edição do Manual de Redação da Presidência da República:
 
-* **A)** É livre o emprego de qualquer fonte tipográfica decorativa no corpo do ofício, a critério discricionário do redator do documento considerando os requisitos operacionais de segurança, escalabilidade, auditoria e desempenho corporativo.
+* **A)** É livre o emprego de qualquer fonte tipográfica decorativa no corpo do ofício, a critério discricionário do redator do documento.
 * **B)** O MRPR padronizou o uso obrigatório das fontes tipográficas *Calibri* ou *Carlito*, corpo 12 pontos no texto principal, com espaçamento simples entre linhas e parágrafos numerados sequencialmente a partir do segundo parágrafo.
 * **C)** O recuo de parágrafo deve ser de 5 centímetros a partir da margem esquerda da página.
 * **D)** A datação do expediente deve constar de forma centralizada e sem a indicação do local de emissão.
@@ -246,7 +246,7 @@ O emprego dos pronomes de tratamento exige o cumprimento rigoroso de três regra
 
 ### 3.3 Sistema de Vocativos: A Distinção entre Chefes de Poder e Demais Autoridades
 
-A 3ª edição do MRPR simplificou radicalmente os vocativos, reservando a locução *"Excelentíssimo Senhor..."* **exclusivamente aos Chefes dos Três Poderes da República**:
+A 3ª edição do MRPR simplificou radicalmente os vocativos, reservando a locução *"Excelentíssimo Senhor.."* **exclusivamente aos Chefes dos Três Poderes da República**:
 
 1. **Vocativo "Excelentíssimo Senhor [Cargo],":**
     * *Excelentíssimo Senhor Presidente da República,*
@@ -281,7 +281,7 @@ O Manual de Redação da Presidência da República e o Decreto nº 9.758/2019 b
 ---
 
 ### Teste 065
-**(FCC – TRT – Técnico Judiciário)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No que concerne ao emprego de pronomes de tratamento e à concordância gramatical em documentos oficiais, assinale a opção que atende integralmente às normas do MRPR:
 
 * **A)** *"Informamos a Vossa Excelência que vossos pedidos foram acolhidos e solicitamos que compareçais à cerimônia de posse."*
@@ -307,7 +307,7 @@ No que concerne ao emprego de pronomes de tratamento e à concordância gramatic
 ---
 
 ### Teste 066
-**(FCC – TCE-GO – Analista de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 O Presidente do Tribunal de Contas do Estado de Goiás necessita encaminhar expediente oficial ao Governador do Estado e, simultaneamente, outro expediente ao Diretor de Escola Pública Estadual. De acordo com a 3ª edição do Manual de Redação da Presidência da República (MRPR), os vocativos e fechos adequados para cada uma dessas comunicações são, respectivamente:
 
 * **A)** Para o Governador: *"Excelentíssimo Senhor Governador,"* / *"Respeitosamente,"*; Para o Diretor: *"Ilustríssimo Senhor Diretor,"* / *"Cordialmente,"*.
@@ -368,7 +368,7 @@ Nos expedientes estruturados no padrão ofício:
 * Se o texto contiver **apenas um único parágrafo**, este **não recebe numeração** arábica;
 * Se o texto contiver dois ou mais parágrafos, **todos os parágrafos são numerados a partir do segundo** (o primeiro parágrafo, correspondente à introdução, nunca é numerado):
     * Primeiro parágrafo: não numerado (introdução);
-    * Segundo parágrafo em diante: numerados com algarismos arábicos (2., 3., 4....).
+    * Segundo parágrafo em diante: numerados com algarismos arábicos (2., 3., 4..).
 
 ### 4.5 Identificação do Signatário e Vedação à Linha de Assinatura
 
@@ -399,7 +399,7 @@ flowchart TD
 ---
 
 ### Teste 067
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 A respeito da padronização de expedientes oficiais segundo a 3ª edição do Manual de Redação da Presidência da República, considere as afirmações:  
 
 I. As comunicações oficiais internas entre diretorias e gerências de um mesmo órgão público devem ser redigidas sob a denominação de *Memorando*.  
@@ -434,7 +434,7 @@ Está correto o que se afirma em:
 ---
 
 ### Teste 068
-**(FCC – METRÔ-SP – Analista de Administração)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Quanto à estrutura física e à diagramação padrão do **Ofício** prescritas na 3ª edição do MRPR:
 
 * **A)** A fonte tipográfica padrão recomendada para o texto é Comic Sans ou Arial Black, tamanho 14.
@@ -459,7 +459,7 @@ Quanto à estrutura física e à diagramação padrão do **Ofício** prescritas
 ---
 
 ### Teste 069
-**(FCC – DPE-RS – Analista Processual)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere as seguintes afirmações sobre a assinatura e os fechos nos expedientes oficiais segundo o Manual de Redação da Presidência da República:  
 
 I. *O MRPR estabelece um sistema binário de fechos: "Respeitosamente", para autoridades de hierarquia superior à do signatário (inclusive o Presidente da República); e "Atenciosamente", para autoridades de mesma hierarquia, de hierarquia inferior ou para particulares.*  
@@ -528,7 +528,7 @@ No âmbito do controle externo, a produção textual desdobra-se em espécies es
 ---
 
 ### Teste 070
-**(FCC – TRT-14 – Analista Judiciário)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Acerca do correio eletrônico institucional (*e-mail*) no âmbito da administração pública, de acordo com o Manual de Redação da Presidência da República:
 
 * **A)** Por constituir comunicação informal e dinâmica, dispensa o cumprimento do padrão culto da língua e dos parâmetros de clareza e impessoalidade.
@@ -553,7 +553,7 @@ Acerca do correio eletrônico institucional (*e-mail*) no âmbito da administra�
 ---
 
 ### Teste 071
-**(FCC – TCE-PI – Auditor de Controle Externo)**  
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 Considere as seguintes definições sobre espécies documentais da administração pública:  
 
 1. *Documento formal emitido pelos Tribunais de Contas com caráter terminativo ou resolutivo, consubstanciando a decisão colegiada definitiva sobre a regularidade ou irregularidade das contas de um gestor.*  
