@@ -113,26 +113,50 @@ Nos moldes dos artigos 1º a 3º da Lei nº 16.168/2007, compete privativamente 
 ---
 
 ### Teste 132
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-De acordo com as disposições da Lei Orgânica do Tribunal de Contas do Estado de Goiás (Lei Estadual nº 16.168/2007, arts. 1º a 4º), estão sujeitos à jurisdição do TCE-GO:
+**(FGV – TCE-GO – Analista de Controle Externo – 2024)**  
+A Lei nº 16.168, de 11 de dezembro de 2007, estabelece a Lei
 
-* **A)** Exclusivamente os chefes dos Poderes Executivo, Legislativo e Judiciário, excluindo-se servidores subordinados e dirigentes de entidades privadas. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **B)** Qualquer pessoa física ou jurídica, pública ou privada, que utilize, arrecade, guarde, gerencie ou administre dinheiros, bens e valores públicos estaduais ou pelos quais o Estado responda, bem como aqueles que derem causa a perda, extravio ou outra irregularidade de que resulte dano ao erário.
-* **C)** Apenas os agentes que praticarem atos com dolo comprovado, ficando as condutas culposas isentas da jurisdição fiscalizatória da Corte de Contas.
-* **D)** As empresas públicas e sociedades de economia mista apenas no que tange às suas atividades-meio de contratação de pessoal temporário.
-* **E)** Exclusivamente os órgãos da administração direta estadual, excluídas as fundações e autarquias dotadas de personalidade jurídica própria.
+Orgânica do TCE -GO, regulamentando suas atribuições e
 
+funcionamento.
+
+Sobre a jurisdição do TCE-GO, analise os itens a seguir:
+
+I. O TCE-GO tem jurisdição própria e privativa em todo o
+
+território estadual, sobre as pessoas e matérias sujeitas à sua
+
+competência.
+
+II. A jurisdição do Tribunal exclui aqueles que derem causa a
+
+perda, extravio ou outra irregularidade de que resulte dano ao
+
+erário.
+
+III. A jurisdição do Tribunal abrange os dirigentes ou liquidantes
+
+de autarquias constituídas com recursos do Estado.
+
+Está correto o que se afirma em
+
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A jurisdição do TCE-GO alcança todos os ordenadores de despesas e administradores públicos em qualquer nível funcional, além de particulares que causem dano aos cofres públicos.
-> - **B)** Correta. Reproduz com precisão o comando do art. 2º da Lei Orgânica do TCE-GO (Lei nº 16.168/2007), que espelha o art. 70, parágrafo único, da CF/88 e art. 26 da CE/GO: a sujeição à jurisdição da Corte abrange todas as pessoas físicas e jurídicas (públicas ou privadas) gestoras de recursos estaduais ou que causem prejuízo patrimonial ao Estado de Goiás.
-> - **C)** Incorreta. A responsabilidade perante o Tribunal de Contas alcança atos omissivos ou comissivos praticados tanto com dolo quanto com culpa estrita (negligência, imprudência ou imperícia).
-> - **D) e E)** Incorretas. Toda a administração indireta estadual (autarquias, fundações, empresas públicas e sociedades de economia mista) submete-se integralmente à fiscalização contábil, financeira, orçamentária, operacional e patrimonial do TCE-GO.
+> - **A)** Correta. Analisando os itens à luz dos artigos 1º a 4º da Lei Estadual nº 16.168/2007 (LOTCE-GO): I está CORRETO (o TCE-GO tem jurisdição própria e privativa em todo o território estadual sobre pessoas e matérias sob sua alçada); II está INCORRETO (a jurisdição do Tribunal inclui expressamente aqueles que derem causa a perda, extravio ou dano ao erário, art. 3º, II); III está INCORRETO (a redação legal abrange os dirigentes de autarquias criadas ou mantidas pelo Estado, não aquelas 'constituídas com recursos'). Logo, apenas o item I está plenamente correto.
+> - **B)** Incorreta. O item II contraria a essência da jurisdição de contas ao afirmar que exclui causadores de dano.
+> - **C)** Incorreta. O item III possui vício de adequação textual à LOTCE.
+> - **D)** Incorreta. O item II é manifestamente absurdo.
+> - **E)** Incorreta. Apenas a proposição I é verdadeira.
 >
-> **Gabarito: B**
+> **Gabarito: A**
 
 ---
 
@@ -166,30 +190,54 @@ O Tribunal fiscaliza procedimentos de licitação, editais, atas de registro de 
 ---
 
 ### Teste 133
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A Lei Orgânica do TCE-GO (Lei nº 16.168/2007, arts. 5º a 10) tipifica os instrumentos operacionais de fiscalização a serem utilizados pelo Tribunal. Considere as seguintes definições:  
+**(FGV – TCE-GO – Analista de Controle Externo – 2024)**  
+As competências do
 
-1. *Instrumento destinado a verificar a legalidade e a legitimidade dos atos e fatos administrativos em andamento ou já praticados, bem como coligir dados preliminares ou esclarecer dúvidas decorrentes de denúncia ou representação.*  
-2. *Instrumento utilizado para verificar a eficácia, eficiência e economicidade da gestão, mediante exame aprofundado dos sistemas de gestão e das operações financeiras e patrimoniais do órgão.*  
-3. *Instrumento voltado a verificar o cumprimento de deliberações do Tribunal e os resultados das recomendações e determinações expedidas em processos anteriores.*  
+nos artigos 25 e 26 da Constituição do Estado de Goiás e no art. 1°
 
-Os instrumentos operacionais descritos em 1, 2 e 3 correspondem, respectivamente, a:
+da Lei n° 16.168, de 11 de dezembro de 2007 Lei Orgânica do
 
-* **A)** Levantamento – Auditoria – Acompanhamento
-* **B)** Inspeção – Auditoria – Monitoramento
-* **C)** Auditoria – Levantamento – Monitoramento
-* **D)** Inspeção – Levantamento – Acompanhamento
-* **E)** Monitoramento – Inspeção – Auditoria
+Sobre as competências do TCE-GO, analise os itens a seguir:
 
+I. As decisões do Tribunal de que resulte imputação de débito ou
+
+multa terão eficácia de título executivo.
+
+II. O TCE -GO terá amplo poder de investigação, cabendo -lhe
+
+requisitar e examinar, diretamente ou p or meio de seu corpo
+
+técnico, a qualquer tempo, todos os elementos necessários ao
+
+exercício de suas atribuições, não lhe podendo ser sonegado
+
+processo, documento ou informação, a qualquer pretexto, sob
+
+pena de responsabilidade.
+
+III. O Tribunal de Contas prestará contas anuais à Assembleia
+
+Legislativa, bem como encaminhará relatórios mensais e anual
+
+de suas atividades.
+
+Está correto o que se afirma em
+
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **Item 1:** A **Inspeção** é o instrumento de fiscalização pontual e emergencial utilizado pelo TCE-GO para suprir omissões, esclarecer fatos duvidosos, apurar denúncias/representações ou periciar atos e contratos específicos (art. 7º da Lei 16.168/2007).
-> - **Item 2:** A **Auditoria** é o instrumento estruturado e programado de controle pelo qual o Tribunal avalia a conformidade, economicidade, eficiência e efetividade de órgãos e programas governamentais (art. 8º da Lei 16.168/2007).
-> - **Item 3:** O **Monitoramento** é o instrumento fiscalizatório destinado especificamente a verificar o cumprimento de determinações, acórdãos e recomendações emanados pelo TCE-GO e avaliar seus impactos práticos (art. 10 da Lei 16.168/2007).
-> - **Conclusão:** A sequência exata é *Inspeção – Auditoria – Monitoramento* (Alternativa B).
+> - **A)** Incorreta. O item II também é verdadeiro nos termos do art. 1º, § 2º, da Lei nº 16.168/2007.
+> - **B)** Correta. Analisando as proposições com base na Lei Estadual nº 16.168/2007: I está CORRETO (o art. 1º, § 1º, da LOTCE e o art. 71, § 3º, da CF/88 preveem que os acórdãos condenatórios em débito ou multa valem como título executivo extrajudicial); II está CORRETO (o art. 1º, § 2º, confere amplo poder fiscalizatório e investigatório ao TCE-GO, sendo crime de responsabilidade e infração grave a sonegação de informações); III está INCORRETO (o encaminhamento de relatórios pelo TCE-GO à ALEGO é trimestral e anual, e não 'mensais e anual'). Portanto, I e II estão corretos.
+> - **C)** Incorreta. O item III erra a periodicidade dos relatórios de atividades.
+> - **D)** Incorreta. O item III está incorreto.
+> - **E)** Incorreta. A inclusão do item III torna a opção inválida.
 >
 > **Gabarito: B**
 
@@ -423,79 +471,74 @@ Em consonância com as teses vinculantes fixadas pelo Supremo Tribunal Federal (
 ---
 
 ### Teste 138
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Determinado Secretário de Estado de Goiás foi sancionado pelo Tribunal Pleno do TCE-GO em processo de fiscalização de licitação pública com aplicação de penalidade de multa por grave infração a preceito da Lei de Licitações. Querendo recorrer da decisão colegiada, o gestor deverá utilizar a via recursal cabível segundo a Lei Orgânica do TCE-GO (Lei Estadual nº 16.168/2007), que prevê:
+**(FGV – TCE-GO – Analista de Controle Externo – 2024)**  
+Joana foi empossada como auditora do Tribunal de Contas do Estado de Goiás. Ciente de que, entre as atribuições afetas ao seu cargo, estava a de substituir os Conselheiros, consultou a Lei Orgânica do Tribunal em relação aos requisitos e às circunstâncias afetas a essa substituição, tendo concluído corretamente que
 
-* **A)** Recurso de Reconsideração, a ser interposto no prazo preclusivo de quinze dias úteis, dotado de efeito apenas devolutivo.
-* **B)** Recurso de Reexame, no prazo de trinta dias, que terá efeito suspensivo e devolutivo, a ser apreciado pelo Tribunal Pleno.
-* **C)** Embargos Infringentes, no prazo de cinco dias, desde que a decisão colegiada não tenha sido unânime.
-* **D)** Agravo de Instrumento perante o Tribunal de Justiça do Estado de Goiás, uma vez exaurida a jurisdição administrativa do Tribunal de Contas.
-* **E)** Recurso de Apelação Administrativa, no prazo de dez dias, encaminhado à Assembleia Legislativa de Goiás para deliberação final.
-
+* **A)** a su bstituição pressupõe que o respectivo Conselheiro a requeira.
+* **B)** a substituição dos Conselheiros, pelos auditores, observará critérios de rodízio.
+* **C)** há uma vinculação permanente entre ela, Joana, e determinado Conselheiro, para fins de substituição.
+* **D)** a sistemática de substituição é integralmente definida na Lei Orgânica do Tribunal de Contas do Estado de Goiás.
+* **E)** é de competência exclusiva do Presidente do Tribunal a convocação dos auditores para substituir Conselheiros.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** O Recurso de Reconsideração (Art. 52) é privativo e exclusivo de decisões proferidas em processos de **contas** (prestação de contas ou tomada de contas). Em processo de fiscalização de licitações, atos e contratos, a modalidade adequada é o Recurso de Reexame. Além disso, o prazo legal é de 30 dias contínuos.
-> - **B) CORRETA.** O artigo 53 da Lei Estadual nº 16.168/2007 prevê expressamente que cabe **Recurso de Reexame** de decisão definitiva proferida em processo concernente a ato sujeito a registro, fiscalização de atos, contratos, editais, termos aditivos, denúncias e representações, no prazo de **trinta (30) dias**, dotado de efeito devolutivo e **suspensivo**, sendo julgado pelo Tribunal Pleno.
-> - **C) Incorreta.** O rol recursal da Lei Orgânica do TCE-GO é exaustivo e não prevê a figura dos Embargos Infringentes.
-> - **D) Incorreta.** O Poder Judiciário não atua como instância recursal hierárquica das decisões dos Tribunais de Contas; o controle judicial é estritamente de legalidade e mediante ação própria ordinária, inexistindo agravo de instrumento judicial contra acórdão de TCE.
-> - **E) Incorreta.** A Assembleia Legislativa não julga recursos interpostos contra decisões sancionatórias do Tribunal de Contas, órgão dotado de autonomia decisória plena.
-> 
+> - **A)** Incorreta. A convocação de auditor substituto decorre de impedimento, licença, suspeição ou vacância legal, independendo de solicitação discricionária do substituído.
+> - **B)** Correta. Nos termos da Lei Estadual nº 16.168/2007 e do Regimento Interno do TCE-GO, a convocação dos Auditores (Conselheiros-Substitutos) para substituir os Conselheiros em seus impedimentos legais, licenças e vacâncias obedece a uma escala prévia e critérios objetivos de rodízio.
+> - **C)** Incorreta. Não existe vinculação ad hoc perpétua ou pessoal entre determinado auditor e um gabinete específico de conselheiro.
+> - **D)** Incorreta. A disciplina detalhada do procedimento de convocação e da escala de substituição é remetida ao Regimento Interno do Tribunal.
+> - **E)** Incorreta. O chamamento opera-se de acordo com escala objetiva pré-fixada regulamentarmente.
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 139
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Decorridos dois anos da publicação de acórdão definitivo transitado em julgado do TCE-GO que condenou um ex-ordenador de despesas a ressarcir os cofres públicos por suposto desvio de recursos, foram localizadas nos arquivos da Secretaria notas fiscais originais e atestados de recebimento da época que comprovam inequivocamente a efetiva entrega das mercadorias e a regularidade do pagamento. Diante dessa nova situação, o ex-gestor:
+**(FGV – TCE-GO – Analista de Controle Externo – 2024)**  
+Determinado processo administrativo foi encaminhado para apreciação do Ministério Público de Contas do Estado de Goiás, ocasião em que, com base nas regras de distribuição, foi encaminhado ao Procurador de Contas XX. No momento da distribuição, dois assessores do P rocurador-Geral de Contas debateram sobre a possibilidade, ou não, de serem estabelecidas orientações a serem observadas pelo Procurador que atuará no caso, quanto à análise do seu mérito. Ao final do debate, os assessores concluíram corretamente que
 
-* **A)** Não poderá mais recorrer no âmbito administrativo do TCE-GO, haja vista a preclusão absoluta operada pelo decurso do prazo de trinta dias da decisão definitiva em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **B)** Deverá interpor Recurso de Reconsideração, pois fatos novos reabrem a contagem do prazo recursal originário de trinta dias.
-* **C)** Poderá interpor Recurso de Revisão no prazo de até cinco anos contados do trânsito em julgado, com base na superveniência de documentos novos com eficácia sobre a prova produzida.
-* **D)** Poderá interpor Embargos de Declaração perante o Tribunal Pleno com efeito suspensivo imediato sobre a dívida ativa.
-* **E)** Deverá ajuizar Reclamação Constitucional perante o Supremo Tribunal Federal, sendo vedado novo pronunciamento da Corte de Contas estadual.
-
+* **A)** não podem ser estabelecidas orientações vinculantes, em relação à análise do mérito.
+* **B)** por força do princípio hierárquico, as orientações podem ser estabelecidas e serão vinculantes.
+* **C)** será possível a revogação das conclusões do parecer, por razões de conveniência e oportunidade.
+* **D)** as orientações podem ser estabelecidas, mas apenas no âmbito do planejamento estratégico, pelo colegiado competente do Ministério Público de Contas.
+* **E)** como o Ministério Público de Contas integra a estrutura do Tribunal de Contas, cabe a esta estrutura, por sua presidência, estabelecer as referidas orientações. TRIBUNAL DE CONTAS DO ESTADO DE GOIÁS FGV CONHECIMENTO ANALISTA DE CONTROLE EXTERNO - CIENCIAS CONTABEIS – MANHÃ TIPO BRANCA – PÁGINA 7
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** A autoridade da coisa julgada administrativa em processos de controle externo não é absoluta; a decisão transitada em julgado é passível de revisão extraordinária via Recurso de Revisão no prazo quinquenal.
-> - **B) Incorreta.** O Recurso de Reconsideração tem prazo preclusivo originário de 30 dias contados da publicação da decisão e somente cabe antes da ocorrência do trânsito em julgado.
-> - **C) CORRETA.** Nos exatos termos do artigo 56 da Lei nº 16.168/2007: cabe **Recurso de Revisão** ao Tribunal Pleno, interposto em uma única oportunidade e dentro do prazo decadencial de **cinco (5) anos** contados do trânsito em julgado da deliberação condenatória, fundado em: I - erro de cálculo nas contas; II - falsidade de documento que serviu de sustentáculo à condenação; ou III - **superveniência de novos documentos com eficácia preponderante sobre a prova produzida**.
-> - **D) Incorreta.** O prazo legal dos Embargos de Declaração é de 10 dias da publicação do ato e destina-se estritamente à sanação de obscuridades ou omissões do julgado, sendo via imprópria para dilação probatória nova após o trânsito em julgado.
-> - **E) Incorreta.** A Reclamação ao STF presta-se exclusivamente à preservação da competência do Supremo ou garantia de eficácia de súmula vinculante, descabendo para juntada probatória de quitação fática perante o Tribunal de Contas.
-> 
-> **Gabarito: C**
+> - **A)** Correta. O Ministério Público de Contas rege-se pelos princípios institucionais da unidade, da indivisibilidade e da independência funcional (art. 127, § 1º, da CF/88 c/c LOTCE-GO). Em razão da independência funcional, o Procurador-Geral de Contas não pode expedir ordens ou orientações vinculantes quanto ao mérito de pareceres ou manifestações aos membros do MPC.
+> - **B)** Incorreta. Não incide subordinação hierárquica funcional no exercício da atividade finalística de fiscalização da lei.
+> - **C)** Incorreta. É vedada a revisão hierárquica por conveniência sobre a manifestação técnica e jurídica do Procurador natural.
+> - **D)** Incorreta. O planejamento estratégico não tem o condão de restringir a livre convicção jurídica no parecer ministerial.
+> - **E)** Incorreta. O MPC goza de autonomia funcional no cumprimento de seus deveres constitucionais, sem subordinação ao Presidente do TCE.
+>
+> **Gabarito: A**
 
 ---
 
 ### Teste 140
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Sobre o sistema recursal disciplinado nos artigos 54 a 65 da Lei Orgânica do TCE-GO (Lei nº 16.168/2007), assinale a afirmativa correta:
+**(FGV – TCE-GO – Analista de Controle Externo – 2024)**  
+Determinada Câmara do aplicou sanções a João, ordenador de despesas no âmbito da Administração Pública indireta do poder público estadual, isto por ter constatado ilegalidade na realização de uma despesa. Irresignado com o teor dessa decisão, João almejava obter a sua reforma com a interposição do recurso cabível. À luz do Regimento Interno do Goiás, é correto afirmar que
 
-* **A)** O Pedido de Reconsideração é cabível em face de qualquer acórdão proferido pelo Tribunal Pleno em grau originário de recurso.
-* **B)** O Recurso de Reexame é a modalidade recursal cabível contra decisões definitivas ou terminativas proferidas em processos de prestação ou tomada de contas, possuindo efeito suspensivo.
-* **C)** Os Embargos de Declaração podem ser opostos no prazo improrrogável de 30 dias contados da publicação do acórdão impugnado.
-* **D)** O Pedido de Rescisão (ou Revisão) constitui recurso ordinário com efeito suspensivo automático que impede a execução da decisão condenatória em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **E)** Das decisões proferidas pelo Tribunal Pleno não cabe qualquer espécie de recurso, operando-se preclusão imediata.
-
+* **A)** não é cabível a interposição de recurso, já que os órgãos internos do Tribunal atuam como se fossem o próprio Tribunal.
+* **B)** pode ser interposto o recurso de reconsideração, a ser julgado pelas Câmaras Reunidas, desde que preenchidos os requisitos exigidos.
+* **C)** pode ser interposto o recurso de embargos infringentes, a ser julgado pelo Plenário, desde que preenchidos os requisitos exigidos.
+* **D)** pode ser interposto o recurso ordinário, a ser julgado pela própria Câmara, desde que preenchidos os requisitos exigidos.
+* **E)** pode ser interposto o recurso de revisão, a ser julgado pelo Plenário, desde que preenchidos os requisitos exigidos.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O Pedido de Reconsideração destina-se a impugnar decisões terminativas ou definitivas de processos de fiscalização (não de contas ordinárias), e não cabe contra decisões que já apreciaram recurso anterior.
-> - **B)** Correta. Conforme os arts. 55 e 56 da Lei Orgânica do TCE-GO, o **Recurso de Reexame** é o instrumento recursal próprio para atacar decisões proferidas em processos de tomada ou prestação de contas, dotado de efeito devolutivo e suspensivo, admitindo reexame integral da matéria fática e de direito pelo Tribunal Pleno.
-> - **C)** Incorreta. O prazo regimental para a oposição de Embargos de Declaração no TCE-GO é de **5 dias** (art. 60 da Lei Orgânica), e não 30 dias.
-> - **D)** Incorreta. O Pedido de Revisão é uma ação de impugnação autônoma (análoga à ação rescisória civil), fundada em fatos novos ou documentos falsos supervenientes, e não possui efeito suspensivo automático.
-> - **E)** Incorreta. Das decisões originárias do Pleno cabem recursos expressamente previstos em lei, tais como embargos de declaração, recurso de reexame e pedido de revisão.
+> - **A)** Incorreta. O sistema processual do TCE-GO consagra expressamente o duplo grau de jurisdição e a ampla defesa recursal.
+> - **B)** Incorreta. O recurso de reconsideração não é julgado por Câmaras Reunidas na estrutura do TCE-GO.
+> - **C)** Incorreta. Não existe a espécie 'embargos infringentes' no rol recursal da Lei Orgânica do TCE-GO.
+> - **D)** Incorreta. O recurso ordinário contra decisão de Câmara não é julgado pelo mesmo colegiado fracionário.
+> - **E)** Correta. De acordo com o sistema recursal da Lei Orgânica do TCE-GO (Lei nº 16.168/2007, arts. 54 e seguintes) e do Regimento Interno, contra decisão definitiva transitada em julgado proferida por Câmara é cabível o Recurso de Revisão, de competência privativa do Tribunal Pleno, fundado em erro de cálculo, falsidade de documento ou surgimento de documentos novos com eficácia sobre a prova produzida.
 >
-> **Gabarito: B**
-
----
+> **Gabarito: E**
 
 ---
 

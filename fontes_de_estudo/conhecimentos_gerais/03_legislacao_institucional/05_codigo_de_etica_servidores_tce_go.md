@@ -130,29 +130,26 @@ No âmbito do TCE-GO, o manuseio de dados fiscais, bancários, orçamentários e
 ---
 
 ### Teste 163
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Nos termos do Código de Ética dos Servidores do TCE-GO, quanto aos deveres funcionais e à postura profissional do servidor:
+**(FGV – TCE-GO – Analista de Controle Externo – 2024)**  
+Maria, servidora do conhecimento, em sua vida privada, de que Joana, também servidora dessa estrutura orgânica, não era assídua e frequente ao serviço, o que comprometia o regular funcionamento do setor a que estava vinculada. Ao analisar o Código de Ética para os Servidores do Tribunal de Contas do Estado de Goiás, Maria concluiu corretamente que
 
-* **A)** É facultado ao auditor tratar com rispidez cidadãos e gestores fiscalizados para assegurar a autoridade do cargo e a imposição da fiscalização.
-* **B)** O servidor deve desempenhar suas funções com zelo, celeridade e assiduidade, pautando suas relações interpessoais pela urbanidade, respeito e consideração mútua tanto perante os jurisdicionados quanto perante seus colegas de trabalho.
-* **C)** A produtividade técnica do servidor isenta-o de observar a pontualidade e o decoro no ambiente físico e virtual de trabalho.
-* **D)** O servidor pode priorizar a instrução de processos de interesse de conhecidos ou amigos íntimos, desde que não receba remuneração extra.
-* **E)** É lícito ao servidor negar atendimento ao público externo fora dos dias designados para sessões plenárias.
-
+* **A)** tem a faculdade de informar ao superior hierárquico de Joana sobre a sua conduta.
+* **B)** em razão dos princípios da ética relacional, não deve se arvorar em órgão correcional de Joana.
+* **C)** deve notificar a Comissão de Ética a respeito da conduta de Joana, por ser contrária ao Código de Ética.
+* **D)** deve representar ao Presidente do Tribunal de Contas para que adote as providências cabíveis contra Joana, no plano estatutário.
+* **E)** deve informar ao seu superior hierárquico em relação à conduta de Joana, cabendo àquele comunicar ao superior hierárquico desta última.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A urbanidade e o respeito à dignidade humana dos fiscalizados e do cidadão são deveres éticos inafastáveis. O rigor técnico não se confunde com grosseria ou truculência.
-> - **B)** Correta. O Código de Ética estatui como deveres primordiais do servidor a assiduidade, presteza, zelo técnico e a urbanidade exemplar nas relações de serviço e no trato com o público e colegas de trabalho.
-> - **C)** Incorreta. A conduta ética exige a observância integral dos deveres funcionais, inclusive pontualidade e decoro profissional.
-> - **D)** Incorreta. Quebra manifesta da impessoalidade e isonomia processual (favorecimento antiético).
-> - **E)** Incorreta. A prestação de serviços e a presteza ao público são contínuas no horário de funcionamento regulamentar da Corte.
+> - **A)** Incorreta. A comunicação de desvio ético funcional apurado não é mera faculdade personalíssima dispensável quando afeta a credibilidade do Tribunal.
+> - **B)** Incorreta. A ética no serviço público impõe o dever de lealdade às normas éticas institucionais em benefício do serviço público.
+> - **C)** Correta. Nos termos do Código de Ética dos Servidores do TCE-GO, constitui dever funcional e ético de todo servidor comunicar à Comissão de Ética do Tribunal qualquer conduta reiterada de colega de trabalho que infrinja os preceitos éticos regimentais (como o descompromisso reiterado com a assiduidade e pontualidade, que lesiona a eficiência do setor), possibilitando a averiguação preliminar pela instância ética competente.
+> - **D)** Incorreta. A representação ao Presidente é via hierárquica disciplinar, enquanto a instância inicial própria para a averiguação da infração ao Código de Ética é a respectiva Comissão de Ética.
+> - **E)** Incorreta. A apuração ética não se submete à via indireta obrigatória de filtragem pelo superior de setor.
 >
-> **Gabarito: B**
-
----
+> **Gabarito: C**
 
 ---
 
@@ -276,27 +273,30 @@ Rodrigo, Técnico de Controle Externo do TCE-GO designado para compor comissão 
 ---
 
 ### Teste 167
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-De acordo com os princípios da INTOSAI (ISSAI 130) e as diretrizes do Código de Ética do Tribunal de Contas do Estado de Goiás, na hipótese de um servidor ser designado para fiscalizar entidade cujo dirigente máximo seja seu cônjuge ou parente colateral até o terceiro grau:
+**(FGV – TCE-PA – Auditor de Controle Externo – 2024)**  
+Um objetivo consagrado no Código de Ética e Disciplina
 
-* **A)** O servidor poderá realizar a auditoria normalmente, desde que se limite à análise de demonstrativos numéricos desprovidos de juízo discricionário em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **B)** O servidor tem o dever ético de declarar imediatamente seu impedimento ou suspeição, abstendo-se de praticar qualquer ato de instrução ou fiscalização.
-* **C)** Caberá à chefia imediata acompanhar presencialmente todas as entrevistas para garantir a neutralidade da inspeção.
-* **D)** O servidor deverá solicitar autorização prévia por escrito ao Governador do Estado para atuar nos autos.
-* **E)** Não há conflito de interesses quando o parentesco for decorrente de vínculo por afinidade legítima.
+dos Servidores do
 
+(Resolução nº 18.523/2013), é o de
+
+* **A)** fomentar a utilização de informação privilegiada após o exercício do cargo, para que o respectivo servidor possa obter dela vantagem.
+* **B)** impor o sigilo de todas as informações que tramitam perante o Tribunal de Contas, diante da relevância das situações analisadas pelo órgão de controle, no exercício de suas atribuições constitucionais.
+* **C)** propiciar, no campo ético, regras específicas sobre o conflito de interesses públicos e privados, de modo fazer prevalecer esses últimos sobre aqueles anteriormente mencionados.
+* **D)** assegurar aos servidores do Tribunal de Contas a preservação de sua imagem, ainda que seu comportamento seja contrário as normas éticas estabelecidas pela aludida norma.
+* **E)** tornar transparentes as regras éticas de conduta dos servidores do Tribunal de Contas, para que a sociedade possa aferir sua integridade e a lisura do processo de apreciação das contas públicas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** A existência de vínculo de parentesco macula objetivamente a presunção de imparcialidade e isenção técnica necessária à auditoria, mesmo em análises matemáticas.
-> - **B) CORRETA.** Em respeito aos princípios da **imparcialidade, moralidade e prevenção de conflito de interesses**, o servidor que constatar situação de parentesco consanguíneo ou por afinidade até o terceiro grau com dirigente ou parte interessada na entidade auditada tem a **obrigação ética de declarar de ofício seu impedimento**, solicitando sua substituição imediata na respectiva comissão de auditoria.
-> - **C) Incorreta.** O acompanhamento pela chefia não sana o impedimento legal do auditor com laços de consanguinidade com a autoridade auditada.
-> - **D) Incorreta.** O Governador do Estado não interfere nas designações de membros de equipes de controle do TCE-GO, órgão titular de autonomia institucional.
-> - **E) Incorreta.** O parentesco por afinidade (cunhados, sogros) submete-se às mesmíssimas restrições de suspeição e impedimento da legislação processual e ética.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. O uso de informação privilegiada para obtenção de vantagem pessoal ou de terceiros é expressamente vedado e constitui crime e falta funcional gravíssima.
+> - **B)** Incorreta. O princípio constitucional regente da administração pública é o da publicidade ampla, sendo o sigilo exceção restrita a casos de segurança ou segredo de justiça.
+> - **C)** Incorreta. As normas éticas determinam a prevalência incondicional do interesse público coletivo sobre o interesse privado.
+> - **D)** Incorreta. Os códigos de ética não servem como escudo corporativo para preservar imagem de agentes infratores.
+> - **E)** Correta. Nos termos das normas éticas aplicáveis aos Tribunais de Contas e consonante às diretrizes da INTOSAI (ISSAI 130), o Código de Ética tem como objetivo essencial conferir transparência às regras de integridade e probidade que pautam a atuação dos servidores do Controle Externo, fortalecendo a credibilidade perante a sociedade e garantindo a lisura no julgamento e fiscalização das contas públicas.
+>
+> **Gabarito: E**
 
 ---
 

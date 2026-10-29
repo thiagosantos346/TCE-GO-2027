@@ -392,26 +392,47 @@ Nos termos do artigo 74 da Constituição Federal de 1988, os responsáveis pelo
 ---
 
 ### Teste 128
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A respeito das normas constitucionais federais aplicáveis ao sistema de fiscalização contábil, financeira e orçamentária e da jurisprudência consolidada do Supremo Tribunal Federal, assinale a opção correta:
+**(FGV – TCE-GO – Analista de Controle Externo – 2024)**  
+A Constituição do Estado de Goiás estabelece a atuação político -
 
-* **A)** A competência para julgar as contas prestadas anualmente pelo Governador de Estado pertence ao respectivo Tribunal de Contas, o qual profere julgamento definitivo imune à revisão judicial de mérito.
-* **B)** A decisão do Tribunal de Contas que imputa débito ou comina penalidade de multa a ordenador de despesas ostenta eficácia de título executivo extrajudicial, cabendo à Procuradoria do próprio Tribunal de Contas promover a respectiva execução judicial considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
-* **C)** No caso de contrato administrativo eivado de ilegalidade insanável, o Tribunal de Contas comunicará o fato ao Poder Legislativo para que este adote o ato de sustação; todavia, caso o Legislativo ou o Executivo não adotem a medida no prazo de 90 dias, o próprio Tribunal de Contas decidirá a respeito da sustação do contrato.
-* **D)** O sistema de controle interno de cada Poder tem competência constitucional para emitir o parecer prévio sobre as contas do Chefe do Executivo, cabendo ao Tribunal de Contas apenas a homologação revisional.
-* **E)** As decisões dos Tribunais de Contas que resultam em imputação de débito ao agente público para reparação de dano ao erário são impassíveis de prescrição, consoante o princípio da imprescritibilidade geral da dívida ativa pública.
+administrativa no estado.
 
+Sobre o TCE-GO, analise os itens a seguir:
+
+I. Os cargos de Procurador de Contas integram quadro próprio
+
+do TCE-GO;
+
+II. O TCE -GO, integrado por cinco conselheiros, tem sede na
+
+Capital, quadro próprio de pessoal e jurisdição em todo o
+
+território estadual;
+
+III. Os Conselheiros do TCE -GO têm as mesmas garant ias,
+
+prerrogativas, impedimentos, vencimentos e vantagens dos
+
+Desembargadores do Tribunal de Justiça.
+
+Está correto o que se afirma em
+
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** O Tribunal de Contas não julga as contas prestadas anualmente pelo Governador do Estado; ele emite exclusivamente **Parecer Prévio** (opinativo) no prazo de 60 dias (Art. 71, I da CF). O julgamento definitivo e político dessas contas compete à **Assembleia Legislativa** (Art. 75 c/c Art. 49, IX da CF).
-> - **B) Incorreta.** A decisão do Tribunal de Contas ostenta, de fato, eficácia de título executivo extrajudicial (Art. 71, § 3º da CF), mas o Tribunal de Contas não é pessoa jurídica e não tem procuradoria contenciosa para ajuizar execução fiscal. A legitimidade para a cobrança judicial é da **Fazenda Pública titular do crédito** (a PGE no caso do Estado).
-> - **C) CORRETA.** Aplicação literal do art. 71, § 1º e § 2º da CF/88: no caso de contrato administrativo irregular, a competência primária para sustação é do Poder Legislativo. Todavia, se o Poder Legislativo ou o Poder Executivo, no prazo de **90 (noventa) dias**, não efetivar as medidas de sustação cabíveis, o próprio Tribunal de Contas decidirá a respeito da sustação.
-> - **D) Incorreta.** O parecer prévio sobre as contas de governo é atribuição indelegável do Tribunal de Contas perante o Poder Legislativo. O sistema de controle interno apoia o controle externo, mas não detém competência para emitir o parecer prévio constitucional.
-> - **E) Incorreta.** O Plenário do STF, ao fixar tese no **Tema 899 de Repercussão Geral (RE 636.886)**, pacificou que é **prescritível** a pretensão de ressarcimento ao erário fundada em decisão de Tribunal de Contas, incidindo o prazo prescricional quinquenal (5 anos).
-> 
+> - **A)** Incorreta. O item III também está correto nos termos do art. 28 da Constituição do Estado de Goiás.
+> - **B)** Incorreta. O item II está falso, pois o TCE-GO é composto por sete conselheiros e não cinco.
+> - **C)** Correta. Analisando as proposições à luz da Constituição Estadual de Goiás: I está CORRETO (o Ministério Público de Contas atua junto ao TCE-GO e integra seu quadro institucional, art. 31 da CE/GO); II está INCORRETO (o TCE-GO é integrado por 7 Conselheiros, conforme o princípio da simetria com o TCU e art. 27 da CE-GO, e não por cinco); III está CORRETO (os Conselheiros do TCE-GO possuem as mesmas garantias, prerrogativas, impedimentos, vencimentos e vantagens dos Desembargadores do TJ-GO, conforme art. 28 da CE-GO). Logo, apenas I e III são verdadeiros.
+> - **D)** Incorreta. O item II é flagrantemente falso quanto ao número de conselheiros.
+> - **E)** Incorreta. O item II invalida a alternativa.
+>
 > **Gabarito: C**
 
 ---
@@ -485,75 +506,72 @@ Além das atribuições comuns simétricas ao art. 71 da CF, destacam-se prazos 
 ---
 
 ### Teste 129
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Segundo as normas da Constituição do Estado de Goiás que disciplinam a organização e o funcionamento do Tribunal de Contas do Estado de Goiás (TCE-GO), a escolha e a nomeação de seus Conselheiros submetem-se ao seguinte regramento:
+**(FGV – TCE-GO – Analista de Controle Externo – 2024)**  
+O artigo 25 da Constituição do Estado de Goiás estabelece que a fiscalização contábil, financeira, orçamentária, operacional e patrimonial do Estado e das entidades da administração direta e indireta, no que se refere à legalidade, legitim idade, economicidade, aplicação das subvenções e renúncia de receitas, será́ exercida pela Assembleia Legislativa mediante controle externo e pelo sistema de controle interno de cada Poder. Assinale a opção que indica uma competência do TCE.
 
-* **A)** Cinco Conselheiros são indicados e nomeados pela Assembleia Legislativa e dois pelo Governador do Estado com aprovação prévia do Tribunal de Justiça.
-* **B)** Quatro Conselheiros são indicados pela Assembleia Legislativa e três pelo Governador do Estado, com prévia aprovação legislativa, devendo dois destes últimos recair necessariamente sobre membros de carreira técnica (um Conselheiro Substituto e um membro do MPC-GO).
-* **C)** Todos os sete Conselheiros são livremente nomeados pelo Governador do Estado, cabendo à Assembleia Legislativa a fixação prévia de lista sêxtupla representativa.
-* **D)** O Tribunal é composto por nove Conselheiros vitalícios, exigindo-se idade mínima de trinta anos e formação privativa em Ciências Contábeis ou Econômicas.
-* **E)** A vaga destinada aos membros do Ministério Público de Contas prescinde de lista tríplice, sendo o candidato nomeado por antiguidade absoluta apurada na carreira.
-
+* **A)** apreciar as contas prestadas anualmente pelo Presidente.
+* **B)** legislar sobre assuntos de seu interesse.
+* **C)** prestar contas da aplicação dos auxílios federais ou estaduais entregues ao Município.
+* **D)** julgar as contas dos responsáveis por bens, excluídas as fundações mantidas pelo Estado.
+* **E)** aplicar aos responsáveis, em caso de ilegalidade de despesa, multa proporcional ao dano causado ao erário.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** A proporção constitucional no TCE-GO é de 4 Conselheiros pela ALEGO e 3 pelo Governador do Estado, cabendo à própria Assembleia Legislativa aprovar os indicados do Governador em sabatina (o Tribunal de Justiça não participa da escolha).
-> - **B) CORRETA.** Nos termos do artigo 27 da CE/GO (em simetria compulsória com o art. 73, § 2º e art. 75 da CF/88): o TCE-GO compõe-se de **7 Conselheiros**, sendo **quatro indicados e nomeados pela ALEGO** e **três nomeados pelo Governador do Estado** após aprovação legislativa, sendo 1 de sua livre escolha e **2 obrigatoriamente vinculados às carreiras técnicas** (um Conselheiro Substituto Auditor e um Procurador de Contas do MPC-GO), indicados em lista tríplice formulada pelo Pleno alternando antiguidade e merecimento.
-> - **C) Incorreta.** O Governador do Estado não nomeia todos os membros livremente; a maioria absoluta (4 membros) é escolhida pelo Poder Legislativo, e 2 das suas 3 vagas vinculam-se a listas tríplices de carreiras técnicas.
-> - **D) Incorreta.** O TCE-GO possui exatamente 7 Conselheiros (Tribunais de Contas Estaduais possuem 7 membros, enquanto o TCU possui 9 Ministros). A idade exigida é de mais de 35 anos e menos de 70 anos.
-> - **E) Incorreta.** A nomeação de membro do MPC-GO exige a formação de lista tríplice elaborada pelo Pleno do Tribunal de Contas, alternando-se critérios de antiguidade e merecimento.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. A apreciação das contas do Presidente da República cabe ao TCU (CF/88, art. 71, I), e do Governador cabe à Assembleia Legislativa mediante parecer prévio do TCE-GO.
+> - **B)** Incorreta. Legislar é competência típica do Poder Legislativo, não do Tribunal de Contas.
+> - **C)** Incorreta. A prestação de contas de recursos recebidos é dever do gestor municipal que os recebeu, e não do TCE.
+> - **D)** Incorreta. As fundações públicas estaduais estão expressamente sujeitas à jurisdição e julgamento de contas do TCE-GO.
+> - **E)** Correta. Nos termos do art. 25, inciso VIII, da Constituição do Estado de Goiás (em perfeita simetria ao art. 71, VIII, da CF/88), compete ao Tribunal de Contas aplicar aos responsáveis, em caso de ilegalidade de despesa ou irregularidade de contas, as sanções previstas em lei, que estabelecerá, entre outras cominações, multa proporcional ao dano causado ao erário.
+>
+> **Gabarito: E**
 
 ---
 
 ### Teste 130
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A respeito das garantias constitucionais da magistratura atribuídas aos membros dos Tribunais de Contas pela Constituição da República de 1988 e reproduzidas nas Constituições Estaduais, os Conselheiros gozam de:
+**(FGV – TCE-GO – Analista de Controle Externo – 2024)**  
+O Sistema de Controle Externo, conforme estabelecido na Constituição do Estado de Goiás, é essencial para garantir a fiscalização efetiva e transparente da aplicação dos recursos públicos. Assinale a opção que indica a instituição que exerce o assessoramento no controle externo do Poder Legislativo.
 
-* **A)** Estabilidade simples após aprovação em estágio probatório de três anos, sendo equiparados aos Procuradores de Estado.
-* **B)** Vitaliciedade, inamovibilidade e irredutibilidade de subsídio, tendo os mesmos impedimentos, prerrogativas e vencimentos dos Desembargadores do Tribunal de Justiça.
-* **C)** Inamovibilidade relativa, podendo ser livremente exonerados *ad nutum* mediante decreto do Chefe do Poder Executivo em caso de rejeição de contas públicas em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **D)** Foro por prerrogativa de função perante a Assembleia Legislativa para o julgamento de crimes comuns e de responsabilidade.
-* **E)** Mandato com prazo determinado de quatro anos, permitida uma única recondução consecutiva por deliberação do Colégio de Líderes parlamentares.
-
+* **A)** Procuradoria-Geral da Assembleia Legislativa.
+* **B)** Prefeitura Municipal.
+* **C)** Secretaria Estadual de Planejamento.
+* **D)** Câmara Municipal.
+* **E)** Controladoria do Estado. TRIBUNAL DE CONTAS DO ESTADO DE GOIÁS FGV CONHECIMENTO ANALISTA DE CONTROLE EXTERNO - CIENCIAS CONTABEIS – MANHÃ TIPO BRANCA – PÁGINA 9
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Os Conselheiros de Tribunais de Contas gozam de garantias da magistratura, incluindo a vitaliciedade, não se submetendo a mero regime estatutário de estabilidade simples.
-> - **B) CORRETA.** Em observância ao art. 73, § 3º c/c art. 75 da CF/88 e art. 28 da Carta Estadual de Goiás, os Conselheiros do Tribunal de Contas do Estado têm as mesmas garantias (**vitaliciedade, inamovibilidade e irredutibilidade de subsídio**), prerrogativas, impedimentos, subsídios e vantagens conferidos aos **Desembargadores do Tribunal de Justiça do Estado de Goiás**.
-> - **C) Incorreta.** Membros vitalícios não podem ser exonerados discricionariamente ou *ad nutum* pelo Poder Executivo; a perda do cargo só ocorre mediante processo judicial transitado em julgado ou impeachment.
-> - **D) Incorreta.** Por determinação expressa do art. 105, I, "a", da CF/88, os Conselheiros dos Tribunais de Contas Estaduais respondem em foro por prerrogativa de função perante o **Superior Tribunal de Justiça (STJ)** nos crimes comuns e de responsabilidade.
-> - **E) Incorreta.** O cargo de Conselheiro de Tribunal de Contas é vitalício, inexistindo fixação de mandato temporal de quatro anos ou sistema de recondução política.
-> 
-> **Gabarito: B**
+> - **A)** Correta. Na estrutura do Poder Legislativo do Estado de Goiás delineada pela Constituição Estadual, a Procuradoria-Geral da Assembleia Legislativa presta consultoria e assessoramento jurídico aos órgãos parlamentares no exercício das funções legislativas e de controle externo político.
+> - **B)** Incorreta. A Prefeitura Municipal é órgão executivo municipal, sem função de assessoramento ao Legislativo estadual.
+> - **C)** Incorreta. A Secretaria de Planejamento integra a cúpula do Poder Executivo estadual.
+> - **D)** Incorreta. A Câmara Municipal é órgão legislativo do município, não integrando a estrutura do Estado.
+> - **E)** Incorreta. A Controladoria-Geral do Estado (CGE) é o órgão central de controle interno do Poder Executivo estadual.
+>
+> **Gabarito: A**
 
 ---
 
 ### Teste 131
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-De acordo com o artigo 30 da Constituição do Estado de Goiás e a jurisprudência sumulada do Supremo Tribunal Federal a respeito do Ministério Público de Contas (MPC):
+**(FGV – TCE-GO – Analista de Controle Externo – 2024)**  
+O artigo 31 da Constituição Federal do Brasil estabelece que a fiscalização no âmbito municipal será conduzida pelo Poder Legislativo Municipal, por meio de controle externo, e pelos sistemas de controle interno do Poder Executivo Municipal, conforme determinado pela legislação. Assinale a opção que indica o órgão que auxilia o controle externo da Câmara Municipal.
 
-* **A)** O Ministério Público de Contas compõe ramo autônomo do Ministério Público do Estado de Goiás (MPE-GO), sendo chefiado pelo Procurador-Geral de Justiça do Estado.
-* **B)** O Ministério Público junto ao Tribunal de Contas do Estado de Goiás possui quadro próprio de membros, investidos por concurso público específico de provas e títulos, submetendo-se administrativamente à estrutura orgânica do Tribunal de Contas, sem personalidade jurídica própria.
-* **C)** Os Procuradores do MPC de Goiás não gozam das garantias de vitaliciedade, inamovibilidade e irredutibilidade de subsídios conferidas aos membros do Ministério Público comum. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **D)** Compete ao Ministério Público de Contas ajuizar ações civis públicas perante o Poder Judiciário para cobrança de títulos executivos emitidos pelo TCE-GO.
-* **E)** O Procurador-Geral de Contas é livremente nomeado pelo Presidente do TCE-GO, sem participação do Governador do Estado.
-
+* **A)** Controladoria do Estado.
+* **B)** Tribunal de Contas do Estado.
+* **C)** Secretaria da Fazenda.
+* **D)** Secretaria de Auditoria.
+* **E)** Conselho de Controle.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O MPC não integra o MPE (Ministério Público comum estadual), sendo órgão especial que atua exclusivamente perante a Corte de Contas (Súmula 653 do STF: *"No Tribunal de Contas da União, o Ministério Público junto ao Tribunal tem sua organização regulada em lei federal, e não na Lei Orgânica do Ministério Público da União"*).
-> - **B)** Correta. O MPC-GO é instituição dotada de autonomia funcional e prerrogativas ministeriais, mas administrativamente vinculada ao TCE-GO (art. 130 da CF/88 e art. 30 da CE/GO), sem personalidade jurídica independente. Seus membros ingressam por concurso público específico de provas e títulos.
-> - **C)** Incorreta. O art. 130 da CF/88 estende expressamente aos membros do Ministério Público junto aos Tribunais de Contas as garantias, vedações e forma de investidura aplicáveis aos membros do Ministério Público da União e dos Estados (vitaliciedade, inamovibilidade e irredutibilidade).
-> - **D)** Incorreta. Conforme jurisprudência vinculante do STF (Súmula 353 e Tema 642): a legitimidade para execução judicial de título condenatório de Tribunal de Contas é da Fazenda Pública beneficiária (PGE ou PGM), e não do MPC.
-> - **E)** Incorreta. O Procurador-Geral de Contas é nomeado pelo Governador do Estado a partir de lista tríplice formada pelos membros do colegiado ministerial do MPC, conforme a Lei Orgânica do TCE-GO.
+> - **A)** Incorreta. A Controladoria do Estado atua no âmbito do Poder Executivo estadual.
+> - **B)** Correta. Nos termos do art. 31, § 1º, da Constituição Federal de 1988, o controle externo da Câmara Municipal será exercido com o auxílio dos Tribunais de Contas dos Estados ou do Município ou dos Conselhos ou Tribunais de Contas dos Municípios onde houver.
+> - **C)** Incorreta. A Secretaria da Fazenda é órgão arrecadador e financeiro do Poder Executivo.
+> - **D)** Incorreta. Não existe órgão genérico com essa denominação na disciplina constitucional.
+> - **E)** Incorreta. Órgão inexistente no modelo constitucional brasileiro.
 >
 > **Gabarito: B**
 

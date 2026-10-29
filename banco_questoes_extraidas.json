@@ -497,9 +497,9 @@
     {
       "id": "TRT-2024-FGV-Q24",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-GO",
+      "ano": "2024",
+      "cargo": "Analista de Controle Externo - Tecnologia da Informação",
       "numero_original": 24,
       "enunciado": "Determinada Câmara do Tribunal de Contas do Estado de Goiás \naplicou sanções a João, ordenador de despesas no âmbito da \nAdministração Pública indireta do poder público estadual, isto por \nter constatado ilegalidade na realização de uma despesa. \nIrresignado com o teor dessa decisão, João almejava obter a sua \nreforma com a interposição do recurso cabível. \nÀ luz do Regimento Interno do Tribunal de Contas do Estado de \nGoiás, é correto afirmar que",
       "alternativas": {
@@ -513,7 +513,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_gerais/03_legislacao_institucional/02_lei_organica_tce_go_lei_16168_2007.md",
       "target_section": "### 5.2 Sistema Recursal Taxativo: Reconsideração, Reexame, Embargos e Revisão",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT-2024-FGV-Q25",
@@ -534,7 +534,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_gerais/03_legislacao_institucional/03_regimento_interno_tce_go_resolucao_22_2008.md",
       "target_section": "### 1.3 Papel dos Conselheiros Substitutos (Auditores)",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT-2024-FGV-Q26",
@@ -555,14 +555,14 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_gerais/03_legislacao_institucional/01_bases_constitucionais_cf88_e_ce_go.md",
       "target_section": "### 3.5 Ministério Público de Contas de Goiás (Art. 30 da CE/GO)",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT-2024-FGV-Q27",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-GO",
+      "ano": "2024",
+      "cargo": "Analista de Controle Externo - Tecnologia da Informação",
       "numero_original": 27,
       "enunciado": "Maria, servidora do Tribunal de Contas do Estado de Goiás, teve \nconhecimento, em sua vida privada, de que Joana, também \nservidora dessa estrutura orgânica, não era assídua e frequente ao \nserviço, o que comprometia o regular funcionamento do setor a \nque estava vinculada. \nAo analisar o Código de Ética para os Servidores do Tribunal de \nContas do Estado de Goiás, Maria concluiu corretamente que",
       "alternativas": {
@@ -576,7 +576,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_gerais/03_legislacao_institucional/05_codigo_de_etica_servidores_tce_go.md",
       "target_section": "### 1.1 Princípios e Valores Éticos do Controle Externo",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT-2024-FGV-Q28",
@@ -597,7 +597,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/25_gestao_de_pessoas/04_estatuto_dos_servidores_do_estado_de_goias_lei_20756.md",
       "target_section": "### 4.1 Formas Derivadas de Provimento (Quadro Comparativo)",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT-2024-FGV-Q29",
@@ -618,7 +618,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/15_nocoes_de_direito_administrativo/01_regime_juridico_principios_e_lindb.md",
       "target_section": "### 4.3 Princípio da Autotutela (Súmulas 346 e 473 do STF): Anulação vs. Revogação",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT-2024-FGV-Q30",
@@ -644,9 +644,9 @@
     {
       "id": "TRT-2024-FGV-Q31",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-GO",
+      "ano": "2024",
+      "cargo": "Analista de Controle Externo - Tecnologia da Informação",
       "numero_original": 31,
       "enunciado": "Pedro, servidor do Tribunal de Contas do Estado de Goiás, foi \nincumbido, por seu superior hierárquico, de encaminhar \ndeterminado expediente ao agente ou órgão competente para \naprovar, anualmente, a programação financeira de desembolso do \nTribunal. \nÀ luz do Regimento Interno do Tribunal de Contas do Estado de \nGoiás, Pedro concluiu corretamente que o processo deveria ser \nencaminhado",
       "alternativas": {
@@ -660,7 +660,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_gerais/03_legislacao_institucional/03_regimento_interno_tce_go_resolucao_22_2008.md",
       "target_section": "### 1.1 Tribunal Pleno: Composição, Quóruns e Competências Privativas",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT-2024-FGV-Q32",
@@ -681,7 +681,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/25_gestao_de_pessoas/04_estatuto_dos_servidores_do_estado_de_goias_lei_20756.md",
       "target_section": "### 4.1 Formas Derivadas de Provimento (Quadro Comparativo)",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT-2024-FGV-Q33",
@@ -702,7 +702,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_gerais/03_legislacao_institucional/03_regimento_interno_tce_go_resolucao_22_2008.md",
       "target_section": "### 1.2 Câmaras Deliberativas (1ª e 2ª Câmaras): Estrutura e Competências Originárias",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT-2024-FGV-Q34",
@@ -723,7 +723,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/17_nocoes_de_direito_constitucional/04_poder_legislativo_processo_legislativo_e_fiscalizacao_tce.md",
       "target_section": "### 3. Fiscalização e Controle Externo pelos Tribunais de Contas (Arts. 70 a 75)",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT-2024-FGV-Q35",
@@ -765,7 +765,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/17_nocoes_de_direito_constitucional/04_poder_legislativo_processo_legislativo_e_fiscalizacao_tce.md",
       "target_section": "### 3. Fiscalização e Controle Externo pelos Tribunais de Contas (Arts. 70 a 75)",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT-2024-FGV-Q38",
@@ -786,14 +786,14 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_gerais/03_legislacao_institucional/01_bases_constitucionais_cf88_e_ce_go.md",
       "target_section": "### 3.1 Natureza Jurídica, Jurisdição e Autonomias Constitucionais",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT-2024-FGV-Q39",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-GO",
+      "ano": "2024",
+      "cargo": "Analista de Controle Externo - Tecnologia da Informação",
       "numero_original": 39,
       "enunciado": "O artigo 25 da Constituição do Estado de Goiás estabelece que a \nfiscalização contábil, financeira, orçamentária, operacional e \npatrimonial do Estado e das entidades da administração direta e \nindireta, no que se refere à legalidade, legitim idade, \neconomicidade, aplicação das subvenções e renúncia de receitas, \nserá́ exercida pela Assembleia Legislativa mediante controle \nexterno e pelo sistema de controle interno de cada Poder.  \nAssinale a opção que indica uma competência do TCE.",
       "alternativas": {
@@ -807,7 +807,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/15_nocoes_de_direito_administrativo/05_controle_da_administracao_e_improbidade_administrativa.md",
       "target_section": "### 2.1 A Função Constitucional do Tribunal de Contas (CF/88, arts. 70 a 75)",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT-2024-FGV-Q40",
@@ -828,7 +828,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_gerais/03_legislacao_institucional/02_lei_organica_tce_go_lei_16168_2007.md",
       "target_section": "### 1.1 Natureza Jurídica, Sedes e Autonomias Constitucionais",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT-2024-FGV-Q41",
@@ -849,7 +849,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/15_nocoes_de_direito_administrativo/05_controle_da_administracao_e_improbidade_administrativa.md",
       "target_section": "### 2.1 A Função Constitucional do Tribunal de Contas (CF/88, arts. 70 a 75)",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT-2024-FGV-Q42",
@@ -2732,9 +2732,9 @@
     {
       "id": "TRT-2024-FGV-Q24",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-GO",
+      "ano": "2024",
+      "cargo": "Analista de Controle Externo - Tecnologia da Informação",
       "numero_original": 24,
       "enunciado": "Determinada Câmara do Tribunal de Contas do Estado de Goiás \naplicou sanções a João, ordenador de despesas no âmbito da \nAdministração Pública indireta do poder público estadual, isto por \nter constatado ilegalidade na realização de uma despesa. \nIrresignado com o teor dessa decisão, João almejava obter a sua \nreforma com a interposição do recurso cabível. \nÀ luz do Regimento Interno do Tribunal de Contas do Estado de \nGoiás, é correto afirmar que",
       "alternativas": {
@@ -2795,9 +2795,9 @@
     {
       "id": "TRT-2024-FGV-Q27",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-GO",
+      "ano": "2024",
+      "cargo": "Analista de Controle Externo - Tecnologia da Informação",
       "numero_original": 27,
       "enunciado": "Maria, servidora do Tribunal de Contas do Estado de Goiás, teve \nconhecimento, em sua vida privada, de que Joana, também \nservidora dessa estrutura orgânica, não era assídua e frequente ao \nserviço, o que comprometia o regular funcionamento do setor a \nque estava vinculada. \nAo analisar o Código de Ética para os Servidores do Tribunal de \nContas do Estado de Goiás, Maria concluiu corretamente que",
       "alternativas": {
@@ -2879,9 +2879,9 @@
     {
       "id": "TRT-2024-FGV-Q31",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-GO",
+      "ano": "2024",
+      "cargo": "Analista de Controle Externo - Tecnologia da Informação",
       "numero_original": 31,
       "enunciado": "Pedro, servidor do Tribunal de Contas do Estado de Goiás, foi \nincumbido, por seu superior hierárquico, de encaminhar \ndeterminado expediente ao agente ou órgão competente para \naprovar, anualmente, a programação financeira de desembolso do \nTribunal. \nÀ luz do Regimento Interno do Tribunal de Contas do Estado de \nGoiás, Pedro concluiu corretamente que o processo deveria ser \nencaminhado",
       "alternativas": {
@@ -2984,9 +2984,9 @@
     {
       "id": "TRT-2024-FGV-Q36",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-GO",
+      "ano": "2024",
+      "cargo": "Analista de Controle Externo - Tecnologia da Informação",
       "numero_original": 36,
       "enunciado": "O Sistema de Controle Externo, conforme estabelecido na \nConstituição do Estado de Goiás, é essencial para garantir a \nfiscalização efetiva e transparente da aplicação dos recursos \npúblicos. \nAssinale a opção que indica a instituição que exerce o \nassessoramento no controle externo do Poder Legislativo.",
       "alternativas": {
@@ -3026,9 +3026,9 @@
     {
       "id": "TRT-2024-FGV-Q39",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-GO",
+      "ano": "2024",
+      "cargo": "Analista de Controle Externo - Tecnologia da Informação",
       "numero_original": 39,
       "enunciado": "O artigo 25 da Constituição do Estado de Goiás estabelece que a \nfiscalização contábil, financeira, orçamentária, operacional e \npatrimonial do Estado e das entidades da administração direta e \nindireta, no que se refere à legalidade, legitimidade, \neconomicidade, aplicação das subvenções e renúncia de receitas, \nserá́ exercida pela Assembleia Legislativa mediante controle \nexterno e pelo sistema de controle interno de cada Poder.  \nAssinale a opção que indica uma competência do TCE.",
       "alternativas": {
@@ -4967,9 +4967,9 @@
     {
       "id": "TRT-2024-FGV-Q24",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-GO",
+      "ano": "2024",
+      "cargo": "Analista de Controle Externo - Tecnologia da Informação",
       "numero_original": 24,
       "enunciado": "Determinada Câmara do Tribunal de Contas do Estado de Goiás \naplicou sanções a João, ordenador de despesas no âmbito da \nAdministração Pública indireta do poder público estadual, isto por \nter constatado ilegalidade na realização de uma despesa. \nIrresignado com o teor dessa decisão, João almejava obter a sua \nreforma com a interposição do recurso cabível. \nÀ luz do Regimento Interno do Tribunal de Contas do Estado de \nGoiás, é correto afirmar que",
       "alternativas": {
@@ -5030,9 +5030,9 @@
     {
       "id": "TRT-2024-FGV-Q27",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-GO",
+      "ano": "2024",
+      "cargo": "Analista de Controle Externo - Tecnologia da Informação",
       "numero_original": 27,
       "enunciado": "Maria, servidora do Tribunal de Contas do Estado de Goiás, teve \nconhecimento, em sua vida privada, de que Joana, também \nservidora dessa estrutura orgânica, não era assídua e frequente ao \nserviço, o que comprometia o regular funcionamento do setor a \nque estava vinculada. \nAo analisar o Código de Ética para os Servidores do Tribunal de \nContas do Estado de Goiás, Maria concluiu corretamente que",
       "alternativas": {
@@ -5114,9 +5114,9 @@
     {
       "id": "TRT-2024-FGV-Q31",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-GO",
+      "ano": "2024",
+      "cargo": "Analista de Controle Externo - Tecnologia da Informação",
       "numero_original": 31,
       "enunciado": "Pedro, servidor do Tribunal de Contas do Estado de Goiás, foi \nincumbido, por seu superior hierárquico, de encaminhar \ndeterminado expediente ao agente ou órgão competente para \naprovar, anualmente, a programação financeira de desembolso do \nTribunal. \nÀ luz do Regimento Interno do Tribunal de Contas do Estado de \nGoiás, Pedro concluiu corretamente que o processo deveria ser \nencaminhado",
       "alternativas": {
@@ -5261,9 +5261,9 @@
     {
       "id": "TRT-2024-FGV-Q39",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-GO",
+      "ano": "2024",
+      "cargo": "Analista de Controle Externo - Tecnologia da Informação",
       "numero_original": 39,
       "enunciado": "O artigo 25 da Constituição do Estado de Goiás estabelece que a \nfiscalização contábil, financeira, orçamentária, operacional e \npatrimonial do Estado e das entidades da administração direta e \nindireta, no que se refere à legalidade, legitim idade, \neconomicidade, aplicação das subvenções e renúncia de receitas, \nserá́ exercida pela Assembleia Legislativa mediante controle \nexterno e pelo sistema de controle interno de cada Poder.  \nAssinale a opção que indica uma competência do TCE.",
       "alternativas": {
@@ -7798,10 +7798,10 @@
     },
     {
       "id": "TRT-2009-FCC-Q51",
-      "banca": "FCC",
-      "orgao": "TRT",
-      "ano": 2009,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "banca": "FGV",
+      "orgao": "TCE-GO",
+      "ano": "2024",
+      "cargo": "Analista de Controle Externo - Tecnologia da Informação",
       "numero_original": 51,
       "enunciado": "Compete ao Tribunal de Contas do Estado de Goiás",
       "alternativas": {
@@ -7819,10 +7819,10 @@
     },
     {
       "id": "TRT-2009-FCC-Q52",
-      "banca": "FCC",
-      "orgao": "TRT",
-      "ano": 2009,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "banca": "FGV",
+      "orgao": "TCE-GO",
+      "ano": "2024",
+      "cargo": "Analista de Controle Externo - Tecnologia da Informação",
       "numero_original": 52,
       "enunciado": "O poder que o Tribunal de Contas do Estado de Goiás \npossui para, no âmbito de sua competência e jurisdição, \nexpedir atos normativos sobre matéria de sua atribuição e \nsobre a organização dos processos que lhe devam ser \nsubmetidos, obrigando os jurisdicionados ao seu cumpri-\nmento, sob pena de responsabilidade, denomina-se",
       "alternativas": {
@@ -7840,10 +7840,10 @@
     },
     {
       "id": "TRT-2009-FCC-Q53",
-      "banca": "FCC",
-      "orgao": "TRT",
-      "ano": 2009,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "banca": "FGV",
+      "orgao": "TCE-GO",
+      "ano": "2024",
+      "cargo": "Analista de Controle Externo - Tecnologia da Informação",
       "numero_original": 53,
       "enunciado": "Segundo o Regimento Interno, é  vedado ao Conselheiro \ndo Tribunal de Contas do Estado de Goiás",
       "alternativas": {
@@ -9332,9 +9332,9 @@
     {
       "id": "TRT-2024-FGV-Q24",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-GO",
+      "ano": "2024",
+      "cargo": "Analista de Controle Externo - Tecnologia da Informação",
       "numero_original": 24,
       "enunciado": "Determinada Câmara do Tribunal de Contas do Estado de Goiás \naplicou sanções a João, ordenador de despesas no âmbito da \nAdministração Pública indireta do poder público estadual, isto por \nter constatado ilegalidade na realização de uma despesa. \nIrresignado com o teor dessa decisão, João almejava obter a sua \nreforma com a interposição do recurso cabível. \nÀ luz do Regimento Interno do Tribunal de Contas do Estado de \nGoiás, é correto afirmar que",
       "alternativas": {
@@ -9395,9 +9395,9 @@
     {
       "id": "TRT-2024-FGV-Q27",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-GO",
+      "ano": "2024",
+      "cargo": "Analista de Controle Externo - Tecnologia da Informação",
       "numero_original": 27,
       "enunciado": "Maria, servidora do Tribunal de Contas do Estado de Goiás, teve \nconhecimento, em sua vida privada, de que Joana, também \nservidora dessa estrutura orgânica, não era assídua e frequente ao \nserviço, o que comprometia o regular funcionamento do setor a \nque estava vinculada. \nAo analisar o Código de Ética para os Servidores do Tribunal de \nContas do Estado de Goiás, Maria concluiu corretamente que",
       "alternativas": {
@@ -9479,9 +9479,9 @@
     {
       "id": "TRT-2024-FGV-Q31",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-GO",
+      "ano": "2024",
+      "cargo": "Analista de Controle Externo - Tecnologia da Informação",
       "numero_original": 31,
       "enunciado": "Pedro, servidor do Tribunal de Contas do Estado de Goiás, foi \nincumbido, por seu superior hierárquico, de encaminhar \ndeterminado expediente ao agente ou órgão competente para \naprovar, anualmente, a programação financeira de desembolso do \nTribunal. \nÀ luz do Regimento Interno do Tribunal de Contas do Estado de \nGoiás, Pedro concluiu corretamente que o processo deveria ser \nencaminhado",
       "alternativas": {
@@ -9626,9 +9626,9 @@
     {
       "id": "TRT-2024-FGV-Q39",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-GO",
+      "ano": "2024",
+      "cargo": "Analista de Controle Externo - Tecnologia da Informação",
       "numero_original": 39,
       "enunciado": "O artigo 25 da Constituição do Estado de Goiás estabelece que a \nfiscalização contábil, financeira, orçamentária, operacional e \npatrimonial do Estado e das entidades da administração direta e \nindireta, no que se refere à legalidade, legitim idade, \neconomicidade, aplicação das subvenções e renúncia de receitas, \nserá́ exercida pela Assembleia Legislativa mediante controle \nexterno e pelo sistema de controle interno de cada Poder.  \nAssinale a opção que indica uma competência do TCE.",
       "alternativas": {
@@ -11567,9 +11567,9 @@
     {
       "id": "TRT-2024-FGV-Q24",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-GO",
+      "ano": "2024",
+      "cargo": "Analista de Controle Externo - Tecnologia da Informação",
       "numero_original": 24,
       "enunciado": "Determinada Câmara do Tribunal de Contas do Estado de Goiás \naplicou sanções a João, ordenador de despesas no âmbito da \nAdministração Pública indireta do poder público estadual, isto por \nter constatado ilegalidade na realização de uma despesa. \nIrresignado com o teor dessa decisão, João almejava obter a sua \nreforma com a interposição do recurso cabível. \nÀ luz do Regimento Interno do Tribunal de Contas do Estado de \nGoiás, é correto afirmar que",
       "alternativas": {
@@ -11630,9 +11630,9 @@
     {
       "id": "TRT-2024-FGV-Q27",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-GO",
+      "ano": "2024",
+      "cargo": "Analista de Controle Externo - Tecnologia da Informação",
       "numero_original": 27,
       "enunciado": "Maria, servidora do Tribunal de Contas do Estado de Goiás, teve \nconhecimento, em sua vida privada, de que Joana, também \nservidora dessa estrutura orgânica, não era assídua e frequente ao \nserviço, o que comprometia o regular funcionamento do setor a \nque estava vinculada. \nAo analisar o Código de Ética para os Servidores do Tribunal de \nContas do Estado de Goiás, Maria concluiu corretamente que",
       "alternativas": {
@@ -11714,9 +11714,9 @@
     {
       "id": "TRT-2024-FGV-Q31",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-GO",
+      "ano": "2024",
+      "cargo": "Analista de Controle Externo - Tecnologia da Informação",
       "numero_original": 31,
       "enunciado": "Pedro, servidor do Tribunal de Contas do Estado de Goiás, foi \nincumbido, por seu superior hierárquico, de encaminhar \ndeterminado expediente ao agente ou órgão competente para \naprovar, anualmente, a programação financeira de desembolso do \nTribunal. \nÀ luz do Regimento Interno do Tribunal de Contas do Estado de \nGoiás, Pedro concluiu corretamente que o processo deveria ser \nencaminhado",
       "alternativas": {
@@ -11819,9 +11819,9 @@
     {
       "id": "TRT-2024-FGV-Q36",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-GO",
+      "ano": "2024",
+      "cargo": "Analista de Controle Externo - Tecnologia da Informação",
       "numero_original": 36,
       "enunciado": "O Sistema de Controle Externo, conforme estabelecido na \nConstituição do Estado de Goiás, é essencial para garantir a \nfiscalização efetiva e transparente da aplicação dos recursos \npúblicos. \nAssinale a opção que indica a instituição que exerce o \nassessoramento no controle externo do Poder Legislativo.",
       "alternativas": {
@@ -11861,9 +11861,9 @@
     {
       "id": "TRT-2024-FGV-Q39",
       "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
+      "orgao": "TCE-GO",
+      "ano": "2024",
+      "cargo": "Analista de Controle Externo - Tecnologia da Informação",
       "numero_original": 39,
       "enunciado": "O artigo 25 da Constituição do Estado de Goiás estabelece que a \nfiscalização contábil, financeira, orçamentária, operacional e \npatrimonial do Estado e das entidades da administração direta e \nindireta, no que se refere à legalidade, legitimidade, \neconomicidade, aplicação das subvenções e renúncia de receitas, \nserá́ exercida pela Assembleia Legislativa mediante controle \nexterno e pelo sistema de controle interno de cada Poder.  \nAssinale a opção que indica uma competência do TCE.",
       "alternativas": {
@@ -69408,7 +69408,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_gerais/03_legislacao_institucional/05_codigo_de_etica_servidores_tce_go.md",
       "target_section": "### 3.3 Prevenção de Conflito de Interesses e Autodeclaração de Impedimento",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT-2024-FGV-Q17",

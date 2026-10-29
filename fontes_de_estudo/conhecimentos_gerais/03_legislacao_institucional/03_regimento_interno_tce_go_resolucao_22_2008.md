@@ -114,27 +114,26 @@ Os Conselheiros Substitutos (Auditores) ingressam na carreira do TCE-GO exclusiv
 ---
 
 ### Teste 142
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A respeito da distribuição de competências entre os órgãos colegiados deliberativos do Tribunal de Contas do Estado de Goiás, em conformidade com as regras do seu Regimento Interno (Resolução nº 22/2008), compete privativamente ao Tribunal Pleno:
+**(FGV – TCE-GO – Analista de Controle Externo – 2024)**  
+XX foi empossado como Conselheiro do Tribunal de Contas do Estado de Goiás e foi informado que passaria a integrar a Câmara X desse Tribunal. Por ter dúvidas em relação ao tempo em que permaneceria nessa Câmara e ao processo de escolha do respectivo Presi dente, XX consultou o Regimento Interno, tendo concluído corretamente que
 
-* **A)** O exame e registro da concessão inicial de aposentadorias de magistrados e membros do Ministério Público Estadual.
-* **B)** A emissão de parecer prévio sobre as contas anuais prestadas pelo Governador do Estado e a resposta a consultas com efeito normativo formuladas por autoridades competentes.
-* **C)** A instrução probatória preliminar de denúncias anônimas apresentadas por servidores públicos estaduais.
-* **D)** O julgamento ordinário da tomada de contas dos diretores de hospitais públicos estaduais e fiscais de contrato.
-* **E)** A realização de correições ordinárias nas repartições da administração pública estadual para verificar a pontualidade dos servidores em conformidade com as diretrizes e padrões de arquitetura corporativa.
-
+* **A)** em razão da inamovibilidade, ele permanecerá na Câmara até que faça uma permuta para outra Câmara ou ocorra vacância que permita a sua remoção.
+* **B)** o Presidente será escolhido en tre os ocupantes do cargo de Vice-Presidente, Corregedor-Geral ou Ouvidor do Tribunal.
+* **C)** o Presidente será escolhido livremente, pelo sufrágio dos integrantes da respectiva Câmara.
+* **D)** o Presidente será escolhido entre os dois Diretores de área da ESCOEX.
+* **E)** integrará a Câmara até que seja realizado o rodizio bienal. Controle Externo
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** O exame e registro da legalidade das concessões de aposentadorias e reformas constituem atribuição precípua e ordinária das **Câmaras Deliberativas** (1ª e 2ª Câmaras), e não competência privativa do Plenário.
-> - **B) CORRETA.** Nos termos expressos do Regimento Interno do TCE-GO, insere-se no rol de competências privativas do **Tribunal Pleno**: a apreciação para emissão do Parecer Prévio sobre as contas de governo prestadas anualmente pelo Governador do Estado, bem como o conhecimento e resposta a consultas em tese, as quais gozam de caráter normativo vinculante.
-> - **C) Incorreta.** Denúncias anônimas não são admitidas pelo Tribunal de Contas em virtude de expressa vedação regimental e constitucional ao anonimato.
-> - **D) Incorreta.** O julgamento de contas de gestão e tomadas de contas especiais de diretores, secretários e administradores compete originariamente às **Câmaras Deliberativas**.
-> - **E) Incorreta.** As correições ordinárias internas são exercidas pela Corregedoria-Geral do TCE sobre os próprios órgãos da Corte de Contas; o controle da pontualidade de servidores do Poder Executivo é competência interna do próprio Executivo.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. A garantia constitucional da inamovibilidade dos magistrados e conselheiros refere-se ao cargo e ao tribunal, não assegurando permanência fixa em órgão fracionário.
+> - **B)** Incorreta. Os cargos de cúpula diretiva (Vice-Presidente, Corregedor) não são exclusivos para a presidência fracionária de Câmara.
+> - **C)** Incorreta. A presidência de câmara segue regras específicas de alternância regimentais.
+> - **D)** Incorreta. A Escola de Contas (ESCOEX) não se confunde com os critérios regimentais de presidência das Câmaras.
+> - **E)** Correta. De acordo com o Regimento Interno do TCE-GO (Resolução nº 22/2008), os Conselheiros distribuem-se entre a Primeira e a Segunda Câmara, integrando o respectivo colegiado fracionário até a realização do rodízio bienal obrigatório previsto regimentalmente, que visa oxigenar a composição das turmas julgadoras.
+>
+> **Gabarito: E**
 
 ---
 
@@ -405,27 +404,26 @@ Os atos de admissão de concursados e as concessões iniciais de aposentadorias,
 ---
 
 ### Teste 149
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Determinado Presidente de Empresa Pública Estadual de Goiás encaminhou expediente de Consulta ao Tribunal de Contas do Estado de Goiás para saber se, diante das peculiaridades de um contrato em andamento com fornecedor específico de software, poderia efetuar a prorrogação contratual por mais 12 meses. A consulta veio desacompanhada de parecer jurídico interno. De acordo com o Regimento Interno do TCE-GO:
+**(FGV – TCE-GO – Analista de Controle Externo – 2024)**  
+Pedro, servidor do incumbido, por seu superior hierárquico, de encaminhar determinado expediente ao agente ou órgão competente para aprovar, anualmente, a programação financeira de desembolso do Tribunal. À luz do Regimento Interno do Goiás, Pedro concluiu corretamente que o processo deveria ser encaminhado
 
-* **A)** A consulta deve ser conhecida e respondida pelo Conselheiro Relator monocraticamente, pois há urgência na continuidade do serviço público.
-* **B)** A consulta não deverá ser conhecida, tanto por versar sobre caso concreto e contrato específico, quanto pela ausência de parecer do órgão de assessoria jurídica competente.
-* **C)** O Tribunal Pleno deverá converter o pedido em procedimento de fiscalização sigilosa e punir o consulente com multa por litigância de má-fé.
-* **D)** A consulta poderá ser admitida desde que ratificada pelo Presidente da Assembleia Legislativa em sessão plenária.
-* **E)** O Regimento Interno do TCE-GO não admite a figura do processo de consulta, devendo as dúvidas ser solucionadas exclusivamente pelo Poder Judiciário em conformidade com as diretrizes e padrões de arquitetura corporativa.
-
+* **A)** ao Plenário.
+* **B)** à Comissão de Finanças.
+* **C)** ao Presidente do Tribunal.
+* **D)** à Auditoria de Controle Interno.
+* **E)** ao Vice-Presidente do Tribunal.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** A apreciação de consultas constitui matéria indelegável do Tribunal Pleno, sendo vedada a resolução monocrática do mérito da tese por Conselheiro Relator.
-> - **B) CORRETA.** Nos termos dos artigos 138 e seguintes do RITCE-GO, o processo de consulta submete-se cumulativamente a dois requisitos formais intransponíveis: 1) versar obrigatoriamente sobre dúvida de direito em **caso em tese** (sendo expressamente vedada a submissão de caso concreto ou contrato individualizado); 2) vir acompanhada de **parecer da assessoria jurídica do órgão consulente**. O descumprimento de qualquer desses pressupostos impõe o não conhecimento da consulta e o seu consequente arquivamento sumário.
-> - **C) Incorreta.** O descumprimento dos requisitos de admissibilidade da consulta acarreta seu mero não conhecimento, não ensejando sanção imediata por má-fé.
-> - **D) Incorreta.** A aprovação parlamentar não supre os requisitos regimentais de abstração do tema nem a exigência de parecer técnico da assessoria jurídica do órgão.
-> - **E) Incorreta.** O processo de consulta é amplamente previsto no RITCE-GO como instrumento orientador e preventivo de controle externo.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. O Tribunal Pleno tem competência jurisdicional e deliberativa superior, não exercendo atos de gestão orçamentária executiva de desembolso.
+> - **B)** Incorreta. Não existe 'Comissão de Finanças' com atribuição executiva de autorizar fluxo de caixa do TCE-GO.
+> - **C)** Correta. Nos termos do Regimento Interno do TCE-GO, compete privativamente ao Presidente do Tribunal a gestão orçamentária, financeira e administrativa do órgão, cabendo-lhe aprovar anualmente o cronograma de desembolso e a programação financeira das despesas institucionais.
+> - **D)** Incorreta. O Controle Interno do TCE atua na fiscalização da conformidade a posteriori e preventiva, sem poder ordenador.
+> - **E)** Incorreta. O Vice-Presidente apenas substitui o Presidente em suas ausências, não detendo a titularidade nata de aprovação financeira.
+>
+> **Gabarito: C**
 
 ---
 

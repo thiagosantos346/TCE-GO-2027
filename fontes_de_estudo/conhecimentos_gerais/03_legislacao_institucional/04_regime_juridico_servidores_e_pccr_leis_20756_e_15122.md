@@ -241,54 +241,50 @@ Mariana foi nomeada para cargo de provimento efetivo no serviço público de Goi
 ---
 
 ### Teste 154
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A respeito da estabilidade e do estágio probatório do servidor público civil, regulamentados pela Lei Estadual nº 20.756/2020, considere:
+**(FGV – TCE-GO – Analista de Controle Externo – 2024)**  
+Pedro, servidor ocupante de cargo de provimento efetivo no Estado de Goiás, em exercício há cinco anos ininterruptos, após regular processo administrativo-disciplinar, veio a ser demitido. O cargo que ocupava, por sua vez, de nomenclatura X, foi transformado no cargo Y, que passou a ser ocupado por Maria. A demissão de Pedro, no entanto, foi invalidada pelo Poder Judiciário. De acordo com a Lei Estadual nº 20.756/2020, é correto afirmar que ocorrerá
 
-* **A)** O período de estágio probatório é de dois anos, sendo que o servidor aprovado adquire vitaliciedade automática na carreira.
-* **B)** O estágio probatório tem a duração de três anos de efetivo exercício, período durante o qual a aptidão e a capacidade do servidor serão objeto de avaliação obrigatória segundo fatores previstos em lei.
-* **C)** O servidor em estágio probatório adquire estabilidade tácita caso a comissão de avaliação de desempenho não homologue o resultado no prazo de trinta dias antes do término do triênio em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **D)** O servidor reprovado na avaliação de estágio probatório que não seja estável no serviço público será posto em disponibilidade com remuneração proporcional ao tempo de serviço.
-* **E)** É vedada a exoneração de servidor em estágio probatório, podendo a demissão ocorrer apenas após sentença judicial penal condenatória transitada em julgado.
-
+* **A)** a recondução de Pedro.
+* **B)** a reintegração de Pedro.
+* **C)** a disponibilidade de Pedro.
+* **D)** o reaproveitamento de Pedro.
+* **E)** o retorno de Pedro, e Maria será exonerada.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** O período de estágio probatório é de **três anos** (36 meses) e os servidores públicos civis adquirem **estabilidade**, e não vitaliciedade (garantia privativa de magistrados, procuradores de contas e membros do MP).
-> - **B) CORRETA.** Conforme prescreve a Lei Estadual nº 20.756/2020, ao entrar em exercício, o servidor público nomeado para cargo de provimento efetivo sujeita-se a **estágio probatório com duração de 3 (três) anos** de efetivo exercício, período no qual sua capacidade e desempenho serão submetidos a avaliação especial obrigatória considerando fatores legais como assiduidade, pontualidade, disciplina, iniciativa, produtividade e responsabilidade.
-> - **C) Incorreta.** A aquisição da estabilidade constitucional subordina-se compulsoriamente à prévia aprovação em avaliação de desempenho (Art. 41, § 4º da CF), sendo juridicamente impossível a estabilidade "tácita" por decurso de prazo.
-> - **D) Incorreta.** O servidor não estável reprovado no estágio probatório é **exonerado de ofício**; a disponibilidade com remuneração proporcional é prerrogativa protetiva exclusiva do servidor já estável cujo cargo venha a ser extinto.
-> - **E) Incorreta.** O servidor em estágio probatório pode ser perfeitamente exonerado se reputado inapto na avaliação de desempenho, assegurados o contraditório e a ampla defesa.
-> 
+> - **A)** Incorreta. A recondução é o retorno do servidor estável ao cargo anteriormente ocupado em decorrência de inabilitação em estágio probatório ou reintegração do anterior ocupante.
+> - **B)** Correta. Conforme dispõe o art. 41, § 2º, da Constituição Federal e o art. 47 da Lei Estadual nº 20.756/2020 (Estatuto dos Servidores de Goiás), invalidada por sentença judicial a demissão do servidor público estável, ele será reintegrado, e o eventual ocupante da vaga, se estável, será reconduzido ao cargo de origem, sem direito a indenização, aproveitado em outro cargo ou posto em disponibilidade.
+> - **C)** Incorreta. A disponibilidade decorre da extinção do cargo ou da declaração de sua desnecessidade.
+> - **D)** Incorreta. O aproveitamento é o retorno à atividade de servidor colocado em disponibilidade.
+> - **E)** Incorreta. Se Maria for servidora estável, ela não poderá ser sumariamente exonerada, devendo ser reconduzida, aproveitada ou posta em disponibilidade.
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 155
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Nos termos do Estatuto dos Servidores Públicos Civis do Estado de Goiás (Lei Estadual nº 20.756/2020), a vacância do cargo público decorre taxativamente de:
+**(FGV – TCE-GO – Analista de Controle Externo – 2024)**  
+Ana, servidora pública no âmbito do est ado de Goiás, em conluio com João, requereu o pagamento de determinado benefício estatutário ao qual sabidamente não tinha direito. Apesar da injuridicidade, João o deferiu poucos dias depois, tendo se iniciado, incontinente, o recebimento mensal do benefí cio por Ana. Seis anos depois, os mecanismos de controle interno detectaram o ilícito praticado. À luz dessa narrativa, é correto afirmar que, nos termos da Lei Estadual nº 13.800/2001,
 
-* **A)** Promoção, readaptação, aposentadoria, exoneração, demissão, destituição de cargo em comissão, posse em outro cargo inacumulável e falecimento.
-* **B)** Transferência, remoção compulsória, licença para tratar de interesses particulares e disponibilidade remunerada.
-* **C)** Exoneração voluntária e demissão por justa causa apenas, permanecendo as demais hipóteses regidas pelo direito civil em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **D)** Ascensão funcional, readmissão graciosa e aproveitamento em cargo comissionado.
-* **E)** Licença-maternidade, afastamento para mandato classista e cessão de servidores entre órgãos.
-
+* **A)** apesar do tempo decorrido, a decisão pode ser anulada.
+* **B)** deve ser revogada a decisão que concedeu o benefício a Ana.
+* **C)** a decisão não pode ser modificada, pois a Administração Pública decaiu da possibilidade de modificá-la.
+* **D)** como Ana recebe o benefício mensalmente, a cada mês se reinicia o prazo prescricional de cinco anos para a anulação da decisão.
+* **E)** como o benefício foi integrado à esfera jurídica de Ana, operou-se o direito adquirido, logo, a decisão não pode ser modificada.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. O art. 44 da Lei Estadual nº 20.756/2020 prevê o rol taxativo das hipóteses de vacância de cargo público no Estado de Goiás: I - exoneração; II - demissão; III - destituição de cargo em comissão; IV - aposentadoria; V - posse em outro cargo inacumulável; VI - promoção; VII - readaptação; VIII - falecimento. Nota-se que tanto a promoção quanto a readaptação operam simultaneamente como forma de provimento (em um cargo) e forma de vacância (no cargo anterior).
-> - **B)** Incorreta. Remoção e transferência interna não geram vacância de cargo, pois o servidor permanece ocupando o mesmo cargo efetivo, apenas alterando sua lotação ou unidade de exercício.
-> - **C)** Incorreta. Há várias outras hipóteses legais além de exoneração e demissão (aposentadoria, promoção, posse em cargo inacumulável etc.).
-> - **D)** Incorreta. Ascensão e transferência como formas de investidura foram banidas do ordenamento jurídico por inconstitucionalidade (Súmula Vinculante 43 do STF).
-> - **E)** Incorreta. Licenças e afastamentos temporários mantêm o cargo provido pelo titular.
+> - **A)** Correta. Nos termos da Lei Estadual nº 13.800/2001 (Lei de Processo Administrativo de Goiás, art. 54, espelhando o art. 54 da Lei Federal nº 9.784/1999) e da jurisprudência do STF e STJ, o prazo decadencial de 5 anos para a Administração anular atos de que decorram efeitos favoráveis para os destinatários NÃO se aplica quando comprovada a má-fé do beneficiário. Como houve conluio e dolo comprovado, a decisão pode ser anulada a qualquer tempo.
+> - **B)** Incorreta. Trata-se de ilegalidade flagrante (vício de legalidade), o que enseja anulação, e não revogação (que incide sobre atos válidos por motivo de conveniência).
+> - **C)** Incorreta. Havendo má-fé explícita pelo conluio fraudulento, inexiste proteção decadencial.
+> - **D)** Incorreta. Não se confunde trato sucessivo previdenciário de boa-fé com fraude de concessão.
+> - **E)** Incorreta. Não há direito adquirido contra a ordem jurídica quando o ato originário decorre de ilícito doloso.
 >
 > **Gabarito: A**
-
----
 
 ---
 
@@ -320,34 +316,26 @@ A respeito das licenças, afastamentos e concessões funcionais reguladas pela L
 ---
 
 ### Teste 157
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No âmbito do regime disciplinar instituído pela Lei Estadual nº 20.756/2020, as penalidades disciplinares aplicáveis aos servidores públicos estatutários de Goiás são:
+**(FGV – TCE-GO – Analista de Controle Externo – 2024)**  
+João, servidor público ocupante de cargo em comissão no âmbito do poder Executivo do Estado de Goiás, foi afastado da direção do órgão público X, em razão de permissivo constante da Lei estadual nº 20.756/2020. Maria, por sua vez, que dirigia o órgão público Y, foi informada que iria substituir João. Nessa situação, é correto afirmar que Maria, ao ser designada para substituir João
 
-* **A)** Advertência, censura ética, multa pecuniária descontada em folha e prisão administrativa.
-* **B)** Advertência, suspensão de até 90 dias, demissão, cassação de aposentadoria ou disponibilidade e destituição de cargo em comissão.
-* **C)** Repreensão verbal, suspensão por até 180 dias e perda compulsória dos direitos políticos.
-* **D)** Advertência e demissão apenas, não se admitindo a penalidade de suspensão no serviço público estadual em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **E)** Advertência, suspensão perpétua e banimento funcional.
-
+* **A)** continuará no órgão públi co Y, e receberá a integralidade da retribuição estipendial do cargo de João, paga proporcionalmente aos dias de efetiva substituição.
+* **B)** continuará no órgão público Y, e poderá optar pela remuneração integral do cargo de João, ao invés daquela correspondente ao cargo que ocupa.
+* **C)** continuará no órgão publico Y, e receberá 60% da retribuição estipendial do cargo de João, paga proporcionalmente aos dias de efetiva substituição.
+* **D)** continuará no órgão público Y, e não fará jus a qualquer retribuição estipendial pela acumulação do órgão público x.
+* **E)** será afastada do órgão público Y, em razão da vedação à acumulação de cargos. TRIBUNAL DE CONTAS DO ESTADO DE GOIÁS FGV CONHECIMENTO ANALISTA DE CONTROLE EXTERNO - CIENCIAS CONTABEIS – MANHÃ TIPO BRANCA – PÁGINA 8
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A prisão administrativa é inconstitucional no direito brasileiro pós-CF/88, e censura ética é sanção deontológica de comissões de ética, não penalidade disciplinar estatutária direta.
-> - **B)** Correta. O art. 196 da Lei Estadual nº 20.756/2020 enumera em rol taxativo as sanções disciplinares aplicáveis:  
->   I - advertência;  
->   II - suspensão (por prazo de até 90 dias);  
->   III - demissão;  
->   IV - cassação de aposentadoria ou disponibilidade;  
->   V - destituição de cargo em comissão ou função de confiança.
-> - **C)** Incorreta. A suspensão é limitada a 90 dias, e perda de direitos políticos é sanção judicial privativa e não administrativa.
-> - **D)** Incorreta. A suspensão é modalidade sancionatória expressamente positivada.
-> - **E)** Incorreta. São vedadas penas perpétuas ou de banimento pela ordem constitucional.
+> - **A)** Incorreta. A legislação goiana não atribui a integralidade cumulada com a remuneração já percebida.
+> - **B)** Incorreta. Não se trata de opção remuneratória total nos moldes do enunciado.
+> - **C)** Correta. De acordo com as disposições da Lei Estadual nº 20.756/2020 sobre substituição remunerada de funções de chefia e direção, o substituto que acumular as atribuições do titular afastado continuará titularizando seu órgão de origem e fará jus ao acréscimo proporcional de 60% da retribuição estipendial do cargo do substituído correspondente aos dias da substituição efetiva.
+> - **D)** Incorreta. A prestação do encargo de substituição é expressamente remunerada pelo estatuto goiano.
+> - **E)** Incorreta. A substituição temporária e legal não configura hipótese vedada de acumulação ilícita de cargos permanentes.
 >
-> **Gabarito: B**
-
----
+> **Gabarito: C**
 
 ---
 
