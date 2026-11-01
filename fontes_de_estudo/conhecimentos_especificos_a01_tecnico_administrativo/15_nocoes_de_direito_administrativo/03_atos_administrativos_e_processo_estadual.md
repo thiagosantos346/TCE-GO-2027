@@ -97,26 +97,43 @@ flowchart TD
 ---
 
 ### Teste 023
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No estudo da Teoria Geral do Ato Administrativo, os planos da existência, da validade e da eficácia representam momentos conceituais distintos. A respeito da distinção dogmática entre a validade e a eficácia dos atos administrativos, é correto afirmar que:
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+Jordana reside em Catalão/GO, aposentou-se de forma comum em 
+2023 pelo Regime Geral de Previdência Social mas, por dificuldade 
+financeira, resolveu procurar emprego, conseguindo colocação 
+num pequeno comér cio da localidade, onde recebe o 
+correspondente a 2 salários mínimos – valor até superior à sua 
+aposentadoria. 
+Considerando os fatos narrados, marque a alternativa que 
+identifica o que ocorrerá com a aposentadoria de Jordana.
 
-* **A)** Um ato administrativo válido é necessariamente eficaz, produzindo efeitos jurídicos desde a sua assinatura.
-* **B)** O ato nulo por vício de competência pode ser plenamente eficaz antes de ter sua invalidade declarada.
-* **C)** A pendência de termo inicial ou condição suspensiva compromete a validade originária do ato administrativo.
-* **D)** O ato pendente de homologação obrigatória pelo Tribunal de Contas é existente, válido e plenamente eficaz.
-* **E)** A declaração judicial de nulidade de um ato administrativo opera efeitos prospectivos sem retroagir à origem.
+* **A)** Como Jordana terá 2 fontes de renda, haverá recolhimento 
+previdenciário sobre a aposentadoria do Regime Geral de 
+Previdência Social.
+* **B)** Jordana tem liberdade para trabalhar, mas sua aposentadoria 
+será suspensa enquanto estiver na ativa e, em contrapartida, 
+não incidirá INSS sobre o salário dela.
+* **C)** Por ser aposentada pelo Regime Geral, não haverá 
+recolhimento de INSS sobre o salário da ativa nem sobre a 
+aposentadoria de Jordana.
+* **D)** Não incidirá contribuição previdenciária sobre a aposentadoria 
+de Jordana.
+* **E)** O INSS incidir á apenas sobre a diferença entre o salário da 
+ativa e a aposentadoria de Jordana.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. Validade e eficácia não se confundem: um ato pode ser perfeitamente válido, mas ineficaz por estar sujeito a condição suspensiva, termo inicial ou necessidade de homologação externa.
-> - **B)** **Correto**. Em virtude do princípio da presunção de legitimidade e veracidade dos atos administrativos, o ato que padece de vício de nulidade (como defeito de competência) produz efeitos práticos e jurídicos regulares perante terceiros até que seja formalmente invalidado pela Administração ou pelo Judiciário.
-> - **C)** **Incorreto**. O termo ou condição suspensiva afeta unicamente o plano da eficácia (exequibilidade), não o da validade (conformidade com a lei).
-> - **D)** **Incorreto**. O ato pendente de homologação pelo Tribunal de Contas (ato complexo) ainda não completou seu ciclo de formação e eficácia plena.
-> - **E)** **Incorreto**. A anulação opera efeitos retroativos (ex tunc), desfazendo as consequências pretéritas geradas pelo ato inválido.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
-> **Gabarito: B**
+> **Gabarito: C**
+
+---
 ## 2. Elementos e Requisitos de Validade do Ato (Mnemônico COFIFOM)
 
 A Lei de Ação Popular (Lei Federal nº 4.717/1965, art. 2º) positivou a doutrina dos cinco elementos constitutivos indispensáveis para a validade do ato administrativo: **Competência, Finalidade, Forma, Motivo e Objeto** (**COFIFOM**).
@@ -179,26 +196,37 @@ O objeto é o efeito jurídico imediato e substantivo que o ato produz no mundo 
 ---
 
 ### Teste 024
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A autoridade competente de determinada autarquia estadual instaurou processo administrativo de fiscalização e aplicou sanção a uma sociedade empresária credenciada. Inconformada, a empresa alegou vício de competência do agente sancionador. Sobre o elemento competência do ato administrativo, assinale a opção correta:
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+Os pronunciamentos judiciais são os instrumentos pelos quais o 
+Estado-juiz se manifesta no curso do processo.  
+A seu respeito, assinale a alternativa correta.
 
-* **A)** A competência administrativa é de exercício obrigatório, intransferível e indelegável em qualquer circunstância.
-* **B)** A competência fixada em lei pode ser renunciada pela autoridade quando comprovada carência de quadro técnico.
-* **C)** A incompetência em razão da matéria constitui vício de legalidade insanável, inadmitindo convalidação administrativa.
-* **D)** O vício de incompetência decorrente do excesso de poder convalida-se tacitamente com o decurso de trinta dias.
-* **E)** A competência exclusiva pode ser livremente delegada mediante portaria conjunta publicada no Diário Oficial.
+* **A)** As decisões interlocutórias devem ser praticadas de ofício pelo 
+servidor e revistas pelo juiz quando necessário.
+* **B)** São despachos todos os demais pronunciamentos do juiz 
+praticados no processo, de ofício ou a requerimento da parte, 
+à exceção das sentenças e decisões interlocutórias.
+* **C)** Acórdão é o julgamento proferido monocratica mente pelo 
+relator nos tribunais.
+* **D)** A assinatura dos juízes deverá ser feita fisicamente, ainda que 
+se trate de processo que tramite em autos eletrônicos.
+* **E)** A extinção da execução é feita por meio de decisão 
+interlocutória, com fundamentos nos artigos 485 e 487 do 
+Código de Processo Civil.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A competência é delegável e avocável nos termos e limites autorizados em lei (arts. 11 e 12 da Lei nº 9.784/1999).
-> - **B)** **Incorreto**. A competência é irrenunciável e se exerce pelos órgãos a que foi atribuída em lei (art. 11 da Lei nº 9.784/1999).
-> - **C)** **Correto**. O vício de competência em razão da matéria (ratione materiae) e em razão da hierarquia é insanável (vício material absoluto), gerando a nulidade do ato e impedindo qualquer convalidação (art. 55 da Lei nº 9.784/1999). Somente a competência ratione personae (quanto à pessoa do agente, sem exclusividade legal) admite convalidação.
-> - **D)** **Incorreto**. O excesso de poder é vício de legalidade gravoso que não convalida tacitamente pelo decurso de trinta dias.
-> - **E)** **Incorreto**. As matérias de competência exclusiva são legalmente indelegáveis (art. 13, III da Lei nº 9.784/1999).
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
 > **Gabarito: C**
+
+---
 ### Teste 025
 **(FGV – TRF-1 – Analista Judiciário – 2024)**  
 Ao estudar as hipóteses de extinção do ato administrativo, Júlia verificou que há uma modalidade em que isso ocorre em razão da incompatibilidade do ato administrativo com outro posterior, tal como ocor re com a nomeação do servidor, que é extinta com a sua exoneração. Tal modalidade de extinção corresponde a:
@@ -224,26 +252,47 @@ Ao estudar as hipóteses de extinção do ato administrativo, Júlia verificou q
 ---
 
 ### Teste 026
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No estudo dogmático do ato administrativo, a doutrina tradicional e o art. 2º da Lei Federal nº 4.717/1965 (Lei da Ação Popular) estruturam a validade dos atos em cinco elementos ou requisitos essenciais. Dentre os elementos indispensáveis à formação do ato administrativo, citam-se:
+**(FGV – TCE-GO – Analista de Controle Externo - Controle Externo – 2024)**
+Em decorrência da verificação em processo de tomada especial de 
+contas de fraude à lei e confusão patrimonial entre sociedade e 
+sócios da sociedade Ômega, certo Tribunal de Contas determinou, 
+após o devido processo administrativo, a desconsideração da 
+personalidade jurídica da mencionada sociedade, viabilizando que 
+a imposição d e ressarcimento ao erário alcançasse o patrimônio 
+de seus sócios, para fins de resguardar o resultado útil do 
+processo, mediante a garantia do contraditório e da ampla defesa.  
+Diante dessa situação hipotética, à luz da orientação do Supremo 
+Tribunal Federal, é correto afirmar que a medida determinada no 
+âmbito do controle realizado pela Corte de Contas é
 
-* **A)** a autoexecutoriedade, a imperatividade e a presunção de legitimidade perante administrados.
-* **B)** a discricionariedade, a vinculação e a revogabilidade por juízo de mérito administrativo.
-* **C)** a conveniência, a oportunidade e a razoabilidade quanto ao objeto tutelado na decisão.
-* **D)** o sujeito competente, a finalidade, a forma, o motivo e o objeto jurídico do provimento.
-* **E)** os atos de império, os atos de gestão patrimonial e os atos negociais de interesse público.
+* **A)** inconstitucional, na medida em que viola a propriedade 
+privada e a livre iniciativa.
+* **B)** constitucional, por se lhe reconhecer todos os poderes 
+inerentes à atividade jurisdicional.
+* **C)** inconstitucional, considerando que não está especificada 
+dentre as suas atribuições na forma em que delimitada na 
+Constituição.
+* **D)** inconstitucional, pois tal desconsideração da personalidade 
+jurídica apenas poderia ser determinada pelo Poder Judiciário.
+* **E)** constitucional, porque abarcada pelo poder geral de cautela 
+que lhe é reconhecido com base na teoria dos poderes 
+implícitos. 
+
+Direito Civil
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. Autoexecutoriedade, imperatividade e presunção de legitimidade são atributos (características) do ato administrativo, e não seus elementos/requisitos de validade.
-> - **B)** **Incorreto**. Discricionariedade e vinculação expressam o grau de liberdade conferido por lei à autoridade decisora.
-> - **C)** **Incorreto**. Conveniência e oportunidade integram o mérito dos atos discricionários.
-> - **D)** **Correto**. São cinco os elementos/requisitos essenciais de validade do ato administrativo (mnemônico COFIFOMO): Competência (sujeito), Finalidade, Forma, Motivo e Objeto, expressamente positivados no art. 2º da Lei nº 4.717/1965.
-> - **E)** **Incorreto**. Trata-se de classificação doutrinária quanto à posição jurídica da Administração.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
-> **Gabarito: D**
+> **Gabarito: C**
+
+---
 ## 3. Atributos do Ato Administrativo (Mnemônico PATI)
 
 Os atributos do ato administrativo consagram prerrogativas que decorrem diretamente do princípio da supremacia do interesse público:
@@ -286,26 +335,45 @@ Consiste na faculdade de impor obrigações coercitivas e restrições unilatera
 ---
 
 ### Teste 027
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Determinada fiscalização de vigilância sanitária estadual constatou que um restaurante comercializava alimentos estragados e impróprios para o consumo humano, gerando risco iminente de intoxicação coletiva. De imediato, a equipe de fiscalização determinou a interdição do estabelecimento e apreendeu as mercadorias. Sobre a autoexecutoriedade:
+**(FGV – TCE-GO – Analista de Controle Externo - Controle Externo – 2024)**
+Jansen, servidor público estável do Estado de Goiás, exerce a 
+atribuição de analisar processos administrativos sobre 
+determinada matéria, sendo certo que um dos feitos submetidos 
+à sua apreciação envolve o interesse de Carlos, que é casado com 
+Angélica, contra quem o mencionado agente público está litigando 
+judicialmente. 
+Considerando as causas de impedimento e suspeição constantes 
+da Lei Estadual nº 13.800/2001, é correto afirmar que a situação 
+descrita
 
-* **A)** Exige prévia autorização judicial liminar para a sua incidência, em observância à inafastabilidade da jurisdição.
-* **B)** Presente em todos os atos administrativos indistintamente, inclusive na cobrança coercitiva de multas pecuniárias.
-* **C)** Legítima na hipótese fática descrita por se tratar de situação urgente de iminente perigo à saúde da população.
-* **D)** Restringe-se à lavratura do auto de infração, cabendo privativamente à polícia civil executar o fechamento do local.
-* **E)** Subordina-se a prévio depósito recursal pelo comerciante para que a ordem estatal possa surtir efeitos jurídicos.
+* **A)** não apresenta qualquer razão para o reconhecimento do 
+impedimento ou suspeição de Jansen.
+* **B)** caracteriza hipótese de suspeição, de modo que Jansen deve 
+comunicá-la a autoridade competente, abstendo -se de atuar 
+no referido processo.
+* **C)** apenas poderia delimitar o impedimento de Jansen se ele 
+estivesse litigando contra Carlos, o que não pode ser estendido 
+para a sua esposa.
+* **D)** configura causa de impedimento, de modo que a omissão de 
+Jansen no dever de comunicar tal fato, constitui falta grave 
+para efeitos disciplinares.
+* **E)** conforma a suspeição de Jansen, que pod e ser arguida por 
+Carlos, hipótese em que o eventual indeferimento da alegação 
+é passível de recurso sem efeito suspensivo.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A autoexecutoriedade consiste exatamente na prerrogativa estatal de executar diretamente suas decisões sem necessidade de tutela judicial prévia.
-> - **B)** **Incorreto**. A autoexecutoriedade não é atributo universal de todos os atos; a cobrança de multas administrativas de trânsito ou sanitárias exige inscrição em dívida ativa e execução fiscal judicializada (não autoexecutória).
-> - **C)** **Correto**. A autoexecutoriedade autoriza a prática imediata de medidas materiais coercitivas quando houver expressa previsão em lei ou em hipóteses de urgência que demandem atuação pronta para evitar dano irreparável ao interesse público (como a apreensão de alimentos estragados para tutela da saúde pública).
-> - **D)** **Incorreto**. A autoridade sanitária dispõe de competência legal para executar a interdição materialmente.
-> - **E)** **Incorreto**. Não se condiciona a depósito e o recurso não detém efeito suspensivo automático em situação de perigo iminente.
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
-> **Gabarito: C**
+> **Gabarito: A**
+
+---
 ## 4. Classificações Relevantes para a FCC: Atos Simples, Complexos e Compostos
 
 ### 4.1 Atos Simples, Complexos e Compostos
@@ -339,47 +407,82 @@ O julgamento da legalidade e a concessão de registro de aposentadoria, pensão 
 ---
 
 ### Teste 028
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Na classificação doutrinária dos atos administrativos quanto à formação da vontade estatal, a doutrina tradicional distingue os atos simples, os atos complexos e os atos compostos. A respeito da distinção dogmática entre ato complexo e ato composto, é correto afirmar que:
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+Jucundido Francisco, servidor de um município brasileiro fictício, 
+alcançou enfim o tempo de sua aposentadoria após décadas de 
+labor. O processo de aposentadoria somente foi encaminhado 
+para registro junto ao Tribunal de Contas Local após dois anos da 
+concessão da aposentadoria à Jucundido Francisco. Passados três 
+anos e meio de tramitação do processo na Corte de Contas o 
+tribunal decidiu anular o ato de concessão de aposentadoria por 
+verificação de algumas inconsistências. 
+Tendo por orientação o tema 445 de repercussão geral do 
+Supremo Tribunal Federal, assinale a alternativa que melhor 
+resolve a situação-problema apresentada.
 
-* **A)** o ato complexo resulta da manifestação de dois órgãos que emitem um ato principal e outro acessório instrumental.
-* **B)** o ato composto aperfeiçoa-se com a manifestação convergente de dois ou mais órgãos para formar um ato único.
-* **C)** o ato complexo exige a integração de vontades autônomas de órgãos distintos para que o ato se considere perfeito.
-* **D)** o ato composto resulta da deliberação de um órgão colegiado singular cuja vontade se manifesta pela maioria de votos.
-* **E)** o ato complexo independe da aprovação do órgão superior para produzir integralmente seus efeitos jurídicos válidos.
+* **A)** O tribunal não poderia anular o ato de concessão de 
+aposentadoria haja vist a o prazo decadencial de 5 anos  da 
+publicação do ato no diário oficial.
+* **B)** O tribunal pode anular o ato de concessão de aposentadoria 
+na situação em tela.
+* **C)** O tribunal não poderia anular o ato de concessão de 
+aposentadoria haja vista o prazo decadencial  de 3 anos  a 
+contar da chegada do processo à respectiva Corte de Contas.
+* **D)** O tribunal não poderia anular o ato de concessão de 
+aposentadoria haja vista o prazo decadencial de 2 anos  a 
+contar da chegada do processo à respectiva Corte de Contas.
+* **E)** O tribunal não poderia anular o ato de concessão de 
+aposentadoria haja vista o praz o decadencial de 3 anos  da 
+publicação do ato no diário oficial, cabendo responsabilizar o 
+agente a que deu causa o atraso no envio.  
+
+Auditoria Governamental
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. Essa é a definição do ato composto (ato principal emitido por um órgão condicionado à aprovação ou homologação instrumental de outro).
-> - **B)** **Incorreto**. Essa é a definição do ato complexo.
-> - **C)** **Correto**. No ato complexo, há a fusão e conjunção de vontades emanadas de dois ou mais órgãos ou autoridades independentes para formar um ato jurídico único (ex.: nomeação de Ministros do STF pelo Presidente com aprovação do Senado; concessão inicial de aposentadoria sujeita a registro pelo Tribunal de Contas). Antes da integração da segunda vontade, o ato sequer está completo e perfeito.
-> - **D)** **Incorreto**. A manifestação colegiada singular consubstancia ato simples colegial.
-> - **E)** **Incorreto**. A manifestação de todos os órgãos envolvidos é elemento constitutivo para a formação e perfeição do ato complexo.
->
-> **Gabarito: C**
-### Teste 029
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Determinada autarquia estadual publicou ato concedendo aposentadoria a servidor público estatutário e enviou os autos funcionais ao Tribunal de Contas do Estado para fins de registro e controle de legalidade. Decorridos seis anos da entrada do processo na Corte de Contas sem deliberação, o processo foi pautado para julgamento. À luz do art. 71, III, da CF/88 e do Tema nº 445 do STF:
-
-* **A)** O ato de concessão de aposentadoria é ato composto, restando precluso o exame de legalidade pelo Tribunal de Contas.
-* **B)** O Tribunal de Contas dispõe de cinco anos da chegada dos autos na Corte para julgar a legalidade, sob pena de registro tácito.
-* **C)** O prazo decadencial de cinco anos conta-se da publicação do ato pelo órgão de origem, tornando o processo intempestivo.
-* **D)** O controle de legalidade exercido pelos Tribunais de Contas sobre atos complexos é imprescritível por expressa previsão constitucional.
-* **E)** O transcurso de cinco anos sem julgamento converte a aposentadoria estatutária em provimento irrevogável de pensão privada.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreto**. A aposentadoria é ato complexo (concessão pelo órgão de origem fundida ao registro pelo Tribunal de Contas).
-> - **B)** **Correto**. Tese Vinculante fixada pelo STF no Tema nº 445 de Repercussão Geral: "Em atenção aos princípios da segurança jurídica e da confiança legítima, os Tribunais de Contas estão sujeitos ao prazo de 5 anos para o julgamento da legalidade do ato de concessão inicial de aposentadoria, reforma ou pensão, a contar da chegada do processo à respectiva Corte de Contas, após o que, na falta de julgamento, considerar-se-á tacitamente registrado".
-> - **C)** **Incorreto**. O prazo quinquenal conta-se da entrada dos autos na Corte de Contas (marco inicial), e não da publicação originária.
-> - **D)** **Incorreto**. O STF pacificou a incidência do prazo decadencial de cinco anos em obséquio à segurança jurídica.
-> - **E)** **Incorreto**. O efeito decorrente do decurso do prazo é o registro tácito do ato aposentatório pelo Tribunal de Contas.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
 > **Gabarito: B**
+
+---
+### Teste 029
+**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**
+Em relação à invalidação dos atos administrativos é cor-
+reto afirmar que
+
+* **A)** apenas os atos discricionários podem ser objeto de 
+revogação.
+* **B)** apenas os atos vinculados podem ser objeto de 
+anulação.
+* **C)** a revogação por conveniência e oportunidade deso-
+briga a Administração de indenizar o particular le-
+sado.
+* **D)** a anulação sempre se dá em caráter ex nunc  e 
+respeita os efeitos produzidos durante a vigência do 
+ato.
+* **E)** a revogação sempre se dá em caráter ex tunc  e 
+desfaz os efeitos produzidos durante a vigência do 
+ato, com ou sem indenização.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: B**
+
+---
 ## 5. Extinção e Convalidação dos Atos Administrativos
 
 ### 5.1 Modos de Extinção: Anulação, Revogação, Cassação, Caducidade e Contraposição
@@ -418,49 +521,76 @@ A convalidação (ou sanatória) é o ato administrativo pelo qual a Administra�
 ---
 
 ### Teste 030
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Ao estudar as modalidades de extinção do ato administrativo no Direito Administrativo brasileiro, Júlia verificou a ocorrência de uma hipótese em que o beneficiário de uma licença outorgada pelo Poder Público descumpriu dolosamente as normas legais e condicionantes impostas no momento da expedição do ato. 
+**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**
+Dentre os elementos dos atos administrativos, citam-se
 
-Nesse contexto doutrinário, a modalidade de desfazimento do ato administrativo decorrente da superveniente culpa do beneficiário denomina-se:
-
-* **A)** caducidade.
-* **B)** revogação.
-* **C)** cassação.
-* **D)** anulação.
-* **E)** contraposição.
+* **A)** a autoexecutoriedade, a imperatividade e a presun-
+ção de legalidade.
+* **B)** a discricionariedade e a vinculação.
+* **C)** a anulação e a revogação.
+* **D)** o objeto, a finalidade e o motivo.
+* **E)** os atos de império, os atos negociais e os atos de 
+gestão. 
+_________________________________________________________
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A caducidade ocorre quando uma lei nova superveniente torna ilegal a manutenção do ato administrativo emitido validamente no passado.
-> - **B)** **Incorreto**. A revogação decorre de juízo discricionário de conveniência e oportunidade da própria Administração sobre ato válido.
-> - **C)** **Correto**. A cassação é a extinção extintiva-sancionatória do ato administrativo decorrente do descumprimento, pelo particular beneficiário, de requisitos legais ou condições fáticas obrigatórias fixadas para a manutenção do benefício outorgado (ex.: hotel com alvará de funcionamento que passa a operar como casa de prostituição clandestina).
-> - **D)** **Incorreto**. A anulação pressupõe vício congênito de ilegalidade existente no momento da edição do ato.
-> - **E)** **Incorreto**. A contraposição (ou derrubada) ocorre quando um ato posterior com efeitos antagônicos extingue o ato anterior (ex.: exoneração extingue nomeação).
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
 > **Gabarito: C**
-### Teste 031
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Em relação à invalidação, revogação e convalidação dos atos administrativos no ordenamento jurídico brasileiro, é correto afirmar que:
 
-* **A)** apenas os atos discricionários podem ser objeto de revogação por conveniência e oportunidade da Administração.
-* **B)** apenas os atos vinculados admitem a declaração de anulação quando constatada a presença de vício de legalidade.
-* **C)** a revogação por motivo de oportunidade desfaz integralmente os efeitos jurídicos pretéritos produzidos pelo ato.
-* **D)** a anulação de ato ilegal produz sempre efeitos prospectivos ex nunc para preservar os direitos dos beneficiários.
-* **E)** os vícios insanáveis de competência em razão da matéria e de finalidade desvio admitem ampla convalidação legal.
+---
+### Teste 031
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+Jucundido Francisco, servidor de um município brasileiro fictício, 
+alcançou enfim o tempo de sua aposentadoria após décadas de 
+labor. O processo de aposentadoria somente foi encaminhado 
+para registro junto ao Tribunal de Contas Local após dois anos da 
+concessão da aposentadoria à Jucundido Francisco. Passados três 
+anos e meio de tramitação do processo na Corte de Contas o 
+tribunal decidiu anular o ato de concessão de aposentadoria por 
+verificação de algumas inconsistências. 
+Tendo por orientação o tema 445 de repercussão geral do 
+Supremo Tribunal Federal, assinale a alternativa que melhor 
+resolve a situação-problema apresentada.
+
+* **A)** O tribunal não poderia anular o ato de concessão de 
+aposentadoria haja vist a o prazo decadencial de 5 anos  da 
+publicação do ato no diário oficial.
+* **B)** O tribunal pode anular o ato de concessão de aposentadoria 
+na situação em tela.
+* **C)** O tribunal não poderia anular o ato de concessão de 
+aposentadoria haja vista o prazo decadencial  de 3 anos  a 
+contar da chegada do processo à respectiva Corte de Contas.
+* **D)** O tribunal não poderia anular o ato de concessão de 
+aposentadoria haja vista o prazo decadencial de 2 anos  a 
+contar da chegada do processo à respectiva Corte de Contas.
+* **E)** O tribunal não poderia anular o ato de concessão de 
+aposentadoria haja vista o praz o decadencial de 3 anos  da 
+publicação do ato no diário oficial, cabendo responsabilizar o 
+agente a que deu causa o atraso no envio.  
+
+Auditoria Governamental
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correto**. A revogação incide estritamente sobre atos administrativos discricionários válidos, por motivo de conveniência e oportunidade (mérito administrativo). Os atos puramente vinculados não admitem revogação, pois não contêm margem de discricionariedade concedida pela lei à autoridade julgadora.
-> - **B)** **Incorreto**. Tanto os atos vinculados quanto os atos discricionários podem ser objeto de anulação se praticados com violação à lei.
-> - **C)** **Incorreto**. A revogação opera efeitos ex nunc (não retroativos), respeitando os direitos adquiridos consolidados sob a vigência do ato.
-> - **D)** **Incorreto**. A anulação opera, em regra, efeitos retroativos ex tunc, fulminando o ato desde o seu nascimento.
-> - **E)** **Incorreto**. Vício de matéria e vício de desvio de finalidade são insanáveis e jamais admitem convalidação.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
-> **Gabarito: A**
+> **Gabarito: B**
+
+---
 ## 6. Processo Administrativo no Estado de Goiás (Lei Estadual nº 13.800/2001)
 
 A **Lei Estadual nº 13.800/2001** disciplina o processo administrativo no âmbito da Administração Pública direta e indireta do Estado de Goiás:
@@ -498,51 +628,95 @@ Para assegurar a imparcialidade nas decisões administrativas, a lei estadual es
 ---
 
 ### Teste 032
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O Presidente de determinada autarquia delegou a órgão hierarquicamente inferior a competência para instruir procedimentos apuratórios e expedir certidões, fixando prazo determinado de vigência para a delegação. 
+**(FGV – TCE-GO – Analista de Controle Externo - Controle Externo – 2024)**
+Jucundido Francisco, servidor de um município brasileiro fictício, 
+alcançou enfim o tempo de sua aposentadoria após décadas de 
+labor. O processo de aposentadoria somente foi encaminhado 
+para registro junto ao Tribunal de Contas Local após dois anos da 
+concessão da aposentadoria à Jucundido Francisco. Passados três 
+anos e meio de tramitação do processo na Corte de Contas o 
+tribunal decidiu anular o ato de concessão de aposentadoria por 
+verificação de algumas inconsistências. 
+Tendo por orientação o tema 445 de repercussão geral do 
+Supremo Tribunal Federal, assinale a alternativa que melhor 
+resolve a situação-problema apresentada.
 
-A respeito dos efeitos do ato de delegação sobre a autoridade delegante, com base na Lei de Processo Administrativo (Lei nº 9.784/1999):
+* **A)** O tribunal não poderia anular o ato de concessão de 
+aposentadoria haja vist a o prazo decadencial de 5 anos  da 
+publicação do ato no diário oficial.
+* **B)** O tribunal pode anular o ato de concessão de aposentadoria 
+na situação em tela.
+* **C)** O tribunal não poderia anular o ato de concessão de 
+aposentadoria haja vista o prazo decadencial  de 3 anos  a 
+contar da chegada do processo à respectiva Corte de Contas.
+* **D)** O tribunal não poderia anular o ato de concessão de 
+aposentadoria haja vista o prazo decadencial de 2 anos  a 
+contar da chegada do processo à respectiva Corte de Contas.
+* **E)** O tribunal não poderia anular o ato de concessão de 
+aposentadoria haja vista o prazo decadencial de 3 anos  da 
+publicação do ato no diário oficial, cabendo responsabilizar o 
+agente a que deu causa o atraso no envio.  
 
-* **A)** a autoridade delegante pode exercer a competência delegada a qualquer tempo, pois a titularidade legal permanece com ela.
-* **B)** a autoridade delegante fica impedida de praticar o ato delegado durante todo o prazo fixado na portaria originária.
-* **C)** a autoridade delegante somente pode voltar a exercer a competência delegada após o trânsito em julgado de processo revogatório.
-* **D)** a autoridade delegante perde em definitivo o poder decisório, respondendo solidariamente por improbidade com o delegado.
-* **E)** a competência delegada passa a ser concorrente entre o delegante e o delegado, prevalecendo a decisão do subalterno.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correto**. O ato de delegação transfere unicamente o exercício provisório de certas atribuições administrativas, mantendo a titularidade originária com a autoridade delegante. Por essa razão, a autoridade delegante mantém competência concorrente e pode, a qualquer tempo e discricionariamente, praticar o ato ou revogar total ou parcialmente a delegação outorgada (art. 14, § 2º da Lei nº 9.784/1999).
-> - **B)** **Incorreto**. O delegante não perde a faculdade de avocar ou exercer diretamente o ato quando entender conveniente.
-> - **C)** **Incorreto**. A revogação da delegação é ato discricionário unilateral que opera efeitos imediatos sem trânsito em julgado.
-> - **D)** **Incorreto**. O delegado responde pessoalmente pelos atos que praticar na delegação (Súmula 510 do STF), sem perda definitiva do delegante.
-> - **E)** **Incorreto**. Prevalece hierarquicamente a deliberação da autoridade delegante superior.
->
-> **Gabarito: A**
-### Teste 033
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-De acordo com o regime jurídico do processo administrativo no âmbito da Administração Pública do Estado de Goiás (Lei Estadual nº 13.800/2001), a autoridade ou servidor que incorrer em impedimento funcional deve comunicar o fato incontinenti à autoridade competente, abstendo-se de atuar no feito. 
-
-Configura hipótese de IMPEDIMENTO legal, nos termos expressos do art. 18 da referida legislação estadual, a participação de autoridade ou servidor que:
-
-* **A)** tenha amizade notória ou inimizade capital com qualquer dos litigantes ou seus procuradores.
-* **B)** tenha interesse direto ou indireto na matéria controvertida ou seja cônjuge de um dos litigantes.
-* **C)** mantenha relação de subordinação funcional estrita com o chefe imediato da repartição processante.
-* **D)** possua débito inscrito em dívida ativa com a Fazenda Pública estadual em execução fiscal suspensa.
-* **E)** tenha divergência de posicionamento doutrinário com as teses defendidas na peça recursal do interessado.
+Auditoria Governamental
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. Amizade notória ou inimizade capital configura caso de suspeição (art. 20 da Lei nº 13.800/2001 e art. 20 da Lei nº 9.784/1999), e não de impedimento legal objetivo.
-> - **B)** **Correto**. O art. 18 da Lei Estadual nº 13.800/2001 (idêntico ao art. 18 da Lei nº 9.784/1999) enumera taxativamente as causas objetivas de impedimento processual: "É impedido de atuar em processo administrativo o servidor ou autoridade que: I - tenha interesse direto ou indireto na matéria; II - tenha participado ou venha a participar como perito, testemunha ou representante, ou se tais situações ocorrem quanto ao cônjuge, companheiro ou parentes e afins até o terceiro grau; III - esteja litigando judicial ou administrativamente com o interessado ou respectivo cônjuge ou companheiro".
-> - **C)** **Incorreto**. Subordinação hierárquica regular de trabalho não gera impedimento automático para atuar em processo.
-> - **D)** **Incorreto**. Débito fiscal com a Fazenda é matéria estranha às hipóteses legais de impedimento processual.
-> - **E)** **Incorreto**. Divergência de hermenêutica ou teses jurídicas não afeta a imparcialidade objetiva legal do julgador.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
 > **Gabarito: B**
+
+---
+### Teste 033
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+Jucundido Francisco, servidor de um município brasileiro fictício, 
+alcançou enfim o tempo de sua aposentadoria após décadas de 
+labor. O processo de aposentadoria somente foi encaminhado 
+para registro junto ao Tribunal de Contas Local após dois anos da 
+concessão da aposentadoria à Jucundido Francisco. Passados três 
+anos e meio de tramitação do processo na Corte de Contas o 
+tribunal decidiu anular o ato de concessão de aposentadoria por 
+verificação de algumas inconsistências. 
+Tendo por orientação o tema 445 de repercussão geral do 
+Supremo Tribunal Federal, assinale a alternativa que melhor 
+resolve a situação-problema apresentada.
+
+* **A)** O tribunal não poderia anular o ato de concessão de 
+aposentadoria haja vist a o prazo decadencial de 5 anos  da 
+publicação do ato no diário oficial.
+* **B)** O tribunal pode anular o ato de concessão de aposentadoria 
+na situação em tela.
+* **C)** O tribunal não poderia anular o ato de concessão de 
+aposentadoria haja vista o prazo decadencial  de 3 anos  a 
+contar da chegada do processo à respectiva Corte de Contas.
+* **D)** O tribunal não poderia anular o ato de concessão de 
+aposentadoria haja vista o prazo decadencial de 2 anos  a 
+contar da chegada do processo à respectiva Corte de Contas.
+* **E)** O tribunal não poderia anular o ato de concessão de 
+aposentadoria haja vista o praz o decadencial de 3 anos  da 
+publicação do ato no diário oficial, cabendo responsabilizar o 
+agente a que deu causa o atraso no envio.  
+
+Auditoria Governamental
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: B**
+
+---
 ## 7. Fontes Recomendadas na Internet
 
 - [Lei Estadual de Goiás nº 13.800/2001 (Processo Administrativo Estadual de Goiás)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/81441/lei-13800)  

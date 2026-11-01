@@ -139,89 +139,152 @@ O Supremo Tribunal Federal, ao julgar o RE 1.027.633 sob a sistemática da reper
 ---
 
 ### Teste 034
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Motorista de ambulância pertencente à Secretaria de Saúde de determinado Estado da Federação, ao conduzir o veículo oficial em velocidade compatível durante o transporte regular de paciente, colidiu contra o automóvel de um particular que avançou o sinal vermelho de um cruzamento. Diante dos danos materiais causados ao particular:
+**(FGV – TJ-BA – Analista Judiciário - Tecnologia da Informação – 2015)**
+Em Java, os métodos declarados sem modificadores em uma 
+interface são implicitamente:
 
-* **A)** O Estado responde de forma objetiva fundada no risco integral, sendo irrelevante a conduta culposa do terceiro.
-* **B)** A culpa exclusiva da vítima ou de terceiro elide o nexo causal, afastando o dever de indenizar do Estado.
-* **C)** O particular prejudicado deve ajuizar a ação indenizatória diretamente em face do servidor público condutor.
-* **D)** A responsabilidade civil do ente público condiciona-se à prévia instauração de sindicância de trânsito.
-* **E)** O Estado responde subjetivamente por danos no trânsito, cabendo ao particular lesado provar dolo do agente.
+* **A)** públicos e estáticos;
+* **B)** públicos e abstratos;
+* **C)** privados e estáticos;
+* **D)** públicos e finais;
+* **E)** privados e abstratos.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A regra geral da responsabilidade civil extracontratual do Estado no Brasil é a Teoria do Risco Administrativo (art. 37, § 6º da CF/88), a qual admite excludentes do nexo causal (como culpa exclusiva da vítima, caso fortuito e força maior). A Teoria do Risco Integral é excepcionalíssima.
-> - **B)** **Correto**. Sob a égide da Teoria do Risco Administrativo, a comprovação de que o dano adveio de culpa exclusiva da vítima (ao avançar o semáforo vermelho) ou de fato exclusivo de terceiro rompe o liame de causalidade entre a conduta administrativa e o resultado lesivo, eximindo o Poder Público do dever reparatório.
-> - **C)** **Incorreto**. Pelo Tema nº 940 do STF (Teoria da Dupla Garantia), a ação de indenização deve ser proposta unicamente contra a pessoa jurídica de direito público, vedado o litisconsórcio passivo com o agente.
-> - **D)** **Incorreto**. A tutela judicial independe de apuração administrativa prévia (art. 5º, XXXV da CF/88).
-> - **E)** **Incorreto**. A responsabilidade do Estado por condutas comissivas de seus agentes públicos é estritamente objetiva.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
-> **Gabarito: B**
+> **Gabarito: D**
+
+---
 ### Teste 035
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No estudo da Responsabilidade Civil Extracontratual do Estado, a doutrina e a jurisprudência distinguem a Teoria do Risco Administrativo da Teoria do Risco Integral. A respeito das hipóteses em que o ordenamento jurídico pátrio adota excepcionalmente a Teoria do Risco Integral (em que o Estado responde sem possibilidade de alegar excludentes de culpabilidade da vítima ou força maior), assinale a opção que indica caso regido por essa teoria:
+**(FGV – TJ-BA – Analista Judiciário - Tecnologia da Informação – 2015)**
+“A saga do rapto de Helena e a subsequente Guerra de Troia 
+continuam sendo um dos melhores exemplos dos perigos da 
+luxúria.” 
+Sobre os componentes desse segmento do texto 2, a afirmação 
+correta é:
 
-* **A)** Danos decorrentes de acidentes automobilísticos com viaturas policiais em perseguição de fugitivos.
-* **B)** Danos causados por desabamento de pontes e encostas provocados por chuvas torrenciais imprevisíveis.
-* **C)** Danos decorrentes de atividade ou acidente nuclear e danos causados por poluição ambiental grave.
-* **D)** Danos oriundos de assalto à mão armada ocorrido no interior de agência de sociedade de economia mista.
-* **E)** Danos causados por fuga de detento de presídio estadual dias após ter escapado do estabelecimento penal.
+* **A)** os termos “de Helena” e “de Troia” desempenham a mesma 
+função sintática;
+* **B)** a saga do rapto de Helena e a Guerra de Troia são 
+acontecimentos sucessivos, sendo o segundo causa do 
+primeiro;
+* **C)** o verbo “continuar” é um verbo de ligação, expressando 
+mudança de estado;
+* **D)** a Guerra de Troia, segundo o texto, é o exemplo mais 
+importante dos problemas trazidos pela luxúria;
+* **E)** na expressão “perigos da luxúria”, o termo “da luxúria” 
+representa a causa dos “perigos” aludidos. 
+
+Tribunal de Justiça da Bahia  FGV – Projetos
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. Acidentes com viaturas policiais submetem-se à Teoria do Risco Administrativo comum (art. 37, § 6º da CF/88), admitindo comprovação de culpa exclusiva da vítima ou de terceiro.
-> - **B)** **Incorreto**. Força maior e eventos climáticos extraordinários rompem o nexo causal no risco administrativo geral.
-> - **C)** **Correto**. No ordenamento jurídico brasileiro, a Teoria do Risco Integral é hipótese excepcionalíssima e taxativa que veda qualquer excludente de nexo causal, aplicando-se prioritariamente a: 1) danos nucleares (art. 21, XXIII, "d" da CF/88); 2) danos ambientais graves (art. 225, § 3º da CF/88 e Lei nº 6.938/1981); e 3) atentados terroristas contra aeronaves brasileiras (Lei nº 10.744/2003).
-> - **D)** **Incorreto**. Assalto em agência de estatal consubstancia fato de terceiro sem risco integral.
-> - **E)** **Incorreto**. O STF fixou no Tema nº 362 que a responsabilidade por ato de foragido exige nexo direto com o momento da fuga; decorridos dias ou meses, não há responsabilidade do Estado.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
 >
-> **Gabarito: C**
+> **Gabarito: E**
+
+---
 ### Teste 036
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Durante o período noturno de custódia em estabelecimento prisional estadual administrado pela Secretaria de Administração Penitenciária, um detento foi assassinado por companheiros de cela com instrumentos perfurantes artesanais. À luz do art. 5º, XLIX, da Constituição Federal e da jurisprudência vinculante do Supremo Tribunal Federal (Tema nº 592 de Repercussão Geral):
+**(FGV – TRT-1 – Analista Judiciário - Tecnologia da Informação – 2024)**
+Um particular se encaminhou à sede do Departamento de 
+Trânsito (DETRAN)  do estado Alfa com o objetivo de realizar a 
+vistoria do seu veículo automotor. Contudo, em razão das 
+diversas irregularidades constatadas, o automóvel não passou no 
+exame conduzido pelo servidor Caio, que ocupa um cargo público 
+junto ao DETRAN. Dessa form a, Matheus, despachante que 
+presenciou os fatos, se aproximou do particular e solicitou dois 
+mil reais, para si, a pretexto de influir e reverter a decisão tomada 
+pelo agente público.  
+Nesse cenário, considerando as disposições do Código Penal, 
+Matheus responderá pelo crime de:
 
-* **A)** O Estado responde de forma puramente subjetiva, exigindo dos herdeiros prova cabal de dolo dos policiais penais.
-* **B)** A responsabilidade estatal é afastada sumariamente caso o preso assassinado contasse com histórico de rebeldia.
-* **C)** O Estado responde objetivamente pela morte de detento, salvo se provar que a morte decorreu de ato inoponível.
-* **D)** A indenização civil por morte de custodiado condiciona-se à prévia condenação criminal dos executores do homicídio.
-* **E)** O dever de indenizar é de responsabilidade subsidiária da empresa privada prestadora de segurança ao presídio.
+* **A)** advocacia administrativa;
+* **B)** exploração de prestígio;
+* **C)** favorecimento pessoal;
+* **D)** tráfico de influência;
+* **E)** patrocínio infiel. 
+
+Tribunal Regional Federal da 1ª Região FGV Conhecimento 
+
+
+RASCUNHO
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A custódia prisional atrai responsabilidade civil objetiva por violação ao dever específico de proteção (art. 5º, XLIX da CF/88), não se aplicando a teoria subjetiva da culpa anônima comum.
-> - **B)** **Incorreto**. A conduta prévia do preso não exime o Poder Público do dever inafastável de zelar por sua integridade física.
-> - **C)** **Correto**. Tese Vinculante do Tema nº 592 do STF: "Em caso de inobservância do seu dever específico de proteção previsto no art. 5º, inciso XLIX, da Constituição Federal, o Estado responde de forma objetiva pela morte de detento. Essa responsabilidade só pode ser afastada quando o Estado demonstrar a quebra do nexo causal, isto é, que a morte não poderia ter sido evitada mesmo com a adoção de todas as cautelas de segurança legalmente exigíveis".
-> - **D)** **Incorreto**. A esfera cível indenizatória é independente da persecução penal contra os homicidas.
-> - **E)** **Incorreto**. A segurança penitenciária é função de polícia indelegável e de titularidade do Estado.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
 > **Gabarito: C**
-### Teste 037
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Uma viatura oficial pertencente ao Tribunal de Contas, conduzida por servidor público efetivo em missão institucional, abalroou veículo de particular por negligência do agente ao não respeitar a preferência em rotatória. De acordo com o art. 37, § 6º, da CF/88 e a jurisprudência pacificada pelo Supremo Tribunal Federal no Tema nº 940:
 
-* **A)** O particular pode optar por propor a demanda indenizatória unicamente contra o servidor público condutor.
-* **B)** A ação indenizatória deve ser proposta exclusivamente contra o Estado, que dispõe de ação regressiva por dolo ou culpa.
-* **C)** O servidor condutor e o Poder Público estadual devem integrar obrigatoriamente litisconsórcio passivo necessário.
-* **D)** A reparação civil pelo Tribunal de Contas depende do trânsito em julgado de processo disciplinar administrativo.
-* **E)** A ação regressiva da Fazenda Pública prescreve em dois anos contados da data da ocorrência do sinistro viário.
+---
+### Teste 037
+**(FCC – TRT-9 – Analista Judiciário - Tecnologia da Informação – 2015)**
+Está correta a redação da frase que se encontra em:
+
+* **A)** Na infância e na adolescência marcado por extremas dificuldades, Bernhard foi criado pelo avô − o qual, foi seu mestre e 
+mentor para toda a vida − e enfrentando a miséria da guerra em Salzburgo.
+* **B)** Em 1978, o escritor Italo Calvino recomendou a uma editora italiana que, publicassem Thomas Bernhard, e lhe apresentou 
+como o mais importante autor daquela época.
+* **C)** Em  Origem, Thomas Bernhard discorre sobre o período de sua formação em que, à procura de si mesmo, descobriu 
+também a literatura.
+* **D)** Uma das paixões de Bernhard, a qual se dedicou com fervor, foi o estudo da música, além de abandonar o ginásio para 
+ser aprendiz de comerciante.
+* **E)** Quando uma gripe mal curada degenerou numa grave doença pulmonar, a beira da morte, boa parte da adolescência de 
+Bernhard se passam em hos-pitais e sanatórios. 
+Caderno de Prova ’D04’, Tipo 001
+
+4 TRT9R-Conhecimentos Gerais3 
+Atenção: Considere o texto abaixo para responder às questões de números 9 a 12. 
+
+
+Há uma explicação para a escultura de Picasso não ter sido reunida com frequência. Picasso, o filho de pintor, treinado como 
+pintor, não se levava a sério como escultor. Não considerava as esculturas vendáveis ou tema de exposição. Ele as guardava em 
+casa e no estúdio, misturadas aos objetos da decoração. Depois de sua morte, em 1973, a organização do espólio permitiu que obr as 
+fossem adquiridas por outras coleções. Embora as esculturas ficassem longe do público, elas foram vistas por artistas que visit avam 
+Picasso. 
+O diálogo do pintor com o escultor é constante. A escultura, diz a curadora Ann Temke, adaptava-se ao temperamento 
+irrequieto de Picasso, que se permitia improvisação no meio. Na década em que predomina o metal, ela se diverte com a ideia do 
+artista mais rico da história frequentando ferros-velhos em busca de objetos. 
+A influência da arte africana sobre a pintura de Pablo Picasso é conhecida. É só admirar as sublimes Demoiselles D’Avignon, 
+que moram no quinto andar do MoMA. Mas só quando apreciamos a obra em escultura a conexão fica mais evidente e compreensiva. 
+Ann Temke lembra que a visita de Picasso ao Museu Etnográfico de Paris, em 1907, por sugestão do amigo e pintor André Derain, f oi 
+um divisor de águas. “A noção de fazer um espírito habitar uma figura vem daí”, diz ela. “Você não olha para a escultura europe ia 
+daquele tempo e pensa neste poder mágico.” 
+A curadora vê na representação erótica das formas femininas uma âncora do diálogo entre o pintor e o escultor. “Ele estava 
+mapeando a renovação de sua linguagem em duas e três dimensões ao mesmo tempo.” 
+(Adaptado de: GUIMARÃES, Lúcia. O Estado de S. Paulo. 26 Setembro 2015)
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. O particular não detém a faculdade de processar diretamente o agente público.
-> - **B)** **Correto**. Tese de Repercussão Geral do Tema nº 940 do STF (Teoria da Dupla Garantia): "A teor do disposto no art. 37, § 6º, da Constituição Federal, a ação por danos causados por agente público deve ser ajuizada contra o Estado ou a pessoa jurídica de direito privado prestadora de serviço público, sendo parte ilegítima para a ação o autor do ato, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa". A dupla garantia protege o particular (certeza de pagamento pelo erário) e o agente (não ser acionado diretamente por terceiros no exercício funcional).
-> - **C)** **Incorreto**. O STF fixou a ilegitimidade passiva do servidor público para figurar no polo passivo da ação indenizatória ordinária.
-> - **D)** **Incorreto**. A obrigação de indenizar do Estado independe da apuração funcional interna do agente.
-> - **E)** **Incorreto**. O direito de regresso rege-se pelas normas de ressarcimento ao erário após o pagamento judicial efetivo.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
 > **Gabarito: B**
+
+---
 ## 2. Regime Jurídico dos Serviços Públicos e sua Delegação
 
 ### 2.1 Princípios do Serviço Público Adequado
@@ -282,47 +345,89 @@ As Parcerias Público-Privadas constituem concessões especiais destinadas a via
 ---
 
 ### Teste 038
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Sobre os princípios que informam a prestação de serviços públicos previstos na Lei Federal nº 8.987/1995 e na doutrina administrativista contemporânea, assinale a opção correta:
+**(FGV – TJ-AP – Analista Judiciário - Tecnologia da Informação – 2023)**
+Na qualidade de servidora pú blica ocupante do cargo de analista 
+do Tribunal de Justiça do Estado do Amapá, Marieva foi 
+questionada acerca de qual teoria foi adotada para 
+responsabilidade civil do Estado pela conduta dos respectivos 
+agentes públicos, à luz do disposto no Art. 37, §6º,  da 
+Constituição da República de 1988 e as peculiaridades 
+decorrentes de tal orientação.  
+Nesse contexto, considerando o entendimento do Supremo 
+Tribunal Federal acerca da matéria, Marieva respondeu, 
+corretamente, que se tratava da:
 
-* **A)** A continuidade veda em absoluto a interrupção do serviço, mesmo após aviso prévio por inadimplemento de fatura de água.
-* **B)** A modicidade tarifária impõe gratuidade universal aos serviços públicos, arcando o erário com o custo operacional total.
-* **C)** A mutabilidade do regime autoriza a adequação contínua do serviço às novas exigências técnicas e necessidades sociais.
-* **D)** A generalidade impede a concessão de tarifas sociais diferenciadas para atender famílias de comprovada baixa renda.
-* **E)** A atualidade restringe o emprego de tecnologias modernas para salvaguardar a estabilidade dos contratos concedidos.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreto**. O art. 6º, § 3º, II da Lei nº 8.987/1995 autoriza a interrupção temporária do serviço público após prévio aviso formal decorrente de inadimplemento do usuário, sem violação à continuidade.
-> - **B)** **Incorreto**. A modicidade tarifária preconiza tarifas justas e acessíveis para manter o equilíbrio econômico-financeiro da concessão, não exigindo gratuidade irrestrita.
-> - **C)** **Correto**. O princípio da mutabilidade do regime jurídico (ou da flexibilidade) permite à Administração alterar unilateralmente cláusulas regulamentares da prestação para assegurar a evolução das técnicas, a modernização dos equipamentos e o atendimento eficiente às demandas mutáveis da sociedade (art. 6º, § 2º da Lei nº 8.987/1995).
-> - **D)** **Incorreto**. O princípio da generalidade (ou cortesia) não impede a fixação de tarifas sociais subsidiadas para consumidores carentes.
-> - **E)** **Incorreto**. O princípio da atualidade impõe a modernidade das técnicas, equipamentos e instalações.
->
-> **Gabarito: C**
-### Teste 039
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A respeito dos regimes de delegação de serviços públicos previstos na Lei Federal nº 8.987/1995, assinale a afirmativa que apresenta distinção correta entre concessão comum e permissão de serviço público:
-
-* **A)** A concessão é outorgada a pessoa física ou jurídica, enquanto a permissão formaliza-se unicamente com pessoa jurídica.
-* **B)** A concessão outorga-se por contrato bilateral, ao passo que a permissão é formalizada a título precário por contrato.
-* **C)** A concessão dispensa procedimento de licitação, ao passo que a permissão exige modalidade estrita de pregão eletrônico.
-* **D)** A concessão tem caráter essencialmente precário, enquanto a permissão goza de prazo indeterminado e irrevogabilidade.
-* **E)** A concessão admite delegação de competências policiais sancionatórias, ao passo que a permissão restringe-se a obras.
+* **A)** teoria do risco ad ministrativo, que consagra a 
+responsabilidade subjetiva do Estado e não admite 
+excludentes do nexo de causalidade;
+* **B)** teoria do risco integral, que consagra a responsabilidade 
+objetiva do Estado e não admite excludentes do nexo de 
+causalidade;
+* **C)** teoria da culpa administrativa, que consagra a 
+responsabilidade subjetiva do Estado e não admite 
+excludentes do nexo de causalidade;
+* **D)** teoria do risco administrativo, que consagra a 
+responsabilidade objetiva do Estado e admite excludentes do 
+nexo de causalidade;
+* **E)** teoria do risco integral, que consagra a responsabilidade 
+subjetiva do Estado e admite excludentes do nexo de 
+causalidade.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A concessão é formalizada exclusivamente com pessoa jurídica ou consórcio de empresas (art. 2º, II); já a permissão pode ser outorgada a pessoa física ou jurídica (art. 2º, IV da Lei nº 8.987/1995).
-> - **B)** **Correto**. Pela Lei nº 8.987/1995, a concessão é contrato bilateral celebrado por prazo determinado com garantias de equilíbrio econômico-financeiro; já a permissão (art. 40) formaliza-se por contrato de adesão marcado por precariedade mitigada e revogabilidade unilateral pelo poder concedente.
-> - **C)** **Incorreto**. Ambas exigem prévia licitação obrigatória (art. 175 da CF/88); ademais, para concessão a modalidade é concorrência pública ou diálogo competitivo.
-> - **D)** **Incorreto**. A precariedade é atributo da permissão, não da concessão.
-> - **E)** **Incorreto**. Atos de polícia punitiva geral não são passíveis de concessão nem permissão a entes mercantis privados.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
 > **Gabarito: B**
+
+---
+### Teste 039
+**(FGV – TJ-AP – Analista Judiciário - Segurança da Informação – 2023)**
+Na qualidade de servidora pú blica ocupante do cargo de analista 
+do Tribunal de Justiça do Estado do Amapá, Marieva foi 
+questionada acerca de qual teoria foi adotada para 
+responsabilidade civil do Estado pela conduta dos respectivos 
+agentes públicos, à luz do disposto no Art. 37, §6º,  da 
+Constituição da República de 1988 e as peculiaridades 
+decorrentes de tal orientação.  
+Nesse contexto, considerando o entendimento do Supremo 
+Tribunal Federal acerca da matéria, Marieva respondeu, 
+corretamente, que se tratava da:
+
+* **A)** teoria do risco ad ministrativo, que consagra a 
+responsabilidade subjetiva do Estado e não admite 
+excludentes do nexo de causalidade;
+* **B)** teoria do risco integral, que consagra a responsabilidade 
+objetiva do Estado e não admite excludentes do nexo de 
+causalidade;
+* **C)** teoria da culpa administrativa, que consagra a 
+responsabilidade subjetiva do Estado e não admite 
+excludentes do nexo de causalidade;
+* **D)** teoria do risco administrativo, que consagra a 
+responsabilidade objetiva do Estado e admite excludentes do 
+nexo de causalidade;
+* **E)** teoria do risco integral, que consagra a responsabilidade 
+subjetiva do Estado e admite excludentes do nexo de 
+causalidade.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: B**
+
+---
 ### Teste 040
 **(FGV – TRT-1 – Analista Judiciário – 2024)**  
 Josélia decidiu aprofundar os seus conhecimentos com relação à orientação do Supremo Tribunal Federal acerca da responsabilidade civil do Estado, à luz do disposto no Art. 37, §6º, da CRFB/1988, vindo a concluir corretamente que:
@@ -348,26 +453,47 @@ Josélia decidiu aprofundar os seus conhecimentos com relação à orientação 
 ---
 
 ### Teste 041
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No Brasil, as Parcerias Público-Privadas (PPPs) são disciplinadas pela Lei Federal nº 11.079/2004 e contemplam duas modalidades contratuais distintas: a concessão patrocinada e a concessão administrativa. A respeito da concessão patrocinada, é correto afirmar que consiste no contrato de concessão de serviços públicos ou de obras públicas:
+**(FGV – TJ-AP – Analista Judiciário - Banco de Dados – 2023)**
+Na qualidade de servidora pú blica ocupante do cargo de analista 
+do Tribunal de Justiça do Estado do Amapá, Marieva foi 
+questionada acerca de qual teoria foi adotada para 
+responsabilidade civil do Estado pela conduta dos respectivos 
+agentes públicos, à luz do disposto no Art. 37, §6º,  da 
+Constituição da República de 1988 e as peculiaridades 
+decorrentes de tal orientação.  
+Nesse contexto, considerando o entendimento do Supremo 
+Tribunal Federal acerca da matéria, Marieva respondeu, 
+corretamente, que se tratava da:
 
-* **A)** em que a remuneração do parceiro privado advém unicamente de subsídio orçamentário mensal pago pela Administração.
-* **B)** que envolve, adicionalmente à tarifa cobrada dos usuários, contraprestação pecuniária do parceiro público ao parceiro privado.
-* **C)** que se destina à prestação de serviços de que a Administração Pública seja a usuária direta ou indireta de modo exclusivo.
-* **D)** cujo valor financeiro total estimado para o empreendimento de infraestrutura seja inferior a dez milhões de reais.
-* **E)** pactuado por prazo de execução inferior a cinco anos para permitir a renovação periódica dos termos licitados.
+* **A)** teoria do risco ad ministrativo, que consagra a 
+responsabilidade subjetiva do Estado e não admite 
+excludentes do nexo de causalidade;
+* **B)** teoria do risco integral, que consagra a responsabilidade 
+objetiva do Estado e não admite excludentes do nexo de 
+causalidade;
+* **C)** teoria da culpa administrativa, que consagra a 
+responsabilidade subjetiva do Estado e não admite 
+excludentes do nexo de causalidade;
+* **D)** teoria do risco administrativo, que consagra a 
+responsabilidade objetiva do Estado e admite excludentes do 
+nexo de causalidade;
+* **E)** teoria do risco integral, que consagra a responsabilidade 
+subjetiva do Estado e admite excludentes do nexo de 
+causalidade.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A remuneração unicamente decorrente do poder público caracteriza a concessão administrativa (art. 2º, § 2º).
-> - **B)** **Correto**. Conforme a definição legal expressa no art. 2º, § 1º, da Lei Federal nº 11.079/2004: "Concessão patrocinada é a concessão de serviços públicos ou de obras públicas de que trata a Lei nº 8.987, de 13 de fevereiro de 1995, quando envolver, adicionalmente à tarifa cobrada dos usuários, contraprestação pecuniária do parceiro público ao parceiro privado".
-> - **C)** **Incorreto**. Essa é a definição exata de concessão administrativa (art. 2º, § 2º).
-> - **D)** **Incorreto**. É vedada a celebração de PPP cujo valor seja inferior a R$ 10.000.000,00 (dez milhões de reais), nos termos do art. 2º, § 4º, I da lei.
-> - **E)** **Incorreto**. O prazo do contrato de PPP não pode ser inferior a 5 (cinco) anos nem superior a 35 (trinta e cinco) anos (art. 5º, I).
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
 > **Gabarito: B**
+
+---
 ## 3. Bens Públicos: Classificação, Afetação e Prerrogativas
 
 Conforme o art. 98 do Código Civil, são bens públicos todos aqueles pertencentes às pessoas jurídicas de direito público interno (União, Estados, DF, Municípios e suas autarquias e fundações públicas de direito público). Todos os demais são bens privados.
@@ -398,68 +524,106 @@ O regime jurídico dos bens públicos é informado por quatro prerrogativas estr
 ---
 
 ### Teste 042
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O Código Civil brasileiro, em seu art. 99, classifica os bens públicos em bens de uso comum do povo, bens de uso especial e bens dominicais. A respeito do regime jurídico que recai sobre essas três categorias de bens públicos, assinale a opção correta:
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+Ao perquirir as peculiaridades atinentes à licitação no âmbito das 
+parcerias público -privadas, nos termos da Lei nº 11.079/2004, 
+Solange concluiu corretamente que
 
-* **A)** Os bens de uso comum do povo e os de uso especial são inalienáveis enquanto conservarem a sua qualificação legal.
-* **B)** Os bens dominicais podem ser objeto de usucapião por particulares desde que a posse mansa supere vinte anos.
-* **C)** Os bens de uso especial podem ser penhorados judicialmente para satisfação de créditos trabalhistas e fiscais.
-* **D)** A desafetação de um bem de uso comum do povo opera-se tacitamente com a omissão da autoridade pública por dez anos.
-* **E)** Todos os bens públicos admitem oneração por garantias reais de hipoteca para obtenção de financiamento bancário.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correto**. Conforme preceitua expressamente o art. 100 do Código Civil: "Os bens públicos de uso comum do povo e os de uso especial são inalienáveis, enquanto conservarem a sua qualificação, na forma que a lei dispuser". Somente após a regular desafetação (conversão em bens dominicais) é que podem ser alienados, observados os requisitos da lei de licitações.
-> - **B)** **Incorreto**. Pelo art. 102 do Código Civil e arts. 183, § 3º e 191, parágrafo único da CF/88, os bens públicos jamais são sujeitos a usucapião (imprescritibilidade).
-> - **C)** **Incorreto**. Todos os bens públicos gozam da prerrogativa de impenhorabilidade (art. 100 da CF/88).
-> - **D)** **Incorreto**. A desafetação exige ato formal do Poder Público ou fato administrativo inconteste; a mera omissão não desafeta bem público.
-> - **E)** **Incorreto**. Bens públicos não podem ser gravados com ônus reais de garantia (inonorabilidade).
->
-> **Gabarito: A**
-### Teste 043
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A afetação e a desafetação de bens públicos expressam a consagração ou a desvinculação de uma coisa pública a uma finalidade estatal específica. A respeito dos modos de afetação e desafetação e de suas repercussões para o controle patrimonial, é correto afirmar que:
-
-* **A)** A afetação exige sempre lei autorizativa específica aprovada pelo Legislativo, vedada a afetação tácita fática.
-* **B)** A desafetação de bem de uso especial para dominical transfere o bem para o comércio jurídico, admitindo alienação.
-* **C)** O bem desafetado perde a imunidade tributária e a impenhorabilidade mesmo pertencendo ao patrimônio estatal.
-* **D)** A construção de uma escola em terreno dominical consubstancia desafetação administrativa por ato formal de gestão.
-* **E)** Os bens de uso comum do povo não admitem desafetação por se tratarem de patrimônio com tutela constitucional absoluta.
+* **A)** a única modalidade de licitação cabível é a concorrência, que 
+poderá adotar o critério de julgamento de menor valor da 
+contraprestação a ser paga pela Administração Pública.
+* **B)** não é necessária a submissão de minuta do edital e do 
+contrato à consulta pública, para fins de realização do 
+respectivo procedimento licitatório.
+* **C)** a fase de habilitação dos licitantes deve anteceder 
+necessariamente a de julgamento das propostas, não sendo 
+possível a inversão de tais fases.
+* **D)** nas hipóteses de concessão administrativa há necessidade de 
+autorização legislativa, apenas nas situações em que a 
+contraprestação da Administração corresponda a mais de 70% 
+(setenta por cento) do objeto do contrato.
+* **E)** a abertura do procedimento licitatório está condicionada à 
+autorização da autoridade competente, fundamentada em 
+estudo técnico que demonstre a conveniência e a 
+oportunidade da contratação, mediante identificação das 
+razões que justifiquem a opção pela forma de parceria público-
+privada.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A afetação pode ocorrer de forma expressa (por lei ou decreto) ou fática/tácita (quando a Administração simplesmente passa a destinar o bem a um serviço público).
-> - **B)** **Correto**. A desafetação é o fenômeno jurídico pelo qual o bem público deixa de estar vinculado a uma destinação pública direta (deixa de ser de uso comum ou de uso especial) e ingressa na categoria de bem dominical (patrimonial). Uma vez desafetado, passa a ser alienável, desde que cumpridos os requisitos legais (interesse público, avaliação prévia e autorização legislativa).
-> - **C)** **Incorreto**. O bem dominical continua sendo bem público e, portanto, mantém a impenhorabilidade e a imprescritibilidade.
-> - **D)** **Incorreto**. Destinar o imóvel à atividade escolar consubstancia afetação (e não desafetação).
-> - **E)** **Incorreto**. Bens de uso comum (praças, ruas) admitem desafetação mediante lei específica.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
 > **Gabarito: B**
-### Teste 044
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Determinada área de terras devolutas pertencente ao patrimônio do Estado de Goiás foi invadida por particulares que ali construíram residências e desenvolveram atividade agropastoril contínua e pacífica por mais de quinze anos ininterruptos. Diante do pleito de usucapião formulado pelos posseiros em face da Fazenda Pública estadual:
 
-* **A)** A pretensão é juridicamente inviável, pois a Constituição veda o usucapião de imóveis públicos de qualquer espécie.
-* **B)** O usucapião é admissível exclusivamente para terras devolutas dominicais desprovidas de afetação administrativa direta.
-* **C)** A ocupação mansa e pacífica de terra pública por mais de dez anos converte a detenção ilícita em posse de boa-fé.
-* **D)** O Estado perde a titularidade do domínio imobiliário caso não comprove a cobrança periódica de foro ou taxa de ocupação.
-* **E)** O juiz deve declarar a prescrição aquisitiva extraordinária em favor dos posseiros que exploram a função social da terra.
+---
+### Teste 043
+**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**
+Quanto à participação de empresas reunidas em con-
+sórcio no pregão, é correto afirmar que
+
+* **A)** as empresas consorciadas não poderão participar, 
+na mesma licitação, de mais de um consórcio ou 
+isoladamente.
+* **B)** no consórcio de empresas brasileiras e estrangeiras, 
+a liderança poderá ser ou não exercida pela empre-
+sa brasileira.
+* **C)** para fins de qualificação econômico-financeira, so-
+mente a empresa líder deverá atender aos índices 
+contábeis definidos no edital.
+* **D)** apenas a empresa líder deverá apresentar a docu-
+mentação de habilitação exigida no edital.
+* **E)** as empresas integrantes, salvo a empresa líder, po-
+derão deixar de apresentar os documentos de ha-
+bilitação que já constem do Cadastro de Fornece-
+dores – CADFOR. 
+_________________________________________________________
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correto**. Conforme dispõem os arts. 183, § 3º e 191, parágrafo único, da CF/88, e a Súmula nº 340 do STF ("Desde a vigência do Código Civil, os bens dominicais, como os demais bens públicos, não podem ser adquiridos por usucapião"), os bens públicos de qualquer natureza (inclusive as terras devolutas dominicais) são absolutamente imprescritíveis. A ocupação de bem público por particular consubstancia mera detenção clandestina, insuscetível de gerar efeitos possessórios aquisitivos contra o Poder Público.
-> - **B)** **Incorreto**. Os bens dominicais gozam da mesma imprescritibilidade outorgada aos demais bens públicos.
-> - **C)** **Incorreto**. A jurisprudência consolidada do STJ (Súmula 619) reconhece que a ocupação de área pública não gera posse, mas mera detenção fática precária.
-> - **D)** **Incorreto**. A omissão do Estado não acarreta a perda da propriedade de terras públicas.
-> - **E)** **Incorreto**. A função social não autoriza a aquisição por usucapião de imóveis pertencentes ao domínio do Estado.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
-> **Gabarito: A**
+> **Gabarito: C**
+
+---
+### Teste 044
+**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**
+NÃO contempla prerrogativa inerente ao regime jurídico 
+administrativo:
+
+* **A)** impenhorabilidade dos bens públicos.
+* **B)** imprescritibilidade dos bens públicos.
+* **C)** revogação unilateral, pela Administração, de contra-
+tos por motivo de interesse público.
+* **D)** possibilidade de praticar todos os atos não proibidos 
+por lei.
+* **E)** sujeição dos atos a controle interno e autotutela. 
+_________________________________________________________
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: C**
+
+---
 ## 4. Fontes Recomendadas na Internet
 
 - [Constituição Federal de 1988 - Art. 37, § 6º, Art. 183, § 3º e Art. 191](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art37)  

@@ -94,54 +94,78 @@ flowchart TD
 ---
 
 ### Teste 440
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No âmbito da administração de recursos humanos, as ações voltadas para Treinamento e as ações voltadas para Desenvolvimento de Pessoas distinguem-se primordialmente em razão de seus horizontes temporais e de seus objetivos funcionais. Assinale a opção que caracteriza com precisão uma ação clássica de **Desenvolvimento de Pessoas**:
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+A gestão de carreiras é o processo pelo qual organizações e 
+colaboradores planejam e desenvolvem o percurso profissional 
+dentro da organização. A gestão de carreira muitas vezes 
+enfrenta o dilema entre priorizar o desempenho atual dos 
+colaboradores ou focar no potenci al de desenvolvimento do 
+talento. Enquanto o desempenho atual garante resultados 
+imediatos e contribui para a eficácia operacional, investir no 
+potencial de desenvolvimento pode promover inovação e 
+sustentabilidade a longo prazo. 
+As organizações precisam e quilibrar essas duas abordagens, 
+reconhecendo e recompensando o desempenho, enquanto criam 
+oportunidades para o crescimento e desenvolvimento futuro. 
+Essa estratégia híbrida não apenas maximiza o engajamento dos 
+funcionários, mas também assegura que a empr esa esteja 
+preparada para enfrentar desafios futuros com uma equipe 
+qualificada e motivada. 
+Assinale a opção que apresenta a avaliação de elevado potencial 
+e alto desempenho ideal para a sucessão em cargos sêniores.
 
-* **A)** Realização de oficina prática de 4 horas para ensinar os servidores recém-lotados a emitir certidões no módulo de protocolo recém-implantado.
-* **B)** Aplicação de curso intensivo para operadores de máquinas de reprografia sanarem problemas mecânicos frequentes em seus aparelhos.
-* **C)** Implementação de um programa corporativo de liderança transformadora e governança pública voltado a preparar analistas para assumirem funções de direção e planejamento estratégico nos próximos anos.
-* **D)** Instrução sumária da equipe de atendimento sobre como cadastrar visitantes no balcão da portaria do edifício-sede.
-* **E)** Treinamento emergencial sobre normas de combate a incêndio promovido pela brigada de segurança predial.
-
-
----
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** Trata-se de ação típica de **Treinamento**: foco no cargo atual, curto prazo e suprimento de carência operacional pontual.  
-> - **B) Incorreta.** Foco exclusivo na execução de tarefas do posto de trabalho atual com finalidade corretiva imediata (treinamento operacional).  
-> - **C) CORRETA.** O **Desenvolvimento de Pessoas** caracteriza-se pelo foco no **longo prazo**, na expansão de competências abrangentes, no crescimento intelectual contínuo e na preparação dos servidores para **cargos futuros**, desafios estratégicos e planos de sucessão institucional, como demonstrado pelo programa de liderança e governança.  
-> - **D) Incorreta.** Instrução técnica e pontual vinculada estritamente às tarefas rotineiras do cargo presente (treinamento operacional).  
-> - **E) Incorreta.** Capacitação específica de curto prazo para segurança física no local de trabalho (treinamento instrucional).  
-> 
-> **Gabarito: C**
-
----
-
-### Teste 441
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na gestão de pessoas, **Treinamento** e **Desenvolvimento de Pessoas (T&D)** são processos distintos, embora complementares.
-
-A distinção conceitual precisa entre Treinamento e Desenvolvimento reside em:
-
-* **A)** O treinamento tem foco no curto prazo e visa capacitar o indivíduo para o desempenho eficaz de suas funções e tarefas no cargo atual; enquanto o desenvolvimento foca o médio e longo prazo, visando ao crescimento integral do potencial humano e à preparação do servidor para desafios, papéis e cargos futuros.
-* **B)** O treinamento é privativo de cargos comissionados e o desenvolvimento é restrito a servidores estagiários.
-* **C)** O treinamento não pode utilizar tecnologias digitais e o desenvolvimento é sempre presencial em sala de aula.
-* **D)** O treinamento extingue a necessidade de avaliação de desempenho funcional posterior.
-* **E)** O desenvolvimento visa unicamente à redução salarial em situações de limite prudencial da LRF.
-
+* **A)** Enigma.
+* **B)** Dilema.
+* **C)** Colaborador do centro.
+* **D)** Futuro líder.
+* **E)** Profissional confiável.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Diferenciação clássica: **Treinamento**: curto prazo, focado nas exigências técnicas imediatas do cargo atual, adaptando o servidor às rotinas de hoje; **Desenvolvimento**: longo prazo, visa à ampliação de competências globais, liderança, visão holística e crescimento pessoal para carreiras e posições futuras.
-> - **B), C), D), E)** Incorretas. Distorções sem embasamento na literatura de gestão de pessoas.
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+>
+> **Gabarito: E**
+
+---
+### Teste 441
+**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
+Silvana iniciou um treinamento com o objetivo de participar de 
+uma prova de corrida. 
+Ela registrou, em um plano cartesiano, a distância percorrida (em 
+quilômetros) e o respectivo tempo gasto (em minutos), em cada 
+um dos quatro primeiros dias de treinamento. 
+
+Cada ponto no gráfico corresponde aos registros de um dia de 
+treino. 
+Sabe-se que, ao longo dos quatro dias, a razão distância/tempo foi 
+estritamente crescente. 
+Colocando-se esses pontos em ordem cronológica, obtém-se
+
+* **A)** C – A – D – B.
+* **B)** B – A – C – D.
+* **C)** C – D – A – B.
+* **D)** B – C – A – D.
+* **E)** A – B – C – D.
 
 ---
 
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: D**
+
+---
 ## 2. O Ciclo de Treinamento em Quatro Etapas e a Avaliação de Kirkpatrick
 
 Segundo Idalberto Chiavenato, o treinamento funciona como um ciclo contínuo composto por quatro fases lógicas e sequenciais:
@@ -199,57 +223,105 @@ flowchart TD
 ---
 
 ### Teste 442
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Para avaliar o impacto de um programa de treinamento sobre a nova Lei de Licitações e Contratos (Lei nº 14.133/2021) ofertado aos pregoeiros de uma entidade governamental, a área de Gestão de Pessoas realizou uma pesquisa formal 60 dias após o encerramento do curso, acompanhando a redução do índice de despachos devolvidos por vícios formais e observando se as minutas contratuais elaboradas pelos servidores incorporavam os novos entendimentos ensinados. Consoante a metodologia de avaliação de treinamento em quatro níveis desenvolvida por Donald Kirkpatrick, a medição realizada corresponde ao:
+**(FGV – TRT-1 – Analista Judiciário - Tecnologia da Informação – 2024)**
+A figura abaixo mostra uma matriz do tipo “Nine Box” com parte 
+das saídas de uma avaliação de desempenho com foco em 
+competências realizada em certa organização. O gráfico mostra 
+as entregas confrontadas com as capacidades 
+(conhecimento/habilidades) de cinco profissionais (A, B, C, D e E), 
+com a seguinte escala: 1 (não atende); 2 (em desenvolvimento); 
+3 a 5 (atende) e 6 (supera). 
 
-* **A)** Nível 1 – Reação.
-* **B)** Nível 2 – Aprendizagem.
-* **C)** Nível 3 – Comportamento no Cargo (Transferência).
-* **D)** Nível 4 – Retorno Financeiro sobre o Investimento (ROI).
-* **E)** Nível 5 – Clima Institucional e Motivação Relacional.
 
 
----
+A diretora de RH da organização está analisando esses resultados 
+para propor possíveis ações de gestão de pessoas. Em relação aos 
+profissionais, os dados da matriz indicam as seguintes situações e 
+possibilidades de ação adequadas:
 
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** O Nível 1 (Reação) afere a satisfação dos alunos com o instrutor e as instalações ao término da aula (pesquisa de opinião imediata).  
-> - **B) Incorreta.** O Nível 2 (Aprendizagem) avalia a retenção de conceitos mediante provas aplicadas imediatamente ao final do treinamento.  
-> - **C) CORRETA.** O **Nível 3 (Comportamento no Cargo ou Transferência do Aprendizado)** avalia a extensão em que os participantes aplicaram e transferiram efetivamente os novos saberes para as suas rotinas diárias no posto de trabalho. Ao verificar, após 60 dias de prática real, se as minutas e condutas dos servidores foram alteradas, a organização está medindo a modificação comportamental funcional.  
-> - **D) Incorreta.** O Nível 4 (Resultados) avalia impactos globais institucionais na estratégia corporativa, e o ROI financeiro foi estruturado como 5º nível por Jack Phillips.  
-> - **E) Incorreta.** O modelo original de Kirkpatrick contempla 4 níveis e não prevê clima institucional como nível autônomo de avaliação.  
-> 
-> **Gabarito: C**
-
----
-
-### Teste 443
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Donald Kirkpatrick concebeu o modelo mais utilizado internacionalmente para avaliação da eficácia de programas de capacitação, estruturado em quatro níveis sucessivos de impacto.
-
-O **Nível 3 (Comportamento no Cargo / Aplicação)** do modelo de Kirkpatrick avalia:
-
-* **A)** O grau em que os participantes efetivamente transferiram e aplicaram os novos conhecimentos, habilidades e atitudes no seu dia a dia profissional real após o retorno ao local de trabalho.
-* **B)** A satisfação imediata dos participantes com as instalações físicas, a pontualidade e o coffee-break do evento considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
-* **C)** O aumento formal de retenção de conceitos verificado por meio de prova teórica aplicada ao final da aula.
-* **D)** O cálculo monetário estrito do retorno financeiro sobre o investimento (*ROI*) obtido pelo Tesouro Estadual.
-* **E)** A pontualidade da entrega do diploma de conclusão emitido pelo órgão realizador.
-
+* **A)** A é um profissional pouco experiente: indicar para 
+treinamento comportamental;
+* **B)** B supera as exigências de capacitação, mas tem entregas 
+insatisfatórias: reavaliar a área ou posição de atuação;
+* **C)** C é um profissional com capacitação e entrega adequadas: 
+requer orientação imediata do líder em relação às 
+expectativas de entrega e deve priorizar a complementação 
+técnica;
+* **D)** D e E mostram excelente entrega: indicar para promoção;
+* **E)** A e B atendem parcialmente aos requisitos: atribuir mais 
+desafios com vistas a assumir atribuições mais complexas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Os 4 níveis de Kirkpatrick: (1) **Reação**: satisfação e percepção imediata dos alunos com o curso; (2) **Aprendizado**: retenção teórica e assimilação de conhecimentos (testes no fim do curso); (3) **Comportamento (Aplicação/Transferência)**: se os novos conhecimentos são efetivamente aplicados na prática do trabalho real; (4) **Resultados**: impacto final produzido nos indicadores e objetivos estratégicos da organização. Jack Phillips adicionou o 5º nível: ROI.
-> - **B)** Incorreta. Refere-se ao Nível 1 (Reação).
-> - **C)** Incorreta. Refere-se ao Nível 2 (Aprendizado).
-> - **D)** Incorreta. Refere-se ao Nível 5 (ROI de Phillips) ou Nível 4 (Resultados).
-> - **E)** Incorreta. Trâmite meramente burocrático de certificação.
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: D**
+
+---
+### Teste 443
+**(FGV – TRT-1 – Analista Judiciário - Tecnologia da Informação – 2024)**
+Um decreto federal assegurou à pessoa com deficiência 
+tratamento prioritário. Dispôs e le que: 1) ficaria assegurada à 
+pessoa com deficiência física, mental ou sensorial a prioridade de 
+vaga em escola pública que estivesse localizada mais próxima de 
+sua residência; 2) seriam consideradas deficiências todas aquelas 
+que necessitassem de assist ência especial, decorrentes de 
+problemas visuais, auditivos, mentais, motores, ou má - formação 
+congênita; 3) as deficiências dos estudantes beneficiados seriam 
+comprovadas por meio de laudo médico fornecido por 
+instituições médico -hospitalares públicas e c ompetentes para 
+prestar tal comprovação; e, 4) ficariam excluídos da prioridade do 
+item 1 os estabelecimentos de ensino que não possuíssem as 
+condições necessárias para educação de portadores de 
+deficiência mental e sensorial. 
+Levando em conta a Agenda 203 0 da Organização das Nações 
+Unidas (ONU), os direitos humanos e fundamentais da pessoa 
+com deficiência e a Lei nº 13.146/2015, é correto afirmar que:
+
+* **A)** o referido decreto acerta ao dispor de todos os problemas 
+(visuais, auditivos, mentais, motores, ou má  formação 
+congênita) para fins de consideração da pessoa com 
+deficiência, adotando-se o conceito amplo proposto pela Lei 
+nº 13.146/2015;
+* **B)** a exigência de que as deficiências dos estudantes 
+beneficiados sejam comprovadas por meio de laudo médico 
+fornecido por instituições médico -hospitalares públicas e 
+competentes para prestar tal comprovação atende ao que 
+reclama a Lei nº 13.146/2015;
+* **C)** o item 4 se choca com a imposição de assegurar um sistema 
+educacional inclusivo, estabelecido no sistema constituciona l 
+e na Lei nº 13.146/2015, e com o amparo no objetivo de 
+desenvolvimento sustentável referente à educação da 
+Agenda 2030 da ONU;
+* **D)** a Agenda 2030 da ONU não trata do tema educação em 
+relação a pessoas com deficiência, de modo que o único 
+objetivo de desen volvimento sustentável apto a conferir um 
+olhar mais específico à questão é o referente a instituições 
+eficazes;
+* **E)** a exclusão relacionada aos estabelecimentos de ensino 
+estaria corretamente justificada na liberdade de conformação 
+legislativa e na discric ionariedade administrativa quando da 
+concretização da política pública.
 
 ---
 
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: C**
+
+---
 ## 3. Gestão do Conhecimento Organizacional e o Modelo SECI
 
 A gestão do conhecimento é o conjunto integrado de processos que criam, organizam, disseminam e aplicam saberes para alavancar a eficiência organizacional.
@@ -314,55 +386,71 @@ flowchart TD
 ---
 
 ### Teste 444
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O Tribunal de Contas do Estado de Goiás, buscando consolidar as melhores práticas desenvolvidas pelos seus auditores sêniores na detecção de fraudes em licitações públicas informatizadas, organizou oficinas temáticas nas quais esses profissionais veteranos estruturaram conceitos, descreveram rotinas investigativas e redigiram detalhados manuais de procedimentos e fluxogramas operacionais para consulta geral. De acordo com o modelo de criação do conhecimento organizacional proposto por Ikujiro Nonaka e Hirotaka Takeuchi (Modelo SECI), o processo de conversão do conhecimento verificado nessa iniciativa classifica-se como:
+**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
+Silvana iniciou um treinamento com o objetivo de participar de 
+uma prova de corrida. 
+Ela registrou, em um plano cartesiano, a distância percorrida (em 
+quilômetros) e o respectivo tempo gasto (em minutos), em cada 
+um dos quatro primeiros dias de treinamento. 
 
-* **A)** Socialização.
-* **B)** Externalização.
-* **C)** Combinação.
-* **D)** Internalização.
-* **E)** Aprendizagem em circuito simples.
+Cada ponto no gráfico corresponde aos registros de um dia de 
+treino. 
+Sabe-se que, ao longo dos quatro dias, a razão distância/tempo foi 
+estritamente crescente. 
+Colocando-se esses pontos em ordem cronológica, obtém-se
 
-
----
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** A socialização ocorre na troca direta de experiências de indivíduo para indivíduo (tácito para tácito), sem formalização por escrito.  
-> - **B) CORRETA.** A **Externalização** é exatamente a conversão do conhecimento **Tácito em Explícito**. Ocorre quando os profissionais conseguem expressar suas vivências intuitivas, julgamentos e saberes práticos sob a forma de conceitos compreensíveis, manuais de procedimentos, roteiros escritos, fluxogramas e documentos formais acessíveis a outros membros.  
-> - **C) Incorreta.** A combinação consiste em juntar e cruzar conhecimentos já codificados (explícito para explícito), como compilar duas leis em um documento unificado.  
-> - **D) Incorreta.** A internalização é a conversão de explícito em tácito, quando os indivíduos leem os manuais e os transformam em rotinas mentais por meio da prática (*aprender fazendo*).  
-> - **E) Incorreta.** A aprendizagem em circuito simples é conceito de Argyris e Schön voltado à correção operacional mecânica de desvios, estranho aos modos de conversão da teoria de Nonaka e Takeuchi.  
-> 
-> **Gabarito: B**
-
----
-
-### Teste 445
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Ikujiro Nonaka e Hirotaka Takeuchi desenvolveram o consagrado modelo **SECI** para explicar a criação e a conversão do conhecimento organizacional através da interação entre o conhecimento tácito e o conhecimento explícito.
-
-A modalidade de conversão do conhecimento que consiste em transformar o **conhecimento tácito em conhecimento explícito** (por exemplo, quando um auditor experiente redige um manual detalhado de auditoria de obras sistematizando seus anos de intuição e prática para toda a equipe) é a:
-
-* **A)** Externalização.
-* **B)** Socialização.
-* **C)** Combinação.
-* **D)** Internalização.
-* **E)** Desintermediação.
-
+* **A)** C – A – D – B.
+* **B)** B – A – C – D.
+* **C)** C – D – A – B.
+* **D)** B – C – A – D.
+* **E)** A – B – C – D.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. As quatro formas de conversão do modelo SECI: (1) **Socialização** (Tácito para Tácito): compartilhamento de experiências e observação direta; (2) **Externalização** (Tácito para Explícito): articulação do saber tácito em conceitos, modelos, manuais e regras escritas; (3) **Combinação** (Explícito para Explícito): junção, edição e sistematização de diferentes bases de dados e documentos; (4) **Internalização** (Explícito para Tácito): assimilação do conhecimento documentado na rotina mental prática (*learning by doing*).
-> - **B), C), D)** Incorretas. Representam as outras etapas de conversão do modelo SECI.
-> - **E)** Incorreta. Conceito econômico de exclusão de intermediários.
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: D**
+
+---
+### Teste 445
+**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
+Silvana iniciou um treinamento com o objetivo de participar de 
+uma prova de corrida. 
+Ela registrou, em um plano cartesiano, a distância percorrida (em 
+quilômetros) e o respectivo tempo gasto (em minutos), em cada 
+um dos quatro primeiros dias de treinamento. 
+
+Cada ponto no gráfico corresponde aos registros de um dia de 
+treino. 
+Sabe-se que, ao longo dos quatro dias, a razão distância/tempo foi 
+estritamente crescente. 
+Colocando-se esses pontos em ordem cronológica, obtém-se
+
+* **A)** C – A – D – B.
+* **B)** B – A – C – D.
+* **C)** C – D – A – B.
+* **D)** B – C – A – D.
+* **E)** A – B – C – D.
 
 ---
 
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: D**
+
+---
 ## 4. Aprendizagem Organizacional e as Cinco Disciplinas de Peter Senge
 
 A aprendizagem organizacional ocorre quando o aprendizado individual e coletivo é incorporado aos processos, valores, estruturas e cultura permanente da organização.
@@ -380,81 +468,77 @@ A aprendizagem organizacional ocorre quando o aprendizado individual e coletivo 
 ---
 
 ### Teste 446
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Dois teóricos fundamentais do comportamento organizacional, Chris Argyris e Donald Schön, formularam a distinção seminal entre a aprendizagem em circuito simples (*single-loop*) e a aprendizagem em circuito duplo (*double-loop*). Assinale a afirmativa que define corretamente a **aprendizagem em circuito duplo**:
+**(FCC – TRT-6 – Analista Judiciário - Tecnologia da Informação – 2012)**
+A concordância verbal está plenamente observada na 
+frase:
 
-* **A)** Ocorre quando o gestor, diante de um erro processual, limita-se a punir o servidor faltoso e aumentar a vigilância sobre as planilhas existentes sem alterar fluxos.
-* **B)** Consiste na mera repetição mecânica de rotinas operacionais até que a taxa de erro estatístico atinja níveis próximos de zero.
-* **C)** Verifica-se quando os atores organizacionais identificam uma anomalia e modificam as rotinas imediatas sem qualquer reflexão sobre os valores e objetivos fundantes da instituição considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
-* **D)** Caracteriza-se pelo processo em que a organização, ao detectar erros e desvios, confronta e questiona criticamente as premissas subjacentes, as normas vigentes e os valores orientadores das políticas institucionais, reformulando seus padrões estruturais.
-* **E)** Representa a aquisição estritamente individual de novos conhecimentos teóricos pelo colaborador sem qualquer possibilidade de compartilhamento coletivo com seus pares.
-
+* **A)** Provocam muitas polêmicas, entre crentes e ma-
+terialistas, o posicionamento de alguns religiosos e 
+parlamentares acerca da educação religiosa nas 
+escolas públicas.
+* **B)** Sempre deverão haver bons motivos, junto àqueles 
+que são contra a obrigatoriedade do ensino religioso, 
+para se reservar essa prática a setores da iniciativa 
+privada.
+* **C)** Um dos argumentos trazidos pelo autor do texto, 
+contra os que votam a favor do ensino religioso na 
+escola pública, consistem nos altos custos econô-
+micos que acarretarão tal medida.
+* **D)** O número de templos em atividade na cidade de 
+São Paulo vêm gradativamente aumentando, em 
+proporção maior do que ocorrem com o número de 
+escolas públicas.
+* **E)** Tanto a Lei de Diretrizes e Bases da Educação 
+como a regulação natural do mercado sinalizam para 
+as inconveniências que adviriam da adoção do en-
+sino religioso nas escolas públicas. 
+_________________________________________________________
 
 ---
 
-> **Comentário Detalhado:**  
+> **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Punição burocrática e controle disciplinar não constituem aprendizagem em circuito duplo.  
-> - **B) Incorreta.** A repetição mecânica de rotinas é condicionamento instrumental pavloviano, oposto da aprendizagem reflexiva.  
-> - **C) Incorreta.** Modificar rotinas sem questionar valores e políticas subjacentes é a definição exata de **aprendizagem em circuito simples (*single-loop*)**.  
-> - **D) CORRETA.** A **aprendizagem em circuito duplo (*double-loop*)** ocorre precisamente quando a organização não se contenta em aplicar correções superficiais em procedimentos prévios, mas **questiona criticamente as normas, valores, objetivos e premissas fundamentais** que orientavam a conduta anterior, reestruturando a lógica do próprio sistema organizacional.  
-> - **E) Incorreta.** A aprendizagem individual isolada não reflete a dimensão da aprendizagem em circuito duplo descrita por Argyris e Schön.  
-> 
-> **Gabarito: D**
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: A**
 
 ---
-
-
-#### B) As Cinco Disciplinas de Peter Senge (*A Quinta Disciplina*)
-Para Peter Senge, uma **Organização que Aprende** (*Learning Organization*) baseia-se na prática contínua de cinco disciplinas essenciais:
-
-```mermaid
-flowchart TD
-    D1["1. Domínio Pessoal<br/>Aperfeiçoamento individual e clareza de visão"]
-    D2["2. Modelos Mentais<br/>Superação de crenças limitantes e preconceitos"]
-    D3["3. Visão Compartilhada<br/>Propósito coletivo genuíno e engajamento"]
-    D4["4. Aprendizagem em Equipe<br/>Diálogo cooperativo e inteligência coletiva"]
-    D5["5. PENSAMENTO SISTÊMICO<br/>A Quinta Disciplina Integradora:<br/>Visão do todo orgânico e das causas estruturais"]
-
-    D1 --- D5
-    D2 --- D5
-    D3 --- D5
-    D4 --- D5
-```
-
-1. **Domínio Pessoal:** Busca contínua pelo aprimoramento e autodesenvolvimento, com clareza dos objetivos de vida e visão realista das próprias forças e fragilidades.
-2. **Modelos Mentais:** Capacidade de identificar, questionar e transformar as imagens e preconceitos internos enraizados que condicionam nossa percepção do mundo organizacional.
-3. **Visão Compartilhada:** Construção de um senso coletivo de propósito e destino comum, substituindo o mero cumprimento de ordens pelo compromisso entusiasmado com a missão pública.
-4. **Aprendizagem em Equipe:** Prática do diálogo autêntico entre os membros do grupo, superando disputas de vaidade e gerando soluções muito superiores à inteligência individual isolada.
-5. **Pensamento Sistêmico (A 5ª Disciplina):** É a disciplina integradora que conecta as outras quatro. Permite enxergar a organização não como partes fragmentadas, mas como uma rede viva de inter-relações e interdependências mútuas, focando nas causas estruturais dos problemas em vez de remediar sintomas superficiais.
-
----
-
 ### Teste 447
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Em sua consagrada obra sobre organizações que aprendem (*Learning Organizations*), Peter Senge afirma que uma disciplina específica atua como a pedra angular e a força integradora de todas as demais, permitindo aos líderes e gestores compreenderem que a organização pública é um sistema vivo composto por inter-relações interdependentes, no qual as soluções fáceis que atacam apenas sintomas de curto prazo costumam agravar os problemas estruturais de longo prazo. Essa disciplina integradora é denominada por Senge de:
+**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**
+O principal requisito para um bem-sucedido convênio de 
+intercâmbio é
 
-* **A)** Domínio Pessoal.
-* **B)** Modelos Mentais.
-* **C)** Visão Compartilhada.
-* **D)** Aprendizagem em Equipe.
-* **E)** Pensamento Sistêmico.
+* **A)** o apoio da alta cúpula da instituição mantenedora da 
+biblioteca.
+* **B)** o desejo de diminuir o custo interno de aquisição de 
+materiais.
+* **C)** a existência de um interesse mútuo na troca de 
+publicações.
+* **D)** a existência de um departamento ou seção com 
+responsabilidade exclusiva por essa atividade.
+* **E)** a manutenção de registros detalhados e confiáveis. 
+Caderno de Prova ’E05’, Tipo 001
 
+
+16 TCEGO-Anal.Con.Ext-Gestão Conhecimento-CEI-E05
 
 ---
 
-> **Comentário Detalhado:**  
+> **Comentário Detalhado:**
 >
-> - **A) Incorreta.** O Domínio Pessoal é a disciplina voltada ao crescimento e autoconhecimento individual.  
-> - **B) Incorreta.** Os Modelos Mentais referem-se à capacidade de expor e questionar pressupostos e crenças internalizadas sobre como a realidade funciona.  
-> - **C) Incorreta.** A Visão Compartilhada é a construção de um objetivo e identidade coletivos que mobilizam o compromisso autêntico da equipe.  
-> - **D) Incorreta.** A Aprendizagem em Equipe fundamenta-se no diálogo honesto para gerar inteligência coletiva superior.  
-> - **E) CORRETA.** O **Pensamento Sistêmico (a Quinta Disciplina)** é expressamente definido por Peter Senge como a **disciplina conceitual e integradora** que reúne todas as demais em um corpo coerente de teoria e prática. É o método de pensar que permite enxergar padrões, estruturas subjacentes e ciclos de feedback interdependentes, em vez de instantâneos estáticos e causas lineares isoladas.  
-> 
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+>
 > **Gabarito: E**
 
 ---
-
 ## 5. Educação Corporativa e Escolas de Governo (ILB/TCE-GO)
 
 No setor público moderno, a visão fragmentada de "cursos isolados" foi substituída pelo modelo de **Educação Corporativa**:
@@ -465,51 +549,76 @@ No setor público moderno, a visão fragmentada de "cursos isolados" foi substit
 ---
 
 ### Teste 448
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na obra clássica *A Quinta Disciplina*, Peter Senge apresenta os fundamentos necessários para a construção de organizações que aprendem (*learning organizations*).
+**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**
+Sobre a atividade de conservação e observação do estado 
+físico do acervo, considere: 
 
-A disciplina que Senge considera a "pedra angular" e a mais integradora de todas, por permitir que os gestores enxerguem as inter-relações e os padrões de mudança sistêmicos em vez de eventos estáticos e isolados, é o:
+ I. Preservação − Profilaxia, conscientização. 
 
-* **A)** Pensamento Sistêmico.
-* **B)** Domínio Pessoal.
-* **C)** Modelos Mentais.
-* **D)** Visão Compartilhada.
-* **E)** Aprendizado em Equipe.
+ II. Conservação − Cirurgia feita por especialistas.  
 
+ III. Restauração − Medicamentos, curativos. 
+
+ Das definições apresentadas,
+
+* **A)** apenas a II está incorreta, uma vez que a conser-
+vação envolve o trabalho educativo e não suben-
+tende qualquer tipo de intervenção no material.
+* **B)** apenas a I está correta, as II e III estão troca-
+das.
+* **C)** as I e II estão corretas; a III não tem qualquer 
+significado.
+* **D)** apenas a III está correta; as I e II tiveram suas 
+definições trocadas.
+* **E)** a I está incorreta, pois a profilaxia não faz parte das 
+atividades de preservação. 
+Caderno de Prova ’E05’, Tipo 001
+
+
+TCEGO-Anal.Con.Ext-Gestão Conhecimento-CEI-E05 15
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Peter Senge formulou cinco disciplinas: Domínio Pessoal, Modelos Mentais, Visão Compartilhada, Aprendizagem em Equipe e **Pensamento Sistêmico**. O Pensamento Sistêmico é a quinta disciplina que integra todas as outras, permitindo enxergar as causas profundas e as estruturas interdependentes em vez de sintomas superficiais de problemas.
-> - **B), C), D), E)** Incorretas. São as outras quatro disciplinas que são potencializadas pelo pensamento sistêmico.
-> 
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
 > **Gabarito: A**
 
 ---
-
 ### Teste 449
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No modelo de aprendizagem organizacional de Chris Argyris e Donald Schön, a **Aprendizagem de Circuito Duplo** (*Double-Loop Learning*) ocorre quando a organização:
+**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**
+Ao planejar e implantar serviços reprográficos em uma 
+biblioteca, além dos aspectos administrativos, físicos e 
+financeiros, deve-se considerar
 
-* **A)** Questiona e modifica os valores, premissas fundamentais, normas e políticas subjacentes que definem as metas da instituição, em vez de apenas corrigir erros superficiais mantendo as regras inalteradas.
-* **B)** Repete as mesmas tarefas rotineiras duas vezes para garantir conformidade contábil.
-* **C)** Exige que dois auditores assinem conjuntamente o mesmo relatório preliminar.
-* **D)** Mantém os procedimentos tradicionais inalterados independentemente de variações no ambiente externo.
-* **E)** Contrata duas consultorias externas concorrentes para emitir pareceres conflitantes.
+* **A)** a hierarquia e a cultura organizacionais.
+* **B)** o impacto socioambiental na instituição.
+* **C)** a legislação sobre direitos autorais.
+* **D)** a utilização das normas da ABNT para documentação.
+* **E)** a aptidão técnica dos funcionários. 
+Caderno de Prova ’E05’, Tipo 001
 
+
+TCEGO-Anal.Con.Ext-Gestão Conhecimento-CEI-E05 13
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Distinção essencial: **Circuito Simples (*Single-Loop*)**: a organização detecta o erro e o corrige sem alterar as regras e objetivos vigentes (adaptação mecânica); **Circuito Duplo (*Double-Loop*)**: a instituição vai à raiz do problema e questiona as próprias premissas, normas, valores e paradigmas que balizam o plano de ação, reestruturando a lógica operacional.
-> - **B), C), D), E)** Incorretas. Interpretações literais errôneas da expressão "circuito duplo".
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+>
+> **Gabarito: E**
 
 ---
-
 ## 6. Fontes Oficiais e Referências Bibliográficas
 
 * [Decreto Federal nº 9.991/2019 (Política Nacional de Desenvolvimento de Pessoas - PNDP)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/d9991.htm) - Diretrizes, instrumentos e regras para ações de desenvolvimento e capacitação contínua de servidores.

@@ -104,71 +104,78 @@ A segurança da informação é definida pela norma ABNT NBR ISO/IEC 27000 como 
 ---
 
 ### Teste 355
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A segurança da informação visa proteger os ativos organizacionais contra riscos cibernéticos, estruturando-se tradicionalmente em torno dos pilares da **Confidencialidade**, **Integridade** e **Disponibilidade** (Tríade CID).
+**(FGV – TJ-AP – Analista Judiciário - Segurança da Informação – 2023)**
+Amanda trabalha em uma consultoria X e está implementando 
+um NAP (proteção de acesso à rede) em um cliente. O objetivo de 
+Amanda com tal implementação é manter a integridade dos 
+computadores da rede corporativa.  
+Para proteger o acesso à rede de forma adequada, deve existir 
+uma infraestrutura de rede que forneça à área de funcionalidade:
 
-Considere as seguintes situações ocorridas na infraestrutura de TI de um tribunal:
-
-1. Um ataque de negação de serviço distribuído (DDoS) satura a largura de banda do datacenter, impedindo cidadãos e advogados de acessarem o portal do processo eletrônico durante todo o horário de expediente forense.  
-2. Um atacante intercepta a transmissão de um despacho judicial e altera fraudulentamente o valor da condenação antes de retransmitir o pacote à parte credora.  
-3. Um funcionário não autorizado obtém acesso a uma pasta compartilhada na rede interna e visualiza autos de processo que tramitavam em segredo de justiça estrito.  
-
-As situações 1, 2 e 3 caracterizam, rigorosa e respectivamente, violações aos princípios de:
-
-* **A)** Integridade, Confidencialidade e Disponibilidade.
-* **B)** Disponibilidade, Integridade e Confidencialidade.
-* **C)** Confidencialidade, Não Repúdio e Integridade.
-* **D)** Disponibilidade, Autenticidade e Irretratabilidade.
-* **E)** Integridade, Disponibilidade e Legalidade.
-
+* **A)** validação de integridade: determina se os computadores 
+estão em conformidade com os requisitos de integridade do 
+sistema;
+* **B)** zona desmilitarizada: impede que um usuário autorizado com 
+um computador em conformidade carregue um p rograma 
+mal-intencionado na rede;
+* **C)** restrição de rede: permite o acesso à rede, desde que o 
+computador do usuário atenda aos requisitos de política de 
+integridade;
+* **D)** correção: restringe o acesso à rede ou à comunicação para 
+clientes que não estão em conformidade com os requisitos de 
+integridade do sistema;
+* **E)** conformidade contínua: fornece as atualizações necessárias 
+para permitir que o computador corrija seu estado de 
+integridade não compatível.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **Situação 1:** Trata-se de violação direta à **Disponibilidade**: a propriedade de que a informação e os sistemas estejam acessíveis e utilizáveis sob demanda por pessoas ou processos devidamente autorizados. O ataque DDoS torna o serviço inoperante.
-> - **Situação 2:** Trata-se de violação direta à **Integridade**: a salvaguarda da exatidão, precisão e completude da informação e dos métodos de processamento, impedindo modificações, inserções ou exclusões não autorizadas ou acidentais.
-> - **Situação 3:** Trata-se de violação direta à **Confidencialidade**: a garantia de que a informação não seja disponibilizada ou divulgada a indivíduos, entidades ou processos não autorizados.
-> 
-> **Gabarito: B**
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: A**
 
 ---
-
 ### Teste 356
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Durante uma auditoria de conformidade em um sistema eletrônico de protocolo processual do Tribunal de Contas, os auditores avaliaram a eficácia de diferentes mecanismos de segurança da informação.
-Relacione as situações práticas descritas a seguir com o princípio fundamental de segurança correspondente (CIDAN):
+**(FGV – TJ-AP – Analista Judiciário - Segurança da Informação – 2023)**
+Um centro de estudos, resposta e tratamento de incidentes 
+(CERT) possui, dentre suas atribuições, a manutenção da 
+consciência situacional relativa à segurança cibernética. O CERT 
+atua correlacionando  eventos a fim de permitir a detecção 
+precoce de incidentes e ataques no espaço cibernético.  
+Uma atividade que contribui para a manutenção ou incremento 
+da consciência situacional é:
 
-1. Garantir que um documento processual contábil emitido por um conselheiro não tenha seu conteúdo adulterado ou corrompido durante a transmissão na rede.
-2. Garantir que dados fiscais sigilosos de contribuintes sob sigilo legal não sejam visualizados por servidores públicos não autorizados.
-3. Garantir que o remetente de um ofício eletrônico assinado com certificado digital ICP-Brasil não possa negar falsamente, perante a administração e a justiça, a autoria do envio daquele documento.
-
-As situações 1, 2 e 3 correspondem, respectivamente, aos princípios de:
-
-* **A)** Autenticidade; Disponibilidade; e Confidencialidade.
-* **B)** Integridade; Confidencialidade; e Não Repúdio (Irretratabilidade).
-* **C)** Confidencialidade; Integridade; e Autenticidade.
-* **D)** Disponibilidade; Legalidade; e Não Repúdio.
-* **E)** Integridade; Autenticidade; e Disponibilidade.
-
+* **A)** a coleta e o compartilhamento de informações que possam 
+ser usadas pela comunidade;
+* **B)** o desenvolvimento de materiais de boas práticas para 
+administradores de redes por meio da Internet e para 
+usuários finais;
+* **C)** a fomentação da cooperação entre CSIRTs através da 
+organização de fóruns específicos;
+* **D)** o suporte ao proces so de mitigação de danos causados por 
+um incidente e de recuperação de sistemas comprometidos;
+* **E)** o suporte ao processo de análise de atividades maliciosas e 
+de sistemas comprometidos.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **Situação 1:** Trata da garantia contra adulterações ou corrupções de conteúdo, correspondendo estritamente ao princípio da **Integridade**.
-> - **Situação 2:** Trata do barramento de visualização e leitura por terceiros não autorizados, salvaguardando o sigilo, o que define a **Confidencialidade**.
-> - **Situação 3:** Trata da impossibilidade jurídica de o autor contestar ou negar falsamente ter praticado o ato, o que define formalmente o princípio do **Não Repúdio** (ou Irretratabilidade).
-> - **A)** Incorreta. A situação 1 trata de integridade e a 2 de confidencialidade.
-> - **B)** **Correta.** Mapeia rigorosamente: 1 = Integridade, 2 = Confidencialidade e 3 = Não Repúdio.
-> - **C)** Incorreta. Inverteu as situações 1 e 2.
-> - **D)** Incorreta. Aponta disponibilidade para a situação 1.
-> - **E)** Incorreta. Erra as correspondências dos itens 2 e 3.
-> 
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
 > **Gabarito: B**
 
 ---
-
 ## 2. Classificação e Rotulagem da Informação
 
 A classificação atribui rótulos de sensibilidade aos ativos de informação da organização, ditando os níveis de proteção lógica e física a serem aplicados de forma proporcional ao dano decorrente de divulgação ou modificação indevida.
@@ -207,42 +214,41 @@ No âmbito corporativo preconizado pela ISO/IEC 27002:
 ---
 
 ### Teste 357
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A Lei Federal nº 12.527/2011 (Lei de Acesso à Informação - LAI) dispõe sobre os procedimentos a serem observados pela União, Estados, DF e Municípios com o fim de garantir o acesso a informações públicas, estabelecendo regras para a classificação e proteção de dados que exijam restrição de acesso por motivos de segurança da sociedade ou do Estado.
-Considere as seguintes assertivas sobre os graus de sigilo e prazos previstos na LAI:
+**(FGV – TJ-AP – Analista Judiciário - Segurança da Informação – 2023)**
+A Estratégia Nacional de Segurança Cibernética do Poder 
+Judiciário (ENSEC -PJ) define, em seu Art. 12, um modelo 
+centralizado de governança nacional na segurança cibernética 
+para os órgãos no âmbito do Poder Judiciário, à exceção do 
+Supremo Tribunal Federal.  
+Um dos objetivos desse modelo centralizado é:
 
-I. A classificação de uma informação como reservada impõe restrição de acesso pelo prazo máximo de 5 anos.  
-
-II. A informação classificada como secreta possui prazo máximo de restrição de 15 anos, sendo admitida prorrogação automática e ilimitada por sucessivos períodos de 10 anos.  
-
-III. O prazo máximo de restrição de acesso à informação ultrassecreta é de 25 anos, podendo ser prorrogado uma única vez, por igual período, por decisão privativa da Comissão Mista de Reavaliação de Informações (CMRI).  
-
-Está correto o que se afirma em:
-
-* **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** I e III, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
-
+* **A)** realizar exercícios cibernéticos com a partic ipação de 
+múltiplos entes;
+* **B)** estabelecer norma sobre a definição dos requisitos 
+metodológicos para a implementação da gestão de risco dos 
+ativos da informação no Poder Judiciário;
+* **C)** estabelecer rotinas de verificações de conformidade em 
+segurança cibernética;
+* **D)** elaborar a Política de Segurança da Informação e normas 
+internas correlatas ao tema, observadas as normas de 
+segurança da informação editadas pelo CNJ;
+* **E)** promover ações de capacitação e profissionalização dos 
+recursos humanos em temas relacio nados à segurança da 
+informação.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **Item I (Correto):** Conforme o Art. 24, § 1º, III da LAI, o prazo de sigilo da informação **reservada** é de no máximo **5 anos**.
-> - **Item II (Incorreto):** O prazo da informação **secreta** é de **15 anos**, mas a LAI **não admite prorrogações sucessivas ou ilimitadas**; o sigilo extingue-se impreterivelmente ao final dos 15 anos.
-> - **Item III (Correto):** Conforme o Art. 24, § 1º, I c/c Art. 35, § 1º da LAI, a informação **ultrassecreta** possui prazo de **25 anos**, admitindo **uma única prorrogação por igual período** por decisão privativa da CMRI.
-> - **A)** Incorreta, pois o item III também é verdadeiro.
-> - **B)** Incorreta, pois o item II é falso.
-> - **C)** **Correta.** Apenas as assertivas I e III estão corretas.
-> - **D)** Incorreta, pois o item II é falso.
-> - **E)** Incorreta, pois o item II está incorreto.
-> 
-> **Gabarito: C**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+>
+> **Gabarito: E**
 
 ---
-
 ### Teste 358
 **(FCC – TRT-23 – Analista Judiciário (TI) – 2016)**  
 Um Analista do TRT23 deve estabelecer o sistema de gestão de segurança do Tribunal baseado na norma ABNT NBR ISO/IEC 27001:2013. Na fase de planejamento, os objetivos de segurança devem ser
@@ -353,72 +359,78 @@ A etapa de análise de riscos, no processo de Gestão de Riscos, pode ser realiz
 ---
 
 ### Teste 360
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Durante o processo de avaliação quantitativa de riscos de um banco de dados do Tribunal de Contas avaliado em R$ 400.000,00, a equipe de segurança apurou que um ataque cibernético de ransomware causaria uma perda direta de 40% sobre o valor desse ativo. O histórico de segurança do órgão e os relatórios de inteligência de ameaças apontam que a taxa anual estimada de ocorrência desse tipo de incidente para órgãos do mesmo porte é de 0,25 vezes por ano (isto é, 1 incidente a cada 4 anos).
-Com base nas métricas clássicas de análise quantitativa de risco ($\text{SLE}$, $\text{ARO}$ e $\text{ALE}$), assinale a opção que apresenta, respectivamente, o valor da Expectativa de Perda Única ($\text{SLE}$) e da Expectativa de Perda Anual ($\text{ALE}$):
+**(FGV – TJ-AP – Analista Judiciário - Banco de Dados – 2023)**
+Uma empresa de consultoria X foi contratada para verificar os 
+riscos quanto à segurança da informação no Tribunal de Justiça 
+do Amapá (TJAP). Para atender ao requisito licitatório, a 
+consultoria fez uso da norma ABNT NBR ISO/IEC 27005:2011. Em 
+seu relatóri o de segurança, a consultoria identificou riscos 
+causados por fenômenos naturais, de forma que a melhor 
+alternativa era mover fisicamente as instalações para um local 
+onde tal risco não exista ou esteja sob controle.  
+A empresa de consultoria X se baseou no tópico de tratamento 
+de riscos de:
 
-* **A)** R$ 160.000,00 e R$ 40.000,00.
-* **B)** R$ 40.000,00 e R$ 160.000,00.
-* **C)** R$ 240.000,00 e R$ 60.000,00.
-* **D)** R$ 100.000,00 e R$ 25.000,00.
-* **E)** R$ 160.000,00 e R$ 80.000,00.
+* **A)** reter o risco;
+* **B)** modificar o risco;
+* **C)** evitar o risco;
+* **D)** compartilhar o risco;
+* **E)** aceitar o risco. 
 
+
+Tribunal de Justiça do Estado do Amapá FGV Conhecimento 
+
+Analista Jud - Apoio Especializado - Tecnologia da Informação - Banco de Dados  Tipo 1  ̶  Branca – Página 18
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **1. Dados fornecidos:**
->     - $\text{AV}$ (*Asset Value*) = R$ 400.000,00
->     - $\text{EF}$ (*Exposure Factor*) = $40\% = 0{,}40$
->     - $\text{ARO}$ (*Annualized Rate of Occurrence*) = $0{,}25$
-> - **2. Cálculo da Expectativa de Perda Única (SLE):**
->   $$\text{SLE} = \text{AV} \times \text{EF} = 400.000 \times 0{,}40 = \text{R\$}~160.000,00$$
-> - **3. Cálculo da Expectativa de Perda Anual (ALE):**
->   $$\text{ALE} = \text{SLE} \times \text{ARO} = 160.000 \times 0{,}25 = \text{R\$}~40.000,00$$
-> - **A)** **Correta.** Apresenta exatamente $\text{SLE} = \text{R\$}~160.000,00$ e $\text{ALE} = \text{R\$}~40.000,00$.
-> - **B)** Incorreta. Inverteu a posição de SLE e ALE.
-> - **C)** Incorreta. Calculou o valor residual do ativo pós-incidente (60% = R$ 240.000,00).
-> - **D)** Incorreta. Utilizou incorretamente 25% para o cálculo do SLE.
-> - **E)** Incorreta. Errou o cálculo do ALE ao utilizar um ARO fictício de 0,50.
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: D**
 
 ---
-
 ### Teste 361
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Após a conclusão das etapas de identificação e avaliação de riscos de segurança da informação, a organização deve selecionar a resposta apropriada para cada risco avaliado no processo de **Tratamento do Risco** (*Risk Treatment*).
+**(FGV – TJ-AP – Analista Judiciário - Banco de Dados – 2023)**
+O Tribunal de Justiça do Amapá (TJAP) identificou que não havia 
+um documento de Política para Segurança da Informação e 
+resolveu elaborá-lo. Para atender esse objetivo, fez uso da Norma 
+27002:2013, que orienta a organização a def inir uma política de 
+segurança que seja aprovada pela direção.  
+Para a elaboração do documento, a norma orienta que sejam 
+contemplados requisitos oriundos da(s):
 
-A norma ABNT NBR ISO/IEC 27005 e o framework ISO 31000 prescrevem quatro opções clássicas de tratamento: **Modificação (Mitigação)**, **Retenção (Aceitação)**, **Evitação** e **Compartilhamento (Transferência)**.
-
-Assinale a opção que ilustra corretamente uma estratégia de **Compartilhamento / Transferência do Risco**:
-
-* **A)** A contratação de uma apólice de seguro contra incidentes cibernéticos (*Cyber Insurance*) ou a inclusão de cláusulas contratuais de indenização e responsabilidade financeira em contratos de serviços terceirizados de datacenter em nuvem.
-* **B)** A decisão deliberada da alta administração em não adotar nenhuma salvaguarda e arcar com os prejuízos operacionais caso o incidente venha a ocorrer.
-* **C)** A desativação definitiva de um serviço legado inseguro de FTP e cancelamento total da atividade de transferência externa de arquivos para eliminar a exposição ao perigo.
-* **D)** A instalação de um sistema de firewall de última geração e criptografia de ponta a ponta para reduzir a probabilidade e o impacto de invasões.
-* **E)** A execução de testes de penetração mensais sem qualquer correção de código.
-
+* **A)** normas da família 27000, atribuição de responsabilidades 
+gerais e específicas para o gerenciamento da segurança;
+* **B)** definições de segurança da informação, objetivos e princípios 
+para orientar todas as atividades de segurança;
+* **C)** definição do controle de acesso, segurança física e do 
+ambiente e proteção contra malware;
+* **D)** transferência de inf ormação, segurança nas comunicações, 
+proteção e privacidade da informação de identificação 
+pessoal;
+* **E)** estratégia de negócios, regulamentações, legislação e 
+contratos e ambiente de ameaça da segurança da 
+informação, atual e futuro.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **CORRETA.** Estratégias canônicas de tratamento do risco (ISO 27005 / ISO 31000):
->   1. **Compartilhar / Transferir (Risk Sharing/Transfer):** Envolve repassar parte do impacto financeiro ou operacional do risco a um terceiro, comumente via **seguros contra riscos cibernéticos** ou cláusulas contratuais com provedores terceirizados (SLA com multas). *A responsabilidade final pelo negócio continua com a organização, mas o encargo financeiro do risco é transferido.*
->   2. **Mitigar / Modificar (Risk Mitigation/Modification):** Aplicar controles de segurança (firewalls, criptografia, conscientização) para reduzir a probabilidade e/ou o impacto do risco. (Descrito em D).
->   3. **Evitar (Risk Avoidance):** Decidir não iniciar ou descontinuar a atividade ou processo que dá origem ao risco. (Descrito em C).
->   4. **Aceitar / Reter (Risk Retention/Acceptance):** Decisão fundamentada de manter o risco em seu nível atual sem controles adicionais, desde que esteja dentro do apetite a risco da alta gestão. (Descrito em B).
-> - **B)** Incorreta. Exemplifica Aceitação / Retenção do Risco.
-> - **C)** Incorreta. Exemplifica Evitação do Risco (*Avoidance*).
-> - **D)** Incorreta. Exemplifica Modificação / Mitigação do Risco.
-> - **E)** Incorreta. Fazer testes sem agir não constitui tratamento de risco eficaz.
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: D**
 
 ---
-
 ## 4. Gestão de Vulnerabilidades e Resposta a Incidentes
 
 ### 4.1 Métricas do CVSS v3.1 (Common Vulnerability Scoring System)
@@ -473,69 +485,80 @@ O tratamento de incidentes cibernéticos adota o ciclo formalizado no guia NIST 
 ---
 
 ### Teste 362
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-O *Common Vulnerability Scoring System* (CVSS v3.1) é o padrão aberto internacional gerenciado pelo FIRST para pontuar e mensurar a severidade técnica de vulnerabilidades de segurança de software e hardware.
+**(FGV – TJ-AP – Analista Judiciário - Banco de Dados – 2023)**
+Fábio pertence ao departamento de segurança da empresa K e 
+está verificando os controles existentes para a Gestão de Riscos 
+de Segurança da Informação. Ele faz uso da norma ABNT N BR 
+ISO/IEC 27005:2011 para efetuar sua verificação. Fábio está 
+examinando o correto funcionamento dos controles existentes. 
+Ele identificou alguns controles obsoletos, que foram 
+descartados, e outros que foram substituídos por controles 
+melhores ou mais modernos.  
+Nesse momento, Fábio está fazendo uso da tarefa dentro de 
+identificação de riscos:
 
-A respeito da estrutura das métricas e da escala de pontuação do CVSS v3.1, assinale a afirmativa correta:
-
-* **A)** O CVSS gera uma pontuação contínua que varia de 0,0 a 10,0, onde vulnerabilidades com escore entre 9,0 e 10,0 são classificadas no nível de severidade **Crítico** (*Critical*).
-* **B)** O grupo de Métricas Base (*Base Metrics Group*) mede as características que mudam com o passar do tempo e a disponibilidade de código de exploração (*exploit*) na internet.
-* **C)** A métrica Vetor de Ataque (*Attack Vector - AV*) avalia apenas se o hacker possui nacionalidade brasileira.
-* **D)** O escore de severidade do CVSS varia entre -100 e +100 pontos percentuais.
-* **E)** Vulnerabilidades com escore Base igual a 0,0 são classificadas como emergência máxima de segurança nacional.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **CORRETA.** Estrutura formal do **CVSS v3.1**:
->   - **Escala de Severidade Qualitativa do FIRST:**
->     - **Nenhum (None):** $0,0$
->     - **Baixo (Low):** $0,1 - 3,9$
->     - **Médio (Medium):** $4,0 - 6,9$
->     - **Alto (High):** $7,0 - 8,9$
->     - **Crítico (Critical):** $9,0 - 10,0$
->   - **Três Grupos de Métricas:**
->     1. **Métricas Base (Base Metrics):** Qualidades intrínsecas constantes e imutáveis da falha (Explorabilidade: Vetor de Ataque, Complexidade, Privilégios Necessários, Interação do Usuário, Escopo; e Impacto: Confidencialidade, Integridade, Disponibilidade).
->     2. **Métricas Temporais (Temporal Metrics):** Fatores que variam ao longo do tempo (Maturidade do Código de Exploit, Nível de Remediação / Patches, Confiança no Relato).
->     3. **Métricas Ambientais (Environmental Metrics):** Características customizadas ao ambiente específico da organização.
-> - **B)** Incorreta. Quem mede aspectos que mudam no tempo é o grupo de **Métricas Temporais**, não as Métricas Base.
-> - **C)** Incorreta. O *Attack Vector (AV)* mede o contexto de rede necessário para explorar a falha: Rede (*Network - N*), Adjacente (*Adjacent - A*), Local (*Local - L*) ou Físico (*Physical - P*).
-> - **D)** Incorreta. A escala é padronizada de $0,0$ a $10,0$.
-> - **E)** Incorreta. Escore $0,0$ é *None* (ausência de severidade).
-> 
-> **Gabarito: A**
-
----
-
-### Teste 363
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-De acordo com o guia de boas práticas para tratamento de incidentes de segurança cibernética do NIST (NIST SP 800-61 Rev. 2) e as diretrizes da norma ISO/IEC 27035, um incidente cibernético confirmado deve ser processado segundo um ciclo estruturado de fases operacionais.
-Ao detectar a proliferação acelerada de um malware em sua rede corporativa, a equipe de segurança da informação procedeu imediatamente com o isolamento físico dos servidores comprometidos através do desligamento das portas de switch correspondentes, com o intuito de conter a ameaça e evitar que outros nós fossem atingidos.
-A referida ação operacional executada pela equipe insere-se formalmente na fase de:
-
-* **A)** Preparação.
-* **B)** Detecção e Análise.
-* **C)** Contenção.
-* **D)** Atividades Pós-Incidente (Lições Aprendidas).
-* **E)** Classificação de Ativos.
-
+* **A)** dos ativos;
+* **B)** das ameaças;
+* **C)** de controles existentes;
+* **D)** das vulnerabilidades;
+* **E)** de consequências.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Preparação é a etapa preventiva preliminar (treinamentos, políticas e criação do CSIRT).
-> - **B)** Incorreta. Detecção e análise já ocorreram, pois o malware foi previamente identificado e analisado.
-> - **C)** **Correta.** A ação de desconectar cabos, isolar máquinas da rede ou desativar portas de switch compõe a essência da **Contenção (*Containment*)**, cuja finalidade imediata é frear o avanço do ataque e limitar o dano aos ativos adjacentes.
-> - **D)** Incorreta. Atividades pós-incidente (lições aprendidas) ocorrem após o restabelecimento produtivo dos sistemas.
-> - **E)** Incorreta. Classificação de ativos é processo de governança, não sendo fase operacional de resposta a incidentes do NIST.
-> 
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
 > **Gabarito: C**
 
 ---
+### Teste 363
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+A ABNT NBR ISO/IEC 27001:2022, NBR ISO/IEC 27002:2022, os CIS 
+v8, SIEM, e a Lei nº 13.709(LGPD) são algumas das diversas normas 
+e leis que trabalham conjuntamente para assegurar a integridade, 
+confidencialidade e disponibilidade dos dados no contexto da 
+segurança da informação.  
+Assinale a opção que descreve corretamente uma contribuição 
+combinada dessas leis e normas.
 
+* **A)** Apenas a implementação da LGPD é suficiente para garantir a 
+conformidade legal e a segurança da informação, tornando as 
+outras normas e controles redundantes.
+* **B)** O ponto chave dos Sistemas de Gerenciamento de 
+Informações e Eventos de Segurança (SIEM) oferecer somente 
+práticas de segurança pessoal em tempo real que  deve ser 
+combinado as demais normas e leis.
+* **C)** As normas ABNT NBR ISO/IEC estabelecem os requisitos gerais 
+de segurança, a LGPD foca na proteção de dados pessoais, e os 
+SIEM proporcionam a visão e controle operacionais 
+necessários.
+* **D)** A adoção dos CIS C ritical Security Controls v8 cobre os 
+requisitos de segurança e as normas ABNT NBR ISO/IEC 
+fornecem o complemento no que se refere a proteção de 
+dados pessoais.
+* **E)** A ABNT NBR ISO/IEC 27001:2022 e a 27002:2022 são as únicas 
+que fornecem uma abordagem baseada em risco que utilizará 
+os outros mecanismos para organizar e controlar os sistemas 
+de segurança.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: C**
+
+---
 ## 5. Família de Normas ISO/IEC 27000 (SGSI)
 
 ### 5.1 A Norma Certificável ISO/IEC 27001 e o Anexo SL
@@ -611,38 +634,33 @@ De acordo com a norma ABNT NBR ISO/IEC 27002:2013 a política de controle de ace
 ---
 
 ### Teste 365
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A norma ABNT NBR ISO/IEC 27002:2022 promoveu uma das mais profundas reestruturações na história do Sistema de Gestão da Segurança da Informação (SGSI), simplificando e modernizando o catálogo de controles de segurança.
+**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**
+A prioridade na tramitação dos processos e procedimentos 
+administrativos e na execução dos atos e diligências admi-
+nistrativas é assegurada quando figure, em qualquer grau 
+de instância, como requerente ou interveniente, pessoa 
+com idade igual ou superior a
 
-A respeito da nova taxonomia e da quantidade de controles previstos na **ISO/IEC 27002:2022**, assinale a afirmativa correta:
-
-* **A)** A edição de 2022 expandiu os controles para 250 itens divididos em 30 seções alfabéticas.
-* **B)** A ISO/IEC 27002:2022 agrupou todos os seus **93 controles de segurança** em apenas **4 temas ou cláusulas principais**: Controles Organizacionais (Cláusula 5 - 37 controles), Controles de Pessoas (Cláusula 6 - 8 controles), Controles Físicos (Cláusula 7 - 14 controles) e Controles Tecnológicos (Cláusula 8 - 34 controles).
-* **C)** A norma ISO/IEC 27002:2022 eliminou os controles tecnológicos para focar exclusivamente em barreiras físicas com cadeados.
-* **D)** A Declaração de Aplicabilidade (SoA - *Statement of Applicability*) foi revogada pela ISO/IEC 27001 e deixou de ser exigida em auditorias de certificação.
-* **E)** Todos os 93 controles da nova edição são de implementação obrigatória para qualquer empresa, sendo vedada a exclusão justificada de controles não aplicáveis. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-
+* **A)** 55 anos.
+* **B)** 60 anos.
+* **C)** 65 anos.
+* **D)** 70 anos.
+* **E)** 75 anos. 
+_________________________________________________________
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A versão anterior (2013) tinha 114 controles divididos em 14 seções; a nova edição de 2022 consolidou e reduziu o total para **93 controles**.
-> - **B)** **CORRETA.** Estrutura canônica e moderna da **ISO/IEC 27002:2022**:
->   - Os 93 controles estão categorizados em **4 grandes temas**:
->     1. **Controles Organizacionais (Cláusula 5):** 37 controles (políticas, gestão de ativos, classificação, direitos de propriedade intelectual, etc.).
->     2. **Controles de Pessoas (Cláusula 6):** 8 controles (termos de contratação, conscientização, trabalho remoto).
->     3. **Controles Físicos (Cláusula 7):** 14 controles (perímetros de segurança, descarte de mídias, cabeamento seguro).
->     4. **Controles Tecnológicos (Cláusula 8):** 34 controles (autenticação, controle de acesso, criptografia, prevenção de vazamento de dados - DLP, monitoramento, mascaramento de dados).
->   - Além disso, introduziu o inovador conceito de **atributos de controles** (*Control Attributes* com 5 dimensões: Tipo de Controle, Propriedades da Informação, Conceitos de Cibersegurança, Capacidades Operacionais e Domínios de Segurança).
-> - **C)** Incorreta. Os controles tecnológicos representam 34 controles vitais da norma.
-> - **D)** Incorreta. A Declaração de Aplicabilidade (SoA, cláusula 6.1.3 da ISO/IEC 27001) permanece como documento central mandatório de auditoria de certificação.
-> - **E)** Incorreta. A organização seleciona os controles aplicáveis por meio da análise de risco, documentando na SoA a justificativa de inclusão e as justificativas técnicas para exclusão de controles não pertinentes.
-> 
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
 > **Gabarito: B**
 
 ---
-
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 
 * [NIST Cybersecurity Framework (CSF 2.0)](https://www.nist.gov/cyberframework) - Estrutura de referência global do NIST para identificação, proteção, detecção, resposta e recuperação de riscos cibernéticos.

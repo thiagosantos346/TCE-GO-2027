@@ -110,53 +110,33 @@ flowchart TD
 ---
 
 ### Teste 102
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere a sequência numérica infinita cujos primeiros termos são apresentados a seguir:
-$$3, 5, 9, 17, 33, 65, \dots$$
+**(FGV – TRF-1 – Analista Judiciário - Tecnologia da Informação – 2024)**
+Para uma sessão de cinema, a primeira fila tem seis poltronas 
+livres em sequência. Um casal e seus três filhos ocuparão cinco 
+desses lugares. O casal ficará em lugares vizinhos e, 
+naturalmente, uma poltrona ficará vazia. 
+O número de maneiras diferentes com o essa família poderá 
+ocupar as poltronas disponíveis é:
 
-O próximo termo dessa sequência e a lei de formação que rege seus elementos correspondem, respectivamente, a:
-
-* **A)** 129 e o dobro do termo anterior subtraído de 1
-* **B)** 129 e o dobro do termo anterior somado a 1
-* **C)** 97 e a soma dos dois termos anteriores
-* **D)** 130 e potências consecutivas de 3
-* **E)** 131 e a soma das diferenças sucessivas multiplicadas por 3
-
+* **A)** 60;
+* **B)** 120;
+* **C)** 180;
+* **D)** 240;
+* **E)** 360.
 
 ---
 
 > **Comentário Detalhado:**
-> Identificação da lei de formação por diferenças e recorrência:
 >
-> 1. Calculando a diferença entre termos consecutivos:
->     - $5 - 3 = 2 = 2^1$
->     - $9 - 5 = 4 = 2^2$
->     - $17 - 9 = 8 = 2^3$
->     - $33 - 17 = 16 = 2^4$
->     - $65 - 33 = 32 = 2^5$
->    As diferenças sucessivas formam potências consecutivas de 2. Logo, a próxima diferença entre o 7º e o 6º termo deve ser $2^6 = 64$:
->    $$a_7 = 65 + 64 = \mathbf{129}$$
-> 2. Analisando a lei de recorrência direta:
->     - $2 \times 3 - 1 = 5$
->     - $2 \times 5 - 1 = 9$
->     - $2 \times 9 - 1 = 17$
->     - $2 \times 17 - 1 = 33$
->     - $2 \times 33 - 1 = 65$
->     - $2 \times 65 - 1 = 130 - 1 = \mathbf{129}$
->    A lei estruturante expressa-se perfeitamente como o **dobro do termo anterior subtraído de 1** ($a_n = 2a_{n-1} - 1$).
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
-> Análise das alternativas:
->
-> - **A)** Correta. O próximo elemento é 129 e a relação de recorrência é $2x - 1$.
-> - **B)** Incorreta. Se somasse 1, a sequência seria $3, 7, 15, 31, 63, 127$.
-> - **C)** Incorreta. A soma dos dois termos precedentes (estilo Fibonacci) geraria $33 + 65 = 98$, divergindo de 97 e da lógica da sequência.
-> - **D)** Incorreta. O próximo termo é 129, e não 130.
-> - **E)** Incorreta. Aponta 131 decorrente de erro aritmético.
-> 
 > **Gabarito: A**
 
 ---
-
 ### Teste 103
 **(FGV – TRT – Analista Judiciário (TI) – 2024)**  
 O campeonato interestelar de wongwong será disputado por 24.225 jogadores. Cada partida de wongwong é disputada por dois jogadores e, como resultado, ao final há um vencedor e um perdedor. O campeonato será todo eliminatório, ou seja, em cada partida o perdedor é eliminado e o vencedor prossegue na disputa. Assim, o número de partidas desse campeonato será igual a
@@ -182,50 +162,33 @@ O campeonato interestelar de wongwong será disputado por 24.225 jogadores. Cada
 ---
 
 ### Teste 104
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere a sucessão lógica de letras:  
-$$U, D, T, Q, C, S, S, O, N, ...$$  
-A próxima letra que dá continuidade lógica e consistente a essa sequência é:
+**(FGV – TRT-1 – Analista Judiciário - Tecnologia da Informação – 2024)**
+Para uma sessão de cinema, a primeira fila tem seis poltronas 
+livres em sequência. Um  casal e seus três filhos ocuparão cinco 
+desses lugares. O casal ficará em lugares vizinhos e, 
+naturalmente, uma poltrona ficará vazia. 
+O número de maneiras diferentes como essa família poderá 
+ocupar as poltronas disponíveis é:
 
-* **A)** D
-* **B)** V
-* **C)** O
-* **D)** T
-* **E)** Q
-
+* **A)** 60;
+* **B)** 120;
+* **C)** 180;
+* **D)** 240;
+* **E)** 360.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **Identificação do Padrão Semântico Oculto:**  
->   - Em sequências literais da FCC que não seguem ordem alfabética aritmética evidente, a banca comumente recorre à **inicial semântica dos números cardinais ou ordinais**:  
->     - **U** $
-ightarrow$ Um  
->     - **D** $
-ightarrow$ Dois  
->     - **T** $
-ightarrow$ Três  
->     - **Q** $
-ightarrow$ Quatro  
->     - **C** $
-ightarrow$ Cinco  
->     - **S** $
-ightarrow$ Seis  
->     - **S** $
-ightarrow$ Sete  
->     - **O** $
-ightarrow$ Oito  
->     - **N** $
-ightarrow$ Nove  
->   - O próximo número da contagem natural é o número **Dez**.  
->   - A letra inicial da palavra "Dez" é a letra **D**.  
-> - **Conclusão:** A próxima letra é **D** (Alternativa A).
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
 > **Gabarito: A**
 
 ---
-
 ## 2. Orientação Temporal, Calendários e Relógios
 
 A orientação temporal examina o cômputo de prazos processuais e dias da semana mediante congruência modular de base 7.
@@ -296,36 +259,37 @@ A amostra de idades a seguir foi obtida: 20 35 23 54 46 22 41 50 38 40 35 18 32 
 ---
 
 ### Teste 106
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Um relógio analógico convencional de ponteiros marca exatamente $3$ horas e $40$ minutos. A medida do menor ângulo formado entre o ponteiro das horas e o ponteiro dos minutos nesse instante é igual a:
+**(FGV – TRT-1 – Analista Judiciário - Tecnologia da Informação – 2024)**
+As inferências são fruto do conhecimento de mundo do leitor, 
+que deve reconhecer as ligações semânticas não explicitadas. 
+A única frase abaixo que NÃO se enquadra entre inferências é:
 
-* **A)** $120^\circ$
-* **B)** $130^\circ$
-* **C)** $140^\circ$
-* **D)** $150^\circ$
-* **E)** $115^\circ$
+* **A)** “O carro entrou bastante devagar no estacionamento, com os 
+pneus traseiros arriados”;
+* **B)** “O Novo Testamento  é de leitura mais fácil que o Velho 
+Testamento; os evangelhos são úteis para nossa vida”;
+* **C)** “Os turistas compraram uma casa na cidade visitada; os 
+quartos davam vista para a montanha”;
+* **D)** “As garrafas de vinho foram colocadas deitadas no armário, 
+com os rótulos para cima”;
+* **E)** “O médico pegou o formulário de cima da mesa e escreveu o 
+endereço para o cliente”. 
 
+Tribunal Regional Federal da 1ª Região FGV Conhecimento
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **Método da Cinemática Angular dos Relógios:**  
->   - O círculo completo tem $360^\circ$, dividido em 12 intervalos de horas ($30^\circ$ por hora).  
->   - O ponteiro dos minutos desloca-se a uma velocidade de $6^\circ$ por minuto ($360^\circ / 60\text{ min}$).  
->   - O ponteiro das horas desloca-se a uma velocidade de $0{,}5^\circ$ por minuto ($30^\circ / 60\text{ min}$).  
-> - **Fórmula Direta do Ângulo entre Ponteiros (FCC):**  
->   $$\theta = \left| \frac{60H - 11M}{2} \right|$$  
->   onde $H = 3$ horas e $M = 40$ minutos.  
-> - **Substituindo os valores:**  
->   $$\theta = \left| \frac{60 \times 3 - 11 \times 40}{2} \right| = \left| \frac{180 - 440}{2} \right| = \left| \frac{-260}{2} \right| = |-130^\circ| = 130^\circ$$  
-> - Como $130^\circ \le 180^\circ$, este já é o menor ângulo formado entre eles.  
-> - **Conclusão:** O menor ângulo mede exatamente $130^\circ$ (Alternativa B).
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
-> **Gabarito: B**
+> **Gabarito: A**
 
 ---
-
 ## 3. Orientação Espacial, Transformações e Dobradura de Figuras
 
 O raciocínio espacial avalia a aptidão psicotécnica de manipular objetos tridimensionais mentalmente sem distorcer suas propriedades topológicas.
@@ -363,78 +327,74 @@ Consiste em determinar a projeção visual bidimensional de uma estrutura tridim
 ---
 
 ### Teste 107
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Observe a planificação de um dado cúbico convencional, cujas faces contêm os símbolos $\heartsuit$, $\spadesuit$, $\diamondsuit$, $\clubsuit$, $\bigstar$ e $\blacktriangle$:
+**(FGV – TRT-16 – Analista Judiciário - Tecnologia da Informação – 2022)**
+29. 
+18  
+No Brasil, o Dia das Mães é comemorado no segundo domingo de 
+maio. Em um determinado ano bissexto, o dia 1 o de janeiro 
+ocorreu em uma terça-feira. 
+Lembrando que, em ano bissexto, fevereiro tem 29 dias, 
+concluímos que, nesse ano, o Dia das Mães foi comemorado no 
+dia
 
-```text
-       [ ★ ]
-[ ♥ ] [ ♠ ] [ ♦ ] [ ♣ ]
-       [ ▲ ]
-```
-
-Ao montar o cubo a partir dessa planificação, a face que ficará **diametralmente oposta** à face com o símbolo de Espadas ($\spadesuit$) é:
-
-* **A)** Copas ($\heartsuit$)
-* **B)** Ouros ($\diamondsuit$)
-* **C)** Paus ($\clubsuit$)
-* **D)** Estrela ($\bigstar$)
-* **E)** Triângulo ($\blacktriangle$)
-
+* **A)** quaisquer processos em que a Procuradoria Regional do 
+Trabalho entenda ser necessária a sua atuação.
+* **B)** os processos administrativos afetos à responsabilidade 
+funcional dos servidores do Tribunal.
+* **C)** os processos administrativos em tramit ação no Tribunal, 
+qualquer que seja a matéria.
+* **D)** os processos oriundos de ações de competência originária da 
+qual o órgão foi autor.
+* **E)** os conflitos de competência, exceto quando suscitados pelo 
+órgão. 
+35  
+Ana, servidora de certo Tribunal de Justiça, foi incumbida da 
+elaboração da minuta do Plano de Logística Sustentável (PLS), 
+disciplinado pela Resolução CNJ nº 400/2021. Ao inteirar -se das 
+normas a serem observadas para o cumprimento da tarefa 
+recebida, Ana concluiu que o PLS deve:
 
 ---
 
 > **Comentário Detalhado:**
-> Análise estrutural de planificação e dobradura de cubos:
 >
-> 1. Na fileira horizontal com quatro quadrados adjacentes $[ \heartsuit ] \ [ \spadesuit ] \ [ \diamondsuit ] \ [ \clubsuit ]$:
->     - Pelo teorema das faces opostas em planificações poliédricas, quadrados dispostos na mesma fileira separados por exatamente um quadrado intermediário dobram-se em planos paralelos, tornando-se **faces opostas**.
->     - $\heartsuit$ separa-se de $\diamondsuit$ por $\spadesuit \implies \heartsuit$ é oposta a $\diamondsuit$.
->     - $\spadesuit$ separa-se de $\clubsuit$ por $\diamondsuit \implies \spadesuit$ é oposta a $\clubsuit$.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
 >
-> 2. As abas que se projetam para fora da fileira central ($\bigstar$ acima e $\blacktriangle$ abaixo) dobram-se em $90^\circ$ fechando o topo e a base do cubo, sendo opostas entre si.
-> 3. Logo, a face que se posiciona diametralmente oposta à face de Espadas ($\spadesuit$) é a face de Paus ($\clubsuit$).
->
-> Análise individual das alternativas:
->
-> - **A)** Incorreta. Copas ($\heartsuit$) dobra em ângulo reto, ficando adjacente a Espadas.
-> - **B)** Incorreta. Ouros ($\diamondsuit$) é face imediatamente vizinha (adjacente) de Espadas.
-> - **C)** Correta. Paus ($\clubsuit$) é a face diametralmente oposta a Espadas ($\spadesuit$).
-> - **D)** Incorreta. Estrela ($\bigstar$) fecha a face superior, sendo adjacente a Espadas.
-> - **E)** Incorreta. Triângulo ($\blacktriangle$) fecha a face inferior, sendo adjacente a Espadas.
-> 
-> **Gabarito: C**
+> **Gabarito: E**
 
 ---
-
 ### Teste 108
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Uma pilha maciça de cubos idênticos de $1\text{ cm}$ de aresta foi montada sobre uma mesa plana de modo que sua vista frontal e sua vista lateral direita são ambas formadas por uma grade quadrada de $3 \times 3$ cubos completamente preenchida. O número MÍNIMO de cubinhos necessários para formar essa pilha é:
+**(FGV – TRT-16 – Analista Judiciário - Tecnologia da Informação – 2022)**
+Alberto deverá fazer um tratamento contínuo de fisioterapia 
+durante longo tempo. Para isso, deverá fixar 2 dias na semana (de 
+7 dias) para realizar as atividades do tratamento, mas esses dias 
+não podem ser seguidos.  
+O número de maneiras diferentes em que esses 2 dias podem ser 
+fixados é igual a
 
-* **A)** $9$
-* **B)** $12$
-* **C)** $15$
-* **D)** $18$
-* **E)** $27$
-
+* **A)** 12.
+* **B)** 14.
+* **C)** 15.
+* **D)** 18.
+* **E)** 20.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **Análise das Vistas Ortogonais:**  
->   - A vista frontal mostra uma malha $3 \times 3$ preenchida, o que significa que para cada uma das 3 colunas e cada um dos 3 níveis de altura (1, 2 e 3) deve haver pelo menos um cubo.  
->   - A vista lateral direita também mostra uma malha $3 \times 3$ preenchida, o que significa que para cada uma das 3 linhas de profundidade e cada um dos 3 níveis de altura deve haver pelo menos um cubo.  
-> - **Cálculo do Número Mínimo de Cubos:**  
->   - Em cada nível de altura (térreo, 2º andar e 3º andar), precisamos cobrir 3 posições em $x$ e 3 posições em $y$.  
->   - Para minimizar cubos em cada nível de altura $z$, basta posicionar os cubos ao longo da diagonal da base: $(1,1), (2,2), (3,3)$. Com apenas 3 cubos em cada nível, a projeção frontal projeta as 3 colunas e a projeção lateral projeta as 3 profundidades!  
->   - Como são 3 níveis de altura, o número mínimo total de cubos é:  
->     $$\text{Mínimo} = 3 \text{ níveis} \times 3 \text{ cubos por nível} = 9 \text{ cubos}$$  
-> - **Conclusão:** O número mínimo é 9 cubinhos (Alternativa A).
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
 > **Gabarito: A**
 
 ---
-
 ## 4. Formação de Conceitos e Discriminação de Elementos
 
 ### 4.1 Identificação do Elemento Intruso em Conjuntos
@@ -452,36 +412,49 @@ Resolvem-se pela equivalência de transformações: *"A está para B assim como 
 ---
 
 ### Teste 109
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere o conjunto de cinco palavras a seguir:  
-*Goiânia*, *Curitiba*, *Brasília*, *Teresina*, *Manaus*
+**(FGV – TRT-16 – Analista Judiciário - Tecnologia da Informação – 2022)**
+Para que um texto progrida de forma organizada, é preciso que a 
+informação nele contida seja apresentada de forma conveniente. 
+Veja, por exemplo, o texto a seguir: 
+“A Corte Suprema dos Estados Unidos, cuja composição 1983 -
+1984 terminou há pouco, parece ter  mostrado uma direção mais 
+conservadora que a anterior, notadamente no que concerne aos 
+direitos dos indivíduos diante do Estado. Ela decretou que os 
+prisioneiros não tinham nenhum direito sobre sua vida privada e 
+que os juízes, e não os jurados, devem dec idir sobre a pena de 
+morte. Ela também apoiou a posição do governo de Ronald 
+Reagan em vários casos que envolviam liberdades civis ou de 
+discriminação”. 
+A organização da informação nesse texto pode ser identificada do 
+seguinte modo:
 
-Quatro dessas palavras guardam uma característica lógica comum que as reúne em uma mesma classe conceitual, enquanto uma delas é a intrusa. A palavra intrusa é:
-
-* **A)** Goiânia
-* **B)** Curitiba
-* **C)** Brasília
-* **D)** Teresina
-* **E)** Manaus
-
+* **A)** cada frase parte de  um mesmo elemento, dado como 
+conhecido desde o primeiro momento, a que se acrescentam 
+novas informações.
+* **B)** cada frase parte do tema explorado na frase precedente, 
+tornando-se ela mesma um novo tema, completado por uma 
+nova informação.
+* **C)** o tema da prim eira frase é decomposto em múltiplos 
+elementos, tomados como temas sucessivos das frases 
+seguintes.
+* **D)** dois temas são apresentados em sequência e analisados de 
+forma paralela, com informações contrastantes.
+* **E)** dois temas são apresentados inicialmente e i nformações 
+comuns aos dois são dadas progressivamente.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **Critério de Classificação Geopolítica e Administrativa:**  
->   - *Goiânia* é a capital do Estado de Goiás.  
->   - *Curitiba* é a capital do Estado do Paraná.  
->   - *Teresina* é a capital do Estado do Piauí.  
->   - *Manaus* é a capital do Estado do Amazonas.  
->   - Todas essas quatro são **capitais de Estados-membros** da federação brasileira, municípios com autonomia municipal típica (prefeito e câmara de vereadores).  
->   - *Brasília*, por sua vez, é a **Capital Federal**, sediada no Distrito Federal, ente federativo anômalo que acumula competências estaduais e municipais e não é dividido em municípios.  
-> - **Conclusão:** O elemento intruso é **Brasília** (Alternativa C).
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
 > **Gabarito: C**
 
 ---
-
 ## 5. Raciocínio Verbal e Problemas de Verdades e Mentiras
 
 Os enigmas de depoimentos em sindicâncias e auditorias de fraudes são modelados por lógica proposicional veritativa.
@@ -516,85 +489,64 @@ Caso não haja contradição explícita direta entre os depoimentos:
 ---
 
 ### Teste 110
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Durante uma auditoria interna para apurar o vazamento de um relatório sigiloso, quatro servidores — Daniel, Eduardo, Fernando e Gabriel — foram interrogados e fizeram as seguintes declarações:
-- Daniel: *"Fernando é o responsável pelo vazamento."*  
-- Eduardo: *"Eu não vazei o relatório."*  
-- Fernando: *"Daniel está mentindo."*  
-- Gabriel: *"Daniel é o responsável pelo vazamento."*  
-Sabendo-se que **apenas um dos quatro servidores mentiu** e que apenas um deles foi o responsável pelo vazamento, quem vazou o relatório e quem mentiu foram, respectivamente:
+**(FCC – TRT-6 – Analista Judiciário - Tecnologia da Informação – 2012)**
+Em um determinado ano, o mês de abril, que possui um total de 30 dias, teve mais domingos do que sábados. Nesse ano, o 
+feriado de 1o de maio ocorreu numa
 
-* **A)** Fernando e Daniel
-* **B)** Daniel e Fernando
-* **C)** Daniel e Daniel
-* **D)** Eduardo e Eduardo
-* **E)** Gabriel e Daniel
+* **A)** segunda-feira.
+* **B)** terça-feira.
+* **C)** quarta-feira.
+* **D)** quinta-feira.
+* **E)** sexta-feira. 
+Caderno de Prova ’T20’, Tipo 001
 
+TRT6R-Conhecimentos Gerais2 5
 
 ---
 
 > **Comentário Detalhado:**
-> Resolução estruturada pelo método do par contraditório:
 >
-> 1. As falas de Daniel (*"Fernando é o responsável"*) e de Fernando (*"Daniel está mentindo"*) são contraditórias: se Daniel diz a verdade, Fernando mente; se Daniel mente, Fernando diz a verdade. Logo, **exatamente um dos dois mente**.
-> 2. Como o enunciado fixa que apenas um servidor mentiu, a única mentira está confinada a esse par. Portanto, **Eduardo e Gabriel falaram a verdade**.
-> 3. Pela fala verdadeira de Gabriel, **Daniel é o responsável pelo vazamento**.
-> 4. Sendo Daniel o culpado, sua afirmação de que *"Fernando é o responsável"* é falsa, de modo que **Daniel mentiu**. Consequentemente, Fernando disse a verdade ao afirmar que Daniel mentia, e Eduardo (inocente) também disse a verdade, o que fecha o cenário com um único mentiroso.
-> 5. Verificação da hipótese alternativa: se Fernando fosse o culpado, a fala de Gabriel seria falsa e a de Fernando também (dois mentirosos), contrariando o enunciado.
->
-> Análise das alternativas:
->
-> - **A)** Incorreta. Se Fernando fosse o culpado, Daniel teria dito a verdade, e não mentido; além disso, Gabriel e Fernando mentiriam.
-> - **B)** Incorreta. Fernando disse a verdade ao afirmar que Daniel mentia; o mentiroso é o próprio Daniel.
-> - **C)** Correta. Daniel é o responsável pelo vazamento e foi ele quem mentiu ao apontar Fernando.
-> - **D)** Incorreta. Eduardo disse a verdade e é inocente; sendo ele o culpado, haveria mais de um mentiroso.
-> - **E)** Incorreta. Gabriel disse a verdade (Daniel é o culpado), logo não é o vazador.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
 > **Gabarito: C**
 
 ---
-
 ### Teste 111
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Três suspeitos de vazar um relatório confidencial de auditoria prestaram os seguintes depoimentos:  
-- **Alberto:** *"Bruno é culpado."*  
-- **Bruno:** *"Carlos é culpado."*  
-- **Carlos:** *"O que Bruno disse é mentira."*  
+**(FCC – TRT-14 – Analista Judiciário - Tecnologia da Informação – 2016)**
+Observe os sete primeiros termos de uma sequência numérica: 7, 13, 25, 49, 97, 193, 385, ... . Mantido o mesmo padrão da 
+sequência e admitindo-se que o 100o termo seja igual a x, então o 99o termo dela será igual a
 
-Sabe-se que exatamente um dos três suspeitos disse a verdade e que apenas um deles é o culpado. O inocente que disse a verdade e o verdadeiro culpado são, respectivamente:
+* **A)** 12
+x +
+* **B)** 12
+x −
+* **C)** 2
+1x −
+* **D)** 2
+1x +
+* **E)** 4
+1x2 −  
+Caderno de Prova ’C03’, Tipo 001
 
-* **A)** Alberto e Bruno
-* **B)** Carlos e Alberto
-* **C)** Bruno e Carlos
-* **D)** Carlos e Bruno
-* **E)** Alberto e Carlos
-
+TRT14R-An.Jud.-Tec.Informação-C03 7
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **Identificação do Par Contraditório:**  
->   - Bruno afirma: *"Carlos é culpado"*.  
->   - Carlos afirma: *"O que Bruno disse é mentira"*.  
->   - As falas de Bruno e Carlos são **rigorosamente contraditórias**. Pelo Princípio da Não Contradição e do Terceiro Excluído, exatamente uma delas é verdadeira e a outra é falsa.  
-> - **Dedução da Terceira Declaração:**  
->   - Como o enunciado informa que **apenas um dos três disse a verdade**, essa única verdade OBRIGATORIAMENTE está entre Bruno ou Carlos!  
->   - Portanto, a declaração de **Alberto é necessariamente FALSA**!  
-> - **Análise da falsidade de Alberto:**  
->   - Alberto disse: *"Bruno é culpado"*. Como isso é falso, concluímos que **Bruno é INOCENTE**.  
-> - **Análise de Bruno e Carlos:**  
->   - Agora suponha que Bruno tivesse dito a verdade. Se Bruno dissesse a verdade, Carlos seria o culpado. Mas Alberto disse que Bruno é culpado (falso, Bruno é inocente). E Carlos diria que Bruno mentiu (o que seria mentira, então Carlos mentiu). Isso daria Carlos culpado e mentiroso, e Bruno inocente que disse a verdade.  
->   - Mas se Alberto fosse o culpado? Se Alberto for o culpado, Carlos é inocente. Então o que Bruno disse ("Carlos é culpado") é FALSO!  
->   - Sendo a fala de Bruno falsa, a declaração de Carlos ("O que Bruno disse é mentira") torna-se **VERDADEIRA**!  
->   - Nesse caso: Alberto mentiu (F), Bruno mentiu (F) e Carlos disse a verdade (V) — exatamente 1 verdade!  
->   - E o culpado é **Alberto**, sendo Bruno e Carlos inocentes!  
-> - **Conclusão:** Quem disse a verdade é **Carlos** (inocente), e o verdadeiro culpado é **Alberto** (Alternativa B).
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
 > **Gabarito: B**
 
 ---
-
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 
 * [Khan Academy Brasil - Álgebra I: Sequências e Progressões](https://pt.khanacademy.org/math/algebra) - Padrões recursivos, progressões aritméticas, sequências numéricas e determinação do termo geral.

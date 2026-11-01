@@ -163,109 +163,118 @@ O **GitLab Flow** une a simplicidade do GitHub Flow à necessidade corporativa d
 ---
 
 ### Teste 182
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No modelo de desenvolvimento e controle de versões conhecido como **Git Flow**, concebido por Vincent Driessen, há ramos com tempos de vida diferentes que atendem a papéis bem definidos no ciclo de lançamento de um software. Considere uma situação em que uma falha de segurança gravíssima é detectada na versão que se encontra atualmente em execução no ambiente de produção de uma Secretaria Estadual.
+**(FGV – TJ-AP – Analista Judiciário - Tecnologia da Informação – 2023)**
+Uma rede de dados é composta por 1 servidor e 10 máquinas 
+clientes conectadas por meio de um comutador (switch) de rede. 
+Todas as interfaces do comutador e dos dispositivos de rede 
+possuem capacidade de transmissão e recepção de até 1 Gbps. 
+Esse servidor pode transmitir arquivos, por meio de uma 
+aplicação, para as máquinas clientes por p rotocolos do tipo 
+Unicast ou Multicast, bastando, para isso, ajustar a configuração 
+entre o servidor e as máquinas clientes que irão receber os 
+arquivos. 
+Para o envio de um arquivo específico por essa aplicação é 
+necessária a transmissão de 10 GB de dados pelo servidor. 
+Os tempos mínimos necessários para a completa transmissão 
+deste arquivo para as 10 máquinas clientes, quando utilizados os 
+protocolos Unicast e Multicast, são, respectivamente:
 
-De acordo com as convenções formais do Git Flow, a equipe de sustentação deve:  
-
-* **A)** Criar um branch de `hotfix` derivado da branch `develop`, implementar a correção, testar e realizar o merge exclusivamente na branch `feature`, descartando o branch `main`.
-* **B)** Criar um branch de `hotfix` derivado diretamente da branch `main`, implementar a correção necessária e, após os testes, realizar o merge dessa correção tanto na branch `main` quanto na branch `develop`.
-* **C)** Criar um branch temporário de `release` derivado de `main` e, após a aplicação do patch, fundi-lo apenas na branch `release` anterior sem interagir com `main`.
-* **D)** Aplicar a alteração diretamente no servidor de produção via terminal SSH, uma vez que o Git Flow proíbe a criação de ramos emergenciais quando a branch `main` já possui uma tag vinculada.
-* **E)** Criar um branch de `feature` a partir de `develop`, aguardar a janela de homologação semestral e realizar o merge apenas em `develop`, mantendo o ambiente de produção com a vulnerabilidade ativa até o próximo grande lançamento.
-
+* **A)** 10 segundos e 100 segundos;
+* **B)** 80 segundos e 800 segundos;
+* **C)** 100 segundos e 10 segundos;
+* **D)** 100 segundos e 100 segundos;
+* **E)** 800 segundos e 80 segundos.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O branch de `hotfix` deriva de `main` (onde está o bug de produção) e não de `develop`. Fazer merge apenas em `feature` não corrigiria a produção.
-> - **B)** Correta. De acordo com as especificações canônicas do Git Flow, o branch de `hotfix` deriva diretamente da branch `main` (para corrigir o estado exato de produção). Concluída a correção e os testes, o merge deve ser efetuado **na branch `main`** (gerando nova tag semântica) **E compulsoriamente na branch `develop`**, assegurando que os novos desenvolvimentos não reintroduzam a vulnerabilidade no próximo ciclo de release.
-> - **C)** Incorreta. Branches de `release` nascem de `develop` para congelar o escopo de novas funcionalidades planejadas, e não para correções emergenciais.
-> - **D)** Incorreta. Fazer alterações diretas em servidores sem controle de versão viola os princípios mais basilares de governança de TI. O Git Flow suporta correções emergenciais via ramo de hotfix.
-> - **E)** Incorreta. Incidentes críticos de segurança em produção não podem aguardar o fluxo moroso de branches de `feature`, cuja finalidade é construir novas funcionalidades.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: D**
 
 ---
-
 ### Teste 183
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em uma instituição que busca atingir os mais altos níveis de desempenho avaliados pelas métricas DORA (*Deployment Frequency* de múltiplos deploys diários e *Lead Time for Changes* inferior a 1 hora), a equipe de arquitetura decidiu migrar do modelo Git Flow para o **Trunk-Based Development (TBD)**.
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+Rede 
+(   ) Hub 
+(   ) Roteador 
+(   ) Switch 
+(   ) Ponte 
+Assinale a opção que indica a relação correta na ordem 
+apresentada.
 
-A respeito do Trunk-Based Development e de seus habilitadores técnicos, assinale a afirmativa correta:  
-
-* **A)** O Trunk-Based Development exige a criação de ramos de desenvolvimento que fiquem isolados por pelo menos trinta dias, assegurando que o código nunca seja compartilhado antes de passar por uma auditoria manual externa.
-* **B)** No Trunk-Based Development, para permitir que desenvolvedores integrem código ao ramo principal com alta frequência sem disponibilizar funcionalidades incompletas aos usuários finais em produção, utiliza-se a técnica de *Feature Flags* (ou *Feature Toggles*).
-* **C)** O modelo Trunk-Based Development proíbe a execução de testes automatizados no pipeline de Integração Contínua para não desacelerar os merges diários no ramo principal.
-* **D)** No Trunk-Based Development, é mandatório manter duas branches permanentes em paralelo: uma denominada `trunk` e outra denominada `develop`, ambas recebendo commits ao mesmo tempo.
-* **E)** A prática de *Branch by Abstraction* consiste em abrir uma branch no repositório remoto para cada desenvolvedor individual, a qual nunca sofrerá merge com o trunk até o fim do projeto.
-
+* **A)** 1 – 3 – 2 – 2
+* **B)** 1 – 2 – 2 – 3
+* **C)** 2 – 3 – 2 – 1
+* **D)** 2 – 2 – 3 – 1
+* **E)** 2 – 3 – 2 – 3
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O Trunk-Based Development preconiza o oposto: branches de curtíssima duração (*short-lived branches*, de algumas horas a 1 ou 2 dias) ou integração direta no trunk, eliminando branches isoladas de longa duração.
-> - **B)** Correta. O habilitador técnico crucial do TBD para viabilizar entregas diárias de histórias de usuário complexas é o uso de **Feature Flags / Feature Toggles**: o código em desenvolvimento é continuamente integrado no trunk e publicado em produção, mas protegido por uma chave lógica que o mantém inativo para os usuários finais até sua validação completa.
-> - **C)** Incorreta. O TBD depende criticamente da execução compulsória de testes automatizados e builds rápidos no CI a cada commit; sem eles, o trunk se tornaria instável com facilidade.
-> - **D)** Incorreta. No TBD há **apenas um ramo perene** (`trunk` ou `main`). A existência de um ramo `develop` permanente paralelo é característica do Git Flow.
-> - **E)** Incorreta. *Branch by Abstraction* não é um ramo no repositório Git, mas um padrão de design em código que introduz interfaces abstratas intermediárias para possibilitar refatorações graduais e seguras diretamente no trunk.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: D**
 
 ---
-
 ### Teste 184
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O modelo de ramificação *GitHub Flow* destaca-se por sua simplicidade e alinhamento estreito com práticas de Implantação Contínua. Diferentemente do complexo modelo *Git Flow*, a premissa central de governança do *GitHub Flow* estabelece que:
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+Assinale a frase que apresenta um modo de organização discursiva 
+diferente do injuntivo.
 
-* **A)** Devem existir permanentemente cinco branches perenes no repositório com releases a cada dois anos.
-* **B)** Há apenas uma branch de vida longa (`main` ou `master`), a qual deve estar permanentemente em estado de produção (testada e estável); novas funcionalidades são criadas a partir dela em branches descritivas de curta duração, integradas rapidamente via *Pull Request* e implantadas imediatamente em produção.
-* **C)** Desenvolvedores são expressamente proibidos de abrir *Pull Requests* para revisão por pares.
-* **D)** O código da branch principal nunca pode ser enviado para servidores de produção.
-* **E)** As mesclagens devem ser realizadas exclusivamente por comando de voz do diretor de TI.
-
+* **A)** Viva como se tivesse que morrer como mártir hoje.
+* **B)** Viva rápido, morra jovem e seja um cadáver bonito.
+* **C)** Quem não fica velho, morre moço.
+* **D)** Não desejar a mulher do próximo!
+* **E)** Renove sua vida, dizem os velhos mitos, e o universo será seu
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** O *Git Flow* possui múltiplas branches perenes (`main`, `develop`); o *GitHub Flow* foca em extrema simplicidade.
-> - **B) Correta.** O *GitHub Flow* apoia-se em 6 regras canônicas: 1) qualquer coisa na branch `main` está pronta para deploy; 2) para trabalhar em algo novo, crie uma branch com nome descritivo a partir da `main`; 3) faça commits nessa branch local e remota; 4) abra um Pull Request para feedback; 5) revise e aprove; 6) faça merge na `main` e implante imediatamente em produção.
-> - **C) Incorreta.** O Pull Request é o coração colaborativo do GitHub Flow.
-> - **D) Incorreta.** A branch `main` é a própria base de produção.
-> - **E) Incorreta.** Afirmação cômica e absurda.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
-
 ### Teste 185
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em relação aos modelos de ramificação simplificados com foco em ambientes de computação em nuvem, assinale a afirmativa correta sobre o **GitHub Flow** e o **GitLab Flow**:  
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+Assinale a frase que apresenta um modo de organização discursiva 
+diferente do injuntivo.
 
-* **A)** No GitHub Flow, o código deve ser obrigatoriamente submetido a aprovação de pelo menos quatro ramos intermediários (`develop`, `homolog`, `staging` e `canary`) antes que qualquer branch de tarefa possa ser criada.
-* **B)** O GitLab Flow com branches de ambiente (*Environment Branches*) propõe que alterações fluam sequencialmente entre ramos representativos de infraestrutura (por exemplo, da branch `main` para `pre-production`, e desta para `production`), mantendo a rastreabilidade do que está implantado em cada estágio.
-* **C)** No GitHub Flow, o branch `main` nunca reflete o código de produção, servindo apenas para testes de protótipos que são descartados semanalmente.
-* **D)** No GitLab Flow, é proibido o uso de *Merge Requests*, sendo a sincronização entre branches realizada exclusivamente por comandos de upload via FTP.
-* **E)** Tanto o GitHub Flow quanto o GitLab Flow rejeitam completamente o uso do sistema Git, exigindo ferramentas baseadas em controle de versão centralizado (SVN).
-
+* **A)** Viva como se tivesse que morrer como mártir hoje.
+* **B)** Viva rápido, morra jovem e seja um cadáver bonito.
+* **C)** Quem não fica velho, morre moço.
+* **D)** Não desejar a mulher do próximo!
+* **E)** Renove sua vida, dizem os velhos mitos, e o universo será seu
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O GitHub Flow é caracterizado pela ausência de ramos intermediários perenes, utilizando apenas a branch `main` e branches temporárias curtas.
-> - **B)** Correta. O GitLab Flow com *branches de ambiente* introduz ramos alinhados aos estágios da infraestrutura (como `main`, `pre-production` e `production`). O merge entre branches promove o deploy automático nos respectivos ambientes, proporcionando rastreabilidade rigorosa sobre quais versões estão ativas em cada camada.
-> - **C)** Incorreta. No GitHub Flow, o postulado fundamental é: *"Anything in the main branch is deployable"* (tudo no branch main deve estar pronto para produção).
-> - **D)** Incorreta. O GitLab Flow é estruturado prioritariamente em torno do uso de *Merge Requests* (MRs) com revisões por pares e pipelines integrados.
-> - **E)** Incorreta. Ambos foram criados especificamente para tirar proveito da arquitetura distribuída do Git.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: C**
 
 ---
-
 ## 2. Estratégias de Integração e Mesclagem (Merge Commit, Squash e Rebase)
 
 Ao aprovar uma *Pull Request* (no GitHub) ou *Merge Request* (no GitLab), as plataformas oferecem três estratégias fundamentais para integrar os commits da branch de trabalho ao ramo de destino:
@@ -307,82 +316,82 @@ flowchart TD
 ---
 
 ### Teste 186
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No Git, ao integrar duas ramificações cuja branch de destino não sofreu alterações desde o ponto de bifurcação, o comportamento padrão é a execução de um *Fast-Forward* (avanço rápido do ponteiro). Entretanto, quando o desenvolvedor utiliza explicitamente o comando `git merge --no-ff`, o efeito técnico resultante é:
+**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**
+Entre as formas de acondicionamento inadequado do 
+material bibliográfico que podem colaborar para a degra-
+dação dos documentos está:
 
-* **A)** A destruição de todos os arquivos modificados na branch de origem.
-* **B)** A criação forçada de um commit de mescla (*merge commit*) com múltiplos pais, preservando formalmente no histórico gráfico a evidência histórica de que aqueles commits pertenceram a uma branch de desenvolvimento independente.
-* **C)** A conversão do repositório Git local em um repositório centralizado Apache Subversion (SVN). em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **D)** O rebaseamento automático de todos os commits diretamente na memória ROM da placa-mãe.
-* **E)** A execução de uma checagem de tipos estáticos sem criação de novos nós na árvore de commits.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A) Incorreta.** Não há perda de dados.
-> - **B) Correta.** A flag `--no-ff` (*no fast-forward*) força a criação de um nó explícito de *merge commit* mesmo quando o Git poderia simplesmente avançar o ponteiro. Essa prática é valiosa para governança corporativa, pois demarca claramente o ciclo de vida e fechamento de cada funcionalidade no grafo de commits.
-> - **C) Incorreta.** Não altera a natureza distribuída do Git.
-> - **D) Incorreta.** Totalmente descabida.
-> - **E) Incorreta.** A operação gera obrigatoriamente um novo commit no histórico.
->
-> **Gabarito: B**
-
----
-
-### Teste 187
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Durante a revisão de uma *Pull Request* no GitHub para integração de um microsserviço de arrecadação tributária, um desenvolvedor submeteu 12 commits intermediários contendo mensagens como `"wip"`, `"ajustando indentacao"`, `"corrigindo erro de digitacao"` e `"mais um teste"`. O líder técnico determinou que o merge fosse efetuado utilizando a estratégia **Squash and Merge**.
-
-O principal benefício técnico proporcionado pela estratégia de **Squash and Merge** nessa situação é:  
-
-* **A)** Clonar o repositório em uma máquina externa sem transferir as credenciais de segurança do Git.
-* **B)** Converter a branch em um contêiner Docker para execução automática antes da compilação.
-* **C)** Combinar todos os 12 commits fragmentados da branch secundária em um único commit coeso e descritivo na branch principal (`main`), mantendo o histórico de produção limpo e facilitando eventuais reversões (*git revert*).
-* **D)** Preservar todos os nós de commit individuais e gerar um commit com três nós pais obrigatórios no grafo do Git.
-* **E)** Reescrever os certificados digitais de commit do autor para mascarar a autoria de quem realizou a modificação no código.
-
+* **A)** utilizar cadarços ou barbantes largos para amarrar 
+volumes danificados.
+* **B)** encapar com plástico volumes de pouco uso.
+* **C)** manter os volumes em armários abertos e ventilados.
+* **D)** deixar jaquetas de poliéster ou material similar nos 
+livros.
+* **E)** acomodar livros volumosos grandes e pesados na 
+posição horizontal. 
+_________________________________________________________
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Squash and Merge é uma operação de mesclagem na árvore de commits do Git e não tem relação com clonagem em máquinas externas.
-> - **B)** Incorreta. A operação de merge lida com grafos de controle de versão, não convertendo branches em contêineres Docker.
-> - **C)** Correta. O **Squash and Merge** condensa (achata) todos os commits da branch de trabalho em um único commit atômico aplicado sobre o branch principal. Isso elimina ruídos de mensagens provisórias (*"wip"*, *"fix"*) e mantém a história do repositório linear, limpa e coesa. Se for necessário reverter a alteração no futuro, basta executar `git revert` sobre aquele commit único.
-> - **D)** Incorreta. A preservação de todos os commits intermediários e a criação de um nó de junção é papel do *Merge Commit* tradicional (`--no-ff`), que possui dois pais, e não três.
-> - **E)** Incorreta. O propósito do Squash não é alterar ou fraudar a identidade do autor das alterações.
-> 
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
 > **Gabarito: C**
 
 ---
+### Teste 187
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+Assinale a frase que apresenta um modo de organização discursiva 
+diferente do injuntivo.
 
-### Teste 188
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Em plataformas modernas de desenvolvimento colaborativo (como GitHub e GitLab), uma das opções de fechamento de Pull Requests é o *Rebase and Merge*. A principal consequência dessa estratégia na topologia do histórico da branch principal é:
-
-* **A)** A geração de múltiplos commits de mescla entrelaçados em formato de teia de aranha.
-* **B)** A geração de um histórico de commits estritamente linear e limpo.
-* **C)** A descompactação de todos os arquivos em um servidor FTP legado.
-* **D)** A impossibilidade de compilar o software após o merge.
-* **E)** O travamento permanente de todas as demais branches do projeto.
-
+* **A)** Viva como se tivesse que morrer como mártir hoje.
+* **B)** Viva rápido, morra jovem e seja um cadáver bonito.
+* **C)** Quem não fica velho, morre moço.
+* **D)** Não desejar a mulher do próximo!
+* **E)** Renove sua vida, dizem os velhos mitos, e o universo será seu
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Essa topologia desorganizada ocorre com múltiplos merges bidirecionais sem rebase.
-> - **B) Correta.** O *Rebase and Merge* reescreve os commits da branch individual sobre o topo da branch base (`main`), criando novos identificadores SHA-1/256 e produzindo uma linha do tempo perfeitamente linear e contínua, facilitando auditoria via `git log --oneline` e bissecção de bugs (`git bisect`).
-> - **C) Incorreta.** Não há conexão com FTP.
-> - **D) Incorreta.** A compilação opera normalmente.
-> - **E) Incorreta.** Não trava o repositório.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
-> **Gabarito: B**
+> **Gabarito: C**
+
+---
+### Teste 188
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+Assinale a frase que apresenta um modo de organização discursiva 
+diferente do injuntivo.
+
+* **A)** Viva como se tivesse que morrer como mártir hoje.
+* **B)** Viva rápido, morra jovem e seja um cadáver bonito.
+* **C)** Quem não fica velho, morre moço.
+* **D)** Não desejar a mulher do próximo!
+* **E)** Renove sua vida, dizem os velhos mitos, e o universo será seu
 
 ---
 
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: C**
+
+---
 ## 3. Governança, Regras de Proteção de Branches e `CODEOWNERS`
 
 Em instituições governamentais e órgãos de controle externo como o TCE-GO, os repositórios de código constituem ativos estratégicos sujeitos a rígidos requisitos de conformidade, trilhas de auditoria e segregação de funções.
@@ -430,90 +439,94 @@ O arquivo **`CODEOWNERS`** (alocado na raiz do repositório, dentro da pasta `.g
 ---
 
 ### Teste 189
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Para implementar controles rigorosos de segurança e conformidade em um repositório institucional hospedado no GitHub, a administração de TI de um Tribunal de Contas deseja assegurar que:
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+Assinale a frase que apresenta um modo de organização discursiva 
+diferente do injuntivo.
 
-1. Nenhum desenvolvedor consiga sobrescrever o histórico da branch `main` utilizando o comando `git push --force`.
-2. Todo código passe compulsoriamente por testes automatizados antes de ser mesclado.
-3. Quaisquer alterações em arquivos de configuração de banco de dados (`/database/`) exijam a aprovação explícita da equipe de DBAs.
-
-Para atingir esses três objetivos, a configuração necessária envolve, respectivamente:  
-
-* **A)** Desativar o pipeline de CI; habilitar a opção *Allow force pushes*; e criar um arquivo `.gitignore` listando a pasta `/database/`.
-* **B)** Ativar as regras de proteção de branch (*Branch Protection Rules*) bloqueando *force pushes*; configurar *Required status checks* vinculados ao job de testes do CI; e configurar o arquivo `CODEOWNERS` mapeando o caminho `/database/` para a equipe de DBAs com aprovação obrigatória.
-* **C)** Atribuir a todos os usuários o perfil de *Owner* do repositório; habilitar o acesso anônimo via HTTP; e apagar o histórico de commits anteriores da branch principal. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **D)** Configurar o GitLab Runner em modo compartilhado sem restrição de tags; habilitar a flag `fast-forward only`; e renomear os arquivos `.sql` para `.txt`.
-* **E)** Revogar o acesso de leitura de todos os membros da equipe e realizar commits manuais em produção utilizando um pendrive criptografado.
-
+* **A)** Viva como se tivesse que morrer como mártir hoje.
+* **B)** Viva rápido, morra jovem e seja um cadáver bonito.
+* **C)** Quem não fica velho, morre moço.
+* **D)** Não desejar a mulher do próximo!
+* **E)** Renove sua vida, dizem os velhos mitos, e o universo será seu
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Permitir *force pushes* violaria o requisito 1, e colocar a pasta no `.gitignore` impediria o seu versionamento.
-> - **B)** Correta. Os três recursos de governança do GitHub atendem perfeitamente aos requisitos institucionais:
->     1. *Branch Protection Rules* com bloqueio explícito de force pushes protege a rastreabilidade do histórico;
->     2. *Required Status Checks* bloqueia o botão de merge até que os pipelines automatizados de testes sejam aprovados;
->     3. O arquivo `CODEOWNERS` permite delegar compulsoriamente revisões bloqueantes a grupos específicos (`/database/ @time-dbas`).
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
-> - **C)** Incorreta. Atribuir privilégios de Owner a todos destrói qualquer política de governança e segregação de funções.
-> - **D)** Incorreta. Modificar extensões de arquivo ou alterar flags de fast-forward não provê controle de aprovação por papéis.
-> - **E)** Incorreta. O uso de mídias físicas manuais é contrário aos princípios fundamentais de DevOps e colaboração moderna.
-> 
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
-
 ### Teste 190
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No âmbito da governança de código e controle de acesso a repositórios de software corporativos, o arquivo especial `CODEOWNERS` (suportado por GitHub e GitLab) tem como função primordial:
+**(FCC – TRT-2 – Analista Judiciário - Tecnologia da Informação – 2014)**
+Definida como 
+instância definitiva da mais rasa subjeti-
+vidade
+, a questão de gosto 
+opõe-se
+, terminantemente,
 
-* **A)** Definir senhas de acesso aos servidores de banco de dados de produção.
-* **B)** Mapear padrões de arquivos e diretórios a pessoas ou equipes responsáveis (*owners*), associando-se a regras de proteção de branch para exigir a aprovação formal e obrigatória desses proprietários antes que Pull Requests que alterem esses caminhos específicos possam ser mesclados.
-* **C)** Listar os salários dos funcionários que contribuem com o código-fonte.
-* **D)** Proibir que desenvolvedores júnior leiam arquivos de teste.
-* **E)** Substituir o compilador Java por um compilador de código proprietário.
-
+* **A)** à atribuição de mérito à naturalidade de uma pri-
+meira impressão.
+* **B)** ao primado do capricho pessoal, ao qual tantas ve-
+zes se apela.
+* **C)** à dinâmica de argumentos criteriosos na condução 
+de uma polêmica.
+* **D)** ao subterfúgio de que nos valemos para evitar um 
+princípio de discussão.
+* **E)** ao princípio da recusa a qualquer fundamentação 
+racional numa discussão. 
+_________________________________________________________
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Segredos nunca devem ser colocados em arquivos de governança do repositório.
-> - **B) Correta.** O arquivo `CODEOWNERS` (posicionado na raiz, em `.github/` ou `.gitlab/`) permite atribuir a custódia técnica de caminhos sensíveis (ex: `/segurança/`, `*.tf`, `/core/`) a especialistas ou times específicos. Quando integrado a regras de branch protection (*Require review from Code Owners*), nenhum PR nessas pastas pode ser mesclado sem o aval formal desses custodiantes.
-> - **C) Incorreta.** Dado pessoal e corporativo alheio ao repositório.
-> - **D) Incorreta.** Não restringe leitura em repositórios abertos à equipe.
-> - **E) Incorreta.** Afirmação absurda.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
 >
-> **Gabarito: B**
+> **Gabarito: E**
 
 ---
-
 ### Teste 191
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-As duas plataformas de desenvolvimento colaborativo e DevOps mais adotadas na administração pública são o GitHub e o GitLab. A respeito da correspondência terminológica e conceitual entre ambas as plataformas, é correto afirmar:
+**(FGV – TRF-1 – Analista Judiciário - Tecnologia da Informação – 2024)**
+O analista Maicon deve configurar um novo runner, chamado 
+RunM, no GitLab CI/CD do TRF1. Os jobs executados no RunM 
+devem ser capazes de interagir de forma plena com um 
+dispositivo externo conectado fisicamente ao host do runner. O 
+escalonamento do RunM pe lo GitLab deve ser fixo, e não 
+automático. Maicon deve escolher o executor de runner do 
+GitLab que exige a menor quantidade de customização necessária 
+para a execução de RunM. 
+O executor de runner que Maicon deve escolher é:
 
-* **A)** A solicitação formal de revisão e mescla de código denomina-se *Pull Request* no GitHub e *Merge Request* no GitLab.
-* **B)** O GitLab não suporta integração contínua (CI/CD), exigindo a contratação de ferramentas externas proprietárias.
-* **C)** O GitHub proíbe a utilização de contêineres Docker em seus executores de pipeline (*Runners*).
-* **D)** *Issues* existem apenas no GitHub, não havendo mecanismo de acompanhamento de demandas e chamados no GitLab.
-* **E)** O GitLab exige que todo o código seja armazenado em fitas magnéticas analógicas.
-
+* **A)** shell;
+* **B)** docker;
+* **C)** parallels;
+* **D)** instance;
+* **E)** virtualbox.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Correta.** É o clássico mapeamento terminológico: o que o GitHub chama de **Pull Request (PR)**, o GitLab denomina formalmente **Merge Request (MR)**. Da mesma forma, os executores de pipeline são *GitHub Actions Runners* e *GitLab Runners*.
-> - **B) Incorreta.** O GitLab possui o *GitLab CI/CD* nativamente integrado ao repositório (via arquivo `.gitlab-ci.yml`).
-> - **C) Incorreta.** GitHub Actions executa contêineres Docker tanto em steps quanto como ambiente de execução dos jobs.
-> - **D) Incorreta.** Ambas as plataformas possuem módulos robustos de gestão de *Issues* e quadros Kanban.
-> - **E) Incorreta.** Afirmação sem lógica técnica.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
 >
-> **Gabarito: A**
+> **Gabarito: E**
 
 ---
-
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 
 * [Trunk Based Development Official Guide](https://trunkbaseddevelopment.com/5-min-overview/) - Práticas de desenvolvimento linear focado na branch principal, releases a partir do trunk e feature flags.

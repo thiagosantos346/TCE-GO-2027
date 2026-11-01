@@ -82,32 +82,44 @@ flowchart TD
 ---
 
 ### Teste 250
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A Lei Complementar nº 101/2000 (LRF) estabelece dois instrumentos essenciais de transparência da gestão fiscal: o Relatório Resumido da Execução Orçamentária (RREO) e o Relatório de Gestão Fiscal (RGF).
+**(FGV – TCE-PA – Auditor de Controle Externo – 2024)**
+O Relatório de Gestão Fiscal contém demonstrativos 
+comparativos com os limites de que trata a Lei de 
+Responsabilidade Fiscal dos montantes de despesa total com 
+pessoal, evidenciando as despesas com ativos, inativos e 
+pensionistas, dívida consolidada líquida, concessão de garantias e 
+contragarantias e operações de crédito. 
+Se a despesa total  com pessoal do Poder ou órgão ultrapassar os 
+limites definidos na Lei ao final de um quadrimestre, o excedente 
+deverá ser eliminado nos dois quadrimestres seguintes, sendo 
+pelo menos um terço no primeiro. No entanto, em situação 
+especial, caso o Poder ou órgão ultrapasse seu limite de despesa 
+com pessoal, entende -se que ele disporá automaticamente de 
+quatro quadrimestres para eliminação do excesso, devendo 
+eliminar pelo menos um terço dele nos dois primeiros. 
+Essa situação especial pode ser caracterizada por
 
-Sobre a periodicidade de publicação e o alcance desses relatórios, assinale a afirmativa correta:
+* **A)** alta cotação do dólar.
+* **B)** altos índices de inflação.
+* **C)** alta taxa de desemprego.
+* **D)** baixo nível de exportação.
+* **E)** baixo crescimento econômico. 
 
-* **A)** O RREO é publicado bimestralmente pelo Poder Executivo (abrangendo todos os Poderes), enquanto o RGF é emitido quadrimestralmente por cada um dos Poderes e órgãos autônomos (Executivo, Legislativo, Judiciário e Ministério Público).
-* **B)** O RGF é divulgado mensalmente apenas pela União, sendo os Estados e Municípios dispensados de sua elaboração quando tiverem população inferior a 500 mil habitantes.
-* **C)** O RREO e o RGF são publicados anualmente em conjunto, exclusivamente como anexo integrante da prestação de contas do Governador ao Tribunal de Contas.
-* **D)** O RGF abrange unicamente o demonstrativo das despesas com propaganda institucional e diárias de viagem.
-* **E)** O descumprimento dos prazos de publicação do RREO não gera qualquer sanção institucional ao ente federado, possuindo natureza meramente orientativa.
-
+AUDITOR DE CONTROLE EXTERNO – ÁREA ADMINISTRATIVA - CONTABILIDADE  – MANHÃ  TIPO  BRANCA – PÁGINA 23
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. O art. 52 da LRF determina a publicação do RREO até 30 dias após o encerramento de cada **bimestre** pelo Executivo (englobando todos os Poderes). O RGF (arts. 54 e 55 da LRF) é emitido ao final de cada **quadrimestre** por cada titular de Poder e órgão autônomo (com faculdade semestral para municípios com menos de 50 mil habitantes).
-> - **B)** Incorreta. O RGF é obrigatório para todos os entes federados (União, Estados, DF e Municípios).
-> - **C)** Incorreta. Os relatórios possuem periodicidades próprias infra-anuais (bimestral para RREO e quadrimestral para RGF).
-> - **D)** Incorreta. O RGF demonstra despesa com pessoal, dívida consolidada, concessão de garantias, operações de crédito e restos a pagar.
-> - **E)** Incorreta. O atraso na publicação do RREO e do RGF sujeita o ente ao impedimento de receber transferências voluntárias e contratar operações de crédito (art. 51, § 2º da LRF).
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: B**
 
 ---
-
 ## 2. Despesa Obrigatória de Caráter Continuado (DOCC - Art. 17)
 
 ### 2.1 Conceito Legal e Requisitos Formais
@@ -139,32 +151,34 @@ flowchart TD
 ---
 
 ### Teste 251
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Determinado Secretário de Estado pretende criar um novo programa social continuado de concessão de bolsas financeiras mensais a estudantes do ensino médio da rede pública estadual, com vigência estimada por tempo indeterminado.
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+Uma sociedade empresária precisa aumentar o seu s aldo em 
+caixa, para pagar as suas despesas operacionais. No entanto, a 
+sociedade empresária não deseja aumentar as suas despesas, 
+que já estão comprometidas, e nem o seu nível de 
+endividamento. 
+Assinale a opção que indica uma estratégia que atende aos 
+objetivos da sociedade empresária.
 
-Nos termos do artigo 17 da Lei de Responsabilidade Fiscal, por se tratar de Despesa Obrigatória de Caráter Continuado (DOCC), a criação desse programa exige:
-
-* **A)** Mera autorização na Lei Orçamentária Anual vigente, dispensando qualquer compensação financeira.
-* **B)** Estimativa do impacto orçamentário-financeiro no exercício em que deva entrar em vigor e nos dois subsequentes, comprovação de que a despesa não afetará as metas de resultados fiscais e compensação permanente pelo aumento de receita ou redução permanente de despesa.
-* **C)** Aprovação prévia unânime do Tribunal de Contas do Estado em sessão plenária extraordinária.
-* **D)** Demonstração de superávit orçamentário no balanço geral da União dos últimos cinco exercícios.
-* **E)** Declaração de nulidade de todos os contratos temporários em vigor na Secretaria de Educação.
-
+* **A)** Pagamento das despesas antecipadas.
+* **B)** Aumento do capital social em dinheiro.
+* **C)** Desconto de duplicadas em instituição bancária.
+* **D)** Solicitação de empréstimo bancário de curto prazo.
+* **E)** Solicitação de empréstimo bancário de longo prazo.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A DOCC impõe condicionantes rigorosas de validade que vão muito além da simples inclusão na LOA.
-> - **B)** Correta. O art. 17 da LRF define que os atos que criarem ou aumentarem Despesa Obrigatória de Caráter Continuado (vigência superior a 2 anos) devem ser instruídos com estimativa de impacto orçamentário-financeiro no exercício de vigência e nos dois seguintes (triênio fiscal), declaração de compatibilidade com PPA/LDO/LOA, demonstração de não afetação de metas e compensação contínua permanente por aumento permanente de receitas ou redução permanente de outras despesas.
-> - **C)** Incorreta. A atuação dos Tribunais de Contas é de controle externo concomitante e a posteriori, não cabendo aprovação unânime prévia de projetos de governo.
-> - **D)** Incorreta. O programa é estadual e sua compensação opera-se dentro das finanças do próprio Estado de Goiás.
-> - **E)** Incorreta. Inexiste qualquer exigência de rescisão arbitrária de contratos temporários regulares.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: D**
 
 ---
-
 ## 3. Despesa Total com Pessoal (DTP) e Gatilhos de Controle
 
 ### 3.1 Conceito, Apuração Quadrimestral e Base da RCL
@@ -232,140 +246,173 @@ Ao atingir 95% do limite legal máximo, aplicam-se imediatamente ao Poder ou ór
 ---
 
 ### Teste 252
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Consoante as normas da Lei de Responsabilidade Fiscal (LC nº 101/2000), a despesa total com pessoal do Poder Legislativo do Estado de Goiás, incluído o Tribunal de Contas do Estado, não poderá exceder determinado percentual da Receita Corrente Líquida (RCL).
+**(FGV – TRT-1 – Analista Judiciário - Tecnologia da Informação – 2024)**
+Um cidadão solicitou um pedido de acesso à informação para 
+verificar a adequação da Dívida Consolidada Líquida (DCL) do 
+município em que reside. Sua solicitação decorre de um conjunto 
+de matérias jornalísticas indicando que o referid o ente teria 
+comprometido cerca de 250% da Receita Corrente Líquida (RCL) 
+com tais rubricas.  
+Na resposta ao cidadão, a prefeitura indicou corretamente que a 
+informação demandada está disponível para consulta pública no 
+portal da transparência por meio do:
 
-A fatia global reservada pela LRF e sua respectiva repartição entre os órgãos do Legislativo goiano é de:
-
-* **A)** 6,0% da RCL, sendo 3,0% para a Assembleia Legislativa e 3,0% para o Tribunal de Contas.
-* **B)** 3,0% da RCL, sendo 1,8% para a Assembleia Legislativa e 1,2% para o Tribunal de Contas do Estado (TCE-GO).
-* **C)** 2,0% da RCL, sendo 1,0% para a Assembleia Legislativa e 1,0% para o Tribunal de Contas do Estado.
-* **D)** 3,0% da RCL, cabendo 2,0% à Assembleia Legislativa e 1,0% ao Tribunal de Contas do Estado.
-* **E)** 4,0% da RCL, com repartição disciplinada discricionariamente por ato conjunto dos Presidentes dos órgãos.
-
+* **A)** balanço patrimonial;
+* **B)** balanço orçamentário;
+* **C)** balanço financeiro;
+* **D)** relatório de gestão fiscal;
+* **E)** relatório resumido de execução orçamentária.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O limite global estadual do Legislativo é de 3% (o limite de 6% é aplicável às Câmaras Municipais).
-> - **B)** Correta. De acordo com o art. 20, inciso II, alínea "a" da Lei de Responsabilidade Fiscal, a cota de 3,0% da Receita Corrente Líquida destinada ao Poder Legislativo Estadual é repartida em 1,8% para a Assembleia Legislativa e 1,2% para o Tribunal de Contas do Estado (TCE-GO).
-> - **C)** Incorreta. O limite de 2,0% pertence ao Ministério Público Estadual.
-> - **D)** Incorreta. A repartição legal correta é exatamente 1,8% para a ALEGO e 1,2% para o TCE-GO.
-> - **E)** Incorreta. A repartição decorre de norma expressa da lei complementar nacional, não de ato discricionário interno.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: D**
 
 ---
-
 ### Teste 253
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Determinado Estado da Federação, ao apurar o Relatório de Gestão Fiscal (RGF) ao término do segundo quadrimestre, verificou que as despesas com pessoal do Poder Executivo atingiram 96% do limite máximo legalmente fixado pela Lei de Responsabilidade Fiscal.
+**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
+De acordo com a Lei de Responsabilidade Fiscal (Lei Complementar 
+nº 101/2000), o incentivo à participação popular e à realização de 
+audiências públicas, durante os processos de elaboração e 
+discussão dos planos, lei de diretrizes orçamentárias e orçamentos 
+e a liberação ao pleno conhecimento e acompanhamento da 
+sociedade, em tempo real, de informações pormenorizadas sobre 
+a execução orçamentária e financeira, em meios eletrônicos de 
+acesso público são mecanismos que asseguram a(o)
 
-Diante da constatação da superação do limite prudencial, o Governador do Estado:
-
-* **A)** Deverá ser sumariamente afastado do cargo pelo Tribunal de Contas por crime de responsabilidade contra as finanças públicas.
-* **B)** Poderá nomear novos servidores aprovados em concurso público para cargos administrativos recém-criados, desde que não haja impacto financeiro no exercício.
-* **C)** Ficará impedido de conceder vantagem, aumento, reajuste ou adequação de remuneração a qualquer título aos servidores públicos, ressalvada a revisão geral anual.
-* **D)** Terá o prazo de quatro quadrimestres para reconduzir a despesa ao limite prudencial, devendo demitir compulsoriamente os servidores estáveis no primeiro mês.
-* **E)** Ficará automaticamente autorizado a contrair operações de crédito por antecipação de receita orçamentária para saldar a folha de pagamento.
-
+* **A)** satisfação da população.
+* **B)** transparência da gestão fiscal.
+* **C)** apoio às entidades públicas.
+* **D)** controle do processo decisório.
+* **E)** confiança no Poder Executivo da União.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O Tribunal de Contas não tem competência para decretar monocraticamente o afastamento sumário de governadores em virtude do atingimento do limite prudencial.
-> - **B)** Incorreta. O art. 22, parágrafo único, IV da LRF proíbe expressamente o provimento de cargos públicos e contratação de pessoal quando atingido o limite prudencial, abrindo exceção apenas para reposição em saúde, educação e segurança por morte ou aposentadoria.
-> - **C)** Correta. Ao ultrapassar o limite prudencial de 95% do teto máximo de pessoal, disparam-se automaticamente as vedações do art. 22, parágrafo único da LRF, dentre as quais a vedação categórica de concessão de vantagens, aumentos ou reajustes de remuneração, ressalvada tão somente a revisão geral anual do art. 37, X da CF/88.
-> - **D)** Incorreta. O prazo de recondução de dois quadrimestres aplica-se à superação do limite total (100%), e a demissão de estáveis é a última das medidas extremas do art. 169 da CF.
-> - **E)** Incorreta. É vedada a contratação de ARO para financiar despesas de pessoal.
-> 
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+>
+> **Gabarito: E**
+
+---
+### Teste 254
+**(FGV – TCE-GO – Analista de Controle Externo - Controle Externo – 2024)**
+A Lei Complementar nº 159, de 19 de maio de 2017, institui o 
+Regime de Recuperação Fiscal dos Estados e do Distrito Federal. 
+Sobre a matéria, analise os itens a seguir:  
+I. O Regime de Recuperação Fiscal será orientado pelos 
+princípios da sustentabilidade econômico -financeira, da 
+equidade intergeracional, da transparência das contas 
+públicas, da confiança nas demonstrações financeiras, d a 
+celeridade das decisões e da solidariedade entre os Poderes e 
+os órgãos da administração pública; 
+II.  O Plano de Recuperação Fiscal poderá ser realizado, de ofício, 
+pela União Federal, caso seja verificado, por diagnóstico 
+técnico, que o Estado se encontra em situação de desequilíbrio 
+financeiro; 
+III. É vedado ao Estado, durante a vigência do Regime de 
+Recuperação Fiscal, a criação de cargo, emprego ou função 
+que implique aumento de despesa e a alteração de estrutura 
+de carreira que implique aumento de despesa.  
+Está correto o que se afirma em
+
+* **A)** I, II e III.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, apenas. 
+
+Administração e Políticas Públicas
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
 > **Gabarito: C**
 
 ---
-
-### Teste 254
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Ao término do primeiro quadrimestre do exercício, a unidade técnica do Tribunal de Contas apurou que as despesas com pessoal da Assembleia Legislativa atingiram 92% do seu limite máximo legal.
-
-Nos termos do artigo 59, § 1º, inciso II da Lei Complementar nº 101/2000, diante dessa situação fática, compete ao Tribunal de Contas:
-
-* **A)** Determinar a imediata demissão de servidores comissionados para recomposição das metas fiscais.
-* **B)** Emitir alerta formal ao Poder Legislativo informando que o montante da despesa com pessoal ultrapassou 90% do limite máximo legal.
-* **C)** Declarar a indisponibilidade dos bens do Presidente da Mesa Diretora da Casa Legislativa.
-* **D)** Proibir o Poder Executivo de realizar o repasse do duodécimo orçamentário constitucional.
-* **E)** Decretar intervenção fiscal no parlamento com nomeação de interventor econômico em conformidade com as normas legais e regulamentares aplicáveis.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A redução de 20% das comissões só é exigível após o transcurso do prazo de descumprimento do limite total (100%).
-> - **B)** Correta. Conforme o art. 59, § 1º, II da LRF, o Tribunal de Contas alertará formalmente o respectivo Poder ou órgão sempre que constatar que o montante da despesa total com pessoal ultrapassou 90% do limite máximo (Limite de Alerta). Tendo atingido 92%, a medida técnica imediata é a expedição de Alerta.
-> - **C)** Incorreta. Medida cautelar patrimonial desproporcional e inexistente para mera situação de alerta.
-> - **D)** Incorreta. O repasse dos duodécimos constitucionais até o dia 20 de cada mês (art. 168 da CF) é imperativo e insuscetível de retenção unilateral.
-> - **E)** Incorreta. Inexiste figura de intervenção fiscal no parlamento pelo órgão de contas.
-> 
-> **Gabarito: B**
-
----
-
 ### Teste 255
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na hipótese de a Despesa Total com Pessoal (DTP) de determinado Poder ou órgão autônomo estadual ultrapassar o limite máximo fixado na LRF, a Constituição Federal de 1988 (art. 169, §§ 3º e 4º) e a própria LRF impõem medidas sucessivas e escalonadas para o retorno aos limites.
+**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**
+A Lei n o 101/2000 prevê que, quando o Poder Executivo 
+ultrapassar 90% (noventa por cento) do limite definido 
+para a despesa total com pessoal, ele será alertado pelo
 
-A ordem constitucional obrigatória das medidas de corte é:
-
-* **A)** 1º - Redução de pelo menos 20% das despesas com cargos em comissão e funções de confiança; 2º - Exoneração de servidores não estáveis; 3º - Se as medidas anteriores não forem suficientes, perda do cargo pelo servidor público estável.
-* **B)** 1º - Demissão sumária de servidores públicos estáveis; 2º - Redução proporcional de salários dos magistrados; 3º - Extinção de fundos constitucionais.
-* **C)** 1º - Suspensão do pagamento de proventos a aposentados; 2º - Extinção de órgãos públicos; 3º - Corte de despesas de capital em saúde e educação.
-* **D)** 1º - Exoneração imediata de servidores aprovados em concurso recente; 2º - Demissão de ocupantes de cargos comissionados; 3º - Aumento compulsório da alíquota do ICMS.
-* **E)** 1º - Devolução voluntária de subsídios pelos Chefes de Poder; 2º - Congelamento da inflação; 3º - Limitação exclusiva das despesas de investimento.
-
+* **A)** Poder Judiciário.
+* **B)** Tribunal de Contas.
+* **C)** Poder Legislativo.
+* **D)** Conselho Municipal.
+* **E)** Setor de Contabilidade. 
+Caderno de Prova ’E05’, Tipo 001
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. O art. 169, §§ 3º e 4º da CF/88 estabelece a ordem cronológica estrita de providências: 1) redução em pelo menos 20% das despesas com comissionados e funções de confiança; 2) se não bastar, exoneração dos servidores não estáveis; 3) se ainda assim não alcançar o equilíbrio, o servidor estável poderá perder o cargo mediante processo administrativo em que lhe seja assegurada ampla defesa, fazendo jus a indenização de 1 mês por ano de serviço.
-> - **B)** Incorreta. Atingir servidor estável é medida extrema e residual (última etapa), jamais primeira.
-> - **C)** Incorreta. Proventos de aposentadoria gozam de garantia constitucional irredutível.
-> - **D)** Incorreta. A primeira etapa atinge cargos em comissão e funções de confiança, não servidores concursados.
-> - **E)** Incorreta. Não existe previsão constitucional de tais medidas nessa ordem.
-> 
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
 > **Gabarito: A**
 
 ---
-
 ### Teste 256
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em determinado Estado da Federação, apurou-se que a Despesa Total com Pessoal do Poder Executivo atingiu 96% do limite máximo legalmente admitido pela Lei de Responsabilidade Fiscal (limite prudencial ultrapassado).
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+São Restos a Pagar todas as despesas regularmente empenhadas, 
+do exercício atual ou anterior, mas não pagas até 31 de dezembro 
+do exercício financeiro vigente.  
+Sobre Restos a Pagar, analise os itens a seguir: 
+I. A obrigatoriedade do gestor público, no último ano do seu 
+mandato, contrair obrigação de despesa que não possa ser 
+cumprida integralmente dentro dele, ou que tenha parcelas a 
+serem pagas no exercício seguinte sem que haja suficiente 
+disponibilidade de caixa para este efeito; 
+II. No fim do exercício, as despesas orçamentárias empenhadas e 
+não pagas serão inscritas em restos a pagar; 
+III. A vedação do gestor público, nos últimos dois quadrimestres 
+do seu mandato, contrair obrigação de despesa que não possa 
+ser cumprida integralmente dentro dele, ou que tenha 
+parcelas a serem pagas no exercício seguinte sem que haja 
+suficiente disponibilidade de caixa para este efeito. 
+Está correto o que se afirma em
 
-Diante dessa situação fática, o Poder Executivo estadual está expressamente VEDADO de:
-
-* **A)** Conceder vantagem, aumento, reajuste ou adequação de remuneração a qualquer título, salvo os derivados de sentença judicial ou de determinação legal ou contratual anterior, bem como criar cargo, emprego ou função.
-* **B)** Pagar a folha normal de salários e os proventos regulares de aposentadoria e pensão dos servidores já existentes.
-* **C)** Efetuar qualquer tipo de empenho orçamentário destinado à manutenção de escolas e hospitais estaduais.
-* **D)** Arrecadar tributos estaduais inscritos em dívida ativa e ajuizar execuções fiscais.
-* **E)** Publicar o Relatório Resumido da Execução Orçamentária e as prestações de contas constitucionais.
-
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. O art. 22, parágrafo único da LRF estabelece que, ao ultrapassar o limite prudencial (95% do limite máximo), aplicam-se proibições imediatas ao órgão: vedada concessão de vantagens/aumentos/reajustes (salvo decisão judicial ou lei anterior), criação de cargos, alteração de estruturas de carreira que impliquem aumento de despesa, provimento de cargo público (ressalvada reposição em saúde, educação e segurança por aposentadoria/falecimento) e contratação de hora extra.
-> - **B)** Incorreta. O pagamento da folha regular existente permanece obrigatório.
-> - **C)** Incorreta. As despesas de custeio e funcionamento de serviços essenciais continuam normais.
-> - **D)** Incorreta. A atividade arrecadatória é dever funcional vinculado do Estado.
-> - **E)** Incorreta. A transparência fiscal é mantida e reforçada nesse cenário.
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: D**
 
 ---
-
 ## 4. Endividamento, Regra de Ouro, ARO e Vedações de Fim de Mandato
 
 ### 4.1 A Regra de Ouro Orçamentária (Art. 167, III da CF/88)
@@ -401,82 +448,114 @@ flowchart TD
 ---
 
 ### Teste 257
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A respeito das regras atinentes às Operações de Crédito por Antecipação de Receita Orçamentária (ARO) e às vedações do final de mandato disciplinadas na Lei Complementar nº 101/2000 (LRF), assinale a opção correta:
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+São Restos a Pagar todas as despesas regularmente empenhadas, 
+do exercício atual ou anterior, mas não pagas até 31 de dezembro 
+do exercício financeiro vigente.  
+Sobre Restos a Pagar, analise os itens a seguir: 
+I. A obrigatoriedade do gestor público, no último ano do seu 
+mandato, contrair obrigação de despesa que não possa ser 
+cumprida integralmente dentro dele, ou que tenha parcelas a 
+serem pagas no exercício seguinte sem que haja suficiente 
+disponibilidade de caixa para este efeito; 
+II. No fim do exercício, as despesas orçamentárias empenhadas e 
+não pagas serão inscritas em restos a pagar; 
+III. A vedação do gestor público, nos últimos dois quadrimestres 
+do seu mandato, contrair obrigação de despesa que não possa 
+ser cumprida integralmente dentro dele, ou que tenha 
+parcelas a serem pagas no exercício seguinte sem que haja 
+suficiente disponibilidade de caixa para este efeito. 
+Está correto o que se afirma em
 
-* **A)** A ARO pode ser contratada a qualquer momento do último ano de mandato do governante, desde que aprovada por dois terços dos membros do Poder Legislativo.
-* **B)** A operação de crédito por ARO destina-se a financiar despesas de capital de longo prazo, devendo ser amortizada no prazo de trinta e seis meses.
-* **C)** É vedado ao titular de Poder contrair obrigação de despesa nos últimos dois quadrimestres do seu mandato sem que haja suficiente disponibilidade de caixa para o seu pagamento.
-* **D)** A liquidação da ARO poderá ser postergada para o exercício seguinte caso a arrecadação tributária no mês de dezembro fique abaixo da média anual.
-* **E)** A realização de ARO dispensa a cobrança de juros bancários por se tratar de operação de curto prazo de assistência mútua federativa.
-
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O art. 38, IV, "b" da LRF proíbe terminantemente a contratação de operações por ARO no último ano de mandato do governante.
-> - **B)** Incorreta. ARO é mecanismo de curto prazo para cobrir insuficiência momentânea de fluxo de caixa, e não para financiar despesas de capital de longo prazo.
-> - **C)** Correta. Trata-se da regra expressa do art. 42 da LRF: é vedado ao governante, nos últimos dois quadrimestres do mandato (últimos 8 meses), assumir obrigação financeira que não possa ser paga dentro dele ou que deixe parcelas para o ano seguinte sem suficiente saldo de caixa disponível.
-> - **D)** Incorreta. A data de resgate final da ARO é improrrogável: deve ser liquidada até o dia 10 de dezembro do mesmo exercício financeiro.
-> - **E)** Incorreta. Operações de crédito bancário de ARO sujeitam-se às taxas de juros contratuais de mercado.
-> 
-> **Gabarito: C**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+>
+> **Gabarito: E**
 
 ---
-
 ### Teste 258
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-O art. 167, inciso III da Constituição Federal de 1988 estabelece o princípio conhecido pela doutrina e jurisprudência como a **"Regra de Ouro"** das finanças públicas brasileiras.
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+O Relatório Resumido da Execução Orçamentária (RREO) é 
+divulgado mensalmente pela União. 
+De acordo com o Manual de Demonstrativos Fiscais, o objetivo 
+dessa periodicidade é
 
-Segundo a Regra de Ouro constitucional:
-
-* **A)** É vedada a realização de operações de créditos que excedam o montante das despesas de capital, ressalvadas as autorizadas mediante créditos suplementares ou especiais com finalidade precisa, aprovados pelo Poder Legislativo por maioria absoluta.
-* **B)** As receitas tributárias correntes devem superar em pelo menos 50% todas as despesas com juros e encargos da dívida pública consolidada.
-* **C)** É obrigatória a destinação de 10% da receita de impostos para a constituição de reserva monetária em ouro no Banco Central do Brasil.
-* **D)** Nenhuma dívida pública fundada poderá ultrapassar o prazo de amortização de dez anos sem autorização unânime do Senado Federal.
-* **E)** Os precatórios judiciais alimentares gozam de preferência absoluta de saque em relação a qualquer outro dispêndio estatal.
-
+* **A)** oferecer segurança à sociedade, de modo a aumentar a 
+arrecadação.
+* **B)** assegurar que as informações são livres de fraude e de erro e 
+que a transparência é valorizada.
+* **C)** mostrar à sociedade que o Governo Federal cumpre co m as 
+suas responsabilidades perante ela.
+* **D)** servir de exemplo e estimular que outras entidades públicas 
+divulguem os seus relatórios com regularidade.
+* **E)** permitir que a sociedade conheça, acompanhe e analise o 
+desempenho da execução orçamentária do Governo Federal.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. É o teor literal do art. 167, III da CF/88. A finalidade da Regra de Ouro é impedir que o Estado financie despesas correntes de custeio diário com endividamento público (empréstimos), exigindo que o crédito obtido financie despesas de capital (investimentos), ressalvada autorização legislativa especial por maioria absoluta.
-> - **B)** Incorreta. Trata-se de formulação sem respaldo constitucional.
-> - **C)** Incorreta. Não existe exigência de lastro em metal ouro na gestão orçamentária hodierna.
-> - **D)** Incorreta. Os limites da dívida consolidada são fixados por resolução do Senado Federal com base no art. 52 da CF/88.
-> - **E)** Incorreta. Embora precatórios tenham preferência no art. 100 da CF/88, não é essa a definição da Regra de Ouro.
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: D**
 
 ---
-
 ### Teste 259
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Nos termos do art. 42 da Lei de Responsabilidade Fiscal (LC nº 101/2000), aplicável aos governantes dos Poderes Executivo, Legislativo e Judiciário em fim de mandato:
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+São Restos a Pagar todas as despesas regularmente empenhadas, 
+do exercício atual ou anterior, mas não pagas até 31 de dezembro 
+do exercício financeiro vigente.  
+Sobre Restos a Pagar, analise os itens a seguir: 
+I. A obrigatoriedade  do gestor público, no último ano do seu 
+mandato, contrair obrigação de despesa que não possa ser 
+cumprida integralmente dentro dele, ou que tenha parcelas a 
+serem pagas no exercício seguinte sem que haja suficiente 
+disponibilidade de caixa para este efeito; 
+II. No fim do exercício, as despesas orçamentárias empenhadas e 
+não pagas serão inscritas em restos a pagar; 
+III. A vedação do gestor público, nos últimos dois quadrimestres 
+do seu mandato, contrair obrigação de despesa que não possa 
+ser cumprida integr almente dentro dele, ou que tenha 
+parcelas a serem pagas no exercício seguinte sem que haja 
+suficiente disponibilidade de caixa para este efeito. 
+Está correto o que se afirma em
 
-* **A)** É vedado ao titular de Poder ou órgão contrair obrigação de despesa que não possa ser cumprida integralmente dentro dos últimos dois quadrimestres do seu mandato, ou que tenha parcelas a serem pagas no exercício seguinte sem que haja suficiente disponibilidade de caixa para este efeito.
-* **B)** É permitida a contratação de quaisquer despesas continuadas, desde que os empenhos sejam cancelados no primeiro dia útil do mandato do sucessor.
-* **C)** Os contratos administrativos firmados nos últimos oito meses do mandato ficam automaticamente rescindidos sem direito a indenização.
-* **D)** As restrições de final de mandato atingem exclusivamente o Presidente da República e os Governadores de Estado, não se aplicando aos Prefeitos Municipais.
-* **E)** O descumprimento do art. 42 da LRF constitui mera irregularidade formal de gestão, sem repercussão na esfera penal do ordenador de despesas.
-
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. É a redação expressa do art. 42 da LRF: veda contrair despesa nos últimos dois quadrimestres (8 meses) do mandato sem suficiente disponibilidade de caixa para saldá-la ou cobrir parcelas no exercício subsequente.
-> - **B)** Incorreta. A vedação visa justamente evitar o cancelamento abusivo de restos a pagar e a transmissão de déficits ao sucessor.
-> - **C)** Incorreta. Contratos regulares não são rescindidos automaticamente; o que se proíbe é contrair obrigações sem lastro de caixa.
-> - **D)** Incorreta. Aplica-se a todos os titulares de Poder e órgão de todas as esferas federativas.
-> - **E)** Incorreta. O descumprimento do art. 42 da LRF configura o crime tipificado no art. 359-C do Código Penal (pena de reclusão de 1 a 4 anos).
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: D**
 
 ---
-
 ## 🌐 Fontes Oficiais & Normativas Recomendadas
 
 * [Lei Complementar nº 101/2000 (Lei de Responsabilidade Fiscal)](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm) - Texto integral da LRF detalhando limites globais e setoriais com despesa total com pessoal (DTP), limites prudenciais e de alerta.

@@ -97,57 +97,56 @@ Conforme a NBC TSP Estrutura Conceitual, os Relatórios Contábeis de Propósito
 ---
 
 ### Teste 260
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A respeito do conceito de Ativo no setor público preconizado na NBC TSP Estrutura Conceitual, assinale a opção correta:
+**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
+Uma sociedade empresária do setor de engenharia tem uma 
+biblioteca, que é utilizada por seus empregados para obter 
+informações técnicas. 
+Os livros da biblioteca são classificados no balanço patrimonial da 
+sociedade empresária como
 
-* **A)** A capacidade de um bem público gerar fluxos futuros de caixa positivos é requisito indispensável para sua classificação como ativo governamental.
-* **B)** Um recurso pode ser reconhecido como ativo no setor público quando a entidade possui o controle do recurso, decorrente de evento passado, e do qual se espera a geração de benefícios econômicos ou potencial de serviços.
-* **C)** Bens de uso comum do povo, como rodovias e praças públicas, não podem ser classificados como ativos patrimoniais em virtude de sua inalienabilidade civil.
-* **D)** A titularidade da propriedade jurídica formal é elemento obrigatório e insubstituível para o reconhecimento de qualquer ativo no setor público.
-* **E)** Os ativos intangíveis desenvolvidos pelo ente público são vedados na contabilidade governamental por ausência de valor físico tangível.
-
+* **A)** ativo intangível.
+* **B)** Investimentos.
+* **C)** ativo Imobilizado.
+* **D)** ativo circulante.
+* **E)** ativo realizável a longo prazo.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. No setor público, a esmagadora maioria dos bens não gera fluxos de caixa positivos, mas gera potencial de serviços essenciais à coletividade.
-> - **B)** Correta. Reproduz a definição clássica da NBC TSP EC: ativo é um recurso controlado no presente pela entidade em decorrência de eventos passados, do qual se espera a geração de benefícios econômicos futuros ou potencial de serviços.
-> - **C)** Incorreta. Bens de uso comum do povo integram o patrimônio público e compõem o Ativo Não Circulante (Imobilizado de infraestrutura) quando controlados pelo ente.
-> - **D)** Incorreta. O elemento central para o reconhecimento é o controle econômico e não a propriedade jurídica formal, prevalecendo a primazia da essência econômica sobre a forma jurídica (ex.: arrendamento mercantil financeiro).
-> - **E)** Incorreta. Ativos intangíveis (sistemas de TI, softwares, licenças) são plenamente reconhecidos no Ativo Não Circulante (Intangível) conforme a NBC TSP 08.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: D**
 
 ---
-
 ### Teste 261
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-De acordo com a NBC TSP Estrutura Conceitual, a informação contábil no setor público destina-se primordialmente a suprir as necessidades de informação dos usuários primários dos Relatórios Contábeis de Propósito Geral das Entidades do Setor Público (RCPGs).
+**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
+De acordo com a NBC TG Estrutura Conceitual - Estrutura 
+Conceitual para Relatório Financeiro, um ativo, necessariamente,
 
-São considerados usuários primários dos RCPGs:
-
-* **A)** Os usuários dos serviços públicos e seus representantes (cidadãos, membros do Poder Legislativo) e os provedores de recursos (contribuintes, doadores, credores por empréstimos).
-* **B)** Exclusivamente os auditores de controle externo dos Tribunais de Contas e os contadores públicos responsáveis pelo fechamento do balanço.
-* **C)** Unicamente as agências internacionais de classificação de risco de crédito soberano (ratings).
-* **D)** Apenas os secretários de fazenda e os dirigentes máximos das entidades do Poder Executivo.
-* **E)** As sociedades empresárias privadas concorrentes que participam de processos licitatórios governamentais.
-
+* **A)** é um bem corpóreo.
+* **B)** está atrelado a eventos futuros previsíveis.
+* **C)** tem o potencial de produzir benefícios econômicos.
+* **D)** representa um direito presente perante os acionistas.
+* **E)** foi adquirido pela entidade em uma transação com terceiros.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. A NBC TSP Estrutura Conceitual define expressamente como **usuários primários dos RCPGs**: (1) os usuários de serviços e seus representantes (cidadãos e parlamentares); e (2) os provedores de recursos e seus representantes (contribuintes, doadores, financiadores e credores).
-> - **B)** Incorreta. Auditores e contadores são usuários institucionais e reguladores, mas os usuários primários são os cidadãos e provedores de recursos para fins de prestação de contas (*accountability*) e tomada de decisão.
-> - **C)** Incorreta. Agências de rating são usuários secundários ou específicos.
-> - **D)** Incorreta. Gestores públicos utilizam relatórios de gestão gerencial interna; os RCPGs destinam-se a usuários externos que não têm poder para exigir relatórios customizados.
-> - **E)** Incorreta. Licitantes não figuram no rol dos usuários primários conceituais dos RCPGs.
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: C**
 
 ---
-
 ## 2. Características Qualitativas da Informação Contábil Útil (NBC TSP EC)
 
 As características qualitativas são atributos indispensáveis que tornam as informações contidas nos RCPGs úteis para os usuários na tomada de decisão e na prestação de contas:
@@ -179,61 +178,64 @@ flowchart TD
 ---
 
 ### Teste 262
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A Estrutura Conceitual das Normas Brasileiras de Contabilidade Aplicadas ao Setor Público (NBC TSP EC) estabelece as características qualitativas da informação contábil incluída nos Relatórios Contábeis de Propósito Geral das Entidades do Setor Público (RCPGs).
+**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
+De acordo com a NBC TG Estrutura Conceitual - Estrutura 
+Conceitual para Relatório Financeiro, o objetivo do relatório 
+financeiro para fins gerais é fornecer informações financeiras 
+sobre a entidade que reporta que sejam úteis para os seus 
+principais usuários na tomada de decisões. 
+Entre estas decisões está
 
-A característica qualitativa que permite aos usuários identificar semelhanças e diferenças entre itens e fenômenos econômicos, seja entre diferentes entidades do setor público, seja em relação à mesma entidade ao longo de períodos contábeis consecutivos, denomina-se:
-
-* **A)** Compreensibilidade.
-* **B)** Comparabilidade.
-* **C)** Tempestividade.
-* **D)** Representação fidedigna.
-* **E)** Verificabilidade.
-
+* **A)** reter ou distribuir o resultado obtido.
+* **B)** expandir ou retrair os negócios perante uma crise.
+* **C)** aumentar ou manter o preço de venda dos produtos e 
+serviços.
+* **D)** adotar estratégias agressivas ou conservadoras na gestão do 
+capital circulante.
+* **E)** comprar, vender ou manter instrumento de patrimônio e de 
+dívida.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Compreensibilidade é a qualidade que possibilita a rápida compreensão do significado da informação contábil por usuários com conhecimento razoável.
-> - **B)** Correta. A Comparabilidade é definida textualmente na NBC TSP EC como a característica qualitativa que permite aos usuários identificar semelhanças e diferenças entre itens, cobrindo tanto a comparação temporal (mesma entidade ao longo de exercícios sucessivos) quanto a comparação espacial (entre diferentes órgãos e entidades públicas).
-> - **C)** Incorreta. Tempestividade refere-se à disponibilização da informação em tempo oportuno para influenciar julgamentos e decisões.
-> - **D)** Incorreta. Representação fidedigna significa retratar com completude, neutralidade e ausência de erro material a substância dos eventos econômicos.
-> - **E)** Incorreta. Verificabilidade é a qualidade que assegura que diferentes observadores independentes e capacitados cheguem a um consenso razoável sobre a informação apresentada.
-> 
-> **Gabarito: B**
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: A**
 
 ---
-
 ### Teste 263
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na NBC TSP Estrutura Conceitual, as características qualitativas são atributos que tornam a informação contida nos RCPGs útil para os usuários. Considere as seguintes características:
+**(FCC – TRT-14 – Analista Judiciário - Tecnologia da Informação – 2016)**
+Um comerciante compra certa mercadoria por R$ 149,50 e estabelece o preço de venda levando em consideração que ele quer 
+obter um lucro de 20% sobre o preço de venda, e que ele dever á pagar um imposto de 15% sobre o mesmo preço de venda. 
+Nas condições dadas, o preço de venda da mercadoria deverá ser, em R$, de
 
-I. **Relevância:** A informação é relevante se for capaz de influenciar as decisões dos usuários, tendo valor confirmatório, preditivo ou ambos.  
-II. **Representação Fidedigna:** Para ser fidedigna, a informação deve ser completa, neutra e livre de erro material, retratando fielmente a substância econômica da transação e não apenas sua forma jurídica.  
-III. **Compreensibilidade:** Pressupõe que os relatórios contábeis públicos sejam simplificados a ponto de dispensar qualquer conhecimento prévio dos usuários sobre economia e finanças governamentais.
+* **A)** 235,00.
+* **B)** 202,00.
+* **C)** 210,00.
+* **D)** 242,00.
+* **E)** 230,00. 
+Caderno de Prova ’C03’, Tipo 001
 
-Está correto o que se afirma em:
-
-* **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** II e III, apenas.
-* **D)** I e III, apenas.
-* **E)** I, II e III.
-
+6 TRT14R-Conhecimentos Gerais1
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **I. Correto.** A relevância é característica qualitativa fundamental caracterizada pelo valor confirmatório e/ou preditivo.
-> - **II. Correto.** A representação fidedigna exige que a informação seja completa, neutra e isenta de erro material, com primazia da substância sobre a forma.
-> - **III. Incorreto.** A compreensibilidade permite que a informação seja facilmente compreendida por usuários que tenham conhecimento razoável das atividades do setor público e do ambiente econômico, e que se disponham a estudar a informação com razoável diligência. Não se eliminam informações complexas e relevantes apenas sob o argumento de que seriam difíceis de compreender por leigos absolutos.
-> 
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
 > **Gabarito: B**
 
 ---
-
 ## 3. Elementos das Demonstrações Contábeis e Bases de Mensuração
 
 ### 3.1 Elementos Patrimoniais: Ativo, Passivo, SPL, VPA e VPD
@@ -264,30 +266,37 @@ A mensuração consiste no processo de determinar os valores monetários pelos q
 ---
 
 ### Teste 264
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No que concerne às bases de mensuração para ativos e passivos segundo a NBC TSP Estrutura Conceitual, assinale a opção correta:
+**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**
+Para atingir o seu objetivo, a catalogação de documentos 
+deve apresentar características que visam facilitar a busca 
+do usuário, como integridade, clareza, precisão, lógica e 
+consistência. Na descrição catalográfica, lógica significa 
+que
 
-* **A)** O custo histórico é uma base de mensuração a valor de saída que reflete o preço que seria recebido pela venda de um ativo no mercado aberto.
-* **B)** O custo de reposição ou substituição é uma base de mensuração a valor de entrada que reflete o custo mais econômico exigido para a entidade substituir o potencial de serviços de um ativo na data das demonstrações contábeis.
-* **C)** O valor justo é uma medida específica da entidade que independe das condições de transação entre participantes do mercado.
-* **D)** O valor em uso de um ativo reflete o valor presente dos fluxos de caixa futuros descontados, aplicável exclusivamente a ativos geradores de caixa do setor público.
-* **E)** Todos os passivos públicos devem ser obrigatoriamente mensurados pelo custo histórico original, sendo vedada qualquer avaliação pelo preço de liquidação.
-
+* **A)** cada informação só pode representar um único dado 
+ou conceito.
+* **B)** as informações devem ser verdadeiras.
+* **C)** o código usado deve ser compreensível para o 
+usuário.
+* **D)** a organização dos dados vai do mais importante 
+para o mais detalhado.
+* **E)** a mesma solução deve ser sempre usada para 
+informações semelhantes. 
+_________________________________________________________
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O custo histórico é uma base de mensuração a valor de **entrada** (reflete a transação original passada).
-> - **B)** Correta. O **custo de reposição/substituição** (*depreciated replacement cost*) é uma base de mensuração a valor de entrada amplamente utilizada no setor público para ativos não geradores de caixa, correspondendo ao custo mais econômico para substituir o potencial de serviços do ativo.
-> - **C)** Incorreta. O valor justo é mensuração baseada no mercado (preço de saída), e não medida específica da entidade.
-> - **D)** Incorreta. No setor público, o valor em uso também se aplica a ativos não geradores de caixa através da mensuração do valor presente do potencial de serviços remanescente do ativo.
-> - **E)** Incorreta. Passivos podem ser mensurados pelo custo histórico, custo de cumprimento da obrigação (*fulfillment cost*) ou valor de mercado/liquidação.
-> 
-> **Gabarito: B**
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: A**
 
 ---
-
 ## 4. Normas Específicas Fundamentais no Padrão FCC
 
 ### 4.1 Matriz de Provisões e Passivos Contingentes (NBC TSP 03)
@@ -327,140 +336,179 @@ flowchart TD
 ---
 
 ### Teste 265
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A Procuradoria-Geral de determinado Estado foi intimada de ação judicial de grande repercussão econômica proposta por consórcio de empreiteiras cobrando reequilíbrio econômico-financeiro de contrato de obras. O departamento jurídico do Estado avaliou o risco de perda da ação judicial como **provável** e mensurou com segurança razoável o valor do desembolso futuro estimado em R$ 15.000.000,00.
+**(FGV – TCE-GO – Analista de Controle Externo - Ciências Contábeis – 2024)**
+Por meio da análise de horizontal do balanço patrimonial de uma 
+sociedade empresária, em 31/12/2023 e 31/12/2022, foi 
+constatado que o ativo circulante havia diminuído, enquanto o 
+ativo realizável a longo prazo havia aumentado. 
+Assinale a opção que indica uma possível causa para as duas 
+variações.
 
-Consoante as disposições da NBC TSP 03 e do Manual de Contabilidade Aplicada ao Setor Público (MCASP):
-
-* **A)** O Estado não deve efetuar nenhum registro contábil nem em notas explicativas até o trânsito em julgado irrecorrível da decisão judicial condenatória.
-* **B)** A entidade deve divulgar a informação exclusivamente em notas explicativas, sem efetuar quaisquer lançamentos contábeis no Balanço Patrimonial.
-* **C)** A entidade pública deve reconhecer uma provisão no Passivo, em contrapartida a uma Variação Patrimonial Diminutiva (VPD) no resultado do exercício.
-* **D)** A perda potencial deve ser reconhecida como despesa orçamentária imediatamente no estágio da fixação da Lei Orçamentária Anual.
-* **E)** Trata-se de um ativo contingente cujo ingresso de recursos deve ser registrado preventivamente no subsistema orçamentário.
-
+* **A)** venda de estoques à vista com prejuízo.
+* **B)** compra de participação em outras sociedades, que são 
+controladas.
+* **C)** pagamento de obrigações com terceiros, que já haviam sido 
+reconhecidas.
+* **D)** integralização capital social pelos sócios, por meio de imóveis 
+destinados à valorização.
+* **E)** pagamento antecipado de despesas que deverão ser 
+usufruídas e apropriadas linearmente em 3 anos.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O regime de competência contábil exige o registro tempestivo da obrigação presente assim que o fato gerador e os critérios de probabilidade se consolidem, não aguardando o trânsito em julgado formal.
-> - **B)** Incorreta. A divulgação exclusiva em notas explicativas aplica-se aos passivos contingentes com risco de perda possível, e não provável.
-> - **C)** Correta. De acordo com a NBC TSP 03 e o MCASP, existindo uma obrigação presente resultante de evento passado cuja liquidação implique saída de recursos classificada como provável e o valor possa ser estimado com confiabilidade técnica, a entidade pública deve reconhecer formalmente uma Provisão no Passivo, lançando a débito uma Variação Patrimonial Diminutiva (VPD) no resultado do exercício patrimonial.
-> - **D)** Incorreta. A provisão é ato estritamente patrimonial, não transitando pela fixação de créditos orçamentários da LOA nem exigindo nota de empenho imediata.
-> - **E)** Incorreta. Litígio judicial que exige desembolso de recursos configura potencial passivo e não ativo contingente.
-> 
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: D**
+
+---
+### Teste 266
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+De acordo com a norma NBC TSP 34 – Custos no Setor Público, 
+Obrigatoriedade do Sistema de Custos, as informações de custo 
+devem ser confiáveis e úteis para os processos de   planejamento, 
+tomada de decisão, monitoramento, ava liação de desempenho, 
+transparência, prestação de contas e responsabilização. Ao 
+mesmo tempo, devem ser evitados
+
+* **A)** exatidão e refinamentos desnecessários dos dados.
+* **B)** detalhamentos e divulgação externa.
+* **C)** rastreamento da informação que não é essencial.
+* **D)** uso de diferentes métodos de custeio e bases de mensuração.
+* **E)** mapeamento e documentação da forma como foram obtidos 
+os resultados. 
+
+Análise das Demonstrações Contábeis
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
 > **Gabarito: C**
 
 ---
-
-### Teste 266
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em determinado processo judicial em trâmite na Justiça do Trabalho contra uma autarquia estadual, a assessoria jurídica emitiu parecer formal classificando o risco de condenação e perda patrimonial da entidade como **possível**, sem possibilidade de definição precisa de valores no momento.
-
-Em observância à NBC TSP 03 e ao MCASP, a conduta contábil adequada a ser adotada pela autarquia é:
-
-* **A)** Reconhecer imediatamente uma provisão no Passivo Não Circulante pelo valor estimado pelo autor da ação.
-* **B)** Não efetuar lançamento contábil de provisão no Balanço Patrimonial, divulgando as informações relevantes sobre o passivo contingente em Notas Explicativas.
-* **C)** Deixar de efetuar qualquer lançamento contábil e dispensar a divulgação em notas explicativas em virtude do princípio do sigilo processual.
-* **D)** Registrar uma Variação Patrimonial Aumentativa para neutralizar o impacto financeiro futuro.
-* **E)** Solicitar abertura imediata de crédito adicional extraordinário para cobertura judicial.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O reconhecimento de provisão no Balanço Patrimonial é cabível apenas e tão somente quando o risco de saída de recursos for classificado como provável.
-> - **B)** Correta. De acordo com a NBC TSP 03, quando a probabilidade de desembolso futuro for classificada como possível, a obrigação consubstancia um Passivo Contingente: não deve ser reconhecida no Balanço Patrimonial, mas deve ser compulsoriamente divulgada em Notas Explicativas, especificando a natureza da ação e as incertezas existentes.
-> - **C)** Incorreta. A dispensa de notas explicativas ocorre unicamente quando a probabilidade de perda for remota.
-> - **D)** Incorreta. Ação indenizatória contra a entidade jamais configurará VPA (ganho patrimonial).
-> - **E)** Incorreta. Crédito extraordinário destina-se exclusivamente a calamidades, guerra e comoção interna.
-> 
-> **Gabarito: B**
-
----
-
 ### Teste 267
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No âmbito do setor público, a Secretaria de Estado da Saúde de Goiás mantém em seus depósitos centrais vultosos estoques de vacinas e medicamentos essenciais destinados exclusivamente à distribuição gratuita à população nos postos de saúde da rede pública.
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+Em relação à apresentação e divulgação de Informação 
+Orçamentária nas Demonstrações Contábeis, de acordo com a 
+NBC TSP 13 - Apresentação de Informação Orçamentária nas 
+Demonstrações Contábeis, assinale V para a alternativa verdadeira 
+e F para a falsa. 
+(   ) A entidade deve apresentar a comparação do orçamento com 
+os valores realizados por meio de colunas adicionais nas 
+demonstrações contábeis somente quando as demonstrações 
+e o orçamento são elaborados em base comparável. 
+(   ) Quando o orçamento e as demonstrações contábeis não são 
+elaborados em base comparável, não deve haver 
+apresentação e divulgação e o fato deve ser aclarado em nota 
+explicativa. 
+(   ) Quando os orçamentos são elaborados com base no regime de 
+competência e abrangem todas as demonstrações contábeis, 
+colunas adicionais de orçamento podem ser adicionadas a 
+todas as demonstrações contábeis exigidas pelas normas 
+contábeis. 
+As afirmativas são, respectivamente,
 
-De acordo com as regras de mensuração de estoques contidas na NBC TSP 04:
-
-* **A)** Os estoques devem ser mensurados pelo menor valor entre o custo histórico de aquisição e o valor justo de mercado para revenda.
-* **B)** Os estoques mantidos para distribuição gratuita devem ser mensurados pelo menor valor entre o custo e o custo corrente de reposição.
-* **C)** A Secretaria de Saúde deve mensurar seus estoques obrigatoriamente a valor presente descontado pela taxa básica de juros (Selic).
-* **D)** Medicamentos para distribuição gratuita não configuram ativo, devendo ser lançados como despesa de consumo no ato do recebimento da nota fiscal.
-* **E)** Os estoques devem ser mantidos sem qualquer registro patrimonial até o momento da efetiva aplicação nos pacientes.
-
+* **A)** V – V – V.
+* **B)** V – V – F.
+* **C)** V – F – V.
+* **D)** F – V – V.
+* **E)** V – F – F.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Bens destinados à distribuição gratuita à sociedade não têm como objetivo a comercialização, inexistindo valor justo ou valor realizável de venda no mercado.
-> - **B)** Correta. Conforme a regra expressa da NBC TSP 04 (Estoques), os bens mantidos pela administração pública para distribuição gratuita ou para consumo na prestação de serviços sem contraprestação financeira devem ser mensurados pelo menor valor entre o custo histórico de aquisição e o custo corrente de reposição.
-> - **C)** Incorreta. Não se aplica metodologia de desconto a valor presente por taxa Selic para estoques de suprimentos médicos.
-> - **D)** Incorreta. Medicamentos estocados representam recursos controlados com potencial de serviços, configurando ativo circulante de estoques até a entrega final ao usuário do SUS.
-> - **E)** Incorreta. O controle de almoxarifado exige controle patrimonial contínuo pelo princípio da competência.
-> 
-> **Gabarito: B**
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: A**
 
 ---
-
 ### Teste 268
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A respeito da NBC TSP 07 (Ativo Imobilizado) e do reconhecimento contábil dos elementos patrimoniais, analise a seguinte hipótese:
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+De acordo com a NBC TSP 11 - Apresentação das Demonstrações 
+Contábeis, normalmente, todos os itens de receita e de despesa 
+reconhecidos no período contábil são incluídos no resultado. 
+Porém, em algumas circunstâncias, itens específicos podem ser 
+excluídos do resultado do período corrente.  
+Entre esses itens estão ganhos e perdas específicos provenientes
 
-Determinado Tribunal de Contas realizou despesas no valor de R$ 300.000,00 com obras de reforma e adaptação predial em seu auditório principal. A reforma resultou no aumento comprovado da vida útil do imóvel em 10 anos e na ampliação da capacidade de recepção de público, com instalação de novos sistemas centrais de ar-condicionado.
-
-À luz da NBC TSP 07 e das normas contábeis aplicadas ao setor público, o dispêndio realizado:
-
-* **A)** Deve ser capitalizado ao valor contábil do ativo imobilizado (incorporado ao custo do edifício).
-* **B)** Deve ser reconhecido integralmente como Variação Patrimonial Diminutiva (VPD) no resultado do exercício, por se tratar de despesa de manutenção rotineira.
-* **C)** Não pode ser registrado no subsistema patrimonial, limitando-se ao subsistema de compensação de atos potenciais.
-* **D)** Deve ser registrado como ativo intangível pelo período em que perdurarem as garantias da construtora.
-* **E)** Constitui inversão financeira na classificação por natureza da despesa, devendo ser baixado imediatamente do patrimônio líquido.
-
+* **A)** dos procedimentos aplicáveis relativos à correção de erros, 
+quando aplicável.
+* **B)** de entidades coligadas e controladas que não envolvem caixa, 
+da entidade que tem esse tipo de investimento.
+* **C)** dos efeitos das mudanças nas estimativas contábeis e nas 
+políticas contábeis, quando aplicável.
+* **D)** da venda de ativos imobilizados ou intangíveis, que não eram 
+utilizados na atividade fim da entidade.
+* **E)** da conversão das demonstrações contábeis das operações no 
+exterior da entidade que tenha operação no exterior.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. A NBC TSP 07 e o MCASP determinam que os gastos posteriores com ativos imobilizados que aumentem a vida útil econômica, melhorem o potencial de serviços ou ampliem a capacidade produtiva do bem devem ser **capitalizados** (incorporados ao valor contábil do ativo).
-> - **B)** Incorreta. Apenas reparos de conservação e manutenção periódica que visem manter o bem em operação normal sem ampliação de vida útil são reconhecidos diretamente como VPD (despesa de manutenção).
-> - **C)** Incorreta. O fato afeta o patrimônio permanente e é registrado no subsistema patrimonial.
-> - **D)** Incorreta. Auditórios e instalações físicas são ativos tangíveis (imobilizado), não intangíveis.
-> - **E)** Incorreta. Obras de ampliação física constituem investimentos (GND 4) e aumentam o ativo não circulante.
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: C**
 
 ---
-
 ### Teste 269
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Segundo a NBC TSP 03 (Provisões, Passivos Contingentes e Ativos Contingentes), assinale a opção que apresenta o correto tratamento contábil para uma ação judicial movida contra um Estado da Federação cuja perda seja avaliada pela Procuradoria-Geral do Estado como **provável** e cujo valor possa ser estimado com confiabilidade:
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+De acordo com a NBC Estrutura Conceitual - Estrutura Conceitual 
+para Elaboração e Divulgação de Informação Contábil de Propósito 
+Geral pelas Entidades do Setor Público, no Relatório Contábil de 
+Propósito Geral das Entidades do Setor Público, a informação é 
+selecionada para exposição ou para evidenciação. 
+Em relação à informação evidenciada nas notas explicativas às 
+demonstrações contábeis, analise as afirmativas a seguir: 
+I. É necessária para a compreensão dos usuários das 
+demonstrações contábeis; 
+II. Fornece informação que apresenta as demonstrações 
+contábeis no contexto da entidade e o seu ambiente 
+operacional; 
+III. É complementar à informação exposta nas demons trações 
+contábeis, de modo que não tem relação com ela. 
+Está correto o que se afirma em
 
-* **A)** Deve ser reconhecida uma provisão no passivo exigível, com contrapartida em Variação Patrimonial Diminutiva (VPD) no resultado do exercício.
-* **B)** Não deve ser efetuado nenhum registro no passivo, bastando a divulgação em nota explicativa como passivo contingente.
-* **C)** Deve ser registrada apenas no subsistema de controle (atos potenciais passivos), sendo vedado o lançamento contábil no passivo patrimonial.
-* **D)** O registro contábil fica condicionado ao trânsito em julgado da decisão judicial irrecorrível perante os Tribunais Superiores.
-* **E)** Deve ser contabilizado um ativo contingente garantidor em contrapartida ao patrimônio líquido.
-
+* **A)** I, somente.
+* **B)** I e II, somente.
+* **C)** I e III, somente.
+* **D)** II e III, somente.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Conforme a NBC TSP 03: quando uma obrigação presente resultante de evento passado tiver saída de recursos avaliada como **provável** e puder ser mensurada com confiabilidade, **deve ser reconhecida uma provisão no passivo**, afetando o resultado (VPD).
-> - **B)** Incorreta. Essa conduta aplica-se a passivos contingentes com probabilidade de perda apenas **possível**.
-> - **C)** Incorreta. O fato de ser provável e mensurável exige contabilização patrimonial efetiva no Passivo Circulante ou Não Circulante.
-> - **D)** Incorreta. A provisão existe exatamente para antecipar obrigações prováveis antes da liquidação jurídica definitiva (trânsito em julgado).
-> - **E)** Incorreta. Ativos contingentes não são reconhecidos no balanço patrimonial.
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+>
+> **Gabarito: E**
 
 ---
-
 ## 🌐 Fontes Oficiais & Normativas Recomendadas
 
 * [CFC - NBC TSP Estrutura Conceitual](https://www1.cfc.org.br/sisweb/sre/detalhes_sre.aspx?Codigo=2016/NBCTSPEC) - Norma brasileira do Conselho Federal de Contabilidade alinhada aos padrões internacionais do IPSASB para o setor público.

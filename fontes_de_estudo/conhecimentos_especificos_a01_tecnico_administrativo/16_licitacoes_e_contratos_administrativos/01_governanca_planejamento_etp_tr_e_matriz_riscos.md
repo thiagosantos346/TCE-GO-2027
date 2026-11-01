@@ -90,47 +90,95 @@ A NLLC elevou a governança ao patamar de exigência legal expressa (art. 11, pa
 ---
 
 ### Teste 066
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A Lei nº 14.133/2021 (Nova Lei de Licitações e Contratos Administrativos) consolidou no art. 5º um rol abrangente de princípios aplicáveis às contratações públicas. A respeito dos princípios expressos e setoriais da novel legislação, assinale a opção correta:
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+Quanto ao plano de custeio atuarial e sua viabilidade, é incorreto 
+afirmar que
 
-* **A)** O princípio do planejamento veda qualquer alteração no cronograma físico-financeiro das obras públicas contratadas.
-* **B)** A segregação de funções veda concentrar autorização e fiscalização em um mesmo agente público.
-* **C)** A vinculação ao edital impede a Administração de rever atos ilegais na licitação antes da homologação do certame.
-* **D)** A celeridade processual afasta a obrigatoriedade da elaboração de parecer jurídico em contratações diretas por valor.
-* **E)** O princípio da transparência restringe a divulgação dos contratos aos órgãos ministeriais de auditoria governamental.
+* **A)** a viabilidade orçamentária de um plano de previdência é 
+avaliada considerando a capacidade do plano de arrecadar 
+contribuições suficientes, obter retornos de investimentos 
+adequados e manter um equilíbrio atuarial que garanta o 
+pagamento dos benefícios prometidos, assegurando a 
+solvência e a sustentabilidade financeira a longo prazo.
+* **B)** o custo normal em um plano refere -se às contribuições 
+necessárias para financiar os benefícios futuros acumulados 
+durante o período de serviço corrente dos participantes, 
+garantindo que as reservas sejam suficientes para cobrir 
+essas obrigações ao longo do tempo.
+* **C)** o custo suplementar em um plano é necessário quando 
+existem déficits atuariais, exigindo contribuições adicionais 
+para garantir a solvência e o equilíbrio financeiro, e 
+assegurando que os benefícios prometidos possam ser pagos.
+* **D)** o plano de equacionamento do déficit atuarial é desenvolvido 
+para estabelecer medidas específicas para corrigir déficits 
+identificados em um plano de previdência, incluindo ajustes 
+nas contribuições, mudanças nas premissas atuariais ou 
+modificações nos benefícios, assegurando a solvência e a 
+sustentabilidade do plano a longo prazo.
+* **E)** o plano de equacionamento do déficit atuarial deve garantir 
+não somente a solvência do plano, mas também preservar a 
+viabilidade financeira, fiscal e orçamentária do ente público 
+federativo patrocinador.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. O planejamento orienta a fase preparatória e a previsibilidade, mas não impede aditivos de readequação de cronograma justificados.
-> - **B)** **Correto**. O art. 5º c/c o art. 7º, § 1º, da Lei nº 14.133/2021 consagram o princípio da segregação de funções, segundo o qual é vedada a designação do mesmo agente público para atuação simultânea em funções mais suscetíveis a riscos, de modo a obstar que o mesmo servidor seja responsável por instruir a contratação, homologar o certame e fiscalizar a execução financeira.
-> - **C)** **Incorreto**. A vinculação ao edital não anula a autotutela administrativa (Súmula 473 do STF).
-> - **D)** **Incorreto**. O parecer jurídico é exigência geral na fase preparatória (art. 53), admitida dispensa apenas em casos estritamente previstos.
-> - **E)** **Incorreto**. A transparência impõe publicidade universal no Portal Nacional de Contratações Públicas (PNCP).
->
-> **Gabarito: B**
-### Teste 067
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Em consonância com as diretrizes de governança pública insculpidas no art. 11 da Lei Federal nº 14.133/2021, o processo licitatório tem por objetivos precípuos assegurar a seleção da proposta apta a gerar o resultado de contratação mais vantajoso. Sob a ótica da governança das contratações:
-
-* **A)** A alta administração deve implementar processos de gestão de riscos e controles preventivos.
-* **B)** O resultado vantajoso subordina-se com exclusividade ao menor valor monetário desembolsado no momento do pregão.
-* **C)** O tratamento isonômico autoriza o favorecimento imotivado de empresas locais sem expressa previsão legislativa.
-* **D)** O controle preventivo substitui integralmente a atuação fiscalizatória constitucional do Tribunal de Contas.
-* **E)** A governança das contratações é de observância restrita e facultativa aos órgãos da Administração Indireta.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correto**. O art. 11, parágrafo único, da Lei nº 14.133/2021 preconiza que a alta administração do órgão ou entidade é responsável pela governança das contratações e deve implementar processos e estruturas, inclusive gestão de riscos e controles internos, para avaliar, direcionar e monitorar os processos licitatórios e os respectivos contratos.
-> - **B)** **Incorreto**. O resultado mais vantajoso considera o ciclo de vida do objeto, sustentabilidade e custos indiretos de manutenção, e não apenas o desembolso inicial.
-> - **C)** **Incorreto**. A isonomia veda preferências arbitrárias, admitindo margem de preferência apenas nos estritos limites da lei.
-> - **D)** **Incorreto**. O controle interno governamental atua em cooperação com o controle externo, sem afastá-lo.
-> - **E)** **Incorreto**. A governança aplica-se obrigatoriamente a todos os órgãos da Administração Direta, autárquica e fundacional.
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
 > **Gabarito: A**
+
+---
+### Teste 067
+**(FGV – TCE-PA – Auditor de Controle Externo - Tecnologia da Informação – 2024)**
+No exercício de suas atribuições como auditor de controle 
+externo do Tribunal de Contas do Estado do Pará, para fins de 
+elaboração de certos contratos administrativos, Ednardo foi 
+instado a se manifestar acerca da existência de discricionariedade 
+quanto à previsão de matriz de alocação de riscos entre 
+contratante e contratado nos respectivos editais. 
+Nesse contexto, diante do disposto na Lei nº 14.133/2021, 
+Ednardo respondeu corretamente que
+
+* **A)** a previsão de matriz de risco submete -se à discricionariedade 
+da Administração em qualquer contrato, independente do 
+objeto ou do regime de execução.
+* **B)** há discricionariedade quanto à previsão de matriz de risco 
+nos contratos de fornecimento, nas locações e nos contratos 
+de obra, ainda que sejam realizados pelo regime da 
+contratação semi-integrada.
+* **C)** nos contratos de grande vulto, além de outras hipóteses 
+especificadas na lei de regência, notadamente quanto ao 
+regime de execução, não há discricionariedade com relação à 
+previsão de matriz de risco.
+* **D)** nas hipóteses de contratação pelos regimes de empreitada 
+integral e empreitada por preço global não há 
+discricionariedade da Administração acerca da previsão de 
+matriz de risco.
+* **E)** dentre os regimes de execução indireta previstos na norma 
+de regência, não há discricionariedade da Administração 
+quanto à previsão de matriz de risco apenas em relação ao da 
+contratação integrada. 
+
+Controle Externo
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: C**
+
+---
 ## 2. Agentes Públicos da Contratação e Segregação de Funções
 
 ### 2.1 O Agente de Contratação e o Pregoeiro
@@ -188,89 +236,146 @@ Se o agente público for demandado nas esferas judicial ou controladora (perante
 ---
 
 ### Teste 068
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A Lei nº 14.133/2021 inovou ao disciplinar a gestão por competências como critério obrigatório para a designação dos agentes públicos que atuam nas licitações e contratos (art. 7º). A respeito dos requisitos legais exigidos para a designação desses agentes:
+**(FGV – TCE-PA – Auditor de Controle Externo - Tecnologia da Informação – 2024)**
+No exercício de suas atribuições como auditor de controle 
+externo do Tribunal de Contas do Estado do Pará, para fins de 
+elaboração de certos contratos administrativos, Ednardo foi 
+instado a se manifestar acerca da existência de discricionariedade 
+quanto à previsão de matriz de alocação de riscos entre 
+contratante e contratado nos respectivos editais. 
+Nesse contexto, diante do disposto na Lei nº 14.133/2021, 
+Ednardo respondeu corretamente que
 
-* **A)** Os agentes designados devem ser preferencialmente servidores efetivos dos quadros permanentes.
-* **B)** A designação para funções de licitação prescinde de formação técnica prévia caso o servidor conte com dois anos de posse.
-* **C)** É permitida a designação de terceirizados como fiscais titulares de contratos por força do princípio da eficiência.
-* **D)** A autoridade pode designar cônjuge de licitante habitual do órgão desde que não atue no julgamento de propostas.
-* **E)** A capacitação continuada em contratações públicas constitui mera faculdade orçamentária dos entes municipais.
+* **A)** a previsão de matriz de risco submete -se à discricionariedade 
+da Administração em qualquer contrato, independente do 
+objeto ou do regime de execução.
+* **B)** há discricionariedade quanto à previsão de matriz de risco 
+nos contratos de fornecimento, nas locações e nos contratos 
+de obra, ainda que sejam realizados pelo regime da 
+contratação semi-integrada.
+* **C)** nos contratos de grande vulto, além de outras hipóteses 
+especificadas na lei de regência, notadamente quanto ao 
+regime de execução, não há discricionariedade com relação à 
+previsão de matriz de risco.
+* **D)** nas hipóteses de contratação pelos regimes de empreitada 
+integral e empreitada por preço global não há 
+discricionariedade da Administração acerca da previsão de 
+matriz de risco.
+* **E)** dentre os regimes de execução indireta previstos na norma 
+de regência, não há discricionariedade da Administração 
+quanto à previsão de matriz de risco apenas em relação ao da 
+contratação integrada. 
+
+Controle Externo
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correto**. O art. 7º, I, da Lei nº 14.133/2021 determina expressamente que os agentes públicos designados para o desempenho das funções essenciais à execução da lei devem ser, preferencialmente, servidores públicos efetivos ou empregados públicos pertencentes aos quadros permanentes da Administração Pública.
-> - **B)** **Incorreto**. O art. 7º, II, exige que os agentes tenham atribuições afins ou formação compatível ou comprovação de qualificação atestada por certificação profissional.
-> - **C)** **Incorreto**. A fiscalização de contratos é função pública típica indelegável a particulares terceirizados.
-> - **D)** **Incorreto**. O art. 7º, III, veda a designação de pessoas que mantenham relação de parentesco (cônjuge, companheiro ou parente até terceiro grau) com licitantes habituais.
-> - **E)** **Incorreto**. As escolas de governo devem obrigatoriamente promover a capacitação permanente dos agentes públicos.
->
-> **Gabarito: A**
-### Teste 069
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No âmbito do Tribunal de Contas, a comissão encarregada de planejar as contratações submeteu minuta de edital para seleção de agente de contratação e comissão de licitação. À luz das disposições do art. 8º da Lei nº 14.133/2021:
-
-* **A)** A licitação na modalidade pregão pode ser conduzida por leiloeiro oficial credenciado perante o tribunal.
-* **B)** O agente de contratação atua obrigatoriamente em colegiado de cinco membros em todos os certames licitados.
-* **C)** Em bens e serviços especiais, o agente pode ser substituído por comissão de contratação.
-* **D)** Em licitações de diálogo competitivo, a condução do certame cabe a pregoeiro singular nomeado pela mesa diretora.
-* **E)** O agente de contratação responde solidariamente por todos os atos praticados pela equipe de apoio durante a sessão.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreto**. O leiloeiro oficial atua exclusivamente na modalidade leilão para alienação de bens (art. 8º, § 2º).
-> - **B)** **Incorreto**. O agente de contratação atua ordinariamente de forma individual, auxiliado por equipe de apoio.
-> - **C)** **Correto**. O art. 8º, § 2º, da Lei nº 14.133/2021 preconiza que, em licitação que envolva bens ou serviços especiais, desde que observado o potencial de complexidade do objeto, o agente de contratação poderá ser substituído por comissão de contratação formada por, no mínimo, 3 (três) membros.
-> - **D)** **Incorreto**. O diálogo competitivo é conduzido obrigatoriamente por comissão de contratação composta por pelo menos três servidores efetivos (art. 32, § 1º, XI).
-> - **E)** **Incorreto**. A responsabilidade do agente é individual por seus atos decisórios; os membros da equipe de apoio respondem pelos pareceres técnicos que subscreverem.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
 > **Gabarito: C**
-### Teste 070
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O Diretor-Geral de uma autarquia estadual designou um mesmo servidor público efetivo para atuar como pregoeiro responsável pela condução do certame e, simultaneamente, como fiscal titular e ordenador de despesas do contrato decorrente. O ato de designação:
 
-* **A)** É válido e eficiente, pois a concentração de funções reduz custos operacionais em estruturas autárquicas pequenas.
-* **B)** É nulo por violar a segregação de funções e o art. 7º, § 1º da Lei nº 14.133/2021.
-* **C)** É convalidável pela autoridade supervisora mediante expedição de portaria ratificadora de aprovação técnica.
-* **D)** Exige a concordância do servidor nomeado para que produza efeitos de exoneração da responsabilidade fiscalizatória.
-* **E)** Subordina-se à homologação discricionária do Tribunal de Contas para aferição da conveniência e oportunidade.
+---
+### Teste 069
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+Para o licenciamento ambiental de uma obra, dois documentos 
+que são produzidos: o EIA e o RIMA. 
+A principal diferença entre eles é que
+
+* **A)** o EIA se destina a obras de grande porte, enquanto o RIMA se 
+destina a obras de grande porte.
+* **B)** o EIA deve ser elaborado antes da execução da obra, 
+enquanto o RIMA é elaborado após a conclusão da obra.
+* **C)** o EIA é mais técnico e complexo, enquanto o RIMA é mais 
+conciso e com linguajar mais adequado ao público geral.
+* **D)** o EIA é elaborado por especialistas em meio ambiente, 
+enquanto o RIMA é realizado por especialistas em engenharia 
+civil.
+* **E)** o EIA aborda os aspectos mais gerais de uma obra, enquanto 
+o RIMA aborda aspectos mais específicos e que necessitam 
+um melhor detalhamento.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A limitação de pessoal não autoriza a quebra de salvaguardas essenciais da probidade administrativa.
-> - **B)** **Correto**. O art. 7º, § 1º, da Lei nº 14.133/2021 estabelece que o princípio da segregação de funções veda expressamente a designação do mesmo agente público para atuação simultânea em funções mais suscetíveis a riscos, a fim de mitigar a ocorrência de fraudes e conflitos de interesse. A cumulação das funções de condutor do certame, fiscalizador de execução e ordenador de despesas vicia o ato com nulidade insanável.
-> - **C)** **Incorreto**. Vício de violação cogente à segregação de funções constitui ilegalidade material insuscetível de convalidação.
-> - **D)** **Incorreto**. O vício é objetivo e independe da vontade ou aquiescência individual do agente designado.
-> - **E)** **Incorreto**. O controle pelo Tribunal de Contas opera a posteriori na fiscalização de legalidade e conformidade.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: C**
+
+---
+### Teste 070
+**(FGV – TRT-DA 13-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2022)**
+Considere como verdadeiras as seguintes sentenças: 
+ Se Gerson não é torcedor do Botafogo, então Luiz é torcedor 
+do Treze. 
+ Se Luiz é torcedor do Treze, então Débora não é torcedora do 
+Campinense. 
+ Se Débora não é torcedora do Campinense, então Lúcia é 
+torcedora do Botafogo. 
+ Lúcia não é torcedora do Botafogo. 
+É correto concluir que
+
+* **A)** Luiz é torcedor do Treze.
+* **B)** Gerson é torcedor do Botafogo.
+* **C)** Luiz não é torcedor do Botafogo.
+* **D)** Débora é torcedora do Campinense.
+* **E)** Lúcia é torcedora do Treze. 
+
+Atualidades
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
 > **Gabarito: B**
-### Teste 071
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O art. 10 da Lei Federal nº 14.133/2021 estabelece importante prerrogativa funcional aos agentes públicos que atuam nas licitações e contratos estatais. Caso o servidor responda a processo judicial ou administrativo em razão de ato praticado no exercício regular de suas funções e em consonância com pareceres técnicos e jurídicos:
 
-* **A)** Caberá à advocacia pública que orientou a contratação exercer a sua representação judicial ou extrajudicial.
-* **B)** O servidor deve contratar advogado particular às suas próprias expensas sem direito a qualquer ressarcimento.
-* **C)** O Tribunal de Contas arcará com os custos periciais caso a manifestação fiscalizatória tenha ensejado a ação.
-* **D)** A representação pela advocacia pública aplica-se mesmo em caso de comprovada má-fé ou conluio doloso do agente.
-* **E)** A defesa técnica pelo órgão jurídico condiciona-se à prévia autorização da Assembleia Legislativa estadual.
+---
+### Teste 071
+**(FCC – TRT-2 – Analista Judiciário - Tecnologia da Informação – 2014)**
+Durante procedimento licitatório, na fase de homologação,  o Poder Público apercebeu-se que a execução do serviço objeto da 
+licitação não mais atendia ao interesse público que motivou a abertura do certame, em razão de situação incontornável, 
+decorrente de fato superveniente à sua instauração, devidamente comprovado. Nessa condição, a autoridade competente 
+superior, após receber o processo de licitação, deve
+
+* **A)** revogar a licitação, por ato devidamente motivado, assegurando-se aos interessados o contraditório e a ampla defesa.
+* **B)** anular o procedimento por razão de interesse público, não havendo obrigação de indenização, porque os licitantes não têm 
+direito subjetivo à contratação.
+* **C)** homologar o ato de resultado final da Comissão de Licitação, confirmando a validade do certame e adjudicando o objeto da 
+licitação ao vencedor do certame, que tem direito subjetivo à contratação.
+* **D)** anular o procedimento por razões de ordem administrativa, ficando a Administração obrigada a indenizar os participantes 
+da licitação.
+* **E)** revogar a licitação, por motivo de legalidade, não havendo obrigação legal de assegurar o contraditório e a ampla defesa, 
+porque os licitantes não têm direito subjetivo à contratação.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correto**. O art. 10, caput, da Lei nº 14.133/2021 consagra que, se o agente público que tiver participado de procedimentos relacionados a licitações e contratos for demandado em juízo ou perante órgãos de controle por ato praticado com estrita observância de orientação constante em parecer jurídico emitido na forma do art. 53, caberá à advocacia pública competente exercer sua representação judicial ou extrajudicial.
-> - **B)** **Incorreto**. A advocacia pública assume originariamente a defesa; e caso o servidor opte por advogado privado e seja absolvido, fará jus ao ressarcimento das despesas (art. 10, § 2º).
-> - **C)** **Incorreto**. Não cabe aos Tribunais de Contas patrocinar ou custear despesas defensivas individuais de jurisdicionados.
-> - **D)** **Incorreto**. O art. 10, § 1º veda a representação jurídica se houver indícios de prática de ato ilícito doloso do agente.
-> - **E)** **Incorreto**. A atuação da advocacia pública decorre de imposição legal vinculada e dispensa autorização parlamentar.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
 >
-> **Gabarito: A**
+> **Gabarito: E**
+
+---
 ## 3. Planejamento das Contratações e Instrumentos Preparatórios
 
 A Lei nº 14.133/2021 consagrou a centralidade da **fase preparatória**, superando a cultura de contratações improvisadas.
@@ -318,91 +423,139 @@ flowchart TD
 ---
 
 ### Teste 072
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O Tribunal iniciou o planejamento da contratação para o desenvolvimento de uma nova solução tecnológica com vistas a integrar os sistemas processuais eletrônicos. No âmbito da fase preparatória, a equipe de planejamento da contratação elaborou o Estudo Técnico Preliminar (ETP) com fundamento no art. 18 da Lei Federal nº 14.133/2021. 
+**(FGV – TRT-13 – Analista Judiciário - Tecnologia da Informação – 2022)**
+Considere como verdadeiras as seguintes sentenças: 
+ Se Gerson não é torcedor do Botafogo, então Luiz é torcedor 
+do Treze. 
+ Se Luiz é torcedor do Treze, então Débora não é torcedora do 
+Campinense. 
+ Se Débora não é torcedora do Campinense, então Lúcia é 
+torcedora do Botafogo. 
+ Lúcia não é torcedora do Botafogo. 
+É correto concluir que
 
-A respeito dos elementos essenciais e da finalidade do Estudo Técnico Preliminar, é correto afirmar que o ETP:
+* **A)** Luiz é torcedor do Treze.
+* **B)** Gerson é torcedor do Botafogo.
+* **C)** Luiz não é torcedor do Botafogo.
+* **D)** Débora é torcedora do Campinense.
+* **E)** Lúcia é torcedora do Treze. 
 
-* **A)** consiste no instrumento contratual definitivo que fixa as sanções cominatórias aos fornecedores licitados.
-* **B)** evidencia o problema a ser resolvido e a melhor solução entre as alternativas possíveis no mercado fornecedor.
-* **C)** substitui integralmente a necessidade de confecção do Termo de Referência em obras complexas de engenharia.
-* **D)** prescinde de estimativa preliminar de preços quando a contratação envolver licenças proprietárias de software.
-* **E)** é de elaboração facultativa em todas as aquisições de soluções de tecnologia da informação e comunicação.
+Atualidades
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. O ETP é documento constitutivo da fase preparatória e de planejamento interno, e não contrato executivo.
-> - **B)** **Correto**. O art. 18, § 1º, da Lei nº 14.133/2021 define com precisão: "O estudo técnico preliminar deverá evidenciar o problema a ser resolvido e a sua melhor solução, de modo a permitir a avaliação da viabilidade técnica e econômica da contratação". O ETP fundamenta o Termo de Referência após comparar as opções do mercado.
-> - **C)** **Incorreto**. O ETP não substitui o Termo de Referência nem o Projeto Básico; serve de base e subsídio para a sua elaboração.
-> - **D)** **Incorreto**. A estimativa do valor da contratação é elemento obrigatório do ETP (art. 18, § 1º, VI).
-> - **E)** **Incorreto**. A regra geral é a obrigatoriedade do ETP, admitidas dispensas pontuais taxativas.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
 > **Gabarito: B**
+
+---
 ### Teste 073
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Durante a fase preparatória de uma contratação de serviços técnicos especializados de consultoria atuarial, a equipe de planejamento autárquica elaborou Estudo Técnico Preliminar simplificado. Nos termos do art. 18, § 2º, da Lei Federal nº 14.133/2021, constituem elementos OBRIGATÓRIOS indeclináveis que devem figurar em qualquer ETP:
+**(FGV – TRF-1 – Analista Judiciário - Tecnologia da Informação – 2024)**
+O TRF1 iniciou o planejamento da contratação para o 
+desenvolvimento de uma nova solução tecnológica.  
+A equipe de planejamento da contratação registrou, no estudo 
+técnico preliminar, que a solução está aderente aos requisitos 
+técnicos da plataforma digital do Poder Judiciário brasileiro 
+(PDPJ-Br). 
+Considerando a política pública para a governança e gestão do 
+processo judicial eletrônico, a contratação da solução 
+tecnológicas será proibida se:
 
-* **A)** A descrição da necessidade, a estimativa do valor e o parecer conclusivo de viabilidade.
-* **B)** A comprovação prévia de regularidade fiscal de três licitantes concorrentes e a minuta de contrato assinada.
-* **C)** O cronograma físico-financeiro detalhado com metodologia BIM para todos os serviços intelectuais comuns.
-* **D)** A indicação nominal dos auditores do Tribunal de Contas que acompanharão a fase de execução orçamentária.
-* **E)** A declaração formal de renúncia a recursos administrativos por parte dos prestadores interessados no objeto.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correto**. Embora o art. 18, § 1º da Lei nº 14.133/2021 enumere 13 incisos, o § 2º determina que são OBRIGATÓRIOS em qualquer ETP os seguintes itens essenciais: I - descrição da necessidade da contratação; IV - estimativas das quantidades acompanhadas das memórias de cálculo; VI - estimativa do valor da contratação; VIII - justificativas para o parcelamento ou não da solução; e XIII - posicionamento conclusivo sobre a adequação e a viabilidade técnica e econômica da contratação.
-> - **B)** **Incorreto**. A regularidade fiscal dos licitantes é aferida na fase de habilitação, não no ETP preparatório.
-> - **C)** **Incorreto**. A metodologia BIM é obrigatória para obras de engenharia (art. 19, § 3º), não para serviços comuns.
-> - **D)** **Incorreto**. O Tribunal de Contas não compõe a equipe de planejamento do órgão jurisdicionado.
-> - **E)** **Incorreto**. É vedada a renúncia prévia a direitos e recursos administrativos legalmente previstos.
->
-> **Gabarito: A**
-### Teste 074
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Na fase preparatória das contratações regidas pela Lei nº 14.133/2021, a caracterização adequada do objeto a ser licitado materializa-se em documentos técnicos específicos. A respeito da distinção conceitual e aplicabilidade do Termo de Referência (TR), do Projeto Básico (PB) e do Projeto Executivo (PE):
-
-* **A)** O Termo de Referência aplica-se à contratação de obras de engenharia, ao passo que o Projeto Básico destina-se a compras.
-* **B)** O Projeto Executivo compreende todos os elementos necessários para estimar o custo, prescindindo de detalhamento.
-* **C)** O Termo de Referência é o documento preparatório para aquisição de bens e contratação de serviços em geral.
-* **D)** O Projeto Básico dispensa a indicação de matriz de riscos mesmo nas obras licitadas sob regime de contratação integrada.
-* **E)** O Termo de Referência pode ser substituído por cotação telefônica de preços nas licitações de grande vulto financeiro.
+* **A)** atender a peculiaridades regionais do Tribunal;
+* **B)** causar redução dos custos com ações isoladas;
+* **C)** causar dependência tecnológica do fornecedor;
+* **D)** permitir o compartilhamento da solução na PDPJ-Br;
+* **E)** permitir a coexistência com outras soluções da PDPJ-Br.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. Ocorre o oposto: Termo de Referência é para bens e serviços em geral (art. 6º, XXIII); Projeto Básico é para obras e serviços de engenharia (art. 6º, XXV).
-> - **B)** **Incorreto**. O Projeto Executivo é o nível máximo de detalhamento executivo e construtivo de engenharia (art. 6º, XXVI).
-> - **C)** **Correto**. O art. 6º, XXIII, da Lei nº 14.133/2021 conceitua Termo de Referência como o "documento necessário para a contratação de bens e serviços, que deve conter os seguintes parâmetros e elementos descritivos: definição do objeto, fundamentação da contratação, requisitos da contratação, modelo de gestão do contrato, critérios de medição e de pagamento, estimativa de valor e adequação orçamentária".
-> - **D)** **Incorreto**. O Projeto Básico ou o anteprojeto na contratação integrada exige obrigatoriamente a matriz de alocação de riscos.
-> - **E)** **Incorreto**. A formalização do TR é obrigatória e rigorosa, insuscetível de substituição informal.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
 > **Gabarito: C**
-### Teste 075
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Em licitação de obra de engenharia de grande vulto (valor estimado superior a duzentos milhões de reais), a Administração estadual incluiu no edital a Matriz de Alocação de Riscos entre o contratante público e o contratado privado. Segundo o art. 103 da Lei Federal nº 14.133/2021:
 
-* **A)** A inclusão da matriz de riscos é vedada nas contratações integradas por transferir ônus ao parceiro particular.
-* **B)** A matriz de riscos define o equilíbrio econômico-financeiro originário quanto aos eventos supervenientes ali alocados.
-* **C)** Os riscos ordinários atribuídos contratualmente à empresa contratada autorizam pedido de reequilíbrio tarifário ao Estado.
-* **D)** A matriz de riscos afasta a responsabilidade do construtor por defeitos de solidez e segurança previstos no Código Civil.
-* **E)** A alocação de riscos aos particulares dispensa a prestação de garantia contratual na execução de obras rodoviárias.
+---
+### Teste 074
+**(FGV – TRF-1 – Analista Judiciário - Tecnologia da Informação – 2024)**
+Para além dos p rincípios previstos expressamente no Art. 37, 
+caput, da CRFB/1988, as normas que versam sobre direito 
+administrativo costumam elencar outros princípios relacionados 
+às respectivas matérias (setoriais), tal como se observa no Art. 2º 
+da Lei nº 9.784/1999, q ue trata do processo administrativo, e no 
+Art. 5º da Lei nº 14.133/2021, que trata de licitações e contratos. 
+Nesse contexto, os princípios que NÃO estão no aludido 
+dispositivo constitucional, mas que constam textualmente das 
+referidas normas, são, respectivamente:
+
+* **A)** impessoalidade e vinculação ao edital;
+* **B)** segregação de funções e moralidade;
+* **C)** motivação e publicidade;
+* **D)** proporcionalidade e planejamento;
+* **E)** probidade administrativa e eficiência. 
+
+
+Noções de Direito Constitucional
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A matriz de riscos é OBRIGATÓRIA nas contratações de grande vulto e nas contratações integradas e semi-integradas (art. 22, § 3º).
-> - **B)** **Correto**. Conforme o art. 103 da Lei nº 14.133/2021, o contrato pode identificar os riscos contratuais previstos e presumíveis e alocá-los entre contratante e contratado. O § 4º do art. 103 é categórico: "A matriz de alocação de riscos define o equilíbrio econômico-financeiro inicial do contrato em relação aos eventos supervenientes nela previstos, e é vedada a celebração de aditivos com fundamento em eventos cuja responsabilidade tenha sido assumida pela parte contratante ou contratada". Se o evento danoso estiver atribuído ao contratado na matriz, ele não pode pleitear reequilíbrio econômico-financeiro.
-> - **C)** **Incorreto**. Os riscos assumidos pela contratada impedem a repactuação ou revisão contratual fundada no fato ocorrido.
-> - **D)** **Incorreto**. A responsabilidade civil legal por solidez da obra (art. 618 do Código Civil) é cogente e inafastável.
-> - **E)** **Incorreto**. As exigências de seguro-garantia são mantidas e reforçadas para contratos de grande vulto (art. 99 da NLLC).
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
-> **Gabarito: B**
+> **Gabarito: C**
+
+---
+### Teste 075
+**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**
+O conceito de serviço de atendimento a usuários costu-
+mava se referir a uma orientação do bibliotecário para o 
+usuário realizar uma pesquisa e localizar um item no 
+espaço da biblioteca. Hoje conhecido como serviço de 
+referência e informação, esse conceito evoluiu para a 
+visão cuja essência está em
+
+* **A)** acompanhar o usuário durante todo o processo de 
+busca de informação.
+* **B)** auxiliar leitores no momento da utilização de docu-
+mentos com a finalidade de estudo e pesquisa.
+* **C)** responder perguntas e orientar o consulente no uso 
+das obras de referência.
+* **D)** mostrar boa vontade para prestar qualquer serviço, 
+criando um ambiente amistoso no qual o leitor se 
+sinta à vontade.
+* **E)** ligar pessoas com uma necessidade de informação 
+a um serviço capacitado para satisfazer essa 
+necessidade. 
+_________________________________________________________
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: C**
+
+---
 ## 4. O Portal Nacional de Contratações Públicas (PNCP)
 
 ### 4.1 Natureza e Atribuições Centrais do Portal
@@ -423,26 +576,36 @@ O **Portal Nacional de Contratações Públicas (PNCP)**, disciplinado pelos art
 ---
 
 ### Teste 076
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O Estado de Goiás homologou seu Plano de Contratações Anual (PCA), consolidando todas as demandas de compras e serviços pretendidas pelos órgãos estaduais para o exercício financeiro subsequente. A respeito do Plano de Contratações Anual na disciplina da Lei Federal nº 14.133/2021:
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+De acordo com o Pronunciamento Técnico CPC 00 (R2) - Estrutura 
+Conceitual para Relatório Financeiro, a Estrutura Conceitual 
+estabelece a base para pronunciamentos que contribuem para a 
+eficiência econômica, ajudando os investidores a
 
-* **A)** O PCA tem por objetivo primordial subsidiar a elaboração das leis orçamentárias e evitar o fracionamento indevido.
-* **B)** O plano aprovado adquire caráter imutável, vedada a inserção de novas aquisições mesmo diante de calamidade pública.
-* **C)** A elaboração do PCA dispensa a divulgação em sítio eletrônico oficial por conter dados estratégicos da gestão.
-* **D)** O plano anual restringe-se às compras dispensáveis por baixo valor, não alcançando contratações vultosas.
-* **E)** A execução de compras desvinculadas do PCA extingue automaticamente a vigência da Lei Orçamentária Anual.
+* **A)** conhecer talentos globalmente, aprimorando a qualidade de 
+mão de obra.
+* **B)** identificar oportunidades e riscos em todo o mundo, 
+melhorando a alocação de capital.
+* **C)** aumentar o conhecimento em relação a seus investimentos, 
+diminuindo o risco de oportunidade.
+* **D)** receber informações e relatórios com maior velocidade, 
+aumentando a agilidade em suas escolhas.
+* **E)** melhorar a comunicação com as suas investidas, 
+desenvolvendo um relacionamento mais vantajoso.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correto**. O art. 12, VII, da Lei Federal nº 14.133/2021 estabelece que a fase preparatória das contratações deve alinhar-se com o Plano de Contratações Anual, elaborado com o objetivo de racionalizar as contratações dos órgãos e entidades sob sua jurisdição, garantir o alinhamento com o planejamento estratégico, subsidiar a elaboração das respectivas leis orçamentárias e evitar o parcelamento/fracionamento indevido de despesas.
-> - **B)** **Incorreto**. O PCA é instrumento dinâmico e flexível, admitindo revisões e inclusões justificadas ao longo do exercício.
-> - **C)** **Incorreto**. O PCA deve ser divulgado publicamente no Portal Nacional de Contratações Públicas (PNCP) e em sítio oficial.
-> - **D)** **Incorreto**. O plano consolida todas as aquisições planejadas, prioritariamente as compras e serviços continuados e de vulto.
-> - **E)** **Incorreto**. A inobservância do PCA enseja apuração de responsabilidade de planejamento, sem afetar a vigência da LOA.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
 >
-> **Gabarito: A**
+> **Gabarito: E**
+
+---
 ## 5. Fontes Recomendadas na Internet
 
 - [Lei Federal nº 14.133/2021 - Arts. 1º a 27 e 174 a 176 (Governança, Planejamento e PNCP)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art1)  

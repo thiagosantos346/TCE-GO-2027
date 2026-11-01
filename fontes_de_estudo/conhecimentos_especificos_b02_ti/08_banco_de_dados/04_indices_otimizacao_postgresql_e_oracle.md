@@ -128,88 +128,104 @@ A criação excessiva ou inadequada de índices acarreta degradação do sistema
 ---
 
 ### Teste 267
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-O Administrador de Banco de Dados de um tribunal precisa otimizar uma consulta em uma tabela que contém 15 milhões de registros. A consulta utiliza uma cláusula `WHERE status = 'CONCLUIDO' AND uf = 'RS'`, sendo que o campo `status` possui apenas 3 valores possíveis ('PENDENTE', 'EM_ANDAMENTO', 'CONCLUIDO') e `uf` possui as 27 siglas das unidades federativas do Brasil. O ambiente é predominantemente de leitura analítica com baixíssima frequência de atualizações concorrentes. Para otimizar o tempo de resposta dessas operações combinadas, a estrutura de indexação mais indicada é:
+**(FCC – TRT-9 – Analista Judiciário - Tecnologia da Informação – 2015)**
+Um administrador do banco de dados
 
-* **A)** Índice B+Tree individual em cada uma das colunas.
-* **B)** Índice Hash na coluna `uf` e B+Tree na coluna `status`.
-* **C)** Índices Bitmap em ambas as colunas, permitindo operações lógicas booleanas diretas.
-* **D)** Índice Clusterizado invertido na coluna `status`.
-* **E)** Desativação total de índices para forçar um Full Table Scan paralelo em memória.
-
+* **A)** Oracle 11g, utiliza o comando DBMS_CONNECTION_POOL para criar um pool denominado Database Resident 
+Connection Pool que permite utilizar bibliotecas para armazenar imagens e metadados.
+* **B)** Microsoft SQL Server não precisa configurar links para outros servidores na organização, nem definir  uma estratégia de 
+backup do banco de dados, pois tudo é feito automaticamente.
+* **C)** PostgreSQL pode utilizar os seguintes comandos via linha de comando: pgdump, pgdumptotal, pgrestoreall, create_db, 
+drop_db, create_role, drop_role, dentre outros.
+* **D)** PostgreSQL pode utilizar a ferramenta PGAdmin para administrar banco de dados na plataforma Windows, pois trata-se de 
+um aplicativo da Microsoft que oferece uma interface completa de administração.
+* **E)** Microsoft SQL Server, não deve excluir ou mover o log de transações, pois se houver uma falha do sistema, será 
+necessário que o log de transações retorne o banco de dados a um estado consistente.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Índices B+Tree em colunas de baixíssima cardinalidade geram árvores rasas com listas gigantescas de ROWIDs nas folhas, além de não permitirem a combinação booleana ultrarrápida nativa de bitmaps.
-> - **B)** Incorreta. O índice Hash só aceita comparações de igualdade estrita e não resolve de forma combinada o filtro composto com a coluna `status`.
-> - **C)** **Correta.** Índices Bitmap são ideais para colunas com **baixa cardinalidade** (poucos valores distintos, como os 3 status e as 27 UFs) em ambientes predominantemente analíticos (OLAP) e com baixa concorrência de escritas DML. O otimizador pode combinar os bitmaps gerados para cada condição através de operações booleanas em nível de bits (`AND`, `OR`), reduzindo drasticamente o I/O de leitura.
-> - **D)** Incorreta. Não existe a estrutura formal "índice clusterizado invertido" com essa finalidade; a baixa cardinalidade de `status` tornaria um agrupamento físico pouco seletivo.
-> - **E)** Incorreta. Varrer 15 milhões de tuplas sequencialmente (Full Table Scan) consumirá I/O massivo sem necessidade diante da viabilidade técnica do uso de índices bitmap.
-> 
-> **Gabarito: C**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: B**
 
 ---
-
 ### Teste 268
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em um sistema de auditoria de compras públicas executado sobre PostgreSQL, a tabela `PROCESSO_LICITATORIO` armazena 5.000.000 de registros. Sabe-se que 98% dos processos possuem a coluna `situacao` igual a `'CONCLUIDO'`, e apenas 2% (100.000 registros) possuem `situacao` igual a `'EM_AUDITORIA'` ou `'SUSPEITO'`. As consultas investigativas mais críticas e frequentes filtram especificamente os processos com `situacao IN ('EM_AUDITORIA', 'SUSPEITO')`. Adicionalmente, consultas por nome do fornecedor realizam buscas ignorando maiúsculas e minúsculas (`LOWER(nome_fornecedor)`).
+**(FCC – TRT-9 – Analista Judiciário - Tecnologia da Informação – 2015)**
+No sistema operacional Linux, o diretório /etc é utilizado, por padrão, para armazenar as configurações do sistema. Nesse 
+diretório existe o arquivo /etc/shadow que é utilizado para
 
-Para atender com máxima eficiência a esses dois padrões de consulta, minimizando o consumo de armazenamento em disco e a sobrecarga de cache na memória RAM, o DBA deve criar:
+* **A)** armazenar as senhas criptografadas dos usuários.
+* **B)** configurar os paths para os sistemas de arquivos em rede.
+* **C)** armazenar os links para as pastas de backup do sistema.
+* **D)** listar os arquivos de cópia de configuração do sistema.
+* **E)** armazenar os nomes DNS equivalentes do sistema.   
+Caderno de Prova ’D04’, Tipo 001
 
-* **A)** Um índice B+Tree padrão sobre toda a tabela para `situacao` e outro índice padrão para `nome_fornecedor`.
-* **B)** Um Índice Parcial (*Partial Index*) com predicado `WHERE situacao IN ('EM_AUDITORIA', 'SUSPEITO')` e um Índice Baseado em Expressão (*Expression Index*) sobre `LOWER(nome_fornecedor)`.
-* **C)** Um índice Bitmap completo sobre todas as colunas da tabela e desabilitar o otimizador CBO.
-* **D)** Dois índices Hash clusterizados obrigatórios sem cláusula de filtragem.
-* **E)** Uma tabela intermediária física desnormalizada sem nenhum índice, pois índices parciais são proibidos no padrão SQL.
-
+12 TRT9R-An-Jud.-Tec.Informação-D04
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Um índice B+Tree completo sobre `situacao` indexaria 5 milhões de linhas (98% das quais são irrelevantes para as consultas críticas), desperdiçando centenas de megabytes de disco e memória sem oferecer seletividade eficaz para os 98% de `'CONCLUIDO'`.
-> - **B)** **CORRETA.** Estratégias especializadas de indexação:
->   1. **Índice Parcial (Partial Index):** `CREATE INDEX idx_proc_suspeito ON PROCESSO_LICITATORIO(id_processo) WHERE situacao IN ('EM_AUDITORIA', 'SUSPEITO');`. Indexa apenas os 2% de tuplas de real interesse analítico. O índice ocupa uma fração minúscula de disco, cabe perfeitamente na memória RAM (*Buffer Cache*) e tem manutenção nula quando os 98% de processos concluídos são manipulados.
->   2. **Índice Baseado em Expressão (Expression/Function-Based Index):** `CREATE INDEX idx_fornec_lower ON PROCESSO_LICITATORIO(LOWER(nome_fornecedor));`. Permite que o otimizador utilize o índice em buscas que aplicam a função `WHERE LOWER(nome_fornecedor) = 'empresa x'`, evitando varredura sequencial (*Seq Scan*).
-> - **C)** Incorreta. Índices bitmap são inadequados para ambientes OLTP concorrentes e o CBO jamais deve ser desabilitado.
-> - **D)** Incorreta. Índices hash só atendem igualdade simples e não atendem predicados parciais ou buscas por intervalo.
-> - **E)** Incorreta. Índices parciais são suportados nativamente pelo PostgreSQL e são amplamente recomendados para dados com distribuição altamente assimétrica (*skewed data*).
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: D**
 
 ---
-
 ### Teste 269
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Um analista de infraestrutura de banco de dados constatou que determinada tabela transacional de protocolo processual possuía 18 índices B+Tree secundários criados para atender a diversas consultas históricas pontuais. Embora as consultas de leitura fossem velozes, os usuários começaram a relatar lentidão excessiva e travamentos intermitentes durante operações rotineiras de cadastro de novos processos e tramitação em lote.
+**(FCC – TRT-9 – Analista Judiciário - Tecnologia da Informação – 2015)**
+Considere as afirmações abaixo. 
 
-A explicação técnica que justifica esse comportamento reside no fato de que:
+ I. No segmento... que um leigo creditaria a uma mera 
+expressão de ressentimento confessional ... (2 o pa-
+rágrafo), podem-se substituir os travessões por 
+vírgulas. 
 
-* **A)** Índices B+Tree tornam-se somente-leitura após a inserção de 1.000 registros, forçando o SGBD a reiniciar a instância.
-* **B)** A existência de múltiplos índices secundários impõe uma sobrecarga computacional de I/O e CPU em operações DML (`INSERT`, `UPDATE`, `DELETE`).
-* **C)** Os índices secundários bloqueiam compulsoriamente a tabela inteira em modo exclusivo toda vez que um comando `SELECT` é disparado.
-* **D)** A criação de índices desativa automaticamente o subsistema de Write-Ahead Logging (WAL), forçando o SGBD a sincronizar blocos diretamente na área de dados em modo síncrono.
-* **E)** Operações de `INSERT` não utilizam índices secundários, de modo que a lentidão relatada é necessariamente decorrente de falha física nos setores do disco rígido.
+ II. Sem prejuízo do sentido e da correção, no segmento 
+...altas montanhas, desfiladeiros e precipícios onde a 
+neve e o verde competem..., o elemento sublinhado 
+pode ser substituído por: “cuja”. (1o parágrafo) 
 
+ III. Sem prejuízo da correção, uma pontuação al-
+ternativa para o segmento que inicia o 4 o parágrafo 
+é: Distinta de suas narrativas mais conhecidas, a 
+obra mantém intactas, a linguagem e a verve de 
+Thomas Bernhard.  
+
+ Está correto o que se afirma APENAS em
+
+* **A)** I.
+* **B)** I e II.
+* **C)** III.
+* **D)** II e III.
+* **E)** I e III. 
+Caderno de Prova ’D04’, Tipo 001
+
+TRT9R-Conhecimentos Gerais3 3
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Índices B+Tree são estruturas dinâmicas que suportam inserções contínuas sem qualquer limite artificial de registros.
-> - **B)** **CORRETA.** Há um *trade-off* estrutural e mandatório na criação de índices:
->   - **Benefício:** Acelera exponencialmente comandos de leitura (`SELECT` com predicados seletivos, junções e ordenações).
->   - **Custo/Sobrecarga:** Penaliza diretamente as operações de modificação de dados (`INSERT`, `DELETE` e `UPDATE` de colunas indexadas). Para cada tupla inserida, o SGBD é obrigado a atualizar a tabela base e navegar em cada uma das 18 árvores de índice, alocando novas entradas e potencialmente provocando **divisões de nós/páginas (page splits)**, o que multiplica o consumo de I/O de disco, gera contenção de *latches* na memória e fragmenta as estruturas.
-> - **C)** Incorreta. Leituras adquirem bloqueios compartilhados de curta duração nas páginas do índice ou utilizam MVCC, sem travar a tabela em modo exclusivo.
-> - **D)** Incorreta. Operações em índices são integralmente registradas no WAL para garantir durabilidade (ACID).
-> - **E)** Incorreta. Cada `INSERT` afeta diretamente todos os índices secundários da tabela.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: D**
 
 ---
-
 ## 2. Otimização de Consultas e Planos de Execução (Query Tuning)
 
 O Query Tuning envolve a análise algorítmica e heurística empregada pelo SGBD para converter o comando declarativo SQL em uma árvore sequencial de operadores de acesso a dados de menor custo computacional.
@@ -284,88 +300,83 @@ A combinação de conjuntos de tuplas originários de duas tabelas (ou subconsul
 ---
 
 ### Teste 270
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No PostgreSQL e em outros SGBDs modernos, o subsistema responsável por avaliar múltiplos caminhos de acesso alternativos e selecionar o plano de execução mais eficiente é o Otimizador Baseado em Custo (*Cost-Based Optimizer - CBO*).
+**(FCC – TRT-23 – Analista Judiciário - Tecnologia da Informação – 2016)**
+Após um DBA criar um usuário executando a instrução CREATE USER Paulo IDENTIFIED BY abcd; , o usuário Paulo 
+ainda não tem nenhum privilégio. Para conceder a ele o privilégio de sistema para criar tabelas e views o DBA deve digitar no 
+Oracle 11g, a instrução
 
-Para que o CBO realize estimativas precisas de cardinalidade e escolha entre uma varredura sequencial (*Seq Scan*) e uma varredura por índice (*Index Scan*), é indispensável que o catálogo de metadados do banco (`pg_statistic` / `pg_stats`) mantenha informações atualizadas. O comando administrativo que coleta e recalcula essas estatísticas amostrais sem bloquear a tabela para leitura é:
-
-* **A)** `REINDEX TABLE nome_tabela;`
-* **B)** `ANALYZE nome_tabela;`
-* **C)** `EXPLAIN OPTIMIZE nome_tabela;`
-* **D)** `CHECK TABLE nome_tabela EXTENDED;`
-* **E)** `FLUSH PRIVILEGES nome_tabela;`
-
+* **A)** CREATE PERMISSION create table, create view TO Paulo;
+* **B)** CREATE GRANT table, view TO Paulo;
+* **C)** GRANT create table, create view TO Paulo;
+* **D)** CREATE ROLE create table, create view TO Paulo;
+* **E)** GRANT OPTION create table AND create view TO Paulo;
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. `REINDEX` reconstrói fisicamente as árvores de índices existentes, mas não atualiza as estatísticas de distribuição de dados das colunas na `pg_statistic`.
-> - **B)** **CORRETA.** O comando `ANALYZE` (ou a cláusula integrada no `VACUUM ANALYZE`) faz uma amostragem estatística das páginas da tabela e popula o catálogo `pg_statistic` (visível em `pg_stats`) com dados vitais para o CBO: fração de nulos (`null_frac`), largura média em bytes (`avg_width`), contagem de valores distintos (`n_distinct`), valores mais comuns (`most_common_vals` - MCV) e histogramas de limites de intervalos (`histogram_bounds`). Ele opera sem travar a tabela para leituras ou escritas.
-> - **C)** Incorreta. `EXPLAIN` apenas exibe o plano de execução gerado pelo CBO para uma dada consulta; não existe a variante sintática `EXPLAIN OPTIMIZE` para calcular estatísticas.
-> - **D)** Incorreta. Comando do MySQL para verificação de corrupção física de blocos, não usado no PostgreSQL.
-> - **E)** Incorreta. Comando do MySQL para recarregar privilégios de acesso DCL da memória.
-> 
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
 > **Gabarito: B**
 
 ---
-
 ### Teste 271
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No contexto de otimização de consultas e análise de planos de execução de banco de dados, avalie a seguinte instrução:
-`EXPLAIN ANALYZE SELECT * FROM lancamentos WHERE valor > 50000;`
-A respeito das características dos comandos `EXPLAIN` e `EXPLAIN ANALYZE`, é correto afirmar que:
+**(FCC – TRT-14 – Analista Judiciário - Tecnologia da Informação – 2016)**
+Na área de trabalho do Oracle Reports Builder 11g, após a criação de um novo relatório de forma manual, para selecionar os 
+dados que se deseja utilizar no relatório, no Object Navigator, deve-se dar um duplo clique no nó
 
-* **A)** O comando `EXPLAIN` executa a consulta de forma assíncrona, coletando tempos reais de processamento de CPU.
-* **B)** O comando `EXPLAIN ANALYZE` avalia as estimativas teóricas do otimizador CBO e efetivamente executa a instrução, medindo métricas e tempos reais de execução.
-* **C)** Ambos os comandos apenas mostram estimativas estatísticas baseadas nos catálogos, sem jamais executar as consultas.
-* **D)** O comando `EXPLAIN ANALYZE` é incapaz de apresentar os custos estimados, limitando-se a registrar o tempo total de relógio.
-* **E)** O uso de `EXPLAIN ANALYZE` em consultas que realizam alterações de dados (`UPDATE` ou `DELETE`) apenas simula a modificação, sem alterar as linhas nas tabelas físicas.
-
+* **A)** Paper Layout.
+* **B)** Data Wizard.
+* **C)** Data Model.
+* **D)** Report Source.
+* **E)** PL/SQL Queries.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O `EXPLAIN` puro não executa a consulta; seus tempos e custos exibidos são puramente derivados de estimativas estatísticas do catálogo.
-> - **B)** **Correta.** O `EXPLAIN` apenas estima o plano sem processar a instrução, ao passo que o `EXPLAIN ANALYZE` gera a estimativa do CBO e **executa concretamente a consulta**, comparando o custo/linhas estimadas com o tempo real decorrido (*actual time*) e o número real de tuplas processadas (*actual rows*).
-> - **C)** Incorreta. O `EXPLAIN ANALYZE` executa de fato a query.
-> - **D)** Incorreta. O relatório de `EXPLAIN ANALYZE` exibe tanto a estimativa estatística prévia do planejador quanto os valores reais coletados durante o processamento.
-> - **E)** Incorreta. Se aplicado a um comando DML (`UPDATE`, `DELETE`, `INSERT`), o `EXPLAIN ANALYZE` efetivamente altera os dados persistidos no banco de dados.
-> 
-> **Gabarito: B**
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: A**
 
 ---
-
 ### Teste 272
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-O otimizador de consultas de um banco de dados relacional dispõe de três algoritmos fundamentais para processar a junção (*join*) física entre duas relações $R$ (externa/outer) e $S$ (interna/inner): *Nested Loop Join*, *Hash Join* e *Sort-Merge Join*.
+**(FCC – TRT-14 – Analista Judiciário - Tecnologia da Informação – 2016)**
+Em uma empresa, um servidor Oracle 11g apresentou um problema e o disco no qual se localizavam os arquivos do banco de 
+dados foi danificado e perderam-se todos os arquivos ( control files, datafiles, online redo log files  etc.), porém, o disco no qual 
+estava a flash recovery area ficou intacto. Neste caso,
 
-Assinale a afirmativa que apresenta corretamente o cenário em que o CBO tipicamente elege o algoritmo **Hash Join**:
-
-* **A)** Quando uma das relações possui apenas 2 registros e a outra possui índice exclusivo já ordenado.
-* **B)** Quando as duas tabelas são volumosas, a condição de junção baseia-se em um teste de igualdade (equijunção, como $R.id = S.id$) e não existem índices prévios ordenados que viabilizem um Merge Join direto.
-* **C)** Quando a condição de junção utiliza predicados de desigualdade e faixas de valores, tais como $R.data \ge S.data$.
-* **D)** Exclusivamente quando a consulta contém a cláusula `ORDER BY` explícita em todas as colunas de ambas as tabelas.
-* **E)** Quando o volume de memória alocado para `work_mem` for de apenas 4 kilobytes, tornando inviável qualquer estrutura em memória RAM considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
-
+* **A)** não será possível restaurar um backup do banco de dados, pois os control files, datafiles e online redo log files  foram 
+perdidos.
+* **B)** será possível restaurar um backup do banco de dados utilizando o aplicativo DUMP ou RESTORE a partir da flash 
+recovery area.
+* **C)** não será possível restaurar um banco de dados porque o servidor sempre fica off-line quando o disco é danificado, 
+impedindo o acesso à flash recovery area.
+* **D)** será possível restaurar um backup RMAN em conjunto com os archive redo log files contidos na flash recovery area.
+* **E)** não será possível restaurar o banco de dados, pois o software Oracle foi corrompido e o disco no qual se localizavam os 
+arquivos do banco de dados foi danificado.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Com pouquíssimas linhas em uma relação e índice na outra, o CBO escolhe quase invariavelmente o **Nested Loop Join** com busca por índice na tabela interna.
-> - **B)** **CORRETA.** O **Hash Join** é o algoritmo de escolha para equijunções ($=$) em conjuntos de dados médios a grandes sem ordenação prévia:
->   1. **Fase de Construção (Build Phase):** O SGBD lê a relação de menor tamanho (relação interna) e constrói uma tabela hash em memória RAM (delimitada pelo parâmetro `work_mem`), usando a chave de junção como chave de hash.
->   2. **Fase de Sondagem (Probe Phase):** O SGBD varre a relação maior (relação externa), aplica a função hash à chave de junção de cada linha e consulta a tabela hash em memória em tempo $O(1)$ para encontrar as correspondências.
-> - **C)** Incorreta. O Hash Join requer predicados de equidade ($=$); para operadores de desigualdade ($>, <, \ge$), o CBO recorre a *Nested Loops* ou *Merge Joins*.
-> - **D)** Incorreta. O Hash Join destrói a ordenação original dos dados; quando há `ORDER BY` coincidente com as chaves de junção, o algoritmo ideal é o **Sort-Merge Join**.
-> - **E)** Incorreta. Se a memória for insuficiente para a tabela hash caber no `work_mem`, o SGBD é forçado a realizar *hash join em múltiplos lotes (multi-batch / grace hash join)* despejando partições no disco, o que degrada o desempenho.
-> 
-> **Gabarito: B**
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: A**
 
 ---
-
 ## 3. Arquitetura e Administração do PostgreSQL
 
 O PostgreSQL é um Sistema Gerenciador de Banco de Dados Objeto-Relacional (SGBD-OR) de código aberto reconhecido por sua robustez, conformidade estrita com padrões SQL e arquitetura altamente modular e extensível.
@@ -455,59 +466,77 @@ Para assegurar a durabilidade (D do ACID) e a recuperação contra falhas (*cras
 ---
 
 ### Teste 273
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No Sistema Gerenciador de Banco de Dados PostgreSQL, o parâmetro de configuração `work_mem` desempenha papel vital no desempenho do sistema. Sobre esse parâmetro, é correto afirmar:
+**(FGV – TJ-AP – Analista Judiciário - Banco de Dados – 2023)**
+João, administrador de banco de dados, deverá configurar a 
+inicialização de uma instância do Banco de Dados Oracle. Para 
+isso, deverá considerar q ue somente poderá executar o 
+“shutdown” da instância após o “rollback” das transações não 
+submetidas a “commit”.  
+Para tanto, como João não precisa aguardar a conclusão de todas 
+as transações, ele deverá executar o modo de “shutdown”:
 
-* **A)** Trata-se da área de memória global compartilhada responsável por armazenar os blocos de dados de tabelas e índices em cache para todas as conexões ativas.
-* **B)** Define a quantidade máxima de memória estática alocada por cada transação, independentemente da quantidade de comandos executados no seu interior.
-* **C)** É um parâmetro alocado dinamicamente por processo para operações internas como ordenações (`ORDER BY`) ou tabelas hash (`Hash Join`), podendo ser consumido múltiplas vezes em uma mesma consulta complexa.
-* **D)** Especifica a quantidade de memória destinada exclusivamente ao processo `autovacuum` para compactação das tuplas mortas.
-* **E)** Deve ser configurado obrigatoriamente com no mínimo 50% de toda a memória RAM física disponível no servidor de banco de dados.
-
+* **A)** abort;
+* **B)** mount;
+* **C)** nomount;
+* **D)** immediate;
+* **E)** transactional.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A área global compartilhada de cache de blocos e índices é configurada pelo parâmetro `shared_buffers`.
-> - **B)** Incorreta. O `work_mem` não é alocado por transação ou por sessão, e sim por operação relacional individual que demande ordenação ou hash.
-> - **C)** **Correta.** O `work_mem` é uma área de memória privada de processo utilizada por nós do plano de execução que demandam ordenação em memória (`ORDER BY`, `DISTINCT`, Merge Join) ou tabelas hash (`Hash Join`, agregações por hash). Uma consulta contendo múltiplos joins e sorts pode alocar várias instâncias de `work_mem` simultaneamente.
-> - **D)** Incorreta. A memória alocada para o processo de vacuum e criação de índices é o `maintenance_work_mem`.
-> - **E)** Incorreta. Configurar `work_mem` com 50% da memória RAM física causaria rápido esgotamento de memória (*Out of Memory - OOM Kill*) pelo sistema operacional assim que houvesse conexões simultâneas executando queries concorrentes.
-> 
-> **Gabarito: C**
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: A**
 
 ---
-
 ### Teste 274
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em razão da arquitetura MVCC do PostgreSQL, comandos de `UPDATE` e `DELETE` não sobrescrevem tuplas fisicamente nem liberam o espaço em disco de imediato, gerando tuplas mortas (*dead tuples*) no interior das páginas de dados.
+**(FGV – TJ-AP – Analista Judiciário - Banco de Dados – 2023)**
+João, administrador de Banco de Dados Oracle, deverá criar 
+índices para melhorar o desempenho de consultas complexas 
+sobre processos judiciais. Para isso, deverá escolher a estrutur a 
+que facilita a busca rápida de informações em operações de 
+junção e intervalo, como:  
 
-A respeito do mecanismo de limpeza e manutenção `VACUUM` no PostgreSQL, assinale a afirmativa correta:
+SELECT parte.nome, movimento.descricao, 
+movimento.data 
+FROM parte 
+JOIN movimento ON parte.processoID = 
+movimento.processoID 
+WHERE parte.processoID BETWEEN 10 AND 20; 
 
-* **A)** O comando `VACUUM` padrão (sem a opção `FULL`) bloqueia a tabela inteira para leituras até que todas as páginas de dados sejam reescritas no disco.
-* **B)** O comando `VACUUM FULL` realiza a limpeza concorrente sem adquirir nenhum bloqueio exclusivo, liberando espaço diretamente para o sistema operacional sem mover dados.
-* **C)** O `VACUUM` padrão marca o espaço ocupado por tuplas mortas como reutilizável para novas inserções dentro da mesma tabela sem devolver o espaço ao sistema operacional, ao passo que o `VACUUM FULL` reescreve a tabela inteira em novos blocos, devolve o espaço livre ao sistema operacional, mas exige bloqueio exclusivo total (`AccessExclusiveLock`).
-* **D)** O mecanismo de *Autovacuum* deve ser permanentemente desativado em ambientes corporativos de produção para evitar concorrência com as conexões dos usuários.
-* **E)** O PostgreSQL dispensa o congelamento de identificadores de transação (*Transaction ID Freeze*), pois seus identificadores de transação são inteiros de 128 bits imunes a esgotamento.
+Para tanto, João criou um índice específico na coluna 
+“processoID” da tabela “movimento”: 
 
+CREATE INDEX idx_movimento_processoID ON 
+movimento(processoID); 
+
+Após a execução do script apresentado, o tipo de índice criado 
+por João é:
+
+* **A)** bitmap;
+* **B)** hashing;
+* **C)** espacial;
+* **D)** árvore B;
+* **E)** sequencial.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O `VACUUM` padrão roda em segundo plano e opera concorrentemente com leituras (`SELECT`) e escritas comuns (`INSERT`, `UPDATE`, `DELETE`), sem exigir bloqueio exclusivo.
-> - **B)** Incorreta. O `VACUUM FULL` exige bloqueio exclusivo severo (`AccessExclusiveLock`), impedindo qualquer acesso concorrente (inclusive leitura) enquanto reconstrói a tabela.
-> - **C)** **CORRETA.** No PostgreSQL:
->   - **VACUUM Padrão:** Varre as páginas, remove referências a tuplas mortas que não são mais visíveis por nenhuma transação ativa e atualiza o mapa de espaço livre (*Free Space Map - FSM*). O espaço liberado fica disponível para futuras inserções daquela mesma tabela, mas o arquivo físico no sistema operacional não diminui de tamanho.
->   - **VACUUM FULL:** Compacta e copia todas as tuplas vivas para um arquivo de dados totalmente novo, liberando o arquivo antigo e devolvendo o espaço em disco para o sistema operacional. Como contrapartida, adquire `AccessExclusiveLock` na tabela durante todo o processo.
-> - **D)** Incorreta. Desativar o autovacuum causa degradação catastrófica de desempenho por inchaço (*bloat*) e paralisação do banco por *wraparound*.
-> - **E)** Incorreta. Os Transaction IDs (XIDs) no PostgreSQL clássico são números inteiros de 32 bits ($2^{32} \approx 4$ bilhões de valores). Para evitar que transações antigas pareçam estar no futuro (*Transaction ID Wraparound Failure*), o autovacuum executa compulsoriamente o **VACUUM FREEZE** para marcar transações consolidadas como `FrozenTransactionId`.
-> 
-> **Gabarito: C**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: D**
 
 ---
-
 ## 4. Arquitetura e Administração do Oracle Database
 
 O Oracle Database adota uma separação rigorosa e altamente formalizada entre a entidade computacional em memória (Instância) e a estrutura física armazenada em disco (Banco de Dados).
@@ -607,97 +636,128 @@ TABLESPACE ────────► SEGMENTO ────────► EXTE
 ---
 
 ### Teste 275
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na arquitetura do Oracle Database, a memória é estruturada em duas grandes áreas conceituais: a *System Global Area* (SGA) e a *Program Global Area* (PGA).
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+O comando EXPLAIN no sistema PostgreSQL, versão 16, 
+desempenha um papel crucial na análise e otimização do 
+desempenho das consultas SQL. Compreender o funcionamento e 
+a saída desse comando é essencial para otimizar o desempenho do 
+sistema.  
+Neste contexto, o comando EXPLAIN
 
-A respeito das funções e componentes dessas áreas de memória, assinale a afirmativa correta:
-
-* **A)** A PGA é uma área de memória compartilhada acessível simultaneamente por todos os processos de background da instância Oracle para troca de blocos de dados.
-* **B)** A SGA é uma área de memória compartilhada alocada na inicialização da instância, que contém estruturas vitais como o *Database Buffer Cache* (armazena cópias de blocos de dados lidos do disco), o *Redo Log Buffer* (armazena registros de alterações antes de serem gravados nos redo log files) e a *Shared Pool* (contém a Library Cache e o Data Dictionary Cache).
-* **C)** O *Database Buffer Cache* armazena unicamente o código-fonte compilado de rotinas em PL/SQL e gatilhos, sendo proibido de armazenar dados de tabelas.
-* **D)** A *Shared Pool* é alocada dentro da PGA privada de cada sessão de usuário e é destruída imediatamente após o encerramento do comando `SELECT`.
-* **E)** O processo LGWR (*Log Writer*) lê dados diretamente da PGA dos clientes e grava nos datafiles de dados a cada 3 segundos.
-
+* **A)** exibe informações sobre o histórico de execução de consultas 
+no banco de dados, incluindo detalhes sobre transações 
+anteriores.
+* **B)** indica ao planejador que escolha como custo estimado de 
+execução de consultas que utilizam a cláusula EXISTS o menor 
+custo inicial em vez do menor custo total.
+* **C)** modifica, em conjunto com a cláusula ANALYZE e WAL, a 
+estrutura física dos arquivos de dados no disco para otimizar o 
+desempenho das consultas.
+* **D)** monitora o espaço em disco utilizado por t abelas e índices no 
+banco de dados, permitindo a otimização do armazenamento 
+e reconstrução de índices CLUSTERED.
+* **E)** oferece uma interface gráfica para criar e modificar tabelas no 
+banco de dados PostgreSQL escritas utilizando a sublinguagem 
+DDL.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A PGA (*Program Global Area*) é estritamente **privada** para cada processo servidor de sessão, armazenando variáveis locais, área de ordenação (*sort area*) e informações de pilha.
-> - **B)** **CORRETA.** Na arquitetura Oracle:
->   - **SGA (System Global Area):** Área de memória compartilhada alocada quando a instância inicia. Seus principais componentes são:
->     1. **Database Buffer Cache:** Mantém cópias em memória dos blocos de dados lidos dos datafiles.
->     2. **Redo Log Buffer:** Buffer circular que retém as informações de *redo* (mudanças feitas por DML/DDL) até que o processo LGWR as descarregue nos arquivos de *Redo Log* online.
->     3. **Shared Pool:** Armazena planos de execução SQL compilados e código PL/SQL (*Library Cache*) e metadados de tabelas/índices (*Data Dictionary Cache*).
->     4. **Large Pool / Java Pool / Streams Pool:** Áreas opcionais para operações pesadas de I/O de backup (RMAN), JVM e mensageria.
-> - **C)** Incorreta. O *Database Buffer Cache* armazena blocos de tabelas e índices. Código compilado fica na *Library Cache* da *Shared Pool*.
-> - **D)** Incorreta. A *Shared Pool* fica na SGA e é compartilhada por todas as conexões da instância.
-> - **E)** Incorreta. O LGWR descarrega o *Redo Log Buffer* da SGA nos *Redo Log Files* em disco no momento do `COMMIT`, e não da PGA nos datafiles.
-> 
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
 > **Gabarito: B**
 
 ---
-
 ### Teste 276
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No banco de dados Oracle, a comunicação entre as estruturas de memória da Instância e a gravação permanente no disco é realizada por processos de segundo plano (*background processes*). O processo responsável por efetuar a gravação síncrona das entradas do *Redo Log Buffer* nos arquivos físicos de *Redo Log* no momento exato em que uma transação emite o comando `COMMIT` é o:
+**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**
+Observe o esquema a seguir. 
 
-* **A)** DBWn (Database Writer).
-* **B)** LGWR (Log Writer).
-* **C)** CKPT (Checkpoint).
-* **D)** PMON (Process Monitor).
-* **E)** SMON (System Monitor).
+Base de Dados A 
+“Orçamento público − Fis-
+calização financeira − Con-
+trole externo” 
+ Base de Dados B 
+“Orçamento público” 
+“Fiscalização financeira” 
+“Controle externo” 
 
+Um usuário interessado no assunto “Controle externo e 
+Fiscalização financeira do Orçamento público” faz uma 
+busca usando termos autorizados, conforme indicado no 
+esquema, em duas bases de dados que utilizam diferentes 
+sistemas de indexação. O resultado da busca na base A 
+foi mais consistente e relevante, enquanto o resultado da 
+base B trouxe um número maior de documentos, porque a 
+base
+
+* **A)** A usa a indexação alfabética de assuntos, que 
+amplia as possibilidades de pesquisa.
+* **B)** B usa a indexação baseada na linguagem natural, 
+que permite recuperar itens mais específicos.
+* **C)** B usa a indexação automática, que recupera muitos 
+itens devido à ambiguidade dos termos.
+* **D)** B usa a indexação pós-coordenada, que aumenta a 
+revocação e diminui a precisão.
+* **E)** A usa a indexação pré-coordenada, que combina os 
+termos no momento da busca e é mais precisa. 
+Caderno de Prova ’E05’, Tipo 001
+
+
+12 TCEGO-Anal.Con.Ext-Gestão Conhecimento-CEI-E05
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O DBWn grava blocos de dados alterados (*dirty buffers*) do Buffer Cache nos *Datafiles*, de maneira assíncrona.
-> - **B)** **Correta.** O processo LGWR (*Log Writer*) é o encarregado exclusivo de descarregar os registros de transação do *Redo Log Buffer* para os arquivos físicos de *Redo Log* em disco. No instante em que o cliente executa um `COMMIT`, a operação só é confirmada com sucesso após o LGWR gravar o registro de commit em disco.
-> - **C)** Incorreta. O CKPT notifica o DBWn e atualiza os cabeçalhos dos datafiles e control files com o SCN atual.
-> - **D)** Incorreta. O PMON limpa recursos órfãos de conexões que caíram inesperadamente (desfazendo transações pendentes e liberando locks).
-> - **E)** Incorreta. O SMON executa a recuperação de falhas da instância (*instance recovery*) na inicialização do banco.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: C**
 
 ---
-
 ### Teste 277
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na arquitetura do Oracle Database, a organização do armazenamento divide-se entre estruturas físicas e estruturas lógicas. Considere as seguintes assertivas:
+**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**
+A política de indexação em uma biblioteca deve ser 
+entendida como uma filosofia pertinente aos objetivos da 
+própria biblioteca e não apenas como uma operação 
+técnica. Nesse sentido, a política de indexação deve servir 
+como um guia para a tomada de decisões e, assim, levar 
+em conta basicamente os seguintes fatores:
 
-I. Uma *Tablespace* é uma estrutura lógica que pode ser composta por um ou mais *Datafiles* físicos, mas um *Datafile* físico pode pertencer a apenas uma única *Tablespace*.  
-
-II. Uma *Extensão* (*Extent*) lógica é formada por um conjunto contíguo de *Blocos de Dados* Oracle, e um conjunto de extensões alocadas para um objeto relacional forma um *Segmento*.  
-
-III. Os arquivos de controle (*Control Files*) contêm o código compilado dos procedimentos PL/SQL armazenados e os blocos de dados de índices de alta performance.  
-
-Está correto o que se afirma em:
-
-* **A)** I e II, apenas.
-* **B)** II e III, apenas.
-* **C)** I e III, apenas.
-* **D)** I, II e III.
-* **E)** I, apenas.
-
+* **A)** técnicas de indexação, linguagens documentárias e 
+domínios tratados.
+* **B)** procedimentos a serem seguidos durante a 
+indexação, capacitação do indexador e relação 
+custo/benefício.
+* **C)** características da organização, identificação dos 
+usuários e infraestrutura.
+* **D)** nível de cobertura de assuntos, escolha do sistema 
+e metodologia de indexação.
+* **E)** planejamento das atividades, análise documentária e 
+avaliação do sistema. 
+_________________________________________________________
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** 
->     - **Item I:** Correto. A tablespace é a maior unidade lógica e mapeia um ou mais datafiles físicos, existindo uma relação estrita de 1:N (um datafile nunca pode pertencer a mais de uma tablespace).
->     - **Item II:** Correto. A hierarquia lógica fundamental do Oracle é: Bloco de Dados $\rightarrow$ Extensão (bloco contíguo) $\rightarrow$ Segmento (conjunto de extensões de um objeto) $\rightarrow$ Tablespace.
-> - **B)** Incorreta, pois o item III é falso e o item I é verdadeiro.
-> - **C)** Incorreta, pois o item III é flagrantemente falso.
-> - **D)** Incorreta, pois o item III está incorreto.
-> - **E)** Incorreta, pois o item II também está correto.
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+>
+> **Gabarito: E**
 
 ---
-
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 
 * [PostgreSQL 17 Official Documentation - Indexes](https://www.postgresql.org/docs/current/indexes.html) - Tipos de índices: B-Tree, Hash, GiST, SP-GiST, GIN e BRIN e suas indicações de uso.

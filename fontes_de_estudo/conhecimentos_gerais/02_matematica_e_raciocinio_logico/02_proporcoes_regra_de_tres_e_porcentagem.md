@@ -88,37 +88,31 @@ Essa propriedade é a base algébrica definitiva para solucionar repartições o
 ---
 
 ### Teste 082
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Em um tribunal, a razão entre o número de processos físicos e o número de processos eletrônicos que aguardavam triagem era de $3$ para $7$. Se o número total de processos aguardando triagem era de $250$, quantos processos eletrônicos havia a mais do que processos físicos?
+**(FGV – TRT-16 – Analista Judiciário - Tecnologia da Informação – 2022)**
+Certo supermercado anunciou a promoção que se vê na foto a 
+seguir: 
 
-* **A)** $80$
-* **B)** $100$
-* **C)** $120$
-* **D)** $140$
-* **E)** $175$
+Esse desconto foi de, aproximadamente,
 
+* **A)** 15%.
+* **B)** 1,5%.
+* **C)** 0,15%.
+* **D)** 0,015%.
+* **E)** 0,0015%.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **Método da Constante de Proporcionalidade ($k$):**  
->   - Seja $F$ o número de processos físicos e $E$ o número de processos eletrônicos.  
->   - A razão é dada por $\frac{F}{E} = \frac{3}{7} \implies F = 3k \text{ e } E = 7k$.  
-> - **Equação do total:**  
->   $$F + E = 250 \implies 3k + 7k = 250 \implies 10k = 250 \implies k = 25$$  
-> - **Cálculo das quantidades:**  
->   - Processos físicos: $F = 3 \times 25 = 75$.  
->   - Processos eletrônicos: $E = 7 \times 25 = 175$.  
-> - **Diferença solicitada no enunciado:**  
->   $$E - F = 175 - 75 = 100$$  
->   (Ou diretamente pela diferença em partes: $(7 - 3)k = 4k = 4 \times 25 = 100$).  
-> - **Conclusão:** Havia 100 processos eletrônicos a mais do que físicos (Alternativa B).
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
-> **Gabarito: B**
+> **Gabarito: D**
 
 ---
-
 ## 2. Divisão em Partes Proporcionais
 
 A partilha proporcional consiste em distribuir uma quantia total $V$ entre vários beneficiários ou centros de custo em conformidade com critérios predeterminados de mérito, produtividade ou penalidade.
@@ -159,119 +153,85 @@ Reduzem-se as frações resultantes a termos inteiros via MMC e aplica-se o mét
 ---
 
 ### Teste 083
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Uma gratificação extraordinária no valor de R$ 18.000,00 foi dividida entre três auditores de controle externo em partes diretamente proporcionais aos seus respectivos tempos de atuação no órgão: $2$ anos, $3$ anos e $5$ anos. O auditor com maior tempo de serviço recebeu:
+**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
+Contrato intermitente é aquele no qual a prestação de serviços, 
+com subordinação, não é contínua, ocorrendo com alternância de 
+períodos de prestação de serviços e de inatividade, determinado 
+em horas, dias ou meses. 
+Das categorias profissionais listadas a seguir, assinale aquela que a 
+CLT excluiu do contrato intermitente.
 
-* **A)** R$ 3.600,00
-* **B)** R$ 5.400,00
-* **C)** R$ 9.000,00
-* **D)** R$ 10.000,00
-* **E)** R$ 12.000,00
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **Divisão Diretamente Proporcional:**  
->   - Sejam $A_1$, $A_2$ e $A_3$ os valores recebidos pelos auditores com 2, 3 e 5 anos de atuação, respectivamente.  
->   - $A_1 = 2k$, $A_2 = 3k$, $A_3 = 5k$.  
-> - **Soma das quotas:**  
->   $$A_1 + A_2 + A_3 = 18.000 \implies (2 + 3 + 5)k = 18.000 \implies 10k = 18.000 \implies k = 1.800$$  
-> - **Valor do auditor com maior tempo de serviço (5 anos):**  
->   $$A_3 = 5 \times 1.800 = 9.000,00$$  
-> - **Conferência:** $A_1 = 3.600$, $A_2 = 5.400$, $A_3 = 9.000$. Soma: $3.600 + 5.400 + 9.000 = 18.000,00$.  
-> - **Conclusão:** O auditor recebeu R$ 9.000,00 (Alternativa C).
->
-> **Gabarito: C**
-
----
-
-### Teste 084
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A Diretoria de Fiscalização de um Tribunal de Contas distribuiu um bônus de incentivo de R$ 45.000,00 entre três equipes técnicas de auditoria ($A$, $B$ e $C$) em partes **inversamente proporcionais** ao número de dias de atraso na entrega dos seus respectivos relatórios finais. A equipe $A$ atrasou 2 dias; a equipe $B$ atrasou 3 dias; e a equipe $C$ atrasou 4 dias.
-
-Nessas condições, o valor recebido pela equipe $A$ superou o valor recebido pela equipe $C$ em:
-
-* **A)** R$ 10.000,00
-* **B)** R$ 10.384,62
-* **C)** R$ 12.000,00
-* **D)** R$ 13.500,00
-* **E)** R$ 15.000,00
-
+* **A)** Metalúrgicos.
+* **B)** Aeroviários.
+* **C)** Comerciários.
+* **D)** Engenheiros.
+* **E)** Aeronautas.
 
 ---
 
 > **Comentário Detalhado:**
-> Resolução sistemática da partilha inversamente proporcional:
 >
-> 1. Como a divisão é inversamente proporcional a 2, 3 e 4, as frações de ponderação são os seus inversos:
->    $$\text{Pesos:} \quad \frac{1}{2}, \quad \frac{1}{3}, \quad \frac{1}{4}$$
-> 2. Reduzem-se todas as frações ao mesmo denominador comum via $\text{MMC}(2, 3, 4) = 12$:
->    $$\frac{1}{2} = \frac{6}{12}; \qquad \frac{1}{3} = \frac{4}{12}; \qquad \frac{1}{4} = \frac{3}{12}$$
-> 3. Eliminando o denominador comum 12, as cotas correspondentes são diretamente proporcionais a 6, 4 e 3:
->    $$\text{Equipe } A = 6k; \quad \text{Equipe } B = 4k; \quad \text{Equipe } C = 3k$$
-> 4. Somando as cotas de bonificação para atingir o montante de R$ 45.000,00:
->    $$6k + 4k + 3k = 45.000 \implies 13k = 45.000 \implies k = \frac{45.000}{13} \approx 3.461,538$$
-> 5. A questão solicita a diferença entre os valores recebidos pela equipe $A$ e pela equipe $C$:
->    $$\text{Diferença} = A - C = 6k - 3k = 3k$$
->    $$\text{Diferença} = 3 \times \left(\frac{45.000}{13}\right) = \frac{135.000}{13} \approx \text{R\$ }\mathbf{\ 10.384,62}$$
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
-> Análise individual das alternativas:
->
-> - **A)** Incorreta. R$ 10.000,00 seria a diferença entre as cotas de C e de A em uma partilha *diretamente* proporcional a 2, 3 e 4 (cotas de R$ 10.000,00 e R$ 20.000,00), isto é, com o sentido da proporcionalidade invertido.
-> - **B)** Correta. O cálculo exato de $3k = \frac{135.000}{13}$ resulta em $10.384{,}615\ldots$, que, arredondado ao centavo, é R$ 10.384,62.
-> - **C)** Incorreta. Não corresponde a nenhuma partilha coerente com as cotas $6k$, $4k$ e $3k$; a diferença deve ser exatamente $3k = \frac{135.000}{13}$.
-> - **D)** Incorreta. Corresponderia a 3 cotas se o denominador da soma fosse 10 em vez de 13.
-> - **E)** Incorreta. R$ 15.000,00 é a cota de cada equipe em uma divisão igualitária ($45.000 \div 3$); nessa hipótese a diferença entre A e C seria nula, e não R$ 15.000,00.
-> 
 > **Gabarito: B**
 
 ---
+### Teste 084
+**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
+Contrato intermitente é aquele no qual a prestação de serviços, 
+com subordinação, não é contínua, ocorrendo com alternância de 
+períodos de prestação de serviços e de inatividade, determinado 
+em horas, dias ou meses. 
+Das categorias profissionais listadas a seguir, assinale aquela que a 
+CLT excluiu do contrato intermitente.
 
-### Teste 085
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Uma gratificação especial de desempenho no valor de R$ 36.000,00 foi dividida entre dois auditores, Rodrigo e Samuel. O regulamento determinou que a divisão fosse **diretamente proporcional ao tempo de serviço** no Tribunal (Rodrigo tem 6 anos e Samuel tem 4 anos) e, simultaneamente, **inversamente proporcional ao número de processos pendentes** de julgamento em seus gabinetes (Rodrigo tem 3 processos pendentes e Samuel tem 1 processo pendente).
-
-Com base nessas regras, a quantia recebida por Samuel foi de:
-
-* **A)** R$ 12.000,00
-* **B)** R$ 14.400,00
-* **C)** R$ 18.000,00
-* **D)** R$ 21.600,00
-* **E)** R$ 24.000,00
-
+* **A)** Metalúrgicos.
+* **B)** Aeroviários.
+* **C)** Comerciários.
+* **D)** Engenheiros.
+* **E)** Aeronautas. 
+TRIBUNAL REGIONAL DO TRABALHO DA 24ª REGIÃO (TRT-24) – REAPLICAÇÃO FGV CONHECIMENTO
 
 ---
 
 > **Comentário Detalhado:**
-> Resolução de divisão composta (direta e inversa concomitantemente):
 >
-> 1. Estruturação dos pesos individuais de cada beneficiário:
->     - Para Rodrigo: diretamente proporcional a 6 anos e inversamente a 3 processos pendentes:
->      $$\text{Peso de Rodrigo} = 6 \times \frac{1}{3} = \frac{6}{3} = 2$$
->     - Para Samuel: diretamente proporcional a 4 anos e inversamente a 1 processo pendente:
->      $$\text{Peso de Samuel} = 4 \times \frac{1}{1} = \frac{4}{1} = 4$$
-> 2. Aplicação da constante de proporcionalidade $k$:
->    $$\text{Rodrigo} = 2k; \qquad \text{Samuel} = 4k$$
-> 3. Montagem da equação orçamentária para a gratificação de R$ 36.000,00:
->    $$2k + 4k = 36.000 \implies 6k = 36.000 \implies k = \frac{36.000}{6} = 6.000$$
-> 4. Cálculo da parcela recebida por Samuel:
->    $$\text{Samuel} = 4k = 4 \times 6.000 = \text{R\$ }\mathbf{\ 24.000,00}$$
->    *(A título de conferência, Rodrigo recebeu $2k = 2 \times 6.000 = \text{R\$} 12.000,00$. A soma dos valores totaliza $12.000 + 24.000 = \text{R\$} 36.000,00$)*.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
-> Análise das alternativas:
->
-> - **A)** Incorreta. R$ 12.000,00 corresponde à cota recebida por Rodrigo ($2k$).
-> - **B)** Incorreta. Valor que Samuel receberia se a partilha considerasse unicamente o tempo de serviço de forma direta ($\frac{4}{10} \times 36.000 = 14.400$).
-> - **C)** Incorreta. Divisão meio a meio simples, desconsiderando ambos os critérios do edital.
-> - **D)** Incorreta. Corresponderia à parte de Rodrigo se a partilha fosse baseada unicamente no tempo de serviço ($\frac{6}{10} \times 36.000 = 21.600$).
-> - **E)** Correta. O peso final de Samuel (4) representa quatro sextos ($\frac{2}{3}$) do montante global de R$ 36.000,00, totalizando R$ 24.000,00.
-> 
-> **Gabarito: E**
+> **Gabarito: B**
+
+---
+### Teste 085
+**(FCC – TRT-6 – Analista Judiciário - Tecnologia da Informação – 2012)**
+A capacidade nominal de armazenamento de uma mídia de DVD-RW, com camada simples e lado simples é de
+
+* **A)** 4,7GB.
+* **B)** 700MB.
+* **C)** 9,40GB.
+* **D)** 720MB.
+* **E)** 1024TB.
 
 ---
 
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: A**
+
+---
 ## 3. Classificação de Grandezas e Regra de Três Simples
 
 A regra de três simples é o método algébrico que permite descobrir um quarto valor desconhecido a partir de três valores conhecidos de duas grandezas proporcionais.
@@ -451,71 +411,61 @@ Numa população, 50% das pessoas sofrem de um certo mal. Se um grupo de 5 pesso
 ---
 
 ### Teste 090
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Em determinado setor do Tribunal de Contas do Estado de Goiás, o número de processos em meio eletrônico é 25% maior do que o número de processos físicos em papel. 
+**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**
+Deve-se entender da leitura do segundo parágrafo que
 
-Em relação ao número de processos eletrônicos, o número de processos em papel é inferior em:
-
-* **A)** 15%
-* **B)** 20%
-* **C)** 25%
-* **D)** 30%
-* **E)** 33,3%
-
+* **A)** os estudos que levam ao conceito de etnia opõem-
+se a fundamentos das ciências biológicas.
+* **B)** a palavra de etnia surgiu como uma espécie de 
+alternativa semântica para veicular o conceito de 
+raça.
+* **C)** o conceito de gênero humano estabeleceu-se em 
+função da invariância dos nossos fatores genéticos.
+* **D)** as descobertas científicas foram desconsideradas na 
+formulação do conceito de etnia.
+* **E)** os fatores biológicos não têm relevância determinan-
+te para a fixação conceitual de etnia. 
+_________________________________________________________
 
 ---
 
 > **Comentário Detalhado:**
-> Problema que exige a técnica de inversão da base de referência percentual:
 >
-> 1. Atribuição de uma base de cálculo simples:
->     - Seja $P$ o número de processos em papel: adotemos $P = 100$.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
-> 2. O número de processos eletrônicos ($E$) é 25% maior que $P$:
->    $$E = 100 + 0{,}25 \times 100 = 125$$
-> 3. O comando da questão indaga o percentual em que os processos em papel são inferiores **em relação ao total de processos eletrônicos** (o que define que o novo denominador da divisão passa a ser $E = 125$):
->    $$\text{Diferença absoluta} = E - P = 125 - 100 = 25$$
->    $$\text{Percentual relativo} = \frac{\text{Diferença}}{\text{Nova Base } E} = \frac{25}{125} = \frac{1}{5} = 0{,}20 = \mathbf{20\%}$$
->    Portanto, o número de processos físicos em papel é exatamente **20% inferior** ao de processos eletrônicos.
->
-> Análise das alternativas:
->
-> - **A)** Incorreta. Estimativa arbitrária sem respaldo nos cálculos.
-> - **B)** Correta. Razão precisa de $\frac{25}{125} = 0{,}20 = 20\%$.
-> - **C)** Incorreta. A pegadinha clássica em que o candidato repete os 25% citados no texto, ignorando que o referencial da comparação foi invertido (de $P$ para $E$).
-> - **D)** Incorreta. Valor incorreto.
-> - **E)** Incorreta. Confusão com a relação matemática inversa de uma alta de 33,3% (que gera redução simétrica de 25%).
-> 
 > **Gabarito: B**
 
 ---
-
 ### Teste 091
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Em determinado município goiano, a alíquota do Imposto Sobre Serviços (ISS) incidente sobre serviços de informática passou de $2\%$ para $3\%$ da receita bruta. Comparando a alíquota final com a inicial, verifica-se que houve um acréscimo de:
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+Vazão para bombeio de 10 l/s. 
+Nessas condições e admitindo peso específico para a água de 1000 
+kgf/m3 e fazendo 1 HP ≈ 750 W, a potência necessária para a 
+bomba é de, aproximadamente
 
-* **A)** $1$ ponto percentual e uma variação percentual relativa de $50\%$.
-* **B)** $1\%$ absoluto e uma variação percentual relativa de $33{,}3\%$.
-* **C)** $50$ pontos percentuais e uma variação percentual relativa de $1\%$.
-* **D)** $1$ ponto percentual e uma variação percentual relativa de $100\%$.
-* **E)** $1{,}5$ ponto percentual e uma variação percentual relativa de $25\%$.
-
+* **A)** 1,8 HP
+* **B)** 2,0 HP
+* **C)** 2,2 HP
+* **D)** 2,4 HP
+* **E)** 3,4 HP
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **Distinção Técnica entre Pontos Percentuais e Variação Relativa:**  
->   - **Pontos Percentuais (Diferença Aritmética Absoluta):**  
->     $$\Delta = 3\% - 2\% = 1 \text{ ponto percentual (p.p.)}$$  
->   - **Variação Percentual Relativa (Aumento em relação à base original de $2\%$):**  
->     $$V = \frac{\text{Valor Final} - \text{Valor Inicial}}{\text{Valor Inicial}} = \frac{3 - 2}{2} = \frac{1}{2} = 0{,}50 = 50\%$$  
-> - **Conclusão:** O aumento foi de 1 ponto percentual e representou uma variação percentual relativa de $50\%$ sobre a alíquota anterior (Alternativa A).
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
-> **Gabarito: A**
+> **Gabarito: C**
 
 ---
-
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 
 * [Khan Academy Brasil - Pré-Álgebra: Razões, Proporções e Porcentagens](https://pt.khanacademy.org/math/pre-algebra) - Conceito formal de razões, proporções, grandezas direta e inversamente proporcionais e taxas percentuais.

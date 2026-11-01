@@ -105,55 +105,59 @@ Assistentes de desenvolvimento integrados à IDE operam combinando predição es
 ---
 
 ### Teste 139
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Ao utilizar um assistente de inteligência artificial para traduzir uma rotina crítica de apuração de tributos escrita em COBOL para a linguagem Java, a equipe de engenharia de software de uma Secretaria de Fazenda deve prestar atenção especial a qual das seguintes armadilhas de código frequentemente induzidas pelo modelo?  
+**(FGV – TRT-1 – Analista Judiciário - Tecnologia da Informação – 2024)**
+Ao final de uma exposição sobre medicamentos, o conferencista 
+declara: “O melhor de todos os analgésicos é, sem dúvida, o 
+NANDORE, pois foi o único a acabar com a minha dor”. 
+Sobre a argumentação desse segmento, é correto afirmar que os 
+argumentos apresentados:
 
-* **A)** O modelo recusar-se a criar métodos públicos por limitações de licença de software livre.
-* **B)** A substituição de variáveis com precisão decimal exata (`COMP-3` do COBOL) por tipos de ponto flutuante primitivos como `double` ou `float` em Java, causando erros cumulativos de arredondamento em cálculos de centavos e multas.
-* **C)** A conversão forçada de todo o código em scripts de inicialização de BIOS de hardware.
-* **D)** A exigência obrigatória de compilar o novo código Java utilizando exclusivamente placas aceleradoras de inteligência artificial na nuvem.
-* **E)** O bloqueio automático de conexões com bancos de dados relacionais padrão SQL.
-
+* **A)** se fundamentam em bases científicas;
+* **B)** são sólidos, já que fundamentados em vivências pessoais;
+* **C)** procuram universalizar uma experiência individual;
+* **D)** se apoiam em dados estatísticos;
+* **E)** carecem de ética.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Modelos de IA não impõem restrições de visibilidade de métodos baseadas em licenças de código aberto.
-> - **B)** **CORRETA.** Sistemas legados em COBOL apoiam-se na representação decimal de ponto fixo exata (`COMP-3`). Linguagens modernas como Java possuem tipos primitivos de ponto flutuante binário (`float` e `double`) que seguem a norma IEEE 754 e introduzem pequenas imprecisões de conversão binária. Em cálculos de tributos e multas fiscais, isso gera erros cumulativos de centavos. A tradução correta exige o uso de classes de precisão arbitrária exata (`java.math.BigDecimal`).
-> - **C)** Incorreta. Migrações de código de sistemas de gestão não interagem com firmware de BIOS.
-> - **D)** Incorreta. Código Java gerado por IA roda em qualquer JVM padrão sobre CPUs convencionais.
-> - **E)** Incorreta. Java integra-se nativamente a bancos SQL por meio de JDBC e JPA.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: C**
 
 ---
-
 ### Teste 140
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Os motores modernos de completamento de código em IDEs operam frequentemente por meio de renderização de *Ghost Text* (código semitransparente sugerido à frente do cursor). Para que essas sugestões sejam relevantes e apresentem latência imperceptível ao programador (abaixo de 100ms), a arquitetura do motor deve:
+**(FGV – TRT-16 – Analista Judiciário - Tecnologia da Informação – 2022)**
+O RPM Package Manager é um sistema executado em várias 
+distribuições Linux e UNIX. 
+O conjunto completo de modos básicos de operação do RPM é
 
-* **A)** Enviar o disco rígido inteiro compactado para a nuvem a cada caractere digitado.
-* **B)** Combinar modelos locais de baixa latência ou modelos em nuvem otimizados com a Árvore Sintática Abstrata (AST) do arquivo corrente, contexto das abas recentemente abertas e importações do projeto.
-* **C)** Exigir que o programador pressione um botão físico externo no gabinete do servidor a cada linha sugerida.
-* **D)** Substituir todas as bibliotecas do projeto por códigoAssembly não comentado.
-* **E)** Limitar o tamanho total do projeto a três funções matemáticas básicas.
-
+* **A)** consulta, atualização e instalação de pacotes.
+* **B)** instalação, atualização, criação e depuração de pacotes.
+* **C)** valoração, reinstalação, consulta e desinstalação de pacotes.
+* **D)** instalação, desinstalação, valoração, consulta, 
+monitoramento e depuração de pacotes.
+* **E)** criação, instalação, desinstalação, atualização, consulta e 
+verificação de pacotes.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Inviável tecnicamente e causaria latência inaceitável além de violação de privacidade.
-> - **B) Correta.** A chave da experiência de completamento inline (*Ghost Text*) é a combinação de modelos especializados de baixíssima latência com heurísticas locais inteligentes (AST, abas abertas, escopo local, histórico de edições recentes).
-> - **C) Incorreta.** A interação ocorre naturalmente via teclas de atalho da IDE (como a tecla `Tab`).
-> - **D) Incorreta.** Não há conversão para Assembly.
-> - **E) Incorreta.** Suporta projetos empresariais de larga escala.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
 >
-> **Gabarito: B**
+> **Gabarito: E**
 
 ---
-
 ## 2. Revisão Automatizada de Código (AI Code Review)
 
 ### 2.1 Linters Estáticos Tradicionais (AST/SAST) vs. Agentes de AI Code Review
@@ -205,82 +209,110 @@ A IA lê o conjunto completo de alterações (*diffs*) entre branches e sintetiz
 ---
 
 ### Teste 141
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Uma equipe de desenvolvimento governamental decidiu integrar um agente de IA generativa ao fluxo de Integração Contínua (CI/CD) para realizar a revisão automática inicial (*automated code review*) de todos os *Pull Requests* antes da avaliação pelos pares técnicos.
+**(FGV – TRT-16 – Analista Judiciário - Tecnologia da Informação – 2022)**
+No contexto do Angular, considere o script a seguir. 
+<body> 
+<p style="font-size:40px" ng-app="xpto" 
+   ng-controller="temp"> 
+ATENÇÃO: {{ param1 + " " + param2 }} 
+</p> 
+<script> 
+var app = angular.module("xpto", []); 
+app.controller("temp", function($scope) { 
+    $scope.param1 = "Temperatura"; 
+    $scope.param2 = "30"; 
+}); 
+</script> 
+</body> 
+Analise o texto que é exibido no parágrafo quando esse script é 
+executado.
 
-Considerando os benefícios e os cuidados dessa prática, é correto afirmar:  
-
-* **A)** A ferramenta de IA deve receber credenciais irrestritas de administrador do repositório para realizar o merge automático em produção sem necessidade de aprovação humana.
-* **B)** A IA atua com alta eficácia na detecção precoce de más práticas de formatação (*code smells*), violações óbvias de princípios SOLID e potenciais credenciais ou chaves expostas (*hardcoded secrets*), mas a análise humana é indispensável para validação arquitetural e conformidade com regras de negócio.
-* **C)** Para submeter os trechos de código do tribunal à API pública de revisão da IA, é dispensável qualquer verificação contratual sobre a política de privacidade e uso dos dados pelo provedor da ferramenta.
-* **D)** A revisão de código por IA torna obsoletos os linters estáticos tradicionais (como SonarQube ou ESLint), pois LLMs executam compilação binária determinística com menor custo computacional.
-* **E)** A IA deve ser configurada para rejeitar sumariamente qualquer *Pull Request* que contenha comentários explicativos ou docstrings, priorizando código não documentado.
-
+* **A)** undefined
+* **B)** ATENÇÃO:
+* **C)** ATENÇÃO: Temperatura 30
+* **D)** param1:Temperatura param2:30
+* **E)** Temperatura 30
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A concessão de merge automático para IA em produção viola a segregação de funções e os princípios básicos de governança e controle de mudanças.
-> - **B)** **CORRETA.** Agentes de revisão de código por IA oferecem excelente suporte na triagem preliminar de Pull Requests: detectam segredos vazados no código, métodos excessivamente longos, duplicações e violações de SOLID. A avaliação arquitetural de alto nível e a conformidade legal continuam exigindo o julgamento de revisores humanos.
-> - **C)** Incorreta. A transferência de código governamental para serviços em nuvem exige salvaguardas contratuais estritas de sigilo e não retenção de dados (*Zero Data Retention*) em conformidade com as normas de segurança e LGPD.
-> - **D)** Incorreta. Linters determinísticos tradicionais (SonarQube, ESLint) são rápidos, locais e gratuitos, servindo como primeira barreira que a IA complementa, mas não substitui.
-> - **E)** Incorreta. Documentação técnica e docstrings são fundamentais para a manutenibilidade do software e devem ser incentivadas.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: D**
 
 ---
-
 ### Teste 142
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Na revisão automatizada de código assistida por IA (*AI Code Review*), agentes inteligentes conseguem identificar anomalias semânticas e arquiteturais de nível superior que extrapolam as capacidades de linters tradicionais baseados em expressões regulares. Dentre essas anomalias de design, inclui-se a identificação de:
+**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
+Os achocolatados são misturas compostas por leite desidratado, 
+chocolate em pó, açúcar e aditivos. 
+Em sua composição, o achocolatado X tem 76 gramas de chocolate 
+em pó e 12 gramas de açúcar, que correspondem a 6% da massa 
+total de X. 
+O fabricante do achocolatado X pretende aumentar a massa total 
+do produto acrescentando 50 gramas de leite desidratado e nada 
+mais. 
+Essa modificação na composição do produto fará com que a 
+porcentagem de chocolate em pó, com relação à massa total de X, 
+sofra redução de
 
-* **A)** Violações do Princípio da Responsabilidade Única (SRP) do SOLID, caracterizadas por classes com métodos heterogêneos acumulando múltiplos motivos para mudar (*God Class*).
-* **B)** Falhas na tensão elétrica de alimentação das placas de circuito impresso.
-* **C)** Variações na velocidade da luz nos cabos de fibra óptica da operadora de telecomunicações considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
-* **D)** Erros ortográficos em placas de trânsito fotografadas por satélites.
-* **E)** O rompimento físico de lacres de servidores em gabinetes de data center.
-
+* **A)** 7,4%.
+* **B)** 7,5%.
+* **C)** 7,6%.
+* **D)** 7,8%.
+* **E)** 8,0%.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Correta.** Diferentemente de analisadores estáticos básicos que verificam formatação e sintaxe, LLMs treinados em código compreendem semântica arquitetural, detectando *God Classes*, alto acoplamento, vazamento de abstração e quebras de princípios SOLID (*SRP, OCP, LSP, ISP, DIP*).
-> - **B) Incorreta.** Monitoramento de infraestrutura física/elétrica.
-> - **C) Incorreta.** Física de telecomunicações.
-> - **D) Incorreta.** Visão computacional geoespacial alheia à engenharia de software.
-> - **E) Incorreta.** Segurança física patrimonial.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
 >
-> **Gabarito: A**
+> **Gabarito: E**
 
 ---
-
 ### Teste 143
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Em pipelines de CI/CD que integram agentes de revisão de código por IA, a detecção de segredos e credenciais codificados diretamente no código (*hardcoded secrets*) é uma exigência inegociável de segurança da informação. Ao identificar uma chave de API ou senha em um Pull Request, a postura correta do agente e do pipeline é:
+**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
+Os achocolatados são misturas compostas por leite desidratado, 
+chocolate em pó, açúcar e aditivos. 
+Em sua composição, o achocolatado X tem 76 gramas de chocolate 
+em pó e 12 gramas de açúcar, que correspondem a 6% da massa 
+total de X. 
+O fabricante do achocolatado X pretende aumentar a massa total 
+do produto acrescentando 50 gramas de leite desidratado e nada 
+mais. 
+Essa modificação na composição do produto fará com que a 
+porcentagem de chocolate em pó, com relação à massa total de X, 
+sofra redução de
 
-* **A)** Comitar o segredo na branch principal e criar uma issue pública no GitHub divulgando a senha. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **B)** Bloquear imediatamente o merge do Pull Request (*fail the build*), alertar o desenvolvedor para revogar e rotacionar a credencial comprometida e exigir a parametrização do segredo por meio de variáveis de ambiente ou cofre de segredos corporativo (*Secrets Manager*).
-* **C)** Enviar o segredo por e-mail para todos os usuários do sistema.
-* **D)** Desabilitar todos os mecanismos de autenticação do sistema corporativo.
-* **E)** Ocultar o segredo alterando a extensão do arquivo para `.txt`.
-
+* **A)** 7,4%.
+* **B)** 7,5%.
+* **C)** 7,6%.
+* **D)** 7,8%.
+* **E)** 8,0%. 
+TRIBUNAL REGIONAL DO TRABALHO DA 24ª REGIÃO (TRT-24) – REAPLICAÇÃO FGV CONHECIMENTO
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Expor segredos publicamente é gravíssima falha de segurança.
-> - **B) Correta.** Uma vez comitada no repositório (mesmo em branch de teste), a credencial deve ser tratada como comprometida: o build é travado, a chave deve ser rotacionada/revogada na origem, e o código deve ser corrigido para consumir o valor a partir de um gestor de segredos (ex: HashiCorp Vault, AWS Secrets Manager, GCP Secret Manager).
-> - **C) Incorreta.** Ampliaria drasticamente o vazamento.
-> - **D) Incorreta.** Destruiria a segurança da aplicação.
-> - **E) Incorreta.** Segurança por obscurantismo ineficaz.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
 >
-> **Gabarito: B**
+> **Gabarito: E**
 
 ---
-
 ## 3. Documentação Técnica e Geração de Contratos
 
 ### 3.1 Docstrings, Javadoc e Comentários Semânticos
@@ -306,30 +338,35 @@ Em vez de diagramas estáticos desenhados em ferramentas gráficas externas (que
 ---
 
 ### Teste 144
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No processo de modernização e documentação de sistemas legados de órgãos públicos que não possuem documentação formal de interface, agentes de IA podem realizar engenharia reversa do código-fonte de controladores (*controllers* e rotas) para gerar automaticamente:
+**(FCC – TRT-23 – Analista Judiciário - Tecnologia da Informação – 2016)**
+Considere o texto a seguir: 
 
-* **A)** Uma especificação OpenAPI 3.0 padronizada em formato YAML/JSON descrevendo rigorosamente endpoints, métodos HTTP, parâmetros de consulta, cabeçalhos, schemas de requisição e códigos de resposta esperados.
-* **B)** Um arquivo executável `.bat` que formata o sistema operacional do servidor de banco de dados. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **C)** Um contrato de prestação de serviços civis sem valor jurídico.
-* **D)** Novas licenças de software comercial sem pagamento de royalties.
-* **E)** Um relatório financeiro com as despesas pessoais do gestor de TI.
+ Em computadores baseados na arquitetura de Von Neumann , assim que a instrução que vai ser executada é buscada da 
+memória principal para a CPU, o sistema efetiva automaticamente a modificação do conteúdo desse registrador de modo que 
+ele passe a armazenar o endereço da próxima instrução na sequência, sendo crucial para o processo de controle e de 
+sequenciamento da execução dos programas. 
 
+ O texto se refere ao registrador conhecido como
+
+* **A)** Registrador de Dados de Memória − RDM.
+* **B)** Registrador de Decodificação de Instruções − RDI.
+* **C)** Contador de Instruções − CI.
+* **D)** Registrador de Endereçamento de Instruções − REI.
+* **E)** Registrador de Instruções − RI.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Correta.** Agentes de IA são extraordinariamente eficazes em inspecionar controladores legados (Spring Boot, Express, Django) e produzir contratos padronizados OpenAPI 3.0/3.1 com tipagem completa de payloads e códigos HTTP, viabilizando governança e interoperabilidade.
-> - **B) Incorreta.** Ação destrutiva.
-> - **C) Incorreta.** OpenAPI é um contrato técnico de especificação de software.
-> - **D) Incorreta.** Sem relação com licenciamento comercial.
-> - **E) Incorreta.** Alheio à engenharia de software.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
-> **Gabarito: A**
+> **Gabarito: B**
 
 ---
-
 ## 4. Depuração (Debugging) e Diagnóstico de Erros Assistidos por IA
 
 ### 4.1 Análise de Stack Traces e Decodificação de Erros Críticos
@@ -354,57 +391,77 @@ Ao identificar a causa-raiz de um incidente, a boa prática da engenharia de sof
 ---
 
 ### Teste 145
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Durante a depuração de incidentes em produção, a análise de *Stack Traces* por assistentes de IA acelera significativamente a resolução de problemas críticos. Para que o diagnóstico seja assertivo e identifique a causa-raiz com precisão, a análise deve correlacionar a pilha de erro com:
+**(FGV – TJ-AP – Analista Judiciário - Tecnologia da Informação – 2023)**
+A Seção de Tecnologia da Informação (STI) de uma 
+determinada empresa está instalando novos ramais 
+analógicos de uma central telefônica em uma nova área 
+física. O almoxarifado da STI possui em seu inventário 
+diversos conectores e tomadas, conforme descri to na tabela 
+a seguir.  
+Item Quantidade 
+Conector RJ-9 5 
+Tomada para conector RJ-9 3 
+Conector RJ-11 15 
+Tomada para conector RJ-11 30 
+Conector RJ-45 22 
+Tomada para conector RJ-45 0 
+Com base nos dados da tabela, o número máximo de novos 
+ramais analógicos que podem ser instalados é igual a:
 
-* **A)** O clima meteorológico da cidade onde se localiza o data center.
-* **B)** A linha e o método exatos de lançamento da exceção no código-fonte, os parâmetros de entrada reportados no log e os commits recentes que alteraram aquela lógica de negócio.
-* **C)** A cor de fundo da área de trabalho do usuário que sofreu o erro.
-* **D)** A quantidade de cabos de rede conectados no switch principal do prédio.
-* **E)** O modelo do teclado mecânico utilizado pelo desenvolvedor que escreveu o código original garantindo a observância dos protocolos de governança e interoperabilidade vigentes.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A) Incorreta.** Dados irrelevantes.
-> - **B) Correta.** A investigação assistida correlaciona o *stack trace* (ponto de falha e propagação da exceção) com o contexto do repositório (código-fonte na versão exata do deploy, histórico do git blame/diff e dados de telemetria), isolando a causa-raiz (*Root Cause Analysis*).
-> - **C) Incorreta.** Fator sem relevância técnica.
-> - **D) Incorreta.** Infraestrutura de camada física desprovida de conexão com o stack trace de software.
-> - **E) Incorreta.** Irrelevante.
->
-> **Gabarito: B**
-
----
-
-### Teste 146
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em um incidente de produção no qual um microsserviço de emissão de guias de recolhimento apresenta travamento intermitente por esgotamento de conexões com o banco de dados (*connection pool exhaustion*), a equipe recorreu a um modelo de IA para auxiliar na depuração através da análise dos logs de eventos e do código da aplicação.
-
-A respeito da atuação da IA no processo de depuração (*debugging*), assinale a afirmativa correta:  
-
-* **A)** O modelo é capaz de interpretar o stack trace e identificar que certos blocos de transação de banco de dados não estão liberando conexões em blocos `finally` ou que falta o fechamento automático via blocos `try-with-resources`.
-* **B)** A IA altera os servidores físicos da infraestrutura em tempo real sem emitir registros nos logs de auditoria.
-* **C)** Ferramentas de IA são incapazes de analisar arquivos de log em formato texto estruturado como JSON ou Logstash.
-* **D)** O uso de IA para diagnóstico exime a necessidade de a equipe reproduzir o problema em ambientes de homologação.
-* **E)** Modelos de linguagem conseguem interceptar o fluxo elétrico das fontes de alimentação dos servidores para eliminar deadlocks.
-
+* **A)** 3;
+* **B)** 5;
+* **C)** 6;
+* **D)** 22;
+* **E)** 30.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **CORRETA.** Modelos de linguagem são altamente eficazes no reconhecimento de padrões de vazamento de recursos (*resource leaks*), apontando com exatidão métodos onde objetos de conexão JDBC não foram encapsulados em blocos `try-with-resources` (`AutoCloseable`), provocando a retenção indevida de conexões que esgota o pool sob carga.
-> - **B)** Incorreta. LLMs operam sobre código e textos, não exercendo controle físico sobre hardwares sem auditoria.
-> - **C)** Incorreta. A interpretação de logs estruturados em JSON, Log4j ou Logstash é uma das tarefas mais maduras de assistentes generativos.
-> - **D)** Incorreta. A reprodução da falha e a validação do patch corretivo em ambiente de testes antes da ida para produção permanecem mandatórias.
-> - **E)** Incorreta. Deadlocks são conflitos lógicos de concorrência de software, não tendo qualquer relação com controle elétrico de fontes de alimentação.
-> 
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
 > **Gabarito: A**
 
 ---
+### Teste 146
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+Com relação às tábuas biométricas e às funções de comutação 
+atuarial, é correto afirmar que
 
+* **A)** a função l x é derivada da tábua biométrica e representa o 
+número esperado de sobreviventes de uma população, 
+preservando uma relação de monotonicidade não -
+decrescente.
+* **B)** as comutações derivam das tábuas biométricas e fornecem 
+uma estimativa do valor esperado para a inflação futura, 
+embutida na taxa de juros utilizada.
+* **C)** as comutações podem embutir taxas de juros reais variáveis 
+por uma estrutura a termo da taxa de juros.
+* **D)** as comutações são usadas para simplificar os cálculos 
+atuariais, permitindo a derivação de valores presentes de 
+benefícios futuros e prêmios, baseando -se em tábuas de 
+mortalidade e taxas de juros.
+* **E)** com as tábuas biométricas e taxa de juros eleitas, mas sem a 
+utilização das funções de comutação, não é possível o Atuário 
+realizar os cálculos atuariais.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: A**
+
+---
 ## 5. Geração Automatizada de Testes de Software
 
 ### 5.1 A Grande Armadilha: Testar a Implementação Defeituosa vs. o Comportamento
@@ -476,84 +533,81 @@ flowchart LR
 ---
 
 ### Teste 147
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Ao utilizar assistentes de IA generativa para a criação automatizada de testes de software, engenheiros de controle de qualidade identificam com frequência a denominada *"Armadilha da Implementação Defeituosa"*. Essa falha metodológica crítica ocorre quando:
+**(FCC – TRT-11 – Analista Judiciário - Tecnologia da Informação – 2017)**
+Uma aplicação Java EE utiliza JPA em conjunto com o provedor de persistência Hibernate. Esta aplicação estabelece conexão 
+com um banco de dados chamado empresa que possui uma tabela departamento. O banco de dados é acessado por meio do 
+usuário root, cuja senha é pC43Ab. Nestas condições, uma instrução correta que pode estar no arquivo persistence.xml é
 
-* **A)** O modelo de linguagem recusa-se a gerar qualquer assertiva de teste unitário.
-* **B)** A IA gera casos de teste que apenas confirmam o comportamento atual e defeituoso do código implementado, em vez de validar a regra de negócio correta expressa na especificação de requisitos.
-* **C)** Os testes gerados passam a exigir que o computador execute sob refrigeração criogênica de nitrogênio líquido considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
-* **D)** A ferramenta de teste apaga todos os bancos de dados da rede corporativa.
-* **E)** A suíte de testes passa a executar exclusivamente em linguagem Assembly de 8 bits.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A) Incorreta.** A IA gera os testes com facilidade, mas eles podem ser falsamente positivos.
-> - **B) Correta.** É a grande armadilha da geração cega de testes por IA: se a função possui um bug lógico (ex: calcula imposto com alíquota errada de 5% em vez de 15%), e o desenvolvedor pede para a IA "gerar testes para esta função", a IA deduz que a implementação é a verdade e cria asserções como `assertEquals(5, calcularImposto())`, institucionalizando o defeito com 100% de cobertura de código. Os testes devem ser guiados pela especificação do requisito, e não pelo código defeituoso.
-> - **C) Incorreta.** Afirmação absurda.
-> - **D) Incorreta.** Testes unitários operam em memória e não deletam bases externas.
-> - **E) Incorreta.** Testes executam na mesma linguagem do projeto (JUnit, Jest, PyTest etc.).
->
-> **Gabarito: B**
-
----
-
-### Teste 148
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Durante a fase de homologação de um módulo contábil no TCE-GO, um programador utilizou uma ferramenta de inteligência artificial generativa para gerar automaticamente uma suíte de testes unitários em JUnit a partir do código-fonte recém-escrito de uma classe de cálculo de multas.
-
-Ao analisar as práticas recomendadas e os riscos associados à geração de testes automatizados assistidos por IA, assinale a afirmativa correta:  
-
-* **A)** O uso de IA para testes dispensa totalmente a verificação humana das asserções (`assert`), já que modelos de linguagem possuem prova formal matemática de corretude lógica. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **B)** A ferramenta de IA é incapaz de testar casos de borda (*edge cases*), limitando-se unicamente ao caminho feliz (*happy path*) pré-definido pelo framework de teste.
-* **C)** Um dos principais riscos da geração de testes com base apenas no código existente é o teste da implementação em vez do comportamento pretendido: se o código possuir um bug na fórmula matemática, a IA pode gerar testes que asseveram o resultado incorreto como sendo o esperado, perpetuando o defeito.
-* **D)** Testes unitários gerados por IA tornam desnecessárias as etapas subsequentes de testes de integração, testes de carga e testes de segurança da aplicação.
-* **E)** A IA é legalmente responsável por falhas funcionais que passem despercebidas para o ambiente de produção após a execução da suíte de testes sintetizada.
-
+* **A)** <provider name="org.hibernate.ejb.HibernatePersistence" value="Hibernate"/>
+* **B)** <persistence-database name="hibernate.connection.databasename" value="empresa"/>
+* **C)** <property name="hibernate.connection.username" value="root"/>
+* **D)** <table name="hibernate.connection.tablename" value="departamento"/>
+* **E)** <persistence name="persistence.createEntityManagerFactory" value="PersistenceUnit"/>
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Modelos de IA operam por aproximação estatística probabilística e não fornecem provas formais matemáticas de corretude, sendo indispensável a validação das asserções por desenvolvedores humanos.
-> - **B)** Incorreta. A geração automática de casos de borda (*edge cases*: entradas nulas, números negativos, limites extremos de tipos inteiros) é exatamente um dos pontos fortes dos modelos de IA.
-> - **C)** **CORRETA.** Se o código-fonte fornecido contiver um erro conceitual de negócio e o prompt não trouxer a especificação independente, a IA tomará a implementação com defeito como referência de verdade. Suas asserções validarão o cálculo errado, gerando testes que passarão com 100% de sucesso na esteira de CI/CD, mascarando o defeito.
-> - **D)** Incorreta. Testes unitários cobrem métodos isolados em memória; eles não atestam o comportamento integrado com banco de dados, filas ou desempenho sob carga.
-> - **E)** Incorreta. A responsabilidade técnica e civil recai sempre sobre os servidores e a equipe de engenharia do órgão público.
-> 
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
 > **Gabarito: C**
 
 ---
+### Teste 148
+**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
+Hibernate 7.0 representa um marco significativo na evolução do 
+Hibernate ORM com foco especial na sua nova especificação para 
+repositórios. 
+O Hibernate Data Repositories é uma implementação baseado no
 
-### Teste 149
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Para aferir a real qualidade de uma suite de testes unitários sintetizada por uma ferramenta de IA generativa, um arquiteto de software sugeriu a aplicação de Testes de Mutação (*Mutation Testing*).
-
-O princípio básico dos Testes de Mutação para validar a eficácia da suíte de testes gerada pela IA consiste em:  
-
-* **A)** Modificar os testes até que a taxa de cobertura de código atinja exatamente 200%.
-* **B)** Introduzir modificações sintáticas pontuais e deliberadas no código-fonte sob teste (mutantes), verificando se a suíte de testes é capaz de falhar ao executá-los; caso os testes continuem passando mesmo com as alterações defeituosas no código, evidencia-se a ineficácia das asserções dos testes gerados.
-* **C)** Treinar um novo modelo de IA que substitui todo o código da aplicação por scripts em shell script.
-* **D)** Validar unicamente a velocidade de inicialização do sistema operacional da máquina onde o teste é executado.
-* **E)** Comparar a quantidade de caracteres do código com o tamanho do disco rígido da estação de trabalho.
-
+* **A)** Java EE8.
+* **B)** JBoss 3.0.
+* **C)** JQuery Data.
+* **D)** Jakarta Data.
+* **E)** Jakarta API 2.0.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Cobertura de código é uma porcentagem estritamente limitada ao intervalo de 0% a 100%.
-> - **B)** **CORRETA.** O Teste de Mutação (*Mutation Testing*) introduz falhas artificiais intencionais no código compilado sob teste (mutantes). Se a suíte de testes falhar, o mutante foi "morto", comprovando que as asserções (`assert`) são sensíveis e eficazes. Se os testes continuarem passando mesmo com o código adulterado, o mutante "sobreviveu", revelando que os testes gerados pela IA são superficiais e incapazes de capturar defeitos reais.
-> - **C)** Incorreta. Testes de mutação não envolvem retreinamento de modelos nem conversão de linguagens para shell script.
-> - **D)** Incorreta. A técnica afere a robustez lógica das asserções, não o tempo de boot do sistema operacional.
-> - **E)** Incorreta. Comparação esdrúxula e sem fundamentação na engenharia de testes de software.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: D**
+
+---
+### Teste 149
+**(FCC – TRT-23 – Analista Judiciário - Tecnologia da Informação – 2016)**
+Para utilizar o OpenSource Selenium, um Analista deve conhecer suas atuais e principais ferramentas. Uma delas é a que 
+permite distribuir os testes em múltiplas máquinas, reduzindo assim o tempo gasto na execução de uma suíte de testes. É ideal 
+para escalonar suítes de testes grandes ou que devem ser executadas em múltiplos ambientes. Essa ferramenta é o Selenium
+
+* **A)** SELECT.
+* **B)** RC.
+* **C)** IDE.
+* **D)** TYPE.
+* **E)** GRID.
 
 ---
 
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: A**
+
+---
 ## 6. Fontes Recomendadas na Internet
 
 * [ArXiv - Evaluating Large Language Models Trained on Code / Codex & Pass@k (Chen et al.)](https://arxiv.org/abs/2107.03374) - Criação do benchmark HumanEval, definição formal da métrica pass@k e síntese funcional de código.

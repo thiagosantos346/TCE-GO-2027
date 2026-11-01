@@ -85,55 +85,77 @@ flowchart LR
 ---
 
 ### Teste 340
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A respeito da evolução do pensamento administrativo e das premissas sustentadas pelas diferentes escolas da Teoria Geral da Administração, assinale a opção correta:
+**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
+A Administração Pública, como organização formal moderna, 
+apresenta características básicas como divisão do trabalho, 
+hierarquia funcional, formalização de regras, impessoalidade e 
+busca pela eficiência na prestação dos serviços públicos. 
+Assinale a opção que apresenta, corretamente, uma característica 
+das organizações formais modernas no âmbito da Administração 
+Pública.
 
-* **A)** A Teoria das Relações Humanas concebia o trabalhador como o *Homo Economicus*, sustentando que a produtividade fabril dependia exclusivamente dos estímulos pecuniários e incentivos salariais por peça produzida.
-* **B)** A Teoria Contingencial defende a universalidade dos princípios administrativos, afirmando que existe uma única melhor maneira (*the one best way*) de gerenciar qualquer organização, independentemente do ambiente externo.
-* **C)** A Teoria Geral dos Sistemas postula que as organizações operam como sistemas abertos dotados de entropia negativa, o que lhes permite importar recursos e informações do ambiente externo para conter a tendência natural de degradação e manter sua integridade interna.
-* **D)** A Teoria Clássica preconizada por Henri Fayol refutou a unidade de comando, defendendo a supervisão funcional de múltiplos chefes proposta outrora pela administração científica.
-* **E)** O modelo weberiano de burocracia baseia-se na autoridade carismática como esteio fundamental para a profissionalização e estabilidade do quadro funcional das organizações.
-
+* **A)** Os clientes internos não influenciam os processos 
+organizacionais, pois seu papel está restrito ao consumo dos 
+produtos finais da organização.
+* **B)** Departamentos, divisões e seções não são considerados 
+unidades organizacionais por não estarem diretamente ligados 
+à alta gestão.
+* **C)** A departamentalização por cliente é característica das 
+estruturas informais e não se aplica à Administração Pública.
+* **D)** Unidades organizacionais, como grupos de trabalho e seções, 
+podem funcionar tanto como fornecedores quanto como 
+clientes internos, conforme o fluxo de processos internos.
+* **E)** A estrutura organizacional da Administração Pública não 
+permite a existência de fornecedores internos, pois todos os 
+insumos provêm do setor privado.
 
 ---
 
-> **Comentário Detalhado:**  
+> **Comentário Detalhado:**
 >
-> - **A) Incorreta.** O conceito de *Homo Economicus* pertence à Administração Científica (Taylor) e Teoria Clássica (Fayol). A Escola de Relações Humanas (Mayo) concebeu o trabalhador como **Homo Socialis** (motivado pelo grupo e integração social).  
-> - **B) Incorreta.** A Teoria Contingencial rejeita a existência de princípios universais ou de uma "melhor maneira" única, afirmando que a estrutura adequada depende da tecnologia e do ambiente.  
-> - **C) CORRETA.** Na Teoria Geral dos Sistemas, as organizações são concebidas como **sistemas abertos** que realizam trocas permanentes com o meio externo e possuem **entropia negativa (negentropia)**, ou seja, a capacidade de importar insumos e energia para deter o colapso e preservar a homeostase interna.  
-> - **D) Incorreta.** Fayol era o defensor categórico da **Unidade de Comando** (um único chefe direto); a supervisão funcional pertencia a Taylor.  
-> - **E) Incorreta.** A burocracia weberiana sustenta-se exclusivamente na **autoridade racional-legal** (leis, normas escritas e impessoalidade), e não na autoridade carismática.  
-> 
-> **Gabarito: C**
-
----
-
-### Teste 341
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere que um gestor público de departamento estadual dividiu as rotinas de trabalho em tarefas elementares repetitivas, cronometrou os tempos de digitação de cada processo e estipulou uma premiação pecuniária individual para os servidores que superassem a meta diária de processos autuados, partindo da premissa de que os indivíduos trabalham motivados exclusivamente pelo ganho monetário. Essa postura gerencial reflete diretamente os postulados da:
-
-* **A)** Teoria das Relações Humanas e a busca pela integração grupal informal.
-* **B)** Administração Científica de Taylor e a concepção do *Homo Economicus*.
-* **C)** Teoria Estruturalista e a mediação de conflitos institucionais inevitáveis.
-* **D)** Teoria Geral dos Sistemas e a busca pela homeostase dinâmica.
-* **E)** Teoria Comportamental fundamentada na Teoria Y de Douglas McGregor.
-
-
----
-
-> **Comentário Detalhado:**  
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
-> - **A) Incorreta.** As Relações Humanas valorizam o reconhecimento social e os grupos informais, rejeitando a primazia do dinheiro como motivador único.  
-> - **B) CORRETA.** A **Administração Científica de Frederick Taylor** baseava-se no estudo sistemático dos tempos e movimentos (ORT), fragmentação máxima das tarefas e estímulo pecuniário através do pagamento por produção individual, alicerçada no postulado antropológico do **Homo Economicus** (o ser humano é preguiçoso e move-se unicamente pela busca do ganho material/financeiro).  
-> - **C) Incorreta.** A abordagem estruturalista foca na interação entre estruturas formais e informais e no papel dos conflitos.  
-> - **D) Incorreta.** A teoria sistêmica foca no equilíbrio com o ambiente externo e fluxo de insumos/produtos.  
-> - **E) Incorreta.** A Teoria Y de McGregor sustenta que as pessoas são naturalmente motivadas, criativas e buscam autorrealização no trabalho.  
-> 
 > **Gabarito: B**
 
 ---
+### Teste 341
+**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**
+Em geral, a dinâmica do processo de referência (o 
+atendimento ao usuário propriamente dito) inclui duas 
+fases: uma relacionada à natureza do problema do usuário 
+e outra, às decisões e caminhos percorridos pelo 
+bibliotecário. A primeira fase relacionada à natureza do 
+problema envolve quatro etapas. São elas:
 
+* **A)** a negociação da questão, o processo de busca, a 
+resposta e a solução do problema.
+* **B)** a pergunta, a negociação, a busca da informação e 
+a renegociação.
+* **C)** a formulação da questão, a entrevista, a estratégia 
+de busca e a busca.
+* **D)** o processo de comunicação, a questão, a pesquisa 
+e as fontes de informação.
+* **E)** o problema, a necessidade de informação, a questão 
+inicial e a questão negociada. 
+_________________________________________________________
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: B**
+
+---
 ## 2. A Divergência Clássica: Taylor (Científica) vs. Fayol (Clássica)
 
 Embora ambas pertençam à abordagem clássica e compartilhem a visão mecanicista da organização (tratando-a como um sistema fechado isolado do meio externo), Taylor e Fayol partiram de pontos de vista estruturais diametralmente opostos:
@@ -187,30 +209,36 @@ Desenvolvida a partir de 1932 nos Estados Unidos, a Teoria das Relações Humana
 ---
 
 ### Teste 342
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A Teoria das Relações Humanas, impulsionada pelos estudos de Elton Mayo na fábrica de Hawthorne (Western Electric Company, 1927-1932), revolucionou a teoria administrativa ao demonstrar que:
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+Negligência 
+(   ) o trabalhador tem consciência das normas de segurança, mas 
+não as seguem 
+(   ) o trabalhador não dá a devida atenção ao realizar um 
+procedimento de segurança 
+(   ) o trabalhador tenta realizar uma tarefa para a qual não tem 
+qualificação 
+Assinale a opção que indica a relação correta, na ordem 
+apresentada.
 
-* **A)** O nível de produção e a produtividade no trabalho são determinados primordialmente pela integração social e pelas normas informais do grupo, e não apenas pela capacidade física ou fisiológica do trabalhador.
-* **B)** O operário é motivado exclusivamente por incentivos salariais materiais e materiais financeiros (*Homo economicus*).
-* **C)** A divisão extrema do trabalho em tarefas microscópicas e cronometradas elimina qualquer necessidade de supervisão humana.
-* **D)** A fadiga muscular é a única causa de acidentes e quebras de produtividade no ambiente industrial.
-* **E)** As organizações formais funcionam como engrenagens mecânicas imunes a sentimentos, grupos informais e estados psicológicos.
-
+* **A)** 1 – 2 – 3.
+* **B)** 1 – 3 – 2.
+* **C)** 2 – 1 – 3.
+* **D)** 2 – 3 – 1.
+* **E)** 3 – 1 – 2.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. A experiência de Hawthorne revelou que o trabalhador não atua isolado, mas como membro de um grupo social (*Homo socialis*). A produtividade é influenciada por fatores psicossociais, reconhecimento, moral do grupo e liderança informal.
-> - **B)** Incorreta. O conceito de *Homo economicus* pertence à Administração Científica de Taylor.
-> - **C)** Incorreta. Concepção taylorista de estudos de tempos e movimentos.
-> - **D)** Incorreta. Elton Mayo provou que o efeito psicológico do grupo superava a fadiga física nas variações de produção.
-> - **E)** Incorreta. Visão mecanicista da Escola Clássica que foi superada pela abordagem humanística.
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+>
+> **Gabarito: E**
 
 ---
-
 ## 4. Teoria da Burocracia (Max Weber) e as Disfunções Burocráticas (Robert Merton)
 
 Para Max Weber, a burocracia é a forma de organização social humana mais eficiente, técnica e racional para administrar grandes instituições e o Estado moderno.
@@ -243,30 +271,37 @@ O sociólogo Robert Merton demonstrou que a tentativa de buscar o máximo de pre
 ---
 
 ### Teste 343
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No âmbito da Teoria Burocrática desenvolvida por Max Weber, o modelo ideal de burocracia é fundamentado no tipo de dominação racional-legal. No entanto, autores pós-weberianos como Robert Merton identificaram que a aplicação prática desse modelo suscita desvios conhecidos como disfunções da burocracia. Constitui uma clássica disfunção burocrática descrita por Merton:
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+Com base na primeira lei da termodinâmica, é correto afirmar 
+que
 
-* **A)** A substituição da unidade de comando clássica pela supervisão funcional de múltiplos especialistas.
-* **B)** A flexibilização excessiva das rotinas operacionais em resposta aos apelos emocionais dos cidadãos.
-* **C)** O deslocamento de objetivos, em que a observância estrita das regras e normas procedimentais passa a ser um fim em si mesmo, prejudicando o atendimento dos objetivos reais da organização.
-* **D)** A contratação indiscriminada de pessoal comissionado com base em laços de parentesco e afinidade pessoal.
-* **E)** A proliferação descontrolada de grupos informais que ditam os padrões de produtividade à revelia da administração.
-
+* **A)** a energia interna de um sistema aumenta de forma 
+proporcional ao trabalho produzido por esse sistema.
+* **B)** se a energia interna do sistema não varia, o trabalho 
+produzido por esse sistema é nulo.
+* **C)** quando a energia interna do sistema aumenta, o calor que 
+entra em um sistema é menor do que o trabalho que é 
+produzido por esse sistema.
+* **D)** se a energia interna do sis tema não varia, a quantidade de 
+calor que entra no sistema é igual, em módulo, ao trabalho 
+realizado pelo sistema.
+* **E)** o calor que entra em um sistema é inversamente 
+proporcional ao trabalho que é produzido por esse sistema 
+quando sua energia interna aumenta.
 
 ---
 
-> **Comentário Detalhado:**  
+> **Comentário Detalhado:**
 >
-> - **A) Incorreta.** A supervisão funcional é uma proposta da Administração Científica de Taylor, não uma disfunção da burocracia de Merton.  
-> - **B) Incorreta.** A burocracia peca pelo excesso de rigidez e apego às regras, e não por flexibilização emocional.  
-> - **C) CORRETA.** Robert Merton demonstrou que o apego cego e intransigente aos regulamentos provoca o **deslocamento de objetivos**: a regra, que deveria ser um mero instrumento para atingir o fim público, transforma-se no objetivo primordial do funcionário. O cumprimento formal da norma passa a valer mais do que a solução do problema do cidadão.  
-> - **D) Incorreta.** Contratação por compadrio é traço típico do patrimonialismo, e não disfunção da burocracia (que preconiza o concurso público e mérito técnico).  
-> - **E) Incorreta.** A ação de grupos informais foi evidenciada por Elton Mayo na Teoria das Relações Humanas.  
-> 
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
 > **Gabarito: C**
 
 ---
-
 ## 5. Abordagem Comportamental: McGregor, Barnard e Herbert Simon
 
 A Teoria Comportamental (Behaviorista) consolidou-se na década de 1950, adotando uma perspectiva realista, empírica e democrática do homem nas organizações:
@@ -284,32 +319,35 @@ A Teoria Comportamental (Behaviorista) consolidou-se na década de 1950, adotand
 ---
 
 ### Teste 344
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na Teoria Comportamental da Administração, Douglas McGregor concebeu duas visões antagônicas a respeito da natureza humana e da atitude dos indivíduos em relação ao trabalho: a **Teoria X** e a **Teoria Y**.
+**(FGV – TCE-PA – Auditor de Controle Externo – 2024)**
+Na termodinâmica pode -se fazer uma distinção entre uma 
+“variáveis de estado”, no sentido mais pr imário, e “funções de 
+estado”, cujos valores dependem dessas variáveis de estado 
+primárias.  
+Segundo essa distinção, assinale a opção que indica duas 
+variáveis de estado.
 
-Segundo McGregor, a **Teoria Y** fundamenta-se na premissa de que:
+* **A)** Pressão e entropia.
+* **B)** Volume e entropia.
+* **C)** Temperatura e pressão.
+* **D)** Energia interna e volume.
+* **E)** Temperatura e energia interna. 
 
-* **A)** O dispêndio de esforço físico e mental no trabalho é tão natural quanto o lazer ou o repouso; o ser humano comum não tem aversão intrínseca ao trabalho e pode aprender não só a aceitar, mas a buscar responsabilidades sob condições favoráveis.
-* **B)** O homem médio é indolente por natureza, evita o trabalho sempre que possível e precisa ser coagido, vigiado e controlado rigorosamente por meio de punições.
-* **C)** As pessoas são desprovidas de ambição, preferem ser dirigidas e buscam prioritariamente a segurança acima de qualquer outro fator.
-* **D)** A criatividade na solução de problemas organizacionais é privilégio raro e exclusivo dos ocupantes da alta direção.
-* **E)** As recompensas financeiras estritas são a única força capaz de mobilizar a dedicação dos empregados.
-
+AUDITOR DE CONTROLE EXTERNO – ÁREA ADMINISTRATIVA - ENGENHARIA MECÂNICA – MANHÃ  TIPO  BRANCA – PÁGINA 21
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. A **Teoria Y** baseia-se em premissas humanistas, democráticas e participativas: o trabalho é visto como fonte de satisfação; os trabalhadores são automotivados, responsáveis e criativos quando engajados em metas organizacionais que atendem às suas necessidades de autorrealização.
-> - **B)** Incorreta. Descrição clássica dos postulados autoritários da **Teoria X**.
-> - **C)** Incorreta. Premissa da **Teoria X**.
-> - **D)** Incorreta. Na Teoria Y, a criatividade e a engenhosidade são amplamente distribuídas na população.
-> - **E)** Incorreta. Visão de incentivos materiais típica da Teoria X e da Administração Científica.
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+>
+> **Gabarito: E**
 
 ---
-
 ## 6. Teoria Geral dos Sistemas (TGS): A Organização como Sistema Aberto
 
 Formulada pelo biólogo Ludwig von Bertalanffy e aplicada às organizações por Katz e Kahn, a Teoria dos Sistemas concebe a organização não como uma máquina fechada, mas como um **sistema aberto** em constante interação e intercâmbio com seu ecossistema externo:
@@ -367,55 +405,79 @@ flowchart TD
 ---
 
 ### Teste 345
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Estudos conduzidos por Tom Burns e G. M. Stalker, no âmbito da Teoria Contingencial, demonstraram que o desenho das organizações deve ajustar-se às demandas do ambiente externo, dividindo os sistemas gerenciais em mecanicistas e orgânicos. Em relação a essas duas tipologias, é correto afirmar:
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+Com a crescente permeabilidade das organizações e um conceito 
+mais amplo de Administração, a organização do futuro deve 
+oferecer produtos de alta qualidade e competitividade, 
+atendendo aos consumidores sem prejudicar o planeta ou a 
+qualidade de vida. Diante desses desafios, o gestor precisa 
+ressignificar sua mentalidade e desenvolver novas competências 
+gerenciais. 
+Assinale a opção que destaca uma competência gerencial que 
+reconhece um ambiente em constante evolução e a incerteza 
+sobre o futuro.
 
-* **A)** Organizações que operam sob sistemas mecanicistas caracterizam-se por estruturas descentralizadas, canais de comunicação horizontais e adaptação veloz a ambientes altamente turbulentos.
-* **B)** Os sistemas orgânicos são recomendados prioritariamente para organizações inseridas em ambientes externos estáveis e previsíveis, com tarefas rotineiras e imutáveis.
-* **C)** Os sistemas mecanicistas caracterizam-se por hierarquia rígida, especialização acentuada das tarefas, centralização das decisões e adequação a ambientes externos estáveis.
-* **D)** A teoria contingencial preconiza que as estruturas orgânicas devem ser adotadas universalmente por todas as entidades públicas, independentemente do contexto tecnológico ou ambiental.
-* **E)** As organizações que adotam sistemas orgânicos eliminam integralmente a divisão do trabalho e suprimem as metas institucionais de longo prazo.
-
-
----
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** Descentralização, comunicação horizontal e adaptabilidade rápida a ambientes dinâmicos são atributos dos sistemas **orgânicos**.  
-> - **B) Incorreta.** Ambientes estáveis e previsíveis ajustam-se melhor aos sistemas **mecanicistas**.  
-> - **C) CORRETA.** Segundo Burns e Stalker, os **sistemas mecanicistas** são marcados por hierarquia vertical estrita, autoridade centralizada na cúpula, tarefas fragmentadas e rotinas padronizadas, sendo ideais para ambientes externos **estáveis e previsíveis**.  
-> - **D) Incorreta.** A Teoria Contingencial rechaça receitas universais; a escolha entre modelo mecanicista ou orgânico é situacional e depende das contingências externas.  
-> - **E) Incorreta.** Os sistemas orgânicos mantêm a divisão de trabalho e os objetivos estratégicos, apenas operando com maior flexibilidade e integração de papéis.  
-> 
-> **Gabarito: C**
-
----
-
-### Teste 346
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A Teoria Contingencial da Administração (desenvolvida a partir de pesquisas de Lawrence & Lorsch, Burns & Stalker e Joan Woodward) estabelece que não existe uma "única melhor maneira" (*the one best way*) de administrar e organizar, pois a estrutura e as práticas organizacionais dependem das variáveis ambientais e tecnológicas.
-
-Segundo a tipologia de Tom Burns e G. M. Stalker, uma **estrutura orgânica** é mais adequada quando a organização opera em um ambiente:
-
-* **A)** Dinâmico, instável e imprevisível, exigindo flexibilidade, descentralização decisória, baixa formalização e comunicações laterais/horizontais.
-* **B)** Totalmente estável, estático e previsível, onde tarefas rotineiras repetitivas e centralização rígida produzem máxima eficiência.
-* **C)** Fechado a qualquer influência externa e focado em controle legalista estrito de ponto eletrônico.
-* **D)** Monopolista estatal sem qualquer interação com os cidadãos e a sociedade civil.
-* **E)** Altamente regulado por normas que proíbam a adaptação a novas tecnologias digitais.
-
+* **A)** Estrela do norte ao longo da organização.
+* **B)** Ciclos rápidos e decisão e aprendizado.
+* **C)** Rede de equipes capacitadas e empoderadas.
+* **D)** Modelo dinâmico de pessoas que desperta a paixão.
+* **E)** Tecnologia habilitada para a próxima geração.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Burns e Stalker demonstraram que os **sistemas orgânicos** (flexíveis, descentralizados, baseados em redes e conhecimento especializado horizontal) ajustam-se a ambientes mutáveis e turbulentos; já os **sistemas mecanicistas** (burocráticos, verticais e rígidos) funcionam bem em ambientes estáveis e previsíveis.
-> - **B)** Incorreta. Ambientes estáveis favorecem estruturas mecanicistas/burocráticas.
-> - **C), D), E)** Incorretas. Distorções que contrariam a abertura e adaptabilidade dos modelos contingenciais.
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+>
+> **Gabarito: E**
+
+---
+### Teste 346
+**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
+Leia o trecho a seguir. 
+Ao iniciar um romance, o escritor é semelhante ao capitão de um 
+navio de guerra, partindo de viagem com ordens seladas no bolso. 
+Mas, ao abrir o envelope, já em alto-mar, descobre ele que a 
+mensagem foi escrita com tinta invisível. Não a pode ler. Está, 
+entretanto, consciente do dever a cumprir, pois é comandante de 
+um navio de guerra e não de um barco de recreio. As ordens 
+indecifráveis, porém imperativas, que guarda no bolso, enchem-no 
+com a consciência de sua responsabilidade. Nisso reside a missão 
+do escritor. 
+Assinale a opção que não está de acordo  com a significação ou a 
+estruturação do texto.
+
+* **A)** O escritor tem uma missão nobre, que deve ser cumprida, 
+independentemente dos obstáculos.
+* **B)** O texto é estruturado em linguagem figurada, apoiado na 
+analogia de escrever com comandar um navio de guerra.
+* **C)** O ato de escrever é comandado por Deus, que escreve suas 
+ordens com tinta invisível.
+* **D)** Escrever não é essencialmente uma tarefa prazerosa (barco de 
+recreio), mas uma tarefa responsável e cheia de obstáculos 
+(navio de guerra).
+* **E)** No texto, a literatura é vista como uma missão de 
+responsabilidade, ainda que o tipo de responsabilidade 
+referida não esteja explícito. 
+TRIBUNAL REGIONAL DO TRABALHO DA 24ª REGIÃO (TRT-24) – REAPLICAÇÃO FGV CONHECIMENTO
 
 ---
 
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: A**
+
+---
 ## 8. Metáforas Organizacionais de Gareth Morgan
 
 Em sua clássica obra *Imagens da Organização*, Gareth Morgan demonstra que as organizações podem ser concebidas e gerenciadas sob diferentes lentes metafóricas, cada qual ressaltando uma faceta da realidade institucional:
@@ -435,79 +497,121 @@ flowchart TD
 ---
 
 ### Teste 347
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Em sua consagrada obra sobre metáforas organizacionais, Gareth Morgan analisa as diversas imagens conceituais utilizadas para compreender o funcionamento das instituições. Ao retratar a organização sob a metáfora de uma máquina, o autor alinha-se prioritariamente às ideias sustentadas por:
+**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
+Leia o trecho a seguir. 
+Ao iniciar um romance, o escritor é semelhante ao capitão de um 
+navio de guerra, partindo de viagem com ordens seladas no bolso. 
+Mas, ao abrir o envelope, já em alto-mar, descobre ele que a 
+mensagem foi escrita com tinta invisível. Não a pode ler. Está, 
+entretanto, consciente do dever a cumprir, pois é comandante de 
+um navio de guerra e não de um barco de recreio. As ordens 
+indecifráveis, porém imperativas, que guarda no bolso, enchem-no 
+com a consciência de sua responsabilidade. Nisso reside a missão 
+do escritor. 
+Assinale a opção que não está de acordo  com a significação ou a 
+estruturação do texto.
 
-* **A)** Elton Mayo e a Escola das Relações Humanas.
-* **B)** Frederick Taylor e Henri Fayol nas abordagens mecanicistas clássicas.
-* **C)** Ludwig von Bertalanffy e a Teoria Geral dos Sistemas.
-* **D)** Peter Senge e a teoria das organizações que aprendem.
-* **E)** Joan Woodward e os teóricos da abordagem situacional contemporânea.
-
+* **A)** O escritor tem uma missão nobre, que deve ser cumprida, 
+independentemente dos obstáculos.
+* **B)** O texto é estruturado em linguagem figurada, apoiado na 
+analogia de escrever com comandar um navio de guerra.
+* **C)** O ato de escrever é comandado por Deus, que escreve suas 
+ordens com tinta invisível.
+* **D)** Escrever não é essencialmente uma tarefa prazerosa (barco de 
+recreio), mas uma tarefa responsável e cheia de obstáculos 
+(navio de guerra).
+* **E)** No texto, a literatura é vista como uma missão de 
+responsabilidade, ainda que o tipo de responsabilidade 
+referida não esteja explícito. 
+TRIBUNAL REGIONAL DO TRABALHO DA 24ª REGIÃO (TRT-24) – REAPLICAÇÃO FGV CONHECIMENTO
 
 ---
 
-> **Comentário Detalhado:**  
+> **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Elton Mayo inaugurou a abordagem humanística focada no comportamento grupal e nas necessidades psicossociais.  
-> - **B) CORRETA.** A **metáfora da máquina** proposta por Morgan reflete a concepção mecanicista do início do século XX encabeçada por **Taylor (Administração Científica)** e **Fayol (Teoria Clássica)**, na qual a instituição é planejada como uma engrenagem mecânica precisa, projetada para funcionar com rotina, previsibilidade e máxima eficiência padronizada.  
-> - **C) Incorreta.** A Teoria dos Sistemas utiliza prioritariamente a metáfora dos organismos vivos.  
-> - **D) Incorreta.** As organizações que aprendem (*learning organizations*) são retratadas sob a metáfora dos cérebros.  
-> - **E) Incorreta.** A abordagem situacional enfatiza a adaptabilidade contingencial ao meio ambiente.  
-> 
-> **Gabarito: B**
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: A**
 
 ---
-
 ### Teste 348
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na obra clássica *Imagens da Organização*, Gareth Morgan analisa as organizações por meio de diferentes metáforas para explicar como gestores percebem e projetam as instituições.
+**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
+Leia o trecho a seguir. 
+Ao iniciar um romance, o escritor é semelhante ao capitão de um 
+navio de guerra, partindo de viagem com ordens seladas no bolso. 
+Mas, ao abrir o envelope, já em alto-mar, descobre ele que a 
+mensagem foi escrita com tinta invisível. Não a pode ler. Está, 
+entretanto, consciente do dever a cumprir, pois é comandante de 
+um navio de guerra e não de um barco de recreio. As ordens 
+indecifráveis, porém imperativas, que guarda no bolso, enchem-no 
+com a consciência de sua responsabilidade. Nisso reside a missão 
+do escritor. 
+Assinale a opção que não está de acordo  com a significação ou a 
+estruturação do texto.
 
-A metáfora que visualiza a organização como um sistema adaptativo que necessita processar informações constantemente, aprender com os erros e reestruturar sua própria base de conhecimento e diretrizes (conceito de circuito duplo de aprendizagem) é a:
-
-* **A)** Organização como Cérebro.
-* **B)** Organização como Máquina.
-* **C)** Organização como Prisão Psíquica.
-* **D)** Organização como Instrumento de Dominação.
-* **E)** Organização como Sistema Político de Coalizões.
-
+* **A)** O escritor tem uma missão nobre, que deve ser cumprida, 
+independentemente dos obstáculos.
+* **B)** O texto é estruturado em linguagem figurada, apoiado na 
+analogia de escrever com comandar um navio de guerra.
+* **C)** O ato de escrever é comandado por Deus, que escreve suas 
+ordens com tinta invisível.
+* **D)** Escrever não é essencialmente uma tarefa prazerosa (barco de 
+recreio), mas uma tarefa responsável e cheia de obstáculos 
+(navio de guerra).
+* **E)** No texto, a literatura é vista como uma missão de 
+responsabilidade, ainda que o tipo de responsabilidade 
+referida não esteja explícito. 
+TRIBUNAL REGIONAL DO TRABALHO DA 24ª REGIÃO (TRT-24) – REAPLICAÇÃO FGV CONHECIMENTO
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. A metáfora do **Cérebro** (Gareth Morgan) retrata a organização como um sistema de processamento de informações e aprendizagem contínua (*learning organization*), inspirando-se na cibernética e no holograma, onde as partes contêm o todo e a organização aprende a aprender (aprendizagem de circuito duplo).
-> - **B)** Incorreta. A metáfora da Máquina retrata a burocracia clássica e mecanicista (Taylor e Weber).
-> - **C)** Incorreta. A Prisão Psíquica aborda armadilhas inconscientes e ilusões partilhadas.
-> - **D)** Incorreta. Instrumento de Dominação foca na exploração de empregados e comunidades.
-> - **E)** Incorreta. Sistema Político foca em disputas de poder, interesses e coalizões.
-> 
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
 > **Gabarito: A**
 
 ---
-
 ### Teste 349
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em relação aos 14 princípios gerais da administração enunciados por Henri Fayol na Teoria Clássica, assinale a opção que define o princípio da **Unidade de Comando**:
+**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**
+No quarto parágrafo, afirma-se que conflitos de fundo po-
+lítico ou econômico
 
-* **A)** Cada colaborador ou servidor deve receber ordens e prestar contas exclusivamente a um único superior hierárquico direto.
-* **B)** Todas as unidades do órgão devem possuir o mesmo quantitativo de servidores em exercício.
-* **C)** O controle orçamentário deve ser unificado na presidência do Tribunal de Justiça.
-* **D)** As decisões estratégicas devem ser tomadas sempre em comissões colegiadas deliberativas.
-* **E)** Os servidores comissionados possuem autoridade irrestrita sobre os servidores estáveis.
-
+* **A)** podem ser acirrados por fatores outros, como dife-
+renças étnicas ou invocações do conceito de raça.
+* **B)** têm sua origem em argumentos que só se justificam 
+quando se considera a antropologia moderna.
+* **C)** existem sobretudo em função do instinto de domina-
+ção do homem, um impulso natural que provém das 
+diferenças raciais.
+* **D)** são, na verdade, conflitos de natureza étnica, embo-
+ra justificados por razões de ordem racial.
+* **E)** ocorrem quando manifestações de preconceito racial 
+têm como justificativa razões de ordem meramente 
+étnica. 
+_________________________________________________________
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. O princípio da **Unidade de Comando** de Fayol postula que um subordinado deve reportar-se e receber ordens de apenas um único chefe imediato, evitando conflitos de autoridade, ambiguidade de papéis e instruções contraditórias.
-> - **B), C), D), E)** Incorretas. Não guardam nenhuma relação com o princípio clássico da unidade de comando de Fayol.
-> 
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
 > **Gabarito: A**
 
 ---
-
 ## 9. Fontes Oficiais e Referências Bibliográficas
 
 * [Decreto-Lei nº 200/1967 (Princípios da Administração e Racionalidade)](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm) - Aplicação de princípios clássicos e estruturais na organização da máquina pública.

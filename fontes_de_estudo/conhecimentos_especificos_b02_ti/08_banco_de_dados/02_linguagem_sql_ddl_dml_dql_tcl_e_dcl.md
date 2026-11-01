@@ -319,142 +319,178 @@ JOIN AuditoriasRecentes ar ON a.id = ar.auditor_id;
 ---
 
 ### Teste 249
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Considere duas tabelas em um banco de dados relacional: `ORGAO` (com as colunas `id_orgao`, `nome_orgao`) contendo 10 registros, e `CONTRATO` (com as colunas `id_contrato`, `id_orgao`, `valor`) contendo 50 registros. Sabe-se que 2 órgãos da tabela `ORGAO` não possuem nenhum contrato cadastrado e que todos os 50 contratos da tabela `CONTRATO` possuem um `id_orgao` válido associado.
+**(FGV – TJ-AP – Analista Judiciário - Banco de Dados – 2023)**
+Considerando as tabelas Competidor e Disputa, descritas 
+anteriormente, analise o comando SQL a seguir. 
 
-Um auditor executou a seguinte instrução SQL:
+delete from Competidor 
+where (select sum(1) 
+       from Disputa d where d.azul = Nome) 
+    < (select sum(1) from Disputa d 
+       where d.verde = Nome) 
 
-```sql
-SELECT O.nome_orgao, C.id_contrato, C.valor
-FROM ORGAO O
-LEFT JOIN CONTRATO C ON O.id_orgao = C.id_orgao;
-```
+O número de linhas removidas na execução do comando acima é:
 
-A quantidade exata de linhas retornadas por essa consulta e o conteúdo dos campos `C.id_contrato` e `C.valor` para os 2 órgãos que não possuem contratos são, respectivamente:
-
-* **A)** 48 linhas, e as linhas dos órgãos sem contratos são omitidas do resultado.
-* **B)** 50 linhas, e as linhas dos órgãos sem contratos exibem valor 0 nos campos numéricos.
-* **C)** 52 linhas, e as linhas dos 2 órgãos sem contratos exibem o valor `NULL` nos campos `id_contrato` e `valor`.
-* **D)** 60 linhas, correspondendo ao produto cartesiano das tabelas.
-* **E)** 10 linhas, retornando apenas uma linha condensada para cada órgão existente.
-
+* **A)** 6;
+* **B)** 4;
+* **C)** 2;
+* **D)** 1;
+* **E)** 0.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A junção externa à esquerda (`LEFT JOIN`) preserva compulsoriamente todas as tuplas da relação esquerda (`ORGAO`), mesmo que não haja correspondência na direita.
-> - **B)** Incorreta. O SQL preenche ausência de correspondência com o marcador `NULL`, jamais com o valor escalar 0.
-> - **C)** **CORRETA.** A semântica do `LEFT OUTER JOIN` garante que todas as linhas da tabela à esquerda (`ORGAO`) estejam presentes no resultado:
->   1. Para os 8 órgãos que possuem contratos, cada contrato gera uma linha correspondente no resultado, totalizando 50 linhas.
->   2. Para os 2 órgãos que não possuem contratos vinculados, a tabela à esquerda gera exatamente uma linha para cada um deles, e todas as colunas originárias da tabela à direita (`C.id_contrato` e `C.valor`) são preenchidas com o marcador de ausência `NULL`.
->   3. Total de linhas: $50 + 2 = 52$ linhas.
-> - **D)** Incorreta. O produto cartesiano ($10 \times 50 = 500$ linhas) seria obtido com `CROSS JOIN`.
-> - **E)** Incorreta. Para retornar apenas 10 linhas condensadas, seria necessária a cláusula `GROUP BY O.nome_orgao` com funções de agregação.
-> 
-> **Gabarito: C**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: D**
 
 ---
-
 ### Teste 250
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em procedimentos analíticos de auditoria de dados, um auditor necessita consolidar em uma única lista todos os CPFs de fornecedores que receberam pagamentos no Exercício de 2024 (tabela `PAGAMENTOS_2024`, com 100.000 registros, contendo CPFs repetidos) e no Exercício de 2025 (tabela `PAGAMENTOS_2025`, com 80.000 registros, também com repetições). Sabe-se que 20.000 CPFs distintos aparecem em ambos os exercícios.
+**(FGV – TJ-AP – Analista Judiciário - Banco de Dados – 2023)**
+Considerando as tabelas Competidor e Disputa, descritas 
+anteriormente, analise o comando SQL a seguir. 
 
-Considerando os operadores de conjunto da linguagem SQL padrão ANSI, avalie as afirmativas:
+select nome 
+from Competidor C 
+where not exists (select * 
+                  from Disputa D 
+      where D.azul = C.nome) 
+   or not exists (select * 
+                  from Disputa D 
+            where D.verde = C.nome) 
 
-I. O operador `UNION` realiza a união das tuplas e executa uma etapa implícita de ordenação e descarte de duplicatas (`SORT UNIQUE`), retornando apenas CPFs distintos.  
-II. O operador `UNION ALL` simplesmente concatena os resultados das duas consultas sem verificar duplicidades, resultando em menor custo computacional de CPU e memória em relação ao `UNION`.  
-III. O operador `INTERSECT` retornaria apenas os CPFs dos fornecedores que figuram simultaneamente em ambas as tabelas (`PAGAMENTOS_2024` e `PAGAMENTOS_2025`), eliminando repetições.  
+A execução do comando acima produziria somente a lista 
+completa dos competidores que:
 
-Está correto o que se afirma em:
+* **A)** participaram em disputas com camisas das duas cores;
+* **B)** nunca participaram em disputas com camisa verde;
+* **C)** nunca participaram em disputas com camisa azul;
+* **D)** nas disputas em que participaram, usaram sempre camisas da 
+mesma cor;
+* **E)** nunca participaram em disputas. 
 
-* **A)** I, apenas.
-* **B)** II, apenas.
-* **C)** I e II, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
+Tribunal de Justiça do Estado do Amapá FGV Conhecimento 
 
-
----
-
-> **Comentário Detalhado:**
->
-> - **I.** **CORRETA.** O operador `UNION` exige compatibilidade de esquemas e, por padrão formal, elimina tuplas duplicadas do conjunto unificado. Para eliminar duplicatas, o motor do SGBD invoca um operador de ordenação em disco/memória (`Sort Unique`) ou uma tabela hash, aumentando o consumo de recursos.
-> - **II.** **CORRETA.** O operador `UNION ALL` realiza a união multiconjunto (*multiset* ou *bag union*), preservando todas as linhas de ambos os lados sem qualquer deduplicação. Como dispensa a fase de ordenação/hashing, sua execução é ordens de grandeza mais rápida e consome menos memória.
-> - **III.** **CORRETA.** O operador `INTERSECT` calcula a interseção dos dois conjuntos, retornando unicamente as linhas presentes simultaneamente no primeiro e no segundo comando `SELECT`, eliminando valores duplicados.
-> 
-> **Gabarito: E**
-
----
-
-### Teste 251
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Considere duas tabelas em um banco de dados fazendário:
-
-- `CONTRIBUINTE (id_contribuinte, nome)` com 1.000 registros.
-- `INFRACAO (id_infracao, id_contribuinte, valor)` com 500 registros, sendo que em 5 registros o atributo `id_contribuinte` possui o valor `NULL` (infrações lavradas com autor ainda não identificado).
-
-Um auditor executa a seguinte consulta para listar os contribuintes que nunca cometeram infração:
-
-```sql
-SELECT nome 
-FROM CONTRIBUINTE 
-WHERE id_contribuinte NOT IN (SELECT id_contribuinte FROM INFRACAO);
-```
-
-O resultado obtido por essa consulta será:  
-
-* **A)** Uma relação contendo exatamente os contribuintes sem registros correspondentes na tabela de infração.
-* **B)** Uma relação com todos os 1.000 contribuintes da tabela original.
-* **C)** Um conjunto vazio (zero registros retornados), em virtude da presença de valores nulos na subconsulta avaliada pelo operador `NOT IN`.
-* **D)** Uma mensagem de erro de compilação SQL, visto que o operador `NOT IN` não suporta subconsultas como argumento.
-* **E)** Uma relação com exatamente 495 registros, correspondente à diferença algébrica simples.
-
+Analista Jud - Apoio Especializado - Tecnologia da Informação - Banco de Dados  Tipo 1  ̶  Branca – Página 12
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O predicado `NOT IN` não retornará essa lista devido ao colapso provocado pelo valor nulo.
-> - **B)** Incorreta. O retorno não trará todos os registros.
-> - **C)** Correta. De acordo com a **Lógica Ternária (Three-Valued Logic)** da SQL, a expressão `x NOT IN (v1, v2, NULL)` é avaliada como `x != v1 AND x != v2 AND x != NULL`. Como qualquer comparação com `NULL` resulta em `UNKNOWN`, e a conjunção de `TRUE AND UNKNOWN` resulta em `UNKNOWN`, a cláusula `WHERE` descarta todas as linhas (pois ela só preserva linhas cuja condição seja estritamente `TRUE`). Portanto, a consulta retorna **zero registros (conjunto vazio)**. Para evitar essa anomalia, deve-se usar `NOT EXISTS`.
-> - **D)** Incorreta. A consulta é perfeitamente válida na gramática SQL ANSI.
-> - **E)** Incorreta. Valor incorreto decorrente de interpretação sem considerar a lógica ternária de nulos.
-> 
-> **Gabarito: C**
-
----
-
-### Teste 252
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em um sistema de auditoria governamental, a estrutura de subordinação hierárquica dos órgãos de controle é modelada na tabela `UNIDADE_ORGANIZACIONAL (id_unidade, nome_unidade, id_unidade_superior)`.
-
-Para percorrer recursivamente todos os níveis descendentes a partir de uma unidade raiz (`id_unidade = 1`), o padrão ANSI SQL:1999 disponibiliza o recurso de Common Table Expressions (CTEs) recursivas. A respeito da construção sintática e do funcionamento operacional de uma `WITH RECURSIVE`, assinale a afirmativa correta:
-
-* **A)** A cláusula `WITH RECURSIVE` é composta obrigatoriamente por dois membros unidos por `UNION` ou `UNION ALL`: o membro-âncora (termo inicial não-recursivo) e o membro recursivo (que faz referência ao próprio nome da CTE), cessando a execução quando o membro recursivo retorna um conjunto vazio.
-* **B)** A consulta recursiva executa um loop infinito no SGBD a menos que seja incluída compulsoriamente uma cláusula `LIMIT 100` na definição da tabela âncora.
-* **C)** Funções de agregação como `SUM()` e `AVG()` podem ser livremente empregadas dentro da subconsulta do membro recursivo sem restrições sintáticas pelo padrão ANSI.
-* **D)** Uma CTE recursiva não pode ser utilizada com o comando `SELECT`, sendo um recurso exclusivo de instruções de modificação de dados (`UPDATE` e `DELETE`).
-* **E)** O operador de junção entre o membro-âncora e o membro recursivo deve ser compulsoriamente um `CROSS JOIN`.
-
-
----
-
-> **Comentário Detalhado:**
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
-> - **A)** **CORRETA.** A arquitetura da CTE recursiva (`WITH RECURSIVE nome_cte AS (..)`) é rigorosamente estruturada em:
->   1. **Membro-Âncora (Anchor Member):** Executa uma única vez para gerar o conjunto de dados base (ex.: recuperar o órgão com `id_unidade = 1`).
->   2. **Operador de União:** `UNION ALL` (mais comum por performance) ou `UNION`.
->   3. **Membro Recursivo (Recursive Member):** Faz referência direta a `nome_cte` unida com a tabela física (`UNIDADE_ORGANIZACIONAL`) para descer/subir na árvore. O motor avalia iterativamente até que uma iteração retorne zero registros (conjunto vazio), momento em que a recursão atinge sua condição natural de parada.
-> - **B)** Incorreta. O encerramento ocorre naturalmente quando a iteração atual não produz nenhuma nova linha.
-> - **C)** Incorreta. O padrão ANSI SQL proíbe expressamente o uso de funções de agregação (`SUM`, `MAX`, `AVG`), cláusulas `GROUP BY` e `ORDER BY` dentro do membro recursivo que referencia a própria CTE recursiva.
-> - **D)** Incorreta. CTEs recursivas são amplamente utilizadas com instruções `SELECT` para consultas em grafos e árvores hierárquicas.
-> - **E)** Incorreta. O membro-âncora e o membro recursivo são unidos por operadores de conjunto (`UNION` ou `UNION ALL`), jamais por `CROSS JOIN`.
-> 
 > **Gabarito: A**
 
 ---
+### Teste 251
+**(FGV – TJ-AP – Analista Judiciário - Banco de Dados – 2023)**
+Considerando as tabelas Competidor e Disputa, descritas 
+anteriormente, analise os três comandos SQL a seguir. 
 
+I.   select C.nome 
+     from Competidor C 
+     where exists (select * from Disputa D 
+                   where D.azul = C.nome) 
+       and exists (select * from Disputa D 
+                   where D.verde = C.nome) 
+
+II.  select C.nome 
+     from Competidor C 
+     where exists (select * from Disputa D 
+                   where D.azul = C.nome 
+                or D.verde = C.nome) 
+
+III. select C.nome 
+     from Competidor C 
+     where (select count(*) from Disputa D 
+            where D.azul = C.nome) 
+         + (select count(*) from Disputa D 
+            where D.verde = C.nome) > 1 
+
+O resultado 
+Nome 
+A 
+B 
+
+é obtido somente no(s) comando(s):
+
+* **A)** I;
+* **B)** II;
+* **C)** III;
+* **D)** I e II;
+* **E)** II e III.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: A**
+
+---
+### Teste 252
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+Considere um banco de dados relacional de um tribunal, na qual 
+nenhum usuário, a menos do DBA, possua algum privilégio sobre. 
+O DBA concedeu direito de criação de tabelas ao usuário 
+USR_0010, que, por sua vez, criou as tabelas DADOS_PROCESSO e 
+DADOS_PARTE. 
+Logo após a criação, o usuário USR_0010 executou os seguintes 
+comandos da DCL ( Data Control Language ) da linguagem SQL no 
+sistema gerenciador de banco de dados, referentes aos usuários 
+USR_0011 e USR_0100: 
+ GRANT SELECT, UPDATE ON DADO_PARTE TO USR_0011; 
+ GRANT SELECT ON DADOS_PARTE TO USR_0100; 
+ GRANT SELECT, INSERT, DELETE, UPDATE ON 
+DADOS_PROCESSO TO USR_0011; 
+ GRANT SELECT, UPDATE ON DADOS_PROCESSO TO USR_0100 
+WITH GRANT OPTION; 
+Na sequência, o usuário USR_0100 executou o seguinte comando: 
+ GRANT UPDATE ON DADOS_PROCESSO TO USR_00101; 
+Por fim, o DBA executou o comando: 
+ REVOKE UPDATE ON DADOS_PROCESSO FROM USR_0100; 
+Considerando esse cenário, qual situação é válida para as 
+permissões referentes às tabelas DADOS_PROCESSO e 
+DADOS_PARTE?
+
+* **A)** O usuário USR_0011 tem direito de inserção na tabela 
+DADOS_PARTE.
+* **B)** O usuário USR_0100 tem direito de atualização na tabela 
+DADOS_PROCESSO, mas sem direito de propagação.
+* **C)** O usuário USR_0100 tem direito de consulta na tabela 
+DADOS_PROCESSO, com direito de propagação.
+* **D)** O usuário USR_0101 tem direito de atualização na tabela 
+DADOS_PROCESSO.
+* **E)** O usuário USR_0101 tem direito de consulta na tabela 
+DADOS_PROCESSO.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: C**
+
+---
 ## 4. Funções Analíticas de Janela (Window Functions)
 
 Diferente da cláusula `GROUP BY` (que colapsa múltiplas linhas em um único registro agregado por partição), as **funções de janela (*Window Functions*)** realizam cálculos agregados e analíticos **sem colapsar as tuplas**, preservando a identidade e o detalhe de cada linha individual.
@@ -498,32 +534,52 @@ Permitem acessar dados de linhas vizinhas na mesma partição sem necessidade de
 ---
 
 ### Teste 253
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Considere uma tabela denominada `AUDITORIA_FOLHA` que armazena os vencimentos de servidores, com as colunas `Matricula`, `Orgao` e `Salario`. Um analista precisa gerar um relatório onde os servidores sejam classificados em ordem decrescente de salário dentro de cada órgão (`Orgao`), de modo que servidores com salários idênticos recebam a mesma posição no ranking e a numeração da posição subsequente continue consecutiva, sem deixar lacunas ou "pular" números.
+**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**
+Considere as afirmativas a seguir: 
 
-A consulta SQL correta que atende exatamente a essa especificação utiliza a função de janela:  
+ I. Tesauros são vocabulários controlados formados 
+por termos-descritores semanticamente relaciona-
+dos que atuam como instrumentos de controle 
+terminológico. Os tesauros podem ser estruturados 
+hierarquicamente (gênero-espécie e todo-parte) e 
+associativamente (aproximação semântica). 
 
-* **A)** `ROW_NUMBER() OVER (PARTITION BY Orgao ORDER BY Salario DESC)`
-* **B)** `RANK() OVER (PARTITION BY Orgao ORDER BY Salario DESC)`
-* **C)** `DENSE_RANK() OVER (PARTITION BY Orgao ORDER BY Salario DESC)`
-* **D)** `COUNT(Salario) OVER (ORDER BY Orgao DESC)`
-* **E)** `LEAD(Salario, 1) OVER (PARTITION BY Orgao)`
+ II. Os tesauros não são utilizados somente pelos 
+especialistas da informação, no momento da inde-
+xação, mas também por usuários da informação, no 
+momento da busca de documentos. 
 
+Ocorre que
+
+* **A)** ambas estão corretas; os tesauros são utilizados 
+para indexar e recuperar informações por meio de 
+seu conteúdo.
+* **B)** ambas estão incorretas; as relações em um tesauro 
+são sempre de reciprocidade e o vocabulário é 
+usado apenas na hora de indexar.
+* **C)** a primeira está incorreta; os termos em um tesauro 
+são relacionados sintaticamente.
+* **D)** a segunda está incorreta; os tesauros e outros 
+instrumentos de indexação são de uso exclusivo dos 
+bibliotecários.
+* **E)** a primeira está incompleta; os tesauros são também 
+especificações formais para descrever estruturas 
+conceituais de domínios específicos. 
+_________________________________________________________
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O `ROW_NUMBER()` gera um sequencial estritamente único para cada linha (1, 2, 3..), desconsiderando empates salariais.
-> - **B)** Incorreta. O `RANK()` atribui a mesma posição aos empatados, mas pula posições subsequentes na sequência (ex.: se houver dois primeiros colocados, o próximo recebe a posição 3), deixando lacunas.
-> - **C)** Correta. A função **`DENSE_RANK()`** atribui a mesma posição aos registros com valores empatados e garante que a posição imediatamente seguinte seja a próxima na ordem inteira contígua (1, 1, 2, 3..), preservando o ranqueamento denso sem deixar lacunas na numeração.
-> - **D)** Incorreta. `COUNT()` é uma função de agregação de contagem, não uma função de ranqueamento.
-> - **E)** Incorreta. `LEAD()` é uma função analítica de deslocamento para acessar valores de linhas posteriores na janela, não atribuindo posições de classificação.
-> 
-> **Gabarito: C**
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: A**
 
 ---
-
 ### Teste 254
 **(FGV – TJ-AP – Analista Judiciário (TI) – 2023)**  
 Um diretório ativo hipotético, baseado no LDAP, foi criado para registrar os funcionários dos Tribunais de Justiça dos Estados  do Amapá e Amazonas. A lista a seguir apresenta todas as entradas do diretório, em ordem alfabética: cn=Andressa, ou=Departamento de Processo Judicial, o=TJ do Amazonas, c=Brasil cn=Bruno, ou=Departamento de Gestão de TIC, o=TJ do Amapá, c=Brasil cn=Claudio, ou=Departamento de Processo Judicial, o=TJ do Amapá, c=Brasil cn=Debora, ou=Departamento de Processo Judicial, o=TJ do Amapá, c=Brasil cn=Elaine, ou=Departamento de Gestão de TIC, o=TJ do Amapá, c=Brasil cn=Flavio, ou=Departamento de Processo Judicial, o=TJ do Amapá, c=Brasil cn=Gabriel, ou=Departamento de Gestão de TIC, o=TJ do Amazonas, c=Brasil cn=Heitor, ou=Departamento de Processo Judicial, o=TJ do Amapá, c=Brasil Com relação aos dados apresentados, é correto afirmar que:

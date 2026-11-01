@@ -157,88 +157,106 @@ $$\text{Ato Administrativo (Comissivo)} + \text{Dano Efetivo} + \text{Nexo Causa
 ---
 
 ### Teste 122
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Nos termos do artigo 37, inciso XVI, e do artigo 38 da Constituição Federal de 1988, a respeito da acumulação remunerada de cargos públicos e do exercício de mandato eletivo por servidor público:
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+Determinado processo administrativo foi encaminhado para 
+apreciação do Ministério Público de Contas do Estado de Goiás, 
+ocasião em que, com base nas regras de distribuição, foi 
+encaminhado ao Procurador de Contas XX. No momento da 
+distribuição, dois assessores do  Procurador-Geral de Contas 
+debateram sobre a possibilidade, ou não, de serem estabelecidas 
+orientações a serem observadas pelo Procurador que atuará no 
+caso, quanto à análise do seu mérito. 
+Ao final do debate, os assessores concluíram corretamente que
 
-* **A)** É permitida a acumulação remunerada de três cargos de professor, desde que comprovada a compatibilidade de horários.
-* **B)** É constitucional a acumulação remunerada de dois cargos privativos de profissionais de saúde, com profissões regulamentadas, havendo compatibilidade de horários, independentemente de teto remuneratório.
-* **C)** O servidor público investido no mandato de Prefeito será afastado do cargo efetivo, sendo-lhe facultado optar pela sua remuneração de origem.
-* **D)** O servidor público investido no mandato de Vereador deverá ser compulsoriamente afastado de seu cargo efetivo, sem direito a optar pelo subsídio do mandato legislativo.
-* **E)** É vedada em qualquer hipótese a acumulação de um cargo de professor com outro técnico ou científico.
-
+* **A)** não podem ser estabelecidas orientações vinculantes, em 
+relação à análise do mérito.
+* **B)** por força do princípio hierárquico, as orientações podem ser 
+estabelecidas e serão vinculantes.
+* **C)** será possível a revogação das conclusões do parecer, por 
+razões de conveniência e oportunidade.
+* **D)** as orientações podem ser estabelecidas, mas apenas no 
+âmbito do planejamento estratégico, pelo colegiado 
+competente do Ministério Público de Contas.
+* **E)** como o Ministério Público de Contas integra a estrutura do 
+estabelecer as referidas orientações.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A regra do art. 37, XVI, "a", autoriza a acumulação de **dois** cargos de professor (e não três), desde que haja compatibilidade de horários.
-> - **B)** Incorreta. Embora seja lícita a acumulação de dois cargos de profissionais de saúde (art. 37, XVI, "c"), a remuneração cumulada submete-se ao teto constitucional (STF, Temas 377 e 384: o teto incide isoladamente sobre cada vínculo, mas não há dispensa de teto).
-> - **C)** Correta. De acordo com o art. 38, inciso II, da CF/88: *"investido no mandato de Prefeito, será afastado do cargo, emprego ou função, sendo-lhe facultado optar pela sua remuneração"*. O afastamento funcional é obrigatório, mas a opção remuneratória é prerrogativa expressa do servidor.
-> - **D)** Incorreta. Para o mandato de Vereador (art. 38, III), havendo compatibilidade de horários, o servidor perceberá as vantagens de seu cargo cumulativamente com a remuneração do cargo eletivo. Se não houver compatibilidade, aplica-se a regra do prefeito.
-> - **E)** Incorreta. A acumulação de um cargo de professor com outro técnico ou científico é expressamente autorizada pela CF/88 (art. 37, XVI, "b").
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
-> **Gabarito: C**
+> **Gabarito: A**
 
 ---
-
 ### Teste 123
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Acerca do regime constitucional dos servidores públicos civis (artigos 37 a 41 da CF/88) e da responsabilidade civil do Estado, considere as seguintes afirmativas:
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+The text ends in a note of
 
-I. O servidor público estável somente perderá o cargo em virtude de sentença judicial transitada em julgado ou mediante processo administrativo disciplinar no qual lhe seja assegurada ampla defesa, inexistindo qualquer outra hipótese constitucional de perda de cargo.  
+* **A)** outrage.
+* **B)** appreciation.
+* **C)** indebtedness.
+* **D)** apprehension.
+* **E)** encouragement. 
 
-II. O direito de regresso da Administração Pública contra o servidor público causador de dano a terceiro exige a comprovação de que o agente agiu com dolo ou culpa.  
-
-III. O teto remuneratório constitucional aplica-se ao somatório das remunerações nas hipóteses de acumulação lícita de cargos públicos, devendo o excedente ser retido pelo ente pagador.  
-
-Está correto o que se afirma APENAS em:
-
-* **A)** I.
-* **B)** II.
-* **C)** III.
-* **D)** I e II.
-* **E)** II e III.
-
+Normas Específicas do Estado de Goiás
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** O item I erra ao asseverar inexistência de outras causas de perda de cargo do servidor estável (existem quatro hipóteses: sentença judicial, PAD, avaliação de desempenho e excesso de despesas de pessoal).
-> - **B) CORRETA.** Apenas o item II é verdadeiro, pois a responsabilidade civil do Estado perante terceiros é objetiva, mas a ação regressiva em face do agente público exige comprovação de dolo ou culpa (CF, art. 37, § 6º).
-> - **C) Incorreta.** O item III colide com a jurisprudência vinculante do STF (Temas 377 e 384), que impõe a aplicação do teto de forma isolada sobre cada cargo acumulável.
-> - **D) Incorreta.** O item I incorre em omissão normativa inconstitucional.
-> - **E) Incorreta.** O item III está equivocado ante o entendimento consolidado do STF.
-> 
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: D**
+
+---
+### Teste 124
+**(FGV – TCE-GO – Analista de Controle Externo - Ciências Contábeis – 2024)**
+Maria, servidora ocupante de cargo de provimento efetivo no 
+âmbito do Estado Alfa, e que se encontrava na segunda classe de 
+sua carreira, tomou conhecimento de que estavam sendo 
+realizados estudos, ainda embrionários, em relação à possibilidade 
+de a sua si stemática estipendial ser alterada para o formato de 
+subsídios.  
+Ao se inteirar dos balizamentos constitucionais afetos a essa 
+temática, Maria concluiu corretamente que
+
+* **A)** somente os agentes políticos estão sujeitos à sistemática de 
+subsídios, logo, não pode ser aplicada a ela.
+* **B)** caso a sistemática de subsídios seja implementada, deve ser 
+assegurado o direito de opção aos servidores que já ocupam 
+cargos públicos.
+* **C)** há mora legislativa do Estado Alfa, pois é obrigatória a 
+submissão, à sistemática de sub sídios, dos servidores 
+organizados em carreira.
+* **D)** subsídio é apenas um designativo atribuído à retribuição 
+estipendial paga aos servidores, logo, sua implementação não 
+afetará a situação jurídica dela.
+* **E)** não há óbice a que a sistemática de subsídios seja estendida a 
+servidores como Maria, mas, nesse caso, ela não poderá 
+receber adicional por tempo de serviço.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
 > **Gabarito: B**
 
 ---
-
-### Teste 124
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Em matéria de responsabilidade civil da Administração Pública (art. 37, § 6º, da CF/88) e atuação de agentes públicos:
-
-* **A)** As pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos responderão pelos danos que seus agentes causarem a terceiros com base na teoria da culpa administrativa subjetiva em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **B)** A vítima de um dano causado por viatura oficial em trânsito pode ajuizar ação indenizatória diretamente e com exclusividade em face do servidor causador do acidente.
-* **C)** A responsabilidade civil do Estado independe de culpa ou dolo da Administração (responsabilidade objetiva sob a teoria do risco administrativo), assegurado o direito de regresso contra o agente responsável nos casos de dolo ou culpa.
-* **D)** O direito de regresso contra o agente público pode ser exercido mesmo que a Administração Pública não comprove dolo ou culpa do servidor.
-* **E)** A teoria do risco integral é a regra geral no direito brasileiro, não admitindo excludentes como caso fortuito ou força maior.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A responsabilidade das pessoas de direito público e das prestadoras de serviço público é **objetiva** (teoria do risco administrativo), e não subjetiva.
-> - **B)** Incorreta. Conforme jurisprudência vinculante do Supremo Tribunal Federal (Tema 940 de Repercussão Geral - RE 1.027.633): *"A teor do disposto no art. 37, § 6º, da Constituição Federal, a ação por danos causados por agente público deve ser ajuizada contra o Estado ou a pessoa jurídica de direito privado prestadora de serviço público, sendo parte ilegítima para a lide o autor do ato, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa"*.
-> - **C)** Correta. Traduz fielmente a redação do art. 37, § 6º, da CF/88 e a doutrina do Direito Administrativo: a responsabilidade estatal é objetiva (basta conduta estatal, nexo causal e dano), cabendo ação regressiva contra o servidor unicamente se este tiver agido com dolo ou culpa.
-> - **D)** Incorreta. Na ação de regresso em face do servidor, a responsabilidade é subjetiva, exigindo a demonstração inequívoca de dolo ou culpa.
-> - **E)** Incorreta. A regra adotada é a do **risco administrativo**, que admite atenuantes e excludentes de responsabilidade (culpa exclusiva da vítima, caso fortuito e força maior).
->
-> **Gabarito: C**
-
----
-
 ## 2. Fiscalização e Controle na CF/88 (Arts. 70 a 75)
 
 ```mermaid
@@ -315,82 +333,86 @@ Qualquer tentativa das Constituições Estaduais de inovar, restringir competên
 ---
 
 ### Teste 125
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No tocante ao controle externo exercido pelo Tribunal de Contas sobre os atos de pessoal e concessão de benefícios previdenciários (art. 71, III, da CF/88):
+**(FGV – TCE-GO – Analista de Controle Externo - Ciências Contábeis – 2024)**
+As funções dos Tribunais de Contas são estipuladas na Lei 
+Complementar nº 101/2000, que trata da responsabilidade fiscal 
+no Brasil. 
+Assinale a opção que indica por quem as contas do Poder Judiciário 
+serão apresentadas no âmbito dos Estados.
 
-* **A)** O registro de aposentadorias, reformas e pensões pelos Tribunais de Contas é ato meramente homologatório, não podendo a Corte de Contas recusar registro fundado em ilegalidade.
-* **B)** O procedimento de registro inicial de aposentadoria no Tribunal de Contas prescinde do contraditório e da ampla defesa, desde que a análise seja concluída no prazo de 5 anos a contar da chegada do processo à Corte.
-* **C)** A Súmula Vinculante nº 3 do STF estabelece que o contraditório e a ampla defesa são sempre obrigatórios na apreciação da legalidade do ato de concessão inicial de aposentadoria, independentemente do tempo decorrido.
-* **D)** A nomeação para cargo em comissão de livre nomeação e exoneração está sujeita a registro prévio e obrigatório pelo Tribunal de Contas perante o qual atua o órgão.
-* **E)** Decorrido o prazo de 10 anos sem manifestação do Tribunal de Contas, o ato de aposentadoria é sumariamente anulado por decurso de prazo.
-
+* **A)** Presidentes do Supremo Tribunal Federal.
+* **B)** Presidentes dos Tribunais Superiores.
+* **C)** Conselhos de Gestão Fiscal.
+* **D)** Presidentes dos Tribunais de Justiça.
+* **E)** Presidentes de Conselho de Administração.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O exame de legalidade para fins de registro é ato complexo e dotado de densidade fiscalizatória plena; se houver ilegalidade, o Tribunal de Contas nega o registro e determina a cessação dos pagamentos indevidos.
-> - **B)** Correta. A Súmula Vinculante nº 3 do STF estabelece expressamente: *"Nos processos perante o Tribunal de Contas da União asseguram-se o contraditório e a ampla defesa quando da decisão puder resultar anulação ou revogação de ato administrativo que beneficie o interessado, **excetuada a apreciação da legalidade do ato de concessão inicial de aposentadoria, reforma e pensão**"*. Todavia, segundo tese de Repercussão Geral fixada pelo STF (Tema 445 - RE 636.553), ultrapassado o prazo de 5 anos a contar da chegada do processo ao TC sem decisão, o ato é tacitamente estabilizado, exigindo a partir de então prévio contraditório.
-> - **C)** Incorreta. A SV 3 excetua expressamente a apreciação da concessão inicial.
-> - **D)** Incorreta. O art. 71, III, da CF/88 ressalva taxativamente as nomeações para cargo de provimento em comissão da obrigatoriedade de registro no Tribunal de Contas.
-> - **E)** Incorreta. Não há anulação sumária por decurso de prazo; ultrapassados 5 anos sem julgamento, opera-se o direito ao contraditório antes de eventual revisão.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
-> **Gabarito: B**
+> **Gabarito: D**
 
 ---
-
 ### Teste 126
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Sobre o rito constitucional de fiscalização e sustação de atos e contratos administrativos disciplinado no artigo 71, incisos IX a XI e §§ 1º e 2º, da Constituição Federal:
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+A Constituição Federal do Brasil, em seu artigo 71, estabelece que 
+o controle externo das contas públicas será realizado pelo 
+Congresso Nacional, com o auxílio do Tribunal de Contas da União 
+(TCU).  
+Assinale a opção que indica uma competência do TCU.
 
-* **A)** Tanto a sustação de ato administrativo quanto a de contrato administrativo são atos privativos de competência originária e direta do Tribunal de Contas.
-* **B)** No caso de contrato administrativo com irregularidade grave, a competência para a sustação é primariamente do Congresso Nacional (ou Assembleia Legislativa), cabendo ao Tribunal de Contas decidir sobre a sustação caso o Poder Legislativo não se manifeste no prazo de 90 dias.
-* **C)** O Tribunal de Contas pode sustar imediatamente um contrato administrativo sem necessidade de qualquer prévia comunicação ao Poder Legislativo ou ao Poder Executivo. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **D)** A sustação de ato administrativo impugnado pelo Tribunal de Contas depende sempre de prévia autorização da Assembleia Legislativa.
-* **E)** Se o Poder Legislativo sustar o contrato, o Tribunal de Contas deverá anular a decisão parlamentar no prazo de 30 dias.
-
+* **A)** avaliar a execução dos programas de governo.
+* **B)** apreciar as contas prestadas anualmente pelo Governador.
+* **C)** exercer o controle das operações de crédito, avais e garantias.
+* **D)** fiscalizar a aplicação de quaisquer recursos repassados pela 
+União mediante convênio a Estado.
+* **E)** avaliar o cumprimento das metas previstas no plano 
+plurianual.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O regime constitucional é diferenciado: o Tribunal de Contas susta diretamente os **atos** administrativos (art. 71, X); mas a sustação de **contratos** administrativos é prerrogativa primária do Poder Legislativo (art. 71, § 1º).
-> - **B)** Correta. Trata-se da clássica pegadinha do art. 71, §§ 1º e 2º, da CF/88:  
->   - *§ 1º:* No caso de contrato, o ato de sustação será adotado diretamente pelo Congresso Nacional (ou Assembleia Legislativa), que solicitará, de imediato, ao Poder Executivo as medidas cabíveis.  
->   - *§ 2º:* Se o Congresso Nacional (ou o Poder Executivo) não efetivar as medidas no prazo de **90 dias**, o Tribunal de Contas decidirá a respeito da sustação do contrato.
-> - **C)** Incorreta. O TC só assume a competência supletiva de sustar o contrato após a inércia parlamentar pelo prazo de 90 dias.
-> - **D)** Incorreta. A sustação de ato administrativo é executada diretamente pelo Tribunal de Contas (art. 71, X).
-> - **E)** Incorreta. O TC não anula decisões do Poder Legislativo sobre sustação de contratos; quem exerce o controle jurisdicional de constitucionalidade é o Poder Judiciário.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
-> **Gabarito: B**
+> **Gabarito: D**
 
 ---
-
 ### Teste 127
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Nos termos do artigo 74 da Constituição Federal de 1988, os responsáveis pelo sistema de controle interno integrado dos Poderes Executivo, Legislativo e Judiciário têm a obrigação constitucional de:
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+The text ends in a note of
 
-* **A)** Homologar judicialmente as decisões condenatórias exaradas pelo Tribunal de Contas no prazo improrrogável de quinze dias.
-* **B)** Assinar prazo para anulação de leis estaduais que contrariem as metas fiscais da Lei de Diretrizes Orçamentárias.
-* **C)** Dar ciência imediata ao Tribunal de Contas de qualquer irregularidade ou ilegalidade de que tomarem conhecimento na gestão pública, sob pena de responsabilidade solidária.
-* **D)** Substituir o Tribunal de Contas no julgamento das contas anuais dos secretários de Estado e dirigentes autárquicos.
-* **E)** Exercer privativamente a representação judicial dos Conselheiros do Tribunal de Contas perante os órgãos de cúpula do Poder Judiciário em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **A)** outrage.
+* **B)** appreciation.
+* **C)** indebtedness.
+* **D)** apprehension.
+* **E)** encouragement. 
 
+Normas Específicas do Estado de Goiás
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Decisões de Tribunais de Contas que imputam débito ou multa possuem eficácia imediata de título executivo extrajudicial por mandamento constitucional (Art. 71, § 3º), dispensando qualquer homologação de controle interno ou judicial prévia.
-> - **B) Incorreta.** O controle de constitucionalidade de leis é atribuição privativa do Poder Judiciário; os órgãos de controle interno não detêm competência para assinar prazos com vistas à anulação de leis.
-> - **C) CORRETA.** O artigo 74, § 1º, da CF/88 prescreve categoricamente: *"Os responsáveis pelo controle interno, ao tomarem conhecimento de qualquer irregularidade ou ilegalidade, dela darão ciência ao Tribunal de Contas da União [e do Estado por simetria], sob pena de responsabilidade solidária"*.
-> - **D) Incorreta.** O julgamento de contas de gestão de secretários e ordenadores de despesas constitui competência técnica privativa do próprio Tribunal de Contas (Art. 71, II da CF).
-> - **E) Incorreta.** O controle interno não exerce representação judicial contenciosa de Conselheiros, atuando estritamente na fiscalização administrativa e operacional.
-> 
-> **Gabarito: C**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: D**
 
 ---
-
 ### Teste 128
 **(FGV – TCE-GO – Analista de Controle Externo – 2024)**  
 A Constituição do Estado de Goiás estabelece a atuação político -

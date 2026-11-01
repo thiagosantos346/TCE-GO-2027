@@ -92,29 +92,28 @@ O documento de referência primária no Brasil é o **Manual de Redação da Pre
 ---
 
 ### Teste 062
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Segundo as diretrizes consagradas pelo Manual de Redação da Presidência da República (3ª edição) e pelo ordenamento constitucional vigente (art. 37 da CF/88):
+**(FCC – TRT-14 – Analista Judiciário - Tecnologia da Informação – 2016)**
+Considerando-se o contexto, traduz-se adequadamente o sentido de um segmento em:
 
-* **A)** A redação oficial admite a inserção de impressões pessoais e juízos subjetivos do redator, desde que justificados pelo interesse público primário.
-* **B)** A impessoalidade da redação oficial desdobra-se em tríplice dimensão: impessoalidade do emissor (é o serviço público quem se manifesta, e não o servidor individualmente), impessoalidade do destinatário (o texto destina-se ao cidadão ou a outro órgão com tratamento uniforme e isonômico) e impessoalidade do assunto (trata-se estritamente do interesse público, sem paixões político-partidárias).
-* **C)** O Decreto Federal nº 9.758/2019 instituiu o uso obrigatório dos pronomes *Vossa Excelência* e *Ilustríssimo* em toda e qualquer comunicação direta com os cidadãos comuns.
-* **D)** A publicidade dos atos administrativos autoriza a utilização de gírias e jargões regionais nos expedientes oficiais visando aproximar o Estado das massas populares.
-* **E)** O princípio da eficiência desobriga os órgãos de controle externo de observar o padrão culto da língua portuguesa na elaboração de seus relatórios.
-
+* **A)** uma prova da hipocrisia americana (1o parágrafo) = um atestado da maledicência estadunidense.
+* **B)** consentimento relutante (2o parágrafo) = aprovação explícita.
+* **C)** são etapas numa escalada (2o parágrafo) = constituem signos de uma reversão.
+* **D)** o uso da força (...) está implícito (2o parágrafo) = o emprego da coação (...) fica tácito.
+* **E)** estruturas corporativas e de poder (3o parágrafo) = possantes associações sindicais.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A redação oficial é rigorosamente impessoal e técnica; impressões ou opiniões subjetivas de foro íntimo do servidor são terminantemente vedadas pelo MRPR.
-> - **B)** Correta. O MRPR (3ª Ed., Cap. 1) explicita com precisão lapidar a tríplice acepção do princípio da impessoalidade na comunicação oficial: 1) Da posição de quem emite a comunicação (o Estado/Administração); 2) Do destinatário que a recebe (isonomia e uniformidade republicana); 3) Do assunto tratado (estrito interesse público, exposto de modo objetivo e isento).
-> - **C)** Incorreta. O Decreto nº 9.758/2019 extinguiu expressamente o uso de fórmulas laudatórias (*Digníssimo*, *Ilustríssimo*) e padronizou o tratamento geral no âmbito federal como *senhor* ou *senhora*.
-> - **D) e E)** Incorretas. O padrão culto da língua e a formalidade são atributos inegociáveis impostos pela Constituição e pelo MRPR para garantir a inteligibilidade e solenidade dos atos estatais.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
-> **Gabarito: B**
+> **Gabarito: D**
 
 ---
-
 ## 2. Atributos Fundamentais da Redação Oficial
 
 Para que uma correspondência ou ato público cumpra sua missão constitucional, deve observar cumulativamente seis atributos indeclináveis.
@@ -155,55 +154,62 @@ O emprego da norma-padrão da língua portuguesa decorre do fato de que a língu
 ---
 
 ### Teste 063
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Assinale a alternativa que apresenta um trecho de correspondência oficial eivado de **vício de impessoalidade e prolixidade**, em desacordo com as diretrizes do Manual de Redação Oficial:
+**(FCC – TRT-14 – Analista Judiciário - Tecnologia da Informação – 2016)**
+Entre os graves equívocos que podem se incluir na relação entre um homem e uma mulher destaca-se, no texto,
 
-* **A)** *"Comunico que a fiscalização das obras da rodovia estadual terá início na próxima segunda-feira, às nove horas."*
-* **B)** *"Tenho a imensa honra e o singular privilégio de levar ao vosso excelso conhecimento que meu humilde gabinete concluiu o trabalho."*
-* **C)** *"Encaminho, para ciência e deliberação, o relatório consolidado de auditoria financeira do exercício de 2025."*
-* **D)** *"Solicito a designação de dois servidores técnicos para compor a comissão de recebimento de materiais de tecnologia."* em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **E)** *"Em cumprimento ao despacho da presidência, restituo os autos para adoção das providências cabíveis."*
-
+* **A)** a natural subserviência que a mulher prefere demon strar a seu parceiro violento, em vez de confrontá-lo.
+* **B)** a falta da discriminação masculina entre o que seja uma demonstração de amor e uma iniciativa intimidadora.
+* **C)** o exagero de se avaliar como violentas algumas iniciativas masculinas tão somente carinhosas.
+* **D)** o fato de a moral dominante classificar como hipócrita toda e qualquer iniciativa amorosa do homem machista.
+* **E)** o fato de a mulher relutante tomar como amorosa a violência da sedução a que se atira seu namorado.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O trecho utiliza linguagem límpida, impessoal, técnica e concisa, perfeitamente adequada ao padrão oficial.
-> - **B)** Correta (apresenta vício grave). O fragmento transgride frontalmente os atributos da impessoalidade, sobriedade e concisão, recorrendo a rapapés bajuladores e expressões de subserviência (*"imensa honra"*, *"singular privilégio"*, *"vosso excelso conhecimento"*, *"meu humilde gabinete"*), formalmente banidas do serviço público republicano.
-> - **C)** Incorreta. Estrutura padrão límpida de encaminhamento oficial, sem qualquer vício de prolixidade.
-> - **D)** Incorreta. Redação direta e objetiva de solicitação administrativa.
-> - **E)** Incorreta. Frase escorreita e sóbria de movimentação processual.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+>
+> **Gabarito: E**
 
 ---
-
 ### Teste 064
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Quanto à diagramação, tipografia e padrão gráfico dos expedientes oficiais prescritos na 3ª edição do Manual de Redação da Presidência da República:
+**(FGV – TJ-AP – Analista Judiciário - Tecnologia da Informação – 2023)**
+Jonas foi preso em flagrante pela prática do crime de tráfico 
+ilícito de substâncias entorpecentes. Ao ser conduzido à delegacia 
+de polícia, foi qualificado e comunicado por um agente policial 
+que, embora portasse sua carteira de identidade, deveria ser 
+submetido à identificação dactiloscópica. O advogado de Jonas, 
+por sua vez, afirmou que essa prática não seria correta. 
+À luz da sistemática constitucional, com abstração de qualquer 
+regulamentação legal, é correto afirmar que:
 
-* **A)** É livre o emprego de qualquer fonte tipográfica decorativa no corpo do ofício, a critério discricionário do redator do documento.
-* **B)** O MRPR padronizou o uso obrigatório das fontes tipográficas *Calibri* ou *Carlito*, corpo 12 pontos no texto principal, com espaçamento simples entre linhas e parágrafos numerados sequencialmente a partir do segundo parágrafo.
-* **C)** O recuo de parágrafo deve ser de 5 centímetros a partir da margem esquerda da página.
-* **D)** A datação do expediente deve constar de forma centralizada e sem a indicação do local de emissão.
-* **E)** As margens do documento oficial são livres, permitindo-se a impressão rente às bordas da folha de papel.
-
+* **A)** é vedada, em qualquer caso, a identificação de Jonas;
+* **B)** é compulsória a identificação de qualquer preso, inclusive de 
+Jonas;
+* **C)** é obrigatória a identificação de Jonas, considerando as 
+circunstâncias indicadas na narrativa;
+* **D)** é vedada a ide ntificação nas circunstâncias indicadas, 
+ressalvadas as hipóteses previstas em lei;
+* **E)** é imperativa a identificação de Jonas, sendo resguardado o 
+seu direito de se negar a colaborar.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O MRPR veda fontes decorativas ou estilizadas para preservar a padronização e a sobriedade dos atos públicos.
-> - **B)** Correta. A 3ª Edição do MRPR (Item 2.2) padronizou expressamente as famílias tipográficas *Calibri* ou *Carlito* (software livre equivalente): corpo 12 pt no texto em geral, 10 pt em citações longas e notas de rodapé, espaçamento entrelinhas simples e parágrafos numerados em algarismos arábicos a partir do segundo parágrafo (o 1º e o fecho não se numeram).
-> - **C)** Incorreta. O recuo padrão de início de parágrafo na margem esquerda é de **2,5 cm** (e não 5 cm).
-> - **D)** Incorreta. A datação é alinhada à direita e inicia-se obrigatoriamente pelo local de expedição seguido de vírgula (*Goiânia, 15 de março de 2026*).
-> - **E)** Incorreta. As margens são estritamente padronizadas: esquerda e superior de 3 cm; direita e inferior de 1,5 cm.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
-> **Gabarito: B**
+> **Gabarito: D**
 
 ---
-
 ## 3. Pronomes de Tratamento, Vocativos e Endereçamento
 
 Os pronomes de tratamento constituem formas cerimoniais consagradas pela tradição e pelo direito administrativo para expressar deferência às autoridades investidas em cargos de soberania ou gestão estatal.
@@ -281,56 +287,70 @@ O Manual de Redação da Presidência da República e o Decreto nº 9.758/2019 b
 ---
 
 ### Teste 065
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No que concerne ao emprego de pronomes de tratamento e à concordância gramatical em documentos oficiais, assinale a opção que atende integralmente às normas do MRPR:
+**(FGV – TJ-AP – Analista Judiciário - Tecnologia da Informação – 2023)**
+Olga ocupa o cargo de juíza de direito auxiliar no âmbito do 
+Poder Judiciário do Estado do Amapá, enquanto Renata ocupa o 
+cargo de juíza de direito substituta no âmbit o da mesma 
+estrutura de poder. 
+A partir da análise da Lei de Organização e Divisão Judiciárias do 
+Estado do Amapá, é correto concluir que:
 
-* **A)** *"Informamos a Vossa Excelência que vossos pedidos foram acolhidos e solicitamos que compareçais à cerimônia de posse."*
-* **B)** *"Vossa Senhoria deveis encaminhar o demonstrativo contábil para que possamos analisar vosso relatório tempestivamente."*
-* **C)** *"Comunico a Vossa Excelência que sua solicitação foi deferida pelo plenário, estando o processo à sua disposição."*
-* **D)** *"Vossa Excelência será recebida pelo Presidente da República, o qual manifestou desejo de conhecer vossos projetos."*
-* **E)** *"Solicitamos a Vossa Excelência que vos digneis autorizar o empenho das despesas em vosso orçamento."*
-
+* **A)** ambas podem assistir o corregedor-geral;
+* **B)** Olga pode servir em qualquer comarca do Estado do Amapá;
+* **C)** Renata pode ter domicílio e residência em qualquer cidade do 
+Estado do Amapá;
+* **D)** ambas podem ser designadas, pelo presidente do tribunal, 
+para dirimir conflitos agrários;
+* **E)** ambas, no momento oportuno, serão promovidas para varas 
+das comarcas de primeira entrância.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **Regra Geral:** Os pronomes de tratamento referem-se à 2ª pessoa gramatical (com quem se fala), porém exigem que **toda a concordância gramatical de verbos e pronomes seja efetuada compulsoriamente em 3ª pessoa** (*ele/ela, seu, sua, seus, suas*). O uso de verbos ou pronomes em 2ª pessoa do plural (*vós, vosso, compareçais*) é erro gramatical manifesto.
-> - **A)** Incorreta. Incorreu em erro ao empregar o pronome possessivo *vossos* e a forma verbal *compareçais* em 2ª pessoa do plural.
-> - **B)** Incorreta. Cometeu o vício de empregar a forma verbal *deveis* e o possessivo *vosso*.
-> - **C)** Correta. A oração flexiona os verbos (*foi deferida*) e os pronomes possessivos (*sua solicitação*, *à sua disposição*) perfeitamente em 3ª pessoa do singular, em estrita harmonia com o pronome de tratamento *Vossa Excelência*.
-> - **D)** Incorreta. Erra ao empregar o pronome possessivo de 2ª pessoa do plural *vossos projetos*.
-> - **E)** Incorreta. Emprega a flexão arcaica em 2ª pessoa *vos digneis* e *vosso orçamento*.
-> 
-> **Gabarito: C**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+>
+> **Gabarito: E**
 
 ---
-
 ### Teste 066
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O Presidente do Tribunal de Contas do Estado de Goiás necessita encaminhar expediente oficial ao Governador do Estado e, simultaneamente, outro expediente ao Diretor de Escola Pública Estadual. De acordo com a 3ª edição do Manual de Redação da Presidência da República (MRPR), os vocativos e fechos adequados para cada uma dessas comunicações são, respectivamente:
+**(FGV – TJ-AP – Analista Judiciário - Segurança da Informação – 2023)**
+Jonas foi preso em flagrante pela prática do crime de tráfico 
+ilícito de substâncias entorpecentes. Ao ser conduzido à delegacia 
+de polícia, foi qualificado e comunicado por um agente policial 
+que, embora portasse sua carteira de identidade, deveria ser 
+submetido à identificação dactiloscópica. O advogado de Jonas, 
+por sua vez, afirmou que essa prática não seria correta. 
+À luz da sistemática constitucional, com abstração de qualquer 
+regulamentação legal, é correto afirmar que:
 
-* **A)** Para o Governador: *"Excelentíssimo Senhor Governador,"* / *"Respeitosamente,"*; Para o Diretor: *"Ilustríssimo Senhor Diretor,"* / *"Cordialmente,"*.
-* **B)** Para o Governador: *"Senhor Governador,"* / *"Atenciosamente,"*; Para o Diretor: *"Senhor Diretor,"* / *"Atenciosamente,"*.
-* **C)** Para o Governador: *"Excelentíssimo Senhor Governador,"* / *"Atenciosamente,"*; Para o Diretor: *"Senhor Diretor,"* / *"Respeitosamente,"*.
-* **D)** Para o Governador: *"Senhor Governador,"* / *"Cordialmente,"*; Para o Diretor: *"Digníssimo Diretor,"* / *"Sem mais para o momento,"*.
-* **E)** Para o Governador: *"Ilustríssimo Senhor Governador,"* / *"Respeitosamente,"*; Para o Diretor: *"Prezado Senhor Diretor,"* / *"Atenciosamente,"*.
-
+* **A)** é vedada, em qualquer caso, a identificação de Jonas;
+* **B)** é compulsória a identificação de qualquer preso, inclusive de 
+Jonas;
+* **C)** é obrigatória a identificação de Jonas, considerando as 
+circunstâncias indicadas na narrativa;
+* **D)** é vedada a ide ntificação nas circunstâncias indicadas, 
+ressalvadas as hipóteses previstas em lei;
+* **E)** é imperativa a identificação de Jonas, sendo resguardado o 
+seu direito de se negar a colaborar.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Erra ao empregar o vocativo cerimonial *Excelentíssimo Senhor* para Governador de Estado (exclusivo para Chefes dos Poderes da União: PR, CN e STF); além disso, traz termos abolidos no expediente do Diretor (*Ilustríssimo* e *Cordialmente*).
-> - **B)** Correta. De acordo com a 3ª edição do MRPR: 1) O vocativo para Governadores de Estado é **"Senhor Governador,"**; 2) Na relação institucional entre o Presidente de uma Corte de Contas autônoma e o Chefe do Poder Executivo estadual, aplica-se o fecho para autoridades de mesma dignidade institucional/hierarquia: **"Atenciosamente,"**; 3) O vocativo para Diretor é **"Senhor Diretor,"** e o fecho para autoridade hierarquicamente subordinada/inferior é compulsoriamente **"Atenciosamente,"**. A assertiva B é a única plenamente conforme ao manual.
-> - **C)** Incorreta. Erra no vocativo do Governador (*Excelentíssimo*) e inverte os fechos ao utilizar *Respeitosamente* para o Diretor.
-> - **D)** Incorreta. Utiliza fórmulas repudiadas pelo padrão oficial (*Cordialmente* e a expressão arcaica *Sem mais para o momento*).
-> - **E)** Incorreta. Emprega os termos vedados *Ilustríssimo* e *Prezado*.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: D**
 
 ---
-
 ## 4. O Padrão Ofício Unificado na 3ª Edição do MRPR
 
 ### 4.1 Unificação Formal: Extinção do Aviso e do Memorando
@@ -399,97 +419,101 @@ flowchart TD
 ---
 
 ### Teste 067
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A respeito da padronização de expedientes oficiais segundo a 3ª edição do Manual de Redação da Presidência da República, considere as afirmações:  
+**(FGV – TJ-AP – Analista Judiciário - Segurança da Informação – 2023)**
+Olga ocupa o cargo de juíza de direito auxiliar no âmbito do 
+Poder Judiciário do Estado do Amapá, enquanto Renata ocupa o 
+cargo de juíza de direito substituta no âmbit o da mesma 
+estrutura de poder. 
+A partir da análise da Lei de Organização e Divisão Judiciárias do 
+Estado do Amapá, é correto concluir que:
 
-I. As comunicações oficiais internas entre diretorias e gerências de um mesmo órgão público devem ser redigidas sob a denominação de *Memorando*.  
-
-II. O *Aviso* é espécie documental privativa utilizada para envio de correspondências por Ministros de Estado a particulares.  
-
-III. Os antigos expedientes denominados *Aviso* e *Memorando* deixaram de existir como tipos autônomos, tendo sido absorvidos pelo *Padrão Ofício*.  
-
-IV. O fecho *"Respeitosamente,"* deve ser empregado em comunicações endereçadas a autoridades de hierarquia superior à do emissor.  
-
-Está correto o que se afirma em:
-
-* **A)** I e II, apenas.
-* **B)** III e IV, apenas.
-* **C)** I, III e IV, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II, III e IV.
-
+* **A)** ambas podem assistir o corregedor-geral;
+* **B)** Olga pode servir em qualquer comarca do Estado do Amapá;
+* **C)** Renata pode ter domicílio e residência em qualquer cidade do 
+Estado do Amapá;
+* **D)** ambas podem ser designadas, pelo presidente do tribunal, 
+para dirimir conflitos agrários;
+* **E)** ambas, no momento oportuno, serão promovidas para varas 
+das comarcas de primeira entrância.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Os itens I e II são falsos, pois *Aviso* e *Memorando* deixaram de existir como espécies documentais autônomas no MRPR (3ª edição).
-> - **B) CORRETA.** Estão corretos os itens III (o *Padrão Ofício* unificou aviso, ofício e memorando) e IV (o fecho *Respeitosamente* destina-se a autoridades de hierarquia superior).
-> - **C) Incorreta.** Inclui o item I, que contraria a unificação documental do Manual de Redação.
-> - **D) Incorreta.** Inclui o item II, que prescreve padrão extinto de comunicação ministerial.
-> - **E) Incorreta.** Julga verdadeiros os itens I e II, expressamente revogados.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+>
+> **Gabarito: E**
 
 ---
-
 ### Teste 068
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Quanto à estrutura física e à diagramação padrão do **Ofício** prescritas na 3ª edição do MRPR:
+**(FGV – TJ-AP – Analista Judiciário - Banco de Dados – 2023)**
+Jonas foi preso em flagrante pela prática do crime de tráfico 
+ilícito de substâncias entorpecentes. Ao ser conduzido à delegacia 
+de polícia, foi qualificado e comunicado por um agente policial 
+que, embora portasse sua carteira de identidade, deveria ser 
+submetido à identificação dactiloscópica. O advogado de Jonas, 
+por sua vez, afirmou que essa prática não seria correta. 
+À luz da sistemática constitucional, com abstração de qualquer 
+regulamentação legal, é correto afirmar que:
 
-* **A)** A fonte tipográfica padrão recomendada para o texto é Comic Sans ou Arial Black, tamanho 14.
-* **B)** O cabeçalho contendo o Brasão de Armas da República deve ser impresso em todas as páginas do documento, inclusive nas folhas de continuação.
-* **C)** A identificação do signatário deve conter seu nome em negrito e o cargo logo abaixo, sem linha sobreposta para assinatura.
-* **D)** Todos os parágrafos do texto devem ser numerados em algarismos romanos, a começar pelo primeiro.
-* **E)** O local e a data devem ser alinhados à margem esquerda, com o mês grafado de forma numérica abreviada.
-
+* **A)** é vedada, em qualquer caso, a identificação de Jonas;
+* **B)** é compulsória a identificação de qualquer preso, inclusive de 
+Jonas;
+* **C)** é obrigatória a identificação de Jonas, considerando as 
+circunstâncias indicadas na narrativa;
+* **D)** é vedada a ide ntificação nas circunstâncias indicadas, 
+ressalvadas as hipóteses previstas em lei;
+* **E)** é imperativa a identificação de Jonas, sendo resguardado o 
+seu direito de se negar a colaborar.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. As fontes tipográficas oficiais padronizadas pelo MRPR são **Calibri** ou **Carlito**, corpo 12 para o corpo do texto e corpo 9 para citações destacadas e notas de rodapé.
-> - **B)** Incorreta. O cabeçalho com o Brasão das Armas é impresso **exclusivamente na primeira página** do expediente; as páginas seguintes contêm apenas o número de página no cabeçalho secundário.
-> - **C)** Correta. De acordo com o MRPR (3ª edição), a identificação do signatário compõe-se do **nome da autoridade** (em letras maiúsculas e negrito) e da **designação de seu cargo** logo abaixo. É formalmente **dispensada e proibida a inserção de linha tracejada sobreposta** para aposição da assinatura, assinando-se diretamente sobre o nome digitado.
-> - **D)** Incorreta. A numeração de parágrafos é em **algarismos arábicos** e aplica-se **apenas a partir do segundo parágrafo** (o primeiro parágrafo nunca recebe número).
-> - **E)** Incorreta. O local e a data são alinhados à **margem direita** da página, com o mês obrigatoriamente escrito por extenso e em letras minúsculas (*Goiânia, 10 de maio de 2026.*).
-> 
-> **Gabarito: C**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: D**
 
 ---
-
 ### Teste 069
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere as seguintes afirmações sobre a assinatura e os fechos nos expedientes oficiais segundo o Manual de Redação da Presidência da República:  
+**(FGV – TJ-AP – Analista Judiciário - Banco de Dados – 2023)**
+Olga ocupa o cargo de juíza de direito auxiliar no âmbito do 
+Poder Judiciário do Estado do Amapá, enquanto Renata ocupa o 
+cargo de juíza de direito substituta no âmbit o da mesma 
+estrutura de poder. 
+A partir da análise da Lei de Organização e Divisão Judiciárias do 
+Estado do Amapá, é correto concluir que:
 
-I. *O MRPR estabelece um sistema binário de fechos: "Respeitosamente", para autoridades de hierarquia superior à do signatário (inclusive o Presidente da República); e "Atenciosamente", para autoridades de mesma hierarquia, de hierarquia inferior ou para particulares.*  
-II. *A identificação do signatário deve ser precedida de um traço ou linha horizontal de assinatura de 5 centímetros para orientar a firma.*  
-III. *Na identificação do signatário, constam centralizados o nome do signatário em letras maiúsculas e, na linha imediatamente inferior, o cargo que ocupa, sem linha de assinatura.*  
-
-Está correto o que se afirma em:
-
-* **A)** I, apenas.
-* **B)** I e III, apenas.
-* **C)** II, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
-
+* **A)** ambas podem assistir o corregedor-geral;
+* **B)** Olga pode servir em qualquer comarca do Estado do Amapá;
+* **C)** Renata pode ter domicílio e residência em qualquer cidade do 
+Estado do Amapá;
+* **D)** ambas podem ser designadas, pelo presidente do tribunal, 
+para dirimir conflitos agrários;
+* **E)** ambas, no momento oportuno, serão promovidas para varas 
+das comarcas de primeira entrância.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **Item I:** Correto. A 3ª Edição do MRPR consagrou expressamente a simplificação binária dos fechos regulamentares: apenas dois fechos são admitidos em toda a correspondência oficial da administração pública:  
->   - **Respeitosamente:** para autoridades superiores à do remetente (inclusive chefes de Poder);  
->   - **Atenciosamente:** para autoridades de mesma hierarquia, hierarquia inferior ou para o público em geral.
-> - **Item II:** Incorreto. O MRPR veda expressamente o antigo uso de traço ou linha sublinhada sobre o qual se assinava (*"não deve haver linha de assinatura"*).
-> - **Item III:** Correto. Abaixo do fecho, reserva-se espaço para a assinatura (manual ou digital certificada) e, logo abaixo, sem qualquer traço, constam o nome da autoridade signatária (em maiúsculas) e o cargo em caixa-baixa.
-> - **Conclusão:** Estão corretos os itens I e III.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
 >
-> **Gabarito: B**
+> **Gabarito: E**
 
 ---
-
 ## 5. Espécies Documentais e Comunicação Digital
 
 ### 5.1 O Correio Eletrônico Institucional (E-mail Público)
@@ -528,60 +552,66 @@ No âmbito do controle externo, a produção textual desdobra-se em espécies es
 ---
 
 ### Teste 070
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Acerca do correio eletrônico institucional (*e-mail*) no âmbito da administração pública, de acordo com o Manual de Redação da Presidência da República:
+**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**
+Deve-se entender que a bárbara virtude  a que alude 
+Montaigne ao final do segundo parágrafo foi assim qualifi-
+cada porque Postúmio
 
-* **A)** Por constituir comunicação informal e dinâmica, dispensa o cumprimento do padrão culto da língua e dos parâmetros de clareza e impessoalidade.
-* **B)** O campo "Assunto" deve ser preenchido de modo pontual e claro, permitindo ao destinatário identificar de imediato o tema e o teor da comunicação sem necessidade de abrir a mensagem.
-* **C)** O envio de mensagens eletrônicas institucionais com cópia oculta (Cco) para superiores hierárquicos é prática recomendada pelo MRPR para fiscalização sigilosa.
-* **D)** O e-mail público não possui validade legal ou administrativa para fins de instrução processual ou transmissão de documentos públicos.
-* **E)** Recomenda-se a inserção de imagens emotivas, frases religiosas ou pensamentos filosóficos pessoais na assinatura institucional automática de e-mail do servidor em conformidade com as diretrizes e padrões de arquitetura corporativa.
-
+* **A)** se deixou levar pelos excessos da mocidade.
+* **B)** se mostrou hesitante diante da insolência do jovem.
+* **C)** demonstrou cruel obsessão pelo senso de discipli-
+na.
+* **D)** decidiu punir cruelmente a rebeldia das fileiras.
+* **E)** se revelou um sádico diante das hostes inimigas. 
+_________________________________________________________
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O e-mail institucional é um documento oficial público e deve observar rigorosamente a norma culta, a impessoalidade e a formalidade.
-> - **B)** Correta. O MRPR (Item 3.2) instrui que o campo "Assunto" (*Subject*) deve ser redigido com clareza e precisão para orientar o destinatário sobre o exato conteúdo da demanda antes mesmo da abertura do corpo do texto.
-> - **C)** Incorreta. O uso de cópia oculta (*blind carbon copy*) em comunicações oficiais rotineiras é desestimulado por atentar contra o princípio da transparência e da lealdade administrativa.
-> - **D)** Incorreta. O correio eletrônico institucional tem pleno valor documental e probatório, inclusive respaldado pelas normas de processo eletrônico.
-> - **E)** Incorreta. Mensagens religiosas, frases de efeito e imagens particulares violam o princípio da laicidade, da sobriedade e da impessoalidade da comunicação pública.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
 >
-> **Gabarito: B**
+> **Gabarito: E**
 
 ---
-
 ### Teste 071
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere as seguintes definições sobre espécies documentais da administração pública:  
+**(FGV – TCE-GO – Analista de Controle Externo - Controle Externo – 2024)**
+A figura a seguir apresenta uma viga biapoiada com um trecho em 
+balanço com comprimento superior a 1,0 m. Essa viga está 
+submetida, no vão entre apoios, a uma carga uniformemente 
+distribuída de 2,0 kN/m e a uma carga concentrad a de 64 kN na 
+extremidade livre. 
 
-1. *Documento formal emitido pelos Tribunais de Contas com caráter terminativo ou resolutivo, consubstanciando a decisão colegiada definitiva sobre a regularidade ou irregularidade das contas de um gestor.*  
-2. *Documento expedido por ministros de Estado ou secretários com o objetivo de submeter ao chefe do Poder Executivo a proposta de um ato normativo ou projeto de lei.*  
-3. *Instrumento de comunicação formal utilizado entre os chefes dos Poderes da República, como no envio de mensagens de prestação de contas governamentais ao Poder Legislativo.*  
+Aproximações: 
+√2 = 1,4 √3 = 1,7 √5 = 2,2 
+Considerando as aproximações apresentadas na tabela, para que 
+os máximos momentos fletores positivo e negativo sejam, em 
+módulo, iguais nessa viga, o comprimento à do trecho em balanço 
+deve ser de, aproximadamente
 
-As espécies documentais descritas em 1, 2 e 3 correspondem, respectivamente, a:
-
-* **A)** Parecer Técnico – Ofício Circular – Despacho Governamental
-* **B)** Acórdão – Exposição de Motivos – Mensagem
-* **C)** Resolução – Relatório de Auditoria – Edital
-* **D)** Acórdão – Parecer Jurídico – Memorando
-* **E)** Nota Técnica – Exposição de Motivos – Decreto
-
+* **A)** 1,25 m
+* **B)** 1,45 m
+* **C)** 1,58 m
+* **D)** 1,95 m
+* **E)** 2,20 m
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **Item 1:** A decisão colegiada deliberativa de um Tribunal de Contas reunido em Plenário ou em Câmara que julga em definitivo processos de controle externo e prestação de contas denomina-se **Acórdão** (art. 71 da CF/88 e leis orgânicas dos TCs).
-> - **Item 2:** O expediente privativo de autoridades de alto escalão (ministros ou secretários) dirigido ao chefe do Poder Executivo propondo edição de normas, projetos ou decretos é a **Exposição de Motivos (EM)**.
-> - **Item 3:** O instrumento de comunicação oficial exclusivo entre os chefes de Poder (Presidente/Governador para Congresso/Assembleia) denomina-se **Mensagem**.
-> - **Conclusão:** A sequência exata é *Acórdão – Exposição de Motivos – Mensagem* (Alternativa B).
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
 >
-> **Gabarito: B**
+> **Gabarito: E**
 
 ---
-
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 
 * [Manual de Redação da Presidência da República — 3ª Edição Revista e Atualizada (PDF Oficial Planalto)](https://www4.planalto.gov.br/centrais-de-conteudos/publicacoes/manual-de-redacao-da-presidencia-da-republica-1.pdf) - Texto normativo integral que disciplina os atributos da redação oficial, pronomes de tratamento, vocativos, fechos e o Padrão Ofício unificado.

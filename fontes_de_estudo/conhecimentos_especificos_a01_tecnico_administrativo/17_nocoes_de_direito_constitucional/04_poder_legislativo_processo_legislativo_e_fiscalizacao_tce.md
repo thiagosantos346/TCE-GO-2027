@@ -101,27 +101,35 @@ O art. 53 da Constituição consagra o plexo de garantias institucionais dos mem
 ---
 
 ### Teste 143
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-As Comissões Parlamentares de Inquérito (CPIs), previstas no art. 58, § 3º, da Constituição Federal, possuem poderes de investigação próprios das autoridades judiciais, além de outros previstos nos regimentos das respectivas Casas. A respeito dos limites constitucionais de atuação das CPIs, é correto afirmar que:
+**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**
+Compete ao Congresso Nacional, com a sanção do Pre-
+sidente da República,
 
-* **A)** podem decretar a quebra do sigilo bancário e fiscal de investigados fundamentadamente.
-* **B)** possuem competência originária para determinar a interceptação de comunicações telefônicas.
-* **C)** podem expedir mandado de busca e apreensão domiciliar na pendência de recesso parlamentar.
-* **D)** detêm poder de decretar a prisão preventiva de investigados em caso de fundado perigo de fuga.
-* **E)** suas conclusões condenam criminalmente os indiciados independentemente de ação do Ministério Público.
+* **A)** dispor sobre fixação do subsídio dos Ministros do 
+Supremo Tribunal Federal.
+* **B)** apreciar os atos de concessão e renovação de con-
+cessão de emissoras de rádio e televisão.
+* **C)** escolher dois terços dos membros do Tribunal de 
+Contas da União.
+* **D)** autorizar referendo e convocar plebiscito.
+* **E)** autorizar, em terras indígenas, a exploração e o 
+aproveitamento de recursos hídricos e a pesquisa e 
+lavra de riquezas minerais. 
+_________________________________________________________
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correto**. As CPIs federais e estaduais (art. 58, § 3º, CF/88) possuem poderes de instrução próprios das autoridades judiciais, podendo determinar diretamente a quebra dos sigilos bancário, fiscal e de dados telefônicos (registros de chamadas), desde que o façam mediante decisão fundamentada tomada pela maioria de seus membros (Súmula Vinculante 10 e jurisprudência pacífica do STF).
-> - **B)** **Incorreto**. A interceptação telefônica (escuta de conversas) submete-se à cláusula de reserva absoluta de jurisdição (art. 5º, XII, CF/88), sendo privativa de magistrado.
-> - **C)** **Incorreto**. A busca e apreensão domiciliar sem consentimento exige determinação judicial (art. 5º, XI, CF/88).
-> - **D)** **Incorreto**. As CPIs não podem decretar prisões cautelares (preventiva ou temporária), ressalvada unicamente a prisão em flagrante delito.
-> - **E)** **Incorreto**. As conclusões da CPI são encaminhadas ao Ministério Público ou à Advocacia-Geral para que promovam a responsabilidade civil ou criminal dos infratores.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
-> **Gabarito: A**
+> **Gabarito: D**
 
+---
 ### Teste 144
 **(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**  
 Compete ao Congresso Nacional, com a sanção do Presidente da República:
@@ -167,71 +175,115 @@ Ao organizar o Poder Legislativo na esfera federal, a Constituição da Repúbli
 > **Gabarito: A**
 
 ### Teste 146
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A respeito dos limites ao poder constituinte derivado reformador no processo legislativo de emendas à Constituição (art. 60 da CF/88), analise as regras constitucionais. É correto afirmar que:
+**(FGV – TCE-GO – Analista de Controle Externo - Controle Externo – 2024)**
+Um município brasileiro fictício promulgou lei instituindo nova 
+modalidade de licitação denominada pife. Em seguimento, a novel 
+legislação foi regulamentada pelo Prefeito Municipal e três editais 
+de licitação, com a nova modalidade, foram publicados com o 
+objetivo de contratar obras públicas. 
+O Corpo de Auditoria do Tribunal de Contas com jurisdição sobre 
+o município examinou o caso e, considerando o disposto no artigo 
+22, XXVII da C onstituição Federal que atribui competência 
+privativa à União para legislar sobre normas gerais de licitação e 
+contratação, em todas as modalidades, para as administrações 
+públicas diretas e indireta de todos os entes federados, 
+representou ao Plenário quanto a constitucionalidade da norma. 
+Tendo por orientação o prescrito na Súmula 347 do Supremo 
+Tribunal Federal, é correto afirmar que a representação deve ser
 
-* **A)** A proposta de emenda deve ser votada em sessão unicameral conjunta do Congresso Nacional.
-* **B)** O Presidente da República possui prerrogativa de apor veto jurídico ou político à PEC aprovada.
-* **C)** A matéria constante de proposta de emenda rejeitada poderá ser reapresentada na mesma sessão.
-* **D)** O voto obrigatório e o regime presidencialista constituem cláusulas pétreas expressas da CF/88.
-* **E)** A emenda aprovada será promulgada pelas Mesas da Câmara dos Deputados e do Senado Federal.
+* **A)** conhecida, uma vez cumprir os requisitos de legitimidade, 
+porém não provida, uma vez que falece competência aos 
+Tribunais de Contas para apreciação da constitucionalidade de 
+leis.
+* **B)** conhecida, uma vez cumprir os requisitos de legitimidade, e 
+parcialmente provida, uma vez que o Tribunal de Contas 
+poderá determinar a sustação dos editais de licitação, contudo 
+não poderá se pronunciar quanto a lei e o decreto, haja vista 
+falecer competência para apreciação da constitucionalidade.
+* **C)** conhecida, uma vez cumprir os requisitos de legitimidade, e 
+provida, determinando-se a sustação dos três editais e que a 
+Administração Pública se abstenha de aplicar as referidas lei e 
+regulamentação às suas licitações, uma vez que atos 
+doravante praticados com base nos referidos normativos 
+serão considerados como irregulares e implicarão na 
+responsabilização pessoal dos agentes que lhes derem causa.
+* **D)** conhecida, uma vez cumprir os requisitos de legitimidade, e 
+provida, determinando-se a sustação dos três editais e, quanto 
+as normas, somente sendo possível, representar ao poder 
+competente à apreciação da inconstitucionalidade.
+* **E)** conhecida e provida, sendo declarada a inconstitucionalidade 
+da norma com efeito erga omnes.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A proposta será discutida e votada em cada Casa do Congresso Nacional, em dois turnos (art. 60, § 2º, CF/88).
-> - **B)** **Incorreto**. Não há sanção ou veto do Presidente da República em propostas de emenda constitucional.
-> - **C)** **Incorreto**. Conforme o art. 60, § 5º, da CF/88, a matéria constante de proposta de emenda rejeitada ou havida por prejudicada não pode ser objeto de nova proposta na mesma sessão legislativa.
-> - **D)** **Incorreto**. O art. 60, § 4º, II, tutela a forma federativa, o voto direto, secreto, universal e periódico (não o voto obrigatório). O presidencialismo não é cláusula pétrea expressa.
-> - **E)** **Correto**. Nos termos do art. 60, § 3º, da CF/88: "A emenda à Constituição será promulgada pelas Mesas da Câmara dos Deputados e do Senado Federal, com o respectivo número de ordem".
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
-> **Gabarito: E**
+> **Gabarito: C**
 
+---
 ### Teste 147
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Acerca do processo legislativo ordinário disciplinado na Constituição Federal (arts. 61 a 67 da CF/88), analise as regras sobre iniciativa e veto presidencial. É correto afirmar que:
+**(FGV – TCE-GO – Analista de Controle Externo - Controle Externo – 2024)**
+O Sistema de Controle Externo, conforme estabelecido na 
+Constituição do Estado de Goiás, é essencial para garantir a 
+fiscalização efetiva e transparente da aplicação dos recursos 
+públicos. 
+Assinale a opção que indica a instituição que exerce o 
+assessoramento no controle externo do Poder Legislativo.
 
-* **A)** O veto parcial do Presidente da República deve abranger o texto integral de artigo, de parágrafo, de inciso ou de alínea.
-* **B)** O silêncio do Presidente da República no prazo de quinze dias úteis importará em veto tácito ao projeto aprovado.
-* **C)** O veto presidencial somente pode ser rejeitado pelo voto de dois terços dos membros de cada Casa parlamentar.
-* **D)** É admitida emenda parlamentar que aumente a despesa prevista nos projetos de iniciativa exclusiva do Presidente.
-* **E)** A matéria de projeto de lei rejeitado jamais poderá ser renovada na mesma sessão legislativa sob qualquer hipótese.
+* **A)** Procuradoria-Geral da Assembleia Legislativa.
+* **B)** Prefeitura Municipal.
+* **C)** Secretaria Estadual de Planejamento.
+* **D)** Câmara Municipal.
+* **E)** Controladoria do Estado.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correto**. Conforme expressa o art. 66, § 2º, da Constituição Federal: "O veto parcial somente abrangerá texto integral de artigo, de parágrafo, de inciso ou de alínea" (vedado expressamente o veto a palavras ou expressões isoladas).
-> - **B)** **Incorreto**. Decorrido o prazo de 15 dias úteis, o silêncio do Presidente da República importará em sanção tácita (art. 66, § 3º, CF/88).
-> - **C)** **Incorreto**. O veto será apreciado em sessão conjunta e só pode ser rejeitado pelo voto da maioria absoluta dos Deputados e Senadores (art. 66, § 4º, CF/88).
-> - **D)** **Incorreto**. É vedado aumento de despesa nos projetos de iniciativa exclusiva do Presidente da República (art. 63, I, CF/88), ressalvadas as emendas ao orçamento (art. 166).
-> - **E)** **Incorreto**. O projeto rejeitado pode ser renovado na mesma sessão legislativa mediante proposta da maioria absoluta dos membros de qualquer das Casas (art. 67, CF/88).
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
 > **Gabarito: A**
 
+---
 ### Teste 148
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O art. 62 da Constituição da República autoriza o Presidente a adotar medidas provisórias, com força de lei, em caso de relevância e urgência. A respeito do regime constitucional das medidas provisórias, é correto afirmar:
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+O artigo 31 da Constituição Federal do Brasil estabelece que a 
+fiscalização no âmbito municipal será conduzida pelo Poder 
+Legislativo Municipal, por meio de controle externo, e pelos 
+sistemas de controle interno do Poder Executivo Municipal, 
+conforme determinado pela legislação.  
+Assinale a opção que indica o órgão que auxilia o controle externo 
+da Câmara Municipal.
 
-* **A)** É permitida a edição de medida provisória que discipline matéria afeta a direito penal e processo penal.
-* **B)** É vedada a edição de medida provisória sobre matéria reservada a lei complementar ou de direito eleitoral.
-* **C)** A medida provisória perde a eficácia desde a edição se não for convertida em lei no prazo fatal de trinta dias.
-* **D)** A prorrogação da vigência da medida provisória por igual período de sessenta dias depende de votação em Plenário.
-* **E)** Se a medida provisória não for apreciada em quarenta e cinco dias, ocorrerá a sua imediata rejeição tácita.
+* **A)** Controladoria do Estado.
+* **B)** Tribunal de Contas do Estado.
+* **C)** Secretaria da Fazenda.
+* **D)** Secretaria de Auditoria.
+* **E)** Conselho de Controle.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. O art. 62, § 1º, I, 'b', da CF/88 veda expressamente a edição de medidas provisórias sobre direito penal, processual penal e processual civil.
-> - **B)** **Correto**. O art. 62, § 1º, da CF/88 veda a edição de medida provisória que verse sobre nacionalidade, cidadania, direitos políticos, partidos políticos e direito eleitoral (inciso I, 'a'), bem como matéria reservada a lei complementar (inciso III).
-> - **C)** **Incorreto**. O prazo inicial de vigência é de sessenta dias, prorrogável uma única vez por igual período (art. 62, §§ 3º e 7º, CF/88).
-> - **D)** **Incorreto**. A prorrogação por sessenta dias dá-se de forma automática quando a medida não tiver sua votação encerrada nas duas Casas (art. 62, § 7º, CF/88).
-> - **E)** **Incorreto**. Não sendo votada em até 45 dias da publicação, a MP entrará em regime de urgência, ficando sobrestadas as demais deliberações legislativas da Casa (trancamento da pauta - art. 62, § 6º, CF/88).
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
 > **Gabarito: B**
 
+---
 ### Teste 149
 **(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**  
 O artigo 31 da Constituição Federal do Brasil estabelece que a fiscalização no âmbito municipal será conduzida pelo Poder Legislativo Municipal, por meio de controle externo, e pelos sistemas de controle interno do Poder Executivo Municipal, conforme determinado pela legislação.  
@@ -256,27 +308,33 @@ Assinale a opção que indica o órgão que auxilia o controle externo da Câmar
 > **Gabarito: B**
 
 ### Teste 150
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A Câmara Municipal de determinado município goiano recebeu o parecer prévio desfavorável emitido pelo Tribunal de Contas sobre as contas anuais de governo prestadas pelo Prefeito. Considerando a jurisprudência fixada pelo STF em repercussão geral (Temas 157 e 835), analise as regras de julgamento:
+**(FGV – TCE-GO – Analista de Controle Externo - Tecnologia da Informação – 2024)**
+O Sistema de Controle Externo, conforme estabelecido na 
+Constituição do Estado de Goiás, é essencial para garantir a 
+fiscalização efetiva e transparente da aplicação dos recursos 
+públicos. 
+Assinale a opção que indica a instituição que exerce o 
+assessoramento no controle externo do Poder Legislativo.
 
-* **A)** O parecer prévio do Tribunal de Contas tem natureza vinculante imediata e gera a inelegibilidade automática.
-* **B)** As contas do chefe do Executivo que atue como ordenador de despesas são julgadas em definitivo pelo Tribunal de Contas.
-* **C)** A Câmara de Vereadores só pode rejeitar o parecer prévio pelo voto da maioria simples dos parlamentares presentes.
-* **D)** Compete exclusivamente à Câmara Municipal o julgamento das contas do Prefeito, atuando o TC como órgão de auxílio.
-* **E)** O parecer prévio do Tribunal de Contas deixa de prevalecer se for impugnado por recurso de iniciativa popular local.
+* **A)** Procuradoria-Geral da Assembleia Legislativa.
+* **B)** Prefeitura Municipal.
+* **C)** Secretaria Estadual de Planejamento.
+* **D)** Câmara Municipal.
+* **E)** Controladoria do Estado.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. O parecer prévio tem caráter técnico-opinativo e não vincula de forma absoluta o Legislativo municipal.
-> - **B)** **Incorreto**. O STF fixou nos Temas 157 e 835 que, para fins de inelegibilidade (art. 1º, I, 'g', da LC 64/90), a competência para julgar TODAS as contas prestadas por Prefeito (sejam contas de governo ou de gestão/ordenador de despesas) é exclusiva da Câmara Municipal.
-> - **C)** **Incorreto**. Conforme o art. 31, § 2º, da CF/88, o parecer prévio somente deixará de prevalecer por decisão de dois terços dos membros da Câmara Municipal (maioria qualificada).
-> - **D)** **Correto**. Consoante a tese vinculante do STF: para os fins da Lei Complementar nº 64/1990, a apreciação das contas de Prefeito, tanto as de governo quanto as de gestão, é de competência exclusiva do Poder Legislativo municipal, atuando o Tribunal de Contas apenas como órgão técnico auxiliar de assessoramento prévio.
-> - **E)** **Incorreto**. A derrubada do parecer técnico exige estritamente a deliberação qualificada de 2/3 dos vereadores.
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
-> **Gabarito: D**
+> **Gabarito: A**
 
+---
 ### Teste 151
 **(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**  
 Compete ao Tribunal de Contas do Estado de Goiás:
@@ -300,46 +358,84 @@ Compete ao Tribunal de Contas do Estado de Goiás:
 > **Gabarito: A**
 
 ### Teste 152
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O Plenário do Tribunal de Contas do Estado de Goiás, ao fiscalizar a legalidade da folha de pagamento de determinado órgão estadual, deparou-se com gratificação instituída por lei cuja compatibilidade com o teto constitucional era duvidosa. À luz da Súmula 347 do STF e da jurisprudência recente da Suprema Corte sobre o tema, analise a atuação da Corte de Contas:
+**(FGV – TCE-GO – Analista de Controle Externo - Controle Externo – 2024)**
+O artigo 31 da Constituição Federal do Brasil estabelece que a 
+fiscalização no âmbito municipal será conduzida pelo Poder 
+Legislativo Municipal, por meio de controle externo, e pelos 
+sistemas de controle interno do Poder Executivo Municipal, 
+conforme determinado pela legislação.  
+Assinale a opção que indica o órgão que auxilia o controle externo 
+da Câmara Municipal.
 
-* **A)** O Tribunal de Contas pode declarar formalmente a inconstitucionalidade de lei estadual com efeitos erga omnes.
-* **B)** O Tribunal de Contas pode afastar incidenter tantum a aplicação de lei manifestamente contrária à Constituição.
-* **C)** É vedado ao Tribunal de Contas recusar a aplicação de ato normativo estadual mesmo diante de ofensa à Carta Magna.
-* **D)** O Tribunal de Contas exerce fiscalização abstrata de constitucionalidade quando provocado por representação da Mesa.
-* **E)** A recusa de aplicação de ato legislativo pela Corte de Contas depende de autorização do Tribunal de Justiça estadual.
+* **A)** Controladoria do Estado.
+* **B)** Tribunal de Contas do Estado.
+* **C)** Secretaria da Fazenda.
+* **D)** Secretaria de Auditoria.
+* **E)** Conselho de Controle.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. O Tribunal de Contas não integra o Poder Judiciário e não realiza controle concentrado ou abstrato de constitucionalidade com eficácia erga omnes.
-> - **B)** **Correto**. Conforme o enunciado da Súmula 347 do STF: "O Tribunal de Contas, no exercício de suas atribuições, pode apreciar a constitucionalidade das leis e dos atos do Poder Público". Embora o STF venha modulando esse poder em precedentes recentes (como nos mandados de segurança sobre declaração geral de inconstitucionalidade), a jurisprudência tradicional das bancas de concurso reconhece a prerrogativa do Tribunal de Contas de afastar, incidentalmente e para o caso concreto sob seu exame, a aplicação de lei incompatível com a CF/88.
-> - **C)** **Incorreto**. O controle difuso/incidental no exercício da atividade fiscalizatória é assegurado pela Súmula 347.
-> - **D)** **Incorreto**. A fiscalização abstrata é exclusiva do Poder Judiciário via ADI perante o TJ ou STF.
-> - **E)** **Incorreto**. A apreciação incidental pelo Tribunal de Contas independe de autorização do Poder Judiciário.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
 > **Gabarito: B**
 
+---
 ### Teste 153
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A fiscalização dos municípios é exercida pelo Poder Legislativo com o auxílio do Tribunal de Contas competente. Em relação à organização dos Tribunais de Contas municipais no direito brasileiro e à vedação expressa do art. 31, § 4º, da Constituição Federal, é correto afirmar:
+**(FGV – TCE-GO – Analista de Controle Externo - Ciências Contábeis – 2024)**
+Um município brasileiro fictício promulgou lei instituindo nova 
+modalidade de licitação denominada pife. Em seguimento, a novel 
+legislação foi regulamentada pelo Prefeito Municipal e três editais 
+de licitação, com a nova modalidade, foram publicados com o 
+objetivo de contratar obras públicas. 
+O Corpo de Auditoria do Tribunal de Contas com jurisdição sobre 
+o município examinou o caso e, considerando o disposto no artigo 
+22, XXVII da C onstituição Federal que atribui competência 
+privativa à União para legislar sobre normas gerais de licitação e 
+contratação, em todas as modalidades, para as administrações 
+públicas diretas e indireta de todos os entes federados, 
+representou ao Plenário quanto a constitucionalidade da norma. 
+Tendo por orientação o prescrito na Súmula 347 do Supremo 
+Tribunal Federal, é correto afirmar que a representação deve ser
 
-* **A)** É permitida a criação de novos Tribunais de Contas municipais em cidades com mais de dois milhões de habitantes.
-* **B)** É vedada a criação de novos Tribunais, Conselhos ou órgãos de Contas Municipais após a promulgação da CF/88.
-* **C)** Os Tribunais de Contas dos Municípios do Rio de Janeiro e de São Paulo foram compulsoriamente extintos pela CF/88.
-* **D)** O Estado federado não pode criar Tribunal de Contas dos Municípios dotado de jurisdição estadual compartilhada.
-* **E)** A competência fiscalizatória dos Tribunais de Contas estaduais sobre os Municípios foi delegada a conselhos distritais.
+* **A)** conhecida, uma vez cumprir os requisitos de legitimidade, 
+porém não provida, uma vez que falece competência aos 
+Tribunais de Contas para apreciação da constitucionalidade de 
+leis.
+* **B)** conhecida, uma vez cumprir os requisitos de legitimidade, e 
+parcialmente provida, uma vez que o Tribunal de Contas 
+poderá determinar a sustação dos editais de licitação, contudo 
+não poderá se pronunciar quanto a lei e o decreto, haja vista 
+falecer competência para apreciação da constitucionalidade.
+* **C)** conhecida, uma vez cumprir os requisitos de legitimidade, e 
+provida, determinando-se a sustação dos três editais e que a 
+Administração Pública se abstenha de aplicar as referidas lei e 
+regulamentação às suas licitações, uma vez que atos 
+doravante praticados com base nos referidos normativos 
+serão considerados como irregulares e implicarão na 
+responsabilização pessoal dos agentes que lhes derem causa.
+* **D)** conhecida, uma vez cumprir os requisitos de legitimidade, e 
+provida, determinando-se a sustação dos três editais e, quanto 
+as normas, somente sendo possível, representar ao poder 
+competente à apreciação da inconstitucionalidade.
+* **E)** conhecida e provida, sendo declarada a inconstitucionalidade 
+da norma com efeito erga omnes.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A proibição da CF/88 é categórica e independe do número de habitantes ou da capacidade orçamentária do Município.
-> - **B)** **Correto**. O art. 31, § 4º, da Constituição Federal dispõe taxativamente: "É vedada a criação de Tribunais, Conselhos ou órgãos de Contas Municipais". A vedação aplica-se a quaisquer novos órgãos municipais de contas criados a partir de 5 de outubro de 1988.
-> - **C)** **Incorreto**. Os Tribunais de Contas dos Municípios de São Paulo e do Rio de Janeiro já existiam antes de 1988 e foram recepcionados pela ordem constitucional vigente.
-> - **D)** **Incorreto**. A jurisprudência do STF autoriza a existência de Tribunais de Contas dos Municípios (órgãos estaduais com competência sobre os municípios, como ocorria na Bahia, Pará e Goiás), desde que instituídos antes de restrições ou conforme a ordem constitucional.
-> - **E)** **Incorreto**. A fiscalização é exercida diretamente pelos Tribunais de Contas constitucionais.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
+---

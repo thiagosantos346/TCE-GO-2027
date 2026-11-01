@@ -192,68 +192,102 @@ Entre a Administração Direta e as entidades da Administração Indireta **NÃO
 ---
 
 ### Teste 013
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-As autarquias constituem pessoas jurídicas de direito público integrantes da Administração Indireta, criadas diretamente por lei específica para o desempenho de atividades típicas de Estado. Acerca do regime jurídico das autarquias, assinale a afirmativa correta:
+**(FGV – TCE-GO – Analista de Controle Externo - Controle Externo – 2024)**
+O Presidente da República editou o Decreto nº X, o qual dispôs 
+sobre o seguinte:  
+I. extinção dos órgãos públicos Alfa e Beta, com realocação dos 
+respectivos ocupantes, o que decorria da exponencial 
+diminuição de suas atividades , fruto de alterações no 
+ambiente social;  
+II. extinção dos cargos em comissão de simbologia W, na medida 
+em que vagassem; 
+III. disciplina da organização da Administração Pública federal. 
+Por discordar das medidas adotadas, o Partido Político Alfa, com 
+representação no Congresso Nacional, consultou sua assessoria 
+jurídica em relação à conformidade constitucional das medidas 
+adotadas.  
+A assessoria informou que é constitucional o que consta em
 
-* **A)** Seus dirigentes gozam de mandato fixo e inamovível, vedada a destituição por ato do Chefe do Executivo.
-* **B)** Seus bens são públicos, impenhoráveis, imprescritíveis e submetidos ao regime de precatórios judiciais.
-* **C)** Possuem autonomia política originária para legislar sobre matérias afetas à sua finalidade institucional.
-* **D)** Seus empregados são regidos compulsoriamente pela CLT, vedada a adoção de regime estatutário próprio.
-* **E)** Submetem-se à subordinação hierárquica direta em relação ao titular do Ministério ou Secretaria supervisora.
+* **A)** I, II e III.
+* **B)** I, apenas.
+* **C)** III, apenas.
+* **D)** I e II, apenas.
+* **E)** II e III, apenas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. O mandato fixo aplica-se às agências reguladoras (autarquias em regime especial), não sendo regra geral para autarquias comuns.
-> - **B)** **Correto**. Por serem pessoas jurídicas de direito público, os bens autárquicos qualificam-se como bens públicos (art. 99 do Código Civil), gozando de inalienabilidade relativa, impenhorabilidade, imprescritibilidade (não sujeição a usucapião) e execução via precatório (art. 100 da CF/88).
-> - **C)** **Incorreto**. As autarquias detêm apenas autonomia administrativa e financeira, carecendo de autonomia política legislativa.
-> - **D)** **Incorreto**. As autarquias de direito público submetem-se ao regime jurídico estatutário para seus servidores (art. 39 da CF/88).
-> - **E)** **Incorreto**. Não há subordinação hierárquica entre a Administração Direta e as autarquias, mas mero controle finalístico (tutela ou supervisão ministerial).
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
 > **Gabarito: B**
+
+---
 ### Teste 014
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O Governo do Estado de Goiás, com o propósito de aprimorar a exploração de atividade econômica de relevante interesse coletivo, pretende autorizar determinada sociedade de economia mista estadual a criar uma subsidiária integral e a participar de empresa privada. À luz do art. 37, XIX e XX, da CF/88 e da jurisprudência do STF:
+**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**
+Nas atividades culturais realizadas no âmbito da biblioteca 
+são utilizadas várias técnicas e instrumentos combinados. 
+Na perspectiva da ação cultural, como proposta por José 
+Teixeira Coelho Neto, essas atividades devem
 
-* **A)** A criação da subsidiária exige lei específica autorizativa, vedada a previsão genérica na lei de instituição da estatal matriz.
-* **B)** É dispensada qualquer autorização legislativa para a participação societária em empresa privada caso o Estado seja minoritário.
-* **C)** É admitida autorização legislativa genérica na própria lei instituidora da matriz para a criação de subsidiárias e participações.
-* **D)** A criação de empresas subsidiárias submete-se exclusivamente a decreto regulamentar do Chefe do Poder Executivo estadual.
-* **E)** A participação do Estado em empresa privada converterá automaticamente a pessoa jurídica investida em sociedade de economia mista.
+* **A)** alavancar a produção cultural, em que os parti-
+cipantes são sujeitos do processo.
+* **B)** ter princípio, meio e fim predeterminados, visando a 
+realização de um produto.
+* **C)** partir de um projeto da instituição e envolver os 
+usuários como seus receptores.
+* **D)** divertir o público e promover formas de lazer que 
+incluam programas de leitura e de arte.
+* **E)** facilitar o uso de instalações e meios ao desenvol-
+vimento de eventos culturais. 
+_________________________________________________________
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. Conforme jurisprudência pacífica do STF (ADI 1.649), a autorização legislativa para criação de subsidiárias não precisa ser por lei específica para cada uma, bastando autorização genérica veiculada na própria lei que criou a entidade matriz.
-> - **B)** **Incorreto**. O art. 37, XX, da CF/88 exige expressamente autorização legislativa tanto para criação de subsidiárias quanto para participação em empresa privada.
-> - **C)** **Correto**. O STF pacificou o entendimento de que a autorização legislativa exigida pelo art. 37, XX, da CF/88 para a criação de subsidiárias e participação em empresas privadas pode constar de forma ampla e expressa na própria lei instituidora da entidade estatal controladora.
-> - **D)** **Incorreto**. O decreto executivo é insuficiente; exige-se prévia chancela legislativa por lei formal.
-> - **E)** **Incorreto**. A mera participação acionária minoritária não altera a natureza privada da sociedade mercantil receptora.
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
-> **Gabarito: C**
+> **Gabarito: A**
+
+---
 ### Teste 015
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A Lei nº 13.303/2016 (Estatuto Jurídico das Empresas Públicas e Sociedades de Economia Mista) estabelece diretrizes de governança e regras sobre a atuação dos órgãos de controle interno e externo das três esferas da federação. A respeito da fiscalização desempenhada pelos Tribunais de Contas sobre empresas estatais exploradoras de atividade econômica em regime de concorrência, é correto afirmar que:
+**(FGV – TCE-GO – Analista de Controle Externo - Tecnologia da Informação – 2024)**
+O poder que o Tribunal de Contas do Estado de Goiás 
+possui para, no âmbito de sua competência e jurisdição, 
+expedir atos normativos sobre matéria de sua atribuição e 
+sobre a organização dos processos que lhe devam ser 
+submetidos, obrigando os jurisdicionados ao seu cumpri-
+mento, sob pena de responsabilidade, denomina-se
 
-* **A)** as deliberações do Tribunal de Contas podem impor restrições à gestão comercial não previstas na legislação de mercado.
-* **B)** é vedado aos Tribunais de Contas realizar fiscalização operacional e de conformidade em estatais exploradoras de atividade econômica.
-* **C)** as atas e relatórios de auditoria devem resguardar o sigilo estratégico comercial legalmente protegido das entidades estatais.
-* **D)** a supervisão ministerial exercida sobre as empresas públicas afasta a competência fiscalizatória direta do Tribunal de Contas.
-* **E)** a fiscalização contábil exercida pelo controle externo limita-se aos repasses orçamentários realizados pela Fazenda Pública.
+* **A)** processual.
+* **B)** disciplinar.
+* **C)** de Polícia.
+* **D)** jurisdicional.
+* **E)** regulamentar. 
+_________________________________________________________
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. O controle exercido não pode violar a autonomia comercial e concorrencial das empresas estatais que atuam em mercado (art. 173 da CF/88).
-> - **B)** **Incorreto**. As empresas públicas e sociedades de economia mista integram a Administração Indireta e submetem-se integralmente à fiscalização contábil, financeira, orçamentária, operacional e patrimonial dos Tribunais de Contas (art. 71, II da CF/88).
-> - **C)** **Correto**. A Lei nº 13.303/2016 e a jurisprudência dos Tribunais de Contas determinam que a atuação fiscalizatória sobre estatais em regime concorrencial deve preservar o sigilo das informações estratégicas e mercadológicas legalmente protegidas, evitando prejuízos competitivos perante concorrentes privados.
-> - **D)** **Incorreto**. A supervisão ministerial não exclui o controle externo constitucional conferido aos Tribunais de Contas.
-> - **E)** **Incorreto**. A jurisdição dos Tribunais de Contas abrange a totalidade dos recursos, patrimônio e atos de gestão das empresas estatais, independentemente de repasse orçamentário direto.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
-> **Gabarito: C**
+> **Gabarito: D**
+
+---
 ### Teste 016
 **(FGV – TRT – Analista Judiciário – 2024)**  
 Considerando a natureza dos serviços públicos e as peculiaridades previstas no ordenamento pátrio, é correto afirmar que pode ser objeto de uma concessão patrocinada
@@ -300,26 +334,36 @@ O Terceiro Setor compreende entidades privadas sem fins lucrativos que colaboram
 ---
 
 ### Teste 017
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Determinada entidade privada sem fins lucrativos obteve a qualificação como Organização Social (OS) perante o Poder Executivo estadual e celebrou Contrato de Gestão para operacionalizar um hospital público goiano. Paralelamente, outra associação qualificou-se como Organização da Sociedade Civil de Interesse Público (OSCIP) e firmou Termo de Parceria na área cultural. Sobre esses regimes jurídicos:
+**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**
+No exercício de seu poder regulamentar, o Chefe do Po-
+der Executivo pode expedir, relativamente a todas as 
+matérias de sua competência, regulamentos
 
-* **A)** As duas entidades passam a integrar a Administração Indireta e seus empregados submetem-se ao regime de concurso público estatutário.
-* **B)** A qualificação como Organização Social é ato vinculado, ao passo que a qualificação como OSCIP decorre de discricionariedade estatal.
-* **C)** As duas entidades pertencem ao Terceiro Setor, mantêm natureza jurídica de direito privado e submetem-se à fiscalização do Tribunal de Contas.
-* **D)** O Contrato de Gestão e o Termo de Parceria exigem prévio procedimento licitatório estrito sob a modalidade concorrência pública.
-* **E)** As entidades do Terceiro Setor gozam de imunidade tributária absoluta para todas as suas aquisições e dispensam prestação de contas.
+* **A)** autônomos, destinados a criar normas jurídicas ge-
+rais e abstratas, independentemente de lei anterior.
+* **B)** autônomos, cuja eficácia e aplicabilidade independe 
+de posterior manifestação do Poder Legislativo.
+* **C)** de execução, destinados a dar fiel cumprimento às 
+leis.
+* **D)** de execução, destinados a dar fiel cumprimento aos 
+decretos por ele expedidos.
+* **E)** independentes, destinados a regulamentar a presta-
+ção de serviços públicos. 
+_________________________________________________________
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. Entidades do Terceiro Setor não integram a Administração Pública Direta nem Indireta; mantêm natureza de pessoas jurídicas privadas e contratam sob a CLT sem concurso público estatutário.
-> - **B)** **Incorreto**. Ocorre exatamente o inverso: a qualificação como OS é ato discricionário do Poder Público (Lei nº 9.637/1998), ao passo que a qualificação como OSCIP é ato vinculado uma vez cumpridos os requisitos legais (Lei nº 9.790/1999).
-> - **C)** **Correto**. As Organizações Sociais e as OSCIPs compõem o Terceiro Setor (entes de colaboração de natureza privada). Por gerirem e receberem recursos públicos, bens e fomento estatal, estão obrigatoriamente sujeitas à prestação de contas e à fiscalização contábil, financeira e operacional pelo Tribunal de Contas (art. 70, parágrafo único da CF/88).
-> - **D)** **Incorreto**. A celebração desses ajustes segue rito simplificado de seleção pública (concurso de projetos ou chamamento público), com dispensa de licitação tradicional conforme reconhecido pelo STF na ADI 1.923.
-> - **E)** **Incorreto**. Não há imunidade absoluta para compras e a prestação de contas é dever constitucional inafastável.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
 >
-> **Gabarito: C**
+> **Gabarito: E**
+
+---
 ## 4. Poderes Administrativos e Prerrogativas Públicas
 
 Os poderes administrativos são prerrogativas instrumentais outorgadas aos agentes do Estado com a finalidade de viabilizar a satisfação do interesse público. Não constituem privilégios pessoais, mas verdadeiros **poderes-deveres** (o dever de agir é indeclinável).
@@ -388,89 +432,176 @@ Superando divergências anteriores, o STF pacificou a tese com eficácia vincula
 ---
 
 ### Teste 018
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No âmbito de uma Secretaria de Estado, o Secretário Titular pretende delegar parte de suas atribuições administrativas a um Diretor de Departamento hierarquicamente subordinado. Considerando as regras de delegação e avocação de competência estabelecidas na Lei de Processo Administrativo (Lei Federal nº 9.784/1999 e Lei Estadual nº 13.800/2001), é correto afirmar que:
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+Custo Direto 
+(   ) Mobilização e desmobilização; 
+(   ) Tributação sobre faturamento; 
+(   ) Manutenção da sede da empresa; 
+(   ) Materiais usados na obra; 
+(   ) Remuneração da empresa pelo desenvolvimento de sua 
+atividade econômica 
+A sequência correta da numeração, na ordem apresentada é
 
-* **A)** A delegação exige que o órgão delegado seja necessariamente subordinado hierárquico ao órgão delegante na estrutura administrativa.
-* **B)** É indelegável a edição de atos de caráter normativo, a decisão de recursos administrativos e as matérias de competência exclusiva.
-* **C)** O ato de delegação transfere a titularidade definitiva da competência legal, tornando inviável a sua revogação a qualquer tempo.
-* **D)** A avocação de competências constitui medida de rotina administrativa, dispensando motivação expressa ou relevância excepcional.
-* **E)** Os atos praticados pelo delegado reputam-se praticados pelo delegante para efeito de impetração de mandado de segurança perante o Judiciário.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreto**. O art. 12 da Lei nº 9.784/1999 autoriza a delegação a órgãos ou titulares mesmo que não hierarquicamente subordinados, quando for conveniente.
-> - **B)** **Correto**. Regra clássica do art. 13 da Lei nº 9.784/1999 (e art. 13 da Lei Estadual nº 13.800/2001): "Não podem ser objeto de delegação: I - a edição de atos de caráter normativo; II - a decisão de recursos administrativos; III - as matérias de competência exclusiva do órgão ou autoridade" (mnemônico CE-NO-RE).
-> - **C)** **Incorreto**. A delegação transfere apenas o exercício da competência, mantendo a titularidade com o delegante, sendo revogável a qualquer tempo.
-> - **D)** **Incorreto**. A avocação é medida excepcional, temporária e exige motivos relevantes devidamente justificados (art. 15 da Lei nº 9.784/1999).
-> - **E)** **Incorreto**. Pela Súmula nº 510 do STF: "Praticado o ato por autoridade, no exercício de competência delegada, contra ela cabe o mandado de segurança ou a medida judicial".
->
-> **Gabarito: B**
-### Teste 019
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Quando se diz que as relações no âmbito interno da Administração Pública estão estruturadas sob a égide dos poderes hierárquico e disciplinar, significa assinalar que a autoridade administrativa, no exercício regular dessas prerrogativas:
-
-* **A)** instaura processos administrativos disciplinares para apurar infrações funcionais com base no poder de polícia estatal.
-* **B)** celebra contratos de gestão com particulares mediante exercício de supremacia geral fundada no ordenamento jurídico.
-* **C)** fiscaliza a atuação dos particulares em geral, aplicando sanções decorrentes de infrações às normas municipais e estaduais.
-* **D)** edita atos normativos de efeitos gerais e externos que obrigam indistintamente todos os cidadãos em território nacional.
-* **E)** organiza as atribuições funcionais dos órgãos e apura infrações de servidores vinculados por sujeição especial.
+* **A)** 5 – 1 – 4 – 3 – 2.
+* **B)** 4 – 3 – 2 – 5 – 1.
+* **C)** 3 – 4 – 2 – 5 – 1.
+* **D)** 3 – 4 – 1 – 5 – 2.
+* **E)** 5 – 3 – 2 – 4 – 1.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A apuração de infrações e imposição de penalidades a servidores decorre do poder disciplinar (fundado na sujeição especial), e não do poder de polícia (que incide sobre particulares em geral sob supremacia geral).
-> - **B)** **Incorreto**. Contratos administrativos não decorrem de hierarquia, pois não há subordinação hierárquica entre a Administração e o particular contratado.
-> - **C)** **Incorreto**. A fiscalização de particulares em geral é manifestação típica do poder de polícia.
-> - **D)** **Incorreto**. A edição de regulamentos de efeito externo aos particulares decorre do poder regulamentar/normativo.
-> - **E)** **Correto**. O poder hierárquico confere à Administração a prerrogativa de estruturar, escalonar e ordenar seus órgãos e agentes; e o poder disciplinar confere o poder-dever de punir faltas funcionais daqueles que mantêm vínculo jurídico específico (sujeição especial) com a Administração Pública.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
 >
 > **Gabarito: E**
-### Teste 020
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No exercício de seu poder regulamentar e normativo, o Chefe do Poder Executivo pode expedir decretos e regulamentos para disciplinar matérias afetas à Administração Pública. A respeito das espécies de decretos e de sua conformidade constitucional (art. 84, IV e VI, da CF/88), é correto afirmar que os decretos:
 
-* **A)** autônomos podem criar ou extinguir órgãos públicos desde que não gerem aumento global de despesa orçamentária.
-* **B)** regulamentares de execução podem inovar originariamente na ordem jurídica e criar obrigações para administrados.
-* **C)** autônomos destinam-se à organização e ao funcionamento estatal quando não implicarem despesa extra nem criação/extinção de órgãos.
-* **D)** autônomos podem extinguir funções públicas vagas, sendo vedada a extinção de cargos públicos mesmo que vagos.
-* **E)** de execução independem da existência de lei formal prévia, gozando de eficácia normativa primária e incondicionada.
+---
+### Teste 019
+**(FGV – TCE-GO – Analista de Controle Externo - Controle Externo – 2024)**
+A Lei nº 13.303/2016 estabelece que os órgãos de controle externo 
+e interno das três esferas de governo fiscalizarão as empresas 
+públicas e as sociedades de economia mista a eles relacionados, 
+inclusive aquelas domiciliadas no exterior, quanto à legitimidade, 
+à economicidade e à eficácia da aplicação de seus recursos, sob o 
+ponto de vista contábil, financeiro, operacional e patrimonial. 
+Acerca do mencionado tema, à luz da referida norma, é correto 
+afirmar que
+
+* **A)** as ações e deliberações do órgão ou ente de controle não 
+podem implicar interferência na gestão das empresas públicas 
+e das sociedades de economia mista a eles submetidas nem 
+ingerência no exercício de suas competências ou na definição 
+de políticas públicas.
+* **B)** é vedado que os Tribunais de Contas realizem o controle 
+externo em relação às licitações e contratos formalizados pelas 
+empresas públicas e sociedades de economia mista, 
+considerando a natureza jurídica de tais entidades 
+administrativas.
+* **C)** as gravações e filmagens existentes de reuniões, ordinárias ou 
+extraordinárias, dos conselhos de administração ou fiscal das 
+empresas públicas e das sociedades de economia mista, não 
+poderão ser disponibilizados para os órgãos de controle, no 
+âmbito dos trabalhos de auditoria.
+* **D)** o exercício da supervisão por vinculação da empresa pública 
+ou da sociedade de economia mista, pelo órgão a que se 
+vincula, enseja necessariamente a redução da autonomia 
+conferida pela lei específica que autorizou a criação da 
+entidade supervisionada ou inerente a sua natureza, 
+autorizando, assim, a ingerência do supervisor em sua 
+administração e funcionamento.
+* **E)** para a realização da aludida atividade fiscalizatória, os órgãos 
+de controle deverão ter acesso às informações e aos 
+documentos necessários à realização dos trabalhos, 
+ressalvados aqueles classificados como sigilosos pela empresa 
+pública ou pela sociedade de economia mista, nos termos da 
+legislação de regência.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A criação ou extinção de órgãos públicos depende privativamente de lei formal (art. 88 da CF/88), sendo expressamente vedada por decreto autônomo.
-> - **B)** **Incorreto**. Decretos de execução (art. 84, IV, CF) são atos normativos secundários e não podem inovar na ordem jurídica nem criar deveres ou direitos inexistentes em lei primária.
-> - **C)** **Correto**. O art. 84, VI, "a", da CF/88 (redação da EC nº 32/2001) autoriza expressamente o Chefe do Executivo a dispor mediante decreto sobre: "organização e funcionamento da administração federal, quando não implicar aumento de despesa nem criação ou extinção de órgãos públicos".
-> - **D)** **Incorreto**. O art. 84, VI, "b", da CF/88 autoriza expressamente a extinção de funções ou cargos públicos, desde que vagos.
-> - **E)** **Incorreto**. Decretos de execução vinculam-se estritamente à lei prévia a que dão fiel cumprimento.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
 > **Gabarito: C**
-### Teste 021
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Determinada empresa pública estadual, constituída sob personalidade jurídica de direito privado para prestar serviços de trânsito, pretende exercer atividades de fiscalização de velocidade e aplicar sanções pecuniárias aos motoristas infratores. À luz da doutrina sobre o ciclo de polícia e da jurisprudência do Supremo Tribunal Federal (Tema nº 532 / RE 633.782):
 
-* **A)** É constitucional a delegação das fases de fiscalização e de sanção a pessoas jurídicas privadas não integrantes da Administração.
-* **B)** É válida a delegação das etapas de fiscalização e sanção de trânsito a estatais prestadoras de serviço em regime não concorrencial.
-* **C)** As sanções de polícia são absolutamente indelegáveis a pessoas jurídicas de direito privado, ainda que integrantes da Administração Indireta.
-* **D)** A delegação do poder de polícia a estatais prescinde de lei formal instituidora, bastando convênio executivo de cooperação.
-* **E)** Apenas a fase de ordem de polícia (legislação originária de trânsito) pode ser validamente transferida a estatais municipais ou estaduais.
+---
+### Teste 020
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+Sérgio, no exercício de suas atribuições como Analista do Tribunal 
+de Contas do Estado de Goiás, deparou-se com um procedimento 
+administrativo envolvendo o controle externo de legalidade sobre 
+determinado ato discricionário do Poder Executivo.  
+Acerca da aludida temática, é correto afirmar que
+
+* **A)** é possível a revogação do ato administrativo pela Corte de 
+Contas.
+* **B)** não é possível o controle externo de ato discricionário pela 
+Corte de Contas.
+* **C)** é possível sindicar o mérito administrativo no  exercício do 
+controle externo pela Corte de Contas.
+* **D)** não é possível que a Corte de Contas substitua o Poder 
+Executivo no exercício da discricionariedade.
+* **E)** é possível anular o ato discricionário em questão por razões de 
+conveniência e oportunidade da Corte de Contas. 
+
+Administração Financeira e 
+Orçamentária
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A tese vinculante do STF restringe a delegação a pessoas jurídicas de direito privado integrantes da própria Administração Pública Indireta estatal de capital social majoritariamente público, vedando a delegação a empresas puramente privadas do mercado.
-> - **B)** **Correto**. Tese de Repercussão Geral fixada pelo STF no Tema nº 532 (RE 633.782): "É constitucional a delegação do poder de polícia, por meio de lei, a pessoas jurídicas de direito privado integrantes da Administração Pública indireta de capital social majoritariamente público que prestem exclusivamente serviço público de atuação própria do Estado e em regime não concorrencial". O STF reconheceu expressamente a possibilidade de delegação das etapas de fiscalização e sanção de trânsito (multas).
-> - **C)** **Incorreto**. O entendimento anterior do STF que vedava a sanção foi superado no julgamento de mérito do Tema 532.
-> - **D)** **Incorreto**. Exige-se indispensável previsão e autorização em lei formal.
-> - **E)** **Incorreto**. A ordem de polícia (criação primária de regras e restrições) é privativa do ente político legislador e indelegável a estatais.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
 >
-> **Gabarito: B**
+> **Gabarito: E**
+
+---
+### Teste 021
+**(FGV – TCE-GO – Analista de Controle Externo - Controle Externo – 2024)**
+A Lei nº 13.303/2016 estabelece que os órgãos de controle externo 
+e interno das três esferas de governo fiscalizarão as empresas 
+públicas e as sociedades de economia mista a eles relacionados, 
+inclusive aquelas domiciliadas no exterior, quanto à legitimidade, 
+à economicidade e à eficácia da aplicação de seus recursos, sob o 
+ponto de vista contábil, financeiro, operacional e patrimonial. 
+Acerca do mencionado tema, à luz da referida norma, é correto 
+afirmar que
+
+* **A)** as ações e deliberações do órgão ou ente de controle não 
+podem implicar interferência na gestão das empresas públicas 
+e das sociedades de economia mista a eles submetidas nem 
+ingerência no exercício de suas competências ou na definição 
+de políticas públicas.
+* **B)** é vedado que os Tribunais de Contas realizem o controle 
+externo em relação às licitações e contratos formalizados pelas 
+empresas públicas e sociedades de economia mista, 
+considerando a natureza jurídica de tais entidades 
+administrativas.
+* **C)** as gravações e filmagens existentes de reuniões, ordinárias ou 
+extraordinárias, dos conselhos de administração ou fiscal das 
+empresas públicas e das sociedades de economia mista, não 
+poderão ser disponibilizados para os órgãos de controle, no 
+âmbito dos trabalhos de auditoria.
+* **D)** o exercício da supervisão por vinculação da empresa pública 
+ou da sociedade de economia mista, pelo órgão a que se 
+vincula, enseja necessariamente a redução da autonomia 
+conferida pela lei específica que autorizou a criaç ão da 
+entidade supervisionada ou inerente a sua natureza, 
+autorizando, assim, a ingerência do supervisor em sua 
+administração e funcionamento.
+* **E)** para a realização da aludida atividade fiscalizatória, os órgãos 
+de controle deverão ter acesso às informaçõe s e aos 
+documentos necessários à realização dos trabalhos, 
+ressalvados aqueles classificados como sigilosos pela empresa 
+pública ou pela sociedade de economia mista, nos termos da 
+legislação de regência.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: C**
+
+---
 ## 5. Uso e Abuso de Poder e a Lei nº 13.869/2019
 
 ### 5.1 Excesso de Poder vs. Desvio de Finalidade

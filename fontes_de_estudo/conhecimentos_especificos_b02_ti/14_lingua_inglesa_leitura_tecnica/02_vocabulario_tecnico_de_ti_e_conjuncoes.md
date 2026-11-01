@@ -155,150 +155,160 @@ Estabelecem os pré-requisitos lógicos para que determinada asserção técnica
 ---
 
 ### Teste 575
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-*Carefully read the technical excerpt below on distributed systems:*
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+Segundo o gramático Celso Cunha, os adjetivos mostram os 
+seguintes valores: uma qualidade, uma característica, um estado 
+ou uma relação.  
+Assinale a opção em que o adjetivo sublinhado é classificado como 
+adjetivo de estado.
 
-> *"**Despite** the sudden network partition and sporadic hardware failures, the distributed ledger maintained strong data consistency across all active nodes. **Although** write throughput temporarily stalled during leader election, no uncommitted transactions were lost. The engineering team, **however**, scheduled an emergency firmware update to mitigate residual latency spikes."*
-
-Com base no texto técnico e nas regras morfossintáticas e coesivas da língua inglesa, assinale a afirmação correta:
-
-* **A)** A substituição do conectivo **"Despite"** pela locução **"Despite of"** preservaria a correção gramatical e o sentido original do período.
-* **B)** A oração introduzida por **"Although"** expressa uma concessão que poderia ser substituída sem prejuízo sintático ou semântico por **"Even though"**.
-* **C)** O termo **"however"** introduz uma oração subordinada causal explicativa sobre a atualização de firmware.
-* **D)** A expressão **"in spite of"** não poderia substituir **"Despite"** no primeiro período, pois exige oração subordinada com verbo conjugado.
-* **E)** O vocábulo **"Although"** deve ser necessariamente acompanhado de substantivo simples desacompanhado de verbo finito.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A forma **"Despite of" NÃO EXISTE** na língua inglesa padrão. É uma clássica armadilha de bancas de concurso (FCC/FGV). O correto é utilizar **"Despite"** (sem preposição) ou **"In spite of"** (com preposição).
-> - **B)** Correta. As conjunções subordinativas concessivas **"Although"**, **"Even though"** e **"Though"** são semanticamente intercambiáveis e exigem a mesma estrutura sintática (sujeito + verbo finito conjugado: *"write throughput temporarily stalled"*).
-> - **C)** Incorreta. O vocábulo **"however"** é um advérbio conjuntivo adversativo que expressa **contraste, ressalva ou oposição** (no entanto, porém, contudo), e não causa ou explicação.
-> - **D)** Incorreta. A locução prepositiva **"in spite of"** é sinônima exata de **"despite"** e exige sintagma nominal (*noun phrase*): *"In spite of the sudden network partition.."* seria plenamente correto.
-> - **E)** Incorreta. **"Although"** é uma conjunção e exige oração completa com verbo (*"write throughput temporarily stalled"*). Quem exige sintagma nominal é *despite* ou *in spite of*.
-> 
-> **Gabarito: B**
-
----
-
-### Teste 576
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-*Read the continuous delivery policy statement below:*
-
-> *"The automated deployment pipeline will not release the production artifact into the sovereign cloud cluster **unless** all static code analysis checks report zero critical vulnerabilities **and** the regression suite passes with 100% compliance."*
-
-No contexto da infraestrutura de CI/CD apresentada e da semântica dos conectivos na língua inglesa, a diretriz condicional regida pela conjunção **"unless"** expressa que o artefato só será publicado se:
-
-* **A)** Todos os testes estáticos reportarem zero vulnerabilidades críticas e os testes de regressão obtiverem 100% de conformidade.
-* **B)** Os testes estáticos acusarem vulnerabilidades críticas ou os testes de regressão falharem.
-* **C)** A equipe de auditoria dispensar formalmente a verificação de vulnerabilidades em virtude de prazos urgentes.
-* **D)** O cluster de nuvem registrar latência nula, independentemente do resultado dos analisadores estáticos.
-* **E)** O deploy ocorrer em ambiente de homologação (*staging*) desprovido de regras de integridade.
-
+* **A)** Nunca se deite irritado. Levante-se e lute.
+* **B)** Nada há tão difícil que, procurando -o, não possa ser 
+encontrado.
+* **C)** Considerando-se eles sábios, tornaram-se imbecis.
+* **D)** É instintivo da mente humana que aquilo que mais se proíbe 
+ao homem, mais ele deseja.
+* **E)** Os homens sábios não perdem tempo com insetos.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. A conjunção condicional **"unless"** equivale estritamente a **"if.. not"** (*a não ser que, a menos que, exceto se*). A frase estabelece: *"O pipeline não fará o release a não ser que (unless) A e B ocorram"*. Portanto, para que haja o release, é mandatório que **ambas** as condições (A e B) sejam plenamente satisfeitas.
-> - **B)** Incorreta. Se houver vulnerabilidades ou se os testes de regressão falharem, o pipeline **bloqueará** a implantação, exatamente o inverso da afirmativa.
-> - **C)** Incorreta. A regra é automatizada e não prevê dispensa por urgência no texto técnico.
-> - **D)** Incorreta. Não há menção a latência ou dispensa de analisadores estáticos.
-> - **E)** Incorreta. O texto restringe o envio para o cluster sovereign de produção.
-> 
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
 > **Gabarito: A**
 
 ---
+### Teste 576
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+The first sentence presents a
 
-### Teste 577
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na redação técnica em língua inglesa sobre infraestrutura distribuída e bancos de dados, o enunciado:
-
-> *"Engineers must balance the trade-off between strict consistency and high availability; **in spite of** the replication lag, the distributed database guarantees eventual consistency."*
-
-apresenta a expressão conectiva **"in spite of"**. Assinale a opção que indica a função sintático-semântica de **"in spite of"** e o termo que poderia substituí-la mantendo rigorosamente a correção gramatical e o sentido original:
-
-* **A)** Adição de argumentos; substituível por *"furthermore"*.
-* **B)** Concessão; substituível por *"despite"*.
-* **C)** Finalidade ou propósito; substituível por *"in order to"*.
-* **D)** Causa direta; substituível por *"due to"*.
-* **E)** Condição restritiva; substituível por *"as long as"*.
-
+* **A)** consent.
+* **B)** condition.
+* **C)** complaint.
+* **D)** comparison.
+* **E)** compliment.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Marcadores aditivos (*furthermore, moreover*) agregam novos elementos cumulativos. *"In spite of"* denota uma barreira que não foi suficiente para impedir o evento.
-> - **B)** Correta. A locução prepositiva **"in spite of"** (a despeito de, apesar de) possui valor semântico de **concessão**. As formas **"in spite of"** e **"despite"** são preposições seguidas diretamente por sintagmas nominais (*noun phrases*) ou gerúndios (*-ing*), atuando como equivalentes estritos (*despite the replication lag* = a despeito do atraso de replicação).
-> - **C)** Incorreta. Conectivos de finalidade (*in order to, so as to*) expressam propósito ou objetivo pretendido, exigindo verbos no infinitivo.
-> - **D)** Incorreta. *"Due to"* expressa causalidade primária (devido a, por causa de). Sua introdução distorceria o texto, afirmando que a consistência foi gerada pelo atraso de replicação, o que é um contrassenso.
-> - **E)** Incorreta. *"As long as"* expressa condição restritiva (desde que, contanto que), exigindo oração completa com sujeito e predicado.
-> 
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: D**
+
+---
+### Teste 577
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+Segundo o gramático Celso Cunha, os adjetivos mostram os 
+seguintes valores: uma qualidade, uma característica, um estado 
+ou uma relação.  
+Assinale a opção em que o adjetivo sublinhado é classificado como 
+adjetivo de estado.
+
+* **A)** Nunca se deite irritado. Levante-se e lute.
+* **B)** Nada há tão difícil que, procurando -o, não possa ser 
+encontrado.
+* **C)** Considerando-se eles sábios, tornaram-se imbecis.
+* **D)** É instintivo da mente humana que aquilo que mais se proíbe 
+ao homem, mais ele deseja.
+* **E)** Os homens sábios não perdem tempo com insetos.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: A**
+
+---
+### Teste 578
+**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**
+Considere as afirmativas abaixo sobre indexação. 
+
+ I. Entre os propósitos do uso de vocabulários contro-
+lados estão a tradução, a consistência e a indica-
+ção de relações. A tradução é um meio de conver-
+ter a linguagem natural em uma linguagem de 
+indexação. 
+
+ II. Na elaboração de vocabulários controlados, a for-
+ma verbal dos termos deve prevalecer em relação a 
+outras formas gramaticais como substantivos e 
+adjetivos. 
+
+ III. O processo de seleção de termos para a inclusão 
+em vocabulários controlados envolve a consulta a 
+uma série de fontes e critérios baseados na 
+linguagem natural usada pela literatura da área e 
+pelos usuários, bem como as necessidades e 
+prioridades do sistema. 
+
+ IV. Modificador é um termo usado em um vocabulário 
+controlado para distinguir homógrafos. 
+
+ V. Palavra-chave é uma palavra que ocorre na lingua-
+gem natural de um documento que é considerada 
+significativa para indexação e recuperação. 
+
+Está correto o que se afirma APENAS em
+
+* **A)** I, II e III.
+* **B)** I, III e V.
+* **C)** II, III e IV.
+* **D)** II, III e V.
+* **E)** III, IV e V. 
+_________________________________________________________
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
 > **Gabarito: B**
 
 ---
-
-### Teste 578
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-*Consider the analytical report below regarding multi-tenant cloud storage:*
-
-> *"Relational engines enforce strict schema validation; **whereas**, document databases store unstructured documents. **Due to** recent compliance audits, administrators had to verify that cryptographic logs were **tamper-proof**. **Furthermore**, the cloud provider agreed to **mitigate** all critical hypervisor flaws discovered during penetration testing."*
-
-A respeito das relações semânticas e do vocabulário técnico empregados no parágrafo, assinale a alternativa correta:
-
-* **A)** A conjunção **"whereas"** expressa uma relação de consequência, podendo ser substituída por *"hence"*.
-* **B)** A locução **"Due to"** expressa concessão e equivale semanticamente a *"in spite of"*.
-* **C)** O termo **"tamper-proof"** indica registros protegidos contra alterações ou adulterações não autorizadas.
-* **D)** O conectivo **"Furthermore"** introduz uma oposição direta à frase antecedente.
-* **E)** O verbo **"mitigate"** significa potencializar e agravar as vulnerabilidades do hipervisor para testes de estresse.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A conjunção **"whereas"** (ao passo que, enquanto que) estabelece **contraste direto e comparação em paralelo** entre dois modelos de banco de dados, e não consequência (*hence / therefore*).
-> - **B)** Incorreta. **"Due to"** (devido a, em razão de) introduz uma relação de **causa/motivo**, e não de concessão (*in spite of*).
-> - **C)** Correta. O adjetivo composto técnico **"tamper-proof"** (à prova de adulteração/violação) define registros, logs ou mídias cuja integridade é garantida criptograficamente, inviabilizando ou delatando qualquer alteração indevida.
-> - **D)** Incorreta. O conectivo **"Furthermore"** (além disso, ademais) expressa **adição cumulativa**, somando uma nova ação do provedor de nuvem, e não oposição adversativa.
-> - **E)** Incorreta. O verbo **"mitigate"** (mitigar, atenuar, reduzir a gravidade) significa implementar controles para abrandar os impactos das vulnerabilidades detectadas, e não agravá-las.
-> 
-> **Gabarito: C**
-
----
-
 ### Teste 579
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-*Consider the sentence extracted from a technical systems architecture evaluation:*
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+The first sentence presents a
 
-> *"The newly adopted microservices architecture offers superior horizontal scalability; **nevertheless**, it introduces substantial operational **overhead** and network latency. **Therefore**, the development team decided not to migrate the mission-critical core service **unless** rigorous benchmark metrics prove that throughput remains acceptable."*
-
-A respeito dos marcadores discursivos e do vocabulário técnico empregados no trecho, assinale a afirmação correta:
-
-* **A)** A palavra **"nevertheless"** estabelece uma relação semântica de causa e explicação, podendo ser substituída por *"because"* sem alterar o sentido do texto.
-* **B)** O termo **"overhead"** refere-se exclusivamente aos encargos financeiros de licenciamento cobrados pelo fornecedor do software de orquestração.
-* **C)** O conectivo **"Therefore"** expressa conclusão/consequência lógica e pode ser substituído, sem alteração substancial de significado, por *"Consequently"*.
-* **D)** A conjunção **"unless"** introduz uma concessão incondicional, com o mesmo valor sintático e semântico de *"although"*.
-* **E)** A oração iniciada por *"unless rigorous benchmark metrics prove.."* indica que o serviço central será migrado de imediato, independentemente dos testes de vazão.
-
+* **A)** consent.
+* **B)** condition.
+* **C)** complaint.
+* **D)** comparison.
+* **E)** compliment.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O conectivo **"Nevertheless"** (contudo, todavia, no entanto, não obstante) é um marcador discursivo coordenativo de **contraste/adversidade**. Ele pontua uma ressalva ou restrição à proposição anterior, e não uma relação explicativa de causa (*because*).
-> - **B)** Incorreta. Em arquitetura de sistemas e computação distribuída, o vocábulo **"overhead"** exprime a sobrecarga operacional computacional de processamento, consumo adicional de memória/CPU ou comunicações de rede para coordenação. Não denota despesas financeiras ou royalties.
-> - **C)** Correta. O conectivo **"Therefore"** (portanto, logo, por conseguinte) estabelece uma dedução lógica de **consequência/conclusão**. Possui equivalência perfeita de sentido com **"Consequently"**, **"Thus"** e **"Hence"**.
-> - **D)** Incorreta. A conjunção **"unless"** expressa uma **condição negativa** (*a menos que*, *a não ser que*, equivalente lógico a *if.. not*), e não uma oração concessiva (*although*).
-> - **E)** Incorreta. O trecho assevera o oposto: a equipe deliberou **NÃO migrar** o serviço de missão crítica a não ser que testes rigorosos de benchmark comprovem que a vazão (*throughput*) permaneça satisfatória. A migração está explicitamente condicionada ao sucesso métrico.
-> 
-> **Gabarito: C**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: D**
 
 ---
-
 ## 2. Morfologia e Formação de Palavras Técnicas (Word Formation)
 
 A morfologia vocabular em língua inglesa fornece as ferramentas analíticas para decodificar neologismos, jargões técnicos e famílias de palavras sem a necessidade de memorização isolada.
@@ -371,78 +381,57 @@ flowchart RL
 ---
 
 ### Teste 580
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-*Analyze the technical sentence below regarding cloud computing architecture:*
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+Segundo o gramático Celso Cunha, os adjetivos mostram os 
+seguintes valores: uma qualidade, uma característica, um estado 
+ou uma relação.  
+Assinale a opção em que o adjetivo sublinhado é classificado como 
+adjetivo de estado.
 
-> *"The architectural **maintainability** and **scalability** of cloud-native microservices ensure that distributed workloads degrade **gracefully** during unexpected traffic bursts."*
-
-Em relação à morfologia das palavras em destaque e seus sufixos na língua inglesa, assinale a afirmativa correta:
-
-* **A)** Os vocábulos **"maintainability"** e **"scalability"** são substantivos abstratos derivados de adjetivos com sufixo *-able* acrescidos do sufixo nominalizador *-ity*.
-* **B)** A terminação *-ly* em **"gracefully"** caracteriza um adjetivo descritivo invariável que qualifica o substantivo *workloads*.
-* **C)** O sufixo *-ity* transforma substantivos em verbos no infinitivo.
-* **D)** As palavras *maintainability* e *scalability* funcionam sintaticamente como advérbios de modo que indicam tempo de resposta.
-* **E)** A terminação *-able* presente na raiz das palavras traduz uma impossibilidade ou veto técnico categórico.
-
+* **A)** Nunca se deite irritado. Levante-se e lute.
+* **B)** Nada há tão difícil que, procurando -o, não possa ser 
+encontrado.
+* **C)** Considerando-se eles sábios, tornaram-se imbecis.
+* **D)** É instintivo da mente humana que aquilo que mais se proíbe 
+ao homem, mais ele deseja.
+* **E)** Os homens sábios não perdem tempo com insetos.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. O processo de formação é claro: *maintain* (verbo) $
-ightarrow$ *maintainable* (adjetivo) $
-ightarrow$ *maintainability* (substantivo que expressa qualidade/capacidade); e *scale* (verbo) $
-ightarrow$ *scalable* (adjetivo) $
-ightarrow$ *scalability* (substantivo). O sufixo derivacional **-ity** forma **substantivos abstratos** indicando condição, estado ou propriedade técnica.
-> - **B)** Incorreta. O sufixo **-ly** em *gracefully* forma um **advérbio de modo** (*de forma graciosa / suavemente / sem colapsar*), que modifica o verbo *degrade*, e não um adjetivo.
-> - **C)** Incorreta. O sufixo *-ity* forma substantivos, nunca verbos.
-> - **D)** Incorreta. *Maintainability* e *scalability* são substantivos nucleares do sujeito oracional, e não advérbios.
-> - **E)** Incorreta. O sufixo *-able / -ible* denota capacidade, passibilidade ou viabilidade técnica (passível de manutenção, passível de escalabilidade).
-> 
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
 > **Gabarito: A**
 
 ---
-
 ### Teste 581
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-*Read the excerpt from an infrastructure deployment manual:*
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+The first sentence presents a
 
-> *"To guarantee zero downtime during datacenter updates, our team configured a **fault-tolerant high-availability cluster provisioning system**. The infrastructure operates **seamlessly** across two distinct availability zones, ensuring that failover occurs automatically without dropping active user sessions."*
-
-Com base nas regras de formação de palavras, morfologia e substantivos compostos da língua inglesa, analise os itens:
-
-I. No composto *"fault-tolerant high-availability cluster provisioning system"*, a palavra principal (*head noun*) é *"system"*, e todos os termos precedentes funcionam como modificadores adjetivos.  
-
-II. O vocábulo *"seamlessly"* é um advérbio formado pelo acréscimo do sufixo *-ly* ao adjetivo *"seamless"*, significando de forma integrada, fluida e sem interrupções visíveis.  
-
-III. O termo *"failover"* indica uma falha catastrófica definitiva que exige o desligamento manual de toda a rede elétrica da organização.  
-
-Está correto o que se afirma em:
-
-* **A)** I e II, apenas.
-* **B)** I e III, apenas.
-* **C)** II e III, apenas.
-* **D)** III, apenas.
-* **E)** I, II e III.
-
+* **A)** consent.
+* **B)** condition.
+* **C)** complaint.
+* **D)** comparison.
+* **E)** compliment.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Apenas as proposições I e II estão alinhadas com a gramática instrumental e os conceitos de TI:
->     - **I (Verdadeiro):** Pela regra dos *Noun Adjuncts*, a última palavra da cadeia é o núcleo substantivo (*system*). Lendo da direita para a esquerda: *sistema de provisionamento de cluster de alta disponibilidade tolerante a falhas*.
->     - **II (Verdadeiro):** O radical *seam* (costura) recebe o sufixo privativo *-less* (sem costura/sem emendas), gerando o adjetivo *seamless*. Com o acréscimo do sufixo adverbial *-ly*, forma-se *seamlessly* (perfeitamente, sem interrupção perceptível, fluidamente).
->     - **III (Falso):** O termo técnico **"failover"** designa a comutação automática e transparente de um recurso defeituoso para um nó redundante funcional, preservando a continuidade operacional, e não um desligamento manual.
-> - **B)** Incorreta. O item III é falso.
-> - **C)** Incorreta. O item I é verdadeiro e o III é falso.
-> - **D)** Incorreta. O item III é falso.
-> - **E)** Incorreta. O item III é incorreto.
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: D**
 
 ---
-
 ## 3. Glossário Técnico Essencial por Domínio de TI
 
 ### 3.1 Arquitetura e Engenharia de Software
@@ -486,92 +475,86 @@ Está correto o que se afirma em:
 ---
 
 ### Teste 582
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-*Read the architectural review summary below:*
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+Segundo o gramático Celso Cunha, os adjetivos mostram os 
+seguintes valores: uma qualidade, uma característica, um estado 
+ou uma relação.  
+Assinale a opção em que o adjetivo sublinhado é classificado como 
+adjetivo de estado.
 
-> *"The audit team observed excessive **boilerplate** code across the data access layer, coupled with high **coupling** and low **cohesion** between payment services. To resolve this technical debt, the lead architect proposed continuous **refactoring**, acknowledging the inevitable **trade-off** between immediate delivery speed and long-term maintainability."*
-
-Com base na terminologia técnica consagrada na engenharia de software e no texto acima:
-
-* **A)** O termo **"refactoring"** designa a reescrita de código com a finalidade exclusiva de alterar as saídas e regras de negócio externas observáveis pelos usuários.
-* **B)** A expressão **"trade-off"** refere-se a uma decisão de engenharia na qual a obtenção de uma vantagem técnica implica forçosamente abrir mão de outro benefício ou aceitar um custo correlato.
-* **C)** O conceito de **"boilerplate"** define módulos de software altamente customizados e exclusivos que encerram algoritmos confidenciais de negócio.
-* **D)** O estado de **"high coupling"** (alto acoplamento) constitui a melhor prática arquitetural recomendada, pois assegura que módulos dependam criticamente uns dos outros para operar.
-* **E)** O vocábulo **"cohesion"** (coesão) indica a quantidade de pacotes de dados perdidos em uma transmissão de rede local.
-
+* **A)** Nunca se deite irritado. Levante-se e lute.
+* **B)** Nada há tão difícil que, procurando -o, não possa ser 
+encontrado.
+* **C)** Considerando-se eles sábios, tornaram-se imbecis.
+* **D)** É instintivo da mente humana que aquilo que mais se proíbe 
+ao homem, mais ele deseja.
+* **E)** Os homens sábios não perdem tempo com insetos.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O termo **"refactoring"** (refatoração) consiste na melhoria da estrutura interna do código fonte **sem alterar seu comportamento observável externo**. Se o comportamento externo é alterado, não é refatoração pura, mas redesign ou nova feature.
-> - **B)** Correta. Na literatura técnica e em provas de concurso, **"trade-off"** define a relação de compromisso ou concessão mútua: escolher uma abordagem arquitetural vantajosa em determinado aspecto (ex.: velocidade de entrega) acarretando desvantagens em outro (ex.: manutenibilidade).
-> - **C)** Incorreta. **"Boilerplate"** refere-se a código repetitivo, verboso e padronizado necessário para suporte ou configuração, desprovido de valor específico de negócio.
-> - **D)** Incorreta. A regra áurea de design arquitetural prega **baixo acoplamento** (*low coupling*) e **alta coesão** (*high cohesion*). Alto acoplamento gera dependências frágeis e propagação de falhas em cascata.
-> - **E)** Incorreta. **"Cohesion"** (coesão) mede o grau de afinidade e foco das responsabilidades de uma classe ou módulo (responsabilidade única), nada tendo a ver com perda de pacotes de rede.
-> 
-> **Gabarito: B**
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: A**
 
 ---
-
 ### Teste 583
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-*Carefully read the technical paragraph below regarding concurrent programming:*
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+The first sentence presents a
 
-> *"When multiple threads concurrently access shared memory without proper synchronization, a hazardous **race condition** may emerge. If two threads enter a circular dependency while competing for exclusive locks, the operating system enters a permanent **deadlock**. To avoid these anomalies, developers can employ immutable data structures, **provided that** the garbage collector can efficiently recycle discarded instances **without** triggering disruptive latency spikes."*
-
-Com base no texto técnico e nas regras gramaticais da língua inglesa, assinale a afirmação correta:
-
-* **A)** A expressão **"race condition"** designa uma rotina otimizada de alta performance em que threads disputam para finalizar tarefas mais rapidamente sem qualquer risco de erro.
-* **B)** O estado denominado **"deadlock"** ocorre quando todas as threads liberam seus locks simultaneamente, acelerando o processamento do banco.
-* **C)** A locução conjuntiva **"provided that"** estabelece uma relação semântica de condição (contanto que / desde que).
-* **D)** No trecho *"without triggering disruptive latency spikes"*, a palavra *"without"* introduz uma finalidade deliberada de elevar a latência.
-* **E)** O termo **"immutable"** é um adjetivo que caracteriza dados que podem ser modificados livremente por qualquer thread concorrente sem restrições.
-
+* **A)** consent.
+* **B)** condition.
+* **C)** complaint.
+* **D)** comparison.
+* **E)** compliment.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O termo **"race condition"** (condição de corrida) não é uma técnica de otimização, mas sim um bug grave de concorrência em que operações simultâneas sobre memória compartilhada levam a inconsistências e perda de dados.
-> - **B)** Incorreta. O termo **"deadlock"** (impasse / travamento mútuo) define o cenário patológico em que duas ou mais threads ficam paralisadas de forma indeterminada aguardando recursos mutuamente retidos, travando o sistema.
-> - **C)** Correta. A locução **"provided that"** (contanto que, desde que) introduz uma **oração subordinada condicional restritiva**, condicionando a adoção de estruturas imutáveis à eficiência do coletor de lixo.
-> - **D)** Incorreta. A preposição privativa **"without"** (sem) denota exclusão/ausência circunstancial (*sem desencadear picos de latência*), e não finalidade ou objetivo intencional.
-> - **E)** Incorreta. Pelo prefixo negativo *im-*, o adjetivo **"immutable"** (imutável) qualifica dados que **NUNCA** podem ser modificados após sua instanciação, conferindo-lhes segurança intrínseca para concorrência (*thread safety*).
-> 
-> **Gabarito: C**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: D**
 
 ---
-
 ### Teste 584
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-*Read the cybersecurity incident report excerpt below:*
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+Segundo o gramático Celso Cunha, os adjetivos mostram os 
+seguintes valores: uma qualidade, uma característica, um estado 
+ou uma relação.  
+Assinale a opção em que o adjetivo sublinhado é classificado como 
+adjetivo de estado.
 
-> *"During the external penetration test, the adversary attempted to bypass perimeter firewalls via **IP spoofing** and gain administrative access through targeted **phishing**. However, cryptographic **tamper-proof** event logs maintained on an immutable write-once store allowed forensic auditors to establish **non-repudiation** and swiftly execute threat **mitigation** procedures."*
-
-No âmbito da segurança da informação e auditoria de sistemas, a correta interpretação dos termos destacados indica que:
-
-* **A)** **"IP spoofing"** consiste na criptografia legítima do endereço IP de origem para acelerar o roteamento de pacotes prioritários.
-* **B)** Registros descritos como **"tamper-proof"** são trilhas de auditoria dotadas de salvaguardas que impedem ou evidenciam qualquer adulteração ou manipulação não autorizada de dados.
-* **C)** O princípio de **"non-repudiation"** (não repúdio) confere ao autor da ação a faculdade técnica de negar a autoria de qualquer transação efetuada no sistema.
-* **D)** O termo **"mitigation"** descreve a intensificação intencional de vulnerabilidades operacionais em servidores expostos na internet.
-* **E)** **"Phishing"** caracteriza a exclusão definitiva de logs de eventos mediante ataques de inundação de pacotes syn-flood.
-
+* **A)** Nunca se deite irritado. Levante-se e lute.
+* **B)** Nada há tão difícil que, procurando -o, não possa ser 
+encontrado.
+* **C)** Considerando-se eles sábios, tornaram-se imbecis.
+* **D)** É instintivo da mente humana que aquilo que mais se proíbe 
+ao homem, mais ele deseja.
+* **E)** Os homens sábios não perdem tempo com insetos.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. **"IP spoofing"** (falsificação/mascaramento de IP) é uma técnica de ataque em que o invasor forja o cabeçalho IP para se passar por um endereço de confiança.
-> - **B)** Correta. A expressão **"tamper-proof"** (à prova de adulteração) qualifica repositórios, trilhas ou mecanismos criptográficos imutáveis (como WORM - *Write Once, Read Many*) projetados para impossibilitar a modificação ou exclusão de registros de auditoria por usuários maliciosos ou comprometidos.
-> - **C)** Incorreta. O princípio de **"non-repudiation"** (não repúdio ou irrefutabilidade) **garante a impossibilidade de negar** a autoria ou integridade da transação realizada.
-> - **D)** Incorreta. **"Mitigation"** (mitigação) consiste na redução, contenção e controle de riscos ou danos decorrentes de vulnerabilidades ou incidentes.
-> - **E)** Incorreta. **"Phishing"** é técnica de engenharia social voltada a induzir usuários a fornecer senhas e dados confidenciais, não exclusão de logs.
-> 
-> **Gabarito: B**
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: A**
 
 ---
-
 ## 6. Fontes Recomendadas na Internet
 
 * [IETF RFC 2119 - Requirement Levels Vocabulary](https://datatracker.ietf.org/doc/html/rfc2119) - Especificação padrão do vocabulário mandatório e condicional em especificações internacionais de tecnologia.

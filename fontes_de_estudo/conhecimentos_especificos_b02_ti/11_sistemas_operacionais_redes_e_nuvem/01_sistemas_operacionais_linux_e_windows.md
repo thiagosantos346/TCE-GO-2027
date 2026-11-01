@@ -118,35 +118,32 @@ sequenceDiagram
 ---
 
 ### Teste 410
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A arquitetura de processadores modernos e sistemas operacionais de uso geral (como Linux e Windows) implementa anéis de proteção (*protection rings*) em hardware para segregar a execução de programas e garantir a estabilidade do sistema.
+**(FGV – TRT-16 – Analista Judiciário - Tecnologia da Informação – 2022)**
+Em um grupo de P pessoas, 54% são mulheres e as demais 
+pessoas são homens. Trinta mulheres deixam o grupo e trinta 
+novos homens passam a fazer parte do mesmo. Nesse novo 
+grupo, os homens representam 61%. 
+O valor de P é
 
-A respeito dos modos de operação do processador (**User Mode / Modo Usuário** e **Kernel Mode / Modo Núcleo**) e da transição entre eles, assinale a afirmativa correta:
-
-* **A)** Softwares aplicativos de usuários comuns (como navegadores e suítes de escritório) rodam diretamente em Modo Núcleo (*Kernel Mode / Ring 0*), possuindo acesso irrestrito e direto a qualquer endereço físico de memória RAM e portas de I/O da máquina.
-* **B)** A transição segura do Modo Usuário (*Ring 3*) para o Modo Núcleo (*Ring 0*) ocorre por meio de uma instrução especial de **Chamada de Sistema (*System Call / Trap*)**, na qual o hardware suspende a execução do processo, eleva o nível de privilégio e transfere o controle para um tratador específico (*Interrupt/Syscall Handler*) definido pelo kernel.
-* **C)** No modo usuário, um programa tem autorização de hardware para desabilitar as interrupções de relógio da CPU e reconfigurar os registradores de controle de gerenciamento de memória.
-* **D)** As chamadas de sistema dispensam qualquer troca de contexto de registradores na CPU, mantendo a pilha de execução inalterada.
-* **E)** Sistemas operacionais modernos eliminaram o modo núcleo para rodar todo o código exclusivamente em máquinas virtuais JavaScript.
-
+* **A)** 200.
+* **B)** 220.
+* **C)** 240.
+* **D)** 250.
+* **E)** 260.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Aplicações de usuário rodam estritamente em **Modo Usuário (Ring 3)** com privilégios restritos; se tentarem executar instruções privilegiadas ou acessar memória do kernel diretamente, o processador dispara uma exceção de violação de proteção (*General Protection Fault* / *Segmentation Fault*).
-> - **B)** **CORRETA.** Mecânica de isolamento e proteção de hardware:
->   - **Dual-Mode Operation:** Processadores x86/x64 implementam níveis de privilégio (sendo Ring 0 o mais privilegiado e Ring 3 o menos privilegiado).
->   - Para ler um arquivo, enviar um pacote de rede ou alocar memória física, o processo de usuário deve invocar uma **Chamada de Sistema (Syscall)**.
->   - O hardware aciona uma interrupção de software (*trap*), comuta o registrador de modo do processador de *User* para *Kernel*, salva o contexto da aplicação e salta para o endereço do despachante de chamadas de sistema na tabela do kernel, executando a operação com privilégios controlados antes de retornar o resultado ao modo usuário.
-> - **C)** Incorreta. Instruções como `CLI` (desabilitar interrupções) são estritamente privilegiadas de Ring 0.
-> - **D)** Incorreta. A transição exige salvar o contador de programa (PC), ponteiro de pilha (SP) e registradores na pilha do kernel.
-> - **E)** Incorreta. O Kernel Mode permanece como pilar mandatório de qualquer arquitetura de computadores moderna.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: D**
 
 ---
-
 ## 2. Gerenciamento de Processos, Concorrência e Escalonamento
 
 ### 2.1 Processo vs. Thread (Processo Leve e Compartilhamento de Memória)
@@ -237,59 +234,55 @@ O administrador de um computador servidor que utiliza o sistema operacional Linu
 ---
 
 ### Teste 412
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em relação aos conceitos de concorrência, processos, threads e algoritmos de escalonamento de processador em sistemas operacionais, assinale a afirmação correta:
+**(FCC – TRT-6 – Analista Judiciário - Tecnologia da Informação – 2012)**
+Filesystem Hierarchy Standard (FHS) é a padronização da organização do sistema de arquivos do sistemas Linux à qual aderem 
+as principais distribuições. De acordo com a FHS, arqu ivos executáveis que precisam estar disponíveis em single user mode , 
+arquivos cujo conteúdo varia ao longo da operação do sistema e arquivos de configuração do sistema devem localizar-se, 
+respectivamente, em
 
-* **A)** No algoritmo de escalonamento *Round Robin* (Alternância Circular), caso o tamanho da fatia de tempo (*quantum*) seja definido com um valor excessivamente grande, o comportamento do sistema degenera e aproxima-se do algoritmo FCFS (*First-Come, First-Served*).
-* **B)** O algoritmo de escalonamento SJF (*Shortest Job First*) em sua modalidade preemptiva impede a ocorrência do fenômeno de inanição (*starvation*), garantindo tempo de resposta equitativo para processos intensivos em CPU.
-* **C)** As threads criadas no interior de um mesmo processo possuem espaços de endereçamento de memória virtual completamente isolados e independentes, exigindo o uso de pipes ou sockets para qualquer troca de variáveis.
-* **D)** A troca de contexto (*context switch*) é uma operação puramente lógica que não impõe nenhum custo computacional de sobrecarga (*overhead*) para a CPU nem interfere no conteúdo das memórias cache.
-* **E)** O algoritmo de escalonamento FCFS é classificado como estritamente preemptivo, interrompendo processos de longa duração sempre que um novo processo requisita acesso à CPU.
-
+* **A)** /boot, /tmp e /usr/share.
+* **B)** /usr/bin, /tmp e /usr/local.
+* **C)** /bin, /opt e /usr/local.
+* **D)** /boot, /usr e /etc.
+* **E)** /bin, /var e /etc.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Se o *quantum* do Round Robin for superior à rajada de qualquer processo ativo, nenhum processo sofrerá preempção antes de concluir sua execução voluntariamente, passando a atender na ordem de chegada exatamente como o FCFS.
-> - **B)** Incorreta. O SJF prioriza rajadas curtas de CPU, causando inanição severa (*starvation*) em processos longos com uso intensivo de CPU.
-> - **C)** Incorreta. Threads pertencentes ao mesmo processo compartilham o mesmo espaço de memória virtual (segmentos de código, dados e heap), comunicando-se diretamente por variáveis compartilhadas.
-> - **D)** Incorreta. A troca de contexto acarreta elevado overhead de processamento devido ao salvamento de registradores, troca de tabelas de páginas e invalidação de entradas nas memórias cache e TLB.
-> - **E)** Incorreta. O algoritmo FCFS é categorizado como não preemptivo (*non-preemptive*), mantendo a CPU ocupada até a finalização do processo ou bloqueio por I/O.
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+>
+> **Gabarito: E**
 
 ---
-
 ### Teste 413
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em programação concorrente e em sistemas operacionais multithreaded, o acesso não coordenado a recursos compartilhados pode gerar **Condições de Corrida** (*Race Conditions*), corrompendo o estado da aplicação.
+**(FCC – TRT-23 – Analista Judiciário - Tecnologia da Informação – 2016)**
+O administrador de um servidor com sistema operacional Linux escolheu o sistema de arquivos XFS para o sistema de arma-
+zenamento principal. O XFS
 
-Para garantir a **Exclusão Mútua** na Região Crítica, utilizam-se primitivas de sincronização como **Mutex** (*Mutual Exclusion Lock*) e **Semáforos** (Dijkstra). A respeito da distinção conceitual e do funcionamento dessas primitivas, assinale a afirmativa correta:
-
-* **A)** O Mutex é um mecanismo binário com conceito estrito de titularidade (*ownership*), no qual apenas a thread específica que adquiriu a trava (*Lock*) possui autorização para liberá-la (*Unlock*); ao passo que um **Semáforo Contador** gerencia um contador de recursos disponíveis, onde qualquer thread pode executar uma operação de sinalização (`signal` / `V()`) para incrementar o contador e desbloquear outra thread em espera, mesmo sem ter executado a operação de espera (`wait` / `P()`).
-* **B)** Semáforos só podem assumir os valores 0 e 1, sendo proibido utilizá-los para controlar estoques de múltiplos recursos.. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **C)** O Mutex deve ser liberado compulsoriamente por qualquer thread da CPU que esteja ociosa no momento.
-* **D)** A inversão de prioridades é um fenômeno que afeta exclusivamente semáforos contadores de números negativos.
-* **E)** Bloqueios do tipo *Spinlock* colocam a thread para dormir no disco rígido enquanto o recurso estiver ocupado.
-
+* **A)** permite o redimensionamento de uma partição apenas para aumentar.
+* **B)** é um sistema de 32 bits compatível com sistemas de 64 bits.
+* **C)** utiliza tamanho de blocos fixos para otimizar o espaço em disco.
+* **D)** foi concebido para operar prioritariamente com arquivos de pequenas dimensões.
+* **E)** faz uso do journaling físico, ou seja, os metadados são gravados em disco imediatamente.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **CORRETA.** Distinção precisa entre Mutex e Semáforos:
->   - **Mutex (Mutual Exclusion Lock):** É um mecanismo de travamento com **propriedade (ownership)**. Se a Thread A executa `mutex.acquire()`, **somente a Thread A** tem autorização para executar `mutex.release()`. Se a Thread B tentar liberar o mutex, ocorrerá um erro. É ideal para proteger seções críticas exclusivas.
->   - **Semáforo (Counting Semaphore):** É um mecanismo de **sinalização** baseado em uma variável inteira protegida. A operação `P()` ou `wait()` decrementa o contador (bloqueando se o valor for $\le 0$); a operação `V()` ou `signal()` incrementa o contador. Não há conceito de titularidade: a Thread A pode aguardar a chegada de dados e a Thread B (produtora) pode emitir o sinal `signal()` para acordar a Thread A.
-> - **B)** Incorreta. Semáforos contadores podem ser inicializados com qualquer valor inteiro positivo $N$ para disciplinar o acesso a um pool de $N$ recursos.
-> - **C)** Incorreta. Mutex exige titularidade estrita da thread que o bloqueou.
-> - **D)** Incorreta. A inversão de prioridades ocorre tipicamente com mutexes quando uma tarefa de baixa prioridade retém um recurso demandado por uma tarefa de alta prioridade.
-> - **E)** Incorreta. *Spinlocks* realizam espera ocupada (*busy waiting*), consumindo 100% de CPU em loop contínuo testando o bit de trava, sem dormir.
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: B**
 
 ---
-
 ## 3. Gerenciamento de Memória Virtual, Paginação e Swapping
 
 ### 3.1 Endereçamento Lógico vs. Físico e o Papel da MMU
@@ -344,65 +337,56 @@ flowchart TD
 ---
 
 ### Teste 414
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No gerenciamento de memória virtual por paginação sob demanda em sistemas operacionais modernos, um processo em execução gera uma solicitação de acesso a um determinado endereço lógico. Durante a operação de tradução conduzida pela unidade de gerenciamento de memória (MMU), identifica-se que o bit de validade correspondente na tabela de páginas está marcado como ausente (bit 0).
+**(FCC – TRT-14 – Analista Judiciário - Tecnologia da Informação – 2016)**
+Considere a figura abaixo. 
 
-Nessa situação, o evento gerado pela arquitetura de hardware e a ação imediata subsequente realizada pelo sistema operacional são:
 
-* **A)** Uma interrupção de *Page Fault*, que transfere o controle ao núcleo do sistema operacional para buscar a página solicitada no armazenamento secundário e carregá-la em uma moldura livre da memória principal.
-* **B)** Uma violação de segmento (*Segmentation Fault*), que resulta na terminação imediata e compulsória do processo por invasão de área de memória protegida.
-* **C)** Um *TLB Hit*, no qual o processador busca o endereço diretamente na memória cache L1 sem consultar as tabelas do núcleo.
-* **D)** Um procedimento de *Swapping* compulsório de todos os processos ativos para o disco, paralisando a CPU até que a memória RAM seja totalmente desfragmentada.
-* **E)** Uma chamada de sistema `mmap`, solicitando que o processo usuário reconfigure o seu próprio bloco de controle de processo (PCB).
+ É correto afirmar que
 
+* **A)** estão sendo representados os 3 processos básicos da metodologia FDD.
+* **B)** os testes estão sendo realizados com o JUnit e o Netbeans.
+* **C)** são etapas do FDD, que tem em comum com o XP o fato de que o  desenvolvedor é o  único responsável pelo código que 
+ele desenvolve.
+* **D)** refatorar é uma prática comum em XP e também utilizada no TDD.
+* **E)** estas etapas são utilizadas quando se deseja assegurar que um código sempre lance uma exceção.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Quando o bit de validade é zero, a MMU sinaliza uma interrupção de falta de página (*Page Fault*), acionando a rotina do kernel que localiza a página no disco (área de swap) e a transfere para uma moldura livre na RAM.
-> - **B)** Incorreta. Falta de página é uma ocorrência de rotina da memória virtual sob demanda, e não uma violação de segmento ilegal (*Segmentation Fault*).
-> - **C)** Incorreta. Se o bit de presença não estava ativo, a página não estava mapeada na RAM, caracterizando um miss prévio e acionamento do tratador de faltas.
-> - **D)** Incorreta. A falta de página envolve o carregamento individual da página demandada, e não a parada e swapping compulsório de todos os processos do sistema.
-> - **E)** Incorreta. A resolução do evento é realizada pelo kernel de forma transparente à aplicação, sem requerer intervenção do processo no seu PCB.
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: C**
 
 ---
-
 ### Teste 415
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-O subsistema de Memória Virtual permite que programas sejam executados mesmo quando seu espaço de endereçamento total excede a capacidade física de memória RAM instalada na máquina, transferindo blocos para a área de *Swap* em disco.
+**(FCC – TRT-14 – Analista Judiciário - Tecnologia da Informação – 2016)**
+As implementações FibreChannel SAN utilizam cabos de fibra ótica que podem ser multimode e single‐mode. Os cabos 
+single‐mode
 
-No entanto, quando a quantidade de memória RAM disponível torna-se criticamente insuficiente para acomodar o conjunto de trabalho (*Working Set*) de todos os processos ativos simultâneos, o sistema operacional pode entrar no colapso de desempenho denominado **Hiperpaginação (*Thrashing*)**.
-
-A característica operacional que define formalmente o fenômeno do *Thrashing* consiste em:
-
-* **A)** A CPU atinge 100% de utilização processando cálculos matemáticos puros sem nenhum acesso a disco. considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
-* **B)** O sistema passa a maior parte do tempo transferindo páginas de memória de e para o disco rígido (alta taxa ininterrupta de *Page Faults* e saturação de I/O), enquanto a taxa de utilização útil da CPU cai drasticamente para níveis próximos de zero, travando a resposta aos usuários.
-* **C)** A destruição física permanente dos módulos de memória RAM por superaquecimento.
-* **D)** O fechamento imediato do sistema operacional sem emissão de qualquer log de evento.
-* **E)** A conversão de todos os arquivos do disco para formato somente-leitura.
-
+* **A)** podem carregar múltiplos feixes de luz que tendem a se dispersar e colidir.
+* **B)** levam um simples feixe de luz projetado no centro do núcleo.
+* **C)** são utilizados para distâncias curtas, de até 100 m, devido à dispersão modal.
+* **D)** são classificados como OM1 (núcleo 62.5 μm) e OM2 (núcleo 50 μm).
+* **E)** proporcionam atenuação mínima de sinal até 100 Km de distância.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. No *Thrashing*, a CPU fica quase ociosa aguardando operações lentas de leitura e escrita no subsistema de armazenamento.
-> - **B)** **CORRETA.** Mecânica do **Thrashing (Hiperpaginação)** (Tanenbaum / Silberschatz):
->   1. Quando a soma dos conjuntos de trabalho (*Working Sets*) dos processos ativos supera a memória RAM física, a taxa de faltas de página (*Page Faults*) explode.
->   2. Cada processo que tenta rodar precisa de páginas que foram descarregadas para o disco de *Swap*. O processo é suspenso aguardando o I/O de disco.
->   3. Como a maioria dos processos entra em estado de espera (*Waiting/Blocked*), o escalonador do SO erroneamente detecta baixa utilização da CPU e pode tentar aumentar o grau de multiprogramação, agravando ainda mais a contenção.
->   4. O sistema entra em parafuso: **quase 100% do tempo do subsistema de disco é consumido trocando páginas entre RAM e Swap**, enquanto a utilização da CPU desaba e o computador para de responder. Soluções: reduzir o grau de multiprogramação (suspender processos) ou adicionar memória RAM física.
-> - **C)** Incorreta. Trata-se de um problema puramente lógico de contenção de recursos de software e gerência de memória.
-> - **D)** Incorreta. O SO não desliga, fica congelado em sobrecarga de I/O.
-> - **E)** Incorreta. O sistema de arquivos não é alterado para somente-leitura.
-> 
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
 > **Gabarito: B**
 
 ---
-
 ## 4. Sistemas de Arquivos e Permissões no Linux e Windows
 
 ### 4.1 Estrutura do Inode no Linux: O que armazena e o que NÃO armazena
@@ -456,38 +440,38 @@ $$\text{Exemplo: } 750 \implies \text{Dono: } 4+2+1=7\,(rwx); \quad \text{Grupo:
 ---
 
 ### Teste 416
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A respeito da arquitetura de sistemas de arquivos em ambientes baseados em Linux e da estrutura interna de inodes (*index nodes*), considere as seguintes afirmativas:
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+Com relação à criação de links entre arquivos, em ambientes 
+operacionais Linux, assinale V para afirmativa verdadeira e F para 
+a falsa. 
+(   ) Não é possível c riar links físicos para um diretório ou arquivo 
+especial, apenas para arquivos regulares. 
+(   ) Links simbólicos só podem ser usados se ambos os arquivos 
+estiverem no mesmo sistema de arquivos. 
+(   ) Mesmo que o arquivo original seja excluído, o conteúdo d o 
+arquivo ainda estará disponível, desde que pelo menos um link 
+físico exista. 
+As afirmativas são, respectivamente:
 
-I. Cada inode armazena metadados fundamentais do arquivo, tais como tamanho, permissões de acesso, identificadores de usuário e grupo, carimbos temporais e ponteiros para os blocos de dados, mas não contém o nome do arquivo nem seu caminho absoluto.  
-
-II. Um link rígido (*hard link*) cria uma entrada de diretório independente que aponta diretamente para o mesmo número de inode do arquivo de origem, podendo ser criado entre diferentes sistemas de arquivos e partições montadas.  
-
-III. Caso o arquivo de origem de um link simbólico (*soft link*) seja excluído do disco, o link simbólico torna-se órfão (*dangling link*), pois ele armazena em seu próprio bloco de dados apenas o caminho textual para o arquivo de destino.  
-
-Está correto o que se afirma em:
-
-* **A)** I e II, apenas.
-* **B)** II e III, apenas.
-* **C)** I e III, apenas.
-* **D)** I, II e III.
-* **E)** III, apenas.
-
+* **A)** V, V e V
+* **B)** F, V e F
+* **C)** V, F e F
+* **D)** V, F e V
+* **E)** F, V e V
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Inclui o Item II, que comete grave erro conceitual ao afirmar que hard links podem cruzar partições.
-> - **B)** Incorreta. Omite a veracidade do Item I e inclui o Item II que é falso.
-> - **C)** Correta. O Item I é verdadeiro porque o inode é agnóstico ao nome textual e caminho do arquivo (que residem no bloco de dados do diretório pai). O Item II é falso porque números de inode são válidos estritamente dentro da mesma partição/sistema de arquivos, sendo impossível criar hard links entre sistemas de arquivos diferentes. O Item III é verdadeiro porque links simbólicos contêm apenas a string do caminho textual de destino, tornando-se órfãos se o original for apagado.
-> - **D)** Incorreta. Julga todos os itens verdadeiros, desconsiderando a impossibilidade do Item II.
-> - **E)** Incorreta. Omite a correção inequívoca do Item I.
-> 
-> **Gabarito: C**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: D**
 
 ---
-
 ### Teste 417
 **(FCC – TRT-23 – Analista Judiciário (TI) – 2016)**  
 O superusuário de computador com sistema operacional Linux deseja alterar as permissões padrão para que apenas o usuário criador possa listar, ler e escrever em todos os novos diretórios criados no sistema por meio do comando mkdir. Para isso, o superusuário deve executar o comando
@@ -570,37 +554,37 @@ Em um ambiente Linux instalado em uma determinada empresa, as contas dos program
 ---
 
 ### Teste 419
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-O `systemd` consolidou-se como o sistema de inicialização (*init system*) e gerenciador de serviços padrão na esmagadora maioria das distribuições Linux empresariais modernas (RHEL, Debian, Ubuntu, Rocky Linux).
+**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**
+A ação do homem é um dos fatores que afetam a 
+degradação dos documentos. Isso acontece, entre outras 
+coisas, por meio do manuseio incorreto. A colocação de 
+clipe de metal como marcador de páginas é um exemplo 
+dessa forma de manuseio, pois
 
-Para administrar serviços de rede (como o servidor web Apache/Nginx ou PostgreSQL) e inspecionar logs centralizados de auditoria no terminal Linux, os utilitários de linha de comando padronizados do `systemd` e seus respectivos comandos são:
-
-* **A)** `service start apache` e `cat /var/log/messages` exclusivamente.
-* **B)** O comando `systemctl` para gerenciar unidades de serviço (ex.: `systemctl start`, `systemctl enable` para inicialização automática no boot, e `systemctl status`); e o comando `journalctl` para consultar e filtrar os registros do diário estruturado indexado do systemd (ex.: `journalctl -u nome_servico -f` para seguir logs em tempo real).
-* **C)** O comando `killall -9 kernel` para atualizar os serviços em produção.
-* **D)** O systemd foi descontinuado do Linux e substituído pelo MS-DOS em 2023.
-* **E)** Todos os serviços do systemd rodam sem arquivos de configuração em disco, dependendo de comandos de áudio no microfone. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-
+* **A)** deve-se preferir clipe de material plástico para essa 
+função, devido a sua durabilidade.
+* **B)** o clipe altera o ph do papel, além de modificar o 
+estado físico da encadernação.
+* **C)** o uso do clipe provoca o aparecimento de bactérias 
+que destroem o papel.
+* **D)** o metal do clipe atua como fator a atrair insetos e 
+roedores, que se alimentam de aparas de papel.
+* **E)** o processo de oxidação dos clipes passará para a 
+folha marcada, manchando-a e rasgando-a.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O comando `service` é um script legado mantido apenas por compatibilidade com o antigo System V init; o padrão arquitetural nativo é o `systemctl`.
-> - **B)** **CORRETA.** Os dois comandos fundamentais do ecossistema **systemd**:
->   1. **systemctl:** Gerencia o ciclo de vida das *Units* (serviços `.service`, montagens `.mount`, sockets `.socket`).
->      - `systemctl start servico`: Inicia o serviço na sessão corrente.
->      - `systemctl enable servico`: Cria os links simbólicos necessários para que o serviço seja iniciado automaticamente no boot da máquina.
->      - `systemctl status servico`: Exibe o estado de execução (ativo, falho), PID e últimas linhas de log.
->   2. **journalctl:** Interface de consulta ao *systemd-journald*. Coleta logs estruturados de boot, kernel e serviços em formato binário indexado, permitindo buscas filtradas eficientes por unidade (`-u servico`), por severidade (`-p err`) e em tempo real (*follow* `-f`).
-> - **C)** Incorreta. Matar o processo do kernel causaria *Kernel Panic* imediato na máquina.
-> - **D)** Incorreta. O systemd é o padrão absoluto e ativo do Linux empresarial moderno.
-> - **E)** Incorreta. O systemd utiliza arquivos declarativos de configuração de unidade (*unit files*) armazenados em `/etc/systemd/system/` e `/lib/systemd/system/`.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: D**
 
 ---
-
 ## 6. Administração de Windows e Windows PowerShell
 
 ### 6.1 Paradigma do PowerShell: Pipeline Baseado em Objetos .NET

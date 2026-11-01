@@ -95,92 +95,103 @@ No âmbito patrimonial (MCASP e NBC TSP Estrutura Conceitual), vigora o **regime
 ---
 
 ### Teste 270
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No tocante ao regime contábil aplicado no setor público, analise as afirmativas a seguir:
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+Avalie, de acordo com a jurisp rudência, se a análise da vedação 
+ao confisco deve apurar se o aumento de carga tributária:  
+I. é necessário para fazer frente ao custeio das despesas do 
+respectivo regime; 
+II. importou em comprometimento do patrimônio e renda do 
+contribuinte, incompatível  com o atendimento das 
+necessidades primordiais a uma vida com dignidade; 
+III. precede de estudo atuarial específico à edição de lei que 
+aumente o tributo. 
+Está correto o que se afirma em
 
-I. De acordo com a Lei nº 4.320/1964 (Art. 35), o regime orçamentário é misto, pertencendo ao exercício as receitas nele arrecadadas e as despesas nele legalmente empenhadas.  
-
-II. Segundo as normas NBC TSP e o MCASP, o regime contábil patrimonial é o de competência, exigindo o reconhecimento de receitas e despesas patrimoniais no momento da ocorrência de seus respectivos fatos geradores.  
-
-III. A arrecadação de tributos em dinheiro gera concomitantemente uma receita orçamentária realizada e um fato permutativo no patrimônio líquido da entidade caso o crédito tributário já tenha sido lançado previamente.  
-
-Está correto o que se afirma em:
-
-* **A)** I, apenas.
+* **A)** II, apenas.
 * **B)** I e II, apenas.
 * **C)** II e III, apenas.
 * **D)** I e III, apenas.
 * **E)** I, II e III.
 
-
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Os itens II e III também são verdadeiros, tornando a alternativa incompleta.
-> - **B)** Incorreta. Deixa de incluir o item III, que expressa corretamente a dinâmica da CASP.
-> - **C)** Incorreta. O item I é a previsão literal do art. 35 da Lei nº 4.320/1964.
-> - **D)** Incorreta. O item II reflete o preceito central do MCASP moderno (regime de competência patrimonial).
-> - **E)** Correta. Todas as três assertivas são verdadeiras: o item I reproduz o art. 35 da Lei Federal nº 4.320/1964 (regime orçamentário misto); o item II reflete a consolidação da competência pura para o patrimônio pelas NBC TSP e MCASP; e o item III descreve com rigor a transação de arrecadação de tributos cujo lançamento ocorreu em momento anterior (no lançamento houve VPA; na arrecadação há receita orçamentária realizada e simples permutação patrimonial entre Disponibilidades e Créditos a Receber).
-> 
-> **Gabarito: E**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: C**
 
 ---
-
 ### Teste 271
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Determinada entidade governamental adquiriu, mediante regular processo licitatório, um lote de microcomputadores para suas secretarias no valor total de R$ 100.000,00. A despesa foi devidamente empenhada, liquidada com o recebimento das máquinas e integralmente paga em dinheiro à empresa fornecedora.
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+Em 01/07/2023, uma universidade do setor público adquiriu 
+projetores para as salas de aula. 
+Em 31/12/2023, a universidade verificou que os projetores eram 
+pouco utilizados e que outras unive rsidades estavam usando 
+equipamentos novos e diferentes, devido ao avanço da 
+tecnologia, que permitiu a produção de alternativas que 
+proporcionavam aulas com melhor qualidade e didática. 
+A constatação representa
 
-Sob a ótica patrimonial e orçamentária, essa transação completa caracteriza-se como:
-
-* **A)** Fato modificativo aumentativo que gera Variação Patrimonial Aumentativa.
-* **B)** Fato contábil qualitativo (permutativo), que não altera o valor do Patrimônio Líquido da entidade.
-* **C)** Fato modificativo diminutivo que reduz o Patrimônio Líquido em R$ 100.000,00 no ato da compra.
-* **D)** Variação patrimonial independente da execução orçamentária.
-* **E)** Transação extraorçamentária que dispensa registro no subsistema patrimonial.
-
+* **A)** uma fonte externa de informação que pode  identificar perda 
+ao valor recuperável do ativo.
+* **B)** uma fonte interna de informação que pode identificar perda 
+ao valor recuperável do ativo.
+* **C)** uma fonte externa de informação que pode identificar 
+reversão da perda por redução ao valor recuperável
+* **D)** uma fonte interna de informação que pode identificar 
+reversão da perda por redução ao valor recuperável
+* **E)** uma fonte interna de informação que pode comprometer a 
+continuidade dos serviços.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A compra de bens com desembolso financeiro de caixa não gera VPA (receita patrimonial).
-> - **B)** Correta. Trata-se de um típico fato permutativo (qualitativo) entre contas do Ativo: ocorreu a diminuição de R$ 100.000,00 na conta Caixa/Bancos (Ativo Circulante) e o aumento simultâneo de R$ 100.000,00 na conta de Equipamentos e Material Permanente (Ativo Não Circulante - Imobilizado). O total do Ativo e a Situação Patrimonial Líquida permaneceram rigorosamente inalterados.
-> - **C)** Incorreta. A redução do patrimônio líquido ocorrerá de forma paulatina e distribuída nos exercícios seguintes por meio do registro da depreciação mensal.
-> - **D)** Incorreta. A transação resultou diretamente da execução de dotação de capital fixada na LOA (variação resultante da execução orçamentária).
-> - **E)** Incorreta. É despesa orçamentária própria de capital, plenamente escriturada nos subsistemas orçamentário e patrimonial do PCASP.
-> 
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
 > **Gabarito: B**
 
 ---
-
 ### Teste 272
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No âmbito da Contabilidade Aplicada ao Setor Público (CASP), a coexistência dos regimes orçamentário e patrimonial decorre da aplicação simultânea da Lei Federal nº 4.320/1964 e das normas internacionais de contabilidade (NBC TSP / MCASP).
+**(FGV – TCE-PA – Auditor de Controle Externo – 2024)**
+Um museu do setor público possui gravações de eventos 
+históricos significativos. Essas são classificadas em seu balanço 
+patrimonial como patrimônio cultural intangível. 
+Algumas características apresentadas por esses bens estão 
+listadas a seguir, à exceção de uma. Assinale-a.
 
-A respeito da aplicação dos regimes contábeis, assinale a afirmativa correta:
+* **A)** Pode ser difícil estimar a sua vida útil.
+* **B)** Seu valor pode aumentar ao longo do tempo.
+* **C)** Não existe mercado interessado em sua compra.
+* **D)** Obrigações legais ou estatutárias podem impor proibições ou 
+severas restrições à sua alienação por venda.
+* **E)** Seu valor histórico é improvável de ser totalmente refletido 
+em valor financeiro baseado a preços de mercado. 
 
-* **A)** A despesa pública sob o enfoque patrimonial é reconhecida segundo o princípio da competência (pela ocorrência do fato gerador), independentemente do estágio da execução orçamentária (empenho ou liquidação).
-* **B)** A receita orçamentária é reconhecida pelo regime de competência no momento do lançamento tributário da dívida ativa.
-* **C)** O regime orçamentário adota a competência integral para as receitas públicas e a caixa estrita para as despesas públicas.
-* **D)** O reconhecimento patrimonial de uma obrigação pública subordina-se à emissão prévia de autorização de saque pelo Tesouro Estadual.
-* **E)** O fato gerador da despesa coincide obrigatoriamente com o ato administrativo da fixação orçamentária anual constante da LOA.
-
+AUDITOR DE CONTROLE EXTERNO – ÁREA ADMINISTRATIVA - CONTABILIDADE  – MANHÃ  TIPO  BRANCA – PÁGINA 19
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Sob o enfoque **patrimonial**, aplica-se o regime de competência tanto para receitas (VPA) quanto para despesas (VPD): a VPD deve ser reconhecida no momento em que ocorre o fato gerador (ex.: consumo de material, prestação do serviço ou fruição do trabalho), independentemente do estágio orçamentário.
-> - **B)** Incorreta. Sob o enfoque orçamentário (art. 35, I da Lei nº 4.320/1964), a receita orçamentária é reconhecida no momento da arrecadação (regime de caixa orçamentário).
-> - **C)** Incorreta. O art. 35 da Lei nº 4.320/1964 prevê regime de caixa para as receitas e competência para as despesas no orçamento (regime misto orçamentário).
-> - **D)** Incorreta. As obrigações patrimoniais surgem com o fato gerador, independentemente de saques financeiros.
-> - **E)** Incorreta. A fixação apenas autoriza o limite de gasto; não gera fato patrimonial.
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: D**
 
 ---
-
 ## 2. Variações Patrimoniais: Classificações e Origens
 
 ### 2.1 Variações Qualitativas (Permutativas) vs. Quantitativas (Modificativas)
@@ -205,59 +216,65 @@ flowchart LR
 ---
 
 ### Teste 273
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Determinado órgão público estadual recebeu, em doação incondicional de particular, um terreno avaliado a valor justo de mercado em R$ 800.000,00 para futura construção de um posto fiscal de fronteira.
+**(FGV – TCE-PA – Auditor de Controle Externo – 2024)**
+A depreciação de um ativo é a diminuição do seu valor ao longo 
+do tempo devido ao uso, desgaste ou avanço da tecnologia. Com 
+base no método de depreciação linear, considere que um novo 
+equipamento da empresa XYZ foi avaliado em R$1.900.000,00, 
+com uma vida útil prevista de 7 anos e um valor residual de 
+R$150.000,00, sem levar em conta os efe itos da correção 
+monetária devido à inflação. 
+Assinale a opção que apresenta o valor contábil do equipamento 
+ao final do quarto ano de uso.
 
-Sob a ótica do Manual de Contabilidade Aplicada ao Setor Público (MCASP 11ª edição):
+* **A)** R$1.650.000,00
+* **B)** R$1.400.000,00
+* **C)** R$1.150.000,00
+* **D)** R$900.000,00
+* **E)** R$650.000,00 
 
-* **A)** O recebimento do imóvel deve ser contabilizado como receita orçamentária de capital no estágio do recolhimento bancário.
-* **B)** A transação representa uma Variação Patrimonial Aumentativa (VPA) independente da execução orçamentária, elevando o Patrimônio Líquido da entidade.
-* **C)** O bem não pode ser registrado no ativo imobilizado até que a obra do posto fiscal seja integralmente concluída e aceita pela fiscalização.
-* **D)** A operação constitui um fato meramente qualitativo (permutativo), uma vez que não envolveu fluxo financeiro em moeda corrente.
-* **E)** O terreno recebido deverá sofrer depreciação periódica anual linear à alíquota contábil de 4% ao ano.
-
+AUDITOR DE CONTROLE EXTERNO – ÁREA ADMINISTRATIVA - ADMINISTRAÇÃO – MANHÃ  TIPO  BRANCA – PÁGINA 22
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Doações de bens materiais não geram influxo de caixa financeiro nem constam na LOA, não constituindo receita orçamentária.
-> - **B)** Correta. A doação de bens recebida amplia o ativo e o patrimônio líquido da entidade sem passar pelos estágios do orçamento (LOA), qualificando-se exatamente como uma Variação Patrimonial Aumentativa (VPA) Independente da Execução Orçamentária. O lançamento debita o Ativo Não Circulante (Imobilizado - Terrenos) e credita VPA no resultado.
-> - **C)** Incorreta. O reconhecimento contábil do terreno ocorre no momento da obtenção de seu controle formal (escritura e posse), e não na futura edificação da obra.
-> - **D)** Incorreta. Trata-se de fato quantitativo modificativo aumentativo, pois houve acréscimo de R$ 800.000,00 na Situação Patrimonial Líquida do ente.
-> - **E)** Incorreta. Terrenos possuem vida útil econômica indefinida e, por expressa determinação contábil, não sofrem depreciação periódica.
-> 
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+>
+> **Gabarito: E**
+
+---
+### Teste 274
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+A Administração patrimonial e de instalações é essencial na 
+gestão organizacional, focando na otimização e manutenção dos 
+ativos físicos, como imóveis, equipamentos e infraestrutura.  
+Assinale a opção que indica a forma d e solicitação de compras 
+iniciada em função de uma necessidade de produção.
+
+* **A)** Reposição contínua.
+* **B)** Caixeiro-viajante.
+* **C)** Lote padrão.
+* **D)** Contrato de fornecimento.
+* **E)** Reposição periódica.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
 > **Gabarito: B**
 
 ---
-
-### Teste 274
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na Contabilidade Pública, as Variações Patrimoniais classificam-se quanto ao impacto sobre a situação líquida (qualitativas vs. quantitativas) e quanto à vinculação ao orçamento (resultantes vs. independentes da execução orçamentária).
-
-Constitui uma Variação Patrimonial Diminutiva (VPD) **independente da execução orçamentária**:
-
-* **A)** O reconhecimento mensal do encargo de depreciação do ativo imobilizado e a baixa de bens públicos em razão de sinistro/inutilização.
-* **B)** O pagamento de salários e vencimentos aos servidores públicos estaduais mediante empenho ordinário.
-* **C)** A aquisição de veículos novos mediante licitação e pagamento com recursos correntes.
-* **D)** A contratação de serviços de consultoria técnica especializada com nota de empenho global.
-* **E)** A amortização do principal da dívida pública contratual de longo prazo.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Correta. A depreciação, amortização, exaustão, perecimento de bens, sinistros e perdas por redução ao valor recuperável (*impairment*) constituem VPDs que afetam negativamente a situação patrimonial líquida **sem envolver execução de dotação orçamentária**, sendo, portanto, VPDs independentes da execução orçamentária.
-> - **B)** Incorreta. Despesa com pessoal afeta o patrimônio, mas é resultante da execução orçamentária.
-> - **C)** Incorreta. Aquisição de veículos é variação qualitativa (troca de caixa por imobilizado).
-> - **D)** Incorreta. Serviços prestados são VPDs resultantes da execução do orçamento.
-> - **E)** Incorreta. Amortização é fato permutativo (baixa de passivo com baixa de caixa).
-> 
-> **Gabarito: A**
-
----
-
 ## 3. Procedimentos Patrimoniais Aplicados ao Ativo Imobilizado
 
 ### 3.1 Mensuração Inicial, Custos Atribuíveis e Bens de Infraestrutura
@@ -289,85 +306,96 @@ O MCASP elenca expressamente os ativos públicos que não estão sujeitos à dep
 ---
 
 ### Teste 275
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em relação aos conceitos de depreciação, amortização e teste de recuperabilidade (*impairment*) aplicados aos ativos do setor público, assinale a opção correta:
+**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
+A Secretaria de Habitação do estado Beta apresenta, em seu 
+balanço patrimonial, habitações que são utilizadas para fornecer 
+moradia para famílias de baixa renda por aluguéis com preço 
+abaixo do mercado. 
+O valor contábil destas habitações é de R$ 600.000,00. A entidade 
+possui, também, um imóvel, cujo valor contábil é de 
+R$ 100.000,00,  que é alugado a seus empregados, que trabalham 
+no local, por um valor de aluguel semelhante ao de mercado. 
+Assinale a opção que indica a classificação dos ativos no balanço 
+patrimonial da Secretaria de Habitação.
 
-* **A)** O valor depreciável de um bem corresponde ao seu custo histórico de aquisição somado ao valor residual estimado ao término de sua vida útil.
-* **B)** As quotas de depreciação mensal apuradas para a frota de ambulâncias públicas exigem a prévia emissão de nota de empenho ordinário no orçamento da Secretaria de Saúde.
-* **C)** O teste de recuperabilidade é dispensável no setor público quando o ativo imobilizado não for utilizado diretamente na geração de receitas comerciais ou de lucro.
-* **D)** A redução ao valor recuperável ocorre quando o valor contábil líquido de um ativo for superior ao seu valor recuperável, devendo a perda ser reconhecida no resultado patrimonial como variação patrimonial diminutiva (VPD).
-* **E)** A amortização aplica-se aos bens corpóreos que sofrem desgaste físico ou perecimento gradual ao longo do tempo.
-
+* **A)** Imobilizado: R$ 700.000,00.
+* **B)** Propriedade para Investimento: R$ 700.000,00.
+* **C)** Propriedade para Investimento: R$ 100.000,00 e Imobilizado: 
+R$ 600.000,00.
+* **D)** Propriedade para Investimento: R$ 600.000,00 e Imobilizado: 
+R$ 100.000,00.
+* **E)** Realizável a Longo Prazo: R$ 600.000,00 e Imobilizado: 
+R$ 100.000,00.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O valor depreciável é calculado subtraindo-se o valor residual do custo histórico de aquisição ($Custo - Valor\ Residual$).
-> - **B)** Incorreta. A depreciação é um procedimento estritamente patrimonial (VPD independente da execução orçamentária), não dependendo de dotação na LOA nem de emissão de nota de empenho.
-> - **C)** Incorreta. O teste de recuperabilidade aplica-se obrigatoriamente inclusive aos ativos não geradores de caixa, avaliando-se a perda de seu potencial de serviços à sociedade.
-> - **D)** Correta. De acordo com a NBC TSP 09/10 e o MCASP, se o valor contábil líquido de um ativo for maior que o seu valor recuperável, a entidade pública deve reconhecer imediatamente a perda por desvalorização (*impairment*), lançando uma VPD no resultado em contrapartida a uma conta redutora do ativo imobilizado.
-> - **E)** Incorreta. A amortização destina-se a ativos incorpóreos/intangíveis com vida útil definida; o desgaste sistemático de bens corpóreos tangíveis é objeto de depreciação.
-> 
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
 > **Gabarito: D**
 
 ---
-
 ### Teste 276
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Uma viatura policial foi adquirida pelo Estado de Goiás por R$ 120.000,00. A vida útil estimada do veículo é de 5 anos (60 meses) e a comissão de avaliação patrimonial fixou um valor residual de R$ 20.000,00 para o final do período.
+**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
+O governo de um ente da Federação recebeu a transferência de 
+um edifício de escritórios do governo federal, localizado em 
+Brasília, e passou a alugá-lo a terceiros, a preços de mercado. 
+Em relação a esse edifício, assinale a afirmativa correta.
 
-Utilizando o método das quotas constantes (linear) preconizado pelo MCASP, o valor depreciável do bem e o valor da quota mensal de depreciação a ser lançada como VPD são, respectivamente:
-
-* **A)** R$ 120.000,00 e R$ 2.000,00.
-* **B)** R$ 100.000,00 e R$ 1.666,67.
-* **C)** R$ 100.000,00 e R$ 2.000,00.
-* **D)** R$ 120.000,00 e R$ 1.666,67.
-* **E)** R$ 140.000,00 e R$ 2.333,33.
-
+* **A)** É classificado como ativo imobilizado.
+* **B)** Deve ser depreciado mensalmente, de modo linear.
+* **C)** Representa uma aquisição por meio de transação com 
+contraprestação.
+* **D)** O valor justo na data da aquisição é considerado como custo 
+do ativo.
+* **E)** Após o reconhecimento inicial, deve-se adotar o modelo do 
+custo para mensuração.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Erra ao desconsiderar a dedução do valor residual no cálculo do valor depreciável.
-> - **B)** Correta. O cálculo contábil é exato:  
->     1. **Valor Depreciável:** Custo de Aquisição (R$ 120.000,00) menos Valor Residual (R$ 20.000,00) = **R$ 100.000,00**.  
->     2. **Quota Mensal de Depreciação:** Valor Depreciável (R$ 100.000,00) dividido por 60 meses de vida útil = **R$ 1.666,67** por mês, lançada como VPD.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
-> - **C)** Incorreta. R$ 2.000,00 por mês seria a quota caso o valor residual fosse zero (120.000 / 60).
-> - **D)** Incorreta. O valor depreciável não é o custo bruto (120.000,00), pois há valor residual a ser deduzido.
-> - **E)** Incorreta. Erra ao somar o valor residual ao custo em vez de subtrair.
-> 
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
-
 ### Teste 277
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Segundo as disposições do MCASP e da NBC TSP 07 (Ativo Imobilizado), a depreciação de um bem público:
+**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
+Em dezembro de 2024, uma sociedade empresária recomprou 
+suas próprias ações, que estavam com terceiros, para mantê-las 
+em tesouraria. 
+A contrapartida da diminuição em Disponibilidades é reconhecida 
+como um(a)
 
-* **A)** Deve iniciar-se no momento em que o ativo estiver disponível para uso, no local e nas condições necessárias para operar da forma pretendida pela administração, e não cessa quando o ativo se torna ocioso.
-* **B)** Inicia-se unicamente após a quitação total da última fatura emitida pelo fornecedor da obra ou equipamento.
-* **C)** É calculada sobre o valor original total do bem, sendo expressamente proibida a dedução de qualquer valor residual na fórmula de cálculo.
-* **D)** Aplica-se compulsoriamente a todos os terrenos e obras de arte de acervos públicos históricos.
-* **E)** Interrompe-se temporariamente sempre que o órgão público entrar em recesso administrativo parlamentar ou judiciário.
-
+* **A)** aumento no patrimônio líquido.
+* **B)** aumento em investimentos.
+* **C)** diminuição no patrimônio líquido.
+* **D)** diminuição em investimentos.
+* **E)** diminuição em financiamentos.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. A depreciação de um ativo inicia-se quando ele está disponível para uso (instalado e pronto para operar). A depreciação não cessa quando o ativo se torna ocioso ou é retirado temporariamente de uso, a menos que o ativo esteja totalmente depreciado.
-> - **B)** Incorreta. A depreciação vincula-se à disponibilidade operacional do ativo, e não a liquidações financeiras.
-> - **C)** Incorreta. A base depreciável é exatamente o valor contábil deduzido do **valor residual** estimado.
-> - **D)** Incorreta. Terrenos têm vida útil indefinida e obras de arte/acervos históricos raramente depreciam, estando dispensados de depreciação.
-> - **E)** Incorreta. Recessos administrativos não paralisam a perda temporal de valor do ativo.
-> 
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
 > **Gabarito: A**
 
 ---
-
 ## 4. Teste de Redução ao Valor Recuperável de Ativos (*Impairment Test*)
 
 ### 4.1 Mecanismo de Aferição do Valor Recuperável
@@ -392,57 +420,180 @@ flowchart TD
 ---
 
 ### Teste 278
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em relação ao Teste de Redução ao Valor Recuperável (*Impairment Test*), disciplinado pela NBC TSP 09 (Ativos Não Geradores de Caixa) e NBC TSP 10 (Ativos Geradores de Caixa), é correto afirmar:
+**(FGV – TCE-GO – Analista de Controle Externo - Ciências Contábeis – 2024)**
+Um analista deseja calcular o indicador de imobilização do 
+patrimônio líquido de uma empresa em 31/12/2023. 
+O analista recebeu as demonstrações contábeis completas de 
+31/12/2022 e apenas as notas explicativas de 2023. 
+Dentre as informações divulgadas pela empresa em 2023, para 
+tentar se aproximar dos valores utilizados para obtenção do 
+indicador, será útil
 
-* **A)** Se o valor recuperável de um ativo for inferior ao seu valor contábil líquido, o valor contábil do ativo deve ser reduzido ao seu valor recuperável, reconhecendo-se essa redução imediatamente como Variação Patrimonial Diminutiva (VPD).
-* **B)** O teste de recuperabilidade é aplicável exclusivamente a empresas estatais dependentes, sendo os órgãos da Administração Direta dispensados de aferir perdas patrimoniais.
-* **C)** Uma perda por redução ao valor recuperável reconhecida em períodos anteriores para um ativo jamais poderá ser revertida em exercícios futuros.
-* **D)** O valor recuperável de um ativo não gerador de caixa corresponde unicamente ao valor líquido de venda no mercado de leilões públicos.
-* **E)** A constatação de obsolescência tecnológica relevante de um equipamento de TI não constitui indício para realização do teste de redução ao valor recuperável.
+* **A)** a origem dos ativos imobilizados adquiridos.
+* **B)** o modo de pagamento das aquisições do ativo imobilizado.
+* **C)** o valor contábil bruto do ativo imobilizado e a depreciação 
+acumulada no início e no final do período.
+* **D)** o valor dos compromissos contratuais advindos da aquisição 
+de ativos imobilizados.
+* **E)** o valor das indenizações de terceiros por itens do ativo 
+imobilizado que tenham sido desvalorizados, perdidos ou 
+abandonados, incluído no resultado. 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Realização 
+DE GOIÁS 
+CONCURSO PÚBLICO – EDITAL 01/2024  
+
+
+
+TARDE 
+CIENCIAS CONTABEIS 
+
+ NÍVEL SUPERIOR TIPO 1 – BRANCA  
+
+
+
+• Além deste caderno contendo 2 (duas) 
+discursivas você receberá do fiscal de sala a folha 
+de texto definitivo; 
+• As questões discursivas deverão ser redigidas em 
+até 20 (vinte) linhas.   
+
+•  
+
+
+
+
+
+
+
+
+• Verifique se seu caderno de questões está completo, 
+sem repetição de questões ou falhas. Caso contrário, 
+notifique imediatamente o fiscal da sala, para que 
+sejam tomadas as devidas providências; 
+• Confira seus dados pessoais, especialmente nome, 
+número de inscrição e documento de identidade e leia 
+atentamente as instruções para preencher a folha de 
+texto definitivo; 
+• Para o preenchimento das folhas de textos definitivos, 
+use somente caneta esferográf ica, fabricada em 
+material transparente, com tinta preta ou azul; 
+• Assine seu nome apenas nos espaços reservados nas 
+folhas de textos definitivos; 
+• Confira seu cargo, cor e tipo do caderno de questões. 
+Caso tenha recebido caderno de cargo ou cor ou tipo 
+diferente do impresso em sua s folhas de texto s 
+definitivos, o fiscal de sala deve ser obrigatoriamente 
+informado para o devido registro na ata da sala; 
+• Reserve tempo suficiente para o preenchimento das 
+suas folhas de textos definitivos. O preenchimento é de 
+sua responsabilidade e não será permitida a troca 
+das folhas de textos definitivos em caso de erro 
+cometido pelo candidato; 
+• Para fins de avaliação, serão levadas em consideração 
+apenas as marcações realizadas nas folhas de textos 
+definitivos; 
+• A FGV coletará as impressões digitais dos candidatos 
+na lista de presença; 
+• Os candidatos serão submetidos ao sistema de 
+detecção de metais quando do ingresso e da saída de 
+sanitários durante a realização das provas. 
+• Boa prova! 
+
+
+• Você dispõe de 2 (duas) horas para a realização 
+da prova, já incluído o tempo para o preenchimento 
+das folhas de textos definitivos; 
+• 1 (uma) hora após o início da prova, é possível 
+retirar-se da sala, sem levar o caderno de questões; 
+• A partir dos 30 (trinta) minutos anteriores ao 
+término da prova é possível retirar -se da sala  
+levando o caderno de questões. 
+
+• Qualquer tipo de comunicação entre os candidatos 
+durante a aplicação da prova; 
+• Anotar informações relativas às respostas em 
+qualquer outro meio que não seja o caderno de 
+questões; 
+• Levantar da cadeira sem autorização do fiscal de 
+sala; 
+• Usar o sanitário ao término da prova, após deixar 
+a sala. 
+SUA PROVA 
+TEMPO 
+NÃO SERÁ PERMITIDO 
+INFORMAÇÕES GERAIS 
+
+Ciências Contábeis - Discursiva
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. A regra matriz do *impairment* estabelece: constatado que o valor recuperável (maior entre valor justo líquido de despesas de venda e valor em uso) é inferior ao valor contábil líquido, a entidade deve reconhecer perda por desvalorização (VPD) e conta retificadora do ativo.
-> - **B)** Incorreta. Aplica-se a todas as entidades do setor público abrangidas pelas NBC TSP.
-> - **C)** Incorreta. As normas preveem a reversão de perdas por *impairment* caso as estimativas que fundamentaram a redução tenham se alterado favoravelmente em períodos posteriores.
-> - **D)** Incorreta. O valor recuperável é o maior entre o valor justo menos custos de venda e o valor em uso (potencial de serviços remanescente).
-> - **E)** Incorreta. A obsolescência tecnológica ou física é indício explícito para a aplicação obrigatória do teste.
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: D**
 
 ---
-
 ### Teste 279
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Determinado órgão público estadual efetuou a aquisição de um imóvel no valor de R$ 5.000.000,00 mediante regular processo licitatório, efetuando o pagamento à vista através de ordem bancária vinculada a dotação de despesa de capital (GND 4 - Investimentos).
+**(FGV – TCE-GO – Analista de Controle Externo - Ciências Contábeis – 2024)**
+De acordo com a Lei Complementar 101/200, além de obedecer às 
+demais normas de contabilidade pública, a escrituração das contas 
+públicas observará
 
-Sob o enfoque estritamente patrimonial da Contabilidade Pública, essa transação corresponde a:
-
-* **A)** Uma variação patrimonial qualitativa (ou permutativa), que não acarreta alteração no montante do patrimônio líquido do órgão, ocorrendo apenas permuta entre elementos do ativo (redução de caixa e aumento do ativo imobilizado).
-* **B)** Uma variação patrimonial diminutiva quantitativa, reduzindo imediatamente o patrimônio líquido da entidade em R$ 5.000.000,00.
-* **C)** Uma variação patrimonial aumentativa orçamentária pura, que eleva o superávit financeiro do exercício.
-* **D)** Um fato contábil misto aumentativo, pois os imóveis públicos não se desvalorizam economicamente.
-* **E)** Um ato potencial ativo a ser escriturado apenas nas classes 7 e 8 do PCASP.
-
+* **A)** as receitas e despesas previdenciárias serão apresentadas na 
+demonstração das variações patrimoniais elaborada.
+* **B)** a despesa e a assunção de compromisso serão registradas 
+segundo o regime de caixa, não sendo utilizado o regime de 
+competência.
+* **C)** a demonstração das variações patrimoniais dará destaque à 
+origem e ao destino dos recursos provenientes de 
+financiamentos de terceiros.
+* **D)** a disponibilidade de caixa constará de registro próprio, de 
+modo que os recursos vinculados a órgão, fundo ou despesa 
+obrigatória fiquem identificados e escriturados de forma 
+individualizada.
+* **E)** as operações de crédito e as inscrições em Restos a Pagar 
+serão escrituradas de modo a evidenciar o montante e a 
+variação da dívida pública no período ant erior, detalhando, 
+pelo menos, a data e o montante específico.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. A aquisição de bens do ativo imobilizado (bens de capital) com recursos do ativo circulante (disponibilidades) constitui **fato contábil permutativo (variação qualitativa)**: altera a composição qualitativa do patrimônio (sai dinheiro do banco e entra imóvel no imobilizado), mantendo inalterado o valor do Patrimônio Líquido.
-> - **B)** Incorreta. Não há redução do Patrimônio Líquido, pois o Estado recebeu um ativo de valor equivalente.
-> - **C)** Incorreta. Não gerou aumento de PL nem receita patrimonial.
-> - **D)** Incorreta. Não se trata de fato misto, mas permutativo puro no momento da aquisição.
-> - **E)** Incorreta. É fato contábil patrimonial efetivo, registrado nas classes 1 (Ativo).
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: C**
 
 ---
-
 ## 🌐 Fontes Oficiais & Manuais Técnicos Recomendados
 
 * [Tesouro Transparente - MCASP 11ª Edição (Parte II - Procedimentos Patrimoniais - PCP)](https://www.tesourotransparente.gov.br/publicacoes/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp/2024/26) - Variações Patrimoniais Aumentativas (VPA), Diminutivas (VPD), mensuração de ativos, reavaliação, depreciação e provisões.

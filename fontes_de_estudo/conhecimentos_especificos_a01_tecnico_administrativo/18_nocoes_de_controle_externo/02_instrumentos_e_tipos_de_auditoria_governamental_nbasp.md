@@ -253,134 +253,211 @@ Está correto o que se afirma em:
 > **Gabarito: B**
 
 ### Teste 181
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-De acordo com a estrutura normativa da NBASP 100 / INTOSAI, a auditoria no setor público compreende três tipos principais: financeira, de conformidade e operacional. A respeito do objeto e escopo específico da auditoria operacional, é correto afirmar:
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+Os princípios de auditoria constantes nas Normas Internacionais 
+das Entidades Fiscalizadoras Superiores (ISSAI) são fundamentais 
+para a condução de uma auditoria.  
+Assinale a opção que indica o princípio que enfatiza a necessidade 
+de comunicação eficaz por parte dos auditores ao longo de todo o 
+processo de auditoria.
 
-* **A)** Tem por objetivo exclusivo atestar a fidedignidade formal das demonstrações contábeis e notas explicativas.
-* **B)** Avalia o desempenho de órgãos e programas públicos segundo a economicidade, eficiência e eficácia.
-* **C)** Foca prioritariamente na verificação da estrita legalidade de contratos administrativos e processos licitatórios.
-* **D)** É vedada a análise de indicadores de efetividade social sob pena de violação do mérito administrativo do Executivo.
-* **E)** Subordina suas conclusões à aprovação prévia e discricionária da Controladoria-Geral do respectivo Estado.
+* **A)** Ética e independência.
+* **B)** Controle de qualidade.
+* **C)** Comunicação.
+* **D)** Gestão de equipes de auditoria e habilidades.
+* **E)** Julgamento, devido zelo e ceticismo profissionais.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. Atestar a fidedignidade das demonstrações contábeis (se estão livres de distorções relevantes) é o escopo da auditoria financeira (NBASP 200).
-> - **B)** **Correto**. Conforme a NBASP 100 e a NBASP 300, a auditoria operacional foca em determinar se intervenções, programas e instituições estão operando em conformidade com os princípios da economicidade, eficiência, eficácia e efetividade (os "4Es"), visando identificar oportunidades de melhoria na gestão pública.
-> - **C)** **Incorreto**. A verificação de conformidade a leis e regulamentos cabe à auditoria de conformidade (NBASP 400).
-> - **D)** **Incorreto**. A efetividade social (impacto real da política pública na sociedade) é dimensão precípua do controle operacional moderno.
-> - **E)** **Incorreto**. A auditoria pelo Tribunal de Contas é autônoma e independente de controladorias executivas.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
+---
 ### Teste 182
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A NBASP 100 estabelece que os trabalhos de auditoria do setor público podem ser executados sob a forma de trabalhos de asseguração razoável ou limitada. A respeito da natureza da asseguração razoável, é correto afirmar que:
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+As Normas Internacionais das Entidades Fiscalizadoras Superiores 
+(ISSAI), desenvolvidas pela Organização Internacional das 
+Entidades Fiscalizadoras Superiores (INTOSAI), visam promover a 
+realização de auditorias independentes e eficazes pelas Entidades 
+Fiscalizadoras Superiores (EFS).  
+Sobre auditoria governamental segundo a INTOSAI , analise os 
+itens a seguir: 
+I. As EFS podem optar por compilar um único documento 
+normativo, uma série de tais documentos ou uma combinação 
+de documentos normativos e outros documentos oficiais; 
+II. As EFS devem declarar quais normas elas aplicam na execução 
+de suas auditorias, e essa declaração deve ser acessível para os 
+usuários dos seus relatórios; 
+III. As EFS podem decidir adotar as Diretrizes Gerais de Auditoria 
+como suas normas oficiais.  
+Está correto o que se afirma em
 
-* **A)** consiste em uma garantia absoluta de que todas as fraudes ou erros cometidos na gestão foram detectados.
-* **B)** expressa um nível alto, mas não absoluto, de certeza de que o objeto auditado está livre de distorções relevantes.
-* **C)** dispensa a obtenção de evidências suficientes e apropriadas quando o controle interno for considerado robusto.
-* **D)** conclui na forma negativa, declarando que nada chegou ao conhecimento do auditor que indicasse qualquer irregularidade.
-* **E)** é aplicável apenas a inspeções extraordinárias instauradas com a finalidade de apurar denúncias anônimas.
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A asseguração razoável nunca é absoluta devido às limitações inerentes à auditoria (uso de amostragem, limitações do controle interno e julgamento profissional).
-> - **B)** **Correto**. Conforme a NBASP 100, a asseguração razoável é de nível alto, embora não absoluto. A conclusão do auditor é expressa de forma positiva, transmitindo aos usuários confiança de que as informações estão substancialmente corretas e livres de distorção relevante.
-> - **C)** **Incorreto**. A obtenção de evidência suficiente e apropriada é indispensável em qualquer trabalho de asseguração razoável.
-> - **D)** **Incorreto**. A forma negativa de conclusão ("nada chegou ao conhecimento que indicasse...") é a característica da asseguração limitada.
-> - **E)** **Incorreto**. A asseguração razoável é o padrão típico das auditorias financeiras e de grande parte das auditorias de conformidade.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
 >
-> **Gabarito: B**
+> **Gabarito: E**
 
+---
 ### Teste 183
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-De acordo com a NBASP 100, as auditorias do setor público envolvem três partes distintas (três sujeitos): o auditor, a parte responsável e os usuários previstos. A respeito da identificação dessas partes no controle externo, é correto afirmar:
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+A NBASP 400 - Princípios de Auditoria de Conformidade estabelece 
+diretrizes fundamentais para a realização de auditorias destinadas 
+a verificar se as operações estão em conformidade com leis, 
+regulamentos e normas aplicáveis. 
+Nesse contexto, analise os itens a seguir: 
+I. A auditoria de conformidade é a avaliação independente para 
+determinar se um dado objeto est á em conformidade com 
+normas aplicáveis identificadas como critérios.  
+II. As auditorias de conformidade são realizadas para avaliar se 
+atividades, transações orçamentárias e informações 
+cumprem, em todos os aspectos relevantes, as normas que 
+regem a entidade auditada.  
+III. A auditoria de conformidade é frequentemente parte 
+integrante do mandato de uma Entidade Fiscalizadora 
+Superior para a auditoria de entidades do setor público. 
+Está correto o que se afirma em
 
-* **A)** O Poder Executivo atua simultaneamente como auditor governamental e destinatário exclusivo dos relatórios de auditoria.
-* **B)** A parte responsável é a entidade ou gestor encarregado da gestão dos recursos e do objeto sob exame.
-* **C)** Os usuários previstos são exclusivamente os magistrados e promotores do Poder Judiciário e Ministério Público Estadual.
-* **D)** O auditor é o agente submetido à fiscalização contábil obrigado a prestar contas anuais aos órgãos do Poder Legislativo.
-* **E)** A sociedade civil e os cidadãos são expressamente excluídos da condição de usuários previstos nos trabalhos de controle.
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. No controle externo, o auditor é o Tribunal de Contas (EFS) e sua equipe de fiscalização.
-> - **B)** **Correto**. Conforme o modelo da NBASP 100: a "parte responsável" é a autoridade ou entidade gestora encarregada da gestão da coisa pública ou da elaboração das informações auditadas; o "auditor" é o órgão de fiscalização independente; e os "usuários previstos" são o Poder Legislativo e a sociedade (cidadãos).
-> - **C)** **Incorreto**. Os principais usuários previstos são os órgãos legislativos e a própria coletividade cidadã.
-> - **D)** **Incorreto**. O responsável pelas contas é a parte responsável auditada, e não o auditor.
-> - **E)** **Incorreto**. A sociedade é titular de interesse direto nos resultados das auditorias governamentais públicas.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
+---
 ### Teste 184
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-De acordo com os princípios da NBASP 30 (Código de Ética da INTOSAI) e os padrões profissionais da auditoria governamental, analise as condutas exigidas dos auditores no exercício do controle externo. É correto afirmar que:
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+A NBASP 10 tem como objetivo definir, no nível institucional, os 
+princípios relacionados ao pré -requisito da independência e as 
+diretrizes que devem reger a atuação independente dos Tribunais 
+de Contas.  
+Sobre a NBASP 10 - Independência dos Tribunais de Contas, analise 
+os itens a seguir: 
+I. O auxílio prestado pelos Tribunais de Contas ao Poder 
+Legislativo, conforme art. 71 da Constituição Federal, 
+representa subordinação hierárquica. 
+II. Os Tribunais de Contas somente podem exercer suas funçõ es 
+com objetividade quando são independentes das entidades 
+fiscalizadas e estão protegidos contra influências externas. 
+III. Embora se reconheça que as instituições do Estado não podem 
+ser totalmente independentes, os Tribunais de Contas devem 
+exercer sua independência funcional e organizacional no 
+cumprimento de suas competências constitucionais.  
+Está correto o que se afirma em
 
-* **A)** O auditor pode aceitar presentes ou favores pessoais da administração auditada se o valor for irrelevante perante o mercado.
-* **B)** A integridade, a independência, o sigilo profissional e a competência técnica constituem valores éticos obrigatórios.
-* **C)** O ceticismo profissional deve ser abandonado sempre que os gestores auditados comprovarem idoneidade moral pretérita.
-* **D)** É dever do auditor emitir juízos de valor em redes sociais sobre processos de auditoria antes da deliberação do Plenário.
-* **E)** O auditor está dispensado do dever de confidencialidade quando prestar consultoria particular remunerada a terceiros.
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A NBASP 30 veda expressamente a aceitação de presentes, favores ou hospitalidades que possam comprometer, de fato ou na aparência, a independência e imparcialidade do auditor.
-> - **B)** **Correto**. A NBASP 30 / ISSAI 130 estrutura o Código de Ética em cinco pilares axiológicos essenciais: integridade, independência e objetividade, competência técnica, comportamento profissional e sigilo/confidencialidade.
-> - **C)** **Incorreto**. O ceticismo profissional é atitude permanente que mantém a mente aberta e questionadora ao avaliar criticamente a validade das evidências.
-> - **D)** **Incorreto**. A divulgação prematura ou manifestação em redes sociais sobre processos não julgados afronta o dever de discrição e sigilo.
-> - **E)** **Incorreto**. O dever de sigilo é indeclinável e a consultoria privada sobre áreas afins ao controle padece de vedação legal absoluta.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
-> **Gabarito: B**
+> **Gabarito: D**
 
+---
 ### Teste 185
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Na auditoria financeira governamental regida pela NBASP 200, a responsabilidade do auditor ao emitir o seu relatório culmina na formulação de uma opinião técnica fundamentada sobre as demonstrações contábeis. A respeito dos tipos de opinião modificada, é correto afirmar que:
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+Os princípios de auditoria constantes nas Normas Internacionais 
+das Entidades Fiscalizadoras Superiores (ISSAI) são fundamentais 
+para a condução de uma auditoria.  
+Assinale a opção que indica o princípio que enfatiza a necessidade 
+de comunicação eficaz por parte dos auditores ao longo de todo o 
+processo de auditoria.
 
-* **A)** A opinião sem ressalva é expressa quando o auditor identifica distorções relevantes e generalizadas nas contas públicas.
-* **B)** A abstenção de opinião ocorre quando há falta de evidência apropriada com efeitos relevantes e generalizados.
-* **C)** A opinião adversa é emitida quando a limitação de escopo impede a formação de qualquer conclusão técnica pelos auditores.
-* **D)** A opinião com ressalva é vedada na administração pública estadual em razão do princípio da unidade de tesouraria do Estado.
-* **E)** O relatório com opinião modificada é automaticamente descartado sem envio à Assembleia Legislativa estadual competente.
+* **A)** Ética e independência.
+* **B)** Controle de qualidade.
+* **C)** Comunicação.
+* **D)** Gestão de equipes de auditoria e habilidades.
+* **E)** Julgamento, devido zelo e ceticismo profissionais.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. Diante de distorções relevantes e generalizadas, a opinião técnica é "adversa", e não sem ressalva.
-> - **B)** **Correto**. Conforme a NBASP 200 / NBC TA 705: o auditor deve emitir uma "abstenção de opinião" (ou declinar de opinar) quando, devido a graves limitações de escopo impostas pela administração auditada, ele não consegue obter evidência de auditoria suficiente e apropriada para fundamentar sua opinião, e concluir que os possíveis efeitos de distorções não detectadas sobre as demonstrações contábeis podem ser tanto relevantes quanto generalizados.
-> - **C)** **Incorreto**. A limitação de escopo com efeitos generalizados conduz à abstenção de opinião; a opinião adversa exige a certeza de que as distorções existem e são relevantes e generalizadas.
-> - **D)** **Incorreto**. A opinião com ressalva é plenamente cabível quando há distorções relevantes, mas não generalizadas.
-> - **E)** **Incorreto**. Os relatórios de auditoria com pareceres modificados são as principais peças técnicas apreciadas pelo Legislativo.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
+---
 ### Teste 186
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A Declaração de Lima consagra preceitos vitais para assegurar a autonomia financeira das Entidades Fiscalizadoras Superiores (Seção 7). De acordo com esse tratado internacional e sua recepção na ordem jurídica brasileira, é correto afirmar:
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+As Normas Internacionais das Entidades Fiscalizadoras Superiores 
+(ISSAI), desenvolvidas pela Organização Internacional das 
+Entidades Fiscalizadoras Superiores (INTOSAI), visam promover a 
+realização de auditorias independentes e eficazes pelas Entidades 
+Fiscalizadoras Superiores (EFS).  
+Sobre auditoria governamental segundo a INTOSAI , analise os 
+itens a seguir: 
+I. As EFS podem optar por compilar um único documento 
+normativo, uma série de tais documentos ou uma combinação 
+de documentos normativos e outros documentos oficiais; 
+II. As EFS devem declarar quais normas elas aplicam na execução 
+de suas auditorias, e essa declaração deve ser acessível para os 
+usuários dos seus relatórios; 
+III. As EFS podem decidir adotar as Diretrizes Gerais de Auditoria 
+como suas normas oficiais.  
+Está correto o que se afirma em
 
-* **A)** As Cortes de Contas devem ser dotadas de recursos financeiros próprios que lhes permitam cumprir integralmente suas tarefas.
-* **B)** O Poder Executivo detém prerrogativa discricionária de contingenciar os repasses duodecimais do Tribunal de Contas a qualquer tempo.
-* **C)** A dotação orçamentária do Tribunal de Contas deve ser aprovada diretamente em sessão plenária sem envio prévio ao Legislativo.
-* **D)** A contratação de bens e serviços pelo Tribunal de Contas subordina-se à autorização prévia da Secretaria da Fazenda Estadual.
-* **E)** As Cortes de Contas estão isentas de submeter suas despesas administrativas à prestação de contas perante o Poder Legislativo.
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correto**. A Seção 7 da Declaração de Lima dispõe que as EFS devem dispor dos meios financeiros necessários ao cumprimento de suas funções constitucionais, devendo requerer os recursos diretamente ao órgão com competência orçamentária (o Poder Legislativo). Na ordem brasileira, o art. 168 da CF/88 consagra os duodécimos orçamentários obrigatórios repassados até o dia 20 de cada mês.
-> - **B)** **Incorreto**. O art. 168 da CF/88 veda a retenção ou o contingenciamento arbitrário dos repasses orçamentários devidos aos Tribunais de Contas pelo Executivo.
-> - **C)** **Incorreto**. O Tribunal propõe sua dotação na lei orçamentária, que é apreciada e votada pelo Poder Legislativo.
-> - **D)** **Incorreto**. A contratação interna é autônoma, vedada a tutela hierárquica por secretarias de Fazenda.
-> - **E)** **Incorreto**. As contas de gestão do Tribunal de Contas são fiscalizadas anualmente pela Assembleia Legislativa.
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
 >
-> **Gabarito: A**
+> **Gabarito: E**
 
+---

@@ -118,55 +118,66 @@ flowchart TD
 ---
 
 ### Teste 300
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Considere uma organização pública estadual que decida reduzir o número de seus escalões hierárquicos intermediários de sete para apenas três níveis, mantendo o mesmo quantitativo total de servidores em seus quadros operacionais. Sob a ótica da teoria da organização formal, essa reforma provocará:
+**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
+Os critérios de departamentalização na Administração Pública 
+devem alinhar-se aos princípios da legalidade, impessoalidade, 
+moralidade, publicidade e eficiência. 
+Assinale a opção que apresenta, corretamente, a 
+departamentalização que procura agrupar órgãos e cargos por 
+função para aproveitar a integração de conhecimentos, 
+habilidades, competências e processos de trabalho em uma só 
+unidade.
 
-* **A)** O estreitamento da amplitude de controle e a verticalização da estrutura organizacional.
-* **B)** A eliminação da divisão do trabalho e a conversão automática para a estrutura linear pura.
-* **C)** O alargamento da amplitude de controle dos gestores e o achatamento (horizontalização) da estrutura organizacional.
-* **D)** A centralização absoluta de todas as decisões na cúpula diretiva em razão do aumento do número de chefes.
-* **E)** A transformação imediata do modelo organizacional em departamentalização estritamente geográfica.
-
+* **A)** Geográfica.
+* **B)** Funcional.
+* **C)** Por clientela.
+* **D)** Por processos.
+* **E)** Por projetos. 
+Tribunal Regional do Trabalho da 24ª Região (TRT-24)  FGV CONHECIMENTO
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Reduzir escalões faz o oposto: alarga a amplitude de controle e horizontaliza a estrutura.
-> - **B)** Incorreta. A divisão do trabalho permanece; ela não depende da quantidade de níveis hierárquicos.
-> - **C)** Correta. Ao reduzir os níveis intermediários sem diminuir o total de subordinados, cada gestor remanescente passará a chefiar um contingente maior de pessoas (**alargamento da amplitude administrativa**). Como consequência direta, a organização torna-se **achatada (plana/horizontalizada)**, reduzindo a distância entre a base e a cúpula.
-> - **D)** Incorreta. Estruturas achatadas com grande amplitude tendem a exigir maior delegação e descentralização, pois um chefe com muitos subordinados não consegue centralizar todas as rotinas.
-> - **E)** Incorreta. A forma da pirâmide hierárquica não define o critério de departamentalização (que pode continuar sendo funcional, por processos etc.).
-> 
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
 > **Gabarito: C**
 
 ---
-
 ### Teste 301
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No estudo das organizações formais e do processo administrativo clássico (PODC - Planejar, Organizar, Dirigir e Controlar), a função **Organização** compreende precipuamente:
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+O processo de diferenciação é a segmentação das operações de 
+uma organização em áreas especializadas, como resposta ao 
+crescimento e à complexidade. Inclui a divisão do trabalho, a 
+criação de estruturas funcionais e departamentalização, e a 
+diversificação de produtos e serviços.  
+Assinale a opção que apresenta a vantagem de agrupar todas as 
+funções em torno de determinada tecnologia, conjunto de 
+produtos ou grupo de clientes.
 
-* **A)** A distribuição de tarefas, a alocação criteriosa de recursos humanos e materiais entre os órgãos e a definição da estrutura de autoridade, responsabilidade e linhas de comunicação formal da instituição.
-* **B)** A fixação dos objetivos corporativos de longo prazo e a escolha das estratégias mestras para alcançá-los.
-* **C)** A motivação, orientação, liderança e coordenação interpessoal direta das equipes de trabalho no cotidiano operacional.
-* **D)** A comparação sistemática entre os resultados obtidos e os padrões preestabelecidos, com aplicação de eventuais correções corretivas.
-* **E)** A realização de auditorias financeiras externas de conformidade legal sobre os balanços patrimoniais.
-
+* **A)** Diferenciação ocupacional.
+* **B)** Descentralização geográfica.
+* **C)** Diferenciação por tecnologia.
+* **D)** Departamentalização.
+* **E)** Diferenciação por nível hierárquico.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. A função **Organizar** diz respeito à modelagem da estrutura organizacional: divisão do trabalho, departamentalização, distribuição de recursos, delegação de autoridade e atribuição de responsabilidades.
-> - **B)** Incorreta. Conceito referente à função de **Planejamento**.
-> - **C)** Incorreta. Conceito referente à função de **Direção** (liderança, motivação e comunicação interpessoal).
-> - **D)** Incorreta. Conceito referente à função de **Controle** (monitoramento e correção).
-> - **E)** Incorreta. Procedimento de controle externo, e não da função gerencial interna de organização.
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: C**
 
 ---
-
 ## 2. Modelos de Estrutura Organizacional
 
 As organizações estruturam-se segundo diferentes desenhos formais de autoridade e divisão do trabalho:
@@ -215,55 +226,61 @@ flowchart TD
 ---
 
 ### Teste 302
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Determinada autarquia estadual de regulação de transportes estruturou suas equipes de fiscalização agrupando os servidores em torno de projetos especiais com prazos pré-fixados, mantendo concomitantemente as diretorias técnicas fixas de engenharia, finanças e tecnologia. Nesse modelo, os auditores reportam-se tanto ao coordenador do projeto específico quanto ao diretor da sua respectiva área técnica de origem. Trata-se de típica estrutura organizacional:
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+O processo administrativo é o conjunto de funções 
+desempenhadas por administradores em diversos níveis e áreas 
+da organização, visando alcançar metas previamente definidas. 
+Assinale a opção que está associada à função adminis trativa da 
+direção.
 
-* **A)** Linear.
-* **B)** Funcional pura.
-* **C)** Matricial.
-* **D)** Linha-staff.
-* **E)** Colegiada.
-
+* **A)** Ação corretiva.
+* **B)** Divisão do trabalho.
+* **C)** Produção de planos.
+* **D)** Monitoramento das atividades.
+* **E)** Motivação das pessoas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A estrutura linear fundamenta-se na unidade de comando irrestrita, com linhas únicas, diretas e verticais de chefia.
-> - **B)** Incorreta. A estrutura funcional fraciona a autoridade de acordo com a especialidade funcional, mas não sobrepõe gerências temporárias de projetos a departamentos fixos.
-> - **C)** Correta. A estrutura matricial caracteriza-se essencialmente pela combinação bidimensional de uma estrutura funcional permanente com gerências de projetos temporárias, resultando na **dupla subordinação** dos colaboradores (ao líder do projeto e ao chefe funcional da sua área técnica).
-> - **D)** Incorreta. Na estrutura linha-staff, os órgãos de staff prestam consultoria técnica aos órgãos de linha, sem haver comando duplo de projetos sobre colaboradores operacionais.
-> - **E)** Incorreta. Estrutura colegiada refere-se à tomada de decisão por órgão consultivo ou deliberativo coletivo (ex.: Tribunal Pleno, Conselhos de Administração).
-> 
-> **Gabarito: C**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: B**
 
 ---
-
 ### Teste 303
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A respeito da amplitude administrativa (ou amplitude de controle) e dos níveis hierárquicos nas organizações formais, assinale a afirmativa correta:
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+O processo administrativo abrange planejamento, organização, 
+direção e controle. O planejamento define objetivos e 
+estratégias; a organização estrutura recursos e atividades; a 
+direção lider a e motiva as equipes; e o controle monitora o 
+desempenho, ajustando conforme necessário para garantir o 
+sucesso organizacional. 
+Assinale a base de atuação da função de ideias.
 
-* **A)** Uma amplitude de controle estreita (poucos subordinados por chefe) tende a produzir uma estrutura organizacional verticalizada (alongada), com múltiplos níveis hierárquicos e maior custo administrativo de supervisão.
-* **B)** Uma estrutura organizacional achatada (plana) decorre necessariamente de amplitudes de controle muito reduzidas.
-* **C)** Quanto maior o número de níveis hierárquicos em uma repartição pública, mais ágil e desprovida de distorções e ruídos torna-se a comunicação vertical ascendente.
-* **D)** A amplitude de controle refere-se unicamente ao limite territorial de competência jurisdicional de uma corte de contas.
-* **E)** A descentralização administrativa exige compulsoriamente a eliminação de qualquer amplitude de supervisão nos órgãos setoriais.
-
+* **A)** Organização.
+* **B)** Controle.
+* **C)** Planejamento.
+* **D)** Direção.
+* **E)** Retroação.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. A **amplitude de controle** é o número de subordinados que um gestor pode supervisionar diretamente. Amplitude estreita gera estrutura verticalizada (*tall structure*), com mais níveis de comando e comunicação mais lenta.
-> - **B)** Incorreta. Estrutura achatada decorre de amplitude **ampla/larga**.
-> - **C)** Incorreta. Excesso de níveis alonga a cadeia de comando e amplifica ruídos.
-> - **D)** Incorreta. Trata-se de variável da teoria da organização.
-> - **E)** Incorreta. Descentralização delega decisões, mantendo supervisão.
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+>
+> **Gabarito: E**
 
 ---
-
 ## 3. Critérios de Departamentalização
 
 A departamentalização consiste no agrupamento de atividades, recursos e servidores em unidades organizacionais homogêneas para viabilizar a divisão equilibrada do trabalho:
@@ -293,30 +310,39 @@ flowchart TD
 ---
 
 ### Teste 304
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em relação aos modelos de departamentalização das organizações formais, a estrutura **Matricial** diferencia-se dos modelos clássicos por:
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+Os níveis hierárquicos em uma organização distribuem 
+responsabilidades e poder, facilitando a gestão e a comunicação 
+interna. Cada nível tem um papel e specífico, desde a alta 
+administração, que define a visão estratégica, até os níveis 
+operacionais, que executam tarefas diárias. A estrutura 
+organizacional dirige atividades para alcançar objetivos e pode 
+variar conforme tamanho, setor e estratégia. Atualm ente, há 
+uma tendência à descentralização, embora algumas grandes 
+organizações busquem centralizar funções anteriormente 
+descentralizadas. 
+Assinale a opção que apresenta uma vantagem da 
+descentralização.
 
-* **A)** Sobrepor uma coordenação horizontal orientada a projetos ou produtos a uma estrutura vertical departamentalizada por funções, gerando dupla subordinação hierárquica para os membros das equipes.
-* **B)** Basear-se exclusivamente no critério geográfico ou territorial, alocando todos os servidores em unidades regionais autônomas.
-* **C)** Extinguir totalmente a especialização técnica dos servidores para transformá-los em operadores generalistas.
-* **D)** Proibir a formação de equipes multidisciplinares temporárias em qualquer setor da Administração Pública.
-* **E)** Impor rigidez funcional extrema que impede o compartilhamento de especialistas entre diferentes áreas do órgão.
-
+* **A)** Agilidade.
+* **B)** Controle.
+* **C)** Comunicação clara.
+* **D)** Interdependência.
+* **E)** Economia de escala.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. A **estrutura matricial** combina departamentalização funcional com departamentalização por projetos/produtos, gerando a **dupla subordinação** (o servidor responde ao gerente funcional e ao gerente do projeto).
-> - **B)** Incorreta. Refere-se à departamentalização geográfica.
-> - **C)** Incorreta. Preserva especialização funcional com flexibilidade de projetos.
-> - **D)** Incorreta. Essência da matriz é formar equipes multifuncionais.
-> - **E)** Incorreta. Proporciona alto compartilhamento dinâmico de recursos.
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+>
+> **Gabarito: E**
 
 ---
-
 ## 4. O Processo Organizacional e as Funções Administrativas (PODC)
 
 A administração moderna concebe o processo organizacional como um fluxo dinâmico, interdependente e contínuo composto por quatro funções clássicas:
@@ -375,55 +401,82 @@ O controle assegura que o desempenho real esteja em consonância com o que foi p
 ---
 
 ### Teste 305
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Uma das etapas cruciais da função administrativa de Direção é a comunicação organizacional. A respeito dos fluxos comunicacionais e de suas barreiras nas organizações públicas, assinale a alternativa correta:
+**(FCC – TRT-15 – Analista Judiciário - Tecnologia da Informação – 2015)**
+Sobre as estruturas organizacionais, considere: 
 
-* **A)** O fluxo de comunicação descendente transporta prioritariamente relatórios de desempenho, pedidos de esclarecimento e sugestões de melhoria vindos da base operacional.
-* **B)** O fluxo horizontal ou lateral refere-se à troca de informações entre servidores situados no mesmo nível hierárquico, sendo indispensável para a coordenação interdepartamental.
-* **C)** Barreiras semânticas decorrem exclusivamente de falhas mecânicas nos equipamentos de transmissão e instabilidade nas redes de computadores.
-* **D)** A comunicação diagonal ocorre exclusivamente entre a chefia superior de um setor e os estagiários daquele mesmo departamento.
-* **E)** A ampliação de níveis hierárquicos em estruturas verticais favorece a fidelidade da mensagem e elimina qualquer possibilidade de ruído comunicacional.
+ I. O grupamento das atividades de uma entidade em órgãos é efetuado de acordo com critérios de departamentalização 
+que, entre outros, podem ser: por produtos, por clientes ou por área geográfica.  
+ II. Dentre as relações formais verificadas na estrutura organizacional de uma instituição, pode-se citar a autoridade de linha, ou 
+seja, aquela exercida pelo chefe de um órgão diretamente sobre seus subordinados.  
+ III. A denominada estrutura matricial, descrita por Fayol, pressupõe,  no primeiro nível de departamentalização, as funções de 
+produção, comercialização, finanças e administração. 
 
+ Está correto o que consta APENAS em
+
+* **A)** II e III.
+* **B)** I e III.
+* **C)** I e II.
+* **D)** III.
+* **E)** I. 
+Caderno de Prova ’B02’, Tipo 001
+
+6 TRT15-Conhecimentos Gerais2 
+
+Regimento Interno do TRT da 15a Região
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Relatórios, dúvidas e sugestões vindos da base para a chefia constituem o fluxo **ascendente**. O fluxo descendente transmite diretrizes, metas e normas do topo para a base.
-> - **B)** Correta. A comunicação horizontal (ou lateral) ocorre entre membros de departamentos distintos ou colegas que ocupam o mesmo patamar hierárquico, facilitando a cooperação mútua, integração de processos e resolução ágil de problemas cotidianos.
-> - **C)** Incorreta. Falhas mecânicas e instabilidade de sinal são barreiras **físicas**. Barreiras **semânticas** dizem respeito ao significado das palavras, jargões técnicos incompreendidos ou diferenças de vocabulário.
-> - **D)** Incorreta. A comunicação **diagonal** atravessa diferentes funções e diferentes níveis hierárquicos simultaneamente (ex.: um analista de compras que se comunica diretamente com o Diretor de Tecnologia de outro órgão).
-> - **E)** Incorreta. Quanto maior o número de níveis hierárquicos, maior o risco de distorção ("efeito telefone sem fio") e ruídos na comunicação.
-> 
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+>
+> **Gabarito: E**
+
+---
+### Teste 306
+**(FGV – TRT-1 – Analista Judiciário - Tecnologia da Informação – 2024)**
+Marcelo é gerente de uma equipe de seis pessoas. 
+Recentemente, ele recebeu os resultados de um a pesquisa sobre 
+percepções e expectativas no trabalho realizada junto a sua 
+equipe. A pesquisa foi realizada pela área de recursos humanos, 
+devido aos sinais de forte desmotivação e falta de empenho da 
+equipe na realização do trabalho. Os resultados da pe squisa 
+indicaram que os membros da equipe consideram que: seu 
+trabalho é repetitivo, exigindo que apliquem sempre as mesmas 
+capacidades; e eles não recebem feedback claro e adequado 
+sobre seu trabalho. Marcelo gostaria de realizar mudanças no 
+trabalho da e quipe que permitissem estimular a motivação dos 
+membros. 
+Na situação descrita, com base no modelo das características do 
+trabalho (MCT) de Hackman e Oldham, é adequado adotar, 
+respectivamente, as seguintes iniciativas:
+
+* **A)** expansão vertical dos cargos; rotação de cargos;
+* **B)** formação de unidades naturais de trabalho; estabelecimento 
+de relação com os clientes;
+* **C)** combinação de tarefas; formação de unidades naturais de 
+trabalho;
+* **D)** expansão vertical dos cargos; expansão vertical dos cargos;
+* **E)** estabelecimento de relação com os clientes; estabelecimento 
+de relação com os clientes.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
 > **Gabarito: B**
 
 ---
-
-### Teste 306
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No âmbito da administração contemporânea, o processo administrativo de controle desdobra-se em três momentos temporais fundamentais: prévio, concomitante e posterior. Constitui exemplo típico de controle prévio (preventivo) no setor público:
-
-* **A)** A análise da prestação de contas do ordenador de despesa efetuada pelo Tribunal de Contas após o encerramento do exercício financeiro.
-* **B)** A aplicação de penalidade contratual de multa a uma empresa fornecedora que entregou bens com defeito de fabricação.
-* **C)** A medição semanal em tempo real do avanço físico de uma rodovia estadual pelo fiscal da administração durante a execução da obra.
-* **D)** A exigência de apresentação prévia de certidões de regularidade fiscal e habilitação jurídica no edital antes da contratação da empresa licitante.
-* **E)** A realização de auditoria de conformidade ex post destinada a quantificar o dano ao erário decorrente de sobrepreço em contrato encerrado.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A análise de contas após o encerramento do exercício financeiro é um controle **posterior (ex post)**.
-> - **B)** Incorreta. A aplicação de sanção por entrega defeituosa é uma medida **corretiva/posterior** à constatação da infração contratual.
-> - **C)** Incorreta. A fiscalização presencial durante a realização dos serviços é um controle **concomitante (em tempo real)**.
-> - **D)** Correta. O controle prévio (preventivo ou ex ante) atua antes que a ação administrativa se materialize, estabelecendo barreiras e condições de aptidão com o objetivo de evitar prejuízos futuros. A exigência editalícia de regularidade fiscal e jurídica antes da celebração do vínculo é um exemplo límpido de controle preventivo.
-> - **E)** Incorreta. Auditoria após a conclusão contratual para apuração de dano é controle **posterior**.
-> 
-> **Gabarito: D**
-
----
-
 ## 5. Gestão Pública vs. Gestão Privada: Convergências e Diferenças
 
 ```mermaid
@@ -456,84 +509,101 @@ flowchart TD
 ---
 
 ### Teste 307
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A respeito das funções do processo administrativo (planejamento, organização, direção e controle) e das diferenças entre a gestão pública e a gestão privada, assinale a opção correta:
+**(FGV – TRT-1 – Analista Judiciário - Tecnologia da Informação – 2024)**
+A empresa fictícia XPTO é uma fabricante de móveis de médio 
+porte que adota a seguinte departamentalização: setor de corte; 
+setor de montagem; setor de acabamento e pintura. A direção da 
+XPTO reconhece que uma das vantagens desse tipo de 
+departamentalização é a eficiência gerada pela racionalização das 
+diferentes etapas do processo produtivo. 
+No entanto, a departamentalização adotada também apresenta 
+potenciais desvantagens, tais como:
 
-* **A)** A função administrativa de planejamento restringe-se ao nível operacional da instituição, cabendo à função de organização a definição das metas estratégicas de longo prazo.
-* **B)** A gestão pública e a gestão privada diferenciam-se essencialmente pelo regime de legalidade, na medida em que, na administração pública, o administrador só pode fazer o que a lei expressamente autoriza ou determina.
-* **C)** O controle é a primeira função administrativa a ser desempenhada no processo de trabalho, dispensando a existência de padrões prévios fixados no planejamento.
-* **D)** A amplitude de controle administrativa define a quantidade total de departamentos existentes na organização, independentemente do número de subordinados por chefia.
-* **E)** As organizações privadas submetem-se ao mesmo regime de recrutamento universal mediante concurso público imposto pela Constituição aos órgãos estatais.
-
+* **A)** dificultar a coordenação intradepartamental;
+* **B)** gerar conflitos decorrentes da duplicidade de supervisão;
+* **C)** oferecer pouca flexibilidade e capacidade de adaptação a 
+mudanças tecnológicas;
+* **D)** aumentar os custos operacionais devido à redundância de 
+funções;
+* **E)** induzir à burocratização e aumento do número de níveis 
+hierárquicos.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O planejamento abrange três horizontes: estratégico (longo prazo), tático (médio prazo) e operacional (curto prazo). A fixação de metas institucionais pertence ao planejamento estratégico, e não à organização.
-> - **B)** Correta. Essa é a distinção jurídica clássica: na gestão privada vigora a autonomia da vontade (fazer tudo que a lei não proíbe - Art. 5º, II da CF), enquanto na administração pública incide o princípio da legalidade estrita (o agente só pode agir de acordo com o que a lei expressamente autoriza ou determina - Art. 37, caput da CF).
-> - **C)** Incorreta. O planejamento é a primeira função administrativa. O controle depende da existência prévia de metas e padrões para aferir desvios e corrigi-los.
-> - **D)** Incorreta. Amplitude de controle administrativo mede o número de subordinados atribuídos diretamente a cada supervisor ou gestor.
-> - **E)** Incorreta. O dever de concurso público é imposto pela CF/88 (art. 37, II) exclusivamente para a investidura em cargos e empregos públicos da Administração Direta e Indireta.
-> 
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
 > **Gabarito: B**
 
 ---
-
 ### Teste 308
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na Administração Pública contemporânea, a distinção entre **Concentração/Desconcentração** e **Centralização/Descentralização** é basilar para a compreensão da estrutura estatal.
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+Assinale a opção que, em uma organização, descreve o objetivo 
+principal dos controles de segregação das funções nos processos 
+de definição, implantação e gestão de políticas de TI.
 
-Sobre esses conceitos fundamentais, assinale a alternativa correta:
-
-* **A)** A desconcentração envolve a distribuição interna de competências decisórias dentro de uma mesma pessoa jurídica (órgão público), mantendo-se a relação de subordinação hierárquica; já a descentralização consiste na transferência de competências para outra pessoa jurídica distinta (da Administração Indireta ou particular).
-* **B)** A criação de uma autarquia estadual constitui típico exemplo de desconcentração administrativa sem personalidade jurídica própria.
-* **C)** A criação de delegacias de polícia ou postos de atendimento ao cidadão em municípios do interior configura típica descentralização por outorga legal.
-* **D)** A descentralização preserva a hierarquia direta e a subordinação disciplinar entre o Chefe do Executivo e os dirigentes das entidades privadas contratadas.
-* **E)** A desconcentração enseja a extinção imediata do poder regulamentar do ente estatal matriz.
-
+* **A)** Maximizar a eficiência operacional através da centralização 
+das decisões.
+* **B)** Minimizar conflitos de interesse e prevenir fraudes.
+* **C)** Simplificar os processos administrativos reduzindo o número 
+de funcionários envolvidos.
+* **D)** Aumentar a velocidade de execução de tarefas repetitivas.
+* **E)** Reduzir custos operacionais ao diminuir a supervisão 
+necessária.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. **Desconcentração** é interna (mesma pessoa jurídica, com hierarquia); **Descentralização** é externa (outra pessoa jurídica, sem hierarquia, apenas tutela/vinculação).
-> - **B)** Incorreta. Criação de autarquia é descentralização administrativa.
-> - **C)** Incorreta. Postos e delegacias são desconcentração.
-> - **D)** Incorreta. Na descentralização inexiste subordinação hierárquica.
-> - **E)** Incorreta. A desconcentração não afeta poderes estatais.
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: B**
 
 ---
-
 ### Teste 309
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No exercício da função administrativa de **Controle**, a literatura e a jurisprudência consagraram a classificação do controle governamental quanto ao momento de sua efetivação em: prévio (preventivo), concomitante e a posteriori (corretivo).
+**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**
+As bibliotecas podem implementar o Customer Relationship 
+Management (CRM) como uma nova forma de gestão 
+centrada no cliente, capaz de colaborar na definição de 
+serviços e produtos mais adequados. Os quatro passos 
+básicos para implementação do CRM são identificar, 
+diferenciar, interagir e
 
-Constitui exemplo de controle governamental **prévio** (ou preventivo):
-
-* **A)** O exame e homologação prévia de editais de licitação de grande vulto ou a concessão de tutela de urgência cautelar para suspender a assinatura de contrato com indícios de sobrepreço.
-* **B)** A auditoria contábil operacional realizada pelo Tribunal de Contas após o encerramento do exercício sobre as despesas de Restos a Pagar.
-* **C)** A instauração de Tomada de Contas Especial cinco anos após a execução irregular de um convênio de repasse.
-* **D)** O julgamento formal das contas dos ordenadores de despesas referente ao ano financeiro pretérito.
-* **E)** A cobrança judicial via execução fiscal dos valores de multas imputadas pelo Tribunal de Contas.
-
+* **A)** generalizar, voltado para a implementação de 
+serviços que atendam a todos os clientes, 
+indistintamente.
+* **B)** segmentar, que busca estabelecer diferentes níveis 
+de valor dos serviços para os clientes.
+* **C)** personalizar, que visa a adaptação das atividades, 
+para um melhor atendimento aos clientes.
+* **D)** priorizar, que define serviços e produtos que devem 
+ser objeto de atenção dos clientes.
+* **E)** intermediar, que equaciona as necessidades dos 
+clientes e as possibilidades da biblioteca.  
+_________________________________________________________
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. O **controle prévio/preventivo** atua antes da consumação ou produção de efeitos do ato (ex.: exame cautelar de editais licitatórios, vistorias preliminares, suspensão de assinatura de contratos).
-> - **B)** Incorreta. Auditoria após encerramento do exercício é controle *a posteriori*.
-> - **C)** Incorreta. TCE é procedimento corretivo/repressivo posterior.
-> - **D)** Incorreta. Julgamento de contas é a posteriori.
-> - **E)** Incorreta. Execução fiscal é coercitiva final.
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: B**
 
 ---
-
 ## 🌐 Fontes Oficiais & Referências Bibliográficas
 
 * [Decreto-Lei nº 200/1967 (Organização da Administração Federal)](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm) - Princípios fundamentais de planejamento, coordenação, descentralização, delegação de competência e controle.

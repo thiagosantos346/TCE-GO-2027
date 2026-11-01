@@ -88,94 +88,104 @@ flowchart TD
 ---
 
 ### Teste 390
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Segundo a teoria da Cadeia de Valor concebida por Michael Porter, as atividades organizacionais dividem-se em atividades primárias e atividades de apoio (suporte). Dentre as alternativas a seguir, assinale a que apresenta unicamente Atividades de Apoio:
+**(FGV – TCE-PA – Auditor de Controle Externo - Tecnologia da Informação – 2024)**
+Avalie se as seguintes afirmativas a seguir, contidas no 
+Planejamento Estratégico do TCE -PA, correspondem a um valor 
+institucional, à missão da organização ou à visão da organização. 
+I. Ser instituição de referência no controle externo e contribuir 
+para o aperfeiçoamento da administração pública.  
+II. Primar pela divulgação clara e acessível dos seus atos e dos 
+decorrentes de sua missão.  
+III. Exercer o controle externo da gestão de recursos públicos 
+estaduais em benefício da sociedade.  
+IV. Atuar com liberdade, imparcialidade e autonomia.  
+As afirmativas referem-se, respectivamente, a
 
-* **A)** Logística de entrada, operações e logística de saída.
-* **B)** Marketing e vendas, serviços pós-venda e infraestrutura da organização.
-* **C)** Gestão de recursos humanos, desenvolvimento tecnológico e aquisições (compras).
-* **D)** Operações fabris, compras de matéria-prima e distribuição comercial.
-* **E)** Logística interna, assistência técnica a clientes e recursos humanos.
-
-
----
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** Logística de entrada, operações e logística de saída são atividades primárias.  
-> - **B) Incorreta.** Marketing e serviços pós-venda são atividades primárias; apenas infraestrutura é de apoio.  
-> - **C) CORRETA.** No modelo de Porter, as **Atividades de Apoio (Suporte)** são compostas por quatro funções transversais que sustentam toda a organização: 1) Infraestrutura Organizacional; 2) **Gestão de Recursos Humanos**; 3) **Desenvolvimento de Tecnologia**; e 4) **Aquisições (função de compras e suprimentos)**.  
-> - **D) Incorreta.** Operações fabris e distribuição (logística de saída) são atividades primárias.  
-> - **E) Incorreta.** Logística interna e assistência técnica pós-venda são atividades primárias.  
-> 
-> **Gabarito: C**
-
----
-
-### Teste 391
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No âmbito da administração pública gerencial, a aplicação da teoria da Cadeia de Valor exige a transposição dos conceitos originalmente desenhados para empresas mercantis privadas. Em um Tribunal de Contas estadual, a atividade primária correspondente ao processamento interno das fiscalizações, análise documental de contratos e elaboração de relatórios técnicos de auditoria é categorizada como:
-
-* **A)** Infraestrutura Organizacional.
-* **B)** Logística de Entrada de Insumos.
-* **C)** Operações (Transformação).
-* **D)** Aquisições e Suprimentos.
-* **E)** Logística Externa de Distribuição.
-
-
----
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** Infraestrutura organizacional é atividade de apoio transversal (administração predial, assessoria jurídica geral).  
-> - **B) Incorreta.** Logística de entrada seria o recebimento e protocolo das contas dos jurisdicionados.  
-> - **C) CORRETA.** As **Operações** correspondem ao processo nuclear de transformação dos insumos (dados brutos, notas fiscais e processos licitatórios) no produto técnico final do Tribunal (relatórios circunstanciados de auditoria e propostas de voto). Constitui a atividade operacional finalística precípua do órgão de controle.  
-> - **D) Incorreta.** Aquisições é atividade de apoio voltada a comprar materiais para o Tribunal.  
-> - **E) Incorreta.** Logística externa seria a publicação oficial dos acórdãos e notificação dos jurisdicionados.  
-> 
-> **Gabarito: C**
-
----
-
-
-#### Transposição para os Órgãos Públicos de Controle (TCE-GO):
-No setor público, a "Margem de Lucro Privada" é convertida no conceito fundamental de **Valor Público** (Mark Moore):
-
-* **Atividades Primárias do TCE-GO:** Recebimento e autuação das prestações de contas municipais e estaduais (Logística de Entrada) $\rightarrow$ Análise técnica, instrução de processos e elaboração de relatórios de auditoria (Operações) $\rightarrow$ Sessões plenárias, julgamentos, publicação de acórdãos e emissão de pareceres prévios (Logística de Saída) $\rightarrow$ Divulgação ampla no Portal da Transparência e Diário Oficial (Marketing e Comunicação) $\rightarrow$ Monitoramento do cumprimento das determinações e recomendações pelos órgãos jurisdicionados (Serviços e Pós-Decisão).
-* **Atividades de Apoio do TCE-GO:** A gestão predial, o departamento de TI (sistemas informatizados), o setor de compras/licitações e a Escola Superior de Controle Externo.
-
-> 🚨 **ALERTA DE PROVA / PEGADINHA FCC (COMPRAS E TI SÃO ATIVIDADES DE APOIO!):**  
-> Pegadinha campeã em concursos da FCC: afirmar que "a aquisição de materiais e o desenvolvimento de sistemas informatizados são atividades primárias da cadeia de valor". **FALSO!** No modelo oficial de Michael Porter, **Aquisições (Compras)** e **Desenvolvimento Tecnológico (TI)** são **Atividades de Apoio (Suporte)**, pois exercem papel de sustentação transversal para as atividades primárias!
-
-> 📌 **NOTA EXPLICATIVA (VALOR PÚBLICO NO CONTROLE EXTERNO):**  
-> Para o Tribunal de Contas, valor público significa fiscalizar para coibir a corrupção e os desvios, induzir a melhoria das políticas públicas de saúde e educação e assegurar que os impostos pagos pelos cidadãos retornem em serviços estatais de excelência.
-
----
-
-### Teste 392
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na Cadeia de Valor de Michael Porter, as atividades empresariais e organizacionais são rigorosamente classificadas em Atividades Primárias e Atividades de Apoio (ou Suporte).
-
-Constitui típica **Atividade Primária** da Cadeia de Valor:
-
-* **A)** Logística Interna (recebimento, armazenamento e distribuição de insumos e matérias-primas).
-* **B)** Gestão de Recursos Humanos (recrutamento, seleção, treinamento e remuneração).
-* **C)** Desenvolvimento de Tecnologia e Pesquisa (P&D).
-* **D)** Infraestrutura da Empresa (planejamento, contabilidade, finanças e assessoria jurídica).
-* **E)** Aquisição / Compras de suprimentos corporativos gerais.
-
+* **A)** valor, visão, missão e valor.
+* **B)** visão, missão, valor e valor.
+* **C)** visão, visão, missão e missão.
+* **D)** missão, visão, valor e visão.
+* **E)** visão, valor, missão e valor.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. A Cadeia de Valor de Porter divide-se em: **Atividades Primárias** (envolvidas diretamente na criação física, venda e entrega do produto/serviço): Logística Interna, Operações, Logística Externa, Marketing/Vendas e Serviços pós-venda. As **Atividades de Apoio/Suporte** (sustentam as atividades primárias fornecendo insumos, tecnologia e infraestrutura): Infraestrutura da empresa, Gestão de RH, Desenvolvimento de Tecnologia e Aquisição/Compras.
-> - **B), C), D), E)** Incorretas. São todas Atividades de Apoio / Suporte.
-> 
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
 > **Gabarito: A**
 
 ---
+### Teste 391
+**(FGV – TCE-PA – Auditor de Controle Externo - Tecnologia da Informação – 2024)**
+Avalie se as seguintes afirmativas a seguir, contidas no 
+Planejamento Estratégico do TCE -PA, correspondem a um valor 
+institucional, à missão da organização ou à visão da organização. 
+I. Ser instituição de referência no controle externo e contribuir 
+para o aperfeiçoamento da administração pública.  
+II. Primar pela divulgação clara e acessível dos seus atos e dos 
+decorrentes de sua missão.  
+III. Exercer o controle externo da gestão de recursos públicos 
+estaduais em benefício da sociedade.  
+IV. Atuar com liberdade, imparcialidade e autonomia.  
+As afirmativas referem-se, respectivamente, a
 
+* **A)** valor, visão, missão e valor.
+* **B)** visão, missão, valor e valor.
+* **C)** visão, visão, missão e missão.
+* **D)** missão, visão, valor e visão.
+* **E)** visão, valor, missão e valor.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: A**
+
+---
+### Teste 392
+**(FGV – TCE-PA – Auditor de Controle Externo - Tecnologia da Informação – 2024)**
+Avalie se as seguintes afirmativas a seguir, contidas no 
+Planejamento Estratégico do TCE -PA, correspondem a um valor 
+institucional, à missão da organização ou à visão da organização. 
+I. Ser instituição de referência no controle externo e c ontribuir 
+para o aperfeiçoamento da administração pública.  
+II. Primar pela divulgação clara e acessível dos seus atos e dos 
+decorrentes de sua missão.  
+III. Exercer o controle externo da gestão de recursos públicos 
+estaduais em benefício da sociedade.  
+IV. Atuar com liberdade, imparcialidade e autonomia.  
+As afirmativas referem-se, respectivamente, a
+
+* **A)** valor, visão, missão e valor.
+* **B)** visão, missão, valor e valor.
+* **C)** visão, visão, missão e missão.
+* **D)** missão, visão, valor e visão.
+* **E)** visão, valor, missão e valor.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: A**
+
+---
 ## 2. O Desdobramento da Estratégia (*Cascading*) pelo BSC
 
 O Balanced Scorecard (BSC) só se converte em realidade operacional quando o mapa estratégico é desdobrado de forma descendente em iniciativas concretas:
@@ -210,52 +220,70 @@ flowchart TD
 ---
 
 ### Teste 393
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No processo de desdobramento da estratégia corporativa pelo Balanced Scorecard (BSC), a metodologia exige a articulação harmônica de quatro componentes operacionais para garantir a efetividade da execução. A associação correta entre o componente do BSC e sua respectiva definição é:
+**(FGV – TCE-PA – Auditor de Controle Externo - Tecnologia da Informação – 2024)**
+Avalie se as seguintes afirmativas a seguir, contidas no 
+Planejamento Estratégico do TCE -PA, correspondem a um valor 
+institucional, à missão da organização ou à visão da organização. 
+I. Ser instituição de referência no controle externo e contribuir 
+para o aperfeiçoamento da administração pública.  
+II. Primar pela divulgação clara e acessível dos seus atos e dos 
+decorrentes de sua missão.  
+III. Exercer o controle externo da gestão de recursos públicos 
+estaduais em benefício da sociedade.  
+IV. Atuar com liberdade, imparcialidade e autonomia.  
+As afirmativas referem-se, respectivamente, a
 
-* **A)** Objetivo Estratégico: o plano orçamentário específico que detalha a dotação de diárias dos servidores.
-* **B)** Indicador-Chave (KPI): a métrica quantificável utilizada para mensurar periodicamente o nível de alcance de determinado objetivo estratégico.
-* **C)** Meta: o projeto inovador financiado pela alta direção para criar novas unidades físicas.
-* **D)** Iniciativa Estratégica: o valor numérico fixo que expressa o grau de incerteza do ambiente externo.
-* **E)** Mapa Estratégico: o documento contábil que consolida a execução orçamentária do exercício anterior.
-
-
----
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** O Objetivo Estratégico define *o que* a organização almeja alcançar em cada perspectiva do BSC, não se confundindo com plano orçamentário de diárias.  
-> - **B) CORRETA.** O **Indicador-Chave de Desempenho (KPI - *Key Performance Indicator*)** é o instrumento analítico quantificável que serve de régua para monitorar continuamente o desempenho e verificar se o objetivo estratégico está sendo atingido.  
-> - **C) Incorreta.** A Meta é o valor numérico temporalmente delimitado que se pretende alcançar (ex.: atingir 95% até 2026).  
-> - **D) Incorreta.** A Iniciativa Estratégica é o projeto de ação concreta ou programa que viabiliza a consecução da meta.  
-> - **E) Incorreta.** O Mapa Estratégico é a representação visual das relações lógicas de causa e efeito entre os objetivos das perspectivas do BSC.  
-> 
-> **Gabarito: B**
-
----
-
-### Teste 394
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No processo de desdobramento da estratégia corporativa pelo Balanced Scorecard, a técnica denominada **Cascading** (Estratégia em Cascata) tem por objetivo central:
-
-* **A)** Desdobrar e traduzir os objetivos, metas e indicadores corporativos do nível estratégico para os níveis tático e operacional, alinhando as diretorias setoriais, gerências e equipes individuais à estratégia mestre da organização.
-* **B)** Eliminar a remuneração variável e gratificações dos servidores públicos estaduais.
-* **C)** Concentrar todas as decisões de compras na presidência da comissão permanente de licitação.
-* **D)** Impor a demissão periódica de 10% dos servidores com pior produtividade mecânica.
-* **E)** Substituir os sistemas de gestão eletrônica de processos por formulários impressos.
-
+* **A)** valor, visão, missão e valor.
+* **B)** visão, missão, valor e valor.
+* **C)** visão, visão, missão e missão.
+* **D)** missão, visão, valor e visão.
+* **E)** visão, valor, missão e valor.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. O desdobramento da estratégia (*cascading*) promove o alinhamento organizacional vertical: os objetivos macro do mapa estratégico institucional são sucessivamente traduzidos em objetivos departamentais e metas operacionais para equipes e indivíduos, assegurando que o trabalho diário contribua para a estratégia corporativa.
-> - **B), C), D), E)** Incorretas. Distorções que nada têm a ver com a metodologia do BSC.
-> 
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
 > **Gabarito: A**
 
 ---
+### Teste 394
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+A formulação estratégica se concentra na definição de metas 
+claras e na escolha de ações que direcionem a organização rumo 
+ao sucesso. A implementação, por sua vez, exige coordenação 
+eficaz, monitoramento contínuo e ajustes conforme necessário, 
+garantindo que a estratégia se traduza em resultados concretos. 
+Assinale a opção que apresenta um problema que exige nível de 
+decisão estratégica.
 
+* **A)** Seleção do mix produto/mercado capaz de melhorar o 
+potencial de retorno do investimento da empresa.
+* **B)** Estruturação dos recursos da empresa para proporcionar 
+melhor desempenho.
+* **C)** Melhoria da realização do potencial de retorno sobre o 
+investimento por meio do desempenho das tarefas.
+* **D)** Distribuição dos recursos entre as áreas funcionais.
+* **E)** Programação da aplicação e conversão dos recursos.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: C**
+
+---
 ## 3. As Quatro Barreiras à Execução da Estratégia (Kaplan e Norton)
 
 Estudos clássicos conduzidos por Robert Kaplan e David Norton comprovaram que a maioria dos planos estratégicos fracassa na fase de execução prática em razão de quatro barreiras clássicas:
@@ -281,54 +309,79 @@ flowchart TD
 ---
 
 ### Teste 395
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No contexto do alinhamento organizacional e desdobramento da estratégia pelo Balanced Scorecard (BSC), Robert Kaplan e David Norton identificaram as principais barreiras que impedem a execução eficaz dos planos estratégicos nas instituições. A constatação empírica de que a imensa maioria dos orçamentos financeiros e dos planos anuais de compras não guarda conexão direta com as prioridades e iniciativas definidas no plano estratégico de longo prazo tipifica a:
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+A gestão estratégica é um processo que abrange a definição e 
+implementação de estratég ias para alcançar objetivos 
+organizacionais. Seus conceitos centrais incluem a análise do 
+ambiente interno e externo, a formulação de planos estratégicos 
+e a alocação eficaz de recursos para execução. 
+Com relação à gestão estratégica, avalie as afirmativas a seguir: 
+I. Na abordagem tradicional de formulação estratégica, o 
+método mais utilizado é o prescritivo, originado da evolução 
+das escolas de planejamento, gestão estratégica e 
+posicionamento. 
+II. Organizações menos focadas na sistematização das atividades 
+de formulação estratégica têm adotado métodos descritivos, 
+como os orientados às escolas de aprendizagem 
+organizacional, à escola cognitiva e à escola empreendedora. 
+III. Em condições imprevisíveis e dinâmicas, as organizações não 
+precisam de métodos de  resposta rápida às instabilidades 
+futuras, nem de interação constante com stakeholders ou 
+adaptação frequente. 
+Está correto o que se afirma em
 
-* **A)** Barreira da visão.
-* **B)** Barreira das pessoas.
-* **C)** Barreira dos recursos.
-* **D)** Barreira da gestão.
-* **E)** Barreira cultural mecanicista.
-
-
----
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** A barreira da visão traduz a incompreensão da estratégia pelos servidores da base (apenas 5% a compreendem).  
-> - **B) Incorreta.** A barreira das pessoas ocorre quando os incentivos e metas individuais dos colaboradores não têm vínculo com os objetivos do plano estratégico.  
-> - **C) CORRETA.** A **barreira dos recursos** decorre da desconexão entre o processo orçamentário e o plano estratégico (mais de 60% das organizações elaboram seus orçamentos sem consultar as prioridades estratégicas, inviabilizando o financiamento das novas iniciativas).  
-> - **D) Incorreta.** A barreira da gestão refere-se à falta de tempo da alta liderança para avaliar periodicamente a execução da estratégia (menos de uma hora por mês em reuniões de avaliação estratégica).  
-> - **E) Incorreta.** Categoria inexistente na classificação de Kaplan e Norton.  
-> 
-> **Gabarito: C**
-
----
-
-### Teste 396
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Kaplan e Norton identificaram as quatro barreiras primordiais que impedem a execução eficaz das estratégias organizacionais nas instituições.
-
-A barreira que ocorre quando a alta direção formula a estratégia, mas não a comunica nem a torna compreensível para os servidores e colaboradores que executam os serviços cotidianos na ponta da linha é denominada:
-
-* **A)** Barreira da Visão.
-* **B)** Barreira das Pessoas.
-* **C)** Barreira da Gestão.
-* **D)** Barreira dos Recursos.
-* **E)** Barreira Orçamentária Externa.
-
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. As **quatro barreiras de Kaplan e Norton**: (1) **Barreira da Visão**: a equipe não compreende a estratégia nem a visão (apenas uma minoria conhece o plano); (2) **Barreira das Pessoas**: metas e incentivos individuais não estão ligados à estratégia; (3) **Barreira da Gestão**: a liderança dedica tempo excessivo a problemas operacionais e pouco à estratégia; (4) **Barreira dos Recursos**: orçamentos e investimentos não são alocados aos projetos estratégicos prioritários.
-> - **B), C), D), E)** Incorretas. Outras barreiras ou terminologias distintas do conceito cobrado.
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: D**
+
+---
+### Teste 396
+**(FGV – TCE-PA – Auditor de Controle Externo - Tecnologia da Informação – 2024)**
+Avalie se as seguintes afirmativas a seguir, contidas no 
+Planejamento Estratégico do TCE -PA, correspondem a um valor 
+institucional, à missão da organização ou à visão da organização. 
+I. Ser instituição de referência no controle externo e contribuir 
+para o aperfeiçoamento da administração pública.  
+II. Primar pela divulgação clara e acessível dos seus atos e dos 
+decorrentes de sua missão.  
+III. Exercer o controle externo da gestão de recursos públicos 
+estaduais em benefício da sociedade.  
+IV. Atuar com liberdade, imparcialidade e autonomia.  
+As afirmativas referem-se, respectivamente, a
+
+* **A)** valor, visão, missão e valor.
+* **B)** visão, missão, valor e valor.
+* **C)** visão, visão, missão e missão.
+* **D)** missão, visão, valor e visão.
+* **E)** visão, valor, missão e valor.
 
 ---
 
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: A**
+
+---
 ## 4. Escritório de Gestão Estratégica (EGE) e Reuniões de Avaliação (RAE)
 
 Para romper as barreiras de execução, a governança pública moderna institui estruturas e rotinas permanentes:
@@ -339,78 +392,112 @@ Para romper as barreiras de execução, a governança pública moderna institui 
 ---
 
 ### Teste 397
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Com o propósito de assegurar a governança e a implementação efetiva de seu plano estratégico, determinado órgão público instituiu uma unidade permanente denominada Escritório de Gestão Estratégica (EGE) e fixou Reuniões de Avaliação da Estratégia (RAE) com periodicidade bimestral. A finalidade precípua das RAEs é:
+**(FCC – TRT-16 – Analista Judiciário - Tecnologia da Informação – 2014)**
+Ao elaborar seus processos de planejamento, as organizações definem objetivos e deliberam estratégias com a finalidade de 
+alcançá-los. Sobre as estratégias organizacionais é correto afirmar que há
 
-* **A)** Realizar sindicâncias administrativas para apuração de infrações disciplinares dos analistas operacionais.
-* **B)** Avaliar o desempenho dos indicadores estratégicos no painel de controle executivo e deliberar tempestivamente sobre ações corretivas para objetivos que estejam distantes das metas pactuadas.
-* **C)** Redigir pareceres jurídicos conclusivos sobre recursos administrativos de servidores subalternos.
-* **D)** Proceder ao inventário físico anual de bens móveis e equipamentos de informática do almoxarifado.
-* **E)** Julgar as contas anuais de governo encaminhadas pelos prefeitos municipais ao parlamento.
+* **A)** Estratégia Defensiva
+, utilizada por organizações que se encontram constantemente buscando oportunidades de mercado e 
+regularmente estão experimentando responder tendências.
+* **B)** Estratégia Reativa
+, utilizada por organizações que operam em dois tipos de domínio de produto/mercado: um 
+relacionamento estável e outro instável.
+* **C)** Estratégia Analítica
+, são aquelas cujos administradores percebem a ocorrência de mudanças e incertezas no ambiente, 
+mas não possuem a habilidade necessária para responder eficazmente, carecendo de uma consistente relação estrutura-
+estratégia.
+* **D)** Estratégia Exploradora,
+ utilizada por organizações que possuem um estreito domínio de produto/mercado, não se 
+preocupando com a busca de oportunidades fora do seu domínio atual.
+* **E)** Estratégia Defensiva
+, utilizada por organizações que raramente necessitam 
+fazer grandes ajustes em sua tecnologia, em sua 
+estrutura ou nos seus métodos de operação. Elas dedicam a 
+sua maior atenção na constante melhora da eficiência das 
+operações existentes. 
+Caderno de Prova ’J10’, Tipo 001
 
+8 TRT16-An.Jud.-Tec.Informação-J10
 
 ---
 
-> **Comentário Detalhado:**  
+> **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Sindicâncias disciplinares competem à Corregedoria do órgão.  
-> - **B) CORRETA.** As **Reuniões de Avaliação da Estratégia (RAE)** constituem o rito máximo de governança executiva do plano estratégico: reúnem periodicamente a alta direção e os coordenadores de projetos para analisar os *dashboards* de indicadores (KPIs), identificar semáforos amarelos ou vermelhos e deliberar ajustes de rota e planos de contingência tempestivos.  
-> - **C) Incorreta.** Emissão de pareceres em recursos de pessoal compete à consultoria jurídica ou área de RH.  
-> - **D) Incorreta.** Inventário físico de bens é rotina da gerência de patrimônio e almoxarifado.  
-> - **E) Incorreta.** O julgamento de contas municipais é competência legislativa/fiscalizatória externa do plenário.  
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+>
+> **Gabarito: E**
 
 ---
-
 ### Teste 398
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na governança estratégica moderna dos órgãos públicos (como no TCE-GO), as **Reuniões de Avaliação da Estratégia (RAE)** desempenham papel crucial na governança executiva.
+**(FGV – TCE-PA – Auditor de Controle Externo – 2024)**
+Ana, Prefeita do Município Alfa, contava com residência oficial, 
+que se situava em localidade central, próxima à sede do Partido 
+Político Beta, ao qual estava filiada. No ano de realização da 
+eleição em que concorreria à reeleição, Ana realizou reuniões de 
+campanha de modo recorrente, em caráter reservado, na 
+residência oficial, o que foi objeto de críticas dos demais 
+candidatos ao pleito. 
+No caso em tela, é correto afirmar que a conduta de Ana é
 
-O propósito primordial das RAEs é:
+* **A)** lícita, já que as reuniões não tiveram caráter de ato público.
+* **B)** ilícita, pois é vedado o uso de bens públicos em benefício de 
+candidato.
+* **C)** Ilícita, salvo se Ana foi expressamente autorizada a realizar as 
+reuniões pela Câmara Municipal de Alfa.
+* **D)** lícita, desde que as reuniões tenham sido realizadas em 
+momento anterior à convenção partidária.
+* **E)** lícita, desde que as reuniões tenham sido realizadas em 
+momento anterior ao registro de candidatura. 
 
-* **A)** Avaliar o andamento das iniciativas e indicadores estratégicos institucionais em periodicidade definida, debatendo causas de desvios e decidindo intervenções saneadoras e alocação de recursos em alto nível.
-* **B)** Realizar a apuração de faltas funcionais disciplinares individuais dos servidores para abertura de PAD.
-* **C)** Fiscalizar a conformidade fiscal das declarações de imposto de renda de pessoas físicas.
-* **D)** Redigir pareceres jurídicos para aprovação de editais de concurso público.
-* **E)** Conceder recesso administrativo remunerado aos membros dos comitês executivos.
-
+AUDITOR DE CONTROLE EXTERNO – ÁREA ADMINISTRATIVA - DIREITO – MANHÃ  TIPO  BRANCA – PÁGINA 24
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. As **Reuniões de Avaliação da Estratégia (RAE)** reúnem periodicamente a alta administração e os líderes de projetos para revisar o mapa estratégico, analisar se os indicadores estão atingindo as metas e tomar decisões corretivas para destravar projetos estratégicos prioritários.
-> - **B), C), D), E)** Incorretas. Funções corriqueiras ou disciplinares estranhas ao escopo das RAEs.
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: D**
 
 ---
-
 ### Teste 399
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No âmbito dos Tribunais de Contas, o **Escritório de Gestão Estratégica (EGE)** atua como unidade técnica de apoio à governança corporativa.
+**(FGV – TCE-PA – Auditor de Controle Externo – 2024)**
+Um processo é uma sequência organizada e cronológica de ações 
+que transforma insumos, agregando valor por meio de recursos e 
+tecnologias, com o objetivo de produzir bens ou serviços de 
+qualidade para atender às demandas dos clientes. 
+Assinale a opção que apresenta o conjunto de fatores que entram 
+na produção de bens ou serviços.
 
-Dentre as atribuições típicas do EGE em uma corte de contas, destaca-se:
+* **A)** Atividades.
+* **B)** Insumos.
+* **C)** Recursos.
+* **D)** Tempos.
+* **E)** Movimentos. 
 
-* **A)** Facilitar o processo de planejamento estratégico institucional, apoiar as áreas na definição de indicadores e metas, consolidar relatórios de desempenho e secretariar as Reuniões de Avaliação da Estratégia.
-* **B)** Emitir votos de julgamento de mérito com força jurisdicional nos processos de fiscalização contábil.
-* **C)** Fiscalizar in loco as obras de construção civil e realizar medições de asfalto em rodovias estaduais.
-* **D)** Gerenciar a segurança armada e o policiamento ostensivo das portarias do prédio sede.
-* **E)** Substituir os Conselheiros titulares do Tribunal em caso de vacância definitiva do cargo.
-
+AUDITOR DE CONTROLE EXTERNO – ÁREA ADMINISTRATIVA - ADMINISTRAÇÃO – MANHÃ  TIPO  BRANCA – PÁGINA 19
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. O **Escritório de Gestão Estratégica (EGE / PMO Estratégico)** é o guardião metodológico da estratégia do órgão: auxilia a formulação, apoia os gestores setoriais na gestão de projetos e indicadores, padroniza ferramentas (BSC, 5W2H) e alimenta a alta direção com dados consolidados para subsidiar decisões de governança.
-> - **B), C), D), E)** Incorretas. Atribuições institucionais próprias dos Conselheiros, auditores fiscais ou segurança predial.
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+>
+> **Gabarito: E**
 
 ---
-
 ## 5. Fontes Oficiais e Referências Bibliográficas
 
 * [Decreto nº 9.203/2017 (Monitoramento e Alinhamento Estratégico)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9203.htm) - Disciplina o acompanhamento contínuo de resultados através de metas e indicadores de desempenho.

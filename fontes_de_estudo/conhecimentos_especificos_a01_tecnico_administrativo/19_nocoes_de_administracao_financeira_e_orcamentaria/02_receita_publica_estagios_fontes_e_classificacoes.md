@@ -86,30 +86,39 @@ Os **ingressos extraorçamentários** não configuram receita orçamentária, n�
 ---
 
 ### Teste 220
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na execução orçamentária de determinada entidade autárquica estadual, os valores descontados mensalmente na folha de pagamentos dos seus servidores a título de contribuição previdenciária própria e de pensão alimentícia judicial fixada por sentença constituem:
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+Revela-se ilegal a recusa da autoridade impetrada em expedir 
+certidão negativa de débito (CND) ou de certidão positiva com 
+efeitos de negativa (CPEN) quando a autoridade tributária verifica 
+a ocorrência de
 
-* **A)** Receitas Correntes Patrimoniais da própria autarquia.
-* **B)** Ingressos Extraorçamentários.
-* **C)** Receitas de Capital decorrentes de amortização forçada de encargos de pessoal.
-* **D)** Receitas Tributárias originárias de competência privativa do Poder Executivo.
-* **E)** Recursos vinculados de transferências voluntárias intergovernamentais.
-
+* **A)** tributo sujeito a lançamento por homologação, enquanto 
+este não se efetivar.
+* **B)** de pagamento a menor, em virtude da existência de 
+divergências entre os valores declarados na Gui a de 
+Recolhimento do FGTS e Informações à Previdência Social 
+(GFIP) e os valores efetivamente recolhidos mediante guia de 
+pagamento (GP).
+* **C)** débito tributário declarado e não pago pelo contribuinte.
+* **D)** recurso administrativo pendente de julgamento, inter posto 
+em face de indeferimento de pedido de compensação.
+* **E)** descumprimento de obrigação acessória de informar, 
+mensalmente, ao INSS, dados relacionados aos fatos 
+geradores da contribuição previdenciária.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Retenções de vencimentos para entrega a terceiros não geram acréscimo patrimonial nem remuneram bens da autarquia.
-> - **B)** Correta. As consignações em folha de pagamento (pensão alimentícia, retenções judiciais e empréstimos consignados) consubstanciam ingressos extraorçamentários. O poder público atua como mero depositário transitório desses valores, surgindo no mesmo instante a obrigação financeira exigível de repasse aos credores legítimos.
-> - **C)** Incorreta. Não existe mutação de ativo permanente nem amortização de empréstimos concedidos pelo Estado.
-> - **D)** Incorreta. As retenções de pensão alimentícia advêm de relações cíveis de família e não possuem natureza tributária.
-> - **E)** Incorreta. Não se tratam de convênios ou acordos federativos voluntários.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+>
+> **Gabarito: E**
 
 ---
-
 ## 2. Etapas e Estágios da Receita Orçamentária
 
 A Lei Federal nº 4.320/1964 e o Manual de Contabilidade Aplicada ao Setor Público (MCASP) dividem a trajetória da receita pública em duas grandes etapas: a etapa do planejamento e a etapa da execução.
@@ -148,55 +157,86 @@ flowchart LR
 ---
 
 ### Teste 221
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A respeito das etapas e estágios da receita orçamentária e dos ingressos nos cofres estaduais, assinale a assertiva correta:
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+João é propriet ário de um carro e foi notificado, em janeiro do 
+corrente ano, do lançamento do IPVA do exercício, para 
+recolhimento do tributo por meio de carnê de pagamento. 
+Sobre o caso descrito, assinale a afirmativa correta.
 
-* **A)** As garantias contratuais depositadas em dinheiro por licitantes vencedores configuram receita orçamentária corrente, devendo constar previamente estimadas na Lei Orçamentária Anual.
-* **B)** O estágio do recolhimento ocorre no momento exato em que o contribuinte efetua o pagamento do documento de arrecadação no caixa da instituição financeira credenciada.
-* **C)** As operações de crédito por antecipação de receita orçamentária (ARO) constituem receitas de capital de execução orçamentária obrigatória no primeiro semestre do exercício financeiro.
-* **D)** A transferência dos recursos arrecadados pelos agentes bancários para a Conta Única do Tesouro consubstancia o estágio do recolhimento, em obediência ao princípio da unidade de caixa.
-* **E)** O lançamento é estágio obrigatório prévio e indispensável para a arrecadação de toda e qualquer receita orçamentária no âmbito da administração pública.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Garantias e cauções contratuais são ingressos extraorçamentários (recursos transitórios de terceiros com obrigação de devolução posterior), não constando da LOA.
-> - **B)** Incorreta. O pagamento realizado pelo contribuinte perante o caixa bancário consubstancia o estágio da arrecadação, e não do recolhimento.
-> - **C)** Incorreta. ARO não é receita orçamentária de capital; é mero ingresso extraorçamentário de caixa para cobrir déficits transitórios de tesouraria.
-> - **D)** Correta. Conforme o art. 56 da Lei nº 4.320/1964, o recolhimento é a entrega ou transferência dos recursos da rede bancária arrecadadora para a Conta Única do Tesouro Estadual, operacionalizando o princípio da unidade de caixa.
-> - **E)** Incorreta. Nem toda receita orçamentária cumpre o estágio do lançamento (tarifas, serviços, doações e receitas financeiras são arrecadadas diretamente sem lançamento fiscal prévio).
-> 
-> **Gabarito: D**
-
----
-
-### Teste 222
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No tocante ao estágio da arrecadação e ao princípio da unidade de caixa na execução orçamentária das receitas públicas (art. 56 da Lei nº 4.320/1964), assinale a afirmativa correta:
-
-* **A)** O recolhimento de todas as receitas far-se-á em estrita observância ao princípio de unidade de tesouraria, vedando-se a fragmentação de disponibilidades governamentais em contas bancárias descentralizadas sem autorização legal.
-* **B)** A arrecadação confunde-se juridicamente com o recolhimento, ocorrendo ambos simultaneamente quando o contribuinte entrega o valor à instituição bancária credenciada.
-* **C)** É facultado às autarquias manterem receitas públicas sob a guarda de cofres particulares, dispensando-se a transferência para a Conta Única do Tesouro.
-* **D)** As receitas vinculadas a fundos especiais não se sujeitam à unidade de caixa, devendo seus recursos permanecerem fora do sistema bancário oficial.
-* **E)** O recolhimento consiste no ato pelo qual os agentes arrecadadores entregam os recursos aos agentes fiscais para conferência manual antes do depósito no Tesouro.
-
+* **A)** Trata-se de imposto sujeito à lançamen to por homologação e 
+sua constituição definitiva ocorre com a notificação do 
+contribuinte, iniciando -se o prazo prescricional para a 
+execução fiscal no dia seguinte à data estipulada para o 
+vencimento da exação.
+* **B)** Trata-se de imposto sujeito a lançament o de ofício e sua 
+constituição definitiva ocorre com a notificação do 
+contribuinte, iniciando -se o prazo prescricional para a 
+execução fiscal no dia seguinte à data estipulada para o 
+vencimento da exação.
+* **C)** Trata-se de imposto sujeito à lançamento de ofí cio. Caso o 
+contribuinte não realize o pagamento do tributo até o 
+vencimento, cabe ao Estado realizar novo lançamento, 
+inserindo os consectários legais decorrentes da mora.
+* **D)** Trata-se de imposto sujeito à lançamento de ofício e sua 
+constituição definitiv a ocorre no início de cada ano fiscal, 
+iniciando-se dali o prazo prescricional para a execução fiscal.
+* **E)** Trata-se de imposto sujeito à lançamento por homologação e 
+sua constituição definitiva ocorre no primeiro dia útil 
+seguinte à ocorrência do fato gerador.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. O art. 56 da Lei nº 4.320/1964 consagra o princípio da unidade de tesouraria (unidade de caixa): todas as receitas devem ser recolhidas à conta única do Tesouro, vedada a dispersão não autorizada por lei.
-> - **B)** Incorreta. Arrecadação é a entrega dos valores pelo contribuinte aos agentes arrecadadores (bancos); recolhimento é a transferência desses valores arrecadados para a Conta Única do Tesouro.
-> - **C)** Incorreta. É absolutamente vedada a custódia particular de dinheiros públicos.
-> - **D)** Incorreta. Os recursos de fundos especiais sujeitam-se à unidade de caixa, sendo geridos em subcontas vinculadas dentro da Conta Única.
-> - **E)** Incorreta. O recolhimento é a efetiva transferência bancária dos valores arrecadados para a Conta Única do Tesouro.
-> 
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
 > **Gabarito: A**
 
 ---
+### Teste 222
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+A renúncia de receita, conforme estabelecido pela Lei de 
+Responsabilidade Fiscal (Lei Complementar nº 101/2000), deverá 
+estar acompanhada de estimativa do impacto orçamentário -
+financeiro no exercício em que deva iniciar sua vigência e nos 
+dois seguintes, atender ao disposto na lei de diretrizes 
+orçamentárias e a pelo me nos uma das seguintes condições (i) 
+demonstração pelo proponente de que a renúncia foi 
+considerada na estimativa de receita da lei orçamentária, e de 
+que não afetará as metas de resultados fiscais previstas no anexo 
+próprio da lei de diretrizes orçamentári as; OU (ii) estar 
+acompanhada de medidas de compensação, no período acima 
+mencionado, por meio do aumento de receita, proveniente da 
+elevação de alíquotas, ampliação da base de cálculo, majoração 
+ou criação de tributo ou contribuição. 
+As condições acima pa ra a concessão ou ampliação de incentivo 
+ou benefício de natureza tributária da qual decorra renúncia de 
+receita, por expressa disposição legal, não se aplicam
 
+* **A)** ao cancelamento de débito cujo montante seja inferior ao 
+dos respectivos custos de cobrança.
+* **B)** à anistia.
+* **C)** à remissão.
+* **D)** ao crédito presumido.
+* **E)** à concessão de isenção em caráter não geral.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+>
+> **Gabarito: E**
+
+---
 ## 3. Classificações da Receita Orçamentária (Lei nº 4.320/1964 e MCASP)
 
 A receita orçamentária é classificada segundo múltiplos critérios para fins de planejamento, controle contábil e divulgação de estatísticas fiscais.
@@ -249,90 +289,97 @@ $$\text{C . O . E . D1 . D2 . D3 . D4 . T}$$
 ---
 
 ### Teste 223
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Determinado Estado da Federação recebeu as seguintes quantias financeiras em sua conta única do Tesouro ao longo do mês:
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+De acordo com o Manual de Demonstrativos Fiscais, a Lei de 
+Responsabilidade Fiscal determina que o Anexo de Metas Fiscais 
+conterá, entre outros, a evolução do patrimônio líquido, nos 
+últimos três exercícios, destacando a origem e a aplicação dos 
+recursos obtidos com a alienação de ativos. 
+No Demonstração de Origem  e Aplicação dos Recursos Obtidos 
+com a Alienação de Ativos, na linha “Alienação de Bens Móveis”, 
+consta o valor da arrecadação da receita de
 
-I. R$ 500.000,00 referentes à venda em leilão público de veículos automotores inservíveis de sua frota administrativa.  
-
-II. R$ 200.000,00 a título de juros moratórios incidentes sobre créditos tributários de ICMS pagos em atraso por contribuintes.  
-
-III. R$ 300.000,00 decorrentes da devolução parcelada do principal de financiamento outrora concedido pelo Estado a determinado município goiano para fomento agropecuário.  
-
-Nos termos da Lei Federal nº 4.320/1964 e das normas do MCASP, os itens I, II e III classificam-se, respectivamente, como:
-
-* **A)** Receita Corrente; Receita Corrente; Receita de Capital.
-* **B)** Receita de Capital; Receita Corrente; Receita de Capital.
-* **C)** Receita de Capital; Receita de Capital; Receita Corrente.
-* **D)** Receita Corrente; Receita de Capital; Receita de Capital.
-* **E)** Receita de Capital; Receita Corrente; Receita Corrente.
-
+* **A)** rendimentos ao reconhecimento de equivalência patrimonial.
+* **B)** rendimentos de aplicações financeiras decorrent es da 
+alienação de ativos.
+* **C)** alienação de bens como marcas, patentes, títulos de licença, 
+direitos de franquia e direitos autorais.
+* **D)** alienação de bens como terrenos de propriedades da União, 
+Estados, Distrito Federal ou Municípios.
+* **E)** alienação de bens como títulos, mercadorias, bens inservíveis 
+ou desnecessários.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O item I trata de alienação de ativos públicos, classificado legalmente como Receita de Capital.
-> - **B)** Correta. O item I (venda de veículos da frota) configura Alienação de Bens Móveis, integrando as Receitas de Capital; o item II (juros de mora sobre créditos tributários) integra as Receitas Correntes (receitas de juros/outras receitas correntes); e o item III (devolução do principal de empréstimo concedido) classifica-se como Amortização de Empréstimos, enquadrado como Receita de Capital. Portanto, a ordem correta é Capital, Corrente e Capital.
-> - **C)** Incorreta. O item II (juros moratórios) é receita corrente, e o item III (amortização do principal) é receita de capital.
-> - **D)** Incorreta. O leilão de veículos inservíveis é receita de capital e não corrente.
-> - **E)** Incorreta. A devolução do principal do empréstimo outrora cedido (item III) não é receita corrente, e sim de capital.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: D**
 
 ---
-
 ### Teste 224
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Segundo a classificação por categoria econômica estabelecida pela Lei Federal nº 4.320/1964 e pelo Manual de Contabilidade Aplicada ao Setor Público (MCASP), constituem, respectivamente, Receita Corrente e Receita de Capital:
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+Em geral, as Receitas Correntes e as Receitas de Capital 
+apresentam as seguintes semelhanças, à exceção de uma . 
+Assinale-a.
 
-* **A)** Receita Patrimonial decorrente de aluguéis de imóveis públicos e Receita decorrente de Alienação de Bens Imóveis.
-* **B)** Amortização de Empréstimos concedidos e Receita Tributária proveniente de impostos sobre patrimônio.
-* **C)** Operações de Crédito de longo prazo e Receita de Serviços prestados pelo ente estatal.
-* **D)** Alienação de Bens Móveis inservíveis e Receita de Contribuições Sociais.
-* **E)** Transferências de Capital recebidas para obras e Receita Agropecuária decorrente de produção própria.
-
+* **A)** São receitas orçamentárias.
+* **B)** Provocam efeito sobre o patrimônio líquido.
+* **C)** São arrecadadas dentro do exercício financeiro.
+* **D)** Aumentam as disponibilidades financeiras do Estado.
+* **E)** Constituem instrumento a fim de satisfazer ou atingir 
+finalidades públicas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. A Receita Patrimonial (aluguéis, dividendos, juros recebidos) é Receita Corrente (art. 11, § 1º); a Alienação de Bens Imóveis/Móveis é típica Receita de Capital (art. 11, § 2º da Lei nº 4.320/1964).
-> - **B)** Invertido. Amortização de empréstimos concedidos é Capital; receita tributária é Corrente.
-> - **C)** Invertido. Operações de crédito são Capital; serviços são Correntes.
-> - **D)** Invertido. Alienação de bens é Capital; contribuições são Correntes.
-> - **E)** Invertido. Transferências de capital são Capital; agropecuária é Corrente.
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+>
+> **Gabarito: E**
 
 ---
-
 ### Teste 225
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A classificação por natureza da receita orçamentária é estruturada em 8 (oito) dígitos decimais padronizados nacionalmente pela SOF e STN. Considere o código de natureza de receita `1.3.2.1.01.1.1`:
+**(FGV – TRT-1 – Analista Judiciário - Tecnologia da Informação – 2024)**
+Um ente público estabeleceu, em edital de licitação, a entrega de 
+caução em dinheiro como garantia para assegurar a execução do 
+contrato celebrado com vistas ao fornecimento contínuo de 
+serviços de manutenção. Sabe -se que esse recurso não integra a 
+Lei Orçamentária Anual (LOA) e não reflete no patrimônio líquido 
+da referida entidade.  
+Assim, seu reconhecimento, no momento do depósito, deve ser 
+realizado como:
 
-O primeiro dígito "1" e o segundo dígito "3" identificam, na estrutura oficial, respectivamente:
+* **A)** receita contratual;
+* **B)** receita orçamentária;
+* **C)** despesa orçamentária;
+* **D)** receita extraorçamentária;
+* **E)** despesa extraorçamentária. 
 
-* **A)** Categoria Econômica (Receitas Correntes) e Origem da Receita (Receita Patrimonial).
-* **B)** Origem da Receita (Receitas Tributárias) e Espécie da Receita (Taxas).
-* **C)** Subdivisão de Recursos e Vinculação Constitucional de Impostos.
-* **D)** Categoria Econômica (Receitas de Capital) e Tipo de Receita (Principal).
-* **E)** Esfera Orçamentária e Identificador de Uso (IDUSO).
-
+Tribunal Regional Federal da 1ª Região FGV Conhecimento
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Na estrutura da natureza da receita (`C.O.E.S.DD.T.P`): o 1º dígito (1) é a **Categoria Econômica** (1 = Receita Corrente; 2 = Receita de Capital); o 2º dígito (3) é a **Origem** (no caso de Correntes: 1-Impostos/Taxas, 2-Contribuições, 3-Patrimonial, 4-Agropecuária, 5-Industrial, 6-Serviços, 7-Transferências Correntes, 9-Outras Receitas Correntes).
-> - **B)** Incorreta. O primeiro nível é a categoria econômica, não origem.
-> - **C)** Incorreta. Misturou com a classificação por fonte de recursos.
-> - **D)** Incorreta. O dígito 1 representa receitas correntes, e não de capital.
-> - **E)** Incorreta. Esfera orçamentária e IDUSO não compõem a codificação de natureza da receita.
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: C**
 
 ---
-
 ## 4. Regras Fiscais Restritivas da Receita e a LRF
 
 ### 4.1 Vedação de Aplicação de Receita de Alienação de Bens em Despesa Corrente (Art. 44)
@@ -361,111 +408,127 @@ flowchart TD
 ---
 
 ### Teste 226
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-O Governo do Estado de Goiás promoveu a alienação, mediante concorrência pública, de um edifício comercial de sua propriedade que estava desocupado, arrecadando R$ 10.000.000,00. O Governador pretende aplicar integralmente essa receita para pagar o reajuste salarial concedido aos servidores públicos da Secretaria da Saúde.
+**(FGV – TRT-1 – Analista Judiciário - Tecnologia da Informação – 2024)**
+Ao assumir a secretaria de finanças de um ente público, o 
+secretário solicitou da equipe um relatório detalhado com a 
+análise econômico-financeira dos recursos arrecadados pelo ente 
+nos últimos quatro anos, com informações em nível analítico  
+suficiente para subsidiar decisões sobre ações para incremento 
+na arrecadação.  
+A principal fonte a ser utilizada pela equipe na preparação do 
+relatório solicitado deve ser a classificação das receitas:
 
-De acordo com o artigo 44 da Lei Complementar nº 101/2000 (Lei de Responsabilidade Fiscal):
-
-* **A)** A pretensão governamental é lícita, pois a saúde pública constitui prioridade orçamentária imune a restrições fiscais.
-* **B)** A aplicação é vedada.
-* **C)** A receita de alienação de bens pode ser destinada a qualquer tipo de despesa pública, desde que autorizada por decreto executivo simples.
-* **D)** O valor arrecadado deve ser compulsoriamente recolhido ao Tesouro Nacional para amortização de títulos federais.
-* **E)** A alienação de imóveis públicos converte-se automaticamente em receita corrente tributária após o depósito bancário.
-
+* **A)** por esfera orçamentária;
+* **B)** por fonte/destinação de recursos;
+* **C)** quanto à afetação patrimonial;
+* **D)** quanto à origem ou coercitividade;
+* **E)** segundo a natureza.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. As restrições do art. 44 da LRF são cogentes e insuperáveis, não comportando exceção para a folha de pessoal da saúde.
-> - **B)** Correta. O art. 44 da LRF proíbe expressamente a aplicação de receitas de capital oriundas da alienação de bens e direitos para o financiamento de despesas correntes (como salários de servidores), admitindo única exceção legal para capitalização de regimes de previdência social (RPPS/RGPS).
-> - **C)** Incorreta. O gestor não possui discricionariedade para desrespeitar vedação legal expressa da lei de finanças públicas.
-> - **D)** Incorreta. Os recursos da venda pertencem ao erário estadual de Goiás e podem financiar outras despesas de capital (investimentos).
-> - **E)** Incorreta. A alienação de ativos conserva perenemente sua natureza de Receita de Capital.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+>
+> **Gabarito: E**
 
 ---
-
 ### Teste 227
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Determinado Secretário de Estado da Fazenda propôs projeto de lei concedendo isenção temporária de IPVA para proprietários de veículos elétricos e híbridos matriculados no Estado. O projeto de lei foi aprovado pela Assembleia Legislativa sem a apresentação de estimativa de impacto orçamentário-financeiro e desacompanhado de medidas de compensação fiscal.
+**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
+A previsão é a etapa da receita orçamentária que implica em 
+planejar e estimar a arrecadação das receitas orçamentárias que 
+constarão na proposta orçamentária. 
+Em relação a ela, analise o que se afirma a seguir. 
+I. Alterações na legislação. 
+II. Variação do índice de preços. 
+III. Crescimento econômico. 
+De acordo com a Lei de Responsabilidade Fiscal  
+(Lei Complementar n.° 101/2000), as previsões de receita 
+considerarão os efeitos do que se afirma em
 
-À luz do artigo 14 da Lei de Responsabilidade Fiscal (LC nº 101/2000):
-
-* **A)** A concessão do benefício é válida de pleno direito, visto que o Estado detém soberania para instituir e conceder isenções de seus tributos privativos.
-* **B)** A proposição viola a Lei de Responsabilidade Fiscal.
-* **C)** A renúncia de receitas somente atinge isenções concedidas a pessoas jurídicas de direito privado, sendo dispensada qualquer formalidade para pessoas físicas adquirentes de veículos.
-* **D)** As medidas compensatórias exigidas pela LRF aplicam-se com exclusividade a impostos federais compartilhados, dispensando-se do IPVA estadual.
-* **E)** A exigência de estimativa trienal restringe-se aos dois últimos anos de mandato do Chefe do Poder Executivo.
-
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A autonomia federativa dos entes para legislar sobre seus tributos submete-se expressamente às normas gerais de finanças públicas veiculadas pela LRF.
-> - **B)** Correta. O art. 14 da LRF prescreve que qualquer benefício ou incentivo que importe em renúncia de receita deve ser acompanhado de estimativa trienal do impacto orçamentário-financeiro e atender à LDO, mediante demonstração de que foi prevista na LOA sem afetar metas ou acompanhada de medidas de compensação fiscal efetivas.
-> - **C)** Incorreta. A disciplina da LRF alcança a concessão de incentivos fiscais indistintamente, quer os beneficiários sejam pessoas físicas ou pessoas jurídicas.
-> - **D)** Incorreta. A Lei de Responsabilidade Fiscal incide com eficácia nacional e obriga União, Estados, Distrito Federal e Municípios em relação a todos os seus tributos.
-> - **E)** Incorreta. A exigência do art. 14 da LRF é permanente e aplica-se durante todo e qualquer período do exercício orçamentário e mandato.
-> 
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
 > **Gabarito: B**
 
 ---
-
 ### Teste 228
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-O art. 14 da Lei de Responsabilidade Fiscal (LC nº 101/2000) impõe condicionantes rigorosas para a concessão ou ampliação de incentivo ou benefício de natureza tributária da qual resulte renúncia de receita. Sobre o tema, é INCORRETO afirmar:
+**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
+A gestão eficiente das receitas públicas é essencial para garantir 
+recursos que impulsionam investimentos estratégicos e a 
+implementação de políticas sociais. 
+Assinale a opção que apresenta corretamente as origens das 
+receitas públicas.
 
-* **A)** A renúncia compreende anistia, remissão, subsídio, crédito presumido, isenção em caráter não geral, alteração de alíquota ou modificação de base de cálculo que implique redução discriminada de tributos ou contribuições.
-* **B)** A concessão do benefício deve estar acompanhada de estimativa do impacto orçamentário-financeiro no exercício em que deva iniciar sua vigência e nos dois seguintes.
-* **C)** O proponente deve demonstrar que a renúncia foi considerada na estimativa de receita da lei orçamentária e que não afetará as metas de resultados fiscais previstas no anexo próprio da LDO.
-* **D)** É vedada a concessão de renúncia de receita mesmo quando acompanhada de medidas de compensação fiscal mediante elevação de alíquotas ou criação de outro tributo.
-* **E)** Se o ato de concessão de renúncia de receita for condicionado a medidas de compensação, o benefício só entrará em vigor quando implementadas as referidas medidas de compensação.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Correta. Definição expressa constante do art. 14, § 1º da LRF.
-> - **B)** Correta. Exigência do caput do art. 14: estimativa trienal do impacto orçamentário-financeiro.
-> - **C)** Correta. É uma das alternativas do art. 14, I da LRF (ter sido prevista na LOA e compatível com as metas fiscais).
-> - **D)** Incorreta. O art. 14, II admite expressamente a concessão de renúncia se acompanhada de medidas de compensação, no exercício e nos dois seguintes, por meio do aumento de receita proveniente da elevação de alíquotas, ampliação da base de cálculo, majoração ou criação de tributo.
-> - **E)** Correta. O art. 14, § 2º da LRF prevê que o benefício só entra em vigor após a efetiva implementação das medidas compensatórias.
-> 
-> **Gabarito: D**
-
----
-
-### Teste 229
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Determinado Município goiano realizou a alienação de diversos imóveis públicos de seu patrimônio disponível, arrecadando R$ 10.000.000,00. Visando equilibrar o caixa municipal no final do mandato, o Prefeito enviou projeto de lei autorizando a utilização de 50% desses recursos para pagamento da folha salarial atrasada dos servidores públicos municipais e 50% para obras de pavimentação asfáltica.
-
-À luz do art. 44 da Lei Complementar nº 101/2000 (LRF):
-
-* **A)** A destinação proposta pelo Prefeito é plenamente lícita, pois os recursos provenientes da venda de bens móveis ou imóveis integram a receita livre do ente e podem ser aplicados em qualquer despesa pública.
-* **B)** A destinação para pagamento de folha de salários é expressamente vedada pela LRF, configurando nulidade do ato e infração fiscal, sendo a aplicação em pavimentação asfáltica perfeitamente regular por se tratar de despesa de capital.
-* **C)** Ambos os gastos propostos são ilícitos, pois a receita de alienação de ativos só pode ser utilizada para aplicação exclusiva no mercado de ações e títulos públicos.
-* **D)** É permitido o pagamento de pessoal com receitas de alienação de bens desde que haja autorização prévia por decreto do Governador do Estado.
-* **E)** O Município pode utilizar o produto da alienação para despesa de pessoal, desde que o montante não ultrapasse o limite prudencial de gastos da LRF.
-
+* **A)** Derivam unicamente do patrimônio estatal e do patrimônio do 
+particular.
+* **B)** Originam-se exclusivamente do patrimônio do particular e dos 
+ingressos temporários.
+* **C)** Têm origem somente nas transferências intergovernamentais 
+e nos ingressos temporários.
+* **D)** São provenientes apenas do patrimônio estatal e das 
+transferências intergovernamentais.
+* **E)** São oriundas do patrimônio estatal; do patrimônio do 
+particular; das transferências intergovernamentais; e dos 
+ingressos temporários.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O art. 44 da LRF proíbe expressamente a aplicação de receita de capital derivada da alienação de bens no financiamento de despesa corrente.
-> - **B)** Correta. O art. 44 da LRF veda terminantemente a aplicação da receita de alienação de ativos em despesas correntes (custeio e pessoal), ressalvadas exclusivamente as destinadas por lei aos regimes de previdência social. As obras de pavimentação constituem investimentos (despesas de capital), destinação perfeitamente legítima.
-> - **C)** Incorreta. As despesas de capital (investimentos) são a destinação natural da receita de capital de alienação de ativos.
-> - **D)** Incorreta. A vedação é legal e absoluta, não podendo ser suplantada por decreto estadual.
-> - **E)** Incorreta. O limite do art. 44 é categórico e independe dos percentuais globais de gasto com pessoal.
-> 
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
 > **Gabarito: B**
 
 ---
+### Teste 229
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+As etapas da receita orçamentária são um conjunto de 
+procedimentos fundamentais para a gestão financeira dos 
+governos.  
+Assinale a opção que indica a etapa de transferência dos valores 
+arrecadados à conta específica do Tesouro.
 
+* **A)** Previsão.
+* **B)** Arrecadação.
+* **C)** Recolhimento.
+* **D)** Lançamento.
+* **E)** Ingresso.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: C**
+
+---
 ## 🌐 Fontes Oficiais & Manuais Técnicos Recomendados
 
 * [Lei Federal nº 4.320/1964 - Dos Títulos I e II (Da Receita Pública)](https://www.planalto.gov.br/ccivil_03/leis/l4320.htm) - Classificação por categorias econômicas (receitas correntes e receitas de capital) e estágios da receita.

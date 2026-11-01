@@ -103,93 +103,87 @@ Para mitigar decisões automatizadas danosas e salvaguardar garantias constituci
 ---
 
 ### Teste 344
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A governança ética da Inteligência Artificial consolidou-se internacionalmente a partir da Recomendação sobre Inteligência Artificial da OCDE (2019) e da Recomendação sobre a Ética da Inteligência Artificial da UNESCO (2021).
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+Numa sala estão 16 pessoas, 10 das quais são homens e 6 são 
+mulheres. Duas pessoas diferentes desse grupo são sorteadas. 
+A probabilidade de que sejam sorteadas duas mulheres é igual a
 
-A respeito dos princípios reitores estabelecidos pela OCDE para sistemas de IA confiáveis (*Trustworthy AI*), assinale a afirmativa correta:
+* **A)** 12,5%.
+* **B)** 16,0%.
+* **C)** 22,5%.
+* **D)** 37,5%.
+* **E)** 50,0%. 
 
-* **A)** A OCDE recomenda que o desenvolvimento de sistemas de IA seja mantido em sigilo governamental, dispensando transparência e rastreabilidade para acelerar a inovação.
-* **B)** Os princípios da OCDE determinam que os sistemas de IA devem: (1) impulsionar o crescimento inclusivo, desenvolvimento sustentável e bem-estar; (2) respeitar os direitos humanos, Estado de Direito e equidade; (3) operar com transparência e explicabilidade responsável; (4) garantir robustez técnica, segurança contínua e proteção; e (5) contar com responsabilização e prestação de contas (*accountability*) dos atores de IA.
-* **C)** A OCDE estabelece a proibição global de qualquer aplicação de IA no setor público e no poder judiciário.
-* **D)** A Recomendação da UNESCO preconiza que modelos de linguagem devem substituir juízes e conselheiros de tribunais em decisões colegiadas vinculantes.
-* **E)** O princípio da robustez da OCDE autoriza que modelos de IA ignorem vulnerabilidades cibernéticas se a taxa de acurácia for superior a 80%.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Transparência e explicabilidade responsável (*transparency and explainability*) são princípios obrigatórios expressos pela OCDE.
-> - **B)** **CORRETA.** Os **Cinco Princípios da OCDE para IA Responsável** (subscritos pelo Brasil e base da EBIA):
->   1. **Crescimento Inclusivo, Desenvolvimento Sustentável e Bem-Estar:** Beneficiar as pessoas e o planeta.
->   2. **Valores Centrados no Ser Humano e Equidade:** Respeito à dignidade humana, autonomia, privacidade, diversidade e vedação à discriminação injusta.
->   3. **Transparência e Explicabilidade:** Fornecer informações claras para permitir que os indivíduos compreendam os resultados e possam contestá-los.
->   4. **Robustez, Segurança e Proteção:** Operar de modo seguro sob condições normais e sob ataques adversariais (*robustness and cybersecurity*).
->   5. **Responsabilização (Accountability):** Os desenvolvedores e operadores de IA devem prestar contas pelo correto funcionamento e conformidade ética de seus sistemas.
-> - **C)** Incorreta. A OCDE incentiva ativamente o uso ético e eficiente da IA para aprimoramento dos serviços públicos.
-> - **D)** Incorreta. As normas internacionais vedam a substituição cega da prerrogativa de julgamento humano em decisões que impactem direitos fundamentais.
-> - **E)** Incorreta. A robustez exige resiliência sistemática a falhas e ataques, sem flexibilização de riscos.
-> 
-> **Gabarito: B**
-
----
-
-### Teste 345
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Sistemas automatizados de triagem e classificação baseados em Machine Learning podem perpetuar ou amplificar discriminações históricas presentes nas bases de treinamento. Para detectar e quantificar esses vieses, a área de *Fairness in AI* (Equidade em IA) emprega testes formais de paridade estatística.
-
-No contexto de avaliação de preconceito algorítmico, o critério do **Impacto Desproporcional** (*Disparate Impact / Regra dos Quatro Quintos ou dos 80%*) é definido formalmente quando:
-
-* **A)** A taxa de seleção positiva do grupo historicamente desfavorecido ou protegido é menor do que 80% (quatro quintos) da taxa de seleção do grupo com maior privilégio no processo seletivo ou concessão de benefício.
-* **B)** Exatamente 80% das linhas do banco de dados contêm valores nulos na coluna demográfica.
-* **C)** O modelo atinge acurácia global de 80% em testes sintéticos em laboratório.
-* **D)** O sistema de IA descarta 80% de todas as candidaturas sem qualquer leitura de atributos.
-* **E)** O modelo é aprovado sem vieses se o número de conexões na rede neural for múltiplo de 80. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-
+Ética no Serviço Público
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **CORRETA.** O conceito de **Disparate Impact (Impacto Desproporcional)**:
->   - Originou-se na jurisprudência trabalhista americana (*Uniform Guidelines on Employee Selection Procedures*) e foi adotado como padrão matemático em auditoria algorítmica:
->   $$\text{Disparate Impact Ratio} = \frac{P(\hat{Y}=1 | D=\text{desfavorecido})}{P(\hat{Y}=1 | D=\text{favorecido})}$$
->   - **Regra dos 4/5 (80%):** Se a razão for inferior a $0,80$, há forte indício de viés discriminatório adverso (*adverse impact*), mesmo que o algoritmo não utilize variáveis protegidas diretamente (como raça ou gênero), demonstrando discriminação indireta por variáveis substitutas (*proxy variables*, como CEP ou histórico de crédito).
-> - **B)** Incorreta. Refere-se à esparsidade de valores ausentes, não a viés demográfico.
-> - **C)** Incorreta. Acurácia geral não garante justiça algorítmica (pode haver alta acurácia com forte discriminação contra minorias em dados desbalanceados).
-> - **D)** Incorreta. Falsa interpretação do percentual de 80%.
-> - **E)** Incorreta. Não tem qualquer relação com pesos ou neurônios da rede.
-> 
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
 > **Gabarito: A**
 
 ---
+### Teste 345
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2025)**
+Segundo o regulamento de um plano de previdência 
+complementar, o benefício de renda será calculado pelo maior 
+valor entre o salário-mínimo vigente e a média dos 80% maiores 
+salários do participante dos últimos 60 meses, atualizados pelo 
+índice de inflação do plano. 
+Esse tipo regra caracteriza um plano atuarial na modalidade de
 
-### Teste 346
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Ao implantar um sistema inteligente de triagem automática de processos trabalhistas e recursos judiciais, o Tribunal estabeleceu diretrizes éticas para impedir vieses algorítmicos e assegurar a adequada governança institucional sobre as decisões automatizadas.
-A respeito dos conceitos de equidade (*fairness*) e dos modelos de supervisão humana em sistemas de inteligência artificial, assinale a afirmativa correta:
-
-* **A)** O modelo *Human-in-the-Loop* (HITL) caracteriza-se pela completa ausência de supervisores humanos na esteira operacional, permitindo que a IA tome decisões definitivas de maneira 100% autônoma e irrecorrível.
-* **B)** O viés de representação (*representation bias*) ocorre quando determinadas classes ou grupos sociais estão insuficientemente representados ou ausentes da base amostral de treinamento do modelo, o que pode provocar degradação de desempenho e maior taxa de erros contra esses grupos.
-* **C)** O princípio da Não Discriminação é plenamente atendido pela simples eliminação formal do atributo "gênero" ou "raça" da tabela, sendo impossível que outras variáveis presentes (como CEP ou ocupação) funcionem como variáveis substitutas (*proxies*) indiretas.
-* **D)** O modelo *Human-on-the-Loop* (HOTL) exige que o magistrado humano execute manualmente todos os cálculos matriciais de tensores antes de autorizar o processamento do algoritmo.
-* **E)** A equidade algorítmica é um conceito puramente comercial sem relevância para os órgãos públicos do Poder Judiciário e Tribunais de Contas.
-
+* **A)** contribuição definida.
+* **B)** contribuição variável.
+* **C)** benefício definido.
+* **D)** benefício variável.
+* **E)** contribuição e benefício variáveis.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O modelo **Human-in-the-Loop (HITL)** exige compulsoriamente a validação e intervenção de um **operador humano na decisão final**.
-> - **B)** **Correta.** O **Viés de Representação (*Representation Bias*)** surge quando certos estratos ou grupos sociais são sub-representados na base amostral de treinamento. O modelo não aprende os padrões particulares desse subgrupo, gerando taxas de erro e classificações incorretas sensivelmente maiores contra essas minorias.
-> - **C)** Incorreta. A falácia da "Equidade por Desconhecimento" comprova que simplesmente remover uma coluna não impede o viés, visto que modelos capturam facilmente variáveis correlacionadas que atuam como **proxies indiretos** (ex.: CEP residencial, faixa de renda, histórico profissional).
-> - **D)** Incorreta. O modelo *Human-on-the-Loop (HOTL)* consiste na supervisão contínua em tempo real com poder de intervir ou acionar botões de emergência (*kill switch*), sem demandar cálculos manuais.
-> - **E)** Incorreta. A equidade algorítmica é princípio cardeal no setor público, decorrente das garantias republicanas e constitucionais de isonomia e não discriminação.
-> 
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
 > **Gabarito: B**
 
 ---
+### Teste 346
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+Numa sala estão 16 pessoas, 10 das quais são homens e 6 são 
+mulheres. Duas pessoas diferentes desse grupo são sorteadas. 
+A probabilidade de que sejam sorteadas duas mulheres é igual a
 
+* **A)** 12,5%.
+* **B)** 16,0%.
+* **C)** 22,5%.
+* **D)** 37,5%.
+* **E)** 50,0%. 
+
+Ética no Serviço Público
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: A**
+
+---
 ## 2. Explicabilidade e Interpretabilidade de IA (XAI)
 
 A disciplina de IA Explicável (*Explainable Artificial Intelligence - XAI*) desenvolve métodos matemáticos para tornar as predições e decisões de modelos preditivos compreensíveis para auditores, magistrados e cidadãos.
@@ -254,91 +248,86 @@ Introduzido por Marco Tulio Ribeiro et al. (2016), o **LIME** fundamenta-se na *
 ---
 
 ### Teste 347
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em projetos de Inteligência Artificial aplicada ao setor público, gestores e cientistas de dados confrontam com frequência o chamado **Dilema entre Desempenho Preditivo e Interpretabilidade** (*Performance vs. Interpretability Trade-off*).
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+Alguns algoritmos de aprendizado de máquina foram 
+desenvolvidos para trabalhar com atributos discretos. Porém, 
+dados coletados no mundo real muitas vezes são contínuos. 
+Nesses casos, podemos usar métodos de discretização no 
+tratamento dos dados. Um desses métodos de discretização 
+consiste em estabelecer os limites das partições de forma que 
+cada partição tenha aproximadamente o mesmo número de 
+elementos. 
+O método acima descrito é o
 
-A respeito da classificação dos modelos segundo esse paradigma, assinale a afirmativa correta:
-
-* **A)** Redes neurais convolucionais profundas e modelos *Ensemble* baseados em *Gradient Boosting* (como XGBoost) são modelos intrinsecamente interpretáveis por natureza (*White-Box*), permitindo inspecionar cada decisão por meio de simples fórmulas aritméticas de uma única linha.
-* **B)** Modelos como Regressão Linear, Regressão Logística e Árvores de Decisão de baixa profundidade possuem alta interpretabilidade intrínseca (*Simulated Transparency*).
-* **C)** A explicabilidade de um modelo é irrelevante em auditorias governamentais e processos judiciais eletrônicos, visto que a legislação brasileira proíbe qualquer questionamento sobre decisões automatizadas por software.
-* **D)** Aumentar o número de camadas ocultas e parâmetros de uma rede neural profunda melhora automaticamente sua transparência e facilidade de auditoria.
-* **E)** Todos os algoritmos de Machine Learning possuem exatamente o mesmo nível de opacidade matemática.
-
+* **A)** equal frequency.
+* **B)** equal width.
+* **C)** equal amplitude.
+* **D)** k-means.
+* **E)** entropy.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Redes profundas e modelos como XGBoost/Random Forest são modelos **Caixa-Preta (Black-Box)**, formados por milhões de pesos ou centenas de árvores combinadas, sendo humanamente impossível rastrear o cálculo direto de cada decisão sem ferramentas de explicabilidade *post-hoc* (como SHAP ou LIME).
-> - **B)** **CORRETA.** O espectro clássico de **XAI (Explainable AI)**:
->   - **Modelos Interpretáveis Intrínsecos (White-Box):** Regressões lineares/logísticas, árvores de decisão rasas, modelos baseados em regras (*decision lists*). Oferecem transparência direta, permitindo entender exatamente qual peso ou condição determinou a saída.
->   - **Modelos Caixa-Preta (Black-Box):** Redes Neurais Profundas, Transformers, Random Forest, XGBoost. Extraordinário desempenho em dados não estruturados e relações complexas, mas com alta opacidade funcional.
-> - **C)** Incorreta. No setor público, o princípio da publicidade, a motivação dos atos administrativos e a LGPD (art. 20) **exigem compulsoriamente a explicabilidade** e justificativa das decisões automatizadas.
-> - **D)** Incorreta. Quanto mais parâmetros e camadas, maior a opacidade e o custo de auditoria.
-> - **E)** Incorreta. Há uma variação drástica entre algoritmos transparentes e modelos caixa-preta.
-> 
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: D**
+
+---
+### Teste 348
+**(FGV – TRT-DA 13-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2022)**
+A classe da biblioteca scikit -learn, versão 1.1.2, utilizada em 
+scripts python para a implementação de regressão linear baseada 
+no método dos mínimos quadrados é
+
+* **A)** scikit-learn.LinearRegression.
+* **B)** sklearn.linear.ml.LinearRegression.
+* **C)** sklearn.linear_model.LinearRegression.
+* **D)** sklearn.model.ml.Linear_Regression.LstSquare.
+* **E)** scikit-learn.linear_model.LinearRegression.LeastSquare.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
 > **Gabarito: B**
 
 ---
+### Teste 349
+**(FGV – TRT-13 – Analista Judiciário - Tecnologia da Informação – 2022)**
+A classe da biblioteca scikit -learn, versão 1.1.2, utilizada em 
+scripts python para a implementação de regressão linear baseada 
+no método dos mínimos quadrados é
 
-### Teste 348
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em auditorias de controle externo com uso intensivo de modelos de aprendizado de máquina supervisionados para detecção de conluio em licitações públicas, a explicabilidade técnica dos algoritmos é pré-requisito indispensável para a sustentação jurídica dos relatórios periciais. Dois dos métodos agósticos de explicação mais consolidados na literatura são o SHAP (*SHapley Additive exPlanations*) e o LIME (*Local Interpretable Model-agnostic Explanations*).
-A respeito dos fundamentos matemáticos e características do SHAP e do LIME, assinale a afirmativa correta:
-
-* **A)** O SHAP baseia-se na Teoria dos Jogos Cooperativos formulada por Lloyd Shapley, garantindo propriedades axiomáticas de consistência, simetria e aditividade local ao mensurar a contribuição marginal de cada variável para a predição.
-* **B)** O LIME é um método estritamente global que só é capaz de explicar o comportamento de modelos lineares de regressão, sendo incapaz de processar redes neurais ou árvores de decisão.
-* **C)** O SHAP descarta as permutações de coalizões de atributos e atribui pesos aleatórios aos dados com base em uma função de densidade de Poisson uniforme.
-* **D)** O método LIME calcula o valor exato de todas as coalizões de atributos em nível populacional global com garantia matemática de aditividade exata, enquanto o SHAP restringe-se a perturbações empíricas pontuais.
-* **E)** Ambos os métodos exigem acesso obrigatório e exclusivo aos códigos-fonte proprietários dos compiladores para operar, sendo proibido seu uso em bibliotecas abertas como Scikit-Learn.
-
+* **A)** scikit-learn.LinearRegression.
+* **B)** sklearn.linear.ml.LinearRegression.
+* **C)** sklearn.linear_model.LinearRegression.
+* **D)** sklearn.model.ml.Linear_Regression.LstSquare.
+* **E)** scikit-learn.linear_model.LinearRegression.LeastSquare.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** O **SHAP** fundamenta-se nos **Valores de Shapley** da Teoria dos Jogos Cooperativos (Lundberg & Lee, 2017). O método calcula a contribuição marginal média ponderada de cada variável considerando todas as permutações e subconjuntos de coalizões possíveis, sendo a única técnica com garantia axiomática de **Eficiência/Aditividade Local**, **Simetria**, **Jogador Nulo** e **Consistência**.
-> - **B)** Incorreta. O LIME é um método **agóstico** ao modelo (opera sobre qualquer modelo caixa-preta) e fornece explicações **locais** (ao redor de uma instância).
-> - **C)** Incorreta. O cálculo do SHAP apoia-se formalmente em permutações de coalizões marginais, e não em distribuições aleatórias de Poisson.
-> - **D)** Incorreta. Houve inversão: quem opera com perturbações empíricas locais e regressão substituta é o **LIME**; quem tem base formal de coalizões aditivas exatas é o **SHAP**.
-> - **E)** Incorreta. Ambos os frameworks são ferramentas de código aberto (*open-source*) amplamente difundidas no ecossistema Python.
-> 
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
 > **Gabarito: A**
 
 ---
-
-### Teste 349
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-O algoritmo LIME (*Local Interpretable Model-Agnostic Explanations*) é uma das ferramentas mais consagradas de Inteligência Artificial Explicável (XAI) do tipo *post-hoc*.
-
-A respeito do mecanismo de funcionamento matemático e conceitual do LIME, assinale a afirmativa correta:
-
-* **A)** O LIME substitui permanentemente o modelo caixa-preta global por uma única equação diferencial em todo o espaço de dados.
-* **B)** O LIME baseia-se no princípio de que, embora um modelo complexo de IA possa ser altamente não linear e incompreensível globalmente, o seu comportamento no entorno local de uma predição específica pode ser satisfatoriamente aproximado por um modelo interpretável simples (como uma regressão linear ponderada), treinado sobre amostras artificialmente perturbadas ao redor da instância sob análise.
-* **C)** O LIME só funciona com algoritmos baseados em árvores de decisão, sendo incompatível com redes neurais ou modelos de processamento de texto.
-* **D)** O LIME exige acesso irrestrito ao código-fonte interno e às derivadas dos gradientes da rede neural, violando o princípio modelo-agnóstico.
-* **E)** A explicabilidade do LIME é estritamente global, revelando o funcionamento da base inteira sem focar em instâncias individuais.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O LIME não substitui o modelo globalmente; ele gera explicações puramente **locais**.
-> - **B)** **CORRETA.** Funcionamento metódico do **LIME** (Ribeiro, Singh, Guestrin, 2016):
->   1. **Modelo-Agnóstico:** Não depende do algoritmo interno da caixa-preta (trata o modelo como uma função $f(x)$ que apenas recebe entradas e cospe saídas).
->   2. **Perturbação Local:** Para explicar por que a instância $x$ foi classificada como fraude, o LIME cria variações discretas ao redor de $x$ (amostras perturbadas) e coleta as previsões do modelo para essas amostras.
->   3. **Ponderação por Distância:** Atribui pesos maiores às amostras sintéticas mais próximas de $x$ via função kernel exponencial.
->   4. **Ajuste de Modelo Interpretável Substitutivo:** Treina uma regressão linear esparsa simples ponderada sobre essas amostras no entorno local. Os coeficientes desse modelo linear local indicam exatamente quais características aumentaram ou diminuíram a probabilidade daquela predição específica.
-> - **C)** Incorreta. Por ser *Model-Agnostic*, opera sobre qualquer classificador (texto, imagem ou dados tabulares).
-> - **D)** Incorreta. O LIME requer apenas chamadas de inferência de caixa-preta (entrada $	o$ saída), sem inspecionar código ou gradientes internos.
-> - **E)** Incorreta. O próprio nome enfatiza sua natureza: **Local** Interpretable Explanations.
-> 
-> **Gabarito: B**
-
----
-
 ## 3. A LGPD (Lei nº 13.709/2018) Aplicada à Inteligência Artificial
 
 A Lei Geral de Proteção de Dados Pessoais regula qualquer operação de tratamento de dados de pessoas naturais realizada no território brasileiro, impondo salvaguardas mandatórias às rotinas automatizadas de inteligência artificial.
@@ -387,87 +376,115 @@ Nos termos do Art. 38 da LGPD, a ANPD pode exigir a elaboração de um **Relató
 ---
 
 ### Teste 350
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A aplicação de algoritmos de Inteligência Artificial no tratamento de dados pessoais no âmbito da administração pública deve guardar estrita consonância com os princípios da Lei Geral de Proteção de Dados Pessoais (LGPD - Lei nº 13.709/2018).
+**(FGV – TJ-RR – Analista Judiciário - Governança e Gestão de TI – 2024)**
+De acordo com a Lei Geral de Proteção de Dados (LGPD), 
+especificamente o Artigo 38, o Relatório de Impacto à Proteção de 
+Dados Pessoais (RIPD) tem como conteúdo mínimo obrigatório
 
-Dentre os princípios expressos no Art. 6º da LGPD, o preceito legal que vincula diretamente os cientistas de dados ao dever de auditoria algorítmica para evitar que modelos preditivos resultem em exclusões injustas ou preconceitos estruturais é o:
-
-* **A)** Princípio do Livre Acesso, que obriga a publicação irrestrita de todas as senhas de banco de dados na internet.
-* **B)** Princípio da Não Discriminação, o qual estabelece a impossibilidade de realização do tratamento de dados pessoais para fins discriminatórios ilícitos ou abusivos.
-* **C)** Princípio da Portabilidade, que exige a transferência compulsória de dados entre tribunais concorrentes sem consentimento.
-* **D)** Princípio da Finalidade, que autoriza o uso genérico e indefinido de dados para qualquer objetivo futuro imprevisível.
-* **E)** Princípio da Retaliação, que permite punir cidadãos que solicitarem a exclusão de seus dados pessoais.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O Livre Acesso (Art. 6º, IV) garante a consulta facilitada e gratuita do titular sobre a forma e duração do tratamento e a integralidade de seus dados, e não vazamento de senhas.
-> - **B)** **CORRETA.** O **Princípio da Não Discriminação (Art. 6º, IX, da LGPD)** dita expressamente: *"impossibilidade de realização do tratamento para fins discriminatórios ilícitos ou abusivos"*. Em IA, esse princípio impõe aos desenvolvedores e controladores a obrigação técnica de:
->   - Auditar dados de treinamento contra vieses históricos.
->   - Eliminar ou mitigar o uso de variáveis que atuem como *proxies* para discriminações proibidas (ex.: raça, gênero, religião, origem étnica).
->   - Garantir que decisões automatizadas (concessão de benefícios, elegibilidade a programas sociais, notas de risco) não promovam segregação arbitrária.
-> - **C)** Incorreta. A portabilidade trata da transferência de dados a outro fornecedor mediante requisição expressa do titular.
-> - **D)** Incorreta. O princípio da finalidade (Art. 6º, I) exige propósitos legítimos, específicos, explícitos e informados, vedando finalidades genéricas ou desvirtuadas.
-> - **E)** Incorreta. Princípio inexistente no ordenamento jurídico.
-> 
-> **Gabarito: B**
-
----
-
-### Teste 351
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Um contribuinte teve sua certidão negativa de débitos fiscais cancelada de forma imediata e sumária por um módulo autônomo de inteligência artificial de uma Secretaria da Fazenda. O sistema tomou a decisão com base em cruzamentos algorítmicos automatizados de notas fiscais eletrônicas de terceiros. Ao solicitar esclarecimentos formais sobre os critérios adotados na autuação, o contribuinte recebeu como resposta de que a decisão era fruto de processamento fechado e protegido por sigilo tecnológico interno, nada havendo a ser esclarecido.
-À luz da Lei Geral de Proteção de Dados (Lei nº 13.709/2018 - LGPD), assinale a alternativa correta:
-
-* **A)** O controlador agiu de forma estritamente legal, pois a LGPD não prevê qualquer prerrogativa de revisão para decisões tomadas com base em tratamento automatizado de dados pessoais.
-* **B)** Nos termos do Artigo 20 da LGPD, o titular dos dados tem o direito de solicitar a revisão de decisões tomadas unicamente com base em tratamento automatizado de dados pessoais que afetem seus interesses, tendo o controlador a obrigação de prestar informações claras e adequadas a respeito dos critérios e dos procedimentos utilizados.
-* **C)** A alegação de sigilo comercial e industrial por parte do controlador cessa qualquer possibilidade de auditoria pelo Estado, extinguindo as competências da Autoridade Nacional de Proteção de Dados (ANPD). em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **D)** As decisões tomadas por algoritmos no setor público prescindem de motivação legal, dada a presunção jurídica de infalibilidade dos cálculos matemáticos.
-* **E)** A LGPD autoriza expressamente a discriminação ilícita ou abusiva quando esta for executada por algoritmos de aprendizado profundo (*deep learning*).
-
+* **A)** a descrição dos tipos de dados coletados; metodologia utilizada 
+para a coleta e para a garantia da segurança das informações; e 
+análise do controlador sobre medidas, salvaguardas e 
+mecanismos de mitigação de risco adotados.
+* **B)** a descrição das finalidades específicas do tratamento de dados; 
+metodologia utilizada para a coleta e para a garantia da 
+segurança das informações; e informações sobre o 
+compartilhamento de dados com terceiros.
+* **C)** a descrição dos tipos de dados coleta dos; políticas internas de 
+recursos humanos; e informações sobre o compartilhamento de 
+dados com terceiros.
+* **D)** a lista dos consentimentos obtidos dos titulares; métodos para 
+revogação do consentimento; e detalhes sobre a oposição ao 
+tratamento de dados pessoais.
+* **E)** o resumo das solicitações de eliminação de dados pessoais; 
+mecanismos para anonimização de dados; e análise do 
+controlador sobre medidas, salvaguardas e mecanismos de 
+mitigação de risco adotados.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O Artigo 20 da LGPD consagra formalmente o direito à **revisão de decisões tomadas unicamente com base em tratamento automatizado**.
-> - **B)** **Correta.** O Artigo 20 assegura ao titular o direito de requerer a revisão da decisão unicamente automatizada, bem como o dever vinculado do controlador de fornecer informações transparentes sobre critérios e procedimentos adotados no cálculo.
-> - **C)** Incorreta. Conforme o Art. 20, § 2º, a invocação de segredo comercial/industrial pelo controlador **não extingue a fiscalização pública**: a **ANPD poderá deflagrar auditoria técnica direta** para verificar a ocorrência de discriminações abusivas no código e dados.
-> - **D)** Incorreta. No direito administrativo brasileiro vigora compulsoriamente o princípio da motivação dos atos administrativos (Art. 37 e Art. 93, IX da CF/88), sendo nulo qualquer ato decisório sem motivação fática e jurídica demonstrável.
-> - **E)** Incorreta. O Art. 6º, IX veda peremptoriamente qualquer discriminação ilícita ou abusiva.
-> 
-> **Gabarito: B**
-
----
-
-### Teste 352
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Um Tribunal Regional Federal planeja implantar um sistema automatizado de inteligência artificial dotado de visão computacional para reconhecimento facial e perfilamento biométrico em tempo real para controle de acesso físico e segurança em suas dependências judiciárias.
-Considerando as regras da LGPD e as diretrizes internacionais de governança ética em IA, assinale a alternativa correta:
-
-* **A)** O uso de biometria facial e perfilamento em larga escala qualifica-se como tratamento de dados pessoais sensíveis com potencial de elevado risco aos direitos fundamentais, justificando a realização de um Relatório de Impacto à Proteção de Dados Pessoais (RIPD) e a adoção de medidas reforçadas de segurança e mitigação de falsos positivos.
-* **B)** A LGPD isenta expressamente qualquer órgão do Poder Judiciário da elaboração de Relatórios de Impacto à Proteção de Dados Pessoais (RIPD), mesmo quando envolver inteligência artificial e dados sensíveis. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **C)** Os princípios da OCDE sobre IA preconizam a exclusão sumária de qualquer mecanismo de auditoria algorítmica para garantir a proteção irrestrita da propriedade intelectual de desenvolvedores privados.
-* **D)** O princípio da Minimização de Dados impõe que o órgão público colete a maior quantidade possível de dados pessoais irrelevantes para alimentar a memória do algoritmo sem finalidade específica.
-* **E)** Sistemas de IA aplicados à segurança pública prescindem de qualquer controle de precisão técnica ou teste de estresse de segurança cibernética.
-
-
----
-
-> **Comentário Detalhado:**
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
 >
-> - **A)** **Correta.** Dados biométricos faciais são categorizados como **dados pessoais sensíveis** (Art. 11 da LGPD). O seu processamento automatizado com perfilamento em larga escala introduz riscos severos aos direitos civis e liberdades fundamentais (como riscos de constrangimentos ou prisões indevidas por falsos positivos em minorias), demandando compulsoriamente a prévia elaboração de um **Relatório de Impacto à Proteção de Dados Pessoais (RIPD / DPIA)** (Art. 38) com salvaguardas de mitigação.
-> - **B)** Incorreta. O Poder Público submete-se estritamente às obrigações da LGPD (Art. 23 e seguintes), não havendo dispensa genérica de RIPD para o Poder Judiciário em tratamentos de alto risco.
-> - **C)** Incorreta. As diretrizes da OCDE exigem transparência, auditabilidade técnica e prestação de contas (*accountability*).
-> - **D)** Incorreta. O princípio da Minimização (Necessidade, Art. 6º, III) impõe exatamente o inverso: coletar estritamente o mínimo indispensável para a finalidade específica do serviço.
-> - **E)** Incorreta. Sistemas voltados à segurança demandam testes de robustez cibernética e tolerância a falhas ainda mais rigorosos.
-> 
 > **Gabarito: A**
 
 ---
+### Teste 351
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+A NBASP 9020 - Avaliação de políticas públicas oferece orientações 
+detalhadas para a avaliação rigorosa e abrangente das políticas 
+públicas, visando aprimorar sua eficácia e impacto na sociedade. 
+Nesse contexto, analise os itens a seguir: 
+I. As Entidades Fiscalizadoras Superiores (EFS) não são os únicos 
+atores que podem realizar avaliações de políticas públicas. 
+II. Organizações administrativas devem realizar avaliações de 
+políticas públicas quando requisitadas por autoridades 
+governamentais. 
+III. Semelhantes as outras instituições públicas ou privadas, as EFS 
+precisam demonstrar sua objetividade e comprovar sua 
+independência do governo e de interesses privados.  
+Está correto o que se afirma em
 
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III. 
+Governança de TI
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: A**
+
+---
+### Teste 352
+**(FGV – TCE-GO – Analista de Controle Externo - Controle Externo – 2024)**
+A NBASP 9020 - Avaliação de políticas públicas oferece orientações 
+detalhadas para a avaliação rigorosa e abrangente das políticas 
+públicas, visando aprimorar sua eficácia e impacto na sociedade. 
+Nesse contexto, analise os itens a seguir: 
+I. As Entidades Fiscalizadoras Superiores (EFS) não são os únicos 
+atores que podem realizar avaliações de políticas públicas. 
+II. Organizações administrativas devem realizar avaliações de 
+políticas públicas quando requisitadas por autoridades 
+governamentais. 
+III. Semelhantes as outras instituições públicas ou privadas, as EFS 
+precisam demonstrar sua objetividade e comprovar sua 
+independência do governo e de interesses privados.  
+Está correto o que se afirma em
+
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III. 
+Direito Constitucional
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: A**
+
+---
 ## 4. Estratégia Brasileira de Inteligência Artificial (EBIA)
 
 A **Estratégia Brasileira de Inteligência Artificial (EBIA)** foi formalmente instituída pelo Governo Federal por meio da **Portaria MCTI nº 4.617, de 6 de abril de 2021**, com o propósito de articular investimentos públicos e privados, promover a pesquisa e capacitação, e assegurar o uso ético da tecnologia.
@@ -518,69 +535,77 @@ A EBIA estrutura-se em uma arquitetura matricial dividida categoricamente entre 
 ---
 
 ### Teste 353
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A Estratégia Brasileira de Inteligência Artificial (EBIA), aprovada formalmente por meio da Portaria MCTI nº 4.617/2021, foi instituída com a missão de orientar o desenvolvimento ético, sustentável e inovador da IA no território brasileiro, organizando-se em eixos estruturais complementares.
-A respeito da taxonomia e da divisão temática dos eixos da EBIA, assinale a afirmativa correta:
+**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**
+Uma atenção especial deve ser dada à seleção de bases 
+de dados online ao elaborar a política de desenvolvimento 
+e avaliação de acervos. Nesse caso, deve-se atentar para 
+a diferença entre o acesso a uma base de dados online e 
+outra em CD-ROM, uma vez que
 
-* **A)** A EBIA divide-se estritamente em 3 Eixos Transversais (Legislação, Regulação e Uso Ético; Governança de IA; e Aspectos Internacionais) e 6 Eixos Verticais (Educação e Capacitação; Força de Trabalho e Capacitação; Pesquisa, Desenvolvimento, Inovação e Empreendedorismo; Aplicação nos Setores Produtivos; Aplicação no Poder Público; e Segurança Pública).
-* **B)** O documento proíbe categoricamente qualquer iniciativa de pesquisa em IA no Poder Público para evitar interferências em rotinas burocráticas consolidadas.
-* **C)** Os Eixos Transversais da EBIA são: Finanças Corporativas, Mineração de Criptomoedas e Automação de Jogos Eletrônicos.
-* **D)** A EBIA impõe que todo modelo de inteligência artificial comercializado no Brasil obtenha autorização ministerial prévia com homologação em cartório de títulos e documentos antes de qualquer fase de teste. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **E)** A EBIA determina que a substituição de empregos decorrente da automação dispensa programas de capacitação ou requalificação profissional por parte do Estado.
-
+* **A)** nem sempre uma base em CD-ROM contém o 
+mesmo que suas congêneres online.
+* **B)** o acesso online costuma ser economicamente mais 
+adequado para a biblioteca, quando há alta deman-
+da.
+* **C)** a aquisição da base de dados em CD-ROM só será 
+mais vantajosa para a biblioteca quando a demanda 
+for baixa.
+* **D)** bases de dados ocupam pouco espaço na memória 
+dos computadores.
+* **E)** apenas redes de bibliotecas podem ter bases de 
+dados em CD-ROM, se considerada a relação entre 
+os custos e os benefícios. 
+_________________________________________________________
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Enuncia rigorosamente a divisão estrutural canônica formalizada na Portaria MCTI nº 4.617/2021: **3 Eixos Transversais** (Legislação, Regulação e Uso Ético; Governança de IA; Aspectos Internacionais) e **6 Eixos Verticais** (Educação e Capacitação; Força de Trabalho e Capacitação; Pesquisa, Desenvolvimento, Inovação e Empreendedorismo; Aplicação nos Setores Produtivos; Aplicação no Poder Público; Segurança Pública).
-> - **B)** Incorreta. A aplicação no Poder Público constitui expressamente um dos eixos temáticos prioritários.
-> - **C)** Incorreta. Criptomoedas e jogos eletrônicos não fazem parte da taxonomia de eixos transversais da política nacional.
-> - **D)** Incorreta. A EBIA desestimula burocracias sufocantes prévias, incentivando ambientes experimentais regulatórios controlados (*sandboxes*).
-> - **E)** Incorreta. A qualificação e requalificação profissional (*reskilling*) do trabalhador é o núcleo do eixo vertical de Força de Trabalho.
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: C**
 
 ---
-
 ### Teste 354
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A Estratégia Brasileira de Inteligência Artificial (EBIA), instituída por meio da Portaria MCTI nº 4.617/2021, estabelece as diretrizes estratégicas nacionais para o desenvolvimento, fomento e uso responsável da Inteligência Artificial no Brasil.
+**(FGV – TCE-GO – Analista de Controle Externo - Controle Externo – 2024)**
+A NBASP 9020 - Avaliação de políticas públicas oferece orientações 
+detalhadas para a avaliação rigorosa e abrangente das políticas 
+públicas, visando aprimorar sua eficácia e impacto na sociedade. 
+Nesse contexto, analise os itens a seguir: 
+I. As Entidades Fiscalizadoras Superiores (EFS) não são os únicos 
+atores que podem realizar avaliações de políticas públicas. 
+II. Organizações administrativas devem realizar avaliações de 
+políticas públicas quando requisitadas por autoridades 
+governamentais. 
+III. Semelhantes as outras instituições públicas ou privadas, as EFS 
+precisam demonstrar sua objetividade e comprovar sua 
+independência do governo e de interesses privados.  
+Está correto o que se afirma em
 
-A estrutura formal da EBIA articula-se em **3 Eixos Transversais** e **6 Eixos Verticais (Temáticos)**. Assinale a afirmativa que apresenta corretamente os componentes que integram essa matriz estratégica:
-
-* **A)** Os três eixos transversais são: Legislação, Regulação e Uso Ético; Governança de IA; e Aspectos Internacionais. Já os seis eixos verticais englobam: Educação; Força de Trabalho e Capacitação; Pesquisa, Desenvolvimento, Inovação e Empreendedorismo; Aplicação no Setor Público; Aplicação nos Setores Produtivos; e Segurança Pública.
-* **B)** A EBIA possui apenas um eixo vertical unificado voltado exclusivamente para a aquisição de criptomoedas pelo Banco Central.
-* **C)** Os eixos verticais da EBIA preveem a extinção completa dos tribunais de contas até o ano de 2026.
-* **D)** A EBIA proíbe qualquer tipo de cooperação técnica internacional entre o Brasil e organismos multilaterais no campo da inteligência artificial. garantindo a observância dos protocolos de governança e interoperabilidade vigentes.
-* **E)** Os eixos transversais da EBIA são: Redes Neurais, Algoritmos Genéticos e Árvores de Decisão; e os eixos verticais são: Windows, Linux e Unix.
-
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III. 
+Noções de Direito Constitucional
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **CORRETA.** A organização estrutural da **EBIA (Portaria MCTI nº 4.617/2021)** é dividida formalmente em:
->   - **Três Eixos Transversais:**
->     1. Legislação, Regulação e Uso Ético;
->     2. Governança de IA;
->     3. Aspectos Internacionais.
->   - **Seis Eixos Verticais (Objetivos Setoriais de Aplicação):**
->     1. Educação;
->     2. Força de Trabalho e Capacitação;
->     3. Pesquisa, Desenvolvimento, Inovação e Empreendedorismo;
->     4. Aplicação no Setor Público (Governo Digital e Controle);
->     5. Aplicação nos Setores Produtivos (Indústria, Agropecuária e Serviços);
->     6. Segurança Pública.
-> - **B)** Incorreta. Não trata de criptomoedas como foco de política pública de IA.
-> - **C)** Incorreta. Os tribunais e o setor público são explicitamente contemplados no eixo de aplicação pública.
-> - **D)** Incorreta. O eixo transversal de "Aspectos Internacionais" preconiza o engajamento ativo do Brasil em fóruns globais (UNESCO, OCDE, Mercosul, BRICS).
-> - **E)** Incorreta. Mistura termos de algoritmos e sistemas operacionais de maneira descabida.
-> 
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
 > **Gabarito: A**
 
 ---
-
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 
 * [Lei Federal nº 13.709/2018 - LGPD (Planalto)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm) - Princípios da finalidade, adequação, necessidade, não discriminação e revisão de decisões automatizadas (Art. 20).

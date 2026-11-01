@@ -60,52 +60,35 @@ A norma foi concebida para conciliar dois vetores complementares:
 ---
 
 ### Teste 545
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** A Lei Complementar Estadual nº 205, de 19 de maio de 2025, instituiu a Política Estadual de Inteligência Artificial no Estado de Goiás. A respeito dos objetivos centrais e do escopo regulatório estabelecido por esse diploma legal para a administração pública goiana, assinale a afirmativa correta:  
+**(FGV – TJ-AP – Analista Judiciário - Segurança da Informação – 2023)**
+A Internet das Coisas, ou IoT (Internet of Things) como muitos 
+conhecem, está dentro do tema casa inteligente, uma vez que faz 
+com que “coisas” possam se comunicar, trocar informações e 
+tomar decisões pré-programadas.   
+Nesse contexto, o protocolo sem fio muito usado em dispositivos 
+de casa inteligente, principalmente pela facilidade de transmitir 
+pequenos pacotes de dados, com baixo consumo de energia e 
+que não depende do Wi-Fi para funcionar, é o:
 
-* **A)** A lei visa fomentar exclusivamente a substituição integral de todos os auditores fiscais e juízes por sistemas autônomos de tomada de decisão não auditáveis.
-* **B)** A norma tem como escopo conciliar o fomento à inovação tecnológica, ao desenvolvimento socioeconômico e à governança digital com a salvaguarda inegociável de direitos fundamentais, transparência algorítmica e proteção de dados pessoais.
-* **C)** A política estadual veda terminantemente que universidades e centros de pesquisa estaduais desenvolvam modelos de inteligência artificial em cooperação com o setor produtivo.
-* **D)** A LC nº 205/2025 autoriza os órgãos públicos do Estado a utilizarem dados pessoais para fins discriminatórios sempre que houver potencial de aumento da arrecadação tributária.
-* **E)** O escopo da lei restringe-se exclusivamente a empresas privadas do setor financeiro, não vinculando os órgãos da administração pública direta ou indireta de Goiás.
-
+* **A)** zigbee;
+* **B)** gateway;
+* **C)** relé smart;
+* **D)** 6lowPAN;
+* **E)** tuya.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A lei expressamente estabelece a centralidade na pessoa humana (*Human-Centric AI*) e a exigência de supervisão humana, repudiando a substituição irresponsável de agentes públicos por algoritmos opacos.
-> - **B)** **Correta.** O objetivo estruturante da LC nº 205/2025 é o equilíbrio estratégico: impulsionar a inovação digital, a competitividade e a eficiência governamental, ao mesmo tempo em que institui barreiras éticas e legais rígidas contra vieses discriminatórios, abusos e violações à privacidade.
-> - **C)** Incorreta. A cooperação entre poder público, universidades, ICTs e setor privado (modelo da hélice tríplice) é um dos eixos mais incentivados pela política de inovação estadual.
-> - **D)** Incorreta. A não discriminação e a equidade algorítmica são princípios cogentes e absolutos na legislação de IA goiana.
-> - **E)** Incorreta. A norma vincula expressamente os órgãos e entidades da administração pública direta, autárquica e fundacional do Estado de Goiás.
-> 
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
 > **Gabarito: B**
 
-
-```mermaid
-flowchart TD
-    LC["Lei Complementar nº 205/2025<br/>(Marco Regulatório de IA em Goiás)"] --> P1["Princípios Éticos Fundamentais"]
-    LC --> P2["Instrumentos de Governança e Inovação"]
-    LC --> P3["Impacto no Controle Externo (TCE-GO)"]
-
-    P1 --> E1["Centralidade na Pessoa Humana"]
-    P1 --> E2["Não Discriminação e Mitigação de Viés"]
-    P1 --> E3["Transparência e Explicabilidade (XAI)"]
-    P1 --> E4["Supervisão Humana Obrigatória (Human-in-the-Loop)"]
-
-    P2 --> I1["Sandbox Estadual Permanente de IA"]
-    P2 --> I2["Núcleo de Ética e Inovação (NEI-IA)"]
-    P2 --> I3["Diretriz de IA Aberta (Open Source AI)"]
-    P2 --> I4["Parcerias com Universidades e Fapeg"]
-
-    P3 --> C1["Auditoria de Algoritmos Governamentais"]
-    P3 --> C2["Fiscalização de Dados de Treinamento"]
-    P3 --> C3["Adoção Interna no Tribunal (Ecossistema IAGO)"]
-```
-
 ---
-
 ## 1.2 Princípios Norteadores de IA no Setor Público Goiano
 
 | Princípio da LC nº 205/2025 | Conteúdo Teórico | Tradução Prática em Sistemas de TI |
@@ -122,55 +105,66 @@ flowchart TD
 ---
 
 ### Teste 546
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** Um dos princípios mais relevantes da LC nº 205/2025 é a **Transparência Algorítmica e a Explicabilidade** (*Explainable AI - XAI*). Ao fiscalizar a utilização de modelos complexos de aprendizado de máquina (como redes neurais profundas e gradient boosting) empregados por secretarias de estado na concessão de benefícios assistenciais, o auditor do TCE-GO deve verificar se:  
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+A integração de dados desempenha um papel crucial na gestão da 
+informação em organizações. No contexto dos processos de ETL 
+(Extract, Transform, Load), cada etapa desempenha funções 
+específicas. 
+Assinale a opção que descreve corretamente o processo de 
+Transformação (T) no ETL.
 
-* **A)** A Administração Pública esconde a documentação técnica sob segredo comercial irrestrito, impedindo o cidadão de conhecer os critérios da decisão.
-* **B)** São adotadas metodologias e ferramentas técnicas de interpretabilidade e explicabilidade (como valores SHAP, LIME ou modelos substitutos interpretáveis) que permitam justificar de forma inteligível ao cidadão e aos órgãos de controle as variáveis determinantes do ato administrativo automatizado.
-* **C)** O modelo foi construído utilizando parâmetros aleatórios que dispensam qualquer comprovação lógica ou estatística.
-* **D)** A explicabilidade é tratada como opcional quando o custo de processamento computacional da inferência for superior a um centavo de real.
-* **E)** Apenas especialistas com pós-doutorado em física quântica consigam compreender as razões da decisão estatal proferida.
-
+* **A)** Etapa em que os dados são carregados em um data warehouse 
+para armazenamento.
+* **B)** Fase em que os dados são extraídos de diferentes fontes de 
+dados.
+* **C)** Momento em que os dados são preparados para serem 
+apresentados aos usuários finais.
+* **D)** Parte do processo em que os dados são indexados 
+espacialmente para otimizar consultas futuras.
+* **E)** Passo no qual os dad os são limpos, filtrados, agregados ou 
+modificados de acordo com os requisitos de negócios.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A administração pública rege-se pelos princípios constitucionais da publicidade e motivação dos atos administrativos; o segredo comercial não pode ser invocado pelo Estado para blindar decisões públicas automatizadas.
-> - **B)** **Correta.** A diretriz de explicabilidade algorítmica (*XAI*) exige que o poder público disponha de meios técnicos (como SHAP - *SHapley Additive exPlanations* e LIME - *Local Interpretable Model-agnostic Explanations*) para auditar e fundamentar as decisões, tornando transparentes os fatores e pesos que levaram o sistema ao resultado.
-> - **C)** Incorreta. Atos administrativos baseados em algoritmos devem observar a motivação, legalidade e robustez metodológica.
-> - **D)** Incorreta. A transparência algorítmica é um dever legal inderrogável imposto pela LC 205/2025 e pela Constituição.
-> - **E)** Incorreta. A explicabilidade deve viabilizar a compreensão em linguagem acessível e clara tanto para os órgãos de controle quanto para os cidadãos impactados.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+>
+> **Gabarito: E**
 
 ---
-
 ### Teste 547
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** Em uma auditoria governamental de conformidade algorítmica realizada pelo TCE-GO sobre o sistema automatizado de cobrança e suspensão cadastral de contribuintes gerido pelo Poder Executivo Estadual, a equipe técnica verificou que o modelo de aprendizado de máquina bloqueava automaticamente as certidões negativas de débito sem qualquer possibilidade de revisão ou recurso por analista humano. À luz dos princípios éticos da LC nº 205/2025:  
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
+Os princípios de governança pública são fundamentos 
+orientadores que promovem a transparência, a re sponsabilidade, 
+a eficácia e a equidade nas ações e decisões do setor público, 
+visando ao interesse público e ao desenvolvimento sustentável. 
+Assinale, dentre as opções a seguir , a que compreende princípios 
+de governança pública.
 
-* **A)** O procedimento é lícito e exemplar, pois a automação integral sem interferência humana é a meta suprema exigida pela legislação goiana.
-* **B)** O sistema viola a diretriz mandatória de supervisão humana (*Human-in-the-Loop*), que assegura ao cidadão e aos jurisdicionados a explicabilidade do ato e o direito de obter a revisão humana de decisões automatizadas que afetem seus direitos.
-* **C)** O Tribunal de Contas não tem competência funcional para auditar a lógica de algoritmos governamentais, devendo limitar-se ao valor financeiro da nota fiscal da licitação.
-* **D)** A decisão automatizada pura é permitida desde que a taxa de acerto do modelo estatístico seja superior a noventa por cento em dados de teste.
-* **E)** O cidadão deve renunciar previamente ao direito de defesa administrativa para interagir com sistemas de governo digital em Goiás.
-
+* **A)** Integridade, melhoria regulatória e transparência.
+* **B)** Competência, responsabilidade e transparência.
+* **C)** Integridade, liderança e motivação.
+* **D)** Competência, integridade e liderança.
+* **E)** Integridade, melhoria regulatória e liderança.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A automação plena sem mecanismo humano em decisões restritivas de direitos é repudiada pela doutrina de governança de IA e pela LC nº 205/2025.
-> - **B)** **Correta.** A LC nº 205/2025 e os princípios universais de ética em IA determinam que decisões que impactem substancialmente a esfera jurídica e os direitos de pessoas físicas ou jurídicas devem assegurar o princípio do *Human-in-the-Loop* (supervisão humana), com direito a explicações inteligíveis dos critérios adotados e possibilidade de revisão por pessoa natural.
-> - **C)** Incorreta. O TCE-GO possui ampla competência constitucional e legal para fiscalizar a legitimidade, economicidade, eficácia e conformidade legal de quaisquer atos estatais, incluindo os algoritmos decisórios.
-> - **D)** Incorreta. Nenhuma métrica estatística afasta as garantias constitucionais do devido processo legal e a exigência de supervisão humana em atos administrativos restritivos de direitos.
-> - **E)** Incorreta. O direito à ampla defesa e ao contraditório é cláusula constitucional pétrea que não pode ser objeto de renúncia para utilização de serviços públicos.
-> 
-> **Gabarito: B**
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: A**
 
 ---
-
 ## 2. Instrumentos Estratégicos Criados pela LC nº 205/2025
 
 A Lei Complementar nº 205/2025 estrutura a política pública estadual sobre três grandes pilares institucionais:
@@ -190,55 +184,56 @@ A Lei Complementar nº 205/2025 estrutura a política pública estadual sobre tr
 ---
 
 ### Teste 548
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** O *Sandbox Estadual Permanente de Inteligência Artificial*, regulamentado pela LC nº 205/2025 de Goiás, foi concebido como um ambiente pioneiro no Brasil. A respeito das condições e salvaguardas mandatórias para que uma empresa ou consórcio participe desse ambiente experimental de inovação, assinale a afirmativa correta:  
+**(FCC – TRT-11 – Analista Judiciário - Tecnologia da Informação – 2017)**
+A Lei n o 13.146/2015 instituiu a Lei Brasileira de Inclusão da Pessoa com Deficiência, também conhecida como o Estatuto da 
+Pessoa com Deficiência. Entre os assuntos tratados por essa norma estão os entraves, obstáculos, atitudes ou comportamentos 
+que limitem ou impeçam a participação social da pessoa, bem como o gozo, a fruição e o exercício de seus direitos à aces-
+sibilidade, à liberdade de movimento e de expressão, à comunicação, ao acesso à informação, à compreensão, à circulação com 
+segurança, entre outros. Esses fatores são legal e tecnicamente denominados
 
-* **A)** A admissão no sandbox dispensa a empresa de cumprir as regras da Lei Geral de Proteção de Dados Pessoais (LGPD).
-* **B)** A participação no sandbox exige prévia aprovação em processo público de seleção e a apresentação de matriz de gerenciamento de riscos, garantida a preservação da responsabilidade civil por eventuais danos causados a terceiros.
-* **C)** O sandbox permite testes clandestinos em dados sensíveis de pacientes sem qualquer controle ou monitoramento por parte dos órgãos estaduais competentes considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
-* **D)** Apenas empresas multinacionais com sede fora do Brasil têm autorização para submeter projetos ao sandbox goiano.
-* **E)** As autorizações concedidas no sandbox têm prazo de vigência perpétuo e irrevogável pelo Estado.
-
+* **A)** fatos de desagregação social.
+* **B)** socioambientais de limitação.
+* **C)** barreiras.
+* **D)** limítrofes.
+* **E)** impeditivos de fruição de direitos.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A conformidade com a LGPD e os direitos fundamentais constitui requisito inegociável e mandatório durante toda a estada no sandbox.
-> - **B)** **Correta.** Conforme a LC nº 205/2025, o ingresso no sandbox ocorre mediante edital de chamada pública e exige plano detalhado de mitigação e gestão de riscos. A flexibilização regulatória temporária não isenta os participantes da responsabilidade civil perante terceiros.
-> - **C)** Incorreta. Testes clandestinos são ilícitos; todo o ciclo é monitorado e supervisionado pelas autoridades estaduais designadas.
-> - **D)** Incorreta. O programa é aberto a startups locais, empresas de base tecnológica, ICTs e universidades, estimulando fortemente o ecossistema regional goiano.
-> - **E)** Incorreta. As licenças e autorizações experimentais são essencialmente temporárias e condicionadas a relatórios periódicos de conformidade.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: C**
 
 ---
-
 ### Teste 549
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** A Lei Complementar Estadual nº 205, de 19 de maio de 2025, disciplinou a Política Estadual de Inovação e Governança em Inteligência Artificial no Estado de Goiás. Ao tratar dos instrumentos para fomento e segurança jurídica, a referida lei instituiu o *Sandbox Estadual Permanente de Inteligência Artificial*. Em relação a esse instrumento regulatório, é correto afirmar:  
+**(FCC – TRT-11 – Analista Judiciário - Tecnologia da Informação – 2017)**
+No que diz respeito ao reconhecimento igual perante a lei, a Lei n o 13.146/2015 estabelece que
 
-* **A)** Consiste em um ambiente fechado e exclusivo para órgãos de repressão criminal do Estado, vedada a participação de startups ou entidades civis.
-* **B)** Permite a experimentação controlada de modelos e soluções tecnológicas de IA com flexibilização temporária e monitorada de certas exigências regulatórias, condicionada à apresentação de plano de gestão de riscos e estrita observância à proteção de dados e direitos fundamentais.
-* **C)** Isenta totalmente as empresas participantes de qualquer responsabilidade civil ou criminal por danos materiais causados a cidadãos durante o período de testes.
-* **D)** Tem duração efêmera e vigência obrigatória de apenas 30 dias contados da publicação da lei complementar, sendo extinto após essa data.
-* **E)** Autoriza o tratamento irrestrito de dados pessoais sensíveis sem necessidade de observância aos preceitos da Lei Geral de Proteção de Dados Pessoais (LGPD).
-
+* **A)** é facultado à pessoa com deficiência a adoção de processo de tomada de decisão apoiada.
+* **B)** a curatela não afeta os atos relacionados aos direitos de natureza patrimonial e negocial.
+* **C)** a pessoa com deficiência sempre será submetida à curatela.
+* **D)** a curatela de pessoa com deficiência constitui medida protetiva ordinária.
+* **E)** a curatela é proporcional às necessidades e às circunstâncias de cada caso e persiste obrigatoriamente até que sejam 
+completados os 21 anos de idade.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O Sandbox de IA de Goiás é amplo, permanente e voltado a estimular o ecossistema econômico de inovação, incluindo startups, empresas de tecnologia, universidades e órgãos públicos.
-> - **B)** **Correta.** A definição legal de Sandbox Regulatório na LC nº 205/2025 prevê um ambiente controlado de testes com flexibilização temporária e supervisionada de certas exigências regulatórias, exigindo salvaguardas essenciais: plano prévio de mitigação de riscos, respeito absoluto aos direitos humanos e submissão estrita à LGPD.
-> - **C)** Incorreta. O sandbox não confere imunidade civil ampla; eventuais danos provocados a usuários continuam sujeitos à reparação civil na forma da legislação em vigor.
-> - **D)** Incorreta. A lei instituiu expressamente o sandbox como permanente (*Sandbox Estadual Permanente de Inteligência Artificial*), estabelecendo uma política pública continuada no Estado de Goiás.
-> - **E)** Incorreta. A conformidade com a LGPD é pré-requisito indispensável e inegociável para a participação no sandbox.
-> 
-> **Gabarito: B**
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: A**
 
 ---
-
 ## 2.2 Núcleo de Ética e Inovação em Inteligência Artificial (NEI-IA)
 
 Colegiado de natureza **consultiva e propositiva**, reunindo representantes do Poder Executivo (Secretaria de Ciência, Tecnologia e Inovação - Secti), universidades públicas, comunidade científica, sociedade civil e setor empresarial de tecnologia.
@@ -253,30 +248,42 @@ Colegiado de natureza **consultiva e propositiva**, reunindo representantes do P
 ---
 
 ### Teste 550
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** O Núcleo de Ética e Inovação em Inteligência Artificial (NEI-IA), criado pela Lei Complementar Estadual nº 205/2025 no Estado de Goiás, possui como uma de suas funções primordiais:  
+**(FCC – TRT-11 – Analista Judiciário - Tecnologia da Informação – 2017)**
+Alunos de um curso de Direito participaram de um evento organizado pelo Governo do Estado do Amazonas sobre os direitos 
+das pessoas com deficiência. A primeira discussão tratou dos seguintes temas relacionados à Política Nacional para a 
+Integração da Pessoa Portadora de Deficiência:  
+ I. O desenvolvimento de ação conjunta do Estado e da sociedade civil, de modo a assegurar a plena integração da pessoa 
+portadora de deficiência no contexto socioeconômico e cultural.  
+ II. A adoção de estratégias de articulação com órgãos e entidades públicos e privados, bem assim com organismos inter-
+nacionais e estrangeiros para a implantação da Política Nacional para a Integração da Pessoa Portadora de Deficiência.  
+ III. O desenvolvimento de programas setoriais destinados ao atendimento das necessidades especiais da pessoa portadora 
+de deficiência.  
+ IV. O fomento da tecnologia de bioengenharia voltada para a pessoa portadora de deficiência, bem como a facilitação da 
+importação de equipamentos.  
+ V. A fiscalização do cumprimento da legislação pertinente à pessoa portadora de deficiência. 
 
-* **A)** Exercer com exclusividade o julgamento e aplicação de penas de prisão perpétua a hackers e fraudadores de sistemas estaduais.
-* **B)** Atuar como órgão colegiado consultivo e propositivo para estabelecer diretrizes de ética, governança, mitigação de viés algorítmico e boas práticas no desenvolvimento e uso de inteligência artificial na administração estadual.
-* **C)** Monopolizar todo o desenvolvimento de código-fonte de TI no Estado, extinguindo as diretorias de TI dos demais órgãos públicos.
-* **D)** Autorizar previamente a compra de qualquer computador de uso pessoal adquirido por cidadãos residentes em território goiano.
-* **E)** Substituir as câmaras de julgamento de processos de contas do Tribunal de Contas do Estado de Goiás.
+ Para a Política Nacional para a Integração da Pessoa Portadora de Deficiência e nos termos do Decreto n o 3.298/1999, esses 
+temas são conceituados, respectivamente, como:
 
+* **A)** diretriz, princípio, instrumento, princípio e objetivo.
+* **B)** objetivo, princípio, princípio, diretriz e diretriz.
+* **C)** instrumento, princípio, diretriz, objetivo e instrumento.
+* **D)** princípio, diretriz, objetivo, instrumento e instrumento.
+* **E)** princípio, princípio, diretriz, instrumento e objetivo.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O NEI-IA é órgão consultivo de governança ética, não exercendo funções jurisdicionais penais.
-> - **B)** **Correta.** O NEI-IA foi estruturado pela LC nº 205/2025 como uma instância colegiada consultiva, plural e propositiva com a missão de zelar pela ética, transparência algorítmica, mitigação de vieses preconceituosos e emissão de orientações técnicas de boas práticas para os sistemas públicos de IA em Goiás.
-> - **C)** Incorreta. O núcleo não é fábrica monopolista de software; cada órgão (como TCE, SEFAZ, Detran) mantém suas respectivas áreas de tecnologia.
-> - **D)** Incorreta. O poder público estadual não exerce controle prévio sobre aquisições privadas de hardware pessoal de cidadãos.
-> - **E)** Incorreta. A competência jurisdicional de controle externo e julgamento de contas públicas é privativa dos Conselheiros do TCE-GO.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: D**
 
 ---
-
 ## 2.3 A Diretriz Mandatória de IA Aberta (Open Source AI)
 
 A LC nº 205/2025 prescreve a **preferência pelo uso de soluções, modelos de linguagem e softwares de inteligência artificial de código aberto (*open-source*)** pelos órgãos e entidades da Administração Pública Estadual de Goiás.
@@ -300,55 +307,84 @@ flowchart LR
 ---
 
 ### Teste 551
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** A diretriz de **Inteligência Artificial Aberta (*Open Source AI*)**, positivada no marco legal da LC nº 205/2025, estabelece que os órgãos e entidades do Estado de Goiás deem preferência a modelos e ferramentas de código aberto. Sob a ótica do controle externo e da auditoria de TI do TCE-GO, essa diretriz fundamenta-se tecnicamente em:  
+**(FGV – TRT – Analista Judiciário - Suporte e Infraestrutura de TI – 2022)**
+“Não há nada que demonstre tão bem a grandeza e a potência da 
+inteligência humana, nem a superioridade e a nobreza do 
+homem, como o fato de ele poder conhecer, compreender por 
+completo e sentir fortemente a sua pequenez.” 
+Os termos desse pensamento mostram paralelismo perfeito nos 
+seguintes segmentos:
 
-* **A)** Reduzir o nível de segurança dos servidores públicos, permitindo que qualquer invasor externo delete os bancos de dados estaduais sem ser identificado.
-* **B)** Garantir a auditabilidade profunda e independente de códigos-fonte, arquitetura e pesos dos modelos (eliminando o problema da "caixa-preta"), além de preservar a soberania de dados do Estado e mitigar o risco de dependência de fornecedor (*vendor lock-in*).
-* **C)** Proibir que o Estado celebre convênios com a Universidade Federal de Goiás (UFG) ou com a Fapeg.
-* **D)** Obrigar o pagamento de royalties abusivos a monopólios internacionais de computação em nuvem proprietária.
-* **E)** Impedir a realização de testes de validação estatística em pipelines de aprendizado de máquina.
+* **A)** “Não há nada” / “como o fato”;
+* **B)** “que demonstre” / “de ele poder conhecer”;
+* **C)** “a grandeza e a potência da inteligência humana” /  “a 
+superioridade e a nobreza do homem”;
+* **D)** “poder conhecer” / “compreender por completo”;
+* **E)** “como o fato de ele poder conhecer” / “compreender por 
+completo e sentir fortemente”. 
 
+Tribunal de Justiça do Distrito Federal e dos Territórios   FGV Conhecimento
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O uso de software livre e modelos abertos permite auditoria pública e correção mais célere de falhas, não significando relaxamento de segurança.
-> - **B)** **Correta.** A preferência por IA Aberta (*Open Source AI*) é um marco estratégico da LC nº 205/2025: possibilita que os auditores de controle externo examinem os algoritmos e pesos sem entraves de segredo comercial proprietário (*caixa-preta*), viabiliza a execução *on-premises* sem vazamento de dados fiscais goianos para datacenters no exterior e previne o aprisionamento tecnológico (*vendor lock-in*).
-> - **C)** Incorreta. A diretriz de IA aberta incentiva exatamente a cooperação com universidades e centros de pesquisa estaduais.
-> - **D)** Incorreta. A redução drástica de custos de licenciamento e royalties em moeda estrangeira é uma das principais vantagens econômicas da diretriz.
-> - **E)** Incorreta. A auditabilidade de modelos abertos facilita e aprofunda os testes de validação estatística e MLOps.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: C**
 
 ---
-
 ### Teste 552
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** A Administração Pública do Estado de Goiás publicou edital para contratação de solução inteligente de triagem e encaminhamento de atendimentos em unidades hospitalares públicas. Para atender à diretriz estratégica de governança tecnológica instituída expressamente pelo art. 4º da Lei Complementar nº 205/2025, o termo de referência deve priorizar:  
+**(FGV – TRT-1 – Analista Judiciário - Tecnologia da Informação – 2024)**
+A Lei nº 10.048/2000 trata da prioridade de atendimento às  
+pessoas que especifica, dentre as quais a pessoa com d eficiência. 
+Sua estrutura basicamente se divide em apontar as pessoas 
+beneficiárias da prioridade e quem deve respeito à legislação, 
+sobretudo o Estado e pessoas jurídicas de direito privado, além 
+da previsão das consequências pelo descumprimento. 
+Quanto à referida lei, é correto afirmar que:
 
-* **A)** A compra de soluções baseadas em modelos proprietários de código fechado (*closed-source*), visando garantir segredo comercial intransponível perante a sociedade garantindo a observância dos protocolos de governança e interoperabilidade vigentes.
-* **B)** A preferência pelo uso de sistemas, plataformas e modelos de inteligência artificial de código aberto (*open-source*), assegurando maior transparência, auditabilidade pelo TCE-GO, soberania digital e independência de fornecedor (*anti-lock-in*).
-* **C)** A terceirização integral dos bancos de dados hospitalares para servidores situados em paraísos fiscais sem qualquer mecanismo de auditoria.
-* **D)** A vedação absoluta de contratação de softwares por órgãos públicos estaduais que possuam código-fonte aberto.
-* **E)** A imposição de contratos de licenciamento perpétuo e irrevogável com cláusula de exclusividade com uma única multinacional estrangeira.
+* **A)** os acompanhantes pessoais da pessoa com deficiência 
+somente serão atendidos após o atendimento de todas as 
+pessoas com deficiência que estejam presentes no momento 
+e queiram ser atendidas;
+* **B)** o Poder Judiciário nã o se submete à imposição de 
+atendimento prioritário, por meio de serviços coletivos, que 
+prezem pelo tratamento igualitário à pessoa com deficiência, 
+por conta da separação de poderes;
+* **C)** o atendimento por meio de postos, caixas, guichês, linhas ou 
+atendentes específicos para pessoas com deficiência não 
+deve ser realizado, porque essa conduta acaba por expor e 
+discriminar tal parcela da sociedade;
+* **D)** o atendente pessoal da pessoa com deficiência, 
+diferentemente do acompanhante, deve ser atendido 
+separadamente da pessoa com prioridade, porquanto 
+entendeu o legislador ter ela menos relevância;
+* **E)** o atendimento à pessoa com deficiência deve se dar 
+imediatamente após findo o atendimento em andamento e 
+antes de qualquer outro, caso inexistam postos, caixas, 
+guichês, linhas ou atendentes específicos destinados ao 
+público prioritário. 
 
+Tribunal Regional Federal da 1ª Região FGV Conhecimento
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A LC nº 205/2025 combate a opacidade de soluções tipo "caixa preta" (*black box*) nos serviços públicos essenciais, contrariando o segredo fechado injustificado.
-> - **B)** **Correta.** A diretriz de IA Aberta é um dos grandes diferenciais da LC estadual nº 205/2025. Ela consagra como diretriz preferencial o uso de tecnologias, softwares e modelos abertos (*open-source*), garantindo auditabilidade técnica direta pelo Tribunal de Contas, economicidade, independência de fornecedor e soberania de dados.
-> - **C)** Incorreta. O envio de dados sensíveis de saúde para o exterior sem salvaguardas violaria a LGPD e o princípio da segurança da informação.
-> - **D)** Incorreta. A lei não veda, mas exatamente prioriza o uso de modelos abertos.
-> - **E)** Incorreta. Promove o aprisionamento tecnológico (*vendor lock-in*), contrariando a política de inovação pública.
-> 
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
 > **Gabarito: B**
 
 ---
-
 ## 3. O Papel Fiscalizatório do TCE-GO sobre Sistemas de IA
 
 A vigência da LC nº 205/2025 amplia o escopo da auditoria de controle externo a cargo do Tribunal de Contas do Estado de Goiás (TCE-GO). O auditor de TI atua na avaliação técnica, ética e jurídica dos modelos algorítmicos adotados pelo poder público estadual.
@@ -394,30 +430,29 @@ sequenceDiagram
 ---
 
 ### Teste 553
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** Na realização de auditorias operacionais e de conformidade sobre soluções governamentais que utilizam sistemas de inteligência artificial em Goiás, o corpo técnico de fiscalização de TIC do TCE-GO estrutura seus trabalhos em três dimensões avaliativas essenciais. Assinale a afirmativa que descreve corretamente a **Auditoria de Dados de Treinamento (*Data-Centric AI Audit*)**:  
+**(FCC – TRT-6 – Analista Judiciário - Tecnologia da Informação – 2012)**
+O estilo tradicional de direção (Teoria X) está apoiado numa concepção da natureza humana que enfatiza
 
-* **A)** Consiste exclusivamente em verificar a marca dos gabinetes dos computadores onde os dados foram digitados por estagiários.
-* **B)** Avalia a licitude da coleta e tratamento das bases de treino perante a LGPD, a representatividade estatística das amostras, a qualidade do processo de rotulagem e a higidez histórica para prevenir a perpetuação ou indução de vieses algorítmicos discriminatórios.
-* **C)** Avalia unicamente se o contrato foi assinado em cartório físico de notas no interior do Estado.
-* **D)** Visa impedir que os órgãos públicos realizem limpeza e pré-processamento nos dados brutos antes de treinar os algoritmos.
-* **E)** Restringe-se a checar se os dados de treino foram comprados em fóruns ilegais da dark web para garantir maior variedade de informações.
-
+* **A)** o caráter egocêntrico dos homens e a oposição entre os objetivos pessoais e os objetivos da organização.
+* **B)** o caráter naturalmente empreendedor e ativo dos homens quando motivados por objetivos organizacionais ambiciosos.
+* **C)** a natureza independente, a predisposição ao autocontrole e facilidade ao comportamento disciplinado.
+* **D)** a capacidade de imaginação e de criatividade na solução de problemas como atributo comum à maioria dos homens.
+* **E)** a responsabilidade da administração em proporcionar c ondições para que as pessoas reconheçam e desenvolvam suas 
+potencialidades.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Auditoria em dados de treino foca na camada lógica, estatística, ética e regulatória dos dados, não na carcaça metálica dos servidores.
-> - **B)** **Correta.** Na abordagem *Data-Centric AI Audit*, o Tribunal de Contas audita a "matéria-prima" do modelo: conformidade das bases com a LGPD, pertinência, completude, qualidade das anotações e ausência de vieses estruturais que possam contaminar as decisões automatizadas de políticas públicas.
-> - **C)** Incorreta. Processos formais de licitação pertencem à auditoria de conformidade tradicional, enquanto a auditoria de dados é técnica e analítica.
-> - **D)** Incorreta. Limpeza, tratamento de outliers e normalização são requisitos fundamentais de engenharia de dados.
-> - **E)** Incorreta. A aquisição de dados ilícitos constituiria infração gravíssima e nulidade insanável.
-> 
-> **Gabarito: B**
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: A**
 
 ---
-
 ## 3.2 Uso Interno de IA no TCE-GO: O Ecossistema IAGO e a RA nº 24/2024
 
 O próprio TCE-GO, alinhado à LC nº 205/2025, implementou regulação interna (Resolução Administrativa nº 24/2024) para o uso ético e seguro de IA generativa e preditiva no controle externo, operacionalizado no **Ecossistema IAGO** (*Inteligência Artificial de Goiás*):
@@ -429,30 +464,31 @@ O próprio TCE-GO, alinhado à LC nº 205/2025, implementou regulação interna 
 ---
 
 ### Teste 554
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** Em relação à governança de dados e ao uso de ferramentas baseadas em inteligência artificial no âmbito das instituições públicas goianas, nos termos da Lei Complementar Estadual nº 205/2025 combinada com a Resolução Administrativa nº 24/2024 do TCE-GO, assinale a opção correta:  
+**(FGV – TJ-AP – Analista Judiciário - Banco de Dados – 2023)**
+Em Administração de Dados, os dados de Referência possuem 
+elevada importância organizacional pois são utilizados para 
+classificar ou categorizar outros dados, incluindo os dados Mestre.  
+São administrados como dados de Referência os:
 
-* **A)** Dados fiscais sigilosos podem ser inseridos livremente em serviços públicos e gratuitos de IA generativa em nuvem aberta internacional, haja vista a prevalência da inovação sobre as normas de sigilo.
-* **B)** As ferramentas de inteligência artificial generativa e preditiva no setor público goiano atuam como instrumentos auxiliares de suporte técnico e eficiência operacional, não dispensando a validação humana e a responsabilidade funcional do servidor público signatário do ato processual.
-* **C)** A explicabilidade algorítmica (*Explainable AI - XAI*) é dispensada caso o sistema seja adquirido de empresas estrangeiras.
-* **D)** Modelos de IA desenvolvidos em parceria com a Fundação de Amparo à Pesquisa do Estado de Goiás (Fapeg) estão isentos de apresentar documentação de arquitetura e mitigação de riscos.
-* **E)** O treinamento de modelos de aprendizado de máquina dispensa quaisquer cuidados quanto à qualidade e limpeza da base de dados histórica.
-
+* **A)** índices de busca;
+* **B)** dados transacionais;
+* **C)** códigos das unidades federativas e dos países;
+* **D)** cadastros de cidadãos do estado;
+* **E)** registros de entrada e saída de funcionários.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Inserir dados sigilosos e fiscais em ferramentas de IA pública na nuvem comercial gratuita configura quebra grave de sigilo funcional, violação da LGPD e transgressão às normas de segurança da informação do TCE-GO.
-> - **B)** **Correta.** As normas e a LC nº 205/2025 estabelecem expressamente que a inteligência artificial tem caráter de instrumento auxiliar de produtividade e triagem analítica. O servidor público que assina o despacho, relatório de auditoria ou ato decisório permanece integralmente responsável pelo conteúdo, sendo imperativa a revisão humana crítica do que foi sintetizado pelo modelo.
-> - **C)** Incorreta. A explicabilidade é dever do Estado de Goiás e do fornecedor, independentemente da nacionalidade da empresa desenvolvedora.
-> - **D)** Incorreta. Parcerias de pesquisa com a Fapeg e universidades estão vinculadas às regras de conformidade ética, documentação técnica (*Model Cards*) e mitigação de vieses da lei.
-> - **E)** Incorreta. O princípio basilar do MLOps (*Garbage in, Garbage out*) impõe governança rigorosa de dados de treino para evitar modelos enviesados, imprecisos ou alucinatórios.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: D**
 
 ---
-
 ## 6. Fontes Recomendadas na Internet
 
 * [Lei Complementar Estadual de Goiás nº 205/2025](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/110694/lei-complementar-205) - Norma que dispõe sobre a Política Estadual de Inteligência Artificial no Estado de Goiás.

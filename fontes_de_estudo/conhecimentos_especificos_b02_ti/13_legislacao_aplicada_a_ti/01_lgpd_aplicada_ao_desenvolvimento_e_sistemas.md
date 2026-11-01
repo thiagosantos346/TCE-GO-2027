@@ -85,38 +85,47 @@ flowchart TD
 ---
 
 ### Teste 515
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** Um arquiteto de software da Diretoria de Tecnologia da Informação de um órgão de controle externo está projetando a nova arquitetura do sistema de protocolo e tramitação processual eletrônica. Durante o levantamento de requisitos, a equipe propôs três medidas de segurança e tratamento de dados:  
+**(FGV – TJ-RR – Analista Judiciário - Governança e Gestão de TI – 2024)**
+Os Manuais e Protocolos criados pela Resolução CNJ n º 396/2021, 
+que instituiu a Estratégia Nacional de Segurança Cibernética do 
+Poder Judiciário (ENSEC -PJ), aprovados pela Portaria nº 162 , de 
+10/06/2021, normatizam diversas atividades na área de segurança 
+cibernética a serem implantadas pelos diversos órgãos do Poder 
+Judiciário. 
+Com base nos Manuais e Protocolos aprovados pela Portaria nº 162 
+de 10/06/2021, analise as afirmações a seguir. 
+I. Os Protocolos e Manuais serão atualizados a qualquer tempo por 
+indicação do Comitê Gestor de Segurança Cibernética do Poder 
+Judiciário.  
+II. O Protocolo de Investigação de Ilícitos Cibernéticos do Poder 
+Judiciário (PIILC -PJ) deverá ser implementado por todos os 
+órgãos do Poder Judiciário, com exceção do Supremo Tribunal 
+Federal. 
+III. O Manual de Proteção de Infraestruturas de TIC descreve as 
+ações responsivas a serem colocadas em prática quando ficar 
+evidente que um incidente de segurança cibernética não será 
+mitigado rapidamente e poderá durar dias, semanas ou meses. 
+Está correto o que se afirma em
 
-I. Substituir o CPF dos cidadãos denunciantes por um hash criptográfico com salt aleatório gerado pelo servidor corporativo, cuja tabela de correspondência fica protegida em repositório seguro acessível unicamente pelos auditores responsáveis pela instrução da denúncia.  
-
-II. Disponibilizar os dados de contratações públicas para consulta de terceiros somente após a aplicação de algoritmos de k-anonimato e injeção de ruído laplaciano, de tal forma que, por nenhum meio técnico razoável e disponível na ocasião do tratamento, seja possível identificar as pessoas naturais associadas.  
-
-III. Ativar, por padrão, em todos os novos formulários públicos web, caixas de diálogo pré-marcadas autorizando o compartilhamento irrestrito de contatos telefônicos de cidadãos com órgãos de publicidade privada.  
-
-À luz das disposições da Lei Federal nº 13.709/2018 (LGPD) e das metodologias de *Privacy by Design* e *Privacy by Default*, é correto afirmar que:  
-
-* **A)** As medidas I e II configuram anonimização perfeita, excluindo ambos os conjuntos de dados da incidência da LGPD.
-* **B)** A medida I configura pseudonimização, razão pela qual os dados tratados continuam sendo considerados dados pessoais sob a égide da LGPD; a medida II configura anonimização, excluindo os dados da lei (salvo reversão por meios razoáveis); e a medida III viola flagrantemente o princípio do *Privacy by Default*.
-* **C)** A medida I descaracteriza os dados como pessoais, pois o hash criptográfico com salt impede a leitura direta por parte dos atacantes externos, afastando a fiscalização da ANPD.
-* **D)** A medida II configura pseudonimização imperfeita, uma vez que algoritmos de ruído matemático nunca possuem validade perante as diretrizes da LGPD.
-* **E)** A medida III é juridicamente válida e recomendável pelo *Privacy by Default*, tendo em vista que desonera o usuário da tarefa manual de consentir explicitamente.
-
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A medida I não é anonimização, e sim pseudonimização. Na pseudonimização, a associação com a pessoa física continua existindo por meio da chave/tabela que os auditores mantêm no repositório seguro. O dado continua sob o regime da LGPD.
-> - **B)** **Correta.** A medida I descreve com exatidão a pseudonimização (Art. 13, § 4º), na qual o dado perde a associação direta senão pelo uso de informação adicional mantida em ambiente controlado, continuando a ser considerado dado pessoal. A medida II atende aos critérios do Art. 12 da LGPD para anonimização (não identificável por meios técnicos razoáveis e disponíveis), deixando de ser dado pessoal. A medida III viola frontalmente o *Privacy by Default*, que proíbe caixas pré-marcadas (*opt-in* forçado) e compartilhamentos indiscriminados.
-> - **C)** Incorreta. O hash criptográfico, mesmo com salt, não descaracteriza o dado pessoal de forma absoluta perante a LGPD, pois o controlador detém a chave para reverter ou associar os registros. Trata-se de pseudonimização.
-> - **D)** Incorreta. A injeção de ruído laplaciano (Privacidade Diferencial) e o k-anonimato são métodos formais robustos e internacionalmente reconhecidos de anonimização matemática aceitos pela doutrina e pelos órgãos reguladores.
-> - **E)** Incorreta. A inclusão de checkboxes pré-marcados (*pre-ticked boxes*) é o oposto do *Privacy by Default*. A regra mandatória é que as opções mais restritivas de privacidade venham ativadas por padrão, exigindo ação positiva e consciente do usuário para qualquer flexibilização.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: C**
 
 ---
-
 ## 1.2 Agentes de Tratamento e o Encarregado (DPO)
 
 1. **Titular:** A pessoa natural (física) viva a quem se referem os dados pessoais que são objeto de tratamento. Pessoas jurídicas **não** são titulares de dados sob a LGPD.
@@ -132,30 +141,37 @@ III. Ativar, por padrão, em todos os novos formulários públicos web, caixas d
 ---
 
 ### Teste 516
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** No contexto da Lei Geral de Proteção de Dados Pessoais (LGPD - Lei nº 13.709/2018), a definição dos papéis dos agentes de tratamento e do encarregado é essencial para estabelecer responsabilidades jurídicas e arquiteturais em sistemas informatizados. Acerca do Controlador, do Operador e do Encarregado (DPO), assinale a afirmativa correta:  
+**(FGV – TJ-RR – Analista Judiciário - Governança e Gestão de TI – 2024)**
+O Poder Judiciário adotou o modelo  centralizado de governança na 
+segurança cibernética, de acordo com a Resolução Nº 396 de 
+07/06/2021 que i nstituiu a Estratégia Nacional de Segurança 
+Cibernética do Poder Judiciário (ENSEC-PJ). 
+Nesse modelo, o órgão central que coordena as ações para viabilizar 
+a governança na segurança cibernética é
 
-* **A)** O Controlador é a pessoa natural ou jurídica responsável por executar o tratamento estritamente sob as ordens do Operador, sem qualquer poder deliberativo sobre a finalidade dos dados.
-* **B)** O Operador decide monocraticamente as bases legais e as finalidades institucionais do tratamento, atuando como o titular patrimonial dos dados.
-* **C)** O Encarregado (DPO) tem a responsabilidade exclusiva de indenizar os titulares em caso de vazamento ilícito de dados perpetrado por hackers.
-* **D)** O Controlador compete as decisões referentes ao tratamento de dados pessoais; o Operador realiza o tratamento em nome do controlador e segundo suas diretrizes; e o Encarregado atua como canal de comunicação entre o controlador, os titulares dos dados e a ANPD.
-* **E)** O papel de Encarregado pelo tratamento de dados pessoais só pode ser desempenhado por servidores públicos federais da carreira policial, vedada a indicação de terceirizados ou pessoas jurídicas.
-
+* **A)** o Conselho Nacional de Justiça (CNJ).
+* **B)** o Comitê Gestor de Segurança da Informação do Poder Judiciário 
+(CGSI-PJ).
+* **C)** o Centro de Prevenção, Tratamento e Resposta a Incidentes 
+Cibernéticos do Poder Judiciário (CPTRIC-PJ).
+* **D)** a Equipe de Tratamento e Resposta a Incidentes de Segurança 
+Cibernética (ETIR).
+* **E)** o Sistema de Gestão de Segurança da Informação do Poder 
+Judiciário (SGSI-PJ).
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O Controlador é quem toma as decisões sobre o tratamento (finalidades e meios essenciais); o Operador é quem executa as ordens.
-> - **B)** Incorreta. O Operador apenas processa os dados em nome do Controlador e conforme suas instruções contratuais.
-> - **C)** Incorreta. A responsabilidade civil de indenização recai sobre os agentes de tratamento (Controlador e Operador), não pessoalmente sobre o DPO no exercício regular de suas funções orientadoras.
-> - **D)** **Correta.** Definição literal da LGPD (Art. 5º, incisos VI, VII e VIII): Controlador: a quem competem as decisões; Operador: quem realiza o tratamento em nome do controlador; Encarregado: pessoa indicada para atuar como canal de comunicação entre controlador, titulares e ANPD.
-> - **E)** Incorreta. O DPO pode ser pessoa natural ou jurídica, integrante do quadro próprio ou contratado externo (*DPO as a Service*).
-> 
-> **Gabarito: D**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: B**
 
 ---
-
 ## 2. Princípios do Art. 6º sob a Ótica da Arquitetura e Engenharia de Software
 
 O Art. 6º da LGPD elenca dez princípios fundamentais que regem as atividades de tratamento. Para desenvolvedores, arquitetos e DBAs, esses princípios se traduzem em requisitos não funcionais diretos:
@@ -196,30 +212,32 @@ O Art. 6º da LGPD elenca dez princípios fundamentais que regem as atividades d
 ---
 
 ### Teste 517
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** O Artigo 6º da LGPD estabelece dez princípios fundamentais que regem as atividades de tratamento de dados pessoais. Sob a ótica da Engenharia de Software e da Arquitetura de Dados, o princípio da **Necessidade** (também denominado princípio da **Minimização de Dados**) impõe que os sistemas corporativos:  
+**(FGV – TJ-RR – Analista Judiciário - Governança e Gestão de TI – 2024)**
+Não existe a opção de correção de certos dados fornecidos pelo 
+usuário. 
+Considerando os direit os do titular de dados pessoais previstos na 
+LGPD, podemos dizer que, entre os direitos violados, encontra -se o 
+direito de
 
-* **A)** Devem coletar a maior quantidade possível de dados pessoais e biometrias em formulários públicos, mesmo sem utilidade atual, prevendo eventuais demandas futuras de machine learning.
-* **B)** Devem limitar o tratamento ao mínimo necessário para a realização de suas finalidades específicas, abrangendo apenas dados pertinentes, proporcionais e não excessivos em relação aos objetivos do serviço.
-* **C)** Estão autorizados a manter permanentemente em tabelas de log o histórico de senhas em texto puro de todos os usuários cadastrados.
-* **D)** Devem conceder privilégios irrestritos de administrador de banco de dados (DBA) a todos os desenvolvedores juniores e fornecedores terceirizados.
-* **E)** Devem publicar automaticamente no Portal de Transparência os dados bancários e exames de saúde privados dos servidores públicos.
-
+* **A)** acesso aos dados pessoais.
+* **B)** revogação do consentimento.
+* **C)** eliminação dos dados pessoais após o término do tratamento.
+* **D)** portabilidade dos dados pessoais.
+* **E)** oposição ao tratamento de dados pessoais.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A coleta especulativa de dados sem utilidade imediata viola frontalmente o princípio da necessidade/minimização e da finalidade.
-> - **B)** **Correta.** Conforme o Art. 6º, III, da LGPD, o princípio da necessidade determina a limitação do tratamento ao mínimo necessário para a realização de suas finalidades, com abrangência dos dados pertinentes, proporcionais e não excessivos em relação aos objetivos do tratamento.
-> - **C)** Incorreta. Gravar senhas em texto puro viola gravemente os princípios de segurança e prevenção (Art. 6º, VII e VIII).
-> - **D)** Incorreta. A concessão excessiva de privilégios contraria o princípio do privilégio mínimo (*least privilege*) e da segurança.
-> - **E)** Incorreta. Dados de saúde são dados pessoais sensíveis e sigilosos, cuja exposição indevida acarreta ilicitude severa.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: C**
 
 ---
-
 ## 3. Privacy by Design e Privacy by Default (Ann Cavoukian)
 
 Concebida no final da década de 1990 pela Comissária de Informação e Privacidade de Ontário (Canadá), Dra. Ann Cavoukian, a metodologia de **Privacy by Design (PbD)** prescreve que a privacidade não pode ser um adendo tardio adicionado ao final do desenvolvimento; ela deve ser o alicerce desde a primeira linha de arquitetura.
@@ -257,30 +275,50 @@ flowchart LR
 ---
 
 ### Teste 518
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** Durante o desenvolvimento de um aplicativo mobile para consulta de processos pelos cidadãos, o time de engenharia de software decide implementar as diretrizes de *Privacy by Design* formuladas por Ann Cavoukian. Ao tratar do princípio da "Funcionalidade Total" (*Full Functionality: Positive-Sum, not Zero-Sum*), a equipe deve adotar como premissa:  
+**(FGV – TJ-RR – Analista Judiciário - Governança e Gestão de TI – 2024)**
+No contexto da Lei Geral de Proteção de Dados (LGPD), os papéis do 
+Controlador, do Operador e do Encarregado de Dados (DPO – Data 
+Protection Officer) são fundamentais para o correto tratamento dos 
+dados pessoais.  
+Considerando a interação com a Autoridade Nacional de Proteção de 
+Dados (ANPD), e as responsabilidades e funções de cada um, é 
+correto afirmar que
 
-* **A)** A privacidade dos titulares de dados deve ser sacrificada sempre que houver necessidade de aumentar o desempenho e a vazão de requisições por segundo na API do Tribunal considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
-* **B)** A segurança da informação e a privacidade dos dados pessoais devem ser acomodadas sem concessões mútuas, demonstrando que é perfeitamente viável atingir alto nível de proteção à privacidade juntamente com excelente desempenho e integridade funcional.
-* **C)** O desenvolvimento deve adotar uma abordagem de jogo de soma zero, na qual a comodidade do usuário e a proteção de dados são objetivos necessariamente excludentes.
-* **D)** As funcionalidades voltadas à segurança criptográfica devem ser desabilitadas em horários de pico operacional para garantir a responsividade da interface gráfica.
-* **E)** Os princípios de privacidade devem ser implementados exclusivamente após a homologação final do software em ambiente de produção.
-
+* **A)** o Controlador é responsável por executar o tratamento de dados 
+pessoais seguindo as instruções do Operador, enquanto o DPO 
+orienta e atua como canal de comunicação.
+* **B)** o Operador decide sobre as finalidades e os meios de tratamento 
+dos dados pessoais, sendo auxiliado pelo Controlador na 
+implementação das m edidas de segurança, enquanto o DPO 
+interage tanto com os titulares dos dados quanto com a ANPD.
+* **C)** o DPO é responsável por determinar como os dados pessoais 
+serão coletados e utilizados, além de implementar políticas de 
+proteção de dados de forma indepen dente do Controlador ou 
+Operador.
+* **D)** o Controlador determina as finalidades e os meios de tratamento 
+dos dados pessoais; o Operador realiza o tratamento, seguindo 
+as instruções do Controlador; e o DPO atua como canal de 
+comunicação entre o Controlador, os  titulares dos dados e a 
+ANPD.
+* **E)** o Controlador e o Operador compartilham a responsabilidade de 
+decidir sobre as bases legais para o tratamento de dados 
+pessoais, enquanto o DPO é o único responsável por comunicar 
+violações de dados à ANPD e aos titulares. 
+TRIBUNAL DE JUSTIÇA DO ESTADO DE RORAIMA – TJRR FGV CONHECIMENTO
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Contraria a essência da soma positiva, pois prega o sacrifício da privacidade em troca de ganho de desempenho (mentalidade de soma zero).
-> - **B)** **Correta.** O princípio 4 do *Privacy by Design* (Funcionalidade Total: Soma Positiva) busca satisfazer todos os objetivos legítimos em um modelo "ganha-ganha" (*win-win*), rejeitando a falsa dicotomia de que a privacidade compete destrutivamente com a segurança, usabilidade ou desempenho.
-> - **C)** Incorreta. O princípio prega explicitamente a superação do jogo de soma zero (*not Zero-Sum*). Não se admite a escolha de um em detrimento de outro.
-> - **D)** Incorreta. Desabilitar a segurança criptográfica para reduzir latência viola tanto o princípio da funcionalidade total quanto o princípio da segurança de ponta a ponta.
-> - **E)** Incorreta. Implementar privacidade apenas após a homologação viola o princípio fundante de que a privacidade deve ser proativa e incorporada desde o design arquitetural inicial (Princípios 1 e 3).
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+>
+> **Gabarito: E**
 
 ---
-
 ## 3.2 Comparativo: Privacy by Design vs. Privacy by Default
 
 | Dimensão | Privacy by Design (PbD) | Privacy by Default (PbDf) |
@@ -293,30 +331,51 @@ flowchart LR
 ---
 
 ### Teste 519
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** Na implementação dos conceitos de Proteção de Dados desde a Concepção (*Privacy by Design*) e por Padrão (*Privacy by Default*), a equipe de desenvolvimento de software de um Tribunal de Contas deve adotar padrões arquiteturais restritivos nativos. A respeito da regra do *Privacy by Default*, assinale a afirmativa correta:  
+**(FGV – TRF-1 – Analista Judiciário - Tecnologia da Informação – 2024)**
+O gerente de recursos humanos está organizando uma atividade 
+institucional que contará com a prese nça de familiares dos 
+servidores do órgão. 
+Para fins de controle de acesso e organização do evento, será 
+necessário registrar o nome, idade e CPF de todos. 
+Além disso, a atividade contará com o apoio da equipe de 
+marketing, que divulgará, após o seu términ o, uma notícia com 
+fotos do evento na página de Internet da instituição. 
+O gerente de recursos humanos solicita ao encarregado pelo 
+tratamento de dados pessoais que o oriente sobre como 
+proceder para coletar dados pessoais de crianças que venham a 
+participar do evento. 
+O encarregado esclarece corretamente que, nos termos da Lei 
+Geral de Proteção de Dados Pessoais, deverá ser solicitado o 
+consentimento:
 
-* **A)** O sistema deve ser configurado para que, por padrão de fábrica (*out-of-the-box*), as configurações mais protetivas à privacidade sejam ativadas automaticamente, exigindo ação deliberada do usuário caso deseje compartilhar dados adicionais.
-* **B)** O sistema deve vir de fábrica com todos os compartilhamentos de dados públicos e autorizações de cookies de rastreamento habilitados compulsoriamente.
-* **C)** O *Privacy by Default* veda expressamente a implementação de qualquer mecanismo de criptografia em trânsito ou repouso.
-* **D)** A privacidade por padrão aplica-se exclusivamente a jogos eletrônicos infantis, dispensando sua observância em sistemas governamentais ou portais do cidadão garantindo a observância dos protocolos de governança e interoperabilidade vigentes.
-* **E)** O conceito determina que a documentação técnica do sistema seja destruída antes do deploy em ambiente de produção.
+* **A)** expresso e em destaque, dado pelo responsável legal;
+* **B)** expresso e em destaque, dado por ambos os pai s ou 
+responsável legal;
+* **C)** específico e em destaque, dado pelo servidor que 
+acompanhará a criança no evento;
+* **D)** expresso e em destaque, dado por pelo menos um dos pais 
+ou responsável legal;
+* **E)** específico, em destaque, dado por pelo menos um dos pais 
+ou responsável legal. 
 
+
+Tribunal Regional Federal da 1ª Região FGV Conhecimento 
+
+Analista Jud - Áre Apoio Especializado - Especialidade Tecnologia da Informação  Tipo 1 – Branca – Página 15
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** *Privacy by Default* (privacidade por padrão) estabelece que as configurações de fábrica e o comportamento padrão da aplicação devem ser automaticamente os mais estritos em proteção à privacidade (ex.: caixas de seleção desmarcadas, menor volume de coleta, tempo de retenção mínimo e compartilhamento restrito), sem que o titular precise alterar configurações manuais para se proteger.
-> - **B)** Incorreta. Caixas pré-marcadas (*opt-out* compulsório) e abertura ampla de dados violam frontalmente o Privacy by Default.
-> - **C)** Incorreta. A criptografia é uma das medidas essenciais recomendadas pelo Privacy by Design e by Default.
-> - **D)** Incorreta. A regra aplica-se a qualquer aplicação e sistema de tratamento de dados pessoais, especialmente no setor público.
-> - **E)** Incorreta. A documentação e rastreabilidade são fundamentais para o princípio da responsabilização e prestação de contas (*accountability*).
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: D**
 
 ---
-
 ## 4. Engenharia de Desidentificação: Anonimização vs. Pseudonimização
 
 ---
@@ -335,30 +394,35 @@ Na pseudonimização (Art. 13, § 4º da LGPD), o dado pessoal tem seu identific
 ---
 
 ### Teste 520
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** A LGPD distingue formalmente os institutos da Anonimização e da Pseudonimização no ciclo de vida de desenvolvimento e análise de dados. Sob o ponto de vista criptográfico e de segurança da informação, assinale a afirmativa correta sobre a Pseudonimização:  
+**(FGV – TRT-16 – Analista Judiciário - Tecnologia da Informação – 2022)**
+De acordo com a Estratégia Nacional de Segurança Cibernética do 
+Poder Judiciário (Resolução CNJ n  396/2021), para elevar o nível 
+de segurança das infraestruturas críticas, deve-se
 
-* **A)** O dado pseudonimizado é aquele que perdeu definitiva e irreversivelmente qualquer possibilidade de associação direta ou indireta a um indivíduo, deixando de ser considerado dado pessoal para todos os efeitos da LGPD.
-* **B)** A pseudonimização é o tratamento por meio do qual um dado perde a possibilidade de associação, direta ou indireta, a um indivíduo, senão pelo uso de informação adicional mantida separadamente pelo controlador em ambiente seguro e controlado.
-* **C)** A aplicação de algoritmo de hash MD5 simples sem *salt* em uma coluna de CPF garante a anonimização irreversível e absoluta da base de dados.
-* **D)** Os dados pseudonimizados deixam de se sujeitar à LGPD, podendo ser vendidos livremente a empresas de telemarketing.
-* **E)** A pseudonimização exige a destruição física dos discos rígidos e fitas de backup do data center a cada transação bancária.
-
+* **A)** utilizar tecnologias que inviabilizem a análise consolidada dos 
+registros de auditorias coletados nos ativos de informação.
+* **B)** elaborar requisitos de segurança cibernética para incentivar o 
+trabalho remoto no âmbito do Supremo Tribunal Federal.
+* **C)** realizar, ao menos anualmente, testes de conformidade em 
+segurança para aferir a eficácia dos controles estabelecidos.
+* **D)** providenciar a realização de cópias de segurança atualizadas 
+e segregadas de forma automática em local protegido.
+* **E)** evitar troca de informações com outros membros do poder 
+público em geral e do setor privado.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Essa é a definição de dado **anonimizado** (Art. 12 da LGPD). O dado pseudonimizado continua sendo dado pessoal e sujeito integralmente à LGPD, pois pode ser reidentificado com a chave/informação adicional.
-> - **B)** **Correta.** Definição legal do Art. 13, § 4º da LGPD: pseudonimização é o tratamento por meio do qual um dado perde a possibilidade de associação a um indivíduo, senão pelo uso de informação adicional mantida separadamente pelo controlador em ambiente seguro e controlado.
-> - **C)** Incorreta. Hash sem *salt* em domínios finitos (como CPF) é vulnerável a ataques de tabela *rainbow* e quebra por força bruta trivial, não configurando anonimização robusta.
-> - **D)** Incorreta. Dados pseudonimizados continuam sob o escopo pleno da LGPD e gozam de todas as garantias legais.
-> - **E)** Incorreta. A pseudonimização é técnica criptográfica lógica (como tokenização e hashing com sal segregado), sem relação com destruição de hardware.
-> 
-> **Gabarito: B**
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: A**
 
 ---
-
 ## 4.2 Métricas Formais de Anonimização (k-Anonymity, l-Diversity, t-Closeness e DP)
 
 Para que um conjunto de microdados seja considerado verdadeiramente **anonimizado**, a desidentificação deve resistir a três ataques clássicos:
@@ -394,32 +458,33 @@ flowchart TD
 ---
 
 ### Teste 521
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** Em relação às técnicas computacionais de proteção à privacidade aplicadas à publicação de microdados e aos algoritmos de anonimização sob a ótica da segurança da informação, analise o seguinte cenário:  
-Um analista aplicou generalização de atributos (faixas etárias e agrupamento de CEP) para garantir que cada registro em uma tabela médica publicada por uma Secretaria Estadual de Saúde seja indistinguível de pelo menos outros quatro registros em relação aos atributos quase-identificadores. No entanto, dentro de determinado grupo de equivalência contendo 5 registros idênticos nos quase-identificadores, todos os 5 registros possuem exatamente o mesmo valor sensível no diagnóstico médico: "Tuberculose Pulmonar".  
-Com base nos conceitos teóricos de anonimização, esse conjunto de dados:  
+**(FGV – TRT-16 – Analista Judiciário - Tecnologia da Informação – 2022)**
+Assinale a opção que mostra uma premissa antes de uma 
+conclusão.
 
-* **A)** Satisfaz a métrica de 5-anonimato (k-anonymity com k=5), mas falha em relação à métrica de l-diversidade (l-diversity), ficando vulnerável ao ataque de homogeneidade.
-* **B)** Falha tanto no k-anonimato quanto na privacidade diferencial, pois para k-anonimato ser satisfeito é obrigatório que haja diversidade em todos os campos do registro.
-* **C)** Garante privacidade diferencial perfeita com epsilon igual a zero.
-* **D)** Satisfaz plenamente a métrica de t-closeness, eliminando qualquer risco de reidentificação por inferência.
-* **E)** Enquadra-se como dado pseudonimizado com chave simétrica AES-GCM.
-
+* **A)** A passadeira não deve ter vindo / Minhas camisas estão 
+amarrotadas.
+* **B)** É possível que o Vasco seja promovido para a série A /O 
+Vasco tem ganho vários jogos.
+* **C)** O governo deve lançar novo plano contra a inflação / A 
+inflação é uma das preocupações do governo.
+* **D)** As ruas amanheceram inundadas / Choveu durante a noite.
+* **E)** Pedro é mau professor / Muitos alunos de Pedro pediram 
+transferência de turma.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** A propriedade de $k$-anonimato ($k=5$) exige apenas que cada combinação de quase-identificadores apareça em pelo menos $k$ tuplas (o que ocorreu, pois há 5 registros indistinguíveis). Porém, como todos os indivíduos do grupo têm exatamente o mesmo diagnóstico ("Tuberculose Pulmonar"), não há diversidade de valores sensíveis ($l=1$), o que permite a um atacante com conhecimento de que o alvo está no grupo descobrir sua doença sem incerteza (ataque de homogeneidade). A métrica de $l$-diversity foi violada.
-> - **B)** Incorreta. O $k$-anonimato não falhou; ele foi satisfeito quanto aos quase-identificadores ($k=5$). O erro está em não prover $l$-diversidade no atributo sensível.
-> - **C)** Incorreta. Privacidade diferencial com $\epsilon = 0$ exigiria ruído infinito (o resultado da consulta seria puramente ruído aleatório sem qualquer utilidade analítica). O cenário trata de generalização de quase-identificadores, não de diferencial privacy.
-> - **D)** Incorreta. A métrica de $t$-closeness exige que a distribuição do atributo no bloco se aproxime da distribuição global. Se globalmente a incidência de tuberculose é 1% e no bloco é 100%, a distância $t$ é máxima, logo a $t$-closeness é violada.
-> - **E)** Incorreta. O procedimento realizado foi generalização/supressão em microdados estatísticos para tentativa de anonimização, não criptografia simétrica de payload (AES-GCM).
-> 
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
 > **Gabarito: A**
 
 ---
-
 ## 5. Implementação Técnica dos Direitos dos Titulares (Art. 18 da LGPD)
 
 ---
@@ -462,30 +527,41 @@ sequenceDiagram
 ---
 
 ### Teste 522
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** Determinado Tribunal de Justiça implementou uma solução corporativa para gerenciamento do ciclo de vida dos dados pessoais em conformidade com o Art. 18 da LGPD. Um cidadão que teve um procedimento administrativo disciplinar arquivado sem penalidades aciona o sistema solicitando a "eliminação definitiva de todos os seus dados pessoais e registros de movimentação processual dos bancos de dados do Tribunal". Diante desse cenário e das bases legais para o tratamento de dados no setor público, a conduta correta do órgão é:  
+**(FGV – TJ-AP – Analista Judiciário - Segurança da Informação – 2023)**
+Um órgão público realiza tratamento dos dados pessoais dos seus 
+servidores para implementar o módulo de autenticação de 
+usuários de seus sistemas de informação e para prevenir ataques 
+de softwares maliciosos na sua rede interna.  
+Nesse cenário, é correto afirmar que:
 
-* **A)** Atender compulsoriamente à exclusão imediata e física de todos os dados do requerente, uma vez que o direito à eliminação previsto no Art. 18 é absoluto e incondicionado na esfera pública.
-* **B)** Negar o pedido de eliminação quanto aos registros processuais e atos oficiais de arquivamento mantidos para cumprimento de obrigação legal ou regulatória e exercício regular de direitos em processo judicial ou administrativo, mantendo a guarda desses dados com fulcro no Art. 16 da LGPD.
-* **C)** Excluir os dados apenas se o requerente pagar uma taxa de expurgo eletrônico estipulada em resolução interna do tribunal.
-* **D)** Proceder à destruição física de todos os discos rígidos e backups magnéticos do Tribunal que contenham menção ao nome do titular.
-* **E)** Transferir a guarda dos dados para uma empresa de tecnologia privada sediada no exterior a fim de eximir o Tribunal da responsabilidade civil.
-
+* **A)** o órgão público deve recorrer à base legal do legítimo 
+interesse adotando medidas para garantir a transparência do 
+tratamento dos dados dos seus funcionários;
+* **B)** o órgão público deve anonimizar os dados dos funcionários  
+para poder usar no módulo de autenticação;
+* **C)** a Autoridade Nacional de Proteção de Dados deverá autorizar 
+o tratamento dos dados sensíveis dos funcionários do órgão 
+público;
+* **D)** o registro de um incidente de segurança é requisito para 
+justificar o tratam ento dos dados do servidor para o módulo 
+de segurança;
+* **E)** cada funcionário deve manifestar seu consentimento 
+concordando com o tratamento de seus dados pessoais para 
+serem usados pelo módulo de autenticação.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O direito à eliminação (Art. 18, VI) não é absoluto. O Art. 16 da LGPD prevê expressamente as hipóteses em que os dados devem ou podem ser conservados mesmo após o término do tratamento ou a pedido do titular: cumprimento de obrigação legal ou regulatória pelo controlador (inciso I), estudo por órgão de pesquisa (inciso II), transferência a terceiro permitida pela lei (inciso III) ou uso exclusivo do controlador sob anonimização (inciso IV).
-> - **B)** **Correta.** Os autos processuais e registros administrativos de órgãos públicos são protegidos por deveres de custódia documental (legislação arquivística e de controle externo) e pelo exercício regular de direitos. Portanto, a exclusão física solicitada pelo titular deve ser negada com a devida justificativa legal fundamentada no Art. 16, I da LGPD.
-> - **C)** Incorreta. O Art. 18 estabelece que o exercício dos direitos pelo titular perante o controlador é gratuito (Art. 18, § 5º). É expressamente vedada a cobrança de taxas.
-> - **D)** Incorreta. A destruição física indiscriminada de infraestrutura de hardware é absurda e violaria o princípio da continuidade do serviço público e da custódia do patrimônio documental.
-> - **E)** Incorreta. Transferir dados para terceiros no exterior para burlar a lei é ilegal, contraria os princípios da boa-fé, segurança e responsabilização, além de violar as regras de transferência internacional de dados (Art. 33 da LGPD).
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: C**
 
 ---
-
 ## 5.2 Comunicação de Incidentes de Segurança à ANPD e Titulares (Art. 48)
 
 O Art. 48 da LGPD determina que o **Controlador** deve comunicar à Autoridade Nacional de Proteção de Dados (ANPD) e aos titulares a ocorrência de incidente de segurança que **possa acarretar risco ou dano relevante aos titulares**:
@@ -503,57 +579,79 @@ O Art. 48 da LGPD determina que o **Controlador** deve comunicar à Autoridade N
 ---
 
 ### Teste 523
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** Uma autarquia pública estadual sofreu um incidente de segurança cibernética consistente na exfiltração não autorizada da base de dados de seus servidores efetivos, contendo dados bancários, endereços residenciais e senhas criptografadas em hash MD5 sem salt. De acordo com o Art. 48 da Lei nº 13.709/2018 (LGPD) e a regulamentação expedida pela ANPD sobre a matéria:  
+**(FGV – TJ-AP – Analista Judiciário - Segurança da Informação – 2023)**
+Um órgão público, vinculado à União, contratou a solução de 
+inteligência a rtificial da empresa SmartDecisionIA com a 
+finalidade específica de realizar o tratamento automatizado de 
+decisões com base em um banco de dados gerido pelo órgão. 
+Seguindo as instruções fornecidas pelo gestor público 
+responsável e estabelecidas em contrat o, a SmartDecisionIA 
+realiza as operações necessárias para viabilizar o tratamento dos 
+dados em questão.  
+Nesse cenário, o papel da empresa SmartDecisionIA é:
 
-* **A)** O controlador deve comunicar à Autoridade Nacional de Proteção de Dados (ANPD) e aos titulares a ocorrência de qualquer incidente de segurança, ainda que insignificante e desprovido de qualquer risco aos direitos dos titulares.
-* **B)** A comunicação de incidentes à ANPD e aos titulares é obrigatória quando o evento de segurança puder acarretar risco ou dano relevante aos titulares, devendo ser realizada em prazo razoável e descrever, entre outros pontos, a natureza dos dados afetados e as medidas de mitigação adotadas.
-* **C)** A responsabilidade pela comunicação recai unicamente sobre o Operador contratado que hospedava o servidor, ficando o Controlador isento de qualquer obrigação perante a ANPD.
-* **D)** A autarquia está dispensada de comunicar o fato se publicar uma nota genérica de desculpas em sua conta institucional em redes sociais em até 90 dias úteis.
-* **E)** A ANPD não possui competência legal para determinar a divulgação do fato à imprensa caso o controlador decida manter o sigilo absoluto do vazamento.
+* **A)** operadora;
+* **B)** controladora;
+* **C)** órgão de pesquisa;
+* **D)** encarregada;
+* **E)** data protection officer. 
 
+Tribunal de Justiça do Estado do Amapá FGV Conhecimento 
+
+Analista Jud - Apo Esp - Tecnologia da Informação - Segurança da Informação  Tipo 1  ̶  Branca – Página 16
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O Art. 48 estabelece o dever de comunicação quando o incidente "possa acarretar risco ou dano relevante aos titulares". Incidentes triviais sem qualquer risco ou afetação a direitos não demandam comunicação formal obrigatória à ANPD e aos titulares.
-> - **B)** **Correta.** O Art. 48 da LGPD determina: "O controlador deverá comunicar à autoridade nacional e ao titular a ocorrência de incidente de segurança que possa acarretar risco ou dano relevante aos titulares." A comunicação deve conter a natureza dos dados, informações sobre os titulares envolvidos, medidas técnicas adotadas para proteção e medidas para reverter ou mitigar os efeitos do prejuízo.
-> - **C)** Incorreta. A obrigação legal de notificação à ANPD e aos titulares é do Controlador (Art. 48). O Operador tem o dever de notificar imediatamente o Controlador sobre a ocorrência do incidente, mas não assume o papel perante a ANPD e o público.
-> - **D)** Incorreta. Publicar nota em rede social após 90 dias não atende à exigência legal de comunicação tempestiva em prazo razoável (estipulado pela Resolução CD/ANPD nº 15/2024 em 3 dias úteis a partir do conhecimento do incidente grave) e dirigida aos canais formais.
-> - **E)** Incorreta. O Art. 48, § 2º da LGPD confere expressamente à ANPD o poder de determinar a ampla divulgação do fato em meios de comunicação e a adoção de medidas para mitigar seus efeitos caso constate a relevância do evento.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: D**
 
 ---
-
----
-
 ### Teste 524
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** Em relação à gestão de riscos de privacidade e auditoria em sistemas públicos, a LGPD prevê o Relatório de Impacto à Proteção de Dados Pessoais (RIPD / DPIA). Acerca desse instrumento e das boas práticas de segurança, assinale a afirmativa correta:  
+**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
+O padrão de verificação de segurança de aplicativos OWASP 
+(versão 4.0.3) indica diversos tipos de verificações que devem ser 
+consideradas no desenvolvimento e manutenção de aplicações 
+seguras. 
+Com relação à verificação 7 que diz respeito ao tratamento e 
+registro de erros em logs, analise as afirmativas a seguir. 
+I. Deve-se proteger logs de alta qualidade, seguindo as leis ou 
+diretrizes locais de privacidade de dados, pois, geralmente, 
+eles contêm dados sensíveis. 
+II. Não se deve coletar ou registrar informações confidenciais nos 
+logs, a menos que seja especificamente necessário. 
+III. Deve-se garantir que todas as informações registradas nos logs 
+sejam tratadas com segurança e protegidas de acordo com a 
+LGPD. 
+IV. Deve-se garantir que os logs não sejam armazenados para 
+sempre, mas tenham uma vida útil o mais longa possível. 
+Está correto o que se afirma em
 
-* **A)** O RIPD é um documento de preenchimento facultativo que deve ser mantido em segredo absoluto, sendo vedado à ANPD solicitar seu compartilhamento.
-* **B)** O RIPD descreve os processos de tratamento de dados pessoais que podem gerar riscos às liberdades civis e aos direitos fundamentais, bem como medidas, salvaguardas e mecanismos de mitigação de risco adotados pela organização.
-* **C)** A elaboração do RIPD exime o controlador de cumprir os princípios de segurança da informação e dispensa a comunicação de incidentes de segurança cibernética.
-* **D)** O RIPD é obrigatório exclusivamente para operações que envolvam dados públicos abertos sem qualquer identificador pessoal.
-* **E)** Compete privativamente ao estagiário de atendimento de suporte a emissão e homologação do RIPD, sendo dispensada a participação do Encarregado (DPO).
-
+* **A)** III e IV, apenas.
+* **B)** II e IV, apenas.
+* **C)** II e III, apenas.
+* **D)** I e III, apenas.
+* **E)** I e II, apenas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A ANPD pode determinar a elaboração e apresentação do RIPD a qualquer tempo para operações de maior risco ou sensibilidade (Art. 38 da LGPD).
-> - **B)** **Correta.** Conforme o Art. 5º, XVII e Art. 38 da LGPD, o RIPD é a documentação do controlador que contém a descrição dos processos de tratamento que podem gerar riscos às liberdades civis e aos direitos fundamentais, bem como medidas, salvaguardas e mecanismos de mitigação de risco.
-> - **C)** Incorreta. O RIPD é uma ferramenta preventiva de conformidade; ele não afasta a obrigação contínua de segurança nem a obrigação de reportar incidentes relevantes à ANPD e aos titulares.
-> - **D)** Incorreta. O RIPD foca justamente em operações que tratam dados pessoais com potencial de risco aos titulares (ex.: dados sensíveis, vigilância em massa, decisões automatizadas de IA).
-> - **E)** Incorreta. A elaboração do RIPD envolve os gestores de negócio, arquitetos de TI, segurança da informação e conta com a orientação e parecer consultivo obrigatório do Encarregado (DPO).
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+>
+> **Gabarito: E**
 
 ---
-
 ## 6. Fontes Recomendadas na Internet
 
 * [Lei nº 13.709/2018 (Lei Geral de Proteção de Dados Pessoais - LGPD)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm) - Texto compilado da LGPD no Planalto com todas as bases legais, direitos dos titulares e deveres dos agentes de tratamento.

@@ -201,35 +201,36 @@ A equipe de desenvolvimento do TJ -RR precisa de uma solução de computação e
 ---
 
 ### Teste 457
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-O modelo de segurança na computação em nuvem baseia-se na **Matriz de Responsabilidade Compartilhada** (*Shared Responsibility Model*) entre o Provedor de Nuvem (*Cloud Service Provider - CSP*) e o Cliente (a organização governamental contratante).
+**(FGV – TRT – Analista Judiciário - Suporte e Infraestrutura de TI – 2022)**
+O Poder Judiciário criou a Plataforma Digital do Poder Judiciário 
+Brasileiro (PDPJ -Br) para disponibilizar soluções para uso por 
+todos os sistemas de processo judicial eletrônico do Poder 
+Judiciário nacional. A PDPJ -Br é disponibilizada na forma de um 
+marketplace que pode ser hospedada em nuvem.  
+O requisito a ser observado para permitir a hospedagem da PDPJ-Br 
+em um provedor de serviços de nuvem é que a nuvem:
 
-A respeito da distribuição de responsabilidades de segurança da informação no modelo **IaaS** (*Infrastructure as a Service*), assinale a afirmativa correta:
-
-* **A)** No modelo IaaS, o provedor de nuvem é integralmente responsável pela aplicação de correções de segurança (*patches*) do sistema operacional convidado, pelo controle de acesso aos bancos de dados do cliente e pela configuração do firewall do sistema operacional.. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **B)** No modelo **IaaS**, a responsabilidade é estritamente demarcada: o **Provedor de Nuvem** é responsável pela **segurança DA nuvem** (segurança física dos datacenters, hardware de servidores, subsistemas de armazenamento e camada de virtualização/hipervisor); ao passo que o **Cliente** é integralmente responsável pela **segurança NA nuvem** (instalação e aplicação de patches no Sistema Operacional Convidado da VM, configuração de firewalls lógicos de host / *Security Groups*, gestão de identidades e acessos - IAM, middleware, aplicações instaladas e proteção/criptografia dos seus próprios dados).
-* **C)** O cliente de IaaS deve responsabilizar-se pela manutenção física do gerador a diesel do datacenter do provedor.
-* **D)** Em modelos SaaS (Software as a Service), o cliente tem a obrigação técnica de atualizar o firmware dos roteadores do provedor.
-* **E)** A responsabilidade pela classificação e conformidade dos dados transferidos para a nuvem recai sempre e exclusivamente sobre o fabricante dos processadores de hardware.
-
+* **A)** seja híbrida e exclusiva para o Poder Judiciário;
+* **B)** seja híbrida, podendo ser compartilhada somente outro 
+órgão público;
+* **C)** armazene os dados em um datacenter em território nacional;
+* **D)** transmita os dados por equipamentos em território nacional;
+* **E)** realize o backup dos dados em equipamentos do Poder 
+Judiciário.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. No IaaS, o sistema operacional da máquina virtual (Linux/Windows) é de responsabilidade estrita e exclusiva do **cliente**. O provedor entrega a VM e não tem acesso às credenciais internas do SO do cliente.
-> - **B)** **CORRETA.** Axioma da **Responsabilidade Compartilhada (AWS, Azure, Google Cloud e CSA)**:
->   - **Segurança DA Nuvem (*Security OF the Cloud* - Dever do Provedor):** Instalações físicas, climatização, energia, servidores físicos, hipervisores (KVM/Nitro/Hyper-V) e rede física.
->   - **Segurança NA Nuvem (*Security IN the Cloud* - Dever do Cliente em IaaS):** O cliente gerencia o Sistema Operacional (atualizações de patches de kernel), tabelas de roteamento e *Security Groups*, privilégios de usuários (IAM), serviços em execução, integridade das aplicações desenvolvidas e criptografia dos dados armazenados e em trânsito.
->   - À medida que se sobe na camada de abstração (PaaS e SaaS), o provedor assume camadas adicionais (em PaaS, o SO e middleware passam a ser mantidos pelo provedor; em SaaS, o provedor mantém até a aplicação inteira), mas **a governança e classificação dos dados pertencem sempre ao Cliente**.
-> - **C)** Incorreta. Manutenção física de datacenter é responsabilidade absoluta do provedor em qualquer modelo.
-> - **D)** Incorreta. No SaaS, o cliente gerencia apenas os dados e permissões dos usuários finais daquele software.
-> - **E)** Incorreta. A custódia e governança legal dos dados é responsabilidade primária do cliente (*data controller*).
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+>
+> **Gabarito: E**
 
 ---
-
 ## 3. Computação Serverless (FaaS - Function as a Service)
 
 ### 3.1 Paradigma: Execução Orientada a Eventos e Abstração de Infraestrutura
@@ -280,67 +281,67 @@ sequenceDiagram
 ---
 
 ### Teste 458
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Uma equipe de desenvolvimento concebeu um microsserviço assíncrono para processar notas de auditoria geradas pelos auditores fiscais. O serviço é disparado estritamente quando um novo arquivo PDF é depositado em um repositório de objetos de armazenamento em nuvem. Durante a noite e fins de semana, o volume de arquivos é nulo; durante o expediente forense, ocorrem picos esporádicos de centenas de arquivos por minuto. A equipe optou por uma arquitetura *Serverless* com modelo FaaS (*Function as a Service*).
+**(FGV – TRT – Analista Judiciário - Suporte e Infraestrutura de TI – 2022)**
+O órgão XPTO do Poder Judiciário está implementando tecnologia 
+em nuvem para prover serviços para outros ó rgãos. Os serviços 
+ofertados consistirão em um ambiente no qual os clientes 
+receberão máquinas virtuais, com suas áreas de armazenamento 
+definidas ( storage) e as interfaces de rede de acordo com os 
+ambientes (produtivos ou não produtivos), nas quais poderã o 
+instalar os sistemas operacionais e suas aplicações para 
+disponibilizarem serviços para seus clientes.  
+De acordo com a NIST SP 800-145, o modelo de serviço de nuvem 
+implementado pelo órgão XPTO é o:
 
-Considerando as características intrínsecas das arquiteturas *Serverless*, é correto afirmar que essa abordagem:
-
-* **A)** Exige que a equipe administre e dimensione previamente a quantidade de instâncias de máquinas virtuais e reserve portas de escuta no sistema operacional para manter o serviço ativo considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
-* **B)** Apresenta o comportamento de redução de escala a zero (*scale-to-zero*), não gerando custos de cobrança computacional nos períodos de ociosidade, embora possa incorrer em latência inicial decorrente de *cold start* na primeira invocação após inatividade.
-* **C)** Impossibilita o escalonamento horizontal automático frente a aumentos repentinos de carga de requisições, dependendo de redimensionamento de memória vertical (*scale-up*).
-* **D)** Mantém os ambientes de execução das funções permanentemente ativos na memória RAM do data center, eliminando por completo qualquer latência de inicialização.
-* **E)** Impede a integração com serviços orientados a eventos, necessitando que o código execute uma rotina em laço infinito (*polling*) para inspecionar novos arquivos no repositório.
-
+* **A)** infrastructure as a service;
+* **B)** on-demand self-service;
+* **C)** software as a service;
+* **D)** platform as a service;
+* **E)** measured service.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O modelo Serverless abstrai inteiramente a administração de sistemas operacionais, máquinas virtuais e gerenciamento de portas de rede.
-> - **B)** Correta. A computação Serverless reduz a escala a zero nos períodos de inatividade (custo zero de processamento), podendo apresentar latência transitória de *cold start* na inicialização inicial do ambiente de execução do contêiner da função.
-> - **C)** Incorreta. As plataformas FaaS escalam horizontalmente de forma massiva e instantânea para absorver centenas de execuções paralelas.
-> - **D)** Incorreta. Se as instâncias ficassem ativas permanentemente na memória RAM, violaria o princípio de escala a zero e geraria custos contínuos de servidor alocado.
-> - **E)** Incorreta. As arquiteturas Serverless são intrinsecamente orientadas a eventos (*event-driven*), sendo acionadas por gatilhos nativos de upload sem necessidade de loops manuais de polling.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: D**
 
 ---
-
 ### Teste 459
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A computação sem servidor (*Serverless / Function-as-a-Service - FaaS*, como AWS Lambda, Azure Functions e Google Cloud Functions) oferece alta abstração de infraestrutura, escala automática orientada a eventos e cobrança por tempo de execução.
+**(FGV – TRT – Analista Judiciário - Suporte e Infraestrutura de TI – 2022)**
+Um órgão que lida com muitos documentos sigilosos sinalizou 
+para sua equipe de Tecnologia da Informação (TI) sua 
+preocupação quanto a uma invasão cibernética e roubo desses 
+documentos. Para incrementar a segurança da rede desse órgão, 
+a equipe de TI instalou um equipamento capaz de verificar as 
+conexões TCP em andame nto antes de permitir a passagem de 
+um determinado pacote.  
+O equipamento instalado pela equipe de TI utiliza recursos de:
 
-No entanto, uma das principais características operacionais a ser gerenciada por arquitetos de software em soluções FaaS é o **Cold Start** (*Inicialização a Frio*). O fenômeno do *Cold Start* é definido quando:
-
-* **A)** O processador do servidor desliga permanentemente por congelamento criogênico na câmara frigorífica.
-* **B)** Uma função Serverless é invocada após um período de inatividade (ou quando a demanda aumenta subitamente e exige novas réplicas paralelas), forçando a plataforma de nuvem a **alocar um novo contêiner de micro-máquina virtual, baixar a imagem de código, inicializar o ambiente de execução de runtime (ex.: JVM, Node.js ou Python) e carregar as bibliotecas na memória**, introduzindo uma latência perceptível no tempo de resposta da primeira requisição; sendo mitigado por técnicas como manter instâncias pré-aquecidas (**Provisioned Concurrency**) ou otimizar o tamanho do pacote de código.
-* **C)** A função serverless rejeita comandos executados em dias de inverno.
-* **D)** O código da função é deletado da nuvem caso a temperatura ambiente ultrapasse 25 graus Celsius.
-* **E)** O sistema operacional trava e exige que o desenvolvedor reinicie manualmente a placa-mãe no datacenter..
-
+* **A)** IDS (Intrusion Detection System);
+* **B)** gateway VPN;
+* **C)** gateway de aplicação;
+* **D)** filtro de pacotes tradicionais;
+* **E)** filtro de estado.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Metáfora física descabida.
-> - **B)** **CORRETA.** Mecânica do **Cold Start em Arquiteturas Serverless (FaaS)**:
->   - Em FaaS, quando não há requisições, o número de instâncias ativas reduz-se a zero (*Scale-to-Zero*), poupando custos de faturamento.
->   - Quando uma nova requisição chega e não há nenhuma instância previamente aquecida (*Warm Instance*) em memória, ocorre o **Cold Start**:
->     1. O orquestrador da nuvem instancia um microcontêiner isolado (ex.: Firecracker MicroVM).
->     2. Baixa o código da aplicação e dependências.
->     3. Inicializa o interpretador ou máquina virtual (linguagens com runtimes pesados como Java/JVM ou .NET sofrem *cold starts* mais longos do que Go, Rust, Node.js ou Python).
->     4. Executa os blocos estáticos de inicialização de código (como conexões com banco).
->     5. Finalmente processa o evento e responde.
->   - **Mitigação:** Uso de **Provisioned Concurrency (Concorrência Provisionada)**, que mantém um pool mínimo de instâncias sempre inicializadas e prontas para responder em milissegundos sem *cold start*.
-> - **C)** Incorreta. Fatores climáticos não se aplicam à lógica de invocação de software.
-> - **D)** Incorreta. O código fica persistido com segurança no repositório do provedor.
-> - **E)** Incorreta. O desenvolvedor não gerencia hardware ou SO no paradigma serverless.
-> 
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
 > **Gabarito: B**
 
 ---
-
 ## 4. Arquiteturas de Alta Disponibilidade e Escalabilidade em Nuvem
 
 ### 4.1 Topologia Física Global: Regiões, Zonas de Disponibilidade (AZs) e Pontos de Presença
@@ -370,60 +371,65 @@ A infraestrutura dos grandes provedores de nuvem (AWS, Microsoft Azure, Google C
 ---
 
 ### Teste 460
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Com relação aos conceitos de resiliência, topologia física e estratégias de escalabilidade em provedores de computação em nuvem pública (como AWS, Microsoft Azure e Google Cloud), assinale a afirmação correta:
+**(FGV – TRT-16 – Analista Judiciário - Tecnologia da Informação – 2022)**
+O RAID é um subsistema de armazenamento de dados composto 
+por várias unidades de discos individuais de baixo custo. 
+Com relação ao RAID 6, analise os itens a seguir. 
+I. Provê elevada tolerância a falhas e pode sustentar várias 
+falhas simultâneas em suas unidades, efetua dois cálculos 
+independentes de paridades que são armazenados em duas 
+unidades distintas. 
+II. Como desvantagem requer controladoras de disco mais 
+complexas, que  em geral, possuem alta sobrecarga para 
+computar os endereçamentos das paridades. 
+III. Essa configuração é recomendada para aplicações de missão 
+crítica pois os dados dos usuários são espelhados unidades de 
+disco pareadas. 
+Está correto o que se afirma em
 
-* **A)** Uma Zona de Disponibilidade (*Availability Zone* - AZ) consiste simplesmente em um rack isolado de servidores localizado dentro do mesmo espaço físico de um único data center comercial.
-* **B)** A escalabilidade horizontal (*scale-out*) consiste em aumentar os recursos de hardware, como vCPUs e memória RAM, de uma única máquina virtual existente, sendo a estratégia que oferece a maior elasticidade sem limites de capacidade.
-* **C)** Uma Zona de Disponibilidade (*Availability Zone*) é constituída por um ou mais data centers físicos discretos, dotados de fontes de alimentação elétrica, refrigeração e conectividade de rede independentes e redundantes, interligados a outras zonas da mesma região por meio de conexões de baixa latência.
-* **D)** As Regiões de nuvem compartilham obrigatoriamente a mesma subestação elétrica e a mesma rede física metropolitana, visando baratear o custo operacional da transmissão de dados.
-* **E)** A estratégia de resiliência *Multi-AZ* é ineficaz para mitigar falhas físicas de data center, dependendo compulsoriamente de migração manual de discos rígidos físicos.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Zonas de Disponibilidade são data centers completos fisicamente separados por quilômetros de distância, e não simples racks de servidores.
-> - **B)** Incorreta. Adicionar processadores e memória a uma mesma máquina existente é a definição de escalabilidade **vertical** (*scale-up*), a qual possui teto físico de expansão.
-> - **C)** Correta. Expressa a definição técnica de uma Zona de Disponibilidade (AZ): infraestrutura composta por um ou mais data centers independentes, com redundância própria de energia, refrigeração e rede, conectada a outras AZs por fibra óptica de alta velocidade e baixa latência.
-> - **D)** Incorreta. Regiões são geograficamente autônomas e completamente isoladas umas das outras exatamente para que desastres em uma localidade não alcancem outras regiões.
-> - **E)** Incorreta. O modelo Multi-AZ foi concebido para conferir tolerância automática a falhas com comutação transparente entre data centers.
-> 
-> **Gabarito: C**
-
----
-
-### Teste 461
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No desenho de soluções corporativas de missão crítica em nuvens públicas, arquitetos de infraestrutura projetam sistemas para tolerar falhas físicas catastróficas sem interrupção de serviço.
-
-A respeito das construções topológicas de **Regiões** e **Zonas de Disponibilidade (*Availability Zones - AZs*)**, assinale a afirmativa correta:
-
-* **A)** Uma Região de nuvem é composta por apenas um único computador pessoal conectado a uma tomada comum.
-* **B)** Uma Zona de Disponibilidade (AZ) é composta por um ou mais datacenters físicos discretos e independentes, dotados de infraestrutura autônoma de energia, refrigeração e segurança física; e uma **Região** é uma área geográfica que abriga **múltiplas AZs isoladas entre si contra desastres comuns, interconectadas por redes de fibra óptica privadas de altíssima largura de banda e ultrabaixa latência**, permitindo a implantação de bancos de dados e aplicações em arquitetura **Multi-AZ** para failover automático sem perda perceptível de dados.
-* **C)** Duas Zonas de Disponibilidade da mesma região devem obrigatoriamente compartilhar o mesmo transformador de energia da concessionária e a mesma rede de água predial.. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **D)** O padrão Multi-AZ proíbe que existam servidores de aplicação espelhados em mais de uma localidade.
-* **E)** Regiões de nuvem nunca podem ser interconectadas pela internet global.
-
+* **A)** I, apenas.
+* **B)** II, apenas.
+* **C)** III, apenas.
+* **D)** I e II, apenas.
+* **E)** II e III, apenas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Uma região abriga múltiplos datacenters de classe mundial com milhares de servidores.
-> - **B)** **CORRETA.** Topologia de infraestrutura global dos grandes provedores de nuvem (AWS, GCP, Azure, Oracle):
->   - **Zona de Disponibilidade (Availability Zone - AZ):** Datacenter (ou grupo de datacenters) físico isolado contra inundações, falhas elétricas e desastres locais. Cada AZ tem seus próprios geradores a diesel, linhas elétricas redundantes e sistemas de refrigeração.
->   - **Região (Region):** Área geográfica delimitada (ex.: Região São Paulo `sa-east-1`, Região Virgínia do Norte `us-east-1`). É composta por no mínimo **três AZs distintas e distantes entre si** (para que uma inundação ou queda regional de energia não atinja as demais), porém próximas o bastante para serem unidas por enlaces ópticos de latência menor que 2 milissegundos.
->   - **Padrão Multi-AZ:** Ao distribuir instâncias e réplicas de banco de dados síncronas entre ao menos duas AZs diferentes, o sistema suporta a queda física total de um datacenter inteiro com *failover* automático e disponibilidade contínua dos serviços públicos.
-> - **C)** Incorreta. A regra de ouro do isolamento de AZs é exatamente a **independência total de infraestrutura crítica** (redes elétricas e de telecomunicações distintas).
-> - **D)** Incorreta. O Multi-AZ incentiva exatamente o espelhamento redundante ativo.
-> - **E)** Incorreta. Regiões conectam-se através do backbone de fibra privado do provedor e da internet mundial.
-> 
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
 > **Gabarito: B**
 
 ---
+### Teste 461
+**(FCC – TRT-6 – Analista Judiciário - Tecnologia da Informação – 2012)**
+"Modificação da informação contida nos cabeçalhos de pacotes IP no seu percurso  através de um roteador" é uma descrição do  
+processo conhecido pela sigla
 
+* **A)** P2P.
+* **B)** VPN.
+* **C)** DoS.
+* **D)** IPSec.
+* **E)** NAT.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: D**
+
+---
 ## 5. Integração Híbrida e Governança Financeira (FinOps)
 
 ### 5.1 Conectividade Corporativa Híbrida: VPN IPsec vs. Links Dedicados Diretos
@@ -463,89 +469,90 @@ flowchart LR
 ---
 
 ### Teste 462
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Um órgão governamental de controle externo decidiu manter suas bases de dados confidenciais hospedadas em seu data center corporativo local (*on-premises*), integrando-as a aplicações analíticas executadas em um provedor de nuvem pública. A equipe de tecnologia avalia as opções para implementar a conectividade híbrida entre os dois ambientes.
+**(FCC – TRT-6 – Analista Judiciário - Tecnologia da Informação – 2012)**
+Segundo o Web Services for Remote Portlets Specification v2.0 (WSRP), em um fluxo típico de interação entre os atores, a fase 
+que deve ocorrer primeiro, na ordem cronológica, é aquela em que
 
-A respeito dos mecanismos de conectividade em arquiteturas de nuvem híbrida, é correto afirmar:
-
-* **A)** Uma conexão via VPN IPsec *Site-to-Site* estabelece um enlace físico direto por fibra óptica proprietária que dispensa a infraestrutura de telecomunicação da Internet pública.
-* **B)** Serviços de conexão física direta e dedicada (como AWS Direct Connect ou Azure ExpressRoute) estabelecem uma conexão privada entre a rede local da organização e a nuvem que não transita pela Internet pública, proporcionando largura de banda previsível, menor variabilidade de latência e maior confiabilidade em relação a túneis VPN sobre a Internet.
-* **C)** O tráfego de dados em um link dedicado como o Azure ExpressRoute ou AWS Direct Connect não pode ser integrado aos firewalls nem aos roteadores de borda locais da entidade pública.
-* **D)** A criação de túneis VPN IPsec *Site-to-Site* para nuvem pública exige que os servidores em nuvem possuam todos os seus endereços IP cadastrados obrigatoriamente na faixa pública de DNS mundial. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **E)** A utilização de links dedicados privados inviabiliza a comunicação com recursos alocados em redes virtuais privadas (VPC ou VNet) na nuvem.
-
+* **A)** se estabelece uma relação entre o consumidor e o usuário final.
+* **B)** o consumidor aprende as capacidades totais e serviços do produtor.
+* **C)** se estabelece a relação entre o consumidor e o produtor.
+* **D)** páginas agregadas são produzidas pelo produtor.
+* **E)** uma página é requisitada pelo consumidor.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. As VPNs IPsec utilizam a infraestrutura compartilhada da Internet pública para o transporte de seus túneis criptografados.
-> - **B)** Correta. Soluções como AWS Direct Connect e Azure ExpressRoute estabelecem conexões privadas físicas exclusivas que não trafegam pela Internet pública, garantindo desempenho determinístico, alta vazão e latência constante.
-> - **C)** Incorreta. Os links dedicados conectam-se diretamente aos roteadores e firewalls de borda da organização utilizando o protocolo BGP.
-> - **D)** Incorreta. A VPN Site-to-Site permite a comunicação direta entre endereços IP privados internos de ambas as pontas sem exposição pública.
-> - **E)** Incorreta. A conexão dedicada foi concebida precisamente para conectar a rede local às redes privadas virtuais (VPC/VNet) na nuvem.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+>
+> **Gabarito: E**
 
 ---
-
 ### Teste 463
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No âmbito da governança orçamentária e gestão de custos em nuvem (práticas de FinOps), a organização busca otimizar os gastos computacionais decorrentes do uso contínuo e transitório de máquinas virtuais na nuvem pública.
+**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**
+A avaliação do custo-benefício de um título permutado 
+com outra instituição ou biblioteca deve considerar, entre 
+outras coisas, o equilíbrio de conteúdo das publicações, 
+os custos reais da publicação da própria entidade, os cus-
+tos de todos os serviços para abrigar o título recebido e
 
-A respeito dos modelos de contratação de capacidade computacional disponíveis nos principais provedores de computação em nuvem, assinale a opção correta:
-
-* **A)** As instâncias do tipo *Spot* (ou instâncias preemptíveis) garantem disponibilidade contínua de 99,99% sem interrupções pelo provedor, sendo ideais para bancos de dados transacionais de missão crítica.
-* **B)** O modelo de Instâncias Sob Demanda (*On-Demand*) exige uma contratação mínima prévia com fidelidade contratual de 36 meses, aplicando multas financeiras caso os servidores sejam desligados.
-* **C)** As Instâncias Reservadas (*Reserved Instances*) ou Planos de Economia (*Savings Plans*) proporcionam descontos tarifários expressivos em relação aos preços sob demanda mediante o compromisso de utilização contínua por prazos definidos (tipicamente 1 ou 3 anos).
-* **D)** A prática de *Rightsizing* (dimensionamento correto) consiste em duplicar a capacidade de vCPUs e memória RAM de todas as instâncias ativas na virada de cada ano fiscal para evitar problemas de saturação de disco.
-* **E)** Em arquiteturas de nuvem, a transição do modelo financeiro migra custos de despesas operacionais (OpEx) para despesas exclusivas de capital imobilizado (CapEx).
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. As instâncias Spot utilizam capacidade ociosa do provedor e podem ser revogadas/interrompidas a qualquer instante com aviso prévio de minutos, sendo inadequadas para bancos de dados críticos.
-> - **B)** Incorreta. O modelo Sob Demanda (*On-Demand*) destaca-se exatamente pela ausência de carência ou compromisso de permanência.
-> - **C)** Correta. As Instâncias Reservadas e Savings Plans reduzem significativamente a tarifa horária em troca de um compromisso de uso contínuo por 1 ou 3 anos para cargas estáveis e previsíveis.
-> - **D)** Incorreta. *Rightsizing* é a prática de redimensionar servidores superdimensionados para configurações menores e mais econômicas, eliminando desperdício orçamentário.
-> - **E)** Incorreta. O paradigma em nuvem substitui investimentos pesados em ativos de capital imobilizado (**CapEx**) por despesas operacionais recorrentes proporcionais ao consumo (**OpEx**).
-> 
-> **Gabarito: C**
-
----
-
-### Teste 464
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A governança financeira e orçamentária da computação em nuvem no setor público consolidou a disciplina de **FinOps** (*Cloud Financial Management*), unindo engenharia de software, operações de infraestrutura e gestão financeira.
-
-No âmbito dos princípios de FinOps e planejamento econômico em nuvem, a transição contábil do modelo **CapEx para OpEx** e a técnica de **Rightsizing** caracterizam-se por:
-
-* **A)** A substituição de despesas operacionais contínuas por compras maciças de hardware físico próprio a cada dez anos.
-* **B)** A transição de despesas de capital (**CapEx - Capital Expenditure**, com vultosos investimentos iniciais em ativos físicos depreciáveis e superdimensionados) para despesas operacionais (**OpEx - Operational Expenditure**, com custos variáveis baseados no consumo real e sob demanda); e o **Rightsizing** como a prática contínua de analisar o consumo real de CPU, memória e armazenamento das cargas de trabalho para redimensionar instâncias excessivamente grandes para configurações de tamanho estritamente adequado às suas necessidades reais, eliminando o desperdício de dinheiro público.
-* **C)** O Rightsizing consiste em aumentar indefinidamente o tamanho de todas as máquinas virtuais para a maior capacidade do catálogo do provedor sem verificar o consumo..
-* **D)** O FinOps proíbe que órgãos públicos realizem qualquer tipo de controle de custos de computação em nuvem.
-* **E)** CapEx e OpEx são índices de criptografia de ponta a ponta que dispensam aprovação orçamentária no Plano Plurianual (PPA).
-
+* **A)** o processamento do material comparado com o 
+mesmo processamento se fosse adquirido por 
+compra.
+* **B)** o tempo necessário para recebimento do material 
+comparado com o mesmo tempo se fosse adquirido 
+por compra.
+* **C)** o tempo necessário para realização dos contatos 
+visando o estabelecimento da permuta.
+* **D)** o aumento da carga de trabalho devido à ampliação 
+do número de títulos permutados.
+* **E)** a cultura da organização. 
+_________________________________________________________
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A nuvem promove exatamente a direção oposta: abandona a compra de hardware antecipado e adota serviços operacionais contínuos sob demanda.
-> - **B)** **CORRETA.** Pilares econômicos do **FinOps na Nuvem**:
->   - **CapEx (Capital Expenditure):** Compra tradicional de datacenters locais: exige previsão orçamentária para 5 anos, aquisição de servidores superdimensionados para picos raros, contratos de garantia caros e depreciação patrimonial estática.
->   - **OpEx (Operational Expenditure):** A organização paga periodicamente apenas pelos recursos de computação que efetivamente consome mês a mês, adaptando a despesa ao ciclo orçamentário anual e à volatilidade da demanda.
->   - **Rightsizing (Dimensionamento Correto):** Técnica fundamental de otimização de custos em FinOps. Se um servidor virtual foi provisionado com 64 núcleos de CPU e 256 GB de RAM, mas a telemetria comprova que ele opera com média de 5% de uso nos últimos 90 dias, o *rightsizing* rebaixa a instância para 8 núcleos e 32 GB, reduzindo o custo daquela fatura em até 70% sem degradar a performance do sistema.
-> - **C)** Incorreta. Superdimensionar desnecessariamente é a causa primária do desperdício de recursos públicos em nuvem que o FinOps combate.
-> - **D)** Incorreta. FinOps é a própria prática de controle rigoroso e prestação de contas de custos.
-> - **E)** Incorreta. São conceitos contábeis e financeiros clássicos de orçamento público e empresarial.
-> 
+> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
 > **Gabarito: B**
 
 ---
+### Teste 464
+**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**
+Visando melhorar o atendimento do usuário e, ao mesmo 
+tempo, promover o uso extensivo dos recursos da biblio-
+teca, o serviço de informação e referência deve concentrar 
+esforços
 
+* **A)** no serviço de empréstimo domiciliar.
+* **B)** na educação do usuário.
+* **C)** na divulgação da biblioteca.
+* **D)** no treinamento do bibliotecário.
+* **E)** na comunicação visual do espaço. 
+_________________________________________________________
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+>
+> **Gabarito: A**
+
+---
 ## 6. Fontes Recomendadas na Internet
 
 * [NIST SP 800-145 - The NIST Definition of Cloud Computing](https://csrc.nist.gov/pubs/sp/800/145/final) - Definição seminal do NIST contemplando os 5 atributos essenciais, 3 modelos de serviço (IaaS, PaaS, SaaS) e 4 modelos de implantação.
