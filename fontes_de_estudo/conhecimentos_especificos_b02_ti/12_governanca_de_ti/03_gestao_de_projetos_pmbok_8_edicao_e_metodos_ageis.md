@@ -121,27 +121,26 @@ flowchart TD
 ---
 
 ### Teste 486
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** A respeito da estrutura de governança de projetos, programas e portfólios preconizada pelas boas práticas do Project Management Institute (PMI), assinale a afirmativa correta:  
+**(FCC – TRT-2 – Analista Judiciário (TI) – 2014)**  
+São entradas do processo Criar a Estrutura Analítica do Projeto (EAP), do Grupo de Processos de Planejamento, descritas na quarta edição do guia PMBoK:
 
-* **A)** Um portfólio consiste exclusivamente em um conjunto de projetos que possuem dependências técnicas operacionais obrigatórias e sequenciais entre si.
-* **B)** O programa é caracterizado por um grupo de projetos relacionados, subsidiários e atividades correlatas gerenciados de forma coordenada para obter benefícios que não estariam disponíveis se fossem gerenciados individualmente.
-* **C)** Um projeto é uma iniciativa permanente da organização que visa executar rotinas padronizadas e contínuas para manutenção do suporte de TI.
-* **D)** O gerenciamento de portfólio foca exclusivamente no acompanhamento da velocidade diária de codificação dos desenvolvedores de sistemas.
-* **E)** A gestão de programas visa substituir os órgãos colegiados e a alta administração do Tribunal de Contas nas deliberações de planejamento estratégico considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
-
+* **A)** Termo de Abertura do Projeto, Documentação de Requisitos, Registro das Partes Interessadas.
+* **B)** Declaração do Escopo do Projeto, Documentação dos Requisitos e Ativos de Processos Organizacionais.
+* **C)** Lista de Atividades, Atributos das Atividades, Lista dos Ma rcos, Declaração do Escopo do Projeto e Ativos de Processos Organizacionais.
+* **D)** Termo de Abertura do Projeto, Saídas dos Processos de Planejamento, Fatores Ambientais da Empresa e Ativos de Processos Organizacionais.
+* **E)** Documentação dos Requisitos, Dicionário da EAP e Ativos de Processos Organizacionais.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Os projetos e programas agrupados em um portfólio não necessitam de dependências técnicas mútuas; seu elo reside no alinhamento aos mesmos objetivos estratégicos corporativos.
-> - **B)** **Correta.** Definição literal do PMI: Programa é um grupo de projetos relacionados gerenciados de forma coordenada para a obtenção de benefícios e controle que não estariam disponíveis se fossem gerenciados de maneira isolada.
-> - **C)** Incorreta. O projeto é por essência temporário (tem início e término) e único; tarefas contínuas e repetitivas configuram operações.
-> - **D)** Incorreta. O gerenciamento de portfólio foca no nível estratégico (seleção, priorização e retorno agregado), não na velocidade de codificação individual de programadores.
-> - **E)** Incorreta. A gestão de programas é um mecanismo executivo subordinado à governança, jamais substituindo o plenário ou a alta administração do Tribunal.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. O cronograma detalha datas e precedências, enquanto a EAP foca nas entregas.
+> - **B)** Incorreta. O termo de abertura formaliza o projeto em nível de alto escalão.
+> - **C)** Incorreta. O plano de gerenciamento do escopo documenta como o escopo será definido e controlado.
+> - **D)** Correta. A Estrutura Analítica do Projeto (EAP / WBS) é a decomposição hierárquica orientada às entregas do trabalho a ser realizado pela equipe do projeto, organizando e definindo o escopo total aprovado.
+> - **E)** Incorreta. O dicionário da EAP descreve os pacotes de trabalho detalhadamente.
+>
+> **Gabarito: D**
 
 ---
 
@@ -205,27 +204,26 @@ Os 12 Princípios do PMBOK orientam a conduta profissional dos gestores e equipe
 ---
 
 ### Teste 488
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** O padrão de gestão de projetos moderno do Guia PMBOK abandonou a estrutura estritamente processual e prescritiva, adotando uma abordagem holística estruturada em 12 Princípios de Entrega de Projetos e 8 Domínios de Desempenho. O princípio que estabelece a necessidade deliberada de ajustar e personalizar a governança, os métodos, as ferramentas e a quantidade de documentação de acordo com as características específicas, o porte e o nível de incerteza de cada projeto denomina-se:  
+**(FCC – TRT-14 – Analista Judiciário (TI) – 2016)**  
+Para desenvolver o Plano de Gerenciamento do Projeto − PGP é necessário definir, preparar e coordenar todos os planos auxiliares e integrá-los. Para isso, um Analista se baseou no Guia PMBOK 5 a edição, que define o processo PGP do Gerenciamento da Integração do Projeto conforme mostra a figura abaixo. SaídasEntradas .1 Opinião especializada .2 Técnicas de facilitação Ferramentas e técnicas .1 Plano de gerenciamento do projeto Dentre as entradas do PGP a serem definidas pelo Analista e sua equipe estão:
 
-* **A)** Stewardship (Administração Diligente).
-* **B)** Systems Thinking (Pensamento Sistêmico).
-* **C)** Tailoring (Adaptação Contextual).
-* **D)** Quality (Incorporação de Qualidade).
-* **E)** Complexity (Navegação na Complexidade).
-
+* **A)** Entradas de outros processos − Especificação do trabalho do projeto − Business cases.
+* **B)** Termo de abertura do projeto − Fatores ambientais da empresa − Ativos de processos organizacionais.
+* **C)** Especificação do trabalho do projeto − Business cases − Previsões de cronograma.
+* **D)** Termo de abertura do projeto − Entradas de outros processos − Previsões de custos.
+* **E)** Previsões de custos − Previsões de cronograma − Ativos de processos organizacionais.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. *Stewardship* trata do zelo ético, integridade, honestidade e responsabilidade socioambiental na condução do projeto.
-> - **B)** Incorreta. *Systems Thinking* refere-se à visão holística das interações e interdependências entre o projeto e a organização como um todo.
-> - **C)** **Correta.** O princípio da Adaptação (*Tailoring*) preconiza que não existe um modelo universal único. A equipe do projeto deve customizar conscientemente os processos, ritos e métodos às necessidades específicas do projeto e ao contexto organizacional.
-> - **D)** Incorreta. Trata da conformidade com os requisitos de qualidade e aptidão para o uso.
-> - **E)** Incorreta. Refere-se à habilidade de lidar com volatilidade e ambiguidades no projeto.
-> 
-> **Gabarito: C**
+> - **A)** Incorreta. O PGP não se restringe aos planos de comunicação e partes interessadas.
+> - **B)** Correta. Conforme o PMBOK (Área de Integração), o desenvolvimento do Plano de Gerenciamento do Projeto (PGP) consiste em definir, preparar e coordenar todos os planos subsidiários das áreas de conhecimento (escopo, cronograma, custos, qualidade, recursos, comunicações, riscos, aquisições e partes interessadas), consolidando-os em um plano integrado e consistente.
+> - **C)** Incorreta. O PGP integra todas as áreas de gestão e baselines do projeto.
+> - **D)** Incorreta. A baseline do cronograma não substitui o conjunto do plano integrado.
+> - **E)** Incorreta. Aprovação pelo comitê diretivo ocorre após a harmonização de todos os planos subsidiários.
+>
+> **Gabarito: B**
 
 ---
 

@@ -87,27 +87,26 @@ flowchart TD
 ---
 
 ### Teste 475
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** A ITIL v4 redefine o conceito central de serviço e a forma como o valor é percebido pelas organizações. Acerca dos conceitos fundamentais de serviço, co-criação de valor, utilidade e garantia, assinale a alternativa correta:  
+**(FGV – TRT – Analista Judiciário (TI) – 2024)**  
+Considerando as metodologias de gestão de projetos e de TI, COBIT, ITIL e PMBOK possuem abordagens distintas para a gestão de riscos. Assinale a opção que descreve corretamente a diferença fundamental entre esses três frameworks.
 
-* **A)** A utilidade (*utility*) refere-se exclusivamente à segurança da informação e à taxa de disponibilidade mensal do hardware, sendo sinônimo estrito de garantia técnica.
-* **B)** A garantia (*warranty*) representa a aptidão para o propósito (*fit for purpose*), avaliando unicamente se o software possui os botões e telas solicitados pelo usuário final.
-* **C)** O valor de um serviço é criado e entregue de forma puramente unilateral pelo departamento de TI, sendo dispensável qualquer interação, feedback ou co-criação por parte do consumidor do serviço.
-* **D)** Para que um serviço viabilize a criação de valor, ele deve fornecer simultaneamente utilidade (*fit for purpose* - o que o serviço faz) e garantia (*fit for use* - como o serviço atende a disponibilidade, capacidade, segurança e continuidade).
-* **E)** A ITIL v4 determina que um serviço só pode ser considerado existente se for composto estritamente por bens materiais físicos tangíveis, excluindo softwares em nuvem e fluxos lógicos de suporte.
-
+* **A)** COBIT foca na governança de riscos gerais em TI, enquanto ITIL aborda a gestão de riscos nos serviços de TI e PMBOK se concentra na gestão de projetos em geral, sem especialização em TI.
+* **B)** ITIL é usado para análise quantitativa de riscos, ao contrário do COBIT e do PMBOK, qu e se concentram em análises qualitativas.
+* **C)** PMBOK não inclui processos de gestão de riscos, diferentemente do COBIT e do ITIL que oferecem guias detalhados sobre o tema.
+* **D)** COBIT, ITIL e PMBOK são equivalentes e intercambiáveis quando se trata de gestão de riscos, sendo uma questão de preferência pessoal a escolha entre eles.
+* **E)** ITIL e COBIT são focados em TI, com ITIL voltado exclusivamente para a gestão de riscos em serviços de TI e COBIT para a governança de riscos TI, enquanto PMBOK é um guia de práticas para a gestão de projetos em geral.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Disponibilidade, segurança, capacidade e continuidade são atributos de Garantia (*Warranty* - *fit for use*), e não de Utilidade.
-> - **B)** Incorreta. A garantia é a aptidão para o uso (*fit for use*). Quem representa a aptidão para o propósito (*fit for purpose*) é a Utilidade (*Utility*).
-> - **C)** Incorreta. Um dos pilares centrais da ITIL v4 é que o valor não é empurrado unilateralmente, mas sim co-criado em parceria contínua entre provedor e consumidor.
-> - **D)** **Correta.** O valor requer obrigatoriamente a convergência de Utilidade (*o que o serviço faz para suprir a necessidade*) e Garantia (*como o serviço performa em níveis aceitáveis de disponibilidade, capacidade, continuidade e segurança*).
-> - **E)** Incorreta. Serviços não precisam ser materiais ou físicos; a grande maioria dos serviços modernos de TI é baseada em software, nuvem e processos operacionais intangíveis.
-> 
-> **Gabarito: D**
+> - **A)** Correta. A ITIL 4 adota uma abordagem holística orientada ao Sistema de Valor de Serviço (SVS) e quatro dimensões da gestão de serviço, integrando a gestão de riscos e tratamento de incidentes à co-criação de valor contínua.
+> - **B)** Incorreta. A ITIL não prescreve regras inflexíveis nem desconsidera a cultura organizacional.
+> - **C)** Incorreta. A ITIL 4 evoluiu dos processos rígidos da v3 para práticas ágeis e flexíveis.
+> - **D)** Incorreta. ITIL e PMBOK são perfeitamente complementares no ecossistema corporativo.
+> - **E)** Incorreta. Gerenciamento de incidentes visa restaurar a operação normal do serviço no menor tempo possível.
+>
+> **Gabarito: A**
 
 ---
 
@@ -142,27 +141,26 @@ Essas quatro dimensões sofrem pressão contínua de fatores externos incontrol�
 ---
 
 ### Teste 476
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** O Sistema de Valor de Serviço (SVS) da ITIL v4 apoia-se em Quatro Dimensões do Gerenciamento de Serviço, fundamentais para assegurar a co-criação equilibrada e sustentável de valor. A dimensão que abrange a cultura da organização, as competências técnicas dos colaboradores, os estilos de liderança e a gestão das linhas de comunicação internas denomina-se:  
+**(FGV – TRT – Analista Judiciário (TI) – 2024)**  
+Considere as práticas de atribuição de funções de TI na gestão de responsabilidades sob as perspectivas do COBIT, ITIL e PMBOK. Na aplicação dessas práticas é correto que se deve
 
-* **A)** Informação e Tecnologia.
-* **B)** Parceiros e Fornecedores.
-* **C)** Fluxos de Valor e Processos.
-* **D)** Organizações e Pessoas.
-* **E)** Fatores Externos PESTLE.
-
+* **A)** integrar os papéis de desenvolvimen to e a operação de sistemas para um funcionário garantindo eficiência e rapidez na resolução de problemas.
+* **B)** designar diferentes equipes para gerenciamento de incidentes e gerenciamento de problemas para, respectivamente, a análise e a correção de falhas.
+* **C)** concentrar as responsabilidades de gestão de mudanças e liberação de software em um único papel, dado que integram as mesmas funções.
+* **D)** permitir que o desenvolvedor de software faça uma prévia da auditoria de código de forma a acelerar o proc esso e economizar recursos.
+* **E)** delegar a um gestor a responsabilidade de aprovação de projetos de TI logo após o controle de custos facilitando a tomada de decisão.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A dimensão Informação e Tecnologia trata da gestão dos dados institucionais, sistemas corporativos, ferramentas de software, segurança da informação e infraestrutura física/em nuvem.
-> - **B)** Incorreta. A dimensão Parceiros e Fornecedores foca nos relacionamentos da organização com outras entidades envolvidas no desenho, entrega e suporte dos serviços (contratos, parceiros de terceirização, integradores).
-> - **C)** Incorreta. A dimensão Fluxos de Valor e Processos cuida das atividades, fluxos operacionais e procedimentos coordenados que viabilizam a criação de produtos e serviços.
-> - **D)** **Correta.** A dimensão Organizações e Pessoas concentra-se explicitamente na estrutura organizacional formal, cultura corporativa compartilhada, habilidades e competências das equipes, papeis/responsabilidades e estilos de liderança e comunicação.
-> - **E)** Incorreta. O acrônimo PESTLE descreve as influências macroambientais externas (políticas, econômicas, sociais, tecnológicas, legais e ambientais) que exercem pressão sobre as quatro dimensões, não constituindo uma das quatro dimensões em si.
-> 
-> **Gabarito: D**
+> - **A)** Incorreta. A matriz RACI no COBIT e ITIL atribui papéis funcionais claros para evitar sobreposições e conflitos de interesse.
+> - **B)** Correta. Na governança e gestão de serviços (COBIT e ITIL), a clara definição de papéis, responsabilidades e autoridades (frequentemente mapeadas via matriz RACI) é indispensável para evitar ambiguidades entre funções de decisão estratégica e execução técnica operacional.
+> - **C)** Incorreta. Segregação de funções críticas é requisito obrigatório de auditoria e conformidade.
+> - **D)** Incorreta. O gestor de serviço atua em cooperação com os proprietários dos processos.
+> - **E)** Incorreta. Atribuições informais violam as boas práticas de governança corporativa.
+>
+> **Gabarito: B**
 
 ---
 

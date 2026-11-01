@@ -1416,7 +1416,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/15_nocoes_de_direito_administrativo/02_organizacao_administrativa_e_poderes.md",
       "target_section": "### 2.3 Empresas Públicas e Sociedades de Economia Mista",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT-2024-FGV-Q71",
@@ -12318,7 +12318,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/12_governanca_de_ti/01_fundamentos_governanca_cobit_2019_e_iso_38500.md",
       "target_section": "## 3. Framework COBIT 2019 (ISACA)",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT-2024-FGV-Q62",
@@ -12339,7 +12339,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/10_seguranca_da_informacao/01_principios_gestao_de_riscos_e_normas_iso_27000.md",
       "target_section": "### 3.3 As Quatro Estratégias de Tratamento do Risco (ISO/IEC 27005)",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT-2024-FGV-Q63",
@@ -12360,7 +12360,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/12_governanca_de_ti/01_fundamentos_governanca_cobit_2019_e_iso_38500.md",
       "target_section": "## 3. Framework COBIT 2019 (ISACA)",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT-2024-FGV-Q64",
@@ -12381,7 +12381,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/12_governanca_de_ti/02_gestao_de_servicos_de_ti_itil_v4.md",
       "target_section": "### 2.2 Gerenciamento de Incidentes vs. Gerenciamento de Problemas",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT-2024-FGV-Q65",
@@ -12423,7 +12423,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/12_governanca_de_ti/01_fundamentos_governanca_cobit_2019_e_iso_38500.md",
       "target_section": "## 3. Framework COBIT 2019 (ISACA)",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT-2024-FGV-Q68",
@@ -13074,7 +13074,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/13_legislacao_aplicada_a_ti/03_seguranca_em_contratacoes_e_certificacao_digital.md",
       "target_section": "### 1.2 Cláusulas Contratuais Críticas de Segurança",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT-2024-FGV-Q04",
@@ -18399,7 +18399,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/13_legislacao_aplicada_a_ti/05_normativos_e_planejamento_de_ti_tce_go.md",
       "target_section": "## 1. O Comitê Estratégico de Tecnologia da Informação - CETI (Resolução Normativa nº 13/2016)",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT14-2016-FCC-Q01",
@@ -19344,7 +19344,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/21_nocoes_de_administracao_publica/03_gestao_da_qualidade_processos_projetos_e_decreto_9094.md",
       "target_section": "### 4. Gestão de Projetos segundo o Guia PMBOK (PMI)",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT14-2016-FCC-Q46",
@@ -49185,7 +49185,7 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/21_nocoes_de_administracao_publica/03_gestao_da_qualidade_processos_projetos_e_decreto_9094.md",
       "target_section": "### 4. Gestão de Projetos segundo o Guia PMBOK (PMI)",
-      "status_integracao": "pendente"
+      "status_integracao": "injetada"
     },
     {
       "id": "TRT2-2014-FCC-Q57",

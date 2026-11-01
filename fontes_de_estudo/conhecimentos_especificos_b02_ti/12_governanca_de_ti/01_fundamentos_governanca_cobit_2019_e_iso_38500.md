@@ -113,27 +113,26 @@ A governança assegura a integração bidirecional contínua entre a estratégia
 ---
 
 ### Teste 465
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** A governança de TI é fundamental para alinhar os recursos e investimentos de tecnologia aos objetivos estratégicos organizacionais, assegurando a geração de valor público e a mitigação de riscos. A respeito das diferenças estruturais e operacionais entre governança e gestão de tecnologia da informação, assinale a alternativa correta:  
+**(FGV – TRT – Analista Judiciário (TI) – 2024)**  
+Assinale a opção que descreve corretamente um ponto principal característico de COBIT 2019, ITIL v4 e PMBOK.
 
-* **A)** A governança de TI concentra-se precipuamente na execução de atividades operacionais rotineiras, como configuração de switches de rede, homologação de código e atendimento diário de chamados de suporte de primeiro nível.
-* **B)** A governança de TI é responsável por avaliar as necessidades estratégicas, direcionar as prioridades institucionais por meio de políticas e monitorar o desempenho e a conformidade, cabendo à gestão planejar, construir, executar e monitorar as atividades técnicas em consonância com as diretrizes estabelecidas.
-* **C)** A gestão de TI possui horizonte temporal plurianual e é exercida com exclusividade pelos membros do Plenário e da alta administração, não se subordinando às diretrizes dos comitês estratégicos institucionais.
-* **D)** A governança e a gestão de tecnologia constituem funções idênticas e intercambiáveis, de modo que os frameworks internacionais (como COBIT 2019 e ISO/IEC 38500) não estabelecem segregação de papéis ou responsabilidades entre os dois domínios.
-* **E)** A responsabilidade final pela governança corporativa de TI deve ser compulsoriamente transferida e delegada às empresas contratadas que fornecem infraestrutura de data center ou sustentação de sistemas.
-
+* **A)** COBIT 2019 é centrado na governança de TI, ITIL v4 foca na gestão de serviços de TI e PMBOK orienta sobre a gestão de projetos tradicionais.
+* **B)** COBIT 2019 é um gui a para auditoria de TI, ITIL v4 é um framework para desenvolvimento de software, e PMBOK é uma metodologia ágil.
+* **C)** COBIT 2019, ITIL v4 e PMBOK são frameworks que priorizam a implementação de práticas ágeis e DevOps em suas abordagens.
+* **D)** COBIT 2019, IT IL v4 e PMBOK são estruturas voltadas exclusivamente para o controle financeiro de projetos de TI.
+* **E)** COBIT 2019 define princípios de governança corporativa, ITIL v4 prioriza a gestão de serviços de TI focada no cliente, e PMBOK foca na entrega de valor através da gestão de projetos. Desenvolvimento Web e Mobile
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Configuração de ativos, codificação e atendimento de chamados operacionais de suporte são atribuições típicas de gestão de serviços de TI (nível operacional/tático), e não de governança.
-> - **B)** **Correta.** A governança define o direcionamento estratégico segundo o modelo EDM (Avaliar, Dirigir e Monitorar), enquanto a gestão implementa e executa planos diários segundo o ciclo PBRM (Planejar, Construir, Executar e Monitorar).
-> - **C)** Incorreta. A gestão foca no curto e médio prazo (sprints, rotinas operacionais). Quem possui visão de longo prazo e é exercida pela alta administração é a governança corporativa.
-> - **D)** Incorreta. Há estrita segregação de funções (*separation of duties*). COBIT 2019 e ISO/IEC 38500 enfatizam que governança e gestão possuem propósitos, estruturas, responsabilidades e horizontes temporais distintos.
-> - **E)** Incorreta. Pelo princípio da Responsabilidade, a prestação de contas (*accountability*) da governança é indelegável e não pode ser transferida para fornecedores ou prestadores externos.
-> 
-> **Gabarito: B**
+> - **A)** Correta. O COBIT 2019 foca primordialmente na governança corporativa de informações e tecnologia (distinguindo os domínios de governança EDM e gestão), a ITIL v4 adota o Sistema de Valor de Serviço (SVS) centrado na co-criação de valor através de 34 práticas, e o PMBOK foca nas entregas de projetos e princípios de entrega de valor.
+> - **B)** Incorreta. ITIL não é um framework exclusivo de governança estratégica corporativa.
+> - **C)** Incorreta. O COBIT não é voltado ao gerenciamento operacional de chamados ou código-fonte.
+> - **D)** Incorreta. PMBOK não substitui governança institucional e gestão de serviços contínuos.
+> - **E)** Incorreta. ITIL não se limita a gerenciamento de projetos temporários.
+>
+> **Gabarito: A**
 
 ---
 
@@ -213,27 +212,26 @@ A ISO/IEC 38500 prescreve **seis princípios** fundamentais que orientam a tomad
 ---
 
 ### Teste 467
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** A norma ABNT NBR ISO/IEC 38500 fornece diretrizes para que dirigentes e órgãos de governança assegurem o uso eficaz, eficiente e aceitável da Tecnologia da Informação. Acerca dos princípios e do modelo de atuação prescritos por essa norma, assinale a alternativa correta:  
+**(FGV – TCE-GO – Analista de Controle Externo (TI) – 2024)**  
+Uma empresa de TI está considerando a terceirização de algumas de suas funções de TI para melhorar a eficiência e reduzir custos. Assinale a opção que descreve corretamente uma etapa crítica que tem que ser abordada antes de implementar a terceirização de TI.
 
-* **A)** O modelo da ISO/IEC 38500 estabelece que a atuação do órgão de governança ocorre por meio de três tarefas fundamentais: Avaliar (*Evaluate*), Dirigir (*Direct*) e Monitorar (*Monitor*).
-* **B)** O princípio do Comportamento Humano exige que todos os colaboradores assinem termos de confidencialidade com renúncia a direitos trabalhistas antes de utilizar sistemas corporativos.
-* **C)** O princípio da Aquisição determina que a organização deve sempre optar pela solução de menor preço nominal de compra imediata, sendo vedado o cômputo de custos futuros de manutenção e suporte.
-* **D)** As diretrizes da norma ISO/IEC 38500 aplicam-se exclusivamente a instituições financeiras privadas e empresas de tecnologia listadas em bolsa de valores, sendo expressamente vedada sua aplicação a órgãos públicos.
-* **E)** A responsabilidade pela prestação de contas do uso de TI na organização deve ser transferida compulsoriamente aos fornecedores externos e prestadores de suporte técnico terceirizados.
-
+* **A)** Reduzir o quadro de pessoal interno para garantir economias de custo substanciais antes de firmar qualquer contrato de terceirização.
+* **B)** Implementar uma ferramenta de software que autom atize completamente os processos de TI.
+* **C)** Conduzir uma análise detalhada das necessidades da empresa e do impacto da terceirização no atual ambiente de TI e nos funcionários envolvidos.
+* **D)** Aumentar os investimentos em infraestrutura de TI para permitir a melhor gestão de empresas terceirizadas com capacidades tecnológicas avançadas.
+* **E)** Focar nas tendências de mercado. TRIBUNAL DE CONTAS DO ESTADO DE GOIÁS FGV CONHECIMENTO ANALISTA DE CONTROLE EXTERNO - TECNOLOGIA DA INFORMACAO – MANHÃ TIPO BRANCA – PÁGINA 13
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** A ISO/IEC 38500 estrutura a governança corporativa de TI em torno do ciclo EDM: Avaliar o uso atual e futuro da TI, Dirigir a preparação e implementação de planos e políticas, e Monitorar o cumprimento das políticas e o desempenho alcançado.
-> - **B)** Incorreta. O princípio do Comportamento Humano estabelece que as políticas, práticas e decisões de TI devem respeitar os comportamentos humanos, as necessidades culturais e o bem-estar dos colaboradores e usuários, incluindo treinamento, usabilidade e transição adequada de rotinas.
-> - **C)** Incorreta. O princípio da Aquisição exige justamente o oposto: os investimentos em TI devem ser fundamentados em análises criteriosas de custo-benefício de longo prazo, considerando o Custo Total de Propriedade (TCO) e riscos, e não apenas o custo de aquisição imediata.
-> - **D)** Incorreta. A norma aplica-se a qualquer organização, pública ou privada, governamental ou não-governamental, independente de seu porte ou natureza jurídica.
-> - **E)** Incorreta. Conforme o princípio da Responsabilidade, a governança e a *accountability* sobre as decisões de TI recaem sobre os dirigentes e a administração da própria organização; a responsabilidade final nunca pode ser terceirizada a prestadores de serviços externos.
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. A governança e as decisões estratégicas de TI são indelegáveis.
+> - **B)** Incorreta. Riscos de conformidade jurídica e segurança da informação permanecem sob responsabilidade primária da organização contratante.
+> - **C)** Correta. Na terceirização de serviços de TI em organizações e órgãos de controle, é fundamental manter internamente a capacidade de governança, o planejamento estratégico, o monitoramento e a fiscalização técnica dos contratos (gestão de fornecedores), assegurando alinhamento aos objetivos do negócio.
+> - **D)** Incorreta. Custos indiretos de gestão contratual devem ser rigorosamente considerados.
+> - **E)** Incorreta. Terceirização sem governança acarreta dependência tecnológica (*vendor lock-in*) e riscos de descontinuidade.
+>
+> **Gabarito: C**
 
 ---
 
@@ -324,27 +322,26 @@ Para construir, operar e manter um sistema de governança funcional, o COBIT 201
 ---
 
 ### Teste 469
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** O COBIT 2019 estabelece que um sistema de governança requer fatores e recursos de diferentes naturezas trabalhando em conjunto, estruturados em 7 categorias de Componentes. A respeito desses componentes, assinale a alternativa correta:  
+**(FGV – TRT – Analista Judiciário (TI) – 2024)**  
+Quando uma organização busca implementar um Planejamento Estratégico de Tecnologia da Informação (PETI), é essencial considerar o alinhamento estratégico entre a área de TI e os negócios. Marque a ação que garante esse alinhamento e apoia a governança de TI.
 
-* **A)** O componente 'Processos' é o único obrigatório no COBIT 2019, sendo os demais 6 componentes considerados elementos puramente cosméticos e facultativos pela ISACA.
-* **B)** As 'Estruturas Organizacionais' correspondem às entidades e comitês formais tomadores de decisão na organização, constituindo um dos 7 componentes do sistema de governança.
-* **C)** O COBIT 2019 extinguiu o componente 'Pessoas, Habilidades e Competências', preconizando a automatização irrestrita de todas as práticas por inteligência artificial autônoma.
-* **D)** O componente 'Cultura, Ética e Comportamento' aplica-se apenas a empresas privadas de capital aberto, não tendo relevância em órgãos públicos de controle externo.
-* **E)** As ferramentas de software corporativo e data centers integram o componente de 'Estruturas Organizacionais' e não de 'Serviços, Infraestrutura e Aplicações'.
-
+* **A)** Implementação de práticas ITIL em comunicação com as equipes de operações de infraestrutura.
+* **B)** Desenvolvimento de políticas e procedimentos de TI que reflitam as estratégias definidas pelo framework ITIL
+* **C)** Centralização das decisões de TI usand o o framework COBIT combinado com ITIL para as áreas de gestão.
+* **D)** Reestruturação da equipe de TI em alinhamento com operações e desenvolvimento.
+* **E)** Integração dos frameworks COBIT e ITIL para estabelecer processos que suportem os objetivos estratégicos de negócios e TI.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Todos os 7 componentes são essenciais e interdependentes para sustentar a eficácia do sistema de governança.
-> - **B)** **Correta.** Estruturas organizacionais são os órgãos decisórios da governança e gestão (como o Plenário, comitês executivos de TI e a diretoria de tecnologia).
-> - **C)** Incorreta. O capital humano (*People, Skills and Competencies*) continua sendo componente central do framework.
-> - **D)** Incorreta. Cultura e ética corporativa são fundamentais em qualquer organização, sobretudo em tribunais de controle público.
-> - **E)** Incorreta. Softwares e data centers integram a categoria 'Serviços, Infraestrutura e Aplicações'.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. O PETI não deve ser elaborado isoladamente sem considerar as estratégias da organização.
+> - **B)** Incorreta. Indicadores puramente operacionais não asseguram alinhamento estratégico corporativo.
+> - **C)** Incorreta. O PETI não se restringe a aquisições pontuais de hardware.
+> - **D)** Incorreta. O planejamento deve envolver todas as áreas finalísticas institucionais.
+> - **E)** Correta. No Planejamento Estratégico de Tecnologia da Informação (PETI), o alinhamento estratégico entre as metas institucionais de negócio e as iniciativas de TIC é essencial, assegurando priorização de investimentos e geração de valor público.
+>
+> **Gabarito: E**
 
 ---
 

@@ -113,26 +113,61 @@ flowchart TD
 ---
 
 ### Teste 496
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** Em procedimento de auditoria de controle externo realizado no setor de tecnologia da informação de uma autarquia estadual, a equipe de auditoria analisou um termo de referência para contratação de fábrica de software e constatou a previsão de que a empresa contratada seria remunerada exclusivamente pela contagem das horas trabalhadas pelos desenvolvedores alocados presencialmente no prédio da autarquia, sem vínculo com entregas, ordens de serviço, pontos de função ou metas de níveis de serviço. Considerando a jurisprudência sumulada dos Tribunais de Contas e a Lei nº 14.133/2021:  
+**(FGV – TJ-AP – Analista Judiciário (TI) – 2023)**  
+Com base na Instrução Normativa nº 4, de 11 de setembro de
 
-* **A)** A cláusula editalícia é lícita, visto que o regime de contratação por homens-hora garante total flexibilidade técnica exigida pelo paradigma de desenvolvimento ágil.
-* **B)** O procedimento apresenta irregularidade grave.
-* **C)** A modalidade licitatória obrigatória para contratações remuneradas por homem-hora presencial é o Leilão Internacional.
-* **D)** A Lei nº 14.133/2021 estabelece que a contratação de software proprietário prescinde de Estudo Técnico Preliminar e de fiscalização técnica.
-* **E)** A responsabilidade pela escolha da métrica de homem-hora é privativa da empresa licitante vencedora, não podendo a Administração impor métricas de pagamento.
+2014 (MPOG/SLTI), que dispõe  sobre o processo de contratação
 
+de Soluções de Tecnologia da Informação pelos órgãos
+
+integrantes do Sistema de Administração dos Recursos de
+
+Tecnologia da Informação (SISP) do Poder Executivo Federal.
+
+A Área de Tecnologia da Informação de um órgão federal
+
+desempenha várias funções no processo de contratação de
+
+Soluções de Tecnologia da Informação.
+
+Pode-se verificar que são atribuições da Área de Tecnologia da
+
+Informação na segunda fase da contratação, conhecida como
+
+Seleção do Fornecedor:
+
+I. apoiar o preg oeiro na análise e julgamento das propostas
+
+apresentadas pelos licitantes;
+
+II. encaminhar o Plano de Fiscalização à área de Licitação, que
+
+estabelece o processo de fiscalização do contrato de Soluções de
+
+Tecnologia da Informação;
+
+III. elaborar o Projeto Bá sico ou Termo de Referência de Soluções
+
+de Tecnologia da Informação.
+
+Está correto somente o que se afirma em:
+
+* **A)** I;
+* **B)** II;
+* **C)** I e II;
+* **D)** I e III;
+* **E)** II e III. Tribunal de Justiça do Estado do Amapá FGV Conhecimento Analista Jud - Apo Especializado - Tecnologia da Informação - Telecomunicações  Tipo 1 Branca Realização
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O modelo ágil não autoriza a administração pública a remunerar fornecedores por mera "presença física" ou tempo corrido sem entrega de valor mensurável; a jurisprudência pacífica do TCU exige aferição objetiva de resultados mesmo em projetos ágeis.
-> - **B)** **Correta.** A Súmula nº 269 do TCU e os princípios da economicidade, eficiência e motivação da Lei nº 14.133/2021 vedam a remuneração de serviços de TIC baseada unicamente em homem-hora desvinculada de resultados mensuráveis. O pagamento deve basear-se em produtos, ordens de serviço, métricas objetivas (como Pontos de Função ou UST) e cumprimento de metas de SLA através do IMR.
-> - **C)** Incorreta. O Leilão destina-se à alienação de bens móveis inservíveis ou imóveis da administração, jamais à contratação de serviços de software.
-> - **D)** Incorreta. O Estudo Técnico Preliminar (ETP) é a base obrigatória do planejamento licitatório (Art. 18 da Lei 14.133/2021), sendo indispensável para soluções de software.
-> - **E)** Incorreta. A definição dos critérios de medição e remuneração é dever indelegável da Administração Pública no Termo de Referência.
-> 
+> - **A)** Incorreta. O TR deve conter critérios objetivos de mensuração e níveis mínimos de serviço.
+> - **B)** Correta. O Termo de Referência (TR), elaborado a partir dos Estudos Técnicos Preliminares (ETP), é o documento obrigatório que consolida a definição do objeto de TIC, justificativa da contratação, modelo de execução, estimativa de custos, critérios de medição de resultados e obrigações contratuais.
+> - **C)** Incorreta. A estimativa orçamentária prévia é obrigatória nos termos da Lei de Licitações.
+> - **D)** Incorreta. O modelo de pagamento deve vincular-se a resultados e entregas efetivas (UST / Ordens de Serviço).
+> - **E)** Incorreta. Cláusulas de sustentabilidade e segurança são exigidas em contratações de TIC.
+>
 > **Gabarito: B**
 
 ---
@@ -183,27 +218,26 @@ A fase preparatória é o núcleo de conformidade da contratação. Falhas grave
 ---
 
 ### Teste 497
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** Na fase preparatória de uma contratação de TIC sob a égide da Lei nº 14.133/2021 e normativos de contratação de soluções digitais, a equipe de planejamento da contratação é responsável por elaborar artefatos estruturantes. A respeito desses documentos, assinale a afirmativa correta:  
+**(FGV – TCE-GO – Analista de Controle Externo (TI) – 2024)**  
+Um certo fiscal de contratos da administração pública exerce vários papéis e funções. Considerando o tema, é correto que se deve
 
-* **A)** O Documento de Oficialização da Demanda (DOD) é emitido pela empresa vencedora da licitação para comunicar à Administração o início da entrega de hardware.
-* **B)** O Estudo Técnico Preliminar (ETP) tem como finalidade evidenciar o problema a ser resolvido e a melhor solução entre as alternativas de mercado, avaliando a viabilidade técnica e o Custo Total de Propriedade (TCO).
-* **C)** O Termo de Referência é um documento preliminar e não vinculante, podendo a contratada alterar livremente os requisitos de software durante o desenvolvimento.
-* **D)** A elaboração do Mapa de Riscos é dispensável em contratações de TIC, haja vista que os riscos cibernéticos são integralmente assumidos pelo fabricante de software.
-* **E)** A equipe de planejamento da contratação de TIC deve ser composta por um único servidor sem conhecimento técnico em informática, visando garantir a imparcialidade do processo.
-
+* **A)** representar a contratada nas negociações com a administração pública, garantindo a adequação dos termos contratuais às necessidades da contratante.
+* **B)** aplicar diretamente penalidades e sanções administrativas à contratada em caso de execução inadequada do contrato.
+* **C)** receber e aceite dos bens e serviços, não par ticipando das etapas anteriores de acompanhamento da execução contratual.
+* **D)** acompanhar a execução contratual, registrando e notificando irregularidades à autoridade competente, para as devidas providências.
+* **E)** elaborar sanções a ser aplicadas nas irregu laridades encontradas durante a execução contratual. Realização TRIBUNAL DE CONTAS DO ESTADO DE GOIÁS CONCURSO PÚBLICO – EDITAL 01/2024 TARDE ANALISTA DE CONTROLE EXTERNO TECNOLOGIA DA INFORMACAO NÍVEL SUPERIOR TIPO 1 – BRANCA • Além deste caderno contendo 2 (duas) discursivas você receberá do fiscal de sala a folha de texto definitivo; • As questões discursivas deverão ser redigidas em até 20 (vinte) linhas. • • Verifique se seu caderno de questões está completo, sem repetição de questões ou falhas. Caso contrário, notifique imediatamente o fiscal da sala, para que sejam tomadas as devidas providências; • Confira seus dados pessoais, especialmente nome, número de inscrição e documento de identidade e leia atentamente as instruções para preencher a folha de texto definitivo; • Para o preenchimento das folhas de textos definitivos, use somente caneta esferográf ica, fabricada em material transparente, com tinta preta ou azul; • Assine seu nome apenas nos espaços reservados nas folhas de textos definitivos; • Confira seu cargo, cor e tipo do caderno de questões. Caso tenha recebido caderno de cargo ou cor ou tipo diferente do impresso em sua s folhas de texto s definitivos, o fiscal de sala deve ser obrigatoriamente informado para o devido registro na ata da sala; • Reserve tempo suficiente para o preenchimento das suas folhas de textos definitivos. O preenchimento é de sua responsabilidade e não será permitida a troca das folhas de textos definitivos em caso de erro cometido pelo candidato; • Para fins de avaliação, serão levadas em consideração apenas as marcações realizadas nas folhas de textos definitivos; • A FGV coletará as impressões digitais dos candidatos na lista de presença; • Os candidatos serão submetidos ao sistema de detecção de metais quando do ingresso e da saída de sanitários durante a realização das provas. • Boa prova! • Você dispõe de 2 (duas) horas para a realização da prova, já incluído o tempo para o preenchimento das folhas de textos definitivos; • 1 (uma) hora após o início da prova, é possível retirar-se da sala, sem levar o caderno de questões; • A partir dos 30 (trinta) minutos anteriores ao término da prova é possível retirar -se da sala levando o caderno de questões. • Qualquer tipo de comunicação entre os candidatos durante a aplicação da prova; • Anotar informações relativas às respostas em qualquer outro meio que não seja o caderno de questões; • Levantar da cadeira sem autorização do fiscal de sala; • Usar o sanitário ao término da prova, após deixar a sala. SUA PROVA TEMPO NÃO SERÁ PERMITIDO INFORMAÇÕES GERAIS TRIBUNAL DE CONTAS DO ESTADO DE GOIÁS FGV CONHECIMENTO ANALISTA DE CONTROLE EXTERNO - TECNOLOGIA DA INFORMACAO – TARDE TIPO BRANCA – PÁGINA 1 Tecnologia da Informação - Discursiva
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O DOD é um artefato interno emitido pela área requisitante (órgão público) para formalizar a necessidade institucional perante a área de TIC.
-> - **B)** **Correta.** O ETP constitui a primeira etapa da fase preparatória e fundamenta a escolha da solução mediante estudo comparativo de alternativas e cálculo do TCO.
-> - **C)** Incorreta. O TR é o documento definitivo e vinculante que integra o edital e define o objeto, requisitos, modelo de execução e IMR.
-> - **D)** Incorreta. O gerenciamento de riscos ao longo de todo o ciclo de vida da contratação de TIC é obrigatório.
-> - **E)** Incorreta. A equipe de planejamento deve observar a multidisciplinaridade e segregação de funções, contando com integrante técnico (TI), integrante requisitante e integrante administrativo.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. O fiscal técnico não exerce atos privativos de ordenador de despesa.
+> - **B)** Incorreta. A fiscalização deve ser segregada entre gestão do contrato, fiscalização técnica e fiscalização administrativa.
+> - **C)** Incorreta. É vedada a interferência direta na administração de pessoal da empresa contratada.
+> - **D)** Correta. Na fiscalização de contratos públicos de TIC (Lei 14.133/2021 e IN SGD), o fiscal técnico acompanha a conformidade dos serviços prestados, avalia o cumprimento dos Níveis Mínimos de Serviço (SLA) pactuados e atesta as entregas para fins de liquidação e pagamento.
+> - **E)** Incorreta. O atesto de faturas sem verificação dos critérios de aceitação gera responsabilidade solidária perante os Tribunais de Contas.
+>
+> **Gabarito: D**
 
 ---
 
@@ -219,27 +253,26 @@ $$\text{TCO} = \text{Aquisição} + \text{Implantação/Customização} + \text{
 ---
 
 ### Teste 498
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** No processo preparatório para a contratação de uma nova solução integrada de armazenamento em nuvem e banco de dados corporativo, a equipe de planejamento da contratação elaborou o Estudo Técnico Preliminar (ETP). Para comparar adequadamente a aquisição de infraestrutura física local (*on-premises*) com a contratação de serviços em nuvem (*cloud computing*), a equipe calculou não apenas os custos de compra imediata de licenças e servidores, mas também os gastos projetados com implantação, capacitação de servidores, suporte técnico anual, climatização de datacenter e futura migração de dados ao longo de cinco anos. Essa técnica de avaliação econômica e financeira denomina-se:  
+**(FGV – TCE-GO – Analista de Controle Externo (TI) – 2024)**  
+A Lei nº 13.303/2016 estabelece que os órgãos de controle externo e interno das três esferas de governo fiscalizarão as empresas públicas e as sociedades de economia mista a eles relacionados, inclusive aquelas domiciliadas no exterior, quanto à legitimidade, à economicidade e à eficácia da aplicação de seus recursos, sob o ponto de vista contábil, financeiro, operacional e patrimonial. Acerca do mencionado tema, à luz da referida norma, é correto afirmar que
 
-* **A)** Retorno sobre Patrimônio Líquido (ROE).
-* **B)** Custo Total de Propriedade (TCO - *Total Cost of Ownership*).
-* **C)** Análise de Pontos por Função Rápida (FPA).
-* **D)** Custo Marginal de Substituição Imediata.
-* **E)** Depreciação Linear Fixa Arbitrária.
-
+* **A)** as ações e deliberações do órgão ou ente de controle não podem implicar interferência na gestão das empresas públicas e das sociedades de ec onomia mista a eles submetidas nem ingerência no exercício de suas competências ou na definição de políticas públicas.
+* **B)** é vedado que os Tribunais de Contas realizem o controle externo em relação às licitações e contratos formalizados pelas empresas públ icas e sociedades de economia mista, considerando a natureza jurídica de tais entidades administrativas.
+* **C)** as gravações e filmagens existentes de reuniões, ordinárias ou extraordinárias, dos conselhos de administração ou fiscal das empresas públicas e da s sociedades de economia mista, não poderão ser disponibilizados para os órgãos de controle, no âmbito dos trabalhos de auditoria.
+* **D)** o exercício da supervisão por vinculação da empresa pública ou da sociedade de economia mista, pelo órgão a que se vincula, enseja necessariamente a redução da autonomia conferida pela lei específica que autorizou a criação da entidade supervisionada ou inerente a sua natureza, autorizando, assim, a ingerência do supervisor em sua administração e funcionamento.
+* **E)** para a realização da aludida atividade fiscalizatória, os órgãos de controle deverão ter acesso às informações e aos documentos necessários à realização dos trabalhos, ressalvados aqueles classificados como sigilosos pela empresa pública ou pela sociedade de econom ia mista, nos termos da legislação de regência. TRIBUNAL DE CONTAS DO ESTADO DE GOIÁS FGV CONHECIMENTO ANALISTA DE CONTROLE EXTERNO - CIENCIAS CONTABEIS – MANHÃ TIPO BRANCA – PÁGINA 17
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. ROE é um indicador financeiro privado de rentabilidade sobre patrimônio acionário, não tendo relação com a avaliação integral do ciclo de vida de aquisição de TIC.
-> - **B)** **Correta.** O Custo Total de Propriedade (TCO - *Total Cost of Ownership*) é a metodologia que calcula o custo integral de uma solução ao longo de todo o seu ciclo de vida (aquisição, implantação, treinamento, energia, suporte/manutenção e descarte/migração), sendo ferramenta obrigatória no ETP de TIC para evitar falsas economias baseadas apenas no menor preço inicial de licença.
-> - **C)** Incorreta. Análise de Pontos de Função (FPA) é técnica de medição do tamanho funcional de software, não cálculo financeiro de ciclo de vida.
-> - **D)** Incorreta. Termo econômico genérico que não contempla a totalidade das despesas de suporte, infraestrutura e treinamento ao longo do ciclo de vida.
-> - **E)** Incorreta. Trata-se de método de amortização contábil patrimonial, e não de análise abrangente de viabilidade de alternativas de TIC.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. O controle externo pelos Tribunais de Contas alcança a integridade e conformidade dos atos de gestão contratual.
+> - **B)** Incorreta. É assegurado o acesso irrestrito aos documentos e sistemas comprobatórios das contratações.
+> - **C)** Correta. Os órgãos de controle externo e interno exercem a fiscalização da legalidade, legitimidade e economicidade das contratações públicas e estatais, cabendo aos gestores fornecer acesso tempestivo e fidedigno aos processos e dados exigidos.
+> - **D)** Incorreta. O sigilo comercial não impede o exame técnico sigiloso pelos auditores de controle externo.
+> - **E)** Incorreta. A aplicação de sanções pelos TCs segue o devido processo legal e contraditório.
+>
+> **Gabarito: C**
 
 ---
 
