@@ -118,89 +118,49 @@ O Presidente da República responde perante o STF por crimes comuns e perante o 
 ---
 
 ### Teste 154
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-A Assembleia Legislativa do Estado Alfa recebeu projeto de lei, 
-encaminhado pelo Tribunal de Justiça do Estado, com o objetivo 
-de regulamentar o pagamento de horas extraordinárias aos 
-magistrados vinculados ao referido Tribunal. 
-A Comissão de Constituição e Justiça, ao analisar o referido 
-projeto, concluiu corretamente que
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+O art. 84, VI, da Constituição Federal autoriza o Presidente da República a dispor, mediante decreto autônomo, sobre determinadas matérias de organização administrativa. A respeito dos limites dessa competência regulamentar executiva, é correto afirmar que o decreto autônomo:
 
-* **A)** o Estado Alfa tem competência legislativa para suplementar a 
-legislação federal nessa temática.
-* **B)** a matéria deveria ser disciplinada na Constituição Estadual, em 
-simetria com o paradigma federal.
-* **C)** por dizer respeito a matéria afeta aos magistrados, era 
-necessária a apresentação de projeto de lei complementar.
-* **D)** o Tribunal de Justiça carece de legitimidade para apresentar a 
-proposição, e a Assembleia de competência para apreciá-la.
-* **E)** se os servidores públicos do respectivo Estado fizerem jus ao 
-referido pagamento, o respectivo regime jurídico deve ser 
-aplicado subsidiariamente aos magistrados.
+* **A)** pode criar órgãos públicos e secretarias de Estado desde que a medida não importe aumento de despesa pública.
+* **B)** pode dispor sobre a organização e funcionamento da administração federal sem criar despesas nem órgãos.
+* **C)** autoriza a extinção de cargos e funções públicas mesmo quando estes estiverem formalmente ocupados por servidores.
+* **D)** permite instituir ou majorar tributos de competência privativa da União em caso de comprovada urgência fiscal.
+* **E)** constitui ato infralegal submetido a prévia aprovação vinculante pelo Congresso Nacional por decreto legislativo.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Incorreto**. Conforme a alínea 'a' do art. 84, VI, da CF/88, o decreto autônomo não pode criar nem extinguir órgãos públicos (a criação e extinção de ministérios e órgãos públicos depende de lei - art. 88 da CF/88).
+> - **B)** **Correto**. O art. 84, VI, 'a', da CF/88 (redação da EC nº 32/2001) autoriza decreto autônomo para "organização e funcionamento da administração federal, quando não implicar aumento de despesa nem criação ou extinção de órgãos públicos".
+> - **C)** **Incorreto**. Conforme a alínea 'b' do mesmo dispositivo, o decreto autônomo só pode extinguir funções ou cargos públicos "quando vagos". Estando ocupados, a extinção exige lei formal.
+> - **D)** **Incorreto**. Matéria tributária submete-se ao princípio da estrita legalidade (art. 150, I, CF/88).
+> - **E)** **Incorreto**. O decreto autônomo retira seu fundamento de validade diretamente da Constituição, prescindindo de chancela parlamentar prévia.
 >
 > **Gabarito: B**
 
----
 ### Teste 155
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Em uma situação concreta submetida à apreciação do Tribunal de 
-Contas do Estado de Goiás, argumentou o ordenador de despesa 
-de determinada estrutura estatal de poder que agira conforme a 
-interpretação mais adequada do preceito constitucional X. Assim 
-entendia porque, ao analisar o significante interpretado, deparou-
-se com uma pluralidade de significados que lhe poderiam ser 
-atribuídos, influenciados por distintos vetores axiológicos 
-presentes no ambiente sociopolítico, o que o levou a resolver a 
-conflitualidade intrínseca que se apresentava nesse plano, e a 
-atribuir o significado mais adequado aos distintos aspectos afetos 
-ao caso concreto.  
-A análise da linha argumentativa apresentada pelo ordenador de 
-despesa permite afirmar corretamente que, consoante os 
-balizamentos prevalecentes na realidade brasileira a respeito da 
-interpretação constitucional
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Vagando simultaneamente os cargos de Presidente e Vice-Presidente da República:
 
-* **A)** ao enveredar na própria atividade de criação do direito, 
-usurpou uma atividade que é própria do Poder Legislativo.
-* **B)** a encampação de significados, amparado s por vetores 
-axiológicos, transmuda a interpretação, de atividade 
-essencialmente cognoscitiva, em atividade inventiva, o que é 
-vedado ao intérprete.
-* **C)** vetores axiológicos, embora concorram para o surgimento da 
-Constituição formal, fruto do processo cons tituinte, não 
-podem incursionar na definição da própria normatividade 
-constitucional.
-* **D)** houve influência do pensamento problemático, mas não foi 
-desconsiderada a constatação de que a norma é obtida a partir 
-de um processo intelectivo conduzido pelo intér prete, que 
-promove a interação entre o texto e o contexto.
-* **E)** ao privilegiar aspectos do problema concreto, o ordenador de 
-despesa desconsiderou que a Constituição somente se 
-harmoniza com a unicidade significativa, não podendo 
-apresentar variações de significado em situações concretas.
+* **A)** será chamado ao exercício definitivo da Presidência o Presidente da Câmara dos Deputados para cumprir todo o mandato restante.
+* **B)** será realizada eleição pelo Congresso Nacional, trinta dias depois da última vaga, se a vacância ocorrer nos últimos dois anos.
+* **C)** deverá ser convocado plebiscito nacional em sessenta dias para decidir sobre a realização de nova eleição geral.
+* **D)** caberá ao Tribunal Superior Eleitoral diplomar imediatamente os candidatos que obtiveram a segunda colocação no pleito anterior.
+* **E)** haverá nova eleição direta noventa dias após aberta a última vaga, independentemente do ano do mandato em que ocorrer a vacância.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Incorreto**. O Presidente da Câmara, do Senado e do STF são chamados sucessivamente apenas para o exercício provisório da Presidência (substituição), até que novos mandatários sejam eleitos (art. 80 c/c art. 81 da CF/88).
+> - **B)** **Correto**. Nos expressos termos do art. 81, § 1º, da Constituição Federal: "Ocorrendo a vacância nos últimos dois anos do período presidencial, a eleição para ambos os cargos será feita trinta dias depois da última vaga, pelo Congresso Nacional, na forma da lei" (eleição indireta). Se a dupla vacância ocorrer nos dois primeiros anos de mandato, a eleição será feita noventa dias depois da abertura da última vaga, pelo voto direto da população (art. 81, caput).
+> - **C)** **Incorreto**. A Constituição fixa a realização imperativa de eleições diretas ou indiretas, sem previsão de plebiscito prévio.
+> - **D)** **Incorreto**. A ordem constitucional não prevê assunção de segundos colocados para mandato presidencial vago.
+> - **E)** **Incorreto**. A eleição direta aos 90 dias só se aplica quando a vacância se dá nos primeiros dois anos do período.
 >
-> **Gabarito: A**
+> **Gabarito: B**
 
----
 ### Teste 156
 **(FCC – TRT-2 – Analista Judiciário - Tecnologia da Informação – 2014)**  
 Entre as atribuições conferidas pelo texto constitucional ao Presidente da República está o poder de "conceder indulto e comutar penas" (art. 84, XII). O exercício dessa atribuição presidencial não é cabível, nos termos da Constituição Federal, para beneficiar os condenados pela prática das infrações criminais de:
@@ -224,75 +184,49 @@ Entre as atribuições conferidas pelo texto constitucional ao Presidente da Rep
 > **Gabarito: C**
 
 ### Teste 157
-**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**
-Será considerado inelegível, nos termos da Constituição 
-da República,
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A responsabilidade política e penal do Presidente da República é disciplinada no art. 86 da Constituição Federal. De acordo com as normas constitucionais vigentes e a jurisprudência do STF, é correto afirmar:
 
-* **A)** o Governador de Estado no exercício de seu pri-
-meiro mandato que, pretendendo a reeleição, não 
-renunciar até seis meses antes do pleito.
-* **B)** o Deputado Federal no exercício de segundo man-
-dato consecutivo que pretenda reeleger-se.
-* **C)** quem tenha sido condenado criminalmente por de-
-cisão judicial, mesmo que ainda não transitada em 
-julgado, enquanto durarem seus efeitos.
-* **D)** brasileiro naturalizado que queira candidatar-se a 
-uma vaga no Senado Federal.
-* **E)** o filho adotado de Governador do Estado que pre-
-tenda candidatar-se a Prefeito da Capital do Estado. 
-Caderno de Prova ’E05’, Tipo 001
-
-
-8 TCEGO-Conhecimentos Gerais1
+* **A)** Admitida a acusação por dois terços da Câmara dos Deputados, o Presidente será submetido a julgamento no STF ou Senado.
+* **B)** O Presidente ficará suspenso de suas funções a partir do momento em que for protocolada a denúncia popular perante a Mesa.
+* **C)** Compete ao Supremo Tribunal Federal processar e julgar o Presidente da República nos crimes de responsabilidade política.
+* **D)** Se o julgamento não estiver concluído em noventa dias, cessará o afastamento do Presidente e extinguir-se-á o processo penal.
+* **E)** O Presidente da República pode ser preso cautelarmente antes de sentença condenatória irrecorrível nos crimes comuns funcionais.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Correto**. O art. 86, caput, da CF/88 determina: "Admitida a acusação contra o Presidente da República, por dois terços da Câmara dos Deputados, será ele submetido a julgamento perante o Supremo Tribunal Federal, nas infrações penais comuns, ou perante o Senado Federal, nos crimes de responsabilidade".
+> - **B)** **Incorreto**. O afastamento dá-se apenas após a instauração do processo pelo Senado (em crimes de responsabilidade) ou recebimento da denúncia/queixa pelo STF (crimes comuns) - art. 86, § 1º, CF/88.
+> - **C)** **Incorreto**. Nos crimes de responsabilidade, o julgamento compete ao Senado Federal (art. 52, I c/c art. 86).
+> - **D)** **Incorreto**. Decorrido o prazo de cento e oitenta dias sem conclusão, cessará o afastamento do Presidente, prosseguindo o processo regularmente (art. 86, § 2º, CF/88).
+> - **E)** **Incorreto**. O art. 86, § 3º, da CF/88 preconiza expressamente que "enquanto não sobrevier sentença condenatória, nas infrações comuns, o Presidente da República não estará sujeito a prisão" (imunidade prisional formal cautelar).
 >
 > **Gabarito: A**
 
----
 ### Teste 158
-**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**
-Vagando os cargos de Presidente e Vice-Presidente da 
-República,
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A Constituição Federal de 1988 assegura aos magistrados um sólido conjunto de garantias institucionais inerentes ao livre exercício da função jurisdicional (art. 95). A respeito da vitaliciedade dos juízes, é correto afirmar que:
 
-* **A)** será chamado ao exercício da Presidência o Pre-
-sidente da Câmara dos Deputados, que deverá com-
-pletar o período de mandato de seus antecessores.
-* **B)** será realizada eleição pelo Congresso Nacional, trin-
-ta dias depois da última vaga, caso a vacância 
-ocorra nos últimos dois anos do período presiden-
-cial.
-* **C)** deverá ser convocado plebiscito para decidir quanto 
-à necessidade de realização de nova eleição.
-* **D)** caberá ao Tribunal Superior Eleitoral dar posse aos 
-candidatos segundos colocados no pleito em que 
-eleitos os antecessores.
-* **E)** não há solução prevista expressamente na Cons-
-tituição da República para a sucessão, cabendo ao 
-Congresso Nacional dispor sobre a matéria. 
-_________________________________________________________
+* **A)** é adquirida no ato da posse perante o Tribunal de Justiça, vedada qualquer fase prévia de estágio probatório.
+* **B)** no primeiro grau, adquire-se após dois anos de exercício, dependendo a perda do cargo de sentença judicial transitada.
+* **C)** pode ser revogada por decisão administrativa da maioria absoluta do respectivo Tribunal de Justiça em processo disciplinar.
+* **D)** não impede a perda do cargo público por decisão discricionária motivada do Governador do Estado federado.
+* **E)** é garantia conferida exclusivamente aos Ministros dos Tribunais Superiores que compõem a cúpula do Poder Judiciário.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Incorreto**. Para os juízes togados que ingressam por concurso de provas e títulos no primeiro grau, a vitaliciedade exige o interstício de dois anos de efetivo exercício (art. 95, I, CF/88).
+> - **B)** **Correto**. Conforme o art. 95, I, da CF/88: os juízes gozam de "vitaliciedade, que, no primeiro grau, só será adquirida após dois anos de exercício, dependendo a perda do cargo, nesse período, de deliberação do tribunal a que o juiz estiver vinculado, e, nos demais casos, de sentença judicial transitada em julgado".
+> - **C)** **Incorreto**. Após adquirir a vitaliciedade, o magistrado só perde o cargo por sentença judicial transitada em julgado (a esfera administrativa do Tribunal pode aplicar apenas aposentadoria compulsória ou disponibilidade com vencimentos proporcionais).
+> - **D)** **Incorreto**. O Chefe do Poder Executivo não tem ingerência alguma sobre a perda de cargo de magistrados.
+> - **E)** **Incorreto**. A garantia abrange todos os juízes togados regularmente vitaliciados da magistratura nacional.
 >
 > **Gabarito: B**
 
----
 ### Teste 159
 **(FGV – TJ-MT – Analista Judiciário - Tecnologia da Informação – 2024)**  
 Determinado órgão, em âmbito nacional, tem a competência de controlar a atuação administrativa e financeira do Poder Judiciário e o cumprimento dos deveres funcionais dos juízes, além de outras atribuições que lhe forem conferidas pelo Estatuto da Magistratura.  
@@ -339,146 +273,90 @@ O Conselho Nacional de Justiça compõe-se de 15 (quinze) membros com mandato de
 > **Gabarito: D**
 
 ### Teste 161
-**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**
-Considere as seguintes af irmações sobre a proposta or-
-çamentária do Ministério Público: 
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+O art. 103-A da Constituição Federal confere ao Supremo Tribunal Federal a competência para editar súmulas com efeito vinculante em relação aos demais órgãos do Poder Judiciário e à administração pública. A respeito da súmula vinculante, é correto afirmar:
 
- I. O Ministério Público elaborará sua proposta orça-
-mentária dentro dos limites estabelecidos na lei de 
-diretrizes orçamentárias e, caso encaminhada em 
-desacordo com esses limites, caberá ao Poder Exe-
-cutivo proceder aos ajustes necessários para fins 
-de consolidação da proposta orçamentária anual. 
-
- II. Se o Ministério Público não encaminhar a respecti-
-va proposta orçamentária dentro do prazo estabe-
-lecido na lei de diretrizes orçamentárias, o Poder 
-Executivo considerará, para fins de consolidação da 
-proposta orçamentária anual, os valores aprovados 
-na lei orçamentária vigente, ajustados de acordo 
-com os limites estipulados na lei de diretrizes 
-orçamentárias. 
-
- III. Durante a execução orçamentária do exercício, não 
-poderá haver a realização de despesas ou a as-
-sunção de obrigações que extrapolem os limites 
-estabelecidos na lei de diretrizes orçamentárias, 
-exceto se previamente autorizadas, mediante a 
-abertura de créditos suplementares ou especiais.  
-Está correto o que se afirma em
-
-* **A)** I, apenas.
-* **B)** II, apenas.
-* **C)** III, apenas.
-* **D)** I e II, apenas.
-* **E)** I, II e III.
+* **A)** A aprovação de enunciado de súmula vinculante exige o quórum de maioria simples dos membros presentes no Plenário do STF.
+* **B)** O enunciado possui eficácia vinculante em relação aos demais órgãos do Poder Judiciário e à Administração Pública direta e indireta.
+* **C)** A súmula vinculante vincula o Poder Legislativo no exercício de sua função típica de elaboração das normas legais.
+* **D)** Qualquer pessoa física tem legitimidade ativa autônoma perante o STF para propor a edição ou revisão de súmula vinculante.
+* **E)** Contra ato administrativo que contrarie súmula vinculante cabe apelação hierárquica perante o Conselho Nacional de Justiça.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Incorreto**. A edição, revisão ou cancelamento de súmula vinculante exige decisão tomada por dois terços dos membros do Supremo Tribunal Federal (quórum qualificado de pelo menos 8 Ministros - art. 103-A, caput, CF/88).
+> - **B)** **Correto**. O art. 103-A, caput, da CF/88 expressa: "O Supremo Tribunal Federal poderá, de ofício ou por provocação, mediante decisão de dois terços dos seus membros, após reiteradas decisões sobre matéria constitucional, aprovar súmula que, a partir de sua publicação na imprensa oficial, terá efeito vinculante em relação aos demais órgãos do Poder Judiciário e à administração pública direta e indireta, nas esferas federal, estadual e municipal...".
+> - **C)** **Incorreto**. A súmula vinculante não vincula o Poder Legislativo em sua função legislativa típica (princípio da não fossilização do direito).
+> - **D)** **Incorreto**. A legitimação para propor a edição de súmula vinculante é idêntica à dos legitimados para a ação direta de inconstitucionalidade (art. 103 da CF/88), além de outros entes fixados na Lei nº 11.417/2006 (como o Defensor Público-Geral e os Tribunais).
+> - **E)** **Incorreto**. Caberá reclamação constitucional perante o próprio Supremo Tribunal Federal (art. 103-A, § 3º, CF/88).
 >
-> **Gabarito: D**
+> **Gabarito: B**
 
----
 ### Teste 162
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Maria, estagiária em um escritório de advocacia, foi incumbida, 
-por um advoga do sênior, da obrigação de verificar as causas de 
-natureza cível de competência originária do Tribunal de Justiça do 
-Estado Alfa, de modo a identificar se competiria a esse órgão 
-processar e julgar mandado de segurança a ser impetrado contra 
-autoridade estadual. 
-Ao analisar a sistemática vigente, Maria concluiu corretamente 
-que deveria pesquisar
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+O Ministério Público é instituição permanente, essencial à função jurisdicional do Estado, incumbindo-lhe a defesa da ordem jurídica, do regime democrático e dos interesses sociais e individuais indisponíveis. A respeito dos seus princípios institucionais, é correto afirmar:
 
-* **A)** no Código de Processo Civil.
-* **B)** na Constituição da República.
-* **C)** na Constituição do Estado Alfa.
-* **D)** na lei de organização e divisão judiciária.
-* **E)** em resolução do Conselho Nacional de Justiça. 
-
-Noções de Direito Administrativo
+* **A)** A unidade, a indivisibilidade e a independência funcional são princípios institucionais do Ministério Público.
+* **B)** A destituição do Procurador-Geral de Justiça pelo Governador dispensa prévia autorização da Assembleia Legislativa.
+* **C)** O Ministério Público subordina-se funcionalmente ao Ministério da Justiça e Segurança Pública no plano federal.
+* **D)** A criação e extinção de cargos nos Ministérios Públicos estaduais decorre de decreto autônomo do Governador.
+* **E)** Aos membros do Ministério Público é expressamente permitida a prática da advocacia privada no âmbito civil.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Correto**. Nos termos literais do art. 127, § 1º, da Constituição Federal: "São princípios institucionais do Ministério Público a unidade, a indivisibilidade e a independência funcional".
+> - **B)** **Incorreto**. A destituição do Procurador-Geral de Justiça dos Estados antes do término do mandato depende de deliberação da maioria absoluta do Poder Legislativo estadual (art. 128, § 4º, CF/88).
+> - **C)** **Incorreto**. O Ministério Público possui autonomia funcional, administrativa e financeira constitucional (art. 127, § 2º, CF/88), não mantendo subordinação a nenhum dos Poderes ou Ministérios.
+> - **D)** **Incorreto**. A criação e extinção de cargos e serviços auxiliares do MP é veiculada por lei formal de iniciativa privativa do Procurador-Geral (art. 127, § 2º, CF/88).
+> - **E)** **Incorreto**. O art. 128, § 5º, II, 'a', veda expressamente aos membros do Ministério Público o exercício da advocacia.
 >
 > **Gabarito: A**
 
----
 ### Teste 163
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Maria, estagiária em um escritório de advocacia, foi incumbida, 
-por um advoga do sênior, da obrigação de verificar as causas de 
-natureza cível de competência originária do Tribunal de Justiça do 
-Estado Alfa, de modo a identificar se competiria a esse órgão 
-processar e julgar mandado de segurança a ser impetrado contra 
-autoridade estadual. 
-Ao analisar a sistemática vigente, Maria concluiu corretamente 
-que deveria pesquisar
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Acerca do regime constitucional conferido às Funções Essenciais à Justiça, em especial à Defensoria Pública (art. 134 da CF/88), analise as prerrogativas e garantias asseguradas pela ordem constitucional. É correto afirmar que:
 
-* **A)** no Código de Processo Civil.
-* **B)** na Constituição da República.
-* **C)** na Constituição do Estado Alfa.
-* **D)** na lei de organização e divisão judiciária.
-* **E)** em resolução do Conselho Nacional de Justiça. 
-
-Noções de Direito Administrativo
+* **A)** Às Defensorias Públicas são asseguradas a autonomia funcional, administrativa e a iniciativa de sua proposta orçamentária.
+* **B)** A Defensoria Pública subordina-se hierarquicamente à Procuradoria-Geral do respectivo Estado da Federação.
+* **C)** O cargo de Defensor Público-Geral é privativo de membro vitalício oriundo do Ministério Público estadual.
+* **D)** A assistência jurídica integral aos hipossuficientes pode ser extinta por lei ordinária estadual autorizativa.
+* **E)** As Defensorias Públicas não gozam de legitimidade para a propositura de Ação Civil Pública na tutela de interesses difusos e coletivos.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Correto**. O art. 134, § 2º, da CF/88 (inserido pela EC nº 45/2004 e complementado pela EC nº 74/2013 e EC nº 80/2014) confere às Defensorias Públicas Estaduais e da União autonomia funcional e administrativa, bem como a iniciativa de sua proposta orçamentária dentro dos limites fixados na LDO.
+> - **B)** **Incorreto**. A Defensoria Pública é instituição autônoma e independente, sem relação de subordinação com Procuradorias de Estado ou órgãos executivos.
+> - **C)** **Incorreto**. O Defensor Público-Geral é escolhido dentre os membros integrantes da carreira da respectiva Defensoria Pública.
+> - **D)** **Incorreto**. A assistência jurídica aos hipossuficientes é dever estatal indeclinável e garantia fundamental (art. 5º, LXXIV, CF/88).
+> - **E)** **Incorreto**. A Defensoria Pública possui ampla legitimidade ativa para promover ação civil pública na tutela de direitos individuais homogêneos, difusos e coletivos (art. 134 da CF/88 e Tema 607 do STF).
 >
 > **Gabarito: A**
 
----
 ### Teste 164
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Maria, estagiária em um escritório de advocacia, foi incumbida, 
-por um advogado sênior, da obrigação de verificar as causas de 
-natureza cível de competência originária do Tribunal de Justiça do 
-Estado Alfa, de modo a identificar se compet iria a esse órgão 
-processar e julgar mandado de segurança a ser impetrado contra 
-autoridade estadual. 
-Ao analisar a sistemática vigente, Maria concluiu corretamente 
-que deveria pesquisar
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A respeito da Advocacia Pública disciplinada nos artigos 131 e 132 da Constituição Federal, analise as competências conferidas à Advocacia-Geral da União e às Procuradorias dos Estados e do Distrito Federal. É correto afirmar que:
 
-* **A)** no Código de Processo Civil.
-* **B)** na Constituição da República.
-* **C)** na Constituição do Estado Alfa.
-* **D)** na lei de organização e divisão judiciária.
-* **E)** em resolução do Conselho Nacional de Justiça. 
-
-Noções de Direito Administrativo
+* **A)** A representação judicial da União nas execuções de dívida ativa de natureza tributária compete privativamente à CGU.
+* **B)** Os Procuradores dos Estados e do DF exercem a representação judicial e a consultoria jurídica das unidades federadas.
+* **C)** O Advogado-Geral da União deve ser nomeado exclusivamente dentre os membros que integram a carreira da AGU.
+* **D)** A atividade de consultoria jurídica dos órgãos do Poder Executivo estadual pode ser exercida por servidores comissionados sem concurso.
+* **E)** O regime constitucional veda aos Estados federados a instituição de quadro de procuradores para a cobrança da dívida ativa estadual.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Incorreto**. Conforme o art. 131, § 3º, da CF/88, na execução da dívida ativa de natureza tributária, a representação da União cabe privativamente à Procuradoria-Geral da Fazenda Nacional (PGFN).
+> - **B)** **Correto**. O art. 132 da Constituição Federal dispõe: "Os Procuradores dos Estados e do Distrito Federal, organizados em carreira, na qual o ingresso dependerá de concurso público de provas e títulos, com a participação da Ordem dos Advogados do Brasil em todas as suas fases, exercerão a representação judicial e a consultoria jurídica das respectivas unidades federadas".
+> - **C)** **Incorreto**. O Advogado-Geral da União é de livre nomeação pelo Presidente da República dentre cidadãos maiores de 35 anos, de notável saber jurídico e reputação ilibada (art. 131, § 1º, CF/88), não precisando ser da carreira.
+> - **D)** **Incorreto**. Conforme jurisprudência pacífica do STF (ADI 4.261 e Tema 1.098), a consultoria jurídica e a representação do Estado são atividades exclusivas e privativas dos Procuradores do Estado concursados, sendo inconstitucional a criação de órgãos jurídicos paralelos com cargos em comissão.
+> - **E)** **Incorreto**. A cobrança da dívida ativa estadual insere-se nas atribuições nucleares das Procuradorias-Gerais dos Estados.
 >
-> **Gabarito: A**
+> **Gabarito: B**
 
----

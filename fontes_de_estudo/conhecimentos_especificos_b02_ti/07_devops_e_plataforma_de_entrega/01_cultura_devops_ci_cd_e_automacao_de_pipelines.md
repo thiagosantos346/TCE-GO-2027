@@ -135,88 +135,85 @@ As métricas DORA resultam de quase uma década de pesquisas empíricas e rigor 
 ---
 
 ### Teste 171
-**(FGV – TRF-1 – Analista Judiciário - Tecnologia da Informação – 2024)**
-Sabe-se que a sentença “Se a calça é verde e a camisa é rosa, 
-então o sapato é branco ou o cinto é marrom” é FALSA. 
-É correto concluir que:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+O framework C.A.L.M.S., concebido por Damon Edwards e John Willis, resume os cinco pilares fundacionais da cultura DevOps em organizações de alto desempenho. Os cinco pilares representados pelo acrônimo C.A.L.M.S. são:
 
-* **A)** a camisa não é rosa ou o cinto é marrom;
-* **B)** a calça é verde e o sapato é branco;
-* **C)** se o sapato não é branco, então a camisa não é rosa;
-* **D)** se o cinto não é marrom, então o sapato é branco;
-* **E)** se a calça não é verde, então o cinto é marrom.
+* **A)** *Control, Architecture, Legacy, Monitoring, Speed*
+* **B)** *Culture, Automation, Lean, Measurement, Sharing*
+* **C)** *Containers, Agility, Linux, Microservices, Security*
+* **D)** *Communication, Accuracy, Leadership, Management, Software*
+* **E)** *Continuous, Alignment, Licensing, Maintenance, Scalability*
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A) Incorreta.** Termos arbitrários não correspondentes ao modelo.
+> - **B) Correta.** O acrônimo C.A.L.M.S. traduz os cinco pilares essenciais de DevOps:
+>   - **Culture (Cultura):** colaboração, empatia e quebra de silos entre Desenvolvimento e Operações;
+>   - **Automation (Automação):** eliminação de tarefas manuais repetitivas via pipelines e IaC;
+>   - **Lean (Pensamento Enxuto):** fluxo contínuo, lotes pequenos e eliminação de desperdícios;
+>   - **Measurement (Mensuração):** telemetria, métricas de negócio e dados orientando decisões;
+>   - **Sharing (Compartilhamento):** disseminação aberta de aprendizados, ferramentas e responsabilidade mútua.
+> - **C) Incorreta.** Mistura ferramentas técnicas com termos ágeis.
+> - **D) Incorreta.** Não reflete a definição oficial de DevOps.
+> - **E) Incorreta.** Definição incorreta.
 >
 > **Gabarito: B**
 
 ---
+
 ### Teste 172
-**(FGV – TRT-1 – Analista Judiciário - Tecnologia da Informação – 2024)**
-Sabe-se que a sentença “Se a calça é verde e a camisa é rosa, 
-então o sapato é branco ou o cinto é marrom” é FALSA. 
-É correto concluir que:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Na obra de referência *The DevOps Handbook* (Gene Kim, Jez Humble et al.), as práticas e princípios que norteiam a transformação DevOps são organizados nas "Três Vias" (*The Three Ways*). A Segunda Via (*The Second Way*) tem como objetivo primordial:
 
-* **A)** a camisa não é rosa ou o cinto é marrom;
-* **B)** a calça é verde e o sapato é branco;
-* **C)** se o sapato não é branco, então a camisa não é rosa;
-* **D)** se o cinto não é marrom, então o sapato é branco;
-* **E)** se a calça não é verde, então o cinto é marrom.
+* **A)** Acelerar o fluxo unidirecional de valor de Desenvolvimento para Operações, aumentando o tamanho dos lotes de entrega.
+* **B)** Amplificar e encurtar os ciclos de feedback da direita para a esquerda (de Operações/Produção de volta para Desenvolvimento), permitindo detectar, resolver e prevenir problemas no menor tempo possível.
+* **C)** Estabelecer uma cultura de culpa (*blame culture*) onde cada incidente gera punição imediata ao engenheiro responsável garantindo a observância dos protocolos de governança e interoperabilidade vigentes.
+* **D)** Terceirizar integralmente a responsabilidade da infraestrutura para servidores públicos em regime de comodato.
+* **E)** Impedir a execução de testes automatizados no ambiente de desenvolvimento local.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A) Incorreta.** A Primeira Via (*The First Way*) foca nos Princípios de Fluxo (da esquerda para a direita, com lotes pequenos).
+> - **B) Correta.** A Segunda Via (*The Second Way*) foca nos Princípios de Feedback: criar ciclos de retorno rápidos e contínuos de Operações/Produção para Desenvolvimento (*shift-left* do feedback, telemetria em tempo real), evitando que defeitos se propaguem e permitindo correção imediata.
+> - **C) Incorreta.** A cultura DevOps baseia-se em post-mortems sem culpa (*blameless post-mortems*).
+> - **D) Incorreta.** DevOps prega a colaboração integrada, não terceirização burocrática.
+> - **E) Incorreta.** Testes contínuos são a base da automação DevOps.
 >
-> **Gabarito: D**
+> **Gabarito: B**
 
 ---
+
 ### Teste 173
-**(FGV – TRT-16 – Analista Judiciário - Tecnologia da Informação – 2022)**
-Analise o script abaixo. 
-#!/bin/bash 
-NR=-31;  
-until [ ${NR} -gt 273 ];  
-do echo "NR=${NR}"; NR=$[ ${NR} +49 ];  
-     echo " FIM=${NR}";   
-     echo " Conta=$((count++))"; 
-done  
-Assinale a opção que indica quantas linhas serão impressas na 
-tela de um terminal Linux e quais os valores de ${NR} e de count 
-ao término da execução do script.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+A equipe de liderança técnica de uma Secretaria de Fazenda Estadual realizou uma avaliação de maturidade de seus processos de entrega contínua com base no framework DORA (*DevOps Research and Assessment*). De acordo com os relatórios consolidados do State of DevOps Report da DORA, as organizações classificadas como de alta performance técnica (*high performers*) são caracterizadas por:  
 
-* **A)** 7, 273 e 6.
-* **B)** 14, 312 e 7.
-* **C)** 14, 263 e 7.
-* **D)** 21, 361 e 7.
-* **E)** 21, 312 e 6.
+* **A)** Alto *Lead Time for Changes* (superior a um mês) para assegurar rigorosas revisões manuais por comitês de governança (CAB) antes de qualquer implantação.
+* **B)** Alta frequência de implantação (*Deployment Frequency*) combinada simultaneamente com baixo tempo de recuperação de serviços (*Time to Restore Service*) e baixa taxa de falha em mudanças (*Change Failure Rate*).
+* **C)** Baixa frequência de implantação (deploys semestrais em lotes grandes), priorizando a estabilidade através do congelamento de código (*code freeze*).
+* **D)** Alta taxa de falha em mudanças (*Change Failure Rate* acima de 50%), justificada pela necessidade de aprendizado rápido na Terceira Via do DevOps, desconsiderando a perda de disponibilidade.
+* **E)** Foco exclusivo no custo financeiro da computação em nuvem, ignorando métricas de velocidade de entrega e estabilidade operacional.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: A**
+> - **A)** Incorreta. Um *Lead Time for Changes* elevado (meses) e a dependência de comitês centralizados manuais (CAB) são marcas registradas de organizações de baixa performance. Times de elite possuem Lead Time inferior a 1 hora.
+> - **B)** Correta. A principal descoberta científica do DORA é que velocidade (*throughput*) e estabilidade não são excludentes: organizações de alta performance possuem altíssima frequência de deploy e ciclo ágil de entrega, acompanhados de baixíssima taxa de falha nas mudanças (0% a 15%) e recuperação de falhas (*Time to Restore*) em menos de 1 hora.
+> - **C)** Incorreta. Deploys semestrais em lotes gigantescos e políticas de congelamento de código geram acúmulo de risco, integração traumática (*merge hell*) e falhas graves de sistema, caracterizando organizações de baixa maturidade.
+> - **D)** Incorreta. A Terceira Via do DevOps estimula experimentação e aprendizado a partir de falhas em ambientes seguros, mas nunca aceita uma taxa de 50% de quebra em produção com prejuízo aos usuários.
+> - **E)** Incorreta. As métricas DORA são estritamente centradas nas quatro dimensões técnicas fundamentais de throughput e estabilidade operacional, e não no custo financeiro da fatura de nuvem.
+> 
+> **Gabarito: B**
 
 ---
+
 ## 2. O Espectro de Automação: CI vs. CD (Delivery vs. Deployment)
 
 A automação da esteira de publicação de software é composta por três patamares progressivos de maturidade. Compreender o limite exato de escopo e responsabilidade entre eles é matéria clássica em provas da FCC.
@@ -289,81 +286,63 @@ A **Implantação Contínua (*Continuous Deployment*)** representa o nível máx
 ---
 
 ### Teste 174
-**(FCC – TRT-6 – Analista Judiciário - Tecnologia da Informação – 2012)**
-Existem diversos modelos CMMI disponíveis, gerados a partir do CMMI Framework. Em consequência disso, é preciso estar 
-preparado para decidir qual modelo CMMI melhor atende às ne cessidades de melhoria de processos de uma organização 
-específica. É possível selecionar uma representação, contínua ou  em estágios, e determinar as áreas de conhecimento que 
-serão incluídas no modelo que essa organização irá utilizar. Sobre essas representações, considere:  
- I.  Oferecerá uma sequência comprovada de melhorias, começa ndo com práticas básicas de gerenciamento e progredindo 
-por um caminho pré-definido e comprovado de níveis sucessivos, cada um servindo como base para o próximo.  
- II. Oferecerá uma classificação única que resume os resultados de avaliações e permite comparações entre organizações.  
- III.  Possibilitará comparações dentro e entre organizações em uma área de processo em termos de área de processo ou pela 
-comparação de resultados através do uso de estágios equivalentes.  
- IV. Permitirá comparação dentro da organização e entre organizações pelo uso de níveis de maturidade.  
- V.  Permitirá selecionar a sequência de melhorias que melhor atende aos objetivos de negócios e reduz as áreas de risco da 
-organização.  
-Os itens apresentados referem-se, respectivamente, às representações
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Na esteira de Integração Contínua (CI), uma prática consagrada originária do Sistema Toyota de Produção (metáfora do *Andon Cord*) é o princípio do *"Stop the Line"* (Parar a Linha de Montagem). No contexto do desenvolvimento de software em equipe, esse princípio determina que:
 
-* **A)** contínua,  contínua,  em está gios,  contínua,  em estágios.
-* **B)** em estágios,  em estágios,  contínua,  em estágios,  contínua.
-* **C)** contínua,  em estágios,  em estágios,  contínua,  em estágios.
-* **D)** em estágios,  contínua,  em estágios,  contínua,  em estágios.
-* **E)** contínua,  em estágios,  contínua,  em estágios,  contínua. 
-Caderno de Prova ’T20’, Tipo 001
+* **A)** Sempre que o build quebrar ou um teste automatizado falhar no pipeline da branch principal, a equipe deve priorizar imediatamente a correção do problema antes de comitar qualquer novo código, impedindo o acúmulo de erros sobre uma base instável.
+* **B)** Todos os desenvolvedores devem desligar seus computadores e sair do escritório por tempo indeterminado.
+* **C)** O pipeline deve desabilitar os testes que falharam para que o deploy possa prosseguir normalmente para produção. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **D)** O código da branch principal deve ser revertido para a versão original do ano anterior.
+* **E)** A gerência deve transferir o projeto para uma consultoria externa sem aviso prévio.
 
-TRT6R-Anal.Jud-Tec.Informação-T20 11
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A) Correta.** O princípio "Stop the Line" estabelece disciplina inegociável de qualidade: um build quebrado é um sinal de emergência máxima para a equipe. Enquanto a branch principal estiver vermelha, novas funcionalidades não devem ser mescladas até que o problema seja diagnosticado e reparado.
+> - **B) Incorreta.** A equipe deve agir rapidamente para restabelecer a integridade do build.
+> - **C) Incorreta.** Desativar testes com falha é um anti-padrão gravíssimo que mascara falhas críticas em produção.
+> - **D) Incorreta.** Ação desproporcional e descabida.
+> - **E) Incorreta.** Afirmação absurda.
 >
 > **Gabarito: A**
 
 ---
+
 ### Teste 175
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Avalie as seguintes afirmativas no contexto de práticas e 
-metodologias de deploy em desenvolvimento mobile: 
-I. A aplicação de Continuous Integration (CI) em aplicativos 
-mobile responsivos é uma prática que visa a fusão e teste do 
-código apenas ao final de cada sprint; 
-II. Continuous Delivery (CD) é parte da filosofia "Mobile First" e 
-permite que toda mudança de código seja automaticamente 
-disponibilizada para os usuários finais, sem a necessidade de 
-aprovação das equipes de operações; 
-III. DevSecOps é a int egração da segurança no processo de 
-desenvolvimento de software desde o início sem 
-comprometer a velocidade de entrega. 
-Está correto o que se afirma em
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+No contexto da cultura DevOps e das práticas modernas de engenharia de software, considere as seguintes afirmativas sobre Integração Contínua (CI), Entrega Contínua (*Continuous Delivery*) e Implantação Contínua (*Continuous Deployment*):
+
+I. Na Integração Contínua (*Continuous Integration*), desenvolvedores integram código ao ramo principal com alta frequência, disparando compilações e execuções de testes automatizados a cada *commit*, de modo a identificar falhas de integração precocemente.  
+
+II. Na Entrega Contínua (*Continuous Delivery*), todo o pipeline de automação (da compilação até os testes em ambientes similares ao de produção) é executado, deixando a aplicação em estado permanente de prontidão para implantação (*release candidate*), dependendo, contudo, de uma aprovação/gatilho manual por decisão de negócio para o deploy em produção.  
+
+III. Na Implantação Contínua (*Continuous Deployment*), não há intervenção humana no fluxo: toda alteração aprovada em todos os testes e estágios automatizados do pipeline é promovida automaticamente para o ambiente produtivo.  
+
+Está correto o que se afirma em:  
 
 * **A)** I, apenas.
-* **B)** II e III, apenas.
-* **C)** III, apenas.
-* **D)** I, II e III.
-* **E)** I e II, apenas. 
+* **B)** I e II, apenas.
+* **C)** II e III, apenas.
+* **D)** I e III, apenas.
+* **E)** I, II e III.
 
-Redes de Computadores e Sistemas 
-Operacionais Redes de Computadores
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: C**
+> - **A)** Incorreta. Os itens II e III também são verdadeiros e conceituam com rigor técnico as práticas de automação.
+> - **B)** Incorreta. O item III está correto, pois na Implantação Contínua a passagem para produção ocorre sem intervenção humana.
+> - **C)** Incorreta. O item I também está correto ao definir a Integração Contínua.
+> - **D)** Incorreta. O item II também é verdadeiro ao definir o gate manual de negócio na Entrega Contínua.
+> - **E)** Correta. Todas as três assertivas estão rigorosamente exatas: (I) a Integração Contínua foca na integração frequente ao branch principal com compilação e testes unitários imediatos; (II) a Entrega Contínua (*Continuous Delivery*) mantém o software em estado permanente de liberação (*deployable*), mas aguarda uma aprovação manual de negócio para o deploy em produção; (III) a Implantação Contínua (*Continuous Deployment*) automatiza o ciclo completo, promovendo a versão para produção sem qualquer intervenção humana.
+> 
+> **Gabarito: E**
 
 ---
+
 ## 3. Estratégias Modernas de Publicação (Deployment Strategies)
 
 Em infraestruturas modernas baseadas em contêineres e microsserviços, a substituição de versões deve buscar a eliminação de indisponibilidade (*zero downtime*), a mitigação do raio de impacto (*blast radius*) e a rapidez de reversão (*rollback*).
@@ -441,87 +420,86 @@ flowchart TD
 ---
 
 ### Teste 176
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Nas opções a seguir, assinale aquela em que houve um emprego 
-desaconselhável da expressão “cerca de”.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Um Tribunal de Contas está modernizando a infraestrutura do seu sistema de auditoria eletrônica para permitir atualizações frequentes sem causar indisponibilidade aos auditores e aos cidadãos. A equipe de arquitetura necessita adotar uma estratégia de implantação que atenda aos seguintes requisitos:
 
-* **A)** Havia cerca de três dúzias de convidados para a festa;
-* **B)** Chegaram cerca de 100 mensagens no dia da festa.
-* **C)** Cerca de 18 comerciantes fecharam as lojas mais cedo.
-* **D)** Os cantores receberam cerca de uma centena de pedidos;
-* **E)** A fábrica produziu cerca de um milhão de estantes.
+- Permitir testar a nova versão do sistema em um ambiente produtivo idêntico ao atual antes de liberar o acesso geral;
+- Garantir que a comutação de tráfego seja praticamente instantânea;
+- Proporcionar capacidade de reversão (*rollback*) imediata caso anomalias severas sejam detectadas logo após a liberação.
+
+A estratégia de implantação que atende perfeitamente a esses requisitos é:  
+
+* **A)** *Recreate Deployment*.
+* **B)** *Rolling Update*.
+* **C)** *Blue-Green Deployment*.
+* **D)** *Big Bang Release*.
+* **E)** *In-Place Deployment*.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A)** Incorreta. O modelo *Recreate* desliga todas as instâncias antigas antes de iniciar as novas, gerando período de indisponibilidade obrigatória (*downtime*) e inviabilizando testes em paralelo e rollback imediato.
+> - **B)** Incorreta. O *Rolling Update* atualiza instâncias progressivamente sem downtime, mas durante o processo há convivência temporária de versões antigas e novas atendendo requisições, não há um ambiente idêntico pré-testado na íntegra e o rollback não é instantâneo (exige um novo rollout reverso).
+> - **C)** Correta. No *Blue-Green Deployment*, mantêm-se dois ambientes de produção idênticos. O ambiente inativo (Green) recebe a nova versão e pode ser exaustivamente testado com tráfego simulado. Quando aprovado, comuta-se o balanceador de carga para Green quase instantaneamente. Se surgir uma falha, o balanceador é chaveado de volta para Blue em segundos, realizando o rollback de forma imediata.
+> - **D)** Incorreta. O *Big Bang Release* é a abordagem tradicional monolítica em que o sistema é totalmente paralisado para substituição de arquivos em lote único durante janelas de manutenção, com elevado risco de falha.
+> - **E)** Incorreta. O *In-Place Deployment* sobrescreve os artefatos diretamente nas máquinas em execução, causando indisponibilidade temporária e tornando o rollback lento e complexo caso haja falha de compilação ou compatibilidade.
+> 
 > **Gabarito: C**
 
 ---
+
 ### Teste 177
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Nas opções a seguir, assinale aquela em que houve um emprego 
-desaconselhável da expressão “cerca de”.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Dentre as estratégias modernas de implantação contínua (*Deployment Strategies*), o *Canary Deployment* (Implantação Canário) diferencia-se da estratégia *Blue-Green* pelo fato de:
 
-* **A)** Havia cerca de três dúzias de convidados para a festa;
-* **B)** Chegaram cerca de 100 mensagens no dia da festa.
-* **C)** Cerca de 18 comerciantes fecharam as lojas mais cedo.
-* **D)** Os cantores receberam cerca de uma centena de pedidos;
-* **E)** A fábrica produziu cerca de um milhão de estantes.
+* **A)** Exigir a substituição imediata e simultânea de 100% dos servidores em produção em uma fração de segundo.
+* **B)** Encaminhar gradualmente uma pequena fração controlada do tráfego real de usuários (por exemplo, 2% a 5%) para a nova versão da aplicação, monitorando métricas de erro e telemetria antes de expandir progressivamente o tráfego para a totalidade dos usuários.
+* **C)** Manter dois ambientes idênticos em produção alternando o roteador de borda de forma binária de um para o outro. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **D)** Impedir que o sistema opere durante os finais de semana.
+* **E)** Funcionar exclusivamente em aplicações desktop monousuário desconectadas da rede.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A) Incorreta.** Essa é a estratégia de *Recreate* com parada de serviço (*downtime*).
+> - **B) Correta.** O *Canary Deployment* (inspirado no canário nas minas de carvão) direciona uma pequena parcela do tráfego para a nova versão. Se a telemetria revelar anomalias (aumento de erros HTTP 500 ou latência), o tráfego é revertido instantaneamente sem afetar a maioria dos usuários; se os sinais forem saudáveis, a versão é expandida progressivamente até 100%.
+> - **C) Incorreta.** Alternância total entre dois ambientes isolados (ativo e inativo) descreve a estratégia *Blue-Green Deployment*.
+> - **D) Incorreta.** Práticas modernas operam com alta disponibilidade ininterrupta (24x7).
+> - **E) Incorreta.** Aplica-se a sistemas web e distribuídos de alta escala.
 >
-> **Gabarito: C**
+> **Gabarito: B**
 
 ---
+
 ### Teste 178
-**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**
-É preciso corrigir, por falha estrutural, a redação da frase:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A utilização de *Feature Flags* (ou *Feature Toggles*) é uma técnica de engenharia de software indispensável para viabilizar entregas contínuas com Trunk-Based Development. A principal vantagem arquitetural proporcionada pelo uso de Feature Flags reside em:
 
-* **A)** Nenhuma das virtudes está imune aos defeitos que 
-representam os excessos com que podem ser 
-exercidas.
-* **B)** Os excessos da prática de uma virtude podem cons-
-tituir o mesmo defeito do qual, por princípio, se 
-desejaria combater.
-* **C)** O autor considerou uma sutileza filosófica o que 
-expressa o texto citado, no qual também acusa um 
-jogo de palavras.
-* **D)** Montaigne não vê senão excesso na reação supos-
-tamente virtuosa da mãe de Pausânias, ou na do 
-ditador Postúmio.
-* **E)** A alegoria do arqueiro demonstra, de modo prático e 
-objetivo, que a virtude não deve ser buscada nos 
-extremos. 
-_________________________________________________________
+* **A)** Acelerar a velocidade de clock do banco de dados relacional.
+* **B)** Desacoplar formalmente a implantação física do código (*deployment*) da ativação comercial da funcionalidade para os usuários (*release*), permitindo que código em desenvolvimento seja mesclado na branch principal e enviado a produção em estado desligado.
+* **C)** Excluir automaticamente o código-fonte da aplicação após 30 dias de uso em produção.
+* **D)** Impedir que desenvolvedores utilizem branches locais no Git.
+* **E)** Substituir os testes de segurança automatizados (SAST/DAST) por questionários manuais. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **A) Incorreta.** Flags operam na camada de código/lógica da aplicação.
+> - **B) Correta.** O conceito nuclear de Feature Flags é **Deploy != Release**: o código é implantado continuamente em produção, mas permanece invisível ou inativo para os usuários finais até que uma chave lógica de configuração seja ativada (permitindo testes A/B, liberação por usuário VIP ou *rollback* instantâneo sem necessidade de novo deploy).
+> - **C) Incorreta.** Flags velhas devem ser removidas por manutenção, não deleção cega automática.
+> - **D) Incorreta.** Não restringe branches locais.
+> - **E) Incorreta.** Feature flags não substituem testes de segurança.
 >
-> **Gabarito: E**
+> **Gabarito: B**
 
 ---
+
 ## 4. Estrutura, Estágios e Segurança de Pipelines (DevSecOps)
 
 A construção de um pipeline de entrega contínua robusto organiza as atividades em estágios lógicos estritamente encadeados, impedindo o avanço de artefatos defeituosos ou inseguros.
@@ -558,29 +536,32 @@ Proposta por Mike Cohn, a pirâmide de testes orienta a distribuição ótima do
 ---
 
 ### Teste 179
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Nas opções a seguir, assinale aquela em que houve um emprego 
-desaconselhável da expressão “cerca de”.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Na cultura DevSecOps, a integração da segurança ao longo de todo o ciclo de vida do software (*Shift-Left Security*) apoia-se em duas ferramentas automatizadas centrais no pipeline: SAST (*Static Application Security Testing*) e SCA (*Software Composition Analysis*). A correta distinção entre SAST e SCA estabelece que:
 
-* **A)** Havia cerca de três dúzias de convidados para a festa;
-* **B)** Chegaram cerca de 100 mensagens no dia da festa.
-* **C)** Cerca de 18 comerciantes fecharam as lojas mais cedo.
-* **D)** Os cantores receberam cerca de uma centena de pedidos;
-* **E)** A fábrica produziu cerca de um milhão de estantes.
+* **A)** SAST audita o código-fonte proprietário da organização em repouso em busca de vulnerabilidades e falhas de codificação (como injeção SQL e XSS), enquanto SCA analisa as dependências de terceiros e bibliotecas de código aberto para identificar vulnerabilidades conhecidas (CVEs) e riscos de licenciamento.
+* **B)** SCA só pode ser executado em sistemas com servidores de banco de dados Oracle.
+* **C)** SAST testa a aplicação em tempo de execução contra ataques de negação de serviço (DDoS).
+* **D)** Ambos os termos são sinônimos perfeitos de testes manuais de caixa-preta realizados por estagiários.
+* **E)** SAST destina-se exclusivamente a validar o layout gráfico de páginas em CSS3.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A) Correta.** Distinção clássica cobrada em provas:
+>   - **SAST (Static Application Security Testing):** varre o código proprietário da equipe (*white-box*, em repouso), detectando vulnerabilidades como SQL Injection, Buffer Overflow e segredos expostos;
+>   - **SCA (Software Composition Analysis):** inspeciona o grafo de dependências externas (pacotes npm, Maven, pip), apontando CVEs cadastradas no NVD e problemas de licenças (como contaminação por GPLv3).
+> - **B) Incorreta.** SCA é agnóstico ao banco de dados.
+> - **C) Incorreta.** O teste de segurança em tempo de execução é o DAST (*Dynamic Application Security Testing*).
+> - **D) Incorreta.** São ferramentas automatizadas de análise de segurança em pipelines.
+> - **E) Incorreta.** SAST é focado em segurança de código.
 >
-> **Gabarito: C**
+> **Gabarito: A**
 
 ---
+
 ## 5. Ferramentas de Automação: Sintaxe, Arquitetura e Manifestos
 
 As bancas examinadoras de concursos de Tecnologia da Informação cobram com frequência a sintaxe de manifestos e os componentes arquiteturais das principais ferramentas de orquestração de CI/CD do mercado.
@@ -751,53 +732,84 @@ pipeline {
 ---
 
 ### Teste 180
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Nas opções a seguir, assinale aquela em que houve um emprego 
-desaconselhável da expressão “cerca de”.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Considere o seguinte trecho de manifesto de automação do GitHub Actions definido no caminho `.github/workflows/pipeline.yml`:
 
-* **A)** Havia cerca de três dúzias de convidados para a festa;
-* **B)** Chegaram cerca de 100 mensagens no dia da festa.
-* **C)** Cerca de 18 comerciantes fecharam as lojas mais cedo.
-* **D)** Os cantores receberam cerca de uma centena de pedidos;
-* **E)** A fábrica produziu cerca de um milhão de estantes.
+```yaml
+name: Build and Deploy Service
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: npm test
+
+  security-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: npm audit
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: [test, security-scan]
+    steps:
+      - name: Deploy Step
+        run: ./deploy-prod.sh
+```
+
+A respeito da execução desse pipeline, assinale a afirmativa correta:  
+
+* **A)** Os jobs `test` e `security-scan` serão executados sequencialmente, iniciando `security-scan` apenas após o término bem-sucedido de `test`.
+* **B)** O job `deploy` iniciará imediatamente e executará em paralelo aos jobs `test` e `security-scan`.
+* **C)** O job `deploy` só iniciará sua execução se ambos os jobs `test` e `security-scan` forem concluídos com sucesso. Caso qualquer um deles falhe, o job `deploy` será ignorado (*skipped*).
+* **D)** O atributo `runs-on: ubuntu-latest` faz com que os três jobs compartilhem a mesma memória RAM e o mesmo sistema de arquivos local sem isolamento.
+* **E)** O gatilho `on: push: branches: [ "main" ]` indica que o pipeline será executado apenas quando uma nova *Pull Request* for aberta por qualquer desenvolvedor, mas nunca quando um commit direto for enviado ao branch `main`.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A)** Incorreta. No GitHub Actions, jobs declarados no mesmo nível sem a cláusula `needs:` são disparados **em paralelo**. Como `test` e `security-scan` não dependem um do outro, eles executam concomitantemente em runners independentes.
+> - **B)** Incorreta. O job `deploy` possui a diretiva explícita `needs: [test, security-scan]`, o que cria uma dependência estrita e impede sua execução paralela aos demais.
+> - **C)** Correta. A diretiva `needs: [test, security-scan]` instrui o orquestrador a aguardar a conclusão bem-sucedida (código de saída zero) de **ambos** os jobs anteriores. Caso `test` ou `security-scan` falhem, o job `deploy` é automaticamente ignorado (*skipped*), impedindo que código quebrado ou inseguro seja promovido.
+> - **D)** Incorreta. Cada job no GitHub Actions executa em uma máquina virtual (ou contêiner) limpa, efêmera e totalmente isolada. Não há compartilhamento nativo de memória ou disco local entre jobs distintos.
+> - **E)** Incorreta. O gatilho especificado é `push` no branch `main`. Portanto, ele dispara com commits enviados diretamente ou resultantes de um merge concluído na branch `main`. Para escutar abertura de Pull Requests, o evento exigido seria `pull_request`.
+> 
 > **Gabarito: C**
 
 ---
+
 ### Teste 181
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Nas opções a seguir, assinale aquela em que houve um emprego 
-desaconselhável da expressão “cerca de”.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Em relação aos arquivos de manifesto e à estrutura operacional das ferramentas de integração contínua GitLab CI/CD e Jenkins, assinale a opção correta:  
 
-* **A)** Havia cerca de três dúzias de convidados para a festa;
-* **B)** Chegaram cerca de 100 mensagens no dia da festa.
-* **C)** Cerca de 18 comerciantes fecharam as lojas mais cedo.
-* **D)** Os cantores receberam cerca de uma centena de pedidos;
-* **E)** A fábrica produziu cerca de um milhão de estantes.
+* **A)** No GitLab CI/CD, a diretiva `artifacts` serve unicamente para reaproveitar arquivos temporários como dependências de compiladores entre pipelines distintos, tendo a mesma função semântica de `cache`.
+* **B)** No GitLab CI/CD, se os estágios forem definidos como `stages: [build, test, deploy]`, todos os jobs vinculados ao estágio `build` são executados sequencialmente em um único runner, bloqueando qualquer concorrência interna.
+* **C)** No Jenkins, a arquitetura moderna prevê o nó *Controller* (antigo Master) como o responsável por gerenciar o agendamento de tarefas e configurações, delegando a execução física dos passos do pipeline para nós *Agents* (antigos Slaves).
+* **D)** Um pipeline declarativo do Jenkins (*Declarative Pipeline*) é codificado livremente sem qualquer estrutura de blocos obrigatória, usando comandos Groovy imperativos sem a necessidade da diretiva `pipeline`.
+* **E)** No arquivo `.gitlab-ci.yml`, a palavra-chave `image:` é obrigatória para cada job individual, sendo proibido definir uma imagem Docker global compartilhada no nível raiz do arquivo.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A)** Incorreta. No GitLab CI/CD existe distinção conceitual nítida entre `artifacts` e `cache`. **Artifacts** são saídas formais geradas por um job (como binários compilados `.jar` ou relatórios de testes) salvas no GitLab e transmitidas aos estágios posteriores do **mesmo pipeline**. **Cache** serve para acelerar builds armazenando dependências de bibliotecas de terceiros (como `.m2` ou `node_modules`) compartilhadas entre **diferentes execuções de pipelines**.
+> - **B)** Incorreta. Jobs associados ao mesmo estágio (*stage*) executam **em paralelo** caso existam múltiplos runners disponíveis no GitLab, acelerando o tempo de processamento.
+> - **C)** Correta. A arquitetura padrão do Jenkins é distribuída (*Controller-Agent*). O nó Controller gerencia os jobs, agenda filas e hospeda a interface gráfica, delegando a execução física das compilações, testes e comandos de shell para os nós Agents.
+> - **D)** Incorreta. Essa descrição aplica-se ao *Scripted Pipeline* (baseado em Groovy imperativo puro iniciado por blocos `node { .. }`). O *Declarative Pipeline* possui sintaxe estrita obrigatória, iniciando sempre pelo bloco estruturado `pipeline { agent any; stages { .. } }`.
+> - **E)** Incorreta. No GitLab CI/CD, é perfeitamente válido declarar a diretiva `image:` no nível global (raiz) do arquivo `.gitlab-ci.yml`, tornando aquela imagem Docker o padrão compartilhado para todos os jobs que não definirem sua própria imagem específica.
+> 
 > **Gabarito: C**
 
 ---
+
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 
 * [DORA (DevOps Research and Assessment) - The Four Keys Metrics](https://dora.dev/guides/dora-metrics-four-keys/) - Deployment Frequency, Lead Time for Changes, Time to Restore Service e Change Failure Rate.

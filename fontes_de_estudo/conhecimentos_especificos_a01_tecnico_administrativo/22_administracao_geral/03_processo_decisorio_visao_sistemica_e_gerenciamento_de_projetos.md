@@ -92,60 +92,56 @@ flowchart TD
 ---
 
 ### Teste 360
-**(FGV – TJ-MT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Em um projeto, o gerente está focado em garantir que o trabalho 
-realizado atenda aos requisitos estabelecidos e que o produto final 
-esteja em conformidade com os padrões definidos.  
-No contexto apresentado, o gerente de projetos está atuando na 
-área de Gerenciamento
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Determinado setor administrativo de um Tribunal de Contas analisa diariamente dezenas de pedidos de prorrogação de prazo protocolados por jurisdicionados. O procedimento para deferimento ou indeferimento do pedido segue critérios estritos, pré-fixados de forma taxativa em resolução normativa do Tribunal, avaliando-se apenas a tempestividade do protocolo e o anexo do atestado médico. Nos termos da tipologia do processo decisório formulada por Herbert Simon, a deliberação do chefe do setor constitui típica:
 
-* **A)** da Qualidade.
-* **B)** de Escopo.
-* **C)** de Riscos.
-* **D)** de Aquisições.
-* **E)** de Comunicações. 
-TRIBUNAL DE JUSTIÇA DE MATO GROSSO FGV CONHECIMENTO
+* **A)** Decisão não programada.
+* **B)** Decisão intuitiva em condição de ambiguidade.
+* **C)** Decisão programada.
+* **D)** Decisão holística sob incerteza extrema.
+* **E)** Decisão estratégica de ruptura.
+
 
 ---
 
-> **Comentário Detalhado:**
+> **Comentário Detalhado:**  
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: D**
+> - **A) Incorreta.** Decisões não programadas são tomadas perante fatos inéditos, complexos e que demandam soluções inovadoras.  
+> - **B) Incorreta.** Ambiguidade é a ausência de metas ou clareza sobre o problema; na hipótese narrada, as regras e dados são claros.  
+> - **C) CORRETA.** As **decisões programadas** são aquelas que tratam de problemas rotineiros, estruturados e repetitivos, cuja resposta é automática e amparada em normas regimentais, resoluções, regras fixas ou procedimentos operacionais padrão (POPs) preestabelecidos pela organização.  
+> - **D) Incorreta.** Os parâmetros são plenamente conhecidos, inexistindo incerteza extrema.  
+> - **E) Incorreta.** A análise de pedidos de prazo de rotina é tarefa operacional, e não decisão estratégica de ruptura.  
+> 
+> **Gabarito: C**
 
 ---
+
 ### Teste 361
-**(FGV – TJ-MT – Analista Judiciário - Tecnologia da Informação – 2024)**
-No contexto do PMBOK, um guia de práticas para o gerenciamento 
-de projetos, um dos cinco grupos de processos se destaca por 
-incluir atividades destinadas a acompanhar e medir o progresso do 
-projeto, garantindo que as metas sejam cumpridas de acordo com 
-o planejado. O texto se refere ao grupo de processos de
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Herbert Simon, em sua obra clássica *O Comportamento Administrativo* (prêmio Nobel de Economia de 1978), formulou a Teoria da **Racionalidade Limitada** (*Bounded Rationality*) na tomada de decisões.
 
-* **A)** iniciação.
-* **B)** planejamento.
-* **C)** execução.
-* **D)** monitoramento e controle.
-* **E)** encerramento.
+Segundo a teoria da racionalidade limitada de Simon:
+
+* **A)** O tomador de decisões é incapaz de obter e processar todas as informações disponíveis e prever todas as consequências futuras possíveis; por isso, em vez de buscar a decisão ótima máxima, ele opta por uma decisão **satisfatória** que atenda aos padrões mínimos aceitáveis.
+* **B)** O gestor público possui capacidade cognitiva infinita e recursos ilimitados para identificar a solução perfeita e maximizadora para cada problema.
+* **C)** O processo decisório deve ser guiado exclusivamente pela intuição e pela sorte, visto que a análise racional é impossível na vida pública.
+* **D)** As decisões programadas exigem a realização de assembleias públicas populares para cada ato administrativo rotineiro.
+* **E)** A racionalidade limitada impede que a Administração Pública utilize computadores ou sistemas de dados no auxílio à decisão.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A)** Correta. Herbert Simon derrubou o mito do tomador de decisão econômico onisciente e onipotente (*racionalidade absoluta*): o ser humano possui limitações cognitivas, tempo escasso e informações incompletas. Por isso, ele atua no modelo do **homem administrativo**, que busca soluções satisfatórias (*satisficing*), e não maximizadoras.
+> - **B)** Incorreta. Visão do modelo da racionalidade absoluta que Simon refutou.
+> - **C)** Incorreta. Simon defende a racionalidade, reconhecendo apenas seus limites inerentes.
+> - **D), E)** Incorretas. Distorções que não representam o modelo de Simon.
+> 
 > **Gabarito: A**
 
 ---
+
 ## 2. Condições Ambientais da Tomada de Decisão
 
 O contexto em que a decisão é tomada varia segundo a qualidade e a completude das informações disponíveis:
@@ -171,74 +167,55 @@ flowchart LR
 ---
 
 ### Teste 362
-**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
-Leia o seguinte trecho do escritor inglês Aldous Huxley. 
-O homem que pretende ser sempre coerente no seu pensamento e 
-nas suas decisões morais ou é uma múmia ambulante ou, se não 
-conseguir sufocar toda a sua vitalidade, um monomaníaco 
-fanático. 
-Sobre o significado ou a estruturação do texto, é correto afirmar 
-que
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A respeito da tomada de decisão em ambientes organizacionais e das condições de certeza, risco, incerteza e ambiguidade, assinale a opção correta:
 
-* **A)** infere-se do pensamento expresso no trecho que o homem é 
-sempre incoerente em seu pensamento e decisões.
-* **B)** a comparação com uma “múmia ambulante” se justifica pela 
-perda da vida interior.
-* **C)** a mania única aludida no texto é a de estar sempre à procura 
-de tornar-se incoerente.
-* **D)** a visão negativa do homem na frase é decorrente de sua 
-vontade deformada de ser incoerente em suas ações.
-* **E)** segundo o texto, se o homem não conseguir sufocar toda a sua 
-vitalidade, o homem vira uma múmia ambulante.
+* **A)** Na condição de risco, o tomador de decisão possui informações completas e sabe com absoluta precisão o desfecho de cada alternativa de ação.
+* **B)** A condição de ambiguidade caracteriza-se pelo domínio pleno de dados históricos que permitem calcular probabilidades estatísticas exatas de insucesso.
+* **C)** A condição de certeza é a situação em que o decisor atua sem informações preliminares, confiando unicamente na sorte e na intuição.
+* **D)** Na condição de risco, o tomador de decisão desconhece com certeza o resultado final, contudo dispõe de dados suficientes para calcular probabilidades estatísticas associadas a cada alternativa.
+* **E)** A condição de incerteza permite ao gestor modelar todas as variáveis futuras por meio de equações determinísticas de causa e efeito imediato.
+
+
+---
+
+> **Comentário Detalhado:**  
+>
+> - **A) Incorreta.** Informações completas e resultado exato definem a condição de **certeza**, e não de risco.  
+> - **B) Incorreta.** Na ambiguidade, as metas são desconhecidas e os dados são obscuros, sendo impossível calcular probabilidades.  
+> - **C) Incorreta.** Na certeza, o resultado é deterministicamente conhecido.  
+> - **D) CORRETA.** Na condição de **risco**, o resultado concreto de cada escolha é incerto, mas a organização possui informações e base histórica que tornam viável atribuir **probabilidades matemáticas ou estatísticas** de ocorrência a cada alternativa.  
+> - **E) Incorreta.** Na incerteza, as informações são escassas e as probabilidades matemáticas não podem ser calculadas com segurança.  
+> 
+> **Gabarito: D**
+
+---
+
+### Teste 363
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Na tomada de decisão sob diferentes condições ambientais, a situação em que o tomador de decisão conhece os possíveis desfechos alternativos e dispõe de dados históricos ou cálculos matemáticos que lhe permitem atribuir **probabilidades estatísticas objetivas** à ocorrência de cada resultado denomina-se:
+
+* **A)** Tomada de decisão em Condição de Risco.
+* **B)** Tomada de decisão em Condição de Certeza Absoluta.
+* **C)** Tomada de decisão em Condição de Incerteza Completa.
+* **D)** Tomada de decisão por Anarquia Organizada (*Garbage Can*).
+* **E)** Decisão de Consenso Heurístico Irrestrito.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A)** Correta. Condições de tomada de decisão: **Certeza**: os resultados futuros de cada alternativa são perfeitamente previsíveis e conhecidos; **Risco**: os desfechos não são certos, mas é possível estimar a **probabilidade matemática/estatística** de cada alternativa ocorrer com base em dados; **Incerteza**: os desfechos são imprevisíveis e não se conhecem probabilidades estatísticas.
+> - **B)** Incorreta. Na certeza, conhece-se com exatidão o resultado, sem risco de desvio.
+> - **C)** Incorreta. Na incerteza, inexistem dados de probabilidade calculável.
+> - **D)** Incorreta. Modelo da "lata de lixo" (Cohen, March e Olsen) para anarquias organizadas.
+> - **E)** Incorreta. Expressão sem respaldo na tipologia ambiental de decisões.
+> 
 > **Gabarito: A**
 
 ---
-### Teste 363
-**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
-Programas de integridade e mecanismos de prevenção à 
-corrupção são fundamentais para promover a ética, a 
-transparência e a accountability na Administração Pública, 
-fortalecendo a confiança da sociedade nas instituições e 
-garantindo a correta aplicação dos recursos públicos. 
-Assinale a opção que apresenta corretamente o conceito de 
-accountability.
 
-* **A)** Diz respeito à obrigação de pessoas ou entidades que recebem 
-recursos públicos de prestar contas e assumir 
-responsabilidades fiscais, gerenciais e programáticas.
-* **B)** É o dever exclusivo dos cidadãos de fiscalizar os atos da 
-Administração Pública.
-* **C)** Refere-se à obrigação do Estado de manter o sigilo sobre todas 
-as informações estratégicas.
-* **D)** Trata-se da exigência de cumprimento de metas financeiras 
-impostas apenas as empresas privadas.
-* **E)** Refere-se à transparência apenas nos processos eleitorais, sem 
-relação com a gestão pública.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: B**
-
----
 ## 3. Visão Sistêmica, Pensamento Holístico e Silos Organizacionais
 
 A abordagem sistêmica concebe a instituição pública como um **sistema aberto** composto por partes dinamicamente interconectadas e em constante intercâmbio com a sociedade:
@@ -258,80 +235,55 @@ A abordagem sistêmica concebe a instituição pública como um **sistema aberto
 ---
 
 ### Teste 364
-**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
-A Lei de Acesso à Informação (LAI), Lei n.° 12.527/2011, reforça o 
-compromisso da Administração Pública com a transparência e a 
-ética, promovendo o acesso do cidadão às informações 
-governamentais como instrumento fundamental para o controle 
-social e o fortalecimento da democracia. 
-Assinale a opção que apresenta corretamente uma disposição das 
-informações pessoais da LAI.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+O modelo de administração contemporâneo valoriza o pensamento holístico e a visão sistêmica em oposição aos tradicionais modelos mecanicistas burocráticos. A respeito da visão sistêmica aplicada às organizações públicas, assinale a afirmativa correta:
 
-* **A)** Informações pessoais podem ser divulgadas livremente após 
-10 anos, desde que não envolvam agentes públicos.
-* **B)** O acesso a informações relativas à intimidade, vida privada, 
-honra e imagem é restrito por até 50 anos, salvo decisão 
-judicial.
-* **C)** A divulgação de informações pessoais depende 
-exclusivamente de ordem judicial, independentemente de 
-consentimento da pessoa envolvida.
-* **D)** A restrição de acesso a informações pessoais pode ser utilizada 
-para impedir investigações de irregularidades que envolvam o 
-titular dos dados.
-* **E)** O tratamento de informações pessoais deve respeitar a 
-intimidade e os direitos individuais, sendo vedado seu uso 
-indevido, sob pena de responsabilização.
+* **A)** Sustenta que cada setor deve priorizar exclusivamente suas metas individuais de departamento, competindo com as demais unidades pelo orçamento público.
+* **B)** Concebe a instituição como uma rede interdependente de subsistemas integrados, na qual as decisões adotadas em uma unidade provocam impactos diretos sobre todo o organismo institucional.
+* **C)** Elimina a necessidade de controle e avaliação de desempenho, pois presume que os servidores agem de forma espontânea em perfeita sincronia com o ambiente.
+* **D)** Restringe a atuação do órgão público à preservação de fronteiras rígidas e impenetráveis, impedindo qualquer intercâmbio de dados com a sociedade externa.
+* **E)** Rejeita o conceito de sinergia por considerá-lo incompatível com a estrita divisão formal de trabalho prescrita em leis administrativas.
+
+
+---
+
+> **Comentário Detalhado:**  
+>
+> - **A) Incorreta.** Priorizar o próprio setor em detrimento do todo caracteriza a visão míope dos "silos organizacionais", combatida pela abordagem sistêmica.  
+> - **B) CORRETA.** A **visão sistêmica (ou holística)** enxerga a organização como um sistema aberto composto por subsistemas reciprocamente dependentes e interconectados; assim, qualquer alteração em um subsistema repercute em todos os demais e no resultado final entregue à sociedade.  
+> - **C) Incorreta.** O controle (retroalimentação/feedback) é elemento vital da teoria sistêmica para manter a homeostase dinâmica.  
+> - **D) Incorreta.** As organizações são sistemas **abertos**, com fronteiras permeáveis que realizam intercâmbio contínuo de recursos e dados com o meio externo.  
+> - **E) Incorreta.** A sinergia ($1 + 1 > 2$) é um dos pilares centrais da teoria de sistemas.  
+> 
+> **Gabarito: B**
+
+---
+
+### Teste 365
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+No Gerenciamento de Projetos e no controle do cronograma de atividades interdependentes, o método do **Caminho Crítico** (*Critical Path Method - CPM*) define-se como:
+
+* **A)** A sequência mais longa de atividades dependentes no diagrama de rede do projeto que determina a duração total mínima necessária para a conclusão do projeto, caracterizando-se por ter folga total igual a zero.
+* **B)** O conjunto de tarefas com menor custo financeiro que podem ser canceladas sem prejuízo do cronograma.
+* **C)** A lista de atividades secundárias executadas simultaneamente por equipes de suporte terceirizadas.
+* **D)** O gráfico de barras que demonstra a distribuição de competências funcionais dos membros da equipe.
+* **E)** O caminho que concentra exclusivamente os riscos jurídicos e trabalhistas do contrato de engenharia.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A)** Correta. O **Caminho Crítico (CPM)** é a trajetória mais longa através do diagrama de rede (com maior duração total). As atividades que integram o caminho crítico têm **folga zero** (*zero slack*): qualquer atraso em uma atividade crítica provocará automaticamente atraso idêntico na data final de entrega de todo o projeto.
+> - **B)** Incorreta. Atividades críticas não podem ser suprimidas ou atrasadas.
+> - **C)** Incorreta. Descreve tarefas não críticas ou paralelas com folga.
+> - **D)** Incorreta. Gráfico de barras é o Gráfico de Gantt.
+> - **E)** Incorreta. CPM é metodologia de gestão de tempo e sequenciamento de atividades.
+> 
 > **Gabarito: A**
 
 ---
-### Teste 365
-**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
-O planejamento estratégico no setor público orienta a gestão por 
-resultados, promovendo ações alinhadas a metas e indicadores 
-que garantem maior eficiência, transparência e foco nas 
-demandas da sociedade. 
-Assinale a opção que apresenta corretamente uma característica 
-do planejamento estratégico no setor público.
 
-* **A)** O planejamento estratégico é voltado principalmente para a 
-resolução imediata de problemas operacionais, com foco no 
-curto prazo.
-* **B)** O planejamento estratégico é um processo limitado a algumas 
-áreas da organização, buscando melhorias isoladas e 
-específicas.
-* **C)** O planejamento estratégico ignora o ambiente externo, 
-concentrando-se apenas nos recursos internos da organização.
-* **D)** O planejamento estratégico é um processo centrado 
-exclusivamente na alta administração, sem necessidade de 
-envolvimento de outros atores.
-* **E)** O planejamento estratégico é orientado para o futuro, 
-envolvendo toda a organização, busca consenso entre os 
-atores e promove o aprendizado organizacional.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: D**
-
----
 ## 4. Gerenciamento de Projetos: Restrição Tripla, Gantt, CPM e PERT
 
 Segundo o Project Management Institute (PMI/PMBOK), um **projeto** é um empreendimento temporário (possui início e fim previamente definidos) desenvolvido para criar um produto, serviço ou resultado único e exclusivo. Diferencia-se dos **processos**, que são operações contínuas, rotineiras e padronizadas.
@@ -381,143 +333,105 @@ flowchart TD
 ---
 
 ### Teste 366
-**(FCC – TRT-6 – Analista Judiciário - Tecnologia da Informação – 2012)**
-O Estado deve ficar fora das atividades de que o setor 
-privado já dá conta. 
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A respeito das técnicas de planejamento e cronograma utilizadas no gerenciamento de projetos, o Método do Caminho Crítico (CPM) caracteriza-se fundamentalmente por:
 
-A nova redação da frase acima estará correta caso se 
-substitua o elemento sublinhado por
+* **A)** Indicar a sequência de atividades com maior número de folgas temporais disponíveis para remanejamento de equipe.
+* **B)** Identificar a sequência de atividades dependentes de maior duração total do projeto, cujas tarefas possuem folga temporal nula.
+* **C)** Consistir em um método exclusivo para orçamentação financeira que desconsidera os prazos de entrega das tarefas.
+* **D)** Representar uma estrutura analítica de decomposição hierárquica do escopo sem vinculação temporal.
+* **E)** Substituir o uso de diagramas de rede pela elaboração isolada de matrizes SWOT de contingência.
 
-* **A)** a que o setor privado já vem colaborando.
-* **B)** com as quais o setor privado já vem cuidando.
-* **C)** nas quais o setor privado já vem interferindo.
-* **D)** em cujas o setor privado já vem demonstrando inte-
-resse.
-* **E)** pelas quais o setor privado já vem administrando.
 
 ---
 
-> **Comentário Detalhado:**
+> **Comentário Detalhado:**  
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A) Incorreta.** As tarefas do caminho crítico não admitem folga de tempo; quem tem folga são as atividades fora do caminho crítico.  
+> - **B) CORRETA.** O **Caminho Crítico (CPM)** é precisamente a sequência de atividades dependentes de maior duração total contínua no diagrama de rede que define o tempo mínimo para a conclusão do projeto; todas as atividades que o compõem possuem **folga temporal zero (nula)**, de maneira que qualquer atraso nelas acarreta automaticamente o atraso de todo o projeto.  
+> - **C) Incorreta.** O CPM é uma ferramenta de gestão temporal de prazos e dependências em rede.  
+> - **D) Incorreta.** A decomposição do escopo em entregas é a EAP (WBS), que não se confunde com o CPM.  
+> - **E) Incorreta.** O CPM decorre compulsoriamente da montagem do diagrama de rede de precedências lógicas.  
+> 
 > **Gabarito: B**
 
 ---
+
 ### Teste 367
-**(FCC – TRT-6 – Analista Judiciário - Tecnologia da Informação – 2012)**
-Pode-se inferir, com base numa afirmação do texto, que
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No âmbito da gestão estratégica de projetos governamentais, uma equipe necessita estimar a duração provável de uma atividade inédita de digitalização de acervo histórico. Os especialistas estimaram que, no melhor cenário possível (otimista), a tarefa demandará 10 dias; no cenário mais provável, exigirá 16 dias; e, no pior cenário concebível (pessimista), demandará 28 dias. Utilizando a consagrada técnica probabilística PERT (*Program Evaluation and Review Technique*), a estimativa de tempo esperado (TE) para essa atividade é de:
 
-* **A)** o ensino religioso demanda profissionais altamente 
-qualificados, que o Estado não teria como contratar.
-* **B)** a bancada religiosa, tal como qualificada no último 
-parágrafo, partilha do mesmo radicalismo de Dom 
-Tarcísio Scaramussa.
-* **C)** as instituições públicas de ensino devem 
-complementar o que já fazem os templos, a exemplo 
-do que ocorre na cidade de São Paulo.
-* **D)** o aprendizado de uma religião não requer instrução 
-tão especializada como a que exigem as ciências 
-exatas.
-* **E)** os membros da bancada religiosa, sobretudo os libe-
-rais, buscam favorecer o setor privado na imple-
-mentação do ensino religioso. 
-_________________________________________________________
+* **A)** 18 dias.
+* **B)** 16 dias.
+* **C)** 17 dias.
+* **D)** 20 dias.
+* **E)** 15 dias.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: B**
+> - **A) Incorreta.** Valor superestimado decorrente de média incorreta sem aplicar a ponderação de peso 4 sobre a estimativa mais provável.
+> - **B) Incorreta.** Representa exclusivamente a estimativa mais provável ($M = 16\text{ dias}$), desconsiderando a modelagem PERT de incertezas.
+> - **C) CORRETA.** Aplicação direta da média ponderada da técnica PERT: $\text{TE} = \frac{O + 4M + P}{6} = \frac{10 + (4 \times 16) + 28}{6} = \frac{10 + 64 + 28}{6} = \frac{102}{6} = 17\text{ dias}$.
+> - **D) Incorreta.** Erro de cálculo superdimensionado incompatível com a média ponderada dos três cenários.
+> - **E) Incorreta.** Estimativa subdimensionada inferior ao próprio cenário mais provável.
+> 
+> **Gabarito: C**
 
 ---
+
 ### Teste 368
-**(FCC – TRT-14 – Analista Judiciário - Tecnologia da Informação – 2016)**
-De acordo com o texto, a Microsoft
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Na teoria das organizações e no pensamento sistêmico, o fenômeno patológico no qual departamentos e setores operam de forma isolada, defendendo interesses corporativos paroquiais e fechando canais de comunicação com as demais unidades da instituição é denominado:
 
-* **A)** criou o OneDrive para concorrer com o Dropbox.
-* **B)** faz ofertas de tempos em tempos.
-* **C)** tem problemas em encontrar nomes adequados para seus produtos.
-* **D)** tem um padrão consagrado para nomear seus produtos.
-* **E)** foi processada por usar a palavra Sky para nomear um de seus produtos.
+* **A)** Silos Organizacionais (Mentalidade de Silo).
+* **B)** Holacracia Sistêmica Integrada.
+* **C)** Sinergia Coletiva Positiva.
+* **D)** Homeostase Dinâmica Adaptativa.
+* **E)** Entropia Negativa Expansiva.
 
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: B**
-
----
-### Teste 369
-**(FGV – TJ-AP – Analista Judiciário - Banco de Dados – 2023)**
-João, administrador de banco de dados, deverá projetar um 
-banco de dados Oracle de registro de  alunos que contenha várias 
-tabelas para armazenar informações acadêmicas: 
-
- A tabela “Aluno” armazena informações sobre alunos.  
- A tabela “Notas_Aluno” armazena informações sobre 
-as notas do aluno.  
- Ambas as tabelas têm uma coluna chamada 
-“Aluno_ID”. 
- A col una “Aluno_ID” na tabela “Aluno” é uma chave 
-primária. 
-
-João deverá criar a chave estrangeira na coluna “aluno_ID” da 
-tabela “Notas_Aluno” para relacionar-se com a coluna “aluno_ID” 
-da tabela “Aluno”. Para isso, João deverá utilizar o seguinte 
-comando:
-
-* **A)** CREATE TABLE notas_aluno (aluno_ID NUMBER(12), 
-media_notas NUMBER(4,3), CONSTRAINT aluno_ID_fk 
-REFERENCES aluno(aluno_ID));
-* **B)** CREATE TABLE notas_aluno (aluno_ID NUMBER(12), 
-media_notas NUMBER(4,3), CONSTRAINT FOREIGN KEY 
-(aluno_ID) REFERENCES aluno (aluno_ID));
-* **C)** CREATE TABLE notas_aluno (aluno_ID NUMBER(12), 
-media_notas NUMBER(4,3), aluno_ID_fk FOREIGN 
-KEY (aluno_ID) REFERENCES aluno(aluno_ID));
-* **D)** CREATE TABLE notas_aluno (aluno_ID NUMBER(12), 
-media_notas NUMBER(4,3), CONSTRAINT aluno_ID_fk 
-FOREIGN KEY (aluno_ID) REFERENCES 
-aluno(aluno_ID));
-* **E)** CREATE TABLE notas_aluno (aluno_ID NUMBER(12), 
-media_notas NUMBER(4,3), CONSTRAINT aluno_ID_fk 
-REFERENCES (aluno_ID) FOREIGN KEY 
-aluno(aluno_ID)); 
-
-Tribunal de Justiça do Estado do Amapá FGV Conhecimento 
-
-Analista Jud - Apoio Especializado - Tecnologia da Informação - Banco de Dados  Tipo 1  ̶  Branca – Página 17
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A)** Correta. A **mentalidade de silo (ou silos organizacionais)** ocorre quando divisões e gerências funcionam como redomas fechadas e impermeáveis ("feudos burocráticos"), bloqueando a troca de dados, gerando retrabalhos, desconfiança e inviabilizando a visão sistêmica e holística da instituição.
+> - **B)** Incorreta. Holacracia é modelo de gestão sem hierarquia tradicional e de alta cooperação.
+> - **C)** Incorreta. Sinergia positiva significa que o todo é maior que a soma das partes (cooperação produtiva).
+> - **D)** Incorreta. Homeostase é a capacidade de autorregulação e equilíbrio do sistema aberto.
+> - **E)** Incorreta. Entropia negativa (negentropia) é a importação de energia para evitar o perecimento do sistema.
+> 
 > **Gabarito: A**
 
 ---
+
+### Teste 369
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+No gerenciamento de projetos, a técnica **PERT** (*Program Evaluation and Review Technique*) é particularmente recomendada quando as durações das atividades são incertas, utilizando uma média ponderada baseada em três estimativas de tempo:
+
+As três estimativas temporais consideradas pelo modelo PERT são:
+
+* **A)** Tempo Otimista (a), Tempo Mais Provável (m) e Tempo Pessimista (b).
+* **B)** Tempo Mínimo legal, Tempo Médio da carreira e Tempo Máximo de estabilidade.
+* **C)** Duração da licitação, Duração do contrato e Duração da garantia.
+* **D)** Horário bancário de abertura, fechamento e compensação.
+* **E)** Prazo prescricional, Prazo decadencial e Prazo preclusivo.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. O modelo probabilístico do **PERT** calcula a duração esperada (*Expected Time - TE*) pela fórmula ponderada: \(TE = 
+rac{a + 4m + b}{6}\), onde: **a** = tempo otimista (tudo dá certo); **m** = tempo mais provável (condições normais de operação); **b** = tempo pessimista (cenário em que ocorrem adversidades e problemas).
+> - **B), C), D), E)** Incorretas. Distorções sem respaldo técnico na metodologia PERT.
+> 
+> **Gabarito: A**
+
+---
+
 ## 5. Fontes Oficiais e Referências Bibliográficas
 
 * [Scrum Guide 2020 Oficial (Português-BR)](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-PortugueseBR-3.0.pdf) - Guia definitivo sobre tomada de decisão ágil, sprints e retrospectivas.

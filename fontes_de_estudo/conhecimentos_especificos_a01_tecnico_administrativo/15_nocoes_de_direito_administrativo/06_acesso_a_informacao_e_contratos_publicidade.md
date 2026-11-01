@@ -105,167 +105,89 @@ O procedimento de atendimento às solicitações de informação rege-se pelos s
 ---
 
 ### Teste 056
-**(FGV – TJ-AP – Analista Judiciário - Banco de Dados – 2023)**
-Ao estudar ponto específico de edital para concurso público 
-atinente à organização administrativa, notadamente com relação 
-à descentralização, Ofélia observou que,  dentre as entidades 
-dotadas de personalidade jurídica de direito privado que 
-integram a Administração Pública indireta, é correto apontar:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A Lei de Acesso à Informação (Lei Federal nº 12.527/2011) regulamenta o direito constitucional fundamental de acesso a informações públicas (art. 5º, XXXIII da CF/88). A respeito das diretrizes fundamentais estabelecidas no art. 3º da LAI, assinale a opção correta:
 
-* **A)** as autarquias;
-* **B)** as prefeituras;
-* **C)** as associações públicas;
-* **D)** os tribunais de contas;
-* **E)** as sociedades de economia mista.
+* **A)** O sigilo de documentos estatais é a regra originária da administração, constituindo a publicidade exceção estrita.
+* **B)** A publicidade é a regra geral da administração, sendo o sigilo exceção adotada mediante justificativa legal.
+* **C)** A divulgação oficiosa de dados públicos em sítios eletrônicos subordina-se a prévio requerimento do administrado.
+* **D)** O fomento à cultura de transparência restringe-se às informações contábeis e fiscais do Poder Executivo estadual.
+* **E)** O acesso a informações governamentais condiciona-se à demonstração de legítimo interesse jurídico pelo cidadão.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Incorreto**. O art. 3º, I da Lei nº 12.527/2011 fixa expressamente que a publicidade é a regra geral e o sigilo a exceção.
+> - **B)** **Correto**. O art. 3º da LAI estabelece as diretrizes basilares: "I - observância da publicidade como preceito geral e do sigilo como preceito excepcional; II - divulgação de informações de interesse público, independentemente de solicitações; III - utilização de meios de comunicação viabilizados pela tecnologia da informação; IV - fomento ao desenvolvimento da cultura de transparência na administração pública; V - desenvolvimento do controle social da administração pública".
+> - **C)** **Incorreto**. A transparência ativa impõe a divulgação compulsória de dados de ofício pela internet, sem necessidade de pedido.
+> - **D)** **Incorreto**. A diretriz de transparência alcança todos os Poderes, órgãos e esferas da federação de modo irrestrito.
+> - **E)** **Incorreto**. O art. 10, § 3º da LAI veda expressamente qualquer exigência de motivação ou justificativa para pedidos de acesso.
 >
 > **Gabarito: B**
-
----
 ### Teste 057
-**(FGV – TJ-AP – Analista Judiciário - Banco de Dados – 2023)**
-Semana passada, Adroaldo, no exercício das atribuições do cargo 
-efetivo em que está lotado no Estado do Amapá, praticou a 
-conduta de negar publicidade a determinado ato oficial, sob o 
-fundamento de que ele está gravado de sigilo, classificado como 
-informação secreta, que, mediante a devida motivação, foi 
-considerada imprescindível para a segurança da sociedade e do 
-Estado. 
-Acerca dessa situação hipotética, considerando o disposto na  
-Lei nº 8.429/1992, com a redação conferida pela Lei nº 14.230/2021, 
-é correto afirmar que:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Determinada associação de servidores públicos ajuizou ação civil contra o Estado postulando a retirada dos nomes e vencimentos dos seus associados do Portal da Transparência, sob alegação de ofensa à intimidade e à vida privada. À luz da LAI e da jurisprudência fixada pelo STF no Tema nº 483:
 
-* **A)** caso caracterizado o dolo na realização de tal conduta, ficará 
-configurado o ato de improbidade que atent a contra os 
-princípios da Administração Pública, diante da previsão 
-específica no respectivo dispositivo da Lei de Improbidade;
-* **B)** independentemente da caracterização de dolo, a conduta em 
-questão não configura ato de improbidade que atenta contra 
-os prin cípios da Administração Pública, tanto que 
-excepcionada pela própria Lei de Improbidade 
-Administrativa;
-* **C)** considerando que o rol atinente aos atos de improbidade que 
-atentam contra os princípios da Administração Pública é 
-exemplificativo, a conduta em an álise deve assim ser 
-caracterizada, ainda que o servidor tenha agido com culpa;
-* **D)** considerando que a negativa de publicidade não consta do rol 
-taxativo das condutas que configuram o ato de improbidade 
-que atenta contra os princípios da Administração Públ ica, a 
-conduta em apreço não poderia ser assim caracterizada ainda 
-que a informação não estivesse gravada de sigilo;
-* **E)** considerando que a conduta em cotejo não pode ser 
-caracterizada como ato de improbidade que atenta contra os 
-princípios da Administraçã o Pública, para tanto, é 
-imprescindível o enriquecimento sem causa ou a lesão ao 
-erário. 
-
-Tribunal de Justiça do Estado do Amapá FGV Conhecimento 
-
-Analista Jud - Apoio Especializado - Tecnologia da Informação - Banco de Dados  Tipo 1  ̶  Branca – Página 10
+* **A)** É válida a divulgação nominal dos vencimentos de servidores no Portal da Transparência por atender ao interesse público.
+* **B)** O Estado deve omitir os nomes e cargos dos servidores, divulgando unicamente a matrícula funcional nos dados abertos.
+* **C)** A remuneração funcional é protegida por sigilo fiscal absoluto, inadmitindo consulta por cidadãos ou controladores.
+* **D)** A publicidade da remuneração exige prévia e expressa autorização formal de cada servidor público interessado.
+* **E)** É permitida a divulgação em portal de transparência apenas dos valores globais da folha mensal do órgão público.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: D**
-
----
-### Teste 058
-**(FGV – TCE-GO – Analista de Controle Externo - Tecnologia da Informação – 2024)**
-Jucundido Francisco, servidor de um município brasileiro fictício, 
-alcançou enfim o tempo de sua aposentadoria após décadas de 
-labor. O processo de aposentadoria somente foi encaminhado 
-para registro junto ao Tribunal de Contas Local após dois anos da 
-concessão da aposentadoria à Jucundido Francisco. Passados três 
-anos e meio de tramitação do processo na Corte de Contas o 
-tribunal decidiu anular o ato de concessão de aposentadoria por 
-verificação de algumas inconsistências. 
-Tendo por orientação o tema 445 de repercussão geral do 
-Supremo Tribunal Federal, assinale a alternativa que melhor 
-resolve a situação-problema apresentada.
-
-* **A)** O tribunal não poderia anular o ato de concessão de 
-aposentadoria haja vist a o prazo decadencial de 5 anos  da 
-publicação do ato no diário oficial.
-* **B)** O tribunal pode anular o ato de concessão de aposentadoria 
-na situação em tela.
-* **C)** O tribunal não poderia anular o ato de concessão de 
-aposentadoria haja vista o prazo decadencial  de 3 anos  a 
-contar da chegada do processo à respectiva Corte de Contas.
-* **D)** O tribunal não poderia anular o ato de concessão de 
-aposentadoria haja vista o prazo decadencial de 2 anos  a 
-contar da chegada do processo à respectiva Corte de Contas.
-* **E)** O tribunal não poderia anular o ato de concessão de 
-aposentadoria haja vista o prazo decadencial de 3 anos  da 
-publicação do ato no diário oficial, cabendo responsabilizar o 
-agente a que deu causa o atraso no envio.  
-
-Auditoria Governamental
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: B**
-
----
-### Teste 059
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Ana, servidora pública no âmbito do estado de Goiás, em conluio 
-com João, requereu o pagamento de determinado benefício 
-estatutário ao qual sabidamente não tinha direito. Apesar da 
-injuridicidade, João o deferiu poucos dias depois, tendo se 
-iniciado, incontinente,  o recebimento mensal do benefício por 
-Ana. Seis anos depois, os mecanismos de controle interno 
-detectaram o ilícito praticado. 
-À luz dessa narrativa, é correto afirmar que, nos termos da Lei 
-Estadual nº 13.800/2001,
-
-* **A)** apesar do tempo decorrido, a decisão pode ser anulada.
-* **B)** deve ser revogada a decisão que concedeu o benefício a Ana.
-* **C)** a decisão não pode ser modificada, pois a Administração 
-Pública decaiu da possibilidade de modificá-la.
-* **D)** como Ana recebe o benefício mensalmente, a cada mês se 
-reinicia o prazo prescricional de cinco anos para a anulação da 
-decisão.
-* **E)** como o benefício foi integrado à esfera jurídica de Ana, 
-operou-se o direito adquirido, logo, a decisão não pode ser 
-modificada.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Correto**. Tese Vinculante do Tema nº 483 de Repercussão Geral do STF: "É legítima a publicação, em sítio eletrônico mantido pela Administração Pública, do nome de seus servidores e do valor dos correspondentes vencimentos e vantagens pecuniárias". O STF assentou que a remuneração de agentes públicos é custeada pelo erário, devendo submeter-se ao escrutínio da cidadania e da transparência ativa.
+> - **B)** **Incorreto**. O STF assentou a legitimidade da divulgação do nome civil associado ao valor da remuneração.
+> - **C)** **Incorreto**. Remuneração de servidor público não se reveste de sigilo fiscal, pois decorre do pagamento de verbas públicas.
+> - **D)** **Incorreto**. A transparência pública decorre de imposição legal cogente (art. 8º da LAI), independendo de consentimento individual.
+> - **E)** **Incorreto**. A LAI e o STF exigem a discriminação individualizada das parcelas remuneratórias por agente.
 >
 > **Gabarito: A**
+### Teste 058
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Um cidadão protocolou pedido formal de acesso a informações perante determinada autarquia estadual goiana requerendo cópia de notas de empenho de obras rodoviárias. Considerando as normas gerais de transparência passiva disciplinadas na Lei Federal nº 12.527/2011:
+
+* **A)** O órgão público deve fornecer a informação de imediato ou no prazo improrrogável de até cinco dias corridos.
+* **B)** O acesso deve ser imediato ou em até vinte dias, admitida prorrogação por dez mediante justificativa expressa.
+* **C)** O fornecimento do documento subordina-se ao pagamento prévio de taxa administrativa pelo serviço de busca.
+* **D)** O órgão pode exigir do requerente a comprovação da destinação pretendida para os dados públicos solicitados.
+* **E)** O indeferimento tácito do pedido autoriza a perda imediata do cargo do servidor que atua no protocolo de entrada.
 
 ---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreto**. O prazo geral não é de 5 dias corridos; o art. 11 da LAI estabelece 20 dias, admitindo prorrogação.
+> - **B)** **Correto**. O art. 11 da Lei nº 12.527/2011 preceitua que, não sendo possível conceder o acesso imediato, o órgão deverá, em prazo não superior a 20 (vinte) dias, comunicar a data e o local para consulta ou fornecer a informação, admitida prorrogação por mais 10 (dez) dias mediante justificativa expressa formal.
+> - **C)** **Incorreto**. O serviço de busca e fornecimento de informação é gratuito, salvo custos de reprodução gráfica (art. 12 da LAI).
+> - **D)** **Incorreto**. O art. 10, § 3º da LAI veda expressamente qualquer exigência de motivação do pedido de acesso.
+> - **E)** **Incorreto**. A omissão sujeita o agente a sanções funcionais após regular processo administrativo, sem perda sumária de cargo.
+>
+> **Gabarito: B**
+### Teste 059
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Determinado cidadão protocolou requerimento de acesso à informação perante uma autarquia estadual e teve seu pedido indeferido com fundamento genérico de sigilo. A respeito do regime recursal disciplinado no art. 15 da Lei nº 12.527/2011, assinale a opção correta:
+
+* **A)** O requerente dispõe de dez dias para recorrer à autoridade hierarquicamente superior à que proferiu a decisão.
+* **B)** O recurso administrativo de indeferimento de acesso a dados deve ser julgado no prazo decadencial de trinta dias úteis.
+* **C)** A interposição recursal exige o pagamento prévio de custas postais e depósito de caução garantidora de autenticidade.
+* **D)** O recurso no âmbito da LAI é dotado de efeito suspensivo automático sobre a classificação de documentos do órgão.
+* **E)** O silêncio da autoridade recursal importa renúncia tácita do direito de petição do cidadão perante o Poder Público.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correto**. O art. 15 da Lei nº 12.527/2011 dispõe expressamente: "No caso de indeferimento de acesso a informações ou às razões da negativa do acesso, poderá o interessado interpor recurso contra a decisão no prazo de 10 (dez) dias a contar da sua ciência. Parágrafo único. O recurso será dirigido à autoridade hierarquicamente superior à que exarou a decisão impugnada, que deverá se manifestar no prazo de 5 (cinco) dias".
+> - **B)** **Incorreto**. A manifestação recursal da autoridade superior deve ocorrer em 5 (cinco) dias, e não trinta.
+> - **C)** **Incorreto**. Os recursos na LAI são inteiramente gratuitos e dispensam depósito recursal ou preparo de custas.
+> - **D)** **Incorreto**. Não há efeito suspensivo automático sobre a classificação sigilosa preexistente.
+> - **E)** **Incorreto**. O silêncio administrativo autoriza o recurso às instâncias superiores e a impetração de habeas data ou mandado de segurança.
+>
+> **Gabarito: A**
 ## 2. Classificação de Informações Sigilosas e Proteção de Dados Pessoais
 
 O sigilo é exceção estrita no ordenamento jurídico, admitido apenas quando a publicidade puser em risco a segurança da sociedade (vida, saúde ou integridade da população) ou do Estado (soberania, relações internacionais, inteligência, investigações).
@@ -315,119 +237,68 @@ O art. 31 da LAI estabelece regime especial de proteção para as informações 
 ---
 
 ### Teste 060
-**(FGV – TCE-GO – Analista de Controle Externo - Controle Externo – 2024)**
-O art. 1 00, da Constituição Federal, dispõe que os pagamentos 
-devidos pelas Fazendas Públicas Federal, Estaduais, Distrital e 
-Municipais, em virtude de sentença judiciária, far -se-ão 
-exclusivamente na ordem cronológica de apresentação dos 
-precatórios.  
-Sobre a mat éria e considerando a jurisprudência do Supremo 
-Tribunal Federal – STF, analise os itens a seguir:  
-I. No caso de necessidade de complementação da indenização, 
-ao final do processo expropriatório, deverá o pagamento ser 
-feito mediante depósito judicial direto se o Poder Público não 
-estiver em dia com os precatórios; 
-II. Não incidem juros da mora entre a data da realização dos 
-cálculos e a da requisição ou do precatório; 
-III. Os privilégios da Fazenda Pública são inextensíveis às 
-sociedades de economia mista  que executam atividades em 
-regime de concorrência ou que tenham como objetivo 
-distribuir lucros aos seus acionistas. 
-Está correto o que se afirma em
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Determinada informação de interesse da segurança pública estadual foi submetida a processo de classificação de sigilo pela comissão técnica competente. Nos termos expressos do art. 24, § 1º, da Lei Federal nº 12.527/2011, os prazos máximos de restrição de acesso à informação vigoram a partir da data de sua produção e são de:
 
-* **A)** I, II e III.
-* **B)** I e II, apenas.
-* **C)** I e III, apenas.
-* **D)** II e III, apenas.
-* **E)** I, apenas.
+* **A)** cinquenta anos para ultrassecreta, vinte e cinco anos para secreta e dez anos para reservada.
+* **B)** vinte e cinco anos para ultrassecreta, quinze anos para secreta e cinco anos para reservada.
+* **C)** trinta anos para ultrassecreta, vinte anos para secreta e dez anos para documentos reservados.
+* **D)** vinte anos para ultrassecreta, dez anos para secreta e cinco anos para documentos reservados.
+* **E)** quinze anos para ultrassecreta, dez anos para secreta e dois anos para a modalidade reservada.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Incorreto**. Prazos desconformes com a sistemática legal do art. 24 da LAI.
+> - **B)** **Correto**. O art. 24, § 1º, da Lei nº 12.527/2011 estabelece expressamente os prazos máximos de sigilo contados da data de sua produção: "I - ultrassecreta: 25 (vinte e cinco) anos; II - secreta: 15 (quinze) anos; III - reservada: 5 (cinco) anos" (regra mnemônica: 25 - 15 - 5).
+> - **C)** **Incorreto**. Prazos divergentes da literalidade da legislação federal.
+> - **D)** **Incorreto**. Não correspondem aos prazos legais do ordenamento pátrio.
+> - **E)** **Incorreto**. Prazos em descompasso com os comandos da LAI.
 >
-> **Gabarito: C**
-
----
+> **Gabarito: B**
 ### Teste 061
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2025)**
-Luciana, auditora de controle externo do Tribunal de Contas do 
-Estado do Piauí, obteve, no curso de auditoria governamental, 
-informações sigilosas de órgão jurisdicionado da Corte de Contas, 
-tomando a dev ida cautela no seu armazenamento e na restrição 
-de acesso. 
-Visando robustecer ainda mais as evidências obtidas, Luciana 
-realizou entrevistas de auditoria com outros órgãos 
-jurisdicionados do TCE -PI e com representantes da sociedade 
-civil, disponibilizando as informações sigilosas recebidas para fins 
-de confronto e circularização.  
-Nos termos do Estatuto dos Servidores Públicos do Estado do 
-Piauí, a conduta de Luciana de divulgar informações sigilosas 
-obtidas no exercício das funções pode sujeitá -la à penali dade 
-disciplinar de
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No que concerne à classificação de informações sigilosas e à competência funcional das autoridades no âmbito estadual, com fundamento no art. 27 da Lei Federal nº 12.527/2011, a competência para classificar informação no grau ULTRASSECRETO cabe a:
 
-* **A)** demissão.
-* **B)** suspensão.
-* **C)** advertência.
-* **D)** destituição de função gratificada.
-* **E)** destituição de cargo em comissão.
+* **A)** qualquer servidor ocupante de cargo efetivo da área de inteligência policial estadual.
+* **B)** Governador do Estado, Vice-Governador, Secretários de Estado e titulares de autarquias.
+* **C)** Procurador-Geral de Justiça exclusivamente, vedada a classificação por autoridade do Executivo.
+* **D)** Auditores de Controle Externo do Tribunal de Contas do Estado durante auditorias setoriais.
+* **E)** Presidente da Assembleia Legislativa unicamente, mediante aprovação pelo Plenário legislativo.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Incorreto**. A classificação ultrassecreta é de competência restritíssima das mais altas autoridades de cúpula estatal.
+> - **B)** **Correto**. O art. 27, I, da Lei nº 12.527/2011 estabelece que a classificação no grau ultrassecreto é privativa de autoridades de cúpula: no âmbito estadual e distrital, do Governador do Estado, do Vice-Governador, de Secretários de Estado e autoridades com prerrogativas equivalentes, além dos dirigentes máximos de autarquias e fundações estaduais.
+> - **C)** **Incorreto**. O Chefe do Executivo detém competência precípua para classificação no âmbito de seu Poder.
+> - **D)** **Incorreto**. Auditores de controle externo não detêm poder discricionário de classificação originária de documentos do jurisdicionado.
+> - **E)** **Incorreto**. O Presidente do Legislativo classifica no âmbito do próprio Poder Legislativo, não sendo competência exclusiva.
 >
-> **Gabarito: D**
-
----
+> **Gabarito: B**
 ### Teste 062
-**(FGV – TJ-BA – Analista Judiciário - Tecnologia da Informação – 2015)**
-“julgando-se ofendidos em sua honra”; essa frase do texto 3 
-poderia estar co rretamente expressa numa oração 
-desenvolvida por:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Determinado cidadão requereu, com fundamento na LAI, acesso aos prontuários médicos e laudos psicológicos de determinado candidato nomeado em concurso público estadual. De acordo com o art. 31 da Lei Federal nº 12.527/2011 e a Lei Geral de Proteção de Dados Pessoais (LGPD):
 
-* **A)** após se julgarem ofendidos em sua honra;
-* **B)** quando se julgaram ofendidos em sua honra;
-* **C)** caso se tenham julgado ofendidos em sua honra;
-* **D)** dado que se julgaram ofendidos em sua honra;
-* **E)** por se julgarem ofendidos em sua honra. 
-
-Texto 4 – “O caminho para baixo era estreito e íngreme, e tanto 
-os homens quanto os animais não sabiam onde estavam pisando, 
-por causa da neve; todos os que saíam da trilha ou tropeçavam 
-em algo perdiam o equilíbrio e despenc avam no precipício. A 
-esses perigos eles resistiam, pois àquela altura já se haviam 
-acostumado a tais infortúnios, mas, por fim, chegaram a um lugar 
-onde o caminho era estreito demais para os elefantes e até para 
-os animais de carga. Uma avalanche anterior  já havia arrastado 
-cerca de trezentos metros da encosta, ao passo que outra, mais 
-recente, agravara ainda mais a situação. A essa altura, os 
-soldados mais uma vez perderam a calma e quase caíram em 
-desespero.” (Políbio, Histórias).
+* **A)** Os dados relativos à intimidade, vida privada e saúde têm acesso restrito pelo prazo máximo de cem anos.
+* **B)** As informações de saúde de agentes públicos são de domínio público universal em razão do concurso público.
+* **C)** A proteção a dados pessoais extingue-se automaticamente após o decurso do prazo quinquenal da posse.
+* **D)** Qualquer particular pode obter certidão integral de prontuário de terceiro sem justificar a finalidade.
+* **E)** O sigilo de informações de saúde prescreve no prazo máximo de vinte e cinco anos da realização do exame.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Correto**. O art. 31, § 1º, I, da Lei Federal nº 12.527/2011 determina expressamente que as informações pessoais relativas à intimidade, vida privada, honra e imagem terão seu acesso restrito a agentes públicos legalmente autorizados e à pessoa a que se referirem, independentemente de classificação de sigilo, pelo prazo máximo de 100 (cem) anos a contar da data de sua produção.
+> - **B)** **Incorreto**. Dados médicos e de intimidade são dados pessoais sensíveis e não perdem a tutela com o concurso.
+> - **C)** **Incorreto**. O prazo da restrição de acesso a dados da intimidade é centenário (100 anos).
+> - **D)** **Incorreto**. Terceiros não têm acesso a dados pessoais de terceiros sem autorização expressa ou previsão legal específica.
+> - **E)** **Incorreto**. O prazo legal é de até cem anos, e não vinte e cinco.
 >
-> **Gabarito: D**
-
----
+> **Gabarito: A**
 ## 3. Licitações e Contratos de Serviços de Publicidade (Lei nº 12.232/2010)
 
 A contratação de serviços de publicidade institucional pela Administração Pública direta e indireta de qualquer dos Poderes da União, Estados, DF e Municípios submete-se a regime jurídico especialíssimo regido pela **Lei Federal nº 12.232/2010** (combinada subsidiariamente com a Lei Geral de Licitações nº 14.133/2021).
@@ -475,87 +346,68 @@ Para garantir o julgamento impessoal e estritamente técnico:
 ---
 
 ### Teste 063
-**(FCC – TRT-23 – Analista Judiciário - Tecnologia da Informação – 2016)**
-Um Analista do Tribunal pretende contratar algumas soluções de Tecnologia da Informação e Comunicação para serem 
-utilizadas em seu projeto prioritário. Para tanto, ele deve reportar-se à Resolução n o 182 de 17 de outubro de 2013 que dispõe 
-sobre as diretrizes para as contratações de Solução de Tecnologia da Informação e Comunicação pelos órgãos submetidos ao 
-controle administrativo e financeiro do Conselho Nacional de Justiça − CNJ. Ao estudar a referida resolução ele viu que a 
-execução da fase de Elaboração dos Estudos Preliminares da STIC é
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Uma autarquia estadual pretende deflagrar procedimento licitatório para contratação de serviços de publicidade institucional prestados por agência de propaganda. Considerando as normas gerais estabelecidas na Lei Federal nº 12.232/2010 e na Lei Federal nº 14.133/2021:
 
-* **A)** obrigatória independentemente do tipo de contratação.
-* **B)** necessária, porém não é obrigatória.
-* **C)** obrigatória, mas não nos casos de inexigibilidade.
-* **D)** obrigatória somente nos casos de dispensa de licitação.
-* **E)** obrigatória, mas não nos casos de convênios. 
-Caderno de Prova ’H08’, Tipo 001
-
-TRT23-An-Judiciário-Tecnol.Informação-H08 11
+* **A)** A licitação para serviços de publicidade deve ser realizada compulsoriamente pela modalidade pregão eletrônico.
+* **B)** Os serviços de publicidade institucional devem ser contratados mediante melhor técnica ou técnica e preço.
+* **C)** É admitida a contratação direta por inexigibilidade fundada em notória especialização sem critérios objetivos.
+* **D)** O julgamento das propostas publicitárias deve adotar com exclusividade o critério estrito de menor preço global.
+* **E)** A licitação de publicidade dispensa a atuação de subcomissão técnica de julgamento de proposta de comunicação.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Incorreto**. O art. 5º da Lei nº 12.232/2010 e o art. 180 da Lei nº 14.133/2021 vedam expressamente a utilização da modalidade pregão para contratação de serviços de publicidade institucional.
+> - **B)** **Correto**. Conforme estabelece expressamente o art. 5º da Lei nº 12.232/2010, os serviços de publicidade institucional prestados por intermédio de agências de propaganda serão obrigatoriamente licitados nas modalidades com os tipos "melhor técnica" ou "técnica e preço", em razão da natureza eminentemente intelectual e criativa do objeto.
+> - **C)** **Incorreto**. É vedada a inexigibilidade genérica de licitação para contratação de serviços de publicidade governamental.
+> - **D)** **Incorreto**. O tipo menor preço é vedado para a seleção de campanhas publicitárias com agências.
+> - **E)** **Incorreto**. A Lei nº 12.232/2010 exige expressamente a formação de subcomissão técnica com sorteio de membros sem vínculo.
 >
-> **Gabarito: C**
-
----
+> **Gabarito: B**
 ### Teste 064
-**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**
-Um usuário interessado em obter toda a doutrina publica-
-da sobre a Lei de Licitações e Contratos Administrativos 
-solicita uma pesquisa à biblioteca da sua instituição. Para 
-atender com precisão e qualidade à solicitação, o 
-bibliotecário deverá consultar
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A contratação de serviços de publicidade institucional prestados por intermédio de agências de propaganda, regida pela Lei Federal nº 12.232/2010, submete-se a rigoroso procedimento de julgamento de propostas técnicas. A respeito da composição e funcionamento da subcomissão técnica (art. 10 da lei):
 
-* **A)** o Portal Nacional dos Tribunais de Contas.
-* **B)** a Bibliografia Brasileira de Direito.
-* **C)** o Sistema de Legislação Informatizada.
-* **D)** o Sistema de Informações do Congresso Nacional.
-* **E)** a Biblioteca Jurídica Virtual. 
-_________________________________________________________
+* **A)** A subcomissão técnica deve ser constituída por membros indicados livremente pela agência que venceu o plano.
+* **B)** A subcomissão deve ser composta por pelo menos três membros, sendo no mínimo um terço sem vínculo funcional.
+* **C)** Todos os membros da subcomissão técnica devem ser auditores do Tribunal de Contas para garantir a lisura.
+* **D)** Os integrantes da subcomissão técnica devem manter filiação partidária idêntica à do Governador do Estado.
+* **E)** A subcomissão atua em sessão secreta sem lavratura de ata pública para resguardar as criações intelectuais.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Incorreto**. A escolha dos membros da subcomissão segue procedimento legal de sorteio público entre cadastrados prévios.
+> - **B)** **Correto**. O art. 10, § 1º, da Lei nº 12.232/2010 preconiza expressamente que as propostas técnicas serão julgadas por subcomissão técnica composta por, no mínimo, 3 (três) membros, dos quais pelo menos 1/3 (um terço) não poderá manter qualquer vínculo funcional ou contratual, direto ou indireto, com o órgão ou entidade responsável pela licitação.
+> - **C)** **Incorreto**. Membros de Tribunais de Contas não integram comissões de licitação de jurisdicionados (atuação a posteriori).
+> - **D)** **Incorreto**. É vedada qualquer vinculação político-partidária na formação de comissões técnicas estatais.
+> - **E)** **Incorreto**. Os atos licitatórios são públicos e as pontuações fundamentadas em atas oficiais obrigatórias.
 >
-> **Gabarito: D**
-
----
+> **Gabarito: B**
 ### Teste 065
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-A classificação dos solos em argila, silte, areia ou pedregulho é 
-feito com base na propriedade de
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No âmbito de procedimento licitatório processado sob o regime da Lei Federal nº 12.232/2010 para contratação de agência de publicidade pelo Estado de Goiás, foram inseridas cláusulas para disciplinar pagamentos e bonificações. A respeito da disciplina dos pagamentos e das vedações expressas nessa legislação:
 
-* **A)** diâmetro médio dos grãos.
-* **B)** composição mineralógica dos grãos.
-* **C)** densidade do solo.
-* **D)** grau de porosidade do solo.
-* **E)** nível de compactação do solo.
+* **A)** A agência de publicidade pode reter valores de descontos obtidos de veículos de comunicação sem repasse ao erário.
+* **B)** As vantagens e descontos especiais obtidos na negociação de veículos de comunicação pertencem ao contratante público.
+* **C)** É permitida a remuneração de serviços de publicidade governamental com base exclusiva em permuta patrimonial de bens.
+* **D)** O poder público pode efetuar adiantamento de recursos antes da formalização do plano de mídia pelos contratados.
+* **E)** Os veículos de divulgação comercial ficam dispensados de emitir nota fiscal de veiculação em favor do ente estatal.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Incorreto**. A retenção indevida de descontos é ilícita e viola expressamente a legislação de regência.
+> - **B)** **Correto**. O art. 15 da Lei nº 12.232/2010 dispõe expressamente que os descontos de antecipação de pagamento, os bônus e vantagens obtidos na compra de espaço e tempo em veículos de divulgação pertencem integralmente ao contratante público e deverão ser repassados à Administração ou deduzidos das faturas.
+> - **C)** **Incorreto**. Os pagamentos governamentais devem ser realizados em moeda corrente e estritamente atrelados às liquidações orçamentárias.
+> - **D)** **Incorreto**. É vedado o adiantamento de valores sem a devida comprovação da execução dos serviços.
+> - **E)** **Incorreto**. A comprovação de veiculação (clipping e faturas originais) é exigência indeclinável para a liquidação da despesa.
 >
-> **Gabarito: C**
-
----
+> **Gabarito: B**
 ## 4. Fontes Recomendadas na Internet
 
 - [Lei Federal nº 12.527/2011 (Lei de Acesso à Informação - LAI)](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm)  

@@ -88,90 +88,86 @@ flowchart TD
 ---
 
 ### Teste 370
-**(FGV – TJ-RR – Analista Judiciário - Suporte e Infraestrutura de TI – 2024)**
-Os princípios da Gestão Estratégica de Processos não incluem
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Determinado Tribunal de Contas publicou seu Plano Estratégico com os seguintes enunciados institucionais:
 
-* **A)** a visão estratégica.
-* **B)** a seletividade.
-* **C)** o gerenciamento intensivo.
-* **D)** a padronização de processos.
-* **E)** o aprendizado.
+I. "Garantir a adequada aplicação dos recursos públicos em benefício da sociedade por meio do controle externo tempestivo e orientador."  
+
+II. "Ser reconhecido pela sociedade, até o ano de 2030, como órgão de controle de excelência, moderno e indispensável à integridade governamental."  
+
+Nos termos da teoria do planejamento estratégico, os enunciados I e II correspondem, respectivamente, à:
+
+* **A)** Visão e Missão.
+* **B)** Missão e Valores.
+* **C)** Missão e Visão.
+* **D)** Meta Operacional e Diretriz Tática.
+* **E)** Valores e Visão.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: D**
+> - **A) Incorreta.** Inverte a ordem das definições essenciais de planejamento estratégico.
+> - **B) Incorreta.** Confunde a imagem de futuro projetada com valores éticos/comportamentais.
+> - **C) CORRETA.** O Enunciado I reflete a razão de ser primordial e a atuação pública no presente (**Missão**), enquanto o Enunciado II projeta a imagem-alvo aspiracional com marco temporal delimitado até 2030 (**Visão**).
+> - **D) Incorreta.** Declarações institucionais de cúpula não constituem metas operacionais ou diretrizes táticas.
+> - **E) Incorreta.** Classifica equivocadamente o propósito do órgão como princípios ou valores.
+> 
+> **Gabarito: C**
 
 ---
+
 ### Teste 371
-**(FGV – TJ-RR – Analista Judiciário - Governança e Gestão de TI – 2024)**
-Os princípios da Gestão Estratégica de Processos não incluem
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Ao formular seu planejamento plurianual, determinada defensoria pública incluiu expressamente em seu documento diretor os seguintes postulados: "Independência funcional, defesa irrestrita dos direitos humanos, transparência e urbanidade no atendimento aos cidadãos vulneráveis". Sob a perspectiva da teoria da administração estratégica, esses postulados representam:
 
-* **A)** a visão estratégica.
-* **B)** a seletividade.
-* **C)** o gerenciamento intensivo.
-* **D)** a padronização de processos.
-* **E)** o aprendizado.
+* **A)** A Visão de futuro da defensoria para os próximos dez anos.
+* **B)** As Metas táticas quantitativas dos núcleos regionais.
+* **C)** Os Valores institucionais que norteiam as condutas e estabelecem balizas éticas indeclináveis.
+* **D)** As Estratégias não realizadas do exercício anterior.
+* **E)** As Oportunidades captadas no ambiente externo através da análise PESTEL.
+
+
+---
+
+> **Comentário Detalhado:**  
+>
+> - **A) Incorreta.** A Visão é uma imagem de futuro onde a instituição quer chegar, com prazo delimitado.  
+> - **B) Incorreta.** Metas táticas são alvos quantitativos mensuráveis (ex.: realizar 5.000 atendimentos).  
+> - **C) CORRETA.** Os princípios éticos, mandamentos morais e diretrizes de conduta que direcionam as atitudes dos membros de uma instituição e expressam o que é inegociável na cultura organizacional constituem os **Valores** da organização.  
+> - **D) Incorreta.** Estratégias não realizadas são planos que foram formalmente descontinuados.  
+> - **E) Incorreta.** Oportunidades são eventos externos favoráveis do mercado/ambiente político.  
+> 
+> **Gabarito: C**
 
 ---
 
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: D**
-
----
 ### Teste 372
-**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
-A gestão de desempenho compreende planejamento, 
-organização, supervisão e controle para entregar excelentes 
-resultados. 
-Assinale a opção que apresenta, corretamente, os processos da 
-gestão de desempenho e respectivas funções típicas.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Na definição da identidade corporativa e do referencial estratégico de um órgão de controle externo, a **Visão de Futuro** diferencia-se da **Missão Institucional** por:
 
-* **A)** Planejamento: fixação de objetivos e definição de planos. 
-Organização: implementação e infraestrutura de trabalho. 
-Supervisão: comunicação e orientação para equipe. Controle: 
-indicadores de desempenho e criação de valor.
-* **B)** Planejamento: criação de valor. Organização: alocação de 
-recursos. Supervisão: fixação de objetivos. Controle: 
-implementação de sistemas de informação.
-* **C)** Planejamento: definição de metas e planos de trabalho. 
-Organização: execução de tarefas e controle de resultados. 
-Supervisão: análise de competências. Controle: comunicação 
-com a equipe.
-* **D)** Planejamento: avaliação de competências. Organização: 
-gestão de pessoas. Supervisão: avaliação de resultados. 
-Controle: treinamento e desenvolvimento.
-* **E)** Planejamento: distribuição de tarefas. Organização: análise de 
-indicadores. Supervisão: criação de métricas. Controle: gestão 
-de sistemas de informação.
+* **A)** Descrever a imagem mental do estado futuro desejado que a instituição almeja alcançar em determinado horizonte temporal (onde queremos chegar), enquanto a Missão define a razão de existir fundamental e o propósito perene de atuação presente do órgão (quem somos e para que servimos).
+* **B)** Estabelecer os princípios éticos inegociáveis que regem a conduta disciplinar dos servidores concursados.
+* **C)** Consistir em documento sigiloso e restrito à apreciação do Presidente do Tribunal.
+* **D)** Ter validade perpétua e imutável que não admite revisão nem mesmo em novos ciclos plurianuais de planejamento.
+* **E)** Focar exclusivamente na redução percentual dos gastos de custeio com passagens aéreas e combustíveis.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: B**
+> - **A)** Correta. Conceituação clássica: **Missão** é a razão de ser fundamental da instituição, sua vocação e propósito permanente de existir perante a sociedade; **Visão** é o estado futuro almejado, a aspiração ambiciosa de longo prazo, aquilo que a organização pretende ser e como deseja ser reconhecida no futuro.
+> - **B)** Incorreta. Refere-se aos **Valores** organizacionais.
+> - **C)** Incorreta. A identidade estratégica deve ser amplamente divulgada e compartilhada.
+> - **D)** Incorreta. A Visão tem horizonte temporal determinado (ex.: "ser referência nacional até 2030") e é renovada a cada ciclo.
+> - **E)** Incorreta. Meta operacional pontual, não visão estratégica.
+> 
+> **Gabarito: A**
 
 ---
+
 ## 2. O Ciclo da Gestão Estratégica Integrada
 
 A gestão estratégica contemporânea não é um evento isolado quadrienal, mas um ciclo administrativo contínuo, dinâmico e retroalimentado composto por quatro etapas estruturadas:
@@ -195,41 +191,32 @@ flowchart TD
 ---
 
 ### Teste 373
-**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
-A gestão de resultados nos serviços públicos busca eficiência, 
-transparência e atendimento às demandas sociais por meio de 
-monitoramento e avaliação contínuos. 
-Assinale a opção que apresenta, corretamente, itens da agenda 
-para a estruturação da gestão de resultados na produção de 
-serviços públicos.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Henry Mintzberg, ao analisar a formação das estratégias organizacionais, contrapôs o modelo puramente racional e deliberado ao surgimento de estratégias não previstas.
 
-* **A)** Foco nos resultados e políticas públicas formuladas a partir de 
-processo de organização governamental.
-* **B)** Caráter centralizado da tomada de decisão e flexibilização de 
-recursos com cobrança de responsabilidade de gestores.
-* **C)** Utilização de planejamento estratégico nas organizações 
-públicas e otimização dos processos administrativos.
-* **D)** Mudanças metodológicas no processo de formulação do 
-orçamento privado e sistemas de monitoramento da gestão, 
-prestação de contas e avaliação.
-* **E)** Desenvolvimento de indicadores que permitam medir o 
-insumo da ação governamental e indicar os desvios para 
-introdução de medidas preventivas. 
-TRIBUNAL REGIONAL DO TRABALHO DA 24ª REGIÃO (TRT-24) – REAPLICAÇÃO FGV CONHECIMENTO
+Segundo Mintzberg, a **Estratégia Emergente** caracteriza-se por:
+
+* **A)** Surgir a partir de padrões consistentes de ação que emergem espontaneamente ao longo do tempo, em resposta a contingências, oportunidades e desafios imprevistos do ambiente, sem terem sido formalmente intencionadas no plano estratégico original.
+* **B)** Ser minuciosamente calculada pela alta administração em planos operacionais plurianuais de dez anos.
+* **C)** Exigir autorização prévia em emenda parlamentar na Lei de Diretrizes Orçamentárias.
+* **D)** Representar a parte do plano estratégico formal que foi integralmente abandonada e descartada pela equipe (*estratégia não realizada*).
+* **E)** Constituir violação do princípio da legalidade administrativa suscetível de anulação sumária.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: B**
+> - **A)** Correta. Para Mintzberg, a estratégia realizada é uma combinação de **estratégias deliberadas** (intenções originais que foram formalmente planejadas e executadas) e **estratégias emergentes** (padrões de ação que não foram planejados de antemão, mas surgiram na prática em resposta à dinâmica ambiental e acabaram sendo adotados com sucesso pela organização).
+> - **B)** Incorreta. Isso caracteriza a estratégia puramente planejada/deliberada.
+> - **C)** Incorreta. Conceito de administração estratégica, não de formalismo financeiro.
+> - **D)** Incorreta. O que é descartado chama-se *estratégia não realizada*.
+> - **E)** Incorreta. Estratégias emergentes expressam capacidade de adaptação e resiliência.
+> 
+> **Gabarito: A**
 
 ---
+
 ## 3. Estratégias Deliberadas vs. Estratégias Emergentes (Henry Mintzberg)
 
 Henry Mintzberg revolucionou os estudos de estratégia organizacional ao demonstrar que a estratégia executada na prática raramente corresponde de forma idêntica àquela planejada nos gabinetes da diretoria:
@@ -255,79 +242,54 @@ flowchart LR
 ---
 
 ### Teste 374
-**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
-A gestão de desempenho compreende planejamento, 
-organização, supervisão e controle para entregar excelentes 
-resultados. 
-Assinale a opção que apresenta, corretamente, os processos da 
-gestão de desempenho e respectivas funções típicas.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+De acordo com os conceitos desenvolvidos por Henry Mintzberg sobre a dinâmica da formulação e implementação estratégica, as ações e padrões de conduta que emergem espontaneamente na rotina operacional da organização, sem terem sido previamente previstos no plano formal deliberado pela cúpula, são denominadas:
 
-* **A)** Planejamento: fixação de objetivos e definição de planos. 
-Organização: implementação e infraestrutura de trabalho. 
-Supervisão: comunicação e orientação para equipe. Controle: 
-indicadores de desempenho e criação de valor.
-* **B)** Planejamento: criação de valor. Organização: alocação de 
-recursos. Supervisão: fixação de objetivos. Controle: 
-implementação de sistemas de informação.
-* **C)** Planejamento: definição de metas e planos de trabalho. 
-Organização: execução de tarefas e controle de resultados. 
-Supervisão: análise de competências. Controle: comunicação 
-com a equipe.
-* **D)** Planejamento: avaliação de competências. Organização: 
-gestão de pessoas. Supervisão: avaliação de resultados. 
-Controle: treinamento e desenvolvimento.
-* **E)** Planejamento: distribuição de tarefas. Organização: análise de 
-indicadores. Supervisão: criação de métricas. Controle: gestão 
-de sistemas de informação.
+* **A)** Estratégias Pretendidas.
+* **B)** Estratégias Emergentes.
+* **C)** Estratégias Não Realizadas.
+* **D)** Estratégias Deliberadas.
+* **E)** Estratégias Mecanicistas.
+
 
 ---
 
-> **Comentário Detalhado:**
+> **Comentário Detalhado:**  
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A) Incorreta.** A estratégia pretendida é o plano formal inicial traçado pela liderança.  
+> - **B) CORRETA.** Para Mintzberg, as **estratégias emergentes** são aquelas que não foram concebidas no plano formal deliberado, mas surgem espontaneamente da base organizacional a partir da resposta prática dos colaboradores a desafios e oportunidades cotidianas não previstos.  
+> - **C) Incorreta.** A estratégia não realizada é a parcela do plano que foi descartada ou abandonada.  
+> - **D) Incorreta.** A estratégia deliberada é o plano formal que foi executado exatamente conforme o planejado.  
+> - **E) Incorreta.** Categoria inexistente na taxonomia de Mintzberg.  
+> 
 > **Gabarito: B**
 
 ---
+
 ### Teste 375
-**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
-A gestão de resultados nos serviços públicos busca eficiência, 
-transparência e atendimento às demandas sociais por meio de 
-monitoramento e avaliação contínuos. 
-Assinale a opção que apresenta, corretamente, itens da agenda 
-para a estruturação da gestão de resultados na produção de 
-serviços públicos.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Na clássica obra *Safári de Estratégia*, Henry Mintzberg, Bruce Ahlstrand e Joseph Lampel classificam o pensamento estratégico em dez escolas, agrupadas em **Prescritivas** e **Descritivas**.
 
-* **A)** Foco nos resultados e políticas públicas formuladas a partir de 
-processo de organização governamental.
-* **B)** Caráter centralizado da tomada de decisão e flexibilização de 
-recursos com cobrança de responsabilidade de gestores.
-* **C)** Utilização de planejamento estratégico nas organizações 
-públicas e otimização dos processos administrativos.
-* **D)** Mudanças metodológicas no processo de formulação do 
-orçamento privado e sistemas de monitoramento da gestão, 
-prestação de contas e avaliação.
-* **E)** Desenvolvimento de indicadores que permitam medir o 
-insumo da ação governamental e indicar os desvios para 
-introdução de medidas preventivas.
+Constitui uma escola de natureza tipicamente **Prescritiva** (normativa), voltada para prescrever *como a estratégia deve ser idealmente formulada*:
+
+* **A)** A Escola do Planejamento (que concebe a formação estratégica como um processo formal, decomposto em etapas sequenciais analíticas e detalhadas).
+* **B)** A Escola do Aprendizado (que vê a estratégia como um processo emergente e contínuo de experimentação).
+* **C)** A Escola do Poder (que compreende a estratégia como um processo de negociação e disputas políticas entre grupos).
+* **D)** A Escola Cultural (que enxerga a formação da estratégia como um processo coletivo enraizado em valores e crenças).
+* **E)** A Escola Ambiental (que trata a estratégia como uma resposta passiva e reativa às pressões ecológicas do contexto externo).
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: B**
+> - **A)** Correta. As três escolas **Prescritivas** (normativas - como deve ser formulada a estratégia) são: **Design** (estratégia como processo de concepção/ajuste SWOT), **Planejamento** (processo formal e sistemático de passos analíticos) e **Posicionamento** (processo analítico focado na indústria e concorrência - Porter). As demais escolas (Empreendedora, Cognitiva, Aprendizado, Poder, Cultural, Ambiental e Configuração) são **Descritivas** ou Integrativas (focam em como a estratégia realmente se desenvolve na prática).
+> - **B), C), D), E)** Incorretas. São todas escolas **Descritivas**.
+> 
+> **Gabarito: A**
 
 ---
+
 ## 4. As Dez Escolas do Pensamento Estratégico (*Safári de Estratégia*)
 
 Na consagrada obra *Safári de Estratégia*, Henry Mintzberg, Bruce Ahlstrand e Joseph Lampel organizaram a evolução do pensamento estratégico em dez escolas, categorizadas em prescritivas, descritivas e integrativas:
@@ -362,140 +324,121 @@ flowchart TD
 ---
 
 ### Teste 376
-**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
-A gestão de desempenho compreende planejamento, 
-organização, supervisão e controle para entregar excelentes 
-resultados. 
-Assinale a opção que apresenta, corretamente, os processos da 
-gestão de desempenho e respectivas funções típicas.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Dentre as dez escolas do pensamento estratégico catalogadas na obra *Safári de Estratégia*, a Escola do Design destaca-se historicamente por defender que a estratégia deve ser concebida por meio de:
 
-* **A)** Planejamento: fixação de objetivos e definição de planos. 
-Organização: implementação e infraestrutura de trabalho. 
-Supervisão: comunicação e orientação para equipe. Controle: 
-indicadores de desempenho e criação de valor.
-* **B)** Planejamento: criação de valor. Organização: alocação de 
-recursos. Supervisão: fixação de objetivos. Controle: 
-implementação de sistemas de informação.
-* **C)** Planejamento: definição de metas e planos de trabalho. 
-Organização: execução de tarefas e controle de resultados. 
-Supervisão: análise de competências. Controle: comunicação 
-com a equipe.
-* **D)** Planejamento: avaliação de competências. Organização: 
-gestão de pessoas. Supervisão: avaliação de resultados. 
-Controle: treinamento e desenvolvimento.
-* **E)** Planejamento: distribuição de tarefas. Organização: análise de 
-indicadores. Supervisão: criação de métricas. Controle: gestão 
-de sistemas de informação.
+* **A)** Ensaios laboratoriais e simulações estocásticas operadas por inteligência artificial.
+* **B)** Um processo deliberado de ajuste e adequação mútua entre as capacidades internas da organização (forças e fraquezas) e as condições do ambiente externo (oportunidades e ameaças).
+* **C)** Jogos de barganha política e manobras coercitivas promovidas por sindicatos corporativos.
+* **D)** Respostas puramente passivas e reativas ditadas pelas forças demográficas e climáticas do ambiente ecológico.
+* **E)** Vieses cognitivos inconscientes e restrições biológicas da capacidade de memória dos diretores executivos.
+
 
 ---
 
-> **Comentário Detalhado:**
+> **Comentário Detalhado:**  
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A) Incorreta.** Simulações matemáticas pertencem a abordagens analíticas quantitativas ou de pesquisa operacional.  
+> - **B) CORRETA.** A **Escola do Design** é a escola clássica (pioneira nos anos 1960) que propõe a estratégia como um processo deliberado de concepção mental cujo núcleo é o **ajuste (*fit*)** essencial entre a análise interna da organização (pontos fortes e fracos) e a análise externa do ambiente (oportunidades e ameaças), constituindo a base conceitual da famosa matriz SWOT.  
+> - **C) Incorreta.** Jogos de barganha e política caracterizam a Escola do Poder.  
+> - **D) Incorreta.** Adaptação reativa às forças externas caracteriza a Escola Ambiental.  
+> - **E) Incorreta.** Vieses mentais e processos cerebrais caracterizam a Escola Cognitiva.  
+> 
 > **Gabarito: B**
 
 ---
+
+
+#### B) Escolas Descritivas (Foco em descrever como a estratégia ocorre na prática real):
+4. **Escola Empreendedora:** Enxerga a formulação estratégica como um processo visionário personalizado, centrado na intuição, experiência e liderança carismática do governante ou fundador.
+5. **Escola Cognitiva:** Analisa a estratégia como um processo mental no cérebro do tomador de decisão, investigando como os modelos mentais e vieses cognitivos filtram ou distorcem as informações do ambiente.
+6. **Escola do Aprendizado:** Sustenta que o ambiente é excessivamente dinâmico para planejamentos rígidos; a estratégia emerge de forma incremental e contínua à medida que a organização "aprende fazendo" (*learning organizations*).
+7. **Escola do Poder:** Enxerga a estratégia como um processo de negociação política, jogos de influência e coalizões entre grupos rivais pelo controle do orçamento e das decisões institucionais.
+8. **Escola Cultural:** Trata a estratégia como um processo social coletivo enraizado nos valores, símbolos, rituais e crenças compartilhadas pelos servidores.
+9. **Escola Ambiental:** Trata a organização como um agente relativamente passivo, cuja estratégia é moldada e determinada pelas pressões impositivas do ambiente externo.
+
+#### C) Escola Integrativa:
+10. **Escola da Configuração:** Sintetiza as visões anteriores, compreendendo que a organização atravessa longos períodos de estabilidade estrutural coerente (configurações), interrompidos periodicamente por transformações revolucionárias e saltos quânticos de ruptura (*turnaround*).
+
+> ⭐ **IMPORTANTE (ESCOLAS PRESCRITIVAS VS. DESCRITIVAS):**  
+>
+> - **Escolas Prescritivas (Design, Planejamento e Posicionamento):** Preocupam-se em prescrever **COMO AS ESTRATÉGIAS DEVEM SER FEITAS** (foco normativo do modelo ideal).  
+> - **Escolas Descritivas (Aprendizado, Poder, Cultural, etc.):** Preocupam-se em descrever **COMO AS ESTRATÉGIAS EFETIVAMENTE ACONTECEM NA PRÁTICA** (foco empírico real).
+
+---
+
 ### Teste 377
-**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
-A gestão de resultados nos serviços públicos busca eficiência, 
-transparência e atendimento às demandas sociais por meio de 
-monitoramento e avaliação contínuos. 
-Assinale a opção que apresenta, corretamente, itens da agenda 
-para a estruturação da gestão de resultados na produção de 
-serviços públicos.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Em sua clássica taxonomia do pensamento estratégico exposta no livro *Safári de Estratégia*, Henry Mintzberg e colaboradores classificam as escolas da estratégia em prescritivas e descritivas. Dentre as escolas prescritivas, aquela que concebe a formulação estratégica como um processo analítico formal, decomposto em etapas sequenciais rígidas e operado prioritariamente por técnicos e analistas de planejamento, é a:
 
-* **A)** Foco nos resultados e políticas públicas formuladas a partir de 
-processo de organização governamental.
-* **B)** Caráter centralizado da tomada de decisão e flexibilização de 
-recursos com cobrança de responsabilidade de gestores.
-* **C)** Utilização de planejamento estratégico nas organizações 
-públicas e otimização dos processos administrativos.
-* **D)** Mudanças metodológicas no processo de formulação do 
-orçamento privado e sistemas de monitoramento da gestão, 
-prestação de contas e avaliação.
-* **E)** Desenvolvimento de indicadores que permitam medir o 
-insumo da ação governamental e indicar os desvios para 
-introdução de medidas preventivas. 
-TRIBUNAL REGIONAL DO TRABALHO DA 24ª REGIÃO (TRT-24) – REAPLICAÇÃO FGV CONHECIMENTO
+* **A)** Escola do Aprendizado.
+* **B)** Escola do Planejamento.
+* **C)** Escola Empreendedora.
+* **D)** Escola Cultural.
+* **E)** Escola do Poder.
+
 
 ---
 
-> **Comentário Detalhado:**
+> **Comentário Detalhado:**  
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A) Incorreta.** A Escola do Aprendizado é descritiva e concebe a estratégia emergindo de forma incremental ao longo do tempo.  
+> - **B) CORRETA.** A **Escola do Planejamento** (liderada por Igor Ansoff) é uma escola prescritiva que encara a estratégia como um processo altamente formalizado, programado e subdividido em etapas analíticas rígidas, com orçamentos detalhados preparados por planejadores profissionais da organização.  
+> - **C) Incorreta.** A Escola Empreendedora é descritiva e fundamenta-se na visão e intuição individual do líder.  
+> - **D) Incorreta.** A Escola Cultural é descritiva e baseia-se em crenças e valores coletivos.  
+> - **E) Incorreta.** A Escola do Poder é descritiva e foca em jogos políticos e disputas de recursos.  
+> 
 > **Gabarito: B**
 
 ---
+
 ### Teste 378
-**(FCC – TRT-6 – Analista Judiciário - Tecnologia da Informação – 2012)**
-O processo de monitoramento de programas de governo pressupõe
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Na elaboração do planejamento estratégico, a formulação dos **Valores Organizacionais** representa:
 
-* **A)** o acompanhamento contábil da implantação do programa, com relatórios semanais.
-* **B)** uma checagem diária das condições formais da organiza ção, em termos de qualificação dos recursos humanos.
-* **C)** o acompanhamento contínuo, cotidiano, por parte de gestores e gerentes, do desenvolvimento dos programas e políticas 
-em relação a seus objetivos e metas.
-* **D)** avaliações executadas por instituições externas, com pesquisas que procurem responder a perguntas específicas.
-* **E)** a construção de indicadores, produzidos regularmente com bas e em diferentes fontes de dados, que dão aos gestores 
-informações sobre o desempenho de programas.
+* **A)** O conjunto de princípios, crenças fundamentais e padrões éticos de conduta compartilhados que orientam as decisões institucionais e definem as relações da organização com seus membros, parceiros e com a sociedade.
+* **B)** A estimativa do saldo orçamentário líquido da conta de capital no final de cada quadrimestre fiscal.
+* **C)** O cálculo do retorno econômico sobre os investimentos em obras rodoviárias estaduais.
+* **D)** A lista taxativa das penalidades disciplinares de demissão constantes do estatuto funcional.
+* **E)** O montante financeiro total de multas imputadas aos jurisdicionados pelo Tribunal de Contas.
 
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
->
-> **Gabarito: E**
-
----
-### Teste 379
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-O Referencial Estratégico das Organizações é uma bússola que 
-orienta as ações e decisões, fornecendo uma visão clara dos 
-objetivos e direcioname ntos a serem seguidos para alcançar o 
-sucesso. 
-Sobre o Referencial Estratégico das Organizações, analise os itens 
-a seguir: 
-I. Objetivos e metas são os resultados desejados. 
-II. Key performance indicators (KPIs) são informações para 
-avaliar até que ponto o s objetivos estão sendo atingidos e se 
-os cursos de ação escolhidos são apropriados. 
-III. Avaliação é o processo de determinar se a realização dos 
-objetivos está alcançando os efeitos pretendidos. 
-Está correto o que se afirma em
-
-* **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** I e III, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A)** Correta. Os **Valores** compõem o núcleo axiológico e ético da cultura organizacional: estabelecem os limites morais, princípios de conduta, responsabilidade socioambiental, transparência e retidão que direcionam o comportamento de todos os integrantes da instituição na busca da missão e visão.
+> - **B), C), D), E)** Incorretas. Distorções que confundem "valores" axiológicos/éticos com conceitos puramente financeiros ou punitivos.
+> 
 > **Gabarito: A**
 
 ---
+
+### Teste 379
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+O ciclo integrado de gestão estratégica nas organizações públicas envolve etapas encadeadas para garantir que as decisões não se restrinjam a documentos formais engavetados.
+
+A etapa do ciclo em que a alta direção e os comitês de governança comparam periodicamente o avanço real dos indicadores frente às metas estipuladas, promovendo os ajustes necessários no plano, denomina-se:
+
+* **A)** Monitoramento e Avaliação Estratégica.
+* **B)** Diagnóstico Ambiental Macro.
+* **C)** Formulação da Missão Corporativa.
+* **D)** Lançamento Tributário Vinculado.
+* **E)** Homologação de Parecer Prévio Orçamentário.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. O ciclo da gestão estratégica compreende: (1) Diagnóstico Estratégico; (2) Formulação da Estratégia (missão, visão, objetivos); (3) Implementação/Execução; e (4) **Monitoramento e Avaliação** (acompanhamento contínuo dos indicadores de desempenho, análise de desvios e adoção de ações corretivas tempestivas).
+> - **B), C)** Incorretas. Fases preliminares de diagnóstico e concepção.
+> - **D), E)** Incorretas. Atos de direito financeiro e controle externo que não se confundem com as fases do ciclo de gestão estratégica.
+> 
+> **Gabarito: A**
+
+---
+
 ## 5. Fontes Oficiais e Referências Bibliográficas
 
 * [Decreto nº 9.203/2017 (Mecanismo de Estratégia na Governança Pública)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9203.htm) - Define estratégia como conjunto de ações voltadas ao alcance dos objetivos organizacionais e satisfação do cidadão.

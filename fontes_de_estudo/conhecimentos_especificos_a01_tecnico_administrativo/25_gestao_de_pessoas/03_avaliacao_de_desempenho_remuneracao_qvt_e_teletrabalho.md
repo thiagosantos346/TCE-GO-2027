@@ -113,76 +113,54 @@ flowchart TD
 ---
 
 ### Teste 450
-**(FGV – TJ-RR – Analista Judiciário - Suporte e Infraestrutura de TI – 2024)**
-Diante de sua regular investidura no cargo de Analista do Tribunal de 
-Justiça do Estado de Roraima, Renato decidiu verificar quais parcelas 
-de sua remuneração estão incluídas no teto remuneratório, de 
-acordo com o disposto no Regime Jurídico dos Servidores Públicos 
-Civis do Estado de Roraima (Lei Complementar Estadual nº 53/2001, 
-com as alterações supervenientes), vindo a concluir corretamente 
-que entre elas pode ser apontada
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Em determinado órgão público estadual, a diretoria de Recursos Humanos decidiu substituir o método tradicional de escalas gráficas pelo método da Escolha Forçada, visando conferir maior neutralidade aos resultados avaliativos. Todavia, após a primeira rodada de avaliação, diversos gestores setoriais queixaram-se publicamente da nova ferramenta. À luz da teoria de Gestão de Pessoas, a principal limitação técnica inerente ao método da **Escolha Forçada** consiste em:
 
-* **A)** a gratificação natalina.
-* **B)** o adicional de férias.
-* **C)** o adicional noturno.
-* **D)** o adicional pela prestação de serviços extraordinários.
-* **E)** a retribuição pelo exercício de função de direção, chefia e 
-assessoramento. 
+* **A)** exigir pesados custos com a contratação permanente de psicólogos clínicos para entrevistar cada servidor individualmente.
+* **B)** apresentar acentuada vulnerabilidade à subjetividade pessoal do avaliador, facilitando o favorecimento sistemático de protegidos políticos.
+* **C)** impedir que os gestores forneçam um feedback formativo e transparente aos avaliados, visto que os pesos ponderados das frases são apurados estatisticamente pelo RH e não divulgados ao avaliador.
+* **D)** fixar compulsoriamente todas as avaliações no patamar intermediário de notas, provocando uma distorção generalizada por tendência central.
+* **E)** restringir-se exclusivamente à apuração de dados financeiros e orçamentários, sendo inaplicável a cargos de suporte administrativo.
 
-NORMAS APLICADAS AO 
-PODER JUDICIÁRIO
 
 ---
 
-> **Comentário Detalhado:**
+> **Comentário Detalhado:**  
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
->
-> **Gabarito: E**
+> - **A) Incorreta.** A contratação de especialistas para entrevistas detalhadas é a característica marcante do método da Pesquisa de Campo, não da Escolha Forçada.  
+> - **B) Incorreta.** A maior vantagem da Escolha Forçada é precisamente **eliminar a subjetividade**, o favoritismo e a complacência, obrigando a escolha entre blocos de frases pré-definidas.  
+> - **C) CORRETA.** A crítica clássica e mais cobrada em concursos em relação ao método da **Escolha Forçada** é a sua **incapacidade de gerar feedback construtivo**: como as combinações de frases possuem ponderações estatísticas matemáticas tabuladas privativamente pela área de RH, a chefia imediata preenche o formulário sem saber exatamente como o servidor pontuou em cada quesito, impossibilitando orientá-lo sobre onde e como melhorar seu desempenho no trabalho.  
+> - **D) Incorreta.** A tendência central é a marca do método das Escalas Gráficas.  
+> - **E) Incorreta.** A Escolha Forçada é um método geral de avaliação comportamental, perfeitamente utilizável na área administrativa.  
+> 
+> **Gabarito: C**
 
 ---
+
 ### Teste 451
-**(FGV – TJ-RR – Analista Judiciário - Suporte e Infraestrutura de TI – 2024)**
-Ao analisar o ciclo da gestão de desempenho por competências 
-delineado na Resolução TJRR/TP nº 28/2023, João concluiu 
-corretamente que
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Dentre as metodologias clássicas e modernas de Avaliação de Desempenho Humano nas organizações, a **Avaliação 360 Graus (ou Feedback Circular / Multirrequisital)** caracteriza-se por:
 
-* **A)** o planejamento anual das qualificações a serem oferecidas pela 
-Escola do Poder Judiciário deverá co ntemplar o conteúdo dos 
-planos de desenvolvimento individual (PDI).
-* **B)** a gestão de desempenho por competências é realizada em ciclos 
-mensais, composto das seguintes fases: acordo de desempenho, 
-avaliação do desempenho, feedback pós-avaliação; e planos de 
-desenvolvimento.
-* **C)** o feedback poderá ser realizado de forma individual ou por 
-grupo de servidores sob a mesma chefia, sendo vedada a 
-alteração das notas inicialmente atribuídas na avaliação de 
-desempenho.
-* **D)** os planos de desenvolvimento consistem em com promissos 
-firmados entre servidor e chefia imediata quanto aos resultados 
-e comportamentos esperados no período a ser avaliado.
-* **E)** a avaliação de desempenho é a aferição sistemática das 
-competências das pessoas, expressadas pelo conjunto de 
-aptidões e con hecimentos demonstrados no ambiente de 
-trabalho, não podendo ser composta da autoavaliação.
+* **A)** Coletar avaliações estruturadas sobre o desempenho do colaborador provenientes de todas as direções de relacionamento: do superior hierárquico, dos pares de trabalho (colegas), dos subordinados, dos clientes/usuários externos e da autoavaliação do próprio servidor.
+* **B)** Basear-se exclusivamente no julgamento autocrático e secreto do chefe imediato da repartição.
+* **C)** Classificar os servidores por meio de uma curva forçada em que obrigatoriamente 20% são classificados como insuficientes.
+* **D)** Avaliar apenas aspectos relacionados à pontualidade de registro do ponto biométrico eletrônico.
+* **E)** Limitar-se à medição de força física e aptidão cardiorrespiratória dos novos contratados.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A)** Correta. A **Avaliação 360 Graus** proporciona visão holística e rica do colaborador, coletando feedback de todos os agentes que interagem com ele: chefe imediato, subordinados diretos, pares de equipe, clientes internos/externos e a própria autoavaliação.
+> - **B)** Incorreta. Refere-se à avaliação tradicional unilateral por superior hierárquico (90 graus).
+> - **C)** Incorreta. Refere-se ao método da distribuição forçada (*forced distribution*).
+> - **D), E)** Incorretas. Distorções que não representam o escopo da avaliação 360 graus.
+> 
 > **Gabarito: A**
 
 ---
+
 ## 2. Erros, Vieses e Distorções Cognitivas do Avaliador
 
 A subjetividade humana constitui o maior obstáculo à precisão da avaliação de desempenho:
@@ -213,64 +191,57 @@ flowchart LR
 ---
 
 ### Teste 452
-**(FGV – TJ-RR – Analista Judiciário - Governança e Gestão de TI – 2024)**
-Os órgãos do Poder Judiciário devem realizar a gestão do respectivo 
-Plano de Logística Sustentável (PLS). O PLS deverá ser composto, no 
-mínimo, pelos indicadores de desempenho relacionados aos 
-seguintes temas, à exceção de um. Assinale-o.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Um diretor de fiscalização do Tribunal de Contas realizou a avaliação anual de desempenho de um técnico administrativo recém-lotado em sua gerência. Ao analisar a pontualidade impecável e a cortesia no atendimento demonstradas pelo servidor no dia a dia, o diretor atribuiu pontuação máxima em todos os itens da avaliação, inclusive naqueles relativos a domínio técnico avançado de auditoria de obras e redação de relatórios complexos, competências que sequer haviam sido desempenhadas ou verificadas no período. A falha cognitiva que maculou o procedimento avaliativo configura o denominado:
 
-* **A)** Logística reversa.
-* **B)** Energia elétrica.
-* **C)** Água e esgoto.
-* **D)** Gestão de resíduos.
-* **E)** Qualidade de vida no ambiente de trabalho.
+* **A)** Erro de tendência central.
+* **B)** Efeito Halo.
+* **C)** Erro de rigor excessivo.
+* **D)** Viés de recência funcional.
+* **E)** Falso consenso heurístico.
+
+
+---
+
+> **Comentário Detalhado:**  
+>
+> - **A) Incorreta.** O erro de tendência central ocorre quando o avaliador evita notas extremas e coloca todos os subordinados na nota média intermediária.  
+> - **B) CORRETA.** O **Efeito Halo (*Halo Effect*)** é a distorção perceptiva na qual o avaliador permite que uma impressão positiva isolada a respeito de uma característica específica (neste caso, a pontualidade e simpatia) irradie e contamine favoravelmente o julgamento de todas as demais dimensões de competência técnica do avaliado, atribuindo-lhe notas excelentes em itens que sequer foram testados.  
+> - **C) Incorreta.** O rigor excessivo é a conduta implacável de conceder notas rebaixadas para praticamente toda a equipe.  
+> - **D) Incorreta.** O viés de recência refere-se à supervalorização de episódios temporais recentes (últimos dias do ciclo), esquecendo o restante do período.  
+> - **E) Incorreta.** O falso consenso é a presunção equivocada de que os outros indivíduos compartilham dos mesmos julgamentos e crenças do avaliador.  
+> 
+> **Gabarito: B**
+
+---
+
+### Teste 453
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+No processo de Avaliação de Desempenho, o avaliador está sujeito a vieses cognitivos e distorções perceptivas involuntárias que podem comprometer a fidedignidade dos resultados.
+
+A distorção conhecida como **Efeito de Halo (ou Halo Effect)** ocorre quando:
+
+* **A)** O avaliador generaliza uma única característica marcante (positiva ou negativa) do avaliado para julgar de forma contaminada todos os demais fatores e competências de seu desempenho.
+* **B)** O avaliador atribui notas medianas a todos os avaliados para evitar conflitos interpessoais (*tendência central*).
+* **C)** O avaliador considera apenas os fatos ocorridos na última semana antes da avaliação, esquecendo o restante do ano (*efeito de recência*).
+* **D)** O avaliador avalia melhor os indivíduos que possuem perfil, origens e opiniões semelhantes às suas (*erro de semelhança*).
+* **E)** O avaliador é excessivamente rigoroso com todos os seus subordinados (*severidade excessiva*).
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A)** Correta. O **Efeito de Halo** (ou Efeito Horn, quando negativo) é a contaminação generalizada da avaliação por um único traço saliente: se o servidor é muito simpático ou pontual, o chefe presume precipitadamente que ele é ótimo em todas as demais competências (planejamento, rigor técnico, redação).
+> - **B)** Incorreta. Refere-se ao vício de **Tendência Central**.
+> - **C)** Incorreta. Refere-se ao erro de **Recência**.
+> - **D)** Incorreta. Refere-se ao viés de **Semelhança** (*similar-to-me*).
+> - **E)** Incorreta. Refere-se ao vício de **Severidade/Rigor excessivo**.
+> 
 > **Gabarito: A**
 
 ---
-### Teste 453
-**(FGV – TJ-RR – Analista Judiciário - Governança e Gestão de TI – 2024)**
-Diante de sua regular investidura no cargo de Analista do Tribunal de 
-Justiça do Estado de Roraima, Renato decidiu verificar quais parcelas 
-de sua remuneração estão incluídas no teto remuneratório, de 
-acordo com o disposto no Regime Jurídico dos Servidores Públicos 
-Civis do Estado de Roraima (Lei Complementar Estadual nº 53/2001, 
-com as alterações supervenientes), vindo a concluir corretamente 
-que entre elas pode ser apontada
 
-* **A)** a gratificação natalina.
-* **B)** o adicional de férias.
-* **C)** o adicional noturno.
-* **D)** o adicional pela prestação de serviços extraordinários.
-* **E)** a retribuição pelo exercício de função de direção, chefia e 
-assessoramento. 
-
-NORMAS APLICADAS AO 
-PODER JUDICIÁRIO
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
->
-> **Gabarito: E**
-
----
 ## 3. Remuneração e Planos de Carreira no Setor Público
 
 A remuneração no serviço público subordina-se a rígidos parâmetros constitucionais de legalidade e moralidade:
@@ -300,89 +271,54 @@ flowchart LR
 ---
 
 ### Teste 454
-**(FGV – TJ-RR – Analista Judiciário - Governança e Gestão de TI – 2024)**
-Ao analisar o ciclo da gestão de desempenho por competências 
-delineado na Resolução TJRR/TP nº 28/2023, João concluiu 
-corretamente que
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Nos termos do art. 39, § 4º da Constituição Federal de 1988, determinadas categorias de agentes públicos devem ser remuneradas exclusivamente pelo regime de subsídio. A respeito dessa disciplina constitucional, é correto afirmar:
 
-* **A)** o planejamento anual das qualificações a serem oferecidas pela 
-Escola do Poder Judiciário deverá co ntemplar o conteúdo dos 
-planos de desenvolvimento individual (PDI).
-* **B)** a gestão de desempenho por competências é realizada em ciclos 
-mensais, composto das seguintes fases: acordo de desempenho, 
-avaliação do desempenho, feedback pós-avaliação; e planos de 
-desenvolvimento.
-* **C)** o feedback poderá ser realizado de forma individual ou por 
-grupo de servidores sob a mesma chefia, sendo vedada a 
-alteração das notas inicialmente atribuídas na avaliação de 
-desempenho.
-* **D)** os planos de desenvolvimento consistem em com promissos 
-firmados entre servidor e chefia imediata quanto aos resultados 
-e comportamentos esperados no período a ser avaliado.
-* **E)** a avaliação de desempenho é a aferição sistemática das 
-competências das pessoas, expressadas pelo conjunto de 
-aptidões e con hecimentos demonstrados no ambiente de 
-trabalho, não podendo ser composta da autoavaliação.
+* **A)** O subsídio é fixado em parcela única, sendo constitucionalmente lícito o pagamento cumulativo de gratificações de produtividade e adicionais de tempo de serviço.
+* **B)** O regime de subsídio veda o acréscimo de qualquer gratificação, adicional, abono, prêmio ou verba de representação, ressalvado o pagamento de parcelas de natureza estritamente indenizatória previstas em lei.
+* **C)** O subsídio mensal dos servidores públicos estaduais não se subordina ao teto remuneratório constitucional, tendo em vista a autonomia federativa ampla dos Estados-membros.
+* **D)** O pagamento de diárias e de ajuda de custo para ressarcir despesas extraordinárias com deslocamento a serviço é terminantemente vedado aos agentes remunerados por subsídio.
+* **E)** O subsídio pode ser instituído discricionariamente mediante portaria interna expedida pelo Presidente do Tribunal de Contas, prescindindo de lei formal específica.
+
+
+---
+
+> **Comentário Detalhado:**  
+>
+> - **A) Incorreta.** O subsídio veda terminantemente a inclusão de gratificações por tempo de serviço ou adicionais de produtividade típicos da remuneração composta.  
+> - **B) CORRETA.** Conforme a redação expressa do art. 39, § 4º da CF/88, o subsídio é fixado em **parcela única, vedado o acréscimo de qualquer gratificação, adicional, abono, prêmio, verba de representação** ou outra espécie remuneratória. A jurisprudência consolidada do STF ressalva expressamente que essa vedação **não atinge parcelas de natureza estritamente indenizatória** (como diárias e indenização de transporte), pois elas visam ressarcir despesas suportadas pelo agente público no interesse do serviço e não constituem ganho patrimonial.  
+> - **C) Incorreta.** Todos os subsídios subordinam-se expressamente ao teto remuneratório constitucional previsto no art. 37, XI da CF/88.  
+> - **D) Incorreta.** Diárias e ajuda de custo são parcelas indenizatórias legítimas e plenamente compatíveis com o regime de subsídio.  
+> - **E) Incorreta.** A fixação ou alteração de subsídios exige obrigatoriamente lei formal específica (princípio da reserva legal).  
+> 
+> **Gabarito: B**
+
+---
+
+### Teste 455
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+No estudo da Qualidade de Vida no Trabalho (QVT), o modelo conceitual mais abrangente e citado na literatura administrativa foi proposto por Richard Walton (1973), estruturado em oito dimensões clássicas.
+
+Constitui uma das oito dimensões do modelo de QVT de **Richard Walton**:
+
+* **A)** Constitucionalismo na Organização (respeito aos direitos dos trabalhadores, privacidade, liberdade de expressão e normas de equidade no trabalho).
+* **B)** Remuneração salarial indexada exclusivamente à variação cambial do dólar americano.
+* **C)** Proibição de concessão de férias e licenças no primeiro ano do mandato do governador.
+* **D)** Instauração obrigatória de sindicância sumária em qualquer alteração de rotina.
+* **E)** Exigência de cumprimento de horas extras diárias de forma compulsória sem descanso semanal.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A)** Correta. As 8 dimensões de QVT de Walton: (1) Compensação justa e adequada; (2) Condições de trabalho seguras e saudáveis; (3) Uso e desenvolvimento de capacidades; (4) Oportunidade de crescimento contínuo e segurança; (5) Integração social na organização; (6) **Constitucionalismo na organização** (direitos, privacidade, contraditório); (7) Trabalho e o espaço total de vida (equilíbrio trabalho-família); (8) Relevância social do trabalho na sociedade.
+> - **B), C), D), E)** Incorretas. Distorções que violam os preceitos de bem-estar e dignidade do trabalho.
+> 
 > **Gabarito: A**
 
 ---
-### Teste 455
-**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
-Segundo o Manual de Redação da Presidência da República, a 
-objetividade é uma das marcas de um texto de redação oficial. 
-Para que essa objetividade seja atingida, é aconselhável, entre 
-outras coisas,
 
-* **A)** eliminar marcas de caráter informativo.
-* **B)** mostrar a organização textual dos conteúdos.
-* **C)** usar digressões temáticas.
-* **D)** empregar linguagem culta ou erudita.
-* **E)** construir textos longos em parágrafos extensos. 
-
-TRIBUNAL REGIONAL DO TRABALHO DA 24ª REGIÃO (TRT-24) – REAPLICAÇÃO FGV CONHECIMENTO  
-
-
-Questão Discursiva  
-Você foi recém-nomeado para o cargo de Analista Judiciário em uma unidade administrativa do Poder Judiciário Federal. Após os primeiros 
-meses de ambientação, identificou que o clima organizacional da unidade é tenso, com sinais evidentes de insatisfação dos servidores, que 
-mostram alto índice de afastamentos por problemas de saúde mental, baixa motivação, comunicação falha entre as equipes, resistência a 
-mudanças, alta rotatividade e produtividade em declínio. Conversando com colegas e líderes da unidade, percebeu que a organização ainda 
-não possui uma política estruturada voltada para a promoção da Qualidade de Vida no Trabalho (QVT). 
-Diante disso, e considerando os cinco grupos de fatores condicionantes da QVT (de primeira a quinta ordem), você foi convidado pela chefia 
-a propor ações práticas para melhorar a qualidade de vida dos servidores da unidade. 
-
-Com base nos seus conhecimentos sobre QVT, responda aos questionamentos a seguir. 
-A) Identifique, pelo menos, três fatores (de ordens diferentes) que podem estar impactando negativamente a QVT na unidade. 
-B) Indique duas ações práticas que poderiam ser implementadas para melhorar o clima organizacional e aumentar a motivação dos 
-servidores, justificando sua escolha. 
-
-
-TRIBUNAL REGIONAL DO TRABALHO DA 24ª REGIÃO (TRT-24) – REAPLICAÇÃO FGV CONHECIMENTO
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: D**
-
----
 ## 4. Qualidade de Vida no Trabalho (QVT): Modelo de Richard Walton
 
 O modelo formulado por Richard Walton (1973) é a principal referência doutrinária exigida em provas sobre o bem-estar no ambiente corporativo e público. Walton estruturou a QVT em **oito dimensões conceituais**:
@@ -416,39 +352,30 @@ flowchart TD
 ---
 
 ### Teste 456
-**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
-A Qualidade de Vida no Trabalho (QVT) no setor público visa 
-promover um ambiente organizacional saudável, equilibrado e 
-motivador, que valorize o servidor, melhore o desempenho 
-institucional e fortaleça o compromisso com o serviço à sociedade. 
-Assinale a opção que apresenta corretamente um fator-chave da 
-QVT no setor público, relacionado à satisfação de clientes internos 
-e externos.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+O modelo conceitual de Qualidade de Vida no Trabalho (QVT) estruturado por Richard Walton estabelece oito dimensões fundamentais para a criação de um ecossistema laboral saudável e motivador. A dimensão que prevê expressamente o respeito à privacidade dos colaboradores, a vigência de regras claras e transparentes de conduta funcional, a liberdade de expressão responsável e a garantia do devido processo legal e ampla defesa diante de averiguações funcionais é denominada por Walton de:
 
-* **A)** Compensação: associada à inovação, variedade e ritmo de 
-trabalho.
-* **B)** Moral: envolve bonificações, benefícios sociais e participação 
-nos lucros.
-* **C)** Organização do trabalho: relaciona-se à saúde ocupacional e à 
-educação preventiva.
-* **D)** Participação: refere-se à criatividade, à expressão pessoal e 
-aos programas de capacitação.
-* **E)** Comunicação: está ligada ao apoio psicossocial, à orientação 
-técnica e ao gerenciamento pelo exemplo.
+* **A)** Espaço Total de Vida.
+* **B)** Relevância Social do Trabalho.
+* **C)** Integração Social na Organização.
+* **D)** Constitucionalismo na Organização.
+* **E)** Compensação Justa e Adequada.
+
 
 ---
 
-> **Comentário Detalhado:**
+> **Comentário Detalhado:**  
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: C**
+> - **A) Incorreta.** O Espaço Total de Vida diz respeito ao equilíbrio sadio entre as demandas laborais e a vida pessoal, social e familiar do empregado.  
+> - **B) Incorreta.** A Relevância Social do Trabalho analisa o orgulho que o trabalhador ostenta quanto à contribuição ética e ao valor público que a instituição entrega à sociedade.  
+> - **C) Incorreta.** A Integração Social na Organização envolve a ausência de discriminações e preconceitos e o fortalecimento de laços de companheirismo e cooperação mútua.  
+> - **D) CORRETA.** No modelo de Richard Walton, o **Constitucionalismo na Organização** é a dimensão que estabelece a vigência dos direitos civis e das garantias de cidadania dentro da corporação. Envolve o respeito aos direitos trabalhistas, regras institucionais claras, proteção da intimidade/privacidade, liberdade de opinião e o cumprimento inafastável do contraditório e da ampla defesa antes da imposição de sanções disciplinares.  
+> - **E) Incorreta.** A Compensação Justa e Adequada compreende renda condizente com a dignidade e critérios de equidade interna e externa.  
+> 
+> **Gabarito: D**
 
 ---
+
 ## 5. Teletrabalho e Trabalho Híbrido no Setor Público
 
 A consolidação do regime de teletrabalho transformou a dinâmica das instituições de controle externo (como os Tribunais de Contas):
@@ -470,107 +397,77 @@ A consolidação do regime de teletrabalho transformou a dinâmica das institui�
 ---
 
 ### Teste 457
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Ao estudar a remuneração, direit os e vantagens no âmbito da 
-remuneração dos agentes públicos, Helena verificou que o 
-subsídio é uma espécie remuneratória que tem definição 
-constitucional, de modo que decidiu aprofundar os estudos acerca 
-das respectivas peculiaridades. 
-Nesse contexto, con siderando o disposto na CRFB/88 e a 
-orientação do Supremo Tribunal Federal acerca do tema, é correto 
-afirmar que o subsídio
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Com o avanço da transformação digital na administração pública, o regime de teletrabalho consolidou-se como instrumento relevante de modernização gerencial. Sob a ótica do planejamento e gestão de pessoas, a correta implementação do teletrabalho no setor público pressupõe:
 
-* **A)** não é a espécie remuneratória dos Secretários de Estado.
-* **B)** não deve obedecer ao teto constitucional de remuneração.
-* **C)** pode ser instituído e majorado por Decreto.
-* **D)** não pode ser utilizado para a remuneração dos servidores de 
-carreira.
-* **E)** não abarca as parcelas indenizatórias pagas aos agentes 
-públicos. 
+* **A)** a intensificação dos mecanismos cartoriais de fiscalização contínua de horários por meio de relógios de ponto virtuais e acionamento de câmeras de vídeo a cada 30 minutos.
+* **B)** a supressão definitiva de qualquer responsabilidade da instituição governamental quanto a padrões ergonômicos e segurança cibernética de seus dados.
+* **C)** a substituição do controle formal e presencial de frequência por um modelo fundamentado na pactuação prévia de metas mensuráveis e entregas de resultados de valor público.
+* **D)** o cancelamento compulsório de todos os programas institucionais de capacitação continuada para os servidores admitidos na modalidade remota.
+* **E)** a proibição legal do retorno do servidor ao regime de trabalho presencial, dado o caráter irrevogável do termo de adesão ao teletrabalho.
 
-Administração Financeira e 
-Orçamentária
 
 ---
 
-> **Comentário Detalhado:**
+> **Comentário Detalhado:**  
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A) Incorreta.** O teletrabalho moderno rompe exatamente com a lógica cartorial de vigiar horários mecânicos, substituindo-a pelo foco em resultados e produtividade.  
+> - **B) Incorreta.** O órgão mantém a obrigação de orientar sobre práticas ergonômicas e instituir mecanismos rígidos de governança e segurança da informação (VPN, sigilo funcional).  
+> - **C) CORRETA.** O fundamento primordial do teletrabalho e do trabalho híbrido no setor público reside na transição paradigmática do controle de presença física e cumprimento estrito de horas no relógio para a **gestão por resultados**, orientada por metas quantitativas e qualitativas claras, com prazos e entregas concretas pactuadas no plano de trabalho institucional.  
+> - **D) Incorreta.** Servidores em teletrabalho permanecem com pleno direito e necessidade de qualificação por meio de educação corporativa (EaD e cursos).  
+> - **E) Incorreta.** A permanência em teletrabalho não constitui direito adquirido; trata-se de regime precário e revogável por necessidade do serviço ou interesse da administração pública a qualquer momento.  
+> 
 > **Gabarito: C**
 
 ---
+
 ### Teste 458
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Ao estudar a remu neração, direitos e vantagens no âmbito da 
-remuneração dos agentes públicos, Helena verificou que o 
-subsídio é uma espécie remuneratória que tem definição 
-constitucional, de modo que decidiu aprofundar os estudos acerca 
-das respectivas peculiaridades. 
-Nesse contexto, considerando o disposto na CRFB/88 e a 
-orientação do Supremo Tribunal Federal acerca do tema, é correto 
-afirmar que o subsídio
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Com a regulamentação do teletrabalho e do trabalho híbrido no serviço público brasileiro (Decreto Federal nº 11.072/2022 - Programa de Gestão e Desempenho e normativos do TCE-GO), a dinâmica da gestão funcional passou por transformações estruturais.
 
-* **A)** não é a espécie remuneratória dos Secretários de Estado.
-* **B)** não deve obedecer ao teto constitucional de remuneração.
-* **C)** pode ser instituído e majorado por Decreto.
-* **D)** não pode ser utilizado para a remuneração dos servidores de 
-carreira.
-* **E)** não abarca as parcelas indenizatórias pagas aos agentes 
-públicos.
+No regime de teletrabalho regulamentado pelo poder público, a gestão do servidor público fundamenta-se prioritariamente:
+
+* **A)** No acompanhamento de entregas, metas de produtividade pactuadas formalmente em plano de trabalho individual e resultados acordados, em substituição ao controle puramente físico e cronológico de frequência e assiduidade por ponto eletrônico.
+* **B)** No monitoramento contínuo da imagem do servidor por câmera de vigilância durante oito horas ininterruptas.
+* **C)** Na proibição total de comparecimento do servidor às dependências físicas do Tribunal de Contas sob pena de demissão.
+* **D)** Na redução proporcional de 50% de seus vencimentos básicos em virtude da ausência no prédio público.
+* **E)** Na transferência integral da responsabilidade fiscal do órgão para o servidor teletrabalhador.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: C**
+> - **A)** Correta. A transição trazida pelos Programas de Gestão e Desempenho (PGD) e resoluções do setor público: o controle migra da lógica clássica de "presença e controle de horas no ponto" para a **gestão por resultados e cumprimento de metas de entregas mensuráveis**, expressas em Planos de Trabalho com prazos e padrões de qualidade definidos.
+> - **B), C), D), E)** Incorretas. Posturas ilegais ou distorcidas que violam a regulamentação do teletrabalho no setor público.
+> 
+> **Gabarito: A**
 
 ---
+
 ### Teste 459
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Ao estudar a remuneração, direitos e vantagens no âmbito da 
-remuneração dos agentes públicos, Helena verificou que o 
-subsídio é uma espécie remuneratória que tem definição 
-constitucional, de modo que decidiu aprofundar os estudos acerca 
-das respectivas peculiaridades. 
-Nesse contexto, considerando o disposto na CRFB/88 e a 
-orientação do Supremo Tribunal Federal acerca do tema, é correto 
-afirmar que o subsídio
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+No tocante à estrutura do Sistema de Remuneração no Setor Público e aos Planos de Cargos, Carreiras e Vencimentos (PCCV), a contraprestação pecuniária mensal devida ao servidor pelo efetivo exercício do cargo público, fixada em lei, desprovida de quaisquer adicionais ou gratificações, denomina-se:
 
-* **A)** não é a espécie remuneratória dos Secretários de Estado.
-* **B)** não deve obedecer ao teto constitucional de remuneração.
-* **C)** pode ser instituído e majorado por Decreto.
-* **D)** não pode ser utilizado para a remuneração dos servidores de 
-carreira.
-* **E)** não abarca as parcelas indenizatórias pagas aos agentes 
-públicos. 
+* **A)** Vencimento básico (ou padrão).
+* **B)** Remuneração integral.
+* **C)** Diária de deslocamento eventual.
+* **D)** Ajuda de custo para transferência de domicílio.
+* **E)** Indenização de transporte funcional.
 
-Administração Financeira e 
-Orçamentária
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: C**
+> - **A)** Correta. Distinção essencial estatutária (Lei Estadual nº 20.756/2020 e Lei Federal nº 8.112/1990): **Vencimento básico** é a retribuição pecuniária básica fixada em lei devida pelo exercício do cargo; **Remuneração** é o vencimento básico acrescido das vantagens pecuniárias permanentes (adicionais e gratificações) estabelecidas em lei.
+> - **B)** Incorreta. Remuneração inclui vencimento mais vantagens adicionais.
+> - **C), D), E)** Incorretas. São parcelas de caráter puramente indenizatório, não salarial.
+> 
+> **Gabarito: A**
 
 ---
+
 ## 6. Fontes Oficiais e Referências Bibliográficas
 
 * [Decreto Federal nº 11.072/2022 (Programa de Gestão e Desempenho - PGD e Teletrabalho)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/d11072.htm) - Disciplina o teletrabalho, planos de trabalho individuais, metas de produtividade e qualidade das entregas.

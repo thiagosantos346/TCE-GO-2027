@@ -136,72 +136,57 @@ flowchart TD
 ---
 
 ### Teste 430
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-A gestão estratégica de pessoas é um enfoque que alinha as 
-práticas de gestão de recursos humanos aos objetivos 
-organizacionais. Essa abordagem integra planejamento de 
-carreira, treinamento e desenvolvimento, avaliação de 
-desempenho e recompensas, promovendo um ambiente de 
-trabalho motivador e produtivo.  
-Com relação à gestão estratégica de pessoas, avalie as afirmativas 
-a seguir. 
-I. A gestão estratégica de pessoas integra -se à estratégia 
-organizacional, atendendo a objetivos  estratégicos, táticos e 
-operacionais, todos devidamente interconectados. 
-II. Não é necessário ter uma clara ideia do impacto do mercado 
-e do ambiente externo em que a empresa está envolvida; a 
-organização pode focar apenas em seus processos internos 
-sem c onsiderar essas variáveis para a gestão estratégica de 
-pessoas. 
-III. A avaliação do desempenho e dos resultados é a etapa de 
-feedback constante e ágil para medição do que foi planejado 
-e realizado. 
-Está correto o que se afirma em
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No âmbito da literatura clássica de Gestão de Pessoas formulada por Idalberto Chiavenato, os macroprocessos organizacionais integram um conjunto articulado de subsistemas interconectados. Ao estruturar os processos de gestão, o desenho de cargos, a socialização organizacional dos novos colaboradores e a sistemática de avaliação de desempenho funcional integram expressamente o macroprocesso de:
 
-* **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** I e III, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
+* **A)** Agregar Pessoas.
+* **B)** Aplicar Pessoas.
+* **C)** Recompensar Pessoas.
+* **D)** Desenvolver Pessoas.
+* **E)** Monitorar Pessoas.
+
 
 ---
 
-> **Comentário Detalhado:**
+> **Comentário Detalhado:**  
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: D**
-
----
-### Teste 431
-**(FGV – TJ-BA – Analista Judiciário - Tecnologia da Informação – 2015)**
-O texto 1 mostra seguidamente a participação do enunciador no 
-assunto veiculado; o segmento em que essa participação está 
-exemplificada de forma inadequada é:
-
-* **A)** seleção de adjetivos subjetivos: “grandes tragédias”;
-* **B)** dúvida tendenciosa: “motivados por ganância e poder”;
-* **C)** opinião particular: “pessoas bem-intencionadas”;
-* **D)** parcialidade no julgamento: “catástrofes terríveis”;
-* **E)** análise pessoal: “escolhas egoístas”.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A) Incorreta.** O macroprocesso de Agregar Pessoas engloba unicamente as atividades de atração e seleção (planejamento da força de trabalho, recrutamento e seleção/concurso).  
+> - **B) CORRETA.** Os **Processos de Aplicar Pessoas** dizem respeito a como as pessoas operam na organização e o que realizam. Chiavenato engloba expressamente neste macroprocesso: o desenho e especificação de cargos/tarefas, a orientação e socialização organizacional (integração dos admitidos) e a **avaliação periódica de desempenho**.  
+> - **C) Incorreta.** Recompensar Pessoas envolve folha de pagamento, estrutura de vencimentos, adicionais e benefícios sociais.  
+> - **D) Incorreta.** Desenvolver Pessoas compreende treinamento, capacitação contínua, aprendizagem organizacional e planos de carreira.  
+> - **E) Incorreta.** Monitorar Pessoas refere-se aos bancos de dados, cadastros funcionais e sistemas de informação de pessoal (SIRH).  
+> 
 > **Gabarito: B**
 
 ---
+
+### Teste 431
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Idalberto Chiavenato estrutura a moderna Gestão de Pessoas em seis processos básicos interdependentes: Agregar, Aplicar, Recompensar, Desenvolver, Manter e Monitorar pessoas.
+
+O processo de **Aplicar Pessoas** compreende precipuamente as atividades de:
+
+* **A)** Desenho organizacional de cargos, análise e descrição de funções, orientação e socialização das pessoas e avaliação do desempenho humano.
+* **B)** Recrutamento interno, recrutamento externo e seleção de candidatos por provas e títulos.
+* **C)** Concessão de remuneração fixa, incentivos salariais, benefícios e serviços sociais.
+* **D)** Treinamento e desenvolvimento de competências, gestão do conhecimento e programas de mudança.
+* **E)** Higiene, segurança e qualidade de vida no trabalho e relações com sindicatos.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. Os seis processos de Chiavenato: (1) *Agregar Pessoas*: recrutamento e seleção; (2) **Aplicar Pessoas**: desenho de cargos, descrição de atribuições, orientação (*onboarding*) e avaliação de desempenho; (3) *Recompensar Pessoas*: remuneração, benefícios e incentivos; (4) *Desenvolver Pessoas*: treinamento, capacitação e aprendizagem; (5) *Manter Pessoas*: higiene, segurança, relações sindicais e QVT; (6) *Monitorar Pessoas*: banco de dados e sistemas de informação de RH.
+> - **B)** Incorreta. Refere-se ao processo de *Agregar Pessoas*.
+> - **C)** Incorreta. Refere-se ao processo de *Recompensar Pessoas*.
+> - **D)** Incorreta. Refere-se ao processo de *Desenvolver Pessoas*.
+> - **E)** Incorreta. Refere-se ao processo de *Manter Pessoas*.
+> 
+> **Gabarito: A**
+
+---
+
 ## 3. Rotinas Administrativas do Departamento de Pessoal no Setor Público
 
 Mesmo sob uma ótica estratégica, as rotinas operacionais de pessoal são indispensáveis para garantir a estrita legalidade e conformidade dos atos de gestão pública:
@@ -270,131 +255,124 @@ flowchart LR
 ---
 
 ### Teste 432
-**(FGV – TJ-RR – Analista Judiciário - Suporte e Infraestrutura de TI – 2024)**
-Segundo a Resolução nº 400 de 16/06/2021 do Conselho Nacional 
-de Justiça, os órgãos do Poder Judiciário devem adotar modelos de 
-gestão organizacional com processos estruturados que promovam a 
-sustentabilidade, com base em ações ambientalmente corretas, 
-economicamente viáveis e socialmente justas e inclusivas, 
-culturalmente diversas e pautadas na integridade, em busca de um 
-desenvolvimento nacional sustentável. 
-De acordo com a referida norma é correto afirmar que
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Uma entidade pública estadual necessita preencher posições funcionais de gestão interna. Ao optar prioritariamente pelo recrutamento interno em detrimento do recrutamento externo, a organização colhe benefícios relevantes, porém sujeita-se a uma vulnerabilidade conceitual frequentemente apontada pela literatura, consubstanciada na:
 
-* **A)** contratações compartilhadas são práticas institucionais que 
-tenham como objetivo a promoção de comportamentos éticos e 
-que contribuam para o desenvolvimento ambiental, social, 
-cultural e econômico, melhorando, simultaneamente, o meio  
-ambiente e a qualidade de vida do quadro de pessoal e auxiliar 
-do Poder Judiciário.
-* **B)** as ações socialmente justas e inclusivas têm como objetivo 
-respeitar a variedade e a convivência entre ideias, 
-características, gêneros e regionalismos no ambiente de 
-trabalho.
-* **C)** as ações ambientalmente corretas devem ter como objetivo a 
-redução do impacto no meio ambiente, tendo como premissas o 
-aumento do consumo, com o reaproveitamento e reciclagem de 
-materiais e a observância aos modelos de padrão de consumo.
-* **D)** as ações economicamente viáveis devem buscar critérios de 
-eficiência contínua dos gastos, levando em consideração a real 
-necessidade da compra/contratação dentre as propostas mais 
-vantajosas (análise custo -benefício) para sustentação da 
-instituição, tendo em vista as inovações nos processos de 
-trabalho.
-* **E)** as ações culturalmente diversas devem fomentar na instituição 
-e em ações externas a adoção de comportamentos que 
-promovam o equilíbrio e o bem -estar no ambiente de trabalho, 
-por meio de atividades voltad as ao cuidado preventivo com a 
-saúde, acessibilidade e inclusão social dos quadros de pessoal e 
-auxiliar.
+* **A)** morosidade excessiva para disponibilizar o profissional e elevadíssimo dispêndio orçamentário com editais públicos e bancas examinadoras.
+* **B)** desmotivação crônica dos profissionais da casa, que visualizam o processo como um obstáculo intransponível à sua própria ascensão profissional.
+* **C)** ocorrência do fenômeno da endogamia cultural (*inbreeding*), marcada pela recirculação contínua dos mesmos vícios, soluções e práticas preexistentes, com bloqueio à inovação.
+* **D)** exigência legal obrigatória de reabertura imediata de concurso público para a investidura nas atribuições funcionais correlatas.
+* **E)** incapacidade operacional de avaliar previamente as competências comportamentais dos candidatos que já compõem o quadro institucional.
+
 
 ---
 
-> **Comentário Detalhado:**
+> **Comentário Detalhado:**  
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: D**
+> - **A) Incorreta.** O recrutamento interno destaca-se exatamente por ser **ágil e econômico**, não demandando editais caros nem contratação de bancas examinadoras externas.  
+> - **B) Incorreta.** O recrutamento interno **eleva a motivação** dos colaboradores internos, pois oferece perspectivas concretas de carreira e reconhecimento funcional.  
+> - **C) CORRETA.** A clássica desvantagem técnica do recrutamento exclusivamente interno é a **endogamia cultural (*inbreeding*)**: como a organização se alimenta apenas de seus próprios membros, há o risco de reproduzir continuadamente as mesmas ideias, manter velhos vícios e blindar a instituição contra visões renovadas e saberes trazidos pelo ambiente externo.  
+> - **D) Incorreta.** Funções de chefia interna e cargos de confiança privativos de servidores de carreira são preenchidos por designação/ato interno discricionário, sem necessidade de novo concurso público para cada relotação.  
+> - **E) Incorreta.** No recrutamento interno, a organização já conhece o histórico de desempenho e o perfil comportamental dos candidatos, o que constitui uma das principais vantagens do processo.  
+> 
+> **Gabarito: C**
 
 ---
+
+
+#### Seleção de Pessoas: O Modelo de Comparação e Decisão
+
+Enquanto o recrutamento visa atrair o maior número possível de candidatos qualificados (processo positivo), a **seleção de pessoas é um processo de triagem, restrição e escolha (processo negativo ou de afunilamento)**.
+
+* **A Seleção como Comparação:** confronta os requisitos exigidos pelo cargo (*Job Description* / perfil de competências) com o perfil de competências oferecido pelos candidatos (*Job Profile*).
+* **A Seleção como Decisão:** escolha técnica fundamentada em critérios objetivos para preenchimento da vaga.
+
+```mermaid
+flowchart TD
+    RC["Requisitos do Cargo<br/>(Conhecimentos, Habilidades e Atitudes)"] --- COMP["COMPARAÇÃO E TRIAGEM"]
+    PC["Perfil dos Candidatos<br/>(Qualificações, Provas e Títulos)"] --- COMP
+    COMP --> DEC["DECISÃO E CLASSIFICAÇÃO<br/>(Aprovação dos mais capacitados)"]
+```
+
+#### Técnicas de Seleção de Pessoas
+
+1. **Provas de Conhecimentos ou de Capacidade:**
+    - Avaliam o nível de conhecimento teórico e prático exigido para a função;
+    - Podem ser objetivas (múltipla escolha, verdadeiro/falso) ou discursivas (estudo de caso, redação técnica);
+    - Constituem o núcleo central do concurso público brasileiro.
+
+2. **Entrevistas de Seleção:**
+    - **Não estruturadas:** livres, sem roteiro prévio (baixa confiabilidade);
+    - **Estruturadas / Padronizadas:** roteiro rígido de perguntas iguais para todos os candidatos (alta comparabilidade);
+    - **Entrevista Comportamental com Foco em Competências (Técnica STAR):** busca evidências de comportamentos passados para prever desempenhos futuros:
+    - **S** (*Situação*): contexto fático enfrentado pelo candidato;
+    - **T** (*Tarefa*): responsabilidade ou desafio que cabia a ele resolver;
+    - **A** (*Ação*): atitudes e procedimentos concretos adotados pelo profissional;
+    - **R** (*Resultado*): impactos qualitativos e quantitativos alcançados.
+
+3. **Testes Psicológicos e de Aptidão:**
+    - **Testes Psicométricos:** mensuram aptidões intelectuais, raciocínio lógico, atenção concentrada e memória;
+    - **Testes de Personalidade:** avaliam traços de caráter, temperamento, equilíbrio emocional e maturidade (ex.: testes projetivos e expressivos, devidamente validados pelo Conselho Federal de Psicologia).
+
+4. **Técnicas Vivenciais / Dinâmicas de Grupo:**
+    - Simulação de situações reais de trabalho, dramatizações (*role-playing*) e jogos de negócios para observar liderança, trabalho em equipe e comunicação interpessoal.
+
+5. **Avaliação de Títulos:**
+    - Pontuação objetiva de títulos acadêmicos (especialização, mestrado, doutorado) e experiência profissional prévia. *No setor público, a avaliação de títulos tem caráter estritamente classificatório, nunca eliminatório (CF/88, art. 37, II).*
+
+---
+
 ### Teste 433
-**(FGV – TJ-RR – Analista Judiciário - Suporte e Infraestrutura de TI – 2024)**
-Os princípios da gestão de qualidade incluem os seguintes,  
-à exceção de um. Assinale-o.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Em uma entrevista de seleção baseada na gestão por competências, o examinador formula a seguinte questão ao candidato: *"Descreva uma ocasião em seu trabalho anterior na qual um prazo orçamentário complexo estava na iminência de se esgotar, detalhe qual era o desafio sob sua responsabilidade direta, as ações práticas que você implementou para contornar o obstáculo e quais foram os resultados mensuráveis obtidos"*. A técnica de seleção adotada classifica-se como:
 
-* **A)** Liderança.
-* **B)** Foco no cliente.
-* **C)** Envolvimento das pessoas.
-* **D)** Abordagem de processo.
-* **E)** Inovação estratégica.
+* **A)** Entrevista não diretiva e livre de avaliação projetiva.
+* **B)** Técnica de simulação psicodramática por imersão relacional.
+* **C)** Prova situacional de aptidão psicométrica abstrata.
+* **D)** Entrevista comportamental por competências estruturada sob o método STAR.
+* **E)** Teste de personalidade expressiva para verificação de temperamento frouxo.
 
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
->
-> **Gabarito: E**
-
----
-### Teste 434
-**(FGV – TJ-RR – Analista Judiciário - Governança e Gestão de TI – 2024)**
-Segundo a Resolução nº 400 de 16/06/2021 do Conselho Nacional 
-de Justiça, os órgãos do Poder Judiciário devem adotar modelos de 
-gestão organizacional com processos estruturados que promovam a 
-sustentabilidade, com base em ações ambientalmente corretas, 
-economicamente viáveis e socialmente justas e inclusivas, 
-culturalmente diversas e pautadas na integridade, em busca de um 
-desenvolvimento nacional sustentável. 
-De acordo com a referida norma é correto afirmar que
-
-* **A)** contratações compartilhadas são práticas institucionais que 
-tenham como objetivo a promoção de comportamentos éticos e 
-que contribuam para o desenvolvimento ambiental, social, 
-cultural e econômico, melhorando, simultaneamente, o meio  
-ambiente e a qualidade de vida do quadro de pessoal e auxiliar 
-do Poder Judiciário.
-* **B)** as ações socialmente justas e inclusivas têm como objetivo 
-respeitar a variedade e a convivência entre ideias, 
-características, gêneros e regionalismos no ambiente de 
-trabalho.
-* **C)** as ações ambientalmente corretas devem ter como objetivo a 
-redução do impacto no meio ambiente, tendo como premissas o 
-aumento do consumo, com o reaproveitamento e reciclagem de 
-materiais e a observância aos modelos de padrão de consumo.
-* **D)** as ações economicamente viáveis devem buscar critérios de 
-eficiência contínua dos gastos, levando em consideração a real 
-necessidade da compra/contratação dentre as propostas mais 
-vantajosas (análise custo -benefício) para sustentação da 
-instituição, tendo em vista as inovações nos processos de 
-trabalho.
-* **E)** as ações culturalmente diversas devem fomentar na instituição 
-e em ações externas a adoção de comportamentos que 
-promovam o equilíbrio e o bem -estar no ambiente de trabalho, 
-por meio de atividades voltad as ao cuidado preventivo com a 
-saúde, acessibilidade e inclusão social dos quadros de pessoal e 
-auxiliar.
 
 ---
 
-> **Comentário Detalhado:**
+> **Comentário Detalhado:**  
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A) Incorreta.** A entrevista não diretiva é desestruturada e aberta, sem perguntas previamente padronizadas nem foco em dados fáticos estruturados.  
+> - **B) Incorreta.** A simulação psicodramática (*role-playing*) exige encenação de papéis interpessoais em dinâmica de grupo, não sendo uma entrevista individual reflexiva.  
+> - **C) Incorreta.** Provas psicométricas são testes formais de raciocínio lógico, atenção ou inteligência que geram escores quantitativos padronizados.  
+> - **D) CORRETA.** O enunciado retrata perfeitamente a técnica **STAR**: o examinador pede ao candidato que relate uma **Situação** fática do passado, sua **Tarefa** específica, a **Ação** concreta executada e o **Resultado** atingido. Baseia-se na premissa de que o comportamento passado em situações similares é o melhor preditor do desempenho futuro.  
+> - **E) Incorreta.** Testes de personalidade expressivos (como PMK ou Palográfico) utilizam traçados gráficos sob supervisão de psicólogos e não perguntas de entrevista funcional.  
+> 
 > **Gabarito: D**
 
 ---
+
+### Teste 434
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+No tocante às rotinas de recrutamento de pessoal, o **Recrutamento Interno** contrapõe-se ao **Recrutamento Externo** ao privilegiar a movimentação de servidores da própria organização.
+
+Constitui uma típica **vantagem** do Recrutamento Interno:
+
+* **A)** Maior rapidez no preenchimento da vaga, menor custo financeiro do processo e estímulo à motivação e à lealdade dos servidores atuais por meio de oportunidades concretas de plano de carreira.
+* **B)** A introdução massiva de novas ideias, talentos externos e inovação de ponta na cultura corporativa.
+* **C)** A renovação completa do quadro de pessoal e oxigenação da estrutura burocrática.
+* **D)** A dispensa absoluta de avaliação de desempenho funcional e conformidade disciplinar.
+* **E)** A eliminação do sentimento de frustração entre os servidores que não foram contemplados na promoção.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. O **Recrutamento Interno** é mais econômico, mais rápido, apresenta maior índice de validade e segurança (o candidato já é conhecido) e atua como poderoso incentivo à motivação e retenção de talentos da casa.
+> - **B), C)** Incorretas. Vantagens exclusivas do **Recrutamento Externo** (traz "sangue novo" e novas perspectivas).
+> - **D)** Incorreta. A movimentação interna baseia-se exatamente no histórico e avaliação de desempenho.
+> - **E)** Incorreta. O recrutamento interno frequentemente gera frustração nos candidatos não selecionados (efeito Peter e conflito de interesse).
+> 
+> **Gabarito: A**
+
+---
+
 ## 5. O Concurso Público como Instrumento Republicano (CF/88, art. 37)
 
 No Estado Democrático de Direito, o concurso público é a ferramenta primordial para democratizar o acesso aos cargos públicos e garantir um corpo funcional competente e impessoal.
@@ -426,66 +404,54 @@ flowchart TD
 ---
 
 ### Teste 435
-**(FGV – TJ-RR – Analista Judiciário - Governança e Gestão de TI – 2024)**
-Os princípios da gestão de qualidade incluem os seguintes,  
-à exceção de um. Assinale-o.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+De acordo com os preceitos expressos no art. 37 da Constituição Federal de 1988 e a jurisprudência sumulada e vinculante dos Tribunais Superiores acerca do concurso público:
 
-* **A)** Liderança.
-* **B)** Foco no cliente.
-* **C)** Envolvimento das pessoas.
-* **D)** Abordagem de processo.
-* **E)** Inovação estratégica.
+* **A)** A realização de prova de títulos em concursos públicos pode ostentar caráter classificatório ou eliminatório, a exclusivo critério discricionário do edital regulamentador.
+* **B)** O candidato regularmente aprovado e classificado dentro do número de vagas originariamente previsto no edital possui mera expectativa de direito à nomeação, podendo a administração desconsiderar sua aprovação a qualquer tempo sem motivação extraordinária.
+* **C)** É prescindível a realização de concurso público para a contratação temporária destinada a atender a necessidade de excepcional interesse público, na forma disciplinada em legislação específica.
+* **D)** O prazo de validade do concurso público será de até quatro anos, improrrogável, admitindo-se apenas a celebração de novos editais quando esgotada a vigência.
+* **E)** O provimento originário em cargos públicos efetivos independe de prévia aprovação em concurso, desde que o servidor comprove exercício temporário anterior superior a dez anos.
+
+
+---
+
+> **Comentário Detalhado:**  
+>
+> - **A) Incorreta.** A prova de títulos tem caráter **estritamente classificatório**, sendo vedada a eliminação de candidatos com base exclusiva na ausência ou pontuação insuficiente de títulos.  
+> - **B) Incorreta.** Conforme pacificado pelo STF no Tema 161 (RE 598.099), o candidato aprovado dentro do número de vagas possui **direito público subjetivo à nomeação** durante a vigência do certame, salvo situações imprevisíveis, supervenientes e extraordinárias fundamentadamente comprovadas.  
+> - **C) CORRETA.** O art. 37, IX da CF/88 prevê expressamente que a lei estabelecerá os casos de contratação temporária para atender a necessidade de excepcional interesse público, dispensando o concurso público tradicional e viabilizando o Processo Seletivo Simplificado (PSS).  
+> - **D) Incorreta.** Conforme o art. 37, III da CF/88, o prazo de validade é de **até dois anos**, prorrogável uma única vez por igual período.  
+> - **E) Incorreta.** A investidura em cargo ou emprego público efetivo exige obrigatoriamente concurso público prévio (art. 37, II), sendo inconstitucional qualquer tentativa de efetivação sem certame republicano.  
+> 
+> **Gabarito: C**
 
 ---
 
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
->
-> **Gabarito: E**
-
----
 ### Teste 436
-**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
-A gestão de pessoas no setor público envolve processos integrados 
-de recrutamento, seleção, capacitação, desenvolvimento, 
-avaliação de desempenho e gestão de carreiras, com foco na 
-valorização dos servidores e na melhoria da qualidade dos serviços 
-prestados à sociedade. 
-Assinale a opção que apresenta corretamente uma das bases 
-fundamentais da gestão do desempenho no setor público.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+No processo de socialização organizacional (*onboarding*) dos novos servidores públicos ingressantes, John Van Maanen e Edgar Schein categorizam as táticas institucionais de socialização empregadas pela organização.
 
-* **A)** Concentra-se exclusivamente na avaliação de resultados, sem 
-considerar o planejamento ou o apoio ao servidor.
-* **B)** A revisão do desempenho não deve conter feedbacks ao 
-servidor, para preservar a imparcialidade da avaliação.
-* **C)** O foco está apenas no cumprimento das metas 
-organizacionais, não sendo necessário alinhar objetivos 
-departamentais.
-* **D)** A definição de objetivos departamentais ocorre após a 
-avaliação de desempenho, para garantir o cumprimento dos 
-planos de desenvolvimento.
-* **E)** A condução do desempenho envolve ações como apoio e 
-supervisão, coaching e mentoring, com o objetivo de 
-promover o desenvolvimento contínuo do servidor.
+A tática de socialização caracterizada por integrar os novatos em grupos que passam pelas mesmas experiências e trilhas formativas conjuntas, com um cronograma predeterminado de etapas de acolhimento e mentoria, é classificada como:
+
+* **A)** Coletiva, Formal e Sequencial.
+* **B)** Individual, Informal e Aleatória.
+* **C)** Desjuntiva, Isolada e Punitiva.
+* **D)** Reativa, Transitória e Descentralizada.
+* **E)** Cartorária, Regressiva e Desestruturada.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: D**
+> - **A)** Correta. Táticas de socialização de Van Maanen e Schein: **Coletiva** (novatos acolhidos em turma/grupo, comum em cursos de formação de concursos públicos); **Formal** (atividades estruturadas de integração fora do posto de trabalho imediato); e **Sequencial** (etapas ordenadas e progressivas de aprendizado até a plena assunção do cargo).
+> - **B), C), D), E)** Incorretas. Representam táticas individualizadas, informais ou termos desconexos da taxonomia clássica.
+> 
+> **Gabarito: A**
 
 ---
+
 ## 6. Processo de Socialização e Integração Organizacional (*Onboarding*)
 
 A socialização organizacional é o processo formativo e cultural por meio do qual o novo servidor aprende os valores essenciais, regras informais, jargões, posturas e competências exigidas pelo órgão.
@@ -514,415 +480,93 @@ flowchart LR
 ---
 
 ### Teste 437
-**(FGV – TCE-GO – Analista de Controle Externo - Controle Externo – 2024)**
-Os princípios de governança pública são fundamentos 
-orientadores que promovem a transparência, a responsabilidade, 
-a eficácia e a equidade nas ações e decisões do setor público, 
-visando ao interesse público e ao desenvolvimento sustentável. 
-Assinale, dentre as opções a seguir , a que compreende princípios 
-de governança pública.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+O processo de socialização organizacional compreende o conjunto de mecanismos pelos quais a instituição transmite sua cultura, crenças e normas aos novos colaboradores. Segundo a doutrina de comportamento organizacional e gestão de pessoas, o momento em que o servidor recém-empossado ingressa na repartição e depara-se com as rotinas práticas, confrontando suas expectativas prévias com a realidade fática do ambiente de trabalho, denomina-se:
 
-* **A)** Integridade, melhoria regulatória e transparência.
-* **B)** Competência, responsabilidade e transparência.
-* **C)** Integridade, liderança e motivação.
-* **D)** Competência, integridade e liderança.
-* **E)** Integridade, melhoria regulatória e liderança. 
-CONCURSO PÚBLICO PARA TRIBUNAL DE CONTAS DO ESTADO DE GOIÁS - NÍVEL SUPERIOR  #organizadora# 
+* **A)** Estágio de Metamorfose Cultural.
+* **B)** Fase de Encontro ou Confronto.
+* **C)** Socialização Prévia ou Antecipatória.
+* **D)** Recrutamento Passivo Instrumental.
+* **E)** Desinstitucionalização Funcional.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Realização 
-DE GOIÁS 
-CONCURSO PÚBLICO – EDITAL 01/2024  
-
-
-
-TARDE 
-JURIDICA 
-
- NÍVEL SUPERIOR TIPO 1 – BRANCA  
-
-
-
-• Além deste caderno contendo 2 (duas) 
-discursivas você receberá do fiscal de sala a folha 
-de texto definitivo; 
-• As questões discursivas deverão ser redigidas em 
-até 20 (vinte) linhas.   
-
-•  
-
-
-
-
-
-
-
-
-• Verifique se seu caderno de questões está completo, 
-sem repetição de questões ou falhas. Caso contrário, 
-notifique imediatamente o fiscal da sala, para que 
-sejam tomadas as devidas providências; 
-• Confira seus dados pessoais, especialmente nome, 
-número de inscrição e documento de identidade e leia 
-atentamente as instruções para preencher a folha de 
-texto definitivo; 
-• Para o preenchimento das folhas de textos definitivos, 
-use somente caneta esferográf ica, fabricada em 
-material transparente, com tinta preta ou azul; 
-• Assine seu nome apenas nos espaços reservados nas 
-folhas de textos definitivos; 
-• Confira seu cargo, cor e tipo do caderno de questões. 
-Caso tenha recebido caderno de cargo ou cor ou tipo 
-diferente do impresso em sua s folhas de texto s 
-definitivos, o fiscal de sala deve ser obrigatoriamente 
-informado para o devido registro na ata da sala; 
-• Reserve tempo suficiente para o preenchimento das 
-suas folhas de textos definitivos. O preenchimento é de 
-sua responsabilidade e não será permitida a troca 
-das folhas de textos definitivos em caso de erro 
-cometido pelo candidato; 
-• Para fins de avaliação, serão levadas em consideração 
-apenas as marcações realizadas nas folhas de textos 
-definitivos; 
-• A FGV coletará as impressões digitais dos candidatos 
-na lista de presença; 
-• Os candidatos serão submetidos ao sistema de 
-detecção de metais quando do ingresso e da saída de 
-sanitários durante a realização das provas. 
-• Boa prova! 
-
-
-• Você dispõe de 2 (duas) horas para a realização 
-da prova, já incluído o tempo para o preenchimento 
-das folhas de textos definitivos; 
-• 1 (uma) hora após o início da prova, é possível 
-retirar-se da sala, sem levar o caderno de questões; 
-• A partir dos 30 (trinta) minutos anteriores ao 
-término da prova é possível retirar -se da sala  
-levando o caderno de questões. 
-
-• Qualquer tipo de comunicação entre os candidatos 
-durante a aplicação da prova; 
-• Anotar informações relativas às respostas em 
-qualquer outro meio que não seja o caderno de 
-questões; 
-• Levantar da cadeira sem autorização do fiscal de 
-sala; 
-• Usar o sanitário ao término da prova, após deixar 
-a sala. 
-SUA PROVA 
-TEMPO 
-NÃO SERÁ PERMITIDO 
-INFORMAÇÕES GERAIS 
-
-Jurídica - Discursiva
 
 ---
 
-> **Comentário Detalhado:**
+> **Comentário Detalhado:**  
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: D**
+> - **A) Incorreta.** A metamorfose é a fase final, na qual o colaborador já ajustou suas atitudes, assimilou a cultura institucional e alcançou estabilidade funcional e produtiva.  
+> - **B) CORRETA.** A **fase de Encontro (ou Confronto)** ocorre precisamente no momento do ingresso formal na instituição. É nela que o indivíduo vivencia a realidade concreta da organização e confronta suas expectativas e idealizações prévias com as regras práticas, rotinas diárias e dinâmicas interpessoais da unidade. É a fase crítica onde programas de acolhimento e ambientação exercem papel fundamental.  
+> - **C) Incorreta.** A socialização prévia (ou antecipatória) ocorre antes da entrada do servidor no órgão, envolvendo o aprendizado de conhecimentos gerais e as expectativas construídas durante a fase preparatória de estudos.  
+> - **D) Incorreta.** Termo descabido; recrutamento é fase prévia de atração.  
+> - **E) Incorreta.** Desinstitucionalização refere-se ao rompimento de laços organizacionais e não ao processo de integração de novos servidores.  
+> 
+> **Gabarito: B**
 
 ---
+
+
+#### Práticas Institucionais de Socialização no Setor Público
+
+* **Programa de Boas-Vindas e Ambientação:** Acolhida institucional pelos gestores e pela área de Gestão de Pessoas no primeiro dia de trabalho.
+* **Manual de Integração do Servidor:** Guia contendo missão institucional, direitos e deveres, canais de ouvidoria, regras de conduta ética e estrutura organizacional.
+* **Tutoria e Mentoria (*Buddy Program*):** Designação de um servidor experiente para acompanhar o novato nas rotinas diárias e sanar dúvidas operacionais.
+* **Cursos de Formação Inicial:** Aulas e oficinas práticas promovidas pela Escola de Contas/Governo para instrumentalizar o servidor nos sistemas corporativos e procedimentos processuais de controle externo.
+
+---
+
 ### Teste 438
-**(FGV – TCE-GO – Analista de Controle Externo - Controle Externo – 2024)**
-Relacione os tipos de precipitação a segui r com as respectivas 
-definições. 
-1 Orográfica. 
-2 Convectiva. 
-3 Frontal. 
-(   ) Ocorre ao longo da linha de descontinuidade, separando duas 
-massas de ar de características diferentes. 
-(   ) Provocadas pela ascensão de ar devido às diferenças de 
-temperatura na camada vizinha da atmosfera. 
-(   ) Ocorrem quando o ar é forçado a transpor barreiras de 
-montanhas. 
-Assinale a opção que indica a relação correta na ordem 
-apresentada.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Na Administração Pública brasileira, o concurso público de provas ou de provas e títulos constitui o instrumento constitucional republicano por excelência para a investidura em cargo ou emprego público (art. 37, II da CF/88).
 
-* **A)** 1 – 2 – 3
-* **B)** 2 – 1 – 3
-* **C)** 2 – 3 – 1
-* **D)** 3 – 1 – 2
-* **E)** 3 – 2 – 1 
+A respeito das regras constitucionais do concurso público, é correto afirmar:
 
-CONCURSO PÚBLICO PARA TRIBUNAL DE CONTAS DO ESTADO DE GOIÁS - NÍVEL SUPERIOR  #organizadora# 
+* **A)** O prazo de validade do concurso público será de até dois anos, prorrogável uma vez, por igual período, e a convocação do aprovado durante a validade obedecerá estritamente à ordem de classificação.
+* **B)** A aprovação em concurso público gera sempre e em qualquer hipótese mera expectativa de direito, não assistindo ao candidato direito à nomeação mesmo quando aprovado dentro do número de vagas do edital.
+* **C)** É lícito ao Poder Público abrir novo concurso público para o mesmo cargo e prover todas as novas vagas antes de convocar os candidatos remanescentes aprovados no concurso anterior com prazo de validade ainda em vigor.
+* **D)** A fixação de limite de idade em edital independe de previsão em lei formal, bastando a conveniência discricionária do órgão.
+* **E)** A realização de concurso público é dispensável para a contratação de pessoal docente permanente em universidades públicas estaduais.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Realização 
-DE GOIÁS 
-CONCURSO PÚBLICO – EDITAL 01/2024  
-
-
-
-TARDE 
-ENGENHARIA 
-
- NÍVEL SUPERIOR TIPO 1 – BRANCA  
-
-
-
-• Além deste caderno contendo 2 (duas) 
-discursivas você receberá do fiscal de sala a folha 
-de texto definitivo; 
-• As questões discursivas deverão ser redigidas em 
-até 20 (vinte) linhas.   
-
-•  
-
-
-
-
-
-
-
-
-• Verifique se seu caderno de questões está completo, 
-sem repetição de questões ou falhas. Caso contrário, 
-notifique imediatamente o fiscal da sala, para que 
-sejam tomadas as devidas providências; 
-• Confira seus dados pessoais, especialmente nome, 
-número de inscrição e documento de identidade e leia 
-atentamente as instruções para preencher a folha de 
-texto definitivo; 
-• Para o preenchimento das folhas de textos definitivos, 
-use somente caneta esferográf ica, fabricada em 
-material transparente, com tinta preta ou azul; 
-• Assine seu nome apenas nos espaços reservados nas 
-folhas de textos definitivos; 
-• Confira seu cargo, cor e tipo do caderno de questões. 
-Caso tenha recebido caderno de cargo ou cor ou tipo 
-diferente do impresso em sua s folhas de texto s 
-definitivos, o fiscal de sala deve ser obrigatoriamente 
-informado para o devido registro na ata da sala; 
-• Reserve tempo suficiente para o preenchimento das 
-suas folhas de textos definitivos. O preenchimento é de 
-sua responsabilidade e não será permitida a troca 
-das folhas de textos definitivos em caso de erro 
-cometido pelo candidato; 
-• Para fins de avaliação, serão levadas em consideração 
-apenas as marcações realizadas nas folhas de textos 
-definitivos; 
-• A FGV coletará as impressões digitais dos candidatos 
-na lista de presença; 
-• Os candidatos serão submetidos ao sistema de 
-detecção de metais quando do ingresso e da saída de 
-sanitários durante a realização das provas. 
-• Boa prova! 
-
-
-• Você dispõe de 2 (duas) horas para a realização 
-da prova, já incluído o tempo para o preenchimento 
-das folhas de textos definitivos; 
-• 1 (uma) hora após o início da prova, é possível 
-retirar-se da sala, sem levar o caderno de questões; 
-• A partir dos 30 (trinta) minutos anteriores ao 
-término da prova é possível retirar -se da sala  
-levando o caderno de questões. 
-
-• Qualquer tipo de comunicação entre os candidatos 
-durante a aplicação da prova; 
-• Anotar informações relativas às respostas em 
-qualquer outro meio que não seja o caderno de 
-questões; 
-• Levantar da cadeira sem autorização do fiscal de 
-sala; 
-• Usar o sanitário ao término da prova, após deixar 
-a sala. 
-SUA PROVA 
-TEMPO 
-NÃO SERÁ PERMITIDO 
-INFORMAÇÕES GERAIS 
-
-Engenharia - Discursiva
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: D**
+> - **A)** Correta. Literalidade do art. 37, incisos III e IV da CF/88: prazo de validade de até 2 anos, prorrogável uma vez por igual período; a ordem classificatória é inafastável.
+> - **B)** Incorreta. O STF já fixou tese vinculante (Tema 161 - RE 598.099) de que o candidato aprovado **dentro do número de vagas** do edital possui **direito subjetivo à nomeação** durante o prazo de validade.
+> - **C)** Incorreta. O art. 37, IV veda expressamente a preterição de candidatos de concurso válido.
+> - **D)** Incorreta. Súmula Vinculante nº 44 do STF: exigência de limite de idade só é válida se prevista expressamente em lei e justificada pela natureza das atribuições do cargo.
+> - **E)** Incorreta. Cargos efetivos em universidades exigem compulsoriamente concurso público.
+> 
+> **Gabarito: A**
 
 ---
+
 ### Teste 439
-**(FGV – TCE-GO – Analista de Controle Externo - Controle Externo – 2024)**
-Em relação à Análise da Variância (ANOVA), as afirmativas a seguir 
-estão corretas, à exceção de uma. 
-Assinale-a.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+No processo seletivo de pessoas, as técnicas de seleção devem apresentar dois requisitos psicométricos e metodológicos indispensáveis: **Validade** e **Confiabilidade (Fidedignidade)**.
 
-* **A)** É um método para testar a igualdade de três ou mais médias 
-populacionais, baseado na análise das variâncias amostrais.
-* **B)** Os dados amostrais são separados em grupos segundo uma 
-característica denominada fator. Fator (ou tratamento) é uma 
-característica que permite distinguir diferentes populações 
-umas das outras.
-* **C)** Cada fator contém dois ou mais grupos (classificações).
-* **D)** Amostras são aleatórias e mutuamente dependentes.
-* **E)** Suposições incluem: populações normalmente distribuídas e 
-de mesma variância. 
+Diz-se que uma técnica ou teste de seleção possui alta **Validade** quando:
 
+* **A)** Mede com precisão exata aquilo que se propõe a medir e possui alto poder preditivo de prognosticar o desempenho futuro real do candidato no exercício do cargo.
+* **B)** Produz sempre as mesmas notas numéricas quando aplicada repetidas vezes à mesma pessoa em dias consecutivos.
+* **C)** Apresenta o menor custo financeiro de aplicação em relação ao orçamento disponível do departamento de recursos humanos.
+* **D)** É aplicada exclusivamente por meio de questionários digitais anônimos na internet.
+* **E)** Elimina mais de 90% dos candidatos na primeira etapa eliminatória.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Realização 
-DE GOIÁS 
-CONCURSO PÚBLICO – EDITAL 01/2024  
-
-
-
-TARDE 
-CONTROLE EXTERNO 
-
- NÍVEL SUPERIOR TIPO 1 – BRANCA  
-
-
-
-• Além deste caderno contendo 2 (duas) 
-discursivas você receberá do fiscal de sala a folha 
-de texto definitivo; 
-• As questões discursivas deverão ser redigidas em 
-até 20 (vinte) linhas.   
-
-•  
-
-
-
-
-
-
-
-
-• Verifique se seu caderno de questões está completo, 
-sem repetição de questões ou falhas. Caso contrário, 
-notifique imediatamente o fiscal da sala, para que 
-sejam tomadas as devidas providências; 
-• Confira seus dados pessoais, especialmente nome, 
-número de inscrição e documento de identidade e leia 
-atentamente as instruções para preencher a folha de 
-texto definitivo; 
-• Para o preenchimento das folhas de textos definitivos, 
-use somente caneta esferográf ica, fabricada em 
-material transparente, com tinta preta ou azul; 
-• Assine seu nome apenas nos espaços reservados nas 
-folhas de textos definitivos; 
-• Confira seu cargo, cor e tipo do caderno de questões. 
-Caso tenha recebido caderno de cargo ou cor ou tipo 
-diferente do impresso em sua s folhas de texto s 
-definitivos, o fiscal de sala deve ser obrigatoriamente 
-informado para o devido registro na ata da sala; 
-• Reserve tempo suficiente para o preenchimento das 
-suas folhas de textos definitivos. O preenchimento é de 
-sua responsabilidade e não será permitida a troca 
-das folhas de textos definitivos em caso de erro 
-cometido pelo candidato; 
-• Para fins de avaliação, serão levadas em consideração 
-apenas as marcações realizadas nas folhas de textos 
-definitivos; 
-• A FGV coletará as impressões digitais dos candidatos 
-na lista de presença; 
-• Os candidatos serão submetidos ao sistema de 
-detecção de metais quando do ingresso e da saída de 
-sanitários durante a realização das provas. 
-• Boa prova! 
-
-
-• Você dispõe de 2 (duas) horas para a realização 
-da prova, já incluído o tempo para o preenchimento 
-das folhas de textos definitivos; 
-• 1 (uma) hora após o início da prova, é possível 
-retirar-se da sala, sem levar o caderno de questões; 
-• A partir dos 30 (trinta) minutos anteriores ao 
-término da prova é possível retirar -se da sala  
-levando o caderno de questões. 
-
-• Qualquer tipo de comunicação entre os candidatos 
-durante a aplicação da prova; 
-• Anotar informações relativas às respostas em 
-qualquer outro meio que não seja o caderno de 
-questões; 
-• Levantar da cadeira sem autorização do fiscal de 
-sala; 
-• Usar o sanitário ao término da prova, após deixar 
-a sala. 
-SUA PROVA 
-TEMPO 
-NÃO SERÁ PERMITIDO 
-INFORMAÇÕES GERAIS 
-
-Controle Externo - Discursiva
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: D**
+> - **A)** Correta. Em psicometria e seleção de pessoal: **Validade** é o grau em que o instrumento mede realmente o traço ou competência que pretende medir e a sua capacidade preditiva de antecipar o sucesso do candidato no cargo; já a **Confiabilidade (ou Fidedignidade)** é a consistência e reprodutibilidade dos resultados (aplicado várias vezes à mesma pessoa, gera pontuações semelhantes).
+> - **B)** Incorreta. Conceito referente à **Confiabilidade / Fidedignidade**.
+> - **C)** Incorreta. Refere-se à economicidade do processo seletivo.
+> - **D), E)** Incorretas. Distorções procedimentais sem relação com o conceito psicométrico de validade.
+> 
+> **Gabarito: A**
 
 ---
+
 ## 7. Fontes Oficiais e Referências Bibliográficas
 
 * [Constituição Federal de 1988 - Art. 37, II e IX (Concurso Público e Contratação)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art37) - Requisito obrigatório de prévia aprovação em concurso público de provas ou de provas e títulos.

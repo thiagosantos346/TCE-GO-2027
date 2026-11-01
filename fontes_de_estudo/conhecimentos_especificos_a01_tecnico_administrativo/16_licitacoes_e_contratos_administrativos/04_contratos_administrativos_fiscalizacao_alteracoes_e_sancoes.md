@@ -177,60 +177,26 @@ O art. 106 da NLLC estabelece uma revolução para os contratos de serviços e f
 ---
 
 ### Teste 101
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-A Lei nº 14.133/2021, conhecida como a Nova Lei de Licitações e 
-Contratos Administrativos, estabelece normas rigorosas para a 
-prevenção e combate à corrupção, impondo maior 
-responsabilização aos gestores públicos e fornecedores.  
-O superfaturamento ocorre quando há um dano provocado ao 
-patrimônio da Administração.  
-Com relação à caracterização do superfaturamento, avalie se as 
-afirmativas a seguir são verdadeiras (V) ou falsas (F). 
-(   ) Medição de quantidades superiores às efetiva mente 
-empenhadas. 
-(   ) Alterações no orçamento de obras e de serviços de 
-engenharia que causem desequilíbrio econômico -financeiro 
-do contrato em favor do contratado. 
-(   ) Outras alterações de cláusulas financeiras que gerem reajuste 
-irregular de preços. 
-As afirmativas são, respectivamente,
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A disciplina da duração e da prorrogação dos contratos administrativos de serviços contínuos sofreu relevante modernização na Lei Federal nº 14.133/2021 (arts. 106 e 107). A respeito dos prazos de vigência desses contratos, é correto afirmar que:
 
-* **A)** F – V – F.
-* **B)** F – V – V.
-* **C)** V – F – F.
-* **D)** V – V – F.
-* **E)** V – F – V. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Realização
+* **A)** Os contratos de serviços e fornecimentos contínuos podem ser celebrados pelo prazo inicial de até cinco anos.
+* **B)** O contrato de serviço contínuo vincula-se obrigatoriamente à vigência dos créditos orçamentários do exercício.
+* **C)** A duração máxima total do contrato contínuo com prorrogações sucessivas não pode ultrapassar trinta e seis meses.
+* **D)** A prorrogação contratual independe da demonstração da vantajabilidade econômica dos preços para a Administração.
+* **E)** Os contratos com vigência plurianual exigem a reabertura integral do procedimento licitatório no segundo exercício.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Correto**. O art. 106 da Lei nº 14.133/2021 estabelece que a Administração poderá celebrar contratos de serviços e fornecimentos contínuos pelo prazo de até 5 (cinco) anos. Além disso, o art. 107 preceitua que tais contratos poderão ser prorrogados sucessivamente, respeitada a vigência máxima decenal (até 10 anos), desde que haja previsão no edital e atestada a vantajabilidade econômica.
+> - **B)** **Incorreto**. A regra anterior de adstrição estrita ao exercício financeiro (art. 57 da Lei 8.666) foi superada para serviços contínuos.
+> - **C)** **Incorreto**. O limite máximo decenal é de até 10 (dez) anos (art. 107 da NLLC).
+> - **D)** **Incorreto**. A comprovação de que as condições permanecem vantajosas para a Administração é requisito obrigatório para a prorrogação.
+> - **E)** **Incorreto**. A plurianualidade dispensa nova licitação anual, desde que respeitados os requisitos da LRF e do contrato.
 >
 > **Gabarito: A**
-
----
 ## 4. Gestão, Fiscalização e Responsabilidade Trabalhista do Estado
 
 ### 4.1 Estrutura de Gestão e Fiscalização Contratual
@@ -262,83 +228,47 @@ O art. 140 da NLLC disciplina as fases de entrega do objeto contratado:
 ---
 
 ### Teste 102
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Ao acompanhar a execução de determinado contrato 
-administrativo, Alice verificou que a Administração Pública não 
-efetuou o pagamento devido, com relação a determinado 
-contrato de prestação de serviços com dedicação exclusiva de 
-mão-de-obra, devidamente formalizado e regularmente 
-cumprido pelo contratado, razão pela qual decidiu analisar os 
-efeitos do inadimplemento pelo Poder Público, nos termos da Lei 
-nº 14.133/2021.  
-Diante dessa situação hipotética, à luz da legislação em comento, 
-Alice verificou corretamente que o atraso superior a determinado 
-período, contado da emissão da nota fiscal, confere ao 
-contratado o direito à extinção do contrato, sendo correto 
-afirmar que tal prazo é de
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Na terceirização de serviços continuados de limpeza e vigilância predial no âmbito estadual, a autoridade administrativa designou fiscais para acompanhar a execução contratual. Segundo o art. 117 da Lei Federal nº 14.133/2021:
 
-* **A)** 10 dias.
-* **B)** 15 dias.
-* **C)** 45 dias.
-* **D)** 1 mês.
-* **E)** 2 meses.
+* **A)** A fiscalização do contrato pode ser exercida por particular terceirizado contratado para substituir a comissão oficial.
+* **B)** O fiscal técnico acompanha a prestação e o fiscal administrativo monitora os encargos trabalhistas.
+* **C)** O fiscal do contrato responde objetiva e solidariamente pelas dívidas tributárias da sociedade empresária prestadora.
+* **D)** As anotações de irregularidades feitas pelo fiscal do contrato dispensam notificação ao preposto da empresa contratada.
+* **E)** O recebimento provisório do serviço cabe privativamente ao gestor do contrato, vedada a atuação do fiscal setorial.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Incorreto**. A fiscalização é função pública exclusiva; terceiros podem ser contratados unicamente para assistir e subsidiar o fiscal oficial (art. 117, § 4º).
+> - **B)** **Correto**. O art. 117 da Lei nº 14.133/2021 institucionalizou as atribuições segregadas: o fiscal técnico acompanha a execução material do objeto (qualidade e quantidade dos serviços), enquanto o fiscal administrativo acompanha os aspectos previdenciários, fiscais e trabalhistas das obrigações da empresa contratada.
+> - **C)** **Incorreto**. O servidor fiscal não responde pelas obrigações tributárias da empresa; sua responsabilidade é funcional e subjetiva por desídia comprovada.
+> - **D)** **Incorreto**. O fiscal deve registrar todas as ocorrências e notificar formalmente o preposto da contratada para correção (art. 117, § 1º).
+> - **E)** **Incorreto**. O recebimento provisório é atribuição típica do fiscal do contrato (art. 140, I, "a").
 >
 > **Gabarito: B**
-
----
 ### Teste 103
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Em determinado processo administrativo, o Tribunal de Contas 
-do Estado do Pará constatou que a sociedade empresária Alfa 
-tinha comprovadamente incorrido em fraude em uma licitação 
-realizada por Beta, ente da Administração Pública indireta do 
-Estado do Pará. Durante o julgamento d o caso, foram realizados 
-debates em relação à aplicação da declaração de inidoneidade 
-para licitar e contratar. 
-Por fim, à luz do disposto na Lei Complementar estadual nº 
-81/2012, conclui-se corretamente que
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Empregado terceirizado que prestava serviços de vigilância desarmada a órgão público ajuizou reclamação trabalhista postulando a condenação subsidiária da Administração Pública pelo inadimplemento de verbas rescisórias da empresa terceirizada. À luz do art. 121, § 1º da Lei nº 14.133/2021 e da tese vinculante fixada pelo STF no Tema nº 246 (ADC 16 e RE 760.931):
 
-* **A)** a sanção apresenta caráter puramente admini strativo, logo, 
-sua aplicação, ou não, no caso concreto, fica a critério 
-exclusivo da autoridade competente de Beta.
-* **B)** o Tribunal de Contas somente pode aplicar a sanção pelo 
-voto da maioria absoluta dos seus membros, observadas as 
-garantias do contraditório e da ampla defesa.
-* **C)** caso o Tribunal de Contas entenda que é pertinente, deve 
-aplicar a sanção no âmbito do processo administrativo em 
-que constatar a ocorrência da fraude à licitação.
-* **D)** caso o Tribunal de Contas entenda que é pertinente, deve 
-determinar que a autoridade competente de Beta aplique a 
-sanção, e, se a determinação não for atendida em noventa 
-dias, deve aplicá-la.
-* **E)** o Tribunal de Contas deve aplicar a sanção caso a autoridade 
-competente de Beta ainda não a tenha aplicado, requisito 
-não atendido com a mera realização de juízo de valor diverso 
-do que prevaleceu no colegiado.
+* **A)** O inadimplemento da empresa terceirizada transfere automaticamente a responsabilidade pelo pagamento ao erário.
+* **B)** A responsabilidade subsidiária do Poder Público exige comprovação cabal de sua conduta culposa na fiscalização.
+* **C)** O Estado é solidariamente responsável com o empregador por todas as verbas salariais decorrentes da terceirização.
+* **D)** A fiscalização efetiva dos encargos trabalhistas pelo órgão público atrai a sua responsabilidade civil patrimonial.
+* **E)** A Justiça do Trabalho carece de competência jurisdicional para examinar a culpa in vigilando do ente federado contratante.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Incorreto**. O art. 121, § 1º da Lei nº 14.133/2021 e o art. 71, § 1º da Lei 8.666/93 estabelecem que a inadimplência do contratado não transfere automaticamente à Administração Pública a responsabilidade pelo pagamento dos encargos trabalhistas.
+> - **B)** **Correto**. Tese Vinculante do Tema nº 246 do STF: "O inadimplemento dos encargos trabalhistas dos empregados do contratado não transfere automaticamente ao Poder Público contratante a responsabilidade pelo seu pagamento, seja em caráter solidário ou subsidiário, nos termos do art. 71, § 1º, da Lei nº 8.666/93". O STF assentou que a condenação subsidiária do ente público somente é legítima quando houver prova inequívoca e cabal de sua conduta culposa e desidiosa (culpa in vigilando) na fiscalização do contrato.
+> - **C)** **Incorreto**. Não há responsabilidade solidária em hipótese alguma na terceirização lícita regular.
+> - **D)** **Incorreto**. A fiscalização diligente e tempestiva exime o ente público de qualquer condenação subsidiária.
+> - **E)** **Incorreto**. A Justiça do Trabalho é competente para processar e julgar a responsabilidade subsidiária da Administração (Súmula 331 do TST).
 >
-> **Gabarito: D**
-
----
+> **Gabarito: B**
 ## 5. Alterações Contratuais e Manutenção do Equilíbrio Econômico-Financeiro
 
 ### 5.1 Alterações Unilaterais e Consensuais: Limites de 25% e 50%
@@ -373,127 +303,68 @@ A garantia da equação econômico-financeira original é direito fundamental do
 ---
 
 ### Teste 104
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Sociedade Açucena praticou conduta que caracteriza ato lesivo à 
-Administração Pública Estadual, situação em que, à luz da Lei nº 
-12.846/13,
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Durante a execução de um contrato administrativo de pavimentação asfáltica, a Secretaria de Obras constatou a necessidade de realizar acréscimos quantitativos na extensão da via e ajustes qualitativos no traçado do projeto básico. Nos termos do art. 125 da Lei Federal nº 14.133/2021:
 
-* **A)** eventual responsabilização da pessoa jurídica na esfera 
-administrativa não afasta a possibilidade de responsabilização 
-na via judicial.
-* **B)** a instauração de processo administrativo específico de 
-reparação integral do dano prejudica a aplicação imediata das 
-sanções estabelecidas na norma em comento, afastando, 
-assim, a imposição de tais penalidades.
-* **C)** a aplicação de sanções na esfera judicial depende da 
-caraterização do elemento doloso, não bastando a mera 
-voluntariedade do agente para fins de responsabilização.
-* **D)** não há possibilidade de aplicação de sanções à pessoa 
-jurídica, diante da ausência do elemento volit ivo, 
-restringindo-se a aplicação de penalidades aos dirigentes e 
-administradores da sociedade.
-* **E)** não pode ser a ela aplicada sanção na via administrativa, 
-restringindo-se tal esfera de responsabilização aos atos 
-lesivos à Administração Pública federal e estrangeira.
+* **A)** O contratado fica obrigado a aceitar acréscimos ou supressões de até 25% do valor inicial atualizado do contrato.
+* **B)** O contratado pode recusar acréscimos unilaterais caso o valor da parcela adicionada ultrapasse dez por cento da obra.
+* **C)** Os limites de 25% para acréscimo e de 25% para supressão podem ser compensados contabilmente entre si na planilha.
+* **D)** Em reformas de edifícios públicos, o limite máximo de acréscimo obrigatório que o contratado deve aceitar é de 25%.
+* **E)** As alterações contratuais qualitativas dispensam termo aditivo formal quando houver prévio empenho da despesa.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Correto**. O art. 125 da Lei nº 14.133/2021 preceitua expressamente: "Nas alterações unilaterais a que se refere o inciso I do caput do art. 124 desta Lei, o contratado será obrigado a aceitar, nas mesmas condições contratuais, acréscimos ou supressões de até 25% (vinte e cinco por cento) do valor inicial atualizado do contrato que se fizerem nas obras, nos serviços ou nas compras".
+> - **B)** **Incorreto**. A aceitação de acréscimos de até 25% é dever legal vinculante e obrigatório da empresa contratada.
+> - **C)** **Incorreto**. O art. 125 veda expressamente a compensação entre acréscimos e supressões; os limites incidem isoladamente sobre cada alteração.
+> - **D)** **Incorreto**. Para reforma de edifício ou de equipamento, o limite de acréscimo legal é de até 50% (cinquenta por cento), conforme o art. 125 in fine.
+> - **E)** **Incorreto**. Toda e qualquer alteração contratual deve ser obrigatoriamente formalizada por termo aditivo (art. 132).
 >
 > **Gabarito: A**
-
----
 ### Teste 105
-**(FCC – TRT-1 – Analista Judiciário - Tecnologia da Informação – 2014)**
-Alguns contratos firmados pela Administração pública pos-
-suem características próprias, que lhes predicam como 
-administrativos. Sabendo-se que nem todo contrato firma-
-do pela Administração pode assim ser qualificado, desta-
-ca-se como indicativo dessa condição, dentre outros as-
-pectos, a
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+O Tribunal de Contas formalizou contrato administrativo de serviços de tecnologia com prazo de três anos. A respeito dos institutos jurídicos da recomposição (revisão), do reajuste em sentido estrito e da repactuação contratual na Lei nº 14.133/2021:
 
-* **A)** mutabilidade intrínseca dos termos e condições pac-
-tuados, permitida unilateralmente à Administração e 
-aos particulares contratados, desde que o objeto 
-seja a prestação de serviços públicos.
-* **B)** impossibilidade de prorrogação da avença, exigindo-
-se sempre a realização de licitação como forma de 
-privilegiar o menor preço nas contratações da Admi-
-nistração.
-* **C)** obrigação de manutenção do equilíbrio econômico-fi-
-nanceiro inicial da avença, diante de determinados 
-fatores e condições, tais como a alteração unilateral 
-do contrato.
-* **D)** impossibilidade do contratado suspender a execução 
-de suas obrigações, seja qual for o objeto contrata-
-do, diante de inadimplência prolongada da Adminis-
-tração pública.
-* **E)** possibilidade de contratação sem que haja demons-
-tração da existência de recursos para fazer frente às 
-despesas, em face da supremacia do interesse pú-
-blico e da relevância do objeto a ser contratado. 
-Caderno de Prova ’A01’, Tipo 001
-
-TRT1R-An.Jud.-Tec. Informação-A01 7
+* **A)** O reajuste em sentido estrito aplica-se a serviços com dedicação exclusiva de mão de obra para repassar convenção coletiva.
+* **B)** A repactuação decorre da variação de custos decorrente de acordo, convenção ou dissídio coletivo de trabalho.
+* **C)** A revisão (reequilíbrio) subordina-se à observância do interregno temporal mínimo de um ano contado da proposta.
+* **D)** A criação de novo tributo incidente sobre o contrato que majore os encargos não autoriza a revisão do ajuste público.
+* **E)** A repactuação de serviços com mão de obra exclusiva dispensa a demonstração analítica de aumento de custos em planilha.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Incorreto**. Para serviços com mão de obra exclusiva de mão de obra aplica-se a repactuação (art. 135), e não o reajuste por índice geral.
+> - **B)** **Correto**. Conforme estabelece o art. 135 da Lei nº 14.133/2021, a repactuação é a espécie de reajustamento voltada para serviços contínuos prestados com regime de dedicação exclusiva de mão de obra, devendo ser demonstrada a variação efetiva dos custos de mão de obra por meio de planilha de custos, motivada pela celebração de acordo, convenção coletiva de trabalho ou dissídio.
+> - **C)** **Incorreto**. A revisão (reequilíbrio por álea extraordinária - art. 124, II, "d") pode ser concedida a qualquer tempo, sem exigência de vacância anual.
+> - **D)** **Incorreto**. A criação ou majoração de tributos e encargos legais configura fato do príncipe (art. 134) e impõe obrigatória revisão contratual.
+> - **E)** **Incorreto**. A demonstração analítica da variação de custos por planilha analítica é pressuposto legal indeclinável.
 >
-> **Gabarito: A**
-
----
+> **Gabarito: B**
 ### Teste 106
-**(FCC – TRT-1 – Analista Judiciário - Tecnologia da Informação – 2014)**
-A aplicação da Lei de Licitações permite que, privilegiando 
-o princípio da isonomia, a Administração escolha a pro-
-posta mais vantajosa para firmar um ajuste, observados 
-os critérios de adjudicação estabelecidos no edital. Estão 
-sujeitos ao procedimento de licitação os
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Durante a execução de um contrato administrativo de serviços de limpeza urbana, a Fazenda Pública municipal atrasou injustificadamente o pagamento das faturas devidas à empresa contratada. De acordo com o art. 137, § 2º, IV, da Lei Federal nº 14.133/2021, o contratado tem o direito de suspender o cumprimento de suas obrigações caso o atraso nos pagamentos ultrapasse:
 
-* **A)** contratos administrativos, excluindo-se os contratos 
-da Administração, tais como os de locação e como-
-dato.
-* **B)** contratos celebrados pelos órgãos da Administra-
-ção direta, excluídos os entes que integram a Admi-
-nistração indireta, como autarquias e fundações.
-* **C)** ajustes que possuam natureza contratual, excluídos 
-os atos de outra natureza firmados entre a Ad-
-ministração e particulares.
-* **D)** ajustes que estabeleçam, em variados graus e medi-
-das, obrigações e direitos entre as partes, ainda que 
-não estejam revestidos de natureza contratual.
-* **E)** contratos e atos celebrados entre a Administração 
-pública em geral e particulares, desde que se sub-
-metam ao regime jurídico de direito público em sen-
-tido estrito.  
-_________________________________________________________
+* **A)** dois meses da nota fiscal, salvo calamidade pública ou grave perturbação da ordem.
+* **B)** trinta dias contados da liquidação da despesa, devendo rescindir unilateralmente o contrato sem aviso formal.
+* **C)** noventa dias consecutivos, independentemente de qualquer justificativa estatal quanto ao atraso financeiro.
+* **D)** seis meses corridos, não podendo suspender a prestação se a avença envolver serviços públicos essenciais.
+* **E)** um ano ininterrupto, cabendo-lhe pleitear unicamente correção monetária pelo índice oficial de inflação.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Correto**. O art. 137, § 2º, IV, da Lei nº 14.133/2021 inovou em favor do contratado ao prever que ele tem direito à extinção ou à suspensão da execução contratual por "atraso superior a 2 (dois) meses, contado da emissão da nota fiscal, dos pagamentos ou de parcelas de pagamentos devidos pela Administração por despesas de obras, serviços ou fornecimentos", salvo em caso de calamidade pública, grave perturbação da ordem interna ou guerra. Na lei revogada (Lei 8.666/93, art. 78, XV), o prazo era de 90 dias.
+> - **B)** **Incorreto**. O prazo na Nova Lei de Licitações é de 2 (dois) meses, e a extinção exige notificação e contraditório.
+> - **C)** **Incorreto**. O prazo de 90 dias era da legislação antiga (Lei 8.666/93), reduzido pela NLLC para 2 meses.
+> - **D)** **Incorreto**. O prazo fixado no texto vigente é de 2 meses.
+> - **E)** **Incorreto**. Prazo totalmente descabido e sem qualquer previsão no direito positivo.
 >
 > **Gabarito: A**
-
----
 ## 6. Infrações, Sistema Sancionador e Processo de Reabilitação
 
 O cometimento de infrações administrativas elencadas no art. 155 da Lei nº 14.133/2021 (dar causa à inexecução parcial ou total, fraudar a licitação, praticar ato ilícito com vistas a frustrar os objetivos do certame, comportar-se de modo inidôneo) sujeita o licitante ou contratado a quatro sanções administrativas (art. 156):
@@ -519,111 +390,65 @@ A reabilitação perante a Administração exige cumulativamente:
 ---
 
 ### Teste 107
-**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
-A Lei n.° 14.133/2021, além de modernizar as licitações e contratos 
-administrativos, reforça as atribuições do gestor e do fiscal de 
-contratos, promovendo uma gestão mais eficiente e transparente 
-por meio do acompanhamento rigoroso e da garantia do 
-cumprimento dos termos contratuais. 
-Assinale a opção que apresenta corretamente disposições sobre o 
-acompanhamento e a fiscalização da execução contratual.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A respeito do sistema sancionatório previsto no art. 156 da Lei nº 14.133/2021, a Administração Pública poderá aplicar aos licitantes ou contratados inadimplentes diversas sanções administrativas cominatórias. Constituem sanções expressamente estabelecidas no referido dispositivo:
 
-* **A)** A fiscalização contratual pode ser feita apenas por servidores 
-ocupantes de cargos efetivos, sendo vedada a participação de 
-terceiros no processo.
-* **B)** O fiscal do contrato pode delegar integralmente suas funções 
-a terceiros contratados, que passam a responder 
-exclusivamente pela execução do contrato.
-* **C)** O contrato será fiscalizado por um ou mais fiscais designados 
-pela Administração, podendo contar com o auxílio de terceiros 
-contratados, sem prejuízo das responsabilidades do fiscal.
-* **D)** A contratação de terceiros para auxiliar na fiscalização 
-dispensa a Administração da designação de fiscais próprios.
-* **E)** O fiscal do contrato responde apenas por atos que extrapolem 
-as informações prestadas por terceiros contratados para 
-auxiliá-lo.
+* **A)** advertência, multa, impedimento de licitar e declaração de inidoneidade para licitar/contratar.
+* **B)** repreensão verbal, suspensão temporária de três meses, retenção integral da garantia e perdimento de bens.
+* **C)** multa diária cominatória, perda de registro societário, cassação de inscrição na Junta e intervenção judicial.
+* **D)** advertência solene, cancelamento de alvará comercial e apreensão compulsória do maquinário da empresa.
+* **E)** declaração de inidoneidade, suspensão de direitos políticos do administrador e indisponibilidade de ativos.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: B**
-
----
-### Teste 108
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Em um município do interior do país, Joaquim Maria, com objetivo 
-de desfrutar da sua aposentadoria, comprou uma chácara de 
-Franciso José por meio de escritura pública com pagamento à vista 
-com imissão imediata da posse. As despesas com a celebração do 
-contrato foram pagas por Joaquim. Seis meses após a celebração 
-do contrato, Joaquim tem ciência que Franciso havia adquirido a 
-chácara de Brás Cubas, contudo a venda foi anulada por vício 
-formal. Destaca-se que Joaquim e Francisco não tinham ciência do 
-vício ou da possibilidade de anulação. No contrato de compra e 
-venda, inexistia qualquer cláusula a respeito da evicção.  
-Analise a situação hipotética com base no tema evicção e assinale 
-a opção correta.
-
-* **A)** A boa-fé do alienante exclui sua responsabilidade pela evicção, 
-devendo o adquirente acionar diretamente o causador do vício 
-formal.
-* **B)** Como se trata de princípio de ordem pública, é vedada as 
-partes a inclusão de cláusula contratual que exclua a garantia 
-contra a evicção.
-* **C)** Entre outros valores, Joaquim Maria tem direito à restituição 
-integral do preço e à indenização pelas despesas do contrato 
-de compra e venda.
-* **D)** Caso Joaquim Maria tenha realizada benfeitorias na chácara, 
-somente as necessárias serão restituídas por Francisco José.
-* **E)** A evicção se caracteriza como fenômeno jurídico subjetivo e, 
-por isso, depende do conhecimento ou da culpa do alienante 
-para a sua ocorrência.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Correto**. O art. 156 da Lei nº 14.133/2021 estabelece taxativamente as 4 (quatro) sanções administrativas cabíveis: "I - advertência; II - multa; III - impedimento de licitar e contratar; IV - declaração de inidoneidade para licitar ou contratar". A antiga "suspensão temporária de participação em licitação" da Lei 8.666 foi substituída pelo impedimento de licitar e contratar (art. 156, III).
+> - **B)** **Incorreto**. Repreensão verbal e perdimento patrimonial de bens não são sanções administrativas da NLLC.
+> - **C)** **Incorreto**. A Administração Pública não tem poder para cassar registro mercantil em processo de licitação.
+> - **D)** **Incorreto**. Apreensão de maquinário e cassação de alvará não integram o rol do art. 156 da NLLC.
+> - **E)** **Incorreto**. Suspensão de direitos políticos decorre de ação de improbidade julgada pelo Judiciário (LIA), não de sanção do art. 156.
 >
 > **Gabarito: A**
+### Teste 108
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Durante a execução de um contrato administrativo de fornecimento de ambulâncias para o Estado de Goiás, restou comprovado que a empresa contratada cometeu fraude dolosa ao entregar veículos usados com hodômetros adulterados. Diante da gravidade da infração, a autoridade instaurou processo de declaração de inidoneidade. A respeito dessa sanção (art. 156, § 6º da Lei nº 14.133/2021):
 
----
-### Teste 109
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-O projeto do pavimento de uma rodovia deve levar em 
-consideração os materiais encontrados nas proximidades da obra, 
-de modo a reduzir custos.  
-No caso de prospecção de pedreiras, marque a opção que 
-apresenta um dos ensaios correntes realizados em amostras de 
-rocha coletadas.
-
-* **A)** Índice de Suporte California.
-* **B)** Equivalente de Areia.
-* **C)** Abrasão Los Angeles.
-* **D)** Compactação.
-* **E)** Limite de Plasticidade.
+* **A)** A inidoneidade é competência exclusiva do Secretário de Estado e tem eficácia em toda a Federação.
+* **B)** A sanção de inidoneidade pode ser aplicada por qualquer fiscal de contrato, produzindo efeitos no órgão contratante.
+* **C)** A declaração de inidoneidade tem prazo fixo de seis meses, após o qual a reabilitação da empresa é automática.
+* **D)** A inidoneidade impede a participação em licitações apenas perante o Município onde a fraude material foi consumada.
+* **E)** O sancionado com inidoneidade pode participar livremente de certames licitatórios promovidos pela Administração Federal.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Correto**. O art. 156, § 6º, da Lei nº 14.133/2021 determina que a sanção de declaração de inidoneidade para licitar ou contratar é de competência EXCLUSIVA de Ministro de Estado, de Secretário Estadual ou de Secretário Municipal. Ademais, o § 5º estabelece que a inidoneidade produz efeitos no âmbito de TODA a Administração Pública direta e indireta de TODOS os entes federativos (União, Estados, DF e Municípios), pelo prazo mínimo de 3 (três) anos e máximo de 6 (seis) anos.
+> - **B)** **Incorreto**. A competência é privativa e indelegável da autoridade de cúpula ministerial ou de secretaria.
+> - **C)** **Incorreto**. O prazo legal é de 3 a 6 anos, e a reabilitação exige o cumprimento dos requisitos do art. 163 (ressarcimento integral e cumprimento das condições).
+> - **D)** **Incorreto**. A inidoneidade na NLLC tem alcance nacional e abrange todos os órgãos federativos.
+> - **E)** **Incorreto**. O impedimento gerado pela declaração de inidoneidade alcança a esfera federal e todas as demais.
 >
-> **Gabarito: C**
+> **Gabarito: A**
+### Teste 109
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+O art. 160 da Lei nº 14.133/2021 estabelece os requisitos e o procedimento para a aplicação da desconsideração da personalidade jurídica no âmbito das licitações e dos contratos administrativos. A respeito desse instituto, é correto afirmar que:
+
+* **A)** A desconsideração pode ser aplicada para estender as sanções de inidoneidade aos sócios e administradores com poderes.
+* **B)** A aplicação da desconsideração da personalidade jurídica dispensa a observância do contraditório e da ampla defesa.
+* **C)** A medida cabe apenas quando houver decisão judicial transitada em julgado proferida por vara de falências e concordatas.
+* **D)** A extensão dos efeitos punitivos atinge exclusivamente os acionistas minoritários sem poder de gestão societária.
+* **E)** A desconsideração impede a cobrança das multas administrativas aplicadas pelo órgão governamental lesado.
 
 ---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correto**. O art. 160 da Lei nº 14.133/2021 preconiza expressamente: "A personalidade jurídica poderá ser desconsiderada sempre que utilizada com abuso do direito para facilitar, encobrir ou dissimular a prática dos atos ilícitos previstos nesta Lei ou para provocar confusão patrimonial, e, nesse caso, todos os efeitos das sanções aplicadas à pessoa jurídica serão estendidos aos seus administradores e de sócios com poderes de administração". Visa coibir a criação fraudulenta de novas empresas para burlar sanções de inidoneidade (figura da empresa de fachada).
+> - **B)** **Incorreto**. O contraditório prévio e a ampla defesa com prazo de 15 dias úteis são mandatórios (art. 160, parágrafo único).
+> - **C)** **Incorreto**. A desconsideração da personalidade jurídica para fins de sanções licitatórias pode ser aplicada na via administrativa pelo ente público lesado.
+> - **D)** **Incorreto**. A extensão recai especificamente sobre administradores e sócios com poderes de administração.
+> - **E)** **Incorreto**. A desconsideração viabiliza justamente a cobrança patrimonial perante o patrimônio pessoal dos sócios administradores.
+>
+> **Gabarito: A**

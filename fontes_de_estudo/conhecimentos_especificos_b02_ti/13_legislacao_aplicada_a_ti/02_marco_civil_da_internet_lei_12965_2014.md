@@ -74,37 +74,30 @@ O Marco Civil consolidou definições obrigatórias para os profissionais de TI,
 ---
 
 ### Teste 525
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-A respeito de VoIP e os protocolos SIP e H.323, analise os itens a 
-seguir: 
-I. VoIP é uma aplicação de áudio e vídeo interativo em tempo 
-real; 
-II. O protocolo SIP é um protocolo de camada de transporte que 
-estabelece, gerencia e encerra sessões multimídia; 
-III. O H.323 é um protocolo padrão ITU que permite a um telefone 
-convencional da rede de telefonia pública se comuni car com 
-um computador conectado à Internet. 
-Está correto o que se afirma em
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+**Enunciado:** O Artigo 5º da Lei nº 12.965/2014 (Marco Civil da Internet) estabelece definições técnicas canônicas para a disciplina do uso da internet no Brasil. Com base nessas definições legais e no Decreto nº 8.771/2016, assinale a afirmativa correta:  
 
-* **A)** I, II e III.
-* **B)** I e II, apenas.
-* **C)** I e III, apenas.
-* **D)** II e III, apenas.
-* **E)** II, apenas.
+* **A)** O endereço IP é definido como o computador físico ou qualquer dispositivo móvel que se conecte diretamente a uma tomada de energia.
+* **B)** A porta lógica de origem é um elemento descartável e sem relevância probatória, sendo expressamente proibido seu registro sob a arquitetura de Carrier-Grade NAT (CGNAT).
+* **C)** Provedor de Conexão à Internet é a pessoa jurídica que fornece unicamente serviços de correio eletrônico e streaming de vídeo sob demanda.
+* **D)** Conexão à Internet é a habilitação de um terminal para envio e recebimento de pacotes de dados na Internet, mediante a atribuição ou autenticação de um endereço IP.
+* **E)** Aplicações de Internet limitam-se exclusivamente aos navegadores web instalados em computadores desktop de repartições públicas.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: C**
+> - **A)** Incorreta. Computador ou dispositivo que se conecta à internet é o **Terminal** (Art. 5º, II). O **Endereço IP** é o código atribuído a um terminal para permitir sua identificação lógica (Art. 5º, III).
+> - **B)** Incorreta. A porta lógica de origem é essencial para identificar o usuário específico sob CGNAT, no qual dezenas de conexões compartilham o mesmo endereço IPv4 público.
+> - **C)** Incorreta. Quem fornece streaming e e-mail é o **Provedor de Aplicações de Internet** (Art. 5º, VII). O Provedor de Conexão habilita o terminal na rede (ISP).
+> - **D)** **Correta.** Definição literal do Art. 5º, inciso V do Marco Civil: Conexão à Internet é a habilitação de um terminal para envio e recebimento de pacotes de dados na Internet, mediante a atribuição ou autenticação de um endereço IP.
+> - **E)** Incorreta. Aplicações de Internet abrangem qualquer conjunto de funcionalidades acessíveis por terminal conectado à rede (redes sociais, sites, APIs, nuvem).
+> 
+> **Gabarito: D**
 
 ---
+
 ## 1.2 Princípios e Direitos Fundamentais dos Usuários
 
 Os princípios da disciplina do uso da Internet no Brasil incluem a garantia da liberdade de expressão, comunicação e manifestação de pensamento; a proteção da privacidade e dos dados pessoais; a preservação da estabilidade, segurança e funcionalidade da rede por meio de padrões técnicos universais; e a neutralidade da rede.
@@ -119,42 +112,30 @@ São direitos fundamentais do usuário da internet (Art. 7º):
 ---
 
 ### Teste 526
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-A Internet é formada por um grande número de sistemas 
-autônomos (SAs).  Cada SA é operado por uma organização 
-diferente e pode usar seu próprio algoritmo de roteamento 
-interno.  Um algoritmo de roteamento em um SA é chamado de 
-protocolo de gateway interior, já um algoritmo para roteamento 
-entre SAs é chamado de protocolo de gateway exterior.  
-A respeito desses protocolos, analise os itens a seguir: 
-I. O protocolo de gateway interior recomendado na Internet é o 
-BGP; 
-II. O protocolo OSPF é bas eado no roteamento de vetor de 
-distância; 
-III. Os protocolos de gateway exterior foram projetados para 
-permitir a imposição de muitos tipos de políticas de 
-roteamento no tráfego entre SAs. 
-Está correto o que se afirma em
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+**Enunciado:** Em conformidade com o Art. 7º do Marco Civil da Internet (Lei nº 12.965/2014), o acesso à internet é essencial ao exercício da cidadania, sendo assegurados aos usuários diversos direitos fundamentais. A respeito desses direitos, assinale a afirmativa correta:  
 
-* **A)** I, II e III.
-* **B)** I e II, apenas.
-* **C)** I e III, apenas.
-* **D)** I, apenas.
-* **E)** III, apenas.
+* **A)** O sigilo das comunicações privadas armazenadas e do fluxo de comunicações na internet é inviolável, salvo por expressa e fundamentada ordem judicial nas hipóteses legais.
+* **B)** As operadoras de telecomunicações podem suspender unilateralmente a conexão do usuário caso ele publique críticas políticas a autoridades públicas locais.
+* **C)** É permitido aos provedores de internet comercializar os dados cadastrais e o histórico de navegação dos usuários sem o seu consentimento livre e informado.
+* **D)** A navegação na internet implica renúncia tácita e perpétua a qualquer indenização por dano moral decorrente de violação da intimidade.
+* **E)** O usuário não tem direito à exclusão definitiva dos dados pessoais que forneceu a uma aplicação de internet ao término da relação jurídica entre as partes.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
->
-> **Gabarito: E**
+> - **A)** **Correta.** O Art. 7º, incisos II e III da Lei nº 12.965/2014 estabelece a inviolabilidade e o sigilo do fluxo de comunicações e das comunicações privadas armazenadas, admitindo-se a quebra de sigilo exclusivamente por ordem judicial.
+> - **B)** Incorreta. A suspensão da conexão só é permitida em decorrência de débito financeiro diretamente decorrente da utilização do serviço (Art. 7º, IV).
+> - **C)** Incorreta. A cessão a terceiros de dados requer consentimento expresso, destacado e informado (Art. 7º, VII).
+> - **D)** Incorreta. A inviolabilidade da intimidade e o direito à indenização plena por danos materiais e morais são garantias expressas (Art. 7º, I).
+> - **E)** Incorreta. O titular tem direito expresso à exclusão definitiva dos seus dados ao término da relação, ressalvadas as hipóteses legais de guarda (Art. 7º, X).
+> 
+> **Gabarito: A**
 
 ---
+
 ## 2. O Princípio da Neutralidade de Rede (Art. 9º e Decreto nº 8.771/2016)
 
 A **Neutralidade de Rede** é a garantia legal de que os dados transmitidos pela infraestrutura de telecomunicações devem ser tratados de forma estritamente isonômica, independentemente do tipo de conteúdo, origem, destino, terminal utilizado ou aplicativo gerador.
@@ -201,33 +182,30 @@ A discriminação ou degradação de tráfego somente poderá decorrer de duas h
 ---
 
 ### Teste 527
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-O compliance é uma prática oriunda do marco regulatório 
-corporativo anglo -saxão, particularmente o norte -americano. A 
-legislação brasileira utiliza a terminologia de programas de 
-integridade para se referir aos sistemas de compliance.  
-Assinale a opção que indica um marco legal de programas de 
-integridade pública no Brasil.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+**Enunciado:** Uma empresa operadora de telecomunicações que fornece acesso à Internet em banda larga implementou uma política técnica em seus roteadores de borda para estrangular (*traffic shaping*) o tráfego de aplicações de chamadas telefônicas via Internet (VoIP) e de transmissão de vídeo ao vivo pertencentes a concorrentes, alegando em seus contratos de adesão que "a gestão dinâmica de pacotes visa assegurar a viabilidade comercial dos planos básicos". À luz do princípio da Neutralidade de Rede (Art. 9º da Lei nº 12.965/2014 e Decreto nº 8.771/2016):  
 
-* **A)** Decreto da Governança.
-* **B)** Lei Anticorrupção.
-* **C)** Lei das Estatais.
-* **D)** Lei de Responsabilidade Fiscal.
-* **E)** Decreto de Acesso à Informação.
+* **A)** A conduta da empresa é plenamente lícita, pois as normas de mercado conferem liberdade irrestrita às operadoras para discriminar pacotes conforme interesses comerciais próprios.
+* **B)** A prática viola frontalmente o princípio da neutralidade de rede, o qual impõe o dever de tratar quaisquer pacotes de dados de forma isonômica, vedando a degradação motivada por interesses comerciais ou anticoncorrenciais.
+* **C)** A degradação de tráfego somente seria considerada ilícita se a velocidade fosse reduzida a zero; reduções parciais de velocidade são expressamente autorizadas pelo Decreto nº 8.771/2016.
+* **D)** A neutralidade de rede é um conceito meramente programático e ético, desprovido de qualquer cogência legal ou sanção administrativa no direito brasileiro.
+* **E)** A discriminação de pacotes só pode ocorrer se houver anuência prévia e expressa do Conselho Administrativo de Defesa Econômica (CADE) para cada conexão individualizada.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: A**
+> - **A)** Incorreta. O Art. 9º, caput, veda expressamente a discriminação ou privilégio de pacotes com base em interesses comerciais. A neutralidade impede que a operadora favoreça serviços próprios ou de parceiros em detrimento de concorrentes.
+> - **B)** **Correta.** O Marco Civil da Internet (Art. 9º) e o Decreto nº 8.771/2016 consagram a neutralidade de rede como dever de tratar quaisquer pacotes de dados com isonomia, sem distinção por conteúdo, origem, destino, terminal ou aplicação. As únicas exceções admitidas são requisitos técnicos indispensáveis à estabilidade/segurança da rede ou priorização de serviços de emergência (Art. 9º, § 1º). Motivação comercial constitui infração grave.
+> - **C)** Incorreta. Qualquer degradação, ainda que parcial, decorrente de motivações anticoncorrenciais ou comerciais é ilícita perante o Art. 9º.
+> - **D)** Incorreta. A neutralidade de rede é norma jurídica vinculante e cogente. Seu descumprimento sujeita o infrator a sanções de advertência, multa de até 10% do faturamento, suspensão temporária e proibição de exercício de atividades (Art. 12).
+> - **E)** Incorreta. A lei não prevê autorização caso a caso pelo CADE para discriminação de pacotes em conexões individuais; a regra geral mandatória é a isonomia.
+> 
+> **Gabarito: B**
 
 ---
+
 ## 3. Regime de Guarda de Registros: Conexão vs. Aplicações de Internet
 
 O Marco Civil da Internet estabeleceu um regime binário de guarda de registros (*logs*), impondo deveres, prazos e proibições distintos para provedores de conexão e provedores de aplicação:
@@ -273,61 +251,61 @@ flowchart LR
 ---
 
 ### Teste 528
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-O compliance é uma prática oriunda do marco regulatório 
-corporativo anglo -saxão, particularmente o norte -americano. A 
-legislação brasileira utiliza a terminologia de programas de 
-integridade para se referir aos sistemas de compliance.  
-Assinale a opção que indica um marco legal de programas de 
-integridade pública no Brasil.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+**Enunciado:** Em decorrência de fraude eletrônica em sistema de pagamento de tributos estaduais, a Delegacia Fazendária instaurou inquérito policial e emitiu ofício administrativo diretamente ao provedor de acesso à Internet (ISP) do principal suspeito, determinando:  
 
-* **A)** Decreto da Governança.
-* **B)** Lei Anticorrupção.
-* **C)** Lei das Estatais.
-* **D)** Lei de Responsabilidade Fiscal.
-* **E)** Decreto de Acesso à Informação.
+I. O fornecimento imediato dos logs completos de conexão à Internet do investigado (endereço IP, porta lógica, data e hora de conexão) referentes aos últimos doze meses.  
+
+II. O fornecimento do histórico detalhado de todas as páginas web, endereços URL e serviços em nuvem visitados pelo usuário no mesmo período.  
+
+Recebido o ofício, a assessoria técnica e jurídica do provedor de conexão analisou os pedidos com base estrita na Lei nº 12.965/2014 (Marco Civil da Internet). O provedor deve:  
+
+* **A)** Atender integralmente a ambos os itens, visto que a autoridade policial detém prerrogativa legal incondicionada de requisição direta de quaisquer dados e logs de rede durante inquéritos.
+* **B)** Recusar o fornecimento direto dos logs de conexão do item I por ausência de ordem judicial prévia e declarar a impossibilidade absoluta de cumprimento do item II.
+* **C)** Atender ao item II, mantendo sob sigilo o item I por se tratar de segredo de telecomunicações regido unicamente pela Anatel.
+* **D)** Cumprir o item I apenas pelo período de seis meses, prazo máximo de guarda de conexão permitido por lei, e fornecer o histórico do item II mediante pagamento de custas administrativas.
+* **E)** Atender ao item I apenas se o Ministério Público ratificar administrativamente a ordem do Delegado, sendo o item II de fornecimento obrigatório pelo prazo de 5 anos.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: A**
+> - **A)** Incorreta. A autoridade policial não possui prerrogativa de requisição direta sobre logs de conexão e de aplicação. O Marco Civil da Internet consagra a estrita reserva de jurisdição (Art. 10, § 1º): a disponibilização desses dados depende indispensavelmente de ordem judicial fundamentada.
+> - **B)** **Correta.** A conduta correta do provedor de conexão é exatamente recusar o item I até que sobrevenha decisão judicial fundamentada (Art. 10, § 1º e Art. 13, § 1º) e recusar categoricamente o item II com esteio no Art. 14, que estabelece expressamente: *"Na provisão de conexão à internet, é vedada a guarda dos registros de acesso a aplicações de internet"*. Provedores de conexão não podem rastrear nem armazenar o histórico de navegação.
+> - **C)** Incorreta. O item II jamais pode ser atendido pelo ISP, pois a legislação proíbe expressamente a guarda do histórico de sites navegados.
+> - **D)** Incorreta. O prazo de guarda de registros de conexão para ISPs é de 1 ano (Art. 13), e não 6 meses. Além disso, o histórico de navegação (aplicações) não pode ser guardado pelo ISP sob hipótese alguma.
+> - **E)** Incorreta. A ratificação do MP não substitui a ordem judicial emanada pelo magistrado competente. Não existe previsão legal de guarda de histórico por 5 anos pelo ISP.
+> 
+> **Gabarito: B**
 
 ---
+
 ### Teste 529
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-O compliance é uma prática oriunda do marco regulatório 
-corporativo anglo -saxão, particularmente o norte -americano. A 
-legislação brasileira utiliza a terminologia de programas de 
-integridade para se referir aos sistemas de compliance.  
-Assinale a opção que indica um marco legal de programas de 
-integridade pública no Brasil.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+**Enunciado:** Um portal de notícias e rede social corporativa com sede e operação no Brasil, mantido por pessoa jurídica com fins lucrativos, armazena registros de seus usuários. Sob as regras específicas de guarda de registros de acesso a aplicações de internet contidas no Art. 15 da Lei nº 12.965/2014, o administrador dessa aplicação:  
 
-* **A)** Decreto da Governança.
-* **B)** Lei Anticorrupção.
-* **C)** Lei das Estatais.
-* **D)** Lei de Responsabilidade Fiscal.
-* **E)** Decreto de Acesso à Informação.
+* **A)** Deve manter os registros de acesso a aplicações sob sigilo, em ambiente controlado e de segurança, pelo prazo mínimo de 6 (seis) meses.
+* **B)** É obrigado a guardar os registros de acesso a aplicações pelo prazo de 1 (um) ano, idêntico ao prazo imposto aos provedores de conexão à internet.
+* **C)** Não tem obrigação legal de guardar registros de acesso, salvo se houver requerimento formal de seus acionistas.
+* **D)** Pode comercializar os registros de acesso a anunciantes publicitários sem necessidade de consentimento dos usuários.
+* **E)** Deve guardar os registros por tempo indeterminado e mantê-los em acesso público aberto em formato JSON.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A)** **Correta.** O Art. 15 da Lei nº 12.965/2014 preceitua que o provedor de aplicações de internet constituído na forma de pessoa jurídica e que exerça essa atividade de forma organizada, profissionalmente e com fins econômicos deverá manter os respectivos registros de acesso a aplicações de internet, sob sigilo, em ambiente controlado e de segurança, pelo prazo de 6 (seis) meses.
+> - **B)** Incorreta. O prazo de 1 ano aplica-se aos provedores de conexão (Art. 13), e não aos provedores de aplicações (cujo prazo é de 6 meses).
+> - **C)** Incorreta. A guarda por 6 meses é imposição legal cogente para empresas constituídas com fins econômicos, não dependendo de deliberação de acionistas.
+> - **D)** Incorreta. Os registros devem ser guardados sob estrito sigilo. A comercialização sem base legal e consentimento específico viola frontalmente a LGPD e o Marco Civil (Art. 7º, VII).
+> - **E)** Incorreta. A guarda perpétua e pública viola o princípio da segurança e a inviolabilidade da intimidade e privacidade dos usuários (Art. 7º, I).
+> 
 > **Gabarito: A**
 
 ---
+
 ## 3.2 A Vedação Absoluta aos Provedores de Conexão (Art. 14)
 
 O Art. 14 da Lei nº 12.965/2014 prevê expressamente:
@@ -338,33 +316,30 @@ Isso significa que o provedor de banda larga (como Claro, Vivo, Oi ou provedores
 ---
 
 ### Teste 530
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-O compliance é uma prática oriunda do marco regulatório 
-corporativo anglo -saxão, particularmente o norte -americano. A 
-legislação brasileira utiliza a terminologia de programas de 
-integridade para se referir aos sistemas de compliance.  
-Assinale a opção que indica um marco legal de programas de 
-integridade pública no Brasil.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+**Enunciado:** Durante a fiscalização de segurança e conformidade da infraestrutura de telecomunicações de um órgão estadual, os auditores analisaram o cumprimento das obrigações impostas aos provedores de conexão à internet. Nos termos do Art. 14 da Lei nº 12.965/2014 (Marco Civil da Internet), na provisão de conexão à internet:  
 
-* **A)** Decreto da Governança.
-* **B)** Lei Anticorrupção.
-* **C)** Lei das Estatais.
-* **D)** Lei de Responsabilidade Fiscal.
-* **E)** Decreto de Acesso à Informação.
+* **A)** É obrigatória a gravação em disco e indexação dos títulos de todos os vídeos e páginas web acessados por cada usuário, pelo prazo de cinco anos.
+* **B)** É expressamente vedada a guarda dos registros de acesso a aplicações de internet.
+* **C)** O provedor de conexão deve compartilhar os logs de navegação dos cidadãos com agências de publicidade mediante pagamento de taxa de administração.
+* **D)** O administrador de sistema autônomo é obrigado a monitorar e interceptar o tráfego criptografado HTTPS sem necessidade de autorização judicial.
+* **E)** A guarda dos registros de conexão é facultativa, podendo ser excluída a critério de conveniência da operadora de telecomunicações.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: A**
+> - **A)** Incorreta. É expressamente proibido aos provedores de conexão vigiar e registrar o histórico de navegação e as páginas que o usuário consome.
+> - **B)** **Correta.** O Art. 14 da Lei nº 12.965/2014 veda expressamente a guarda dos registros de acesso a aplicações de internet na provisão de conexão à internet. O ISP guarda unicamente os registros de conexão (endereço IP, data/hora de início e fim da conexão), sem registrar quais sites ou aplicações foram acessados.
+> - **C)** Incorreta. A comercialização de registros de navegação é manifestamente ilegal.
+> - **D)** Incorreta. O provedor de conexão não pode interceptar nem inspecionar o fluxo de dados dos usuários sem ordem judicial.
+> - **E)** Incorreta. A guarda dos registros de conexão é obrigação legal cogente pelo prazo de 1 ano (Art. 13).
+> 
+> **Gabarito: B**
 
 ---
+
 ## 3.3 Padrões de Segurança do Decreto nº 8.771/2016
 
 Os responsáveis pela guarda de registros devem obrigatoriamente seguir padrões mínimos de segurança da informação (Art. 13 do Decreto nº 8.771/2016):
@@ -397,39 +372,30 @@ O fornecimento de registros de conexão e de acesso a aplicações de internet s
 ---
 
 ### Teste 531
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Camila havia programado uma viagem internacional de 01 a 20 de 
-março. 
-Para acessar internet de modo ilimitado no período de sua viagem, 
-Camila decidiu habilitar o chip de seu celular. Na empresa de 
-telefonia, foi informado que o chip poderia ser habilitado durante 
-somente o mês de março por R$100, ou, a partir da data da viagem 
-e até o final de 2023, por R$120. 
-Mesmo não tendo outras viagens internacionais agendadas no 
-ano, Camila considerou a segunda opção mais vantajosa, e optou 
-por habilitar o chip até o final de 2023. 
-Assinale a opção que indica o reconhecimento da despesa 
-relacionada à habilitação de internet no chip.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+**Enunciado:** A requisição de dados perante provedores de internet é regulada pelo Marco Civil da Internet sob rigoroso regime de garantias. Em relação à requisição de dados cadastrais e de registros de conexão e de aplicações (Arts. 10 e 22), assinale a afirmativa correta:  
 
-* **A)** R$100 em março.
-* **B)** R$120 em janeiro.
-* **C)** R$120 em março.
-* **D)** R$10 de janeiro a dezembro.
-* **E)** R$12 de março a dezembro.
+* **A)** Registros de conexão (IP, data, hora, porta lógica) podem ser requisitados diretamente por qualquer autoridade administrativa sem mandado judicial.
+* **B)** A quebra de sigilo de registros de conexão ou de registros de acesso a aplicações de internet exige sempre expressa e motivada ordem judicial, sob pena de nulidade probatória.
+* **C)** O juiz pode expedir ordem genérica e indeterminada para que um provedor entregue todos os registros de acessos de todos os cidadãos de um estado durante dez anos, sem indício de ilícito.
+* **D)** Dados cadastrais de qualificação pessoal (como nome, filiação e endereço) possuem o mesmo tratamento probatório estrito dos conteúdos de mensagens sigilosas.
+* **E)** Os provedores de internet estrangeiros que prestam serviços no Brasil estão dispensados de cumprir a legislação brasileira e ordens judiciais emitidas por juízes nacionais.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: C**
+> - **A)** Incorreta. O fornecimento de registros de conexão e de acesso submete-se à cláusula de reserva de jurisdição (exige ordem judicial). Apenas dados cadastrais básicos podem ser solicitados por autoridades legalmente autorizadas.
+> - **B)** **Correta.** Conforme os Arts. 10, § 1º e 22 do Marco Civil, os registros de conexão e de acesso a aplicações só podem ser disponibilizados mediante ordem judicial fundamentada que aponte fundados indícios de ilícito, justificativa da utilidade e período determinado.
+> - **C)** Incorreta. Ordens genéricas (*fishing expeditions*) são expressamente vedadas pelo Art. 22, parágrafo único (exige período determinado e indícios de crime).
+> - **D)** Incorreta. A jurisprudência e a lei diferenciam dados cadastrais (acessíveis com menor formalidade) de registros de conexão e conteúdo de comunicações (protegidos por reserva judicial estrita).
+> - **E)** Incorreta. Conforme o Art. 11, aplica-se a lei brasileira a qualquer empresa que preste serviços ao público brasileiro ou que tenha filial no país.
+> 
+> **Gabarito: B**
 
 ---
+
 ## 5. Responsabilidade Civil por Conteúdo Gerado por Terceiros (Arts. 18 a 21)
 
 A responsabilização das plataformas por publicações, comentários, postagens e vídeos feitos pelos usuários estrutura-se em um regime jurídico tripartite:
@@ -479,33 +445,30 @@ O provedor de conexão à internet **não responderá civilmente** por danos dec
 ---
 
 ### Teste 532
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-O compliance é uma prática oriunda do marco regulatório 
-corporativo anglo -saxão, particularmente o norte -americano. A 
-legislação brasileira utiliza a terminologia de programas de 
-integridade para se referir aos sistemas de compliance.  
-Assinale a opção que indica um marco legal de programas de 
-integridade pública no Brasil.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+**Enunciado:** O regime de responsabilidade civil por danos decorrentes de conteúdo gerado por terceiros na internet foi disciplinado nos artigos 18 e 19 da Lei nº 12.965/2014. A respeito desse regime jurídico, assinale a afirmativa correta:  
 
-* **A)** Decreto da Governança.
-* **B)** Lei Anticorrupção.
-* **C)** Lei das Estatais.
-* **D)** Lei de Responsabilidade Fiscal.
-* **E)** Decreto de Acesso à Informação.
+* **A)** O provedor de conexão à internet responde solidariamente por todas as postagens caluniosas feitas pelos usuários que utilizam seus cabos de fibra óptica.
+* **B)** O provedor de aplicações de internet (como uma rede social) responde civilmente de plano por injúrias publicadas por terceiros assim que recebe uma notificação extrajudicial enviada por e-mail pelo ofendido.
+* **C)** O provedor de conexão à internet não responderá civilmente por danos decorrentes de conteúdo gerado por terceiros (Art. 18).
+* **D)** A regra geral do Artigo 19 estabelece que o provedor de aplicações é proibido de cumprir ordens judiciais de remoção de conteúdos ilegais.
+* **E)** As plataformas de internet são obrigadas a censurar previamente todo e qualquer texto ou comentário antes que ele seja publicado na rede.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: A**
+> - **A)** Incorreta. Pelo Art. 18, o provedor de conexão goza de imunidade civil absoluta por danos causados por conteúdos veiculados por terceiros.
+> - **B)** Incorreta. Na regra geral (Art. 19), a responsabilidade civil do provedor de aplicação depende de prévia ordem judicial específica; notificações extrajudiciais privadas não geram o dever de indenizar pela manutenção do conteúdo (salvo na exceção de nudez/sexo não consensual do Art. 21).
+> - **C)** **Correta.** Redação expressa do Art. 18 da Lei nº 12.965/2014: "O provedor de conexão à internet não responderá civilmente por danos decorrentes de conteúdo gerado por terceiros."
+> - **D)** Incorreta. O descumprimento da ordem judicial atrai a responsabilização civil subsidiária da plataforma.
+> - **E)** Incorreta. A censura prévia é expressamente vedada pela Constituição Federal e pelo Marco Civil.
+> 
+> **Gabarito: C**
 
 ---
+
 ## 5.3 Exceção Crítica do Artigo 21 (Nudez e Sexo Não Consensual)
 
 O Artigo 21 constitui a exceção mais importante e cobrada em provas de concurso:
@@ -517,76 +480,57 @@ O Artigo 21 constitui a exceção mais importante e cobrada em provas de concurs
 ---
 
 ### Teste 533
-**(FGV – TJ-MT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Acerca dos direitos e deveres individuais e coletivos, analise as 
-afirmativas a seguir: 
-I. É inviolável o sigilo da correspondência e das comunicações 
-telegráficas, de dados e das comunicações telefônicas, salvo, 
-no último caso, por ordem judicial, nas hipóteses e na forma 
-que a lei estabelecer para fins de investigação criminal ou 
-instrução processual penal. 
-II. Todos podem reunir -se pacificamente, sem armas, em locais 
-abertos ao público, independentemente de autorização, desde 
-que não frustrem outra reunião anteriormente convocada 
-para o mesmo local, sendo apenas exigido prévio aviso à 
-autoridade competente. 
-III. É assegurado a todos o acesso à informação e resguardado o 
-sigilo da fonte, quando necessário ao exercício profissional. 
-Nesse cenário, considerando as disposições da Constituição 
-Federal de 1988, está correto o que se afirma em
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+**Enunciado:** Uma usuária de rede social teve fotos íntimas suas, contendo cenas de nudez e atos sexuais de caráter privado, divulgadas sem seu consentimento por um ex-namorado em perfil público de grande alcance. A usuária enviou uma notificação eletrônica fundamentada diretamente aos administradores da rede social, apontando expressamente o endereço eletrônico (URL) das imagens e exigindo a remoção incontinenti do conteúdo íntimo não autorizado. A plataforma recusou a remoção alegando que, nos termos da regra geral do Marco Civil da Internet, só é obrigada a excluir postagens mediante intimação de ordem judicial transitada em julgado.  
+Considerando as disposições específicas do Art. 21 da Lei nº 12.965/2014:  
 
-* **A)** I, apenas.
-* **B)** II, apenas.
-* **C)** III, apenas.
-* **D)** I e II, apenas.
-* **E)** I, II e III. 
+* **A)** A plataforma agiu corretamente, pois nenhuma exceção à exigência de ordem judicial prévia foi recepcionada pela legislação brasileira.
+* **B)** A recusa da plataforma enseja sua responsabilidade subsidiária pelas perdas e danos sofridos pela vítima.
+* **C)** O conteúdo só poderia ser removido se a vítima registrasse previamente boletim de ocorrência internacional perante a Interpol.
+* **D)** A plataforma responde de forma penal por homicídio qualificado em concurso formal com o autor da publicação.
+* **E)** A responsabilidade da plataforma restringe-se ao pagamento de multa administrativa à Anatel, vedada qualquer reparação de cunho cível à ofendida.
 
-TRIBUNAL DE JUSTIÇA DE MATO GROSSO FGV CONHECIMENTO
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A)** Incorreta. O Art. 21 é a exceção expressa à regra do Art. 19. Para os casos de materiais contendo nudez ou atos sexuais de caráter privado divulgados sem autorização ("pornografia de vingança"), dispensa-se a prévia ordem judicial.
+> - **B)** **Correta.** O Art. 21 dispõe: *"O provedor de aplicações de internet que disponibilize conteúdo gerado por terceiros será responsabilizado subsidiariamente pela violação da intimidade decorrente da divulgação, sem autorização de seus participantes, de imagens, vídeos ou outros materiais contendo cenas de nudez ou de atos sexuais de caráter privado quando, após o recebimento de notificação pelo participante ou seu representante legal, deixar de promover, de forma diligente, no âmbito e nos limites técnicos do seu serviço, a indisponibilização desse conteúdo"*. Como a plataforma recusou a remoção após notificação com indicação de URL, ela passa a responder subsidiariamente pelos danos.
+> - **C)** Incorreta. A lei exige apenas a notificação formal pelo participante contendo elementos que permitam a identificação específica do material. Não há exigência de boletim de ocorrência policial.
+> - **D)** Incorreta. O Marco Civil disciplina a responsabilidade civil por danos, e a tipificação de crimes sexuais decorre do Código Penal, inexistindo relação com homicídio no contexto apresentado.
+> - **E)** Incorreta. A lei prevê expressamente a responsabilidade civil (reparação de danos morais e materiais à vítima), não se limitando a sanções administrativas.
+> 
 > **Gabarito: B**
 
 ---
+
 ### Teste 534
-**(FGV – TRF-1 – Analista Judiciário - Tecnologia da Informação – 2024)**
-Pedro, analista da Alfa e Ômega Consultoria e Realizações, foi 
-consultado por uma s ociedade empresária, com sede e 
-operações na Suíça, em relação à existência, ou não, de óbice 
-constitucional para que viesse a construir e a operar um moderno 
-hospital no território brasileiro. 
-Ao responder à consulta, Pedro esclareceu corretamente que o 
-objetivo almejado pela referida sociedade empresária:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+**Enunciado:** Determinado usuário de uma popular plataforma de compartilhamento de vídeos publicou material ofensivo atribuindo falsamente a prática de crime de improbidade administrativa a um servidor público. O servidor notificou extrajudicialmente a plataforma por meio de carta com aviso de recebimento (AR), exigindo a retirada imediata do vídeo. A plataforma manteve o vídeo no ar. Posteriormente, o servidor ingressou com ação judicial e o juiz deferiu liminar ordenando a remoção do conteúdo em 24 horas sob pena de multa diária. A plataforma removeu o conteúdo 6 horas após ser formalmente intimada da decisão judicial.  
+À luz do regime de responsabilidade civil por danos de terceiros previsto no Art. 19 da Lei nº 12.965/2014:  
 
-* **A)** é peremptoriamente vedado;
-* **B)** é peremptoriamente permitido;
-* **C)** não é disciplinado pela Constituição da República;
-* **D)** é permitido, mas a lei pode indicar as situações em que é 
-vedado;
-* **E)** é vedado, mas a lei pode indicar as situações em que é 
-permitido.
+* **A)** A plataforma responde solidariamente pelos danos desde o recebimento da notificação extrajudicial com AR, pois tomou ciência inequívoca da ilicitude do vídeo.
+* **B)** O provedor de aplicação não responderá civilmente pelos danos decorrentes do conteúdo gerado pelo terceiro.
+* **C)** Os provedores de aplicações respondem objetivamente por qualquer conteúdo postado por usuários, independentemente de notificação ou ordem judicial.
+* **D)** A plataforma é imune à jurisdição brasileira caso seus servidores físicos estejam localizados fora do território nacional.
+* **E)** A responsabilidade civil recai exclusivamente sobre a operadora de telecomunicações que forneceu a conexão de internet ao autor do vídeo ofensivo.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A)** Incorreta. Na regra geral do Art. 19 do Marco Civil, a notificação extrajudicial não gera o dever de remoção nem acarreta responsabilidade civil para a plataforma. O modelo brasileiro adotou o critério da ordem judicial prévia específica para configuração do dever indenizatório do provedor de aplicação.
+> - **B)** **Correta.** Pelo Art. 19, o provedor de aplicações só responde civilmente se, após ordem judicial específica, não tomar as providências para tornar o conteúdo indisponível no prazo assinalado. Como a plataforma removeu o vídeo em 6 horas (dentro do prazo judicial de 24 horas), ela cumpriu estritamente a ordem judicial e não incorre em responsabilidade civil.
+> - **C)** Incorreta. O Marco Civil expressamente afastou a responsabilidade objetiva das plataformas pelo conteúdo de terceiros para preservar a liberdade de expressão e evitar a censura privada prévia.
+> - **D)** Incorreta. O Art. 11 estabelece que a legislação brasileira se aplica a qualquer operação de coleta, guarda e tratamento de dados por pessoas jurídicas que prestem serviços ao público brasileiro, mesmo que os servidores físicos estejam sediados no exterior.
+> - **E)** Incorreta. O provedor de conexão possui imunidade civil absoluta por conteúdo de terceiros nos termos do Art. 18 (*"O provedor de conexão à internet não responderá civilmente por danos decorrentes de conteúdo gerado por terceiros"*).
+> 
 > **Gabarito: B**
 
 ---
+
 ## 6. Fontes Recomendadas na Internet
 
 * [Lei nº 12.965/2014 (Marco Civil da Internet)](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm) - Estabelece princípios, garantias, direitos e deveres para o uso da Internet no Brasil.

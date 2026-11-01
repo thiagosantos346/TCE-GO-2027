@@ -91,30 +91,34 @@ Para maximizar a eficiência, a leitura técnica orientada a concurso estrutura-
 ---
 
 ### Teste 565
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-The expression “such as” in “such as climate change” (2 nd 
-paragraph) can be replaced without significant change in meaning 
-by
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+*Read the paragraph below regarding English for Specific Purposes (ESP) applied to technical auditing:*
 
-* **A)** like.
-* **B)** as to.
-* **C)** mostly.
-* **D)** except for.
-* **E)** disregarding.
+> *"Technical reading in computer science does not require exhaustive vocabulary knowledge of conversational English. Instead, an auditor relies on a tripartite cognitive model: domain-specific schemata (prior background knowledge), minimal grammatical architecture (such as modal auxiliaries and passive voice), and metacognitive reading strategies. During the pre-reading phase, examining the question stem and answer options before confronting the source text allows the reader to establish mental anchors and discard irrelevant details."*
+
+According to the text and instrumental reading fundamentals:  
+
+* **A)** An auditor must master all colloquial idioms and conversational slang of the English language before being able to interpret technical documentation.
+* **B)** Prior background knowledge (*schemata*) in IT concepts compensates for lexical gaps in general vocabulary, accelerating comprehension when combined with metacognitive strategies like pre-reading.
+* **C)** Pre-reading mandates that the candidate read the entire technical article three times before inspecting the question's alternatives.
+* **D)** Metacognitive reading strategies are strictly forbidden in competitive public examinations for IT positions.
+* **E)** The passive voice is never employed in formal technical and scientific reports in computing.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: A**
+> - **A)** Incorreta. O texto afirma expressamente o oposto: a leitura técnica não exige vocabulário exaustivo de conversação geral (*"does not require exhaustive vocabulary knowledge of conversational English"*).
+> - **B)** **Correta.** O conhecimento técnico prévio (*schemata*) ativa atalhos cognitivos que permitem ao candidato suprir lacunas vocabulares e focar nos elementos essenciais quando combinado com estratégias como a pré-leitura das alternativas e enunciados.
+> - **C)** Incorreta. A pré-leitura (*pre-reading*) consiste justamente em ler primeiro o enunciado e alternativas para fixar âncoras antes de ler o texto longo.
+> - **D)** Incorreta. As estratégias metacognitivas são amplamente recomendadas e essenciais para resolução de provas sob pressão de tempo.
+> - **E)** Incorreta. A voz passiva é extremamente abundante na literatura técnica em inglês para conferir impessoalidade e objetividade aos relatórios.
+> 
+> **Gabarito: B**
 
 ---
+
 ## 2. Skimming: Leitura Rápida Panorâmica (Main Idea & Gist)
 
 O **Skimming** (derivado do verbo *to skim*, "desnatar", retirar a camada superior) consiste em uma leitura acelerada e panorâmica com o objetivo precípuo de **captar a ideia principal (*gist / main idea*), o tema global, o tom e a arquitetura macrotextual**, sem deter-se em pormenores secundários, dados numéricos isolados ou termos desconhecidos.
@@ -142,34 +146,34 @@ A FCC recorre frequentemente a comandos que demandam exclusivamente a aplicaçã
 ---
 
 ### Teste 566
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Based on the text, mark the statements below as TRUE (T) or FALSE 
-(F): 
-(   ) The author mentions the fact that AGI may supplant human 
-faculties. 
-(   ) Ways in which we can lead meaningful lives are detailed. 
-(   ) AGI has already solved the problems of economic equality. 
-The statements are, respectively
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+*Carefully read the following excerpt on Artificial General Intelligence (AGI):*
 
-* **A)** F – T – F.
-* **B)** T – F – F.
-* **C)** T – T – F.
-* **D)** F – T – T.
-* **E)** F – F – T.
+> *"The emergence of Artificial General Intelligence represents a profound inflection point for modern civilization. While current narrow AI systems excel at specialized tasks like pattern matching or matrix multiplication, AGI posits autonomous agents capable of human-level reasoning across multidisciplinary domains. Consequently, organizational leaders must anticipate seismic shifts in workforce dynamics and digital governance. Addressing these challenges demands proactive regulatory frameworks that align autonomous optimization with societal ethics before full deployment occurs."*
+
+Applying the **Skimming** strategy to identify the primary argument (*main idea*), the central thesis of the paragraph is that:  
+
+* **A)** Current narrow AI systems have completely failed at performing matrix operations and mathematical calculations.
+* **B)** Regulatory frameworks should be permanently dismantled to accelerate unsupervised algorithmic optimization.
+* **C)** The advent of AGI requires anticipatory governance and proactive regulatory frameworks to align autonomous systems with human societal values and ethics.
+* **D)** Human-level reasoning is impossible to achieve in computer software under any theoretical circumstance.
+* **E)** Matrix multiplication is the ultimate goal of public digital governance in auditing.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: B**
+> - **A)** Incorreta. O texto diz o oposto: sistemas atuais de IA estreita destacam-se (*excel*) em tarefas especializadas como multiplicação de matrizes.
+> - **B)** Incorreta. O autor defende a instituição de marcos regulatórios proativos (*proactive regulatory frameworks*), e não seu desmantelamento.
+> - **C)** **Correta.** Por meio do *Skimming* (leitura do tópico frasal e da oração conclusiva), constata-se que a tese central do parágrafo é a necessidade imperiosa de governança antecipada e marcos ético-regulatórios para conciliar o avanço de sistemas autônomos aos interesses da sociedade.
+> - **D)** Incorreta. O texto discute a emergência da AGI exatamente como agentes capazes de raciocínio de nível humano.
+> - **E)** Incorreta. Trata-se de mero exemplo de operação matemática pontual mencionado no texto, e não do tema central.
+> 
+> **Gabarito: C**
 
 ---
+
 ## 3. Scanning: Leitura de Varredura Seletiva (Locating Specific Data)
 
 O **Scanning** (análogo à operação de busca de um comando `grep` ou ao feixe de um leitor óptico) é a estratégia não-linear de leitura orientada à **localização instantânea de uma informação específica pontual**, dispensando por completo a leitura integral do texto.
@@ -215,85 +219,34 @@ flowchart TD
 ---
 
 ### Teste 567
-**(FGV – TCE-GO – Analista de Controle Externo - Controle Externo – 2024)**
-Assinale a opção em que a preposição A – sozinha ou combinada - 
-tem valor semântico diferente dos demais.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+*Consider the sentence below extracted from a technical paper on computing scalability:*
 
-* **A)** O Presidente, com sua mulher, acompanhou os convidados à 
-sala de música.
-* **B)** O policial atirou-se ao chão, cobrindo a cabeça com as mãos.
-* **C)** O ministro deverá ir a São Paulo ainda hoje para a recepção 
-dos novos diplomatas.
-* **D)** Os seguranças dirigiram -se aos carros dos ministros e os 
-acompanharam no desfile.
-* **E)** O banqueiro é sócio do empresário em um hotel à Rua Santa 
-Clara, em Copacabana. 
+> *"Over the past **roughly** fifty thousand hours of continuous automated monitoring, the distributed database cluster handled over ten billion transactional queries without a single unrecoverable data loss event."*
 
-Língua Inglesa 
-READ THE TEXT AND ANSWER QUESTIONS 01 to 08: 
+By employing **Scanning** and analyzing the semantic function of the highlighted word in context, the word **"roughly"** expresses:  
 
-Artificial intelligence and the future of humanity 
+* **A)** an exact, indisputable measurement verified by laboratory standards.
+* **B)** an estimation or approximation regarding the elapsed time period.
+* **C)** a violent or aggressive manner of physical execution.
+* **D)** a frequency of occurrence that happens exclusively on weekends.
+* **E)** a legal condition that invalidates the operational metrics of the cluster.
 
-Thinking and learning about artificial intelligence are the mental 
-equivalent of a fission chain reaction. The questions get really big, 
-really quickly.  
-
-The most familiar concerns revolve around short -term impacts : 
-the opportunities for economic productivity, health care, 
-manufacturing, education, solving global challenges such as 
-climate change and, on the flip side, the risks of mass 
-unemployment, disinformation, killer robots, and concentrations 
-of economic and strategic power.  
-
-Each of these is critical, but they’re only the most immediate 
-considerations. The deeper issue is our capacity to live meaningful, 
-fulfilling lives in a world in which we no longer have intelligence 
-supremacy. 
-
-As long as humanity has existed, we’ve had an effective monopoly 
-on intelligence. We have been, as far as we know, the smartest 
-entities in the universe.  
-
-At its most noble, this extraordinary gift of our evolution drives us 
-to explore, discover and expand. Over the past roughly 50,000 
-years—accelerating 10,000 years ago and then even more steeply 
-from around 300 years ago—we’ve built a vast intellectual empire 
-made up of science, philosophy, theology, engineering, 
-storytelling, art, technology and culture. 
-
-If our civilisations—and in varying ways our individual lives —have 
-meaning, it is found in this constant exploration, discovery and 
-intellectual expansion.  
-
-Intelligence is the raw material for it all. But what happens when 
-we’re no longer the smartest beings in  the universe? We haven’t 
-yet achieved artificial general intelligence (AGI) —the term for an 
-AI that could do anything we can do. But there’s no barrier in 
-principle to doing so, and no reason it wouldn’t quickly outstrip us 
-by orders of magnitude. 
-
-Even i f we solve the economic equality questions through 
-something like a universal basic income and replace notions of 
-‘paid work’ with ‘meaningful activity’, how are we going to spend 
-our lives in ways that we find meaningful, given that we’ve evolved 
-to strive and thrive and compete? 
-
-Adapted from https://www.aspistrategist.org.au/artificial -
-intelligence-and-the-future-of-humanity/
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
->
-> **Gabarito: E**
+> - **A)** Incorreta. O termo não indica exatidão ou rigor métrico absoluto.
+> - **B)** **Correta.** No vocabulário técnico e acadêmico em inglês, o advérbio **"roughly"** (quando associado a números e grandezas temporais) funciona como sinônimo de *approximately / about* (aproximadamente, em torno de, em estimativa aproximada).
+> - **C)** Incorreta. Embora *rough* na linguagem coloquial possa significar "áspero" ou "bruto", no contexto quantitativo de engenharia de sistemas *roughly* expressa aproximação/estimativa (*estimation*).
+> - **D)** Incorreta. Não denota dias da semana ou periodicidade restrita.
+> - **E)** Incorreta. Trata-se de qualificador de medida aproximada, sem conotação jurídica de nulidade.
+> 
+> **Gabarito: B**
 
 ---
+
 ## 4. Predição e Pistas Contextuais de Vocabulário (Context Clues)
 
 Em certames da FCC para a área de TI, é praxe a inclusão de vocabulário técnico rebuscado, jargões emergentes ou termos polissêmicos. O candidato não precisa conhecer previamente todos os verbetes da língua inglesa; precisa, sim, saber utilizar as **pistas contextuais (*Context Clues*)** para deduzir o significado exato de palavras desconhecidas diretamente da oração em que figuram.
@@ -344,76 +297,92 @@ Determinados termos técnicos de língua inglesa possuem acepções altamente es
 ---
 
 ### Teste 568
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-The word “roughly” in “Over the past roughly 50,000 years” (5 th 
-paragraph) indicates a(n)
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+*Carefully read the text excerpt below regarding cybersecurity incident handling:*
 
-* **A)** prevalence.
-* **B)** estimation.
-* **C)** exactness.
-* **D)** manner.
-* **E)** time.
+> *"During the post-incident investigation, forensics analysts discovered that adversaries managed to **compromise** the primary domain controller by exploiting an unpatched remote code execution vulnerability. Once inside, the attackers deployed sophisticated **ransomware** that encrypted critical databases across multiple physical sites. **Unlike** conventional malware campaigns that disrupt operations immediately, this intrusion remained dormant for weeks to exfiltrate proprietary data. To **remediate** the breach, the security operations center had to revoke all privileged credentials and rebuild directory services from verified cold backups."*
+
+Based on reading strategies and vocabulary inference, select the correct statement:
+
+* **A)** In the first sentence, the word **"compromise"** means that the adversaries entered into an amicable agreement or diplomatic settlement with the domain controller.
+* **B)** The connector **"Unlike"** establishes a relation of contrast between the intrusion described and conventional malware campaigns regarding their timing of disruption.
+* **C)** By using scanning techniques on the text, one can determine that the ransomware encrypted databases located within a single physical datacenter.
+* **D)** The verb **"remediate"** indicates that the security operations center decided to accept and tolerate the breach without executing countermeasures.
+* **E)** The pronoun **"this intrusion"** in the third sentence refers specifically to the automated restoration of cold backups.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A)** Incorreta. No léxico técnico de cibersegurança e auditoria de sistemas, **"to compromise"** significa violar a segurança, corromper ou assumir controle indevido de um recurso. A alternativa apoia-se no sentido leigo e diplomático da palavra (acordo/concessão recíproca), descabido no contexto de exploração de vulnerabilidade.
+> - **B)** Correta. A preposição **"Unlike"** (ao contrário de / diferentemente de) atua como um marcador contrastivo inequívoco: confronta as campanhas convencionais de malware, que interrompem operações instantaneamente (*disrupt operations immediately*), com a invasão analisada, que permaneceu dormente durante semanas (*remained dormant for weeks*).
+> - **C)** Incorreta. Por meio de *Scanning* focado na expressão "physical sites", constata-se a menção expressa a *"across **multiple** physical sites"* (múltiplos locais físicos, e não um único).
+> - **D)** Incorreta. O verbo **"remediate"** significa sanar, mitigar, corrigir ou restaurar a higidez do ambiente atacado. O texto demonstra a ação corretiva enérgica: revogação de credenciais e reconstrução dos servidores a partir de backups frios.
+> - **E)** Incorreta. O sintagma anafórico **"this intrusion"** refere-se ao ataque do ransomware e à invasão do controlador de domínio perpetrada pelos cibercriminosos, descrita nas orações anteriores, e não à restauração dos backups (que ocorre na frase posterior).
+> 
 > **Gabarito: B**
 
 ---
+
 ### Teste 569
-**(FGV – TCE-GO – Analista de Controle Externo - Ciências Contábeis – 2024)**
-According to the text, the word that “this extraordinary gift” (5 th 
-paragraph) refers to is our
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+*Read the technical excerpt concerning cloud architecture evaluation:*
 
-* **A)** world.
-* **B)** universe.
-* **C)** humanity.
-* **D)** monopoly.
-* **E)** intelligence.
+> *"Monolithic systems are often praised for their initial architectural simplicity and straightforward deployment pipelines. However, as organizations scale, maintaining a massive unified codebase introduces a formidable development **bottleneck**. In contrast, a microservices pattern partitions the business domain into autonomous, loosely coupled services that can be scaled independently. **Nonetheless**, adopting microservices entails a non-trivial **trade-off**: while it enhances deployment velocity, it substantially escalates distributed operational complexity, network latency, and the difficulty of enforcing cross-service transactional consistency."*
+
+Through the application of skimming and scanning techniques, it can be concluded that:
+
+* **A)** Skimming the passage reveals that the author unconditionally recommends microservices as a superior solution without any operational drawbacks.
+* **B)** The term **"bottleneck"** is used contextually to describe an acceleration mechanism that improves developer delivery speed.
+* **C)** According to the text, monolithic architectures present higher network latency and more complex cross-service transactions than microservices.
+* **D)** The word **"trade-off"** indicates a compromise where gaining deployment velocity comes at the expense of higher distributed complexity and latency.
+* **E)** The linking word **"Nonetheless"** introduces an addition of arguments in favor of monolithic deployment pipelines.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
->
-> **Gabarito: E**
+> - **A)** Incorreta. O *skimming* demonstra que o texto adota uma abordagem equilibrada de engenharia, enfatizando que os microsserviços acarretam complexidade operacional distribuída e custos adicionais consideráveis (*operational complexity, network latency*), refutando a tese de recomendação incondicional sem desvantagens.
+> - **B)** Incorreta. O termo **"bottleneck"** (gargalo) designa um ponto crítico de estrangulamento ou restrição que retarda o fluxo de trabalho e reduz a produtividade, e nunca um acelerador de velocidade.
+> - **C)** Incorreta. O *scanning* localiza que a maior latência de rede (*network latency*) e o desafio de consistência transacional entre serviços (*cross-service transactional consistency*) são ônus inerentes aos **microsserviços**, e não aos sistemas monolíticos.
+> - **D)** Correta. O conceito técnico de **"trade-off"** expressa exatamente a relação de concessão ou compromisso mútuo em engenharia: para usufruir de maior velocidade de entrega (*deployment velocity*), a organização é forçada a suportar maior complexidade de infraestrutura distribuída e latência.
+> - **E)** Incorreta. O conectivo **"Nonetheless"** (contudo, não obstante, todavia) é um marcador discursivo de concessão e oposição/contraste, e não de adição cumulativa (*furthermore, in addition*).
+> 
+> **Gabarito: D**
 
 ---
+
 ### Teste 570
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-The opposite of “the smartest” (4th paragraph) is
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+*Read the architectural decision record below:*
 
-* **A)** the least naïve.
-* **B)** the most clever.
-* **C)** the most stupid.
-* **D)** the least foolish.
-* **E)** the most sensible.
+> *"Migrating our core monolith to a microservices architecture introduces a major **trade-off**: although it enhances deployment agility and horizontal scalability, network latency becomes a significant **bottleneck**. To **remediate** this issue and ensure that unauthorized endpoints cannot **compromise** the service mesh, engineers implemented strict mTLS authentication and distributed caching."*
+
+Regarding the technical vocabulary utilized in software engineering (*trade-off, bottleneck, remediate, compromise*), it is correct to state that:  
+
+* **A)** A *trade-off* indicates a decision without any disadvantage, offering purely positive benefits with zero cost.
+* **B)** A *bottleneck* represents a critical point of congestion or constraint that restricts the overall performance and throughput of the system.
+* **C)** To *remediate* an architectural problem means to ignore it permanently until the hardware crashes.
+* **D)** In cybersecurity, to *compromise* a service mesh means to sign an official peace treaty with external hackers.
+* **E)** A *bottleneck* in distributed systems is synonymous with an infinite broadband connection.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: C**
+> - **A)** Incorreta. Um *trade-off* é uma relação de compromisso ou escolha conflitante: ganha-se de um lado (ex.: escalabilidade) perdendo-se necessariamente de outro (ex.: maior complexidade ou latência).
+> - **B)** **Correta.** Em arquitetura de software e redes, *bottleneck* (gargalo) é o elemento ou recurso limitante que restringe o fluxo (*throughput*) e a capacidade máxima do sistema como um todo.
+> - **C)** Incorreta. *Remediate* significa remediar, corrigir, sanar ou mitigar uma falha.
+> - **D)** Incorreta. No jargão de segurança cibernética, *to compromise* significa violar, invadir ou quebrar a integridade/confidencialidade de um sistema (*comprometimento de segurança*).
+> - **E)** Incorreta. *Bottleneck* é o oposto de conexão irrestrita; é um ponto de afunilamento/estrangulamento.
+> 
+> **Gabarito: B**
 
 ---
+
 ## 5. Falsos Cognatos Críticos em TI (False Friends)
 
 ### 5.1 Cognatos Verdadeiros vs. Falsos Amigos
@@ -446,53 +415,68 @@ Já os **Falsos Cognatos (*False Friends / False Cognates*)** possuem grafia e p
 ---
 
 ### Teste 571
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-In the second paragraph, “on the flip side” means
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+*Carefully read the excerpt below regarding modern enterprise infrastructure security:*
 
-* **A)** on purpose.
-* **B)** on principle.
-* **C)** on behalf of.
-* **D)** on no account.
-* **E)** on the other hand.
+> *"Zero Trust is not a single tool, but rather an overarching security model. Traditional perimeter defenses assume that everything inside an organization's internal network can be trusted. In contrast, Zero Trust operates on the principle of 'never trust, always verify'. Consequently, even after users and devices obtain initial access to a subnet, their authorization must be continually re-evaluated using granular policies based on identity, endpoint health, and context. Because legacy systems often lack native support for dynamic telemetry, modernizing them can **eventually** require substantial engineering effort."*
+
+Based on reading comprehension strategies and technical lexicon, it is correct to state that:
+
+* **A)** The term **"eventually"** in the last sentence indicates that migrating legacy systems demands engineering effort only on rare, unpredictable occasions.
+* **B)** The main purpose of the paragraph is to demonstrate that legacy perimeter defenses remain technically superior to Zero Trust architectures.
+* **C)** According to the text, once a device achieves initial authentication inside an internal subnet, its authorization privileges remain unconditionally static.
+* **D)** The author highlights that Zero Trust mandates continuous re-evaluation of authorization privileges, even for internal network traffic.
+* **E)** The pronoun **"their"** in the sentence *"their authorization must be continually re-evaluated"* refers syntactically to *"traditional perimeter defenses"*.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
->
-> **Gabarito: E**
+> - **A)** Incorreta. Explora a pegadinha clássica do falso cognato (*false friend*). O advérbio **"eventually"** significa "no final das contas", "com o tempo" ou "ao longo do processo" (*in the end / ultimately*). A alternativa tenta induzir o candidato ao erro traduzindo-o por "ocasionalmente / de modo esporádico", o que em inglês seria expresso por *occasionally* ou *sporadically*.
+> - **B)** Incorreta. Mediante *Skimming*, nota-se que o parágrafo apresenta a superioridade conceitual e a necessidade do modelo Zero Trust frente às defesas tradicionais de perímetro, que assumiam presunções ingênuas de confiança interna. O autor não afirma que o modelo tradicional é superior.
+> - **C)** Incorreta. Mediante *Scanning*, verifica-se que o texto assinala expressamente o oposto: *"even after users and devices obtain initial access to a subnet, their authorization must be continually re-evaluated"* (mesmo após obter acesso inicial, a autorização deve ser continuamente reavaliada, logo não permanece estática).
+> - **D)** Correta. Captura com fidelidade a tese central do modelo Zero Trust expressa no texto: a exigência de reavaliação contínua e dinâmica dos privilégios de autorização (*continually re-evaluated using granular policies*), inclusive para dispositivos e usuários já presentes na rede interna.
+> - **E)** Incorreta. Análise de referência pronominal (*Reference Words*): o pronome possessivo plural **"their"** retoma anaforicamente o sintagma plural antecedente **"users and devices"** (*"even after users and devices obtain initial access to a subnet, their authorization.."*), e não "traditional perimeter defenses".
+> 
+> **Gabarito: D**
 
 ---
+
 ### Teste 572
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-The expression “such as” in “such as climate change” (2 nd 
-paragraph) can be replaced without significant change in meaning 
-by
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+*Consider the sentence below taken from an official software engineering audit report:*
 
-* **A)** like.
-* **B)** as to.
-* **C)** mostly.
-* **D)** except for.
-* **E)** disregarding.
+> *"Although the technical team **pretended** to ignore the severe vulnerabilities discovered during the automated pipeline audit, the directorate implemented a **comprehensive** governance **policy** that **actually** mitigated external threat vectors."*
+
+Na língua portuguesa, as palavras destacadas no trecho (**pretended**, **comprehensive**, **policy**, **actually**) possuem os significados corretos e contextuais expressos em:
+
+* **A)** fingiu – compreensiva – polícia – atualmente
+* **B)** pretendeu – abrangente – diretriz – atualmente.
+* **C)** fingiu – abrangente – política/diretriz – na verdade/efetivamente
+* **D)** tentou – tolerante – polícia – realmente
+* **E)** planejou – compacta – apólice – futuramente
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** Incorreta. Erra ao traduzir *comprehensive* como "compreensiva" (tolerante é *understanding*), *policy* como "polícia" (*police*) e *actually* como "atualmente" (*currently*).
+> - **B)** Incorreta. Erra ao traduzir *pretended* como "pretendeu" (pretender é *to intend*) e *actually* como "atualmente" (*currently*).
+> - **C)** Correta. Decodifica perfeitamente os quatro termos técnicos:
+>     1. **To pretend:** fingir, simular (não confundir com *to intend*, pretender).
+>     2. **Comprehensive:** abrangente, amplo, exaustivo (não confundir com tolerante/compreensivo).
+>     3. **Policy:** diretriz, norma institucional, política de segurança (não confundir com corporação policial).
+>     4. **Actually:** na verdade, de fato, efetivamente, realmente (não confundir com nos dias atuais).
 >
-> **Gabarito: A**
+> - **D)** Incorreta. Erra ao atribuir "tentou" (*attempted*), "tolerante" (*tolerant*) e "polícia" (*police*).
+> - **E)** Incorreta. Erra em "planejou" (*planned*), "compacta" (*compact*) e "futuramente" (*in the future*).
+> 
+> **Gabarito: C**
 
 ---
+
 ## 6. Coesão Textual e Referência Pronominal (Reference Words)
 
 Um dos tipos de questões favoritos da FCC consiste em destacar um pronome em determinada linha do texto e questionar a qual termo antecedente ou subsequente ele se refere (*referência anafórica ou catafórica*).
@@ -535,114 +519,63 @@ flowchart LR
 ---
 
 ### Teste 573
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Based on the text, mark the statements below as TRUE (T) or FALSE 
-(F): 
-(   ) The author mentions the fact that AGI may supplant human 
-faculties. 
-(   ) Ways in which we can lead meaningful lives are detailed. 
-(   ) AGI has already solved the problems of economic equality. 
-The statements are, respectively
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+*Consider the excerpt below regarding cryptographic hash functions and data integrity:*
 
-* **A)** F – T – F.
-* **B)** T – F – F.
-* **C)** T – T – F.
-* **D)** F – T – T.
-* **E)** F – F – T.
+> *"Cryptographic hash functions generate a deterministic, fixed-size digest from arbitrary input data. When two distinct inputs produce the identical output hash, **this anomaly** is technically defined as a collision. Security analysts must continuously monitor legacy algorithms, as **they** may become vulnerable over time due to cryptanalytic advances."*
+
+In terms of textual cohesion and pronominal reference in technical texts:  
+
+* **A)** The noun phrase **"this anomaly"** refers conceptually to the fact that *"two distinct inputs produce the identical output hash"*.
+* **B)** The personal pronoun **"they"** in the second sentence refers syntactically to *"security analysts"*.
+* **C)** The demonstrative **"this"** indicates that the hash algorithm was developed by the author of the text.
+* **D)** The pronoun **"they"** refers singular and neutrally to *"a deterministic digest"*.
+* **E)** The expression **"this anomaly"** refers strictly to the word *"matrix"* mentioned in another chapter.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Correta.** Trata-se do clássico mecanismo de **encapsulamento conceitual com pronome demonstrativo** (*this anomaly*): a expressão sintetiza toda a proposição antecedente de que "duas entradas distintas geram o mesmo hash de saída" (fenômeno conhecido como colisão criptográfica).
+> - **B)** Incorreta. Pela análise sintático-semântica, o pronome plural **"they"** retoma o substantivo antecedente **"legacy algorithms"** (*"analysts monitor legacy algorithms, as they [the legacy algorithms] may become vulnerable"*), e não os analistas de segurança.
+> - **C)** Incorreta. O pronome *this* funciona como recurso anafórico coesivo, sem conotação de autoria pessoal.
+> - **D)** Incorreta. *Digest* está no singular (*a digest*), ao passo que *they* é pronome plural que retoma *legacy algorithms*.
+> - **E)** Incorreta. A anáfora é intraparágrafo e retoma o evento da colisão explicitado na oração imediatamente anterior.
+> 
+> **Gabarito: A**
+
+---
+
+### Teste 574
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+*Consider the text below on algorithmic governance:*
+
+> *"Auditing modern machine learning models presents **novel** challenges for oversight agencies. Deep neural networks function largely as black boxes, making it difficult to extract explainable decision pathways. When public institutions deploy predictive models to grant social benefits or score fiscal risk, undetected algorithmic bias can harm vulnerable citizens. **To prevent this**, regulatory authorities advocate for strict validation protocols. Data scientists must ensure that training datasets are **sensible**, representative, and sanitized against historical disparities. **They** must also provide comprehensive audit trails before any model enters production."*
+
+Regarding reading comprehension, context clues, and reference words in the text, choose the correct alternative:
+
+* **A)** The adjective **"novel"** in the first sentence indicates that algorithmic auditing challenges are traditional, ancient, and already solved by standard literature.
+* **B)** In the phrase **"To prevent this"**, the pronoun *"this"* refers back to the entire problem of undetected algorithmic bias harming citizens.
+* **C)** The adjective **"sensible"** indicates that training datasets must be easily hurt by emotional or sensitive reactions.
+* **D)** The subject pronoun **"They"** in the final sentence syntactically refers to *"vulnerable citizens"*.
+* **E)** The author argues that machine learning models should enter production immediately, dispensing with explainability and audit trails.
+
+
+---
+
+> **Comentário Detalhado:**
 >
+> - **A)** Incorreta. Empregada como adjetivo de língua inglesa, a palavra **"novel"** significa novo, inédito, original ou inovador (raiz latina de novidade). Não guarda relação com algo antigo ou tradicional, tampouco com romances literários.
+> - **B)** Correta. Ocorre aqui o encapsulamento conceitual anafórico: a locução demonstrativa **"To prevent this"** (Para prevenir que isso aconteça) retoma todo o fato crítico enunciado imediatamente antes: o viés algorítmico inadvertido prejudicar cidadãos em situação vulnerável (*undetected algorithmic bias can harm vulnerable citizens*).
+> - **C)** Incorreta. O adjetivo **"sensible"** é falso cognato e traduz-se como sensato, criterioso, razoável e prudente. A noção de suscetibilidade emocional ou dados protegidos traduz-se por *sensitive*.
+> - **D)** Incorreta. Na construção sintática da oração anterior (*"Data scientists must ensure that.. They must also provide.."*), o pronome pessoal plural **"They"** retoma diretamente os **"Data scientists"** (cientistas de dados), agentes responsáveis por gerar as trilhas de auditoria, e não os cidadãos vulneráveis.
+> - **E)** Incorreta. O texto defende expressamente o oposto: os modelos só devem entrar em produção após a garantia de validações rigorosas e trilhas de auditoria abrangentes (*comprehensive audit trails before any model enters production*).
+> 
 > **Gabarito: B**
 
 ---
-### Teste 574
-**(FGV – TCE-GO – Analista de Controle Externo - Ciências Contábeis – 2024)**
-Assinale a opção em que a preposição A – sozinha ou combinada - 
-tem valor semântico diferente dos demais.
 
-* **A)** O Presidente, com sua mulher, acompanhou os convidados à 
-sala de música.
-* **B)** O policial atirou-se ao chão, cobrindo a cabeça com as mãos.
-* **C)** O ministro deverá ir a São Paulo ainda hoje para a recepção 
-dos novos diplomatas.
-* **D)** Os seguranças dirigiram -se aos carros dos ministros e os 
-acompanharam no desfile.
-* **E)** O banqueiro é sócio do empresário em um hotel à Rua Santa 
-Clara, em Copacabana. 
-
-Língua Inglesa 
-READ THE TEXT AND ANSWER QUESTIONS 01 to 08: 
-
-Artificial intelligence and the future of humanity 
-
-Thinking and learning about artificial intelligence are the mental 
-equivalent of a fission chain reaction. The questions get really big, 
-really quickly.  
-
-The most familiar concerns revolve around short -term impacts: 
-the opportunities for economic productivity, health care, 
-manufacturing, education, solving global challenges such as 
-climate change and, on the flip side, the risks of mass 
-unemployment, disinformation, killer robots, and concentrations 
-of economic and strategic power.  
-
-Each of these is critical, but they’re only the most immediate 
-considerations. The deeper issue is our capacity to live meaningful, 
-fulfilling lives in a world in which we no longer have intelligence 
-supremacy. 
-
-As long as humanity has existed, we’ve had an effective monopoly 
-on intelligence. We have been, as far as we know, the smartest 
-entities in the universe.  
-
-At its most noble, this extraordinary gift of our evolution drives us 
-to explore, discover and expan d. Over the past roughly 50,000 
-years—accelerating 10,000 years ago and then even more steeply 
-from around 300 years ago—we’ve built a vast intellectual empire 
-made up of science, philosophy, theology, engineering, 
-storytelling, art, technology and culture. 
-
-If our civilisations—and in varying ways our individual lives —have 
-meaning, it is found in this constant exploration, discovery and 
-intellectual expansion.  
-
-Intelligence is the raw material for it all. But what happens when 
-we’re no longer the smartest  beings in the universe? We haven’t 
-yet achieved artificial general intelligence (AGI) —the term for an 
-AI that could do anything we can do. But there’s no barrier in 
-principle to doing so, and no reason it wouldn’t quickly outstrip us 
-by orders of magnitude. 
-
-Even if we solve the economic equality questions through 
-something like a universal basic income and replace notions of 
-‘paid work’ with ‘meaningful activity’, how are we going to spend 
-our lives in ways that we find meaningful, given that we’ve evolved 
-to strive and thrive and compete? 
-
-Adapted from https://www.aspistrategist.org.au/artificial -
-intelligence-and-the-future-of-humanity/
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
->
-> **Gabarito: E**
-
----
 ## 6. Fontes Recomendadas na Internet
 
 * [IETF RFC 2119 - Key words for use in RFCs to Indicate Requirement Levels](https://datatracker.ietf.org/doc/html/rfc2119) - Norma seminal em inglês definindo o significado imperativo de termos como MUST, SHALL, SHOULD e MAY na documentação técnica.

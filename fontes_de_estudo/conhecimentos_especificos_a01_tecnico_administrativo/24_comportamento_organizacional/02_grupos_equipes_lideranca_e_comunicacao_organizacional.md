@@ -98,73 +98,54 @@ flowchart TD
 ---
 
 ### Teste 410
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Teresa, servidora pública estadual goiana, ocupava cargo efetivo, 
-atuava em Planaltina/GO e veio a falecer num trágico acidente. 
-Fabio se apresentará perante a GOIASPREV para noticiar a morte, 
-informar ser companheiro e único sucessor da finada e reivindicar 
-a pensão por morte.  
-Marque a afirmativa que contempla em quanto tempo, pela Lei 
-Complementar estadual 161/20, Fabio deverá informar o 
-falecimento de Te resa e que período deverá ser observado na 
-prova da união estável e da dependência econômica para que seu 
-pleito tenha sucesso.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A respeito da distinção conceitual entre Grupos de Trabalho e Equipes de Trabalho segundo a literatura especializada de comportamento organizacional, assinale a opção correta:
 
-* **A)** 10 (dez) dias; período não superior a 24 (vinte e quatro) meses 
-anterior à data do óbito.
-* **B)** 30 (trinta) dias; 30 (trinta) dias anteriores à data do 
-falecimento.
-* **C)** 30 (trinta) dias; período não superior a 12 (doze) meses 
-anterior à data do óbito.
-* **D)** 90 (noventa) dias; 90 (noventa) dias anteriores à data do 
-falecimento.
-* **E)** 60 (sessenta) dias; período não superior a 36 (trinta e seis) 
-meses anterior à data do óbito. 
+* **A)** Em um grupo de trabalho, a responsabilidade pelos resultados é solidária e mútua entre todos os integrantes, inexistindo metas isoladas.
+* **B)** As equipes de trabalho caracterizam-se por apresentar sinergia positiva, na qual o desempenho coletivo conjunto é superior à soma das contribuições individuais isoladas.
+* **C)** Os grupos de trabalho dependem compulsoriamente de habilidades técnicas altamente complementares entre seus membros.
+* **D)** Em uma equipe de trabalho, a sinergia é sempre neutra, limitando-se os integrantes a trocar informações de rotina sem compromisso mútuo com as metas.
+* **E)** As equipes autogerenciadas são aquelas nas quais o gestor superior centraliza todas as decisões operacionais sem delegar autoridade aos membros.
 
-Direito Financeiro
+
+---
+
+> **Comentário Detalhado:**  
+>
+> - **A) Incorreta.** A responsabilidade no grupo de trabalho é puramente individual; na equipe é que ela é mútua e compartilhada.  
+> - **B) CORRETA.** As **Equipes de Trabalho** caracterizam-se pela **sinergia positiva** ($1 + 1 > 2$), o que significa que o esforço coordenado e integrado dos membros resulta em um patamar de entrega e desempenho global muito superior à mera soma aritmética das ações individuais isoladas.  
+> - **C) Incorreta.** As habilidades complementares são requisito essencial das **equipes**, ao passo que nos grupos as habilidades são aleatórias.  
+> - **D) Incorreta.** A sinergia neutra e a mera troca de dados caracterizam os grupos, e não as equipes.  
+> - **E) Incorreta.** As equipes autogerenciadas possuem altíssima autonomia decisória, operando sem supervisão direta diária.  
+> 
+> **Gabarito: B**
+
+---
+
+### Teste 411
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+No Comportamento Organizacional, a distinção entre **Grupo de Trabalho** e **Equipe de Trabalho** é fundamental para a gestão de pessoas.
+
+Constitui característica essencial e distintiva de uma **Equipe de Trabalho** de alto desempenho:
+
+* **A)** A sinergia positiva gerada pelo esforço coordenado dos membros, resultando em um nível de desempenho coletivo maior do que a simples soma das contribuições individuais, com responsabilidade tanto individual quanto mútua.
+* **B)** A independência estrita de objetivos, de tal modo que o sucesso de um membro prescinda do esforço dos demais.
+* **C)** A concentração exclusiva das decisões na figura do chefe hierárquico formal, sem participação da equipe.
+* **D)** A inexistência de complementaridade de habilidades técnicas entre os colaboradores.
+* **E)** O foco exclusivo na produtividade individual isolada sem metas coletivas compartilhadas.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A)** Correta. Diferença crucial: em um **Grupo de Trabalho**, o objetivo é apenas compartilhar informações e a sinergia é neutra (às vezes negativa), com responsabilidade apenas individual; em uma **Equipe de Trabalho**, há metas coletivas claras, habilidades complementares, responsabilidade mútua/compartilhada e **sinergia positiva** (o todo é superior à soma das partes).
+> - **B), C), D), E)** Incorretas. Descrevem grupos de trabalho tradicionais ou unidades individualizadas.
+> 
 > **Gabarito: A**
 
 ---
-### Teste 411
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Rosangela é servidora pública do Estado de Goiás, ocupando cargo 
-efetivo, e atua em Jataí/GO. Em seu contracheque constam 
-diversas parcelas e Rosangela está em dúvida sobre a forma de 
-cálculo da contribuição previdenciária.  
-Das parcelas abaixo, retiradas do contracheque de Rosangela, 
-marque aquela sobre a qual haverá recolhimento de contribuição 
-previdenciária da servidora em comento.
 
-* **A)** Diárias para viagens.
-* **B)** Gratificação natalina.
-* **C)** Ajuda de custo.
-* **D)** Auxílio-alimentação.
-* **E)** Abono de permanência.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: C**
-
----
 ## 2. O Modelo de Desenvolvimento de Grupos de Bruce Tuckman
 
 Bruce Tuckman demonstrou que os grupos não nascem prontos e produtivos; eles atravessam **cinco estágios sequenciais de maturação psicossocial**:
@@ -186,77 +167,54 @@ flowchart LR
 ---
 
 ### Teste 412
-**(FGV – TCE-PA – Auditor de Controle Externo – 2024)**
-Manifestada no ambiente de trabalho, normas de comunicação, 
-rituais e políticas, uma cultura forte promove identidade, coesão 
-e motivação entre empregados. Contudo, uma cultura 
-inadequada pode levar à baixa moral, resistência a mudanças e 
-diminuição da eficácia organizacional.  
-Com relação à cultura organizacional, avalie as afirmativas a 
-seguir: 
-I. O conceito de cultura implica estabilidade estrutural, 
-profundidade, extensão e padrões, refletindo que a cultura é 
-um fenômeno aprendido para um grupo, assim c omo a 
-personalidade e o caráter são para um indivíduo. 
-II. A integração é uma característica implícita da cultura, pois 
-sugere a união dos elementos em uma "gestalt" que conecta 
-os diversos componentes em um nível mais profundo. 
-III. Cultura sugere estabil idade estrutural no grupo, significando 
-que algo "cultural" é compartilhado e estável, definindo o 
-grupo.  
-Está correto o que se afirma em
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+De acordo com o modelo de desenvolvimento de pequenos grupos concebido por Bruce Tuckman, o estágio em que surgem conflitos explícitos entre os participantes, disputas internas pelo controle do grupo e resistências à liderança formal pré-estabelecida é denominado:
 
-* **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** I e III, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III. 
+* **A)** Estágio de Formação (*Forming*).
+* **B)** Estágio de Tormenta ou Conflito (*Storming*).
+* **C)** Estágio de Normatização (*Norming*).
+* **D)** Estágio de Desempenho (*Performing*).
+* **E)** Estágio de Desintegração (*Adjourning*).
 
-AUDITOR DE CONTROLE EXTERNO – ÁREA ADMINISTRATIVA - ADMINISTRAÇÃO – MANHÃ  TIPO  BRANCA – PÁGINA 21
 
 ---
 
-> **Comentário Detalhado:**
+> **Comentário Detalhado:**  
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: C**
+> - **A) Incorreta.** Formação é a fase inicial de reconhecimento mútuo e incerteza.  
+> - **B) CORRETA.** O estágio de **Tormenta (ou Conflito / *Storming*)** é caracterizado exatamente pelo surgimento de embates internos de poder e discordâncias quanto às regras; os participantes aceitam a existência do grupo, mas resistem ao controle exercido sobre eles e disputam a liderança até que a hierarquia de papéis se estabilize.  
+> - **C) Incorreta.** Normatização é a fase posterior em que a coesão é restabelecida e surgem regras claras.  
+> - **D) Incorreta.** Desempenho é a fase em que o grupo atinge a produtividade máxima e maturidade funcional.  
+> - **E) Incorreta.** Desintegração é a fase final de dissolução do grupo após a entrega dos resultados.  
+> 
+> **Gabarito: B**
 
 ---
+
 ### Teste 413
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Cultura organizacional é o conjunto de valores, crenças, 
-comportamentos e práticas que caracterizam uma organização, 
-moldado ao longo do tempo e influenciando as interações 
-internas e externas.  
-Assinale a opção que apresenta a sensação transmitida em um 
-grupo pelo layout físico e o modo como os membros da 
-organização interagem entre si, com clientes ou outros públicos 
-externos.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Bruce Tuckman propôs um modelo seminal que descreve os cinco estágios universais pelos quais passam os grupos e equipes ao longo de seu ciclo de desenvolvimento.
 
-* **A)** Rituais.
-* **B)** Clima.
-* **C)** Símbolos de integração.
-* **D)** Celebrações formais.
-* **E)** Regras do jogo.
+O estágio em que o grupo supera conflitos internos de poder, estabelece coesão, define normas claras de convivência e desenvolve forte sentimento de identidade e camaradagem mútua é denominado:
+
+* **A)** Normatização (Norming).
+* **B)** Formação (Forming).
+* **C)** Conflito / Tempestade (Storming).
+* **D)** Desempenho (Performing).
+* **E)** Desintegração / Dissolução (Adjourning).
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A)** Correta. Os 5 estágios de Tuckman: (1) **Formação (Forming)**: incerteza e orientação inicial; (2) **Tempestade/Conflito (Storming)**: disputas de liderança e atritos interpessoais; (3) **Normatização (Norming)**: estabelecimento de coesão, normas aceitas, alinhamento e regras de conduta; (4) **Desempenho (Performing)**: energia focada na execução produtiva da tarefa; (5) **Desintegração (Adjourning)**: conclusão e encerramento dos trabalhos.
+> - **B), C), D), E)** Incorretas. Referem-se a outros estágios do ciclo de Tuckman.
+> 
 > **Gabarito: A**
 
 ---
+
 ## 3. Evolução das Teorias de Liderança e a Liderança Situacional
 
 A liderança é o processo social de exercer influência legítima e voluntária sobre indivíduos e grupos para direcioná-los ao alcance de metas. Difere da chefia formal: o gerente/chefe possui **autoridade formal** outorgada pela hierarquia; o líder possui **influência pessoal** legitimada pelos liderados.
@@ -297,70 +255,56 @@ flowchart TD
 ---
 
 ### Teste 414
-**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
-A respeito de controle de situações de conflito , avalie as 
-afirmativas a seguir. 
-I. Um atirador de um pelotão destinado a controlar uma situação 
-de conflito pode proferir disparos sem autorização formal, se 
-perceber a necessidade de realizá-los. 
-II. O escudeiro e o lançador de granadas agem sob o comando da 
-tropa da qual eles fazem parte, sem improvisações. 
-III. O armamento de fogo não deve ser de dotação de todos os 
-militares operando em uma situação de conflito.  
-É correto o que se apresenta em
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A respeito da Teoria da Liderança Situacional proposta por Paul Hersey e Kenneth Blanchard, considere um grupo de servidores recém-aprovados em concurso público que acaba de ser lotado em uma gerência de fiscalização contábil. Os novos servidores apresentam grande entusiasmo e disposição para aprender, todavia desconhecem completamente as normas regimentais específicas e as ferramentas operacionais do sistema informatizado de controle externo (nível de maturidade M2). De acordo com a teoria, o estilo de liderança mais apropriado a ser adotado pelo gestor da unidade é:
 
-* **A)** I, apenas.
-* **B)** II, apenas.
-* **C)** I e II, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III. 
-Tribunal Regional do Trabalho da 24ª Região (TRT-24)  FGV CONHECIMENTO
+* **A)** Estilo de Delegação (baixo comportamento de tarefa e baixo comportamento de relacionamento).
+* **B)** Estilo de Persuasão / Orientação (alto comportamento de tarefa e alto comportamento de relacionamento).
+* **C)** Estilo de Não Intervenção / Laissez-Faire (isenção de qualquer comando diretivo ou cobrança de metas).
+* **D)** Estilo Apoiador Exclusivo (baixo comportamento de tarefa e alto comportamento de relacionamento).
+* **E)** Estilo de Imposição Burocrática Inflexível sem concessão de explicações pedagógicas.
+
 
 ---
 
-> **Comentário Detalhado:**
+> **Comentário Detalhado:**  
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: C**
+> - **A) Incorreta.** Delegar (E4) aplica-se exclusivamente a liderados com maturidade M4 (altamente competentes e autônomos).  
+> - **B) CORRETA.** No modelo de Hersey e Blanchard, liderados com nível de prontidão **M2** (possuem entusiasmo e motivação, mas ainda não têm competência técnica prática consolidada) exigem o estilo **E2 - Persuadir / Orientar / Vender**, que combina **alto comportamento de tarefa** (o líder ensina, direciona e dá instruções de trabalho) com **alto comportamento de relacionamento** (o líder apoia, dialoga e mantém acesa a motivação do servidor).  
+> - **C) Incorreta.** Laissez-faire é a ausência de liderança, prejudicial para iniciantes.  
+> - **D) Incorreta.** O estilo apoiador (E3) destina-se a pessoas aptas tecnicamente, mas inseguras (M3).  
+> - **E) Incorreta.** O mero autoritarismo mina a motivação e não transmite competência.  
+> 
+> **Gabarito: B**
 
 ---
+
 ### Teste 415
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2025)**
-A formulação de uma política pública envolve definir os objetivos 
-e as estratégias e avaliar as possíveis consequências de cada 
-alternativa. O policymaker usa diferentes mecanismos genéricos 
-para induzir o comportamento desejado em uma política pública. 
-Assinale a opção que exemplifica o uso da coerção como 
-mecanismo de indução de comportamento.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Na Teoria da Liderança Situacional formulada por Paul Hersey e Kenneth Blanchard, o estilo de liderança mais eficaz não é fixo, mas depende do nível de **prontidão (ou maturidade)** dos liderados para desempenhar uma tarefa específica.
 
-* **A)** Implementar multas para quem descumprir leis de trânsito.
-* **B)** Oferecer incentivos fiscais a empresas que adotam práticas 
-sustentáveis.
-* **C)** Lançar campanhas de conscientização sobre a importância da 
-vacinação.
-* **D)** Distribuir prêmios para os servidores públicos com melhor 
-desempenho anual.
-* **E)** Desenvolver novas tecnologias para facilitar o cumprimento 
-de normas de segurança no trabalho.
+Quando os liderados apresentam **baixa competência e alto comprometimento/motivação** (estágio de maturidade M1), o estilo de liderança mais indicado pelo modelo é:
+
+* **A)** Determinar / Direcionar (E1 - Direção), caracterizado por alto comportamento para a tarefa e baixo comportamento para o relacionamento (instruções claras e supervisão estrita).
+* **B)** Delegar (E4 - Delegação), retirando toda a supervisão e deixando o liderado agir por conta própria.
+* **C)** Apoiar / Participar (E3 - Apoio), com foco exclusivo em suporte afetivo e baixa orientação sobre como executar a tarefa.
+* **D)** Autocracia repressiva punitiva com ameaça de abertura de processo administrativo.
+* **E)** Demissão sumária por insuficiência de capacitação técnica.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A)** Correta. No modelo de Hersey e Blanchard: para subordinados **M1** (iniciantes entusiastas, com baixa competência na tarefa, mas dispostos), o líder deve adotar o estilo **E1 - Direcionar/Determinar** (alto foco na tarefa e baixo em relacionamento): define papéis, ensina o passo a passo, dá instruções detalhadas e monitora o cumprimento.
+> - **B)** Incorreta. Delegação (E4) exige maturidade máxima (M4 - alta competência e alto comprometimento).
+> - **C)** Incorreta. Apoiar (E3) aplica-se a liderados com alta competência, mas segurança/motivação vacilante (M3).
+> - **D), E)** Incorretas. Não fazem parte dos pressupostos teóricos do modelo situacional.
+> 
 > **Gabarito: A**
 
 ---
+
 ## 4. Liderança Transacional vs. Liderança Transformacional
 
 ```mermaid
@@ -379,40 +323,30 @@ flowchart LR
 ---
 
 ### Teste 416
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-As primeiras experiências sobre liderança remontam à 
-antiguidade, onde líderes eram frequentemente esco lhidos com 
-base em sua força, coragem e habilidade em batalha. Essas 
-experiências iniciais lançaram as bases para os diversos estilos e 
-teorias de liderança que se desenvolveriam nos séculos 
-seguintes, à medida que as sociedades se tornavam mais 
-complexas e organizadas. 
-Assinale a opção que descreve a liderança democrática.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No âmbito dos estudos sobre liderança nas organizações contemporâneas, o modelo de Liderança Transformacional diferencia-se da Liderança Transacional fundamentalmente porque:
 
-* **A)** O líder ajusta seu comportamento e estratégias de liderança 
-com base na maturidade e motivação dos seguidores.
-* **B)** O líder ajusta seu comportamento e estratégias de liderança 
-com base nas exigências da tarefa.
-* **C)** O líder dá ordens claras e espera obediência inquestionável, 
-com pouca contribuição dos membros da equipe.
-* **D)** O líder fornece pouca ou nenhuma orientação direta e 
-permite que os membros do grupo tomem decisões.
-* **E)** O líder é atuante, consultivo, define objetivos e orienta as 
-decisões a serem tomadas em conjunto com os subordinados.
+* **A)** A liderança transformacional fundamenta-se estritamente na concessão de incentivos financeiros contingentes ao atingimento das metas contratuais acordadas.
+* **B)** O líder transformacional inspira e estimula seus seguidores a transcenderem seus interesses individuais em prol da missão e dos valores superiores da organização, promovendo profundas mudanças culturais.
+* **C)** A liderança transacional rejeita qualquer tipo de recompensa ou cobrança de cumprimento de rotinas operacionais.
+* **D)** O líder transformacional restringe sua atuação à gestão por exceção, intervindo unicamente quando ocorrem falhas graves na linha de montagem.
+* **E)** A liderança transformacional é restrita a estruturas organizacionais mecanicistas e lineares do setor militar.
+
 
 ---
 
-> **Comentário Detalhado:**
+> **Comentário Detalhado:**  
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A) Incorreta.** O uso de incentivos pecuniários contingentes por metas pactuadas caracteriza a liderança **transacional**.  
+> - **B) CORRETA.** A **Liderança Transformacional** vai além da troca transacional imediata; por meio dos quatro pilares clássicos (carisma, consideração individualizada, inspiração motivacional e estimulação intelectual), o líder transformacional motiva os seguidores a superarem seus interesses individuais em benefício do propósito coletivo da instituição, fomentando transformações culturais perenes.  
+> - **C) Incorreta.** A liderança transacional apoia-se exatamente na cobrança de rotinas e trocas formais de incentivos.  
+> - **D) Incorreta.** Gestão por exceção é atributo típico da liderança **transacional**.  
+> - **E) Incorreta.** A liderança transformacional é amplamente aplicada e valorizada em órgãos públicos modernos e democráticos.  
+> 
 > **Gabarito: B**
 
 ---
+
 ## 5. O Processo de Comunicação Organizacional e suas Barreiras
 
 A comunicação é a transferência e compreensão de significados entre um emissor e um receptor. Seu fluxo operacional organiza-se nas seguintes etapas fundamentais:
@@ -448,113 +382,80 @@ flowchart LR
 ---
 
 ### Teste 417
-**(FGV – TCE-PA – Auditor de Controle Externo – 2024)**
-A liderança é a capacidade de influenciar e guiar indivíduos ou 
-equipes para alcançar objetivos comuns. E nvolve comunicação 
-eficaz, tomada de decisão, empatia e a habilidade de motivar e 
-inspirar os outros.  
-Assinale a opção que apresenta o tipo de liderança em que o líder 
-deixa o grupo à vontade e não participa das decisões.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Durante a elaboração de um relatório de fiscalização, determinado analista deliberadamente omitiu informações cruciais sobre irregularidades graves na conservação da malha rodoviária, selecionando e apresentando apenas dados favoráveis à concessionária, com o objetivo expresso de evitar atritos com seu superior hierárquico e fazer com que o documento parecesse positivo. No processo de comunicação organizacional, a conduta desse servidor materializa a barreira denominada:
 
-* **A)** Autocrática.
-* **B)** Liberal.
-* **C)** Democrática.
-* **D)** Transacional.
-* **E)** Situacional. 
+* **A)** Sobrecarga informacional.
+* **B)** Filtragem da informação.
+* **C)** Barreira de decodificação receptiva.
+* **D)** Ruído semântico involuntário.
+* **E)** Percepção sensorial dilatada.
 
-AUDITOR DE CONTROLE EXTERNO – ÁREA ADMINISTRATIVA - ADMINISTRAÇÃO – MANHÃ  TIPO  BRANCA – PÁGINA 20
 
 ---
 
-> **Comentário Detalhado:**
+> **Comentário Detalhado:**  
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
->
-> **Gabarito: E**
-
----
-### Teste 418
-**(FGV – TRT – Analista Judiciário - Suporte e Infraestrutura de TI – 2022)**
-As interfaces dos equipamentos de uma rede local podem atuar 
-com diferentes velocidades de transmissão. Contudo, se o 
-emissor transmitir em velocidade muito superior à do receptor 
-poderá sobrecarregar o buffer do receptor.  
-Para controle de flu xo, no padrão Ethernet é implementado o 
-mecanismo de quadros:
-
-* **A)** STOP;
-* **B)** REDUCING;
-* **C)** PAUSE;
-* **D)** JUMBO;
-* **E)** RUNT.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A) Incorreta.** Sobrecarga ocorre quando o volume de dados ultrapassa a capacidade de processamento mental.  
+> - **B) CORRETA.** A **Filtragem** é a manipulação deliberada da mensagem pelo emissor para que ela seja vista de modo mais favorável pelo receptor (muito comum em organizações hierarquizadas quando o subordinado omite más notícias para agradar a chefia ou não se indispor com superiores).  
+> - **C) Incorreta.** A omissão partiu do emissor no momento do envio, e não da decodificação pelo receptor.  
+> - **D) Incorreta.** Ruídos semânticos dizem respeito a palavras ambíguas ou jargões incompreendidos, sem má-fé deliberada.  
+> - **E) Incorreta.** Conceito sem pertinência técnica com o processo de comunicação.  
+> 
 > **Gabarito: B**
 
 ---
-### Teste 419
-**(FCC – TRT-6 – Analista Judiciário - Tecnologia da Informação – 2012)**
-Em um torneio de futebol, as equipes ganham 3 pontos por vitória, 1 ponto por empate e nenhum ponto em caso de derrota. Na 
-1a fase desse torneio, as equipes são divididas em grupos de quatro, realizando um total de seis jogos (dois contra cada um dos 
-outros três times do grupo). Classificam-se para a 2 a fase as duas equipes com o maior número de pontos. Em caso de empate 
-no número de pontos entre duas equipes, prevalece aquela com o maior número de vitórias. 
 
+### Teste 418
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Na moderna literatura sobre liderança, Bernard Bass consagrou a contraposição entre **Liderança Transacional** e **Liderança Transformacional**.
 
-A tabela resume o desempenho dos times de um dos grupos do torneio, após cada um ter 
-disputado cinco jogos.  
-Equipe Jogos realizados Vitórias Empates Derrotas 
-Arranca Toco 5 3 1 1 
-Bola Murcha 5 2 0 3 
-Canela Fina 5 1 3 1 
-Espanta Sapo 5 1 2 2 
+Constitui característica marcante da **Liderança Transformacional**:
 
+* **A)** Inspirar e motivar os liderados a transcender seus interesses individuais em prol da missão coletiva da organização, estimulando a inovação, o questionamento construtivo e o desenvolvimento pessoal por meio da consideração individualizada e do estímulo intelectual.
+* **B)** Basear-se exclusivamente em trocas contratuais de curto prazo, onde o líder apenas concede recompensas financeiras em troca do cumprimento estrito de metas.
+* **C)** Utilizar primordialmente a gestão por exceção passiva, intervindo apenas quando falhas graves já ocorreram.
+* **D)** Concentrar todo o poder e evitar que os servidores desenvolvam pensamento crítico autônomo.
+* **E)** Punir severamente os liderados que apresentarem ideias inovadoras contrárias aos regulamentos tradicionais.
 
-Sabendo que, na última rodada desse grupo, serão realizados os jogos Arranca Toco X Espanta Sapo e Bola Murcha X Canela 
-Fina, avalie as afirmações a seguir. 
-
- I. A equipe Arranca Toco já está classificada para a 2 a fase, independentemente dos resultados da última rodada. 
-
- II. Para que a equipe Canela Fina se classifique para a 2 a fase, é necessário que ela vença sua partida, mas pode não ser 
-suficiente. 
-
- III. Para que a equipe Espanta Sapo se classifique para a 2 a fase, é necessário que ela vença sua partida, mas pode não ser 
-suficiente. 
-
-
-Está correto o que se afirma em
-
-* **A)** I, II e III.
-* **B)** I, apenas.
-* **C)** I e II, apenas.
-* **D)** II e III, apenas.
-* **E)** I e III, apenas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
->
-> **Gabarito: E**
+> - **A)** Correta. A **Liderança Transformacional** fundamenta-se nos quatro pilares clássicos ("Os 4 Is" de Bass): Influência Idealizada (carisma e credibilidade), Motivação Inspiracional (visão de futuro compartilhada), Estímulo Intelectual (incentivo à criatividade e solução de problemas) e Consideração Individualizada (atenção personalizada às necessidades de cada liderado).
+> - **B), C)** Incorretas. Características definidoras da **Liderança Transacional** (recompensa contingente e gerência por exceção).
+> - **D), E)** Incorretas. Posturas de chefia autoritária e punitiva.
+> 
+> **Gabarito: A**
 
 ---
+
+### Teste 419
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+No processo de comunicação organizacional, a barreira que ocorre quando o emissor manipula deliberadamente as informações para que sejam vistas de modo mais favorável e lisonjeiro pelo receptor (muito comum em relações verticais ascendentes em que subordinados ocultam más notícias de seus chefes) é denominada:
+
+* **A)** Filtragem.
+* **B)** Percepção Seletiva.
+* **C)** Sobrecarga de Informação.
+* **D)** Ruído Semântico.
+* **E)** Linguagem Não Verbal Involuntária.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. A **Filtragem** é a manipulação consciente ou inconsciente da informação antes de transmiti-la, de forma a torná-la palatável ao superior hierárquico. Quanto mais vertical e autoritária a organização, maior a tendência de os subordinados filtrarem más notícias para evitar punições ou desagradar a chefia.
+> - **B)** Incorreta. Percepção Seletiva ocorre no receptor, que ouve apenas o que se alinha aos seus interesses.
+> - **C)** Incorreta. Sobrecarga é a incapacidade de processar o excesso de mensagens.
+> - **D)** Incorreta. Ruído semântico decorre de palavras com duplo sentido ou jargões incompreendidos.
+> - **E)** Incorreta. Gestos corporais e expressões faciais.
+> 
+> **Gabarito: A**
+
+---
+
 ## 6. Fontes Oficiais e Referências Bibliográficas
 
 * [Decreto Federal nº 9.203/2017 (Mecanismo de Liderança na Governança)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9203.htm) - Práticas para desenvolvimento de líderes, comunicação transparente e conduta ética.

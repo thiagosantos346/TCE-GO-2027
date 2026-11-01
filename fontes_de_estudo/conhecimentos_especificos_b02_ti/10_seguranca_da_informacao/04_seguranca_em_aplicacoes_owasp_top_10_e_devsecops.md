@@ -142,35 +142,36 @@ cursor.execute(query, (cpf_input,))
 ---
 
 ### Teste 388
-**(FGV – TRF-1 – Analista Judiciário - Tecnologia da Informação – 2024)**
-O analista Carl os está configurando o modo rootless do Docker 
-em um servidor Linux. Carlos sabe que, para operar no modo 
-rootless, o Docker exige a presença de determinados utilitários 
-do sistema operacional que possibilitam o uso de múltiplos 
-identificadores de usuário e de grupo no namespace de um 
-usuário. 
-Logo, antes de configurar o modo rootless do Docker no servidor 
-Linux, Carlos verificou a presença dos utilitários:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Um analista de sistemas realizou um teste de penetração em um portal web fazendário e constatou que, ao autenticar-se como um contribuinte comum e acessar a URL:  
+`https://sefaz.gov.br/api/certidoes?id_requerimento=1050`  
+bastava alterar manualmente o parâmetro da requisição para:  
+`https://sefaz.gov.br/api/certidoes?id_requerimento=1051`  
+para visualizar e baixar a certidão fiscal de outro contribuinte, sem que o sistema realizasse qualquer validação sobre a titularidade do documento solicitado.
 
-* **A)** subuid e subgid;
-* **B)** subuid e newgidmap;
-* **C)** newuidmap e subgid;
-* **D)** newuidmap e subuid;
-* **E)** newuidmap e newgidmap.
+No contexto das vulnerabilidades catalogadas pelo **OWASP Top 10**, essa falha é tecnicamente classificada como:
+
+* **A)** Server-Side Request Forgery (SSRF - A10).
+* **B)** Insecure Direct Object References (IDOR), inserida na categoria de Broken Access Control (A01).
+* **C)** Cryptographic Failures (A02), originada pelo uso incorreto do protocolo HTTPS.
+* **D)** Security Logging and Monitoring Failures (A09).
+* **E)** SQL Injection cego (Blind SQLi - A03).
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
->
-> **Gabarito: E**
+> - **A)** Incorreta. O SSRF envolve induzir o servidor a realizar requisições maliciosas contra alvos da rede interna ou metadados de nuvem.
+> - **B)** Correta. Trata-se da clássica vulnerabilidade **IDOR (*Insecure Direct Object References*)**, pertencente à categoria **Broken Access Control (A01)**, caracterizada pela ausência de verificação no servidor sobre os direitos do usuário de acessar um identificador de registro direto recebido na requisição.
+> - **C)** Incorreta. O problema não tem correlação com protocolos de criptografia em trânsito, mas sim com a falha lógica de verificação de permissões do usuário logado.
+> - **D)** Incorreta. Trata-se de falha de autorização e controle de acesso, e não de deficiência de geração de logs de eventos.
+> - **E)** Incorreta. O cenário retrata uma alteração pontual de parâmetro numérico sem injeção de cláusulas SQL maliciosas.
+> 
+> **Gabarito: B**
 
 ---
+
 ### Teste 389
 **(FGV – TRT-13 – Analista Judiciário (TI) – 2022)**  
 De acordo com o OWASP, uma aplicação web fica vulnerável a ataques de Injeção quando
@@ -260,42 +261,36 @@ Este é um cenário de ataque do tipo
 ---
 
 ### Teste 392
-**(FGV – TRF-1 – Analista Judiciário - Tecnologia da Informação – 2024)**
-Fabrício, delegado de polícia, solicitou a intervenção de um 
-especialista em informática para investigar um incidente ocorrido 
-em uma empresa, no qual João, um ex -funcionário, acessou 
-indevidamente o siste ma da empresa, que continha dados 
-confidenciais. Durante essa invasão, João procedeu à modificação 
-dos preços dos produtos, reduzindo-os a valores insignificantes, e 
-distribuiu essas informações para milhares de indivíduos, 
-ocasionando uma interrupção temp orária no funcionamento do 
-sistema. 
-Após uma minuciosa análise da situação, o perito elaborou um 
-relatório abrangente para o delegado Fabrício, no qual apontou 
-os objetivos fundamentais de segurança que foram violados. 
-A alternativa que lista os objetivos fundamentais de segurança 
-que foram violados, na ordem em que as respectivas violações 
-aparecem no texto acima, é:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+A categoria **A10:2021 - Server-Side Request Forgery (SSRF)** foi incluída formalmente no OWASP Top 10 devido à sua alta criticidade em arquiteturas modernas baseadas em nuvem e microsserviços.
 
-* **A)** não repúdio, integridade e disponibilidade;
-* **B)** disponibilidade, integridade e confidencialidade;
-* **C)** confidencialidade, Integridade e disponibilidade;
-* **D)** não repúdio, disponibilidade e confidencialidade;
-* **E)** confidencialidade, disponibilidade e não repúdio.
+A vulnerabilidade de SSRF caracteriza-se quando:
+
+* **A)** O navegador do usuário envia requisições forjadas para a impressora local via Wi-Fi.
+* **B)** Uma aplicação web servidora é induzida por um atacante a realizar requisições HTTP arbitrárias e desprotegidas para destinos remotos ou para recursos internos da própria rede do servidor (tais como serviços de metadados da nuvem - ex.: `http://169.254.169.254` na AWS/Azure/GCP -, portas locais de loopback `127.0.0.1` ou bancos de dados isolados por firewall), permitindo ao invasor acessar dados confidenciais e credenciais de instâncias.
+* **C)** O banco de dados relacional rejeita qualquer comando com a cláusula `WHERE`.
+* **D)** O cabo de rede do servidor sofre interferência eletromagnética por tempestades solares.
+* **E)** O usuário esquece sua senha corporativa e solicita redefinição pelo portal de autoatendimento..
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: C**
+> - **A)** Incorreta. Não se trata de ataque originado do cliente local.
+> - **B)** **CORRETA.** Mecânica do ataque **SSRF (Server-Side Request Forgery)**:
+>   - Ocorre quando um servidor web aceita uma URL fornecida pelo usuário para buscar uma imagem, importar um arquivo ou ler um webhook, mas não valida adequadamente o endereço de destino.
+>   - O invasor fornece uma URL interna (ex.: `http://169.254.169.254/latest/meta-data/identity-credentials` ou `http://localhost:8080/admin`).
+>   - O próprio servidor da aplicação web (que tem privilégios e confiança dentro da rede interna e acesso aos serviços locais) dispara a requisição e devolve o conteúdo ao invasor, ultrapassando firewalls de borda e expondo credenciais de instâncias e segredos de microsserviços internos.
+>   - **Defesa:** Whitelisting estrito de domínios permitidos, bloqueio de faixas de IP privadas/loopback/link-local e uso de IMDSv2 com tokens de sessão em provedores de nuvem.
+> - **C)** Incorreta. Descrição desconexa com requisições HTTP forjadas.
+> - **D)** Incorreta. Fenômeno de camada física não relacionado à lógica de software.
+> - **E)** Incorreta. Procedimento normal de suporte a senhas.
+> 
+> **Gabarito: B**
 
 ---
+
 ## 2. Abordagem DevSecOps e a Cultura Shift-Left
 
 ### 2.1 Princípios do DevSecOps e Economia da Correção Precoce (Shift-Left)
@@ -357,94 +352,89 @@ A automação do pipeline de CI/CD integra quatro famílias primárias de ferram
 ---
 
 ### Teste 393
-**(FCC – TRT-23 – Analista Judiciário - Tecnologia da Informação – 2016)**
-Em um site que utiliza JSF, um Analista está criando um pequeno formulário para entrada do nome do usuário e da senha de 
-acesso a uma área restrita. O nome do usuário poderá ficar legível, porém, a senha não. Os elementos JSF que deverão ser 
-utilizados para criar o campo nome do usuário e senha são, respectivamente,
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+A cultura **DevSecOps** prega a integração contínua de práticas e controles de segurança em todas as fases do ciclo de vida de desenvolvimento de software (SDLC), operando sob o princípio do **Shift-Left** (Deslocar para a Esquerda).
 
-* **A)** <h:inputText/> e <h:inputSecret/>
-* **B)** <form:inputText/> e <form:inputPassword/>
-* **C)** <html:inputField/> e <html:inputHidden/>
-* **D)** <h:inputTextarea> e <h:inputPassword/>
-* **E)** <h:inputField> e <h:inputHidden/>
+O fundamento econômico e técnico que justifica a adoção do princípio *Shift-Left* nas esteiras de integração e entrega contínua (CI/CD) de tribunais reside no fato de que:
 
----
+* **A)** O custo financeiro e o esforço de engenharia necessários para remediar uma vulnerabilidade de segurança crescem exponencialmente à medida que a falha avança pelas fases do ciclo de desenvolvimento.
+* **B)** A segurança da informação deve ser delegada exclusivamente a uma equipe externa de auditores no dia anterior ao lançamento do sistema em produção.
+* **C)** Testes automatizados de segurança desaceleram os deploys e, portanto, devem ser excluídos dos pipelines de CI/CD.
+* **D)** O termo Shift-Left indica que todos os programadores devem trabalhar obrigatoriamente com a mão esquerda no teclado.
+* **E)** O DevSecOps preconiza a eliminação completa dos desenvolvedores de software, mantendo apenas profissionais de segurança física patrimonial.
 
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: B**
-
----
-### Teste 394
-**(FGV – TJ-AP – Analista Judiciário - Segurança da Informação – 2023)**
-A empresa Z criou uma nova aplicação web, mas foi atacada após 
-disponibilizá-la na Internet. A equipe de segurança da empresa Z 
-identificou que a configuração do servidor de aplicações permitia 
-que os detalhes das mensagens de erro fossem retornados aos 
-usuários. Tal fato exibe informações confidenciais ou falhas 
-subjacentes. Para a ela boração do relatório de ataque a ser 
-entregue à empresa Z, a equipe de segurança usou o OWASP.  
-Ao verificar o OWASP, a equipe definiu o ataque como 
-pertencente à categoria:
-
-* **A)** A09:2021 – Falhas de Registro e Monitoramento de 
-Segurança;
-* **B)** A08:2021 – Falhas de Software e Integridade de Dados;
-* **C)** A07:2021 – Falhas de Identificação e Autenticação;
-* **D)** A06:2021 – Componentes Vulneráveis e Desatualizados;
-* **E)** A05:2021 – Configuração Incorreta de Segurança.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
->
-> **Gabarito: E**
-
----
-### Teste 395
-**(FGV – TJ-AP – Analista Judiciário - Segurança da Informação – 2023)**
-Gilberto trabalha no setor de segurança do Tribunal de Justiça do 
-Amapá (TJAP) e está fazendo a modelagem de possíveis ameaças 
-aos seus sistemas, aplicativos, redes e serviços. Após pesquisar 
-alguns modelos, decidiu realizar a modelagem seguindo o STRIDE 
-(Spoofing, Tampering, Repudiation, Information disclosure, 
-Denial of service, Elevation of privilege). O modelo relaciona as 
-ameaças do acrônimo STRIDE com as propriedades de segurança. 
-Inicialmente, Gilberto trabalhará na propriedade de integridade.  
-Logo, dentro do acrônimo STRIDE, a ameaça a ser trabalhada por 
-Gilberto será:
-
-* **A)** spoofing;
-* **B)** tampering;
-* **C)** repudiation;
-* **D)** information disclosure;
-* **E)** denial of service.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A)** **CORRETA.** A **Economia da Correção Precoce (Shift-Left)** é o pilar econômico do DevSecOps:
+>   - Conforme estudos consolidados da Engenharia de Software (Barry Boehm / NIST), corrigir um defeito ou vulnerabilidade de segurança em **Produção** custa de **30 a 100 vezes mais** do que corrigi-lo durante a fase de **Design ou Codificação**.
+>   - No modelo cascata legado, a segurança atuava apenas como um "portão tardio" (*late gate*) antes do lançamento, gerando retrabalho massivo ou liberação de sistemas com falhas graves.
+>   - No DevSecOps, "desloca-se a segurança para a esquerda" da linha do tempo: inserem-se modelagem de ameaças no planejamento, análise estática de código (SAST) no commit do desenvolvedor e verificação de dependências (SCA) no build, corrigindo bugs no mesmo instante em que são escritos.
+> - **B)** Incorreta. Esse é o modelo obsoleto que a cultura DevSecOps combate.
+> - **C)** Incorreta. A automação no pipeline é justamente o que viabiliza velocidade com conformidade contínua (*Security as Code*).
+> - **D)** Incorreta. É uma metáfora temporal da esteira SDLC (da esquerda para a direita: requisitos $	o$ código $	o$ build $	o$ teste $	o$ deploy $	o$ produção).
+> - **E)** Incorreta. O DevSecOps promove a colaboração multidisciplinar e responsabilidade compartilhada entre Desenvolvimento, Segurança e Operações.
+> 
 > **Gabarito: A**
 
 ---
+
+### Teste 394
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+No planejamento arquitetural de um novo módulo de pagamentos do Tribunal de Contas, os engenheiros de segurança conduziram uma sessão de modelagem de ameaças adotando o framework metodológico **STRIDE**.
+
+A respeito do mapeamento entre as categorias de ameaça do modelo STRIDE e os princípios clássicos de segurança da informação violados, assinale a afirmativa correta:
+
+* **A)** A categoria *Spoofing* (Falsificação de Identidade) viola diretamente o princípio da Disponibilidade.
+* **B)** A categoria *Tampering* (Adulteração de Dados) atenta contra o princípio da Integridade.
+* **C)** A categoria *Repudiation* (Repúdio) atenta contra o princípio da Confidencialidade.
+* **D)** A categoria *Information Disclosure* (Divulgação Indevida) viola o princípio da Legalidade estrita.
+* **E)** A categoria *Denial of Service* (Negação de Serviço) viola o princípio do Não Repúdio.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. *Spoofing* (falsificação de identidade) atenta contra o princípio da Autenticidade.
+> - **B)** Correta. A categoria *Tampering* refere-se à modificação não autorizada de informações e códigos em trânsito ou em repouso, violando frontalmente a Integridade dos dados.
+> - **C)** Incorreta. *Repudiation* consiste em negar falsamente a prática de uma ação, violando o princípio do Não Repúdio (irretratabilidade).
+> - **D)** Incorreta. *Information Disclosure* corresponde à divulgação não autorizada de dados sigilosos, violando o princípio da Confidencialidade.
+> - **E)** Incorreta. *Denial of Service* visa interromper a prestação de serviços computacionais, violando o princípio da Disponibilidade.
+> 
+> **Gabarito: B**
+
+---
+
+### Teste 395
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Na esteira de Integração e Entrega Contínua (CI/CD) de uma instituição pública que adota a filosofia DevSecOps e o princípio de *Shift-Left* (deslocar a segurança para o início do ciclo de vida), a equipe de segurança inseriu diferentes tipos de testes automatizados de segurança.
+
+A respeito das ferramentas e abordagens de testes de segurança de software, assinale a afirmativa correta:
+
+* **A)** O teste estático (SAST - *Static Application Security Testing*) exige que a aplicação esteja completamente implantada e em execução em um servidor de homologação para que requisições HTTP maliciosas sejam enviadas contra ela por fora.
+* **B)** O teste dinâmico (DAST - *Dynamic Application Security Testing*) analisa exclusivamente o código-fonte em repouso sem executar o software, mapeando o fluxo de dados em árvores sintáticas para identificar variáveis não inicializadas.
+* **C)** A Análise de Composição de Software (SCA - *Software Composition Analysis*) tem como objetivo primordial mapear a árvore de dependências e bibliotecas de terceiros (código aberto) utilizadas pelo projeto, identificando versões desatualizadas e componentes associados a vulnerabilidades conhecidas (CVEs).
+* **D)** O princípio do *Shift-Left* preceitua que as análises de segurança da informação devem ser adiadas para a última semana anterior à entrada em produção, para evitar atrasos aos desenvolvedores.
+* **E)** Ferramentas de SAST e DAST tornam dispensáveis a modelagem de ameaças e o controle de acesso lógico nas aplicações.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Essa é a definição operacional do teste dinâmico (DAST). O SAST inspeciona o código estático em repouso, sem compilação nem execução da aplicação.
+> - **B)** Incorreta. Essa é a definição do SAST. O DAST necessita da aplicação rodando plenamente para simular ataques externos via protocolo HTTP.
+> - **C)** Correta. As ferramentas de SCA (como Snyk, Dependabot e OWASP Dependency-Check) realizam o inventário contínuo de dependências externas para detectar vulnerabilidades catalogadas (CVEs) e violações de licenças de software livre.
+> - **D)** Incorreta. O princípio *Shift-Left* orienta exatamente o inverso: antecipar a segurança para o início do ciclo de vida do desenvolvimento (planejamento, design e codificação inicial).
+> - **E)** Incorreta. Testes automatizados são ferramentas complementares de apoio e não substituem o design seguro de regras de negócio e a modelagem formal de ameaças.
+> 
+> **Gabarito: C**
+
+---
+
 ## 3. Segurança em APIs, Contêineres e Ambientes de Nuvem
 
 ### 3.1 Segurança em APIs: OWASP API Security Top 10 e BOLA
@@ -499,132 +489,91 @@ flowchart TD
 ---
 
 ### Teste 396
-**(FGV – TJ-AP – Analista Judiciário - Segurança da Informação – 2023)**
-Davi é o coordenador de TI da empresa X e está efetuando uma 
-prova de conceito (POC) para a computação em nuvem de alguns 
-serviços e informações. Durante esse processo, Davi identificou 
-alguns riscos de segurança que são específicos aos ambientes de 
-nuvem. Dentre eles, há as questões tecnológicas partilhadas, que 
-consistem na entrega dos serviços de forma escalável através da 
-partilha de infraestrutura. Muitas vezes, essa infraestrutura não 
-foi projetada para oferecer o isolamento necessário para uma 
-arquitetura multilocatária.  
-Algumas contramedidas que devem ser implementadas por Davi 
-para evitar os riscos da partilha são:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+As arquiteturas orientadas a microsserviços dependem extensivamente de APIs RESTful para integração de dados em órgãos públicos. O projeto OWASP mantém um ranking específico para esse segmento: o **OWASP API Security Top 10**.
 
-* **A)** especificação dos requisitos de recursos humanos como parte 
-de contrato legal e determinação dos processos de 
-notificação de violação de segurança;
-* **B)** análise do modelo de interfaces de segurança do provedor de 
-nuvem e compreensão da cadeia de dependência associada à 
-API;
-* **C)** implantação de técnicas de autenticação fortes de dois 
-fatores, sempre que possível, e monitoramento proativo  para 
-detectar atividades não autorizadas;
-* **D)** monitoramento do ambiente para atividades não autorizadas 
-e a promoção de forte autenticação para o controle de acesso 
-administrativo e de operações;
-* **E)** implementação de uma forte API de controle de acesso e 
-encriptação e proteção da integridade dos dados em trânsito.
+A vulnerabilidade categorizada como **API1:2023 - Broken Object Level Authorization (BOLA)**, historicamente associada ao conceito de IDOR em navegadores, é caracterizada quando:
+
+* **A)** A API é atacada por um vírus de setor de inicialização que formata o disco rígido do servidor de aplicação.
+* **B)** Os endpoints da API expõem identificadores de objetos diretamente na URI (como `GET /api/v1/contratos/10452/dados_sigilosos`) e o código do backend falha em validar se o usuário autenticado que originou a requisição possui realmente direito legal de acesso àquele objeto específico de terceiro, permitindo que qualquer usuário altere o ID numérico na requisição para visualizar dados restritos de outros cidadãos ou órgãos.
+* **C)** O certificado digital HTTPS expira e a API passa a responder com código de status HTTP 404.
+* **D)** A API utiliza tokens JWT com assinatura criptográfica assimétrica de 4096 bits devidamente validada em todas as chamadas..
+* **E)** Um invasor sobrecarrega o servidor enviando requisições com a sintaxe correta do protocolo GraphQL.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: C**
-
----
-### Teste 397
-**(FGV – TJ-AP – Analista Judiciário - Banco de Dados – 2023)**
-No contexto de administração de conexões no Oracle, Database 
-Link é um objeto do esquema que permite que usuários acessem 
-objetos em bancos de dados diferentes. Observe o seguinte 
-script: 
-
----conexão no banco de dados staging 
-CONNECT staging@staging 
-
-CREATE PUBLIC DATABASE LINK "PRD_PROCESSO" 
- CONNECT TO staging 
- IDENTIFIED BY <PWD> 
- USING 'PRD_PROCESSO'; 
-
-SELECT nome 
-FROM processo.tbl_usuario@prd_processo 
-WHERE cpf = 99988877766; 
-
-Após a execução do script acima, a instrução SELECT:
-
-* **A)** retornará o nome do usuário com o CPF 99988877766 da 
-tabela “tbl_usuario” do banco de dados “prd_processo”;
-* **B)** retornará o nome do usuário com o CPF 99988877766 da 
-tabela “tbl_usuario” do banco de dados “prd_processo”,  se o 
-usuário “processo” existir no banco de dados “staging”;
-* **C)** retornará o nome do usuário com  o CPF 99988877766 da 
-tabela “tbl_usuario” do banco de dados “prd_processo”,  se 
-existir sinônimo público para a tabela “tbl_usuario” no banco 
-de dados “prd_processo”;
-* **D)** não retornará o nome do usuário com o CPF 99988877766 da 
-tabela “tbl_usuario” do banco de dados “prd_processo”,  
-porque o Database Link  deve ser criado no banco de dados 
-remoto especificado em USING 'PRD_PROCESSO';
-* **E)** não retornará o nome do usuário com o CPF 99988877766 da 
-tabela “tbl_usuario” do banco de dados “prd_processo”, 
-porque a instrução deve ser executada com o usuário 
-“staging” na cláusula FROM 
-staging.tbl_usuario@prd_processo.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: C**
-
----
-### Teste 398
-**(FGV – TJ-AP – Analista Judiciário - Banco de Dados – 2023)**
-Considerando as tabelas Competidor e Disputa, descritas 
-anteriormente, analise o comando SQL a seguir. 
-
-select * 
-from competidor c, disputa d 
-where (c.nome = d.azul and c.nome = d.verde) 
-   or (c.nome = d.verde and c.nome = d.azul) 
-
-O número de linhas produzidas pela execução desse comando, 
-sem contar a linha de títulos, é:
-
-* **A)** 0;
-* **B)** 1;
-* **C)** 6;
-* **D)** 18;
-* **E)** 36.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A)** Incorreta. Vírus de boot afetam inicialização de sistemas operacionais legados, não a lógica de autorização em APIs.
+> - **B)** **CORRETA.** A vulnerabilidade **BOLA (Broken Object Level Authorization - API1)** é considerada a falha mais disseminada e severa em APIs REST modernas:
+>   - Ocorre quando a aplicação realiza a **Autenticação** com sucesso (o usuário enviou um token válido e o sistema sabe quem ele é), mas negligencia a **Autorização no Nível do Objeto**.
+>   - Exemplo: O usuário `auditor_joao` autentica-se e acessa seus próprios relatórios em `/api/relatorios/501`. Se ele simplesmente alterar a URL para `/api/relatorios/502` (pertencente a outro auditor ou de caráter sigiloso) e a API retornar os dados sem conferir se `auditor_joao` tem permissão de leitura sobre o objeto `502`, a falha BOLA é concretizada.
+>   - **Mitigação:** Validação obrigatória e rigorosa no backend se o sujeito autenticado detém permissão explícita para manipular aquele identificador de recurso antes de qualquer consulta ou atualização no banco de dados.
+> - **C)** Incorreta. Erro 404 significa recurso não encontrado.
+> - **D)** Incorreta. Tokens robustos são boa prática, mas tokens válidos não impedem BOLA se a checagem no nível do objeto for esquecida no código do microsserviço.
+> - **E)** Incorreta. Trata-se de negação de serviço ou consulta complexa, não falha de autorização de objetos.
+> 
 > **Gabarito: B**
 
 ---
+
+### Teste 397
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+A implantação de aplicações em contêineres Docker orquestrados por Kubernetes exige a aplicação sistemática de diretrizes de *Hardening* e segurança preventiva para evitar o comprometimento do nó hospedeiro (*Host*) e movimentos laterais no cluster.
+
+Dentre as boas práticas consagradas de segurança para imagens e execução de contêineres, assinale a afirmativa correta:
+
+* **A)** O processo principal no interior do contêiner deve rodar compulsoriamente como usuário `root` (UID 0) com a flag de execução `--privileged` ativada por padrão para facilitar o acesso irrestrito ao hardware. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **B)** Devem-se construir imagens de contêiner mínimas (como imagens *Distroless* ou baseadas em Alpine Linux), remover compiladores e utilitários de shell desnecessários em produção, configurar o contêiner para executar com um usuário sem privilégios (*Non-Root User*), montar o sistema de arquivos raiz em modo somente-leitura (`readOnlyRootFilesystem: true`) e escanear periodicamente as imagens contra vulnerabilidades conhecidas com ferramentas de SCA/Container Scanning.
+* **C)** O compartilhamento irrestrito do namespace de rede e de processos com o nó hospedeiro (`hostNetwork: true` e `hostPID: true`) é o mecanismo mais seguro recomendado pela CNCF para contêineres de produção.
+* **D)** As senhas de banco de dados devem ser gravadas diretamente em texto puro dentro do arquivo `Dockerfile` na diretiva `ENV`.
+* **E)** Contêineres dispensam qualquer atualização de segurança, pois o isolamento de namespaces do Linux torna o código 100% impenetrável contra qualquer vulnerabilidade de dia zero.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Rodar como `root` e com a flag `--privileged` destrói o isolamento do contêiner, permitindo que uma invasão na aplicação resulte em escape imediato (*Container Escape*) e controle total do servidor host.
+> - **B)** **CORRETA.** Práticas canônicas de **Hardening de Contêineres**:
+>   1. **Imagens Mínimas / Distroless:** Reduz drasticamente a superfície de ataque ao expurgar pacotes desnecessários, shells (bash/sh) e ferramentas de pós-exploração (curl, wget, netcat).
+>   2. **Execução Non-Root:** Diretiva `USER 10001` no Dockerfile e `runAsNonRoot: true` no SecurityContext do Kubernetes.
+>   3. **Sistema de Arquivos Imutável:** Configurar `readOnlyRootFilesystem: true` impede que invasores baixem e persistam malwares no disco do contêiner.
+>   4. **Análise Contínua de Imagens:** Ferramentas de varredura (como Trivy, Grype e Clair) integradas ao pipeline CI/CD e ao registro de contêineres.
+> - **C)** Incorreta. Habilitar `hostNetwork` e `hostPID` expõe a pilha de rede e a tabela de processos de todo o servidor hospedeiro.
+> - **D)** Incorreta. Segredos jamais devem ser hardcoded em imagens Docker; devem ser injetados em tempo de execução via Kubernetes Secrets ou cofres como HashiCorp Vault.
+> - **E)** Incorreta. Contêineres compartilham o kernel do hospedeiro; vulnerabilidades de kernel ou falhas nas bibliotecas da aplicação expõem o cluster a ataques severos.
+> 
+> **Gabarito: B**
+
+---
+
+### Teste 398
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Em relação às boas práticas de segurança na execução de contêineres Docker e ao Modelo de Responsabilidade Compartilhada na computação em nuvem, assinale a afirmativa correta:
+
+* **A)** Em soluções de Infraestrutura como Serviço (IaaS), o provedor de nuvem é integralmente responsável pela aplicação periódica de patches de segurança e atualizações do sistema operacional convidado (*guest OS*) das máquinas virtuais do cliente.
+* **B)** A execução de contêineres em ambientes produtivos deve utilizar por padrão o usuário `root` (UID 0) com capacidades administrativas completas para assegurar a portabilidade do serviço.
+* **C)** Independentemente do modelo de contratação em nuvem adotado (IaaS, PaaS ou SaaS), a responsabilidade pela classificação, governança e proteção dos dados corporativos permanece de forma irrenunciável com a organização cliente.
+* **D)** A vulnerabilidade SSRF (*Server-Side Request Forgery*) é inofensiva em ambientes de nuvem, haja vista a inexistência de endpoints de serviços de metadados em plataformas como AWS, Azure ou GCP.
+* **E)** O uso de imagens de contêiner do tipo *Distroless* é contraindicado pelas normas do CIS (*Center for Internet Security*), por dificultar o trabalho de manutenção ao remover pacotes supérfluos.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. No modelo IaaS, o provedor responsabiliza-se somente pela infraestrutura física e camada de virtualização; o sistema operacional convidado, sua configuração e a aplicação de patches cabem com exclusividade ao cliente.
+> - **B)** Incorreta. A execução de contêineres como superusuário `root` eleva severamente o risco de invasões e quebras de isolamento (*container breakout*). A recomendação padrão é adotar usuários sem privilégios (`USER nonroot`).
+> - **C)** Correta. No modelo de responsabilidade compartilhada, a custódia, a governança e a segurança sobre os dados e sobre os privilégios das identidades concedidas são de responsabilidade plena e exclusiva do cliente em todos os cenários (IaaS, PaaS e SaaS).
+> - **D)** Incorreta. O ataque SSRF em instâncias de nuvem é altamente crítico porque viabiliza a extração indevida de tokens do serviço de metadados (`169.254.169.254`).
+> - **E)** Incorreta. As imagens mínimas (*Distroless*) são explicitamente recomendadas pelas diretrizes do CIS Benchmarks exatamente por diminuírem a superfície de ataque ao eliminar binários e pacotes dispensáveis.
+> 
+> **Gabarito: C**
+
+---
+
 ## 6. Fontes Recomendadas na Internet
 
 * [OWASP Top 10:2021 Official](https://owasp.org/Top10/) - Documentação oficial dos 10 riscos mais críticos em aplicações web.

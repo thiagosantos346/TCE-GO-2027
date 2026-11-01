@@ -136,29 +136,37 @@ O multiplexador é um dispositivo utilizado para compartilhar um único canal f�
 ---
 
 ### Teste 433
-**(FGV – TJ-AP – Analista Judiciário - Segurança da Informação – 2023)**
-Dado o endereço IPv4: 10.2.3.4/25, o endereço de broadcast 
-nesta rede é:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Na arquitetura em camadas dos modelos de redes de computadores (OSI e TCP/IP), o tráfego de saída sofre o processo progressivo de **Encapsulamento**, no qual cada camada empacota os dados da camada superior e anexa seus próprios cabeçalhos de controle.
 
-* **A)** 10.2.3.0;
-* **B)** 10.2.3.127;
-* **C)** 10.2.3.198;
-* **D)** 10.2.3.255;
-* **E)** 10.2.3.256.
+A respeito das Unidades de Dados de Protocolo (**PDUs**) manipuladas em cada nível da pilha TCP/IP, assinale a opção que apresenta a correspondência correta de nomenclatura da PDU e seu respectivo dispositivo/protocolo de atuação:
+
+* **A)** Camada de Transporte: Quadro (*Frame*), operado por switches de camada 2.
+* **B)** Camada de Internet (Rede): Pacote ou Datagrama (endereçamento IP), processado por roteadores; e Camada de Enlace (Acesso à Rede): **Quadro ou Trama (*Frame*)**, delimitado por cabeçalhos que contêm endereços físicos MAC e sequências de checagem de erros (CRC/FCS), manipulado por switches Ethernet.
+* **C)** Camada de Aplicação: Bit puro em pulsos elétricos no cabo de par trançado. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **D)** Camada de Enlace: Mensagem HTTP em texto puro.
+* **E)** Camada de Transporte: Rota estática em formato JSON.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A)** Incorreta. A PDU da Camada de Transporte é o **Segmento** (no protocolo TCP) ou o **Datagrama de Usuário** (no protocolo UDP). Quadro é a PDU da Camada de Enlace.
+> - **B)** **CORRETA.** Nomenclatura oficial das **PDUs (Protocol Data Units)** no modelo de redes:
+>   1. **Camada de Aplicação:** Mensagem / Dados brutos da aplicação (HTTP, DNS, SSH).
+>   2. **Camada de Transporte:** **Segmento** (TCP) ou **Datagrama** (UDP) — encapsula com portas de origem e destino e números de sequência.
+>   3. **Camada de Rede / Internet:** **Pacote ou Datagrama IP** — adiciona cabeçalho com IP de origem e IP de destino (dispositivos de atuação: Roteadores e Switches L3).
+>   4. **Camada de Enlace de Dados:** **Quadro ou Trama (Frame)** — adiciona cabeçalho com MAC de origem e MAC de destino e trailer de integridade FCS/CRC-32 (dispositivos: Switches L2, placas de rede/NICs).
+>   5. **Camada Física:** **Bits** — sequência serial de bits codificada em pulsos elétricos, ópticos ou ondas de rádio (dispositivos: Hubs, transceivers ópticos, cabos UTP).
+> - **C)** Incorreta. Bits pertencem à Camada Física (Camada 1).
+> - **D)** Incorreta. Mensagens HTTP pertencem à Camada de Aplicação (Camada 7).
+> - **E)** Incorreta. Rotas estáticas pertencem à Camada de Rede (tabelas de roteamento).
+> 
 > **Gabarito: B**
 
 ---
+
 ## 2. Endereçamento e Sub-redes IPv4
 
 ### 2.1 Classes Históricas de Endereços (Classes A a E)
@@ -225,32 +233,38 @@ O cálculo sistemático de qualquer sub-rede IPv4 parte de fórmulas matemática
 ---
 
 ### Teste 434
-**(FGV – TJ-AP – Analista Judiciário - Segurança da Informação – 2023)**
-O cabeçalho IPv4 é composto por 12 campos fixos, podendo 
-conter ou não opções, fazendo com que seu tamanho possa 
-variar em função das opções usadas.  
-Nesse contexto, o menor comprimento possível de um cabeçalho 
-IPv4, em bytes, é:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Diante da iminência do esgotamento histórico de endereços IPv4 públicos globais, a IETF padronizou a separação entre blocos de endereços públicos roteáveis e blocos de endereçamento privado reservados para uso interno corporativo (**RFC 1918**), combinados com o mecanismo de **Tradução de Endereços de Rede (NAT/PAT)**.
 
-* **A)** 16;
-* **B)** 20;
-* **C)** 24;
-* **D)** 32;
-* **E)** 60.
+A respeito das faixas de endereçamento privado da RFC 1918 e do funcionamento do **NAPT/PAT** (*Network Address Port Translation*), assinale a afirmativa correta:
+
+* **A)** A faixa privada de Classe C é `192.168.0.0` com máscara `/16` (abrangendo de `192.168.0.0` até `192.168.255.255`).
+* **B)** A faixa `10.0.0.0/8` é pública e atribuída exclusivamente a sites do governo federal americano.
+* **C)** O NAT proíbe que qualquer pacote saia da rede local para a internet.
+* **D)** O PAT exige que cada computador da rede interna possua seu próprio endereço IP público registrado no Registro.br.
+* **E)** Endereços privados da RFC 1918 são roteados normalmente na internet sem necessidade de qualquer tradução por firewalls ou roteadores.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
->
-> **Gabarito: E**
+> - **A)** **CORRETA.** Fundamentos da **RFC 1918 e NAT/PAT**:
+>   - **Três Faixas Privadas Oficiais (RFC 1918):**
+>     1. `10.0.0.0/8` (`10.0.0.0` a `10.255.255.255` - 16.777.216 endereços).
+>     2. `172.16.0.0/12` (`172.16.0.0` a `172.31.255.255` - 1.048.576 endereços).
+>     3. `192.168.0.0/16` (`192.168.0.0` a `192.168.255.255` - 65.536 endereços).
+>   - Esses blocos são descartados (*dropped*) pelos roteadores da internet pública (*não roteáveis na WAN*).
+>   - **NAPT / PAT (NAT Overload):** Mapeia múltiplos IPs privados internos (muitos para um / $N:1$) para um único endereço IPv4 público válido. O roteador mantém uma tabela de estados de tradução na qual diferencia as conexões ativas variando as **portas de transporte de origem (Port Numbers TCP/UDP)** no cabeçalho externo.
+> - **B)** Incorreta. O bloco `10.0.0.0/8` é a maior faixa privada reservada da RFC 1918.
+> - **C)** Incorreta. O NAT foi concebido justamente para permitir a comunicação externa da rede interna.
+> - **D)** Incorreta. Esse seria o modelo sem NAT; o PAT economiza IPs públicos compartilhando um único IP com toda a organização.
+> - **E)** Incorreta. Provedores de internet (ISPs) bloqueiam e descartam pacotes com origem RFC 1918.
+> 
+> **Gabarito: A**
 
 ---
+
 ### Teste 435
 **(FGV – TJ-AP – Analista Judiciário (TI) – 2023)**  
 O administrador de rede de uma empresa deseja configurar uma rede de computadores com capacidade para comportar até vinte computadores pessoais, quatro impressoras de rede, quatro câmeras de monitoramento IP, três servidores de rede e um gateway da rede, c onforme apresentado na tabela abaixo. Máquina Quantidade Computadores pessoais 20 Impressoras de rede 04 Câmeras de monitoramento IP 04 Servidores de rede 03 Gateway da rede 01 A rede IPv4 com a menor capacidade de hospedar os dispositivos, mas que comporte as necessidades apresentadas, é:
@@ -324,53 +338,65 @@ No IPv6, os métodos de transmissão de pacotes operam sob três paradigmas form
 ---
 
 ### Teste 436
-**(FGV – TJ-AP – Analista Judiciário - Segurança da Informação – 2023)**
-Os protocolos DNS, HTTPS, DHCP e SSH utilizam, 
-respectivamente, as portas:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+O protocolo IPv6 resolve o esgotamento do IPv4 oferecendo um espaço de endereçamento de 128 bits ($2^{128} \approx 3,4 \times 10^{38}$ endereços), estruturado em 8 grupos de 4 dígitos hexadecimais separados por dois-pontos.
 
-* **A)** 22, 80, 53 e 21;
-* **B)** 67, 80, 22 e 443;
-* **C)** 53, 443, 67 e 22;
-* **D)** 443, 53, 143 e 67;
-* **E)** 79, 80, 67 e 21.
+A respeito das regras formais de simplificação/compactação de endereços IPv6 (RFC 5952) e dos tipos de transmissão suportados, assinale a afirmativa correta:
+
+* **A)** O IPv6 manteve o mecanismo de transmissão por *Broadcast*, ampliando a quantidade de pacotes de broadcast na rede para localizar dispositivos.
+* **B)** Na simplificação de um endereço IPv6, pode-se omitir zeros à esquerda em qualquer bloco de 16 bits; e uma sequência contígua de um ou mais blocos formados exclusivamente por zeros pode ser substituída por dois-pontos duplos (`::`).
+* **C)** O endereço de loopback do IPv6 é `127.0.0.1`.
+* **D)** O símbolo `::` pode ser utilizado 5 vezes no mesmo endereço IPv6 sem qualquer problema de ambiguidade.
+* **E)** Endereços IPv6 são obrigatoriamente convertidos para decimal antes de serem enviados pela placa de rede.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: C**
+> - **A)** Incorreta. O IPv6 **aboliu expressamente o endereço de Broadcast**, eliminando tempestades de broadcast (*broadcast storms*) na rede local.
+> - **B)** **CORRETA.** Regras oficiais da **RFC 5952 (Formatação e Compactação do IPv6)**:
+>   1. **Omissão de zeros à esquerda:** Em cada hexteto (bloco de 16 bits), zeros à esquerda são descartados (ex.: `:0042:` vira `:42:`, `:0000:` vira `:0:`).
+>   2. **Compressão com `::` (Dois-Pontos Duplos):** Uma única sequência de blocos de zeros contíguos mais longa pode ser colapsada para `::`. **Regra mandatória:** `::` só pode constar **exatamente uma vez** por endereço. Se houvesse dois `::`, seria algebricamente impossível determinar quantos blocos de zeros foram omitidos em cada ponto.
+>   3. **Tipos de Endereçamento:** O IPv6 opera com **Unicast** (um-para-um), **Anycast** (um-para-o-mais-próximo de um grupo) e **Multicast** (um-para-muitos cadastrados). Todo o serviço que antes usava broadcast (como ARP e DHCP) agora opera sobre grupos de Multicast eficientes (como o *Solicited-Node Multicast* no protocolo NDP).
+> - **C)** Incorreta. O endereço de loopback no IPv6 é `::1` (equivalente ao `127.0.0.1` do IPv4).
+> - **D)** Incorreta. Usar `::` mais de uma vez torna a representação inválida e ambígua.
+> - **E)** Incorreta. Os endereços são transmitidos como sequências binárias puras de 128 bits.
+> 
+> **Gabarito: B**
 
 ---
+
 ### Teste 437
-**(FGV – TJ-AP – Analista Judiciário - Segurança da Informação – 2023)**
-A arquitetura do TCP/IP é composta de quatro camadas, são elas:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+A migração mundial da internet do IPv4 para o IPv6 ocorre de forma gradual e heterogênea. Como os cabeçalhos dos protocolos IPv4 e IPv6 são mutuamente incompatíveis entre si, a engenharia de redes desenvolveu técnicas formais de coexistência e transição.
 
-* **A)** Interface com a rede, Internet (Rede), Transporte e Aplicação;
-* **B)** Interface com a rede, Apresentação, Transporte e Internet 
-(Rede);
-* **C)** Física, Enlace, Internet (Rede) e Transporte;
-* **D)** Física, Rede, Transporte e Aplicação;
-* **E)** Interface com a rede, Sessão, Transporte e Apresentação.
+As três categorias clássicas de mecanismos de transição padronizadas pela IETF são:
+
+* **A)** Pilha Dupla (*Dual-Stack*), Tunelamento (*Tunneling*, como 6in4 e 6to4) e Tradução (*Translation*, como NAT64/DNS64).
+* **B)** Cifragem Simétrica, Hash e Assinatura Digital.
+* **C)** Sub-rede Classe A, Sub-rede Classe B e Sub-rede Classe C.
+* **D)** Backup Full, Backup Incremental e Backup Diferencial.
+* **E)** CSMA/CD, Token Ring e FDDI.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
->
-> **Gabarito: E**
+> - **A)** **CORRETA.** Os Três Mecanismos Canônicos de Transição IPv4/IPv6:
+>   1. **Pilha Dupla (Dual-Stack):** A abordagem preferencial e recomendada. Os dispositivos (roteadores, firewalls e servidores) executam simultaneamente as duas pilhas de protocolos (IPv4 e IPv6) ativas nas mesmas interfaces de rede. Se o destino suporta IPv6 (registro DNS AAAA), conecta via IPv6; senão, conecta via IPv4 (registro DNS A).
+>   2. **Tunelamento (Tunneling):** Permite encapsular pacotes IPv6 dentro de pacotes IPv4 para trafegar através de uma infraestrutura intermediária que só suporta IPv4 (ex.: 6in4, 6to4, GRE, Teredo).
+>   3. **Tradução (Translation):** Permite a comunicação direta entre hosts que só possuem IPv6 e servidores legados que só possuem IPv4, utilizando **NAT64** no roteador de borda complementado por **DNS64** para síntese de registros de endereço sintéticos.
+> - **B)** Incorreta. Primitivas de segurança criptográfica.
+> - **C)** Incorreta. Classes obsoletas de endereçamento IPv4.
+> - **D)** Incorreta. Tipos de cópias de segurança de dados.
+> - **E)** Incorreta. Tecnologias de enlace de rede legadas.
+> 
+> **Gabarito: A**
 
 ---
+
 ## 4. Protocolo DNS (Domain Name System)
 
 ### 4.1 Finalidade, Arquitetura Hierárquica e Portas UDP/TCP 53
@@ -464,71 +490,65 @@ A sequência correta é:
 ---
 
 ### Teste 439
-**(FGV – TJ-AP – Analista Judiciário - Segurança da Informação – 2023)**
-Uma propriedade interessante dos endereços MAC (Media 
-Access Control — controle de acesso ao meio) é que não existem 
-dois adaptadores de rede com o mesmo endereço. O endereço 
-MAC, utilizado para designar unicamen te o endereço de um 
-dispositivo de rede, é composto de bits e pertence a uma camada 
-específica do modelo de referência OSI (Open Systems 
-Interconnection).  
-Nesse contexto, a quantidade de bits de que o MAC é composto e 
-a camada do modelo OSI a que ele pert ence são, 
-respectivamente:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Considere as seguintes assertivas a respeito da arquitetura do protocolo IPv6, comparativamente ao legado IPv4:
 
-* **A)** 32 e rede;
-* **B)** 64 e física;
-* **C)** 48 e física;
-* **D)** 32 e aplicação;
-* **E)** 48 e enlace de dados.
+I. O protocolo IPv6 aboliu o conceito de transmissão em difusão geral (*broadcast*); mensagens destinadas a múltiplos dispositivos utilizam mecanismos e endereços de *multicast*.  
+
+II. O endereço `fe80::/10` pertence à faixa de endereços *Link-Local Unicast*, sendo atribuído compulsoriamente a qualquer interface com IPv6 habilitado e possuindo validade restrita ao enlace local de comunicação.  
+
+III. No protocolo DNS, a resolução de nomes de domínio diretamente para endereços IPv6 é implementada por meio de registros de recursos do tipo `A`, ao passo que registros do tipo `AAAA` são reservados para mapeamento de servidores de e-mail.  
+
+Está correto o que se afirma em:
+
+* **A)** I e II, apenas.
+* **B)** II e III, apenas.
+* **C)** I e III, apenas.
+* **D)** I, II e III.
+* **E)** I, apenas.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A)** Correta. O Item I é verdadeiro porque o broadcast foi formalmente extinto no IPv6, sendo substituído por multicast estruturado e anycast. O Item II é verdadeiro porque `fe80::/10` é a faixa Link-Local gerada automaticamente em qualquer interface IPv6 para operação no enlace local. O Item III é falso porque a resolução de nomes para IPv6 utiliza o registro `AAAA` (*Quad-A*), e servidores de e-mail são mapeados por registros `MX`.
+> - **B)** Incorreta. Omite a veracidade do Item I e inclui o Item III que contém grave incorreção técnica.
+> - **C)** Incorreta. Inclui o Item III que confunde registros `AAAA` com registros `MX`.
+> - **D)** Incorreta. Julga verdadeiros todos os itens, desconsiderando o erro do Item III.
+> - **E)** Incorreta. Omite a correção inequívoca do Item II.
+> 
 > **Gabarito: A**
 
 ---
-### Teste 440
-**(FGV – TJ-AP – Analista Judiciário - Segurança da Informação – 2023)**
-A Internet é uma rede de computadores que interconecta 
-centenas de milhões de dispositivo s de computação ao redor do 
-mundo. Cada vez mais sistemas finais modernos da Internet, 
-como TVs, laptops, consoles para jogos, telefones celulares, 
-webcams, automóveis, dispositivos de sensoriamento ambiental, 
-quadros de imagens, e sistemas internos elétri cos e de 
-segurança, estão sendo conectados à rede. Assim, a estratégia de 
-atribuição de endereços da Internet é conhecida como 
-roteamento interdomínio sem classes (Classless Inter -Domain 
-Routing — CIDR).  
-Nesse contexto, a máscara de rede/sub -rede de uma r ede IPv4 
-CIDR /29 é:
 
-* **A)** 255.255.240.0
-* **B)** 255.255.255.240
-* **C)** 255.255.255.192
-* **D)** 255.255.255.224
-* **E)** 255.255.255.248
+### Teste 440
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Considere os conceitos de resolução de nomes, delegação e estrutura de registros de recursos do protocolo DNS (*Domain Name System*).
+
+Sobre os tipos de registros DNS e a mecânica de funcionamento desse serviço, é correto afirmar:
+
+* **A)** O registro de recurso do tipo `CNAME` (*Canonical Name*) permite que um administrador configure um pseudônimo (alias) apontando diretamente para um endereço IP numérico de destino, acelerando a resolução de páginas web.
+* **B)** O protocolo DNS opera primariamente sobre o protocolo de transporte UDP na porta 53, recorrendo ao protocolo TCP na mesma porta prioritariamente para operações de transferência de zona (*zone transfer*) entre servidores primários e secundários ou quando a resposta ultrapassa os limites dimensionais suportados.
+* **C)** O processo de resolução iterativa exige que o primeiro servidor DNS consultado assuma o encargo de percorrer toda a árvore hierárquica mundial da Internet até devolver a resposta final resolvida ao cliente requisitante.
+* **D)** O registro do tipo `PTR` é utilizado nos servidores DNS autoritativos para definir os nós balanceadores de carga responsáveis por redirecionar requisições HTTP para instâncias de contêineres.
+* **E)** A consulta reversa de DNS para endereços da arquitetura IPv4 utiliza o domínio de topo especial denominado `ip6.arpa`.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A)** Incorreta. O registro `CNAME` vincula um alias estritamente a outro nome de domínio canônico, nunca apontando diretamente para um IP numérico.
+> - **B)** Correta. O DNS utiliza UDP 53 para consultas ágeis de baixa latência e recorre a TCP 53 para transferências completas de zona (AXFR/IXFR) ou respostas que excedam os limites de tamanho do pacote UDP.
+> - **C)** Incorreta. O processo descrito corresponde à consulta **Recursiva**. Na consulta **Iterativa**, o servidor responde fornecendo a indicação do próximo servidor de nomes a ser consultado.
+> - **D)** Incorreta. O registro `PTR` (*Pointer*) destina-se exclusivamente à **resolução reversa** de endereços IP para nomes de domínio.
+> - **E)** Incorreta. A resolução reversa do IPv4 opera sob o domínio especial `in-addr.arpa`, sendo `ip6.arpa` privativo do IPv6.
+> 
 > **Gabarito: B**
 
 ---
+
 ## 5. Protocolo DHCP (Dynamic Host Configuration Protocol)
 
 ### 5.1 Finalidade e Portas de Transporte UDP 67/68
@@ -586,39 +606,32 @@ Para evitar a necessidade de instalar um servidor DHCP físico em cada sala ou f
 ---
 
 ### Teste 441
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-O Sistema de Nomes de Domínios (DNS) é uma aplicação 
-cliente/servidor que associa cada host na Internet com um nome 
-de domínio exclusivo facilmente identificável.   
-Sobre DNS, é correto afirmar que
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Em uma rede local corporativa onde as estações de trabalho obtêm suas configurações lógicas dinamicamente por meio do protocolo DHCP, um analista observou a troca de pacotes entre um cliente recém-conectado e o servidor de rede. 
 
-* **A)** existem dois tipos de registros DNS: registros de cons ultas e 
-registros de respostas.
-* **B)** na resolução iterativa, o cliente transmite sua solicitação a um 
-servidor que, no final do processo, retorna uma resposta.
-* **C)** um FQDN é um nome de domínio que não inclui todos os níveis 
-existentes entre o host e o nó raiz.
-* **D)** o DNS usa os serviços de UDP para mensagens menores que 
-1024 bytes, caso contrário é usado o TCP.
-* **E)** o DNS pode ser representado por uma estrutura hierárquica 
-de árvore invertida, com o nó raiz na parte superior e um 
-máximo de 128 níveis. 
+A respeito do ciclo operacional de quatro etapas do DHCP (processo DORA), assinale a afirmativa correta:
 
-Segurança da Informação
+* **A)** A mensagem `DHCPDISCOVER` é enviada em Unicast pelo cliente diretamente ao endereço IP estático previamente gravado no seu firmware.
+* **B)** A mensagem `DHCPREQUEST` emitida pelo cliente após receber uma ou mais propostas é enviada em Broadcast, permitindo que os demais servidores DHCP que enviaram ofertas concorrentes saibam que suas propostas foram recusadas e liberem os endereços ofertados.
+* **C)** O protocolo DHCP utiliza o protocolo de transporte TCP na porta 67 para garantir a entrega ordenada e retransmissão de todas as mensagens de negociação de endereços.
+* **D)** O tempo de concessão (*lease time*) de um endereço IP atribuído pelo DHCP é perene e imutável, não permitindo renovação até que a máquina cliente seja fisicamente desligada da tomada.
+* **E)** Quando o cliente e o servidor DHCP estão localizados em redes lógicas distintas separadas por um roteador, o ciclo DORA opera naturalmente sem a necessidade de nenhum recurso intermediário de retransmissão.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
->
-> **Gabarito: E**
+> - **A)** Incorreta. O cliente em estado inicial não tem IP nem conhece os servidores, emitindo o `DHCPDISCOVER` obrigatoriamente em Broadcast.
+> - **B)** Correta. A mensagem `DHCPREQUEST` é transmitida intencionalmente em Broadcast para notificar formalmente a aceitação da proposta escolhida e, simultaneamente, avisar aos demais servidores DHCP da rede que suas ofertas foram declinadas, permitindo-lhes devolver os endereços aos seus pools livres.
+> - **C)** Incorreta. O DHCP opera sobre o protocolo de transporte UDP (portas 67 no servidor e 68 no cliente), pois uma máquina sem IP configurado não pode negociar conexões TCP.
+> - **D)** Incorreta. O tempo de concessão é dinâmico e renovável por meio dos temporizadores T1 (50% do lease) e T2 (87,5% do lease).
+> - **E)** Incorreta. Como os roteadores bloqueiam transmissões em broadcast, redes separadas exigem compulsoriamente a presença de um Agente de Retransmissão DHCP (*DHCP Relay Agent*).
+> 
+> **Gabarito: B**
 
 ---
+
 ### Teste 442
 **(FGV – TJ-AP – Analista Judiciário (TI) – 2023)**  
 Um servidor de endereços IP (Dynamic Host Configuration

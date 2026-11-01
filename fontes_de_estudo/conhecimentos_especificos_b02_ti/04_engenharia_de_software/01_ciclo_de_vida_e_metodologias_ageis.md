@@ -202,58 +202,55 @@ O Processo Unificado estabelece que as maiores porções (cargas ou fluxos de tr
 ---
 
 ### Teste 003
-**(FCC – TRT-9 – Analista Judiciário - Tecnologia da Informação – 2015)**
-A visão estática do RUP, uma variação do UP ( Unified Process ), prioriza as atividades que ocorrem durante o processo de 
-desenvolvimento. Na descrição do RUP, estas atividades são chamadas de workflows. No workflow
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+O Processo Unificado (*Rational Unified Process* - RUP) é um modelo de ciclo de vida de desenvolvimento de software iterativo e incremental, caracterizado por ser centrado em arquitetura e dirigido por casos de uso. Ao auditar as fases cronológicas de um contrato estruturado sob o RUP, o auditor identifica que a fase cujo objetivo precíua e formalmente estabelecido é mitigar os riscos técnicos mais severos e validar a linha de base arquitetural executável (*executable architectural baseline*) denomina-se:
 
-* **A)** Gerenciamento de Configuração e Mudança os atores que interagem com o sistema são identificados e os casos de uso 
-são desenvolvidos para modelar os requisitos do sistema.
-* **B)** Meio Ambiente os processos de negócio são modelados por meio de casos de uso de negócios.
-* **C)** Análise e Projeto um modelo de projeto é criado e docume ntado com modelos de arquitetura, modelos de componentes, 
-modelos de objetos e modelos de sequência.
-* **D)** Gerenciamento de Projeto, um dos principais do RUP, os  componentes do sistema são implementados e estruturados em 
-subsistemas de implementação.
-* **E)** Modelagem de Negócios são disponibilizadas as ferramentas apropriadas para a equipe de desenvolvimento implementar 
-o modelo de projeto do software.
+* **A)** Elaboração (*Elaboration*).
+* **B)** Concepção / Iniciação (*Inception*).
+* **C)** Construção (*Construction*).
+* **D)** Transição (*Transition*).
+* **E)** Homologação Operacional (*Acceptance*).
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: D**
-
----
-### Teste 004
-**(FCC – TRT-6 – Analista Judiciário - Tecnologia da Informação – 2012)**
-Na metodologia Scrum, NÃO faz parte de uma revisão do sprint (sprint review) o seguinte procedimento:
-
-* **A)** Todo o time colabora no que deve ser feito em seguida, de modo que esta revisão contribua para reuniões de 
-planejamento subsequentes.
-* **B)** O proprietário do produto identifica o que está pronto e o que ainda está por fazer.
-* **C)** O time de desenvolvimento discute quais fatores positivos e negativos ocorreram durante o sprint e como os problemas 
-foram resolvidos.
-* **D)** O time de desenvolvimento apresenta o trabalho que foi desenvolvido e responde questões sobre o incremento.
-* **E)** Todo o time cria um plano para implementar melhorias no modo como o time efetua seu trabalho.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A) CORRETA.** No RUP, a fase de **Elaboração (*Elaboration*)** destina-se a analisar o domínio do problema, estabelecer a baseline da arquitetura executável estável, mitigar os riscos técnicos de maior impacto e especificar detalhadamente a maioria dos casos de uso críticos.
+> - **B) Incorreta.** A fase de Concepção (*Inception*) estabelece o escopo de negócio do projeto, a viabilidade econômica preliminar e a visão global da solução.
+> - **C) Incorreta.** A fase de Construção (*Construction*) foca na codificação em larga escala, integração sistemática de módulos e desenvolvimento dos casos de uso restantes.
+> - **D) Incorreta.** A fase de Transição (*Transition*) destina-se à implantação do sistema no ambiente dos usuários, testes beta, migração de dados e treinamento operacional.
+> - **E) Incorreta.** "Homologação Operacional" não é uma das quatro fases canônicas estruturais do RUP.
 >
 > **Gabarito: A**
 
 ---
+
+### Teste 004
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+O Manifesto para o Desenvolvimento Ágil de Software, marco histórico do movimento ágil firmado em 2001, consagrou 4 valores fundamentais e 12 princípios norteadores. Entre as diretrizes expressamente consagradas nos 12 princípios formais do Manifesto Ágil, insere-se:
+
+* **A)** aceitar alterações de requisitos, mesmo em fases adiantadas do projeto, aproveitando as mudanças para promover vantagem competitiva para o cliente.
+* **B)** priorizar a formalização documental detalhada de todas as regras de negócio antes de iniciar a construção dos incrementos funcionais.
+* **C)** realizar entregas de incrementos de software executável exclusivamente ao término de cada exercício financeiro da organização.
+* **D)** condicionar o avanço do desenvolvimento à validação jurídica de termos de responsabilidade assinados por todas as partes envolvidas.
+* **E)** canalizar a troca de informações entre desenvolvedores e gestores prioritariamente por meio de relatórios formais periódicos de status report.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) CORRETA.** Transcrição do segundo princípio do Manifesto Ágil: *"Aceitar mudanças de requisitos, mesmo no fim do desenvolvimento. Processos ágeis se adequam a mudanças, para que o cliente possa tirar vantagens competitivas"*.
+> - **B) Incorreta.** O Manifesto valoriza *"software em funcionamento mais que documentação abrangente"*, repudiando documentações prévias exaustivas que retardem a entrega de valor.
+> - **C) Incorreta.** O princípio prescreve *"entregar software funcionando com frequência, na escala de semanas a meses, com preferência aos períodos mais curtos"*, e não intervalos anuais burocráticos.
+> - **D) Incorreta.** Falsa burocracia: o valor ágil preconiza *"colaboração com o cliente mais que negociação de contratos"*.
+> - **E) Incorreta.** O Manifesto enfatiza que *"o método mais eficiente e eficaz de transmitir informações para e entre uma equipe de desenvolvimento é a conversa face a face"*.
+>
+> **Gabarito: A**
+
+---
+
 ## 3. O Framework Scrum (Guia Scrum 2020)
 
 ```mermaid
@@ -333,29 +330,34 @@ Cada um dos três artefatos do Scrum contém um **compromisso formal** associado
 ---
 
 ### Teste 005
-**(FCC – TRT-6 – Analista Judiciário - Tecnologia da Informação – 2012)**
-NO MPS.BR, o nível de maturidade G (Parcialmente Gerenciado) é composto pelos processos Gerência de Projetos e Gerência 
-de Requisitos. Neste nível, a implementação dos processos deve satisfazer os atributos de processo
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A respeito da composição estrutural e das responsabilidades do Scrum Team delineadas na versão oficial do Guia Scrum (2020), considere as seguintes afirmativas:
 
-* **A)** AP 2.0 e AP 3.0.
-* **B)** AP 1.0 e AP 1.1.
-* **C)** AP 1.0 e AP 2.0.
-* **D)** AP 1.1 e AP 2.1.
-* **E)** AP 2.1 e AP 3.1.
+I. O Scrum Team é uma equipe coesa composta por um Product Owner, um Scrum Master e os Desenvolvedores, caracterizando-se essencialmente por ser multifuncional e autogerenciada.  
+II. O Product Owner é o único responsável pela gestão eficaz do Product Backlog e pela maximização do valor decorrente do trabalho executado, não existindo relação de subordinação hierárquica entre ele e os demais integrantes do time.  
+III. O Scrum Master atua como chefe executivo do time ágil, cabendo-lhe distribuir privativamente as tarefas diárias nominais e aprovar as horas registradas pelos desenvolvedores.  
+
+Em relação às prescrições normativas do Guia Scrum, está correto o que se afirma em:
+
+* **A)** I e II, apenas.
+* **B)** I, apenas.
+* **C)** III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **I. Correta.** Conforme o Guia Scrum 2020, o Scrum Team não tem hierarquias internas nem subequipes; é uma unidade autogerenciada (a própria equipe decide quem faz o que, quando e como) e multifuncional (possui internamente todas as competências necessárias para gerar valor em cada Sprint).
+> - **II. Correta.** O Product Owner é explicitamente a pessoa responsável por maximizar o valor do produto e gerenciar com transparência o Product Backlog. Ele atua como par colaborativo, inexistindo subordinação hierárquica com o time.
+> - **III. Incorreta.** No Scrum, o Scrum Master é um verdadeiro líder que serve (*servant leader*), responsável pela eficácia do Scrum Team e por remover impedimentos organizacionais. Ele **não é chefe/gerente funcional** e não atribui tarefas nominais — os próprios desenvolvedores selecionam e distribuem as tarefas do Sprint Backlog.
 >
-> **Gabarito: B**
+> **Gabarito: A**
 
 ---
+
 ### Teste 006
 **(FGV – TJ-AP – Analista Judiciário (TI) – 2023)**  
 A metodologia Scrum é um framework que apoi a o
@@ -435,29 +437,30 @@ apresentada.
 ---
 
 ### Teste 008
-**(FCC – TRT-6 – Analista Judiciário - Tecnologia da Informação – 2012)**
-A perspectiva prática sobre o RUP descreve as boas práticas da engenharia de software que são recomendadas para uso no 
-desenvolvimento de sistemas. Dentre as práticas fundamentais recomendadas incluem-se
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No acompanhamento visual e na gestão quantitativa do progresso de equipes ágeis em um projeto de fiscalização de TI, utilizam-se com frequência os gráficos *Sprint Burndown* e *Release Burnup*. A respeito da interpretação técnica e das características comparativas desses gráficos, é correto afirmar:
 
-* **A)** utilizar a arquitetura em cascata  e efetuar programação em pares.
-* **B)** definir a funcionalidade do protótipo e avaliar o protótipo.
-* **C)** definir o esboço dos requisitos e estabelecer objetivos do protótipo.
-* **D)** utilizar arquiteturas baseadas em componentes e modelar os softwares visualmente.
-* **E)** desenvolver teste inicial a partir de cenários e utilizar frameworks de testes automatizados.
+* **A)** no gráfico de *Sprint Burndown*, o eixo vertical quantifica o trabalho restante planejado e o eixo horizontal representa o tempo; quando a linha real situa-se abaixo da linha ideal de tendência, indica que a equipe está com ritmo de entrega adiantado em relação ao cronograma previsto.
+* **B)** no gráfico de *Sprint Burndown*, o traçado da linha real deve ascender continuamente até atingir o limite orçamentário previsto para o projeto.
+* **C)** o gráfico de *Release Burnup* restringe-se a exibir a quantidade de impedimentos resolvidos, sendo incapaz de sinalizar expansões ou reduções no escopo global do projeto.
+* **D)** no gráfico de *Sprint Burndown*, se a linha real mantiver trajetória acima da linha ideal planejada, conclui-se que o ritmo de entrega está superando as estimativas iniciais de vazão da equipe.
+* **E)** o gráfico de *Release Burnup* monitora exclusivamente a performance computacional dos servidores de integração contínua durante a compilação do código.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A) CORRETA.** No gráfico de **Burndown**, o objetivo é "queimar" o trabalho restante em direção a zero. O eixo vertical expressa o esforço restante (em pontos de história ou horas) e o horizontal expressa os dias da Sprint. Caso a linha de execução real esteja **abaixo da linha ideal guia**, resta menos trabalho do que o originalmente estimado para aquele dia, indicando que o time está **adiantado**.
+> - **B) Incorreta.** O Burndown é descendente (mede trabalho restante decrescendo até zero); o gráfico que acumula entregas para cima de forma ascendente é o *Burnup*.
+> - **C) Incorreta.** Uma das grandes vantagens analíticas do *Release Burnup* sobre o Burndown é justamente possuir duas linhas distintas (uma de escopo total e outra de trabalho realizado), tornando imediatamente transparentes acréscimos ou cortes de escopo ao longo da iteração.
+> - **D) Incorreta.** Linha real acima da linha ideal em um Burndown indica atraso (resta mais trabalho pendente do que o previsto para aquele momento).
+> - **E) Incorreta.** O Burnup é um gráfico de acompanhamento de entrega de escopo de negócio por iteração, não uma métrica de telemetria de infraestrutura.
 >
-> **Gabarito: B**
+> **Gabarito: A**
 
 ---
+
 ## 4. Método Kanban e Gestão do Fluxo de Valor
 
 ### 4.1 Princípios e Práticas Gerais do Kanban
@@ -489,69 +492,57 @@ O Kanban opera como um **sistema puxado (*pull system*)**:
 ---
 
 ### Teste 009
-**(FCC – TRT-6 – Analista Judiciário - Tecnologia da Informação – 2012)**
-A monitoração de riscos consiste em ve rificar se as suposições sobre os riscos de produto, de processo e de negócios não 
-mudaram. Para efetuar tal verificação, são necessários indicadores. Dentre estes indicadores de risco NÃO se inclui
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Ao auditar o fluxo contínuo de trabalho e os processos operacionais de desenvolvimento de uma entidade pública orientados pelo método Kanban, o auditor de controle externo verificou a instituição de limites explícitos de Trabalho em Progresso (*Work In Progress* - WIP) nas colunas do quadro. Na teoria e na prática do Kanban, o objetivo técnico central dessa restrição é:
 
-* **A)** pessoa com pouca motivação.
-* **B)** atraso na entrega de hardware.
-* **C)** boa aceitação de ferramentas CASE.
-* **D)** boato organizacional.
-* **E)** muita solicitação de mudanças de requisitos. 
-Caderno de Prova ’T20’, Tipo 001
+* **A)** expor gargalos e bloqueios no fluxo operacional, reduzindo o tempo de ciclo total (*Cycle Time*) e prevenindo o desperdício decorrente da troca constante de contexto (*multitasking*).
+* **B)** compelir os desenvolvedores a cumprirem horas extraordinárias sempre que o número de tarefas ultrapassar o limite pré-fixado na coluna.
+* **C)** exigir a homologação formal de cada item por um comitê diretivo antes de autorizar sua passagem para a coluna seguinte.
+* **D)** dispensar a execução de testes funcionais automatizados para acelerar a taxa de liberação de pacotes em produção.
+* **E)** padronizar compulsoriamente para um tamanho idêntico o esforço e a complexidade de todas as demandas recebidas no fluxo.
 
-TRT6R-Anal.Jud-Tec.Informação-T20 9
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A) CORRETA.** O princípio orientador do método Kanban sintetiza-se no lema *"pare de começar e comece a terminar"*. A fixação de limites explícitos de WIP restringe o volume de tarefas concorrentes em cada etapa, expõe gargalos operacionais (impedindo que etapas a montante sobrecarreguem etapas a jusante), minimiza a perda de produtividade por troca de contexto e, por consequência direta da **Lei de Little** ($Lead\ Time = WIP / Throughput$), diminui o tempo de ciclo de entrega.
+> - **B) Incorreta.** O limite de WIP busca promover ritmo sustentável e balanceamento de capacidade, e não impor sobrecarga ou horas extras artificiais.
+> - **C) Incorreta.** Falsa burocracia: a transição entre colunas é orientada por políticas explícitas da equipe (*Definition of Workflow*), e não por atos comitiais formais.
+> - **D) Incorreta.** A limitação de WIP foca na elevação da qualidade das entregas, não admitindo a supressão de testes ou controles de engenharia.
+> - **E) Incorreta.** O Kanban lida pragmaticamente com itens de tamanhos e naturezas heterogêneas; o limite incide sobre a contagem simultânea de itens na raia/coluna, e não sobre o tamanho fixo da demanda.
 >
-> **Gabarito: B**
+> **Gabarito: A**
 
 ---
+
 ### Teste 010
-**(FCC – TRT-6 – Analista Judiciário - Tecnologia da Informação – 2012)**
-Com relação ao ciclo de vida do produto, segundo o PMBOK, considere: 
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No âmbito da governança e gestão quantitativa de demandas de TI com o método Kanban, duas métricas temporais essenciais para diagnosticar a eficiência e a previsibilidade das entregas aos usuários são o *Lead Time* e o *Cycle Time*. A correta distinção conceitual entre essas grandezas estabelece que:
 
- I. Geralmente o ciclo de vida de um projeto está contido em um ou mais ciclos de vida do produto. O ciclo de vida do 
-produto consiste em fases do produto, geralmente sequenci ais e não sobrepostas, determinadas pela necessidade de 
-produção e controle da organização, sendo que a última fase do ciclo de vida de um produto é a entrega para o cliente 
-final.  
- II. Vários aspectos do ciclo de vida do produto prestam-se à execução como projetos, por exemplo, a realização de um es-
-tudo de viabilidade, a condução de pesquisas de mercado, a execução de campanhas publicitárias, a instalação de um 
-produto, realização de dinâmicas de grupo e de avaliações de produtos em mercados de teste. Em cada um destes exem-
-plos, o ciclo de vida do projeto difere do ciclo de vida do produto.   
- III. Quando a saída do projeto está relacionada a um produto, existem muitas relações possíveis. Por exemplo, o 
-desenvolvimento de um novo produto pode ser um projeto em  si. Ao mesmo tempo, um produto existente pode se 
-beneficiar de um projeto para o acréscimo de novas funções ou características.  
+* **A)** o *Lead Time* compreende o tempo total decorrido desde a solicitação ou registro formal da demanda pelo usuário até sua entrega final em produção, ao passo que o *Cycle Time* mensura o intervalo em que a equipe esteve efetivamente trabalhando no desenvolvimento ativo do item.
+* **B)** o *Lead Time* calcula exclusivamente o tempo durante o qual o item permaneceu bloqueado por impedimentos, enquanto o *Cycle Time* afere a duração das reuniões diárias da equipe.
+* **C)** o *Cycle Time* abrange desde o momento da idealização pelo cliente até a homologação, enquanto o *Lead Time* tem início apenas com a primeira compilação do código-fonte.
+* **D)** o *Lead Time* e o *Cycle Time* são métricas necessariamente coincidentes em qualquer ambiente Kanban que opere com fluxo puxado.
+* **E)** o *Throughput* representa a grandeza temporal resultante da subtração matemática do *Cycle Time* pelo *Lead Time*.
 
-Está correto o que se afirma em
-
-* **A)** II e III, apenas.
-* **B)** I, II e III.
-* **C)** I e III, apenas.
-* **D)** I, apenas.
-* **E)** III, apenas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A) CORRETA.** No método Kanban:
+>     - **Lead Time (Tempo de Atendimento):** Representa a perspectiva do **cliente/usuário**. É o tempo total transcorrido desde o registro formal da necessidade no sistema de chamados/backlog até a entrega do item pronto para uso em produção (engloba tempo de espera em fila + tempo de trabalho ativo);
+>     - **Cycle Time (Tempo de Ciclo):** Representa a perspectiva da **equipe técnica**. É o intervalo transcorrido a partir do momento em que o item é puxado para o fluxo de execução ativa ("Em Andamento") até a sua conclusão.
+> - **B) Incorreta.** Mistura tempos de fluxo com tempos de bloqueio e cerimônias ágeis.
+> - **C) Incorreta.** Inverte diametralmente as definições consagradas das métricas.
+> - **D) Incorreta.** São métricas distintas; o Lead Time sempre engloba o tempo de espera nas filas prévias de compromisso, sendo tipicamente superior ao Cycle Time.
+> - **E) Incorreta.** *Throughput* (vazão) é uma métrica quantitativa (número de itens concluídos por unidade de tempo, ex.: 15 itens/semana), não o resultado de subtração de tempos.
 >
-> **Gabarito: D**
+> **Gabarito: A**
 
 ---
+
 ## 5. Extreme Programming (XP) e Lean Software Development
 
 ### 5.1 Extreme Programming: Valores e Práticas de Engenharia
@@ -588,28 +579,30 @@ Adaptado do Sistema Toyota de Produção por Mary e Tom Poppendieck, o desenvolv
 ---
 
 ### Teste 011
-**(FCC – TRT-14 – Analista Judiciário - Tecnologia da Informação – 2016)**
-O modelo de qualidade de software MPS.BR
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Em uma fiscalização de contratos de fábrica de software de um órgão público, o Auditor de Controle Externo analisou as práticas de engenharia de software preconizadas no Termo de Referência. Entre as práticas exigidas contratualmente, constavam a Programação em Par (*Pair Programming* — dois programadores atuando conjuntamente em uma mesma estação, com papéis de piloto e copiloto), o Desenvolvimento Orientado por Testes (*Test-Driven Development* - TDD, no ciclo Red-Green-Refactor) e a Refatoração Contínua. No rol das metodologias e frameworks ágeis, essas práticas de codificação são originárias e consagradas primariamente pelo:
 
-* **A)** não é compatível com a Norma NBR ISO/IEC 12207:2009.
-* **B)** adota a ITIL v3 como padrão de gerenciamento da qualidade de serviços de TI.
-* **C)** não pode ser aplicado em nenhum Tribunal Regional do Trabalho.
-* **D)** não atende às necessidades das empresas brasileiras, que preferem a adoção do CMMI.
-* **E)** não conflita com as metodologias ágeis de software, podendo ser utilizado junto com o Scrum.
+* **A)** Extreme Programming (XP).
+* **B)** Scrum.
+* **C)** Rational Unified Process (RUP).
+* **D)** Método em Cascata (*Waterfall*).
+* **E)** CMMI Nível 5.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A) CORRETA.** O **Extreme Programming (XP)**, formulado por Kent Beck, é a metodologia ágil estritamente focada em **excelência técnica de engenharia e programação**. É a fonte de práticas consagradas como *Pair Programming* (dois desenvolvedores compartilhando teclado/tela), *TDD* (escrever o teste unitário antes do código de produção), *Refactoring* sistemático, integração contínua, metáfora do sistema e propriedade coletiva do código.
+> - **B) Incorreta.** O Scrum é um framework holístico de gestão e desenvolvimento de produtos centrado em papéis, eventos e artefatos, não prescrevendo práticas técnicas específicas de codificação como pair programming ou TDD.
+> - **C) Incorreta.** O RUP é um processo pesado e prescritivo com 4 fases formais e modelagem intensiva em UML, não tendo como pilares mandatórios o TDD ou o pareamento.
+> - **D) Incorreta.** O modelo em Cascata segrega estritamente as fases de especificação, codificação e testes, colidindo com a dinâmica contínua do TDD e da programação em pares.
+> - **E) Incorreta.** O CMMI é um modelo conceitual corporativo de avaliação de maturidade e capacidade de processos, não uma metodologia de codificação ágil.
 >
-> **Gabarito: C**
+> **Gabarito: A**
 
 ---
+
 ## 6. Fontes Oficiais e Referências Bibliográficas
 
 * [Guia do Scrum Oficial 2020 — Edição Online (Ken Schwaber & Jeff Sutherland)](https://scrumguides.org/scrum-guide.html) - Definição normativa do framework Scrum, pilares empíricos, Scrum Team, eventos e artefatos com seus compromissos.

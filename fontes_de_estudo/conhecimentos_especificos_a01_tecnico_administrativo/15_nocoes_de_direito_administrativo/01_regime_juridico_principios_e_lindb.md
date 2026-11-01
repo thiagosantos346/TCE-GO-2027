@@ -115,41 +115,32 @@ Sob o prisma **objetivo, material ou funcional**, a Administração Pública cor
 ---
 
 ### Teste 001
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Ana, servidora pública no âmbito do estado de Goiás, em con luio 
-com João, requereu o pagamento de determinado benefício 
-estatutário ao qual sabidamente não tinha direito. Apesar da 
-injuridicidade, João o deferiu poucos dias depois, tendo se 
-iniciado, incontinente, o recebimento mensal do benefício por 
-Ana. Seis an os depois, os mecanismos de controle interno 
-detectaram o ilícito praticado. 
-À luz dessa narrativa, é correto afirmar que, nos termos da Lei 
-Estadual nº 13.800/2001,
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Considere as afirmações abaixo, relativas ao conceito e sentidos da Administração Pública e de serviço público:
 
-* **A)** apesar do tempo decorrido, a decisão pode ser anulada.
-* **B)** deve ser revogada a decisão que concedeu o benefício a Ana.
-* **C)** a decisão não pode ser modificada, pois a Administração 
-Pública decaiu da possibilidade de modificá-la.
-* **D)** como Ana recebe o benefício mensalmente, a cada mês se 
-reinicia o prazo prescricional de cinco anos para a anulação da 
-decisão.
-* **E)** como o benefício foi integrado à esfera jurídica de Ana, 
-operou-se o direito adquirido, logo, a decisão não pode ser 
-modificada.
+I. O conceito de serviço público é dinâmico e variável no tempo e no espaço, subordinado às contingências históricas e às necessidades da coletividade.  
+II. Apenas as atividades de prestação material de serviços de utilidade pública direta constituem a Administração em sentido objetivo ou funcional.  
+III. Em sentido estrito e subjetivo, integram a Administração Pública tão somente os órgãos e as entidades aos quais a lei atribui a função administrativa.
+
+Está correto o que se afirma em:
+
+* **A)** I e III, apenas.
+* **B)** II, apenas.
+* **C)** I e II, apenas.
+* **D)** I, apenas.
+* **E)** II e III, apenas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Correto**. O item I é exato, pois o conceito de serviço público é fluido e mutável conforme as demandas sociais e históricas. O item III é correto, pois no Brasil adotou-se o critério formal/subjetivo, segundo o qual a Administração em sentido subjetivo abrange estritamente os órgãos e entidades qualificados como tais pela ordem legal.
+> - **B)** **Incorreto**. A afirmação II é incorreta, pois a Administração em sentido objetivo compreende o fomento, a polícia administrativa e a intervenção, além do serviço público.
+> - **C)** **Incorreto**. O item II é falso pela restrição indevida do sentido objetivo.
+> - **D)** **Incorreto**. O item III também está correto, tornando a opção D incompleta.
+> - **E)** **Incorreto**. O item II é falso.
 >
 > **Gabarito: A**
-
----
 ## 2. O Regime Jurídico-Administrativo e sua Bipolaridade Fundamental
 
 O **Regime Jurídico-Administrativo** é o conjunto harmônico de princípios e regras de Direito Público que colocam a Administração Pública em posição especial perante os administrados, conferindo-lhe prerrogativas extraordinárias, ao mesmo tempo em que lhe impõe severas restrições.
@@ -188,33 +179,28 @@ A jurisprudência do STF e do STJ acolhe expressamente a distinção doutrinári
 ---
 
 ### Teste 002
-**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**
-A política de desenvolvimento de acervos de diapositivos 
-(slides) deve considerar, além da adequação aos 
-usuários, aspectos técnicos como
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Patrícia é proprietária de um imóvel urbano situado no Município Alfa. O Poder Público Municipal, com fundamento na supremacia do interesse público sobre o privado e na necessidade premente de ampliação da rede de saúde, decretou a utilidade pública do referido imóvel para fins de desapropriação. 
 
-* **A)** interesse concreto pelo material e disponibilidade de 
-material complementar (fitas ou textos explicativos).
-* **B)** tamanho do slide e qualidade do projetor disponível.
-* **C)** uso domiciliar e demanda por esse tipo de material.
-* **D)** perfeição das cores e qualidade da imagem 
-projetada.
-* **E)** produção local (interna) versus aquisição planificada. 
-_________________________________________________________
+Considerando os princípios que informam o regime jurídico-administrativo e o instituto da desapropriação, assinale a afirmativa correta.
+
+* **A)** A supremacia do interesse público justifica a prerrogativa expropriatória estatal, condicionada ao pagamento de justa e prévia indenização em dinheiro.
+* **B)** A indisponibilidade do interesse público autoriza o Município a apossar-se imediatamente do imóvel sem a observância do devido processo legal expropriatório.
+* **C)** A propriedade particular goza de tutela absoluta perante a Administração Pública, que não pode promover a desapropriação sem prévia anuência de Patrícia.
+* **D)** A supremacia do interesse público afasta a necessidade de motivação do ato expropriatório, constituindo ato administrativo de discricionariedade pura.
+* **E)** O princípio da legalidade impede a desapropriação de bens particulares por entidades municipais, prerrogativa privativa da União e dos Estados.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Correto**. A desapropriação é a manifestação clássica da supremacia do interesse público sobre o privado, outorgando ao Estado a prerrogativa de adquirir compulsoriamente a propriedade privada, desde que atendidos os requisitos constitucionais de utilidade pública ou interesse social e paga a prévia e justa indenização em dinheiro (art. 5º, XXIV, CF/88).
+> - **B)** **Incorreto**. A indisponibilidade vincula a Administração à estrita observância da legalidade e do devido processo legal, vedando o desapossamento arbitrário.
+> - **C)** **Incorreto**. O direito de propriedade não é absoluto, devendo cumprir sua função social e submeter-se à desapropriação.
+> - **D)** **Incorreto**. A desapropriação é ato formal e vinculado quanto à declaração de utilidade pública e motivação fática.
+> - **E)** **Incorreto**. Os Municípios possuem competência expressa para desapropriar bens em seu território (Dec.-Lei nº 3.365/1941, art. 2º).
 >
 > **Gabarito: A**
-
----
 ## 3. Princípios Constitucionais Expressos (Art. 37, caput, CF/88 - LIMPE)
 
 O art. 37, *caput*, da Constituição Federal estabelece os cinco princípios expressos de observância obrigatória pela Administração Pública direta e indireta de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios:
@@ -283,107 +269,68 @@ A Administração pública está sujeita a princípios que conformam sua atuaç�
 >
 > **Gabarito: C**
 ### Teste 004
-**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**
-O princípio da presunção de legalidade dos atos adminis-
-trativos
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+O Prefeito de determinado município goiano autorizou a veiculação de campanha institucional sobre vacinação contendo seu nome, fotografia e slogan eleitoral. À luz do art. 37, § 1º, da Constituição Federal e da jurisprudência dos Tribunais de Contas:
 
-* **A)** impede sua apreciação pelo Poder Judiciário.
-* **B)** permite que a sua legalidade seja questionada, em-
-bora o ato seja considerado válido até decisão em 
-contrário.
-* **C)** torna verdadeiros, em caráter absoluto, os fatos ale-
-gados pela Administração como motivos para edição 
-do ato.
-* **D)** permite ao Poder Judiciário analisar apenas seus 
-aspectos de constitucionalidade, não de legalidade.
-* **E)** é incompatível com os demais princípios administra-
-tivos e constitui exceção ao regime jurídico de direito 
-público. 
-_________________________________________________________
+* **A)** A conduta é lícita, pois a publicidade alcançou o objetivo informativo de saúde pública sem gastos extras.
+* **B)** Há violação expressa ao princípio da impessoalidade pela promoção pessoal com verba pública municipal.
+* **C)** Apenas o uso do slogan é vedado, sendo permitida a foto e o nome para identificação da autoridade local.
+* **D)** A publicidade é plenamente válida desde que o recurso financeiro utilizado pertença à verba de gabinete.
+* **E)** A caracterização da ilicitude exige prova pericial contábil de desvio pecuniário em proveito de terceiro.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **A)** **Incorreto**. A finalidade informativa não elide a proibição constitucional de promoção pessoal de agentes políticos.
+> - **B)** **Correto**. O art. 37, § 1º, da CF/88 estabelece que a publicidade governamental deve ter caráter educativo, informativo ou de orientação social, dela não podendo constar nomes, símbolos ou imagens que caracterizem promoção pessoal.
+> - **C)** **Incorreto**. É vedada a inclusão de nomes, fotos, slogans ou quaisquer símbolos de personalização individual.
+> - **D)** **Incorreto**. A origem orçamentária da dotação não afasta o preceito constitucional cogente.
+> - **E)** **Incorreto**. A infração ao princípio da impessoalidade independe de dano financeiro ou desvio orçamentário direto.
 >
-> **Gabarito: E**
-
----
+> **Gabarito: B**
 ### Teste 005
-**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**
-Considere as afirmações abaixo, relativas ao conceito de 
-serviço público: 
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+O princípio da moralidade administrativa, consagrado no art. 37, caput, da Constituição Federal e corporificado na Súmula Vinculante nº 13 do Supremo Tribunal Federal, veda expressamente práticas de nepotismo no âmbito dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios. Sob a ótica desse enunciado sumular, é proibida a nomeação para cargo em comissão ou função de confiança de cônjuge, companheiro ou parente em linha reta, colateral ou por afinidade:
 
- I. O conceito de serviço público varia no tempo e no 
-espaço, cabendo a cada ordenamento jurídico defi-
-nir quais são tais serviços. 
-
- II. No Brasil, os serviços públicos são relacionados pe-
-la Constituição, embora haja espaço para a criação 
-de novos serviços públicos por lei formal. 
-
- III. O  conceito estrito de serviço público inclui toda 
-prestação de serviços pelos órgãos do Estado e 
-entidades da Administração Indireta que possa ge-
-rar comodidade fruível pelos cidadãos, tais como 
-justiça e segurança pública. 
-
-Está correto o que se afirma APENAS em
-
-* **A)** I.
-* **B)** II.
-* **C)** I e II.
-* **D)** I e III.
-* **E)** II e III. 
-_________________________________________________________
+* **A)** até o segundo grau, exclusivamente na linha reta consanguínea de agentes políticos.
+* **B)** até o quarto grau, na linha reta e colateral, independentemente da função desempenhada.
+* **C)** até o terceiro grau, inclusive, da autoridade nomeante ou de servidor da mesma pessoa jurídica.
+* **D)** até o terceiro grau, exclusivamente quando houver relação de parentesco civil por adoção.
+* **E)** até o primeiro grau apenas, alcançando tão somente genitores, cônjuges e filhos imediatos.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: A**
-
----
-### Teste 006
-**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**
-O autor do texto mostra-se, fundamentalmente, insatisfeito 
-com
-
-* **A)** a irrelevância da maioria das matérias que pesquisa 
-na Internet.
-* **B)** o descaso com que os meios de comunicação vei-
-culam informações.
-* **C)** a profusão de informações que nos fazem esquecer 
-de nós mesmos.
-* **D)** a tendência moderna de valorizar em excesso as 
-aptidões individuais.
-* **E)** o excesso de estímulos que nos levam a uma per-
-manente autoavaliação.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Incorreto**. O alcance da Súmula Vinculante nº 13 se estende até o terceiro grau e contempla afinidade e colaterais.
+> - **B)** **Incorreto**. O limite fixado pelo STF é o terceiro grau (não quarto grau).
+> - **C)** **Correto**. A Súmula Vinculante nº 13 preconiza que a nomeação de cônjuge, companheiro ou parente em linha reta, colateral ou por afinidade, até o terceiro grau, inclusive, da autoridade nomeante ou de servidor da mesma pessoa jurídica investido em cargo de direção, chefia ou assessoramento viola a Constituição Federal.
+> - **D)** **Incorreto**. A vedação abrange parentesco consanguíneo, afim e civil sem qualquer distinção restritiva.
+> - **E)** **Incorreto**. O grau fixado pela jurisprudência vinculante alcança tios e sobrinhos (terceiro grau).
 >
 > **Gabarito: C**
+### Teste 006
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Introduzido formalmente no caput do art. 37 da Constituição Federal pela Emenda Constitucional nº 19/1998, o princípio da eficiência impõe à Administração Pública e a seus agentes a busca pelo melhor rendimento com o menor dispêndio. Sob o aspecto jurídico-doutrinário e dogmático, esse princípio:
+
+* **A)** Subordina a estrita legalidade ao juízo de oportunidade do gestor, legitimando atos contra legem em prol de metas orçamentárias.
+* **B)** Apresenta eficácia puramente moral e desprovida de densidade normativa, inviabilizando controle por Tribunais de Contas.
+* **C)** Opera em duas vertentes complementares: o modo de atuação do agente público e a estruturação dos órgãos estatais.
+* **D)** Aplica-se exclusivamente aos serviços públicos econômicos explorados em regime concorrencial pelas empresas estatais.
+* **E)** Impede a avaliação periódica de desempenho de servidores estáveis, resguardando a inamovibilidade dos cargos públicos.
 
 ---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreto**. A eficiência jamais se sobrepõe à legalidade; o administrador deve ser eficiente nos estritos limites da lei.
+> - **B)** **Incorreto**. O princípio possui força normativa vinculante, embasando a fiscalização de legitimidade e economicidade pelos Tribunais de Contas.
+> - **C)** **Correto**. Segundo a doutrina administrativista clássica (Maria Sylvia Zanella Di Pietro), a eficiência deve ser considerada em relação ao modo de atuação do agente público (esperando-se o melhor rendimento funcional) e quanto ao modo de organizar e estruturar a Administração Pública (visando aos melhores resultados práticos).
+> - **D)** **Incorreto**. A incidência do princípio da eficiência alcança todos os órgãos, poderes e esferas da federação.
+> - **E)** **Incorreto**. A própria EC nº 19/1998 introduziu a avaliação periódica de desempenho como hipótese de perda de cargo do servidor estável (art. 41, § 1º, III, CF/88).
+>
+> **Gabarito: C**
 ## 4. Princípios Administrativos Implícitos e Regime Sumular
 
 Além dos cinco princípios expressos no art. 37 da CF, o ordenamento constitucional e a legislação infraconstitucional (como a Lei do Processo Administrativo Federal nº 9.784/1999 e a Lei Estadual de Goiás nº 13.800/2001) consagram princípios implícitos de aplicação cogente:
@@ -489,41 +436,26 @@ Nesse caso, com fulcro na autotutela e na Lei de Processo Administrativo (Lei n�
 >
 > **Gabarito: A**
 ### Teste 009
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Ana, servidora pública no âmbito do estado de Goiás, em con luio 
-com João, requereu o pagamento de determinado benefício 
-estatutário ao qual sabidamente não tinha direito. Apesar da 
-injuridicidade, João o deferiu poucos dias depois, tendo se 
-iniciado, incontinente, o recebimento mensal do benefício por 
-Ana. Seis an os depois, os mecanismos de controle interno 
-detectaram o ilícito praticado. 
-À luz dessa narrativa, é correto afirmar que, nos termos da Lei 
-Estadual nº 13.800/2001,
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Determinada autoridade administrativa removeu ex officio um servidor público, consignando formalmente na portaria que a medida se dava em razão da imperiosa necessidade de reforço de pessoal na unidade de destino. Restou documentalmente provado, contudo, que aquela unidade contava com excesso de servidores e nenhuma demanda reprimida. À luz da Teoria dos Motivos Determinantes, o ato de remoção é:
 
-* **A)** apesar do tempo decorrido, a decisão pode ser anulada.
-* **B)** deve ser revogada a decisão que concedeu o benefício a Ana.
-* **C)** a decisão não pode ser modificada, pois a Administração 
-Pública decaiu da possibilidade de modificá-la.
-* **D)** como Ana recebe o benefício mensalmente, a cada mês se 
-reinicia o prazo prescricional de cinco anos para a anulação da 
-decisão.
-* **E)** como o benefício foi integrado à esfera jurídica de Ana, 
-operou-se o direito adquirido, logo, a decisão não pode ser 
-modificada.
+* **A)** Válido e eficaz, pois a remoção funcional de ofício consubstancia ato administrativo eminentemente discricionário.
+* **B)** Nulo de pleno direito, pois a validade do ato vincula-se à veracidade e subsistência dos motivos expostos.
+* **C)** Anulável exclusivamente se o servidor comprovar que a autoridade nomeante agiu com intenção de perseguição política.
+* **D)** Convalidável pela Administração mediante expedição retroativa de nova justificativa que aponte carência orçamentária.
+* **E)** Revogável a pedido do servidor, permanecendo incólume o mérito administrativo quanto à necessidade de lotação.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Incorreto**. Embora a remoção possa ter margem de discricionariedade, ao explicitar a motivação, a autoridade fica vinculada à sua existência e veracidade.
+> - **B)** **Correto**. Pela Teoria dos Motivos Determinantes, a validade do ato administrativo condiciona-se à veracidade e realidade dos motivos apresentados pela autoridade julgadora. Uma vez provada a falsidade ou inexistência dos motivos alegados, o ato padece de vício de nulidade insuperável.
+> - **C)** **Incorreto**. A nulidade decorre objetivamente da falsidade do motivo declarado, sendo desnecessária a prova de ânimo de perseguição subjetiva.
+> - **D)** **Incorreto**. Vício de motivo não admite convalidação com substituição fática a posteriori.
+> - **E)** **Incorreto**. Ato eivado de ilegalidade/falsidade de motivos é nulo de pleno direito, devendo ser anulado e não revogado.
 >
-> **Gabarito: A**
-
----
+> **Gabarito: B**
 ## 5. O Direito Público Positivo da LINDB (Arts. 20 a 30) e o Controle Externo
 
 A Lei de Introdução às Normas do Direito Brasileiro (LINDB - Decreto-Lei nº 4.657/1942), com as alterações introduzidas pela Lei nº 13.655/2018 e regulamentadas pelo Decreto Federal nº 9.830/2019, inaugurou uma nova fase de pragmatismo, segurança jurídica e racionalidade no Direito Administrativo sancionador e nas decisões dos Tribunais de Contas.
@@ -579,41 +511,28 @@ Caio, após tomar posse no cargo de analista no Tribunal de Justiça, constatou 
 >
 > **Gabarito: C**
 ### Teste 011
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Ana, servidora pública no âmbito do estado de Goiás, em conluio 
-com João, requereu o pagamento de determinado benefício 
-estatutário ao qual sabidamente não tinha direito. Apesar da 
-injuridicidade, João o deferiu poucos dias depois, tendo se 
-iniciado, incontinente,  o recebimento mensal do benefício por 
-Ana. Seis anos depois, os mecanismos de controle interno 
-detectaram o ilícito praticado. 
-À luz dessa narrativa, é correto afirmar que, nos termos da Lei 
-Estadual nº 13.800/2001,
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A Lei nº 13.655/2018 introduziu, no Decreto-Lei nº 4.657/1942 (LINDB), disposições expressas acerca da segurança jurídica e eficiência na criação e na aplicação do direito público. Entre as inovações, destacam-se preceitos voltados a decisões proferidas nas esferas administrativa, controladora e judicial, impondo que a invalidação de ato, contrato ou ajuste considere expressamente as consequências jurídicas e administrativas da medida. 
 
-* **A)** apesar do tempo decorrido, a decisão pode ser anulada.
-* **B)** deve ser revogada a decisão que concedeu o benefício a Ana.
-* **C)** a decisão não pode ser modificada, pois a Administração 
-Pública decaiu da possibilidade de modificá-la.
-* **D)** como Ana recebe o benefício mensalmente, a cada mês se 
-reinicia o prazo prescricional de cinco anos para a anulação da 
-decisão.
-* **E)** como o benefício foi integrado à esfera jurídica de Ana, 
-operou-se o direito adquirido, logo, a decisão não pode ser 
-modificada.
+Nesse contexto normativo, é correto afirmar que tal determinação:
+
+* **A)** não pode ser imposta ao controle judicial exercido pelo Poder Judiciário.
+* **B)** é de observância restrita e privativa no âmbito do controle externo dos Tribunais de Contas.
+* **C)** não se aplica à Administração Pública no exercício originário de seu poder de autotutela.
+* **D)** há de ser atendida nas esferas administrativa, controladora ou judicial.
+* **E)** restringe-se às hipóteses regimentais de auditorias de controle interno governamental.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Incorreto**. O regime introduzido pelos arts. 20 a 30 da LINDB vincula expressamente os magistrados na esfera judicial.
+> - **B)** **Incorreto**. A regra abrange todos os julgadores e controladores das três esferas públicas.
+> - **C)** **Incorreto**. A própria autoridade administrativa, ao exercer a autotutela e anular atos, deve mensurar os impactos e indicar as medidas de transição necessárias.
+> - **D)** **Correto**. O art. 20 e o art. 21 da LINDB são expressos: as decisões que decretarem a invalidação de ato, contrato, ajuste, processo ou norma administrativa nas esferas administrativa, controladora ou judicial deverão indicar de modo expresso suas consequências jurídicas e administrativas e as condições de transição.
+> - **E)** **Incorreto**. O comando vincula universalmente os órgãos decisórios estatais, sem limitação a auditorias internas.
 >
-> **Gabarito: A**
-
----
+> **Gabarito: D**
 ## 6. Fontes Recomendadas na Internet
 
 - [Constituição Federal de 1988 - Art. 37 (Princípios Constitucionais da Administração Pública)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art37)  

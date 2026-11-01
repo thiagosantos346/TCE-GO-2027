@@ -167,79 +167,55 @@ As diretrizes WCAG (*Web Content Accessibility Guidelines*) da W3C são organiza
 ---
 
 ### Teste 076
-**(FCC – TRT-13 – Analista Judiciário - Tecnologia da Informação – 2014)**
-Um banco de dados Oracle possui uma tabela chamada 
-processo
- com os seguintes campos: 
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+No desenvolvimento de páginas governamentais com HTML5 aderentes às diretrizes de acessibilidade na Web (W3C / WCAG), assinale a afirmativa tecnicamente correta:  
 
-numero_processo                    number(5) 
-sequencia_processo                 number(2) 
-digito_processo                    number(2) 
-ano_processo                       number(4) 
-orgao_processo                     number(1) 
-regiao_processo                    varchar2(5) 
-vara_processo                      number(4) 
+* **A)** O elemento `<article>` deve ser utilizado exclusivamente para criar tabelas de dados financeiros de auditoria, sendo vedado para artigos de texto.
+* **B)** O uso do atributo `tabindex="5"` é a prática recomendada para botões de submissão, pois garante que eles sempre recebam o foco antes de qualquer campo do formulário.
+* **C)** O elemento `<main>` deve encapsular o conteúdo central e específico do documento, não devendo ser duplicado em um mesmo documento exibido, e conteúdos que se repetem entre páginas (como cabeçalhos de topo e rodapés gerais) devem ficar fora dele.
+* **D)** As tags de agrupamento genérico `<div>` e `<span>` possuem semântica rica superior às tags `<section>` e `<nav>`, sendo preferíveis pelos leitores de tela.
+* **E)** O atributo `aria-hidden="true"` instrui os navegadores a ocultar o elemento visualmente na tela para usuários videntes, mas mantém sua leitura intacta para deficientes visuais em leitores de tela.
 
- Após a tabela ter sido criada, observou-se um requisito informando que campo 
-vara_processo
- deve permitir apenas valores 
-entre 0 e 28. Para adicionar tal restrição na tabela deve-se digitar a instrução
-
-* **A)** UPDATE TABLE processo ADD CONSTRAINT vara_processo BETWEEN 0 AND 28;
-* **B)** INSERT CONSTRAINT processo ADD check_vara CHECK (vara_processo BETWEEN 0 AND 28);
-* **C)** ALTER TABLE processo CONSTRAINT (vara_processo>0 AND vara_processo<28);
-* **D)** ADD CONSTRAINT processo CHECK  vara_processo BETWEEN 0 AND 28;
-* **E)** ALTER TABLE processo ADD CONSTRAINT che
-ck_vara CHECK (vara_processo BETWEEN 0 AND 28);
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: D**
+> - **A)** Incorreta. O elemento `<article>` representa conteúdo editorial autônomo, autocontido e reutilizável (artigos, postagens, acórdãos, notícias), não se limitando a tabelas financeiras.
+> - **B)** Incorreta. O uso de valores positivos no atributo `tabindex` é considerado um antipadrão pelo W3C, pois desorganiza a navegação sequencial lógica pelo teclado.
+> - **C)** **CORRETA.** Pela especificação oficial W3C/WHATWG, `<main>` encapsula o conteúdo predominante e exclusivo da página. Deve haver no máximo um elemento `<main>` visível no documento e blocos estruturais repetitivos entre várias páginas (cabeçalhos globais, rodapés institucionais) devem permanecer fora dele.
+> - **D)** Incorreta. `<div>` e `<span>` são tags neutras destituídas de semântica; tags semânticas como `<section>` e `<nav>` estabelecem marcos acessíveis essenciais para leitores de tela.
+> - **E)** Incorreta. `aria-hidden="true"` produz o efeito exatamente inverso: esconde o elemento de tecnologias assistivas e leitores de tela, mantendo sua visibilidade na tela para usuários videntes.
+> 
+> **Gabarito: C**
 
 ---
+
 ### Teste 077
-**(FCC – TRT-11 – Analista Judiciário - Tecnologia da Informação – 2017)**
-Considere o formulário HTML abaixo. 
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+As diretrizes de acessibilidade para conteúdo web (WCAG 2.1) e a especificação WAI-ARIA definem normas e atributos semânticos para tornar aplicações web acessíveis a pessoas com deficiência. Em relação a essas normas, é correto afirmar:
 
-<form action="controle.php" method="post"> 
-   <p>Usuário: <input type="text" name="usuario" /></p> 
-   <p>Senha: <input type="password" name="senha" /></p> 
-   <p><input type="submit" value="Entrar" /></p> 
-</form> 
+* **A)** O atributo `alt` em elementos `<img>` deve ser sempre preenchido com textos genéricos como "imagem" ou "foto" para atender ao critério de acessibilidade.
+* **B)** O atributo `aria-label` permite fornecer um rótulo textual acessível a leitores de tela para elementos interativos que não possuem texto visível na interface (como botões representados apenas por ícones).
+* **C)** O atributo `aria-hidden="true"` força o elemento a ser lido prioritariamente em voz alta por leitores de tela.
+* **D)** As WCAG preconizam que o contraste entre texto e fundo deve ser o menor possível para não ofuscar a visão do usuário.
+* **E)** Aplicações web acessíveis são proibidas de permitir navegação por teclado, exigindo uso exclusivo de mouses de alta precisão.
 
- Para receber o conteúdo do campo usuário, transformando eventuais caracteres especiais do HTML na sua forma codificada pa-
-ra que não seja possível injetar tags HTML ou JavaScript através do campo, utiliza-se, no arquivo controle.php, a instrução
-
-* **A)** htmlconvert($_REQUEST['usuario'])
-* **B)** htmlnoinjection($_REQUEST['usuario'])
-* **C)** htmlconvertentities($_POST['usuario'])
-* **D)** htmlspecialchars($_POST['usuario'])
-* **E)** htmlconvertchars($_GETPARAMETER['usuario']) 
-Caderno de Prova ’K11’, Tipo 005
-
-TRT11-An.Jud.-Tec.Informação-K11 11
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A) Incorreta.** O texto alternativo `alt` deve descrever o significado ou função da imagem; textos genéricos como "imagem" prejudicam a acessibilidade. Imagens puramente decorativas devem usar `alt=""`.
+> - **B) Correta.** O `aria-label` define uma cadeia de texto que rotula o elemento interativo diretamente para tecnologias assistivas (*screen readers*), suprindo a ausência de texto visual direto.
+> - **C) Incorreta.** O `aria-hidden="true"` oculta o elemento e seus descendentes dos leitores de tela.
+> - **D) Incorreta.** A WCAG exige taxa de contraste mínima (ex: 4.5:1 para texto normal no nível AA) para garantir legibilidade.
+> - **E) Incorreta.** O acesso completo a todas as funcionalidades por meio do teclado é um dos princípios basilares de acessibilidade (Operável).
 >
-> **Gabarito: D**
+> **Gabarito: B**
 
 ---
+
 ## 2. Estilização com CSS3
 
 ### 2.1 Cascata, Seletores e Cálculo de Especificidade CSS
@@ -370,97 +346,109 @@ Diferentemente do Flexbox, o CSS Grid (`display: grid`) é um sistema **bidimens
 ---
 
 ### Teste 078
-**(FGV – TRF-1 – Analista Judiciário - Tecnologia da Informação – 2024)**
-Ana Lis está editando o documento Regimento.docx, que é 
-composto por duas partes. As páginas da primeira parte são 
-numeradas utilizando o estilo i, ii e iii; as páginas da segunda 
-parte são numeradas utilizando o estilo 1, 2 e 3. 
-No Microsoft Word, para formatar o documento Regimento.docx, 
-Ana Lis deve:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Considere as seguintes regras de estilização declaradas em um arquivo CSS3 externo para formatar um mesmo elemento de título em uma página web:
 
-* **A)** dividir seção;
-* **B)** quebrar a página;
-* **C)** inserir quebra de seção;
-* **D)** alterar a orientação da página;
-* **E)** criar uma referência cruzada.
+```css
+/* Regra 1 */
+h1 { color: red; }
+
+/* Regra 2 */
+#titulo-destaque { color: blue; }
+
+/* Regra 3 */
+.cabecalho .titulo { color: green; }
+
+/* Regra 4 */
+div#secao-principal h1.titulo { color: purple; }
+```
+
+Assumindo o fragmento HTML abaixo:
+
+```html
+<div id="secao-principal" class="cabecalho">
+  <h1 id="titulo-destaque" class="titulo">Relatório de Conformidade</h1>
+</div>
+```
+
+A cor final com que o texto do título `Relatório de Conformidade` será renderizado na tela do navegador e o motivo técnico dessa escolha são:  
+
+* **A)** Azul, porque o seletor com o identificador direto `#titulo-destaque` possui a maior especificidade absoluta entre todas as regras.
+* **B)** Vermelho, porque a Regra 1 é mais genérica e o navegador sempre prioriza seletores de tag simples para garantir padronização tipográfica.
+* **C)** Roxo (*purple*).
+* **D)** Verde, porque a Regra 3 é a penúltima declarada e as classes sobrepõem identificadores únicos no CSS3 moderno.
+* **E)** Roxo (*purple*), porque a regra foi escrita na última linha do arquivo CSS e o desempate na cascata dá vitória estrita à regra de menor número de seletores.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: A**
+> - **A)** Incorreta. A Regra 2 possui peso de especificidade $(0, 1, 0, 0)$ (1 ID), mas é superada pela Regra 4 que soma o mesmo ID mais uma classe e duas tags.
+> - **B)** Incorreta. Seletores de tag simples possuem o menor nível de prioridade na cascata $(0, 0, 0, 1)$.
+> - **C)** **CORRETA.** Cálculo da pontuação quádrupla de especificidade da W3C `(Inline, IDs, Classes/Atributos/Pseudo-classes, Elementos)`:
+>     - Regra 1 (`h1`): $(0, 0, 0, 1)$ = Peso 1.
+>     - Regra 2 (`#titulo-destaque`): $(0, 1, 0, 0)$ = Peso 100.
+>     - Regra 3 (`.cabecalho .titulo`): $(0, 0, 2, 0)$ = Peso 20.
+>     - Regra 4 (`div#secao-principal h1.titulo`): $(0, 1, 1, 2)$ = Peso 112 (1 ID, 1 classe, 2 elementos).
+>   Comparando a Regra 2 contra a Regra 4: ambas empatam na coluna de IDs com valor 1; na coluna seguinte (classes), a Regra 4 possui 1 e a Regra 2 possui 0. Logo, a Regra 4 vence e o elemento será exibido em **roxo (*purple*)**.
+> - **D)** Incorreta. Classes jamais superam seletores com ID na ausência de `!important`.
+> - **E)** Incorreta. A ordem física de linhas no arquivo só atua como critério de desempate se as duas regras conflitantes apresentarem rigorosamente a mesma pontuação de especificidade.
+> 
+> **Gabarito: C**
 
 ---
+
 ### Teste 079
-**(FGV – TRT-1 – Analista Judiciário - Tecnologia da Informação – 2024)**
-Certa organização consome mensalmente, em média, 
-150 unidades de determinado insumo que é comprado de um 
-único fornecedor em lotes de 90 unidades, ao preço de R$ 12,00 
-por unidade. A organização  adota sistema de reposição contínua 
-para o estoque desse insumo e mantém um estoque de 
-segurança de 50 unidades do insumo. O custo de pedido é de 
-R$ 16,00, o custo de posse do estoque é de R$ 4,00 por unidade 
-ao ano e o tempo de ressuprimento é de 12 dias corridos. 
-Na situação descrita, e considerando que um mês tem 30 dias, é 
-correto afirmar que:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No modelo de caixa do CSS3 (*Box Model*), a propriedade `box-sizing` altera a forma como a largura (*width*) e a altura (*height*) totais de um elemento HTML são calculadas no layout da página. Ao aplicar a regra `box-sizing: border-box;` a um elemento com `width: 300px; padding: 20px; border: 5px solid black;`, tem-se que:
 
-* **A)** o estoque médio é de 70 unidades;
-* **B)** o ponto de pedido (PP) é de 96 unidades;
-* **C)** o lote econômico de compra (LEC) é de 125 unidades;
-* **D)** o número de pedidos, com base no LEC, é de 15 ao ano;
-* **E)** o intervalo entre os pedidos, com base no LEC, é de 22 dias.
+* **A)** A largura total renderizada do elemento será de 350px, somando o conteúdo, os paddings e as bordas.
+* **B)** A largura total renderizada do elemento permanecerá exatamente em 300px, sendo o padding e a borda absorvidos internamente no espaço total especificado.
+* **C)** O navegador ignorará o padding e exibirá o conteúdo com largura de 300px e borda invisível.
+* **D)** A propriedade `border-box` elimina a margem externa (*margin*) do elemento em todas as resoluções.
+* **E)** O elemento será renderizado com largura infinita por colapso do modelo de renderização.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A) Incorreta.** Esse cálculo ($300 + 20 + 20 + 5 + 5 = 350\text{px}$) ocorreria no modelo tradicional `content-box`.
+> - **B) Correta.** Com `box-sizing: border-box`, a largura total do elemento na tela respeita rigorosamente o valor declarado em `width` (300px); o padding (20px de cada lado) e a borda (5px de cada lado) são deduzidos da área interna do conteúdo, que passa a ter $300 - 40 - 10 = 250\text{px}$.
+> - **C) Incorreta.** O padding e a borda são exibidos normalmente.
+> - **D) Incorreta.** O `border-box` afeta conteúdo, padding e borda; as margens (*margins*) continuam externas.
+> - **E) Incorreta.** Afirmação sem fundamento técnico.
 >
 > **Gabarito: B**
 
 ---
-### Teste 080
-**(FGV – TRT-16 – Analista Judiciário - Tecnologia da Informação – 2022)**
-Analise o código Node.JS, exibido a seguir, que estabelece um 
-servidor HTTP que recebe e responde mensagens. 
-var http = require('http'); 
-http.createServer(function (req, res) { 
-  res.write('Ok'); 
-  res.end();  
-}).listen(8080); 
-Assinale a afirmativa correta a respeito dessa operação.
 
-* **A)** A função definida é executada somente em caso de erro de 
-parâmetros.
-* **B)** A função definida é sempre executada no lado cliente.
-* **C)** O parâmetro req da função definida deve ser do tipo 
-http.IncomingMessage object.
-* **D)** O parâmetro req da função definida é opcional.
-* **E)** O parâmetro res da função definida é opcional.
+### Teste 080
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No módulo CSS Flexible Box Layout (*Flexbox*), para alinhar os itens filhos (*flex items*) ao longo do eixo transversal ou cruzado (*cross axis*) dentro do contêiner flexível, utiliza-se no elemento pai a propriedade:
+
+* **A)** `justify-content`
+* **B)** `align-items`
+* **C)** `flex-direction`
+* **D)** `flex-wrap`
+* **E)** `order`
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **A) Incorreta.** `justify-content` alinha os itens ao longo do eixo principal (*main axis*).
+> - **B) Correta.** `align-items` define o alinhamento padrão dos itens ao longo do eixo transversal (*cross axis*) perpendicular ao eixo principal.
+> - **C) Incorreta.** `flex-direction` define a orientação do eixo principal (`row`, `column`, etc.).
+> - **D) Incorreta.** `flex-wrap` controla se os itens quebram linha ou permanecem em linha única.
+> - **E) Incorreta.** `order` é aplicada nos itens filhos para reordenar a sequência de renderização.
 >
-> **Gabarito: E**
+> **Gabarito: B**
 
 ---
+
 ## 3. TypeScript: Tipagem Estática no Front-end
 
 ### 3.1 Arquitetura, Transpilação e o Arquivo `tsconfig.json`
@@ -552,91 +540,91 @@ O TypeScript inclui um conjunto poderoso de utilitários de transformação de t
 ---
 
 ### Teste 081
-**(FGV – TRT-16 – Analista Judiciário - Tecnologia da Informação – 2022)**
-Observe a declaração abaixo no contexto de páginas Web. 
-<div class="jumbotron"> 
-  <h1>Teste</h1> 
-  <p>Frase inicial...</p> 
-</div>  
-Assinale o framework usualmente associado à classe utilizada.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Na linguagem TypeScript, os tipos especiais `any` e `unknown` fornecem suporte a valores cujos tipos não são conhecidos a priori. A diferença crucial de segurança de tipos (*type safety*) entre `any` e `unknown` consiste em:
 
-* **A)** Angular Material.
-* **B)** Bootstrap.
-* **C)** CSS.
-* **D)** JSON.
-* **E)** SpringBoot.
+* **A)** `any` força a checagem rigorosa de tipos pelo compilador, enquanto `unknown` desativa todas as regras de tipagem estática.
+* **B)** variáveis tipadas como `unknown` não permitem a invocação direta de métodos ou acesso a propriedades sem que ocorra previamente uma verificação ou refinamento de tipo (*type narrowing*), ao passo que variáveis tipadas como `any` desabilitam completamente a checagem do compilador.
+* **C)** `unknown` só pode armazenar valores booleanos primitivos, enquanto `any` aceita qualquer objeto.
+* **D)** o TypeScript não aceita atribuição de novos valores a variáveis do tipo `unknown`.
+* **E)** variáveis do tipo `any` são convertidas automaticamente para `never` em tempo de execução.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **A) Incorreta.** É exatamente o inverso: `any` desliga a checagem do compilador.
+> - **B) Correta.** `unknown` é o tipo seguro (*type-safe counterpart of any*): qualquer valor pode ser atribuído a `unknown`, mas você não pode chamar métodos nele nem passá-lo a funções tipadas sem antes estreitar o tipo (*type narrowing* via `typeof`, `instanceof` etc.). Já o `any` desabilita todas as checagens do compilador.
+> - **C) Incorreta.** `unknown` aceita qualquer valor.
+> - **D) Incorreta.** Reatribuição é permitida em `unknown`.
+> - **E) Incorreta.** Em tempo de execução, os tipos do TypeScript são apagados (*type erasure*).
 >
-> **Gabarito: E**
+> **Gabarito: B**
 
 ---
+
 ### Teste 082
-**(FGV – TRT-16 – Analista Judiciário - Tecnologia da Informação – 2022)**
-No contexto do HTML e CSS, analise o código a seguir numa 
-página Web. 
-p.centro { 
-  text-align: center; 
-  color: blue; 
-} 
-Sobre esse trecho, é correto afirmar que a cor e o alinhamento 
-serão aplicados
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No ecossistema TypeScript, desenvolvedores podem declarar formatos estruturais utilizando `interface` ou `type` (*type alias*). Um recurso exclusivo das `interfaces` que não é suportado por `type aliases` é:
 
-* **A)** à classe denominada “p.centro”.
-* **B)** à classe denominada “p”.
-* **C)** aos elementos com a tag <p> que tenham a classe “centro”.
-* **D)** aos elementos com id = “p” que tenham a classe “centro”.
-* **E)** aos elementos que tenham a classe “p.centro”. 
-TRT 16ª REGIÃO – MARANHÃO FGV
+* **A)** A declaração de propriedades opcionais com `?`.
+* **B)** A mesclagem automática de declarações (*declaration merging*), permitindo que múltiplas declarações de uma interface com o mesmo identificador sejam unificadas em uma única interface composta.
+* **C)** A criação de uniões de tipos primitivos utilizando o operador `|`.
+* **D)** A compatibilidade com tipagem estática em tempo de compilação.
+* **E)** O suporte a parâmetros genéricos.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A) Incorreta.** Ambos suportam propriedades opcionais (`prop?: string`).
+> - **B) Correta.** Se você declarar duas interfaces com o mesmo nome no mesmo escopo, o TypeScript mescla seus atributos (*declaration merging*). Já tentar redeclarar um `type` com o mesmo nome resulta em erro de compilação (*Duplicate identifier*).
+> - **C) Incorreta.** A união de tipos com `|` é suportada nativamente por `type` (*type alias*), mas não pode ser a base de uma `interface`.
+> - **D) Incorreta.** Ambos oferecem tipagem estática.
+> - **E) Incorreta.** Ambos suportam *Generics*.
 >
-> **Gabarito: C**
+> **Gabarito: B**
 
 ---
+
 ### Teste 083
-**(FCC – TRT-9 – Analista Judiciário - Tecnologia da Informação – 2015)**
-Um Analista da área de TI deseja incluir uma formatação CSS diretamente na tag <h:inputText/> de uma página construída 
-com JSF e também definir um nome de classe de CSS para a tag. O Analista deverá utilizar, para isso, as propriedades
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Na linguagem TypeScript, suponha que exista a definição do seguinte tipo base:
 
-* **A)** id e class.
-* **B)** cssStyle e className.
-* **C)** style e styleClass.
-* **D)** styleType e insertClass.
-* **E)** cssFormat e rendererClass.   
-Caderno de Prova ’D04’, Tipo 001
+```typescript
+type ProcessoAuditoria = {
+  id: number;
+  codigoFiscal: string;
+  relator: string;
+  valorGlosa: number;
+};
+```
 
-TRT9R-An-Jud.-Tec.Informação-D04 11
+Para declarar um novo tipo derivado denominado `ProcessoEdicao`, que contenha rigorosamente todas as propriedades de `ProcessoAuditoria`, porém com todas elas definidas como **opcionais** (isto é, marcadas com `?`), deve-se utilizar o Utility Type:  
+
+* **A)** `Required<ProcessoAuditoria>`
+* **B)** `Readonly<ProcessoAuditoria>`
+* **C)** `Partial<ProcessoAuditoria>`
+* **D)** `Omit<ProcessoAuditoria, "id">`
+* **E)** `Record<string, ProcessoAuditoria>`
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A)** Incorreta. O tipo utilitário `Required<T>` executa a transformação inversa: remove todas as interrogações `?`, tornando todas as propriedades estritamente obrigatórias.
+> - **B)** Incorreta. `Readonly<T>` torna as propriedades imutáveis (somente leitura), mas não as transforma em opcionais.
+> - **C)** **CORRETA.** `Partial<T>` itera sobre todas as chaves do tipo `T` e aplica o modificador `?`, resultando em `{ id?: number; codigoFiscal?: string; relator?: string; valorGlosa?: number; }`, exatamente conforme solicitado no enunciado.
+> - **D)** Incorreta. `Omit<T, K>` constrói um novo tipo removendo uma ou mais chaves específicas indicadas em `K`, preservando o estado obrigatório das restantes.
+> - **E)** Incorreta. `Record<K, T>` é empregado para criar dicionários onde as chaves são do tipo `K` e os valores associados pertencem ao tipo `T`.
+> 
 > **Gabarito: C**
 
 ---
+
 ## 4. Desenvolvimento Front-end com a Biblioteca React
 
 ### 4.1 Paradigma Declarativo, Componentização e Sintaxe JSX
@@ -771,97 +759,105 @@ const handleClick = useCallback(() => { enviarAuditoria(id); }, [id]);
 ---
 
 ### Teste 084
-**(FGV – TCE-GO – Analista de Controle Externo - Tecnologia da Informação – 2024)**
-Roberto está desenvolvendo uma aplicação web usando React, e 
-decidiu utilizar o Bootstrap para que a aplicação seja responsiva. 
-Analise o trecho do código a seguir como parte da aplicação: 
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Na biblioteca React, ao iterar sobre uma lista de dados para renderizar múltiplos componentes utilizando a função `.map()`, os desenvolvedores devem obrigatoriamente fornecer a propriedade especial `key` para cada item retornado.
 
-Marque a opção que aponta problemas para a implementação 
-correta deste projeto.
+A respeito do propósito e do funcionamento da propriedade `key` no algoritmo de reconciliação do React, assinale a afirmativa correta:  
 
-* **A)** O código não necessita da importação do React pois a 
-exportação já vai incorporar no projeto o React.
-* **B)** É necessário acrescentar a importação do CSS do Bootstrap.
-* **C)** O uso de classes como "container", "text -center", e "btn btn -
-primary" precisa ser mudado pois não funciona no React.
-* **D)** O Bootstrap não pode ser utilizado em projetos React devido a 
-incompatibilidades entre as bibliotecas.
-* **E)** A tag `<div>` utilizada não é suportada pelo HTML5.
+* **A)** A `key` serve unicamente para estilização visual via CSS, sendo convertida em uma classe HTML automática no DOM real.
+* **B)** O React utiliza a `key` para identificar de forma estável quais elementos da lista foram alterados, adicionados ou removidos entre renderizações, permitindo atualizar apenas os nós do DOM que sofreram modificação efetiva.
+* **C)** O uso do índice do array (`key={index}`) é a estratégia oficial recomendada pela Meta para listas dinâmicas com operações frequentes de ordenação e inserção no início da fila.
+* **D)** As chaves `key` devem ser obrigatoriamente números inteiros sequenciais gerados aleatoriamente com `Math.random()` a cada ciclo de renderização.
+* **E)** A propriedade `key` é repassada automaticamente pelo React para o componente filho como uma prop ordinária, podendo ser acessada livremente no código filho via `props.key`.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A)** Incorreta. A `key` é consumida pelo motor de reconciliação do React em memória; ela não é renderizada como atributo CSS nem classe no DOM real.
+> - **B)** **CORRETA.** A propriedade `key` atribui uma identidade estável e unívoca a cada elemento da coleção entre diferentes ciclos de renderização. Isso viabiliza que o algoritmo de reconciliação (*diffing*) identifique com precisão inserções, exclusões e reordenações, reaproveitando nós do DOM real e atualizando apenas o conteúdo estritamente necessário.
+> - **C)** Incorreta. Usar o índice do array como chave em listas sujeitas a filtros, reordenação ou inserções intermediárias constitui uma grave má prática, pois induz o React a reaproveitar estados de instâncias incorretas.
+> - **D)** Incorreta. Chaves randômicas com `Math.random()` alteram-se a cada renderização, provocando a destruição e recriação forçada de toda a árvore DOM da lista a cada instante.
+> - **E)** Incorreta. Trata-se de uma pegadinha clássica: `key` e `ref` são propriedades reservadas do React e não são acessíveis dentro do componente filho através de `props.key`.
+> 
 > **Gabarito: B**
 
 ---
+
 ### Teste 085
-**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**
-Segundo a literatura especializada, um método bastante 
-utilizado para avaliação de coleções é a verificação de 
-listas. O inconveniente da utilização desse método no 
-Brasil é que
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Em uma aplicação desenvolvida com a biblioteca React utilizando componentes funcionais e Hooks, um programador implementou a seguinte rotina para sincronizar uma listagem de auditorias fiscais com o servidor backend:
 
-* **A)** as instituições mantenedoras das bibliotecas não 
-aceitam esse tipo de avaliação como válido para 
-orientação de políticas de aquisição.
-* **B)** apenas uma pequena parte das listas se encontra 
-disponível na Internet.
-* **C)** os responsáveis pelas bibliotecas têm dificuldade 
-para relacionar o material constante de determinada 
-lista com aquele possuído pela biblioteca.
-* **D)** os bibliotecários têm familiaridade apenas com as 
-listas de materiais em língua portuguesa.
-* **E)** aquelas listas disponíveis no mercado não têm tanta 
-relação com a realidade brasileira como seria 
-desejável. 
-_________________________________________________________
+```jsx
+function PainelFiscal() {
+  const [processos, setProcessos] = useState([]);
+
+  useEffect(() => {
+    fetch("/api/processos")
+      .then(res => res.json())
+      .then(dados => setProcessos(dados));
+  });
+
+  return <div>{processos.length} processos carregados</div>;
+}
+```
+
+Ao executar essa aplicação no navegador, o comportamento verificado pelo desenvolvedor é:  
+
+* **A)** A requisição à API é disparada apenas uma única vez na montagem da tela, funcionando de forma perfeitamente otimizada.
+* **B)** Ocorre um laço infinito de renderizações (*infinite loop*), provocando sucessivas requisições HTTP e congelamento da interface do usuário.
+* **C)** O React emite um erro de compilação em tempo de execução porque funções assíncronas não são permitidas dentro de componentes funcionais.
+* **D)** A lista de processos jamais será atualizada porque o Hook `useState` não dispara re-renderização quando recebe arrays de dados.
+* **E)** A requisição HTTP falha compulsoriamente devido à falta do cabeçalho de acessibilidade `aria-live` no elemento `<div>`.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** Incorreta. Para que o `useEffect` fosse executado estritamente na montagem inicial do componente, seria mandatório declarar um vetor de dependências vazio `[]` como segundo argumento.
+> - **B)** **CORRETA.** Passo a passo do laço infinito gerado:
+>     1. O desenvolvedor omitiu o array de dependências do `useEffect`.
+>     2. No React, um `useEffect` sem o segundo parâmetro executa na montagem e **após cada re-renderização** do componente.
+>     3. Na montagem, o callback do efeito executa e dispara o `fetch`.
+>     4. Ao receber os dados, executa `setProcessos(dados)`.
+>     5. Atualizar o estado do componente agenda imediatamente uma nova renderização.
+>     6. Ao renderizar novamente, o `useEffect` roda outra vez, disparando outro `fetch`, que chama `setProcessos`, gerando um ciclo sem fim que sobrecarrega a rede e trava o navegador.
 >
-> **Gabarito: C**
+> - **C)** Incorreta. O React suporta plenamente o consumo de chamadas assíncronas dentro do `useEffect`. O defeito é puramente de lógica do ciclo de dependências.
+> - **D)** Incorreta. O `useState` agenda re-renderização para qualquer alteração de estado disparada pela função modificadora.
+> - **E)** Incorreta. O atributo `aria-live` é voltado à tecnologia assistiva de acessibilidade e não exerce influência sobre o tráfego HTTP.
+> 
+> **Gabarito: B**
 
 ---
+
 ### Teste 086
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-A figura a seguir ilustra um tipo de turbina utilizada em uma usina 
-hidrelétrica. 
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Na biblioteca React (versões 16.8+ baseadas em Hooks), a otimização de performance e a manipulação de instâncias mutáveis utilizam hooks especializados. A correta distinção conceitual entre `useMemo`, `useCallback` e `useRef` estabelece que:
 
-Este tipo de turbina é denominado:
+* **A)** `useMemo` memoriza a referência de uma função, `useCallback` memoriza o valor de retorno calculado de uma função, e `useRef` força uma nova renderização imediata do componente sempre que seu atributo `.current` é modificado.
+* **B)** `useMemo` armazena em cache o resultado computacional de uma função cara evitando recálculos desnecessários; `useCallback` memoriza a própria instância da definição de uma função entre renderizações; e `useRef` cria um objeto mutável persistente cuja propriedade `.current` pode ser alterada sem disparar nova renderização do componente.
+* **C)** todos os três hooks são executados exclusivamente após a aplicação ser desinstalada da máquina do cliente.
+* **D)** `useRef` só pode ser utilizado para conectar a aplicação ao banco de dados PostgreSQL.
+* **E)** `useCallback` recalcula o valor sempre que qualquer componente irmão for renderizado no Virtual DOM.
 
-* **A)** Kevin.
-* **B)** Pelton.
-* **C)** Francis.
-* **D)** Bulbo.
-* **E)** Kaplan.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A) Incorreta.** Houve inversão entre `useMemo` (retorna valor calculado) e `useCallback` (retorna função memorizada), e alterar `.current` de `useRef` *não* dispara re-render.
+> - **B) Correta.** Síntese técnica perfeita dos três hooks de performance e estado persistente: `useMemo` memoriza valores calculados; `useCallback` memoriza referências de funções; `useRef` retém referências mutáveis a elementos do DOM ou valores sem desencadear re-renderização.
+> - **C) Incorreta.** Afirmação absurda.
+> - **D) Incorreta.** `useRef` opera no lado cliente do React.
+> - **E) Incorreta.** `useCallback` só recria a função se as variáveis declaradas no seu array de dependências mudarem.
 >
 > **Gabarito: B**
 
 ---
+
 ## 5. Fontes Recomendadas na Internet
 
 * [React Official Documentation - Learn React](https://react.dev/learn) - Fundamentos de componentes declarativos, props, JSX, Virtual DOM e reconciliação.

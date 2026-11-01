@@ -114,41 +114,39 @@ A condicional $p \rightarrow q$ é a estrutura que mais induz candidatos a erro.
 ---
 
 ### Teste 112
-**(FGV – TJ-RR – Analista Judiciário - Suporte e Infraestrutura de TI – 2024)**
-Cada frase abaixo mostra uma inferência (algo deduzido do que foi 
-expresso). 
-Assinale a frase em que a inferência é inadequada.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Considere as seguintes frases:  
 
-* **A)** Se meu médico me disser que tenho somente um dia de vida, 
-não vou ficar remoendo. Re digirei as obras mais rapidamente. 
-Inferência: o emissor é escritor.
-* **B)** Pretendo viver para sempre. Até agora, tudo bem. Inferência: o 
-emissor já morreu.
-* **C)** É praticamente impossível olhar para um pinguim e sentir raiva. 
-Inferência: a imagem do pinguim é agradável.
-* **D)** Queria ter 25 ou 32 anos. Como não tenho, não digo a minha 
-idade. Inferência: o emissor da frase é mais velho.
-* **E)** O limão é uma laranja de mau humor. Inferência: o gosto do 
-limão é amargo. 
-TRIBUNAL DE JUSTIÇA DO ESTADO DE RORAIMA – TJRR FGV CONHECIMENTO 
+I. *"O Tribunal de Contas fiscaliza a execução orçamentária dos municípios goianos."*  
+II. *"Quem foi o responsável por autorizar a despesa sem prévio empenho?"*  
+III. *"Encaminhe imediatamente a documentação comprobatória à comissão de auditoria!"*  
+IV. *"Ele é um excelente auditor governamental."*  
 
+De acordo com os princípios da lógica clássica proposicional, classifica-se como proposição lógica estrita APENAS a frase indicada em:
 
+* **A)** I.
+* **B)** I e IV.
+* **C)** II e III.
+* **D)** I e III.
+* **E)** II e IV.
 
-LEGISLAÇÃO
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **Conceito de Proposição Lógica:** É toda sentença declarativa que exprime um pensamento de sentido completo e à qual se pode atribuir com certeza, e de forma exclusiva, um valor de verdade (Verdadeiro ou Falso), respeitando os princípios da Identidade, Não Contradição e Terceiro Excluído.  
+> - **Análise dos itens:**  
+>   - **Item I:** *"O Tribunal de Contas fiscaliza..."* é uma oração declarativa com sujeito, verbo e sentido completo, passível de julgamento objetivo como V ou F. É **proposição lógica**.  
+>   - **Item II:** É uma **frase interrogativa**. Perguntas não possuem valor de verdade (não são V nem F). Não é proposição.  
+>   - **Item III:** É uma **frase imperativa** (ordem expressa por verbo no imperativo). Ordens, desejos e exclamações não possuem valor de verdade. Não é proposição.  
+>   - **Item IV:** *"Ele é um excelente auditor"* é uma **sentença aberta**. O pronome "Ele" é uma variável indeterminada; sem saber a quem se refere, não é possível atribuir valor de verdade. Logo, não é proposição lógica no sentido estrito.  
+> - **Conclusão:** Apenas a frase I é proposição lógica (Alternativa A).
 >
-> **Gabarito: B**
+> **Gabarito: A**
 
 ---
+
 ### Teste 113
 **(FGV – TRT – Analista Judiciário (TI) – 2024)**  
 A negação de Paulo gosta de futebol ou João gosta de basquetebol é
@@ -242,72 +240,77 @@ A negação de Se meu time ganhar o campeonato então vou viajar é
 ---
 
 ### Teste 115
-**(FGV – TJ-RR – Analista Judiciário - Governança e Gestão de TI – 2024)**
-Cada frase abaixo mostra uma inferência (algo deduzido do que foi 
-expresso). 
-Assinale a frase em que a inferência é inadequada.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Do ponto de vista da lógica formal, a proposição:  
+*"Se o servidor público observa o princípio da moralidade, então sua conduta administrativa é inatacável"*  
+é logicamente equivalente a:
 
-* **A)** Se meu médico me disser que tenho somente um dia de vida, 
-não vou ficar remoendo. Re digirei as obras mais rapidamente. 
-Inferência: o emissor é escritor.
-* **B)** Pretendo viver para sempre. Até agora, tudo bem. Inferência: o 
-emissor já morreu.
-* **C)** É praticamente impossível olhar para um pinguim e sentir raiva. 
-Inferência: a imagem do pinguim é agradável.
-* **D)** Queria ter 25 ou 32 anos. Como não tenho, não digo a minha 
-idade. Inferência: o emissor da frase é mais velho.
-* **E)** O limão é uma laranja de mau humor. Inferência: o gosto do 
-limão é amargo. 
-TRIBUNAL DE JUSTIÇA DO ESTADO DE RORAIMA – TJRR FGV CONHECIMENTO 
+* **A)** Se a conduta administrativa do servidor público é inatacável, então ele observa o princípio da moralidade.
+* **B)** Se o servidor público não observa o princípio da moralidade, então sua conduta administrativa não é inatacável.
+* **C)** O servidor público não observa o princípio da moralidade ou sua conduta administrativa é inatacável.
+* **D)** O servidor público observa o princípio da moralidade e sua conduta administrativa não é inatacável.
+* **E)** Se a conduta administrativa do servidor não for inatacável, então ele observa o princípio da moralidade.
 
-
-
-LEGISLAÇÃO
 
 ---
 
 > **Comentário Detalhado:**
+> Análise das leis de equivalência da condicional $p \rightarrow q$:
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> 1. Identificação das proposições:
+>     - $p$: *"O servidor público observa o princípio da moralidade"*
+>     - $q$: *"Sua conduta administrativa é inatacável"*
 >
-> **Gabarito: B**
+> 2. As duas equivalências lógicas canônicas de $p \rightarrow q$ são:
+>     - Equivalência Contrapositiva: $\neg q \rightarrow \neg p$ (*"Se a conduta não é inatacável, então o servidor não observa a moralidade"*).
+>     - Equivalência Disjuntiva (Regra do NEYA): $\neg p \lor q$ (*"O servidor NÃO observa a moralidade OU sua conduta é inatacável"*).
+>
+> 3. Como a contrapositiva não figura entre as opções, busca-se a forma disjuntiva $\neg p \lor q$, presente de modo límpido na alternativa C.
+>
+> Análise das alternativas:
+>
+> - **A)** Incorreta. Consiste na recíproca simples ($q \rightarrow p$), o que constitui a falácia da afirmação do consequente.
+> - **B)** Incorreta. É a inversa simples ($\neg p \rightarrow \neg q$), falácia da negação do antecedente.
+> - **C)** Correta. Aplicação perfeita da equivalência disjuntiva NEYA: $\neg p \lor q$.
+> - **D)** Incorreta. Esta é a negação da condicional ($p \land \neg q$), e não sua equivalência.
+> - **E)** Incorreta. Nega o consequente sem negar o antecedente na condicional invertida ($\neg q \rightarrow p$).
+> 
+> **Gabarito: C**
 
 ---
+
 ### Teste 116
-**(FGV – TRT-16 – Analista Judiciário - Tecnologia da Informação – 2022)**
-Numa reunião de departamento, um professor mostrou os 
-péssimos resultados de seus alunos no primeiro semestre  para 
-demonstrar a falência do ensino universitário. 
-Essa argumentação do professor mostra um problema, que é
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Dadas duas proposições simples $p$ e $q$, a proposição composta:  
+$$[(p \rightarrow q) \land p] \rightarrow q$$  
+classifica-se logicamente como uma:
 
-* **A)** um círculo vicioso, pois a primeira e a segunda parte do 
-raciocínio mostram o mesmo significado.
-* **B)** uma falsa relação de causa e efeito, poi s a primeira parte 
-indica uma causa não verdadeira para a conclusão.
-* **C)** um estereótipo, pois hoje se consideram os alunos 
-universitários como símbolos da incompetência.
-* **D)** uma falsa analogia, já que os elementos comparados são 
-diferentes em um ponto essencial.
-* **E)** uma generalização excessiva, pois fez uma dedução para um 
-todo (o ensino universitário), que pode ser injusta.
+* **A)** Contingência, pois seu valor lógico depende dos valores atribuídos a $p$ e $q$ em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **B)** Contradição, pois seu valor lógico é sempre falso em qualquer circunstância.
+* **C)** Tautologia, pois assume invariavelmente o valor verdadeiro para todas as combinações de valores lógicos de suas proposições componentes.
+* **D)** Falácia da afirmação do consequente.
+* **E)** Equivalência lógica bidirecional contingente.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **Construção da Tabela-Verdade:**  
+>   | $p$ | $q$ | $p \rightarrow q$ | $(p \rightarrow q) \land p$ | $[(p \rightarrow q) \land p] \rightarrow q$ |
+>   | :---: | :---: | :---: | :---: | :---: |
+>   | V | V | V | V | **V** |
+>   | V | F | F | F | **V** |
+>   | F | V | V | F | **V** |
+>   | F | F | V | F | **V** |
+> - **Análise do Resultado:** A última coluna apresenta valor **Verdadeiro (V)** em todas as quatro linhas possíveis da tabela-verdade.  
+> - Uma proposição composta cuja tabela-verdade resulta exclusivamente em valores verdadeiros é definida como **Tautologia** (trata-se da expressão formal da célebre regra de inferência válida do *Modus Ponens*).  
+> - **Conclusão:** É uma Tautologia (Alternativa C).
 >
-> **Gabarito: E**
+> **Gabarito: C**
 
 ---
+
 ## 3. Validade de Argumentos Dedutivos e Regras de Inferência
 
 A argumentação lógica investiga se uma determinada conclusão decorre com necessidade matemática absoluta a partir de um conjunto de premissas assumidas como verdadeiras.
@@ -349,31 +352,60 @@ O método prático para resolver questões com múltiplas premissas condicionais
 ---
 
 ### Teste 117
-**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
-Uma amostra de idades de 13 funcionários de uma empresa foi 
-obtida e apresentou os seguintes dados: 
-35    50    48    59    32    26    28    30    62    57    21    31   38 
-A mediana dessas idades é igual a
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Considere verdadeiras as seguintes quatro premissas a respeito das rotinas de controle do Tribunal:
 
-* **A)** 28.
-* **B)** 30.
-* **C)** 31.
-* **D)** 32.
-* **E)** 35.
+I. Se o contrato administrativo possui cláusula de reajuste abusiva, então a auditoria emite notificação prévia.  
+
+II. Se a auditoria emite notificação prévia, então o ordenador de despesas suspende o pagamento.  
+
+III. Se o ordenador de despesas suspende o pagamento, então a empresa contratada apresenta defesa prévia.  
+
+IV. A empresa contratada não apresentou defesa prévia.  
+
+A partir dessas premissas, é correto concluir de forma necessariamente válida que:
+
+* **A)** A auditoria emitiu notificação prévia e o contrato possui cláusula abusiva.
+* **B)** O ordenador de despesas suspendeu o pagamento, mas o contrato não possui cláusula abusiva em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **C)** O contrato administrativo não possui cláusula de reajuste abusiva e a auditoria não emitiu notificação prévia.
+* **D)** A empresa contratada apresentou recurso extemporâneo ao plenário.
+* **E)** Se o contrato não possui cláusula abusiva, então o ordenador suspendeu o pagamento.
+
 
 ---
 
 > **Comentário Detalhado:**
+> Dedução formal por encadeamento retroativo (*Modus Tollens*):
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> 1. Todas as premissas devem ser assumidas como Verdadeiras ($V$):
+>     - Pela Premissa IV (fato simples garantido): *"A empresa não apresentou defesa"* $= V$. Logo, a proposição *"A empresa apresenta defesa"* é **Falsa ($F$)**.
 >
-> **Gabarito: A**
+> 2. Pela Premissa III:
+>    $$\text{Ordenador suspende o pagamento} \rightarrow \text{Empresa apresenta defesa} \quad (= V)$$
+>    Como o consequente é $F$, pelo *Modus Tollens*, o antecedente é obrigatoriamente **Falso ($F$)**:
+>    $$\text{O ordenador de despesas NÃO suspendeu o pagamento} \quad (= V)$$
+> 3. Pela Premissa II:
+>    $$\text{Auditoria emite notificação} \rightarrow \text{Ordenador suspende o pagamento} \quad (= V)$$
+>    Como o consequente é $F$, pelo *Modus Tollens*, o antecedente é obrigatoriamente **Falso ($F$)**:
+>    $$\text{A auditoria NÃO emitiu notificação prévia} \quad (= V)$$
+> 4. Pela Premissa I:
+>    $$\text{Contrato possui cláusula abusiva} \rightarrow \text{Auditoria emite notificação} \quad (= V)$$
+>    Como o consequente é $F$, pelo *Modus Tollens*, o antecedente é obrigatoriamente **Falso ($F$)**:
+>    $$\text{O contrato NÃO possui cláusula de reajuste abusiva} \quad (= V)$$
+> 5. Conclusão sintetizada: O contrato não possui cláusula abusiva ($V$) **E** a auditoria não emitiu notificação ($V$).
+>
+> Análise das alternativas:
+>
+> - **A)** Incorreta. Ambas as proposições foram demonstradas como falsas.
+> - **B)** Incorreta. O ordenador não suspendeu o pagamento.
+> - **C)** Correta. Enuncia exatamente as deduções irrefutáveis obtidas pelo encadeamento dedutivo das premissas.
+> - **D)** Incorreta. Informação estranha sem amparo no universo das premissas.
+> - **E)** Incorreta. Contradiz o fato provado de que o ordenador não suspendeu o pagamento.
+> 
+> **Gabarito: C**
 
 ---
+
 ### Teste 118
 **(FGV – TRT-16 – Analista Judiciário (TI) – 2022)**  
 Se João não é magro então não é corredor. Denotando por V uma conclusão verdadeira e por F uma conclusão falsa, para as três conclusões dadas, temos, respectivamente,
@@ -494,41 +526,38 @@ Abaixo estão cinco silogismos. Assinale a opção que mostra uma estruturação
 ---
 
 ### Teste 121
-**(FCC – TRT-6 – Analista Judiciário - Tecnologia da Informação – 2012)**
-Transpondo-se para a voz passiva a frase Sempre haverá 
-quem rejeite a interferência do Estado nas questões 
-religiosas, mantendo-se a correta correlação entre tem-
-pos e modos verbais, ela ficará:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Considere que as seguintes premissas são verdadeiras:  
+1. *Todos os auditores de controle externo são servidores dedicados.*  
+2. *Alguns servidores dedicados são especialistas em tecnologia da informação.*  
 
-* **A)** Terá havido sempre quem tem rejeitado que o Es-
-tado interferisse nas questões religiosas.
-* **B)** A interferência do Estado nas questões religiosas 
-sempre haverá de ser rejeitada por alguém.
-* **C)** Sempre haverá de ter quem rejeite que o Estado in-
-terferisse nas questões religiosas.
-* **D)** A interferência do Estado nas questões religiosas 
-sempre tem encontrado quem a rejeita.
-* **E)** As questões religiosas sempre haverão de rejeitar 
-que o Estado venha a interferir nelas. 
-Caderno de Prova ’T20’, Tipo 001
+Com base estritamente nessas duas premissas, é necessariamente correto concluir que:
 
-4 TRT6R-Conhecimentos Gerais2 
+* **A)** Todos os auditores de controle externo são especialistas em tecnologia da informação em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **B)** Nenhum auditor de controle externo é especialista em tecnologia da informação.
+* **C)** Pelo menos um auditor de controle externo é especialista em tecnologia da informação.
+* **D)** É possível que nenhum auditor de controle externo seja especialista em tecnologia da informação.
+* **E)** Todos os especialistas em tecnologia da informação são auditores de controle externo.
 
-Matemática e Raciocínio Lógico-Matemático
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **Análise via Diagramas de Euler-Venn:**  
+>   - Seja $A$ o conjunto dos auditores, $D$ o conjunto dos servidores dedicados e $TI$ o conjunto dos especialistas em TI.  
+>   - Premissa 1: *"Todos os auditores são dedicados"* $\implies A \subseteq D$ (o círculo de $A$ está totalmente contido dentro do círculo de $D$).  
+>   - Premissa 2: *"Alguns dedicados são especialistas em TI"* $\implies D \cap TI \neq \emptyset$ (há intersecção entre o conjunto $D$ e o conjunto $TI$).  
+> - **Posicionamento do conjunto $TI$ em relação a $A$:**  
+>   - O conjunto $TI$ intercepta o círculo maior $D$. Essa intersecção pode ocorrer na região de $D$ fora de $A$, ou pode alcançar a região interna de $A$.  
+>   - Como não há nenhuma premissa vinculando diretamente $A$ a $TI$, **não se pode garantir** que haja auditores em $TI$, nem se pode garantir que não haja.  
+>   - Portanto, a única afirmação necessariamente verdadeira do ponto de vista da lógica dedutiva modal é que **é perfeitamente possível que nenhum auditor seja especialista em TI** (o círculo de $TI$ pode interceptar apenas os elementos de $D$ que não pertencem a $A$).  
+> - **Conclusão:** É possível que nenhum auditor de controle externo seja especialista em TI (Alternativa D).
 >
-> **Gabarito: E**
+> **Gabarito: D**
 
 ---
+
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 
 * [Portal da Matemática OBMEP / IMPA - Módulo de Noções de Lógica e Argumentação](https://portaldaobmep.impa.br/index.php/modulo/ver?modulo=1059) - Validade de argumentos, silogismos, quantificadores (todo, algum, nenhum) e diagramas lógicos.

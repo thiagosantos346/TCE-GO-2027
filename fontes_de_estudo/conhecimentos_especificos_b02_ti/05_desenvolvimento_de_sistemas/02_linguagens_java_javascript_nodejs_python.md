@@ -308,133 +308,132 @@ Permite o processamento declarativo e funcional de coleções de dados:
 ---
 
 ### Teste 065
-**(FCC – TRT-23 – Analista Judiciário - Tecnologia da Informação – 2016)**
-Um Analista editou o arquivo domain.xml, deixando um fragmento do código com a seguinte configuração: 
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Na Máquina Virtual Java (JVM), o gerenciamento de memória divide-se principalmente entre a memória *Stack* (Pilha) e a memória *Heap*. A respeito da organização e do ciclo de vida dos dados nessas áreas, é correto afirmar:
 
- <server-groups> 
-  <server-group name="grupo-apps" profile="ha"> 
-   <jvm name="default"> 
-     <heap size="1303m" max-size="1303m"/> 
-     <permgen max-size="256m"/> 
-   </jvm> 
-   <socket-binding-group ref="ha-sockets"/> 
-   </server-group> 
- </server-groups> 
+* **A)** Todas as instâncias de objetos criadas via operador `new` são alocadas na memória *Heap*, enquanto as variáveis locais de tipos primitivos e as referências aos objetos residem na memória *Stack*.
+* **B)** A memória *Stack* é compartilhada por todas as threads da JVM, sendo limpa exclusivamente pelo *Garbage Collector*.
+* **C)** Os objetos instanciados na *Heap* são desalocados imediatamente no instante exato em que a chave de fechamento do método atual é executada.
+* **D)** O *Garbage Collector* da JVM varre e gerencia a memória *Stack*, mas nunca atua sobre os objetos da *Heap*.
+* **E)** A memória *Heap* opera sob a política de primeiro a entrar, primeiro a sair (FIFO), impedindo o reaproveitamento de blocos liberados.
 
- Trata-se de configurações
-
-* **A)** do servidor Tomcat.
-* **B)** da JVM no Java EE.
-* **C)** do JavaServer Faces.
-* **D)** do servidor JBoss AS.
-* **E)** do Enterprise JavaBeans. 
-Caderno de Prova ’H08’, Tipo 001
-
-TRT23-An-Judiciário-Tecnol.Informação-H08 7
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A) Correta.** Na arquitetura da JVM, a *Stack* armazena frames de métodos, tipos primitivos locais e ponteiros de referência; todos os objetos instanciados residem dinamicamente na *Heap*.
+> - **B) Incorreta.** Cada thread possui sua própria *Stack* privada; a *Heap* é que é compartilhada globalmente por todas as threads.
+> - **C) Incorreta.** Objetos na *Heap* permanecem vivos até que não haja mais referências ativas a eles a partir do grafo de raízes (*GC Roots*), sendo coletados de forma assíncrona pelo *Garbage Collector*.
+> - **D) Incorreta.** O *Garbage Collector* gerencia primordialmente a memória *Heap*; a *Stack* é liberada automaticamente no retorno de cada função.
+> - **E) Incorreta.** A *Heap* é organizada em gerações (*Young*, *Old/Tenured*) e não segue disciplina FIFO de fila.
 >
 > **Gabarito: A**
 
 ---
+
 ### Teste 066
-**(FCC – TRT-14 – Analista Judiciário - Tecnologia da Informação – 2016)**
-Dada uma coleção de n elementos ordenados por ordem crescente, pretende-se saber se um determinado elemento x existe 
-nessa coleção. Supondo que essa coleção está implementada como sendo um vetor a[0...n-1] de n elementos inteiros, 
-utilizando-se um algoritmo de pesquisa binária, o número de vezes que a comparação x==a[i] será executada, no pior caso, é 
-calculada por
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Na linguagem de programação Java, a respeito das palavras-chave de controle de acesso, modificadores de comportamento e tratamento da orientação a objetos, assinale a afirmativa correta:  
 
-* **A)** n/2.
-* **B)** n−1.
-* **C)** √n.
-* **D)** log 2(n).
-* **E)** n −=2.  
-Caderno de Prova ’C03’, Tipo 001
+* **A)** Um atributo declarado com o modificador `private` pode ser acessado diretamente por quaisquer subclasses pertencentes ao mesmo pacote da superclasse.
+* **B)** Uma classe declarada com o modificador `final` não pode ser estendida (não permite criação de subclasses), e um método marcado como `final` não pode ser sobrescrito (*overridden*).
+* **C)** Interfaces em Java não podem conter assinaturas de métodos abstratos, permitindo apenas constantes estáticas.
+* **D)** O operador relacional `==` compara o conteúdo semântico e alfanumérico de dois objetos da classe `String`, enquanto o método `.equals()` compara estritamente os endereços de memória.
+* **E)** O bloco `finally` em uma estrutura de tratamento `try-catch-finally` é opcional e nunca é executado quando uma exceção é capturada com sucesso pelo bloco `catch`.
 
-TRT14R-An.Jud.-Tec.Informação-C03 13
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: A**
+> - **A)** Incorreta. Atributos declarados com `private` são estritamente restritos ao corpo da própria classe declarante. Nem mesmo subclasses dentro do mesmo pacote possuem acesso direto a eles. O modificador que autorizaria o acesso no mesmo pacote e em subclasses de pacotes externos seria o `protected`.
+> - **B)** **CORRETA.** A palavra-chave `final` possui tríplice funcionalidade em Java: em variáveis cria constantes cujo valor/referência não pode ser reatribuído; em métodos impede a sobrescrita por subclasses; em classes proíbe a herança e extensão (como ocorre com a classe `java.lang.String`).
+> - **C)** Incorreta. A finalidade primária das interfaces em Java sempre foi justamente declarar assinaturas de métodos abstratos a serem implementados por classes concretas.
+> - **D)** Incorreta. Pegadinha recorrente da FCC que inverte os papéis: o operador `==` compara a identidade de referências no Heap (se apontam para o mesmo endereço físico), enquanto o método `.equals()` avalia a igualdade semântica de conteúdo.
+> - **E)** Incorreta. O bloco `finally` é executado **sempre**, tenha ou não ocorrido exceção no `try`, tenha ela sido capturada ou não no `catch`.
+> 
+> **Gabarito: B**
 
 ---
+
 ### Teste 067
-**(FGV – TJ-AP – Analista Judiciário - Tecnologia da Informação – 2023)**
-EGP – Path Vector 
-(   ) RIP versão 2 (Routing Information Protocol) 
-(   ) OSPF (Open Shortest Path First) 
-(   ) BGP (Border Gateway Protocol) 
-(   ) IS-IS (Intermediate System – Intermediate System) 
-A sequência correta é:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+No ecossistema da linguagem Java, o tratamento robusto de erros baseia-se na hierarquia da classe `java.lang.Throwable`. A respeito da distinção entre *Checked Exceptions* (exceções checadas) e *Unchecked Exceptions* (exceções não checadas), assinale a afirmativa correta:  
 
-* **A)** 1, 2, 3, 3;
-* **B)** 2, 1, 2, 3;
-* **C)** 3, 1, 2, 1;
-* **D)** 1, 2, 3, 2;
-* **E)** 2, 2, 1, 3.
+* **A)** Exceções filhas de `java.lang.RuntimeException`, como `NullPointerException` e `IllegalArgumentException`, são do tipo *Checked Exceptions* e exigem tratamento obrigatório com bloco `try-catch` em tempo de compilação.
+* **B)** A classe `java.lang.Error` e suas subclasses representam condições anormais graves de ambiente (como `OutOfMemoryError`), que são consideradas *Unchecked* e não devem ser capturadas na rotina de negócio da aplicação.
+* **C)** O compilador Java não impõe nenhuma exigência sobre classes derivadas de `java.lang.Exception`, tornando o uso de blocos `try-catch` facultativo para operações de E/S de arquivos (`IOException`).
+* **D)** As palavras-chave `throw` e `throws` são perfeitamente intercambiáveis, podendo ambas ser empregadas para lançar explicitamente uma nova instância de exceção dentro de um bloco de código.
+* **E)** A cláusula `finally` anula a necessidade de declaração de exceções na assinatura do método com `throws`.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: A**
+> - **A)** Incorreta. Subclasses de `java.lang.RuntimeException` são precisamente o modelo clássico de **Unchecked Exceptions**; o compilador não exige bloco `try-catch` nem declaração formal com `throws`.
+> - **B)** **CORRETA.** Subclasses de `java.lang.Error` sinalizam falhas catastróficas da infraestrutura da JVM das quais a aplicação normalmente não consegue se recuperar (ex.: falta de memória, estouro de pilha). São consideradas não checadas (*Unchecked*) e não devem ser tratadas pelo código de negócio.
+> - **C)** Incorreta. Classes derivadas de `java.lang.Exception` que não herdam de `RuntimeException` (como `IOException` e `SQLException`) são *Checked Exceptions* e o compilador impõe rigorosamente a obrigatoriedade de captura (`try-catch`) ou declaração de repasse na assinatura (`throws`).
+> - **D)** Incorreta. `throw` é uma instrução imperativa para disparar uma instância de exceção (`throw new Exception()`), enquanto `throws` é um modificador de assinatura de método que lista as exceções checadas passíveis de propagação.
+> - **E)** Incorreta. O bloco `finally` garante a execução de rotinas de limpeza, mas não exime o método de declarar com `throws` eventuais exceções checadas não tratadas nos blocos `catch`.
+> 
+> **Gabarito: B**
 
 ---
+
+
+#### 3. `java.lang.RuntimeException` e as *Unchecked Exceptions* (Não Checadas)
+Subclasses de `RuntimeException` (ex.: `NullPointerException`, `ArithmeticException`, `ArrayIndexOutOfBoundsException`, `IllegalArgumentException`).
+
+- Decorrem normalmente de falhas de lógica do programador, bugs ou violações de pré-condições.
+- O compilador **não obriga** captura nem declaração com `throws`.
+
+#### Mecanismos de Tratamento: `try-catch-finally` e `try-with-resources`
+- **`try`:** Demarca o bloco de código protegido sujeito a falhas.
+- **`catch`:** Captura e trata exceções do tipo compatível especificado no parâmetro. É possível capturar múltiplos tipos em um único catch (*multi-catch*): `catch (IOException | SQLException e)`.
+- **`finally`:** Bloco que é executado **sempre e incondicionalmente**, tenha ocorrido exceção ou não, tenha havido `return` no `try` ou no `catch`. A única exceção ocorre se a JVM for terminada abruptamente por `System.exit(0)`. Utilizado historicamente para fechamento de conexões, fluxos e arquivos.
+- **`try-with-resources` (Java 7+):** Declara recursos que implementam a interface `java.lang.AutoCloseable` diretamente nos parênteses da instrução `try`. Garante o fechamento automático e determinístico do recurso ao término do bloco, dispensando chamadas manuais a `.close()` no `finally`:
+
+```java
+try (BufferedReader br = new BufferedReader(new FileReader("auditoria.log"))) {
+    String linha = br.readLine();
+} catch (IOException e) {
+    e.printStackTrace();
+}
+```
+
+- **`throw` vs. `throws`:**
+    - `throw`: Palavra-chave utilizada para lançar ativamente uma instância de exceção no fluxo de execução (`throw new IllegalArgumentException("Valor inválido");`).
+    - `throws`: Modificador presente na declaração da assinatura do método que avisa aos chamadores que aquele método pode disparar certas exceções checadas (`public void gravar() throws IOException`).
+
+---
+
 ### Teste 068
-**(FGV – TJ-AP – Analista Judiciário - Tecnologia da Informação – 2023)**
-No cabeçalho do protocolo IP, versão 4,  existem dois campos 
-chamados IHL (Internet Header Length) e TTL (Time To Live). O 
-comprimento desses campos é de 4 e 8 bits, respectivamente. 
-Um pacote IP transmitiu um valor hexadecimal de 5 para o IHL e 
-um valor hexadecimal de FF para o TTL.  
-Sabendo-se que esse pacote também transmitiu uma informação 
-útil de 8 bytes, é correto afirmar que o pacote IP transmitido:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No *Java Collections Framework*, as três interfaces fundamentais de coleção (`List`, `Set` e `Map`) apresentam características estruturais distintas. A respeito dessas estruturas, é correto afirmar:
 
-* **A)** possui um comprimento total de 5 bytes;
-* **B)** possui um comprimento total de 13 bytes;
-* **C)** possui um comprimento total de 20 bytes;
-* **D)** consegue passar por 200 roteadores sem ser descartado;
-* **E)** consegue passar por 300 roteadores sem ser descartado. 
+* **A)** A interface `Set` permite armazenar elementos duplicados e garante a recuperação estrita na ordem exata de inserção em todas as suas implementações.
+* **B)** A interface `List` representa uma coleção ordenada que admite elementos duplicados e permite o acesso posicional aos elementos por meio de índices inteiros.
+* **C)** A classe `HashMap` proíbe o armazenamento de valores nulos e garante que as chaves fiquem automaticamente ordenadas alfabeticamente.
+* **D)** A classe `TreeSet` não exige que seus elementos implementem a interface `Comparable` ou utilizem um `Comparator`.
+* **E)** As chaves de um `Map` podem conter elementos repetidos, desde que seus valores associados sejam estritamente nulos.
 
-Tribunal de Justiça do Estado do Amapá FGV Conhecimento 
-
-Analista Jud - Apo Especializado - Tecnologia da Informação - Telecomunicações  Tipo 1  ̶  Branca – Página 13
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A) Incorreta.** `Set` não permite elementos duplicados; implementações como `HashSet` não garantem ordem alguma.
+> - **B) Correta.** `List` é uma sequência ordenada (*index-based*) que aceita elementos duplicados e permite consultas diretas via índice (como `get(i)`).
+> - **C) Incorreta.** `HashMap` permite uma chave nula e múltiplos valores nulos, e não garante ordenação (a classe que ordena é `TreeMap`).
+> - **D) Incorreta.** `TreeSet` ordena seus elementos com base na ordem natural (`Comparable`) ou em um `Comparator` explícito.
+> - **E) Incorreta.** As chaves de um `Map` são únicas (comportam-se como um `Set`).
 >
-> **Gabarito: D**
+> **Gabarito: B**
 
 ---
+
 ## 2. JavaScript Moderno (ECMAScript 6+)
 
 ### 2.1 Declaração de Variáveis: `var`, `let` e `const`, Escopo e Hoisting
@@ -539,122 +538,127 @@ console.log(contador.incrementar()); // 11
 ---
 
 ### Teste 069
-**(FGV – TJ-AP – Analista Judiciário - Segurança da Informação – 2023)**
-Considere o seguinte código em Java: 
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Em JavaScript moderno, a utilização de variáveis e a criação de funções de fechamento (*closures*) dentro de laços de repetição assíncronos comportam-se de maneira distinta dependendo de como as variáveis são declaradas. Analise os dois fragmentos de código abaixo:
 
-Map<String, String> cidades =  
-Map.of("11","Amapá","13","Itaubal","15","Cutias"); 
+**Fragmento 1:**
 
-String texto =  
-cidades.entrySet().stream().sorted( 
-     (e1, e2) -> e1.getKey().compareTo(e2.getKey())) 
- .map(e-> Arrays.asList(e.getKey(), e.getValue())) 
- .map(e-> String.join(", ", e)) 
- .collect(Collectors.joining(": ")); 
+```javascript
+for (var i = 0; i < 3; i++) {
+    setTimeout(() => console.log("F1:", i), 100);
+}
+```
 
-System.out.println(texto); 
+**Fragmento 2:**
 
-Ao ser executado com as importações necessárias, o código Java 
-acima imprime na saída padrão:
+```javascript
+for (let j = 0; j < 3; j++) {
+    setTimeout(() => console.log("F2:", j), 100);
+}
+```
 
-* **A)** Cutias: 15, Amapá: 11, Itaubal: 13
-* **B)** Amapá: 11, Cutias: 15, Itaubal: 13
-* **C)** 11, Amapá: 13, Itaubal: 15, Cutias
-* **D)** 11: Amapá, 13: Itaubal, 15: Cutias
-* **E)** 15: Cutias, 13: Itaubal, 11: Amapá 
+Após o término dos temporizadores de 100 milissegundos, as saídas produzidas pelos Fragmentos 1 e 2 serão, respectivamente:  
 
-Tribunal de Justiça do Estado do Amapá FGV Conhecimento 
+* **A)** Fragmento 1: `F1: 0`, `F1: 1`, `F1: 2` ; Fragmento 2: `F2: 0`, `F2: 1`, `F2: 2`.
+* **B)** Fragmento 1: `F1: 3`, `F1: 3`, `F1: 3` ; Fragmento 2: `F2: 0`, `F2: 1`, `F2: 2`.
+* **C)** Fragmento 1: `F1: 3`, `F1: 3`, `F1: 3` ; Fragmento 2: `F2: 3`, `F2: 3`, `F2: 3`.
+* **D)** Fragmento 1: `F1: 0`, `F1: 1`, `F1: 2` ; Fragmento 2: `F2: 3`, `F2: 3`, `F2: 3`.
+* **E)** Fragmento 1: `F1: undefined`, `F1: undefined`, `F1: undefined` ; Fragmento 2: `F2: 0`, `F2: 1`, `F2: 2`.
 
-Analista Jud - Apo Esp - Tecnologia da Informação - Segurança da Informação  Tipo 1  ̶  Branca – Página 17
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** Incorreta. Supõe que `var` preservaria o escopo individual de cada iteração, o que não ocorre sem técnicas como IIFE em JavaScript legado.
+> - **B)** **CORRETA.** Explicação do escopo e closures:
+>     1. **No Fragmento 1 (`var i = 0`):** `var` possui escopo de função/global. Existe uma única variável `i` compartilhada por todas as 3 iterações do laço. O laço executa sincronicamente e eleva `i` até 3 (condição de parada). Quando os 3 callbacks do `setTimeout` disparam 100ms depois, todos consultam a mesma variável compartilhada `i`, exibindo: `F1: 3`, `F1: 3`, `F1: 3`.
+>     2. **No Fragmento 2 (`let j = 0`):** `let` possui escopo de bloco. O padrão ECMAScript vincula uma nova variável `j` independente a cada iteração do laço `for`. A closure de cada callback preserva o valor capturado de sua respectiva iteração (0, 1 e 2). Ao executarem, exibem: `F2: 0`, `F2: 1`, `F2: 2`.
 >
+> - **C)** Incorreta. Assume erroneamente que o `let` se comportaria com o mesmo defeito de escopo compartilhado de `var`.
+> - **D)** Incorreta. Inverte o comportamento entre as declarações `var` e `let`.
+> - **E)** Incorreta. A variável `i` foi devidamente incrementada até o valor 3 no escopo circundante, portanto não é avaliada como `undefined`.
+> 
 > **Gabarito: B**
 
 ---
+
 ### Teste 070
-**(FGV – TJ-AP – Analista Judiciário - Banco de Dados – 2023)**
-Considere o seguinte código em Java: 
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Em JavaScript moderno, a comparação de valores pode ser realizada por meio do operador de igualdade abstrata (`==`) ou do operador de igualdade estrita (`===`). Considere as seguintes expressões avaliadas pelo interpretador JavaScript:  
 
-Map<String, String> cidades =  
-Map.of("11","Amapá","13","Itaubal","15","Cutias"); 
+I. `5 == "5"`  
+II. `5 === "5"`  
+III. `null === undefined`  
 
-String texto =  
-cidades.entrySet().stream().sorted( 
-     (e1, e2) -> e1.getKey().compareTo(e2.getKey())) 
- .map(e-> Arrays.asList(e.getKey(), e.getValue())) 
- .map(e-> String.join(", ", e)) 
- .collect(Collectors.joining(": ")); 
+Os valores booleanos resultantes da avaliação das expressões I, II e III são, respectivamente:
 
-System.out.println(texto); 
+* **A)** `true`, `true` e `true`
+* **B)** `true`, `false` e `false`
+* **C)** `false`, `true` e `false`
+* **D)** `false`, `false` e `true`
+* **E)** `true`, `false` e `true`
 
-Ao ser executado com as importações necessárias, o código Java 
-acima imprime na saída padrão:
-
-* **A)** Cutias: 15, Amapá: 11, Itaubal: 13
-* **B)** Amapá: 11, Cutias: 15, Itaubal: 13
-* **C)** 11, Amapá: 13, Itaubal: 15, Cutias
-* **D)** 11: Amapá, 13: Itaubal, 15: Cutias
-* **E)** 15: Cutias, 13: Itaubal, 11: Amapá
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **I. `5 == "5"`:** Retorna `true` porque o operador de igualdade abstrata (`==`) realiza coerção de tipos (*type coercion*), convertendo a string `"5"` para o número `5`.
+> - **II. `5 === "5"`:** Retorna `false` porque o operador de igualdade estrita (`===`) verifica tipo e valor sem coerção (`number !== string`).
+> - **III. `null === undefined`:** Retorna `false` porque são tipos primitivos distintos (`Null` vs `Undefined`). Nota: sob igualdade abstrata (`null == undefined`), o retorno seria `true`.
 >
 > **Gabarito: B**
 
 ---
+
 ### Teste 071
-**(FGV – TJ-AP – Analista Judiciário - Banco de Dados – 2023)**
-Analise, no código JavaScript exibido a seguir, a função f que 
-recebe um array como parâmetro. É dado que a função 
-Math.trunc retorna a parte inteira de um número. 
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Considere o seguinte trecho de código escrito na linguagem Python 3:
 
-function f(x) { 
-    i = 0; 
-    for (i=0; i < Math.trunc(x.length/2); i++) { 
-      a = x[i]; 
-      x[i] = x[x.length -i -1]; 
-      x[x.length -i -1] = a; 
-    } 
-    return x; 
-} 
+```python
+numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+resultado = [x * 2 for x in numeros if x % 2 != 0 and x > 3]
+print(resultado)
+```
 
-A complexidade do algoritmo é da ordem:
+A execução correta desse código gerará no terminal a saída:  
 
-* **A)** Log (N)
-* **B)** N Log(N)
-* **C)** N/2
-* **D)** N
-* **E)** N2
+* **A)** `[8, 12, 16, 20]`
+* **B)** `[10, 14, 18]`
+* **C)** `[5, 7, 9]`
+* **D)** `[10, 14, 18, 22]`
+* **E)** `[2, 6, 10, 14]`
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** Incorreta. Essa lista decorreria da filtragem de números pares maiores que 3 (`4, 6, 8, 10`) multiplicados por 2.
+> - **B)** **CORRETA.** Analisando a List Comprehension:
+>     1. O laço percorre os inteiros de 1 a 10.
+>     2. O filtro condicional `if x % 2 != 0 and x > 3` seleciona números que sejam simultaneamente ímpares (`1, 3, 5, 7, 9`) e estritamente maiores que 3 (`x > 3`). Os únicos elementos que atendem a ambos os predicados são `5, 7, 9`.
+>     3. A expressão de transformação `x * 2` dobra cada número aprovado: $5 \times 2 = 10$, $7 \times 2 = 14$ e $9 \times 2 = 18$. A lista final impressa é `[10, 14, 18]`.
 >
-> **Gabarito: C**
+> - **C)** Incorreta. Apresenta apenas os valores originais filtrados antes da aplicação da projeção `x * 2`.
+> - **D)** Incorreta. Inclui o elemento 22, mas o valor máximo da lista original é 10 e o maior ímpar é 9 ($9 \times 2 = 18$).
+> - **E)** Incorreta. Dobra os números ímpares menores ou iguais a 3, desrespeitando o predicado `x > 3`.
+> 
+> **Gabarito: B**
 
 ---
+
+
+#### Arrow Functions
+Funções anônimas concisas com sintaxe de seta `() => {}`. Possuem duas diferenças semânticas cruciais em relação às funções tradicionais declaradas com `function`:
+
+1. **Vinculação Léxica do `this`:** As arrow functions **não possuem seu próprio contexto `this`**. Elas capturam o valor de `this` do escopo léxico envolvente no momento de sua definição. Não podem ser alteradas por `.bind()`, `.call()` ou `.apply()`.
+2. **Não são construtoras:** Não possuem método interno `[[Construct]]`, não podem ser chamadas com o operador `new` e não possuem a propriedade `prototype`.
+3. **Ausência do objeto `arguments`:** Para capturar parâmetros variáveis, deve-se usar a sintaxe rest `(..args)`.
+
+---
+
 ## 3. Programação Assíncrona e Ambiente Node.js
 
 ### 3.1 Arquitetura do Node.js: Motor V8, Libuv e Non-blocking I/O
@@ -766,79 +770,78 @@ Introduzida no ES2017, funciona como açúcar sintático sobre Promises:
 ---
 
 ### Teste 072
-**(FGV – TJ-AP – Analista Judiciário - Banco de Dados – 2023)**
-No contexto do JavaScript, analise o  quadro a seguir sob a 
-ótica das diferenças sintáticas utilizadas nas declarações de 
-variáveis, e as respectivas possibilidades de redeclarar e/ou 
-alterar o valor de uma variável ao longo do código. 
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Em relação ao modelo de execução assíncrona do ambiente Node.js e da linguagem JavaScript, considere o seguinte fragmento de código:
 
-Tipo de 
-declaração 
-Permite 
-redeclarar 
-Permite alterar 
-valor 
-? Sim Sim 
-? Não Sim 
-? Não Não 
+```javascript
+console.log("A");
 
-De cima para baixo, a ordem de preenchimento da primeira 
-coluna, de acordo com as possibilidades de cada tipo de 
-declaração, é:
+setTimeout(() => {
+    console.log("B");
+}, 0);
 
-* **A)** const, let, var;
-* **B)** let, const, var;
-* **C)** let, var, const;
-* **D)** var, const, let;
-* **E)** var, let, const.
+Promise.resolve().then(() => {
+    console.log("C");
+});
+
+console.log("D");
+```
+
+A ordem exata em que os caracteres serão impressos no console do terminal durante a execução desse script é:  
+
+* **A)** A, B, C, D
+* **B)** A, D, B, C
+* **C)** A, D, C, B
+* **D)** C, A, D, B
+* **E)** A, C, D, B
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** Incorreta. Supõe uma execução linear tradicional síncrona, desconsiderando que o `setTimeout` e a resolução do método `.then()` de uma `Promise` são despachados para filas assíncronas do Event Loop.
+> - **B)** Incorreta. Supõe erroneamente que a macrotarefa agendada pelo `setTimeout(.., 0)` possui prioridade sobre a microtarefa da Promise. Na especificação do ECMAScript e no motor V8/libuv, a fila de microtarefas (*Microtask Queue*) é sempre completamente drenada antes de qualquer macrotarefa ser processada.
+> - **C)** **CORRETA.** Passo a passo da execução:
+>     1. O código síncrono é carregado e executado na Call Stack: `console.log("A")` imprime **A**.
+>     2. O `setTimeout` registra seu temporizador e despacha seu callback para a fila de macrotarefas (*Macrotask Queue*).
+>     3. `Promise.resolve().then(..)` agenda seu callback na fila de microtarefas prioritárias (*Microtask Queue*).
+>     4. O código síncrono prossegue na Call Stack: `console.log("D")` imprime **D**.
+>     5. A Call Stack fica vazia. O Event Loop drena primeiro todas as microtarefas pendentes: o callback da Promise executa e imprime **C**.
+>     6. Estando a fila de microtarefas limpa, o Event Loop busca a primeira macrotarefa da fila: o callback do `setTimeout` executa e imprime **B**. Ordem final: **A, D, C, B**.
 >
-> **Gabarito: D**
+> - **D)** Incorreta. Afirma que a Promise executaria antes mesmo do código síncrono inicial `console.log("A")`, o que é impossível, pois a Call Stack ainda não havia sido esvaziada.
+> - **E)** Incorreta. Afirma que a microtarefa executaria antes do encerramento do código síncrono `console.log("D")`. O Event Loop apenas inspeciona e drena filas assíncronas após o esvaziamento completo da Call Stack.
+> 
+> **Gabarito: C**
 
 ---
+
 ### Teste 073
-**(FGV – TJ-AP – Analista Judiciário - Banco de Dados – 2023)**
-Analise o código Python a seguir. 
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Em relação ao tratamento de operações assíncronas em JavaScript e Node.js utilizando *Promises* e a sintaxe `async/await`, assinale a afirmativa correta:
 
-L=[0,1,1,2,3,5,8,13] 
-for k in range(1,len(L)): 
-    L[k],L[k-1] = L[k-1],L[k] 
-print L[-1] 
+* **A)** Uma função declarada com o modificador `async` sempre retorna implicitamente uma *Promise*, que resolve com o valor retornado pela função.
+* **B)** A palavra-chave `await` pode ser utilizada no corpo de qualquer função tradicional síncrona sem necessidade de declaração assíncrona.
+* **C)** Uma *Promise* rejeitada só pode ser tratada por meio de blocos de repetição `while(true)`.
+* **D)** O método `Promise.all()` aguarda a resolução de todas as promises do array, mesmo se uma delas for rejeitada imediatamente.
+* **E)** A execução de `await` bloqueia a thread principal do sistema operacional, impedindo a CPU de executar qualquer outro processo.
 
-O último valor exibido na execução desse código é:
-
-* **A)** 0;
-* **B)** 1;
-* **C)** 5;
-* **D)** 8;
-* **E)** 13. 
-
-Tribunal de Justiça do Estado do Amapá FGV Conhecimento 
-
-Analista Jud - Apoio Especializado - Tecnologia da Informação - Banco de Dados  Tipo 1  ̶  Branca – Página 13
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A) Correta.** Toda função `async` empacota seu retorno automaticamente em uma `Promise.resolve(valor)`. Caso a função lance um erro, ela retorna uma `Promise.reject(erro)`.
+> - **B) Incorreta.** O operador `await` só pode ser usado dentro de funções declaradas como `async` (ou em módulos ES em nível superior - *top-level await*).
+> - **C) Incorreta.** Promises rejeitadas são tratadas com `.catch()` ou blocos `try/catch` ao redor de `await`.
+> - **D) Incorreta.** `Promise.all()` adota comportamento *fail-fast*: se qualquer promise falhar, ele rejeita imediatamente.
+> - **E) Incorreta.** `await` suspende apenas a execução da função assíncrona corrente sem bloquear a thread do Event Loop do Node.js (*non-blocking*).
 >
-> **Gabarito: B**
+> **Gabarito: A**
 
 ---
+
 ## 4. Programação em Python para Automação e Back-end
 
 ### 4.1 Sintaxe, Tipagem Dinâmica e Forte e Filosofia PEP 8
@@ -1011,61 +1014,64 @@ def obter_processo(id):
 ---
 
 ### Teste 074
-**(FGV – TJ-AP – Analista Judiciário - Banco de Dados – 2023)**
-Analise o código Java a seguir. 
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Na linguagem Python 3, duas das estruturas de dados sequenciais mais empregadas são as Listas (`list`) e as Tuplas (`tuple`). A diferença fundamental entre essas duas estruturas reside no fato de que:
 
-public class Main { 
-  public static void main(String[] args) { 
-    System.out.println(x);  
-    int x = 100; 
-  } 
-} 
+* **A)** As listas são imutáveis e delimitadas por parênteses `()`, enquanto as tuplas são mutáveis e delimitadas por colchetes `[]`.
+* **B)** As listas são mutáveis (podem ter elementos adicionados, alterados ou removidos após a criação), enquanto as tuplas são estritamente imutáveis.
+* **C)** As tuplas aceitam apenas dados numéricos inteiros, enquanto as listas aceitam apenas cadeias de texto (*strings*).
+* **D)** As listas não admitem elementos duplicados, enquanto as tuplas permitem duplicações infinitas.
+* **E)** As tuplas são armazenadas em disco rígido, enquanto as listas residem na memória cache do processador.
 
-Quando esse código é executado:
-
-* **A)** “null” é exibido;
-* **B)** “undefined” é exibido;
-* **C)** o valor 100  é exibido;
-* **D)** ocorre um erro de símbolo não encontrado;
-* **E)** ocorre um erro de variável não inicializada.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **A) Incorreta.** A relação de delimitadores e mutabilidade está invertida.
+> - **B) Correta.** Listas (`[1, 2, 3]`) são coleções mutáveis; Tuplas (`(1, 2, 3)`) são imutáveis após a instanciação (o que confere segurança, performance e permite que tuplas de elementos imutáveis sejam usadas como chaves em dicionários).
+> - **C) Incorreta.** Ambas são heterogêneas e aceitam qualquer tipo de objeto Python.
+> - **D) Incorreta.** Ambas aceitam elementos duplicados.
+> - **E) Incorreta.** Ambas residem na memória RAM gerenciada pelo interpretador Python.
 >
-> **Gabarito: E**
+> **Gabarito: B**
 
 ---
+
 ### Teste 075
-**(FGV – TJ-AP – Analista Judiciário - Banco de Dados – 2023)**
-No contexto do C#, a lista de símbolos formada somente por 
-operadores de comparação válidos é:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Considere o seguinte trecho de código em Python 3:  
 
-* **A)** !=     >      <>     =
-* **B)** <>     !=     ===    ==
-* **C)** ==     =      >=     <>
-* **D)** ===    <>     >=     =
-* **E)** >=     <=     !=     ==
+```python
+dados = [1, 2, 3, 4, 5, 6]
+resultado = [x * 2 for x in dados if x % 2 == 0]
+```
+
+Após a execução do código acima, o valor da variável `resultado` será:
+
+* **A)** `[2, 4, 6, 8, 10, 12]`
+* **B)** `[4, 8, 12]`
+* **C)** `[2, 6, 10]`
+* **D)** `[1, 2, 3]`
+* **E)** `[8, 12]`
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - A expressão `[x * 2 for x in dados if x % 2 == 0]` utiliza *List Comprehension*:
+>   1. O filtro `if x % 2 == 0` seleciona os números pares de `dados`: $2, 4, 6$.
+>   2. A expressão `x * 2` multiplica cada número selecionado por 2:
+>      - $2 \times 2 = 4$
+>      - $4 \times 2 = 8$
+>      - $6 \times 2 = 12$
+>   3. A lista final resultante é `[4, 8, 12]`.
 >
-> **Gabarito: C**
+> **Gabarito: B**
 
 ---
+
 ## 5. Tabela Comparativa Sintética entre as Linguagens
 
 | Critério | Java | JavaScript (Node.js) | Python |

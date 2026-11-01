@@ -77,52 +77,30 @@ flowchart TD
 ---
 
 ### Teste 495
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Considerando a legislação aplicável a licitações de bens e serviços 
-de Tecnologia da Informação e Comunicação (TIC), analise as 
-afirmativas a seguir. 
-I. Um acordo de nível de serviço (ANS), segundo a ITIL v4, é um 
-acordo documentado entre um provedor de serviços de TIC e 
-um cliente que define os serviços a serem prestados e o nível 
-de qualidade que o provedor deve se comprometer a cumprir 
-na prestação destes serviços. Em documentos da fase interna 
-de processos licitatórios para a contratação de Centrais de 
-Serviços ( Service Desk ), como Estudos Técnicos Preliminares 
-ou Termos de Referência, é esperado encontrar requisitos da 
-solução de TIC no formato de ANS. 
-II. Na fase interna de licitações de bens e serviços de TIC no 
-poder público, a adoção da Lei 14.133/2021 e da IN SGD/ME 
-nº 94/2022 são mandatórias. Além destes documentos, a 
-equipe técnica responsável deve adotar princípios 
-orientadores e boas práticas de gerenciamento de serviços de 
-TIC. Para isto, a lei brasileira exige que os órgãos públicos 
-mantenham servidores capacitados, exclusivamente, nesta 
-metodologia ITIL v4 de gerenciamento de serviços de TIC. 
-III. Segundo a IN SGD/ME nº 94/2022, é vedada a contratação de 
-soluções de autenticação em aplicações destinadas a serviços 
-públicos digitais, salvo nos casos em que o órgão ou entidade 
-tenha obtido autorização prévia pelo Órgão Central do SISP. 
-Está correto o que se afirma em
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+**Enunciado:** Em conformidade com a Lei nº 14.133/2021 e as boas práticas de governança de contratações públicas de TIC, os processos de compra de soluções tecnológicas devem observar estrito alinhamento ao planejamento prévio institucional. A respeito dos instrumentos de planejamento, assinale a afirmativa correta:  
 
-* **A)** I, apenas.
-* **B)** II, apenas.
-* **C)** I e II, apenas.
-* **D)** I e III, apenas.
-* **E)** II e III, apenas.
+* **A)** O Plano de Contratações Anual (PCA) substitui integralmente a necessidade de instauração de processos licitatórios individuais, autorizando a contratação verbal direta.
+* **B)** A contratação de soluções de TIC prescinde de compatibilidade com o Plano Diretor de Tecnologia da Informação (PDTI), bastando o requerimento informal do presidente do órgão.
+* **C)** O Plano Diretor de TIC (PDTI) é o instrumento plurianual de diagnóstico, planejamento e gestão estratégica de TI, ao qual devem estar alinhadas as contratações consolidadas no Plano de Contratações Anual (PCA).
+* **D)** A elaboração do PCA é facultativa para órgãos que possuam menos de 10.000 servidores, devendo suas compras de tecnologia ser executadas exclusivamente por adiantamento de numerário.
+* **E)** As soluções de TIC voltadas à modernização de auditorias fiscais podem ser adquiridas sem qualquer previsão no PDTI, desde que justificadas após o término do contrato.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: D**
+> - **A)** Incorreta. O PCA consolida o planejamento anual das compras para fins orçamentários e de transparência, mas cada contratação segue seu devido processo administrativo licitatório ou de contratação direta.
+> - **B)** Incorreta. O alinhamento com o PDTI e com o PEI (Planejamento Estratégico Institucional) é requisito mandatório de governança e economicidade.
+> - **C)** **Correta.** O PDTI mapeia a visão estratégica plurianual de TIC, e o PCA operacionaliza o cronograma anual de contratações necessárias para viabilizar as metas institucionais.
+> - **D)** Incorreta. A exigência de planejamento anual de contratações aplica-se aos órgãos e entidades no âmbito do sistema licitatório, sem isenção por número de servidores.
+> - **E)** Incorreta. O planejamento é prévio (*ex ante*), sendo irregular a aquisição sem previsão ou fundamentação de compatibilidade tempestiva.
+> 
+> **Gabarito: C**
 
 ---
+
 ## 1.2 Vedações Expressas e Jurisprudência dos Tribunais de Contas
 
 1. **Vedação à Remuneração por Homem-Hora Puro (Súmula nº 269 do TCU):**  
@@ -335,33 +313,30 @@ flowchart TD
 ---
 
 ### Teste 499
-**(FCC – TRT-16 – Analista Judiciário - Tecnologia da Informação – 2014)**
-O Capítulo II da Instrução Normativa MP/SLTI n o 04, de 12 de novembro de 2010, está divido em 3 seções que contemplam 
-todo o procedimento para execução das fases de Planejamento da Contratação, Seleção de Fornecedor e Gerenciamento do 
-Contrato. Na Seção II do capítulo II, que trata da Seleção de Fornecedor, afirma-se que
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+**Enunciado:** Determinada Secretaria Estadual de Fazenda identificou a necessidade premente de modernizar seu ecossistema de detecção de fraudes fiscais complexas por meio de inteligência artificial generativa de ponta. No entanto, após realizar estudos iniciais, a equipe técnica concluiu que a Administração não possui conhecimento suficiente para redigir as especificações técnicas definitivas da solução, necessitando dialogar amplamente com o mercado tecnológico para avaliar os modelos algorítmicos, custos e arquiteturas disponíveis antes de receber as propostas finais. Nos termos estritos da Lei nº 14.133/2021, a modalidade de licitação cabível para esse cenário é o:  
 
-* **A)** a fase de Seleção do Fornecedor se encerrará com a assinatura do contrato e com a nomeação do Gestor do Contrato.
-* **B)** caberá exclusivamente à Área Jurídica apoiar tecnicamente o pregoeiro ou a Comissão de Licitação na análise e 
-julgamento das propostas e dos recursos apresentados pelos licitantes.
-* **C)** caberá exclusivamente à Área de Planejamento e Contratação apoiar tecnicamente o pregoeiro ou a Comissão de 
-Licitação na resposta aos questionamentos ou às impugnações dos licitantes.
-* **D)** caberá à Área de Licitações conduzir as etapas da fase de Seleção do Fornecedor.
-* **E)** caberá à Área de Licitações analisar as sugestões feitas pela área de TI para o Termo de Referência ou Projeto Básico e 
-demais documentos.
+* **A)** Pregão Presencial.
+* **B)** Diálogo Competitivo.
+* **C)** Concurso Artístico.
+* **D)** Leilão Eletrônico.
+* **E)** Credenciamento Automático.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: D**
+> - **A)** Incorreta. O pregão presencial é exceção na Lei nº 14.133/2021 (a regra é a forma eletrônica) e é restrito a bens e serviços comuns, sendo inviável para situações em que a administração sequer consegue especificar o objeto sem diálogo prévio com o mercado.
+> - **B)** **Correta.** O Diálogo Competitivo (Art. 32 da Lei nº 14.133/2021) foi introduzido exatamente para contratações que envolvem inovação tecnológica ou técnica, impossibilidade de a administração definir com precisão suficiente as especificações técnicas da solução, ou necessidade de definir a melhor modelagem da contratação através de diálogo prévio com licitantes previamente selecionados.
+> - **C)** Incorreta. O Concurso destina-se à escolha de trabalho técnico, científico ou artístico para concessão de prêmio ou remuneração.
+> - **D)** Incorreta. O Leilão é modalidade destinada à alienação (venda) de bens públicos.
+> - **E)** Incorreta. Credenciamento é um procedimento auxiliar de contratação direta, e não uma modalidade licitatória competitiva para desenvolvimento de soluções tecnológicas complexas.
+> 
+> **Gabarito: B**
 
 ---
+
 ## 3.2 Hipóteses de Contratação Direta em TIC (Inexigibilidade vs. Dispensa)
 
 | Dimensão | Inexigibilidade de Licitação (Art. 74) | Dispensa de Licitação (Art. 75) |
@@ -377,34 +352,30 @@ demais documentos.
 ---
 
 ### Teste 500
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-A Lei nº 14.133/2021 define as funções dos Tribunais de Contas no 
-contexto das normas que regem as licitações e contratos 
-administrativos no Brasil. 
-Assinale a opção que indica uma função dos Tribunais de Contas 
-constante na Lei nº 14.133/2021.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+**Enunciado:** A Lei nº 14.133/2021 disciplina as hipóteses de contratação direta em seus artigos 74 (Inexigibilidade) e 75 (Dispensa). Em matéria de contratação de soluções de TIC na Administração Pública, assinale a opção que descreve uma hipótese legítima de Inexigibilidade de licitação:  
 
-* **A)** Julgar documentos relativos às licitações.
-* **B)** Promover gestão por competências.
-* **C)** Frustrar a competitividade em licitações com a participação de 
-cooperativas.
-* **D)** Estabelecer tratamento igualitário entre empresas brasileiras 
-e estrangeiras.
-* **E)** Promover congressos sobre contratações públicas.
+* **A)** Aquisição de computadores padrão para secretarias administrativas, com base unicamente na alegação de conveniência de prazo.
+* **B)** Contratação de empresa para suporte técnico rotineiro e atendimento de help desk de primeiro nível em informática.
+* **C)** Aquisição de materiais e cabos de rede de baixo valor financeiro que se enquadrem no limite de pequenos serviços.
+* **D)** Contratação de serviços técnicos especializados de natureza predominantemente intelectual com profissionais ou empresas de notória especialização para perícia forense digital de altíssima complexidade e singularidade.
+* **E)** Restabelecimento emergencial de infraestrutura de refrigeração do data center após incêndio acidental.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
->
-> **Gabarito: E**
+> - **A)** Incorreta. Computadores comuns são bens comuns de TIC e exigem licitação, preferencialmente na modalidade Pregão Eletrônico.
+> - **B)** Incorreta. Suporte rotineiro de help desk é serviço comum contínuo, sem singularidade ou natureza predominantemente intelectual que justifique inexigibilidade.
+> - **C)** Incorreta. Compras de pequeno valor constituem hipótese de Dispensa de Licitação em razão do valor (Art. 75, II).
+> - **D)** **Correta.** Conforme o Art. 74, III, da Lei nº 14.133/2021, é inexigível a licitação para serviços técnicos especializados de natureza predominantemente intelectual prestados por profissional ou empresa de notória especialização, vedada a inexigibilidade para serviços de publicidade e divulgação.
+> - **E)** Incorreta. Contratação decorrente de emergência ou calamidade pública constitui hipótese de Dispensa de Licitação (Art. 75, VIII).
+> 
+> **Gabarito: D**
 
 ---
+
 ## 4. Gestão e Fiscalização de Contratos de TIC
 
 ---
@@ -436,34 +407,30 @@ flowchart TD
 ---
 
 ### Teste 501
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-A Lei nº 14.133/2021 define as funções dos Tribunais de Contas no 
-contexto das normas que regem as licitações e contratos 
-administrativos no Brasil. 
-Assinale a opção que indica uma função dos Tribunais de Contas 
-constante na Lei nº 14.133/2021.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+**Enunciado:** Em relação à gestão e fiscalização de contratos de prestação de serviços de Tecnologia da Informação na Lei nº 14.133/2021, a Administração deve designar servidores com papéis bem segregados. Assinale a alternativa que descreve com precisão a competência do Fiscal Técnico do contrato de TIC:  
 
-* **A)** Julgar documentos relativos às licitações.
-* **B)** Promover gestão por competências.
-* **C)** Frustrar a competitividade em licitações com a participação de 
-cooperativas.
-* **D)** Estabelecer tratamento igualitário entre empresas brasileiras 
-e estrangeiras.
-* **E)** Promover congressos sobre contratações públicas.
+* **A)** Conferir a regularidade trabalhista e o recolhimento das guias de FGTS e INSS dos empregados terceirizados alocados na empresa.
+* **B)** Avaliar e atestar tecnicamente se os sistemas desenvolvidos ou serviços de infraestrutura atendem aos requisitos arquiteturais, padrões técnicos de codificação e níveis de serviço fixados no IMR.
+* **C)** Formalizar administrativamente aditivos de prorrogação contratual e aplicar penalidades financeiras de impedimento de licitar.
+* **D)** Assinar o contrato inicial em substituição ao Presidente do Tribunal de Contas.
+* **E)** Realizar a mediação jurídica em litígios judiciais trabalhistas perante o Tribunal Regional do Trabalho.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
->
-> **Gabarito: E**
+> - **A)** Incorreta. A conferência de encargos sociais, trabalhistas e previdenciários compete ao Fiscal Administrativo.
+> - **B)** **Correta.** O Fiscal Técnico de TIC é o responsável pela verificação da conformidade técnica do objeto entregue, analisando artefatos, arquitetura, testes e o cumprimento dos níveis acordados de serviço (IMR).
+> - **C)** Incorreta. A coordenação administrativa, termos aditivos e proposição formal de sanções são atribuições do Gestor do Contrato e da autoridade competente.
+> - **D)** Incorreta. A assinatura do contrato é atribuição da autoridade máxima do órgão contratante.
+> - **E)** Incorreta. Representação judicial compete à Procuradoria Jurídica do órgão.
+> 
+> **Gabarito: B**
 
 ---
+
 ## 4.2 Instrumento de Medição de Resultado (IMR), SLA e Glosas
 
 O **IMR** (*Instrumento de Medição de Resultado*) é o mecanismo formal que vincula o pagamento mensal da fatura ao desempenho e qualidade efetivamente entregues:
@@ -479,34 +446,30 @@ O **IMR** (*Instrumento de Medição de Resultado*) é o mecanismo formal que vi
 ---
 
 ### Teste 502
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-A Lei nº 14.133/2021 define as funções dos Tribunais de Contas no 
-contexto das normas que regem as licitações e contratos 
-administrativos no Brasil. 
-Assinale a opção que indica uma função dos Tribunais de Contas 
-constante na Lei nº 14.133/2021.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+**Enunciado:** Em um contrato de prestação de serviços de TIC para manutenção de portais governamentais, o Termo de Referência fixou um Instrumento de Medição de Resultado (IMR) contendo como indicador de nível de serviço (SLA) a meta mensal de disponibilidade mínima do portal em 99,8%. Durante a fiscalização do terceiro mês, o Fiscal Técnico constatou, por meio de ferramentas automatizadas de monitoramento, que o portal permaneceu indisponível por 18 horas ininterruptas em horário comercial, atingindo apenas 97,5% de disponibilidade naquele ciclo. Diante do descumprimento da meta de SLA estabelecida no IMR, o procedimento contratual cabível consiste em:  
 
-* **A)** Julgar documentos relativos às licitações.
-* **B)** Promover gestão por competências.
-* **C)** Frustrar a competitividade em licitações com a participação de 
-cooperativas.
-* **D)** Estabelecer tratamento igualitário entre empresas brasileiras 
-e estrangeiras.
-* **E)** Promover congressos sobre contratações públicas.
+* **A)** Efetuar o pagamento integral do valor da fatura sem qualquer desconto e indenizar a empresa pela instabilidade gerada.
+* **B)** Aplicar a respectiva glosa financeira diretamente no valor devido na fatura mensal proporcionalmente à faixa de penalidade fixada no IMR, sem prejuízo da abertura de procedimento para aplicação de sanções administrativas cabíveis em caso de reiteração.
+* **C)** Cancelar sumariamente todos os contratos de TIC em vigor em todo o Estado e proibir a internet nos órgãos públicos.
+* **D)** Substituir imediatamente o Fiscal Técnico por um funcionário indicado pelo próprio provedor inadimplente.
+* **E)** Exigir que a contratada compense o tempo de queda aumentando a velocidade da internet residencial dos servidores da Secretaria.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
->
-> **Gabarito: E**
+> - **A)** Incorreta. O pagamento integral sem abatimento por serviço defeituoso ou abaixo do SLA configuraria liquidação irregular de despesa pública e dano ao erário.
+> - **B)** **Correta.** O Instrumento de Medição de Resultado (IMR) serve justamente para operacionalizar as glosas financeiras (retenções/descontos no valor faturado) correspondentes ao não alcance dos níveis mínimos de serviço pactuados, garantindo que o órgão público pague apenas pelo serviço efetivamente prestado com a qualidade exigida, cabendo ainda advertência ou multa em caso de reiteração de falhas graves.
+> - **C)** Incorreta. Solução desproporcional e ilegal que violaria o interesse público e a continuidade dos serviços.
+> - **D)** Incorreta. O fiscal técnico é agente público independente e sua substituição para favorecer a contratada configuraria improbidade administrativa e grave infração funcional.
+> - **E)** Incorreta. Não existe previsão de compensação pessoal a servidores; o contrato vincula a pessoa jurídica contratante e as compensações ocorrem na esfera econômico-financeira e técnica da avença.
+> 
+> **Gabarito: B**
 
 ---
+
 ## 4.3 Recebimento Provisório e Recebimento Definitivo
 
 A Lei nº 14.133/2021 estabelece dois momentos formais e inconfundíveis para o aceite do objeto em TIC:
@@ -522,63 +485,57 @@ A Lei nº 14.133/2021 estabelece dois momentos formais e inconfundíveis para o 
 ---
 
 ### Teste 503
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-A Lei nº 14.133/2021 define as funções dos Tribunais de Contas no 
-contexto das normas que regem as licitações e contratos 
-administrativos no Brasil. 
-Assinale a opção que indica uma função dos Tribunais de Contas 
-constante na Lei nº 14.133/2021.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+**Enunciado:** De acordo com as disposições da Lei nº 14.133/2021 sobre a fiscalização dos contratos administrativos e a governança de contratações de TIC, os atos formais de atesto e aceite do objeto contratado dividem-se em Recebimento Provisório e Recebimento Definitivo. A respeito desses instrumentos, assinale a afirmativa correta:  
 
-* **A)** Julgar documentos relativos às licitações.
-* **B)** Promover gestão por competências.
-* **C)** Frustrar a competitividade em licitações com a participação de 
-cooperativas.
-* **D)** Estabelecer tratamento igualitário entre empresas brasileiras 
-e estrangeiras.
-* **E)** Promover congressos sobre contratações públicas.
+* **A)** O Recebimento Definitivo é realizado pelo fornecedor privado no momento do embarque dos servidores no centro de distribuição da fábrica.
+* **B)** O Recebimento Provisório é realizado pelos fiscais técnico, administrativo e setorial mediante termo detalhado.
+* **C)** O Recebimento Definitivo dispensa qualquer teste de homologação ou verificação de conformidade com os níveis mínimos de serviço estabelecidos no IMR.
+* **D)** O Recebimento Provisório transfere em definitivo toda a responsabilidade jurídica e financeira à Administração, vedando a aplicação de qualquer glosa posterior.
+* **E)** A Lei nº 14.133/2021 proibiu expressamente a figura do recebimento provisório em contratos de TIC para conferir maior velocidade às compras públicas.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
->
-> **Gabarito: E**
+> - **A)** Incorreta. Ambos os recebimentos são atos administrativos privativos de agentes públicos da Administração contratante, jamais do fornecedor contratado.
+> - **B)** **Correta.** O Recebimento Provisório (Art. 140 da Lei 14.133/2021) é formalizado pelos fiscais do contrato assim que o fornecedor entrega o produto ou conclui a prestação do serviço, servindo para registrar o recebimento físico/lógico e dar início ao prazo de homologação, inspeção técnica e aferição das metas do IMR.
+> - **C)** Incorreta. O Recebimento Definitivo ocorre justamente após a verificação de que o objeto atende a todas as exigências do Termo de Referência, incluindo homologação e avaliação dos níveis de serviço do IMR.
+> - **D)** Incorreta. O recebimento provisório tem caráter transitório; eventuais defeitos, falhas ou descumprimento de SLAs identificados na fase de homologação acarretam rejeição do objeto ou glosas financeiras antes do aceite definitivo.
+> - **E)** Incorreta. O recebimento provisório é mantido e expressamente regulamentado pela Lei nº 14.133/2021 para serviços e compras.
+> 
+> **Gabarito: B**
 
 ---
+
+---
+
 ### Teste 504
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-A Lei nº 14.133/2021 define as funções dos Tribunais de Contas no 
-contexto das normas que regem as licitações e contratos 
-administrativos no Brasil. 
-Assinale a opção que indica uma função dos Tribunais de Contas 
-constante na Lei nº 14.133/2021.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+**Enunciado:** No âmbito dos contratos de prestação de serviços e fornecimento de software e infraestrutura de TIC regidos pela Lei nº 14.133/2021, o processo de liquidação e pagamento depende dos atos formais de recebimento do objeto. Acerca do recebimento provisório e definitivo, assinale a afirmativa correta:  
 
-* **A)** Julgar documentos relativos às licitações.
-* **B)** Promover gestão por competências.
-* **C)** Frustrar a competitividade em licitações com a participação de 
-cooperativas.
-* **D)** Estabelecer tratamento igualitário entre empresas brasileiras 
-e estrangeiras.
-* **E)** Promover congressos sobre contratações públicas.
+* **A)** O recebimento provisório transfere a propriedade definitiva do código-fonte para a contratada e desonera a empresa de qualquer garantia técnica posterior.
+* **B)** O recebimento provisório é realizado pelos fiscais do contrato para efeito de posterior verificação da conformidade dos serviços com as exigências contratuais, enquanto o recebimento definitivo é realizado pelo gestor do contrato ou comissão mediante termo detalhado que comprove o atendimento integral das exigências.
+* **C)** Em contratos de soluções de TIC é vedada a emissão de recebimento provisório, ocorrendo a emissão imediata de nota fiscal e pagamento à vista antes da entrega do software.
+* **D)** O recebimento definitivo pode ser firmado tacitamente pelo fornecedor caso a Administração não responda em 24 horas, vedada qualquer aplicação posterior de glosas contratuais.
+* **E)** O recebimento definitivo dispensa a realização de testes de homologação de sistemas de auditoria digital.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
->
-> **Gabarito: E**
+> - **A)** Incorreta. O recebimento provisório apenas atesta a entrega física dos bens ou conclusão aparente do serviço para que se iniciem os testes de conformidade.
+> - **B)** **Correta.** Conforme o Art. 140 da Lei nº 14.133/2021, o objeto é recebido provisoriamente pelo responsável por seu acompanhamento e fiscalização, e definitivamente por servidor ou comissão designada pela autoridade competente, mediante termo detalhado que comprove o atendimento das exigências contratuais.
+> - **C)** Incorreta. O recebimento provisório é etapa obrigatória do procedimento de controle em serviços e compras de tecnologia.
+> - **D)** Incorreta. Não há recebimento definitivo tácito por parte da empresa; o ato administrativo de atesto definitivo exige manifestação expressa e motivada da Administração.
+> - **E)** Incorreta. O recebimento definitivo pressupõe justamente que os testes de homologação tenham sido integralmente realizados e aprovados.
+> 
+> **Gabarito: B**
 
 ---
+
 ## 6. Fontes Recomendadas na Internet
 
 * [Lei nº 14.133/2021 (Nova Lei de Licitações e Contratos)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm) - Texto oficial que disciplina as licitações e contratos administrativos em âmbito nacional.

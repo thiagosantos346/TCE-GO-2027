@@ -130,38 +130,36 @@ flowchart TD
 ---
 
 ### Teste 366
-**(FGV – TRT – Analista Judiciário - Suporte e Infraestrutura de TI – 2022)**
-Lucas é um trader profissional que trabalha em uma corretora de 
-valores. Ele efetua muitas operações durante o período em que a 
-bolsa negocia seus ativos. Após fazer uma revisão em suas 
-operações do dia, não validou, como sendo efetuadas por ele, 
-algumas das operações que obtiveram prejuízo. Lucas, então, 
-entrou em contato com a corretora e esta demonstrou, a partir 
-de registros de auditoria e garantia de identidade, que as 
-operações em questão realmente foram executadas por ele.  
-Para que a corretora prove que foi Lucas qu em realmente 
-executou as operações, ela deve fazer uso do conceito de 
-segurança chamado:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+A criptografia simétrica (ou de chave secreta) fundamenta-se no emprego de uma mesma chave compartilhada para as operações de cifragem e decifragem de mensagens.
 
-* **A)** confidencialidade;
-* **B)** autenticidade;
-* **C)** integridade;
-* **D)** disponibilidade;
-* **E)** irretratabilidade.
+A respeito das características operacionais e dos desafios arquiteturais da criptografia simétrica, assinale a afirmativa correta:
+
+* **A)** A criptografia simétrica possui velocidade de processamento computacional extremamente lenta em comparação aos algoritmos assimétricos, sendo inviável para cifrar volumes massivos de dados em trânsito garantindo a observância dos protocolos de governança e interoperabilidade vigentes.
+* **B)** Em uma rede corporativa composta por $N$ usuários que necessitam comunicar-se de modo estritamente privado em pares bidirecionais utilizando criptografia puramente simétrica, o número total de chaves secretas distintas que precisam ser geradas e gerenciadas com segurança é dado por:
+$$\frac{N(N - 1)}{2}$$
+* **C)** A criptografia simétrica garante nativamente o princípio do Não Repúdio (irretratabilidade), visto que apenas o emissor detém a chave secreta.
+* **D)** O algoritmo RSA é o padrão simétrico mais adotado pelo governo federal para proteção de discos rígidos em repouso.
+* **E)** Chaves simétricas dispensam qualquer canal seguro prévio de compartilhamento, podendo ser transmitidas em texto claro e aberto pela internet sem riscos.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: A**
+> - **A)** Incorreta. A criptografia simétrica (como o AES) é ordens de grandeza **mais rápida** e eficiente em consumo de CPU do que a criptografia assimétrica, possuindo aceleração nativa por instruções de hardware nos processadores modernos (instruções Intel/AMD AES-NI).
+> - **B)** **CORRETA.** O célebre problema da **distribuição e escalabilidade de chaves simétricas**:
+>   - Se cada par de comunicantes precisa de uma chave exclusiva e sigilosa para que terceiros não possam decifrar o diálogo, o número de canais de comunicação é a combinação simples de $N$ tomados 2 a 2:
+>     $$C_{N, 2} = \frac{N!}{2!(N-2)!} = \frac{N(N - 1)}{2}$$
+>   - Para 1.000 usuários em uma organização, seriam necessárias $\frac{1000 \times 999}{2} = 499.500$ chaves secretas distribuídas previamente de modo seguro, tornando a gestão de chaves simétricas intransponível sem o auxílio de criptografia assimétrica.
+> - **C)** Incorreta. Como a chave simétrica é **compartilhada** entre emissor e receptor, nenhum dos dois pode provar a um terceiro quem efetivamente cifrou o pacote (ausência de não repúdio).
+> - **D)** Incorreta. O RSA é um algoritmo **assimétrico** (chaves pública e privada).
+> - **E)** Incorreta. Se a chave simétrica for interceptada em trânsito, a confidencialidade de toda a comunicação é instantaneamente destruída.
+> 
+> **Gabarito: B**
 
 ---
+
 ### Teste 367
 **(FCC – TRT-23 – Analista Judiciário (TI) – 2016)**  
 O Advanced Encryption Standard − AES é largamente utilizado como recurso de criptografia para os sistemas computacionais atuais. O AES
@@ -187,33 +185,32 @@ O Advanced Encryption Standard − AES é largamente utilizado como recurso de c
 ---
 
 ### Teste 368
-**(FGV – TJ-RR – Analista Judiciário - Suporte e Infraestrutura de TI – 2024)**
-Cifra de fluxo. 
-(   ) 3DES. 
-(   ) RC4. 
-(   ) AES. 
-(   ) SEAL. 
-A associação correta é
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Em relação aos algoritmos e modos de operação da criptografia simétrica, considere o cenário em que uma organização pública necessita proteger o armazenamento e a transmissão de grandes volumes de informações sigilosas.
 
-* **A)** 1 – 1 – 2 – 1.
-* **B)** 2 – 1 – 2 – 2.
-* **C)** 1 – 2 – 1 – 2.
-* **D)** 2 – 2 – 1 – 1.
-* **E)** 2 – 2 – 1 – 2.
+Assinale a afirmativa correta sobre o tema:
+
+* **A)** O modo de operação ECB (*Electronic Codebook*) é o mais seguro e recomendado para cifragem de bancos de dados massivos, pois realiza o encadeamento de blocos via XOR com um vetor de inicialização.
+* **B)** O algoritmo AES (*Advanced Encryption Standard*) é uma cifra de bloco que opera exclusivamente com chaves de 64 bits e blocos de 56 bits, tendo sido considerado obsoleto devido a ataques de força bruta.
+* **C)** Para que um grupo de 20 analistas se comunique de forma sigilosa utilizando criptografia puramente simétrica, de modo que cada par de analistas possua uma chave exclusiva e compartilhada apenas entre si, são necessárias 190 chaves secretas distintas.
+* **D)** As cifras de fluxo (*stream ciphers*) dividem a mensagem em blocos de 256 bits e processam cada bloco individualmente através de 14 rodadas de substituição.
+* **E)** O modo de operação GCM (*Galois/Counter Mode*) foi descontinuado pelos padrões modernos da IETF por não suportar criptografia autenticada com dados associados (AEAD).
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: D**
+> - **A)** Incorreta. O modo ECB não realiza encadeamento nem utiliza vetor de inicialização (quem faz isso é o CBC). No ECB, blocos idênticos geram textos cifrados idênticos, preservando padrões visuais e contextuais dos dados.
+> - **B)** Incorreta. Quem operava com blocos de 64 bits e chave de 56 bits era o padrão obsoleto DES. O AES opera com blocos de 128 bits e suporta chaves de 128, 192 e 256 bits.
+> - **C)** Correta. O cálculo de chaves simétricas independentes para $N$ usuários é dado por $K = \frac{N(N-1)}{2}$. Para $N = 20$: $K = \frac{20 \times 19}{2} = \frac{380}{2} = 190$ chaves secretas distintas.
+> - **D)** Incorreta. Algoritmos que dividem os dados em blocos de tamanho fixo são denominados cifras de bloco (*block ciphers*). Cifras de fluxo operam continuamente bit a bit ou byte a byte.
+> - **E)** Incorreta. O modo GCM é o algoritmo de ouro recomendado em protocolos modernos como TLS 1.3 justamente por prover AEAD (*Authenticated Encryption with Associated Data*).
+> 
+> **Gabarito: C**
 
 ---
+
 ## 2. Criptografia Assimétrica (Chaves Públicas)
 
 ### 2.1 Princípios Matemáticos e as Duas Operações Fundamentais
@@ -347,70 +344,63 @@ Uma função de dispersão criptográfica (função hash) $h = H(M)$ é um algor
 ---
 
 ### Teste 370
-**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
-Zuul é um sistema de controle de projetos que atua como um 
-sistema CI/CD com foco em testar o estado futuro dos repositórios 
-de código. Zuul foi organizado em torno do conceito de
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Funções de resumo criptográfico (*hashes*) desempenham um papel central em protocolos de segurança, integridade de arquivos e assinaturas digitais.
 
-* **A)** máquinas virtuais.
-* **B)** nodepool.
-* **C)** contêiner.
-* **D)** clusteres.
-* **E)** pipeline. 
+A respeito das propriedades matemáticas e características das funções hash, assinale a afirmativa correta:
 
-TRIBUNAL REGIONAL DO TRABALHO DA 24ª REGIÃO (TRT-24) – REAPLICAÇÃO FGV CONHECIMENTO  
+* **A)** O algoritmo MD5 gera resumos de 512 bits e continua sendo o padrão criptográfico prioritário recomendado pela ICP-Brasil para emissão de certidões eletrônicas.
+* **B)** O efeito avalanche (*avalanche effect*) é uma vulnerabilidade indesejável em que a alteração de poucos bits no texto original não provoca nenhuma mudança perceptível no resumo de saída.
+* **C)** A propriedade da unidirecionalidade (*pre-image resistance*) assegura que, dado um resumo hash $h$, seja computacionalmente inviável recuperar ou deduzir a mensagem de entrada $M$ que o gerou.
+* **D)** As funções hash geram resumos criptográficos cujo tamanho em bytes é diretamente proporcional e idêntico ao tamanho do arquivo de entrada processado.
+* **E)** A resistência a colisões forte significa que é impossível que duas mensagens distintas venham a ter o mesmo hash em qualquer cenário matemático teórico.
 
-
-Questão Discursiva  
-Considere que Bob e Alice são analistas do Poder Judiciário que trabalham na área de Tecnologia da Informação. Diante da necessidade de 
-trocarem mensagens confidenciais, com garantias de autenticidade e segurança, eles optaram por utilizar criptossistemas de chave pública.  
-Com base nesse cenário, desenvolva, de forma fundamentada, os itens a seguir. 
-A) Sabendo que um esquema de encriptação baseado em chave pública possui cinco elementos, identifique e explique cada um desses 
-cinco elementos, destacando suas funções no processo de encriptação e decriptação de mensagens. 
-B) Considerando que Bob e Alice necessitam realizar uma troca segura de mensagens utilizando criptografia assimétrica, descreva 
-tecnicamente as etapas essenciais envolvidas nesse processo. 
-TRIBUNAL REGIONAL DO TRABALHO DA 24ª REGIÃO (TRT-24) – REAPLICAÇÃO FGV CONHECIMENTO
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: D**
-
----
-### Teste 371
-**(FCC – TRT-6 – Analista Judiciário - Tecnologia da Informação – 2012)**
-A respeito de algoritmos criptográficos, é correto afirmar que
-
-* **A)** AES é um exemplo de criptografia de chave assimétrica.
-* **B)** SHA1 é um exemplo de algoritmo de criptografia com aplicações que não são criptográficas como, por exemplo, a 
-verificação de integridade de dados.
-* **C)** RSA é um exemplo de criptografia de chave simétrica.
-* **D)** DES é considerado mais seguro que AES, porque este último é suscetível a "ataques de força bruta".
-* **E)** AES é considerado mais seguro que DES, porque este último utiliza chaves assimétricas. 
-Caderno de Prova ’T20’, Tipo 001
-
-TRT6R-Anal.Jud-Tec.Informação-T20 13
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A)** Incorreta. O MD5 gera resumos de 128 bits e é considerado inseguro e vulnerável a colisões práticas, sendo expressamente banido pela ICP-Brasil. O padrão adotado é o SHA-256.
+> - **B)** Incorreta. O efeito avalanche é uma característica essencial e altamente desejável segundo a qual a menor modificação no texto de entrada altera dramaticamente cerca de 50% dos bits do hash de saída.
+> - **C)** Correta. A unidirecionalidade (*pre-image resistance*) define que a função opera em mão única: é simples calcular o resumo a partir do dado de entrada, mas computacionalmente inviável inverter o processo para recuperar a mensagem original a partir do hash.
+> - **D)** Incorreta. O comprimento da saída de uma função hash é fixo e pré-determinado pelo algoritmo (ex.: 256 bits no SHA-256), independentemente de a entrada conter 10 bytes ou 10 terabytes.
+> - **E)** Incorreta. Teoricamente, pelo Princípio da Casa dos Pombos, colisões sempre existem porque o domínio de entrada é infinito e a imagem de saída é finita. A propriedade de resistência assegura que encontrar tais colisões é computacionalmente inviável.
+> 
 > **Gabarito: C**
 
 ---
+
+### Teste 371
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+As funções de resumo criptográfico (*Cryptographic Hash Functions*) são primitivas matemáticas essenciais para verificação de integridade de dados e construção de assinaturas digitais.
+
+A respeito das propriedades de segurança exigidas de uma função hash criptográfica moderna (como as famílias SHA-2 e SHA-3) e da obsolescência dos algoritmos MD5 e SHA-1, assinale a afirmativa correta:
+
+* **A)** Uma função hash criptográfica segura deve ser facilmente reversível, permitindo reconstituir o texto original a partir do resumo hexadecimal gerado. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **B)** A **Resistência à Colisão Forte** (*Collision Resistance*) é a propriedade que torna computacionalmente inviável encontrar quaisquer duas mensagens distintas $M_1$ e $M_2$ ($M_1 \neq M_2$) tais que $Hash(M_1) = Hash(M_2)$; os algoritmos MD5 e SHA-1 são considerados criptograficamente vulneráveis e reprovados para novas aplicações governamentais justamente por terem sofrido ataques práticos comprovados de colisão.
+* **C)** O algoritmo SHA-256 produz resumos de tamanho variável dependendo do número de linhas do texto de entrada.
+* **D)** O Princípio da Casa dos Pombos garante matematicamente que é impossível haver colisões em funções hash de 128 bits.
+* **E)** O MD5 permanece como o padrão oficial e exclusivo recomendado pelo ITI para certificação de documentos na ICP-Brasil.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. Funções hash criptográficas são de sentido único (*One-Way Functions*); é matematicamente mandatório que seja computacionalmente inviável recuperar $M$ a partir de $Hash(M)$ (**Resistência à Pré-Imagem**).
+> - **B)** **CORRETA.** Propriedades formais mandatórias:
+>   - **Resistência à Pré-Imagem (Sentido Único):** Dado $h$, inviável achar $M$ tal que $H(M) = h$.
+>   - **Resistência à Segunda Pré-Imagem (Colisão Fraca):** Dado $M_1$, inviável achar $M_2 \neq M_1$ tal que $H(M_1) = H(M_2)$.
+>   - **Resistência à Colisão (Colisão Forte):** Inviável encontrar qualquer par arbitrário $(M_1, M_2)$ com o mesmo hash.
+>   - **Obsolescência:** O MD5 (colisões geradas em segundos desde 2004) e o SHA-1 (colisão gerada pela Google no ataque SHAttered em 2017) foram banidos para fins de assinatura digital e integridade estrita pela ICP-Brasil e NIST, adotando-se o SHA-2 (SHA-256, SHA-512) e SHA-3.
+> - **C)** Incorreta. O SHA-256 produz **sempre um resumo de comprimento fixo de 256 bits** (32 bytes / 64 caracteres hexadecimais), independentemente de a entrada ter 1 byte ou 10 Terabytes.
+> - **D)** Incorreta. Pelo Princípio da Casa dos Pombos (*Pigeonhole Principle*), como o domínio de mensagens de entrada é infinito e a imagem do hash é finita ($2^{128}$), colisões existem compulsoriamente; o objetivo do algoritmo seguro é torná-las impossíveis de serem encontradas em tempo computável.
+> - **E)** Incorreta. O MD5 é categoricamente proibido nas políticas de certificado da ICP-Brasil.
+> 
+> **Gabarito: B**
+
+---
+
 ## 4. Infraestrutura de Chaves Públicas e a ICP-Brasil
 
 ### 4.1 Estrutura Organizacional e Hierarquia Legal (MP nº 2.200-2/2001)
@@ -529,33 +519,32 @@ Com relação à Infraestrutura de Chaves Públicas brasileira, é correto afirm
 ---
 
 ### Teste 373
-**(FCC – TRT-23 – Analista Judiciário - Tecnologia da Informação – 2016)**
-De acordo com o teorema de Nyquist, a máxima taxa de transmissão de dados de um canal depende da largura de banda. 
-Assim, caso um canal tenha banda de 2.400 Hz, sem a presença de ruído e codificação binária, a máxima taxa de transmissão 
-de dados é, em bps (bits por segundo),
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Na gestão de uma infraestrutura PKI corporativa baseada no padrão X.509 v3, a verificação do ciclo de vida e validade dos certificados digitais apresentados por clientes e servidores é indispensável para impedir acessos não autorizados.
 
-* **A)** 56.000.
-* **B)** 4.800.
-* **C)** 1.200.
-* **D)** 2.400.
-* **E)** 9.600. 
-Caderno de Prova ’H08’, Tipo 001
+Sobre os campos do certificado X.509 v3 e os mecanismos de revogação de certificados, assinale a afirmativa correta:
 
-TRT23-An-Judiciário-Tecnol.Informação-H08 13
+* **A)** O protocolo OCSP (*Online Certificate Status Protocol*) exige que o cliente faça o download de um arquivo monolítico contendo a totalidade de todos os certificados já revogados pela AC desde sua fundação histórica.
+* **B)** A Lista de Certificados Revogados (LCR / CRL) é uma estrutura assinada periodicamente pela Autoridade Certificadora que relaciona os números de série dos certificados que foram cancelados ou revogados antes da data original de expiração.
+* **C)** O certificado X.509 v3 armazena a chave privada do titular no campo *Subject Public Key Info* para permitir a conferência pública de assinaturas por terceiros.
+* **D)** A data de expiração de um certificado digital é perpétua no padrão X.509, dependendo exclusivamente da solicitação manual de revogação pelo titular para deixar de operar.
+* **E)** Caso um certificado digital esteja presente na LCR da autoridade emissora, o sistema de controle de acesso deve considerá-lo plenamente confiável e válido até o término do ano corrente.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
->
-> **Gabarito: E**
+> - **A)** Incorreta. O mecanismo que exige o download da lista monolítica em lote é a LCR/CRL. O protocolo OCSP realiza consultas pontuais leves em tempo real sobre o número de série do certificado.
+> - **B)** Correta. A Lista de Certificados Revogados (LCR / CRL) é a estrutura digital assinada periodicamente pela Autoridade Certificadora que relaciona os números de série dos certificados revogados antes do termo regular de vigência.
+> - **C)** Incorreta. O campo *Subject Public Key Info* armazena exclusivamente a chave pública do titular. A chave privada jamais integra o certificado digital.
+> - **D)** Incorreta. Todo certificado X.509 v3 possui obrigatoriamente um período de validade delimitado nos campos *Not Before* e *Not After*.
+> - **E)** Incorreta. Se o certificado constar na LCR, significa que foi revogado e perdeu imediatamente sua validade jurídica e técnica, devendo ser sumariamente rejeitado pelo sistema.
+> 
+> **Gabarito: B**
 
 ---
+
 ### Teste 374
 **(FCC – TRT-24 – Analista Judiciário (TI) – 2017)**  
 Um Analista precisa escolher um Certificado de Assinatura Digital para ser utilizado na rede virtual privada da organização  onde trabalha e na assinatura de documentos com verificação da integridade das informações. Optou corretamente por um certificado do tipo A2, cuja
@@ -659,29 +648,38 @@ O TCE -PA está implementando um sistema de assinatura digital para garantir a a
 ---
 
 ### Teste 376
-**(FCC – TRT-14 – Analista Judiciário - Tecnologia da Informação – 2016)**
-Em um computador cujo barramento de endereço possui 30 linhas, a capacidade de armazenamento da memória RAM será de, 
-no máximo,
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Em processos de fiscalização e auditoria eletrônica de longo prazo, documentos digitais assinados devem manter sua auditabilidade e validade probatória ao longo de décadas, superando a eventual expiração de certificados ou descontinuação de algoritmos criptográficos.
 
-* **A)** 2 GB.
-* **B)** 1 GB.
-* **C)** 4 GB.
-* **D)** 8 GB.
-* **E)** 16 GB.
+Para atender a esses requisitos de preservação de longo prazo no ecossistema da ICP-Brasil, a tecnologia que atesta a data e hora oficiais brasileiras fornecidas pelo Observatório Nacional e os formatos de assinatura avançada recomendados para preservação temporal são:
+
+* **A)** O protocolo Telnet em conjunto com o formato TXT simples sem chaves.
+* **B)** A Autoridade de Carimbo do Tempo (ACT), que emite carimbos do tempo criptográficos atestando tempestividade de forma juridicamente válida; e os perfis de assinatura digital avançada de longo prazo **CAdES**, **XAdES** e **PAdES** (com extensões para preservação histórica, como CAdES-A e PAdES-LTV).
+* **C)** A gravação do relógio local do sistema operacional do computador do auditor no rodapé do documento em fonte Arial.
+* **D)** O formato DOC sem criptografia assinado via botão de macro do Microsoft Word 97.
+* **E)** O carimbo do tempo é emitido exclusivamente pela operadora local de telefonia móvel sem uso de criptografia assimétrica. considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: D**
+> - **A)** Incorreta. Telnet transmite dados em texto claro e TXT não provê assinatura digital.
+> - **B)** **CORRETA.** Normas e padrões do padrão ICP-Brasil e ETSI:
+>   - **Autoridade de Carimbo do Tempo (ACT):** Terceira parte confiável que recebe o hash do documento e anexa um carimbo temporal assinado digitalmente com a Hora Legal Brasileira (HLB auditada pelo Observatório Nacional), provando tempestividade irretratável (que o documento existia antes de determinado momento e antes de eventual revogação da chave).
+>   - **Padrões de Assinatura:**
+>     - **CAdES (CMS Advanced Electronic Signatures):** Para qualquer arquivo binário genérico.
+>     - **XAdES (XML Advanced Electronic Signatures):** Para documentos e notas fiscais em formato XML.
+>     - **PAdES (PDF Advanced Electronic Signatures):** Para documentos em formato PDF nativo.
+>   - Os perfis para longo prazo (*Long-Term Validation - LTV / perfis -A*) embutem as LCRs e respostas OCSP dentro da própria assinatura, garantindo validade mesmo após a expiração dos certificados dos emissores.
+> - **C)** Incorreta. O relógio local da estação de trabalho pode ser facilmente alterado pelo usuário, não tendo valor probatório legal.
+> - **D)** Incorreta. Macros de Word não possuem fé pública de ICP-Brasil.
+> - **E)** Incorreta. A ACT é uma entidade credenciada na ICP-Brasil auditada pelo ITI que utiliza assinatura digital criptográfica estrita.
+> 
+> **Gabarito: B**
 
 ---
+
 ## 6. Fontes Recomendadas na Internet
 
 #### 1. Legislação Oficial e Documentos Governamentais

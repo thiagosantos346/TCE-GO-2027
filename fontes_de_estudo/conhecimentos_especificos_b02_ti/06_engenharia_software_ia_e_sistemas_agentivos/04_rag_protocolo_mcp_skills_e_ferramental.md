@@ -94,57 +94,55 @@ Para viabilizar fluxos agentivos em bases de código de milhões de linhas:
 ---
 
 ### Teste 150
-**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-O RPM Package Manager é um sistema executado em várias 
-distribuições Linux e UNIX. 
-O conjunto completo de modos básicos de operação do RPM é
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+O mecanismo de autoatenção (*Self-Attention*) canônico da arquitetura Transformer calcula a relação entre todos os pares de tokens da sequência de entrada. Esse mecanismo acarreta, em termos de complexidade computacional teórica de tempo e memória em relação ao comprimento da sequência ($N$), uma taxa de crescimento:
 
-* **A)** consulta, atualização e instalação de pacotes.
-* **B)** instalação, atualização, criação e depuração de pacotes.
-* **C)** valoração, reinstalação, consulta e desinstalação de pacotes.
-* **D)** instalação, desinstalação, valoração, consulta, 
-monitoramento e depuração de pacotes.
-* **E)** criação, instalação, desinstalação, atualização, consulta e 
-verificação de pacotes.
+* **A)** Linear: $O(N)$
+* **B)** Logarítmica: $O(\log N)$
+* **C)** Quadrática: $O(N^2)$
+* **D)** Constante: $O(1)$
+* **E)** Exponencial: $O(2^N)$
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **A) Incorreta.** A atenção padrão não é linear em relação ao tamanho da sequência.
+> - **B) Incorreta.** A complexidade logarítmica é típica de buscas em árvores balanceadas.
+> - **C) Correta.** A matriz de atenção tradicional $QK^T$ compara cada um dos $N$ tokens contra todos os outros $N$ tokens da sequência, resultando em complexidade de tempo e memória estritamente quadrática $O(N^2)$. Esse crescimento exponencial impõe desafios severos de custo e latência para o processamento de repositórios massivos de código, motivando o uso de RAG e Prompt Caching.
+> - **D) Incorreta.** Atenção não pode ser calculada em tempo constante.
+> - **E) Incorreta.** O crescimento é polinomial de grau 2 ($N^2$), não exponencial.
 >
-> **Gabarito: E**
+> **Gabarito: C**
 
 ---
+
 ### Teste 151
-**(FCC – TRT-3 – Analista Judiciário - Tecnologia da Informação – 2015)**
-Uma das inovações introduzidas na distribuição Linux Red Hat é a disponibilização de aplicativos e programas em formato de 
-pacotes, o que facilita a instalação, se comparada ao processo original. Dentre os pacotes disponibilizados, o que fornece 
-recursos para o esquema de autenticação unificada é o
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No desenvolvimento assistido por agentes em repositórios corporativos de grande porte, a técnica de *Prompt Caching* (disponibilizada por provedores de LLMs avançados) proporciona economia expressiva de tempo e custo financeiro. O funcionamento e benefício central do *Prompt Caching* reside no fato de que:
 
-* **A)** SSL.
-* **B)** PAM.
-* **C)** AES.
-* **D)** PKI.
-* **E)** Crypt.
+* **A)** O modelo de linguagem armazena em disco o código-fonte gerado em linguagem binária pura.
+* **B)** Prefixos idênticos de prompts longos (como documentações do sistema, esquemas de bancos de dados e instruções de agentes) são mantidos em cache na memória de aceleração das GPUs dos servidores de inferência, permitindo processar requisições subsequentes com até 90% de desconto no custo de tokens e latência drasticamente reduzida.
+* **C)** O agente é proibido de realizar novas consultas de código durante 24 horas consecutivas.
+* **D)** Todos os tokens em cache são permanentemente destruídos caso o usuário feche a IDE.
+* **E)** O sistema passa a funcionar em modo offline sem consumo de memória primária.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A) Incorreta.** O cache de prompt armazena as chaves e valores (*KV Cache*) das camadas de atenção dos tokens previamente processados.
+> - **B) Correta.** O *Prompt Caching* evita o recálculo redundante dos estados de atenção para trechos de contexto fixos compartilhados entre múltiplas interações, barateando custos em até 90% e reduzindo o tempo até o primeiro token (*Time To First Token* - TTFT).
+> - **C) Incorreta.** O cache é revalidado e reutilizado continuamente em tempo real.
+> - **D) Incorreta.** O cache do servidor é mantido por tempo determinado (TTL) independentemente do cliente local.
+> - **E) Incorreta.** Modelos de ponta em nuvem continuam operando online.
 >
-> **Gabarito: A**
+> **Gabarito: B**
 
 ---
+
 ## 2. Retrieval-Augmented Generation (RAG) Aplicado a Bases de Código
 
 ### 2.1 Arquitetura e Pipeline de Ingestão de Código
@@ -214,140 +212,111 @@ Bases de código dependem criticamente de nomes literais exatos (como o nome de 
 ---
 
 ### Teste 152
-**(FCC – TRT-1 – Analista Judiciário - Tecnologia da Informação – 2014)**
-Na Arquitetura de Harvard a leitura de instruções e de alguns tipos de operandos pode ser realizada simultaneamente à 
-execução das instruções. Assim, enquanto uma instrução é executada, a instrução seguinte é lida. Esse processo é conhecido 
-como
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Uma instituição pública precisa capacitar um agente de IA para analisar e auditar a conformidade de novos softwares em relação a um gigantesco repositório corporativo que contém milhões de linhas de código e dezenas de manuais técnicos que sofrem atualizações diárias.
 
-* **A)** bufering
-.
-* **B)** dataflow
-.
-* **C)** pipelining
-.
-* **D)** processamento distribuído.
-* **E)** processamento vetorial.
+Para permitir que a IA consulte essas informações atualizadas com alta precisão e custo sustentável, mantendo a integridade semântica do código, a equipe deve adotar:  
+
+* **A)** O retreinamento completo (*Full Pre-training*) dos pesos de um modelo fundacional a cada nova alteração de commit no repositório Git.
+* **B)** Uma arquitetura de RAG (*Retrieval-Augmented Generation*), realizando o fracionamento (*chunking*) do código com base na Árvore de Sintaxe Abstrata (AST) para preservar blocos lógicos inteiros (como classes e funções), gerando embeddings armazenados em um banco vetorial para busca semântica em tempo de inferência.
+* **C)** A conversão de todos os arquivos de código-fonte em um único prompt contínuo de texto sem chunking, submetendo-o a modelos sem janela de contexto delimitada.
+* **D)** O particionamento arbitrário de código em blocos fixos de 10 linhas de texto, ignorando a estrutura sintática de métodos e classes, para maximizar o índice de acerto da busca léxica.
+* **E)** A técnica de *Fine-Tuning* supervisionado com exclusão de qualquer banco de dados vetorial, visto que embeddings numéricos são incapazes de representar proximidade semântica entre termos técnicos. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: A**
+> - **A)** Incorreta. O pré-treinamento completo de um modelo fundacional consome milhões de dólares e semanas de processamento em supercomputadores, sendo totalmente inviável para acomodar atualizações diárias de código.
+> - **B)** **CORRETA.** A arquitetura RAG viabiliza a atualização dinâmica e contínua do conhecimento factual sem retreino de pesos. O fatiamento estruturado com base na Árvore de Sintaxe Abstrata (AST) garante que classes e funções sejam preservadas em blocos lógicos coesos, produzindo embeddings representativos indexados em bancos vetoriais para busca por similaridade de cosseno.
+> - **C)** Incorreta. Submeter milhões de linhas em um único prompt ultrapassa a capacidade prática das janelas de contexto, gera custos financeiros inviáveis e sofre severa degradação posicional de atenção (*Lost in the Middle*).
+> - **D)** Incorreta. O fatiamento arbitrário por contagem de linhas quebra funções ao meio e desassocia assinaturas de parâmetros, destruindo a semântica do código nos embeddings.
+> - **E)** Incorreta. Embeddings numéricos são o fundamento matemático consagrado da representação semântica vetorial, e o Fine-Tuning é inadequado para bases de conhecimento factual em constante atualização.
+> 
+> **Gabarito: B**
 
 ---
+
 ### Teste 153
-**(FGV – TRT – Analista Judiciário - Suporte e Infraestrutura de TI – 2022)**
-A Lei Geral de Proteção de Dados Pessoais (LGPD) tem entre seus 
-objetivos a proteção dos direitos fundamentais de liberdade e de 
-privacidade da pessoa natural. A LGPD define o que são dados 
-pessoais, classificando alguns como sensíveis, além de definir 
-responsabilidades entre os manipuladores desses dados, 
-obrigando os órgãos públicos e empresas privadas a adequarem 
-seus processos para operarem em conformidade com a nova Lei.  
-De acordo com o Art. 4º da LGPD, uma das exceções para o 
-tratamento de dados pessoais é:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Na preparação de uma base de código-fonte para indexação e recuperação semântica em pipelines de RAG (*Retrieval-Augmented Generation*), a técnica de divisão de texto (*chunking*) baseada em Árvore Sintática Abstrata (*AST-Based Chunking*) apresenta superioridade técnica sobre a divisão ingênua por quantidade fixa de caracteres porque:
 
-* **A)** que a atividade de tratamento tenha por objetivo a oferta ou 
-o fornecimento de bens ou serviços ou o tratamento de 
-dados de indivíduos localizados no território nacional;
-* **B)** que os dados pessoais objeto do tratamento tenham sido 
-coletados no território nacional com o consentimento do 
-titular;
-* **C)** que se destine à realização de estudos por órgão de pesquisa, 
-garantida, sempre que possível, a anonimização dos dados 
-pessoais;
-* **D)** que seja realizado para fins exclusivos de atividades de 
-investigação e repressão de infrações penais;
-* **E)** que seja realizado para o exercício regular de direitos em 
-processo judicial, administrativo ou arbitral  (nos termos da 
-Lei nº 9.307/1996). 
+* **A)** Converte todo o código para linguagem natural antes da criação dos vetores de embeddings.
+* **B)** Respeita os limites gramaticais e estruturais da linguagem de programação, garantindo que funções inteiras, métodos de classes e blocos lógicos coesos não sejam truncados arbitrariamente no meio de expressões, preservando o contexto semântico e as assinaturas completas.
+* **C)** Exige que cada arquivo do projeto contenha no máximo 10 linhas de código.
+* **D)** Desconsidera a sintaxe da linguagem para unificar códigos Python e Java na mesma tabela relacional. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **E)** Aumenta o tamanho dos arquivos em 1000% para ocupar todo o espaço do banco de dados vetorial.
 
-
-Tribunal de Justiça do Distrito Federal e dos Territórios   FGV Conhecimento 
-
-DISCURSIVAS
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A) Incorreta.** O código é indexado em sua estrutura de linguagem de programação nativa.
+> - **B) Correta.** O particionamento ingênuo por tamanho fixo (ex: 500 caracteres) costuma cortar métodos ao meio, separando a assinatura dos tipos ou isolando o corpo da função. O chunking baseado em AST usa o parser da linguagem (ex: Tree-sitter) para segmentar o código exatamente nas fronteiras naturais de nós sintáticos (classes, funções, interfaces), preservando integridade semântica para os modelos de embedding.
+> - **C) Incorreta.** Não há imposição de tamanho máximo de arquivo no código original.
+> - **D) Incorreta.** Respeita a sintaxe formal de cada linguagem.
+> - **E) Incorreta.** Afirmação sem lógica técnica.
 >
 > **Gabarito: B**
 
 ---
+
 ### Teste 154
-**(FGV – TJ-RR – Analista Judiciário - Governança e Gestão de TI – 2024)**
-A computação em nuvem permite armazenamento, processamento 
-e acesso flexível a dados e aplicações remotamente.  
-Sobre os conceitos envolvidos na computação em nuvem, é correto 
-afirmar que
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Em um sistema de busca semântica de código para auditoria governamental baseado em banco de dados vetorial, um arquiteto implementou uma estratégia de Busca Híbrida (*Hybrid Search*).
 
-* **A)** em nuvens públicas, os recursos de computação são hospedados 
-em provedores externos, enquanto em nuvens privadas estes 
-recursos devem ser hospedados localmente.
-* **B)** modelos PaaS (Plataform as a Service) e IaaS (Infrastructure as a 
-Service) só podem ser empregados em nuvens públicas.
-* **C)** nuvens públicas permitem maior personalização graças ao 
-acesso compartilhado da plataforma, ao contrário de nuvens 
-privadas.
-* **D)** modelos SaaS na nuvem privada são mais caros que na nuvem 
-pública, porém modelos IaaS e PaaS apresentam custos 
-semelhantes em ambos os tipos de nuvem.
-* **E)** nuvens privadas minimizam ou eliminam o multitenancy, 
-enquanto nas nuvens públicas o multitenancy é um conceito 
-central.
+A justificativa técnica para a adoção da Busca Híbrida em vez da busca vetorial pura em repositórios de software é:  
+
+* **A)** A busca vetorial pura é incapaz de processar vetores com mais de três dimensões matemáticas.
+* **B)** A busca híbrida combina a recuperação semântica densa (baseada em embeddings e similaridade de cosseno) com a busca textual esparsa tradicional (como BM25 ou busca full-text), garantindo tanto a compreensão conceitual quanto o casamento exato de identificadores literais, nomes de tabelas e códigos de erro específicos.
+* **C)** A busca híbrida substitui os bancos de dados vetoriais por fitas magnéticas analógicas para reduzir o consumo de energia.
+* **D)** O uso de busca esparsa impede qualquer tentativa de injeção de prompt por parte de usuários maliciosos.
+* **E)** A similaridade de cosseno mede exclusivamente o número de caracteres coincidentes entre duas strings semânticas em ordem alfabética. garantindo a observância dos protocolos de governança e interoperabilidade vigentes.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A)** Incorreta. Modelos modernos de embeddings operam em hiperplanos vetoriais com milhares de dimensões (ex.: 768, 1536 ou 3072 floats).
+> - **B)** **CORRETA.** Repositórios de código contêm identificadores literais rígidos (como nomes de classes `ProcessoTceDTO`, constantes e códigos de erro) que podem ter baixa representatividade semântica vetorial pura. A **Busca Híbrida** integra a busca semântica densa (compreensão de conceitos afins via similaridade de cosseno) com a busca esparsa tradicional (BM25 / Full-Text Search para casamento literal exato), fundindo os rankings com máxima precisão.
+> - **C)** Incorreta. Proposição fantasiosa sem respaldo computacional.
+> - **D)** Incorreta. A busca esparsa é um método de indexação e recuperação léxica, não uma ferramenta de segurança contra injeção de prompt.
+> - **E)** Incorreta. A similaridade de cosseno calcula o cosseno do ângulo formado entre dois vetores numéricos multidimensionais, não uma contagem de caracteres alfabéticos.
+> 
 > **Gabarito: B**
 
 ---
-### Teste 155
-**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
-Gisele, uma analista do judiciário, necessita alterar os scripts de 
-inicialização e shutdown de um servidor de aplicação Tomcat. 
-Sabe-se que a configuração do Tomcat versão 11 usou os 
-diretórios padrão indicados pelo programa instalador. 
-O diretório que contém esses scripts é o
 
-* **A)** /bin.
-* **B)** /init.
-* **C)** /config.
-* **D)** /scripts.
-* **E)** /webapps.
+### Teste 155
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Em um projeto de automação fiscal na Secretaria da Fazenda, a equipe técnica precisa decidir entre a adoção de uma arquitetura de RAG (Geração Aumentada por Recuperação) e o processo de Fine-Tuning supervisionado de um modelo de linguagem aberto.
+
+Sobre os critérios comparativos que orientam essa escolha técnica, assinale a afirmativa correta:  
+
+* **A)** O Fine-Tuning é a melhor escolha para dados factuais altamente voláteis, pois a atualização de tabelas de alíquotas diárias no modelo dispensa custos computacionais de treino.
+* **B)** O RAG possui total auditabilidade e rastreabilidade, permitindo indicar com precisão cirúrgica quais arquivos de código e trechos normativos foram recuperados e inseridos no contexto para fundamentar a resposta gerada.
+* **C)** O Fine-Tuning elimina completamente a ocorrência de alucinações, enquanto o RAG necessariamente multiplica as alucinações ao introduzir textos externos.
+* **D)** Modelos submetidos a RAG perdem permanentemente a capacidade de gerar código sintaticamente válido na linguagem Python.
+* **E)** O RAG exige a alteração dos pesos sinápticos do modelo em cada requisição de busca vetorial efetuada pelo usuário.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: C**
+> - **A)** Incorreta. O Fine-Tuning é desaconselhado para dados factuais voláteis, pois exige pipeline custoso de re-treinamento com retropropagação a cada atualização de dado. Dados dinâmicos devem ser mantidos via RAG.
+> - **B)** **CORRETA.** No RAG, a recuperação de evidências é auditável e explícita: os trechos extraídos do banco vetorial são inseridos de forma visível no prompt de contexto, permitindo citar e auditar o arquivo, linha e documento normativo que respaldaram a resposta gerada.
+> - **C)** Incorreta. O Fine-Tuning não impede alucinações e pode sofrer com esquecimento catastrófico; o RAG é a técnica primordial para mitigação de alucinações por ancorar a resposta em contexto factual verificado.
+> - **D)** Incorreta. O RAG opera apenas enriquecendo o contexto, mantendo intactas as capacidades de programação e fluência sintática do modelo fundacional.
+> - **E)** Incorreta. O RAG opera exclusivamente em tempo de inferência (*runtime*), sem alterar nenhum peso neural do modelo.
+> 
+> **Gabarito: B**
 
 ---
+
 ## 3. O Protocolo Model Context Protocol (MCP)
 
 ### 3.1 Motivação e Resolução do Problema de Integração N x M
@@ -424,137 +393,118 @@ A especificação do MCP padroniza dois canais de comunicação utilizando mensa
 ---
 
 ### Teste 156
-**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
-Os achocolatados são misturas compostas por leite desidratado, 
-chocolate em pó, açúcar e aditivos. 
-Em sua composição, o achocolatado X tem 76 gramas de chocolate 
-em pó e 12 gramas de açúcar, que correspondem a 6% da massa 
-total de X. 
-O fabricante do achocolatado X pretende aumentar a massa total 
-do produto acrescentando 50 gramas de leite desidratado e nada 
-mais. 
-Essa modificação na composição do produto fará com que a 
-porcentagem de chocolate em pó, com relação à massa total de X, 
-sofra redução de
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+O Model Context Protocol (MCP), padrão aberto introduzido para estabelecer interoperabilidade universal entre assistentes de IA e fontes de dados/ferramentas externas, estrutura-se em uma arquitetura cliente-servidor clara. Em relação às responsabilidades de cada entidade no ecossistema MCP, é correto afirmar:
 
-* **A)** 7,4%.
-* **B)** 7,5%.
-* **C)** 7,6%.
-* **D)** 7,8%.
-* **E)** 8,0%. 
-TRIBUNAL REGIONAL DO TRABALHO DA 24ª REGIÃO (TRT-24) – REAPLICAÇÃO FGV CONHECIMENTO
+* **A)** O MCP Server é a IDE ou interface de chat que exibe a tela para o usuário final.
+* **B)** O MCP Host é a aplicação que coordena a interação (como o Antigravity ou Claude Desktop), que contém clientes MCP (*MCP Clients*) responsáveis por estabelecer conexões 1:1 seguras com múltiplos servidores MCP (*MCP Servers*), os quais expõem recursos de dados (*Resources*), ferramentas executáveis (*Tools*) e instruções (*Prompts*).
+* **C)** O protocolo MCP só permite conexão com um único servidor externo por computador.
+* **D)** O MCP Client executa todo o código-fonte em linguagem COBOL no servidor do provedor da nuvem.
+* **E)** O MCP Server não pode se comunicar com bancos de dados relacionais como PostgreSQL ou MySQL.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
->
-> **Gabarito: E**
-
----
-### Teste 157
-**(FGV – TRF-1 – Analista Judiciário - Tecnologia da Informação – 2024)**
-Ao final de uma exposição sobre medicamentos, o conferencista 
-declara: “O melhor de todos os analgésicos é, sem dúvida, o 
-NANDORE, pois foi o único a acabar com a minha dor”. 
-Sobre a argumentação desse segmento, é correto afirmar que os 
-argumentos apresentados:
-
-* **A)** se fundamentam em bases científicas;
-* **B)** são sólidos, já que fundamentados em vivências pessoais;
-* **C)** procuram universalizar uma experiência individual;
-* **D)** se apoiam em dados estatísticos;
-* **E)** carecem de ética.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: C**
-
----
-### Teste 158
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Alguns dos primeiros modelos de linguagem de larga escala 
-desenvolvidos tendiam a gerar resultados incorretos com excesso 
-de confiança, caracterizando o que se convencionou chamar de 
-alucinações dos modelos. Uma estratégia de mitigação das 
-alucinações é o uso da técnica de Geração Aumentada por 
-Recuperação, ou Retrieval-Augmented Generation (RAG). 
-A respeito da RAG, avalie as afirmativas a seguir. 
-I. Baseia-se na combinação de sistemas de recuperação de 
-informações e de modelos generativos capazes de produzir 
-novos textos. 
-II. Permite aos modelos buscarem informações relevantes em 
-bases de dados mais confiáveis durante o processamento das 
-consultas dos usuários ( user queries ), viabilizando melhor 
-adequação a contextos e melhor qualidade das respostas. 
-III. Não altera os parâmetros dos modelos generativos, e, 
-portanto, não influencia o treinamento das redes neurais com 
-informações recuperadas de bases de dados externas. 
-Está correto o que se afirma em
-
-* **A)** I, apenas.
-* **B)** II, apenas.
-* **C)** III, apenas.
-* **D)** I e II, apenas.
-* **E)** I, II e III.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A) Incorreta.** A aplicação que interage com o usuário final é o MCP Host.
+> - **B) Correta.** A arquitetura oficial do MCP define:
+>   - **MCP Host:** a aplicação central de IA (IDE, agente, interface de chat);
+>   - **MCP Client:** cliente interno que mantém conexões com os servidores MCP respeitando limites de permissão;
+>   - **MCP Server:** serviço leve que expõe ferramentas (*Tools*), dados contextuais (*Resources*) e modelos de mensagens (*Prompts*).
+> - **C) Incorreta.** Uma das grandes soluções do MCP é justamente resolver o problema $N \times M$, conectando múltiplos servidores simultaneamente.
+> - **D) Incorreta.** Agnosticismo absoluto de linguagens.
+> - **E) Incorreta.** Servidores MCP de bancos de dados relacionais (Postgres, SQLite, BigQuery) são dos mais utilizados.
 >
 > **Gabarito: B**
 
 ---
-### Teste 159
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Com o aumento do volume e da complexidade dos dados gerados 
-em sistemas de informação atuais, cresce a necessidade de 
-eficiência no armazenamento, segurança, recuperação de dados 
-e disponibilidade. 
-Nesse contexto, o algoritmo HNSW ( Hierarchical Navigable Small 
-World) busca, ao ser aplicado em bases de dados de vetores,
 
-* **A)** compactar dados para economizar espaço de 
-armazenamento.
-* **B)** buscar vetores semelhantes para acelerar a recuperação de 
-informações.
-* **C)** criptografar dados garantindo a segurança das informações.
-* **D)** organizar dados em uma hierarquia de diretórios para 
-facilitar o acesso.
-* **E)** replicar dados em diferentes locais para alta disponibilidade.
+### Teste 157
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+No desenvolvimento de ecossistemas corporativos baseados em inteligência artificial, a proliferação de integrações proprietárias ponto-a-ponto entre assistentes inteligentes e sistemas legados motivou a criação do protocolo aberto *Model Context Protocol* (MCP).
+
+A respeito da arquitetura, primitivas e funcionamento do protocolo MCP, assinale a afirmativa correta:  
+
+* **A)** O MCP é um protocolo proprietário e fechado cujo funcionamento restringe-se exclusivamente à execução de scripts Python em ambientes isolados na nuvem.
+* **B)** Na arquitetura do MCP, o *MCP Host* conecta-se a múltiplos *MCP Servers*, que expõem padronizadamente três primitivas essenciais: *Resources* (dados passivos que podem ser lidos), *Tools* (funções executáveis que realizam ações ou consultas) e *Prompts* (templates de mensagens pré-configurados).
+* **C)** As primitivas denominadas *Tools* no MCP servem exclusivamente para exibir documentação estática ao usuário final, sendo vedada a chamada a APIs de backend ou operações com efeitos colaterais.
+* **D)** O transporte padrão para comunicação entre clientes e servidores locais no MCP utiliza exclusivamente websockets não autenticados, sendo proibida a comunicação via `stdio` (entrada/saída padrão de processos).
+* **E)** A utilização do MCP dispensa o modelo de IA de interpretar parâmetros em esquemas JSON Schema, delegando a tipagem de dados integralmente ao sistema operacional hospedeiro.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** Incorreta. O MCP é um padrão aberto (*open standard*) multiplataforma e neutro, com SDKs oficiais para TypeScript, Python, Kotlin e suporte comunitário para diversas outras linguagens.
+> - **B)** **CORRETA.** A arquitetura do MCP estrutura-se em Host (aplicação consumidora), Client (camada de transporte) e Server (provedor de dados e serviços). Os servidores expõem formalmente três primitivas canônicas:
+>     1. **Resources** (dados somente-leitura)
+>     2. **Tools** (funções executáveis ativas que produzem efeitos colaterais)
+>     3. **Prompts** (templates de mensagens parametrizáveis).
 >
+> - **C)** Incorreta. *Tools* são precisamente os recursos executáveis com parâmetros validados por esquema que permitem disparar ações ativas (gravar dados, executar comandos no shell, interagir com APIs externas). Dados passivos de leitura são mapeados como *Resources*.
+> - **D)** Incorreta. Para servidores que operam localmente na mesma máquina, o transporte padrão e prioritário do MCP é o **`stdio`** (Standard Input/Output). Para servidores remotos em rede, adota-se **`SSE`** (*Server-Sent Events*) sobre HTTP.
+> - **E)** Incorreta. O MCP depende fundamentalmente da validação rigorosa de tipos e parâmetros estruturados através de contratos em **JSON Schema**.
+> 
+> **Gabarito: B**
+
+---
+
+### Teste 158
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Em uma auditoria de segurança da informação sobre uma solução corporativa que utiliza o *Model Context Protocol* (MCP) para conectar agentes de IA ao banco de dados PostgreSQL e ao repositório Git institucional, foi avaliado o risco de execução indevida de comandos de alteração estrutural.
+
+Considerando o funcionamento das primitivas e a governança do MCP, a equipe de auditoria deve verificar se:  
+
+* **A)** As operações com potencial de alteração ou exclusão de dados e código foram implementadas exclusivamente através da primitiva *Resources*, sem permissões de rede.
+* **B)** O agente de IA tem autorização para invocar primitivas *Tools* com ações destrutivas (como drops de tabelas ou commits forçados) de maneira autônoma e irrestrita, sem validação de parâmetros ou supervisão humana (*Human-in-the-Loop*).
+* **C)** As operações de leitura de esquemas e documentação utilizam a primitiva *Resources* (somente-leitura), enquanto operações de mutação utilizam primitivas *Tools* com esquemas JSON Schema rígidos e controle de privilégios de acesso que exigem confirmação explícita de operador autorizado.
+* **D)** O protocolo MCP foi configurado para converter todos os dados confidenciais do banco de dados em imagens bitmap públicas antes do envio ao modelo.
+* **E)** As conexões locais via transporte `stdio` foram substituídas por conexões telnet sem criptografia na rede pública.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A primitiva *Resources* do MCP é estritamente passiva e somente-leitura; mutações de dados exigem o uso da primitiva *Tools*.
+> - **B)** Incorreta. Conceder autonomia irrestrita para comandos destrutivos viola frontalmente o princípio do privilégio mínimo e as políticas de segurança corporativa.
+> - **C)** **CORRETA.** A segregação arquitetural recomendada no MCP determina que consultas informativas (esquemas de tabelas, logs, manuais) sejam expostas como *Resources* (idempotentes e somente-leitura). Ações ativas que modificam bancos ou arquivos (*Tools*) devem validar contratos estritos em JSON Schema e implementar barreiras de autorização humana explícita (*Human-in-the-Loop*) para comandos de risco elevado.
+> - **D)** Incorreta. Proposição fictícia; informações sigilosas devem receber controle de acesso e mascaramento de dados, nunca conversão em imagens públicas.
+> - **E)** Incorreta. O transporte `stdio` é local, seguro e eficiente; o uso de telnet não criptografado constituiria uma vulnerabilidade crítica grave.
+> 
 > **Gabarito: C**
 
 ---
+
+### Teste 159
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A especificação oficial do Model Context Protocol (MCP) padroniza dois mecanismos fundamentais de transporte de dados para a troca de mensagens formatadas em JSON-RPC entre clientes e servidores MCP:
+
+* **A)** `FTP` e `Telnet`
+* **B)** `stdio` (entrada e saída padrão do processo local) e `SSE` (*Server-Sent Events* sobre HTTP com requisições POST para mensagens do cliente)
+* **C)** `SMTP` e `POP3`
+* **D)** `Bluetooth` e `NFC`
+* **E)** Cabos coaxiais e sinais de rádio AM/FM.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A) Incorreta.** Protocolos legados sem segurança nem suporte à especificação MCP.
+> - **B) Correta.** Os dois transportes canônicos da especificação MCP são:
+>   1. **`stdio`:** ideal para servidores executando localmente na mesma máquina que o Host, trocando mensagens JSON-RPC através da entrada (`stdin`) e saída (`stdout`) padrão do processo;
+>   2. **`SSE` (Server-Sent Events) sobre HTTP:** ideal para servidores MCP remotos distribuídos na rede corporativa ou em nuvem.
+> - **C) Incorreta.** Protocolos de correio eletrônico.
+> - **D) Incorreta.** Protocolos sem fio de curta distância.
+> - **E) Incorreta.** Meios físicos de transmissão.
+>
+> **Gabarito: B**
+
+---
+
 ## 4. Extensibilidade, Tool Use e Skills Especializadas
 
 ### 4.1 Funcionamento do Tool Use / Function Calling via JSON Schema
@@ -596,43 +546,30 @@ Em arquiteturas corporativas avançadas, a complexidade de um sistema de softwar
 ---
 
 ### Teste 160
-**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-No contexto do Angular, considere o script a seguir. 
-<body> 
-<p style="font-size:40px" ng-app="xpto" 
-   ng-controller="temp"> 
-ATENÇÃO: {{ param1 + " " + param2 }} 
-</p> 
-<script> 
-var app = angular.module("xpto", []); 
-app.controller("temp", function($scope) { 
-    $scope.param1 = "Temperatura"; 
-    $scope.param2 = "30"; 
-}); 
-</script> 
-</body> 
-Analise o texto que é exibido no parágrafo quando esse script é 
-executado.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No mecanismo de *Tool Use* (ou *Function Calling*) utilizado por modelos de linguagem avançados para interagir com o ambiente de desenvolvimento, o papel formal do modelo de linguagem (LLM) e do cliente da aplicação estrutura-se da seguinte maneira:
 
-* **A)** undefined
-* **B)** ATENÇÃO:
-* **C)** ATENÇÃO: Temperatura 30
-* **D)** param1:Temperatura param2:30
-* **E)** Temperatura 30
+* **A)** O LLM executa diretamente comandos de baixo nível no processador do servidor de banco de dados sem passar por qualquer software intermediário.
+* **B)** O LLM recebe a descrição das ferramentas disponíveis formatada em JSON Schema; quando decide que uma ferramenta é necessária, o modelo interrompe a geração e emite uma estrutura JSON com o nome da função e os argumentos requeridos; cabe ao cliente local executar o código real da ferramenta e devolver os dados resultantes para que o LLM continue o raciocínio.
+* **C)** O cliente local não tem permissão para auditar ou barrar os comandos emitidos pelo LLM.
+* **D)** A especificação das ferramentas deve ser escrita obrigatoriamente em código binário hexadecimal de 32 bits.
+* **E)** As ferramentas só podem retornar dados no formato de arquivos de áudio MP3.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A) Incorreta.** Modelos de linguagem não executam código nativo diretamente; são motores puramente geradores de texto/tokens.
+> - **B) Correta.** A dinâmica canônica de *Function Calling*: o cliente envia ao LLM as ferramentas descritas em JSON Schema. O LLM decide invocar a ferramenta e emite um JSON estruturado com os parâmetros. O ambiente de execução (cliente/agente) intercepta esse JSON, valida a segurança, executa o comando real (ex: consulta SQL, leitura de arquivo) e devolve a saída no prompt para que o modelo processe a resposta final.
+> - **C) Incorreta.** O cliente retém total controle e autoridade sobre a execução (*Human-in-the-Loop* e políticas de segurança).
+> - **D) Incorreta.** A especificação usa JSON Schema (padrão web legível).
+> - **E) Incorreta.** Retornam texto estruturado, JSON ou dados suportados pela aplicação.
 >
-> **Gabarito: D**
+> **Gabarito: B**
 
 ---
+
 ## 5. Fontes Recomendadas na Internet
 
 * [ArXiv - Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (Lewis et al.)](https://arxiv.org/abs/2005.11401) - Artigo seminal da arquitetura RAG combinando recuperação vetorial densa e modelos neurais geradores.

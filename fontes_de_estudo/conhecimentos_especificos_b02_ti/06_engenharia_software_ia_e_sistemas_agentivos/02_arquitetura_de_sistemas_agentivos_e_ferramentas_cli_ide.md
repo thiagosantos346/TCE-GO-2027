@@ -136,124 +136,95 @@ flowchart TD
 ---
 
 ### Teste 129
-**(FGV – TJ-AP – Analista Judiciário - Tecnologia da Informação – 2023)**
-Em um sistema de cabeamento estruturado, a conexão entre os 
-equipamentos ativos de rede e o cabeamento horizontal pode ser 
-realizada utilizando-se duas técnicas distintas.  
-A técnica em que as portas dos ativos de rede são conectadas 
-diretamente às portas do patch panel do cabeamento horizontal, 
-utilizando patch cords, é conhecida como:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Na evolução da inteligência artificial aplicada ao desenvolvimento de software, a transição de chatbots passivos para sistemas agentivos orientados a objetivos (*Goal-Driven Agents*) representa um salto paradigmático fundamental. A principal distinção operacional entre essas duas abordagens consiste em:
 
-* **A)** interconexão;
-* **B)** conexão direta;
-* **C)** conexão cruzada;
-* **D)** conexão crossover;
-* **E)** conexão back-to-back.
+* **A)** Chatbots passivos respondem a prompts isolados com sugestões textuais que exigem intervenção humana para cópia e aplicação manual no projeto, enquanto agentes orientados a objetivos recebem metas de alto nível, planejam passos intermediários, utilizam ferramentas para interagir com o ambiente (leitura de arquivos, execução de comandos, testes) e iteram até atingir o objetivo com verificação de resultados.
+* **B)** Chatbots passivos só funcionam em computadores quânticos, ao passo que agentes autônomos executam em qualquer microcontrolador simples.
+* **C)** Agentes orientados a objetivos dispensam completamente o uso de modelos de linguagem (LLMs).
+* **D)** Chatbots passivos são capazes de depurar pipelines de CI/CD de forma totalmente autônoma.
+* **E)** Agentes orientados a objetivos têm seu uso restrito à criação de interfaces gráficas em HTML puro.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **A) Correta.** Um chatbot opera em laço aberto (*open loop*): gera texto e para. Um agente opera em laço fechado (*closed loop*): recebe uma meta ("corrigir bug de concorrência na classe X"), delibera, inspeciona arquivos, formula planos, executa alterações no sistema de arquivos, roda os testes e ajusta a solução se houver falhas.
+> - **B) Incorreta.** Ambos operam na infraestrutura tradicional de IA.
+> - **C) Incorreta.** LLMs atuam exatamente como o "cérebro" de raciocínio (*reasoning engine*) do agente.
+> - **D) Incorreta.** Chatbots passivos não possuem ferramentaria para interagir com o ambiente externo.
+> - **E) Incorreta.** Agentes atuam em toda a esteira de engenharia de software (backend, infra, testes, arquitetura).
 >
-> **Gabarito: E**
+> **Gabarito: A**
 
 ---
+
 ### Teste 130
-**(FGV – TJ-AP – Analista Judiciário - Tecnologia da Informação – 2023)**
-10 01 - 
-10 02 - 
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A arquitetura estrutural canônica de um agente de inteligência artificial voltado para a engenharia de software articula-se em quatro componentes fundamentais. Assinale a alternativa que elenca corretamente esses quatro componentes:
 
-10 02 PC 4 
-10 03 PC 2 
+* **A)** Monitor de vídeo, placa de rede cabeada, disco rígido SATA e teclado mecânico.
+* **B)** Percepção/Contexto (sensores/leitores), Mecanismo de Raciocínio e Planejamento (LLM), Memória (curto e longo prazo) e Ferramental de Ação (atuadores/tools/APIs).
+* **C)** Compilador C++, interpretador PHP, banco de dados Access e firewall de borda.
+* **D)** Diagrama de casos de uso, diagrama de classes, diagrama de sequência e diagrama de atividades.
+* **E)** Linters estáticos, bibliotecas de terceiros, variáveis de ambiente e licenças GPLv3.
 
-10 03 - 
-20 04 - 
-
-20 04 PC 5 
-20 05 - 
-
-20 05 - 
-20 06 - 
-
-20 06 PC 6 
-30 07 PC 3 
-
-30 07 - 
-30 08 - 
-
-30 08 - 
-30 09 - 
-
-30 09 - 
-TRK 10 SW2 
-
-TRK 10 SW1 
-Os computadores pessoais que irão receber o pacote ARP 
-(Address Resolution Protocol) enviado pelo PC 1 são:
-
-* **A)** PC 2 e PC 3, somente;
-* **B)** PC 2 e PC 4, somente;
-* **C)** PC 4 e PC 6, somente;
-* **D)** PC 2, PC 4 e PC 5, somente;
-* **E)** PC 2, PC 3, PC 4, PC 5 e PC 6.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A) Incorreta.** Componentes de hardware físico tradicional.
+> - **B) Correta.** A arquitetura universal de um agente compreende:
+>   1. **Percepção/Contexto:** leitura do estado do ambiente (arquivos, AST, logs, mensagens);
+>   2. **Raciocínio/Planejador:** LLM processando planos e estratégias (decomposição de metas);
+>   3. **Memória:** retenção de curto prazo (histórico da conversa/sessão) e longo prazo (vetores, repositórios de conhecimento);
+>   4. **Ferramental de Ação (*Tools*):** capacidade de invocar ferramentas (editar arquivos, executar comandos no terminal, chamar APIs).
+> - **C) Incorreta.** Ferramentas isoladas de desenvolvimento.
+> - **D) Incorreta.** Diagramas da UML.
+> - **E) Incorreta.** Artefatos de software.
 >
 > **Gabarito: B**
 
 ---
-### Teste 131
-**(FGV – TJ-AP – Analista Judiciário - Segurança da Informação – 2023)**
-Considere as seguintes competências da Autoridad e Nacional de 
-Proteção de Dados (ANPD): 
- monitorar e realizar análise do mercado e do 
-desenvolvimento de novas tecnologias que possam gerar 
-impactos na proteção de dados e privacidade; 
- editar e publicar estudos e notas técnicas informativas 
-realizadas pela Autoridade; 
- conscientizar e orientar sobre desenvolvimento de 
-tecnologias relevantes para a proteção de dados, 
-privacidade e segurança da informação; e 
- acompanhar e participar das discussões técnicas em fóruns 
-internacionais de matérias relacionadas a tecn ologias 
-utilizadas na proteção e no tratamento de dados pessoais e 
-privacidade. 
-O elemento da estrutura organizacional da ANPD que possui as 
-competências apresentadas é:
 
-* **A)** Coordenação-geral de administração;
-* **B)** Coordenação-geral de normatização;
-* **C)** Coordenação-geral de tecnologia e pesquisa;
-* **D)** Conselho nacional de proteção de dados pessoais e da 
-privacidade;
-* **E)** Coordenação-geral de relações institucionais e internacionais.
+### Teste 131
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Analise as afirmativas abaixo a respeito das diferenças operacionais e arquiteturais entre assistentes agentivos de linha de comando (CLI) e extensões integradas a Ambientes de Desenvolvimento Integrados (IDEs):
+
+I. Agentes em CLI (como Claude Code ou Aider) possuem integração direta com o ambiente de terminal do sistema operacional, permitindo encadear ferramentas nativas de busca textual (como `grep`), comandos de compilação e automação de scripts bash sem a necessidade de uma interface gráfica ativa.  
+
+II. Assistentes nativos em IDE dependem exclusivamente de protocolos de completamento sintático local e são tecnicamente impedidos de utilizar modelos de linguagem em nuvem.  
+
+III. O uso de agentes em CLI é especialmente vantajoso em ambientes de servidores remotos (acessados via SSH) e pipelines automatizados de esteiras DevOps, onde interfaces gráficas pesadas de IDEs não estão disponíveis.  
+
+Está correto o que se afirma em:  
+
+* **A)** I e II, apenas.
+* **B)** I e III, apenas.
+* **C)** II e III, apenas.
+* **D)** I, apenas.
+* **E)** I, II e III.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
->
-> **Gabarito: E**
+> - **A)** Incorreta. O item II está incorreto porque IDEs agentivas utilizam amplamente modelos em nuvem.
+> - **B)** **CORRETA.** Análise detalhada dos itens:
+>     - **Item I (Correto):** Agentes CLI operam nativamente sobre o shell, alavancando utilitários UNIX e comandos de sistema sem demandar interface gráfica.
+>     - **Item II (Incorreto):** IDEs agentivas (como Cursor e extensões de VS Code) utilizam intensamente modelos de última geração hospedados em nuvem via requisições de API.
+>     - **Item III (Correto):** Em servidores de teste remotos via SSH e runners de esteiras de CI/CD sem ambiente gráfico (*headless*), agentes CLI são a solução ideal devido à leveza operacional.
+> - **C)** Incorreta. O item II é falso.
+> - **D)** Incorreta. O item III também está plenamente correto.
+> - **E)** Incorreta. O item II é falso.
+> 
+> **Gabarito: B**
 
 ---
+
 ## 2. O Ciclo Agentivo de Desenvolvimento (The Agentic Loop)
 
 ### 2.1 Fundamentos do Paradigma ReAct e Ciclo OODA
@@ -336,163 +307,136 @@ Para evitar que o agente entre em ciclos infinitos de tentativa e erro que consu
 ---
 
 ### Teste 132
-**(FGV – TCE-GO – Analista de Controle Externo - Controle Externo – 2024)**
-Em Senador Canedo /GO existe uma associação desportiva que 
-mantém equipe de futebol profissional, cujo maior rival é uma 
-equipe de futebol de Aparecida de Goiânia/GO, que no ano de 
-2023 se transformou numa SAF (Sociedade Anônima do Futebol). 
-Em relação ao percentual da contribuição de ambas as entidades 
-para a Seguridade Social a ser feita em 2024, independentemente 
-da base de cálculo, marque a alternativa correta.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Diferente dos chatbots passivos baseados em LLMs tradicionais, os sistemas agentivos modernos de desenvolvimento de software (como agentes de codificação em terminal e IDEs inteligentes) operam com base em ciclos autônomos orientados a objetivos (*Goal-Driven Agents*).
 
-* **A)** Ambas as entid ades estarão sujeitas à alíquota de 5% (cinco 
-por cento).
-* **B)** A associação desportiva se submeterá à alíquota de 20% e a 
-SAF, 11%.
-* **C)** Ambas as entidades estarão sujeitas à alíquota de 20% (vinte 
-por cento).
-* **D)** A SAF se submeterá à alíquota de 5% e a associação desportiva, 
-11%.
-* **E)** Ambas as entidades estarão sujeitas à alíquota de 11% (onze 
-por cento).
+A respeito da dinâmica de funcionamento e das propriedades de um ciclo agentivo de desenvolvimento, assinale a afirmativa correta:  
+
+* **A)** O mecanismo de *Self-Healing* (autocorreção) exige que o desenvolvedor humano interrompa o agente a cada falha de compilação para reescrever manualmente os arquivos antes que o agente possa continuar.
+* **B)** No paradigma ReAct (*Reasoning + Acting*), o ciclo operacional do agente envolve os passos ordenados de pensamento/raciocínio (*Thought*), execução de uma ferramenta no ambiente (*Action*), coleta e assimilação do resultado obtido (*Observation*) e reavaliação (*Reflection*) até atingir o critério de parada.
+* **C)** Os agentes de software em linha de comando (CLI) são conceituados como modelos puramente estáticos que não possuem capacidade de invocar ferramentas do sistema operacional ou inspecionar o sistema de arquivos local.
+* **D)** O uso de memória de curto prazo em sistemas agentivos substitui a necessidade de manter janelas de contexto ativas, operando sem consumir tokens de inferência do modelo de linguagem.
+* **E)** Caso um teste unitário falhe durante a execução de uma tarefa de codificação pelo agente, o ciclo agentivo é imediatamente abortado por razões de conformidade, sendo proibido ao agente rodar suites de teste subsequentes.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: C**
+> - **A)** Incorreta. O propósito primordial do mecanismo de *Self-Healing* é viabilizar a autonomia do agente para diagnosticar falhas de compilação ou testes e aplicar correções no código sem requerer intervenção humana em cada ciclo intermediário.
+> - **B)** **CORRETA.** O paradigma **ReAct** (Yao et al., 2023) estabelece a sincronização de quatro etapas essenciais: o raciocínio preliminar (*Thought*), a emissão de chamada de ferramenta no ambiente (*Action*), a recepção do feedback do sistema (*Observation*) e a reflexão avaliativa (*Reflection*) para direcionar o próximo passo até a meta.
+> - **C)** Incorreta. Agentes CLI interagem diretamente com o sistema operacional por meio de comandos shell, manipulando arquivos e diretórios locais.
+> - **D)** Incorreta. A memória de curto prazo de um agente reside precisamente na janela de contexto ativa e consome tokens de entrada a cada iteração do ciclo.
+> - **E)** Incorreta. A falha de um teste unitário é exatamente o estímulo de retroalimentação que deflagra o loop de *Self-Healing*, permitindo que o agente ajuste o código para fazer o teste passar.
+> 
+> **Gabarito: B**
 
 ---
+
 ### Teste 133
-**(FGV – TCE-PA – Auditor de Controle Externo – 2024)**
-Com relação ao framework pytest, da linguagem de programação 
-Python, avalie as afirmativas a seguir: 
-I. O comando pytest executa os arquivos no formato 
-test_*.py ou *_test.py no diretório corrente e nos 
-subdiretórios. 
-II. O comando abaixo mostra os 5 testes com maior tempo de 
-duração. 
->>> pytest -vv --durations=5 
-III. É possível invocar o framework pytest usando o próprio 
-interpretador do Python por meio do comando abaixo: 
->>> python -m pytest 
-Está correto o que se afirma em
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Na primeira etapa do ciclo agentivo (*The Agentic Loop*), denominada Fase de Percepção ou Descoberta de Contexto, antes de efetuar qualquer alteração no repositório de software, o agente deve:
 
-* **A)** I, apenas.
-* **B)** II, apenas.
-* **C)** I e II, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III. 
+* **A)** Deletar todos os arquivos da pasta `.git` para economizar memória do agente.
+* **B)** Explorar a estrutura de diretórios, inspecionar contratos de interfaces, ler arquivos de documentação técnica e mapear o código relevante relacionado à tarefa, evitando modificações cegas no código-fonte.
+* **C)** Executar commits forçados com a flag `--force` na branch `main` de produção.
+* **D)** Solicitar autorização judicial para ler arquivos de texto com extensão `.md`. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **E)** Paralisar todos os contêineres Docker do cluster de homologação.
 
-AUDITOR DE CONTROLE EXTERNO – AREA ADMINISTRATIVA - CIÊNCIA DE DADOS – MANHÃ  TIPO  BRANCA – PÁGINA 21
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A) Incorreta.** Apagar a pasta `.git` destruiria o histórico de versionamento.
+> - **B) Correta.** A fase de percepção assegura que o agente colete informações vitais e analise as dependências do projeto antes de tomar decisões de implementação (*look before you leap*).
+> - **C) Incorreta.** Ação destrutiva e inaceitável.
+> - **D) Incorreta.** Afirmação absurda.
+> - **E) Incorreta.** O agente deve inspecionar o código de forma controlada e segura.
 >
-> **Gabarito: D**
+> **Gabarito: B**
 
 ---
+
 ### Teste 134
-**(FCC – TRT-13 – Analista Judiciário - Tecnologia da Informação – 2014)**
-O Ciclo PDCA inclui as seguintes etapas sequenciais:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No âmbito dos sistemas agentivos aplicados à engenharia de software, a etapa de Planejamento e Decomposição de Metas (*Task Decomposition*) tem por finalidade técnica:
 
-* **A)** diagnóstico; definição de metas; monitoramento; 
-avaliação.
-* **B)** planejamento; execução; controle/verificação; ação 
-avaliativa/corretiva.
-* **C)** priorização; definição de objetivos, capacitação; 
-ação avaliativa/corretiva.
-* **D)** planejamento; desenvolvimento; capacitação; ava-
-liação.
-* **E)** programação; direcionamento; controle/verificação; 
-avaliação de resultados. 
-_________________________________________________________
+* **A)** Reduzir uma demanda complexa de negócio a uma sequência estruturada de subtarefas atômicas e verificáveis, permitindo ao agente raciocinar sobre passos intermediários antes de disparar ações com efeitos colaterais no repositório.
+* **B)** Unificar todas as classes do sistema em um único arquivo monolítico de 100.000 linhas de código. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **C)** Excluir todas as suítes de testes unitários para evitar reprovação do build.
+* **D)** Impedir que o desenvolvedor humano visualize as etapas planejadas pelo sistema.
+* **E)** Substituir o uso de linguagens de alto nível por cartões perfurados.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A) Correta.** A decomposição de tarefas divide metas globais complexas em subpassos granulares (ex: 1. localizar arquivos afetados; 2. criar testes de regressão; 3. refatorar método; 4. rodar testes; 5. verificar lint), prevenindo loops caóticos e facilitando o monitoramento.
+> - **B) Incorreta.** Anti-padrão grave.
+> - **C) Incorreta.** Os testes são essenciais para verificação do plano.
+> - **D) Incorreta.** A transparência (*observability/human-in-the-loop*) é um pilar da governança agentiva.
+> - **E) Incorreta.** Afirmação disparatada.
 >
-> **Gabarito: C**
+> **Gabarito: A**
 
 ---
+
 ### Teste 135
-**(FGV – TJ-BA – Analista Judiciário - Tecnologia da Informação – 2015)**
-O comando switch da linguagem de programação C é, na 
-linguagem Visual Basic .NET, semelhante ao comando:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Em um fluxo de integração contínua (CI), um agente autônomo foi configurado para resolver chamados de correção de defeitos em microsserviços legados em Java. Durante o processamento de um chamado, o agente realizou a modificação do arquivo `CalculadoraAliquotaService.java`, mas o comando de compilação disparado pelo próprio agente retornou o erro: `error: cannot find symbol: class BigDecimalUtils`.
 
-* **A)** Select Case;
-* **B)** Exit;
-* **C)** For Each;
-* **D)** Goto;
-* **E)** Continue.
+Diante dessa situação em um ciclo agentivo dotado de *Self-Healing*, a ação esperada do agente é:  
+
+* **A)** Encerrar a execução imediatamente e desinstalar o JDK da máquina hospedeira para prevenir danos sistêmicos.
+* **B)** Capturar a mensagem de erro da saída do compilador (`stderr`), interpretar que a dependência ou classe auxiliar não foi importada ou não existe, buscar referências similares no repositório, realizar o ajuste atômico do código e reexecutar o comando de compilação.
+* **C)** Ignorar a mensagem de erro e realizar o merge forçado da alteração no branch principal do repositório de produção.
+* **D)** Reescrever todo o sistema operacional da máquina servidora em linguagem Rust para contornar o erro de compilação do Java.
+* **E)** Solicitar que o usuário humano reescreva todo o método do zero, pois agentes são formalmente incapazes de ler mensagens de erro de compiladores. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: C**
+> - **A)** Incorreta. Erros de compilação são ocorrências ordinárias; desinstalar ferramentas de desenvolvimento é uma ação absurda.
+> - **B)** **CORRETA.** A dinâmica do **Self-Healing** apoia-se precisamente nessa sequência: captura da saída de erro (`stderr`), diagnóstico da ausência de importação ou símbolo, localização da referência correta no projeto, aplicação da correção no arquivo e nova compilação automatizada.
+> - **C)** Incorreta. Fazer merge de código com erro de compilação viola preceitos básicos de integração contínua e quebra o sistema.
+> - **D)** Incorreta. Proposição inverossímil e sem sentido técnico.
+> - **E)** Incorreta. A leitura e interpretação de stack traces de compiladores constitui uma das competências centrais dos modelos em sistemas agentivos.
+> 
+> **Gabarito: B**
 
 ---
+
 ### Teste 136
-**(FGV – TRT – Analista Judiciário - Suporte e Infraestrutura de TI – 2022)**
-A Estratégia Nacional de Segurança da Informação e 
-Cibernética do Poder Judiciário (ENSEC -PJ) foi instituída com o 
-objetivo de incrementar a segurança cibernética nos órgãos 
-do Poder Judiciário, abrangendo aspectos essenciais da 
-segurança da in formação e definindo objetivos para fortalecer 
-o espaço cibernético do Poder Judiciário, assim como divulgar 
-ações para os órgãos em seu âmbito de atuação.  
-Um dos objetivos da ENSEC -PJ, instituída pela Resolução 
-CNJ  nº 396/2021, é:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Em arquiteturas de agentes de software autônomos, o conceito de Critério de Parada (*Stop Condition*) ou Disjuntor (*Circuit Breaker*) é essencial para garantir a estabilidade e a viabilidade econômica do sistema.
 
-* **A)** estabelecer modelo centralizado de governança cibernética 
-nacional;
-* **B)** permitir a manutenção e a continuidade dos serviços, ou o 
-seu restabelecimento em menor tempo possível;
-* **C)** fortalecer as ações de governança cibernética;
-* **D)** realizar prática em gestão de incidentes e e fetivar o 
-aprimoramento contínuo do processo;
-* **E)** estabelecer rede de cooperação do Judiciário para a 
-segurança cibernética.
+A função primária desse mecanismo é:  
+
+* **A)** Impedir que o agente consuma energia elétrica nas placas de vídeo durante a noite.
+* **B)** Evitar que o agente entre em loops infinitos de autocorreção não convergente, interrompendo a execução caso o número máximo de iterações configurado seja atingido sem que os testes passem.
+* **C)** Bloquear o acesso do desenvolvedor humano aos logs de execução após o término da primeira iteração.
+* **D)** Assegurar que nenhum código seja compilado caso o sistema identifique mais de três variáveis locais no método considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
+* **E)** Desconectar a máquina da rede local toda vez que uma requisição de ferramenta for concluída com êxito.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: C**
+> - **A)** Incorreta. Disjuntores em sistemas de software controlam fluxo de execução e consumo de cotas de computação lógica, não energia elétrica predial.
+> - **B)** **CORRETA.** Caso o agente caia em um ciclo de autocorreção não convergente (onde a correção de um erro desencadeia um novo erro ciclicamente), o **Circuit Breaker** (critério de parada por esgotamento de tentativas) interrompe a execução, preserva o repositório e notifica o desenvolvedor humano, prevenindo custos descontrolados de API e congelamento de recursos.
+> - **C)** Incorreta. Os logs devem ser preservados para viabilizar auditoria e depuração pelo desenvolvedor humano.
+> - **D)** Incorreta. A quantidade de variáveis locais não é critério arquitetural de interrupção de agentes.
+> - **E)** Incorreta. Desconectar a rede após ações bem-sucedidas impediria o funcionamento contínuo do sistema.
+> 
+> **Gabarito: B**
 
 ---
+
 ## 3. Ferramentas de Referência e Governança de Segurança
 
 ### 3.1 Claude Code e a Filosofia Unix-First de Terminal
@@ -529,98 +473,57 @@ flowchart TD
 ---
 
 ### Teste 137
-**(FGV – TRF-1 – Analista Judiciário - Tecnologia da Informação – 2024)**
-A coleta seletiva é um dos instrumentos da Política Nacional de 
-Resíduos Sólidos (PNRS), juntamente com os sistemas de logística 
-reversa e outras ferramentas relacionadas à implementação da 
-responsabilidade compartilhada pelo ciclo de vida dos produtos. 
-Sobre a coleta seletiva, é correto afirmar que:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Na arquitetura multiagente hierárquica utilizada em ferramentas modernas de engenharia de software assistida (como no ecossistema Antigravity), o agente orquestrador principal delega tarefas especializadas para subagentes dedicados. A principal vantagem arquitetural dessa segregação de responsabilidades é:
 
-* **A)** é facultado aos planos municipais de gestão integrada de 
-resíduos sólidos o estabelecimento de metas de redução, 
-reutilização, coleta seletiva e reciclagem, entre outras, com 
-vistas a reduzir a quantidade d e rejeitos encaminhados para 
-disposição final ambientalmente adequada;
-* **B)** o titular dos serviços públicos de limpeza urbana e de manejo 
-de resíduos sólidos priorizará a destinação de materiais 
-reutilizáveis e recicláveis oriundos da coleta seletiva às 
-indústrias recicladoras que apresentem proposta mais 
-vantajosa economicamente;
-* **C)** são consideradas formas de coleta seletiva a coleta porta a 
-porta, a coleta por pontos de entrega voluntária (PEVs) e as 
-unidades de triagem de resíduos;
-* **D)** para a implementaç ão adequada da coleta seletiva, é 
-imprescindível a contínua prática de educação ambiental e 
-mobilização social que promovam a conscientização de que a 
-gestão integrada de resíduos sólidos urbanos inicia -se com o 
-gerador em sua residência, por meio da adequ ada separação 
-e acondicionamento dos resíduos;
-* **E)** dentre os desafios encontrados para a reciclagem, 
-destacam-se o descarte incorreto dos materiais, a 
-contaminação dos recicláveis e a prioridade legal conferida à 
-incineração de resíduos. 
+* **A)** Aumentar a poluição da janela de contexto do agente principal com milhares de linhas de saídas intermediárias de debug e comandos do terminal. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **B)** Isolar contextos de raciocínio, permitindo que subagentes especializados executem pesquisas profundas ou tarefas de escrita em workspaces dedicados, retornando apenas os resultados consolidados ao agente pai e mantendo a janela de contexto principal limpa e eficiente.
+* **C)** Eliminar a necessidade de qualquer modelo de linguagem nas tomadas de decisão.
+* **D)** Exigir que todos os subagentes compartilhem obrigatoriamente a mesma thread síncrona bloqueante.
+* **E)** Restringir a quantidade máxima de linhas de código de todo o projeto a no máximo 50 linhas.
 
-
-Noções de Direito Administrativo
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A) Incorreta.** O objetivo da arquitetura multiagente é exatamente o oposto: evitar a contaminação da janela de contexto do coordenador.
+> - **B) Correta.** Ao delegar tarefas específicas a subagentes (como pesquisador de documentação, auditor de segurança ou desenvolvedor de testes), cada subagente explora seu domínio com sua própria janela de contexto limpa, reportando apenas a síntese dos resultados ao orquestrador, preservando tokens e capacidade de raciocínio.
+> - **C) Incorreta.** Cada subagente utiliza LLMs para deliberar sobre sua especialidade.
+> - **D) Incorreta.** A comunicação multiagente é tipicamente orientada a mensagens assíncronas reativas.
+> - **E) Incorreta.** Afirmação sem fundamento.
 >
-> **Gabarito: A**
+> **Gabarito: B**
 
 ---
+
 ### Teste 138
-**(FGV – TRT-1 – Analista Judiciário - Tecnologia da Informação – 2024)**
-A coleta seletiva é um dos instrumentos da Política Nacional de 
-Resíduos Sólidos (PNRS), juntamente com os sistemas de logística 
-reversa e outras ferramentas r elacionadas à implementação da 
-responsabilidade compartilhada pelo ciclo de vida dos produtos. 
-Sobre a coleta seletiva, é correto afirmar que:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Ao adotar ferramentas de engenharia de software assistidas por IA com execução de comandos no terminal (CLI) e no sistema de arquivos, uma organização pública de controle externo deve mitigar riscos cibernéticos decorrentes de ações potencialmente destrutivas ou não autorizadas no ambiente de infraestrutura.
 
-* **A)** é facultado aos planos municipais de gestão integrada de 
-resíduos sólidos o estabelecimento de metas de reduç ão, 
-reutilização, coleta seletiva e reciclagem, entre outras, com 
-vistas a reduzir a quantidade de rejeitos encaminhados para 
-disposição final ambientalmente adequada;
-* **B)** o titular dos serviços públicos de limpeza urbana e de manejo 
-de resíduos sólidos pr iorizará a destinação de materiais 
-reutilizáveis e recicláveis oriundos da coleta seletiva às 
-indústrias recicladoras que apresentem proposta mais 
-vantajosa economicamente;
-* **C)** são consideradas formas de coleta seletiva a coleta porta a 
-porta, a coleta por  pontos de entrega voluntária (PEVs) e as 
-unidades de triagem de resíduos;
-* **D)** para a implementação adequada da coleta seletiva, é 
-imprescindível a contínua prática de educação ambiental e 
-mobilização social que promovam a conscientização de que a 
-gestão integrada de resíduos sólidos urbanos inicia -se com o 
-gerador em sua residência, por meio da adequada separação 
-e acondicionamento dos resíduos;
-* **E)** dentre os desafios encontrados para a reciclagem, 
-destacam-se o descarte incorreto dos materiais, a 
-contaminação dos recicláveis e a prioridade legal conferida à 
-incineração de resíduos.
+Para equilibrar produtividade e governança corporativa na operação desses agentes autônomos, a melhor prática arquitetural consiste em:  
+
+* **A)** Conceder ao processo do agente privilégios de superusuário (*root* ou *Administrator*) com bypass irrestrito de confirmação para todas as chamadas de sistema, a fim de garantir autonomia total. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **B)** Impedir qualquer leitura de arquivos do repositório pelo agente, restringindo sua atuação exclusivamente à emissão de trechos de código em formato texto no chat da interface gráfica.
+* **C)** Implementar políticas de isolamento em ambiente de desenvolvimento controlado (*sandboxing* / containers) e mecanismos de aprovação humana (*Human-in-the-Loop*) para comandos de alto impacto ou potencialmente destrutivos (como remoção recursiva de diretórios, formatação de volumes ou operações com dados produtivos).
+* **D)** Desativar a coleta de logs e telemetria das ações tomadas pelo agente, pois registros de comandos executados no shell expõem os pesos internos do modelo de linguagem.
+* **E)** Bloquear a integração do agente com o sistema de controle de versão (Git), evitando que o histórico registre commits assistidos por ferramentas autônomas.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: A**
+> - **A)** Incorreta. Conceder permissões de superusuário irrestritas viola o princípio do privilégio mínimo e expõe o ambiente a catástrofes decorrentes de alucinações ou comandos indevidos.
+> - **B)** Incorreta. Proibir a leitura de arquivos descaracteriza a arquitetura agentiva, rebaixando a ferramenta a um chatbot desconectado do repositório de código.
+> - **C)** **CORRETA.** A governança em sistemas agentivos estabelece a execução em caixas de areia seguras (*sandboxes* ou containers) combinada com a imposição obrigatória de **Human-in-the-Loop** (aprovação explícita do operador humano) para comandos de alto risco ou ações com potencial destrutivo irreversível.
+> - **D)** Incorreta. A coleta de logs de auditoria é mandatória para conformidade e rastreabilidade em órgãos públicos, e comandos de shell não revelam os pesos do modelo.
+> - **E)** Incorreta. A integração com o Git é essencial para garantir rastreabilidade, auditoria e facilidade de reversão (*rollback*) de alterações.
+> 
+> **Gabarito: C**
 
 ---
+
 ## 4. Fontes Recomendadas na Internet
 
 * [Model Context Protocol (MCP) Official Documentation](https://modelcontextprotocol.io/introduction) - Arquitetura cliente-servidor do protocolo aberto MCP para integração de LLMs com ferramentas.

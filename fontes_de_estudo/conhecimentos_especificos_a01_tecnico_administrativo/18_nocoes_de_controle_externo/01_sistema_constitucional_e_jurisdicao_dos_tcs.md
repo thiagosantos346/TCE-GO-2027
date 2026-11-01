@@ -195,56 +195,28 @@ Está correto o que se afirma em
 ---
 
 ### Teste 167
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Em um Tribunal de Contas Estadual havia sete conselheiros, sendo 
-quatro nomeados pela Assembleia Legislativa e três pelo 
-Governador do Estado. Ocorre que o decano da Corte de Contas 
-se aposentou, conselheiro este que havia sido indicado pela 
-Assembleia Legislativa, liberando sua vaga. Ocorre que, por razões 
-históricas, as três indicações realizadas pelos Governadores à 
-época foram de livre escolha, tendo sido preenchidas por 
-membros da sociedade local, até então estranhos ao quadro de 
-pessoal do Tribunal de Contas. 
-A par da situação, o Governador questionou a Procuradoria -Geral 
-quanto a possibilidade de ele nomear um dentre os membr os do 
-Ministério Público junto à Corte de Contas de modo a garantir a 
-sua representatividade no Plenário, em observância ao prescrito 
-na Carta Magna. 
-Qual das alternativas apresenta parecer condizente à Súmula 653 
-e ao tema de repercussão geral 652, ambos do Supremo Tribunal 
-Federal:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Certo Tribunal de Contas, no âmbito de sua competência fiscalizatória, realizou uma Tomada de Contas Especial para apurar eventuais danos causados ao patrimônio público em decorrência de irregularidades graves na execução de convênio com repasse de verbas públicas firmado pelo Município. Ao final da instrução processual, apurou-se a responsabilidade direta do Prefeito na má aplicação dos recursos repassados.  
+Considerando a jurisprudência vinculante do Supremo Tribunal Federal (Temas 157 e 835) e o regime de controle externo, é correto afirmar que:
 
-* **A)** Se mostra plenamente possível, haja vista a necessidade de 
-salvaguardar as regras da Constituição Federal.
-* **B)** Não se mostra possível a nomeação do membro do Ministério 
-Público junto à Corte de Contas pelo Governador, contudo em 
-observância da regra Constitucional deve a Assembleia 
-Legislativa indicar um dos membros do parquet de contas.
-* **C)** A situação é possível, contudo, há precedência para a 
-ocupação da vaga por um dentre os auditores-substitutos, pela 
-ordem prescrita no texto constitucional.
-* **D)** A situação é possível desde que o texto da Constituição 
-Estadual seja emendado de modo a modificar a divisão 
-proporcional das indicações entre os Poderes Legislativo e 
-Executivo.
-* **E)** É inconstitucional a nomeação, pelo Governador, de membro 
-do Ministério Público junto à Corte de Contas para 
-preenchimento de cargo vago de conselheiro quando se tratar 
-de vaga reservada à escolha da Assembleia Legislativa.
+* **A)** o Tribunal de Contas não possui competência jurídica para instaurar tomada de contas especial sobre convênios.
+* **B)** o Tribunal de Contas pode julgar as contas do convênio e imputar débito condenatório com força de título executivo.
+* **C)** a condenação pecuniária aplicada pelo Tribunal de Contas a prefeito depende de homologação pela Câmara de Vereadores.
+* **D)** a competência para julgar a tomada de contas decorrente de repasses voluntários transfere-se para a União.
+* **E)** o prefeito goza de imunidade patrimonial administrativa enquanto estiver no exercício regular do mandato eletivo.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **A)** **Incorreto**. A Tomada de Contas Especial é instrumento legítimo do Tribunal de Contas para apurar responsabilidade por dano ao erário (art. 71, II, CF/88).
+> - **B)** **Correto**. O STF pacificou o entendimento de que a competência exclusiva da Câmara de Vereadores refere-se às contas anuais de governo e de gestão prestadas pelo Prefeito (para fins de inelegibilidade da LC 64/90). Todavia, no tocante à fiscalização de recursos específicos repassados por convênio ou tomada de contas especial por desvio de verbas, o Tribunal de Contas detém competência plena para julgar as contas e imputar débito ou multa, gerando título executivo extrajudicial (art. 71, II e § 3º, CF/88).
+> - **C)** **Incorreto**. O título executivo condenatório emitido pelo TC independe de ratificação pela Câmara de Vereadores.
+> - **D)** **Incorreto**. Sendo recursos estaduais, a competência é do Tribunal de Contas do Estado.
+> - **E)** **Incorreto**. Não há imunidade patrimonial para reparação de prejuízos causados ao erário.
 >
-> **Gabarito: E**
+> **Gabarito: B**
 
----
 ### Teste 168
 **(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**  
 Sobre as disposições constitucionais referentes ao controle externo das entidades públicas (art. 71 da CF/88), é correto afirmar:
@@ -268,228 +240,116 @@ Sobre as disposições constitucionais referentes ao controle externo das entida
 > **Gabarito: B**
 
 ### Teste 169
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Certo Tribunal de Contas, no âmbito de sua competência, realizou 
-uma tomada de contas especial, para fins de verificar a 
-regularidade no cumprimento de determinado convênio 
-interfederativo de repasse de verbas e promover a 
-responsabilização pessoal dos envolvidos, dentre os quais o 
-prefeito do Município Alfa.  
-Considerando as disposições constitucionais acerca do controle 
-exercido pelas Cortes de Contas e a orientação do Supremo 
-Tribunal Federal acerca do tema, é correto afirmar que, em relação 
-à mencionada tomada de contas especial
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A respeito da natureza jurídica e do alcance da jurisdição própria dos Tribunais de Contas no ordenamento jurídico brasileiro, analise as seguintes afirmações:
 
-* **A)** não é possível que o Tribunal de Contas aprecie condutas e 
-gastos realizados pelo prefeito, considerando que a 
-Constituição determina que o julgamento das contas do Chefe 
-do Poder Executivo deve ser realizado pela respectiva Casa 
-Legislativa.
-* **B)** cabe ao Tribunal de Contas apenas apreciar a regularidade dos 
-gastos realizados pelo prefeito, mediante a elaboração de 
-parecer, cuja conclusão apenas deixa de prevalecer pela 
-votação de 2/3 (dois terços) da Câmara de Vereadores.
-* **C)** deve aplicar as sanções pertinen tes ao prefeito, em 
-decorrência da apuração de irregularidades no convênio em 
-questão, considerando ser o órgão responsável pelo 
-julgamento anual das contas do Chefe do Poder Executivo.
-* **D)** não pode ser compreendida como atribuição autônoma do 
-penalidade ao Chefe do Poder Executivo, em decorrência de 
-irregularidades no convênio em questão, deve ser submetida 
-à apreciação da Casa Legislativa.
-* **E)** pode promover a condenação administrativa do Chefe do 
-Poder Executivo, quando identificada a responsabilidade 
-pessoal em face de irregularidades no cumprimento do 
-convênio em questão, sem necessidade de posterior 
-julgamento ou aprovação do ato pelo respectivo Poder 
-Legislativo.
+* **A)** A jurisdição dos Tribunais de Contas abrange apenas as autoridades do Executivo, excluindo o Judiciário e Legislativo.
+* **B)** Os Tribunais de Contas possuem natureza de órgãos auxiliares subordinados hierarquicamente ao Poder Legislativo respectivo.
+* **C)** A jurisdição dos Tribunais de Contas alcança qualquer pessoa física que utilize, guarde ou administre bens públicos.
+* **D)** As Cortes de Contas integram a estrutura orgânica do Poder Judiciário, exercendo função tipicamente contenciosa judicial.
+* **E)** O controle financeiro exercido pelo Tribunal de Contas sobre fundações estatais prescinde de comprovação de recursos do Tesouro.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Incorreto**. A jurisdição dos TCs é de estatura constitucional e abrange todos os administradores e responsáveis de todos os Poderes (Executivo, Legislativo e Judiciário), bem como do Ministério Público e Defensoria.
+> - **B)** **Incorreto**. Os Tribunais de Contas são órgãos constitucionais autônomos e independentes; não mantêm qualquer subordinação hierárquica em relação ao Poder Legislativo.
+> - **C)** **Correto**. O art. 70, parágrafo único, da CF/88 estabelece: "Prestará contas qualquer pessoa física ou jurídica, pública ou privada, que utilize, arrecade, guarde, gerencie ou administre dinheiros, bens e valores públicos ou pelos quais a União responda, ou que, em nome desta, assuma obrigações de natureza pecuniária".
+> - **D)** **Incorreto**. Os Tribunais de Contas não integram o Poder Judiciário; suas decisões têm natureza administrativa-especial.
+> - **E)** **Incorreto**. A fiscalização abrange recursos públicos estatais de qualquer origem nos entes controlados.
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
----
 ### Teste 170
-**(FGV – TCE-GO – Analista de Controle Externo - Controle Externo – 2024)**
-A NBASP 50 - Princípios de Atividades Jurisdicionais dos Tribunais 
-de Contas desenvolve doze princípios adequados ao contexto 
-especifico das atividades jurisdicionais dos Tribunais de Contas.  
-Nesse contexto, analise os itens a seguir: 
-I. O Tribunal de Con tas deve garantir que as pessoas 
-responsáveis perante ele sejam submetidas a um julgamento 
-justo, garantido por procedimentos legais.  
-II. Qualquer julgamento do Tribunal de Contas deve ser aberto a 
-objeções e reconsideração e estar sujeito a revisão ou 
-anulação em conformidade com a legislação nacional. 
-III. Uma pessoa pode ser condenada pela mesma irregularidade a 
-várias sanções da mesma natureza impostas pelo Tribunal de 
-Contas.  
-Está correto o que se afirma em
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Em razão da prática de ato danoso ao erário apurado em regular processo de auditoria, o Tribunal de Contas do Estado aplicou multa e imputou débito de ressarcimento a determinado gestor público que gerenciava verbas estaduais. Intimado regularmente, o responsável não efetuou o recolhimento das quantias nem interpôs recurso no prazo regimental.  
+Sobre a cobrança das quantias imputadas e a eficácia executiva do acórdão condenatório, é correto afirmar que:
 
-* **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** I e III, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
+* **A)** o Tribunal de Contas deve ajuizar a competente execução fiscal perante a Vara da Fazenda Pública competente.
+* **B)** a decisão do Tribunal de Contas tem eficácia de título executivo extrajudicial, cabendo a cobrança à Fazenda Pública.
+* **C)** o acórdão condenatório deve ser submetido a prévia homologação pelo Tribunal de Justiça do Estado federado.
+* **D)** a execução do valor da multa prescreve no prazo improrrogável de dois anos contados do trânsito administrativo.
+* **E)** a decisão do Tribunal de Contas impede em definitivo a propositura de ação de improbidade administrativa pelo Ministério Público.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Incorreto**. Conforme a Súmula 643 do STF: "O Ministério Público junto ao Tribunal de Contas não tem legitimidade para propor a execução judicial de suas decisões, cabendo-a à Fazenda Pública". O próprio Tribunal de Contas também não executa judicialmente seus títulos.
+> - **B)** **Correto**. Conforme o art. 71, § 3º, da CF/88: "As decisões do Tribunal de que resulte imputação de débito ou multa terão eficácia de título executivo". Trata-se de título executivo extrajudicial, cuja cobrança em juízo (execução fiscal) compete à Procuradoria do Estado / Fazenda Pública titular do crédito público.
+> - **C)** **Incorreto**. A eficácia do título executivo do Tribunal de Contas é imediata e independe de qualquer homologação judicial.
+> - **D)** **Incorreto**. O prazo prescricional para cobrança judicial é de 5 anos (decreto 20.910/32 e Tema 899 do STF).
+> - **E)** **Incorreto**. A jurisdição de controle do Tribunal de Contas é autônoma e não obsta a atuação do MP na seara da improbidade administrativa (art. 37, § 4º, CF/88).
 >
 > **Gabarito: B**
 
----
 ### Teste 171
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Em um Tribunal de Contas Estadual havia sete conselheiros, sendo 
-quatro nomeados pela Assembleia Legislativa e três pelo 
-Governador do Estado. Ocorre que o decano da Corte de Contas 
-se aposentou, conselheiro este que havia sido indicado pela 
-Assembleia Legislativa, liberando sua vaga. Ocorre que, por razões 
-históricas, as três indicações realizadas pelos Governadores à 
-época foram de livre escolha, tendo sido preenchidas por 
-membros da sociedade local, até então estranhos ao quadro de 
-pessoal do Tribunal de Contas. 
-A par da situação, o Governador questionou a Procuradoria -Geral 
-quanto a possibilidade de ele nomear um dentre os membr os do 
-Ministério Público junto à Corte de Contas de modo a garantir a 
-sua representatividade no Plenário, em observância ao prescrito 
-na Carta Magna. 
-Qual das alternativas apresenta parecer condizente à Súmula 653 
-e ao tema de repercussão geral 652, ambos do Supremo Tribunal 
-Federal:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No exercício da fiscalização contábil, financeira e orçamentária, os Tribunais de Contas deparam-se com atos administrativos e contratos irregulares praticados pelo Poder Executivo. A respeito dos procedimentos de sustação de atos e contratos, é correto afirmar:
 
-* **A)** Se mostra plenamente possível, haja vista a necessidade de 
-salvaguardar as regras da Constituição Federal.
-* **B)** Não se mostra possível a nomeação do membro do Ministério 
-Público junto à Corte de Contas pelo Governador, contudo em 
-observância da regra Constitucional deve a Assembleia 
-Legislativa indicar um dos membros do parquet de contas.
-* **C)** A situação é possível, contudo, há precedência para a 
-ocupação da vaga por um dentre os auditores-substitutos, pela 
-ordem prescrita no texto constitucional.
-* **D)** A situação é possível desde que o texto da Constituição 
-Estadual seja emendado de modo a modificar a divisão 
-proporcional das indicações entre os Poderes Legislativo e 
-Executivo.
-* **E)** É inconstitucional a nomeação, pelo Governador, de membro 
-do Ministério Público junto à Corte de Contas para 
-preenchimento de cargo vago de conselheiro quando se tratar 
-de vaga reservada à escolha da Assembleia Legislativa.
+* **A)** A sustação de ato administrativo ilegal compete diretamente ao Tribunal de Contas se o órgão não adotar providências.
+* **B)** A rescisão e sustação de contratos administrativos é ato de competência direta e imediata do próprio Tribunal de Contas.
+* **C)** O Tribunal de Contas pode decretar a prisão administrativa do agente responsável que descumprir ordem de anulação de ato.
+* **D)** O Poder Legislativo estadual não possui competência para sustar atos ou contratos expedidos pela administração pública direta.
+* **E)** A sustação de contrato administrativo dispensa a comunicação tempestiva à autoridade máxima do Poder Executivo estadual.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **A)** **Correto**. Conforme o art. 71, X, da CF/88: cabe ao Tribunal de Contas "sustar, se não atendido, a execução do ato impugnado, comunicando a decisão à Câmara dos Deputados e ao Senado Federal" (no plano estadual, à Assembleia Legislativa). Portanto, para ATOS administrativos, o próprio Tribunal de Contas efetiva a sustação se o órgão não sanar a ilegalidade no prazo fixado.
+> - **B)** **Incorreto**. Para CONTRATOS administrativos, o ato de sustação cabe ao Congresso Nacional/Assembleia (art. 71, § 1º). Apenas se o parlamento for omisso em 90 dias é que o TC decidirá a respeito (art. 71, § 2º).
+> - **C)** **Incorreto**. Tribunais de Contas não detêm competência para decretar privação de liberdade.
+> - **D)** **Incorreto**. O Legislativo tem expressa competência para sustar contratos administrativos (art. 71, § 1º, CF/88).
+> - **E)** **Incorreto**. A Constituição exige imediata comunicação e solicitação de medidas ao Chefe do Executivo.
 >
-> **Gabarito: E**
+> **Gabarito: A**
 
----
 ### Teste 172
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Certo Tribunal de Contas, no âmbito de sua competência, realizou 
-uma tomada de contas especial, para fins de verificar a 
-regularidade no cumprimento de determinado convênio 
-interfederativo de repasse de verbas e promover a 
-responsabilização pessoal dos envolvidos, dentre os quais o 
-prefeito do Município Alfa.  
-Considerando as disposições constitucionais acerca do controle 
-exercido pelas Cortes de Contas e a orientação do Supremo 
-Tribunal Federal acerca do tema, é correto afirmar que, em relação 
-à mencionada tomada de contas especial
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A Constituição do Estado de Goiás e a Lei Orgânica do TCE-GO asseguram ao Tribunal de Contas do Estado prerrogativas institucionais indispensáveis ao pleno exercício de sua missão fiscalizatória. A respeito da autonomia do Tribunal de Contas, é correto afirmar que:
 
-* **A)** não é possível que o Tribunal de Contas aprecie condutas e 
-gastos realizados pelo prefeito, considerando que a 
-Constituição determina que o julgamento das contas do Chefe 
-do Poder Executivo deve ser realizado pela respectiva Casa 
-Legislativa.
-* **B)** cabe ao Tribunal de Contas apenas apreciar a regularidade dos 
-gastos realizados pelo prefeito, mediante a elaboração de 
-parecer, cuja conclusão apenas deixa de preval ecer pela 
-votação de 2/3 (dois terços) da Câmara de Vereadores.
-* **C)** deve aplicar as sanções pertinentes ao prefeito, em 
-decorrência da apuração de irregularidades no convênio em 
-questão, considerando ser o órgão responsável pelo 
-julgamento anual das contas do Chefe do Poder Executivo.
-* **D)** não pode ser compreendida como atribuição autônoma do 
-penalidade ao Chefe do Poder Executivo, em decorrência de 
-irregularidades no convênio em questão, deve ser submeti da 
-à apreciação da Casa Legislativa.
-* **E)** pode promover a condenação administrativa do Chefe do 
-Poder Executivo, quando identificada a responsabilidade 
-pessoal em face de irregularidades no cumprimento do 
-convênio em questão, sem necessidade de posterior 
-julgamento ou aprovação do ato pelo respectivo Poder 
-Legislativo.
+* **A)** possui iniciativa de lei reservada para a criação e extinção de seus cargos e fixação de vencimentos.
+* **B)** seus conselheiros possuem prerrogativas e subsídios equiparados aos membros da Assembleia Legislativa estadual.
+* **C)** sua proposta orçamentária anual é elaborada privativamente pela Secretaria da Fazenda e Planejamento estadual.
+* **D)** suas decisões administrativas submetem-se a recurso ordinário dotado de efeito suspensivo perante o Governador do Estado.
+* **E)** suas contas anuais de gestão orçamentária e financeira são apreciadas privativamente pelo Ministério Público do Estado.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Correto**. Por expressa aplicação do princípio da simetria constitucional (art. 73 c/c art. 96, II, da CF/88 e disposições da Constituição do Estado de Goiás): o Tribunal de Contas possui autonomia administrativa e financeira, cabendo-lhe privativamente propor ao Poder Legislativo a criação e a extinção de seus cargos e serviços auxiliares, bem como a fixação dos respectivos vencimentos.
+> - **B)** **Incorreto**. Conforme o art. 73, § 3º, c/c art. 75 da CF/88, os conselheiros têm as mesmas garantias, prerrogativas, impedimentos, vencimentos e vantagens dos Desembargadores do Tribunal de Justiça estadual, e não dos parlamentares.
+> - **C)** **Incorreto**. O Tribunal de Contas elabora sua própria proposta orçamentária dentro dos limites fixados na LDO.
+> - **D)** **Incorreto**. Não existe recurso hierárquico das decisões do Tribunal de Contas para o Governador.
+> - **E)** **Incorreto**. A fiscalização das contas do próprio Tribunal de Contas compete à Assembleia Legislativa (art. 75 c/c art. 71, CF/88).
 >
-> **Gabarito: B**
+> **Gabarito: A**
 
----
 ### Teste 173
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-A NBASP 50 - Princípios de Atividades Jurisdicionais dos Tribunais 
-de Contas desenvolve doze princípios adequados ao contexto 
-especifico das atividades jurisdicionais dos Tribunais de Contas.  
-Nesse contexto, analise os itens a seguir: 
-I. O Tribunal de Con tas deve garantir que as pessoas 
-responsáveis perante ele sejam submetidas a um julgamento 
-justo, garantido por procedimentos legais.  
-II. Qualquer julgamento do Tribunal de Contas deve ser aberto a 
-objeções e reconsideração e estar sujeito a revisão ou 
-anulação em conformidade com a legislação nacional. 
-III. Uma pessoa pode ser condenada pela mesma irregularidade a 
-várias sanções da mesma natureza impostas pelo Tribunal de 
-Contas.  
-Está correto o que se afirma em
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No âmbito dos Tribunais de Contas, a figura dos Auditores (atualmente denominados Conselheiros Substitutos pela jurisprudência e legislação nacional) exerce atribuições fundamentais na instrução e julgamento de processos de contas. A respeito do seu estatuto constitucional, é correto afirmar:
 
-* **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** I e III, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
+* **A)** Os Auditores são nomeados em comissão pelo Presidente da Corte dentre pessoas com formação de nível médio.
+* **B)** Quando em substituição a Conselheiro, o Auditor terá as mesmas garantias e impedimentos do titular do cargo.
+* **C)** No exercício das funções ordinárias de judicatura, o Auditor não detém as garantias inerentes à magistratura togado.
+* **D)** A investidura no cargo de Auditor prescinde de aprovação em concurso público se houver lista tríplice corporativa.
+* **E)** Os Conselheiros Substitutos são subordinados administrativamente aos Procuradores do Ministério Público de Contas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Incorreto**. O ingresso no cargo de Auditor de Tribunal de Contas é feito obrigatoriamente por concurso público de provas e títulos, exigindo curso superior (art. 73, § 4º, CF/88).
+> - **B)** **Correto**. O art. 73, § 4º, da Constituição Federal dispõe expressamente: "O auditor, quando em substituição a Ministro, terá as mesmas garantias e impedimentos do titular e, no exercício das demais atribuições da judicatura, as de juiz de Tribunal Regional Federal" (no plano estadual, de juiz de direito de entrância final).
+> - **C)** **Incorreto**. No exercício das funções de judicatura fora da substituição, o Auditor tem as garantias de juiz togado.
+> - **D)** **Incorreto**. O concurso público é imperativo constitucional intransponível.
+> - **E)** **Incorreto**. Auditores e Ministério Público de Contas são órgãos com atribuições autônomas e independentes.
 >
 > **Gabarito: B**
 
----
 ### Teste 174
 **(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**  
 A Lei nº 16.168, de 11 de dezembro de 2007, estabelece a Lei Orgânica do Tribunal de Contas do Estado de Goiás (LOTCE-GO), disciplinando sua jurisdição, competência e processo. À luz da LOTCE-GO, é correto afirmar que:
@@ -513,53 +373,24 @@ A Lei nº 16.168, de 11 de dezembro de 2007, estabelece a Lei Orgânica do Tribu
 > **Gabarito: A**
 
 ### Teste 175
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Em um Tribunal de Contas Estadual havia sete conselheiros, sendo 
-quatro nomeados pela Assembleia Legislativa e três pelo 
-Governador do Estado. Ocorre que o decano da Corte de Contas 
-se aposentou, conselheiro este que havia sido indicado pela 
-Assembleia Legislativa, liberando sua vaga. Ocorre que, por razões 
-históricas, as três indicações realizadas pelos Governadores à 
-época foram de livre escolha, tendo sido preenchidas por 
-membros da sociedade local, até então estranhos ao quadro de 
-pessoal do Tribunal de Contas. 
-A par da situação, o Governador questionou a Procuradoria -Geral 
-quanto a possibilidade de ele nomear um dentre os membr os do 
-Ministério Público junto à Corte de Contas de modo a garantir a 
-sua representatividade no Plenário, em observância ao prescrito 
-na Carta Magna. 
-Qual das alternativas apresenta parecer condizente à Súmula 653 
-e ao tema de repercussão geral 652, ambos do Supremo Tribunal 
-Federal:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+O Supremo Tribunal Federal, ao julgar os Temas 897 e 899 de Repercussão Geral, fixou teses de grande impacto sobre a prescritibilidade das sanções e do ressarcimento ao erário nos Tribunais de Contas. De acordo com a jurisprudência vinculante do STF, é correto afirmar:
 
-* **A)** Se mostra plenamente possível, haja vista a necessidade de 
-salvaguardar as regras da Constituição Federal.
-* **B)** Não se mostra possível a nomeação do membro do Ministério 
-Público junto à Corte de Contas pelo Governador, contudo em 
-observância da regra Constitucional deve a Assembleia 
-Legislativa indicar um dos membros do parquet de contas.
-* **C)** A situação é possível, contudo, há precedência para a 
-ocupação da vaga por um dentre os auditores-substitutos, pela 
-ordem prescrita no texto constitucional.
-* **D)** A situação é possível desde que o texto da Constituição 
-Estadual seja emendado de modo a modificar a divisão 
-proporcional das indicações entre os Poderes Legislativo e 
-Executivo.
-* **E)** É inconstitucional a nomeação, pelo Governador, de membro 
-do Ministério Público junto à Corte de Contas para 
-preenchimento de cargo vago de conselheiro quando se tratar 
-de vaga reservada à escolha da Assembleia Legislativa.
+* **A)** As ações de ressarcimento ao erário fundadas em decisões dos Tribunais de Contas são absolutamente imprescritíveis.
+* **B)** É prescritível a pretensão de ressarcimento ao erário fundada em decisão de Tribunal de Contas no prazo de cinco anos.
+* **C)** Apenas as multas administrativas prescrevem, mantendo-se a imprescritibilidade eterna para a imputação de débito.
+* **D)** O prazo prescricional para o Tribunal de Contas julgar processo administrativo é de dez anos contados da ocorrência.
+* **E)** A prescrição intercorrente é manifestamente inaplicável aos processos que tramitam perante o controle externo.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **A)** **Incorreto**. No julgamento do Tema 899 (RE 636.886/AL), o STF assentou que é prescritível a pretensão de ressarcimento ao erário fundada em decisão de Tribunal de Contas.
+> - **B)** **Correto**. Tese fixada pelo STF no Tema 899 de Repercussão Geral: "É prescritível a pretensão de ressarcimento ao erário fundada em decisão de Tribunal de Contas". Aplica-se o prazo quinquenal (5 anos) do Decreto nº 20.910/1932 e da Lei nº 9.873/1999 para a cobrança executiva do débito imputado pelo Tribunal de Contas. A imprescritibilidade do art. 37, § 5º, da CF/88 (Tema 897) restringe-se a ações de ressarcimento fundadas na prática de atos dolosos tipificados na Lei de Improbidade Administrativa reconhecidos pelo Poder Judiciário.
+> - **C)** **Incorreto**. Tanto as multas quanto as pretensões de ressarcimento decorrentes de títulos de Cortes de Contas prescrevem.
+> - **D)** **Incorreto**. O prazo da pretensão punitiva e fiscalizatória orienta-se pela prescrição quinquenal da Lei 9.873/1999 (como regulamentado pelo STF na ADI 5.509 e na Resolução ATRICON nº 03/2023).
+> - **E)** **Incorreto**. Aplica-se a prescrição intercorrente nos processos administrativos de contas que fiquem paralisados por mais de 3 anos pendentes de despacho ou julgamento.
 >
-> **Gabarito: E**
+> **Gabarito: B**
 
----

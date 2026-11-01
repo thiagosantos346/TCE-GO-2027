@@ -150,75 +150,55 @@ flowchart TD
 ---
 
 ### Teste 034
-**(FGV – TRT-DA 13-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2022)**
-Com relação a Pytorch, assinale V para a afirmativa verdadeira e F 
-para a falsa. 
-I. Trata-se de uma biblioteca de tensores que pode ser utilizada 
-em problemas de aprendizado profundo, podendo utilizar 
-tanto GPU quanto CPU. 
-II. O pacote torch.parallel.gpu é capaz de su portar o 
-processamento paralelo de tensores do tipo 
-multidimensionais dimensionais e CUDA em processadores 
-GPU. 
-III. O pacote torch.distributed.elasticstack é capaz distribuir um 
-script tornando -o elástico e tolerante a falhas em diversos 
-tipos de ambientes distribuídos. 
-As afirmativas são, respectivamente,
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Em um projeto de desenvolvimento do novo portal de serviços ao cidadão de um Tribunal de Contas, a arquitetura de front-end deve suportar múltiplos temas visuais e padrões de acessibilidade (por exemplo: Tema Alto Contraste para PCDs e Tema Padrão Institucional). Cada tema é composto por uma família coordenada de componentes visuais integrados (botões, campos de formulário, caixas de diálogo e menus suspensos). Para garantir que a aplicação instancie os elementos visuais de uma família específica sem acoplar o código cliente às classes concretas de cada componente visual, deve-se adotar o padrão GoF:
 
-* **A)** F, V e V.
-* **B)** F, F e V.
-* **C)** F, V e F.
-* **D)** V, V e F.
-* **E)** V, F e F.
+* **A)** Abstract Factory.
+* **B)** Factory Method.
+* **C)** Memento.
+* **D)** Visitor.
+* **E)** State.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A) CORRETA.** O padrão criacional **Abstract Factory (Fábrica Abstrata)** tem como propósito fornecer uma interface única para **criar famílias de objetos relacionados ou dependentes sem especificar suas classes concretas**. É a solução arquitetural ideal para temas visuais, suítes de componentes de interface gráfica ou famílias de drivers de persistência.
+> - **B) Incorreta.** O *Factory Method* cria uma única categoria de produto por meio de herança em subclasses, enquanto o *Abstract Factory* orquestra a criação de múltiplos produtos relacionados pertencentes a uma família.
+> - **C) Incorreta.** O *Memento* é um padrão comportamental voltado à captura e restauração de estados internos de objetos (*undo*).
+> - **D) Incorreta.** O *Visitor* é um padrão comportamental que permite adicionar novas operações a uma estrutura de objetos sem alterar suas classes.
+> - **E) Incorreta.** O *State* é um padrão comportamental que altera o comportamento de um objeto conforme suas transições internas de estado.
 >
-> **Gabarito: C**
+> **Gabarito: A**
 
 ---
+
 ### Teste 035
-**(FCC – TRT-15 – Analista Judiciário - Tecnologia da Informação – 2015)**
-Os padrões de projeto tornam mais fácil reutilizar projetos e arquiteturas bem sucedidas. Atualmente existem diversos padrõ es 
-de projetos conforme abaixo: 
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Considere uma situação em que o sistema eletrônico de auditoria de um Tribunal de Contas necessita construir relatórios analíticos complexos contendo múltiplos blocos heterogêneos opcionais (cabeçalho regimental, matriz de achados, gráficos estatísticos de conformidade, parecer conclusivo e anexos periciais). A equipe de TI deseja separar o algoritmo que orquestra o processo de montagem sequencial do relatório da representação concreta de cada um de seus formatos finais (PDF, HTML5 interativo e planilha de dados), de modo que o mesmo fluxo de montagem possa produzir representações finais distintas. O padrão criacional do GoF que soluciona essa demanda de projeto é o:
 
- I. Fornece uma interface para a criação de famílias de objetos relacionados ou dependentes sem especificar suas classes 
-concretas. 
+* **A)** *Builder*.
+* **B)** *Prototype*.
+* **C)** *Singleton*.
+* **D)** *Decorator*.
+* **E)** *Proxy*.
 
- II. Converte a interface de uma classe em outra interface esperada pelos clientes permitindo que certas classes trabalhem 
-em conjunto, pois de outra forma, seria impossível por causa de suas interfaces incompatíveis. 
-
- III. Fornece uma maneira de acessar sequencialmente os elementos de uma agregação de objetos sem expor sua 
-representação subjacente. 
-
- Os padrões de projeto apresentados em I, II e III são, respectivamente,
-
-* **A)** Façade, Builder e Mediator.
-* **B)** Abstract Factory, Adapter e Iterator.
-* **C)** Façade, Adapter e Interpreter.
-* **D)** Singleton, Builder e Mediator.
-* **E)** Abstract Factory, Prototype e Iterator.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A) CORRETA.** O padrão **Builder (Construtor)** destina-se a **separar a construção de um objeto complexo da sua representação**, de modo que o mesmo processo de montagem (orquestrado pelo *Director*) possa gerar diferentes representações do produto final (implementadas por diferentes classes concretas de *Builder*).
+> - **B) Incorreta.** O *Prototype* cria novos objetos clonando instâncias prototípicas pré-configuradas.
+> - **C) Incorreta.** O *Singleton* assegura a unicidade de uma única instância em memória, provendo um ponto global de acesso.
+> - **D) Incorreta.** O *Decorator* é um padrão estrutural que agrega novas responsabilidades a um objeto dinamicamente em tempo de execução.
+> - **E) Incorreta.** O *Proxy* é um padrão estrutural que atua como substituto (*surrogate*) para controlar o acesso a outro objeto.
 >
-> **Gabarito: C**
+> **Gabarito: A**
 
 ---
+
 ## 3. Padrões Estruturais (Structural Patterns)
 
 Os padrões estruturais tratam de como classes e objetos são compostos para formar estruturas maiores e mais flexíveis.
@@ -260,40 +240,30 @@ Os padrões estruturais tratam de como classes e objetos são compostos para for
 ---
 
 ### Teste 036
-**(FGV – TRT-13 – Analista Judiciário - Tecnologia da Informação – 2022)**
-Com relação a Pytorch, assinale V para a afirmativa verdadeira e F 
-para a falsa. 
-I. Trata-se de uma biblioteca de tensores que pode ser utilizada 
-em problemas de aprendizado profundo, podendo utilizar 
-tanto GPU quanto CPU. 
-II. O pacote torch.parallel.gpu é capaz de su portar o 
-processamento paralelo de tensores do tipo 
-multidimensionais dimensionais e CUDA em processadores 
-GPU. 
-III. O pacote torch.distributed.elasticstack é capaz distribuir um 
-script tornando -o elástico e tolerante a falhas em diversos 
-tipos de ambientes distribuídos. 
-As afirmativas são, respectivamente,
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Durante uma auditoria de sistemas legados, um Auditor de TI constatou a necessidade de integrar um novo módulo web moderno ao subsistema de processamento contábil do órgão, implantado há mais de duas décadas. O subsistema contábil legado é constituído por dezenas de classes interdependentes, com chamadas complexas e APIs de difícil utilização. A equipe de desenvolvimento deseja disponibilizar uma interface unificada, simplificada e de alto nível para os desenvolvedores do novo módulo web, blindando-os da complexidade interna do subsistema legado sem modificar o código-fonte pré-existente. O padrão de projeto estrutural GoF indicado para esse cenário é o:
 
-* **A)** F, V e V.
-* **B)** F, F e V.
-* **C)** F, V e F.
-* **D)** V, V e F.
-* **E)** V, F e F.
+* **A)** Facade.
+* **B)** Decorator.
+* **C)** Singleton.
+* **D)** Prototype.
+* **E)** Chain of Responsibility.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A) CORRETA.** O padrão estrutural **Facade (Fachada)** tem como propósito fornecer uma **interface unificada e simplificada para um conjunto de interfaces de um subsistema**. Ele define uma camada de mais alto nível que torna o subsistema mais fácil de usar, reduzindo drasticamente o acoplamento entre os clientes externos e as múltiplas classes internas complexas.
+> - **B) Incorreta.** O *Decorator* adiciona responsabilidades e comportamentos a um objeto dinamicamente, mantendo a mesma interface do componente envelopado.
+> - **C) Incorreta.** O *Singleton* é um padrão criacional de instância única, não uma interface de simplificação de subsistemas.
+> - **D) Incorreta.** O *Prototype* é um padrão criacional baseado em clonagem de objetos.
+> - **E) Incorreta.** O *Chain of Responsibility* é um padrão comportamental para encadear objetos receptores no tratamento de requisições.
 >
 > **Gabarito: A**
 
 ---
+
 ### Teste 037
 **(FCC – TRT-2 – Analista Judiciário (TI) – 2014)**  
 UML é uma linguagem visual para modelagem de sistemas orientados a objeto. Considere o diagrama UML: Interface Secretaria Controle Cadastrar Aluno Aluno Dados Janela Mostrar Janela Registrar (Dados) Acessar (Codigo) : Secretaria Uma primitiva importante dos diagramas de I  é a troca de mensagem, como na figura acima, que ilustra a troca de mensagens entre objetos e entre atores e objetos. Estas mensagens, utilizadas para indicar interação ou comunicação, podem ter diferentes significados: − Chamada: significa que um objeto está solicitando a execução de II  de um outro objeto. Para isso, é necessário que ele seja declarado como público III  correspondente. − Ocorrência de Evento: um evento é algum acontecimento externo ao software , mas que é a ele notificado, pois lhe diz respeito. Exemplos são as saídas para dispositivos (como disco ou monitor) feitos através de serviços do sistema operacional. Esta é a forma padrão de interação entre IV . As lacunas I, II, III e IV são, correta e respectivamente, preenchidas em:
@@ -319,45 +289,37 @@ UML é uma linguagem visual para modelagem de sistemas orientados a objeto. Cons
 ---
 
 ### Teste 038
-**(FCC – TRT-13 – Analista Judiciário - Tecnologia da Informação – 2014)**
-Angela pretende utilizar alguns design patterns  em seu projeto Java e, após algumas pesquisas, encontrou o que buscava em 
-Singleton
- e 
-Prototype
- cujos objetivos são, respectivamente: 
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Considere os dois cenários técnicos a seguir, identificados durante uma auditoria de código-fonte de sistemas judiciais:
 
- I. Encapsular a escolha das classes concretas a serem utilizadas na criação dos objetos de diversas famílias. 
+Cenário 1: Deseja-se agregar dinamicamente responsabilidades adicionais (como compressão de dados e cálculo de hash de integridade) a instâncias individuais de fluxos de entrada e saída (*Streams*), de forma transparente para o cliente e sem recorrer à explosão de subclasses estáticas por herança.  
+Cenário 2: Uma rotina de auditoria consome um objeto volumoso que carrega centenas de megabytes de imagens de notas fiscais digitalizadas do banco de dados; deseja-se postergar a carga pesada desse objeto na memória até o instante exato em que o usuário acione a primeira operação de exibição (*lazy loading*), mantendo um substituto leve que controle esse acesso.  
 
- II. Permitir a criação de uma única instância de uma classe e fornecer um modo para recuperá-la. 
+Os padrões de projeto estruturais do catálogo GoF que atendem com precisão aos Cenários 1 e 2 são, respectivamente:
 
- III. Possibilitar o reaproveitamento de objetos. 
+* **A)** *Decorator* e *Proxy* Virtual.
+* **B)** *Facade* e *Bridge*.
+* **C)** *Composite* e *Adapter*.
+* **D)** *Proxy* de Proteção e *Flyweight*.
+* **E)** *Adapter* e *Decorator*.
 
- IV. Possibilitar a criação de novos objetos a partir da cópia de objetos existentes. 
-
- Está correto o que consta APENAS em
-
-* **A)** I e II.
-* **B)** I e III.
-* **C)** II e III.
-* **D)** II e IV.
-* **E)** III e IV.   
-Caderno de Prova ’K11’, Tipo 001
-
-TRT13-An.Jud.-Tec.Informação-K11 15
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
+> - **A) CORRETA.** 
+>     - **Cenário 1:** O padrão **Decorator (Decorador)** anexa responsabilidades adicionais a um objeto dinamicamente. Oferece uma alternativa flexível ao uso de subclasses para extensão de funcionalidade em tempo de execução (típico da biblioteca `java.io`, ex.: `BufferedOutputStream(GZIPOutputStream(FileOutputStream))`);
+>     - **Cenário 2:** O padrão **Proxy Virtual** atua como um procurador/substituto leve para um objeto real pesado, interceptando as requisições e adiando a sua criação ou instanciação em memória até o momento da real necessidade (*lazy initialization*).
+> - **B) Incorreta.** O *Facade* cria uma interface simplificada para um subsistema e o *Bridge* desacopla abstração e implementação.
+> - **C) Incorreta.** O *Composite* organiza hierarquias em árvore e o *Adapter* converte a interface de uma classe em outra esperada pelo cliente.
+> - **D) Incorreta.** O *Proxy de Proteção* controla direitos de acesso/permissões de segurança, não lazy loading; *Flyweight* lida com economia de memória por compartilhamento massivo de objetos idênticos.
+> - **E) Incorreta.** Apresenta os papéis invertidos em relação aos cenários propostos.
 >
-> **Gabarito: E**
+> **Gabarito: A**
 
 ---
+
 ## 4. Padrões Comportamentais (Behavioral Patterns)
 
 Os padrões comportamentais concentram-se nos algoritmos, na distribuição de responsabilidades e na dinâmica de comunicação e colaboração entre objetos.
@@ -436,75 +398,55 @@ Considere o diagrama UML abaixo. De acordo com os conceitos da UML, de orientaç
 ---
 
 ### Teste 041
-**(FGV – TJ-BA – Analista Judiciário - Tecnologia da Informação – 2015)**
-Um padrão de projeto (do inglês design pattern) é uma solução 
-reutilizável para problemas que ocorrem com frequência dentro 
-de um determinado contexto de um projeto de sistema de 
-software orientado a objetos, e que ganhou popularidade com o 
-catálogo denominado Padrões GoF ('Gang of Four') que define e 
-organiza essas soluções reutilizáveis em 3 famílias conforme o 
-propósito de cada solução. 
-Os padrões de projetos denominados Composite, Factory 
-Method e Memento, que fazem parte desse catálogo, 
-pertencem, respectivamente, às famílias:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No catálogo de padrões comportamentais do GoF, o padrão cuja intenção oficial consagrada é *"evitar o acoplamento do remetente de uma requisição ao seu destinatário, dando a mais de um objeto a oportunidade de tratar a requisição, encadeando os objetos receptores e passando a requisição ao longo da cadeia até que um deles a processe"* denomina-se:
 
-* **A)** padrão de criação, padrão estr utural e padrão 
-comportamental;
-* **B)** padrão estrutural, padrão comportamental e padrão de 
-criação;
-* **C)** padrão comportamental, padrão estrutural e padrão de 
-criação;
-* **D)** padrão estrutural, padrão de criação e padrão 
-comportamental;
-* **E)** padrão de criação, pad rão comportamental e padrão 
-estrutural.
+* **A)** *Chain of Responsibility*.
+* **B)** *Command*.
+* **C)** *Mediator*.
+* **D)** *Observer*.
+* **E)** *Visitor*.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **A) CORRETA.** Definição literal da especificação canônica do **Chain of Responsibility (Cadeia de Responsabilidade)**: evita o acoplamento do remetente ao destinatário ao criar uma linha sequencial de receptores em que cada elo da cadeia decide se processa a solicitação ou a propaga para o próximo elo. Muito utilizado em filtros web (ex.: `FilterChain` do Java EE), autenticação e fluxos de aprovação de despesas em cascata.
+> - **B) Incorreta.** O *Command* encapsula uma requisição como um objeto, permitindo parametrização de clientes, enfileiramento de operações e suporte a operações reversíveis (*undo*).
+> - **C) Incorreta.** O *Mediator* encapsula como um conjunto de objetos interage, centralizando as comunicações para evitar que classes façam referências explícitas umas às outras.
+> - **D) Incorreta.** O *Observer* notifica múltiplos dependentes sobre mudanças de estado de um sujeito central.
+> - **E) Incorreta.** O *Visitor* permite definir uma nova operação sem mudar as classes dos elementos sobre os quais opera.
 >
-> **Gabarito: E**
+> **Gabarito: A**
 
 ---
+
 ### Teste 042
-**(FGV – TRF-1 – Analista Judiciário - Tecnologia da Informação – 2024)**
-Ao elaborar uma apresentação no Power Point, Maria Clara 
-inseriu um SmartArt para representar o organograma do seu 
-Departamento. Após inserir os Setores, Maria Clara quer desfazer 
-a conexão e o posicionamento automático dos objetos do 
-SmartArt. 
-Para isso, visando a mover individualmente os objetos do 
-SmartArt criado, Maria Clara deve:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Em um sistema de auditoria eletrônica de dados fiscais, os auditores executam operações complexas de simulação de cruzamento de dados. Para garantir segurança operacional, a aplicação deve disponibilizar a funcionalidade de "Desfazer" (*Undo*), permitindo restaurar o estado integral do documento pericial a um ponto anterior de verificação (*checkpoint*). A exigência do projeto de software é que o estado interno do documento possa ser capturado e posteriormente recuperado sem expor sua estrutura privada ou violar o princípio do encapsulamento. O padrão comportamental GoF que soluciona essa demanda técnica é o:
 
-* **A)** desagrupar;
-* **B)** alinhar objetos;
-* **C)** editar transição;
-* **D)** redefinir gráfico;
-* **E)** formatar efeitos de forma. 
+* **A)** *Memento*.
+* **B)** *State*.
+* **C)** *Template Method*.
+* **D)** *Prototype*.
+* **E)** *Flyweight*.
 
-Tribunal Regional Federal da 1ª Região FGV Conhecimento 
-
-Analista Jud - Áre Apoio Especializado - Especialidade Tecnologia da Informação  Tipo 1 – Branca – Página 11
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A) CORRETA.** O padrão **Memento (Lembrança)** atende expressamente a esse requisito: ele captura e externaliza o estado interno de um objeto (o *Originator*) em um objeto memento sem quebrar ou expor seu encapsulamento, de modo que o objeto possa ser restaurado a esse estado posteriormente, sendo gerenciado por um zelador (*Caretaker*).
+> - **B) Incorreta.** O *State* altera o comportamento de um objeto quando seu estado interno se modifica, comportando-se como se a classe do objeto tivesse mudado.
+> - **C) Incorreta.** O *Template Method* define o esqueleto de um algoritmo em uma superclasse abstrata, postergando etapas para subclasses.
+> - **D) Incorreta.** O *Prototype* é um padrão criacional para clonagem de instâncias pré-configuradas.
+> - **E) Incorreta.** O *Flyweight* é um padrão estrutural de otimização de memória por compartilhamento de estado.
 >
-> **Gabarito: C**
+> **Gabarito: A**
 
 ---
+
 ## 5. Fontes Oficiais e Referências Bibliográficas
 
 * [Refactoring.Guru — Catálogo Completo dos 23 Padrões de Projeto GoF](https://refactoring.guru/pt-br/design-patterns/catalog) - Visão geral estruturada, diagramas UML e aplicabilidade dos padrões do Gang of Four.

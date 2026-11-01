@@ -90,43 +90,32 @@ flowchart TD
 ---
 
 ### Teste 330
-**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
-A gestão por competências na Administração Pública contribui 
-para o desenvolvimento organizacional ao alinhar as habilidades 
-dos servidores às estratégias institucionais, promovendo maior 
-eficiência, desempenho e qualidade na entrega de serviços à 
-sociedade. 
-Assinale a opção que apresenta corretamente a relação entre 
-conhecimento, habilidade e competência no contexto da gestão 
-por competências.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+O planejamento organizacional é estruturado em três níveis hierárquicos interligados: Estratégico, Tático e Operacional.
 
-* **A)** Competência refere-se apenas à acumulação de conhecimento 
-técnico e acadêmico.
-* **B)** Habilidade é saber aprender continuamente e transformar o 
-conhecimento em resultado concreto.
-* **C)** Conhecimento é a aplicação prática da habilidade para 
-alcançar resultados e metas organizacionais.
-* **D)** Conhecimento, habilidade e competência são conceitos 
-equivalentes e podem ser usados como sinônimos na gestão 
-pública.
-* **E)** A competência envolve a integração entre conhecimento 
-(saber), habilidade (saber fazer) e a capacidade de alcançar 
-resultados (saber fazer acontecer). 
-TRIBUNAL REGIONAL DO TRABALHO DA 24ª REGIÃO (TRT-24) – REAPLICAÇÃO FGV CONHECIMENTO
+A respeito desses níveis, é correto afirmar:
+
+* **A)** O planejamento estratégico tem horizonte temporal de longo prazo, abrange a organização como uma totalidade sistêmica e define a missão, visão e objetivos corporativos mestres; já o planejamento operacional foca o curto prazo e detalha tarefas e procedimentos diários de execução.
+* **B)** O planejamento tático é formulado pelos operários da linha de frente para solucionar problemas de atendimento imediato.
+* **C)** O planejamento operacional abrange o macroambiente externo e analisa as forças competitivas da economia internacional.
+* **D)** O planejamento estratégico é privativo de empresas comerciais de mercado, inexistindo aplicação prática no âmbito dos Tribunais de Contas e órgãos públicos.
+* **E)** O planejamento tático foca exclusivamente em investimentos com prazo superior a quinze anos.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A)** Correta. **Estratégico** (longo prazo, diretoria/cúpula, visão holística); **Tático** (médio prazo, gerências/departamentos); **Operacional** (curto prazo, métodos e tarefas cotidianas).
+> - **B)** Incorreta. Tático é gerencial intermediário.
+> - **C)** Incorreta. Macroambiente é estratégico.
+> - **D)** Incorreta. Tribunais de Contas utilizam planejamento estratégico sistematicamente.
+> - **E)** Incorreta. Médio prazo (anual/bianual).
+> 
 > **Gabarito: A**
 
 ---
+
 ## 2. O Balanced Scorecard (BSC) no Setor Público
 
 Criado pelos professores de Harvard Robert Kaplan e David Norton no início da década de 1990, o **Balanced Scorecard (BSC)** surgiu para suprir as deficiências dos sistemas tradicionais de medição, focados unicamente em indicadores contábeis e financeiros históricos. O BSC integra medidas financeiras com direcionadores de desempenho futuros organizados em quatro perspectivas interligadas por hipóteses de **causa e efeito**.
@@ -169,73 +158,55 @@ flowchart TD
 ---
 
 ### Teste 331
-**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
-Leia o seguinte trecho do escritor inglês Aldous Huxley. 
-O homem que pretende ser sempre coerente no seu pensamento e 
-nas suas decisões morais ou é uma múmia ambulante ou, se não 
-conseguir sufocar toda a sua vitalidade, um monomaníaco 
-fanático. 
-Sobre o significado ou a estruturação do texto, é correto afirmar 
-que
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Ao estruturar o seu Plano Estratégico Institucional, determinado Tribunal de Contas utilizou a metodologia do Balanced Scorecard (BSC). Ao elaborar o mapa estratégico, a equipe de planejamento definiu quatro perspectivas de objetivos. Considerando as peculiaridades das organizações públicas em relação às empresas privadas com fins lucrativos, no modelo adotado pelo Tribunal:
 
-* **A)** infere-se do pensamento expresso no trecho que o homem é 
-sempre incoerente em seu pensamento e decisões.
-* **B)** a comparação com uma “múmia ambulante” se justifica pela 
-perda da vida interior.
-* **C)** a mania única aludida no texto é a de estar sempre à procura 
-de tornar-se incoerente.
-* **D)** a visão negativa do homem na frase é decorrente de sua 
-vontade deformada de ser incoerente em suas ações.
-* **E)** segundo o texto, se o homem não conseguir sufocar toda a sua 
-vitalidade, o homem vira uma múmia ambulante.
+* **A)** A perspectiva financeira deve ocupar obrigatoriamente a posição superior do mapa, tendo como meta a geração de lucro operacional e dividendos públicos.
+* **B)** A perspectiva dos cidadãos e da sociedade ocupa o ápice da cadeia de causalidade estratégica, enquanto os recursos orçamentários figuram como viabilizadores das entregas públicas.
+* **C)** O aprendizado e o crescimento funcional são eliminados do mapa por serem exclusivos de indústrias manufatureiras.
+* **D)** As relações de causa e efeito deixam de existir, passando os objetivos a ser medidos de forma isolada e autônoma.
+* **E)** O mapa estratégico dispensa a identificação de indicadores e metas para os processos de fiscalização e controle.
+
 
 ---
 
-> **Comentário Detalhado:**
+> **Comentário Detalhado:**  
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: A**
+> - **A) Incorreta.** No setor público inexiste distribuição de lucros ou busca por retorno de capital a acionistas como meta finalística institucional.  
+> - **B) CORRETA.** No setor público, o ápice da cadeia de valor do BSC é ocupado pela perspectiva do **Cidadão / Sociedade**, pois o órgão governamental visa entregar serviços com valor público à sociedade. A perspectiva orçamentária atua como suporte viabilizador da estratégia, e não como fim em si mesma.  
+> - **C) Incorreta.** O aprendizado e crescimento (capital humano, tecnologia, liderança e cultura) é a base indispensável de sustentação de qualquer organização no BSC.  
+> - **D) Incorreta.** O alicerce do BSC é precisamente a construção de hipóteses explícitas de causa e efeito entre os objetivos das quatro perspectivas.  
+> - **E) Incorreta.** A metodologia do BSC exige indicadores e metas para todas as perspectivas estratégicas.  
+> 
+> **Gabarito: B**
 
 ---
+
 ### Teste 332
-**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
-Leia o seguinte trecho do escritor inglês Aldous Huxley. 
-O homem que pretende ser sempre coerente no seu pensamento e 
-nas suas decisões morais ou é uma múmia ambulante ou, se não 
-conseguir sufocar toda a sua vitalidade, um monomaníaco 
-fanático. 
-Sobre o significado ou a estruturação do texto, é correto afirmar 
-que
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Na transposição do Balanced Scorecard (BSC - Kaplan e Norton) para as organizações públicas e entidades de controle governamental (como o TCE-GO), a adaptação mais relevante no mapa estratégico consiste em:
 
-* **A)** infere-se do pensamento expresso no trecho que o homem é 
-sempre incoerente em seu pensamento e decisões.
-* **B)** a comparação com uma “múmia ambulante” se justifica pela 
-perda da vida interior.
-* **C)** a mania única aludida no texto é a de estar sempre à procura 
-de tornar-se incoerente.
-* **D)** a visão negativa do homem na frase é decorrente de sua 
-vontade deformada de ser incoerente em suas ações.
-* **E)** segundo o texto, se o homem não conseguir sufocar toda a sua 
-vitalidade, o homem vira uma múmia ambulante.
+* **A)** Deslocar a perspectiva dos "Clientes / Cidadãos-Usuários e Sociedade" para o topo do mapa estratégico como objetivo final supremo, passando a perspectiva financeira a atuar como viabilizadora e restrição orçamentária dos serviços prestados.
+* **B)** Eliminar completamente a perspectiva de Aprendizado e Crescimento, visto que servidores públicos estáveis não necessitam de capacitação continuada.
+* **C)** Substituir os indicadores de eficácia social por índices de lucro líquido financeiro a ser distribuído aos cidadãos como dividendos monetários.
+* **D)** Considerar a perspectiva de Processos Internos como a única relevante, descartando qualquer métrica voltada para a satisfação da sociedade.
+* **E)** Proibir o estabelecimento de relações de causa e efeito entre os objetivos estratégicos institucionais.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A)** Correta. No setor público, o ápice do mapa do BSC é a **Sociedade e os Cidadãos** (geração de valor público), atuando a perspectiva financeira como sustentabilidade orçamentária para a prestação de serviços.
+> - **B)** Incorreta. Aprendizado e crescimento continuam sendo a base.
+> - **C)** Incorreta. Órgãos públicos não visam lucro comercial.
+> - **D)** Incorreta. O BSC integra equilibradamente as perspectivas.
+> - **E)** Incorreta. O mapa baseia-se em relações de causa e efeito.
+> 
 > **Gabarito: A**
 
 ---
+
 ## 3. Matrizes SWOT (FOFA), GUT e Plano de Ação 5W2H
 
 #### A) Matriz SWOT (FOFA)
@@ -266,52 +237,60 @@ flowchart TD
 ---
 
 ### Teste 333
-**(FCC – TRT-9 – Analista Judiciário - Tecnologia da Informação – 2015)**
-O Balanced Scorecard utiliza o mapa estratégico, que evidencia os desafios que a organização deve suplantar para concretizar 
-a visão de futuro e cumprir sua missão, sendo um importante instrumento de alinhamento, gestão e comunicação da estratégia. 
-Entretanto, algumas especificidades precisam ser observadas no delineamento da estratégia de uma organização pública em 
-relação à privada. Ao se implantar o BSC no Tribunal Regional do Trabalho da 9 a Região, as correlações entre o setor público e 
-o privado devem ser estabelecidas, como indica a tabela a seguir: 
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Durante a realização de um diagnóstico institucional, os analistas de um tribunal identificaram os seguintes fatores:
 
-Foco Setor Privado Setor Público 
-Alvo estratégico Competitividade I 
-Resultados econômico-financeiros 
-Rentabilidade 
-Crescimento 
-Participação no mercado 
-II 
-Partes interessadas 
-Acionistas 
-Clientes 
-Colaboradores 
-III 
-Resultado desejado Satisfação do cliente IV 
+1. Elevado índice de qualificação acadêmica do quadro próprio de analistas (pós-graduados).
+2. Ausência de padronização nos procedimentos operacionais dos cartórios judiciais.
+3. Disponibilização de novas linhas federais de financiamento para modernização tecnológica dos tribunais.
+4. Redução orçamentária imposta pela alteração da lei estadual de diretrizes orçamentárias.
 
- Um Analista da área de TI indicou, corretamente, as correlações
+Sob a ótica da Matriz SWOT (FOFA), os fatores 1, 2, 3 e 4 representam, respectivamente:
 
-* **A)** I − Cumprimento da visão;   II − Produtividade e Criação de fontes de recursos.
-* **B)** II − Produtividade, Eficiência e Responsabilidade financeira com o uso dos recursos;   IV − Satisfação do cidadão.
-* **C)** I − Cumprimento da missão;   IV − Satisfação dos colaboradores públicos.
-* **D)** I − Geração de valor para a sociedade;   III − Contribuintes, Sociedade, Políticos e Legisladores.
-* **E)** II − Eficiência e Geração de valor para a sociedade;   III − Governantes, Políticos e Legisladores. 
+* **A)** Força, Fraqueza, Oportunidade e Ameaça.
+* **B)** Oportunidade, Ameaça, Força e Fraqueza.
+* **C)** Força, Ameaça, Oportunidade e Fraqueza.
+* **D)** Oportunidade, Fraqueza, Força e Ameaça.
+* **E)** Força, Fraqueza, Ameaça e Oportunidade.
 
-Caderno de Prova ’D04’, Tipo 001
-
-TRT9R-An-Jud.-Tec.Informação-D04 15
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: D**
+> - **A) CORRETA.** Corresponde com precisão à classificação da Matriz SWOT/FOFA: o Fator 1 é interno e favorável (**Força**); o Fator 2 é interno e vulnerável (**Fraqueza**); o Fator 3 é externo e positivo (**Oportunidade**); e o Fator 4 é externo e desfavorável (**Ameaça**).
+> - **B) Incorreta.** Inverte as variáveis internas (força e fraqueza) pelas externas (oportunidade e ameaça).
+> - **C) Incorreta.** Classifica erroneamente o Fator 2 como ameaça e o Fator 4 como fraqueza.
+> - **D) Incorreta.** Confunde a qualificação dos servidores com oportunidade externa e as linhas federais com força interna.
+> - **E) Incorreta.** Inverte a ordem dos fatores externos 3 e 4.
+> 
+> **Gabarito: A**
 
 ---
+
+
+#### B) Matriz GUT (Gravidade, Urgência e Tendência)
+Instrumento matemático prioritário para ranquear problemas, projetos ou demandas operacionais que concorrem por recursos escassos. Cada variável recebe uma nota de 1 a 5:
+
+$$\mathbf{\text{Pontuação de Prioridade} = \text{Gravidade (G)} \times \text{Urgência (U)} \times \text{Tendência (T)}}$$
+
+* **G - Gravidade:** Mensura a extensão do dano, prejuízo material ou impacto institucional caso nada seja feito (1 = sem gravidade; 5 = gravíssimo / danos irreparáveis).
+* **U - Urgência:** Avalia o tempo remanescente para intervir antes que consequências danosas ocorram (1 = pode esperar sem prejuízo; 5 = exige intervenção imediata / perda iminente).
+* **T - Tendência:** Projeta o padrão evolutivo e a probabilidade de agravamento do problema no tempo (1 = vai desaparecer ou estagnar; 5 = vai piorar rápida e drasticamente).
+
+#### C) Plano de Ação 5W2H
+Metodologia operacional consagrada para estruturação e acompanhamento da execução prática de projetos e deliberações administrativas:
+
+1. **What? (O quê?):** Descrição da meta, ação ou entrega a realizar.
+2. **Why? (Por quê?):** Justificativa, benefício e razão de ser da iniciativa.
+3. **Where? (Onde?):** Local físico ou sistema institucional onde ocorrerá.
+4. **When? (Quando?):** Cronograma de execução (início, marcos e término).
+5. **Who? (Quem?):** Responsável formal designado pela liderança da ação.
+6. **How? (Como?):** Procedimentos operacionais, método de trabalho ou etapas técnicas.
+7. **How Much? (Quanto custa?):** Orçamento estimado e custos alocados.
+
+---
+
 ## 4. Indicadores de Desempenho e Métodos de Avaliação Funcional
 
 #### A) As Dimensões do Desempenho Público (Os 6 Es)
@@ -347,33 +326,32 @@ Para assegurar a utilidade e fidedignidade dos relatórios de governança, os in
 ---
 
 ### Teste 334
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-A Gestão de Pessoas por Competências enfoca o desenvolvimento 
-e alinhamento das habilidades individuais com os objetivos 
-organizacionais, promovendo o crescimento profissional e a 
-eficiência nos resultados. 
-Assinale, dentre as alternativas abaixo, a que apresenta uma 
-competência organizacional.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Na formulação de planos de intervenção operacional decorrentes de achados de auditoria ou do planejamento setorial, a ferramenta **5W2H** é amplamente utilizada para operacionalizar as decisões em planos de ação objetivos.
 
-* **A)** Marketing.
-* **B)** Imagem.
-* **C)** Motivação.
-* **D)** Impulso.
-* **E)** Flexibilidade.
+O significado e escopo da letra **"H" (*How Much*)** na estrutura do 5W2H corresponde a responder:
+
+* **A)** Quanto custará a execução da ação (estimativa orçamentária de custos e desembolsos financeiros envolvidos).
+* **B)** Quem será o executor responsável pela atividade.
+* **C)** Quando e em quais datas a ação será iniciada e finalizada.
+* **D)** Por que a ação deve ser realizada e qual a sua justificativa estratégica.
+* **E)** Onde a ação será implementada geograficamente.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A)** Correta. **5W2H**: What (o que), Why (por que), Where (onde), When (quando), Who (quem), How (como) e **How Much (quanto custa)**.
+> - **B)** Incorreta. Refere-se ao *Who*.
+> - **C)** Incorreta. Refere-se ao *When*.
+> - **D)** Incorreta. Refere-se ao *Why*.
+> - **E)** Incorreta. Refere-se ao *Where*.
+> 
 > **Gabarito: A**
 
 ---
+
 ## 5. Gestão por Competências no Setor Público (Decreto 9.991/2019)
 
 A Gestão por Competências consiste no alinhamento contínuo entre os talentos dos servidores e as competências essenciais necessárias para o cumprimento da estratégia institucional.
@@ -397,32 +375,43 @@ flowchart LR
 ---
 
 ### Teste 335
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-A matriz GUT é uma ferramenta de análise que ajuda a priorizar 
-problemas ou situações, considerando sua gravidade, urgência e 
-tendência de crescimento, facilitando a tomada de decisões 
-assertivas. 
-Sobre a matriz GUT, é correto o que se afirma em
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Na gestão de pessoas no setor público, a metodologia de Gestão por Competências estrutura o perfil funcional a partir da tríade CHA (Conhecimentos, Habilidades e Atitudes). Quando um servidor público domina minuciosamente as regras teóricas da Nova Lei de Licitações (Lei nº 14.133/2021), mas demonstra insegurança técnica e não consegue operar o sistema eletrônico de compras públicas para cadastrar o edital, verifica-se que o servidor possui:
 
-* **A)** Gravidade questiona “a ação pode aguardar?”
-* **B)** Urgência questiona “a ação é relativamente importante?”
-* **C)** Urgência questiona “a situação vai melhorar?”
-* **D)** Tendência questiona “a ação é extremamente importante?”
-* **E)** Tendência questiona “a situação vai piorar?”
+* **A)** Atitude e Habilidade, mas carece de Conhecimento.
+* **B)** Conhecimento, mas apresenta déficit no componente de Habilidade.
+* **C)** Conhecimento e Habilidade, faltando-lhe unicamente Atitude proativa.
+* **D)** Habilidade plena, sem domínio de Conhecimento e Atitude.
+* **E)** Ausência simultânea de Conhecimento, Habilidade e Atitude.
+
 
 ---
 
-> **Comentário Detalhado:**
+> **Comentário Detalhado:**  
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: D**
+> - **A) Incorreta.** O domínio das leis é o Conhecimento em si.  
+> - **B) CORRETA.** Na tríade CHA:  
+>     - **Conhecimento (Saber):** É o saber teórico, conceitual e cognitivo (domínio das regras da Lei nº 14.133/2021).  
+>     - **Habilidade (Saber Fazer):** É a aplicação prática da teoria, o manejo de ferramentas e a operação de sistemas informatizados.  
+>     - Como o servidor conhece a lei (tem Conhecimento), mas não consegue operar o sistema na prática, seu déficit específico reside na **Habilidade** ("saber fazer").  
+> - **C) Incorreta.** Ele não possui a habilidade técnica de operar o sistema de compras.  
+> - **D) Incorreta.** Ele carece exatamente de habilidade prática.  
+> - **E) Incorreta.** Ele possui inequívoco conhecimento teórico demonstrado.  
+> 
+> **Gabarito: B**
 
 ---
+
+
+#### B) Diagnóstico de Lacunas (*Gap Analysis*) e Plano de Desenvolvimento de Pessoas (PDP)
+A gestão por competências opera por meio do confronto analítico entre o perfil exigido pelo órgão e o perfil demonstrado pelo servidor:
+
+$$\mathbf{\text{GAP de Competência} = \text{Competência Requerida pelo Cargo/Função} - \text{Competência Apresentada pelo Servidor}}$$
+
+* Havendo lacuna (*gap* positivo), o órgão direciona as necessidades de treinamento ao **Plano de Desenvolvimento de Pessoas (PDP)**, instituído pelo Decreto nº 9.991/2019, assegurando que o orçamento público de capacitação supra carências reais e priorizadas em vez de cursos genéricos desconectados da estratégia.
+
+---
+
 ## 6. Processo Decisório e Teoria da Decisão (Herbert Simon)
 
 O estudo da tomada de decisão nas organizações ganhou rigor científico com as contribuições seminais de Herbert Simon (Prêmio Nobel de Economia de 1978), que refutou as premissas da teoria microeconômica clássica da escolha racional.
@@ -452,32 +441,30 @@ flowchart TD
 ---
 
 ### Teste 336
-**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**
-Na avaliação de coleções, aqueles métodos que vão 
-enfocar o conteúdo da coleção e sobre eles lançar um 
-julgamento de valor, diagnosticando sua boa ou má 
-qualidade, são conhecidos como métodos
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A respeito do processo decisório nas organizações e das conclusões da Teoria da Racionalidade Limitada proposta por Herbert Simon, é correto afirmar:
 
-* **A)** qualitativos.
-* **B)** quantitativos.
-* **C)** dedutivos.
-* **D)** indutivos.
-* **E)** empíricos. 
-_________________________________________________________
+* **A)** O tomador de decisão atua sempre como o "homem econômico", processando a totalidade das variáveis e alternativas possíveis para atingir a decisão ótima perfeita.
+* **B)** O comportamento decisório dos gestores é orientado por informações completas, perfeita previsibilidade do futuro e tempo ilimitado para deliberação.
+* **C)** Diante da escassez de tempo, limitações cognitivas e insuficiência de dados completos, o gestor atua como o "homem administrativo", selecionando uma alternativa satisfatória que atenda a padrões mínimos aceitáveis.
+* **D)** A teoria da racionalidade limitada defende que o administrador público deve decidir de forma puramente arbitrária e intuitiva, dispensando critérios analíticos de avaliação.
+* **E)** As decisões operacionais tomadas sob racionalidade limitada prescindem da fixação prévia de objetivos organizacionais pelo planejamento.
+
 
 ---
 
-> **Comentário Detalhado:**
+> **Comentário Detalhado:**  
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: B**
+> - **A) Incorreta.** O modelo clássico do "homem econômico" e da decisão ótima pura é uma ficção teórica refutada por Simon.  
+> - **B) Incorreta.** Os gestores atuam sob ambiente de incerteza, com tempo escasso e dados parciais.  
+> - **C) CORRETA.** Segundo Herbert Simon, em virtude da impossibilidade humana de capturar todas as variáveis do ambiente e analisar infinitas alternativas, o tomador de decisão opera como o **homem administrativo**, optando por soluções **satisfatórias** (que atendam a critérios suficientes de eficácia) em vez de soluções ótimas puras.  
+> - **D) Incorreta.** A racionalidade limitada busca a melhor decisão possível dentro das restrições existentes, não se confundindo com irracionalidade ou arbitrariedade.  
+> - **E) Incorreta.** Objetivos estratégicos prévios continuam sendo indispensáveis para orientar a busca da alternativa satisfatória.  
+> 
+> **Gabarito: C**
 
 ---
+
 ## 7. Gestão de Conflitos Organizacionais (Thomas-Kilmann)
 
 Nas teorias organizacionais modernas, o conflito deixou de ser encarado como uma patologia a ser sumariamente extirpada. O conflito pode ser:
@@ -512,103 +499,78 @@ flowchart TD
 ---
 
 ### Teste 337
-**(FGV – TCE-GO – Analista de Controle Externo - Controle Externo – 2024)**
-O planejamento nas organizações públicas é uma pedra angular 
-para garantir a eficiência e a eficácia na entrega de serviços à 
-sociedade. No entanto, é imperativo reconhecer que esse 
-processo está passando por uma redefinição e realinhamento 
-devido às transformações sign ificativas na realidade 
-contemporânea. Tais mudanças são impulsionadas pela 
-globalização, avanços tecnológicos e evolução das expectativas 
-dos cidadãos. Assim, o planejamento público está se adaptando 
-dinamicamente para abraçar essas mudanças, garantindo q ue os 
-serviços oferecidos estejam alinhados com as necessidades 
-emergentes da comunidade e sejam entregues de maneira efetiva 
-e oportuna. 
-Assinale, dentre as opções a seguir, a que apresenta uma mudança 
-da função de planejamento.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Dois diretores de uma agência reguladora divergem categoricamente a respeito dos critérios de reajuste tarifário do transporte intermunicipal. Ambos demonstram alta preocupação em fazer valer suas teses técnicas individuais (alta assertividade), mas recusam-se terminantemente a ouvir os argumentos da outra parte ou a construir um consenso cooperativo (baixa cooperação). Segundo o modelo de estilos de administração de conflitos de Thomas-Kilmann, o comportamento adotado por esses gestores caracteriza o estilo de:
 
-* **A)** O enfoque no potencial é substituído pela ênfase na previsão, 
-direcionando a atenção para a elaboração de cenários futuros.
-* **B)** As fronteiras entre o planejamento estratégico e o 
-planejamento tático se mesclam de forma dissociável.
-* **C)** A transição de uma estrutura organizacional horizontal e 
-aberta para um processo flexível, no qual as relações que 
-facilitam a troca de informações predominam.
-* **D)** A base do novo planejamento muda de uma estrutura 
-organizacional vertical e hierárquica para um processo fluido, 
-horizontal e livre.
-* **E)** O conteúdo estratégico tem maior importância do que o 
-processo estratégico.
+* **A)** Colaboração (Ganha-Ganha).
+* **B)** Acomodação (Perde-Ganha).
+* **C)** Competição ou Imposição (Ganha-Perde).
+* **D)** Evitação ou Fuga (Perde-Perde).
+* **E)** Acordo ou Concessão Mútua equilibrada.
+
 
 ---
 
-> **Comentário Detalhado:**
+> **Comentário Detalhado:**  
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: D**
-
----
-### Teste 338
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-A Gestão de Pessoas por Competências enfoca o desenvolvimento 
-e alinhamento das habilidades individuais com os objetivos 
-organizacionais, promovendo o crescimento profissional e a 
-eficiência nos resultados. 
-Assinale, dentre as alternativas abaixo, a que apresenta uma 
-competência organizacional.
-
-* **A)** Marketing.
-* **B)** Imagem.
-* **C)** Motivação.
-* **D)** Impulso.
-* **E)** Flexibilidade.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A) Incorreta.** Colaboração combina alta assertividade com **alta cooperação**, buscando uma solução integrada "ganha-ganha".  
+> - **B) Incorreta.** Acomodação apresenta **baixa assertividade** (o indivíduo abre mão do seu próprio interesse) e alta cooperação.  
+> - **C) CORRETA.** O estilo de **Competição (ou Imposição / Enfrentamento)** é definido pela **alta assertividade** (busca obstinada de fazer prevalecer seus próprios interesses) combinada com **baixa cooperação** (desprezo pelos anseios e argumentos da contraparte), configurando uma dinâmica de "ganha-perde".  
+> - **D) Incorreta.** Evitação apresenta baixa assertividade e baixa cooperação (ignorar o conflito e fingir que não existe).  
+> - **E) Incorreta.** O acordo requer nível moderado de cooperação mútua, com ambas as partes cedendo em algum ponto.  
+> 
 > **Gabarito: C**
 
 ---
-### Teste 339
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-A matriz GUT é uma ferramenta de análise que ajuda a priorizar 
-problemas ou situações, considerando sua gravidade, urgência e 
-tendência de crescimento, facilitando a  tomada de decisões 
-assertivas. 
-Sobre a matriz GUT, é correto o que se afirma em
 
-* **A)** Gravidade questiona “a ação pode aguardar?”
-* **B)** Urgência questiona “a ação é relativamente importante?”
-* **C)** Urgência questiona “a situação vai melhorar?”
-* **D)** Tendência questiona “a ação é extremamente importante?”
-* **E)** Tendência questiona “a situação vai piorar?”
+### Teste 338
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+A Gestão por Competências no setor público busca alinhar o desenvolvimento dos servidores aos objetivos estratégicos da organização. De acordo com o modelo amplamente consagrado na doutrina administrativa (Dutra, Zarifian, Fleury), a competência individual fundamenta-se no tripé conceitual **C.H.A.**.
+
+As letras que compõem a sigla **CHA** representam:
+
+* **A)** Conhecimento (o saber teórico), Habilidade (o saber fazer prático) e Atitude (o querer fazer / agir proativo).
+* **B)** Controle fiscal, Hierarquia funcional e Autoridade delegada.
+* **C)** Celeridade operacional, Honestidade profissional e Aptidão física.
+* **D)** Criatividade técnica, Homogeneidade de tarefas e Assertividade comunicacional.
+* **E)** Conformidade regulamentar, Homologação decisória e Atendimento cortês.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
->
-> **Gabarito: E**
+> - **A)** Correta. **CHA**: **Conhecimento** (saber teórico), **Habilidade** (saber fazer / capacidade prática) e **Atitude** (querer fazer / postura e proatividade).
+> - **B), C), D), E)** Incorretas. Distorções que não correspondem ao modelo teórico.
+> 
+> **Gabarito: A**
 
 ---
+
+### Teste 339
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+A respeito dos indicadores de desempenho da gestão pública e das dimensões clássicas dos **6 Es** (Eficácia, Eficiência, Efetividade, Economicidade, Excelência e Execução):
+
+Um programa público de vacinação infantil que imunizou 98% do público-alvo planejado, gerando como reflexo a erradicação de determinada doença infectocontagiosa na população infantil do Estado no ano subsequente, demonstrou, com relação ao atingimento da meta quantitativa e ao impacto social transformador duradouro, respectivamente:
+
+* **A)** Alta Eficácia (atingimento da meta física de vacinação de 98%) e Alta Efetividade (impacto real positivo na saúde pública com a erradicação da doença).
+* **B)** Alta Economicidade e Baixa Eficiência orçamentária.
+* **C)** Baixa Eficácia e Ausência de Efetividade social.
+* **D)** Execução financeira passiva e Baixa Excelência de atendimento.
+* **E)** Fato gerador contábil sem reflexo em indicadores de desempenho da gestão.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. **Eficácia** mede o atingimento de metas planejadas (atingiu 98% de imunização); **Efetividade** mede o impacto real e mudança duradoura na sociedade (erradicação da doença infantil).
+> - **B), C), D), E)** Incorretas. Não refletem as definições doutrinárias consagradas.
+> 
+> **Gabarito: A**
+
+---
+
 ## 8. Fontes Oficiais e Referências Bibliográficas
 
 * [Decreto Federal nº 9.991/2019 (Política Nacional de Desenvolvimento de Pessoas)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/d9991.htm) - Disciplina a gestão por competências e o Plano de Desenvolvimento de Pessoas (PDP) no setor público.

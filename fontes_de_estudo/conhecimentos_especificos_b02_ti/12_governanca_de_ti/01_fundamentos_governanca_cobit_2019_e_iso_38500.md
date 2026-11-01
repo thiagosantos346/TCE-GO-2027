@@ -169,33 +169,30 @@ sequenceDiagram
 ---
 
 ### Teste 466
-**(FCC – TRT-23 – Analista Judiciário - Tecnologia da Informação – 2016)**
-Conforme sugerido pelo COBIT 5, os dois objetivos de TI, relacionados de forma primária ou secundária ao seu Processo 
-Gerenciar Fornecedores, são:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+**Enunciado:** A norma ABNT NBR ISO/IEC 38500:2024 define que a governança de Tecnologia da Informação pela alta administração é exercida por meio de um ciclo contínuo de três tarefas fundamentais (modelo EDM). Acerca desse modelo e dos papéis desempenhados pelo órgão de governança, assinale a alternativa correta:  
 
-* **A)** Conhecimento, expertise e iniciativas para inovação dos negócios; Equipes de TI e de negócios motivadas e qualificadas.
-* **B)** Prestação de serviços de TI em consonância com os requisitos de negócio; Conhecimento, expertise e iniciativas para 
-inovação dos negócios.
-* **C)** Alinhamento da estratégia de TI e de negócios; Capacitação e apoio aos processos de negócio através da integração de 
-aplicativos e tecnologia nos processos de negócio.
-* **D)** Equipes de TI e de negócios motivadas e qualificadas; Capacitação e apoio aos processos de negócio através da 
-integração de aplicativos e tecnologia nos processos de negócio.
-* **E)** Capacitação e apoio aos processos de negócio através da integração de aplicativos e tecnologia nos processos de 
-negócio; Prestação de serviços de TI em consonância com os requisitos de negócio.
+* **A)** Na tarefa de Dirigir (*Direct*), o órgão de governança assume diretamente a programação de scripts e o deploy contínuo de aplicações em ambientes de produção.
+* **B)** Na tarefa de Avaliar (*Evaluate*), o órgão de governança examina e julga o uso presente e futuro da TI, considerando as estratégias institucionais, propostas de projetos e demandas das partes interessadas (*stakeholders*).
+* **C)** O modelo EDM determina que a tarefa de Monitorar (*Monitor*) é dispensável caso a organização possua certificação ISO 9001 e auditoria interna constituída.
+* **D)** A governança corporativa de TI conforme a ISO/IEC 38500 limita-se a organizações privadas com fins lucrativos, sendo vedada sua aplicação em tribunais de contas ou autarquias públicas.
+* **E)** A tarefa de Dirigir (*Direct*) consiste exclusivamente na realização de auditorias fiscais pós-fato, sem competência para emitir políticas ou planos de investimento.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: A**
+> - **A)** Incorreta. O papel de *Direct* consiste em definir políticas institucionais, prioridades e direcionamentos estratégicos, jamais na programação direta ou intervenção operacional diária de TI.
+> - **B)** **Correta.** A avaliação (*Evaluate*) examina continuamente as circunstâncias presentes e futuras, considerando demandas dos stakeholders, tendências tecnológicas, requisitos legais e restrições financeiras.
+> - **C)** Incorreta. O monitoramento contínuo de conformidade e desempenho é tarefa indispensável e mandatória da governança.
+> - **D)** Incorreta. A norma ABNT NBR ISO/IEC 38500 aplica-se universalmente a qualquer organização pública ou privada, independente de porte ou finalidade lucrativa.
+> - **E)** Incorreta. Dirigir é atribuir responsabilidades, definir estratégias e planos de TI de forma proativa.
+> 
+> **Gabarito: B**
 
 ---
+
 ## 2.2 Os Seis Princípios da Boa Governança de TI
 
 A ISO/IEC 38500 prescreve **seis princípios** fundamentais que orientam a tomada de decisão da alta administração:
@@ -286,30 +283,30 @@ flowchart LR
 ---
 
 ### Teste 468
-**(FCC – TRT-14 – Analista Judiciário - Tecnologia da Informação – 2016)**
-Após construir um DFD durante a modelagem funcional de um sistema, um Analista deseja apresentar mais informações com 
-objetivo de definir o significado dos fluxos e depósitos de dados, a composição de pacotes de dados que se movimentam pelos 
-fluxos e os valores e unidades relevantes de partes elementares dos fluxos e depósitos de dados. O Analista terá que criar
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+**Enunciado:** O framework COBIT 2019 estruturou seus fundamentos separando os princípios aplicáveis ao "Sistema de Governança" dos princípios aplicáveis ao "Framework de Governança". A respeito dessa classificação e dos componentes de governança do COBIT 2019, assinale a afirmativa correta:  
 
-* **A)** um Banco de Dados de Gerenciamento da Configuração.
-* **B)** um Dicionário de Dados.
-* **C)** um Repositório de Componentes.
-* **D)** uma Base de Dados de Processos.
-* **E)** uma Base de Dados de Contexto.
+* **A)** "Baseado em um modelo conceitual", "Aberto e flexível" e "Alinhado aos principais padrões" constituem os 3 princípios do Framework de Governança.
+* **B)** O princípio de "Prover valor aos stakeholders" pertence com exclusividade ao Framework de Governança, não tendo qualquer relação com o Sistema de Governança.
+* **C)** O COBIT 2019 extinguiu os componentes organizacionais, considerando que processos de software são os únicos elementos necessários para garantir uma governança robusta.
+* **D)** O princípio do "Sistema dinâmico" postula que o sistema de governança, uma vez implementado no órgão público, deve permanecer estático e imutável por no mínimo dez anos.
+* **E)** A separação conceitual entre governança e gestão foi descontinuada na versão 2019, passando ambos a serem regidos pelo mesmo princípio unificado de desenvolvimento ágil.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: D**
+> - **A)** **Correta.** O COBIT 2019 estabelece exatamente 3 princípios para o Framework de Governança: 1. Baseado em um modelo conceitual; 2. Aberto e flexível; 3. Alinhado aos principais padrões e normas mundiais (ISO, ITIL, TOGAF, etc.).
+> - **B)** Incorreta. "Prover valor aos stakeholders" é o primeiro e mais importante princípio do Sistema de Governança (e não do framework).
+> - **C)** Incorreta. O COBIT 2019 define 7 componentes holísticos (Processos; Estruturas Organizacionais; Princípios, Políticas e Estruturas; Informação; Cultura, Ética e Comportamento; Pessoas, Habilidades e Competências; Serviços, Infraestrutura e Aplicações). Ele rejeita a visão míope de focar apenas em processos.
+> - **D)** Incorreta. O princípio do "Sistema dinâmico" afirma exatamente o contrário: sempre que um ou mais fatores de design mudarem (ex.: nova legislação, alteração de diretoria, mudança tecnológica), o impacto sobre a governança de TI deve ser reavaliado dinamicamente.
+> - **E)** Incorreta. A governança distinta da gestão é mantida explicitamente como o Princípio 4 do Sistema de Governança no COBIT 2019.
+> 
+> **Gabarito: A**
 
 ---
+
 ## 3.2 Componentes do Sistema de Governança (7 Componentes)
 
 Para construir, operar e manter um sistema de governança funcional, o COBIT 2019 define **7 categorias de Componentes** (denominados "Habilitadores" no antigo COBIT 5):
@@ -371,38 +368,30 @@ Uma **Área de Foco** descreve um tópico, domínio de governança ou desafio te
 ---
 
 ### Teste 470
-**(FCC – TRT-14 – Analista Judiciário - Tecnologia da Informação – 2016)**
-Considere que uma organização tenha os seguintes objetivos de TI: 
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+**Enunciado:** No COBIT 2019, o sistema de governança deve ser moldado sob medida para cada organização, recusando a premissa de 'tamanho único' (*one size fits all*). Para essa personalização e adaptação (*tailoring*), o framework utiliza os Fatores de Design (*Design Factors*). Sobre os Fatores de Design e as Áreas de Foco no COBIT 2019, assinale a alternativa correta:  
 
- I. Uso adequado de aplicativos, informações e soluções tecnológicas. 
+* **A)** Os 11 Fatores de Design incluem aspectos como Estratégia corporativa, Perfil de risco, Cenário de ameaças, Requisitos de conformidade e Modelo de fornecimento de TI.
+* **B)** As Áreas de Foco são rigidamente limitadas a exatamente 5 domínios fixos e imutáveis, sendo vedada pela ISACA a publicação de novos guias de foco temático.
+* **C)** O Fator de Design 'Papel da TI' reconhece apenas a TI como área de apoio secundário, proibindo a classificação de TI como motor estratégico do negócio.
+* **D)** Os Fatores de Design são aplicados exclusivamente após a conclusão integral de todos os 40 processos de gestão, atuando como ferramentas de auditoria punitiva.
+* **E)** O tamanho da organização (*Enterprise Size*) não é considerado fator de design pelo COBIT 2019, aplicando-se exatamente o mesmo modelo e volume documental a qualquer porte institucional.
 
- II. Conhecimento, expertise e iniciativas para inovação dos negócios. 
-
- III. Disponibilidade de informações úteis e confiáveis para a tomada de decisão. 
-
- IV. Alinhamento da estratégia de negócios e de TI. 
-
- Estes objetivos de TI são relacionados, correta e respectivamente, com as dimensões do BSC:
-
-* **A)** Interna  −  Treinamento e Crescimento  −  Cliente  −  Financeira.
-* **B)** Cliente  −  Financeira  −  Treinamento e Crescimento  −  Interna.
-* **C)** Treinamento e Crescimento  −  Cliente  −  Financeira  −  Interna.
-* **D)** Financeira  −  Interna  −  Treinamento e Crescimento  −  Cliente.
-* **E)** Cliente  −  Treinamento e Crescimento  −  Interna  −  Financeira.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: C**
+> - **A)** **Correta.** Os 11 fatores de design englobam estratégia institucional, objetivos, perfil de risco, problemas de I&T, cenário de ameaças, requisitos de conformidade, papel da TI, modelo de fornecimento, métodos de implementação, estratégia de adoção tecnológica e tamanho da organização.
+> - **B)** Incorreta. Áreas de Foco podem ser ilimitadas e abertas, expandidas conforme o surgimento de novas demandas tecnológicas (ex.: Segurança, DevOps, Nuvem).
+> - **C)** Incorreta. O papel da TI pode variar entre suporte, fábrica, transição e estratégico.
+> - **D)** Incorreta. Fatores de design são utilizados no início, na concepção do sistema de governança (*design guide*), para selecionar e priorizar objetivos.
+> - **E)** Incorreta. Tamanho da organização é expressamente o 11º Fator de Design.
+> 
+> **Gabarito: A**
 
 ---
+
 ## 3.4 Cascatamento de Objetivos (Goals Cascade)
 
 O mecanismo do COBIT 2019 traduz as necessidades das partes interessadas em ações e objetivos práticos de TI por meio de quatro níveis em cascata:
@@ -422,31 +411,30 @@ flowchart TD
 ---
 
 ### Teste 471
-**(FCC – TRT-14 – Analista Judiciário - Tecnologia da Informação – 2016)**
-Uma organização atingiu o nível 1 de capacidade de processo do COBIT 5. Isso significa dizer que
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+**Enunciado:** Em uma auditoria de governança de TI no setor público, a equipe avaliou como as metas institucionais do órgão são traduzidas em prioridades concretas de investimento tecnológico por meio do mecanismo de Cascatamento de Objetivos (*Goals Cascade*) e dos Fatores de Design (*Design Factors*) do COBIT 2019. A respeito desses instrumentos, assinale a alternativa correta:  
 
-* **A)** o atributo de desempenho do processo foi amplamente atingido; o processo está sendo realizado com sucesso e os 
-resultados esperados estão sendo obtidos pela organização.
-* **B)** não há uma diferença significativa entre a capacidade de processo nível 1 e os níveis de capacidade mais altos.
-* **C)** houve um engano, pois o COBIT 5 trabalha com níveis de maturidade e não com níveis de capacidade.
-* **D)** todos os cinco atributos de desempenho dos dois processos foram amplamente atingidos; a organização progride com 
-sucesso e os resultados esperados estão sendo obtidos.
-* **E)** a organização atingiu o nível de capacidade Processo Gerenciado e seus produtos de trabalho estão adequadamente 
-estabelecidos, controlados e mantidos.
+* **A)** O cascatamento de objetivos do COBIT 2019 estabelece que as necessidades dos stakeholders devem ser desdobradas primeiramente em 13 Objetivos Corporativos (*Enterprise Goals*), os quais se desdobram em 13 Objetivos de Alinhamento (*Alignment Goals*) e, finalmente, nos 40 Objetivos de Governança e Gestão.
+* **B)** Os Fatores de Design foram concebidos com a finalidade exclusiva de impedir a customização do COBIT 2019, tornando sua adoção rígida e idêntica para qualquer entidade do planeta.
+* **C)** O Perfil de Risco e o Cenário de Ameaças são classificados pelo COBIT 2019 como objetivos de alinhamento financeiro, não exercendo papel na definição dos fatores de design.
+* **D)** O número de objetivos corporativos no COBIT 2019 foi ampliado para 114 itens, abolindo-se a correlação com as perspectivas clássicas do Balanced Scorecard (BSC).
+* **E)** A estratégia corporativa da organização não exerce influência sobre o desenho do sistema de governança de TI, sendo este definido exclusivamente pelo fornecedor de hardware.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: B**
+> - **A)** **Correta.** No COBIT 2019, a Cascata de Objetivos (*Goals Cascade*) segue a sequência rigorosa: Necessidades dos Stakeholders $\rightarrow$ 13 Objetivos Corporativos (*Enterprise Goals* estruturados no BSC) $\rightarrow$ 13 Objetivos de Alinhamento (*Alignment Goals*) $\rightarrow$ 40 Objetivos de Governança e Gestão nos domínios EDM, APO, BAI, DSS e MEA.
+> - **B)** Incorreta. Os 11 Fatores de Design têm como propósito justamente permitir o *tailoring* (adaptação personalizada) do sistema de governança às particularidades de porte, risco, estratégia e maturidade de cada organização.
+> - **C)** Incorreta. O Perfil de Risco (Design Factor 3) e o Cenário de Ameaças (Design Factor 5) são explicitamente Fatores de Design (*Design Factors*), e não objetivos de alinhamento.
+> - **D)** Incorreta. São exatamente 13 Objetivos Corporativos no COBIT 2019, organizados diretamente sob as quatro dimensões clássicas do BSC (Financeira, Clientes, Processos Internos, Aprendizado e Crescimento).
+> - **E)** Incorreta. A Estratégia Corporativa é o Fator de Design número 1 (*Design Factor 1*), exercendo impacto primordial sobre as prioridades e o sistema de governança de I&T.
+> 
+> **Gabarito: A**
 
 ---
+
 ## 3.5 Os 40 Objetivos de Governança e Gestão nos 5 Domínios
 
 O COBIT 2019 organiza seus 40 objetivos em **5 Domínios**. O primeiro pertence exclusivamente à **Governança**, enquanto os demais quatro integram a **Gestão**:
@@ -526,39 +514,30 @@ flowchart TB
 ---
 
 ### Teste 472
-**(FGV – TJ-AP – Analista Judiciário - Tecnologia da Informação – 2023)**
-O COBIT 4.1 é um framework de Governança de TI que oferece 
-padrões de boas práticas através de um modelo de Domínios, 
-Processos e Atividades. 
-Com relação ao Modelo de Maturidade do COBIT 4.1, analise os 
-itens a seguir: 
-I. No nível 1, Inicial/Ad hoc, os processos seguem um caminho 
-padrão. 
-II. No nível 3, Processo Definido, os processos são documentados 
-e comunicados. 
-III. No nível 4, Gerenciado e Mensurável, os processos são 
-monitorados e medidos. 
-Está correto o que se afirma em:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+**Enunciado:** O framework COBIT 2019 da ISACA estabelece uma distinção estrutural e operacional inequívoca entre Governança e Gestão de TI na organização. Com base nas definições dos domínios e competências organizacionais do COBIT 2019, assinale a alternativa correta:  
 
-* **A)** somente I;
-* **B)** somente II;
-* **C)** somente I e III;
-* **D)** somente II e III;
-* **E)** I, II e III.
+* **A)** A Governança tem como domínio executivo primário o APO (*Align, Plan and Organize*), sendo de sua competência a programação de sprints de desenvolvimento e a instalação de atualizações operacionais de sistemas.
+* **B)** O domínio de Governança no COBIT 2019 é o EDM (*Evaluate, Direct and Monitor*), cabendo aos dirigentes máximos e comitês de governança avaliar necessidades, dirigir políticas e monitorar o alcance estratégico, enquanto a Gestão opera por meio de quatro domínios (APO, BAI, DSS e MEA).
+* **C)** As atividades operacionais de atendimento a incidentes de suporte e requisições de serviço na Central de Serviços integram o domínio EDM, sob a responsabilidade direta dos membros do Conselho de Administração.
+* **D)** O COBIT 2019 revogou o princípio da separação entre governança e gestão preconizado pelo COBIT 5, determinando que gerentes operacionais de redes acumulem privativamente as funções de deliberação estratégica e fixação de apetite a risco.
+* **E)** O domínio BAI (*Build, Acquire and Implement*) é o único domínio classificado como de governança, destinando-se exclusivamente à fiscalização judicial de contratos públicos de TI.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: C**
+> - **A)** Incorreta. O domínio APO pertence à Gestão, e não à Governança. Além disso, tarefas cotidianas como instalar atualizações operacionais pertencem à operação técnica (domínio DSS), e não ao planejamento tático ou à governança.
+> - **B)** **Correta.** No COBIT 2019, o domínio exclusivo de governança é o EDM (*Evaluate, Direct and Monitor*), composto por 5 objetivos direcionados à Alta Administração (Board). Os domínios de Gestão são quatro: APO (*Align, Plan and Organize*), BAI (*Build, Acquire and Implement*), DSS (*Deliver, Service and Support*) e MEA (*Monitor, Evaluate and Assess*).
+> - **C)** Incorreta. O atendimento a incidentes e requisições de serviço pertence ao domínio de gestão DSS (especificamente objetivo *DSS02 - Gerenciar Requisições de Serviços e Incidentes*), sendo executado pela Central de Serviços e equipes de suporte, jamais pelo Conselho de Administração.
+> - **D)** Incorreta. O COBIT 2019 manteve inalterado o princípio basilar de que "Governança é distinta da gestão" (Princípio 4 do Sistema de Governança). A segregação de funções é imperativa para evitar conflitos de interesse e desvios de controle interno.
+> - **E)** Incorreta. O domínio BAI é um domínio de Gestão (focado em construir, adquirir e implementar soluções, gerenciar projetos e mudanças), e não de governança, nem tem foco judicial exclusivo.
+> 
+> **Gabarito: B**
 
 ---
+
 ## 3.6 Gestão de Desempenho do COBIT (CPM) e Níveis de Capacidade CMMI
 
 No COBIT 2019, o modelo de medição de capacidade e maturidade migrou da ISO/IEC 33000 (usada no COBIT 5) para a escala alinhada ao **CMMI** (*Capability Maturity Model Integration*).
@@ -586,72 +565,66 @@ flowchart LR
 ---
 
 ### Teste 473
-**(FGV – TJ-AP – Analista Judiciário - Tecnologia da Informação – 2023)**
-Os processos de governança de serviços de TI são divididos em 4 
-domínios, de acordo com o guia COBIT.  
-Os processos do domínio de planejar e organizar têm como 
-objetivos gerais:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+**Enunciado:** O modelo de Gestão de Desempenho do COBIT 2019 (CPM - *COBIT Performance Management*) utiliza a abordagem de Níveis de Capacidade de Processo (*Process Capability Levels*) alinhada ao CMMI, graduando a maturidade de execução de cada processo em uma escala de 0 a 5. Um processo que atinge o seu propósito por meio da aplicação de procedimentos formalmente padronizados, documentados e disseminados por toda a organização, classifica-se no:  
 
-* **A)** apresentar como a infraestrutura de TI contribui para o 
-atendimento dos objetivos institucionais da organização;
-* **B)** identificar, desenvolver ou adquirir soluções de TI que 
-acompanham as mudanças da organização;
-* **C)** realizar a implantação de novos serviço s de TI, levando em 
-conta também aspectos de treinamento e segurança;
-* **D)** monitorar o funcionamento dos serviços de TI, analisando a 
-aderência aos requisitos definidos para a área;
-* **E)** realizar a contratação de serviços de TI com base nas 
-expectativas de uma determinada organização. 
+* **A)** Nível 0 - Incompleto (*Incomplete*).
+* **B)** Nível 1 - Executado (*Initial / Performed*).
+* **C)** Nível 2 - Gerenciado (*Managed*).
+* **D)** Nível 3 - Definido (*Defined*).
+* **E)** Nível 5 - Em Otimização (*Optimizing*).
 
-Tribunal de Justiça do Estado do Amapá FGV Conhecimento 
-
-Analista Jud - Apo Especializado - Tecnologia da Informação - Telecomunicações  Tipo 1  ̶  Branca – Página 18
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** Incorreta. No Nível 0 (Incompleto), o processo não atinge seu propósito; praticamente nenhuma atividade relevante foi executada.
+> - **B)** Incorreta. No Nível 1 (Executado), o processo atinge seu propósito através de um conjunto incompleto de atividades, funcionando de forma ad-hoc, dependente do heroísmo individual e sem padrão.
+> - **C)** Incorreta. No Nível 2 (Gerenciado), o processo é planejado, monitorado e controlado para um projeto ou unidade específica, gerando produtos de trabalho controlados, mas ainda não se tornou um padrão organizacional institucionalizado.
+> - **D)** **Correta.** No Nível 3 (Definido), o processo é executado com base em um conjunto de procedimentos e normas documentadas e padronizadas em nível corporativo (*organizational standards*).
+> - **E)** Incorreta. No Nível 5 (Em Otimização), o processo foca na melhoria contínua preditiva com base em inovações tecnológicas e controle estatístico de causas de variação (passando antes pelo Nível 4 - Quantitativamente Gerenciado).
+> 
+> **Gabarito: D**
+
+---
+
+
+#### Escala de Avaliação de Atividades e Práticas
+Cada atividade é avaliada conforme a escala percentual de alcance:
+
+- **N (Não Atingido / *Not Achieved*):** Evidência de alcance de $0\%$ a $15\%$.
+- **P (Parcialmente Atingido / *Partially Achieved*):** Evidência de alcance de $> 15\%$ a $50\%$.
+- **L (Praticamente Atingido / *Largely Achieved*):** Evidência de alcance de $> 50\%$ a $85\%$.
+- **F (Totalmente Atingido / *Fully Achieved*):** Evidência de alcance de $> 85\%$ a $100\%$.
+
+---
+
+### Teste 474
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+**Enunciado:** No modelo de Gestão de Desempenho do COBIT 2019 (CPM), para determinar o nível de capacidade de um processo, avalia-se o grau de alcance das práticas e atividades de governança e gestão por meio de uma escala percentual padrão dividida em quatro níveis (N, P, L e F). Assinale a alternativa que descreve corretamente essa escala:  
+
+* **A)** Uma atividade com evidência de alcance entre maior que 15% e 50% é classificada como Parcialmente Atingida (*Partially Achieved* - P).
+* **B)** Uma atividade com evidência de alcance de 0% a 15% é considerada Praticamente Atingida (*Largely Achieved* - L).
+* **C)** Uma atividade é considerada Totalmente Atingida (*Fully Achieved* - F) apenas quando atinge 100% de conformidade formal sem qualquer margem de tolerância.
+* **D)** A classificação 'Não Atingido' (*Not Achieved* - N) exige demonstração de fraude ou negligência dolosa comprovada por auditoria externa.
+* **E)** A escala N-P-L-F foi descontinuada no COBIT 2019 e substituída exclusivamente pelo modelo binário de Sucesso ou Falha.
+
+
+---
+
+> **Comentário Detalhado:**
 >
+> - **A)** **Correta.** Conforme a régua oficial do CPM/CMMI: N (Não Atingido: 0% a 15%), P (Parcialmente Atingido: > 15% a 50%), L (Praticamente Atingido: > 50% a 85%) e F (Totalmente Atingido: > 85% a 100%).
+> - **B)** Incorreta. De 0% a 15% a classificação é Não Atingido (*Not Achieved* - N). Praticamente Atingido (L) situa-se na faixa de > 50% a 85%.
+> - **C)** Incorreta. Totalmente Atingido (F) abrange a faixa superior de > 85% até 100%.
+> - **D)** Incorreta. A classificação N reflete ausência ou nível incipiente de evidências de execução (0% a 15%), sem relação com fraude ou dolo.
+> - **E)** Incorreta. A escala N-P-L-F permanece a métrica de avaliação contínua de atividades e práticas do COBIT 2019.
+> 
 > **Gabarito: A**
 
 ---
-### Teste 474
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Conjuntos de boas práticas, diretrizes e ferramentas de 
-governança e gestão de TI são mapeados por meio de 
-frameworks para auxiliar a implantação de tais instrumentos nas 
-empresas. Um dos principais frameworks na indústria é o COBIT 
-2019. 
-O principal objetivo do framework COBIT 2019 na governança e 
-gestão de TI é
 
-* **A)** estabelecer padrões internacionais para desenvolvimento de 
-software.
-* **B)** fornecer metodologias para análise de mercado de TI.
-* **C)** definir diretrizes para a gestão e controle de tecnologia da 
-informação.
-* **D)** implementar práticas para otimização de infraestrutura de 
-rede.
-* **E)** padronizar processos para conformidade fiscal em TI.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: C**
-
----
 ## 6. Fontes Recomendadas na Internet
 
 * [ISACA - COBIT Framework Resources](https://www.isaca.org/resources/cobit) - Visão geral oficial do COBIT 2019, princípios de governança, objetivos de gestão e fatores de desenho.

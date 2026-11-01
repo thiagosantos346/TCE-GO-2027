@@ -193,40 +193,27 @@ O advogado respondeu corretamente que aos autores pertence o direito exclusivo d
 > **Gabarito: B**
 
 ### Teste 123
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Maria, Joana e Antônio, respectivamente, brasileira nata, 
-brasileira naturalizada e ugandense residente no território 
-brasileiro, consultaram um especialista em relação à existência, ou 
-não, de distinção em relação à situação jurídica de cada qual 
-considerando os direitos fundamentais e os direitos políticos. 
-O especialista respondeu corretamente q ue, à luz dos 
-balizamentos estabelecidos pela Constituição da República,
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+O art. 5º, XII, da Constituição Federal estabelece que "é inviolável o sigilo da correspondência e das comunicações telegráficas, de dados e das comunicações telefônicas, salvo, no último caso, por ordem judicial, nas hipóteses e na forma que a lei estabelecer para fins de investigação criminal ou instrução processual penal". À luz da jurisprudência do STF e do STJ sobre a quebra de sigilo bancário e fiscal, é correto afirmar:
 
-* **A)** os três possuem os mesmos direitos fundamentais, mas, 
-atendidos os requisitos exigidos, não há identidade em relação 
-aos direitos políticos.
-* **B)** Maria e Joana possuem os mesmos d ireitos políticos, apesar 
-de a naturalização desta última poder ser cassada.
-* **C)** diversamente de Maria e Joana, Antônio não possui direitos 
-fundamentais e, por via reflexa, não possui direitos políticos.
-* **D)** somente possuem direitos políticos aqueles que p ossuem 
-direitos fundamentais, logo, os três os possuem.
-* **E)** Maria e Joana não possuem os mesmos direitos fundamentais, 
-e Antônio não pode usufruir de direitos políticos.
+* **A)** A quebra do sigilo fiscal pelo Fisco exige autorização judicial prévia sob pena de nulidade absoluta.
+* **B)** O Fisco pode requisitar diretamente informações a instituições bancárias sem autorização judicial prévia.
+* **C)** As CPIs estaduais podem determinar busca e apreensão domiciliar na pendência de inquérito administrativo.
+* **D)** A interceptação de comunicações telefônicas é admitida em processos administrativos de natureza disciplinar.
+* **E)** As mensagens trocadas via correio eletrônico corporativo são imunes ao controle exercido pelo empregador.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Incorreto**. Conforme julgamento conjunto das ADIs 2.390, 2.386, 2.365 e 2.859 e do RE 601.314/SP (Tema 225 do STF), o art. 6º da Lei Complementar nº 105/2001 é plenamente constitucional. Não há propriamente "quebra", mas transferência do dever de sigilo bancário das instituições financeiras para o Fisco, sem necessidade de autorização judicial prévia.
+> - **B)** **Correto**. O Plenário do STF firmou tese de repercussão geral no sentido de que a transferência do sigilo bancário ao Fisco, no âmbito de procedimento fiscalizatório devidamente instaurado e sob garantia de preservação do segredo fiscal, não viola a cláusula de reserva de jurisdição.
+> - **C)** **Incorreto**. CPIs (mesmo as federais) possuem poderes de instrução próprios das autoridades judiciais, mas não detêm reserva absoluta de jurisdição (não podem determinar busca e apreensão domiciliar nem interceptação telefônica).
+> - **D)** **Incorreto**. A interceptação de comunicações telefônicas (gravação de conversas alheias sem ciência) é restrita estritamente a investigação criminal ou instrução processual penal.
+> - **E)** **Incorreto**. O TST e o STJ admitem a fiscalização de e-mail corporativo fornecido exclusivamente para fins funcionais.
 >
-> **Gabarito: A**
+> **Gabarito: B**
 
----
 ### Teste 124
 **(FGV – TRT-1 – Analista Judiciário - Tecnologia da Informação – 2024)**  
 Ana, servidora aposentada do município Alfa, solicitou à autoridade competente que fossem fornecidas as informações relativas à sua pessoa constantes dos respectivos assentamentos funcionais. Ao preencher o respectivo formulário, informou, no campo da justificativa, que o motivo era "pessoal", o que motivou o indeferimento do pleito com base no argumento de que a motivação não era juridicamente idônea.  
@@ -251,39 +238,27 @@ Considerando a narrativa e a sistemática constitucional afeta à matéria, é c
 > **Gabarito: C**
 
 ### Teste 125
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Mara, de nacionalidade brasileira, casou com Stevenson, de 
-nacionalidade holandesa, e passou a viver na Áustria. Com o 
-objetivo de facilitar sua integração no país em que residia, não 
-como requisito para a fruição de direitos civis, Mara decidiu se 
-naturalizar austríaca.  
-Após alguns anos, Mara consultou a legislação vige nte com o 
-objetivo de verificar a possibilidade de vir a perder à nacionalidade 
-brasileira, tendo concluído corretamente que
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A respeito da legitimação ativa e dos requisitos de admissibilidade dos remédios constitucionais, analise a disciplina do Mandado de Segurança Coletivo e da Ação Popular. É correto afirmar que:
 
-* **A)** ao casar com Stevenson, em razão do jus nuptias, ela adquiriu 
-a nacionalidade holandesa, perdendo a brasileira;
-* **B)** ao se natur alizar austríaca, nas circunstâncias indicadas, ela 
-perdeu a nacionalidade brasileira;
-* **C)** não será possível a realização do desiderato de Mara, pois se 
-tornará apátrida, o que é vedado;
-* **D)** a nacionalidade, por estar integrada aos direitos da 
-personalidade, é irrenunciável;
-* **E)** ela terá que fazer pedido expresso à autoridade brasileira.
+* **A)** Qualquer pessoa jurídica legalmente constituída possui legitimidade para propor ação popular.
+* **B)** O mandado de segurança coletivo impetrado por partido exige representação parlamentar no Congresso.
+* **C)** As associações civis necessitam de autorização assemblear específica para impetrar mandado de segurança coletivo.
+* **D)** A desistência da ação popular pelo autor originário acarreta a extinção imediata do processo sem julgamento de mérito.
+* **E)** A concessão de medida liminar em mandado de segurança prescinde da demonstração de perigo de dano irreparável.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Incorreto**. A teor do art. 5º, LXXIII, da CF/88 e da Súmula 365 do STF, "qualquer cidadão é parte legítima para propor ação popular". Pessoa jurídica não possui condição de cidadão e não pode ajuizar ação popular.
+> - **B)** **Correto**. O art. 5º, LXX, 'a', da CF/88 confere legitimidade ativa para o mandado de segurança coletivo a "partido político com representação no Congresso Nacional" (basta possuir um único Deputado Federal ou Senador da República no momento da propositura).
+> - **C)** **Incorreto**. Conforme a Súmula 629 do STF, "a impetração de mandado de segurança coletivo por entidade de classe em favor dos associados independe da autorização destes", atuando como substituta processual (art. 21 da Lei nº 12.016/2009).
+> - **D)** **Incorreto**. Desistindo o autor originário da ação popular, o Ministério Público ou qualquer outro cidadão pode assumir o polo ativo (art. 9º da Lei nº 4.717/1965).
+> - **E)** **Incorreto**. A liminar em mandado de segurança exige a concorrência dos dois requisitos essenciais: fundamento relevante (*fumus boni iuris*) e risco de ineficácia da medida (*periculum in mora*).
 >
-> **Gabarito: C**
+> **Gabarito: B**
 
----
 ### Teste 126
 **(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**  
 Ao dispor sobre os direitos dos trabalhadores urbanos e rurais, a Constituição da República admite, expressamente, que seja objeto de acordo ou convenção coletiva de trabalho:
@@ -307,40 +282,34 @@ Ao dispor sobre os direitos dos trabalhadores urbanos e rurais, a Constituição
 > **Gabarito: B**
 
 ### Teste 127
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Maria, Joana e Antônio, respectivamente, brasileira nata, 
-brasileira naturalizada e ugandense residente no território 
-brasileiro, consultaram um especialista em relação à existência, ou 
-não, de distinção em relação à situação jurídica de cada qual 
-considerando os direitos fundamentais e os direitos políticos. 
-O especialista respondeu corretamente q ue, à luz dos 
-balizamentos estabelecidos pela Constituição da República,
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Considere os seguintes direitos dos trabalhadores:
 
-* **A)** os três possuem os mesmos direitos fundamentais, mas, 
-atendidos os requisitos exigidos, não há identidade em relação 
-aos direitos políticos.
-* **B)** Maria e Joana possuem os mesmos d ireitos políticos, apesar 
-de a naturalização desta última poder ser cassada.
-* **C)** diversamente de Maria e Joana, Antônio não possui direitos 
-fundamentais e, por via reflexa, não possui direitos políticos.
-* **D)** somente possuem direitos políticos aqueles que p ossuem 
-direitos fundamentais, logo, os três os possuem.
-* **E)** Maria e Joana não possuem os mesmos direitos fundamentais, 
-e Antônio não pode usufruir de direitos políticos.
+I. Seguro-desemprego.  
+II. Piso salarial proporcional à extensão e à complexidade do trabalho.  
+III. Remuneração do trabalho noturno superior à do diurno.  
+IV. Repouso semanal remunerado, preferencialmente aos domingos.  
+
+Nos termos da Constituição Federal, são estendidos aos trabalhadores domésticos os direitos indicados APENAS em:
+
+* **A)** I, II, III e IV.
+* **B)** II, III e IV.
+* **C)** I e II.
+* **D)** III e IV.
+* **E)** II.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Correto**. A Emenda Constitucional nº 72/2013 ("PEC das Domésticas") alterou profundamente o parágrafo único do art. 7º da CF/88, estendendo aos trabalhadores domésticos tanto os direitos de eficácia imediata — repouso semanal remunerado (XV), remuneração do trabalho noturno superior à do diurno (IX) — quanto os direitos condicionados à regulamentação legal posterior — seguro-desemprego (II) e piso salarial fixado em lei (V), ambos efetivamente disciplinados pela Lei Complementar nº 150/2015. Logo, todos os quatro itens listados são direitos constitucionais titularizados pelos trabalhadores domésticos.
+> - **B)** **Incorreto**. O seguro-desemprego (item I) foi expressamente conferido aos trabalhadores domésticos pela EC 72/2013 e regulamentado pela LC 150/2015.
+> - **C)** **Incorreto**. Os itens III e IV também são garantias plenamente aplicáveis aos trabalhadores domésticos.
+> - **D)** **Incorreto**. Os itens I e II também estão integrados ao patrimônio jurídico dos empregados domésticos.
+> - **E)** **Incorreto**. A tutela constitucional dos domésticos abrange amplamente o catálogo examinado.
 >
 > **Gabarito: A**
 
----
 ### Teste 128
 **(FGV – TRT-1 – Analista Judiciário - Tecnologia da Informação – 2024)**  
 Maria nasceu no território brasileiro quando seus pais, Juan e Ane, de cidadania espanhola, ali se encontravam a serviço da embaixada espanhola. Após ter vivido por cinco anos no Brasil, mudou-se para a Austrália juntamente com seus pais, que passaram a atuar na iniciativa privada. Logo após atingir a maioridade, Maria cometeu um crime comum em solo australiano e fugiu para o Brasil, onde foi presa. O governo da Austrália requereu a sua extradição.  

@@ -111,72 +111,82 @@ Propriedades críticas da divisão inteira:
 ---
 
 ### Teste 072
-**(FGV – TJ-MT – Analista Judiciário - Tecnologia da Informação – 2024)**
-A linguagem de programação Python é uma linguagem de alto 
-nível, de tipagem dinâmica e interpretada, conhecida pela sua 
-simplicidade, legibilidade e versatilidade. Criada por Guido van 
-Rossum e lançada pela primeira vez em 1991 , Python tem se 
-tornado uma das linguagens mais populares do mundo, devido à 
-sua capacidade de ser usada em diversos tipos de projetos, como 
-desenvolvimento web, automação, análise de dados, inteligência 
-artificial, aprendizado de máquina, automação de tarefas, entre 
-outros.  
-Em Python, o operador //
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Considere a expressão numérica $E = 0{,}333... + \frac{1}{6} - 0{,}25$. O valor exato de $E$ expresso sob a forma de fração irredutível é igual a:
 
-* **A)** realiza a divisão entre dois números e retorna o resultado com 
-a maior precisão possível.
-* **B)** realiza a divisão entre dois números e sempre retorna um 
-número com ponto decimal, mesmo que o resultado seja 
-inteiro.
-* **C)** eleva o primeiro número ao segundo número, funcionando 
-como um operador de potência.
-* **D)** realiza a divisão inteira entre dois números, retornando 
-apenas a parte inteira do resultado e descartando o resto.
-* **E)** realiza a divisão entre dois números e retorna o resto da 
-divisão, semelhante ao operador %.
+* **A)** $\frac{1}{4}$
+* **B)** $\frac{1}{3}$
+* **C)** $\frac{1}{2}$
+* **D)** $\frac{5}{12}$
+* **E)** $\frac{7}{12}$
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **1º Passo:** Converter os números decimais e a dízima periódica em frações ordinárias:  
+>   - A dízima periódica simples $0{,}333...$ tem como fração geratriz $\frac{3}{9} = \frac{1}{3}$.  
+>   - O decimal exato $0{,}25$ corresponde a $\frac{25}{100} = \frac{1}{4}$.  
+> - **2º Passo:** Substituir os valores na expressão:  
+>   $$E = \frac{1}{3} + \frac{1}{6} - \frac{1}{4}$$  
+> - **3º Passo:** Obter o MMC dos denominadores $3, 6, 4$:  
+>   $MMC(3, 6, 4) = 12$.  
+> - **4º Passo:** Reduzir ao mesmo denominador e efetuar as operações:  
+>   $$E = \frac{4}{12} + \frac{2}{12} - \frac{3}{12} = \frac{4 + 2 - 3}{12} = \frac{3}{12}$$  
+> - **5º Passo:** Simplificar a fração obtida:  
+>   $$\frac{3}{12} = \frac{1}{4}$$  
+> - **Conclusão:** O resultado é $\frac{1}{4}$ (Alternativa A).
 >
+> **Gabarito: A**
+
+---
+
+### Teste 073
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Considere a sequência infinita de números formados pela repetição cíclica dos algarismos do número 74582:
+$$7, 4, 5, 8, 2, 7, 4, 5, 8, 2, 7, 4, 5, 8, 2, \dots$$
+O algarismo que ocupa a 2027ª posição nessa sequência e o resto da divisão de 2027 por 5 são, respectivamente:
+
+* **A)** 5 e 2
+* **B)** 4 e 2
+* **C)** 7 e 1
+* **D)** 5 e 3
+* **E)** 8 e 4
+
+
+---
+
+> **Comentário Detalhado:**
+> Análise do padrão de periodicidade cíclica:
+>
+> 1. O ciclo básico é composto por 5 algarismos ordenados:
+>     - 1º elemento: 7 (posições que deixam resto 1 na divisão por 5)
+>     - 2º elemento: 4 (posições que deixam resto 2 na divisão por 5)
+>     - 3º elemento: 5 (posições que deixam resto 3 na divisão por 5)
+>     - 4º elemento: 8 (posições que deixam resto 4 na divisão por 5)
+>     - 5º elemento: 2 (posições que deixam resto 0 na divisão por 5, múltiplos exatos de 5)
+>
+> 2. Pelo algoritmo da divisão euclidiana, dividimos a posição 2027 pelo comprimento do período (5):
+>    $$2027 = 5 \times 405 + 2$$
+>     - O quociente 405 indica que o ciclo completo de 5 algarismos é repetido integralmente 405 vezes.
+>     - O **resto é 2**.
+>
+> 3. Como o resto da divisão é 2, o algarismo que ocupa a 2027ª posição corresponde ao segundo elemento do bloco cíclico padrão $(7, \mathbf{4}, 5, 8, 2)$, que é o algarismo **4**.
+> 4. Logo, o algarismo é **4** e o resto é **2**.
+>
+> Análise das alternativas:
+>
+> - **A)** Incorreta. Indica o algarismo 5, que corresponderia a resto 3.
+> - **B)** Correta. O algarismo na posição 2027 é o 2º elemento do ciclo (**4**) e o resto da divisão euclidiana de 2027 por 5 é **2**.
+> - **C)** Incorreta. Aponta resto 1 e algarismo 7.
+> - **D)** Incorreta. Afirma erroneamente que o resto de 2027 por 5 é 3.
+> - **E)** Incorreta. Aponta o algarismo 8 e resto 4.
+> 
 > **Gabarito: B**
 
 ---
-### Teste 073
-**(FGV – TJ-MT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Considere os conjuntos 𝐴, 𝐵 e 𝐶 tais que: 
-𝐴 = {conjunto dos múltiplos inteiros e positivos de 3}; 
-𝐵 = {conjunto dos múltiplos inteiros e positivos de 8}; 
-𝐶 = {conjunto dos múltiplos inteiros e positivos de 12}. 
-É correto afirmar que 𝐴 ∩ 𝐶 − 𝐵 corresponde ao conjunto
 
-* **A)** dos múltiplos inteiros e positivos de 12.
-* **B)** dos múltiplos inteiros e positivos de 24.
-* **C)** dos números inteiros e positivos que, divididos por 24, deixam 
-resto 12.
-* **D)** dos números inteiros e positivos que, divididos por 24, deixam 
-resto 6.
-* **E)** vazio.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: D**
-
----
 ## 2. Operações Aritméticas e Expressões Numéricas
 
 ### 2.1 Ordem de Precedência das Operações e Delimitadores
@@ -209,30 +219,31 @@ A potenciação traduz o produto de fatores idênticos repetidos ($a^n = \underb
 ---
 
 ### Teste 074
-**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
-Sejam A, B e C números inteiros e positivos tais que A  B = 20 e  
-A  C = 36. 
-A soma A + B + C vale
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+O valor numérico da expressão aritmética $K = \frac{2^{20} + 2^{18}}{2^{19} - 2^{17}}$ é igual a:
 
-* **A)** 20.
-* **B)** 30.
-* **C)** 40.
-* **D)** 50.
-* **E)** 60.
+* **A)** $\frac{5}{3}$ em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **B)** $\frac{10}{3}$
+* **C)** $2$
+* **D)** $4$
+* **E)** $\frac{5}{6}$
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **Método de Resolução (Fatoração por Colocação em Evidência):** Em expressões com potências de mesma base com expoentes elevados, a estratégia padrão da FCC consiste em colocar em evidência a potência de menor expoente no numerador e no denominador.  
+> - **No numerador:** $2^{20} + 2^{18} = 2^{18} \cdot (2^2 + 1) = 2^{18} \cdot (4 + 1) = 2^{18} \cdot 5$.  
+> - **No denominador:** $2^{19} - 2^{17} = 2^{17} \cdot (2^2 - 1) = 2^{17} \cdot (4 - 1) = 2^{17} \cdot 3$.  
+> - **Dividindo numerador por denominador:**  
+>   $$K = \frac{2^{18} \cdot 5}{2^{17} \cdot 3} = \frac{2^{18}}{2^{17}} \cdot \frac{5}{3} = 2^{18-17} \cdot \frac{5}{3} = 2^1 \cdot \frac{5}{3} = \frac{10}{3}$$  
+> - **Conclusão:** O valor numérico de $K$ é exatamente $\frac{10}{3}$ (Alternativa B).
 >
-> **Gabarito: A**
+> **Gabarito: B**
 
 ---
+
 ## 3. Teoria dos Números: Divisibilidade, Primos, MMC e MDC
 
 A teoria dos números fornece o ferramental algébrico para lidar com divisões inteiras, periodicidade de escalas e otimização de lotes em logística e auditoria.
@@ -299,81 +310,117 @@ $$\text{MMC}(a, b) \times \text{MDC}(a, b) = a \times b$$
 ---
 
 ### Teste 075
-**(FGV – TRF-1 – Analista Judiciário - Tecnologia da Informação – 2024)**
-A frase abaixo em que está mais bem empregada a palavra 
-“maior” é:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+O número de divisores naturais positivos do número inteiro $N = 360$ é igual a:
 
-* **A)** Os espíritos mais elevados são capazes dos maiores pecados;
-* **B)** A roda mais deteriorada do carro é a que faz maior barulho;
-* **C)** Dirijam-se à secretaria para maiores informações;
-* **D)** O Corcovado é maior que o Pão de Açúcar;
-* **E)** Está o maior frio nesta época do ano.
+* **A)** $18$
+* **B)** $24$
+* **C)** $20$
+* **D)** $30$
+* **E)** $12$
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **Regra da Quantidade de Divisores Positivos:** Para determinar o número de divisores positivos de um inteiro $N$, realiza-se a decomposição canônica em fatores primos:  
+>   $$N = p_1^{\alpha_1} \cdot p_2^{\alpha_2} \cdot ... \cdot p_k^{\alpha_k}$$  
+>   A quantidade total de divisores positivos é dada pelo produto dos expoentes acrescidos de uma unidade:  
+>   $$D(N) = (\alpha_1 + 1) \cdot (\alpha_2 + 1) \cdot ... \cdot (\alpha_k + 1)$$  
+> - **Fatoração de 360:**  
+>   $360 = 36 \times 10 = (2^2 \cdot 3^2) \cdot (2 \cdot 5) = 2^3 \cdot 3^2 \cdot 5^1$.  
+> - **Cálculo dos divisores:**  
+>   - Expoente da base 2: $\alpha_1 = 3 \rightarrow (3 + 1) = 4$  
+>   - Expoente da base 3: $\alpha_2 = 2 \rightarrow (2 + 1) = 3$  
+>   - Expoente da base 5: $\alpha_3 = 1 \rightarrow (1 + 1) = 2$  
+>   $$D(360) = 4 \times 3 \times 2 = 24$$  
+> - **Conclusão:** O número 360 possui exatamente 24 divisores naturais positivos (Alternativa B).
 >
-> **Gabarito: D**
+> **Gabarito: B**
 
 ---
+
 ### Teste 076
-**(FGV – TRT-1 – Analista Judiciário - Tecnologia da Informação – 2024)**
-A frase abaixo em que está mais bem empregada a palavra 
-“maior” é:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Três equipes de fiscalização do Tribunal de Contas realizam auditorias periódicas em municípios do interior goiano. A equipe Alfa realiza auditorias a cada 12 dias; a equipe Beta, a cada 18 dias; e a equipe Gama, a cada 20 dias. No dia 1º de março de determinado ano não bissexto, as três equipes iniciaram suas inspeções simultaneamente.
 
-* **A)** Os espíritos mais elevados são capazes dos maiores pecados;
-* **B)** A roda mais deteriorada do carro é a que faz maior barulho;
-* **C)** Dirijam-se à secretaria para maiores informações;
-* **D)** O Corcovado é maior que o Pão de Açúcar;
-* **E)** Está o maior frio nesta época do ano.
+O número de dias que decorrerão até que as três equipes voltem a iniciar suas auditorias no mesmo dia é:
+
+* **A)** 60 dias
+* **B)** 120 dias
+* **C)** 180 dias
+* **D)** 240 dias
+* **E)** 360 dias
+
 
 ---
 
 > **Comentário Detalhado:**
+> O problema demanda o cálculo do menor intervalo de tempo em que eventos com frequências periódicas distintas coincidem simultaneamente no futuro, o que se resolve determinando o **Mínimo Múltiplo Comum (MMC)** entre 12, 18 e 20.
+> Decompondo os números em fatores primos simultâneos:
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - $12 = 2^2 \times 3$
+> - $18 = 2 \times 3^2$
+> - $20 = 2^2 \times 5$
+> 
+> O MMC reúne todos os fatores primos presentes (2, 3 e 5), elevados aos seus maiores expoentes:
+> $$\text{MMC}(12, 18, 20) = 2^2 \times 3^2 \times 5 = 4 \times 9 \times 5 = 180 \text{ dias}$$
+> 
+> Análise individual das alternativas:
 >
-> **Gabarito: D**
+> - **A)** Incorreta. 60 é múltiplo comum de 12 e 20, mas não é divisível por 18 ($60 \div 18 \approx 3,33$).
+> - **B)** Incorreta. 120 é divisível por 12 e por 20, mas não divide exatamente por 18 ($120 \div 18 \approx 6,66$).
+> - **C)** Correta. 180 é o menor número natural simultaneamente divisível por 12 ($180/12 = 15$), 18 ($180/18 = 10$) e 20 ($180/20 = 9$).
+> - **D)** Incorreta. 240 não é divisível por 18 ($240 \div 18 \approx 13,33$).
+> - **E)** Incorreta. 360 é um múltiplo comum posterior, mas a questão indaga expressamente quando voltarão a coincidir (primeiro reencontro após 1º de março).
+> 
+> **Gabarito: C**
 
 ---
+
 ### Teste 077
-**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
-Sejam A, B e C números inteiros e positivos tais que A  B = 20 e  
-A  C = 36. 
-A soma A + B + C vale
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Uma coordenadoria administrativa do TCE-GO precisa arquivar 168 pastas de auditoria do tipo A, 216 pastas do tipo B e 264 pastas do tipo C em caixas organizadoras. Todas as caixas devem conter o mesmo número de pastas, sendo que cada caixa conterá pastas de um único tipo, e o número de pastas por caixa deve ser o **maior possível**, sem que sobre nenhuma pasta avulsa.
 
-* **A)** 20.
-* **B)** 30.
-* **C)** 40.
-* **D)** 50.
-* **E)** 60. 
+Nessas condições, o **número total de caixas organizadoras** necessárias para arquivar todas as pastas é:
 
+* **A)** 24
+* **B)** 27
+* **C)** 32
+* **D)** 36
+* **E)** 48
 
-TRIBUNAL REGIONAL DO TRABALHO DA 24ª REGIÃO (TRT-24) – REAPLICAÇÃO FGV CONHECIMENTO
 
 ---
 
 > **Comentário Detalhado:**
+> A resolução compõe-se de duas etapas lógicas:
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> 1. Para que as caixas tenham capacidade idêntica, comportem apenas pastas do mesmo tipo e o número de pastas em cada caixa seja o **maior possível**, a capacidade de cada caixa deve corresponder ao **Máximo Divisor Comum (MDC)** entre 168, 216 e 264:
+>     - $168 = 2^3 \times 3 \times 7$
+>     - $216 = 2^3 \times 3^3$
+>     - $264 = 2^3 \times 3 \times 11$
+>     - $\text{MDC}(168, 216, 264) = 2^3 \times 3^1 = 8 \times 3 = 24 \text{ pastas por caixa}$.
 >
-> **Gabarito: A**
+> 2. O enunciado indaga expressamente o **número de caixas** demandado (e não a quantidade de pastas por caixa):
+>     - Caixas para o lote A: $168 \div 24 = 7 \text{ caixas}$
+>     - Caixas para o lote B: $216 \div 24 = 9 \text{ caixas}$
+>     - Caixas para o lote C: $264 \div 24 = 11 \text{ caixas}$
+>     - Total de caixas: $7 + 9 + 11 = 27 \text{ caixas}$.
+>
+> Análise das alternativas:
+>
+> - **A)** Incorreta. 24 é a capacidade unitária de pastas em cada caixa (o valor do MDC), armadilha clássica da FCC para o candidato desatento ao comando da questão.
+> - **B)** Correta. 27 caixas no total ($7 + 9 + 11$).
+> - **C)** Incorreta. Com 32 caixas, o total de 648 pastas ($168 + 216 + 264$) exigiria $648 \div 32 = 20{,}25$ pastas por caixa (valor não inteiro), o que é inviável.
+> - **D)** Incorreta. Com 36 caixas, haveria $648 \div 36 = 18$ pastas por caixa; porém 18 não divide 168 ($168 \div 18 \approx 9{,}33$), o que deixaria pastas avulsas.
+> - **E)** Incorreta. Com 48 caixas, haveria $648 \div 48 = 13{,}5$ pastas por caixa (valor não inteiro), o que é inviável.
+> 
+> **Gabarito: B**
 
 ---
+
 ## 4. Álgebra Fracionária e Operações com Frações
 
 Uma fração $\frac{a}{b}$ representa uma divisão indicada onde o denominador $b$ assinala em quantas partes iguais a unidade inteira foi particionada, e o numerador $a$ indica quantas dessas partes foram tomadas.
@@ -400,26 +447,33 @@ Uma fração $\frac{a}{b}$ representa uma divisão indicada onde o denominador $
 ---
 
 ### Teste 078
-**(FCC – TRT-14 – Analista Judiciário (TI) – 2016)**  
-Em  um curso de informática, 3 2 dos alunos matriculados são mulheres. Em certo dia de aula, 5 2  das mulheres matriculadas no curso estavam  presentes e todos os homens matriculados estavam  presentes, o que totalizou 27 alunos (homens e mulheres) presentes na aula. Nas condições dadas, o total de alunos homens matriculados nesse curso é igual a
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Um servidor do tribunal recebeu determinado lote de processos para instruir. No primeiro dia, analisou $\frac{2}{5}$ do total de processos; no segundo dia, analisou $\frac{1}{3}$ do que havia sobrado; e, no terceiro dia, concluiu os últimos $24$ processos restantes. O número total de processos contidos no lote original era igual a:
 
-* **A)** 18.
-* **B)** 10.
-* **C)** 15.
-* **D)** 12.
-* **E)** 21.
+* **A)** $50$
+* **B)** $60$
+* **C)** $75$
+* **D)** $80$
+* **E)** $90$
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Supondo um total de $N$ alunos matriculados, $2/3 N$ são mulheres e $1/3 N$ são homens. Faltaram $2/5$ das mulheres, logo compareceram $3/5 \times (2/3 N) = 2/5 N$ mulheres. Faltaram $3/4$ dos homens, logo compareceram $1/4 \times (1/3 N) = 1/12 N$ homens. O total de alunos presentes é $2/5 N + 1/12 N = (24 + 5)/60 N = 29/60 N$. A fração de mulheres em relação aos presentes é $(2/5 N) / (29/60 N) = (24/60) / (29/60) = 24/29$.
-> - **B)** Incorreta. O cálculo inverteu as proporções de faltas entre os gêneros.
-> - **C)** Incorreta. Desconsiderou a fração de homens presentes no denominador.
-> - **D)** Incorreta. Calculou a razão de mulheres sobre o total de matriculados, não sobre os presentes.
-> - **E)** Incorreta. Erro na harmonização dos denominadores no cálculo das frações.
+> - **Método da Cadeia Regressiva (Fração de Resto):**  
+>   - Seja $P$ o total original de processos.  
+>   - **Dia 1:** O servidor instruiu $\frac{2}{5}P$.  
+>     Restante após o dia 1: $1 - \frac{2}{5} = \frac{3}{5}P$.  
+>   - **Dia 2:** O servidor instruiu $\frac{1}{3}$ do restante:  
+>     $$\frac{1}{3} \times \frac{3}{5}P = \frac{1}{5}P$$  
+>     Fração total instruída nos dois primeiros dias: $\frac{2}{5}P + \frac{1}{5}P = \frac{3}{5}P$.  
+>     Restante final para o dia 3: $1 - \frac{3}{5} = \frac{2}{5}P$.  
+>   - **Dia 3:** Esse restante final corresponde a 24 processos:  
+>     $$\frac{2}{5}P = 24 \implies 2P = 24 \times 5 = 120 \implies P = \frac{120}{2} = 60$$  
+> - **Conferência:** $60 \times \frac{2}{5} = 24$ no 1º dia (sobram 36); $\frac{1}{3} \times 36 = 12$ no 2º dia (sobram 24); $24$ no 3º dia. Perfeito.
 >
-> **Gabarito: A**
+> **Gabarito: B**
 
 ---
 
@@ -457,87 +511,117 @@ Em problemas que constroem sequências infinitas repetindo ciclicamente um conju
 ---
 
 ### Teste 079
-**(FGV – TJ-MT – Analista Judiciário (TI) – 2024)**  
-Seja 𝐴 o conjunto de todos os alunos da turma 𝑋 da escola 𝑌 e 𝑥 ∈ 𝐴. Considere as seguintes funções proposicionais: 𝑝(𝑥): o aluno 𝑥 sabe lógica. 𝑞(𝑥): o aluno 𝑥 sabe filosofia. 𝑟(𝑥): o aluno 𝑥 será aprovado no ano letivo de 2024. A proposição composta “Qualquer que seja o aluno da turma 𝑋 da escola 𝑌, se ele sabe lógica ou sabe filosofia, então será aprovado no ano letivo de 2024” é melhor representada, em linguagem simbólica, por
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Um auditor do TCE-GO foi designado para realizar a conferência documental de uma amostra de processos de licitação municipal. No primeiro dia de trabalho, o auditor analisou $\frac{1}{3}$ do total de processos da amostra. No segundo dia, analisou $\frac{3}{5}$ dos processos **restantes**. No terceiro dia, finalizou a conferência analisando os últimos 48 processos.
 
-* **A)** ∃𝑥: (𝑝(𝑥) ∧ 𝑞(𝑥) → 𝑟(𝑥))
-* **B)** ∃𝑥: (𝑝(𝑥) ∨ 𝑞(𝑥) → 𝑟(𝑥))
-* **C)** ∀𝑥: (𝑝(𝑥) ∧ 𝑞(𝑥) → 𝑟(𝑥))
-* **D)** ∀𝑥: (𝑝(𝑥) ∨ 𝑞(𝑥) → 𝑟(𝑥))
-* **E)** ∄𝑥: (𝑝(𝑥) ∨ 𝑞(𝑥) → 𝑟(𝑥))
+O número total de processos contidos originalmente nessa amostra era:
+
+* **A)** 150
+* **B)** 160
+* **C)** 180
+* **D)** 200
+* **E)** 240
+
 
 ---
 
 > **Comentário Detalhado:**
+> Modelando o problema algebricamente:
 >
-> - **A)** Incorreta. A intersecção dos predicados não representa a totalidade do conjunto universo.
-> - **B)** Incorreta. O complementar do conjunto foi definido com operador lógico inconsistente.
-> - **C)** Incorreta. A união de predicados mutuamente exclusivos não produz conjunto vazio nesse cenário.
-> - **D)** Incorreta. Há falha na aplicação da lei de inclusão e exclusão para a cardinalidade dos subconjuntos.
-> - **E)** Correta. A notação formal da teoria dos conjuntos mapeia rigorosamente as funções proposicionais sobre o conjunto universo $A$: o subconjunto dos elementos que satisfazem simultaneamente os predicados definidos equivale à interseção dos respectivos conjuntos-verdade.
+> - Seja $T$ a quantidade total de processos da amostra.
+> - **No Dia 1:** O auditor executou $\frac{1}{3}T$. A quantidade remanescente após o primeiro dia é:
+>   $$\text{Resto}_1 = T - \frac{1}{3}T = \frac{2}{3}T$$
+> - **No Dia 2:** O auditor analisou $\frac{3}{5}$ do que restava. Logo, sobrou $\frac{2}{5}$ daquele montante restante:
+>   $$\text{Resto Final} = \left(1 - \frac{3}{5}\right) \times \text{Resto}_1 = \frac{2}{5} \times \left(\frac{2}{3}T\right) = \frac{4}{15}T$$
+> - **No Dia 3:** O enunciado informa que o resto final totalizou 48 processos. Igualando os valores:
+>   $$\frac{4}{15}T = 48 \implies 4T = 48 \times 15 \implies 4T = 720 \implies T = \frac{720}{4} = 180$$
 >
-> **Gabarito: E**
+> Análise individual das alternativas:
+>
+> - **A)** Incorreta. Se o total fosse 150, o resto final seria $\frac{4}{15} \times 150 = 40$ processos, divergindo dos 48 informados.
+> - **B)** Incorreta. Com $T = 160$, o resto final seria $\frac{4}{15} \times 160 \approx 42{,}7$ processos (valor não inteiro), divergindo dos 48 informados.
+> - **C)** Correta. Com $T = 180$: no dia 1 são analisados 60 processos (restando 120); no dia 2 são analisados $\frac{3}{5} \times 120 = 72$ processos (restando $120 - 72 = 48$); no dia 3 são analisados exatamente os 48 processos finais.
+> - **D)** Incorreta. Com $T = 200$, o resto final seria $\frac{4}{15} \times 200 \approx 53{,}3$ processos (valor não inteiro), divergindo dos 48 informados. (Erro típico: aplicar $\frac{3}{5}$ sobre o total geral em vez de sobre o restante, o que daria $1 - \frac{1}{3} - \frac{3}{5} = \frac{1}{15}$ e $T = 720$, valor que nem figura entre as alternativas.)
+> - **E)** Incorreta. Com $T = 240$, o resto final seria $\frac{4}{15} \times 240 = 64$ processos, divergindo dos 48 informados.
+> 
+> **Gabarito: C**
 
 ---
 
 ### Teste 080
-**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
-Sejam A, B e C números inteiros e positivos tais que A  B = 20 e  
-A  C = 36. 
-A soma A + B + C vale
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Dois técnicos de controle externo, Bruno e Camila, foram encarregados de digitalizar e indexar um acervo de processos arquivados. Trabalhando sozinho, Bruno realiza todo o serviço em 6 horas. Camila, trabalhando sozinha, executa o mesmo serviço em 4 horas. 
 
-* **A)** 20.
-* **B)** 30.
-* **C)** 40.
-* **D)** 50.
-* **E)** 60.
+Se Bruno e Camila trabalharem juntos, no mesmo ritmo de produtividade constante, o tempo necessário para digitalizar e indexar todo o acervo será de:
+
+* **A)** 2 horas e 12 minutos
+* **B)** 2 horas e 24 minutos
+* **C)** 2 horas e 30 minutos
+* **D)** 2 horas e 40 minutos
+* **E)** 5 horas
+
 
 ---
 
 > **Comentário Detalhado:**
+> Problema clássico de trabalho cooperativo e soma de taxas operatórias:
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> 1. Taxa horária de Bruno: $v_B = \frac{1}{6}$ do serviço por hora.
+> 2. Taxa horária de Camila: $v_C = \frac{1}{4}$ do serviço por hora.
+> 3. Taxa conjunta trabalhando juntos:
+>    $$v_{\text{juntos}} = \frac{1}{6} + \frac{1}{4} = \frac{2 + 3}{12} = \frac{5}{12} \text{ do serviço por hora}$$
+> 4. Tempo total necessário ($T$):
+>    $$T = \frac{1}{v_{\text{juntos}}} = \frac{12}{5} \text{ horas} = 2,4 \text{ horas}$$
+> 5. Conversão da fração horária decimal:
+>    A parte inteira é de 2 horas. A parte decimal corresponde a:
+>    $$0,4 \text{ hora} = 0,4 \times 60 \text{ minutos} = 24 \text{ minutos}$$
+>    Portanto, o tempo total é de **2 horas e 24 minutos**.
 >
-> **Gabarito: A**
+> Análise das alternativas:
+>
+> - **A)** Incorreta. Erra ao converter a parte decimal tomando $0,2$ em vez de $0,4$.
+> - **B)** Correta. $2,4 \text{ horas} = 2 \text{ horas e } 24 \text{ minutos}$.
+> - **C)** Incorreta. Resulta da confusão de achar que 2,4h equivale à média de tempo ou 2h30min.
+> - **D)** Incorreta. Erro crasso de interpretar o dígito 4 do número decimal 2,4 como 40 minutos (a contagem do tempo é sexagesimal, base 60, e não decimal).
+> - **E)** Incorreta. Média aritmética ingênua dos tempos individuais ($\frac{6 + 4}{2} = 5 \text{ horas}$), o que contraria o fato óbvio de que duas pessoas trabalhando juntas terminam a tarefa em tempo menor que o trabalhador mais rápido isoladamente.
+> 
+> **Gabarito: B**
 
 ---
+
 ### Teste 081
-**(FGV – TJ-AP – Analista Judiciário - Tecnologia da Informação – 2023)**
-Com relação ao sistema de telefonia fixa comutada (STFC) no 
-Brasil, analise as afirmativas a seguir, considerando V para a(s) 
-verdadeira(s) e F para a(s) falsa(s). 
-(   ) O Brasil possui nove regiões numéricas que são identificadas 
-pelo primeiro algarismo do código de área ou DDD. 
-(   ) O numeral associado a cada assinante do STFC possui 8 
-algarismos que podem assumir algarismos de 0 a 9. 
-(  ) A sinalização Dual -Tone Multi-Frequency (DTMF) pode ser 
-utilizada pelo assinante do STFC para o estabelecimento de uma 
-chamada. 
-A sequência correta é:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Considere a sequência infinita de letras:  
+$$T, C, E, G, O, I, A, S, T, C, E, G, O, I, A, S, T, C, E, ...$$  
+formada pela repetição contínua do bloco de palavras *"TCEGOIAS"*. A letra que ocupa a 2027ª posição dessa sequência é:
 
-* **A)** F, F e F;
-* **B)** F, V e V;
-* **C)** V, V e F;
-* **D)** V, F e V;
-* **E)** V, V e V.
+* **A)** T
+* **B)** C
+* **C)** E
+* **D)** G
+* **E)** S
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **Método dos Ciclos Periódicos e Aritmética dos Restos:**  
+>   - O bloco padrão repetitivo é *"T, C, E, G, O, I, A, S"*.  
+>   - Contagem do período: O bloco possui exatamente **8 letras**.  
+>   - Para determinar o elemento na posição $N = 2027$, divide-se $2027$ pelo tamanho do ciclo ($8$) e analisa-se o resto:  
+>     $$2027 = 8 \times 253 + 3$$  
+>     (pois $8 \times 253 = 2024$, e $2027 - 2024 = 3$).  
+>   - O quociente $253$ indica que o ciclo de 8 letras completou-se exatamente 253 vezes.  
+>   - O resto $3$ indica que a letra procurada é a **3ª letra** do bloco padrão.  
+> - **Localização no bloco:**  
+>   1ª = T, 2ª = C, **3ª = E**.  
+> - **Conclusão:** A letra na 2027ª posição é a letra **E** (Alternativa C).
 >
-> **Gabarito: E**
+> **Gabarito: C**
 
 ---
+
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 
 * [Khan Academy Brasil - Aritmética e Operações Fundamentais](https://pt.khanacademy.org/math/arithmetic) - Operações fundamentais com inteiros e números racionais, potenciação e expressões numéricas.

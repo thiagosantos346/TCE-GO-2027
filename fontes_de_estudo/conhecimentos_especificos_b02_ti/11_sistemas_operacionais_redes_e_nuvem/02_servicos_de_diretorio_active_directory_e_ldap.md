@@ -252,62 +252,62 @@ flowchart LR
 ---
 
 ### Teste 423
-**(FCC – TRT-6 – Analista Judiciário - Tecnologia da Informação – 2012)**
-Um banco de dados relacional é um banco de dados projetado segundo o chamado modelo relacional, que é um modelo de 
-banco de dados baseado na lógica de predicados de primeira orde m. O objetivo do modelo é o de proporcionar uma linguagem  
-declarativa para a descrição tanto dos dados como de consultas a seu respeito, de maneira que o usuário declara tanto a 
-informação contida no banco de dados como a informação que dele deseja extrair, deixando a cargo do sistema gerenciador  do  
-banco de dados a tarefa de estabelecer estruturas de armazenamento de dados bem como os procedimentos de recuperação 
-destes dados para responder consultas. O modelo relacional foi proposto formalmente há mais de 40 anos.  
-O texto acima está
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+No Microsoft Windows Server Active Directory Domain Services (AD DS), a topologia física é estritamente dissociada da estrutura lógica (florestas, árvores e domínios) para otimizar o tráfego de rede entre localidades remotas.
 
-* **A)** incorreto, porque o modelo relacional é baseado na lógica de predicados de segunda ordem.
-* **B)** correto.
-* **C)** incorreto, porque o modelo relacional não conduz naturalmente a uma linguagem declarativa de descrição de dados ou 
-consultas.
-* **D)** incorreto, porque nos bancos de dados relacionais, a tarefa de descrever os procedimentos de recuperação dos dados 
-para a resposta a consultas é tarefa do usuário.
-* **E)** incorreto, porque o modelo relacional foi proposto há menos de 30 anos. 
-Caderno de Prova ’T20’, Tipo 001
+A respeito dos componentes da **Estrutura Física do Active Directory** e da replicação entre Controladores de Domínio (DCs), assinale a afirmativa correta:
 
-12 TRT6R-Anal.Jud-Tec.Informação-T20
+* **A)** Um *Site* do Active Directory corresponde exatamente a uma Unidade Organizacional (OU) criada pelo administrador no painel de usuários..
+* **B)** Um **Site** do Active Directory é uma construção física que mapeia uma ou mais sub-redes IP com conectividade de rede local (LAN) de alta velocidade e baixo custo; a replicação **Intra-Site** (dentro do mesmo site) ocorre de forma quase instantânea orientada por notificações RPC (*Change Notification*) e sem compactação de dados para economizar CPU; enquanto a replicação **Inter-Site** (entre sites distintos interligados por WANs lentas via Site Links) é agendada em intervalos controlados e comprime os dados transferidos para preservar a largura de banda da rede.
+* **C)** Dois computadores pertencentes ao mesmo domínio são proibidos de residir em sites físicos distintos.
+* **D)** A replicação do Active Directory é unidirecional e centralizada exclusivamente em fitas magnéticas transportadas por via postal.
+* **E)** Todos os Controladores de Domínio de uma floresta devem ficar fisicamente no mesmo prédio para evitar falhas de replicação.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
->
-> **Gabarito: E**
+> - **A)** Incorreta. *Site* é um conceito **físico** de conectividade de rede; *Unidade Organizacional (OU)* é um contêiner **lógico** administrativo.
+> - **B)** **CORRETA.** Arquitetura física oficial do **Active Directory**:
+>   - **Site:** Representa uma localidade geográfica bem conectada por links LAN rápidos (ex.: Sede em Goiânia, Subseção em Anápolis).
+>   - **Replicação Intra-site (Dentro do Site):** Ocorre rapidamente (notificação disparada em média 15 segundos após a alteração). Como a largura de banda na LAN é abundante, os dados do diretório são replicados **sem compressão**, priorizando menor consumo de CPU dos DCs.
+>   - **Replicação Inter-site (Entre Sites Distintos):** Ocorre através de links de site (*Site Links* usando RPC over IP ou SMTP). Como enlaces WAN são caros e concorrem com o tráfego de produção, a replicação é **agendada** (ex.: a cada 180 minutos ou durante a madrugada) e os dados são **altamente compactados** antes do envio.
+> - **C)** Incorreta. Um mesmo domínio pode e costuma abranger dezenas de sites físicos interligados.
+> - **D)** Incorreta. A replicação do AD é multimaster e baseada em protocolos de rede RPC/IP.
+> - **E)** Incorreta. Distribuir DCs em sites geograficamente distintos é a melhor prática para resiliência e alta disponibilidade.
+> 
+> **Gabarito: B**
 
 ---
+
 ### Teste 424
-**(FCC – TRT-14 – Analista Judiciário - Tecnologia da Informação – 2016)**
-A tradução mais adequada para All it takes to access OneDrive is a Microsoft account é
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Em uma organização pública que utiliza o Active Directory, um administrador necessita conceder permissões de leitura e modificação a uma pasta compartilhada no servidor de arquivos para os colaboradores do departamento financeiro. A organização segue rigorosamente a metodologia recomendada de desenho de segurança de identidades baseada na estratégia AGDLP.
 
-* **A)** Todos podem ter acesso ao OneDrive com uma conta Microsoft.
-* **B)** Para acessar o OneDrive, basta ter uma conta Microsoft.
-* **C)** Quem quiser instalar o OneDrive precisa criar uma conta Microsoft.
-* **D)** É preciso ter acesso ao OneDrive para criar uma conta Microsoft.
-* **E)** Todas as formas de acessar o OneDrive exigem uma conta da Microsoft.
+Para cumprir esse padrão, a sequência correta de estruturação de contas, escopos de grupo e permissões de acesso é:
+
+* **A)** As contas de usuários (**A**) são adicionadas diretamente à lista de controle de acesso (ACL) da pasta compartilhada, dispensando o uso de grupos intermediários.
+* **B)** As contas de usuários (**A**) são inseridas em Grupos Locais de Domínio (**DL**), os quais são atribuídos a Grupos Globais (**G**), que por sua vez recebem as Permissões (**P**) na pasta.
+* **C)** As contas de usuários (**A**) são inseridas em Grupos Globais (**G**), estes Grupos Globais são adicionados a Grupos Locais de Domínio (**DL**), e as Permissões (**P**) na pasta são atribuídas aos Grupos Locais de Domínio.
+* **D)** As contas de usuários (**A**) são inseridas em Grupos de Distribuição, que são convertidos em Grupos de Segurança para receberem Permissões (**P**) no nível de Site.
+* **E)** As contas de usuários (**A**) são associadas diretamente a uma Unidade Organizacional (**OU**), onde as permissões NTFS (**P**) de pastas são vinculadas via GPO.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: A**
+> - **A)** Incorreta. Inserir usuários individuais em ACLs é uma péssima prática de governança que inviabiliza a auditoria e a escala administrativa.
+> - **B)** Incorreta. Inverte a ordem do aninhamento estrutural: no AGDLP, os Grupos Globais entram nos Grupos Locais de Domínio.
+> - **C)** Correta. Expressa a metodologia canônica AGDLP: Contas (**A**) entram em Grupos Globais (**G** que definem funções), estes entram em Grupos Locais de Domínio (**DL** que definem direitos), que finalmente recebem as Permissões (**P**) nas ACLs de pastas.
+> - **D)** Incorreta. Grupos de Distribuição não possuem SID e não são utilizados para atribuir permissões de acesso em arquivos.
+> - **E)** Incorreta. OUs não são entidades de segurança (*security principals*) e não podem receber permissões em ACLs de sistemas de arquivos.
+> 
+> **Gabarito: C**
 
 ---
+
 ## 3. Estrutura Física e Serviços de Infraestrutura do AD DS
 
 ### 3.1 Controladores de Domínio (DCs), ntds.dit e SYSVOL
@@ -349,63 +349,35 @@ Embora o Active Directory opere predominantemente sob o regime de replicação m
 ---
 
 ### Teste 425
-**(FCC – TRT-14 – Analista Judiciário - Tecnologia da Informação – 2016)**
-Em uma aplicação que utiliza o EJB 3.2, se um bean precisa ser remotamente acessível, ele deve definir uma interface de 
-negócio separada, como no trecho abaixo.  
-@Remote  
-public interface CarrinhoCompras {  
-  public void adicionarItem(String item);  
-  public void removerItem(String item);  
-}  
- Para injetar o bean através da sua interface e para adicionar uma caneta ao carrinho de compras deve-se utilizar a instrução:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Em florestas corporativas do Active Directory compostas por múltiplos domínios (por exemplo, `tce.go.gov.br`, `sub1.tce.go.gov.br`, `sub2.tce.go.gov.br`), o **Catálogo Global (*Global Catalog - GC*)** desempenha um papel indispensável para a localização rápida de objetos e logon de usuários.
 
-* **A)** @Inject CarrinhoCompras carrinhoDeCompras; 
- carrinhoDeCompras.adicionaItem("caneta");
-* **B)** @EJB CarrinhoCompras; 
- CarrinhoCompras.adicionaItem("caneta");
-* **C)** @Stateful CarrinhoCompras carrinhoDeCompras; 
- carrinhoDeCompras.adicionaItem("caneta");
-* **D)** @Stateless CarrinhoCompras carrinho; 
- carrinho.adicionaItem("caneta");
-* **E)** @Import CarrinhoCompras carrinho; 
- carrinho.adicionaItem("caneta");   
-Caderno de Prova ’C03’, Tipo 001
+A respeito do conteúdo e das funções operacionais do Catálogo Global, assinale a afirmativa correta:
 
-14 TRT14R-An.Jud.-Tec.Informação-C03 
-Atenção: Considere o texto abaixo para responder às questões de números 56 a 60. 
+* **A)** O Catálogo Global armazena a cópia completa de todos os atributos de todos os objetos de todos os servidores do planeta.. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **B)** Um servidor configurado como Catálogo Global armazena uma réplica completa de todos os objetos de seu próprio domínio local e uma **réplica parcial de somente-leitura** de todos os objetos de todos os demais domínios da floresta (denominada *Partial Attribute Set - PAS*), permitindo buscas rápidas em toda a floresta sem sobrecarregar links WAN e viabilizando a resolução de associações a Grupos Universais durante o processo de logon.
+* **C)** O Catálogo Global é um arquivo executável que deve ser instalado exclusivamente em estações de trabalho Windows 10 Home.
+* **D)** O Catálogo Global é incompatível com o protocolo Kerberos v5.
+* **E)** Cada floresta do Active Directory pode possuir no máximo um único servidor com a função de Catálogo Global ativada.
 
-
-OneDrive  
-Microsoft has a problem when it comes to sticking with product names. With the exception of Windows and Office, it seems to 
-re-brand its offerings every few years. Sometimes it's arbitrary (at least to customers). Sometimes it's I  of legalities. Take 
-FolderShare, for instance, which was acquired by Micros oft in 2005 and promptly renamed Windows Live FolderShare − everything 
-was called "Live" back then. In the years since, it has been Windows Live Mesh, Essentials, Live Folders, and SkyDrive. 
-SkyDrive is a great name, but it was taken. Sort of. Microsoft got sued in the U.K. by broadcaster BSkyB for using the word 
-"Sky." A court agreed that it infringed a trademark, and Microsof t had to rebrand again. In keeping with other products like On eNote 
-and Xbox One, it went with OneDrive. 
-OneDrive really should be a bigger name than it is. But Micros oft isn't as synonymous with cloud/sync as Dropbox or Google 
-Drive. The latter has the excellent integration of Docs and Sheets for online editing, but OneDrive has something arguably bett er: full 
-integration with Office. Office Online houses the online versions of Microsoft Word, Excel, PowerPoint, and OneNote. Plus, OneDrive is 
-integrated directly with Windows − no utility needed. All it takes to access OneDrive is a Microsoft account. The service will sync files 
-between all your Windows and Mac computers, which you can access online via mobile apps and the Web. 
-OneDrive also made a big splash announcing unlimited online storage in 2014, but recently took that option away thanks to a 
-small number of users who abused the privilege, Microsoft claims. 
-
-(Adapted from: http://www.pcmag.com/slideshow/story/329141/16-tips-to-help-you-master-microsoft-onedrive)
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
->
-> **Gabarito: E**
+> - **A)** Incorreta. O GC não armazena todos os atributos de outros domínios; ele armazena apenas um subconjunto restrito de atributos frequentemente consultados (*Partial Attribute Set*).
+> - **B)** **CORRETA.** Funções do **Catálogo Global (GC)**:
+>   1. **Busca Florestal:** Permite que um usuário procure uma impressora, computador ou colega em qualquer domínio da floresta consultando o DC/GC local rapidamente, sem fazer requisições a DCs remotos.
+>   2. **Conjunto Parcial de Atributos (PAS):** Contém atributos comuns como Nome, Sobrenome, E-mail, UPN e SID de todos os domínios.
+>   3. **Logon e Grupos Universais:** Na autenticação Kerberos, o DC precisa consultar o GC para expandir a lista de associações a **Grupos Universais** do usuário e embutir os respectivos SIDs no token de acesso (*PAC - Privilege Attribute Certificate*). Se o GC estiver inacessível, o logon de usuários comuns pode falhar (salvo se o *Universal Group Membership Caching* estiver ativado).
+> - **C)** Incorreta. O GC é uma função habilitada exclusivamente em Controladores de Domínio (DCs) do Windows Server.
+> - **D)** Incorreta. O GC é parte integrante do fluxo de autenticação Kerberos.
+> - **E)** Incorreta. Qualquer DC pode ser promovido a GC; a recomendação em domínios modernos é que a maioria dos DCs também atuem como Catálogo Global.
+> 
+> **Gabarito: B**
 
 ---
+
 ### Teste 426
 **(FGV – TJ-DFT – Analista Judiciário (TI) – 2022)**  
 O analista João administra o domínio Active Directory ad.tj.dft e precisa atribuir novas permissões ao usuário administrador RaizSD_u. O usuário RaizSD_u é membro de um grupo protegido do Active Directory. Sendo assim, para que esta alteração de permissões persista ao longo do tempo, João deve adic ionar as novas permissões no objeto de ad.tj.dft:
@@ -431,35 +403,32 @@ O analista João administra o domínio Active Directory ad.tj.dft e precisa atri
 ---
 
 ### Teste 427
-**(FGV – TJ-AP – Analista Judiciário - Tecnologia da Informação – 2023)**
-Redes de computadores podem ser classificadas de acordo com a 
-distância máxima entre dois  dispositivos da rede. Essa distância 
-determina a sua abrangência geográfica, que pode ser definida 
-como LAN (Local Area Network), MAN (Metropolitan Area 
-Network), PAN (Personal Area Network) e WAN (Wide Area 
-Network).  
-Os tipos de redes, em ordem crescent e de abrangência 
-geográfica, são:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Em uma floresta multi-domínio do Microsoft Active Directory Domain Services (AD DS), a arquitetura do sistema delega certas operações a servidores específicos por meio das funções Mestres de Operação Única Flexível (*Flexible Single Master Operations* - FSMO). 
 
-* **A)** WAN, MAN, LAN e PAN;
-* **B)** LAN, PAN, MAN e WAN;
-* **C)** LAN, MAN, PAN e WAN;
-* **D)** PAN, LAN, WAN e MAN;
-* **E)** PAN, LAN, MAN e WAN.
+Sobre as atribuições e o escopo dessas funções, é correto afirmar:
+
+* **A)** A função de *Schema Master* possui escopo restrito a cada domínio individual da floresta, permitindo que cada domínio configure seus próprios atributos de usuário de maneira independente e isolada.
+* **B)** A função de *PDC Emulator* (Emulador de Controlador de Domínio Primário) atua no nível de domínio e é a principal responsável por atuar como autoridade de referência de sincronização de horário (servidor NTP), além de processar com prioridade as alterações e bloqueios de senhas de usuários.
+* **C)** A função de *RID Master* opera no nível de floresta e atua exclusivamente na validação de nomes de novos domínios que solicitam ingresso na estrutura hierárquica do AD.
+* **D)** As cinco funções FSMO operam compulsoriamente no mesmo e único Controlador de Domínio raiz, sendo tecnicamente impossível transferi-las individualmente entre diferentes servidores da rede.
+* **E)** A função de *Domain Naming Master* tem escopo de domínio e é responsável por atribuir identificadores relativos (RIDs) a cada novo objeto criado pelos controladores de domínio locais.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A)** Incorreta. O Schema Master possui escopo de floresta (apenas 1 por floresta); o esquema do AD DS é único e universal para todos os domínios da floresta.
+> - **B)** Correta. O PDC Emulator opera no nível de domínio e é a função FSMO de maior atividade, sendo responsável pela sincronização de tempo NTP (vital para o Kerberos) e processamento imediato de alterações de senha.
+> - **C)** Incorreta. O RID Master opera no nível de domínio e distribui blocos de identificadores relativos para criação de novos SIDs.
+> - **D)** Incorreta. As funções FSMO são flexíveis e podem ser livremente distribuídas e transferidas entre diferentes Controladores de Domínio.
+> - **E)** Incorreta. O Domain Naming Master tem escopo de floresta e cuida da nomenclatura e criação de domínios, e não da alocação de RIDs.
+> 
 > **Gabarito: B**
 
 ---
+
 ## 4. Políticas de Grupo (GPO) e Autenticação Kerberos v5
 
 ### 4.1 Precedência e Ordem de Processamento de GPOs (LSDOU)
@@ -528,127 +497,128 @@ Para impedir que invasores capturem pacotes de autenticação na rede e os reenv
 ---
 
 ### Teste 428
-**(FGV – TCE-GO – Analista de Controle Externo - Tecnologia da Informação – 2024)**
-No gerenciamento de redes, a função do protocolo MIB é criar um 
-conjunto de objetos com nomes, tipos e relações entre si para uma 
-entidade a ser gerenciada.   
-Desses objetos, aquele que tem a função de definir as informações 
-sobre a tabela ARP é o
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+No gerenciamento centralizado de estações de trabalho e servidores Windows através de Objetos de Diretiva de Grupo (*Group Policy Objects - GPOs*), um computador ou usuário pode estar sujeito a múltiplas políticas conflitantes configuradas em diferentes níveis da hierarquia.
 
-* **A)** sys.
-* **B)** if.
-* **C)** at.
-* **D)** Ip.
-* **E)** Icmp.
+A ordem padrão de processamento e precedência na aplicação de GPOs, expressa pela sigla **LSDOU**, estabelece que:
+
+* **A)** As políticas vinculadas ao nível Local sobrescrevem compulsoriamente todas as políticas definidas na Unidade Organizacional (OU).. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **B)** O processamento ocorre na seguinte sequência temporal: 1º **Local** (política local da máquina), 2º **Site**, 3º **Domínio** e 4º **Unidade Organizacional (OU)** (processando das OUs superiores para as OUs filhas aninhadas); consequentemente, no caso de configurações conflitantes, **a última política processada (a vinculada à OU mais específica e profunda) é a que prevalece e sobrescreve as configurações anteriores**, salvo se houver imposição (*Enforced*).
+* **C)** Políticas de Domínio são completamente ignoradas se o computador possuir antivírus instalado.
+* **D)** A ordem LSDOU é definida aleatoriamente pela CPU a cada reinicialização do Windows.
+* **E)** Uma GPO vinculada a um Site tem precedência superior sobre uma GPO vinculada com atributo *Enforced* em um Domínio.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: C**
+> - **A)** Incorreta. A política Local é a primeira a ser aplicada e, portanto, é a mais fraca: qualquer política de Site, Domínio ou OU sobrescreve a política Local.
+> - **B)** **CORRETA.** Regra canônica de herança e precedência de **GPOs (LSDOU)**:
+>   - **Ordem de Aplicação:** 
+>     1. **L**ocal Policy (mais antiga/mais fraca);
+>     2. **S**ite;
+>     3. **D**omain;
+>     4. **O**rganizational **U**nit (processa da OU pai até a OU folha onde o objeto reside).
+>   - **Regra de Conflito:** *"O último a ser aplicado vence"*. Logo, uma configuração na OU folha sobrescreve configurações divergentes vindas do Domínio ou do Site.
+>   - **Exceção Maior:** A marcação **Enforced (Imposta)** em uma GPO de nível superior impede que suas diretivas sejam sobrescritas por OUs subordinadas e quebra bloqueios de herança (*Block Inheritance*).
+> - **C)** Incorreta. Políticas de Domínio são aplicadas pelo serviço Group Policy Client do sistema operacional.
+> - **D)** Incorreta. A ordem é estritamente determinística e previsível.
+> - **E)** Incorreta. A flag *Enforced* confere prioridade absoluta àquela GPO contra qualquer outra política não imposta.
+> 
+> **Gabarito: B**
 
 ---
+
 ### Teste 429
-**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**
-O webmarketing é um processo destinado a satisfazer os 
-desejos e as necessidades das pessoas por informações, 
-serviços ou produtos utilizando a Internet como canal de 
-comunicação ou distribuição. Entre as possibilidades de  
-webmarketing disponíveis para uso das bibliotecas estão
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Considere uma floresta corporativa do Microsoft Active Directory Domain Services (AD DS) composta por um único domínio denominado `tce.go.gov.br`. Um computador do setor de compras está localizado na Unidade Organizacional (OU) `Licitacoes`, que por sua vez é uma subunidade contida no interior da OU `Administrativo`. 
 
-* **A)** os banners, normalmente utilizados nas páginas ini-
-ciais de portais ou sites.
-* **B)** as ferramentas de busca, a forma mais antiga e pri-
-mária de se utilizar a web como canal de promoção.
-* **C)** o pop-up, que pode ser utilizado de forma contínua.
-* **D)** o site web , que deve ser utilizado quando as listas 
-de distribuição são de grupos de interesses comuns.
-* **E)** o webcasting, que consome pouco recurso de pro-
-cessamento da estação de trabalho e da rede de 
-computadores. 
-_________________________________________________________
+Existem quatro Políticas de Grupo (GPOs) com configurações conflitantes vinculadas aos seguintes níveis:
+
+1. GPO "Diretiva-Local" configurada nas políticas da máquina local;
+2. GPO "Diretiva-Site" vinculada ao Site físico do Active Directory;
+3. GPO "Diretiva-Dominio" vinculada à raiz do Domínio `tce.go.gov.br`;
+4. GPO "Diretiva-Admin" vinculada à OU pai `Administrativo`;
+5. GPO "Diretiva-Licitacoes" vinculada à OU folha `Licitacoes`.
+
+Sabendo que a OU `Licitacoes` possui a opção de "Bloquear Herança" (*Block Inheritance*) explicitamente habilitada, mas a GPO "Diretiva-Dominio" foi configurada pelo Administrador Corporativo com a opção de "Imposição" (*Enforced* / Não Substituir), assinale a alternativa que indica a política que terá a maior precedência final para definir o parâmetro conflitante na referida estação de trabalho:
+
+* **A)** GPO "Diretiva-Local", em razão de as configurações físicas na estação de trabalho sempre prevalecerem sobre diretivas de rede.
+* **B)** GPO "Diretiva-Site", pois diretivas de site físico são imunes a bloqueios de herança configurados em OUs.
+* **C)** GPO "Diretiva-Admin", que é herdada compulsoriamente por ser a Unidade Organizacional hierarquicamente superior direta.
+* **D)** GPO "Diretiva-Licitacoes", pois o bloqueio de herança impede a aplicação de qualquer diretiva originada fora da referida OU.
+* **E)** GPO "Diretiva-Dominio".
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
->
+> - **A)** Incorreta. A diretiva Local é a primeira a ser processada na cadeia e possui a menor precedência em relação às diretivas de domínio.
+> - **B)** Incorreta. As diretivas de Site são ordinariamente bloqueadas pelo Bloqueio de Herança caso não estejam marcadas como Enforced.
+> - **C)** Incorreta. A GPO da OU Administrativo foi devidamente bloqueada pelo Block Inheritance da OU filha e não possui a flag Enforced.
+> - **D)** Incorreta. O Bloqueio de Herança bloqueia diretivas comuns, mas é expressamente sobreposto pela configuração de Imposição (*Enforced*) da Diretiva de Domínio.
+> - **E)** Correta. A opção *Enforced* (Imposição) foi desenhada pela Microsoft exatamente para garantir a prevalência inegociável de diretivas centrais de governança e segurança, sobrepondo qualquer bloqueio de herança definido em OUs subordinadas.
+> 
 > **Gabarito: E**
 
 ---
+
 ### Teste 430
-**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**
-Está plenamente adequada a pontuação da frase:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+No protocolo de autenticação Kerberos v5, implementado nativamente pelo Active Directory Domain Services para prover autenticação mútua e *Single Sign-On* (SSO) no ambiente de rede corporativo:
 
-* **A)** Entenda-se que para se considerar a existência de 
-uma etnia, não pode deixar de ocorrer uma auto-
-identificação, ou seja uma autoconsciência de grupo 
-social.
-* **B)** Foram, de fato, inúmeras as atrocidades perpetradas 
-em nome de interesses políticos e econômicos, de-
-vidamente mascarados, aliás, por razões de ordem 
-racial.
-* **C)** De acordo com a antropologia moderna, os grupos 
-étnicos, devem ser considerados a partir de critérios, 
-que incluam aspectos culturais, e fatores históricos.
-* **D)** Mesmo as pequenas diferenças étnicas, podem aca-
-bar servindo de pretexto, para que alguns grupos se 
-sobreponham aos outros movidos por razões polí-
-ticas.
-* **E)** Não há como separar, do conceito de etnia a noção 
-de compartilhamento cultural, pela qual, diferentes 
-grupos humanos, tomam consciência de sua própria 
-identidade. 
-_________________________________________________________
+* **A)** As senhas dos usuários são transmitidas em texto claro durante a etapa inicial de negociação com o Authentication Server (AS), dependendo de túneis VPN para garantir a confidencialidade do tráfego.
+* **B)** O serviço Ticket Granting Server (TGS) emite o bilhete inicial de concessão de bilhetes (*Ticket Granting Ticket* - TGT) imediatamente antes de validar as credenciais biométricas do usuário na máquina cliente.
+* **C)** A tolerância temporal de dessincronização de relógio (*clock skew*) entre os clientes e o KDC é irrelevante para a segurança do protocolo, pois o Kerberos utiliza exclusivamente desafios e respostas baseados em números aleatórios (*nonces*).
+* **D)** O cliente obtém inicialmente um TGT junto ao serviço de autenticação (AS) e posteriormente apresenta esse TGT ao servidor de concessão de bilhetes (TGS) para solicitar bilhetes de serviço específicos para acessar recursos de rede.
+* **E)** O protocolo prescinde do uso de criptografia simétrica, utilizando certificados digitais de chave pública assimetricamente em todas as interações de solicitação de arquivos.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: A**
+> - **A)** Incorreta. No Kerberos, a senha do usuário jamais é transmitida pela rede em nenhuma circunstância.
+> - **B)** Incorreta. Quem emite o TGT inicial durante o logon primário é o serviço Authentication Server (AS), e não o TGS.
+> - **C)** Incorreta. A sincronia de relógio é indispensável para evitar ataques de repetição (*replay attack*). Se o desvio temporal exceder a tolerância padrão de 5 minutos, a autenticação falhará.
+> - **D)** Correta. Sintetiza com exatidão a dinâmica operacional do Kerberos: obtenção inicial do TGT no AS e posterior apresentação ao TGS para emissão de tickets de serviço específicos.
+> - **E)** Incorreta. O Kerberos é fundamentalmente alicerçado em criptografia simétrica rápida e segredos compartilhados.
+> 
+> **Gabarito: D**
 
 ---
+
 ### Teste 431
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Na pavimentação de uma via com co ncreto asfáltico, um material 
-que pode ser utilizado como base é
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+O protocolo de autenticação padrão no Active Directory é o **Kerberos v5** (RFC 4120), que opera com bilhetes criptográficos temporais (*tickets*) para assegurar autenticação mútua sem transmissão de senhas na rede.
 
-* **A)** a brita.
-* **B)** o betume.
-* **C)** o pó de pedra.
-* **D)** a cal.
-* **E)** o saibro.
+A respeito da vulnerabilidade do Kerberos a ataques de repetição (*Replay Attacks*), do papel do mestre FSMO **PDC Emulator** e da tolerância temporal (*Clock Skew*), assinale a afirmativa correta:
+
+* **A)** O Kerberos não utiliza carimbos de tempo, dependendo exclusivamente do endereço MAC da placa de rede para validar bilhetes.
+* **B)** Os bilhetes e autenticadores do Kerberos contêm carimbos de data/hora (*timestamps*); para impedir que um invasor capture um pacote e o retransmita posteriormente (*Replay Attack*), o Active Directory impõe uma tolerância temporal máxima padrão de **5 minutos (*Clock Skew*)** entre o relógio da estação cliente e o Controlador de Domínio; para garantir essa sincronização em toda a floresta, o Controlador de Domínio detentor da função FSMO de **PDC Emulator** atua como a fonte oficial de tempo (servidor NTP raiz do domínio), sincronizando todas as estações e DCs subordinados.
+* **C)** Se a diferença de relógio entre a estação de trabalho e o PDC Emulator for de 3 horas, a autenticação Kerberos prossegue normalmente sem emitir alertas..
+* **D)** O PDC Emulator é uma placa aceleradora de vídeo 3D que deve ser instalada fisicamente em todas as estações do tribunal.
+* **E)** O protocolo Kerberos foi substituído pelo NTLMv1 em todas as versões modernas do Windows Server devido à sua superioridade criptográfica.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: A**
+> - **A)** Incorreta. O carimbo de data e hora (*timestamp*) é o mecanismo nuclear de segurança do Kerberos v5 para evitar ataques de repetição.
+> - **B)** **CORRETA.** Funcionamento temporal do **Kerberos v5 no AD DS**:
+>   - **Clock Skew (Tolerância de Relógio):** Por padrão nas Diretivas de Segurança do Domínio, a diferença máxima tolerada entre o relógio do cliente e o KDC (Controlador de Domínio) é de **5 minutos**. Se o relógio da máquina estiver desfasado em mais de 5 minutos, o KDC rejeita o bilhete com erro `KRB_AP_ERR_SKEW`, impedindo logons e acesso a compartilhamentos.
+>   - **Papel do PDC Emulator (Mestre FSMO):** O DC que detém a função de emulador PDC no domínio raiz da floresta atua como o servidor de hora mestre (*Authoritative Time Server*) via protocolo W32Time/NTP, sincronizando-se com um relógio atômico externo confiável (como o `ntp.br`). Todos os demais DCs da floresta sincronizam seus relógios com ele, e as estações de trabalho sincronizam seus relógios com seu respectivo DC local, garantindo consistência cronológica em toda a rede.
+> - **C)** Incorreta. Uma diferença de 3 horas causará rejeição sumária e imediata de qualquer autenticação Kerberos.
+> - **D)** Incorreta. É uma função lógica de software FSMO do Active Directory.
+> - **E)** Incorreta. O NTLMv1 é um protocolo inseguro e vulnerável, banido em favor do Kerberos.
+> 
+> **Gabarito: B**
 
 ---
+
 ## 6. Fontes Recomendadas na Internet
 
 * [Microsoft Learn - Active Directory Domain Services Overview](https://learn.microsoft.com/pt-br/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview) - Visão geral oficial do AD DS, estruturas de florestas, domínios, árvores e unidades organizacionais.

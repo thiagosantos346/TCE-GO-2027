@@ -86,75 +86,54 @@ flowchart TD
 ---
 
 ### Teste 380
-**(FCC – TRT-16 – Analista Judiciário - Tecnologia da Informação – 2014)**
-Sobre o Planejamento e Gestão Estratégica, descrito na Resolução n o 70/2009 do Conselho Nacional de Justiça, está correto 
-afirmar:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Determinada entidade governamental realizou o diagnóstico de seu ambiente por meio da matriz SWOT cruzada. A equipe constatou a existência concomitante de graves fragilidades operacionais internas (sistemas obsoletos e déficit crônico de servidores) associadas a um ambiente externo marcado por severas restrições orçamentárias impostas por lei e risco iminente de descontinuidade de convênios. Diante desse cenário de predomínio de fraquezas internas e ameaças externas, a postura estratégica recomendada pela teoria da administração é a:
 
-* **A)** Os tribunais garantirão a participação efetiva de serventuário
-s e de magistrados de primeiro e segundo graus, indicados pel
-as 
-respectivas entidades de classe, na elaboração e na exec
-ução de suas propostas orçamentárias e planejamentos 
-estratégicos.
-* **B)** Os planejamentos estratégicos, alinhados ao Plano Es
-tratégico Nacional, devem ter uma abrangência mínima de 
-quatro anos e deverão ter, pelo menos, um indicador de resultado para cada objetivo estratégico.
-* **C)** As propostas orçamentárias dos tribunais devem ser alinhadas aos respectivos planejamentos táticos para que sejam 
-garantidos os recursos necessários a sua execução.
-* **D)** Os Tribunais promoverão Reuniões de Análise da Estratégia (RAE) semestrais para acompanhamento dos resultados das 
-metas fixadas, oportunidade em que poderão promover ajustes e outras medidas necessárias à melhoria do desempenho.
-* **E)** Um dos objetivos estratégicos é facilitar o acesso à Justiça, com o objetivo de centralizar a relação da população com os 
-órgãos judiciais e garantir equidade no atendimento à sociedade.
+* **A)** Postura de Alavancagem ou Ofensiva.
+* **B)** Postura de Sobrevivência.
+* **C)** Postura de Expansão Acelerada de Mercados.
+* **D)** Postura de Liderança em Diferenciação de Marca.
+* **E)** Postura de Reforço Baseada em Vantagem Sustentável.
+
+
+---
+
+> **Comentário Detalhado:**  
+>
+> - **A) Incorreta.** A postura ofensiva/alavancagem ocorre no quadrante Forças + Oportunidades.  
+> - **B) CORRETA.** No cruzamento da matriz SWOT, quando uma instituição acumula **Fraquezas internas** diante de **Ameaças externas graves** (quadrante WT), a estratégia mandatória é a **Postura de Sobrevivência**, caracterizada pela contenção drástica de despesas, eliminação de desperdícios, redução de escopo e reestruturação para evitar o colapso operacional da organização.  
+> - **C) Incorreta.** Expansão é postura ofensiva para momentos favoráveis.  
+> - **D) Incorreta.** Diferenciação é estratégia de posicionamento mercadológico de Porter.  
+> - **E) Incorreta.** O momento é de mitigação extrema de riscos, e não de sustentação de vantagem.  
+> 
+> **Gabarito: B**
+
+---
+
+### Teste 381
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Na Análise SWOT Cruzada (Matriz FOFA), o confronto entre o ambiente interno (Forças e Fraquezas) e o ambiente externo (Oportunidades e Ameaças) permite delinear posturas estratégicas fundamentais para a organização.
+
+A postura estratégica recomendada quando a organização diagnostica um cenário caracterizado predominantemente pelo cruzamento entre **Fraquezas Internas** e **Ameaças Externas** é a postura de:
+
+* **A)** Sobrevivência (ou Defensiva), visando reduzir danos, conter prejuízos e desinvestir em áreas críticas inviabilizadas.
+* **B)** Desenvolvimento (ou Alavancagem agressiva), priorizando a expansão maciça de novos serviços e instalações.
+* **C)** Domínio Monopolista irrestrito de mercado.
+* **D)** Crescimento acelerado por meio de fusões estatais corporativas.
+* **E)** Terceirização integral das atividades exclusivas de Estado.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A)** Correta. As quatro posturas da matriz SWOT cruzada: (1) **Forças + Oportunidades**: Desenvolvimento / Alavancagem; (2) **Forças + Ameaças**: Manutenção / Proteção; (3) **Fraquezas + Oportunidades**: Crescimento / Mudança de Rumo; (4) **Fraquezas + Ameaças**: **Sobrevivência** (situação de vulnerabilidade extrema, exigindo contenção de despesas, enxugamento de custos, alienação de ativos e redução de danos).
+> - **B), C), D), E)** Incorretas. Incompatíveis com a combinação de fraquezas e ameaças.
+> 
 > **Gabarito: A**
 
 ---
-### Teste 381
-**(FCC – TRT-16 – Analista Judiciário - Tecnologia da Informação – 2014)**
-Como consequência do processo de Planejamento Estratégico, as organizações produzem ou atualizam alguns componentes. 
-Correlacione corretamente as colunas. 
 
- Componente   Conceito −  característica −  exemplo 
-a Visão   I Deve ser específico(a), mensurável, atingível, relevante e 
-temporal 
-b Missão  II Fornece direcionamento para os próximos anos e orienta 
-decisões estratégicas 
-c Objetivo III Representa o produto ou serviço que a empresa faz, é a razão 
-da existência. 
-d Meta  IV É um exemplo: Assegurar recursos orçamentários necessários à 
-execução da estratégia. 
-
- Está correta a correlação que consta em
-
-* **A)** a- III - b- IV - c- II - d- I
-* **B)** a- II - b- I - c- IV - d- III
-* **C)** a- III - b- I - c- II - d- IV
-* **D)** a- II - b- III - c- IV - d- I
-* **E)** a- II - b- III - c- I - d- IV
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: D**
-
----
 ## 2. O Modelo das Cinco Forças e as Estratégias Genéricas de Michael Porter
 
 Michael Porter desenvolveu um clássico referencial para explicar como as forças estruturais de uma indústria determinam sua intensidade competitiva e seu nível de atratividade:
@@ -182,99 +161,93 @@ flowchart TD
 ---
 
 ### Teste 382
-**(FCC – TRT-13 – Analista Judiciário - Tecnologia da Informação – 2014)**
-O Balanced Scorecard  −  BSC, cujos mentores são Robert 
-Kaplan e David Norton, é
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+De acordo com o modelo de análise das Cinco Forças Competitivas desenvolvido por Michael Porter, a intensidade com que novas empresas ou organizações ameaçam ingressar em determinado setor de atividade econômica é contida fundamentalmente pela presença de:
 
-* **A)** um sistema de avaliação de desempenho organiza-
-cional que contempla apenas indicadores financei-
-ros.
-* **B)** um mecanismo para formulação da estratégia da 
-instituição voltado à missão de futuro e visão de lon-
-go prazo.
-* **C)** um modelo de gestão estratégica que alinha missão, 
-visão e estratégias a um conjunto de indicadores fi-
-nanceiros e não financeiros.
-* **D)** uma metodologia para avaliação e desenvolvimento 
-de competências individuais orientada pelo denomi-
-nado mapa estratégico.
-* **E)** uma metodologia de avaliação de desempenho or-
-ganizacional e não individual, baseada em guias 
-operacionais.
+* **A)** Barreiras à entrada, tais como economias de escala consolidadas e elevados requisitos de capital inicial.
+* **B)** Alta rivalidade interna e ausência de regulamentação governamental setorial.
+* **C)** Facilidade de acesso aos canais de distribuição tradicionais pelos recém-chegados.
+* **D)** Baixo custo de mudança (*switching costs*) suportado pelos consumidores ao migrarem de fornecedor.
+* **E)** Existência de produtos substitutos com preços significativamente menores no mercado.
+
 
 ---
 
-> **Comentário Detalhado:**
+> **Comentário Detalhado:**  
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
->
-> **Gabarito: E**
+> - **A) CORRETA.** Segundo Michael Porter, a ameaça de novos concorrentes entrantes é diretamente atenuada pela existência de **barreiras à entrada**, que elevam os custos e riscos para quem deseja entrar no setor (ex.: economias de escala dos incumbentes, diferenciação de marcas, altos requisitos de investimento de capital, acesso restrito aos canais de distribuição e regulação pública).  
+> - **B) Incorreta.** Alta rivalidade é outra força competitiva; a ausência de barreiras facilita o ingresso.  
+> - **C) Incorreta.** Se os canais são de fácil acesso, a barreira é baixa, o que estimula a entrada de novos concorrentes.  
+> - **D) Incorreta.** Baixo custo de mudança (*switching costs*) estimula o consumidor a trocar de empresa, fragilizando a barreira.  
+> - **E) Incorreta.** A ameaça de produtos substitutos é a quinta força do modelo de Porter, não se confundindo com as barreiras à entrada de concorrentes no mesmo setor.  
+> 
+> **Gabarito: A**
 
 ---
+
+
+#### As Três Estratégias Genéricas de Michael Porter:
+* **Liderança em Custo Total:** A organização estrutura-se para produzir e operar com o menor custo unitário da indústria, valendo-se de economias de escala, rígido controle de despesas e processos padronizados.
+* **Diferenciação:** A organização busca criar produtos ou serviços percebidos no mercado como singulares, únicos e de qualidade superior, conquistando fidelidade à marca e viabilizando a cobrança de um preço superior (*premium price*).
+* **Enfoque / Foco:** A organização canaliza seus esforços para atender de forma estrita e especializada a um nicho de mercado específico, aplicando ou a liderança em custo ou a diferenciação restrita àquele segmento.
+
+> ⭐ **IMPORTANTE (PRODUTOS SUBSTITUTOS DE PORTER):**  
+> Cuidado: produtos substitutos na visão de Porter **NÃO SÃO produtos de concorrentes diretos da mesma indústria** (ex.: Pepsi e Coca-Cola são concorrentes diretos no setor de refrigerantes). Produtos substitutos pertencem a **outras indústrias** que atendem à mesma necessidade essencial por meio de solução alternativa (ex.: ônibus interestadual substituindo passagens aéreas em trechos regionais).
+
+---
+
 ### Teste 383
-**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
-A classificação sistemática de materiais no âmbito da Gestão de 
-Materiais e Patrimônio garante a organização, otimiza o controle 
-e facilita a tomada de decisões estratégicas para o uso adequado 
-de recursos. 
-Assinale a opção que apresenta corretamente os materiais que 
-estão sendo processados ao longo das diversas seções que 
-compõem o processo produtivo.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No modelo das Estratégias Genéricas formulado por Michael Porter, a organização que opta por desenvolver serviços ou produtos com atributos peculiares e exclusivos, fortemente reconhecidos pelo público-alvo pela sua excelência técnica, design inovador e credibilidade institucional, cobra preços diferenciados e busca fidelizar seus usuários, adota a estratégia genérica de:
 
-* **A)** Matérias-primas.
-* **B)** Materiais em vias.
-* **C)** Produtos acabados.
-* **D)** Materiais componentes.
-* **E)** Materiais semiacabados.
+* **A)** Liderança em Custo Total.
+* **B)** Diferenciação.
+* **C)** Desinvestimento Operacional.
+* **D)** Conglomerado Diversificado.
+* **E)** Paridade Tecnológica Compulsória.
+
 
 ---
 
-> **Comentário Detalhado:**
+> **Comentário Detalhado:**  
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: D**
+> - **A) Incorreta.** Liderança em custos busca operar com o menor custo unitário de produção da indústria com base em economias de escala.  
+> - **B) CORRETA.** A estratégia genérica de **Diferenciação** baseia-se na criação de um produto ou serviço percebido pelo mercado/usuário como exclusivo e singular em suas características, gerando lealdade à marca e permitindo que a organização cobre preços superiores (*preço premium*) ou atinja alto reconhecimento público.  
+> - **C) Incorreta.** Desinvestimento é manobra de redução de ativos, e não estratégia competitiva genérica.  
+> - **D) Incorreta.** Conglomerado é forma societária de diversificação corporativa.  
+> - **E) Incorreta.** Categoria inexistente na taxonomia de Porter.  
+> 
+> **Gabarito: B**
 
 ---
+
 ### Teste 384
-**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**
-A diferença maior no desenvolvimento de acervos em 
-bibliotecas especializadas, quando comparadas com 
-outros tipos de bibliotecas, é a
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Michael Porter formulou o célebre modelo das Cinco Forças Competitivas que determinam a atratividade e o nível de rentabilidade de uma indústria.
 
-* **A)** ênfase no desbastamento e na avaliação da cole-
-ção, medida necessária para otimização do acervo.
-* **B)** disponibilidade de materiais ligados ao ensino e à 
-pesquisa.
-* **C)** existência de uma clientela mais dinâmica e diversifi-
-cada.
-* **D)** necessidade de dar suporte às atividades pedagógi-
-cas, integrando-se ao processo educacional formal.
-* **E)** presença, com muito maior frequência, de materiais 
-não-convencionais. 
-_________________________________________________________
+São forças competitivas integrantes do modelo original de Porter:
+
+* **A)** Rivalidade entre os concorrentes existentes, Ameaça de novos entrantes, Poder de barganha dos compradores (clientes), Poder de barganha dos fornecedores e Ameaça de produtos ou serviços substitutos.
+* **B)** Poder Judiciário, Poder Executivo, Poder Legislativo, Ministério Público e Tribunal de Contas.
+* **C)** Gravidade, Urgência, Tendência, Capacidade Operacional e Risco Jurídico.
+* **D)** Inflação, Taxa Selic, Produto Interno Bruto, Balança Comercial e Dívida Soberana.
+* **E)** Hardware, Software, Peopleware, Sistemas de Redes e Dados na Nuvem.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: D**
+> - **A)** Correta. As **Cinco Forças de Porter**: (1) Rivalidade entre concorrentes existentes; (2) Ameaça de novos concorrentes entrantes; (3) Poder de barganha dos clientes/compradores; (4) Poder de barganha dos fornecedores; (5) Ameaça de produtos/serviços substitutos.
+> - **B)** Incorreta. Estrutura institucional dos Poderes estatais.
+> - **C)** Incorreta. Elementos da Matriz GUT.
+> - **D)** Incorreta. Indicadores macroeconômicos do ambiente geral.
+> - **E)** Incorreta. Componentes de tecnologia da informação.
+> 
+> **Gabarito: A**
 
 ---
+
 ## 3. A Visão Baseada em Recursos (RBV) e o Framework VRIO (Jay Barney)
 
 Ao contrário dos modelos que olham prioritariamente para o mercado exterior (como Porter), a **Visão Baseada em Recursos (RBV - *Resource-Based View*)** sustenta que a fonte de vantagem competitiva sustentada e de desempenho superior das organizações reside em seu **ambiente interno**: nos recursos e capacidades que a organização possui e controla.
@@ -318,63 +291,55 @@ flowchart TD
 ---
 
 ### Teste 385
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Os principais fatores de atratividade organizacional são 
-elementos que tornam uma organização atraente para potenciais 
-colaboradores. 
-Assinale a opção que apresenta um fator de atratividade 
-organizacional intrínseco.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Segundo a Visão Baseada em Recursos (RBV) e o modelo conceitual VRIO formulado por Jay Barney, um recurso organizacional que seja considerado valioso pela organização e raro no seu mercado de atuação, porém passível de imitação a baixo custo pelos demais concorrentes, proporciona à entidade:
 
-* **A)** Serviços exemplares.
-* **B)** Boas práticas de gestão.
-* **C)** Nível de satisfação da opinião pública.
-* **D)** Marca da organização.
-* **E)** Oferta de salário.
+* **A)** Desvantagem competitiva prolongada.
+* **B)** Vantagem competitiva temporária.
+* **C)** Vantagem competitiva sustentável.
+* **D)** Paridade competitiva definitiva.
+* **E)** Ineficiência operacional estrutural.
+
 
 ---
 
-> **Comentário Detalhado:**
+> **Comentário Detalhado:**  
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A) Incorreta.** Como o recurso é valioso e raro, a empresa obtém diferencial positivo, e não desvantagem.  
+> - **B) CORRETA.** No framework VRIO:  
+>     - Recurso Valioso, mas não Raro $\rightarrow$ Paridade Competitiva;  
+>     - Recurso Valioso e Raro, mas **Imitável (fácil de copiar)** $\rightarrow$ **Vantagem Competitiva Temporária**, visto que logo os rivais conseguirão reproduzi-lo, extinguindo o diferencial inicial.  
+>     - Apenas se for Inimitável e sustentado pela Organização é que se alcança a **Vantagem Competitiva Sustentável**.  
+> - **C) Incorreta.** A sustentabilidade requer obrigatoriamente que o recurso seja inimitável.  
+> - **D) Incorreta.** Paridade ocorre quando o recurso não é raro.  
+> - **E) Incorreta.** Não guarda pertinência com ineficiência estrutural.  
+> 
 > **Gabarito: B**
 
 ---
+
 ### Teste 386
-**(FGV – TCE-PA – Auditor de Controle Externo – 2024)**
-Os modelos estratégicos são ferramentas que auxiliam as 
-organizações na análise, planejamento e implementação de 
-estratégias eficazes. Modelos como SWOT, Análise PESTEL e as 
-Cinco Forças de Porter ajudam a entender o contexto 
-competitivo e as oportunidades.  
-Assinale a opção que avalia as oportunidades oferecidas pelo 
-ambiente.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Na Visão Baseada em Recursos (RBV - *Resource-Based View*) e no framework **VRIO** desenvolvido por Jay Barney, para que um recurso interno gere uma **Vantagem Competitiva Sustentável** de longo prazo para a organização, ele deve preencher cumulativamente os quatro requisitos:
 
-* **A)** Benchmarking.
-* **B)** Brainstorming.
-* **C)** PESTEL.
-* **D)** SWOT.
-* **E)** Matriz GUT. 
+* **A)** Ser Valioso (V), Raro (R), Difícil de Imitar/Inimitável (I) e a organização estar Organizada (O) para explorá-lo plenamente.
+* **B)** Ser Volátil, Razoável, Imediato e Onipresente.
+* **C)** Ser Vigoroso, Regular, Inflexível e Oneroso.
+* **D)** Ter Vencimento anual, Restrição orçamentária, Isenção tributária e Opção de resgate.
+* **E)** Ter Valor monetário alto, Rapidez de liquidação, Inscrição em dívida ativa e Ordem bancária emitida.
 
-AUDITOR DE CONTROLE EXTERNO – ÁREA ADMINISTRATIVA - ADMINISTRAÇÃO – MANHÃ  TIPO  BRANCA – PÁGINA 18
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
->
-> **Gabarito: E**
+> - **A)** Correta. O modelo **VRIO** de Jay Barney estabelece que um recurso/capacidade gera vantagem sustentável quando é: **Valioso** (permite explorar oportunidades ou neutralizar ameaças); **Raro** (poucos concorrentes o possuem); **Inimitável / Imperfeitamente Imitável** (difícil e custoso de ser copiado ou substituído por concorrentes); e a instituição está **Organizada** (possui estrutura, governança e processos capazes de capturar esse potencial).
+> - **B), C), D), E)** Incorretas. Distorções arbitrárias sem qualquer respaldo na RBV.
+> 
+> **Gabarito: A**
 
 ---
+
 ## 4. O Business Model Canvas (Alexander Osterwalder)
 
 Desenvolvido por Alexander Osterwalder e Yves Pigneur, o **Business Model Canvas** é uma ferramenta de gestão estratégica visual que sintetiza a arquitetura de negócios de uma instituição em um único painel composto por **nove blocos interdependentes**:
@@ -411,99 +376,79 @@ flowchart TD
 ---
 
 ### Teste 387
-**(FCC – TRT-1 – Analista Judiciário - Tecnologia da Informação – 2014)**
-Muitas empresas utilizam a análise SWOT para sua 
-gestão e planejamento estratégico. O significado, em 
-português, do acrônimo SWOT é, respectivamente,
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A respeito da ferramenta Business Model Canvas desenvolvida por Alexander Osterwalder, assinale a opção correta:
 
-* **A)** vantagens, desvantagens, riscos e segurança.
-* **B)** perigos, soluções, forças e fraquezas.
-* **C)** técnicas, procedimentos, metodologias e testes.
-* **D)** forças, fraquezas, oportunidades e ameaças.
-* **E)** riscos, segurança, perigos e soluções. 
-Caderno de Prova ’A01’, Tipo 001
+* **A)** O bloco da Proposta de Valor descreve detalhadamente o organograma hierárquico e as linhas formais de subordinação funcional da empresa.
+* **B)** O bloco de Segmentos de Clientes situa-se no lado de infraestrutura interna (back-stage), ao lado da estrutura de custos e fornecedores.
+* **C)** O modelo Canvas é composto por nove blocos interdependentes que descrevem a lógica de como uma organização cria, entrega e captura valor perante seu público.
+* **D)** A ferramenta Canvas foi desenhada com a finalidade exclusiva de substituir as Demonstrações Contábeis Aplicadas ao Setor Público (DCASP).
+* **E)** O bloco das Parcerias Principais destina-se a mensurar os prazos cronológicos das tarefas críticas de projetos de curto prazo.
 
-8 TRT1R-An.Jud.-Tec. Informação-A01
 
 ---
 
-> **Comentário Detalhado:**
+> **Comentário Detalhado:**  
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A) Incorreta.** A Proposta de Valor define o conjunto de benefícios, produtos e soluções que resolvem o problema ou atendem à necessidade do cliente, sem tratar de organogramas internos.  
+> - **B) Incorreta.** Segmentos de Clientes integra o lado direito do Canvas (front-stage / mercado e clientes).  
+> - **C) CORRETA.** O **Business Model Canvas** é uma metodologia visual consagrada dividida em **nove blocos essenciais** (Proposta de Valor, Segmentos de Clientes, Canais, Relacionamento com Clientes, Fontes de Receita, Recursos Principais, Atividades-Chave, Parcerias Principais e Estrutura de Custos), concebida para mapear de forma sistêmica como a entidade gera, entrega e captura valor.  
+> - **D) Incorreta.** O Canvas é ferramenta de modelagem estratégica e de negócios, não tendo natureza de demonstrativo contábil.  
+> - **E) Incorreta.** Parcerias Principais mapeia a rede de fornecedores, aliados e parceiros estratégicos que viabilizam o funcionamento da instituição.  
+> 
 > **Gabarito: C**
 
 ---
+
 ### Teste 388
-**(FGV – TJ-RR – Analista Judiciário - Governança e Gestão de TI – 2024)**
-Considerando conceitos de gestão de projetos (PMBOK 7ª Edição), 
-analise as afirmativas a seguir. 
-I. Um risco é um evento ou condição incerta que, caso ocorra, 
-causará um efeito positivo ou negativo a um ou mais objetivos 
-do projeto. 
-II. Cinco estratégias podem ser consideradas para lidar com 
-ameaças: evitar, escalar, transferir, mitigar e aceitar. 
-III. Uma análise SWOT avalia as forças, fraquezas, oportunidades e 
-ameaças de uma organização, projeto ou opção.  
-Está correto o que se afirma em
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Na modelagem inovadora de serviços e projetos públicos pelo *Business Model Canvas* (Alexander Osterwalder), o bloco que define como a instituição se comunica e entrega a sua proposta de valor aos diferentes segmentos de usuários e cidadãos é denominado:
 
-* **A)** I, apenas.
-* **B)** II, apenas.
-* **C)** III, apenas.
-* **D)** I e II, apenas.
-* **E)** I, II e III.
+* **A)** Canais (de Comunicação, Distribuição e Acesso).
+* **B)** Estrutura de Custos.
+* **C)** Fluxo de Receitas.
+* **D)** Recursos Principais.
+* **E)** Parcerias-Chave.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: B**
+> - **A)** Correta. No **Canvas**: os **Canais** descrevem os pontos de contato e os meios pelos quais a organização se comunica com os usuários e entrega sua proposta de valor (ex.: atendimento presencial, portal eletrônico na internet, aplicativo móvel, ouvidoria, diário oficial).
+> - **B)** Incorreta. Custos reúne as principais despesas de operação.
+> - **C)** Incorreta. Fontes de receita descreve a monetização ou ingressos orçamentários.
+> - **D)** Incorreta. Recursos principais são os ativos humanos, físicos e tecnológicos essenciais.
+> - **E)** Incorreta. Parcerias-chave são a rede de colaboradores e fornecedores externos.
+> 
+> **Gabarito: A**
 
 ---
+
 ### Teste 389
-**(FGV – TRT-1 – Analista Judiciário - Tecnologia da Informação – 2024)**
-Dora é gesto ra de uma empresa de produtos de beleza que 
-iniciou suas atividades há três anos e encontra -se em fase de 
-expansão, conquistando espaço no mercado. Ela quer adotar o 
-balanced scorecard  e está especialmente atenta à perspectiva 
-financeira, nos seguintes tem as estratégicos: crescimento e mix 
-de receita; e redução de custos/melhoria de produtividade. 
-Tendo em vista a fase em que a empresa se encontra, são 
-indicadores adequados para os temas estratégicos citados, 
-respectivamente:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Segundo as Estratégias Genéricas de Michael Porter, quando uma organização busca se destacar perante os usuários e a sociedade criando produtos ou serviços amplamente percebidos como únicos, de qualidade superior e com atributos exclusivos inigualáveis no setor, ela adota a estratégia de:
 
-* **A)** taxa de vendas por segmento; receita por funcionário;
-* **B)** lucratividade por cliente; taxa de utilização dos ativos;
-* **C)** investimentos como percentual de vendas; custo unitário de 
-produção;
-* **D)** percentual da receita gerado por novos produtos ; índices de 
-capital de giro;
-* **E)** lucratividade por linha de produto; retorno sobre o 
-patrimônio líquido.
+* **A)** Diferenciação.
+* **B)** Liderança em Custo Total.
+* **C)** Foco ou Enfoque em Custos Reduzidos.
+* **D)** Desinvestimento em Ativos Intangíveis.
+* **E)** Equalização Regressiva de Preços.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: C**
+> - **A)** Correta. Michael Porter descreve três estratégias genéricas: (1) **Liderança em Custo**: eficiência operacional para produzir ao menor custo da indústria; (2) **Diferenciação**: oferta de serviços/produtos percebidos como únicos e diferenciados pela inovação, marca e qualidade; (3) **Foco/Enfoque**: concentração em um nicho específico de mercado (por custo ou diferenciação).
+> - **B)** Incorreta. Liderança em custo foca no menor custo operacional possível.
+> - **C)** Incorreta. Foco em custos atende um nicho restrito pelo menor preço.
+> - **D), E)** Incorretas. Termos sem relação com o modelo porteriano.
+> 
+> **Gabarito: A**
 
 ---
+
 ## 5. Fontes Oficiais e Referências Bibliográficas
 
 * [Decreto nº 9.203/2017 (Gestão Estratégica e Avaliação de Riscos)](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9203.htm) - Diagnóstico de riscos ambientais e definição de respostas estratégicas no setor público.

@@ -74,41 +74,26 @@ flowchart TD
 ---
 
 ### Teste 088
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Após distinguir as peculiaridades atinentes as situaçõ es em que a 
-licitação é inexigível e aquelas em que tal procedimento é 
-dispensável, Daniel foi instado a dar um exemplo dessa última 
-hipótese de contratação direta, à luz do disposto na Lei nº 
-14.133/2021, e indicou corretamente a
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No âmbito das contratações públicas regidas pela Lei nº 14.133/2021, o legislador disciplinou no art. 78 os procedimentos auxiliares das licitações e das contratações. Constituem procedimentos auxiliares expressamente previstos no referido dispositivo legal:
 
-* **A)** contratação de objet os que devam ou possam ser 
-contratados por meio de credenciamento.
-* **B)** aquisição ou locação de imóvel cujas características de 
-instalações e de localização tornem necessária sua escolha.
-* **C)** contratação de profissional do setor artístico, diretamente ou 
-por meio de empresário exclusivo, desde que consagrado 
-pela crítica especializada ou pela opinião pública.
-* **D)** aquisição de materiais, de equipamentos ou de gêneros ou 
-contratação de serviços que só possam ser fornecidos por 
-produtor, empresa ou representante comercial exclusivos.
-* **E)** contratação de bens ou serviços que tenham por objeto bens 
-ou serviços produzidos ou prestados no País que envolvam, 
-cumulativamente, alta complexidade tecnológica e defesa 
-nacional.
+* **A)** credenciamento, pré-qualificação, PMI, sistema de registro de preços e registro cadastral.
+* **B)** concurso de projetos, leilão presencial, pregão eletrônico, tomada de preços e registro geral de fornecedores.
+* **C)** audiência pública prévia, consulta pública eletrônica, diálogo competitivo e comissão de contratação especial.
+* **D)** credenciamento simplificado, dispensa eletrônica por valor, inexigibilidade formal e pregão simplificado.
+* **E)** matriz de riscos, estudo técnico preliminar, termo de referência e projeto básico executivo de obras.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Correto**. O art. 78 da Lei nº 14.133/2021 estabelece taxativamente: "São procedimentos auxiliares das licitações e das contratações regidas por esta Lei: I - credenciamento; II - pré-qualificação; III - procedimento de manifestação de interesse; IV - sistema de registro de preços; V - registro cadastral".
+> - **B)** **Incorreto**. Concurso, leilão e pregão são modalidades de licitação; tomada de preços foi extinta na NLLC.
+> - **C)** **Incorreto**. Audiência e consulta pública são instrumentos de participação social na fase preparatória.
+> - **D)** **Incorreto**. Dispensa e inexigibilidade são hipóteses de contratação direta, não procedimentos auxiliares.
+> - **E)** **Incorreto**. ETP, TR e Projeto Básico são artefatos de planejamento preparatório.
 >
-> **Gabarito: C**
-
----
+> **Gabarito: A**
 ## 2. Procedimentos Auxiliares da Lei nº 14.133/2021 (Art. 78)
 
 O art. 78 da Lei nº 14.133/2021 sistematizou cinco procedimentos auxiliares das licitações e contratações administrativas:
@@ -190,178 +175,89 @@ A Lei nº 14.133/2021 impõe a criação do sistema de registro cadastral unific
 ---
 
 ### Teste 089
-**(FCC – TRT-2 – Analista Judiciário - Tecnologia da Informação – 2014)**
-A Administração pública de São Bernardo do Campo tem necessidade de adquirir equipamento de informática que é produzido e 
-comercializado, com exclusividade, por empresa brasileira sediada no Estado do Paraná. Após ampla e detida pesquisa, 
-constatou-se que referido equipamento é o único capaz de atender de forma satisfatória o interesse público, sendo premente 
-sua aquisição. Para tanto, a Administração pública municipal deve comprar referido equipamento por meio de
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+O credenciamento constitui procedimento auxiliar expressamente disciplinado no art. 79 da Lei Federal nº 14.133/2021. A respeito das hipóteses de cabimento e das regras operacionais do credenciamento, assinale a opção correta:
 
-* **A)** procedimento licitatório, na modalidade pregão eletrônico, 
-que é exigência constitucional para todas as contratações 
-públicas.
-* **B)** procedimento licitatório, elegendo a modalidade licitatória que imprima maior competitividade ao certame, desde que o faça 
-de forma motivada.
-* **C)** contratação direta, com fundamento na dispensa de licitação, exigindo  do fornecedor a comprovação de exclusividade de 
-fabricação e comercialização, por meio da apresentação de atestado emitido para esse fim.
-* **D)** contratação direta, com fundamento na inexigibilidade de licitação, exigindo, para tanto, que o fornecedor apresente a 
-documentação comprobatória da condição de exclusividade, nos termos da Lei.
-* **E)** contratação direta, com fundamento na dispensa ou na inexigibilidade de licitação, não havendo, em qualquer das 
-hipóteses, forma específica indicada pela lei para comprovação da exclusividade de fabricação e comercialização. 
-Caderno de Prova ’D04’, Tipo 001
-
-TRT2R-Conhecimentos Gerais2 7
+* **A)** O credenciamento é cabível quando for viável a contratação simultânea de todos os qualificados.
+* **B)** O credenciamento exige a realização de leilão público prévio para fixar a tabela de remuneração dos serviços.
+* **C)** O credenciamento veda o credenciamento de novos interessados durante todo o prazo de vigência do edital aberto.
+* **D)** O credenciamento aplica-se prioritariamente a obras de grande vulto com regime de contratação semi-integrada.
+* **E)** O credenciamento autoriza a autoridade a fixar preços diferenciados com base na data de inscrição do profissional.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Correto**. O art. 79, I, da Lei nº 14.133/2021 prevê o credenciamento para "paralela e não excludente: caso em que é viável e vantajosa para a Administração a realização de contratações simultâneas em condições padronizadas", bem como com seleção a critério de terceiros (inciso II) e em mercados fluidos (inciso III). Todos os interessados qualificados são credenciados sob tarifa única.
+> - **B)** **Incorreto**. O edital de credenciamento fixa previamente o valor remuneratório padrão, sem leilão.
+> - **C)** **Incorreto**. O credenciamento permanece permanentemente aberto a novos interessados enquanto vigente o edital.
+> - **D)** **Incorreto**. O credenciamento destina-se a serviços médicos, laboratoriais, perícias e passagens, não a obras integradas.
+> - **E)** **Incorreto**. O valor da remuneração é estritamente isonômico e tabelado para todos os credenciados.
 >
-> **Gabarito: B**
-
----
+> **Gabarito: A**
 ### Teste 090
-**(FGV – TRF-1 – Analista Judiciário - Tecnologia da Informação – 2024)**
-Tendo em vista que o Tribunal Regional da 1ª Região necessita 
-adquirir determinados produtos, com muita frequência, para o 
-adequado exercício de suas atribuições constitucionais, as 
-autoridades competentes estão verificando as normas atinentes 
-ao sistema de registro de preços, à luz do disposto na Lei nº 
-14.133/2021, sendo  certo que tais produtos são considerados 
-bens comuns e que é viável a competição, por existirem diversos 
-fornecedores. 
-Diante dessa situação hipotética, à luz do mencionado diploma 
-legal, é correto afirmar que:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+O Secretário de Saúde necessita adquirir insumos hospitalares complexos e optou por instaurar procedimento auxiliar de pré-qualificação. Nos termos do art. 80 da Lei Federal nº 14.133/2021, o procedimento auxiliar de pré-qualificação:
 
-* **A)** não é cabível a realização de licitação, por ser ela inexigível na 
-situação descrita;
-* **B)** é cabível a realização de licitação, em qualquer das 
-modalidades previstas na norma em comento, admissíveis na 
-situação descrita;
-* **C)** não é cabível a realização de licitação, diante da possibilidade 
-de esco lha por qualquer das modalidades de contratação 
-direta na situação descrita;
-* **D)** é cabível a realização de licitação, que deverá ser na 
-modalidade pregão, que é a pertinente para a situação 
-descrita;
-* **E)** não é cabível a realização de licitação, por ser ela dispensável, 
-em essência, na situação descrita, independentemente do 
-valor contrato ou do objeto a ser contratado.
+* **A)** Presta-se a pré-qualificar licitantes e certificar a qualidade técnica de bens.
+* **B)** É procedimento sigiloso restrito a empresas estatais convidadas pelo órgão promotor da futura licitação.
+* **C)** Tem validade máxima de cinco anos improrrogáveis para fornecedores estrangeiros sem sede no país.
+* **D)** Substitui a necessidade de realização de licitação posterior para contratações de valor expressivo.
+* **E)** Veda a participação de empresas que não tenham participado de procedimentos licitatórios anteriores.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Correto**. O art. 80 da Lei nº 14.133/2021 estabelece que a pré-qualificação é o procedimento técnico-administrativo para selecionar previamente: I - licitantes que reúnam condições de habilitação exigidas para o fornecimento de bem ou execução de serviço; e II - bens que atendam às exigências técnicas e de qualidade da administração. Pode ser subjetiva (empresas) ou objetiva (produtos/marcas).
+> - **B)** **Incorreto**. O procedimento é estritamente público e aberto permanentemente a qualquer interessado (art. 80, § 1º).
+> - **C)** **Incorreto**. A validade da pré-qualificação é de, no máximo, 1 (um) ano, podendo ser atualizada a qualquer tempo (art. 80, § 2º).
+> - **D)** **Incorreto**. A pré-qualificação não contrata; apenas agiliza as licitações futuras que serão obrigatoriamente deflagradas.
+> - **E)** **Incorreto**. É vedada qualquer cláusula discriminatória ou restritiva que afaste novos competidores.
 >
-> **Gabarito: B**
-
----
+> **Gabarito: A**
 ### Teste 091
-**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
-A Lei n.° 14.133/2021, nova Lei de Licitações e Contratos 
-Administrativos, apresenta um conjunto de inovações e 
-aprimoramentos destinados a modernizar, tornar mais 
-transparente e eficiente o processo de contratação pública no 
-Brasil. 
-Assinale a opção que apresenta corretamente uma hipótese de 
-inexigibilidade de licitação.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Uma autarquia estadual goiana pretende adquirir medicamentos essenciais para distribuição hospitalar continuada mediante utilização do Sistema de Registro de Preços (SRP). De acordo com as disposições do art. 82 da Lei Federal nº 14.133/2021:
 
-* **A)** Quando o preço for muito baixo, dispensando a licitação.
-* **B)** Quando houver dois ou mais fornecedores para o mesmo 
-serviço.
-* **C)** Quando o serviço puder ser prestado por qualquer empresa 
-registrada.
-* **D)** Quando o objeto puder ser dividido entre vários fornecedores.
-* **E)** Quando a competição for inviável, como na contratação de 
-artista consagrado por meio de empresário exclusivo.
+* **A)** O SRP obriga a Administração a adquirir integralmente os quantitativos registrados na Ata de Registro de Preços.
+* **B)** A licitação para registro de preços pode ser realizada exclusivamente na modalidade diálogo competitivo com lances.
+* **C)** A ata de registro de preços gera mera expectativa de fornecimento, não conferindo direito subjetivo à contratação.
+* **D)** O prazo de vigência da ata de registro de preços é de até cinco anos ininterruptos, vedadas prorrogações no período.
+* **E)** É proibida a alteração de preços registrados na ata mesmo diante de expressiva elevação dos insumos no mercado.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **A)** **Incorreto**. A existência de preços registrados não obriga a Administração a firmar as contratações correlatas (art. 83).
+> - **B)** **Incorreto**. O SRP é operacionalizado nas modalidades pregão ou concorrência (art. 82, caput).
+> - **C)** **Correto**. O art. 83 da Lei nº 14.133/2021 consagra a regra tradicional: "A existência de preços registrados implicará compromisso de fornecimento nas condições estabelecidas, mas não obrigará a Administração a contratar, facultada a realização de licitação específica para a aquisição pretendida, desde que devidamente justificada". O particular tem o dever de manter o preço, mas a Administração tem discricionariedade de compra.
+> - **D)** **Incorreto**. O prazo de vigência da ata de registro de preços é de 1 (um) ano, prorrogável por igual período (art. 84).
+> - **E)** **Incorreto**. A ata admite negociação e readequação de preços em decorrência de variações do mercado (art. 82, § 5º, IV).
 >
-> **Gabarito: E**
-
----
+> **Gabarito: C**
 ### Teste 092
-**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
-De acordo com a Lei nº 14.133/2021, após o resultado do processo 
-de licitação, será facultado à Administração, quando o convocado 
-não assinar o termo de contrato ou não aceitar ou não retirar o 
-instrumento equivalente no prazo e nas condições estabelecidas, 
-convocar os licitantes remanescentes, na ordem de classificação, 
-para a celebração do contrato nas condições propostas pelo 
-licitante vencedor. 
-Em relação à hipótese de nenhum dos licitantes aceitar a 
-contratação nos termos propostos, analise o que se afirma a 
-seguir. 
-I. A Administração poderá convocar os licitantes remanescentes 
-para negociação, na ordem de classificação, com vistas à 
-obtenção de preço melhor, mesmo que acima do preço do 
-adjudicatário. 
-II. A Administração poderá adjudicar e celebrar o contrato nas 
-condições ofertadas pelos licitantes remanescentes, atendida 
-a ordem classificatória, quando frustrada a negociação de 
-melhor condição. 
-III. A Administração poderá anular o edital de licitação e 
-suspender as suas intenções originais em relação ao objeto da 
-licitação. 
-Está correto o que se afirma em
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No que se refere ao Sistema de Registro de Preços (SRP) e à utilização da ata por órgão não participante (figura do "carona"), com fundamento no art. 86 da Lei Federal nº 14.133/2021, a adesão à ata de outro ente federado:
 
-* **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** I e III, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III. 
-
-TRIBUNAL REGIONAL DO TRABALHO DA 24ª REGIÃO (TRT-24) – REAPLICAÇÃO FGV CONHECIMENTO  
-
-
-Questão Discursiva 
-A Cia. Delta S.A. atua no setor de comércio varejista. 
-Em 31/12/2024, a sociedade empresária apresentava os seguintes saldos em seu Balanço Patrimonial:  
- Disponibilidades: R$300.000. 
- Participação em empresa controlada: R$50.000. 
- Patrimônio Líquido: R$350.000. 
-Em janeiro de 2025, a Cia. Delta concedeu os seguintes empréstimos: 
- para empresa controlada, com prazo de recebimento previsto para 90 dias: R$15.000. 
- para o diretor de marketing, com prazo de recebimento previsto para 120 dias: R$20.000. 
- para empregados administrativos, com prazo de recebimento previsto para 180 dias: R$25.000. 
- para acionistas, com prazo de recebimento previsto para 240 dias: R$30.000. 
-Com base na Lei n.° 6.404/1976 e alterações, indique e explique o saldo e a composição dos seguintes grupos no Balanço Patrimonial em 
-31/01/2025: 
-a) Ativo circulante. 
-b) Ativo realizável a longo prazo. 
-c) Investimentos. 
-TRIBUNAL REGIONAL DO TRABALHO DA 24ª REGIÃO (TRT-24) – REAPLICAÇÃO FGV CONHECIMENTO
+* **A)** Exige prévia consulta e concordância expressa do órgão gerenciador e demonstração da vantajabilidade econômica.
+* **B)** É ilimitada quanto aos quantitativos totais que cada órgão não participante pode adquirir na vigência da ata.
+* **C)** Dispensa a anuência do fornecedor beneficiário da ata quando a adesão for realizada por órgão estadual ou municipal.
+* **D)** Permite que órgãos da Administração Federal adiram livremente a atas originárias de Municípios de pequeno porte.
+* **E)** Veda a aquisição de bens comuns de tecnologia da informação e comunicação por adesão a atas de registro de preços.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Correto**. O art. 86, § 2º da Lei nº 14.133/2021 estabelece que a adesão pelo não participante exige: 1) apresentação de justificativa da vantagem da adesão; 2) demonstração de que os valores registrados são compatíveis com os praticados no mercado; 3) prévias consulta e aceitação do órgão ou entidade gerenciadora e do fornecedor.
+> - **B)** **Incorreto**. O art. 86, § 4º e § 5º fixa limites estritos individuais (até 50% dos quantitativos da ata) e globais (o dobro do quantitativo original da ata).
+> - **C)** **Incorreto**. A anuência formal do fornecedor beneficiário da ata é condição indispensável (art. 86, § 2º, III).
+> - **D)** **Incorreto**. O art. 86, § 8º veda a adesão de órgãos federais a atas lavradas por órgãos estaduais, distritais ou municipais.
+> - **E)** **Incorreto**. O SRP é plenamente aplicável e rotineiramente utilizado para soluções de TI.
 >
-> **Gabarito: D**
-
----
+> **Gabarito: A**
 ## 3. Processo Administrativo de Contratação Direta (Art. 72)
 
 Tanto a dispensa quanto a inexigibilidade não significam informalidade ou ausência de procedimento. O art. 72 da Lei nº 14.133/2021 estabelece que o processo de contratação direta deve ser obrigatoriamente instruído com os seguintes elementos mínimos sob pena de nulidade:
@@ -382,41 +278,26 @@ Tanto a dispensa quanto a inexigibilidade não significam informalidade ou ausê
 ---
 
 ### Teste 093
-**(FGV – TJ-AP – Analista Judiciário - Tecnologia da Informação – 2023)**
-Joyce acabou de ler certo edital que veiculou a realização de um 
-processo administrativo de chamamento público por meio do 
-qual a Administração Pública convocou profissionais interessados 
-em prestar determinado serviço, para que, preenchidos os 
-requisitos necessários devidamente delimitados, se habilitem 
-junto ao órgão ou entidade para executar o objeto quando 
-convocados, viabilizando a sua contratação direta, mediante 
-critérios determinados.  
-No âmbito da Lei nº 14.133/2021, tal edital versa sobre:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+O art. 72 da Lei nº 14.133/2021 estabelece a instrução processual obrigatória que deve instruir os processos de contratação direta por inexigibilidade ou por dispensa de licitação. Constitui requisito indispensável do processo de contratação direta:
 
-* **A)** credenciamento, que caracteriza hipótese de licitação 
-dispensável;
-* **B)** pré-qualificação, que caracteriza hipótese de licitação 
-inexigível;
-* **C)** catálogo eletrônico de padronização de serviços, que 
-caracteriza hipótese de licitação inexigível;
-* **D)** credenciamento, que caracteriza hipótese de licitação 
-inexigível;
-* **E)** pré-qualificação, que caracteriza hipótese de licitação 
-dispensável.
+* **A)** A demonstração da dotação orçamentária compatível com a despesa a ser assumida.
+* **B)** A comprovação prévia de realização de pregão eletrônico deserto no mesmo exercício financeiro da contratação.
+* **C)** A autorização expressa e unânime do plenário da Assembleia Legislativa estadual em audiência temática pública.
+* **D)** A renúncia formal do contratado a qualquer pedido de reequilíbrio econômico-financeiro futuro no contrato.
+* **E)** O depósito prévio de caução em títulos da dívida pública no valor correspondente a cinquenta por cento do ajuste.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Correto**. O art. 72 da Lei nº 14.133/2021 elenca os documentos de instrução obrigatória: I - documento de formalização de demanda (DFD); II - estimativa de despesa calculada na forma da lei; III - parecer jurídico e pareceres técnicos; IV - demonstração da compatibilidade orçamentária; V - comprovação de que o contratado preenche os requisitos de habilitação e qualificação mínima; VI - razão da escolha do contratado; VII - justificativa de preço.
+> - **B)** **Incorreto**. Pregão deserto é apenas uma das hipóteses de dispensa (art. 75, III), não sendo requisito universal das contratações diretas.
+> - **C)** **Incorreto**. Contratação direta é ato de gestão do Executivo, dispensando chancela parlamentar.
+> - **D)** **Incorreto**. O reequilíbrio econômico-financeiro é garantia constitucional inafastável (art. 37, XXI da CF).
+> - **E)** **Incorreto**. Exigência totalmente desprovida de previsão legal.
 >
 > **Gabarito: A**
-
----
 ## 4. Inexigibilidade de Licitação (Art. 74 - Inviabilidade de Competição)
 
 A inexigibilidade é caracterizada pela inviabilidade fática ou jurídica de certame licitatório. O rol do art. 74 é **exemplificativo**. As hipóteses legais expressas são:
@@ -448,77 +329,47 @@ A contratação direta sem licitação para serviços técnicos especializados e
 ---
 
 ### Teste 094
-**(FGV – TJ-AP – Analista Judiciário - Segurança da Informação – 2023)**
-Joyce acabou de ler certo edital que veiculou a realização de um 
-processo administrativo de chamamento público por meio do 
-qual a Administração Pública convocou profissionais interessados 
-em prestar determinado serviço, para que, preenchidos os 
-requisitos necessários devidamente delimitados, se habilitem 
-junto ao órgão ou entidade para executar o objeto quando 
-convocados, viabilizando a sua contratação direta, mediante 
-critérios determinados.  
-No âmbito da Lei nº 14.133/2021, tal edital versa sobre:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+O Tribunal de Contas do Estado necessita contratar com profissional do setor artístico consagrado pela crítica especializada para apresentação cultural em simpósio comemorativo. À luz das regras sobre Inexigibilidade de Licitação (art. 74 da Lei nº 14.133/2021):
 
-* **A)** credenciamento, que caracteriza hipótese de licitação 
-dispensável;
-* **B)** pré-qualificação, que caracteriza hipótese de licitação 
-inexigível;
-* **C)** catálogo eletrônico de padronização de serviços, que 
-caracteriza hipótese de licitação inexigível;
-* **D)** credenciamento, que caracteriza hipótese de licitação 
-inexigível;
-* **E)** pré-qualificação, que caracteriza hipótese de licitação 
-dispensável.
+* **A)** A inexigibilidade aplica-se exclusivamente às situações expressamente tipificadas nos incisos do art. 74 em rol taxativo.
+* **B)** A contratação de artista consagrado é inexigível pela inviabilidade de disputa objetiva.
+* **C)** A contratação artística exige licitação na modalidade concurso com julgamento por menor tarifa de cachê negociada.
+* **D)** A inexigibilidade afasta a necessidade de justificativa de preço, podendo o artista estipular livremente a remuneração.
+* **E)** O contrato artístico decorrente de inexigibilidade pode ser celebrado por empresário sem exclusividade de representação.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Incorreto**. O caput do art. 74 consagra que o rol de inexigibilidade é EXEMPLIFICATIVO ("é inexigível a licitação quando inviável a competição, em especial nos casos de...").
+> - **B)** **Correto**. O art. 74, II, da Lei nº 14.133/2021 prevê expressamente a inexigibilidade para "contratação de profissional do setor artístico, diretamente ou por meio de empresário exclusivo, desde que consagrado pela crítica especializada ou pela opinião pública". A singularidade estética do artista inviabiliza a comparação matemática de preços em licitação.
+> - **C)** **Incorreto**. Concurso não se presta à contratação direta de shows artísticos comemorativos.
+> - **D)** **Incorreto**. A justificativa de preço é obrigatória na contratação direta (art. 72, VII), comprovando-se a razoabilidade do cachê por contratos pretéritos.
+> - **E)** **Incorreto**. A representação deve ser por empresário exclusivo comprovado (art. 74, § 2º).
 >
-> **Gabarito: A**
-
----
+> **Gabarito: B**
 ### Teste 095
-**(FGV – TJ-AP – Analista Judiciário - Banco de Dados – 2023)**
-Joyce acabou de ler certo edital que veiculou a realização de um 
-processo administrativo de chamamento público por meio do 
-qual a Administração Pública convocou profissionais interessados 
-em prestar determinado serviço, para que, preenchidos os 
-requisitos necessários devidamente delimitados, se habilitem 
-junto ao órgão ou entidade para executar o objeto quando 
-convocados, viabilizando a sua contratação direta, mediante 
-critérios determinados.  
-No âmbito da Lei nº 14.133/2021, tal edital versa sobre:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A Administração Pública tem necessidade de contratar profissional de notória especialização para emitir parecer jurídico de alta complexidade constitucional em processo judicial de relevante interesse financeiro do Estado. A respeito da inexigibilidade para contratação de serviços técnicos especializados (art. 74, III da Lei nº 14.133/2021):
 
-* **A)** credenciamento, que caracteriza hipótese de licitação 
-dispensável;
-* **B)** pré-qualificação, que caracteriza hipótese de licitação 
-inexigível;
-* **C)** catálogo eletrônico de padronização de serviços, que 
-caracteriza hipótese de licitação inexigível;
-* **D)** credenciamento, que caracteriza hipótese de licitação 
-inexigível;
-* **E)** pré-qualificação, que caracteriza hipótese de licitação 
-dispensável.
+* **A)** Exige serviço técnico especializado, caráter intelectual e notória especialização.
+* **B)** Veda a contratação direta caso existam outros profissionais de renome no mercado atuando no mesmo ramo doutrinário.
+* **C)** Admite a inexigibilidade para a contratação rotineira de serviços de publicidade institucional e propaganda governamental.
+* **D)** A notória especialização afasta a obrigação de justificar a economicidade do valor dos honorários propostos pelo jurista.
+* **E)** A caracterização da notória especialização exige que o profissional seja professor titular de universidade pública federal.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Correto**. O art. 74, III, da Lei nº 14.133/2021 autoriza a inexigibilidade para "contratação dos seguintes serviços técnicos especializados de natureza predominantemente intelectual com profissionais ou empresas de notória especialização, vedada a inexigibilidade para serviços de publicidade e divulgação". São três requisitos cumulativos: serviço técnico do rol legal (ex: pareceres), natureza predominantemente intelectual e notória especialização do profissional (art. 74, § 3º).
+> - **B)** **Incorreto**. A existência de outros especialistas no mercado não descaracteriza a inexigibilidade, pois o juízo de confiança e singularidade do profissional é prerrogativa motivada do gestor (Tema 265 do STF).
+> - **C)** **Incorreto**. É expressamente vedada a inexigibilidade para serviços de publicidade e divulgação (art. 74, III in fine).
+> - **D)** **Incorreto**. A justificativa de preços por confronto com contratações anteriores do profissional é exigência inafastável.
+> - **E)** **Incorreto**. A notória especialização comprova-se por desempenho anterior, estudos, publicações e reputação (art. 74, § 3º).
 >
 > **Gabarito: A**
-
----
 ## 5. Dispensa de Licitação (Art. 75 - Rol Taxativo)
 
 A dispensa de licitação ocorre em circunstâncias nas quais a competição entre particulares seria perfeitamente viável, mas a lei autoriza a Administração a contratar diretamente por razões de eficiência, utilidade ou conveniência coletiva. O rol do art. 75 é **taxativo** (*numerus clausus*).
@@ -550,122 +401,67 @@ A dispensa de licitação ocorre em circunstâncias nas quais a competição ent
 ---
 
 ### Teste 096
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Uma instituição federal está em processo de modernização de seu 
-sistema de informações e necessita adquirir novos servidores de 
-alta capacidade. O setor de TI realizou estudos preliminares e 
-definiu especificações técnicas detalhadas que apenas uma marca 
-específica de servidores atende.  
-Considerando a Lei nº 14.133/2021, o s etor de compras, para a 
-aquisição destes servidores, deve
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Tendo em vista que determinada unidade administrativa necessita adquirir materiais de consumo de pronto atendimento e serviços de manutenção predial com despesas estimadas abaixo dos limites legais do art. 75, I e II, da Lei nº 14.133/2021, o Diretor questionou se o órgão poderia licitar ou realizar contratação direta. 
 
-* **A)** realizar licitação na modalidade concorrência, permitindo a 
-participação de várias marcas para assegurar a obtenção de 
-propostas competitivas.
-* **B)** efetuar uma dispensa de licitação, uma vez que a especificação 
-detalhada restringe a aquisição à marca única, caracterizando 
-fornecedor exclusivo.
-* **C)** proceder com a inexigibilidade de licitação devido à 
-especificação técnica que justifica a escolha de uma única 
-marca, evitando a competição.
-* **D)** solicitar autorização judicial para adquirir diretamente do 
-fornecedor sem necessidade de licitação, dado o caráter 
-exclusivo da especificação.
-* **E)** realizar um pregão eletrônico com indicação de marca no 
-edital para garantir a compatibilidade com o sistema a tual da 
-instituição.
+A respeito da dispensa de licitação em razão do valor e das regras sobre fracionamento de despesa, é correto afirmar que:
+
+* **A)** a realização de licitação é vedada pela NLLC quando o valor do objeto situar-se abaixo dos patamares de dispensa.
+* **B)** a dispensa de licitação por valor é faculdade da Administração, sendo plenamente cabível licitar se for conveniente.
+* **C)** o limite de valor para compras e serviços é cumulado e compartilhado indistintamente com o limite de obras de engenharia.
+* **D)** a aferição do limite financeiro para dispensa desconsidera outras compras da mesma natureza ao longo do exercício financeiro.
+* **E)** a contratação direta por valor dispensa a verificação de regularidade fiscal e trabalhista do fornecedor contratado.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Incorreto**. A dispensa de licitação é uma faculdade conferida pela lei à Administração, e não um dever cogente de não licitar.
+> - **B)** **Correto**. Conforme a jurisprudência pacífica e a doutrina, a Administração Pública tem a discricionariedade de dispensar a licitação por baixo valor (art. 75 da NLLC) para conferir celeridade e economicidade, mas pode perfeitamente optar por deflagrar o processo licitatório (como pregão eletrônico) quando avaliar que a ampla disputa trará proposta mais vantajosa para o erário.
+> - **C)** **Incorreto**. O art. 75, I e II fixa tetos diferenciados e autônomos: inciso I para obras e serviços de engenharia; inciso II para outros serviços e compras.
+> - **D)** **Incorreto**. O art. 75, § 1º, I impõe o somatório de todas as despesas da mesma natureza realizadas no exercício financeiro pela mesma unidade gestora, vedando o fracionamento ilegal de compras.
+> - **E)** **Incorreto**. A habilitação jurídica, fiscal e trabalhista mínima do contratado é obrigatória (art. 72, V).
 >
-> **Gabarito: C**
-
----
+> **Gabarito: B**
 ### Teste 097
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Pedro Henrique celebrou contrato de mútuo com Vitor Azevedo, 
-casado sob o regime da comunhão parcial de bens com Tereza. 
-Pelo referido contrato, restou consignado que Pedro Henrique, 
-mutuário, deveria restituir o valor emprestado, R$15.000,00, 
-pessoalmente e em espécie ao mutuante, aos 15 de abril de 2024.  
-Na data do vencimento, Pedro Henrique procura Vitor com a 
-intenção de pagar, ao que é informado por Tereza que Vitor 
-Azevedo está em lugar incerto e não sabido há mais de 40 dias o 
-que a motivou a promov er ação declaratória de ausência, ainda 
-não julgada.  
-Diante da situação e com o intuito de evitar as consequências do 
-inadimplemento, analise as assertivas abaixo: 
-I) Pedro Henrique deverá efetuar o pagamento à Tereza que, em 
-razão do regime de bens, é credora solidária. 
-II) Pedro Henrique deverá aguardar o julgamento da ação 
-declaratória de ausência, que suspende o vencimento da 
-obrigação, para efetuar o pagamento a quem for nomeado 
-curador. 
-III) Pedro Henrique deverá consignar o pagamento, 
-independentemente do julgamento da ação declaratória de 
-ausência, pois o credor encontra-se em lugar incerto.  
-Está correto o que se afirma em
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Em razão de chuvas torrenciais atípicas que destruíram a principal ponte de acesso a determinado município goiano, isolando a população local, o Governador do Estado autorizou a contratação emergencial de empresa de engenharia para reconstrução da via com base no art. 75, VIII da Lei nº 14.133/2021. Sobre a dispensa emergencial:
 
-* **A)** I, apenas.
-* **B)** II, apenas.
-* **C)** III, apenas.
-* **D)** I e III, apenas.
-* **E)** II e III, apenas.
+* **A)** O contrato emergencial pode ter vigência de até um ano contado da emergência, vedada a sua prorrogação contratual.
+* **B)** A contratação emergencial pode perdurar por até dois anos consecutivos desde que o estado de calamidade persista.
+* **C)** A contratação emergencial admite a inclusão de obras de embelezamento urbano e ampliação paisagística da rodovia.
+* **D)** A comprovação de emergência fabricada pela inércia culposa do gestor obsta a contratação direta das obras essenciais.
+* **E)** O fornecedor contratado emergencialmente fica liberado da execução das parcelas contratadas se houver atraso na LOA.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Correto**. O art. 75, VIII, da Lei Federal nº 14.133/2021 consagra que a contratação emergencial ou calamitosa terá como limite: "para as parcelas de obras e serviços que possam ser concluídas no prazo máximo de 1 (um) ano, contado da data de ocorrência da emergência, vedadas a prorrogação dos respectivos contratos e a recontratação de empresa já contratada com base no mesmo dispositivo". A nova lei ampliou o prazo da Lei 8.666 (que era de 180 dias) para até 1 ano, mas proibiu peremptoriamente qualquer aditivo de prorrogação.
+> - **B)** **Incorreto**. O prazo máximo improrrogável é de 1 (um) ano.
+> - **C)** **Incorreto**. A dispensa limita-se estritamente às obras e serviços necessários ao atendimento da situação emergencial (art. 75, VIII).
+> - **D)** **Incorreto**. Pelo entendimento do TCU e STJ, mesmo na "emergência fabricada" pelo gestor desidioso, a contratação direta é mantida para afastar o perigo à vida e à comunidade, apurando-se a responsabilidade pessoal do agente que gerou a inércia.
+> - **E)** **Incorreto**. O contratado responde pelas obrigações pactuadas sob as penas contratuais e legais cabíveis.
 >
-> **Gabarito: D**
-
----
+> **Gabarito: A**
 ### Teste 098
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-A implantação de empreendimentos viários normalmente só é 
-possível após a realização de desapropriações de imóveis que 
-estejam na faixa de terreno onde serão implantadas as obras. No 
-caso de desapropriações parciais, a indenização deve levar em 
-consideração eventuais reflexos na parte remanescente do bem.  
-Analise as assertivas a seguir: 
-I. A desvalorização do remanescente, em decorrência da 
-desapropriação, não deve ser levada em consideração; 
-II. No caso de benfeitorias atingidas, devem ser previstas 
-indenizações relativas ao custo das obras de adaptação do 
-remanescente; 
-III. A desapropriação parcial pode ser tornar total se o 
-remanescente for considerado inviável em função do 
-esvaziamento de seu conteúdo econômico. 
-Está correto o que se afirma em
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Determinada pasta estadual deflagrou licitação sob a modalidade pregão eletrônico para aquisição de combustíveis. Na data designada na sessão pública, nenhum licitante compareceu ou encaminhou propostas (licitação deserta). Diante disso, a respeito das providências cabíveis com base no art. 75, III, "a" da Lei nº 14.133/2021:
 
-* **A)** I, apenas.
-* **B)** II, apenas.
-* **C)** III, apenas.
-* **D)** I e II, apenas.
-* **E)** II e III, apenas.
+* **A)** A Administração pode contratar diretamente mantendo as condições do edital deserto.
+* **B)** A realização de licitação deserta obriga a autoridade a elevar em cinquenta por cento o preço estimado para nova sessão.
+* **C)** A dispensa de licitação é automática e dispensa justificativa da inviabilidade de repetição do procedimento licitatório.
+* **D)** O fenômeno narrado consubstancia licitação fracassada, em que todos os licitantes foram desclassificados por preço.
+* **E)** A licitação deserta impõe o arquivamento definitivo da demanda de compras públicas do órgão no exercício corrente.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Correto**. O art. 75, III, "a" da Lei nº 14.133/2021 estabelece que é dispensável a licitação: "para a contratação que mantenha todas as condições preestabelecidas em edital de licitação realizada há menos de 1 (um) ano, quando se verificar que naquela licitação: a) não surgiram licitantes interessados ou não foram apresentadas propostas válidas [licitação deserta]; b) as propostas apresentadas consignaram preços manifestamente superiores aos praticados no mercado [licitação fracassada]". Exige-se justificativa de que a repetição do certame traria prejuízos à Administração e a manutenção integral das condições originais.
+> - **B)** **Incorreto**. É vedada a alteração de condições materiais ou elevação arbitrária de preços para dispensar.
+> - **C)** **Incorreto**. A contratação direta exige justificativa formal da inviabilidade ou prejuízo de republicação do edital.
+> - **D)** **Incorreto**. Ocorrência em que nenhum licitante comparece é licitação deserta; licitação fracassada ocorre quando aparecem interessados, mas todos são inabilitados ou desclassificados.
+> - **E)** **Incorreto**. O órgão deve suprir sua necessidade pública contratando diretamente com base no edital deserto.
 >
-> **Gabarito: D**
-
----
+> **Gabarito: A**

@@ -87,403 +87,245 @@ As deliberações do Tribunal de Contas proferidas no julgamento de relatórios 
 ---
 
 ### Teste 198
-**(FGV – TCE-PA – Auditor de Controle Externo – 2024)**
-O Tribunal de Contas do Estado do Pará, em processo de tomada 
-de contas, realizou imputação de débito a Antônio, que atuara 
-como ordenador de despesas no âmbito de uma fundação 
-pública estadual. Após a emissão da certidão de débito, 
-constatou-se que o custo da cobrança seria superior ao valor do 
-ressarcimento.  
-Em situação dessa natureza, à luz do disposto na Lei 
-Complementar estadual nº 81/2012, é correto afirmar que
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A respeito da comunicação dos resultados das fiscalizações e da tramitação processual dos relatórios de auditoria no âmbito dos Tribunais de Contas, analise as proposições:
 
-* **A)** pode ser determinado o arquivamento do processo, com 
-cancelamento do débito, sendo dada quitação a Antônio.
-* **B)** deve ser determinado o arquivamento do processo, com 
-cancelamento do débito, não sendo dada quitação a Antônio.
-* **C)** pode ser determinado o arquivamento do processo, sem 
-cancelamento do débito, não sendo dada quitação a Antônio.
-* **D)** deve-se prosseguir com as medidas direcionadas à cobrança, 
-considerando a natureza repressiva e pedagógica da 
-condenação.
-* **E)** pode ser determinado o arquivamento do processo, desde 
-que Antônio não tenha sido beneficiado por medida similar 
-nos cinco anos anteriores. 
-
-AUDITOR DE CONTROLE EXTERNO – AREA ADMINISTRATIVA - CIÊNCIA DE DADOS – MANHÃ  TIPO  BRANCA – PÁGINA 7
+* **A)** O relatório de auditoria é peça vinculante de julgamento, não admitindo emissão de parecer divergente pelo MPC competente.
+* **B)** A equipe de auditoria elabora relatório com achados, conclusões e propostas de encaminhamento ao relator.
+* **C)** O parecer prévio emitido sobre as contas do Governador submete-se a recurso ordinário de apelação perante o STF.
+* **D)** O plenário do Tribunal de Contas pode julgar processos em sessão secreta sem publicação prévia de pauta regimental.
+* **E)** As deliberações das Câmaras do Tribunal de Contas prescindem de fundamentação jurídica e motivação técnica expressa.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Incorreto**. O relatório de auditoria é peça técnica instrutória; o Ministério Público de Contas atua como fiscal da lei com parecer autônomo, e o colegiado julgador é livre para formar sua convicção motivada.
+> - **B)** **Correto**. Conforme as normas regimentais dos Tribunais de Contas e a NBASP 100/300: a equipe de auditoria encerra os trabalhos elaborando o relatório de auditoria, no qual apresenta a caracterização do órgão, os achados comprovados por evidências, as conclusões técnicas e as propostas de encaminhamento (determinações, recomendações, audiências, citações ou aplicação de sanções) submetidas à apreciação do Conselheiro Relator.
+> - **C)** **Incorreto**. O parecer prévio tem natureza opinativa técnico-política encaminhada à Assembleia Legislativa.
+> - **D)** **Incorreto**. O art. 73 c/c art. 93, IX, da CF/88 impõe a publicidade das sessões dos Tribunais de Contas, ressalvadas matérias de estrito sigilo indispensável.
+> - **E)** **Incorreto**. Todas as decisões do Tribunal de Contas devem ser fundamentadas sob pena de nulidade absoluta.
 >
-> **Gabarito: C**
+> **Gabarito: B**
 
----
 ### Teste 199
-**(FGV – TCE-PA – Auditor de Controle Externo – 2024)**
-O Tribunal de Contas do Estado do Pará, em processo de tomada 
-de contas, realizou im putação de débito a Antônio, que atuara 
-como ordenador de despesas no âmbito de uma fundação 
-pública estadual. Após a emissão da certidão de débito, 
-constatou-se que o custo da cobrança seria superior ao valor do 
-ressarcimento.  
-Em situação dessa natureza,  à luz do disposto na Lei 
-Complementar estadual nº 81/2012, é correto afirmar que
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A Tomada de Contas Especial (TCE) é um processo administrativo formal que visa a apurar a responsabilidade por ocorrência de dano ao erário. A respeito dos pressupostos materiais para a instauração de TCE perante o controle externo, é correto afirmar:
 
-* **A)** pode ser determinado o arquivamento do processo, com 
-cancelamento do débito, sendo dada quitação a Antônio.
-* **B)** deve ser determinado o arquivamento do processo, com 
-cancelamento do débito, não sendo dada quitação a Antônio.
-* **C)** pode ser determinado o arquivamento do processo, sem 
-cancelamento do débito, não sendo dada quitação a Antônio.
-* **D)** deve-se prosseguir com as medidas direcionadas à cobrança, 
-considerando a naturez a repressiva e pedagógica da 
-condenação.
-* **E)** pode ser determinado o arquivamento do processo, desde 
-que Antônio não tenha sido beneficiado por medida similar 
-nos cinco anos anteriores. 
-
-AUDITOR DE CONTROLE EXTERNO – ÁREA ADMINISTRATIVA - ADMINISTRAÇÃO – MANHÃ  TIPO  BRANCA – PÁGINA 7
+* **A)** Instala-se diante de omissão na prestação de contas, desfalque, desvio de bens ou prática de ato ilegal lesivo ao erário.
+* **B)** Deve ser instaurada de imediato pelo órgão de origem sem necessidade de esgotamento das medidas administrativas internas.
+* **C)** Pode ser instaurada mesmo quando o valor do dano for inferior ao limite mínimo fixado para cobrança pelo Tribunal de Contas.
+* **D)** É instrumento privativo para apuração de infrações disciplinares leves cometidas por servidores estáveis em comissão.
+* **E)** Prescinde da quantificação precisa do débito e da identificação individualizada dos responsáveis pelo prejuízo público.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: C**
-
----
-### Teste 200
-**(FCC – TRT-3 – Analista Judiciário - Tecnologia da Informação – 2015)**
-As decisões tomadas em Tribunais colegiados são formalizadas na forma de acórdão. Não haverá acórdão nas decisões 
-proferidas em
-
-* **A)** embargos de declaração.
-* **B)** ação rescisória.
-* **C)** recurso ordinário.
-* **D)** agravo de petição.
-* **E)** arguição de inconstitucionalidade. 
-Caderno de Prova ’A28’, Tipo 001
-
-TRT3R-An.Jud.-Tecnologia Informação-A28 7
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: C**
-
----
-### Teste 201
-**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
-Em determinado processo judicial que se encontra em tramitação 
-no âmbito de uma Vara do Trabalho localizada no Estado de Mato 
-Grosso do Sul, a reclamante entendeu que o Juízo praticou ato que 
-configurava erro de procedimento, o que, ao seu ver, deveria ser 
-regularizado pelo Tribunal Regional do Trabalho da 24ª Região 
-(TRT-24). 
-Sobre a situação descrita, à luz do Regimento Interno do TRT-24, é 
-cabível, no prazo de 8 (oito) dias, preenchidos os demais requisitos 
-exigidos,
-
-* **A)** a reclamação.
-* **B)** a correição parcial.
-* **C)** o recurso ordinário.
-* **D)** o pedido de providências.
-* **E)** o mandado de segurança.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
->
-> **Gabarito: E**
-
----
-### Teste 202
-**(FGV – TRF-1 – Analista Judiciário - Tecnologia da Informação – 2024)**
-Na qualidade de servidor público federal estável, Manuel visa a 
-defender, junto à Administração Pública Federal, interesse 
-legítimo, que afeta interesse patrimonial, relativo a descontos 
-que vêm sendo efetuados em sua remuneração, razão pela qual 
-decidiu perquirir as normas previstas na Lei nº 8.112/1990 sobre 
-o direito de petição.  
-Nesse contexto, é correto afirmar que:
-
-* **A)** o direito de requerer de Manuel prescreve no prazo de três 
-anos, na medida em que se trata de questão que afeta o 
-interesse patrimonial;
-* **B)** Manuel não poderá apresentar pedido de reconsideração à 
-autoridade que houver expedido o ato ou proferido a 
-primeira decisão;
-* **C)** o prazo para a interposição de pedido de reconsideração ou 
-de recurso por Manuel é de até 10 (dez) dias úteis, a conta r 
-da publicação ou da ciência pelo interessado da decisão 
-recorrida;
-* **D)** na hipótese de indeferimento do pedido de reconsideração 
-de Manuel, caberá recurso, que poderá ser recebido com 
-efeito suspensivo, a juízo da autoridade competente;
-* **E)** eventual reque rimento ou recurso de Manuel deve ser 
-encaminhado diretamente à autoridade competente para a 
-decisão, independentemente do intermédio daquela a que 
-estiver imediatamente subordinado. 
-
-Tribunal Regional Federal da 1ª Região FGV Conhecimento 
-
-Analista Jud - Áre Apoio Especializado - Especialidade Tecnologia da Informação  Tipo 1 – Branca – Página 7
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: D**
-
----
-### Teste 203
-**(FGV – TRT-1 – Analista Judiciário - Tecnologia da Informação – 2024)**
-O Tribunal Regional Federal da 1ª Região, ao apreciar mandado 
-de segurança im petrado contra ato de juiz federal, denegou a 
-ordem por não identificar a violação de direito líquido e certo. 
-Esse acórdão, ao ver do impetrante, era manifestamente 
-contrário à ordem constitucional. 
-Nesse caso, é correto afirmar que, contra o referido acórdão:
-
-* **A)** não é cabível a interposição de recurso;
-* **B)** é cabível o ajuizamento de reclamação perante o Conselho 
-Nacional de Justiça;
-* **C)** é cabível a interposição de recurso a ser julgado pelo Superior 
-Tribunal de Justiça;
-* **D)** é cabível a interposição de re curso a ser julgado pelo 
-Supremo Tribunal Federal;
-* **E)** somente é cabível pedido de reconsideração endereçado ao 
-próprio Tribunal Regional Federal da 1ª Região. 
-
-
-Tribunal Regional Federal da 1ª Região FGV Conhecimento
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Correto**. Conforme o art. 71, II, da CF/88 e a Lei Orgânica do Tribunal de Contas: diante da omissão no dever de prestar contas, da não comprovação da aplicação dos recursos, da ocorrência de desfalque, desvio de dinheiro, bens ou valores públicos, ou da prática de qualquer ato ilegal, ilegítimo ou antieconômico de que resulte dano ao erário, a autoridade administrativa competente é obrigada, sob pena de responsabilidade solidária, a instaurar a Tomada de Contas Especial (TCE) para identificar os responsáveis e quantificar o dano.
+> - **B)** **Incorreto**. A TCE é medida de exceção que pressupõe o prévio esgotamento das providências administrativas internas de cobrança.
+> - **C)** **Incorreto**. Os TCs fixam valores de alçada (critério de insignificância/racionalidade administrativa) abaixo dos quais a TCE é arquivada ou consolidada em demonstrativo.
+> - **D)** **Incorreto**. Infrações disciplinares sem dano ao erário são apuradas via PAD disciplinar interno.
+> - **E)** **Incorreto**. São pressupostos indispensáveis da TCE a comprovação do dano, sua quantificação e a individualização dos responsáveis.
 >
 > **Gabarito: A**
 
+### Teste 200
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A respeito da Tomada de Contas Especial (TCE) perante o sistema constitucional de controle externo e sua tramitação no Tribunal de Contas, analise as proposições:
+
+* **A)** A citação do responsável no processo de TCE constitui faculdade instrutória exercida a critério discricionário do relator.
+* **B)** A comprovação de ausência de dolo na conduta exime o gestor do dever de ressarcimento integral do dano patrimonial apurado.
+* **C)** A instauração da TCE é obrigação da autoridade administrativa de origem sob pena de responsabilidade solidária funcional.
+* **D)** O falecimento do responsável extingue imediatamente o processo de TCE sem possibilidade de cobrança perante o espólio.
+* **E)** O Tribunal de Contas não pode decretar medidas cautelares como a indisponibilidade de bens no curso de processo de TCE.
+
 ---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreto**. A citação válida do responsável é ato obrigatório e garantia indispensável do contraditório e da ampla defesa (Súmula Vinculante 3 do STF).
+> - **B)** **Incorreto**. A responsabilidade civil de recomposição do erário alcança o dolo e a culpa (negligência, imprudência ou imperícia grave), não exigindo dolo para o dever de ressarcimento.
+> - **C)** **Correto**. O art. 8º da Lei nº 8.443/1992 e normas correlatas dos Tribunais de Contas estaduais estabelecem expressamente que, diante da ocorrência de dano ao erário, a autoridade administrativa competente deve instaurar a TCE imediatamente, sob pena de responder solidariamente com o agente causador do prejuízo.
+> - **D)** **Incorreto**. Conforme o art. 5º, XLV, da CF/88, a obrigação de reparar o dano e a decretação de perdimento de bens estendem-se aos sucessores e contra eles podem ser executadas até o limite do valor do patrimônio transferido pela herança.
+> - **E)** **Incorreto**. O Tribunal de Contas detém competência implícita e expressa para determinar cautelarmente a indisponibilidade de bens dos responsáveis (art. 71 c/c art. 44 da LOTCU).
+>
+> **Gabarito: C**
+
+### Teste 201
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No processo de tomada ou prestação de contas submetido ao julgamento do Tribunal de Contas, as contas dos gestores serão julgadas:
+
+* **A)** regulares, regulares com ressalva, irregulares ou iliquidáveis.
+* **B)** procedentes, parcialmente procedentes, improcedentes ou arquivadas.
+* **C)** válidas, anuláveis, nulas de pleno direito ou revogadas.
+* **D)** prescritas, decadentes, suspensas ou submetidas a transação.
+* **E)** homologadas, rejeitadas, convertidas em diligência ou embargadas.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correto**. Conforme o art. 16 da Lei nº 8.443/1992 (LOTCU) e legislações orgânicas dos Tribunais de Contas estaduais (inclusive LOTCE-GO): as contas serão julgadas regulares (dão quitação plena), regulares com ressalva (dão quitação com determinações de correções), irregulares (ensejam imputação de débito e/ou multa) ou iliquidáveis (quando caso fortuito ou força maior impedir o julgamento de mérito, ordenando-se seu trancamento).
+> - **B)** **Incorreto**. Terminologia típica de petições e ações cíveis ordinárias.
+> - **C)** **Incorreto**. Classificação afeta à teoria das nulidades do ato administrativo.
+> - **D)** **Incorreto**. Institutos de extinção de crédito tributário e obrigações civis.
+> - **E)** **Incorreto**. Termos processuais não coincidentes com a tipologia legal de decisão de contas.
+>
+> **Gabarito: A**
+
+### Teste 202
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Determinada autoridade administrativa, regularmente citada para apresentar defesa em processo de tomada de contas especial perante o Tribunal de Contas, permaneceu inerte, não apresentando justificativas no prazo fixado. A respeito dos efeitos da revelia no processo de controle externo, é correto afirmar:
+
+* **A)** A revelia induz a confissão ficta imediata quanto a toda a matéria de fato articulada na auditoria.
+* **B)** A revelia enseja o prosseguimento do processo, decidindo o Tribunal com base nas provas constantes dos autos.
+* **C)** A ausência de resposta tempestiva obriga o Tribunal de Contas a extinguir o processo sem exame do mérito administrativo.
+* **D)** O gestor revel é sumariamente destituído de suas funções públicas por decisão do Conselheiro Relator.
+* **E)** O Tribunal de Contas deve renovar a citação por edital no Diário Oficial antes de proferir o acórdão.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreto**. No processo perante os Tribunais de Contas vigora o princípio da verdade material. A revelia não opera os efeitos civis automáticos da presunção de veracidade absoluta de fatos não comprovados.
+> - **B)** **Correto**. A revelia do responsável citado perante o Tribunal de Contas não impede o julgamento: o processo terá prosseguimento regular para todos os efeitos e o Tribunal decidirá com base nos elementos fáticos, provas e evidências documentais acostadas aos autos pela equipe de fiscalização (art. 12, § 3º, da Lei 8.443/1992 e LOTCE-GO).
+> - **C)** **Incorreto**. O processo segue para julgamento de mérito com base na prova produzida.
+> - **D)** **Incorreto**. Cortes de Contas não decretam perda automática de cargo por mera revelia processual.
+> - **E)** **Incorreto**. Sendo válida a citação inicial pessoal ou postal, não há repetição por edital.
+>
+> **Gabarito: B**
+
+### Teste 203
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Um Tribunal de Contas estadual, ao analisar o processo de prestação de contas de uma autarquia, identificou grave infração a norma legal de licitações praticada pelo diretor presidente, embora sem demonstração de locupletamento pessoal direto. Nesse caso, quanto ao poder sancionatório do Tribunal de Contas, é correto afirmar que a Corte:
+
+* **A)** não pode aplicar sanção ao responsável na ausência de comprovação de dano financeiro efetivo ao patrimônio público.
+* **B)** pode aplicar sanção de multa pecuniária proporcional à gravidade da infração apurada.
+* **C)** pode condenar o responsável a pena privativa de liberdade em regime aberto pelo crime praticado.
+* **D)** depende de ação judicial promovida pelo Ministério Público Estadual para imposição de penalidade.
+* **E)** pode decretar a cassação definitiva da cidadania e dos direitos políticos do gestor faltoso.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreto**. A competência sancionatória dos Tribunais de Contas (art. 71, VIII, CF/88) autoriza a aplicação de multa por ato praticado com grave infração a norma legal ou regulamentar, independentemente da ocorrência de dano financeiro ou desfalque.
+> - **B)** **Correto**. Conforme o art. 71, VIII, da CF/88: cabe ao Tribunal de Contas "aplicar aos responsáveis, em caso de ilegalidade de despesa ou irregularidade de contas, as sanções previstas em lei, que estabelecerá, entre outras cominações, multa proporcional ao dano causado ao erário" e multas punitivas autônomas pela prática de atos com grave infração à legislação orçamentária ou de licitações.
+> - **C)** **Incorreto**. Tribunais de Contas não possuem competência penal.
+> - **D)** **Incorreto**. O poder sancionatório administrativo das Cortes de Contas é direto e autoaplicável.
+> - **E)** **Incorreto**. A suspensão de direitos políticos decorre de sentença judicial transitada em julgado (art. 15 da CF/88).
+>
+> **Gabarito: B**
+
 ### Teste 204
-**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
-Em determinado processo judicial que se encontra em tramitação 
-no âmbito de uma Vara do Trabalho localizada no Estado de Mato 
-Grosso do Sul, a reclamante entendeu que o Juízo praticou ato que 
-configurava erro de procedimento, o que, ao seu ver, deveria ser 
-regularizado pelo Tribunal Regional do Trabalho da 24ª Região 
-(TRT-24) 
-Sobre a situação descrita, à luz do Regimento Interno do TRT-24, é 
-cabível, no prazo de 8 (oito) dias, preenchidos os demais requisitos 
-exigidos,
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A Lei nº 9.504/1997 (Lei das Eleições) atribui funções específicas aos Tribunais de Contas no contexto do processo eleitoral e na fiscalização das candidaturas públicas.  
+Assinale a opção que apresenta a atribuição legal cometida diretamente aos Tribunais de Contas pela legislação eleitoral:
 
-* **A)** a reclamação.
-* **B)** a correição parcial.
-* **C)** o recurso ordinário.
-* **D)** o pedido de providências.
-* **E)** o mandado de segurança.
+* **A)** promover eventos periódicos de capacitação institucional para os candidatos a mandatos executivos e legislativos.
+* **B)** fiscalizar a prestação de contas eleitorais de campanha apresentadas pelos diretórios dos partidos políticos.
+* **C)** fornecer à Justiça Eleitoral relação dos gestores que tiveram contas relativas a cargos públicos julgadas irregulares.
+* **D)** julgar originariamente a inelegibilidade eleitoral dos servidores públicos que pretendam concorrer a cargos políticos.
+* **E)** emitir certidão de quitação eleitoral aos agentes públicos que tiveram contas aprovadas com parecer favorável.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **A)** **Incorreto**. A capacitação de candidatos é atribuição partidária ou de escolas de governo, não dever eleitoral do TC.
+> - **B)** **Incorreto**. O julgamento e a fiscalização das contas eleitorais de campanha cabem privativamente à Justiça Eleitoral (TREs e TSE).
+> - **C)** **Correto**. Nos expressos termos do art. 11, § 5º, da Lei nº 9.504/1997: "Até o dia 15 de agosto do ano da eleição, os Tribunais e Conselhos de Contas deverão disponibilizar à Justiça Eleitoral a relação dos que tiveram suas contas relativas ao exercício de cargos ou funções públicas rejeitadas por irregularidade insanável e por decisão irrecorrível do órgão competente, ressalvados os casos em que a questão estiver sendo submetida à apreciação do Poder Judiciário".
+> - **D)** **Incorreto**. A declaração de inelegibilidade e o indeferimento de registro de candidatura são matérias de competência privativa da Justiça Eleitoral.
+> - **E)** **Incorreto**. A quitação eleitoral é emitida exclusivamente pela Justiça Eleitoral.
 >
-> **Gabarito: E**
+> **Gabarito: C**
 
----
 ### Teste 205
-**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
-Em determinado processo judicial que se encontra em tramitação 
-no âmbito de uma Vara do Trabalho localizada no Estado de Mato 
-Grosso do Sul, a reclamante entendeu que o Juízo praticou ato que 
-configurava erro de procedimento, o que, ao seu ver, deveria ser 
-regularizado pelo Tribunal Regional do Trabalho da 24ª Região 
-(TRT-24) 
-Sobre a situação descrita, à luz do Regimento Interno do TRT-24, é 
-cabível, no prazo de 8 (oito) dias, preenchidos os demais requisitos 
-exigidos,
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Contra acórdão proferido pelo Plenário do Tribunal de Contas que julgue irregulares as contas de determinado administrador público com imputação de débito e multa, a espécie recursal cabível, no prazo regimental de quinze dias e dotada de efeito suspensivo, é o:
 
-* **A)** a reclamação.
-* **B)** a correição parcial.
-* **C)** o recurso ordinário.
-* **D)** o pedido de providências.
-* **E)** o mandado de segurança.
+* **A)** pedido de reexame de relatório.
+* **B)** recurso de apelação cível ordinária.
+* **C)** recurso de reconsideração de acórdão.
+* **D)** agravo regimental de despacho interno.
+* **E)** recurso especial de fiscalização externa.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **A)** **Incorreto**. O Pedido de Reexame é a espécie recursal cabível contra decisões proferidas em processos de fiscalização (auditorias, inspeções, denúncias e representações), e não em processos de tomada ou prestação de contas (art. 48 da Lei 8.443/1992 e LOTCE-GO).
+> - **B)** **Incorreto**. Apelação é recurso judicial processual civil, inexistente na processualística interna dos Tribunais de Contas.
+> - **C)** **Correto**. Conforme o art. 32, I, c/c art. 33 da Lei Orgânica do Tribunal de Contas: de decisão definitiva proferida em processo de tomada ou prestação de contas cabe "Recurso de Reconsideração", formulado por escrito no prazo de 15 dias, dotado de efeito devolutivo e suspensivo.
+> - **D)** **Incorreto**. O agravo cabe contra despachos interlocutórios monocráticos do relator.
+> - **E)** **Incorreto**. Não existe tal figura processual no âmbito das Cortes de Contas.
 >
-> **Gabarito: E**
+> **Gabarito: C**
 
----
 ### Teste 206
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-A Lei nº 9.504/1997 atribui funções específicas aos Tribunais de 
-Contas no contexto das eleições e da fiscalização dos gastos 
-públicos relacionados a campanhas políticas. 
-Assinale a opção que indica uma função dos Tribunais de Contas 
-constante na Lei nº 9.504/1997.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Sobre o sistema recursal no processo de controle externo perante o Tribunal de Contas, analise as hipóteses de cabimento do Recurso de Revisão:
 
-* **A)** Promover eventos de capacitação para os servidores efetivos 
-e empregados públicos designados para o desempenho das 
-funções essenciais à execução desta Lei por meio de suas 
-escolas de contas.
-* **B)** Fiscalizar a execução do orçamento, inclusive a aplicação de 
-recursos específicos, bem como sua compatibilização com o 
-plano plurianual e com as diretrizes orçamentárias.
-* **C)** Fornecer à Justiça Eleitoral relação dos que tiveram suas 
-contas relativas ao exercício de cargos ou funções públicas 
-rejeitadas por irregularidade insanável e por decisão 
-irrecorrível, exceto em situações sob análise judicial ou com 
-decisão favorável.
-* **D)** Prestar as informações solicitadas pela Assembleia ou por 
-qualquer de suas co missões, sobre a fiscalização contábil, 
-financeira, orçamentária, operacional e patrimonial, e sobre 
-resultados de auditorias e inspeções realizadas.
-* **E)** Representar ao Poder competente sobre irregularidades ou 
-abusos apurados, indicando o ato inquinado e definindo 
-responsabilidades.
+* **A)** É cabível no prazo preclusivo de quinze dias contados da notificação do acórdão condenatório.
+* **B)** Tem natureza de ação rescisória e pode ser interposto em cinco anos fundado em superveniência de documentos.
+* **C)** É dotado de efeito suspensivo automático, impedindo a remessa da certidão de débito para execução fiscal fazendária.
+* **D)** Pode ser interposto por qualquer cidadão eleitor independentemente da demonstração de legítimo interesse processual.
+* **E)** Destina-se exclusivamente a corrigir erros materiais ou contradições evidentes no texto do acórdão proferido.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Incorreto**. O recurso ordinário de reconsideração tem prazo de 15 dias. O Recurso de Revisão tem prazo decadencial amplo de 5 anos.
+> - **B)** **Correto**. Conforme o art. 35 da LOTCU e dispositivos correspondentes da LOTCE-GO: de decisão definitiva em processo de contas cabe "Recurso de Revisão" ao Plenário, sem efeito suspensivo, no prazo de cinco anos contados do trânsito administrativo, com natureza análoga à ação rescisória cível, fundado em erro de cálculo, falsidade de documento ou superveniência de documentos novos com eficácia probatória.
+> - **C)** **Incorreto**. O Recurso de Revisão não possui efeito suspensivo legal (art. 35 da LOTCU).
+> - **D)** **Incorreto**. Cabe apenas ao responsável, seus sucessores ou ao Ministério Público de Contas.
+> - **E)** **Incorreto**. A correção de erro material ou contradição dá-se pela via dos embargos de declaração (art. 34 da LOTCU).
 >
-> **Gabarito: C**
+> **Gabarito: B**
 
----
 ### Teste 207
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-A Lei nº 9.504/1997 atribui funções específicas aos Tribunais de 
-Contas no contexto das eleições e da fiscalização dos gastos 
-públicos relacionados a campanhas políticas. 
-Assinale a opção que indica uma função dos Tribunais de Contas 
-constante na Lei nº 9.504/1997.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Acerca dos reflexos eleitorais decorrentes das decisões terminativas e condenatórias dos Tribunais de Contas, a Lei Complementar nº 64/1990 (Lei das Inelegibilidades, art. 1º, I, alínea 'g') exige, para a configuração da inelegibilidade:
 
-* **A)** Promover eventos de capacitação para os servidores efetivos 
-e empregados públicos designados para o desempenho das 
-funções essenciais à execução desta Lei por meio de suas 
-escolas de contas.
-* **B)** Fiscalizar a execução do orçamento, inclusive a aplicação de 
-recursos específicos, bem como sua compatibilização com o 
-plano plurianual e com as diretrizes orçamentárias.
-* **C)** Fornecer à Justiça Eleitoral relação dos que tiveram suas 
-contas relativas ao exercício de cargos ou funções públicas 
-rejeitadas por irregularidade insanável e por decisão 
-irrecorrível, exceto em situações sob análise judicial ou com 
-decisão favorável.
-* **D)** Prestar as informações solicitadas pela Assembleia ou por 
-qualquer de suas co missões, sobre a fiscalização contábil, 
-financeira, orçamentária, operacional e patrimonial, e sobre 
-resultados de auditorias e inspeções realizadas.
-* **E)** Representar ao Poder competente sobre irregularidades ou 
-abusos apurados, indicando o ato inquinado e definindo 
-responsabilidades.
+* **A)** aprovação com ressalvas das contas anuais e ausência de recurso ao Poder Judiciário.
+* **B)** rejeição de contas por falha insanável que configure ato doloso de improbidade por decisão irrecorrível.
+* **C)** condenação a multa administrativa de valor irrisório pelo descumprimento de prazos regimentais.
+* **D)** emissão de parecer prévio desfavorável pelo Tribunal de Contas sem necessidade de julgamento pela Câmara de Vereadores.
+* **E)** decretação de indisponibilidade cautelar de bens decretada monocraticamente pelo Conselheiro Relator.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Incorreto**. Contas regulares com ressalva não geram qualquer inelegibilidade eleitoral.
+> - **B)** **Correto**. Conforme o art. 1º, I, 'g', da LC nº 64/1990 (com as alterações da Lei da Ficha Limpa - LC nº 135/2010), são inelegíveis para qualquer cargo os que tiverem suas contas relativas ao exercício de cargos ou funções públicas rejeitadas por irregularidade insanável que configure ato doloso de improbidade administrativa, e por decisão irrecorrível do órgão competente, salvo se esta houver sido suspensa ou anulada pelo Poder Judiciário, para as eleições que se realizarem nos 8 anos seguintes.
+> - **C)** **Incorreto**. Multas formais isoladas ou meras falhas burocráticas sanáveis não configuram inelegibilidade.
+> - **D)** **Incorreto**. Conforme os Temas 157 e 835 do STF, para contas de Prefeito a competência exclusiva de julgamento para fins eleitorais é da Câmara de Vereadores.
+> - **E)** **Incorreto**. Medidas cautelares não representam decisão definitiva irrecorrível de rejeição de contas.
 >
-> **Gabarito: C**
+> **Gabarito: B**
 
----
 ### Teste 208
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-A Lei nº 9.504/1997 atribui funções específicas aos Tribunais de 
-Contas no contexto das eleições e da fiscalização dos gastos 
-públicos relacionados a campanhas políticas. 
-Assinale a opção que indica uma função dos Tribunais de Contas 
-constante na Lei nº 9.504/1997.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A adoção da forma republicana de Estado acarreta o dever permanente de accountability, impondo-se a responsabilidade pessoal dos agentes públicos pela guarda e aplicação dos recursos públicos. A decisão do Tribunal de Contas que extingue o processo com julgamento de mérito das contas prestadas por administrador público de sociedade de economia mista estadual é classificada formalmente como decisão:
 
-* **A)** Promover eventos de capacitação para os servidores efetivos 
-e empregados públicos designados para o desempenho das 
-funções essenciais à execução desta Lei por meio de suas 
-escolas de contas.
-* **B)** Fiscalizar a execução do orçamento, inclusive a aplicação de 
-recursos específicos, bem como sua compatibilização com o 
-plano plurianual e com as diretrizes orçamentárias.
-* **C)** Fornecer à Justiça Eleitoral relação dos que tiveram suas 
-contas relativas ao exercício de cargos ou funções públicas 
-rejeitadas por irregularidade insanável e por decisão 
-irrecorrível, exceto em situações sob análise judicial ou com 
-decisão favorável.
-* **D)** Prestar as informações solicitadas pela Assembleia ou por 
-qualquer de suas co missões, sobre a fiscalização contábil, 
-financeira, orçamentária, operacional e patrimonial, e sobre 
-resultados de auditorias e inspeções realizadas.
-* **E)** Representar ao Poder competente sobre irregularidades ou 
-abusos apurados, indicando o ato inquinado e definindo 
-responsabilidades.
+* **A)** Preliminar, não sujeita a recurso por se tratar de pronunciamento de índole estritamente administrativa.
+* **B)** Definitiva, sujeita a recurso de reconsideração no prazo de quinze dias, dotado de efeito suspensivo.
+* **C)** Provisória, sujeita a confirmação obrigatória pelo plenário da Assembleia Legislativa estadual.
+* **D)** Interlocutória, sujeita a pedido de esclarecimento perante a Câmara técnica de instrução processual.
+* **E)** Terminativa, que não examina o mérito em virtude de ilegitimidade passiva do gestor fiscalizado.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **Incorreto**. Decisão preliminar é a que ordena a citação, audiência ou diligência antes de julgar o mérito.
+> - **B)** **Correto**. Conforme a sistemática processual das Cortes de Contas (art. 1º, XXIII e art. 33 da Lei Orgânica dos TCs): a decisão pela qual o Tribunal julga o mérito das contas (regulares, regulares com ressalva ou irregulares) constitui "Decisão Definitiva". Dessa decisão definitiva cabe o Recurso de Reconsideração no prazo de quinze dias, com efeito suspensivo.
+> - **C)** **Incorreto**. Contas de dirigentes de estatais e órgãos da administração indireta são julgadas em definitivo pelo próprio Tribunal de Contas, sem envio para julgamento pelo Poder Legislativo.
+> - **D)** **Incorreto**. O pronunciamento de mérito resolve a causa em definitivo na via ordinária administrativa.
+> - **E)** **Incorreto**. Decisão terminativa é aquela pela qual o Tribunal de Contas tranca ou extingue o processo sem resolução de mérito (ex.: contas iliquidáveis ou ausência de pressupostos).
 >
-> **Gabarito: C**
+> **Gabarito: B**
 
----

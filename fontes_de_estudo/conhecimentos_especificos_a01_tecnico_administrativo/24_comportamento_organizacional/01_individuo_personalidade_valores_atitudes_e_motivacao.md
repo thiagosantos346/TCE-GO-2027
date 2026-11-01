@@ -103,58 +103,54 @@ flowchart LR
 ---
 
 ### Teste 400
-**(FCC – TRT-6 – Analista Judiciário - Tecnologia da Informação – 2012)**
-Para fazer um trabalho, um professor vai dividir os seus 86  alunos em 15 grupos, alguns formados por cinco, outros formados  
-por seis alunos. Dessa forma, sendo C o número de grupos formados por cinco e S o número de grupos formados por seis 
-alunos, o produto C⋅S será igual a
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No modelo dos Cinco Grandes Fatores de Personalidade (*Big Five*), amplamente adotado nas pesquisas contemporâneas de comportamento organizacional, o traço que se revelou empiricamente como o preditor mais consistente e fidedigno de alto desempenho profissional na ampla maioria das ocupações é a:
 
-* **A)** 56.
-* **B)** 54.
-* **C)** 50.
-* **D)** 44.
-* **E)** 36.
+* **A)** Extroversão.
+* **B)** Conscienciosidade.
+* **C)** Agradabilidade.
+* **D)** Abertura a Experiências.
+* **E)** Estabilidade Emocional.
+
 
 ---
 
-> **Comentário Detalhado:**
+> **Comentário Detalhado:**  
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A) Incorreta.** A extroversão prediz desempenho em funções comerciais e de liderança política, mas não de modo universal.  
+> - **B) CORRETA.** Centenas de pesquisas em Comportamento Organizacional comprovam que a **Conscienciosidade** (associada a alto senso de responsabilidade, rigor, organização, persistência, confiabilidade e foco em metas) é o fator do *Big Five* que possui correlação positiva mais forte e consistente com o bom desempenho profissional em quase todas as carreiras.  
+> - **C) Incorreta.** A agradabilidade favorece o trabalho em equipe, mas não é o principal preditor geral.  
+> - **D) Incorreta.** Abertura a experiências correlaciona-se com criatividade e adaptabilidade, mas não com desempenho padronizado contínuo.  
+> - **E) Incorreta.** Estabilidade emocional evita estresse, mas não garante disciplina produtiva.  
+> 
 > **Gabarito: B**
 
 ---
+
 ### Teste 401
-**(FGV – TJ-AP – Analista Judiciário - Tecnologia da Informação – 2023)**
-As ferramentas de colaboração online revolucionaram a maneira 
-com que equipes e empresas interagem e trabalham, permitindo 
-uma comunicação mais eficiente, coordenação de tarefas e 
-compartilhamento de informações em tempo real.  
-Em relação ao assunto, são e xemplos de ferramentas de 
-colaboração:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+No estudo da personalidade humana no Comportamento Organizacional, o **Modelo dos Cinco Grandes Fatores (Big Five)** é amplamente aceito pela literatura científica contemporânea.
 
-* **A)** Jira, WhatsApp e YouTube;
-* **B)** Dropbox, LinkedIn e Twitter;
-* **C)** Basecamp, Discord e Pinterest;
-* **D)** Slack, Trello e Microsoft Teams;
-* **E)** Google Docs, Facebook e Instagram.
+O fator do Big Five que descreve a tendência do indivíduo de ser responsável, disciplinado, organizado, pontual e orientado para o cumprimento rigoroso de metas e deveres é a:
+
+* **A)** Conscienciosidade (ou Realização / Escrupulosidade).
+* **B)** Extroversão.
+* **C)** Agradabilidade (ou Amabilidade).
+* **D)** Abertura para Experiências.
+* **E)** Estabilidade Emocional (baixo Neuroticismo).
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: B**
+> - **A)** Correta. O modelo **Big Five** compreende: (1) **Conscienciosidade** (organização, responsabilidade, persistência e foco no dever); (2) **Extroversão** (sociabilidade, assertividade e expressividade); (3) **Amabilidade/Agradabilidade** (confiança, empatia e cooperação); (4) **Estabilidade Emocional / Neuroticismo** (autocontrole vs ansiedade/insegurança); (5) **Abertura a Experiências** (criatividade, curiosidade intelectual e imaginação). A conscienciosidade é o fator mais fortemente correlacionado ao desempenho profissional no trabalho.
+> - **B), C), D), E)** Incorretas. Representam as outras quatro dimensões distintas da personalidade.
+> 
+> **Gabarito: A**
 
 ---
+
 ## 3. Atitudes, Dissonância Cognitiva e Comprometimento Organizacional
 
 Uma **atitude** é um estado mental de prontidão organizado pela experiência, manifestado em juízos avaliativos (favoráveis ou desfavoráveis) sobre objetos, pessoas ou eventos. Estrutura-se em três componentes indissociáveis:
@@ -181,95 +177,52 @@ Fenômeno caracterizado por desconforto e tensão psicológica profunda quando o
 ---
 
 ### Teste 402
-**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**
-Transpondo-se para a voz passiva a frase passaríamos a 
-imaginar coisas, a forma verbal resultante será
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A respeito das dimensões do comprometimento organizacional formuladas por John Meyer e Natalie Allen, considere a situação em que um servidor público federal recusa uma proposta de trabalho na iniciativa privada porque sente que a organização em que atua cumpriu um papel fundamental na sua formação profissional inicial, experimentando um profundo senso de obrigação moral e lealdade ética de permanecer servindo àquela instituição pública. Trata-se de um exemplo de comprometimento:
 
-* **A)** haveremos de passar a imaginar.
-* **B)** passariam a ser imaginadas.
-* **C)** passariam sendo imaginadas.
-* **D)** teríamos passado a imaginar.
-* **E)** teriam passado a imaginar. 
-Atenção:  As questões de números 11 a 20 referem-se ao tex-
-to seguinte. 
+* **A)** Instrumental.
+* **B)** De Continuação.
+* **C)** Normativo.
+* **D)** Dissonante.
+* **E)** Reativo.
 
-A respeito do termo etnia 
-
-Por etnia entende-se um grupo de pessoas que parti-
-lham vários atributos, como espaço geográfico, língua, costu-
-mes e valores, e que reivindicam para si o mesmo nome étnico 
-e a mesma ascendência. Mas sempre há nisso grande dose de 
-subjetividade. Daí ser difícil estabelecer fronteiras claras entre 
-as etnias e quantificar os grupos étnicos existentes no planeta. 
-A língua, por exemplo, que parece um critério objetivo, não é 
-suficiente para determinar diversas etnias, se tomada isolada-
-mente, pois muitos grupos étnicos usam o mesmo idioma. 
-O moderno conceito de etnia desenvolveu-se no século 
-XX, em oposição às teorias racistas que evocavam argumentos 
-de ordem biológica para justificar a dominação de um grupo 
-humano sobre outros. A ciência considera incorreto falar em 
-diferentes raças quando se trata de seres humanos. Todos os 
-homens pertencem ao gênero Homo e à espécie Homo sapiens. 
-Eventuais  variações genéticas são mínimas e insuficientes para 
-configurar diferenciações raciais. 
-Os homens agrupam-se socialmente, e as semelhanças 
-e diferenças que estabelecem entre si decorrem de processos 
-históricos, sempre culturais, jamais naturais. Fundamentalmen-
-te, um indivíduo pertence a determinada etnia porque acredita 
-nisso, e tal crença é compartilhada pelos demais indivíduos que 
-compõem o mesmo grupo. 
-A existência de vários grupos étnicos no interior das 
-mesmas fronteiras nacionais é uma situação comum, pois as 
-populações humanas não são homogêneas, em razão das mi-
-grações no decorrer da história. Mas as diferenças étnicas, em 
-diversos casos, são manipuladas para acirrar conflitos de fundo 
-político ou econômico. O próprio conceito de raça humana, há 
-muito não admitido pela antropologia moderna, serviu (e por 
-vezes ainda serve) de pretexto para justificar as mais cruéis 
-manifestações de preconceito, violência e barbárie. 
-(Adaptado do Almanaque Abril Cultural 2009, p. 123)
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: B**
+> - **A) Incorreta.** O comprometimento instrumental decorre da avaliação de perdas econômicas associadas à saída da organização ("permanece porque precisa").
+> - **B) Incorreta.** O comprometimento de continuação é termo equivalente ao instrumental no modelo tridimensional de Meyer e Allen.
+> - **C) CORRETA.** O **Comprometimento Normativo** traduz o sentimento de obrigação moral e lealdade ética de permanecer na instituição por dever de consciência e gratidão ("permanece porque sente que deve").
+> - **D) Incorreta.** Termo dissociado da teoria clássica de comprometimento organizacional.
+> - **E) Incorreta.** Categoria alheia às três dimensões fundamentadas por Meyer e Allen (Afetiva, Normativa e Instrumental).
+> 
+> **Gabarito: C**
 
 ---
+
 ### Teste 403
-**(FGV – TCE-PA – Auditor de Controle Externo – 2024)**
-No âmbito das normas internacionais voltadas para o combate à 
-corrupção, a Convenção das Nações Unidas contra o Crime 
-Organizado Transnacional, objeto do Decreto nº 5.015/2004, é 
-designada como Convenção de
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Segundo a Teoria da Dissonância Cognitiva formulada por Leon Festinger, quando um indivíduo percebe uma contradição ou inconsistência desconfortável entre duas atitudes ou entre sua atitude e seu comportamento real:
 
-* **A)** Palermo.
-* **B)** Nagoya.
-* **C)** Estocolmo.
-* **D)** Mérida.
-* **E)** Tóquio. 
+* **A)** Ele experimenta uma tensão psicológica desconfortável (dissonância) que o motiva a reduzir a inconsistência, alterando seu comportamento, modificando sua atitude ou racionalizando a discrepância.
+* **B)** O indivíduo entra em estado de catatonia permanente sem capacidade de decisão.
+* **C)** A dissonância cognitiva consolida automaticamente o comprometimento afetivo com o órgão público.
+* **D)** Ocorre necessariamente a imediata demissão voluntária do cargo público.
+* **E)** A incongruência atitudinal é eliminada por decreto do Chefe do Poder Executivo.
 
-AUDITOR DE CONTROLE EXTERNO - FISCALIZAÇÃO - CONTABILIDADE  – MANHÃ  TIPO  BRANCA – PÁGINA 6
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A)** Correta. Leon Festinger postulou que a **Dissonância Cognitiva** é o estado de desconforto psicológico gerado pela incompatibilidade percebida entre crenças/atitudes e ações reais. O indivíduo busca ativamente reduzir essa tensão ajustando a conduta, alterando a atitude pregressa ou buscando justificativas racionais para harmonizar a contradição.
+> - **B), C), D), E)** Incorretas. Distorções fantasiosas sem correspondência com a teoria psicológica de Festinger.
+> 
 > **Gabarito: A**
 
 ---
+
 ## 4. Teorias Motivacionais de Conteúdo (Maslow, Herzberg, Alderfer e McClelland)
 
 As **teorias de conteúdo** buscam identificar e explicar *o que* motiva as pessoas, mapeando as necessidades internas que orientam a conduta humana:
@@ -312,61 +265,73 @@ flowchart TD
 ---
 
 ### Teste 404
-**(FGV – TCE-PA – Auditor de Controle Externo – 2024)**
-No âmbito das normas internacionais voltadas para o combate à 
-corrupção, a Convenção das Nações Unidas contra o Crime 
-Organizado Transnacional, objeto do Decreto nº 5.015/2004, é 
-designada como Convenção de
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Determinado gestor público, objetivando elevar a motivação dos servidores do setor de protocolo, promoveu uma reforma completa no ambiente físico do trabalho, instalando mobiliário ergonômico moderno, ar-condicionado de última geração e ampliando a remuneração com novo benefício de alimentação. Não obstante as medidas adotadas, os índices de proatividade e dedicação às tarefas intelectuais do setor permaneceram inalterados após alguns meses. Sob a perspectiva da Teoria dos Dois Fatores formulada por Frederick Herzberg, a ausência de elevação da motivação explica-se porque:
 
-* **A)** Palermo.
-* **B)** Nagoya.
-* **C)** Estocolmo.
-* **D)** Mérida.
-* **E)** Tóquio. 
+* **A)** As medidas implementadas atuaram exclusivamente sobre os fatores higiênicos, os quais são capazes de evitar a insatisfação funcional, mas não possuem a propriedade de gerar motivação genuína.
+* **B)** A melhoria das condições físicas viola o princípio da equidade distributiva ao desconsiderar a valência das recompensas pecuniárias.
+* **C)** O gestor ignorou a necessidade de autoafirmação primária prevista na base da pirâmide de Clayton Alderfer.
+* **D)** O ambiente físico e o salário constituem fatores motivacionais de conteúdo que só produzem efeito quando associados a punições disciplinares.
+* **E)** O mobiliário moderno reduz a expectativa de esforço, eliminando a instrumentalidade postulada por Victor Vroom.
 
-AUDITOR DE CONTROLE EXTERNO - FISCALIZAÇÃO - CIÊNCIAS ATUARIAIS – MANHÃ  TIPO  BRANCA – PÁGINA 6
 
 ---
 
-> **Comentário Detalhado:**
+> **Comentário Detalhado:**  
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A) CORRETA.** Segundo Frederick Herzberg, aspectos como ergonomia, ar-condicionado, condições de higiene predial e benefícios remuneratórios são **Fatores Higiênicos (Extrínsecos)**. A presença desses fatores em excelente nível é indispensável para evitar a insatisfação e reclamações dos servidores, mas é absolutamente incapaz de gerar motivação ou dedicação espontânea acima da média. A motivação decorre unicamente dos **Fatores Motivacionais (Intrínsecos)**, que dizem respeito ao desafio intelectual, responsabilidade, utilidade da tarefa e reconhecimento.  
+> - **B) Incorreta.** Trata-se da teoria bifatorial de Herzberg, não da equidade de Adams.  
+> - **C) Incorreta.** Alderfer dividiu as necessidades em Existência, Relacionamento e Crescimento.  
+> - **D) Incorreta.** Salário e ambiente são fatores higiênicos, e não motivacionais.  
+> - **E) Incorreta.** Mistura teorias de autores e premissas distintas.  
+> 
 > **Gabarito: A**
 
 ---
+
+
+#### C) Teoria ERC de Clayton Alderfer:
+Condensou os níveis de Maslow em três necessidades essenciais:
+
+* **E**xistência (fisiológicas e de segurança);
+* **R**elacionamento (sociais e consideração externa);
+* **C**rescimento (estima interna e autorrealização).
+* *Inovação conceitual:* Alderfer admitiu o princípio da **frustração-regressão**: quando uma necessidade superior não pode ser satisfeita, a pessoa regride e intensifica o desejo de suprir uma necessidade do nível inferior.
+
+#### D) Teoria das Necessidades Adquiridas de David McClelland:
+Afirma que a motivação dos indivíduos é moldada por três necessidades essenciais adquiridas ao longo da socialização:
+
+1. **Necessidade de Realização (*nAch*):** Busca incessante por excelência, superação de padrões difíceis e assunção de riscos calculados.
+2. **Necessidade de Poder (*nPow*):** Desejo de influenciar, liderar, controlar e orientar o comportamento de terceiros.
+3. **Necessidade de Afiliação (*nAff*):** Desejo de estabelecer relacionamentos interpessoais amigáveis, cooperação e aceitação mútua.
+
+---
+
 ### Teste 405
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-A figura  a seguir ilustra os escoamentos que ocorrem em um 
-trocador de calor. 
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Na Teoria dos Dois Fatores (ou Teoria Bifatorial) de Frederick Herzberg, os elementos do ambiente de trabalho dividem-se em Fatores Higiênicos (extrínsecos) e Fatores Motivacionais (intrínsecos).
 
-Fonte: Incropera et al, “Fundamentos de  
-Transferência de Calor e de Massa”, pg. 425  
-Esse trocador de calor é do tipo
+Segundo Herzberg, os **Fatores Higiênicos** (como salário, condições físicas de trabalho, políticas da empresa e segurança do emprego):
 
-* **A)** tubular com escoamento cruzado aletado.
-* **B)** de tubos concêntricos e escoamento paralelo.
-* **C)** tubular com escoamento cruzado não aletado.
-* **D)** de tubos concêntricos e escoamento contracorrente.
-* **E)** casco e tubos, com um passe no casco e outro nos tubos.
+* **A)** São capazes apenas de evitar a insatisfação quando presentes e adequados, mas não geram motivação nem satisfação genuína duradoura no trabalho.
+* **B)** São a principal fonte geradora de autorrealização e orgulho profissional profundo no servidor.
+* **C)** Referem-se ao conteúdo íntimo do cargo e aos desafios e responsabilidades inerentes à tarefa.
+* **D)** Provocam alta satisfação mesmo quando as relações interpessoais com a chefia forem péssimas.
+* **E)** Devem ser suprimidos das organizações públicas contemporâneas para evitar o comodismo.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: D**
+> - **A)** Correta. A contribuição revolucionária de Herzberg foi demonstrar que o oposto de satisfação não é a insatisfação, mas a "não satisfação". Os **Fatores Higiênicos (extrínsecos)** atuam como profilaxia: quando ótimos, apenas neutralizam a insatisfação (deixam o trabalhador em estado neutro); para gerar **motivação real e satisfação**, são necessários os **Fatores Motivacionais (intrínsecos)**: conteúdo do cargo, autonomia, reconhecimento, responsabilidade e crescimento profissional.
+> - **B), C)** Incorretas. Características exclusivas dos Fatores Motivacionais.
+> - **D), E)** Incorretas. Contradizem a premissa de que os fatores higiênicos são necessários como base sanitária mínima.
+> 
+> **Gabarito: A**
 
 ---
+
 ## 5. Teorias Motivacionais de Processo (Vroom, Adams, Locke e Skinner)
 
 As **teorias de processo** investigam a dinâmica cognitiva e os mecanismos mentais por meio dos quais o comportamento humano é estimulado, direcionado e mantido no tempo:
@@ -395,145 +360,138 @@ flowchart LR
 ---
 
 ### Teste 406
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-A concepção mais antiga de liderança, conhecida como a teoria 
-dos traços, buscava identificar características de personalidade 
-distintivas em líderes notáveis, como Napoleão e Lincoln. Embora 
-esses líderes se destacassem por qualidades pessoais únicas, a 
-teoria dos traços foi desacreditada devido a problemas teóricos, 
-dificuldades de me nsuração e a falta de consideração da 
-adequação comportamental em diversas situações. 
-Atualmente, acredita -se que certos traços de personalidade, 
-combinados com outros aspectos da liderança, influenciam a 
-percepção e aprovação dos líderes em muitas organizações. 
-Assinale a opção que descreve um traço de liderança tradicional.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Segundo a Teoria da Expectativa desenvolvida por Victor Vroom, a motivação de um indivíduo para se dedicar com afinco a uma atividade profissional resulta da interação cognitiva entre três variáveis fundamentais. A convicção pessoal de um servidor de que o alcance do desempenho esperado e a conclusão da meta pactuada serão efetivamente seguidos pela entrega da recompensa institucional prometida pela organização traduz o conceito de:
 
-* **A)** Assimilador.
-* **B)** Inovador.
-* **C)** Mentoring.
-* **D)** Orientação doméstica.
-* **E)** Perspectiva global.
+* **A)** Valência.
+* **B)** Instrumentalidade.
+* **C)** Expectativa.
+* **D)** Equidade comparativa.
+* **E)** Locus de controle externo.
+
 
 ---
 
-> **Comentário Detalhado:**
+> **Comentário Detalhado:**  
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: C**
-
----
-### Teste 407
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-A pesquisa de comportamento organizacional beneficia -se 
-amplamente das ciências comportamentais, proporcionando uma 
-base robusta para teorias e práticas que melhoram os p rocessos 
-relacionados aos grupos. 
-Assinale a opção que melhor identifica a ciência que contribui 
-com estudos sobre poder, conflito e política organizacional.
-
-* **A)** Ciência política.
-* **B)** Psicologia social.
-* **C)** Antropologia.
-* **D)** Sociologia
-* **E)** Economia.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: D**
-
----
-### Teste 408
-**(FCC – TRT-4 – Analista Judiciário - Tecnologia da Informação – 2015)**
-O conceito de vergonha recobre um campo de significados bastante amplo e rico. Para o Dicionário Aurélio, por 
-exemplo, vergonha significa: a) desonra humilhante; opróbrio, ignomínia; b) sentimento penoso de desonra, humilhação ou 
-rebaixamento diante de outrem; c) sentimento de insegurança provocada pelo medo do ridículo, por escrúpulos etc.; 
-timidez, acanhamento; d) sentimento da própria dignidade, brio, honra . O Dicionário Larousse traz aproximadamente as 
-mesmas definições, mas acrescenta novas associações como: medo da desonra e embaraço. O Dicionário Lexis apresenta 
-ainda algumas definições com nuanças diferentes: indignidade, sentimento penoso de baixeza, de confusão, sentimento de 
-desconforto provocado pela modéstia, sentimento de remorso . O que chama a atenção nas definições de vergonha é não 
-somente a diversidade dos significados atribuídos a este sentimento, mas também, e sobretudo, o fato de alguns destes 
-significados serem opostos: desonra/honra, indignidade/dignidade, humilhação/brio. Tal oposição, observada por Harkot-de-
--La-Taille, faz esta autora perguntar-se que palavra é esta que recobre o não e o sim, a ausência e a presença, o temível e 
-o desejável. 
-Uma forma comum de pensar este sentimento é afirmar que ele é simplesmente desencadeado pela opinião de 
-outrem. É o que, por exemplo, sugere a definição de Spinoza segundo a qual a vergonha é a tristeza que acompanha a 
-ideia de alguma ação que imaginamos censurada pelos outros. E é o que, explicitamente, a antropóloga Benedict afirma em 
-seu estudo sobre a sociedade japonesa. Para ela, as culturas da vergonha enfatizam as sanções externas, opondo-se às 
-verdadeiras culturas da culpa, que interiorizam a convicção do pecado. Quanto ao sentimento de vergonha, escreve que 
-alguém poderá envergonhar-se quando é ridicularizado abertamente, ou quando criar a fantasia para si mesmo de que o 
-tenha sido. Todavia, não acreditamos que tudo esteja dito assim; a vergonha pressupõe um controle interno: quem sente 
-vergonha julga a si próprio. Lembremos o fato notável de que a vergonha pode ser despertada pela simples exposição, 
-mesmo que não acompanhada de juízo negativo por parte dos observadores. Com efeito, certas pessoas sentem vergonha 
-pelo simples fato de estarem sendo observadas. O rubor pode subir às faces de alguém que está sendo objeto da atenção 
-de uma plateia, mesmo que esta atenção seja motivada pelo elogio, pelo recebimento de um prêmio, portanto 
-acompanhada de um juízo positivo. Este tipo de vergonha não deixa de ser psicologicamente misterioso: por que 
-será que as pessoas sentem desconforto ao serem “apenas” observadas, mesmo que esta observação não contenha 
-ameaças precisas, mesmo que ela seja lisonjeira? 
-(Adaptado de: LA TAILLE, Y. O sentimento de vergonha e suas relações com a moralidade. Psicologia: Reflexão e Crítica, São 
-Paulo: Scielo, 2002, 15(1), p. 13-25). 
-
-
-9. O primeiro parágrafo do texto autoriza afirmar:
-
-* **A)** 368
-* **B)** 6.
-* **C)** 5.
-* **D)** 2.
-* **E)** 3.   
-17. Em um município, a razão entre o número de homens e de mulheres é 91:92, e entre o número de mulheres e o de crianças é 
-23:5. Nesse município, a razão entre o número de crianças e o de homens é igual a
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A) Incorreta.** Valência é o grau de atratividade e valor pessoal que a recompensa possui para o servidor.  
+> - **B) CORRETA.** No modelo de Victor Vroom:  
+>     - *Expectativa:* É a crença de que o **Esforço levará ao Desempenho** (acreditar na própria competência para atingir a meta).  
+>     - **Instrumentalidade:** É a crença de que o **Desempenho alcançado levará à Recompensa prometida** (confiança de que a instituição entregará o benefício prometido se a meta for batida).  
+>     - *Valência:* É a relação entre a **Recompensa e os Objetivos Pessoais** (o apreço subjetivo pelo benefício).  
+> - **C) Incorreta.** Expectativa refere-se à relação esforço-desempenho.  
+> - **D) Incorreta.** Equidade pertence à teoria de J. Stacy Adams.  
+> - **E) Incorreta.** Locus de controle é conceito de traço de personalidade.  
+> 
 > **Gabarito: B**
 
 ---
-### Teste 409
-**(FGV – TRT-1 – Analista Judiciário - Tecnologia da Informação – 2024)**
-A frase abaixo que mostra uma visão negativa do ato religioso de 
-crer é:
 
-* **A)** Só as grandes crenças proporcionam grandes emoções;
-* **B)** Quem crê é forte; quem duvida é fraco. Fortes convicções 
-precedem grandes ações;
-* **C)** Quem perdeu a crença já nada mais pode perder;
-* **D)** Acredite em milagres, mas não dependa deles;
-* **E)** É preciso ver algumas coisas para se poder crer nelas.
+
+#### B) Teoria da Equidade de J. Stacy Adams:
+Sustenta que a motivação decorre da percepção de justiça distributiva. O servidor compara a relação entre suas contribuições/insumos (*inputs* - esforço, formação, tempo) e suas recompensas (*outcomes* - remuneração, elogios, prestígio) com a relação equivalente observada em colegas de referência:
+
+$$\frac{\text{Recompensas Próprias}}{\text{Insumos Próprios}} \quad \text{versus} \quad \frac{\text{Recompensas do Colega}}{\text{Insumos do Colega}}$$
+
+* Constatando **iniquidade desfavorável** (ganha menos do que outros para a mesma carga de esforço), o indivíduo experimenta angústia e revolta, reagindo com queda intencional de produtividade, aumento do absenteísmo ou pedidos de exoneração/remoção.
+
+---
+
+### Teste 407
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Um auditor fiscal estadual constatou que um colega recém-empossado na mesma gerência, desempenhando idênticas tarefas de fiscalização tributária e possuindo formação equivalente, foi contemplado com uma gratificação especial de produtividade 50% superior sem justificativa plausível de mérito. O auditor sentiu-se revoltado e passou a reduzir propositalmente seu ritmo diário de autuações e a faltar com frequência aos plantões fiscais. O comportamento adotado pelo auditor é explicado primordialmente pela:
+
+* **A)** Teoria da Dissonância Comportamental de Skinner.
+* **B)** Teoria da Hierarquia das Necessidades de Maslow.
+* **C)** Teoria da Equidade de J. Stacy Adams.
+* **D)** Teoria X de Douglas McGregor.
+* **E)** Teoria da Racionalidade Absoluta dos Processos.
+
+
+---
+
+> **Comentário Detalhado:**  
+>
+> - **A) Incorreta.** Skinner é o autor da teoria do reforço operante.  
+> - **B) Incorreta.** Maslow trata da hierarquia fisiológica até autorrealização.  
+> - **C) CORRETA.** A **Teoria da Equidade de J. Stacy Adams** postula que os indivíduos comparam sua relação Resultados/Insumos com a relação de outros profissionais comparáveis. Ao constatar que o colega recebe recompensa desproporcionalmente maior para o mesmo esforço (iniquidade negativa sentida), o trabalhador busca restaurar o equilíbrio reduzindo seus insumos de trabalho (diminuindo o ritmo e faltando ao serviço).  
+> - **D) Incorreta.** A Teoria X de McGregor retrata pressupostos gerenciais autoritários sobre trabalhadores preguiçosos.  
+> - **E) Incorreta.** Opção sem respaldo teórico na psicologia motivacional.  
+> 
+> **Gabarito: C**
+
+---
+
+
+#### C) Teoria do Estabelecimento de Metas de Edwin Locke:
+Comprovou empiricamente que:
+
+* Metas **específicas, mensuráveis e desafiadoras** conduzem a desempenhos significativamente mais elevados do que metas fáceis ou genéricas ("faça o melhor que puder");
+* O fornecimento de **feedback constante** é indispensável para orientar e sustentar o empenho do indivíduo;
+* A **participação dos servidores** na fixação das metas eleva substancialmente seu nível de comprometimento com o resultado final.
+
+#### D) Teoria do Reforço de B.F. Skinner:
+Abordagem comportamentalista segundo a qual o comportamento é condicionado por suas consequências ambientais:
+
+* **Reforço Positivo:** Apresentação de um estímulo agradável (elogio, bônus) após a conduta desejada, aumentando a probabilidade de sua repetição.
+* **Reforço Negativo:** Remoção de uma consequência desagradável quando o indivíduo adota a conduta desejada (ex.: cessação de cobranças diárias quando o servidor entrega o relatório).
+* **Punição:** Aplicação de uma penalidade desagradável (advertência, corte salarial) para desestimular condutas censuráveis.
+* **Extinção:** Eliminação de qualquer recompensa que reforçava um comportamento inadequado, fazendo com que ele gradualmente desapareça.
+
+---
+
+### Teste 408
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Na Teoria da Expectativa (ou Teoria da Expectância) de Victor Vroom, a motivação para agir decorre da multiplicação de três variáveis cognitivas: **Expectativa**, **Instrumentalidade** e **Valência** (\(M = E 	imes I 	imes V\)).
+
+O conceito de **Instrumentalidade** corresponde à crença do indivíduo de que:
+
+* **A)** O alcance de um determinado nível de desempenho bem-sucedido será recompensado com um resultado ou recompensa organizacional concreta (relação desempenho-recompensa).
+* **B)** O seu esforço despendido resultará infalivelmente em um bom desempenho no trabalho (relação esforço-desempenho).
+* **C)** O valor ou peso atrativo atribuído subjetivamente à recompensa oferecida pela organização é positivo.
+* **D)** Os computadores e instrumentos de tecnologia fornecidos pela chefia são suficientes para a auditoria.
+* **E)** A chefia é imune a pressões sindicais na distribuição de funções de confiança.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A)** Correta. No modelo VIE de Victor Vroom: **Expectativa (E)**: crença de que o esforço levará ao desempenho (\(Esforço 
+ightarrow Desempenho\)); **Instrumentalidade (I)**: crença de que o bom desempenho alcançado será o instrumento para receber a recompensa almejada (\(Desempenho 
+ightarrow Recompensa\)); **Valência (V)**: o valor subjetivo ou atratividade que o indivíduo confere à recompensa recebida.
+> - **B)** Incorreta. Refere-se à Expectativa.
+> - **C)** Incorreta. Refere-se à Valência.
+> - **D), E)** Incorretas. Sentidos corriqueiros de instrumento que não guardam relação com a teoria motivacional.
+> 
 > **Gabarito: A**
 
 ---
+
+### Teste 409
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Segundo a Teoria da Equidade de J. Stacy Adams, os indivíduos no ambiente de trabalho comparam a relação entre seus insumos/contribuições (esforço, dedicação, competência) e seus resultados/recompensas (remuneração, reconhecimento, promoções) com a relação insumo/resultado de outros colegas em funções semelhantes.
+
+Quando o servidor público percebe uma situação de **iniquidade negativa** (sente-se injustiçado ao constatar que contribui mais e recebe menos reconhecimento que colegas em situação similar), a teoria prevê que ele tenderá a:
+
+* **A)** Reduzir seu esforço e produtividade, aumentar o absenteísmo ou até solicitar remoção para outro setor, com o objetivo de restabelecer o equilíbrio e a equidade psicológica percebida.
+* **B)** Aumentar espontaneamente sua carga horária de trabalho diário sem solicitar remuneração adicional.
+* **C)** Renunciar voluntariamente ao cargo público estável em favor daquele colega menos produtivo.
+* **D)** Desconsiderar completamente as recompensas institucionais e dobrar o ritmo de trabalho.
+* **E)** Ignorar qualquer parâmetro de comparação social e atuar em estado de isolamento afetivo voluntário.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Correta. A Teoria da Equidade de Adams mostra que a percepção de injustiça gera tensão cognitiva e desmotivação. Para restabelecer o senso de justiça distributiva, o indivíduo adota comportamentos como: diminuir o esforço, produzir com menor qualidade, faltar ao serviço, distorcer mentalmente a comparação ou mudar de departamento.
+> - **B), C), D), E)** Incorretas. Reações opostas à lógica do comportamento humano diante de injustiça distributiva percebida.
+> 
+> **Gabarito: A**
+
+---
+
 ## 6. Fontes Oficiais e Referências Bibliográficas
 
 * [Constituição Federal de 1988 - Arts. 37 a 41 (Regime dos Servidores e Princípios da Administração)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art37) - Direitos, estabilidade e regime de responsabilidade dos servidores públicos.

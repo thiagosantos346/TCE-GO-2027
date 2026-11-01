@@ -331,34 +331,32 @@ Considere as seguintes dependências funcionais sobre os atributos A, B, C e D d
 ---
 
 ### Teste 239
-**(FGV – TJ-RR – Analista Judiciário - Governança e Gestão de TI – 2024)**
-Assinale a opção em que a relação lógica entre os segmentos da frase 
-se encontra corretamente indicada.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Na Álgebra Relacional, uma consulta sobre duas relações $R(A, B, C)$ e $S(C, D, E)$ tem por objetivo filtrar as tuplas de $R$ onde o atributo $A = 10$, concatenar com as tuplas correspondentes de $S$ onde $R.C = S.C$, e projetar apenas as colunas $B$ e $D$.
 
-* **A)** Cave no local em que o ouro está enterrado, / a não ser que você 
-só esteja precisando de exercício – relação de conformidade.
-* **B)** A fé remove montanhas, / mas os ecologistas são contra. – 
-relação de explicação.
-* **C)** Quando a última árvore for cortada / os homens vão perceber 
-que dinheiro não alimenta. / relação de tempo.
-* **D)** Há flores em todas as estações, / assim como loucuras em todas 
-as idades. - relação de modo.
-* **E)** Os bichos não são tão burros / como se pensa. – relação de 
-causa.
+A expressão formal algébrica que representa essa operação com precisão é:  
+
+* **A)** $\pi_{B, D} (\sigma_{A = 10} (R \bowtie S))$
+* **B)** $\sigma_{B, D} (\pi_{A = 10} (R \times S))$
+* **C)** $\pi_{B, D} (\sigma_{A = 10} (R) \cup \sigma_{A = 10} (S))$
+* **D)** $\rho_{B, D} (\sigma_{A = 10} (R - S))$
+* **E)** $\pi_{A = 10} (\sigma_{B, D} (R \div S))$
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: C**
+> - **A)** Correta. A junção natural $R \bowtie S$ realiza a equijunção pelo atributo comum $C$ ($R.C = S.C$). Em seguida, a seleção $\sigma_{A=10}$ filtra apenas as tuplas onde $A$ vale $10$. Por fim, a projeção $\pi_{B, D}$ descarta as demais colunas e projeta unicamente os atributos solicitados $B$ e $D$, eliminando eventuais duplicatas.
+> - **B)** Incorreta. Inverte a sintaxe dos operadores: $\sigma$ recebe uma condição booleana (e não uma lista de atributos como $B, D$) e $\pi$ recebe atributos.
+> - **C)** Incorreta. O operador de união ($\cup$) concatena tuplas verticalmente e exige que as relações sejam compatíveis quanto à união (mesmo grau e domínios equivalentes), o que não ocorre entre $R$ e $S$.
+> - **D)** Incorreta. O operador $\rho$ representa a operação de renomeação.
+> - **E)** Incorreta. O operador $\div$ expressa a divisão relacional, inadequada para consultas com junção condicional e projeção.
+> 
+> **Gabarito: A**
 
 ---
+
 ## 4. Teoria da Normalização e Formas Normais (Codd)
 
 A teoria da normalização, concebida por Edgar F. Codd, consiste em uma técnica formal de análise de esquemas relacionais com base em suas **Dependências Funcionais (DF)** e chaves primárias. Seu objetivo é minimizar a redundância de dados e erradicar as anomalias de inserção, exclusão e alteração.
@@ -407,122 +405,133 @@ A **Forma Normal de Boyce-Codd (FNBC)** é uma versão mais estrita da 3ª FN cr
 ---
 
 ### Teste 240
-**(FGV – TRT-16 – Analista Judiciário - Tecnologia da Informação – 2022)**
-Analise o código a seguir, que descreve a entidade Carro: 
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Considere uma relação $R(A, B, C, D)$ sobre a qual vigora o seguinte conjunto de dependências funcionais primitivas:
 
-A anotação JPA, versão 2.0, a ser incluída na linha 9 para indicar 
-que as cores da entidade Carro devem ser armazenadas em 
-uma tabela separada da tabela carros, é
+$$F = \{ A \rightarrow B, \quad A \rightarrow C, \quad C \rightarrow D \}$$
 
-* **A)** @CollectionAttribute
-* **B)** @ElementCollection
-* **C)** @Embeddable
-* **D)** @Embedded
-* **E)** @InnerTable
+Com base nos Axiomas de Armstrong (Reflexividade, Aumento e Transitividade) e em suas regras derivadas (União, Decomposição e Pseudotransitividade), assinale a dependência funcional que **NÃO** pode ser derivada logicamente de $F$:
+
+* **A)** $B \rightarrow C$
+* **B)** $A \rightarrow D$
+* **C)** $A \rightarrow B, C$
+* **D)** $A, B, C \rightarrow A, B$
+* **E)** $C, B \rightarrow D, B$
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** **CORRETA (não pode ser derivada).** Para verificar se $B \rightarrow C$ é válida, calculamos o fechamento de atributos de $B$, denotado por $B^+$: como não há nenhuma regra em $F$ com $B$ no lado esquerdo determinante, temos $B^+ = \{B\}$. Como $C \notin B^+$, a dependência $B \rightarrow C$ é **falsa** e não pode ser inferida a partir de $F$.
+> - **B)** Incorreta (pode ser derivada). Pela regra da Transitividade: como $A \rightarrow C$ e $C \rightarrow D$, então $A \rightarrow D$ é válida ($A^+ = \{A, B, C, D\}$).
+> - **C)** Incorreta (pode ser derivada). Pela regra da União: como $A \rightarrow B$ e $A \rightarrow C$, então $A \rightarrow B, C$ é válida.
+> - **D)** Incorreta (pode ser derivada). Pelo Axioma da Reflexividade: como $\{A, B\} \subseteq \{A, B, C\}$, a dependência trivial $A, B, C \rightarrow A, B$ é universalmente verdadeira.
+> - **E)** Incorreta (pode ser derivada). Pelo Axioma do Aumento: dada a dependência $C \rightarrow D$, adicionando o atributo $B$ a ambos os lados da implicação, obtém-se $C, B \rightarrow D, B$.
+> 
+> **Gabarito: A**
+
+---
+
+### Teste 241
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+O modelo de dados conceitual de um sistema de gestão de recursos humanos prevê a entidade `FUNCIONARIO`. Para fins de cálculo de benefícios e assistência médica, é necessário cadastrar os dados dos dependentes de cada funcionário (`NomeDependente`, `DataNascDependente`, `Parentesco`), sem limite superior de quantidade.
+
+Para implementar esse modelo em um banco de dados relacional assegurando a conformidade rigorosa com a **Primeira Forma Normal (1FN)**, avalie as seguintes abordagens técnicas:
+
+I. Armazenar no registro do funcionário um atributo estruturado do tipo vetor/array contendo os dados empacotados de todos os dependentes.  
+II. Replicar a linha do funcionário na tabela principal tantas vezes quantos forem os dependentes cadastrados, variando apenas os dados do dependente.  
+III. Criar uma tabela autônoma `DEPENDENTE` vinculada à tabela `FUNCIONARIO` por meio de uma chave estrangeira (`IdFuncionario`), com chave primária composta por `(IdFuncionario, NumSequencialDependente)`.  
+
+Conforme a teoria da normalização relacional de Codd, está correto apenas o que se afirma em:
+
+* **A)** I.
+* **B)** II.
+* **C)** III.
+* **D)** I e II.
+* **E)** II e III.
+
+
+---
+
+> **Comentário Detalhado:**
 >
+> - **I.** Incorreta. O uso de vetores, listas ou colunas multivaloradas viola explicitamente o requisito basilar da Primeira Forma Normal (1FN), segundo o qual todos os atributos de uma relação devem possuir domínios puramente **atômicos** (indivisíveis).
+> - **II.** Incorreta. Replicar a tupla inteira do funcionário para cada dependente cria redundância massiva, anomalias graves de atualização/exclusão e viola a integridade de entidade caso a chave primária seja apenas o identificador do funcionário.
+> - **III.** **CORRETA.** A técnica canônica para resolver atributos multivalorados ou grupos repetitivos e atender à 1FN consiste em decompor a estrutura: cria-se uma tabela separada (`DEPENDENTE`) que herda a chave da entidade principal como chave estrangeira (`FK`), garantindo atomicidade estrita em todas as colunas.
+> 
 > **Gabarito: C**
 
 ---
-### Teste 241
-**(FGV – TJ-AP – Analista Judiciário - Banco de Dados – 2023)**
-A tabela “Tbl_Financeiro” armazena milhares de registros de 
-transações financeiras. Para lidar com consultas que envolvam 
-agregações e cálculos complexos,  o administrador de banco de 
-dados poderá adotar a seguinte estratégia de otimização de 
-consultas:
 
-* **A)** aplicar “commits” aninhados;
-* **B)** utilizar índices bitmap para colunas que envolvam dados 
-calculados;
-* **C)** reduzir a redundância dos dados aplicando técnicas de 
-normalização;
-* **D)** implementar particionamento horizontal para dividir a tabela 
-em segmentos menores;
-* **E)** armazenar previamente os resultados de consultas 
-frequentes utilizando visões materializadas.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: B**
-
----
 ### Teste 242
-**(FGV – TJ-AP – Analista Judiciário - Banco de Dados – 2023)**
-A técnica de modelagem de dados que impacta negativamente 
-no desempenho das c onsultas de uma base multidimensional, 
-pois aumenta a quantidade de joins, é a:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Considere uma relação $R(A, B, C)$ com o seguinte conjunto de dependências funcionais:  
+$F = \{ (A, B) \rightarrow C, \quad C \rightarrow B \}$  
+Sabe-se que as chaves candidatas dessa relação são $(A, B)$ e $(A, C)$.
 
-* **A)** criação de chaves substitutas;
-* **B)** conformidade das dimensões;
-* **C)** não aditividade dos fatos;
-* **D)** degeneração das dimensões;
-* **E)** normalização das dimensões.
+Com base nas definições formais das Formas Normais, afirma-se corretamente que a relação $R$:  
+
+* **A)** Não está na 1ª FN, pois apresenta dependências funcionais sobrepostas.
+* **B)** Está na 2ª FN, mas viola a 3ª FN porque $C$ determina um atributo não-chave.
+* **C)** Está na 3ª FN, mas não está na Forma Normal de Boyce-Codd (FNBC).
+* **D)** Está na Forma Normal de Boyce-Codd (FNBC), pois todas as dependências funcionais são triviais.
+* **E)** Encontra-se na 4ª FN, pois não possui atributos multivalorados dependentes.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** Incorreta. A relação está na 1ª FN (domínios atômicos).
+> - **B)** Incorreta. A relação não viola a 3ª FN.
+> - **C)** Correta. Análise detalhada:
+>     1. Chaves candidatas: $(A, B)$ e $(A, C)$. Todos os atributos ($A, B, C$) são atributos primos (pertencem a ao menos uma chave).
+>     2. 2ª FN: Como não existem atributos não-primos, a relação está na 2ª FN.
+>     3. 3ª FN: Para $(A, B) \rightarrow C$, $(A, B)$ é superchave. Para $C \rightarrow B$, embora $C$ não seja superchave, $B$ é atributo primo. Logo, a relação **atende à 3ª FN**.
+>     4. FNBC: A FNBC exige estritamente que, para toda dependência não-trivial $X \rightarrow Y$, o determinante $X$ seja superchave. Na dependência $C \rightarrow B$, o determinante $C$ **não é superchave**. Portanto, a relação **viola a FNBC**.
 >
+> - **D) Incorreta.** A relação viola expressamente a Forma Normal de Boyce-Codd, pois em  \rightarrow B$ o determinante $ não é superchave.
+> - **E) Incorreta.** A 4ª FN examina dependências multivaloradas, mas a relação sequer atinge a conformidade com a FNBC.
+> 
+> **Gabarito: C**
+
+---
+
+### Teste 243
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
+Considere uma relação não normalizada de um sistema de compras públicas representada pelo esquema:  
+`CONTRATO (NumContrato, NumItem, CodFornecedor, NomeFornecedor, DescricaoItem, Quantidade, ValorUnitario)`  
+Onde a chave primária composta da relação é `(NumContrato, NumItem)`. Sabe-se ainda que existem as seguintes dependências funcionais:
+
+- `(NumContrato, NumItem) -> Quantidade, ValorUnitario`
+- `NumItem -> DescricaoItem`
+- `NumContrato -> CodFornecedor, NomeFornecedor`
+- `CodFornecedor -> NomeFornecedor`
+
+Para que o esquema atinja estritamente a **Segunda Forma Normal (2ª FN)**, deve-se:  
+
+* **A)** Eliminar os grupos repetitivos e garantir a atomicidade dos campos, mantendo todos os atributos na mesma tabela.
+* **B)** Eliminar as dependências funcionais parciais, decompondo a relação de modo que nenhum atributo não-chave dependa de apenas parte da chave primária composta.
+* **C)** Eliminar as dependências transitivas, garantindo que o `NomeFornecedor` não dependa de `CodFornecedor`.
+* **D)** Converter todas as chaves primárias em chaves substitutas (*surrogate keys*) UUID geradas pelo SGBD.
+* **E)** Desnormalizar a relação unificando `Quantidade` e `ValorUnitario` em um atributo multivalorado.
+
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. A atomicidade de domínios e a eliminação de grupos repetitivos constituem a regra da **Primeira Forma Normal (1ª FN)**.
+> - **B)** Correta. A **Segunda Forma Normal (2ª FN)** exige que a relação esteja na 1ª FN e que todo atributo não-chave dependa *totalmente* da chave primária. Como a chave primária é composta por `(NumContrato, NumItem)`, atributos como `DescricaoItem` (que depende apenas de `NumItem`) e `CodFornecedor` (que depende apenas de `NumContrato`) configuram **dependências funcionais parciais**, devendo ser isolados em tabelas próprias para atingir a 2ª FN.
+> - **C)** Incorreta. A eliminação de dependências transitivas (`CodFornecedor -> NomeFornecedor`) é o requisito exclusivo para a **Terceira Forma Normal (3ª FN)**.
+> - **D)** Incorreta. A adoção de chaves substitutas (*surrogate keys*) é escolha de modelagem física, sem relação formal com os postulados de Edgar F. Codd.
+> - **E)** Incorreta. Introduzir atributos multivalorados violaria a 1ª FN, degradando o esquema para o estado não normalizado.
+> 
 > **Gabarito: B**
 
 ---
-### Teste 243
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**
-Linha de Balanço. 
-(   ) Representação gráfica da evolução das atividades de um 
-projeto em forma de barras, com suas datas de início e fim; 
-(   ) Representação gráfica do ritmo com que uma atividade avança 
-ao longo do tempo; 
-(   ) Representação gráfica do nível de atividade de um projeto ao 
-longo do tempo; 
-(   ) Representação gráfica da alocação acumulada de um 
-determinado fator de produção ao longo do tempo; 
-(   ) Representação gráfica das atividades de um projeto 
-considerando a dependência entre elas. 
-A sequência correta da numeração, na ordem apresentada é
 
-* **A)** 3 – 5 – 1 – 2 – 4
-* **B)** 3 – 2 – 5 – 1 – 4
-* **C)** 4 – 1 – 5 – 2 – 3
-* **D)** 4 – 2 – 3 – 1 – 5
-* **E)** 3 – 2 – 4 – 1 – 5
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
->
-> **Gabarito: E**
-
----
 ## 5. Processo de Desnormalização de Dados
 
 A **desnormalização** consiste na introdução deliberada, planejada e controlada de redundância em um esquema de banco de dados físico previamente normalizado.

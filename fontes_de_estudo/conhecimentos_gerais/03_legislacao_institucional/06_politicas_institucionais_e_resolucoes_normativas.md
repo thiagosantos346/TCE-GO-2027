@@ -92,44 +92,30 @@ As atividades finalísticas e corporativas do Tribunal são executadas por secre
 ---
 
 ### Teste 172
-**(FGV – TCE-PA – Auditor de Controle Externo – 2024)**
-Ao analisar o disposto na Lei nº 12.527/2011, Mei re verificou a 
-delimitação de alguns conceitos, notadamente em relação à 
-qualidade da informação, que são relevantes na aplicação da 
-matéria, entre os quais os seguintes: 
-I. qualidade da informação não modificada, inclusive quanto à 
-origem, trânsito e destino; 
-II. qualidade da informação que pode ser conhecida e utilizada 
-por indivíduos, equipamentos ou sistemas autorizados; 
-III. qualidade da informação que tenha sido produzida, expedida, 
-recebida ou modificada por determinado indivíduo, 
-equipamento ou sistema.  
-Assinale a opção que indica a pertinente correlação.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+De acordo com a Estrutura Organizacional e Competências Técnicas do TCE-GO aprovada pela Resolução Administrativa nº 14/2025:
 
-* **A)** I. integridade; II. disponibilidade; III. autenticidade;
-* **B)** I. primariedade; II. autenticidade; III. integridade;
-* **C)** I. autenticidade; II. primariedade; III. integridade;
-* **D)** I. disponibilidade; II. autenticidade; III. integridade;
-* **E)** I. primariedade; II. integridade; III. disponibilidade. 
+* **A)** A Secretaria-Geral de Controle Externo subordina-se hierarquicamente à Procuradoria-Geral do Estado para fins de definição das diretrizes de auditoria.
+* **B)** A macroestrutura executiva do Tribunal de Contas do Estado de Goiás compreende unidades de assessoramento superior, a Secretaria de Controle Externo (responsável pela coordenação executiva e técnica das ações fiscalizatórias especializadas) e a Secretaria de Gestão Integrada, estruturadas para conferir celeridade, inovação e rigor metodológico ao controle governamental.
+* **C)** A criação ou extinção de diretorias e secretarias operacionais dispensa qualquer aprovação do Tribunal Pleno.
+* **D)** As equipes de auditoria técnica das gerências especializadas possuem competência para aplicar multas e emitir acórdãos terminativos de forma monocrática e independente do Tribunal Pleno. considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
+* **E)** As decisões administrativas sobre recursos humanos da Secretaria de Controle Externo são julgadas exclusivamente pelo Ministério Público de Contas.
 
-AUDITOR DE CONTROLE EXTERNO – ÁREA ADMINISTRATIVA - ADMINISTRAÇÃO – MANHÃ  TIPO  BRANCA – PÁGINA 12 
-
-Administração Pública, gestão e 
-fiscalização de contratos
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** Incorreta. O Tribunal de Contas goza de autonomia administrativa, financeira e institucional garantida pela Constituição (art. 73 c/c art. 96 da CF/88), inexistindo qualquer subordinação à PGE.
+> - **B)** Correta. A Resolução Administrativa nº 14/2025 estabeleceu o organograma moderno do TCE-GO, delineando a divisão das atribuições finalísticas de fiscalização contábil, financeira e operacional sob a coordenação técnica da Secretaria de Controle Externo, atuando em harmonia com as secretarias de governança e apoio corporativo.
+> - **C)** Incorreta. A organização interna e a fixação de competências das unidades decorrem de deliberação normativa colegiada do Pleno.
+> - **D)** Incorreta. As unidades técnicas de fiscalização emitem relatórios de auditoria, notas técnicas e pareceres instrutórios; a competência para julgar e aplicar penalidades é privativa dos colegiados (Pleno e Câmaras) e dos relatores, nos limites regimentais.
+> - **E)** Incorreta. A gestão administrativa de pessoal compete à Presidência do Tribunal.
 >
-> **Gabarito: D**
+> **Gabarito: B**
 
 ---
+
 ## 2. Política de Segurança da Informação - PSI (RA nº 17/2024)
 
 ### 2.1 Pilares Basilares: CIDA+L e Destinatários da Norma
@@ -171,80 +157,55 @@ A infraestrutura do TCE-GO conta com a **Equipe de Tratamento de Incidentes de R
 ---
 
 ### Teste 173
-**(FGV – TJ-MT – Analista Judiciário - Tecnologia da Informação – 2024)**
-A Lei Geral de Proteção de Dados Pessoais (LGPD) estabelece uma 
-série de regras para o tratamento de dados pessoais no Brasil.  
-Assinale a afirmativa correta acerca das bases legais para o 
-tratamento de dados pessoais previstas pela LGPD.
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A respeito da Política de Segurança da Informação (PSI) do Tribunal de Contas do Estado de Goiás, veiculada pela Resolução Administrativa nº 17/2024, assinale a afirmativa correta:
 
-* **A)** A empresa pode tratar os dados pessoais de um cliente sem a 
-necessidade de qualquer justificativa legal, desde que o cliente 
-tenha fornecido o consentimento.
-* **B)** O tratamento de dados pessoais pode ser realizado 
-exclusivamente quando houver um contrato de trabalho 
-formal entre o controlador e o titular dos dados.
-* **C)** O tratamento de dados pessoais pode ser realizado com base 
-em legítimo interesse do controlador, desde que não 
-sobreponha os direitos e liberdades fundamentais do titular.
-* **D)** O tratamento de dados pessoais é proibido, exceto quando a 
-autoridade nacional autorizar explicitamente sua coleta e uso.
-* **E)** Dados sensíveis podem ser coletados e utilizados sem a 
-necessidade de qualquer base legal, desde que o titular 
-forneça o consentimento explícito.
+* **A)** Os princípios fundamentais da PSI restringem-se à disponibilidade e agilidade computacional, reputando-se secundária a confidencialidade no setor público.
+* **B)** As normas e diretrizes da PSI vinculam todos os usuários de recursos de tecnologia do TCE-GO, incluindo membros, servidores efetivos e comissionados, residentes, estagiários e colaboradores terceirizados.
+* **C)** É lícito aos servidores de um mesmo setor compartilhar entre si senhas corporativas de acesso para agilizar o atendimento de demandas urgentes na ausência do titular em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **D)** A Política de Segurança da Informação aplica-se estritamente aos servidores lotados na Secretaria de Tecnologia da Informação.
+* **E)** A classificação de informações em níveis de confidencialidade é vedada no âmbito do Tribunal em virtude do princípio constitucional da publicidade ampla.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
+> - **A) Incorreta.** A PSI fundamenta-se nos princípios consolidados da Confidencialidade, Integridade, Disponibilidade, Autenticidade e Legalidade (CIDA+L), não sendo a confidencialidade secundária.
+> - **B) CORRETA.** Conforme preceitua a Resolução Administrativa nº 17/2024, a Política de Segurança da Informação é de **observância compulsória por todos os usuários**, abrangendo os Conselheiros titulares e substitutos, Procuradores de Contas, servidores efetivos e comissionados, servidores cedidos, estagiários, residentes e empregados de empresas terceirizadas que utilizem a rede ou ativos da Casa.
+> - **C) Incorreta.** O compartilhamento de senhas individuais é terminantemente vedado, constituindo falta funcional grave por violar os princípios da rastreabilidade e autenticidade de acessos.
+> - **D) Incorreta.** A PSI tem alcance institucional pleno sobre todos os órgãos, gabinetes e usuários do Tribunal.
+> - **E) Incorreta.** A classificação das informações (Pública, Interna, Confidencial e Secreta/Ultrassecreta) é mandamento legal de conformidade com a Lei de Acesso à Informação.
+> 
 > **Gabarito: B**
 
 ---
+
 ### Teste 174
-**(FGV – TJ-MT – Analista Judiciário - Tecnologia da Informação – 2024)**
-A governança de dados é um conjunto de práticas, processos e 
-políticas que garantem a disponibilidade, integridade, segurança e 
-usabilidade dos dados dentro de uma organização. Ela envolve a 
-criação de regras e a definição de responsabilidades para a gestão 
-dos dados ao longo de seu ciclo de vida. Diferentes tipos de 
-governança de dados podem ser implementados, dependendo dos 
-objetivos da organização e dos requisitos regulatórios.  
-No contexto de Governança de Dados, no modelo de governança 
-de dados colegiado
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A Política de Segurança da Informação (PSI) do TCE-GO, instituída pela Resolução Administrativa nº 17/2024, baseia-se nos pilares essenciais da segurança cibernética (CIDA+L). No tocante à classificação e ao tratamento da informação institucional:
 
-* **A)** a governança de dados é centralizada em uma única equipe 
-responsável por todas as decisões, garantindo padronização e 
-controle rígido.
-* **B)** múltiplas áreas da organização compartilham a 
-responsabilidade pelas decisões de dados, com a liderança de 
-um comitê ou grupo interdepartamental.
-* **C)** todas as decisões são tomadas de forma independente por 
-cada equipe de dados, sem coordenação centralizada.
-* **D)** a governança de dados é mantida por um único setor que 
-gerencia a coleta, o armazenamento e a análise dos dados de 
-toda a organização.
-* **E)** a responsabilidade de governança é atribuída exclusivamente 
-aos usuários finais dos dados, garantindo maior autonomia 
-para o uso.
+* **A)** Toda informação produzida ou custodiada pelo Tribunal é classificada automaticamente como ultrassecreta por tempo indeterminado, sendo vedado o acesso aos cidadãos.
+* **B)** As informações no âmbito do TCE-GO são classificadas quanto ao grau de confidencialidade (pública, interna, restrita e sigilosa), cabendo aos servidores e colaboradores zelar pela salvaguarda das credenciais de acesso.
+* **C)** O compartilhamento de senhas funcionais de acesso à rede interna entre colegas de uma mesma equipe de auditoria é estimulado pela PSI para garantir a continuidade dos serviços em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **D)** O pilar da autenticidade assegura que a informação permaneça acessível aos usuários mesmo em situações de ataque de negação de serviço.
+* **E)** Incidentes de quebra de sigilo ou vazamento cibernético de dados dispensam notificação à área de segurança da informação se resolvidos internamente no setor em 24 horas.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** Incorreta. Pelo princípio constitucional da publicidade (art. 37 da CF/88 e Lei de Acesso à Informação), a publicidade é a regra geral e o sigilo é a exceção devidamente fundamentada.
+> - **B)** Correta. A RA nº 17/2024 (PSI) estrutura a proteção de dados e ativos corporativos do TCE-GO em conformidade com as normas ABNT NBR ISO/IEC 27001 e 27002, estabelecendo a taxonomia formal de classificação da informação e impondo a responsabilidade individual e intransferível pelo uso de credenciais e senhas funcionais de acesso.
+> - **C)** Incorreta. As credenciais de acesso são estritamente pessoais e intransferíveis; compartilhar senhas constitui grave infração de segurança da informação.
+> - **D)** Incorreta. A garantia de disponibilidade contínua refere-se ao pilar da **Disponibilidade**; o pilar da **Autenticidade** assegura a identidade inequívoca do autor ou emissor da informação.
+> - **E)** Incorreta. Qualquer incidente de segurança da informação deve ser imediatamente comunicado à equipe de resposta a incidentes (CSIRT/TI) da Corte.
 >
 > **Gabarito: B**
 
 ---
+
 ## 3. Tratamento e Proteção de Dados Pessoais - LGPD (RN nº 5/2024)
 
 ### 3.1 Aplicação da LGPD ao Controle Externo: Dispensabilidade do Consentimento
@@ -273,79 +234,55 @@ A governança de dados pessoais no TCE-GO é estruturada com clareza funcional:
 ---
 
 ### Teste 175
-**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
-A Portaria 252/2020 do Conselho Nacional de Justiça dispõe sobre 
-o Modelo de Governança e Gestão da Plataforma Digital do Poder 
-Judiciário (PDPJ-Br). 
-A respeito das atribuições que competem ao Comitê Gestor 
-Nacional do PDPJ-Br, que exerce a supervisão geral da Plataforma, 
-avalie as afirmativas a seguir. 
-I. Homologar e propor ajustes aos projetos de desenvolvimento 
-de microsserviços sugeridos pela Gerência Executiva e pelos 
-Comitês Gestores dos tribunais. 
-II. Propor à Presidência, mediante sugestão do Comitê Gestor 
-Nacional da PDPJ, a política de tecnologia da informação a ser 
-seguida pela PDPJ-Br. 
-III. Propor normas regulamentadoras à Comissão Permanente de 
-Tecnologia da Informação e Infraestrutura do Conselho 
-Nacional de Justiça. 
-Está correto o que se afirma em
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Determinado jurisdicionado ingressou com requerimento administrativo perante o TCE-GO exigindo a imediata exclusão e o expurgo de seus dados cadastrais e financeiros constantes de procedimento de fiscalização de obras, invocando o direito de eliminação assegurado pela Lei Geral de Proteção de Dados (LGPD). De acordo com a Resolução Normativa nº 5/2024 do TCE-GO e com a Lei nº 13.709/2018:
 
-* **A)** I, apenas.
-* **B)** II, apenas.
-* **C)** III, apenas.
-* **D)** I e III, apenas.
-* **E)** II e III, apenas.
+* **A)** O Tribunal deve atender prontamente ao pedido, sob pena de incorrer em infração civil gravíssima sujeita a multa cominada pela ANPD.
+* **B)** O tratamento de dados pessoais no âmbito do controle externo independe do consentimento do titular, estando respaldado nas hipóteses legais de cumprimento de obrigação legal e exercício de competências constitucionais fiscalizatórias.
+* **C)** O controle externo estadual não se submete aos princípios da LGPD, sendo vedado ao Tribunal instituir Comitê de Privacidade ou nomear Encarregado de Dados.
+* **D)** A eliminação dos dados cadastrais é obrigatória, devendo os relatórios de auditoria ser cancelados e arquivados sem decisão de mérito.
+* **E)** O titular de dados possui direito potestativo absoluto de impedir o acesso de auditores aos seus dados bancários, mesmo diante de comprovado desvio de recursos públicos em conformidade com as diretrizes e padrões de arquitetura corporativa.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: A**
+> - **A) Incorreta.** O direito de eliminação de dados não ostenta caráter absoluto e cede diante das finalidades públicas imperativas de controle financeiro do Estado.
+> - **B) CORRETA.** Nos termos da Resolução Normativa nº 5/2024 e do artigo 7º, II e III da Lei Federal nº 13.709/2018, as atividades finalísticas do TCE-GO fundam-se no **cumprimento de dever legal e regulatório** e no **exercício regular de competências constitucionais fiscalizatórias**, dispensando-se o consentimento do titular e obstando a exclusão de dados indispensáveis à instrução de processos de controle da despesa pública.
+> - **C) Incorreta.** O Tribunal adota integralmente as normas da LGPD, possuindo Comitê de Privacidade, Encarregado (DPO) e diretrizes rígidas de segurança da informação.
+> - **D) Incorreta.** O interesse público no julgamento e controle das contas coletivas prevalece sobre pretensões de ocultação cadastral do auditado.
+> - **E) Incorreta.** O dever universal de prestar contas e submeter-se à auditoria decorre diretamente do texto constitucional (Art. 70, parágrafo único da CF), sendo vedada a oposição arbitrária de sigilo em desfavor da Corte de Contas.
+> 
+> **Gabarito: B**
 
 ---
+
 ### Teste 176
-**(FGV – TRT-DA 24-REGIÃO – Analista Judiciário - Tecnologia da Informação – 2025)**
-De acordo com a Lei Geral de Proteção de Dados Pessoais  
-(Lei nº 13.709/2018), o titular tem direito ao acesso facilitado às 
-informações sobre o tratamento de seus dados, que deverão ser 
-disponibilizadas de forma clara, adequada e ostensiva acerca de 
-determinadas características. 
-Quando o consentimento é requerido, se houver mudanças da 
-finalidade para o tratamento de dados pessoais não compatíveis 
-com o consentimento original, o controlador deverá informar o 
-titular sobre as mudanças de finalidade
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Em relação à governança de privacidade e à proteção de dados pessoais no âmbito do TCE-GO (Resolução Normativa nº 5/2024, em sintonia com a Lei Geral de Proteção de Dados Pessoais - LGPD, Lei nº 13.709/2018):
 
-* **A)** previamente, sendo que o titular não poderá revogar o 
-consentimento.
-* **B)** previamente, podendo o titular revogar o consentimento, caso 
-discorde das alterações.
-* **C)** posteriormente, sendo que o titular não poderá revogar o 
-consentimento.
-* **D)** posteriormente, podendo o titular revogar o consentimento, 
-caso discorde das alterações.
-* **E)** anualmente, sendo que o titular deverá renovar o seu 
-consentimento.
+* **A)** O tratamento de dados pessoais realizado pelo TCE-GO para o cumprimento de suas competências constitucionais de fiscalização e controle externo depende do prévio e expresso consentimento de cada gestor auditado. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **B)** O Tribunal de Contas pode tratar dados pessoais de jurisdicionados, licitantes e servidores sem necessidade de consentimento do titular, com fundamento na base legal do cumprimento de obrigação legal e execução de políticas públicas previstas em lei (arts. 7º, II e III, e 23 da LGPD), devendo observar o princípio da minimização e adotar salvaguardas técnicas adequadas.
+* **C)** O Encarregado pelo Tratamento de Dados Pessoais (DPO) do TCE-GO responde solidariamente com seu patrimônio pessoal por qualquer vazamento externo provocado por criminosos virtuais.
+* **D)** O Relatório de Impacto à Proteção de Dados Pessoais (RIPD) é documento dispensável mesmo quando houver tratamento de dados sensíveis em larga escala.
+* **E)** Os titulares de dados perdem qualquer direito de informação ou retificação de seus dados cadastrais perante o Tribunal de Contas.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** Incorreta. Exigir consentimento prévio inviabilizaria a própria atividade de auditoria e repressão à corrupção. A LGPD expressamente afasta a exigência de consentimento para a atuação de órgãos estatais no cumprimento de deveres legais (art. 7º, II) e exercício regular de direitos em processos administrativos (art. 7º, VI).
+> - **B)** Correta. A RN nº 5/2024 disciplina com precisão a incidência da LGPD no controle externo goiano: a atuação fiscalizatória apoia-se em hipóteses legais vinculadas (art. 23 da LGPD), dispensando consentimento, mas submetendo o TCE-GO aos princípios reitores da lei, em especial a **finalidade legítima**, a **adequação**, a **segurança da informação** e a **minimização** (coletar apenas os dados estritamente necessários ao objetivo da auditoria).
+> - **C)** Incorreta. O Encarregado (DPO) atua como canal de comunicação entre o órgão, os titulares e a ANPD, não assumindo responsabilidade patrimonial automática por ações criminosas de terceiros.
+> - **D)** Incorreta. O RIPD é obrigatório e fundamental quando o tratamento de dados envolver riscos relevantes aos direitos dos titulares ou dados sensíveis.
+> - **E)** Incorreta. Os direitos básicos dos titulares assegurados pelo art. 18 da LGPD (confirmação de tratamento, acesso e correção) são garantidos no que for compatível com a tutela do sigilo legal das investigações.
 >
-> **Gabarito: C**
+> **Gabarito: B**
 
 ---
+
 ## 4. Governança e Uso de Inteligência Artificial no TCE-GO (RA nº 24/2024)
 
 ```mermaid
@@ -381,72 +318,55 @@ O servidor que utilizar ferramentas de IA para redigir peças processuais, despa
 ---
 
 ### Teste 177
-**(FCC – TRT-14 – Analista Judiciário - Tecnologia da Informação – 2016)**
-Dentre as categorias de controles gerais que devem ser consideradas em um processo de auditoria de sistemas estão os 
-controles de
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Em conformidade com a Resolução Administrativa nº 24/2024 do Tribunal de Contas do Estado de Goiás, que disciplina o uso de ferramentas de Inteligência Artificial (IA) no âmbito da Corte, o auditor que utiliza assistente generativo para subsidiar a elaboração de matriz de auditoria governamental:
 
-* **A)** gestão, que são políticas e procedimentos estabelecidos para organizar as responsabilidades de todos os envolvidos nas 
-atividades relacionadas à alta gerência.
-* **B)** entidade, que oferecem a estrutura para gerência do risco, desenvolvimento de políticas de segurança e supervisão da 
-adequação dos controles gerais da entidade.
-* **C)** riscos, que garantem, na ocorrência de eventos inesperados, que as operações críticas não sejam interrompidas, ou sejam 
-imediatamente retomadas, e os dados críticos sejam protegidos.
-* **D)** acesso, que limitam ou detectam o acesso a recursos computacionais, protegendo-os contra modificação não autorizada, 
-perda e divulgação de informações confidenciais.
-* **E)** riscos, que limitam e supervisionam o acesso aos programas  e arquivos críticos para o sistema, prevenindo a imple-
-mentação ou modificação não autorizada de programas. 
-Caderno de Prova ’C03’, Tipo 001
+* **A)** Fica isento de responsabilidade funcional caso a ferramenta produza precedentes jurisprudenciais fictícios ou cite dispositivos revogados.
+* **B)** Deve observar a supervisão humana compulsória (*Human-in-the-loop*), permanecendo como o único e integral responsável pela exatidão, consistência e adequação jurídica de todo o teor elaborado.
+* **C)** Tem autorização para inserir dados fiscais e bancários protegidos por sigilo constitucional em qualquer ferramenta pública de IA disponível na web para agilizar o processamento em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **D)** Está dispensado de checar as fontes citadas pelo modelo, haja vista a presunção legal de veracidade das plataformas de inteligência computacional.
+* **E)** Só poderá utilizar modelos de linguagem mediante autorização prévia individual e por escrito expedida pelo Plenário do Tribunal.
 
-8 TRT14R-An.Jud.-Tec.Informação-C03
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
->
-> **Gabarito: E**
+> - **A) Incorreta.** O servidor público não goza de isenção funcional; o eventual fenômeno de "alucinação" algorítmica não escusa o profissional por erro técnico em peça oficial.
+> - **B) CORRETA.** A Resolução Administrativa nº 24/2024 do TCE-GO positiva categoricamente a diretriz da **supervisão humana indelegável (*Human-in-the-loop*)**. As ferramentas de inteligência artificial desempenham papel puramente auxiliar e de suporte de produtividade, permanecendo a autoria jurídica, a análise crítica e a **responsabilidade pessoal e disciplinar** pela fidedignidade e precisão do trabalho sob encargo exclusivo e intransferível do servidor que o subscrever.
+> - **C) Incorreta.** É expressamente vedado carregar dados protegidos por sigilo constitucional (fiscal, bancário, judicial) ou dados sensíveis em plataformas abertas de inteligência artificial desprovidas de salvaguardas contratuais corporativas de segurança.
+> - **D) Incorreta.** Inexiste presunção de veracidade em sistemas computacionais; o dever de checagem documental e validação probatória é mandatório.
+> - **E) Incorreta.** As ferramentas de IA autorizadas e homologadas pela STI integram os fluxos ordinários de trabalho, dispensando autorização pontual do Pleno para cada expediente.
+> 
+> **Gabarito: B**
 
 ---
+
 ### Teste 178
-**(FGV – TJ-AP – Analista Judiciário - Segurança da Informação – 2023)**
-De acordo com a Resolução CNJ nº 396/2021, que institui a 
-Estratégia Nacional de Segurança Cibernética do Poder Judiciário 
-(ENSEC-PJ), no seu Art. 18, estabelece que a Rede de Cooperação 
-do Judiciário na área de segurança cibernética tem o seguinte 
-objetivo:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A Resolução Administrativa nº 24/2024 estabelece a Política de Governança e Uso de Inteligência Artificial no TCE-GO. Sobre as diretrizes éticas e operacionais de ferramentas de IA na Corte de Contas goiana, é correto afirmar:
 
-* **A)** evitar ambiente colaborativo com outros órgãos do Poder 
-Judiciário, de forma a manter em segredo quaisquer ameaças 
-e eventuais ataques ou incidentes cibernéticos;
-* **B)** estimular o compartilhamento de informações sobre 
-incidentes e vulnerabilidades ciber néticas, exceto as do 
-âmbito do Poder Judiciário;
-* **C)** realizar exercícios cibernéticos com a participação de entes 
-restritos ao Poder Judiciário, no intuito de evitar vazamento 
-de dados sensíveis;
-* **D)** fortalecer o Centro de Prevenção, Tratamento e Respost a a 
-Incidentes Cibernéticos (CPTRIC-PJ) do CNJ;
-* **E)** desestimular a estrutura judiciária quanto ao aprimoramento 
-de investigações de crimes cibernéticos.
+* **A)** É permitida a delegação integral da tomada de decisão de mérito em processos de contas aos algoritmos de inteligência artificial generativa, dispensando a intervenção humana.
+* **B)** É expressamente vedada a inserção de documentos sigilosos, dados pessoais não públicos ou peças de auditoria sob segredo de justiça em modelos públicos ou abertos de inteligência artificial generativa baseados em nuvem externa, subsistindo a supervisão humana obrigatória (*human-in-the-loop*) e a responsabilidade funcional indelegável do servidor que utilizar a ferramenta.
+* **C)** A inteligência artificial pode ser utilizada para gerar automaticamente acórdãos condenatórios sem conferência técnica do relator.
+* **D)** As ferramentas de IA utilizadas no Tribunal são dispensadas de observar princípios de explicabilidade e auditabilidade algorítmica.
+* **E)** O servidor que assina relatório gerado com auxílio de IA fica isento de responsabilidade por erros materiais ou alucinações de conteúdo produzidas pela máquina.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
+> - **A)** Incorreta. A tomada de decisão jurisdicional e sancionatória é ato privativo e indelegável de agentes públicos humanos investidos de autoridade constitucional.
+> - **B)** Correta. A RA nº 24/2024 do TCE-GO consagra balizas de vanguarda na governança de IA pública: 1) Vedação peremptória ao upload de dados sigilosos e informações sob segredo em plataformas públicas abertas (para evitar vazamentos e quebra da LGPD); 2) O princípio da supervisão humana compulsória (*human-in-the-loop*); 3) A responsabilidade pessoal e intransferível do servidor operador por todo e qualquer texto ou cálculo incorporado às minutas oficiais.
+> - **C)** Incorreta. A decisão colegiada exige juízo crítico motivado do julgador humano.
+> - **D)** Incorreta. A transparência, explicabilidade e auditabilidade dos sistemas inteligentes são exigências éticas fundamentais da norma.
+> - **E)** Incorreta. O servidor responde plenamente por qualquer "alucinação", dado incorreto ou citação inexistente formulada pela IA que for submetida sem a devida validação humana.
 >
-> **Gabarito: A**
+> **Gabarito: B**
 
 ---
+
 ## 5. Gestão de Pessoas, Comunicação e Planejamento Integrado
 
 ### 5.1 Política de Gestão de Pessoas e Teletrabalho (RA nº 5/2024)
@@ -484,96 +404,80 @@ graph TD
 ---
 
 ### Teste 179
-**(FGV – TJ-AP – Analista Judiciário - Banco de Dados – 2023)**
-De acordo com a Resolução CNJ nº 396/2021, que institui a 
-Estratégia Nacional de Segurança Cibernética d o Poder Judiciário 
-(ENSEC-PJ), no seu Art. 18, estabelece que a Rede de Cooperação 
-do Judiciário na área de segurança cibernética tem o seguinte 
-objetivo:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A respeito da Política de Comunicação Institucional (Resolução Administrativa nº 19/2024) e da Política de Gestão de Pessoas (Resolução Administrativa nº 5/2024) do TCE-GO:
 
-* **A)** evitar ambiente colaborativo com outros órgãos do Poder 
-Judiciário, de forma a manter em segredo quaisquer ameaças 
-e eventuais ataques ou incidentes cibernéticos;
-* **B)** estimular o compartilhamento de informações sobre 
-incidentes e vulnerabilidades cibernéticas, exceto as do 
-âmbito do Poder Judiciário;
-* **C)** realizar exercícios cibernéticos com a particip ação de entes 
-restritos ao Poder Judiciário, no intuito de evitar vazamento 
-de dados sensíveis;
-* **D)** fortalecer o Centro de Prevenção, Tratamento e Resposta a 
-Incidentes Cibernéticos (CPTRIC-PJ) do CNJ;
-* **E)** desestimular a estrutura judiciária quanto ao aprimoramento 
-de investigações de crimes cibernéticos.
+* **A)** A Política de Comunicação incentiva o uso de linguagem rebuscada e jargões processuais latinos em todos os atos públicos para demonstrar erudição jurídica.
+* **B)** A Política de Comunicação adota as diretrizes da Linguagem Simples e Cidadã, buscando transmitir as decisões e informações de controle externo de forma acessível e compreensível a qualquer cidadão.
+* **C)** O regime de teletrabalho previsto na Política de Gestão de Pessoas é obrigatório para todos os servidores sem necessidade de avaliação ou metas de produtividade.
+* **D)** A capacitação dos servidores é facultativa ao Tribunal, sendo vedada a oferta de pós-graduações pela Escola Superior de Controle Externo.
+* **E)** Os servidores do Tribunal têm liberdade para conceder entrevistas individuais em nome da Corte de Contas a emissoras de televisão sem alinhamento com a Assessoria de Comunicação em conformidade com as diretrizes e padrões de arquitetura corporativa.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: A**
+> - **A) Incorreta.** A política veda expressamente o rebuscamento inútil e o jargão excessivo, orientando a clareza e concisão.
+> - **B) CORRETA.** A Resolução Administrativa nº 19/2024 estabelece como pilar central o uso da **Linguagem Simples e Cidadã**, visando assegurar que acórdãos, resumos de julgamentos e informativos sejam compreendidos pela sociedade em geral, fortalecendo o controle social e a transparência pública.
+> - **C) Incorreta.** O teletrabalho é facultativo, submete-se ao interesse da administração e exige pactuação formal de metas de produtividade (em regra, superiores às presenciais).
+> - **D) Incorreta.** A formação continuada é prioridade institucional, ofertando a ESCOEX programas regulares de pós-graduação e aperfeiçoamento.
+> - **E) Incorreta.** O contato com veículos de comunicação social é institucionalmente centralizado na Assessoria de Comunicação (ASCOM).
+> 
+> **Gabarito: B**
 
 ---
+
 ### Teste 180
-**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**
-Ao planejar o desenvolvimento de serviços e produtos de 
-informação no âmbito da biblioteca digital, o bibliotecário 
-deve repensar a questão do uso da informação de 
-maneira que a biblioteca
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No âmbito do Sistema de Planejamento e Gestão Institucional do TCE-GO, normatizado pela Resolução Administrativa nº 15/2024, a gestão de riscos e os controles internos da gestão estruturam-se consoante o internacionalmente reconhecido Modelo das Três Linhas (*Three Lines Model* do IIA). Nesse modelo, as atribuições da 1ª Linha, da 2ª Linha e da 3ª Linha correspondem, respectivamente, a:
 
-* **A)** promova a utilização simultânea dos recursos por 
-duas ou mais pessoas.
-* **B)** venha a prover a totalidade da informação deman-
-dada em formato eletrônico.
-* **C)** amplie o número de computadores e o acesso à 
-internet oferecidos aos usuários.
-* **D)** não necessite ser proprietária do documento solicita-
-do pelo usuário.
-* **E)** transforme o seu acervo físico em documentos 
-virtuais de acesso remoto. 
-_________________________________________________________
+* **A)** Auditoria interna independente; Ministério Público de Contas; Tribunal Pleno.
+* **B)** Gestores operacionais diretos que gerenciam os riscos nos processos diários; Unidades de supervisão, conformidade e governança de riscos; Auditoria interna independente.
+* **C)** Ouvidoria e cidadãos; Assessoria de Comunicação; Diretoria de Recursos Humanos.
+* **D)** Assembleia Legislativa do Estado; Governador do Estado; Tribunal de Justiça.
+* **E)** Empresas terceirizadas; Conselheiros relatores; Servidores em estágio probatório.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FCC).
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
->
-> **Gabarito: C**
+> - **A) Incorreta.** A Auditoria Interna Independente atua na 3ª Linha do modelo, e não na 1ª Linha operacional.
+> - **B) CORRETA.** Conforme a Resolução Administrativa nº 15/2024 do TCE-GO e o padrão IIA: a 1ª Linha compreende os gestores operacionais diretos; a 2ª Linha congrega as unidades de conformidade, riscos e governança; e a 3ª Linha cabe à Auditoria Interna Independente.
+> - **C) Incorreta.** Ouvidoria e assessoria não definem as linhas estruturais do modelo metodológico do IIA.
+> - **D) Incorreta.** Cita instâncias políticas e órgãos externos que transcendem a governança interna do Tribunal.
+> - **E) Incorreta.** Aponta papéis avulsos e sem correspondência conceitual com a taxonomia das Três Linhas.
+> 
+> **Gabarito: B**
 
 ---
+
 ### Teste 181
-**(FGV – TCE-GO – Analista de Controle Externo - Controle Externo – 2024)**
-According to the text, the word that “this extraordinary gift” (5 th 
-paragraph) refers to is our
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Quanto ao regime de teletrabalho disciplinado na Política de Gestão de Pessoas do TCE-GO (Resolução Administrativa nº 5/2024):
 
-* **A)** world.
-* **B)** universe.
-* **C)** humanity.
-* **D)** monopoly.
-* **E)** intelligence.
+* **A)** O teletrabalho é direito subjetivo incondicionado de todo servidor recém-empossado, independentemente de avaliação do estágio probatório ou interesse da administração.
+* **B)** A adesão ao teletrabalho vincula-se ao cumprimento de plano de trabalho com metas de desempenho superiores às da atividade presencial.
+* **C)** No regime de teletrabalho, o servidor fica desobrigado de manter canais de comunicação ativos durante o horário regular de funcionamento do Tribunal.
+* **D)** O não atingimento imotivado das metas de desempenho fixadas no plano de trabalho acarreta a promoção automática do servidor por merecimento presumido.
+* **E)** O teletrabalho impede a realização de auditorias presenciais mesmo quando expressamente requisitadas pelo relator dos autos.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **B)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **C)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **D)** Incorreta. Discrepa das diretrizes normativas e jurisprudenciais aplicáveis ao tema objeto do item.
-> - **E)** Correta. Representa com precisão a disciplina do tema e o entendimento pacificado adotado pela banca (FGV).
+> - **A)** Incorreta. O teletrabalho não constitui direito adquirido nem subjetivo incondicional; é ato discricionário deferido no estrito interesse e conveniência do serviço público.
+> - **B)** Correta. De acordo com a RA nº 5/2024, a inclusão no regime de teletrabalho no TCE-GO exige pactuação formal de metas de produtividade e qualidade (geralmente fixadas em patamar superior ao presencial), observando-se vedações expressas, tais como a existência de penalidade disciplinar nos últimos anos ou tramitação de PAD por falta funcional grave.
+> - **C)** Incorreta. O servidor em teletrabalho deve manter plena disponibilidade de comunicação (telefone, e-mail institucional, aplicativo corporativo) durante a jornada regular.
+> - **D)** Incorreta. O descumprimento injustificado das metas resulta no imediato desligamento do regime de teletrabalho e na apuração de eventuais faltas funcionais.
+> - **E)** Incorreta. O servidor em teletrabalho permanece obrigado a comparecer ao Tribunal ou a diligências externas sempre que convocado pela chefia ou pelo Relator.
 >
-> **Gabarito: E**
+> **Gabarito: B**
 
 ---
+
 ## 6. Fontes Oficiais e Referências Bibliográficas
 
 * [Portal Institucional do TCE-GO - Tecnologia da Informação e Políticas Digitais](https://portal.tce.go.gov.br/tecnologia-da-informacao2) - Governança de TI, segurança da informação e diretrizes digitais do Tribunal.

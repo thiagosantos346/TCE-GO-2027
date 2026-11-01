@@ -6177,42 +6177,6 @@
       "status_integracao": "pendente"
     },
     {
-      "id": "TRT-2024-FGV-Q85",
-      "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
-      "numero_original": 85,
-      "enunciado": "Ao se projetar uma rodovia, deve -se prever um sistema de \ndrenagem para captação, condução e desague adequado das \náguas que, precipitando -se sobre a pista ou áreas adjacentes, \npossam causar efeitos indesejáveis.  \nNesse sentido, o dispositivo projetado para diminuir a velocidade \nda água quando ela passa de um dispositivo de drenagem \nsuperficial para o terreno natural, para evitar a erosão, é \ndenominado",
-      "alternativas": {
-        "A": "descida d’água.",
-        "B": "saída d’água.",
-        "C": "bacia de amortecimento.",
-        "D": "caixa coletora.",
-        "E": "sarjeta."
-      },
-      "gabarito_oficial": "C",
-      "formato": "MULTIPLA_ESCOLHA_5",
-      "target_file": "fontes_de_estudo/conhecimentos_gerais/01_lingua_portuguesa/05_concordancia_regencia_e_crase.md",
-      "target_section": "### 3.5 Expressões do Tipo É Proibido, É Necessário e É Bom",
-      "status_integracao": "pendente"
-    },
-    {
-      "id": "TRT-2024-FGV-Q86",
-      "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
-      "numero_original": 86,
-      "enunciado": "Orçamento de uma obra compõe-se pela identificação, descrição, \nquantificação e valoração da mão de obra, equipamentos e \nmateriais utilizados na obra, custos financeiros, impostos, riscos e \nmargem de lucro desejada, para a adequada previsão do pre ço \nfinal. A elaboração do orçamento requer o conhecimento de \nconceitos, que são fundamentais para a utilização das referências \ndos Sistemas de Custo disponíveis.  \nAssocie os conceitos listados a seguir com as respectivas \ndescrições:",
-      "alternativas": {},
-      "gabarito_oficial": "C",
-      "formato": "CERTO_ERRADO",
-      "target_file": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/15_nocoes_de_direito_administrativo/04_servicos_publicos_bens_e_responsabilidade_civil.md",
-      "target_section": "### 2.4 Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)",
-      "status_integracao": "pendente"
-    },
-    {
       "id": "TRT-2024-FGV-Q05",
       "banca": "FGV",
       "orgao": "TRT",
@@ -6231,27 +6195,6 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/15_nocoes_de_direito_administrativo/02_organizacao_administrativa_e_poderes.md",
       "target_section": "### 4.5 Poder de Polícia, Ciclo de Polícia e Delegação (Tema 532/STF)",
-      "status_integracao": "injetada"
-    },
-    {
-      "id": "TRT-2024-FGV-Q87",
-      "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
-      "numero_original": 87,
-      "enunciado": "As lagoas de estabiliz ação são o método mais simples de \ntratamento de esgoto existente, podendo ser classificadas de \ndiferentes formas.  \nAssim, leia atentamente as características de um tipo de lagoa de \nestabilização apresentadas a seguir: \n• Opera por meio da ação de algas e bactérias sob influência da \nluz; \n• Parte da matéria orgânica tratada se transforma em células de \nalgas (matéria estável) e parte em produtos inorgânicos, que \nsaem com efluente; \n• Mantém condições aeróbias na superfície e anaeróbias na \nparte inferior, onde a matéria orgânica é sedimentada; \n• Profundidade variando entre 1,0 m e 2,5 m. \nEsse tipo de lagoa de estabilização é conhecido como lagoa.",
-      "alternativas": {
-        "A": "anaeróbia.",
-        "B": "facultativa.",
-        "C": "de alta taxa.",
-        "D": "de maturação.",
-        "E": "aerada com aeração prolongada."
-      },
-      "gabarito_oficial": "C",
-      "formato": "MULTIPLA_ESCOLHA_5",
-      "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/04_engenharia_de_software/02_requisitos_historias_de_usuario_uml_e_bpmn.md",
-      "target_section": "### 3.2 Diagrama de Classes: Visibilidade, Multiplicidade, Agregação e Composição",
       "status_integracao": "injetada"
     },
     {
@@ -6276,27 +6219,6 @@
       "status_integracao": "pendente"
     },
     {
-      "id": "TRT-2024-FGV-Q89",
-      "banca": "FGV",
-      "orgao": "TCE-GO",
-      "ano": 2024,
-      "cargo": "Analista de Controle Externo - Controle Externo",
-      "numero_original": 89,
-      "enunciado": "A figura a seguir apresenta uma viga biapoiada com um trecho em \nbalanço com comprimento superior a 1,0 m. Essa viga está \nsubmetida, no vão entre apoios, a uma carga uniformemente \ndistribuída de 2,0 kN/m e a uma carga concentrad a de 64 kN na \nextremidade livre. \n\nAproximações: \n√2 = 1,4 √3 = 1,7 √5 = 2,2 \nConsiderando as aproximações apresentadas na tabela, para que \nos máximos momentos fletores positivo e negativo sejam, em \nmódulo, iguais nessa viga, o comprimento à do trecho em balanço \ndeve ser de, aproximadamente",
-      "alternativas": {
-        "A": "1,25 m",
-        "B": "1,45 m",
-        "C": "1,58 m",
-        "D": "1,95 m",
-        "E": "2,20 m"
-      },
-      "gabarito_oficial": "E",
-      "formato": "MULTIPLA_ESCOLHA_5",
-      "target_file": "fontes_de_estudo/conhecimentos_gerais/01_lingua_portuguesa/07_redacao_oficial.md",
-      "target_section": "### 2.1 Princípio da Impessoalidade e Seus Três Desdobramentos",
-      "status_integracao": "injetada"
-    },
-    {
       "id": "TRT-2024-FGV-Q90",
       "banca": "FGV",
       "orgao": "TRT",
@@ -6315,27 +6237,6 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/09_inteligencia_artificial_e_ciencia_de_dados/01_fundamentos_ia_machine_learning_e_deep_learning.md",
       "target_section": "### 2.3 Modelos de Regressão e Técnicas de Regularização (Ridge, Lasso e Elastic Net)",
-      "status_integracao": "injetada"
-    },
-    {
-      "id": "TRT-2024-FGV-Q91",
-      "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
-      "numero_original": 91,
-      "enunciado": "A classificação dos solos em argila, silte, areia ou pedregulho é \nfeito com base na propriedade de",
-      "alternativas": {
-        "A": "diâmetro médio dos grãos.",
-        "B": "composição mineralógica dos grãos.",
-        "C": "densidade do solo.",
-        "D": "grau de porosidade do solo.",
-        "E": "nível de compactação do solo."
-      },
-      "gabarito_oficial": "C",
-      "formato": "MULTIPLA_ESCOLHA_5",
-      "target_file": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/15_nocoes_de_direito_administrativo/06_acesso_a_informacao_e_contratos_publicidade.md",
-      "target_section": "### 2.2 Competência Funcional para Classificação no Estado de Goiás",
       "status_integracao": "injetada"
     },
     {
@@ -45783,27 +45684,6 @@
       "status_integracao": "pendente"
     },
     {
-      "id": "TRT15-2015-FCC-Q20",
-      "banca": "FCC",
-      "orgao": "TRT-15",
-      "ano": 2015,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
-      "numero_original": 20,
-      "enunciado": "O cadastro dos pacientes que se consultaram em uma clínica odontológica, em janeiro, indica que apenas \n5\n2  eram homens. \nDesses pacientes homens, \n7\n2  fizeram tratamento que se estendeu até depois de janeiro, e os demais, que totalizaram 140 ho-\nmens,  concluíram seu tratamento no próprio mês de janeiro.  De acordo com essas informações,  o total de homens e mulheres \n\n que se consultaram nessa clínica em janeiro foi igual a",
-      "alternativas": {
-        "A": "420.",
-        "B": "520.",
-        "C": "490.",
-        "D": "380.",
-        "E": "350. \nCaderno de Prova ’B02’, Tipo 001\n\nTRT15-An.Jud.-Téc. Informação-B02 7"
-      },
-      "gabarito_oficial": "B",
-      "formato": "MULTIPLA_ESCOLHA_5",
-      "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/13_legislacao_aplicada_a_ti/05_normativos_e_planejamento_de_ti_tce_go.md",
-      "target_section": "### 3.1 Classificação Corporativa da Informação no TCE-GO",
-      "status_integracao": "injetada"
-    },
-    {
       "id": "TRT15-2015-FCC-Q21",
       "banca": "FCC",
       "orgao": "TRT-15",
@@ -61449,27 +61329,6 @@
       "status_integracao": "pendente"
     },
     {
-      "id": "TRT-2024-FGV-Q38",
-      "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
-      "numero_original": 38,
-      "enunciado": "A Alfa Químicas do Pará é uma empresa que comercializa e \ndistribui insumos industriais para diversos segmentos do \nmercado e se localiza na confluência do rio Beta com o manancial \nde captação de água do sistema de abastecimento público de  \n3 (três) cidades. \nUm dos produtos que a empresa comercializa é a substância \ntolueno, um líquido incolor, volátil, com odor característico, \namplamente utilizado como solvente em indústrias que vão \ndesde a produção de tintas e vernizes até a fabricação de \nprodutos farmacêuticos e de borracha. No entanto, apesar de sua \nutilidade, o tolueno apresenta sérios riscos para a saúde humana \ne para o meio ambiente, alguns já conhecidos e outros ainda não \ncomprovados por evidências científicas. \nUm dos funcionários da em presa Alfa Químicas do Pará, \ndiscordando da forma como estava sendo conduzido o processo \nde armazenamento do tolueno, denunciou -a à Secretaria de \nMeio Ambiente e Sustentabilidade do Pará, dando conta de que \nexistiam tanques de armazenamento com má conserva ção e que \nestavam sendo feitas descargas industriais inadequadas. Após \ninvestigação, ficou constatada a presença de efluentes com a \nsubstância tolueno, sem qualquer tratamento, nas galerias de \náguas pluviais cujo curso, conforme planta industrial, desemboc a \nno rio Beta. \nA empresa cessou as atividades alguns meses após o ajuizamento \nda ação civil pública pelo Ministério Público, que ocorreu  \n5 (cinco) anos após a ocorrência do fato constatado. \nDessa forma, à luz dos Princípios do Direito Ambiental, da Políti ca \nNacional do Meio Ambiente – Lei nº 6938/81 e da jurisprudência \ndos Tribunais Superiores sobre a matéria, assinale a afirmativa \ncorreta.",
-      "alternativas": {
-        "A": "A situação narrada caracteriza infração ambiental, passível de \naplicação de sanções como a multa administrativa. Todavia, a \ndemanda de reparação civil daí decorrente exige não apenas \na ocorrência de infração, mas também que seja demonstrado \no dano efetivo, observado o prazo prescricional de 10 (dez) \nanos.",
-        "B": "Diante dos princípios da precaução e da prevenção e dado o  \nalto grau de risco que a atividade de despejo de efluentes \ncontaminados, sem qualquer tratamento, em rio com ponto \nde confluência com manancial de captação para \nabastecimento público representa para o meio ambiente e a \nsaúde humana, a ausência de nova pro va técnica pericial do \ndano na fase processual pela parte autora não inviabiliza o \nreconhecimento do dever de reparação ambiental.",
-        "C": "Eventual ausência de realização de perícia judicial, em razão \ndo grande tempo transcorrido para ajuizamento da ação e do \nfato de a empresa já ter finalizado suas atividades inviabiliza \no reconhecimento do dever de reparação ambiental. \nAdemais, houve perda do interesse de agir, diante do \nencerramento das atividades da empresa.",
-        "D": "A inversão do ônus da prova não se aplica à presente \nhipótese, tendo em vista que não há prova cabal da presença \nde tolueno ao longo do rio Beta. Assim, não é possível \nespecificar minimamente qual marca deletéria o despejo do \nefluente contaminado por tolueno impactou no ambiente de \nentorno e à saúde humana.",
-        "E": "Com base no ordenamento jurídico brasileiro, a regra geral é \na de que a pretensão de exigir a reparação dos danos seja \nsubmetida à prescrição. Portanto, a despeito de a \nConstituição e leis ordinárias não disporem acerca do prazo \nprescricional para a reparação de danos civis ambientais, os \ntribunais superiores entendem que vigora a regra da \nestipulação de prazo de 5 anos para pretensão em matéria \nambiental."
-      },
-      "gabarito_oficial": "C",
-      "formato": "MULTIPLA_ESCOLHA_5",
-      "target_file": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/15_nocoes_de_direito_administrativo/05_controle_da_administracao_e_improbidade_administrativa.md",
-      "target_section": "### 5.5 Regime Prescricional Geral e Intercorrente (Art. 23 da LIA)",
-      "status_integracao": "pendente"
-    },
-    {
       "id": "TRT-2024-FGV-Q39",
       "banca": "FGV",
       "orgao": "TCE-PA",
@@ -64032,27 +63891,6 @@
       "status_integracao": "pendente"
     },
     {
-      "id": "TRT-2024-FGV-Q61",
-      "banca": "FGV",
-      "orgao": "TCE-PA",
-      "ano": 2024,
-      "cargo": "Auditor de Controle Externo",
-      "numero_original": 61,
-      "enunciado": "A figura a seguir apresenta uma viga biapoiada com um trecho \nem balanço. \n\nNessa viga, o momento fletor, em módulo, no meio do vão AB \nvale:",
-      "alternativas": {
-        "A": "1,000kNm.",
-        "B": "1,225kNm.",
-        "C": "1,450kNm.",
-        "D": "1,675kNm.",
-        "E": "1,875kNm. \n\nAUDITOR DE CONTROLE EXTERNO – ÁREA ADMINISTRATIVA - ENGENHARIA CIVIL – MANHÃ  TIPO  BRANCA – PÁGINA 17"
-      },
-      "gabarito_oficial": "C",
-      "formato": "MULTIPLA_ESCOLHA_5",
-      "target_file": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/25_gestao_de_pessoas/02_treinamento_desenvolvimento_aprendizagem_e_gestao_do_conhecimento.md",
-      "target_section": "### 3. Gestão do Conhecimento Organizacional e o Modelo SECI",
-      "status_integracao": "pendente"
-    },
-    {
       "id": "TRT-2024-FGV-Q62",
       "banca": "FGV",
       "orgao": "TRT",
@@ -64113,69 +63951,6 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/04_engenharia_de_software/05_qualidade_testes_refatoracao_e_divida_tecnica.md",
       "target_section": "### 3.2 Testes de Desempenho: Carga vs. Estresse vs. Pico vs. Resistência",
-      "status_integracao": "pendente"
-    },
-    {
-      "id": "TRT-2024-FGV-Q65",
-      "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
-      "numero_original": 65,
-      "enunciado": "Um engenheiro projeta lajes maciças de concreto armado para o \npavimento-tipo de uma edificação. Parte da estrutura projetada é \napresentada na figura a seguir. \n\nNessa estrutura, as espessuras mínimas admitidas pela NBR \n6118:2023 para as lajes L1 e L2 valem, respectivamente,",
-      "alternativas": {
-        "A": "7cm e 8cm.",
-        "B": "7cm e 10cm.",
-        "C": "8cm e 8cm.",
-        "D": "8cm e 10cm.",
-        "E": "8cm e 12cm."
-      },
-      "gabarito_oficial": "E",
-      "formato": "MULTIPLA_ESCOLHA_5",
-      "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/06_engenharia_software_ia_e_sistemas_agentivos/01_fundamentos_llms_intent_based_e_engenharia_de_prompts.md",
-      "target_section": "### 2.3 Especificações Dirigidas por Comportamento (BDD) como Prompts Executáveis",
-      "status_integracao": "injetada"
-    },
-    {
-      "id": "TRT-2024-FGV-Q66",
-      "banca": "FGV",
-      "orgao": "TCE-PA",
-      "ano": 2024,
-      "cargo": "Auditor de Controle Externo",
-      "numero_original": 66,
-      "enunciado": "Uma viga biapoiada de concreto armado possui seção transversal \nretangular com 12cm de largura e 40cm de altura. Sabe -se que \nessa viga foi construída com concreto cuja resistência \ncaracterística à compressão é de 30MPa e que, no seu projeto, foi \nconsiderada armadura de flexão positiva mínima. \nAssim, uma possível construção dessa armadura se dá utilizando, \nminimamente,",
-      "alternativas": {
-        "A": "duas barras de bitola 5mm.",
-        "B": "duas barras de bitola 6,3mm.",
-        "C": "duas barras de bitola 8,0mm.",
-        "D": "três barras de bitola 8,0mm.",
-        "E": "duas barras de bitola 10,0mm. \n\nAUDITOR DE CONTROLE EXTERNO – ÁREA ADMINISTRATIVA - ENGENHARIA CIVIL – MANHÃ  TIPO  BRANCA – PÁGINA 18"
-      },
-      "gabarito_oficial": "B",
-      "formato": "MULTIPLA_ESCOLHA_5",
-      "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/05_desenvolvimento_de_sistemas/03_desenvolvimento_frontend_html_css_react_typescript.md",
-      "target_section": "### 1.2 Elementos Semânticos e Seccionamento de Conteúdo",
-      "status_integracao": "pendente"
-    },
-    {
-      "id": "TRT-2024-FGV-Q67",
-      "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
-      "numero_original": 67,
-      "enunciado": "Um engenheiro calcula as armaduras de um dos pilares de \nconcreto armado de uma edificação. Esse pilar possui seção \ntransversal quadrada de lado 20cm e altura total de 240cm. Além \ndisso, o projetista utiliza aço CA -50 para as armaduras e \nestabelece que a armadura longitudinal desse pilar será \ncomposta por barras de 10mm. \nAssim, de acordo com a NBR 6118:2023, a armadura transversal \nmínima para esse pilar será composta por",
-      "alternativas": {
-        "A": "11 barras com bitola 5,0mm.",
-        "B": "11 barras com bitola 6,3mm.",
-        "C": "12 barras com bitola 5,0mm.",
-        "D": "19 barras com bitola 5,0mm.",
-        "E": "19 barras com bitola 6,3mm."
-      },
-      "gabarito_oficial": "D",
-      "formato": "MULTIPLA_ESCOLHA_5",
-      "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/05_desenvolvimento_de_sistemas/03_desenvolvimento_frontend_html_css_react_typescript.md",
-      "target_section": "### 1.2 Elementos Semânticos e Seccionamento de Conteúdo",
       "status_integracao": "pendente"
     },
     {
@@ -64341,27 +64116,6 @@
       "status_integracao": "pendente"
     },
     {
-      "id": "TRT-2024-FGV-Q75",
-      "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
-      "numero_original": 75,
-      "enunciado": "A autodepuração dos corpos d’água é decorrente da associação \nde vários processos de natureza física, química e biológica. Nesse \nprocesso, há um balanço entre as fontes de consumo e de \nprodução de oxigênio. \nAssinale a opção que apresenta exemplos, respectivamente, de \nfenômenos interagentes no consumo e na produção de oxigênio \npara autodepuração.",
-      "alternativas": {
-        "A": "nitrificação e presença de fitoplânctons.",
-        "B": "nitrificação e demanda bentônica.",
-        "C": "fotossíntese e presença de fitoplânctons.",
-        "D": "reaeração da atmosfera e demanda bentônica.",
-        "E": "reaeração da atmosfera e fotossíntese."
-      },
-      "gabarito_oficial": "D",
-      "formato": "MULTIPLA_ESCOLHA_5",
-      "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/11_sistemas_operacionais_redes_e_nuvem/05_computacao_em_nuvem_modelos_serverless_e_hibridos.md",
-      "target_section": "### 4.1 Topologia Física Global: Regiões, Zonas de Disponibilidade (AZs) e Pontos de Presença",
-      "status_integracao": "pendente"
-    },
-    {
       "id": "TRT-2024-FGV-Q76",
       "banca": "FGV",
       "orgao": "TRT",
@@ -64422,27 +64176,6 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/05_desenvolvimento_de_sistemas/01_algoritmos_estruturas_de_dados_e_paradigmas.md",
       "target_section": "### 2.1 Estruturas Lineares: Vetores, Listas Encadeadas, Pilhas e Filas",
-      "status_integracao": "pendente"
-    },
-    {
-      "id": "TRT-2024-FGV-Q79",
-      "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
-      "numero_original": 79,
-      "enunciado": "A pintura de edificações requer alguns cuidados e um dos mais \nimportantes é a consideração do tipo e estado das superfícies \nque serão pintadas. \nNo caso da primeira pintura sobre reboco recém -executado em \numa parede de alvenaria em bom estado, o tempo mínimo a ser \nesperado para aplicação da tinta, com o objetivo de aguardar a \ncura e secagem do reboco, é de",
-      "alternativas": {
-        "A": "5 dias.",
-        "B": "7 dias.",
-        "C": "14 dias.",
-        "D": "21 dias.",
-        "E": "30 dias."
-      },
-      "gabarito_oficial": "A",
-      "formato": "MULTIPLA_ESCOLHA_5",
-      "target_file": "fontes_de_estudo/conhecimentos_gerais/02_matematica_e_raciocinio_logico/01_conjuntos_numericos_fracoes_e_aritmetica.md",
-      "target_section": "### 3.3 Mínimo Múltiplo Comum: Ciclos, Coincidências e Periodicidade",
       "status_integracao": "pendente"
     },
     {
@@ -64675,27 +64408,6 @@
       "target_file": "fontes_de_estudo/conhecimentos_gerais/03_legislacao_institucional/04_regime_juridico_servidores_e_pccr_leis_20756_e_15122.md",
       "target_section": "### 2.4 Estrutura Remuneratória e Vantagens Específicas do Tribunal",
       "status_integracao": "pendente"
-    },
-    {
-      "id": "TRT-2024-FGV-Q91",
-      "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
-      "numero_original": 91,
-      "enunciado": "A figura a seguir ilustra a execução de uma estaca que é indicada, \nem especial, em locais com restrição de pé direito ou dificuldade \nde acesso para equipamentos de grande porte. \n\n\nEsse tipo de estaca é denominada",
-      "alternativas": {
-        "A": "raiz.",
-        "B": "Franki.",
-        "C": "Strauss.",
-        "D": "tubulão.",
-        "E": "escavada."
-      },
-      "gabarito_oficial": "D",
-      "formato": "MULTIPLA_ESCOLHA_5",
-      "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/06_engenharia_software_ia_e_sistemas_agentivos/01_fundamentos_llms_intent_based_e_engenharia_de_prompts.md",
-      "target_section": "## 1. Modelos de Linguagem de Grande Porte (LLMs) no Desenvolvimento de Software",
-      "status_integracao": "injetada"
     },
     {
       "id": "TRT-2024-FGV-Q92",
@@ -66210,69 +65922,6 @@
       "status_integracao": "pendente"
     },
     {
-      "id": "TRT-2024-FGV-Q64",
-      "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
-      "numero_original": 64,
-      "enunciado": "A figura a seguir apresenta uma viga biengastada sob a ação de \numa carga concentrada no meio do seu vão. \n\nO máximo momento fletor nessa viga vale",
-      "alternativas": {
-        "A": "1,0kNm.",
-        "B": "2,0kNm.",
-        "C": "4,0kNm.",
-        "D": "8,0kNm.",
-        "E": "16,0kNm. \nAtenção: o enunciado a seguir refere -se às duas próximas \nquestões. \n\nA figura a seguir apresenta uma viga biapoiada com um trecho \nem balanço."
-      },
-      "gabarito_oficial": "E",
-      "formato": "MULTIPLA_ESCOLHA_5",
-      "target_file": "fontes_de_estudo/conhecimentos_gerais/01_lingua_portuguesa/07_redacao_oficial.md",
-      "target_section": "### 2.1 Princípio da Impessoalidade e Seus Três Desdobramentos",
-      "status_integracao": "pendente"
-    },
-    {
-      "id": "TRT-2024-FGV-Q65",
-      "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
-      "numero_original": 65,
-      "enunciado": "O valor da carga q para que, em módulo, o momento fletor  \nno ponto médio do vão AB seja igual ao momento fletor no ponto \nB é",
-      "alternativas": {
-        "A": "1,0kN/m.",
-        "B": "2,0kN/m.",
-        "C": "3,0kN/m.",
-        "D": "4,0kN/m.",
-        "E": "5,0kN/m."
-      },
-      "gabarito_oficial": "E",
-      "formato": "MULTIPLA_ESCOLHA_5",
-      "target_file": "fontes_de_estudo/conhecimentos_gerais/01_lingua_portuguesa/01_compreensao_e_interpretacao_de_texto.md",
-      "target_section": "### 7.1 Tabela de Transposição do Direto para o Indireto",
-      "status_integracao": "pendente"
-    },
-    {
-      "id": "TRT-2024-FGV-Q66",
-      "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
-      "numero_original": 66,
-      "enunciado": "Considerando que a viga possui seção transversal quadrada de \nlado 10cm e a carga q é igual a 5kN/m, a máxima tensão normal \nnessa viga vale",
-      "alternativas": {
-        "A": "24,0MPa.",
-        "B": "24,3MPa.",
-        "C": "48,0MPa.",
-        "D": "48,6MPa.",
-        "E": "72,0MPa."
-      },
-      "gabarito_oficial": "B",
-      "formato": "MULTIPLA_ESCOLHA_5",
-      "target_file": "fontes_de_estudo/conhecimentos_gerais/01_lingua_portuguesa/07_redacao_oficial.md",
-      "target_section": "### 2.1 Princípio da Impessoalidade e Seus Três Desdobramentos",
-      "status_integracao": "pendente"
-    },
-    {
       "id": "TRT-2024-FGV-Q67",
       "banca": "FGV",
       "orgao": "TRT",
@@ -66312,27 +65961,6 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_gerais/02_matematica_e_raciocinio_logico/05_logica_de_argumentacao_e_conclusoes_validas.md",
       "target_section": "### 2.3 Equivalências Notáveis da Condicional: Contrapositiva e Disjuntiva (NEYA)",
-      "status_integracao": "pendente"
-    },
-    {
-      "id": "TRT-2024-FGV-Q69",
-      "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
-      "numero_original": 69,
-      "enunciado": "As figuras a seguir apresentam dois ciclos termodinâmicos ideais, \nbaseando-se em diagramas T-s. \n\n(a) \n\n\n(b) \nOs ciclos (a) e (b) são utilizados para descrever o funcionamento \nde, respectivamente,",
-      "alternativas": {
-        "A": "turbinas a gás e turbinas a vapor.",
-        "B": "turbinas a vapor e turbinas a gás.",
-        "C": "turbinas a gás e motores à combustão.",
-        "D": "motores à combustão e turbinas a gás.",
-        "E": "turbinas a vapor e motores à combustão."
-      },
-      "gabarito_oficial": "C",
-      "formato": "MULTIPLA_ESCOLHA_5",
-      "target_file": "fontes_de_estudo/conhecimentos_gerais/01_lingua_portuguesa/02_ortografia_acentuacao_e_formacao_de_palavras.md",
-      "target_section": "### 5.4 Vogais e Consoantes de Ligação",
       "status_integracao": "pendente"
     },
     {
@@ -66603,69 +66231,6 @@
       "status_integracao": "injetada"
     },
     {
-      "id": "TRT-2024-FGV-Q82",
-      "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
-      "numero_original": 82,
-      "enunciado": "Com base na primeira lei da termodinâmica, é correto afirmar \nque",
-      "alternativas": {
-        "A": "a energia interna de um sistema aumenta de forma \nproporcional ao trabalho produzido por esse sistema.",
-        "B": "se a energia interna do sistema não varia, o trabalho \nproduzido por esse sistema é nulo.",
-        "C": "quando a energia interna do sistema aumenta, o calor que \nentra em um sistema é menor do que o trabalho que é \nproduzido por esse sistema.",
-        "D": "se a energia interna do sis tema não varia, a quantidade de \ncalor que entra no sistema é igual, em módulo, ao trabalho \nrealizado pelo sistema.",
-        "E": "o calor que entra em um sistema é inversamente \nproporcional ao trabalho que é produzido por esse sistema \nquando sua energia interna aumenta."
-      },
-      "gabarito_oficial": "C",
-      "formato": "MULTIPLA_ESCOLHA_5",
-      "target_file": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/22_administracao_geral/01_teorias_da_administracao_e_escolas_administrativas.md",
-      "target_section": "### 6. Teoria Geral dos Sistemas (TGS): A Organização como Sistema Aberto",
-      "status_integracao": "injetada"
-    },
-    {
-      "id": "TRT-2024-FGV-Q83",
-      "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
-      "numero_original": 83,
-      "enunciado": "A figura a seguir mostra alguns pontos no diagrama temperatura \n(T) - entropia (S) de um gás. \n\nO ciclo de Carnot é aquele que percorre o caminho:",
-      "alternativas": {
-        "A": "1 => 3 => 4 => 6 => 1.",
-        "B": "1 => 3 => 4 => 8 => 1.",
-        "C": "2 => 3 => 5 => 8 => 1.",
-        "D": "3 => 4 => 6 => 8 => 3.",
-        "E": "3 => 4 => 7 => 8 => 3."
-      },
-      "gabarito_oficial": "B",
-      "formato": "MULTIPLA_ESCOLHA_5",
-      "target_file": "fontes_de_estudo/conhecimentos_gerais/01_lingua_portuguesa/01_compreensao_e_interpretacao_de_texto.md",
-      "target_section": "### 6.3 Discurso Indireto Livre",
-      "status_integracao": "pendente"
-    },
-    {
-      "id": "TRT-2024-FGV-Q84",
-      "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
-      "numero_original": 84,
-      "enunciado": "Com relação aos motores de combustão interna, avalie se as \nafirmativas a seguir são verdadeiras (V) ou falsas (F). \n(   ) O fluido de trabalho realiza um ciclo termodinâmico \ncompleto. \n(   ) Durante um ciclo, a fase de compressão sucede a fase de \nadmissão e precede a fase de combustão. \n(   ) Verifica-se troca de calor entre reservatórios térmicos de alta \ne baixa temperatura. \nAs afirmativas são, respectivamente,",
-      "alternativas": {
-        "A": "F – V – F.",
-        "B": "F – V – V.",
-        "C": "V – V – F.",
-        "D": "F – F – V.",
-        "E": "V – F – F."
-      },
-      "gabarito_oficial": "D",
-      "formato": "MULTIPLA_ESCOLHA_5",
-      "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/12_governanca_de_ti/04_contratacoes_de_tic_lei_14133_2021.md",
-      "target_section": "## 2. O Ciclo de Vida da Contratação e a Fase Preparatória",
-      "status_integracao": "pendente"
-    },
-    {
       "id": "TRT-2024-FGV-Q85",
       "banca": "FGV",
       "orgao": "TRT",
@@ -66804,27 +66369,6 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_gerais/03_legislacao_institucional/02_lei_organica_tce_go_lei_16168_2007.md",
       "target_section": "### 2.2 Fiscalização de Atos de Admissão, Concessão de Aposentadorias e Pensões",
-      "status_integracao": "pendente"
-    },
-    {
-      "id": "TRT-2024-FGV-Q91",
-      "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
-      "numero_original": 91,
-      "enunciado": "Com relação aos fatores de perda de eficiência em uma máquina \ntérmica, analise as afirmativas a seguir. \nI. A eficiência é tão maior quando menor for o trabalho \nrealizado pela máquina, para um mesmo valor de calor \nrecebido da fonte quente. \nII. A eficiência térmica em um ciclo combustível -ar aumenta \nquanto maior for a razão de compressão. \nIII. Quando a razão combustível -ar aumenta, há um aumento de \neficiência do ciclo. \nEstá correto o que se afirma em",
-      "alternativas": {
-        "A": "I, apenas.",
-        "B": "II, apenas.",
-        "C": "III, apenas.",
-        "D": "II e III, apenas.",
-        "E": "I, II e III."
-      },
-      "gabarito_oficial": "D",
-      "formato": "MULTIPLA_ESCOLHA_5",
-      "target_file": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/15_nocoes_de_direito_administrativo/01_regime_juridico_principios_e_lindb.md",
-      "target_section": "### 3.5 Princípio da Eficiência (Emenda Constitucional nº 19/1998)",
       "status_integracao": "pendente"
     },
     {
@@ -72513,48 +72057,6 @@
       "status_integracao": "pendente"
     },
     {
-      "id": "TRT-2025-FGV-Q66",
-      "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2025,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
-      "numero_original": 66,
-      "enunciado": "Um segurado com 55 anos de idade pretende receber uma renda \nvitalícia após os 60 anos de idade. A renda anual postecipada \ndesejada é de R$ 100.000. \nIdade qx px lx Dx Nx Mx \n55 0,002449 0,997551 96.727,44 19.032,78 392.941,47 7.072,81 \n56 0,002691 0,997309 96.467,14 18.428,70 373.908,68 7.026,19 \n57 0,002957 0,997043 96.181,89 17.839,04 355.479,98 6.976,59 \n58 0,003250 0,996750 95.869,32 17.263,17 337.640,94 6.923,85 \n59 0,003572 0,996428 95.526,85 16.700,49 320.377,76 6.867,74 \n60 0,003927 0,996073 95.151,75 16.150,40 303.677,27 6.808,09 \n61 0,004317 0,995683 94.740,98 15.612,31 287.526,87 6.744,67 \nAssinale a opção que indica o valor aproximado (R$) do prêmio à \nvista calculado com base nas comutações atuariais fornecidas.",
-      "alternativas": {
-        "A": "R$ 35.437",
-        "B": "R$ 35.770",
-        "C": "R$ 117.847",
-        "D": "R$ 1.510.693",
-        "E": "R$ 1.595.549"
-      },
-      "gabarito_oficial": "B",
-      "formato": "MULTIPLA_ESCOLHA_5",
-      "target_file": "fontes_de_estudo/conhecimentos_gerais/03_legislacao_institucional/01_bases_constitucionais_cf88_e_ce_go.md",
-      "target_section": "### 3.3 Requisitos Constitucionais para a Investidura de Conselheiro",
-      "status_integracao": "pendente"
-    },
-    {
-      "id": "TRT-2025-FGV-Q67",
-      "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2025,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
-      "numero_original": 67,
-      "enunciado": "Na construção de uma tábua biométrica de serviço sujeita aos \ndecrementos de invalidez e morte, de válidos e inválidos, utilizou-\nse o Método de Hamza com \n2\nx\ni\nxx\nai qiq •= , a fim de se \ndeterminar o número de segurados inválidos para o cálculo de \numa renda. \nSegundo a notação atuarial, se\nx\nii\nx\naa\nx lll +=  e \n00 =\nii\nl , então \npodemos definir \n1+x\nii\nl como:",
-      "alternativas": {
-        "A": "x\ni\nx\nii\nx\ni\nxx\naa\nplqil •+\n\n\n\n\n\n\n\n\n−•• 21",
-        "B": "x\ni\nx\nii\nx\ni\nxx\naa\nplqil •+\n\n −•• 1",
-        "C": "x\ni\nx\nii\nx\ni\nxx\nii\nplqil •+\n\n\n\n\n\n\n\n\n−•• 21",
-        "D": "x\ni\nx\nii\nx\ni\nxx\nii\nplqil •+\n\n −•• 1",
-        "E": "x\naa\nx ll −"
-      },
-      "gabarito_oficial": "B",
-      "formato": "MULTIPLA_ESCOLHA_5",
-      "target_file": "fontes_de_estudo/conhecimentos_gerais/02_matematica_e_raciocinio_logico/03_estruturas_logicas_e_associacao.md",
-      "target_section": "### 5.2 Condições Necessárias, Suficientes e Redundantes",
-      "status_integracao": "pendente"
-    },
-    {
       "id": "TRT-2025-FGV-Q68",
       "banca": "FGV",
       "orgao": "TRT",
@@ -72594,27 +72096,6 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_gerais/02_matematica_e_raciocinio_logico/01_conjuntos_numericos_fracoes_e_aritmetica.md",
       "target_section": "### 3.3 Mínimo Múltiplo Comum: Ciclos, Coincidências e Periodicidade",
-      "status_integracao": "pendente"
-    },
-    {
-      "id": "TRT-2025-FGV-Q70",
-      "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2025,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
-      "numero_original": 70,
-      "enunciado": "No parecer de uma avaliação atuarial, um Atuário afirma que “...o \ndéficit decorre de fatores decorrentes de oscilações econômicas e \nflutuações momentâneas nos retornos dos ativos, mas não reflete \num desequilíbrio no modelo atuarial ou nas premissas do plano. \nCom a normalização das co ndições de mercado e a recuperação \ndos investimentos, espera-se que o plano retorne ao equilíbrio...” \nNesse caso, a melhor definição para a situação do resultado do \nplano é de",
-      "alternativas": {
-        "A": "desequilíbrio atuarial conjuntural.",
-        "B": "desequilíbrio atuarial estrutural.",
-        "C": "desequilíbrio atuarial financeiro.",
-        "D": "equilíbrio atuarial.",
-        "E": "especulação financeira."
-      },
-      "gabarito_oficial": "B",
-      "formato": "MULTIPLA_ESCOLHA_5",
-      "target_file": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/19_nocoes_de_administracao_financeira_e_orcamentaria/02_receita_publica_estagios_fontes_e_classificacoes.md",
-      "target_section": "### 4. Regras Fiscais Restritivas da Receita e a LRF",
       "status_integracao": "pendente"
     },
     {
@@ -74697,27 +74178,6 @@
       "status_integracao": "pendente"
     },
     {
-      "id": "TRT-2024-FGV-Q73",
-      "banca": "FGV",
-      "orgao": "TCE-PA",
-      "ano": 2024,
-      "cargo": "Auditor de Controle Externo",
-      "numero_original": 73,
-      "enunciado": "Após avaliação atuarial, foi detectado que o regime próprio de \nprevidência social do Estado Alfa apresentava déficit atuarial. \nEntre as medidas sugeridas para a superação desse quadro estava \na realização de aportes pelo Poder Público.  \nApós amplos debates entre críticos e apoiadores dessa medida, \nconcluiu-se corretamente, à luz da Portaria MTP nº 1.467/2022, \nque o referido aporte",
-      "alternativas": {
-        "A": "é expressamente vedado, considerando que o equilíbrio \natuarial deve ser obtido a partir do reequilíbrio entre \ncontribuições e benefícios.",
-        "B": "não pode ser utilizado para fins de aplicação no mercado \nfinanceiro e de capitais, devendo ser segmentado em conta \nprópria e movimentado nos períodos preestabelecidos.",
-        "C": "deve ser realizado em valores mensais preestabelecidos, e os \nrespectivos recursos devem ser objeto de gestão e controle \nde forma segregada dos demais recursos previdenciários.",
-        "D": "caso realizado, deve ter origem exclusiva no Tesouro \nEstadual, não abrangendo todos os poderes, órgãos e \nentidades que possuem segurados e beneficiários do regime.",
-        "E": "pode ser realizado, ou não, conforme a liberdade valorativa \ndo Chefe do Poder Executivo, enquanto agente responsável \npela supervisão do sistema, não dependendo de previsão \nlegal. \n\nAUDITOR DE CONTROLE EXTERNO - FISCALIZAÇÃO - CIÊNCIAS ATUARIAIS – MANHÃ  TIPO  BRANCA – PÁGINA 18"
-      },
-      "gabarito_oficial": "C",
-      "formato": "MULTIPLA_ESCOLHA_5",
-      "target_file": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/16_licitacoes_e_contratos_administrativos/04_contratos_administrativos_fiscalizacao_alteracoes_e_sancoes.md",
-      "target_section": "### 4. Gestão, Fiscalização e Responsabilidade Trabalhista do Estado",
-      "status_integracao": "pendente"
-    },
-    {
       "id": "TRT-2024-FGV-Q74",
       "banca": "FGV",
       "orgao": "TRT",
@@ -74781,27 +74241,6 @@
       "status_integracao": "pendente"
     },
     {
-      "id": "TRT-2024-FGV-Q77",
-      "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
-      "numero_original": 77,
-      "enunciado": "Segundo a notação utilizada pelo atuário em nota técnica \natuarial, a anuidade atuarial a(65,0,15) representa um \npagamento unitário antecipado temporário por 15 anos para um \nindivíduo de 65 anos. Já a anuidade atuarial a(65,1,15) representa \num pagamento unitário postecipado temporário por 15 anos para \num indivíduo de 65 anos.  \nDessa forma, a(65,0,w -65) equivale, segundo a notação atuarial \ninternacional, a:",
-      "alternativas": {
-        "A": "ä65.",
-        "B": "a66.",
-        "C": "A65.",
-        "D": "A66.",
-        "E": "ew."
-      },
-      "gabarito_oficial": "A",
-      "formato": "MULTIPLA_ESCOLHA_5",
-      "target_file": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/17_nocoes_de_direito_constitucional/03_organizacao_do_estado_e_reparticao_de_competencias.md",
-      "target_section": "### 3. Mecanismos Excepcionais de Equilíbrio: Intervenção Federal e Estadual",
-      "status_integracao": "pendente"
-    },
-    {
       "id": "TRT-2024-FGV-Q78",
       "banca": "FGV",
       "orgao": "TRT",
@@ -74842,153 +74281,6 @@
       "target_file": "fontes_de_estudo/conhecimentos_gerais/03_legislacao_institucional/01_bases_constitucionais_cf88_e_ce_go.md",
       "target_section": "### 3.3 Requisitos Constitucionais para a Investidura de Conselheiro",
       "status_integracao": "pendente"
-    },
-    {
-      "id": "TRT-2024-FGV-Q80",
-      "banca": "FGV",
-      "orgao": "TCE-PA",
-      "ano": 2024,
-      "cargo": "Auditor de Controle Externo",
-      "numero_original": 80,
-      "enunciado": "Observe as comutações tabuladas a seguir:  \nX lx dx \n0 100.000 ? \n1 98.740 92 \n? ? ? \n3 98.548 49 \nNesse caso, podemos afirmar que o número de vivos aos quatro \nanos de idade é igual a:",
-      "alternativas": {
-        "A": "100.",
-        "B": "1.260.",
-        "C": "98.499.",
-        "D": "98.548.",
-        "E": "98.648. \n\nAUDITOR DE CONTROLE EXTERNO - FISCALIZAÇÃO - CIÊNCIAS ATUARIAIS – MANHÃ  TIPO  BRANCA – PÁGINA 19"
-      },
-      "gabarito_oficial": "A",
-      "formato": "MULTIPLA_ESCOLHA_5",
-      "target_file": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/18_nocoes_de_controle_externo/02_instrumentos_e_tipos_de_auditoria_governamental_nbasp.md",
-      "target_section": "### 4. Postura e Conduta Profissional do Auditor (NBASP 100)",
-      "status_integracao": "pendente"
-    },
-    {
-      "id": "TRT-2024-FGV-Q81",
-      "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
-      "numero_original": 81,
-      "enunciado": "Conforme a notação atuarial de Hans-Ulrich Gerber, um segurado \ncontrata um seguro dotal puro aos x anos de idade para que \nreceba um pagamento único de R$ 100.000,00 quando completar \nx+k anos de idade.  \nNesse caso, o valor do prêmio pago à vista não pode ser \ncalculado como",
-      "alternativas": {
-        "A": "100.000 * Ax:k",
-        "B": "100.000 * kEx",
-        "C": "100.000 * (1+i)-k * (lx+k / lx)",
-        "D": "100.000 * (1+i)-k * kpx",
-        "E": "100.000 * Dx+k / Dx"
-      },
-      "gabarito_oficial": "A",
-      "formato": "MULTIPLA_ESCOLHA_5",
-      "target_file": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/15_nocoes_de_direito_administrativo/04_servicos_publicos_bens_e_responsabilidade_civil.md",
-      "target_section": "### 2.4 Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)",
-      "status_integracao": "pendente"
-    },
-    {
-      "id": "TRT-2024-FGV-Q82",
-      "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
-      "numero_original": 82,
-      "enunciado": "Considere uma anuidade vitalícia imediata que paga 1 unidade \nmonetária no início de cada ano enquanto o beneficiário estiver \nvivo. Suponha que a taxa de juros efetiva anual seja de 5% e que \nessa anuidade tenha valor aproximadamente igual a 16,33 para a \nidade de 75 anos em uma determinada tábua biométrica estática. \nSuponha que uma nova versão geracional dessa tábua seja \nproposta, porém com taxas de desagravamento desconhecidas.  \nCom a utilização dessa nova tábua geracional, o valor máximo \nque a anuidade pode assumir é",
-      "alternativas": {
-        "A": "16,33.",
-        "B": "17,15.",
-        "C": "18,00.",
-        "D": "20,00.",
-        "E": "21,00."
-      },
-      "gabarito_oficial": "B",
-      "formato": "MULTIPLA_ESCOLHA_5",
-      "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/10_seguranca_da_informacao/01_principios_gestao_de_riscos_e_normas_iso_27000.md",
-      "target_section": "### 3.2 Análise Qualitativa vs. Análise Quantitativa (SLE, ARO e ALE)",
-      "status_integracao": "pendente"
-    },
-    {
-      "id": "TRT-2024-FGV-Q83",
-      "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
-      "numero_original": 83,
-      "enunciado": "Em uma avaliação atuarial, o valor presente atuarial foi calculado, \nem milhões de R$, chegando-se a:  \n- Aposentadorias a conceder: 500;  \n- Aposentadorias concedidas: 400;  \n- Pensões a conceder: 300;  \n- Pensões concedidas: 200;  \n- Contribuições de ativos, aposentados e pensionistas: 100.  \nSe todos os benefícios são financiados pelo regime financeiro de \ncapitalização pelo método Agregado, o valor do ativo garantidor, \nem milhões de R$, que leva ao equilíbrio atuarial é",
-      "alternativas": {
-        "A": "700.",
-        "B": "800.",
-        "C": "1.100.",
-        "D": "1.300.",
-        "E": "1.400."
-      },
-      "gabarito_oficial": "C",
-      "formato": "MULTIPLA_ESCOLHA_5",
-      "target_file": "fontes_de_estudo/conhecimentos_gerais/03_legislacao_institucional/02_lei_organica_tce_go_lei_16168_2007.md",
-      "target_section": "### 2.2 Fiscalização de Atos de Admissão, Concessão de Aposentadorias e Pensões",
-      "status_integracao": "pendente"
-    },
-    {
-      "id": "TRT-2024-FGV-Q84",
-      "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
-      "numero_original": 84,
-      "enunciado": "Sobre a probabilidade kpx , para x > 0, é correto afirmar que",
-      "alternativas": {
-        "A": "é igual a zero, para x = 120 e k = 1.",
-        "B": "é igual a [s(x+k) – s(x)] / s(x).",
-        "C": "é uma função decrescente, para k = 1, ∀ x > 0.",
-        "D": "é uma probabilidade condicional.",
-        "E": "tende a 1 quando k tende a infinito."
-      },
-      "gabarito_oficial": "D",
-      "formato": "MULTIPLA_ESCOLHA_5",
-      "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/05_desenvolvimento_de_sistemas/01_algoritmos_estruturas_de_dados_e_paradigmas.md",
-      "target_section": "### 1.3 Análise Assintótica e a Notação Big-O",
-      "status_integracao": "pendente"
-    },
-    {
-      "id": "TRT-2024-FGV-Q85",
-      "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
-      "numero_original": 85,
-      "enunciado": "Considerando uma pessoa de idade x e outra de idade y, a \nprobabilidade de pelo menos uma delas morrer após “n” anos e \ndentro dos “m” anos seguintes, representada pela notação \natuarial n/m Qxy é",
-      "alternativas": {
-        "A": "Qxy * npxy",
-        "B": "Qxy * mpxy",
-        "C": "n/m Qx * npxy + n/m Qy * npxy",
-        "D": "mQx+n * npx + mQy+n * npy",
-        "E": "1- n+mpxy"
-      },
-      "gabarito_oficial": "D",
-      "formato": "MULTIPLA_ESCOLHA_5",
-      "target_file": "fontes_de_estudo/conhecimentos_gerais/03_legislacao_institucional/01_bases_constitucionais_cf88_e_ce_go.md",
-      "target_section": "### 3.3 Requisitos Constitucionais para a Investidura de Conselheiro",
-      "status_integracao": "pendente"
-    },
-    {
-      "id": "TRT-2024-FGV-Q86",
-      "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
-      "numero_original": 86,
-      "enunciado": "Com relação às tábuas biométricas e às funções de comutação \natuarial, é correto afirmar que",
-      "alternativas": {
-        "A": "a função l x é derivada da tábua biométrica e representa o \nnúmero esperado de sobreviventes de uma população, \npreservando uma relação de monotonicidade não -\ndecrescente.",
-        "B": "as comutações derivam das tábuas biométricas e fornecem \numa estimativa do valor esperado para a inflação futura, \nembutida na taxa de juros utilizada.",
-        "C": "as comutações podem embutir taxas de juros reais variáveis \npor uma estrutura a termo da taxa de juros.",
-        "D": "as comutações são usadas para simplificar os cálculos \natuariais, permitindo a derivação de valores presentes de \nbenefícios futuros e prêmios, baseando -se em tábuas de \nmortalidade e taxas de juros.",
-        "E": "com as tábuas biométricas e taxa de juros eleitas, mas sem a \nutilização das funções de comutação, não é possível o Atuário \nrealizar os cálculos atuariais."
-      },
-      "gabarito_oficial": "A",
-      "formato": "MULTIPLA_ESCOLHA_5",
-      "target_file": "fontes_de_estudo/conhecimentos_especificos_b02_ti/06_engenharia_software_ia_e_sistemas_agentivos/03_ciclo_de_vida_assistido_geracao_testes_e_depuracao.md",
-      "target_section": "### 1.2 Síntese de Algoritmos Complexos e Regras de Negócio",
-      "status_integracao": "injetada"
     },
     {
       "id": "TRT-2024-FGV-Q87",
@@ -75117,26 +74409,6 @@
       "status_integracao": "pendente"
     },
     {
-      "id": "TRT-2024-FGV-Q93",
-      "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
-      "numero_original": 93,
-      "enunciado": "Os termos Avaliação Atuarial, Nota Técnica Atuarial, \nDemonstrativo de Resultados da Avaliação Atuarial, Parecer \nAtuarial e Auditoria Atuarial envolvem conceitos \ninterdependentes.  \nEm relação ao tema, assinale a afirmativa correta.",
-      "alternativas": {
-        "A": "A Avaliação Atuarial é um relatório político e subjetivo, que \nenvolve a análise de premissas atuariais, econômicas, \nfinanceiras e administrativas, com o objetivo de determinar a \nsolvência do plano e identificar possíveis ajustes necessários \npara manter o equilíbrio financeiro e atuarial.",
-        "B": "A Nota Técnica Atuarial é um documento técnico e objetivo, \nque detalha as premissas, métodos e procedimentos \nutilizados na Avaliação Atuarial de um plano, fornecendo uma \nbase transparente e rigorosa para a explicação e possível \nreplicagem dos cálculos, devendo também ser distinta por \nfundo em Repartição e fundo em Capitalização, em caso de \nsegregação da massa.(C) O Demonstrativo de Resultados da \nAvaliação Atuarial inclui informações sobre a situação \nfinanceira do plano de previdência, incluindo ativos, passivos, \ncontribuições e benefícios, bem como quaisquer déficits ou \nsuperávits identificados, fornecendo uma visão clara da \nsolvência de curto prazo.",
-        "D": "O Parecer Atuarial é um documento que contém a opinião \ntécnica profissional do atuário a fim de fundamentar decisões \njudiciais ou arbitrais, fornecendo uma base técnica sólida e \nimparcial para a resolução de disputas envolvendo questões \nfinanceiras e atuariais.",
-        "E": "O relatório de Auditoria Atuarial é realizado pelo membro \nresponsável da equipe de Avaliação Atuarial, que é um \nprofissional especializado na avaliação das práticas atuariais \nem conformidade com as normas e regulamentações \nvigentes."
-      },
-      "gabarito_oficial": "C",
-      "formato": "MULTIPLA_ESCOLHA_4",
-      "target_file": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/18_nocoes_de_controle_externo/03_planejamento_amostragem_procedimentos_e_achados.md",
-      "target_section": "### 1. Planejamento da Fiscalização e Avaliação de Risco",
-      "status_integracao": "pendente"
-    },
-    {
       "id": "TRT-2024-FGV-Q94",
       "banca": "FGV",
       "orgao": "TRT",
@@ -75176,69 +74448,6 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/21_nocoes_de_administracao_publica/04_planejamento_estrategico_indicadores_e_gestao_por_competencias.md",
       "target_section": "### 4. Indicadores de Desempenho e Métodos de Avaliação Funcional",
-      "status_integracao": "pendente"
-    },
-    {
-      "id": "TRT-2024-FGV-Q96",
-      "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
-      "numero_original": 96,
-      "enunciado": "Segundo a Portaria MTP nº 1.467/2022, as contribuições normais \ne as suplementares e aportes destinados ao equacionamento do \ndéficit atuarial, legalmente instituídos, inclusive seus encargos \nlegais, devidos pelo ente federativo e não repassadas à unidade \ngestora do Regime Próprio até o seu vencimento, depois de \napurados e confessados, pode ser objeto de Termo de Acordo de \nparcelamento para pagamento em moeda corrente, assegurado o \nequilíbrio financeiro e atuarial do regime e observados, no \nmínimo, o seguinte critério:",
-      "alternativas": {
-        "A": "admite-se o reparcelamento de débitos, parcelados \nanteriormente, mediante autorização em lei específica, \nobservados ainda parâmetros adicionais.",
-        "B": "aplicação de correção equivalente ao índice oficial de \natualização acrescido da meta atuarial utilizada na avaliação \natuarial do Regime Próprio quando da celebração do Termo.",
-        "C": "autorização em lei específica do ente federativo.",
-        "D": "previsão, em cada Termo de Acordo, do número máximo de \n180 (cento e oitenta) prestações mensais, iguais e sucessivas.",
-        "E": "vedação de inclusão de débitos não decorrentes de \ncontribuições previdenciárias."
-      },
-      "gabarito_oficial": "E",
-      "formato": "MULTIPLA_ESCOLHA_5",
-      "target_file": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/19_nocoes_de_administracao_financeira_e_orcamentaria/04_creditos_adicionais_e_divida_publica.md",
-      "target_section": "### 4. Regime Jurídico da Dívida Pública: Flutuante vs. Fundada (Consolidada)",
-      "status_integracao": "injetada"
-    },
-    {
-      "id": "TRT-2024-FGV-Q97",
-      "banca": "FGV",
-      "orgao": "TCE-PA",
-      "ano": 2024,
-      "cargo": "Auditor de Controle Externo",
-      "numero_original": 97,
-      "enunciado": "Segundo a Portaria MTP nº 1.467/2022, a premissa ou hipótese \natuarial que pode ser utilizada em uma avaliação atuarial para \num regime próprio de previdência social é a",
-      "alternativas": {
-        "A": "tábua biométrica CSO -58 para taxa de sobrevivência de \nválidos.",
-        "B": "tábua biométrica Alvaro Vindas desagravada para a taxa de \nentrada em invalidez.",
-        "C": "taxa de crescimento da remuneração de 0,5% ao ano acima \nda inflação.",
-        "D": "taxa de juros real de 7% ao ano para a meta atuarial.",
-        "E": "taxa de rotatividade de 1% a cada ano de projeção. \n\nAUDITOR DE CONTROLE EXTERNO - FISCALIZAÇÃO - CIÊNCIAS ATUARIAIS – MANHÃ  TIPO  BRANCA – PÁGINA 22"
-      },
-      "gabarito_oficial": "D",
-      "formato": "MULTIPLA_ESCOLHA_5",
-      "target_file": "fontes_de_estudo/conhecimentos_gerais/02_matematica_e_raciocinio_logico/02_proporcoes_regra_de_tres_e_porcentagem.md",
-      "target_section": "### 4.4 Diferença entre Pontos Percentuais e Variação Percentual",
-      "status_integracao": "pendente"
-    },
-    {
-      "id": "TRT-2024-FGV-Q98",
-      "banca": "FGV",
-      "orgao": "TRT",
-      "ano": 2024,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
-      "numero_original": 98,
-      "enunciado": "A Lei 9.717, de 27/11/1998, que dispõe sobre regras dos regimes \npróprios dos servidores públicos, afirma que obrigatoriamente \nserá realizada",
-      "alternativas": {
-        "A": "auditoria atuarial anual.",
-        "B": "avaliação atuarial anual.",
-        "C": "avaliação atuarial e auditoria atuarial.",
-        "D": "avaliação atuarial anual e auditoria atuarial a cada dois anos.",
-        "E": "avaliação atuarial a cada dois anos e auditoria atuarial a cada \ncinco anos."
-      },
-      "gabarito_oficial": "C",
-      "formato": "MULTIPLA_ESCOLHA_5",
-      "target_file": "fontes_de_estudo/conhecimentos_especificos_a01_tecnico_administrativo/19_nocoes_de_administracao_financeira_e_orcamentaria/02_receita_publica_estagios_fontes_e_classificacoes.md",
-      "target_section": "### 4. Regras Fiscais Restritivas da Receita e a LRF",
       "status_integracao": "pendente"
     },
     {
@@ -77447,27 +76656,6 @@
       "status_integracao": "pendente"
     },
     {
-      "id": "TRTDA24REGIO-2025-FGV-Q04",
-      "banca": "FGV",
-      "orgao": "TRT-DA 24-REGIÃO",
-      "ano": 2025,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
-      "numero_original": 4,
-      "enunciado": "Leia o segmento a seguir. \nO colibri é um pequeno exemplo da colaboração dos pássaros \nnessa tarefa. Ele é um importante agente polinizador. Voando a \numa velocidade de quase 50km por hora, cada espécie de beija-flor \nvisita uma grande quantidade de flores em busca de néctar e \ninsetos. \nSobre esse segmento, assinale a afirmativa correta.",
-      "alternativas": {
-        "A": "O termo nessa tarefa  se refere a uma tarefa citada na \nsequência do texto.",
-        "B": "O segundo período explica o período anterior.",
-        "C": "A abreviatura 50km deveria estar grafada 50 kms.",
-        "D": "O adjetivo pequeno refere-se ao tamanho diminuto do pássaro \ncitado.",
-        "E": "O adjetivo polinizador aparece explicado no próprio parágrafo."
-      },
-      "gabarito_oficial": "B",
-      "formato": "MULTIPLA_ESCOLHA_5",
-      "target_file": "fontes_de_estudo/conhecimentos_gerais/01_lingua_portuguesa/01_compreensao_e_interpretacao_de_texto.md",
-      "target_section": "### 9.2 Figuras de Pensamento",
-      "status_integracao": "pendente"
-    },
-    {
       "id": "TRTDA24REGIO-2025-FGV-Q05",
       "banca": "FGV",
       "orgao": "TRT-DA 24-REGIÃO",
@@ -77549,27 +76737,6 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_gerais/01_lingua_portuguesa/01_compreensao_e_interpretacao_de_texto.md",
       "target_section": "### 8.1 Paráfrase",
-      "status_integracao": "pendente"
-    },
-    {
-      "id": "TRTDA24REGIO-2025-FGV-Q09",
-      "banca": "FGV",
-      "orgao": "TRT-DA 24-REGIÃO",
-      "ano": 2025,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
-      "numero_original": 9,
-      "enunciado": "As frases que transmitem um conceito relativo suscitam dúvidas, \nhesitações; entram em cena as opiniões e os pontos de vista \ndiferentes e conflitantes. \nAssinale a opção que apresenta a frase que está nesse caso.",
-      "alternativas": {
-        "A": "Atrás de cada criatura do universo existe um segredo muito \nsimples: todas as espécies trabalham para proteger o nosso \nmeio ambiente.",
-        "B": "O colibri é um pequeno exemplo da colaboração dos pássaros \nnessa tarefa.",
-        "C": "Ele é um importante agente polinizador. Voando a uma \nvelocidade de quase 50km por hora, cada espécie de beija-flor \nvisita uma grande quantidade de flores em busca de néctar e \ninsetos.",
-        "D": "Essa ave presta também um grande serviço à medicina. Sem a \nsua ajuda as lobeliáceas não se poderiam reproduzir.",
-        "E": "Dessa belíssima planta de flores azuis se extrai a lobelina, \nusada como ressuscitador na insuficiência respiratória e no \ncolapso periférico."
-      },
-      "gabarito_oficial": "C",
-      "formato": "MULTIPLA_ESCOLHA_5",
-      "target_file": "fontes_de_estudo/conhecimentos_gerais/01_lingua_portuguesa/01_compreensao_e_interpretacao_de_texto.md",
-      "target_section": "### 4.1 Tese e Estrutura do Texto Argumentativo",
       "status_integracao": "pendente"
     },
     {
@@ -78707,27 +77874,6 @@
       "status_integracao": "pendente"
     },
     {
-      "id": "TRTDA24REGIO-2025-FGV-Q04",
-      "banca": "FGV",
-      "orgao": "TRT-DA 24-REGIÃO",
-      "ano": 2025,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
-      "numero_original": 4,
-      "enunciado": "Leia o segmento a seguir. \nO colibri é um pequeno exemplo da colaboração dos pássaros \nnessa tarefa. Ele é um importante agente polinizador. Voando a \numa velocidade de quase 50km por hora, cada espécie de beija-flor \nvisita uma grande quantidade de flores em busca de néctar e \ninsetos. \nSobre esse segmento, assinale a afirmativa correta.",
-      "alternativas": {
-        "A": "O termo nessa tarefa  se refere a uma tarefa citada na \nsequência do texto.",
-        "B": "O segundo período explica o período anterior.",
-        "C": "A abreviatura 50km deveria estar grafada 50 kms.",
-        "D": "O adjetivo pequeno refere-se ao tamanho diminuto do pássaro \ncitado.",
-        "E": "O adjetivo polinizador aparece explicado no próprio parágrafo."
-      },
-      "gabarito_oficial": "B",
-      "formato": "MULTIPLA_ESCOLHA_5",
-      "target_file": "fontes_de_estudo/conhecimentos_gerais/01_lingua_portuguesa/01_compreensao_e_interpretacao_de_texto.md",
-      "target_section": "### 9.2 Figuras de Pensamento",
-      "status_integracao": "pendente"
-    },
-    {
       "id": "TRTDA24REGIO-2025-FGV-Q05",
       "banca": "FGV",
       "orgao": "TRT-DA 24-REGIÃO",
@@ -78809,27 +77955,6 @@
       "formato": "MULTIPLA_ESCOLHA_5",
       "target_file": "fontes_de_estudo/conhecimentos_gerais/01_lingua_portuguesa/01_compreensao_e_interpretacao_de_texto.md",
       "target_section": "### 8.1 Paráfrase",
-      "status_integracao": "pendente"
-    },
-    {
-      "id": "TRTDA24REGIO-2025-FGV-Q09",
-      "banca": "FGV",
-      "orgao": "TRT-DA 24-REGIÃO",
-      "ano": 2025,
-      "cargo": "Analista Judiciário - Tecnologia da Informação",
-      "numero_original": 9,
-      "enunciado": "As frases que transmitem um conceito relativo suscitam dúvidas, \nhesitações; entram em cena as opiniões e os pontos de vista \ndiferentes e conflitantes. \nAssinale a opção que apresenta a frase que está nesse caso.",
-      "alternativas": {
-        "A": "Atrás de cada criatura do universo existe um segredo muito \nsimples: todas as espécies trabalham para proteger o nosso \nmeio ambiente.",
-        "B": "O colibri é um pequeno exemplo da colaboração dos pássaros \nnessa tarefa.",
-        "C": "Ele é um importante agente polinizador. Voando a uma \nvelocidade de quase 50km por hora, cada espécie de beija-flor \nvisita uma grande quantidade de flores em busca de néctar e \ninsetos.",
-        "D": "Essa ave presta também um grande serviço à medicina. Sem a \nsua ajuda as lobeliáceas não se poderiam reproduzir.",
-        "E": "Dessa belíssima planta de flores azuis se extrai a lobelina, \nusada como ressuscitador na insuficiência respiratória e no \ncolapso periférico."
-      },
-      "gabarito_oficial": "C",
-      "formato": "MULTIPLA_ESCOLHA_5",
-      "target_file": "fontes_de_estudo/conhecimentos_gerais/01_lingua_portuguesa/01_compreensao_e_interpretacao_de_texto.md",
-      "target_section": "### 4.1 Tese e Estrutura do Texto Argumentativo",
       "status_integracao": "pendente"
     },
     {
