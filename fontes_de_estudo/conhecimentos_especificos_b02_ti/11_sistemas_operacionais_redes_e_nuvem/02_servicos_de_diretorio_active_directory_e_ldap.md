@@ -116,61 +116,50 @@ O protocolo LDAP define um conjunto de operações primitivas:
 ---
 
 ### Teste 421
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-O Lightweight Directory Access Protocol (LDAP) é o protocolo padrão da indústria utilizado para consulta e modificação de serviços de diretório hierárquicos em redes corporativas.
+**(FCC – TRT-14 – Analista Judiciário (TI) – 2016)**  
+O LDAP define, dentre outras, a forma como um cliente de diretório pode acessar um servidor de diretório. O LDAP pode ser usado
 
-A respeito das características arquiteturais e das portas de comunicação padronizadas do LDAP, assinale a afirmativa correta:
-
-* **A)** O LDAP opera exclusivamente sobre o protocolo UDP na porta 80 em texto claro sem suporte a autenticação.
-* **B)** Por padrão IANA, o LDAP não seguro opera sobre o protocolo TCP na porta **389** (podendo ser protegido em tempo de execução via comando `StartTLS`), enquanto o LDAP seguro sobre SSL/TLS (**LDAPS**) opera tradicionalmente sobre a porta TCP **636**, utilizando certificados digitais X.509 para garantir a confidencialidade e integridade das credenciais transmitidas.
-* **C)** No modelo de informação do LDAP, as operações de leitura são denominadas `DROP` e as de escrita `SELECT`.
-* **D)** O LDAP substitui o protocolo IP na camada 3 do modelo OSI.
-* **E)** As consultas LDAP são otimizadas para ambientes com altíssima taxa de gravação massiva e raríssimas leituras. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-
+* **A)** para enumerar objetos de diretório, mas não para localizá-los.
+* **B)** para estabelecer uma conexão entre um cliente e um servidor LDAP, usando a porta padrão 485, via UDP.
+* **C)** apenas em ambiente Windows, pois é um serviço de diretório proprietário.
+* **D)** no Linux e configurado através do arquivo ldap-inf.xml, encontrado no diretório /etc.
+* **E)** para consultar ou administrar o Active Directory.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O LDAP utiliza transporte orientado a conexão TCP, suportando múltiplos métodos de autenticação (*Simple Bind*, SASL, Kerberos).
-> - **B)** **CORRETA.** Especificação canônica do **LDAP (RFC 4511)**:
->   - **Porta TCP 389:** Porta padrão para tráfego LDAP tradicional. Admite a inicialização da sessão com negociação de segurança em tempo de execução via extensão `StartTLS` (RFC 4513) na mesma porta 389.
->   - **Porta TCP 636:** Porta padrão para **LDAPS (LDAP over SSL/TLS)**, onde o túnel criptográfico TLS é negociado logo na abertura da conexão antes de qualquer tráfego LDAP.
->   - **Catálogo Global (GC):** Em ambientes Active Directory, as portas do Global Catalog são TCP **3268** (claro) e TCP **3269** (seguro via SSL).
-> - **C)** Incorreta. As operações centrais do LDAP são `Bind` (autenticação), `Search` (busca), `Compare`, `Add` (inserção), `Modify` (alteração) e `Delete` (exclusão).
-> - **D)** Incorreta. O LDAP é um protocolo de **Camada de Aplicação (Camada 7)**.
-> - **E)** Incorreta. Serviços de diretório são otimizados exatamente para uma **proporção muito alta de leituras/consultas em relação a modificações** (*read-heavy*).
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. O LDAP suporta amplas operações de busca e localização com filtros complexos (ex: `ldapsearch`).
+> - **B)** Incorreta. O LDAP opera primariamente sobre TCP (porta padrão 389 para tráfego claro/StartTLS e porta 636 para LDAPS), não sobre porta 485/UDP.
+> - **C)** Incorreta. O LDAP é um protocolo de padrão aberto da IETF (RFC 4511), amplamente implementado em sistemas Unix/Linux (como OpenLDAP) e Windows.
+> - **D)** Incorreta. A configuração do cliente OpenLDAP no Linux reside tipicamente em `/etc/openldap/ldap.conf` ou `/etc/ldap/ldap.conf`, e não em `ldap-inf.xml`.
+> - **E)** Correta. O Active Directory Domain Services (AD DS) da Microsoft utiliza o protocolo LDAP como sua interface nativa de comunicação cliente-servidor para consultas, autenticações e operações administrativas de objetos de diretório.
+>
+> **Gabarito: E**
 
 ---
 
 ### Teste 422
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No contexto de serviços de diretório baseados nas normas X.500 e no protocolo LDAP (RFC 4511), a localização precisa de um objeto no interior da Árvore de Informações de Diretório (DIT) é expressa por meio de seu Nome Distinto (*Distinguished Name* - DN).
+**(FGV – TRF-1 – Analista Judiciário (TI) – 2024)**  
+Jonas precisa efetuar algumas pesquisas nas entradas de um servidor OpenLDAP utilizado na rede de sua empresa. Algumas das entradas presentes no servidor são replicadas a seguir: cn=Jose, ou=Finanças, o=Matriz, c=BR cn=Luiz, ou=Marketing, o=Matriz, c=BR cn=Maria, ou=Marketing, o=Matriz, c=BR cn=Carlos, ou=Finanças, o=Filial RJ, c=BR cn=Adriana, ou=Marketing, o=Filial RJ, c=BR cn=Vanessa, ou=Marketing, o=Filial MG, c=BR Para encontrar todas as pe ssoas que trabalham na Matriz, ele utilizou o comando:
 
-Considere que um analista precisa cadastrar a conta de usuário do servidor "Julio Cesar", lotado no setor de "AuditoriaTributaria", pertencente à subunidade de "Fiscalizacao", dentro do domínio governamental `sefaz.go.gov.br`. 
-
-De acordo com o padrão LDAP, assinale a alternativa que apresenta a sintaxe canônica e estruturalmente válida para o *Distinguished Name* (DN) desse objeto:
-
-* **A)** `CN=Julio Cesar,OU=AuditoriaTributaria,OU=Fiscalizacao,DC=sefaz,DC=go,DC=gov,DC=br`
-* **B)** `DN=Julio Cesar/OU=Fiscalizacao/OU=AuditoriaTributaria/DC=sefaz.go.gov.br`
-* **C)** `USER=Julio Cesar,DEPT=AuditoriaTributaria,SECTOR=Fiscalizacao,DOMAIN=sefaz.go.gov.br`
-* **D)** `DC=br,DC=gov,DC=go,DC=sefaz,OU=Fiscalizacao,OU=AuditoriaTributaria,CN=Julio Cesar`
-* **E)** `CN=Julio Cesar.OU=AuditoriaTributaria.OU=Fiscalizacao.DC=sefaz.go.gov.br`
-
+* **A)** ldapsearch -x -H "ldap://localhost:1389" -b "o=Matriz" "(objectclass=person)" dn
+* **B)** ldapsearch -x -H "ldap://localhost:1389" -b "o=Matriz,c=BR" -s one "(|(ou=Marketing)(ou=Finanças))" dn
+* **C)** ldapsearch -x -H "ldap://localhost:1389" -b "o=Matriz,c=BR" -s base "(objectclass=person)" dn
+* **D)** ldapsearch -x -H "ldap://localhost:1389" -b "c=BR" -s sub "(|(ou=Marketing)(ou=Finanças))" dn
+* **E)** ldapsearch -x -H "ldap://localhost:1389" -b "o=Matriz,c=BR" -s children "(objectclass=person)" dn
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Segue com perfeição a regra de construção de DN da RFC 4511: inicia pelo nó folha mais específico (`CN=Julio Cesar`), seguido das OUs em ordem ascendente (`OU=AuditoriaTributaria`, `OU=Fiscalizacao`) e finaliza com os componentes de domínio DNS individualizados (`DC=sefaz,DC=go,DC=gov,DC=br`), todos separados por vírgulas.
-> - **B)** Incorreta. Utiliza barras como delimitadores e agrupa o domínio com pontos, violando a norma de atributos individuais DC.
-> - **C)** Incorreta. Emprega identificadores inexistentes no esquema padrão LDAP (`USER`, `DEPT`, `SECTOR`, `DOMAIN`).
-> - **D)** Incorreta. Inverte a ordem exigida: o DN deve iniciar na folha mais específica à esquerda, e não na raiz.
-> - **E)** Incorreta. Utiliza pontos como delimitadores entre os atributos RDN no lugar de vírgulas.
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. A base de busca (`-b`) 'o=Matriz' está incompleta em relação à hierarquia X.500 das entradas ('o=Matriz,c=BR').
+> - **B)** Correta. Para localizar as entradas das pessoas que trabalham na Matriz: define-se a base de busca no container da organização matriz `-b 'o=Matriz,c=BR'`; o escopo de nível um `-s one` pesquisa os objetos sob as Unidades Organizacionais imediatas; e o filtro booleano `'(|(ou=Marketing)(ou=Finanças))'` combina os dois departamentos existentes na Matriz, retornando os DNs correspondentes.
+> - **C)** Incorreta. O escopo `-s base` restringe a busca ao próprio objeto raiz indicado em `-b`, não retornando seus filhos.
+> - **D)** Incorreta. A base `-b 'c=BR'` com escopo `-s sub` traria todas as pessoas de todo o país, incluindo as filiais do RJ e MG.
+> - **E)** Incorreta. O parâmetro de escopo `-s children` não é a sintaxe padronizada no cliente OpenLDAP tradicional para esse recorte.
+>
+> **Gabarito: B**
 
 ---
 
@@ -390,36 +379,26 @@ A respeito do conteúdo e das funções operacionais do Catálogo Global, assina
 ---
 
 ### Teste 426
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-O Active Directory classifica os grupos segundo dois tipos (**Segurança** e **Distribuição**) e três escopos principais: **Global**, **Domínio Local** (*Domain Local*) e **Universal**.
+**(FGV – TJ-DFT – Analista Judiciário (TI) – 2022)**  
+O analista João administra o domínio Active Directory ad.tj.dft e precisa atribuir novas permissões ao usuário administrador RaizSD_u. O usuário RaizSD_u é membro de um grupo protegido do Active Directory. Sendo assim, para que esta alteração de permissões persista ao longo do tempo, João deve adic ionar as novas permissões no objeto de ad.tj.dft:
 
-Para implementar o controle de acesso a pastas e recursos compartilhados em redes com múltiplos domínios conforme as melhores práticas recomendadas pela Microsoft, utiliza-se a consagrada estratégia de aninhamento **AGDLP** (ou AGUDLP).
-
-A sequência correta de aninhamento e concessão de privilégios prescrita pela metodologia **AGDLP** é:
-
-* **A)** Atribuir as permissões diretamente na Conta do Usuário e adicioná-la a um Grupo Universal.
-* **B)** Inserir as **Contas de Usuários (A)** em **Grupos Globais (G)** (que representam funções corporativas de negócio); aninhar esses Grupos Globais dentro de **Grupos de Domínio Local (DL)** (que representam o recurso ou permissão específica); e, finalmente, conceder as **Permissões (P)** de acesso ao recurso (ex.: NTFS) diretamente ao Grupo de Domínio Local correspondente.
-* **C)** Conceder Permissões (P) aos Grupos Globais e aninhá-los em Contas de Usuários (A).
-* **D)** Criar exclusivamente Grupos de Distribuição sem senhas e vinculá-los ao registro do Windows.
-* **E)** Aninhar todos os servidores em um único Grupo Global com permissão de Administrador do Domínio. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-
+* **A)** AdminSDHolder;
+* **B)** IIS_IUSRS;
+* **C)** rootDSE;
+* **D)** Krbtgt;
+* **E)** Replicator. Tribunal de Justiça do Distrito Federal e dos Territórios FGV Conhecimento
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Conceder permissões diretamente a contas de usuários viola as melhores práticas de governança, tornando a auditoria impossível e gerando acúmulo residual de privilégios.
-> - **B)** **CORRETA.** Metodologia canônica **AGDLP (Accounts $\to$ Global $\to$ Domain Local $\to$ Permissions)**:
->   1. **A (Accounts):** As contas de usuários individuais.
->   2. **G (Global Groups):** Agrupam contas com base na sua função ou cargo de trabalho (ex.: `GG_Auditores_Fiscalizacao`).
->   3. **DL (Domain Local Groups):** Criados no domínio onde o recurso reside para definir o direito de acesso específico (ex.: `GDL_PastaProcessos_Modificar`).
->   4. **P (Permissions):** As listas de controle de acesso (ACLs/ACEs) do sistema de arquivos NTFS ou banco concedem as permissões de leitura/escrita **exclusivamente ao Grupo de Domínio Local**.
->   - Se a floresta tiver múltiplos domínios, expande-se para **AGUDLP**, onde Grupos Globais de diferentes domínios são agregados em um **Grupo Universal (U)** antes de serem aninhados no Grupo de Domínio Local (DL).
-> - **C)** Incorreta. Inverteu o sentido do aninhamento e da governança.
-> - **D)** Incorreta. Grupos de Distribuição servem exclusivamente para listas de e-mail (Exchange), não podendo receber permissões de segurança NTFS.
-> - **E)** Incorreta. Violação grosseira do princípio do menor privilégio.
-> 
-> **Gabarito: B**
+> - **A)** Correta. No Active Directory, o objeto `AdminSDHolder` reside na partição de domínio e atua como modelo de segurança (template de ACL) para todos os grupos e usuários protegidos (como Domain Admins, Enterprise Admins). A cada 60 minutos, o processo interno `SDProp` (Security Descriptor Propagator) compara as permissões dos membros de grupos privilegiados com o `AdminSDHolder` e sobrescreve qualquer alteração manual realizada diretamente no usuário. Portanto, para que uma permissão persista em um usuário protegido, ela deve ser concedida no objeto `AdminSDHolder`.
+> - **B)** Incorreta. `IIS_IUSRS` é um grupo local interno utilizado pelo servidor web Internet Information Services.
+> - **C)** Incorreta. `rootDSE` é a raiz do diretório LDAP que fornece dados globais do servidor, não atuando como template de propagação de permissões.
+> - **D)** Incorreta. `Krbtgt` é a conta de serviço do Active Directory responsável pelo Key Distribution Center (KDC) do Kerberos.
+> - **E)** Incorreta. `Replicator` é um grupo legado de replicação de arquivos.
+>
+> **Gabarito: A**
 
 ---
 

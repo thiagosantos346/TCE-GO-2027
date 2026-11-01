@@ -213,31 +213,26 @@ Quando múltiplos processos ou threads acessam variáveis e recursos compartilha
 ---
 
 ### Teste 411
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No gerenciamento de processos e concorrência em sistemas operacionais multitarefa preemptivos, diferencia-se o conceito de **Processo Pesado** do conceito de **Thread** (*Processo Leve*).
+**(FCC – TRT-23 – Analista Judiciário (TI) – 2016)**  
+O administrador de um computador servidor que utiliza o sistema operacional Linux executou o comando renice no prompt de um terminal shell. O objetivo do administrador, com a execução desse comando, é
 
-A respeito do compartilhamento de recursos entre múltiplas threads pertencentes a um mesmo processo, assinale a afirmativa correta:
-
-* **A)** Múltiplas threads do mesmo processo possuem, cada uma, um espaço de endereçamento de memória virtual totalmente isolado e tabelas de páginas exclusivas sem nenhum dado compartilhado. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **B)** Todas as threads pertencentes a um mesmo processo compartilham o **espaço de endereçamento de memória**, as seções de código (*text*), os dados globais (*data/BSS*), a área de alocação dinâmica (*heap*) e os descritores de arquivos abertos; contudo, cada thread possui compulsoriamente sua própria **Pilha de Execução (*Stack*)**, seu próprio ponteiro de instrução (*Program Counter - PC*) e seu próprio conjunto individual de **Registradores da CPU**.
-* **C)** A criação e a troca de contexto entre threads consomem mais tempo de CPU do que a criação e a troca de contexto entre processos pesados distintos.
-* **D)** Se uma thread de um processo trava por erro de divisão por zero, as outras threads daquele mesmo processo continuam operando normalmente sem que o processo seja finalizado.
-* **E)** Threads não podem ser executadas em núcleos de processadores diferentes (*multicore*), sendo restritas a um único clock de CPU compartilhado.
-
+* **A)** renomear os arquivos de um diretório sequencialmente.
+* **B)** reinstalar o driver de software de um dispositivo.
+* **C)** reordenar, em ordem cronológica, a listagem de arquivos.
+* **D)** alterar a prioridade de execução de um processo.
+* **E)** listar os arquivos de biblioteca necessários para a execução de um programa.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Esse isolamento total de memória é a característica definidora entre **processos diferentes**, e não entre threads do mesmo processo.
-> - **B)** **CORRETA.** Modelo canônico de processos e threads (Silberschatz / Tanenbaum):
->   - **Recursos Compartilhados (Nível do Processo):** Espaço de endereçamento virtual completo, código executável, variáveis globais e estáticas, *Heap*, descritores de arquivos abertos e conexões de rede. Isso viabiliza comunicação ultrarrápida entre threads via memória compartilhada sem necessidade de IPC pesado.
->   - **Recursos Exclusivos (Nível da Thread):** Cada thread precisa de independência de fluxo de execução; logo, possui seu próprio **ID de Thread (TID)**, seu próprio conjunto de **registradores da CPU**, seu próprio **Program Counter (PC)** para saber qual instrução está executando, e sua própria **Stack (Pilha)** para gerenciar variáveis locais e chamadas de função.
-> - **C)** Incorreta. Troca de contexto entre threads do mesmo processo é muito mais rápida porque **não exige a troca da tabela de páginas na MMU** nem invalidação do cache TLB.
-> - **D)** Incorreta. Como compartilham o mesmo espaço de memória, se uma thread provocar corrupção fatal de memória (*Segmentation Fault*), o sistema operacional encerra o processo inteiro, derrubando todas as threads associadas.
-> - **E)** Incorreta. Threads de kernel podem ser distribuídas concorrentemente em múltiplos núcleos e sockets de CPU.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. Renomeação de arquivos é feita com o utilitário `mv` ou comandos de batch/rename.
+> - **B)** Incorreta. Reinstalação de drivers no Linux envolve módulos do kernel via `modprobe` ou gerenciadores de pacotes.
+> - **C)** Incorreta. Ordenação cronológica de listagem de arquivos é obtida com `ls -lt` ou `ls -ltr`.
+> - **D)** Correta. O comando `renice` no ambiente Linux/POSIX é utilizado especificamente para alterar a prioridade de agendamento (valor de *niceness*) de um processo em execução. O valor de nice varia tipicamente de -20 (prioridade máxima) a 19 (prioridade mínima).
+> - **E)** Incorreta. A listagem de bibliotecas compartilhadas vinculadas a um executável é obtida com o comando `ldd`.
+>
+> **Gabarito: D**
 
 ---
 
@@ -494,36 +489,26 @@ Está correto o que se afirma em:
 ---
 
 ### Teste 417
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Nos sistemas de arquivos de ambientes Linux/POSIX, a segurança de arquivos e diretórios é regida pela matriz de permissões associadas ao Proprietário (*User - u*), Grupo (*Group - g*) e Outros (*Others - o*), acrescida dos três bits de permissões especiais: **SUID**, **SGID** e **Sticky Bit**.
+**(FCC – TRT-23 – Analista Judiciário (TI) – 2016)**  
+O superusuário de computador com sistema operacional Linux deseja alterar as permissões padrão para que apenas o usuário criador possa listar, ler e escrever em todos os novos diretórios criados no sistema por meio do comando mkdir. Para isso, o superusuário deve executar o comando
 
-Considere um diretório compartilhado de auditoria `/var/auditoria_compartilhada` cujas permissões foram configuradas pelo administrador através do comando:
-
-`chmod 1770 /var/auditoria_compartilhada`
-
-A respeito do significado do primeiro dígito `1` (Sticky Bit) e dos efeitos práticos dessa configuração sobre o diretório, assinale a afirmativa correta:
-
-* **A)** O bit 1 representa o SUID, permitindo que qualquer usuário execute o diretório como se fosse o usuário `root`.
-* **B)** O bit 1 representa o **Sticky Bit** (representado pelo caractere `t` no final da string de permissões, ex.: `drwxrwx--t`); em um diretório com o Sticky Bit ativado, embora múltiplos usuários pertencentes ao grupo possam criar e editar arquivos no local, **apenas o proprietário de um arquivo específico (ou o superusuário root) tem permissão de renomear ou excluir o seu próprio arquivo**, impedindo que um usuário do grupo apague documentos criados por seus colegas.
-* **C)** O bit 1 bloqueia o acesso de qualquer usuário ao diretório, tornando-o invisível no comando `ls`.
-* **D)** O Sticky Bit força que todos os novos arquivos criados herdem compulsoriamente o grupo primário do diretório pai.
-* **E)** As permissões 770 atribuem leitura, escrita e execução irrestrita para todos os usuários anônimos do mundo exterior (*others*).. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-
+* **A)** umask 700.
+* **B)** chmod 707.
+* **C)** umask 077.
+* **D)** chmod 700.
+* **E)** umask 707.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O valor octal do SUID é **4** (ex.: 4755), enquanto o valor octal do Sticky Bit é **1**.
-> - **B)** **CORRETA.** Aplicação canônica das **Permissões Especiais no Linux**:
->   - **Sticky Bit (Bit 1000 em octal):** Quando aplicado a um diretório (como `/tmp` ou pastas compartilhadas de trabalho), restringe a **exclusão e renomeação de arquivos**. Mesmo que a pasta tenha permissão de escrita de grupo (`770`), um membro do grupo NÃO pode deletar arquivos de outro membro; apenas o **dono do arquivo** e o **root** podem remover o item. Representado por `t` (ou `T` se não houver permissão `x`).
->   - **SGID (Bit 2000 em octal):** Em arquivos executáveis, executa com os privilégios do grupo do arquivo; em diretórios, faz com que novos arquivos criados herdem o grupo do diretório pai.
->   - **SUID (Bit 4000 em octal):** Em arquivos executáveis binários (como `/usr/bin/passwd`), faz com que o executável rode com os privilégios do proprietário do arquivo (`root`).
-> - **C)** Incorreta. O diretório continua visível e acessível aos usuários autorizados.
-> - **D)** Incorreta. Essa é a função do **SGID em diretórios** (bit 2000), e não do Sticky Bit.
-> - **E)** Incorreta. O último dígito `0` proíbe expressamente qualquer permissão para *others* (`---`).
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. O valor 700 na máscara umask subtrairia todas as permissões do proprietário.
+> - **B)** Incorreta. `chmod` aplica alterações em arquivos ou diretórios existentes, enquanto a questão trata de permissões padrão atribuídas no momento da criação.
+> - **C)** Correta. A permissão padrão de criação de diretórios no Linux é `0777` (`rwxrwxrwx`). A máscara de criação `umask` funciona como um filtro de subtração lógica (bitwise NOT/AND). Para que apenas o proprietário tenha permissão total (`rwx` = 7) e os demais grupos e outros não tenham nenhuma permissão (`---` = 0), deve-se subtrair `077` de `777`: $777 - 077 = 700$ (`rwx------`). Logo, o comando a executar é `umask 077`.
+> - **D)** Incorreta. O `chmod 700` alteraria apenas arquivos existentes passados por argumento, não configurando o padrão do sistema para futuras invocações de `mkdir`.
+> - **E)** Incorreta. `umask 707` removeria o acesso do dono e do 'outros', deixando apenas o grupo.
+>
+> **Gabarito: C**
 
 ---
 
@@ -561,35 +546,26 @@ O **systemd** é o sistema de inicialização padrão do Linux moderno:
 ---
 
 ### Teste 418
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Considere um servidor Linux em ambiente de produção onde um analista precisa configurar os privilégios de acesso de um script administrativo crítico denominado `rotina_backup.sh`. Os requisitos de conformidade determinam que:
+**(FGV – TJ-BA – Analista Judiciário (TI) – 2015)**  
+Em um ambiente Linux instalado em uma determinada empresa, as contas dos programadores que trabalham num dado projeto de desenvolvimento estão associadas ao mesmo grupo de usuários. Um deles cria um diretório que deverá ser visível aos demais membros do time de desenvolvimento. A ideia é que os colegas possam entrar no diretório, criar novos arquivos  sob o diretório, bem c omo visualizar e modificar o conteúdo dos arquivos ali armazenados. Usuários externos à equipe de desenvolvimento não devem ter acesso ao diretório, nem aos seus descendentes. Supondo-se que o caminho para o diretório em questão seja /home/projeto e que a proteção de /home já esteja corretamente estabelecida, o comando que associa a proteção desejada ao diretório /home/projeto  e aos seus descendentes é:
 
-- O proprietário do arquivo tenha permissão total de leitura, escrita e execução;
-- Os membros do grupo associado ao arquivo tenham apenas permissão de leitura e execução;
-- Usuários externos e não autorizados (outros) não tenham qualquer privilégio de acesso (nem leitura, nem escrita, nem execução).
-
-Adicionalmente, em uma sessão de monitoramento, o analista identificou um processo zumbi travado em loop fechado consumindo 100% de CPU com o identificador de processo PID 8192. Para mitigar o incidente, ele precisa emitir uma ordem de encerramento forçado que seja processada diretamente pelo núcleo do sistema operacional, sem que a aplicação tenha a faculdade de interceptar, bloquear ou postergar a terminação.
-
-Assinale a alternativa que indica, correta e respectivamente, o comando para atribuir as permissões em notação octal e a linha de comando para a finalização compulsória do processo:
-
-* **A)** `chmod 750 rotina_backup.sh` e `kill -15 8192`
-* **B)** `chmod 750 rotina_backup.sh` e `kill -9 8192`
-* **C)** `chmod 754 rotina_backup.sh` e `kill -9 8192`
-* **D)** `chmod 650 rotina_backup.sh` e `kill -KILL 8192`
-* **E)** `chmod 755 rotina_backup.sh` e `kill -STOP 8192`
-
+* **A)** chmod –R 0770 /home/projeto;
+* **B)** chmod –R 0760 /home/projeto;
+* **C)** chmod –R 0750 /home/projeto;
+* **D)** chmod –R 0740 /home/projeto;
+* **E)** chmod –R 0730 /home/projeto.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O comando `kill -15` envia o sinal `SIGTERM`, que pode ser interceptado, tratado ou ignorado pela aplicação, violando a exigência de finalização compulsória imediata.
-> - **B)** Correta. A permissão octal `750` concede `rwx` (7) para o Dono, `r-x` (5) para o Grupo e `---` (0) para Outros. O comando `kill -9` (`SIGKILL`) é processado diretamente pelo kernel sem possibilidade de interceptação pelo processo.
-> - **C)** Incorreta. A máscara `754` concede permissão de leitura (4) para a classe Outros.
-> - **D)** Incorreta. A máscara `650` não concede direito de execução (1) para o dono do arquivo ($4+2=6$, resultando em `rw-`).
-> - **E)** Incorreta. Concede leitura e execução para Outros (`755`) e `kill -STOP` apenas congela temporariamente o processo, sem terminá-lo.
-> 
-> **Gabarito: B**
+> - **A)** Correta. Para atender aos requisitos de diretório e subdiretórios compartilhados: o dono e o grupo precisam de permissão total (`rwx` = 4 + 2 + 1 = 7) para ler, modificar arquivos e entrar/pesquisar no diretório (`x`), enquanto usuários externos ('outros') não devem ter acesso algum (`---` = 0). O modificador recursivo `-R` aplica a política a toda a árvore descendente. A notação octal de 4 dígitos `0770` configura permissões `rwxrwx---`, atendendo perfeitamente ao cenário.
+> - **B)** Incorreta. A permissão 6 (`rw-`) no grupo impede a execução (`x`), o que não permite que os membros do grupo ingressem no diretório via comando `cd`.
+> - **C)** Incorreta. Permissão 5 (`r-x`) no grupo impede a escrita/criação de novos arquivos.
+> - **D)** Incorreta. Permissão 4 (`r--`) concede apenas leitura no grupo, sem permissão de travessia (`x`) nem modificação (`w`).
+> - **E)** Incorreta. Permissão 3 (`-wx`) impede a listagem dos arquivos pelo grupo.
+>
+> **Gabarito: A**
 
 ---
 
@@ -676,29 +652,26 @@ As políticas de execução controlam as condições para execução de scripts 
 ---
 
 ### Teste 420
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No contexto de administração e automação de servidores Windows Server utilizando o Windows PowerShell, um administrador recebeu a demanda de auditar todos os serviços instalados cujo status operacional atual seja `Running`, extraindo um relatório contendo estritamente as propriedades relativas ao nome de sistema do serviço (`Name`) e seu nome legível para exibição (`DisplayName`).
+**(FCC – TRT-3 – Analista Judiciário (TI) – 2015)**  
+O Administrador de um computador servidor com sistema oper acional Windows Server 2008 R8 pode utilizar os comandos da linha de comando para gerenciar o sistema operacional. Para gerenciar cotas de disco em volumes NTFS, o Administrador deve utilizar o comando
 
-Considerando a arquitetura interna do PowerShell, baseada na manipulação de coleções de objetos .NET estruturados ao longo do pipeline, assinale a linha de comando canônica e correta para a execução dessa tarefa:
-
-* **A)** `Get-Service | grep "Running" | cut -d " " -f 1,2`
-* **B)** `Get-Service | Where-Object { $_.Status -eq 'Running' } | Select-Object -Property Name, DisplayName`
-* **C)** `Get-Process | Where-Object { $_.State == 'Running' } | Out-String -Columns Name, DisplayName`.
-* **D)** `List-Service -Filter "Running" | Format-Table Name, DisplayName`
-* **E)** `Get-Service | ForEach-Object { if ($_.State -eq 'Running') { Write-Host $_.Name } }`
-
+* **A)** filescrn admin
+* **B)** quser
+* **C)** diskpart assign
+* **D)** fsutil quota
+* **E)** fsquota
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Utiliza utilitários de texto puro do ecossistema Unix (`grep` e `cut`), contrariando o pipeline baseado em objetos do PowerShell.
-> - **B)** Correta. O cmdlet `Get-Service` emite objetos .NET; `Where-Object` filtra os objetos com base na propriedade `Status` usando o operador de comparação `-eq`; e `Select-Object` projeta apenas as propriedades solicitadas (`Name`, `DisplayName`).
-> - **C)** Incorreta. Utiliza `Get-Process` (processos e não serviços), operador inválido no PowerShell (`==`) e propriedade inexistente (`State`).
-> - **D)** Incorreta. O cmdlet `List-Service` não existe na biblioteca nativa do PowerShell.
-> - **E)** Incorreta. A propriedade correta da classe é `Status` (e não `State`) e o comando não preserva a saída em pipeline estruturado.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. `filescrn` gerencia triagem de arquivos (File Server Resource Manager), não administrando as cotas nativas de volume NTFS via linha de comando básica.
+> - **B)** Incorreta. `quser` (query user) exibe informações sobre sessões de usuários ativas em servidores de Terminal Services / Remote Desktop.
+> - **C)** Incorreta. `diskpart assign` serve para atribuir letras de unidade ou pontos de montagem a partições.
+> - **D)** Correta. O utilitário de linha de comando `fsutil` (File System Utility) no Windows Server oferece o subcomando `fsutil quota` para gerenciar, consultar, habilitar e configurar limites de cotas de disco em volumes formatados com o sistema de arquivos NTFS.
+> - **E)** Incorreta. Comando inexistente no subsistema administrativo padrão do Windows Server.
+>
+> **Gabarito: D**
 
 ---
 

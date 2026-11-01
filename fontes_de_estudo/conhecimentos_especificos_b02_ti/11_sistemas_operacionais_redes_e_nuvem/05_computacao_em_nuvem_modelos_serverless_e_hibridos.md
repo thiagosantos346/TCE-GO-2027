@@ -85,65 +85,50 @@ Para ser legitimamente classificado como computação em nuvem, um ambiente tecn
 ---
 
 ### Teste 454
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A publicação especial NIST SP 800-145 estabelece a definição formal e canônica de Computação em Nuvem aceita internacionalmente por governos e indústrias de tecnologia.
+**(FCC – TRT-3 – Analista Judiciário (TI) – 2015)**  
+A computação na nuvem apresenta a grande vantagem de acessar os recursos computacionais (processamento, banco de dados, etc) a partir da internet sem a necessidade de instalar programas e aplicações nos computadores e dispositivos. Dentre os diferentes tipos de serviços da computação na nuvem, quando recursos de hardware são acessados na nuvem, está se utilizando o tipo de serviço
 
-O framework do NIST estrutura a computação em nuvem em **Cinco Características Essenciais**, Três Modelos de Serviço e Quatro Modelos de Implantação. Assinale a afirmativa que apresenta corretamente as Cinco Características Essenciais:
-
-* **A)** Uso exclusivo de software proprietário, pagamento antecipado em moeda estrangeira, conexão física serial, ausência de virtualização e suporte telefônico presencial.
-* **B)** **Autosserviço sob Demanda** (*On-Demand Self-Service*), **Amplo Acesso de Rede** (*Broad Network Access*), **Pool de Recursos Compartilhados** (*Resource Pooling*), **Elasticidade Rápida** (*Rapid Elasticity*) e **Serviço Mensurado** (*Measured Service*).
-* **C)** Criptografia simétrica, assinatura em papel moeda, arquitetura cliente-servidor centralizada em mainframe, roteamento RIP e ausência de APIs.
-* **D)** Tolerância a falhas manual, ausência de medição de consumo, dependência de fitas magnéticas, escaneamento de portas TCP e gerência por e-mail.
-* **E)** As características essenciais proíbem que mais de uma organização compartilhe os servidores físicos de um mesmo provedor de nuvem.
-
+* **A)** DevaaS.
+* **B)** IaaS.
+* **C)** CaaS.
+* **D)** SaaS.
+* **E)** PaaS. Caderno de Prova ’A28’, Tipo 001 16 TRT3R-An.Jud.-Tecnologia Informação-A28 ESTUDO DE CASO Instruções Gerais: Conforme Edital publicado, Capítulo IX: “3.1. Na Prova de Estudo de Caso deverão ser rigorosamente observados os limites mínimo de 12 (doze) linhas e o máximo de 20 (v inte) linhas, sob pena de perda de pontos a serem atribuídos à prova. 5. A Prova de Estudo de Caso terá caráter eliminatório e classificatório. Cada uma das questões será avaliada na escala de 0 (zero) a 100 (cem) pontos, considerando-se habilitado o candidato que tiver obtido, no conjunto das duas questões, média igual ou superior a 60 (sessenta) pontos. 7. Será atribuída nota ZERO à Prova de Estudo de Caso nos seguintes casos: a) fugir à modalidade de texto solicitada e/ou às questões práticas propostas; b) apresentar textos sob forma não articulada verbalmente (apenas com desenhos, números e palavras soltas ou em versos) ou qual quer fragmento do texto escrito fora do local apropriado; c) for assinada fora do local apropriado; d) apresentar qualquer sinal que, de alguma forma, possibilite a identificação do candidato; e) for escrita a lápis, em parte ou na sua totalidade; f) estiver em branco; g) apresentar letra ilegível e/ou incompreensível.”
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Características falsas que contrariam a própria essência de nuvem.
-> - **B)** **CORRETA.** As **Cinco Características Essenciais do NIST (SP 800-145)**:
->   1. **Autosserviço sob Demanda (On-Demand Self-Service):** O consumidor provisiona poder de computação, armazenamento e rede unilateralmente e automaticamente, sem interação humana com o provedor.
->   2. **Amplo Acesso de Rede (Broad Network Access):** Os recursos são disponibilizados na rede e acessíveis por mecanismos padronizados através de plataformas heterogêneas (celulares, tablets, notebooks).
->   3. **Pool de Recursos Compartilhados (Resource Pooling):** Recursos computacionais do provedor são agrupados para atender múltiplos consumidores sob um modelo multilocatário (*Multi-Tenant*), com alocação dinâmica e abstração de localização.
->   4. **Elasticidade Rápida (Rapid Elasticity):** Recursos podem ser provisionados e liberados elasticamente, em alguns casos automaticamente, escalando rapidamente para cima ou para baixo conforme a demanda.
->   5. **Serviço Mensurado (Measured Service):** O controle e a otimização de recursos ocorrem por meio de medição automática e transparente (*Pay-per-Use* / pague pelo que usar).
-> - **C)** Incorreta. Não são características definidoras de computação em nuvem.
-> - **D)** Incorreta. A nuvem exige medição estrita de consumo (*metering*) e orquestração automatizada.
-> - **E)** Incorreta. O compartilhamento multilocatário (*Resource Pooling*) é um dos pilares centrais da economia de escala em nuvem.
-> 
+> - **A)** Incorreta. DevaaS não é uma sigla padronizada pela taxonomia NIST SP 800-145.
+> - **B)** Correta. Na classificação canônica dos modelos de serviço em computação em nuvem (NIST / ISO 17788), a Infraestrutura como Serviço (IaaS - Infrastructure as a Service) fornece recursos computacionais fundamentais de hardware (processamento, memória, máquinas virtuais, armazenamento e interfaces de rede) sob demanda, permitindo que o cliente instale e execute sistemas operacionais e softwares arbitrários.
+> - **C)** Incorreta. CaaS (Containers as a Service) foca em orquestração de contêineres.
+> - **D)** Incorreta. O SaaS entrega aplicações prontas para uso final na web.
+> - **E)** Incorreta. O PaaS disponibiliza plataformas de desenvolvimento e runtimes de execução de software.
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 455
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A definição do modelo de implantação de computação em nuvem determina o escopo de governança, compartilhamento de infraestrutura física e fronteiras de segurança entre organizações.
+**(FGV – TJ-MT – Analista Judiciário (TI) – 2024)**  
+A computação em nuvem é uma tecnologia que permite o acesso remoto a recursos de computação, como armazenamento, processamento e software, por meio da internet. Existem diversos modelos de serviço em computação em nuvem. A ideia por trás dos Modelos de Serviço em Computação em Nuvem é fornecer diferentes níveis de abstração e gerenciamento de recursos de TI para atender às diversas necessid ades das organizações e desenvolvedores. Nos modelos de serviço em computação em nuvem, a Plataforma como Serviço (PaaS)
 
-Considere um consórcio de Tribunais de Contas Estaduais que resolve implantar uma infraestrutura de nuvem conjunta para compartilhar ferramentas de auditoria e bases de jurisprudência, onde a infraestrutura é compartilhada estritamente entre instituições que possuem missões institucionais, requisitos de segurança e preocupações de conformidade comuns.
-
-Segundo a taxonomia do NIST SP 800-145, esse modelo de implantação é classificado formalmente como:
-
-* **A)** Nuvem Pública (*Public Cloud*).
-* **B)** Nuvem Privada Monolítica (*Private Cloud*).
-* **C)** Nuvem Comunitária (*Community Cloud*).
-* **D)** Nuvem Descentralizada P2P (*Peer-to-Peer Cloud*).
-* **E)** Nuvem Não Comercial Externa (*External Off-Grid Cloud*).
-
+* **A)** oferece ao usuário controle total sobre a infraestrutura física e virtual, permitindo que configure e gerencie servidores e armazenamento conforme necessário.
+* **B)** disponibiliza um ambiente para desenvolvimento, teste e implementação de aplicações, sem a necessidade de gerenciar a infraestrutura subjacente.
+* **C)** oferece um software completo via internet, pronto para uso, como e-mails e ferramentas de produtividade, sem a necessidade de instalação local.
+* **D)** fornece recursos básicos de armazenamento e rede para que os usuários possam instalar e executar seus próprios sistemas operacionais e aplicações.
+* **E)** permite ao usuário gerenciar somente a camada de segurança e backup, delegando o controle da infraestrutura para o provedor de nuvem.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Na *Nuvem Pública*, a infraestrutura é aberta ao público em geral e a qualquer empresa privada.
-> - **B)** Incorreta. A *Nuvem Privada* é provisionada para uso exclusivo de **uma única organização** isoladamente.
-> - **C)** **CORRETA.** A **Nuvem Comunitária (Community Cloud - NIST SP 800-145)**:
->   - É provisionada para uso exclusivo de uma **comunidade específica de organizações** que compartilham interesses, objetivos e requisitos regulatórios comuns (por exemplo: conformidade com a Lei de Responsabilidade Fiscal, auditoria governamental, interoperabilidade do controle externo ou segurança nacional).
->   - Pode ser gerenciada e operada pelas próprias organizações participantes, por uma terceira parte contratada ou por uma combinação mútua, e pode residir física e logicamente dentro ou fora das instalações dos órgãos (*on-premises* ou *off-premises*).
-> - **D)** Incorreta. Modelo inexistente na taxonomia oficial do NIST.
-> - **E)** Incorreta. Categoria inexistente na norma.
-> 
-> **Gabarito: C**
+> - **A)** Incorreta. Controle sobre a infraestrutura e gerenciamento de hardware/servidores caracteriza o modelo IaaS.
+> - **B)** Correta. De acordo com o modelo de serviços em nuvem, a Plataforma como Serviço (PaaS) disponibiliza ao desenvolvedor todo o ambiente de runtime, bibliotecas, ferramentas de compilação e infraestrutura para desenvolvimento, teste e implantação de aplicações, abstraindo totalmente a complexidade de gerenciamento de servidores físicos, patches do sistema operacional, storage e redes.
+> - **C)** Incorreta. Software completo fornecido pronto para o usuário final é a definição de Software como Serviço (SaaS).
+> - **D)** Incorreta. O fornecimento de recursos básicos de armazenamento e rede onde o usuário instala seus próprios sistemas operacionais define o modelo IaaS.
+> - **E)** Incorreta. A matriz de responsabilidade compartilhada no PaaS abrange desenvolvimento e dados sob controle do cliente, e a infraestrutura/S.O. sob guarda do provedor.
+>
+> **Gabarito: B**
 
 ---
 
@@ -192,29 +177,26 @@ A segurança cibernética em nuvem fundamenta-se na **Responsabilidade Compartil
 ---
 
 ### Teste 456
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-O Tribunal de Contas está conduzindo um projeto de modernização de seu ecossistema de TI, migrando sistemas legados para ambientes de computação em nuvem pública e adotando novos serviços modernos. Segundo a publicação NIST SP 800-145 (*The NIST Definition of Cloud Computing*), a definição de responsabilidades entre o cliente e o provedor varia fundamentalmente de acordo com o modelo de serviço contratado.
+**(FGV – TJ-RR – Analista Judiciário (TI) – 2024)**  
+A equipe de desenvolvimento do TJ -RR precisa de uma solução de computação em nuvem que permita a criação e o gerenciamento de sua própria aplicação, mas prefere concentrar seus esforços exclusivamente no desenvolvimento do software, sem a necessidade de gerenciar detalhes da infraestrutura subjacente, como servidores, balanceamento de carga ou atualizações de sistema operacional. Além disso, essa solução deve oferecer escalabilidade para lidar com picos de demanda, integração com ferramentas de desenvolvimento, e a possibilidade de implantar rapidamente novas versões da aplicação. Assinale a afirmativa correta acerca do modelo de serviço em nuvem mais adequado para esse cenário.
 
-A respeito dos modelos de serviço e da matriz de responsabilidade compartilhada, é correto afirmar:
-
-* **A)** No modelo IaaS (*Infrastructure as a Service*), o provedor de nuvem é o único responsável pela aplicação de correções de segurança (*patches*) no sistema operacional das máquinas virtuais e pela configuração dos firewalls de software dos sistemas operacionais convidados.
-* **B)** No modelo PaaS (*Platform as a Service*), o cliente gerencia diretamente o hardware físico subjacente e os hipervisores de virtualização, ficando o provedor responsável apenas pela codificação das regras de negócio da aplicação.
-* **C)** No modelo SaaS (*Software as a Service*), o consumidor não gerencia nem controla a infraestrutura de nuvem subjacente (redes, servidores, sistemas operacionais ou armazenamento) e nem mesmo as capacidades individuais da aplicação, com exceção de limitadas configurações específicas de perfil e preferência de uso.
-* **D)** A característica de "Elasticidade Rápida" (*Rapid Elasticity*) prevista pelo NIST exige intervenção manual e aprovação prévia do suporte técnico do provedor de nuvem para alocação temporária de novos nós computacionais.
-* **E)** No modelo IaaS, o provisionamento de recursos físicos é estático e exclusivo, não permitindo o compartilhamento dinâmico de recursos físicos (*Resource Pooling*) entre múltiplos locatários (*multi-tenancy*).
-
+* **A)** Infrastructure as a Service (IaaS) seria o mais indicado, pois possibilita que a equipe de desenvolvimento configure seu ambiente de infraestrutura virtual.
+* **B)** Software as a Service (SaaS) oferece a maior simplicidade, já que a equipe de dese nvolvimento pode utilizar aplicações prontas, com mínima necessidade de ajustes na infraestrutura.
+* **C)** Platform as a Service (PaaS) facilita o gerenciamento de servidores e redes, permitindo que a organização desenvolva e execute suas próprias aplicações, sem preocupações com infraestrutura física , mas com responsabilidade total sobre os sistemas operacionais.
+* **D)** Infrastructure as a Service (IaaS) proporciona flexibilidade na configuração de infraestrutura, permitindo à organização adaptar os recursos de h ardware virtual conforme as necessidades da aplicação, sem precisar gerenciar balanceamento de carga.
+* **E)** Platform as a Service (PaaS) é a solução mais apropriada, uma vez que disponibiliza um ambiente completo de desenvolvimento e execução, eliminando a necessidade de gerenciamento de servidores, balanceamento de carga e sistemas operacionais, enquanto garante a escalabilidade e integração com ferramentas de desenvolvimento.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Em soluções IaaS, o provedor cuida exclusivamente da infraestrutura física e da virtualização; a instalação de patches de segurança e a gestão do sistema operacional convidado são encargos estritos do cliente.
-> - **B)** Incorreta. No modelo PaaS, o provedor gerencia a infraestrutura, o sistema operacional e a plataforma de runtime; o cliente foca no código e nos dados.
-> - **C)** Correta. Transcreve com rigor a definição canônica da norma NIST SP 800-145 para o modelo SaaS (*Software as a Service*), onde o usuário consome o software funcional sem gerenciar as camadas técnicas inferiores.
-> - **D)** Incorreta. A Elasticidade Rápida atua de forma automatizada e elástica, sem requerer aprovação manual ou abertura de chamados técnicos.
-> - **E)** Incorreta. O agrupamento de recursos (*Resource Pooling*) sob o modelo multilocatário (*multi-tenancy*) é uma das características essenciais mandatórias de toda arquitetura em nuvem, inclusive no IaaS.
-> 
-> **Gabarito: C**
+> - **A)** Incorreta. O IaaS exige que a equipe gerencie o sistema operacional, patches e configurações de servidor, o que contraria a demanda de concentrar esforços apenas no desenvolvimento.
+> - **B)** Incorreta. O SaaS disponibiliza aplicações prontas, não atendendo à necessidade da equipe de desenvolver seu próprio software proprietário.
+> - **C)** Incorreta. No PaaS a responsabilidade pelo sistema operacional fica a cargo do provedor de nuvem, e não do time de desenvolvimento.
+> - **D)** Incorreta. O IaaS não oferece abstração nativa de balanceadores e runtimes.
+> - **E)** Correta. O modelo Platform as a Service (PaaS) é a solução ideal para o cenário do Tribunal de Justiça, pois provê um ambiente completo de execução de código e entrega contínua, permitindo que a equipe foque unicamente nas regras de negócio da aplicação, enquanto o provedor gerencia automaticamente a escalabilidade, o balanceamento de carga, a disponibilidade dos nós e as atualizações do sistema operacional.
+>
+> **Gabarito: E**
 
 ---
 

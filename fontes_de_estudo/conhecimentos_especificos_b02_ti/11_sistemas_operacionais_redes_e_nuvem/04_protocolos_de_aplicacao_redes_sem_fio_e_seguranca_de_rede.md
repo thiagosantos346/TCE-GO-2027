@@ -286,27 +286,62 @@ A respeito da distinção técnica fundamental entre os protocolos de transferê
 ---
 
 ### Teste 447
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A respeito dos protocolos da camada de aplicação e seus papéis no ecossistema de infraestrutura de TI, assinale a afirmação correta:
+**(FGV – TJ-AP – Analista Judiciário (TI) – 2023)**  
+O gerenciamento e a configuração de equipamentos de rede
 
-* **A)** O protocolo POP3 opera na porta TCP 110 e caracteriza-se por manter cópias sincronizadas das pastas e mensagens permanentemente no servidor, refletindo instantaneamente as alterações feitas em múltiplos clientes de correio.
-* **B)** O protocolo SMTP (Simple Mail Transfer Protocol) é classificado tecnicamente como um protocolo do tipo *pull*, utilizado primariamente para a recuperação e leitura de mensagens armazenadas nas caixas de correio dos usuários finais.
-* **C)** O protocolo SFTP (*SSH File Transfer Protocol*) baseia-se na execução paralela do protocolo FTP tradicional com redirecionamento de portas, exigindo a abertura obrigatória das portas TCP 20 e 21 nos firewalls perimetrais.
-* **D)** O protocolo IMAP opera permitindo a sincronização bidirecional entre o cliente e o servidor de mensagens, mantendo a estrutura de diretórios e o estado das mensagens centralizados no servidor de correio eletrônico.
-* **E)** O protocolo SSH opera por padrão na porta UDP 22, não provendo recursos de confidencialidade e limitando-se a registrar sessões de auditoria em arquivos de log do sistema operacional.
+dependem de uma série de protocolos e aplicações. Dentre eles,
 
+podem-se destacar aqueles associados ao acesso remoto e ao
+
+monitoramento de equipamentos, e aqueles destinados à
+
+transferência de arquivos.
+
+Nesse sentido, analise os itens a seguir.
+
+I. O protocolo SSH (Secure Shell) permite a realização de
+
+autenticação em dispositivos de rede por meio do uso de
+
+criptografia. Por padrão, seus servidores utilizam a porta TCP 23
+
+para conexão.
+
+II. O protocolo FTP (File Transfer Protocol) realiza a transferência
+
+de arquivos de forma segura por meio do uso de criptografia. Por
+
+padrão, seus servidores utilizam a porta 21 para controle da
+
+conexão e a porta 20 é usada na transferência de dados.
+
+III. O protocolo SNMP (Simple Network Management Protocol)
+
+permite o monitoramento de uma série de informações de
+
+dispositivos de rede. Por padrão, dentre as portas utilizadas por
+
+seus servidores estão as portas UDP 161 e UDP 162.
+
+Está correto somente o que se afirma em:
+
+* **A)** I;
+* **B)** II;
+* **C)** III;
+* **D)** I e II;
+* **E)** II e III. Tribunal de Justiça do Estado do Amapá FGV Conhecimento Analista Jud - Apo Especializado - Tecnologia da Informação - Telecomunicações  Tipo 1 ̶ Branca – Página 14
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A sincronização permanente e bidirecional de mensagens e pastas no servidor é a característica definidora do protocolo **IMAP**, enquanto o POP3 baixa os e-mails e convencionalmente os apaga do servidor.
-> - **B)** Incorreta. O protocolo SMTP é classificado como protocolo de envio (**Push**), utilizado para despachar e retransmitir mensagens, e não para recuperação e leitura por usuários finais.
-> - **C)** Incorreta. O SFTP roda inteiramente dentro da sessão do protocolo SSH na porta **TCP 22**, não tendo nenhuma relação com as portas TCP 20 e 21 do FTP legado.
-> - **D)** Correta. O IMAP mantém toda a estrutura de caixas postais, pastas e status de leitura centralizada no servidor, permitindo acesso concorrente e sincronizado a partir de múltiplos dispositivos.
-> - **E)** Incorreta. O SSH opera sobre **TCP na porta 22**, fornecendo criptografia forte e autenticação robusta ponta a ponta.
-> 
-> **Gabarito: D**
+> - **A)** Incorreta. O SSH utiliza por padrão a porta TCP 22 (a porta 23 corresponde ao Telnet).
+> - **B)** Incorreta. O protocolo FTP básico não utiliza criptografia (tráfego em texto claro); além disso, na conexão passiva as portas de dados são negociadas dinamicamente.
+> - **C)** Correta. Analisando as assertivas: I é FALSA (SSH opera na porta TCP 22, não 23); II é FALSA (o protocolo FTP nativo não possui criptografia embutida); III é VERDADEIRA (o protocolo SNMP utiliza as portas padrão UDP 161 para consultas/polling do agente e UDP 162 para o recebimento de notificações assíncronas do tipo Traps/Informs). Portanto, apenas a assertiva III está correta.
+> - **D)** Incorreta. As assertivas I e II contêm erros conceituais graves de portas e segurança.
+> - **E)** Incorreta. Apenas a assertiva III é verdadeira.
+>
+> **Gabarito: C**
 
 ---
 
@@ -411,31 +446,26 @@ A respeito das características que diferenciam um balanceador **Layer 4 (L4)** 
 ---
 
 ### Teste 450
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Os servidores proxy são intermediários de rede amplamente empregados para segurança, controle de acesso, anonimização e aceleração de tráfego.
+**(FCC – TRT-9 – Analista Judiciário (TI) – 2015)**  
+A adoção de um sistema de NAT ( Network Address Translation) no roteador de uma LAN apresenta a vantagem de segurança, pois
 
-A respeito da distinção funcional entre um **Forward Proxy** e um **Reverse Proxy**, assinale a afirmativa correta:
-
-* **A)** O Forward Proxy fica posicionado na frente dos servidores web do tribunal para protegê-los contra invasões externas vindas da internet.
-* **B)** O **Forward Proxy** é posicionado à frente dos **clientes internos da rede corporativa**, atuando em nome dos colaboradores para intermediar o acesso à internet externa.
-* **C)** O Reverse Proxy impede que os servidores internos recebam energia elétrica da rede predial.
-* **D)** Ambos os proxies realizam rigorosamente a mesma função e não possuem nenhuma diferença de posicionamento ou objetivo arquitetural.
-* **E)** O Forward Proxy é exclusivo de conexões via satélite do padrão DVB-S2.
-
+* **A)** o NAT realiza a filtragem dos pacotes IPs que saem da LAN.
+* **B)** o NAT realiza a função de um servidor Proxy de conteúdo.
+* **C)** o NAT realiza a filtragem dos pacotes TCP que entram na LAN.
+* **D)** um pacote gerado na LAN é encapsulado e criptografado para sair da LAN.
+* **E)** um acesso ou pacote gerado externamente à LAN é automaticamente descartado.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Quem fica na frente dos servidores para protegê-los é o **Reverse Proxy** (Proxy Reverso).
-> - **B)** **CORRETA.** Distinção arquitetural clássica entre os tipos de proxy:
->   - **Forward Proxy (Proxy de Saída):** O cliente interno sabe que está usando o proxy (ou é interceptado de modo transparente). O proxy esconde os clientes da internet: o site externo enxerga apenas o IP do proxy. Finalidades: controle de navegação corporativa, bloqueio de sites impróprios, auditoria de compliance e economia de banda por cache.
->   - **Reverse Proxy (Proxy Reverso / de Entrada):** Os clientes da internet não sabem que estão falando com um proxy; eles pensam que estão acessando diretamente o portal oficial do tribunal. O proxy esconde e protege os servidores internos de aplicação. Finalidades: segurança perimetral, ocultação da topologia de backend, terminação SSL (descarrega a criptografia), compressão gzip e balanceamento de carga entre nós do cluster.
-> - **C)** Incorreta. Trata-se de software/hardware de rede de dados.
-> - **D)** Incorreta. Possuem papéis e direções de tráfego diametralmente opostos.
-> - **E)** Incorreta. São conceitos universais da arquitetura TCP/IP.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. O NAT básico realiza a tradução de endereços IP privados/públicos, e não filtragem avançada de pacotes.
+> - **B)** Incorreta. NAT opera na camada de rede (Camada 3), enquanto um proxy de conteúdo atua na camada de aplicação (Camada 7).
+> - **C)** Incorreta. A filtragem de pacotes TCP é atribuição típica de firewalls de estado (Stateful Firewall).
+> - **D)** Incorreta. Encapsulamento e criptografia de datagramas são funções de protocolos de VPN (como IPsec), não do NAT padrão.
+> - **E)** Correta. O NAT (Network Address Translation) oferece uma camada intrínseca de proteção perimetral porque esconde os endereços IPv4 privados internos da rede local. Como as portas de mapeamento na tabela de estados só são abertas sob demanda a partir de conexões iniciadas internamente pelos hosts da LAN, qualquer tentativa de conexão externa não solicitada direcionada ao IP público é automaticamente descartada pelo roteador.
+>
+> **Gabarito: E**
 
 ---
 
@@ -534,53 +564,49 @@ A respeito da comparação técnica entre as bandas de frequência de **2.4 GHz*
 ---
 
 ### Teste 452
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No que tange às redes sem fio fundamentadas no padrão IEEE 802.11 (Wi-Fi) e aos seus mecanismos de controle de acesso ao meio físico e topologia, é correto afirmar:
+**(FGV – TJ-AP – Analista Judiciário (TI) – 2023)**  
+Em contraste com as redes conectadas fisicamente, as redes sem fio são ruidosas e pouco confiáveis. Um dos padrões mais famosos para redes sem fio é o IEEE 802.11. Dentre as características das redes que usam o protocolo IEEE 802.11, é correto afirmar que:
 
-* **A)** As redes Wi-Fi implementam o protocolo de acesso ao meio CSMA/CD, o qual baseia-se na detecção ativa e instantânea de colisões elétricas na antena transmissora para interromper transmissões conflitantes. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **B)** O mecanismo de prevenção de colisões CSMA/CA com suporte aos quadros de controle RTS (*Request to Send*) e CTS (*Clear to Send*) visa contornar especificamente o problema do nó oculto (*hidden node problem*), em que duas estações não se detectam mutuamente mas tentam transmitir simultaneamente para o mesmo ponto de acesso.
-* **C)** A faixa de frequência de 2.4 GHz oferece taxas de transmissão teóricas substancialmente superiores à faixa de 5 GHz, além de disponibilizar uma quantidade três vezes maior de canais não sobrepostos.
-* **D)** O protocolo WEP é o algoritmo atualmente recomendado pelas normas internacionais para redes governamentais de alta segurança, pois utiliza a cifra de bloco AES com chaves simétricas de 256 bits.
-* **E)** No padrão IEEE 802.11ax (Wi-Fi 6), a tecnologia CSMA/CA foi totalmente substituída pelo protocolo de chaveamento de circuitos estáticos Token Ring.
-
+* **A)** o protocolo IEEE 802.11 tenta resolver os problemas das estações expostas, ocultas ou transparentes;
+* **B)** em ambientes abertos e sem obstáculos, quanto maior a frequência do sinal, menor a atenuação do sinal;
+* **C)** o IEEE 802.11, para o acesso ao meio, procura detectar as colisões, escutando o canal durante as transmissões;
+* **D)** a probabilidade de um quadro trafegar por essas redes com sucesso aumenta com o aumento do tamanho do quadro;
+* **E)** o IEEE 802.11, para o acesso ao meio, procura evitar as colisões, enviando quadros de aviso antes das transmissões.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Redes sem fio utilizam CSMA/CA (prevenção de colisões), e não CSMA/CD (detecção), pois não conseguem escutar o meio de forma confiável enquanto suas antenas transmitem sinal.
-> - **B)** Correta. O mecanismo CSMA/CA com quadros RTS/CTS soluciona com precisão o problema do nó oculto (*hidden node problem*), onde duas estações fora do alcance mútuo de rádio disputam o mesmo Ponto de Acesso.
-> - **C)** Incorreta. A faixa de 2.4 GHz tem menor largura de banda e conta com apenas 3 canais não sobrepostos (1, 6 e 11), ao passo que a faixa de 5 GHz oferece taxas mais elevadas e dezenas de canais sem sobreposição.
-> - **D)** Incorreta. O WEP utiliza a cifra de fluxo RC4 com vetores de inicialização curtos e é considerado totalmente quebrado e inseguro há décadas.
-> - **E)** Incorreta. O Wi-Fi 6 adicionou tecnologias como OFDMA e MU-MIMO, mas mantém a retrocompatibilidade operacional com o mecanismo CSMA/CA.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. O protocolo tenta mitigar esses problemas por meio de RTS/CTS, mas a existência de estações 'transparentes' é terminologia estranha ao padrão.
+> - **B)** Incorreta. Quanto maior a frequência (ex: 5 GHz e 6 GHz em comparação a 2.4 GHz), maior é a atenuação do sinal por obstáculos físicos e distância.
+> - **C)** Incorreta. O padrão Ethernet com fio utiliza detecção de colisão (CSMA/CD), enquanto redes sem fio 802.11 não conseguem escutar e transmitir simultaneamente na mesma antena.
+> - **D)** Incorreta. Em canais ruidosos e sujeitos a interferência, quadros maiores têm maior probabilidade de sofrer corrupção de bits por erro de transmissão.
+> - **E)** Correta. Devido à impossibilidade de detectar colisões em tempo real no meio aéreo compartilhado (half-duplex em radiofrequência), o padrão IEEE 802.11 adota o protocolo de controle de acesso ao meio CSMA/CA (*Carrier Sense Multiple Access with Collision Avoidance*), que visa EVITAR colisões antes de transmitir por meio de temporizadores (DIFS, SIFS) e sinalização prévia com quadros de controle RTS (*Request to Send*) e CTS (*Clear to Send*).
+>
+> **Gabarito: E**
 
 ---
 
 ### Teste 453
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em uma organização pública que implementou uma infraestrutura de rede corporativa sem fio (Wi-Fi), a equipe de segurança da informação adotou o padrão de segurança WPA3 no modo *Enterprise*.
+**(FGV – TJ-AP – Analista Judiciário (TI) – 2023)**  
+O administrador de rede de uma empresa deseja realizar a autenticação de  dispositivos conectados em um comutador de rede (Switch), elemento da camada enlace de dados do modelo OSI, com auxílio de um servidor de autenticação. O protocolo adequado a esse tipo de operação é:
 
-Em comparação com implementações domésticas baseadas em WPA2-Personal (PSK), a referida arquitetura governamental caracteriza-se por:
-
-* **A)** Utilizar uma única chave criptográfica estática pré-compartilhada gravada nas estações de trabalho de todos os servidores do órgão, a qual nunca pode ser alterada.
-* **B)** Eliminar a camada de criptografia dos dados em trânsito no ar, restringindo a proteção unicamente à filtragem por endereço físico MAC cadastrado na tabela ARP do roteador.
-* **C)** Implementar autenticação centralizada e individualizada baseada no padrão IEEE 802.1X, utilizando um servidor corporativo de controle de acesso fundamentado no protocolo RADIUS integrado a um repositório de identidades.
-* **D)** Utilizar a cifra obsoleta RC4 com vetores de inicialização estendidos de 128 bits para manter compatibilidade reversa com o padrão WEP.
-* **E)** Prescindir do uso de certificados digitais ou credenciais individuais, concedendo acesso livre e irrestrito através de um portal cativo (*captive portal*) não autenticado.
-
+* **A)** IEEE 802.1q;
+* **B)** IEEE 802.1p;
+* **C)** IEEE 802.1x;
+* **D)** IEEE 802.11b;
+* **E)** IEEE 802.15.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O uso de uma chave pré-compartilhada estática única é a definição do modo Personal (PSK), e não do modo Enterprise.
-> - **B)** Incorreta. O modo Enterprise emprega criptografia de alto nível em trânsito (AES-128/192 com CCMP/GCMP); a filtragem MAC não constitui mecanismo seguro de proteção.
-> - **C)** Correta. A arquitetura WPA/WPA3 Enterprise implementa autenticação individualizada centralizada através da norma IEEE 802.1X com servidores corporativos RADIUS, vinculando cada usuário ao diretório central de identidades.
-> - **D)** Incorreta. A cifra RC4 foi sumariamente banida dos padrões modernos de conectividade sem fio.
-> - **E)** Incorreta. O modo Enterprise exige autenticação rigorosa e individualizada baseada em credenciais de usuário ou certificados digitais.
-> 
+> - **A)** Incorreta. O IEEE 802.1Q é o padrão de marcação de VLANs (Virtual Local Area Networks) em enlaces de tronco.
+> - **B)** Incorreta. O IEEE 802.1p trata de priorização de tráfego e qualidade de serviço (QoS) na camada 2.
+> - **C)** Correta. O padrão IEEE 802.1X é o protocolo oficial de controle de acesso à rede baseado em portas (PNAC), amplamente empregado em switches corporativos e pontos de acesso Wi-Fi para autenticar dispositivos antes de liberar a porta lógica de rede, operando em conjunto com um servidor de autenticação centralizado (como RADIUS/TACACS+) via EAP (Extensible Authentication Protocol).
+> - **D)** Incorreta. O IEEE 802.11b é um padrão legado de rede local sem fio (11 Mbps a 2.4 GHz).
+> - **E)** Incorreta. O IEEE 802.15 abrange redes pessoais sem fio (WPAN), como o padrão Bluetooth.
+>
 > **Gabarito: C**
 
 ---

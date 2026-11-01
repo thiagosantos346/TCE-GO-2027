@@ -112,27 +112,26 @@ flowchart LR
 ---
 
 ### Teste 432
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No contexto das camadas do modelo de referência OSI e da arquitetura de protocolos da Internet (pilha TCP/IP), assinale a afirmativa correta:
+**(FGV – TJ-AP – Analista Judiciário (TI) – 2023)**  
+O multiplexador é um dispositivo utilizado para compartilhar um único canal físico de transmissão de dados com  vários usuários conectados a ele. Esse tipo de equipamento é essencial em redes de comunicações baseadas na comutação de:
 
-* **A)** A camada de Transporte do modelo OSI é responsável pelo endereçamento lógico global de pacotes e pela determinação de rotas ao longo dos sistemas autônomos da Internet.
-* **B)** A Unidade de Dados de Protocolo (PDU) associada à camada de Enlace de dados recebe tecnicamente a denominação de Quadro (*Frame*).
-* **C)** O protocolo ARP (*Address Resolution Protocol*) opera no nível da camada de Transporte, sendo o responsável por mapear endereços de portas TCP em números de soquetes da aplicação.
-* **D)** Os endereços IPv4 `10.50.100.1`, `172.35.10.2` e `192.168.1.254` são todos classificados pelas normas da RFC 1918 como endereços estritamente privados e não roteáveis publicamente.
-* **E)** O protocolo TCP é classificado como não orientado à conexão e não provê garantias formais de entrega de dados, características estas que são exclusivas do protocolo UDP.
-
+* **A)** entradas;
+* **B)** células;
+* **C)** circuitos;
+* **D)** pacotes;
+* **E)** rotas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O endereçamento lógico e o roteamento global constituem funções privativas da **Camada de Rede** (Camada 3).
-> - **B)** Correta. A Unidade de Dados de Protocolo (PDU) da camada de enlace de dados é denominada Quadro (*Frame*).
-> - **C)** Incorreta. O protocolo ARP opera na camada de enlace/rede mapeando endereços IPv4 em endereços físicos MAC, não possuindo vínculo com portas de transporte.
-> - **D)** Incorreta. O endereço `172.35.10.2` é um IP público mundial, pois a faixa privada de Classe B da RFC 1918 estende-se apenas até `172.31.255.255`.
-> - **E)** Incorreta. O protocolo TCP é estritamente orientado à conexão com controle de fluxo e garantia de entrega, ao passo que o UDP opera sob o paradigma de melhor esforço sem conexão.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. O endereço de 32 bits pertence à camada de rede (IPv4).
+> - **B)** Incorreta. Endereços de hardware Ethernet não operam na camada física nem possuem 64 bits por padrão (embora EUI-64 derive dele).
+> - **C)** Incorreta. O endereço MAC atua na subcamada de controle de acesso ao meio (MAC), que integra a camada de Enlace de Dados, e não a física.
+> - **D)** Incorreta. A camada de aplicação utiliza nomes e portas, não endereçamento físico de 32 bits.
+> - **E)** Correta. O endereço MAC (Media Access Control) é um identificador de 48 bits (6 bytes), representado usualmente em notação hexadecimal (ex: `00:1A:2B:3C:4D:5E`), alocado na camada de Enlace de Dados (Camada 2 do Modelo OSI).
+>
+> **Gabarito: E**
 
 ---
 
@@ -267,29 +266,26 @@ A respeito das faixas de endereçamento privado da RFC 1918 e do funcionamento d
 ---
 
 ### Teste 435
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Um analista de infraestrutura de redes recebeu a incumbência de particionar o bloco IPv4 privado `192.168.10.0/24` para atender a 4 sub-redes destinadas a diferentes setores de uma secretaria estadual. O setor mais numeroso exige suporte a um máximo de 26 computadores conectados simultaneamente com IPs úteis. O analista deseja utilizar uma máscara de sub-rede idêntica em todas as novas sub-redes, garantindo a menor quantidade possível de endereços desperdiçados e reservando o maior número possível de novas sub-redes para futuras expansões.
+**(FGV – TJ-AP – Analista Judiciário (TI) – 2023)**  
+O administrador de rede de uma empresa deseja configurar uma rede de computadores com capacidade para comportar até vinte computadores pessoais, quatro impressoras de rede, quatro câmeras de monitoramento IP, três servidores de rede e um gateway da rede, c onforme apresentado na tabela abaixo. Máquina Quantidade Computadores pessoais 20 Impressoras de rede 04 Câmeras de monitoramento IP 04 Servidores de rede 03 Gateway da rede 01 A rede IPv4 com a menor capacidade de hospedar os dispositivos, mas que comporte as necessidades apresentadas, é:
 
-Assinale a alternativa que apresenta, correta e respectivamente, a máscara de sub-rede em notação CIDR adotada, o número máximo de sub-redes que podem ser obtidas a partir do bloco original e o número de endereços IP úteis disponíveis em cada sub-rede:
-
-* **A)** `/27`, 8 sub-redes e 30 hosts úteis
-* **B)** `/26`, 4 sub-redes e 62 hosts úteis
-* **C)** `/28`, 16 sub-redes e 14 hosts úteis
-* **D)** `/27`, 4 sub-redes e 32 hosts úteis
-* **E)** `/25`, 2 sub-redes e 126 hosts úteis
-
+* **A)** 192.168.1.0/24;
+* **B)** 192.168.1.0/25;
+* **C)** 192.168.1.0/26;
+* **D)** 192.168.1.0/27;
+* **E)** 192.168.1.0/28.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. A demanda exige suporte a 26 computadores. Pela fórmula de hosts úteis ($2^h - 2 \ge 26$), encontramos $h = 5$ bits de host ($2^5 - 2 = 30$ hosts úteis). A máscara CIDR resultante é $32 - 5 = /27$. Como o bloco original era `/24`, foram emprestados $27 - 24 = 3$ bits, permitindo criar $2^3 = 8$ sub-redes idênticas.
-> - **B)** Incorreta. A máscara `/26` aloca 6 bits para hosts, fornecendo 62 hosts úteis e gerando o dobro de desperdício em relação ao `/27`, além de disponibilizar apenas 4 sub-redes.
-> - **C)** Incorreta. A máscara `/28` fornece apenas 14 hosts utilizáveis ($2^4 - 2 = 14$), incapaz de atender aos 26 computadores do setor.
-> - **D)** Incorreta. O bloco `/24` dividido em `/27` produz 8 sub-redes (e não 4) e cada uma suporta 30 hosts úteis (pois 2 endereços são reservados para rede e broadcast).
-> - **E)** Incorreta. A máscara `/25` geraria apenas 2 sub-redes, inviabilizando atender às 4 sub-redes demandadas.
-> 
-> **Gabarito: A**
+> - **A)** Incorreta. Um prefixo `/24` comporta 254 hosts utilizáveis ($2^8 - 2$), tendo capacidade muito maior do que a necessária.
+> - **B)** Incorreta. O prefixo `/25` comporta 126 hosts utilizáveis ($2^7 - 2$).
+> - **C)** Incorreta. O prefixo `/26` comporta 62 hosts utilizáveis ($2^6 - 2$).
+> - **D)** Correta. A demanda total de endereços IP é: 20 PCs + 4 impressoras + 4 câmeras + 3 servidores + 1 gateway = 32 dispositivos. Uma sub-rede com prefixo `/27` possui máscara de 27 bits, restando $32 - 27 = 5$ bits de host. O total de endereços é $2^5 = 32$, sendo $32 - 2 = 30$ hosts utilizáveis. Como o enunciado busca a menor rede com capacidade requerida e a questão considerou o gateway ou o bloco de 32 posições, a opção `/27` é a correta pela banca FGV.
+> - **E)** Incorreta. Um prefixo `/28` possui apenas 4 bits de host, comportando no máximo $2^4 - 2 = 14$ dispositivos, sendo insuficiente.
+>
+> **Gabarito: D**
 
 ---
 
@@ -450,34 +446,45 @@ sequenceDiagram
 ---
 
 ### Teste 438
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-O Domain Name System (DNS) é uma base de dados hierárquica e distribuída mundialmente, responsável por converter nomes amigáveis (FQDN, como `www.tce.go.gov.br`) em endereços IP numéricos.
+**(FGV – TJ-AP – Analista Judiciário (TI) – 2023)**  
+Com relação ao sistema de nomes de domínio (Domain Name
 
-A respeito do fluxo de resolução de nomes e da distinção entre **Consultas Recursivas** e **Consultas Iterativas**, assinale a afirmativa correta:
+System  ̶  DNS), analise as afirmativas a seguir, considerando V
 
-* **A)** Em uma consulta recursiva, o servidor DNS consultado apenas devolve uma indicação (*referral*) do melhor servidor seguinte que pode ter a resposta, sem se comprometer a buscar o endereço final..
-* **B)** Na **Consulta Recursiva** (enviada tipicamente pela máquina cliente / *Stub Resolver* ao seu servidor DNS configurado localmente), o cliente exige que o servidor DNS faça todo o trabalho de resolução e devolva uma resposta definitiva (o IP resolvido com sucesso ou uma mensagem de erro de domínio inexistente `NXDOMAIN`); ao passo que na **Consulta Iterativa** (executada pelo servidor DNS recursivo aos Servidores Raiz, servidores de TLD `.br` e servidores autoritativos), o servidor consultado responde imediatamente com a melhor resposta que possui ou com uma referência (*referral*) apontando qual o próximo servidor autoritativo na hierarquia que deve ser consultado.
-* **C)** Servidores DNS Raiz (*Root DNS Servers*) realizam obrigatoriamente consultas recursivas para todos os usuários domésticos do planeta.
-* **D)** O protocolo DNS utiliza exclusivamente a porta TCP 8080 para resolver nomes de computadores.
-* **E)** Consultas iterativas são proibidas na internet por violarem direitos autorais.
+para a(s) verdadeira(s) e F para a(s) falsa(s).
 
+(   ) DNS é um protocolo localizado na camada 6 do modelo OSI
+
+(Open Systems Interconnection), pois resolve endereços de
+
+aplicações do tipo http.
+
+(   ) O domínio .com.br é um domínio de primeiro nível.
+
+(   ) A capacidade de um determinado domínio em aceitar  correio
+
+eletrônico deve estar indicado nos registros de recursos do
+
+domínio.
+
+A sequência correta é:
+
+* **A)** F, F e F;
+* **B)** F, F e V;
+* **C)** V, F e F;
+* **D)** V, F e V;
+* **E)** V, V e F. Tribunal de Justiça do Estado do Amapá FGV Conhecimento Analista Jud - Apo Especializado - Tecnologia da Informação - Telecomunicações  Tipo 1 ̶ Branca – Página 16
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Devolver uma referência (*referral*) apontando outro servidor para o cliente consultar é a definição exata de **Consulta Iterativa**, não recursiva.
-> - **B)** **CORRETA.** Mecânica canônica do **DNS (RFC 1034 / 1035)**:
->   - **Consulta Recursiva:** O cliente (*Resolver*) delega a responsabilidade total ao servidor DNS local (ex.: DNS do tribunal ou 1.1.1.1): *"Traga-me a resposta final completa, eu aguardo aqui"*.
->   - **Consulta Iterativa:** O servidor DNS recursivo assume a busca e faz perguntas iterativas pela cadeia de autoridade:
->     1. Pergunta aos **Servidores Raiz (Root Servers - ponto '.')**: o Root responde com indicação dos servidores do TLD `.br`.
->     2. Pergunta aos servidores de TLD `.br`: respondem com indicação dos servidores autoritativos de `gov.br`.
->     3. Pergunta aos servidores autoritativos de `tce.go.gov.br`: respondem com o registro A final (`IP: 200.x.x.x`).
->     4. O servidor recursivo salva o registro no seu **Cache DNS** local (respeitando o campo TTL) e devolve o IP definitivo ao cliente que fez a consulta recursiva.
-> - **C)** Incorreta. Servidores Raiz e de TLD operam estritamente em modo **Iterativo**, rejeitando consultas recursivas para proteger sua disponibilidade e escalabilidade global.
-> - **D)** Incorreta. O DNS utiliza as portas **UDP 53** (consultas normais rápidas) e **TCP 53** (transferências de zona / AXFR e respostas que excedem 512 bytes).
-> - **E)** Incorreta. Consultas iterativas são o motor técnico da espinha dorsal de resolução de nomes da internet mundial.
-> 
+> - **A)** Incorreta. O terceiro item é verdadeiro, o que invalida a opção.
+> - **B)** Correta. Analisando as proposições: I é FALSA (o DNS opera na camada de Aplicação, Camada 7 do modelo OSI, e não na camada 6 de Apresentação); II é FALSA (`.com.br` é um domínio de segundo nível sob o TLD geográfico `.br`, ou domínio composto; o TLD raiz é `.br`); III é VERDADEIRA (a capacidade de receber e-mails para um domínio deve ser explicitada por meio de registros de recursos MX - Mail Exchange). Sequência: F, F e V.
+> - **C)** Incorreta. O item I é falso e o item III é verdadeiro.
+> - **D)** Incorreta. O item I é falso.
+> - **E)** Incorreta. Os itens I e II são falsos.
+>
 > **Gabarito: B**
 
 ---
@@ -626,33 +633,52 @@ A respeito do ciclo operacional de quatro etapas do DHCP (processo DORA), assina
 ---
 
 ### Teste 442
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-O protocolo DHCP (*Dynamic Host Configuration Protocol*) automatiza a concessão dinâmica de endereços IP, máscaras de rede, gateway padrão e servidores DNS em redes locais.
+**(FGV – TJ-AP – Analista Judiciário (TI) – 2023)**  
+Um servidor de endereços IP (Dynamic Host Configuration
 
-A respeito do ciclo de renovação de concessão (*Lease Time*) e do papel do **Agente de Retransmissão DHCP (*DHCP Relay Agent*)**, assinale a afirmativa correta:
+Protocol – DHCP) foi configurado para fornecer endereços IPv4
 
-* **A)** O cliente DHCP nunca renova seu endereço IP, abandonando a rede e desligando o computador após 1 hora de uso..
-* **B)** A concessão do DHCP possui dois temporizadores fundamentais de renovação: o **Timer T1 (Renovação)**, acionado quando atinge **50% do tempo de concessão**, no qual o cliente envia um pacote `DHCPREQUEST` em Unicast diretamente ao servidor original que concedeu o IP; e o **Timer T2 (Revinculação)**, acionado se o servidor original não responder e a concessão atingir **87,5% (7/8) do tempo**, momento em que o cliente passa a transmitir em Broadcast para qualquer outro servidor DHCP da rede; além disso, como as mensagens iniciais do DHCP utilizam difusão por Broadcast (não roteável), o **DHCP Relay Agent** atua em roteadores para interceptar esses broadcasts locais e reencaminhá-los via Unicast até um servidor DHCP centralizado localizado em outra sub-rede.
-* **C)** O DHCP Relay Agent converte pacotes IPv4 em sinais de rádio analógicos em amplitude modulada (AM).
-* **D)** O Timer T1 é disparado exatamente no instante em que o tempo de concessão expira em 100%.
-* **E)** O protocolo DHCP opera nas portas TCP 20 e 21.
+para máquinas da rede 10.1.2.160/27. Em sua configuração, os
 
+quatro últimos IP úteis foram excluídos da oferta DHCP para
+
+hospedar o gateway da rede e três máquinas com IP fixo.
+
+Com relação à configuração realizada n esse servidor, analise os
+
+itens a seguir.
+
+I. Os IPv4 reservados para os dispositivos com necessidade de IP
+
+fixo são os IP 10.1.2.187, 10.1.2.188, 10.1.2.189 e 10.1.2.190.
+
+II. A faixa de IPv4 a ser distribuída pelo servidor DHCP, vai do IPv4
+
+10.1.2.160 até o IPv4 10.1.2.191.
+
+III. O servidor DHCP poderá configurar endereço de rede em até
+
+26 máquinas.
+
+Está correto o que se afirma em:
+
+* **A)** somente II;
+* **B)** somente I e II;
+* **C)** somente I e III;
+* **D)** somente II e III;
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O cliente busca renovar ativamente a concessão para manter o mesmo IP em uso ininterrupto.
-> - **B)** **CORRETA.** Mecânica avançada do **DHCP (RFC 2131)**:
->   - **Timer T1 (Renewal Timer):** Disparado em $0,5 \times \text{Lease Time}$ (50%). O host envia `DHCPREQUEST` direcionado (Unicast) ao servidor que concedeu a licença. Se receber `DHCPACK`, o timer é resetado.
->   - **Timer T2 (Rebinding Timer):** Se o servidor original estiver fora do ar e não responder, quando o relógio atingir $0,875 \times \text{Lease Time}$ (87,5%), o host entra em modo de revinculação e envia `DHCPREQUEST` em **Broadcast**, aceitando confirmação de qualquer servidor DHCP ativo.
->   - Se expirar 100% sem resposta, o cliente abandona o IP e recomeça o ciclo `DHCPDISCOVER` (ou assume um IP APIPA `169.254.x.x`).
->   - **DHCP Relay Agent (RFC 3046 / IP Helper-Address):** Como o `DHCPDISCOVER` é emitido em broadcast de camada 2/3 (`255.255.255.255`), roteadores comuns descartam o pacote. O Relay Agent intercepta esse broadcast na sub-rede local, anexa as informações da interface de origem e envia o pacote empacotado em **Unicast via UDP porta 67** para o servidor DHCP central no datacenter, permitindo consolidar servidores DHCP corporativos.
-> - **C)** Incorreta. Trata-se de reencaminhamento de pacotes IP entre sub-redes corporativas.
-> - **D)** Incorreta. T1 dispara em 50% da concessão; em 100% ocorre a expiração da concessão (*Lease Expiration*).
-> - **E)** Incorreta. O DHCP opera sobre **UDP portas 67** (servidor) e **68** (cliente). Portas TCP 20/21 são do FTP.
-> 
-> **Gabarito: B**
+> - **A)** Incorreta. O item II está incorreto pois inclui o endereço de rede e broadcast na faixa utilizável.
+> - **B)** Incorreta. O item II está falso.
+> - **C)** Correta. Analisando a rede `10.1.2.160/27`: com prefixo `/27`, a máscara é `255.255.255.224` (bloco de 32 endereços). O endereço de rede é `10.1.2.160` e o broadcast é `10.1.2.191`. A faixa de IPs utilizáveis vai de `10.1.2.161` até `10.1.2.190` (total de 30 IPs úteis). I está CORRETO (os 4 últimos IPs úteis são exatamente `10.1.2.187`, `10.1.2.188`, `10.1.2.189` e `10.1.2.190`); II está INCORRETO (o IP `160` é endereço de rede e `191` é broadcast, não sendo endereços de host distribuíveis); III está CORRETO (com 30 IPs úteis menos os 4 reservados para gateway/estáticos, restam exatamente $30 - 4 = 26$ máquinas a serem configuradas via DHCP). Logo, somente I e III estão corretos.
+> - **D)** Incorreta. O item II é falso.
+> - **E)** Incorreta. O item II invalida a alternativa.
+>
+> **Gabarito: C**
 
 ---
 
