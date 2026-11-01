@@ -3,8 +3,11 @@ import glob
 import re
 import json
 
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+DOCS_DIR = os.path.join(BASE_DIR, 'docs')
+
 def generate_report():
-    md_files = glob.glob('fontes_de_estudo/**/*.md', recursive=True)
+    md_files = glob.glob(os.path.join(DOCS_DIR, '**/*.md'), recursive=True)
     md_files = [f for f in md_files if 'resources' not in f and not f.endswith('README.md') and not f.endswith('relatorio_cobertura_questoes.md')]
 
     modules_data = {}
@@ -17,8 +20,12 @@ def generate_report():
     for fpath in sorted(md_files):
         norm_path = fpath.replace('\\', '/')
         parts = norm_path.split('/')
-        mod_name = parts[2]
-        file_name = parts[3]
+        mod_name = 'desconhecido'
+        file_name = os.path.basename(fpath)
+        if 'docs' in parts:
+            docs_idx = parts.index('docs')
+            if len(parts) > docs_idx + 2:
+                mod_name = parts[docs_idx + 2]
 
         if mod_name not in modules_data:
             modules_data[mod_name] = {
@@ -160,10 +167,12 @@ def generate_report():
     report.append("- O banco de questões `banco_questoes_extraidas.json` está sanitizado e pronto para alimentar futuras injeções conscientes e validadas semanticamente.\n")
 
     report_content = ''.join(report)
-    with open('relatorio_cobertura_questoes.md', 'w', encoding='utf-8') as f:
+    out_report = os.path.join(DOCS_DIR, 'relatorio_cobertura_questoes.md')
+    with open(out_report, 'w', encoding='utf-8') as f:
         f.write(report_content)
 
-    print("Arquivo relatorio_cobertura_questoes.md gerado com sucesso na raiz do projeto!")
+    print(f"Arquivo relatorio_cobertura_questoes.md gerado com sucesso em {out_report}!")
 
 if __name__ == '__main__':
     generate_report()
+

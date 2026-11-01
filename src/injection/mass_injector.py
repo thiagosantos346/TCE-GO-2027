@@ -14,7 +14,9 @@ import os
 import re
 import sys
 
-DB_FILE = 'banco_questoes_extraidas.json'
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+DB_FILE = os.path.join(BASE_DIR, 'data', 'banco_questoes_extraidas.json')
+DOCS_DIR = os.path.join(BASE_DIR, 'docs')
 
 def normalize_path(p):
     return p.replace('\\', '/').strip()
@@ -120,17 +122,23 @@ def run_mass_injection(dry_run=False):
             continue
         
         total_pendentes += 1
-        tf = normalize_path(q.get('target_file', ''))
+        tf = normalize_path(q.get('target_file', '')).replace('fontes_de_estudo/', 'docs/')
+        # Se for relativo a docs/, construir caminho absoluto e normalizado
+        if not os.path.isabs(tf):
+            tf = normalize_path(os.path.join(BASE_DIR, tf))
         if tf not in pool_by_file:
             pool_by_file[tf] = []
         pool_by_file[tf].append(q)
 
         parts = tf.split('/')
-        if len(parts) >= 3:
-            mod_key = parts[2]
-            if mod_key not in pool_by_module:
-                pool_by_module[mod_key] = []
-            pool_by_module[mod_key].append(q)
+        # Ex: .../docs/conhecimentos_gerais/01_lingua_portuguesa/01.md
+        if 'docs' in parts:
+            docs_idx = parts.index('docs')
+            if len(parts) > docs_idx + 2:
+                mod_key = parts[docs_idx + 2]
+                if mod_key not in pool_by_module:
+                    pool_by_module[mod_key] = []
+                pool_by_module[mod_key].append(q)
 
     print(f"Total de questões pendentes elegíveis no banco: {total_pendentes}")
 
@@ -154,7 +162,7 @@ def run_mass_injection(dry_run=False):
     }
 
     all_mds = []
-    for root, dirs, files in os.walk('fontes_de_estudo'):
+    for root, dirs, files in os.walk(DOCS_DIR):
         if 'resources' in root: continue
         for f in files:
             if f.endswith('.md') and not f.endswith('README.md'):
@@ -176,7 +184,11 @@ def run_mass_injection(dry_run=False):
 
         file_pool = pool_by_file.get(path, [])
         parts = path.split('/')
-        mod_key = parts[2] if len(parts) >= 3 else ''
+        mod_key = ''
+        if 'docs' in parts:
+            docs_idx = parts.index('docs')
+            if len(parts) > docs_idx + 2:
+                mod_key = parts[docs_idx + 2]
         mod_pool = pool_by_module.get(mod_key, [])
         fallbacks = FAMILY_FALLBACKS.get(mod_key, [])
 

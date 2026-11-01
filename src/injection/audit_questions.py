@@ -3,8 +3,12 @@ import os
 import glob
 import re
 
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+DB_FILE = os.path.join(BASE_DIR, 'data', 'banco_questoes_extraidas.json')
+DOCS_DIR = os.path.join(BASE_DIR, 'docs')
+
 def audit():
-    with open('banco_questoes_extraidas.json', 'r', encoding='utf-8') as f:
+    with open(DB_FILE, 'r', encoding='utf-8') as f:
         db = json.load(f)
 
     questoes_db = db.get('questoes', [])
@@ -13,11 +17,11 @@ def audit():
     pendentes_db = sum(1 for q in questoes_db if q.get('status_integracao') != 'injetada')
 
     all_mds = []
-    for root, dirs, files in os.walk('fontes_de_estudo'):
+    for root, dirs, files in os.walk(DOCS_DIR):
         if 'resources' in root:
             continue
         for f in files:
-            if f.endswith('.md') and not f.endswith('README.md'):
+            if f.endswith('.md') and not f.endswith('README.md') and not f.endswith('relatorio_cobertura_questoes.md'):
                 all_mds.append(os.path.join(root, f).replace('\\', '/'))
 
     modules_stat = {}
@@ -30,7 +34,11 @@ def audit():
         headers = re.findall(r'### Teste \d+\s*\n([^\n]+)', content)
         
         parts = path.split('/')
-        module = parts[2]
+        module = 'desconhecido'
+        if 'docs' in parts:
+            docs_idx = parts.index('docs')
+            if len(parts) > docs_idx + 2:
+                module = parts[docs_idx + 2]
         
         if module not in modules_stat:
             modules_stat[module] = {"total": 0, "reais": 0, "simuladas": 0, "arquivos": 0}

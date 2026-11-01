@@ -4,7 +4,7 @@ const puppeteer = require('puppeteer-core');
 
 const EDGE_PATH = 'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe';
 const HTML_FILE = path.join(__dirname, 'previa_template.html');
-const OUTPUT_PDF = path.join(__dirname, 'previa_layout.pdf');
+const OUTPUT_PDF = path.join(__dirname, '..', '..', 'output', 'previa_layout.pdf');
 
 async function generatePDF() {
     console.log('Iniciando Puppeteer com Microsoft Edge...');

@@ -20,6 +20,8 @@ import re
 import subprocess
 import json
 
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+DOCS_DIR = os.path.join(BASE_DIR, 'docs')
 GIT_BASE_COMMIT = '6a1eac1'
 
 def normalize_path(p):
@@ -65,7 +67,7 @@ def is_intrusive_question(num, path, block):
 def run():
     print("Iniciando Fase 1: Auditoria Semântica e Rollback via Git...")
 
-    md_files = glob.glob('fontes_de_estudo/**/*.md', recursive=True)
+    md_files = glob.glob(os.path.join(DOCS_DIR, '**/*.md'), recursive=True)
     md_files = [f for f in md_files if 'resources' not in f and not f.endswith('README.md') and not f.endswith('relatorio_cobertura_questoes.md')]
 
     total_files = len(md_files)
@@ -80,11 +82,15 @@ def run():
 
     for fpath in sorted(md_files):
         norm_path = normalize_path(fpath)
+        # Caminho relativo ao projeto para buscar no git antigo sob fontes_de_estudo/
+        rel_to_docs = normalize_path(os.path.relpath(fpath, DOCS_DIR))
+        git_path = f"fontes_de_estudo/{rel_to_docs}"
+
         with open(fpath, 'r', encoding='utf-8') as f:
             curr_content = f.read()
 
         # Obter a versão limpa de referência via Git
-        cmd = ['git', 'show', f'{GIT_BASE_COMMIT}:{norm_path}']
+        cmd = ['git', 'show', f'{GIT_BASE_COMMIT}:{git_path}']
         res = subprocess.run(cmd, capture_output=True, text=True, encoding='utf-8')
         if res.returncode != 0:
             print(f"ERRO ao obter versão Git para {norm_path}: {res.stderr}")
@@ -153,10 +159,12 @@ def run():
     print(f"Total de questões simuladas mantidas: {total_kept_sim}")
     print("=" * 70)
 
-    with open('scratch/audit_execution_log.json', 'w', encoding='utf-8') as f:
+    log_file = os.path.join(DOCS_DIR, 'audit_execution_log.json')
+    with open(log_file, 'w', encoding='utf-8') as f:
         json.dump(audit_log, f, ensure_ascii=False, indent=2)
 
-    print("Log detalhado salvo em scratch/audit_execution_log.json.")
+    print(f"Log detalhado salvo em {log_file}.")
 
 if __name__ == '__main__':
     run()
+

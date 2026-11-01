@@ -14,9 +14,11 @@ Remove permanentemente questões de áreas estranhas ao escopo de Controle Exter
 """
 
 import json
+import os
 import re
 
-DB_FILE = 'banco_questoes_extraidas.json'
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+DB_FILE = os.path.join(BASE_DIR, 'data', 'banco_questoes_extraidas.json')
 
 def should_purge(q):
     enunc = q.get('enunciado', '')
@@ -177,3 +179,4 @@ def run_purge():
 
 if __name__ == '__main__':
     run_purge()
+
