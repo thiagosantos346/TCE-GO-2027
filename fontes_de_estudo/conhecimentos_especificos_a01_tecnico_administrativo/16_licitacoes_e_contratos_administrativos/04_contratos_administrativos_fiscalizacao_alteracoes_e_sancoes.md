@@ -136,26 +136,29 @@ Para combater o problema crônico nacional de paralisação e abandono de obras 
 ---
 
 ### Teste 100
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Em uma licitação de obra pública de grande vulto (orçada em trezentos milhões de reais), a Administração incluiu no edital a exigência de seguro-garantia com cláusula de retomada (step-in rights). Conforme disciplinado nos arts. 96 a 102 da Lei nº 14.133/2021:
+**(FGV – TRF-1 – Analista Judiciário – 2024)**  
+As chamadas cláusulas exorbitantes correspondem às prerrogativas reconhecidas para a Administração Pública no âmbito dos contratos administrativos. Acerca do aludido tema, com base na Lei nº 14.133/2021, é correto afirmar que:
 
-* **A)** O seguro-garantia em obras de grande vulto pode atingir até 30% do valor inicial do contrato.
-* **B)** A seguradora assume a obrigação de indenizar o erário em dinheiro, sendo-lhe vedado assumir a execução direta da obra.
-* **C)** A exigência de garantia contratual é compulsória em todos os contratos administrativos, inclusive compras imediatas.
-* **D)** A modalidade de caução em dinheiro não admite a utilização de títulos da dívida pública emitidos pelo Tesouro Nacional.
-* **E)** A garantia contratual pode ser retida definitivamente pelo Estado sem prévia apuração de prejuízos causados na execução.
+* **A)** a fiscalização do contrato não está expressamente consagrada no rol das cl áusulas exorbitantes previstas no aludido diploma legal;
+* **B)** o fato do príncipe e o fato da Administração estão expressamente consagrados no rol das cláusulas exorbitantes previstas no aludido diploma legal;
+* **C)** a alteração unilateral do contrato não está expressamente consagrada no rol das cláusulas exorbitantes previstas no aludido diploma legal;
+* **D)** a manutenção do equilíbrio econômico -financeiro do contrato está expressamente consagrada no rol das cláusulas exorbitantes previstas no aludido diploma legal;
+* **E)** a viabilidade de ocupar provisoriamente bens móveis e imóveis e utilizar pessoal e serviços vinculados ao objeto do contrato está expressamente consagrada no rol das cláusulas exorbitantes previstas no aludido diploma legal.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correto**. O art. 99 da Lei nº 14.133/2021 prevê expressamente que, nas contratações de obras e serviços de engenharia de grande vulto, poderá ser exigida a prestação de garantia, na modalidade seguro-garantia, com cláusula de retomada da execução contratual (step-in rights), em percentual de até 30% (trinta por cento) do valor inicial do contrato, hipótese em que a seguradora conclui a obra inadimplida pela contratada originária.
-> - **B)** **Incorreto**. A inovação da cláusula de retomada autoriza justamente a seguradora a assumir a execução do contrato (art. 102).
-> - **C)** **Incorreto**. A exigência de garantia é faculdade da autoridade competente (art. 96, caput), sendo usualmente dispensada em entregas imediatas.
-> - **D)** **Incorreto**. O art. 96, § 1º, I autoriza expressamente títulos da dívida pública emitidos sob a forma escritural.
-> - **E)** **Incorreto**. A retenção de garantia exige prévia apuração do valor do dano e contraditório administrativo.
+> - **A)** Incorreta. A prerrogativa de rescisão unilateral vincula-se ao inadimplemento ou interesse público motivado.
+> - **B)** Incorreta. A fiscalização é dever contínuo que não afasta a responsabilidade do contratado.
+> - **C)** Correta. As cláusulas exorbitantes constituem prerrogativas especiais reconhecidas pelo regime jurídico administrativo à Administração Pública (como modificação unilateral, rescisão unilateral, fiscalização contínua e aplicação direta de penalidades contratuais), expressando a supremacia do interesse público sobre o privado.
+> - **D)** Incorreta. O equilíbrio econômico-financeiro originário do contrato é intangível e garantido pela Constituição.
+> - **E)** Incorreta. A aplicação de sanções contratuais submete-se ao contraditório e ampla defesa.
 >
-> **Gabarito: A**
+> **Gabarito: C**
+
+---
+
 ## 3. Duração e Prorrogação dos Contratos Administrativos
 
 A regra orçamentária tradicional vinculava a vigência contratual aos créditos orçamentários do respectivo exercício financeiro (regra do ano civil). A Lei nº 14.133/2021 flexibilizou essa sistemática com regras modernas de planejamento (arts. 105 a 114):

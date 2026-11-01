@@ -324,26 +324,29 @@ A respeito dos regimes de delegação de serviços públicos previstos na Lei Fe
 >
 > **Gabarito: B**
 ### Teste 040
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O Estado de Goiás celebrou contrato de concessão de serviço público rodoviário com uma sociedade empresária pelo prazo de vinte anos. Transcorridos cinco anos, em razão de relevante interesse público e conveniência estratégica estadual, o Governador pretende retomar a prestação direta da rodovia antes do término contratual. Nos termos da Lei nº 8.987/1995:
+**(FGV – TRT-1 – Analista Judiciário – 2024)**  
+Josélia decidiu aprofundar os seus conhecimentos com relação à orientação do Supremo Tribunal Federal acerca da responsabilidade civil do Estado, à luz do disposto no Art. 37, §6º, da CRFB/1988, vindo a concluir corretamente que:
 
-* **A)** O Estado pode promover a encampação unilateral mediante decreto, sem necessidade de lei ou prévia indenização.
-* **B)** A retomada é vedada pelo princípio da segurança jurídica, vinculando o Poder Concedente ao prazo de vinte anos.
-* **C)** A encampação exige autorização por lei autorizativa específica e prévio pagamento de justa indenização em dinheiro.
-* **D)** A rescisão unilateral pode ser declarada pelo Estado com base na caducidade, prescindindo de justa reparação patrimonial.
-* **E)** A reversão dos bens vinculados ao contrato fica impedida até que se opere a amortização contábil integral da obra.
+* **A)** no caso atinente a morte por disparo de arma de fogo em decorrência de operação policial, a responsabilidade civil do Estado é fundada na teoria do risco integral;
+* **B)** o direito de regresso em relação ao agente público causador do dano em sede de responsabilidade civil é imp rescritível, por se tratar de ressarcimento ao erário;
+* **C)** não é cabível o reconhecimento de causas excludentes da responsabilidade civil, diante da previsão constitucional;
+* **D)** o agente causador do dano não tem legitimidade para constar do polo passivo da ação judicial que visa à responsabilização civil do Estado;
+* **E)** tanto o Estado quanto o agente causador do dano respondem objetivamente pelos danos por este causados no exercício de suas atribuições. Tribunal Regional Federal da 1ª Região FGV Conhecimento
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. O art. 37 da Lei nº 8.987/1995 exige expressamente autorização legislativa por lei específica e prévio pagamento de indenização.
-> - **B)** **Incorreto**. O Estado detém a prerrogativa exorbitante de retomar a execução do serviço por interesse público superveniente (encampação).
-> - **C)** **Correto**. A encampação (art. 37 da Lei nº 8.987/1995) é a retomada do serviço pelo poder concedente durante o prazo da concessão, por motivo de interesse público, mediante lei autorizativa específica e após o prévio pagamento da indenização das parcelas dos investimentos vinculados a bens reversíveis ainda não amortizados.
-> - **D)** **Incorreto**. Caducidade é a extinção punitiva por inexecução culposa da concessionária; para interesse público, o instituto é a encampação.
-> - **E)** **Incorreto**. A reversão dos bens ao poder concedente é decorrência da extinção contratual, apurando-se a indenização cabível.
+> - **A)** Correta. Nos termos do art. 37, § 6º, da Constituição Federal e da tese fixada pelo STF no Tema 940 de Repercussão Geral, a ação por danos causados por agente público deve ser ajuizada exclusivamente contra a pessoa jurídica de direito público ou privado prestadora de serviço público, sendo vedada a inclusão direta do agente público no polo passivo.
+> - **B)** Incorreta. A jurisprudência consolidada do STF afasta o litisconsórcio passivo facultativo originário entre Estado e agente.
+> - **C)** Incorreta. O direito de regresso é regressivo e depende de comprovação de dolo ou culpa do servidor em ação própria.
+> - **D)** Incorreta. O particular lesado tem pretensão reparatória direta e objetiva contra a Fazenda Pública.
+> - **E)** Incorreta. A responsabilidade primária do Estado independe de processo administrativo disciplinar prévio.
 >
-> **Gabarito: C**
+> **Gabarito: A**
+
+---
+
 ### Teste 041
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No Brasil, as Parcerias Público-Privadas (PPPs) são disciplinadas pela Lei Federal nº 11.079/2004 e contemplam duas modalidades contratuais distintas: a concessão patrocinada e a concessão administrativa. A respeito da concessão patrocinada, é correto afirmar que consiste no contrato de concessão de serviços públicos ou de obras públicas:

@@ -200,26 +200,29 @@ A autoridade competente de determinada autarquia estadual instaurou processo adm
 >
 > **Gabarito: C**
 ### Teste 025
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O Governador do Estado exonerou servidor ocupante de cargo em comissão de livre nomeação e exoneração, consignando na portaria que a dispensa decorreu de readequação orçamentária e corte de gastos com folha. Em processo de auditoria, comprovou-se que na mesma data foram nomeados dois assessores com vencimentos idênticos. O ato de exoneração:
+**(FGV – TRF-1 – Analista Judiciário – 2024)**  
+Ao estudar as hipóteses de extinção do ato administrativo, Júlia verificou que há uma modalidade em que isso ocorre em razão da incompatibilidade do ato administrativo com outro posterior, tal como ocor re com a nomeação do servidor, que é extinta com a sua exoneração. Tal modalidade de extinção corresponde a:
 
-* **A)** É discricionário e prescinde de motivação, não ficando vinculado aos motivos declarados na portaria.
-* **B)** É nulo de pleno direito por força da Teoria dos Motivos Determinantes, ante a comprovada falsidade do motivo.
-* **C)** É convalidável pela autoridade competente mediante publicação retroativa de novo decreto sem justificação.
-* **D)** É revogável exclusivamente por provocação formal do servidor dispensado perante o Tribunal de Contas.
-* **E)** Permanece plenamente válido e intangível por se tratar de cargo de livre exoneração ad nutum.
+* **A)** recusa;
+* **B)** renúncia;
+* **C)** anulação;
+* **D)** revogação;
+* **E)** contraposição.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. Embora a exoneração ad nutum prescinda de motivação originária, uma vez declarada a motivação, o ato vincula-se à existência e veracidade dos motivos enunciados.
-> - **B)** **Correto**. Pela Teoria dos Motivos Determinantes, quando a autoridade administrativa opta por motivar um ato que seria dispensado de motivação (como a exoneração em cargo em comissão), a validade do ato fica estritamente atrelada à veracidade do motivo alegado. Demonstrada a falsidade do motivo (inexistência de contenção de despesas), o ato padece de vício insanável de motivo, tornando-se nulo de pleno direito.
-> - **C)** **Incorreto**. Vício de falsidade de motivo não admite convalidação com substituição de fundamentação ex post facto.
-> - **D)** **Incorreto**. O ato deve ser anulado por vício de legalidade, e não revogado por conveniência.
-> - **E)** **Incorreto**. A natureza ad nutum do cargo não autoriza a autoridade a motivar com falsidade comprovada.
+> - **A)** Incorreta. A anulação decorre de vícios de legalidade, e não de superveniência de norma que torna a conduta ilícita.
+> - **B)** Incorreta. A revogação decorre de juízo discricionário de conveniência e oportunidade sobre atos válidos.
+> - **C)** Correta. A caducidade (ou decaimento) é a modalidade de extinção do ato administrativo que decorre da superveniência de legislação que torna inadmissível a situação jurídica anteriormente permitida pelo ato (ex: nova lei que proíbe atividade anteriormente autorizada).
+> - **D)** Incorreta. A cassação ocorre quando o destinatário descumpre condições essenciais para a manutenção do ato.
+> - **E)** Incorreta. A contraposição ocorre quando é editado um novo ato com efeitos contrapostos aos do anterior.
 >
-> **Gabarito: B**
+> **Gabarito: C**
+
+---
+
 ### Teste 026
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
 No estudo dogmático do ato administrativo, a doutrina tradicional e o art. 2º da Lei Federal nº 4.717/1965 (Lei da Ação Popular) estruturam a validade dos atos em cinco elementos ou requisitos essenciais. Dentre os elementos indispensáveis à formação do ato administrativo, citam-se:

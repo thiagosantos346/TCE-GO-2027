@@ -255,26 +255,29 @@ A Lei nº 13.303/2016 (Estatuto Jurídico das Empresas Públicas e Sociedades de
 >
 > **Gabarito: C**
 ### Teste 016
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O controle finalístico, tutela administrativa ou supervisão ministerial consubstancia o poder conferido à Administração Direta para fiscalizar e harmonizar as atividades desenvolvidas pelas entidades da Administração Indireta. A respeito dos contornos dogmáticos e limites da tutela administrativa, assinale a opção correta:
+**(FGV – TRT – Analista Judiciário – 2024)**  
+Considerando a natureza dos serviços públicos e as peculiaridades previstas no ordenamento pátrio, é correto afirmar que pode ser objeto de uma concessão patrocinada
 
-* **A)** Opera de forma presumida e ampla em relação a qualquer ato, independentemente de previsão expressa na legislação de regência.
-* **B)** Restringe-se aos limites fixados em lei, exercendo-se nos estritos termos da lei instituidora para assegurar suas finalidades.
-* **C)** Compreende o poder hierárquico pleno de avocar processos administrativos e aplicar sanções disciplinares a diretores autárquicos.
-* **D)** Permite à autoridade supervisora revogar atos das entidades por mero desacordo de oportunidade quanto ao mérito gerencial.
-* **E)** Inviabiliza qualquer atuação fiscalizatória independente por parte do Tribunal de Contas sobre as entidades supervisionadas.
+* **A)** a delegação de atividade que tenha como objeto único a realização de uma obra pública.
+* **B)** a delegação do exercício do poder de polícia, com relação a todas as fases que compõem o respectivo ciclo.
+* **C)** a delegação do serviço de veículo leve sobre trilhos, com a previsão de instalação da respectiva infraestrutura e manutenção, mediante a cobrança de tarifa dos usuários.
+* **D)** a delegação da construção de uma universidade pública e a prestação do respectivo serviço de educação no estabelecimento oficial, mediante a cobrança de mensalidades.
+* **E)** a delegação do serviço de iluminação pública, medi ante a realização de obras e manutenção da respectiva infraestrutura.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A tutela não se presume; decorre estritamente da lei (princípio da especialidade), não havendo controle sem expressa autorização normativa.
-> - **B)** **Correto**. A tutela administrativa não decorre de hierarquia (inexistente entre Direta e Indireta), mas de vinculação legal. Portanto, a Administração Direta só pode exercer os atos de controle e fiscalização finalística expressamente autorizados em lei, respeitando a autonomia administrativa da entidade descentralizada.
-> - **C)** **Incorreto**. Não há hierarquia nem poder disciplinar direto da supervisão sobre dirigentes autárquicos; a avocação é inadmissível fora das hipóteses legais.
-> - **D)** **Incorreto**. É vedada a interferência no mérito administrativo ordinário das entidades autárquicas e fundacionais.
-> - **E)** **Incorreto**. O controle finalístico administrativo coexiste harmonicamente com o controle externo titularizado pelo Legislativo com auxílio do Tribunal de Contas.
+> - **A)** Incorreta. A delegação de serviços públicos não transfere a titularidade do serviço, mas apenas sua execução.
+> - **B)** Incorreta. Serviços públicos essenciais submetem-se ao princípio da continuidade.
+> - **C)** Incorreta. A fixação de tarifas decorre da modicidade tarifária e do equilíbrio econômico-financeiro.
+> - **D)** Correta. O ordenamento jurídico pátrio e a jurisprudência do STF consolidam que o exercício do poder de polícia e a prestação de serviços públicos submetem-se a regimes jurídicos distintos, sendo o poder de polícia indelegável a pessoas jurídicas de direito privado com finalidade lucrativa no tocante às sanções.
+> - **E)** Incorreta. Concessões de serviços exigem licitação prévia na modalidade concorrência ou diálogo competitivo.
 >
-> **Gabarito: B**
+> **Gabarito: D**
+
+---
+
 ## 3. O Terceiro Setor e Entidades Paraestatais
 
 O Terceiro Setor compreende entidades privadas sem fins lucrativos que colaboram voluntariamente com o Estado na consecução de finalidades públicas e sociais, sem integrar a estrutura formal da Administração Pública.
