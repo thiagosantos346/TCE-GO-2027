@@ -123,37 +123,56 @@ flowchart TD
 ---
 
 ### Teste 165
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**  
-Em um Tribunal de Contas Estadual havia sete conselheiros, sendo quatro nomeados pela Assembleia Legislativa e três nomeados pelo Governador do Estado com aprovação do parlamento estadual. Surgida vaga de conselheiro reservada ao Poder Executivo estadual, o Governador pretende nomear membro do Ministério Público de Contas para ocupar a respectiva vaga.  
-À luz do modelo constitucional de composição dos Tribunais de Contas dos Estados (art. 73, § 2º c/c art. 75 da CF/88), a pretensão governamental:
+**(FGV – TCE-GO – Analista de Controle Externo – 2024)**  
+A NBASP 10 traz os princípios que devem ser observados pelo institucional, o que tem impactos na imparcialidade e na credibilidade das conclusões de seus trabalhos e relatórios. Assinale a opção que indica o princípio que afirma que os Tribunais de Contas devem operar sem sofrer ingerência por parte da Administração Pública sobre o desempenho das suas funções.
 
-* **A)** mostra-se plenamente viável desde que haja aprovação prévia por maioria simples da Assembleia Legislativa.
-* **B)** não se mostra juridicamente possível por ser a vaga privativa de auditores concursados do próprio Tribunal.
-* **C)** é admitida de imediato, assegurando-se a alternância com a vaga destinada aos auditores de carreira.
-* **D)** depende de emenda constitucional prévia para criar o cargo no âmbito do respectivo Tribunal de Contas.
-* **E)** é legítima desde que a vaga corresponda à cota destinada a membros do Ministério Público junto ao Tribunal.
+* **A)** Independência dos Tribunais de Contas para o desempenho de suas competências.
+* **B)** Acesso irrestrito a informações.
+* **C)** Prevenção ao conflito de interesses.
+* **D)** Previsão legal da independência dos Tribunais de Contas.
+* **E)** Cooperação interinstitucional sem prejuízo da independência e da autonomia. TRIBUNAL DE CONTAS DO ESTADO DE GOIÁS FGV CONHECIMENTO ANALISTA DE CONTROLE EXTERNO - CIENCIAS CONTABEIS – MANHÃ TIPO BRANCA – PÁGINA 13
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A aprovação da escolha pelo Poder Legislativo exige quórum de maioria absoluta dos parlamentares (art. 73, § 2º c/c art. 75, CF/88).
-> - **B)** **Incorreto**. Dentre as três vagas de livre e técnica indicação do Governador, uma é privativa de auditores (conselheiros-substitutos) e uma é privativa de membros do Ministério Público junto ao Tribunal de Contas.
-> - **C)** **Incorreto**. A vaga técnica do MPC é titularizada especificamente pela respectiva carreira, em lista tríplice de antiguidade e merecimento, não havendo confusão aleatória com a vaga dos auditores.
-> - **D)** **Incorreto**. A regra decorre diretamente do modelo federal de reprodução obrigatória pelo constituinte estadual (art. 75 da CF/88 e Súmula Vinculante correspondente).
-> - **E)** **Correto**. Conforme o art. 75, parágrafo único, c/c art. 73, § 2º, I, da Constituição Federal, os Tribunais de Contas dos Estados são compostos por 7 conselheiros: 4 escolhidos pela Assembleia Legislativa e 3 pelo Governador do Estado (com aprovação da Assembleia), sendo estes 3 necessariamente: 1 de livre escolha e 2 escolhidos alternadamente entre auditores e membros do Ministério Público junto ao Tribunal, indicados em lista tríplice segundo critérios de antiguidade e merecimento. Logo, a nomeação governamental é válida se referida à vaga constitucional do MPC.
+> - **A)** Correta. A NBASP 10 (baseada na Declaração do México - ISSAI 10 da INTOSAI) estabelece os 8 pilares da independência dos Tribunais de Contas, abrangendo a independência funcional, autonomia financeira, orçamentária e administrativa, bem como imunidade funcional de seus membros e corpo técnico.
+> - **B)** Incorreta. A independência institucional não exime o Tribunal do dever de prestar contas e manter transparência pública.
+> - **C)** Incorreta. O controle externo não se subordina a orientações executivas de governança.
+> - **D)** Incorreta. A NBASP 10 exige independência operacional para eleger o escopo e calendário das auditorias.
+> - **E)** Incorreta. A dotação orçamentária própria integra a garantia de autonomia do Tribunal.
 >
-> **Gabarito: E**
+> **Gabarito: A**
+
+---
 
 ### Teste 166
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**  
-A NBASP 50 - Princípios de Atividades Jurisdicionais dos Tribunais de Contas desenvolve princípios fundamentais aplicáveis às Cortes que exercem função judicante sobre a responsabilidade de gestores. Considere as seguintes afirmativas:
+**(FGV – TRT / TCE – 2024)**  
+A Declaração de Lima é considerada a Carta Magna da auditoria
 
-I. O Tribunal de Contas deve ser dotado de garantias legais e institucionais que assegurem independência e autonomia a seus membros.  
-II. O exercício da competência sancionatória dos Tribunais de Contas deve respeitar o contraditório, a ampla defesa e o devido processo legal.  
-III. As decisões definitivas dos Tribunais de Contas que imputem débito ou multa possuem eficácia de título executivo judicial.  
+governamental, uma vez que lançou as bases do controle público.
 
-Está correto o que se afirma em:
+Sobre a Declaração de Lima, analise os itens a seguir:
+
+I. O principal objetivo da Declaração de Lima é defender a
+
+necessidade de uma fiscalização independente do setor
+
+público.
+
+II. Dada a importância histórica e institucional global deste
+
+documento, a Declaração de Lima foi oficialmente integrada à
+
+estrutura da NBASP.
+
+III. A Declaração de Lima se fundamenta no Estado de Direito e na
+
+Democracia, premissas para uma fiscalização do setor público
+
+dependente.
+
+Está correto o que se afirma em
 
 * **A)** I, apenas.
 * **B)** I e II, apenas.
@@ -165,13 +184,15 @@ Está correto o que se afirma em:
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. O item II também está inteiramente correto nos termos da NBASP 50 e da CF/88.
-> - **B)** **Correto**. O item I expressa princípio basilar da Declaração de Lima, do art. 73 da CF/88 e da NBASP 50 (autonomia orgânica, funcional e independência dos membros com garantias de magistratura). O item II reproduz garantia elementar da processualística do controle externo e princípio jurisdicional da NBASP 50 (devido processo legal sancionatório com contraditório e ampla defesa). Já o item III está incorreto porque o art. 71, § 3º, da CF/88 confere às decisões condenatórias do Tribunal de Contas eficácia de "título executivo extrajudicial", e não título judicial.
-> - **C)** **Incorreto**. O item III padece de erro técnico grave (título extrajudicial).
-> - **D)** **Incorreto**. O item I é verdadeiro e o item III é falso.
-> - **E)** **Incorreto**. O item III inviabiliza a afirmativa global.
+> - **A)** Incorreta. A Declaração de Lima consagra o controle externo prévio, concomitante e posterior.
+> - **B)** Correta. Adotada no IX Congresso da INTOSAI em 1977, a Declaração de Lima (ISSAI 1) é reconhecida internacionalmente como a Carta Magna da auditoria governamental, fundamentando as diretrizes de independência das Entidades Fiscalizadoras Superiores (EFS) e dos Tribunais de Contas frente aos órgãos auditados.
+> - **C)** Incorreta. A Declaração defende a ampla publicidade dos relatórios e conclusões de auditoria.
+> - **D)** Incorreta. A atuação dos auditores exige livre acesso a informações, registros e instalações físicas.
+> - **E)** Incorreta. A Declaração reconhece expressamente o papel pedagógico e corretivo do controle público.
 >
 > **Gabarito: B**
+
+---
 
 ### Teste 167
 **(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  

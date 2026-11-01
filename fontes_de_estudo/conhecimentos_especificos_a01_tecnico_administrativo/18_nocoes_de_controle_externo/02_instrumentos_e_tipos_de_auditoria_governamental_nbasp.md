@@ -90,49 +90,86 @@ flowchart TD
 ---
 
 ### Teste 176
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Os regimentos internos dos Tribunais de Contas e as normas de fiscalização governamental disciplinam os instrumentos de controle externo cabíveis para a atuação fiscalizatória das Cortes de Contas. A respeito do instrumento adequado para verificar o cumprimento de deliberações e os resultados dos acórdãos do Tribunal, é correto afirmar que se trata de:
+**(FGV – TRT / TCE – 2024)**  
+A NBASP 20 objetiva promover os princípios de transparência e de
 
-* **A)** inspeção extraordinária de obras públicas estaduais.
-* **B)** monitoramento processual de determinações e recomendações.
-* **C)** levantamento preliminar da estrutura dos órgãos jurisdicionados.
-* **D)** acompanhamento simultâneo da execução de despesas de custeio.
-* **E)** auditoria operacional integrada de conformidade legal.
+accountability nos Tribunais de Contas, que devem atuar de forma
+
+exemplar, mediante a aplicação destes princípios em todos os seus
+
+atos.
+
+Sobre a NBASP 20 - Transparência e Accountability, analise os itens
+
+a seguir:
+
+I. Os Tribunais de Contas devem atuar sob normas a partir das
+
+quais seja possível responsabilizar seus membros e servidores.
+
+II. É recomendável que os Tribunais de Contas divulguem ao
+
+público as informações básicas sobre suas competências, suas
+
+responsabilidades, sua missão, sua estratégia e suas atividades
+
+em uma das línguas oficiais da Intosai, além da língua
+
+portuguesa.
+
+III. Os Tribunais de Contas devem ter regras ou códigos de ética,
+
+políticas e práticas que estejam alinhados com as Normas
+
+Brasileiras d e Auditoria do Setor Público, especialmente a
+
+NBASP 130.
+
+Está correto o que se afirma em
+
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A inspeção é utilizada para suprir omissões, esclarecer dúvidas ou apurar denúncias e representações em situações pontuais urgentes.
-> - **B)** **Correto**. O monitoramento é o instrumento específico e formal utilizado pelos Tribunais de Contas (conforme normas da INTOSAI, NBASP e regimentos dos TCs) para verificar o cumprimento de suas deliberações (determinações e recomendações) e avaliar os resultados e impactos práticos advindos de suas decisões.
-> - **C)** **Incorreto**. O levantamento destina-se a conhecer a organização e funcionamento dos órgãos para subsidiar o planejamento futuro de auditorias.
-> - **D)** **Incorreto**. O acompanhamento atua de forma concomitante ao longo de determinado período para avaliar a legalidade e legitimidade de atos de gestão contínuos.
-> - **E)** **Incorreto**. A auditoria operacional examina a economicidade, eficiência, eficácia e efetividade de programas e órgãos.
+> - **A)** Incorreta. A NBASP 20 preconiza transparência ativa e acesso amplo às deliberações e contas do próprio Tribunal.
+> - **B)** Incorreta. A accountability exige que o Tribunal de Contas lidere pelo exemplo na gestão pública.
+> - **C)** Incorreta. O sigilo é exceção justificada exclusivamente nos termos legais de proteção e segurança.
+> - **D)** Incorreta. A divulgação de metas de desempenho e execução orçamentária é diretriz explícita da norma.
+> - **E)** Correta. A NBASP 20 (Princípios de Transparência e Accountability nos Tribunais de Contas) estabelece que as instituições de controle externo devem atuar de maneira exemplar, mantendo padrões elevados de transparência sobre sua própria gestão, metodologia de auditoria, custos operacionais e resultados entregues aos cidadãos.
+>
+> **Gabarito: E**
+
+---
+
+### Teste 177
+**(FGV – TCE-GO – Analista de Controle Externo – 2024)**  
+O Framework de Controle Interno Integrado do Committee of Sponsoring Organizations of the Treadway Commission (COSO) , originalmente emitido em 1992 e atualizado em 2013, consolidou a ideia de gestão de riscos corporativos e apresentou um conjunto de princípios e boas práticas de gestão e controle interno. Assinale a opção que indica uma característica da versão atualizada em 2013.
+
+* **A)** Complementação de resposta a riscos.
+* **B)** Verificação de conformidade com a Lei Sarbanes-Oxley.
+* **C)** Destaque para os riscos na melhoria da performance.
+* **D)** Aplicação da gestão de riscos no setor público.
+* **E)** Destaque para os riscos no estabelecimento da estratégia. TRIBUNAL DE CONTAS DO ESTADO DE GOIÁS FGV CONHECIMENTO ANALISTA DE CONTROLE EXTERNO - CIENCIAS CONTABEIS – MANHÃ TIPO BRANCA – PÁGINA 12
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** Incorreta. O COSO 2013 organiza o controle interno em 5 componentes integrados e 17 princípios fundamentais.
+> - **B)** Correta. O Framework COSO - Controle Interno Integrado estrutura o sistema de controle interno em cinco componentes inter-relacionados: Ambiente de Controle, Avaliação de Riscos, Atividades de Controle, Informação e Comunicação, e Atividades de Monitoramento, os quais operam em sinergia para mitigar riscos aos objetivos operacionais, de conformidade e de comunicação/relato.
+> - **C)** Incorreta. O componente Ambiente de Controle é a base sobre a qual se sustentam os demais componentes.
+> - **D)** Incorreta. O COSO aplica-se tanto à governança corporativa privada quanto ao setor público e auditoria governamental.
+> - **E)** Incorreta. Atividades de controle devem ser balanceadas de acordo com o apetite a risco e custo-benefício.
 >
 > **Gabarito: B**
 
-### Teste 177
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**  
-Os princípios de auditoria constantes nas Normas Internacionais das Entidades Fiscalizadoras Superiores (ISSAI / NBASP) são fundamentais para a condução de uma fiscalização técnica escorreita.  
-Assinale a opção que indica o princípio de auditoria governamental que enfatiza a necessidade de comunicação eficaz e transparente por parte dos auditores ao longo de todo o processo fiscalizatório:
-
-* **A)** Ética e independência profissional.
-* **B)** Controle de qualidade do trabalho.
-* **C)** Comunicação com a entidade auditada.
-* **D)** Gestão de equipes e habilidades técnicas.
-* **E)** Ceticismo e julgamento profissionais.
-
 ---
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreto**. Refere-se à conduta moral, probidade, autonomia e neutralidade dos membros da equipe.
-> - **B)** **Incorreto**. Abrange os procedimentos institucionais para assegurar que a auditoria atenda aos padrões técnicos de qualidade.
-> - **C)** **Correto**. Conforme a NBASP 100 / ISSAI 100, o princípio da "Comunicação" estabelece que os auditores governamentais devem manter canais de comunicação claros e eficazes com a administração auditada e partes responsáveis ao longo de todas as etapas (planejamento, execução e relatório), promovendo a transparência e evitando surpresas nas conclusões.
-> - **D)** **Incorreto**. Diz respeito à alocação de auditores com capacitação adequada ao objeto fiscalizado.
-> - **E)** **Incorreto**. Refere-se à postura crítica e questionadora do auditor ao analisar as evidências colhidas.
->
-> **Gabarito: C**
 
 ### Teste 178
 **(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**  
