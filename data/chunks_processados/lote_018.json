@@ -1,0 +1,1021 @@
+[
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1650",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "A TPP insere-se no amplo contexto de uma economia crescentemente globalizada, realidade que, alimentada pela contínua ampliação da capacidade produtiva e alicerçada nas inovações tecnológicas que o desenvolvimento científico tem propiciado constantemente, é assinalada, entre outros elementos, pela extraordinária expansão do comércio e pelo elevado grau de competitividade.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Infraestrutura como código e gerenciamento de configuração",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1657",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "A ISO 38500 aponta como princípios, entre outros, a responsabilidade e a aquisição. O primeiro versa sobre indivíduos dentro da organização, que compreendem e aceitam suas responsabilidades com respeito ao fornecimento e à demanda de TI. O segundo diz respeito à aquisição realizada por razões válidas, embasadas em análise apropriada e contínua.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Criptografia simétrica e assimétrica",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1658",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "O COBIT 5 descreve um modelo único e integrado de princípios que permite governar e gerir a TI de forma holística para toda a organização, o que abrange todas as áreas responsáveis pelas funções de TI e considera tanto os interesses internos quanto os interesses externos relacionados à TI.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Governança de Tecnologia da Informação",
+    "target_topico": "Boas práticas e modelos de referência: COBIT 2019, ITIL v4 e ISO/IEC 38500:2024",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1660",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "No ITIL, o gerenciamento de continuidade de negócio é responsável por garantir que os serviços de TI atendam às necessidades atuais e futuras do negócio dentro do orçamento planejado, e por gerenciar a redução de riscos a um nível aceitável. Em relação a gerenciamento de projetos com base no PMBOK 5, julgue os itens a seguir.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Governança de Tecnologia da Informação",
+    "target_topico": "Boas práticas e modelos de referência: COBIT 2019, ITIL v4 e ISO/IEC 38500:2024",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1662",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Os processos de iniciação, entre eles, o desenvolvimento do termo de abertura do projeto, devem ser realizados no padrão tático-estratégico e embutidos no nível de controle do projeto, visto que, antes de se iniciar o projeto, há a necessidade de que os requisitos de alto nível sejam elucidados e o controle macro do projeto seja realizado também por parte dos gestores da organização.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Infraestrutura como código e gerenciamento de configuração",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1664",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "De acordo com a IN n.º 4 MPOG/SLTI, a gestão de processos de TI, que inclui a gestão de segurança da informação, não poderá ser objeto de contratação, salvo se aprovado pela autoridade máxima do órgão ou entidade, e desde que esteja Julgue o item a seguir com relação à norma ISO 27005.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1666",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Uma POSIC pode ser complementada por normas e procedimentos que a referenciem, o que propicia a criação de um corpo normativo.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1671",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "As equipes de resposta a incidentes são normalmente constituídas por especialistas em segurança da informação e por administradores de sistemas e de redes. No entanto, outros profissionais com perfis técnicos e administrativos poderão, indistintamente, integrar essas equipes.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1672",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Em versões modernas do Linux, o arquivo /etc/shadow armazena as senhas criptografadas e as informações adicionais sobre as senhas dos usuários.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Sistemas Operacionais, Redes e Computação em Nuvem",
+    "target_topico": "Sistemas operacionais Windows e Linux: administração básica",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1673",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "O Linux apresenta restrição de mecanismos de bloqueio de acesso a arquivo de senha passwd. Assim, qualquer usuário pode ler esse arquivo e verificar os nomes de usuários.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1674",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "No Windows 2012 Server R2, os dados dos usuários do (AD) Active Directory ficam armazenados em um gerenciador de banco de dados do SQL Server. Logo o administrador do SQL Server também tem poderes administrativos sobre o domínio AD. Em geral, um buffer overflow se caracteriza por permitir a sobrescrita de espaços de memória utilizados por um processo, o que pode ser realizado intencionalmente ou não. A esse respeito, julgue os itens que se seguem.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1677",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "APTs podem utilizar diversos protocolos de rede para transmitir ou receber informações do ponto de comando e controle do malware. Normalmente esse tráfego é construído pelo atacante para parecer um tráfego de rede legítimo.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1680",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "A técnica de compressão não é recomendada ao se utilizar a versão 2 do HTTP sobre o protocolo TLS 1.2.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Criptografia simétrica e assimétrica",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1681",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Na implementação do HTTP versão 2 sobre o protocolo TLS 1.2, é mandatório desabilitar a renegociação da conexão.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Infraestrutura como código e gerenciamento de configuração",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1682",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "No HTTP, a técnica geral do controle de fluxo garante que não haja interferência entre as conexões independentes. Entretanto essa técnica foi abandonada na versão 2 do HTTP, que criou o conceito de WINDOW_UPDATE frame.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Criptografia simétrica e assimétrica",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1694",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Qualquer atributo de uma tabela representada na terceira forma normal pode ser alterado sem que ocorra interferência nos demais atributos.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1695",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "O acesso direto a registros será eficiente ao se usar funções hash, visto que essas funções garantem uma relação unívoca entre o registro e a sua localização física.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Princípios da segurança da informação: confidencialidade, integridade, disponibilidade, autenticidade e não repúdio",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1697",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "As vantagens dos arquivos hash incluem a otimização no uso do espaço físico em disco.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Princípios da segurança da informação: confidencialidade, integridade, disponibilidade, autenticidade e não repúdio",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1698",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "A capacidade de estender tipos de dados básicos é uma das características dos bancos de dados objeto relacional.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Banco de Dados",
+    "target_topico": "Modelagem de dados: modelo entidade-relacionamento, normalização e desnormalização",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1699",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Sistemas de bancos de dados classificados como NoSQL permitem a inserção de dados sem que haja um esquema predefinido.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Banco de Dados",
+    "target_topico": "Bancos de dados NoSQL: modelos orientados a documentos, chave-valor, famílias de colunas (wide-column) e grafos",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1701",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Ao se realizar o tunning de um PostgreSQL, o valor atribuído à variável effective_cache_size pode influenciar o uso adequado de índices durante a execução de consultas.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1705",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Em provedor que fornece serviço como IaaS (infrastructure-as-a-service), o consumidor consegue configurar o sistema operacional utilizado pela nuvem.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Sistemas Operacionais, Redes e Computação em Nuvem",
+    "target_topico": "Computação em nuvem: modelos IaaS, PaaS e SaaS",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1709",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "A parte A pode usar as mensagens cifradas pela parte B para provar a autenticidade dessas mensagens para terceiros.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1717",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Se um servidor da justiça do Distrito Federal (DF) cometer infração disciplinar cuja penalidade, após processo disciplinar, seja a demissão, a autoridade responsável para aplicá-la será o corregedor da justiça.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS GERAIS (A01 E B02)",
+    "target_materia": "Matemática e Raciocínio Lógico",
+    "target_topico": "Números inteiros e racionais: operações (adição, subtração, multiplicação, divisão, potenciação)",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1721",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "O corregedor da justiça do TJDFT integra o Conselho da Magistratura, logo pode exercer, nesse conselho, as funções de relator e de revisor.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1722",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Um quinto dos cargos de desembargador devem ser preenchidos por membros do Ministério Público do Distrito Federal e Territórios e por advogados em efetivo exercício da profissão.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS A01 - TÉCNICO ADMINISTRATIVO",
+    "target_materia": "Noções de Direito Constitucional",
+    "target_topico": "Das funções essenciais à Justiça: do Ministério Público",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1723",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Ação de indenização por acidente de trabalho ajuizada por servidor contra o DF deverá ser processada e julgada por uma das varas de fazenda pública.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Banco de Dados",
+    "target_topico": "transações e propriedades ACID",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_FGV_TJ_DFT_2022_Q1732",
+    "banca": "FGV",
+    "orgao": "TJ/DFT",
+    "ano": 2022,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "“Não há nada que demonstre tão bem a grandeza e a potência da inteligência humana, nem a superioridade e a nobreza do homem, como o fato de ele poder conhecer, compreender por completo e sentir fortemente a sua pequenez.” Os termos desse pensamento mostram paralelismo perfeito nos seguintes segmentos:",
+    "alternativas": {
+      "A": "“Não há nada” / “como o fato”;",
+      "B": "“que demonstre” / “de ele poder conhecer”;",
+      "C": "“a grandeza e a potência da inteligência humana” / “a superioridade e a nobreza do homem”;",
+      "D": "“poder conhecer” / “compreender por completo”;",
+      "E": "“como o fato de ele poder conhecer” / “compreender por completo e sentir fortemente”."
+    },
+    "gabarito_oficial": "C",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_FGV_TJ_DFT_2022_Q1738",
+    "banca": "FGV",
+    "orgao": "TJ/DFT",
+    "ano": 2022,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "O prefeito do Município Alfa decidiu promover uma ampla reestruturação da Administração pública indireta. Para tanto, decidiu que fosse elaborado um estudo preliminar, de modo a delinear os contornos gerais de: (1) duas entidades com personalidade jurídica própria, para a execução dos serviços públicos de limpeza urbana e de administração de cemitérios públicos; e (2) de órgãos específicos, a serem criados no âmbito da Secretaria de Saúde e da Secretaria de Ordem Pública, de modo a aumentar a especialização e, consequentemente, o nível de eficiência estatal. É correto afirmar que:",
+    "alternativas": {
+      "A": "em (1) são mencionados exemplos de descentralização administrativa por especificação e em (2) de descentralização administrativa por serviços;",
+      "B": "em (1) são mencionados exemplos de desconcentração administrativa por especificação e em (2) de desconcentração administrativa por serviços;",
+      "C": "em (1) são mencionados exemplos de descentralização administrativa por serviços e em (2) de desconcentração administrativa;",
+      "D": "em (1) são mencionados exemplos de desestatização por serviços e em (2) de descentralização administrativa por eficiência;",
+      "E": "em (1) são mencionados exemplos de desestatização por serviços e em (2) de estatização por padrão de eficiência."
+    },
+    "gabarito_oficial": "C",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS A01 - TÉCNICO ADMINISTRATIVO",
+    "target_materia": "Noções de Direito Administrativo",
+    "target_topico": "Organização administrativa: administração direta e indireta",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_FGV_TJ_DFT_2022_Q1740",
+    "banca": "FGV",
+    "orgao": "TJ/DFT",
+    "ano": 2022,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Joana, jovem e renomada escritora de livros infantis, faleceu. O mais velho dos seus herdeiros, com 18 anos de idade, preocupado com a situação dos livros, que geravam uma elevada renda para Joana, questionou um advogado a respeito da proteção constitucional oferecida a direitos dessa natureza. O advogado respondeu, corretamente, que o direito de utilização, publicação ou reprodução das obras de Joana pertence:",
+    "alternativas": {
+      "A": "de modo exclusivo e em caráter perpétuo, aos herdeiros;",
+      "B": "de modo exclusivo e pelo tempo que a lei fixar, aos herdeiros;",
+      "C": "ao poder público, não aos herdeiros, que têm assegurado o direito de participação nos lucros obtidos;",
+      "D": "ao público em geral, não aos herdeiros, que têm assegurado o direito de participação nos lucros obtidos;",
+      "E": "aos herdeiros, ao poder público e ao público em geral, assegurando-se aos primeiros o direito de participação nos lucros."
+    },
+    "gabarito_oficial": "B",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_FGV_TJ_DFT_2022_Q1741",
+    "banca": "FGV",
+    "orgao": "TJ/DFT",
+    "ano": 2022,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "A Lei federal nº XX impôs a todos os cidadãos determinada obrigação de caráter cívico, a ser cumprida em certos períodos por aqueles que fossem sorteados. João, em razão de suas convicções políticas, decidiu que não iria cumprir a obrigação. À luz da sistemática constitucional, João:",
+    "alternativas": {
+      "A": "não poderá sofrer consequência desfavorável, por ter exercido plenamente a sua liberdade de consciência, que não pode ser afrontada pelo poder público, sob pena de violação à dignidade da pessoa humana;",
+      "B": "preservará o direito de votar, mas ficará inelegível, consequência que será afastada caso cumpra a prestação alternativa fixada em lei;",
+      "C": "deverá cumprir a prestação alternativa fixada em lei e, caso se recuse, terá a cidadania suspensa em suas acepções ativa e passiva;",
+      "D": "terá os direitos políticos suspensos, os quais serão restabelecidos caso cumpra a prestação alternativa fixada em lei;",
+      "E": "deverá cumprir a prestação alternativa fixada em lei e, caso se recuse, ficará inelegível."
+    },
+    "gabarito_oficial": "C",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_FGV_TJ_DFT_2022_Q1742",
+    "banca": "FGV",
+    "orgao": "TJ/DFT",
+    "ano": 2022,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Após grande mobilização dos servidores públicos do Estado Alfa, foi promulgada a Lei estadual nº XX. De acordo com esse diploma normativo, os servidores públicos, titulares de cargos de provimento efetivo, que ocupassem cargos em comissão por um período mínimo de oito anos consecutivos, fariam jus à incorporação do respectivo valor à remuneração do cargo efetivo. Irresignado com o teor da Lei estadual nº XX, o governador do Estado solicitou que fosse analisada a sua compatibilidade com a ordem constitucional, concluindo-se, corretamente, que esse diploma normativo é:",
+    "alternativas": {
+      "A": "inconstitucional, pois é vedada a incorporação de vantagens vinculadas ao exercício de função de confiança ou de cargo em comissão à remuneração do cargo efetivo;",
+      "B": "inconstitucional, pois a não extensão do benefício da incorporação às vantagens vinculadas ao exercício de função de confiança caracteriza distinção arbitrária;",
+      "C": "inconstitucional, pois somente as vantagens vinculadas ao exercício de função de confiança podem ser incorporadas à remuneração do cargo efetivo;",
+      "D": "constitucional, desde que seja assegurada a incorporação proporcional da vantagem caso os oito anos consecutivos não sejam integralizados;",
+      "E": "constitucional, pois a incorporação das vantagens recebidas pelo servidor público por longos períodos é um imperativo de segurança jurídica. ÉTICA NO SERVIÇO PÚBLICO, REGIMENTO INTERNO E LEI DE ORGANIZAÇÃO JUDICIÁRIA"
+    },
+    "gabarito_oficial": "A",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_FGV_TJ_DFT_2022_Q1749",
+    "banca": "FGV",
+    "orgao": "TJ/DFT",
+    "ano": 2022,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "No contexto do aplicativo pg_dump no PostgreSQL, analise as afirmativas a seguir. I. O acionamento do pg_dump deve ser feito no servidor onde o PostgreSQL está instalado. II. Na recuperação do backup, o banco de dados não pode existir, uma vez que é totalmente recriado. III. As informações a respeito de roles e tablespaces do banco de dados não são incluídas no backup. Está correto somente o que se afirma em:",
+    "alternativas": {
+      "A": "II;",
+      "B": "III;",
+      "C": "I e II;",
+      "D": "I e III;",
+      "E": "II e III."
+    },
+    "gabarito_oficial": "B",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_FGV_TJ_DFT_2022_Q1750",
+    "banca": "FGV",
+    "orgao": "TJ/DFT",
+    "ano": 2022,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "No contexto do MySQL, analise as afirmativas a seguir a respeito da carga de dados (Bulk Data Loading) para tabelas InnoDB. I. No caso da existência de restrições (constraints) do tipo UNIQUE, é possível suspender temporariamente a verificação com o comando SET unique_checks=1. II. Tabelas InnoDB utilizam índices clusterizados, o que normalmente torna mais rápida a carga de dados dispostos na mesma ordem da chave primária (primary key). III. Na carga de arquivos muito grandes, a shell do MySQL oferece serviços de importação rápida por meio do utilitário util.importTable(). Está correto somente o que se afirma em:",
+    "alternativas": {
+      "A": "II;",
+      "B": "III;",
+      "C": "I e II;",
+      "D": "I e III;",
+      "E": "II e III."
+    },
+    "gabarito_oficial": "E",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Banco de Dados",
+    "target_topico": "Modelagem de dados: modelo entidade-relacionamento, normalização e desnormalização",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_FGV_TJ_DFT_2022_Q1751",
+    "banca": "FGV",
+    "orgao": "TJ/DFT",
+    "ano": 2022,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "No processamento de transações distribuídas em gerenciadores de bancos de dados, o algoritmo frequentemente empregado para garantir que todos os participantes de uma transação distribuída tenham conhecimento do seu desfecho é conhecido como:",
+    "alternativas": {
+      "A": "D-commit;",
+      "B": "Dynamic Data Exchange;",
+      "C": "Liveness;",
+      "D": "Multi-commit;",
+      "E": "Two-phase commit."
+    },
+    "gabarito_oficial": "E",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Banco de Dados",
+    "target_topico": "transações e propriedades ACID",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_FGV_TJ_DFT_2022_Q1753",
+    "banca": "FGV",
+    "orgao": "TJ/DFT",
+    "ano": 2022,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "No contexto do Oracle, considere o comando a seguir e analise as afirmativas a respeito das consequências desse mesmo comando. create global temporary table temp ( a int not null primary key, b varchar(20) not null ); I. Dados inseridos numa sessão (em inglês, session) são removidos no fim da sessão. II. Dados inseridos numa sessão podem ser acessados somente pela própria sessão. III. Ao término de uma transação por meio de um comando commit, os dados são automaticamente removidos da tabela. Está correto somente o que se afirma em:",
+    "alternativas": {
+      "A": "I;",
+      "B": "II;",
+      "C": "I e II;",
+      "D": "I e III;",
+      "E": "II e III."
+    },
+    "gabarito_oficial": "C",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_FGV_TJ_DFT_2022_Q1756",
+    "banca": "FGV",
+    "orgao": "TJ/DFT",
+    "ano": 2022,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Caio recebeu a tarefa de melhorar a segurança da rede local do Tribunal de Justiça. A demanda solicitada foi a implementação de um sistema de criptografia que atenda aos requisitos a seguir. 1. receber como entrada um bloco de texto sem formatação; 2. trabalhar com tamanhos de chaves diferentes; 3. movimentar o bloco para uma matriz quadrada onde são executadas suas operações; 4. relacionar o número de rodadas do algoritmo com o tamanho da chave. Para cifrar as mensagens e atender aos critérios determinados, Caio deve utilizar o algoritmo criptográfico:",
+    "alternativas": {
+      "A": "RSA;",
+      "B": "AES;",
+      "C": "DES;",
+      "D": "3DES;",
+      "E": "ELGAMAL."
+    },
+    "gabarito_oficial": "B",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Criptografia simétrica e assimétrica",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_FGV_TJ_DFT_2022_Q1758",
+    "banca": "FGV",
+    "orgao": "TJ/DFT",
+    "ano": 2022,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "A arquitetura TCP/IP é um conjunto de protocolos de comunicação entre computadores, e seu modelo de referência se divide em algumas camadas. Os protocolos e técnicas pertencentes à camada de rede são:",
+    "alternativas": {
+      "A": "TCP e UDP;",
+      "B": "TCP e IP;",
+      "C": "IP, ICMP e NAT;",
+      "D": "IP, IPSec, ICMP e SSH;",
+      "E": "UDP, HTTP e NAT."
+    },
+    "gabarito_oficial": "C",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Sistemas Operacionais, Redes e Computação em Nuvem",
+    "target_topico": "Redes de computadores: arquitetura TCP/IP, endereçamento IPv4 e IPv6, DNS e DHCP",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_FGV_TJ_DFT_2022_Q1759",
+    "banca": "FGV",
+    "orgao": "TJ/DFT",
+    "ano": 2022,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "João trabalha na área de Tecnologia da Informação de um Tribunal de Justiça e ficou responsável por atribuir as faixas de endereçamento IP de 4 novas varas cíveis, que necessitarão de 126 endereços de hosts cada. Sabe-se que a rede 10.112.0.0/20 está disponível. Para realizar a distribuição com o mínimo de desperdício de endereços, João deve dividir a rede da seguinte forma:",
+    "alternativas": {
+      "A": "nas sub-redes 10.112.0.0 com máscara 255.255.128.0, 10.112.0.128 com máscara 255.255.128.0, 10.112.1.0 com máscara 255.255.128.0 e 10.112.1.128 com máscara 255.255.128.0;",
+      "B": "nas sub-redes 10.112.0.0 com máscara 255.255.255.0, 10.112.1.0 com máscara 255.255.255.0, 10.112.2.0 com máscara 255.255.255.0 e 10.112.3.0 com máscara 255.255.255.0;",
+      "C": "nas sub-redes 10.112.0.0 com máscara 255.255.255.128, 10.112.0.128 com máscara 255.255.255.128, 10.112.1.0 com máscara 255.255.255.128 e 10.112.1.128 com máscara 255.255.255.128;",
+      "D": "nas sub-redes 10.112.0.0/26, 10.112.0.128/26, 10.112.1.0/26 e 10.112.1.128/26;",
+      "E": "a rede disponível não atende a demanda de endereços necessária."
+    },
+    "gabarito_oficial": "C",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Sistemas Operacionais, Redes e Computação em Nuvem",
+    "target_topico": "Redes de computadores: arquitetura TCP/IP, endereçamento IPv4 e IPv6, DNS e DHCP",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_FGV_TJ_DFT_2022_Q1760",
+    "banca": "FGV",
+    "orgao": "TJ/DFT",
+    "ano": 2022,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "A equipe de redes de um órgão público precisa segmentar sua rede local para hospedar seus ambientes produtivos e não produtivos, de forma que o tráfego de uma rede não impacte o outro, devido aos seus distintos comportamentos. Para assegurar a comunicação segura e estável entre ambos os ambientes, a equipe decidiu segmentar a rede por meio de VLANs. A implementação das VLANs assegura:",
+    "alternativas": {
+      "A": "o roteamento entre diferentes comutadores;",
+      "B": "que os hosts estejam fisicamente separados;",
+      "C": "a segmentação de redes com, no mínimo, dois comutadores;",
+      "D": "a restrição do tráfego do segmento a um único comutador;",
+      "E": "que hosts conectados em portas com VID diferentes em um comutador estejam em domínios de broadcast diferentes."
+    },
+    "gabarito_oficial": "E",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Sistemas Operacionais, Redes e Computação em Nuvem",
+    "target_topico": "Redes de computadores: arquitetura TCP/IP, endereçamento IPv4 e IPv6, DNS e DHCP",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_FGV_TJ_DFT_2022_Q1761",
+    "banca": "FGV",
+    "orgao": "TJ/DFT",
+    "ano": 2022,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Um órgão público possui algumas unidades distantes geograficamente umas das outras e está pesquisando soluções que sejam confiáveis e que suportem criptografia para conectar as unidades entre si. Sobre as tecnologias MPLS (Multi-Protocol Label Switching) e SD- WAN (Software-Defined Wide Area Network), é correto afirmar que:",
+    "alternativas": {
+      "A": "as duas tecnologias podem coexistir numa mesma rede;",
+      "B": "o desempenho da aplicação é sempre previsível na tecnologia SD-WAN;",
+      "C": "a tecnologia MPLS opera na camada de transporte da arquitetura TCP/IP;",
+      "D": "a tecnologia SD-WAN consegue usar criptografia ponta a ponta, mas o MPLS não suporta;",
+      "E": "em relação ao tráfego de dados, o MPLS distribui os dados por diversos caminhos, e a SD-WAN utiliza sempre o mesmo caminho."
+    },
+    "gabarito_oficial": "A",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_FGV_TJ_DFT_2022_Q1763",
+    "banca": "FGV",
+    "orgao": "TJ/DFT",
+    "ano": 2022,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Uma instituição pretende instalar uma rede Wi-Fi nas suas dependências e está analisando os padrões disponíveis no mercado. O responsável pela análise descobriu que cada geração de redes sem fio Wi-Fi possui características intrínsecas da tecnologia adotada. Em função das características dos novos celulares que foram distribuídos para os colaboradores, a instituição decidiu instalar a rede Wi-Fi baseada no padrão 802.11ax que:",
+    "alternativas": {
+      "A": "opera somente na faixa de 5 GHz;",
+      "B": "também é conhecido como Wi-Fi de 5ª geração;",
+      "C": "é incompatível com os outros padrões de Wi-Fi;",
+      "D": "pode operar por meio de um canal de 320 MHz;",
+      "E": "pode operar usando modulação de amplitude de quadratura QAM-1024."
+    },
+    "gabarito_oficial": "E",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_FGV_TJ_DFT_2022_Q1765",
+    "banca": "FGV",
+    "orgao": "TJ/DFT",
+    "ano": 2022,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "A equipe de Tecnologia da Informação de um Tribunal deseja melhorar a disponibilidade de sua rede interna, por isso está pesquisando soluções de redundância para os seus dispositivos de conectividade. Uma das soluções pesquisadas adota o VRRP (Virtual Router Redundancy Protocol) para eliminar o ponto único de falha inerente ao ambiente estático roteado por padrão. Uma característica que também é inerente à solução pesquisada é que:",
+    "alternativas": {
+      "A": "todas as mensagens são executadas usando datagrama multicast IPv4 ou IPv6;",
+      "B": "um roteador VRRP não pode associar um roteador virtual ao seu endereço real em uma interface;",
+      "C": "existe uma restrição contra a reutilização de um mesmo VRID com um mapeamento de endereço diferente em LANs diferentes;",
+      "D": "para que sua operação seja possível, deve haver no mínimo um roteador Master e dois roteadores Backup;",
+      "E": "se o roteador Master ficar indisponível, o roteador Backup de menor prioridade será eleito Master e fará o escoamento do tráfego."
+    },
+    "gabarito_oficial": "A",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_FGV_TJ_DFT_2022_Q1767",
+    "banca": "FGV",
+    "orgao": "TJ/DFT",
+    "ano": 2022,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Os analistas de Tecnologia da Informação de uma instituição estão planejando modernizar o Centro de Dados da organização. Para isso, estão avaliando os indicadores de disponibilidade de sistemas e componentes, pois os indicadores são importantes para cálculos de desempenho e planejamento da manutenção. Um dos componentes em avaliação possui o tempo médio de operação sem falhas de 500 horas e o tempo médio de reparo é de 5 horas. Com base nessas informações, é correto afirmar que:",
+    "alternativas": {
+      "A": "o MTTF é de 5 horas;",
+      "B": "o MTBF é de 100 horas;",
+      "C": "o MTBF é de 500 horas;",
+      "D": "a disponibilidade do componente é de 90%;",
+      "E": "a disponibilidade do componente é de 95%."
+    },
+    "gabarito_oficial": "C",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Infraestrutura como código e gerenciamento de configuração",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_FGV_TJ_DFT_2022_Q1768",
+    "banca": "FGV",
+    "orgao": "TJ/DFT",
+    "ano": 2022,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "O órgão XPTO do Poder Judiciário está implementando tecnologia em nuvem para prover serviços para outros órgãos. Os serviços ofertados consistirão em um ambiente no qual os clientes receberão máquinas virtuais, com suas áreas de armazenamento definidas (storage) e as interfaces de rede de acordo com os ambientes (produtivos ou não produtivos), nas quais poderão instalar os sistemas operacionais e suas aplicações para disponibilizarem serviços para seus clientes. De acordo com a NIST SP 800-145, o modelo de serviço de nuvem implementado pelo órgão XPTO é o:",
+    "alternativas": {
+      "A": "infrastructure as a service;",
+      "B": "on-demand self-service;",
+      "C": "software as a service;",
+      "D": "platform as a service;",
+      "E": "measured service."
+    },
+    "gabarito_oficial": "A",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_FGV_TJ_DFT_2022_Q1772",
+    "banca": "FGV",
+    "orgao": "TJ/DFT",
+    "ano": 2022,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "A Estratégia Nacional de Tecnologia da Informação e Comunicação do Poder Judiciário (ENTIC-JUD) visa ao incremento da governança, da gestão e da colaboração tecnológica no âmbito do Poder Judiciário, com o objetivo de maximizar os resultados com otimização de recursos, pautados em eficiência, eficácia, efetividade e economicidade dos órgãos. A fim de cumprir o objetivo da ENTIC-JUD, todos os órgãos do Poder Judiciário devem constituir um Comitê de Governança de Tecnologia da Informação e Comunicação multidisciplinar. Uma das atribuições desse comitê, de acordo com a Resolução CNJ nº 370/2021, é:",
+    "alternativas": {
+      "A": "acompanhar o andamento das iniciativas estratégicas bem como seus desdobramentos;",
+      "B": "estabelecer plano de ação para iniciativas de curta duração ou escopo simplificado;",
+      "C": "monitorar a execução orçamentária e financeira de Tecnologia da Informação e Comunicações (TIC);",
+      "D": "aprovar planos táticos e operacionais junto à alta administração, disseminando a importância da área de TIC nos tribunais;",
+      "E": "promover ações de transparência, responsabilidade e prestação de conta, possibilitando um maior controle e acompanhamento da governança para convergência dos interesses entre Poder Judiciário e a sociedade."
+    },
+    "gabarito_oficial": "E",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_FGV_TJ_DFT_2022_Q1773",
+    "banca": "FGV",
+    "orgao": "TJ/DFT",
+    "ano": 2022,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Segundo o ITIL versão 4, a prática que define metas claras e baseadas no negócio para o desempenho dos serviços, permitindo que a entrega de um serviço seja devidamente avaliada, monitorada e gerenciada com relação a essas metas, é o gerenciamento de:",
+    "alternativas": {
+      "A": "capacidade de serviço;",
+      "B": "configuração de serviço;",
+      "C": "continuidade de serviço;",
+      "D": "desempenho de serviço;",
+      "E": "nível de serviço."
+    },
+    "gabarito_oficial": "E",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Banco de Dados",
+    "target_topico": "transações e propriedades ACID",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_FGV_TJ_DFT_2022_Q1775",
+    "banca": "FGV",
+    "orgao": "TJ/DFT",
+    "ano": 2022,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "A analista Ana precisa implantar o pod LogPod no cluster de Kubernetes KCluster do TJDFT de forma que todos os nós elegíveis do KCluster executem uma cópia do LogPod. Para que o KCluster apresente uma cópia do LogPod em cada nó elegível, de forma automática, Ana deve implantar o LogPod utilizando o recurso do Kubernetes:",
+    "alternativas": {
+      "A": "ReplicationController;",
+      "B": "ReplicaSet;",
+      "C": "StatefulSet;",
+      "D": "DaemonSet;",
+      "E": "EndpointSlice."
+    },
+    "gabarito_oficial": "D",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_FGV_TJ_DFT_2022_Q1776",
+    "banca": "FGV",
+    "orgao": "TJ/DFT",
+    "ano": 2022,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "O analista João administra o domínio Active Directory ad.tj.dft e precisa atribuir novas permissões ao usuário administrador RaizSD_u. O usuário RaizSD_u é membro de um grupo protegido do Active Directory. Sendo assim, para que esta alteração de permissões persista ao longo do tempo, João deve adicionar as novas permissões no objeto de ad.tj.dft:",
+    "alternativas": {
+      "A": "AdminSDHolder;",
+      "B": "IIS_IUSRS;",
+      "C": "rootDSE;",
+      "D": "Krbtgt;",
+      "E": "Replicator."
+    },
+    "gabarito_oficial": "A",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Sistemas Operacionais, Redes e Computação em Nuvem",
+    "target_topico": "Serviços de diretório: Active Directory e LDAP",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_FGV_TJ_DFT_2022_Q1777",
+    "banca": "FGV",
+    "orgao": "TJ/DFT",
+    "ano": 2022,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "A analista Sara modificou alguns arquivos do container Docker TJSiteContainer que se encontra em execução. Para criar uma imagem Docker a partir do estado atual de TJSiteContainer, a fim de persistirem as modificações efetuadas em seus arquivos, Sara deve utilizar o comando:",
+    "alternativas": {
+      "A": "docker create",
+      "B": "docker diff",
+      "C": "docker export",
+      "D": "docker image save",
+      "E": "docker commit"
+    },
+    "gabarito_oficial": "E",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  }
+]

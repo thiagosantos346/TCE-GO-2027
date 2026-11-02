@@ -1,0 +1,952 @@
+[
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1536",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "O acompanhamento das práticas de sustentabilidade nos órgãos e conselhos do Poder Judiciário ainda depende da criação de indicadores mínimos para a avaliação do desempenho ambiental e econômico do PLS-PJ.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1538",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Em comparação aos certames que se valem fundamentalmente do critério de menor preço, as licitações que adotam critérios e práticas de sustentabilidade, como, por exemplo, a aquisição de produtos e serviços com maior vida útil e menor custo de manutenção, podem dispensar o caráter competitivo do certame.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1539",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "A administração pública poderá exigir, no instrumento convocatório para a aquisição de bens, que estes sejam constituídos por material reciclado, atóxico ou biodegradável, entre outros critérios de sustentabilidade.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1542",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Se determinado órgão estiver participando de uma licitação para registro de preços, será obrigatória a elaboração da análise de riscos na fase de planejamento da contratação. De acordo com a norma ISO 20000, que regulamenta o padrão para gerenciamento de serviços de TI, julgue os itens que se seguem.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS A01 - TÉCNICO ADMINISTRATIVO",
+    "target_materia": "Licitações e Contratos Administrativos",
+    "target_topico": "Planejamento das contratações: Plano Anual de Contratações, Estudo Técnico Preliminar, Termo de Referência e matriz de riscos",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1548",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "De acordo com a norma ISO 38500, os desenvolvimentos em TI devem ser submetidos a uma avaliação focada na realidade atual do negócio de modo a oferecer suporte ao referido negócio.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Infraestrutura como código e gerenciamento de configuração",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1549",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "A aplicação do modelo de avaliação de capacidades de processos do COBIT 5 é insuficiente para fornecer um quadro completo a respeito da governança de uma organização.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Infraestrutura como código e gerenciamento de configuração",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1550",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "A monitoração contínua provê métricas que podem provocar mudanças nos planos de negócio necessários à entrega de serviços de TI.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1552",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Na estimativa de custos de projetos, a aplicação da técnica Delphi pode melhorar a exatidão das referidas estimativas.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1553",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Conforme disposto na norma ISO 27004, na avaliação da efetividade de um sistema de gerenciamento da segurança da informação, a fase de interpretação dos valores medidos identifica lacunas entre os valores de linha base e os valores efetivamente medidos.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Infraestrutura como código e gerenciamento de configuração",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1554",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "De acordo com a norma ISO 27005, na estimativa de riscos, podem ser aplicadas metodologias qualitativas para a identificação de riscos.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1555",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "De acordo com a norma ISO 27001, o sistema de gerenciamento da segurança da informação deve ser revisado regularmente, considerando-se as sugestões e os feedbacks das partes interessadas.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Família de normas ABNT NBR ISO/IEC 27000 (gestão da segurança da informação)",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1561",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "A análise de riscos pode identificar situações em que um risco de rara ocorrência pode levar à implementação de controles injustificáveis do ponto de vista estritamente econômico. Com relação à gestão de continuidade de negócio e ao gerenciamento de incidentes de segurança da informação, julgue os itens subsequentes.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1566",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Firewalls que utilizam filtros de pacotes sem estados não verificam a parte útil de dados dos pacotes e não guardam o estado das conexões, o que pode impedir que sejam totalmente eficazes.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1570",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Uma vez que a varredura simples de portas é facilmente detectada por firewalls, outros tipos de mensagens passaram a ser utilizadas para mapeamento de serviços de redes, como por exemplo, as de RESET e as de SYN-ACK, que sinalizariam tentativa legítima de conexão, e, ainda, pacotes de resposta DNS (domain name system), que são respostas a mensagens geradas internamente.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Controle de acesso: autenticação, autorização e gestão de identidades (IAM)",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1571",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "O DHCP (dynamic host configuration protocol) é um protocolo de inicialização alternativo que utiliza mensagens UDP (user datagram protocol) encaminhadas pelos roteadores e fornece informações a uma estação de trabalho sem disco, como o endereço IP (internet protocol) do servidor de arquivos que contém a imagem de memória, o endereço IP do roteador padrão e a máscara de sub-rede a ser usada. Com relação a redes de computadores, julgue os itens subsequentes.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Sistemas Operacionais, Redes e Computação em Nuvem",
+    "target_topico": "Sistemas operacionais Windows e Linux: administração básica",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1572",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "O uso de um servidor DNS de encaminhamento central para a resolução de nomes da Internet pode reduzir o desempenho da rede, tornando complexo o processo de solução de problemas, além de ser uma prática não recomendada em termos de segurança.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1578",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "O uso de índices pode aumentar o desempenho na operação de bancos de dados. No entanto, caso um arquivo com índice sequencial seja utilizado, o desempenho do banco de dados é reduzido à medida que o tamanho desse arquivo aumenta.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1579",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Os sistemas distribuídos podem ser considerados um caso particular dos sistemas cliente-servidor, visto que em geral em um sistema distribuído alguns sítios são clientes e outros são servidores, porém todos os dados residem nos sítios servidores e todas as aplicações são executadas nos sítios clientes.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1581",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Diferentemente das versões anteriores, o SQL Server 2014 não pode ser instalado em computadores com sistema de arquivos FAT32, mas apenas em computadores com sistema de arquivos NTFS.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1582",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "No PostgresSQL, com a execução do comando initdb para criação de um database cluster, será solicitada inicialmente ao operador a definição de um nome de usuário com até oito caracteres.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1585",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "O desempenho da maioria dos sistemas está relacionado ao desempenho de seus componentes e, assim, o tempo gasto em cada região do código determinará o tempo de execução total. No entanto, isso nem sempre ocorre em sistemas gerenciadores de banco de dados, uma vez que esses sistemas podem ser modelados como sistemas em filas, o que gera longas filas de espera por determinado serviço.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1587",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "O sistema em questão utiliza criptografia assimétrica como, por exemplo, o algoritmo 3DES.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Criptografia simétrica e assimétrica",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1588",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Nessa situação, Maria pode solicitar a revogação de seu certificado digital junto à autoridade certificadora que o emitiu.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1593",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Um conjunto redundante de discos independentes (RAID) pode ser implementado tanto em software quanto em hardware.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1594",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "O NAS utiliza protocolos como TCP/IP, CIFS e NFS para possibilitar o compartilhamento de arquivos em uma rede de computadores.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Sistemas Operacionais, Redes e Computação em Nuvem",
+    "target_topico": "Redes de computadores: arquitetura TCP/IP, endereçamento IPv4 e IPv6, DNS e DHCP",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1600",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Um administrador pode incluir uma configuração para determinado diretório por meio da diretriz <Directory>.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1601",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Em um provedor que fornece um serviço como PaaS (platform-as-a-service), o consumidor consegue configurar a rede e o sistema operacional utilizados.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Sistemas Operacionais, Redes e Computação em Nuvem",
+    "target_topico": "Computação em nuvem: modelos IaaS, PaaS e SaaS",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1602",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "As características da computação na nuvem incluem a elasticidade, que consiste na capacidade de adicionar ou remover recursos para lidar com a variação de demanda.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Infraestrutura como código e gerenciamento de configuração",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1603",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "O seguinte script Powershell lista todos os diretórios e arquivos do driver C. Get-ChildItem C:\\ -Recurse",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Sistemas Operacionais, Redes e Computação em Nuvem",
+    "target_topico": "Comandos básicos de shell (Linux) e do Windows PowerShell",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1606",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Aplicações web desenvolvidas com as tecnologias Java Servlet e JSP podem ser executadas no container IIS.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1607",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "É possível implementar autenticação de usuários por meio de módulos que consultam um servidor LDAP.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Sistemas Operacionais, Redes e Computação em Nuvem",
+    "target_topico": "Serviços de diretório: Active Directory e LDAP",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1608",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "O serviço de mensagens fornecido pelo HornetQ para o JBoss permite a criação de sistemas fracamente acoplados.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Infraestrutura como código e gerenciamento de configuração",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1609",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "O objetivo do direito é a paz. A luta é o meio de 1 O Programa de Responsabilidade consegui-la. Enquanto o direito tiver de repelir o ataque Socioambiental Viver Direito do TJDFT foi instituído por meio causado pela injustiça — e isso durará enquanto o mundo da Portaria GPR n.º 1.313/2012. As bases do Programa Viver 4 estiver de pé —, ele não será poupado. Direito, seus objetivos e sua meta permanente são 4 A vida do direito é a luta: a luta de povos, de apresentados, respectivamente, nos artigos 1.º, 2.º e 3.º da governos, de classes, de indivíduos. Todo o direito do mundo referida portaria, os quais são transcritos abaixo: 7 foi assim conquistado. Todo ordenamento jurídico que se lhe Art. 1.º Reeditar o Programa de Responsabilidade 7 contrapôs teve de ser eliminado e todo direito, o direito de um Socioambiental do TJDFT Viver Direito, cuja base é a Agenda povo ou o de um indivíduo, teve de ser conquistado com luta. Socioambiental do TJDFT que, em permanente revisão,",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Princípios da segurança da informação: confidencialidade, integridade, disponibilidade, autenticidade e não repúdio",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1610",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "O direito não é mero pensamento, mas sim força viva. estabelece novas ações sociais e ambientais e as integra às 10 Por isso, a justiça segura, em uma das mãos, a balança, com a existentes no âmbito do Poder Judiciário do Distrito Federal e qual pesa o direito, e, na outra, a espada, com a qual o defende. Territórios, visando à preservação e à recuperação do meio",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1611",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "A espada sem a balança é a força bruta, a balança sem a espada 13 ambiente, por meio de ações sociais sustentáveis, a fim de é a fraqueza do direito. Ambas se completam e o verdadeiro torná-lo e mantê-lo ambientalmente correto, socialmente justo estado de direito só existe onde a força, com a qual a justiça e economicamente viável. 16 empunha a espada, é usada com a mesma destreza com que a 16 Art. 2.º O Programa de Responsabilidade justiça maneja a balança. Socioambiental Viver Direito objetiva indicar e programar O direito é um labor contínuo, não apenas dos ações bem como sensibilizar os públicos interno e externo 19 governantes, mas de todo o povo. Cada um que se encontra na 19 quanto ao exercício dos direitos sociais, à gestão adequada dos situação de precisar defender seu direito participa desse resíduos gerados pelo órgão, ao combate a todas as formas de trabalho, levando sua contribuição para a concretização da desperdício dos recursos naturais e à inclusão de critérios 22 ideia de direito sobre a Terra. 22 socioambientais nos investimentos, nas construções, nas Rudolf von Ihering. A luta pelo direito. Tradução de J. Cretella Jr. compras e nas contratações de serviços da instituição. e Agnes Cretella. 5.ª ed. revista da tradução. São Paulo: Art. 3.º Define-se como meta permanente do Viver Editora Revista dos Tribunais, 2008, p. 31 (com adaptações).",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Princípios da segurança da informação: confidencialidade, integridade, disponibilidade, autenticidade e não repúdio",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1613",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "A forma verbal “defende” (R.12) está flexionada na terceira 28 social, com base no desenvolvimento do ser humano e na pessoa do singular por concordar com seu sujeito, cujo preservação da vida. referente é “a justiça” (R.11).",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Princípios da segurança da informação: confidencialidade, integridade, disponibilidade, autenticidade e não repúdio",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1621",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "A correção gramatical e o sentido original do texto seriam 12 O termo “ambientalmente correto, socialmente justo e preservados caso a oração “que se lhe contrapôs” (R. 7 e 8) economicamente viável” (R. 14 e 15) exerce a função de fosse reescrita como que foi contraposto a ele. predicativo. Texto para os itens de 13 a 21",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Controle de acesso: autenticação, autorização e gestão de identidades (IAM)",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1624",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "A violência contra os segmentos mais vulneráveis (idosos, crianças, negros, mulheres, deficientes, população indígena e LGBT) ecoa na sociedade pelas vozes que incitam o ódio sob 10 o manto de pretensa imunidade. No cenário de exclusão e violência, é preciso radicalizar a política de ampliação do acesso à justiça. Para 13 tanto, não basta a inclusão no sistema da maioria excluída. Há consenso de que o acesso à justiça não se limita ao direito de acessar o Judiciário. Para que a promoção da justiça seja tarefa 16 de todos, é necessário romper os limites das liturgias forenses e levar a justiça onde o conflito está, ou seja, na vida, na casa e na rua. Nesse sentido, a política de universalização do acesso 19 à justiça deve contemplar dois eixos de atuação: o de proteção dos direitos violados (inclusive quando o órgão violador é o próprio Estado) e o de prevenção da violência, por meio do 22 envolvimento da sociedade na formulação de uma política que assegure direitos e promova a paz. No primeiro eixo, é preciso coragem para a adoção de 25 políticas públicas no âmbito penal com franco apelo popular: firmeza no combate à tortura e à violência policial, reestruturação da política penitenciária e fortalecimento da 28 defensoria pública para assegurar a proteção dos direitos humanos. Não é aceitável que o Brasil pretenda consolidar sua democracia praticando um direito penal patrimonialista e 31 revanchista que olha para o passado, julga e pune, sob a pretensão de que a privação da liberdade vai “reeducar” o indivíduo a viver em sociedade.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Infraestrutura como código e gerenciamento de configuração",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1625",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Os estatutos penais devem absorver as práticas restaurativas que recuperam as relações afetadas pela violência. São inúmeras as alternativas penais possíveis que, por sua 37 efetividade, afastam a impunidade: as prestações de serviços comunitários; os círculos restaurativos nos moldes da Resolução n.º 2.002/2012 da Organização das Nações Unidas; 40 a mediação de conflitos no âmbito penal, civil e familiar. No eixo da prevenção da violência, a sociedade pode promover a justiça comunitária antes da judicialização dos conflitos, por 43 meio da mediação, da educação para os direitos e da articulação de uma rede de participação na gestão da comunidade.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1626",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "A política de acesso à justiça deve mobilizar todos os segmentos sociais contra a violência que emerge no cotidiano, dentro e fora do Estado. Para além das múltiplas portas que o 49 sistema de justiça deve abrir, é necessária a adoção de espaços livres de coerção para a construção de uma justiça acessível, mas, sobretudo, realizada por todos. Glaúcia Falsarella Foley. Nova política de acesso à justiça é possível. In: Correio Braziliense, 22/12/2014 (com adaptações).",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Princípios da segurança da informação: confidencialidade, integridade, disponibilidade, autenticidade e não repúdio",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1627",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Historicamente, a sociedade tem atuado à sombra do Poder Judiciário na luta contra a violência. Atualmente, essa situação mudou e o envolvimento da sociedade na formulação de políticas de prevenção da violência é cada vez mais fundamental.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1631",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "O emprego do verbo “dever” e o uso das expressões “ser preciso” e “ser necessário” ao longo do texto servem para sinalizar ações consideradas importantes e programáticas no desenvolvimento de uma nova política de acesso à justiça.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Engenharia de Software",
+    "target_topico": "Abordagens, métodos e frameworks ágeis: Scrum, Kanban, Lean Software Development e Extreme Programming (XP)",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1633",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "A oração “radicalizar a política de ampliação do acesso à justiça” (R.12) e o termo “consenso” (R.14) exercem a mesma função sintática nos períodos em que ocorrem.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Infraestrutura como código e gerenciamento de configuração",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1634",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "O uso do modo subjuntivo em “que assegure direitos e promova a paz” (R. 22 e 23) indica que a ideia expressa nessas orações é uma possibilidade.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Engenharia de Software",
+    "target_topico": "Abordagens, métodos e frameworks ágeis: Scrum, Kanban, Lean Software Development e Extreme Programming (XP)",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1635",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Em “mas, sobretudo, realizada por todos” (R.51), a palavra “sobretudo” significa especialmente e serve para reforçar a ideia de oposição veiculada pela conjunção “mas”. ***. 118/MJ Em 12 de maio de 2011 À Excelentíssima Sra. Chefe da Gerência de Manutenção e Tecnologia do MJ Assunto: Administração. Pedido de agendamento de manutenção em equipamentos. 1. Com o objetivo de dar cumprimento ao Plano Geral de Reparos e Modernização dos equipamentos de tecnologia deste Órgão, gentilmente, solicito a Você o agendamento de visita técnica a este Departamento. 2. Durante as últimas semanas, foram constatados diversos defeitos nos computadores e nos monitores utilizados pelos funcionários. Será necessário reparos e substituições de alguns equipamentos. Por esta razão, solicitamos que a equipe de manutenção dirija-se ao local com peças de substituição. 3. Os equipamentos a serem substituídos são três teclados e três estabilizadores, conforme relatório produzido pela área técnica do Departamento, que segue anexo. 4. Solicitamos que o agendamento seja realizado o mais rapidamente possível pois a inoperância dos equipamentos ocasiona atraso no andamento dos processos que estão sob nossa responsabilidade. Respeitosamente, Maria Helena Júlia Diretora do Departamento de Comunicação Social do MJ",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS GERAIS (A01 E B02)",
+    "target_materia": "Língua Portuguesa",
+    "target_topico": "Compreensão e interpretação de textos de gêneros variados",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1644",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Ao negar publicidade a ato oficial, o servidor público comete ato de improbidade administrativa, o que atenta contra os princípios da administração pública. Para tanto, torna-se irrelevante considerar se houve ação de caráter doloso ou culposo.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS A01 - TÉCNICO ADMINISTRATIVO",
+    "target_materia": "Noções de Direito Administrativo",
+    "target_topico": "Lei de Improbidade Administrativa (Lei nº 8.429/1992 com redação dada pela Lei nº 14.230/2021 e alterações)",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1645",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Considerando a interpretação conferida pelo Supremo Tribunal Federal ao conceito de agentes públicos, todos os agentes políticos estão sujeitos às disposições da Lei de Improbidade Administrativa.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS A01 - TÉCNICO ADMINISTRATIVO",
+    "target_materia": "Noções de Direito Administrativo",
+    "target_topico": "Lei de Improbidade Administrativa (Lei nº 8.429/1992 com redação dada pela Lei nº 14.230/2021 e alterações)",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1646",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "A aplicação da penalidade de demissão não poderá ser delegada pelo presidente da República a ministro de Estado, sob pena de ineficácia do ato.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1647",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "O servidor não efetivo que ocupe cargo em comissão será demitido do cargo nos casos de infração sujeita às penalidades de suspensão e de demissão. Com referência às disposições inscritas no Código de Ética Profissional do Serviço Público, julgue os próximos itens.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS GERAIS (A01 E B02)",
+    "target_materia": "Matemática e Raciocínio Lógico",
+    "target_topico": "Números inteiros e racionais: operações (adição, subtração, multiplicação, divisão, potenciação)",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_TJ_DFT_2015_Q1649",
+    "banca": "CEBRASPE",
+    "orgao": "TJ/DFT",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "O registro sobre a conduta ética do servidor será fornecido pela comissão de ética aos organismos encarregados da execução do quadro de carreira, com o objetivo de instruir e fundamentar promoções. A parceria transpacífica (TPP) — peça central da estratégia dos Estados Unidos da América (EUA) de fortalecer sua influência na Ásia — vai muito além da abertura comercial, visto que ela avalia a liderança de Washington na definição de regras que poderão ditar um novo capítulo da integração econômica mundial, com a regulação dos investimentos, o funcionamento da Internet e a atuação de empresas estatais. O Estado de S.Paulo, 11/10/2015, p. B8 (com adaptações).",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  }
+]

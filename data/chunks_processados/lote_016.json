@@ -1,0 +1,952 @@
+[
+  {
+    "id": "V3_CEBRASPE_STF_2008_Q1366",
+    "banca": "CEBRASPE",
+    "orgao": "STF",
+    "ano": 2008,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Preenchidos os requisitos legais para ocupar cargo público, uma pessoa poderá ocupar cargo de auxiliar no gabinete de um ministro do STF, mesmo não sendo servidor ocupante do cargo efetivo.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_STF_2008_Q1367",
+    "banca": "CEBRASPE",
+    "orgao": "STF",
+    "ano": 2008,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Um procurador autárquico, mesmo que grande especialista em matéria tributária, não poderá ser nomeado como assessor de ministro, já que esse cargo deve ser ocupado por servidores públicos efetivos do próprio STF.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STF_2008_Q1372",
+    "banca": "CEBRASPE",
+    "orgao": "STF",
+    "ano": 2008,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Nas redes de computadores, os protocolos de comunicação estabelecem regras que governam as trocas de dados entre entidades em diferentes sistemas. Esses protocolos podem ser codificados em módulos e organizados em camadas, tais como a camada de acesso à rede, a de transporte e a de aplicação.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STF_2008_Q1379",
+    "banca": "CEBRASPE",
+    "orgao": "STF",
+    "ano": 2008,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Técnicas de modulação podem transformar sinais digitais em analógicos. Algumas técnicas melhoram o uso da banda passante, pois possibilitam que cada elemento de sinalização represente mais de um bit. Por exemplo, há técnicas em que cada elemento de sinalização representa dois bits.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STF_2008_Q1383",
+    "banca": "CEBRASPE",
+    "orgao": "STF",
+    "ano": 2008,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Na arquitetura do modelo OSI da ISO, protocolos de transporte podem ser não-orientados a conexão e localizam- se na terceira camada. As responsabilidades desses protocolos incluem o endereçamento lógico dos dispositivos na rede, o roteamento e a fragmentação de datagramas.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STF_2008_Q1384",
+    "banca": "CEBRASPE",
+    "orgao": "STF",
+    "ano": 2008,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Em redes frame relay, os quadros são roteados usando-se endereços de rede e não números de conexões; os formatos dos quadros de controle são diferentes do formato dos quadros de dados; os nós inspecionam os quadros para identificar quadros inválidos, descartam quadros inválidos e deixam a recuperação de erros para protocolos em camadas mais altas na pilha de protocolos.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Sistemas Operacionais, Redes e Computação em Nuvem",
+    "target_topico": "Redes de computadores: arquitetura TCP/IP, endereçamento IPv4 e IPv6, DNS e DHCP",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STF_2008_Q1386",
+    "banca": "CEBRASPE",
+    "orgao": "STF",
+    "ano": 2008,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "O valor do byte mais significativo de um endereço IPv4 determina a classe do endereço e, nesse sentido: 10.0.0.0 identifica uma rede de classe A com endereços não-privados; 154.3.0.0 é o endereço de broadcast de uma rede classe B; 227.82.157.16 endereça um dispositivo em uma rede classe C.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Sistemas Operacionais, Redes e Computação em Nuvem",
+    "target_topico": "Redes de computadores: arquitetura TCP/IP, endereçamento IPv4 e IPv6, DNS e DHCP",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STF_2008_Q1392",
+    "banca": "CEBRASPE",
+    "orgao": "STF",
+    "ano": 2008,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Na arquitetura SNMP, estações de gerência podem solicitar informações acerca de objetos nas MIBs enviando mensagens para agentes. Os agentes, sem receber mensagens de solicitação, podem enviar notificações para estações de gerência. Os objetos nas MIBs estão organizados hierarquicamente e cada objeto tem um identificador que informa a sua localização na hierarquia.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_STF_2008_Q1396",
+    "banca": "CEBRASPE",
+    "orgao": "STF",
+    "ano": 2008,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Se K for uma chave simétrica conhecida apenas pelas entidades X e Y, pode-se garantir a confidencialidade dos dados D e a autenticidade da origem com o seguinte procedimento: 1) X concatena K a D, produzindo M1, e calcula um código de autenticação MAC1 para M1 via função de dispersão (hash); 2) X concatena MAC1 a D e envia-os para Y; 3) Y concatena K a D, produzindo M2; 4) Y calcula o código de autenticação MAC2 para M2, usando a função de dispersão; 5) Y compara MAC1 a MAC2.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STF_2008_Q1397",
+    "banca": "CEBRASPE",
+    "orgao": "STF",
+    "ano": 2008,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "O seguinte procedimento possibilita a Y verificar se foi X quem assinou uma mensagem M, enviada: 1) X calcula um código de autenticação MAC1 para M, usando uma função de dispersão (hash) apropriada; 2) X usa a sua chave privada para criptografar MAC1; 3) X envia M e o MAC1 criptografado para Y; 4) Y calcula um código MAC2 para M, usando a função de dispersão; 5) Y usa a chave pública de X para decifrar o MAC1 recebido e compara MAC1 a MAC2. estrutura de chaves públicas, elas devem trocar a chave de sessão K a ser usada para garantir a confidencialidade da comunicação entre elas, com o seguinte procedimento: 1) X obtém o certificado de Y a partir de um repositório; 2) X extrai a chave pública de Y a partir desse certificado; 3) X gera K e a criptografa com a chave pública de Y; 4) X envia o seu certificado e K criptografada para Y; 5) Y extrai a chave pública de X a partir do certificado recebido; 6) Y usa a chave pública de X para decifrar a chave K.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Criptografia simétrica e assimétrica",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_STF_2008_Q1398",
+    "banca": "CEBRASPE",
+    "orgao": "STF",
+    "ano": 2008,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Osfirewalls baseados em proxies interceptam mensagens de protocolos de aplicação que trafegam entre a rede não- protegida e a protegida. Em uma rede privada conectada à Internet via um firewall baseado em proxies, um dos endereços IP do firewall pode ser visível na Internet.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STF_2008_Q1403",
+    "banca": "CEBRASPE",
+    "orgao": "STF",
+    "ano": 2008,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Os diferentes estados que um processo pode assumir durante a execução de um programa são: novo (new), esperando (waiting), executando (running) e finalizado (terminated).",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STF_2008_Q1418",
+    "banca": "CEBRASPE",
+    "orgao": "STF",
+    "ano": 2008,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Montador é um programa de computador que realiza a conversão de uma linguagem de montagem (assembly) para código de máquina. dados é um trabalho importante e muito explorado em um sistema gerenciador de banco de dados (SGBD). Com relação aos conceitos que envolvem esse sistema, julgue os itens que se seguem.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Criptografia simétrica e assimétrica",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STF_2008_Q1419",
+    "banca": "CEBRASPE",
+    "orgao": "STF",
+    "ano": 2008,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Dado um conjunto de relacionamentos R binário entre os conjuntos de entidades A e B, é correto afirmar que, em um mapeamento de cardinalidade muitos para muitos, uma entidade A está associada a qualquer número de entidades em B e uma entidade em B está associada a um número qualquer de entidades em A.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Princípios da segurança da informação: confidencialidade, integridade, disponibilidade, autenticidade e não repúdio",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STF_2008_Q1420",
+    "banca": "CEBRASPE",
+    "orgao": "STF",
+    "ano": 2008,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "As características do atributo CEP — numérico, seqüencial e não repetido — permitem utilizá-lo como chave primária em um banco de dados destinado ao cadastro de clientes de uma loja.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Banco de Dados",
+    "target_topico": "Linguagem SQL",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STF_2008_Q1428",
+    "banca": "CEBRASPE",
+    "orgao": "STF",
+    "ano": 2008,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Regras de datalog podem ser classificadas como sendo um tipo de gatilho (trigger) utilizado, geralmente, para o tratamento na definição de visões no banco de dados. today looks at how emerging computer technologies will change",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STF_2013_Q1430",
+    "banca": "CEBRASPE",
+    "orgao": "STF",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "O COBIT 5 possui cinco domínios, sendo um deles o domínio Avaliar, Direcionar e Monitorar (EDM – Evaluate, Direct and Monitor), afeto diretamente à governança e relacionado a ISO 38500.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Governança de Tecnologia da Informação",
+    "target_topico": "Boas práticas e modelos de referência: COBIT 2019, ITIL v4 e ISO/IEC 38500:2024",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_STF_2013_Q1431",
+    "banca": "CEBRASPE",
+    "orgao": "STF",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "A ISO 38500 visa promover o uso eficaz, eficiente e aceitável da tecnologia da informação (TI) e possui, como princípios da boa governança corporativa de TI, a responsabilidade, a estratégia e a aquisição.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Governança de Tecnologia da Informação",
+    "target_topico": "Boas práticas e modelos de referência: COBIT 2019, ITIL v4 e ISO/IEC 38500:2024",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STF_2013_Q1432",
+    "banca": "CEBRASPE",
+    "orgao": "STF",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "O COBIT possui como princípio e enfoque exclusivo as funções inerentes a TI. Na versão 5, o COBIT integra, em um framework único, o BSC, o VAL IT e o COSO, devido ao fato de o cenário atual recomendar que a TI seja parte estratégica das organizações e de reconhecer a importância do alinhamento entre a TI e o negócio.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Criptografia simétrica e assimétrica",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STF_2013_Q1433",
+    "banca": "CEBRASPE",
+    "orgao": "STF",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "O desenho do serviço é influenciado por alterações nas necessidades de negócio e melhorias de serviços. O ITIL preconiza que deve ser adotada uma abordagem estruturada e holística para o desenho dos serviços, com vistas a garantir a consistência e a integração com o negócio.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Governança de Tecnologia da Informação",
+    "target_topico": "Boas práticas e modelos de referência: COBIT 2019, ITIL v4 e ISO/IEC 38500:2024",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STF_2013_Q1436",
+    "banca": "CEBRASPE",
+    "orgao": "STF",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Estudos técnicos preliminares, plano de trabalho, no caso da contratação de serviços, e o termo de referência ou projeto básico são requisitos mínimos exigidos no processo de planejamento da contratação de soluções em TI.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS A01 - TÉCNICO ADMINISTRATIVO",
+    "target_materia": "Licitações e Contratos Administrativos",
+    "target_topico": "Planejamento das contratações: Plano Anual de Contratações, Estudo Técnico Preliminar, Termo de Referência e matriz de riscos",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_STF_2013_Q1441",
+    "banca": "CEBRASPE",
+    "orgao": "STF",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Incidente de segurança da informação é um evento simples ou uma série de eventos indesejados ou inesperados, que tenham uma grande probabilidade de comprometer as operações do negócio e ameaçar a segurança da informação.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS GERAIS (A01 E B02)",
+    "target_materia": "Matemática e Raciocínio Lógico",
+    "target_topico": "Compreensão do processo lógico que, a partir de um conjunto de hipóteses, conduz, de forma válida, a conclusões determinadas",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STF_2013_Q1448",
+    "banca": "CEBRASPE",
+    "orgao": "STF",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Auditorias internas, que devem ser conduzidas no SGSI, podem ser feitas pela própria organização ou em nome da organização.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STF_2013_Q1452",
+    "banca": "CEBRASPE",
+    "orgao": "STF",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "As informações de uma organização possuem vários níveis de sensibilidade e criticidade, razão pela qual alguns itens podem necessitar de um tratamento e proteção diferenciados.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STF_2013_Q1460",
+    "banca": "CEBRASPE",
+    "orgao": "STF",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Se o switch for capaz de fazer roteamento entre as VLANs, ele permitirá a propagação dos endereços MAC das interfaces dos dois roteadores entre as respectivas VLANs criadas, em redes diferentes. O endereço IP de uma rede local é 10.100.100.0/24 e a única saída para a Internet é um roteador de saída cujo endereço IP é 200.20.20.1/30. Considerando que o administrador dessa rede tenha definido a utilização do NAT, julgue os itens seguintes.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Sistemas Operacionais, Redes e Computação em Nuvem",
+    "target_topico": "Redes de computadores: arquitetura TCP/IP, endereçamento IPv4 e IPv6, DNS e DHCP",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STF_2013_Q1463",
+    "banca": "CEBRASPE",
+    "orgao": "STF",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Ataques de negação de serviço distribuído com base em HTTP devem ser mitigados em firewall de camada de aplicação. Nesse caso, se for utilizado o protocolo HTTPS, a mitigação não será possível porque os dados trafegados são cifrados.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Princípios da segurança da informação: confidencialidade, integridade, disponibilidade, autenticidade e não repúdio",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_STF_2013_Q1464",
+    "banca": "CEBRASPE",
+    "orgao": "STF",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Um DDoS com base em ICMP será efetivo somente se for realizado no protocolo IPv4, uma vez que, em IPv6, o uso de ICMP é restrito para interface de loopback. Considere que um administrador de redes de uma empresa tenha realizado a captura de um tráfego suspeito com destino ao servidor web da empresa. Considere, ainda, que, ao verificar o fluxo de dados, o administrador tenha percebido uma grande quantidade de POSTs HTTP versão 1.1. Com base nessa situação hipotética, julgue o item abaixo.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Criptografia simétrica e assimétrica",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STF_2013_Q1472",
+    "banca": "CEBRASPE",
+    "orgao": "STF",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "No modelo entidade/relacionamento, deve-se incluir a chave estrangeira (chave primária) de uma entidade como campo da outra para modelar o relacionamento entre elas.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Banco de Dados",
+    "target_topico": "Linguagem SQL",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STF_2013_Q1473",
+    "banca": "CEBRASPE",
+    "orgao": "STF",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Em uma tabela na primeira forma normal, a exclusão de um registro pode levar à eliminação de outras informações relevantes, como, por exemplo, relacionamento entre entidades.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STF_2013_Q1478",
+    "banca": "CEBRASPE",
+    "orgao": "STF",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "O SQL_TRACE e o TKPROF podem identificar se determinada sentença SQL pode ser otimizada a fim de diminuir o consumo de processamento em consulta a banco de",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_STF_2013_Q1480",
+    "banca": "CEBRASPE",
+    "orgao": "STF",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Uma vantagem do Windows 2008 R2 sobre o Windows 2008 é que o primeiro pode ser instalado em arquiteturas de 32 e de 64 bits, ao passo que o segundo suporta apenas arquitetura de 32 bits.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STF_2013_Q1481",
+    "banca": "CEBRASPE",
+    "orgao": "STF",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Com o advento da versão 2 do Hyper-V no Windows 2008 R2, os sistemas virtualizados podem suportar até 64 processadores lógicos. Considere que, ao instalar um servidor Linux Red Hat ES6, um administrador de rede tenha optado por usar LVM (logical volume management) em seu ambiente. Com base nessa situação, julgue os itens que se seguem.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STF_2013_Q1483",
+    "banca": "CEBRASPE",
+    "orgao": "STF",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "É recomendado que a partição /boot esteja fora de um logical volume group, visto que o boot loader não é capaz de fazer sua leitura.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS A01 - TÉCNICO ADMINISTRATIVO",
+    "target_materia": "Noções de Administração Financeira e Orçamentária",
+    "target_topico": "Lei Orçamentária Anual",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STF_2013_Q1484",
+    "banca": "CEBRASPE",
+    "orgao": "STF",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Os volume groups podem ser divididos em volumes lógicos. Pontos de montagem podem ser atribuídos a volumes lógicos e ter o sistema de arquivo ext3.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STF_2013_Q1486",
+    "banca": "CEBRASPE",
+    "orgao": "STF",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "No processo de atualização do VMWare ESXi 5.1 para a versão 5.5 por meio do vCenter Single Sign-On, se a versão anterior possuir uma conta de administrador do ambiente em Active Directory, a conta será desativada por questões de segurança após o processo de atualização.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Criptografia simétrica e assimétrica",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_STF_2013_Q1495",
+    "banca": "CEBRASPE",
+    "orgao": "STF",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Na infraestrutura como serviço (IaaS), os provedores podem oferecer infraestrutura física ou virtualizada aos clientes, a depender da situação.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STF_2013_Q1496",
+    "banca": "CEBRASPE",
+    "orgao": "STF",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "No modelo de plataforma como serviços (PaaS), os provedores de serviço oferecem banco de dados e servidores de aplicação. No caso de ferramentas de desenvolvimento, o único modelo funcional é o de software como serviço (SaaS). (cid:129) Nesta prova, faça o que se pede, usando, caso deseje, o espaço para rascunho indicado no presente caderno. Em seguida, transcreva o texto para a FOLHA DE TEXTO DEFINITIVO DA PROVA DISCURSIVA, no local apropriado, pois não será avaliado fragmento de texto escrito em local indevido. (cid:129) Qualquer fragmento de texto além da extensão máxima de linhas disponibilizadas será desconsiderado. (cid:129) Na folha de texto definitivo, identifique-se apenas no cabeçalho da primeira página, pois não será avaliado texto que tenha qualquer assinatura ou marca identificadora fora do local apropriado. (cid:129) Ao domínio do conteúdo serão atribuídos até 30,00 pontos, dos quais até 1,50 ponto será atribuído ao quesito apresentação (legibilidade, respeito às margens e indicação de parágrafos) e estrutura textual (organização das ideias em texto estruturado). Uma empresa que vende materiais de limpeza deseja automatizar seu catálogo de produtos ofertados. Inicialmente, em reunião com a equipe de desenvolvimento, foi informado que cada produto seria caracterizado por um código único, nome, categoria (por exemplo, detergente, sabão em pó, sabonete etc.), data de fabricação, data de vencimento, peso e preço. A empresa possui informações de todos os seus clientes e fornecedores. Cada cliente é identificado por um código único (também interno à empresa), nome completo, endereço, telefone, filiação e limite de crédito. Armazena-se igualmente a informação dos pedidos de produtos feitos pelos clientes. Cada pedido possui um número único, data de elaboração, quantidade de produtos pedidos e o valor total, podendo envolver de um a vários produtos. Para cada produto vendido pela empresa há um fornecedor específico, com CNPJ, nome fantasia, telefone, endereço etc. Esse fornecedor pode oferecer vários produtos.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1498",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "A correção gramatical do texto seria prejudicada caso se 4 ser que possa viver isolado; é, ao contrário, ordenado empregasse o sinal indicativo de crase no vocábulo “a” em “dá teleologicamente a viver em sociedade. É um ser que vive, atua (R.20). suporte a exigências recíprocas” e relaciona-se na comunidade, e sente-se vinculado aos seus",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS GERAIS (A01 E B02)",
+    "target_materia": "Língua Portuguesa",
+    "target_topico": "Emprego do sinal indicativo de crase",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1499",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "A correção gramatical e o sentido original do texto seriam 7 semelhantes. Não pode renunciar à sua condição inata de preservados se a oração “A solidariedade, desse modo, exorta membro do corpo social, porque apenas os animais e os deuses atitudes de apoio e cuidados de uns com os outros” (R. 21 e 22) podem prescindir da sociedade e da companhia de todos os fosse reescrita da seguinte forma: Atitudes de apoio e cuidados 10 demais. de uns com os outros são exigidas para o exercício da O primeiro contato com a noção de solidariedade solidariedade. mostra uma relação de pertinência: as nossas ações sociais incidem, positiva ou negativamente, sobre todos os demais 7 A correção gramatical e o sentido original do texto seriam 13 membros da comunidade. A solidariedade implica, por outro preservados caso se inserisse o pronome se imediatamente lado, a corresponsabilidade, a compreensão da transcendência antes da forma verbal “pode” (R.7). 16 social das ações humanas, do coexistir e do conviver 8 Nas linhas 17 e 18, a expressão “a sua inegável dimensão comunitário. Percebe-se, aqui, igualmente, a sua inegável ética” constitui o sujeito da forma verbal “Percebe-se”. dimensão ética, em virtude do necessário reconhecimento 19 mútuo de todos como pessoas, iguais em direitos e obrigações, o que dá suporte a exigências recíprocas de ajuda ou sustento. A solidariedade, desse modo, exorta atitudes de apoio 22 e cuidados de uns com os outros. Pede diálogo e tolerância. Pressupõe um reconhecimento ético e, portanto, corresponsabilidade. Entretanto, para que não fique estagnada 25 em gestos tópicos ou se esgote em atitudes episódicas, a modernidade política impõe a necessidade dialética de um passo maior em direção à justiça social: o compromisso 28 constante com o bem comum e a promoção de causas ou objetivos comuns aos membros de toda a comunidade. Marcio Augusto de Vasconcelos Diniz. Estado social e princípio da solidariedade. In: Revista de Direitos e Garantias Fundamentais, Vitória, n.o 3, p. 31-48, jul.-dez./2008. Internet: <www.fdv.br> (com adaptações). !FimDoTexto! De acordo com as ideias do texto Estado social e princípio da solidariedade, 1 o compromisso constante com o bem comum e a promoção de causas ou objetivos comuns aos membros de toda a comunidade contribuem para que a solidariedade não fique restrita a ações locais e(ou) eventuais. 2 a solidariedade é uma característica inata dos seres humanos. 3 os animais e os deuses podem viver isoladamente, sem participação em uma comunidade, mas não os seres humanos. 4 o fato de as ações sociais de cada indivíduo incidirem sobre todos os demais membros da comunidade ratifica a dimensão ética da solidariedade, conquanto o reconhecimento mútuo de todos como pessoas iguais em direitos e obrigações configure-se como uma necessidade.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1508",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "A exposição de motivos é uma comunicação oficial dirigida ao presidente da República ou ao vice-presidente por um ministro de Estado e pode ser interministerial, ou seja, assinada por mais de um ministro.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1512",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "A estrutura do documento apresentado é adequada à composição de um ofício. No que concerne aos princípios fundamentais da República Federativa do Brasil e aos direitos fundamentais, julgue os próximos itens.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS A01 - TÉCNICO ADMINISTRATIVO",
+    "target_materia": "Noções de Direito Constitucional",
+    "target_topico": "Princípios fundamentais",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1513",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "A garantia do mínimo existencial, que decorre da proteção constitucional à dignidade da pessoa humana, restringe a invocação da reserva do possível como óbice à concretização do acesso aos direitos sociais.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Princípios da segurança da informação: confidencialidade, integridade, disponibilidade, autenticidade e não repúdio",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1517",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "O controle interno exercido pelo CNJ não alcança atos de conteúdo jurisdicional emanados de tribunais.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS A01 - TÉCNICO ADMINISTRATIVO",
+    "target_materia": "Noções de Direito Constitucional",
+    "target_topico": "do Conselho Nacional de Justiça: organização e competência",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1520",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "A responsabilidade da administração pública decorrente de omissão resulta de seu dever de agir e da capacidade de essa ação evitar o dano.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Banco de Dados",
+    "target_topico": "transações e propriedades ACID",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1522",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "Membros do Ministério Público não podem sofrer sanções por ato de improbidade administrativa em razão de seu enquadramento como agentes políticos e de sua vitaliciedade no cargo.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1524",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "A nulidade de contrato administrativo por ausência prévia de licitação gera, para o contratado de boa-fé, direito a indenização pelos serviços por ele prestados.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS A01 - TÉCNICO ADMINISTRATIVO",
+    "target_materia": "Licitações e Contratos Administrativos",
+    "target_topico": "Contratos administrativos: formalização, execução, fiscalização e gestão contratual",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1525",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "A caducidade do contrato de concessão acarreta a reversão ao poder concedente, mediante indenização ao concessionário, de todos os bens necessários à continuidade do serviço público.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1526",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "A exigência de prévia experiência em serviços de natureza similar como requisito para demonstração de qualificação técnica, na fase de habilitação em procedimento de licitação, vulnera a isonomia, a impessoalidade e o julgamento objetivo, elementos basilares do certame.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Engenharia de Software",
+    "target_topico": "Abordagens, métodos e frameworks ágeis: Scrum, Kanban, Lean Software Development e Extreme Programming (XP)",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1527",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "A despeito de prever que, ordinariamente, ao vice-presidente do STJ não compete o julgamento de processos, o RI/STJ excepciona situação em que o vice-presidente poderá exercer tal competência.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2015_Q1535",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2015,
+    "cargo": "Analista Judiciario Suporte Em Tecnologia Da Informacao",
+    "enunciado": "O STJ tem a atribuição de monitorar e avaliar os PLSs dos órgãos que compõem o Poder Judiciário.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  }
+]

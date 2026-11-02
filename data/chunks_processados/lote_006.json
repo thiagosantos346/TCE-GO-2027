@@ -1,0 +1,988 @@
+[
+  {
+    "id": "V3_CEBRASPE_TRF_6_2025_Q0389",
+    "banca": "CEBRASPE",
+    "orgao": "TRF 6ª",
+    "ano": 2025,
+    "cargo": "Analista Judiciário - Apoio Especializado - Governança e Gestão de Tecnologia da Informação",
+    "enunciado": "No RabbitMQ, a forma padrão de se distribuir mensagens é round-robin, de modo que cada consumidor terá, em média, o mesmo número de mensagens. 120 git branch -D test A execução do comando precedente excluirá a branch test caso todos os commits tenham sido realizados; porém, se a master estiver em estado de check-out, a exclusão será cancelada.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Controle de versão distribuído com Git",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2024_Q0391",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2024,
+    "cargo": "Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação",
+    "enunciado": "No COBIT 2019, o princípio Aplicar modelo único integrado estabelece que os componentes como processos, estruturas, arquiteturas e pessoas devem funcionar em conjunto para a construção de um sistema de governança eficiente.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Governança de Tecnologia da Informação",
+    "target_topico": "Boas práticas e modelos de referência: COBIT 2019, ITIL v4 e ISO/IEC 38500:2024",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2024_Q0393",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2024,
+    "cargo": "Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação",
+    "enunciado": "As práticas de gerenciamento de serviço do ITIL v4 incluem gerenciamento de infraestrutura e de plataforma. Em relação ao gerenciamento de projetos e à modelagem de processos de negócio, julgue os itens que se seguem.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Criptografia simétrica e assimétrica",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2024_Q0396",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2024,
+    "cargo": "Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação",
+    "enunciado": "Caso um projeto possua um escopo sujeito a mudanças durante a sua execução, é recomendável, segundo o PMBOK, que se utilize uma abordagem de desenvolvimento do tipo preditiva.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Governança de Tecnologia da Informação",
+    "target_topico": "Gestão de projetos: fundamentos do PMBOK 8ª edição e de métodos ágeis aplicados a projetos de TI",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2024_Q0398",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2024,
+    "cargo": "Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação",
+    "enunciado": "Segundo o PMBOK, a comunicação passiva, elemento fundamental para o engajamento das partes interessadas, é o tipo de comunicação que pode ocorrer por meio da busca por políticas ou modelos de comunicação e pesquisas em repositórios online, a fim de se detectarem indiretamente as preocupações dessas partes interessadas quanto ao projeto.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2024_Q0404",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2024,
+    "cargo": "Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação",
+    "enunciado": "O merge request será aceito se pelo menos dois tribunais, distintos daquele que houver desenvolvido a funcionalidade ou solução, aprovarem-no. Em consonância com a Portaria CNJ n.º 162/2021, julgue os itens seguintes, relativos à Estratégia Nacional de Segurança Cibernética do Poder Judiciário.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2024_Q0406",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2024,
+    "cargo": "Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação",
+    "enunciado": "O gerenciamento de crises cibernéticas do Poder Judiciário encontra-se dividido em três fases: planejamento, execução e melhoria contínua.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2024_Q0407",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2024,
+    "cargo": "Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação",
+    "enunciado": "As funções básicas do protocolo de prevenção de incidentes cibernéticos do Poder Judiciário restringem-se a identificar, proteger, detectar e responder aos ataques ou ameaças.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2024_Q0409",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2024,
+    "cargo": "Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação",
+    "enunciado": "É facultativa a execução da fase de planejamento da contratação de solução de TIC nos casos de inexigibilidade de licitação.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS A01 - TÉCNICO ADMINISTRATIVO",
+    "target_materia": "Licitações e Contratos Administrativos",
+    "target_topico": "Contratação direta: dispensa e inexigibilidade",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2024_Q0410",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2024,
+    "cargo": "Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação",
+    "enunciado": "Durante a fase de seleção do fornecedor, a equipe de planejamento da contratação é responsável por apoiar o pregoeiro ou a comissão de licitação na análise e no julgamento das propostas e dos recursos apresentados pelas licitantes, bem como na condução de eventual prova de distribuída de microsserviços e à biblioteca Flyway, julgue os próximos itens.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Desenvolvimento de Sistemas",
+    "target_topico": "Algoritmos, lógica de programação e estruturas de dados",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2024_Q0411",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2024,
+    "cargo": "Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação",
+    "enunciado": "MapStruct é um gerador de código que simplifica a implementação de mapeamentos entre tipos de bean Java.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Desenvolvimento de Sistemas",
+    "target_topico": "Programação em Java (conceitos básicos)",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2024_Q0412",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2024,
+    "cargo": "Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação",
+    "enunciado": "A solução Flyway permite que seja realizado o controle de versão de código de banco de dados, estendendo o DevOps aos bancos de dados de modo a permitir que se acompanhem as alterações e se aprimore a confiabilidade das implantações de software.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Criptografia simétrica e assimétrica",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2024_Q0413",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2024,
+    "cargo": "Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação",
+    "enunciado": "Considere o seguinte código, escrito em Java. class Main { public static void main(String[] args) { int x = 11, y = -7, z = 22; int resultado = (x >= y) ? ((x >= z) ? x : z) : ((y >= z) ? y : z); System.out.println(“Resultado: “ + resultado); } } A partir do código precedente, é correto afirmar que a execução desse código apresentará o seguinte resultado. Resultado: 22",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Desenvolvimento de Sistemas",
+    "target_topico": "Programação em Java (conceitos básicos)",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2024_Q0414",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2024,
+    "cargo": "Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação",
+    "enunciado": "Zuul é uma solução que permite a realização de roteamento dinâmico e monitoramento, e seus filtros são capazes de atuar na segurança por meio da identificação de requisitos de autenticação para cada recurso e da rejeição de solicitações que não os satisfaçam.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Desenvolvimento de Sistemas",
+    "target_topico": "Desenvolvimento de APIs RESTful",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2024_Q0415",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2024,
+    "cargo": "Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação",
+    "enunciado": "Swagger é uma interface API compatível com Java que permite que dois sistemas computacionais troquem informações com ausência de estado.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Desenvolvimento de Sistemas",
+    "target_topico": "Programação em Java (conceitos básicos)",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2024_Q0416",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2024,
+    "cargo": "Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação",
+    "enunciado": "Continuous delivery (CD) e continuous integration (CI) são práticas afetas ao DevOps: a primeira realiza a implantação automática no repositório da solução após o build; e a segunda realiza implantação automática no ambiente de produção a cada release.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Integração, entrega e implantação contínuas (CI/CD)",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2024_Q0417",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2024,
+    "cargo": "Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação",
+    "enunciado": "O comando Git a seguir, ao ser executado, copiará todo o conteúdo do repositório local para o repositório remoto git, e, por padrão, fará a mesclagem com a branch master. git clone --bare -l /home/projetox/ .git/pub/projetox",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Controle de versão distribuído com Git",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2024_Q0418",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2024,
+    "cargo": "Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação",
+    "enunciado": "O banco de dados H2 é uma solução de persistência de dados NoSQL do tipo chave-valor.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Banco de Dados",
+    "target_topico": "Bancos de dados NoSQL: modelos orientados a documentos, chave-valor, famílias de colunas (wide-column) e grafos",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2024_Q0419",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2024,
+    "cargo": "Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação",
+    "enunciado": "O Keycloak é considerado uma pilha de software completa cujo objetivo principal é gerenciar a segurança em contêineres à medida que ele administra a infraestrutura de docker.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2024_Q0426",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2024,
+    "cargo": "Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação",
+    "enunciado": "O roteador faz a ligação entre LANs, atuando na camada 2 do modelo de referência TCP/IP, interpreta o endereço DNS contido nos pacotes de dados e faz o envio à porta específica.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Sistemas Operacionais, Redes e Computação em Nuvem",
+    "target_topico": "Redes de computadores: arquitetura TCP/IP, endereçamento IPv4 e IPv6, DNS e DHCP",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2024_Q0427",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2024,
+    "cargo": "Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação",
+    "enunciado": "O LDAP utiliza como mecanismo de segurança o protocolo TLS (Transport Layer Security), a fim de criptografar as mensagens entre o cliente e o servidor.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Sistemas Operacionais, Redes e Computação em Nuvem",
+    "target_topico": "Serviços de diretório: Active Directory e LDAP",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2024_Q0428",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2024,
+    "cargo": "Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação",
+    "enunciado": "O arquivo edb.log tem como função armazenar todo o banco de dados do Active Directory.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Sistemas Operacionais, Redes e Computação em Nuvem",
+    "target_topico": "Serviços de diretório: Active Directory e LDAP",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2024_Q0429",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2024,
+    "cargo": "Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação",
+    "enunciado": "Em uma VPN, o tráfego de dados é levado pela rede pública por meio de protocolos de criptografia por tunelamento, como o SSL, que define um tipo de cabeçalho de autenticação (AH  authentication header), garantindo a confidencialidade dos dados.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Criptografia simétrica e assimétrica",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2024_Q0431",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2024,
+    "cargo": "Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação",
+    "enunciado": "A execução do comando a seguir permite verificar a integridade da configuração do Nagios no ambiente Linux. # /usr/local/nagios/bin/nagios –v /usr/local/nagios/etc/nagios.cfg",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Sistemas Operacionais, Redes e Computação em Nuvem",
+    "target_topico": "Sistemas operacionais Windows e Linux: administração básica",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2024_Q0434",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2024,
+    "cargo": "Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação",
+    "enunciado": "Os controles e objetivos de controle a serem implementados para mitigar os riscos devem ser adotados em alinhamento aos termos da subseção avaliação de riscos de segurança da informação.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Infraestrutura como código e gerenciamento de configuração",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2024_Q0435",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2024,
+    "cargo": "Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação",
+    "enunciado": "Por meio da promoção de melhoria contínua, a alta direção de uma organização demonstra sua liderança e seu comprometimento em relação ao sistema de gestão de segurança da informação.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS A01 - TÉCNICO ADMINISTRATIVO",
+    "target_materia": "Comportamento Organizacional",
+    "target_topico": "Liderança",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2024_Q0436",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2024,
+    "cargo": "Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação",
+    "enunciado": "As políticas de segurança da informação dentro de uma organização podem ser apoiadas por políticas específicas por tema, as quais devem, por sua vez, ser alinhadas e complementares à política de segurança da informação da organização.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2024_Q0437",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2024,
+    "cargo": "Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação",
+    "enunciado": "Na segurança da informação, a autenticidade é conceituada como a propriedade pela qual se assegura que a informação não foi modificada ou destruída de maneira não autorizada ou acidental.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Banco de Dados",
+    "target_topico": "transações e propriedades ACID",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2024_Q0439",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2024,
+    "cargo": "Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação",
+    "enunciado": "A gestão de incidentes é considerada um componente crítico da estratégia de gerenciamento de riscos das organizações porque, com tal gestão, é possível reduzir o tempo de inatividade e minimizar os impactos negativos causados por acidentes cibernéticos.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Banco de Dados",
+    "target_topico": "Modelagem de dados: modelo entidade-relacionamento, normalização e desnormalização",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2024_Q0443",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2024,
+    "cargo": "Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação",
+    "enunciado": "O método de autenticação SPF (sender policy framework) permite que os proprietários de domínios assinem emails automaticamente a partir de seu domínio; nessa assinatura digital, é utilizada criptografia de chave pública para verificar matematicamente que o email veio do domínio correto.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Criptografia simétrica e assimétrica",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2024_Q0444",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2024,
+    "cargo": "Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação",
+    "enunciado": "O spear phishing tem como alvo um grupo específico ou tipo de indivíduo, como os administradores de sistema de uma empresa; já o whaling é um tipo de phishing ainda mais direcionado e geralmente tem como alvo um CEO ou CFO de um setor ou negócio específico.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Malware, ransomware, phishing e engenharia social",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2024_Q0446",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2024,
+    "cargo": "Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação",
+    "enunciado": "Leakware/doxware é um tipo de ransomware em que se ameaça destruir os dados se o resgate não for pago, havendo casos em que se destroem os dados mesmo tendo sido efetivado o pagamento do resgate. No que diz respeito a frameworks de segurança da informação e segurança cibernética, julgue o item subsequente.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Malware, ransomware, phishing e engenharia social",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2024_Q0447",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2024,
+    "cargo": "Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação",
+    "enunciado": "O framework de segurança da informação e segurança cibernética MITRE ATT&CK oferece as seguintes aplicações práticas: melhoramento do entendimento das ameaças, testes de penetração, priorização de ameaças e riscos, melhoria dos controles de segurança, caça a ameaças e resposta a incidentes, avaliação de soluções de segurança, pesquisa e desenvolvimento.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Infraestrutura como código e gerenciamento de configuração",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2024_Q0450",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2024,
+    "cargo": "Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação",
+    "enunciado": "Os sistemas de bancos de dados NoSQL baseados em documentos armazenam os dados por meio de esquemas do tipo XML.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Banco de Dados",
+    "target_topico": "Bancos de dados NoSQL: modelos orientados a documentos, chave-valor, famílias de colunas (wide-column) e grafos",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2024_Q0451",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2024,
+    "cargo": "Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação",
+    "enunciado": "Em Big Data, uma das propriedades ACID é a atomicidade, que garante que todas as alterações sejam efetivadas no banco de dados, sem atualização parcial da transação.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Banco de Dados",
+    "target_topico": "transações e propriedades ACID",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2024_Q0452",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2024,
+    "cargo": "Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação",
+    "enunciado": "Quando uma tabela está na terceira forma normal (3FN), toda coluna que não é chave depende diretamente da chave primária, sem dependências indiretas.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Banco de Dados",
+    "target_topico": "Modelagem de dados: modelo entidade-relacionamento, normalização e desnormalização",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2024_Q0453",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2024,
+    "cargo": "Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação",
+    "enunciado": "A regressão linear do aprendizado de máquina busca estabelecer uma relação entre as variáveis de entrada de",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Inteligência Artificial, Ciência de Dados e Automação",
+    "target_topico": "Aprendizado de máquina: aprendizado supervisionado, não supervisionado e por reforço",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_STJ_2024_Q0455",
+    "banca": "CEBRASPE",
+    "orgao": "STJ",
+    "ano": 2024,
+    "cargo": "Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação",
+    "enunciado": "Os bancos de dados dimensionais que atendem ao data warehouse nas fontes transacionais, sem que haja acréscimo de informações devem ser implementados de forma normalizada. transcreva o texto para a FOLHA DE TEXTO DEFINITIVO DA PROVA DISCURSIVA, no local apropriado, pois não será avaliado fragmento de texto escrito em local indevido. • Qualquer fragmento de texto além da extensão máxima de linhas disponibilizadas será desconsiderado. • Na Folha de Texto Definitivo, a presença de qualquer marca identificadora no espaço destinado à transcrição do texto definitivo acarretará a anulação da sua prova discursiva. • Ao domínio do conteúdo serão atribuídos até 40,00 pontos, dos quais até 2,00 pontos serão atribuídos ao quesito apresentação (legibilidade, respeito às margens e indicação de parágrafos) e estrutura textual (organização das ideias em texto estruturado). -- PROVA DISCURSIVA -- A criptografia é um método de segurança que usa algoritmos para proteger informações, transformando-as em um código secreto que só pode ser desbloqueado com uma chave digital. A respeito da criptografia no âmbito da segurança da informação, redija um texto dissertativo atendendo ao que se pede a seguir.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_FGV_TJ_AP_2023_Q0461",
+    "banca": "FGV",
+    "orgao": "TJ/AP",
+    "ano": 2023,
+    "cargo": "Analista Judiciario Apoio Especializado Tecnologia Da Informacao Banco De Dados",
+    "enunciado": "“Numa peça teatral ou romance, uma palavra imprópria é apenas uma palavra: e a impropriedade, seja ou não percebida, não acarreta consequência alguma. Num código legal – especialmente composto de leis tidas como fundamentais – uma palavra imprópria pode ser uma calamidade nacional: e a guerra civil, a consequência disso. De uma palavra tola podem irromper mil punhais.” (Bentham, 1796) A finalidade básica desse fragmento textual é:",
+    "alternativas": {
+      "A": "alertar contra o uso impróprio de palavras, especialmente em textos de grande aplicabilidade social;",
+      "B": "mostrar o uso irresponsável das palavras em textos modernos, mesmo naqueles produzidos por pessoas cultas;",
+      "C": "indicar que a impropriedade vocabular é fruto da inadequação entre o significado da palavra e a situação em que é empregada;",
+      "D": "demonstrar a absoluta necessidade de que os usuários das palavras tenham perfeito conhecimento de seus significados;",
+      "E": "aconselhar que os autores dos textos verifiquem a possibilidade de ambiguidade no uso dos vocábulos a fim de evitarem consequências desastrosas."
+    },
+    "gabarito_oficial": "A",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_FGV_TJ_AP_2023_Q0468",
+    "banca": "FGV",
+    "orgao": "TJ/AP",
+    "ano": 2023,
+    "cargo": "Analista Judiciario Apoio Especializado Tecnologia Da Informacao Banco De Dados",
+    "enunciado": "Observe a seguinte frase: “Deus deve amar os homens medíocres. Fez vários deles.” Sobre o significado e a estruturação dessa frase, é correto afirmar que:",
+    "alternativas": {
+      "A": "o primeiro período funciona como causa do segundo;",
+      "B": "o segundo período é um fato deduzido do primeiro;",
+      "C": "considerando a frase como texto argumentativo, a tese defendida é verbalizada no segundo período;",
+      "D": "o argumento que defende a tese exposta no período é de caráter opinativo;",
+      "E": "em lugar do ponto separando os dois períodos, poderia estar empregado o conector “já que”."
+    },
+    "gabarito_oficial": "E",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_FGV_TJ_AP_2023_Q0470",
+    "banca": "FGV",
+    "orgao": "TJ/AP",
+    "ano": 2023,
+    "cargo": "Analista Judiciario Apoio Especializado Tecnologia Da Informacao Banco De Dados",
+    "enunciado": "A única frase de construção aceitável, é:",
+    "alternativas": {
+      "A": "A seção do equipamento de informática evolui numa velocidade incrível e, a cada ano, eles põem no mercado produtos cada vez mais desenvolvidos.",
+      "B": "A exposição apresenta ao público obras pouco conhecidas, pois eles as produziram no início de suas carreiras.",
+      "C": "A reunião dos operários ocorrerá depois do meio-dia, diante do hospital do bairro. De lá, eles irão bloquear a entrada da fábrica.",
+      "D": "Esta manhã, faltava entusiasmo aos alunos. Então, após a recreação, ele começou seu curso de história, propondo uma discussão interessante.",
+      "E": "Estes aviões servem para o treinamento básico. Devem ser efetuadas ao menos cem horas de voo antes de eles passarem à etapa seguinte."
+    },
+    "gabarito_oficial": "C",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Engenharia de Software",
+    "target_topico": "Abordagens, métodos e frameworks ágeis: Scrum, Kanban, Lean Software Development e Extreme Programming (XP)",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_FGV_TJ_AP_2023_Q0481",
+    "banca": "FGV",
+    "orgao": "TJ/AP",
+    "ano": 2023,
+    "cargo": "Analista Judiciario Apoio Especializado Tecnologia Da Informacao Banco De Dados",
+    "enunciado": "Eliane, servidora ocupante de cargo de provimento efetivo, em atuação em determinado órgão do Poder Executivo do Estado do Amapá, consultou o Departamento de Recursos Humanos em relação à possibilidade de requerer a sua “movimentação”, a pedido, para outro órgão do Poder Executivo. Na situação descrita na narrativa, a “movimentação” almejada por Eliane é:",
+    "alternativas": {
+      "A": "admitida, sendo denominada remoção;",
+      "B": "admitida, sendo denominada realocação;",
+      "C": "admitida, sendo denominada transferência;",
+      "D": "denominada relotação e tem sempre caráter temporário;",
+      "E": "expressamente vedada, por importar em burla à exigência de prévia aprovação em concurso público."
+    },
+    "gabarito_oficial": "A",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_FGV_TJ_AP_2023_Q0486",
+    "banca": "FGV",
+    "orgao": "TJ/AP",
+    "ano": 2023,
+    "cargo": "Analista Judiciario Apoio Especializado Tecnologia Da Informacao Banco De Dados",
+    "enunciado": "João foi condenado em sentença transitada em julgado pela prática de uma infração penal. Poucos meses após o cumprimento da pena, decidiu que iria concorrer a um cargo eletivo nas próximas eleições. Ao analisar exclusivamente a Constituição da República, não a legislação infraconstitucional, com o objetivo de verificar se a condenação anterior constituiria óbice à realização do seu objetivo, João concluiu, corretamente, que:",
+    "alternativas": {
+      "A": "está inelegível;",
+      "B": "está com os direitos políticos suspensos;",
+      "C": "pode ser considerado inelegível por lei complementar;",
+      "D": "está inabilitado para o exercício de outra função pública;",
+      "E": "perdeu os direitos políticos, mas pode readquiri-los com a reabilitação."
+    },
+    "gabarito_oficial": "C",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS GERAIS (A01 E B02)",
+    "target_materia": "Matemática e Raciocínio Lógico",
+    "target_topico": "Números inteiros e racionais: operações (adição, subtração, multiplicação, divisão, potenciação)",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_FGV_TJ_AP_2023_Q0487",
+    "banca": "FGV",
+    "orgao": "TJ/AP",
+    "ano": 2023,
+    "cargo": "Analista Judiciario Apoio Especializado Tecnologia Da Informacao Banco De Dados",
+    "enunciado": "Nair, servidora pública ocupante de cargo de provimento efetivo, logrou ser eleita vereadora no município em que é domiciliada. Preocupada com a possibilidade de conciliar o cargo público com a vereança, analisou os balizamentos estabelecidos pela Constituição da República, tendo concluído corretamente que:",
+    "alternativas": {
+      "A": "deve ser afastada do cargo de provimento efetivo durante o mandato;",
+      "B": "deve optar por um ou outro, pois a acumulação de cargos públicos é vedada;",
+      "C": "deve receber a contraprestação estipendial correspondente a ambos, caso acumule os cargos;",
+      "D": "pode acumular ambos os cargos caso tenha obtido a estabilidade no cargo de provimento efetivo;",
+      "E": "tem o direito subjetivo de acumular os cargos, independentemente do cumprimento de qualquer requisito específico."
+    },
+    "gabarito_oficial": "C",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_FGV_TJ_AP_2023_Q0488",
+    "banca": "FGV",
+    "orgao": "TJ/AP",
+    "ano": 2023,
+    "cargo": "Analista Judiciario Apoio Especializado Tecnologia Da Informacao Banco De Dados",
+    "enunciado": "Maria, Ana e Antônia realizaram um debate em relação às características comuns aos recursos especial e extraordinário. Maria defendia que ambos deveriam ser processados e julgados pelo Supremo Tribunal Federal. Ana sustentava que ambos exigiriam que a causa fosse julgada em única ou última instância. Por fim, Antônia observou que ambos poderiam ser interpostos, respectivamente, após o julgamento de recursos ordinários, pelo Superior Tribunal de Justiça e pelo Supremo Tribunal Federal. À luz da sistemática constitucional, é correto afirmar, em relação aos argumentos de Maria, Ana e Antônia, que:",
+    "alternativas": {
+      "A": "todos estão errados;",
+      "B": "apenas o de Ana está certo;",
+      "C": "apenas o de Antônia está certo;",
+      "D": "apenas os de Maria e Ana estão certos;",
+      "E": "apenas os de Maria e Antônia estão certos."
+    },
+    "gabarito_oficial": "B",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_FGV_TJ_AP_2023_Q0489",
+    "banca": "FGV",
+    "orgao": "TJ/AP",
+    "ano": 2023,
+    "cargo": "Analista Judiciario Apoio Especializado Tecnologia Da Informacao Banco De Dados",
+    "enunciado": "A Assembleia Legislativa do Estado Alfa recebeu uma proposição legislativa que tem por objeto a alteração das atribuições de certo órgão colegiado da Administração Superior do Ministério Público do Estado. Considerando os balizamentos estabelecidos pela Constituição da República a respeito das normas que estabelecem a organização, as atribuições e o estatuto de cada Ministério Público, é correto afirmar que a proposição legislativa precisa ter a natureza de:",
+    "alternativas": {
+      "A": "projeto de lei ordinária, de iniciativa privativa do governador do Estado;",
+      "B": "projeto de lei ordinária, de iniciativa privativa do Colégio de Procuradores de Justiça;",
+      "C": "projeto de lei complementar, de iniciativa privativa do procurador-geral de Justiça;",
+      "D": "proposta de emenda constitucional, podendo ter sido apresentada por qualquer legitimado para a reforma;",
+      "E": "projeto de lei complementar, podendo ter sido apresentado pelo procurador-geral de Justiça ou pelo governador do Estado."
+    },
+    "gabarito_oficial": "C",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_FGV_TJ_AP_2023_Q0490",
+    "banca": "FGV",
+    "orgao": "TJ/AP",
+    "ano": 2023,
+    "cargo": "Analista Judiciario Apoio Especializado Tecnologia Da Informacao Banco De Dados",
+    "enunciado": "Joyce acabou de ler certo edital que veiculou a realização de um processo administrativo de chamamento público por meio do qual a Administração Pública convocou profissionais interessados em prestar determinado serviço, para que, preenchidos os requisitos necessários devidamente delimitados, se habilitem junto ao órgão ou entidade para executar o objeto quando convocados, viabilizando a sua contratação direta, mediante critérios determinados. No âmbito da Lei nº 14.133/2021, tal edital versa sobre:",
+    "alternativas": {
+      "A": "credenciamento, que caracteriza hipótese de licitação dispensável;",
+      "B": "pré-qualificação, que caracteriza hipótese de licitação inexigível;",
+      "C": "catálogo eletrônico de padronização de serviços, que caracteriza hipótese de licitação inexigível;",
+      "D": "credenciamento, que caracteriza hipótese de licitação inexigível;",
+      "E": "pré-qualificação, que caracteriza hipótese de licitação dispensável."
+    },
+    "gabarito_oficial": "D",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Criptografia simétrica e assimétrica",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_FGV_TJ_AP_2023_Q0491",
+    "banca": "FGV",
+    "orgao": "TJ/AP",
+    "ano": 2023,
+    "cargo": "Analista Judiciario Apoio Especializado Tecnologia Da Informacao Banco De Dados",
+    "enunciado": "Semana passada, Adroaldo, no exercício das atribuições do cargo efetivo em que está lotado no Estado do Amapá, praticou a conduta de negar publicidade a determinado ato oficial, sob o fundamento de que ele está gravado de sigilo, classificado como informação secreta, que, mediante a devida motivação, foi considerada imprescindível para a segurança da sociedade e do Estado. Acerca dessa situação hipotética, considerando o disposto na Lei nº 8.429/1992, com a redação conferida pela Lei nº 14.230/2021, é correto afirmar que:",
+    "alternativas": {
+      "A": "caso caracterizado o dolo na realização de tal conduta, ficará configurado o ato de improbidade que atenta contra os princípios da Administração Pública, diante da previsão específica no respectivo dispositivo da Lei de Improbidade;",
+      "B": "independentemente da caracterização de dolo, a conduta em questão não configura ato de improbidade que atenta contra os princípios da Administração Pública, tanto que excepcionada pela própria Lei de Improbidade Administrativa;",
+      "C": "considerando que o rol atinente aos atos de improbidade que atentam contra os princípios da Administração Pública é exemplificativo, a conduta em análise deve assim ser caracterizada, ainda que o servidor tenha agido com culpa;",
+      "D": "considerando que a negativa de publicidade não consta do rol taxativo das condutas que configuram o ato de improbidade que atenta contra os princípios da Administração Pública, a conduta em apreço não poderia ser assim caracterizada ainda que a informação não estivesse gravada de sigilo;",
+      "E": "considerando que a conduta em cotejo não pode ser caracterizada como ato de improbidade que atenta contra os princípios da Administração Pública, para tanto, é imprescindível o enriquecimento sem causa ou a lesão ao erário."
+    },
+    "gabarito_oficial": "B",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_FGV_TJ_AP_2023_Q0492",
+    "banca": "FGV",
+    "orgao": "TJ/AP",
+    "ano": 2023,
+    "cargo": "Analista Judiciario Apoio Especializado Tecnologia Da Informacao Banco De Dados",
+    "enunciado": "Ao estudar ponto específico de edital para concurso público atinente à organização administrativa, notadamente com relação à descentralização, Ofélia observou que, dentre as entidades dotadas de personalidade jurídica de direito privado que integram a Administração Pública indireta, é correto apontar:",
+    "alternativas": {
+      "A": "as autarquias;",
+      "B": "as prefeituras;",
+      "C": "as associações públicas;",
+      "D": "os tribunais de contas;",
+      "E": "as sociedades de economia mista."
+    },
+    "gabarito_oficial": "E",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Infraestrutura como código e gerenciamento de configuração",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_FGV_TJ_AP_2023_Q0493",
+    "banca": "FGV",
+    "orgao": "TJ/AP",
+    "ano": 2023,
+    "cargo": "Analista Judiciario Apoio Especializado Tecnologia Da Informacao Banco De Dados",
+    "enunciado": "Pérola é servidora estável do Estado Delta e viu sua colega de trabalho Açucena, ocupante de semelhante cargo efetivo, investida após a realização de concurso público, ser demitida, após a garantia do contraditório e da ampla defesa, em decorrência de falta grave funcional por ela cometida após dois anos de efetivo exercício, em decorrência de procedimento instaurado uma semana depois da ocorrência da conduta. Diante dessa situação hipotética, considerando as disposições constitucionais acerca da estabilidade dos servidores públicos, Pérola concluiu, corretamente, que Açucena:",
+    "alternativas": {
+      "A": "apenas poderia ter sido demitida por sentença judicial transitada em julgado em decorrência da garantia da estabilidade a ela assegurada pela Constituição;",
+      "B": "poderia ter sido posta em disponibilidade, independentemente do preenchimento de requisitos para a aquisição da estabilidade;",
+      "C": "pode, eventualmente, demonstrar a ilegalidade do procedimento que levou à sua demissão, hipótese em que terá direito à recondução ao cargo que ocupava, independentemente da garantia da estabilidade;",
+      "D": "tem direito à estabilidade, diante do transcurso do prazo de dois anos de efetivo exercício, em razão do que era necessária a instauração do procedimento administrativo disciplinar pertinente para a sua demissão;",
+      "E": "foi demitida com a observância dos princípios do contraditório e da ampla defesa, que é indispensável mesmo para as hipóteses em que o servidor ainda não alcançou a estabilidade."
+    },
+    "gabarito_oficial": "E",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  }
+]

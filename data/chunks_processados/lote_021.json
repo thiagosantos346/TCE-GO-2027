@@ -1,0 +1,1003 @@
+[
+  {
+    "id": "V3_CEBRASPE_TRT_10_2013_Q1971",
+    "banca": "CEBRASPE",
+    "orgao": "TRT/10",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Tecnologia Da Informacao",
+    "enunciado": "A avaliação de riscos, uma atividade do processo de gestão de riscos, inclui a identificação e a análise dos riscos, as quais geram saídas para o tratamento desses riscos.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Infraestrutura como código e gerenciamento de configuração",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TRT_10_2013_Q1972",
+    "banca": "CEBRASPE",
+    "orgao": "TRT/10",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Tecnologia Da Informacao",
+    "enunciado": "O planejamento de TI para a esfera pública deve ser feito com base no procedimento de elaboração de plano diretor de TI, o qual deve ser elaborado exclusivamente para cada órgão da administração pública, sendo empregado para justificar as infraestrutura de TI arquitetura de TI contribuição decisão contribuição decisão X X X X",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Criptografia simétrica e assimétrica",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TRT_10_2013_Q1973",
+    "banca": "CEBRASPE",
+    "orgao": "TRT/10",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Tecnologia Da Informacao",
+    "enunciado": "A adoção do PMBOK contribui para que os projetos de uma empresa não sofram influências dos fatores ambientais que venham a alterar suas estruturas-padrão, podendo o PMBOK ser empregado por qualquer tipo de organização.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TRT_10_2013_Q1982",
+    "banca": "CEBRASPE",
+    "orgao": "TRT/10",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Tecnologia Da Informacao",
+    "enunciado": "O SNMP, um protocolo de gerenciamento de redes de computadores que implementa comunicação mediante criptografia, permite a administração remota de um servidor Unix por meio da porta 22. Com relação a sistemas de gerenciamento de banco de dados, julgue os itens seguintes.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Criptografia simétrica e assimétrica",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_TRT_10_2013_Q1985",
+    "banca": "CEBRASPE",
+    "orgao": "TRT/10",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Tecnologia Da Informacao",
+    "enunciado": "O protocolo de bloqueio é utilizado para resolver problemas relacionados à concorrência.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS A01 - TÉCNICO ADMINISTRATIVO",
+    "target_materia": "Licitações e Contratos Administrativos",
+    "target_topico": "Contratos administrativos: formalização, execução, fiscalização e gestão contratual",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TRT_10_2013_Q1986",
+    "banca": "CEBRASPE",
+    "orgao": "TRT/10",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Tecnologia Da Informacao",
+    "enunciado": "Os índices são chaves secundárias utilizadas para acessar uma tabela mediante forma diferente da utilizada por uma chave primária.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Banco de Dados",
+    "target_topico": "Índices e otimização de consultas",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_TRT_10_2013_Q1987",
+    "banca": "CEBRASPE",
+    "orgao": "TRT/10",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Tecnologia Da Informacao",
+    "enunciado": "Uma forma de se empregar o SQL para o gerenciamento de bancos de dados distribuídos é por meio de replicações transacionais, em que, na transactional publication, os dados são enviados apenas para os assinantes, e, na transactional publication with updatable subscriptions, as alterações são feitas tanto nas tabelas como nos assinantes.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS A01 - TÉCNICO ADMINISTRATIVO",
+    "target_materia": "Administração Estratégica",
+    "target_topico": "Balanced Scorecard (BSC)",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TRT_10_2013_Q1991",
+    "banca": "CEBRASPE",
+    "orgao": "TRT/10",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Tecnologia Da Informacao",
+    "enunciado": "A criação da estrutura analítica do projeto, o sequenciamento de atividades e a estimativa de recursos para o projeto são atividades do grupo de processos de planejamento.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Infraestrutura como código e gerenciamento de configuração",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_TRT_10_2013_Q1995",
+    "banca": "CEBRASPE",
+    "orgao": "TRT/10",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Tecnologia Da Informacao",
+    "enunciado": "Independentemente do ciclo de vida do projeto, as ferramentas, técnicas e atividades para o gerenciamento de escopo de projetos são sempre as mesmas, em consonância com o padrão estabelecido no PMBOK.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Governança de Tecnologia da Informação",
+    "target_topico": "Gestão de projetos: fundamentos do PMBOK 8ª edição e de métodos ágeis aplicados a projetos de TI",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_TRT_10_2013_Q1996",
+    "banca": "CEBRASPE",
+    "orgao": "TRT/10",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Tecnologia Da Informacao",
+    "enunciado": "A criação da estrutura analítica de projeto assim como as atividades de definição e verificação de escopo são entradas para a atividade de coleta de requisitos de um projeto. Com relação à certificação digital, julgue os itens que se seguem.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Infraestrutura como código e gerenciamento de configuração",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_TRT_10_2013_Q1998",
+    "banca": "CEBRASPE",
+    "orgao": "TRT/10",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Tecnologia Da Informacao",
+    "enunciado": "Um requisito para uma entidade tornar-se uma autoridade de registro é ser uma entidade jurídica, não podendo as pessoas físicas tornarem-se autoridades de registro.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TRT_10_2013_Q1999",
+    "banca": "CEBRASPE",
+    "orgao": "TRT/10",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Tecnologia Da Informacao",
+    "enunciado": "A Infraestrutura de Chaves Públicas do Brasil compõe-se de duas categorias de certificados digitais: A, destinada a atividades sigilosas, e S, destinada à autenticação e identificação.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Criptografia simétrica e assimétrica",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TRT_10_2013_Q2000",
+    "banca": "CEBRASPE",
+    "orgao": "TRT/10",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Tecnologia Da Informacao",
+    "enunciado": "Na criptografia de chave pública assimétrica, são utilizadas duas chaves diferentes: uma chave privada confidencial, para criptografar os dados, e outra chave pública, para decriptografar os dados, a qual é distribuída para os destinatários.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Criptografia simétrica e assimétrica",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_TRT_10_2013_Q2001",
+    "banca": "CEBRASPE",
+    "orgao": "TRT/10",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Tecnologia Da Informacao",
+    "enunciado": "Um certificado digital é um documento em que são registradas diversas informações, tais como titular e sua chave pública, assim como nome e assinatura da autoridade certificadora que garantirá a emissão do certificado.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Criptografia simétrica e assimétrica",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TRT_10_2013_Q2002",
+    "banca": "CEBRASPE",
+    "orgao": "TRT/10",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Tecnologia Da Informacao",
+    "enunciado": "No Brasil, a infraestrutura de chaves públicas foi implantada com o objetivo de prover soluções de criptografia para chaves públicas, sendo o governo brasileiro o único órgão responsável pela emissão e administração de certificados digitais.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Criptografia simétrica e assimétrica",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TRT_10_2013_Q2003",
+    "banca": "CEBRASPE",
+    "orgao": "TRT/10",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Tecnologia Da Informacao",
+    "enunciado": "O certificado digital revogado deve constar da lista de certificados revogados, publicada na página de Internet da autoridade certificadora que o emitiu. (cid:129) Nesta prova, faça o que se pede, usando, caso deseje, o espaço para rascunho indicado no presente caderno. Em seguida, transcreva o texto para a FOLHA DE TEXTO DEFINITIVO DA PROVA DISCURSIVA, no local apropriado, pois não serão avaliados fragmentos de texto escritos em locais indevidos. (cid:129) Qualquer fragmento de texto que ultrapassar a extensão máxima de linhas disponibilizadas será desconsiderado. (cid:129) Na folha de texto definitivo, identifique-se apenas na primeira página, pois não será avaliado texto que tenha qualquer assinatura ou marca identificadora fora do local apropriado. (cid:129) Ao domínio do conteúdo serão atribuídos até 10,00 pontos, dos quais até 0,50 ponto será atribuído ao quesito apresentação e estrutura textual (legibilidade, respeito às margens e indicação de parágrafos). Essencial para a realização de qualquer atividade que requeira mudanças, o gerenciamento de projetos é uma área em constante expansão. Hoje, não há como planejar e executar um projeto sem referências bem definidas e internacionalmente aceitas. Um exemplo de documentação que atende a esses requisitos é o PMBOK, sigla em inglês para o Guia de Conhecimentos em Gerenciamento de Projetos, publicado pelo PMI (Project Management Institute).",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Controle de acesso: autenticação, autorização e gestão de identidades (IAM)",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_TRT_10_2013_Q2005",
+    "banca": "CEBRASPE",
+    "orgao": "TRT/10",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Tecnologia Da Informacao",
+    "enunciado": "Princípios Fundamentais do Trabalho e da Agenda do Trabalho Decente da Organização Internacional do Trabalho (OIT). Um requisito básico para que o crescimento 7 econômico dos países se traduza em menos pobreza e maior bem-estar e justiça social é melhorar as condições de vida das mulheres, dos negros e de outros grupos discriminados da 10 sociedade; outro é aumentar sua possibilidade de acesso a empregos capazes de garantir uma vida digna para si próprios e para suas famílias. A pobreza está diretamente relacionada 13 aos níveis e padrões de emprego, assim como às desigualdades e à discriminação existentes na sociedade. Além disso, as diferentes formas de discriminação estão fortemente associadas 16 aos fenômenos de exclusão social que dão origem à pobreza e são responsáveis pelos diversos tipos de vulnerabilidade e pela criação de barreiras adicionais que impedem as pessoas e 19 grupos discriminados de superar situações de pobreza. A erradicação da pobreza vem sendo considerada uma das maiores prioridades para a construção de sociedades mais 22 justas, assim como vem aumentando o reconhecimento de que as causas e condições de pobreza são diferentes para homens e mulheres, negros e brancos. Por isso, estão sendo realizados 25 esforços para que as necessidades das mulheres e negros sejam consideradas de forma explícita e efetiva nas estratégias de redução da pobreza e nas políticas de geração de emprego e 28 renda. Internet: <www.oit.org.br> (com adaptações).",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Infraestrutura como código e gerenciamento de configuração",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TRT_10_2013_Q2008",
+    "banca": "CEBRASPE",
+    "orgao": "TRT/10",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Tecnologia Da Informacao",
+    "enunciado": "Em “dão origem à pobreza e são responsáveis pelos diversos tipos de vulnerabilidade e pela criação de barreiras adicionais” (R.16-18), o emprego das formas verbais no plural justifica-se pela concordância com “as diferentes formas de discriminação” (R.14-15).",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Infraestrutura como código e gerenciamento de configuração",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TRT_10_2013_Q2009",
+    "banca": "CEBRASPE",
+    "orgao": "TRT/10",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Tecnologia Da Informacao",
+    "enunciado": "Infere-se da leitura do texto que a eliminação de todas as formas de discriminação, que abrange a promoção da igualdade de oportunidades, constitui o fundamento da Declaração dos Direitos e Princípios Fundamentais do Trabalho e da Agenda do Trabalho Decente da OIT. com o código E, caso julgue o item ERRADO. A ausência de seja, não receberão pontuação negativa. Para as devidas marcações, suas provas objetivas. BÁSICOS",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS GERAIS (A01 E B02)",
+    "target_materia": "Língua Portuguesa",
+    "target_topico": "Pontuação",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_TRT_10_2013_Q2010",
+    "banca": "CEBRASPE",
+    "orgao": "TRT/10",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Tecnologia Da Informacao",
+    "enunciado": "Em “sua possibilidade de acesso” (R.10), o termo “sua” corresponde a da sociedade.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Princípios da segurança da informação: confidencialidade, integridade, disponibilidade, autenticidade e não repúdio",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TRT_10_2013_Q2012",
+    "banca": "CEBRASPE",
+    "orgao": "TRT/10",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Tecnologia Da Informacao",
+    "enunciado": "As palavras “países”, “famílias” e “níveis” são acentuadas de acordo com a mesma regra de acentuação gráfica.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS GERAIS (A01 E B02)",
+    "target_materia": "Língua Portuguesa",
+    "target_topico": "Ortografia e acentuação",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_TRT_10_2013_Q2013",
+    "banca": "CEBRASPE",
+    "orgao": "TRT/10",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Tecnologia Da Informacao",
+    "enunciado": "A economia solidária vem-se apresentando como uma alternativa inovadora de geração de trabalho e renda e uma resposta favorável às demandas de inclusão social no país. Ela 4 compreende uma diversidade de práticas econômicas e sociais organizadas sob a forma de cooperativas, associações, clubes de troca, empresas de autogestão e redes de cooperação — que 7 realizam atividades de produção de bens, prestação de serviços, finanças, trocas, comércio justo e consumo solidário. A Secretaria Nacional de Economia Solidária, do",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Infraestrutura como código e gerenciamento de configuração",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TRT_10_2013_Q2015",
+    "banca": "CEBRASPE",
+    "orgao": "TRT/10",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Tecnologia Da Informacao",
+    "enunciado": "Brasil. Além da divulgação e da promoção de ações nessa direção, desde 2007 a Secretaria tem realizado chamadas públicas a fim de apoiar os empreendimentos econômicos 16 alternativos. Internet: <http://portal.mte.gov.br/imprensa> (com adaptações). Com relação ao texto acima, julgue os seguintes itens.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "",
+    "target_materia": "",
+    "target_topico": "DESCARTADA",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TRT_10_2013_Q2017",
+    "banca": "CEBRASPE",
+    "orgao": "TRT/10",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Tecnologia Da Informacao",
+    "enunciado": "O emprego das formas verbais “vem elaborando” (R.11) e “tem realizado” (R.14), que denotam tempo continuado, associado ao das expressões temporais “desde sua criação, em 2003” (R.10-11) e “desde 2007” (R.14), evidencia a intenção do autor do texto de sinalizar o caráter produtivo do trabalho realizado pela Secretaria Nacional de Economia Solidária.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Infraestrutura como código e gerenciamento de configuração",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TRT_10_2013_Q2023",
+    "banca": "CEBRASPE",
+    "orgao": "TRT/10",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Tecnologia Da Informacao",
+    "enunciado": "As taxas de desemprego das mulheres são mais altas do que às dos homens em escala mundial e não se prevê melhoras desse quadro nos próximos anos, segundo relatório da OIT que analisa as desigualdades de gênero em matéria de desemprego, emprego, participação na força de trabalho, vulnerabilidade e segregação setorial e profissional. Com relação a aspectos gerais das correspondências oficiais, julgue os itens a seguir segundo o Manual de Redação da Presidência da República.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS GERAIS (A01 E B02)",
+    "target_materia": "Língua Portuguesa",
+    "target_topico": "Redação Oficial",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_TRT_10_2013_Q2024",
+    "banca": "CEBRASPE",
+    "orgao": "TRT/10",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Tecnologia Da Informacao",
+    "enunciado": "Recomenda-se que o registro de impressões pessoais seja evitado na redação de correspondências oficiais, mas a decisão sobre seguir ou não essa recomendação cabe a quem expede o documento.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Engenharia de Software",
+    "target_topico": "Abordagens, métodos e frameworks ágeis: Scrum, Kanban, Lean Software Development e Extreme Programming (XP)",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_TRT_10_2013_Q2025",
+    "banca": "CEBRASPE",
+    "orgao": "TRT/10",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Tecnologia Da Informacao",
+    "enunciado": "Em comunicações dirigidas a chefes de poder, o vocativo adequado é “Excelentíssimo Senhor”, seguido do nome do cargo correspondente.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TRT_10_2013_Q2026",
+    "banca": "CEBRASPE",
+    "orgao": "TRT/10",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Tecnologia Da Informacao",
+    "enunciado": "A mensagem é a comunicação oficial utilizada entre pessoas que ocupam cargos de mesma hierarquia, independentemente da esfera de poder de que elas façam parte.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_TRT_10_2013_Q2030",
+    "banca": "CEBRASPE",
+    "orgao": "TRT/10",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Tecnologia Da Informacao",
+    "enunciado": "A proposição P pode ser corretamente representada pela 1 forma simbólica PvQ, em que P e Q são proposições convenientemente escolhidas e o símbolo v representa o conectivo lógico denominado conjunção.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS GERAIS (A01 E B02)",
+    "target_materia": "Língua Portuguesa",
+    "target_topico": "Compreensão e interpretação de textos de gêneros variados",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_TRT_10_2013_Q2050",
+    "banca": "CEBRASPE",
+    "orgao": "TRT/10",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Tecnologia Da Informacao",
+    "enunciado": "A alavancagem é uma estratégia oriunda da combinação entre os pontos fortes e as oportunidades identificados na análise SWOT.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS A01 - TÉCNICO ADMINISTRATIVO",
+    "target_materia": "Administração Estratégica",
+    "target_topico": "Ferramentas de diagnóstico: análise SWOT, cinco forças competitivas, Visão-Baseada em Recursos (RBV)",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_CEBRASPE_TRT_10_2013_Q2051",
+    "banca": "CEBRASPE",
+    "orgao": "TRT/10",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Tecnologia Da Informacao",
+    "enunciado": "As medidas objetivas, tais como índices de produtividade, questionários de percepção e indicadores referentes a resultados quantitativos, constituem as principais métricas de avaliação de desempenho nas organizações, pois eliminam a subjetividade.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "E",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Infraestrutura como código e gerenciamento de configuração",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TRT_10_2013_Q2052",
+    "banca": "CEBRASPE",
+    "orgao": "TRT/10",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Tecnologia Da Informacao",
+    "enunciado": "A gestão de pessoas na atualidade tem adotado formas organizacionais com base na confiança, rompendo com a filosofia tradicional que privilegia apenas os aspectos econômicos da relação entre o indivíduo e o trabalho.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS A01 - TÉCNICO ADMINISTRATIVO",
+    "target_materia": "Gestão de Pessoas",
+    "target_topico": "Gestão por Competências",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_CEBRASPE_TRT_10_2013_Q2055",
+    "banca": "CEBRASPE",
+    "orgao": "TRT/10",
+    "ano": 2013,
+    "cargo": "Analista Judiciario Tecnologia Da Informacao",
+    "enunciado": "NASA e INPE, cada qual a seu modo e respeitadas as diferenças quanto à atuação de ambas, são exemplos de instituições identificadas com as necessidades e exigências do tempo atual, em que o conhecimento constitui a força motriz que impulsiona o desenvolvimento e serve de base para um sistema produtivo cada vez mais globalizado e tecnologicamente avançado. Primeiro vieram as ONGs. Depois, as unidades de polícia pacificadora. Agora é a hora de as agências de comunicação digital chegarem às favelas do Rio de Janeiro. E a primeira delas está funcionando a pleno vapor no Complexo da Maré. Fundada há dois anos, a agência emprega o conhecimento tecnológico e social dos jovens dos morros e ajuda na formação profissional deles. O Estado de S.Paulo, caderno Link, 7/1/2013, p. L6 (com adaptações). Tendo o fragmento de texto acima como referência inicial e considerando a amplitude do tema por ele focalizado, julgue os itens subsequentes.",
+    "alternativas": {
+      "C": "Certo",
+      "E": "Errado"
+    },
+    "gabarito_oficial": "C",
+    "formato": "CERTO_ERRADO",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Princípios da segurança da informação: confidencialidade, integridade, disponibilidade, autenticidade e não repúdio",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_FCC_TRT_11_2017_Q2060",
+    "banca": "FCC",
+    "orgao": "TRT 11ª",
+    "ano": 2017,
+    "cargo": "Analista Judiciário - Tecnologia da Informação",
+    "enunciado": "Considerada a norma-padrão da língua, é adequado o que se afirma em:",
+    "alternativas": {
+      "A": "(linha 7) A colocação do pronome oblíquo observada em ver-se-á é correta; essa mesóclise é restrita ao emprego do futuro do presente.",
+      "B": "(linha 9) O emprego do verbo auxiliar destacado em que não chegam a se reconstituir indica que haveria a possibilidade de a ação denotada pelo verbo principal ter sido concluída.",
+      "C": "(linhas 1 e 2) Redação alternativa do segmento cuja percepção é necessária ao entendimento do passado e do presente da região, que não prejudique nem seu sentido no contexto original, nem a correção gramatical, poderia ser “percepção da qual depende necessariamente o entendimento do passado e do presente da região”.",
+      "D": "(linha 3) No contexto em que está empregada, a forma verbal irá resultar não é adequada, pois a menção a meados do século XVIII exigiria o uso de “iria resultar”.",
+      "E": "(linha 4) A substituição da forma havia sido observada por “teria sido observada” não prejudica o sentido original da frase."
+    },
+    "gabarito_oficial": "B",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_FCC_TRT_11_2017_Q2062",
+    "banca": "FCC",
+    "orgao": "TRT 11ª",
+    "ano": 2017,
+    "cargo": "Analista Judiciário - Tecnologia da Informação",
+    "enunciado": "É legítimo afirmar: no texto,",
+    "alternativas": {
+      "A": "Transpondo a voz passiva presente na frase para a voz ativa, a forma correta a ser grafada é “têm acompanhado”.",
+      "B": "A retirada da vírgula após a palavra reiteradamente prejudica o sentido original da frase.",
+      "C": "A expressão Visível a olho nu, que constitui caracterização da palavra que a antecede, dá oportunidade para que se introduza outro argumento a favor da ideia expressa por notório.",
+      "D": "Se o assunto fosse não um processo, mas “processos”, a correção exigiria a forma “se tratam de processos”.",
+      "E": "O verbo “haver”, na frase, está empregado como indica o seguinte verbete do Dicionário eletrônico Houaiss: transitivo direto [impessoal] ter transcorrido ou ser decorrido (tempo)."
+    },
+    "gabarito_oficial": "D",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Engenharia de Software",
+    "target_topico": "Abordagens, métodos e frameworks ágeis: Scrum, Kanban, Lean Software Development e Extreme Programming (XP)",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_FCC_TRT_11_2017_Q2064",
+    "banca": "FCC",
+    "orgao": "TRT 11ª",
+    "ano": 2017,
+    "cargo": "Analista Judiciário - Tecnologia da Informação",
+    "enunciado": "(3o parágrafo) Não obstante a permanência ininterrupta da enorme desigualdade em tamanho e estatura das religiões no Brasil, não é mais possível, nos dias que correm, desconhecer que a sociedade brasileira está passando por um processo de transição religiosa que é notório. Visível a olho nu. Considerado o trecho acima, no contexto em que está inserido, é apropriado afirmar:",
+    "alternativas": {
+      "A": "A expressão nos dias que correm expressa um fator condicionante.",
+      "B": "A locução verbal em que está presente o gerúndio indica uma ação durativa em tempo não marcado.",
+      "C": "As incontestes desigualdades estruturais do Brasil impossibilitam leituras mais pontuais e consistentes acerca da vida dos brasileiros, principalmente no que se refere a seus hábitos religiosos.",
+      "D": "A inclusão de uma vírgula depois de Não obstante mantém a correção e a clareza da frase, visto que o emprego desse sinal de pontuação, nessa específica formulação, é facultativo.",
+      "E": "Em a permanência ininterrupta da enorme desigualdade em tamanho e estatura das religiões no Brasil, a substituição de ininterrupta por “intermitente” mantém o sentido original da frase."
+    },
+    "gabarito_oficial": "A",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS GERAIS (A01 E B02)",
+    "target_materia": "Língua Portuguesa",
+    "target_topico": "Pontuação",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_FCC_TRT_11_2017_Q2073",
+    "banca": "FCC",
+    "orgao": "TRT 11ª",
+    "ano": 2017,
+    "cargo": "Analista Judiciário - Tecnologia da Informação",
+    "enunciado": "Alunos de um curso de Direito participaram de um evento organizado pelo Governo do Estado do Amazonas sobre os direitos das pessoas com deficiência. A primeira discussão tratou dos seguintes temas relacionados à Política Nacional para a Integração da Pessoa Portadora de Deficiência: I. O desenvolvimento de ação conjunta do Estado e da sociedade civil, de modo a assegurar a plena integração da pessoa portadora de deficiência no contexto socioeconômico e cultural. II. A adoção de estratégias de articulação com órgãos e entidades públicos e privados, bem assim com organismos inter- nacionais e estrangeiros para a implantação da Política Nacional para a Integração da Pessoa Portadora de Deficiência. III. O desenvolvimento de programas setoriais destinados ao atendimento das necessidades especiais da pessoa portadora de deficiência. IV. O fomento da tecnologia de bioengenharia voltada para a pessoa portadora de deficiência, bem como a facilitação da importação de equipamentos. V. A fiscalização do cumprimento da legislação pertinente à pessoa portadora de deficiência. Para a Política Nacional para a Integração da Pessoa Portadora de Deficiência e nos termos do Decreto no 3.298/1999, esses temas são conceituados, respectivamente, como:",
+    "alternativas": {
+      "A": "diretriz, princípio, instrumento, princípio e objetivo.",
+      "B": "objetivo, princípio, princípio, diretriz e diretriz.",
+      "C": "instrumento, princípio, diretriz, objetivo e instrumento.",
+      "D": "princípio, diretriz, objetivo, instrumento e instrumento.",
+      "E": "princípio, princípio, diretriz, instrumento e objetivo."
+    },
+    "gabarito_oficial": "D",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Princípios da segurança da informação: confidencialidade, integridade, disponibilidade, autenticidade e não repúdio",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_FCC_TRT_11_2017_Q2075",
+    "banca": "FCC",
+    "orgao": "TRT 11ª",
+    "ano": 2017,
+    "cargo": "Analista Judiciário - Tecnologia da Informação",
+    "enunciado": "A Lei no 13.146/2015 instituiu a Lei Brasileira de Inclusão da Pessoa com Deficiência, também conhecida como o Estatuto da Pessoa com Deficiência. Entre os assuntos tratados por essa norma estão os entraves, obstáculos, atitudes ou comportamentos que limitem ou impeçam a participação social da pessoa, bem como o gozo, a fruição e o exercício de seus direitos à aces- sibilidade, à liberdade de movimento e de expressão, à comunicação, ao acesso à informação, à compreensão, à circulação com segurança, entre outros. Esses fatores são legal e tecnicamente denominados",
+    "alternativas": {
+      "A": "fatos de desagregação social.",
+      "B": "socioambientais de limitação.",
+      "C": "barreiras.",
+      "D": "limítrofes.",
+      "E": "impeditivos de fruição de direitos."
+    },
+    "gabarito_oficial": "C",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Princípios da segurança da informação: confidencialidade, integridade, disponibilidade, autenticidade e não repúdio",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_FCC_TRT_11_2017_Q2077",
+    "banca": "FCC",
+    "orgao": "TRT 11ª",
+    "ano": 2017,
+    "cargo": "Analista Judiciário - Tecnologia da Informação",
+    "enunciado": "Considere o documento XML abaixo e as regras definidas na Document Type Definition – DTD. <?xml version=\"1.0\" encoding=\"UTF-8\"?> <!DOCTYPE Processos [ <!ELEMENT Processos (Processo+)> <!ELEMENT Processo (NumeroSequencial, DigitoVerificador, AnoAjuizamento?, OrgaoJudiciario, Tribunal, Vara)> <!ELEMENT NumeroSequencial (#PCDATA)> <!ELEMENT DigitoVerificador (#PCDATA)> <!ELEMENT AnoAjuizamento (#PCDATA)> <!ELEMENT OrgaoJudiciario (#PCDATA)> <!ELEMENT Tribunal (#PCDATA)> <!ELEMENT Vara (#PCDATA)> ]> <Processos> <Processo> <NumeroSequencial>0012300</NumeroSequencial> <DigitoVerificador>04</DigitoVerificador> <AnoAjuizamento> 2007</AnoAjuizamento> <OrgaoJudiciario>5</OrgaoJudiciario> <Tribunal>11</Tribunal> <Vara>0030</Vara> </Processo> </Processos> A DTD define que",
+    "alternativas": {
+      "A": "pode haver elementos Processo sem o elemento AnoAjuizamento em seu interior.",
+      "B": "os elementos no interior de um elemento Processo podem se repetir diversas vezes, se necessário.",
+      "C": "os elementos só podem conter valores numéricos inteiros, já que são do tipo #PCDATA.",
+      "D": "um elemento Processos pode ter, no máximo, um elemento Processo em seu interior.",
+      "E": "todo elemento Processo deverá conter, obrigatoriamente, os elementos NumeroSequencial, DigitoVerificador, AnoAjuizamento, OrgaoJudiciario, Tribunal e Vara."
+    },
+    "gabarito_oficial": "A",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_FCC_TRT_11_2017_Q2078",
+    "banca": "FCC",
+    "orgao": "TRT 11ª",
+    "ano": 2017,
+    "cargo": "Analista Judiciário - Tecnologia da Informação",
+    "enunciado": "Uma aplicação Java EE utiliza JPA em conjunto com o provedor de persistência Hibernate. Esta aplicação estabelece conexão com um banco de dados chamado empresa que possui uma tabela departamento. O banco de dados é acessado por meio do usuário root, cuja senha é pC43Ab. Nestas condições, uma instrução correta que pode estar no arquivo persistence.xml é",
+    "alternativas": {
+      "A": "<provider name=\"org.hibernate.ejb.HibernatePersistence\" value=\"Hibernate\"/>",
+      "B": "<persistence-database name=\"hibernate.connection.databasename\" value=\"empresa\"/>",
+      "C": "<property name=\"hibernate.connection.username\" value=\"root\"/>",
+      "D": "<table name=\"hibernate.connection.tablename\" value=\"departamento\"/>",
+      "E": "<persistence name=\"persistence.createEntityManagerFactory\" value=\"PersistenceUnit\"/>"
+    },
+    "gabarito_oficial": "C",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_FCC_TRT_11_2017_Q2084",
+    "banca": "FCC",
+    "orgao": "TRT 11ª",
+    "ano": 2017,
+    "cargo": "Analista Judiciário - Tecnologia da Informação",
+    "enunciado": "Para instalar o Apache HTTP Server como um serviço no Windows entra-se no diretório bin do Apache, a partir do prompt de comando do Windows, e digita-se",
+    "alternativas": {
+      "A": "httpd −a mode=service",
+      "B": "apachehttpd −k mode=service",
+      "C": "apache −a httpd install",
+      "D": "apachehttp −a install",
+      "E": "httpd −k install"
+    },
+    "gabarito_oficial": "E",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Sistemas Operacionais, Redes e Computação em Nuvem",
+    "target_topico": "Sistemas operacionais Windows e Linux: administração básica",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_FCC_TRT_11_2017_Q2085",
+    "banca": "FCC",
+    "orgao": "TRT 11ª",
+    "ano": 2017,
+    "cargo": "Analista Judiciário - Tecnologia da Informação",
+    "enunciado": "Considere a imagem abaixo, que mostra uma arquitetura de armazenamento baseada em informações. Nessa arquitetura, as lacunas I e II são preenchidas, correta e respectivamente, com",
+    "alternativas": {
+      "A": "será necessária a criação de uma tabela entre Advogado e Processo e o relacionamento N:N dará lugar a dois relacionamentos 1:N.",
+      "B": "a chave primária da tabela Processo deverá ser chave estrangeira na tabela Advogado.",
+      "C": "a chave primária da tabela Advogado deverá ser chave estrangeira na tabela Processo.",
+      "D": "ambas as tabelas (Processo e Advogado) deverão ter chave primária composta.",
+      "E": "a tabela Advogado deverá ter um campo para especificar o tipo de atuação do advogado em cada processo (defesa ou acusação)."
+    },
+    "gabarito_oficial": "B",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Infraestrutura como código e gerenciamento de configuração",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_FCC_TRT_11_2017_Q2087",
+    "banca": "FCC",
+    "orgao": "TRT 11ª",
+    "ano": 2017,
+    "cargo": "Analista Judiciário - Tecnologia da Informação",
+    "enunciado": "Uma SAN Fibre Channel (SAN FC) usa o protocolo Fibre Channel (FC) para transportar dados, comandos e informações de status entre os sistemas computacionais e os sistemas de armazenamento e também para a transferência de dados entre os sistemas de armazenamento. Considere a arquitetura FC abaixo. A forma de interconectividade da arquitetura FC mostrada na figura é chamada",
+    "alternativas": {
+      "A": "com um sistema operacional de 64 bits, vai operar em modo de 64 bits ou de 32 bits, o que é chamado de modo de compatibilidade. Neste caso todos os drivers do sistema devem ter 32 bits.",
+      "B": "que consiga trabalhar com processadores de 64 bits não aceita drivers e aplicativos de 32 bits. Assim todos eles devem ser substituídos pelas versões 64 bits, senão ocorrerão erros de compatibilidade.",
+      "C": "com sistema operacional de 64 bits é capaz de reconhecer uma quantidade maior de memória RAM do que um de 32 bits, o qual suporta o máximo de 32 GB de RAM.",
+      "D": "que consiga reconhecer memória RAM acima de 2 GB tem que necessariamente ser de 64 bits.",
+      "E": "com sistema operacional de 64 bits pode não inicializar um processador de 64 bits se não houver suporte para o BIOS. O BIOS da placa mãe deve ter suporte para processador de 64 bits."
+    },
+    "gabarito_oficial": "C",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Conteinerização: Docker e Docker Compose",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_FCC_TRT_11_2017_Q2091",
+    "banca": "FCC",
+    "orgao": "TRT 11ª",
+    "ano": 2017,
+    "cargo": "Analista Judiciário - Tecnologia da Informação",
+    "enunciado": "Considere a figura abaixo que descreve um sistema, denominado e-intimação, que utiliza web service. Foram omitidos da figura o protocolo (indicado por P) e o formato (indicado por F) de geração do documento de intimação que correspondem, correta e respectivamente, a",
+    "alternativas": {
+      "A": "HTTPS − XML.",
+      "B": "SOA − SOAP.",
+      "C": "SOAP − REST.",
+      "D": "REST − SOAP.",
+      "E": "SOAP − XML."
+    },
+    "gabarito_oficial": "E",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Sistemas Operacionais, Redes e Computação em Nuvem",
+    "target_topico": "protocolos HTTP/2, HTTP/3 e HTTPS, SMTP, FTP e SSH",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_FCC_TRT_11_2017_Q2095",
+    "banca": "FCC",
+    "orgao": "TRT 11ª",
+    "ano": 2017,
+    "cargo": "Analista Judiciário - Tecnologia da Informação",
+    "enunciado": "Considere que Analistas do TRT estejam utilizando as melhores práticas do guia PMBOK 5a edição. Para realizarem o Gerenciamento da Integração do Projeto, os Analistas estão trabalhando em um processo responsável pelo acompanhamento, análise e registro do progresso para atender aos objetivos de desempenho definidos no plano de gerenciamento do projeto. Este processo lida com dois aspectos: I. É executado do início ao término do projeto e inclui a coleta, medição e distribuição das informações de desempenho e a avaliação das medições e tendências para efetuar melhorias no processo. Realizado de forma contínua, fornece à equipe de gerenciamento uma compreensão clara da saúde do projeto, identificando quaisquer áreas que possam requerer atenção especial. II. Inclui a determinação de ações corretivas ou preventivas, ou o replanejamento e acompanhamento dos planos de ação para determinar se as ações tomadas resolveram o problema de desempenho. O processo e os aspectos I e II, no qual os Analistas estão trabalhando, são correta e respectivamente,",
+    "alternativas": {
+      "A": "Planejar o gerenciamento do escopo − planejamento − avaliação.",
+      "B": "Estimar os recursos das atividades − medição − controle.",
+      "C": "Monitorar e controlar o trabalho do projeto − monitoramento − controle.",
+      "D": "Orientar e gerenciar o trabalho do projeto − medição − correção.",
+      "E": "Desenvolver o plano de gerenciamento do projeto − planejamento − correção."
+    },
+    "gabarito_oficial": "C",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "DevOps, Plataforma de Desenvolvimento e Engenharia de Entrega",
+    "target_topico": "Infraestrutura como código e gerenciamento de configuração",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_FCC_TRT_11_2017_Q2096",
+    "banca": "FCC",
+    "orgao": "TRT 11ª",
+    "ano": 2017,
+    "cargo": "Analista Judiciário - Tecnologia da Informação",
+    "enunciado": "Considere: I. Ação de reiniciar um servidor. II. O antivírus está desatualizado. III. Todas as portas USB pararam de funcionar. IV. A memória do servidor de Banco de Dados ultrapassou 80% da taxa de ocupação. De acordo com a ITIL v3 edição 2011, a lista traz exemplos, respectivamente, de:",
+    "alternativas": {
+      "A": "geração do resumo (hash) do documento original.",
+      "B": "geração da chave criptográfica simétrica a partir do documento original.",
+      "C": "aplicação da criptografia de chave assimétrica sobre o documento original.",
+      "D": "adição da chave privada ao documento original.",
+      "E": "aplicação da criptografia de chave simétrica sobre o documento original."
+    },
+    "gabarito_oficial": "E",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Criptografia simétrica e assimétrica",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_FCC_TRT_11_2017_Q2099",
+    "banca": "FCC",
+    "orgao": "TRT 11ª",
+    "ano": 2017,
+    "cargo": "Analista Judiciário - Tecnologia da Informação",
+    "enunciado": "A versão do Wi-Fi mais utilizado atualmente é a 802.11g que disponibiliza o recurso de segurança definido pelo padrão 802.11i, o WPA2. Um dos recursos do WPA2 que faz com que ele seja mais seguro é a troca de chaves criptográficas em cada envio de pacote de dados. Esse recurso é implementado pelo",
+    "alternativas": {
+      "A": "MD5.",
+      "B": "TKIP.",
+      "C": "AES.",
+      "D": "PSK.",
+      "E": "RC4."
+    },
+    "gabarito_oficial": "B",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Criptografia simétrica e assimétrica",
+    "status_integracao": "injetada",
+    "llm_classified": true
+  },
+  {
+    "id": "V3_FCC_TRT_11_2017_Q2101",
+    "banca": "FCC",
+    "orgao": "TRT 11ª",
+    "ano": 2017,
+    "cargo": "Analista Judiciário - Tecnologia da Informação",
+    "enunciado": "O Analista Judiciário decidiu realizar a migração dos protocolos da rede local do TRT da versão 4 para a versão 6, especi- ficamente, do IPv4 para o IPv6, principalmente pelo fato do IPv6 dar suporte à Qualidade de Serviço (QoS). Para isso, diferentemente do campo Type of Service, existente no cabeçalho do IPv4, o IPv6 inclui um novo campo denominado",
+    "alternativas": {
+      "A": "Hop Limit.",
+      "B": "Service Class.",
+      "C": "Traffic Class.",
+      "D": "Flow Label.",
+      "E": "Next Header."
+    },
+    "gabarito_oficial": "D",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Criptografia simétrica e assimétrica",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_FCC_TRT_11_2017_Q2102",
+    "banca": "FCC",
+    "orgao": "TRT 11ª",
+    "ano": 2017,
+    "cargo": "Analista Judiciário - Tecnologia da Informação",
+    "enunciado": "O SNMP (Simple Network Management Protocol) é um protocolo utilizado no processo de gerenciamento de dispositivos em re- des de computadores. Observando as mensagens do SNMP, o Analista Judiciário identificou corretamente que o TRAP é uma mensagem proveniente do dispositivo",
+    "alternativas": {
+      "A": "vmlinuz -i",
+      "B": "grub -b",
+      "C": "top -v",
+      "D": "kernel -x",
+      "E": "uname -a"
+    },
+    "gabarito_oficial": "A",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Sistemas Operacionais, Redes e Computação em Nuvem",
+    "target_topico": "Redes de computadores: arquitetura TCP/IP, endereçamento IPv4 e IPv6, DNS e DHCP",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  },
+  {
+    "id": "V3_FCC_TRT_11_2017_Q2104",
+    "banca": "FCC",
+    "orgao": "TRT 11ª",
+    "ano": 2017,
+    "cargo": "Analista Judiciário - Tecnologia da Informação",
+    "enunciado": "Um Analista Judiciário deve especificar o tipo de VPN a ser implantado na intranet do TRT. Considerando-se que a especi- ficação inclui apenas os requisitos de criptografia de dados e maior velocidade de transmissão na intranet, a solução de VPN a ser escolhida deve operar no modo",
+    "alternativas": {
+      "A": "Túnel Autenticado.",
+      "B": "Transmissão.",
+      "C": "Túnel Criptografado.",
+      "D": "Sessão.",
+      "E": "Túnel Não Criptografado."
+    },
+    "gabarito_oficial": "B",
+    "formato": "MULTIPLA_ESCOLHA_5",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Criptografia simétrica e assimétrica",
+    "llm_classified": true,
+    "status_integracao": "injetada"
+  }
+]
