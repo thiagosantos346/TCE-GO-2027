@@ -155,42 +155,36 @@ Os mecanismos de autenticação enfrentam vetores de ataque específicos no cen�
 ---
 
 ### Teste 377
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-O Modelo AAA (*Authentication, Authorization, Accounting*) é o framework arquitetural clássico utilizado para disciplinar a governança e o controle de acesso de usuários e sistemas em redes corporativas.
+**(FCC – TRT-14 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2016)**
+Utilizando instruções da PL/SQL, no Oracle 11g, é possível conceder ou remover privilégios de objeto a outros usuários. É correto afirmar:
 
-A respeito da distinção e das atribuições de cada um dos três pilares do modelo AAA, assinale a afirmativa correta:
-
-* **A)** A Autorização (*Authorization*) ocorre antes da Autenticação e consiste na digitação do login e senha pelo usuário.
-* **B)** A Autenticação (*Authentication*) verifica a veracidade da identidade alegada pelo sujeito; a Autorização (*Authorization*) determina quais recursos específicos e permissões (leitura, escrita, exclusão) esse sujeito autenticado tem direito de acessar; e a Auditoria (*Accounting/Auditing*) rastreia e registra as ações executadas e o consumo de recursos para fins de responsabilização e conformidade.
-* **C)** O pilar de *Accounting* é dispensável em órgãos públicos porque auditorias violam o direito de privacidade funcional dos servidores. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **D)** A Autorização garante que a identidade nunca será contestada perante um tribunal judicial.
-* **E)** Todos os três pilares são executados exclusivamente através de cartões magnéticos sem uso de software ou logs de sistema.
-
+* **A)** Para repassar a outros usuários um conjunto de privilégios de sistema ou objeto, um usuário deve criar funções usando a instrução CREATE ROLE.
+* **B)** Depois que um usuário cria um objeto, ele não pode repassar qualquer um dos privilégios de objeto disponíveis a outros usuários usando a instrução GRANT.
+* **C)** Se for concedido a um usuário um privilégio com a cláusula WITH GRANT OPTION, esse usuário também poderá conceder o privilégio com a cláusula WITH GRANT OPTION a outros usuários.
+* **D)** Se a conta de um usuário for eliminada sem revogar os privilégios desta conta, os privilégios do sistema concedidos por esse usuário a outros serão afetados por essa ação.
+* **E)** Se um usuário for demitido da empresa e o administrador revogar seus privilégios, não será necessário conceder novamente os privilégios que esse usuário concedeu a outros usuários.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A ordem lógica cronológica e mandatória do modelo AAA é: 1º **Identificação**, 2º **Autenticação** (provar que é quem diz ser), 3º **Autorização** (conceder os privilégios específicos) e 4º **Auditoria/Accounting** (monitorar e registrar).
-> - **B)** **CORRETA.** Definição ontológica precisa do **Modelo AAA**:
->   1. **Authentication (Autenticação):** Processo de validação das credenciais para confirmar que a entidade é realmente quem afirma ser (*"Você é quem diz ser?"*).
->   2. **Authorization (Autorização):** Definição das políticas e concessão de privilégios com base na identidade validada (*"O que você tem permissão para fazer?"*).
->   3. **Accounting (Contabilização / Auditoria):** Registro cronológico e detalhado de todas as atividades, conexões, comandos e recursos acessados (*"O que você efetivamente fez e quando?"*), garantindo a responsabilização (*non-repudiation / accountability*).
-> - **C)** Incorreta. A auditoria e prestação de contas (*Accounting*) é dever constitucional basilar da administração pública.
-> - **D)** Incorreta. Essa propriedade refere-se ao Não Repúdio (*Non-Repudiation*), viabilizado por assinaturas e trilhas seguras.
-> - **E)** Incorreta. O modelo AAA é implementado por protocolos modernos como RADIUS, TACACS+, Diameter, LDAP e plataformas de IAM.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Para repassar a outros usuários um conjunto de privilégios de sistema ou objeto, um usuário deve criar funções...". De acordo com a teoria estudada em *3.2 Menor Privilégio (PoLP) vs. Acúmulo Indevido (Privilege Creep)*, princípio do Menor Privilégio (*Principle of Least Privilege* - PoLP): Diretriz de ouro segundo a qual toda entidade (usuário ou processo) deve receber estritamente o conjunto mínimo de permissões indispensável para a conclusão de suas tarefas regulamentares, pelo menor período de tempo necessário.
+> - **B)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "Depois que um usuário cria um objeto, ele não pode repassar qualquer um dos privilégios de objeto disponíveis a...". De acordo com a teoria estudada em *Limitação Crítica do DAC:*, se um usuário mal-intencionado convencer o proprietário de um arquivo sigiloso a conceder-lhe permissão de leitura, esse segundo usuário poderá copiar os dados para um novo arquivo de sua propriedade e disponibilizá-lo publicamente, sem que o sistema consiga bloquear o vazamento.
+> - **C)** **Correta.** Conforme fundamentado na seção *2.1 Visão Geral e Comparativo dos Modelos (DAC, MAC, RBAC, ABAC)* deste guia, o criador ou proprietário do objeto tem autonomia total para conceder, delegar ou revogar permissões a outros usuários. — O proprietário (*Owner*) do objeto. — Sistemas de arquivos tradicionais (permissões NTFS no Windows, `chmod`/`chown` no Linux). — Alta flexibilidade e operação descentralizada. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-14/2016) ao estabelecer que "Se for concedido a um usuário um privilégio com a cláusula WITH GRANT OPTION, esse usuário também poderá conceder...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Se a conta de um usuário for eliminada sem revogar os privilégios desta conta, os privilégios do sistema...". De acordo com a teoria estudada em *3.2 Menor Privilégio (PoLP) vs. Acúmulo Indevido (Privilege Creep)*, ao final de uma década, o usuário acumula privilégios desmesurados, transformando-se em um vetor de risco crítico caso sua credencial seja comprometida.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Se um usuário for demitido da empresa e o administrador revogar seus privilégios, não será necessário conceder...". De acordo com a teoria estudada em *2.1 Visão Geral e Comparativo dos Modelos (DAC, MAC, RBAC, ABAC)*, os privilégios são vinculados a cargos ou perfis funcionais (ex.: "Auditor Fiscal", "Operador"), e os usuários são associados aos papéis. — Administrador de Segurança Corporativo. — Bancos de dados relacionais (PostgreSQL, Oracle), sistemas ERP, processos eletrônicos de tribunais. — Alinhamento com a estrutura administrativa da organização, simplificação da auditoria e facilidade de escala.
+>
+> **Gabarito: C**
 
 ---
 
 ### Teste 378
-**(FGV – TRT – Analista Judiciário (TI) – 2024)**  
+**(FGV – TCE-GO – Analista de Controle Externo Tecnologia da Informacao – 2024)**
 Indique a opção que descreve corretamente a autenticação em múltiplos fatores.
 
 * **A)** Determinar as permissões de acesso dos usuários baseadas em seus papéis dentro da organização.
 * **B)** Registrar todas as tentativas de acesso ao sistema para revisão futura pela equipe de segurança.
-* **C)** Minimizar o risco de acesso não autorizado ao exigir qu e os usuários forneçam múltiplas formas de verificação de identidade.
+* **C)** Minimizar o risco de acesso não autorizado ao exigir que os usuários forneçam múltiplas formas de verificação de identidade.
 * **D)** Definir claramente as permissões de acesso para diferentes grupos de usuários, como desenvolvedores e gerentes de projeto.
 * **E)** Permitir que a equipe de segurança monitore e revise as atividades de acesso dos usuários regularmente. Análise de dados e IA
 
@@ -198,43 +192,37 @@ Indique a opção que descreve corretamente a autenticação em múltiplos fator
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A atribuição de acessos baseada em papéis define o modelo RBAC (Role-Based Access Control).
-> - **B)** Incorreta. O registro de tentativas de acesso para auditoria posterior constitui a prática de auditoria/trilha de logs (Accounting no modelo AAA).
-> - **C)** Correta. A Autenticação em Múltiplos Fatores (MFA) tem como objetivo primordial reforçar o controle de identidade e minimizar invasões, exigindo do usuário a combinação de ao menos duas categorias distintas de fatores: algo que você sabe (senha/PIN), algo que você tem (token físico, app autenticador) e algo que você é (biometria).
-> - **D)** Incorreta. Definição de permissões por grupos refere-se à política de autorização de acessos.
-> - **E)** Incorreta. Monitoramento contínuo refere-se a operações de SOC e SIEM.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Determinar as permissões de acesso dos usuários baseadas em seus papéis dentro da organização". De acordo com a teoria estudada em *2.4 RBAC (Role-Based Access Control) na Governança Corporativa*, no modelo RBAC, o controle de acesso é desacoplado dos usuários individuais e atribuído a Papéis (*Roles*) correspondentes a funções de negócio da organização (ex.: `Auditor`, `Gestor de Contratos`, `DBA`).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Registrar todas as tentativas de acesso ao sistema para revisão futura pela equipe de segurança". De acordo com a teoria estudada em *1.4 Ameaças e Vetores de Ataque contra Credenciais*, ataque de Força Bruta (*Brute Force*): Tentativas exaustivas de todas as combinações alfanuméricas possíveis até encontrar o valor correto.
+> - **C)** **Correta.** Conforme fundamentado na seção *4.3 Pilares Fundamentais da Confiança Zero* deste guia, identidade: Garantia de identificação inequívoca de usuários e contas de serviço com MFA resistente a phishing e análise de risco contextual. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "Minimizar o risco de acesso não autorizado ao exigir que os usuários forneçam múltiplas formas de verificação de...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Definir claramente as permissões de acesso para diferentes grupos de usuários, como desenvolvedores e gerentes de...". De acordo com a teoria estudada em *1.1 O Modelo AAA (Authentication, Authorization, Accounting)*, autorização: Uma vez que a autenticidade foi comprovada, o sistema consulta as matrizes de permissão para definir os privilégios exatos e as ações que aquele sujeito específico está legalmente autorizado a executar sobre os recursos.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Permitir que a equipe de segurança monitore e revise as atividades de acesso dos usuários regularmente. Análise de...". De acordo com a teoria estudada em *No Plano de Controle (Control Plane):*, avalia as políticas organizacionais, sinais de telemetria de segurança, reputação de risco e integridade do cliente para tomar a decisão final de permitir, negar ou revogar o acesso solicitado.
 >
 > **Gabarito: C**
 
 ---
 
 ### Teste 379
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Ataques cibernéticos direcionados a identidades e mecanismos de autenticação representam o principal vetor de invasão a redes corporativas de tribunais e órgãos governamentais.
+**(CEBRASPE – TJ-RJ – Analista Judiciario Grupo Tecnologia da Informacao Analista de Infraestrutura de Tic – 2021)**
+Assinale a opção que apresenta o objeto servlet que atribui um identificador exclusivo para determinado usuário e no qual são mantidas as informações específicas desse usuário em todo o aplicativo.
 
-Dois ataques comuns e sofisticados que burlam políticas tradicionais de bloqueio de conta por tentativas consecutivas são o **Password Spraying** e o **Credential Stuffing**. A distinção técnica precisa entre essas duas modalidades de ataque consiste em:
-
-* **A)** No *Credential Stuffing*, o atacante testa milhões de senhas em uma única conta até forçar a quebra; ao passo que no *Password Spraying*, ele infecta o roteador com um worm..
-* **B)** No **Password Spraying**, o atacante testa uma única senha comum e fraca (como `Tribunal@2024`) contra milhares de nomes de usuários corporativos distintos em intervalos espaçados para evitar o disparo de regras de bloqueio de conta por excesso de falhas; enquanto no **Credential Stuffing**, o atacante utiliza listas automatizadas de pares de e-mail/senha vazados de outros serviços e violações prévias na internet, explorando o hábito generalizado dos usuários de reutilizarem as mesmas credenciais em múltiplos portais.
-* **C)** Ambos os ataques utilizam exclusivamente redes sem fio Bluetooth a curta distância para interceptar senhas em tempo real.
-* **D)** O *Password Spraying* é um ataque físico que arromba as fechaduras do datacenter.
-* **E)** A autenticação multifator (MFA) é ineficaz contra esses ataques, pois os robôs conseguem clonar biometria física à distância.
-
+* **A)** HttpResponse
+* **B)** HttpRequests
+* **C)** HttpSession
+* **D)** HttpsParameters
+* **E)** HttpServer
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Testar milhões de senhas em uma única conta é um ataque tradicional de **Força Bruta (*Brute Force*)**, facilmente contido por bloqueio de conta após 3 a 5 tentativas erradas.
-> - **B)** **CORRETA.** Distinção precisa dos vetores de ataque modernos a credenciais:
->   - **Password Spraying (Pulverização de Senhas):** Inverte o eixo da força bruta. Em vez de testar muitas senhas em uma conta (o que trava a conta), o atacante testa **uma ou duas senhas prováveis em centenas ou milhares de contas diferentes** com pausas temporais. Como há apenas 1 tentativa por conta por hora, as regras de bloqueio por tentativas falhas não são acionadas.
->   - **Credential Stuffing (Preenchimento de Credenciais):** Ataque automatizado em massa que consome bases de dados de credenciais vazadas em brechas públicas (*dumps* da Dark Web). O atacante parte do pressuposto estatístico de que muitos usuários reutilizam a mesma senha do e-mail pessoal ou redes sociais no e-mail corporativo.
->   - **Mitigação Principal:** Adoção obrigatória de **Autenticação Multifator (MFA)** resistente a phishing (FIDO2/WebAuthn), detecção comportamental de anomalias de login e análise contínua de senhas comprometidas.
-> - **C)** Incorreta. São ataques realizados remotamente via protocolos web/API ou serviços de diretório.
-> - **D)** Incorreta. Trata-se de ameaça lógica a credenciais.
-> - **E)** Incorreta. A autenticação multifator (MFA) é precisamente o controle mais eficaz para neutralizar o impacto de ambos os ataques.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "HttpResponse". De acordo com a teoria estudada em *2.2 DAC (Discretionary Access Control) e Listas de Controle de Acesso*, no modelo discricionário, a segurança gira em torno da figura do proprietário (*owner*). Quando um usuário cria um documento, planilha ou banco de dados, o sistema operacional atribui a ele a titularidade do objeto.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "HttpRequests". De acordo com a teoria estudada em *Modelo Bell-LaPadula (Foco Exclusivo em CONFIDENCIALIDADE):*, um sujeito em determinado nível de classificação não pode ler um objeto com nível de sensibilidade superior ao seu ("No Read Up" - Proibido ler para cima). *Objetivo:* Evita que um analista com credencial "Secreto" leia documentos "Ultrassecretos".
+> - **C)** **Correta.** Conforme fundamentado na seção *Modelo Bell-LaPadula (Foco Exclusivo em CONFIDENCIALIDADE):* deste guia, um sujeito em determinado nível não pode gravar ou transferir dados para um objeto de nível de sensibilidade inferior ao seu ("No Write Down" - Proibido escrever para baixo). *Objetivo:* Evita que um usuário com acesso a dados "Ultrassecretos" copie inadvertidamente ou maliciosamente informações para um documento "Público". Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TJ-RJ/2021) ao estabelecer que "HttpSession".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "HttpsParameters". De acordo com a teoria estudada em *1.4 Ameaças e Vetores de Ataque contra Credenciais*, fadiga de MFA (*MFA Bombing* / *Push Fatigue*): O atacante, tendo obtido a senha do usuário, dispara dezenas de solicitações de notificação *push* para o aplicativo autenticador no smartphone da vítima de forma ininterrupta, até que o usuário, exausto ou confuso, clique em "Autorizar".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "HttpServer". De acordo com a teoria estudada em *1.2 Os Três Fatores Clássicos de Autenticação*, baseia-se exclusivamente na retenção mnemônica de informações secretas pelo usuário (senhas alfanuméricas, frases-passe, números PIN, perguntas secretas).
+>
+> **Gabarito: C**
 
 ---
 
@@ -336,83 +324,73 @@ Padrão internacional aberto formulado pela OASIS que define a linguagem XML/JSO
 ---
 
 ### Teste 380
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Os modelos teóricos de controle de acesso obrigatório (MAC) Bell-LaPadula e Biba foram desenvolvidos para garantir formalmente propriedades específicas de segurança em sistemas computacionais multiníveis.
+**(FGV – TJ-DFT – Analista Judiciario Suporte Em Tecnologia da Informacao – 2022)**
+O analista José gerencia o servidor LServer que executa RHEL (Red Hat Enterprise Linux). O servidor LServer possui o sistema de controle de acesso nativo do RHEL, o SELinux (Security-Enhanced Linux), habilitado no modo Enforcing. José precisa mapear o usuário local user10 do LServer para um dos usuários SELinux nativos do RHEL de forma que o SELinux restrinja os direitos de acesso do user10 ao mínimo necessário. O user10 prescinde de qualquer acesso como superusuário, mas necessita efetuar login no ambiente gráfico. O acesso à rede do user10 se dá apenas com o uso de navegadores web. Portanto, José deve mapear user10 para o usuário SELinux:
 
-Sobre o funcionamento desses dois modelos, assinale a afirmativa correta:
-
-* **A)** O modelo Bell-LaPadula tem como foco principal garantir a integridade dos dados, aplicando a regra de que nenhum usuário pode ler dados com nível de integridade inferior ao seu.
-* **B)** No modelo Bell-LaPadula, a Propriedade da Segurança Simples (*Simple Security Property*) determina que um usuário não pode ler informações em um nível de sensibilidade superior ao seu (*No Read Up*), enquanto a Propriedade Estrela (*\*-Property*) proíbe que ele grave dados em níveis inferiores (*No Write Down*).
-* **C)** O modelo Biba foi projetado para assegurar confidencialidade, autorizando que usuários leiam documentos ultrassecretos mesmo possuindo credencial pública.
-* **D)** No modelo Biba, a propriedade de integridade simples autoriza que sujeitos leiam dados de níveis de integridade inferiores sem restrições (*Read Down livre*).
-* **E)** Ambos os modelos Bell-LaPadula e Biba operam sob a filosofia de controle discricionário (DAC), na qual o criador do arquivo detém total autonomia para conceder privilégios a terceiros. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-
+* **A)** user_u;
+* **B)** staff_u;
+* **C)** sysadm_u;
+* **D)** system_u;
+* **E)** xguest_u.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O modelo Bell-LaPadula tem como foco primordial a garantia da confidencialidade, e não da integridade (o modelo com foco em integridade é o Biba).
-> - **B)** Correta. O modelo Bell-LaPadula define que para preservar a confidencialidade aplicam-se a Propriedade de Segurança Simples (*No Read Up* - não ler acima) e a Propriedade Estrela (*No Write Down* - não escrever abaixo, impedindo que segredos sejam vazados para níveis públicos).
-> - **C)** Incorreta. Biba foi desenvolvido com foco exclusivo em integridade, e não confidencialidade.
-> - **D)** Incorreta. No modelo Biba, ler dados de integridade inferior é vedado (*No Read Down*), para evitar que sujeitos ou processos de alta integridade sejam contaminados por informações espúrias.
-> - **E)** Incorreta. Bell-LaPadula e Biba são modelos formais clássicos de Controle de Acesso Obrigatório (MAC), e não discricionário (DAC).
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "user_u". De acordo com a teoria estudada em *2.1 Visão Geral e Comparativo dos Modelos (DAC, MAC, RBAC, ABAC)*, o sistema central impõe regras invioláveis baseadas em rótulos de sensibilidade da informação e credenciais formais de segurança do usuário. — Administrador Central do Sistema / Política global do kernel. — Ambientes militares, de inteligência e servidores de altíssima segurança (SELinux, AppArmor). — Rigidez máxima contra vazamento e cavalos de troia.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "staff_u". De acordo com a teoria estudada em *4.4 Microsegmentação e Contenção do Movimento Lateral*, assim, caso um servidor web seja invadido, o atacante é impedido de realizar movimento lateral para alcançar o banco de dados contábil que reside na mesma rede física.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "sysadm_u". De acordo com a teoria estudada em *4.2 Os Três Princípios Norteadores Oficiais do Zero Trust*, toda e qualquer requisição de acesso deve ser autenticada, autorizada e criptografada explicitamente, avaliando em tempo real o contexto da sessão.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "system_u". De acordo com a teoria estudada em *2.1 Visão Geral e Comparativo dos Modelos (DAC, MAC, RBAC, ABAC)*, avalia dinamicamente atributos do sujeito, do recurso, da ação solicitada e do ambiente (horário, local, dispositivo, risco) via regras booleanas. — Motor de Políticas Centralizado (ex.: XACML). — Ambientes em nuvem (AWS IAM), microsserviços modernos e arquiteturas Zero Trust. — Concessão granular, dinâmica e sensível ao contexto em tempo real.
+> - **E)** **Correta.** Conforme fundamentado na seção *3.2 Menor Privilégio (PoLP) vs. Acúmulo Indevido (Privilege Creep)* deste guia, princípio do Menor Privilégio (*Principle of Least Privilege* - PoLP): Diretriz de ouro segundo a qual toda entidade (usuário ou processo) deve receber estritamente o conjunto mínimo de permissões indispensável para a conclusão de suas tarefas regulamentares, pelo menor período de tempo necessário. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-DFT/2022) ao estabelecer que "xguest_u".
+>
+> **Gabarito: E**
 
 ---
 
 ### Teste 381
-**(FCC – TRT-9 – Analista Judiciário (TI) – 2015)**  
-De acordo com a norma ABNT NBR ISO/IEC 27002:2013, o acesso aos sistemas e aplicações deve ser controlado por um procedimento seguro de entrada no sistema (logon) que
+**(FGV – TJ-RR – Analista Judiciario Infraestrutura de Tecnologia da Informacao – 2024)**
+Os modelos de Controle de Acesso Obrigatório (Mandatory Access Control - MAC) e Controle de Acesso Discricionário (Discretionary Access Control - DAC) são amplamente utilizados em sistemas de segurança da informação para gerenciar o acesso a dados e recursos. Cada um tem suas características próprias, que os tornam mais adequados para diferentes tipos de ambientes e níveis de segurança. No entanto, a escolha entre MAC e DAC depende das necessidades específicas de controle e gerenciamento de permissões em um determinado contexto. Diante do exposto, assinale a opção que diferencia corretamente os modelos MAC e DAC.
 
-* **A)** mostre identificadores de sistema ou de aplicação durante o processo de entrada.
-* **B)** comunique um evento de segurança caso uma violação bem sucedida de entrada seja detectada.
-* **C)** valide informações de entrada no sistema durante a entrada dos dados.
-* **D)** forneça mensagens de ajuda durante o procedimento de entrada para auxiliar o usuário.
-* **E)** mostre um aviso geral informando que o computador pode ser acessado por usuários convidados. Caderno de Prova ’D04’, Tipo 001 TRT9R-An-Jud.-Tec.Informação-D04 13
+* **A)** O MAC permite que os administradores do sistema definam permissões detalhadas para cada usuário, enquanto no DAC as permissões são automaticamente atribuídas com base nas regras do sistema.
+* **B)** No modelo MAC, o controle de permissões é centralizado e determinado por políticas de segurança rígidas, enquanto no modelo DAC as permissões são definidas pelo proprietário do recurso, permitindo uma maior flexibilidade.
+* **C)** O modelo DAC impõe regras de segurança mais restritivas e inalteráveis que o MAC, sendo geralmente aplicado em ambientes de alta segurança com dados sensíveis.
+* **D)** O MAC utiliza permissões dinâmicas baseadas nas necessidades de cada usuário, enquanto o DAC segue um conjunto fixo de políticas definidas no momento da criação dos recursos.
+* **E)** Tanto o MAC quanto o DAC compartilham o mesmo princípio de que as permissões são gerenciadas pelos próprios usuários, mas o MAC se concentra em ambientes corporativos, enquanto o DAC é usado em sistemas pessoais.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O procedimento seguro de logon NÃO deve exibir identificadores de sistema ou aplicação que possam fornecer subsídios a atacantes.
-> - **B)** Incorreta. O sistema deve registrar eventos suspeitos internamente, mas não exibir mensagens que indiquem sucesso ou falha parcial durante o processo.
-> - **C)** Correta. De acordo com a norma ABNT NBR ISO/IEC 27002 (Controle 9.4.2 - Procedimento seguro de entrada no sistema), o procedimento de logon seguro deve validar as informações de autenticação apenas após a entrada completa de todos os dados pelo usuário, a fim de evitar que um atacante identifique se acertou o usuário ou a senha de forma isolada.
-> - **D)** Incorreta. O procedimento seguro de logon não deve fornecer mensagens de ajuda detalhadas que auxiliem invasores a descobrir contas válidas.
-> - **E)** Incorreta. A divulgação de que sistemas aceitam usuários convidados compromete a postura de segurança institucional.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O MAC permite que os administradores do sistema definam permissões detalhadas para cada usuário, enquanto no DAC...". De acordo com a teoria estudada em *2.2 DAC (Discretionary Access Control) e Listas de Controle de Acesso*, no modelo discricionário, a segurança gira em torno da figura do proprietário (*owner*). Quando um usuário cria um documento, planilha ou banco de dados, o sistema operacional atribui a ele a titularidade do objeto.
+> - **B)** **Correta.** Conforme fundamentado na seção *2.1 Visão Geral e Comparativo dos Modelos (DAC, MAC, RBAC, ABAC)* deste guia, avalia dinamicamente atributos do sujeito, do recurso, da ação solicitada e do ambiente (horário, local, dispositivo, risco) via regras booleanas. — Motor de Políticas Centralizado (ex.: XACML). — Ambientes em nuvem (AWS IAM), microsserviços modernos e arquiteturas Zero Trust. — Concessão granular, dinâmica e sensível ao contexto em tempo real. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-RR/2024) ao estabelecer que "No modelo MAC, o controle de permissões é centralizado e determinado por políticas de segurança rígidas, enquanto...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O modelo DAC impõe regras de segurança mais restritivas e inalteráveis que o MAC, sendo geralmente aplicado em...". De acordo com a teoria estudada em *2.1 Visão Geral e Comparativo dos Modelos (DAC, MAC, RBAC, ABAC)*, o criador ou proprietário do objeto tem autonomia total para conceder, delegar ou revogar permissões a outros usuários. — O proprietário (*Owner*) do objeto. — Sistemas de arquivos tradicionais (permissões NTFS no Windows, `chmod`/`chown` no Linux). — Alta flexibilidade e operação descentralizada.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O MAC utiliza permissões dinâmicas baseadas nas necessidades de cada usuário, enquanto o DAC segue um conjunto...". De acordo com a teoria estudada em *2.3 MAC (Mandatory Access Control) e Modelos Multiníveis Formais: Bell-LaPadula vs. Biba*, no modelo obrigatório, nenhum usuário individual tem poder discricionário sobre suas permissões. Todos os sujeitos e objetos recebem rótulos estritos de segurança impostos pela autoridade central.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Tanto o MAC quanto o DAC compartilham o mesmo princípio de que as permissões são gerenciadas pelos próprios...". De acordo com a teoria estudada em *2.1 Visão Geral e Comparativo dos Modelos (DAC, MAC, RBAC, ABAC)*, os privilégios são vinculados a cargos ou perfis funcionais (ex.: "Auditor Fiscal", "Operador"), e os usuários são associados aos papéis. — Administrador de Segurança Corporativo. — Bancos de dados relacionais (PostgreSQL, Oracle), sistemas ERP, processos eletrônicos de tribunais. — Alinhamento com a estrutura administrativa da organização, simplificação da auditoria e facilidade de escala.
 >
-> **Gabarito: C**
+> **Gabarito: B**
 
 ---
 
 ### Teste 382
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em ambientes corporativos complexos com requisitos dinâmicos de auditoria, o Controle de Acesso Baseado em Atributos (*Attribute-Based Access Control - ABAC*) supera as limitações do RBAC ao avaliar atributos do sujeito, do recurso, da ação e do contexto ambiental (como horário, localização IP e nível de ameaça).
+**(FGV – TRT-13 – Analista Judiciario Tecnologia da Informacao – 2022)**
+Analise o código a seguir, que descreve a entidade Departamento: Assinale a opção que apresenta as anotações JPA 2.0 que devem ser incluídas na linha 11 para que a JPA utilize o método getNome() como mapeamento para a coluna nome da tabela departamentos nas operações de persistência.
 
-Na implementação padrão do ABAC segundo a norma **XACML** (*eXtensible Access Control Markup Language* da OASIS), o componente de software que atua como o ponto de decisão, avaliando as políticas de acesso e emitindo a decisão autorizativa (*Permit* ou *Deny*), é denominado:
-
-* **A)** Policy Enforcement Point (PEP).
-* **B)** Policy Decision Point (PDP).
-* **C)** Policy Administration Point (PAP).
-* **D)** Policy Information Point (PIP).
-* **E)** Security Assertion Markup Language (SAML).
-
+* **A)** @Column(name="nome") @Access(AccessType.PROPERTY)
+* **B)** @Basic(field="nome") @Access(AccessType.PROPERTY)
+* **C)** @Basic(field="nome") @Access(AccessType.FIELD)
+* **D)** @Column(name="nome") @Access(AccessType.FIELD)
+* **E)** @Column(field="nome") @Access(AccessType.FIELD)
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O **PEP (Policy Enforcement Point)** é o ponto de interceptação e aplicação que intercepta a requisição do usuário, repassa ao PDP e aplica a decisão (*bloqueia ou libera*).
-> - **B)** **CORRETA.** Arquitetura canônica de referência do **XACML / ABAC**:
->   - **PDP (Policy Decision Point):** O "cérebro" avaliador. Recebe a solicitação do PEP, busca os atributos necessários no PIP, confronta as regras e políticas vindas do PAP e profere a decisão lógica (*Permit*, *Deny*, *NotApplicable* ou *Indeterminate*).
->   - **PEP (Policy Enforcement Point):** O interceptador e executor no plano de dados.
->   - **PAP (Policy Administration Point):** O repositório administrativo onde os administradores criam, gerenciam e armazenam as políticas XACML.
->   - **PIP (Policy Information Point):** A fonte de atributos que fornece dados sobre o sujeito, recurso ou ambiente (ex.: Active Directory, servidores de geolocalização).
-> - **C)** Incorreta. O PAP apenas gerencia e armazena os arquivos de políticas.
-> - **D)** Incorreta. O PIP é a fonte de dados que provê os valores dos atributos.
-> - **E)** Incorreta. SAML é um padrão de asserção de identidade para federação, não o motor de decisão do XACML.
-> 
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "@Column(name="nome") @Access(AccessType.PROPERTY)". De acordo com a teoria estudada em *Modelo Bell-LaPadula (Foco Exclusivo em CONFIDENCIALIDADE):*, propriedade da Segurança Simples (*Simple Security Property* - ss-property).
+> - **B)** **Correta.** Conforme fundamentado na seção *1.1 O Modelo AAA (Authentication, Authorization, Accounting)* deste guia, identificação: O sujeito declara perante o sistema quem ele alega ser (fornecendo um nome de usuário, login, endereço de e-mail institucional ou CPF). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-13/2022) ao estabelecer que "@Basic(field="nome") @Access(AccessType.PROPERTY)".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "@Basic(field="nome") @Access(AccessType.FIELD)". De acordo com a teoria estudada em *Modelo Bell-LaPadula (Foco Exclusivo em CONFIDENCIALIDADE):*, propriedade Estrela (*\*-Property* / Star-Property).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "@Column(name="nome") @Access(AccessType.FIELD)". De acordo com a teoria estudada em *Modelo Biba (Foco Exclusivo em INTEGRIDADE):*, propriedade da Integridade Simples (*Simple Integrity Property*).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "@Column(field="nome") @Access(AccessType.FIELD)". De acordo com a teoria estudada em *Modelo Biba (Foco Exclusivo em INTEGRIDADE):*, propriedade Estrela de Integridade (*\*-Property*).
+>
 > **Gabarito: B**
 
 ---
@@ -452,58 +430,50 @@ Para mitigar a fadiga de senhas e a dispersão de credenciais entre múltiplos p
 ---
 
 ### Teste 383
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em uma auditoria de governança de TI em um órgão fazendário estadual, verificou-se que servidores transferidos de setor mantinham ativas as permissões de acesso aos sistemas do departamento anterior, e que administradores de banco de dados utilizavam senhas compartilhadas estáticas de superusuário (`sa`) diretamente em suas estações de trabalho.
+**(FCC – TRT-23 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2016)**
+O superusuário de computador com sistema operacional Linux deseja alterar as permissões padrão para que apenas o usuário criador possa listar, ler e escrever em todos os novos diretórios criados no sistema por meio do comando mkdir. Para isso, o superusuário deve executar o comando
 
-Considerando os princípios de Governança de Identidades (IAM) e de Gestão de Acessos Privilegiados (PAM), assinale a prática recomendada para sanear essas não conformidades:
-
-* **A)** Adotar o acúmulo irrestrito de permissões (*Privilege Creep*) como política oficial, garantindo que servidores acumulem direitos ao longo da carreira para acelerar o atendimento ao público. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **B)** Implementar uma solução de PAM (*Privileged Access Management*) baseada em cofre seguro de senhas com rotação periódica automatizada, sessões administrativas gravadas e elevação de privilégios temporária *Just-In-Time* (JIT); associada a revisões periódicas de acesso no IAM para revogar imediatamente permissões incompatíveis com a nova lotação do servidor.
-* **C)** Desativar os logs de auditoria do sistema IAM para otimizar o espaço em disco do servidor de diretórios LDAP.
-* **D)** Substituir o desprovisionamento automático de contas inativas pela concessão vitalícia de privilégios administrativos a todos os prestadores de serviço terceirizados.
-* **E)** Padronizar o uso de contas genéricas e senhas únicas para todos os membros da equipe de sustentação de infraestrutura.
-
+* **A)** umask 700.
+* **B)** chmod 707.
+* **C)** umask 077.
+* **D)** chmod 700.
+* **E)** umask 707.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O acúmulo indevido de permissões (*Privilege Creep*) é uma vulnerabilidade crítica decorrente de falhas no processo de gestão de mudanças de cargo e deve ser estritamente erradicado.
-> - **B)** Correta. Soluções de PAM com cofre de senhas, privilégios temporários JIT e sessões gravadas saneiam o uso indevido de contas privilegiadas compartilhadas, enquanto campanhas periódicas de recertificação de acessos combatem o acúmulo residual de privilégios.
-> - **C)** Incorreta. A desativação de logs de auditoria viola diretamente o princípio da responsabilização (*accountability*) e inviabiliza investigações e auditorias de controle externo.
-> - **D)** Incorreta. A concessão vitalícia e a ausência de desprovisionamento violam os preceitos mandatórios de segurança do ciclo de vida de identidades.
-> - **E)** Incorreta. O uso de contas genéricas compartilhadas destrói o princípio do não repúdio e da rastreabilidade individual das operações de TI.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "umask 700". De acordo com a teoria estudada em *3.2 Menor Privilégio (PoLP) vs. Acúmulo Indevido (Privilege Creep)*, princípio do Menor Privilégio (*Principle of Least Privilege* - PoLP): Diretriz de ouro segundo a qual toda entidade (usuário ou processo) deve receber estritamente o conjunto mínimo de permissões indispensável para a conclusão de suas tarefas regulamentares, pelo menor período de tempo necessário.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "chmod 707". De acordo com a teoria estudada em *2.2 DAC (Discretionary Access Control) e Listas de Controle de Acesso*, no modelo discricionário, a segurança gira em torno da figura do proprietário (*owner*). Quando um usuário cria um documento, planilha ou banco de dados, o sistema operacional atribui a ele a titularidade do objeto.
+> - **C)** **Correta.** Conforme fundamentado na seção *2.1 Visão Geral e Comparativo dos Modelos (DAC, MAC, RBAC, ABAC)* deste guia, o criador ou proprietário do objeto tem autonomia total para conceder, delegar ou revogar permissões a outros usuários. — O proprietário (*Owner*) do objeto. — Sistemas de arquivos tradicionais (permissões NTFS no Windows, `chmod`/`chown` no Linux). — Alta flexibilidade e operação descentralizada. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-23/2016) ao estabelecer que "umask 077".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "chmod 700". De acordo com a teoria estudada em *Modelo Biba (Foco Exclusivo em INTEGRIDADE):*, um sujeito não pode gravar dados em objetos que possuam nível de integridade superior ao seu ("No Write Up" - Proibido escrever para cima). *Objetivo:* Impede que um usuário com baixa credencial corrompa ou altere arquivos vitais do sistema.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "umask 707". De acordo com a teoria estudada em *1.1 O Modelo AAA (Authentication, Authorization, Accounting)*, autorização: Uma vez que a autenticidade foi comprovada, o sistema consulta as matrizes de permissão para definir os privilégios exatos e as ações que aquele sujeito específico está legalmente autorizado a executar sobre os recursos.
+>
+> **Gabarito: C**
 
 ---
 
 ### Teste 384
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A federação de identidades permite que os servidores de um tribunal acessem múltiplos sistemas governamentais integrados utilizando uma única conta corporativa com o mecanismo de *Single Sign-On* (SSO).
+**(FCC – TRT-4 – Analista Judiciario Tecnologia da Informacao – 2015)**
+O administrador de um computador com sistema operacional Linux SuSE alterou as permissões do arquivo arq_meu.arq utilizando o seguinte comando. \$ chmod 644 arq_meu.arq O resultado da execução será que o arquivo arq_meu.arq
 
-A respeito dos protocolos padronizados de autenticação e autorização federada, assinale a afirmativa correta:
-
-* **A)** O protocolo SAML 2.0 utiliza tokens ultraleves em formato JSON, enquanto o OpenID Connect é baseado em mensagens pesadas em XML.
-* **B)** O **OAuth 2.0** é estritamente um framework de **Autorização** (concessão de permissões via tokens de acesso delegados), ao passo que o **OpenID Connect (OIDC)** é uma camada de **Autenticação** construída no topo do OAuth 2.0, que introduz o token de identidade padronizado (*ID Token*) no formato JSON Web Token (JWT) para comprovar quem é o usuário.
-* **C)** No protocolo SAML 2.0, o Provedor de Identidade (IdP) e o Provedor de Serviço (SP) operam sem qualquer chave pública ou certificado X.509. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **D)** O OpenID Connect exige compulsoriamente o envio da senha em texto claro do usuário para todas as aplicações de terceiros conectadas.
-* **E)** O mecanismo de Single Sign-On obriga o usuário a digitar sua senha novamente a cada novo clique em uma página do portal.
-
+* **A)** ficará oculto para os outros usuários.
+* **B)** poderá ser modificado e eliminado pelos usuários do grupo.
+* **C)** poderá ser executado pelo usuário que o criou.
+* **D)** poderá ser modificado pelo usuário que o criou.
+* **E)** ficará oculto para os usuários do grupo.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Inverteu os padrões: o **SAML 2.0** é baseado em asserções estruturadas e pesadas em **XML** assinadas com certificados X.509; o **OpenID Connect** é moderno, baseado em REST/JSON e tokens JWT (*JSON Web Tokens*).
-> - **B)** **CORRETA.** Relação arquitetural fundamental entre **OAuth 2.0 e OIDC**:
->   - **OAuth 2.0 (RFC 6749):** Framework de autorização delegado (*delegated authorization*). Emite `Access Tokens` que dizem a uma API o que o cliente pode acessar, mas **não é um protocolo de autenticação** (não diz à aplicação cliente quem é o usuário nem como ele se autenticou).
->   - **OpenID Connect (OIDC):** Estende o OAuth 2.0 para adicionar a camada de autenticação que faltava. Emite um **ID Token** (formato JWT assinado digitalmente contendo asserções de identidade ou *claims*, como `sub`, `iss`, `email`, `auth_time`), permitindo que a aplicação cliente valide a identidade do sujeito com segurança em aplicações web e mobile.
-> - **C)** Incorreta. SAML 2.0 requer certificados X.509 em ambas as pontas para assinar e cifrar as asserções XML.
-> - **D)** Incorreta. Em federação, a aplicação cliente **jamais vê a senha do usuário**; a autenticação ocorre exclusivamente no Provedor de Identidade (IdP).
-> - **E)** Incorreta. O propósito basilar do SSO (*Single Sign-On*) é autenticar o usuário uma única vez e permitir acesso transparente a múltiplos sistemas durante a sessão.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ficará oculto para os outros usuários". De acordo com a teoria estudada em *2.1 Visão Geral e Comparativo dos Modelos (DAC, MAC, RBAC, ABAC)*, o criador ou proprietário do objeto tem autonomia total para conceder, delegar ou revogar permissões a outros usuários. — O proprietário (*Owner*) do objeto. — Sistemas de arquivos tradicionais (permissões NTFS no Windows, `chmod`/`chown` no Linux). — Alta flexibilidade e operação descentralizada.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "poderá ser modificado e eliminado pelos usuários do grupo". De acordo com a teoria estudada em *1.1 O Modelo AAA (Authentication, Authorization, Accounting)*, identificação: O sujeito declara perante o sistema quem ele alega ser (fornecendo um nome de usuário, login, endereço de e-mail institucional ou CPF).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "poderá ser executado pelo usuário que o criou". De acordo com a teoria estudada em *3.1 Ciclo de Vida da Identidade (Onboarding, Movimentação e Offboarding)*, movimentação / Transição: Ajuste imediato e automatizado das permissões quando o servidor é transferido de setor ou assume novas funções de chefia. Privilégios que eram necessários na unidade antiga devem ser revogados imediatamente.
+> - **D)** **Correta.** Conforme fundamentado na seção *Limitação Crítica do DAC:* deste guia, se um usuário mal-intencionado convencer o proprietário de um arquivo sigiloso a conceder-lhe permissão de leitura, esse segundo usuário poderá copiar os dados para um novo arquivo de sua propriedade e disponibilizá-lo publicamente, sem que o sistema consiga bloquear o vazamento. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-4/2015) ao estabelecer que "poderá ser modificado pelo usuário que o criou".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ficará oculto para os usuários do grupo". De acordo com a teoria estudada em *2.2 DAC (Discretionary Access Control) e Listas de Controle de Acesso*, no modelo discricionário, a segurança gira em torno da figura do proprietário (*owner*). Quando um usuário cria um documento, planilha ou banco de dados, o sistema operacional atribui a ele a titularidade do objeto.
+>
+> **Gabarito: D**
 
 ---
 
@@ -593,86 +563,74 @@ flowchart LR
 ---
 
 ### Teste 385
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A equipe de infraestrutura e segurança da informação de um tribunal deliberou sobre a substituição do seu antigo modelo de segurança perimetral baseado em VPN ("castelo e fosso") por uma Arquitetura Zero Trust alinhada à norma NIST SP 800-207.
+**(FGV – TRF-1 – Analista Judiciario Area Apoio Especializado Especialidade Tecnologia da Informacao – 2024)**
+César importou para uma planilha um conjunto de dados contendo o número de identificação, nome e endereço dos funcionários do TFR1. No Microsoft Excel, para encontrar os dados do funcionário pelo nome, César deve usar a fórmula:
 
-A respeito dos princípios fundamentais que regem o paradigma Zero Trust, assinale a afirmativa correta:
-
-* **A)** O modelo assume como premissa que todas as máquinas conectadas à rede cabeada interna da sede do órgão são seguras e não exigem monitoramento contínuo de tráfego.
-* **B)** O princípio *"Never Trust, Always Verify"* determina que toda tentativa de conexão, originada de dentro ou de fora da rede física da organização, deve ser autenticada, autorizada e criptografada explicitamente e de forma contínua em cada requisição.
-* **C)** O princípio *"Assume Breach"* orienta os gestores a abandonar os mecanismos de microsegmentação de rede, dado que a invasão já é tratada como inevitável.
-* **D)** A arquitetura Zero Trust baseia suas concessões de acesso exclusivamente no endereço IP de origem do usuário, dispensando a avaliação do estado do dispositivo e da identidade.
-* **E)** No Zero Trust, após a primeira autenticação realizada com sucesso no início da jornada de trabalho, o usuário obtém acesso irrestrito a todas as aplicações corporativas pelo período contínuo de 30 dias.
-
+* **A)** ÍNDICE
+* **B)** PROCV
+* **C)** TRANSPOR
+* **D)** ENDEREÇO
+* **E)** ESCOLHER
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A falha central combatida pelo Zero Trust é justamente tratar redes internas como confiáveis. Nenhuma zona de rede é implicitamente segura.
-> - **B)** Correta. O princípio fundamental do Zero Trust preconiza que não há confiança implícita para nenhuma solicitação; toda requisição deve ser explicitamente autenticada, autorizada e criptografada a cada acesso.
-> - **C)** Incorreta. Assumir a violação (*Assume Breach*) exige a implantação vigorosa de microsegmentação e criptografia para conter o raio de alcance da invasão e deter movimentos laterais.
-> - **D)** Incorreta. O Zero Trust baseia-se na validação contínua da identidade, na integridade do dispositivo e em políticas de contexto adaptativo, tratando endereços IP como parâmetros secundários e de baixa confiança.
-> - **E)** Incorreta. Concessões perenes e irrestritas são antagônicas ao Zero Trust, que prega avaliação dinâmica contínua e concessão pontual de privilégios *Just-In-Time*.
-> 
-> **Gabarito: B**
+> - **A)** **Correta.** Conforme fundamentado na seção *1.1 O Modelo AAA (Authentication, Authorization, Accounting)* deste guia, identificação: O sujeito declara perante o sistema quem ele alega ser (fornecendo um nome de usuário, login, endereço de e-mail institucional ou CPF). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF-1/2024) ao estabelecer que "ÍNDICE".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "PROCV". De acordo com a teoria estudada em *3.2 Menor Privilégio (PoLP) vs. Acúmulo Indevido (Privilege Creep)*, princípio do Menor Privilégio (*Principle of Least Privilege* - PoLP): Diretriz de ouro segundo a qual toda entidade (usuário ou processo) deve receber estritamente o conjunto mínimo de permissões indispensável para a conclusão de suas tarefas regulamentares, pelo menor período de tempo necessário.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "TRANSPOR". De acordo com a teoria estudada em *2.2 DAC (Discretionary Access Control) e Listas de Controle de Acesso*, no modelo discricionário, a segurança gira em torno da figura do proprietário (*owner*). Quando um usuário cria um documento, planilha ou banco de dados, o sistema operacional atribui a ele a titularidade do objeto.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ENDEREÇO". De acordo com a teoria estudada em *4.1 O Colapso da Segurança de Borda Tradicional ("Castelo e Fosso")*, ameaças Internas (*Insider Threats*): Funcionários descontentes ou credenciais internas legítimas roubadas por phishing.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ESCOLHER". De acordo com a teoria estudada em *4.2 Os Três Princípios Norteadores Oficiais do Zero Trust*, toda e qualquer requisição de acesso deve ser autenticada, autorizada e criptografada explicitamente, avaliando em tempo real o contexto da sessão.
+>
+> **Gabarito: A**
 
 ---
 
 ### Teste 386
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A publicação especial NIST SP 800-207 consolida a Arquitetura Zero Trust (ZTA), superando o modelo obsoleto de segurança de perímetro baseado em "castelo e fosso", adotando o lema: *"Nunca Confie, Sempre Verifique"*.
+**(CEBRASPE – TRT-8 – Analista Judiciario Area Apoio Especializado Tecnologia da Informacao – 2022)**
+Durante o planejamento de configuração das aplicações na Google Cloud, foi solicitado que o analista de determinado TRT configurasse recurso do framework de arquitetura de segurança da informação, com vista a conceder às pessoas certas o acesso aos recursos ideais pelos motivos mais coerentes, por meio do acesso granular, conforme o princípio do privilégio mínimo. Nessa situação hipotética, para realizar o que lhe foi solicitado, o analista deverá utilizar o recurso
 
-Dentre os pilares técnicos fundamentais do Zero Trust, a técnica de **Microsegmentação** de rede tem por finalidade primordial:
-
-* **A)** Unificar todas as redes, estações de trabalho e bancos de dados em uma única VLAN plana sem roteadores.
-* **B)** Dividir o datacenter corporativo em zonas lógicas de segurança altamente granulares e isoladas no nível de carga de trabalho (*workload*), aplicando políticas estritas de comunicação L7 que inspecionam o tráfego leste-oeste (*East-West traffic*), com o propósito específico de conter e impedir a **movimentação lateral** de atacantes em caso de comprometimento de um nó da rede.
-* **C)** Garantir que todos os pacotes de rede sejam transmitidos sem criptografia para facilitar o monitoramento passivo. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **D)** Aumentar a área de broadcast da rede para acelerar transmissões de vídeo em alta resolução.
-* **E)** Eliminar completamente o uso de firewalls e sistemas de controle de acesso nos servidores centrais.
-
+* **A)** chronicle.
+* **B)** identity and access management.
+* **C)** multifactor authentication.
+* **D)** cloud data loss prevention.
+* **E)** cloud identity.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Uma rede plana (sem segmentação) é a antítese do Zero Trust, permitindo que um atacante que invada uma máquina tenha livre acesso a todos os servidores do tribunal.
-> - **B)** **CORRETA.** Fundamentos da **Microsegmentação no Zero Trust**:
->   - No modelo tradicional, o firewall de borda protegia o tráfego norte-sul (entrada e saída da internet), mas o interior da rede era considerado confiável (tráfego leste-oeste livre).
->   - Na ZTA (NIST SP 800-207), assume-se a premissa de comprometimento prévio (*Assume Breach*). A **microsegmentação** cria perímetros de segurança microscópicos e dinâmicos ao redor de cada serviço, contêiner ou máquina virtual.
->   - Mesmo que um invasor comprometa uma estação de trabalho de um estagiário ou um servidor web na DMZ, ele fica enclausurado naquele microsegmento isolado, **sendo bloqueado em qualquer tentativa de movimento lateral (*lateral movement*)** em direção ao banco de dados ou controladores de domínio.
-> - **C)** Incorreta. O Zero Trust exige criptografia em trânsito ponta a ponta (mTLS) em toda comunicação interna.
-> - **D)** Incorreta. A microsegmentação elimina domínios de broadcast amplos.
-> - **E)** Incorreta. Ela multiplica a aplicação de regras granulares de filtragem lógica em cada nó.
-> 
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "chronicle". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, nIST SP 800-63B - Digital Identity Guidelines: Authentication and Lifecycle Management - Diretrizes técnicas de autenticação de usuários, políticas de senhas e autenticação multifator (MFA).
+> - **B)** **Correta.** Conforme fundamentado na seção *3.1 Ciclo de Vida da Identidade (Onboarding, Movimentação e Offboarding)* deste guia, o IAM (*Identity and Access Management*) gerencia as identidades digitais desde o ingresso do colaborador até sua desvinculação definitiva da instituição. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT-8/2022) ao estabelecer que "identity and access management".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "multifactor authentication". De acordo com a teoria estudada em *3.3 Gestão de Acessos Privilegiados (PAM): Cofre, JIT e Sessões Gravadas*, as ferramentas de PAM (*Privileged Access Management*) eliminam o uso descontrolado dessas credenciais.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "cloud data loss prevention". De acordo com a teoria estudada em *No Plano de Dados (Data Plane):*, o PEP intercepta, fiscaliza, permite ou encerra as conexões diretas entre o usuário e o recurso, acatando cegamente as ordens recebidas do PA.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "cloud identity". De acordo com a teoria estudada em *4.3 Pilares Fundamentais da Confiança Zero*, conforme estabelecido pela CISA (*Cybersecurity and Infrastructure Security Agency*), o Zero Trust estrutura-se sobre cinco pilares técnicos interligados.
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 387
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A publicação técnica especial NIST SP 800-207 divide a Arquitetura Zero Trust em componentes lógicos fundamentais distribuídos entre o Plano de Controle (*Control Plane*) e o Plano de Dados (*Data Plane*).
+**(FGV – TRT-16 – Analista Judiciario Area Administrativa Tecnologia da Informacao – 2022)**
+No contexto de análise de dados e cubos OLAP, assinale os quatro tipos de análises que são comuns nesse ambiente.
 
-Assinale a opção que descreve corretamente o papel e a função desses componentes lógicos:
-
-* **A)** O Policy Enforcement Point (PEP) é o cérebro central responsável por redigir e tomar a decisão analítica final sobre conceder ou revogar o acesso a um recurso corporativo considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
-* **B)** O Policy Decision Point (PDP) é composto logicamente pela união do Policy Engine (PE), responsável pela decisão de autorização, e do Policy Administrator (PA), responsável por comandar o estabelecimento ou encerramento da sessão de comunicação.
-* **C)** O Policy Engine (PE) é um dispositivo de rede passivo que apenas encaminha os pacotes TCP sem aplicar nenhuma regra de segurança.
-* **D)** O Policy Administrator (PA) atua no plano de dados interceptando fisicamente o tráfego de dados sensíveis entre o usuário e o banco de dados.
-* **E)** A arquitetura Zero Trust do NIST veda expressamente o uso de PEPs intermediários entre o dispositivo do usuário e as aplicações de negócio.
-
+* **A)** Drill-down / ETL / Pivot / Roll up.
+* **B)** Drill-down / ETL / Pivot / Slice.
+* **C)** Drill-down / ETL / Roll up / Slice.
+* **D)** Drill-down / Pivot / Roll up / Slice.
+* **E)** ETL / Pivot / Roll up / Slice.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Quem toma a decisão de acesso é o Policy Engine (PE); o PEP limita-se a executar e impor (*enforce*) a decisão recebida.
-> - **B)** Correta. Na arquitetura NIST SP 800-207, o Policy Decision Point (PDP) agrega logicamente o Policy Engine (PE - cérebro decisório) e o Policy Administrator (PA - coordenador de sessões e emissor de comandos ao PEP).
-> - **C)** Incorreta. O Policy Engine é o motor analítico de inteligência que processa regras contextuais de autorização, não se confundindo com switches ou roteadores passivos.
-> - **D)** Incorreta. O Policy Administrator atua estritamente no Plano de Controle. Quem intercepta fisicamente a comunicação no Plano de Dados é o Policy Enforcement Point (PEP).
-> - **E)** Incorreta. O PEP é elemento mandatório posicionado entre o cliente e os recursos corporativos para interceptar e controlar o fluxo de dados.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Drill-down / ETL / Pivot / Roll up". De acordo com a teoria estudada em *Modelo Biba (Foco Exclusivo em INTEGRIDADE):*, um sujeito não pode ler objetos com nível de integridade inferior ao seu ("No Read Down" - Proibido ler para baixo). *Objetivo:* Evita que um processo de alta integridade seja contaminado por dados corrompidos ou não confiáveis.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Drill-down / ETL / Pivot / Slice". De acordo com a teoria estudada em *Modelo Biba (Foco Exclusivo em INTEGRIDADE):*, bell-LaPadula: Foco em Confidencialidade \$\rightarrow\$ *No Read Up* e *No Write Down*.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Drill-down / ETL / Roll up / Slice". De acordo com a teoria estudada em *Modelo Biba (Foco Exclusivo em INTEGRIDADE):*, biba: Foco em Integridade \$\rightarrow\$ *No Read Down* e *No Write Up*.
+> - **D)** **Correta.** Conforme fundamentado na seção *Modelo Bell-LaPadula (Foco Exclusivo em CONFIDENCIALIDADE):* deste guia, um sujeito em determinado nível não pode gravar ou transferir dados para um objeto de nível de sensibilidade inferior ao seu ("No Write Down" - Proibido escrever para baixo). *Objetivo:* Evita que um usuário com acesso a dados "Ultrassecretos" copie inadvertidamente ou maliciosamente informações para um documento "Público". Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-16/2022) ao estabelecer que "Drill-down / Pivot / Roll up / Slice".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ETL / Pivot / Roll up / Slice". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, kUROSE, James F.; ROSS, Keith W. Redes de Computadores e a Internet: Uma Abordagem Top-Down. 7. ed. São Paulo: Pearson Education do Brasil, 2017. (Cap. 8 - Segurança em Redes de Computadores: Autenticação e Controle de Acesso).
+>
+> **Gabarito: D**
 
 ---
 

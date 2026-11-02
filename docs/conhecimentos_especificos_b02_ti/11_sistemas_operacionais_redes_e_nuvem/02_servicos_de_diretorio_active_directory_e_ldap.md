@@ -116,7 +116,31 @@ O protocolo LDAP define um conjunto de operações primitivas:
 ---
 
 ### Teste 421
-**(FCC – TRT-14 – Analista Judiciário (TI) – 2016)**  
+**(FCC – TRT-24 – Analista Judiciario Tecnologia da Informacao – 2017)**
+Consider these statements. I. OpenSSL is an open source Project that provides a robust, commercial-grade, and full-featured toolkit for the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) protocols. It is also a general-purpose cryptography library. II. OpenLDAP stands for Open Light Directory Access Protocol. It is a lightweight protocol for accessing directory services, specifically X.500-based directory services. LDAP runs only over TCP/IP services. The LDAP information model is based on entries. An entry is a collection of commands that has a globally-unique Distinguished Name (DN). The DN is used to refer to the entry ambiguously. In LDAP, directory entries are arranged in a non hierarchical tree-like structure. III. The Active Directory module for Windows PowerShell consolidates a group of cmdlets. These cmdlets can be used to manage Active Directory domains, Active Directory Lightweight Directory Services (AD LDS) configuration sets, and Active Directory Database Mounting Tool instances in a single, self-contained package. The correct statement(s) is (are)
+
+* **A)** I and III, only.
+* **B)** I, only.
+* **C)** III, only.
+* **D)** II and III, only.
+* **E)** I, II and III.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I and III, only". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, nEMETH, Evi et al. UNIX and Linux System Administration Handbook. 5. ed. Boston: Addison-Wesley Professional, 2017. (Cap. 22 - Directory Services: LDAP and Active Directory).
+> - **B)** **Correta.** Conforme fundamentado na seção *1.2 O Protocolo LDAP: Portas Padrão e Arquitetura TCP/IP* deste guia, o LDAP (*Lightweight Directory Access Protocol*) foi desenvolvido para simplificar o pesado e complexo protocolo DAP (*Directory Access Protocol*) do padrão OSI X.500, eliminando a dependência das camadas superiores da pilha OSI e rodando diretamente sobre a pilha de transporte TCP/IP. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-24/2017) ao estabelecer que "I, only".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "III, only". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, iETF RFC 4511 - Lightweight Directory Access Protocol (LDAP): The Protocol - Especificação oficial do protocolo LDAPv3, operações de busca, bind e modelo de dados.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II and III, only". De acordo com a teoria estudada em *Portas de Rede Mandatórias para Concursos:*, porta TCP 636: Porta padrão para LDAPS (*LDAP over SSL/TLS*), onde toda a sessão de rede é encapsulada em criptografia TLS desde o aperto de mão inicial.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II and III". De acordo com a teoria estudada em *3.1 Controladores de Domínio (DCs), ntds.dit e SYSVOL*, rODC (*Read-Only Domain Controller*): Controlador de Domínio somente leitura projetado para filiais ou escritórios remotos que não possuem segurança física adequada (sem sala cofre).
+>
+> **Gabarito: B**
+
+---
+
+### Teste 422
+**(FCC – TRT-14 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2016)**
 O LDAP define, dentre outras, a forma como um cliente de diretório pode acessar um servidor de diretório. O LDAP pode ser usado
 
 * **A)** para enumerar objetos de diretório, mas não para localizá-los.
@@ -129,37 +153,13 @@ O LDAP define, dentre outras, a forma como um cliente de diretório pode acessar
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O LDAP suporta amplas operações de busca e localização com filtros complexos (ex: `ldapsearch`).
-> - **B)** Incorreta. O LDAP opera primariamente sobre TCP (porta padrão 389 para tráfego claro/StartTLS e porta 636 para LDAPS), não sobre porta 485/UDP.
-> - **C)** Incorreta. O LDAP é um protocolo de padrão aberto da IETF (RFC 4511), amplamente implementado em sistemas Unix/Linux (como OpenLDAP) e Windows.
-> - **D)** Incorreta. A configuração do cliente OpenLDAP no Linux reside tipicamente em `/etc/openldap/ldap.conf` ou `/etc/ldap/ldap.conf`, e não em `ldap-inf.xml`.
-> - **E)** Correta. O Active Directory Domain Services (AD DS) da Microsoft utiliza o protocolo LDAP como sua interface nativa de comunicação cliente-servidor para consultas, autenticações e operações administrativas de objetos de diretório.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "para enumerar objetos de diretório, mas não para localizá-los". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, microsoft Learn - Objetos de Diretiva de Grupo (GPO) - Documentação oficial sobre criação, herança e aplicação de políticas de grupo (GPO) no Active Directory.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "para estabelecer uma conexão entre um cliente e um servidor LDAP, usando a porta padrão 485, via UDP". De acordo com a teoria estudada em *Portas de Rede Mandatórias para Concursos:*, porta TCP/UDP 389: Porta padrão para tráfego LDAP em texto plano ou com elevação de segurança em canal aberto através do comando `StartTLS`.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "apenas em ambiente Windows, pois é um serviço de diretório proprietário". De acordo com a teoria estudada em *1.1 Conceito: Diretório Hierárquico vs. Banco de Dados Relacional (RDBMS)*, um Serviço de Diretório é uma base de dados especializada, estruturada hierarquicamente em formato de árvore invertida (DIT - *Directory Information Tree*), concebida para gerenciar, pesquisar e localizar recursos de rede (usuários, grupos funcionais, computadores, servidores, políticas de segurança e certificados).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "no Linux e configurado através do arquivo ldap-inf.xml, encontrado no diretório /etc". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, nEMETH, Evi et al. UNIX and Linux System Administration Handbook. 5. ed. Boston: Addison-Wesley Professional, 2017. (Cap. 22 - Directory Services: LDAP and Active Directory).
+> - **E)** **Correta.** Conforme fundamentado na seção *2.1 Níveis Hierárquicos: OUs, Domínios, Árvores e Floresta* deste guia, a estrutura lógica do Active Directory Domain Services (AD DS) organiza os objetos corporativos de forma desvinculada da disposição física dos cabos e prédios. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-14/2016) ao estabelecer que "para consultar ou administrar o Active Directory".
 >
 > **Gabarito: E**
-
----
-
-### Teste 422
-**(FGV – TRF-1 – Analista Judiciário (TI) – 2024)**  
-Jonas precisa efetuar algumas pesquisas nas entradas de um servidor OpenLDAP utilizado na rede de sua empresa. Algumas das entradas presentes no servidor são replicadas a seguir: cn=Jose, ou=Finanças, o=Matriz, c=BR cn=Luiz, ou=Marketing, o=Matriz, c=BR cn=Maria, ou=Marketing, o=Matriz, c=BR cn=Carlos, ou=Finanças, o=Filial RJ, c=BR cn=Adriana, ou=Marketing, o=Filial RJ, c=BR cn=Vanessa, ou=Marketing, o=Filial MG, c=BR Para encontrar todas as pe ssoas que trabalham na Matriz, ele utilizou o comando:
-
-* **A)** ldapsearch -x -H "ldap://localhost:1389" -b "o=Matriz" "(objectclass=person)" dn
-* **B)** ldapsearch -x -H "ldap://localhost:1389" -b "o=Matriz,c=BR" -s one "(|(ou=Marketing)(ou=Finanças))" dn
-* **C)** ldapsearch -x -H "ldap://localhost:1389" -b "o=Matriz,c=BR" -s base "(objectclass=person)" dn
-* **D)** ldapsearch -x -H "ldap://localhost:1389" -b "c=BR" -s sub "(|(ou=Marketing)(ou=Finanças))" dn
-* **E)** ldapsearch -x -H "ldap://localhost:1389" -b "o=Matriz,c=BR" -s children "(objectclass=person)" dn
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A base de busca (`-b`) 'o=Matriz' está incompleta em relação à hierarquia X.500 das entradas ('o=Matriz,c=BR').
-> - **B)** Correta. Para localizar as entradas das pessoas que trabalham na Matriz: define-se a base de busca no container da organização matriz `-b 'o=Matriz,c=BR'`; o escopo de nível um `-s one` pesquisa os objetos sob as Unidades Organizacionais imediatas; e o filtro booleano `'(|(ou=Marketing)(ou=Finanças))'` combina os dois departamentos existentes na Matriz, retornando os DNs correspondentes.
-> - **C)** Incorreta. O escopo `-s base` restringe a busca ao próprio objeto raiz indicado em `-b`, não retornando seus filhos.
-> - **D)** Incorreta. A base `-b 'c=BR'` com escopo `-s sub` traria todas as pessoas de todo o país, incluindo as filiais do RJ e MG.
-> - **E)** Incorreta. O parâmetro de escopo `-s children` não é a sintaxe padronizada no cliente OpenLDAP tradicional para esse recorte.
->
-> **Gabarito: B**
 
 ---
 
@@ -252,59 +252,50 @@ flowchart LR
 ---
 
 ### Teste 423
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No Microsoft Windows Server Active Directory Domain Services (AD DS), a topologia física é estritamente dissociada da estrutura lógica (florestas, árvores e domínios) para otimizar o tráfego de rede entre localidades remotas.
+**(CEBRASPE – TRT-8 – Analista Judiciario Area Apoio Especializado Tecnologia da Informacao – 2022)**
+Em relação aos grupos de segurança padrão do Active Directory, assinale a opção correta.
 
-A respeito dos componentes da **Estrutura Física do Active Directory** e da replicação entre Controladores de Domínio (DCs), assinale a afirmativa correta:
-
-* **A)** Um *Site* do Active Directory corresponde exatamente a uma Unidade Organizacional (OU) criada pelo administrador no painel de usuários..
-* **B)** Um **Site** do Active Directory é uma construção física que mapeia uma ou mais sub-redes IP com conectividade de rede local (LAN) de alta velocidade e baixo custo; a replicação **Intra-Site** (dentro do mesmo site) ocorre de forma quase instantânea orientada por notificações RPC (*Change Notification*) e sem compactação de dados para economizar CPU; enquanto a replicação **Inter-Site** (entre sites distintos interligados por WANs lentas via Site Links) é agendada em intervalos controlados e comprime os dados transferidos para preservar a largura de banda da rede.
-* **C)** Dois computadores pertencentes ao mesmo domínio são proibidos de residir em sites físicos distintos.
-* **D)** A replicação do Active Directory é unidirecional e centralizada exclusivamente em fitas magnéticas transportadas por via postal.
-* **E)** Todos os Controladores de Domínio de uma floresta devem ficar fisicamente no mesmo prédio para evitar falhas de replicação.
-
+* **A)** O Active Directory tem duas formas de entidades de segurança comuns: as contas de super usuário e as contas de grupos.
+* **B)** Algumas permissões definidas em objetos de domínio são atribuídas automaticamente para permitir vários níveis de acesso a grupos de segurança padrão, como, por exemplo, o grupo operadores de conta.
+* **C)** Os tipos de grupos do Active Directory são grupos de serviço e grupos de administradores.
+* **D)** As responsabilidades administrativas são separadas em dois tipos de administradores: os administradores de usuários e os administradores de grupos.
+* **E)** Trabalhar com usuários individuais em vez de grupos ajuda a simplificar a manutenção e a administração da rede.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. *Site* é um conceito **físico** de conectividade de rede; *Unidade Organizacional (OU)* é um contêiner **lógico** administrativo.
-> - **B)** **CORRETA.** Arquitetura física oficial do **Active Directory**:
->   - **Site:** Representa uma localidade geográfica bem conectada por links LAN rápidos (ex.: Sede em Goiânia, Subseção em Anápolis).
->   - **Replicação Intra-site (Dentro do Site):** Ocorre rapidamente (notificação disparada em média 15 segundos após a alteração). Como a largura de banda na LAN é abundante, os dados do diretório são replicados **sem compressão**, priorizando menor consumo de CPU dos DCs.
->   - **Replicação Inter-site (Entre Sites Distintos):** Ocorre através de links de site (*Site Links* usando RPC over IP ou SMTP). Como enlaces WAN são caros e concorrem com o tráfego de produção, a replicação é **agendada** (ex.: a cada 180 minutos ou durante a madrugada) e os dados são **altamente compactados** antes do envio.
-> - **C)** Incorreta. Um mesmo domínio pode e costuma abranger dezenas de sites físicos interligados.
-> - **D)** Incorreta. A replicação do AD é multimaster e baseada em protocolos de rede RPC/IP.
-> - **E)** Incorreta. Distribuir DCs em sites geograficamente distintos é a melhor prática para resiliência e alta disponibilidade.
-> 
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O Active Directory tem duas formas de entidades de segurança comuns: as contas de super usuário e as contas de...". De acordo com a teoria estudada em *2.1 Níveis Hierárquicos: OUs, Domínios, Árvores e Floresta*, a estrutura lógica do Active Directory Domain Services (AD DS) organiza os objetos corporativos de forma desvinculada da disposição física dos cabos e prédios.
+> - **B)** **Correta.** Conforme fundamentado na seção *Tipos de Grupo:* deste guia, grupos de Segurança (*Security Groups*): Possuem um identificador de segurança único (SID - *Security Identifier*). São os únicos que podem ser inseridos em Listas de Controle de Acesso (ACLs) para concessão de permissões em pastas, bancos e impressoras. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT-8/2022) ao estabelecer que "Algumas permissões definidas em objetos de domínio são atribuídas automaticamente para permitir vários níveis de...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os tipos de grupos do Active Directory são grupos de serviço e grupos de administradores". De acordo com a teoria estudada em *2.2 Tipos e Escopos de Grupos no AD DS*, os grupos no Active Directory desempenham papéis fundamentais de organização e controle de acesso.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "As responsabilidades administrativas são separadas em dois tipos de administradores: os administradores de...". De acordo com a teoria estudada em *Escopos de Grupos:*, local de Domínio (DL - *Domain Local*): Pode conter membros (usuários, grupos globais) de qualquer domínio confiável da floresta, mas só pode ser utilizado para conceder permissões em recursos localizados no mesmo domínio onde o grupo reside.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Trabalhar com usuários individuais em vez de grupos ajuda a simplificar a manutenção e a administração da rede". De acordo com a teoria estudada em *1.1 Conceito: Diretório Hierárquico vs. Banco de Dados Relacional (RDBMS)*, um Serviço de Diretório é uma base de dados especializada, estruturada hierarquicamente em formato de árvore invertida (DIT - *Directory Information Tree*), concebida para gerenciar, pesquisar e localizar recursos de rede (usuários, grupos funcionais, computadores, servidores, políticas de segurança e certificados).
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 424
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em uma organização pública que utiliza o Active Directory, um administrador necessita conceder permissões de leitura e modificação a uma pasta compartilhada no servidor de arquivos para os colaboradores do departamento financeiro. A organização segue rigorosamente a metodologia recomendada de desenho de segurança de identidades baseada na estratégia AGDLP.
+**(FGV – TJ-DFT – Analista Judiciario Suporte Em Tecnologia da Informacao – 2022)**
+O analista João administra o domínio Active Directory ad.tj.dft e precisa atribuir novas permissões ao usuário administrador RaizSD_u. O usuário RaizSD_u é membro de um grupo protegido do Active Directory. Sendo assim, para que esta alteração de permissões persista ao longo do tempo, João deve adicionar as novas permissões no objeto de ad.tj.dft:
 
-Para cumprir esse padrão, a sequência correta de estruturação de contas, escopos de grupo e permissões de acesso é:
-
-* **A)** As contas de usuários (**A**) são adicionadas diretamente à lista de controle de acesso (ACL) da pasta compartilhada, dispensando o uso de grupos intermediários.
-* **B)** As contas de usuários (**A**) são inseridas em Grupos Locais de Domínio (**DL**), os quais são atribuídos a Grupos Globais (**G**), que por sua vez recebem as Permissões (**P**) na pasta.
-* **C)** As contas de usuários (**A**) são inseridas em Grupos Globais (**G**), estes Grupos Globais são adicionados a Grupos Locais de Domínio (**DL**), e as Permissões (**P**) na pasta são atribuídas aos Grupos Locais de Domínio.
-* **D)** As contas de usuários (**A**) são inseridas em Grupos de Distribuição, que são convertidos em Grupos de Segurança para receberem Permissões (**P**) no nível de Site.
-* **E)** As contas de usuários (**A**) são associadas diretamente a uma Unidade Organizacional (**OU**), onde as permissões NTFS (**P**) de pastas são vinculadas via GPO.
-
+* **A)** AdminSDHolder;
+* **B)** IIS_IUSRS;
+* **C)** rootDSE;
+* **D)** Krbtgt;
+* **E)** Replicator.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Inserir usuários individuais em ACLs é uma péssima prática de governança que inviabiliza a auditoria e a escala administrativa.
-> - **B)** Incorreta. Inverte a ordem do aninhamento estrutural: no AGDLP, os Grupos Globais entram nos Grupos Locais de Domínio.
-> - **C)** Correta. Expressa a metodologia canônica AGDLP: Contas (**A**) entram em Grupos Globais (**G** que definem funções), estes entram em Grupos Locais de Domínio (**DL** que definem direitos), que finalmente recebem as Permissões (**P**) nas ACLs de pastas.
-> - **D)** Incorreta. Grupos de Distribuição não possuem SID e não são utilizados para atribuir permissões de acesso em arquivos.
-> - **E)** Incorreta. OUs não são entidades de segurança (*security principals*) e não podem receber permissões em ACLs de sistemas de arquivos.
-> 
-> **Gabarito: C**
+> - **A)** **Correta.** Conforme fundamentado na seção *Escopos de Grupos:* deste guia, global (G): Agrupa usuários e computadores do mesmo domínio. Pode ser utilizado para atribuir permissões em qualquer domínio da floresta. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-DFT/2022) ao estabelecer que "AdminSDHolder".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "IIS_IUSRS". De acordo com a teoria estudada em *Escopos de Grupos:*, local de Domínio (DL - *Domain Local*): Pode conter membros (usuários, grupos globais) de qualquer domínio confiável da floresta, mas só pode ser utilizado para conceder permissões em recursos localizados no mesmo domínio onde o grupo reside.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "rootDSE". De acordo com a teoria estudada em *4.3 Mecânica do Kerberos v5: KDC, AS, TGS, TGT e Bilhetes de Serviço*, `KRB_TGS_REQ` / `KRB_TGS_REP`: De posse do TGT, quando o usuário precisa acessar um servidor de arquivos ou intranet, ele solicita um bilhete ao serviço concessor de bilhetes (TGS).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Krbtgt". De acordo com a teoria estudada em *4.3 Mecânica do Kerberos v5: KDC, AS, TGS, TGT e Bilhetes de Serviço*, `KRB_AS_REQ` / `KRB_AS_REP`: O cliente envia uma requisição ao serviço de autenticação (AS). O AS valida a identidade e devolve uma chave de sessão e o TGT (*Ticket Granting Ticket*), um bilhete cifrado com a chave secreta exclusiva do KDC (a conta `krbtgt`).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Replicator". De acordo com a teoria estudada em *Hierarquia Lógica Detalhada:*, a Floresta é formalmente a fronteira máxima de segurança, haja vista que um administrador do domínio raiz da floresta (*Enterprise Admins*) possui privilégios de controle irrestrito que alcançam qualquer domínio subordinado da floresta.
+>
+> **Gabarito: A**
 
 ---
 
@@ -349,83 +340,74 @@ Embora o Active Directory opere predominantemente sob o regime de replicação m
 ---
 
 ### Teste 425
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em florestas corporativas do Active Directory compostas por múltiplos domínios (por exemplo, `tce.go.gov.br`, `sub1.tce.go.gov.br`, `sub2.tce.go.gov.br`), o **Catálogo Global (*Global Catalog - GC*)** desempenha um papel indispensável para a localização rápida de objetos e logon de usuários.
+**(FGV – TJ-RR – Analista Judiciario Infraestrutura de Tecnologia da Informacao – 2024)**
+Você, como analista de segurança ou de infraestrutura do TJ-RR, pode ser incumbido de instalar e configurar servidores para resoluções de nomes de domínio da Internet. Uma das soluções mais robustas para esse fim é o BIND, do Internet Systems Consortium (ISC). Em relação ao tema, avalie se cada afirmativa a seguir, referente a boas práticas recomendadas pelo ISC para administração do BIND, é verdadeira (V) ou falsa (F) . ( ) Assegurar que a infraestrutura utilizada suporte EDNS0 e pacotes UDP de tamanhos reduzidos. ( ) Não combinar funções de servidor de nomes autoritativas e recursivas no mesmo servidor. ( ) Empregar firewalls/filtros de pacotes com estado em seus servidores para tráfego de consulta de saída. As afirmativas são, respectivamente,
 
-A respeito do conteúdo e das funções operacionais do Catálogo Global, assinale a afirmativa correta:
-
-* **A)** O Catálogo Global armazena a cópia completa de todos os atributos de todos os objetos de todos os servidores do planeta.. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **B)** Um servidor configurado como Catálogo Global armazena uma réplica completa de todos os objetos de seu próprio domínio local e uma **réplica parcial de somente-leitura** de todos os objetos de todos os demais domínios da floresta (denominada *Partial Attribute Set - PAS*), permitindo buscas rápidas em toda a floresta sem sobrecarregar links WAN e viabilizando a resolução de associações a Grupos Universais durante o processo de logon.
-* **C)** O Catálogo Global é um arquivo executável que deve ser instalado exclusivamente em estações de trabalho Windows 10 Home.
-* **D)** O Catálogo Global é incompatível com o protocolo Kerberos v5.
-* **E)** Cada floresta do Active Directory pode possuir no máximo um único servidor com a função de Catálogo Global ativada.
-
+* **A)** V – F – V.
+* **B)** V – V – V.
+* **C)** V – F – F.
+* **D)** F – V – V.
+* **E)** F – V – F.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O GC não armazena todos os atributos de outros domínios; ele armazena apenas um subconjunto restrito de atributos frequentemente consultados (*Partial Attribute Set*).
-> - **B)** **CORRETA.** Funções do **Catálogo Global (GC)**:
->   1. **Busca Florestal:** Permite que um usuário procure uma impressora, computador ou colega em qualquer domínio da floresta consultando o DC/GC local rapidamente, sem fazer requisições a DCs remotos.
->   2. **Conjunto Parcial de Atributos (PAS):** Contém atributos comuns como Nome, Sobrenome, E-mail, UPN e SID de todos os domínios.
->   3. **Logon e Grupos Universais:** Na autenticação Kerberos, o DC precisa consultar o GC para expandir a lista de associações a **Grupos Universais** do usuário e embutir os respectivos SIDs no token de acesso (*PAC - Privilege Attribute Certificate*). Se o GC estiver inacessível, o logon de usuários comuns pode falhar (salvo se o *Universal Group Membership Caching* estiver ativado).
-> - **C)** Incorreta. O GC é uma função habilitada exclusivamente em Controladores de Domínio (DCs) do Windows Server.
-> - **D)** Incorreta. O GC é parte integrante do fluxo de autenticação Kerberos.
-> - **E)** Incorreta. Qualquer DC pode ser promovido a GC; a recomendação em domínios modernos é que a maioria dos DCs também atuem como Catálogo Global.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – F – V". De acordo com a teoria estudada em *Hierarquia Lógica Detalhada:*, delegar poderes de administração (ex.: conceder ao suporte técnico de Goiânia autorização para redefinir senhas exclusivamente dos servidores daquela OU).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – V – V". De acordo com a teoria estudada em *3.4 As 5 Funções Mestres de Operação Única (FSMO)*, nível de Domínio *(1 em cada Domínio)*: PDC Emulator *(Emulador de PDC)* — A função mais ativa e crítica: atua como servidor de sincronização de relógio mestre (servidor NTP raiz), reconcilia alterações e falhas de senha com prioridade, e processa bloqueios de conta. — Causa atrasos na propagação de novas senhas, falhas de logon em contas recém-alteradas e erros de dessincronização no protocolo Kerberos.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – F – F". De acordo com a teoria estudada em *Portas de Rede Mandatórias para Concursos:*, porta TCP/UDP 389: Porta padrão para tráfego LDAP em texto plano ou com elevação de segurança em canal aberto através do comando `StartTLS`.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – V – V". De acordo com a teoria estudada em *3.4 As 5 Funções Mestres de Operação Única (FSMO)*, nível de Domínio *(1 em cada Domínio)*: Infrastructure Master *(Mestre de Infraestrutura)* — Atualiza referências cruzadas quando um objeto de outro domínio pertencente a um grupo local é modificado. — Em domínio único não tem efeito prático.
+> - **E)** **Correta.** Conforme fundamentado na seção *6. Fontes Recomendadas na Internet* deste guia, sTALLINGS, William. Criptografia e Segurança de Redes: Princípios e Práticas. 7. ed. São Paulo: Pearson Education do Brasil, 2018. (Cap. 16 - Autenticação Mútua e Serviços Kerberos). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-RR/2024) ao estabelecer que "F – V – F".
+>
+> **Gabarito: E**
 
 ---
 
 ### Teste 426
-**(FGV – TJ-DFT – Analista Judiciário (TI) – 2022)**  
-O analista João administra o domínio Active Directory ad.tj.dft e precisa atribuir novas permissões ao usuário administrador RaizSD_u. O usuário RaizSD_u é membro de um grupo protegido do Active Directory. Sendo assim, para que esta alteração de permissões persista ao longo do tempo, João deve adic ionar as novas permissões no objeto de ad.tj.dft:
+**(FCC – TRT-16 – Analista Judiciario Tecnologia da Informacao – 2014)**
+Quando um Sistema Operacional (SO) concilia múltiplos usuários, os aspectos de compartilhamento, a nomeação e a proteção de arquivos tornam-se relevantes. Dada uma estrutura de diretórios que permita o compartilhamento de arquivos entre os usuários, o sistema operacional: I. Tem de mediar este compartilhamento. II. Tanto pode permitir a um usuário o acesso aos arquivos de outros usuários por default como exigir que um usuário conceda especificamente acesso aos arquivos. III. Precisa apenas dos mesmos atributos de arquivo e diretório para implementar o compartilhamento e a proteção necessários em um SO monousuário. IV. Pode possuir múltiplos sistemas de arquivos locais, inclusive volumes em um único disco ou múltiplos volumes em múltiplos discos vinculados. V. É responsável por definir as permissões sobre um arquivo ou diretório a cada operação solicitada e a executa ou não. Está correto o que se afirma APENAS em
 
-* **A)** AdminSDHolder;
-* **B)** IIS_IUSRS;
-* **C)** rootDSE;
-* **D)** Krbtgt;
-* **E)** Replicator. Tribunal de Justiça do Distrito Federal e dos Territórios FGV Conhecimento
+* **A)** I e II.
+* **B)** I, II e IV.
+* **C)** II, IV e V.
+* **D)** III e V.
+* **E)** II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. No Active Directory, o objeto `AdminSDHolder` reside na partição de domínio e atua como modelo de segurança (template de ACL) para todos os grupos e usuários protegidos (como Domain Admins, Enterprise Admins). A cada 60 minutos, o processo interno `SDProp` (Security Descriptor Propagator) compara as permissões dos membros de grupos privilegiados com o `AdminSDHolder` e sobrescreve qualquer alteração manual realizada diretamente no usuário. Portanto, para que uma permissão persista em um usuário protegido, ela deve ser concedida no objeto `AdminSDHolder`.
-> - **B)** Incorreta. `IIS_IUSRS` é um grupo local interno utilizado pelo servidor web Internet Information Services.
-> - **C)** Incorreta. `rootDSE` é a raiz do diretório LDAP que fornece dados globais do servidor, não atuando como template de propagação de permissões.
-> - **D)** Incorreta. `Krbtgt` é a conta de serviço do Active Directory responsável pelo Key Distribution Center (KDC) do Kerberos.
-> - **E)** Incorreta. `Replicator` é um grupo legado de replicação de arquivos.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e II". De acordo com a teoria estudada em *3.3 Catálogo Global (Global Catalog - GC)*, é indispensável para permitir que usuários façam login utilizando o seu *User Principal Name* (UPN: `usuario@orgao.gov.br`) e para a resolução de associações de Grupos Universais durante o processo de geração do token de logon.
+> - **B)** **Correta.** Conforme fundamentado na seção *3.1 Controladores de Domínio (DCs), ntds.dit e SYSVOL* deste guia, controlador de Domínio (DC - *Domain Controller*): Servidor Windows que executa a função de AD DS, responsável por autenticar usuários, processar logon Kerberos e manter a base de dados. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-16/2014) ao estabelecer que "I, II e IV".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II, IV e V". De acordo com a teoria estudada em *4.3 Mecânica do Kerberos v5: KDC, AS, TGS, TGT e Bilhetes de Serviço*, `KRB_TGS_REQ` / `KRB_TGS_REP`: De posse do TGT, quando o usuário precisa acessar um servidor de arquivos ou intranet, ele solicita um bilhete ao serviço concessor de bilhetes (TGS).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "III e V". De acordo com a teoria estudada em *2.3 A Estratégia Canônica de Permissões: AGDLP e AGUDLP*, domain Local Groups: Grupos Locais de Domínio criados especificamente para representar o nível de permissão sobre determinado recurso (ex.: `DL_ProcessosEletronicos_Leitura`), onde finalmente se aplicam as.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II e III". De acordo com a teoria estudada em *3.1 Controladores de Domínio (DCs), ntds.dit e SYSVOL*, compartilhamento SYSVOL: Pasta de rede replicada automaticamente entre todos os DCs que armazena os scripts de logon e os arquivos de configuração das Políticas de Grupo (GPOs).
 >
-> **Gabarito: A**
+> **Gabarito: B**
 
 ---
 
 ### Teste 427
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em uma floresta multi-domínio do Microsoft Active Directory Domain Services (AD DS), a arquitetura do sistema delega certas operações a servidores específicos por meio das funções Mestres de Operação Única Flexível (*Flexible Single Master Operations* - FSMO). 
+**(FCC – TRT-9 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2015)**
+Considere a existência da pasta c:\distribuição, em uma partição NTFS de um computador com sistema operacional Windows Vista, com permissão de compartilhamento controle total ao grupo de Usuários e permissão NTFS de ler, ler & executar e listar conteúdo ao grupo Usuários. Com essas configurações de permissões, um usuário que pertence ao grupo Usuários poderá, sobre a pasta,
 
-Sobre as atribuições e o escopo dessas funções, é correto afirmar:
-
-* **A)** A função de *Schema Master* possui escopo restrito a cada domínio individual da floresta, permitindo que cada domínio configure seus próprios atributos de usuário de maneira independente e isolada.
-* **B)** A função de *PDC Emulator* (Emulador de Controlador de Domínio Primário) atua no nível de domínio e é a principal responsável por atuar como autoridade de referência de sincronização de horário (servidor NTP), além de processar com prioridade as alterações e bloqueios de senhas de usuários.
-* **C)** A função de *RID Master* opera no nível de floresta e atua exclusivamente na validação de nomes de novos domínios que solicitam ingresso na estrutura hierárquica do AD.
-* **D)** As cinco funções FSMO operam compulsoriamente no mesmo e único Controlador de Domínio raiz, sendo tecnicamente impossível transferi-las individualmente entre diferentes servidores da rede.
-* **E)** A função de *Domain Naming Master* tem escopo de domínio e é responsável por atribuir identificadores relativos (RIDs) a cada novo objeto criado pelos controladores de domínio locais.
-
+* **A)** inserir um novo arquivo.
+* **B)** eliminar arquivos.
+* **C)** listar o seu conteúdo.
+* **D)** editar o nome de arquivos.
+* **E)** renomear as subpastas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O Schema Master possui escopo de floresta (apenas 1 por floresta); o esquema do AD DS é único e universal para todos os domínios da floresta.
-> - **B)** Correta. O PDC Emulator opera no nível de domínio e é a função FSMO de maior atividade, sendo responsável pela sincronização de tempo NTP (vital para o Kerberos) e processamento imediato de alterações de senha.
-> - **C)** Incorreta. O RID Master opera no nível de domínio e distribui blocos de identificadores relativos para criação de novos SIDs.
-> - **D)** Incorreta. As funções FSMO são flexíveis e podem ser livremente distribuídas e transferidas entre diferentes Controladores de Domínio.
-> - **E)** Incorreta. O Domain Naming Master tem escopo de floresta e cuida da nomenclatura e criação de domínios, e não da alocação de RIDs.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "inserir um novo arquivo". De acordo com a teoria estudada em *3.1 Controladores de Domínio (DCs), ntds.dit e SYSVOL*, `ntds.dit`: O arquivo de banco de dados do Active Directory propriamente dito (baseado no mecanismo ESE / JET Blue).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "eliminar arquivos". De acordo com a teoria estudada em *2.3 A Estratégia Canônica de Permissões: AGDLP e AGUDLP*, permissions: Permissões de controle de acesso (ACLs NTFS) na pasta do servidor de arquivos.
+> - **C)** **Correta.** Conforme fundamentado na seção *3.1 Controladores de Domínio (DCs), ntds.dit e SYSVOL* deste guia, compartilhamento SYSVOL: Pasta de rede replicada automaticamente entre todos os DCs que armazena os scripts de logon e os arquivos de configuração das Políticas de Grupo (GPOs). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-9/2015) ao estabelecer que "listar o seu conteúdo".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "editar o nome de arquivos". De acordo com a teoria estudada em *4.3 Mecânica do Kerberos v5: KDC, AS, TGS, TGT e Bilhetes de Serviço*, `KRB_TGS_REQ` / `KRB_TGS_REP`: De posse do TGT, quando o usuário precisa acessar um servidor de arquivos ou intranet, ele solicita um bilhete ao serviço concessor de bilhetes (TGS).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "renomear as subpastas". De acordo com a teoria estudada em *Tipos de Grupo:*, grupos de Distribuição (*Distribution Groups*): Não possuem SID e destinam-se exclusivamente ao envio em massa de e-mails corporativos (ex.: Exchange Server). Não podem receber permissões em recursos de TI.
+>
+> **Gabarito: C**
 
 ---
 
@@ -497,124 +479,97 @@ Para impedir que invasores capturem pacotes de autenticação na rede e os reenv
 ---
 
 ### Teste 428
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No gerenciamento centralizado de estações de trabalho e servidores Windows através de Objetos de Diretiva de Grupo (*Group Policy Objects - GPOs*), um computador ou usuário pode estar sujeito a múltiplas políticas conflitantes configuradas em diferentes níveis da hierarquia.
+**(FCC – TRT-15 – Analista Judiciario Tecnologia da Informacao – 2015)**
+Com respeito à DMZ, do termo em inglês “DeMilitarized Zone”, ou seja, “Zona Desmilitarizada” considere: I. Tem como função manter os serviços que possuem acesso externo separados da rede local, restringindo ao máximo um potencial dano causado por algum invasor, tanto interno como externo. II. Permite o acesso de usuários externos aos servidores específicos localizados na rede de perímetro e também o acesso deles à rede corporativa interna. III. Tem como papel principal ser uma rede “tampão” entre as redes externa e interna. IV. A configuração é realizada através do uso de equipamentos de Firewall, que vão realizar o controle de acesso entre ela, a rede local e a Internet. Está correto o que consta APENAS em
 
-A ordem padrão de processamento e precedência na aplicação de GPOs, expressa pela sigla **LSDOU**, estabelece que:
-
-* **A)** As políticas vinculadas ao nível Local sobrescrevem compulsoriamente todas as políticas definidas na Unidade Organizacional (OU).. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **B)** O processamento ocorre na seguinte sequência temporal: 1º **Local** (política local da máquina), 2º **Site**, 3º **Domínio** e 4º **Unidade Organizacional (OU)** (processando das OUs superiores para as OUs filhas aninhadas); consequentemente, no caso de configurações conflitantes, **a última política processada (a vinculada à OU mais específica e profunda) é a que prevalece e sobrescreve as configurações anteriores**, salvo se houver imposição (*Enforced*).
-* **C)** Políticas de Domínio são completamente ignoradas se o computador possuir antivírus instalado.
-* **D)** A ordem LSDOU é definida aleatoriamente pela CPU a cada reinicialização do Windows.
-* **E)** Uma GPO vinculada a um Site tem precedência superior sobre uma GPO vinculada com atributo *Enforced* em um Domínio.
-
+* **A)** II.
+* **B)** I, III e IV.
+* **C)** II, III e IV.
+* **D)** I e II.
+* **E)** I e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A política Local é a primeira a ser aplicada e, portanto, é a mais fraca: qualquer política de Site, Domínio ou OU sobrescreve a política Local.
-> - **B)** **CORRETA.** Regra canônica de herança e precedência de **GPOs (LSDOU)**:
->   - **Ordem de Aplicação:** 
->     1. **L**ocal Policy (mais antiga/mais fraca);
->     2. **S**ite;
->     3. **D**omain;
->     4. **O**rganizational **U**nit (processa da OU pai até a OU folha onde o objeto reside).
->   - **Regra de Conflito:** *"O último a ser aplicado vence"*. Logo, uma configuração na OU folha sobrescreve configurações divergentes vindas do Domínio ou do Site.
->   - **Exceção Maior:** A marcação **Enforced (Imposta)** em uma GPO de nível superior impede que suas diretivas sejam sobrescritas por OUs subordinadas e quebra bloqueios de herança (*Block Inheritance*).
-> - **C)** Incorreta. Políticas de Domínio são aplicadas pelo serviço Group Policy Client do sistema operacional.
-> - **D)** Incorreta. A ordem é estritamente determinística e previsível.
-> - **E)** Incorreta. A flag *Enforced* confere prioridade absoluta àquela GPO contra qualquer outra política não imposta.
-> 
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II". De acordo com a teoria estudada em *Tipos de Grupo:*, grupos de Segurança (*Security Groups*): Possuem um identificador de segurança único (SID - *Security Identifier*). São os únicos que podem ser inseridos em Listas de Controle de Acesso (ACLs) para concessão de permissões em pastas, bancos e impressoras.
+> - **B)** **Correta.** Conforme fundamentado na seção *Escopos de Grupos:* deste guia, local de Domínio (DL - *Domain Local*): Pode conter membros (usuários, grupos globais) de qualquer domínio confiável da floresta, mas só pode ser utilizado para conceder permissões em recursos localizados no mesmo domínio onde o grupo reside. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-15/2015) ao estabelecer que "I, III e IV".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II, III e IV". De acordo com a teoria estudada em *3.1 Controladores de Domínio (DCs), ntds.dit e SYSVOL*, controlador de Domínio (DC - *Domain Controller*): Servidor Windows que executa a função de AD DS, responsável por autenticar usuários, processar logon Kerberos e manter a base de dados.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e II". De acordo com a teoria estudada em *4.4 Tolerância Temporal (Clock Skew) e o Papel do PDC Emulator*, o KDC exige que a diferença entre o relógio da estação cliente e o relógio do servidor de autenticação não ultrapasse um limite máximo, denominado Desvio de Relógio (*Clock Skew*), configurado por padrão em 5 minutos.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e III". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, sTALLINGS, William. Criptografia e Segurança de Redes: Princípios e Práticas. 7. ed. São Paulo: Pearson Education do Brasil, 2018. (Cap. 16 - Autenticação Mútua e Serviços Kerberos).
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 429
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Considere uma floresta corporativa do Microsoft Active Directory Domain Services (AD DS) composta por um único domínio denominado `tce.go.gov.br`. Um computador do setor de compras está localizado na Unidade Organizacional (OU) `Licitacoes`, que por sua vez é uma subunidade contida no interior da OU `Administrativo`. 
+**(FGV – TJ-RR – Analista Judiciario Infraestrutura de Tecnologia da Informacao – 2024)**
+Assinale a afirmativa correta a respeito de servidores de aplicações web, de DNS e de diretórios.
 
-Existem quatro Políticas de Grupo (GPOs) com configurações conflitantes vinculadas aos seguintes níveis:
-
-1. GPO "Diretiva-Local" configurada nas políticas da máquina local;
-2. GPO "Diretiva-Site" vinculada ao Site físico do Active Directory;
-3. GPO "Diretiva-Dominio" vinculada à raiz do Domínio `tce.go.gov.br`;
-4. GPO "Diretiva-Admin" vinculada à OU pai `Administrativo`;
-5. GPO "Diretiva-Licitacoes" vinculada à OU folha `Licitacoes`.
-
-Sabendo que a OU `Licitacoes` possui a opção de "Bloquear Herança" (*Block Inheritance*) explicitamente habilitada, mas a GPO "Diretiva-Dominio" foi configurada pelo Administrador Corporativo com a opção de "Imposição" (*Enforced* / Não Substituir), assinale a alternativa que indica a política que terá a maior precedência final para definir o parâmetro conflitante na referida estação de trabalho:
-
-* **A)** GPO "Diretiva-Local", em razão de as configurações físicas na estação de trabalho sempre prevalecerem sobre diretivas de rede.
-* **B)** GPO "Diretiva-Site", pois diretivas de site físico são imunes a bloqueios de herança configurados em OUs.
-* **C)** GPO "Diretiva-Admin", que é herdada compulsoriamente por ser a Unidade Organizacional hierarquicamente superior direta.
-* **D)** GPO "Diretiva-Licitacoes", pois o bloqueio de herança impede a aplicação de qualquer diretiva originada fora da referida OU.
-* **E)** GPO "Diretiva-Dominio".
-
+* **A)** O IIS permite a criação de proxy reverso para gerar regra de reescrita de entrada de solicitações HTTP, porém não permite o mesmo para regras de saída.
+* **B)** Em um servidor Windows, o conteúdo de uma zona DNS pode ser armazenado em um arquivo ou no AD DS (Active Directory Domain Services).
+* **C)** NJS é um subconjunto da linguagem JavaScript concebido para estender a funcionalidade de aplicações como Microsoft Active Directory e Windows DNS Server.
+* **D)** O mod_deflate é o filtro do Apache HTTP Server responsável por alterar o conjunto de caracteres das respostas antes de enviá-las ao cliente.
+* **E)** No Windows, quando o servidor DNS armazena a zona em um arquivo, todas as cópias da zona são graváveis, inclusive as referentes às zonas secundárias.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A diretiva Local é a primeira a ser processada na cadeia e possui a menor precedência em relação às diretivas de domínio.
-> - **B)** Incorreta. As diretivas de Site são ordinariamente bloqueadas pelo Bloqueio de Herança caso não estejam marcadas como Enforced.
-> - **C)** Incorreta. A GPO da OU Administrativo foi devidamente bloqueada pelo Block Inheritance da OU filha e não possui a flag Enforced.
-> - **D)** Incorreta. O Bloqueio de Herança bloqueia diretivas comuns, mas é expressamente sobreposto pela configuração de Imposição (*Enforced*) da Diretiva de Domínio.
-> - **E)** Correta. A opção *Enforced* (Imposição) foi desenhada pela Microsoft exatamente para garantir a prevalência inegociável de diretivas centrais de governança e segurança, sobrepondo qualquer bloqueio de herança definido em OUs subordinadas.
-> 
-> **Gabarito: E**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O IIS permite a criação de proxy reverso para gerar regra de reescrita de entrada de solicitações HTTP, porém não...". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, microsoft Learn - Active Directory Domain Services Overview - Visão geral oficial do AD DS, estruturas de florestas, domínios, árvores e unidades organizacionais.
+> - **B)** **Correta.** Conforme fundamentado na seção *2.1 Níveis Hierárquicos: OUs, Domínios, Árvores e Floresta* deste guia, a estrutura lógica do Active Directory Domain Services (AD DS) organiza os objetos corporativos de forma desvinculada da disposição física dos cabos e prédios. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-RR/2024) ao estabelecer que "Em um servidor Windows, o conteúdo de uma zona DNS pode ser armazenado em um arquivo ou no AD DS (Active Directory...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "NJS é um subconjunto da linguagem JavaScript concebido para estender a funcionalidade de aplicações como Microsoft...". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, microsoft Learn - Visão Geral do Kerberos no Windows Server - Funcionamento oficial da autenticação Kerberos, KDC, tickets TGT e autenticação de rede.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O mod_deflate é o filtro do Apache HTTP Server responsável por alterar o conjunto de caracteres das respostas...". De acordo com a teoria estudada em *3.1 Controladores de Domínio (DCs), ntds.dit e SYSVOL*, controlador de Domínio (DC - *Domain Controller*): Servidor Windows que executa a função de AD DS, responsável por autenticar usuários, processar logon Kerberos e manter a base de dados.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "No Windows, quando o servidor DNS armazena a zona em um arquivo, todas as cópias da zona são graváveis, inclusive...". De acordo com a teoria estudada em *Escopos de Grupos:*, local de Domínio (DL - *Domain Local*): Pode conter membros (usuários, grupos globais) de qualquer domínio confiável da floresta, mas só pode ser utilizado para conceder permissões em recursos localizados no mesmo domínio onde o grupo reside.
+>
+> **Gabarito: B**
 
 ---
 
 ### Teste 430
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No protocolo de autenticação Kerberos v5, implementado nativamente pelo Active Directory Domain Services para prover autenticação mútua e *Single Sign-On* (SSO) no ambiente de rede corporativo:
+**(FCC – TRT-15 – Analista Judiciario Tecnologia da Informacao – 2015)**
+A partir do caminho \$JBOSS_HOME/bin, considere: I. ./standalone.sh --server-config=standalone-ha.xml II. ./startserver.sh --domain-config=default.xml III. ./domain.sh --domain-config=domain-osgi-only.xml IV. ./jbserver.sh --config=defaul-ha.xml As instruções que podem ser utilizadas para iniciar o JBoss Application Server 7 com configurações alternativas em um arquivo de configuração são as que constam APENAS em
 
-* **A)** As senhas dos usuários são transmitidas em texto claro durante a etapa inicial de negociação com o Authentication Server (AS), dependendo de túneis VPN para garantir a confidencialidade do tráfego.
-* **B)** O serviço Ticket Granting Server (TGS) emite o bilhete inicial de concessão de bilhetes (*Ticket Granting Ticket* - TGT) imediatamente antes de validar as credenciais biométricas do usuário na máquina cliente.
-* **C)** A tolerância temporal de dessincronização de relógio (*clock skew*) entre os clientes e o KDC é irrelevante para a segurança do protocolo, pois o Kerberos utiliza exclusivamente desafios e respostas baseados em números aleatórios (*nonces*).
-* **D)** O cliente obtém inicialmente um TGT junto ao serviço de autenticação (AS) e posteriormente apresenta esse TGT ao servidor de concessão de bilhetes (TGS) para solicitar bilhetes de serviço específicos para acessar recursos de rede.
-* **E)** O protocolo prescinde do uso de criptografia simétrica, utilizando certificados digitais de chave pública assimetricamente em todas as interações de solicitação de arquivos.
-
+* **A)** I e II.
+* **B)** III e IV.
+* **C)** II e IV.
+* **D)** I e III.
+* **E)** II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. No Kerberos, a senha do usuário jamais é transmitida pela rede em nenhuma circunstância.
-> - **B)** Incorreta. Quem emite o TGT inicial durante o logon primário é o serviço Authentication Server (AS), e não o TGS.
-> - **C)** Incorreta. A sincronia de relógio é indispensável para evitar ataques de repetição (*replay attack*). Se o desvio temporal exceder a tolerância padrão de 5 minutos, a autenticação falhará.
-> - **D)** Correta. Sintetiza com exatidão a dinâmica operacional do Kerberos: obtenção inicial do TGT no AS e posterior apresentação ao TGS para emissão de tickets de serviço específicos.
-> - **E)** Incorreta. O Kerberos é fundamentalmente alicerçado em criptografia simétrica rápida e segredos compartilhados.
-> 
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e II". De acordo com a teoria estudada em *3.1 Controladores de Domínio (DCs), ntds.dit e SYSVOL*, rODC (*Read-Only Domain Controller*): Controlador de Domínio somente leitura projetado para filiais ou escritórios remotos que não possuem segurança física adequada (sem sala cofre).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "III e IV". De acordo com a teoria estudada em *Tipos de Grupo:*, grupos de Segurança (*Security Groups*): Possuem um identificador de segurança único (SID - *Security Identifier*). São os únicos que podem ser inseridos em Listas de Controle de Acesso (ACLs) para concessão de permissões em pastas, bancos e impressoras.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II e IV". De acordo com a teoria estudada em *Escopos de Grupos:*, local de Domínio (DL - *Domain Local*): Pode conter membros (usuários, grupos globais) de qualquer domínio confiável da floresta, mas só pode ser utilizado para conceder permissões em recursos localizados no mesmo domínio onde o grupo reside.
+> - **D)** **Correta.** Conforme fundamentado na seção *Tipos de Grupo:* deste guia, grupos de Distribuição (*Distribution Groups*): Não possuem SID e destinam-se exclusivamente ao envio em massa de e-mails corporativos (ex.: Exchange Server). Não podem receber permissões em recursos de TI. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-15/2015) ao estabelecer que "I e III".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II e III". De acordo com a teoria estudada em *4.1 Precedência e Ordem de Processamento de GPOs (LSDOU)*, os Objetos de Política de Grupo (GPOs - *Group Policy Objects*) aplicam configurações centralizadas de segurança, registros, mapeamentos de impressoras e restrições a usuários e computadores.
+>
 > **Gabarito: D**
 
 ---
 
 ### Teste 431
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-O protocolo de autenticação padrão no Active Directory é o **Kerberos v5** (RFC 4120), que opera com bilhetes criptográficos temporais (*tickets*) para assegurar autenticação mútua sem transmissão de senhas na rede.
+**(FGV – TRT-24 – Analista Judiciario Area Apoio Especializado Tecnologia da Informacao – 2025)**
+Quando implementado no Microsoft Windows, o SMB (Server Message Block) é conhecido como protocolo SMB da Microsoft. Os níveis de autenticação do SMB da Microsoft são conhecidos como
 
-A respeito da vulnerabilidade do Kerberos a ataques de repetição (*Replay Attacks*), do papel do mestre FSMO **PDC Emulator** e da tolerância temporal (*Clock Skew*), assinale a afirmativa correta:
-
-* **A)** O Kerberos não utiliza carimbos de tempo, dependendo exclusivamente do endereço MAC da placa de rede para validar bilhetes.
-* **B)** Os bilhetes e autenticadores do Kerberos contêm carimbos de data/hora (*timestamps*); para impedir que um invasor capture um pacote e o retransmita posteriormente (*Replay Attack*), o Active Directory impõe uma tolerância temporal máxima padrão de **5 minutos (*Clock Skew*)** entre o relógio da estação cliente e o Controlador de Domínio; para garantir essa sincronização em toda a floresta, o Controlador de Domínio detentor da função FSMO de **PDC Emulator** atua como a fonte oficial de tempo (servidor NTP raiz do domínio), sincronizando todas as estações e DCs subordinados.
-* **C)** Se a diferença de relógio entre a estação de trabalho e o PDC Emulator for de 3 horas, a autenticação Kerberos prossegue normalmente sem emitir alertas..
-* **D)** O PDC Emulator é uma placa aceleradora de vídeo 3D que deve ser instalada fisicamente em todas as estações do tribunal.
-* **E)** O protocolo Kerberos foi substituído pelo NTLMv1 em todas as versões modernas do Windows Server devido à sua superioridade criptográfica.
-
+* **A)** nível do dispositivo, nível de diretório e nível de rede, apenas.
+* **B)** nível do usuário e nível de compartilhamento, apenas.
+* **C)** nível do volume e nível de dispositivo, apenas.
+* **D)** nível do arquivo e nível de diretório, apenas.
+* **E)** nível do acesso e nível de bloqueio, apenas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O carimbo de data e hora (*timestamp*) é o mecanismo nuclear de segurança do Kerberos v5 para evitar ataques de repetição.
-> - **B)** **CORRETA.** Funcionamento temporal do **Kerberos v5 no AD DS**:
->   - **Clock Skew (Tolerância de Relógio):** Por padrão nas Diretivas de Segurança do Domínio, a diferença máxima tolerada entre o relógio do cliente e o KDC (Controlador de Domínio) é de **5 minutos**. Se o relógio da máquina estiver desfasado em mais de 5 minutos, o KDC rejeita o bilhete com erro `KRB_AP_ERR_SKEW`, impedindo logons e acesso a compartilhamentos.
->   - **Papel do PDC Emulator (Mestre FSMO):** O DC que detém a função de emulador PDC no domínio raiz da floresta atua como o servidor de hora mestre (*Authoritative Time Server*) via protocolo W32Time/NTP, sincronizando-se com um relógio atômico externo confiável (como o `ntp.br`). Todos os demais DCs da floresta sincronizam seus relógios com ele, e as estações de trabalho sincronizam seus relógios com seu respectivo DC local, garantindo consistência cronológica em toda a rede.
-> - **C)** Incorreta. Uma diferença de 3 horas causará rejeição sumária e imediata de qualquer autenticação Kerberos.
-> - **D)** Incorreta. É uma função lógica de software FSMO do Active Directory.
-> - **E)** Incorreta. O NTLMv1 é um protocolo inseguro e vulnerável, banido em favor do Kerberos.
-> 
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "nível do dispositivo, nível de diretório e nível de rede, apenas". De acordo com a teoria estudada em *3.1 Controladores de Domínio (DCs), ntds.dit e SYSVOL*, compartilhamento SYSVOL: Pasta de rede replicada automaticamente entre todos os DCs que armazena os scripts de logon e os arquivos de configuração das Políticas de Grupo (GPOs).
+> - **B)** **Correta.** Conforme fundamentado na seção *6. Fontes Recomendadas na Internet* deste guia, microsoft Learn - Visão Geral do Kerberos no Windows Server - Funcionamento oficial da autenticação Kerberos, KDC, tickets TGT e autenticação de rede. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "nível do usuário e nível de compartilhamento, apenas".
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "nível do volume e nível de dispositivo, apenas". De acordo com a teoria estudada em *4.2 Bloqueio de Herança (Block Inheritance) vs. Imposição (Enforced)*, imposição / Não Substituir (*Enforced*): Aplicado diretamente a uma GPO vinculada a um nível superior (como o Domínio).
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "nível do arquivo e nível de diretório, apenas". De acordo com a teoria estudada em *3.4 As 5 Funções Mestres de Operação Única (FSMO)*, nível de Floresta *(Apenas 1 por Floresta)*: Domain Naming Master *(Mestre de Nomenclatura)* — Autoriza a criação, exclusão ou renomeação de domínios e partições de diretório em toda a floresta. — Impede unicamente criar novos domínios ou excluir domínios existentes.
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "nível do acesso e nível de bloqueio, apenas". De acordo com a teoria estudada em *4.2 Bloqueio de Herança (Block Inheritance) vs. Imposição (Enforced)*, bloquear Herança (*Block Inheritance*): Aplicado a uma Unidade Organizacional (OU) específica. Impede que a OU receba diretivas herdadas de níveis superiores (Site, Domínio e OUs pai).
+>
 > **Gabarito: B**
 
 ---

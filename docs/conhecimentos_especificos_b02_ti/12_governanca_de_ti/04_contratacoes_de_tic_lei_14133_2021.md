@@ -77,27 +77,26 @@ flowchart TD
 ---
 
 ### Teste 495
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** Em conformidade com a Lei nº 14.133/2021 e as boas práticas de governança de contratações públicas de TIC, os processos de compra de soluções tecnológicas devem observar estrito alinhamento ao planejamento prévio institucional. A respeito dos instrumentos de planejamento, assinale a afirmativa correta:  
+**(FGV – TJ-RR – Analista Judiciario Gestao e Governanca de Tecnologia da Informacao – 2024)**
+Considerando conceitos básicos de contratações de TI, analise as afirmativas a seguir. I. O preço máximo de compra de item de TIC (PMC-TIC) é o valor máximo que os órgãos e as entidades integrantes do SISP adotarão nas contratações dos itens constantes nos Catálogos de Soluções de TIC com Condições Padronizadas, aplicável para contratações realizadas em todo o território nacional. II. Para fins da Instrução Normativa nº 94/2022 SGD/ME, a área requisitante da solução é a unidade do órgão ou entidade que demande a contratação de uma solução de TIC. III. Quando a pesquisa de preços for realizada com fornecedores, é facultado o registro, nos autos do processo da contratação correspondente, da relação de fornecedores que foram consultados e não enviaram propostas como resposta à solicitação de cotação. Está correto o que se afirma em
 
-* **A)** O Plano de Contratações Anual (PCA) substitui integralmente a necessidade de instauração de processos licitatórios individuais, autorizando a contratação verbal direta.
-* **B)** A contratação de soluções de TIC prescinde de compatibilidade com o Plano Diretor de Tecnologia da Informação (PDTI), bastando o requerimento informal do presidente do órgão.
-* **C)** O Plano Diretor de TIC (PDTI) é o instrumento plurianual de diagnóstico, planejamento e gestão estratégica de TI, ao qual devem estar alinhadas as contratações consolidadas no Plano de Contratações Anual (PCA).
-* **D)** A elaboração do PCA é facultativa para órgãos que possuam menos de 10.000 servidores, devendo suas compras de tecnologia ser executadas exclusivamente por adiantamento de numerário.
-* **E)** As soluções de TIC voltadas à modernização de auditorias fiscais podem ser adquiridas sem qualquer previsão no PDTI, desde que justificadas após o término do contrato.
-
+* **A)** I, apenas.
+* **B)** II, apenas.
+* **C)** III, apenas.
+* **D)** I e II, apenas.
+* **E)** I e III, apenas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O PCA consolida o planejamento anual das compras para fins orçamentários e de transparência, mas cada contratação segue seu devido processo administrativo licitatório ou de contratação direta.
-> - **B)** Incorreta. O alinhamento com o PDTI e com o PEI (Planejamento Estratégico Institucional) é requisito mandatório de governança e economicidade.
-> - **C)** **Correta.** O PDTI mapeia a visão estratégica plurianual de TIC, e o PCA operacionaliza o cronograma anual de contratações necessárias para viabilizar as metas institucionais.
-> - **D)** Incorreta. A exigência de planejamento anual de contratações aplica-se aos órgãos e entidades no âmbito do sistema licitatório, sem isenção por número de servidores.
-> - **E)** Incorreta. O planejamento é prévio (*ex ante*), sendo irregular a aquisição sem previsão ou fundamentação de compatibilidade tempestiva.
-> 
-> **Gabarito: C**
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *2.2 Custo Total de Propriedade (TCO - Total Cost of Ownership)*, a análise de TCO frequentemente demonstra que uma solução com preço inicial de compra mais baixo (ou até software gratuito) acarreta gastos elevadíssimos com suporte especializado, horas de customização e energia, tornando uma solução com custo inicial maior, porém com suporte integrado, muito mais econômica globalmente para o órgão.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas". De acordo com a teoria estudada em *2.1 Artefatos da Fase de Planejamento (DOD, ETP, Mapa de Riscos e TR)*, dOD (*Documento de Oficialização da Demanda*): Área Requisitante (Negócio) — Inicia formalmente o processo administrativo, explicitando o problema institucional a ser resolvido, os resultados esperados e o alinhamento com o PDTI.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III, apenas". De acordo com a teoria estudada em *3.2 Hipóteses de Contratação Direta em TIC (Inexigibilidade vs. Dispensa)*, hipótese 2 em TIC: Serviços Técnicos Especializados de Natureza Predominantemente Intelectual (Art. 74, III): Profissionais ou empresas de notória especialização para auditoria de segurança crítica, perícias forenses complexas ou consultoria arquitetural avançada. — Emergência ou Calamidade Pública (Art. 75, VIII): Restabelecimento imediato de sistemas vitais após sinistros graves ou ataques cibernéticos massivos, restrito ao prazo necessário.
+> - **D)** **Correta.** Conforme fundamentado na seção *1. Princípios e Diretrizes das Contratações de TIC na Lei nº 14.133/2021* deste guia, a Lei nº 14.133/2021 (Nova Lei de Licitações e Contratos Administrativos) consolidou e positivou princípios e boas práticas de contratação pública de Soluções de Tecnologia da Informação e Comunicação (TIC), harmonizando a legislação geral com a jurisprudência histórica do Tribunal de Contas da União (TCU) e com as normas infralegais federais (como a Instrução Normativa SGD/MGI nº 94/2022). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-RR/2024) ao estabelecer que "I e II, apenas".
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *3.2 Hipóteses de Contratação Direta em TIC (Inexigibilidade vs. Dispensa)*, a contratação de empresa por Notória Especialização com base em Inexigibilidade (Art. 74, III) não pode ser usada para suporte rotineiro de informática ou help-desk! Ela exige cumulativamente: 1) Natureza predominantemente intelectual; 2) Notória especialização do prestador; e 3) Singularidade do serviço.
+>
+> **Gabarito: D**
 
 ---
 
@@ -113,62 +112,26 @@ flowchart TD
 ---
 
 ### Teste 496
-**(FGV – TJ-AP – Analista Judiciário (TI) – 2023)**  
-Com base na Instrução Normativa nº 4, de 11 de setembro de
+**(FGV – TCE-GO – Analista de Controle Externo Tecnologia da Informacao – 2024)**
+Durante a execução de um contrato de prestação de serviços de TI, celebrado por uma autarquia federal, observou-se que o fornecedor não está cumprindo com os níveis estabelecidos nas Cláusulas de Nível de Serviço (SLA). Para resolver o problema, a administração deve
 
-2014 (MPOG/SLTI), que dispõe  sobre o processo de contratação
-
-de Soluções de Tecnologia da Informação pelos órgãos
-
-integrantes do Sistema de Administração dos Recursos de
-
-Tecnologia da Informação (SISP) do Poder Executivo Federal.
-
-A Área de Tecnologia da Informação de um órgão federal
-
-desempenha várias funções no processo de contratação de
-
-Soluções de Tecnologia da Informação.
-
-Pode-se verificar que são atribuições da Área de Tecnologia da
-
-Informação na segunda fase da contratação, conhecida como
-
-Seleção do Fornecedor:
-
-I. apoiar o preg oeiro na análise e julgamento das propostas
-
-apresentadas pelos licitantes;
-
-II. encaminhar o Plano de Fiscalização à área de Licitação, que
-
-estabelece o processo de fiscalização do contrato de Soluções de
-
-Tecnologia da Informação;
-
-III. elaborar o Projeto Bá sico ou Termo de Referência de Soluções
-
-de Tecnologia da Informação.
-
-Está correto somente o que se afirma em:
-
-* **A)** I;
-* **B)** II;
-* **C)** I e II;
-* **D)** I e III;
-* **E)** II e III. Tribunal de Justiça do Estado do Amapá FGV Conhecimento Analista Jud - Apo Especializado - Tecnologia da Informação - Telecomunicações  Tipo 1 Branca Realização
+* **A)** emitir notificação formal ao fornecedor para que seja realizada uma auditoria técnica imediata e ajustes necessários.
+* **B)** cancelar imediatamente o contrato, sem aviso formal, com aplicação de penalidades, visto que o serviço não atende às expectativas.
+* **C)** cancelar o contrato com o fornecedor para evitar mais consequências, uma vez que as métricas de SLA são apenas diretrizes, não obrigatórias.
+* **D)** reportar e aguardar que as falhas, para maior eficácia e esperar que sejam ajustadas no próximo ciclo de renovação contratual automática.
+* **E)** reduzir o pagamento proporcionalmente ao período não conforme, independente do contrato, com comunicação formal ao fornecedor.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O TR deve conter critérios objetivos de mensuração e níveis mínimos de serviço.
-> - **B)** Correta. O Termo de Referência (TR), elaborado a partir dos Estudos Técnicos Preliminares (ETP), é o documento obrigatório que consolida a definição do objeto de TIC, justificativa da contratação, modelo de execução, estimativa de custos, critérios de medição de resultados e obrigações contratuais.
-> - **C)** Incorreta. A estimativa orçamentária prévia é obrigatória nos termos da Lei de Licitações.
-> - **D)** Incorreta. O modelo de pagamento deve vincular-se a resultados e entregas efetivas (UST / Ordens de Serviço).
-> - **E)** Incorreta. Cláusulas de sustentabilidade e segurança são exigidas em contratações de TIC.
+> - **A)** **Correta.** Conforme fundamentado na seção *3.2 Hipóteses de Contratação Direta em TIC (Inexigibilidade vs. Dispensa)* deste guia, hipótese 1 em TIC: Fornecedor Exclusivo (Art. 74, I): Aquisição de software ou hardware exclusivo, comprovada por atestado idôneo do fabricante ou sindicato de classe. — Baixo Valor (Art. 75, I e II): Compras e serviços comuns de TIC de pequeno vulto (valores monetários atualizados anualmente por decreto). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "emitir notificação formal ao fornecedor para que seja realizada uma auditoria técnica imediata e ajustes...".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "cancelar imediatamente o contrato, sem aviso formal, com aplicação de penalidades, visto que o serviço não atende...". De acordo com a teoria estudada em *4.1 Segregação de Papéis na Equipe de Fiscalização*, gestor do Contrato: Servidor que coordena o contrato, formaliza termos aditivos, solicita a aplicação de penalidades (advertências e multas) e assina o termo de recebimento definitivo.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "cancelar o contrato com o fornecedor para evitar mais consequências, uma vez que as métricas de SLA são apenas...". De acordo com a teoria estudada em *4.2 Instrumento de Medição de Resultado (IMR), SLA e Glosas*, o IMR (*Instrumento de Medição de Resultado*) é o mecanismo formal que vincula o pagamento mensal da fatura ao desempenho e qualidade efetivamente entregues.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "reportar e aguardar que as falhas, para maior eficácia e esperar que sejam ajustadas no próximo ciclo de renovação...". De acordo com a teoria estudada em *1. Pregão Eletrônico (Art. 28, I e Art. 29)*, exemplos em TIC: Compra de notebooks, switches de borda, monitores, locação de impressoras corporativas, serviços de service desk de nível 1 e renovação de licenças de software comercial de prateleira.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "reduzir o pagamento proporcionalmente ao período não conforme, independente do contrato, com comunicação formal ao...". De acordo com a teoria estudada em *4.3 Recebimento Provisório e Recebimento Definitivo*, realizado pelo Gestor do Contrato ou por comissão designada, após a homologação técnica completa, validação de conformidade com o Termo de Referência e apuração dos indicadores do IMR.
 >
-> **Gabarito: B**
+> **Gabarito: A**
 
 ---
 
@@ -218,26 +181,26 @@ A fase preparatória é o núcleo de conformidade da contratação. Falhas grave
 ---
 
 ### Teste 497
-**(FGV – TCE-GO – Analista de Controle Externo (TI) – 2024)**  
-Um certo fiscal de contratos da administração pública exerce vários papéis e funções. Considerando o tema, é correto que se deve
+**(CEBRASPE – TJ-RJ – Analista Judiciario Grupo Tecnologia da Informacao Analista de Gestao de Tic – 2021)**
+De acordo com a Instrução Normativa n.º 01/2019 do Ministério da Economia, o estudo técnico preliminar da contratação é o documento que descreve as análises realizadas em relação às condições da contratação, em termos de necessidades, alternativas e escolhas que demonstrem a viabilidade técnica e econômica da contratação. Esse documento
 
-* **A)** representar a contratada nas negociações com a administração pública, garantindo a adequação dos termos contratuais às necessidades da contratante.
-* **B)** aplicar diretamente penalidades e sanções administrativas à contratada em caso de execução inadequada do contrato.
-* **C)** receber e aceite dos bens e serviços, não par ticipando das etapas anteriores de acompanhamento da execução contratual.
-* **D)** acompanhar a execução contratual, registrando e notificando irregularidades à autoridade competente, para as devidas providências.
-* **E)** elaborar sanções a ser aplicadas nas irregu laridades encontradas durante a execução contratual. Realização TRIBUNAL DE CONTAS DO ESTADO DE GOIÁS CONCURSO PÚBLICO – EDITAL 01/2024 TARDE ANALISTA DE CONTROLE EXTERNO TECNOLOGIA DA INFORMACAO NÍVEL SUPERIOR TIPO 1 – BRANCA • Além deste caderno contendo 2 (duas) discursivas você receberá do fiscal de sala a folha de texto definitivo; • As questões discursivas deverão ser redigidas em até 20 (vinte) linhas. • • Verifique se seu caderno de questões está completo, sem repetição de questões ou falhas. Caso contrário, notifique imediatamente o fiscal da sala, para que sejam tomadas as devidas providências; • Confira seus dados pessoais, especialmente nome, número de inscrição e documento de identidade e leia atentamente as instruções para preencher a folha de texto definitivo; • Para o preenchimento das folhas de textos definitivos, use somente caneta esferográf ica, fabricada em material transparente, com tinta preta ou azul; • Assine seu nome apenas nos espaços reservados nas folhas de textos definitivos; • Confira seu cargo, cor e tipo do caderno de questões. Caso tenha recebido caderno de cargo ou cor ou tipo diferente do impresso em sua s folhas de texto s definitivos, o fiscal de sala deve ser obrigatoriamente informado para o devido registro na ata da sala; • Reserve tempo suficiente para o preenchimento das suas folhas de textos definitivos. O preenchimento é de sua responsabilidade e não será permitida a troca das folhas de textos definitivos em caso de erro cometido pelo candidato; • Para fins de avaliação, serão levadas em consideração apenas as marcações realizadas nas folhas de textos definitivos; • A FGV coletará as impressões digitais dos candidatos na lista de presença; • Os candidatos serão submetidos ao sistema de detecção de metais quando do ingresso e da saída de sanitários durante a realização das provas. • Boa prova! • Você dispõe de 2 (duas) horas para a realização da prova, já incluído o tempo para o preenchimento das folhas de textos definitivos; • 1 (uma) hora após o início da prova, é possível retirar-se da sala, sem levar o caderno de questões; • A partir dos 30 (trinta) minutos anteriores ao término da prova é possível retirar -se da sala levando o caderno de questões. • Qualquer tipo de comunicação entre os candidatos durante a aplicação da prova; • Anotar informações relativas às respostas em qualquer outro meio que não seja o caderno de questões; • Levantar da cadeira sem autorização do fiscal de sala; • Usar o sanitário ao término da prova, após deixar a sala. SUA PROVA TEMPO NÃO SERÁ PERMITIDO INFORMAÇÕES GERAIS TRIBUNAL DE CONTAS DO ESTADO DE GOIÁS FGV CONHECIMENTO ANALISTA DE CONTROLE EXTERNO - TECNOLOGIA DA INFORMACAO – TARDE TIPO BRANCA – PÁGINA 1 Tecnologia da Informação - Discursiva
+* **A)** será aprovado e assinado pelos integrantes técnico e requisitante da equipe de planejamento da contratação e pela autoridade máxima da área de TIC ou, caso esta componha a equipe, pela autoridade superior à ela.
+* **B)** será especificado com base em requisitos necessários e suficientes e conterá o quantitativo de bens e serviços, ressalvado à forma de cálculo para a sua composição que deve ser inserida no termo de referência ou projeto básico.
+* **C)** considera estritamente os aspectos econômicos da solução, com descrição detalhada, motivada e justificada.
+* **D)** exclui aspectos qualitativos em termos de benefícios, sob pena de tornar inválida a imparcialidade exigida no estudo da contratação, ainda que haja necessidades de adequação do ambiente do órgão para viabilizar a execução contratual.
+* **E)** compreende a análise comparativa de soluções e de custos para as soluções técnicas, ainda que não sejam funcionalmente viáveis, desde que haja a possibilidade de contratação como serviço e o Total Cost Ownership seja vantajoso para o órgão.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O fiscal técnico não exerce atos privativos de ordenador de despesa.
-> - **B)** Incorreta. A fiscalização deve ser segregada entre gestão do contrato, fiscalização técnica e fiscalização administrativa.
-> - **C)** Incorreta. É vedada a interferência direta na administração de pessoal da empresa contratada.
-> - **D)** Correta. Na fiscalização de contratos públicos de TIC (Lei 14.133/2021 e IN SGD), o fiscal técnico acompanha a conformidade dos serviços prestados, avalia o cumprimento dos Níveis Mínimos de Serviço (SLA) pactuados e atesta as entregas para fins de liquidação e pagamento.
-> - **E)** Incorreta. O atesto de faturas sem verificação dos critérios de aceitação gera responsabilidade solidária perante os Tribunais de Contas.
+> - **A)** **Correta.** Conforme fundamentado na seção *2.1 Artefatos da Fase de Planejamento (DOD, ETP, Mapa de Riscos e TR)* deste guia, eTP (*Estudo Técnico Preliminar*): Equipe de Planejamento da Contratação — Demonstra a viabilidade técnica, operacional e econômica. Compara soluções de mercado (nuvem vs on-premises, software livre vs proprietário), calcula o TCO e define o quantitativo. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TJ-RJ/2021) ao estabelecer que "será aprovado e assinado pelos integrantes técnico e requisitante da equipe de planejamento da contratação e pela...".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "será especificado com base em requisitos necessários e suficientes e conterá o quantitativo de bens e serviços...". De acordo com a teoria estudada em *2.1 Artefatos da Fase de Planejamento (DOD, ETP, Mapa de Riscos e TR)*, tR (*Termo de Referência*): Equipe de Planejamento — Documento definitivo que estabelece o objeto, requisitos funcionais e não funcionais, modelo de execução, critérios de habilitação e o Instrumento de Medição de Resultado (IMR).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "considera estritamente os aspectos econômicos da solução, com descrição detalhada, motivada e justificada". De acordo com a teoria estudada em *2.1 Artefatos da Fase de Planejamento (DOD, ETP, Mapa de Riscos e TR)*, equipe de Planejamento: Designada pela Autoridade Competente — Comissão composta por no mínimo: Integrante Requisitante, Integrante Técnico (TI) e Integrante Administrativo, assegurando a segregação de funções.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "exclui aspectos qualitativos em termos de benefícios, sob pena de tornar inválida a imparcialidade exigida no...". De acordo com a teoria estudada em *2.1 Artefatos da Fase de Planejamento (DOD, ETP, Mapa de Riscos e TR)*, dOD (*Documento de Oficialização da Demanda*): Área Requisitante (Negócio) — Inicia formalmente o processo administrativo, explicitando o problema institucional a ser resolvido, os resultados esperados e o alinhamento com o PDTI.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "compreende a análise comparativa de soluções e de custos para as soluções técnicas, ainda que não sejam...". De acordo com a teoria estudada em *2.2 Custo Total de Propriedade (TCO - Total Cost of Ownership)*, a análise de TCO frequentemente demonstra que uma solução com preço inicial de compra mais baixo (ou até software gratuito) acarreta gastos elevadíssimos com suporte especializado, horas de customização e energia, tornando uma solução com custo inicial maior, porém com suporte integrado, muito mais econômica globalmente para o órgão.
 >
-> **Gabarito: D**
+> **Gabarito: A**
 
 ---
 
@@ -253,26 +216,26 @@ $$\text{TCO} = \text{Aquisição} + \text{Implantação/Customização} + \text{
 ---
 
 ### Teste 498
-**(FGV – TCE-GO – Analista de Controle Externo (TI) – 2024)**  
-A Lei nº 13.303/2016 estabelece que os órgãos de controle externo e interno das três esferas de governo fiscalizarão as empresas públicas e as sociedades de economia mista a eles relacionados, inclusive aquelas domiciliadas no exterior, quanto à legitimidade, à economicidade e à eficácia da aplicação de seus recursos, sob o ponto de vista contábil, financeiro, operacional e patrimonial. Acerca do mencionado tema, à luz da referida norma, é correto afirmar que
+**(FGV – TRF-1 – Analista Judiciario Area Apoio Especializado Especialidade Tecnologia da Informacao – 2024)**
+O TRF1 iniciou o planejamento da contratação para o desenvolvimento de uma nova solução tecnológica. A equipe de planejamento da contratação registrou, no estudo técnico preliminar, que a solução está aderente aos requisitos técnicos da plataforma digital do Poder Judiciário brasileiro (PDPJ-Br). Considerando a política pública para a governança e gestão do processo judicial eletrônico, a contratação da solução tecnológicas será proibida se:
 
-* **A)** as ações e deliberações do órgão ou ente de controle não podem implicar interferência na gestão das empresas públicas e das sociedades de ec onomia mista a eles submetidas nem ingerência no exercício de suas competências ou na definição de políticas públicas.
-* **B)** é vedado que os Tribunais de Contas realizem o controle externo em relação às licitações e contratos formalizados pelas empresas públ icas e sociedades de economia mista, considerando a natureza jurídica de tais entidades administrativas.
-* **C)** as gravações e filmagens existentes de reuniões, ordinárias ou extraordinárias, dos conselhos de administração ou fiscal das empresas públicas e da s sociedades de economia mista, não poderão ser disponibilizados para os órgãos de controle, no âmbito dos trabalhos de auditoria.
-* **D)** o exercício da supervisão por vinculação da empresa pública ou da sociedade de economia mista, pelo órgão a que se vincula, enseja necessariamente a redução da autonomia conferida pela lei específica que autorizou a criação da entidade supervisionada ou inerente a sua natureza, autorizando, assim, a ingerência do supervisor em sua administração e funcionamento.
-* **E)** para a realização da aludida atividade fiscalizatória, os órgãos de controle deverão ter acesso às informações e aos documentos necessários à realização dos trabalhos, ressalvados aqueles classificados como sigilosos pela empresa pública ou pela sociedade de econom ia mista, nos termos da legislação de regência. TRIBUNAL DE CONTAS DO ESTADO DE GOIÁS FGV CONHECIMENTO ANALISTA DE CONTROLE EXTERNO - CIENCIAS CONTABEIS – MANHÃ TIPO BRANCA – PÁGINA 17
+* **A)** atender a peculiaridades regionais do Tribunal;
+* **B)** causar redução dos custos com ações isoladas;
+* **C)** causar dependência tecnológica do fornecedor;
+* **D)** permitir o compartilhamento da solução na PDPJ-Br;
+* **E)** permitir a coexistência com outras soluções da PDPJ-Br.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O controle externo pelos Tribunais de Contas alcança a integridade e conformidade dos atos de gestão contratual.
-> - **B)** Incorreta. É assegurado o acesso irrestrito aos documentos e sistemas comprobatórios das contratações.
-> - **C)** Correta. Os órgãos de controle externo e interno exercem a fiscalização da legalidade, legitimidade e economicidade das contratações públicas e estatais, cabendo aos gestores fornecer acesso tempestivo e fidedigno aos processos e dados exigidos.
-> - **D)** Incorreta. O sigilo comercial não impede o exame técnico sigiloso pelos auditores de controle externo.
-> - **E)** Incorreta. A aplicação de sanções pelos TCs segue o devido processo legal e contraditório.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "atender a peculiaridades regionais do Tribunal". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, governo Digital - Processo de Contratação de TIC na Lei nº 14.133/2021 - Rito oficial, fases de planejamento (DFD, ETP, TR) e gestão contratual.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "causar redução dos custos com ações isoladas". De acordo com a teoria estudada em *2.1 Artefatos da Fase de Planejamento (DOD, ETP, Mapa de Riscos e TR)*, mapa de Riscos: Equipe de Planejamento — Matriz que identifica riscos internos e externos em todo o ciclo de vida, avaliando probabilidade e impacto, além de prever ações preventivas e contingenciais.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "causar dependência tecnológica do fornecedor". De acordo com a teoria estudada em *3. Diálogo Competitivo (Art. 32)*, visa contratar objeto que envolva inovação tecnológica ou técnica.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.1 Alinhamento Estratégico e Planejamento Prévio (PDTI e PCA)* deste guia, regra: Toda contratação de solução de TIC deve estar expressamente prevista ou fundamentadamente compatível com o PDTI e com o PCA do exercício. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF-1/2024) ao estabelecer que "permitir o compartilhamento da solução na PDPJ-Br".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "permitir a coexistência com outras soluções da PDPJ-Br". De acordo com a teoria estudada em *2.1 Artefatos da Fase de Planejamento (DOD, ETP, Mapa de Riscos e TR)*, eTP (*Estudo Técnico Preliminar*): Equipe de Planejamento da Contratação — Demonstra a viabilidade técnica, operacional e econômica. Compara soluções de mercado (nuvem vs on-premises, software livre vs proprietário), calcula o TCO e define o quantitativo.
 >
-> **Gabarito: C**
+> **Gabarito: D**
 
 ---
 
@@ -313,26 +276,25 @@ flowchart TD
 ---
 
 ### Teste 499
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** Determinada Secretaria Estadual de Fazenda identificou a necessidade premente de modernizar seu ecossistema de detecção de fraudes fiscais complexas por meio de inteligência artificial generativa de ponta. No entanto, após realizar estudos iniciais, a equipe técnica concluiu que a Administração não possui conhecimento suficiente para redigir as especificações técnicas definitivas da solução, necessitando dialogar amplamente com o mercado tecnológico para avaliar os modelos algorítmicos, custos e arquiteturas disponíveis antes de receber as propostas finais. Nos termos estritos da Lei nº 14.133/2021, a modalidade de licitação cabível para esse cenário é o:  
+**(FGV – TCE-GO – Analista de Controle Externo Tecnologia da Informacao – 2024)**
+Uma empresa pública contratou serviços de desenvolvimento de software, estabelecendo no contrato cláusulas de nível de serviço (SLA) com penalidade e especificações claras sobre o produto final, assim como condições para o seu aceite. Ao final do prazo, a empresa percebeu que o produto final não atendia integralmente às especificações técnicas acordadas. Visando proteger os interesses da empresa e o funcionamento do software, indique a medida correta que protege os interesses da empresa e o funcionamento do software.
 
-* **A)** Pregão Presencial.
-* **B)** Diálogo Competitivo.
-* **C)** Concurso Artístico.
-* **D)** Leilão Eletrônico.
-* **E)** Credenciamento Automático.
-
+* **A)** Dispensar o pagamento de penalidades, considerando que houve bastante trabalho feito pela contratada, e esperar uma nova versão.
+* **B)** Exigir a revisão do produto sem custos adicionais, baseando-se nas cláusulas de nível de serviço estipuladas.
+* **C)** Celebrar novos termos aditivos para nova versão do software, independente do aceite da contratada, para estender o prazo, visto que houve esforço por parte da contratada.
+* **D)** Aceitar o produto como está, evitando conflitos judiciais e futuras complicações administrativas.
+* **E)** Rescindir o contrato imediatamente, aplicando as máximas penalidades possíveis devido ao não cumprimento das especificações.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O pregão presencial é exceção na Lei nº 14.133/2021 (a regra é a forma eletrônica) e é restrito a bens e serviços comuns, sendo inviável para situações em que a administração sequer consegue especificar o objeto sem diálogo prévio com o mercado.
-> - **B)** **Correta.** O Diálogo Competitivo (Art. 32 da Lei nº 14.133/2021) foi introduzido exatamente para contratações que envolvem inovação tecnológica ou técnica, impossibilidade de a administração definir com precisão suficiente as especificações técnicas da solução, ou necessidade de definir a melhor modelagem da contratação através de diálogo prévio com licitantes previamente selecionados.
-> - **C)** Incorreta. O Concurso destina-se à escolha de trabalho técnico, científico ou artístico para concessão de prêmio ou remuneração.
-> - **D)** Incorreta. O Leilão é modalidade destinada à alienação (venda) de bens públicos.
-> - **E)** Incorreta. Credenciamento é um procedimento auxiliar de contratação direta, e não uma modalidade licitatória competitiva para desenvolvimento de soluções tecnológicas complexas.
-> 
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Dispensar o pagamento de penalidades, considerando que houve bastante trabalho feito pela contratada, e esperar...". De acordo com a teoria estudada em *4.1 Segregação de Papéis na Equipe de Fiscalização*, fiscal Administrativo: Servidor que confere o pagamento de salários, FGTS, INSS e tributos dos empregados terceirizados, protegendo a Administração contra condenações subsidiárias na Justiça do Trabalho.
+> - **B)** **Correta.** Conforme fundamentado na seção *1. Pregão Eletrônico (Art. 28, I e Art. 29)* deste guia, exemplos em TIC: Compra de notebooks, switches de borda, monitores, locação de impressoras corporativas, serviços de service desk de nível 1 e renovação de licenças de software comercial de prateleira. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "Exigir a revisão do produto sem custos adicionais, baseando-se nas cláusulas de nível de serviço estipuladas".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Celebrar novos termos aditivos para nova versão do software, independente do aceite da contratada, para estender o...". De acordo com a teoria estudada em *4.1 Segregação de Papéis na Equipe de Fiscalização*, gestor do Contrato: Servidor que coordena o contrato, formaliza termos aditivos, solicita a aplicação de penalidades (advertências e multas) e assina o termo de recebimento definitivo.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Aceitar o produto como está, evitando conflitos judiciais e futuras complicações administrativas". De acordo com a teoria estudada em *4.3 Recebimento Provisório e Recebimento Definitivo*, realizado pelos Fiscais Técnico, Requisitante e Administrativo imediatamente após a entrega do produto ou encerramento da etapa de serviços.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Rescindir o contrato imediatamente, aplicando as máximas penalidades possíveis devido ao não cumprimento das...". De acordo com a teoria estudada em *1.2 Vedações Expressas e Jurisprudência dos Tribunais de Contas*, os pagamentos devem estar obrigatoriamente vinculados a resultados mensuráveis, como Pontos de Função (Análise de Pontos de Função - APF), Unidades de Serviço Técnico (UST) previamente catalogadas em tabela de complexidade ou cumprimento de níveis mínimos de serviço (SLA/IMR).
+>
 > **Gabarito: B**
 
 ---
@@ -352,27 +314,26 @@ flowchart TD
 ---
 
 ### Teste 500
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** A Lei nº 14.133/2021 disciplina as hipóteses de contratação direta em seus artigos 74 (Inexigibilidade) e 75 (Dispensa). Em matéria de contratação de soluções de TIC na Administração Pública, assinale a opção que descreve uma hipótese legítima de Inexigibilidade de licitação:  
+**(FGV – TRT-16 – Analista Judiciario Area Administrativa Tecnologia da Informacao – 2022)**
+João, Diretor de Licitações no âmbito da Administração Pública direta do Município Alfa, foi consultado por Maria sobre o documento necessário, previsto na Lei nº 14.133/2021, para a contratação de bens e serviços, isto com o objetivo de estabelecer os contornos básicos do objeto a ser contratado. João respondeu corretamente que
 
-* **A)** Aquisição de computadores padrão para secretarias administrativas, com base unicamente na alegação de conveniência de prazo.
-* **B)** Contratação de empresa para suporte técnico rotineiro e atendimento de help desk de primeiro nível em informática.
-* **C)** Aquisição de materiais e cabos de rede de baixo valor financeiro que se enquadrem no limite de pequenos serviços.
-* **D)** Contratação de serviços técnicos especializados de natureza predominantemente intelectual com profissionais ou empresas de notória especialização para perícia forense digital de altíssima complexidade e singularidade.
-* **E)** Restabelecimento emergencial de infraestrutura de refrigeração do data center após incêndio acidental.
-
+* **A)** o projeto básico é o documento necessário à contratação de bens.
+* **B)** o anteprojeto é o documento necessário à contratação de bens e serviços.
+* **C)** o termo de referência é o documento necessário à referida contratação.
+* **D)** o projeto executivo é o documento necessário à contratação de bens e serviços.
+* **E)** a matriz de objeto e riscos é o documento necessário à contratação de serviços.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Computadores comuns são bens comuns de TIC e exigem licitação, preferencialmente na modalidade Pregão Eletrônico.
-> - **B)** Incorreta. Suporte rotineiro de help desk é serviço comum contínuo, sem singularidade ou natureza predominantemente intelectual que justifique inexigibilidade.
-> - **C)** Incorreta. Compras de pequeno valor constituem hipótese de Dispensa de Licitação em razão do valor (Art. 75, II).
-> - **D)** **Correta.** Conforme o Art. 74, III, da Lei nº 14.133/2021, é inexigível a licitação para serviços técnicos especializados de natureza predominantemente intelectual prestados por profissional ou empresa de notória especialização, vedada a inexigibilidade para serviços de publicidade e divulgação.
-> - **E)** Incorreta. Contratação decorrente de emergência ou calamidade pública constitui hipótese de Dispensa de Licitação (Art. 75, VIII).
-> 
-> **Gabarito: D**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o projeto básico é o documento necessário à contratação de bens". De acordo com a teoria estudada em *3.2 Hipóteses de Contratação Direta em TIC (Inexigibilidade vs. Dispensa)*, hipótese 2 em TIC: Serviços Técnicos Especializados de Natureza Predominantemente Intelectual (Art. 74, III): Profissionais ou empresas de notória especialização para auditoria de segurança crítica, perícias forenses complexas ou consultoria arquitetural avançada. — Emergência ou Calamidade Pública (Art. 75, VIII): Restabelecimento imediato de sistemas vitais após sinistros graves ou ataques cibernéticos massivos, restrito ao prazo necessário.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o anteprojeto é o documento necessário à contratação de bens e serviços". De acordo com a teoria estudada em *1. Pregão Eletrônico (Art. 28, I e Art. 29)*, aplicação Obrigatória/Preferencial: Aquisição de bens e serviços comuns de TIC, definidos como aqueles cujos padrões de desempenho e qualidade podem ser objetivamente definidos pelo edital por meio de especificações usuais de mercado.
+> - **C)** **Correta.** Conforme fundamentado na seção *2.1 Artefatos da Fase de Planejamento (DOD, ETP, Mapa de Riscos e TR)* deste guia, tR (*Termo de Referência*): Equipe de Planejamento — Documento definitivo que estabelece o objeto, requisitos funcionais e não funcionais, modelo de execução, critérios de habilitação e o Instrumento de Medição de Resultado (IMR). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-16/2022) ao estabelecer que "o termo de referência é o documento necessário à referida contratação".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o projeto executivo é o documento necessário à contratação de bens e serviços". De acordo com a teoria estudada em *2.1 Artefatos da Fase de Planejamento (DOD, ETP, Mapa de Riscos e TR)*, a fase preparatória é o núcleo de conformidade da contratação. Falhas graves apontadas em auditorias de controle externo derivam, em sua grande maioria, de fragilidades no ETP ou no Termo de Referência.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a matriz de objeto e riscos é o documento necessário à contratação de serviços". De acordo com a teoria estudada em *2.1 Artefatos da Fase de Planejamento (DOD, ETP, Mapa de Riscos e TR)*, dOD (*Documento de Oficialização da Demanda*): Área Requisitante (Negócio) — Inicia formalmente o processo administrativo, explicitando o problema institucional a ser resolvido, os resultados esperados e o alinhamento com o PDTI.
+>
+> **Gabarito: C**
 
 ---
 
@@ -407,27 +368,26 @@ flowchart TD
 ---
 
 ### Teste 501
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** Em relação à gestão e fiscalização de contratos de prestação de serviços de Tecnologia da Informação na Lei nº 14.133/2021, a Administração deve designar servidores com papéis bem segregados. Assinale a alternativa que descreve com precisão a competência do Fiscal Técnico do contrato de TIC:  
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Ciencia de Dados – 2024)**
+Considerando a legislação aplicável a contratos administrativos de bens e serviços de Tecnologia da Informação e Comunicação (TIC), analise as afirmativas a seguir. I. A fase de Gestão do Contrato se iniciará com a assinatura do contrato e com a nomeação do Gestor e da Equipe de Fiscalização do Contrato, composta por Fiscal Técnico, Fiscal Requisitante, Fiscal Administrativo e Fiscal Setorial, quando necessário. II. Em contratações de serviços de TIC, o encaminhamento formal de demandas, a cargo do Gestor do Contrato, deverá ocorrer por meio de Ordens de Serviço. III. No início do contrato administrativo, para soluções compostas exclusivamente de serviços de TIC, é facultado à contratada participar da reunião inicial convocada pelo Gestor do Contrato, apresentar seu preposto e entregar os Termos de Compromisso e de Ciência. Está correto o que se afirma em
 
-* **A)** Conferir a regularidade trabalhista e o recolhimento das guias de FGTS e INSS dos empregados terceirizados alocados na empresa.
-* **B)** Avaliar e atestar tecnicamente se os sistemas desenvolvidos ou serviços de infraestrutura atendem aos requisitos arquiteturais, padrões técnicos de codificação e níveis de serviço fixados no IMR.
-* **C)** Formalizar administrativamente aditivos de prorrogação contratual e aplicar penalidades financeiras de impedimento de licitar.
-* **D)** Assinar o contrato inicial em substituição ao Presidente do Tribunal de Contas.
-* **E)** Realizar a mediação jurídica em litígios judiciais trabalhistas perante o Tribunal Regional do Trabalho.
-
+* **A)** I, apenas.
+* **B)** II, apenas.
+* **C)** I e II, apenas.
+* **D)** I e III, apenas.
+* **E)** II e III, apenas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A conferência de encargos sociais, trabalhistas e previdenciários compete ao Fiscal Administrativo.
-> - **B)** **Correta.** O Fiscal Técnico de TIC é o responsável pela verificação da conformidade técnica do objeto entregue, analisando artefatos, arquitetura, testes e o cumprimento dos níveis acordados de serviço (IMR).
-> - **C)** Incorreta. A coordenação administrativa, termos aditivos e proposição formal de sanções são atribuições do Gestor do Contrato e da autoridade competente.
-> - **D)** Incorreta. A assinatura do contrato é atribuição da autoridade máxima do órgão contratante.
-> - **E)** Incorreta. Representação judicial compete à Procuradoria Jurídica do órgão.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *4.1 Segregação de Papéis na Equipe de Fiscalização*, gestor do Contrato: Servidor que coordena o contrato, formaliza termos aditivos, solicita a aplicação de penalidades (advertências e multas) e assina o termo de recebimento definitivo.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas". De acordo com a teoria estudada em *2.1 Artefatos da Fase de Planejamento (DOD, ETP, Mapa de Riscos e TR)*, equipe de Planejamento: Designada pela Autoridade Competente — Comissão composta por no mínimo: Integrante Requisitante, Integrante Técnico (TI) e Integrante Administrativo, assegurando a segregação de funções.
+> - **C)** **Correta.** Conforme fundamentado na seção *1. Princípios e Diretrizes das Contratações de TIC na Lei nº 14.133/2021* deste guia, a Lei nº 14.133/2021 (Nova Lei de Licitações e Contratos Administrativos) consolidou e positivou princípios e boas práticas de contratação pública de Soluções de Tecnologia da Informação e Comunicação (TIC), harmonizando a legislação geral com a jurisprudência histórica do Tribunal de Contas da União (TCU) e com as normas infralegais federais (como a Instrução Normativa SGD/MGI nº 94/2022). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "I e II, apenas".
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *3.2 Hipóteses de Contratação Direta em TIC (Inexigibilidade vs. Dispensa)*, hipótese 2 em TIC: Serviços Técnicos Especializados de Natureza Predominantemente Intelectual (Art. 74, III): Profissionais ou empresas de notória especialização para auditoria de segurança crítica, perícias forenses complexas ou consultoria arquitetural avançada. — Emergência ou Calamidade Pública (Art. 75, VIII): Restabelecimento imediato de sistemas vitais após sinistros graves ou ataques cibernéticos massivos, restrito ao prazo necessário.
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *3.2 Hipóteses de Contratação Direta em TIC (Inexigibilidade vs. Dispensa)*, a contratação de empresa por Notória Especialização com base em Inexigibilidade (Art. 74, III) não pode ser usada para suporte rotineiro de informática ou help-desk! Ela exige cumulativamente: 1) Natureza predominantemente intelectual; 2) Notória especialização do prestador; e 3) Singularidade do serviço.
+>
+> **Gabarito: C**
 
 ---
 
@@ -446,27 +406,26 @@ O **IMR** (*Instrumento de Medição de Resultado*) é o mecanismo formal que vi
 ---
 
 ### Teste 502
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** Em um contrato de prestação de serviços de TIC para manutenção de portais governamentais, o Termo de Referência fixou um Instrumento de Medição de Resultado (IMR) contendo como indicador de nível de serviço (SLA) a meta mensal de disponibilidade mínima do portal em 99,8%. Durante a fiscalização do terceiro mês, o Fiscal Técnico constatou, por meio de ferramentas automatizadas de monitoramento, que o portal permaneceu indisponível por 18 horas ininterruptas em horário comercial, atingindo apenas 97,5% de disponibilidade naquele ciclo. Diante do descumprimento da meta de SLA estabelecida no IMR, o procedimento contratual cabível consiste em:  
+**(FGV – TCE-GO – Analista de Controle Externo Ciencias Contabeis – 2024)**
+A Lei nº 13.303/2016 estabelece que os órgãos de controle externo e interno das três esferas de governo fiscalizarão as empresas públicas e as sociedades de economia mista a eles relacionados, inclusive aquelas domiciliadas no exterior, quanto à legitimidade, à economicidade e à eficácia da aplicação de seus recursos, sob o ponto de vista contábil, financeiro, operacional e patrimonial. Acerca do mencionado tema, à luz da referida norma, é correto afirmar que
 
-* **A)** Efetuar o pagamento integral do valor da fatura sem qualquer desconto e indenizar a empresa pela instabilidade gerada.
-* **B)** Aplicar a respectiva glosa financeira diretamente no valor devido na fatura mensal proporcionalmente à faixa de penalidade fixada no IMR, sem prejuízo da abertura de procedimento para aplicação de sanções administrativas cabíveis em caso de reiteração.
-* **C)** Cancelar sumariamente todos os contratos de TIC em vigor em todo o Estado e proibir a internet nos órgãos públicos.
-* **D)** Substituir imediatamente o Fiscal Técnico por um funcionário indicado pelo próprio provedor inadimplente.
-* **E)** Exigir que a contratada compense o tempo de queda aumentando a velocidade da internet residencial dos servidores da Secretaria.
-
+* **A)** as ações e deliberações do órgão ou ente de controle não podem implicar interferência na gestão das empresas públicas e das sociedades de economia mista a eles submetidas nem ingerência no exercício de suas competências ou na definição de políticas públicas.
+* **B)** é vedado que os Tribunais de Contas realizem o controle externo em relação às licitações e contratos formalizados pelas empresas públicas e sociedades de economia mista, considerando a natureza jurídica de tais entidades administrativas.
+* **C)** as gravações e filmagens existentes de reuniões, ordinárias ou extraordinárias, dos conselhos de administração ou fiscal das empresas públicas e das sociedades de economia mista, não poderão ser disponibilizados para os órgãos de controle, no âmbito dos trabalhos de auditoria.
+* **D)** o exercício da supervisão por vinculação da empresa pública ou da sociedade de economia mista, pelo órgão a que se vincula, enseja necessariamente a redução da autonomia conferida pela lei específica que autorizou a criação da entidade supervisionada ou inerente a sua natureza, autorizando, assim, a ingerência do supervisor em sua administração e funcionamento.
+* **E)** para a realização da aludida atividade fiscalizatória, os órgãos de controle deverão ter acesso às informações e aos documentos necessários à realização dos trabalhos, ressalvados aqueles classificados como sigilosos pela empresa pública ou pela sociedade de economia mista, nos termos da legislação de regência.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O pagamento integral sem abatimento por serviço defeituoso ou abaixo do SLA configuraria liquidação irregular de despesa pública e dano ao erário.
-> - **B)** **Correta.** O Instrumento de Medição de Resultado (IMR) serve justamente para operacionalizar as glosas financeiras (retenções/descontos no valor faturado) correspondentes ao não alcance dos níveis mínimos de serviço pactuados, garantindo que o órgão público pague apenas pelo serviço efetivamente prestado com a qualidade exigida, cabendo ainda advertência ou multa em caso de reiteração de falhas graves.
-> - **C)** Incorreta. Solução desproporcional e ilegal que violaria o interesse público e a continuidade dos serviços.
-> - **D)** Incorreta. O fiscal técnico é agente público independente e sua substituição para favorecer a contratada configuraria improbidade administrativa e grave infração funcional.
-> - **E)** Incorreta. Não existe previsão de compensação pessoal a servidores; o contrato vincula a pessoa jurídica contratante e as compensações ocorrem na esfera econômico-financeira e técnica da avença.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as ações e deliberações do órgão ou ente de controle não podem implicar interferência na gestão das empresas...". De acordo com a teoria estudada em *3.2 Hipóteses de Contratação Direta em TIC (Inexigibilidade vs. Dispensa)*, hipótese 3 em TIC: — — Contratação de Órgão Público de TIC (Art. 75, IX): Contratação de empresas públicas de processamento de dados (SERPRO, DATAPREV, ATI estadual) para serviços criados para esse fim, com preço compatível de mercado.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é vedado que os Tribunais de Contas realizem o controle externo em relação às licitações e contratos formalizados...". De acordo com a teoria estudada em *3.2 Hipóteses de Contratação Direta em TIC (Inexigibilidade vs. Dispensa)*, fundamento Jurídico: Inviabilidade jurídica de competição (não há como estabelecer julgamento objetivo entre competidores). — A competição é juridicamente possível, mas a lei autoriza a não licitar por razões de economia processual, celeridade ou emergência.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as gravações e filmagens existentes de reuniões, ordinárias ou extraordinárias, dos conselhos de administração ou...". De acordo com a teoria estudada em *3.2 Hipóteses de Contratação Direta em TIC (Inexigibilidade vs. Dispensa)*, hipótese 2 em TIC: Serviços Técnicos Especializados de Natureza Predominantemente Intelectual (Art. 74, III): Profissionais ou empresas de notória especialização para auditoria de segurança crítica, perícias forenses complexas ou consultoria arquitetural avançada. — Emergência ou Calamidade Pública (Art. 75, VIII): Restabelecimento imediato de sistemas vitais após sinistros graves ou ataques cibernéticos massivos, restrito ao prazo necessário.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.1 Alinhamento Estratégico e Planejamento Prévio (PDTI e PCA)* deste guia, plano de Contratações Anual (PCA): Documento formalizado pela alta administração que consolida todas as compras e contratações que o órgão pretende realizar no exercício financeiro seguinte, assegurando previsão orçamentária e evitando fracionamento indevido de despesas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "o exercício da supervisão por vinculação da empresa pública ou da sociedade de economia mista, pelo órgão a que se...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "para a realização da aludida atividade fiscalizatória, os órgãos de controle deverão ter acesso às informações e...". De acordo com a teoria estudada em *3.2 Hipóteses de Contratação Direta em TIC (Inexigibilidade vs. Dispensa)*, a contratação de empresa por Notória Especialização com base em Inexigibilidade (Art. 74, III) não pode ser usada para suporte rotineiro de informática ou help-desk! Ela exige cumulativamente: 1) Natureza predominantemente intelectual; 2) Notória especialização do prestador; e 3) Singularidade do serviço.
+>
+> **Gabarito: D**
 
 ---
 
@@ -485,54 +444,52 @@ A Lei nº 14.133/2021 estabelece dois momentos formais e inconfundíveis para o 
 ---
 
 ### Teste 503
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** De acordo com as disposições da Lei nº 14.133/2021 sobre a fiscalização dos contratos administrativos e a governança de contratações de TIC, os atos formais de atesto e aceite do objeto contratado dividem-se em Recebimento Provisório e Recebimento Definitivo. A respeito desses instrumentos, assinale a afirmativa correta:  
+**(FGV – TCE-GO – Analista de Controle Externo Tecnologia da Informacao – 2024)**
+Uma instituição federal está em processo de modernização de seu sistema de informações e necessita adquirir novos servidores de alta capacidade. O setor de TI realizou estudos preliminares e definiu especificações técnicas detalhadas que apenas uma marca específica de servidores atende. Considerando a Lei nº 14.133/2021, o setor de compras, para a aquisição destes servidores, deve
 
-* **A)** O Recebimento Definitivo é realizado pelo fornecedor privado no momento do embarque dos servidores no centro de distribuição da fábrica.
-* **B)** O Recebimento Provisório é realizado pelos fiscais técnico, administrativo e setorial mediante termo detalhado.
-* **C)** O Recebimento Definitivo dispensa qualquer teste de homologação ou verificação de conformidade com os níveis mínimos de serviço estabelecidos no IMR.
-* **D)** O Recebimento Provisório transfere em definitivo toda a responsabilidade jurídica e financeira à Administração, vedando a aplicação de qualquer glosa posterior.
-* **E)** A Lei nº 14.133/2021 proibiu expressamente a figura do recebimento provisório em contratos de TIC para conferir maior velocidade às compras públicas.
-
+* **A)** realizar licitação na modalidade concorrência, permitindo a participação de várias marcas para assegurar a obtenção de propostas competitivas.
+* **B)** efetuar uma dispensa de licitação, uma vez que a especificação detalhada restringe a aquisição à marca única, caracterizando fornecedor exclusivo.
+* **C)** proceder com a inexigibilidade de licitação devido à especificação técnica que justifica a escolha de uma única marca, evitando a competição.
+* **D)** solicitar autorização judicial para adquirir diretamente do fornecedor sem necessidade de licitação, dado o caráter exclusivo da especificação.
+* **E)** realizar um pregão eletrônico com indicação de marca no edital para garantir a compatibilidade com o sistema atual da instituição.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Ambos os recebimentos são atos administrativos privativos de agentes públicos da Administração contratante, jamais do fornecedor contratado.
-> - **B)** **Correta.** O Recebimento Provisório (Art. 140 da Lei 14.133/2021) é formalizado pelos fiscais do contrato assim que o fornecedor entrega o produto ou conclui a prestação do serviço, servindo para registrar o recebimento físico/lógico e dar início ao prazo de homologação, inspeção técnica e aferição das metas do IMR.
-> - **C)** Incorreta. O Recebimento Definitivo ocorre justamente após a verificação de que o objeto atende a todas as exigências do Termo de Referência, incluindo homologação e avaliação dos níveis de serviço do IMR.
-> - **D)** Incorreta. O recebimento provisório tem caráter transitório; eventuais defeitos, falhas ou descumprimento de SLAs identificados na fase de homologação acarretam rejeição do objeto ou glosas financeiras antes do aceite definitivo.
-> - **E)** Incorreta. O recebimento provisório é mantido e expressamente regulamentado pela Lei nº 14.133/2021 para serviços e compras.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "realizar licitação na modalidade concorrência, permitindo a participação de várias marcas para assegurar a...". De acordo com a teoria estudada em *1.1 Alinhamento Estratégico e Planejamento Prévio (PDTI e PCA)*, plano de Contratações Anual (PCA): Documento formalizado pela alta administração que consolida todas as compras e contratações que o órgão pretende realizar no exercício financeiro seguinte, assegurando previsão orçamentária e evitando fracionamento indevido de despesas.
+> - **B)** **Incorreta.** A opção afasta requisito ou relação estrutural exigida pela matéria ao afirmar que "efetuar uma dispensa de licitação, uma vez que a especificação detalhada restringe a aquisição à marca única...". De acordo com a teoria estudada em *3.2 Hipóteses de Contratação Direta em TIC (Inexigibilidade vs. Dispensa)*, hipótese 1 em TIC: Fornecedor Exclusivo (Art. 74, I): Aquisição de software ou hardware exclusivo, comprovada por atestado idôneo do fabricante ou sindicato de classe. — Baixo Valor (Art. 75, I e II): Compras e serviços comuns de TIC de pequeno vulto (valores monetários atualizados anualmente por decreto).
+> - **C)** **Correta.** Conforme fundamentado na seção *1.2 Vedações Expressas e Jurisprudência dos Tribunais de Contas* deste guia, exceções são admitidas apenas quando houver comprovação técnica de padronização corporativa prévia formalizada em Estudo Técnico Preliminar (ETP), ou quando uma marca for a única tecnicamente viável para manter a interoperabilidade de sistemas preexistentes. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "proceder com a inexigibilidade de licitação devido à especificação técnica que justifica a escolha de uma única...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "solicitar autorização judicial para adquirir diretamente do fornecedor sem necessidade de licitação, dado o...". De acordo com a teoria estudada em *1.2 Vedações Expressas e Jurisprudência dos Tribunais de Contas*, em regra, o edital não pode exigir marca, modelo ou fabricante exclusivo.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "realizar um pregão eletrônico com indicação de marca no edital para garantir a compatibilidade com o sistema atual...". De acordo com a teoria estudada em *1. Pregão Eletrônico (Art. 28, I e Art. 29)*, aplicação Obrigatória/Preferencial: Aquisição de bens e serviços comuns de TIC, definidos como aqueles cujos padrões de desempenho e qualidade podem ser objetivamente definidos pelo edital por meio de especificações usuais de mercado.
+>
+> **Gabarito: C**
 
 ---
 
 ---
 
 ### Teste 504
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** No âmbito dos contratos de prestação de serviços e fornecimento de software e infraestrutura de TIC regidos pela Lei nº 14.133/2021, o processo de liquidação e pagamento depende dos atos formais de recebimento do objeto. Acerca do recebimento provisório e definitivo, assinale a afirmativa correta:  
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Ciencia de Dados – 2024)**
+Considerando a legislação aplicável a licitações de bens e serviços de Tecnologia da Informação e Comunicação (TIC), analise as afirmativas a seguir. I. Um acordo de nível de serviço (ANS), segundo a ITIL v4, é um acordo documentado entre um provedor de serviços de TIC e um cliente que define os serviços a serem prestados e o nível de qualidade que o provedor deve se comprometer a cumprir na prestação destes serviços. Em documentos da fase interna de processos licitatórios para a contratação de Centrais de Serviços (Service Desk), como Estudos Técnicos Preliminares ou Termos de Referência, é esperado encontrar requisitos da solução de TIC no formato de ANS. II. Na fase interna de licitações de bens e serviços de TIC no poder público, a adoção da Lei 14.133/2021 e da IN SGD/ME nº 94/2022 são mandatórias. Além destes documentos, a equipe técnica responsável deve adotar princípios orientadores e boas práticas de gerenciamento de serviços de TIC. Para isto, a lei brasileira exige que os órgãos públicos mantenham servidores capacitados, exclusivamente, nesta metodologia ITIL v4 de gerenciamento de serviços de TIC. III. Segundo a IN SGD/ME nº 94/2022, é vedada a contratação de soluções de autenticação em aplicações destinadas a serviços públicos digitais, salvo nos casos em que o órgão ou entidade tenha obtido autorização prévia pelo Órgão Central do SISP. Está correto o que se afirma em
 
-* **A)** O recebimento provisório transfere a propriedade definitiva do código-fonte para a contratada e desonera a empresa de qualquer garantia técnica posterior.
-* **B)** O recebimento provisório é realizado pelos fiscais do contrato para efeito de posterior verificação da conformidade dos serviços com as exigências contratuais, enquanto o recebimento definitivo é realizado pelo gestor do contrato ou comissão mediante termo detalhado que comprove o atendimento integral das exigências.
-* **C)** Em contratos de soluções de TIC é vedada a emissão de recebimento provisório, ocorrendo a emissão imediata de nota fiscal e pagamento à vista antes da entrega do software.
-* **D)** O recebimento definitivo pode ser firmado tacitamente pelo fornecedor caso a Administração não responda em 24 horas, vedada qualquer aplicação posterior de glosas contratuais.
-* **E)** O recebimento definitivo dispensa a realização de testes de homologação de sistemas de auditoria digital.
-
+* **A)** I, apenas.
+* **B)** II, apenas.
+* **C)** I e II, apenas.
+* **D)** I e III, apenas.
+* **E)** II e III, apenas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O recebimento provisório apenas atesta a entrega física dos bens ou conclusão aparente do serviço para que se iniciem os testes de conformidade.
-> - **B)** **Correta.** Conforme o Art. 140 da Lei nº 14.133/2021, o objeto é recebido provisoriamente pelo responsável por seu acompanhamento e fiscalização, e definitivamente por servidor ou comissão designada pela autoridade competente, mediante termo detalhado que comprove o atendimento das exigências contratuais.
-> - **C)** Incorreta. O recebimento provisório é etapa obrigatória do procedimento de controle em serviços e compras de tecnologia.
-> - **D)** Incorreta. Não há recebimento definitivo tácito por parte da empresa; o ato administrativo de atesto definitivo exige manifestação expressa e motivada da Administração.
-> - **E)** Incorreta. O recebimento definitivo pressupõe justamente que os testes de homologação tenham sido integralmente realizados e aprovados.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *3.2 Hipóteses de Contratação Direta em TIC (Inexigibilidade vs. Dispensa)*, a contratação de empresa por Notória Especialização com base em Inexigibilidade (Art. 74, III) não pode ser usada para suporte rotineiro de informática ou help-desk! Ela exige cumulativamente: 1) Natureza predominantemente intelectual; 2) Notória especialização do prestador; e 3) Singularidade do serviço.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, governo Digital - Modelos e Diretrizes de Contratação de Soluções de TIC - Modelos oficiais padronizados de Estudos Técnicos Preliminares e Termos de Referência.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *3.2 Hipóteses de Contratação Direta em TIC (Inexigibilidade vs. Dispensa)*, hipótese 2 em TIC: Serviços Técnicos Especializados de Natureza Predominantemente Intelectual (Art. 74, III): Profissionais ou empresas de notória especialização para auditoria de segurança crítica, perícias forenses complexas ou consultoria arquitetural avançada. — Emergência ou Calamidade Pública (Art. 75, VIII): Restabelecimento imediato de sistemas vitais após sinistros graves ou ataques cibernéticos massivos, restrito ao prazo necessário.
+> - **D)** **Correta.** Conforme fundamentado na seção *1. Princípios e Diretrizes das Contratações de TIC na Lei nº 14.133/2021* deste guia, a Lei nº 14.133/2021 (Nova Lei de Licitações e Contratos Administrativos) consolidou e positivou princípios e boas práticas de contratação pública de Soluções de Tecnologia da Informação e Comunicação (TIC), harmonizando a legislação geral com a jurisprudência histórica do Tribunal de Contas da União (TCU) e com as normas infralegais federais (como a Instrução Normativa SGD/MGI nº 94/2022). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "I e III, apenas".
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *4.1 Segregação de Papéis na Equipe de Fiscalização*, a Lei nº 14.133/2021 exige a separação clara de atribuições entre os agentes públicos responsáveis pelo contrato para prevenir conluios e falhas de controle.
+>
+> **Gabarito: D**
 
 ---
 

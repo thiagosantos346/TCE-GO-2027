@@ -90,52 +90,50 @@ $$\text{Resultado Orçamentário} = \text{Receitas Realizadas} - \text{Despesas 
 ---
 
 ### Teste 290
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No âmbito da Contabilidade Aplicada ao Setor Público, a demonstração contábil que evidencia as receitas previstas em confronto com as realizadas e as despesas fixadas em confronto com as executadas (empenhadas, liquidadas e pagas), apurando o resultado orçamentário do exercício, é o:
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Gestao Governamental – 2024)**
+Leia o texto a seguir: A Lei no 4.320, de 1964, traz normas para elaboração dos orçamentos e balanços do setor público em seus três níveis. De acordo com esse dispositivo, é possível identificarmos despesas que foram empenhadas pelo ente público, mas que não serão pagas até o dia 31 de dezembro do ano corrente, assim como também há a possibilidade de autorizações de despesas não computadas ou insuficientemente dotadas na Lei de Orçamento. O texto trata, respectivamente, dos conceitos de
 
-* **A)** Balanço Financeiro.
-* **B)** Balanço Patrimonial.
-* **C)** Balanço Orçamentário.
-* **D)** Demonstrativo de Fluxo de Caixa.
-* **E)** Demonstrativo das Variações Patrimoniais.
-
+* **A)** Despesas de Exercícios Anteriores (DEA) e Restos a Pagar.
+* **B)** Restos a Pagar e Créditos Adicionais.
+* **C)** Despesas Liquidadas e Créditos Adicionais.
+* **D)** Despesas Empenadas e Restos a Pagar.
+* **E)** Restos a Pagar e Despesas Extraordinárias.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O Balanço Financeiro (art. 103 da Lei nº 4.320/1964) evidencia os ingressos e dispêndios de recursos orçamentários e extraorçamentários e a movimentação das disponibilidades de caixa.
-> - **B)** Incorreta. O Balanço Patrimonial (art. 105 da Lei nº 4.320/1964) evidencia a situação estática de bens, direitos, obrigações e patrimônio líquido.
-> - **C)** Correta. O Balanço Orçamentário (art. 102 da Lei nº 4.320/1964 e MCASP Parte V) é o demonstrativo que confronta a previsão e arrecadação das receitas públicas com a fixação e execução das despesas orçamentárias (empenho, liquidação e pagamento), demonstrando formalmente o superávit ou déficit orçamentário do exercício.
-> - **D)** Incorreta. A DFC evidencia as movimentações financeiras segregadas por atividades operacionais, de investimento e de financiamento pelo método direto.
-> - **E)** Incorreta. A DVP (art. 104 da Lei nº 4.320/1964) confronta as variações aumentativas (VPA) e diminutivas (VPD) para apuração do resultado patrimonial por competência.
-> 
-> **Gabarito: C**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Despesas de Exercícios Anteriores (DEA) e Restos a Pagar". De acordo com a teoria estudada em *1.1 Estrutura e Quadros Demonstrativos*, quadros de Restos a Pagar: Evidenciam a execução dos passivos orçamentários transferidos de exercícios anteriores, separando os processados dos não processados.
+> - **B)** **Correta.** Conforme fundamentado na seção *3.2 Apuração e Cálculo do Superávit Financeiro (Art. 43, § 2º)* deste guia, \$\$\mathbf{\text{Superávit Financeiro}} = AF - PF - \text{Créditos Adicionais Reabertos} - \text{Disponibilidades Vinculadas}\$\$. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "Restos a Pagar e Créditos Adicionais".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Despesas Liquidadas e Créditos Adicionais". De acordo com a teoria estudada em *1.1 Estrutura e Quadros Demonstrativos*, o Balanço Orçamentário (BO) demonstra as receitas e despesas previstas em confronto com as realizadas, consoante determina o art. 102 da Lei Federal nº 4.320/1964 e a Parte V do Manual de Contabilidade Aplicada ao Setor Público (MCASP).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Despesas Empenadas e Restos a Pagar". De acordo com a teoria estudada em *2.2 O Fechamento Contábil Obrigatório e a Inscrição de Restos a Pagar*, como a despesa orçamentária é registrada na coluna de dispêndios pelo valor empenhado total, a parcela que não foi paga até 31 de dezembro (inscrita em Restos a Pagar) deve figurar nos ingressos extraorçamentários como artifício contábil compensatório para fechar o balanço financeiro do ano.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Restos a Pagar e Despesas Extraordinárias". De acordo com a teoria estudada em *3.2 Apuração e Cálculo do Superávit Financeiro (Art. 43, § 2º)*, o Superávit Financeiro é a principal fonte legal para abertura de créditos suplementares e especiais autorizada pelo art. 43 da Lei Federal nº 4.320/1964. Ele é apurado exclusivamente no Balanço Patrimonial do exercício anterior.
+>
+> **Gabarito: B**
 
 ---
 
 ### Teste 291
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No Balanço Orçamentário elaborado segundo os ditames da Lei Federal nº 4.320/1964 e as diretrizes do MCASP, o confronto entre as receitas arrecadadas e as despesas empenhadas determina o resultado:
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Direito – 2024)**
+O Balanço Orçamentário de uma entidade do setor público é composto por três quadros. O quadro principal irá apresentar
 
-* **A)** Orçamentário do exercício (superávit orçamentário se a receita arrecadada superar a despesa empenhada; déficit orçamentário na hipótese inversa).
-* **B)** Financeiro bruto, dispensando-se a consideração das disponibilidades de caixa líquidas do exercício anterior.
-* **C)** Patrimonial do exercício, apurado obrigatoriamente pela diferença entre variações ativas e passivas.
-* **D)** Nominal primário ajustado pelas metas fiscais da Lei de Diretrizes Orçamentárias.
-* **E)** De caixa econômico, desconsiderando-se a existência de créditos suplementares abertos.
-
+* **A)** o confronto entre as receitas e as despesas, de acordo com os valores brutos.
+* **B)** os restos a pagar não processados inscritos até o exercício anterior e suas respectivas fases de execução.
+* **C)** as receitas e despesas previstas em confronto com as realizadas, apresentadas conforme a classificação por natureza.
+* **D)** a utilização do superávit financeiro e da reabertura de créditos especiais e extraordinários e as suas influências no resultado orçamentário.
+* **E)** os restos a pagar processados inscritos até o exercício anterior nas respectivas fases de execução e os restos a pagar inscritos na condição de não processados que tenham sido liquidados em exercício anterior.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. O **Resultado Orçamentário** no Balanço Orçamentário (art. 102 da Lei nº 4.320/1964) decorre do confronto estrito entre a Receita Realizada (arrecadada) e a Despesa Executada (empenhada). Havendo excesso de receitas arrecadadas sobre as despesas empenhadas, constata-se **Superávit Orçamentário**; caso contrário, **Déficit Orçamentário**.
-> - **B)** Incorreta. O resultado financeiro é apurado no Balanço Financeiro ou no confronto do ativo/passivo financeiro do Balanço Patrimonial.
-> - **C)** Incorreta. O resultado patrimonial é apurado na DVP (Demonstração das Variações Patrimoniais).
-> - **D)** Incorreta. Resultados primário e nominal são indicadores fiscais da LRF demonstrados no RREO e no AMF da LDO.
-> - **E)** Incorreta. Créditos orçamentários integram a coluna de dotação autorizada no Balanço Orçamentário.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o confronto entre as receitas e as despesas, de acordo com os valores brutos". De acordo com a teoria estudada em *1.1 Estrutura e Quadros Demonstrativos*, o Balanço Orçamentário (BO) demonstra as receitas e despesas previstas em confronto com as realizadas, consoante determina o art. 102 da Lei Federal nº 4.320/1964 e a Parte V do Manual de Contabilidade Aplicada ao Setor Público (MCASP).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os restos a pagar não processados inscritos até o exercício anterior e suas respectivas fases de execução". De acordo com a teoria estudada em *1.2 Apuração do Resultado Orçamentário (Superávit vs. Déficit)*, o Resultado Orçamentário do exercício financeiro expressa o equilíbrio entre a arrecadação das receitas e a execução das despesas.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as receitas e despesas previstas em confronto com as realizadas, apresentadas conforme a classificação por natureza". De acordo com a teoria estudada em *1.2 Apuração do Resultado Orçamentário (Superávit vs. Déficit)*, \$\$\text{Resultado Orçamentário} = \text{Receitas Realizadas} - \text{Despesas Executadas (Empenhadas)}\$\$.
+> - **D)** **Correta.** Conforme fundamentado na seção *3.2 Apuração e Cálculo do Superávit Financeiro (Art. 43, § 2º)* deste guia, o Superávit Financeiro é a principal fonte legal para abertura de créditos suplementares e especiais autorizada pelo art. 43 da Lei Federal nº 4.320/1964. Ele é apurado exclusivamente no Balanço Patrimonial do exercício anterior. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "a utilização do superávit financeiro e da reabertura de créditos especiais e extraordinários e as suas influências...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os restos a pagar processados inscritos até o exercício anterior nas respectivas fases de execução e os restos a...". De acordo com a teoria estudada em *1.1 Estrutura e Quadros Demonstrativos*, quadros de Restos a Pagar: Evidenciam a execução dos passivos orçamentários transferidos de exercícios anteriores, separando os processados dos não processados.
+>
+> **Gabarito: D**
 
 ---
 
@@ -180,54 +178,50 @@ A diferença entre o somatório das entradas e das saídas é exatamente equilib
 ---
 
 ### Teste 292
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em relação ao Balanço Financeiro disciplinado pela Lei nº 4.320/1964 e pelo Manual de Contabilidade Aplicada ao Setor Público (MCASP), é correto afirmar que:
+**(FGV – TCE-PA – Auditor de Controle Externo Fiscalizacao Contabilidade – 2024)**
+O Balanço Financeiro de uma entidade do setor público apresentava os seguintes saldos: • Saldo para o Exercício seguinte: R$300.000. • Resultado Financeiro do Exercício: R$120.000. Pode-se afirmar que, o saldo do exercício anterior era de
 
-* **A)** Apura em sua última linha o montante do superávit financeiro que servirá de fonte para abertura de créditos suplementares.
-* **B)** A inscrição de despesas em Restos a Pagar no encerramento do exercício é registrada na coluna dos ingressos extraorçamentários para compensar a despesa empenhada.
-* **C)** As transferências financeiras recebidas de outros órgãos do mesmo ente da Federação (repasses e sub-repasses) devem ser classificadas como receitas orçamentárias de capital.
-* **D)** O pagamento de restos a pagar processados efetuado no exercício é escriturado no quadro das receitas orçamentárias correntes.
-* **E)** A cota de depreciação acumulada dos edifícios públicos é registrada como um dispêndio extraorçamentário.
-
+* **A)** R$120.000.
+* **B)** R$180.000.
+* **C)** R$210.000.
+* **D)** R$420.000.
+* **E)** R$480.000.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O Balanço Financeiro não apresenta saldo de superávit ou déficit financeiro ao final, pois o total dos ingressos sempre se iguala ao total dos dispêndios mediante o transporte do saldo para o exercício seguinte. O superávit financeiro é calculado no Balanço Patrimonial.
-> - **B)** Correta. Como a despesa orçamentária é computada nos dispêndios pelo valor empenhado total, a parcela que não foi paga até 31 de dezembro (inscrita em Restos a Pagar) deve figurar nos ingressos extraorçamentários como contrapartida contábil de ajuste para manter a equação financeira em equilíbrio.
-> - **C)** Incorreta. Repasses e sub-repasses são transferências puramente financeiras entre órgãos públicos, não constituindo receita orçamentária.
-> - **D)** Incorreta. O pagamento de restos a pagar é uma despesa extraorçamentária, pois refere-se a orçamento de exercício pretérito.
-> - **E)** Incorreta. A depreciação não transita pelo Balanço Financeiro, visto que não envolve movimentação física ou bancária de dinheiro.
-> 
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$120.000". De acordo com a teoria estudada em *3.2 Apuração e Cálculo do Superávit Financeiro (Art. 43, § 2º)*, o Superávit Financeiro é a principal fonte legal para abertura de créditos suplementares e especiais autorizada pelo art. 43 da Lei Federal nº 4.320/1964. Ele é apurado exclusivamente no Balanço Patrimonial do exercício anterior.
+> - **B)** **Correta.** Conforme fundamentado na seção *2.1 Estrutura de Ingressos e Dispêndios* deste guia, o Balanço Financeiro (BF) demonstra as receitas e despesas orçamentárias bem como os recebimentos e os pagamentos de natureza extraorçamentária, conjugados com os saldos em espécie provenientes do exercício anterior e os que se transferem para o exercício seguinte (art. 103 da Lei nº 4.320/1964). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "R$180.000".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$210.000". De acordo com a teoria estudada em *2.2 O Fechamento Contábil Obrigatório e a Inscrição de Restos a Pagar*, a diferença entre o somatório das entradas e das saídas é exatamente equilibrada pelo saldo de disponibilidades financeiras transportado para o exercício seguinte.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$420.000". De acordo com a teoria estudada em *2.2 O Fechamento Contábil Obrigatório e a Inscrição de Restos a Pagar*, igualdade Matemática Rigorosa: No Balanço Financeiro, não existe resultado de superávit ou déficit na última linha! Ele sempre fecha em perfeita igualdade.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$480.000". De acordo com a teoria estudada em *1.2 Apuração do Resultado Orçamentário (Superávit vs. Déficit)*, o Resultado Orçamentário do exercício financeiro expressa o equilíbrio entre a arrecadação das receitas e a execução das despesas.
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 293
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-O Balanço Financeiro estruturado pelo art. 103 da Lei Federal nº 4.320/1964 demonstra a receita e a despesa orçamentárias, bem como os recebimentos e pagamentos de natureza extraorçamentária, conjugados com os saldos em espécie provenientes do exercício anterior e os que se transferem para o exercício seguinte.
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Contabilidade – 2024)**
+O Demonstrativo da Disponibilidade de Caixa e dos Restos a Pagar é parte integrante do Relatório de Gestão Fiscal. Em relação a este demonstrativo, analise as contas a seguir. I. Caixa II. Bancos III. Aplicações Financeiras de Liquidez Imediata IV. Obrigações Financeiras V. Restos a pagar A disponibilidade de caixa bruta é composta pelo somatório dos seguintes itens, relativos ao saldo total, em 31 de dezembro do exercício de referência:
 
-No Balanço Financeiro, a inscrição de despesas em **Restos a Pagar** do exercício figura como:
-
-* **A)** Ingresso extraorçamentário, para compensar a despesa orçamentária total computada no quadro dos dispêndios e viabilizar o equilíbrio formal das disponibilidades financeiras.
-* **B)** Pagamento orçamentário definitivo com redução do saldo de disponibilidades que se transferem para o exercício seguinte.
-* **C)** Receita de capital derivada de operações de crédito por antecipação de receita.
-* **D)** Variação patrimonial aumentativa independente da execução orçamentária no subsistema patrimonial.
-* **E)** Dedução obrigatória das receitas tributárias correntes arrecadadas no exercício.
-
+* **A)** I e II, somente.
+* **B)** I e III, somente.
+* **C)** I, II e III, somente.
+* **D)** I, II, III e IV, somente.
+* **E)** I, II, III, IV e V.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. No Balanço Financeiro (art. 103), a despesa orçamentária é computada pelo valor empenhado no lado dos dispêndios. Como nem toda despesa empenhada foi efetivamente desembolsada (paga), o montante empenhado e não pago é inscrito em **Restos a Pagar** e registrado no lado dos **Ingressos Extraorçamentários**; dessa forma, anula-se o efeito contábil do gasto não desembolsado e mantém-se a exatidão matemática do saldo final de caixa.
-> - **B)** Incorreta. A inscrição em restos a pagar representa exatamente a ausência do pagamento financeiro no exercício.
-> - **C)** Incorreta. Restos a Pagar não são operações de crédito.
-> - **D)** Incorreta. Trata-se de fluxo financeiro/orçamentário e não de VPA patrimonial.
-> - **E)** Incorreta. Não constitui dedução de tributos.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, somente". De acordo com a teoria estudada em *2.2 O Fechamento Contábil Obrigatório e a Inscrição de Restos a Pagar*, como a despesa orçamentária é registrada na coluna de dispêndios pelo valor empenhado total, a parcela que não foi paga até 31 de dezembro (inscrita em Restos a Pagar) deve figurar nos ingressos extraorçamentários como artifício contábil compensatório para fechar o balanço financeiro do ano.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, somente". De acordo com a teoria estudada em *5.2 Composição Documental Obrigatória e Papel do Controle Interno*, os relatórios fiscais previstos na LRF: Relatório Resumido da Execução Orçamentária (RREO) e Relatório de Gestão Fiscal (RGF).
+> - **C)** **Correta.** Conforme fundamentado na seção *2.2 O Fechamento Contábil Obrigatório e a Inscrição de Restos a Pagar* deste guia, a diferença entre o somatório das entradas e das saídas é exatamente equilibrada pelo saldo de disponibilidades financeiras transportado para o exercício seguinte. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "I, II e III, somente".
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, II, III e IV, somente". De acordo com a teoria estudada em *2.2 O Fechamento Contábil Obrigatório e a Inscrição de Restos a Pagar*, \$\$\mathbf{\text{Total dos Ingressos} = \text{Total dos Dispêndios}}\$\$.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II, III, IV e V". De acordo com a teoria estudada em *2.2 O Fechamento Contábil Obrigatório e a Inscrição de Restos a Pagar*, igualdade Matemática Rigorosa: No Balanço Financeiro, não existe resultado de superávit ou déficit na última linha! Ele sempre fecha em perfeita igualdade.
+>
+> **Gabarito: C**
 
 ---
 
@@ -268,37 +262,26 @@ flowchart LR
 ---
 
 ### Teste 294
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Ao final do exercício financeiro de 2023, determinado órgão público estadual apurou as seguintes informações em seus registros contábeis para fechamento do Balanço Patrimonial:
+**(FGV – TCE-PA – Auditor de Controle Externo Fiscalizacao Contabilidade – 2024)**
+Em 01/07/2022, uma sociedade empresária contraiu um empréstimo de R$180.000 com prazo de três anos. De acordo com o contrato, a sociedade empresária deveria amortizar R$30.000 do empréstimo no penúltimo dia de cada semestre. Além disso, os juros fixos eram de R$5.000, pagos ao final de cada trimestre. No Balanço Patrimonial da sociedade empresária, em 31/12/2022, o empréstimo é apresentado do seguinte modo:
 
-- Ativo Financeiro: R$ 12.000.000,00
-- Ativo Permanente: R$ 45.000.000,00
-- Passivo Financeiro: R$ 7.000.000,00
-- Passivo Permanente: R$ 30.000.000,00
-- Saldos de créditos adicionais especiais reabertos para o exercício seguinte: R$ 1.500.000,00
-
-Com base estritamente nas regras da Lei Federal nº 4.320/1964 (Art. 43, § 2º), o montante do Superávit Financeiro disponível para abertura de créditos adicionais no exercício de 2024 é de:
-
-* **A)** R$ 5.000.000,00.
-* **B)** R$ 3.500.000,00.
-* **C)** R$ 20.000.000,00.
-* **D)** R$ 18.500.000,00.
-* **E)** R$ 2.000.000,00.
-
+* **A)** Passivo não Circulante: R$105.000.
+* **B)** Passivo Circulante: R$30.000; Passivo não Circulante: R$120.000.
+* **C)** Passivo Circulante: R$60.000; Passivo não Circulante: R$90.000.
+* **D)** Passivo Circulante: R$35.000; Passivo não Circulante: R$140.000.
+* **E)** Passivo não Circulante: R$150.000; Passivo Circulante: R$70.000.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Refere-se à diferença bruta entre Ativo Financeiro e Passivo Financeiro ($12.000.000 - 7.000.000 = 5.000.000$), esquecendo-se da dedução obrigatória dos créditos especiais reabertos.
-> - **B)** Correta. De acordo com o art. 43, § 2º da Lei Federal nº 4.320/1964, o superávit financeiro é calculado subtraindo-se o Passivo Financeiro do Ativo Financeiro e deduzindo-se os saldos de créditos adicionais reabertos que ainda oneram a disponibilidade:  
->   $$\text{SF} = \text{Ativo Financeiro} - \text{Passivo Financeiro} - \text{Créditos Reabertos}$$  
->   $$\text{SF} = 12.000.000,00 - 7.000.000,00 - 1.500.000,00 = \text{R\$ 3.500.000,00}$$
-> - **C)** Incorreta. Misturou valores do patrimônio permanente ($45.000.000 - 30.000.000 + 5.000.000$), que não possuem liquidez financeira para lastrear gastos orçamentários.
-> - **D)** Incorreta. Computou indevidamente o Ativo Permanente, que reúne bens imóveis e infraestrutura.
-> - **E)** Incorreta. Subtrações aleatórias sem base nas diretrizes legais de finanças públicas.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Passivo não Circulante: R$105.000". De acordo com a teoria estudada em *3.2 Apuração e Cálculo do Superávit Financeiro (Art. 43, § 2º)*, o Superávit Financeiro é a principal fonte legal para abertura de créditos suplementares e especiais autorizada pelo art. 43 da Lei Federal nº 4.320/1964. Ele é apurado exclusivamente no Balanço Patrimonial do exercício anterior.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Passivo Circulante: R$30.000; Passivo não Circulante: R$120.000". De acordo com a teoria estudada em *1.2 Apuração do Resultado Orçamentário (Superávit vs. Déficit)*, a fonte legal autorizada pelo art. 43, § 1º, I da Lei nº 4.320/1964 é o Superávit Financeiro apurado no Balanço Patrimonial!.
+> - **C)** **Correta.** Conforme fundamentado na seção *3.1 Estrutura Dual: Lei nº 4.320/1964 vs. Normas Internacionais (NBC TSP)* deste guia, o Balanço Patrimonial convive com duas estruturas conceituais distintas e complementares. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "Passivo Circulante: R$60.000; Passivo não Circulante: R$90.000".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Passivo Circulante: R$35.000; Passivo não Circulante: R$140.000". De acordo com a teoria estudada em *4.2 Demonstração dos Fluxos de Caixa (DFC) pelo Método Direto*, desagrega os fluxos financeiros de caixa em três categorias operacionais fundamentais.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Passivo não Circulante: R$150.000; Passivo Circulante: R$70.000". De acordo com a teoria estudada em *5.1 Contas de Governo (Parecer Prévio) vs. Contas de Gestão (Julgamento Técnico)*, o Tribunal de Contas não julga as contas de governo; emite Parecer Prévio de caráter técnico conclusivo no prazo de sessenta (60) dias.
+>
+> **Gabarito: C**
 
 ---
 
@@ -336,51 +319,49 @@ flowchart TD
 ---
 
 ### Teste 295
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No encerramento do exercício financeiro, uma entidade governamental constatou que o reconhecimento da quota anual de depreciação de seus veículos operacionais no montante de R$ 500.000,00 produziu impactos nas Demonstrações Contábeis Aplicadas ao Setor Público. O reflexo desse fato contábil ocorreu:
+**(FGV – TCE-GO – Analista de Controle Externo Ciencias Contabeis – 2024)**
+Em relação à análise vertical da demonstração do resultado do exercício, analise as afirmações a seguir: I. Evidenciar as receitas e as despesas que mais influenciaram na formação do resultado; II. Detectar a composição percentual dos tipos de aplicações e origens de recursos que compõe o patrimônio líquido da entidade; III. Mostrar a evolução dos itens que compõem o resultado. Como resultado da análise vertical da demonstração do resultado do exercício, é possível o que se afirma em
 
-* **A)** Exclusivamente no Balanço Orçamentário, reduzindo o superávit orçamentário do exercício.
-* **B)** No Balanço Financeiro como dispêndio operacional e na Demonstração dos Fluxos de Caixa.
-* **C)** Na Demonstração das Variações Patrimoniais (DVP) como Variação Patrimonial Diminutiva (VPD) e no Balanço Patrimonial como conta redutora do Ativo Não Circulante.
-* **D)** No Balanço Orçamentário e no Balanço Financeiro simultaneamente, sem afetar o Balanço Patrimonial.
-* **E)** Exclusivamente na Demonstração dos Fluxos de Caixa, classificado como fluxo de investimentos.
-
+* **A)** I, somente.
+* **B)** I e II, somente.
+* **C)** I e III, somente.
+* **D)** II e III, somente.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A depreciação independe de dotação e não envolve execução de despesa orçamentária, não figurando no Balanço Orçamentário.
-> - **B)** Incorreta. A depreciação não envolve desembolso financeiro de moeda, não afetando o Balanço Financeiro nem a DFC.
-> - **C)** Correta. A depreciação periódica é um fato contábil estritamente patrimonial decorrente do regime de competência. Seu lançamento é: débito em Variação Patrimonial Diminutiva (VPD - Classe 3) e crédito em Depreciação Acumulada (Conta retificadora do Ativo Imobilizado - Classe 1). Logo, impacta a DVP (como VPD) e o Balanço Patrimonial (reduzindo o valor contábil líquido do Ativo Não Circulante).
-> - **D)** Incorreta. Não afeta os balanços orçamentário e financeiro.
-> - **E)** Incorreta. A DFC registra exclusivamente eventos que movimentam contas de disponibilidades de caixa; a depreciação é um custo puramente econômico.
-> 
-> **Gabarito: C**
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, somente". De acordo com a teoria estudada em *4.3 Demonstração das Mutações do Patrimônio Líquido (DMPL) e Notas Explicativas*, notas Explicativas: Peça textual analítica obrigatória e indissociável de todas as DCASP, fornecendo detalhes sobre as premissas e políticas contábeis adotadas, contingências judiciais e critérios de mensuração e depreciação.
+> - **B)** **Correta.** Conforme fundamentado na seção *4.3 Demonstração das Mutações do Patrimônio Líquido (DMPL) e Notas Explicativas* deste guia, dMPL (NBC TSP 11): Evidencia a movimentação de todas as contas integrantes do Patrimônio Líquido durante o exercício (Patrimônio Social, Reservas de Capital, Ajustes de Avaliação Patrimonial e Resultados Acumulados de exercícios anteriores). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "I e II, somente".
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, somente". De acordo com a teoria estudada em *4.1 Estrutura da DVP e Resultado Patrimonial por Competência*, a Demonstração das Variações Patrimoniais (DVP) evidencia as alterações verificadas no patrimônio público resultantes ou independentes da execução orçamentária, aplicando rigorosamente o regime de competência pura.
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, somente". De acordo com a teoria estudada em *1.2 Apuração do Resultado Orçamentário (Superávit vs. Déficit)*, o Resultado Orçamentário do exercício financeiro expressa o equilíbrio entre a arrecadação das receitas e a execução das despesas.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *4.2 Demonstração dos Fluxos de Caixa (DFC) pelo Método Direto*, fluxos das Atividades de Financiamento: Captação de recursos via emissão de títulos da dívida mobiliária e contratos de empréstimos, bem como pagamentos para amortização do principal da dívida fundada.
+>
+> **Gabarito: B**
 
 ---
 
 ### Teste 296
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na Demonstração dos Fluxos de Caixa (DFC) elaborada pelas entidades do setor público de acordo com a NBC TSP 12 e o MCASP:
+**(FGV – TRT-24 – Analista Judiciario Area Administrativa Contabilidade – 2025)**
+A Cia. Alfa e a Cia. Beta têm a mesma atividade fim. Em 31/12/2024, a Cia. Alfa apresentou a sua Demonstração dos Fluxos de Caixa de acordo com o método direto. Já a Cia. Beta apresentou esta demonstração de acordo com o método indireto. Assinale a opção que indica uma diferença na apresentação das duas empresas, de acordo com a NBC TG 03 (R3) – Demonstração dos Fluxos de Caixa.
 
-* **A)** Os fluxos de caixa devem ser obrigatoriamente segregados em três grandes categorias de atividades: Operacionais, de Investimento e de Financiamento.
-* **B)** O método indireto é de uso compulsório no setor público brasileiro, vedando-se a utilização do método direto para apresentação das atividades operacionais.
-* **C)** As receitas provenientes de alienação de bens do ativo imobilizado são classificadas no fluxo das atividades de financiamento.
-* **D)** O pagamento de juros da dívida pública deve ser classificado compulsoriamente como atividade de investimento.
-* **E)** As transferências correntes recebidas da União integram o fluxo de caixa das atividades de financiamento internacional.
-
+* **A)** A Cia. Alfa, apenas, deve fornecer a conciliação entre o lucro líquido e o fluxo de caixa líquido das atividades operacionais.
+* **B)** A Cia. Alfa, apenas, deve divulgar o montante agregado dos fluxos de caixa que representam aumentos na capacidade operacional.
+* **C)** A Cia. Alfa, apenas, deve divulgar os saldos significativos de caixa e equivalentes de caixa mantidos pela entidade que não estejam disponíveis para uso pelo grupo.
+* **D)** A Cia. Beta, apenas, deve divulgar os montantes totais dos juros e dividendos e juros sobre o capital próprio, pagos e recebidos, separadamente.
+* **E)** A Cia. Beta, apenas, deve divulgar as transações de investimento e financiamento que não envolvem o uso de caixa ou equivalentes de caixa.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. A NBC TSP 12 e o MCASP padronizam a DFC em três fluxos estruturais: (1) **Atividades Operacionais** (atividades cotidianas de arrecadação de tributos, prestação de serviços e pagamento de pessoal/custeio); (2) **Atividades de Investimento** (aquisição e venda de ativos imobilizados e intangíveis); (3) **Atividades de Financiamento** (obtenção e amortização de empréstimos e financiamentos de longo prazo).
-> - **B)** Incorreta. No setor público brasileiro, o MCASP exige a apresentação dos fluxos operacionais pelo **método direto**.
-> - **C)** Incorreta. Venda de ativos imobilizados compõe o fluxo das atividades de **investimento**.
-> - **D)** Incorreta. Juros e encargos da dívida são classificados nas atividades operacionais (ou financiamento em notas, mas não investimento).
-> - **E)** Incorreta. Transferências correntes compõem os fluxos das atividades operacionais.
-> 
+> - **A)** **Correta.** Conforme fundamentado na seção *4.2 Demonstração dos Fluxos de Caixa (DFC) pelo Método Direto* deste guia, normatizada pela NBC TSP 12 e pelo MCASP, a DFC no setor público deve ser elaborada compulsoriamente pelo Método Direto para os fluxos das atividades operacionais. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "A Cia. Alfa, apenas, deve fornecer a conciliação entre o lucro líquido e o fluxo de caixa líquido das atividades...".
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "A Cia. Alfa, apenas, deve divulgar o montante agregado dos fluxos de caixa que representam aumentos na capacidade...". De acordo com a teoria estudada em *4.2 Demonstração dos Fluxos de Caixa (DFC) pelo Método Direto*, fluxos das Atividades Operacionais: Arrecadação tributária, receitas de serviços, pagamento de vencimentos a servidores públicos, compras de material de consumo e transferências intergovernamentais.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "A Cia. Alfa, apenas, deve divulgar os saldos significativos de caixa e equivalentes de caixa mantidos pela...". De acordo com a teoria estudada em *4.2 Demonstração dos Fluxos de Caixa (DFC) pelo Método Direto*, desagrega os fluxos financeiros de caixa em três categorias operacionais fundamentais.
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "A Cia. Beta, apenas, deve divulgar os montantes totais dos juros e dividendos e juros sobre o capital próprio...". De acordo com a teoria estudada em *4.2 Demonstração dos Fluxos de Caixa (DFC) pelo Método Direto*, fluxos das Atividades de Investimento: Desembolsos para aquisição de bens do ativo imobilizado (obras, prédios, viaturas) e entradas decorrentes da alienação de ativos públicos.
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "A Cia. Beta, apenas, deve divulgar as transações de investimento e financiamento que não envolvem o uso de caixa...". De acordo com a teoria estudada em *4.2 Demonstração dos Fluxos de Caixa (DFC) pelo Método Direto*, fluxos das Atividades de Financiamento: Captação de recursos via emissão de títulos da dívida mobiliária e contratos de empréstimos, bem como pagamentos para amortização do principal da dívida fundada.
+>
 > **Gabarito: A**
 
 ---
@@ -419,77 +400,74 @@ Os processos de prestação de contas enviados anualmente ao TCE-GO devem conter
 ---
 
 ### Teste 297
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A respeito da prestação de contas dos administradores públicos perante o Tribunal de Contas do Estado de Goiás (TCE-GO), assinale a afirmativa correta:
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Contabilidade – 2024)**
+Em uma entidade do setor público, os Balanços Orçamentários não consolidados poderão apresentar desequilíbrio e déficit orçamentário, pois muitos deles não são agentes arrecadadores e executam despesas orçamentárias para prestação de serviços públicos e realização de investimentos. Esse fato não representa irregularidade e deve ser
 
-* **A)** As contas prestadas pelo Chefe do Poder Executivo são submetidas a julgamento técnico irrecorrível pelo próprio Tribunal de Contas, cabendo à Assembleia Legislativa apenas tomar conhecimento.
-* **B)** A prestação de contas dos dirigentes de autarquias e secretários de Estado (contas de gestão) é apreciada mediante parecer prévio opinativo encaminhado ao Governador do Estado.
-* **C)** O parecer prévio emitido pelo TCE sobre as contas de governo do Chefe do Poder Executivo só deixará de prevalecer por decisão de dois terços dos membros da Assembleia Legislativa.
-* **D)** O Tribunal de Contas dispensa a apresentação do relatório do órgão central do sistema de controle interno nos processos de tomada de contas especial.
-* **E)** As demonstrações contábeis exigidas na prestação de contas anual dispensam notas explicativas caso o Balanço Patrimonial não registre dívida fundada consolidada.
-
+* **A)** reforçado pela administração em relatório especial específico, que não representa demonstração contábil.
+* **B)** contabilizado, de modo complementar, através do Balanço Financeiro, que mostra a variação financeira entre eles.
+* **C)** apresentado, de modo complementar, em balanço orçamentário adicional, elaborado para ressaltar esse aspecto.
+* **D)** evidenciado, de modo complementar, por nota explicativa que demonstre o montante da movimentação financeira relacionado à execução do orçamento do exercício.
+* **E)** contabilizado, de modo complementar, através da Demonstração das Mutações do Patrimônio Líquido, que inclui as variações entre as contas que compõe este elemento.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. As contas de governo do Chefe do Executivo estadual (Governador) são julgadas politicamente pela Assembleia Legislativa, cabendo ao Tribunal de Contas emitir parecer prévio técnico conclusivo (art. 71, I c/c art. 75 da CF/88).
-> - **B)** Incorreta. Os ordenadores de despesas e dirigentes de órgãos e autarquias prestam contas de gestão, as quais são julgadas diretamente pelo Tribunal de Contas com caráter terminativo.
-> - **C)** Correta. Conforme o modelo constitucional de controle externo (art. 31, § 2º aplicado por simetria federativa e normas correlatas da Constituição de Goiás), o parecer prévio técnico emitido pelo Tribunal de Contas sobre as contas anuais de governo do Chefe do Executivo somente deixará de prevalecer por decisão qualificada de dois terços (2/3) dos membros do Poder Legislativo.
-> - **D)** Incorreta. O relatório e o certificado de auditoria emitidos pelo órgão central do sistema de controle interno são peças obrigatórias e indeclináveis na prestação e tomada de contas especial.
-> - **E)** Incorreta. As notas explicativas são parte integrante e obrigatória das Demonstrações Contábeis Aplicadas ao Setor Público (NBC TSP 11 e MCASP), independentemente de existir dívida fundada.
-> 
-> **Gabarito: C**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "reforçado pela administração em relatório especial específico, que não representa demonstração contábil". De acordo com a teoria estudada em *4.3 Demonstração das Mutações do Patrimônio Líquido (DMPL) e Notas Explicativas*, dMPL (NBC TSP 11): Evidencia a movimentação de todas as contas integrantes do Patrimônio Líquido durante o exercício (Patrimônio Social, Reservas de Capital, Ajustes de Avaliação Patrimonial e Resultados Acumulados de exercícios anteriores).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "contabilizado, de modo complementar, através do Balanço Financeiro, que mostra a variação financeira entre eles". De acordo com a teoria estudada em *1.2 Apuração do Resultado Orçamentário (Superávit vs. Déficit)*, o Resultado Orçamentário do exercício financeiro expressa o equilíbrio entre a arrecadação das receitas e a execução das despesas.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "apresentado, de modo complementar, em balanço orçamentário adicional, elaborado para ressaltar esse aspecto". De acordo com a teoria estudada em *2.1 Estrutura de Ingressos e Dispêndios*, o Balanço Financeiro (BF) demonstra as receitas e despesas orçamentárias bem como os recebimentos e os pagamentos de natureza extraorçamentária, conjugados com os saldos em espécie provenientes do exercício anterior e os que se transferem para o exercício seguinte (art. 103 da Lei nº 4.320/1964).
+> - **D)** **Correta.** Conforme fundamentado na seção *5.1 Contas de Governo (Parecer Prévio) vs. Contas de Gestão (Julgamento Técnico)* deste guia, consubstanciam o balanço geral anual do Estado e a prestação macroeconômica da execução orçamentária e financeira. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "evidenciado, de modo complementar, por nota explicativa que demonstre o montante da movimentação financeira...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "contabilizado, de modo complementar, através da Demonstração das Mutações do Patrimônio Líquido, que inclui as...". De acordo com a teoria estudada em *4.3 Demonstração das Mutações do Patrimônio Líquido (DMPL) e Notas Explicativas*, notas Explicativas: Peça textual analítica obrigatória e indissociável de todas as DCASP, fornecendo detalhes sobre as premissas e políticas contábeis adotadas, contingências judiciais e critérios de mensuração e depreciação.
+>
+> **Gabarito: D**
 
 ---
 
 ### Teste 298
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No tocante ao controle externo exercido pelo Tribunal de Contas do Estado de Goiás (TCE-GO) sobre a prestação de contas dos Chefes dos Poderes e gestores públicos, assinale a opção que distingue corretamente Contas de Governo e Contas de Gestão:
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Contabilidade – 2024)**
+De acordo com o Manual de Contabilidade Aplicada ao Setor Público (MCASP), a localização da informação nas demonstrações contábeis contribui para representar um panorama financeiro mais abrangente da entidade. Para as demonstrações contábeis, a informação exposta e as evidenciações podem ser encontradas, respectivamente,
 
-* **A)** As Contas de Governo expressam a atuação política e a gestão fiscal macroeconômica do Chefe do Poder Executivo em todo o exercício, sobre as quais o Tribunal de Contas emite Parecer Prévio consultivo para julgamento pelo Poder Legislativo; já as Contas de Gestão referem-se à administração dos recursos pelos ordenadores de despesas e administradores públicos, sendo julgadas técnica e definitivamente pelo próprio Tribunal de Contas.
-* **B)** As Contas de Gestão são julgadas pela Assembleia Legislativa estadual, cabendo ao Tribunal de Contas julgar as Contas de Governo do Governador do Estado.
-* **C)** O parecer prévio emitido pelo Tribunal de Contas sobre as Contas de Governo vincula categoricamente a Assembleia Legislativa, que não pode rejeitá-lo em nenhuma hipótese.
-* **D)** Os ordenadores de despesa de autarquias e fundações estaduais prestam contas diretamente ao Governador do Estado, não se sujeitando à jurisdição do TCE-GO.
-* **E)** As Contas de Governo e de Gestão foram unificadas pela Constituição de 1988, devendo todas ser julgadas exclusivamente pelo Tribunal de Justiça do Estado.
-
+* **A)** nas notas explicativas e nas demonstrações econômicas.
+* **B)** nas demonstrações contábeis e nas demonstrações econômicas.
+* **C)** nos quadros da demonstração apropriada e nas notas explicativas.
+* **D)** nas demonstrações contábeis e nas demonstrações financeiras.
+* **E)** nas demonstrações econômicas e nas demonstrações financeiras.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. A distinção clássica do direito financeiro e controle externo (CF/88, art. 71, I e II, e CE-GO): **Contas de Governo** (do Governador/Prefeito): o Tribunal de Contas atua como órgão auxiliar e emite **Parecer Prévio**, cabendo o julgamento político à Casa Legislativa (Assembleia ou Câmara); **Contas de Gestão** (ordenadores de despesa, secretários, dirigentes): o Tribunal de Contas possui jurisdição constitucional própria e emite **julgamento técnico definitivo** (contas regulares, regulares com ressalva ou irregulares), com poder de aplicar multas e imputar débito com eficácia de título executivo.
-> - **B)** Invertido. Contas de governo são julgadas pelo Legislativo; contas de gestão pelo Tribunal de Contas.
-> - **C)** Incorreta. O parecer prévio do TCE sobre o Governador tem natureza opinativa-técnica, podendo ser acatado ou rejeitado pelo Legislativo.
-> - **D)** Incorreta. Todos os ordenadores de despesas da administração indireta sujeitam-se à jurisdição direta do TCE-GO.
-> - **E)** Incorreta. A dualidade permanece viva e estruturante no controle externo brasileiro.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "nas notas explicativas e nas demonstrações econômicas". De acordo com a teoria estudada em *1.1 Estrutura e Quadros Demonstrativos*, o Balanço Orçamentário (BO) demonstra as receitas e despesas previstas em confronto com as realizadas, consoante determina o art. 102 da Lei Federal nº 4.320/1964 e a Parte V do Manual de Contabilidade Aplicada ao Setor Público (MCASP).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "nas demonstrações contábeis e nas demonstrações econômicas". De acordo com a teoria estudada em *4.3 Demonstração das Mutações do Patrimônio Líquido (DMPL) e Notas Explicativas*, notas Explicativas: Peça textual analítica obrigatória e indissociável de todas as DCASP, fornecendo detalhes sobre as premissas e políticas contábeis adotadas, contingências judiciais e critérios de mensuração e depreciação.
+> - **C)** **Correta.** Conforme fundamentado na seção *5.2 Composição Documental Obrigatória e Papel do Controle Interno* deste guia, o conjunto completo das Demonstrações Contábeis Aplicadas ao Setor Público (DCASP) acompanhadas das respectivas Notas Explicativas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "nos quadros da demonstração apropriada e nas notas explicativas".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "nas demonstrações contábeis e nas demonstrações financeiras". De acordo com a teoria estudada em *4.3 Demonstração das Mutações do Patrimônio Líquido (DMPL) e Notas Explicativas*, dMPL (NBC TSP 11): Evidencia a movimentação de todas as contas integrantes do Patrimônio Líquido durante o exercício (Patrimônio Social, Reservas de Capital, Ajustes de Avaliação Patrimonial e Resultados Acumulados de exercícios anteriores).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "nas demonstrações econômicas e nas demonstrações financeiras". De acordo com a teoria estudada em *1.1 Estrutura e Quadros Demonstrativos*, quadro Principal: Desagrega receitas e despesas por categorias econômicas (Correntes e de Capital), origens e grupos de natureza da despesa (GND).
+>
+> **Gabarito: C**
 
 ---
 
 ### Teste 299
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na Demonstração das Variações Patrimoniais (DVP) elaborada de acordo com as normas da CASP (NBC TSP e MCASP), o resultado patrimonial do exercício é considerado **deficitário** quando:
+**(FGV – TRT-24 – Analista Judiciario Area Administrativa Contabilidade – 2025)**
+Em uma entidade do setor público, a Demonstração das Variações Patrimoniais é acompanhada de notas explicativas, divulgando separadamente a natureza e os valores dos itens relevantes que compõem as variações patrimoniais aumentativas e as diminutivas. Algumas circunstâncias poderão ser apresentadas em notas explicativas, ainda que seus valores não sejam relevantes. Em relação a elas, analise o que se afirma a seguir. I. Baixas de itens do ativo imobilizado. II. Baixas de investimento. III. Constituição ou reversão de provisões. Está correto o que se afirma em
 
-* **A)** O total das Variações Patrimoniais Diminutivas (VPD) for superior ao total das Variações Patrimoniais Aumentativas (VPA), reduzindo o patrimônio líquido da entidade.
-* **B)** O montante das despesas orçamentárias pagas superar as receitas orçamentárias arrecadadas na Conta Única.
-* **C)** O saldo do passivo financeiro for maior do que o ativo financeiro apurado no Balanço Patrimonial.
-* **D)** A despesa fixada na Lei Orçamentária Anual não for integralmente liquidada pelos órgãos setoriais.
-* **E)** O superávit financeiro do exercício anterior for totalmente consumido pela abertura de créditos adicionais suplementares.
-
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. A DVP evidencia o resultado econômico do exercício pelo regime de competência. O resultado patrimonial decorre do confronto direto entre Variações Patrimoniais Aumentativas (VPA) e Variações Patrimoniais Diminutivas (VPD). Quando as **VPD superam as VPA**, o resultado é deficitário, reduzindo o Patrimônio Líquido governamental.
-> - **B)** Incorreta. Essa comparação traduz resultado financeiro de caixa, não resultado patrimonial de competência.
-> - **C)** Incorreta. Esse confronto expressa déficit financeiro apurado no Balanço Patrimonial (art. 43, § 2º da Lei nº 4.320/1964).
-> - **D)** Incorreta. A economia de dotações não caracteriza déficit patrimonial na DVP.
-> - **E)** Incorreta. Refere-se à utilização de fontes orçamentárias de créditos adicionais.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *5.2 Composição Documental Obrigatória e Papel do Controle Interno*, o conjunto completo das Demonstrações Contábeis Aplicadas ao Setor Público (DCASP) acompanhadas das respectivas Notas Explicativas.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *4.1 Estrutura da DVP e Resultado Patrimonial por Competência*, a Demonstração das Variações Patrimoniais (DVP) evidencia as alterações verificadas no patrimônio público resultantes ou independentes da execução orçamentária, aplicando rigorosamente o regime de competência pura.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *4.2 Demonstração dos Fluxos de Caixa (DFC) pelo Método Direto*, normatizada pela NBC TSP 12 e pelo MCASP, a DFC no setor público deve ser elaborada compulsoriamente pelo Método Direto para os fluxos das atividades operacionais.
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *4.3 Demonstração das Mutações do Patrimônio Líquido (DMPL) e Notas Explicativas*, dMPL (NBC TSP 11): Evidencia a movimentação de todas as contas integrantes do Patrimônio Líquido durante o exercício (Patrimônio Social, Reservas de Capital, Ajustes de Avaliação Patrimonial e Resultados Acumulados de exercícios anteriores).
+> - **E)** **Correta.** Conforme fundamentado na seção *4.2 Demonstração dos Fluxos de Caixa (DFC) pelo Método Direto* deste guia, fluxos das Atividades de Investimento: Desembolsos para aquisição de bens do ativo imobilizado (obras, prédios, viaturas) e entradas decorrentes da alienação de ativos públicos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "I, II e III".
+>
+> **Gabarito: E**
 
 ---
 

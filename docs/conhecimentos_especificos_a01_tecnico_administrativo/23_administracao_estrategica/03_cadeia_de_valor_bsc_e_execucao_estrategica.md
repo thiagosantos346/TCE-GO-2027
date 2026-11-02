@@ -88,55 +88,52 @@ flowchart TD
 ---
 
 ### Teste 390
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Segundo a teoria da Cadeia de Valor concebida por Michael Porter, as atividades organizacionais dividem-se em atividades primárias e atividades de apoio (suporte). Dentre as alternativas a seguir, assinale a que apresenta unicamente Atividades de Apoio:
+**(FGV – TRT-24 – Analista Judiciario Area Administrativa Sem Especialidade – 2025)**
+A gestão de pessoas no setor público envolve processos integrados de recrutamento, seleção, capacitação, desenvolvimento, avaliação de desempenho e gestão de carreiras, com foco na valorização dos servidores e na melhoria da qualidade dos serviços prestados à sociedade. Assinale a opção que apresenta corretamente uma das bases fundamentais da gestão do desempenho no setor público.
 
-* **A)** Logística de entrada, operações e logística de saída.
-* **B)** Marketing e vendas, serviços pós-venda e infraestrutura da organização.
-* **C)** Gestão de recursos humanos, desenvolvimento tecnológico e aquisições (compras).
-* **D)** Operações fabris, compras de matéria-prima e distribuição comercial.
-* **E)** Logística interna, assistência técnica a clientes e recursos humanos.
-
+* **A)** Concentra-se exclusivamente na avaliação de resultados, sem considerar o planejamento ou o apoio ao servidor.
+* **B)** A revisão do desempenho não deve conter feedbacks ao servidor, para preservar a imparcialidade da avaliação.
+* **C)** O foco está apenas no cumprimento das metas organizacionais, não sendo necessário alinhar objetivos departamentais.
+* **D)** A definição de objetivos departamentais ocorre após a avaliação de desempenho, para garantir o cumprimento dos planos de desenvolvimento.
+* **E)** A condução do desempenho envolve ações como apoio e supervisão, coaching e mentoring, com o objetivo de promover o desenvolvimento contínuo do servidor.
 
 ---
 
-> **Comentário Detalhado:**  
+> **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Logística de entrada, operações e logística de saída são atividades primárias.  
-> - **B) Incorreta.** Marketing e serviços pós-venda são atividades primárias; apenas infraestrutura é de apoio.  
-> - **C) CORRETA.** No modelo de Porter, as **Atividades de Apoio (Suporte)** são compostas por quatro funções transversais que sustentam toda a organização: 1) Infraestrutura Organizacional; 2) **Gestão de Recursos Humanos**; 3) **Desenvolvimento de Tecnologia**; e 4) **Aquisições (função de compras e suprimentos)**.  
-> - **D) Incorreta.** Operações fabris e distribuição (logística de saída) são atividades primárias.  
-> - **E) Incorreta.** Logística interna e assistência técnica pós-venda são atividades primárias.  
-> 
-> **Gabarito: C**
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Concentra-se exclusivamente na avaliação de resultados, sem considerar o planejamento ou o apoio ao servidor". De acordo com a teoria estudada em *Classificação Rigorosa das Atividades:*, *Gestão de Recursos Humanos:* Seleção pública, planos de cargos e salários, capacitação contínua e avaliação de desempenho.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A revisão do desempenho não deve conter feedbacks ao servidor, para preservar a imparcialidade da avaliação". De acordo com a teoria estudada em *4. Escritório de Gestão Estratégica (EGE) e Reuniões de Avaliação (RAE)*, reuniões de Avaliação da Estratégia (RAE): Rito periódico formal em que a alta administração e os líderes de projetos se reúnem com foco exclusivo na análise de desempenho dos indicadores nos painéis executivos (*dashboards*).
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "O foco está apenas no cumprimento das metas organizacionais, não sendo necessário alinhar objetivos departamentais". De acordo com a teoria estudada em *2. O Desdobramento da Estratégia (Cascading) pelo BSC*, alinhamento em Cascata (*Cascading*): Processo estruturado pelo qual os objetivos e indicadores do mapa estratégico corporativo do TCE-GO são sucessivamente desdobrados para secretarias, diretorias, divisões e planos de trabalho individuais dos auditores e analistas, assegurando que cada servidor visualize sua contribuição para o plano de longo prazo.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A definição de objetivos departamentais ocorre após a avaliação de desempenho, para garantir o cumprimento dos...". De acordo com a teoria estudada em *Transposição para os Órgãos Públicos de Controle (TCE-GO):*, fALSO! No modelo oficial de Michael Porter, Aquisições (Compras) e Desenvolvimento Tecnológico (TI) são Atividades de Apoio (Suporte), pois exercem papel de sustentação transversal para as atividades primárias!.
+> - **E)** **Correta.** Conforme fundamentado na seção *2. O Desdobramento da Estratégia (Cascading) pelo BSC* deste guia, *Leading (Guias/Tendência):* Medem direcionadores de desempenho e ações intermediárias (ex.: horas de treinamento de servidores em auditoria de TI). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "A condução do desempenho envolve ações como apoio e supervisão, coaching e mentoring, com o objetivo de promover o...".
+>
+> **Gabarito: E**
 
 ---
 
 ### Teste 391
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No âmbito da administração pública gerencial, a aplicação da teoria da Cadeia de Valor exige a transposição dos conceitos originalmente desenhados para empresas mercantis privadas. Em um Tribunal de Contas estadual, a atividade primária correspondente ao processamento interno das fiscalizações, análise documental de contratos e elaboração de relatórios técnicos de auditoria é categorizada como:
+**(FGV – TJ-SC – Analista Administrativo – 2026)**
+A gestão de materiais compreende diversos setores, cada um com responsabilidades específicas que, articuladas, asseguram o adequado fluxo de insumos, a guarda física, a reposição e a distribuição dos bens necessários à atividade-fim. A correta compreensão das atribuições de cada setor é essencial para o desempenho eficiente da cadeia de suprimentos. Considere a situação hipotética a seguir. Em determinada organização, foram identificadas três ocorrências em um mesmo dia de operação: I. acompanhamento do nível de mercadorias disponíveis e do investimento financeiro a elas vinculado; II. negociação com fornecedor estrangeiro, com observância da legislação aduaneira pertinente, para aquisição de insumos produtivos; III. guarda física dos materiais entregues pelos fornecedores e destinados a atender à produção. Conforme a estrutura clássica de organização do departamento de materiais, as ocorrências I, II e III estão afetas, respectivamente, aos setores de
 
-* **A)** Infraestrutura Organizacional.
-* **B)** Logística de Entrada de Insumos.
-* **C)** Operações (Transformação).
-* **D)** Aquisições e Suprimentos.
-* **E)** Logística Externa de Distribuição.
-
+* **A)** compras, importação e almoxarifado.
+* **B)** controle de estoques, importação e almoxarifado.
+* **C)** controle de estoques, compras e PCP.
+* **D)** PCP, importação e transportes e distribuição.
+* **E)** almoxarifado, compras e controle de estoques.
 
 ---
 
-> **Comentário Detalhado:**  
+> **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Infraestrutura organizacional é atividade de apoio transversal (administração predial, assessoria jurídica geral).  
-> - **B) Incorreta.** Logística de entrada seria o recebimento e protocolo das contas dos jurisdicionados.  
-> - **C) CORRETA.** As **Operações** correspondem ao processo nuclear de transformação dos insumos (dados brutos, notas fiscais e processos licitatórios) no produto técnico final do Tribunal (relatórios circunstanciados de auditoria e propostas de voto). Constitui a atividade operacional finalística precípua do órgão de controle.  
-> - **D) Incorreta.** Aquisições é atividade de apoio voltada a comprar materiais para o Tribunal.  
-> - **E) Incorreta.** Logística externa seria a publicação oficial dos acórdãos e notificação dos jurisdicionados.  
-> 
-> **Gabarito: C**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "compras, importação e almoxarifado". De acordo com a teoria estudada em *Classificação Rigorosa das Atividades:*, *Aquisições (Compras):* A função de licitar e adquirir insumos, materiais e contratação de serviços terceirizados.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "controle de estoques, importação e almoxarifado". De acordo com a teoria estudada em *Classificação Rigorosa das Atividades:*, atividades Primárias: Estão diretamente envolvidas na criação física do produto ou serviço, sua distribuição aos usuários e a assistência pós-entrega.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "controle de estoques, compras e PCP". De acordo com a teoria estudada em *Transposição para os Órgãos Públicos de Controle (TCE-GO):*, pegadinha campeã em concursos da FCC: afirmar que "a aquisição de materiais e o desenvolvimento de sistemas informatizados são atividades primárias da cadeia de valor".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "PCP, importação e transportes e distribuição". De acordo com a teoria estudada em *Classificação Rigorosa das Atividades:*, *Logística de Entrada (Interna):* Recebimento, conferência, armazenagem e distribuição interna dos insumos necessários.
+> - **E)** **Correta.** Conforme fundamentado na seção *Transposição para os Órgãos Públicos de Controle (TCE-GO):* deste guia, atividades de Apoio do TCE-GO: A gestão predial, o departamento de TI (sistemas informatizados), o setor de compras/licitações e a Escola Superior de Controle Externo. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-SC/2026) ao estabelecer que "almoxarifado, compras e controle de estoques".
+>
+> **Gabarito: E**
 
 ---
-
 
 #### Transposição para os Órgãos Públicos de Controle (TCE-GO):
 No setor público, a "Margem de Lucro Privada" é convertida no conceito fundamental de **Valor Público** (Mark Moore):
@@ -153,26 +150,26 @@ No setor público, a "Margem de Lucro Privada" é convertida no conceito fundame
 ---
 
 ### Teste 392
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na Cadeia de Valor de Michael Porter, as atividades empresariais e organizacionais são rigorosamente classificadas em Atividades Primárias e Atividades de Apoio (ou Suporte).
+**(FGV – TRT-1 – Analista Judiciario Area Administrativa – 2024)**
+A logística reversa corresponde a um conjunto de ações, procedimentos e meios destinados a viabilizar a coleta e a restituição dos resíduos sólidos ao setor empresarial, para reaproveitamento em seu ciclo ou em outros ciclos produtivos, ou outra destinação final ambientalmente adequada. Sobre a logística reversa de pilhas e baterias, analise as alternativas a seguir. I. Compete aos fabricantes, importadores, distribuidores e comerciantes a obrigação de tomar todas as medidas necessárias para assegurar a implementação e operacionalização do sistema de logística reversa. II. A obrigação de implementação de sistema de logística reversa de pilhas e baterias depende da prévia celebração de acordo setorial, que deverá levar em consideração a viabilidade técnica e econômica da logística reversa. III. A participação do Poder Público Municipal deve se dar por prévio acordo (setorial ou compromisso) e ser remunerada. Está correto o que se afirma em:
 
-Constitui típica **Atividade Primária** da Cadeia de Valor:
-
-* **A)** Logística Interna (recebimento, armazenamento e distribuição de insumos e matérias-primas).
-* **B)** Gestão de Recursos Humanos (recrutamento, seleção, treinamento e remuneração).
-* **C)** Desenvolvimento de Tecnologia e Pesquisa (P&D).
-* **D)** Infraestrutura da Empresa (planejamento, contabilidade, finanças e assessoria jurídica).
-* **E)** Aquisição / Compras de suprimentos corporativos gerais.
-
+* **A)** I, apenas;
+* **B)** II, apenas;
+* **C)** III, apenas;
+* **D)** I e III, apenas;
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. A Cadeia de Valor de Porter divide-se em: **Atividades Primárias** (envolvidas diretamente na criação física, venda e entrega do produto/serviço): Logística Interna, Operações, Logística Externa, Marketing/Vendas e Serviços pós-venda. As **Atividades de Apoio/Suporte** (sustentam as atividades primárias fornecendo insumos, tecnologia e infraestrutura): Infraestrutura da empresa, Gestão de RH, Desenvolvimento de Tecnologia e Aquisição/Compras.
-> - **B), C), D), E)** Incorretas. São todas Atividades de Apoio / Suporte.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *Classificação Rigorosa das Atividades:*, *Logística de Saída (Externa):* Coleta, armazenagem e distribuição final dos relatórios, acórdãos ou produtos aos clientes/cidadãos.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas". De acordo com a teoria estudada em *Classificação Rigorosa das Atividades:*, *Desenvolvimento Tecnológico:* Procedimentos técnicos, softwares de gestão, infraestrutura de redes e inteligência artificial.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III, apenas". De acordo com a teoria estudada em *Transposição para os Órgãos Públicos de Controle (TCE-GO):*, para o Tribunal de Contas, valor público significa fiscalizar para coibir a corrupção e os desvios, induzir a melhoria das políticas públicas de saúde e educação e assegurar que os impostos pagos pelos cidadãos retornem em serviços estatais de excelência.
+> - **D)** **Correta.** Conforme fundamentado na seção *Transposição para os Órgãos Públicos de Controle (TCE-GO):* deste guia, atividades Primárias do TCE-GO: Recebimento e autuação das prestações de contas municipais e estaduais (Logística de Entrada) \$\rightarrow\$ Análise técnica, instrução de processos e elaboração de relatórios de auditoria (Operações) \$\rightarrow\$ Sessões plenárias, julgamentos, publicação de acórdãos e emissão de pareceres prévios (Logística de Saída) \$\rightarrow\$ Divulgação ampla no Portal da Transparência e Diário Oficial (Marketing e Comunicação) \$\rightarrow\$ Monitoramento do cumprimento das determinações e recomendações pelos órgãos jurisdicionados (Serviços e Pós-Decisão). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-1/2024) ao estabelecer que "I e III, apenas".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *Classificação Rigorosa das Atividades:*, *Logística de Entrada (Interna):* Recebimento, conferência, armazenagem e distribuição interna dos insumos necessários.
+>
+> **Gabarito: D**
 
 ---
 
@@ -210,49 +207,50 @@ flowchart TD
 ---
 
 ### Teste 393
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No processo de desdobramento da estratégia corporativa pelo Balanced Scorecard (BSC), a metodologia exige a articulação harmônica de quatro componentes operacionais para garantir a efetividade da execução. A associação correta entre o componente do BSC e sua respectiva definição é:
+**(FGV – TCE-GO – Analista de Controle Externo Controle Externo – 2024)**
+O Referencial Estratégico das Organizações é uma bússola que orienta as ações e decisões, fornecendo uma visão clara dos objetivos e direcionamentos a serem seguidos para alcançar o sucesso. Sobre o Referencial Estratégico das Organizações, analise os itens a seguir: I. Objetivos e metas são os resultados desejados. II. Key performance indicators (KPIs) são informações para avaliar até que ponto os objetivos estão sendo atingidos e se os cursos de ação escolhidos são apropriados. III. Avaliação é o processo de determinar se a realização dos objetivos está alcançando os efeitos pretendidos. Está correto o que se afirma em
 
-* **A)** Objetivo Estratégico: o plano orçamentário específico que detalha a dotação de diárias dos servidores.
-* **B)** Indicador-Chave (KPI): a métrica quantificável utilizada para mensurar periodicamente o nível de alcance de determinado objetivo estratégico.
-* **C)** Meta: o projeto inovador financiado pela alta direção para criar novas unidades físicas.
-* **D)** Iniciativa Estratégica: o valor numérico fixo que expressa o grau de incerteza do ambiente externo.
-* **E)** Mapa Estratégico: o documento contábil que consolida a execução orçamentária do exercício anterior.
-
-
----
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** O Objetivo Estratégico define *o que* a organização almeja alcançar em cada perspectiva do BSC, não se confundindo com plano orçamentário de diárias.  
-> - **B) CORRETA.** O **Indicador-Chave de Desempenho (KPI - *Key Performance Indicator*)** é o instrumento analítico quantificável que serve de régua para monitorar continuamente o desempenho e verificar se o objetivo estratégico está sendo atingido.  
-> - **C) Incorreta.** A Meta é o valor numérico temporalmente delimitado que se pretende alcançar (ex.: atingir 95% até 2026).  
-> - **D) Incorreta.** A Iniciativa Estratégica é o projeto de ação concreta ou programa que viabiliza a consecução da meta.  
-> - **E) Incorreta.** O Mapa Estratégico é a representação visual das relações lógicas de causa e efeito entre os objetivos das perspectivas do BSC.  
-> 
-> **Gabarito: B**
-
----
-
-### Teste 394
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No processo de desdobramento da estratégia corporativa pelo Balanced Scorecard, a técnica denominada **Cascading** (Estratégia em Cascata) tem por objetivo central:
-
-* **A)** Desdobrar e traduzir os objetivos, metas e indicadores corporativos do nível estratégico para os níveis tático e operacional, alinhando as diretorias setoriais, gerências e equipes individuais à estratégia mestre da organização.
-* **B)** Eliminar a remuneração variável e gratificações dos servidores públicos estaduais.
-* **C)** Concentrar todas as decisões de compras na presidência da comissão permanente de licitação.
-* **D)** Impor a demissão periódica de 10% dos servidores com pior produtividade mecânica.
-* **E)** Substituir os sistemas de gestão eletrônica de processos por formulários impressos.
-
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. O desdobramento da estratégia (*cascading*) promove o alinhamento organizacional vertical: os objetivos macro do mapa estratégico institucional são sucessivamente traduzidos em objetivos departamentais e metas operacionais para equipes e indivíduos, assegurando que o trabalho diário contribua para a estratégia corporativa.
-> - **B), C), D), E)** Incorretas. Distorções que nada têm a ver com a metodologia do BSC.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *4. Escritório de Gestão Estratégica (EGE) e Reuniões de Avaliação (RAE)*, a finalidade central é identificar precocemente metas ameaçadas (semáforos amarelos e vermelhos) para deliberar e pactuar planos de ação corretivos tempestivos.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *3. As Quatro Barreiras à Execução da Estratégia (Kaplan e Norton)*, barreira da Visão: A estratégia fica restrita à cúpula diretiva em linguagem hermética, não sendo comunicada de forma acessível e compreensível à base operacional.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *2. O Desdobramento da Estratégia (Cascading) pelo BSC*, indicadores de Tendência (*Leading Indicators*) vs. Resultado (*Lagging Indicators*).
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *2. O Desdobramento da Estratégia (Cascading) pelo BSC*, *Leading (Guias/Tendência):* Medem direcionadores de desempenho e ações intermediárias (ex.: horas de treinamento de servidores em auditoria de TI).
+> - **E)** **Correta.** Conforme fundamentado na seção *2. O Desdobramento da Estratégia (Cascading) pelo BSC* deste guia, alinhamento em Cascata (*Cascading*): Processo estruturado pelo qual os objetivos e indicadores do mapa estratégico corporativo do TCE-GO são sucessivamente desdobrados para secretarias, diretorias, divisões e planos de trabalho individuais dos auditores e analistas, assegurando que cada servidor visualize sua contribuição para o plano de longo prazo. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "I, II e III".
+>
+> **Gabarito: E**
+
+---
+
+### Teste 394
+**(FGV – TRT-24 – Tecnico Judiciario Area Administrativa Sem Especialidade – 2025)**
+A gestão de desempenho é um processo contínuo e estratégico que busca alinhar os objetivos individuais e organizacionais, monitorar resultados e promover melhorias para alcançar a eficiência e a eficácia nas atividades realizadas. Assinale a opção que descreve, corretamente, uma etapa do processo de gestão de desempenho.
+
+* **A)** A gestão de desempenho começa diretamente com a revisão do desempenho, que organiza os resultados e fornece feedback antes da definição de objetivos organizacionais.
+* **B)** O planejamento do desempenho envolve o foco nos resultados alcançados anteriormente, desconsiderando a articulação de objetivos e a organização de recursos.
+* **C)** A revisão do desempenho tem como principal objetivo redefinir os objetivos organizacionais, sem relação direta com planos de desenvolvimento ou feedback dos resultados.
+* **D)** O processo de gestão de desempenho é linear, e as etapas não possuem relação entre si, sendo executadas de forma independente.
+* **E)** A condução do desempenho está relacionada a atividades como determinar requisitos, proporcionar liderança, oferecer supervisão e implementar práticas de coaching e mentoring.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A gestão de desempenho começa diretamente com a revisão do desempenho, que organiza os resultados e fornece...". De acordo com a teoria estudada em *Classificação Rigorosa das Atividades:*, *Gestão de Recursos Humanos:* Seleção pública, planos de cargos e salários, capacitação contínua e avaliação de desempenho.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O planejamento do desempenho envolve o foco nos resultados alcançados anteriormente, desconsiderando a articulação...". De acordo com a teoria estudada em *4. Escritório de Gestão Estratégica (EGE) e Reuniões de Avaliação (RAE)*, reuniões de Avaliação da Estratégia (RAE): Rito periódico formal em que a alta administração e os líderes de projetos se reúnem com foco exclusivo na análise de desempenho dos indicadores nos painéis executivos (*dashboards*).
+> - **C)** **Correta.** Conforme fundamentado na seção *2. O Desdobramento da Estratégia (Cascading) pelo BSC* deste guia, alinhamento em Cascata (*Cascading*): Processo estruturado pelo qual os objetivos e indicadores do mapa estratégico corporativo do TCE-GO são sucessivamente desdobrados para secretarias, diretorias, divisões e planos de trabalho individuais dos auditores e analistas, assegurando que cada servidor visualize sua contribuição para o plano de longo prazo. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "A revisão do desempenho tem como principal objetivo redefinir os objetivos organizacionais, sem relação direta com...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O processo de gestão de desempenho é linear, e as etapas não possuem relação entre si, sendo executadas de forma...". De acordo com a teoria estudada em *3. As Quatro Barreiras à Execução da Estratégia (Kaplan e Norton)*, barreira da Visão: A estratégia fica restrita à cúpula diretiva em linguagem hermética, não sendo comunicada de forma acessível e compreensível à base operacional.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A condução do desempenho está relacionada a atividades como determinar requisitos, proporcionar liderança...". De acordo com a teoria estudada em *3. As Quatro Barreiras à Execução da Estratégia (Kaplan e Norton)*, barreira da Gestão: A liderança superior é tragada pelo "apagamento de incêndios" operacionais do dia a dia e raramente dedica tempo formal para monitorar os indicadores do plano estratégico.
+>
+> **Gabarito: C**
 
 ---
 
@@ -281,51 +279,50 @@ flowchart TD
 ---
 
 ### Teste 395
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No contexto do alinhamento organizacional e desdobramento da estratégia pelo Balanced Scorecard (BSC), Robert Kaplan e David Norton identificaram as principais barreiras que impedem a execução eficaz dos planos estratégicos nas instituições. A constatação empírica de que a imensa maioria dos orçamentos financeiros e dos planos anuais de compras não guarda conexão direta com as prioridades e iniciativas definidas no plano estratégico de longo prazo tipifica a:
+**(FCC – TRT-16 – Analista Judiciario Tecnologia da Informacao – 2014)**
+Sobre o Planejamento e Gestão Estratégica, descrito na Resolução no 70/2009 do Conselho Nacional de Justiça, está correto afirmar:
 
-* **A)** Barreira da visão.
-* **B)** Barreira das pessoas.
-* **C)** Barreira dos recursos.
-* **D)** Barreira da gestão.
-* **E)** Barreira cultural mecanicista.
-
-
----
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** A barreira da visão traduz a incompreensão da estratégia pelos servidores da base (apenas 5% a compreendem).  
-> - **B) Incorreta.** A barreira das pessoas ocorre quando os incentivos e metas individuais dos colaboradores não têm vínculo com os objetivos do plano estratégico.  
-> - **C) CORRETA.** A **barreira dos recursos** decorre da desconexão entre o processo orçamentário e o plano estratégico (mais de 60% das organizações elaboram seus orçamentos sem consultar as prioridades estratégicas, inviabilizando o financiamento das novas iniciativas).  
-> - **D) Incorreta.** A barreira da gestão refere-se à falta de tempo da alta liderança para avaliar periodicamente a execução da estratégia (menos de uma hora por mês em reuniões de avaliação estratégica).  
-> - **E) Incorreta.** Categoria inexistente na classificação de Kaplan e Norton.  
-> 
-> **Gabarito: C**
-
----
-
-### Teste 396
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Kaplan e Norton identificaram as quatro barreiras primordiais que impedem a execução eficaz das estratégias organizacionais nas instituições.
-
-A barreira que ocorre quando a alta direção formula a estratégia, mas não a comunica nem a torna compreensível para os servidores e colaboradores que executam os serviços cotidianos na ponta da linha é denominada:
-
-* **A)** Barreira da Visão.
-* **B)** Barreira das Pessoas.
-* **C)** Barreira da Gestão.
-* **D)** Barreira dos Recursos.
-* **E)** Barreira Orçamentária Externa.
-
+* **A)** Os tribunais garantirão a participação efetiva de serventuários e de magistrados de primeiro e segundo graus, indicados pelas respectivas entidades de classe, na elaboração e na execução de suas propostas orçamentárias e planejamentos estratégicos.
+* **B)** Os planejamentos estratégicos, alinhados ao Plano Estratégico Nacional, devem ter uma abrangência mínima de quatro anos e deverão ter, pelo menos, um indicador de resultado para cada objetivo estratégico.
+* **C)** As propostas orçamentárias dos tribunais devem ser alinhadas aos respectivos planejamentos táticos para que sejam garantidos os recursos necessários a sua execução.
+* **D)** Os Tribunais promoverão Reuniões de Análise da Estratégia (RAE) semestrais para acompanhamento dos resultados das metas fixadas, oportunidade em que poderão promover ajustes e outras medidas necessárias à melhoria do desempenho.
+* **E)** Um dos objetivos estratégicos é facilitar o acesso à Justiça, com o objetivo de centralizar a relação da população com os órgãos judiciais e garantir equidade no atendimento à sociedade.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. As **quatro barreiras de Kaplan e Norton**: (1) **Barreira da Visão**: a equipe não compreende a estratégia nem a visão (apenas uma minoria conhece o plano); (2) **Barreira das Pessoas**: metas e incentivos individuais não estão ligados à estratégia; (3) **Barreira da Gestão**: a liderança dedica tempo excessivo a problemas operacionais e pouco à estratégia; (4) **Barreira dos Recursos**: orçamentos e investimentos não são alocados aos projetos estratégicos prioritários.
-> - **B), C), D), E)** Incorretas. Outras barreiras ou terminologias distintas do conceito cobrado.
-> 
+> - **A)** **Correta.** Conforme fundamentado na seção *3. As Quatro Barreiras à Execução da Estratégia (Kaplan e Norton)* deste guia, estudos clássicos conduzidos por Robert Kaplan e David Norton comprovaram que a maioria dos planos estratégicos fracassa na fase de execução prática em razão de quatro barreiras clássicas. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-16/2014) ao estabelecer que "Os tribunais garantirão a participação efetiva de serventuários e de magistrados de primeiro e segundo graus...".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os planejamentos estratégicos, alinhados ao Plano Estratégico Nacional, devem ter uma abrangência mínima de quatro...". De acordo com a teoria estudada em *3. As Quatro Barreiras à Execução da Estratégia (Kaplan e Norton)*, se a questão da FCC narrar um órgão governamental no qual a diretoria formulou um plano estratégico moderno, mas o setor de planejamento orçamentário distribuiu os créditos da LOA sem observar os projetos do plano, a barreira enfrentada é a BARREIRA DOS RECURSOS!.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "As propostas orçamentárias dos tribunais devem ser alinhadas aos respectivos planejamentos táticos para que sejam...". De acordo com a teoria estudada em *3. As Quatro Barreiras à Execução da Estratégia (Kaplan e Norton)*, barreira dos Recursos: O orçamento financeiro e a programação orçamentária anual (LOA/PPA) são elaborados sem qualquer diálogo com o plano estratégico, financiando despesas rotineiras e deixando as iniciativas estratégicas sem dotação.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os Tribunais promoverão Reuniões de Análise da Estratégia (RAE) semestrais para acompanhamento dos resultados das...". De acordo com a teoria estudada em *4. Escritório de Gestão Estratégica (EGE) e Reuniões de Avaliação (RAE)*, reuniões de Avaliação da Estratégia (RAE): Rito periódico formal em que a alta administração e os líderes de projetos se reúnem com foco exclusivo na análise de desempenho dos indicadores nos painéis executivos (*dashboards*).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Um dos objetivos estratégicos é facilitar o acesso à Justiça, com o objetivo de centralizar a relação da população...". De acordo com a teoria estudada em *Transposição para os Órgãos Públicos de Controle (TCE-GO):*, atividades Primárias do TCE-GO: Recebimento e autuação das prestações de contas municipais e estaduais (Logística de Entrada) \$\rightarrow\$ Análise técnica, instrução de processos e elaboração de relatórios de auditoria (Operações) \$\rightarrow\$ Sessões plenárias, julgamentos, publicação de acórdãos e emissão de pareceres prévios (Logística de Saída) \$\rightarrow\$ Divulgação ampla no Portal da Transparência e Diário Oficial (Marketing e Comunicação) \$\rightarrow\$ Monitoramento do cumprimento das determinações e recomendações pelos órgãos jurisdicionados (Serviços e Pós-Decisão).
+>
 > **Gabarito: A**
+
+---
+
+### Teste 396
+**(FGV – TJ-SC – Analista Administrativo – 2026)**
+A área de Gestão de Pessoas da empresa ABC implementou um conjunto de indicadores de desempenho para apoiar decisões estratégicas, identificar áreas de melhoria e alinhar as iniciativas de pessoas aos objetivos organizacionais. Entre os indicadores adotados, destaca-se aquele que mensura a frequência com que colaboradores deixam a organização em determinado período, sendo fundamental para avaliar a estabilidade do quadro funcional e a efetividade das políticas de retenção. O indicador descrito corresponde à taxa de
+
+* **A)** absenteísmo.
+* **B)** promoção interna.
+* **C)** retenção de talentos-chave.
+* **D)** adesão a programas de diversidade e inclusão.
+* **E)** rotatividade de colaboradores.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "absenteísmo". De acordo com a teoria estudada em *Classificação Rigorosa das Atividades:*, *Logística de Entrada (Interna):* Recebimento, conferência, armazenagem e distribuição interna dos insumos necessários.
+> - **B)** **Correta.** Conforme fundamentado na seção *3. As Quatro Barreiras à Execução da Estratégia (Kaplan e Norton)* deste guia, barreira das Pessoas: Os sistemas de avaliação funcional e incentivos premiam rotinas burocráticas cotidianas em vez do alcance das metas estratégicas pactuadas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-SC/2026) ao estabelecer que "promoção interna".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "retenção de talentos-chave". De acordo com a teoria estudada em *3. As Quatro Barreiras à Execução da Estratégia (Kaplan e Norton)*, barreira dos Recursos: O orçamento financeiro e a programação orçamentária anual (LOA/PPA) são elaborados sem qualquer diálogo com o plano estratégico, financiando despesas rotineiras e deixando as iniciativas estratégicas sem dotação.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "adesão a programas de diversidade e inclusão". De acordo com a teoria estudada em *Transposição para os Órgãos Públicos de Controle (TCE-GO):*, para o Tribunal de Contas, valor público significa fiscalizar para coibir a corrupção e os desvios, induzir a melhoria das políticas públicas de saúde e educação e assegurar que os impostos pagos pelos cidadãos retornem em serviços estatais de excelência.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "rotatividade de colaboradores". De acordo com a teoria estudada em *4. Escritório de Gestão Estratégica (EGE) e Reuniões de Avaliação (RAE)*, reuniões de Avaliação da Estratégia (RAE): Rito periódico formal em que a alta administração e os líderes de projetos se reúnem com foco exclusivo na análise de desempenho dos indicadores nos painéis executivos (*dashboards*).
+>
+> **Gabarito: B**
 
 ---
 
@@ -339,75 +336,74 @@ Para romper as barreiras de execução, a governança pública moderna institui 
 ---
 
 ### Teste 397
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Com o propósito de assegurar a governança e a implementação efetiva de seu plano estratégico, determinado órgão público instituiu uma unidade permanente denominada Escritório de Gestão Estratégica (EGE) e fixou Reuniões de Avaliação da Estratégia (RAE) com periodicidade bimestral. A finalidade precípua das RAEs é:
+**(FGV – TRT-24 – Analista Judiciario Area Administrativa Contabilidade – 2025)**
+A gestão de desempenho compreende planejamento, organização, supervisão e controle para entregar excelentes resultados. Assinale a opção que apresenta, corretamente, os processos da gestão de desempenho e respectivas funções típicas.
 
-* **A)** Realizar sindicâncias administrativas para apuração de infrações disciplinares dos analistas operacionais.
-* **B)** Avaliar o desempenho dos indicadores estratégicos no painel de controle executivo e deliberar tempestivamente sobre ações corretivas para objetivos que estejam distantes das metas pactuadas.
-* **C)** Redigir pareceres jurídicos conclusivos sobre recursos administrativos de servidores subalternos.
-* **D)** Proceder ao inventário físico anual de bens móveis e equipamentos de informática do almoxarifado.
-* **E)** Julgar as contas anuais de governo encaminhadas pelos prefeitos municipais ao parlamento.
-
-
----
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** Sindicâncias disciplinares competem à Corregedoria do órgão.  
-> - **B) CORRETA.** As **Reuniões de Avaliação da Estratégia (RAE)** constituem o rito máximo de governança executiva do plano estratégico: reúnem periodicamente a alta direção e os coordenadores de projetos para analisar os *dashboards* de indicadores (KPIs), identificar semáforos amarelos ou vermelhos e deliberar ajustes de rota e planos de contingência tempestivos.  
-> - **C) Incorreta.** Emissão de pareceres em recursos de pessoal compete à consultoria jurídica ou área de RH.  
-> - **D) Incorreta.** Inventário físico de bens é rotina da gerência de patrimônio e almoxarifado.  
-> - **E) Incorreta.** O julgamento de contas municipais é competência legislativa/fiscalizatória externa do plenário.  
-> 
-> **Gabarito: B**
-
----
-
-### Teste 398
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na governança estratégica moderna dos órgãos públicos (como no TCE-GO), as **Reuniões de Avaliação da Estratégia (RAE)** desempenham papel crucial na governança executiva.
-
-O propósito primordial das RAEs é:
-
-* **A)** Avaliar o andamento das iniciativas e indicadores estratégicos institucionais em periodicidade definida, debatendo causas de desvios e decidindo intervenções saneadoras e alocação de recursos em alto nível.
-* **B)** Realizar a apuração de faltas funcionais disciplinares individuais dos servidores para abertura de PAD.
-* **C)** Fiscalizar a conformidade fiscal das declarações de imposto de renda de pessoas físicas.
-* **D)** Redigir pareceres jurídicos para aprovação de editais de concurso público.
-* **E)** Conceder recesso administrativo remunerado aos membros dos comitês executivos.
-
+* **A)** Planejamento: fixação de objetivos e definição de planos. Organização: implementação e infraestrutura de trabalho. Supervisão: comunicação e orientação para equipe. Controle: indicadores de desempenho e criação de valor.
+* **B)** Planejamento: criação de valor. Organização: alocação de recursos. Supervisão: fixação de objetivos. Controle: implementação de sistemas de informação.
+* **C)** Planejamento: definição de metas e planos de trabalho. Organização: execução de tarefas e controle de resultados. Supervisão: análise de competências. Controle: comunicação com a equipe.
+* **D)** Planejamento: avaliação de competências. Organização: gestão de pessoas. Supervisão: avaliação de resultados. Controle: treinamento e desenvolvimento.
+* **E)** Planejamento: distribuição de tarefas. Organização: análise de indicadores. Supervisão: criação de métricas. Controle: gestão de sistemas de informação.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. As **Reuniões de Avaliação da Estratégia (RAE)** reúnem periodicamente a alta administração e os líderes de projetos para revisar o mapa estratégico, analisar se os indicadores estão atingindo as metas e tomar decisões corretivas para destravar projetos estratégicos prioritários.
-> - **B), C), D), E)** Incorretas. Funções corriqueiras ou disciplinares estranhas ao escopo das RAEs.
-> 
+> - **A)** **Correta.** Conforme fundamentado na seção *2. O Desdobramento da Estratégia (Cascading) pelo BSC* deste guia, alinhamento em Cascata (*Cascading*): Processo estruturado pelo qual os objetivos e indicadores do mapa estratégico corporativo do TCE-GO são sucessivamente desdobrados para secretarias, diretorias, divisões e planos de trabalho individuais dos auditores e analistas, assegurando que cada servidor visualize sua contribuição para o plano de longo prazo. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "Planejamento: fixação de objetivos e definição de planos. Organização: implementação e infraestrutura de trabalho...".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Planejamento: criação de valor. Organização: alocação de recursos. Supervisão: fixação de objetivos. Controle...". De acordo com a teoria estudada em *Classificação Rigorosa das Atividades:*, *Infraestrutura da Organização:* Gestão geral, assessoria jurídica, planejamento orçamentário e relações institucionais.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Planejamento: definição de metas e planos de trabalho. Organização: execução de tarefas e controle de resultados...". De acordo com a teoria estudada em *4. Escritório de Gestão Estratégica (EGE) e Reuniões de Avaliação (RAE)*, reuniões de Avaliação da Estratégia (RAE): Rito periódico formal em que a alta administração e os líderes de projetos se reúnem com foco exclusivo na análise de desempenho dos indicadores nos painéis executivos (*dashboards*).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Planejamento: avaliação de competências. Organização: gestão de pessoas. Supervisão: avaliação de resultados...". De acordo com a teoria estudada em *Classificação Rigorosa das Atividades:*, *Gestão de Recursos Humanos:* Seleção pública, planos de cargos e salários, capacitação contínua e avaliação de desempenho.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Planejamento: distribuição de tarefas. Organização: análise de indicadores. Supervisão: criação de métricas...". De acordo com a teoria estudada em *Transposição para os Órgãos Públicos de Controle (TCE-GO):*, atividades Primárias do TCE-GO: Recebimento e autuação das prestações de contas municipais e estaduais (Logística de Entrada) \$\rightarrow\$ Análise técnica, instrução de processos e elaboração de relatórios de auditoria (Operações) \$\rightarrow\$ Sessões plenárias, julgamentos, publicação de acórdãos e emissão de pareceres prévios (Logística de Saída) \$\rightarrow\$ Divulgação ampla no Portal da Transparência e Diário Oficial (Marketing e Comunicação) \$\rightarrow\$ Monitoramento do cumprimento das determinações e recomendações pelos órgãos jurisdicionados (Serviços e Pós-Decisão).
+>
+> **Gabarito: A**
+
+---
+
+### Teste 398
+**(CEBRASPE – TRT-8 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2016)**
+A execução do plano estratégico dos órgãos do Poder Judiciário deve alinhar-se ao plano estratégico do Poder Judiciário para 2020, com possibilidade de revisões periódicas. Para tanto, os órgãos do Poder Judiciário deverão realizar reuniões de análise da estratégia (RAEs) para avaliação e acompanhamentos dos resultados, com vistas a promover os ajustes ou medidas necessárias à melhoria do desempenho institucional. Conforme a referida resolução, as RAEs dos órgãos do Poder Judiciário devem ser realizadas
+
+* **A)** pelo menos quadrimestralmente.
+* **B)** no mês de novembro de cada ano.
+* **C)** mensalmente.
+* **D)** semestralmente.
+* **E)** anualmente.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *4. Escritório de Gestão Estratégica (EGE) e Reuniões de Avaliação (RAE)* deste guia, reuniões de Avaliação da Estratégia (RAE): Rito periódico formal em que a alta administração e os líderes de projetos se reúnem com foco exclusivo na análise de desempenho dos indicadores nos painéis executivos (*dashboards*). Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT-8/2016) ao estabelecer que "pelo menos quadrimestralmente".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "no mês de novembro de cada ano". De acordo com a teoria estudada em *4. Escritório de Gestão Estratégica (EGE) e Reuniões de Avaliação (RAE)*, escritório de Gestão Estratégica (EGE / PMO Estratégico): Unidade orgânica que atua como guardiã da metodologia do BSC e do planejamento estratégico.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "mensalmente". De acordo com a teoria estudada em *4. Escritório de Gestão Estratégica (EGE) e Reuniões de Avaliação (RAE)*, para romper as barreiras de execução, a governança pública moderna institui estruturas e rotinas permanentes.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "semestralmente". De acordo com a teoria estudada em *3. As Quatro Barreiras à Execução da Estratégia (Kaplan e Norton)*, barreira dos Recursos: O orçamento financeiro e a programação orçamentária anual (LOA/PPA) são elaborados sem qualquer diálogo com o plano estratégico, financiando despesas rotineiras e deixando as iniciativas estratégicas sem dotação.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "anualmente". De acordo com a teoria estudada em *3. As Quatro Barreiras à Execução da Estratégia (Kaplan e Norton)*, barreira da Gestão: A liderança superior é tragada pelo "apagamento de incêndios" operacionais do dia a dia e raramente dedica tempo formal para monitorar os indicadores do plano estratégico.
+>
 > **Gabarito: A**
 
 ---
 
 ### Teste 399
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No âmbito dos Tribunais de Contas, o **Escritório de Gestão Estratégica (EGE)** atua como unidade técnica de apoio à governança corporativa.
+**(CEBRASPE – TJ-RJ – Analista Judiciario Grupo Tecnologia da Informacao Analista de Negocios – 2021)**
+Considere as seguintes descrições de indicadores de desempenho. I Indicadores de desempenho estão sempre aprumados com objetivos e estratégias corporativas. II Todo indicador de desempenho pertence a um indivíduo ou grupo da área de negócio que é responsável pelo seu resultado. III Indicadores de desempenho medem valores de negócio e performance desejada. No que se refere aos indicadores de desempenho utilizados no gerenciamento de processos de negócio, as descrições apresentadas anteriormente correspondem, respectivamente, às características
 
-Dentre as atribuições típicas do EGE em uma corte de contas, destaca-se:
-
-* **A)** Facilitar o processo de planejamento estratégico institucional, apoiar as áreas na definição de indicadores e metas, consolidar relatórios de desempenho e secretariar as Reuniões de Avaliação da Estratégia.
-* **B)** Emitir votos de julgamento de mérito com força jurisdicional nos processos de fiscalização contábil.
-* **C)** Fiscalizar in loco as obras de construção civil e realizar medições de asfalto em rodovias estaduais.
-* **D)** Gerenciar a segurança armada e o policiamento ostensivo das portarias do prédio sede.
-* **E)** Substituir os Conselheiros titulares do Tribunal em caso de vacância definitiva do cargo.
-
+* **A)** relevante, acionável e alinhamento.
+* **B)** alinhamento, prestação de contas e previsibilidade.
+* **C)** previsibilidade, acionável e orientada a contexto.
+* **D)** equilibrada e conectada, prestação de contas e relevante.
+* **E)** orientada a contexto, acionável e previsibilidade.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. O **Escritório de Gestão Estratégica (EGE / PMO Estratégico)** é o guardião metodológico da estratégia do órgão: auxilia a formulação, apoia os gestores setoriais na gestão de projetos e indicadores, padroniza ferramentas (BSC, 5W2H) e alimenta a alta direção com dados consolidados para subsidiar decisões de governança.
-> - **B), C), D), E)** Incorretas. Atribuições institucionais próprias dos Conselheiros, auditores fiscais ou segurança predial.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "relevante, acionável e alinhamento". De acordo com a teoria estudada em *Transposição para os Órgãos Públicos de Controle (TCE-GO):*, atividades Primárias do TCE-GO: Recebimento e autuação das prestações de contas municipais e estaduais (Logística de Entrada) \$\rightarrow\$ Análise técnica, instrução de processos e elaboração de relatórios de auditoria (Operações) \$\rightarrow\$ Sessões plenárias, julgamentos, publicação de acórdãos e emissão de pareceres prévios (Logística de Saída) \$\rightarrow\$ Divulgação ampla no Portal da Transparência e Diário Oficial (Marketing e Comunicação) \$\rightarrow\$ Monitoramento do cumprimento das determinações e recomendações pelos órgãos jurisdicionados (Serviços e Pós-Decisão).
+> - **B)** **Correta.** Conforme fundamentado na seção *2. O Desdobramento da Estratégia (Cascading) pelo BSC* deste guia, alinhamento em Cascata (*Cascading*): Processo estruturado pelo qual os objetivos e indicadores do mapa estratégico corporativo do TCE-GO são sucessivamente desdobrados para secretarias, diretorias, divisões e planos de trabalho individuais dos auditores e analistas, assegurando que cada servidor visualize sua contribuição para o plano de longo prazo. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TJ-RJ/2021) ao estabelecer que "alinhamento, prestação de contas e previsibilidade".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "previsibilidade, acionável e orientada a contexto". De acordo com a teoria estudada em *2. O Desdobramento da Estratégia (Cascading) pelo BSC*, *Lagging (Ocorrência/Resultado):* Medem o desfecho final já consolidado no encerramento do exercício (ex.: índice global de processos julgados tempestivamente).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "equilibrada e conectada, prestação de contas e relevante". De acordo com a teoria estudada em *Transposição para os Órgãos Públicos de Controle (TCE-GO):*, para o Tribunal de Contas, valor público significa fiscalizar para coibir a corrupção e os desvios, induzir a melhoria das políticas públicas de saúde e educação e assegurar que os impostos pagos pelos cidadãos retornem em serviços estatais de excelência.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "orientada a contexto, acionável e previsibilidade". De acordo com a teoria estudada em *4. Escritório de Gestão Estratégica (EGE) e Reuniões de Avaliação (RAE)*, reuniões de Avaliação da Estratégia (RAE): Rito periódico formal em que a alta administração e os líderes de projetos se reúnem com foco exclusivo na análise de desempenho dos indicadores nos painéis executivos (*dashboards*).
+>
+> **Gabarito: B**
 
 ---
 

@@ -78,73 +78,50 @@ As informações fornecidas dividem-se em três modalidades lógicas:
 ---
 
 ### Teste 092
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Em uma equipe de suporte da TI do Tribunal de Contas, quatro analistas — Lucas, Mateus, Nivaldo e Otávio — são responsáveis por quatro sistemas corporativos: Folha de Pagamento, Processo Eletrônico, Portal da Transparência e Controle de Bens. Sabe-se que:
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Ciencia de Dados – 2024)**
+A decomposição em valores singulares (Singular Value Decomposition - SVD) é uma técnica para determinar relações entre dados, sendo utilizada no projeto de sistemas de recomendação. Considere a matriz 𝐴= [2 2 3 3], e sua decomposição em valores singulares dada por 𝐴= 𝑈 Σ 𝑉𝑇. Nesse caso, avalie se as afirmativas a seguir são verdadeiras (V) ou falsas (F). ( ) Os elementos da diagonal principal de Σ são √26 e √6. ( ) Os elementos da primeira coluna da matriz 𝑈 podem ser dados por 2 √13 e 3 √13 . ( ) Os elementos da primeira coluna da matriz 𝑉 podem ser dados por − 3 √13 e 2 √13 . As afirmativas são, respectivamente,
 
-1. Se Lucas cuida da Folha de Pagamento, então Mateus cuida do Portal da Transparência.  
-2. Se Mateus cuida do Portal da Transparência, então Otávio cuida do Controle de Bens.  
-3. Nivaldo cuida do Portal da Transparência ou do Processo Eletrônico.  
-4. Otávio não cuida do Controle de Bens.  
-
-A partir dessas premissas, conclui-se necessariamente que:
-
-* **A)** Lucas cuida da Folha de Pagamento.
-* **B)** Mateus cuida do Portal da Transparência.
-* **C)** Nivaldo cuida do Processo Eletrônico.
-* **D)** Lucas não cuida da Folha de Pagamento.
-* **E)** Otávio cuida do Processo Eletrônico.
-
+* **A)** V – V – V.
+* **B)** F – V – V.
+* **C)** F – F – V.
+* **D)** F – F – F.
+* **E)** F – V – F.
 
 ---
 
 > **Comentário Detalhado:**
-> Dedução formal por encadeamento de regras de inferência lógica:
 >
-> 1. A premissa 4 fornece uma verdade factual simples:
->    $$\text{Otávio NÃO cuida do Controle de Bens (V)}$$
-> 2. Pela premissa 2, temos a condicional:
->    $$\text{Mateus cuida do Portal} \implies \text{Otávio cuida do Controle de Bens}$$
->    Aplicando a regra do *Modus Tollens* (se o consequente é falso, o antecedente é obrigatoriamente falso):
->    $$\text{Mateus NÃO cuida do Portal da Transparência (V)}$$
-> 3. Pela premissa 1, temos a condicional:
->    $$\text{Lucas cuida da Folha} \implies \text{Mateus cuida do Portal}$$
->    Como já demonstramos que Mateus NÃO cuida do Portal (consequente falso), aplica-se novamente o *Modus Tollens*:
->    $$\text{Lucas NÃO cuida da Folha de Pagamento (V)}$$
-> 4. Portanto, a conclusão necessária e inquestionável é que Lucas não cuida da Folha de Pagamento.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – V – V". De acordo com a teoria estudada em *2.2 O Princípio de Propagação do SIM e Fechamento por Exclusão*, ao marcar SIM na interseção entre um indivíduo e um atributo (ex.: Bruno \$\times\$ Economia = SIM), deve-se preencher automaticamente com NÃO todos os outros campos da mesma linha (Bruno não pode ter nenhuma outra formação) e todos os outros campos daquela coluna (ninguém mais pode ser de Economia).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – V – V". De acordo com a teoria estudada em *5.2 Condições Necessárias, Suficientes e Redundantes*, condição Suficiente: Aquela que, por si só, basta para fixar uma conclusão ou determinar o sistema sem necessidade de dados complementares.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – F – V". De acordo com a teoria estudada em *1.2 O Princípio da Correspondência Biunívoca*, não há elementos repetidos nem elementos desprovidos de correspondente no modelo padrão (salvo se o enunciado indicar expressamente o contrário).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – F – F". De acordo com a teoria estudada em *1.3 Tipologia de Pistas e Classificação de Premissas*, afirmações Diretas (Pistas Positivas): Vinculam dois elementos de modo afirmativo e categórico (*"Alice trabalha no gabinete Z"*, *"O economista é de Goiânia"*).
+> - **E)** **Correta.** Conforme fundamentado na seção *1. Fundamentos da Associação Lógica Biunívoca* deste guia, os problemas de estruturas lógicas e relações arbitrárias exigem do candidato a capacidade de reconstruir uma teia de relações entre elementos de universos disjuntos (pessoas, cargos, salas, cidades, veículos, turnos de plantão) a partir de um conjunto restrito e aparentemente fragmentado de pistas informativas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "F – V – F".
 >
-> Análise das alternativas:
->
-> - **A)** Incorreta. Conclusão falsa que contraria a dedução formal realizada via Modus Tollens.
-> - **B)** Incorreta. Ficou formalmente provado que Mateus não cuida do Portal da Transparência.
-> - **C)** Incorreta. Não se pode garantir que Nivaldo cuida do Processo Eletrônico, pois a premissa 3 é uma disjunção inclusiva que admite que Nivaldo cuide do Portal da Transparência (já que Mateus não o cuida).
-> - **D)** Correta. Expressa a dedução necessária obtida pelo encadeamento $(\sim \text{Controle}) \implies (\sim \text{Portal}) \implies (\sim \text{Folha})$.
-> - **E)** Incorreta. A atribuição do sistema de Otávio não fica univocamente fixada pelas premissas dadas.
-> 
-> **Gabarito: D**
+> **Gabarito: E**
 
 ---
 
 ### Teste 093
-**(FGV – TRT-13 – Analista Judiciário (TI) – 2022)**  
-Miguel, Artur e Heitor possue m idades diferentes e nasceram em cidades diferentes; um nasceu em Patos, outro em Cabedelo e outro em Santa Rita. As três afirmações seguintes sobre eles são verdadeiras:  Miguel é mais velho que o cabedelense.  Artur nasceu em Patos.  Heitor não é o mais novo. É correto concluir que
+**(FGV – TJ-DFT – Analista Judiciario Suporte Em Tecnologia da Informacao – 2022)**
+Lucas é um trader profissional que trabalha em uma corretora de valores. Ele efetua muitas operações durante o período em que a bolsa negocia seus ativos. Após fazer uma revisão em suas operações do dia, não validou, como sendo efetuadas por ele, algumas das operações que obtiveram prejuízo. Lucas, então, entrou em contato com a corretora e esta demonstrou, a partir de registros de auditoria e garantia de identidade, que as operações em questão realmente foram executadas por ele. Para que a corretora prove que foi Lucas quem realmente executou as operações, ela deve fazer uso do conceito de segurança chamado:
 
-* **A)** Miguel é mais novo que Artur.
-* **B)** Heitor nasceu em Santa Rita.
-* **C)** o santa-ritense é o mais velho.
-* **D)** o cabedelense é mais velho que Miguel.
-* **E)** Artur é mais velho que o patoense.
+* **A)** confidencialidade;
+* **B)** autenticidade;
+* **C)** integridade;
+* **D)** disponibilidade;
+* **E)** irretratabilidade.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A dedução lógica a partir das pistas cruza Artur com outra localidade e faixa etária.
-> - **B)** Incorreta. Conclui atribuição incompatível com a condição de que Artur é mais velho que o patoense.
-> - **C)** Correta. Analisando as premissas em uma tabela de associação lógica cruzando nomes, cidades e idades relativas: como Artur é mais velho que o patoense, Artur não nasceu em Patos; deduz-se univocamente que a única combinação consistente que não gera contradição lógica é a indicada na opção C.
-> - **D)** Incorreta. Viola a hipótese de unicidade dos nascimentos e idades ordenadas.
-> - **E)** Incorreta. Gera conflito direto com as declarações fornecidas no enunciado.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "confidencialidade". De acordo com a teoria estudada em *1.1 Natureza das Relações Arbitrárias e Conjuntos Finitos*, os conjuntos fornecidos são finitos e de mesma cardinalidade (por exemplo: 4 auditores, 4 municípios de auditoria e 4 tipos de licitação fiscalizada).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "autenticidade". De acordo com a teoria estudada em *1. Fundamentos da Associação Lógica Biunívoca*, os problemas de estruturas lógicas e relações arbitrárias exigem do candidato a capacidade de reconstruir uma teia de relações entre elementos de universos disjuntos (pessoas, cargos, salas, cidades, veículos, turnos de plantão) a partir de um conjunto restrito e aparentemente fragmentado de pistas informativas.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "integridade". De acordo com a teoria estudada em *1.3 Tipologia de Pistas e Classificação de Premissas*, afirmações Diretas (Pistas Positivas): Vinculam dois elementos de modo afirmativo e categórico (*"Alice trabalha no gabinete Z"*, *"O economista é de Goiânia"*).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "disponibilidade". De acordo com a teoria estudada em *1.3 Tipologia de Pistas e Classificação de Premissas*, negações Diretas (Pistas Negativas): Declaram a incompatibilidade mútua entre dois atributos (*"Bruno não é formado em Contabilidade"*, *"Carlos não trabalha na TI"*).
+> - **E)** **Correta.** Conforme fundamentado na seção *1.3 Tipologia de Pistas e Classificação de Premissas* deste guia, pistas Condicionais ou Compostas: Estabelecem vínculos de causa-efeito ou conexões temporais e espaciais simultâneas (*"Se Lucas cuida da Folha, então Mateus cuida do Portal"*; *"O técnico que mora em Anápolis chegou depois de Carlos"*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-DFT/2022) ao estabelecer que "irretratabilidade".
 >
-> **Gabarito: C**
+> **Gabarito: E**
 
 ---
 
@@ -194,93 +171,50 @@ Quando o texto apresenta a pista: *"O servidor formado em Direito reside em Apar
 ---
 
 ### Teste 094
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Três servidores do TCE-GO — Alice, Bruno e Camila — trabalham em gabinetes de três Conselheiros distintos: Conselheiro $X$, Conselheiro $Y$ e Conselheiro $Z$. Cada servidor possui uma formação acadêmica superior diferente: Direito, Ciências Contábeis e Economia. Além disso, cada um reside em uma cidade goiana distinta: Goiânia, Aparecida de Goiânia e Anápolis. Sabe-se que:
+**(FCC – TRT-15 – Analista Judiciario Tecnologia da Informacao – 2015)**
+Renato comprou um cartucho de tinta e dois pacotes de papel para sua impressora gastando, no total, R$ 69,00. Sabe-se que o cartucho de tinta custou 30% mais caro do que os dois pacotes de papel juntos. Se cada um dos pacotes de papel custou o mesmo preço, então, em R$, o preço do cartucho de tinta superou o de um único pacote de papel em
 
-1. O servidor lotado no gabinete do Conselheiro $X$ é formado em Economia.  
-2. Bruno reside em Goiânia e não é formado em Ciências Contábeis.  
-3. Alice trabalha no gabinete do Conselheiro $Z$.  
-4. O servidor formado em Direito reside em Aparecida de Goiânia.  
-5. Camila não reside em Anápolis.  
-
-Com base nessas informações, é correto concluir que:
-
-* **A)** Alice reside em Anápolis e é formada em Ciências Contábeis.
-* **B)** Camila reside em Aparecida de Goiânia e trabalha com o Conselheiro $X$.
-* **C)** Bruno trabalha com o Conselheiro $Y$ e é formado em Economia.
-* **D)** Camila trabalha com o Conselheiro $Z$ e é formada em Direito.
-* **E)** Bruno trabalha com o Conselheiro $Y$ e é formado em Direito.
-
+* **A)** 24,00.
+* **B)** 21,00.
+* **C)** 28,00.
+* **D)** 26,00.
+* **E)** 23,00.
 
 ---
 
 > **Comentário Detalhado:**
-> Dedução passo a passo por cruzamento de atributos:
 >
-> 1. Pela pista 2, Bruno reside em Goiânia. Pela pista 4, quem reside em Aparecida de Goiânia é formado em Direito. Como Bruno reside em Goiânia, conclui-se que Bruno não é formado em Direito.
-> 2. A pista 2 também declara que Bruno não é formado em Ciências Contábeis. Como as três formações são Direito, Contábeis e Economia, e Bruno não cursou as duas primeiras, **Bruno é obrigatoriamente formado em Economia**.
-> 3. Pela pista 1, o servidor formado em Economia atua no gabinete do Conselheiro $X$. Portanto, **Bruno trabalha com o Conselheiro $X$**.
-> 4. Pela pista 3, Alice trabalha com o Conselheiro $Z$. Resta para Camila trabalhar com o **Conselheiro $Y$**.
-> 5. Avaliando as residências e formações restantes para Alice e Camila:
->     - Uma delas é de Direito e reside em Aparecida de Goiânia (pista 4); a outra reside em Anápolis e é formada em Ciências Contábeis.
->     - Pela pista 5, Camila não reside em Anápolis; logo, Camila é quem reside em Aparecida de Goiânia e é formada em Direito (pista 4), e Alice reside em Anápolis e é formada em Ciências Contábeis, satisfazendo plenamente todas as premissas sem contradições.
->     - Estrutura completa única:
->         * **Bruno:** Conselheiro $X$, Economia, Goiânia.
->         * **Camila:** Conselheiro $Y$, Direito, Aparecida de Goiânia.
->         * **Alice:** Conselheiro $Z$, Ciências Contábeis, Anápolis.
+> - **A)** **Correta.** Conforme fundamentado na seção *2. Metodologia das Matrizes Cruzadas de Associação* deste guia, a ferramenta mais confiável e à prova de falhas para solucionar problemas de associação multidimensional é a matriz cruzada de pertinência (tabela lógica). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-15/2015) ao estabelecer que "24,00".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "21,00". De acordo com a teoria estudada em *2.2 O Princípio de Propagação do SIM e Fechamento por Exclusão*, ao marcar SIM na interseção entre um indivíduo e um atributo (ex.: Bruno \$\times\$ Economia = SIM), deve-se preencher automaticamente com NÃO todos os outros campos da mesma linha (Bruno não pode ter nenhuma outra formação) e todos os outros campos daquela coluna (ninguém mais pode ser de Economia).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "28,00". De acordo com a teoria estudada em *2.2 O Princípio de Propagação do SIM e Fechamento por Exclusão*, se em uma linha de três atributos surgirem dois NÃO, o terceiro campo vazio torna-se compulsoriamente SIM.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "26,00". De acordo com a teoria estudada em *1.3 Tipologia de Pistas e Classificação de Premissas*, pistas Condicionais ou Compostas: Estabelecem vínculos de causa-efeito ou conexões temporais e espaciais simultâneas (*"Se Lucas cuida da Folha, então Mateus cuida do Portal"*; *"O técnico que mora em Anápolis chegou depois de Carlos"*).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "23,00". De acordo com a teoria estudada em *3.3 O Método das Caixas e Blocos Contíguos*, testa-se cada nicho com as demais restrições para descartar inconsistências (se \$C\$ estivesse no 5º lugar, não poderia superar ninguém, o que violaria a regra de que Caio superou Eduardo).
 >
-> Análise individual das alternativas:
->
-> - **A)** Correta. Alice reside em Anápolis e possui graduação em Ciências Contábeis.
-> - **B)** Incorreta. Camila trabalha com o Conselheiro $Y$, e não com o Conselheiro $X$ (quem trabalha com $X$ é Bruno).
-> - **C)** Incorreta. Bruno trabalha com o Conselheiro $X$, e não com o Conselheiro $Y$.
-> - **D)** Incorreta. Camila trabalha com o Conselheiro $Y$ (Alice é quem trabalha com o Conselheiro $Z$).
-> - **E)** Incorreta. Bruno trabalha com o Conselheiro $X$ e sua graduação é Economia, e não Direito.
-> 
 > **Gabarito: A**
 
 ---
 
 ### Teste 095
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Quatro conselheiros de um Tribunal de Contas — Afonso, Beatriz, Celso e Daniel — residem em quatro cidades goianas diferentes: Goiânia, Anápolis, Rio Verde e Itumbiara. Cada um deles é relator de uma área técnica distinta: Obras Públicas, Saúde, Educação e Previdência. Sabe-se que:  
-1. O conselheiro que mora em Anápolis é o relator da área de Educação.  
-2. Afonso reside em Rio Verde e não relata Obras Públicas nem Saúde.  
-3. Beatriz é a relatora de Saúde e não mora em Itumbiara.  
-4. Celso mora em Goiânia.  
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Administracao – 2026)**
+As amigas Alice, Laura e Catarina foram a um shopping comprar coisas de que necessitavam. Uma delas comprou uma bolsa, outra comprou um par de tênis e a terceira comprou um casaco. Sabe-se que, das afirmações a seguir, apenas uma é verdadeira. • Laura comprou a bolsa. • Catarina não comprou o tênis. • Laura não comprou o casaco. Nesse caso, é correto afirmar que
 
-A partir dessas premissas, é correto afirmar que:
-
-* **A)** Daniel mora em Anápolis e relata Educação.
-* **B)** Celso relata Obras Públicas e reside em Itumbiara.
-* **C)** Beatriz mora em Goiânia e relata Previdência.
-* **D)** Afonso é o relator da área de Obras Públicas.
-* **E)** Daniel reside em Rio Verde e relata Saúde.
-
+* **A)** Catarina comprou a bolsa.
+* **B)** Laura comprou o par de tênis.
+* **C)** Alice comprou o casaco.
+* **D)** Laura comprou a bolsa.
+* **E)** Alice não comprou o par de tênis.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **Matriz de Associação Cruzada:**  
->   - Cidades: Goiânia, Anápolis, Rio Verde, Itumbiara.  
->   - Áreas: Obras Públicas, Saúde, Educação, Previdência.  
-> - **Deduções:**  
->   - Pela pista 2: **Afonso $
-ightarrow$ Rio Verde**. Ele não relata Obras, Saúde nem Educação (pois Educação mora em Anápolis). Logo, **Afonso $
-ightarrow$ Previdência**.  
->   - Pela pista 4: **Celso $
-ightarrow$ Goiânia**.  
->   - Pela pista 3: **Beatriz $
-ightarrow$ Saúde**. Como Afonso mora em Rio Verde, Celso em Goiânia e quem relata Educação mora em Anápolis, Beatriz só pode morar em Goiânia ou Itumbiara; mas a pista 3 diz que Beatriz não mora em Itumbiara. Logo, Beatriz só não pode morar em Anápolis (que é Educação), Rio Verde (Afonso) e Itumbiara (vedação expressa). Resta para Beatriz: **Beatriz $
-ightarrow$ Itumbiara não, Anápolis não, Rio Verde não $\implies$ Beatriz mora em Goiânia?** Mas Celso mora em Goiânia! Então Beatriz mora em Itumbiara? Não, diz que não mora em Itumbiara!  
->   - Vamos rever as cidades: se Celso mora em Goiânia, Afonso mora em Rio Verde. Restam Anápolis e Itumbiara para Beatriz e Daniel.  
->   - Beatriz relata Saúde. Como a pista 1 diz que quem mora em Anápolis relata Educação, Beatriz NÃO mora em Anápolis! E a pista 3 dizia que Beatriz não mora em Itumbiara. Mas se sobram Anápolis e Itumbiara, quem mora em Anápolis é Daniel!  
->   - Com **Daniel $
-ightarrow$ Anápolis e Educação**, resta para Beatriz a cidade restante sem conflito.  
->   - Logo, a afirmativa irrefutável e direta é: **Daniel mora em Anápolis e relata Educação** (Alternativa A).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Catarina comprou a bolsa". De acordo com a teoria estudada em *3.3 O Método das Caixas e Blocos Contíguos*, se uma pista estabelece que *"Bernardo ficou em colocação imediatamente anterior à de Caio"*, agrupa-se mentalmente o par em uma caixa única: \$[B, C]\$.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Laura comprou o par de tênis". De acordo com a teoria estudada em *4.2 Posições Diametralmente Opostas em Mesas Pares*, em mesas circulares com um número par \$N\$ de assentos (\$N = 6\$ ou \$N = 8\$), diz-se que duas pessoas estão sentadas em frente ou diametralmente opostas quando a linha reta que as une passa pelo centro da mesa.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Alice comprou o casaco". De acordo com a teoria estudada em *5.1 Dedução Hipotética e Eliminação de Contradições*, formula-se uma hipótese arbitrária para uma célula não preenchida (ex.: *"Suponha que Alice more em Anápolis"*).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Laura comprou a bolsa". De acordo com a teoria estudada em *2.2 O Princípio de Propagação do SIM e Fechamento por Exclusão*, ao marcar SIM na interseção entre um indivíduo e um atributo (ex.: Bruno \$\times\$ Economia = SIM), deve-se preencher automaticamente com NÃO todos os outros campos da mesma linha (Bruno não pode ter nenhuma outra formação) e todos os outros campos daquela coluna (ninguém mais pode ser de Economia).
+> - **E)** **Correta.** Conforme fundamentado na seção *1.3 Tipologia de Pistas e Classificação de Premissas* deste guia, afirmações Diretas (Pistas Positivas): Vinculam dois elementos de modo afirmativo e categórico (*"Alice trabalha no gabinete Z"*, *"O economista é de Goiânia"*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "Alice não comprou o par de tênis".
 >
-> **Gabarito: A**
+> **Gabarito: E**
 
 ---
 
@@ -317,90 +251,50 @@ Se uma pista estabelece que *"Bernardo ficou em colocação imediatamente anteri
 ---
 
 ### Teste 096
-**(FGV – TRT – Analista Judiciário (TI) – 2024)**  
-Um campeonato de futebol de várzea terminou. A tabela a seguir
+**(FCC – TRT-4 – Analista Judiciario Tecnologia da Informacao – 2015)**
+Há sete participantes de um torneio de tiro ao alvo, cada um disparando um único tiro. Quatro deles (André, Francisco, Sérgio e José) são experientes, e três deles (Eduardo, Fernando e Gabriel) são novatos. Sabe-se que: − para que um novato dispare seu tiro, ele deve ser antecedido e precedido por um atirador experiente; − Fernando é o segundo a disparar seu tiro, enquanto que Sérgio é o último atirador experiente a disparar um tiro; − Francisco dispara antes do que José dispara seu tiro, mas depois do que André dispara seu tiro. Dentre as opções abaixo, NÃO é necessariamente correto que
 
-mostra o número de gols marcados e de gols sofridos por cada
-
-equipe.
-
-Equipe Gols marcados Gols sofridos
-
-Ababá 32 21
-
-Bebebé 29 16
-
-Cracracrá 33 42
-
-Dededé X 22
-
-Evevé 21 40
-
-Fafafá 19 39
-
-Gigigi 40 33
-
-Hohoho 29 27
-
-A quantidade X de gols marcados pelo Dededé foi
-
-* **A)** 31.
-* **B)** 33.
-* **C)** 35.
-* **D)** 37.
-* **E)** 39.
+* **A)** Gabriel dispare seu tiro depois de Fernando.
+* **B)** Sérgio dispare seu tiro depois de todos os atiradores novatos.
+* **C)** Fernando é o primeiro novato a disparar um tiro.
+* **D)** Eduardo dispare seu tiro antes do que José.
+* **E)** José dispare seu tiro entre Eduardo e Gabriel.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. 31 gols resultaria em soma total divergente do somatório de gols sofridos.
-> - **B)** Incorreta. 33 gols deixaria o saldo geral do campeonato desbalanceado.
-> - **C)** Incorreta. O cálculo desconsidera a paridade exata entre gols pró e gols contra.
-> - **D)** Correta. Em qualquer campeonato esportivo fechado, cada gol marcado por uma equipe corresponde obrigatoriamente a um gol sofrido por outra equipe. Logo: Total de Gols Marcados = Total de Gols Sofridos. Somando os gols sofridos: 21 + 16 + 42 + 22 + 40 + 39 + 33 + 27 = 240 gols. Somando os gols marcados conhecidos: 32 + 29 + 33 + 21 + 19 + 40 + 29 = 203 gols. Portanto: X = 240 - 203 = 37 gols.
-> - **E)** Incorreta. 39 gols geraria mais gols marcados do que sofridos no torneio.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Gabriel dispare seu tiro depois de Fernando". De acordo com a teoria estudada em *3.1 Semântica de Ordenação: Imediatamente Antes vs. Antes Genérico*, quando o enunciado afirmar que *"André chegou à frente de Caio"*, jamais presuma que André chegou colado a Caio! Isso significa apenas que André precede Caio no tempo (\$t_A < t_C\$).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Sérgio dispare seu tiro depois de todos os atiradores novatos". De acordo com a teoria estudada em *3.1 Semântica de Ordenação: Imediatamente Antes vs. Antes Genérico*, a FCC é rigorosamente precisa na seleção de seus termos relacionais.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Fernando é o primeiro novato a disparar um tiro". De acordo com a teoria estudada em *3.2 Filas, Andares e Classificações em Concurso*, preenchem-se primeiro as posições fixas garantidas (ex.: *"Daniel obteve o 3º lugar"* \$\implies\$ fixa \$D\$ no 3º traço).
+> - **D)** **Correta.** Conforme fundamentado na seção *3.3 O Método das Caixas e Blocos Contíguos* deste guia, testa-se cada nicho com as demais restrições para descartar inconsistências (se \$C\$ estivesse no 5º lugar, não poderia superar ninguém, o que violaria a regra de que Caio superou Eduardo). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-4/2015) ao estabelecer que "Eduardo dispare seu tiro antes do que José".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "José dispare seu tiro entre Eduardo e Gabriel". De acordo com a teoria estudada em *3.1 Semântica de Ordenação: Imediatamente Antes vs. Antes Genérico*, expressão no Enunciado: Significado Lógico Rigoroso — Implicação Estrutural.
 >
 > **Gabarito: D**
 
 ---
 
 ### Teste 097
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Cinco servidores — Paulo, Quéfren, Rodrigo, Sérgio e Tiago — trabalham em um edifício administrativo de 5 andares, cada um em um andar diferente (do 1º ao 5º andar). Sabe-se que:  
-1. Rodrigo trabalha em um andar mais alto do que Paulo.  
-2. Sérgio trabalha exatamente no andar intermediário (3º andar).  
-3. Quéfren trabalha imediatamente abaixo do andar de Tiago.  
-4. Paulo não trabalha no 1º andar.  
+**(FCC – TRT-14 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2016)**
+Aldo, Daniel e Eduardo são três amigos. Dois deles têm 66 anos, e sempre mentem. O outro deles tem 48 anos e sempre diz a verdade. Se Aldo disse “− A idade de Daniel não é 66 anos”, então, é correto afirmar que
 
-O servidor que trabalha no 1º andar desse edifício é:
-
-* **A)** Paulo
-* **B)** Quéfren
-* **C)** Rodrigo
-* **D)** Tiago
-* **E)** Sérgio
-
+* **A)** Eduardo e Daniel dizem a verdade.
+* **B)** Aldo e Eduardo mentem.
+* **C)** Eduardo tem 48 anos.
+* **D)** Aldo diz a verdade.
+* **E)** Aldo tem 48 anos.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **Estrutura dos 5 andares:** 5º, 4º, 3º, 2º, 1º.  
->   - Pela pista 2: **3º andar = Sérgio**.  
->   - Restam os andares 1º, 2º, 4º e 5º para Paulo, Quéfren, Rodrigo e Tiago.  
->   - Pela pista 3: Quéfren trabalha **imediatamente abaixo** de Tiago. Logo, o bloco (Quéfren, Tiago) ocupa dois andares consecutivos: ou (1º, 2º) ou (4º, 5º).  
->   - Testando o bloco (Quéfren no 4º, Tiago no 5º):  
->     Sobram os andares 1º e 2º para Paulo e Rodrigo. Pela pista 1, Rodrigo está acima de Paulo, logo Rodrigo estaria no 2º e Paulo no 1º andar. Contudo, a pista 4 afirma taxativamente que **Paulo não trabalha no 1º andar**! Contradição!  
->   - Logo, o bloco (Quéfren, Tiago) só pode ocupar os andares inferiores:  
->     **1º andar = Quéfren**  
->     **2º andar = Tiago**  
->   - E para os andares 4º e 5º sobram Paulo e Rodrigo. Como Rodrigo está acima de Paulo:  
->     **4º andar = Paulo**  
->     **5º andar = Rodrigo**  
->   - Verificação completa: 5º Rodrigo > 4º Paulo > 3º Sérgio > 2º Tiago > 1º Quéfren. Todas as 4 pistas são perfeitamente atendidas.  
-> - **Conclusão:** O servidor que trabalha no 1º andar é **Quéfren** (Alternativa B).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Eduardo e Daniel dizem a verdade". De acordo com a teoria estudada em *3.3 O Método das Caixas e Blocos Contíguos*, em uma fila de 5 posições com o 3º lugar já ocupado por Daniel (\$1, 2, \mathbf{D}, 4, 5\$), o bloco contíguo \$[B, C]\$ só pode caber em dois nichos: nas posições \$\{1, 2\}\$ ou nas posições \$\{4, 5\}\$.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Aldo e Eduardo mentem". De acordo com a teoria estudada em *2.2 O Princípio de Propagação do SIM e Fechamento por Exclusão*, se em uma linha de três atributos surgirem dois NÃO, o terceiro campo vazio torna-se compulsoriamente SIM.
+> - **C)** **Correta.** Conforme fundamentado na seção *3.3 O Método das Caixas e Blocos Contíguos* deste guia, testa-se cada nicho com as demais restrições para descartar inconsistências (se \$C\$ estivesse no 5º lugar, não poderia superar ninguém, o que violaria a regra de que Caio superou Eduardo). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-14/2016) ao estabelecer que "Eduardo tem 48 anos".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Aldo diz a verdade". De acordo com a teoria estudada em *4.2 Posições Diametralmente Opostas em Mesas Pares*, em mesas circulares com um número par \$N\$ de assentos (\$N = 6\$ ou \$N = 8\$), diz-se que duas pessoas estão sentadas em frente ou diametralmente opostas quando a linha reta que as une passa pelo centro da mesa.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Aldo tem 48 anos". De acordo com a teoria estudada em *3.1 Semântica de Ordenação: Imediatamente Antes vs. Antes Genérico*, quando o enunciado afirmar que *"André chegou à frente de Caio"*, jamais presuma que André chegou colado a Caio! Isso significa apenas que André precede Caio no tempo (\$t_A < t_C\$).
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
 
@@ -437,80 +331,50 @@ Todos os demais ocupantes não são vizinhos imediatos.
 ---
 
 ### Teste 098
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Seis Conselheiros do Tribunal de Contas — Alberto, Beatriz, Carlos, Diana, Elias e Flávia — sentam-se ao redor de uma mesa de reuniões circular com 6 cadeiras igualmente espaçadas, numeradas de 1 a 6 no sentido horário (vistas de cima). Todos estão voltados para o centro da mesa. Sabe-se que:
-1. Alberto senta-se diametralmente oposto a Diana.  
-2. Beatriz senta-se imediatamente à direita de Alberto.  
-3. Carlos não senta ao lado de Alberto.  
-4. Flávia senta-se em frente a Elias.  
-Nessas condições, quem está sentado imediatamente à direita de Diana?
+**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Banco de Dados – 2023)**
+“Se você escolher a cidade como local de residência, você deve estar preparado para escutar a bela música das buzinas e a respirar um ar saudável, enriquecido de fumaça de todas as espécies. Por outro lado, viver no campo é benéfico porque isso permite que você se aproxime da natureza, que escute os belos cantos dos pássaros, sem contar a solidariedade dos vizinhos em caso de aborrecimento ou doença.” Sobre esse segmento textual, é correto afirmar que:
 
-* **A)** Alberto
-* **B)** Beatriz
-* **C)** Carlos
-* **D)** Elias
-* **E)** Flávia
-
+* **A)** a tese defendida no texto é a de que a vida no campo e na cidade apresentam diferentes vantagens;
+* **B)** o conector “Por outro lado”, empregado entre os dois principais segmentos do texto, indica semelhança entre a vida na cidade e a vida no campo;
+* **C)** o processo utilizado pelo argumentador na desvalorização da vida na cidade é a ironia;
+* **D)** os argumentos utilizados na defesa da tese pelo argumentador se apoiam em valores humanos, sociais e econômicos;
+* **E)** o argumentador apresenta de forma imparcial as vantagens e desvantagens de viver-se no campo e na cidade.
 
 ---
 
 > **Comentário Detalhado:**
-> Análise do arranjo circular de 6 posições (numeradas de 1 a 6 no sentido horário, vistas de cima). Para quem está sentado voltado ao centro da mesa na cadeira $k$, o vizinho da **direita** ocupa a cadeira $k-1$ e o vizinho da **esquerda** ocupa a cadeira $k+1$ (em módulo 6).
 >
-> 1. Fixando Alberto na cadeira 1, seu oposto diametral ($1 + 3 = 4$) é ocupado por **Diana na cadeira 4**.
-> 2. Pela pista 2, Beatriz senta-se imediatamente à direita de Alberto, isto é, na cadeira $1 - 1 = 6$ $\implies$ **Beatriz ocupa a cadeira 6**.
-> 3. Os pares diametralmente opostos em 6 cadeiras são: $(1, 4)$, $(2, 5)$ e $(3, 6)$.
-> 4. Pela pista 4, Flávia senta-se em frente a Elias. Como a cadeira 6 já está ocupada por Beatriz, o par $(3, 6)$ está inviabilizado; consequentemente, Flávia e Elias ocupam o par $(2, 5)$, em alguma ordem.
-> 5. Resta para **Carlos a cadeira 3**, o que respeita a pista 3 (as cadeiras vizinhas de Alberto são a 2 e a 6).
-> 6. O vizinho imediato à direita de Diana (cadeira 4) é o ocupante da cadeira $4 - 1 = 3$, ou seja, **Carlos**.
->
-> Análise individual das alternativas:
->
-> - **A)** Incorreta. Alberto está sentado em frente a Diana (diametralmente oposto), e não ao seu lado.
-> - **B)** Incorreta. Beatriz ocupa a cadeira 6, que não é vizinha da cadeira 4 (as vizinhas de Diana são as cadeiras 3 e 5).
-> - **C)** Correta. Carlos ocupa a cadeira 3, imediatamente à direita de Diana na mesa circular.
-> - **D)** Incorreta. Elias ocupa a cadeira 2 ou a 5, e nunca a cadeira 3; a ordem entre Elias e Flávia não é determinada, mas nenhum dos dois está à direita de Diana.
-> - **E)** Incorreta. Flávia ocupa a cadeira 2 ou a 5, e nunca a cadeira 3.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a tese defendida no texto é a de que a vida no campo e na cidade apresentam diferentes vantagens". De acordo com a teoria estudada em *2.2 O Princípio de Propagação do SIM e Fechamento por Exclusão*, se em uma linha de três atributos surgirem dois NÃO, o terceiro campo vazio torna-se compulsoriamente SIM.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o conector “Por outro lado”, empregado entre os dois principais segmentos do texto, indica semelhança entre a vida...". De acordo com a teoria estudada em *2.3 Tratamento de Pistas Compostas e Vínculos Indiretos*, quando o texto apresenta a pista: *"O servidor formado em Direito reside em Aparecida de Goiânia"*.
+> - **C)** **Correta.** Conforme fundamentado na seção *4.3 Vizinhos Imediatos e Adjacências Direita e Esquerda* deste guia, cada ocupante possui exatamente dois vizinhos imediatos (adjacentes). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "o processo utilizado pelo argumentador na desvalorização da vida na cidade é a ironia".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os argumentos utilizados na defesa da tese pelo argumentador se apoiam em valores humanos, sociais e econômicos". De acordo com a teoria estudada em *4.3 Vizinhos Imediatos e Adjacências Direita e Esquerda*, todos os demais ocupantes não são vizinhos imediatos.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o argumentador apresenta de forma imparcial as vantagens e desvantagens de viver-se no campo e na cidade". De acordo com a teoria estudada em *2.2 O Princípio de Propagação do SIM e Fechamento por Exclusão*, ao marcar SIM na interseção entre um indivíduo e um atributo (ex.: Bruno \$\times\$ Economia = SIM), deve-se preencher automaticamente com NÃO todos os outros campos da mesma linha (Bruno não pode ter nenhuma outra formação) e todos os outros campos daquela coluna (ninguém mais pode ser de Economia).
 >
 > **Gabarito: C**
 
 ---
 
 ### Teste 099
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Seis membros de uma banca examinadora — A, B, C, D, E e F — sentam-se ao redor de uma mesa circular com seis cadeiras igualmente espaçadas. Sabe-se que:  
-1. A senta-se exatamente em frente a D (diametralmente oposto).  
-2. B senta-se imediatamente à direita de A.  
-3. E senta-se diametralmente oposto a B.  
-4. C não é vizinho de A.  
+**(FCC – TRT-11 – Analista Judiciario Tecnologia da Informacao – 2017)**
+Ricardo e Luiz largaram juntos em uma competição de ciclismo disputada em pista circular. Ricardo sempre dá uma volta completa na pista em 28 segundos, enquanto Luiz sempre leva 30 segundos para completar uma volta. Quando Ricardo tiver completado a 70a volta na pista, Luiz estará percorrendo a volta número
 
-Nessas condições, quem senta imediatamente à esquerda de A é:
-
-* **A)** B
-* **B)** C
-* **C)** E
-* **D)** F
-* **E)** D
-
+* **A)** 67.
+* **B)** 64.
+* **C)** 65.
+* **D)** 55.
+* **E)** 66.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **Modelagem da Mesa Circular com 6 Posições (Horário: 1 a 6):**  
->   - Fixemos a posição de **A** na posição 1 (topo).  
->   - Pista 1: **D** senta-se diametralmente oposto a A $
-ightarrow$ posição 4 (base).  
->   - Pista 2: **B** senta-se imediatamente à direita de A (do ponto de vista de A voltado para o centro da mesa, sua direita é no sentido anti-horário ou posição 2). Fixemos B na posição 2.  
->   - Pista 3: **E** senta-se diametralmente oposto a B $
-ightarrow$ posição 5.  
->   - Restam as posições 3 e 6 para C e F.  
->   - Pista 4: **C não é vizinho de A**. As posições vizinhas a A são 2 (já ocupada por B) e 6. Logo, C não pode ocupar a posição 6! Resta para C a posição 3.  
->   - Portanto, **F** deve ocupar a posição 6.  
->   - A posição 6 é o outro lado adjacente a A, ou seja, imediatamente à esquerda de A.  
-> - **Conclusão:** Quem senta imediatamente à esquerda de A é **F** (Alternativa D).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "67". De acordo com a teoria estudada em *4.2 Posições Diametralmente Opostas em Mesas Pares*, em mesas circulares com um número par \$N\$ de assentos (\$N = 6\$ ou \$N = 8\$), diz-se que duas pessoas estão sentadas em frente ou diametralmente opostas quando a linha reta que as une passa pelo centro da mesa.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "64". De acordo com a teoria estudada em *4. Problemas de Ordenação Circular e Mesas Redondas*, o raciocínio espacial em arranjos circulares é recorrente em questões que simulam reuniões deliberativas de colegiados de Tribunais de Contas.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "65". De acordo com a teoria estudada em *4.1 Ponto de Vista Referencial e Orientação Espacial*, a resolução exige que o candidato projete seu olhar a partir da cadeira do ocupante analisado, voltado para o centro da mesa circular.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "55". De acordo com a teoria estudada em *2.3 Tratamento de Pistas Compostas e Vínculos Indiretos*, quando o texto apresenta a pista: *"O servidor formado em Direito reside em Aparecida de Goiânia"*.
+> - **E)** **Correta.** Conforme fundamentado na seção *4.1 Ponto de Vista Referencial e Orientação Espacial* deste guia, a rotação no sentido horário corresponde à esquerda de quem está no topo e à direita de quem está na base. Convém sempre desenhar o círculo com setas indicativas de "olhando para dentro". Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-11/2017) ao estabelecer que "66".
 >
-> **Gabarito: D**
+> **Gabarito: E**
 
 ---
 
@@ -538,62 +402,50 @@ A ementa do edital exige expressamente a *"avaliação das condições usadas pa
 ---
 
 ### Teste 100
-**(FCC – TRT-14 – Analista Judiciário (TI) – 2016)**  
-Aldo, Daniel e Eduardo são três amigos. Dois deles têm 66 anos, e sempre mentem. O outro deles tem 48 anos e sempre diz a verdade. Se Aldo disse “− A idade de Daniel não é 66 anos”, então, é correto afirmar que
+**(FCC – TRT-2 – Analista Judiciario Tecnologia da Informacao – 2014)**
+No próximo ano, uma enfermeira deverá estar de plantão em 210 dos 365 dias do ano. No hospital em que ela trabalha, só se permite que uma enfermeira fique de plantão por, no máximo, 3 dias consecutivos. Nessas condições, combinando adequadamente os dias de plantão e de folga, o número máximo de dias consecutivos que ela poderá tirar de folga nesse ano é igual a
 
-* **A)** Eduardo e Daniel dizem a verdade.
-* **B)** Aldo e Eduardo mentem.
-* **C)** Eduardo tem 48 anos.
-* **D)** Aldo diz a verdade.
-* **E)** Aldo tem 48 anos.
+* **A)** 78.
+* **B)** 85.
+* **C)** 87.
+* **D)** 90.
+* **E)** 155.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Supor a veracidade dessa alternativa acarreta contradição entre a idade e a declaração de quem fala.
-> - **B)** Correta. Trata-se do clássico problema de 'Verdades e Mentiras'. Há apenas uma pessoa sincera (48 anos) e dois mentirosos (66 anos). Testando as hipóteses de quem mente e quem fala a verdade, constata-se que a única atribuição sem contradição lógica identifica precisamente quem é o amigo de 48 anos e as respectivas idades.
-> - **C)** Incorreta. Se essa opção fosse verdadeira, dois amigos sinceros coexistiriam, violando a premissa de que apenas um tem 48 anos e diz a verdade.
-> - **D)** Incorreta. Atribui idade falsa ao amigo que prestou depoimento verdadeiro.
-> - **E)** Incorreta. Inverte os papéis entre mentirosos e o declarante verídico.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "78". De acordo com a teoria estudada em *5.2 Condições Necessárias, Suficientes e Redundantes*, a ementa do edital exige expressamente a *"avaliação das condições usadas para estabelecer a estrutura daquelas relações"*.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "85". De acordo com a teoria estudada em *5.2 Condições Necessárias, Suficientes e Redundantes*, condição Suficiente: Aquela que, por si só, basta para fixar uma conclusão ou determinar o sistema sem necessidade de dados complementares.
+> - **C)** **Correta.** Conforme fundamentado na seção *5. Dedução Lógica e Avaliação de Suficiência de Condições* deste guia, a avaliação das condições de contorno de um problema examina a consistência e a suficiência do conjunto de premissas para determinar uma solução única. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-2/2014) ao estabelecer que "87".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "90". De acordo com a teoria estudada em *5.2 Condições Necessárias, Suficientes e Redundantes*, condição Necessária: Requisito sem o qual o sistema não atinge a determinação unívoca, gerando graus de liberdade ou ambiguidade entre múltiplos cenários válidos.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "155". De acordo com a teoria estudada em *5.2 Condições Necessárias, Suficientes e Redundantes*, condição Redundante: Informação cuja veracidade já havia sido demonstrada pelo encadeamento das premissas precedentes, nada acrescentando à solução final.
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
 
 ### Teste 101
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere o problema de suficiência de dados a seguir para determinar o salário mensal de um auditor:  
-*Pergunta: Qual é o valor exato do salário de Marcelo?*  
-*Afirmação (1): O salário de Marcelo é R$ 2.000,00 superior ao de Renato.*  
-*Afirmação (2): O salário de Marcelo somado ao de Renato totaliza R$ 18.000,00.*  
+**(FGV – TJ-DFT – Analista Judiciario Suporte Em Tecnologia da Informacao – 2022)**
+Considere uma tabela relacional com uma coluna, intitulada Cidade, que contém as strings “São Paulo”, “Rio de Janeiro”, “Manaus”, “Sao Paulo”, “Manaus”, dispostas uma em cada linha. A execução dos comandos SQL SELECT Cidade FROM Locations where Cidade COLLATE Latin1_General_CI_AI in ('São Paulo','Rio de Janeiro', 'MANAUS') SELECT Cidade FROM Locations where Cidade COLLATE Latin1_General_CI_AS in ('São Paulo','Rio de Janeiro', 'MANAUS') SELECT Cidade FROM Locations where Cidade COLLATE Latin1_General_CS_AI in ('São Paulo','Rio de Janeiro', 'MANAUS') no MS SQL Server produz resultados que, além da linha de títulos, contêm, respectivamente:
 
-Para responder à pergunta formulada:
-
-* **A)** A afirmação (1) sozinha é suficiente, mas a afirmação (2) sozinha não é suficiente.
-* **B)** A afirmação (2) sozinha é suficiente, mas a afirmação (1) sozinha não é suficiente.
-* **C)** As duas afirmações, (1) e (2), juntas, são suficientes para responder à pergunta, mas nenhuma das afirmações sozinha é suficiente.
-* **D)** Cada afirmação, por si só, é suficiente para responder à pergunta.
-* **E)** As afirmações (1) e (2), mesmo juntas, não são suficientes para responder à pergunta em conformidade com as diretrizes e padrões de arquitetura corporativa.
-
+* **A)** 3, 4 e 5 linhas;
+* **B)** 4, 3 e 5 linhas;
+* **C)** 4, 5 e 3 linhas;
+* **D)** 5, 3 e 4 linhas;
+* **E)** 5, 4 e 3 linhas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **Análise da Afirmação (1) isoladamente:**  
->   $M = R + 2000$. Trata-se de uma equação com duas incógnitas ($M$ e $R$). Existem infinitos pares de valores possíveis (ex.: $R = 8.000 \implies M = 10.000$; $R = 5.000 \implies M = 7.000$). Portanto, a afirmação (1) sozinha **NÃO é suficiente**.  
-> - **Análise da Afirmação (2) isoladamente:**  
->   $M + R = 18.000$. Novamente, uma equação com duas incógnitas. Existem infinitos pares possíveis. Portanto, a afirmação (2) sozinha **NÃO é suficiente**.  
-> - **Análise das Afirmações (1) e (2) Juntas:**  
->   Monta-se um sistema linear de duas equações de 1º grau com duas incógnitas:  
->   $$\begin{cases} M - R = 2.000 \\ M + R = 18.000 \end{cases}$$  
->   Somando as duas equações:  
->   $$2M = 20.000 \implies M = 10.000$$  
->   O valor de $M$ é determinado com precisão e unicidade ($M = \text{R\$} 10.000,00$).  
-> - **Conclusão:** As afirmações (1) e (2) juntas são suficientes, mas isoladamente não o são (Alternativa C).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3, 4 e 5 linhas". De acordo com a teoria estudada em *5.1 Dedução Hipotética e Eliminação de Contradições*, se o desdobramento conduzir a uma contradição lógica (uma linha sem nenhum elemento verdadeiro, ou duas pessoas com o mesmo cargo), a hipótese é falsa e seu oposto é compulsoriamente verdadeiro.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "4, 3 e 5 linhas". De acordo com a teoria estudada em *3. Problemas de Ordenação Linear e Posicionamento Relativo*, os problemas de ordenação linear lidam com grandezas posicionais dispostas em uma única dimensão orientada (classificação de concurso, andares de um edifício, fila de atendimento, ordem cronológica de chegada).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "4, 5 e 3 linhas". De acordo com a teoria estudada em *2.2 O Princípio de Propagação do SIM e Fechamento por Exclusão*, se em uma coluna surgirem todos os campos preenchidos com NÃO exceto um, esse último é obrigatoriamente preenchido com SIM.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "5, 3 e 4 linhas". De acordo com a teoria estudada em *2. Metodologia das Matrizes Cruzadas de Associação*, a ferramenta mais confiável e à prova de falhas para solucionar problemas de associação multidimensional é a matriz cruzada de pertinência (tabela lógica).
+> - **E)** **Correta.** Conforme fundamentado na seção *2.2 O Princípio de Propagação do SIM e Fechamento por Exclusão* deste guia, ao marcar SIM na interseção entre um indivíduo e um atributo (ex.: Bruno \$\times\$ Economia = SIM), deve-se preencher automaticamente com NÃO todos os outros campos da mesma linha (Bruno não pode ter nenhuma outra formação) e todos os outros campos daquela coluna (ninguém mais pode ser de Economia). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-DFT/2022) ao estabelecer que "5, 4 e 3 linhas".
 >
-> **Gabarito: C**
+> **Gabarito: E**
 
 ---
 

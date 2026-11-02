@@ -105,52 +105,50 @@ Assistentes de desenvolvimento integrados à IDE operam combinando predição es
 ---
 
 ### Teste 139
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Ao utilizar um assistente de inteligência artificial para traduzir uma rotina crítica de apuração de tributos escrita em COBOL para a linguagem Java, a equipe de engenharia de software de uma Secretaria de Fazenda deve prestar atenção especial a qual das seguintes armadilhas de código frequentemente induzidas pelo modelo?  
+**(FCC – TRT-13 – Analista Judiciario Tecnologia da Informacao – 2014)**
+Considere o código abaixo, digitado em Python. a, b = 0, 1 while b < 10: print b a, b = b, a+b No final da execução do código, o último valor armazenado nas variáveis a e b serão, respectivamente,
 
-* **A)** O modelo recusar-se a criar métodos públicos por limitações de licença de software livre.
-* **B)** A substituição de variáveis com precisão decimal exata (`COMP-3` do COBOL) por tipos de ponto flutuante primitivos como `double` ou `float` em Java, causando erros cumulativos de arredondamento em cálculos de centavos e multas.
-* **C)** A conversão forçada de todo o código em scripts de inicialização de BIOS de hardware.
-* **D)** A exigência obrigatória de compilar o novo código Java utilizando exclusivamente placas aceleradoras de inteligência artificial na nuvem.
-* **E)** O bloqueio automático de conexões com bancos de dados relacionais padrão SQL.
-
+* **A)** 13 e 21.
+* **B)** 8 e 13.
+* **C)** 5 e 10.
+* **D)** 13 e 20.
+* **E)** 8 e 10.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Modelos de IA não impõem restrições de visibilidade de métodos baseadas em licenças de código aberto.
-> - **B)** **CORRETA.** Sistemas legados em COBOL apoiam-se na representação decimal de ponto fixo exata (`COMP-3`). Linguagens modernas como Java possuem tipos primitivos de ponto flutuante binário (`float` e `double`) que seguem a norma IEEE 754 e introduzem pequenas imprecisões de conversão binária. Em cálculos de tributos e multas fiscais, isso gera erros cumulativos de centavos. A tradução correta exige o uso de classes de precisão arbitrária exata (`java.math.BigDecimal`).
-> - **C)** Incorreta. Migrações de código de sistemas de gestão não interagem com firmware de BIOS.
-> - **D)** Incorreta. Código Java gerado por IA roda em qualquer JVM padrão sobre CPUs convencionais.
-> - **E)** Incorreta. Java integra-se nativamente a bancos SQL por meio de JDBC e JPA.
-> 
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "13 e 21". De acordo com a teoria estudada em *1.3 Modernização e Tradução de Sistemas Legados: Riscos Aritméticos*, ao traduzir esse código para Java ou Python, modelos de IA frequentemente sugerem tipos primitivos de ponto flutuante binário (`float` ou `double`), por serem mais concisos.
+> - **B)** **Correta.** Conforme fundamentado na seção *3.1 Docstrings, Javadoc e Comentários Semânticos* deste guia, python (PEP 257): Docstrings estruturadas explicando o comportamento de funções, tipos de argumentos e invariantes de execução. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-13/2014) ao estabelecer que "8 e 13".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "5 e 10". De acordo com a teoria estudada em *1.3 Modernização e Tradução de Sistemas Legados: Riscos Aritméticos*, em código fiscal de órgãos de controle externo, é mandatório o uso de classes de precisão arbitrária exata (`java.math.BigDecimal` em Java ou o módulo `decimal` em Python) com estratégias explícitas de arredondamento (`RoundingMode.HALF_EVEN`).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "13 e 20". De acordo com a teoria estudada em *1.3 Modernização e Tradução de Sistemas Legados: Riscos Aritméticos*, a migração de sistemas governamentais legados (especialmente rotinas tributárias e de arrecadação em COBOL ou PL/SQL para microsserviços modernos em Java 21, Kotlin ou Python) é uma das aplicações mais estratégicas de IA no setor público.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "8 e 10". De acordo com a teoria estudada em *4.1 Análise de Stack Traces e Decodificação de Erros Críticos*, traduz mensagens herméticas para linguagem natural, explicando a condição de contorno que causou a falha (ex.: violação de chave estrangeira por registro órfão ou valor nulo não tratado).
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 140
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Os motores modernos de completamento de código em IDEs operam frequentemente por meio de renderização de *Ghost Text* (código semitransparente sugerido à frente do cursor). Para que essas sugestões sejam relevantes e apresentem latência imperceptível ao programador (abaixo de 100ms), a arquitetura do motor deve:
+**(FGV – TJ-MT – Analista Judiciario Tecnologia da Informacao – 2024)**
+Em uma cidade inteligente, diversos dispositivos conectados, como sensores de trânsito, câmeras de segurança e medidores de energia, trocam informações entre si para otimizar o uso de recursos e melhorar a qualidade de vida dos cidadãos. Esse conceito é conhecido como
 
-* **A)** Enviar o disco rígido inteiro compactado para a nuvem a cada caractere digitado.
-* **B)** Combinar modelos locais de baixa latência ou modelos em nuvem otimizados com a Árvore Sintática Abstrata (AST) do arquivo corrente, contexto das abas recentemente abertas e importações do projeto.
-* **C)** Exigir que o programador pressione um botão físico externo no gabinete do servidor a cada linha sugerida.
-* **D)** Substituir todas as bibliotecas do projeto por códigoAssembly não comentado.
-* **E)** Limitar o tamanho total do projeto a três funções matemáticas básicas.
-
+* **A)** Computação em Nuvem.
+* **B)** Big Data.
+* **C)** Inteligência Artificial.
+* **D)** Internet das Coisas (IoT).
+* **E)** Realidade Aumentada.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Inviável tecnicamente e causaria latência inaceitável além de violação de privacidade.
-> - **B) Correta.** A chave da experiência de completamento inline (*Ghost Text*) é a combinação de modelos especializados de baixíssima latência com heurísticas locais inteligentes (AST, abas abertas, escopo local, histórico de edições recentes).
-> - **C) Incorreta.** A interação ocorre naturalmente via teclas de atalho da IDE (como a tecla `Tab`).
-> - **D) Incorreta.** Não há conversão para Assembly.
-> - **E) Incorreta.** Suporta projetos empresariais de larga escala.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Computação em Nuvem". De acordo com a teoria estudada em *1.2 Síntese de Algoritmos Complexos e Regras de Negócio*, pré-requisito Vital: A qualidade e corretude do algoritmo gerado dependem estritamente da clareza com que o desenvolvedor estabelece as pré-condições, pós-condições e invariantes lógicas na especificação enviada.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Big Data". De acordo com a teoria estudada em *1.1 Scaffolding, Código Repetitivo (Boilerplate) e CRUDs Estruturais*, redução do Esforço em Boilerplate: Tarefas repetitivas e mecânicas — como a criação de classes de entidade (*JPA/Hibernate*), objetos de transferência de dados (*DTOs*), mapeadores (*Mappers/MapStruct*), repositórios (*Spring Data JPA*) e controladores REST — são geradas em segundos a partir de especificações de esquema relacional (DDL) ou contratos de interface.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.3 Modernização e Tradução de Sistemas Legados: Riscos Aritméticos* deste guia, em código fiscal de órgãos de controle externo, é mandatório o uso de classes de precisão arbitrária exata (`java.math.BigDecimal` em Java ou o módulo `decimal` em Python) com estratégias explícitas de arredondamento (`RoundingMode.HALF_EVEN`). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-MT/2024) ao estabelecer que "Inteligência Artificial".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Internet das Coisas (IoT)". De acordo com a teoria estudada em *2.1 Linters Estáticos Tradicionais (AST/SAST) vs. Agentes de AI Code Review*, custo Computacional: Praticamente nulo; execução local instantânea sem dependência de internet ou APIs externas. — Moderado a alto; demanda chamadas de rede para inferência em aceleradores (GPUs/TPUs).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Realidade Aumentada". De acordo com a teoria estudada em *1.4 Completamento Inteligente de Código: Ghost Text e AST Local*, assistentes de desenvolvimento integrados à IDE operam combinando predição estatística de tokens com inspeção estrutural estática.
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
 
@@ -205,79 +203,74 @@ A IA lê o conjunto completo de alterações (*diffs*) entre branches e sintetiz
 ---
 
 ### Teste 141
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Uma equipe de desenvolvimento governamental decidiu integrar um agente de IA generativa ao fluxo de Integração Contínua (CI/CD) para realizar a revisão automática inicial (*automated code review*) de todos os *Pull Requests* antes da avaliação pelos pares técnicos.
+**(FGV – TRT-24 – Analista Judiciario Area Apoio Especializado Tecnologia da Informacao – 2025)**
+A biblioteca Python de código aberto que utiliza tensores de forma otimizada para aplicações de aprendizado profundo usando GPUs ou CPUs se chama
 
-Considerando os benefícios e os cuidados dessa prática, é correto afirmar:  
-
-* **A)** A ferramenta de IA deve receber credenciais irrestritas de administrador do repositório para realizar o merge automático em produção sem necessidade de aprovação humana.
-* **B)** A IA atua com alta eficácia na detecção precoce de más práticas de formatação (*code smells*), violações óbvias de princípios SOLID e potenciais credenciais ou chaves expostas (*hardcoded secrets*), mas a análise humana é indispensável para validação arquitetural e conformidade com regras de negócio.
-* **C)** Para submeter os trechos de código do tribunal à API pública de revisão da IA, é dispensável qualquer verificação contratual sobre a política de privacidade e uso dos dados pelo provedor da ferramenta.
-* **D)** A revisão de código por IA torna obsoletos os linters estáticos tradicionais (como SonarQube ou ESLint), pois LLMs executam compilação binária determinística com menor custo computacional.
-* **E)** A IA deve ser configurada para rejeitar sumariamente qualquer *Pull Request* que contenha comentários explicativos ou docstrings, priorizando código não documentado.
-
+* **A)** pytensorflow.
+* **B)** pymatrix.
+* **C)** pytorch.
+* **D)** pynum.
+* **E)** pyxpu.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A concessão de merge automático para IA em produção viola a segregação de funções e os princípios básicos de governança e controle de mudanças.
-> - **B)** **CORRETA.** Agentes de revisão de código por IA oferecem excelente suporte na triagem preliminar de Pull Requests: detectam segredos vazados no código, métodos excessivamente longos, duplicações e violações de SOLID. A avaliação arquitetural de alto nível e a conformidade legal continuam exigindo o julgamento de revisores humanos.
-> - **C)** Incorreta. A transferência de código governamental para serviços em nuvem exige salvaguardas contratuais estritas de sigilo e não retenção de dados (*Zero Data Retention*) em conformidade com as normas de segurança e LGPD.
-> - **D)** Incorreta. Linters determinísticos tradicionais (SonarQube, ESLint) são rápidos, locais e gratuitos, servindo como primeira barreira que a IA complementa, mas não substitui.
-> - **E)** Incorreta. Documentação técnica e docstrings são fundamentais para a manutenibilidade do software e devem ser incentivadas.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pytensorflow". De acordo com a teoria estudada em *1.3 Modernização e Tradução de Sistemas Legados: Riscos Aritméticos*, a migração de sistemas governamentais legados (especialmente rotinas tributárias e de arrecadação em COBOL ou PL/SQL para microsserviços modernos em Java 21, Kotlin ou Python) é uma das aplicações mais estratégicas de IA no setor público.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pymatrix". De acordo com a teoria estudada em *2.1 Linters Estáticos Tradicionais (AST/SAST) vs. Agentes de AI Code Review*, custo Computacional: Praticamente nulo; execução local instantânea sem dependência de internet ou APIs externas. — Moderado a alto; demanda chamadas de rede para inferência em aceleradores (GPUs/TPUs).
+> - **C)** **Correta.** Conforme fundamentado na seção *2.2 Identificação de Code Smells, Débito Técnico e Violações de SOLID* deste guia, código Duplicado e Obsolescência: Identificação de reimplementações de funções utilitárias que já existem no ecossistema da biblioteca padrão. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "pytorch".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pynum". De acordo com a teoria estudada em *1.3 Modernização e Tradução de Sistemas Legados: Riscos Aritméticos*, ao traduzir esse código para Java ou Python, modelos de IA frequentemente sugerem tipos primitivos de ponto flutuante binário (`float` ou `double`), por serem mais concisos.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pyxpu". De acordo com a teoria estudada em *1.3 Modernização e Tradução de Sistemas Legados: Riscos Aritméticos*, em código fiscal de órgãos de controle externo, é mandatório o uso de classes de precisão arbitrária exata (`java.math.BigDecimal` em Java ou o módulo `decimal` em Python) com estratégias explícitas de arredondamento (`RoundingMode.HALF_EVEN`).
+>
+> **Gabarito: C**
 
 ---
 
 ### Teste 142
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Na revisão automatizada de código assistida por IA (*AI Code Review*), agentes inteligentes conseguem identificar anomalias semânticas e arquiteturais de nível superior que extrapolam as capacidades de linters tradicionais baseados em expressões regulares. Dentre essas anomalias de design, inclui-se a identificação de:
+**(FGV – TRT-16 – Analista Judiciario Area Administrativa Tecnologia da Informacao – 2022)**
+Analise o código a seguir, que descreve a entidade Carro: A anotação JPA, versão 2.0, a ser incluída na linha 9 para indicar que as cores da entidade Carro devem ser armazenadas em uma tabela separada da tabela carros, é
 
-* **A)** Violações do Princípio da Responsabilidade Única (SRP) do SOLID, caracterizadas por classes com métodos heterogêneos acumulando múltiplos motivos para mudar (*God Class*).
-* **B)** Falhas na tensão elétrica de alimentação das placas de circuito impresso.
-* **C)** Variações na velocidade da luz nos cabos de fibra óptica da operadora de telecomunicações considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
-* **D)** Erros ortográficos em placas de trânsito fotografadas por satélites.
-* **E)** O rompimento físico de lacres de servidores em gabinetes de data center.
-
+* **A)** @CollectionAttribute
+* **B)** @ElementCollection
+* **C)** @Embeddable
+* **D)** @Embedded
+* **E)** @InnerTable
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Correta.** Diferentemente de analisadores estáticos básicos que verificam formatação e sintaxe, LLMs treinados em código compreendem semântica arquitetural, detectando *God Classes*, alto acoplamento, vazamento de abstração e quebras de princípios SOLID (*SRP, OCP, LSP, ISP, DIP*).
-> - **B) Incorreta.** Monitoramento de infraestrutura física/elétrica.
-> - **C) Incorreta.** Física de telecomunicações.
-> - **D) Incorreta.** Visão computacional geoespacial alheia à engenharia de software.
-> - **E) Incorreta.** Segurança física patrimonial.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "@CollectionAttribute". De acordo com a teoria estudada em *4.1 Análise de Stack Traces e Decodificação de Erros Críticos*, localiza cirurgicamente o método corporativo na linha exata onde a exceção foi lançada.
+> - **B)** **Correta.** Conforme fundamentado na seção *1.1 Scaffolding, Código Repetitivo (Boilerplate) e CRUDs Estruturais* deste guia, redução do Esforço em Boilerplate: Tarefas repetitivas e mecânicas — como a criação de classes de entidade (*JPA/Hibernate*), objetos de transferência de dados (*DTOs*), mapeadores (*Mappers/MapStruct*), repositórios (*Spring Data JPA*) e controladores REST — são geradas em segundos a partir de especificações de esquema relacional (DDL) ou contratos de interface. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-16/2022) ao estabelecer que "@ElementCollection".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "@Embeddable". De acordo com a teoria estudada em *4.3 Análise de Causa-Raiz (Root Cause Analysis - RCA) e Patches Mínimos*, devem-se evitar refatorações cosméticas em massa durante a aplicação de correções críticas (*hotfixes*), minimizando o risco de efeitos colaterais indesejados no ambiente de produção.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "@Embedded". De acordo com a teoria estudada em *2.4 Síntese de Pull Requests e Notas de Lançamento (Release Notes)*, minuta preliminar das notas de versão (*Release Notes*) em conformidade com o padrão *Keep a Changelog*.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "@InnerTable". De acordo com a teoria estudada em *3.3 Diagramação Arquitetural Declarativa com Mermaid.js e PlantUML*, diagramas de Classes e Entidade-Relacionamento: Representação visual do modelo relacional a partir do código das entidades.
 >
-> **Gabarito: A**
+> **Gabarito: B**
 
 ---
 
 ### Teste 143
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Em pipelines de CI/CD que integram agentes de revisão de código por IA, a detecção de segredos e credenciais codificados diretamente no código (*hardcoded secrets*) é uma exigência inegociável de segurança da informação. Ao identificar uma chave de API ou senha em um Pull Request, a postura correta do agente e do pipeline é:
+**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Desenvolvimento de Sistemas – 2023)**
+A analista Joelma está desenvolvendo o web service tjapRest utilizando o Spring Boot. Determinadas operações de tjapRest devem ser executadas assincronamente. Para implementar as operações assíncronas de forma simples e direta, Joelma recorreu a duas anotações padrões do Spring. A primeira anotação habilita o suporte do Spring à execução de métodos assíncronos. A segunda anotação marca determinado método como um candidato à execução assíncrona. Joelma recorreu às anotações do Spring:
 
-* **A)** Comitar o segredo na branch principal e criar uma issue pública no GitHub divulgando a senha. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **B)** Bloquear imediatamente o merge do Pull Request (*fail the build*), alertar o desenvolvedor para revogar e rotacionar a credencial comprometida e exigir a parametrização do segredo por meio de variáveis de ambiente ou cofre de segredos corporativo (*Secrets Manager*).
-* **C)** Enviar o segredo por e-mail para todos os usuários do sistema.
-* **D)** Desabilitar todos os mecanismos de autenticação do sistema corporativo.
-* **E)** Ocultar o segredo alterando a extensão do arquivo para `.txt`.
-
+* **A)** @EnableAsync e @Async;
+* **B)** @AsyncConfigurer e @Async;
+* **C)** @EnableAsync e @Asynchronous;
+* **D)** @AsyncConfigurer e @EnableAsync;
+* **E)** @AsyncConfigurer e @Asynchronous.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Expor segredos publicamente é gravíssima falha de segurança.
-> - **B) Correta.** Uma vez comitada no repositório (mesmo em branch de teste), a credencial deve ser tratada como comprometida: o build é travado, a chave deve ser rotacionada/revogada na origem, e o código deve ser corrigido para consumir o valor a partir de um gestor de segredos (ex: HashiCorp Vault, AWS Secrets Manager, GCP Secret Manager).
-> - **C) Incorreta.** Ampliaria drasticamente o vazamento.
-> - **D) Incorreta.** Destruiria a segurança da aplicação.
-> - **E) Incorreta.** Segurança por obscurantismo ineficaz.
+> - **A)** **Correta.** Conforme fundamentado na seção *2.1 Linters Estáticos Tradicionais (AST/SAST) vs. Agentes de AI Code Review* deste guia, custo Computacional: Praticamente nulo; execução local instantânea sem dependência de internet ou APIs externas. — Moderado a alto; demanda chamadas de rede para inferência em aceleradores (GPUs/TPUs). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "@EnableAsync e @Async".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "@AsyncConfigurer e @Async". De acordo com a teoria estudada em *2.1 Linters Estáticos Tradicionais (AST/SAST) vs. Agentes de AI Code Review*, papel na Governança: Base obrigatória e inegociável de conformidade de estilo, cobertura e padrões de código. — Camada inteligente de triagem, síntese de alterações e detecção de falhas lógicas sutis para apoiar a revisão humana.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "@EnableAsync e @Asynchronous". De acordo com a teoria estudada em *2.3 Varredura Automática de Vulnerabilidades e Vazamento de Segredos*, injeção de SQL (SQL Injection): Identificação de interpolação direta de parâmetros de usuário em consultas HQL/JPQL ou SQL puro, recomendando consultas parametrizadas (*Prepared Statements*).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "@AsyncConfigurer e @EnableAsync". De acordo com a teoria estudada em *2.3 Varredura Automática de Vulnerabilidades e Vazamento de Segredos*, cross-Site Scripting (XSS) e Desserialização Insegura: Alerta sobre a renderização direta de payloads HTML sem sanitização prévia.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "@AsyncConfigurer e @Asynchronous". De acordo com a teoria estudada em *1.1 Scaffolding, Código Repetitivo (Boilerplate) e CRUDs Estruturais*, anotações de Validação: A IA infere e aplica automaticamente regras de validação padronizadas (`@NotNull`, `@Size`, `@NotBlank`, `@Email`, `@PositiveOrZero`), diminuindo falhas de integridade na camada de borda da API.
 >
-> **Gabarito: B**
+> **Gabarito: A**
 
 ---
 
@@ -306,27 +299,26 @@ Em vez de diagramas estáticos desenhados em ferramentas gráficas externas (que
 ---
 
 ### Teste 144
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No processo de modernização e documentação de sistemas legados de órgãos públicos que não possuem documentação formal de interface, agentes de IA podem realizar engenharia reversa do código-fonte de controladores (*controllers* e rotas) para gerar automaticamente:
+**(FGV – TRT-16 – Analista Judiciario Area Administrativa Tecnologia da Informacao – 2022)**
+Michael coleciona moedas brasileiras, americanas e francesas. Para cada 3 moedas americanas Michael tem 7 moedas brasileiras e para cada 5 moedas brasileiras, ele tem 2 francesas. Com relação às moedas de Michael, a razão entre a quantidade de moedas brasileiras e a quantidade de moedas não brasileiras é igual a 7
 
-* **A)** Uma especificação OpenAPI 3.0 padronizada em formato YAML/JSON descrevendo rigorosamente endpoints, métodos HTTP, parâmetros de consulta, cabeçalhos, schemas de requisição e códigos de resposta esperados.
-* **B)** Um arquivo executável `.bat` que formata o sistema operacional do servidor de banco de dados. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **C)** Um contrato de prestação de serviços civis sem valor jurídico.
-* **D)** Novas licenças de software comercial sem pagamento de royalties.
-* **E)** Um relatório financeiro com as despesas pessoais do gestor de TI.
-
+* **A)** 5. 12
+* **B)** 7 . 25
+* **C)** 19. 30
+* **D)** 23. 35
+* **E)** 29.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Correta.** Agentes de IA são extraordinariamente eficazes em inspecionar controladores legados (Spring Boot, Express, Django) e produzir contratos padronizados OpenAPI 3.0/3.1 com tipagem completa de payloads e códigos HTTP, viabilizando governança e interoperabilidade.
-> - **B) Incorreta.** Ação destrutiva.
-> - **C) Incorreta.** OpenAPI é um contrato técnico de especificação de software.
-> - **D) Incorreta.** Sem relação com licenciamento comercial.
-> - **E) Incorreta.** Alheio à engenharia de software.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "5. 12". De acordo com a teoria estudada em *3.1 Docstrings, Javadoc e Comentários Semânticos*, a documentação no nível do código-fonte é sintetizada de acordo com os padrões da linguagem.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "7 . 25". De acordo com a teoria estudada em *3.1 Docstrings, Javadoc e Comentários Semânticos*, java (Javadoc): Descrição formal de classes, métodos, parâmetros (`@param`), valores de retorno (`@return`) e exceções disparadas (`@throws`).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "19. 30". De acordo com a teoria estudada em *3.1 Docstrings, Javadoc e Comentários Semânticos*, python (PEP 257): Docstrings estruturadas explicando o comportamento de funções, tipos de argumentos e invariantes de execução.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "23. 35". De acordo com a teoria estudada em *3.1 Docstrings, Javadoc e Comentários Semânticos*, regra de Ouro: A documentação gerada deve focar no "PORQUÊ" daquela decisão arquitetural, e não apenas na descrição óbvia do código que qualquer programador conseguiria ler diretamente.
+> - **E)** **Correta.** Conforme fundamentado na seção *1.3 Modernização e Tradução de Sistemas Legados: Riscos Aritméticos* deste guia, contudo, os tipos `float` e `double` (norma IEEE 754) introduzem imprecisões binárias de arredondamento cumulativo em cálculos de moedas e alíquotas (ex.: `0.1 + 0.2 != 0.3`). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-16/2022) ao estabelecer que "29".
 >
-> **Gabarito: A**
+> **Gabarito: E**
 
 ---
 
@@ -354,54 +346,50 @@ Ao identificar a causa-raiz de um incidente, a boa prática da engenharia de sof
 ---
 
 ### Teste 145
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Durante a depuração de incidentes em produção, a análise de *Stack Traces* por assistentes de IA acelera significativamente a resolução de problemas críticos. Para que o diagnóstico seja assertivo e identifique a causa-raiz com precisão, a análise deve correlacionar a pilha de erro com:
+**(FGV – TRT-24 – Analista Judiciario Area Apoio Especializado Tecnologia da Informacao – 2025)**
+Hibernate 7.0 representa um marco significativo na evolução do Hibernate ORM com foco especial na sua nova especificação para repositórios. O Hibernate Data Repositories é uma implementação baseado no
 
-* **A)** O clima meteorológico da cidade onde se localiza o data center.
-* **B)** A linha e o método exatos de lançamento da exceção no código-fonte, os parâmetros de entrada reportados no log e os commits recentes que alteraram aquela lógica de negócio.
-* **C)** A cor de fundo da área de trabalho do usuário que sofreu o erro.
-* **D)** A quantidade de cabos de rede conectados no switch principal do prédio.
-* **E)** O modelo do teclado mecânico utilizado pelo desenvolvedor que escreveu o código original garantindo a observância dos protocolos de governança e interoperabilidade vigentes.
-
+* **A)** Java EE8.
+* **B)** JBoss 3.0.
+* **C)** JQuery Data.
+* **D)** Jakarta Data.
+* **E)** Jakarta API 2.0.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Dados irrelevantes.
-> - **B) Correta.** A investigação assistida correlaciona o *stack trace* (ponto de falha e propagação da exceção) com o contexto do repositório (código-fonte na versão exata do deploy, histórico do git blame/diff e dados de telemetria), isolando a causa-raiz (*Root Cause Analysis*).
-> - **C) Incorreta.** Fator sem relevância técnica.
-> - **D) Incorreta.** Infraestrutura de camada física desprovida de conexão com o stack trace de software.
-> - **E) Incorreta.** Irrelevante.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Java EE8". De acordo com a teoria estudada em *1.3 Modernização e Tradução de Sistemas Legados: Riscos Aritméticos*, a migração de sistemas governamentais legados (especialmente rotinas tributárias e de arrecadação em COBOL ou PL/SQL para microsserviços modernos em Java 21, Kotlin ou Python) é uma das aplicações mais estratégicas de IA no setor público.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "JBoss 3.0". De acordo com a teoria estudada em *4.1 Análise de Stack Traces e Decodificação de Erros Críticos*, frameworks corporativos modernos emitem rastreamentos de pilha (*stack traces*) extensos contendo centenas de linhas de chamadas internas da infraestrutura (Spring, Tomcat, Hibernate).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "JQuery Data". De acordo com a teoria estudada em *1.1 Scaffolding, Código Repetitivo (Boilerplate) e CRUDs Estruturais*, foco no Domínio: Ao transferir a codificação mecânica de infraestrutura para a IA, os engenheiros de software concentram-se no núcleo das regras de negócio fiscais, auditoria orçamentária e conformidade jurídica.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.1 Scaffolding, Código Repetitivo (Boilerplate) e CRUDs Estruturais* deste guia, redução do Esforço em Boilerplate: Tarefas repetitivas e mecânicas — como a criação de classes de entidade (*JPA/Hibernate*), objetos de transferência de dados (*DTOs*), mapeadores (*Mappers/MapStruct*), repositórios (*Spring Data JPA*) e controladores REST — são geradas em segundos a partir de especificações de esquema relacional (DDL) ou contratos de interface. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "Jakarta Data".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Jakarta API 2.0". De acordo com a teoria estudada em *1.1 Scaffolding, Código Repetitivo (Boilerplate) e CRUDs Estruturais*, anotações de Validação: A IA infere e aplica automaticamente regras de validação padronizadas (`@NotNull`, `@Size`, `@NotBlank`, `@Email`, `@PositiveOrZero`), diminuindo falhas de integridade na camada de borda da API.
 >
-> **Gabarito: B**
+> **Gabarito: D**
 
 ---
 
 ### Teste 146
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em um incidente de produção no qual um microsserviço de emissão de guias de recolhimento apresenta travamento intermitente por esgotamento de conexões com o banco de dados (*connection pool exhaustion*), a equipe recorreu a um modelo de IA para auxiliar na depuração através da análise dos logs de eventos e do código da aplicação.
+**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Desenvolvimento de Sistemas – 2023)**
+Analise o código Python a seguir. L=[1,2] while len(L) < 10: L.append(L[-1] + L[-2]) print (L[-1]) O valor exibido na execução desse código é:
 
-A respeito da atuação da IA no processo de depuração (*debugging*), assinale a afirmativa correta:  
-
-* **A)** O modelo é capaz de interpretar o stack trace e identificar que certos blocos de transação de banco de dados não estão liberando conexões em blocos `finally` ou que falta o fechamento automático via blocos `try-with-resources`.
-* **B)** A IA altera os servidores físicos da infraestrutura em tempo real sem emitir registros nos logs de auditoria.
-* **C)** Ferramentas de IA são incapazes de analisar arquivos de log em formato texto estruturado como JSON ou Logstash.
-* **D)** O uso de IA para diagnóstico exime a necessidade de a equipe reproduzir o problema em ambientes de homologação.
-* **E)** Modelos de linguagem conseguem interceptar o fluxo elétrico das fontes de alimentação dos servidores para eliminar deadlocks.
-
+* **A)** -1;
+* **B)** 1;
+* **C)** 2;
+* **D)** 89;
+* **E)** 144.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **CORRETA.** Modelos de linguagem são altamente eficazes no reconhecimento de padrões de vazamento de recursos (*resource leaks*), apontando com exatidão métodos onde objetos de conexão JDBC não foram encapsulados em blocos `try-with-resources` (`AutoCloseable`), provocando a retenção indevida de conexões que esgota o pool sob carga.
-> - **B)** Incorreta. LLMs operam sobre código e textos, não exercendo controle físico sobre hardwares sem auditoria.
-> - **C)** Incorreta. A interpretação de logs estruturados em JSON, Log4j ou Logstash é uma das tarefas mais maduras de assistentes generativos.
-> - **D)** Incorreta. A reprodução da falha e a validação do patch corretivo em ambiente de testes antes da ida para produção permanecem mandatórias.
-> - **E)** Incorreta. Deadlocks são conflitos lógicos de concorrência de software, não tendo qualquer relação com controle elétrico de fontes de alimentação.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "-1". De acordo com a teoria estudada em *3.1 Docstrings, Javadoc e Comentários Semânticos*, python (PEP 257): Docstrings estruturadas explicando o comportamento de funções, tipos de argumentos e invariantes de execução.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1". De acordo com a teoria estudada em *1.3 Modernização e Tradução de Sistemas Legados: Riscos Aritméticos*, ao traduzir esse código para Java ou Python, modelos de IA frequentemente sugerem tipos primitivos de ponto flutuante binário (`float` ou `double`), por serem mais concisos.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2". De acordo com a teoria estudada em *1.3 Modernização e Tradução de Sistemas Legados: Riscos Aritméticos*, em código fiscal de órgãos de controle externo, é mandatório o uso de classes de precisão arbitrária exata (`java.math.BigDecimal` em Java ou o módulo `decimal` em Python) com estratégias explícitas de arredondamento (`RoundingMode.HALF_EVEN`).
+> - **D)** **Correta.** Conforme fundamentado na seção *4.1 Análise de Stack Traces e Decodificação de Erros Críticos* deste guia, traduz mensagens herméticas para linguagem natural, explicando a condição de contorno que causou a falha (ex.: violação de chave estrangeira por registro órfão ou valor nulo não tratado). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "89".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "144". De acordo com a teoria estudada em *4.1 Análise de Stack Traces e Decodificação de Erros Críticos*, frameworks corporativos modernos emitem rastreamentos de pilha (*stack traces*) extensos contendo centenas de linhas de chamadas internas da infraestrutura (Spring, Tomcat, Hibernate).
+>
+> **Gabarito: D**
 
 ---
 
@@ -476,81 +464,74 @@ flowchart LR
 ---
 
 ### Teste 147
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Ao utilizar assistentes de IA generativa para a criação automatizada de testes de software, engenheiros de controle de qualidade identificam com frequência a denominada *"Armadilha da Implementação Defeituosa"*. Essa falha metodológica crítica ocorre quando:
+**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Seguranca da Informacao – 2023)**
+A Internet das Coisas, ou IoT (Internet of Things) como muitos conhecem, está dentro do tema casa inteligente, uma vez que faz com que “coisas” possam se comunicar, trocar informações e tomar decisões pré-programadas. Nesse contexto, o protocolo sem fio muito usado em dispositivos de casa inteligente, principalmente pela facilidade de transmitir pequenos pacotes de dados, com baixo consumo de energia e que não depende do Wi-Fi para funcionar, é o:
 
-* **A)** O modelo de linguagem recusa-se a gerar qualquer assertiva de teste unitário.
-* **B)** A IA gera casos de teste que apenas confirmam o comportamento atual e defeituoso do código implementado, em vez de validar a regra de negócio correta expressa na especificação de requisitos.
-* **C)** Os testes gerados passam a exigir que o computador execute sob refrigeração criogênica de nitrogênio líquido considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
-* **D)** A ferramenta de teste apaga todos os bancos de dados da rede corporativa.
-* **E)** A suíte de testes passa a executar exclusivamente em linguagem Assembly de 8 bits.
-
+* **A)** zigbee;
+* **B)** gateway;
+* **C)** relé smart;
+* **D)** 6lowPAN;
+* **E)** tuya.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** A IA gera os testes com facilidade, mas eles podem ser falsamente positivos.
-> - **B) Correta.** É a grande armadilha da geração cega de testes por IA: se a função possui um bug lógico (ex: calcula imposto com alíquota errada de 5% em vez de 15%), e o desenvolvedor pede para a IA "gerar testes para esta função", a IA deduz que a implementação é a verdade e cria asserções como `assertEquals(5, calcularImposto())`, institucionalizando o defeito com 100% de cobertura de código. Os testes devem ser guiados pela especificação do requisito, e não pelo código defeituoso.
-> - **C) Incorreta.** Afirmação absurda.
-> - **D) Incorreta.** Testes unitários operam em memória e não deletam bases externas.
-> - **E) Incorreta.** Testes executam na mesma linguagem do projeto (JUnit, Jest, PyTest etc.).
+> - **A)** **Correta.** Conforme fundamentado na seção *1.4 Completamento Inteligente de Código: Ghost Text e AST Local* deste guia, contexto da AST (Abstract Syntax Tree): O assistente inspeciona a árvore sintática do arquivo em edição, classes importadas, tipos retornados por métodos e abas adjacentes recentemente abertas, assegurando coerência tipográfica e semântica com o restante da solução. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "zigbee".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "gateway". De acordo com a teoria estudada em *5.3 Geração de Cenários BDD Executáveis (Gherkin)*, modelos de IA sintetizam com facilidade especificações executáveis em conformidade com o padrão BDD.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "relé smart". De acordo com a teoria estudada em *5.2 Cobertura Sistemática de Casos de Borda (Edge Cases)*, coleções: Listas vazias, coleções com um único elemento e arrays com volumes massivos de dados.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "6lowPAN". De acordo com a teoria estudada em *1.2 Síntese de Algoritmos Complexos e Regras de Negócio*, pré-requisito Vital: A qualidade e corretude do algoritmo gerado dependem estritamente da clareza com que o desenvolvedor estabelece as pré-condições, pós-condições e invariantes lógicas na especificação enviada.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "tuya". De acordo com a teoria estudada em *3.3 Diagramação Arquitetural Declarativa com Mermaid.js e PlantUML*, em vez de diagramas estáticos desenhados em ferramentas gráficas externas (que ficam rapidamente desatualizados), o agente de IA sintetiza diagramas baseados em texto dentro da própria documentação Markdown.
 >
-> **Gabarito: B**
+> **Gabarito: A**
 
 ---
 
 ### Teste 148
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Durante a fase de homologação de um módulo contábil no TCE-GO, um programador utilizou uma ferramenta de inteligência artificial generativa para gerar automaticamente uma suíte de testes unitários em JUnit a partir do código-fonte recém-escrito de uma classe de cálculo de multas.
+**(IBFC – TJ-MG – Analista Judiciario Classe C Analista de Tecnologia da Informacao – 2022)**
+Leia atentamente a frase abaixo: "O ______ é uma camada que descreve uma interface comum para frameworks ______ como o ______". Assinale a alternativa que preencha correta e respectivamente as lacunas.
 
-Ao analisar as práticas recomendadas e os riscos associados à geração de testes automatizados assistidos por IA, assinale a afirmativa correta:  
-
-* **A)** O uso de IA para testes dispensa totalmente a verificação humana das asserções (`assert`), já que modelos de linguagem possuem prova formal matemática de corretude lógica. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **B)** A ferramenta de IA é incapaz de testar casos de borda (*edge cases*), limitando-se unicamente ao caminho feliz (*happy path*) pré-definido pelo framework de teste.
-* **C)** Um dos principais riscos da geração de testes com base apenas no código existente é o teste da implementação em vez do comportamento pretendido: se o código possuir um bug na fórmula matemática, a IA pode gerar testes que asseveram o resultado incorreto como sendo o esperado, perpetuando o defeito.
-* **D)** Testes unitários gerados por IA tornam desnecessárias as etapas subsequentes de testes de integração, testes de carga e testes de segurança da aplicação.
-* **E)** A IA é legalmente responsável por falhas funcionais que passem despercebidas para o ambiente de produção após a execução da suíte de testes sintetizada.
-
+* **A)** JVM / ORM / Hibernate
+* **B)** JPA / ORM / Hibernate
+* **C)** JVM / ORM / OpenJDK
+* **D)** JPA / DBA / OpenJDK
+* **E)** JPA / DBA / Hibernate
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Modelos de IA operam por aproximação estatística probabilística e não fornecem provas formais matemáticas de corretude, sendo indispensável a validação das asserções por desenvolvedores humanos.
-> - **B)** Incorreta. A geração automática de casos de borda (*edge cases*: entradas nulas, números negativos, limites extremos de tipos inteiros) é exatamente um dos pontos fortes dos modelos de IA.
-> - **C)** **CORRETA.** Se o código-fonte fornecido contiver um erro conceitual de negócio e o prompt não trouxer a especificação independente, a IA tomará a implementação com defeito como referência de verdade. Suas asserções validarão o cálculo errado, gerando testes que passarão com 100% de sucesso na esteira de CI/CD, mascarando o defeito.
-> - **D)** Incorreta. Testes unitários cobrem métodos isolados em memória; eles não atestam o comportamento integrado com banco de dados, filas ou desempenho sob carga.
-> - **E)** Incorreta. A responsabilidade técnica e civil recai sempre sobre os servidores e a equipe de engenharia do órgão público.
-> 
-> **Gabarito: C**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "JVM / ORM / Hibernate". De acordo com a teoria estudada em *4.1 Análise de Stack Traces e Decodificação de Erros Críticos*, frameworks corporativos modernos emitem rastreamentos de pilha (*stack traces*) extensos contendo centenas de linhas de chamadas internas da infraestrutura (Spring, Tomcat, Hibernate).
+> - **B)** **Correta.** Conforme fundamentado na seção *1.1 Scaffolding, Código Repetitivo (Boilerplate) e CRUDs Estruturais* deste guia, redução do Esforço em Boilerplate: Tarefas repetitivas e mecânicas — como a criação de classes de entidade (*JPA/Hibernate*), objetos de transferência de dados (*DTOs*), mapeadores (*Mappers/MapStruct*), repositórios (*Spring Data JPA*) e controladores REST — são geradas em segundos a partir de especificações de esquema relacional (DDL) ou contratos de interface. Dessa forma, está plenamente correta a assertiva da banca (IBFC – TJ-MG/2022) ao estabelecer que "JPA / ORM / Hibernate".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "JVM / ORM / OpenJDK". De acordo com a teoria estudada em *1.1 Scaffolding, Código Repetitivo (Boilerplate) e CRUDs Estruturais*, anotações de Validação: A IA infere e aplica automaticamente regras de validação padronizadas (`@NotNull`, `@Size`, `@NotBlank`, `@Email`, `@PositiveOrZero`), diminuindo falhas de integridade na camada de borda da API.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "JPA / DBA / OpenJDK". De acordo com a teoria estudada em *2.1 Linters Estáticos Tradicionais (AST/SAST) vs. Agentes de AI Code Review*, papel na Governança: Base obrigatória e inegociável de conformidade de estilo, cobertura e padrões de código. — Camada inteligente de triagem, síntese de alterações e detecção de falhas lógicas sutis para apoiar a revisão humana.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "JPA / DBA / Hibernate". De acordo com a teoria estudada em *5.2 Cobertura Sistemática de Casos de Borda (Edge Cases)*, enquanto desenvolvedores humanos frequentemente testam apenas o caminho feliz (*happy path*), modelos de linguagem são excelentes na exploração exaustiva de condições limites.
+>
+> **Gabarito: B**
 
 ---
 
 ### Teste 149
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Para aferir a real qualidade de uma suite de testes unitários sintetizada por uma ferramenta de IA generativa, um arquiteto de software sugeriu a aplicação de Testes de Mutação (*Mutation Testing*).
+**(IBFC – TJ-MG – Analista Judiciario Classe C Analista de Tecnologia da Informacao – 2022)**
+Quanto à arquitetura distribuída de microsserviços temos o Spring Framework. Dentro desse ecossistema temos o Spring Boot que possui os seguintes componentes-base: (1) Spring Boot Actuator. (2) Spring Boot Finisher. (3) Spring Boot AutoConfigurator. (4) Spring Boot Starter. Da relação apresentada:
 
-O princípio básico dos Testes de Mutação para validar a eficácia da suíte de testes gerada pela IA consiste em:  
-
-* **A)** Modificar os testes até que a taxa de cobertura de código atinja exatamente 200%.
-* **B)** Introduzir modificações sintáticas pontuais e deliberadas no código-fonte sob teste (mutantes), verificando se a suíte de testes é capaz de falhar ao executá-los; caso os testes continuem passando mesmo com as alterações defeituosas no código, evidencia-se a ineficácia das asserções dos testes gerados.
-* **C)** Treinar um novo modelo de IA que substitui todo o código da aplicação por scripts em shell script.
-* **D)** Validar unicamente a velocidade de inicialização do sistema operacional da máquina onde o teste é executado.
-* **E)** Comparar a quantidade de caracteres do código com o tamanho do disco rígido da estação de trabalho.
-
+* **A)** somente são aplicados o 1, 2 e 3
+* **B)** somente são aplicados o 1, 2 e 4
+* **C)** somente são aplicados o 2, 3 e 4
+* **D)** somente são aplicados o 1, 3 e 4
+* **E)** todos podem ser aplicados
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Cobertura de código é uma porcentagem estritamente limitada ao intervalo de 0% a 100%.
-> - **B)** **CORRETA.** O Teste de Mutação (*Mutation Testing*) introduz falhas artificiais intencionais no código compilado sob teste (mutantes). Se a suíte de testes falhar, o mutante foi "morto", comprovando que as asserções (`assert`) são sensíveis e eficazes. Se os testes continuarem passando mesmo com o código adulterado, o mutante "sobreviveu", revelando que os testes gerados pela IA são superficiais e incapazes de capturar defeitos reais.
-> - **C)** Incorreta. Testes de mutação não envolvem retreinamento de modelos nem conversão de linguagens para shell script.
-> - **D)** Incorreta. A técnica afere a robustez lógica das asserções, não o tempo de boot do sistema operacional.
-> - **E)** Incorreta. Comparação esdrúxula e sem fundamentação na engenharia de testes de software.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente são aplicados o 1, 2 e 3". De acordo com a teoria estudada em *2.1 Linters Estáticos Tradicionais (AST/SAST) vs. Agentes de AI Code Review*, papel na Governança: Base obrigatória e inegociável de conformidade de estilo, cobertura e padrões de código. — Camada inteligente de triagem, síntese de alterações e detecção de falhas lógicas sutis para apoiar a revisão humana.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente são aplicados o 1, 2 e 4". De acordo com a teoria estudada em *2.2 Identificação de Code Smells, Débito Técnico e Violações de SOLID*, código Duplicado e Obsolescência: Identificação de reimplementações de funções utilitárias que já existem no ecossistema da biblioteca padrão.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente são aplicados o 2, 3 e 4". De acordo com a teoria estudada em *3.3 Diagramação Arquitetural Declarativa com Mermaid.js e PlantUML*, em vez de diagramas estáticos desenhados em ferramentas gráficas externas (que ficam rapidamente desatualizados), o agente de IA sintetiza diagramas baseados em texto dentro da própria documentação Markdown.
+> - **D)** **Correta.** Conforme fundamentado na seção *5.4 Testes de Mutação (Mutation Testing): Avaliando a Real Eficácia dos Testes* deste guia, mutante Sobrevivente (*Survived Mutant*): O código foi sabotado pelo motor de mutação, mas a suíte de testes continuou passando com sucesso! Isso comprova que a suíte gerada pela IA possui asserções fracas ou testes superficiais que apenas percorrem as linhas sem checar a lógica do negócio. Dessa forma, está plenamente correta a assertiva da banca (IBFC – TJ-MG/2022) ao estabelecer que "somente são aplicados o 1, 3 e 4".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "todos podem ser aplicados". De acordo com a teoria estudada em *1.1 Scaffolding, Código Repetitivo (Boilerplate) e CRUDs Estruturais*, redução do Esforço em Boilerplate: Tarefas repetitivas e mecânicas — como a criação de classes de entidade (*JPA/Hibernate*), objetos de transferência de dados (*DTOs*), mapeadores (*Mappers/MapStruct*), repositórios (*Spring Data JPA*) e controladores REST — são geradas em segundos a partir de especificações de esquema relacional (DDL) ou contratos de interface.
+>
+> **Gabarito: D**
 
 ---
 

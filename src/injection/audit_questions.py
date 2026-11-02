@@ -1,28 +1,37 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+src/injection/audit_questions.py
+
+Audita os 119 guias de estudo em docs/ e o banco sanitizado data/banco_questoes_v2.json,
+imprimindo o relatório consolidado de cobertura real vs. simulada por módulo e globalmente.
+"""
+
 import json
 import os
-import glob
 import re
 
-BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
-DB_FILE = os.path.join(BASE_DIR, 'data', 'banco_questoes_extraidas.json')
-DOCS_DIR = os.path.join(BASE_DIR, 'docs')
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+DB_FILE = os.path.join(BASE_DIR, "data", "banco_questoes_v2.json")
+DOCS_DIR = os.path.join(BASE_DIR, "docs")
+
 
 def audit():
-    with open(DB_FILE, 'r', encoding='utf-8') as f:
+    with open(DB_FILE, "r", encoding="utf-8") as f:
         db = json.load(f)
 
-    questoes_db = db.get('questoes', [])
+    questoes_db = db.get("questoes", [])
     total_banco = len(questoes_db)
-    injetadas_db = sum(1 for q in questoes_db if q.get('status_integracao') == 'injetada')
-    pendentes_db = sum(1 for q in questoes_db if q.get('status_integracao') != 'injetada')
+    injetadas_db = sum(1 for q in questoes_db if q.get("status_integracao") == "injetada")
+    pendentes_db = sum(1 for q in questoes_db if q.get("status_integracao") != "injetada")
 
     all_mds = []
-    for root, dirs, files in os.walk(DOCS_DIR):
-        if 'resources' in root:
+    for root, _, files in os.walk(DOCS_DIR):
+        if "resources" in root:
             continue
         for f in files:
-            if f.endswith('.md') and not f.endswith('README.md') and not f.endswith('relatorio_cobertura_questoes.md'):
-                all_mds.append(os.path.join(root, f).replace('\\', '/'))
+            if f.endswith(".md") and f not in ("README.md", "relatorio_cobertura_questoes.md", "index.md"):
+                all_mds.append(os.path.join(root, f).replace("\\", "/"))
 
     modules_stat = {}
     total_questoes_files = 0
@@ -30,25 +39,26 @@ def audit():
     total_sim_files = 0
 
     for path in sorted(all_mds):
-        content = open(path, encoding='utf-8').read()
-        headers = re.findall(r'### Teste \d+\s*\n([^\n]+)', content)
-        
-        parts = path.split('/')
-        module = 'desconhecido'
-        if 'docs' in parts:
-            docs_idx = parts.index('docs')
+        with open(path, encoding="utf-8") as fp:
+            content = fp.read()
+        headers = re.findall(r"### Teste \d+\s*\n([^\n]+)", content)
+
+        parts = path.split("/")
+        module = "desconhecido"
+        if "docs" in parts:
+            docs_idx = parts.index("docs")
             if len(parts) > docs_idx + 2:
                 module = parts[docs_idx + 2]
-        
+
         if module not in modules_stat:
             modules_stat[module] = {"total": 0, "reais": 0, "simuladas": 0, "arquivos": 0}
-        
+
         modules_stat[module]["arquivos"] += 1
-        
+
         for h in headers:
             total_questoes_files += 1
             modules_stat[module]["total"] += 1
-            if 'Simulada' in h or 'Inédita' in h:
+            if "Simulada" in h or "Inédita" in h:
                 total_sim_files += 1
                 modules_stat[module]["simuladas"] += 1
             else:
@@ -59,14 +69,14 @@ def audit():
     print(f"{'MÓDULO':<50} | {'REAIS':<6} | {'SIM':<6} | {'TOTAL':<6} | {'% REAL':<8}")
     print("=" * 85)
     for mod, stat in sorted(modules_stat.items()):
-        pct = (stat['reais'] / stat['total'] * 100) if stat['total'] > 0 else 0
+        pct = (stat["reais"] / stat["total"] * 100) if stat["total"] > 0 else 0
         print(f"{mod:<50} | {stat['reais']:<6} | {stat['simuladas']:<6} | {stat['total']:<6} | {pct:>6.1f}%")
     print("=" * 85)
     pct_global = (total_reais_files / total_questoes_files * 100) if total_questoes_files > 0 else 0
     print(f"{'TOTAL GERAL':<50} | {total_reais_files:<6} | {total_sim_files:<6} | {total_questoes_files:<6} | {pct_global:>6.1f}%")
     print("=" * 85)
-    print(f"Banco de Questões: {total_banco} itens ({injetadas_db} marcadas injetadas, {pendentes_db} pendentes)")
+    print(f"Banco de Questões V2: {total_banco} itens ({injetadas_db} marcadas injetadas, {pendentes_db} disponíveis no acervo reserva)")
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     audit()
-

@@ -189,203 +189,196 @@ O PAD é o procedimento contraditório formal destinado a apurar a responsabilid
 ---
 
 ### Teste 152
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Lucas, servidor público estável do Estado de Goiás, obteve aprovação em concurso público e foi nomeado para cargo de outra carreira estadual inacumulável. Durante a realização do estágio probatório do novo cargo, foi considerado inapto pela comissão de avaliação e formalmente inabilitado. Paralelamente, em outra repartição, Beatriz, servidora pública estável demitida por falta funcional, teve sua demissão invalidada por decisão judicial transitada em julgado. De acordo com a Lei Estadual nº 20.756/2020, o retorno de Lucas ao cargo primitivo e a reintegração de Beatriz ao cargo público ocupado anteriormente caracterizam, respectivamente:
+**(CEBRASPE – TRT-8 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2016)**
+Após denúncia anônima contendo documentos que permitiram a determinada autarquia federal conhecer indícios de infração administrativa cometida por servidor público a ela vinculado, instaurou-se, no âmbito da entidade, processo administrativo disciplinar (PAD). Para compor a comissão responsável pelo PAD foi designado, entre outros membros, parente de quarto grau em linha colateral do servidor processado. A instrução processual foi ampla e houve necessidade de se prorrogar o prazo para a conclusão dos trabalhos. Ao final, o servidor, que optou por apresentar defesa pessoalmente, dispensando assistência técnica de advogado, foi indiciado. Superado o prazo para a conclusão do processo, sobreveio decisão proferida pela autoridade competente em que foi reconhecida a prescrição da pretensão punitiva da administração pública e a extinção da punibilidade. Ainda assim, em atendimento ao princípio da publicidade, foi promovido o registro do PAD e do seu resultado nos assentamentos funcionais do servidor. Com base no disposto na Lei n.º 8.112/1990 e considerando a doutrina e a jurisprudência, é correto afirmar que, na situação apresentada, houve irregularidade decorrente
 
-* **A)** Reversão e Aproveitamento.
-* **B)** Recondução e Reintegração.
-* **C)** Readaptação e Reversão.
-* **D)** Reintegração e Recondução.
-* **E)** Aproveitamento e Readaptação.
-
+* **A)** do fato de a comissão ter sido integrada pelo parente do servidor.
+* **B)** do registro nos assentamentos funcionais do servidor.
+* **C)** do excesso de prazo para conclusão do processo.
+* **D)** da ausência de defesa técnica por advogado.
+* **E)** do fato de a denúncia que deu origem à instauração do PAD ser anônima.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Reversão é o retorno do aposentado e aproveitamento é a convocação de servidor colocado em disponibilidade.
-> - **B) CORRETA.** Nos termos dos mandamentos expressos da Lei Estadual nº 20.756/2020:
->     - **Recondução:** É o retorno do servidor estável ao cargo anteriormente ocupado, decorrente de sua inabilitação em estágio probatório relativo a outro cargo público (situação de Lucas) ou de reintegração do anterior ocupante, sem direito a qualquer indenização financeira.
->     - **Reintegração:** É o retorno do servidor estável ao cargo anteriormente ocupado quando sua demissão for invalidada por decisão judicial ou administrativa, com ressarcimento integral de todas as vantagens pecuniárias e vencimentos pretéritos (situação de Beatriz).
-> - **C) Incorreta.** Readaptação pressupõe limitação superveniente física ou mental atestada em perícia oficial; reversão cuida do retorno do inativo.
-> - **D) Incorreta.** A ordem lógica e jurídica dos institutos está invertida.
-> - **E) Incorreta.** Nenhum dos dois casos trata de disponibilidade nem readaptação funcional.
-> 
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "do fato de a comissão ter sido integrada pelo parente do servidor". De acordo com a teoria estudada em *1.7 Prescrição da Pretensão Punitiva Disciplinar*, termo Inicial: O prazo prescricional começa a correr na data em que a autoridade competente para instaurar o processo disciplinar toma conhecimento formal do fato.
+> - **B)** **Correta.** Conforme fundamentado na seção *1.8 Sindicância e Processo Administrativo Disciplinar (PAD)* deste guia, inquérito Administrativo: Subdivide-se em instrução probatória (oitiva de testemunhas, juntada de perícias e documentos), defesa (citação do acusado para apresentação de defesa escrita) e relatório conclusivo minucioso da comissão. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT-8/2016) ao estabelecer que "do registro nos assentamentos funcionais do servidor".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "do excesso de prazo para conclusão do processo". De acordo com a teoria estudada em *1.7 Prescrição da Pretensão Punitiva Disciplinar*, interrupção: A publicação do ato de instauração de sindicância ou do Processo Administrativo Disciplinar (PAD) interrompe a contagem do prazo de prescrição da pretensão punitiva.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "da ausência de defesa técnica por advogado". De acordo com a teoria estudada em *1.8 Sindicância e Processo Administrativo Disciplinar (PAD)*, julgamento: Decisão fundamentada proferida pela autoridade competente para a aplicação da penalidade.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "do fato de a denúncia que deu origem à instauração do PAD ser anônima". De acordo com a teoria estudada em *1.8 Sindicância e Processo Administrativo Disciplinar (PAD)*, instauração: Publicação da portaria designando comissão processante tripartite (composta por três servidores estáveis).
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 153
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Mariana foi nomeada para cargo de provimento efetivo no serviço público de Goiás e compareceu tempestivamente à repartição, prestando compromisso e assinando o termo de posse. Entretanto, por motivos estritamente particulares, Mariana não compareceu para assumir as atribuições funcionais e não entrou em efetivo exercício no prazo legal fixado pelo estatuto funcional. De acordo com as normas da Lei Estadual nº 20.756/2020:
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Ciencias da Computacao Sistemas de Informacao – 2026)**
+Walter, auditor fiscal de controle externo do Tribunal de Contas do Estado de Santa Catarina (TCE/SC), recentemente, praticou conduta que caracteriza infração disciplinar de menor potencial ofensivo, em decorrência de problemas de ordem pessoal devidamente justificados, que comprometeram a sua rotina funcional, sendo certo que, na última sexta-feira, tomou conhecimento da instauração do respectivo processo administrativo disciplinar Ocorre que, anteriormente, diante de outra infração disciplinar de menor potencial ofensivo, em razão da falta de treinamento na área técnica relacionada, Walter já havia formalizado o aludido instrumento consensual com a Administração Pública, o qual foi devidamente cumprido. Diante dessa situação hipotética, assinale a afirmativa correta à luz do disposto na Resolução nº 302/2026, que institui a Política de Gestão e Controle da Disciplina no âmbito do Tribunal de Contas do Estado de Santa Catarina (TCE/SC).
 
-* **A)** O ato de nomeação de Mariana será sumariamente tornado sem efeito por decreto do Governador.
-* **B)** Mariana será exonerada de ofício do cargo público no qual havia tomado posse.
-* **C)** A posse será anulada retroativamente, aplicando-se suspensão de seus direitos políticos por improbidade administrativa.
-* **D)** O prazo de exercício será prorrogado compulsoriamente por igual período mediante requerimento de ofício do chefe imediato.
-* **E)** Será instaurado Processo Administrativo Disciplinar para aplicação da penalidade de demissão por abandono de cargo.
-
+* **A)** As comissões sindicantes e processantes poderão propor o termo de ajustamento de conduta em procedimentos disciplinares em curso até a elaboração do relatório conclusivo.
+* **B)** A celebração de termo de ajustamento de conduta, preenchidos os requisitos estabelecidos na norma em questão, é direito subjetivo do servidor, inexistindo discricionariedade para a Administração.
+* **C)** O servidor não poderá formalizar novo termo de ajustamento de conduta, na medida em que tal instrumento consensual somente pode ser aplicado uma vez para cada servidor, sendo vedado nas hipóteses de novas infrações.
+* **D)** Os problemas de ordem pessoal devidamente justificados e que possam comprometer a rotina profissional do servidor não caracterizam circunstância que justifica a celebração de termo de ajustamento de conduta.
+* **E)** O servidor não poderá propor a celebração do termo de ajustamento de conduta após tomar conhecimento do processo disciplinar, considerando que tal instrumento consensual somente pode ser celebrado antes de sua instauração.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** O ato de nomeação é tornado *sem efeito* apenas quando o nomeado deixa de tomar posse no prazo legal de 30 dias. A partir do momento em que Mariana assinou o termo de posse, ela tornou-se formalmente servidora pública.
-> - **B) CORRETA.** Nos termos estritos da Lei Estadual nº 20.756/2020, o prazo para o servidor empossado entrar em exercício é de **15 (quinze) dias**. Se o servidor toma posse regularmente, mas **não entra em exercício** dentro do prazo legal fixado, a consequência expressa é a sua **exoneração de ofício**.
-> - **C) Incorreta.** O não comparecimento para o exercício funcional não constitui causa de anulação da posse válida e nem atrai improbidade administrativa com suspensão de direitos políticos.
-> - **D) Incorreta.** Não há previsão estatutária para dilação compulsória de prazo de exercício por iniciativa unilateral da chefia imediata sem expressa solicitação fundamentada da servidora.
-> - **E) Incorreta.** O abandono de cargo pressupõe que o servidor esteja no exercício efetivo das atribuições e se ausente por mais de 30 dias consecutivos; para o empossado inerte que nunca entrou em exercício, o estatuto comina a **exoneração de ofício**.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "As comissões sindicantes e processantes poderão propor o termo de ajustamento de conduta em procedimentos...". De acordo com a teoria estudada em *1.8 Sindicância e Processo Administrativo Disciplinar (PAD)*, inquérito Administrativo: Subdivide-se em instrução probatória (oitiva de testemunhas, juntada de perícias e documentos), defesa (citação do acusado para apresentação de defesa escrita) e relatório conclusivo minucioso da comissão.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A celebração de termo de ajustamento de conduta, preenchidos os requisitos estabelecidos na norma em questão, é...". De acordo com a teoria estudada em *1.3 Estágio Probatório, Fatores de Avaliação e Hipóteses de Inaptidão*, se o servidor já era estável em cargo público estadual anterior: é reconduzido ao cargo de origem anteriormente ocupado, sem direito a indenização.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.6 Regime Disciplinar: Deveres, Proibições e Penalidades* deste guia, conversão em Multa: Quando houver conveniência para o serviço público, a penalidade de suspensão poderá ser convertida em multa na base de 50% (cinquenta por cento) por dia de remuneração, ficando o servidor obrigado a permanecer em serviço. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "O servidor não poderá formalizar novo termo de ajustamento de conduta, na medida em que tal instrumento consensual...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os problemas de ordem pessoal devidamente justificados e que possam comprometer a rotina profissional do servidor...". De acordo com a teoria estudada em *1.7 Prescrição da Pretensão Punitiva Disciplinar*, termo Inicial: O prazo prescricional começa a correr na data em que a autoridade competente para instaurar o processo disciplinar toma conhecimento formal do fato.
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "O servidor não poderá propor a celebração do termo de ajustamento de conduta após tomar conhecimento do processo...". De acordo com a teoria estudada em *1.7 Prescrição da Pretensão Punitiva Disciplinar*, interrupção: A publicação do ato de instauração de sindicância ou do Processo Administrativo Disciplinar (PAD) interrompe a contagem do prazo de prescrição da pretensão punitiva.
+>
+> **Gabarito: C**
 
 ---
 
 ### Teste 154
-**(FGV – TCE-GO – Analista de Controle Externo – 2024)**  
-Pedro, servidor ocupante de cargo de provimento efetivo no Estado de Goiás, em exercício há cinco anos ininterruptos, após regular processo administrativo-disciplinar, veio a ser demitido. O cargo que ocupava, por sua vez, de nomenclatura X, foi transformado no cargo Y, que passou a ser ocupado por Maria. A demissão de Pedro, no entanto, foi invalidada pelo Poder Judiciário. De acordo com a Lei Estadual nº 20.756/2020, é correto afirmar que ocorrerá
+**(FCC – TRT-15 – Analista Judiciario Tecnologia da Informacao – 2015)**
+No tocante ao Exercício considere: I. O início e o reinício do Exercício serão registrados no assentamento individual do servidor, não sendo necessário, porém, o registro da suspensão e da interrupção. II. É de quinze dias o prazo para o servidor empossado em cargo público entrar em Exercício, prazo este contado da data da posse. III. A promoção interrompe o tempo de Exercício, recomeçando a contar no dia da efetiva publicação da respectiva promoção. Está correto o que consta APENAS em
 
-* **A)** a recondução de Pedro.
-* **B)** a reintegração de Pedro.
-* **C)** a disponibilidade de Pedro.
-* **D)** o reaproveitamento de Pedro.
-* **E)** o retorno de Pedro, e Maria será exonerada.
+* **A)** I.
+* **B)** II.
+* **C)** I e III.
+* **D)** I e II.
+* **E)** II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A recondução é o retorno do servidor estável ao cargo anteriormente ocupado em decorrência de inabilitação em estágio probatório ou reintegração do anterior ocupante.
-> - **B)** Correta. Conforme dispõe o art. 41, § 2º, da Constituição Federal e o art. 47 da Lei Estadual nº 20.756/2020 (Estatuto dos Servidores de Goiás), invalidada por sentença judicial a demissão do servidor público estável, ele será reintegrado, e o eventual ocupante da vaga, se estável, será reconduzido ao cargo de origem, sem direito a indenização, aproveitado em outro cargo ou posto em disponibilidade.
-> - **C)** Incorreta. A disponibilidade decorre da extinção do cargo ou da declaração de sua desnecessidade.
-> - **D)** Incorreta. O aproveitamento é o retorno à atividade de servidor colocado em disponibilidade.
-> - **E)** Incorreta. Se Maria for servidora estável, ela não poderá ser sumariamente exonerada, devendo ser reconduzida, aproveitada ou posta em disponibilidade.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I". De acordo com a teoria estudada em *1.7 Prescrição da Pretensão Punitiva Disciplinar*, interrupção: A publicação do ato de instauração de sindicância ou do Processo Administrativo Disciplinar (PAD) interrompe a contagem do prazo de prescrição da pretensão punitiva.
+> - **B)** **Correta.** Conforme fundamentado na seção *1.2 Posse e Exercício: Prazos e Consequências do Descumprimento* deste guia, exercício: É o efetivo desempenho das atribuições do cargo público. O prazo para o servidor empossado entrar em exercício é de quinze (15) dias, contados da data da posse. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-15/2015) ao estabelecer que "II".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e III". De acordo com a teoria estudada em *1.2 Posse e Exercício: Prazos e Consequências do Descumprimento*, posse: Deve ocorrer no prazo de trinta (30) dias contados da data da publicação oficial do ato de provimento (nomeação), prorrogável por igual período a requerimento justificado do interessado.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e II". De acordo com a teoria estudada em *1.2 Posse e Exercício: Prazos e Consequências do Descumprimento*, se o nomeado tomar posse, mas NÃO entrar em exercício no prazo legal de 15 dias: o servidor será EXONERADO DE OFÍCIO.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II e III". De acordo com a teoria estudada em *1.4 Vacância do Cargo Público*, exoneração: Não tem caráter punitivo. Pode ocorrer a pedido do próprio servidor ou de ofício (quando não satisfeitas as condições do estágio probatório, quando o servidor empossado não entrar em exercício, ou para ajuste fiscal do art. 169 da CF).
 >
 > **Gabarito: B**
 
 ---
 
 ### Teste 155
-**(FGV – TCE-GO – Analista de Controle Externo – 2024)**  
-Ana, servidora pública no âmbito do est ado de Goiás, em conluio com João, requereu o pagamento de determinado benefício estatutário ao qual sabidamente não tinha direito. Apesar da injuridicidade, João o deferiu poucos dias depois, tendo se iniciado, incontinente, o recebimento mensal do benefí cio por Ana. Seis anos depois, os mecanismos de controle interno detectaram o ilícito praticado. À luz dessa narrativa, é correto afirmar que, nos termos da Lei Estadual nº 13.800/2001,
+**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Banco de Dados – 2023)**
+38 Pérola é servidora estável do Estado Delta e viu sua colega de trabalho Açucena, ocupante de semelhante cargo efetivo, investida após a realização de concurso público, ser demitida, após a garantia do contraditório e da ampla defesa, em decorrência de falta grave funcional por ela cometida após dois anos de efetivo exercício, em decorrência de procedimento instaurado uma semana depois da ocorrência da conduta. Diante dessa situação hipotética, considerando as disposições constitucionais acerca da estabilidade dos servidores públicos, Pérola concluiu, corretamente, que Açucena:
 
-* **A)** apesar do tempo decorrido, a decisão pode ser anulada.
-* **B)** deve ser revogada a decisão que concedeu o benefício a Ana.
-* **C)** a decisão não pode ser modificada, pois a Administração Pública decaiu da possibilidade de modificá-la.
-* **D)** como Ana recebe o benefício mensalmente, a cada mês se reinicia o prazo prescricional de cinco anos para a anulação da decisão.
-* **E)** como o benefício foi integrado à esfera jurídica de Ana, operou-se o direito adquirido, logo, a decisão não pode ser modificada.
+* **A)** apenas poderia ter sido demitida por sentença judicial transitada em julgado em decorrência da garantia da estabilidade a ela assegurada pela Constituição;
+* **B)** poderia ter sido posta em disponibilidade, independentemente do preenchimento de requisitos para a aquisição da estabilidade;
+* **C)** pode, eventualmente, demonstrar a ilegalidade do procedimento que levou à sua demissão, hipótese em que terá direito à recondução ao cargo que ocupava, independentemente da garantia da estabilidade;
+* **D)** tem direito à estabilidade, diante do transcurso do prazo de dois anos de efetivo exercício, em razão do que era necessária a instauração do procedimento administrativo disciplinar pertinente para a sua demissão;
+* **E)** foi demitida com a observância dos princípios do contraditório e da ampla defesa, que é indispensável mesmo para as hipóteses em que o servidor ainda não alcançou a estabilidade.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Nos termos da Lei Estadual nº 13.800/2001 (Lei de Processo Administrativo de Goiás, art. 54, espelhando o art. 54 da Lei Federal nº 9.784/1999) e da jurisprudência do STF e STJ, o prazo decadencial de 5 anos para a Administração anular atos de que decorram efeitos favoráveis para os destinatários NÃO se aplica quando comprovada a má-fé do beneficiário. Como houve conluio e dolo comprovado, a decisão pode ser anulada a qualquer tempo.
-> - **B)** Incorreta. Trata-se de ilegalidade flagrante (vício de legalidade), o que enseja anulação, e não revogação (que incide sobre atos válidos por motivo de conveniência).
-> - **C)** Incorreta. Havendo má-fé explícita pelo conluio fraudulento, inexiste proteção decadencial.
-> - **D)** Incorreta. Não se confunde trato sucessivo previdenciário de boa-fé com fraude de concessão.
-> - **E)** Incorreta. Não há direito adquirido contra a ordem jurídica quando o ato originário decorre de ilícito doloso.
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "apenas poderia ter sido demitida por sentença judicial transitada em julgado em decorrência da garantia da...". De acordo com a teoria estudada em *1.1 Conceito de Servidor, Cargo Público e Formas de Provimento*, reintegração: Retorno do servidor público estável ao cargo anteriormente ocupado quando sua demissão for invalidada por decisão judicial transitada em julgado ou administrativa. — O servidor é reintegrado com ressarcimento integral de todos os vencimentos, remunerações e vantagens retroativas a que faria jus.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "poderia ter sido posta em disponibilidade, independentemente do preenchimento de requisitos para a aquisição da...". De acordo com a teoria estudada em *1.3 Estágio Probatório, Fatores de Avaliação e Hipóteses de Inaptidão*, se o servidor era recém-ingressante no serviço público (não possuía estabilidade anterior no Estado de Goiás): é exonerado de ofício daquele cargo.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pode, eventualmente, demonstrar a ilegalidade do procedimento que levou à sua demissão, hipótese em que terá...". De acordo com a teoria estudada em *1.1 Conceito de Servidor, Cargo Público e Formas de Provimento*, recondução: Retorno do servidor público estável ao cargo de origem anteriormente ocupado, decorrente de: 1) Inabilitação em estágio probatório de outro cargo público; ou 2) Retorno do titular daquele cargo em virtude de reintegração. — Retorno formal sem direito a qualquer indenização financeira pelo período em que esteve fora.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "tem direito à estabilidade, diante do transcurso do prazo de dois anos de efetivo exercício, em razão do que era...". De acordo com a teoria estudada em *1.2 Posse e Exercício: Prazos e Consequências do Descumprimento*, se o nomeado NÃO tomar posse no prazo legal de 30 dias: o ato de nomeação será tornado SEM EFEITO (a pessoa ainda não é servidora, logo não se pode exonerar quem nunca tomou posse!).
+> - **E)** **Correta.** Conforme fundamentado na seção *1.8 Sindicância e Processo Administrativo Disciplinar (PAD)* deste guia, o PAD é o procedimento contraditório formal destinado a apurar a responsabilidade de servidor público por infração funcional praticada no exercício de suas atribuições. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "foi demitida com a observância dos princípios do contraditório e da ampla defesa, que é indispensável mesmo para...".
 >
-> **Gabarito: A**
+> **Gabarito: E**
 
 ---
 
 ### Teste 156
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A respeito das licenças, afastamentos e concessões funcionais reguladas pela Lei Estadual nº 20.756/2020 (Estatuto dos Servidores de Goiás):
+**(FGV – TRT-13 – Analista Judiciario Tecnologia da Informacao – 2022)**
+Joana, servidora pública federal, ocupante de cargo de provimento efetivo há uma década, almejava obter licença para resolver um grave problema particular, afeto à administração de uma empresa deixada por seu falecido pai. Ao se inteirar sobre a existência de licença dessa natureza no âmbito da Lei nº 8.112/1990, foi-lhe corretamente informado que
 
-* **A)** A antiga licença-prêmio por assiduidade foi expressamente extinta pelo novel estatuto goiano.
-* **B)** A licença por motivo de doença em pessoa da família é sempre concedida com remuneração integral, independentemente do prazo de duração do afastamento.
-* **C)** É garantida a conversão em pecúnia de todos os períodos de licença-capacitação não usufruídos pelo servidor em atividade a qualquer tempo.
-* **D)** O servidor em estágio probatório pode usufruir de licença para tratar de interesses particulares pelo prazo de até 3 anos consecutivos.
-* **E)** O servidor afastado para exercício de mandato classista em sindicato perceberá gratificação extraordinária de função paga pelo erário estadual.
-
+* **A)** em razão da prevalência do interesse público sobre o privado, a lei não prevê licença dessa natureza.
+* **B)** a licença alvitrada pode ser deferida pelo prazo máximo de dois anos, sendo que Joana somente receberia sua remuneração no primeiro ano.
+* **C)** a licença alvitrada pode ser deferida por até três anos, sem remuneração, não podendo ter a sua duração reduzida ou cessada por decisão superveniente.
+* **D)** a licença alvitrada pode ser deferida por até três anos, sem remuneração, podendo ser interrompida a qualquer tempo, a pedido de Joana ou no interesse do serviço.
+* **E)** a licença alvitrada pode ser deferida por até um ano, sem prejuízo da remuneração, podendo ser interrompida a qualquer tempo, a pedido de Joana ou no interesse do serviço.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Uma das inovações mais relevantes da Lei Estadual nº 20.756/2020 (art. 138) foi a extinção da antiga licença-prêmio assiduidade (preservados os direitos adquiridos sob a égide da lei anterior) e a instituição da **Licença para Capacitação Profissional**, que faculta ao servidor afastar-se do cargo por até 3 meses, com remuneração integral, a cada período de 5 anos de efetivo exercício, desde que comprovada a participação em curso de aperfeiçoamento correlato às atribuições do cargo.
-> - **B)** Incorreta. A licença por motivo de doença em pessoa da família (art. 130) é remunerada nos primeiros meses e torna-se sem remuneração caso ultrapasse os limites temporais previstos na lei.
-> - **C)** Incorreta. A conversão em pecúnia da licença-capacitação é expressamente vedada durante a atividade funcional.
-> - **D)** Incorreta. A licença para tratar de interesses particulares é privativa de servidores estáveis (após o término do estágio probatório).
-> - **E)** Incorreta. O afastamento classista não gera direito a acréscimos pecuniários extraordinários custeados pelos cofres públicos.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "em razão da prevalência do interesse público sobre o privado, a lei não prevê licença dessa natureza". De acordo com a teoria estudada em *1.1 Conceito de Servidor, Cargo Público e Formas de Provimento*, reversão: Retorno à atividade do servidor aposentado: a) *De ofício:* quando junta médica oficial declara insubsistentes os motivos da aposentadoria por incapacidade permanente; b) *A pedido:* voluntária, no interesse da administração, desde que haja cargo vago, o servidor seja estável e conte menos de 70 anos. — Volta à atividade na mesma classe e padrão em que se aposentou.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "a licença alvitrada pode ser deferida pelo prazo máximo de dois anos, sendo que Joana somente receberia sua...". De acordo com a teoria estudada em *1.2 Posse e Exercício: Prazos e Consequências do Descumprimento*, se o nomeado NÃO tomar posse no prazo legal de 30 dias: o ato de nomeação será tornado SEM EFEITO (a pessoa ainda não é servidora, logo não se pode exonerar quem nunca tomou posse!).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a licença alvitrada pode ser deferida por até três anos, sem remuneração, não podendo ter a sua duração reduzida...". De acordo com a teoria estudada em *1.1 Conceito de Servidor, Cargo Público e Formas de Provimento*, readaptação: Investidura do servidor em cargo de atribuições e responsabilidades compatíveis com a limitação física ou mental superveniente sofrida, verificada em perícia médica oficial. — Caso o cargo de readaptação tenha remuneração inferior, o servidor mantém a remuneração do cargo de origem.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.6 Regime Disciplinar: Deveres, Proibições e Penalidades* deste guia, conversão em Multa: Quando houver conveniência para o serviço público, a penalidade de suspensão poderá ser convertida em multa na base de 50% (cinquenta por cento) por dia de remuneração, ficando o servidor obrigado a permanecer em serviço. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-13/2022) ao estabelecer que "a licença alvitrada pode ser deferida por até três anos, sem remuneração, podendo ser interrompida a qualquer...".
+> - **E)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "a licença alvitrada pode ser deferida por até um ano, sem prejuízo da remuneração, podendo ser interrompida a...". De acordo com a teoria estudada em *1.4 Vacância do Cargo Público*, exoneração: Não tem caráter punitivo. Pode ocorrer a pedido do próprio servidor ou de ofício (quando não satisfeitas as condições do estágio probatório, quando o servidor empossado não entrar em exercício, ou para ajuste fiscal do art. 169 da CF).
 >
-> **Gabarito: A**
+> **Gabarito: D**
 
 ---
 
 ---
 
 ### Teste 157
-**(FGV – TCE-GO – Analista de Controle Externo – 2024)**  
-João, servidor público ocupante de cargo em comissão no âmbito do poder Executivo do Estado de Goiás, foi afastado da direção do órgão público X, em razão de permissivo constante da Lei estadual nº 20.756/2020. Maria, por sua vez, que dirigia o órgão público Y, foi informada que iria substituir João. Nessa situação, é correto afirmar que Maria, ao ser designada para substituir João
+**(FGV – TJ-DFT – Analista Judiciario Suporte Em Tecnologia da Informacao – 2022)**
+João, servidor público federal ocupante de cargo efetivo, no exercício das funções, opôs resistência injustificada ao andamento de documento e processo. De acordo com o regime jurídico disciplinar da Lei nº 8.112/1990, que lhe é aplicável, observadas as cautelas procedimentais legais, em tese, João, que até então nunca havia praticado qualquer infração funcional, está sujeito à sanção de:
 
-* **A)** continuará no órgão públi co Y, e receberá a integralidade da retribuição estipendial do cargo de João, paga proporcionalmente aos dias de efetiva substituição.
-* **B)** continuará no órgão público Y, e poderá optar pela remuneração integral do cargo de João, ao invés daquela correspondente ao cargo que ocupa.
-* **C)** continuará no órgão publico Y, e receberá 60% da retribuição estipendial do cargo de João, paga proporcionalmente aos dias de efetiva substituição.
-* **D)** continuará no órgão público Y, e não fará jus a qualquer retribuição estipendial pela acumulação do órgão público x.
-* **E)** será afastada do órgão público Y, em razão da vedação à acumulação de cargos. TRIBUNAL DE CONTAS DO ESTADO DE GOIÁS FGV CONHECIMENTO ANALISTA DE CONTROLE EXTERNO - CIENCIAS CONTABEIS – MANHÃ TIPO BRANCA – PÁGINA 8
+* **A)** advertência, que terá seu registro cancelado, após o decurso de três anos de efetivo exercício, se João não houver, nesse período, praticado nova infração disciplinar;
+* **B)** suspensão, que terá seu registro cancelado, após o decurso de três anos de efetivo exercício, se João não houver, nesse período, praticado nova infração disciplinar;
+* **C)** suspensão, que terá seu registro cancelado, após o decurso de cinco anos de efetivo exercício, se João não houver, nesse período, praticado nova infração disciplinar;
+* **D)** demissão, que terá seu registro cancelado, após o decurso de três anos de efetivo exercício, se João não houver, nesse período, praticado nova infração disciplinar;
+* **E)** demissão, que terá seu registro cancelado, após o decurso de cinco anos de efetivo exercício, se João não houver, nesse período, praticado nova infração disciplinar.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A legislação goiana não atribui a integralidade cumulada com a remuneração já percebida.
-> - **B)** Incorreta. Não se trata de opção remuneratória total nos moldes do enunciado.
-> - **C)** Correta. De acordo com as disposições da Lei Estadual nº 20.756/2020 sobre substituição remunerada de funções de chefia e direção, o substituto que acumular as atribuições do titular afastado continuará titularizando seu órgão de origem e fará jus ao acréscimo proporcional de 60% da retribuição estipendial do cargo do substituído correspondente aos dias da substituição efetiva.
-> - **D)** Incorreta. A prestação do encargo de substituição é expressamente remunerada pelo estatuto goiano.
-> - **E)** Incorreta. A substituição temporária e legal não configura hipótese vedada de acumulação ilícita de cargos permanentes.
+> - **A)** **Correta.** Conforme fundamentado na seção *1.3 Estágio Probatório, Fatores de Avaliação e Hipóteses de Inaptidão* deste guia, ao entrar em exercício, o servidor nomeado para cargo de provimento efetivo cumpre estágio probatório por período de 3 (três) anos (36 meses) de efetivo exercício, durante o qual sua aptidão e idoneidade serão avaliadas por comissão constituída para essa finalidade. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-DFT/2022) ao estabelecer que "advertência, que terá seu registro cancelado, após o decurso de três anos de efetivo exercício, se João não...".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "suspensão, que terá seu registro cancelado, após o decurso de três anos de efetivo exercício, se João não houver...". De acordo com a teoria estudada em *1.8 Sindicância e Processo Administrativo Disciplinar (PAD)*, o PAD é o procedimento contraditório formal destinado a apurar a responsabilidade de servidor público por infração funcional praticada no exercício de suas atribuições.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "suspensão, que terá seu registro cancelado, após o decurso de cinco anos de efetivo exercício, se João não houver...". De acordo com a teoria estudada em *1.6 Regime Disciplinar: Deveres, Proibições e Penalidades*, conversão em Multa: Quando houver conveniência para o serviço público, a penalidade de suspensão poderá ser convertida em multa na base de 50% (cinquenta por cento) por dia de remuneração, ficando o servidor obrigado a permanecer em serviço.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "demissão, que terá seu registro cancelado, após o decurso de três anos de efetivo exercício, se João não houver...". De acordo com a teoria estudada em *1.6 Regime Disciplinar: Deveres, Proibições e Penalidades*, cassação de Aposentadoria ou Disponibilidade: Aplicada ao inativo que tenha praticado, na atividade, falta grave para a qual seja cominada a pena de demissão.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "demissão, que terá seu registro cancelado, após o decurso de cinco anos de efetivo exercício, se João não houver...". De acordo com a teoria estudada em *1.6 Regime Disciplinar: Deveres, Proibições e Penalidades*, ambas as condutas são faltas graves sancionadas compulsoriamente com DEMISSÃO após apuração formal em PAD.
 >
-> **Gabarito: C**
+> **Gabarito: A**
 
 ---
 
 ### Teste 158
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A respeito do regime disciplinar e da prescrição da pretensão punitiva administrativa regulados pela Lei Estadual nº 20.756/2020, assinale a opção correta:
+**(FGV – TJ-RR – Analista Judiciario Gestao e Governanca de Tecnologia da Informacao – 2024)**
+No exercício de suas atribuições como analista do Tribunal de Justiça do Estado de Roraima, Geraldino opôs resistência injustificada ao andamento de determinado processo, sendo certo que nunca havia violado dever funcional anteriormente, razão pela qual foi instaurada sindicância para fins de apuração da mencionada infração. Acerca da penalidade aplicável a Geraldino na situação descrita e da sindicância, à luz do Regime Jurídico dos Servidores Públicos Civis do Estado de Roraima (Lei Complementar Estadual nº 53/2001), é correto afirmar que
 
-* **A)** A penalidade de suspensão não poderá exceder a noventa dias, acarretando a perda da remuneração dos dias em que perdurar o afastamento.
-* **B)** A ação disciplinar para apuração de infrações puníveis com suspensão prescreve no prazo improrrogável de cento e oitenta dias da ocorrência do fato.
-* **C)** O cometimento de infração funcional de natureza leve acarreta diretamente a aplicação da penalidade de demissão a bem do serviço público.
-* **D)** O prazo prescricional para punir infrações administrativas começa a fluir na data em que a conduta foi praticada, independentemente de quando a autoridade competente tomou conhecimento dela.
-* **E)** A instauração de sindicância ou processo administrativo disciplinar não interfere no curso do prazo de prescrição, que flui ininterruptamente até a decisão final.
-
+* **A)** caso não se justifique a aplicação de penalidade mais grave à a Geraldino, a sanção de advertência pode resultar da sindicância, mediante a ampla defesa e o contraditório.
+* **B)** a penalidade mais leve prevista para a situação em comento é a suspensão de Geraldino por sessenta dias, que pode resultar da sindicância, independentemente da ampla defesa e contraditório.
+* **C)** pode ser aplicada à a Geraldino a sanção de advertência, suspensão ou demissão, que, em qualquer caso, poderá resultar da sindicância, que não exige a observância da ampla defesa e do contraditório.
+* **D)** ainda que se conclua que a penalidade aplicável à a Geraldino deve ser a advertência, a imposição da sanção não pode resultar da sindicância, diante da necessidade de ampla defesa e contraditório.
+* **E)** a infração cometida por Geraldino está elencada dentre aquelas que justificam a penalidade de demissão, de modo que deve ser instaurado o processo administrativo disciplinar, não podendo resultar da sindicância.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) CORRETA.** Nos termos da Lei Estadual nº 20.756/2020, a penalidade disciplinar de **suspensão** será imposta em caso de falta média ou reincidência em falta punida com advertência, **não podendo ultrapassar noventa (90) dias**, importando a perda da remuneração dos dias correspondentes ao afastamento do trabalho.
-> - **B) Incorreta.** O prazo prescricional para infrações sancionadas com penalidade de suspensão é de **2 (dois) anos**. O prazo de 180 dias incide sobre as infrações sujeitas à pena de **advertência**.
-> - **C) Incorreta.** Falta leve sujeita o servidor à penalidade de **advertência** por escrito; a demissão exige a ocorrência de infração gravíssima taxativamente tipificada em lei.
-> - **D) Incorreta.** O prazo de prescrição disciplinar tem como termo inicial a data em que a autoridade competente para determinar a instauração do procedimento administrativo **toma conhecimento da irregularidade**, e não a data em que o fato foi praticado.
-> - **E) Incorreta.** A instauração formal de sindicância investigativa ou do Processo Administrativo Disciplinar (PAD) **interrompe** a contagem do prazo prescricional.
-> 
+> - **A)** **Correta.** Conforme fundamentado na seção *1.6 Regime Disciplinar: Deveres, Proibições e Penalidades* deste guia, advertência: Aplicada por escrito em caso de inobservância de dever funcional ou falta leve, para a qual a lei não comine expressamente sanção mais gravosa. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-RR/2024) ao estabelecer que "caso não se justifique a aplicação de penalidade mais grave à a Geraldino, a sanção de advertência pode resultar...".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a penalidade mais leve prevista para a situação em comento é a suspensão de Geraldino por sessenta dias, que pode...". De acordo com a teoria estudada em *1.8 Sindicância e Processo Administrativo Disciplinar (PAD)*, julgamento: Decisão fundamentada proferida pela autoridade competente para a aplicação da penalidade.
+> - **C)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "pode ser aplicada à a Geraldino a sanção de advertência, suspensão ou demissão, que, em qualquer caso, poderá...". De acordo com a teoria estudada em *1.6 Regime Disciplinar: Deveres, Proibições e Penalidades*, conversão em Multa: Quando houver conveniência para o serviço público, a penalidade de suspensão poderá ser convertida em multa na base de 50% (cinquenta por cento) por dia de remuneração, ficando o servidor obrigado a permanecer em serviço.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ainda que se conclua que a penalidade aplicável à a Geraldino deve ser a advertência, a imposição da sanção não...". De acordo com a teoria estudada em *1.8 Sindicância e Processo Administrativo Disciplinar (PAD)*, o PAD é o procedimento contraditório formal destinado a apurar a responsabilidade de servidor público por infração funcional praticada no exercício de suas atribuições.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a infração cometida por Geraldino está elencada dentre aquelas que justificam a penalidade de demissão, de modo...". De acordo com a teoria estudada em *1.8 Sindicância e Processo Administrativo Disciplinar (PAD)*, inquérito Administrativo: Subdivide-se em instrução probatória (oitiva de testemunhas, juntada de perícias e documentos), defesa (citação do acusado para apresentação de defesa escrita) e relatório conclusivo minucioso da comissão.
+>
 > **Gabarito: A**
 
 ---
 
 ### Teste 159
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-De acordo com o rito do Processo Administrativo Disciplinar (PAD) regulado pela Lei Estadual nº 20.756/2020:
+**(FGV – TRT-24 – Analista Judiciario Area Administrativa Contabilidade – 2025)**
+A informação de que Pedro, servidor público federal de escalão hierárquico superior, teria praticado uma infração disciplinar, chegou ao conhecimento da autoridade competente. Além de ser informado por seus assessores imediatos sobre a necessidade de instaurar o respectivo processo administrativo disciplinar, também lhe foi sugerida a possibilidade de afastamento preventivo, em razão do risco de que ele influísse na apuração do ilícito administrativo. Em relação ao sugerido afastamento de Pedro, considerando os balizamentos estabelecidos pela Lei nº 8.112/1990, assinale a afirmativa correta.
 
-* **A)** A comissão processante do PAD ordinário é composta por 3 servidores estáveis, designados pela autoridade instauradora, devendo o presidente ser ocupante de cargo efetivo superior ou de mesmo nível, ou ter escolaridade igual ou superior à do indiciado.
-* **B)** A sindicância investigativa é fase obrigatória que precede necessariamente qualquer processo administrativo disciplinar, sob pena de nulidade absoluta.
-* **C)** O indiciado não tem direito a constituir advogado para sua defesa técnica, sendo a autodefesa pessoal obrigatória e exclusiva.
-* **D)** As testemunhas da comissão e da defesa devem depor conjuntamente na mesma sala de audiências para promover a imediata acareação.
-* **E)** O relatório final da comissão processante vincula de forma absoluta o julgamento da autoridade competente, que não pode divergir de suas conclusões.
-
+* **A)** É vedado, considerando a presunção de inocência.
+* **B)** Pode se estender pelo prazo máximo de cento e oitenta dias.
+* **C)** Caso seja decretado, acarretará a suspensão da remuneração durante a sua vigência.
+* **D)** Somente é possível em se tratando de infração disciplinar que possa acarretar a sanção de demissão.
+* **E)** Deve cessar, uma vez ultrapassado o limite temporal fixado em lei, ainda que não concluído o processo disciplinar.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. O art. 222 da Lei Estadual nº 20.756/2020 estabelece que o processo disciplinar será conduzido por comissão composta de **3 servidores estáveis**, exigindo-se que o presidente seja titular de cargo de escolaridade igual ou superior ou de nível hierárquico igual ou superior ao do servidor processado, garantindo imparcialidade e idoneidade formal.
-> - **B)** Incorreta. Quando a autoria e a materialidade da infração disciplinar já estiverem previamente comprovadas por documentos ou relatórios de auditoria, o PAD pode ser instaurado diretamente, prescindindo de sindicância prévia.
-> - **C)** Incorreta. A Súmula Vinculante 5 do STF preceitua que a falta de defesa técnica por advogado no PAD não ofende a Constituição, mas é evidente prerrogativa do servidor constituir advogado se assim desejar (faculdade assegurada pelo direito de ampla defesa).
-> - **D)** Incorreta. As testemunhas são inquiridas separadamente e sucessivamente, para evitar que um depoimento contamine o outro.
-> - **E)** Incorreta. A autoridade julgadora pode divergir motivadamente das conclusões do relatório da comissão quando este contrariar as provas dos autos.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "É vedado, considerando a presunção de inocência". De acordo com a teoria estudada em *1.7 Prescrição da Pretensão Punitiva Disciplinar*, termo Inicial: O prazo prescricional começa a correr na data em que a autoridade competente para instaurar o processo disciplinar toma conhecimento formal do fato.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Pode se estender pelo prazo máximo de cento e oitenta dias". De acordo com a teoria estudada em *1.2 Posse e Exercício: Prazos e Consequências do Descumprimento*, se o nomeado NÃO tomar posse no prazo legal de 30 dias: o ato de nomeação será tornado SEM EFEITO (a pessoa ainda não é servidora, logo não se pode exonerar quem nunca tomou posse!).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Caso seja decretado, acarretará a suspensão da remuneração durante a sua vigência". De acordo com a teoria estudada em *1.6 Regime Disciplinar: Deveres, Proibições e Penalidades*, conversão em Multa: Quando houver conveniência para o serviço público, a penalidade de suspensão poderá ser convertida em multa na base de 50% (cinquenta por cento) por dia de remuneração, ficando o servidor obrigado a permanecer em serviço.
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Somente é possível em se tratando de infração disciplinar que possa acarretar a sanção de demissão". De acordo com a teoria estudada em *1.8 Sindicância e Processo Administrativo Disciplinar (PAD)*, o PAD é o procedimento contraditório formal destinado a apurar a responsabilidade de servidor público por infração funcional praticada no exercício de suas atribuições.
+> - **E)** **Correta.** Conforme fundamentado na seção *1.6 Regime Disciplinar: Deveres, Proibições e Penalidades* deste guia, limite Temporal Rigoroso: A suspensão não pode exceder a noventa (90) dias. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "Deve cessar, uma vez ultrapassado o limite temporal fixado em lei, ainda que não concluído o processo disciplinar".
 >
-> **Gabarito: A**
+> **Gabarito: E**
 
 ---
 
@@ -440,52 +433,50 @@ A remuneração dos servidores efetivos do TCE-GO é composta por:
 ---
 
 ### Teste 160
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No âmbito do Tribunal de Contas do Estado de Goiás, a carreira de Técnico de Controle Externo é disciplinada pelo Plano de Cargos, Carreiras e Remuneração (Lei Estadual nº 15.122/2005). Sobre a evolução funcional dos servidores nesta carreira:
+**(FGV – TJ-MT – Analista Judiciario Tecnologia da Informacao – 2024)**
+Após muita dedicação ao serviço público, Maria, ocupante de cargo de provimento efetivo no âmbito do Estado de Mato Grosso, foi informada de que teria um aumento remuneratório em razão de sua passagem para uma referência imediatamente superior, dentro da mesma classe e categoria funcional a que pertence. Na situação de Maria, em consonância com o regime jurídico dos servidores públicos estaduais, estamos perante
 
-* **A)** A promoção funcional consiste na passagem do servidor de um padrão para outro dentro da mesma classe, baseando-se exclusivamente no decurso do tempo de serviço considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
-* **B)** A progressão funcional consiste na mudança do servidor de um padrão de vencimento para o subsequente dentro da mesma classe, exigindo cumprimento de interstício de efetivo exercício e resultado satisfatório na avaliação de desempenho.
-* **C)** O servidor em estágio probatório pode obter sucessivas promoções verticais de classe a cada semestre trabalhado.
-* **D)** A promoção funcional para a classe imediatamente superior prescinde da realização de cursos de capacitação técnica na Escola de Contas do Tribunal.
-* **E)** O desenvolvimento funcional na carreira do TCE-GO opera-se mediante concurso público interno bienal exclusivo para servidores de nível médio.
-
+* **A)** o acesso.
+* **B)** a ascensão.
+* **C)** a promoção.
+* **D)** a progressão.
+* **E)** a transposição.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** A movimentação de padrão para padrão dentro da mesma classe é a **progressão funcional** (e não promoção), e subordina-se à avaliação periódica de desempenho, não decorrendo puramente do decurso temporal.
-> - **B) CORRETA.** Nos termos da Lei Estadual nº 15.122/2005 (PCCR do TCE-GO): a **progressão funcional** é a movimentação horizontal do servidor de um padrão para o padrão imediatamente subsequente dentro da **mesma classe**, condicionada ao cumprimento do **interstício mínimo de efetivo exercício** e à obtenção de **resultado satisfatório na avaliação periódica de desempenho**.
-> - **C) Incorreta.** Não há progressões ou promoções verticais aceleradas a cada semestre para servidores em estágio probatório; a estabilização e evolução seguem o ciclo anual com cumprimento do triênio.
-> - **D) Incorreta.** A **promoção funcional** (movimentação vertical de classe) exige expressamente, além de interstício e desempenho, a aprovação em cursos de **capacitação continuada** promovidos ou credenciados pela Escola de Contas do TCE-GO.
-> - **E) Incorreta.** O concurso interno de ascensão entre carreiras é vedado pela Constituição Federal e pela Súmula Vinculante nº 43 do STF. O desenvolvimento realiza-se na mesma carreira por meio de progressão e promoção.
-> 
-> **Gabarito: B**
+> - **A)** **Correta.** Conforme fundamentado na seção *2.3 Desenvolvimento Funcional: Progressão Horizontal vs. Promoção Vertical* deste guia, promoção Funcional: Movimentação vertical do servidor do último padrão de uma classe para o padrão inicial da classe imediatamente superior. — 1. Cumprimento do interstício mínimo de efetivo exercício no último padrão da classe;`<br/>`2. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-MT/2024) ao estabelecer que "o acesso".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a ascensão". De acordo com a teoria estudada em *2.3 Desenvolvimento Funcional: Progressão Horizontal vs. Promoção Vertical*, progressão Funcional: Movimentação horizontal do servidor de um padrão de vencimento para o subsequente, dentro dos limites da mesma classe da carreira. — 1. Cumprimento do interstício mínimo de efetivo exercício no padrão anterior;`<br/>`2.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a promoção". De acordo com a teoria estudada em *2.3 Desenvolvimento Funcional: Progressão Horizontal vs. Promoção Vertical*, a evolução funcional entre classes (promoção) ocorre estritamente dentro da mesma carreira para a qual o servidor prestou concurso público originário.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a progressão". De acordo com a teoria estudada em *1.1 Conceito de Servidor, Cargo Público e Formas de Provimento*, a Lei Estadual nº 20.756, de 28 de janeiro de 2020, estabelece o regime jurídico único dos servidores públicos civis da administração direta, autárquica e fundacional dos Poderes Executivo, Legislativo e Judiciário do Estado de Goiás, aplicando-se também aos servidores dos Tribunais de Contas (TCE-GO e TCM-GO) e do Ministério Público.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a transposição". De acordo com a teoria estudada em *1.1 Conceito de Servidor, Cargo Público e Formas de Provimento*, reversão: Retorno à atividade do servidor aposentado: a) *De ofício:* quando junta médica oficial declara insubsistentes os motivos da aposentadoria por incapacidade permanente; b) *A pedido:* voluntária, no interesse da administração, desde que haja cargo vago, o servidor seja estável e conte menos de 70 anos. — Volta à atividade na mesma classe e padrão em que se aposentou.
+>
+> **Gabarito: A**
 
 ---
 
 ### Teste 161
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Em conformidade com a Lei Estadual nº 15.122/2005 (Plano de Cargos, Carreiras e Vencimentos dos Servidores do TCE-GO):
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Direito – 2026)**
+Analise as condutas a seguir elencadas, praticadas por servidores do Tribunal de Contas do Estado de Santa Catarina (TCE/SC): I. Lucia participou de trabalho de fiscalização em situação envolvendo Inalda, pessoa com quem possui profundo laço afetivo de amizade. II. Milton fez uso de informação privilegiada em benefício de seu irmão Marcos. III. Norma exerceu atividade que prejudicou a realização de tarefas atinentes ao seu cargo junto à Corte de Contas. Considerando o disposto na Resolução nº 252/2024 do TCE-SC, que institui o Código de Conduta Ética dos servidores do Tribunal de Contas do Estado de Santa Catarina (TCE/SC), é correto afirmar que configura(m) conflito(s) de interesses a(s) conduta(s) praticadas por:
 
-* **A)** O desenvolvimento na carreira opera-se exclusivamente por progressão funcional por tempo de serviço a cada 10 anos, inexistindo critério de merecimento ou avaliação de desempenho.
-* **B)** A evolução funcional dos servidores do TCE-GO estrutura-se mediante **progressão horizontal** (passagem de um padrão para o subsequente dentro da mesma classe, por antiguidade e capacitação) e **promoção vertical** (passagem do último padrão de uma classe para o primeiro padrão da classe imediatamente superior, condicionada a interstício mínimo, avaliação de desempenho e qualificação técnica).
-* **C)** Os cargos efetivos do TCE-GO admitem investidura derivada por reenquadramento automático de servidores terceirizados sem concurso público.
-* **D)** O Adicional de Qualificação é parcela temporária concedida unicamente a servidores comissionados que não possuam vínculo efetivo com a Corte.
-* **E)** As atribuições dos servidores de controle externo restringem-se ao atendimento ao público e arquivamento manual de certidões cartorárias.
-
+* **A)** Lucia, apenas.
+* **B)** Milton, apenas.
+* **C)** Milton e Noma, apenas.
+* **D)** Lucia e Norma, apenas.
+* **E)** Lucia, Milton e Norma
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O PCCR do TCE-GO adota sistemática moderna de desenvolvimento funcional baseada em avaliação periódica de desempenho, capacitação permanente e interstícios regulares.
-> - **B)** Correta. Nos termos da Lei Estadual nº 15.122/2005, a carreira organiza-se em classes e padrões salariais sucessivos. A progressão (horizontal) consiste na movimentação entre padrões dentro da mesma classe, e a promoção (vertical) consiste na ascensão de classe funcional (por exemplo, da Classe A para a Classe B), exigindo o cumprimento de requisitos objetivos cumulativos de tempo (interstício), aproveitamento em cursos de pós-graduação/extensão e avaliação satisfatória no trabalho.
-> - **C)** Incorreta. A exigência de concurso público específico de provas ou provas e títulos para provimento de cargos de provimento efetivo do Tribunal é mandamento constitucional inafastável (art. 37, II, da CF/88 e Súmula Vinculante 43).
-> - **D)** Incorreta. O Adicional de Qualificação é vantagem funcional devida aos servidores do quadro efetivo portadores de títulos acadêmicos (especialização, mestrado, doutorado) correlatos às atividades de controle externo.
-> - **E)** Incorreta. As atribuições legais dos cargos de controle externo compreendem o planejamento, a instrução e a execução de auditorias e fiscalizações de alta complexidade contábil, jurídica, orçamentária e financeira.
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Lucia, apenas". De acordo com a teoria estudada em *2.1 Estrutura do Quadro Efetivo do TCE-GO*, analista de Controle Externo: Nível de escolaridade superior. Atuação finalística em auditorias, inspeções, instrução técnica de processos complexos de contas e fiscalização orçamentária e operacional.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Milton, apenas". De acordo com a teoria estudada em *2.1 Estrutura do Quadro Efetivo do TCE-GO*, a Lei Estadual nº 15.122, de 04 de fevereiro de 2005, organiza o Plano de Cargos, Carreiras e Remuneração (PCCR) dos servidores do Tribunal de Contas do Estado de Goiás. O quadro de provimento efetivo do TCE-GO é estruturado em duas carreiras técnicas.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Milton e Noma, apenas". De acordo com a teoria estudada em *2.1 Estrutura do Quadro Efetivo do TCE-GO*, especialidade Tecnologia da Informação (Cargo B02): Suporte técnico operacional de infraestrutura de TI, atendimento aos usuários de sistemas internos, gerenciamento de redes, segurança da informação, suporte a bancos de dados e desenvolvimento/manutenção de softwares de auditoria eletrônica.
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Lucia e Norma, apenas". De acordo com a teoria estudada em *1.1 Conceito de Servidor, Cargo Público e Formas de Provimento*, a Lei Estadual nº 20.756, de 28 de janeiro de 2020, estabelece o regime jurídico único dos servidores públicos civis da administração direta, autárquica e fundacional dos Poderes Executivo, Legislativo e Judiciário do Estado de Goiás, aplicando-se também aos servidores dos Tribunais de Contas (TCE-GO e TCM-GO) e do Ministério Público.
+> - **E)** **Correta.** Conforme fundamentado na seção *2.4 Estrutura Remuneratória e Vantagens Específicas do Tribunal* deste guia, gratificação de Controle Externo (GCE): Vantagem pecuniária vinculada ao exercício de atividades de fiscalização e suporte técnico no âmbito da Corte de Contas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "Lucia, Milton e Norma".
 >
-> **Gabarito: B**
+> **Gabarito: E**
 
 ---
 

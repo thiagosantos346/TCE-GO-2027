@@ -80,54 +80,50 @@ flowchart LR
 ---
 
 ### Teste 420
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No âmbito da teoria contemporânea de gestão de conflitos, a abordagem Interacionista defende que:
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Contabilidade – 2024)**
+Quando em uma combinação, uma das partes envolvidas obtiver o controle de uma ou mais operações, deve-se classificar a combinação como aquisição, exceto se a operação tiver essência econômica de fusão. Para que a operação tenha essência econômica de fusão, deve-se considerar os indicadores relacionados à contraprestação e ao processo de tomada de decisão. Entre esses indicadores estão os seguintes, à exceção de um. Assinale-o.
 
-* **A)** Todo conflito em qualquer nível é intrinsicamente danoso e prejudicial à eficácia da instituição, devendo ser erradicado sumariamente pela chefia.
-* **B)** A ausência absoluta de conflitos é o indicador supremo de maturidade e inovação contínua de uma organização.
-* **C)** Um nível controlado de conflito funcional de tarefas deve ser incentivado.
-* **D)** Os conflitos de relacionamento interpessoal devem ser estimulados pela direção para desarticular a coesão de grupos corporativos informais.
-* **E)** As organizações que operam sob a abordagem interacionista eliminam a figura do líder para permitir conflitos ilimitados e irrestritos.
-
-
----
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** Essa é a Visão Tradicional do conflito (anos 1930/40).  
-> - **B) Incorreta.** A ausência total de conflitos sinaliza apatia, estagnação e pensamento grupal acrítico (*groupthink*).  
-> - **C) CORRETA.** A **Visão Interacionista** preconiza que um nível **mínimo e moderado de conflito funcional** (focado no conteúdo das tarefas) é saudável e indispensável para manter o grupo vivo, criativo e inovador, impedindo que a equipe caia na estagnação e no comodismo.  
-> - **D) Incorreta.** O conflito de relacionamento (choque interpessoal) é quase sempre disfuncional e altamente prejudicial à cooperação.  
-> - **E) Incorreta.** O conflito interacionista deve ser monitorado e gerido por lideranças competentes.  
-> 
-> **Gabarito: C**
-
----
-
-### Teste 421
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na evolução teórica a respeito dos conflitos organizacionais, três visões sucederam-se historicamente: a Visão Tradicional, a Visão de Relações Humanas e a Visão Interacionista.
-
-Segundo a **Visão Interacionista** do conflito:
-
-* **A)** O conflito não só é uma força natural inevitável nas organizações, como um nível mínimo de conflito construtivo e funcional é absolutamente necessário para manter o grupo viável, autocrítico, inovador e produtivo.
-* **B)** Todo conflito é prejudicial, disfuncional e destrutivo, devendo ser imediatamente eliminado e reprimido pelas chefias.
-* **C)** O conflito decorre exclusivamente da má contratação de servidores públicos no concurso público.
-* **D)** A harmonia absoluta e a ausência de divergências garantem que a instituição atinja a excelência máxima de inovação.
-* **E)** Os conflitos de relacionamento devem ser estimulados em níveis máximos para criar disputa destrutiva interna.
-
+* **A)** Ocorre a combinação de entidades sob controle comum.
+* **B)** A combinação está sujeita à aprovação dos cidadãos de cada uma das partes por meio de consultas à sociedade.
+* **C)** A combinação é imposta por terceiro sem que qualquer das partes da combinação seja envolvida no processo de tomada de decisão.
+* **D)** A contraprestação é paga àquele que detêm o direito aos ativos líquidos da operação transferida, que é identificado e contactado.
+* **E)** A contraprestação é paga por outras razões que não a de compensar aqueles que detêm direito aos ativos líquidos da operação transferida em razão da renúncia a esse direito.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. A **Visão Interacionista** postula que um grupo harmonioso, pacífico e cooperativo demais tende a tornar-se estático, apático e resistente à mudança. Por isso, líderes devem incentivar um nível apropriado de **conflito funcional de tarefa** (debate vigoroso sobre ideias, métodos e processos), diferenciando-o do conflito de relacionamento (que é disfuncional).
-> - **B)** Incorreta. Visão Tradicional (décadas de 1930/1940), que via o conflito como anomalia perversa.
-> - **C)** Incorreta. O conflito é inerente à diversidade humana e à escassez de recursos.
-> - **D)** Incorreta. O excesso de conformidade (*pensamento de grupo / groupthink*) sufoca a criatividade.
-> - **E)** Incorreta. Conflitos de relacionamento pessoal geram atrito destrutivo e hostilidade, sendo sempre disfuncionais.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Ocorre a combinação de entidades sob controle comum". De acordo com a teoria estudada em *Classificação dos Conflitos por Conteúdo:*, conflito de Processo: Refere-se a divergências sobre *como* o trabalho deve ser executado e quem deve assumir cada responsabilidade operacional. Costuma ser produtivo apenas em níveis muito baixos.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A combinação está sujeita à aprovação dos cidadãos de cada uma das partes por meio de consultas à sociedade". De acordo com a teoria estudada em *1. Evolução Teórica do Conflito e Tipologias por Conteúdo*, o conflito é um processo que se inicia quando uma das partes percebe que a outra afetou ou está prestes a afetar negativamente algo que lhe é importante. A compreensão do conflito evoluiu em três correntes históricas fundamentais.
+> - **C)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "A combinação é imposta por terceiro sem que qualquer das partes da combinação seja envolvida no processo de tomada...". De acordo com a teoria estudada em *Fundamentos do Projeto de Negociação de Harvard:*, focar nos Interesses, não nas Posições: As posições correspondem àquilo que as partes declaram verbalmente que querem; os interesses expressam as necessidades reais, motivações e anseios subjacentes que motivam tais posições.
+> - **D)** **Correta.** Conforme fundamentado na seção *3. Técnicas de Negociação: Distributiva vs. Integrativa (Modelo Harvard)* deste guia, a negociação é um processo dialógico de tomada de decisão conjunta em que duas ou mais partes interdependentes procuram formular um acordo. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "A contraprestação é paga àquele que detêm o direito aos ativos líquidos da operação transferida, que é...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A contraprestação é paga por outras razões que não a de compensar aqueles que detêm direito aos ativos líquidos da...". De acordo com a teoria estudada em *4. Cultura Organizacional e os Três Níveis de Edgar Schein*, a cultura organizacional é o sistema de significados compartilhados, valores, crenças e normas que diferenciam uma instituição de todas as outras. Edgar Schein concebeu a cultura como uma estrutura em camadas, assemelhada a um *iceberg*.
+>
+> **Gabarito: D**
+
+---
+
+### Teste 421
+**(CEBRASPE – TRT-8 – Analista Judiciario Area Apoio Especializado Tecnologia da Informacao – 2022)**
+No Plano Estratégico da Justiça do Trabalho estabelecido pela Resolução 290/CSJT de 20/5/2021, existe um elemento que é identificado como sendo o que a organização pretende ser no futuro ao considerar as oportunidades futuras, as aspirações e o reconhecimento dos públicos interno e externo. Trata-se do elemento
+
+* **A)** objetivos.
+* **B)** visão.
+* **C)** valor.
+* **D)** missão.
+* **E)** cesta de indicadores estratégicos.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "objetivos". De acordo com a teoria estudada em *Classificação dos Conflitos por Conteúdo:*, conflito de Tarefa: Envolve divergências quanto ao conteúdo, às metas e aos resultados almejados no trabalho. Em níveis moderados, costuma ser funcional e positivo para o surgimento de novas ideias.
+> - **B)** **Correta.** Conforme fundamentado na seção *Classificação dos Conflitos por Conteúdo:* deste guia, a visão interacionista afirma que o conflito de tarefas pode ser funcional, mas alerta categoricamente que o conflito de relacionamento (interpessoal/afetivo) é quase sempre DISFUNCIONAL, pois desgasta a convivência, destrói a confiança mútua e paralisa as entregas públicas!. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT-8/2022) ao estabelecer que "visão".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "valor". De acordo com a teoria estudada em *1. Evolução Teórica do Conflito e Tipologias por Conteúdo*, conflito Disfuncional (Destrutivo): Atrapalha o desempenho da instituição, alimenta hostilidades pessoais, reduz a comunicação interna, destrói a coesão e paralisa as entregas de valor público.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "missão". De acordo com a teoria estudada em *Classificação dos Conflitos por Conteúdo:*, conflito de Processo: Refere-se a divergências sobre *como* o trabalho deve ser executado e quem deve assumir cada responsabilidade operacional. Costuma ser produtivo apenas em níveis muito baixos.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "cesta de indicadores estratégicos". De acordo com a teoria estudada em *2. Estilos de Administração de Conflitos (Thomas-Kilmann)*, kenneth Thomas e Ralph Kilmann estruturaram a resolução de conflitos sobre dois eixos comportamentais fundamentais: Assertividade (grau em que o sujeito busca fazer valer seus próprios interesses) e Cooperatividade (grau em que busca atender às necessidades da contraparte).
+>
+> **Gabarito: B**
 
 ---
 
@@ -154,26 +150,26 @@ flowchart TD
 ---
 
 ### Teste 422
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Kenneth Thomas e Ralph Kilmann desenvolveram um modelo seminal de cinco estilos de administração de conflitos, estruturado em duas dimensões comportamentais: **Assertividade** (grau em que o indivíduo busca satisfazer seus próprios interesses) e **Cooperatividade** (grau em que busca satisfazer os interesses da outra parte).
+**(FGV – TRT-24 – Tecnico Judiciario Area Administrativa Sem Especialidade – 2025)**
+A gestão pública e a gestão privada convergem na busca por eficiência, inovação e entrega de valor aos stakeholders. Assinale a opção que apresenta, corretamente, uma convergência entre a gestão pública e a gestão privada.
 
-O estilo de gestão de conflitos caracterizado por **alta assertividade e alta cooperatividade**, no qual as partes buscam uma solução ganha-ganha (*win-win*) que integre plenamente as preocupações de ambos, denomina-se:
-
-* **A)** Colaboração (ou Solução de Problemas / Integração).
-* **B)** Competição (ou Confrontação Forçada).
-* **C)** Acomodação (ou Suavização).
-* **D)** Não Enfrentamento (ou Evitação / Fuga).
-* **E)** Acordo de Compromisso (ou Meio-termo superficial).
-
+* **A)** Ambas operam sob os mesmos princípios de rentabilidade e competição de mercado.
+* **B)** O principal objetivo da gestão pública é maximizar os lucros para os contribuintes, assim como a gestão privada faz para os acionistas.
+* **C)** A burocracia estatal impede qualquer tipo de inovação e eficiência na administração pública.
+* **D)** A administração pública pode adotar práticas gerenciais da iniciativa privada, mas sua finalidade principal é atender ao interesse público.
+* **E)** A transparência e a responsabilidade social são exclusivas da administração pública, não sendo relevantes para a gestão privada.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. O modelo Thomas-Kilmann: (1) **Colaboração** (alta assertividade + alta cooperatividade): solução ganha-ganha que atende plenamente ambos os lados; (2) **Competição** (alta assertividade + baixa cooperatividade): ganha-perde; (3) **Acomodação** (baixa assertividade + alta cooperatividade): perde-ganha; (4) **Evitação/Fuga** (baixa assertividade + baixa cooperatividade): perde-perde; (5) **Compromisso** (médio-termo): concessões mútuas parciais.
-> - **B), C), D), E)** Incorretas. Referem-se aos outros estilos do modelo.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Ambas operam sob os mesmos princípios de rentabilidade e competição de mercado". De acordo com a teoria estudada em *6. Desenvolvimento Organizacional e Gestão da Mudança (Kurt Lewin)*, análise do Campo de Forças (Lewin): Toda mudança organizacional decorre do equilíbrio dinâmico entre Forças Propulsoras/Impulsoras (que estimulam a transformação) e Forças Restritivas (que resistem à inovação e buscam manter a inércia).
+> - **B)** **Correta.** Conforme fundamentado na seção *6. Desenvolvimento Organizacional e Gestão da Mudança (Kurt Lewin)* deste guia, sem a terceira etapa de Recongelamento, a organização sofre regressão natural aos velhos hábitos assim que a pressão inicial da chefia diminui. Recongelar significa institucionalizar as novas rotinas e premiar a conformidade com o novo padrão. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "O principal objetivo da gestão pública é maximizar os lucros para os contribuintes, assim como a gestão privada...".
+> - **C)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "A burocracia estatal impede qualquer tipo de inovação e eficiência na administração pública". De acordo com a teoria estudada em *2. Estilos de Administração de Conflitos (Thomas-Kilmann)*, kenneth Thomas e Ralph Kilmann estruturaram a resolução de conflitos sobre dois eixos comportamentais fundamentais: Assertividade (grau em que o sujeito busca fazer valer seus próprios interesses) e Cooperatividade (grau em que busca atender às necessidades da contraparte).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A administração pública pode adotar práticas gerenciais da iniciativa privada, mas sua finalidade principal é...". De acordo com a teoria estudada em *6. Desenvolvimento Organizacional e Gestão da Mudança (Kurt Lewin)*, movimento / Mudança (*Changing*): Fase de transição e implementação prática; os servidores recebem capacitação, assimilam novos softwares e passam a adotar novos processos de trabalho.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A transparência e a responsabilidade social são exclusivas da administração pública, não sendo relevantes para a...". De acordo com a teoria estudada em *Classificação dos Conflitos por Conteúdo:*, conflito de Processo: Refere-se a divergências sobre *como* o trabalho deve ser executado e quem deve assumir cada responsabilidade operacional. Costuma ser produtivo apenas em níveis muito baixos.
+>
+> **Gabarito: B**
 
 ---
 
@@ -198,50 +194,50 @@ flowchart LR
 ---
 
 ### Teste 423
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Durante uma negociação contratual complexa entre um órgão público e uma empresa concessionária de serviços, as partes optaram por adotar os preceitos da Negociação Integrativa (*Ganha-Ganha*). Essa modalidade negocial caracteriza-se essencialmente por:
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Administracao – 2026)**
+Um Tribunal de Contas estadual enfrenta conflitos recorrentes entre a Diretoria de Fiscalização e Controle (DFC) e a Diretoria de Relações Institucionais (DRI), motivados por disputas por recursos humanos compartilhados, divergências sobre prazos e percepções assimétricas de relevância institucional. A Presidência decidiu adotar uma estratégia de negociação ganha-ganha estruturada no modelo PRAM para mediar o conflito, construir acordos viáveis e preservar o relacionamento institucional no longo prazo. Assinale a opção que descreve corretamente a aplicação das quatro etapas do modelo PRAM ao referido conflito.
 
-* **A)** Focar exclusivamente na defesa intransigente de posições antagônicas pré-fixadas e na partilha de recursos fixos em regime de soma zero.
-* **B)** Buscar a expansão do valor total disponível e a construção de soluções colaborativas que atendam aos interesses subjacentes de ambas as partes, preservando o relacionamento de longo prazo.
-* **C)** Exigir que uma das partes capitule integralmente em suas pretensões econômicas em favor da outra para viabilizar o acordo.
-* **D)** Eliminar a Zona de Possível Acordo (ZOPA) e desconsiderar o valor de reserva estipulado no termo de referência.
-* **E)** Restringir-se a transações mercantis esporádicas de compra imediata, nas quais a única variável relevante é o menor preço à vista.
-
-
----
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** Foco em posições fixas e partilha de soma zero caracterizam a negociação **distributiva**.  
-> - **B) CORRETA.** A **Negociação Integrativa (Ganha-Ganha / *Win-Win*)** foca nos **interesses subjacentes** mútuos das partes, buscando "aumentar o bolo" (criar valor conjunto) por meio de opções criativas que satisfaçam as necessidades de ambos os lados e fortaleçam a parceria institucional de longo prazo.  
-> - **C) Incorreta.** Capitulação unilateral corresponde ao estilo de acomodação ou perda forçada, oposto ao ganha-ganha.  
-> - **D) Incorreta.** A negociação bem-sucedida pressupõe a existência e aproveitamento de uma ZOPA positiva.  
-> - **E) Incorreta.** Transações frias baseadas unicamente no preço caracterizam a negociação distributiva transacional.  
-> 
-> **Gabarito: B**
-
----
-
-### Teste 424
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na teoria da negociação baseada nos princípios do Projeto de Negociação de Harvard (Fisher, Ury e Patton), a **Negociação Integrativa (ou Baseada em Princípios)** distingue-se da Negociação Distributiva (ou Posicional) por:
-
-* **A)** Concentrar-se nos interesses subjacentes reais das partes e não em posições rígidas assumidas, gerando opções de ganho mútuo e utilizando critérios objetivos justos para a solução das controvérsias.
-* **B)** Tratar a negociação como uma disputa de soma-zero em que o ganho de uma parte equivale necessariamente à perda da outra ("divisão de um bolo fixo").
-* **C)** Empregar táticas de pressão psicológica extrema, blefes e ocultação deliberada de dados essenciais.
-* **D)** Impor a judicialização compulsória de todo conflito de gestão administrativa perante a Justiça Federal.
-* **E)** Condicionar o desfecho da negociação à concessão de reajustes orçamentários automáticos pelo Tesouro.
-
+* **A)** Na etapa de planejamento, mapeia-se apenas os conflitos já ocorridos; no relacionamento, a confiança é construída durante a negociação substantiva; no acordo, as soluções são propostas pelo mediador; e na manutenção, o acompanhamento é dispensável quando o acordo é formalizado por escrito.
+* **B)** Na etapa de planejamento, impõe-se um acordo preliminar antes do diálogo; no relacionamento, substituem-se os líderes das diretorias para eliminar assimetrias; no acordo, adotam-se critérios exclusivamente técnicos; e na manutenção, monitora-se apenas o cumprimento de prazos.
+* **C)** Na etapa de planejamento, antecipam-se cenários apenas para a DFC, por ter maior volume de entregas; no relacionamento, prioriza-se a formalização do acordo antes da construção da confiança; no acordo, adota-se lógica distributiva para garantir equilíbrio de concessões; e na manutenção, realizam-se reuniões apenas quando surgirem novos conflitos.
+* **D)** Na etapa de planejamento, identificam-se os interesses de cada diretoria sem buscar convergências; no relacionamento, impõem-se regras de interação via ato normativo; no acordo, a alocação de recursos é definida unilateralmente pela Presidência; e na manutenção, encerra-se o acompanhamento após a assinatura do acordo.
+* **E)** Na etapa de planejamento, mapeiam-se objetivos, interesses
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. A **Negociação Integrativa (Harvard)** baseia-se em quatro pilares fundamentais: (1) Separar as pessoas do problema; (2) Focar em **interesses** e não em posições; (3) Criar opções de **ganhos mútuos** antes de decidir; (4) Insistir em **critérios objetivos** (leis, precedentes, laudos técnicos).
-> - **B), C)** Incorretas. Características exclusivas da **Negociação Distributiva / Competitiva**.
-> - **D), E)** Incorretas. Distorções que contrariam a autonomia e a metodologia da negociação colaborativa.
-> 
+> - **A)** **Correta.** Conforme fundamentado na seção *Classificação dos Conflitos por Conteúdo:* deste guia, a visão interacionista afirma que o conflito de tarefas pode ser funcional, mas alerta categoricamente que o conflito de relacionamento (interpessoal/afetivo) é quase sempre DISFUNCIONAL, pois desgasta a convivência, destrói a confiança mútua e paralisa as entregas públicas!. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "Na etapa de planejamento, mapeia-se apenas os conflitos já ocorridos; no relacionamento, a confiança é construída...".
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Na etapa de planejamento, impõe-se um acordo preliminar antes do diálogo; no relacionamento, substituem-se os...". De acordo com a teoria estudada em *Fundamentos do Projeto de Negociação de Harvard:*, criar Opções de Ganho Mútuo: Exercício de criatividade conjunta antes de bater o martelo para encontrar soluções que agreguem valor para ambos os lados.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Na etapa de planejamento, antecipam-se cenários apenas para a DFC, por ter maior volume de entregas; no...". De acordo com a teoria estudada em *Classificação dos Conflitos por Conteúdo:*, conflito de Relacionamento: Focado em incompatibilidades interpessoais, antipatias afetivas e atritos emocionais entre servidores. É quase invariavelmente DISFUNCIONAL, desestabilizando o ambiente e destruindo a cooperação mútua.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Na etapa de planejamento, identificam-se os interesses de cada diretoria sem buscar convergências; no...". De acordo com a teoria estudada em *Fundamentos do Projeto de Negociação de Harvard:*, focar nos Interesses, não nas Posições: As posições correspondem àquilo que as partes declaram verbalmente que querem; os interesses expressam as necessidades reais, motivações e anseios subjacentes que motivam tais posições.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Na etapa de planejamento, mapeiam-se objetivos, interesses". De acordo com a teoria estudada em *2. Estilos de Administração de Conflitos (Thomas-Kilmann)*, kenneth Thomas e Ralph Kilmann estruturaram a resolução de conflitos sobre dois eixos comportamentais fundamentais: Assertividade (grau em que o sujeito busca fazer valer seus próprios interesses) e Cooperatividade (grau em que busca atender às necessidades da contraparte).
+>
 > **Gabarito: A**
+
+---
+
+### Teste 424
+**(CEBRASPE – TJ-RJ – Analista Judiciario Grupo Tecnologia da Informacao Analista de Gestao de Tic – 2021)**
+Constitui modo de inclusão, no trabalho, da pessoa com impedimento de longo prazo de natureza física, em igualdade de oportunidades com as demais pessoas, a colocação
+
+* **A)** participativa.
+* **B)** inclusiva.
+* **C)** integrativa.
+* **D)** competitiva.
+* **E)** protetiva.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "participativa". De acordo com a teoria estudada em *Fundamentos do Projeto de Negociação de Harvard:*, separar as Pessoas do Problema: Ser firme e assertivo com o conteúdo da divergência, porém empático, cordial e respeitoso com o interlocutor.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "inclusiva". De acordo com a teoria estudada em *4. Cultura Organizacional e os Três Níveis de Edgar Schein*, fALSO! Códigos formais e murais são Artefatos ou Valores Compartilhados expressos. Os Pressupostos Básicos Subjacentes são inconscientes, tácitos e invisíveis, operando de modo automático e natural na mente dos membros!.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "integrativa". De acordo com a teoria estudada em *3. Técnicas de Negociação: Distributiva vs. Integrativa (Modelo Harvard)*, a negociação é um processo dialógico de tomada de decisão conjunta em que duas ou mais partes interdependentes procuram formular um acordo.
+> - **D)** **Correta.** Conforme fundamentado na seção *6. Desenvolvimento Organizacional e Gestão da Mudança (Kurt Lewin)* deste guia, o Desenvolvimento Organizacional (DO) é uma abordagem planejada de longo prazo voltada para transformar as atitudes, valores, processos e estruturas da organização, assegurando sua adaptabilidade contínua. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TJ-RJ/2021) ao estabelecer que "competitiva".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "protetiva". De acordo com a teoria estudada em *Tabela Comparativa Analítica:*, origem e Natureza: Histórica, antropológica e estrutural da organização. — Psicológica, conjuntural e perceptual dos servidores.
+>
+> **Gabarito: D**
 
 ---
 
@@ -273,27 +269,26 @@ flowchart TD
 ---
 
 ### Teste 425
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Segundo a teoria dos níveis da cultura organizacional desenvolvida por Edgar Schein, os elementos mais profundos, enraizados e invisíveis da cultura, constituídos por crenças e percepções tidas como verdades absolutas e inquestionáveis que orientam o comportamento dos colaboradores sem que eles sequer tomem consciência disso, denominam-se:
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Administracao – 2024)**
+Cultura organizacional é o conjunto de valores, crenças, comportamentos e práticas que caracterizam uma organização, moldado ao longo do tempo e influenciando as interações internas e externas. Assinale a opção que apresenta a sensação transmitida em um grupo pelo layout físico e o modo como os membros da organização interagem entre si, com clientes ou outros públicos externos.
 
-* **A)** Artefatos visíveis.
-* **B)** Valores compartilhados adotados.
-* **C)** Símbolos materiais e cerimoniais.
-* **D)** Pressupostos básicos subjacentes.
-* **E)** Códigos formais de ética institucional.
-
+* **A)** Rituais.
+* **B)** Clima.
+* **C)** Símbolos de integração.
+* **D)** Celebrações formais.
+* **E)** Regras do jogo.
 
 ---
 
-> **Comentário Detalhado:**  
+> **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Artefatos são os elementos superficiais e plenamente visíveis da cultura (prédios, vestuário, mobília, slogans).  
-> - **B) Incorreta.** Valores compartilhados são premissas conscientes verbalizadas pela liderança.  
-> - **C) Incorreta.** Símbolos materiais integram o nível dos artefatos.  
-> - **D) CORRETA.** No modelo concebido por Edgar Schein, o nível mais profundo do *iceberg* cultural é composto pelos **Pressupostos Básicos Subjacentes**, que representam crenças inconscientes, valores internalizados e verdades tidas como certas e inquestionáveis, as quais moldam a forma como a organização percebe e reage ao ambiente.  
-> - **E) Incorreta.** Códigos de ética são documentos normativos formais e conscientes (valores/artefatos).  
-> 
-> **Gabarito: D**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Rituais". De acordo com a teoria estudada em *Tabela Comparativa Analítica:*, se relatar tradições institucionais de décadas, rituais históricos consolidados, crenças profundas e valores compartilhados: trata-se de CULTURA.
+> - **B)** **Correta.** Conforme fundamentado na seção *4. Cultura Organizacional e os Três Níveis de Edgar Schein* deste guia, fALSO! Códigos formais e murais são Artefatos ou Valores Compartilhados expressos. Os Pressupostos Básicos Subjacentes são inconscientes, tácitos e invisíveis, operando de modo automático e natural na mente dos membros!. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "Clima".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Símbolos de integração". De acordo com a teoria estudada em *Tabela Comparativa Analítica:*, dimensão: Cultura Organizacional — Clima Organizacional.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Celebrações formais". De acordo com a teoria estudada em *4. Cultura Organizacional e os Três Níveis de Edgar Schein*, pressupostos Básicos Subjacentes: O núcleo central e mais profundo da cultura. São verdades tão enraizadas e óbvias para o grupo que já se tornaram automáticas, inconscientes e inquestionáveis, ditando como os membros percebem a realidade e agem no cotidiano.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Regras do jogo". De acordo com a teoria estudada em *4. Cultura Organizacional e os Três Níveis de Edgar Schein*, valores Compartilhados: Valores conscientemente explicitados, regras de convivência social e discursos oficiais adotados pelos líderes para justificar suas decisões.
+>
+> **Gabarito: B**
 
 ---
 
@@ -323,27 +318,26 @@ flowchart LR
 ---
 
 ### Teste 426
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A respeito da diferença essencial entre Cultura Organizacional e Clima Organizacional, assinale a afirmativa correta:
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Administracao – 2026)**
+Leia o texto a seguir. Funções de confiança, cargos comissionados e vínculos temporários – A ANTC propõe que cargos e funções de chefia, direção e assessoramento em atividades exclusivas de Estado – como a Auditoria de Controle Externo – sejam exercidos exclusivamente por servidores concursados da respectiva carreira. Essa medida reforça a imparcialidade, a continuidade institucional e a proteção da função pública contra interferências indevidas. A entidade também defende que, no mínimo, 50% dos cargos em comissão de qualquer órgão sejam ocupados por servidores efetivos. Um texto pode expressar-se por distintas estruturas; entre as opções a seguir, assinale aquela que mostra uma substituição adequada da forma original por outra equivalente.
 
-* **A)** O clima organizacional é duradouro e perene, demandando décadas de história para ser alterado, ao passo que a cultura organizacional é efêmera e flutua semanalmente.
-* **B)** A cultura organizacional reflete as percepções momentâneas e o estado de ânimo conjuntural dos colaboradores, ao passo que o clima constitui o DNA estrutural da entidade.
-* **C)** A cultura organizacional é a personalidade e o alicerce antropológico profundo da instituição, enquanto o clima organizacional é a atmosfera psicológica conjuntural e perceptual do momento.
-* **D)** A cultura e o clima são termos estritamente sinônimos na teoria das organizações, distinguindo-se apenas quanto ao nível hierárquico dos avaliados.
-* **E)** O clima organizacional manifesta-se exclusivamente através dos pressupostos básicos subjacentes inconscientes descritos por Edgar Schein.
-
+* **A)** “Funções de confiança” = funções confiantes.
+* **B)** “vínculos temporários” = vínculos de longo tempo.
+* **C)** “sejam exercidos” = se exerçam.
+* **D)** “exclusivamente” = sem exclusividade.
+* **E)** “de qualquer órgão” = de um órgão qualquer.
 
 ---
 
-> **Comentário Detalhado:**  
+> **Comentário Detalhado:**
 >
-> - **A) Incorreta.** A cultura é duradoura e perene; o clima é transitório e mutável.  
-> - **B) Incorreta.** A questão inverteu os conceitos de cultura e clima.  
-> - **C) CORRETA.** A **Cultura Organizacional** corresponde ao DNA, à personalidade estável e aos valores históricos da instituição; o **Clima Organizacional** traduz o estado de espírito, o "humor" momentâneo e as percepções transitórias compartilhadas pelos servidores em dado período (como após uma reestruturação ou atraso salarial).  
-> - **D) Incorreta.** Não são sinônimos; possuem fundamentos conceituais e horizontes temporais distintos.  
-> - **E) Incorreta.** Os pressupostos básicos subjacentes pertencem ao núcleo da **cultura organizacional**.  
-> 
-> **Gabarito: C**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“Funções de confiança” = funções confiantes". De acordo com a teoria estudada em *Classificação dos Conflitos por Conteúdo:*, a visão interacionista afirma que o conflito de tarefas pode ser funcional, mas alerta categoricamente que o conflito de relacionamento (interpessoal/afetivo) é quase sempre DISFUNCIONAL, pois desgasta a convivência, destrói a confiança mútua e paralisa as entregas públicas!.
+> - **B)** **Correta.** Conforme fundamentado na seção *Tabela Comparativa Analítica:* deste guia, estabilidade no Tempo: Perene e altamente estável: Demora décadas para se enraizar e anos para se transformar. — Transitório e volátil: Pode mudar rapidamente com a troca de um diretor, reformas prediais ou novo plano salarial. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "“vínculos temporários” = vínculos de longo tempo".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“sejam exercidos” = se exerçam". De acordo com a teoria estudada em *6. Desenvolvimento Organizacional e Gestão da Mudança (Kurt Lewin)*, o Desenvolvimento Organizacional (DO) é uma abordagem planejada de longo prazo voltada para transformar as atitudes, valores, processos e estruturas da organização, assegurando sua adaptabilidade contínua.
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "“exclusivamente” = sem exclusividade". De acordo com a teoria estudada em *4. Cultura Organizacional e os Três Níveis de Edgar Schein*, artefatos: Manifestações físicas, visuais e auditivas observáveis (o modelo de mesas no TCE-GO, o uniforme, a forma de tratamento entre os servidores, a tecnologia em uso).
+> - **E)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "“de qualquer órgão” = de um órgão qualquer". De acordo com a teoria estudada em *6. Desenvolvimento Organizacional e Gestão da Mudança (Kurt Lewin)*, recongelamento (*Refreezing*): Estabilização e institucionalização das novas práticas no cotidiano e na cultura do órgão, assegurando que o novo padrão se torne permanente e evitando a regressão aos velhos hábitos.
+>
+> **Gabarito: B**
 
 ---
 
@@ -372,77 +366,74 @@ flowchart LR
 ---
 
 ### Teste 427
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No modelo clássico de gestão da mudança organizacional formulado por Kurt Lewin, a fase em que a liderança da instituição cria intencionalmente a necessidade percebida de mudança, desestabilizando o *status quo* vigente e quebrando velhos hábitos arraigados na equipe para prepará-la para o aprendizado de novas práticas operacionais, é denominada:
+**(FGV – TJ-RR – Analista Judiciario Gestao e Governanca de Tecnologia da Informacao – 2024)**
+Segundo a Resolução nº 400 de 16/06/2021 do Conselho Nacional de Justiça, os órgãos do Poder Judiciário devem adotar modelos de gestão organizacional com processos estruturados que promovam a sustentabilidade, com base em ações ambientalmente corretas, economicamente viáveis e socialmente justas e inclusivas, culturalmente diversas e pautadas na integridade, em busca de um desenvolvimento nacional sustentável. De acordo com a referida norma é correto afirmar que
 
-* **A)** Descongelamento (*Unfreezing*).
-* **B)** Recongelamento (*Refreezing*).
-* **C)** Movimento (*Moving*).
-* **D)** Entropia negativa.
-* **E)** Institucionalização de valor.
-
+* **A)** contratações compartilhadas são práticas institucionais que tenham como objetivo a promoção de comportamentos éticos e que contribuam para o desenvolvimento ambiental, social, cultural e econômico, melhorando, simultaneamente, o meio ambiente e a qualidade de vida do quadro de pessoal e auxiliar do Poder Judiciário.
+* **B)** as ações socialmente justas e inclusivas têm como objetivo respeitar a variedade e a convivência entre ideias, características, gêneros e regionalismos no ambiente de trabalho.
+* **C)** as ações ambientalmente corretas devem ter como objetivo a redução do impacto no meio ambiente, tendo como premissas o aumento do consumo, com o reaproveitamento e reciclagem de materiais e a observância aos modelos de padrão de consumo.
+* **D)** as ações economicamente viáveis devem buscar critérios de eficiência contínua dos gastos, levando em consideração a real necessidade da compra/contratação dentre as propostas mais vantajosas (análise custo-benefício) para sustentação da instituição, tendo em vista as inovações nos processos de trabalho.
+* **E)** as ações culturalmente diversas devem fomentar na instituição e em ações externas a adoção de comportamentos que promovam o equilíbrio e o bem-estar no ambiente de trabalho, por meio de atividades voltadas ao cuidado preventivo com a saúde, acessibilidade e inclusão social dos quadros de pessoal e auxiliar.
 
 ---
 
-> **Comentário Detalhado:**  
+> **Comentário Detalhado:**
 >
-> - **A) CORRETA.** A fase de **Descongelamento (*Unfreezing*)** no modelo de Kurt Lewin visa precisamente desafiar e quebrar a inércia do *status quo*, conscientizando os servidores de que os procedimentos atuais são obsoletos ou ineficazes e gerando a prontidão psicológica indispensável para assimilar novos hábitos.  
-> - **B) Incorreta.** O recongelamento é a fase final de estabilização e padronização da nova conduta aprendida.  
-> - **C) Incorreta.** O movimento é a etapa intermediária de transição e assimilação dos novos métodos.  
-> - **D) Incorreta.** Entropia negativa é conceito da Teoria Geral dos Sistemas.  
-> - **E) Incorreta.** Termo sem pertinência com o modelo tridimensional de Lewin.  
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "contratações compartilhadas são práticas institucionais que tenham como objetivo a promoção de comportamentos...". De acordo com a teoria estudada em *Tabela Comparativa Analítica:*, objeto de Análise: Valores morais, crenças, mitos, rituais e pressupostos básicos inconscientes. — Sentimentos, motivação momentânea e percepções compartilhadas sobre o ambiente de trabalho.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as ações socialmente justas e inclusivas têm como objetivo respeitar a variedade e a convivência entre ideias...". De acordo com a teoria estudada em *6. Desenvolvimento Organizacional e Gestão da Mudança (Kurt Lewin)*, o Desenvolvimento Organizacional (DO) é uma abordagem planejada de longo prazo voltada para transformar as atitudes, valores, processos e estruturas da organização, assegurando sua adaptabilidade contínua.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as ações ambientalmente corretas devem ter como objetivo a redução do impacto no meio ambiente, tendo como...". De acordo com a teoria estudada em *6. Desenvolvimento Organizacional e Gestão da Mudança (Kurt Lewin)*, recongelamento (*Refreezing*): Estabilização e institucionalização das novas práticas no cotidiano e na cultura do órgão, assegurando que o novo padrão se torne permanente e evitando a regressão aos velhos hábitos.
+> - **D)** **Correta.** Conforme fundamentado na seção *6. Desenvolvimento Organizacional e Gestão da Mudança (Kurt Lewin)* deste guia, movimento / Mudança (*Changing*): Fase de transição e implementação prática; os servidores recebem capacitação, assimilam novos softwares e passam a adotar novos processos de trabalho. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-RR/2024) ao estabelecer que "as ações economicamente viáveis devem buscar critérios de eficiência contínua dos gastos, levando em consideração...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as ações culturalmente diversas devem fomentar na instituição e em ações externas a adoção de comportamentos que...". De acordo com a teoria estudada em *6. Desenvolvimento Organizacional e Gestão da Mudança (Kurt Lewin)*, análise do Campo de Forças (Lewin): Toda mudança organizacional decorre do equilíbrio dinâmico entre Forças Propulsoras/Impulsoras (que estimulam a transformação) e Forças Restritivas (que resistem à inovação e buscam manter a inércia).
+>
+> **Gabarito: D**
 
 ---
 
 ### Teste 428
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Edgar Schein estruturou a Cultura Organizacional em três níveis hierárquicos de visibilidade e profundidade psicológica: **Artefatos**, **Valores Compartilhados** e **Pressupostos Básicos**.
+**(IBFC – TJ-MG – Analista Judiciario Classe C Analista de Tecnologia da Informacao – 2022)**
+Para implementar um SGSI - Sistema de Gestão de Segurança da Informação, com base na norma NBR ISO 27001, aplica-se aos processos do SGSI o modelo: "______ estabelecer o SGSI - ______ implementar e operar o SGSI - ______ monitorar e analisar criticamente o SGSI - ______ manter e melhorar o SGSI". Assinale a alternativa que preencha correta e respectivamente as lacunas.
 
-Os **Pressupostos Básicos** caracterizam-se por:
-
-* **A)** Serem crenças, percepções e sentimentos inconscientes, invisíveis e profundamente arraigados, aceitos tacitamente como verdades inquestionáveis que orientam automaticamente a forma como os membros sentem e agem.
-* **B)** Compreenderem a estrutura física dos prédios, o vestuário dos servidores e os manuais de procedimentos impressos.
-* **C)** Consistirem em discursos oficiais gravados em vídeos institucionais divulgados nas redes sociais.
-* **D)** Serem facilmente modificados a cada eleição mediante a edição de portarias administrativas simplificadas.
-* **E)** Limitarem-se ao regimento interno do Tribunal de Contas aprovado em resolução.
-
+* **A)** Do (fazer) / Check (checar) / Act (agir) / Plan (planejar)
+* **B)** Plan (planejar) / Do (fazer) / Check (checar) / Act (agir)
+* **C)** Check (checar) / Do (fazer) / Plan (planejar) / Act (agir)
+* **D)** Plan (planejar) / Check (checar) / Act (agir) / Do (fazer)
+* **E)** Act (agir) / Do (fazer) / Check (checar) / Plan (planejar)
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. O modelo de Schein (o iceberg da cultura): (1) **Artefatos**: nível visível da superfície (prédios, símbolos, vestuário, slogans, jargões); (2) **Valores Compartilhados**: nível intermediário (filosofias, normas de conduta, objetivos justificados conscientemente); (3) **Pressupostos Básicos**: nível mais profundo e submerso, inconsciente, formado por premissas tácitas e inquestionáveis sobre a natureza humana e a realidade, sendo o nível mais difícil de ser alterado em processos de mudança.
-> - **B)** Incorreta. Refere-se aos **Artefatos**.
-> - **C)** Incorreta. Refere-se a Artefatos e Valores declarados.
-> - **D), E)** Incorretas. Pressupostos básicos são invisíveis e profundamente resistentes a mudanças superficiais.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Do (fazer) / Check (checar) / Act (agir) / Plan (planejar)". De acordo com a teoria estudada em *6. Desenvolvimento Organizacional e Gestão da Mudança (Kurt Lewin)*, análise do Campo de Forças (Lewin): Toda mudança organizacional decorre do equilíbrio dinâmico entre Forças Propulsoras/Impulsoras (que estimulam a transformação) e Forças Restritivas (que resistem à inovação e buscam manter a inércia).
+> - **B)** **Correta.** Conforme fundamentado na seção *2. Estilos de Administração de Conflitos (Thomas-Kilmann)* deste guia, kenneth Thomas e Ralph Kilmann estruturaram a resolução de conflitos sobre dois eixos comportamentais fundamentais: Assertividade (grau em que o sujeito busca fazer valer seus próprios interesses) e Cooperatividade (grau em que busca atender às necessidades da contraparte). Dessa forma, está plenamente correta a assertiva da banca (IBFC – TJ-MG/2022) ao estabelecer que "Plan (planejar) / Do (fazer) / Check (checar) / Act (agir)".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Check (checar) / Do (fazer) / Plan (planejar) / Act (agir)". De acordo com a teoria estudada em *6. Desenvolvimento Organizacional e Gestão da Mudança (Kurt Lewin)*, o Desenvolvimento Organizacional (DO) é uma abordagem planejada de longo prazo voltada para transformar as atitudes, valores, processos e estruturas da organização, assegurando sua adaptabilidade contínua.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Plan (planejar) / Check (checar) / Act (agir) / Do (fazer)". De acordo com a teoria estudada em *6. Desenvolvimento Organizacional e Gestão da Mudança (Kurt Lewin)*, movimento / Mudança (*Changing*): Fase de transição e implementação prática; os servidores recebem capacitação, assimilam novos softwares e passam a adotar novos processos de trabalho.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Act (agir) / Do (fazer) / Check (checar) / Plan (planejar)". De acordo com a teoria estudada em *6. Desenvolvimento Organizacional e Gestão da Mudança (Kurt Lewin)*, kurt Lewin formulou o clássico Modelo de Mudança Planejada em Três Fases.
+>
+> **Gabarito: B**
 
 ---
 
 ### Teste 429
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No modelo clássico de Desenvolvimento Organizacional e Gestão da Mudança proposto por Kurt Lewin, o processo de transformação estruturada de uma instituição desenvolve-se em três etapas sequenciais:
+**(FCC – TCE-GO – Analista de Controle Externo Gestao de Conhecimento – 2009)**
+Em geral, a dinâmica do processo de referência (o atendimento ao usuário propriamente dito) inclui duas fases: uma relacionada à natureza do problema do usuário e outra, às decisões e caminhos percorridos pelo bibliotecário. A primeira fase relacionada à natureza do problema envolve quatro etapas. São elas:
 
-A ordem cronológica correta das três etapas de Kurt Lewin é:
-
-* **A)** Descongelamento (*Unfreezing*), Mudança / Movimento (*Change/Moving*) e Recongelamento (*Refreezing*).
-* **B)** Planejamento, Execução e Fiscalização orçamentária.
-* **C)** Licitação, Homologação e Pagamento financeiro.
-* **D)** Avaliação de Desempenho, Promoção e Aposentadoria.
-* **E)** Centralização, Desconcentração e Extinção funcional.
-
+* **A)** a negociação da questão, o processo de busca, a resposta e a solução do problema.
+* **B)** a pergunta, a negociação, a busca da informação e a renegociação.
+* **C)** a formulação da questão, a entrevista, a estratégia de busca e a busca.
+* **D)** o processo de comunicação, a questão, a pesquisa e as fontes de informação.
+* **E)** o problema, a necessidade de informação, a questão inicial e a questão negociada.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. O modelo das três etapas de Kurt Lewin para mudança organizacional: (1) **Descongelamento**: quebra dos velhos paradigmas, superação das resistências e sensibilização da equipe para a necessidade de mudar; (2) **Mudança (Movimento)**: assimilação de novas práticas, valores, rotinas e atitudes; (3) **Recongelamento**: cristalização e estabilização dos novos padrões de comportamento na cultura do órgão para garantir a sustentabilidade das mudanças.
-> - **B), C), D), E)** Incorretas. Etapas de outros processos administrativos que não se relacionam ao modelo de mudança de Kurt Lewin.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a negociação da questão, o processo de busca, a resposta e a solução do problema". De acordo com a teoria estudada em *3. Técnicas de Negociação: Distributiva vs. Integrativa (Modelo Harvard)*, a negociação é um processo dialógico de tomada de decisão conjunta em que duas ou mais partes interdependentes procuram formular um acordo.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a pergunta, a negociação, a busca da informação e a renegociação". De acordo com a teoria estudada em *6. Desenvolvimento Organizacional e Gestão da Mudança (Kurt Lewin)*, sem a terceira etapa de Recongelamento, a organização sofre regressão natural aos velhos hábitos assim que a pressão inicial da chefia diminui. Recongelar significa institucionalizar as novas rotinas e premiar a conformidade com o novo padrão.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a formulação da questão, a entrevista, a estratégia de busca e a busca". De acordo com a teoria estudada em *2. Estilos de Administração de Conflitos (Thomas-Kilmann)*, kenneth Thomas e Ralph Kilmann estruturaram a resolução de conflitos sobre dois eixos comportamentais fundamentais: Assertividade (grau em que o sujeito busca fazer valer seus próprios interesses) e Cooperatividade (grau em que busca atender às necessidades da contraparte).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o processo de comunicação, a questão, a pesquisa e as fontes de informação". De acordo com a teoria estudada em *1. Evolução Teórica do Conflito e Tipologias por Conteúdo*, o conflito é um processo que se inicia quando uma das partes percebe que a outra afetou ou está prestes a afetar negativamente algo que lhe é importante. A compreensão do conflito evoluiu em três correntes históricas fundamentais.
+> - **E)** **Correta.** Conforme fundamentado na seção *Fundamentos do Projeto de Negociação de Harvard:* deste guia, separar as Pessoas do Problema: Ser firme e assertivo com o conteúdo da divergência, porém empático, cordial e respeitoso com o interlocutor. Dessa forma, está plenamente correta a assertiva da banca (FCC – TCE-GO/2009) ao estabelecer que "o problema, a necessidade de informação, a questão inicial e a questão negociada".
+>
+> **Gabarito: E**
 
 ---
 

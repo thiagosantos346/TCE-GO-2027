@@ -95,89 +95,74 @@ No âmbito patrimonial (MCASP e NBC TSP Estrutura Conceitual), vigora o **regime
 ---
 
 ### Teste 270
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No tocante ao regime contábil aplicado no setor público, analise as afirmativas a seguir:
+**(FGV – TCE-PI – Auditor de Controle Externo Controle Externo Especifica de Area Comum – 2025)**
+Relacione os procedimentos da Contabilidade Aplicada ao Setor Público (CASP) a seguir às respectivas afirmativas. 1. Orçamentário. 2. Patrimonial. 3. Fiscal. ( ) Os princípios e as normas contábeis voltadas para o reconhecimento, a mensuração e a evidenciação dos ativos e passivos e de suas variações, devem ser atendidos. ( ) Compreende a apuração e a evidenciação, por meio da contabilidade, dos indicadores estabelecidos pela LRF. Entre os objetivos de seus relatórios está o de analisar o equilíbrio das contas públicas. ( ) Os procedimentos contábeis visam melhorar a qualidade e a consistência das informações prestadas a toda a sociedade, de modo a possibilitar o exercício da cidadania no processo de fiscalização da arrecadação das receitas e da execução das despesas. Assinale a opção que apresenta a relação correta, segundo a ordem apresentada.
 
-I. De acordo com a Lei nº 4.320/1964 (Art. 35), o regime orçamentário é misto, pertencendo ao exercício as receitas nele arrecadadas e as despesas nele legalmente empenhadas.  
-
-II. Segundo as normas NBC TSP e o MCASP, o regime contábil patrimonial é o de competência, exigindo o reconhecimento de receitas e despesas patrimoniais no momento da ocorrência de seus respectivos fatos geradores.  
-
-III. A arrecadação de tributos em dinheiro gera concomitantemente uma receita orçamentária realizada e um fato permutativo no patrimônio líquido da entidade caso o crédito tributário já tenha sido lançado previamente.  
-
-Está correto o que se afirma em:
-
-* **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** II e III, apenas.
-* **D)** I e III, apenas.
-* **E)** I, II e III.
-
+* **A)** 1 – 2 – 3.
+* **B)** 2 – 3 – 1.
+* **C)** 3 – 1 – 2.
+* **D)** 1 – 3 – 2.
+* **E)** 2 – 1 – 3.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Os itens II e III também são verdadeiros, tornando a alternativa incompleta.
-> - **B)** Incorreta. Deixa de incluir o item III, que expressa corretamente a dinâmica da CASP.
-> - **C)** Incorreta. O item I é a previsão literal do art. 35 da Lei nº 4.320/1964.
-> - **D)** Incorreta. O item II reflete o preceito central do MCASP moderno (regime de competência patrimonial).
-> - **E)** Correta. Todas as três assertivas são verdadeiras: o item I reproduz o art. 35 da Lei Federal nº 4.320/1964 (regime orçamentário misto); o item II reflete a consolidação da competência pura para o patrimônio pelas NBC TSP e MCASP; e o item III descreve com rigor a transação de arrecadação de tributos cujo lançamento ocorreu em momento anterior (no lançamento houve VPA; na arrecadação há receita orçamentária realizada e simples permutação patrimonial entre Disponibilidades e Créditos a Receber).
-> 
-> **Gabarito: E**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1 – 2 – 3". De acordo com a teoria estudada em *3.1 Mensuração Inicial, Custos Atribuíveis e Bens de Infraestrutura*, bens de Infraestrutura e Bens de Uso Comum do Povo: Rodovias, pontes, praças públicas, redes de esgoto e iluminação pública que estejam sob o controle da entidade governamental e possuam potencial de serviços mensurável com confiabilidade devem ser formalmente reconhecidos no Ativo Não Circulante (Imobilizado) do Balanço Patrimonial, contrariando a prática histórica de lançar tais obras como mera despesa orçamentária extinta.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2 – 3 – 1". De acordo com a teoria estudada em *1.2 O Regime Patrimonial da Competência Integral (MCASP e NBC TSP)*, as receitas patrimoniais denominam-se Variações Patrimoniais Aumentativas (VPA) e as despesas patrimoniais denominam-se Variações Patrimoniais Diminutivas (VPD).
+> - **C)** **Correta.** Conforme fundamentado na seção *1. O Dualismo de Regimes na Contabilidade Pública (Orçamentário vs. Patrimonial)* deste guia, a Contabilidade Aplicada ao Setor Público (CASP) no Brasil opera com a convivência harmônica e integrada de dois regimes contábeis fundamentais. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PI/2025) ao estabelecer que "3 – 1 – 2".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1 – 3 – 2". De acordo com a teoria estudada em *2.1 Variações Qualitativas (Permutativas) vs. Quantitativas (Modificativas)*, *Variação Patrimonial Aumentativa (VPA):* Transação que eleva o PL (ex.: arrecadação de tributos não lançados, doações de bens recebidas de terceiros, juros ativos ganhos em aplicações).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2 – 1 – 3". De acordo com a teoria estudada em *1.3 Quadro Sinótico de Confronto e Fatos Contábeis*, contribuinte paga o tributo no caixa bancário: Receita Orçamentária Realizada (estágio da arrecadação/recolhimento). — Nenhum impacto no resultado patrimonial! (D: Caixa / C: Tributos a Receber). — Fato Permutativo / Qualitativo (o PL não é alterado).
+>
+> **Gabarito: C**
 
 ---
 
 ### Teste 271
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Determinada entidade governamental adquiriu, mediante regular processo licitatório, um lote de microcomputadores para suas secretarias no valor total de R$ 100.000,00. A despesa foi devidamente empenhada, liquidada com o recebimento das máquinas e integralmente paga em dinheiro à empresa fornecedora.
+**(FGV – TRT-1 – Analista Judiciario Area Administrativa – 2024)**
+Um ente público estabeleceu, em edital de licitação, a entrega de caução em dinheiro como garantia para assegurar a execução do contrato celebrado com vistas ao fornecimento contínuo de serviços de manutenção. Sabe-se que esse recurso não integra a Lei Orçamentária Anual (LOA) e não reflete no patrimônio líquido da referida entidade. Assim, seu reconhecimento, no momento do depósito, deve ser realizado como:
 
-Sob a ótica patrimonial e orçamentária, essa transação completa caracteriza-se como:
-
-* **A)** Fato modificativo aumentativo que gera Variação Patrimonial Aumentativa.
-* **B)** Fato contábil qualitativo (permutativo), que não altera o valor do Patrimônio Líquido da entidade.
-* **C)** Fato modificativo diminutivo que reduz o Patrimônio Líquido em R$ 100.000,00 no ato da compra.
-* **D)** Variação patrimonial independente da execução orçamentária.
-* **E)** Transação extraorçamentária que dispensa registro no subsistema patrimonial.
-
+* **A)** receita contratual;
+* **B)** receita orçamentária;
+* **C)** despesa orçamentária;
+* **D)** receita extraorçamentária;
+* **E)** despesa extraorçamentária.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A compra de bens com desembolso financeiro de caixa não gera VPA (receita patrimonial).
-> - **B)** Correta. Trata-se de um típico fato permutativo (qualitativo) entre contas do Ativo: ocorreu a diminuição de R$ 100.000,00 na conta Caixa/Bancos (Ativo Circulante) e o aumento simultâneo de R$ 100.000,00 na conta de Equipamentos e Material Permanente (Ativo Não Circulante - Imobilizado). O total do Ativo e a Situação Patrimonial Líquida permaneceram rigorosamente inalterados.
-> - **C)** Incorreta. A redução do patrimônio líquido ocorrerá de forma paulatina e distribuída nos exercícios seguintes por meio do registro da depreciação mensal.
-> - **D)** Incorreta. A transação resultou diretamente da execução de dotação de capital fixada na LOA (variação resultante da execução orçamentária).
-> - **E)** Incorreta. É despesa orçamentária própria de capital, plenamente escriturada nos subsistemas orçamentário e patrimonial do PCASP.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "receita contratual". De acordo com a teoria estudada em *1.3 Quadro Sinótico de Confronto e Fatos Contábeis*, lançamento do IPTU ou IPVA pelo Fisco: Não há receita orçamentária realizada (aguarda arrecadação). — Ocorre VPA (direito líquido e certo gerado pelo fato gerador tributário). — Fato Modificativo Aumentativo (aumenta o PL da entidade).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "receita orçamentária". De acordo com a teoria estudada em *1.3 Quadro Sinótico de Confronto e Fatos Contábeis*, emissão de Nota de Empenho de material: Despesa Orçamentária Executada (reserva de crédito na LOA). — Não há fato patrimonial (nenhum bem ou serviço ingressou no patrimônio). — Ato Potencial (registro puramente orçamentário e de controle).
+> - **C)** **Correta.** Conforme fundamentado na seção *3.1 Mensuração Inicial, Custos Atribuíveis e Bens de Infraestrutura* deste guia, bens de Infraestrutura e Bens de Uso Comum do Povo: Rodovias, pontes, praças públicas, redes de esgoto e iluminação pública que estejam sob o controle da entidade governamental e possuam potencial de serviços mensurável com confiabilidade devem ser formalmente reconhecidos no Ativo Não Circulante (Imobilizado) do Balanço Patrimonial, contrariando a prática histórica de lançar tais obras como mera despesa orçamentária extinta. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-1/2024) ao estabelecer que "despesa orçamentária".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "receita extraorçamentária". De acordo com a teoria estudada em *2.2 Variações Resultantes vs. Independentes da Execução Orçamentária*, a Doação de imóvel recebida é receita orçamentária de capital? NÃO! Não transita pela LOA nem envolve disponibilidade financeira em moeda.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "despesa extraorçamentária". De acordo com a teoria estudada em *2.2 Variações Resultantes vs. Independentes da Execução Orçamentária*, a Depreciação é despesa orçamentária? NÃO! A depreciação é uma Variação Patrimonial Diminutiva Independente da Execução Orçamentária (VIEO). Não exige empenho, dotação orçamentária na LOA nem liquidação; opera-se exclusivamente no subsistema patrimonial!.
+>
+> **Gabarito: C**
 
 ---
 
 ### Teste 272
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No âmbito da Contabilidade Aplicada ao Setor Público (CASP), a coexistência dos regimes orçamentário e patrimonial decorre da aplicação simultânea da Lei Federal nº 4.320/1964 e das normas internacionais de contabilidade (NBC TSP / MCASP).
+**(FGV – TRT-24 – Analista Judiciario Area Administrativa Sem Especialidade – 2025)**
+A Secretaria de Habitação do estado Beta apresenta, em seu balanço patrimonial, habitações que são utilizadas para fornecer moradia para famílias de baixa renda por aluguéis com preço abaixo do mercado. O valor contábil destas habitações é de R$ 600.000,00. A entidade possui, também, um imóvel, cujo valor contábil é de R$ 100.000,00, que é alugado a seus empregados, que trabalham no local, por um valor de aluguel semelhante ao de mercado. Assinale a opção que indica a classificação dos ativos no balanço patrimonial da Secretaria de Habitação.
 
-A respeito da aplicação dos regimes contábeis, assinale a afirmativa correta:
-
-* **A)** A despesa pública sob o enfoque patrimonial é reconhecida segundo o princípio da competência (pela ocorrência do fato gerador), independentemente do estágio da execução orçamentária (empenho ou liquidação).
-* **B)** A receita orçamentária é reconhecida pelo regime de competência no momento do lançamento tributário da dívida ativa.
-* **C)** O regime orçamentário adota a competência integral para as receitas públicas e a caixa estrita para as despesas públicas.
-* **D)** O reconhecimento patrimonial de uma obrigação pública subordina-se à emissão prévia de autorização de saque pelo Tesouro Estadual.
-* **E)** O fato gerador da despesa coincide obrigatoriamente com o ato administrativo da fixação orçamentária anual constante da LOA.
-
+* **A)** Imobilizado: R$ 700.000,00.
+* **B)** Propriedade para Investimento: R$ 700.000,00.
+* **C)** Propriedade para Investimento: R$ 100.000,00 e Imobilizado: R$ 600.000,00.
+* **D)** Propriedade para Investimento: R$ 600.000,00 e Imobilizado: R$ 100.000,00.
+* **E)** Realizável a Longo Prazo: R$ 600.000,00 e Imobilizado: R$ 100.000,00.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Sob o enfoque **patrimonial**, aplica-se o regime de competência tanto para receitas (VPA) quanto para despesas (VPD): a VPD deve ser reconhecida no momento em que ocorre o fato gerador (ex.: consumo de material, prestação do serviço ou fruição do trabalho), independentemente do estágio orçamentário.
-> - **B)** Incorreta. Sob o enfoque orçamentário (art. 35, I da Lei nº 4.320/1964), a receita orçamentária é reconhecida no momento da arrecadação (regime de caixa orçamentário).
-> - **C)** Incorreta. O art. 35 da Lei nº 4.320/1964 prevê regime de caixa para as receitas e competência para as despesas no orçamento (regime misto orçamentário).
-> - **D)** Incorreta. As obrigações patrimoniais surgem com o fato gerador, independentemente de saques financeiros.
-> - **E)** Incorreta. A fixação apenas autoriza o limite de gasto; não gera fato patrimonial.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Imobilizado: R$ 700.000,00". De acordo com a teoria estudada em *3.1 Mensuração Inicial, Custos Atribuíveis e Bens de Infraestrutura*, mensuração Inicial: O ativo imobilizado deve ser mensurado inicialmente pelo seu custo de aquisição ou construção, o qual engloba o preço de compra (deduzidos descontos comerciais e abatimentos), tributos não recuperáveis e todos os custos diretamente atribuíveis necessários para colocar o bem em local e condições operacionais de funcionamento pretendidos pela administração pública.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Propriedade para Investimento: R$ 700.000,00". De acordo com a teoria estudada em *3.1 Mensuração Inicial, Custos Atribuíveis e Bens de Infraestrutura*, bens de Infraestrutura e Bens de Uso Comum do Povo: Rodovias, pontes, praças públicas, redes de esgoto e iluminação pública que estejam sob o controle da entidade governamental e possuam potencial de serviços mensurável com confiabilidade devem ser formalmente reconhecidos no Ativo Não Circulante (Imobilizado) do Balanço Patrimonial, contrariando a prática histórica de lançar tais obras como mera despesa orçamentária extinta.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Propriedade para Investimento: R$ 100.000,00 e Imobilizado: R$ 600.000,00". De acordo com a teoria estudada em *3.2 Depreciação, Amortização e Exaustão: Conceitos e Fórmulas*, depreciação: Alocação sistemática do valor depreciável de um ativo tangível (corpóreo) ao longo de sua vida útil econômica estimada.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Propriedade para Investimento: R$ 600.000,00 e Imobilizado: R$ 100.000,00". De acordo com a teoria estudada em *4.2 Reconhecimento Contábil da Perda e Reversões*, essa redução é contabilizada como perda por impairment através de uma conta redutora do ativo imobilizado, tendo como contrapartida uma Variação Patrimonial Diminutiva (VPD) no resultado do exercício.
+> - **E)** **Correta.** Conforme fundamentado na seção *3.3 Ativos que NÃO Sofrem Depreciação Periódica* deste guia, obras de arte, relíquias e antiguidades: Cujo valor cultural, artístico ou histórico seja inestimável e não sofra perda sistemática de potencial de serviços ao longo do tempo. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "Realizável a Longo Prazo: R$ 600.000,00 e Imobilizado: R$ 100.000,00".
+>
+> **Gabarito: E**
 
 ---
 
@@ -205,55 +190,49 @@ flowchart LR
 ---
 
 ### Teste 273
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Determinado órgão público estadual recebeu, em doação incondicional de particular, um terreno avaliado a valor justo de mercado em R$ 800.000,00 para futura construção de um posto fiscal de fronteira.
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Ciencias Contabeis – 2026)**
+Em 30/11/2025, uma entidade apresentava os seguintes saldos em seu Balanço Patrimonial: • Disponibilidades: R$ 90.000,00; • Terrenos destinados ao uso: R$ 210.000,00; • Patrimônio Líquido: R$ 300.000,00. A entidade possuía 3 terrenos, sendo cada um avaliado por R$ 70.000,00. Em dezembro de 2025, a entidade decidiu concentrar as suas atividades em apenas um terreno. Desse modo, colocou os outros dois terrenos à venda, por R$ 72.000,00 cada. O nível hierárquico de gestão apropriado estava comprometido com o plano de venda dos terrenos, e iniciou um programa firme para localizar um comprador e concluir o plano assim que os terrenos estiverem desocupados, em fevereiro de 2027. A imobilização do patrimônio líquido da entidade, em 31/12/2025, foi de
 
-Sob a ótica do Manual de Contabilidade Aplicada ao Setor Público (MCASP 11ª edição):
-
-* **A)** O recebimento do imóvel deve ser contabilizado como receita orçamentária de capital no estágio do recolhimento bancário.
-* **B)** A transação representa uma Variação Patrimonial Aumentativa (VPA) independente da execução orçamentária, elevando o Patrimônio Líquido da entidade.
-* **C)** O bem não pode ser registrado no ativo imobilizado até que a obra do posto fiscal seja integralmente concluída e aceita pela fiscalização.
-* **D)** A operação constitui um fato meramente qualitativo (permutativo), uma vez que não envolveu fluxo financeiro em moeda corrente.
-* **E)** O terreno recebido deverá sofrer depreciação periódica anual linear à alíquota contábil de 4% ao ano.
-
+* **A)** 23,33%.
+* **B)** 24,00%.
+* **C)** 70,00%.
+* **D)** 71,33%.
+* **E)** 72,00%.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Doações de bens materiais não geram influxo de caixa financeiro nem constam na LOA, não constituindo receita orçamentária.
-> - **B)** Correta. A doação de bens recebida amplia o ativo e o patrimônio líquido da entidade sem passar pelos estágios do orçamento (LOA), qualificando-se exatamente como uma Variação Patrimonial Aumentativa (VPA) Independente da Execução Orçamentária. O lançamento debita o Ativo Não Circulante (Imobilizado - Terrenos) e credita VPA no resultado.
-> - **C)** Incorreta. O reconhecimento contábil do terreno ocorre no momento da obtenção de seu controle formal (escritura e posse), e não na futura edificação da obra.
-> - **D)** Incorreta. Trata-se de fato quantitativo modificativo aumentativo, pois houve acréscimo de R$ 800.000,00 na Situação Patrimonial Líquida do ente.
-> - **E)** Incorreta. Terrenos possuem vida útil econômica indefinida e, por expressa determinação contábil, não sofrem depreciação periódica.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "23,33%". De acordo com a teoria estudada em *2.1 Variações Qualitativas (Permutativas) vs. Quantitativas (Modificativas)*, variações Quantitativas (Fatos Modificativos): Transações que impactam diretamente e alteram o valor total do Patrimônio Líquido da entidade pública.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "24,00%". De acordo com a teoria estudada em *2.1 Variações Qualitativas (Permutativas) vs. Quantitativas (Modificativas)*, variações Qualitativas (Fatos Permutativos): São transações que alteram a composição dos elementos patrimoniais (Ativos e Passivos) sem provocar qualquer variação no montante líquido do Patrimônio Líquido (ex.: compra à vista de equipamentos, recebimento de créditos tributários lançados anteriormente, pagamento de fornecedores).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "70,00%". De acordo com a teoria estudada em *2.2 Variações Resultantes vs. Independentes da Execução Orçamentária*, trata-se de uma VPA Independente da Execução Orçamentária (VIEO) que eleva diretamente o Ativo Imobilizado e o Patrimônio Líquido do ente federativo.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "71,33%". De acordo com a teoria estudada em *1.3 Quadro Sinótico de Confronto e Fatos Contábeis*, lançamento do IPTU ou IPVA pelo Fisco: Não há receita orçamentária realizada (aguarda arrecadação). — Ocorre VPA (direito líquido e certo gerado pelo fato gerador tributário). — Fato Modificativo Aumentativo (aumenta o PL da entidade).
+> - **E)** **Correta.** Conforme fundamentado na seção *3.1 Mensuração Inicial, Custos Atribuíveis e Bens de Infraestrutura* deste guia, bens de Infraestrutura e Bens de Uso Comum do Povo: Rodovias, pontes, praças públicas, redes de esgoto e iluminação pública que estejam sob o controle da entidade governamental e possuam potencial de serviços mensurável com confiabilidade devem ser formalmente reconhecidos no Ativo Não Circulante (Imobilizado) do Balanço Patrimonial, contrariando a prática histórica de lançar tais obras como mera despesa orçamentária extinta. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "72,00%".
+>
+> **Gabarito: E**
 
 ---
 
 ### Teste 274
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na Contabilidade Pública, as Variações Patrimoniais classificam-se quanto ao impacto sobre a situação líquida (qualitativas vs. quantitativas) e quanto à vinculação ao orçamento (resultantes vs. independentes da execução orçamentária).
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Contabilidade – 2024)**
+Uma entidade do setor público tem uma creche para os empregados deixarem seus filhos de até 5 anos enquanto estão trabalhando. A creche funciona em um andar do prédio da entidade. Em 2023, a entidade recebeu a doação de um terreno, para ser utilizado pela creche, como parque. Na data, o valor justo do terreno era de R$30.000. Assinale a opção que indica a contabilização do terreno pela entidade do setor público em seu balanço patrimonial.
 
-Constitui uma Variação Patrimonial Diminutiva (VPD) **independente da execução orçamentária**:
-
-* **A)** O reconhecimento mensal do encargo de depreciação do ativo imobilizado e a baixa de bens públicos em razão de sinistro/inutilização.
-* **B)** O pagamento de salários e vencimentos aos servidores públicos estaduais mediante empenho ordinário.
-* **C)** A aquisição de veículos novos mediante licitação e pagamento com recursos correntes.
-* **D)** A contratação de serviços de consultoria técnica especializada com nota de empenho global.
-* **E)** A amortização do principal da dívida pública contratual de longo prazo.
-
+* **A)** Ativo imobilizado.
+* **B)** Investimentos.
+* **C)** Passivo circulante.
+* **D)** Passivo não circulante.
+* **E)** Não há contabilização.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. A depreciação, amortização, exaustão, perecimento de bens, sinistros e perdas por redução ao valor recuperável (*impairment*) constituem VPDs que afetam negativamente a situação patrimonial líquida **sem envolver execução de dotação orçamentária**, sendo, portanto, VPDs independentes da execução orçamentária.
-> - **B)** Incorreta. Despesa com pessoal afeta o patrimônio, mas é resultante da execução orçamentária.
-> - **C)** Incorreta. Aquisição de veículos é variação qualitativa (troca de caixa por imobilizado).
-> - **D)** Incorreta. Serviços prestados são VPDs resultantes da execução do orçamento.
-> - **E)** Incorreta. Amortização é fato permutativo (baixa de passivo com baixa de caixa).
-> 
+> - **A)** **Correta.** Conforme fundamentado na seção *3.1 Mensuração Inicial, Custos Atribuíveis e Bens de Infraestrutura* deste guia, bens de Infraestrutura e Bens de Uso Comum do Povo: Rodovias, pontes, praças públicas, redes de esgoto e iluminação pública que estejam sob o controle da entidade governamental e possuam potencial de serviços mensurável com confiabilidade devem ser formalmente reconhecidos no Ativo Não Circulante (Imobilizado) do Balanço Patrimonial, contrariando a prática histórica de lançar tais obras como mera despesa orçamentária extinta. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "Ativo imobilizado".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Investimentos". De acordo com a teoria estudada em *3.1 Mensuração Inicial, Custos Atribuíveis e Bens de Infraestrutura*, mensuração Inicial: O ativo imobilizado deve ser mensurado inicialmente pelo seu custo de aquisição ou construção, o qual engloba o preço de compra (deduzidos descontos comerciais e abatimentos), tributos não recuperáveis e todos os custos diretamente atribuíveis necessários para colocar o bem em local e condições operacionais de funcionamento pretendidos pela administração pública.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Passivo circulante". De acordo com a teoria estudada em *1.3 Quadro Sinótico de Confronto e Fatos Contábeis*, recebimento e Atesto do material (Liquidação): Despesa orçamentária liquidada (passivo orçamentário a pagar). — Ocorre VPD ou Ativo (se for material de consumo imediato gera VPD; se for estoque/imobilizado gera ativo). — Fato Modificativo Diminutivo (se consumo) ou Permutativo (se estocagem).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Passivo não circulante". De acordo com a teoria estudada em *2.2 Variações Resultantes vs. Independentes da Execução Orçamentária*, trata-se de uma VPA Independente da Execução Orçamentária (VIEO) que eleva diretamente o Ativo Imobilizado e o Patrimônio Líquido do ente federativo.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Não há contabilização". De acordo com a teoria estudada em *4.2 Reconhecimento Contábil da Perda e Reversões*, essa redução é contabilizada como perda por impairment através de uma conta redutora do ativo imobilizado, tendo como contrapartida uma Variação Patrimonial Diminutiva (VPD) no resultado do exercício.
+>
 > **Gabarito: A**
 
 ---
@@ -289,82 +268,74 @@ O MCASP elenca expressamente os ativos públicos que não estão sujeitos à dep
 ---
 
 ### Teste 275
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em relação aos conceitos de depreciação, amortização e teste de recuperabilidade (*impairment*) aplicados aos ativos do setor público, assinale a opção correta:
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Contabilidade – 2024)**
+Em 01/12/2023, uma entidade do setor público adquiriu um terreno por R$200.000. A entidade mantém o terreno para uso futuro ainda não definido. Após o reconhecimento inicial, a entidade escolheu como política contábil o modelo do custo. Em 31/12/2023, o valor justo do terreno foi estimado em R$240.000. Na data, a diferença entre o montante do valor justo e do custo histórico deve ser reconhecida pela entidade como
 
-* **A)** O valor depreciável de um bem corresponde ao seu custo histórico de aquisição somado ao valor residual estimado ao término de sua vida útil.
-* **B)** As quotas de depreciação mensal apuradas para a frota de ambulâncias públicas exigem a prévia emissão de nota de empenho ordinário no orçamento da Secretaria de Saúde.
-* **C)** O teste de recuperabilidade é dispensável no setor público quando o ativo imobilizado não for utilizado diretamente na geração de receitas comerciais ou de lucro.
-* **D)** A redução ao valor recuperável ocorre quando o valor contábil líquido de um ativo for superior ao seu valor recuperável, devendo a perda ser reconhecida no resultado patrimonial como variação patrimonial diminutiva (VPD).
-* **E)** A amortização aplica-se aos bens corpóreos que sofrem desgaste físico ou perecimento gradual ao longo do tempo.
-
+* **A)** Outras receitas.
+* **B)** Receita financeira.
+* **C)** Receita operacional.
+* **D)** Ajuste de avaliação patrimonial.
+* **E)** sem reconhecimento.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O valor depreciável é calculado subtraindo-se o valor residual do custo histórico de aquisição ($Custo - Valor\ Residual$).
-> - **B)** Incorreta. A depreciação é um procedimento estritamente patrimonial (VPD independente da execução orçamentária), não dependendo de dotação na LOA nem de emissão de nota de empenho.
-> - **C)** Incorreta. O teste de recuperabilidade aplica-se obrigatoriamente inclusive aos ativos não geradores de caixa, avaliando-se a perda de seu potencial de serviços à sociedade.
-> - **D)** Correta. De acordo com a NBC TSP 09/10 e o MCASP, se o valor contábil líquido de um ativo for maior que o seu valor recuperável, a entidade pública deve reconhecer imediatamente a perda por desvalorização (*impairment*), lançando uma VPD no resultado em contrapartida a uma conta redutora do ativo imobilizado.
-> - **E)** Incorreta. A amortização destina-se a ativos incorpóreos/intangíveis com vida útil definida; o desgaste sistemático de bens corpóreos tangíveis é objeto de depreciação.
-> 
-> **Gabarito: D**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Outras receitas". De acordo com a teoria estudada em *4.2 Reconhecimento Contábil da Perda e Reversões*, caso cessem as razões econômicas que motivaram a perda em exercícios futuros, a norma permite a reversão da perda até o limite do saldo que o ativo teria se nenhuma perda tivesse sido outrora reconhecida.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Receita financeira". De acordo com a teoria estudada em *2.2 Variações Resultantes vs. Independentes da Execução Orçamentária*, a Doação de imóvel recebida é receita orçamentária de capital? NÃO! Não transita pela LOA nem envolve disponibilidade financeira em moeda.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Receita operacional". De acordo com a teoria estudada em *3.1 Mensuração Inicial, Custos Atribuíveis e Bens de Infraestrutura*, bens de Infraestrutura e Bens de Uso Comum do Povo: Rodovias, pontes, praças públicas, redes de esgoto e iluminação pública que estejam sob o controle da entidade governamental e possuam potencial de serviços mensurável com confiabilidade devem ser formalmente reconhecidos no Ativo Não Circulante (Imobilizado) do Balanço Patrimonial, contrariando a prática histórica de lançar tais obras como mera despesa orçamentária extinta.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Ajuste de avaliação patrimonial". De acordo com a teoria estudada em *4.2 Reconhecimento Contábil da Perda e Reversões*, essa redução é contabilizada como perda por impairment através de uma conta redutora do ativo imobilizado, tendo como contrapartida uma Variação Patrimonial Diminutiva (VPD) no resultado do exercício.
+> - **E)** **Correta.** Conforme fundamentado na seção *4.2 Reconhecimento Contábil da Perda e Reversões* deste guia, se o Valor Contábil Líquido (custo de aquisição menos depreciação acumulada) for superior ao Valor Recuperável, o valor do ativo deve ser reduzido ao valor recuperável. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "sem reconhecimento".
+>
+> **Gabarito: E**
 
 ---
 
 ### Teste 276
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Uma viatura policial foi adquirida pelo Estado de Goiás por R$ 120.000,00. A vida útil estimada do veículo é de 5 anos (60 meses) e a comissão de avaliação patrimonial fixou um valor residual de R$ 20.000,00 para o final do período.
+**(FGV – TCE-PA – Auditor de Controle Externo Fiscalizacao Contabilidade – 2024)**
+Em 31/12/2022, uma fábrica apresentava os seguintes ativos imobilizados em seu balanço patrimonial, apresentados pelo preço de compra inicial e depreciação acumulada: Terreno 100.000 Máquinas 50.000 Depreciação Acumulada .(12.000) Total do Ativo Imobilizado 138.000 Em 01/01/2023, o proprietário da fábrica decidiu que encerraria os seus negócios em 01/03/2027, de modo que usaria os ativos até esta data e, depois os venderia por metade do preço de compra. Assinale a opção que indica a depreciação acumulada do ativo imobilizado em 31/12/2023:
 
-Utilizando o método das quotas constantes (linear) preconizado pelo MCASP, o valor depreciável do bem e o valor da quota mensal de depreciação a ser lançada como VPD são, respectivamente:
-
-* **A)** R$ 120.000,00 e R$ 2.000,00.
-* **B)** R$ 100.000,00 e R$ 1.666,67.
-* **C)** R$ 100.000,00 e R$ 2.000,00.
-* **D)** R$ 120.000,00 e R$ 1.666,67.
-* **E)** R$ 140.000,00 e R$ 2.333,33.
-
+* **A)** R$15.120.
+* **B)** R$16.120.
+* **C)** R$18.000.
+* **D)** R$19.000.
+* **E)** R$21.120.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Erra ao desconsiderar a dedução do valor residual no cálculo do valor depreciável.
-> - **B)** Correta. O cálculo contábil é exato:  
->     1. **Valor Depreciável:** Custo de Aquisição (R$ 120.000,00) menos Valor Residual (R$ 20.000,00) = **R$ 100.000,00**.  
->     2. **Quota Mensal de Depreciação:** Valor Depreciável (R$ 100.000,00) dividido por 60 meses de vida útil = **R$ 1.666,67** por mês, lançada como VPD.
+> - **A)** **Correta.** Conforme fundamentado na seção *3.1 Mensuração Inicial, Custos Atribuíveis e Bens de Infraestrutura* deste guia, mensuração Inicial: O ativo imobilizado deve ser mensurado inicialmente pelo seu custo de aquisição ou construção, o qual engloba o preço de compra (deduzidos descontos comerciais e abatimentos), tributos não recuperáveis e todos os custos diretamente atribuíveis necessários para colocar o bem em local e condições operacionais de funcionamento pretendidos pela administração pública. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "R$15.120".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$16.120". De acordo com a teoria estudada em *3.1 Mensuração Inicial, Custos Atribuíveis e Bens de Infraestrutura*, bens de Infraestrutura e Bens de Uso Comum do Povo: Rodovias, pontes, praças públicas, redes de esgoto e iluminação pública que estejam sob o controle da entidade governamental e possuam potencial de serviços mensurável com confiabilidade devem ser formalmente reconhecidos no Ativo Não Circulante (Imobilizado) do Balanço Patrimonial, contrariando a prática histórica de lançar tais obras como mera despesa orçamentária extinta.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$18.000". De acordo com a teoria estudada em *3.2 Depreciação, Amortização e Exaustão: Conceitos e Fórmulas*, `C` - Depreciação Acumulada (Conta retificadora redutora do Ativo Imobilizado).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$19.000". De acordo com a teoria estudada em *4.1 Mecanismo de Aferição do Valor Recuperável*, o objetivo do teste de recuperabilidade (NBC TSP 09 e 10 c/c MCASP) é garantir que nenhum ativo figure no Balanço Patrimonial por valor superior ao seu Valor Recuperável.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$21.120". De acordo com a teoria estudada em *4.2 Reconhecimento Contábil da Perda e Reversões*, se o Valor Contábil Líquido (custo de aquisição menos depreciação acumulada) for superior ao Valor Recuperável, o valor do ativo deve ser reduzido ao valor recuperável.
 >
-> - **C)** Incorreta. R$ 2.000,00 por mês seria a quota caso o valor residual fosse zero (120.000 / 60).
-> - **D)** Incorreta. O valor depreciável não é o custo bruto (120.000,00), pois há valor residual a ser deduzido.
-> - **E)** Incorreta. Erra ao somar o valor residual ao custo em vez de subtrair.
-> 
-> **Gabarito: B**
+> **Gabarito: A**
 
 ---
 
 ### Teste 277
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Segundo as disposições do MCASP e da NBC TSP 07 (Ativo Imobilizado), a depreciação de um bem público:
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Administracao – 2024)**
+A depreciação de um ativo é a diminuição do seu valor ao longo do tempo devido ao uso, desgaste ou avanço da tecnologia. Com base no método de depreciação linear, considere que um novo equipamento da empresa XYZ foi avaliado em R$1.900.000,00, com uma vida útil prevista de 7 anos e um valor residual de R$150.000,00, sem levar em conta os efeitos da correção monetária devido à inflação. Assinale a opção que apresenta o valor contábil do equipamento ao final do quarto ano de uso.
 
-* **A)** Deve iniciar-se no momento em que o ativo estiver disponível para uso, no local e nas condições necessárias para operar da forma pretendida pela administração, e não cessa quando o ativo se torna ocioso.
-* **B)** Inicia-se unicamente após a quitação total da última fatura emitida pelo fornecedor da obra ou equipamento.
-* **C)** É calculada sobre o valor original total do bem, sendo expressamente proibida a dedução de qualquer valor residual na fórmula de cálculo.
-* **D)** Aplica-se compulsoriamente a todos os terrenos e obras de arte de acervos públicos históricos.
-* **E)** Interrompe-se temporariamente sempre que o órgão público entrar em recesso administrativo parlamentar ou judiciário.
-
+* **A)** R$1.650.000,00
+* **B)** R$1.400.000,00
+* **C)** R$1.150.000,00
+* **D)** R$900.000,00
+* **E)** R$650.000,00
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. A depreciação de um ativo inicia-se quando ele está disponível para uso (instalado e pronto para operar). A depreciação não cessa quando o ativo se torna ocioso ou é retirado temporariamente de uso, a menos que o ativo esteja totalmente depreciado.
-> - **B)** Incorreta. A depreciação vincula-se à disponibilidade operacional do ativo, e não a liquidações financeiras.
-> - **C)** Incorreta. A base depreciável é exatamente o valor contábil deduzido do **valor residual** estimado.
-> - **D)** Incorreta. Terrenos têm vida útil indefinida e obras de arte/acervos históricos raramente depreciam, estando dispensados de depreciação.
-> - **E)** Incorreta. Recessos administrativos não paralisam a perda temporal de valor do ativo.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$1.650.000,00". De acordo com a teoria estudada em *3.2 Depreciação, Amortização e Exaustão: Conceitos e Fórmulas*, depreciação: Alocação sistemática do valor depreciável de um ativo tangível (corpóreo) ao longo de sua vida útil econômica estimada.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$1.400.000,00". De acordo com a teoria estudada em *3.3 Ativos que NÃO Sofrem Depreciação Periódica*, obras de arte, relíquias e antiguidades: Cujo valor cultural, artístico ou histórico seja inestimável e não sofra perda sistemática de potencial de serviços ao longo do tempo.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$1.150.000,00". De acordo com a teoria estudada em *3.2 Depreciação, Amortização e Exaustão: Conceitos e Fórmulas*, amortização: Alocação sistemática do valor amortizável de um ativo intangível (incorpóreo) com vida útil definida (ex.: softwares, licenças governamentais adquiridas).
+> - **D)** **Correta.** Conforme fundamentado na seção *3.2 Depreciação, Amortização e Exaustão: Conceitos e Fórmulas* deste guia, \$\$\text{Quota Periódica de Depreciação (Método Linear)} = \frac{\text{Valor Depreciável}}{\text{Vida Útil Econômica}}\$\$. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "R$900.000,00".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$650.000,00". De acordo com a teoria estudada em *3.3 Ativos que NÃO Sofrem Depreciação Periódica*, bens de valor histórico com vida útil indeterminada mantidos em museus e acervos cívicos.
+>
+> **Gabarito: D**
 
 ---
 
@@ -392,54 +363,50 @@ flowchart TD
 ---
 
 ### Teste 278
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em relação ao Teste de Redução ao Valor Recuperável (*Impairment Test*), disciplinado pela NBC TSP 09 (Ativos Não Geradores de Caixa) e NBC TSP 10 (Ativos Geradores de Caixa), é correto afirmar:
+**(FGV – TCE-PA – Auditor de Controle Externo Fiscalizacao Contabilidade – 2024)**
+Com relação ao reconhecimento dos gastos de formação de um ativo intangível formado internamente, avalie se as afirmativas a seguir são verdadeiras (V) ou falsas (F). ( ) Durante a fase de pesquisa, a entidade não está apta a demonstrar a existência de ativo intangível que gerará prováveis benefícios econômicos futuros ou potencial de serviços, de modo que estes gastos são reconhecidos como variação patrimonial diminutiva quando incorridos. ( ) Durante a fase de desenvolvimento, a entidade já tem certeza sobre a conclusão do ativo, de modo que estes gastos são reconhecidos imediatamente como ativo intangível. ( ) Caso a entidade não consiga diferenciar a fase de pesquisa da fase de desenvolvimento de projeto interno de criação de ativo intangível, o gasto com o projeto deve ser tratado como incorrido apenas na fase de pesquisa. As afirmativas são, respectivamente
 
-* **A)** Se o valor recuperável de um ativo for inferior ao seu valor contábil líquido, o valor contábil do ativo deve ser reduzido ao seu valor recuperável, reconhecendo-se essa redução imediatamente como Variação Patrimonial Diminutiva (VPD).
-* **B)** O teste de recuperabilidade é aplicável exclusivamente a empresas estatais dependentes, sendo os órgãos da Administração Direta dispensados de aferir perdas patrimoniais.
-* **C)** Uma perda por redução ao valor recuperável reconhecida em períodos anteriores para um ativo jamais poderá ser revertida em exercícios futuros.
-* **D)** O valor recuperável de um ativo não gerador de caixa corresponde unicamente ao valor líquido de venda no mercado de leilões públicos.
-* **E)** A constatação de obsolescência tecnológica relevante de um equipamento de TI não constitui indício para realização do teste de redução ao valor recuperável.
-
+* **A)** F – V – V.
+* **B)** V – V – F.
+* **C)** V – F – V.
+* **D)** V – F – F.
+* **E)** F – F – V.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. A regra matriz do *impairment* estabelece: constatado que o valor recuperável (maior entre valor justo líquido de despesas de venda e valor em uso) é inferior ao valor contábil líquido, a entidade deve reconhecer perda por desvalorização (VPD) e conta retificadora do ativo.
-> - **B)** Incorreta. Aplica-se a todas as entidades do setor público abrangidas pelas NBC TSP.
-> - **C)** Incorreta. As normas preveem a reversão de perdas por *impairment* caso as estimativas que fundamentaram a redução tenham se alterado favoravelmente em períodos posteriores.
-> - **D)** Incorreta. O valor recuperável é o maior entre o valor justo menos custos de venda e o valor em uso (potencial de serviços remanescente).
-> - **E)** Incorreta. A obsolescência tecnológica ou física é indício explícito para a aplicação obrigatória do teste.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – V – V". De acordo com a teoria estudada em *4.2 Reconhecimento Contábil da Perda e Reversões*, caso cessem as razões econômicas que motivaram a perda em exercícios futuros, a norma permite a reversão da perda até o limite do saldo que o ativo teria se nenhuma perda tivesse sido outrora reconhecida.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – V – F". De acordo com a teoria estudada em *4.2 Reconhecimento Contábil da Perda e Reversões*, se o Valor Contábil Líquido (custo de aquisição menos depreciação acumulada) for superior ao Valor Recuperável, o valor do ativo deve ser reduzido ao valor recuperável.
+> - **C)** **Correta.** Conforme fundamentado na seção *3.1 Mensuração Inicial, Custos Atribuíveis e Bens de Infraestrutura* deste guia, bens de Infraestrutura e Bens de Uso Comum do Povo: Rodovias, pontes, praças públicas, redes de esgoto e iluminação pública que estejam sob o controle da entidade governamental e possuam potencial de serviços mensurável com confiabilidade devem ser formalmente reconhecidos no Ativo Não Circulante (Imobilizado) do Balanço Patrimonial, contrariando a prática histórica de lançar tais obras como mera despesa orçamentária extinta. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "V – F – V".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – F – F". De acordo com a teoria estudada em *4.2 Reconhecimento Contábil da Perda e Reversões*, essa redução é contabilizada como perda por impairment através de uma conta redutora do ativo imobilizado, tendo como contrapartida uma Variação Patrimonial Diminutiva (VPD) no resultado do exercício.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – F – V". De acordo com a teoria estudada em *1.2 O Regime Patrimonial da Competência Integral (MCASP e NBC TSP)*, os efeitos das transações e demais eventos contábeis são reconhecidos quando ocorrem os seus respectivos fatos geradores econômicos, independentemente do recebimento ou pagamento em dinheiro de caixa.
+>
+> **Gabarito: C**
 
 ---
 
 ### Teste 279
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Determinado órgão público estadual efetuou a aquisição de um imóvel no valor de R$ 5.000.000,00 mediante regular processo licitatório, efetuando o pagamento à vista através de ordem bancária vinculada a dotação de despesa de capital (GND 4 - Investimentos).
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Administracao – 2026)**
+Os estoques são mensurados inicialmente pelo custo de aquisição. Contudo, quando o valor de mercado torna-se inferior a esse custo, a contabilidade determina o reconhecimento da perda, de modo que o ativo não seja apresentado por valor superior ao efetivamente recuperável. Com base nesse critério, o procedimento a ser adotado, quando o valor de mercado do estoque for inferior a seu custo de aquisição, é
 
-Sob o enfoque estritamente patrimonial da Contabilidade Pública, essa transação corresponde a:
-
-* **A)** Uma variação patrimonial qualitativa (ou permutativa), que não acarreta alteração no montante do patrimônio líquido do órgão, ocorrendo apenas permuta entre elementos do ativo (redução de caixa e aumento do ativo imobilizado).
-* **B)** Uma variação patrimonial diminutiva quantitativa, reduzindo imediatamente o patrimônio líquido da entidade em R$ 5.000.000,00.
-* **C)** Uma variação patrimonial aumentativa orçamentária pura, que eleva o superávit financeiro do exercício.
-* **D)** Um fato contábil misto aumentativo, pois os imóveis públicos não se desvalorizam economicamente.
-* **E)** Um ato potencial ativo a ser escriturado apenas nas classes 7 e 8 do PCASP.
-
+* **A)** constituir provisão para perdas correspondente à diferença entre o custo e o valor de mercado, reduzindo o estoque ao seu montante recuperável.
+* **B)** aguardar a efetiva alienação do estoque para, somente então, registrar a diferença entre o custo de aquisição e o valor obtido na venda.
+* **C)** ajustar o valor contábil do estoque para cima sempre que o valor de mercado superar o custo registrado, reconhecendo o ganho no resultado.
+* **D)** baixar integralmente o estoque a débito de despesa operacional no momento em que a queda do valor de mercado for constatada.
+* **E)** manter o estoque pelo custo histórico enquanto não houver desembolso efetivo, pois perdas não realizadas financeiramente não afetam o resultado contábil.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. A aquisição de bens do ativo imobilizado (bens de capital) com recursos do ativo circulante (disponibilidades) constitui **fato contábil permutativo (variação qualitativa)**: altera a composição qualitativa do patrimônio (sai dinheiro do banco e entra imóvel no imobilizado), mantendo inalterado o valor do Patrimônio Líquido.
-> - **B)** Incorreta. Não há redução do Patrimônio Líquido, pois o Estado recebeu um ativo de valor equivalente.
-> - **C)** Incorreta. Não gerou aumento de PL nem receita patrimonial.
-> - **D)** Incorreta. Não se trata de fato misto, mas permutativo puro no momento da aquisição.
-> - **E)** Incorreta. É fato contábil patrimonial efetivo, registrado nas classes 1 (Ativo).
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "constituir provisão para perdas correspondente à diferença entre o custo e o valor de mercado, reduzindo o estoque...". De acordo com a teoria estudada em *4.1 Mecanismo de Aferição do Valor Recuperável*, o objetivo do teste de recuperabilidade (NBC TSP 09 e 10 c/c MCASP) é garantir que nenhum ativo figure no Balanço Patrimonial por valor superior ao seu Valor Recuperável.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "aguardar a efetiva alienação do estoque para, somente então, registrar a diferença entre o custo de aquisição e o...". De acordo com a teoria estudada em *3.1 Mensuração Inicial, Custos Atribuíveis e Bens de Infraestrutura*, mensuração Inicial: O ativo imobilizado deve ser mensurado inicialmente pelo seu custo de aquisição ou construção, o qual engloba o preço de compra (deduzidos descontos comerciais e abatimentos), tributos não recuperáveis e todos os custos diretamente atribuíveis necessários para colocar o bem em local e condições operacionais de funcionamento pretendidos pela administração pública.
+> - **C)** **Correta.** Conforme fundamentado na seção *4.2 Reconhecimento Contábil da Perda e Reversões* deste guia, se o Valor Contábil Líquido (custo de aquisição menos depreciação acumulada) for superior ao Valor Recuperável, o valor do ativo deve ser reduzido ao valor recuperável. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "ajustar o valor contábil do estoque para cima sempre que o valor de mercado superar o custo registrado...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "baixar integralmente o estoque a débito de despesa operacional no momento em que a queda do valor de mercado for...". De acordo com a teoria estudada em *4.2 Reconhecimento Contábil da Perda e Reversões*, essa redução é contabilizada como perda por impairment através de uma conta redutora do ativo imobilizado, tendo como contrapartida uma Variação Patrimonial Diminutiva (VPD) no resultado do exercício.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "manter o estoque pelo custo histórico enquanto não houver desembolso efetivo, pois perdas não realizadas...". De acordo com a teoria estudada em *3.2 Depreciação, Amortização e Exaustão: Conceitos e Fórmulas*, \$\$\text{Valor Depreciável} = \text{Custo Histórico de Aquisição} - \text{Valor Residual Estimado}\$\$.
+>
+> **Gabarito: C**
 
 ---
 

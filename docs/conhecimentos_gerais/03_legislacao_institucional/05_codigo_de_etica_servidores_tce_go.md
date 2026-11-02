@@ -80,27 +80,26 @@ O Código de Ética do TCE-GO encontra-se em total sintonia com a **ISSAI 130 (C
 ---
 
 ### Teste 162
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O Código de Ética dos Servidores do TCE-GO orienta-se pelos padrões éticos internacionais consolidados na norma ISSAI 130 da Organização Internacional das Instituições Superiores de Controle (INTOSAI). Entre os valores axiais que norteiam a integridade do auditor governamental, destaca-se:
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Ciencias Contabeis – 2026)**
+Na era da informação, o uso responsável de redes sociais e de comunicação digital pelos servidores públicos é mandatória. Considerando as previsões expressas sobre a temática no Código de Conduta Ética dos Servidores do Tribunal de Contas do Estado de Santa Catarina (Resolução N. TC-252/2024) é correto afirmar que, ao utilizar as suas redes sociais e mídias digitais, o Auditor Fiscal de Controle Externo deve
 
-* **A)** A flexibilidade moral nas auditorias operacionais, autorizando o auditor a transigir com irregularidades formais em favor de interesses corporativos.
-* **B)** A independência profissional e a objetividade, que impõem ao auditor manter-se livre de quaisquer influências políticas, econômicas ou pessoais capazes de comprometer a imparcialidade técnica de seus relatórios e pareceres.
-* **C)** O dever de subordinação hierárquica cega, segundo o qual o auditor deve omitir achados de fiscalização se assim for verbalmente orientado pela chefia imediata em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **D)** A faculdade de prestar consultoria remunerada aos órgãos jurisdicionados com a finalidade de aumentar a eficiência fiscalizatória do Estado.
-* **E)** O privilégio de divulgar privativamente conclusões de relatórios sigilosos a agentes do mercado financeiro antes da deliberação colegiada.
-
+* **A)** se abster de se identificar expressamente como servidor do Tribunal de Contas em seu perfil pessoal, o que afasta a possibilidade de penalização por eventuais manifestações fora do ambiente de trabalho.
+* **B)** se abster de possuir perfis abertos ao público nas redes sociais, cautela que por si só já demonstra reserva e discrição suficientes para afastar eventuais violações de deveres funcionais.
+* **C)** evitar, no seu perfil das redes sociais, pronunciamentos oficiais sobre casos decorrentes de sua atuação funcional, exceto o compartilhamento de publicações veiculadas nos perfis institucionais ou de notícias já publicadas oficialmente na página eletrônica do Tribunal de Contas.
+* **D)** se abster de antecipar resultados de estudos, de projetos, de trabalhos ou de informações de caráter estratégico e funcional, antes de divulgação oficial, inclusive nos casos em que a divulgação esteja acordada com a Administração Superior, por imperativo de ética.
+* **E)** evitar publicações em redes sociais que possam ser percebidas como discriminatórias em relação à raça, ao gênero, à orientação sexual, à religião e a outros valores ou direitos protegidos, e que possam comprometer os ideais defendidos pela instituição, salvo se publicadas em perfil fechado ao público e sem identificação da qualidade de servidor do TCE-SC.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A conduta ética do auditor é pautada pela intransigência ética com a legalidade e moralidade republicana, sem concessões a conveniências corporativas.
-> - **B)** Correta. A ISSAI 130 e o Código de Ética do TCE-GO elegem a **independência, integridade e objetividade** como pilares fundantes da fiscalização pública: o auditor deve agir com neutralidade axiológica absoluta, sem se deixar influenciar por pressões de partidos, gestores fiscalizados, laços familiares ou vantagens pessoais.
-> - **C)** Incorreta. A hierarquia administrativa não convalida ordens manifestamente ilegais ou antiéticas; o dever de integridade profissional impõe a fidedignidade nos relatórios técnicos.
-> - **D)** Incorreta. O exercício de consultoria ou assessoria a órgãos e entidades sujeitas à jurisdição do TCE-GO constitui conflito de interesses e infração ética gravíssima expressamente vedada.
-> - **E)** Incorreta. O vazamento de informações sigilosas ou privilegiadas atenta frontalmente contra a deontologia e constitui ilícito administrativo e penal.
+> - **A)** **Correta.** Conforme fundamentado na seção *2.3 Dever Incondicional de Sigilo, Custódia de Dados e Vedação a Informações Privilegiadas* deste guia, proibição de Uso de Informação Privilegiada: É expressamente vedado ao servidor utilizar informação confidencial ou ainda não divulgada formalmente pela Corte de Contas para auferir vantagem pessoal direta ou indireta, para beneficiar parentes, amigos ou terceiros. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "se abster de se identificar expressamente como servidor do Tribunal de Contas em seu perfil pessoal, o que afasta...".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "se abster de possuir perfis abertos ao público nas redes sociais, cautela que por si só já demonstra reserva e...". De acordo com a teoria estudada em *3.1 Vedações Expressas: Advocacia, Consultoria e Redes Sociais*, a conduta configura grave violação ética aos deveres de sigilo e reserva. A publicidade dos achados de controle ocorre estritamente pelos canais institucionais oficiais e após o contraditório formal!.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "evitar, no seu perfil das redes sociais, pronunciamentos oficiais sobre casos decorrentes de sua atuação...". De acordo com a teoria estudada em *3.1 Vedações Expressas: Advocacia, Consultoria e Redes Sociais*, antecipação de Juízos de Valor em Redes Sociais e Imprensa: Emitir declarações públicas ou publicações em redes sociais pessoais, blogs e meios de comunicação manifestando opinião antecipada, críticas pessoais ou juízos de valor sobre processos em tramitação, decisões pendentes ou sobre gestores investigados.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "se abster de antecipar resultados de estudos, de projetos, de trabalhos ou de informações de caráter estratégico e...". De acordo com a teoria estudada em *2.3 Dever Incondicional de Sigilo, Custódia de Dados e Vedação a Informações Privilegiadas*, sigilo das Ações de Fiscalização: As etapas preliminares de inspeções e auditorias mantêm caráter reservado até a notificação formal das partes e liberação pública do relatório pelos órgãos deliberativos, sob pena de responsabilidade ética, disciplinar e criminal por quebra de segredo funcional.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "evitar publicações em redes sociais que possam ser percebidas como discriminatórias em relação à raça, ao gênero...". De acordo com a teoria estudada em *3.1 Vedações Expressas: Advocacia, Consultoria e Redes Sociais*, prática de Assédio: Qualquer atitude que configure assédio moral ou assédio sexual nas relações funcionais de trabalho.
 >
-> **Gabarito: B**
+> **Gabarito: A**
 
 ---
 
@@ -130,51 +129,50 @@ No âmbito do TCE-GO, o manuseio de dados fiscais, bancários, orçamentários e
 ---
 
 ### Teste 163
-**(FGV – TCE-GO – Analista de Controle Externo – 2024)**  
-Maria, servidora do conhecimento, em sua vida privada, de que Joana, também servidora dessa estrutura orgânica, não era assídua e frequente ao serviço, o que comprometia o regular funcionamento do setor a que estava vinculada. Ao analisar o Código de Ética para os Servidores do Tribunal de Contas do Estado de Goiás, Maria concluiu corretamente que
+**(FGV – TCE-GO – Analista de Controle Externo Ciencias Contabeis – 2024)**
+A Lei nº 9.717/1998 atribui funções específicas aos Tribunais de Contas no contexto da fiscalização e controle dos regimes próprios de previdência social dos servidores públicos. Assinale a opção que indica uma função dos Tribunais de Contas constante na Lei nº 9.717/1998.
 
-* **A)** tem a faculdade de informar ao superior hierárquico de Joana sobre a sua conduta.
-* **B)** em razão dos princípios da ética relacional, não deve se arvorar em órgão correcional de Joana.
-* **C)** deve notificar a Comissão de Ética a respeito da conduta de Joana, por ser contrária ao Código de Ética.
-* **D)** deve representar ao Presidente do Tribunal de Contas para que adote as providências cabíveis contra Joana, no plano estatutário.
-* **E)** deve informar ao seu superior hierárquico em relação à conduta de Joana, cabendo àquele comunicar ao superior hierárquico desta última.
+* **A)** Representar ao Poder competente sobre irregularidades ou abusos apurados, indicando o ato inquinado e definindo responsabilidades.
+* **B)** Realizar inspeções e auditorias de natureza atuarial, contábil, financeira, orçamentária e patrimonial.
+* **C)** Elaborar relatórios de transparência e informação social acerca das atividades da Corregedoria-Geral, contendo informações sobre os processos relativos à sua competência.
+* **D)** Verificar o cumprimento dos prazos legais, regimentais e regulamentares e, no caso de não observância, propor abertura de sindicância ou de processo administrativo disciplinar.
+* **E)** Manter cadastro de servidores submetidos a processo criminal ou administrativo ou punidos por infração de conduta funcional nos últimos cinco anos.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A comunicação de desvio ético funcional apurado não é mera faculdade personalíssima dispensável quando afeta a credibilidade do Tribunal.
-> - **B)** Incorreta. A ética no serviço público impõe o dever de lealdade às normas éticas institucionais em benefício do serviço público.
-> - **C)** Correta. Nos termos do Código de Ética dos Servidores do TCE-GO, constitui dever funcional e ético de todo servidor comunicar à Comissão de Ética do Tribunal qualquer conduta reiterada de colega de trabalho que infrinja os preceitos éticos regimentais (como o descompromisso reiterado com a assiduidade e pontualidade, que lesiona a eficiência do setor), possibilitando a averiguação preliminar pela instância ética competente.
-> - **D)** Incorreta. A representação ao Presidente é via hierárquica disciplinar, enquanto a instância inicial própria para a averiguação da infração ao Código de Ética é a respectiva Comissão de Ética.
-> - **E)** Incorreta. A apuração ética não se submete à via indireta obrigatória de filtragem pelo superior de setor.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Representar ao Poder competente sobre irregularidades ou abusos apurados, indicando o ato inquinado e definindo...". De acordo com a teoria estudada em *4.3 A Penalidade Exclusiva de Censura Ética e Remessa Disciplinar à Corregedoria*, encaminhamento à Corregedoria-Geral: Havendo indícios de que o ato praticado pelo servidor ultrapassa o desvio ético e enquadra-se como infração estatutária, ato de improbidade administrativa ou ilícito penal, a Comissão de Ética remeterá cópia integral do processo à Corregedoria-Geral do TCE-GO para deflagração de Processo Administrativo Disciplinar (PAD).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Realizar inspeções e auditorias de natureza atuarial, contábil, financeira, orçamentária e patrimonial". De acordo com a teoria estudada em *2.3 Dever Incondicional de Sigilo, Custódia de Dados e Vedação a Informações Privilegiadas*, sigilo das Ações de Fiscalização: As etapas preliminares de inspeções e auditorias mantêm caráter reservado até a notificação formal das partes e liberação pública do relatório pelos órgãos deliberativos, sob pena de responsabilidade ética, disciplinar e criminal por quebra de segredo funcional.
+> - **C)** **Correta.** Conforme fundamentado na seção *2.3 Dever Incondicional de Sigilo, Custódia de Dados e Vedação a Informações Privilegiadas* deste guia, proibição de Uso de Informação Privilegiada: É expressamente vedado ao servidor utilizar informação confidencial ou ainda não divulgada formalmente pela Corte de Contas para auferir vantagem pessoal direta ou indireta, para beneficiar parentes, amigos ou terceiros. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "Elaborar relatórios de transparência e informação social acerca das atividades da Corregedoria-Geral, contendo...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Verificar o cumprimento dos prazos legais, regimentais e regulamentares e, no caso de não observância, propor...". De acordo com a teoria estudada em *2.2 Zelo Técnico, Produtividade e Rigor Procedimental*, cumprir com presteza e pontualidade os prazos processuais e regimentais de instrução, elaboração de relatórios de auditoria e cumprimento de despachos.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Manter cadastro de servidores submetidos a processo criminal ou administrativo ou punidos por infração de conduta...". De acordo com a teoria estudada em *2.1 Urbanidade, Relações Profissionais e Presteza*, facilitar o exercício dos direitos de fiscalização social assegurados ao cidadão.
 >
 > **Gabarito: C**
 
 ---
 
 ### Teste 164
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Sobre o dever de sigilo profissional e a custódia de dados confidenciais regulados no Código de Ética do TCE-GO:
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Administracao – 2026)**
+Na era da informação, o uso responsável de redes sociais e de comunicação digital pelos servidores públicos é mandatório. Considerando as previsões expressas sobre a temática no Código de Conduta Ética dos Servidores do Tribunal de Contas do Estado de Santa Catarina (Resolução N. TC-252/2024) é correto afirmar que, ao utilizar as suas redes sociais e mídias digitais, o Auditor Fiscal de Controle Externo deve
 
-* **A)** O servidor está autorizado a repassar dados de auditorias em andamento a familiares próximos, desde que advertidos sobre a reserva do assunto.
-* **B)** O dever de sigilo cessa imediatamente após o término do vínculo funcional do servidor com o Tribunal de Contas, desobrigando servidores aposentados ou exonerados em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **C)** O servidor do TCE-GO tem o dever incondicional de guardar reserva e absoluto sigilo sobre dados, fatos e informações obtidos em razão do exercício de suas atribuições que não sejam de domínio público.
-* **D)** A divulgação de minutas de acórdãos em redes sociais é permitida quando o objetivo for testar a repercussão pública das propostas de voto.
-* **E)** O sigilo de auditoria não se aplica a contratos de obras públicas de grande vulto financeiro.
-
+* **A)** se abster de se identificar expressamente como servidor do Tribunal de Contas em seu perfil pessoal, o que afasta a possibilidade de penalização por eventuais manifestações fora do ambiente de trabalho.
+* **B)** se abster de possuir perfis abertos ao público nas redes sociais, cautela que por si só já demonstra reserva e discrição suficientes para afastar eventuais violações de deveres funcionais.
+* **C)** evitar, no seu perfil das redes sociais, pronunciamentos oficiais sobre casos decorrentes de sua atuação funcional, exceto o compartilhamento de publicações veiculadas nos perfis institucionais ou de notícias já publicadas oficialmente na página eletrônica do Tribunal de Contas.
+* **D)** se abster de antecipar resultados de estudos, de projetos, de trabalhos ou de informações de caráter estratégico e funcional, antes de divulgação oficial, inclusive nos casos em que a divulgação esteja acordada com a Administração Superior, por imperativo de ética.
+* **E)** evitar publicações em redes sociais que possam ser percebidas como discriminatórias em relação à raça, ao gênero, à orientação sexual, à religião e a outros valores ou direitos protegidos, e que possam comprometer os ideais defendidos pela instituição, salvo se publicadas em perfil fechado ao público e sem identificação da qualidade de servidor do TCE-SC.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O sigilo vincula o servidor em face de qualquer terceiro estranho à equipe de fiscalização formal, inclusive familiares.
-> - **B)** Incorreta. O dever de sigilo e discrição sobre dados confidenciais obtidos no exercício do cargo **subsiste mesmo após a cessação do vínculo** efetivo ou comissionado (aposentadoria, exoneração ou término de mandato).
-> - **C)** Correta. Trata-se do comando deontológico de salvaguarda das informações sigilosas e privilegiadas: o servidor é guardião da confidencialidade dos dados que acessa no cumprimento do dever legal, sendo rigorosamente proibido explorá-los em benefício próprio ou de terceiros (o que configura infração ética e crime funcional).
-> - **D)** Incorreta. Minutas de decisão e relatórios em elaboração são peças internas sigilosas; sua exposição pública atenta contra a ética pública e o devido processo legal.
-> - **E)** Incorreta. O dever de reserva processual abrange todos os processos e auditorias até a sua regular publicidade institucional deliberativa.
+> - **A)** **Correta.** Conforme fundamentado na seção *2.3 Dever Incondicional de Sigilo, Custódia de Dados e Vedação a Informações Privilegiadas* deste guia, proibição de Uso de Informação Privilegiada: É expressamente vedado ao servidor utilizar informação confidencial ou ainda não divulgada formalmente pela Corte de Contas para auferir vantagem pessoal direta ou indireta, para beneficiar parentes, amigos ou terceiros. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "se abster de se identificar expressamente como servidor do Tribunal de Contas em seu perfil pessoal, o que afasta...".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "se abster de possuir perfis abertos ao público nas redes sociais, cautela que por si só já demonstra reserva e...". De acordo com a teoria estudada em *3.1 Vedações Expressas: Advocacia, Consultoria e Redes Sociais*, a conduta configura grave violação ética aos deveres de sigilo e reserva. A publicidade dos achados de controle ocorre estritamente pelos canais institucionais oficiais e após o contraditório formal!.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "evitar, no seu perfil das redes sociais, pronunciamentos oficiais sobre casos decorrentes de sua atuação...". De acordo com a teoria estudada em *3.1 Vedações Expressas: Advocacia, Consultoria e Redes Sociais*, antecipação de Juízos de Valor em Redes Sociais e Imprensa: Emitir declarações públicas ou publicações em redes sociais pessoais, blogs e meios de comunicação manifestando opinião antecipada, críticas pessoais ou juízos de valor sobre processos em tramitação, decisões pendentes ou sobre gestores investigados.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "se abster de antecipar resultados de estudos, de projetos, de trabalhos ou de informações de caráter estratégico e...". De acordo com a teoria estudada em *2.3 Dever Incondicional de Sigilo, Custódia de Dados e Vedação a Informações Privilegiadas*, sigilo das Ações de Fiscalização: As etapas preliminares de inspeções e auditorias mantêm caráter reservado até a notificação formal das partes e liberação pública do relatório pelos órgãos deliberativos, sob pena de responsabilidade ética, disciplinar e criminal por quebra de segredo funcional.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "evitar publicações em redes sociais que possam ser percebidas como discriminatórias em relação à raça, ao gênero...". De acordo com a teoria estudada em *3.1 Vedações Expressas: Advocacia, Consultoria e Redes Sociais*, prática de Assédio: Qualquer atitude que configure assédio moral ou assédio sexual nas relações funcionais de trabalho.
 >
-> **Gabarito: C**
+> **Gabarito: A**
 
 ---
 
@@ -223,103 +221,96 @@ O conflito de interesses ocorre quando o interesse privado do servidor pode infl
 ---
 
 ### Teste 165
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Flávio, Técnico de Controle Externo do TCE-GO, teve acesso a um relatório preliminar de auditoria ainda sigiloso que apura irregularidades na gestão de saúde pública estadual. Indignado com os achados, Flávio publica trechos dos documentos e fotografias em suas redes sociais pessoais, tecendo críticas severas aos gestores envolvidos antes do julgamento do processo pela Câmara. À luz das normas deontológicas do TCE-GO:
+**(FGV – TJ-SC – Analista Administrativo – 2026)**
+Maria ocupa cargo de primeiro escalão em determinado ente federativo, na condição de Secretária de Estado. As normas afetas à prevenção e ao tratamento do conflito de interesses nesse ente seguem os balizamentos oferecidos pela Lei nº 12.813/2013. Maria pretende exercer determinada atividade privada de cunho econômico. Embora o exercício dessa atividade não seja vedado pelas referidas normas, Maria tem dúvida em relação à sua licitude, pois implicaria na prestação de serviços a pessoas jurídicas que têm interesse em decisões de colegiado administrativo do qual ela participa. Ao analisar a sistemática legal, Maria concluiu corretamente que
 
-* **A)** A atitude de Flávio é protegida pelo direito constitucional à livre manifestação do pensamento, não configurando infração ética.
-* **B)** Flávio cometeu infração ética grave contra os deveres de sigilo, reserva e confidencialidade.
-* **C)** A divulgação em rede social só seria ilícita se Flávio tivesse recebido remuneração direta de partidos de oposição.
-* **D)** O servidor agiu com estrito cumprimento do princípio da publicidade, sobrepondo-se este ao sigilo institucional dos autos.
-* **E)** A comissão de auditoria deve endossar a postagem para garantir a transparência ativa dos dados da Corte de Contas.
-
+* **A)** a ausência de vedação legal ao exercício da atividade afasta a possibilidade de ser configurado o conflito de interesses.
+* **B)** o interesse das pessoas jurídicas nas decisões do colegiado de que Maria participe não configura conflito de interesses.
+* **C)** o conflito de interesses na situação descrita é afastado, caso Maria esteja em gozo de licença ou em período de afastamento.
+* **D)** a situação descrita configura conflito de interesses, devendo ser fiscalizada por Comissão de Ética Pública instituída no âmbito do Poder Executivo do ente federativo ao qual Maria está vinculada.
+* **E)** o conflito de interesses somente estará configurado se Maria divulgar ou fizer uso de informações privilegiadas obtidas no exercício funcional, para viabilizar a prestação do serviço para o qual seja contratada.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** A garantia constitucional da liberdade de expressão encontra limite no dever de fidelidade institucional e de sigilo funcional sobre documentos não homologados a que o agente teve acesso exclusivamente em virtude do cargo público.
-> - **B) CORRETA.** Nos termos do Código de Ética do TCE-GO, incumbe ao servidor o **dever indeclinável de sigilo e discrição** quanto a relatórios e autos processuais em andamento. É vedada categoricamente a antecipação de juízos de valor, a manifestação pública de opiniões parciais ou o vazamento de peças técnicas à imprensa e redes sociais antes da formal deliberação do Tribunal.
-> - **C) Incorreta.** O recebimento de remuneração agravaria o ilícito com contornos de corrupção passiva, mas a divulgação não autorizada por si só já perfaz falta ética autônoma.
-> - **D) Incorreta.** A publicidade republicana é assegurada mediante atos e canais oficiais da Corte nos momentos processuais oportunos, não se confundindo com quebra arbitrária de sigilo por servidor individualmente.
-> - **E) Incorreta.** As equipes de fiscalização submetem-se ao mesmo dever de reserva e neutralidade institucional.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a ausência de vedação legal ao exercício da atividade afasta a possibilidade de ser configurado o conflito de...". De acordo com a teoria estudada em *3.3 Prevenção de Conflito de Interesses e Autodeclaração de Impedimento*, o conflito de interesses ocorre quando o interesse privado do servidor pode influenciar de maneira inadequada o desempenho de suas atribuições públicas no controle externo.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o interesse das pessoas jurídicas nas decisões do colegiado de que Maria participe não configura conflito de...". De acordo com a teoria estudada em *3.1 Vedações Expressas: Advocacia, Consultoria e Redes Sociais*, exercício da Advocacia ou Assessoria a Jurisdicionados: Atuar, direta ou indiretamente, como procurador, consultor jurídico, assessor contábil ou preposto de quaisquer órgãos da administração pública direta ou indireta estadual, empresas públicas, consórcios, ou pessoas físicas e jurídicas sujeitas à jurisdição da Corte de Contas.
+> - **C)** **Correta.** Conforme fundamentado na seção *3.3 Prevenção de Conflito de Interesses e Autodeclaração de Impedimento* deste guia, dever de Autodeclaração: O servidor designado para atuar em auditoria, instrução de processo de contas ou análise de licitação que possuir relação de parentesco (cônjuge, companheiro ou parentes consanguíneos ou afins até o terceiro grau) com dirigentes da entidade auditada, ou com quem mantenha litígio judicial ou interesse financeiro comum, tem a obrigação ética de autodeclarar imediatamente o impedimento, solicitando à chefia imediata sua substituição na equipe. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-SC/2026) ao estabelecer que "o conflito de interesses na situação descrita é afastado, caso Maria esteja em gozo de licença ou em período de...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a situação descrita configura conflito de interesses, devendo ser fiscalizada por Comissão de Ética Pública...". De acordo com a teoria estudada em *4.1 Composição e Tríplice Atuação da Comissão de Ética*, função Consultiva e Preventiva: Responde a consultas abstratas de servidores sobre conflitos de interesses e dilemas deontológicos, emitindo pareceres orientadores.
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "o conflito de interesses somente estará configurado se Maria divulgar ou fizer uso de informações privilegiadas...". De acordo com a teoria estudada em *2.3 Dever Incondicional de Sigilo, Custódia de Dados e Vedação a Informações Privilegiadas*, proibição de Uso de Informação Privilegiada: É expressamente vedado ao servidor utilizar informação confidencial ou ainda não divulgada formalmente pela Corte de Contas para auferir vantagem pessoal direta ou indireta, para beneficiar parentes, amigos ou terceiros.
+>
+> **Gabarito: C**
 
 ---
 
 ### Teste 166
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Rodrigo, Técnico de Controle Externo do TCE-GO designado para compor comissão de fiscalização de contratos de serviços de informática, é abordado pelo diretor comercial de uma grande empresa de tecnologia que disputa novo certame estadual. O empresário oferece a Rodrigo o pagamento integral de passagens aéreas, estadia em hotel de luxo e inscrições para um congresso temático no exterior. Paralelamente, envia ao gabinete de Rodrigo uma cesta de vinhos importados de alto valor comercial. Diante das regras deontológicas constantes do Código de Ética dos Servidores do TCE-GO, Rodrigo deverá:
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Ciencias Contabeis – 2026)**
+Caio, contador, logra êxito em ser aprovado no concurso de Auditor Fiscal de Controle Externo do TCE-SC, passando a titularizar o concorrido e renomado cargo para o qual estudou por tantos anos. Após o curso de formação e o início efetivo das atividades, o titular da unidade técnica lhe distribuiu dois processos para fins de instrução. Em um deles, processo X, havia como documento anexo à defesa do jurisdicionado uma perícia realizada pelo próprio Caio, quando ainda trabalhava como contador em escritório renomado do Estado, do foi desligado antes mesmo da sua nomeação e posse no cargo público em questão. No outro, processo Y, figurava como jurisdicionado seu tio distante, com quem nunca teve laço de afetividade, de amizade ou de inimizade. Considerando as disposições do Código de Conduta Ética dos Servidores do Tribunal de Contas do Estado de Santa Catarina, é correto afirmar, com relação aos processos X e Y, que
 
-* **A)** Aceitar as passagens e a inscrição no congresso, pois revertem em benefício à qualificação técnica do Tribunal, mas doar os vinhos ao almoxarifado em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **B)** Recusar peremptoriamente tanto o convite de viagem quanto os presentes, comunicando formalmente o fato à chefia e à Comissão de Ética, por configurar benefício de pessoa interessada em deliberações da Corte.
-* **C)** Aceitar o convite de viagem desde que formalize compromisso escrito de manter neutralidade no relatório de auditoria.
-* **D)** Aceitar os vinhos na qualidade de brinde institucional, vedada apenas a aceitação de valores em espécie.
-* **E)** Aceitar os benefícios oferecidos, cabendo à Comissão de Ética homologar a doação após a conclusão do certame licitatório.
-
+* **A)** não está configurado conflito de interesse no exercício do cargo.
+* **B)** está configurado conflito de interesse no exercício do cargo, ainda que Caio não tenha obtido qualquer vantagem ou retribuição.
+* **C)** está configurado conflito de interesse no exercício do cargo com relação ao processo X, mas não em relação ao processo Y.
+* **D)** está configurado conflito de interesse no exercício do cargo com relação ao processo Y, mas não em relação ao processo X.
+* **E)** está configurado conflito de interesse no exercício do cargo, apenas se Caio tiver obtido vantagem ou retribuição mensuráveis.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Custeio de passagens aéreas e hotelaria por empresa fornecedora ou interessada em deliberações da Corte consubstancia benefício indevido, comprometendo de forma irreversível a independência técnica da fiscalização.
-> - **B) CORRETA.** Em observância estrita ao Código de Ética do TCE-GO, o servidor público do controle externo tem o dever de recusar peremptoriamente qualquer presente, viagem, transporte, hospedagem ou vantagem econômica oferecida por particulares ou entes que mantenham interesses em processos fiscalizados pela Corte, comunicando o ocorrido de imediato à sua chefia e à Comissão de Ética.
-> - **C) Incorreta.** Termo de compromisso moral unilateral não elide a nulidade nem a quebra objetiva do dever de neutralidade gerada pelo recebimento de hospitalidades de fornecedores.
-> - **D) Incorreta.** Bebidas finas e itens de elevado valor econômico classificam-se juridicamente como presentes (e não brindes promocionais de valor ínfimo).
-> - **E) Incorreta.** A Comissão de Ética não tem competência para homologar recebimento de benesses financeiras ou vantagens indevidas.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não está configurado conflito de interesse no exercício do cargo". De acordo com a teoria estudada em *3.3 Prevenção de Conflito de Interesses e Autodeclaração de Impedimento*, o conflito de interesses ocorre quando o interesse privado do servidor pode influenciar de maneira inadequada o desempenho de suas atribuições públicas no controle externo.
+> - **B)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "está configurado conflito de interesse no exercício do cargo, ainda que Caio não tenha obtido qualquer vantagem ou...". De acordo com a teoria estudada em *2.3 Dever Incondicional de Sigilo, Custódia de Dados e Vedação a Informações Privilegiadas*, proibição de Uso de Informação Privilegiada: É expressamente vedado ao servidor utilizar informação confidencial ou ainda não divulgada formalmente pela Corte de Contas para auferir vantagem pessoal direta ou indireta, para beneficiar parentes, amigos ou terceiros.
+> - **C)** **Correta.** Conforme fundamentado na seção *3.3 Prevenção de Conflito de Interesses e Autodeclaração de Impedimento* deste guia, dever de Autodeclaração: O servidor designado para atuar em auditoria, instrução de processo de contas ou análise de licitação que possuir relação de parentesco (cônjuge, companheiro ou parentes consanguíneos ou afins até o terceiro grau) com dirigentes da entidade auditada, ou com quem mantenha litígio judicial ou interesse financeiro comum, tem a obrigação ética de autodeclarar imediatamente o impedimento, solicitando à chefia imediata sua substituição na equipe. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "está configurado conflito de interesse no exercício do cargo com relação ao processo X, mas não em relação ao...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "está configurado conflito de interesse no exercício do cargo com relação ao processo Y, mas não em relação ao...". De acordo com a teoria estudada em *4.3 A Penalidade Exclusiva de Censura Ética e Remessa Disciplinar à Corregedoria*, encaminhamento à Corregedoria-Geral: Havendo indícios de que o ato praticado pelo servidor ultrapassa o desvio ético e enquadra-se como infração estatutária, ato de improbidade administrativa ou ilícito penal, a Comissão de Ética remeterá cópia integral do processo à Corregedoria-Geral do TCE-GO para deflagração de Processo Administrativo Disciplinar (PAD).
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "está configurado conflito de interesse no exercício do cargo, apenas se Caio tiver obtido vantagem ou retribuição...". De acordo com a teoria estudada em *1.2 Alinhamento com a ISSAI 130 da INTOSAI e Primazia do Interesse Público*, o Código de Ética do TCE-GO encontra-se em total sintonia com a ISSAI 130 (Código de Ética da Organização Internacional das Entidades Fiscalizadoras Superiores - INTOSAI) e com as diretrizes da Associação dos Membros dos Tribunais de Contas do Brasil (ATRICON) e do Instituto Rui Barbosa (IRB).
+>
+> **Gabarito: C**
 
 ---
 
 ### Teste 167
-**(FGV – TCE-PA – Auditor de Controle Externo – 2024)**  
-Um objetivo consagrado no Código de Ética e Disciplina
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Administracao – 2026)**
+Fundada na dignidade da pessoa humana e no valor social do trabalho, foi instituída, por meio da Resolução N. TC-254/2024, a Política de Prevenção e de Enfrentamento do Assédio Moral, do Assédio Sexual e da Discriminação no TCE/SC. No contexto de referida resolução, os atos de i) manifestar publicamente desdém ou desprezo pelo produto do trabalho, ii) gerir por estresse, por injúria ou por medo e iii) realizar premiações negativas, ameaças e cobranças exageradas, podem configurar, respectivamente:
 
-dos Servidores do
-
-(Resolução nº 18.523/2013), é o de
-
-* **A)** fomentar a utilização de informação privilegiada após o exercício do cargo, para que o respectivo servidor possa obter dela vantagem.
-* **B)** impor o sigilo de todas as informações que tramitam perante o Tribunal de Contas, diante da relevância das situações analisadas pelo órgão de controle, no exercício de suas atribuições constitucionais.
-* **C)** propiciar, no campo ético, regras específicas sobre o conflito de interesses públicos e privados, de modo fazer prevalecer esses últimos sobre aqueles anteriormente mencionados.
-* **D)** assegurar aos servidores do Tribunal de Contas a preservação de sua imagem, ainda que seu comportamento seja contrário as normas éticas estabelecidas pela aludida norma.
-* **E)** tornar transparentes as regras éticas de conduta dos servidores do Tribunal de Contas, para que a sociedade possa aferir sua integridade e a lisura do processo de apreciação das contas públicas.
+* **A)** assédio moral, assédio moral e assédio moral organizacional.
+* **B)** assédio moral, assédio sexual e assédio moral organizacional.
+* **C)** assédio moral organizacional, assédio moral organizacional e assédio moral.
+* **D)** assédio institucional, assédio moral organizacional e assédio institucional.
+* **E)** assédio moral, assédio moral organizacional e assédio moral organizacional.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O uso de informação privilegiada para obtenção de vantagem pessoal ou de terceiros é expressamente vedado e constitui crime e falta funcional gravíssima.
-> - **B)** Incorreta. O princípio constitucional regente da administração pública é o da publicidade ampla, sendo o sigilo exceção restrita a casos de segurança ou segredo de justiça.
-> - **C)** Incorreta. As normas éticas determinam a prevalência incondicional do interesse público coletivo sobre o interesse privado.
-> - **D)** Incorreta. Os códigos de ética não servem como escudo corporativo para preservar imagem de agentes infratores.
-> - **E)** Correta. Nos termos das normas éticas aplicáveis aos Tribunais de Contas e consonante às diretrizes da INTOSAI (ISSAI 130), o Código de Ética tem como objetivo essencial conferir transparência às regras de integridade e probidade que pautam a atuação dos servidores do Controle Externo, fortalecendo a credibilidade perante a sociedade e garantindo a lisura no julgamento e fiscalização das contas públicas.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "assédio moral, assédio moral e assédio moral organizacional". De acordo com a teoria estudada em *4.3 A Penalidade Exclusiva de Censura Ética e Remessa Disciplinar à Corregedoria*, a competência punitiva direta da Comissão de Ética restringe-se estritamente ao âmbito moral e ético.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "assédio moral, assédio sexual e assédio moral organizacional". De acordo com a teoria estudada em *1.1 Princípios e Valores Éticos do Controle Externo*, o Código de Ética e de Conduta dos Servidores do Tribunal de Contas do Estado de Goiás, veiculado pela Resolução Administrativa nº 01/2014 (Anexo II) e complementado pelos atos de integridade institucional, estabelece as diretrizes axiológicas que regem a conduta de todos os servidores efetivos, comissionados, estagiários e colaboradores que prestam serviços ao Tribunal.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "assédio moral organizacional, assédio moral organizacional e assédio moral". De acordo com a teoria estudada em *3.2 Política Institucional de Presentes vs. Brindes*, definição e Natureza: Bens, serviços, transporte, passagens aéreas, estadias, jantares ou cortesias que possuam valor comercial individualizado apreciável. — Artigos promocionais de valor econômico módico e sem apelo de comercialização.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "assédio institucional, assédio moral organizacional e assédio institucional". De acordo com a teoria estudada em *3.2 Política Institucional de Presentes vs. Brindes*, tratamento no Código de Ética: VEDAÇÃO ABSOLUTA. A aceitação gera quebra de imparcialidade e enseja sanção ética, sem prejuízo de apuração por improbidade ou crime de corrupção. — PERMITIDO, desde que de valor módico estipulado nos normativos da Corte.
+> - **E)** **Correta.** Conforme fundamentado na seção *3.1 Vedações Expressas: Advocacia, Consultoria e Redes Sociais* deste guia, prática de Assédio: Qualquer atitude que configure assédio moral ou assédio sexual nas relações funcionais de trabalho. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "assédio moral, assédio moral organizacional e assédio moral organizacional".
 >
 > **Gabarito: E**
 
 ---
 
 ### Teste 168
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No que concerne às proibições éticas e conduta pública do servidor do TCE-GO nas redes sociais e no ambiente profissional:
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Ciencias da Computacao Sistemas de Informacao – 2026)**
+Uma vedação constante do Código de Conduta Ética dos servidores do Tribunal de Contas do Estado de Santa Catarina (Resolução nº 252/2024 do TCE-SC) é
 
-* **A)** É expressamente vedado ao servidor manifestar-se publicamente em redes sociais como porta-voz do Tribunal sem a devida autorização institucional, bem como emitir juízos depreciativos sobre processos e fiscalizações que estejam pendentes de deliberação pela Corte.
-* **B)** O servidor pode utilizar livremente os canais oficiais do Tribunal para defender interesses político-partidários pessoais e promover candidaturas eleitorais de parentes.
-* **C)** É lícito ao servidor atuar como procurador ou consultor de empresa que dispute licitação fiscalizada pela sua própria unidade técnica.
-* **D)** O Código de Ética autoriza que o auditor receba presentes de alto valor de dirigentes de empreiteiras auditadas, desde que divididos com os colegas de equipe.
-* **E)** As vedações éticas sobre conflito de interesses aplicam-se unicamente no horário de expediente presencial nas dependências físicas do Tribunal.
-
+* **A)** cooperar com qualquer organização que atente contra a dignidade da pessoa humana.
+* **B)** utilizar os materiais fornecidos para a execução do trabalho com economia e consciência, evitando o desperdício e contribuindo para a sustentabilidade.
+* **C)** resistir e denunciar pressões de superiores hierárquicos, de contratantes, de interessados e de outros que visem a obter quaisquer favores, benesses ou vantagens indevidas em decorrência de ações ou de omissões imorais, ilegais ou antiéticas.
+* **D)** representar imediatamente à chefia ou à unidade técnica competente todo e qualquer ato ou fato que seja contrário ao interesse público, prejudicial ao Tribunal ou à sua missão institucional, de que tenha tomado conhecimento em razão do cargo ou da função.
+* **E)** manter neutralidade no exercício profissional – tanto a real como a percebida –, conservando sua independência em relação às influências político-partidárias ou religiosas, de modo a evitar que essas venham a afetar – ou parecer afetar – a sua capacidade de desempenhar com imparcialidade suas responsabilidades profissionais.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. O Código de Ética do TCE-GO veda expressamente o uso das redes sociais particulares para emissão de manifestações com aparente chancela institucional sem prévia autorização, bem como comentários públicos que antecipem juízos de valor ou depreciem processos e partes sujeitas à fiscalização da Corte de Contas antes de sua formal conclusão pelo colegiado.
-> - **B)** Incorreta. O uso de bens, recursos ou canais públicos para propaganda político-partidária atenta contra o art. 37 da CF/88 e constitui infração ética gravíssima e improbidade administrativa.
-> - **C)** Incorreta. A advocacia ou consultoria perante o Tribunal ou em favor de fiscalizados é vedada de forma absoluta.
-> - **D)** Incorreta. A política institucional proíbe terminantemente o recebimento de presentes e vantagens de pessoas físicas ou jurídicas fiscalizadas ou interessadas em decisões da Corte (apenas brindes sem valor comercial e com logotipo institucional de praxe são admitidos).
-> - **E)** Incorreta. Os padrões de integridade e a vedação ao conflito de interesses estendem-se a toda a conduta pública do agente, dentro e fora do horário de expediente.
+> - **A)** **Correta.** Conforme fundamentado na seção *1.2 Alinhamento com a ISSAI 130 da INTOSAI e Primazia do Interesse Público* deste guia, o Código de Ética do TCE-GO encontra-se em total sintonia com a ISSAI 130 (Código de Ética da Organização Internacional das Entidades Fiscalizadoras Superiores - INTOSAI) e com as diretrizes da Associação dos Membros dos Tribunais de Contas do Brasil (ATRICON) e do Instituto Rui Barbosa (IRB). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "cooperar com qualquer organização que atente contra a dignidade da pessoa humana".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "utilizar os materiais fornecidos para a execução do trabalho com economia e consciência, evitando o desperdício e...". De acordo com a teoria estudada em *3.1 Vedações Expressas: Advocacia, Consultoria e Redes Sociais*, prática de Assédio: Qualquer atitude que configure assédio moral ou assédio sexual nas relações funcionais de trabalho.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "resistir e denunciar pressões de superiores hierárquicos, de contratantes, de interessados e de outros que visem a...". De acordo com a teoria estudada em *1.1 Princípios e Valores Éticos do Controle Externo*, independência Profissional e Imparcialidade: Imunidade absoluta contra pressões de governantes, partidos políticos, grupos econômicos ou sindicatos; as conclusões de auditorias e instruções processuais devem apoiar-se estritamente na Constituição, nas leis e em matrizes probatórias consistentes.
+> - **D)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "representar imediatamente à chefia ou à unidade técnica competente todo e qualquer ato ou fato que seja contrário...". De acordo com a teoria estudada em *3.3 Prevenção de Conflito de Interesses e Autodeclaração de Impedimento*, dever de Autodeclaração: O servidor designado para atuar em auditoria, instrução de processo de contas ou análise de licitação que possuir relação de parentesco (cônjuge, companheiro ou parentes consanguíneos ou afins até o terceiro grau) com dirigentes da entidade auditada, ou com quem mantenha litígio judicial ou interesse financeiro comum, tem a obrigação ética de autodeclarar imediatamente o impedimento, solicitando à chefia imediata sua substituição na equipe.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "manter neutralidade no exercício profissional – tanto a real como a percebida –, conservando sua independência em...". De acordo com a teoria estudada em *3.1 Vedações Expressas: Advocacia, Consultoria e Redes Sociais*, uso Privado da Estrutura do Tribunal: Empregar servidores subordinados, bens patrimoniais, equipamentos eletrônicos ou sistemas corporativos do TCE-GO em atividades estranhas ao serviço público ou em campanhas político-partidárias.
 >
 > **Gabarito: A**
 
@@ -369,77 +360,74 @@ graph TD
 ---
 
 ### Teste 169
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere que um servidor recém-empossado no TCE-GO possua dúvidas legítimas sobre a possibilidade de exercer, cumulativamente com suas funções públicas, atividade de docência acadêmica em universidade privada e a publicação de artigos científicos na área orçamentária. Nesse cenário, à luz dos mecanismos de governança ética:
+**(FGV – TRT-13 – Analista Judiciario Tecnologia da Informacao – 2022)**
+Maria forneceu os seus dados pessoais para usufruir determinado benefício assistencial ofertado pelo Estado Alfa. Considerando que Maria figurava como parte interessada em um processo administrativo no qual certo órgão da Administração Pública lhe aplicara a sanção de multa, um servidor constatou que as referidas informações poderiam ser utilizadas, neste último processo, para demonstrar que Maria não tinha razão em suas alegações. À luz da sistemática estabelecida pela Lei Geral de Proteção de Dados (LGPD), é correto afirmar que
 
-* **A)** O servidor deverá consultar previamente a Comissão de Ética do órgão, a qual possui atribuição consultiva para dirimir dúvidas éticas e orientar os servidores.
-* **B)** É vedado à Comissão de Ética responder a qualquer questionamento de servidores que não seja originado de processo punitivo litigioso em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **C)** A atividade de magistério é terminantemente proibida aos ocupantes de cargos no controle externo, ensejando demissão sumária.
-* **D)** O servidor deve requerer autorização prévia ao Presidente da Assembleia Legislativa em audiência pública.
-* **E)** O exercício da docência independe de compatibilidade de horários, bastando aviso informal ao colega de setor.
-
+* **A)** é vedado que órgão da Administração Pública, enquanto controlador dos dados pessoais, os utilize para qualquer outro fim que não aquele indicado pelo titular.
+* **B)** o princípio da universalidade das provas, contemplado na LGPD, autoriza a utilização dos dados pessoais de Maria para os fins pretendidos pelo servidor.
+* **C)** como os dados pessoais foram apresentados por Maria, para o exercício regular de um direito, não poderiam ser utilizados em seu prejuízo.
+* **D)** a Administração Pública, sempre que figure como operadora dos dados pessoais, pode utilizá-los da forma que melhor lhe aprouver.
+* **E)** a LGPD autoriza a utilização dos dados fornecidos por Maria caso o bem jurídico a ser tutelado seja de interesse público.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) CORRETA.** Uma das missões nucleares da **Comissão de Ética** é o exercício de sua **atribuição preventiva, educativa e consultiva**. Os servidores do Tribunal de Contas têm a faculdade e o dever de provocar a Comissão de Ética previamente para dirimir dúvidas a respeito de conflito de interesses, acumulação de docência e condutas funcionais antes da tomada de decisões concretas.
-> - **B) Incorreta.** A atuação da comissão não é exclusivamente litigiosa; seu foco primordial é a orientação proativa da conduta dos servidores.
-> - **C) Incorreta.** O magistério superior é constitucionalmente autorizado em regime de acumulação com cargos públicos (CF, Art. 37, XVI, "b"), desde que haja compatibilidade de horários e não envolva assessoria a entes fiscalizados.
-> - **D) Incorreta.** A gestão da conduta ética interna dos servidores do TCE-GO é disciplinada pela própria Corte de Contas, e não pelo Poder Legislativo.
-> - **E) Incorreta.** A compatibilidade de horários é mandamento constitucional inafastável para qualquer regime de acumulação remunerada lícita.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "é vedado que órgão da Administração Pública, enquanto controlador dos dados pessoais, os utilize para qualquer...". De acordo com a teoria estudada em *2.3 Dever Incondicional de Sigilo, Custódia de Dados e Vedação a Informações Privilegiadas*, proibição de Uso de Informação Privilegiada: É expressamente vedado ao servidor utilizar informação confidencial ou ainda não divulgada formalmente pela Corte de Contas para auferir vantagem pessoal direta ou indireta, para beneficiar parentes, amigos ou terceiros.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o princípio da universalidade das provas, contemplado na LGPD, autoriza a utilização dos dados pessoais de Maria...". De acordo com a teoria estudada em *3.2 Política Institucional de Presentes vs. Brindes*, procedimento em Caso de Impossibilidade de Recusa Imediata: O servidor tem o dever funcional de entregar o item à Diretoria de Administração para fins de incorporação ao patrimônio ou doação a entidades filantrópicas. — O servidor pode reter o item para utilização nas dependências da repartição.
+> - **C)** **Correta.** Conforme fundamentado na seção *3.1 Vedações Expressas: Advocacia, Consultoria e Redes Sociais* deste guia, é frequente a FCC apresentar cenários de servidores do TCE que, indignados com desvios que apuram, publicam desabafos e documentos preliminares em suas redes sociais pessoais, alegando "direito de livre expressão" ou "dever de publicidade". Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-13/2022) ao estabelecer que "como os dados pessoais foram apresentados por Maria, para o exercício regular de um direito, não poderiam ser...".
+> - **D)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "a Administração Pública, sempre que figure como operadora dos dados pessoais, pode utilizá-los da forma que melhor...". De acordo com a teoria estudada em *3.1 Vedações Expressas: Advocacia, Consultoria e Redes Sociais*, exercício da Advocacia ou Assessoria a Jurisdicionados: Atuar, direta ou indiretamente, como procurador, consultor jurídico, assessor contábil ou preposto de quaisquer órgãos da administração pública direta ou indireta estadual, empresas públicas, consórcios, ou pessoas físicas e jurídicas sujeitas à jurisdição da Corte de Contas.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a LGPD autoriza a utilização dos dados fornecidos por Maria caso o bem jurídico a ser tutelado seja de interesse...". De acordo com a teoria estudada em *1.2 Alinhamento com a ISSAI 130 da INTOSAI e Primazia do Interesse Público*, primazia do Interesse Público: O interesse público coletivo se sobrepõe incondicionalmente a quaisquer conveniências pessoais, partidárias, corporativas ou setoriais.
+>
+> **Gabarito: C**
 
 ---
 
 ### Teste 170
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A respeito da Comissão de Ética e do rito de apuração de infrações comportamentais no âmbito dos Tribunais de Contas, assinale a opção correta:
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Administracao – 2026)**
+Após ser aprovado no concurso de auditor fiscal de controle externo do Tribunal de Contas do Estado de Santa Catarina (TCE/SC), Carlos decidiu rememorar as normas atinentes ao uso responsável das redes sociais e mídias digitais previstas na Resolução nº 252/2024 do TCE-SC, que institui o Código de Conduta Ética dos servidores da aludida Corte de Contas, vindo a concluir corretamente que
 
-* **A)** A Comissão de Ética tem competência para aplicar diretamente as penas de suspensão funcional e demissão do cargo público.
-* **B)** A única sanção administrativa cabível diretamente no âmbito de deliberação da Comissão de Ética é a Censura Ética, a qual será registrada no assentamento funcional do servidor.
-* **C)** O processo ético submete-se ao segredo de justiça absoluto em todas as suas fases, sendo dispensada a notificação do acusado para evitar constrangimentos em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **D)** A Comissão de Ética atua exclusivamente no julgamento contencioso, sendo-lhe expressamente vedada a resposta a consultas preventivas dos servidores.
-* **E)** A condenação em censura ética extingue automaticamente a possibilidade de apuração disciplinar pela Corregedoria do órgão.
-
+* **A)** a ausência de identificação expressa da qualidade de servidor do Tribunal de Contas em seu perfil pessoal, torna prescindível considerar que suas interações podem ser vinculadas à Instituição em razão da função pública.
+* **B)** o uso de mídias sociais durante o horário de expediente deverá ser priorizado para, dentre outras atividades, identificar demandas da sociedade e da mídia que possam ser atendidas pela Instituição.
+* **C)** o descumprimento das normas relativas ao uso responsável de redes sociais e de comunicação digital pelo servidor não poderá ensejar a instauração de processo disciplinar e/ou ético, considerando serem meras recomendações.
+* **D)** o servidor deve utilizar o e-mail institucional para administrar conta de perfil em qualquer rede social, para fins de facilitar a fiscalização quanto ao cumprimento dos deveres éticos impostos no âmbito da comunicação digital por parte do Tribunal de Contas.
+* **E)** o servidor deve evitar compartilhamento de pronunciamentos oficiais sobre casos decorrentes de sua atuação funcional, incluindo publicações veiculadas nos perfis institucionais ou de notícias já publicadas oficialmente na página eletrônica do Tribunal de Contas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** A aplicação de penalidades estatutárias expulsivas ou gravosas (como suspensão e demissão) constitui matéria da esfera disciplinar apurada mediante PAD (Lei nº 20.756/2020), escapando à competência da Comissão de Ética.
-> - **B) CORRETA.** A única sanção sancionatória que a Comissão de Ética pode aplicar diretamente em seu processo de conformidade moral é a **Censura Ética**, cuja decisão motivada é formalmente anotada na ficha cadastral e assentamento funcional do servidor público.
-> - **C) Incorreta.** O procedimento ético respeita com rigor as garantias constitucionais do contraditório e da ampla defesa, sendo indispensável a notificação do interessado para apresentação de defesa formal escrita.
-> - **D) Incorreta.** Uma das missões primordiais da Comissão de Ética é sua função consultiva e preventiva, orientando os servidores e dirimindo dúvidas a respeito de condutas em tese.
-> - **E) Incorreta.** As instâncias ética e disciplinar são autônomas e comunicam-se; a imposição de censura ética não prejudica a remessa dos autos à Corregedoria-Geral para deflagração de PAD por falta funcional correlata.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a ausência de identificação expressa da qualidade de servidor do Tribunal de Contas em seu perfil pessoal, torna...". De acordo com a teoria estudada em *2.3 Dever Incondicional de Sigilo, Custódia de Dados e Vedação a Informações Privilegiadas*, proibição de Uso de Informação Privilegiada: É expressamente vedado ao servidor utilizar informação confidencial ou ainda não divulgada formalmente pela Corte de Contas para auferir vantagem pessoal direta ou indireta, para beneficiar parentes, amigos ou terceiros.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o uso de mídias sociais durante o horário de expediente deverá ser priorizado para, dentre outras atividades...". De acordo com a teoria estudada em *3.1 Vedações Expressas: Advocacia, Consultoria e Redes Sociais*, uso Privado da Estrutura do Tribunal: Empregar servidores subordinados, bens patrimoniais, equipamentos eletrônicos ou sistemas corporativos do TCE-GO em atividades estranhas ao serviço público ou em campanhas político-partidárias.
+> - **C)** **Correta.** Conforme fundamentado na seção *4.3 A Penalidade Exclusiva de Censura Ética e Remessa Disciplinar à Corregedoria* deste guia, encaminhamento à Corregedoria-Geral: Havendo indícios de que o ato praticado pelo servidor ultrapassa o desvio ético e enquadra-se como infração estatutária, ato de improbidade administrativa ou ilícito penal, a Comissão de Ética remeterá cópia integral do processo à Corregedoria-Geral do TCE-GO para deflagração de Processo Administrativo Disciplinar (PAD). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "o descumprimento das normas relativas ao uso responsável de redes sociais e de comunicação digital pelo servidor...".
+> - **D)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "o servidor deve utilizar o e-mail institucional para administrar conta de perfil em qualquer rede social, para...". De acordo com a teoria estudada em *3.1 Vedações Expressas: Advocacia, Consultoria e Redes Sociais*, a conduta configura grave violação ética aos deveres de sigilo e reserva. A publicidade dos achados de controle ocorre estritamente pelos canais institucionais oficiais e após o contraditório formal!.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o servidor deve evitar compartilhamento de pronunciamentos oficiais sobre casos decorrentes de sua atuação...". De acordo com a teoria estudada em *3.1 Vedações Expressas: Advocacia, Consultoria e Redes Sociais*, antecipação de Juízos de Valor em Redes Sociais e Imprensa: Emitir declarações públicas ou publicações em redes sociais pessoais, blogs e meios de comunicação manifestando opinião antecipada, críticas pessoais ou juízos de valor sobre processos em tramitação, decisões pendentes ou sobre gestores investigados.
+>
+> **Gabarito: C**
 
 ---
 
 ### Teste 171
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Sobre as competências da Comissão de Ética do Tribunal de Contas do Estado de Goiás e o rito do processo ético:
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Administracao – 2026)**
+Caio, contador, logra êxito em ser aprovado no concurso de Auditor Fiscal de Controle Externo do TCE-SC, passando a titularizar o concorrido e renomado cargo para o qual estudou por tantos anos. Após o curso de formação e o início efetivo das atividades, o titular da unidade técnica lhe distribuiu dois processos para fins de instrução. Em um deles, processo X, havia como documento anexo à defesa do jurisdicionado uma perícia realizada pelo próprio Caio, quando ainda trabalhava como contador em escritório renomado do Estado, do qual foi desligado antes mesmo da sua nomeação e posse no cargo público em questão. No outro, processo Y, figurava como jurisdicionado seu tio distante, com quem nunca teve laço de afetividade, de amizade ou de inimizade. Considerando as disposições do Código de Conduta Ética dos Servidores do Tribunal de Contas do Estado de Santa Catarina, é correto afirmar, com relação aos processos X e Y, que
 
-* **A)** A Comissão de Ética pode aplicar diretamente aos servidores as penalidades estatutárias de demissão e cassação de aposentadoria.
-* **B)** A única sanção de competência sancionatória direta da Comissão de Ética é a pena de **Censura Ética**, devendo a Comissão, quando constatar indícios de falta disciplinar de maior gravidade, remeter cópia integral dos autos à Corregedoria-Geral para instauração de processo disciplinar competente.
-* **C)** O processo perante a Comissão de Ética não admite a apresentação de defesa prévia pelo investigado, vigendo a presunção absoluta de veracidade da denúncia. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **D)** A Comissão de Ética é composta exclusivamente por magistrados de carreira requisitados do Poder Judiciário.
-* **E)** As deliberações da Comissão de Ética têm natureza puramente punitiva e repressiva, sendo vedada qualquer atuação preventiva ou pedagógica.
-
+* **A)** não está configurado conflito de interesse no exercício do cargo.
+* **B)** está configurado conflito de interesse no exercício do cargo, ainda que Caio não tenha obtido qualquer vantagem ou retribuição.
+* **C)** está configurado conflito de interesse no exercício do cargo com relação ao processo X, mas não em relação ao processo Y.
+* **D)** está configurado conflito de interesse no exercício do cargo com relação ao processo Y, mas não em relação ao processo X.
+* **E)** está configurado conflito de interesse no exercício do cargo, apenas se Caio tiver obtido vantagem ou retribuição mensuráveis.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. As penas de demissão e cassação de aposentadoria são privativas da autoridade competente (Presidente do Tribunal) após regular Processo Administrativo Disciplinar (PAD) instaurado sob a égide da Lei nº 20.756/2020.
-> - **B)** Correta. A sanção máxima e privativa prevista no âmbito deontológico da Comissão de Ética do TCE-GO é a **Censura Ética** (fundada na reprovação moral e funcional). Quando a infração ultrapassar o plano meramente deontológico e caracterizar potencial infração estatutária punível com advertência, suspensão ou demissão, a Comissão remete o processo à Corregedoria-Geral para as providências disciplinares e apuração em PAD.
-> - **C)** Incorreta. O processo ético assegura rigorosamente o contraditório e a ampla defesa, facultando-se manifestação prévia e juntada de documentos pelo denunciado.
-> - **D)** Incorreta. A Comissão de Ética é integrada por membros e servidores do próprio quadro do TCE-GO, designados pelo Presidente.
-> - **E)** Incorreta. A Comissão tem papel preponderantemente preventivo, consultivo e pedagógico na disseminação da cultura de integridade pública.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não está configurado conflito de interesse no exercício do cargo". De acordo com a teoria estudada em *4.3 A Penalidade Exclusiva de Censura Ética e Remessa Disciplinar à Corregedoria*, encaminhamento à Corregedoria-Geral: Havendo indícios de que o ato praticado pelo servidor ultrapassa o desvio ético e enquadra-se como infração estatutária, ato de improbidade administrativa ou ilícito penal, a Comissão de Ética remeterá cópia integral do processo à Corregedoria-Geral do TCE-GO para deflagração de Processo Administrativo Disciplinar (PAD).
+> - **B)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "está configurado conflito de interesse no exercício do cargo, ainda que Caio não tenha obtido qualquer vantagem ou...". De acordo com a teoria estudada em *2.3 Dever Incondicional de Sigilo, Custódia de Dados e Vedação a Informações Privilegiadas*, proibição de Uso de Informação Privilegiada: É expressamente vedado ao servidor utilizar informação confidencial ou ainda não divulgada formalmente pela Corte de Contas para auferir vantagem pessoal direta ou indireta, para beneficiar parentes, amigos ou terceiros.
+> - **C)** **Correta.** Conforme fundamentado na seção *3.3 Prevenção de Conflito de Interesses e Autodeclaração de Impedimento* deste guia, dever de Autodeclaração: O servidor designado para atuar em auditoria, instrução de processo de contas ou análise de licitação que possuir relação de parentesco (cônjuge, companheiro ou parentes consanguíneos ou afins até o terceiro grau) com dirigentes da entidade auditada, ou com quem mantenha litígio judicial ou interesse financeiro comum, tem a obrigação ética de autodeclarar imediatamente o impedimento, solicitando à chefia imediata sua substituição na equipe. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "está configurado conflito de interesse no exercício do cargo com relação ao processo X, mas não em relação ao...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "está configurado conflito de interesse no exercício do cargo com relação ao processo Y, mas não em relação ao...". De acordo com a teoria estudada em *3.3 Prevenção de Conflito de Interesses e Autodeclaração de Impedimento*, o conflito de interesses ocorre quando o interesse privado do servidor pode influenciar de maneira inadequada o desempenho de suas atribuições públicas no controle externo.
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "está configurado conflito de interesse no exercício do cargo, apenas se Caio tiver obtido vantagem ou retribuição...". De acordo com a teoria estudada em *1.2 Alinhamento com a ISSAI 130 da INTOSAI e Primazia do Interesse Público*, o Código de Ética do TCE-GO encontra-se em total sintonia com a ISSAI 130 (Código de Ética da Organização Internacional das Entidades Fiscalizadoras Superiores - INTOSAI) e com as diretrizes da Associação dos Membros dos Tribunais de Contas do Brasil (ATRICON) e do Instituto Rui Barbosa (IRB).
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
 

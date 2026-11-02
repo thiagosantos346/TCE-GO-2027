@@ -97,26 +97,29 @@ flowchart TD
 ---
 
 ### Teste 023
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No estudo da Teoria Geral do Ato Administrativo, os planos da existência, da validade e da eficácia representam momentos conceituais distintos. A respeito da distinção dogmática entre a validade e a eficácia dos atos administrativos, é correto afirmar que:
+**(FCC – TRT-4 – Analista Judiciario Tecnologia da Informacao – 2015)**
+Sobre o processo administrativo no âmbito da Administração Pública Federal, regulado pela Lei no 9.784/99, é correto afirmar que
 
-* **A)** Um ato administrativo válido é necessariamente eficaz, produzindo efeitos jurídicos desde a sua assinatura.
-* **B)** O ato nulo por vício de competência pode ser plenamente eficaz antes de ter sua invalidade declarada.
-* **C)** A pendência de termo inicial ou condição suspensiva compromete a validade originária do ato administrativo.
-* **D)** O ato pendente de homologação obrigatória pelo Tribunal de Contas é existente, válido e plenamente eficaz.
-* **E)** A declaração judicial de nulidade de um ato administrativo opera efeitos prospectivos sem retroagir à origem.
+* **A)** órgão é a unidade de atuação dotada de personalidade jurídica.
+* **B)** todos os atos administrativos devem sempre ser objeto de divulgação oficial.
+* **C)** o processo pode ser iniciado tanto de ofício como a pedido do interessado.
+* **D)** o requerimento inicial do interessado deve ser feito sempre na forma escrita.
+* **E)** a competência exercida pelos órgãos administrativos é irrenunciável, cabendo delegação no caso da edição de atos de caráter normativo.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. Validade e eficácia não se confundem: um ato pode ser perfeitamente válido, mas ineficaz por estar sujeito a condição suspensiva, termo inicial ou necessidade de homologação externa.
-> - **B)** **Correto**. Em virtude do princípio da presunção de legitimidade e veracidade dos atos administrativos, o ato que padece de vício de nulidade (como defeito de competência) produz efeitos práticos e jurídicos regulares perante terceiros até que seja formalmente invalidado pela Administração ou pelo Judiciário.
-> - **C)** **Incorreto**. O termo ou condição suspensiva afeta unicamente o plano da eficácia (exequibilidade), não o da validade (conformidade com a lei).
-> - **D)** **Incorreto**. O ato pendente de homologação pelo Tribunal de Contas (ato complexo) ainda não completou seu ciclo de formação e eficácia plena.
-> - **E)** **Incorreto**. A anulação opera efeitos retroativos (ex tunc), desfazendo as consequências pretéritas geradas pelo ato inválido.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "órgão é a unidade de atuação dotada de personalidade jurídica". De acordo com a teoria estudada em *A Teoria dos Motivos Determinantes:*, se for judicialmente ou administrativamente comprovado que o motivo é falso (o órgão tinha recursos abundantes) ou juridicamente inexistente, o ato de exoneração é nulo de pleno direito, devendo ser extirpado da ordem jurídica.
+> - **B)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "todos os atos administrativos devem sempre ser objeto de divulgação oficial". De acordo com a teoria estudada em *7. Fontes Recomendadas na Internet*, dI PIETRO, Maria Sylvia Zanella. Direito Administrativo. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 7 e Cap. 16 - Atos Administrativos e Processo Administrativo).
+> - **C)** **Correta.** Conforme fundamentado na seção *6. Processo Administrativo no Estado de Goiás (Lei Estadual nº 13.800/2001)* deste guia, a Lei Estadual nº 13.800/2001 disciplina o processo administrativo no âmbito da Administração Pública direta e indireta do Estado de Goiás. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-4/2015) ao estabelecer que "o processo pode ser iniciado tanto de ofício como a pedido do interessado".
+> - **D)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "o requerimento inicial do interessado deve ser feito sempre na forma escrita". De acordo com a teoria estudada em *2.5 Objeto (Conteúdo) e a Delimitação do Mérito Administrativo*, os elementos Competência, Finalidade e Forma são sempre vinculados.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a competência exercida pelos órgãos administrativos é irrenunciável, cabendo delegação no caso da edição de atos...". De acordo com a teoria estudada em *7. Fontes Recomendadas na Internet*, cARVALHO FILHO, José dos Santos. Manual de Direito Administrativo. 38. ed. Barueri: Atlas, 2024. (Cap. 3 e Cap. 21 - Atos Administrativos: Elementos, Atributos, Extinção e Processo Administrativo).
 >
-> **Gabarito: B**
+> **Gabarito: C**
+
+---
+
 ## 2. Elementos e Requisitos de Validade do Ato (Mnemônico COFIFOM)
 
 A Lei de Ação Popular (Lei Federal nº 4.717/1965, art. 2º) positivou a doutrina dos cinco elementos constitutivos indispensáveis para a validade do ato administrativo: **Competência, Finalidade, Forma, Motivo e Objeto** (**COFIFOM**).
@@ -179,29 +182,8 @@ O objeto é o efeito jurídico imediato e substantivo que o ato produz no mundo 
 ---
 
 ### Teste 024
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A autoridade competente de determinada autarquia estadual instaurou processo administrativo de fiscalização e aplicou sanção a uma sociedade empresária credenciada. Inconformada, a empresa alegou vício de competência do agente sancionador. Sobre o elemento competência do ato administrativo, assinale a opção correta:
-
-* **A)** A competência administrativa é de exercício obrigatório, intransferível e indelegável em qualquer circunstância.
-* **B)** A competência fixada em lei pode ser renunciada pela autoridade quando comprovada carência de quadro técnico.
-* **C)** A incompetência em razão da matéria constitui vício de legalidade insanável, inadmitindo convalidação administrativa.
-* **D)** O vício de incompetência decorrente do excesso de poder convalida-se tacitamente com o decurso de trinta dias.
-* **E)** A competência exclusiva pode ser livremente delegada mediante portaria conjunta publicada no Diário Oficial.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreto**. A competência é delegável e avocável nos termos e limites autorizados em lei (arts. 11 e 12 da Lei nº 9.784/1999).
-> - **B)** **Incorreto**. A competência é irrenunciável e se exerce pelos órgãos a que foi atribuída em lei (art. 11 da Lei nº 9.784/1999).
-> - **C)** **Correto**. O vício de competência em razão da matéria (ratione materiae) e em razão da hierarquia é insanável (vício material absoluto), gerando a nulidade do ato e impedindo qualquer convalidação (art. 55 da Lei nº 9.784/1999). Somente a competência ratione personae (quanto à pessoa do agente, sem exclusividade legal) admite convalidação.
-> - **D)** **Incorreto**. O excesso de poder é vício de legalidade gravoso que não convalida tacitamente pelo decurso de trinta dias.
-> - **E)** **Incorreto**. As matérias de competência exclusiva são legalmente indelegáveis (art. 13, III da Lei nº 9.784/1999).
->
-> **Gabarito: C**
-### Teste 025
-**(FGV – TRF-1 – Analista Judiciário – 2024)**  
-Ao estudar as hipóteses de extinção do ato administrativo, Júlia verificou que há uma modalidade em que isso ocorre em razão da incompatibilidade do ato administrativo com outro posterior, tal como ocor re com a nomeação do servidor, que é extinta com a sua exoneração. Tal modalidade de extinção corresponde a:
+**(FGV – TRF-1 – Analista Judiciario Area Apoio Especializado Especialidade Suporte Em Tecnologia da Informacao – 2024)**
+Ao estudar as hipóteses de extinção do ato administrativo, Júlia verificou que há uma modalidade em que isso ocorre em razão da incompatibilidade do ato administrativo com outro posterior, tal como ocorre com a nomeação do servidor, que é extinta com a sua exoneração. Tal modalidade de extinção corresponde a:
 
 * **A)** recusa;
 * **B)** renúncia;
@@ -213,37 +195,64 @@ Ao estudar as hipóteses de extinção do ato administrativo, Júlia verificou q
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A anulação decorre de vícios de legalidade, e não de superveniência de norma que torna a conduta ilícita.
-> - **B)** Incorreta. A revogação decorre de juízo discricionário de conveniência e oportunidade sobre atos válidos.
-> - **C)** Correta. A caducidade (ou decaimento) é a modalidade de extinção do ato administrativo que decorre da superveniência de legislação que torna inadmissível a situação jurídica anteriormente permitida pelo ato (ex: nova lei que proíbe atividade anteriormente autorizada).
-> - **D)** Incorreta. A cassação ocorre quando o destinatário descumpre condições essenciais para a manutenção do ato.
-> - **E)** Incorreta. A contraposição ocorre quando é editado um novo ato com efeitos contrapostos aos do anterior.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "recusa". De acordo com a teoria estudada em *5.1 Modos de Extinção: Anulação, Revogação, Cassação, Caducidade e Contraposição*, modalidade de Extinção: Causa Primária — Efeitos no Tempo — Competência — Distinção Prática FCC.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "renúncia". De acordo com a teoria estudada em *5.1 Modos de Extinção: Anulação, Revogação, Cassação, Caducidade e Contraposição*, renúncia: Desistência expressa voluntária manifestada pelo beneficiário — *Ex nunc* — Manifestação do particular — O titular abre mão do benefício conferido pelo ato.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "anulação". De acordo com a teoria estudada em *5.1 Modos de Extinção: Anulação, Revogação, Cassação, Caducidade e Contraposição*, anulação: Ilegalidade originária do ato (vício de legalidade insanável) — Retroativo (*ex tunc*) — Administração Pública ou Poder Judiciário — Desfaz o ato desde o nascimento, pois dele não se originam direitos.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "revogação". De acordo com a teoria estudada em *5.1 Modos de Extinção: Anulação, Revogação, Cassação, Caducidade e Contraposição*, caducidade: Superveniência de lei nova que torna a atividade ilegal — *Ex nunc* — Administração Pública — O ato era legal, mas nova legislação proibiu a atividade (ex.: lei que veda pedágio na área).
+> - **E)** **Correta.** Conforme fundamentado na seção *5.1 Modos de Extinção: Anulação, Revogação, Cassação, Caducidade e Contraposição* deste guia, contraposição / Derrubada: Emissão de novo ato com efeitos antagônicos e incompatíveis — *Ex nunc* — Administração Pública — O novo ato extingue o anterior (ex.: ato de exoneração contrapõe-se ao de nomeação). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF-1/2024) ao estabelecer que "contraposição".
+>
+> **Gabarito: E**
+
+---
+
+### Teste 025
+**(FGV – TCE-GO – Analista de Controle Externo Controle Externo – 2024)**
+Sérgio, no exercício de suas atribuições como Analista do Tribunal de Contas do Estado de Goiás, deparou-se com um procedimento administrativo envolvendo o controle externo de legalidade sobre determinado ato discricionário do Poder Executivo. Acerca da aludida temática, é correto afirmar que
+
+* **A)** é possível a revogação do ato administrativo pela Corte de Contas.
+* **B)** não é possível o controle externo de ato discricionário pela Corte de Contas.
+* **C)** é possível sindicar o mérito administrativo no exercício do controle externo pela Corte de Contas.
+* **D)** não é possível que a Corte de Contas substitua o Poder Executivo no exercício da discricionariedade.
+* **E)** é possível anular o ato discricionário em questão por razões de conveniência e oportunidade da Corte de Contas. Administração Financeira e Orçamentária
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é possível a revogação do ato administrativo pela Corte de Contas". De acordo com a teoria estudada em *4.2 O Registro de Aposentadoria no Tribunal de Contas (Tema 445 / STF)*, impossibilidade de Revogação por Conveniência: Por se tratar de ato vinculado, a autoridade de origem não pode revogar a aposentadoria com base em razões de conveniência ou oportunidade (mérito).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não é possível o controle externo de ato discricionário pela Corte de Contas". De acordo com a teoria estudada em *A Teoria dos Motivos Determinantes:*, mesmo que o ato seja discricionário e prescindisse originalmente de motivação obrigatória (como a exoneração *ad nutum* de um assessor comissionado), se a autoridade decidir enunciar publicamente um motivo (ex.: afirmar no decreto que exonerou o servidor em razão do corte orçamentário do setor), o ato ficará vinculado a essa justificativa.
+> - **C)** **Correta.** Conforme fundamentado na seção *2.5 Objeto (Conteúdo) e a Delimitação do Mérito Administrativo* deste guia, o objeto é o efeito jurídico imediato e substantivo que o ato produz no mundo real (é o "o que" o ato decide, cria, extingue ou altera). Deve ser lícito, possível, determinado ou determinável. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "é possível sindicar o mérito administrativo no exercício do controle externo pela Corte de Contas".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não é possível que a Corte de Contas substitua o Poder Executivo no exercício da discricionariedade". De acordo com a teoria estudada em *2.2 Finalidade e o Desvio de Poder*, a finalidade representa o objetivo mediato de interesse público que o ato deve alcançar. É elemento invariavelmente vinculado; o administrador jamais detém discricionariedade para escolher a finalidade pública a ser perseguida.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é possível anular o ato discricionário em questão por razões de conveniência e oportunidade da Corte de Contas...". De acordo com a teoria estudada em *2.5 Objeto (Conteúdo) e a Delimitação do Mérito Administrativo*, o Mérito Administrativo: Nos atos discricionários, o mérito administrativo — consubstanciado no juízo de conveniência e oportunidade privativo da autoridade pública — incide estrita e unicamente sobre o Motivo e o Objeto.
 >
 > **Gabarito: C**
 
 ---
 
 ### Teste 026
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No estudo dogmático do ato administrativo, a doutrina tradicional e o art. 2º da Lei Federal nº 4.717/1965 (Lei da Ação Popular) estruturam a validade dos atos em cinco elementos ou requisitos essenciais. Dentre os elementos indispensáveis à formação do ato administrativo, citam-se:
+**(FCC – TRT-24 – Analista Judiciario Tecnologia da Informacao – 2017)**
+O ato administrativo discricionário
 
-* **A)** a autoexecutoriedade, a imperatividade e a presunção de legitimidade perante administrados.
-* **B)** a discricionariedade, a vinculação e a revogabilidade por juízo de mérito administrativo.
-* **C)** a conveniência, a oportunidade e a razoabilidade quanto ao objeto tutelado na decisão.
-* **D)** o sujeito competente, a finalidade, a forma, o motivo e o objeto jurídico do provimento.
-* **E)** os atos de império, os atos de gestão patrimonial e os atos negociais de interesse público.
+* **A)** não comporta anulação.
+* **B)** é passível de revogação.
+* **C)** não está sujeito a controle judicial.
+* **D)** apresenta discricionariedade em todos os seus requisitos, exceto quanto à competência para a prática do ato.
+* **E)** apresenta discricionariedade em um de seus requisitos, qual seja, a finalidade.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. Autoexecutoriedade, imperatividade e presunção de legitimidade são atributos (características) do ato administrativo, e não seus elementos/requisitos de validade.
-> - **B)** **Incorreto**. Discricionariedade e vinculação expressam o grau de liberdade conferido por lei à autoridade decisora.
-> - **C)** **Incorreto**. Conveniência e oportunidade integram o mérito dos atos discricionários.
-> - **D)** **Correto**. São cinco os elementos/requisitos essenciais de validade do ato administrativo (mnemônico COFIFOMO): Competência (sujeito), Finalidade, Forma, Motivo e Objeto, expressamente positivados no art. 2º da Lei nº 4.717/1965.
-> - **E)** **Incorreto**. Trata-se de classificação doutrinária quanto à posição jurídica da Administração.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não comporta anulação". De acordo com a teoria estudada em *5.1 Modos de Extinção: Anulação, Revogação, Cassação, Caducidade e Contraposição*, modalidade de Extinção: Causa Primária — Efeitos no Tempo — Competência — Distinção Prática FCC.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é passível de revogação". De acordo com a teoria estudada em *2.1 Competência (Sujeito Competente)*, é o círculo de atribuições conferido pelo ordenamento jurídico ao agente ou órgão público para a prática do ato.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não está sujeito a controle judicial". De acordo com a teoria estudada em *2.1 Competência (Sujeito Competente)*, *Usurpação de Função:* Crime praticado por particular que se faz passar por funcionário público (ato inexistente).
+> - **D)** **Correta.** Conforme fundamentado na seção *5.2 Convalidação: Requisitos, Limites e Efeitos Temporais* deste guia, competência quanto à Pessoa: Admite convalidação (ratificação pela autoridade competente), desde que a lei NÃO tenha atribuído competência exclusiva à autoridade que praticou o ato originário. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-24/2017) ao estabelecer que "apresenta discricionariedade em todos os seus requisitos, exceto quanto à competência para a prática do ato".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "apresenta discricionariedade em um de seus requisitos, qual seja, a finalidade". De acordo com a teoria estudada em *2. Elementos e Requisitos de Validade do Ato (Mnemônico COFIFOM)*, a Lei de Ação Popular (Lei Federal nº 4.717/1965, art. 2º) positivou a doutrina dos cinco elementos constitutivos indispensáveis para a validade do ato administrativo: Competência, Finalidade, Forma, Motivo e Objeto (COFIFOM).
 >
 > **Gabarito: D**
+
+---
+
 ## 3. Atributos do Ato Administrativo (Mnemônico PATI)
 
 Os atributos do ato administrativo consagram prerrogativas que decorrem diretamente do princípio da supremacia do interesse público:
@@ -286,26 +295,29 @@ Consiste na faculdade de impor obrigações coercitivas e restrições unilatera
 ---
 
 ### Teste 027
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Determinada fiscalização de vigilância sanitária estadual constatou que um restaurante comercializava alimentos estragados e impróprios para o consumo humano, gerando risco iminente de intoxicação coletiva. De imediato, a equipe de fiscalização determinou a interdição do estabelecimento e apreendeu as mercadorias. Sobre a autoexecutoriedade:
+**(CEBRASPE – TJ-RJ – Analista Judiciario Grupo Tecnologia da Informacao Analista de Gestao de Tic – 2021)**
+O entendimento de que o ato administrativo é considerado válido até que se prove em contrário corresponde ao atributo da
 
-* **A)** Exige prévia autorização judicial liminar para a sua incidência, em observância à inafastabilidade da jurisdição.
-* **B)** Presente em todos os atos administrativos indistintamente, inclusive na cobrança coercitiva de multas pecuniárias.
-* **C)** Legítima na hipótese fática descrita por se tratar de situação urgente de iminente perigo à saúde da população.
-* **D)** Restringe-se à lavratura do auto de infração, cabendo privativamente à polícia civil executar o fechamento do local.
-* **E)** Subordina-se a prévio depósito recursal pelo comerciante para que a ordem estatal possa surtir efeitos jurídicos.
+* **A)** tipicidade.
+* **B)** exigibilidade.
+* **C)** imperatividade.
+* **D)** presunção de legitimidade.
+* **E)** autoexecutoriedade.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A autoexecutoriedade consiste exatamente na prerrogativa estatal de executar diretamente suas decisões sem necessidade de tutela judicial prévia.
-> - **B)** **Incorreto**. A autoexecutoriedade não é atributo universal de todos os atos; a cobrança de multas administrativas de trânsito ou sanitárias exige inscrição em dívida ativa e execução fiscal judicializada (não autoexecutória).
-> - **C)** **Correto**. A autoexecutoriedade autoriza a prática imediata de medidas materiais coercitivas quando houver expressa previsão em lei ou em hipóteses de urgência que demandem atuação pronta para evitar dano irreparável ao interesse público (como a apreensão de alimentos estragados para tutela da saúde pública).
-> - **D)** **Incorreto**. A autoridade sanitária dispõe de competência legal para executar a interdição materialmente.
-> - **E)** **Incorreto**. Não se condiciona a depósito e o recurso não detém efeito suspensivo automático em situação de perigo iminente.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "tipicidade". De acordo com a teoria estudada em *3.1 Presunção de Legitimidade e Veracidade*, presume-se que o ato administrativo foi expedido em estrita consonância com a lei (legitimidade) e que os fatos relatados pelos agentes públicos são verdadeiros (veracidade).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "exigibilidade". De acordo com a teoria estudada em *3.1 Presunção de Legitimidade e Veracidade*, gera a inversão do ônus da prova: incumbe ao particular demonstrar e comprovar a ilegalidade ou falsidade do ato impugnado perante o Judiciário ou a Administração.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "imperatividade". De acordo com a teoria estudada em *3.4 Imperatividade e Poder Extroverso*, consiste na faculdade de impor obrigações coercitivas e restrições unilaterais a terceiros, independentemente de sua concordância prévia.
+> - **D)** **Correta.** Conforme fundamentado na seção *3.1 Presunção de Legitimidade e Veracidade* deste guia, é presunção relativa (*juris tantum*), que admite prova em contrário. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TJ-RJ/2021) ao estabelecer que "presunção de legitimidade".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "autoexecutoriedade". De acordo com a teoria estudada em *3.2 Autoexecutoriedade e seus Limites*, é a prerrogativa conferida à Administração Pública de compelir materialmente o administrado a cumprir o ato ou executar diretamente a providência administrativa, inclusive com uso moderado da força física policial, sem necessidade de intervenção ou autorização prévia do Poder Judiciário (ex.: guincho de carro estacionado em local proibido; interdição e lacração de restaurante com alimentos deteriorados; apreensão de drogas).
 >
-> **Gabarito: C**
+> **Gabarito: D**
+
+---
+
 ## 4. Classificações Relevantes para a FCC: Atos Simples, Complexos e Compostos
 
 ### 4.1 Atos Simples, Complexos e Compostos
@@ -339,47 +351,53 @@ O julgamento da legalidade e a concessão de registro de aposentadoria, pensão 
 ---
 
 ### Teste 028
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Na classificação doutrinária dos atos administrativos quanto à formação da vontade estatal, a doutrina tradicional distingue os atos simples, os atos complexos e os atos compostos. A respeito da distinção dogmática entre ato complexo e ato composto, é correto afirmar que:
+**(FCC – TCE-GO – Analista de Controle Externo Gestao de Conhecimento – 2009)**
+O princípio da presunção de legalidade dos atos administrativos
 
-* **A)** o ato complexo resulta da manifestação de dois órgãos que emitem um ato principal e outro acessório instrumental.
-* **B)** o ato composto aperfeiçoa-se com a manifestação convergente de dois ou mais órgãos para formar um ato único.
-* **C)** o ato complexo exige a integração de vontades autônomas de órgãos distintos para que o ato se considere perfeito.
-* **D)** o ato composto resulta da deliberação de um órgão colegiado singular cuja vontade se manifesta pela maioria de votos.
-* **E)** o ato complexo independe da aprovação do órgão superior para produzir integralmente seus efeitos jurídicos válidos.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreto**. Essa é a definição do ato composto (ato principal emitido por um órgão condicionado à aprovação ou homologação instrumental de outro).
-> - **B)** **Incorreto**. Essa é a definição do ato complexo.
-> - **C)** **Correto**. No ato complexo, há a fusão e conjunção de vontades emanadas de dois ou mais órgãos ou autoridades independentes para formar um ato jurídico único (ex.: nomeação de Ministros do STF pelo Presidente com aprovação do Senado; concessão inicial de aposentadoria sujeita a registro pelo Tribunal de Contas). Antes da integração da segunda vontade, o ato sequer está completo e perfeito.
-> - **D)** **Incorreto**. A manifestação colegiada singular consubstancia ato simples colegial.
-> - **E)** **Incorreto**. A manifestação de todos os órgãos envolvidos é elemento constitutivo para a formação e perfeição do ato complexo.
->
-> **Gabarito: C**
-### Teste 029
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Determinada autarquia estadual publicou ato concedendo aposentadoria a servidor público estatutário e enviou os autos funcionais ao Tribunal de Contas do Estado para fins de registro e controle de legalidade. Decorridos seis anos da entrada do processo na Corte de Contas sem deliberação, o processo foi pautado para julgamento. À luz do art. 71, III, da CF/88 e do Tema nº 445 do STF:
-
-* **A)** O ato de concessão de aposentadoria é ato composto, restando precluso o exame de legalidade pelo Tribunal de Contas.
-* **B)** O Tribunal de Contas dispõe de cinco anos da chegada dos autos na Corte para julgar a legalidade, sob pena de registro tácito.
-* **C)** O prazo decadencial de cinco anos conta-se da publicação do ato pelo órgão de origem, tornando o processo intempestivo.
-* **D)** O controle de legalidade exercido pelos Tribunais de Contas sobre atos complexos é imprescritível por expressa previsão constitucional.
-* **E)** O transcurso de cinco anos sem julgamento converte a aposentadoria estatutária em provimento irrevogável de pensão privada.
+* **A)** impede sua apreciação pelo Poder Judiciário.
+* **B)** permite que a sua legalidade seja questionada, embora o ato seja considerado válido até decisão em contrário.
+* **C)** torna verdadeiros, em caráter absoluto, os fatos alegados pela Administração como motivos para edição do ato.
+* **D)** permite ao Poder Judiciário analisar apenas seus aspectos de constitucionalidade, não de legalidade.
+* **E)** é incompatível com os demais princípios administrativos e constitui exceção ao regime jurídico de direito público.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A aposentadoria é ato complexo (concessão pelo órgão de origem fundida ao registro pelo Tribunal de Contas).
-> - **B)** **Correto**. Tese Vinculante fixada pelo STF no Tema nº 445 de Repercussão Geral: "Em atenção aos princípios da segurança jurídica e da confiança legítima, os Tribunais de Contas estão sujeitos ao prazo de 5 anos para o julgamento da legalidade do ato de concessão inicial de aposentadoria, reforma ou pensão, a contar da chegada do processo à respectiva Corte de Contas, após o que, na falta de julgamento, considerar-se-á tacitamente registrado".
-> - **C)** **Incorreto**. O prazo quinquenal conta-se da entrada dos autos na Corte de Contas (marco inicial), e não da publicação originária.
-> - **D)** **Incorreto**. O STF pacificou a incidência do prazo decadencial de cinco anos em obséquio à segurança jurídica.
-> - **E)** **Incorreto**. O efeito decorrente do decurso do prazo é o registro tácito do ato aposentatório pelo Tribunal de Contas.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "impede sua apreciação pelo Poder Judiciário". De acordo com a teoria estudada em *4.2 O Registro de Aposentadoria no Tribunal de Contas (Tema 445 / STF)*, dispensa de Contraditório Prévio (SV nº 3): Na apreciação da legalidade do ato de concessão inicial de aposentadoria, é dispensado o contraditório e a ampla defesa no Tribunal de Contas, salvo se transcorrer prazo desarrazoado.
+> - **B)** **Correta.** Conforme fundamentado na seção *4.2 O Registro de Aposentadoria no Tribunal de Contas (Tema 445 / STF)* deste guia, *"Em atenção aos princípios da segurança jurídica e da confiança legítima, os Tribunais de Contas estão sujeitos ao prazo de 5 anos para o julgamento da legalidade do ato de concessão inicial de aposentadoria, reforma ou pensão, a contar da chegada do processo à respectiva Corte de Contas, após o qual, se não houver decisão, o ato considerar-se-á definitivamente registrado."*. Dessa forma, está plenamente correta a assertiva da banca (FCC – TCE-GO/2009) ao estabelecer que "permite que a sua legalidade seja questionada, embora o ato seja considerado válido até decisão em contrário".
+> - **C)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "torna verdadeiros, em caráter absoluto, os fatos alegados pela Administração como motivos para edição do ato". De acordo com a teoria estudada em *3.1 Presunção de Legitimidade e Veracidade*, presume-se que o ato administrativo foi expedido em estrita consonância com a lei (legitimidade) e que os fatos relatados pelos agentes públicos são verdadeiros (veracidade).
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "permite ao Poder Judiciário analisar apenas seus aspectos de constitucionalidade, não de legalidade". De acordo com a teoria estudada em *1.2 Perfeição, Validade e Eficácia do Ato*, ato Válido: Aquele que, além de perfeito, atende a todos os requisitos e pressupostos estabelecidos em lei (sem vícios de legalidade).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é incompatível com os demais princípios administrativos e constitui exceção ao regime jurídico de direito público". De acordo com a teoria estudada em *6.4 Motivação das Decisões e Regime Recursal*, prazos Recursais (Art. 59): Salvo disposição legal específica em contrário, o prazo para interposição de recurso administrativo na administração goiana é de 10 (dez) dias, contados da ciência ou divulgação oficial da decisão.
 >
 > **Gabarito: B**
+
+---
+
+### Teste 029
+**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Banco de Dados – 2023)**
+A autoridade competente no âmbito da atividade de controle sugeriu a revogação de todos os atos administrativos que não mais atendam ao interesse público, mas foi indagada acerca da existência de atos que não seriam passíveis de tal modalidade de extinção. Diante dessa situação hipotética, é correto afirmar que:
+
+* **A)** todos os atos administrativos são passíveis de revogação;
+* **B)** apenas os atos vinculados são passíveis de revogação;
+* **C)** nenhum ato administrativo é passível de revogação;
+* **D)** somente os atos discricionários são passíveis de revogação;
+* **E)** apenas os atos administrativos que já exauriram os seus efeitos não podem ser revogados.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "todos os atos administrativos são passíveis de revogação". De acordo com a teoria estudada em *5.1 Modos de Extinção: Anulação, Revogação, Cassação, Caducidade e Contraposição*, o Poder Judiciário JAMAIS pode revogar atos administrativos do Poder Executivo.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "apenas os atos vinculados são passíveis de revogação". De acordo com a teoria estudada em *5.1 Modos de Extinção: Anulação, Revogação, Cassação, Caducidade e Contraposição*, revogação: Inconveniência ou inoportunidade superveniente (mérito) — Prospectivo (*ex nunc*) — Exclusiva da própria Administração — Recai sobre atos válidos; respeita direitos adquiridos e atos consumados.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "nenhum ato administrativo é passível de revogação". De acordo com a teoria estudada em *4.1 Atos Simples, Complexos e Compostos*, ato Complexo: Resulta da fusão e integração convergente de vontades de dois ou mais órgãos autônomos e independentes, que se conjugam para formar um único ato administrativo final.
+> - **D)** **Correta.** Conforme fundamentado na seção *2.5 Objeto (Conteúdo) e a Delimitação do Mérito Administrativo* deste guia, o Mérito Administrativo: Nos atos discricionários, o mérito administrativo — consubstanciado no juízo de conveniência e oportunidade privativo da autoridade pública — incide estrita e unicamente sobre o Motivo e o Objeto. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "somente os atos discricionários são passíveis de revogação".
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "apenas os atos administrativos que já exauriram os seus efeitos não podem ser revogados". De acordo com a teoria estudada em *7. Fontes Recomendadas na Internet*, cARVALHO FILHO, José dos Santos. Manual de Direito Administrativo. 38. ed. Barueri: Atlas, 2024. (Cap. 3 e Cap. 21 - Atos Administrativos: Elementos, Atributos, Extinção e Processo Administrativo).
+>
+> **Gabarito: D**
+
+---
+
 ## 5. Extinção e Convalidação dos Atos Administrativos
 
 ### 5.1 Modos de Extinção: Anulação, Revogação, Cassação, Caducidade e Contraposição
@@ -418,49 +436,53 @@ A convalidação (ou sanatória) é o ato administrativo pelo qual a Administra�
 ---
 
 ### Teste 030
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Ao estudar as modalidades de extinção do ato administrativo no Direito Administrativo brasileiro, Júlia verificou a ocorrência de uma hipótese em que o beneficiário de uma licença outorgada pelo Poder Público descumpriu dolosamente as normas legais e condicionantes impostas no momento da expedição do ato. 
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Gestao Governamental – 2024)**
+No âmbito da autotutela, existem diferentes modalidades de extinção do ato por manifestação de vontade da Administração, entre as quais encontram-se as seguintes situações: I. Extinção do ato administrativo discricionário, apenas pelo fato de que a situação nele contemplada não é mais admitida pela legislação. II. Extinção do ato administrativo em razão de ilegalidade superveniente atribuída ao respectivo beneficiário. III. Extinção do ato administrativo em decorrência do reconhecimento de um vício grave e insanável. As situações I, II e III referem-se, respectivamente, a extinções por
 
-Nesse contexto doutrinário, a modalidade de desfazimento do ato administrativo decorrente da superveniente culpa do beneficiário denomina-se:
-
-* **A)** caducidade.
-* **B)** revogação.
-* **C)** cassação.
-* **D)** anulação.
-* **E)** contraposição.
+* **A)** caducidade, cassação e anulação.
+* **B)** revogação, anulação e caducidade.
+* **C)** anulação, cassação e revogação.
+* **D)** revogação, cassação e anulação.
+* **E)** caducidade, revogação e cassação.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A caducidade ocorre quando uma lei nova superveniente torna ilegal a manutenção do ato administrativo emitido validamente no passado.
-> - **B)** **Incorreto**. A revogação decorre de juízo discricionário de conveniência e oportunidade da própria Administração sobre ato válido.
-> - **C)** **Correto**. A cassação é a extinção extintiva-sancionatória do ato administrativo decorrente do descumprimento, pelo particular beneficiário, de requisitos legais ou condições fáticas obrigatórias fixadas para a manutenção do benefício outorgado (ex.: hotel com alvará de funcionamento que passa a operar como casa de prostituição clandestina).
-> - **D)** **Incorreto**. A anulação pressupõe vício congênito de ilegalidade existente no momento da edição do ato.
-> - **E)** **Incorreto**. A contraposição (ou derrubada) ocorre quando um ato posterior com efeitos antagônicos extingue o ato anterior (ex.: exoneração extingue nomeação).
->
-> **Gabarito: C**
-### Teste 031
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Em relação à invalidação, revogação e convalidação dos atos administrativos no ordenamento jurídico brasileiro, é correto afirmar que:
-
-* **A)** apenas os atos discricionários podem ser objeto de revogação por conveniência e oportunidade da Administração.
-* **B)** apenas os atos vinculados admitem a declaração de anulação quando constatada a presença de vício de legalidade.
-* **C)** a revogação por motivo de oportunidade desfaz integralmente os efeitos jurídicos pretéritos produzidos pelo ato.
-* **D)** a anulação de ato ilegal produz sempre efeitos prospectivos ex nunc para preservar os direitos dos beneficiários.
-* **E)** os vícios insanáveis de competência em razão da matéria e de finalidade desvio admitem ampla convalidação legal.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correto**. A revogação incide estritamente sobre atos administrativos discricionários válidos, por motivo de conveniência e oportunidade (mérito administrativo). Os atos puramente vinculados não admitem revogação, pois não contêm margem de discricionariedade concedida pela lei à autoridade julgadora.
-> - **B)** **Incorreto**. Tanto os atos vinculados quanto os atos discricionários podem ser objeto de anulação se praticados com violação à lei.
-> - **C)** **Incorreto**. A revogação opera efeitos ex nunc (não retroativos), respeitando os direitos adquiridos consolidados sob a vigência do ato.
-> - **D)** **Incorreto**. A anulação opera, em regra, efeitos retroativos ex tunc, fulminando o ato desde o seu nascimento.
-> - **E)** **Incorreto**. Vício de matéria e vício de desvio de finalidade são insanáveis e jamais admitem convalidação.
+> - **A)** **Correta.** Conforme fundamentado na seção *5.1 Modos de Extinção: Anulação, Revogação, Cassação, Caducidade e Contraposição* deste guia, anulação: Ilegalidade originária do ato (vício de legalidade insanável) — Retroativo (*ex tunc*) — Administração Pública ou Poder Judiciário — Desfaz o ato desde o nascimento, pois dele não se originam direitos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "caducidade, cassação e anulação".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "revogação, anulação e caducidade". De acordo com a teoria estudada em *5.1 Modos de Extinção: Anulação, Revogação, Cassação, Caducidade e Contraposição*, renúncia: Desistência expressa voluntária manifestada pelo beneficiário — *Ex nunc* — Manifestação do particular — O titular abre mão do benefício conferido pelo ato.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "anulação, cassação e revogação". De acordo com a teoria estudada em *5.1 Modos de Extinção: Anulação, Revogação, Cassação, Caducidade e Contraposição*, caducidade: Superveniência de lei nova que torna a atividade ilegal — *Ex nunc* — Administração Pública — O ato era legal, mas nova legislação proibiu a atividade (ex.: lei que veda pedágio na área).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "revogação, cassação e anulação". De acordo com a teoria estudada em *5.1 Modos de Extinção: Anulação, Revogação, Cassação, Caducidade e Contraposição*, revogação: Inconveniência ou inoportunidade superveniente (mérito) — Prospectivo (*ex nunc*) — Exclusiva da própria Administração — Recai sobre atos válidos; respeita direitos adquiridos e atos consumados.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "caducidade, revogação e cassação". De acordo com a teoria estudada em *5.1 Modos de Extinção: Anulação, Revogação, Cassação, Caducidade e Contraposição*, cassação: Descumprimento de condições legais pelo particular beneficiário — *Ex nunc* — Administração Pública — Sanção contra o administrado faltoso (ex.: cassar alvará sanitário por comida estragada).
 >
 > **Gabarito: A**
+
+---
+
+### Teste 031
+**(FCC – TRT-13 – Analista Judiciario Tecnologia da Informacao – 2014)**
+A respeito dos atos administrativos, considere: I. Apenas os atos discricionários são passíveis de revogação, mantidos os efeitos anteriormente produzidos. II. Os atos vinculados, quando eivados de vício de competência são passíveis de convalidação, salvo em matérias de competência exclusiva. III. Os atos vinculados podem ser anulados, retroagindo a anulação à data da edição do ato, ou revogados, com efeitos a partir da revogação. Está correto o que consta APENAS em
+
+* **A)** I e III.
+* **B)** I e II.
+* **C)** II e III.
+* **D)** I.
+* **E)** II.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e III". De acordo com a teoria estudada em *5.1 Modos de Extinção: Anulação, Revogação, Cassação, Caducidade e Contraposição*, revogação: Inconveniência ou inoportunidade superveniente (mérito) — Prospectivo (*ex nunc*) — Exclusiva da própria Administração — Recai sobre atos válidos; respeita direitos adquiridos e atos consumados.
+> - **B)** **Correta.** Conforme fundamentado na seção *5.2 Convalidação: Requisitos, Limites e Efeitos Temporais* deste guia, vício de competência privativa/exclusiva ou forma essencial. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-13/2014) ao estabelecer que "I e II".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II e III". De acordo com a teoria estudada em *5.1 Modos de Extinção: Anulação, Revogação, Cassação, Caducidade e Contraposição*, o Poder Judiciário JAMAIS pode revogar atos administrativos do Poder Executivo.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I". De acordo com a teoria estudada em *5.2 Convalidação: Requisitos, Limites e Efeitos Temporais*, competência quanto à Pessoa: Admite convalidação (ratificação pela autoridade competente), desde que a lei NÃO tenha atribuído competência exclusiva à autoridade que praticou o ato originário.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II". De acordo com a teoria estudada em *5.1 Modos de Extinção: Anulação, Revogação, Cassação, Caducidade e Contraposição*, modalidade de Extinção: Causa Primária — Efeitos no Tempo — Competência — Distinção Prática FCC.
+>
+> **Gabarito: B**
+
+---
+
 ## 6. Processo Administrativo no Estado de Goiás (Lei Estadual nº 13.800/2001)
 
 A **Lei Estadual nº 13.800/2001** disciplina o processo administrativo no âmbito da Administração Pública direta e indireta do Estado de Goiás:
@@ -498,51 +520,53 @@ Para assegurar a imparcialidade nas decisões administrativas, a lei estadual es
 ---
 
 ### Teste 032
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O Presidente de determinada autarquia delegou a órgão hierarquicamente inferior a competência para instruir procedimentos apuratórios e expedir certidões, fixando prazo determinado de vigência para a delegação. 
+**(FGV – TCE-GO – Analista de Controle Externo Juridica – 2024)**
+Jansen, servidor público estável do Estado de Goiás, exerce a atribuição de analisar processos administrativos sobre determinada matéria, sendo certo que um dos feitos submetidos à sua apreciação envolve o interesse de Carlos, que é casado com Angélica, contra quem o mencionado agente público está litigando judicialmente. Considerando as causas de impedimento e suspeição constantes da Lei Estadual nº 13.800/2001, é correto afirmar que a situação descrita
 
-A respeito dos efeitos do ato de delegação sobre a autoridade delegante, com base na Lei de Processo Administrativo (Lei nº 9.784/1999):
-
-* **A)** a autoridade delegante pode exercer a competência delegada a qualquer tempo, pois a titularidade legal permanece com ela.
-* **B)** a autoridade delegante fica impedida de praticar o ato delegado durante todo o prazo fixado na portaria originária.
-* **C)** a autoridade delegante somente pode voltar a exercer a competência delegada após o trânsito em julgado de processo revogatório.
-* **D)** a autoridade delegante perde em definitivo o poder decisório, respondendo solidariamente por improbidade com o delegado.
-* **E)** a competência delegada passa a ser concorrente entre o delegante e o delegado, prevalecendo a decisão do subalterno.
+* **A)** não apresenta qualquer razão para o reconhecimento do impedimento ou suspeição de Jansen.
+* **B)** caracteriza hipótese de suspeição, de modo que Jansen deve comunicá-la a autoridade competente, abstendo-se de atuar no referido processo.
+* **C)** apenas poderia delimitar o impedimento de Jansen se ele estivesse litigando contra Carlos, o que não pode ser estendido para a sua esposa.
+* **D)** configura causa de impedimento, de modo que a omissão de Jansen no dever de comunicar tal fato, constitui falta grave para efeitos disciplinares.
+* **E)** conforma a suspeição de Jansen, que pode ser arguida por Carlos, hipótese em que o eventual indeferimento da alegação é passível de recurso sem efeito suspensivo.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correto**. O ato de delegação transfere unicamente o exercício provisório de certas atribuições administrativas, mantendo a titularidade originária com a autoridade delegante. Por essa razão, a autoridade delegante mantém competência concorrente e pode, a qualquer tempo e discricionariamente, praticar o ato ou revogar total ou parcialmente a delegação outorgada (art. 14, § 2º da Lei nº 9.784/1999).
-> - **B)** **Incorreto**. O delegante não perde a faculdade de avocar ou exercer diretamente o ato quando entender conveniente.
-> - **C)** **Incorreto**. A revogação da delegação é ato discricionário unilateral que opera efeitos imediatos sem trânsito em julgado.
-> - **D)** **Incorreto**. O delegado responde pessoalmente pelos atos que praticar na delegação (Súmula 510 do STF), sem perda definitiva do delegante.
-> - **E)** **Incorreto**. Prevalece hierarquicamente a deliberação da autoridade delegante superior.
+> - **A)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "não apresenta qualquer razão para o reconhecimento do impedimento ou suspeição de Jansen". De acordo com a teoria estudada em *6.3 Impedimentos e Suspeição de Agentes e Julgadores*, impedimento (Vício Objetivo - Art. 18): O servidor ou autoridade é legalmente impedido de atuar em processo no qual.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "caracteriza hipótese de suspeição, de modo que Jansen deve comunicá-la a autoridade competente, abstendo-se de...". De acordo com a teoria estudada em *6. Processo Administrativo no Estado de Goiás (Lei Estadual nº 13.800/2001)*, a Lei Estadual nº 13.800/2001 disciplina o processo administrativo no âmbito da Administração Pública direta e indireta do Estado de Goiás.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "apenas poderia delimitar o impedimento de Jansen se ele estivesse litigando contra Carlos, o que não pode ser...". De acordo com a teoria estudada em *2.3 Forma e Princípio da Solenidade*, *Defeitos de Forma:* A omissão de formalidades não essenciais que não prejudiquem o direito de defesa dos administrados configura vício sanável, passível de convalidação.
+> - **D)** **Correta.** Conforme fundamentado na seção *6.3 Impedimentos e Suspeição de Agentes e Julgadores* deste guia, *Omissão do Impedimento:* Constitui falta disciplinar grave. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "configura causa de impedimento, de modo que a omissão de Jansen no dever de comunicar tal fato, constitui falta...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "conforma a suspeição de Jansen, que pode ser arguida por Carlos, hipótese em que o eventual indeferimento da...". De acordo com a teoria estudada em *6.4 Motivação das Decisões e Regime Recursal*, efeitos do Recurso e Reformatio in Pejus (Arts. 61 e 64): O recurso tem como regra geral efeito estritamente devolutivo (efeito suspensivo é excepcional).
 >
-> **Gabarito: A**
+> **Gabarito: D**
+
+---
+
 ### Teste 033
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-De acordo com o regime jurídico do processo administrativo no âmbito da Administração Pública do Estado de Goiás (Lei Estadual nº 13.800/2001), a autoridade ou servidor que incorrer em impedimento funcional deve comunicar o fato incontinenti à autoridade competente, abstendo-se de atuar no feito. 
+**(FCC – TCE-GO – Analista de Controle Externo Gestao de Conhecimento – 2009)**
+Considere: I. O processo administrativo somente poderá ter início mediante pedido do interessado. II. Não pode ser objeto de delegação a decisão de recursos administrativos. III. Inexistindo competência legal específica, o processo administrativo poderá ser iniciado perante a autoridade de qualquer grau hierárquico para decidir: Considerando a regulamentação do processo administrativo no âmbito da Administração Pública do Estado de Goiás, está correto o que se afirma APENAS em
 
-Configura hipótese de IMPEDIMENTO legal, nos termos expressos do art. 18 da referida legislação estadual, a participação de autoridade ou servidor que:
-
-* **A)** tenha amizade notória ou inimizade capital com qualquer dos litigantes ou seus procuradores.
-* **B)** tenha interesse direto ou indireto na matéria controvertida ou seja cônjuge de um dos litigantes.
-* **C)** mantenha relação de subordinação funcional estrita com o chefe imediato da repartição processante.
-* **D)** possua débito inscrito em dívida ativa com a Fazenda Pública estadual em execução fiscal suspensa.
-* **E)** tenha divergência de posicionamento doutrinário com as teses defendidas na peça recursal do interessado.
+* **A)** I.
+* **B)** I e II.
+* **C)** II.
+* **D)** II e III.
+* **E)** III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. Amizade notória ou inimizade capital configura caso de suspeição (art. 20 da Lei nº 13.800/2001 e art. 20 da Lei nº 9.784/1999), e não de impedimento legal objetivo.
-> - **B)** **Correto**. O art. 18 da Lei Estadual nº 13.800/2001 (idêntico ao art. 18 da Lei nº 9.784/1999) enumera taxativamente as causas objetivas de impedimento processual: "É impedido de atuar em processo administrativo o servidor ou autoridade que: I - tenha interesse direto ou indireto na matéria; II - tenha participado ou venha a participar como perito, testemunha ou representante, ou se tais situações ocorrem quanto ao cônjuge, companheiro ou parentes e afins até o terceiro grau; III - esteja litigando judicial ou administrativamente com o interessado ou respectivo cônjuge ou companheiro".
-> - **C)** **Incorreto**. Subordinação hierárquica regular de trabalho não gera impedimento automático para atuar em processo.
-> - **D)** **Incorreto**. Débito fiscal com a Fazenda é matéria estranha às hipóteses legais de impedimento processual.
-> - **E)** **Incorreto**. Divergência de hermenêutica ou teses jurídicas não afeta a imparcialidade objetiva legal do julgador.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I". De acordo com a teoria estudada em *6.4 Motivação das Decisões e Regime Recursal*, prazos Recursais (Art. 59): Salvo disposição legal específica em contrário, o prazo para interposição de recurso administrativo na administração goiana é de 10 (dez) dias, contados da ciência ou divulgação oficial da decisão.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e II". De acordo com a teoria estudada em *6.3 Impedimentos e Suspeição de Agentes e Julgadores*, suspeição (Vício Subjetivo - Art. 20): Pode ser arguida a suspeição de autoridade ou servidor que tenha amizade íntima ou inimizade notória com algum dos interessados ou com os respectivos cônjuges, companheiros, parentes e afins até o terceiro grau.
+> - **C)** **Correta.** Conforme fundamentado na seção *6. Processo Administrativo no Estado de Goiás (Lei Estadual nº 13.800/2001)* deste guia, a Lei Estadual nº 13.800/2001 disciplina o processo administrativo no âmbito da Administração Pública direta e indireta do Estado de Goiás. Dessa forma, está plenamente correta a assertiva da banca (FCC – TCE-GO/2009) ao estabelecer que "II".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II e III". De acordo com a teoria estudada em *6.4 Motivação das Decisões e Regime Recursal*, a autoridade julgadora pode confirmar, modificar, anular ou revogar, total ou parcialmente, a decisão recorrida; se da revisão puder decorrer gravame à situação do recorrente (*reformatio in pejus*), este deverá ser cientificado previamente para formular suas alegações no prazo de 10 dias.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "III". De acordo com a teoria estudada em *6.1 Princípios Norteadores e Direitos dos Administrados*, reconhece o direito do cidadão de ser tratado com respeito, ter ciência da tramitação dos processos em que tenha a condição de interessado, ter vista dos autos, obter certidões e formular alegações e apresentar documentos antes da tomada da decisão.
 >
-> **Gabarito: B**
+> **Gabarito: C**
+
+---
+
 ## 7. Fontes Recomendadas na Internet
 
 - [Lei Estadual de Goiás nº 13.800/2001 (Processo Administrativo Estadual de Goiás)](https://legisla.casacivil.go.gov.br/pesquisa_legislacao/81441/lei-13800)  

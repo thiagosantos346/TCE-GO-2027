@@ -193,26 +193,28 @@ O advogado respondeu corretamente que aos autores pertence o direito exclusivo d
 > **Gabarito: B**
 
 ### Teste 123
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O art. 5º, XII, da Constituição Federal estabelece que "é inviolável o sigilo da correspondência e das comunicações telegráficas, de dados e das comunicações telefônicas, salvo, no último caso, por ordem judicial, nas hipóteses e na forma que a lei estabelecer para fins de investigação criminal ou instrução processual penal". À luz da jurisprudência do STF e do STJ sobre a quebra de sigilo bancário e fiscal, é correto afirmar:
+**(FGV – TJ-MT – Analista Judiciario Tecnologia da Informacao – 2024)**
+Acerca dos direitos e deveres individuais e coletivos, analise as afirmativas a seguir: I. É inviolável o sigilo da correspondência e das comunicações telegráficas, de dados e das comunicações telefônicas, salvo, no último caso, por ordem judicial, nas hipóteses e na forma que a lei estabelecer para fins de investigação criminal ou instrução processual penal. II. Todos podem reunir-se pacificamente, sem armas, em locais abertos ao público, independentemente de autorização, desde que não frustrem outra reunião anteriormente convocada para o mesmo local, sendo apenas exigido prévio aviso à autoridade competente. III. É assegurado a todos o acesso à informação e resguardado o sigilo da fonte, quando necessário ao exercício profissional. Nesse cenário, considerando as disposições da Constituição Federal de 1988, está correto o que se afirma em
 
-* **A)** A quebra do sigilo fiscal pelo Fisco exige autorização judicial prévia sob pena de nulidade absoluta.
-* **B)** O Fisco pode requisitar diretamente informações a instituições bancárias sem autorização judicial prévia.
-* **C)** As CPIs estaduais podem determinar busca e apreensão domiciliar na pendência de inquérito administrativo.
-* **D)** A interceptação de comunicações telefônicas é admitida em processos administrativos de natureza disciplinar.
-* **E)** As mensagens trocadas via correio eletrônico corporativo são imunes ao controle exercido pelo empregador.
+* **A)** I, apenas.
+* **B)** II, apenas.
+* **C)** III, apenas.
+* **D)** I e II, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. Conforme julgamento conjunto das ADIs 2.390, 2.386, 2.365 e 2.859 e do RE 601.314/SP (Tema 225 do STF), o art. 6º da Lei Complementar nº 105/2001 é plenamente constitucional. Não há propriamente "quebra", mas transferência do dever de sigilo bancário das instituições financeiras para o Fisco, sem necessidade de autorização judicial prévia.
-> - **B)** **Correto**. O Plenário do STF firmou tese de repercussão geral no sentido de que a transferência do sigilo bancário ao Fisco, no âmbito de procedimento fiscalizatório devidamente instaurado e sob garantia de preservação do segredo fiscal, não viola a cláusula de reserva de jurisdição.
-> - **C)** **Incorreto**. CPIs (mesmo as federais) possuem poderes de instrução próprios das autoridades judiciais, mas não detêm reserva absoluta de jurisdição (não podem determinar busca e apreensão domiciliar nem interceptação telefônica).
-> - **D)** **Incorreto**. A interceptação de comunicações telefônicas (gravação de conversas alheias sem ciência) é restrita estritamente a investigação criminal ou instrução processual penal.
-> - **E)** **Incorreto**. O TST e o STJ admitem a fiscalização de e-mail corporativo fornecido exclusivamente para fins funcionais.
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *1.2 Inviolabilidade do Domicílio (Art. 5º, XI)*, *"A casa é asilo inviolável do indivíduo, ninguém nela podendo penetrar sem consentimento do morador, salvo em caso de flagrante delito ou desastre, ou para prestar socorro, ou, durante o dia, por determinação judicial."*.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas". De acordo com a teoria estudada em *1.3 Inviolabilidade das Comunicações e Reserva de Jurisdição (Art. 5º, XII)*, sigilo Fiscal e Bancário: Pode ser quebrado por determinação judicial e também diretamente por Comissões Parlamentares de Inquérito (CPIs federais e estaduais), com base nos poderes de investigação próprios das autoridades judiciais (art. 58, § 3º).
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III, apenas". De acordo com a teoria estudada em *1.2 Inviolabilidade do Domicílio (Art. 5º, XI)*, não existe hipótese de ingresso com ordem judicial durante a noite sem o consentimento do morador! O critério consagrado pela Lei de Abuso de Autoridade (Lei nº 13.869/2019) veda o cumprimento de mandado domiciliar entre 21h e 5h.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.3 Inviolabilidade das Comunicações e Reserva de Jurisdição (Art. 5º, XII)* deste guia, *"É inviolável o sigilo da correspondência e das comunicações telegráficas, de dados e das comunicações telefônicas, salvo, no último caso, por ordem judicial, nas hipóteses e na forma que a lei estabelecer para fins de investigação criminal ou instrução processual penal."*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-MT/2024) ao estabelecer que "I e II, apenas".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *1.3 Inviolabilidade das Comunicações e Reserva de Jurisdição (Art. 5º, XII)*, o Fisco pode requisitar dados cadastrais e movimentações bancárias diretamente sem prévia autorização judicial (STF, ADI 2.390 e LC 105/2001).
 >
-> **Gabarito: B**
+> **Gabarito: D**
+
+---
 
 ### Teste 124
 **(FGV – TRT-1 – Analista Judiciário - Tecnologia da Informação – 2024)**  
@@ -238,26 +240,28 @@ Considerando a narrativa e a sistemática constitucional afeta à matéria, é c
 > **Gabarito: C**
 
 ### Teste 125
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A respeito da legitimação ativa e dos requisitos de admissibilidade dos remédios constitucionais, analise a disciplina do Mandado de Segurança Coletivo e da Ação Popular. É correto afirmar que:
+**(FGV – TCE-GO – Analista de Controle Externo Juridica – 2024)**
+A jurisdição é a atividade estatal de solução de conflitos de interesse e tutela de direitos. Ao lado da ação e do processo, a jurisdição constitui o tripé fundamental da teoria geral do processo. Sobre os princípios aplicáveis à jurisdição, assinale a afirmativa correta.
 
-* **A)** Qualquer pessoa jurídica legalmente constituída possui legitimidade para propor ação popular.
-* **B)** O mandado de segurança coletivo impetrado por partido exige representação parlamentar no Congresso.
-* **C)** As associações civis necessitam de autorização assemblear específica para impetrar mandado de segurança coletivo.
-* **D)** A desistência da ação popular pelo autor originário acarreta a extinção imediata do processo sem julgamento de mérito.
-* **E)** A concessão de medida liminar em mandado de segurança prescinde da demonstração de perigo de dano irreparável.
+* **A)** O princípio da inevitabilidade aduz que ao juiz não é dado deixar de julgar, ainda que haja lacuna ou obscuridade no ordenamento jurídico.
+* **B)** A improrrogabilidade é absolutamente incompatível com a prorrogação da competência, ainda que se trate de competência relativa.
+* **C)** A indelegabilidade veda peremptoriamente a delegação de atos de instrução a outros juízes, como é o caso das cartas de ordem e precatórias instrutórias, as quais são inadmissíveis.
+* **D)** A investidura dispõe que o juiz deva ser aprovado em concurso público de provas e títulos, motivo pelo qual os membros de tribunais indicados pelo quinto constitucional não possuem investidura.
+* **E)** O princípio do juiz natural assevera que as regras de competência devem ser prévia e abstratamente definidas, vedando-se a designação de juízos ad hoc.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A teor do art. 5º, LXXIII, da CF/88 e da Súmula 365 do STF, "qualquer cidadão é parte legítima para propor ação popular". Pessoa jurídica não possui condição de cidadão e não pode ajuizar ação popular.
-> - **B)** **Correto**. O art. 5º, LXX, 'a', da CF/88 confere legitimidade ativa para o mandado de segurança coletivo a "partido político com representação no Congresso Nacional" (basta possuir um único Deputado Federal ou Senador da República no momento da propositura).
-> - **C)** **Incorreto**. Conforme a Súmula 629 do STF, "a impetração de mandado de segurança coletivo por entidade de classe em favor dos associados independe da autorização destes", atuando como substituta processual (art. 21 da Lei nº 12.016/2009).
-> - **D)** **Incorreto**. Desistindo o autor originário da ação popular, o Ministério Público ou qualquer outro cidadão pode assumir o polo ativo (art. 9º da Lei nº 4.717/1965).
-> - **E)** **Incorreto**. A liminar em mandado de segurança exige a concorrência dos dois requisitos essenciais: fundamento relevante (*fumus boni iuris*) e risco de ineficácia da medida (*periculum in mora*).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O princípio da inevitabilidade aduz que ao juiz não é dado deixar de julgar, ainda que haja lacuna ou obscuridade...". De acordo com a teoria estudada em *1.1 Características Fundamentais e Dimensões de Eficácia*, nem mesmo o direito à vida é absoluto, haja vista a admissibilidade constitucional da pena de morte em caso de guerra declarada (art. 5º, XLVII, "a").
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A improrrogabilidade é absolutamente incompatível com a prorrogação da competência, ainda que se trate de...". De acordo com a teoria estudada em *1.1 Características Fundamentais e Dimensões de Eficácia*, inexistência de Direitos Absolutos (Relatividade): Nenhum direito fundamental possui caráter absoluto. Todos encontram limites na coexistência harmoniosa com outros direitos fundamentais protegidos pela ordem constitucional.
+> - **C)** **Incorreta.** A opção apresenta vedação ou negativa absoluta incompatível com a regra aplicável ao afirmar que "A indelegabilidade veda peremptoriamente a delegação de atos de instrução a outros juízes, como é o caso das...". De acordo com a teoria estudada em *1.3 Inviolabilidade das Comunicações e Reserva de Jurisdição (Art. 5º, XII)*, *"É inviolável o sigilo da correspondência e das comunicações telegráficas, de dados e das comunicações telefônicas, salvo, no último caso, por ordem judicial, nas hipóteses e na forma que a lei estabelecer para fins de investigação criminal ou instrução processual penal."*.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.3 Inviolabilidade das Comunicações e Reserva de Jurisdição (Art. 5º, XII)* deste guia, interceptação Telefônica: Exige cláusula de reserva de jurisdição estrita (apenas o juiz competente pode determinar). É vedada em processos cíveis ou administrativos disciplinares (PAD). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "A investidura dispõe que o juiz deva ser aprovado em concurso público de provas e títulos, motivo pelo qual os...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O princípio do juiz natural assevera que as regras de competência devem ser prévia e abstratamente definidas...". De acordo com a teoria estudada em *1.3 Inviolabilidade das Comunicações e Reserva de Jurisdição (Art. 5º, XII)*, o Fisco pode requisitar dados cadastrais e movimentações bancárias diretamente sem prévia autorização judicial (STF, ADI 2.390 e LC 105/2001).
 >
-> **Gabarito: B**
+> **Gabarito: D**
+
+---
 
 ### Teste 126
 **(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**  
@@ -282,33 +286,28 @@ Ao dispor sobre os direitos dos trabalhadores urbanos e rurais, a Constituição
 > **Gabarito: B**
 
 ### Teste 127
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere os seguintes direitos dos trabalhadores:
+**(FGV – TJ-SC – Analista Administrativo – 2026)**
+Os direitos humanos foram consolidados no Brasil mediante a Constituição Federal de 1988, que adotou a dignidade da pessoa humana (Art. 1º, III) como fundamento da República e garantiu a igualdade (Art. 5º) sem distinções. Esses princípios norteiam o Estado Democrático de Direito, assegurando proteção contra arbítrios, além de direitos fundamentais, sociais e mecanismos de inclusão. Considerando as disposições constitucionais relativas aos direitos e garantias individuais, assinale a afirmativa correta.
 
-I. Seguro-desemprego.  
-II. Piso salarial proporcional à extensão e à complexidade do trabalho.  
-III. Remuneração do trabalho noturno superior à do diurno.  
-IV. Repouso semanal remunerado, preferencialmente aos domingos.  
-
-Nos termos da Constituição Federal, são estendidos aos trabalhadores domésticos os direitos indicados APENAS em:
-
-* **A)** I, II, III e IV.
-* **B)** II, III e IV.
-* **C)** I e II.
-* **D)** III e IV.
-* **E)** II.
+* **A)** A liberdade de consciência e de crença é inviolável, assegurado o livre exercício dos cultos religiosos, não sendo garantida a prestação de assistência religiosa nas entidades civis e militares de internação coletiva.
+* **B)** A casa é asilo inviolável do indivíduo, ninguém nela podendo adentrar sem consentimento do morador, salvo em caso de flagrante delito ou desastre, ou para prestar socorro, ou, durante o dia ou noite, por determinação judicial.
+* **C)** O sigilo da correspondência é inviolável, salvo, no último caso, por ordem judicial, nas hipóteses e na forma que a lei estabelecer para fins de investigação criminal ou instrução processual penal.
+* **D)** Todos podem reunir-se pacificamente, ainda que armados, em locais abertos ao público, independentemente de autorização, desde que não frustrem outra reunião anteriormente convocada para o mesmo local.
+* **E)** É livre a locomoção no território nacional em tempo de paz ou de guerra, podendo qualquer pessoa, nos termos da lei, nele entrar, permanecer ou dele sair com seus bens.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correto**. A Emenda Constitucional nº 72/2013 ("PEC das Domésticas") alterou profundamente o parágrafo único do art. 7º da CF/88, estendendo aos trabalhadores domésticos tanto os direitos de eficácia imediata — repouso semanal remunerado (XV), remuneração do trabalho noturno superior à do diurno (IX) — quanto os direitos condicionados à regulamentação legal posterior — seguro-desemprego (II) e piso salarial fixado em lei (V), ambos efetivamente disciplinados pela Lei Complementar nº 150/2015. Logo, todos os quatro itens listados são direitos constitucionais titularizados pelos trabalhadores domésticos.
-> - **B)** **Incorreto**. O seguro-desemprego (item I) foi expressamente conferido aos trabalhadores domésticos pela EC 72/2013 e regulamentado pela LC 150/2015.
-> - **C)** **Incorreto**. Os itens III e IV também são garantias plenamente aplicáveis aos trabalhadores domésticos.
-> - **D)** **Incorreto**. Os itens I e II também estão integrados ao patrimônio jurídico dos empregados domésticos.
-> - **E)** **Incorreto**. A tutela constitucional dos domésticos abrange amplamente o catálogo examinado.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A liberdade de consciência e de crença é inviolável, assegurado o livre exercício dos cultos religiosos, não sendo...". De acordo com a teoria estudada em *1.4 Liberdade de Associação e Limites Estatais (Art. 5º, XVII a XXI)*, criação da Associação: Plena liberdade para fins lícitos — Independe de autorização estatal; vedada interferência na administração.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A casa é asilo inviolável do indivíduo, ninguém nela podendo adentrar sem consentimento do morador, salvo em caso...". De acordo com a teoria estudada em *1.2 Inviolabilidade do Domicílio (Art. 5º, XI)*, *"A casa é asilo inviolável do indivíduo, ninguém nela podendo penetrar sem consentimento do morador, salvo em caso de flagrante delito ou desastre, ou para prestar socorro, ou, durante o dia, por determinação judicial."*.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O sigilo da correspondência é inviolável, salvo, no último caso, por ordem judicial, nas hipóteses e na forma que...". De acordo com a teoria estudada em *1.3 Inviolabilidade das Comunicações e Reserva de Jurisdição (Art. 5º, XII)*, *"É inviolável o sigilo da correspondência e das comunicações telegráficas, de dados e das comunicações telefônicas, salvo, no último caso, por ordem judicial, nas hipóteses e na forma que a lei estabelecer para fins de investigação criminal ou instrução processual penal."*.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.5 Tratamento Constitucional dos Crimes: O Quarteto Penal da FCC* deste guia, ação de Grupos Armados: Civis ou militares contra a ordem constitucional e o Estado Democrático — Inafiançável — Imprescritível — Admite. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-SC/2026) ao estabelecer que "Todos podem reunir-se pacificamente, ainda que armados, em locais abertos ao público, independentemente de...".
+> - **E)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "É livre a locomoção no território nacional em tempo de paz ou de guerra, podendo qualquer pessoa, nos termos da...". De acordo com a teoria estudada em *1.1 Características Fundamentais e Dimensões de Eficácia*, nem mesmo o direito à vida é absoluto, haja vista a admissibilidade constitucional da pena de morte em caso de guerra declarada (art. 5º, XLVII, "a").
 >
-> **Gabarito: A**
+> **Gabarito: D**
+
+---
 
 ### Teste 128
 **(FGV – TRT-1 – Analista Judiciário - Tecnologia da Informação – 2024)**  

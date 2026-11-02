@@ -192,111 +192,100 @@ O comando `git reset <hash>` move o ponteiro HEAD para trás:
 ---
 
 ### Teste 108
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Internamente, o Git armazena todo o histórico e a árvore de arquivos de um projeto em um repositório orientado a objetos (*Content-Addressable Storage*) dentro da pasta `.git/objects`. Os objetos fundamentais desse modelo estruturam-se em:
+**(FGV – TJ-BA – Analista Judiciario Tecnologia da Informacao – 2015)**
+Em um ambiente Linux instalado em uma determinada empresa, as contas dos programadores que trabalham num dado projeto de desenvolvimento estão associadas ao mesmo grupo de usuários. Um deles cria um diretório que deverá ser visível aos demais membros do time de desenvolvimento. A ideia é que os colegas possam entrar no diretório, criar novos arquivos sob o diretório, bem como visualizar e modificar o conteúdo dos arquivos ali armazenados. Usuários externos à equipe de desenvolvimento não devem ter acesso ao diretório, nem aos seus descendentes. Supondo-se que o caminho para o diretório em questão seja /home/projeto e que a proteção de /home já esteja corretamente estabelecida, o comando que associa a proteção desejada ao diretório /home/projeto e aos seus descendentes é:
 
-* **A)** Arquivos `.doc`, planilhas `.xls` e executáveis `.exe`.
-* **B)** *Blobs* (que armazenam o conteúdo dos arquivos), *Trees* (que representam diretórios e mapeiam nomes de arquivos e permissões para blobs ou outras trees) e *Commits* (que apontam para uma tree raiz e armazenam autor, data, mensagem e ponteiros para os commits pais).
-* **C)** Registros relacionais indexados por chaves primárias do tipo auto-incremento.
-* **D)** Tabelas de partição de sistema de arquivos NTFS.
-* **E)** Sockets de rede virtuais com endereçamento IPv6.
-
+* **A)** chmod –R 0770 /home/projeto;
+* **B)** chmod –R 0760 /home/projeto;
+* **C)** chmod –R 0750 /home/projeto;
+* **D)** chmod –R 0740 /home/projeto;
+* **E)** chmod –R 0730 /home/projeto.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** O Git opera sobre abstrações internas de objetos universais agnósticos ao tipo de arquivo.
-> - **B) Correta.** O modelo canônico de objetos do Git fundamenta-se em:
->   - **Blob:** guarda os bytes brutos do conteúdo do arquivo (sem o nome ou permissão);
->   - **Tree:** atua como diretório, associando permissões, nomes de arquivos e hashes de blobs ou sub-trees;
->   - **Commit:** captura o snapshot da tree raiz, registrando autor, committer, timestamp, mensagem e hash do(s) commit(s) pai(s);
->   - **Tag anotada:** objeto de referência imutável apontando para um commit específico.
-> - **C) Incorreta.** O Git não usa banco relacional nem chaves de auto-incremento; indexa tudo por hashes criptográficos SHA-1 / SHA-256.
-> - **D) Incorreta.** O modelo do Git opera em nível de aplicação multiplataforma.
-> - **E) Incorreta.** Sem relação com a estrutura interna do Git.
+> - **A)** **Correta.** Conforme fundamentado na seção *1.3 As Três Áreas Locais e o Ciclo de Vida dos Arquivos* deste guia, working Directory (Diretório de Trabalho): Diretório físico no disco rígido do sistema operacional onde os arquivos do projeto residem descompactados e onde o programador efetivamente escreve e modifica o código-fonte. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-BA/2015) ao estabelecer que "chmod –R 0770 /home/projeto".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "chmod –R 0760 /home/projeto". De acordo com a teoria estudada em *2.5 O Ciclo de Vida Padrão do Apache Maven*, `validate`: Valida se a estrutura do projeto está correta e se todas as informações do `pom.xml` estão preenchidas.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "chmod –R 0750 /home/projeto". De acordo com a teoria estudada em *2.3 Manifestos vs. Arquivos de Trava (Lockfiles) e o Comando `npm ci`*, arquivo de Manifesto (`package.json`, `pom.xml`, `requirements.txt`): Descreve os metadados do projeto e declara faixas de tolerância flexíveis para as dependências (ex.: `"express": "^4.18.0"`).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "chmod –R 0740 /home/projeto". De acordo com a teoria estudada em *1.1 Arquitetura Interna: Distribuído vs. Centralizado e Snapshots vs. Deltas*, sistemas Distribuídos (Git): Cada desenvolvedor que executa um `git clone` recebe uma cópia integral e idêntica do repositório, contendo cada branch, cada commit e todos os metadados históricos desde a criação do projeto.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "chmod –R 0730 /home/projeto". De acordo com a teoria estudada em *1.2 O Modelo de Objetos do Git: Blobs, Trees, Commits e Tags*, commit: Representa a fotografia definitiva do projeto. Aponta para a Tree raiz daquele snapshot, armazena referências para o(s) commit(s) ancestral(is) (*parents*), nome e e-mail do autor e do committer, data/hora e a mensagem descritiva do commit.
 >
-> **Gabarito: B**
+> **Gabarito: A**
 
 ---
 
 ### Teste 109
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Um repositório Git local organiza o ciclo de vida dos arquivos em três áreas conceituais fundamentais: a Área de Trabalho (*Working Directory*), a Área de Preparação (*Staging Area* ou *Index*) e o Repositório Local (*Commit History* / `.git`). O comando utilizado para mover arquivos modificados do *Working Directory* para a *Staging Area*, preparando-os para o próximo commit, é:
+**(FCC – TRT-2 – Analista Judiciario Tecnologia da Informacao – 2014)**
+No sistema de controle de versões Git, para efetuar o download dos commits de um repositório remoto para o repositório local é utilizado o comando git
 
-* **A)** `git push`
-* **B)** `git commit`
-* **C)** `git add`
-* **D)** `git fetch`
-* **E)** `git checkout`
-
+* **A)** apply.
+* **B)** get.
+* **C)** push.
+* **D)** fetch.
+* **E)** update.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** `git push` envia commits locais para um repositório remoto.
-> - **B) Incorreta.** `git commit` grava as alterações presentes na Staging Area no histórico do repositório local.
-> - **C) Correta.** O comando `git add <arquivo>` adiciona o conteúdo modificado do diretório de trabalho à *Staging Area* (*Index*), registrando o novo blob na base de objetos.
-> - **D) Incorreta.** `git fetch` baixa metadados e objetos de branches remotas sem mesclá-los ao diretório de trabalho.
-> - **E) Incorreta.** `git checkout` alterna entre branches ou restaura arquivos no diretório de trabalho.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "apply". De acordo com a teoria estudada em *1.7 Sincronização e Fluxo Remoto: `fetch`, `pull` e `push`*, `git fetch`: Baixa todos os novos objetos e branches do servidor remoto para o repositório local, mas não altera nem mescla nada no diretório de trabalho do desenvolvedor (operação 100% segura para inspeção).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "get". De acordo com a teoria estudada em *1.7 Sincronização e Fluxo Remoto: `fetch`, `pull` e `push`*, `git pull`: Executa sequencialmente um `git fetch` seguido imediatamente por um `git merge` (ou `git rebase` se configurado) no ramo local atual.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "push". De acordo com a teoria estudada em *1.7 Sincronização e Fluxo Remoto: `fetch`, `pull` e `push`*, `git push origin <branch>`: Envia os novos commits locais para o servidor remoto centralizado.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.7 Sincronização e Fluxo Remoto: `fetch`, `pull` e `push`* deste guia, `git remote add origin <url>`: Vincula o repositório local a um repositório remoto. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-2/2014) ao estabelecer que "fetch".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "update". De acordo com a teoria estudada em *1.4 Comandos Fundamentais de Inspeção, Rastreamento e Histórico*, `git clone <url>`: Clona um repositório remoto completo com todo o histórico de branches para a máquina local.
 >
-> **Gabarito: C**
+> **Gabarito: D**
 
 ---
 
 ### Teste 110
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Ao integrar o código de uma branch de desenvolvimento (*feature branch*) à branch principal (*main*), o desenvolvedor pode optar pelo comando `git merge` ou pelo comando `git rebase`. A respeito das consequências dessas duas abordagens no histórico do projeto, é correto afirmar:
+**(FCC – TRT-13 – Analista Judiciario Tecnologia da Informacao – 2014)**
+Paulo está executando o Git no Linux. Ele tem um repositório Git e um checkout ou cópia funcional dos arquivos para o projeto atual. Cada arquivo, no diretório de trabalho de Paulo, pode estar em um de dois estados: monitorado ou não monitorado. Arquivos monitorados são arquivos que estavam no último snapshot; podendo estar inalterados, modificados ou selecionados. Arquivos não monitorados são os restantes. Para Paulo verificar, em linha de comando, quais arquivos estão em quais estados ele utilizou o comando git status. Em seguida, ele adicionou um novo arquivo chamado trt ao projeto. Para passar a monitorar este arquivo ele deve usar o comando
 
-* **A)** O `git merge` lineariza o histórico reescrevendo os hashes de todos os commits anteriores, eliminando bifurcações.
-* **B)** O `git merge` (sem fast-forward) preserva o histórico original intacto e cria um novo commit de junção (*merge commit*) com dois pais, ao passo que o `git rebase` reaplica os commits da feature branch um a um no topo da branch de destino, reescrevendo o histórico de commits de forma linear.
-* **C)** O `git rebase` é uma operação estritamente recomendada para branches públicas compartilhadas por múltiplos desenvolvedores remotos.
-* **D)** Ambos os comandos executam exatamente a mesma rotina física sem alterar qualquer ponteiro de commit.
-* **E)** O `git merge` só pode ser executado se o computador estiver conectado à Internet.
-
+* **A)** git add trt
+* **B)** git -a --sx trt
+* **C)** git state trt
+* **D)** git fetch trt
+* **E)** git -mu trt
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Quem lineariza e reescreve commits é o `rebase`, não o `merge`.
-> - **B) Correta.** O `git merge` cria um nó de convergência (*merge commit*) com múltiplos pais, preservando o contexto temporal e a topologia real. O `git rebase` retira os commits da branch local e os reproduz sobre a ponta da branch base, criando novos hashes SHA e gerando um histórico estritamente linear (sem commits de mescla).
-> - **C) Incorreta.** A "Regra de Ouro do Rebase" estabelece que nunca se deve fazer rebase em branches públicas compartilhadas, sob pena de gerar divergência nos históricos de outros desenvolvedores.
-> - **D) Incorreta.** Possuem efeitos topológicos e conceituais completamente distintos.
-> - **E) Incorreta.** Ambas são operações locais do Git.
+> - **A)** **Correta.** Conforme fundamentado na seção *1.4 Comandos Fundamentais de Inspeção, Rastreamento e Histórico* deste guia, `git add <arquivo>`: Adiciona o snapshot do arquivo à Staging Area. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-13/2014) ao estabelecer que "git add trt".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "git -a --sx trt". De acordo com a teoria estudada em *1.7 Sincronização e Fluxo Remoto: `fetch`, `pull` e `push`*, `git remote add origin <url>`: Vincula o repositório local a um repositório remoto.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "git state trt". De acordo com a teoria estudada em *1.3 As Três Áreas Locais e o Ciclo de Vida dos Arquivos*, staging Area / Index (Área de Preparação): Arquivo binário localizado em `.git/index`. Funciona como uma mesa de preparação onde o desenvolvedor seleciona e pré-agrupa exatamente quais arquivos e quais trechos modificados farão parte do próximo commit.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "git fetch trt". De acordo com a teoria estudada em *1.7 Sincronização e Fluxo Remoto: `fetch`, `pull` e `push`*, `git fetch`: Baixa todos os novos objetos e branches do servidor remoto para o repositório local, mas não altera nem mescla nada no diretório de trabalho do desenvolvedor (operação 100% segura para inspeção).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "git -mu trt". De acordo com a teoria estudada em *1.4 Comandos Fundamentais de Inspeção, Rastreamento e Histórico*, `git status`: Exibe o estado comparativo das três áreas, listando arquivos não rastreados (*untracked*), modificados e preparados (*staged*).
 >
-> **Gabarito: B**
+> **Gabarito: A**
 
 ---
 
 ### Teste 111
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No modelo operacional do Git, o comando `git reset` permite retroceder a posição do ponteiro `HEAD` para um determinado commit anterior da árvore histórica. Esse comando aceita diferentes parâmetros que determinam o destino das alterações existentes nos arquivos.
+**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Desenvolvimento de Sistemas – 2023)**
+A analista Cátia criou o branch tarefa10 em um repositório Git local. Logo após, Cátia alternou o branch de trabalho atual para o branch recém-criado, tarefa10. Estando no branch local tarefa10, Cátia precisou renomear o branch para t10_concluida, com um único comando da ferramenta git. Para renomear o branch de trabalho atual com um único comando, Cátia executou no repositório Git local o comando do git:
 
-Sobre os efeitos dos parâmetros do comando `git reset`, assinale a afirmativa correta:  
-
-* **A)** O comando `git reset --soft HEAD~1` move o ponteiro HEAD para o commit anterior e descarta permanentemente todas as alterações tanto da Staging Area quanto do Working Directory.
-* **B)** O comando `git reset --mixed HEAD~1` (modo padrão) move o ponteiro HEAD para o commit anterior, desfaz a preparação dos arquivos na Staging Area, mas preserva todas as modificações no Working Directory como arquivos modificados não rastreados para o próximo commit.
-* **C)** O comando `git reset --hard HEAD~1` mantém intactas as modificações no Working Directory e apenas remove os arquivos da Staging Area.
-* **D)** O comando `git reset --hard` é o mecanismo recomendado para branches públicas compartilhadas, pois não afeta o histórico de commits dos demais desenvolvedores.
-* **E)** A opção `--soft` é a única que apaga os arquivos do sistema de arquivos no disco rígido.
-
+* **A)** mv t10_concluida;
+* **B)** reset t10_concluida;
+* **C)** rebase t10_concluida;
+* **D)** branch -m t10_concluida;
+* **E)** checkout -b t10_concluida.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A opção `--soft` não descarta nenhuma alteração; ela preserva todas as mudanças na Staging Area.
-> - **B)** **CORRETA.** O modo padrão `--mixed` recua o HEAD para o commit indicado, limpa a Staging Area (desfazendo o preparo), porém **preserva intactas todas as alterações no Working Directory**, mantendo os arquivos no disco como modificações pendentes de novo `git add`.
-> - **C)** Incorreta. A opção `--hard` descarta sumariamente e sobrescreve todas as modificações no Working Directory e na Staging Area.
-> - **D)** Incorreta. O `git reset` não deve ser executado para reescrever branches públicas compartilhadas.
-> - **E)** Incorreta. A opção `--soft` não apaga nenhum arquivo do disco.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "mv t10_concluida". De acordo com a teoria estudada em *1.1 Arquitetura Interna: Distribuído vs. Centralizado e Snapshots vs. Deltas*, sistemas Distribuídos (Git): Cada desenvolvedor que executa um `git clone` recebe uma cópia integral e idêntica do repositório, contendo cada branch, cada commit e todos os metadados históricos desde a criação do projeto.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "reset t10_concluida". De acordo com a teoria estudada em *1.7 Sincronização e Fluxo Remoto: `fetch`, `pull` e `push`*, `git push origin <branch>`: Envia os novos commits locais para o servidor remoto centralizado.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "rebase t10_concluida". De acordo com a teoria estudada em *Comparativo entre Merge e Rebase*, regra de Ouro da Equipe: Seguro para qualquer branch, seja ela privada ou pública compartilhada. — ⭐ NUNCA aplique rebase em branches públicas/compartilhadas! Reescrever o histórico de commits já sincronizados por outros desenvolvedores quebra os repositórios locais de toda a equipe.
+> - **D)** **Correta.** Conforme fundamentado na seção *4. `git cherry-pick <hash>`* deste guia, permite selecionar um único commit específico de outra branch e reaplicá-lo cirurgicamente no topo da branch atual, sem precisar fundir a branch inteira via merge. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "branch -m t10_concluida".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "checkout -b t10_concluida". De acordo com a teoria estudada em *1.7 Sincronização e Fluxo Remoto: `fetch`, `pull` e `push`*, `git fetch`: Baixa todos os novos objetos e branches do servidor remoto para o repositório local, mas não altera nem mescla nada no diretório de trabalho do desenvolvedor (operação 100% segura para inspeção).
+>
+> **Gabarito: D**
 
 ---
-
 
 #### 2. `git revert <hash>` (Desfazendo em Ramos Públicos)
 Em branches públicas compartilhadas, o `git reset` é proibido. Para desfazer alterações com segurança sem quebrar o histórico compartilhado, utiliza-se o **`git revert <hash>`**.
@@ -307,37 +296,28 @@ Em branches públicas compartilhadas, o `git reset` é proibido. Para desfazer a
 ---
 
 ### Teste 112
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Um analista de sistemas do Tribunal de Contas estava desenvolvendo uma nova rotina de auditoria financeira no ramo de trabalho `feature-auditoria`. Durante o desenvolvimento, com dezenas de arquivos editados na sua área de trabalho (*working directory*) e na área de preparação (*staging area*), ele recebeu uma ordem prioritária para corrigir imediatamente uma falha crítica de segurança no ramo principal `main`. O analista não deseja realizar um commit parcial de código incompleto, mas necessita que sua árvore de trabalho fique totalmente limpa para permitir alternar de ramo sem erros.
+**(FGV – TRT-13 – Analista Judiciario Tecnologia da Informacao – 2022)**
+Sobre os comandos da ferramenta de controle de versões Git, é correto afirmar que
 
-Posteriormente, após solucionar a falha e submeter a correção ao repositório remoto público compartilhado com toda a equipe de engenharia, ele constatou que um commit anterior presente na branch pública compartilhada causou um efeito colateral indesejado. Ele precisa anular e desfazer as alterações introduzidas por aquele commit específico sem reescrever ou apagar a linha histórica já sincronizada pelos demais desenvolvedores.
-
-Para atender a esses dois requisitos com segurança e conformidade com as boas práticas do Git, o analista deve executar, respectivamente, os comandos:  
-
-* **A)** `git stash` para armazenar temporariamente as modificações não consolidadas em uma pilha interna; e `git revert <hash>` para gerar um novo commit que anula exatamente as modificações do commit defeituoso na branch pública.
-* **B)** `git reset --hard` para limpar o diretório de trabalho; e `git reset --soft <hash>` para remover o commit do histórico compartilhado.
-* **C)** `git checkout -b hotfix` para ignorar o trabalho não salvo; e `git rebase -i` para expurgar a linha do commit na branch compartilhada.
-* **D)** `git stash` para guardar as alterações; e `git reset --hard <hash>` acompanhado de `git push --force` para sobrescrever a branch pública.
-* **E)** `git clean -df` para ocultar o código local; e `git commit --amend` para renomear o commit defeituoso no repositório remoto.
-
+* **A)** o comando git add altera simultaneamente os repositórios local e remoto.
+* **B)** o comando git commit envia para o repositório remoto as alterações no espaço de trabalho local.
+* **C)** o comando git status faz o download do repositório remoto para o espaço de trabalho local.
+* **D)** o comando git push somente faz o upload das alterações que já estão em um commit.
+* **E)** o comando git pull resolve automaticamente qualquer conflito entre os códigos dos repositórios local e remoto.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **CORRETA.** Análise minuciosa dos dois cenários operacionais:
->     1. Para armazenar temporariamente o progresso de trabalho inacabado sem criar commits incompletos e limpar a área de trabalho para permitir troca de branch, o comando padronizado é o **`git stash`**.
->     2. Em branches públicas compartilhadas por múltiplos desenvolvedores, reescrever ou apagar commits com `reset` quebra os repositórios locais dos demais membros. O comando seguro é o **`git revert <hash>`**, que cria um novo commit que aplica exatamente o efeito inverso das alterações trazidas pelo commit alvo, preservando a transparência e integridade da história.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o comando git add altera simultaneamente os repositórios local e remoto". De acordo com a teoria estudada em *1.7 Sincronização e Fluxo Remoto: `fetch`, `pull` e `push`*, `git fetch`: Baixa todos os novos objetos e branches do servidor remoto para o repositório local, mas não altera nem mescla nada no diretório de trabalho do desenvolvedor (operação 100% segura para inspeção).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o comando git commit envia para o repositório remoto as alterações no espaço de trabalho local". De acordo com a teoria estudada em *1.7 Sincronização e Fluxo Remoto: `fetch`, `pull` e `push`*, `git remote add origin <url>`: Vincula o repositório local a um repositório remoto.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o comando git status faz o download do repositório remoto para o espaço de trabalho local". De acordo com a teoria estudada em *1.7 Sincronização e Fluxo Remoto: `fetch`, `pull` e `push`*, `git pull`: Executa sequencialmente um `git fetch` seguido imediatamente por um `git merge` (ou `git rebase` se configurado) no ramo local atual.
+> - **D)** **Correta.** Conforme fundamentado na seção *3. `git stash` (Armazenamento Temporário de Trabalho Inacabado)* deste guia, `git stash` (ou `git stash push -m "descrição"`): Guarda as alterações pendentes e limpa a pasta de trabalho. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-13/2022) ao estabelecer que "o comando git push somente faz o upload das alterações que já estão em um commit".
+> - **E)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "o comando git pull resolve automaticamente qualquer conflito entre os códigos dos repositórios local e remoto". De acordo com a teoria estudada em *1.7 Sincronização e Fluxo Remoto: `fetch`, `pull` e `push`*, `git push origin <branch>`: Envia os novos commits locais para o servidor remoto centralizado.
 >
-> - **B)** Incorreta. O `git reset --hard` destrói e descarta permanentemente todas as alterações em andamento no disco, provocando perda irreparável de código.
-> - **C)** Incorreta. Trocar de ramo com alterações conflitantes no disco gera erro, e executar `rebase` em branch pública viola a regra de ouro do Git.
-> - **D)** Incorreta. O uso de `push --force` em branches compartilhadas corrompe os ponteiros de trabalho dos outros colaboradores da equipe.
-> - **E)** Incorreta. `git clean -df` apaga definitivamente arquivos não rastreados do sistema de arquivos, e `git commit --amend` altera apenas o último commit localmente.
-> 
-> **Gabarito: A**
+> **Gabarito: D**
 
 ---
-
 
 #### 3. `git stash` (Armazenamento Temporário de Trabalho Inacabado)
 Permite salvar o estado intermediário do *Working Directory* e da *Staging Area* em uma pilha interna temporária de memória do Git, limpando os arquivos do disco para o estado do último commit:
@@ -433,106 +413,98 @@ flowchart LR
 ---
 
 ### Teste 113
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No gerenciamento de dependências de software moderno (como Maven, npm ou Poetry), quando um projeto declara explicitamente a biblioteca A, e esta, por sua vez, requer internamente a biblioteca B para funcionar, a biblioteca B é caracterizada na arquitetura do projeto como uma:
+**(FCC – TRT-24 – Analista Judiciario Tecnologia da Informacao – 2017)**
+Considere que um Analista está utilizando a ferramenta Maven e precisa definir que seu projeto depende de algumas outras ferramentas. Esta definição é feita inteiramente no POM, usando a tag `<dependencies>`, dentro da qual cada dependência é definida. Considere o trecho de código abaixo. Em condições ideais, para que seja definido que o projeto depende do JUnit 4.12 e que o Maven adicione a dependência do JUnit apenas no momento em que os testes forem executados, garantindo que a dependência não seja adicionada no artefato que será gerado, a caixa I deve ser corretamente preenchida com
 
-* **A)** Dependência circular primária.
-* **B)** Dependência estática de hardware.
-* **C)** Dependência transitiva.
-* **D)** Dependência depreciada (*deprecated*).
-* **E)** Dependência exclusiva de compilação C++.
-
+* **A)** `<groupId>`junit`</groupId>` `<version>`4.12`</version>` `<exclusion>`system`</exclusion>`
+* **B)** `<groupId>`junit 4.12`</groupId>` `<artifactId>`junit`</artifactId>` `<system>`test`</system>` `<scope>`system`</scope>`
+* **C)** `<groupId>`junit`</groupId>` `<version>`4.12`</version>` `<test>`compile`</test>`
+* **D)** `<groupId>`junit`</groupId>` `<artifactId>`junit 4.12`</artifactId>` `<compile>`test`</compile>`
+* **E)** `<groupId>`junit`</groupId>` `<artifactId>`junit`</artifactId>` `<version>`4.12`</version>` `<scope>`test`</scope>`
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Dependência circular ocorre quando A depende de B e B depende de A.
-> - **B) Incorreta.** Trata-se de dependência de software de terceiros.
-> - **C) Correta.** **Dependências transitivas** são bibliotecas das quais as suas dependências diretas dependem para operar. O gerenciador de pacotes constrói um Grafo Acíclico Dirigido (DAG) para resolver e baixar automaticamente todas as dependências transitivas.
-> - **D) Incorreta.** Dependência transitiva é um conceito arquitetural de grafo, independente de estar ou não obsoleta.
-> - **E) Incorreta.** Aplica-se a qualquer ecossistema de dependências de alto nível.
+> - **A)** **Correta.** Conforme fundamentado na seção *2.5 O Ciclo de Vida Padrão do Apache Maven* deste guia, `test`: Executa os testes automatizados unitários (JUnit) localizados em `src/test/java`. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-24/2017) ao estabelecer que "`<groupId>`junit`</groupId>` `<version>`4.12`</version>` `<exclusion>`system`</exclusion>`".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "`<groupId>`junit 4.12`</groupId>` `<artifactId>`junit`</artifactId>` `<system>`test`</system>`...". De acordo com a teoria estudada em *2.5 O Ciclo de Vida Padrão do Apache Maven*, `install`: Copia o pacote gerado para o repositório local do desenvolvedor (localizado em `~/.m2/repository`), disponibilizando o artefato como dependência para outros projetos locais na mesma máquina.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "`<groupId>`junit`</groupId>` `<version>`4.12`</version>` `<test>`compile`</test>`". De acordo com a teoria estudada em *2.5 O Ciclo de Vida Padrão do Apache Maven*, `compile`: Compila o código-fonte Java (`.java`) localizado em `src/main/java` gerando os arquivos de bytecode (`.class`).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "`<groupId>`junit`</groupId>` `<artifactId>`junit 4.12`</artifactId>` `<compile>`test`</compile>`". De acordo com a teoria estudada em *4. Fontes Recomendadas na Internet*, lOELIGER, Jon; MCCULLOUGH, Matthew. Version Control with Git. 2. ed. Sebastopol: O'Reilly Media, 2012. (Cap. 8 e 9 - Rebase, Hook Scripts e Gestão de Branches).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "`<groupId>`junit`</groupId>` `<artifactId>`junit`</artifactId>` `<version>`4.12`</version>` `<scope>`test`</scope>`". De acordo com a teoria estudada em *2.5 O Ciclo de Vida Padrão do Apache Maven*, `validate`: Valida se a estrutura do projeto está correta e se todas as informações do `pom.xml` estão preenchidas.
 >
-> **Gabarito: C**
+> **Gabarito: A**
 
 ---
 
 ### Teste 114
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Considere uma biblioteca de auditoria governamental que adota rigorosamente a especificação de Versionamento Semântico (*Semantic Versioning* - SemVer 2.0.0), encontrando-se atualmente na versão de distribuição `2.4.1`. A equipe de desenvolvimento realizou intervenções de melhoria e disponibilizou novas versões do pacote.
+**(IBFC – TJ-MG – Analista Judiciario Classe C Analista de Tecnologia da Informacao – 2022)**
+Algumas das principais bibliotecas padrão da linguagem de programação Java são: (1) java.lang (2) java.net (3) java.sql (4) java.util Da relação apresentada:
 
-A respeito das regras formais do SemVer e da gestão de dependências com gerenciadores de pacotes modernos, assinale a afirmativa correta:  
-
-* **A)** Se a equipe corrigir uma falha de segurança interna sem alterar ou descontinuar nenhum método da API pública, a nova versão oficial deve ser rotulada como `3.0.0`.
-* **B)** Se a equipe adicionar uma nova função de cálculo tributário que preserva total compatibilidade reversa com o código existente dos consumidores, a versão deve ser incrementada para `2.5.0`.
-* **C)** Em um arquivo de manifesto `package.json`, a declaração `"modulo": "^2.4.1"` instrui o gerenciador `npm` a autorizar estritamente atualizações de correção (*patch*), congelando a versão menor (*minor*).
-* **D)** O arquivo de manifesto substitui integralmente a necessidade de um arquivo de trava (*lockfile*), pois ambos contêm exatamente as mesmas informações e os mesmos hashes criptográficos de integridade.
-* **E)** A alteração do número de versão `MAJOR` sinaliza aos consumidores que foram adicionadas apenas correções superficiais de documentação, com garantia total de retrocompatibilidade.
-
+* **A)** somente são aplicados o 1, 2 e 3
+* **B)** somente são aplicados o 1, 2 e 4
+* **C)** somente são aplicados o 2, 3 e 4
+* **D)** somente são aplicados o 1, 3 e 4
+* **E)** todos podem ser aplicados
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Correções de falhas ou correções de segurança que mantêm total compatibilidade da API devem incrementar unicamente o dígito de **PATCH** (passando para `2.4.2`).
-> - **B)** **CORRETA.** A adição de novas funcionalidades preservando integralmente a compatibilidade com versões anteriores (*backwards-compatible*) exige formalmente o incremento do dígito **MINOR** (passando de `2.4.1` para `2.5.0` e zerando o patch).
-> - **C)** Incorreta. O prefixo circunflexo `^2.4.1` autoriza atualizações de **MINOR e PATCH** (qualquer versão menor que `3.0.0`). O prefixo que congela a versão menor e restringe apenas a correções de patch é o til (`~2.4.1`).
-> - **D)** Incorreta. O arquivo de manifesto define faixas de versão flexíveis, enquanto o lockfile registra a árvore completa de dependências com hashes SHA-512 de integridade, sendo indispensável para a reprodutibilidade.
-> - **E)** Incorreta. O incremento de `MAJOR` indica quebras de compatibilidade reversa (*breaking changes*).
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente são aplicados o 1, 2 e 3". De acordo com a teoria estudada em *2.5 O Ciclo de Vida Padrão do Apache Maven*, no ecossistema Java corporativo, o Apache Maven organiza o processo de construção em fases sequenciais imutáveis dentro do seu ciclo de vida padrão (*default lifecycle*).
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente são aplicados o 1, 2 e 4". De acordo com a teoria estudada em *2.5 O Ciclo de Vida Padrão do Apache Maven*, `compile`: Compila o código-fonte Java (`.java`) localizado em `src/main/java` gerando os arquivos de bytecode (`.class`).
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente são aplicados o 2, 3 e 4". De acordo com a teoria estudada em *2.5 O Ciclo de Vida Padrão do Apache Maven*, `test`: Executa os testes automatizados unitários (JUnit) localizados em `src/test/java`.
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente são aplicados o 1, 3 e 4". De acordo com a teoria estudada em *Formatos de Distribuição*, empacota em um único arquivo `.jar` todo o código compilado da aplicação, todas as bibliotecas de dependência de terceiros e um servidor web embutido (Tomcat ou Jetty), permitindo execução direta pelo comando `java -jar aplicacao.jar` sem depender de servidores pré-instalados.
+> - **E)** **Correta.** Conforme fundamentado na seção *Formatos de Distribuição* deste guia, java WAR (*Web Application Archive*): Padrão corporativo legado contendo a estrutura de pastas `WEB-INF`, concebido para ser implantado dentro de servidores de aplicação compartilhados (*standalone application servers* como WildFly ou WebLogic). Dessa forma, está plenamente correta a assertiva da banca (IBFC – TJ-MG/2022) ao estabelecer que "todos podem ser aplicados".
+>
+> **Gabarito: E**
 
 ---
 
 ### Teste 115
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Em ambientes de Integração Contínua (CI/CD) com Node.js, recomenda-se a utilização do comando `npm ci` em substituição ao clássico `npm install`. Essa recomendação fundamenta-se no fato de que o `npm ci`:
+**(CEBRASPE – TJ-RJ – Analista Judiciario Grupo Tecnologia da Informacao Analista de Sistemas – 2021)**
+A ferramenta de controle de versão Subversion (SVN)
 
-* **A)** Atualiza automaticamente todas as bibliotecas para a última versão disponível no repositório público do npm.
-* **B)** Requer a presença obrigatória do arquivo de trava `package-lock.json` e instala rigorosamente as versões exatas de dependências especificadas no lockfile, deletando previamente a pasta `node_modules` e garantindo builds estritamente reprodutíveis e determinísticos.
-* **C)** Ignora completamente o arquivo `package-lock.json` e compila apenas o código C++.
-* **D)** Permite a instalação de pacotes sem acesso à rede local ou remota, criando o código das bibliotecas via inteligência artificial.
-* **E)** Funciona exclusivamente se o servidor de CI estiver executando sobre o sistema operacional Windows 98.
-
+* **A)** é considerada um sistema peer-to-peer e, embora seja uma ferramenta proprietária que requer aquisição de licença para uso, pode rodar (executar) usando o servidor Apache.
+* **B)** suporta commits atômicos, sem deixar inconsistências, mesmo diante de problemas que ocorrem na rede ou no servidor.
+* **C)** tem como principal desvantagem o fato de não permitir as operações file-lock ou checkout reservado.
+* **D)** fornece automaticamente uma camada extra de proteção a arquivos e pastas adicionais armazenados por ela, os quais, por isso, não podem ser corrompidos pelo usuário.
+* **E)** mantém um histórico detalhado de todos os arquivos removidos, com exceção daqueles que foram renomeados.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Atualizar pacotes automaticamente em pipeline quebra o determinismo do build.
-> - **B) Correta.** O comando `npm ci` (*Clean Install*) é otimizado para pipelines de automação: ele valida se `package.json` e `package-lock.json` estão sincronizados, remove a pasta `node_modules` existente e instala estritamente as versões travadas no lockfile com máxima velocidade e integridade.
-> - **C) Incorreta.** O `npm ci` baseia-se primordialmente no `package-lock.json`.
-> - **D) Incorreta.** `npm ci` baixa os artefatos do registro configurado caso não estejam em cache.
-> - **E) Incorreta.** Multiplataforma.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é considerada um sistema peer-to-peer e, embora seja uma ferramenta proprietária que requer aquisição de licença...". De acordo com a teoria estudada em *2.3 Manifestos vs. Arquivos de Trava (Lockfiles) e o Comando `npm ci`*, em esteiras de Integração Contínua (CI/CD) de produção, NUNCA se deve rodar `npm install`. O `npm install` pode atualizar dependências permitidas pelas faixas do manifesto e regerar o `package-lock.json`, introduzindo código não testado em produção.
+> - **B)** **Correta.** Conforme fundamentado na seção *1.1 Arquitetura Interna: Distribuído vs. Centralizado e Snapshots vs. Deltas* deste guia, sistemas Centralizados (SVN / CVS): Há um único repositório centralizado. Para inspecionar logs de commits antigos, ramificar código ou confirmar alterações, o desenvolvedor precisa de conectividade direta com o servidor. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TJ-RJ/2021) ao estabelecer que "suporta commits atômicos, sem deixar inconsistências, mesmo diante de problemas que ocorrem na rede ou no servidor".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "tem como principal desvantagem o fato de não permitir as operações file-lock ou checkout reservado". De acordo com a teoria estudada em *1.1 Arquitetura Interna: Distribuído vs. Centralizado e Snapshots vs. Deltas*, cada máquina opera como um servidor autônomo, viabilizando operações offline instantâneas e tolerância a falhas catastróficas.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "fornece automaticamente uma camada extra de proteção a arquivos e pastas adicionais armazenados por ela, os quais...". De acordo com a teoria estudada em *Formatos de Distribuição*, java WAR (*Web Application Archive*): Padrão corporativo legado contendo a estrutura de pastas `WEB-INF`, concebido para ser implantado dentro de servidores de aplicação compartilhados (*standalone application servers* como WildFly ou WebLogic).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "mantém um histórico detalhado de todos os arquivos removidos, com exceção daqueles que foram renomeados". De acordo com a teoria estudada em *1.1 Arquitetura Interna: Distribuído vs. Centralizado e Snapshots vs. Deltas*, se o servidor queimar sem backup, todo o histórico é irremediavelmente perdido.
 >
 > **Gabarito: B**
 
 ---
 
 ### Teste 116
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No ecossistema de desenvolvimento de sistemas em Java gerenciado pela ferramenta Apache Maven, o ciclo de vida de construção (*build lifecycle*) organiza a execução de objetivos (*goals*) em fases pré-definidas. Simultaneamente, em ambientes de esteiras de Integração Contínua (CI/CD), a garantia de builds reprodutíveis e determinísticos tornou-se um requisito mandatório de conformidade e segurança da cadeia de suprimentos.
+**(FCC – TRT-9 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2015)**
+Um usuário do sistema operacional Linux executou o seguinte comando no prompt de um terminal shell. \$ ls >> list O resultado da execução desse comando é a
 
-A respeito do ciclo de vida do Maven e dos mecanismos que garantem builds reproduzíveis em gerenciadores de dependências modernos, assinale a afirmativa correta:  
-
-* **A)** A fase `package` do Maven precede a fase `compile`, permitindo empacotar o artefato antes da compilação do código Java para acelerar o processo de testes.
-* **B)** O comando `mvn install` compila o código, roda os testes, gera o pacote e copia o artefato resultante para o repositório local do desenvolvedor (`~/.m2/repository`), disponibilizando-o como dependência para outros projetos na mesma máquina.
-* **C)** Em projetos Node.js em esteiras de CI/CD, o comando `npm install` deve sempre substituir o comando `npm ci`, pois o `npm install` impede qualquer modificação no arquivo `package-lock.json`.
-* **D)** As coordenadas de um artefato Maven declaradas no `pom.xml` são definidas unicamente pelo parâmetro `releaseDate`, dispensando a indicação de `groupId` e `artifactId`.
-* **E)** O arquivo de lockfile (`package-lock.json` ou `poetry.lock`) impede a compilação de código caso o repositório remoto contenha novas versões maiores (*MAJOR*) de bibliotecas de terceiros.
-
+* **A)** apresentação da listagem do conteúdo do diretório list no terminal.
+* **B)** apresentação, no terminal, dos arquivos e diretórios que contém o termo list.
+* **C)** listagem de comparação entre o conteúdo do diretório atual e do arquivo list.
+* **D)** cópia do conteúdo do diretório atual para o diretório list.
+* **E)** criação do arquivo list que contém a listagem do diretório atual.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A fase `compile` precede obrigatoriamente a fase `package`, pois não é possível empacotar classes antes de sua compilação.
-> - **B)** **CORRETA.** A fase **`install`** do ciclo padrão do Maven compila os arquivos, executa os testes unitários, gera o pacote (`.jar` ou `.war`) e o instala no repositório local (`~/.m2/repository`), permitindo que outros projetos desenvolvidos localmente o consumam como dependência.
-> - **C)** Incorreta. Em esteiras de CI/CD, o comando correto é o **`npm ci`**, pois ele instala estritamente as versões travadas no `package-lock.json` e aborta se houver divergências.
-> - **D)** Incorreta. As coordenadas canônicas que identificam qualquer artefato no Maven são o trio GAV: `groupId`, `artifactId` e `version`.
-> - **E)** Incorreta. O lockfile congela as versões que foram aprovadas e testadas, ignorando silenciosamente versões mais novas disponíveis no repositório remoto para assegurar estabilidade.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "apresentação da listagem do conteúdo do diretório list no terminal". De acordo com a teoria estudada em *1.2 O Modelo de Objetos do Git: Blobs, Trees, Commits e Tags*, blob (*Binary Large Object*): Armazena estritamente o conteúdo binário dos dados de um arquivo. O blob não armazena o nome do arquivo nem suas permissões de acesso (POSIX); guarda unicamente os bytes puros.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "apresentação, no terminal, dos arquivos e diretórios que contém o termo list". De acordo com a teoria estudada em *1.3 As Três Áreas Locais e o Ciclo de Vida dos Arquivos*, working Directory (Diretório de Trabalho): Diretório físico no disco rígido do sistema operacional onde os arquivos do projeto residem descompactados e onde o programador efetivamente escreve e modifica o código-fonte.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "listagem de comparação entre o conteúdo do diretório atual e do arquivo list". De acordo com a teoria estudada em *1.2 O Modelo de Objetos do Git: Blobs, Trees, Commits e Tags*, tree (Árvore): Representa o equivalente a uma pasta/diretório no sistema de arquivos. Uma Tree mapeia os nomes de arquivos, permissões de execução e aponta para os respectivos hashes dos Blobs ou de outras Trees filhas (subpastas).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "cópia do conteúdo do diretório atual para o diretório list". De acordo com a teoria estudada em *1.1 Arquitetura Interna: Distribuído vs. Centralizado e Snapshots vs. Deltas*, sistemas Distribuídos (Git): Cada desenvolvedor que executa um `git clone` recebe uma cópia integral e idêntica do repositório, contendo cada branch, cada commit e todos os metadados históricos desde a criação do projeto.
+> - **E)** **Correta.** Conforme fundamentado na seção *3. `git stash` (Armazenamento Temporário de Trabalho Inacabado)* deste guia, `git stash list`: Lista todos os stashes acumulados. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-9/2015) ao estabelecer que "criação do arquivo list que contém a listagem do diretório atual".
+>
+> **Gabarito: E**
 
 ---
 
@@ -583,53 +555,49 @@ Em ambientes corporativos como tribunais de contas, o acesso a repositórios pú
 ---
 
 ### Teste 117
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-As ferramentas de empacotamento web (*bundlers*) evoluíram significativamente com o surgimento do Vite. A principal inovação arquitetural que confere ao Vite velocidade de inicialização do servidor de desenvolvimento ordens de grandeza superior à do Webpack tradicional reside no fato de que o Vite:
+**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Desenvolvimento de Sistemas – 2023)**
+Analise o conteúdo de uma página Web, com o código JavaScript, exibido a seguir. <!DOCTYPE html> `<html>` `<body>` `<p>`Exemplo.`</p>` `<p>`Aguarde um pouco...`</p>` `<p id="xpto">``</p>` `<script>` ---- `</script>` `</body>` `</html>` Quando essa página for carregada: -- as linhas Exemplo. Aguarde um pouco... serão exibidas; -- alguns segundos depois, a linha Obrigado. será exibida. Para que isso aconteça, o bloco tracejado no código deve ser substituído por:
 
-* **A)** Não permite o uso de arquivos TypeScript ou JavaScript moderno.
-* **B)** Aproveita a disponibilidade nativa de módulos JavaScript (*Native ES Modules* - ESM) nos navegadores modernos e delega o pré-empacotamento de dependências pesadas a ferramentas escritas em Go de alta performance (*esbuild*), empacotando sob demanda apenas o módulo requisitado pelo navegador.
-* **C)** Exige que todo o código seja convertido em imagens vetoriais SVG antes da visualização na tela.
-* **D)** Elimina a necessidade do navegador web, executando todo o front-end diretamente no prompt de comando do terminal.
-* **E)** Compila todos os arquivos CSS para código binário em linguagem Assembly.
-
+* **A)** document.getElementById("xpto").innerHTML = setTimeout("Obrigado.", 5000);
+* **B)** function f(p) { setTimeout(function() { f("Obrigado."); }, 5000); document.getElementById("xpto").innerHTML = f(p); }
+* **C)** setTimeout(5, "s"); document.getElementById("xpto").innerHTML = "Obrigado.";
+* **D)** setTimeout(5000); document.getElementById("xpto").innerHTML = "Obrigado.";
+* **E)** setTimeout(function() { f("Obrigado."); }, 5000);
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** O Vite oferece suporte nativo e instantâneo a TypeScript, JSX, TSX e Vue/Svelte.
-> - **B) Correta.** O Vite revolucionou o desenvolvimento web ao dispensar o empacotamento integral (*bundle*) de todo o código da aplicação antes de subir o servidor: ele serve o código-fonte via ESM nativo do browser (Hot Module Replacement instantâneo) e usa o *esbuild* (escrito em Go, dezenas de vezes mais veloz que transpiladores JS tradicionais) para pré-empacotar dependências.
-> - **C) Incorreta.** Afirmação sem nexo.
-> - **D) Incorreta.** O front-end continua sendo executado no navegador.
-> - **E) Incorreta.** Descrição fantasiosa.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "document.getElementById("xpto").innerHTML = setTimeout("Obrigado.", 5000)". De acordo com a teoria estudada em *3.1 Empacotadores Web Modernos (Webpack, Vite, Rollup e esbuild)*, module Bundling: Processo que analisa o grafo de dependências a partir de um arquivo de entrada (*entry point* como `index.tsx`) e consolida todos os recursos em arquivos estáticos otimizados (HTML, JS, CSS) dentro da pasta de produção (geralmente `dist/` ou `build/`).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "function f(p) { setTimeout(function() { f("Obrigado."); }, 5000); document.getElementById("xpto").innerHTML =...". De acordo com a teoria estudada em *Formatos de Distribuição*, java WAR (*Web Application Archive*): Padrão corporativo legado contendo a estrutura de pastas `WEB-INF`, concebido para ser implantado dentro de servidores de aplicação compartilhados (*standalone application servers* como WildFly ou WebLogic).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "setTimeout(5, "s"); document.getElementById("xpto").innerHTML = "Obrigado."". De acordo com a teoria estudada em *3.2 Otimizações de Produção: Tree Shaking, Code Splitting e Minificação*, code Splitting (Divisão de Código): Estratégia de dividir o pacote JavaScript final em arquivos menores (*chunks*).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "setTimeout(5000); document.getElementById("xpto").innerHTML = "Obrigado."". De acordo com a teoria estudada em *3.1 Empacotadores Web Modernos (Webpack, Vite, Rollup e esbuild)*, no desenvolvimento front-end moderno, o código-fonte é decomposto em centenas de componentes JSX/TSX, folhas de estilo SASS/CSS e imagens. Navegadores não executam esses formatos diretamente de forma eficiente sem empacotamento.
+> - **E)** **Correta.** Conforme fundamentado na seção *3.2 Otimizações de Produção: Tree Shaking, Code Splitting e Minificação* deste guia, minificação e Ofuscação: Processo automatizado que remove todos os espaços em branco, quebras de linha e comentários, além de renomear variáveis longas para letras únicas (`function processarAuditoriaFiscal()` \$\rightarrow\$ `function a()`), reduzindo o payload e dificultando a engenharia reversa. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "setTimeout(function() { f("Obrigado."); }, 5000)".
 >
-> **Gabarito: B**
+> **Gabarito: E**
 
 ---
 
 ### Teste 118
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No contexto do desenvolvimento de aplicações web modernas com ferramentas de empacotamento (*module bundlers* como Webpack, Rollup e Vite), o processo que visa reduzir o volume de dados transferido para os navegadores dos usuários finais recorre a técnicas sofisticadas de otimização de código.
+**(FGV – TRT-16 – Analista Judiciario Area Administrativa Tecnologia da Informacao – 2022)**
+O comando que pode ser executado na ferramenta de versionamento Git para exibir a lista dos arquivos alterados no diretório de trabalho local é
 
-A técnica que consiste na análise estática das instruções `import` e `export` dos módulos ECMAScript (ESM) para identificar e eliminar blocos de código, funções e variáveis exportadas que nunca são efetivamente utilizados no restante da aplicação denomina-se:  
-
-* **A)** *Code Splitting*
-* **B)** *Hot Module Replacement (HMR)*
-* **C)** *Tree Shaking*
-* **D)** *Continuous Integration (CI)*
-* **E)** *Source Mapping*
-
+* **A)** git fetch
+* **B)** git gc
+* **C)** git status
+* **D)** git prune
+* **E)** git remote
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. *Code Splitting* é a técnica de segmentar o bundle em múltiplos arquivos (*chunks*) para carregamento sob demanda (*lazy loading*).
-> - **B)** Incorreta. *Hot Module Replacement (HMR)* atualiza módulos no navegador durante o desenvolvimento sem recarregar a página por completo.
-> - **C)** **CORRETA.** A técnica de **Tree Shaking** (*dead-code elimination*) analisa a estrutura estática dos módulos ESM (`import`/`export`) durante a compilação e remove do pacote final qualquer função ou classe importada que não seja invocada no código da aplicação.
-> - **D)** Incorreta. Integração Contínua (CI) é uma prática DevOps de compilação e testes automatizados.
-> - **E)** Incorreta. *Source Maps* são arquivos de mapeamento que correlacionam o código minificado de produção com o código-fonte original para depuração.
-> 
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "git fetch". De acordo com a teoria estudada em *1.7 Sincronização e Fluxo Remoto: `fetch`, `pull` e `push`*, `git fetch`: Baixa todos os novos objetos e branches do servidor remoto para o repositório local, mas não altera nem mescla nada no diretório de trabalho do desenvolvedor (operação 100% segura para inspeção).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "git gc". De acordo com a teoria estudada em *3. `git stash` (Armazenamento Temporário de Trabalho Inacabado)*, `git stash list`: Lista todos os stashes acumulados.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.4 Comandos Fundamentais de Inspeção, Rastreamento e Histórico* deste guia, `git status`: Exibe o estado comparativo das três áreas, listando arquivos não rastreados (*untracked*), modificados e preparados (*staged*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-16/2022) ao estabelecer que "git status".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "git prune". De acordo com a teoria estudada em *3. `git stash` (Armazenamento Temporário de Trabalho Inacabado)*, `git stash pop`: Restaura as alterações salvas de volta para o diretório de trabalho e remove o registro do topo da pilha.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "git remote". De acordo com a teoria estudada em *1.7 Sincronização e Fluxo Remoto: `fetch`, `pull` e `push`*, `git remote add origin <url>`: Vincula o repositório local a um repositório remoto.
+>
 > **Gabarito: C**
 
 ---

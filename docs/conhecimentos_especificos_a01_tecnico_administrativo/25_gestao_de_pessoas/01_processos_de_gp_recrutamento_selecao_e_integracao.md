@@ -136,54 +136,50 @@ flowchart TD
 ---
 
 ### Teste 430
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No âmbito da literatura clássica de Gestão de Pessoas formulada por Idalberto Chiavenato, os macroprocessos organizacionais integram um conjunto articulado de subsistemas interconectados. Ao estruturar os processos de gestão, o desenho de cargos, a socialização organizacional dos novos colaboradores e a sistemática de avaliação de desempenho funcional integram expressamente o macroprocesso de:
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Administracao – 2024)**
+A qualidade de vida no trabalho (QVT) refere-se ao bem-estar geral dos colaboradores no ambiente organizacional. Isso inclui fatores como condições físicas de trabalho, equilíbrio entre vida pessoal e profissional, reconhecimento, oportunidades de desenvolvimento, e um ambiente de trabalho seguro e saudável. Com relação à QVT, avalie as afirmativas a seguir. I. Concilia duas posições opostas: as demandas dos colaboradores por bem-estar e satisfação e o interesse das organizações nos efeitos positivos sobre a produtividade e a qualidade. II. Representa um intenso movimento em direção ao profundo respeito pelo bem-estar das pessoas do ponto de vista biológico, psicológico e social. III. Almeja uma visão fragmentada do ser humano em seu relacionamento com as organizações. Está correto o que se afirma em
 
-* **A)** Agregar Pessoas.
-* **B)** Aplicar Pessoas.
-* **C)** Recompensar Pessoas.
-* **D)** Desenvolver Pessoas.
-* **E)** Monitorar Pessoas.
-
-
----
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** O macroprocesso de Agregar Pessoas engloba unicamente as atividades de atração e seleção (planejamento da força de trabalho, recrutamento e seleção/concurso).  
-> - **B) CORRETA.** Os **Processos de Aplicar Pessoas** dizem respeito a como as pessoas operam na organização e o que realizam. Chiavenato engloba expressamente neste macroprocesso: o desenho e especificação de cargos/tarefas, a orientação e socialização organizacional (integração dos admitidos) e a **avaliação periódica de desempenho**.  
-> - **C) Incorreta.** Recompensar Pessoas envolve folha de pagamento, estrutura de vencimentos, adicionais e benefícios sociais.  
-> - **D) Incorreta.** Desenvolver Pessoas compreende treinamento, capacitação contínua, aprendizagem organizacional e planos de carreira.  
-> - **E) Incorreta.** Monitorar Pessoas refere-se aos bancos de dados, cadastros funcionais e sistemas de informação de pessoal (SIRH).  
-> 
-> **Gabarito: B**
-
----
-
-### Teste 431
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Idalberto Chiavenato estrutura a moderna Gestão de Pessoas em seis processos básicos interdependentes: Agregar, Aplicar, Recompensar, Desenvolver, Manter e Monitorar pessoas.
-
-O processo de **Aplicar Pessoas** compreende precipuamente as atividades de:
-
-* **A)** Desenho organizacional de cargos, análise e descrição de funções, orientação e socialização das pessoas e avaliação do desempenho humano.
-* **B)** Recrutamento interno, recrutamento externo e seleção de candidatos por provas e títulos.
-* **C)** Concessão de remuneração fixa, incentivos salariais, benefícios e serviços sociais.
-* **D)** Treinamento e desenvolvimento de competências, gestão do conhecimento e programas de mudança.
-* **E)** Higiene, segurança e qualidade de vida no trabalho e relações com sindicatos.
-
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Os seis processos de Chiavenato: (1) *Agregar Pessoas*: recrutamento e seleção; (2) **Aplicar Pessoas**: desenho de cargos, descrição de atribuições, orientação (*onboarding*) e avaliação de desempenho; (3) *Recompensar Pessoas*: remuneração, benefícios e incentivos; (4) *Desenvolver Pessoas*: treinamento, capacitação e aprendizagem; (5) *Manter Pessoas*: higiene, segurança, relações sindicais e QVT; (6) *Monitorar Pessoas*: banco de dados e sistemas de informação de RH.
-> - **B)** Incorreta. Refere-se ao processo de *Agregar Pessoas*.
-> - **C)** Incorreta. Refere-se ao processo de *Recompensar Pessoas*.
-> - **D)** Incorreta. Refere-se ao processo de *Desenvolver Pessoas*.
-> - **E)** Incorreta. Refere-se ao processo de *Manter Pessoas*.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *1. Evolução Histórica dos Paradigmas de Gestão de Pessoas*, a administração do trabalho humano passou por profundas transformações ao longo dos séculos XX e XXI, transitando de uma visão puramente mecanicista e punitiva para uma abordagem estratégica voltada ao desenvolvimento de competências.
+> - **B)** **Correta.** Conforme fundamentado na seção *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)* deste guia, 5. Manter Pessoas: *Como reter os servidores e assegurar bem-estar?* — Clima e cultura organizacional, programas de Qualidade de Vida no Trabalho (QVT), higiene, ergonomia, medicina do trabalho e relações sindicais. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "I e II, apenas".
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *5. O Concurso Público como Instrumento Republicano (CF/88, art. 37)*, prazo de Validade (Art. 37, III): Até dois anos, prorrogável uma vez por igual período (critério de discricionariedade da administração, dentro do período inicial).
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *5. O Concurso Público como Instrumento Republicano (CF/88, art. 37)*, além disso, o art. 37, III da CF/88 estabelece que o concurso terá validade de até 2 anos, prorrogável uma vez por igual período.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *4. O Processo de Agregar Pessoas: Recrutamento e Seleção*, o processo de agregar pessoas inicia-se com o diagnóstico de necessidades de pessoal e desdobra-se em duas etapas interdependentes: o recrutamento (atração) e a seleção (escolha).
+>
+> **Gabarito: B**
+
+---
+
+### Teste 431
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Administracao – 2024)**
+A gestão estratégica de pessoas é um enfoque que alinha as práticas de gestão de recursos humanos aos objetivos organizacionais. Essa abordagem integra planejamento de carreira, treinamento e desenvolvimento, avaliação de desempenho e recompensas, promovendo um ambiente de trabalho motivador e produtivo. Com relação à gestão estratégica de pessoas, avalie as afirmativas a seguir. I. A gestão estratégica de pessoas integra-se à estratégia organizacional, atendendo a objetivos estratégicos, táticos e operacionais, todos devidamente interconectados. II. Não é necessário ter uma clara ideia do impacto do mercado e do ambiente externo em que a empresa está envolvida; a organização pode focar apenas em seus processos internos sem considerar essas variáveis para a gestão estratégica de pessoas. III. A avaliação do desempenho e dos resultados é a etapa de feedback constante e ágil para medição do que foi planejado e realizado. Está correto o que se afirma em
+
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)*, 2. Aplicar Pessoas: *O que as pessoas farão na organização?* — Desenho organizacional de cargos, descrição e análise de funções, socialização organizacional (integração) e avaliação de desempenho funcional.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)*, 4. Desenvolver Pessoas: *Como capacitar e expandir o potencial?* — Diagnóstico de necessidades de treinamento (LNT), programas de capacitação, desenvolvimento gerencial, gestão do conhecimento e planos de carreira.
+> - **C)** **Correta.** Conforme fundamentado na seção *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)* deste guia, 1. Agregar Pessoas: *Quem deve ingressar na organização?* — Planejamento de recursos humanos, recrutamento (interno/externo), seleção de pessoas e concurso público. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "I e III, apenas".
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *1. Evolução Histórica dos Paradigmas de Gestão de Pessoas*, a administração do trabalho humano passou por profundas transformações ao longo dos séculos XX e XXI, transitando de uma visão puramente mecanicista e punitiva para uma abordagem estratégica voltada ao desenvolvimento de competências.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *Recrutamento Interno vs. Recrutamento Externo vs. Recrutamento Misto*, impacto na Motivação: Eleva a motivação interna e valoriza a carreira funcional. — Pode desmotivar servidores internos que almejavam a oportunidade. — Equilibra estímulo interno e ampliação de horizontes.
+>
+> **Gabarito: C**
 
 ---
 
@@ -255,30 +251,28 @@ flowchart LR
 ---
 
 ### Teste 432
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Uma entidade pública estadual necessita preencher posições funcionais de gestão interna. Ao optar prioritariamente pelo recrutamento interno em detrimento do recrutamento externo, a organização colhe benefícios relevantes, porém sujeita-se a uma vulnerabilidade conceitual frequentemente apontada pela literatura, consubstanciada na:
+**(FGV – TJ-SC – Analista Administrativo – 2026)**
+A Gestão da Qualidade, ao analisar percepções equivocadas ou parciais sobre o tema observadas no cotidiano organizacional, costuma reconvertê-las em ações estratégicas, transformando cada limitação em ponto de partida para uma intervenção orientada à produção da qualidade. Relacione as posições consagradas sobre qualidade às respectivas ações estratégicas que a Gestão da Qualidade pode desenvolver a partir delas. Posição sobre Ação estratégica qualidade 1. A qualidade é um aspecto subjetivo. ( ) Priorizar processos produtivos mais confiáveis. 2. A qualidade identifica-se com capacidade de fabricação. ( ) Ampliar o número de clientes, cujas preferências passariam a ser atendidas por essas novas alternativas de produtos ou de itens que os compõem. 3. A qualidade envolve a diversidade de opções que um produto ou serviço pode oferecer a seus clientes. ( ) Investir em melhorias do processo produtivo que evitem o aparecimento de quaisquer defeitos e falhas. 4. A qualidade é considerada como a falta de defeitos no produto ou no serviço prestado. ( ) Desenvolver processos em que o cliente interfira na produção de bens ou serviços da empresa, tornando-os mais adequados às suas necessidades, preferências ou conveniências. Assinale a opção que indica a relação correta, na ordem apresentada.
 
-* **A)** morosidade excessiva para disponibilizar o profissional e elevadíssimo dispêndio orçamentário com editais públicos e bancas examinadoras.
-* **B)** desmotivação crônica dos profissionais da casa, que visualizam o processo como um obstáculo intransponível à sua própria ascensão profissional.
-* **C)** ocorrência do fenômeno da endogamia cultural (*inbreeding*), marcada pela recirculação contínua dos mesmos vícios, soluções e práticas preexistentes, com bloqueio à inovação.
-* **D)** exigência legal obrigatória de reabertura imediata de concurso público para a investidura nas atribuições funcionais correlatas.
-* **E)** incapacidade operacional de avaliar previamente as competências comportamentais dos candidatos que já compõem o quadro institucional.
-
+* **A)** 1 – 3 – 4 – 2.
+* **B)** 2 – 3 – 4 – 1.
+* **C)** 2 – 4 – 3 – 1.
+* **D)** 4 – 1 – 2 – 3.
+* **E)** 3 – 2 – 1 – 4.
 
 ---
 
-> **Comentário Detalhado:**  
+> **Comentário Detalhado:**
 >
-> - **A) Incorreta.** O recrutamento interno destaca-se exatamente por ser **ágil e econômico**, não demandando editais caros nem contratação de bancas examinadoras externas.  
-> - **B) Incorreta.** O recrutamento interno **eleva a motivação** dos colaboradores internos, pois oferece perspectivas concretas de carreira e reconhecimento funcional.  
-> - **C) CORRETA.** A clássica desvantagem técnica do recrutamento exclusivamente interno é a **endogamia cultural (*inbreeding*)**: como a organização se alimenta apenas de seus próprios membros, há o risco de reproduzir continuadamente as mesmas ideias, manter velhos vícios e blindar a instituição contra visões renovadas e saberes trazidos pelo ambiente externo.  
-> - **D) Incorreta.** Funções de chefia interna e cargos de confiança privativos de servidores de carreira são preenchidos por designação/ato interno discricionário, sem necessidade de novo concurso público para cada relotação.  
-> - **E) Incorreta.** No recrutamento interno, a organização já conhece o histórico de desempenho e o perfil comportamental dos candidatos, o que constitui uma das principais vantagens do processo.  
-> 
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1 – 3 – 4 – 2". De acordo com a teoria estudada em *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)*, 4. Desenvolver Pessoas: *Como capacitar e expandir o potencial?* — Diagnóstico de necessidades de treinamento (LNT), programas de capacitação, desenvolvimento gerencial, gestão do conhecimento e planos de carreira.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2 – 3 – 4 – 1". De acordo com a teoria estudada em *Recrutamento Interno vs. Recrutamento Externo vs. Recrutamento Misto*, trata-se da tendência de um órgão ou empresa, ao recrutar exclusivamente membros de seus próprios quadros internos, de perpetuar os mesmos padrões de pensamento, cristalizar defeitos e inibir o surgimento de ideias inovadoras.
+> - **C)** **Correta.** Conforme fundamentado na seção *5. O Concurso Público como Instrumento Republicano (CF/88, art. 37)* deste guia, direito Subjetivo à Nomeação (Jurisprudência Vinculante do STF - Tema 161 / RE 598.099): O candidato aprovado dentro do número de vagas previsto originariamente no edital do concurso público possui direito público subjetivo à nomeação durante o prazo de validade do certame. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-SC/2026) ao estabelecer que "2 – 4 – 3 – 1".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "4 – 1 – 2 – 3". De acordo com a teoria estudada em *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)*, 5. Manter Pessoas: *Como reter os servidores e assegurar bem-estar?* — Clima e cultura organizacional, programas de Qualidade de Vida no Trabalho (QVT), higiene, ergonomia, medicina do trabalho e relações sindicais.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3 – 2 – 1 – 4". De acordo com a teoria estudada em *Comparativo Histórico: As Quatro Eras*, concepção das Pessoas: Engrenagens mecânicas, mão de obra braçal e geradoras de custo estrito. — Funcionários tutelados por normas estatais e sindicais. — Recursos produtivos padronizados a serem geridos e alocados. — Parceiras estratégicas, fontes de inteligência, competência e diferenciação.
+>
 > **Gabarito: C**
 
 ---
-
 
 #### Seleção de Pessoas: O Modelo de Comparação e Decisão
 
@@ -323,53 +317,50 @@ flowchart TD
 ---
 
 ### Teste 433
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Em uma entrevista de seleção baseada na gestão por competências, o examinador formula a seguinte questão ao candidato: *"Descreva uma ocasião em seu trabalho anterior na qual um prazo orçamentário complexo estava na iminência de se esgotar, detalhe qual era o desafio sob sua responsabilidade direta, as ações práticas que você implementou para contornar o obstáculo e quais foram os resultados mensuráveis obtidos"*. A técnica de seleção adotada classifica-se como:
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Contabilidade – 2024)**
+Com relação à gestão de custos no setor público, avalie se as afirmativas a seguir são verdadeiras (V) ou falsas (F). ( ) A gestão de custos no setor público é voltada à administração dos insumos, com ênfase na melhoria da alocação dos recursos e à identificação e mensuração das entregas, com ênfase na avaliação de desempenho. ( ) A informação de custos deve ser útil para subsidiar a avaliação das políticas públicas, apresentando os resultados alcançados, consubstanciados em relatórios contendo seus indicadores de desempenho. ( ) Os gestores operacionais são os responsáveis por prover efetivo apoio à geração da informação de custos, além de responsabilizar os funcionários do departamento de custos pela qualidade dos dados e pelo uso das informações nos processos decisórios. De acordo com a NBC TSP 34 – Custos no Setor Público, as afirmativas são, respectivamente,
 
-* **A)** Entrevista não diretiva e livre de avaliação projetiva.
-* **B)** Técnica de simulação psicodramática por imersão relacional.
-* **C)** Prova situacional de aptidão psicométrica abstrata.
-* **D)** Entrevista comportamental por competências estruturada sob o método STAR.
-* **E)** Teste de personalidade expressiva para verificação de temperamento frouxo.
-
-
----
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** A entrevista não diretiva é desestruturada e aberta, sem perguntas previamente padronizadas nem foco em dados fáticos estruturados.  
-> - **B) Incorreta.** A simulação psicodramática (*role-playing*) exige encenação de papéis interpessoais em dinâmica de grupo, não sendo uma entrevista individual reflexiva.  
-> - **C) Incorreta.** Provas psicométricas são testes formais de raciocínio lógico, atenção ou inteligência que geram escores quantitativos padronizados.  
-> - **D) CORRETA.** O enunciado retrata perfeitamente a técnica **STAR**: o examinador pede ao candidato que relate uma **Situação** fática do passado, sua **Tarefa** específica, a **Ação** concreta executada e o **Resultado** atingido. Baseia-se na premissa de que o comportamento passado em situações similares é o melhor preditor do desempenho futuro.  
-> - **E) Incorreta.** Testes de personalidade expressivos (como PMK ou Palográfico) utilizam traçados gráficos sob supervisão de psicólogos e não perguntas de entrevista funcional.  
-> 
-> **Gabarito: D**
-
----
-
-### Teste 434
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No tocante às rotinas de recrutamento de pessoal, o **Recrutamento Interno** contrapõe-se ao **Recrutamento Externo** ao privilegiar a movimentação de servidores da própria organização.
-
-Constitui uma típica **vantagem** do Recrutamento Interno:
-
-* **A)** Maior rapidez no preenchimento da vaga, menor custo financeiro do processo e estímulo à motivação e à lealdade dos servidores atuais por meio de oportunidades concretas de plano de carreira.
-* **B)** A introdução massiva de novas ideias, talentos externos e inovação de ponta na cultura corporativa.
-* **C)** A renovação completa do quadro de pessoal e oxigenação da estrutura burocrática.
-* **D)** A dispensa absoluta de avaliação de desempenho funcional e conformidade disciplinar.
-* **E)** A eliminação do sentimento de frustração entre os servidores que não foram contemplados na promoção.
-
+* **A)** V – V – F.
+* **B)** V – F – V.
+* **C)** F – V – V.
+* **D)** V – F – F.
+* **E)** F – V – F.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. O **Recrutamento Interno** é mais econômico, mais rápido, apresenta maior índice de validade e segurança (o candidato já é conhecido) e atua como poderoso incentivo à motivação e retenção de talentos da casa.
-> - **B), C)** Incorretas. Vantagens exclusivas do **Recrutamento Externo** (traz "sangue novo" e novas perspectivas).
-> - **D)** Incorreta. A movimentação interna baseia-se exatamente no histórico e avaliação de desempenho.
-> - **E)** Incorreta. O recrutamento interno frequentemente gera frustração nos candidatos não selecionados (efeito Peter e conflito de interesse).
-> 
+> - **A)** **Correta.** Conforme fundamentado na seção *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)* deste guia, 6. Monitorar Pessoas: *Como registrar e acompanhar as informações?* — Bancos de dados funcionais, prontuários do servidor, sistemas integrados de gestão de RH (SIRH) e auditoria de pessoal. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "V – V – F".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – F – V". De acordo com a teoria estudada em *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)*, o macroprocesso de Monitorar Pessoas restringe-se a cadastros, bancos de dados, relatórios gerenciais e auditoria de regularidade funcional.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – V – V". De acordo com a teoria estudada em *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)*, 2. Aplicar Pessoas: *O que as pessoas farão na organização?* — Desenho organizacional de cargos, descrição e análise de funções, socialização organizacional (integração) e avaliação de desempenho funcional.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – F – F". De acordo com a teoria estudada em *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)*, a Avaliação de Desempenho pertence ao macroprocesso de APLICAR PESSOAS (e NÃO a "Monitorar pessoas" nem a "Desenvolver pessoas"). Aplicar significa verificar o que as pessoas fazem e como estão desempenhando suas atribuições.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – V – F". De acordo com a teoria estudada em *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)*, 1. Agregar Pessoas: *Quem deve ingressar na organização?* — Planejamento de recursos humanos, recrutamento (interno/externo), seleção de pessoas e concurso público.
+>
 > **Gabarito: A**
+
+---
+
+### Teste 434
+**(FCC – TCE-GO – Analista de Controle Externo Gestao de Conhecimento – 2009)**
+A avaliação do custo-benefício de um título permutado com outra instituição ou biblioteca deve considerar, entre outras coisas, o equilíbrio de conteúdo das publicações, os custos reais da publicação da própria entidade, os custos de todos os serviços para abrigar o título recebido e
+
+* **A)** o processamento do material comparado com o mesmo processamento se fosse adquirido por compra.
+* **B)** o tempo necessário para recebimento do material comparado com o mesmo tempo se fosse adquirido por compra.
+* **C)** o tempo necessário para realização dos contatos visando o estabelecimento da permuta.
+* **D)** o aumento da carga de trabalho devido à ampliação do número de títulos permutados.
+* **E)** a cultura da organização.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o processamento do material comparado com o mesmo processamento se fosse adquirido por compra". De acordo com a teoria estudada em *3. Rotinas Administrativas do Departamento de Pessoal no Setor Público*, processamento de justificativas legais, faltas abonadas e desconto em folha decorrente de ausências não justificadas.
+> - **B)** **Correta.** Conforme fundamentado na seção *Recrutamento Interno vs. Recrutamento Externo vs. Recrutamento Misto* deste guia, tempo de Execução: Rápido: os colaboradores já são conhecidos e estão cadastrados. — Lento e moroso: prazos de inscrição, recursos e homologação. — Médio a longo. Dessa forma, está plenamente correta a assertiva da banca (FCC – TCE-GO/2009) ao estabelecer que "o tempo necessário para recebimento do material comparado com o mesmo tempo se fosse adquirido por compra".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o tempo necessário para realização dos contatos visando o estabelecimento da permuta". De acordo com a teoria estudada em *3. Rotinas Administrativas do Departamento de Pessoal no Setor Público*, realização de perícia médica oficial e aferição de aptidão física/mental.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o aumento da carga de trabalho devido à ampliação do número de títulos permutados". De acordo com a teoria estudada em *Recrutamento Interno vs. Recrutamento Externo vs. Recrutamento Misto*, impacto na Motivação: Eleva a motivação interna e valoriza a carreira funcional. — Pode desmotivar servidores internos que almejavam a oportunidade. — Equilibra estímulo interno e ampliação de horizontes.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a cultura da organização". De acordo com a teoria estudada em *Pessoas como Recursos vs. Pessoas como Parceiras (Idalberto Chiavenato)*, investimento prioritário da organização para a melhoria dos serviços públicos.
+>
+> **Gabarito: B**
 
 ---
 
@@ -404,51 +395,50 @@ flowchart TD
 ---
 
 ### Teste 435
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-De acordo com os preceitos expressos no art. 37 da Constituição Federal de 1988 e a jurisprudência sumulada e vinculante dos Tribunais Superiores acerca do concurso público:
+**(FGV – TCE-PI – Auditor de Controle Externo Controle Externo Especifica de Area Comum – 2025)**
+Nos últimos anos, a administração pública brasileira tem dado cada vez mais atenção à gestão da integridade. Programas de integridade, que abrangem ações preventivas e corretivas contra fraudes e corrupção, são fundamentais para promover a confiança pública e criar um ambiente favorável ao desenvolvimento econômico. Assinale a opção que descreve a função suporte da alta administração nos programas de integridade.
 
-* **A)** A realização de prova de títulos em concursos públicos pode ostentar caráter classificatório ou eliminatório, a exclusivo critério discricionário do edital regulamentador.
-* **B)** O candidato regularmente aprovado e classificado dentro do número de vagas originariamente previsto no edital possui mera expectativa de direito à nomeação, podendo a administração desconsiderar sua aprovação a qualquer tempo sem motivação extraordinária.
-* **C)** É prescindível a realização de concurso público para a contratação temporária destinada a atender a necessidade de excepcional interesse público, na forma disciplinada em legislação específica.
-* **D)** O prazo de validade do concurso público será de até quatro anos, improrrogável, admitindo-se apenas a celebração de novos editais quando esgotada a vigência.
-* **E)** O provimento originário em cargos públicos efetivos independe de prévia aprovação em concurso, desde que o servidor comprove exercício temporário anterior superior a dez anos.
-
-
----
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** A prova de títulos tem caráter **estritamente classificatório**, sendo vedada a eliminação de candidatos com base exclusiva na ausência ou pontuação insuficiente de títulos.  
-> - **B) Incorreta.** Conforme pacificado pelo STF no Tema 161 (RE 598.099), o candidato aprovado dentro do número de vagas possui **direito público subjetivo à nomeação** durante a vigência do certame, salvo situações imprevisíveis, supervenientes e extraordinárias fundamentadamente comprovadas.  
-> - **C) CORRETA.** O art. 37, IX da CF/88 prevê expressamente que a lei estabelecerá os casos de contratação temporária para atender a necessidade de excepcional interesse público, dispensando o concurso público tradicional e viabilizando o Processo Seletivo Simplificado (PSS).  
-> - **D) Incorreta.** Conforme o art. 37, III da CF/88, o prazo de validade é de **até dois anos**, prorrogável uma única vez por igual período.  
-> - **E) Incorreta.** A investidura em cargo ou emprego público efetivo exige obrigatoriamente concurso público prévio (art. 37, II), sendo inconstitucional qualquer tentativa de efetivação sem certame republicano.  
-> 
-> **Gabarito: C**
-
----
-
-### Teste 436
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No processo de socialização organizacional (*onboarding*) dos novos servidores públicos ingressantes, John Van Maanen e Edgar Schein categorizam as táticas institucionais de socialização empregadas pela organização.
-
-A tática de socialização caracterizada por integrar os novatos em grupos que passam pelas mesmas experiências e trilhas formativas conjuntas, com um cronograma predeterminado de etapas de acolhimento e mentoria, é classificada como:
-
-* **A)** Coletiva, Formal e Sequencial.
-* **B)** Individual, Informal e Aleatória.
-* **C)** Desjuntiva, Isolada e Punitiva.
-* **D)** Reativa, Transitória e Descentralizada.
-* **E)** Cartorária, Regressiva e Desestruturada.
-
+* **A)** Desenvolver mecanismos de controle para gerenciar os riscos internos e externos da organização.
+* **B)** Promover a adesão dos colaboradores a um código de conduta específico para prevenir fraudes e corrupção.
+* **C)** Realizar auditorias independentes para detectar violações e garantir a conformidade com as políticas da organização.
+* **D)** Dar aval explícito e apoio incondicional como exemplo a ser seguido, reforçando o compromisso de transformar a cultura da organização.
+* **E)** Monitorar continuamente as operações da organização, garantindo a adaptação dos instrumentos e estruturas às novas demandas. Legislação Aplicável ao Tribunal de Contas do Estado do Piauí
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Táticas de socialização de Van Maanen e Schein: **Coletiva** (novatos acolhidos em turma/grupo, comum em cursos de formação de concursos públicos); **Formal** (atividades estruturadas de integração fora do posto de trabalho imediato); e **Sequencial** (etapas ordenadas e progressivas de aprendizado até a plena assunção do cargo).
-> - **B), C), D), E)** Incorretas. Representam táticas individualizadas, informais ou termos desconexos da taxonomia clássica.
-> 
+> - **A)** **Correta.** Conforme fundamentado na seção *Recrutamento Interno vs. Recrutamento Externo vs. Recrutamento Misto* deste guia, origem dos Candidatos: Colaboradores que já integram a instituição (promoções, relotações). — Candidatos externos disponíveis no mercado ou em outros órgãos. — Combina candidatos internos e externos na mesma disputa. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PI/2025) ao estabelecer que "Desenvolver mecanismos de controle para gerenciar os riscos internos e externos da organização".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Promover a adesão dos colaboradores a um código de conduta específico para prevenir fraudes e corrupção". De acordo com a teoria estudada em *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)*, 4. Desenvolver Pessoas: *Como capacitar e expandir o potencial?* — Diagnóstico de necessidades de treinamento (LNT), programas de capacitação, desenvolvimento gerencial, gestão do conhecimento e planos de carreira.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Realizar auditorias independentes para detectar violações e garantir a conformidade com as políticas da organização". De acordo com a teoria estudada em *3. Rotinas Administrativas do Departamento de Pessoal no Setor Público*, mesmo sob uma ótica estratégica, as rotinas operacionais de pessoal são indispensáveis para garantir a estrita legalidade e conformidade dos atos de gestão pública.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Dar aval explícito e apoio incondicional como exemplo a ser seguido, reforçando o compromisso de transformar a...". De acordo com a teoria estudada em *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)*, 5. Manter Pessoas: *Como reter os servidores e assegurar bem-estar?* — Clima e cultura organizacional, programas de Qualidade de Vida no Trabalho (QVT), higiene, ergonomia, medicina do trabalho e relações sindicais.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Monitorar continuamente as operações da organização, garantindo a adaptação dos instrumentos e estruturas às novas...". De acordo com a teoria estudada em *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)*, a Avaliação de Desempenho pertence ao macroprocesso de APLICAR PESSOAS (e NÃO a "Monitorar pessoas" nem a "Desenvolver pessoas"). Aplicar significa verificar o que as pessoas fazem e como estão desempenhando suas atribuições.
+>
 > **Gabarito: A**
+
+---
+
+### Teste 436
+**(FGV – TJ-RR – Analista Judiciario Gestao e Governanca de Tecnologia da Informacao – 2024)**
+Os princípios da gestão de qualidade incluem os seguintes, à exceção de um. Assinale-o.
+
+* **A)** Liderança.
+* **B)** Foco no cliente.
+* **C)** Envolvimento das pessoas.
+* **D)** Abordagem de processo.
+* **E)** Inovação estratégica.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Liderança". De acordo com a teoria estudada em *Comparativo Histórico: As Quatro Eras*, papel da Liderança: Fiscalização, vigilância e aplicação de punições regimentais. — Intermediação de acordos e gestão do cumprimento legal. — Supervisão hierárquica e controle burocrático de procedimentos. — Liderança coach, facilitação do desenvolvimento e delegação de autoridade (*empowerment*).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Foco no cliente". De acordo com a teoria estudada em *3. Rotinas Administrativas do Departamento de Pessoal no Setor Público*, mesmo sob uma ótica estratégica, as rotinas operacionais de pessoal são indispensáveis para garantir a estrita legalidade e conformidade dos atos de gestão pública.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Envolvimento das pessoas". De acordo com a teoria estudada em *Recrutamento Interno vs. Recrutamento Externo vs. Recrutamento Misto*, inovação Cultural: Risco de Endogamia Cultural (*Inbreeding*): cristaliza velhos hábitos e rotinas. — Renovação (*Sangue Novo*): agrega novos saberes e rompe paradigmas. — Permite conciliar estabilidade institucional e inovação.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Abordagem de processo". De acordo com a teoria estudada em *Comparativo Histórico: As Quatro Eras*, período Predominante: Início do século XX (Teoria Clássica / Taylorismo). — Décadas de 1930 a 1950 (Pós-Revolução de 30 / CLT). — Décadas de 1960 a 1980 (Abordagem Sistêmica / Contingencial). — Década de 1990 em diante (Era do Conhecimento).
+> - **E)** **Correta.** Conforme fundamentado na seção *1. Evolução Histórica dos Paradigmas de Gestão de Pessoas* deste guia, a administração do trabalho humano passou por profundas transformações ao longo dos séculos XX e XXI, transitando de uma visão puramente mecanicista e punitiva para uma abordagem estratégica voltada ao desenvolvimento de competências. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-RR/2024) ao estabelecer que "Inovação estratégica".
+>
+> **Gabarito: E**
 
 ---
 
@@ -480,30 +470,28 @@ flowchart LR
 ---
 
 ### Teste 437
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O processo de socialização organizacional compreende o conjunto de mecanismos pelos quais a instituição transmite sua cultura, crenças e normas aos novos colaboradores. Segundo a doutrina de comportamento organizacional e gestão de pessoas, o momento em que o servidor recém-empossado ingressa na repartição e depara-se com as rotinas práticas, confrontando suas expectativas prévias com a realidade fática do ambiente de trabalho, denomina-se:
+**(FGV – TJ-SC – Analista Administrativo – 2026)**
+Na empresa ABC, a área tradicionalmente denominada "Recursos Humanos" passa por ampla reformulação, refletindo o novo contexto organizacional marcado por mudanças vertiginosas, dinâmicas exponenciais e pela confluência de fatores econômicos, tecnológicos, sociais, culturais, legais, políticos, demográficos e ecológicos. A Diretoria avalia a substituição da nomenclatura por termos que melhor expressem os novos espaços, configurações e propósitos assumidos pela área. Considerando as transformações contemporâneas que afetam a Gestão de Pessoas, assinale a opção que apresenta uma terminologia compatível com essa reformulação.
 
-* **A)** Estágio de Metamorfose Cultural.
-* **B)** Fase de Encontro ou Confronto.
-* **C)** Socialização Prévia ou Antecipatória.
-* **D)** Recrutamento Passivo Instrumental.
-* **E)** Desinstitucionalização Funcional.
-
+* **A)** Gestão do Capital Intelectual.
+* **B)** Gestão de Suprimentos.
+* **C)** Gestão Patrimonial.
+* **D)** Gestão de Compliance.
+* **E)** Gestão Tributária.
 
 ---
 
-> **Comentário Detalhado:**  
+> **Comentário Detalhado:**
 >
-> - **A) Incorreta.** A metamorfose é a fase final, na qual o colaborador já ajustou suas atitudes, assimilou a cultura institucional e alcançou estabilidade funcional e produtiva.  
-> - **B) CORRETA.** A **fase de Encontro (ou Confronto)** ocorre precisamente no momento do ingresso formal na instituição. É nela que o indivíduo vivencia a realidade concreta da organização e confronta suas expectativas e idealizações prévias com as regras práticas, rotinas diárias e dinâmicas interpessoais da unidade. É a fase crítica onde programas de acolhimento e ambientação exercem papel fundamental.  
-> - **C) Incorreta.** A socialização prévia (ou antecipatória) ocorre antes da entrada do servidor no órgão, envolvendo o aprendizado de conhecimentos gerais e as expectativas construídas durante a fase preparatória de estudos.  
-> - **D) Incorreta.** Termo descabido; recrutamento é fase prévia de atração.  
-> - **E) Incorreta.** Desinstitucionalização refere-se ao rompimento de laços organizacionais e não ao processo de integração de novos servidores.  
-> 
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Gestão do Capital Intelectual". De acordo com a teoria estudada em *Pessoas como Recursos vs. Pessoas como Parceiras (Idalberto Chiavenato)*, pessoas como Parceiras (Capital Intelectual).
+> - **B)** **Correta.** Conforme fundamentado na seção *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)* deste guia, 1. Agregar Pessoas: *Quem deve ingressar na organização?* — Planejamento de recursos humanos, recrutamento (interno/externo), seleção de pessoas e concurso público. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-SC/2026) ao estabelecer que "Gestão de Suprimentos".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Gestão Patrimonial". De acordo com a teoria estudada em *Práticas Institucionais de Socialização no Setor Público*, programa de Boas-Vindas e Ambientação: Acolhida institucional pelos gestores e pela área de Gestão de Pessoas no primeiro dia de trabalho.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Gestão de Compliance". De acordo com a teoria estudada em *1. Evolução Histórica dos Paradigmas de Gestão de Pessoas*, a administração do trabalho humano passou por profundas transformações ao longo dos séculos XX e XXI, transitando de uma visão puramente mecanicista e punitiva para uma abordagem estratégica voltada ao desenvolvimento de competências.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Gestão Tributária". De acordo com a teoria estudada em *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)*, 3. Recompensar Pessoas: *Como remunerar e incentivar o trabalho?* — Remuneração direta (vencimento básico), remuneração indireta, gratificações, adicionais pecuniários e benefícios sociais.
+>
 > **Gabarito: B**
 
 ---
-
 
 #### Práticas Institucionais de Socialização no Setor Público
 
@@ -515,54 +503,49 @@ O processo de socialização organizacional compreende o conjunto de mecanismos 
 ---
 
 ### Teste 438
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na Administração Pública brasileira, o concurso público de provas ou de provas e títulos constitui o instrumento constitucional republicano por excelência para a investidura em cargo ou emprego público (art. 37, II da CF/88).
+**(FGV – TRT-24 – Analista Judiciario Area Administrativa Sem Especialidade – 2025)**
+A Qualidade de Vida no Trabalho (QVT) no setor público visa promover um ambiente organizacional saudável, equilibrado e motivador, que valorize o servidor, melhore o desempenho institucional e fortaleça o compromisso com o serviço à sociedade. Assinale a opção que apresenta corretamente um fator-chave da QVT no setor público, relacionado à satisfação de clientes internos e externos.
 
-A respeito das regras constitucionais do concurso público, é correto afirmar:
-
-* **A)** O prazo de validade do concurso público será de até dois anos, prorrogável uma vez, por igual período, e a convocação do aprovado durante a validade obedecerá estritamente à ordem de classificação.
-* **B)** A aprovação em concurso público gera sempre e em qualquer hipótese mera expectativa de direito, não assistindo ao candidato direito à nomeação mesmo quando aprovado dentro do número de vagas do edital.
-* **C)** É lícito ao Poder Público abrir novo concurso público para o mesmo cargo e prover todas as novas vagas antes de convocar os candidatos remanescentes aprovados no concurso anterior com prazo de validade ainda em vigor.
-* **D)** A fixação de limite de idade em edital independe de previsão em lei formal, bastando a conveniência discricionária do órgão.
-* **E)** A realização de concurso público é dispensável para a contratação de pessoal docente permanente em universidades públicas estaduais.
-
+* **A)** Compensação: associada à inovação, variedade e ritmo de trabalho.
+* **B)** Moral: envolve bonificações, benefícios sociais e participação nos lucros.
+* **C)** Organização do trabalho: relaciona-se à saúde ocupacional e à educação preventiva.
+* **D)** Participação: refere-se à criatividade, à expressão pessoal e aos programas de capacitação.
+* **E)** Comunicação: está ligada ao apoio psicossocial, à orientação técnica e ao gerenciamento pelo exemplo.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Literalidade do art. 37, incisos III e IV da CF/88: prazo de validade de até 2 anos, prorrogável uma vez por igual período; a ordem classificatória é inafastável.
-> - **B)** Incorreta. O STF já fixou tese vinculante (Tema 161 - RE 598.099) de que o candidato aprovado **dentro do número de vagas** do edital possui **direito subjetivo à nomeação** durante o prazo de validade.
-> - **C)** Incorreta. O art. 37, IV veda expressamente a preterição de candidatos de concurso válido.
-> - **D)** Incorreta. Súmula Vinculante nº 44 do STF: exigência de limite de idade só é válida se prevista expressamente em lei e justificada pela natureza das atribuições do cargo.
-> - **E)** Incorreta. Cargos efetivos em universidades exigem compulsoriamente concurso público.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Compensação: associada à inovação, variedade e ritmo de trabalho". De acordo com a teoria estudada em *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)*, 4. Desenvolver Pessoas: *Como capacitar e expandir o potencial?* — Diagnóstico de necessidades de treinamento (LNT), programas de capacitação, desenvolvimento gerencial, gestão do conhecimento e planos de carreira.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Moral: envolve bonificações, benefícios sociais e participação nos lucros". De acordo com a teoria estudada em *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)*, 3. Recompensar Pessoas: *Como remunerar e incentivar o trabalho?* — Remuneração direta (vencimento básico), remuneração indireta, gratificações, adicionais pecuniários e benefícios sociais.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Organização do trabalho: relaciona-se à saúde ocupacional e à educação preventiva". De acordo com a teoria estudada em *Práticas Institucionais de Socialização no Setor Público*, programa de Boas-Vindas e Ambientação: Acolhida institucional pelos gestores e pela área de Gestão de Pessoas no primeiro dia de trabalho.
+> - **D)** **Correta.** Conforme fundamentado na seção *2. Os Seis Processos da Gestão de Pessoas (Chiavenato)* deste guia, 5. Manter Pessoas: *Como reter os servidores e assegurar bem-estar?* — Clima e cultura organizacional, programas de Qualidade de Vida no Trabalho (QVT), higiene, ergonomia, medicina do trabalho e relações sindicais. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "Participação: refere-se à criatividade, à expressão pessoal e aos programas de capacitação".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Comunicação: está ligada ao apoio psicossocial, à orientação técnica e ao gerenciamento pelo exemplo". De acordo com a teoria estudada em *Técnicas de Seleção de Pessoas*, simulação de situações reais de trabalho, dramatizações (*role-playing*) e jogos de negócios para observar liderança, trabalho em equipe e comunicação interpessoal.
+>
+> **Gabarito: D**
 
 ---
 
 ### Teste 439
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No processo seletivo de pessoas, as técnicas de seleção devem apresentar dois requisitos psicométricos e metodológicos indispensáveis: **Validade** e **Confiabilidade (Fidedignidade)**.
+**(FCC – TCE-GO – Analista de Controle Externo Gestao de Conhecimento – 2009)**
+Nas atividades culturais realizadas no âmbito da biblioteca são utilizadas várias técnicas e instrumentos combinados. Na perspectiva da ação cultural, como proposta por José Teixeira Coelho Neto, essas atividades devem
 
-Diz-se que uma técnica ou teste de seleção possui alta **Validade** quando:
-
-* **A)** Mede com precisão exata aquilo que se propõe a medir e possui alto poder preditivo de prognosticar o desempenho futuro real do candidato no exercício do cargo.
-* **B)** Produz sempre as mesmas notas numéricas quando aplicada repetidas vezes à mesma pessoa em dias consecutivos.
-* **C)** Apresenta o menor custo financeiro de aplicação em relação ao orçamento disponível do departamento de recursos humanos.
-* **D)** É aplicada exclusivamente por meio de questionários digitais anônimos na internet.
-* **E)** Elimina mais de 90% dos candidatos na primeira etapa eliminatória.
-
+* **A)** alavancar a produção cultural, em que os participantes são sujeitos do processo.
+* **B)** ter princípio, meio e fim predeterminados, visando a realização de um produto.
+* **C)** partir de um projeto da instituição e envolver os usuários como seus receptores.
+* **D)** divertir o público e promover formas de lazer que incluam programas de leitura e de arte.
+* **E)** facilitar o uso de instalações e meios ao desenvolvimento de eventos culturais.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Em psicometria e seleção de pessoal: **Validade** é o grau em que o instrumento mede realmente o traço ou competência que pretende medir e a sua capacidade preditiva de antecipar o sucesso do candidato no cargo; já a **Confiabilidade (ou Fidedignidade)** é a consistência e reprodutibilidade dos resultados (aplicado várias vezes à mesma pessoa, gera pontuações semelhantes).
-> - **B)** Incorreta. Conceito referente à **Confiabilidade / Fidedignidade**.
-> - **C)** Incorreta. Refere-se à economicidade do processo seletivo.
-> - **D), E)** Incorretas. Distorções procedimentais sem relação com o conceito psicométrico de validade.
-> 
+> - **A)** **Correta.** Conforme fundamentado na seção *6. Processo de Socialização e Integração Organizacional (Onboarding)* deste guia, a socialização organizacional é o processo formativo e cultural por meio do qual o novo servidor aprende os valores essenciais, regras informais, jargões, posturas e competências exigidas pelo órgão. Dessa forma, está plenamente correta a assertiva da banca (FCC – TCE-GO/2009) ao estabelecer que "alavancar a produção cultural, em que os participantes são sujeitos do processo".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ter princípio, meio e fim predeterminados, visando a realização de um produto". De acordo com a teoria estudada em *As Três Etapas da Socialização Organizacional (Stephen Robbins)*, programas formais de acolhimento reduzem o risco de choque cultural traumático.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "partir de um projeto da instituição e envolver os usuários como seus receptores". De acordo com a teoria estudada em *Pessoas como Recursos vs. Pessoas como Parceiras (Idalberto Chiavenato)*, tratadas como elementos passivos e estáticos de produção.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "divertir o público e promover formas de lazer que incluam programas de leitura e de arte". De acordo com a teoria estudada em *Recrutamento Interno vs. Recrutamento Externo vs. Recrutamento Misto*, inovação Cultural: Risco de Endogamia Cultural (*Inbreeding*): cristaliza velhos hábitos e rotinas. — Renovação (*Sangue Novo*): agrega novos saberes e rompe paradigmas. — Permite conciliar estabilidade institucional e inovação.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "facilitar o uso de instalações e meios ao desenvolvimento de eventos culturais". De acordo com a teoria estudada em *Recrutamento Interno vs. Recrutamento Externo vs. Recrutamento Misto*, a FCC adora cobrar o fenômeno da endogamia organizacional (ou cultural).
+>
 > **Gabarito: A**
 
 ---

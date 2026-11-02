@@ -88,82 +88,73 @@ flowchart TD
 ---
 
 ### Teste 370
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Determinado Tribunal de Contas publicou seu Plano Estratégico com os seguintes enunciados institucionais:
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Administracao – 2024)**
+Avalie se as seguintes afirmativas a seguir, contidas no Planejamento Estratégico do TCE-PA, correspondem a um valor institucional, à missão da organização ou à visão da organização. I. Ser instituição de referência no controle externo e contribuir para o aperfeiçoamento da administração pública. II. Primar pela divulgação clara e acessível dos seus atos e dos decorrentes de sua missão. III. Exercer o controle externo da gestão de recursos públicos estaduais em benefício da sociedade. IV. Atuar com liberdade, imparcialidade e autonomia. As afirmativas referem-se, respectivamente, a
 
-I. "Garantir a adequada aplicação dos recursos públicos em benefício da sociedade por meio do controle externo tempestivo e orientador."  
-
-II. "Ser reconhecido pela sociedade, até o ano de 2030, como órgão de controle de excelência, moderno e indispensável à integridade governamental."  
-
-Nos termos da teoria do planejamento estratégico, os enunciados I e II correspondem, respectivamente, à:
-
-* **A)** Visão e Missão.
-* **B)** Missão e Valores.
-* **C)** Missão e Visão.
-* **D)** Meta Operacional e Diretriz Tática.
-* **E)** Valores e Visão.
-
+* **A)** valor, visão, missão e valor.
+* **B)** visão, missão, valor e valor.
+* **C)** visão, visão, missão e missão.
+* **D)** missão, visão, valor e visão.
+* **E)** visão, valor, missão e valor.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Inverte a ordem das definições essenciais de planejamento estratégico.
-> - **B) Incorreta.** Confunde a imagem de futuro projetada com valores éticos/comportamentais.
-> - **C) CORRETA.** O Enunciado I reflete a razão de ser primordial e a atuação pública no presente (**Missão**), enquanto o Enunciado II projeta a imagem-alvo aspiracional com marco temporal delimitado até 2030 (**Visão**).
-> - **D) Incorreta.** Declarações institucionais de cúpula não constituem metas operacionais ou diretrizes táticas.
-> - **E) Incorreta.** Classifica equivocadamente o propósito do órgão como princípios ou valores.
-> 
-> **Gabarito: C**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "valor, visão, missão e valor". De acordo com a teoria estudada em *1. A Tríade da Identidade Estratégica: Missão, Visão e Valores*, a construção da identidade organizacional representa o marco fundador do planejamento estratégico, orientando a tomada de decisão da alta cúpula até a base operacional.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "visão, missão, valor e valor". De acordo com a teoria estudada em *Quadro Analítico Comparativo:*, visão: Futuro (longo prazo delimitado). — O estado almejado; onde a instituição projeta e quer estar em um marco temporal futuro. — *"Ser reconhecido pela sociedade, até 2030, como referência nacional em inovação e eficácia no controle governamental."*.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "visão, visão, missão e missão". De acordo com a teoria estudada em *Quadro Analítico Comparativo:*, os valores institucionais atuam como balizas e limites éticos inderrogáveis. Nenhuma meta estratégica arrojada pode ser legitimamente cumprida se para tanto for violado qualquer valor ético fixado pela instituição.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "missão, visão, valor e visão". De acordo com a teoria estudada em *2. O Ciclo da Gestão Estratégica Integrada*, formulação Estratégica: Estabelecimento dos macro-objetivos, indicadores de desempenho, metas quantificadas e programas de ação prioritários alinhados à missão e visão.
+> - **E)** **Correta.** Conforme fundamentado na seção *Quadro Analítico Comparativo:* deste guia, missão: Presente (contínuo). — A razão de existir hoje; a entrega fundamental que justifica a existência do órgão perante a sociedade. — *"Exercer o controle externo com excelência, assegurando a regular aplicação dos recursos públicos em benefício da sociedade."*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "visão, valor, missão e valor".
+>
+> **Gabarito: E**
 
 ---
 
 ### Teste 371
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Ao formular seu planejamento plurianual, determinada defensoria pública incluiu expressamente em seu documento diretor os seguintes postulados: "Independência funcional, defesa irrestrita dos direitos humanos, transparência e urbanidade no atendimento aos cidadãos vulneráveis". Sob a perspectiva da teoria da administração estratégica, esses postulados representam:
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Ciencia de Dados – 2024)**
+Relacione os conceitos presentes na elaboração do Planejamento Estratégico de uma Organização, às suas respectivas definições. 1. Objetivos Estratégicos 2. Missão 3. Visão 4. Análise SWOT ( ) Definição de onde a empresa almeja estar no futuro. ( ) Realizar a análise do cenário competitivo de um negócio no mercado, através da identificação dos pontos fortes e fracos, assim como as oportunidades e ameaças. ( ) Norteia o planejamento estratégico e as tomadas de decisões, fazendo com que a execução das ações esteja sempre alinhada aos interesses da organização. ( ) Razão da empresa existir. Assinale a opção que indica a relação correta, na ordem apresentada.
 
-* **A)** A Visão de futuro da defensoria para os próximos dez anos.
-* **B)** As Metas táticas quantitativas dos núcleos regionais.
-* **C)** Os Valores institucionais que norteiam as condutas e estabelecem balizas éticas indeclináveis.
-* **D)** As Estratégias não realizadas do exercício anterior.
-* **E)** As Oportunidades captadas no ambiente externo através da análise PESTEL.
-
-
----
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** A Visão é uma imagem de futuro onde a instituição quer chegar, com prazo delimitado.  
-> - **B) Incorreta.** Metas táticas são alvos quantitativos mensuráveis (ex.: realizar 5.000 atendimentos).  
-> - **C) CORRETA.** Os princípios éticos, mandamentos morais e diretrizes de conduta que direcionam as atitudes dos membros de uma instituição e expressam o que é inegociável na cultura organizacional constituem os **Valores** da organização.  
-> - **D) Incorreta.** Estratégias não realizadas são planos que foram formalmente descontinuados.  
-> - **E) Incorreta.** Oportunidades são eventos externos favoráveis do mercado/ambiente político.  
-> 
-> **Gabarito: C**
-
----
-
-### Teste 372
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na definição da identidade corporativa e do referencial estratégico de um órgão de controle externo, a **Visão de Futuro** diferencia-se da **Missão Institucional** por:
-
-* **A)** Descrever a imagem mental do estado futuro desejado que a instituição almeja alcançar em determinado horizonte temporal (onde queremos chegar), enquanto a Missão define a razão de existir fundamental e o propósito perene de atuação presente do órgão (quem somos e para que servimos).
-* **B)** Estabelecer os princípios éticos inegociáveis que regem a conduta disciplinar dos servidores concursados.
-* **C)** Consistir em documento sigiloso e restrito à apreciação do Presidente do Tribunal.
-* **D)** Ter validade perpétua e imutável que não admite revisão nem mesmo em novos ciclos plurianuais de planejamento.
-* **E)** Focar exclusivamente na redução percentual dos gastos de custeio com passagens aéreas e combustíveis.
-
+* **A)** 2 – 4 – 1 – 3
+* **B)** 3 – 4 – 1 – 2
+* **C)** 1 – 4 – 3 – 2
+* **D)** 2 – 1 – 4 – 3
+* **E)** 3 – 1 – 4 – 2
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Conceituação clássica: **Missão** é a razão de ser fundamental da instituição, sua vocação e propósito permanente de existir perante a sociedade; **Visão** é o estado futuro almejado, a aspiração ambiciosa de longo prazo, aquilo que a organização pretende ser e como deseja ser reconhecida no futuro.
-> - **B)** Incorreta. Refere-se aos **Valores** organizacionais.
-> - **C)** Incorreta. A identidade estratégica deve ser amplamente divulgada e compartilhada.
-> - **D)** Incorreta. A Visão tem horizonte temporal determinado (ex.: "ser referência nacional até 2030") e é renovada a cada ciclo.
-> - **E)** Incorreta. Meta operacional pontual, não visão estratégica.
-> 
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2 – 4 – 1 – 3". De acordo com a teoria estudada em *A) Escolas Prescritivas (Normativas - Foco em prescrever o modelo ideal):*, enxerga a formulação como um processo de concepção mental deliberada cujo objetivo supremo é o ajuste (*fit*) essencial entre as capacidades internas da organização (Forças e Fraquezas) e as condições externas do ambiente (Oportunidades e Ameaças) – base da Matriz SWOT.
+> - **B)** **Correta.** Conforme fundamentado na seção *Quadro Analítico Comparativo:* deste guia, visão: Futuro (longo prazo delimitado). — O estado almejado; onde a instituição projeta e quer estar em um marco temporal futuro. — *"Ser reconhecido pela sociedade, até 2030, como referência nacional em inovação e eficácia no controle governamental."*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "3 – 4 – 1 – 2".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1 – 4 – 3 – 2". De acordo com a teoria estudada em *Quadro Analítico Comparativo:*, missão: Presente (contínuo). — A razão de existir hoje; a entrega fundamental que justifica a existência do órgão perante a sociedade. — *"Exercer o controle externo com excelência, assegurando a regular aplicação dos recursos públicos em benefício da sociedade."*.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2 – 1 – 4 – 3". De acordo com a teoria estudada em *1. A Tríade da Identidade Estratégica: Missão, Visão e Valores*, a construção da identidade organizacional representa o marco fundador do planejamento estratégico, orientando a tomada de decisão da alta cúpula até a base operacional.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3 – 1 – 4 – 2". De acordo com a teoria estudada em *2. O Ciclo da Gestão Estratégica Integrada*, diagnóstico Estratégico: Mapeamento sistemático do ambiente externo (oportunidades e ameaças incontroláveis) e do ambiente interno (forças e fraquezas controláveis), permitindo compreender a posição real da organização.
+>
+> **Gabarito: B**
+
+---
+
+### Teste 372
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Administracao – 2026)**
+Uma Secretaria Estadual de Educação iniciou um processo de planejamento estratégico. Na primeira reunião, a equipe responsável elaborou uma declaração descrevendo a razão de existir do órgão e o papel que ele desempenha perante a sociedade. Em seguida, definiu um conjunto de princípios éticos e comportamentais que deveriam orientar todas as decisões e ações dos servidores. Por fim, projetou uma situação futura desejada, indicando onde o órgão pretende chegar em um horizonte de dez anos. Conforme a literatura de planejamento estratégico aplicado às organizações públicas, os três elementos elaborados correspondem, respectivamente, a:
+
+* **A)** visão, missão e valores.
+* **B)** missão, visão e valores.
+* **C)** valores, missão e visão.
+* **D)** missão, valores e visão.
+* **E)** visão, valores e missão.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *1. A Tríade da Identidade Estratégica: Missão, Visão e Valores* deste guia, a construção da identidade organizacional representa o marco fundador do planejamento estratégico, orientando a tomada de decisão da alta cúpula até a base operacional. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "visão, missão e valores".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "missão, visão e valores". De acordo com a teoria estudada em *Quadro Analítico Comparativo:*, missão: Presente (contínuo). — A razão de existir hoje; a entrega fundamental que justifica a existência do órgão perante a sociedade. — *"Exercer o controle externo com excelência, assegurando a regular aplicação dos recursos públicos em benefício da sociedade."*.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "valores, missão e visão". De acordo com a teoria estudada em *Quadro Analítico Comparativo:*, visão: Futuro (longo prazo delimitado). — O estado almejado; onde a instituição projeta e quer estar em um marco temporal futuro. — *"Ser reconhecido pela sociedade, até 2030, como referência nacional em inovação e eficácia no controle governamental."*.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "missão, valores e visão". De acordo com a teoria estudada em *Quadro Analítico Comparativo:*, valores: Atemporal (permanente). — Os mandamentos morais e éticos inegociáveis que norteiam a conduta funcional e as decisões diárias. — *Ética, Transparência, Independência Funcional, Inovação, Tempestividade e Comprometimento Social.*.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "visão, valores e missão". De acordo com a teoria estudada em *2. O Ciclo da Gestão Estratégica Integrada*, formulação Estratégica: Estabelecimento dos macro-objetivos, indicadores de desempenho, metas quantificadas e programas de ação prioritários alinhados à missão e visão.
+>
 > **Gabarito: A**
 
 ---
@@ -191,29 +182,26 @@ flowchart TD
 ---
 
 ### Teste 373
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Henry Mintzberg, ao analisar a formação das estratégias organizacionais, contrapôs o modelo puramente racional e deliberado ao surgimento de estratégias não previstas.
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Administracao – 2024)**
+A gestão estratégica é um processo que abrange a definição e implementação de estratégias para alcançar objetivos organizacionais. Seus conceitos centrais incluem a análise do ambiente interno e externo, a formulação de planos estratégicos e a alocação eficaz de recursos para execução. Com relação à gestão estratégica, avalie as afirmativas a seguir: I. Na abordagem tradicional de formulação estratégica, o método mais utilizado é o prescritivo, originado da evolução das escolas de planejamento, gestão estratégica e posicionamento. II. Organizações menos focadas na sistematização das atividades de formulação estratégica têm adotado métodos descritivos, como os orientados às escolas de aprendizagem organizacional, à escola cognitiva e à escola empreendedora. III. Em condições imprevisíveis e dinâmicas, as organizações não precisam de métodos de resposta rápida às instabilidades futuras, nem de interação constante com stakeholders ou adaptação frequente. Está correto o que se afirma em
 
-Segundo Mintzberg, a **Estratégia Emergente** caracteriza-se por:
-
-* **A)** Surgir a partir de padrões consistentes de ação que emergem espontaneamente ao longo do tempo, em resposta a contingências, oportunidades e desafios imprevistos do ambiente, sem terem sido formalmente intencionadas no plano estratégico original.
-* **B)** Ser minuciosamente calculada pela alta administração em planos operacionais plurianuais de dez anos.
-* **C)** Exigir autorização prévia em emenda parlamentar na Lei de Diretrizes Orçamentárias.
-* **D)** Representar a parte do plano estratégico formal que foi integralmente abandonada e descartada pela equipe (*estratégia não realizada*).
-* **E)** Constituir violação do princípio da legalidade administrativa suscetível de anulação sumária.
-
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Para Mintzberg, a estratégia realizada é uma combinação de **estratégias deliberadas** (intenções originais que foram formalmente planejadas e executadas) e **estratégias emergentes** (padrões de ação que não foram planejados de antemão, mas surgiram na prática em resposta à dinâmica ambiental e acabaram sendo adotados com sucesso pela organização).
-> - **B)** Incorreta. Isso caracteriza a estratégia puramente planejada/deliberada.
-> - **C)** Incorreta. Conceito de administração estratégica, não de formalismo financeiro.
-> - **D)** Incorreta. O que é descartado chama-se *estratégia não realizada*.
-> - **E)** Incorreta. Estratégias emergentes expressam capacidade de adaptação e resiliência.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *B) Escolas Descritivas (Foco em descrever como a estratégia ocorre na prática real):*, escola Empreendedora: Enxerga a formulação estratégica como um processo visionário personalizado, centrado na intuição, experiência e liderança carismática do governante ou fundador.
+> - **B)** **Correta.** Conforme fundamentado na seção *2. O Ciclo da Gestão Estratégica Integrada* deste guia, implementação da Estratégia: Desdobramento tático-operacional, alocação de recursos financeiros pelo orçamento público (PPA, LDO e LOA), designação formal de responsáveis e governança das ações. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "I e II, apenas".
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *2. O Ciclo da Gestão Estratégica Integrada*, diagnóstico Estratégico: Mapeamento sistemático do ambiente externo (oportunidades e ameaças incontroláveis) e do ambiente interno (forças e fraquezas controláveis), permitindo compreender a posição real da organização.
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *2. O Ciclo da Gestão Estratégica Integrada*, formulação Estratégica: Estabelecimento dos macro-objetivos, indicadores de desempenho, metas quantificadas e programas de ação prioritários alinhados à missão e visão.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *A) Escolas Prescritivas (Normativas - Foco em prescrever o modelo ideal):*, enxerga a formulação como um processo de concepção mental deliberada cujo objetivo supremo é o ajuste (*fit*) essencial entre as capacidades internas da organização (Forças e Fraquezas) e as condições externas do ambiente (Oportunidades e Ameaças) – base da Matriz SWOT.
+>
+> **Gabarito: B**
 
 ---
 
@@ -242,50 +230,49 @@ flowchart LR
 ---
 
 ### Teste 374
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-De acordo com os conceitos desenvolvidos por Henry Mintzberg sobre a dinâmica da formulação e implementação estratégica, as ações e padrões de conduta que emergem espontaneamente na rotina operacional da organização, sem terem sido previamente previstos no plano formal deliberado pela cúpula, são denominadas:
+**(FCC – TRT-13 – Analista Judiciario Tecnologia da Informacao – 2014)**
+De acordo com as disposições contidas na Resolução no 70/2009 do Conselho Nacional de Justiça − CNJ, que dispõe sobre o Planejamento e a Gestão Estratégica no âmbito do Poder Judiciário,
 
-* **A)** Estratégias Pretendidas.
-* **B)** Estratégias Emergentes.
-* **C)** Estratégias Não Realizadas.
-* **D)** Estratégias Deliberadas.
-* **E)** Estratégias Mecanicistas.
-
-
----
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** A estratégia pretendida é o plano formal inicial traçado pela liderança.  
-> - **B) CORRETA.** Para Mintzberg, as **estratégias emergentes** são aquelas que não foram concebidas no plano formal deliberado, mas surgem espontaneamente da base organizacional a partir da resposta prática dos colaboradores a desafios e oportunidades cotidianas não previstos.  
-> - **C) Incorreta.** A estratégia não realizada é a parcela do plano que foi descartada ou abandonada.  
-> - **D) Incorreta.** A estratégia deliberada é o plano formal que foi executado exatamente conforme o planejado.  
-> - **E) Incorreta.** Categoria inexistente na taxonomia de Mintzberg.  
-> 
-> **Gabarito: B**
-
----
-
-### Teste 375
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na clássica obra *Safári de Estratégia*, Henry Mintzberg, Bruce Ahlstrand e Joseph Lampel classificam o pensamento estratégico em dez escolas, agrupadas em **Prescritivas** e **Descritivas**.
-
-Constitui uma escola de natureza tipicamente **Prescritiva** (normativa), voltada para prescrever *como a estratégia deve ser idealmente formulada*:
-
-* **A)** A Escola do Planejamento (que concebe a formação estratégica como um processo formal, decomposto em etapas sequenciais analíticas e detalhadas).
-* **B)** A Escola do Aprendizado (que vê a estratégia como um processo emergente e contínuo de experimentação).
-* **C)** A Escola do Poder (que compreende a estratégia como um processo de negociação e disputas políticas entre grupos).
-* **D)** A Escola Cultural (que enxerga a formação da estratégia como um processo coletivo enraizado em valores e crenças).
-* **E)** A Escola Ambiental (que trata a estratégia como uma resposta passiva e reativa às pressões ecológicas do contexto externo).
-
+* **A)** os Tribunais deverão elaborar seus respectivos planejamentos estratégicos, com abrangência, mínima, de 2(dois) anos.
+* **B)** são estabelecidos os objetivos estratégicos do Poder Judiciário, entre os quais se inserem imparcialidade e celeridade.
+* **C)** o Plano Estratégico Nacional fixa, para os Tribunais, as metas de curto, médio e longo prazo.
+* **D)** constitui missão do Poder Judiciário, fixada no Plano Estratégico Nacional, ser reconhecido pela sociedade como instrumento efetivo de justiça e equidade.
+* **E)** os planejamentos estratégicos dos Tribunais deverão conter, pelo menos, um indicador de resultado para cada objetivo estratégico.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. As três escolas **Prescritivas** (normativas - como deve ser formulada a estratégia) são: **Design** (estratégia como processo de concepção/ajuste SWOT), **Planejamento** (processo formal e sistemático de passos analíticos) e **Posicionamento** (processo analítico focado na indústria e concorrência - Porter). As demais escolas (Empreendedora, Cognitiva, Aprendizado, Poder, Cultural, Ambiental e Configuração) são **Descritivas** ou Integrativas (focam em como a estratégia realmente se desenvolve na prática).
-> - **B), C), D), E)** Incorretas. São todas escolas **Descritivas**.
-> 
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os Tribunais deverão elaborar seus respectivos planejamentos estratégicos, com abrangência, mínima, de 2(dois) anos". De acordo com a teoria estudada em *1. A Tríade da Identidade Estratégica: Missão, Visão e Valores*, a construção da identidade organizacional representa o marco fundador do planejamento estratégico, orientando a tomada de decisão da alta cúpula até a base operacional.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "são estabelecidos os objetivos estratégicos do Poder Judiciário, entre os quais se inserem imparcialidade e...". De acordo com a teoria estudada em *2. O Ciclo da Gestão Estratégica Integrada*, formulação Estratégica: Estabelecimento dos macro-objetivos, indicadores de desempenho, metas quantificadas e programas de ação prioritários alinhados à missão e visão.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o Plano Estratégico Nacional fixa, para os Tribunais, as metas de curto, médio e longo prazo". De acordo com a teoria estudada em *Quadro Analítico Comparativo:*, visão: Futuro (longo prazo delimitado). — O estado almejado; onde a instituição projeta e quer estar em um marco temporal futuro. — *"Ser reconhecido pela sociedade, até 2030, como referência nacional em inovação e eficácia no controle governamental."*.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "constitui missão do Poder Judiciário, fixada no Plano Estratégico Nacional, ser reconhecido pela sociedade como...". De acordo com a teoria estudada em *3. Estratégias Deliberadas vs. Estratégias Emergentes (Henry Mintzberg)*, estratégia Pretendida: O plano estratégico inicial concebido formalmente pela liderança institucional.
+> - **E)** **Correta.** Conforme fundamentado na seção *2. O Ciclo da Gestão Estratégica Integrada* deste guia, monitoramento e Controle: Acompanhamento tempestivo dos indicadores de resultado, identificação precoce de desvios e realização periódica de Reuniões de Avaliação da Estratégia (RAE) para calibragem de rotas. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-13/2014) ao estabelecer que "os planejamentos estratégicos dos Tribunais deverão conter, pelo menos, um indicador de resultado para cada...".
+>
+> **Gabarito: E**
+
+---
+
+### Teste 375
+**(FGV – TJ-SC – Analista Administrativo – 2026)**
+Henry Mintzberg, em estudo clássico sobre as atividades gerenciais, sistematizou as funções do administrador em dez papéis específicos, agrupados em três categorias: interpessoal, informacional e decisorial. Relacione os papéis específicos do administrador às respectivas categorias propostas por Mintzberg. Categoria Papel específico 1. Interpessoal ( ) Disseminação 2. Informacional ( ) Liderança 3. Decisorial ( ) Alocação de recursos ( ) Representação Assinale a opção que indica a relação correta, na ordem apresentada.
+
+* **A)** 1 – 2 – 3 – 1.
+* **B)** 2 – 1 – 3 – 1.
+* **C)** 2 – 3 – 1 – 2.
+* **D)** 3 – 1 – 2 – 3.
+* **E)** 1 – 3 – 2 – 1.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *3. Estratégias Deliberadas vs. Estratégias Emergentes (Henry Mintzberg)* deste guia, estratégia Pretendida: O plano estratégico inicial concebido formalmente pela liderança institucional. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-SC/2026) ao estabelecer que "1 – 2 – 3 – 1".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2 – 1 – 3 – 1". De acordo com a teoria estudada em *4. As Dez Escolas do Pensamento Estratégico (Safári de Estratégia)*, na consagrada obra *Safári de Estratégia*, Henry Mintzberg, Bruce Ahlstrand e Joseph Lampel organizaram a evolução do pensamento estratégico em dez escolas, categorizadas em prescritivas, descritivas e integrativas.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2 – 3 – 1 – 2". De acordo com a teoria estudada em *2. O Ciclo da Gestão Estratégica Integrada*, implementação da Estratégia: Desdobramento tático-operacional, alocação de recursos financeiros pelo orçamento público (PPA, LDO e LOA), designação formal de responsáveis e governança das ações.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3 – 1 – 2 – 3". De acordo com a teoria estudada em *3. Estratégias Deliberadas vs. Estratégias Emergentes (Henry Mintzberg)*, henry Mintzberg revolucionou os estudos de estratégia organizacional ao demonstrar que a estratégia executada na prática raramente corresponde de forma idêntica àquela planejada nos gabinetes da diretoria.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1 – 3 – 2 – 1". De acordo com a teoria estudada em *3. Estratégias Deliberadas vs. Estratégias Emergentes (Henry Mintzberg)*, estratégia Deliberada: A parcela das intenções estratégicas originais que foi executada exatamente como planejada.
+>
 > **Gabarito: A**
 
 ---
@@ -324,30 +311,28 @@ flowchart TD
 ---
 
 ### Teste 376
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Dentre as dez escolas do pensamento estratégico catalogadas na obra *Safári de Estratégia*, a Escola do Design destaca-se historicamente por defender que a estratégia deve ser concebida por meio de:
+**(FCC – TRT-16 – Analista Judiciario Tecnologia da Informacao – 2014)**
+Como consequência do processo de Planejamento Estratégico, as organizações produzem ou atualizam alguns componentes. Correlacione corretamente as colunas. Componente Conceito − característica − exemplo a Visão I Deve ser específico(a), mensurável, atingível, relevante e temporal b Missão II Fornece direcionamento para os próximos anos e orienta decisões estratégicas c Objetivo III Representa o produto ou serviço que a empresa faz, é a razão da existência. d Meta IV É um exemplo: Assegurar recursos orçamentários necessários à execução da estratégia. Está correta a correlação que consta em
 
-* **A)** Ensaios laboratoriais e simulações estocásticas operadas por inteligência artificial.
-* **B)** Um processo deliberado de ajuste e adequação mútua entre as capacidades internas da organização (forças e fraquezas) e as condições do ambiente externo (oportunidades e ameaças).
-* **C)** Jogos de barganha política e manobras coercitivas promovidas por sindicatos corporativos.
-* **D)** Respostas puramente passivas e reativas ditadas pelas forças demográficas e climáticas do ambiente ecológico.
-* **E)** Vieses cognitivos inconscientes e restrições biológicas da capacidade de memória dos diretores executivos.
-
+* **A)** a-III - b-IV - c-II - d-I
+* **B)** a-II - b-I - c-IV - d-III
+* **C)** a-III - b-I - c-II - d-IV
+* **D)** a-II - b-III - c-IV - d-I
+* **E)** a-II - b-III - c-I - d-IV
 
 ---
 
-> **Comentário Detalhado:**  
+> **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Simulações matemáticas pertencem a abordagens analíticas quantitativas ou de pesquisa operacional.  
-> - **B) CORRETA.** A **Escola do Design** é a escola clássica (pioneira nos anos 1960) que propõe a estratégia como um processo deliberado de concepção mental cujo núcleo é o **ajuste (*fit*)** essencial entre a análise interna da organização (pontos fortes e fracos) e a análise externa do ambiente (oportunidades e ameaças), constituindo a base conceitual da famosa matriz SWOT.  
-> - **C) Incorreta.** Jogos de barganha e política caracterizam a Escola do Poder.  
-> - **D) Incorreta.** Adaptação reativa às forças externas caracteriza a Escola Ambiental.  
-> - **E) Incorreta.** Vieses mentais e processos cerebrais caracterizam a Escola Cognitiva.  
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a-III - b-IV - c-II - d-I". De acordo com a teoria estudada em *Quadro Analítico Comparativo:*, missão: Presente (contínuo). — A razão de existir hoje; a entrega fundamental que justifica a existência do órgão perante a sociedade. — *"Exercer o controle externo com excelência, assegurando a regular aplicação dos recursos públicos em benefício da sociedade."*.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a-II - b-I - c-IV - d-III". De acordo com a teoria estudada em *Quadro Analítico Comparativo:*, componente: Dimensão Temporal — Foco Central — Exemplo Prático no Setor Público (TCE-GO).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a-III - b-I - c-II - d-IV". De acordo com a teoria estudada em *Quadro Analítico Comparativo:*, visão: Futuro (longo prazo delimitado). — O estado almejado; onde a instituição projeta e quer estar em um marco temporal futuro. — *"Ser reconhecido pela sociedade, até 2030, como referência nacional em inovação e eficácia no controle governamental."*.
+> - **D)** **Correta.** Conforme fundamentado na seção *1. A Tríade da Identidade Estratégica: Missão, Visão e Valores* deste guia, a construção da identidade organizacional representa o marco fundador do planejamento estratégico, orientando a tomada de decisão da alta cúpula até a base operacional. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-16/2014) ao estabelecer que "a-II - b-III - c-IV - d-I".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a-II - b-III - c-I - d-IV". De acordo com a teoria estudada em *B) Escolas Descritivas (Foco em descrever como a estratégia ocorre na prática real):*, escola do Poder: Enxerga a estratégia como um processo de negociação política, jogos de influência e coalizões entre grupos rivais pelo controle do orçamento e das decisões institucionais.
+>
+> **Gabarito: D**
 
 ---
-
 
 #### B) Escolas Descritivas (Foco em descrever como a estratégia ocorre na prática real):
 4. **Escola Empreendedora:** Enxerga a formulação estratégica como um processo visionário personalizado, centrado na intuição, experiência e liderança carismática do governante ou fundador.
@@ -368,74 +353,74 @@ Dentre as dez escolas do pensamento estratégico catalogadas na obra *Safári de
 ---
 
 ### Teste 377
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Em sua clássica taxonomia do pensamento estratégico exposta no livro *Safári de Estratégia*, Henry Mintzberg e colaboradores classificam as escolas da estratégia em prescritivas e descritivas. Dentre as escolas prescritivas, aquela que concebe a formulação estratégica como um processo analítico formal, decomposto em etapas sequenciais rígidas e operado prioritariamente por técnicos e analistas de planejamento, é a:
+**(FGV – TRT-24 – Tecnico Judiciario Area Administrativa Sem Especialidade – 2025)**
+A gestão de resultados na produção de serviços públicos visa aumentar a eficiência, a eficácia e a qualidade das políticas e ações governamentais, garantindo que os recursos públicos sejam utilizados de forma estratégica para gerar impacto positivo e valor para a sociedade. Assinale a opção que apresenta, corretamente, o fluxo lógico de um modelo de gestão de resultados.
 
-* **A)** Escola do Aprendizado.
-* **B)** Escola do Planejamento.
-* **C)** Escola Empreendedora.
-* **D)** Escola Cultural.
-* **E)** Escola do Poder.
-
+* **A)** O modelo inicia-se com o monitoramento do desempenho, seguido da definição dos objetivos estratégicos, indicadores de desempenho e metas, culminando com a formulação da missão da organização.
+* **B)** O diagnóstico do ambiente ocorre antes da definição da missão, permitindo que os objetivos estratégicos sejam adaptados conforme o monitoramento de desempenho.
+* **C)** A missão da organização é o ponto de partida do modelo, orientando o diagnóstico do ambiente, a definição de objetivos estratégicos, a criação de indicadores e metas, o monitoramento do desempenho e os planos de ação.
+* **D)** Os planos de ação são definidos antes do diagnóstico do ambiente, sendo revisados posteriormente com base nos indicadores de desempenho e metas estabelecidos.
+* **E)** O modelo segue uma lógica circular, sem início ou fim definidos, focando exclusivamente no monitoramento do desempenho como eixo central do processo.
 
 ---
 
-> **Comentário Detalhado:**  
+> **Comentário Detalhado:**
 >
-> - **A) Incorreta.** A Escola do Aprendizado é descritiva e concebe a estratégia emergindo de forma incremental ao longo do tempo.  
-> - **B) CORRETA.** A **Escola do Planejamento** (liderada por Igor Ansoff) é uma escola prescritiva que encara a estratégia como um processo altamente formalizado, programado e subdividido em etapas analíticas rígidas, com orçamentos detalhados preparados por planejadores profissionais da organização.  
-> - **C) Incorreta.** A Escola Empreendedora é descritiva e fundamenta-se na visão e intuição individual do líder.  
-> - **D) Incorreta.** A Escola Cultural é descritiva e baseia-se em crenças e valores coletivos.  
-> - **E) Incorreta.** A Escola do Poder é descritiva e foca em jogos políticos e disputas de recursos.  
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O modelo inicia-se com o monitoramento do desempenho, seguido da definição dos objetivos estratégicos, indicadores...". De acordo com a teoria estudada em *2. O Ciclo da Gestão Estratégica Integrada*, formulação Estratégica: Estabelecimento dos macro-objetivos, indicadores de desempenho, metas quantificadas e programas de ação prioritários alinhados à missão e visão.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O diagnóstico do ambiente ocorre antes da definição da missão, permitindo que os objetivos estratégicos sejam...". De acordo com a teoria estudada em *2. O Ciclo da Gestão Estratégica Integrada*, diagnóstico Estratégico: Mapeamento sistemático do ambiente externo (oportunidades e ameaças incontroláveis) e do ambiente interno (forças e fraquezas controláveis), permitindo compreender a posição real da organização.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A missão da organização é o ponto de partida do modelo, orientando o diagnóstico do ambiente, a definição de...". De acordo com a teoria estudada em *2. O Ciclo da Gestão Estratégica Integrada*, monitoramento e Controle: Acompanhamento tempestivo dos indicadores de resultado, identificação precoce de desvios e realização periódica de Reuniões de Avaliação da Estratégia (RAE) para calibragem de rotas.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os planos de ação são definidos antes do diagnóstico do ambiente, sendo revisados posteriormente com base nos...". De acordo com a teoria estudada em *A) Escolas Prescritivas (Normativas - Foco em prescrever o modelo ideal):*, escola do Planejamento: Liderada por H. Igor Ansoff. Concebe a formulação como um processo altamente formal, metódico e sequencial, desdobrado em manuais exaustivos, cronogramas e orçamentos operados por analistas de planejamento.
+> - **E)** **Correta.** Conforme fundamentado na seção *A) Escolas Prescritivas (Normativas - Foco em prescrever o modelo ideal):* deste guia, enxerga a formulação como um processo de concepção mental deliberada cujo objetivo supremo é o ajuste (*fit*) essencial entre as capacidades internas da organização (Forças e Fraquezas) e as condições externas do ambiente (Oportunidades e Ameaças) – base da Matriz SWOT. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "O modelo segue uma lógica circular, sem início ou fim definidos, focando exclusivamente no monitoramento do...".
+>
+> **Gabarito: E**
 
 ---
 
 ### Teste 378
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na elaboração do planejamento estratégico, a formulação dos **Valores Organizacionais** representa:
+**(CEBRASPE – TJ-RJ – Analista Judiciario Grupo Tecnologia da Informacao Analista de Negocios – 2021)**
+João, gestor responsável pelo planejamento estratégico de entidade pública, sempre pensa no futuro com a intenção de definir como é esperado que sua organização seja notada e reconhecida por colaboradores, clientes, fornecedores, concorrentes e sociedade. O pensamento de João se refere ao elemento do planejamento estratégico denominado
 
-* **A)** O conjunto de princípios, crenças fundamentais e padrões éticos de conduta compartilhados que orientam as decisões institucionais e definem as relações da organização com seus membros, parceiros e com a sociedade.
-* **B)** A estimativa do saldo orçamentário líquido da conta de capital no final de cada quadrimestre fiscal.
-* **C)** O cálculo do retorno econômico sobre os investimentos em obras rodoviárias estaduais.
-* **D)** A lista taxativa das penalidades disciplinares de demissão constantes do estatuto funcional.
-* **E)** O montante financeiro total de multas imputadas aos jurisdicionados pelo Tribunal de Contas.
-
+* **A)** valor a ser conquistado.
+* **B)** missão.
+* **C)** análise interna dos pontos fortes.
+* **D)** análise externa das oportunidades.
+* **E)** visão.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Os **Valores** compõem o núcleo axiológico e ético da cultura organizacional: estabelecem os limites morais, princípios de conduta, responsabilidade socioambiental, transparência e retidão que direcionam o comportamento de todos os integrantes da instituição na busca da missão e visão.
-> - **B), C), D), E)** Incorretas. Distorções que confundem "valores" axiológicos/éticos com conceitos puramente financeiros ou punitivos.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "valor a ser conquistado". De acordo com a teoria estudada em *Quadro Analítico Comparativo:*, os valores institucionais atuam como balizas e limites éticos inderrogáveis. Nenhuma meta estratégica arrojada pode ser legitimamente cumprida se para tanto for violado qualquer valor ético fixado pela instituição.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "missão". De acordo com a teoria estudada em *1. A Tríade da Identidade Estratégica: Missão, Visão e Valores*, a construção da identidade organizacional representa o marco fundador do planejamento estratégico, orientando a tomada de decisão da alta cúpula até a base operacional.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "análise interna dos pontos fortes". De acordo com a teoria estudada em *Quadro Analítico Comparativo:*, se o texto traz uma ambição de FUTURO com prazo determinado ("ser reconhecido até 2030 como centro de excelência"): trata-se de VISÃO.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "análise externa das oportunidades". De acordo com a teoria estudada em *2. O Ciclo da Gestão Estratégica Integrada*, diagnóstico Estratégico: Mapeamento sistemático do ambiente externo (oportunidades e ameaças incontroláveis) e do ambiente interno (forças e fraquezas controláveis), permitindo compreender a posição real da organização.
+> - **E)** **Correta.** Conforme fundamentado na seção *Quadro Analítico Comparativo:* deste guia, visão: Futuro (longo prazo delimitado). — O estado almejado; onde a instituição projeta e quer estar em um marco temporal futuro. — *"Ser reconhecido pela sociedade, até 2030, como referência nacional em inovação e eficácia no controle governamental."*. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TJ-RJ/2021) ao estabelecer que "visão".
+>
+> **Gabarito: E**
 
 ---
 
 ### Teste 379
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-O ciclo integrado de gestão estratégica nas organizações públicas envolve etapas encadeadas para garantir que as decisões não se restrinjam a documentos formais engavetados.
+**(CEBRASPE – TRT-8 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2016)**
+Na missão institucional descrita no planejamento estratégico de uma organização estabelece-se o propósito ou a razão para a sua existência; portanto, a essência do planejamento estratégico está em definir sua missão organizacional. A missão do Poder Judiciário, segundo a resolução em apreço, é
 
-A etapa do ciclo em que a alta direção e os comitês de governança comparam periodicamente o avanço real dos indicadores frente às metas estipuladas, promovendo os ajustes necessários no plano, denomina-se:
-
-* **A)** Monitoramento e Avaliação Estratégica.
-* **B)** Diagnóstico Ambiental Macro.
-* **C)** Formulação da Missão Corporativa.
-* **D)** Lançamento Tributário Vinculado.
-* **E)** Homologação de Parecer Prévio Orçamentário.
-
+* **A)** efetivar a prestação jurisdicional.
+* **B)** promover a responsabilidade socioambiental.
+* **C)** combater a corrupção.
+* **D)** realizar justiça.
+* **E)** promover a transparência e o controle social.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. O ciclo da gestão estratégica compreende: (1) Diagnóstico Estratégico; (2) Formulação da Estratégia (missão, visão, objetivos); (3) Implementação/Execução; e (4) **Monitoramento e Avaliação** (acompanhamento contínuo dos indicadores de desempenho, análise de desvios e adoção de ações corretivas tempestivas).
-> - **B), C)** Incorretas. Fases preliminares de diagnóstico e concepção.
-> - **D), E)** Incorretas. Atos de direito financeiro e controle externo que não se confundem com as fases do ciclo de gestão estratégica.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "efetivar a prestação jurisdicional". De acordo com a teoria estudada em *Quadro Analítico Comparativo:*, missão: Presente (contínuo). — A razão de existir hoje; a entrega fundamental que justifica a existência do órgão perante a sociedade. — *"Exercer o controle externo com excelência, assegurando a regular aplicação dos recursos públicos em benefício da sociedade."*.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "promover a responsabilidade socioambiental". De acordo com a teoria estudada em *3. Estratégias Deliberadas vs. Estratégias Emergentes (Henry Mintzberg)*, estratégia Pretendida: O plano estratégico inicial concebido formalmente pela liderança institucional.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "combater a corrupção". De acordo com a teoria estudada em *B) Escolas Descritivas (Foco em descrever como a estratégia ocorre na prática real):*, escola do Poder: Enxerga a estratégia como um processo de negociação política, jogos de influência e coalizões entre grupos rivais pelo controle do orçamento e das decisões institucionais.
+> - **D)** **Correta.** Conforme fundamentado na seção *1. A Tríade da Identidade Estratégica: Missão, Visão e Valores* deste guia, a construção da identidade organizacional representa o marco fundador do planejamento estratégico, orientando a tomada de decisão da alta cúpula até a base operacional. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT-8/2016) ao estabelecer que "realizar justiça".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "promover a transparência e o controle social". De acordo com a teoria estudada em *Quadro Analítico Comparativo:*, valores: Atemporal (permanente). — Os mandamentos morais e éticos inegociáveis que norteiam a conduta funcional e as decisões diárias. — *Ética, Transparência, Independência Funcional, Inovação, Tempestividade e Comprometimento Social.*.
+>
+> **Gabarito: D**
 
 ---
 

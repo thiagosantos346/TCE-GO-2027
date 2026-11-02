@@ -98,51 +98,50 @@ flowchart TD
 ---
 
 ### Teste 410
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A respeito da distinção conceitual entre Grupos de Trabalho e Equipes de Trabalho segundo a literatura especializada de comportamento organizacional, assinale a opção correta:
+**(FCC – TRT-6 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2012)**
+Para fazer um trabalho, um professor vai dividir os seus 86 alunos em 15 grupos, alguns formados por cinco, outros formados por seis alunos. Dessa forma, sendo C o número de grupos formados por cinco e S o número de grupos formados por seis alunos, o produto C⋅S será igual a
 
-* **A)** Em um grupo de trabalho, a responsabilidade pelos resultados é solidária e mútua entre todos os integrantes, inexistindo metas isoladas.
-* **B)** As equipes de trabalho caracterizam-se por apresentar sinergia positiva, na qual o desempenho coletivo conjunto é superior à soma das contribuições individuais isoladas.
-* **C)** Os grupos de trabalho dependem compulsoriamente de habilidades técnicas altamente complementares entre seus membros.
-* **D)** Em uma equipe de trabalho, a sinergia é sempre neutra, limitando-se os integrantes a trocar informações de rotina sem compromisso mútuo com as metas.
-* **E)** As equipes autogerenciadas são aquelas nas quais o gestor superior centraliza todas as decisões operacionais sem delegar autoridade aos membros.
-
-
----
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** A responsabilidade no grupo de trabalho é puramente individual; na equipe é que ela é mútua e compartilhada.  
-> - **B) CORRETA.** As **Equipes de Trabalho** caracterizam-se pela **sinergia positiva** ($1 + 1 > 2$), o que significa que o esforço coordenado e integrado dos membros resulta em um patamar de entrega e desempenho global muito superior à mera soma aritmética das ações individuais isoladas.  
-> - **C) Incorreta.** As habilidades complementares são requisito essencial das **equipes**, ao passo que nos grupos as habilidades são aleatórias.  
-> - **D) Incorreta.** A sinergia neutra e a mera troca de dados caracterizam os grupos, e não as equipes.  
-> - **E) Incorreta.** As equipes autogerenciadas possuem altíssima autonomia decisória, operando sem supervisão direta diária.  
-> 
-> **Gabarito: B**
-
----
-
-### Teste 411
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No Comportamento Organizacional, a distinção entre **Grupo de Trabalho** e **Equipe de Trabalho** é fundamental para a gestão de pessoas.
-
-Constitui característica essencial e distintiva de uma **Equipe de Trabalho** de alto desempenho:
-
-* **A)** A sinergia positiva gerada pelo esforço coordenado dos membros, resultando em um nível de desempenho coletivo maior do que a simples soma das contribuições individuais, com responsabilidade tanto individual quanto mútua.
-* **B)** A independência estrita de objetivos, de tal modo que o sucesso de um membro prescinda do esforço dos demais.
-* **C)** A concentração exclusiva das decisões na figura do chefe hierárquico formal, sem participação da equipe.
-* **D)** A inexistência de complementaridade de habilidades técnicas entre os colaboradores.
-* **E)** O foco exclusivo na produtividade individual isolada sem metas coletivas compartilhadas.
-
+* **A)** 56.
+* **B)** 54.
+* **C)** 50.
+* **D)** 44.
+* **E)** 36.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Diferença crucial: em um **Grupo de Trabalho**, o objetivo é apenas compartilhar informações e a sinergia é neutra (às vezes negativa), com responsabilidade apenas individual; em uma **Equipe de Trabalho**, há metas coletivas claras, habilidades complementares, responsabilidade mútua/compartilhada e **sinergia positiva** (o todo é superior à soma das partes).
-> - **B), C), D), E)** Incorretas. Descrevem grupos de trabalho tradicionais ou unidades individualizadas.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "56". De acordo com a teoria estudada em *1. Grupos de Trabalho versus Equipes de Trabalho*, a distinção teórica entre grupo e equipe de trabalho é um dos pilares mais frequentes em provas de Comportamento Organizacional.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "54". De acordo com a teoria estudada em *Tipologia das Equipes nas Organizações:*, em meros Grupos de Trabalho, a sinergia é neutra (a soma dos desempenhos individuais é apenas a soma aritmética de cada um) ou até negativa.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "50". De acordo com a teoria estudada em *2. O Modelo de Desenvolvimento de Grupos de Bruce Tuckman*, bruce Tuckman demonstrou que os grupos não nascem prontos e produtivos; eles atravessam cinco estágios sequenciais de maturação psicossocial.
+> - **D)** **Correta.** Conforme fundamentado na seção *Tipologia das Equipes nas Organizações:* deste guia, equipes de Resolução de Problemas: Grupos temporários formados por servidores do mesmo setor que se reúnem semanalmente para propor melhorias em processos e rotinas. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-6/2012) ao estabelecer que "44".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "36". De acordo com a teoria estudada em *Tabela Comparativa Analítica:*, dimensão: Grupo de Trabalho — Equipe de Trabalho.
+>
+> **Gabarito: D**
+
+---
+
+### Teste 411
+**(FGV – TJ-SC – Analista Administrativo – 2026)**
+A diretoria da empresa ABC tem ampliado o uso de equipes interfuncionais para tratar de questões organizacionais complexas. Para qualificar a atuação dessas equipes, a área de Gestão de Pessoas apresentou modelo analítico segundo o qual a dinâmica intergrupal é determinada pela conjugação de três grandes fatores: as características de cada grupo envolvido na interação, o contexto organizacional em que os grupos se inserem e as bases de interação por tarefa e por situação. Sobre cada um desses três fatores, a área esclareceu, em sua apresentação, que: I. as características do grupo abrangem personalidade e atributos individuais dos membros, tendências e disposições da ação grupal e composição, coesão, tamanho, normas e funções do grupo; II. o contexto organizacional abrange regras e procedimentos, história, tradições e cultura, sistemas de metas e recompensas e processos de tomada de decisão da organização; e III. as bases de interação por tarefa e por situação abrangem local, recursos, interdependência de tempo e objetivos, incerteza da tarefa e interdependência da tarefa. Está correto o que se afirma em
+
+* **A)** I, II e III.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** III, apenas.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *2. O Modelo de Desenvolvimento de Grupos de Bruce Tuckman*, desintegração / Encerramento (*Adjourning*): Aplica-se a equipes temporárias (forças-tarefa, comissões de concurso, grupos de trabalho). O foco desloca-se do alto rendimento para a conclusão das pendências, documentação final e dissolução formal do grupo.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *1. Grupos de Trabalho versus Equipes de Trabalho*, a distinção teórica entre grupo e equipe de trabalho é um dos pilares mais frequentes em provas de Comportamento Organizacional.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *2. O Modelo de Desenvolvimento de Grupos de Bruce Tuckman*, normatização (*Norming*): O conflito é superado, restabelecendo-se a harmonia. Desenvolvem-se relacionamentos estreitos, camaradagem e forte senso de coesão, formalizando-se as regras e expectativas mútuas de conduta.
+> - **D)** **Correta.** Conforme fundamentado na seção *2. O Modelo de Desenvolvimento de Grupos de Bruce Tuckman* deste guia, formação (*Forming*): Estágio caracterizado por grande incerteza quanto à missão, regras e papéis do grupo. Os integrantes exploram os limites e testam comportamentos para descobrir o que é aceitável. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-SC/2026) ao estabelecer que "II e III, apenas".
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III, apenas". De acordo com a teoria estudada em *Tipologia das Equipes nas Organizações:*, em meros Grupos de Trabalho, a sinergia é neutra (a soma dos desempenhos individuais é apenas a soma aritmética de cada um) ou até negativa.
+>
+> **Gabarito: D**
 
 ---
 
@@ -167,51 +166,50 @@ flowchart LR
 ---
 
 ### Teste 412
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-De acordo com o modelo de desenvolvimento de pequenos grupos concebido por Bruce Tuckman, o estágio em que surgem conflitos explícitos entre os participantes, disputas internas pelo controle do grupo e resistências à liderança formal pré-estabelecida é denominado:
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Administracao – 2024)**
+A pesquisa de comportamento organizacional beneficia-se amplamente das ciências comportamentais, proporcionando uma base robusta para teorias e práticas que melhoram os processos relacionados aos grupos. Assinale a opção que melhor identifica a ciência que contribui com estudos sobre poder, conflito e política organizacional.
 
-* **A)** Estágio de Formação (*Forming*).
-* **B)** Estágio de Tormenta ou Conflito (*Storming*).
-* **C)** Estágio de Normatização (*Norming*).
-* **D)** Estágio de Desempenho (*Performing*).
-* **E)** Estágio de Desintegração (*Adjourning*).
-
-
----
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** Formação é a fase inicial de reconhecimento mútuo e incerteza.  
-> - **B) CORRETA.** O estágio de **Tormenta (ou Conflito / *Storming*)** é caracterizado exatamente pelo surgimento de embates internos de poder e discordâncias quanto às regras; os participantes aceitam a existência do grupo, mas resistem ao controle exercido sobre eles e disputam a liderança até que a hierarquia de papéis se estabilize.  
-> - **C) Incorreta.** Normatização é a fase posterior em que a coesão é restabelecida e surgem regras claras.  
-> - **D) Incorreta.** Desempenho é a fase em que o grupo atinge a produtividade máxima e maturidade funcional.  
-> - **E) Incorreta.** Desintegração é a fase final de dissolução do grupo após a entrega dos resultados.  
-> 
-> **Gabarito: B**
-
----
-
-### Teste 413
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Bruce Tuckman propôs um modelo seminal que descreve os cinco estágios universais pelos quais passam os grupos e equipes ao longo de seu ciclo de desenvolvimento.
-
-O estágio em que o grupo supera conflitos internos de poder, estabelece coesão, define normas claras de convivência e desenvolve forte sentimento de identidade e camaradagem mútua é denominado:
-
-* **A)** Normatização (Norming).
-* **B)** Formação (Forming).
-* **C)** Conflito / Tempestade (Storming).
-* **D)** Desempenho (Performing).
-* **E)** Desintegração / Dissolução (Adjourning).
-
+* **A)** Ciência política.
+* **B)** Psicologia social.
+* **C)** Antropologia.
+* **D)** Sociologia
+* **E)** Economia.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Os 5 estágios de Tuckman: (1) **Formação (Forming)**: incerteza e orientação inicial; (2) **Tempestade/Conflito (Storming)**: disputas de liderança e atritos interpessoais; (3) **Normatização (Norming)**: estabelecimento de coesão, normas aceitas, alinhamento e regras de conduta; (4) **Desempenho (Performing)**: energia focada na execução produtiva da tarefa; (5) **Desintegração (Adjourning)**: conclusão e encerramento dos trabalhos.
-> - **B), C), D), E)** Incorretas. Referem-se a outros estágios do ciclo de Tuckman.
-> 
+> - **A)** **Correta.** Conforme fundamentado na seção *1. Grupos de Trabalho versus Equipes de Trabalho* deste guia, a distinção teórica entre grupo e equipe de trabalho é um dos pilares mais frequentes em provas de Comportamento Organizacional. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "Ciência política".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Psicologia social". De acordo com a teoria estudada em *3. Evolução das Teorias de Liderança e a Liderança Situacional*, a liderança é o processo social de exercer influência legítima e voluntária sobre indivíduos e grupos para direcioná-los ao alcance de metas.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Antropologia". De acordo com a teoria estudada em *2. O Modelo de Desenvolvimento de Grupos de Bruce Tuckman*, tormenta / Conflito (*Storming*): Estágio de atritos e resistências internas.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Sociologia". De acordo com a teoria estudada em *2. O Modelo de Desenvolvimento de Grupos de Bruce Tuckman*, normatização (*Norming*): O conflito é superado, restabelecendo-se a harmonia. Desenvolvem-se relacionamentos estreitos, camaradagem e forte senso de coesão, formalizando-se as regras e expectativas mútuas de conduta.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Economia". De acordo com a teoria estudada em *Tipologia das Equipes nas Organizações:*, equipes de Resolução de Problemas: Grupos temporários formados por servidores do mesmo setor que se reúnem semanalmente para propor melhorias em processos e rotinas.
+>
 > **Gabarito: A**
+
+---
+
+### Teste 413
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Administracao – 2024)**
+Liderança, poder e autoridade são conceitos interconectados que desempenham papéis cruciais na dinâmica das organizações e sociedades. A compreensão de como esses elementos funcionam e interagem é fundamental para a gestão eficaz e para a promoção de ambientes de trabalho produtivos e harmoniosos. Assinale a opção que descreve o poder exercido quando B reconhece que A possui conhecimento, experiência ou competência especial em uma determinada situação.
+
+* **A)** Poder legitimado.
+* **B)** Poder de referência.
+* **C)** Poder de perícia.
+* **D)** Poder coercitivo.
+* **E)** Poder de recompensa.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Poder legitimado". De acordo com a teoria estudada em *A Teoria da Liderança Situacional de Paul Hersey e Kenneth Blanchard:*, fALSO! A delegação só é correta e eficaz quando o liderado apresenta maturidade M4 (alta competência técnica e alta confiança). Se delegar a um servidor novato M1 (sem conhecimento das rotinas), haverá frustração e erro operacional grave.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Poder de referência". De acordo com a teoria estudada em *3. Evolução das Teorias de Liderança e a Liderança Situacional*, difere da chefia formal: o gerente/chefe possui autoridade formal outorgada pela hierarquia; o líder possui influência pessoal legitimada pelos liderados.
+> - **C)** **Correta.** Conforme fundamentado na seção *Tipologia das Equipes nas Organizações:* deste guia, equipes Autogerenciadas: Equipes autônomas com elevado poder decisório, que executam tarefas operacionais completas, elegem seus líderes rotativos e planejam suas próprias escalas de trabalho sem supervisão hierárquica direta constante. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "Poder de perícia".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Poder coercitivo". De acordo com a teoria estudada em *A Teoria da Liderança Situacional de Paul Hersey e Kenneth Blanchard:*, o gerente tem autoridade formal outorgada pelo cargo institucional; o líder possui influência pessoal e legítima conquistada pelo respeito, admiração e confiança das pessoas. Um chefe pode não ser líder, e um líder pode não ocupar cargo formal de chefia.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Poder de recompensa". De acordo com a teoria estudada em *2. O Modelo de Desenvolvimento de Grupos de Bruce Tuckman*, bruce Tuckman demonstrou que os grupos não nascem prontos e produtivos; eles atravessam cinco estágios sequenciais de maturação psicossocial.
+>
+> **Gabarito: C**
 
 ---
 
@@ -255,53 +253,50 @@ flowchart TD
 ---
 
 ### Teste 414
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A respeito da Teoria da Liderança Situacional proposta por Paul Hersey e Kenneth Blanchard, considere um grupo de servidores recém-aprovados em concurso público que acaba de ser lotado em uma gerência de fiscalização contábil. Os novos servidores apresentam grande entusiasmo e disposição para aprender, todavia desconhecem completamente as normas regimentais específicas e as ferramentas operacionais do sistema informatizado de controle externo (nível de maturidade M2). De acordo com a teoria, o estilo de liderança mais apropriado a ser adotado pelo gestor da unidade é:
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Administracao – 2024)**
+As primeiras experiências sobre liderança remontam à antiguidade, onde líderes eram frequentemente escolhidos com base em sua força, coragem e habilidade em batalha. Essas experiências iniciais lançaram as bases para os diversos estilos e teorias de liderança que se desenvolveriam nos séculos seguintes, à medida que as sociedades se tornavam mais complexas e organizadas. Assinale a opção que descreve a liderança democrática.
 
-* **A)** Estilo de Delegação (baixo comportamento de tarefa e baixo comportamento de relacionamento).
-* **B)** Estilo de Persuasão / Orientação (alto comportamento de tarefa e alto comportamento de relacionamento).
-* **C)** Estilo de Não Intervenção / Laissez-Faire (isenção de qualquer comando diretivo ou cobrança de metas).
-* **D)** Estilo Apoiador Exclusivo (baixo comportamento de tarefa e alto comportamento de relacionamento).
-* **E)** Estilo de Imposição Burocrática Inflexível sem concessão de explicações pedagógicas.
-
-
----
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** Delegar (E4) aplica-se exclusivamente a liderados com maturidade M4 (altamente competentes e autônomos).  
-> - **B) CORRETA.** No modelo de Hersey e Blanchard, liderados com nível de prontidão **M2** (possuem entusiasmo e motivação, mas ainda não têm competência técnica prática consolidada) exigem o estilo **E2 - Persuadir / Orientar / Vender**, que combina **alto comportamento de tarefa** (o líder ensina, direciona e dá instruções de trabalho) com **alto comportamento de relacionamento** (o líder apoia, dialoga e mantém acesa a motivação do servidor).  
-> - **C) Incorreta.** Laissez-faire é a ausência de liderança, prejudicial para iniciantes.  
-> - **D) Incorreta.** O estilo apoiador (E3) destina-se a pessoas aptas tecnicamente, mas inseguras (M3).  
-> - **E) Incorreta.** O mero autoritarismo mina a motivação e não transmite competência.  
-> 
-> **Gabarito: B**
-
----
-
-### Teste 415
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na Teoria da Liderança Situacional formulada por Paul Hersey e Kenneth Blanchard, o estilo de liderança mais eficaz não é fixo, mas depende do nível de **prontidão (ou maturidade)** dos liderados para desempenhar uma tarefa específica.
-
-Quando os liderados apresentam **baixa competência e alto comprometimento/motivação** (estágio de maturidade M1), o estilo de liderança mais indicado pelo modelo é:
-
-* **A)** Determinar / Direcionar (E1 - Direção), caracterizado por alto comportamento para a tarefa e baixo comportamento para o relacionamento (instruções claras e supervisão estrita).
-* **B)** Delegar (E4 - Delegação), retirando toda a supervisão e deixando o liderado agir por conta própria.
-* **C)** Apoiar / Participar (E3 - Apoio), com foco exclusivo em suporte afetivo e baixa orientação sobre como executar a tarefa.
-* **D)** Autocracia repressiva punitiva com ameaça de abertura de processo administrativo.
-* **E)** Demissão sumária por insuficiência de capacitação técnica.
-
+* **A)** O líder ajusta seu comportamento e estratégias de liderança com base na maturidade e motivação dos seguidores.
+* **B)** O líder ajusta seu comportamento e estratégias de liderança com base nas exigências da tarefa.
+* **C)** O líder dá ordens claras e espera obediência inquestionável, com pouca contribuição dos membros da equipe.
+* **D)** O líder fornece pouca ou nenhuma orientação direta e permite que os membros do grupo tomem decisões.
+* **E)** O líder é atuante, consultivo, define objetivos e orienta as decisões a serem tomadas em conjunto com os subordinados.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. No modelo de Hersey e Blanchard: para subordinados **M1** (iniciantes entusiastas, com baixa competência na tarefa, mas dispostos), o líder deve adotar o estilo **E1 - Direcionar/Determinar** (alto foco na tarefa e baixo em relacionamento): define papéis, ensina o passo a passo, dá instruções detalhadas e monitora o cumprimento.
-> - **B)** Incorreta. Delegação (E4) exige maturidade máxima (M4 - alta competência e alto comprometimento).
-> - **C)** Incorreta. Apoiar (E3) aplica-se a liderados com alta competência, mas segurança/motivação vacilante (M3).
-> - **D), E)** Incorretas. Não fazem parte dos pressupostos teóricos do modelo situacional.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O líder ajusta seu comportamento e estratégias de liderança com base na maturidade e motivação dos seguidores". De acordo com a teoria estudada em *Os Quatro Pilares da Liderança Transformacional (Bernard Bass - Os "4 Is"):*, motivação Inspiradora: O líder comunica uma visão estimulante do futuro com entusiasmo e energia contagiante, demonstrando como o esforço de cada analista contribui para um propósito grandioso.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O líder ajusta seu comportamento e estratégias de liderança com base nas exigências da tarefa". De acordo com a teoria estudada em *Os Quatro Pilares da Liderança Transformacional (Bernard Bass - Os "4 Is"):*, influência Idealizada (Carisma): O líder atua como modelo ético e moral a ser imitado, despertando orgulho institucional, respeito incondicional e lealdade nos subordinados.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O líder dá ordens claras e espera obediência inquestionável, com pouca contribuição dos membros da equipe". De acordo com a teoria estudada em *A) Direções dos Fluxos de Comunicação:*, fluxo Descendente (Top-Down): Da cúpula para a base (diretrizes estratégicas, políticas regimentais, ordens de serviço e memorandos de chefia).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O líder fornece pouca ou nenhuma orientação direta e permite que os membros do grupo tomem decisões". De acordo com a teoria estudada em *Tipologia das Equipes nas Organizações:*, equipes Autogerenciadas: Equipes autônomas com elevado poder decisório, que executam tarefas operacionais completas, elegem seus líderes rotativos e planejam suas próprias escalas de trabalho sem supervisão hierárquica direta constante.
+> - **E)** **Correta.** Conforme fundamentado na seção *A Teoria da Liderança Situacional de Paul Hersey e Kenneth Blanchard:* deste guia, questão favorita da banca: afirmar que "o líder exemplar deve sempre adotar o estilo de delegação, conferindo autonomia ampla a todos os servidores subordinados". Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "O líder é atuante, consultivo, define objetivos e orienta as decisões a serem tomadas em conjunto com os...".
+>
+> **Gabarito: E**
+
+---
+
+### Teste 415
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Ciencias da Computacao Sistemas de Informacao – 2026)**
+No cronograma de implementação de um novo portal do cidadão, o Auditor identifica duas tarefas: “A - Configurar Servidores” (4 dias) e “B - Desenvolver Front-end” (6 dias). Ambas começam no dia 1. A tarefa “C - Testes Integrados” (2 dias) só pode começar após A e B terminarem. Assinale a opção que indica a folga da tarefa A e a tarefa que pertence ao Caminho Crítico desse projeto.
+
+* **A)** Folga de 2 dias para a tarefa A; tarefa B pertence ao Caminho Crítico.
+* **B)** Folga de 0 dias para a tarefa A; tarefa A pertence ao Caminho Crítico.
+* **C)** Folga de 1 dia para a tarefa B; tarefas A e C pertencem ao Caminho Crítico.
+* **D)** Folga de 4 dias para a tarefa A; tarefa C não pertence ao Caminho Crítico.
+* **E)** Todas as tarefas possuem folga zero; não há tarefa que pertença ao Caminho Crítico.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Folga de 2 dias para a tarefa A; tarefa B pertence ao Caminho Crítico". De acordo com a teoria estudada em *A Teoria da Liderança Situacional de Paul Hersey e Kenneth Blanchard:*, o gerente tem autoridade formal outorgada pelo cargo institucional; o líder possui influência pessoal e legítima conquistada pelo respeito, admiração e confiança das pessoas. Um chefe pode não ser líder, e um líder pode não ocupar cargo formal de chefia.
+> - **B)** **Correta.** Conforme fundamentado na seção *2. O Modelo de Desenvolvimento de Grupos de Bruce Tuckman* deste guia, desintegração / Encerramento (*Adjourning*): Aplica-se a equipes temporárias (forças-tarefa, comissões de concurso, grupos de trabalho). O foco desloca-se do alto rendimento para a conclusão das pendências, documentação final e dissolução formal do grupo. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "Folga de 0 dias para a tarefa A; tarefa A pertence ao Caminho Crítico".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Folga de 1 dia para a tarefa B; tarefas A e C pertencem ao Caminho Crítico". De acordo com a teoria estudada em *Tipologia das Equipes nas Organizações:*, equipes Autogerenciadas: Equipes autônomas com elevado poder decisório, que executam tarefas operacionais completas, elegem seus líderes rotativos e planejam suas próprias escalas de trabalho sem supervisão hierárquica direta constante.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Folga de 4 dias para a tarefa A; tarefa C não pertence ao Caminho Crítico". De acordo com a teoria estudada em *A Teoria da Liderança Situacional de Paul Hersey e Kenneth Blanchard:*, questão favorita da banca: afirmar que "o líder exemplar deve sempre adotar o estilo de delegação, conferindo autonomia ampla a todos os servidores subordinados".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Todas as tarefas possuem folga zero; não há tarefa que pertença ao Caminho Crítico". De acordo com a teoria estudada em *2. O Modelo de Desenvolvimento de Grupos de Bruce Tuckman*, desempenho (*Performing*): O grupo atinge sua plena maturidade funcional. A energia dos participantes não é mais desperdiçada em disputas interpessoais, canalizando-se diretamente para a execução com excelência das tarefas e projetos.
+>
+> **Gabarito: B**
 
 ---
 
@@ -323,27 +318,26 @@ flowchart LR
 ---
 
 ### Teste 416
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No âmbito dos estudos sobre liderança nas organizações contemporâneas, o modelo de Liderança Transformacional diferencia-se da Liderança Transacional fundamentalmente porque:
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Administracao – 2026)**
+O modelo PODC (Planejar, Organizar, Dirigir e Controlar) consolidou-se como referência na teoria administrativa moderna, incorporando e reinterpretando as funções originalmente sistematizadas por Fayol. Cada função do modelo corresponde a um conjunto específico de atividades gerenciais. Assinale a opção que apresenta uma associação correta entre atividade gerencial e função do PODC.
 
-* **A)** A liderança transformacional fundamenta-se estritamente na concessão de incentivos financeiros contingentes ao atingimento das metas contratuais acordadas.
-* **B)** O líder transformacional inspira e estimula seus seguidores a transcenderem seus interesses individuais em prol da missão e dos valores superiores da organização, promovendo profundas mudanças culturais.
-* **C)** A liderança transacional rejeita qualquer tipo de recompensa ou cobrança de cumprimento de rotinas operacionais.
-* **D)** O líder transformacional restringe sua atuação à gestão por exceção, intervindo unicamente quando ocorrem falhas graves na linha de montagem.
-* **E)** A liderança transformacional é restrita a estruturas organizacionais mecanicistas e lineares do setor militar.
-
+* **A)** Mensurar resultados, identificar desvios e adotar medidas corretivas vinculam-se à função de organizar.
+* **B)** Alocar pessoas, distribuir tarefas e estruturar recursos materiais vinculam-se à função de dirigir.
+* **C)** Liderar equipes, orientar comportamentos e estimular o engajamento vinculam-se à função de controlar.
+* **D)** Definir metas, antecipar cenários e estabelecer programas de ação vinculam-se à função de planejar.
+* **E)** Harmonizar esforços coletivos e sincronizar atividades vinculam-se à função de organizar.
 
 ---
 
-> **Comentário Detalhado:**  
+> **Comentário Detalhado:**
 >
-> - **A) Incorreta.** O uso de incentivos pecuniários contingentes por metas pactuadas caracteriza a liderança **transacional**.  
-> - **B) CORRETA.** A **Liderança Transformacional** vai além da troca transacional imediata; por meio dos quatro pilares clássicos (carisma, consideração individualizada, inspiração motivacional e estimulação intelectual), o líder transformacional motiva os seguidores a superarem seus interesses individuais em benefício do propósito coletivo da instituição, fomentando transformações culturais perenes.  
-> - **C) Incorreta.** A liderança transacional apoia-se exatamente na cobrança de rotinas e trocas formais de incentivos.  
-> - **D) Incorreta.** Gestão por exceção é atributo típico da liderança **transacional**.  
-> - **E) Incorreta.** A liderança transformacional é amplamente aplicada e valorizada em órgãos públicos modernos e democráticos.  
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Mensurar resultados, identificar desvios e adotar medidas corretivas vinculam-se à função de organizar". De acordo com a teoria estudada em *A Teoria da Liderança Situacional de Paul Hersey e Kenneth Blanchard:*, questão favorita da banca: afirmar que "o líder exemplar deve sempre adotar o estilo de delegação, conferindo autonomia ampla a todos os servidores subordinados".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Alocar pessoas, distribuir tarefas e estruturar recursos materiais vinculam-se à função de dirigir". De acordo com a teoria estudada em *A Teoria da Liderança Situacional de Paul Hersey e Kenneth Blanchard:*, o gerente tem autoridade formal outorgada pelo cargo institucional; o líder possui influência pessoal e legítima conquistada pelo respeito, admiração e confiança das pessoas. Um chefe pode não ser líder, e um líder pode não ocupar cargo formal de chefia.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Liderar equipes, orientar comportamentos e estimular o engajamento vinculam-se à função de controlar". De acordo com a teoria estudada em *2. O Modelo de Desenvolvimento de Grupos de Bruce Tuckman*, formação (*Forming*): Estágio caracterizado por grande incerteza quanto à missão, regras e papéis do grupo. Os integrantes exploram os limites e testam comportamentos para descobrir o que é aceitável.
+> - **D)** **Correta.** Conforme fundamentado na seção *Tabela Comparativa Analítica:* deste guia, objetivo Central: Compartilhar informações e tomar decisões para apoiar o desempenho individual de cada membro. — Desempenho coletivo e entrega conjunta de metas institucionais comuns. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "Definir metas, antecipar cenários e estabelecer programas de ação vinculam-se à função de planejar".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Harmonizar esforços coletivos e sincronizar atividades vinculam-se à função de organizar". De acordo com a teoria estudada em *3. Evolução das Teorias de Liderança e a Liderança Situacional*, a liderança é o processo social de exercer influência legítima e voluntária sobre indivíduos e grupos para direcioná-los ao alcance de metas.
+>
+> **Gabarito: D**
 
 ---
 
@@ -382,77 +376,74 @@ flowchart LR
 ---
 
 ### Teste 417
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Durante a elaboração de um relatório de fiscalização, determinado analista deliberadamente omitiu informações cruciais sobre irregularidades graves na conservação da malha rodoviária, selecionando e apresentando apenas dados favoráveis à concessionária, com o objetivo expresso de evitar atritos com seu superior hierárquico e fazer com que o documento parecesse positivo. No processo de comunicação organizacional, a conduta desse servidor materializa a barreira denominada:
+**(FGV – TRT-24 – Tecnico Judiciario Area Administrativa Sem Especialidade – 2025)**
+A função administrativa de direção está relacionada com a maneira pela qual os objetivos devem ser alcançados, isto é, por meio da atividade das pessoas e da aplicação dos recursos que compõem a organização. Assinale a opção que apresenta, corretamente, a função da direção.
 
-* **A)** Sobrecarga informacional.
-* **B)** Filtragem da informação.
-* **C)** Barreira de decodificação receptiva.
-* **D)** Ruído semântico involuntário.
-* **E)** Percepção sensorial dilatada.
-
+* **A)** A direção é uma função impessoal, sem relação direta com a interação entre o administrador e seus subordinados, focando exclusivamente nas metas organizacionais.
+* **B)** A direção é a função responsável pela comunicação e pela motivação, essenciais para garantir a eficácia do planejamento e da organização, e está intimamente ligada ao relacionamento interpessoal entre o administrador e a equipe.
+* **C)** A direção não requer habilidades interpessoais, uma vez que ela se baseia apenas em aspectos técnicos e operacionais da organização.
+* **D)** A direção é a função que pode ser substituída pela organização, pois as duas funções têm objetivos semelhantes em termos de influenciar o comportamento das pessoas dentro da organização.
+* **E)** A direção é uma função simples, pois se baseia apenas no controle das tarefas executadas pelos subordinados, sem necessidade de liderança ou motivação.
 
 ---
 
-> **Comentário Detalhado:**  
+> **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Sobrecarga ocorre quando o volume de dados ultrapassa a capacidade de processamento mental.  
-> - **B) CORRETA.** A **Filtragem** é a manipulação deliberada da mensagem pelo emissor para que ela seja vista de modo mais favorável pelo receptor (muito comum em organizações hierarquizadas quando o subordinado omite más notícias para agradar a chefia ou não se indispor com superiores).  
-> - **C) Incorreta.** A omissão partiu do emissor no momento do envio, e não da decodificação pelo receptor.  
-> - **D) Incorreta.** Ruídos semânticos dizem respeito a palavras ambíguas ou jargões incompreendidos, sem má-fé deliberada.  
-> - **E) Incorreta.** Conceito sem pertinência técnica com o processo de comunicação.  
-> 
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "A direção é uma função impessoal, sem relação direta com a interação entre o administrador e seus subordinados...". De acordo com a teoria estudada em *Os Quatro Pilares da Liderança Transformacional (Bernard Bass - Os "4 Is"):*, influência Idealizada (Carisma): O líder atua como modelo ético e moral a ser imitado, despertando orgulho institucional, respeito incondicional e lealdade nos subordinados.
+> - **B)** **Correta.** Conforme fundamentado na seção *A) Direções dos Fluxos de Comunicação:* deste guia, fluxo Ascendente (Bottom-Up): Da base operacional para a alta direção (relatórios de fiscalização, sugestões de melhoria, queixas e pedidos de esclarecimento). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "A direção é a função responsável pela comunicação e pela motivação, essenciais para garantir a eficácia do...".
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "A direção não requer habilidades interpessoais, uma vez que ela se baseia apenas em aspectos técnicos e...". De acordo com a teoria estudada em *Tabela Comparativa Analítica:*, habilidades: Aleatórias, sobrepostas ou desarticuladas. — Complementares (conhecimentos técnicos diversos que se completam).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A direção é a função que pode ser substituída pela organização, pois as duas funções têm objetivos semelhantes em...". De acordo com a teoria estudada em *A Teoria da Liderança Situacional de Paul Hersey e Kenneth Blanchard:*, o gerente tem autoridade formal outorgada pelo cargo institucional; o líder possui influência pessoal e legítima conquistada pelo respeito, admiração e confiança das pessoas. Um chefe pode não ser líder, e um líder pode não ocupar cargo formal de chefia.
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "A direção é uma função simples, pois se baseia apenas no controle das tarefas executadas pelos subordinados, sem...". De acordo com a teoria estudada em *Os Quatro Pilares da Liderança Transformacional (Bernard Bass - Os "4 Is"):*, motivação Inspiradora: O líder comunica uma visão estimulante do futuro com entusiasmo e energia contagiante, demonstrando como o esforço de cada analista contribui para um propósito grandioso.
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 418
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na moderna literatura sobre liderança, Bernard Bass consagrou a contraposição entre **Liderança Transacional** e **Liderança Transformacional**.
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Administracao – 2026)**
+A administração está presente tanto na vida cotidiana quanto na das organizações, manifestando-se na forma como recursos são combinados, decisões são tomadas e esforços são coordenados para que objetivos sejam alcançados. Com base nessa compreensão, é correto afirmar que administrar significa
 
-Constitui característica marcante da **Liderança Transformacional**:
-
-* **A)** Inspirar e motivar os liderados a transcender seus interesses individuais em prol da missão coletiva da organização, estimulando a inovação, o questionamento construtivo e o desenvolvimento pessoal por meio da consideração individualizada e do estímulo intelectual.
-* **B)** Basear-se exclusivamente em trocas contratuais de curto prazo, onde o líder apenas concede recompensas financeiras em troca do cumprimento estrito de metas.
-* **C)** Utilizar primordialmente a gestão por exceção passiva, intervindo apenas quando falhas graves já ocorreram.
-* **D)** Concentrar todo o poder e evitar que os servidores desenvolvam pensamento crítico autônomo.
-* **E)** Punir severamente os liderados que apresentarem ideias inovadoras contrárias aos regulamentos tradicionais.
-
+* **A)** seguir um conjunto fixo de regras e procedimentos operacionais, garantindo uniformidade nas ações.
+* **B)** supervisionar diretamente os colaboradores, assegurando o cumprimento de tarefas previamente estabelecidas.
+* **C)** aplicar técnicas padronizadas de gestão, independentemente do contexto organizacional em que se atua.
+* **D)** executar rotinas funcionais voltadas ao atendimento de demandas internas da organização.
+* **E)** tomar decisões de forma contínua, coordenando recursos e esforços com vistas ao alcance de resultados.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. A **Liderança Transformacional** fundamenta-se nos quatro pilares clássicos ("Os 4 Is" de Bass): Influência Idealizada (carisma e credibilidade), Motivação Inspiracional (visão de futuro compartilhada), Estímulo Intelectual (incentivo à criatividade e solução de problemas) e Consideração Individualizada (atenção personalizada às necessidades de cada liderado).
-> - **B), C)** Incorretas. Características definidoras da **Liderança Transacional** (recompensa contingente e gerência por exceção).
-> - **D), E)** Incorretas. Posturas de chefia autoritária e punitiva.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "seguir um conjunto fixo de regras e procedimentos operacionais, garantindo uniformidade nas ações". De acordo com a teoria estudada em *Tipologia das Equipes nas Organizações:*, equipes Autogerenciadas: Equipes autônomas com elevado poder decisório, que executam tarefas operacionais completas, elegem seus líderes rotativos e planejam suas próprias escalas de trabalho sem supervisão hierárquica direta constante.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "supervisionar diretamente os colaboradores, assegurando o cumprimento de tarefas previamente estabelecidas". De acordo com a teoria estudada em *2. O Modelo de Desenvolvimento de Grupos de Bruce Tuckman*, desempenho (*Performing*): O grupo atinge sua plena maturidade funcional. A energia dos participantes não é mais desperdiçada em disputas interpessoais, canalizando-se diretamente para a execução com excelência das tarefas e projetos.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "aplicar técnicas padronizadas de gestão, independentemente do contexto organizacional em que se atua". De acordo com a teoria estudada em *5. O Processo de Comunicação Organizacional e suas Barreiras*, a comunicação é a transferência e compreensão de significados entre um emissor e um receptor. Seu fluxo operacional organiza-se nas seguintes etapas fundamentais.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "executar rotinas funcionais voltadas ao atendimento de demandas internas da organização". De acordo com a teoria estudada em *Tipologia das Equipes nas Organizações:*, equipes Multifuncionais (*Cross-Functional*): Reúnem profissionais de diferentes áreas funcionais (ex.: auditor contábil, analista de TI, engenheiro de obras e procurador jurídico) para trabalhar em projetos interdisciplinares complexos.
+> - **E)** **Correta.** Conforme fundamentado na seção *Tabela Comparativa Analítica:* deste guia, objetivo Central: Compartilhar informações e tomar decisões para apoiar o desempenho individual de cada membro. — Desempenho coletivo e entrega conjunta de metas institucionais comuns. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "tomar decisões de forma contínua, coordenando recursos e esforços com vistas ao alcance de resultados".
+>
+> **Gabarito: E**
 
 ---
 
 ### Teste 419
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No processo de comunicação organizacional, a barreira que ocorre quando o emissor manipula deliberadamente as informações para que sejam vistas de modo mais favorável e lisonjeiro pelo receptor (muito comum em relações verticais ascendentes em que subordinados ocultam más notícias de seus chefes) é denominada:
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Administracao – 2024)**
+A liderança é a capacidade de influenciar e guiar indivíduos ou equipes para alcançar objetivos comuns. Envolve comunicação eficaz, tomada de decisão, empatia e a habilidade de motivar e inspirar os outros. Assinale a opção que apresenta o tipo de liderança em que o líder deixa o grupo à vontade e não participa das decisões.
 
-* **A)** Filtragem.
-* **B)** Percepção Seletiva.
-* **C)** Sobrecarga de Informação.
-* **D)** Ruído Semântico.
-* **E)** Linguagem Não Verbal Involuntária.
-
+* **A)** Autocrática.
+* **B)** Liberal.
+* **C)** Democrática.
+* **D)** Transacional.
+* **E)** Situacional.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. A **Filtragem** é a manipulação consciente ou inconsciente da informação antes de transmiti-la, de forma a torná-la palatável ao superior hierárquico. Quanto mais vertical e autoritária a organização, maior a tendência de os subordinados filtrarem más notícias para evitar punições ou desagradar a chefia.
-> - **B)** Incorreta. Percepção Seletiva ocorre no receptor, que ouve apenas o que se alinha aos seus interesses.
-> - **C)** Incorreta. Sobrecarga é a incapacidade de processar o excesso de mensagens.
-> - **D)** Incorreta. Ruído semântico decorre de palavras com duplo sentido ou jargões incompreendidos.
-> - **E)** Incorreta. Gestos corporais e expressões faciais.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Autocrática". De acordo com a teoria estudada em *Tipologia das Equipes nas Organizações:*, equipes Virtuais: Utilizam tecnologias de colaboração online para conectar servidores geograficamente dispersos em prol de objetivos comuns.
+> - **B)** **Correta.** Conforme fundamentado na seção *A Teoria da Liderança Situacional de Paul Hersey e Kenneth Blanchard:* deste guia, fALSO! A delegação só é correta e eficaz quando o liderado apresenta maturidade M4 (alta competência técnica e alta confiança). Se delegar a um servidor novato M1 (sem conhecimento das rotinas), haverá frustração e erro operacional grave. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "Liberal".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Democrática". De acordo com a teoria estudada em *Tabela Comparativa Analítica:*, objetivo Central: Compartilhar informações e tomar decisões para apoiar o desempenho individual de cada membro. — Desempenho coletivo e entrega conjunta de metas institucionais comuns.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Transacional". De acordo com a teoria estudada em *B) Principais Barreiras Comunicacionais Cobradas pela FCC:*, sobrecarga de Informação: Ocorre quando o volume de dados e despachos supera a capacidade cognitiva de processamento do servidor, gerando esquecimentos, estresse e atrasos processuais.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Situacional". De acordo com a teoria estudada em *3. Evolução das Teorias de Liderança e a Liderança Situacional*, a liderança é o processo social de exercer influência legítima e voluntária sobre indivíduos e grupos para direcioná-los ao alcance de metas.
+>
+> **Gabarito: B**
 
 ---
 

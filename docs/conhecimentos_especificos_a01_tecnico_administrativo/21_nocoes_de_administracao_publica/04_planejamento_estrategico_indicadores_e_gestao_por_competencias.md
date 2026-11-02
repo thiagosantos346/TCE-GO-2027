@@ -90,28 +90,25 @@ flowchart TD
 ---
 
 ### Teste 330
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-O planejamento organizacional é estruturado em três níveis hierárquicos interligados: Estratégico, Tático e Operacional.
+**(FGV – TRT-24 – Analista Judiciario Area Administrativa Sem Especialidade – 2025)**
+O planejamento estratégico no setor público orienta a gestão por resultados, promovendo ações alinhadas a metas e indicadores que garantem maior eficiência, transparência e foco nas demandas da sociedade. Assinale a opção que apresenta corretamente uma característica do planejamento estratégico no setor público.
 
-A respeito desses níveis, é correto afirmar:
-
-* **A)** O planejamento estratégico tem horizonte temporal de longo prazo, abrange a organização como uma totalidade sistêmica e define a missão, visão e objetivos corporativos mestres; já o planejamento operacional foca o curto prazo e detalha tarefas e procedimentos diários de execução.
-* **B)** O planejamento tático é formulado pelos operários da linha de frente para solucionar problemas de atendimento imediato.
-* **C)** O planejamento operacional abrange o macroambiente externo e analisa as forças competitivas da economia internacional.
-* **D)** O planejamento estratégico é privativo de empresas comerciais de mercado, inexistindo aplicação prática no âmbito dos Tribunais de Contas e órgãos públicos.
-* **E)** O planejamento tático foca exclusivamente em investimentos com prazo superior a quinze anos.
-
+* **A)** O planejamento estratégico é voltado principalmente para a resolução imediata de problemas operacionais, com foco no curto prazo.
+* **B)** O planejamento estratégico é um processo limitado a algumas áreas da organização, buscando melhorias isoladas e específicas.
+* **C)** O planejamento estratégico ignora o ambiente externo, concentrando-se apenas nos recursos internos da organização.
+* **D)** O planejamento estratégico é um processo centrado exclusivamente na alta administração, sem necessidade de envolvimento de outros atores.
+* **E)** O planejamento estratégico é orientado para o futuro, envolvendo toda a organização, busca consenso entre os atores e promove o aprendizado organizacional.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. **Estratégico** (longo prazo, diretoria/cúpula, visão holística); **Tático** (médio prazo, gerências/departamentos); **Operacional** (curto prazo, métodos e tarefas cotidianas).
-> - **B)** Incorreta. Tático é gerencial intermediário.
-> - **C)** Incorreta. Macroambiente é estratégico.
-> - **D)** Incorreta. Tribunais de Contas utilizam planejamento estratégico sistematicamente.
-> - **E)** Incorreta. Médio prazo (anual/bianual).
-> 
+> - **A)** **Correta.** Conforme fundamentado na seção *1. Níveis do Planejamento Organizacional* deste guia, lembre-se: Estratégico = Longo Prazo / Toda a Organização; Tático = Médio Prazo / Unidades e Departamentos; Operacional = Curto Prazo / Tarefas, Procedimentos e Rotinas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "O planejamento estratégico é voltado principalmente para a resolução imediata de problemas operacionais, com foco...".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O planejamento estratégico é um processo limitado a algumas áreas da organização, buscando melhorias isoladas e...". De acordo com a teoria estudada em *1. Níveis do Planejamento Organizacional*, escopo e Foco: Envolve a totalidade da organização, com ênfase nas variáveis do ambiente externo e na consecução da Missão (razão de existir), Visão (estado futuro desejado) e Valores organizacionais.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "O planejamento estratégico ignora o ambiente externo, concentrando-se apenas nos recursos internos da organização". De acordo com a teoria estudada em *B) Matriz GUT (Gravidade, Urgência e Tendência)*, instrumento matemático prioritário para ranquear problemas, projetos ou demandas operacionais que concorrem por recursos escassos. Cada variável recebe uma nota de 1 a 5.
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "O planejamento estratégico é um processo centrado exclusivamente na alta administração, sem necessidade de...". De acordo com a teoria estudada em *1. Níveis do Planejamento Organizacional*, horizonte Temporal: Curto prazo (execução cotidiana).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O planejamento estratégico é orientado para o futuro, envolvendo toda a organização, busca consenso entre os...". De acordo com a teoria estudada em *1. Níveis do Planejamento Organizacional*, escopo e Foco: Atividades, tarefas e rotinas individualizadas. Utiliza ferramentas como Procedimentos Operacionais Padrão (POP), ordens de serviço, cronogramas de fiscalização e orçamentos operacionais.
+>
 > **Gabarito: A**
 
 ---
@@ -158,52 +155,50 @@ flowchart TD
 ---
 
 ### Teste 331
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Ao estruturar o seu Plano Estratégico Institucional, determinado Tribunal de Contas utilizou a metodologia do Balanced Scorecard (BSC). Ao elaborar o mapa estratégico, a equipe de planejamento definiu quatro perspectivas de objetivos. Considerando as peculiaridades das organizações públicas em relação às empresas privadas com fins lucrativos, no modelo adotado pelo Tribunal:
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Ciencia de Dados – 2024)**
+De acordo com Robert Kaplan e David Norton, o Balanced Scorecard (BSC) traduz a missão e a estratégia de uma organização em objetivos e medidas, organizados segundo as seguintes quatro perspectivas:
 
-* **A)** A perspectiva financeira deve ocupar obrigatoriamente a posição superior do mapa, tendo como meta a geração de lucro operacional e dividendos públicos.
-* **B)** A perspectiva dos cidadãos e da sociedade ocupa o ápice da cadeia de causalidade estratégica, enquanto os recursos orçamentários figuram como viabilizadores das entregas públicas.
-* **C)** O aprendizado e o crescimento funcional são eliminados do mapa por serem exclusivos de indústrias manufatureiras.
-* **D)** As relações de causa e efeito deixam de existir, passando os objetivos a ser medidos de forma isolada e autônoma.
-* **E)** O mapa estratégico dispensa a identificação de indicadores e metas para os processos de fiscalização e controle.
-
-
----
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** No setor público inexiste distribuição de lucros ou busca por retorno de capital a acionistas como meta finalística institucional.  
-> - **B) CORRETA.** No setor público, o ápice da cadeia de valor do BSC é ocupado pela perspectiva do **Cidadão / Sociedade**, pois o órgão governamental visa entregar serviços com valor público à sociedade. A perspectiva orçamentária atua como suporte viabilizador da estratégia, e não como fim em si mesma.  
-> - **C) Incorreta.** O aprendizado e crescimento (capital humano, tecnologia, liderança e cultura) é a base indispensável de sustentação de qualquer organização no BSC.  
-> - **D) Incorreta.** O alicerce do BSC é precisamente a construção de hipóteses explícitas de causa e efeito entre os objetivos das quatro perspectivas.  
-> - **E) Incorreta.** A metodologia do BSC exige indicadores e metas para todas as perspectivas estratégicas.  
-> 
-> **Gabarito: B**
-
----
-
-### Teste 332
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na transposição do Balanced Scorecard (BSC - Kaplan e Norton) para as organizações públicas e entidades de controle governamental (como o TCE-GO), a adaptação mais relevante no mapa estratégico consiste em:
-
-* **A)** Deslocar a perspectiva dos "Clientes / Cidadãos-Usuários e Sociedade" para o topo do mapa estratégico como objetivo final supremo, passando a perspectiva financeira a atuar como viabilizadora e restrição orçamentária dos serviços prestados.
-* **B)** Eliminar completamente a perspectiva de Aprendizado e Crescimento, visto que servidores públicos estáveis não necessitam de capacitação continuada.
-* **C)** Substituir os indicadores de eficácia social por índices de lucro líquido financeiro a ser distribuído aos cidadãos como dividendos monetários.
-* **D)** Considerar a perspectiva de Processos Internos como a única relevante, descartando qualquer métrica voltada para a satisfação da sociedade.
-* **E)** Proibir o estabelecimento de relações de causa e efeito entre os objetivos estratégicos institucionais.
-
+* **A)** Financeira; Clientes; Processos Internos; Governamental.
+* **B)** Financeira; Clientes; Processos Externos; Aprendizado e Crescimento.
+* **C)** Financeira; Responsabilidade Social; Processos Externos; Ambiental.
+* **D)** Financeira; Clientes; Processos Internos; Aprendizado e Crescimento.
+* **E)** Financeira; Clientes; Processos Internos; Processos Externos.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. No setor público, o ápice do mapa do BSC é a **Sociedade e os Cidadãos** (geração de valor público), atuando a perspectiva financeira como sustentabilidade orçamentária para a prestação de serviços.
-> - **B)** Incorreta. Aprendizado e crescimento continuam sendo a base.
-> - **C)** Incorreta. Órgãos públicos não visam lucro comercial.
-> - **D)** Incorreta. O BSC integra equilibradamente as perspectivas.
-> - **E)** Incorreta. O mapa baseia-se em relações de causa e efeito.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Financeira; Clientes; Processos Internos; Governamental". De acordo com a teoria estudada em *2. O Balanced Scorecard (BSC) no Setor Público*, criado pelos professores de Harvard Robert Kaplan e David Norton no início da década de 1990, o Balanced Scorecard (BSC) surgiu para suprir as deficiências dos sistemas tradicionais de medição, focados unicamente em indicadores contábeis e financeiros históricos.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Financeira; Clientes; Processos Externos; Aprendizado e Crescimento". De acordo com a teoria estudada em *C) Metodologias de Avaliação de Desempenho Funcional*, avaliação 360° (Circular / Múltiplas Fontes): O colaborador é avaliado de forma abrangente por todos que interagem com sua rotina de trabalho: superior imediato, pares/colegas do mesmo nível, liderados/subordinados diretos, clientes internos/externos (cidadãos) e autoavaliação.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Financeira; Responsabilidade Social; Processos Externos; Ambiental". De acordo com a teoria estudada em *2. O Balanced Scorecard (BSC) no Setor Público*, o BSC integra medidas financeiras com direcionadores de desempenho futuros organizados em quatro perspectivas interligadas por hipóteses de causa e efeito.
+> - **D)** **Correta.** Conforme fundamentado na seção *As Quatro Perspectivas Clássicas e a Adaptação para o Setor Público:* deste guia, perspectiva de Aprendizado e Crescimento (Base de Sustentação). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "Financeira; Clientes; Processos Internos; Aprendizado e Crescimento".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Financeira; Clientes; Processos Internos; Processos Externos". De acordo com a teoria estudada em *As Quatro Perspectivas Clássicas e a Adaptação para o Setor Público:*, a FCC adora afirmar que a perspectiva financeira figura no topo do Balanced Scorecard no setor público.
+>
+> **Gabarito: D**
+
+---
+
+### Teste 332
+**(FCC – TRT-13 – Analista Judiciario Tecnologia da Informacao – 2014)**
+O Balanced Scorecard − BSC, cujos mentores são Robert Kaplan e David Norton, é
+
+* **A)** um sistema de avaliação de desempenho organizacional que contempla apenas indicadores financeiros.
+* **B)** um mecanismo para formulação da estratégia da instituição voltado à missão de futuro e visão de longo prazo.
+* **C)** um modelo de gestão estratégica que alinha missão, visão e estratégias a um conjunto de indicadores financeiros e não financeiros.
+* **D)** uma metodologia para avaliação e desenvolvimento de competências individuais orientada pelo denominado mapa estratégico.
+* **E)** uma metodologia de avaliação de desempenho organizacional e não individual, baseada em guias operacionais.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "um sistema de avaliação de desempenho organizacional que contempla apenas indicadores financeiros". De acordo com a teoria estudada em *1. Níveis do Planejamento Organizacional*, escopo e Foco: Envolve a totalidade da organização, com ênfase nas variáveis do ambiente externo e na consecução da Missão (razão de existir), Visão (estado futuro desejado) e Valores organizacionais.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um mecanismo para formulação da estratégia da instituição voltado à missão de futuro e visão de longo prazo". De acordo com a teoria estudada em *1. Níveis do Planejamento Organizacional*, a FCC frequentemente tenta inverter os horizontes temporais e escopos, afirmando que o planejamento tático cuida de tarefas operacionais diárias ou que o planejamento operacional traça a visão de longo prazo do órgão.
+> - **C)** **Correta.** Conforme fundamentado na seção *2. O Balanced Scorecard (BSC) no Setor Público* deste guia, criado pelos professores de Harvard Robert Kaplan e David Norton no início da década de 1990, o Balanced Scorecard (BSC) surgiu para suprir as deficiências dos sistemas tradicionais de medição, focados unicamente em indicadores contábeis e financeiros históricos. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-13/2014) ao estabelecer que "um modelo de gestão estratégica que alinha missão, visão e estratégias a um conjunto de indicadores financeiros e...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "uma metodologia para avaliação e desenvolvimento de competências individuais orientada pelo denominado mapa...". De acordo com a teoria estudada em *As Quatro Perspectivas Clássicas e a Adaptação para o Setor Público:*, *Na iniciativa privada:* O topo do mapa estratégico é a Perspectiva Financeira, orientada para a geração de lucros, dividendos e retorno sobre o patrimônio dos acionistas (*shareholders*).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "uma metodologia de avaliação de desempenho organizacional e não individual, baseada em guias operacionais". De acordo com a teoria estudada em *C) Metodologias de Avaliação de Desempenho Funcional*, fornece uma visão holística e reduz vieses individuais.
+>
+> **Gabarito: C**
 
 ---
 
@@ -237,37 +232,28 @@ flowchart TD
 ---
 
 ### Teste 333
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Durante a realização de um diagnóstico institucional, os analistas de um tribunal identificaram os seguintes fatores:
+**(FGV – TRF-1 – Analista Judiciario Area Apoio Especializado Especialidade Suporte Em Tecnologia da Informacao – 2024)**
+A análise SWOT é uma ferramenta de gestão. No contexto do planejamento de tecnologia da informação e comunicação (TIC), tal ferramenta avalia as características:
 
-1. Elevado índice de qualificação acadêmica do quadro próprio de analistas (pós-graduados).
-2. Ausência de padronização nos procedimentos operacionais dos cartórios judiciais.
-3. Disponibilização de novas linhas federais de financiamento para modernização tecnológica dos tribunais.
-4. Redução orçamentária imposta pela alteração da lei estadual de diretrizes orçamentárias.
-
-Sob a ótica da Matriz SWOT (FOFA), os fatores 1, 2, 3 e 4 representam, respectivamente:
-
-* **A)** Força, Fraqueza, Oportunidade e Ameaça.
-* **B)** Oportunidade, Ameaça, Força e Fraqueza.
-* **C)** Força, Ameaça, Oportunidade e Fraqueza.
-* **D)** Oportunidade, Fraqueza, Força e Ameaça.
-* **E)** Força, Fraqueza, Ameaça e Oportunidade.
-
+* **A)** negativas, que podem restringir o desempenho da TIC (ameaça), em relação ao ambiente interno;
+* **B)** positivas, que a TIC pode explorar para atingir suas metas (oportunidades), em relação ao ambiente interno;
+* **C)** não controláveis pela TIC, que a podem impedir de atingir as metas planejadas e comprometer o crescimento organizacional (ameaças), em relação ao ambiente externo;
+* **D)** não controláveis pela TIC, com potencial para ajudar a organização a crescer e atingir ou exceder as metas planejadas (oportunidades), em relação ao ambiente interno;
+* **E)** não controláveis pela TIC, que a podem impedir de atingir as metas planejadas e comprometer o crescimento organizacional (vulnerabilidades), em relação ao ambiente externo.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) CORRETA.** Corresponde com precisão à classificação da Matriz SWOT/FOFA: o Fator 1 é interno e favorável (**Força**); o Fator 2 é interno e vulnerável (**Fraqueza**); o Fator 3 é externo e positivo (**Oportunidade**); e o Fator 4 é externo e desfavorável (**Ameaça**).
-> - **B) Incorreta.** Inverte as variáveis internas (força e fraqueza) pelas externas (oportunidade e ameaça).
-> - **C) Incorreta.** Classifica erroneamente o Fator 2 como ameaça e o Fator 4 como fraqueza.
-> - **D) Incorreta.** Confunde a qualificação dos servidores com oportunidade externa e as linhas federais com força interna.
-> - **E) Incorreta.** Inverte a ordem dos fatores externos 3 e 4.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "negativas, que podem restringir o desempenho da TIC (ameaça), em relação ao ambiente interno". De acordo com a teoria estudada em *A) Matriz SWOT (FOFA)*, se a questão citar uma crise econômica, uma mudança climática ou uma alteração da lei, isso é incontrolável, portanto pertence ao ambiente externo (Ameaça ou Oportunidade)!.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "positivas, que a TIC pode explorar para atingir suas metas (oportunidades), em relação ao ambiente interno". De acordo com a teoria estudada em *A) Matriz SWOT (FOFA)*, ambiente Interno (Sob controle do órgão): Forças (*Strengths*) e Fraquezas (*Weaknesses*).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não controláveis pela TIC, que a podem impedir de atingir as metas planejadas e comprometer o crescimento...". De acordo com a teoria estudada em *A) Matriz SWOT (FOFA)*, ambiente Externo (Fora do controle do órgão): Oportunidades (*Opportunities*) e Ameaças (*Threats*).
+> - **D)** **Correta.** Conforme fundamentado na seção *A) Matriz SWOT (FOFA)* deste guia, a análise SWOT (*Strengths, Weaknesses, Opportunities, Threats* / Forças, Oportunidades, Fraquezas e Ameaças) é um clássico modelo de diagnóstico situacional estratégico que correlaciona o diagnóstico interno e externo da organização. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF-1/2024) ao estabelecer que "não controláveis pela TIC, com potencial para ajudar a organização a crescer e atingir ou exceder as metas...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não controláveis pela TIC, que a podem impedir de atingir as metas planejadas e comprometer o crescimento...". De acordo com a teoria estudada em *1. Níveis do Planejamento Organizacional*, escopo e Foco: Envolve a totalidade da organização, com ênfase nas variáveis do ambiente externo e na consecução da Missão (razão de existir), Visão (estado futuro desejado) e Valores organizacionais.
+>
+> **Gabarito: D**
 
 ---
-
 
 #### B) Matriz GUT (Gravidade, Urgência e Tendência)
 Instrumento matemático prioritário para ranquear problemas, projetos ou demandas operacionais que concorrem por recursos escassos. Cada variável recebe uma nota de 1 a 5:
@@ -326,29 +312,26 @@ Para assegurar a utilidade e fidedignidade dos relatórios de governança, os in
 ---
 
 ### Teste 334
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na formulação de planos de intervenção operacional decorrentes de achados de auditoria ou do planejamento setorial, a ferramenta **5W2H** é amplamente utilizada para operacionalizar as decisões em planos de ação objetivos.
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Administracao – 2026)**
+Carolina é analista de controle externo de um Tribunal de Contas estadual. Em determinada semana, ela se depara com as seguintes demandas simultâneas: I. elaborar, até o fim do dia, o relatório de instrução de um processo com prazo regimental vencendo às 18h, sob pena de nulidade da autuação; II. responder a e-mails de colegas solicitando informações sobre procedimentos administrativos de rotina, sem prazo definido; III. desenvolver um plano de capacitação para a equipe, atividade estratégica alinhada ao planejamento anual do tribunal, sem data de entrega imediata; e IV. participar de uma reunião convocada com urgência por outro setor para discutir a pauta da confraternização de fim de ano. Para organizar essas demandas, Carolina as classifica segundo dois critérios (importância e urgência), identificando quais devem ser executadas imediatamente, quais devem ser agendadas, quais devem ser delegadas e quais devem ser eliminadas ou postergadas. Nesse caso, Carolina utiliza a seguinte técnica de gestão de tarefas:
 
-O significado e escopo da letra **"H" (*How Much*)** na estrutura do 5W2H corresponde a responder:
-
-* **A)** Quanto custará a execução da ação (estimativa orçamentária de custos e desembolsos financeiros envolvidos).
-* **B)** Quem será o executor responsável pela atividade.
-* **C)** Quando e em quais datas a ação será iniciada e finalizada.
-* **D)** Por que a ação deve ser realizada e qual a sua justificativa estratégica.
-* **E)** Onde a ação será implementada geograficamente.
-
+* **A)** Método GTD (Getting Things Done).
+* **B)** Técnica Pomodoro.
+* **C)** Método Kanban.
+* **D)** Matriz de Eisenhower.
+* **E)** Método OKR (Objectives and Key Results).
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. **5W2H**: What (o que), Why (por que), Where (onde), When (quando), Who (quem), How (como) e **How Much (quanto custa)**.
-> - **B)** Incorreta. Refere-se ao *Who*.
-> - **C)** Incorreta. Refere-se ao *When*.
-> - **D)** Incorreta. Refere-se ao *Why*.
-> - **E)** Incorreta. Refere-se ao *Where*.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Método GTD (Getting Things Done)". De acordo com a teoria estudada em *C) Metodologias de Avaliação de Desempenho Funcional*, avaliação Participativa por Objetivos (APPO): Método moderno em que superior e colaborador negociam e pactuam conjuntamente os objetivos, metas e planos de capacitação para o ciclo seguinte.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Técnica Pomodoro". De acordo com a teoria estudada em *1. Níveis do Planejamento Organizacional*, nível Hierárquico: Operacional (supervisores, servidores de execução técnica e analítica).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Método Kanban". De acordo com a teoria estudada em *1. Níveis do Planejamento Organizacional*, escopo e Foco: Atividades, tarefas e rotinas individualizadas. Utiliza ferramentas como Procedimentos Operacionais Padrão (POP), ordens de serviço, cronogramas de fiscalização e orçamentos operacionais.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Matriz de Eisenhower". De acordo com a teoria estudada em *B) Matriz GUT (Gravidade, Urgência e Tendência)*, instrumento matemático prioritário para ranquear problemas, projetos ou demandas operacionais que concorrem por recursos escassos. Cada variável recebe uma nota de 1 a 5.
+> - **E)** **Correta.** Conforme fundamentado na seção *C) Plano de Ação 5W2H* deste guia, how? (Como?): Procedimentos operacionais, método de trabalho ou etapas técnicas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "Método OKR (Objectives and Key Results)".
+>
+> **Gabarito: E**
 
 ---
 
@@ -375,33 +358,28 @@ flowchart LR
 ---
 
 ### Teste 335
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Na gestão de pessoas no setor público, a metodologia de Gestão por Competências estrutura o perfil funcional a partir da tríade CHA (Conhecimentos, Habilidades e Atitudes). Quando um servidor público domina minuciosamente as regras teóricas da Nova Lei de Licitações (Lei nº 14.133/2021), mas demonstra insegurança técnica e não consegue operar o sistema eletrônico de compras públicas para cadastrar o edital, verifica-se que o servidor possui:
+**(FCC – TRT-9 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2015)**
+Considerado o contexto, afirma-se corretamente que
 
-* **A)** Atitude e Habilidade, mas carece de Conhecimento.
-* **B)** Conhecimento, mas apresenta déficit no componente de Habilidade.
-* **C)** Conhecimento e Habilidade, faltando-lhe unicamente Atitude proativa.
-* **D)** Habilidade plena, sem domínio de Conhecimento e Atitude.
-* **E)** Ausência simultânea de Conhecimento, Habilidade e Atitude.
-
+* **A)** o autor compara Thomas Bernhard a outros romancistas austríacos, concluindo ser inexplicável o motivo pelo qual sua obra foi canonizada.
+* **B)** o texto se desenvolve principalmente com base em comentários críticos a respeito da obra do escritor austríaco Thomas Bernhard.
+* **C)** Tezza critica a tendência de Thomas Bernhard de evocar um temível “senso comum” por meio de uma voz coletiva, estratégia, no entanto, inócua em sua obra.
+* **D)** Tezza apresenta a Áustria como um país opressor, justificando, desse modo, o fato de ter sido um dos países em que o nazismo floresceu.
+* **E)** o texto discorre sobre as características do povo austríaco, captadas com precisão por Bernhard, cujos escritos provocativos causaram o banimento de suas obras do país.
 
 ---
 
-> **Comentário Detalhado:**  
+> **Comentário Detalhado:**
 >
-> - **A) Incorreta.** O domínio das leis é o Conhecimento em si.  
-> - **B) CORRETA.** Na tríade CHA:  
->     - **Conhecimento (Saber):** É o saber teórico, conceitual e cognitivo (domínio das regras da Lei nº 14.133/2021).  
->     - **Habilidade (Saber Fazer):** É a aplicação prática da teoria, o manejo de ferramentas e a operação de sistemas informatizados.  
->     - Como o servidor conhece a lei (tem Conhecimento), mas não consegue operar o sistema na prática, seu déficit específico reside na **Habilidade** ("saber fazer").  
-> - **C) Incorreta.** Ele não possui a habilidade técnica de operar o sistema de compras.  
-> - **D) Incorreta.** Ele carece exatamente de habilidade prática.  
-> - **E) Incorreta.** Ele possui inequívoco conhecimento teórico demonstrado.  
-> 
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o autor compara Thomas Bernhard a outros romancistas austríacos, concluindo ser inexplicável o motivo pelo qual...". De acordo com a teoria estudada em *7. Gestão de Conflitos Organizacionais (Thomas-Kilmann)*, nas teorias organizacionais modernas, o conflito deixou de ser encarado como uma patologia a ser sumariamente extirpada. O conflito pode ser.
+> - **B)** **Correta.** Conforme fundamentado na seção *As Quatro Perspectivas Clássicas e a Adaptação para o Setor Público:* deste guia, mapeia os processos de trabalho críticos nos quais a instituição deve atingir excelência. Compreende processos de inovação, fiscalização tempestiva, controle preventivo, modernização de sistemas e celeridade procedimental. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-9/2015) ao estabelecer que "o texto se desenvolve principalmente com base em comentários críticos a respeito da obra do escritor austríaco...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Tezza critica a tendência de Thomas Bernhard de evocar um temível “senso comum” por meio de uma voz coletiva...". De acordo com a teoria estudada em *5. Gestão por Competências no Setor Público (Decreto 9.991/2019)*, a Gestão por Competências consiste no alinhamento contínuo entre os talentos dos servidores e as competências essenciais necessárias para o cumprimento da estratégia institucional.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Tezza apresenta a Áustria como um país opressor, justificando, desse modo, o fato de ter sido um dos países em que...". De acordo com a teoria estudada em *C) Metodologias de Avaliação de Desempenho Funcional*, avaliação 90° (Tradicional): O servidor é avaliado exclusivamente pelo seu superior hierárquico imediato. Apresenta risco de viés de autoridade e subjetividade.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o texto discorre sobre as características do povo austríaco, captadas com precisão por Bernhard, cujos escritos...". De acordo com a teoria estudada em *As Quatro Perspectivas Clássicas e a Adaptação para o Setor Público:*, perspectiva de Aprendizado e Crescimento (Base de Sustentação).
+>
 > **Gabarito: B**
 
 ---
-
 
 #### B) Diagnóstico de Lacunas (*Gap Analysis*) e Plano de Desenvolvimento de Pessoas (PDP)
 A gestão por competências opera por meio do confronto analítico entre o perfil exigido pelo órgão e o perfil demonstrado pelo servidor:
@@ -441,27 +419,26 @@ flowchart TD
 ---
 
 ### Teste 336
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A respeito do processo decisório nas organizações e das conclusões da Teoria da Racionalidade Limitada proposta por Herbert Simon, é correto afirmar:
+**(FCC – TRT-14 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2016)**
+Considere que uma organização tenha os seguintes objetivos de TI: I. Uso adequado de aplicativos, informações e soluções tecnológicas. II. Conhecimento, expertise e iniciativas para inovação dos negócios. III. Disponibilidade de informações úteis e confiáveis para a tomada de decisão. IV. Alinhamento da estratégia de negócios e de TI. Estes objetivos de TI são relacionados, correta e respectivamente, com as dimensões do BSC:
 
-* **A)** O tomador de decisão atua sempre como o "homem econômico", processando a totalidade das variáveis e alternativas possíveis para atingir a decisão ótima perfeita.
-* **B)** O comportamento decisório dos gestores é orientado por informações completas, perfeita previsibilidade do futuro e tempo ilimitado para deliberação.
-* **C)** Diante da escassez de tempo, limitações cognitivas e insuficiência de dados completos, o gestor atua como o "homem administrativo", selecionando uma alternativa satisfatória que atenda a padrões mínimos aceitáveis.
-* **D)** A teoria da racionalidade limitada defende que o administrador público deve decidir de forma puramente arbitrária e intuitiva, dispensando critérios analíticos de avaliação.
-* **E)** As decisões operacionais tomadas sob racionalidade limitada prescindem da fixação prévia de objetivos organizacionais pelo planejamento.
-
+* **A)** Interna − Treinamento e Crescimento − Cliente − Financeira.
+* **B)** Cliente − Financeira − Treinamento e Crescimento − Interna.
+* **C)** Treinamento e Crescimento − Cliente − Financeira − Interna.
+* **D)** Financeira − Interna − Treinamento e Crescimento − Cliente.
+* **E)** Cliente − Treinamento e Crescimento − Interna − Financeira.
 
 ---
 
-> **Comentário Detalhado:**  
+> **Comentário Detalhado:**
 >
-> - **A) Incorreta.** O modelo clássico do "homem econômico" e da decisão ótima pura é uma ficção teórica refutada por Simon.  
-> - **B) Incorreta.** Os gestores atuam sob ambiente de incerteza, com tempo escasso e dados parciais.  
-> - **C) CORRETA.** Segundo Herbert Simon, em virtude da impossibilidade humana de capturar todas as variáveis do ambiente e analisar infinitas alternativas, o tomador de decisão opera como o **homem administrativo**, optando por soluções **satisfatórias** (que atendam a critérios suficientes de eficácia) em vez de soluções ótimas puras.  
-> - **D) Incorreta.** A racionalidade limitada busca a melhor decisão possível dentro das restrições existentes, não se confundindo com irracionalidade ou arbitrariedade.  
-> - **E) Incorreta.** Objetivos estratégicos prévios continuam sendo indispensáveis para orientar a busca da alternativa satisfatória.  
-> 
-> **Gabarito: C**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Interna − Treinamento e Crescimento − Cliente − Financeira". De acordo com a teoria estudada em *As Quatro Perspectivas Clássicas e a Adaptação para o Setor Público:*, perspectiva de Aprendizado e Crescimento (Base de Sustentação).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Cliente − Financeira − Treinamento e Crescimento − Interna". De acordo com a teoria estudada em *As Quatro Perspectivas Clássicas e a Adaptação para o Setor Público:*, *Na iniciativa privada:* O topo do mapa estratégico é a Perspectiva Financeira, orientada para a geração de lucros, dividendos e retorno sobre o patrimônio dos acionistas (*shareholders*).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Treinamento e Crescimento − Cliente − Financeira − Interna". De acordo com a teoria estudada em *As Quatro Perspectivas Clássicas e a Adaptação para o Setor Público:*, a FCC adora afirmar que a perspectiva financeira figura no topo do Balanced Scorecard no setor público.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Financeira − Interna − Treinamento e Crescimento − Cliente". De acordo com a teoria estudada em *6. Processo Decisório e Teoria da Decisão (Herbert Simon)*, o estudo da tomada de decisão nas organizações ganhou rigor científico com as contribuições seminais de Herbert Simon (Prêmio Nobel de Economia de 1978), que refutou as premissas da teoria microeconômica clássica da escolha racional.
+> - **E)** **Correta.** Conforme fundamentado na seção *B) Diagnóstico de Lacunas (Gap Analysis) e Plano de Desenvolvimento de Pessoas (PDP)* deste guia, havendo lacuna (*gap* positivo), o órgão direciona as necessidades de treinamento ao Plano de Desenvolvimento de Pessoas (PDP), instituído pelo Decreto nº 9.991/2019, assegurando que o orçamento público de capacitação supra carências reais e priorizadas em vez de cursos genéricos desconectados da estratégia. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-14/2016) ao estabelecer que "Cliente − Treinamento e Crescimento − Interna − Financeira".
+>
+> **Gabarito: E**
 
 ---
 
@@ -499,75 +476,74 @@ flowchart TD
 ---
 
 ### Teste 337
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Dois diretores de uma agência reguladora divergem categoricamente a respeito dos critérios de reajuste tarifário do transporte intermunicipal. Ambos demonstram alta preocupação em fazer valer suas teses técnicas individuais (alta assertividade), mas recusam-se terminantemente a ouvir os argumentos da outra parte ou a construir um consenso cooperativo (baixa cooperação). Segundo o modelo de estilos de administração de conflitos de Thomas-Kilmann, o comportamento adotado por esses gestores caracteriza o estilo de:
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Gestao Governamental – 2024)**
+Em 1989 em Altamira (PA), no encontro com as Nações Indígenas do Xingu, no qual debateu-se a construção da Usina Hidrelétrica de Belo Monte, a líder indígena Tuíra Kayapó levantou-se da plateia e encostou a lâmina de seu facão no rosto do então diretor da Eletronorte, em um gesto de advertência e indignação. A cena foi reproduzida em diversos jornais e tornou-se um marco do socio ambientalismo brasileiro. A respeito da perspectiva socio ambientalista, que fortaleceu a correlação entre povos tradicionais e conservação do meio ambiente, analise as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa. ( ) Nessa perspectiva, as populações tradicionais da Amazônia deixam de ser consideradas entraves ao desenvolvimento e passam a ser entendidas como sujeitos políticos capazes de articular práticas conservacionistas e direitos territoriais. ( ) Essa perspectiva resulta da associação entre luta política e preocupações ambientais, exemplificada pela coalizão Aliança dos Povos da Floresta, que mobilizou seringueiros e indígenas e culminou no assassinato de uma de suas lideranças, Chico Mendes, em 1988. ( ) Essa perspectiva foi criticada na Conferência das Nações Unidas sobre o Meio Ambiente (Rio-92), que defendeu um desenvolvimento sustentável, em que os direitos de comunidades tradicionais não se sobrepõem à meta de produção de energia limpa, como a hidrelétrica. Assinale a opção que indica a sequência correta, na ordem apresentada.
 
-* **A)** Colaboração (Ganha-Ganha).
-* **B)** Acomodação (Perde-Ganha).
-* **C)** Competição ou Imposição (Ganha-Perde).
-* **D)** Evitação ou Fuga (Perde-Perde).
-* **E)** Acordo ou Concessão Mútua equilibrada.
-
+* **A)** V – V – F.
+* **B)** V – F – V.
+* **C)** F – V – V.
+* **D)** F – V – F.
+* **E)** V – V – V.
 
 ---
 
-> **Comentário Detalhado:**  
+> **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Colaboração combina alta assertividade com **alta cooperação**, buscando uma solução integrada "ganha-ganha".  
-> - **B) Incorreta.** Acomodação apresenta **baixa assertividade** (o indivíduo abre mão do seu próprio interesse) e alta cooperação.  
-> - **C) CORRETA.** O estilo de **Competição (ou Imposição / Enfrentamento)** é definido pela **alta assertividade** (busca obstinada de fazer prevalecer seus próprios interesses) combinada com **baixa cooperação** (desprezo pelos anseios e argumentos da contraparte), configurando uma dinâmica de "ganha-perde".  
-> - **D) Incorreta.** Evitação apresenta baixa assertividade e baixa cooperação (ignorar o conflito e fingir que não existe).  
-> - **E) Incorreta.** O acordo requer nível moderado de cooperação mútua, com ambas as partes cedendo em algum ponto.  
-> 
-> **Gabarito: C**
+> - **A)** **Correta.** Conforme fundamentado na seção *B) Diagnóstico de Lacunas (Gap Analysis) e Plano de Desenvolvimento de Pessoas (PDP)* deste guia, \$\$\mathbf{\text{GAP de Competência} = \text{Competência Requerida pelo Cargo/Função} - \text{Competência Apresentada pelo Servidor}}\$\$. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "V – V – F".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – F – V". De acordo com a teoria estudada em *As Quatro Perspectivas Clássicas e a Adaptação para o Setor Público:*, *No setor público:* O topo do mapa estratégico é obrigatoriamente a Perspectiva do Cidadão e da Sociedade. O órgão público não visa ao lucro comercial, mas sim à geração de valor público, garantia de direitos fundamentais e satisfação dos cidadãos-usuários.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – V – V". De acordo com a teoria estudada em *B) Diagnóstico de Lacunas (Gap Analysis) e Plano de Desenvolvimento de Pessoas (PDP)*, a gestão por competências opera por meio do confronto analítico entre o perfil exigido pelo órgão e o perfil demonstrado pelo servidor.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – V – F". De acordo com a teoria estudada em *7. Gestão de Conflitos Organizacionais (Thomas-Kilmann)*, nas teorias organizacionais modernas, o conflito deixou de ser encarado como uma patologia a ser sumariamente extirpada. O conflito pode ser.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – V – V". De acordo com a teoria estudada em *2. O Balanced Scorecard (BSC) no Setor Público*, criado pelos professores de Harvard Robert Kaplan e David Norton no início da década de 1990, o Balanced Scorecard (BSC) surgiu para suprir as deficiências dos sistemas tradicionais de medição, focados unicamente em indicadores contábeis e financeiros históricos.
+>
+> **Gabarito: A**
 
 ---
 
 ### Teste 338
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A Gestão por Competências no setor público busca alinhar o desenvolvimento dos servidores aos objetivos estratégicos da organização. De acordo com o modelo amplamente consagrado na doutrina administrativa (Dutra, Zarifian, Fleury), a competência individual fundamenta-se no tripé conceitual **C.H.A.**.
+**(FGV – TCE-GO – Analista de Controle Externo Controle Externo – 2024)**
+A matriz GUT é uma ferramenta de análise que ajuda a priorizar problemas ou situações, considerando sua gravidade, urgência e tendência de crescimento, facilitando a tomada de decisões assertivas. Sobre a matriz GUT, é correto o que se afirma em
 
-As letras que compõem a sigla **CHA** representam:
-
-* **A)** Conhecimento (o saber teórico), Habilidade (o saber fazer prático) e Atitude (o querer fazer / agir proativo).
-* **B)** Controle fiscal, Hierarquia funcional e Autoridade delegada.
-* **C)** Celeridade operacional, Honestidade profissional e Aptidão física.
-* **D)** Criatividade técnica, Homogeneidade de tarefas e Assertividade comunicacional.
-* **E)** Conformidade regulamentar, Homologação decisória e Atendimento cortês.
-
+* **A)** Gravidade questiona “a ação pode aguardar?”
+* **B)** Urgência questiona “a ação é relativamente importante?”
+* **C)** Urgência questiona “a situação vai melhorar?”
+* **D)** Tendência questiona “a ação é extremamente importante?”
+* **E)** Tendência questiona “a situação vai piorar?”
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. **CHA**: **Conhecimento** (saber teórico), **Habilidade** (saber fazer / capacidade prática) e **Atitude** (querer fazer / postura e proatividade).
-> - **B), C), D), E)** Incorretas. Distorções que não correspondem ao modelo teórico.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Gravidade questiona “a ação pode aguardar?”". De acordo com a teoria estudada em *B) Matriz GUT (Gravidade, Urgência e Tendência)*, u - Urgência: Avalia o tempo remanescente para intervir antes que consequências danosas ocorram (1 = pode esperar sem prejuízo; 5 = exige intervenção imediata / perda iminente).
+> - **B)** **Correta.** Conforme fundamentado na seção *B) Matriz GUT (Gravidade, Urgência e Tendência)* deste guia, instrumento matemático prioritário para ranquear problemas, projetos ou demandas operacionais que concorrem por recursos escassos. Cada variável recebe uma nota de 1 a 5. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "Urgência questiona “a ação é relativamente importante?”".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Urgência questiona “a situação vai melhorar?”". De acordo com a teoria estudada em *B) Matriz GUT (Gravidade, Urgência e Tendência)*, t - Tendência: Projeta o padrão evolutivo e a probabilidade de agravamento do problema no tempo (1 = vai desaparecer ou estagnar; 5 = vai piorar rápida e drasticamente).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Tendência questiona “a ação é extremamente importante?”". De acordo com a teoria estudada em *B) Matriz GUT (Gravidade, Urgência e Tendência)*, \$\$\mathbf{\text{Pontuação de Prioridade} = \text{Gravidade (G)} \times \text{Urgência (U)} \times \text{Tendência (T)}}\$\$.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Tendência questiona “a situação vai piorar?”". De acordo com a teoria estudada em *B) Matriz GUT (Gravidade, Urgência e Tendência)*, g - Gravidade: Mensura a extensão do dano, prejuízo material ou impacto institucional caso nada seja feito (1 = sem gravidade; 5 = gravíssimo / danos irreparáveis).
+>
+> **Gabarito: B**
 
 ---
 
 ### Teste 339
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A respeito dos indicadores de desempenho da gestão pública e das dimensões clássicas dos **6 Es** (Eficácia, Eficiência, Efetividade, Economicidade, Excelência e Execução):
+**(CEBRASPE – TJ-RJ – Analista Judiciario Grupo Tecnologia da Informacao Analista de Gestao de Tic – 2021)**
+O planejamento estratégico em uma organização pública é orientado a
 
-Um programa público de vacinação infantil que imunizou 98% do público-alvo planejado, gerando como reflexo a erradicação de determinada doença infectocontagiosa na população infantil do Estado no ano subsequente, demonstrou, com relação ao atingimento da meta quantitativa e ao impacto social transformador duradouro, respectivamente:
-
-* **A)** Alta Eficácia (atingimento da meta física de vacinação de 98%) e Alta Efetividade (impacto real positivo na saúde pública com a erradicação da doença).
-* **B)** Alta Economicidade e Baixa Eficiência orçamentária.
-* **C)** Baixa Eficácia e Ausência de Efetividade social.
-* **D)** Execução financeira passiva e Baixa Excelência de atendimento.
-* **E)** Fato gerador contábil sem reflexo em indicadores de desempenho da gestão.
-
+* **A)** ações de curto prazo e mobiliza o nível operacional da organização.
+* **B)** ações de médio prazo e mobiliza o nível tático da organização.
+* **C)** ações de longo prazo e mobiliza o nível operacional da organização.
+* **D)** ações de médio prazo e mobiliza o nível operacional da organização.
+* **E)** ações de longo prazo e mobiliza o nível institucional da organização.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. **Eficácia** mede o atingimento de metas planejadas (atingiu 98% de imunização); **Efetividade** mede o impacto real e mudança duradoura na sociedade (erradicação da doença infantil).
-> - **B), C), D), E)** Incorretas. Não refletem as definições doutrinárias consagradas.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ações de curto prazo e mobiliza o nível operacional da organização". De acordo com a teoria estudada em *1. Níveis do Planejamento Organizacional*, a FCC frequentemente tenta inverter os horizontes temporais e escopos, afirmando que o planejamento tático cuida de tarefas operacionais diárias ou que o planejamento operacional traça a visão de longo prazo do órgão.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ações de médio prazo e mobiliza o nível tático da organização". De acordo com a teoria estudada em *1. Níveis do Planejamento Organizacional*, nível Hierárquico: Institucional (Diretoria, Tribunal Pleno, Secretários de Estado).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ações de longo prazo e mobiliza o nível operacional da organização". De acordo com a teoria estudada em *1. Níveis do Planejamento Organizacional*, nível Hierárquico: Operacional (supervisores, servidores de execução técnica e analítica).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ações de médio prazo e mobiliza o nível operacional da organização". De acordo com a teoria estudada em *A) Matriz SWOT (FOFA)*, a análise SWOT (*Strengths, Weaknesses, Opportunities, Threats* / Forças, Oportunidades, Fraquezas e Ameaças) é um clássico modelo de diagnóstico situacional estratégico que correlaciona o diagnóstico interno e externo da organização.
+> - **E)** **Correta.** Conforme fundamentado na seção *1. Níveis do Planejamento Organizacional* deste guia, lembre-se: Estratégico = Longo Prazo / Toda a Organização; Tático = Médio Prazo / Unidades e Departamentos; Operacional = Curto Prazo / Tarefas, Procedimentos e Rotinas. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TJ-RJ/2021) ao estabelecer que "ações de longo prazo e mobiliza o nível institucional da organização".
+>
+> **Gabarito: E**
 
 ---
 

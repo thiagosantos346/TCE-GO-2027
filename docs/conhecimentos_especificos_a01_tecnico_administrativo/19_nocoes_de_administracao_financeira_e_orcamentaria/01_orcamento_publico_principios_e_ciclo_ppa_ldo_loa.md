@@ -125,27 +125,26 @@ flowchart LR
 ---
 
 ### Teste 209
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No processo evolutivo da gestão pública e das finanças governamentais, diferentes técnicas orçamentárias foram desenvolvidas para responder às demandas do Estado. Sobre os modelos e técnicas orçamentárias, assinale a afirmativa INCORRETA:
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Direito – 2024)**
+Em relação à evolução do orçamento público, relacione a metodologia de elaboração do orçamento público com suas respectivas definições e/ou objetivos principais: Assinale a opção que indica a relação correta, na ordem apresentada. 1. Orçamento de Desempenho 2. Orçamento tradicional ou clássico 3. Orçamento Base Zero - OBZ 4. Orçamento-Programa ( ) peça meramente contábil-financeira, com previsão de receita e de autorização de despesas. ( ) Orçamento como instrumento de gerenciamento do Poder Público, visando especialmente instrumentalizar a ação gerencial. ( ) orientado para o planejamento, com reavaliações periódicas das ações orçamentárias, com despesas estruturadas em atividades ou operações e com a justificativa detalhada dos custos, propósito, benefícios. ( ) possibilita a integração do planejamento com o orçamento, a quantificação de objetivos e a fixação de metas, as relações insumo-produto, as alternativas de programa, o acompanhamento físico-financeiro, a avaliação de resultados e a gerência por objetivos. Assinale a opção que apresenta a relação correta, na ordem apresentada.
 
-* **A)** O Orçamento Tradicional ou Clássico caracteriza-se pela ênfase primordial no objeto do gasto e no controle contábil das despesas, prescindindo de um planejamento estruturado de objetivos finalísticos.
-* **B)** O Orçamento de Desempenho (ou por Realizações) representou um estágio intermediário em que a ênfase deslocou-se para as coisas que o governo faz, embora ainda dissociado de um planejamento global articulado de longo prazo.
-* **C)** O Orçamento Base-Zero (OBZ) adota como premissa a análise e a justificação individualizada de todos os programas a cada ciclo orçamentário, não havendo direitos adquiridos a dotações fixadas no exercício pretérito.
-* **D)** O Orçamento-Programa vincula as dotações orçamentárias diretamente a objetivos e metas preestabelecidas, utilizando indicadores sistemáticos para aferição da eficácia e da efetividade das políticas públicas.
-* **E)** O Orçamento Incremental fundamenta-se na revisão integral da base orçamentária existente, recusando terminantemente a aplicação de índices marginais ou percentuais de reajuste automático sobre os gastos anteriores.
-
+* **A)** 2 – 1 – 4 – 3.
+* **B)** 1 – 2 – 3 – 4.
+* **C)** 4 – 3 – 2 – 1.
+* **D)** 3 – 4 – 1 – 2.
+* **E)** 2 – 1 – 3 – 4.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. O orçamento tradicional/clássico priorizava estritamente o objeto do gasto (insumos/compras) e o controle contábil-legalista.
-> - **B)** Correta. O orçamento de desempenho focava no que a administração realizava, mas carecia de conexão integrada com o planejamento governamental global.
-> - **C)** Correta. No OBZ (criado por Peter Pyhrr), inexiste direito a dotações passadas; cada pacote de decisão é reavaliado a partir da estaca zero.
-> - **D)** Correta. O orçamento-programa é o instrumento contemporâneo que articula planejamento, programas de trabalho e mensuração de resultados.
-> - **E)** Incorreta. O orçamento incremental baseia-se justamente na preservação da base de gastos anterior e aplicação de ajustes marginais (na margem), sem rever criticamente as ações continuadas.
-> 
-> **Gabarito: E**
+> - **A)** **Correta.** Conforme fundamentado na seção *1.2 Modelos Orçamentários e Comparativo Evolutivo* deste guia, cuidado! O Orçamento de Desempenho deu o primeiro passo ao focar nas atividades/ações, mas pecou por não possuir conexão com o planejamento global integrado. Somente o Orçamento-Programa consolida a tríade *planejamento-programação-orçamento*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "2 – 1 – 4 – 3".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1 – 2 – 3 – 4". De acordo com a teoria estudada em *1.2 Modelos Orçamentários e Comparativo Evolutivo*, a evolução histórica do orçamento público evidencia a transição de um mero instrumento contábil-financeiro de contenção do gasto para um instrumento tático e estratégico de desenvolvimento econômico-social.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "4 – 3 – 2 – 1". De acordo com a teoria estudada em *1.2 Modelos Orçamentários e Comparativo Evolutivo*, completa dissociação entre o orçamento e qualquer planejamento de longo prazo; não há mensuração de benefícios sociais ou metas de desempenho.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3 – 4 – 1 – 2". De acordo com a teoria estudada em *1.2 Modelos Orçamentários e Comparativo Evolutivo*, orçamento Base-Zero (OBZ) ou Estratégico.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2 – 1 – 3 – 4". De acordo com a teoria estudada em *1.1 Conceito e Natureza Jurídica do Orçamento Público*, o orçamento público é o ato formal pelo qual o Poder Executivo estima as receitas e fixa e autoriza as despesas governamentais para um período determinado (geralmente coincidente com o ano civil), consubstanciando o plano financeiro de ação do Estado.
+>
+> **Gabarito: A**
 
 ---
 
@@ -211,90 +210,73 @@ flowchart TD
 ---
 
 ### Teste 210
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na elaboração do projeto de Lei Orçamentária Anual (LOA) de determinado Estado, o Poder Executivo incluiu um artigo concedendo autorização legislativa para a alteração das alíquotas do Imposto sobre Circulação de Mercadorias e Serviços (ICMS), bem como autorização para a abertura de créditos orçamentários suplementares até o limite de 20% da despesa fixada.
+**(FGV – TCE-PI – Auditor de Controle Externo Controle Externo Especifica de Area Comum – 2025)**
+A CRFB/88 estabelece: “Art. 167. São vedados: [...] IV. A vinculação de receita de impostos a órgão, fundo ou despesa, ressalvadas a repartição do produto da arrecadação dos impostos a que se referem os Arts. 158 e 159, a destinação de recursos para as ações e serviços públicos de saúde, para manutenção e desenvolvimento do ensino e para realização de atividades da administração tributária [...]” Com relação aos impostos e às vinculações, o princípio da Constituição Federal que o texto acima consagra é o
 
-Diante do princípio orçamentário da exclusividade (art. 165, § 8º da CF/88):
-
-* **A)** Ambas as autorizações constantes do projeto são constitucionais, pois a LOA pode veicular quaisquer normas com reflexo financeiro.
-* **B)** Ambas as autorizações são flagrantemente inconstitucionais, haja vista que a LOA não admite qualquer tipo de exceção temática.
-* **C)** A autorização para abertura de créditos suplementares é constitucional por consistir em ressalva expressa ao princípio da exclusividade; todavia, a cláusula alterando alíquotas de ICMS padece de inconstitucionalidade material por se tratar de matéria estranha à LOA.
-* **D)** A autorização para alterar ICMS é válida, mas a previsão de créditos suplementares é proibida pelo texto constitucional.
-* **E)** O projeto é nulo e deve ser arquivado imediatamente sem deliberação pelo plenário da Assembleia Legislativa.
-
+* **A)** do Equilíbrio.
+* **B)** da Exclusividade.
+* **C)** da Uniformidade.
+* **D)** do Orçamento Bruto.
+* **E)** da Não-Afetação das Receitas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A LOA não pode veicular alterações de alíquotas tributárias de direito substantivo; isso configura típica violação ao princípio da exclusividade ("cauda orçamentária").
-> - **B)** Incorreta. A CF/88 estabelece duas exceções taxativas ao princípio da exclusividade (créditos suplementares e operações de crédito).
-> - **C)** Correta. Conforme o art. 165, § 8º da CF/88, a LOA não conterá matéria estranha à previsão da receita e à fixação da despesa, excetuando-se a autorização para abertura de créditos suplementares e contratação de operações de crédito. Logo, a autorização de créditos suplementares é constitucional, e a norma alteradora de alíquota do ICMS é inconstitucional por constituir matéria estranha à lei de meios orçamentária.
-> - **D)** Incorreta. Inverteu o tratamento constitucional dado aos institutos.
-> - **E)** Incorreta. O vício pontual de inconstitucionalidade em dispositivo do projeto não invalida todo o processo orçamentário, ensejando emenda saneadora ou veto governamental.
-> 
-> **Gabarito: C**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "do Equilíbrio". De acordo com a teoria estudada em *2.6 Princípio da Não Afetação (Não Vinculação) da Receita de Impostos*, previsto no art. 167, IV da CF/88: é vedada a vinculação de receita de impostos a órgão, fundo ou despesa.
+> - **B)** **Correta.** Conforme fundamentado na seção *2.6 Princípio da Não Afetação (Não Vinculação) da Receita de Impostos* deste guia, destinação a ações e serviços públicos de saúde (art. 198, § 2º). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PI/2025) ao estabelecer que "da Exclusividade".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "da Uniformidade". De acordo com a teoria estudada em *2.6 Princípio da Não Afetação (Não Vinculação) da Receita de Impostos*, realização de atividades da administração tributária (art. 37, XXII).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "do Orçamento Bruto". De acordo com a teoria estudada em *2.5 Princípio do Orçamento Bruto*, não é admitido compensar a receita com as despesas cobradas para sua arrecadação (ex.: registrar no orçamento apenas o valor líquido arrecadado de um imposto após descontar as taxas bancárias de cobrança).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "da Não-Afetação das Receitas". De acordo com a teoria estudada em *2.6 Princípio da Não Afetação (Não Vinculação) da Receita de Impostos*, manutenção e desenvolvimento do ensino (art. 212).
+>
+> **Gabarito: B**
 
 ---
 
 ### Teste 211
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A respeito dos princípios orçamentários consagrados na legislação brasileira e no texto da Constituição Federal de 1988, considere as seguintes assertivas:
+**(FGV – TCE-GO – Analista de Controle Externo Juridica – 2024)**
+De acordo com a Constituição Federal e a legislação em vigor, a lei orçamentária anual (LOA) compreende
 
-I. O princípio da exclusividade impede que a Lei Orçamentária Anual disponha sobre autorização para a contratação de operações de crédito, ainda que por antecipação de receita orçamentária.  
-
-II. O princípio da não afetação veda genericamente a vinculação de qualquer espécie tributária a órgão, fundo ou despesa pública.  
-
-III. O princípio do orçamento bruto estabelece que todas as receitas e despesas constarão da lei de orçamento pelos seus totais, vedadas quaisquer deduções pecuniárias prévias.  
-
-Está correto o que se afirma APENAS em:
-
-* **A)** I.
-* **B)** II.
-* **C)** III.
-* **D)** I e II.
-* **E)** I e III.
-
+* **A)** as diretrizes, objetivos e metas da administração pública a serem priorizadas durante o período de 1 (um) ano de sua vigência.
+* **B)** as metas e prioridades da administração pública, estabelecendo as diretrizes de política fiscal e respectivas metas, em consonância com trajetória sustentável da dívida pública.
+* **C)** o orçamento fiscal anual, podendo conter dispositivo não previsto na receita e na fixação da despesa, e a autorização para abertura de créditos suplementares e contratação de operações de crédito.
+* **D)** o orçamento de todos os poderes, no período de um ano, sendo vedado prever despesas para exercícios seguintes, com a especificação dos investimentos plurianuais e daqueles em andamento.
+* **E)** o orçamento fiscal (receitas e despesas), o orçamento de investimentos e o orçamento da seguridade social, todos de duração anual, abrangendo as finanças de todos os Poderes da União, fundos, órgãos e entidades da Administração Pública Federal direta e indireta.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O item I é falso, pois a contratação de operações de crédito (inclusive por ARO) é ressalva expressa ao princípio da exclusividade.
-> - **B)** Incorreta. O item II é falso, pois a vedação de afetação alcança restritivamente os impostos, não abrangendo taxas ou contribuições.
-> - **C)** Correta. Apenas a assertiva III é verdadeira. O art. 6º da Lei nº 4.320/1964 dispõe taxativamente que todas as receitas e despesas constarão da Lei de Orçamento pelos seus totais, vedadas quaisquer deduções pecuniárias.
-> - **D)** Incorreta. Ambos os itens I e II contêm erros jurídicos flagrantes.
-> - **E)** Incorreta. O item I é manifestamente contrário ao texto do art. 165, § 8º da CF/88.
-> 
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as diretrizes, objetivos e metas da administração pública a serem priorizadas durante o período de 1 (um) ano de...". De acordo com a teoria estudada em *2.4 Princípio da Exclusividade Orçamentária*, autorização para a contratação de operações de crédito, ainda que por antecipação de receita orçamentária (ARO), nos termos da lei.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as metas e prioridades da administração pública, estabelecendo as diretrizes de política fiscal e respectivas...". De acordo com a teoria estudada em *3.2 Lei de Diretrizes Orçamentárias (LDO): O Elo Tático e as Exigências da LRF*, estabelece as diretrizes de política fiscal e suas metas, em consonância com a trajetória sustentável da dívida pública.
+> - **C)** **Correta.** Conforme fundamentado na seção *2.4 Princípio da Exclusividade Orçamentária* deste guia, previsto expressamente no art. 165, § 8º da CF/88: a LOA não conterá dispositivo estranho à previsão da receita e à fixação da despesa. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "o orçamento fiscal anual, podendo conter dispositivo não previsto na receita e na fixação da despesa, e a...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o orçamento de todos os poderes, no período de um ano, sendo vedado prever despesas para exercícios seguintes, com...". De acordo com a teoria estudada em *2.2 Princípio da Universalidade*, a Lei Orçamentária Anual deve conter todas as receitas e todas as despesas de todos os Poderes, órgãos, fundos e entidades da administração direta e indireta (arts. 2º, 3º e 4º da Lei nº 4.320/1964 e art. 165, § 5º da CF/88).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o orçamento fiscal (receitas e despesas), o orçamento de investimentos e o orçamento da seguridade social, todos...". De acordo com a teoria estudada em *3.3 Lei Orçamentária Anual (LOA): A Estrutura Tríplice Integrada*, orçamento da Seguridade Social: Abrange todas as entidades e órgãos a ela vinculados, da administração direta ou indireta, bem como os fundos e fundações instituídos e mantidos pelo poder público, contemplando as áreas de Saúde, Previdência Social e Assistência Social (Art. 195 da CF/88).
+>
 > **Gabarito: C**
 
 ---
 
 ### Teste 212
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A respeito dos princípios orçamentários consagrados na legislação de finanças públicas brasileira (Lei nº 4.320/1964 e CF/88), analise as proposições a seguir:
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Administracao – 2026)**
+Durante a análise do projeto de lei orçamentária anual de determinado Estado, o Tribunal de Contas identificou a inclusão de dispositivo que condiciona a liberação de dotações orçamentárias da área de saúde à prévia aprovação, pelo Poder Executivo, de metas administrativas específicas a serem fixadas posteriormente por decreto. Constatou-se, ainda, que o mesmo projeto de lei não discrimina adequadamente determinadas despesas, agrupando-as sob rubricas genéricas. À luz dos princípios orçamentários aplicáveis, o Tribunal de Contas deverá considerar que a proposta orçamentária viola predominante o princípio da(o)
 
-I. O princípio da universalidade preceitua que a Lei Orçamentária Anual deve conter todas as receitas e todas as despesas de todos os Poderes, órgãos, entidades, fundos e fundações instituídas e mantidas pelo Poder Público.  
-II. O princípio do orçamento bruto veda a inclusão no orçamento de deduções de despesas de arrecadação das receitas, devendo estas figurar pelas importâncias globais arrecadadas.  
-III. O princípio da unidade ou totalidade admite a existência formal de três leis orçamentárias autônomas e independentes em cada exercício financeiro: o orçamento fiscal, o orçamento da seguridade social e o orçamento de investimentos.
-
-Está correto o que se afirma em:
-
-* **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** II e III, apenas.
-* **D)** I e III, apenas.
-* **E)** I, II e III.
-
+* **A)** unidade, pois o orçamento deve ser apresentado em peça única, vedada a fragmentação entre diferentes instrumentos normativos.
+* **B)** universalidade, pois todas as receitas e despesas devem constar do orçamento, inclusive aquelas de natureza operacional das empresas estatais.
+* **C)** exclusividade, pois a lei orçamentária não pode conter condicionantes estranhas à previsão da receita e à fixação da despesa.
+* **D)** anualidade, pois o orçamento deve corresponder ao exercício financeiro e não pode prever metas condicionais futuras.
+* **E)** equilíbrio, pois a ausência de discriminação detalhada compromete a correspondência entre receitas e despesas. Informática e Análise de Dados
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **I. Correto.** O art. 2º da Lei nº 4.320/1964 e o art. 165, § 5º da CF/88 consagram a universalidade: a LOA abrange a totalidade das receitas e despesas de todos os Poderes e esferas orçamentárias.
-> - **II. Correto.** O art. 6º da Lei nº 4.320/1964 estabelece o princípio do orçamento bruto: vedada qualquer dedução preliminar sobre receitas e despesas.
-> - **III. Incorreto.** O princípio da unidade/totalidade exige que o orçamento seja uno para cada esfera governamental. O orçamento fiscal, da seguridade social e de investimentos compõem **uma única lei anual** (LOA), dividida em três peças orçamentárias integradas, e não três leis autônomas.
-> 
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "unidade, pois o orçamento deve ser apresentado em peça única, vedada a fragmentação entre diferentes instrumentos...". De acordo com a teoria estudada em *2.1 Princípio da Unidade ou Totalidade*, a doutrina moderna (e a banca FCC) distingue a *Unidade clássica* (que defendia a existência física de um só documento) da *Totalidade orçamentária* (prevista no art. 165, § 5º da CF/88): embora a LOA congregue três esferas distintas (Orçamento Fiscal, da Seguridade Social e de Investimento das Estatais), todas integram formal e organicamente uma única e consolidada peça legislativa.
+> - **B)** **Correta.** Conforme fundamentado na seção *2.2 Princípio da Universalidade* deste guia, a Lei Orçamentária Anual deve conter todas as receitas e todas as despesas de todos os Poderes, órgãos, fundos e entidades da administração direta e indireta (arts. 2º, 3º e 4º da Lei nº 4.320/1964 e art. 165, § 5º da CF/88). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "universalidade, pois todas as receitas e despesas devem constar do orçamento, inclusive aquelas de natureza...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "exclusividade, pois a lei orçamentária não pode conter condicionantes estranhas à previsão da receita e à fixação...". De acordo com a teoria estudada em *2.4 Princípio da Exclusividade Orçamentária*, previsto expressamente no art. 165, § 8º da CF/88: a LOA não conterá dispositivo estranho à previsão da receita e à fixação da despesa.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "anualidade, pois o orçamento deve corresponder ao exercício financeiro e não pode prever metas condicionais futuras". De acordo com a teoria estudada em *1.1 Conceito e Natureza Jurídica do Orçamento Público*, o orçamento público é o ato formal pelo qual o Poder Executivo estima as receitas e fixa e autoriza as despesas governamentais para um período determinado (geralmente coincidente com o ano civil), consubstanciando o plano financeiro de ação do Estado.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "equilíbrio, pois a ausência de discriminação detalhada compromete a correspondência entre receitas e despesas...". De acordo com a teoria estudada em *2.7 Princípios do Equilíbrio, Legalidade, Clareza e Publicidade*, equilíbrio Orçamentário: Igualdade formal entre receitas estimadas e despesas fixadas na lei orçamentária. No aspecto material moderno, exige gestão fiscal prudente para geração de superávits primários e controle da dívida consolidada líquida (LRF).
+>
 > **Gabarito: B**
 
 ---
@@ -343,77 +325,74 @@ A LOA (art. 165, § 5º da CF/88) materializa o plano anual de receitas e despes
 ---
 
 ### Teste 213
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Acerca da vigência e da dinâmica estrutural do Plano Plurianual (PPA) no modelo orçamentário instituído pela Constituição Federal de 1988, é correto afirmar:
+**(FGV – TJ-SC – Analista Administrativo – 2026)**
+No primeiro ano de mandato, o Presidente da República encaminha ao Congresso Nacional projeto de lei que estabelece, de forma regionalizada, diretrizes, objetivos e metas da Administração Pública federal, voltados às despesas de capital e aos programas de duração continuada, com vigência para os anos subsequentes. À luz da Constituição Federal, é correto afirmar que esse projeto de lei
 
-* **A)** O PPA possui vigência de quatro anos, iniciando-se no primeiro ano do mandato do Chefe do Executivo e encerrando-se no término do quarto ano do mesmo mandato.
-* **B)** O PPA possui vigência de quatro anos, tendo início no segundo ano de mandato do governante eleito e término no encerramento do primeiro ano do mandato subsequente.
-* **C)** As diretrizes orçamentárias e metas do PPA vinculam a União e os Estados, mas dispensam adoção obrigatória no âmbito dos Municípios com menos de cinquenta mil habitantes.
-* **D)** O PPA destina-se unicamente a fixar a estimativa de arrecadação tributária anual e a tabela salarial dos servidores públicos da administração direta.
-* **E)** Os projetos de lei de PPA são de iniciativa concorrente entre o Presidente da República e os Presidentes da Câmara dos Deputados e do Senado Federal.
-
+* **A)** possui vigência de quatro anos, iniciando-se no segundo ano do mandato e encerrando-se no primeiro ano do mandato seguinte.
+* **B)** tem vigência coincidente com o mandato presidencial, iniciando-se no primeiro ano e encerrando-se no último ano de governo.
+* **C)** abrange exclusivamente despesas correntes, vedada a inclusão de despesas de capital.
+* **D)** dispensa a regionalização das metas, por se tratar de planejamento estratégico nacional.
+* **E)** caso rejeitado pelo Poder Legislativo, pode ser reeditado por medida provisória, em razão de sua natureza programática e provisória.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O PPA não coincide com os quatro anos exatos do mandato do chefe eleito, justamente para permitir continuidade gerencial e planejamento de médio prazo.
-> - **B)** Correta. Nos termos do art. 35, § 2º, I do ADCT da CF/88, o PPA vigora por quatro anos, iniciando seus efeitos em 1º de janeiro do segundo ano de mandato do Chefe do Executivo e perdurando até 31 de dezembro do primeiro ano do mandato governamental seguinte.
-> - **C)** Incorreta. O modelo orçamentário tripartite é obrigatório e vinculante para todas as esferas federativas, independentemente do porte populacional do Município.
-> - **D)** Incorreta. A estimativa tributária anual é matéria típica da LOA e as tabelas remuneratórias constam em leis ordinárias específicas; o PPA trata de diretrizes, objetivos e metas para despesas de capital e continuadas.
-> - **E)** Incorreta. A iniciativa legislativa das leis orçamentárias (PPA, LDO e LOA) é de competência privativa do Chefe do Poder Executivo (art. 165, *caput* da CF/88).
-> 
-> **Gabarito: B**
+> - **A)** **Correta.** Conforme fundamentado na seção *3.1 Plano Plurianual (PPA): Planejamento Estratégico de Médio Prazo* deste guia, matriz Constitucional (Art. 165, § 1º): Estabelece, de forma regionalizada, as Diretrizes, Objetivos e Metas (DOM) da administração pública federal, estadual ou municipal para as despesas de capital e outras delas decorrentes e para as relativas aos programas de duração continuada. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-SC/2026) ao estabelecer que "possui vigência de quatro anos, iniciando-se no segundo ano do mandato e encerrando-se no primeiro ano do mandato...".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "tem vigência coincidente com o mandato presidencial, iniciando-se no primeiro ano e encerrando-se no último ano de...". De acordo com a teoria estudada em *3.1 Plano Plurianual (PPA): Planejamento Estratégico de Médio Prazo*, vigência Quadrienal Descasada do Mandato.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "abrange exclusivamente despesas correntes, vedada a inclusão de despesas de capital". De acordo com a teoria estudada em *5.3 Transferências Especiais ("Emendas PIX") e com Finalidade Definida (Art. 166-A)*, mínimo de 70% em Capital: Pelo menos 70% (setenta por cento) das transferências especiais devem ser aplicadas em despesas de capital (investimentos, obras, aquisição de equipamentos), sendo permitido o máximo de 30% em despesas correntes de custeio operacional.
+> - **D)** **Incorreta.** A opção afasta requisito ou relação estrutural exigida pela matéria ao afirmar que "dispensa a regionalização das metas, por se tratar de planejamento estratégico nacional". De acordo com a teoria estudada em *3.1 Plano Plurianual (PPA): Planejamento Estratégico de Médio Prazo*, o PPA vigora por 4 anos: inicia-se no segundo ano do mandato do governante eleito e encerra-se no final do primeiro ano do mandato do sucessor (art. 35, § 2º, I do ADCT).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "caso rejeitado pelo Poder Legislativo, pode ser reeditado por medida provisória, em razão de sua natureza...". De acordo com a teoria estudada em *2.4 Princípio da Exclusividade Orçamentária*, a LOA pode autorizar a abertura de créditos suplementares, mas JAMAIS pode autorizar a abertura de créditos especiais ou extraordinários! Créditos especiais dependem de projeto de lei específico subsequente, e créditos extraordinários decorrem de ato executivo de urgência (Medida Provisória na União ou Decreto nos entes sem MP).
+>
+> **Gabarito: A**
 
 ---
 
 ### Teste 214
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A Lei de Responsabilidade Fiscal (Lei Complementar nº 101/2000) introduziu instrumentos fundamentais para garantir a solvência e a transparência fiscal dos entes públicos. Dentre esses instrumentos, o documento integrante do projeto de Lei de Diretrizes Orçamentárias (LDO) que estabelece as metas anuais de receitas e despesas, o montante da dívida pública e os resultados primário e nominal para o exercício a que se refere e para os dois seguintes denomina-se:
+**(FCC – TRT-6 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2012)**
+Com relação às características inovadoras do Plano Plurianual − PPA no ciclo orçamentário brasileiro, considere: I. É aprovado por lei anual, sujeita a prazos e ritos ordinários de tramitação. Tem vigência do primeiro ano de um mandato presidencial até o último ano do respectivo mandato. II. O PPA é dividido em planos de ações, e cada plano deverá conter indicadores que representem a situação que o plano visa a alterar, necessidade de bens e serviços para a correta efetivação do previsto, ações não previstas no orçamento da União e regionalização do plano. III. Os programas não serão executados por uma unidade responsável competente, pois durante a execução dos trabalhos várias unidades da esfera pública serão envolvidas. IV. O PPA prevê que sempre se deva buscar a integração das várias esferas do poder público (federal, estadual e municipal), e também destas com o setor privado. V. Prevê a atuação do governo, durante o período mencionado, em programas de duração continuada já instituídos ou a instituir no médio prazo. Está correto o que se afirma APENAS em
 
-* **A)** Relatório de Gestão Fiscal (RGF).
-* **B)** Anexo de Riscos Fiscais (ARF).
-* **C)** Anexo de Metas Fiscais (AMF).
-* **D)** Balanço Orçamentário Simplificado.
-* **E)** Demonstrativo de Restos a Pagar.
-
+* **A)** I, II, III e V.
+* **B)** I e III.
+* **C)** II, IV e V.
+* **D)** III, IV, e V.
+* **E)** II e IV.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O Relatório de Gestão Fiscal (RGF) é documento de controle emitido quadrimestralmente por cada Poder e órgão (arts. 54 e 55 da LRF).
-> - **B)** Incorreta. O Anexo de Riscos Fiscais (ARF) avalia os passivos contingentes e outros riscos capazes de comprometer as finanças públicas (art. 4º, § 3º da LRF).
-> - **C)** Correta. De acordo com o art. 4º, § 1º da LRF, integrará o projeto de LDO o Anexo de Metas Fiscais (AMF), em que serão estabelecidas metas anuais para receitas, despesas, montante da dívida pública e resultados nominal e primário, para o exercício a que se referir e para os dois seguintes.
-> - **D)** Incorreta. Trata-se de demonstrativo contábil integrante da prestação de contas governamentais da Lei nº 4.320/1964.
-> - **E)** Incorreta. Trata-se de demonstrativo contábil de controle operacional da execução da despesa.
-> 
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II, III e V". De acordo com a teoria estudada em *3.1 Plano Plurianual (PPA): Planejamento Estratégico de Médio Prazo*, vigência Quadrienal Descasada do Mandato.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e III". De acordo com a teoria estudada em *3.1 Plano Plurianual (PPA): Planejamento Estratégico de Médio Prazo*, o PPA vigora por 4 anos: inicia-se no segundo ano do mandato do governante eleito e encerra-se no final do primeiro ano do mandato do sucessor (art. 35, § 2º, I do ADCT).
+> - **C)** **Correta.** Conforme fundamentado na seção *3.1 Plano Plurianual (PPA): Planejamento Estratégico de Médio Prazo* deste guia, matriz Constitucional (Art. 165, § 1º): Estabelece, de forma regionalizada, as Diretrizes, Objetivos e Metas (DOM) da administração pública federal, estadual ou municipal para as despesas de capital e outras delas decorrentes e para as relativas aos programas de duração continuada. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-6/2012) ao estabelecer que "II, IV e V".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "III, IV, e V". De acordo com a teoria estudada em *3.1 Plano Plurianual (PPA): Planejamento Estratégico de Médio Prazo*, regra de Bloqueio Orçamentário (Art. 167, § 1º da CF/88): Nenhum investimento cuja execução ultrapasse um exercício financeiro poderá ser iniciado sem prévia inclusão no PPA, ou sem lei que autorize a inclusão, sob pena de crime de responsabilidade.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II e IV". De acordo com a teoria estudada em *3.1 Plano Plurianual (PPA): Planejamento Estratégico de Médio Prazo*, essa regra assegura a transição republicana e impede descontinuidade administrativa de projetos estratégicos.
+>
 > **Gabarito: C**
 
 ---
 
 ### Teste 215
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A Lei de Diretrizes Orçamentárias (LDO), concebida pela Carta Magna de 1988 e substancialmente fortalecida pela Lei de Responsabilidade Fiscal (LC nº 101/2000), desempenha papel fundamental no equilíbrio fiscal da Administração Pública. Sobre os anexos obrigatórios que integram o projeto da LDO, é correto afirmar:
+**(FGV – TCE-PI – Auditor de Controle Externo Controle Externo Especifica de Area Comum – 2025)**
+Sobre os instrumentos de planejamento orçamentário, avalie as afirmativas a seguir. I. Em consonância com o PPA, compete à Lei de Diretrizes Orçamentárias (LDO), entre outras atribuições, estabelecer as metas e prioridades da administração pública e orientar a elaboração dos orçamentos anuais. II. A Lei de Responsabilidade Fiscal (LRF) conferiu à LDO novas e importantes atribuições, além das constitucionalmente previstas, especialmente no tocante à fixação de metas fiscais. III. À luz do PPA e da LDO, cabe à Lei Orçamentária Anual (LOA) estimar receitas e fixar despesas, de modo a efetivamente autorizar a realização de gastos públicos em determinado exercício financeiro. Está correto o que se afirma em
 
-* **A)** O Anexo de Metas Fiscais define metas anuais para receitas, despesas, montante da dívida pública, resultado nominal e resultado primário para o exercício a que se referir e para os dois seguintes.
-* **B)** O Anexo de Riscos Fiscais é elaborado exclusivamente pela União, sendo os Estados, DF e Municípios dispensados de demonstrar passivos contingentes e riscos orçamentários.
-* **C)** As metas fiscais fixadas na LDO possuem caráter meramente enunciativo e acadêmico, não vinculando as dotações a serem consignadas no projeto de LOA.
-* **D)** A reserva de contingência constante da LOA deve ser fixada em percentual livremente escolhido pelo ordenador de despesas, sem parâmetros definidos na LDO.
-* **E)** O Anexo de Metas Fiscais contempla unicamente o demonstrativo das despesas com pessoal ativo e inativo de todos os Poderes.
-
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. O art. 4º, § 1º da LRF estabelece expressamente que integrará o projeto de LDO o Anexo de Metas Fiscais, no qual serão fixadas metas anuais de receitas, despesas, resultados nominal e primário e montante da dívida para o exercício e os dois seguintes (triênio).
-> - **B)** Incorreta. O Anexo de Riscos Fiscais é de elaboração compulsória para todos os entes da Federação (União, Estados, DF e Municípios).
-> - **C)** Incorreta. As metas fiscais são vinculantes e orientam a elaboração e execução da LOA, servindo de base para eventual limitação de empenho e movimentação financeira.
-> - **D)** Incorreta. A destinação e a forma de utilização da reserva de contingência são estipuladas na LDO (art. 5º, III da LRF).
-> - **E)** Incorreta. O AMF contempla metas de receita, despesa, resultado nominal, primário e dívida consolidada, com memória e metodologia de cálculo, e não apenas gastos com pessoal.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *3.2 Lei de Diretrizes Orçamentárias (LDO): O Elo Tático e as Exigências da LRF*, estabelece as diretrizes de política fiscal e suas metas, em consonância com a trajetória sustentável da dívida pública.
+> - **B)** **Correta.** Conforme fundamentado na seção *3.2 Lei de Diretrizes Orçamentárias (LDO): O Elo Tático e as Exigências da LRF* deste guia, anexo de Metas Fiscais (AMF): Estabelece metas anuais, em valores correntes e constantes, relativas a receitas, despesas, resultado nominal e primário e montante da dívida pública, para o exercício a que se referir e para os dois seguintes (triênio fiscal). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PI/2025) ao estabelecer que "I e II, apenas".
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *3.2 Lei de Diretrizes Orçamentárias (LDO): O Elo Tático e as Exigências da LRF*, compreende as metas e prioridades da administração pública.
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *3.1 Plano Plurianual (PPA): Planejamento Estratégico de Médio Prazo*, matriz Constitucional (Art. 165, § 1º): Estabelece, de forma regionalizada, as Diretrizes, Objetivos e Metas (DOM) da administração pública federal, estadual ou municipal para as despesas de capital e outras delas decorrentes e para as relativas aos programas de duração continuada.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *3.1 Plano Plurianual (PPA): Planejamento Estratégico de Médio Prazo*, regra de Bloqueio Orçamentário (Art. 167, § 1º da CF/88): Nenhum investimento cuja execução ultrapasse um exercício financeiro poderá ser iniciado sem prévia inclusão no PPA, ou sem lei que autorize a inclusão, sob pena de crime de responsabilidade.
+>
+> **Gabarito: B**
 
 ---
 
@@ -459,27 +438,26 @@ Enquanto não editada a Lei Complementar prevista no art. 165, § 9º da CF/88, 
 ---
 
 ### Teste 216
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Acerca do ciclo orçamentário e das competências constitucionais dos Poderes na tramitação da Lei Orçamentária Anual (LOA), assinale a afirmativa correta:
+**(FGV – TCE-GO – Analista de Controle Externo Ciencias Contabeis – 2024)**
+O ciclo orçamentário compreende as seguintes etapas essenciais: elaboração da proposta, apreciação legislativa, execução, controle e avaliação. Este ciclo representa o período em que ocorrem as atividades fundamentais do orçamento público, desde sua concepção inicial até a avaliação final de seu desempenho. Sobre o ciclo orçamentário, analise os itens a seguir: I. A elaboração da proposta orçamentária envolve a consolidação pelo Poder Executivo do projeto da lei orçamentária anual, abrangendo as propostas orçamentárias dos demais Poderes, seguida do envio ao Poder Legislativo para apreciação; II. A avaliação orçamentária consiste na avaliação do cumprimento das metas previstas na LOA e da execução dos programas de governo e dos orçamentos da União; III. A execução orçamentária compreende a utilização dos créditos consignados no Orçamento Geral da União, visando à realização das ações atribuídas às unidades orçamentárias. Envolve os três estágios da receita: empenho, liquidação e pagamento. Está correto o que se afirma em
 
-* **A)** O Poder Executivo possui a prerrogativa privativa de iniciativa dos projetos do PPA, da LDO e da LOA, cabendo ao Poder Legislativo a deliberação, apreciação e eventual aprovação ou rejeição de emendas.
-* **B)** Caso a proposta da LOA não seja aprovada pelo Congresso Nacional até o encerramento da sessão legislativa, a sessão deve ser suspensa imediatamente e o orçamento anterior é prorrogado tacitamente por mais um exercício completo.
-* **C)** É admitida a aprovação de emendas parlamentares individuais ao projeto de LOA que acarretem aumento de despesa global sem indicação dos recursos compensatórios mediante anulação de dotações.
-* **D)** As emendas parlamentares impositivas individuais destinadas à saúde podem ser executadas discricionariamente pelo Executivo quando houver superávit primário.
-* **E)** A Comissão Mista Permanente de Senadores e Deputados (CMO) examina e emite parecer unicamente sobre o PPA, não tendo competência formal sobre a LOA nem sobre os créditos adicionais.
-
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. A iniciativa legislativa dos projetos orçamentários (PPA, LDO e LOA) é competência privativa do Chefe do Poder Executivo (art. 165 da CF/88), cabendo ao Legislativo o exame, debate, emendamento e votação.
-> - **B)** Incorreta. A não votação da LDO impede a interrupção da sessão legislativa (recesso parlamentar). A não aprovação da LOA autoriza a execução provisória mensal de despesas correntes inadiáveis conforme regras da LDO, jamais a prorrogação tácita do orçamento anterior.
-> - **C)** Incorreta. Conforme o art. 166, § 3º da CF/88, as emendas ao projeto de lei orçamentária somente podem ser aprovadas caso indiquem os recursos necessários, admitidos apenas os provenientes de anulação de despesas (excluídas dotações de pessoal, serviço da dívida e transferências tributárias constitucionais).
-> - **D)** Incorreta. As emendas individuais têm execução obrigatória (orçamento impositivo), sujeitando-se apenas a contingenciamento proporcional ou impedimentos técnicos formalizados.
-> - **E)** Incorreta. A CMO possui competência constitucional expressa para examinar e emitir parecer sobre todos os projetos de PPA, LDO, LOA, créditos adicionais e contas de governo (art. 166, § 1º da CF/88).
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *4.1 As Quatro Etapas do Ciclo Orçamentário*, execução Orçamentária e Financeira: Arrecadação de receitas, emissão de empenhos, liquidação e pagamento das despesas públicas.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *4.1 As Quatro Etapas do Ciclo Orçamentário*, controle e Avaliação: Fiscalização contábil, financeira, orçamentária, operacional e patrimonial exercida pelos sistemas de controle interno e pelo controle externo (Poder Legislativo auxiliado pelo Tribunal de Contas).
+> - **C)** **Correta.** Conforme fundamentado na seção *4.1 As Quatro Etapas do Ciclo Orçamentário* deste guia, elaboração da Proposta: Competência privativa do Chefe do Poder Executivo, que consolida suas propostas e as demandas orçamentárias dos demais Poderes e órgãos autônomos (Legislativo, Judiciário, Ministério Público e Defensoria Pública), nos limites estipulados pela LDO. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "I e III, apenas".
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *5.4 Limitações e Impedimentos Técnicos na Execução Obrigatória*, contingenciamento Proporcional: Se a estimativa de receita e da despesa demonstrar que o cumprimento das metas de resultado primário ou nominal pode ser comprometido, o montante das emendas impositivas poderá ser reduzido na mesma proporção da limitação de empenho aplicada às demais despesas discricionárias (art. 166, § 18 da CF/88).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *4.1 As Quatro Etapas do Ciclo Orçamentário*, discussão, Votação e Aprovação: Conduzida no âmbito do Poder Legislativo, iniciando-se por comissão mista e culminando com votação em plenário e envio para sanção ou veto.
+>
+> **Gabarito: C**
 
 ---
 
@@ -528,83 +506,74 @@ A execução obrigatória do orçamento impositivo não é irrestrita:
 ---
 
 ### Teste 217
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em relação às normas constitucionais vigentes relativas às emendas parlamentares individuais de execução orçamentária e financeira obrigatória (orçamento impositivo), é correto afirmar que:
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Direito – 2024)**
+Há, no âmbito financeiro-orçamentário, grande debate sobre se o orçamento público tem caráter meramente autorizativo ou efetivamente impositivo. Sobre o tema, avalie se as afirmativas a seguir são verdadeiras (V) ou falsas (F). ( ) A promulgação da Emenda Constitucional nº 100, que alterou normas do direito financeiro, tornou obrigatória a execução da programação orçamentária proveniente de emendas de bancada de parlamentares, consolidando o caráter autorizativo ao orçamento. ( ) A corrente que defende o caráter autorizativo do orçamento considera que o Poder Legislativo autoriza as despesas que podem ser realizadas pelos Poderes da República, assim, em regra, a lei orçamentária não impõe a execução integral das programações. ( ) A corrente que defende o caráter impositivo do orçamento afirma que a lei orçamentária configura autêntica obrigação de gasto ao administrador público, não se admitindo surpresas na execução orçamentária. As afirmativas são, respectivamente,
 
-* **A)** Os recursos transferidos por meio de transferência especial ("emendas PIX") aos Estados e Municípios podem ser utilizados livremente para pagamento de folha de salários de servidores e serviço da dívida pública.
-* **B)** É obrigatória a destinação de, pelo menos, metade (50%) do valor total das emendas parlamentares individuais para ações e serviços públicos de saúde.
-* **C)** A execução das emendas individuais independe da observância de metas fiscais ou da constatação de impedimentos de ordem técnica devidamente justificados pelo Executivo.
-* **D)** O limite global de aprovação das emendas parlamentares individuais ao projeto de lei orçamentária é fixado em 10% da receita tributária líquida da União.
-* **E)** A execução orçamentária das emendas individuais de bancada estadual possui natureza facultativa e estritamente discricionária do Poder Executivo em qualquer hipótese.
-
+* **A)** V – F – V.
+* **B)** V – F – F.
+* **C)** F – V – V.
+* **D)** F – F – V.
+* **E)** F – V – F.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O art. 166-A, § 1º da CF/88 proíbe terminantemente a utilização de transferências especiais para custear despesas com pessoal/encargos e para pagamento do serviço da dívida consolidada.
-> - **B)** Correta. Nos exatos termos do art. 166, § 9º da CF/88, as emendas individuais são aprovadas no limite de 2% da receita corrente líquida do exercício anterior, sendo que metade (50%) desse percentual é compulsoriamente destinada a ações e serviços públicos de saúde (ASPS).
-> - **C)** Incorreta. As emendas impositivas subordinam-se a contingenciamento proporcional na hipótese de frustração de receitas fiscais e podem ter execução sobrestada por impedimentos de ordem técnica fundamentados.
-> - **D)** Incorreta. O parâmetro constitucional é de 2% da Receita Corrente Líquida (RCL) do ano anterior, e não 10% da receita tributária.
-> - **E)** Incorreta. As emendas de bancada estadual também foram contempladas com regime impositivo de execução vinculante (art. 166, §§ 12 e 13 da CF/88).
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – F – V". De acordo com a teoria estudada em *5.2 Emendas de Bancada Estadual Impositivas*, percentual Vinculante (Art. 166, § 12): A aprovação e execução orçamentária e financeira das emendas de bancada de parlamentares de Estado ou do DF são obrigatórias até o limite de 1% da Receita Corrente Líquida do exercício anterior.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – F – F". De acordo com a teoria estudada em *1.1 Conceito e Natureza Jurídica do Orçamento Público*, não criam, em regra, direitos subjetivos imediatos aos cidadãos (com exceção das regras cogentes de execução orçamentária impositiva criadas pelas Emendas Constitucionais nº 86/2015, 100/2019, 105/2019 e 126/2022).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – V – V". De acordo com a teoria estudada em *3.1 Plano Plurianual (PPA): Planejamento Estratégico de Médio Prazo*, regra de Bloqueio Orçamentário (Art. 167, § 1º da CF/88): Nenhum investimento cuja execução ultrapasse um exercício financeiro poderá ser iniciado sem prévia inclusão no PPA, ou sem lei que autorize a inclusão, sob pena de crime de responsabilidade.
+> - **D)** **Correta.** Conforme fundamentado na seção *5. Emendas Parlamentares e o Regime do Orçamento Impositivo* deste guia, historicamente meramente autorizativo, o orçamento brasileiro adquiriu feição parcialmente impositiva por meio de reformas constitucionais sucessivas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "F – F – V".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – V – F". De acordo com a teoria estudada em *5.4 Limitações e Impedimentos Técnicos na Execução Obrigatória*, contingenciamento Proporcional: Se a estimativa de receita e da despesa demonstrar que o cumprimento das metas de resultado primário ou nominal pode ser comprometido, o montante das emendas impositivas poderá ser reduzido na mesma proporção da limitação de empenho aplicada às demais despesas discricionárias (art. 166, § 18 da CF/88).
+>
+> **Gabarito: D**
 
 ---
 
 ### Teste 218
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A respeito do regime constitucional das emendas parlamentares impositivas instituído pelas Emendas Constitucionais nº 86/2015, nº 100/2019 e nº 105/2019, considere a seguinte hipótese fática:
+**(FGV – TRT-24 – Tecnico Judiciario Area Administrativa Sem Especialidade – 2025)**
+As emendas parlamentares são instrumentos previstos na Constituição Federal que permitem aos deputados e senadores propor alterações no Orçamento Público, direcionando recursos para atender demandas específicas de suas bases eleitorais. Questionando a transparência e a legalidade desses instrumentos, recentemente, a Procuradoria-Geral da República (PGR) denunciou deputados federais por suposta comercialização de emendas parlamentares. Neste tema, considere as afirmativas a seguir. I. As Emendas Individuais têm valor limitado de acordo com a Receita Corrente Líquida do setor público, sendo esta aferida no exercício anterior ao do encaminhamento do projeto de Lei Orçamentária. II. Metade do valor aprovado para Emendas Individuais será destinado a ações e serviços públicos de saúde. III. Não existe valor mínimo ou área específica que vincule qualquer valor das Emendas Individuais ao Orçamento. Elas são definidas conforme os interesses dos parlamentares, definidos por suas bases. Está correto o que se afirma em
 
-Determinada Assembleia Legislativa estadual aprovou a Lei Orçamentária Anual consignando emendas parlamentares individuais no patamar correspondente a 2% da receita corrente líquida apurada no exercício anterior. Dos recursos destinados por um dos parlamentares mediante a modalidade de Transferência Especial ("Emenda PIX") ao Município Gama, o Chefe do Poder Executivo municipal determinou a aplicação de 40% para pagamento da folha salarial dos servidores da saúde e 60% para aquisição de ambulâncias e pavimentação urbana.
-
-À luz do art. 166-A da CF/88 e das normas de finanças públicas, a destinação dos recursos pelo Prefeito Municipal:
-
-* **A)** É inteiramente regular, pois nas transferências especiais os recursos passam a pertencer ao Município a título de doação livre, podendo ser alocados em qualquer necessidade pública local.
-* **B)** É flagrantemente inconstitucional e irregular quanto aos 40% aplicados na folha de pessoal.
-* **C)** É irregular no tocante às despesas de capital (ambulâncias e pavimentação), visto que a Constituição exige a aplicação de 100% dos recursos em despesas de custeio corrente.
-* **D)** É válida, desde que o Tribunal de Contas do Estado autorize previamente a utilização da transferência especial para fins salariais em regime de urgência.
-* **E)** Depende obrigatoriamente de prévia celebração de convênio com o Estado para que a transferência especial possa ser executada validamente pelo Município.
-
+* **A)** I, apenas.
+* **B)** II, apenas.
+* **C)** III, apenas.
+* **D)** I e II, apenas.
+* **E)** I e III, apenas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Embora a transferência especial independa de convênio, ela sofre limitações constitucionais materiais rígidas.
-> - **B)** Correta. O art. 166-A, § 1º da CF/88 veda terminantemente a destinação de transferências especiais para despesas com pessoal e encargos sociais, bem como encargos do serviço da dívida. Ademais, pelo menos 70% devem ser alocados em despesas de capital.
-> - **C)** Incorreta. Pelo menos 70% das transferências especiais devem ser aplicadas em despesas de capital (investimentos/obras), exatamente como a compra de ambulâncias e obras de pavimentação.
-> - **D)** Incorreta. O Tribunal de Contas fiscaliza a conformidade da execução e não tem atribuição legal de dispensar vedação constitucional expressa.
-> - **E)** Incorreta. A marca distintiva da transferência especial ("PIX") é a dispensa de convênio ou contrato de repasse.
-> 
-> **Gabarito: B**
+> - **A)** **Correta.** Conforme fundamentado na seção *5.1 Emendas Individuais Impositivas* deste guia, percentual Vinculante (Art. 166, § 9º): As emendas individuais ao projeto de LOA serão aprovadas no limite de 2% da Receita Corrente Líquida (RCL) do exercício anterior. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "I, apenas".
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas". De acordo com a teoria estudada em *5.1 Emendas Individuais Impositivas*, vinculação à Saúde: A metade (50%) desse percentual deve ser destinada obrigatoriamente a ações e serviços públicos de saúde (ASPS).
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III, apenas". De acordo com a teoria estudada em *5.2 Emendas de Bancada Estadual Impositivas*, percentual Vinculante (Art. 166, § 12): A aprovação e execução orçamentária e financeira das emendas de bancada de parlamentares de Estado ou do DF são obrigatórias até o limite de 1% da Receita Corrente Líquida do exercício anterior.
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *5.1 Emendas Individuais Impositivas*, vedação de Compensação: Os recursos de emendas individuais não podem ser utilizados pelo Poder Executivo para abater ou integralizar o piso constitucional mínimo obrigatório que o ente deve aplicar em saúde (art. 166, § 10).
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *2.6 Princípio da Não Afetação (Não Vinculação) da Receita de Impostos*, destinação a ações e serviços públicos de saúde (art. 198, § 2º).
+>
+> **Gabarito: A**
 
 ---
 
 ### Teste 219
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Considere que, na elaboração do projeto de Lei Orçamentária Anual para o exercício subsequente, verificou-se a necessidade de inclusão de ações para atendimento de despesas decorrentes de um programa continuado de fomento regional com duração estimada de 3 (três) anos.
+**(FGV – TCE-GO – Analista de Controle Externo Ciencias Contabeis – 2024)**
+O Chefe do Poder Executivo do Estado Alfa encaminhou o projeto de lei orçamentária anual, abrangendo todos os Poderes e instituições constitucionais que gozam de autonomia financeira. No âmbito da Comissão competente da Assembleia Legislativa, que deve emitir parecer sobre a temática, os seus integrantes estavam propensos a apresentar emendas, devidamente compatíveis com o plano plurianual e a lei de diretrizes orçamentárias, com o objetivo de aumentar os valores a serem direcionados a certas políticas públicas. Ao consultarem seus assessores a respeito dos balizamentos estabelecidos pela ordem constitucional a respeito da temática, foi-lhes corretamente informado que
 
-De acordo com o art. 167, § 1º da Constituição Federal de 1988:
-
-* **A)** Nenhum investimento cuja execução ultrapasse um exercício financeiro poderá ser iniciado sem prévia inclusão no Plano Plurianual, ou sem lei que autorize a inclusão, sob pena de crime de responsabilidade.
-* **B)** Qualquer investimento plurianual pode ser iniciado desde que autorizado expressamente pela Lei de Diretrizes Orçamentárias, sendo dispensada a menção no PPA.
-* **C)** O início de projetos plurianuais independe de autorização em lei, bastando a existência de dotação suficiente na LOA para a primeira parcela.
-* **D)** Os investimentos plurianuais subordinam-se unicamente ao limite da capacidade de endividamento da Lei de Responsabilidade Fiscal, sendo prescindível a programação orçamentária.
-* **E)** Apenas as obras públicas financiadas por empréstimos externos exigem compatibilidade obrigatória com o Plano Plurianual.
-
+* **A)** podem ser utilizados, como fontes de recursos das emendas, valores que seriam direcionados ao pagamento de juros da dívida pública interna mobiliária.
+* **B)** somente podem ser utilizados recursos afetos às transferências tributárias constitucionais para os entes subnacionais.
+* **C)** para que as emendas possam ser apresentadas, é necessário que seja ampliada, de modo justificado, a estimativa da receita para o respectivo exercício financeiro.
+* **D)** é vedada a apresentação de emendas dessa natureza, considerando a iniciativa privativa do Governador do Estado para que seja iniciado o processo legislativo.
+* **E)** é admitida a apresentação das emendas, desde que anulada alguma despesa, a exemplo das despesas de capital.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. É a dicção literal do art. 167, § 1º da CF/88: "Nenhum investimento cuja execução ultrapasse um exercício financeiro poderá ser iniciado sem prévia inclusão no plano plurianual, ou sem lei que autorize a inclusão, sob pena de crime de responsabilidade".
-> - **B)** Incorreta. A exigência é de inclusão no PPA (ou lei específica de alteração do PPA), não bastando a LDO.
-> - **C)** Incorreta. A CF/88 veda taxativamente o início do investimento plurianual sem previsão no PPA, configurando crime de responsabilidade.
-> - **D)** Incorreta. A compatibilidade com o PPA é imperativo constitucional formal inegociável.
-> - **E)** Incorreta. Aplica-se a todo e qualquer investimento cuja execução ultrapasse um exercício financeiro, independentemente da fonte de recursos.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "podem ser utilizados, como fontes de recursos das emendas, valores que seriam direcionados ao pagamento de juros...". De acordo com a teoria estudada em *5.1 Emendas Individuais Impositivas*, vedação de Compensação: Os recursos de emendas individuais não podem ser utilizados pelo Poder Executivo para abater ou integralizar o piso constitucional mínimo obrigatório que o ente deve aplicar em saúde (art. 166, § 10).
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente podem ser utilizados recursos afetos às transferências tributárias constitucionais para os entes...". De acordo com a teoria estudada em *5.3 Transferências Especiais ("Emendas PIX") e com Finalidade Definida (Art. 166-A)*, vedações Constitucionais Absolutas: Não podem ser aplicados em.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "para que as emendas possam ser apresentadas, é necessário que seja ampliada, de modo justificado, a estimativa da...". De acordo com a teoria estudada em *5.4 Limitações e Impedimentos Técnicos na Execução Obrigatória*, contingenciamento Proporcional: Se a estimativa de receita e da despesa demonstrar que o cumprimento das metas de resultado primário ou nominal pode ser comprometido, o montante das emendas impositivas poderá ser reduzido na mesma proporção da limitação de empenho aplicada às demais despesas discricionárias (art. 166, § 18 da CF/88).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é vedada a apresentação de emendas dessa natureza, considerando a iniciativa privativa do Governador do Estado...". De acordo com a teoria estudada em *2.7 Princípios do Equilíbrio, Legalidade, Clareza e Publicidade*, legalidade Orçamentária: A aprovação do orçamento, de seus créditos adicionais e do plano plurianual depende obrigatoriamente de lei formal de iniciativa privativa do Executivo (art. 165 da CF/88).
+> - **E)** **Correta.** Conforme fundamentado na seção *3.1 Plano Plurianual (PPA): Planejamento Estratégico de Médio Prazo* deste guia, matriz Constitucional (Art. 165, § 1º): Estabelece, de forma regionalizada, as Diretrizes, Objetivos e Metas (DOM) da administração pública federal, estadual ou municipal para as despesas de capital e outras delas decorrentes e para as relativas aos programas de duração continuada. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "é admitida a apresentação das emendas, desde que anulada alguma despesa, a exemplo das despesas de capital".
+>
+> **Gabarito: E**
 
 ---
 

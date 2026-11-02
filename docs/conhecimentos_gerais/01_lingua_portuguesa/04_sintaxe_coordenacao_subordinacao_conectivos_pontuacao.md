@@ -90,26 +90,26 @@ Se a oração subordinada for retirada, a oração principal torna-se sintaticam
 ---
 
 ### Teste 032
-**(FGV – TRT – Analista Judiciário (TI) – 2024)**  
-Observe o pequeno texto narrativo a seguir: Passeava despreocupadamente pelas ruas do meu bairro e passei diante de uma loja da loteria esportiva e me lembrei de que havia um alto prêmio acumulado. Fiquei tentado em jogar, mas não podia gastar aquele dinheiro no momento e desisti. Um pouco mais adiante, porém, arrependi-me e voltei para a loja. Sobre a estruturação desse texto narrativo, assinale a afirmação inadequada.
+**(CEBRASPE – TRT-8 – Analista Judiciario Area Apoio Especializado Tecnologia da Informacao – 2022)**
+No que se refere aos aspectos linguísticos do texto CG1A1, assinale a opção correta.
 
-* **A)** Há uma situação inicial que mostra o passeio despreocupado do narrador.
-* **B)** Ocorre um fato motivador de uma modificação na situação inicial, que é o fato de passar pela loja de loteria e lembrar -se do prêmio acumulado.
-* **C)** Há uma discussão interior do personagem que corresponde à trama narrativa e a um problema a ser resolvido.
-* **D)** Desistir de jogar corresponde a uma solução temporária do conflito interior do narrador.
-* **E)** Arrepender-se equivale ao final da narrativa, em que o conflito do texto é resolvido.
+* **A)** A inserção do sinal indicativo de crase em “as suas informações” (terceiro período do primeiro parágrafo) manteria a correção gramatical e o sentido original do texto, uma vez que seu emprego é facultativo.
+* **B)** A flexão no plural da forma verbal “se associaram” (terceiro período do terceiro parágrafo) decorre da concordância com o sujeito “usuários da internet”, no mesmo período.
+* **C)** A oração “onde as máquinas estão presentes” (terceiro período do primeiro parágrafo) qualifica e restringe o termo “espaços”, no mesmo período.
+* **D)** A supressão de vírgula logo após “Internet” (primeiro período do quarto parágrafo) manteria o sentido original e a correção gramatical do texto.
+* **E)** No terceiro período do primeiro parágrafo, a vírgula empregada logo após “simplesmente” poderia ser retirada, sem prejuízo da coesão e da correção gramatical do texto, uma vez que, no contexto dado, seu uso é facultativo.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A coordenação aditiva foi empregada em sucessão temporal, sem valor adversativo.
-> - **B)** Incorreta. A repetição do conectivo 'e' (polissíndeto) não caracteriza oração subordinada causal.
-> - **C)** Incorreta. Não ocorre quebra de coesão referencial na cadeia de ações narradas.
-> - **D)** Incorreta. A estrutura expressa fatos cronológicos sucessivos, e não ações simultâneas.
-> - **E)** Correta. No texto narrativo apresentado, as orações coordenadas sindéticas aditivas encadeiam ações sucessivas no tempo, produzindo a dinâmica e a progressão temporal típica da tipologia narrativa.
+> - **A)** **Incorreta.** A opção afasta requisito ou relação estrutural exigida pela matéria ao afirmar que "A inserção do sinal indicativo de crase em “as suas informações” (terceiro período do primeiro parágrafo) manteria...". De acordo com a teoria estudada em *Distinção Semântica e Sintática Crucial:*, a FCC explora intensamente assertivas que indagam: *"A retirada das vírgulas da oração adjetiva mantém a correção gramatical e o sentido original do período?"*.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A flexão no plural da forma verbal “se associaram” (terceiro período do terceiro parágrafo) decorre da...". De acordo com a teoria estudada em *Distinção Semântica e Sintática Crucial:*, adjetiva Explicativa (com vírgulas): Vem isolada por vírgulas (ou travessões/parênteses). Atribui uma qualidade própria que abrange a totalidade dos elementos do termo antecedente. Não delimita o grupo, operando de forma generalizadora.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.1 Conceito de Período Composto e Mecanismos de Junção Oracional* deste guia, o reconhecimento do número de orações em um período faz-se pela identificação da quantidade de verbos ou locuções verbais presentes. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT-8/2022) ao estabelecer que "A oração “onde as máquinas estão presentes” (terceiro período do primeiro parágrafo) qualifica e restringe o termo...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A supressão de vírgula logo após “Internet” (primeiro período do quarto parágrafo) manteria o sentido original e a...". De acordo com a teoria estudada em *Distinção Semântica e Sintática Crucial:*, resposta técnica obrigatória: a retirada das vírgulas mantém a correção gramatical, mas SEMPRE ALTERA O SENTIDO DO TEXTO, transformando uma explicação genérica sobre a totalidade em uma restrição delimitadora sobre uma fração.
+> - **E)** **Incorreta.** A opção afasta requisito ou relação estrutural exigida pela matéria ao afirmar que "No terceiro período do primeiro parágrafo, a vírgula empregada logo após “simplesmente” poderia ser retirada, sem...". De acordo com a teoria estudada em *5.2 Regras do Uso da Vírgula no Período Simples*, se for de longa extensão (três ou mais palavras): o uso da vírgula é obrigatório (*"No primeiro semestre do exercício financeiro de 2026, concluíram-se as auditorias"*).
 >
-> **Gabarito: E**
+> **Gabarito: C**
 
 ---
 
@@ -160,26 +160,26 @@ A conjunção *pois* assume comportamentos sintáticos diametralmente opostos em
 ---
 
 ### Teste 033
-**(FCC – TRT-13 – Analista Judiciário (TI) – 2014)**  
-Considerando-se o contexto, a palavra que no segmento
+**(FGV – TJ-SC – Analista Administrativo – 2026)**
+Leia o fragmento de texto a seguir. Sentimento que não espairo; pois eu mesmo nem acerto com o mote disso ― o que queria e o que não queria, estória sem final. O correr da vida embrulha tudo, a vida é assim: esquenta e esfria, aperta e daí afrouxa, sossega e depois desinquieta. O que ela quer da gente é coragem. O que Deus quer é ver a gente aprendendo a ser capaz de ficar alegre a mais, no meio da alegria, e inda mais alegre no meio da tristeza! Só assim de repente, na horinha em que se quer, de propósito ― por coragem. Será? Era o que eu às vezes achava. Ao clarear do dia. ROSA, João Guimarães. Grande Sertão: Veredas. São Paulo: Cia das Letras. 2019. p. 293. No fragmento apresentado, o uso de diferentes sinais de pontuação contribui para a construção de sentidos e para a expressão da subjetividade do narrador. Considerando esse aspecto, assinale a afirmativa que analisa corretamente o papel desses recursos no texto.
 
-* **A)** ... que remonta aos autos medievais... (5o parágrafo) é um pronome com a função de objeto indireto.
-* **B)** As atividades que o grupo desenvolveu... (2o pará- grafo) é uma conjunção que equivale a “conforme”.
-* **C)** ... temas e formas de expressão artística que mais tarde viriam a influenciar... (1o parágrafo) é uma con- junção que introduz o predicativo do sujeito.
-* **D)** ... mais diretamente a inúmeros autores populares que se dedicaram ao gênero do cordel. (5 o pará- grafo) é um pronome com a função de sujeito.
-* **E)** ... e costuma dizer que boa parte da obra de Shakespeare... (6o parágrafo) é um pronome que in- troduz um objeto direto. _________________________________________________________ Atenção: Para responder às questões de números 9 e 10, considere o poema abaixo. Foi bem saber-se que o Sertão não só fala a língua do não (...) Os escritores que do Brejo, ou que da Mata, têm o sestro de só dar a vê-lo no pouco, no quando em que o vê, sertão-osso. Para o litoral, o esqueleto é o ser, o estilo sertanejo, que pode dar uma estrutura ao discurso que se discursa. Tu, que conviveste o Sertão quando no sim esquece o não, e sabes seu viver ambíguo, vestido de sola e de mitos, a quem só o vê retirante, vazio do que nele é cante, nos deste a ver que nele o homem não é só capaz de sede e fome. Sertanejo, nos explicaste como gente à beira do quase, que habita caatingas sem mel, cria os romances de cordel: o espaço mágico e o feérico, sem o imediato e o famélico, fantástico espaço suassuna, que ensina que o deserto funda (Trecho de: A pedra do reino . NETO, João Cabral de Melo)
+* **A)** O uso do ponto e vírgula estabelece relações de subordinação entre as orações, organizando o texto de forma hierarquizada.
+* **B)** Os dois-pontos introduzem explicações e enumerações, contribuindo para o encadeamento reflexivo das ideias do narrador.
+* **C)** O travessão é empregado para indicar mudança de interlocutor, caracterizando o texto como diálogo direto.
+* **D)** Os pontos finais fragmentam o texto em períodos independentes, sem relação com o ritmo ou com a construção de sentido.
+* **E)** O ponto de interrogação é utilizado para organizar sintaticamente o texto, sem interferir na expressividade da linguagem.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O termo 'que' não funciona como pronome relativo nessa oração, pois não retoma antecedente substantivo.
-> - **B)** Incorreta. Não atua como pronome indefinido interrogativo.
-> - **C)** Incorreta. Não desempenha papel de advérbio de intensidade.
-> - **D)** Incorreta. Não funciona como partícula de realce ou expletiva dispensável.
-> - **E)** Correta. O vocábulo 'que' atua como conjunção integrante, introduzindo uma oração subordinada substantiva que completa o sentido do verbo da oração principal (função de objeto direto ou sujeito oracional).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O uso do ponto e vírgula estabelece relações de subordinação entre as orações, organizando o texto de forma...". De acordo com a teoria estudada em *1.1 Conceito de Período Composto e Mecanismos de Junção Oracional*, a ligação entre essas orações processa-se ou por meio de conectivos expressos (conjunções coordenativas ou subordinativas, locuções conjuntivas e pronomes relativos) ou por simples justaposição assindética mediada por sinais de pontuação (vírgulas, ponto e vírgula ou dois-pontos).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os dois-pontos introduzem explicações e enumerações, contribuindo para o encadeamento reflexivo das ideias do...". De acordo com a teoria estudada em *1. Fundamentos do Período Composto: Coordenação e Subordinação*, no texto formal, técnico e legislativo, o encadeamento das proposições obedece a dois processos estruturais básicos: a coordenação e a subordinação.
+> - **C)** **Correta.** Conforme fundamentado na seção *5.4 Emprego de Ponto e Vírgula, Dois-Pontos, Travessões e Parênteses* deste guia, o travessão duplo atua como recurso expressivo para isolar termos intercalados, comentários enfáticos ou orações adjetivas explicativas, substituindo com elegância as vírgulas duplas ou os parênteses (*"O processo de auditoria — cuja complexidade assustava os neófitos — transcorreu dentro da mais estrita normalidade"*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-SC/2026) ao estabelecer que "O travessão é empregado para indicar mudança de interlocutor, caracterizando o texto como diálogo direto".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os pontos finais fragmentam o texto em períodos independentes, sem relação com o ritmo ou com a construção de...". De acordo com a teoria estudada em *5.5 Alterações de Sentido Provocadas pela Supressão ou Deslocamento de Pontuação*, *Supressão da vírgula de vocativo:* Transforma o chamamento em sujeito da oração (*"Auditor, assine o documento"* [ordem a um interlocutor] vs. *"Auditor assine o documento"* [frase defeituosa ou ambígua]).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O ponto de interrogação é utilizado para organizar sintaticamente o texto, sem interferir na expressividade da...". De acordo com a teoria estudada em *1.3 Processo de Subordinação e Encaixamento Hierárquico*, se a oração subordinada for retirada, a oração principal torna-se sintaticamente mutilada ou incompleta (no exemplo, o verbo *determinou* ficaria desprovido de seu complemento direto).
 >
-> **Gabarito: E**
+> **Gabarito: C**
 
 ---
 
@@ -231,50 +231,50 @@ flowchart TD
 ---
 
 ### Teste 034
-**(FCC – TRT-24 – Analista Judiciário (TI) – 2017)**  
-Percebe-se uma relação de causa e efeito, nessa ordem, entre as orações na seguinte passagem do texto:
+**(FCC – TRT-15 – Analista Judiciario Tecnologia da Informacao – 2015)**
+Atente para as afirmações, abaixo, sobre o texto: I. Com a substituição de que (1o parágrafo) por "se", atribui-se caráter hipotético ao que se diz em seguida. II. Sem prejuízo para a correção, pode-se isolar com vírgulas o título do livro A Crime So Monstrous (2o parágrafo), como ocorre, no último parágrafo, com o título do filme 12 Anos de Escravidão. III. O travessão empregado no 3o parágrafo introduz uma explicação, função semelhante à dos dois-pontos empregados no último parágrafo. Está correto o que consta APENAS em
 
-* **A)** Reconheço que, talvez antiquadamente, ainda sinto desconforto em ver casais e famílias à mesa, nos salões, cada qual com seu smartphone, sem diálogos presenciais ou interações reais. (4o parágrafo)
-* **B)** Contudo, presumo que algumas coisas não precisam deixar de pertencer à esfera privada. (2o parágrafo)
-* **C)** Na civilização contemporânea, on-line, conectada o tempo todo, se não for registrado e postado, não aconteceu. (1o parágrafo)
-* **D)** Sendo tudo tão novo nessa área, ainda engatinhamos a respeito de uma etiqueta que equilibre a convivência entre câmeras, pratos, extroversão, intimidade. (2o parágrafo)
-* **E)** Houve um tempo em que eu comia um monte de coisas e não precisava contar nada para ninguém. (1o parágrafo) Caderno de Prova ’H08’, Tipo 004 TRT24-Conhecimentos Gerais3 3
+* **A)** I e III.
+* **B)** I.
+* **C)** I e II.
+* **D)** II.
+* **E)** II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A relação entre as orações é de concessão/oposição, e não de causa e efeito.
-> - **B)** Correta. A primeira oração apresenta o fato motivador (a causa eficiente), e a segunda oração expressa o resultado concreto decorrente (o efeito ou consequência direta), obedecendo rigorosamente à ordem lógica de causa e efeito.
-> - **C)** Incorreta. As orações apresentam relação de conformidade e complementação informativa.
-> - **D)** Incorreta. Estabelece relação de finalidade (objetivo visado), e não de causa preexistente.
-> - **E)** Incorreta. Apresenta relação de temporalidade simultânea, sem nexo causal estrito.
+> - **A)** **Correta.** Conforme fundamentado na seção *5.4 Emprego de Ponto e Vírgula, Dois-Pontos, Travessões e Parênteses* deste guia, o travessão duplo atua como recurso expressivo para isolar termos intercalados, comentários enfáticos ou orações adjetivas explicativas, substituindo com elegância as vírgulas duplas ou os parênteses (*"O processo de auditoria — cuja complexidade assustava os neófitos — transcorreu dentro da mais estrita normalidade"*). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-15/2015) ao estabelecer que "I e III".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I". De acordo com a teoria estudada em *Distinção Semântica e Sintática Crucial:*, resposta técnica obrigatória: a retirada das vírgulas mantém a correção gramatical, mas SEMPRE ALTERA O SENTIDO DO TEXTO, transformando uma explicação genérica sobre a totalidade em uma restrição delimitadora sobre uma fração.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e II". De acordo com a teoria estudada em *Distinção Semântica e Sintática Crucial:*, adjetiva Explicativa (com vírgulas): Vem isolada por vírgulas (ou travessões/parênteses). Atribui uma qualidade própria que abrange a totalidade dos elementos do termo antecedente. Não delimita o grupo, operando de forma generalizadora.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II". De acordo com a teoria estudada em *Distinção Semântica e Sintática Crucial:*, a FCC explora intensamente assertivas que indagam: *"A retirada das vírgulas da oração adjetiva mantém a correção gramatical e o sentido original do período?"*.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II e III". De acordo com a teoria estudada em *1.1 Conceito de Período Composto e Mecanismos de Junção Oracional*, a ligação entre essas orações processa-se ou por meio de conectivos expressos (conjunções coordenativas ou subordinativas, locuções conjuntivas e pronomes relativos) ou por simples justaposição assindética mediada por sinais de pontuação (vírgulas, ponto e vírgula ou dois-pontos).
 >
-> **Gabarito: B**
+> **Gabarito: A**
 
 ---
 
 ### Teste 035
-**(FGV – TRT – Analista Judiciário (TI) – 2024)**  
-Assinale a oração adversativa que estabelece entre os segmentos indicados uma relação de real oposição.
+**(IBFC – TJ-MG – Analista Judiciario Classe C Analista de Tecnologia da Informacao – 2022)**
+Em “Explicar, a mim, como é Alejandra, Bruno ponderou, como é seu rosto, como são as dobras de sua boca.”, ao considerar a estrutura sintática e o emprego das vírgulas, é correto afirmar que:
 
-* **A)** A palavra é dom de todos, mas a sabedoria cabe a poucos.
-* **B)** Há muito o que saber, mas pouco que viver.
-* **C)** O que os homens realmente querem não é conhecimento, mas certezas.
-* **D)** Esteja pronto para escutar, mas lento para dar a resposta.
-* **E)** Mestre não é quem sempre ensina, mas quem de repente aprende.
+* **A)** as quatro últimas vírgulas caracterizam a construção de uma enumeração que diminui o ritmo do texto.
+* **B)** “a mim” explicita redundância no texto, o que justifica seu emprego entre vírgulas denotando seu papel acessório.
+* **C)** a oração intercalada “Bruno ponderou” cumpre papel acessório e revela a intervenção do próprio personagem.
+* **D)** a expressão “a mim”, entre vírgulas, é um complemento verbal realçado por sua disposição no período.
+* **E)** as construções introduzidas pela conjunção “como” aproximam-se semanticamente, mas exercem funções sintáticas distintas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O conectivo 'mas' funciona com valor meramente aditivo ou de retificação fraca, sem oposição conceitual real.
-> - **B)** Incorreta. A oração introduzida por 'porém' estabelece compensação ou ressalva sem quebra da ideia central.
-> - **C)** Incorreta. A relação semântica é de contraste aparente que apenas delimita o escopo da afirmação.
-> - **D)** Incorreta. O conectivo opera atenuação discursiva sem antítese real.
-> - **E)** Correta. A oração coordenada adversativa estabelece um confronto de ideias direto e antitético com a oração precedente, configurando uma relação de oposição real e incontestável entre os termos confrontados.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as quatro últimas vírgulas caracterizam a construção de uma enumeração que diminui o ritmo do texto". De acordo com a teoria estudada em *Distinção Semântica e Sintática Crucial:*, resposta técnica obrigatória: a retirada das vírgulas mantém a correção gramatical, mas SEMPRE ALTERA O SENTIDO DO TEXTO, transformando uma explicação genérica sobre a totalidade em uma restrição delimitadora sobre uma fração.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“a mim” explicita redundância no texto, o que justifica seu emprego entre vírgulas denotando seu papel acessório". De acordo com a teoria estudada em *5.4 Emprego de Ponto e Vírgula, Dois-Pontos, Travessões e Parênteses*, separa orações coordenadas de certa extensão que já contenham vírgulas internas: *"O relatório inicial apontou desvios de combustível; o parecer conclusivo, elaborado pela auditoria de engenharia, recomendou a instauração de tomada de contas especial."*.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a oração intercalada “Bruno ponderou” cumpre papel acessório e revela a intervenção do próprio personagem". De acordo com a teoria estudada em *5.3 Regras do Uso da Vírgula no Período Composto*, se a oração subordinada adverbial vier anteposta à oração principal ou intercalada nela: a vírgula é obrigatória (*"Embora chovesse torrencialmente, o fiscal compareceu à obra"*).
+> - **D)** **Correta.** Conforme fundamentado na seção *Distinção Semântica e Sintática Crucial:* deste guia, a FCC explora intensamente assertivas que indagam: *"A retirada das vírgulas da oração adjetiva mantém a correção gramatical e o sentido original do período?"*. Dessa forma, está plenamente correta a assertiva da banca (IBFC – TJ-MG/2022) ao estabelecer que "a expressão “a mim”, entre vírgulas, é um complemento verbal realçado por sua disposição no período".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as construções introduzidas pela conjunção “como” aproximam-se semanticamente, mas exercem funções sintáticas...". De acordo com a teoria estudada em *3.1 Orações Substantivas e o Método do Pronome ISSO*, são introduzidas quase invariavelmente pelas conjunções integrantes "QUE" ou "SE" (que não exercem função sintática própria, sendo meros conectivos de ligação).
 >
-> **Gabarito: E**
+> **Gabarito: D**
 
 ---
 
@@ -345,74 +345,74 @@ O conectivo *como* assume múltiplos papéis dependendo da sua posição na fras
 ---
 
 ### Teste 036
-**(FCC – TRT-1 – Analista Judiciário (TI) – 2014)**  
-Estes dois segmentos constitu em respectivamente, no con- texto dado, a expressão de uma causa e de seu efeito:
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Gestao Governamental – 2024)**
+Observe o pequeno texto narrativo a seguir: Passeava despreocupadamente pelas ruas do meu bairro e passei diante de uma loja da loteria esportiva e me lembrei de que havia um alto prêmio acumulado. Fiquei tentado em jogar, mas não podia gastar aquele dinheiro no momento e desisti. Um pouco mais adiante, porém, arrependi-me e voltei para a loja. Sobre a estruturação desse texto narrativo, assinale a afirmação inadequada.
 
-* **A)** interpretação dramática / despojamento das letras das canções (3o parágrafo)
-* **B)** assimilando traços da linguagem popular / submetida ao rigor estético da literatura erudita (2o parágrafo)
-* **C)** rejeitando a música passional / inspirava-se no jazz (3o parágrafo)
-* **D)** Organizava-se, assim, a cultura engajada de esquer- da / Cinema Novo e canção engajada (4o parágrafo)
-* **E)** a primeira metade da década de 1960 / luta pelas Reformas de Base (4o parágrafo) _________________________________________________________
+* **A)** Há uma situação inicial que mostra o passeio despreocupado do narrador.
+* **B)** Ocorre um fato motivador de uma modificação na situação inicial, que é o fato de passar pela loja de loteria e lembrar-se do prêmio acumulado.
+* **C)** Há uma discussão interior do personagem que corresponde à trama narrativa e a um problema a ser resolvido.
+* **D)** Desistir de jogar corresponde a uma solução temporária do conflito interior do narrador.
+* **E)** Arrepender-se equivale ao final da narrativa, em que o conflito do texto é resolvido.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. O primeiro segmento enuncia o fator deflagrador no contexto (a causa), e o segundo segmento expressa a repercussão ou consequência necessária que dele adveio (o efeito), mantendo exata pertinência textual com a progressão das ideias do autor.
-> - **B)** Incorreta. Os papéis estão invertidos: o primeiro segmento expressa a consequência e o segundo indica a causa.
-> - **C)** Incorreta. Os segmentos articulam uma concessão seguida de afirmação categórica, e não nexo causal.
-> - **D)** Incorreta. A relação no contexto é de comparação e analogia entre dois fatos distintos.
-> - **E)** Incorreta. Trata-se de orações justapostas com sentido aditivo cumulativo.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Há uma situação inicial que mostra o passeio despreocupado do narrador". De acordo com a teoria estudada em *1. Fundamentos do Período Composto: Coordenação e Subordinação*, no texto formal, técnico e legislativo, o encadeamento das proposições obedece a dois processos estruturais básicos: a coordenação e a subordinação.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Ocorre um fato motivador de uma modificação na situação inicial, que é o fato de passar pela loja de loteria e...". De acordo com a teoria estudada em *4.3 O Trio Crítico da FCC: Porquanto, Portanto e Conquanto*, pORQUANTO (Causal / Explicativo): Equivale a *porque*, *já que*, *visto que*, *dado que*. Introduz a causa do fato ou a justificativa de uma ordem.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Há uma discussão interior do personagem que corresponde à trama narrativa e a um problema a ser resolvido". De acordo com a teoria estudada em *4.2 Adversativas vs. Concessivas: Conflito Sintático, Semântico e Modal*, a oposição de ideias pode ser expressa por meio de coordenadas adversativas ou subordinadas concessivas. Embora ambas expressem contraste, seu funcionamento linguístico é radicalmente diverso.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Desistir de jogar corresponde a uma solução temporária do conflito interior do narrador". De acordo com a teoria estudada em *Distinção Semântica e Sintática Crucial:*, resposta técnica obrigatória: a retirada das vírgulas mantém a correção gramatical, mas SEMPRE ALTERA O SENTIDO DO TEXTO, transformando uma explicação genérica sobre a totalidade em uma restrição delimitadora sobre uma fração.
+> - **E)** **Correta.** Conforme fundamentado na seção *Distinções Gramaticais Determinantes:* deste guia, na oração coordenada adversativa, o argumento mais forte, que orienta a conclusão final do autor, situa-se dentro da própria oração adversativa (*"O projeto é dispendioso, mas trará enormes benefícios à coletividade"* \$\rightarrow\$ prevalece a ideia de aprovação do projeto). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "Arrepender-se equivale ao final da narrativa, em que o conflito do texto é resolvido".
 >
-> **Gabarito: A**
+> **Gabarito: E**
 
 ---
 
 ### Teste 037
-**(FCC – TRT-4 – Analista Judiciário (TI) – 2015)**  
-A frase em que o segmento destacado expressa uma circunstância restritiva é:
+**(IBFC – TJ-MG – Analista Judiciario Classe C Analista de Tecnologia da Informacao – 2022)**
+Considere as passagens “e mais ainda por ser tão sutil e imperceptível,” e “pois assim o equívoco era mais profundo e doloroso”. A construção destacada introduz, em relação à última passagem, um sentido de:
 
-* **A)** (linha 2) Nesse sentido, é muito óbvio que ela não seja realística. [...]
-* **B)** (linha 3) Além disso, é quase sempre bastante cara de se encenar e de se assistir.
-* **C)** (linha 4) Em nenhum momento da história a sociedade, como um todo, conseguiu sustentar facilmente os custos exorbitantes da ópera.
-* **D)** (linha 10) Essas perguntas são mais sobre a ópera tal como ela é hoje em dia [...]
-* **E)** (linha 13) Nosso objetivo é lidar com uma forma de arte cujas obras mais populares e duradouras foram quase sempre escritas num distante passado europeu. Caderno de Prova ’AT’, Tipo 001 TRT4R-Conhecimentos Básicos2 3
+* **A)** conformidade.
+* **B)** consequência.
+* **C)** concessão.
+* **D)** causa.
+* **E)** conclusão.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O segmento funciona como oração adjetiva explicativa (delimitada por vírgulas), referindo-se à totalidade dos elementos.
-> - **B)** Incorreta. O termo destacado desempenha função adverbial circunstancial de modo, e não restrição atributiva.
-> - **C)** Incorreta. O segmento é um aposto explicativo genérico que expande o termo antecedente sem restringir sua extensão.
-> - **D)** Correta. O segmento destacado funciona como uma oração subordinada adjetiva restritiva (sem vírgulas), limitando o sentido do substantivo antecedente a um subgrupo específico e indispensável à identificação do referente.
-> - **E)** Incorreta. Trata-se de locução adjetiva de posse sem valor de restrição conceitual.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "conformidade". De acordo com a teoria estudada em *4.1 Quadro Completo das Conjunções Subordinativas Adverbiais*, conformativa: Conformidade, acordo ou modelo seguido — *conforme, consoante, segundo, como* (= conforme) — *"O edital foi publicado, como prescreve a lei."*.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "consequência". De acordo com a teoria estudada em *4.3 O Trio Crítico da FCC: Porquanto, Portanto e Conquanto*, pORTANTO (Conclusivo): Equivale a *logo*, *por conseguinte*, *assim*, *dessa forma*. Introduz a consequência lógica ou o arremate dedutivo.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "concessão". De acordo com a teoria estudada em *4.1 Quadro Completo das Conjunções Subordinativas Adverbiais*, causal: Motivo, razão ou causa da oração principal — *porque, visto que, já que, uma vez que, como* (no início), *porquanto, dado que* — *"Como chovia torrencialmente, o fiscal adiou a vistoria."*.
+> - **D)** **Correta.** Conforme fundamentado na seção *4.3 O Trio Crítico da FCC: Porquanto, Portanto e Conquanto* deste guia, pORQUANTO (Causal / Explicativo): Equivale a *porque*, *já que*, *visto que*, *dado que*. Introduz a causa do fato ou a justificativa de uma ordem. Dessa forma, está plenamente correta a assertiva da banca (IBFC – TJ-MG/2022) ao estabelecer que "causa".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "conclusão". De acordo com a teoria estudada em *Distinções Gramaticais Determinantes:*, na oração coordenada adversativa, o argumento mais forte, que orienta a conclusão final do autor, situa-se dentro da própria oração adversativa (*"O projeto é dispendioso, mas trará enormes benefícios à coletividade"* \$\rightarrow\$ prevalece a ideia de aprovação do projeto).
 >
 > **Gabarito: D**
 
 ---
 
 ### Teste 038
-**(FGV – TRT – Analista Judiciário (TI) – 2024)**  
-Leia a frase abaixo com atenção: Ninguém fica velho apenas por viver, mas por perder o interesse em viver. Assinale a afirmativa correta o significado ou a estruturação dessa frase.
+**(FCC – TRT-4 – Analista Judiciario Tecnologia da Informacao – 2015)**
+Considere a frase abaixo e as assertivas I, II e III. E por que a ópera é a única forma de música erudita que ainda desenvolve de modo significativo novas audiências, apesar de que, no último século ou por volta disso, o fluxo de novas obras, que uma vez foi seu sangue vital, secou até se reduzir a um débil gotejar? I. O segmento apesar de que introduz ideia naturalmente compatível com a expressa na primeira parte do enunciado, de modo que a expectativa criada na porção inicial se harmoniza com o que vem a seguir na frase. II. A palavra até, que usualmente sinaliza o ápice de uma ação, tem esse sentido prejudicado em virtude de vir associada à ideia expressa por débil. III. Se uma vírgula fosse introduzida antes da palavra ou, não haveria prejuízo para a correção original. É correto o que se afirma APENAS em
 
-* **A)** A relação entre os segmentos da frase não é de oposição, mas de diferença.
-* **B)** O adjetivo “velho”, no contexto da frase, tem alto valor pejorativo.
-* **C)** O segundo segmento da frase retifica algo dito erradamente no primeiro segmento.
-* **D)** O termo “fica velho” pode ser adequadamente substituído por “envelheceu”.
-* **E)** O emprego de “apenas” mostra uma visão negativa do ato de viver. Matemática Financeira, Estatística e Raciocínio Lógico
+* **A)** I.
+* **B)** I e II.
+* **C)** II e III.
+* **D)** II.
+* **E)** III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. A análise demonstra com exatidão a estrutura sintática e o sentido da frase: o termo 'mas' atua em oposição corretiva ('não por X, mas por Y'), indicando a verdadeira causa que leva ao envelhecimento na visão do autor, desmistificando a causa aparente ('apenas por viver').
-> - **B)** Incorreta. A alternativa atribui valor aditivo à conjunção adversativa, falseando a intenção discursiva do autor.
-> - **C)** Incorreta. A frase não expressa tempo sucessivo, mas a causalidade interna do envelhecimento.
-> - **D)** Incorreta. A análise nega indevidamente o valor de contraposição presente na construção correlativa.
-> - **E)** Incorreta. O autor não considera ambos os fatores como causas equivalentes; ao contrário, ele rejeita o primeiro como causa determinante.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I". De acordo com a teoria estudada em *4.3 O Trio Crítico da FCC: Porquanto, Portanto e Conquanto*, cONQUANTO (Concessivo): Equivale a *embora*, *ainda que*, *a despeito de que*, *posto que*. Introduz uma ressalva concessiva que não anula a oração principal e rege o modo subjuntivo.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e II". De acordo com a teoria estudada em *4.3 O Trio Crítico da FCC: Porquanto, Portanto e Conquanto*, pORTANTO (Conclusivo): Equivale a *logo*, *por conseguinte*, *assim*, *dessa forma*. Introduz a consequência lógica ou o arremate dedutivo.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II e III". De acordo com a teoria estudada em *3.1 Orações Substantivas e o Método do Pronome ISSO*, para comprovar que uma oração é subordinada substantiva e que a palavra *que* ou *se* atua como conjunção integrante, substitua mentalmente toda a oração a partir do conectivo pelo pronome demonstrativo neutro "ISSO" (ou *a isso, de isso/disso, com isso*).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II". De acordo com a teoria estudada em *4.1 Quadro Completo das Conjunções Subordinativas Adverbiais*, consecutiva: Consequência, resultado ou efeito decorrente — *tal.. que, tanto.. que, tão.. que, tamanho.. que, de forma que, de modo que* — *"A fraude foi tamanha que chocou os auditores."*.
+> - **E)** **Correta.** Conforme fundamentado na seção *Distinção Semântica e Sintática Crucial:* deste guia, a FCC explora intensamente assertivas que indagam: *"A retirada das vírgulas da oração adjetiva mantém a correção gramatical e o sentido original do período?"*. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-4/2015) ao estabelecer que "III".
 >
-> **Gabarito: A**
+> **Gabarito: E**
 
 ---
 
@@ -486,74 +486,74 @@ A pontuação é ferramenta de arquitetura do sentido discursivo. O deslocamento
 ---
 
 ### Teste 039
-**(FCC – TRT-1 – Analista Judiciário (TI) – 2014)**  
-A pontuação está plenamente adequada na seguinte frase:
+**(FUMARC – TRT-3 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2022)**
+11 Sobre o anúncio: “Aluga-se quarto com banheiro a 8 quadras do centro.”, pode-se dizer que a duplicidade de sentido pode ser desfeita, EXCETO
 
-* **A)** Além da dramaticidade própria de certos gêneros musicais a Bossa Nova repudiava também, a inter- pretação excessivamente exaltada, de alguns can- tores.
-* **B)** Assim como João Cabral, Guimarães Rosa também adotou, em seus textos primorosos uma articulação entre elementos da cultura popular, e da cultura clássica ou erudita.
-* **C)** Inspirados no jazz, segundo afirmam alguns críticos musicais, Tom Jobim e João Gilberto criaram e di- fundiram, ao longo dos anos 60, o ritmo e as can- ções da então chamada Bossa Nova.
-* **D)** Ficam claras no texto, as contribuições que a cultura e a política dão uma à outra, pelas quais, toda mani- festação artística pode também, ser vista como ma- nifestação histórica.
-* **E)** Houve um momento, agudo na nossa história, em que por razões políticas, artistas foram levados à criação de obras que se pretendiam engajadas, em determinadas lutas de classe. _________________________________________________________
+* **A)** se colocarmos dois pontos após o termo “aluga-se”.
+* **B)** se colocarmos vírgula após o termo “quarto com banheiro”.
+* **C)** se colocarmos vírgulas intercalando o termo “com banheiro”
+* **D)** se colocarmos vírgulas intercalando o termo “quarto com banheiro”
+* **E)** se o termo “a 8 quadras do centro” vier no início da frase.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Há separação indevida entre sujeito e predicado por vírgula simples.
-> - **B)** Correta. A frase emprega a pontuação em estrita conformidade com a norma-padrão: as orações intercaladas e os adjuntos adverbiais deslocados estão devidamente isolados por vírgulas duplas, e o verbo mantém conexão direta com seus complementos.
-> - **C)** Incorreta. Falta vírgula obrigatória para isolar o adjunto adverbial de grande extensão deslocado para o início do período.
-> - **D)** Incorreta. Oração restritiva foi indevidamente isolada por vírgula, transformando restrição em explicação.
-> - **E)** Incorreta. Há vírgula espúria entre o verbo transitivo direto e o seu objeto direto.
+> - **A)** **Correta.** Conforme fundamentado na seção *3.2 Classificação Sintática das Orações Subordinadas Substantivas* deste guia, apositiva: Exerce o papel de aposto explicativo, esclarecendo um termo antecedente, comumente posposta a dois-pontos (*"Desejo apenas uma coisa: que a verdade prevaleça"*). Dessa forma, está plenamente correta a assertiva da banca (FUMARC – TRT-3/2022) ao estabelecer que "se colocarmos dois pontos após o termo “aluga-se”".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "se colocarmos vírgula após o termo “quarto com banheiro”". De acordo com a teoria estudada em *5.4 Emprego de Ponto e Vírgula, Dois-Pontos, Travessões e Parênteses*, separa orações coordenadas de certa extensão que já contenham vírgulas internas: *"O relatório inicial apontou desvios de combustível; o parecer conclusivo, elaborado pela auditoria de engenharia, recomendou a instauração de tomada de contas especial."*.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "se colocarmos vírgulas intercalando o termo “com banheiro”". De acordo com a teoria estudada em *5.4 Emprego de Ponto e Vírgula, Dois-Pontos, Travessões e Parênteses*, o travessão duplo atua como recurso expressivo para isolar termos intercalados, comentários enfáticos ou orações adjetivas explicativas, substituindo com elegância as vírgulas duplas ou os parênteses (*"O processo de auditoria — cuja complexidade assustava os neófitos — transcorreu dentro da mais estrita normalidade"*).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "se colocarmos vírgulas intercalando o termo “quarto com banheiro”". De acordo com a teoria estudada em *1.1 Conceito de Período Composto e Mecanismos de Junção Oracional*, a ligação entre essas orações processa-se ou por meio de conectivos expressos (conjunções coordenativas ou subordinativas, locuções conjuntivas e pronomes relativos) ou por simples justaposição assindética mediada por sinais de pontuação (vírgulas, ponto e vírgula ou dois-pontos).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "se o termo “a 8 quadras do centro” vier no início da frase". De acordo com a teoria estudada em *4.4 A Polissemia do Conectivo Como*, como Causal: Ocorre tipicamente anteposto ao período (no início da frase), equivalendo a *já que, visto que, dado que*: *"Como o prazo de apresentação de defesa havia expirado na véspera, o gestor foi declarado revel"*.
 >
-> **Gabarito: B**
+> **Gabarito: A**
 
 ---
 
 ### Teste 040
-**(FCC – TRT-24 – Analista Judiciário (TI) – 2017)**  
-A alternativa que apresenta um comentário correto acerca da pontuação de um trecho do texto é:
+**(FCC – TRT-23 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2016)**
+Atente para as afirmações abaixo. I. A vírgula colocada imediatamente após o travessão (1o parágrafo) pode ser suprimida, sem prejuízo da correção e do sentido. II. Sem prejuízo da correção, o segmento nas quais (3o parágrafo) pode ser substituído por “em que”. III. A crase é facultativa no segmento do manual de instruções de um aparelho eletrônico à numeração das linhas de ônibus. (1o parágrafo) Está correto o que consta APENAS em
 
-* **A)** em Esse fato primordial de nosso ser no mundo, em primeiro lugar, como uma condição de escolha moral... (3o parágrafo), as vírgulas destacam uma expressão com valor temporal, imprimindo no texto um tom de memória.
-* **B)** em ... uma ideia bastante clara do que envolve “atuar baseado na responsabilidade”. (3o parágrafo), as aspas demarcam uma expressão empregada com teor irônico e que, portanto, relativiza o que foi exposto anteriormente.
-* **C)** em ... muito antes de alguma autoridade nos dizer o que é “bem” e “mal” (e por vezes o que não é uma coisa nem outra)... (2o parágrafo), os parênteses intercalam uma expressão que precisa o sentido do vocábulo autoridade.
-* **D)** em Somos [...] seres morais: somos confrontados com o desafio do outro, o desafio da responsabilidade pelo outro... (1o parágrafo), os dois-pontos introduzem uma ressalva a uma afirmação de tom categórico.
-* **E)** em Somos, por assim dizer, inevitavelmente − existencialmente −, seres morais... (1o parágrafo), os travessões são usados para dar ênfase a uma palavra que expressa circunstância de modo.
+* **A)** III.
+* **B)** I e III.
+* **C)** I e II.
+* **D)** II e III.
+* **E)** II.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A supressão das vírgulas apontada acarretaria erro gramatical por deixar adjunto adverbial deslocado sem isolamento.
-> - **B)** Incorreta. A pontuação empregada não tem caráter facultativo na estrutura indicada.
-> - **C)** Correta. O comentário assinala com propriedade a justificativa gramatical da pontuação no trecho: as vírgulas isolam termo explicativo intercalado, cuja remoção não compromete a estrutura sintática básica da oração principal.
-> - **D)** Incorreta. A inserção de ponto e vírgula no local sugerido quebraria indevidamente a subordinação sintática.
-> - **E)** Incorreta. O travessão no excerto não pode ser substituído por dois-pontos sem alteração da relação discursiva.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "III". De acordo com a teoria estudada em *5.5 Alterações de Sentido Provocadas pela Supressão ou Deslocamento de Pontuação*, a pontuação é ferramenta de arquitetura do sentido discursivo. O deslocamento ou a eliminação de um sinal de pontuação pode transformar completamente o sentido da mensagem.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e III". De acordo com a teoria estudada em *4.2 Adversativas vs. Concessivas: Conflito Sintático, Semântico e Modal*, a oposição de ideias pode ser expressa por meio de coordenadas adversativas ou subordinadas concessivas. Embora ambas expressem contraste, seu funcionamento linguístico é radicalmente diverso.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e II". De acordo com a teoria estudada em *5.3 Regras do Uso da Vírgula no Período Composto*, se a oração adverbial vier posposta à oração principal (ordem direta): a vírgula é facultativa (*"O fiscal compareceu à obra[,] embora chovesse torrencialmente"*).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II e III". De acordo com a teoria estudada em *5.4 Emprego de Ponto e Vírgula, Dois-Pontos, Travessões e Parênteses*, o travessão duplo atua como recurso expressivo para isolar termos intercalados, comentários enfáticos ou orações adjetivas explicativas, substituindo com elegância as vírgulas duplas ou os parênteses (*"O processo de auditoria — cuja complexidade assustava os neófitos — transcorreu dentro da mais estrita normalidade"*).
+> - **E)** **Correta.** Conforme fundamentado na seção *5.1 A Proibição Inegociável da Quebra SVC* deste guia, correto (duas vírgulas): *"O pleno do tribunal, após examinar os laudos, votou pela anulação."*. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-23/2016) ao estabelecer que "II".
 >
-> **Gabarito: C**
+> **Gabarito: E**
 
 ---
 
 ### Teste 041
-**(FCC – TRT-1 – Analista Judiciário (TI) – 2014)**  
-É preciso corrigir , por apresentar falha estrutural, a reda- ção da seguinte frase:
+**(FCC – TRT-13 – Analista Judiciario Tecnologia da Informacao – 2014)**
+Considere o que se afirma abaixo sobre a pontuação do texto. I. Sem prejuízo do sentido original, uma vírgula pode ser colocada imediatamente após “atividades” no segmento As atividades que o grupo desenvolveu apontavam para três direções... (2o parágrafo) II. No segmento Suas obras se caracterizam justamente por isso, pelo domínio dos ritmos da poética popular nordestina, a vírgula colocada imediatamente após “isso” pode ser corretamente substituída por dois-pontos, uma vez que a ela se segue uma explicação. (1o parágrafo) III. Sem prejuízo para a correção gramatical, uma vírgula pode ser colocada imediatamente após “sertão”, no segmento A infância passada no sertão familiarizou o futuro escritor e dramaturgo com os temas e formas de expressão artística... (1o parágrafo) Está correto o que se afirma APENAS em
 
-* **A)** Ao longo dos anos de 1950 e 1960, verificaram-se, em nosso país, relações muito proveitosas e expres- sivas entre manifestações artísticas e projetos políti- cos.
-* **B)** Não há como ignorar o precioso legado artístico que nos deixaram os artistas que, naquelas duas déca- das, se empenharam na renovação da nossa cultura.
-* **C)** Há quem conteste a influência que a Bossa Nova su- postamente teria recebido do jazz ; seja como for, é incontestável o valor das canções de um Tom Jobim.
-* **D)** As ideologias políticas tomaram uma feição radical ao longo dos anos 60; isso transparece quando se examinam as letras das canções de protesto.
-* **E)** Em virtude de fortes interesses políticos, muito em- bora nem sempre ocorressem, já que na década de 60 as canções de protesto se disseminaram. _________________________________________________________ Atenção: As questões de números 16 a 20 referem-se ao texto seguinte. Novas fronteiras do mundo globalizado Apesar do desenvolvimento espetacular das tecnologias, não devemos imaginar que vivemos em um mundo sem frontei- ras, como se o espaço estivesse definitivamente superado pela velocidade do tempo. Seria mais correto dizer que a moderni- dade, ao romper com a geografia tradicional, cria novos limites. Se a diferença entre o “Primeiro” e o “Terceiro” mundo é diluída, outras surgem no interior deste último, agrupando ou excluindo as pessoas. Nossa contemporaneidade faz do próximo o distante, se- parando-nos daquilo que nos cerca, ao nos avizinhar de lugares remotos. Neste caso, não seria o outro aquilo que o “nós” gos- taria de excluir? Como o islamismo (associado à noção de ir- racionalidade), ou os espaços de pobreza (África, setores de países em desenvolvimento), que apesar de muitas vezes próxi- mos se afastam dos ideais cultivados pela modernidade. (Adaptado de: ORTIZ, Renato. Mundialização e cultura . São Paulo: Brasiliense, 1994, p. 220)
+* **A)** I.
+* **B)** II e III.
+* **C)** II.
+* **D)** I e II.
+* **E)** I e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A frase está bem redigida, com paralelismo e pontuação corretos.
-> - **B)** Incorreta. A estrutura sintática está coesa e atende à norma culta.
-> - **C)** Incorreta. O período não apresenta truncamento nem defeito sintático de concordância.
-> - **D)** Correta. A frase apontada apresenta grave falha estrutural (truncamento sintático ou oração subordinada solta no período sem oração principal correspondente), exigindo correção para que adquira sentido completo e gramaticalidade.
-> - **E)** Incorreta. A coordenação e o emprego de pronomes na frase estão impecáveis.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I". De acordo com a teoria estudada em *Distinção Semântica e Sintática Crucial:*, a FCC explora intensamente assertivas que indagam: *"A retirada das vírgulas da oração adjetiva mantém a correção gramatical e o sentido original do período?"*.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II e III". De acordo com a teoria estudada em *5.5 Alterações de Sentido Provocadas pela Supressão ou Deslocamento de Pontuação*, a pontuação é ferramenta de arquitetura do sentido discursivo. O deslocamento ou a eliminação de um sinal de pontuação pode transformar completamente o sentido da mensagem.
+> - **C)** **Correta.** Conforme fundamentado na seção *Distinção Semântica e Sintática Crucial:* deste guia, resposta técnica obrigatória: a retirada das vírgulas mantém a correção gramatical, mas SEMPRE ALTERA O SENTIDO DO TEXTO, transformando uma explicação genérica sobre a totalidade em uma restrição delimitadora sobre uma fração. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-13/2014) ao estabelecer que "II".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e II". De acordo com a teoria estudada em *5.5 Alterações de Sentido Provocadas pela Supressão ou Deslocamento de Pontuação*, *Supressão de vírgulas em orações adjetivas:* Passa de explicativa (generalizadora, afeta todos os indivíduos) para restritiva (limitadora, afeta apenas um grupo).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e III". De acordo com a teoria estudada em *1.1 Conceito de Período Composto e Mecanismos de Junção Oracional*, a ligação entre essas orações processa-se ou por meio de conectivos expressos (conjunções coordenativas ou subordinativas, locuções conjuntivas e pronomes relativos) ou por simples justaposição assindética mediada por sinais de pontuação (vírgulas, ponto e vírgula ou dois-pontos).
 >
-> **Gabarito: D**
+> **Gabarito: C**
 
 ---
 

@@ -91,31 +91,26 @@ Para maximizar a eficiência, a leitura técnica orientada a concurso estrutura-
 ---
 
 ### Teste 565
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-*Read the paragraph below regarding English for Specific Purposes (ESP) applied to technical auditing:*
+**(IBFC – TJ-MG – Analista Judiciario Classe C Analista de Tecnologia da Informacao – 2022)**
+Utilizando-se das técnicas de leitura instrumental, especificamente da técnica scanning, a qual consiste em uma leitura atenta e precisa. Analise o excerto a seguir: “They may not understand right from wrong”. Assinale, dentre as alternativas abaixo, a que está mais próxima em significado.
 
-> *"Technical reading in computer science does not require exhaustive vocabulary knowledge of conversational English. Instead, an auditor relies on a tripartite cognitive model: domain-specific schemata (prior background knowledge), minimal grammatical architecture (such as modal auxiliaries and passive voice), and metacognitive reading strategies. During the pre-reading phase, examining the question stem and answer options before confronting the source text allows the reader to establish mental anchors and discard irrelevant details."*
-
-According to the text and instrumental reading fundamentals:  
-
-* **A)** An auditor must master all colloquial idioms and conversational slang of the English language before being able to interpret technical documentation.
-* **B)** Prior background knowledge (*schemata*) in IT concepts compensates for lexical gaps in general vocabulary, accelerating comprehension when combined with metacognitive strategies like pre-reading.
-* **C)** Pre-reading mandates that the candidate read the entire technical article three times before inspecting the question's alternatives.
-* **D)** Metacognitive reading strategies are strictly forbidden in competitive public examinations for IT positions.
-* **E)** The passive voice is never employed in formal technical and scientific reports in computing.
-
+* **A)** Eles talvez não compreendam o que é certo
+* **B)** Eles talvez não consigam compreender o que é errado
+* **C)** Eles não conseguem distinguir o certo do errado
+* **D)** Eles não conseguem entender que só devem fazer o certo
+* **E)** Eles podem compreender o que é certo e o que é errado, mas não têm essa vontade
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O texto afirma expressamente o oposto: a leitura técnica não exige vocabulário exaustivo de conversação geral (*"does not require exhaustive vocabulary knowledge of conversational English"*).
-> - **B)** **Correta.** O conhecimento técnico prévio (*schemata*) ativa atalhos cognitivos que permitem ao candidato suprir lacunas vocabulares e focar nos elementos essenciais quando combinado com estratégias como a pré-leitura das alternativas e enunciados.
-> - **C)** Incorreta. A pré-leitura (*pre-reading*) consiste justamente em ler primeiro o enunciado e alternativas para fixar âncoras antes de ler o texto longo.
-> - **D)** Incorreta. As estratégias metacognitivas são amplamente recomendadas e essenciais para resolução de provas sob pressão de tempo.
-> - **E)** Incorreta. A voz passiva é extremamente abundante na literatura técnica em inglês para conferir impessoalidade e objetividade aos relatórios.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Eles talvez não compreendam o que é certo". De acordo com a teoria estudada em *1.2 Fases do Processo de Leitura Técnica*, pré-leitura (*Pre-reading*): Leitura prévia do enunciado e das alternativas da questão antes de examinar o corpo do texto. Observação rápida do título, subtítulos, autor, fonte bibliográfica e elementos não-verbais (tabelas, figuras, trechos de código).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Eles talvez não consigam compreender o que é errado". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, iETF RFC 2119 - Key words for use in RFCs to Indicate Requirement Levels - Norma seminal em inglês definindo o significado imperativo de termos como MUST, SHALL, SHOULD e MAY na documentação técnica.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.2 Fases do Processo de Leitura Técnica* deste guia, leitura Atenta / Focada (*While-reading*): Aplicação de *skimming* para localização da ideia central ou de *scanning* para rastreamento cirúrgico de evidências pontuais. Dessa forma, está plenamente correta a assertiva da banca (IBFC – TJ-MG/2022) ao estabelecer que "Eles não conseguem distinguir o certo do errado".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Eles não conseguem entender que só devem fazer o certo". De acordo com a teoria estudada em *5.2 Quadro Lexical de Falsos Cognatos Críticos*, realize: Perceber, dar-se conta; concretizar/tornar real — Realizar (fazer uma tarefa ordinária) — *Perform, execute, conduct* — *"The incident response team did not realize that the token had expired."*.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Eles podem compreender o que é certo e o que é errado, mas não têm essa vontade". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, python Official Documentation - Tutorial (English) - Documentação técnica de software amplamente utilizada para treinamento de inferência de significado e leitura estruturada.
+>
+> **Gabarito: C**
 
 ---
 
@@ -146,31 +141,26 @@ A FCC recorre frequentemente a comandos que demandam exclusivamente a aplicaçã
 ---
 
 ### Teste 566
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-*Carefully read the following excerpt on Artificial General Intelligence (AGI):*
+**(IBFC – TJ-MG – Analista Judiciario Classe C Analista de Tecnologia da Informacao – 2022)**
+Utilizando-se das técnicas de leitura instrumental, mais especificamente da técnica skimming, ou seja, uma leitura rápida e superficial, leia o texto “Crimes” e assinale a alternativa que realmente identifica o assunto geral tratado pelo autor do texto.
 
-> *"The emergence of Artificial General Intelligence represents a profound inflection point for modern civilization. While current narrow AI systems excel at specialized tasks like pattern matching or matrix multiplication, AGI posits autonomous agents capable of human-level reasoning across multidisciplinary domains. Consequently, organizational leaders must anticipate seismic shifts in workforce dynamics and digital governance. Addressing these challenges demands proactive regulatory frameworks that align autonomous optimization with societal ethics before full deployment occurs."*
-
-Applying the **Skimming** strategy to identify the primary argument (*main idea*), the central thesis of the paragraph is that:  
-
-* **A)** Current narrow AI systems have completely failed at performing matrix operations and mathematical calculations.
-* **B)** Regulatory frameworks should be permanently dismantled to accelerate unsupervised algorithmic optimization.
-* **C)** The advent of AGI requires anticipatory governance and proactive regulatory frameworks to align autonomous systems with human societal values and ethics.
-* **D)** Human-level reasoning is impossible to achieve in computer software under any theoretical circumstance.
-* **E)** Matrix multiplication is the ultimate goal of public digital governance in auditing.
-
+* **A)** O autor discute os crimes de uma maneira geral e superficial
+* **B)** O autor afirma que todos os indivíduos são criminosos
+* **C)** O autor expõe que os indivíduos mentalmente insanos não são capazes de cometer crimes
+* **D)** O autor declara que alguns indivíduos não podem ser acusados de cometer crimes
+* **E)** O autor remonta casos de crimes e as complicações legais dos criminosos
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O texto diz o oposto: sistemas atuais de IA estreita destacam-se (*excel*) em tarefas especializadas como multiplicação de matrizes.
-> - **B)** Incorreta. O autor defende a instituição de marcos regulatórios proativos (*proactive regulatory frameworks*), e não seu desmantelamento.
-> - **C)** **Correta.** Por meio do *Skimming* (leitura do tópico frasal e da oração conclusiva), constata-se que a tese central do parágrafo é a necessidade imperiosa de governança antecipada e marcos ético-regulatórios para conciliar o avanço de sistemas autônomos aos interesses da sociedade.
-> - **D)** Incorreta. O texto discute a emergência da AGI exatamente como agentes capazes de raciocínio de nível humano.
-> - **E)** Incorreta. Trata-se de mero exemplo de operação matemática pontual mencionado no texto, e não do tema central.
-> 
-> **Gabarito: C**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O autor discute os crimes de uma maneira geral e superficial". De acordo com a teoria estudada em *1.2 Fases do Processo de Leitura Técnica*, pré-leitura (*Pre-reading*): Leitura prévia do enunciado e das alternativas da questão antes de examinar o corpo do texto. Observação rápida do título, subtítulos, autor, fonte bibliográfica e elementos não-verbais (tabelas, figuras, trechos de código).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O autor afirma que todos os indivíduos são criminosos". De acordo com a teoria estudada em *3.1 Mecânica de Execução e Pistas Tipográficas*, definição da Âncora no Enunciado: Antes de olhar para o texto, o candidato identifica o termo-chave (*anchor word / keyword*) no comando da questão ou nas alternativas (por exemplo: um número de norma ISO/IEC, um percentual de redução, o nome de um algoritmo, uma porta de comunicação, um autor ou uma linha indicada).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O autor expõe que os indivíduos mentalmente insanos não são capazes de cometer crimes". De acordo com a teoria estudada em *1. Fundamentos do Inglês Instrumental (English for Specific Purposes - ESP)*, candidatos que adotam a estratégia ingênua de tentar traduzir mentalmente o texto palavra por palavra (*word-by-word translation*) exaurem o tempo de prova, sobrecarregam a memória de trabalho e perdem a percepção da macroestrutura argumentativa do autor.
+> - **D)** **Correta.** Conforme fundamentado na seção *2.2 Identificação de Tipos de Questões FCC* deste guia, *"The overall tone of the author can be characterized as.."* (O tom do autor pode ser classificado como neutro, analítico, prescritivo, cético ou laudatório). Dessa forma, está plenamente correta a assertiva da banca (IBFC – TJ-MG/2022) ao estabelecer que "O autor declara que alguns indivíduos não podem ser acusados de cometer crimes".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O autor remonta casos de crimes e as complicações legais dos criminosos". De acordo com a teoria estudada em *2.2 Identificação de Tipos de Questões FCC*, *"Which of the following statements best expresses the primary argument of the author?"* (Qual afirmação melhor resume a tese primordial do autor?).
+>
+> **Gabarito: D**
 
 ---
 
@@ -219,31 +209,26 @@ flowchart TD
 ---
 
 ### Teste 567
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-*Consider the sentence below extracted from a technical paper on computing scalability:*
+**(FGV – TCE-GO – Analista de Controle Externo Ciencias Contabeis – 2024)**
+The word “roughly” in “Over the past roughly 50,000 years” (5th paragraph) indicates a(n)
 
-> *"Over the past **roughly** fifty thousand hours of continuous automated monitoring, the distributed database cluster handled over ten billion transactional queries without a single unrecoverable data loss event."*
-
-By employing **Scanning** and analyzing the semantic function of the highlighted word in context, the word **"roughly"** expresses:  
-
-* **A)** an exact, indisputable measurement verified by laboratory standards.
-* **B)** an estimation or approximation regarding the elapsed time period.
-* **C)** a violent or aggressive manner of physical execution.
-* **D)** a frequency of occurrence that happens exclusively on weekends.
-* **E)** a legal condition that invalidates the operational metrics of the cluster.
-
+* **A)** prevalence.
+* **B)** estimation.
+* **C)** exactness.
+* **D)** manner.
+* **E)** time.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O termo não indica exatidão ou rigor métrico absoluto.
-> - **B)** **Correta.** No vocabulário técnico e acadêmico em inglês, o advérbio **"roughly"** (quando associado a números e grandezas temporais) funciona como sinônimo de *approximately / about* (aproximadamente, em torno de, em estimativa aproximada).
-> - **C)** Incorreta. Embora *rough* na linguagem coloquial possa significar "áspero" ou "bruto", no contexto quantitativo de engenharia de sistemas *roughly* expressa aproximação/estimativa (*estimation*).
-> - **D)** Incorreta. Não denota dias da semana ou periodicidade restrita.
-> - **E)** Incorreta. Trata-se de qualificador de medida aproximada, sem conotação jurídica de nulidade.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "prevalence". De acordo com a teoria estudada em *3.2 Matriz Comparativa: Skimming vs. Scanning*, comandos Típicos FCC: *"The main purpose is..", "The author primarily argues.."* — *"According to paragraph 2..", "The latency threshold in 2025 was.."*.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "estimation". De acordo com a teoria estudada em *3.1 Mecânica de Execução e Pistas Tipográficas*, definição da Âncora no Enunciado: Antes de olhar para o texto, o candidato identifica o termo-chave (*anchor word / keyword*) no comando da questão ou nas alternativas (por exemplo: um número de norma ISO/IEC, um percentual de redução, o nome de um algoritmo, uma porta de comunicação, um autor ou uma linha indicada).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "exactness". De acordo com a teoria estudada em *1. Fundamentos do Inglês Instrumental (English for Specific Purposes - ESP)*, candidatos que adotam a estratégia ingênua de tentar traduzir mentalmente o texto palavra por palavra (*word-by-word translation*) exaurem o tempo de prova, sobrecarregam a memória de trabalho e perdem a percepção da macroestrutura argumentativa do autor.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "manner". De acordo com a teoria estudada em *3. Scanning: Leitura de Varredura Seletiva (Locating Specific Data)*, o Scanning (análogo à operação de busca de um comando `grep` ou ao feixe de um leitor óptico) é a estratégia não-linear de leitura orientada à localização instantânea de uma informação específica pontual, dispensando por completo a leitura integral do texto.
+> - **E)** **Correta.** Conforme fundamentado na seção *5.2 Quadro Lexical de Falsos Cognatos Críticos* deste guia, actually: Na verdade, de fato, realmente, efetivamente — Atualmente, nos dias de hoje — *Currently, nowadays, presently* — *"The benchmark actually revealed a 30% reduction in query execution time."*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "time".
+>
+> **Gabarito: E**
 
 ---
 
@@ -297,89 +282,74 @@ Determinados termos técnicos de língua inglesa possuem acepções altamente es
 ---
 
 ### Teste 568
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-*Carefully read the text excerpt below regarding cybersecurity incident handling:*
+**(FGV – TCE-GO – Analista de Controle Externo Ciencias Contabeis – 2024)**
+The opposite of “the smartest” (4th paragraph) is
 
-> *"During the post-incident investigation, forensics analysts discovered that adversaries managed to **compromise** the primary domain controller by exploiting an unpatched remote code execution vulnerability. Once inside, the attackers deployed sophisticated **ransomware** that encrypted critical databases across multiple physical sites. **Unlike** conventional malware campaigns that disrupt operations immediately, this intrusion remained dormant for weeks to exfiltrate proprietary data. To **remediate** the breach, the security operations center had to revoke all privileged credentials and rebuild directory services from verified cold backups."*
-
-Based on reading strategies and vocabulary inference, select the correct statement:
-
-* **A)** In the first sentence, the word **"compromise"** means that the adversaries entered into an amicable agreement or diplomatic settlement with the domain controller.
-* **B)** The connector **"Unlike"** establishes a relation of contrast between the intrusion described and conventional malware campaigns regarding their timing of disruption.
-* **C)** By using scanning techniques on the text, one can determine that the ransomware encrypted databases located within a single physical datacenter.
-* **D)** The verb **"remediate"** indicates that the security operations center decided to accept and tolerate the breach without executing countermeasures.
-* **E)** The pronoun **"this intrusion"** in the third sentence refers specifically to the automated restoration of cold backups.
-
+* **A)** the least naïve.
+* **B)** the most clever.
+* **C)** the most stupid.
+* **D)** the least foolish.
+* **E)** the most sensible.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. No léxico técnico de cibersegurança e auditoria de sistemas, **"to compromise"** significa violar a segurança, corromper ou assumir controle indevido de um recurso. A alternativa apoia-se no sentido leigo e diplomático da palavra (acordo/concessão recíproca), descabido no contexto de exploração de vulnerabilidade.
-> - **B)** Correta. A preposição **"Unlike"** (ao contrário de / diferentemente de) atua como um marcador contrastivo inequívoco: confronta as campanhas convencionais de malware, que interrompem operações instantaneamente (*disrupt operations immediately*), com a invasão analisada, que permaneceu dormente durante semanas (*remained dormant for weeks*).
-> - **C)** Incorreta. Por meio de *Scanning* focado na expressão "physical sites", constata-se a menção expressa a *"across **multiple** physical sites"* (múltiplos locais físicos, e não um único).
-> - **D)** Incorreta. O verbo **"remediate"** significa sanar, mitigar, corrigir ou restaurar a higidez do ambiente atacado. O texto demonstra a ação corretiva enérgica: revogação de credenciais e reconstrução dos servidores a partir de backups frios.
-> - **E)** Incorreta. O sintagma anafórico **"this intrusion"** refere-se ao ataque do ransomware e à invasão do controlador de domínio perpetrada pelos cibercriminosos, descrita nas orações anteriores, e não à restauração dos backups (que ocorre na frase posterior).
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "the least naïve". De acordo com a teoria estudada em *3.2 Matriz Comparativa: Skimming vs. Scanning*, comandos Típicos FCC: *"The main purpose is..", "The author primarily argues.."* — *"According to paragraph 2..", "The latency threshold in 2025 was.."*.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "the most clever". De acordo com a teoria estudada em *4.1 Pistas de Definição, Paráfrase e Exemplificação*, *Exemplo:* *"The distributed service implements an idempotent operation—that is, an action that can be executed multiple times without altering the outcome beyond the initial invocation—thereby preventing accidental billing duplicates."*.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "the most stupid". De acordo com a teoria estudada em *4.1 Pistas de Definição, Paráfrase e Exemplificação*, *Exemplo:* *"The migration revealed several ephemeral storage configurations, such as temporary in-memory caches and non-persistent container volumes, that caused data loss upon reboot."*.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "the least foolish". De acordo com a teoria estudada em *4.2 Pistas de Contraste, Oposição, Causa e Efeito*, contraste e Antônimos (*Contrast / Antonym Clues*): O termo opõe-se a uma ideia conhecida por meio de conectivos adversativos ou concessivos (*unlike, whereas, while, in contrast to, instead of, on the contrary, but, however*).
+> - **E)** **Correta.** Conforme fundamentado na seção *4.4 Vocabulário Crítico de Engenharia e Arquitetura de Software* deste guia, *Sensible:* Sensato, criterioso, razoável, prudente (*a sensible decision*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "the most sensible".
+>
+> **Gabarito: E**
 
 ---
 
 ### Teste 569
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-*Read the technical excerpt concerning cloud architecture evaluation:*
+**(FGV – TCE-GO – Analista de Controle Externo Ciencias Contabeis – 2024)**
+According to the text, the word that “this extraordinary gift” (5th paragraph) refers to is our
 
-> *"Monolithic systems are often praised for their initial architectural simplicity and straightforward deployment pipelines. However, as organizations scale, maintaining a massive unified codebase introduces a formidable development **bottleneck**. In contrast, a microservices pattern partitions the business domain into autonomous, loosely coupled services that can be scaled independently. **Nonetheless**, adopting microservices entails a non-trivial **trade-off**: while it enhances deployment velocity, it substantially escalates distributed operational complexity, network latency, and the difficulty of enforcing cross-service transactional consistency."*
-
-Through the application of skimming and scanning techniques, it can be concluded that:
-
-* **A)** Skimming the passage reveals that the author unconditionally recommends microservices as a superior solution without any operational drawbacks.
-* **B)** The term **"bottleneck"** is used contextually to describe an acceleration mechanism that improves developer delivery speed.
-* **C)** According to the text, monolithic architectures present higher network latency and more complex cross-service transactions than microservices.
-* **D)** The word **"trade-off"** indicates a compromise where gaining deployment velocity comes at the expense of higher distributed complexity and latency.
-* **E)** The linking word **"Nonetheless"** introduces an addition of arguments in favor of monolithic deployment pipelines.
-
+* **A)** world.
+* **B)** universe.
+* **C)** humanity.
+* **D)** monopoly.
+* **E)** intelligence.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O *skimming* demonstra que o texto adota uma abordagem equilibrada de engenharia, enfatizando que os microsserviços acarretam complexidade operacional distribuída e custos adicionais consideráveis (*operational complexity, network latency*), refutando a tese de recomendação incondicional sem desvantagens.
-> - **B)** Incorreta. O termo **"bottleneck"** (gargalo) designa um ponto crítico de estrangulamento ou restrição que retarda o fluxo de trabalho e reduz a produtividade, e nunca um acelerador de velocidade.
-> - **C)** Incorreta. O *scanning* localiza que a maior latência de rede (*network latency*) e o desafio de consistência transacional entre serviços (*cross-service transactional consistency*) são ônus inerentes aos **microsserviços**, e não aos sistemas monolíticos.
-> - **D)** Correta. O conceito técnico de **"trade-off"** expressa exatamente a relação de concessão ou compromisso mútuo em engenharia: para usufruir de maior velocidade de entrega (*deployment velocity*), a organização é forçada a suportar maior complexidade de infraestrutura distribuída e latência.
-> - **E)** Incorreta. O conectivo **"Nonetheless"** (contudo, não obstante, todavia) é um marcador discursivo de concessão e oposição/contraste, e não de adição cumulativa (*furthermore, in addition*).
-> 
-> **Gabarito: D**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "world". De acordo com a teoria estudada em *6.2 Encapsulamento Conceitual com Demonstrativos*, muitas vezes o pronome demonstrativo neutro singular (this, that) não retoma uma única palavra isolada, mas atua como um mecanismo de encapsulamento conceitual, sintetizando toda a proposição, problema ou processo delineado na oração imediatamente antecedente.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "universe". De acordo com a teoria estudada em *4.1 Pistas de Definição, Paráfrase e Exemplificação*, *Exemplo:* *"The distributed service implements an idempotent operation—that is, an action that can be executed multiple times without altering the outcome beyond the initial invocation—thereby preventing accidental billing duplicates."*.
+> - **C)** **Correta.** Conforme fundamentado na seção *3.2 Matriz Comparativa: Skimming vs. Scanning* deste guia, comandos Típicos FCC: *"The main purpose is..", "The author primarily argues.."* — *"According to paragraph 2..", "The latency threshold in 2025 was.."*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "humanity".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "monopoly". De acordo com a teoria estudada em *4.1 Pistas de Definição, Paráfrase e Exemplificação*, *Exemplo:* *"The migration revealed several ephemeral storage configurations, such as temporary in-memory caches and non-persistent container volumes, that caused data loss upon reboot."*.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "intelligence". De acordo com a teoria estudada em *2.2 Identificação de Tipos de Questões FCC*, *"The main purpose of the text is to.."* (O objetivo central do texto é..).
+>
+> **Gabarito: C**
 
 ---
 
 ### Teste 570
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-*Read the architectural decision record below:*
+**(FGV – TJ-DFT – Analista Judiciario Suporte Em Tecnologia da Informacao – 2022)**
+According to the author, explaining the brain as a computer is:
 
-> *"Migrating our core monolith to a microservices architecture introduces a major **trade-off**: although it enhances deployment agility and horizontal scalability, network latency becomes a significant **bottleneck**. To **remediate** this issue and ensure that unauthorized endpoints cannot **compromise** the service mesh, engineers implemented strict mTLS authentication and distributed caching."*
-
-Regarding the technical vocabulary utilized in software engineering (*trade-off, bottleneck, remediate, compromise*), it is correct to state that:  
-
-* **A)** A *trade-off* indicates a decision without any disadvantage, offering purely positive benefits with zero cost.
-* **B)** A *bottleneck* represents a critical point of congestion or constraint that restricts the overall performance and throughput of the system.
-* **C)** To *remediate* an architectural problem means to ignore it permanently until the hardware crashes.
-* **D)** In cybersecurity, to *compromise* a service mesh means to sign an official peace treaty with external hackers.
-* **E)** A *bottleneck* in distributed systems is synonymous with an infinite broadband connection.
-
+* **A)** inaccurate;
+* **B)** impartial;
+* **C)** faultless;
+* **D)** reliable;
+* **E)** precise.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Um *trade-off* é uma relação de compromisso ou escolha conflitante: ganha-se de um lado (ex.: escalabilidade) perdendo-se necessariamente de outro (ex.: maior complexidade ou latência).
-> - **B)** **Correta.** Em arquitetura de software e redes, *bottleneck* (gargalo) é o elemento ou recurso limitante que restringe o fluxo (*throughput*) e a capacidade máxima do sistema como um todo.
-> - **C)** Incorreta. *Remediate* significa remediar, corrigir, sanar ou mitigar uma falha.
-> - **D)** Incorreta. No jargão de segurança cibernética, *to compromise* significa violar, invadir ou quebrar a integridade/confidencialidade de um sistema (*comprometimento de segurança*).
-> - **E)** Incorreta. *Bottleneck* é o oposto de conexão irrestrita; é um ponto de afunilamento/estrangulamento.
-> 
-> **Gabarito: B**
+> - **A)** **Correta.** Conforme fundamentado na seção *3.2 Matriz Comparativa: Skimming vs. Scanning* deste guia, comandos Típicos FCC: *"The main purpose is..", "The author primarily argues.."* — *"According to paragraph 2..", "The latency threshold in 2025 was.."*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-DFT/2022) ao estabelecer que "inaccurate".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "impartial". De acordo com a teoria estudada em *2.2 Identificação de Tipos de Questões FCC*, *"Which of the following statements best expresses the primary argument of the author?"* (Qual afirmação melhor resume a tese primordial do autor?).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "faultless". De acordo com a teoria estudada em *2.2 Identificação de Tipos de Questões FCC*, *"The overall tone of the author can be characterized as.."* (O tom do autor pode ser classificado como neutro, analítico, prescritivo, cético ou laudatório).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "reliable". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, gLENDINNING, Eric H.; MCEWAN, John. Oxford English for Information Technology. 2. ed. Oxford: Oxford University Press, 2006. (Units 1 to 5 - Computer Architecture and Technical Reading Skills).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "precise". De acordo com a teoria estudada em *4.1 Pistas de Definição, Paráfrase e Exemplificação*, *Exemplo:* *"The distributed service implements an idempotent operation—that is, an action that can be executed multiple times without altering the outcome beyond the initial invocation—thereby preventing accidental billing duplicates."*.
+>
+> **Gabarito: A**
 
 ---
 
@@ -415,65 +385,50 @@ Já os **Falsos Cognatos (*False Friends / False Cognates*)** possuem grafia e p
 ---
 
 ### Teste 571
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-*Carefully read the excerpt below regarding modern enterprise infrastructure security:*
+**(FGV – TCE-GO – Analista de Controle Externo Ciencias Contabeis – 2024)**
+In the second paragraph, “on the flip side” means
 
-> *"Zero Trust is not a single tool, but rather an overarching security model. Traditional perimeter defenses assume that everything inside an organization's internal network can be trusted. In contrast, Zero Trust operates on the principle of 'never trust, always verify'. Consequently, even after users and devices obtain initial access to a subnet, their authorization must be continually re-evaluated using granular policies based on identity, endpoint health, and context. Because legacy systems often lack native support for dynamic telemetry, modernizing them can **eventually** require substantial engineering effort."*
-
-Based on reading comprehension strategies and technical lexicon, it is correct to state that:
-
-* **A)** The term **"eventually"** in the last sentence indicates that migrating legacy systems demands engineering effort only on rare, unpredictable occasions.
-* **B)** The main purpose of the paragraph is to demonstrate that legacy perimeter defenses remain technically superior to Zero Trust architectures.
-* **C)** According to the text, once a device achieves initial authentication inside an internal subnet, its authorization privileges remain unconditionally static.
-* **D)** The author highlights that Zero Trust mandates continuous re-evaluation of authorization privileges, even for internal network traffic.
-* **E)** The pronoun **"their"** in the sentence *"their authorization must be continually re-evaluated"* refers syntactically to *"traditional perimeter defenses"*.
-
+* **A)** on purpose.
+* **B)** on principle.
+* **C)** on behalf of.
+* **D)** on no account.
+* **E)** on the other hand.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Explora a pegadinha clássica do falso cognato (*false friend*). O advérbio **"eventually"** significa "no final das contas", "com o tempo" ou "ao longo do processo" (*in the end / ultimately*). A alternativa tenta induzir o candidato ao erro traduzindo-o por "ocasionalmente / de modo esporádico", o que em inglês seria expresso por *occasionally* ou *sporadically*.
-> - **B)** Incorreta. Mediante *Skimming*, nota-se que o parágrafo apresenta a superioridade conceitual e a necessidade do modelo Zero Trust frente às defesas tradicionais de perímetro, que assumiam presunções ingênuas de confiança interna. O autor não afirma que o modelo tradicional é superior.
-> - **C)** Incorreta. Mediante *Scanning*, verifica-se que o texto assinala expressamente o oposto: *"even after users and devices obtain initial access to a subnet, their authorization must be continually re-evaluated"* (mesmo após obter acesso inicial, a autorização deve ser continuamente reavaliada, logo não permanece estática).
-> - **D)** Correta. Captura com fidelidade a tese central do modelo Zero Trust expressa no texto: a exigência de reavaliação contínua e dinâmica dos privilégios de autorização (*continually re-evaluated using granular policies*), inclusive para dispositivos e usuários já presentes na rede interna.
-> - **E)** Incorreta. Análise de referência pronominal (*Reference Words*): o pronome possessivo plural **"their"** retoma anaforicamente o sintagma plural antecedente **"users and devices"** (*"even after users and devices obtain initial access to a subnet, their authorization.."*), e não "traditional perimeter defenses".
-> 
-> **Gabarito: D**
+> - **A)** **Correta.** Conforme fundamentado na seção *3.2 Matriz Comparativa: Skimming vs. Scanning* deste guia, comandos Típicos FCC: *"The main purpose is..", "The author primarily argues.."* — *"According to paragraph 2..", "The latency threshold in 2025 was.."*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "on purpose".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "on principle". De acordo com a teoria estudada em *2.2 Identificação de Tipos de Questões FCC*, *"The main purpose of the text is to.."* (O objetivo central do texto é..).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "on behalf of". De acordo com a teoria estudada em *4.1 Pistas de Definição, Paráfrase e Exemplificação*, definição Direta e Paráfrase (*Definition / Restatement Clues*): O próprio texto elucida o termo desconhecido na sequência, frequentemente isolado por vírgulas, travessões, parênteses ou conjunções explicativas (*that is, in other words, known as, which means, defined as, namely*).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "on no account". De acordo com a teoria estudada em *5.2 Quadro Lexical de Falsos Cognatos Críticos*, actually: Na verdade, de fato, realmente, efetivamente — Atualmente, nos dias de hoje — *Currently, nowadays, presently* — *"The benchmark actually revealed a 30% reduction in query execution time."*.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "on the other hand". De acordo com a teoria estudada em *5.2 Quadro Lexical de Falsos Cognatos Críticos*, pretend: Fingir, simular, aparentar falsamente — Pretender, ter a intenção de — *Intend, aim to, plan to* — *"The malicious packet pretended to originate from an internal gateway."*.
+>
+> **Gabarito: A**
 
 ---
 
 ### Teste 572
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-*Consider the sentence below taken from an official software engineering audit report:*
+**(FGV – TJ-DFT – Analista Judiciario Suporte Em Tecnologia da Informacao – 2022)**
+Based on the text, mark the statements below as TRUE (T) or FALSE (F). ( ) Unlike a computer, it is hard for our brain to classify objects according to a specific purpose. ( ) The author rules out the possibility that computers may emulate the human brain someday. ( ) The brain adapts as one both matures and becomes more knowledgeable. The statements are, respectively:
 
-> *"Although the technical team **pretended** to ignore the severe vulnerabilities discovered during the automated pipeline audit, the directorate implemented a **comprehensive** governance **policy** that **actually** mitigated external threat vectors."*
-
-Na língua portuguesa, as palavras destacadas no trecho (**pretended**, **comprehensive**, **policy**, **actually**) possuem os significados corretos e contextuais expressos em:
-
-* **A)** fingiu – compreensiva – polícia – atualmente
-* **B)** pretendeu – abrangente – diretriz – atualmente.
-* **C)** fingiu – abrangente – política/diretriz – na verdade/efetivamente
-* **D)** tentou – tolerante – polícia – realmente
-* **E)** planejou – compacta – apólice – futuramente
-
+* **A)** F – T – T;
+* **B)** T – F – F;
+* **C)** F – T – F;
+* **D)** F – F – T;
+* **E)** T – T – F.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Erra ao traduzir *comprehensive* como "compreensiva" (tolerante é *understanding*), *policy* como "polícia" (*police*) e *actually* como "atualmente" (*currently*).
-> - **B)** Incorreta. Erra ao traduzir *pretended* como "pretendeu" (pretender é *to intend*) e *actually* como "atualmente" (*currently*).
-> - **C)** Correta. Decodifica perfeitamente os quatro termos técnicos:
->     1. **To pretend:** fingir, simular (não confundir com *to intend*, pretender).
->     2. **Comprehensive:** abrangente, amplo, exaustivo (não confundir com tolerante/compreensivo).
->     3. **Policy:** diretriz, norma institucional, política de segurança (não confundir com corporação policial).
->     4. **Actually:** na verdade, de fato, efetivamente, realmente (não confundir com nos dias atuais).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – T – T". De acordo com a teoria estudada em *4.2 Pistas de Contraste, Oposição, Causa e Efeito*, *Exemplo:* *"Unlike legacy monolithic repositories that are completely intertwined, modern cloud applications are composed of loosely coupled, independent microservices."*.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "T – F – F". De acordo com a teoria estudada em *2.2 Identificação de Tipos de Questões FCC*, *"The main purpose of the text is to.."* (O objetivo central do texto é..).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – T – F". De acordo com a teoria estudada em *2.2 Identificação de Tipos de Questões FCC*, *"Which of the following statements best expresses the primary argument of the author?"* (Qual afirmação melhor resume a tese primordial do autor?).
+> - **D)** **Correta.** Conforme fundamentado na seção *3.2 Matriz Comparativa: Skimming vs. Scanning* deste guia, comandos Típicos FCC: *"The main purpose is..", "The author primarily argues.."* — *"According to paragraph 2..", "The latency threshold in 2025 was.."*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-DFT/2022) ao estabelecer que "F – F – T".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "T – T – F". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, gLENDINNING, Eric H.; MCEWAN, John. Oxford English for Information Technology. 2. ed. Oxford: Oxford University Press, 2006. (Units 1 to 5 - Computer Architecture and Technical Reading Skills).
 >
-> - **D)** Incorreta. Erra ao atribuir "tentou" (*attempted*), "tolerante" (*tolerant*) e "polícia" (*police*).
-> - **E)** Incorreta. Erra em "planejou" (*planned*), "compacta" (*compact*) e "futuramente" (*in the future*).
-> 
-> **Gabarito: C**
+> **Gabarito: D**
 
 ---
 
@@ -519,60 +474,50 @@ flowchart LR
 ---
 
 ### Teste 573
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-*Consider the excerpt below regarding cryptographic hash functions and data integrity:*
+**(FGV – TCE-GO – Analista de Controle Externo Ciencias Contabeis – 2024)**
+The expression “such as” in “such as climate change” (2nd paragraph) can be replaced without significant change in meaning by
 
-> *"Cryptographic hash functions generate a deterministic, fixed-size digest from arbitrary input data. When two distinct inputs produce the identical output hash, **this anomaly** is technically defined as a collision. Security analysts must continuously monitor legacy algorithms, as **they** may become vulnerable over time due to cryptanalytic advances."*
-
-In terms of textual cohesion and pronominal reference in technical texts:  
-
-* **A)** The noun phrase **"this anomaly"** refers conceptually to the fact that *"two distinct inputs produce the identical output hash"*.
-* **B)** The personal pronoun **"they"** in the second sentence refers syntactically to *"security analysts"*.
-* **C)** The demonstrative **"this"** indicates that the hash algorithm was developed by the author of the text.
-* **D)** The pronoun **"they"** refers singular and neutrally to *"a deterministic digest"*.
-* **E)** The expression **"this anomaly"** refers strictly to the word *"matrix"* mentioned in another chapter.
-
+* **A)** like.
+* **B)** as to.
+* **C)** mostly.
+* **D)** except for.
+* **E)** disregarding.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Trata-se do clássico mecanismo de **encapsulamento conceitual com pronome demonstrativo** (*this anomaly*): a expressão sintetiza toda a proposição antecedente de que "duas entradas distintas geram o mesmo hash de saída" (fenômeno conhecido como colisão criptográfica).
-> - **B)** Incorreta. Pela análise sintático-semântica, o pronome plural **"they"** retoma o substantivo antecedente **"legacy algorithms"** (*"analysts monitor legacy algorithms, as they [the legacy algorithms] may become vulnerable"*), e não os analistas de segurança.
-> - **C)** Incorreta. O pronome *this* funciona como recurso anafórico coesivo, sem conotação de autoria pessoal.
-> - **D)** Incorreta. *Digest* está no singular (*a digest*), ao passo que *they* é pronome plural que retoma *legacy algorithms*.
-> - **E)** Incorreta. A anáfora é intraparágrafo e retoma o evento da colisão explicitado na oração imediatamente anterior.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "like". De acordo com a teoria estudada em *3.2 Matriz Comparativa: Skimming vs. Scanning*, comandos Típicos FCC: *"The main purpose is..", "The author primarily argues.."* — *"According to paragraph 2..", "The latency threshold in 2025 was.."*.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as to". De acordo com a teoria estudada em *4.1 Pistas de Definição, Paráfrase e Exemplificação*, *Exemplo:* *"The migration revealed several ephemeral storage configurations, such as temporary in-memory caches and non-persistent container volumes, that caused data loss upon reboot."*.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "mostly". De acordo com a teoria estudada em *6.2 Encapsulamento Conceitual com Demonstrativos*, *Exemplo:* *"Undetected algorithmic bias can unfairly deny social benefits to vulnerable citizens. To prevent this, regulators mandated transparent audit logs."*.
+> - **D)** **Correta.** Conforme fundamentado na seção *4.1 Pistas de Definição, Paráfrase e Exemplificação* deste guia, *Exemplo:* *"The distributed service implements an idempotent operation—that is, an action that can be executed multiple times without altering the outcome beyond the initial invocation—thereby preventing accidental billing duplicates."*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "except for".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "disregarding". De acordo com a teoria estudada em *2.2 Identificação de Tipos de Questões FCC*, *"The overall tone of the author can be characterized as.."* (O tom do autor pode ser classificado como neutro, analítico, prescritivo, cético ou laudatório).
+>
+> **Gabarito: D**
 
 ---
 
 ### Teste 574
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-*Consider the text below on algorithmic governance:*
+**(FGV – TCE-GO – Analista de Controle Externo Ciencias Contabeis – 2024)**
+Based on the text, mark the statements below as TRUE (T) or FALSE (F): ( ) The author mentions the fact that AGI may supplant human faculties. ( ) Ways in which we can lead meaningful lives are detailed. ( ) AGI has already solved the problems of economic equality. The statements are, respectively
 
-> *"Auditing modern machine learning models presents **novel** challenges for oversight agencies. Deep neural networks function largely as black boxes, making it difficult to extract explainable decision pathways. When public institutions deploy predictive models to grant social benefits or score fiscal risk, undetected algorithmic bias can harm vulnerable citizens. **To prevent this**, regulatory authorities advocate for strict validation protocols. Data scientists must ensure that training datasets are **sensible**, representative, and sanitized against historical disparities. **They** must also provide comprehensive audit trails before any model enters production."*
-
-Regarding reading comprehension, context clues, and reference words in the text, choose the correct alternative:
-
-* **A)** The adjective **"novel"** in the first sentence indicates that algorithmic auditing challenges are traditional, ancient, and already solved by standard literature.
-* **B)** In the phrase **"To prevent this"**, the pronoun *"this"* refers back to the entire problem of undetected algorithmic bias harming citizens.
-* **C)** The adjective **"sensible"** indicates that training datasets must be easily hurt by emotional or sensitive reactions.
-* **D)** The subject pronoun **"They"** in the final sentence syntactically refers to *"vulnerable citizens"*.
-* **E)** The author argues that machine learning models should enter production immediately, dispensing with explainability and audit trails.
-
+* **A)** F – T – F.
+* **B)** T – F – F.
+* **C)** T – T – F.
+* **D)** F – T – T.
+* **E)** F – F – T.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Empregada como adjetivo de língua inglesa, a palavra **"novel"** significa novo, inédito, original ou inovador (raiz latina de novidade). Não guarda relação com algo antigo ou tradicional, tampouco com romances literários.
-> - **B)** Correta. Ocorre aqui o encapsulamento conceitual anafórico: a locução demonstrativa **"To prevent this"** (Para prevenir que isso aconteça) retoma todo o fato crítico enunciado imediatamente antes: o viés algorítmico inadvertido prejudicar cidadãos em situação vulnerável (*undetected algorithmic bias can harm vulnerable citizens*).
-> - **C)** Incorreta. O adjetivo **"sensible"** é falso cognato e traduz-se como sensato, criterioso, razoável e prudente. A noção de suscetibilidade emocional ou dados protegidos traduz-se por *sensitive*.
-> - **D)** Incorreta. Na construção sintática da oração anterior (*"Data scientists must ensure that.. They must also provide.."*), o pronome pessoal plural **"They"** retoma diretamente os **"Data scientists"** (cientistas de dados), agentes responsáveis por gerar as trilhas de auditoria, e não os cidadãos vulneráveis.
-> - **E)** Incorreta. O texto defende expressamente o oposto: os modelos só devem entrar em produção após a garantia de validações rigorosas e trilhas de auditoria abrangentes (*comprehensive audit trails before any model enters production*).
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – T – F". De acordo com a teoria estudada em *2.2 Identificação de Tipos de Questões FCC*, *"The overall tone of the author can be characterized as.."* (O tom do autor pode ser classificado como neutro, analítico, prescritivo, cético ou laudatório).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "T – F – F". De acordo com a teoria estudada em *6.1 Anáfora e Catáfora em Textos Técnicos*, which / That: Aplica-se a coisas, sistemas e conceitos inanimados.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "T – T – F". De acordo com a teoria estudada em *4.1 Pistas de Definição, Paráfrase e Exemplificação*, *Exemplo:* *"The distributed service implements an idempotent operation—that is, an action that can be executed multiple times without altering the outcome beyond the initial invocation—thereby preventing accidental billing duplicates."*.
+> - **D)** **Correta.** Conforme fundamentado na seção *2.2 Identificação de Tipos de Questões FCC* deste guia, *"Which of the following statements best expresses the primary argument of the author?"* (Qual afirmação melhor resume a tese primordial do autor?). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "F – T – T".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – F – T". De acordo com a teoria estudada em *4.2 Pistas de Contraste, Oposição, Causa e Efeito*, *Exemplo:* *"Unlike legacy monolithic repositories that are completely intertwined, modern cloud applications are composed of loosely coupled, independent microservices."*.
+>
+> **Gabarito: D**
 
 ---
 

@@ -90,86 +90,51 @@ flowchart TD
 ---
 
 ### Teste 176
-**(FGV – TRT / TCE – 2024)**  
-A NBASP 20 objetiva promover os princípios de transparência e de
+**(FGV – TCE-PI – Auditor de Controle Externo Controle Externo Especifica de Area Comum – 2025)**
+No plano anual de controle externo dos exercícios de 2024/2025 do TCE-PI, estão previstas as realizações de fiscalizações pelas unidades técnicas da Secretaria de Controle Externo nas áreas de educação, gestão ambiental e segurança pública, visando I. examinar a legalidade e a legitimidade dos atos de gestão dos responsáveis sujeitos à sua jurisdição, quanto aos aspectos contábil, financeiro, orçamentário, operacional e patrimonial. II. avaliar, ao longo de um período predeterminado, o desempenho dos órgãos e das entidades jurisdicionadas, assim como dos sistemas, dos programas e das ações governamentais, quanto aos aspectos da economicidade, da eficiência e da eficácia dos atos praticados. III. conhecer a organização e o funcionamento dos órgãos e das entidades da administração direta, indireta e fundacional do Estado e dos Municípios, incluindo fundos e demais instituições que lhe sejam jurisdicionadas, assim como dos sistemas, dos programas e das ações governamentais sob os aspectos contábil, financeiro, orçamentário, operacional e patrimonial. Considerando as disposições do Regimento Interno, os instrumentos de fiscalização adequados a serem utilizados pelas unidades técnicas na execução do plano proposto pela Secretaria de Controle Externo do TCE-PI são, respectivamente,
 
-accountability nos Tribunais de Contas, que devem atuar de forma
-
-exemplar, mediante a aplicação destes princípios em todos os seus
-
-atos.
-
-Sobre a NBASP 20 - Transparência e Accountability, analise os itens
-
-a seguir:
-
-I. Os Tribunais de Contas devem atuar sob normas a partir das
-
-quais seja possível responsabilizar seus membros e servidores.
-
-II. É recomendável que os Tribunais de Contas divulguem ao
-
-público as informações básicas sobre suas competências, suas
-
-responsabilidades, sua missão, sua estratégia e suas atividades
-
-em uma das línguas oficiais da Intosai, além da língua
-
-portuguesa.
-
-III. Os Tribunais de Contas devem ter regras ou códigos de ética,
-
-políticas e práticas que estejam alinhados com as Normas
-
-Brasileiras d e Auditoria do Setor Público, especialmente a
-
-NBASP 130.
-
-Está correto o que se afirma em
-
-* **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** I e III, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
+* **A)** inspeção, monitoramento e levantamento.
+* **B)** levantamento, monitoramento e inspeção.
+* **C)** auditoria, monitoramento e levantamento.
+* **D)** monitoramento, auditoria e acompanhamento.
+* **E)** auditoria, acompanhamento e levantamento.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A NBASP 20 preconiza transparência ativa e acesso amplo às deliberações e contas do próprio Tribunal.
-> - **B)** Incorreta. A accountability exige que o Tribunal de Contas lidere pelo exemplo na gestão pública.
-> - **C)** Incorreta. O sigilo é exceção justificada exclusivamente nos termos legais de proteção e segurança.
-> - **D)** Incorreta. A divulgação de metas de desempenho e execução orçamentária é diretriz explícita da norma.
-> - **E)** Correta. A NBASP 20 (Princípios de Transparência e Accountability nos Tribunais de Contas) estabelece que as instituições de controle externo devem atuar de maneira exemplar, mantendo padrões elevados de transparência sobre sua própria gestão, metodologia de auditoria, custos operacionais e resultados entregues aos cidadãos.
->
-> **Gabarito: E**
-
----
-
-### Teste 177
-**(FGV – TCE-GO – Analista de Controle Externo – 2024)**  
-O Framework de Controle Interno Integrado do Committee of Sponsoring Organizations of the Treadway Commission (COSO) , originalmente emitido em 1992 e atualizado em 2013, consolidou a ideia de gestão de riscos corporativos e apresentou um conjunto de princípios e boas práticas de gestão e controle interno. Assinale a opção que indica uma característica da versão atualizada em 2013.
-
-* **A)** Complementação de resposta a riscos.
-* **B)** Verificação de conformidade com a Lei Sarbanes-Oxley.
-* **C)** Destaque para os riscos na melhoria da performance.
-* **D)** Aplicação da gestão de riscos no setor público.
-* **E)** Destaque para os riscos no estabelecimento da estratégia. TRIBUNAL DE CONTAS DO ESTADO DE GOIÁS FGV CONHECIMENTO ANALISTA DE CONTROLE EXTERNO - CIENCIAS CONTABEIS – MANHÃ TIPO BRANCA – PÁGINA 12
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. O COSO 2013 organiza o controle interno em 5 componentes integrados e 17 princípios fundamentais.
-> - **B)** Correta. O Framework COSO - Controle Interno Integrado estrutura o sistema de controle interno em cinco componentes inter-relacionados: Ambiente de Controle, Avaliação de Riscos, Atividades de Controle, Informação e Comunicação, e Atividades de Monitoramento, os quais operam em sinergia para mitigar riscos aos objetivos operacionais, de conformidade e de comunicação/relato.
-> - **C)** Incorreta. O componente Ambiente de Controle é a base sobre a qual se sustentam os demais componentes.
-> - **D)** Incorreta. O COSO aplica-se tanto à governança corporativa privada quanto ao setor público e auditoria governamental.
-> - **E)** Incorreta. Atividades de controle devem ser balanceadas de acordo com o apetite a risco e custo-benefício.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "inspeção, monitoramento e levantamento". De acordo com a teoria estudada em *1.1 Conceito e Finalidade Prática de Cada Instrumento*, auditoria: Instrumento formal e abrangente destinado a examinar a legalidade, legitimidade e economicidade de atos, contratos, demonstrações contábeis e programas de governo. — Fiscalização planejada de grande porte (conformidade, operacional ou financeira).
+> - **B)** **Correta.** Conforme fundamentado na seção *1.1 Conceito e Finalidade Prática de Cada Instrumento* deste guia, levantamento: Utilizado para conhecer a organização, o funcionamento dos órgãos públicos, mapear sistemas de informação e avaliar a viabilidade da realização de futuras fiscalizações. — Fase exploratória prévia; elaboração do Plano Anual de Fiscalização do Tribunal. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PI/2025) ao estabelecer que "levantamento, monitoramento e inspeção".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "auditoria, monitoramento e levantamento". De acordo com a teoria estudada em *1.2 Diferença Prática entre Inspeção e Monitoramento*, se o enunciado descrever *"verificar se a Secretaria de Educação adotou as providências e determinações exaradas em acórdão anterior do Tribunal"*, o instrumento correto é o MONITORAMENTO!.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "monitoramento, auditoria e acompanhamento". De acordo com a teoria estudada em *1.1 Conceito e Finalidade Prática de Cada Instrumento*, acompanhamento: Utilizado para fiscalizar tempestivamente a gestão, de forma concomitante e periódica, ao longo de um determinado período. — Grandes obras públicas em execução, repasses contínuos e editais de licitação em andamento.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "auditoria, acompanhamento e levantamento". De acordo com a teoria estudada em *1. Os Cinco Instrumentos de Fiscalização do Controle Externo*, a Lei Orgânica do Tribunal de Contas do Estado de Goiás (Lei Estadual nº 16.168/2007) e o seu Regimento Interno estruturam a atuação fiscalizatória externa em cinco instrumentos operacionais fundamentais.
 >
 > **Gabarito: B**
 
 ---
+
+### Teste 177
+**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**  
+Os princípios de auditoria constantes nas Normas Internacionais das Entidades Fiscalizadoras Superiores (ISSAI / NBASP) são fundamentais para a condução de uma fiscalização técnica escorreita.  
+Assinale a opção que indica o princípio de auditoria governamental que enfatiza a necessidade de comunicação eficaz e transparente por parte dos auditores ao longo de todo o processo fiscalizatório:
+
+* **A)** Ética e independência profissional.
+* **B)** Controle de qualidade do trabalho.
+* **C)** Comunicação com a entidade auditada.
+* **D)** Gestão de equipes e habilidades técnicas.
+* **E)** Ceticismo e julgamento profissionais.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreto**. Refere-se à conduta moral, probidade, autonomia e neutralidade dos membros da equipe.
+> - **B)** **Incorreto**. Abrange os procedimentos institucionais para assegurar que a auditoria atenda aos padrões técnicos de qualidade.
+> - **C)** **Correto**. Conforme a NBASP 100 / ISSAI 100, o princípio da "Comunicação" estabelece que os auditores governamentais devem manter canais de comunicação claros e eficazes com a administração auditada e partes responsáveis ao longo de todas as etapas (planejamento, execução e relatório), promovendo a transparência e evitando surpresas nas conclusões.
+> - **D)** **Incorreto**. Diz respeito à alocação de auditores com capacitação adequada ao objeto fiscalizado.
+> - **E)** **Incorreto**. Refere-se à postura crítica e questionadora do auditor ao analisar as evidências colhidas.
+>
+> **Gabarito: C**
 
 ### Teste 178
 **(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**  
@@ -253,134 +218,146 @@ Está correto o que se afirma em:
 > **Gabarito: B**
 
 ### Teste 181
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-De acordo com a estrutura normativa da NBASP 100 / INTOSAI, a auditoria no setor público compreende três tipos principais: financeira, de conformidade e operacional. A respeito do objeto e escopo específico da auditoria operacional, é correto afirmar:
+**(FGV – TCE-PI – Auditor de Controle Externo Controle Externo Especifica de Area Comum – 2025)**
+A auditoria no setor público é fundamental para assegurar a correta aplicação dos recursos públicos, promovendo transparência, responsabilidade e boa governança. As auditorias ajudam a prevenir fraudes e desperdícios, fortalecendo a confiança dos cidadãos nas instituições governamentais e garantindo que os recursos sejam utilizados de forma ética e eficaz para o bem coletivo. Relacione os tipos principais de auditoria do setor público estabelecidos na NBASP 100 - Princípios Fundamentais de Auditoria no Setor Público, às suas respectivas definições. I. Auditoria Financeira II. Auditoria Operacional III. Auditoria de Conformidade ( ) Foca em determinar se um particular objeto está de acordo com normas identificadas como critérios. É realizada para avaliar se atividades, transações financeiras e informações cumprem, em todos os aspectos relevantes, as normas que regem a entidade auditada. ( ) Foca em determinar se intervenções, programas e instituições estão atuando em conformidade com os princípios de economicidade, de eficiência e de efetividade, bem como se há espaço para aperfeiçoamento. O objetivo é responder a questões-chave de auditoria e apresentar recomendações para aperfeiçoamento. ( ) Foca em determinar se a informação contábil de uma entidade é apresentada em conformidade com a estrutura de relatório financeiro e o marco regulatório aplicável. Assinale a opção que indica a relação correta, segundo a ordem apresentada.
 
-* **A)** Tem por objetivo exclusivo atestar a fidedignidade formal das demonstrações contábeis e notas explicativas.
-* **B)** Avalia o desempenho de órgãos e programas públicos segundo a economicidade, eficiência e eficácia.
-* **C)** Foca prioritariamente na verificação da estrita legalidade de contratos administrativos e processos licitatórios.
-* **D)** É vedada a análise de indicadores de efetividade social sob pena de violação do mérito administrativo do Executivo.
-* **E)** Subordina suas conclusões à aprovação prévia e discricionária da Controladoria-Geral do respectivo Estado.
+* **A)** I – II – III.
+* **B)** III – II – I.
+* **C)** III – I – II.
+* **D)** I – III – II.
+* **E)** II – III – I.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. Atestar a fidedignidade das demonstrações contábeis (se estão livres de distorções relevantes) é o escopo da auditoria financeira (NBASP 200).
-> - **B)** **Correto**. Conforme a NBASP 100 e a NBASP 300, a auditoria operacional foca em determinar se intervenções, programas e instituições estão operando em conformidade com os princípios da economicidade, eficiência, eficácia e efetividade (os "4Es"), visando identificar oportunidades de melhoria na gestão pública.
-> - **C)** **Incorreto**. A verificação de conformidade a leis e regulamentos cabe à auditoria de conformidade (NBASP 400).
-> - **D)** **Incorreto**. A efetividade social (impacto real da política pública na sociedade) é dimensão precípua do controle operacional moderno.
-> - **E)** **Incorreto**. A auditoria pelo Tribunal de Contas é autônoma e independente de controladorias executivas.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I – II – III". De acordo com a teoria estudada em *1.1 Conceito e Finalidade Prática de Cada Instrumento*, levantamento: Utilizado para conhecer a organização, o funcionamento dos órgãos públicos, mapear sistemas de informação e avaliar a viabilidade da realização de futuras fiscalizações. — Fase exploratória prévia; elaboração do Plano Anual de Fiscalização do Tribunal.
+> - **B)** **Correta.** Conforme fundamentado na seção *1.1 Conceito e Finalidade Prática de Cada Instrumento* deste guia, auditoria: Instrumento formal e abrangente destinado a examinar a legalidade, legitimidade e economicidade de atos, contratos, demonstrações contábeis e programas de governo. — Fiscalização planejada de grande porte (conformidade, operacional ou financeira). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PI/2025) ao estabelecer que "III – II – I".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "III – I – II". De acordo com a teoria estudada em *1.1 Conceito e Finalidade Prática de Cada Instrumento*, monitoramento: Destinado especificamente a verificar o cumprimento das deliberações (determinações e recomendações) expedidas pelo Tribunal e os resultados gerados. — Etapa pós-auditoria; fiscaliza se o órgão cumpriu os prazos e providências do acórdão.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I – III – II". De acordo com a teoria estudada em *1. Os Cinco Instrumentos de Fiscalização do Controle Externo*, a Lei Orgânica do Tribunal de Contas do Estado de Goiás (Lei Estadual nº 16.168/2007) e o seu Regimento Interno estruturam a atuação fiscalizatória externa em cinco instrumentos operacionais fundamentais.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II – III – I". De acordo com a teoria estudada em *1.1 Conceito e Finalidade Prática de Cada Instrumento*, inspeção: Destinada a suprir omissões ou lacunas de informações, esclarecer dúvidas pontuais em processos em andamento ou apurar denúncias e representações de caráter urgente. — Atuação pontual, corretiva e de resposta a denúncias de irregularidades.
 >
 > **Gabarito: B**
+
+---
 
 ### Teste 182
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A NBASP 100 estabelece que os trabalhos de auditoria do setor público podem ser executados sob a forma de trabalhos de asseguração razoável ou limitada. A respeito da natureza da asseguração razoável, é correto afirmar que:
+**(FGV – TRT-24 – Analista Judiciario Area Administrativa Sem Especialidade – 2025)**
+Na fase de Planejamento de uma auditoria operacional, o auditor deve estabelecer critérios apropriados, que correspondam aos objetivos e questões de auditoria. Em relação a eles, analise o que se afirma a seguir. I. O critério representa a expectativa razoável e fundamentada do que “deveria ser”, as melhores práticas e benchmarks com os quais o desempenho pode ser comparado. II. Os critérios de auditoria precisam fornecer uma base apropriada e razoável para a avaliação dos objetivos da auditoria e devem ser relevantes, compreensíveis, completos, confiáveis e objetivos no contexto do objeto, dos objetivos e/ou das questões de auditoria. III. Os critérios de auditoria são estabelecidos pela equipe de auditoria e devem ser discutidos com a entidade auditada posteriormente, na fase de execução. Está correto o que se afirma em
 
-* **A)** consiste em uma garantia absoluta de que todas as fraudes ou erros cometidos na gestão foram detectados.
-* **B)** expressa um nível alto, mas não absoluto, de certeza de que o objeto auditado está livre de distorções relevantes.
-* **C)** dispensa a obtenção de evidências suficientes e apropriadas quando o controle interno for considerado robusto.
-* **D)** conclui na forma negativa, declarando que nada chegou ao conhecimento do auditor que indicasse qualquer irregularidade.
-* **E)** é aplicável apenas a inspeções extraordinárias instauradas com a finalidade de apurar denúncias anônimas.
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A asseguração razoável nunca é absoluta devido às limitações inerentes à auditoria (uso de amostragem, limitações do controle interno e julgamento profissional).
-> - **B)** **Correto**. Conforme a NBASP 100, a asseguração razoável é de nível alto, embora não absoluto. A conclusão do auditor é expressa de forma positiva, transmitindo aos usuários confiança de que as informações estão substancialmente corretas e livres de distorção relevante.
-> - **C)** **Incorreto**. A obtenção de evidência suficiente e apropriada é indispensável em qualquer trabalho de asseguração razoável.
-> - **D)** **Incorreto**. A forma negativa de conclusão ("nada chegou ao conhecimento que indicasse...") é a característica da asseguração limitada.
-> - **E)** **Incorreto**. A asseguração razoável é o padrão típico das auditorias financeiras e de grande parte das auditorias de conformidade.
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *1.1 Conceito e Finalidade Prática de Cada Instrumento*, levantamento: Utilizado para conhecer a organização, o funcionamento dos órgãos públicos, mapear sistemas de informação e avaliar a viabilidade da realização de futuras fiscalizações. — Fase exploratória prévia; elaboração do Plano Anual de Fiscalização do Tribunal.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *1.1 Conceito e Finalidade Prática de Cada Instrumento*, acompanhamento: Utilizado para fiscalizar tempestivamente a gestão, de forma concomitante e periódica, ao longo de um determinado período. — Grandes obras públicas em execução, repasses contínuos e editais de licitação em andamento.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *1.2 Diferença Prática entre Inspeção e Monitoramento*, se o enunciado descrever *"verificar se a Secretaria de Educação adotou as providências e determinações exaradas em acórdão anterior do Tribunal"*, o instrumento correto é o MONITORAMENTO!.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.1 Conceito e Finalidade Prática de Cada Instrumento* deste guia, auditoria: Instrumento formal e abrangente destinado a examinar a legalidade, legitimidade e economicidade de atos, contratos, demonstrações contábeis e programas de governo. — Fiscalização planejada de grande porte (conformidade, operacional ou financeira). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "II e III, apenas".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *1.1 Conceito e Finalidade Prática de Cada Instrumento*, monitoramento: Destinado especificamente a verificar o cumprimento das deliberações (determinações e recomendações) expedidas pelo Tribunal e os resultados gerados. — Etapa pós-auditoria; fiscaliza se o órgão cumpriu os prazos e providências do acórdão.
 >
-> **Gabarito: B**
+> **Gabarito: D**
+
+---
 
 ### Teste 183
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-De acordo com a NBASP 100, as auditorias do setor público envolvem três partes distintas (três sujeitos): o auditor, a parte responsável e os usuários previstos. A respeito da identificação dessas partes no controle externo, é correto afirmar:
+**(FGV – TCE-PI – Auditor de Controle Externo Controle Externo Especifica de Area Comum – 2025)**
+A NBASP 100 - Princípios Fundamentais de Auditoria no Setor Público estabelece as diretrizes essenciais que regem as auditorias governamentais, orientando a conduta e a prática dos auditores no setor público. Essa norma define os princípios básicos de independência, competência, ética e ceticismo profissional, além de enfatizar a necessidade de uma auditoria transparente, objetiva e eficiente, visando promover a responsabilidade, a boa governança e a prestação de contas no uso dos recursos públicos. Quanto à NBASP 100, avalie as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa. ( ) Em geral, a auditoria do setor público pode ser descrita como um processo sistemático de obter e avaliar objetivamente evidências para determinar se as informações ou as condições reais de um objeto estão de acordo com critérios aplicáveis. ( ) Todas as auditorias do setor público contam com os mesmos elementos básicos: o auditor, os demonstrativos contábeis e os usuários previstos (as três partes da auditoria). ( ) O objeto da auditoria refere-se à informação, condição ou atividade que é mensurada ou avaliada de acordo com certos critérios. Pode assumir várias formas e ter diferentes características, dependendo do objetivo da auditoria. As afirmativas são, respectivamente,
 
-* **A)** O Poder Executivo atua simultaneamente como auditor governamental e destinatário exclusivo dos relatórios de auditoria.
-* **B)** A parte responsável é a entidade ou gestor encarregado da gestão dos recursos e do objeto sob exame.
-* **C)** Os usuários previstos são exclusivamente os magistrados e promotores do Poder Judiciário e Ministério Público Estadual.
-* **D)** O auditor é o agente submetido à fiscalização contábil obrigado a prestar contas anuais aos órgãos do Poder Legislativo.
-* **E)** A sociedade civil e os cidadãos são expressamente excluídos da condição de usuários previstos nos trabalhos de controle.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreto**. No controle externo, o auditor é o Tribunal de Contas (EFS) e sua equipe de fiscalização.
-> - **B)** **Correto**. Conforme o modelo da NBASP 100: a "parte responsável" é a autoridade ou entidade gestora encarregada da gestão da coisa pública ou da elaboração das informações auditadas; o "auditor" é o órgão de fiscalização independente; e os "usuários previstos" são o Poder Legislativo e a sociedade (cidadãos).
-> - **C)** **Incorreto**. Os principais usuários previstos são os órgãos legislativos e a própria coletividade cidadã.
-> - **D)** **Incorreto**. O responsável pelas contas é a parte responsável auditada, e não o auditor.
-> - **E)** **Incorreto**. A sociedade é titular de interesse direto nos resultados das auditorias governamentais públicas.
->
-> **Gabarito: B**
-
-### Teste 184
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-De acordo com os princípios da NBASP 30 (Código de Ética da INTOSAI) e os padrões profissionais da auditoria governamental, analise as condutas exigidas dos auditores no exercício do controle externo. É correto afirmar que:
-
-* **A)** O auditor pode aceitar presentes ou favores pessoais da administração auditada se o valor for irrelevante perante o mercado.
-* **B)** A integridade, a independência, o sigilo profissional e a competência técnica constituem valores éticos obrigatórios.
-* **C)** O ceticismo profissional deve ser abandonado sempre que os gestores auditados comprovarem idoneidade moral pretérita.
-* **D)** É dever do auditor emitir juízos de valor em redes sociais sobre processos de auditoria antes da deliberação do Plenário.
-* **E)** O auditor está dispensado do dever de confidencialidade quando prestar consultoria particular remunerada a terceiros.
+* **A)** V – V – V.
+* **B)** V – F – V.
+* **C)** F – F – F.
+* **D)** V – V – F.
+* **E)** F – V – V.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A NBASP 30 veda expressamente a aceitação de presentes, favores ou hospitalidades que possam comprometer, de fato ou na aparência, a independência e imparcialidade do auditor.
-> - **B)** **Correto**. A NBASP 30 / ISSAI 130 estrutura o Código de Ética em cinco pilares axiológicos essenciais: integridade, independência e objetividade, competência técnica, comportamento profissional e sigilo/confidencialidade.
-> - **C)** **Incorreto**. O ceticismo profissional é atitude permanente que mantém a mente aberta e questionadora ao avaliar criticamente a validade das evidências.
-> - **D)** **Incorreto**. A divulgação prematura ou manifestação em redes sociais sobre processos não julgados afronta o dever de discrição e sigilo.
-> - **E)** **Incorreto**. O dever de sigilo é indeclinável e a consultoria privada sobre áreas afins ao controle padece de vedação legal absoluta.
->
-> **Gabarito: B**
-
-### Teste 185
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Na auditoria financeira governamental regida pela NBASP 200, a responsabilidade do auditor ao emitir o seu relatório culmina na formulação de uma opinião técnica fundamentada sobre as demonstrações contábeis. A respeito dos tipos de opinião modificada, é correto afirmar que:
-
-* **A)** A opinião sem ressalva é expressa quando o auditor identifica distorções relevantes e generalizadas nas contas públicas.
-* **B)** A abstenção de opinião ocorre quando há falta de evidência apropriada com efeitos relevantes e generalizados.
-* **C)** A opinião adversa é emitida quando a limitação de escopo impede a formação de qualquer conclusão técnica pelos auditores.
-* **D)** A opinião com ressalva é vedada na administração pública estadual em razão do princípio da unidade de tesouraria do Estado.
-* **E)** O relatório com opinião modificada é automaticamente descartado sem envio à Assembleia Legislativa estadual competente.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreto**. Diante de distorções relevantes e generalizadas, a opinião técnica é "adversa", e não sem ressalva.
-> - **B)** **Correto**. Conforme a NBASP 200 / NBC TA 705: o auditor deve emitir uma "abstenção de opinião" (ou declinar de opinar) quando, devido a graves limitações de escopo impostas pela administração auditada, ele não consegue obter evidência de auditoria suficiente e apropriada para fundamentar sua opinião, e concluir que os possíveis efeitos de distorções não detectadas sobre as demonstrações contábeis podem ser tanto relevantes quanto generalizados.
-> - **C)** **Incorreto**. A limitação de escopo com efeitos generalizados conduz à abstenção de opinião; a opinião adversa exige a certeza de que as distorções existem e são relevantes e generalizadas.
-> - **D)** **Incorreto**. A opinião com ressalva é plenamente cabível quando há distorções relevantes, mas não generalizadas.
-> - **E)** **Incorreto**. Os relatórios de auditoria com pareceres modificados são as principais peças técnicas apreciadas pelo Legislativo.
->
-> **Gabarito: B**
-
-### Teste 186
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A Declaração de Lima consagra preceitos vitais para assegurar a autonomia financeira das Entidades Fiscalizadoras Superiores (Seção 7). De acordo com esse tratado internacional e sua recepção na ordem jurídica brasileira, é correto afirmar:
-
-* **A)** As Cortes de Contas devem ser dotadas de recursos financeiros próprios que lhes permitam cumprir integralmente suas tarefas.
-* **B)** O Poder Executivo detém prerrogativa discricionária de contingenciar os repasses duodecimais do Tribunal de Contas a qualquer tempo.
-* **C)** A dotação orçamentária do Tribunal de Contas deve ser aprovada diretamente em sessão plenária sem envio prévio ao Legislativo.
-* **D)** A contratação de bens e serviços pelo Tribunal de Contas subordina-se à autorização prévia da Secretaria da Fazenda Estadual.
-* **E)** As Cortes de Contas estão isentas de submeter suas despesas administrativas à prestação de contas perante o Poder Legislativo.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correto**. A Seção 7 da Declaração de Lima dispõe que as EFS devem dispor dos meios financeiros necessários ao cumprimento de suas funções constitucionais, devendo requerer os recursos diretamente ao órgão com competência orçamentária (o Poder Legislativo). Na ordem brasileira, o art. 168 da CF/88 consagra os duodécimos orçamentários obrigatórios repassados até o dia 20 de cada mês.
-> - **B)** **Incorreto**. O art. 168 da CF/88 veda a retenção ou o contingenciamento arbitrário dos repasses orçamentários devidos aos Tribunais de Contas pelo Executivo.
-> - **C)** **Incorreto**. O Tribunal propõe sua dotação na lei orçamentária, que é apreciada e votada pelo Poder Legislativo.
-> - **D)** **Incorreto**. A contratação interna é autônoma, vedada a tutela hierárquica por secretarias de Fazenda.
-> - **E)** **Incorreto**. As contas de gestão do Tribunal de Contas são fiscalizadas anualmente pela Assembleia Legislativa.
+> - **A)** **Correta.** Conforme fundamentado na seção *1.1 Conceito e Finalidade Prática de Cada Instrumento* deste guia, levantamento: Utilizado para conhecer a organização, o funcionamento dos órgãos públicos, mapear sistemas de informação e avaliar a viabilidade da realização de futuras fiscalizações. — Fase exploratória prévia; elaboração do Plano Anual de Fiscalização do Tribunal. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PI/2025) ao estabelecer que "V – V – V".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – F – V". De acordo com a teoria estudada em *1. Os Cinco Instrumentos de Fiscalização do Controle Externo*, a Lei Orgânica do Tribunal de Contas do Estado de Goiás (Lei Estadual nº 16.168/2007) e o seu Regimento Interno estruturam a atuação fiscalizatória externa em cinco instrumentos operacionais fundamentais.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – F – F". De acordo com a teoria estudada em *1.1 Conceito e Finalidade Prática de Cada Instrumento*, auditoria: Instrumento formal e abrangente destinado a examinar a legalidade, legitimidade e economicidade de atos, contratos, demonstrações contábeis e programas de governo. — Fiscalização planejada de grande porte (conformidade, operacional ou financeira).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – V – F". De acordo com a teoria estudada em *1.1 Conceito e Finalidade Prática de Cada Instrumento*, inspeção: Destinada a suprir omissões ou lacunas de informações, esclarecer dúvidas pontuais em processos em andamento ou apurar denúncias e representações de caráter urgente. — Atuação pontual, corretiva e de resposta a denúncias de irregularidades.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – V – V". De acordo com a teoria estudada em *1.1 Conceito e Finalidade Prática de Cada Instrumento*, monitoramento: Destinado especificamente a verificar o cumprimento das deliberações (determinações e recomendações) expedidas pelo Tribunal e os resultados gerados. — Etapa pós-auditoria; fiscaliza se o órgão cumpriu os prazos e providências do acórdão.
 >
 > **Gabarito: A**
+
+---
+
+### Teste 184
+**(FGV – TCE-PI – Auditor de Controle Externo Controle Externo Especifica de Area Comum – 2025)**
+O Auditor Governamental, ao seguir os requisitos gerais da NBASP 3000, realiza auditorias operacionais com integridade, independência e competência, garantindo a credibilidade e a qualidade do trabalho. Esses requisitos asseguram que o auditor aplique ceticismo profissional, obtenha evidências apropriadas e suficientes, e adote uma abordagem baseada em risco. Quanto à NBASP 3000, avalie as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa. ( ) O auditor deve, como parte do planejamento e/ou da condução da auditoria, discutir os critérios de auditoria com a entidade auditada. ( ) O auditor deve gerenciar ativamente o risco de auditoria para evitar o desenvolvimento de achados, conclusões e recomendações incorretos ou incompletos, fornecendo informações inconsistentes ou que não agregam valor. ( ) O auditor deve planejar e manter uma comunicação eficaz e adequada dos aspectos-chave da auditoria com a entidade auditada e as partes interessadas durante todo o processo de auditoria. As afirmativas são, respectivamente,
+
+* **A)** V – F – V.
+* **B)** F – V – V.
+* **C)** V – V – V.
+* **D)** V – V – F.
+* **E)** V – F – F.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *1.1 Conceito e Finalidade Prática de Cada Instrumento* deste guia, monitoramento: Destinado especificamente a verificar o cumprimento das deliberações (determinações e recomendações) expedidas pelo Tribunal e os resultados gerados. — Etapa pós-auditoria; fiscaliza se o órgão cumpriu os prazos e providências do acórdão. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PI/2025) ao estabelecer que "V – F – V".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – V – V". De acordo com a teoria estudada em *1. Os Cinco Instrumentos de Fiscalização do Controle Externo*, a Lei Orgânica do Tribunal de Contas do Estado de Goiás (Lei Estadual nº 16.168/2007) e o seu Regimento Interno estruturam a atuação fiscalizatória externa em cinco instrumentos operacionais fundamentais.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – V – V". De acordo com a teoria estudada em *1.1 Conceito e Finalidade Prática de Cada Instrumento*, inspeção: Destinada a suprir omissões ou lacunas de informações, esclarecer dúvidas pontuais em processos em andamento ou apurar denúncias e representações de caráter urgente. — Atuação pontual, corretiva e de resposta a denúncias de irregularidades.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – V – F". De acordo com a teoria estudada em *1.1 Conceito e Finalidade Prática de Cada Instrumento*, auditoria: Instrumento formal e abrangente destinado a examinar a legalidade, legitimidade e economicidade de atos, contratos, demonstrações contábeis e programas de governo. — Fiscalização planejada de grande porte (conformidade, operacional ou financeira).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – F – F". De acordo com a teoria estudada em *1.1 Conceito e Finalidade Prática de Cada Instrumento*, instrumento: Conceito & Finalidade — Quando é Utilizado na Prática?.
+>
+> **Gabarito: A**
+
+---
+
+### Teste 185
+**(FGV – TCE-GO – Analista de Controle Externo Ciencias Contabeis – 2024)**
+A NBASP 20 objetiva promover os princípios de transparência e de accountability nos Tribunais de Contas, que devem atuar de forma exemplar, mediante a aplicação destes princípios em todos os seus atos. Sobre a NBASP 20 - Transparência e Accountability, analise os itens a seguir: I. Os Tribunais de Contas devem atuar sob normas a partir das quais seja possível responsabilizar seus membros e servidores. II. É recomendável que os Tribunais de Contas divulguem ao público as informações básicas sobre suas competências, suas responsabilidades, sua missão, sua estratégia e suas atividades em uma das línguas oficiais da Intosai, além da língua portuguesa. III. Os Tribunais de Contas devem ter regras ou códigos de ética, políticas e práticas que estejam alinhados com as Normas Brasileiras de Auditoria do Setor Público, especialmente a NBASP 130. Está correto o que se afirma em
+
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *1.1 Conceito e Finalidade Prática de Cada Instrumento* deste guia, auditoria: Instrumento formal e abrangente destinado a examinar a legalidade, legitimidade e economicidade de atos, contratos, demonstrações contábeis e programas de governo. — Fiscalização planejada de grande porte (conformidade, operacional ou financeira). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "I, apenas".
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *1. Os Cinco Instrumentos de Fiscalização do Controle Externo*, a Lei Orgânica do Tribunal de Contas do Estado de Goiás (Lei Estadual nº 16.168/2007) e o seu Regimento Interno estruturam a atuação fiscalizatória externa em cinco instrumentos operacionais fundamentais.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *1.1 Conceito e Finalidade Prática de Cada Instrumento*, inspeção: Destinada a suprir omissões ou lacunas de informações, esclarecer dúvidas pontuais em processos em andamento ou apurar denúncias e representações de caráter urgente. — Atuação pontual, corretiva e de resposta a denúncias de irregularidades.
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *1.1 Conceito e Finalidade Prática de Cada Instrumento*, acompanhamento: Utilizado para fiscalizar tempestivamente a gestão, de forma concomitante e periódica, ao longo de um determinado período. — Grandes obras públicas em execução, repasses contínuos e editais de licitação em andamento.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *1.2 Diferença Prática entre Inspeção e Monitoramento*, se o enunciado descrever *"verificar se a Secretaria de Educação adotou as providências e determinações exaradas em acórdão anterior do Tribunal"*, o instrumento correto é o MONITORAMENTO!.
+>
+> **Gabarito: A**
+
+---
+
+### Teste 186
+**(FGV – TRT-24 – Analista Judiciario Area Administrativa Contabilidade – 2025)**
+Um auditor independente foi nomeado para auditar as demonstrações contábeis de uma entidade do setor público. No entanto, o auditor não conseguiu obter evidência de auditoria apropriada e suficiente. Além disso, ele concluiu que possíveis efeitos de distorções não detectadas sobre as demonstrações contábeis poderiam ser relevantes e generalizados, de modo que uma ressalva na opinião seria inadequada para comunicar a gravidade da situação. Não é possível ao auditor renunciar ao trabalho de auditoria antes da emissão do seu relatório. Nesse caso, ele deve
+
+* **A)** emitir um relatório com opinião adversa.
+* **B)** destacar o fato em um parágrafo de ênfase.
+* **C)** destacar o fato em um parágrafo de Outros Assuntos.
+* **D)** emitir o seu relatório com atraso, após o prazo acordado.
+* **E)** abster-se de expressar uma opinião sobre as demonstrações contábeis.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "emitir um relatório com opinião adversa". De acordo com a teoria estudada em *1.1 Conceito e Finalidade Prática de Cada Instrumento*, monitoramento: Destinado especificamente a verificar o cumprimento das deliberações (determinações e recomendações) expedidas pelo Tribunal e os resultados gerados. — Etapa pós-auditoria; fiscaliza se o órgão cumpriu os prazos e providências do acórdão.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "destacar o fato em um parágrafo de ênfase". De acordo com a teoria estudada em *1. Os Cinco Instrumentos de Fiscalização do Controle Externo*, a Lei Orgânica do Tribunal de Contas do Estado de Goiás (Lei Estadual nº 16.168/2007) e o seu Regimento Interno estruturam a atuação fiscalizatória externa em cinco instrumentos operacionais fundamentais.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "destacar o fato em um parágrafo de Outros Assuntos". De acordo com a teoria estudada em *1.1 Conceito e Finalidade Prática de Cada Instrumento*, instrumento: Conceito & Finalidade — Quando é Utilizado na Prática?.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "emitir o seu relatório com atraso, após o prazo acordado". De acordo com a teoria estudada em *1.1 Conceito e Finalidade Prática de Cada Instrumento*, levantamento: Utilizado para conhecer a organização, o funcionamento dos órgãos públicos, mapear sistemas de informação e avaliar a viabilidade da realização de futuras fiscalizações. — Fase exploratória prévia; elaboração do Plano Anual de Fiscalização do Tribunal.
+> - **E)** **Correta.** Conforme fundamentado na seção *1.1 Conceito e Finalidade Prática de Cada Instrumento* deste guia, auditoria: Instrumento formal e abrangente destinado a examinar a legalidade, legitimidade e economicidade de atos, contratos, demonstrações contábeis e programas de governo. — Fiscalização planejada de grande porte (conformidade, operacional ou financeira). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "abster-se de expressar uma opinião sobre as demonstrações contábeis".
+>
+> **Gabarito: E**
+
+---
 

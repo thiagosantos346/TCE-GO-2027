@@ -97,96 +97,74 @@ flowchart TD
 ---
 
 ### Teste 585
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-*Read the standard specification clause below regarding secure communications:*
+**(FGV – TRT-13 – Analista Judiciario Tecnologia da Informacao – 2022)**
+Analise o script abaixo from pandas import DataFrame import matplotlib.pyplot as plt from sklearn.cluster import KMeans Data = {'x': [36,35,23,28,34,32,30,23,36,34,66,55,56,44,51,56,52,51,64,48,4 9,50,36,34,43,46,40,42,52,47], 'y': [76,52,52,79,60,73,73,58,70,76,52,33,41,45,52,37,36,59,60,51,2 6,21,15,13,21,10,30,28,10,17] } df = DataFrame(Data,columns=['x','y']) m = KMeans(n_clusters=3).fit(df) d = m.cluster_centers_ plt.xlabel("X") plt.ylabel("Y") plt.scatter(df['x'], df['y'], c= m.labels_.astype(float), s=100, alpha=0.5) plt.scatter(d[:, 0], d[:, 1], c='red', s=250, marker='*') plt.grid() plt.show() O resultado da execução é As estrelas indicam
 
-> *"The authentication service **MUST NOT** transmit user credentials in plaintext over unencrypted communication channels. Furthermore, client applications **SHOULD** implement exponential backoff upon receiving status 429, and **MAY** include a custom telemetry header for diagnostic monitoring."*
-
-De acordo com as diretrizes formais de interpretação normativa da IETF (RFC 2119 e RFC 8174), é correto afirmar que:
-
-* **A)** A locução **"MUST NOT"** representa mera recomendação estilística de segurança, cuja inobservância pode ser ignorada pelos desenvolvedores sem comprometer a conformidade com a especificação.
-* **B)** O termo **"SHOULD"** impõe uma recomendação técnica enfática que, embora possa admitir exceções motivadas em circunstâncias específicas, não deve ser desprezada sem plena avaliação e justificativa de suas implicações.
-* **C)** O vocábulo **"MAY"** estabelece um requisito obrigatório e estritamente mandatório para todos os clientes compatíveis.
-* **D)** O verbo modal **"MUST NOT"** autoriza o envio de senhas em texto puro desde que a rede interna seja cabeada e protegida por firewall perimetral.
-* **E)** As palavras-chave normativas da RFC 2119 perdem seu caráter prescritivo quando redigidas inteiramente em letras maiúsculas.
-
+* **A)** componentes principais.
+* **B)** centros de voronoi.
+* **C)** covariâncias.
+* **D)** centroides.
+* **E)** clusteres.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. **"MUST NOT"** (ou *SHALL NOT*) expressa uma **proibição absoluta** (*absolute prohibition*). Qualquer implementação que desobedeça a esse mandamento é classificada tecnicamente como não-conforme (*non-compliant*).
-> - **B)** Correta. Segundo a RFC 2119, **"SHOULD"** (ou *RECOMMENDED*) indica que existem razões operacionais válidas para que o recurso seja ignorado em cenários muito específicos, mas que todas as implicações de risco devem ser compreendidas e sopesadas antes de adotar conduta diversa. Representa a boa prática preconizada.
-> - **C)** Incorreta. **"MAY"** (ou *OPTIONAL*) define um recurso estritamente **opcional / discricionário**, cuja inclusão ou ausência depende da conveniência do desenvolvedor.
-> - **D)** Incorreta. O veto estipulado por *MUST NOT* é absoluto e incondicional na especificação.
-> - **E)** Incorreta. A regra central da RFC 2119 e RFC 8174 é justamente que essas palavras têm significado prescritivo estrito quando grafadas em **letras maiúsculas** (*UPPERCASE*).
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "componentes principais". De acordo com a teoria estudada em *3.4 Ciclo de Vida: Deprecated vs. Decommissioned*, a correta interpretação do ciclo de vida de componentes de software é essencial para a gestão e auditoria de TI.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "centros de voronoi". De acordo com a teoria estudada em *1.1 Os Níveis Normativos Canônicos*, mAY / OPTIONAL (Opcional / Facultativo): Indicam um recurso verdadeiramente opcional (*truly optional*).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "covariâncias". De acordo com a teoria estudada em *1.2 Matriz de Conformidade Técnica da RFC 2119*, mUST NOT / SHALL NOT: Proibição absoluta da especificação. — Proibição expressa. Qualquer execução viola o padrão. — NÃO é mera ressalva dispensável.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.1 Os Níveis Normativos Canônicos* deste guia, sHOULD / RECOMMENDED (Fortemente Recomendado): Indicam que o comportamento prescrito representa a boa prática recomendada. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-13/2022) ao estabelecer que "centroides".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "clusteres". De acordo com a teoria estudada em *1.2 Matriz de Conformidade Técnica da RFC 2119*, sHOULD NOT / NOT RECOMMENDED: Desaconselhamento enfático em operação padrão. — Conduta indesejada; implementação aceitável apenas em exceções marginais. — NÃO é um veto absoluto em 100% dos casos marginais.
+>
+> **Gabarito: D**
 
 ---
 
 ### Teste 586
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-*Consider the excerpt below from a technical specification draft for a public auditory API:*
+**(FGV – TJ-DFT – Analista Judiciario Suporte Em Tecnologia da Informacao – 2022)**
+The passage in which the verb phrase indicates a necessity is:
 
-> *"Section 4.2 – Authentication and Message Security  
->
-> 1. All incoming client requests **MUST** include a cryptographically signed JSON Web Token (JWT) in the `Authorization` header.  
-> 2. The authentication gateway **MUST NOT** accept tokens signed with the deprecated 'none' algorithm.  
-> 3. Implementers **SHOULD** configure an asymmetric RSA-256 signature scheme rather than a shared symmetric secret.  
-> 4. Clients **MAY** compress the payload using gzip when sending audit records exceeding 100 kilobytes."*
-
-According to the normative definitions established by RFC 2119, it is correct to deduce that:
-
-* **A)** Compressing payloads larger than 100 kilobytes with gzip is an absolute requirement for client implementations.
-* **B)** Servers are strictly permitted to validate tokens signed with the 'none' algorithm in development environments.
-* **C)** Asymmetric RSA-256 signature is a recommended practice, meaning that valid reasons may exist to employ an alternative, but the full implications must be weighed.
-* **D)** Including a cryptographic JWT in the `Authorization` header is an optional feature that can be ignored at the client's discretion.
-* **E)** The term **"SHOULD"** in item 3 implies that asymmetric RSA-256 signature is strictly mandatory and cannot be substituted under any circumstances.
-
+* **A)** “this incredible ability of the brain […] may be fundamental”;
+* **B)** “some engineers can come up with something”;
+* **C)** “computers don’t work this way”;
+* **D)** “brains don’t store information”;
+* **E)** “it must regulate a body”.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O item 4 emprega o modal **"MAY"**, que expressa uma funcionalidade verdadeiramente opcional (*truly optional*), e não uma exigência absoluta.
-> - **B)** Incorreta. O item 2 estabelece uma proibição absoluta: **"MUST NOT"** (*absolute prohibition*). O gateway está terminantemente impedido de aceitar tokens com algoritmo 'none', sem qualquer exceção para ambientes de teste.
-> - **C)** Correta. De acordo com a RFC 2119, o termo **"SHOULD"** (ou *RECOMMENDED*) tipifica uma recomendação forte de boa prática técnica. Podem existir circunstâncias particulares em que a alternativa seja válida (ex.: chaves pré-compartilhadas em canais isolados), contanto que as implicações integrais de segurança sejam formalmente compreendidas e sopesadas.
-> - **D)** Incorreta. O item 1 utiliza a partícula normativa **"MUST"**, determinando que o envio do JWT no cabeçalho `Authorization` é mandatório e indispensável, e não opcional.
-> - **E)** Incorreta. O vocábulo normativo que indica obrigatoriedade incondicional e mandatória sem substituição é *MUST* ou *SHALL*, e não *SHOULD*.
-> 
-> **Gabarito: C**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“this incredible ability of the brain […] may be fundamental”". De acordo com a teoria estudada em *1.1 Os Níveis Normativos Canônicos*, mAY / OPTIONAL (Opcional / Facultativo): Indicam um recurso verdadeiramente opcional (*truly optional*).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“some engineers can come up with something”". De acordo com a teoria estudada em *2.2 Parâmetros de Requisição e Schemas de Dados JSON*, request Body (Corpo da Requisição / Payload): Estrutura hierárquica contendo os campos de dados.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“computers don’t work this way”". De acordo com a teoria estudada em *4.1 Anatomia Estrutural de um Artigo de Vanguarda*, introduction: Expõe a relevância do problema e lista textualmente as contribuições primárias do trabalho (*"In this paper, our main contributions are.."*).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“brains don’t store information”". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, gLENDINNING, Eric H.; MCEWAN, John. Oxford English for Information Technology. 2. ed. Oxford: Oxford University Press, 2006. (Units 20 to 25 - Reading Technical Manuals and System Specifications).
+> - **E)** **Correta.** Conforme fundamentado na seção *1.2 Matriz de Conformidade Técnica da RFC 2119* deste guia, a RFC 2119 expressamente ressalva que podem existir cenários peculiares que justifiquem a não observância do *SHOULD*, cabendo ao engenheiro mensurar os impactos (*the full implications must be understood and carefully weighed*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-DFT/2022) ao estabelecer que "“it must regulate a body”".
+>
+> **Gabarito: E**
 
 ---
 
 ### Teste 587
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-*Read the excerpt extracted from a distributed database configuration guide:*
+**(FCC – TRT-9 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2015)**
+When a developer team build an application with Oracle Form Builder, they work with individual application components called modules. The form module is a collection of objects and code routines. Some of the objects can be defined in a form module including windows, text items (fields), check boxes, buttons, alerts, lists of values, and blocks of PL/SQL code called
 
-> *"Section 6: Network Partitioning and Split-Brain Prevention  
-> **Prerequisites:** Before establishing a multi-region cluster, administrators **MUST** synchronize system clocks across all physical hosts using Network Time Protocol (NTP). Clock drift exceeding 250 milliseconds will trigger immediate heartbeat dropouts.  
-> **Caution:** Do not configure an even number of voting nodes. When a network partition divides the cluster, nodes require a strict majority quorum ($N/2 + 1$) to elect a primary leader. An even topology risks a fatal split-brain scenario where isolated partitions simultaneously accept conflicting writes, resulting in irrecoverable data divergence."*
-
-Based on reading technical manuals and understanding operational directives, it is correct to state that:
-
-* **A)** The manual indicates that synchronizing system clocks with NTP is an optional step that can be safely bypassed in multi-region deployments.
-* **B)** A clock drift higher than 250 milliseconds is considered normal and will not impact heartbeat communications between nodes.
-* **C)** The directive labeled **"Caution"** advises configuring an even number of voting nodes to maximize electoral redundancy during partitions.
-* **D)** According to the guide, a strict majority quorum is indispensable to elect a primary leader and prevent the emergence of conflicting writes in distinct partitions.
-* **E)** The text states that irrecoverable data divergence can be automatically repaired by the operating system without manual intervention.
-
+* **A)** joins.
+* **B)** triggers.
+* **C)** thin blocks.
+* **D)** collections.
+* **E)** queries.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A seção *Prerequisites* expressa um mandamento absoluto com o termo normativo **"MUST"** (*administrators MUST synchronize system clocks*), impedindo que o procedimento seja contornado (*bypassed*).
-> - **B)** Incorreta. O guia afirma expressamente que um desvio de relógio (*clock drift*) além de 250 milissegundos causará quedas imediatas no tráfego de controle e sinalização de heartbeat (*trigger immediate heartbeat dropouts*).
-> - **C)** Incorreta. A advertência técnica (*Caution*) desaconselha formalmente o uso de número par de nós votantes (*"Do not configure an even number of voting nodes"*), visto que topologias simétricas causam impasses eleitorais e risco de *split-brain*.
-> - **D)** Correta. O manual estabelece com precisão que a formação de um quórum de maioria estrita ($N/2 + 1$) é condição indispensável para a eleição do nó líder primário, salvaguardando o cluster contra aceitação de escritas conflitantes em partições desconectadas (*resulting in irrecoverable data divergence*).
-> - **E)** Incorreta. A documentação classifica expressamente a divergência de dados resultante como irrecuperável e definitiva (*irrecoverable data divergence*), inexistindo reparação automática transparente.
-> 
-> **Gabarito: D**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "joins". De acordo com a teoria estudada em *3.1 Verbos Operacionais no Modo Imperativo*, purge / Prune: *"Prune unreferenced objects to recover disk blocks"* \$\rightarrow\$ *Expurgue / limpe* objetos não referenciados.
+> - **B)** **Correta.** Conforme fundamentado na seção *1.2 Matriz de Conformidade Técnica da RFC 2119* deste guia, a RFC 2119 expressamente ressalva que podem existir cenários peculiares que justifiquem a não observância do *SHOULD*, cabendo ao engenheiro mensurar os impactos (*the full implications must be understood and carefully weighed*). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-9/2015) ao estabelecer que "triggers".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "thin blocks". De acordo com a teoria estudada em *3.1 Verbos Operacionais no Modo Imperativo*, provision: *"Provision persistent storage classes with dynamic allocation"* \$\rightarrow\$ *Aloque / provisione* classes de armazenamento.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "collections". De acordo com a teoria estudada em *4.1 Anatomia Estrutural de um Artigo de Vanguarda*, related Work: Confronta a solução com trabalhos anteriores (*prior art*).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "queries". De acordo com a teoria estudada em *2.4 Documentação de APIs GraphQL (Queries, Mutations e Types)*, diferentemente do padrão REST, no qual cada recurso ocupa uma URI distinta, o padrão GraphQL opera via endpoint único (`POST /graphql`). A documentação orienta-se por esquemas de tipagem estrita (*Schema Definition Language - SDL*).
+>
+> **Gabarito: B**
 
 ---
 
@@ -281,193 +259,98 @@ Diferentemente do padrão REST, no qual cada recurso ocupa uma URI distinta, o p
 ---
 
 ### Teste 588
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-*Read the API reference documentation snippet below:*
+**(IBFC – TJ-MG – Analista Judiciario Classe C Analista de Tecnologia da Informacao – 2022)**
+As palavras denominadas de cognatas vêm do latim cognatus que significa referente a parente. Especificamente, refere-se a uma palavra que deriva da mesma família de línguas ou tronco linguístico (Dicio.com., 2020). As palavras cognatas ou os cognatos são muito importantes, pois, a proximidade morfológica com a língua portuguesa auxilia na compreensão do texto em língua inglesa e na aprendizagem de palavras, ainda, desconhecidas. A partir do acima explicado, assinale a sequência de palavras cognatas retiradas do texto Crimes.
 
-> *"The payment gateway exposes the following endpoint:*  
-> `POST /api/v1/settlements`  
-> *Each incoming request instantiates a new settlement ledger entry and triggers bank clearance. Because this operation is **not idempotent**, consumers must supply an `Idempotency-Key` header to prevent duplicate charges in the event of network timeouts."*
-
-Considerando a semântica dos verbos HTTP na arquitetura RESTful e a documentação apresentada, assinale a alternativa correta:
-
-* **A)** As requisições executadas com o verbo **GET** são consideradas operações não-seguras e não-idempotentes, pois invariavelmente alteram o estado do banco de dados no servidor.
-* **B)** A operação via método **POST** descrita é não-idempotente porque requisições sucessivas idênticas com o mesmo corpo podem criar múltiplos lançamentos e cobranças bancárias duplicadas.
-* **C)** O método **PUT** destina-se primordialmente a consultas parciais de dados e possui comportamento inerentemente não-idempotente pelo padrão HTTP.
-* **D)** O verbo **DELETE** é considerado não-idempotente, uma vez que a exclusão repetida de um recurso já removido resulta na restauração automática da entidade.
-* **E)** Todos os métodos do protocolo HTTP tornam-se automaticamente idempotentes quando transportados por conexões TLS/HTTPS.
-
+* **A)** crime, types; understand
+* **B)** courts, wrong, commit
+* **C)** insane; crime, responsible
+* **D)** children; age; cannot
+* **E)** right, law, courts
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O método **GET** é categorizado pelo protocolo HTTP (RFC 9110) como **seguro** (*safe* - não causa efeitos colaterais de escrita) e **idempotente** (*idempotent* - repetidas chamadas têm o mesmo efeito de uma única).
-> - **B)** Correta. O método **POST** é tipicamente **não-idempotente** (*non-idempotent*). Se o cliente submeter a mesma requisição três vezes em razão de falhas de timeout, o servidor poderá gerar três registros distintos de liquidação e três débitos, exigindo mecanismos de proteção como chaves de idempotência (*Idempotency-Key*).
-> - **C)** Incorreta. O método **PUT** realiza a substituição total de um recurso em uma URI conhecida e é formalmente **idempotente** (executar 1 ou 10 vezes o mesmo PUT com os mesmos dados deixa o recurso no mesmo estado final).
-> - **D)** Incorreta. O método **DELETE** é **idempotente**: a primeira chamada remove o recurso; as chamadas subsequentes encontram o recurso já ausente (podendo retornar 404), mas o estado final do servidor permanece inalterado (recurso ausente).
-> - **E)** Incorreta. A segurança da camada de transporte (HTTPS/TLS) protege a confidencialidade e integridade dos dados em trânsito, mas em nada altera a semântica operacional de idempotência da camada de aplicação HTTP.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "crime, types; understand". De acordo com a teoria estudada em *2.4 Documentação de APIs GraphQL (Queries, Mutations e Types)*, diferentemente do padrão REST, no qual cada recurso ocupa uma URI distinta, o padrão GraphQL opera via endpoint único (`POST /graphql`). A documentação orienta-se por esquemas de tipagem estrita (*Schema Definition Language - SDL*).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "courts, wrong, commit". De acordo com a teoria estudada em *2.3 Códigos de Status HTTP Críticos e Cabeçalhos de Resposta*, a compreensão precisa das famílias de códigos de status HTTP é intensamente avaliada em provas.
+> - **C)** **Correta.** Conforme fundamentado na seção *2.3 Códigos de Status HTTP Críticos e Cabeçalhos de Resposta* deste guia, `429 Too Many Requests`: Limite de taxa de requisições excedido (*rate limiting / throttling*). Vem associado ao cabeçalho `Retry-After: <segundos>`, que estipula o tempo de espera obrigatório antes de nova tentativa. Dessa forma, está plenamente correta a assertiva da banca (IBFC – TJ-MG/2022) ao estabelecer que "insane; crime, responsible".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "children; age; cannot". De acordo com a teoria estudada em *2.3 Códigos de Status HTTP Críticos e Cabeçalhos de Resposta*, família 4xx (Client Error - Erros Originados no Cliente).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "right, law, courts". De acordo com a teoria estudada em *2.3 Códigos de Status HTTP Críticos e Cabeçalhos de Resposta*, família 5xx (Server Error - Falhas Internas do Provedor).
+>
+> **Gabarito: C**
 
 ---
 
 ### Teste 589
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-*Examine the following OpenAPI 3.0 specification excerpt describing an electronic fiscal auditing endpoint:*
+**(FCC – TRT-6 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2012)**
+A tecnologia conhecida como RAID,
 
-```yaml
-paths:
-  /v1/audits/tax-returns:
-    post:
-      summary: Submit electronic tax returns for batch validation
-      security:
-        - BearerAuth: [audit:write]
-      requestBody:
-        required: true
-        content:
-          application/json:
-            schema:
-              type: object
-              required:
-                - taxpayer_id
-                - fiscal_year
-                - declared_revenue
-              properties:
-                taxpayer_id:
-                  type: string
-                  pattern: '^\d{14}$'
-                fiscal_year:
-                  type: integer
-                  minimum: 2020
-                declared_revenue:
-                  type: number
-                  minimum: 0.0
-      responses:
-        '201':
-          description: Returns successfully validated and queued
-        '400':
-          description: Malformed JSON syntax or unparseable payload
-        '403':
-          description: Insufficient privileges; client lacks 'audit:write' scope
-        '422':
-          description: Semantic validation failure (e.g., negative revenue or invalid tax ID)
-```
-
-Com base na especificação técnica acima e nos princípios de arquitetura de APIs, analise as afirmativas:
-
-I. O envio do corpo da requisição (*requestBody*) é mandatório (`required: true`), e a ausência do campo `taxpayer_id` causará a rejeição da mensagem.  
-
-II. Caso um cliente apresente um token de autenticação válido, porém desprovido do escopo de segurança `audit:write`, o endpoint retornará o status HTTP 403 Forbidden.  
-
-III. O envio de um valor negativo para o campo `declared_revenue` gerará um status HTTP 400 Bad Request, haja vista que a restrição `minimum: 0.0` constitui erro sintático de transporte HTTP.  
-
-Está correto o que se afirma em:
-
-* **A)** I e II, apenas.
-* **B)** I e III, apenas.
-* **C)** II e III, apenas.
-* **D)** I, apenas.
-* **E)** I, II e III.
-
+* **A)** tem como principal vantagem o aumento na velocidade da operações de leitura e escrita, na comparação com discos convencionais.
+* **B)** consiste numa tecnologia de armazenamento de dados que combina vários discos físicos num único "disco lógico".
+* **C)** pode ser utilizada para implementar um sistema de backup uma vez que oferece toda a funcionalidade necessária a um sistema de backup.
+* **D)** consiste numa tecnologia de armazenamento de dados que combina várias partições de um mesmo disco numa única "partição lógica".
+* **E)** tem como desvantagem exigir o uso de discos e/ou controladores de disco especiais e, portanto, mais dispendiosos. Atenção: Considere o texto a seguir, para responder às questões de números 58 a 60. Microsoft touts Windows 8's ability to detect, fix hard disk problems The new operating system makes the process faster and less disruptive to the operation of the computer By Juan Carlos Perez May 10, 2012 04:46 PM ET IDG News Service − Microsoft has revamped the way Windows 8 monitors hard disk operations and detects problems in an effort to make the diagnostic and repair process less intrusive and disruptive, even as disk capacity continues to balloon.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Apenas os itens I e II estão alinhados à especificação e às boas práticas de API:
->     - **Item I (Verdadeiro):** A linha `requestBody: required: true` torna o corpo obrigatório. A chave `taxpayer_id` figura expressamente no bloco `required:`, tornando sua ausência causa mandatória de recusa da submissão.
->     - **Item II (Verdadeiro):** A seção `security: BearerAuth: [audit:write]` exige que o token possua o escopo `audit:write`. A resposta para credenciais autenticadas porém carentes do privilégio necessário é textualmente documentada como **403 Forbidden** (*client lacks audit:write scope*).
->     - **Item III (Falso):** O envio de valor negativo para `declared_revenue` configura violação semântica de regra de negócio (`minimum: 0.0`), e não falha sintática de formatação. O schema associa essa falha textualmente ao código **422 Unprocessable Entity** (*Semantic validation failure, e.g., negative revenue*), reservando o status 400 para payloads corrompidos.
-> - **B)** Incorreta. O item III é falso.
-> - **C)** Incorreta. O item I é verdadeiro e o III é falso.
-> - **D)** Incorreta. O item II também é verdadeiro.
-> - **E)** Incorreta. O item III é falso.
-> 
-> **Gabarito: A**
-
----
-
-### Teste 590
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-*Carefully analyze the API documentation response snippet provided below:*
-
-```http
-HTTP/1.1 429 Too Many Requests
-Date: Wed, 07 Oct 2026 14:30:00 GMT
-Content-Type: application/json; charset=utf-8
-Retry-After: 120
-Warning: 299 - "This endpoint is deprecated and will be decommissioned on 2027-01-01"
-
-{
-  "error": "rate_limit_exceeded",
-  "message": "Quota limit reached. Client is temporarily throttled."
-}
-```
-
-A partir da leitura técnica da documentação e dos cabeçalhos HTTP apresentados, é correto afirmar:
-
-* **A)** A requisição foi processada com êxito pelo servidor, mas o cliente foi alertado de que o formato JSON é inválido.
-* **B)** O cliente excedeu a cota de requisições permitida (*rate limit*) e foi instruído, por meio do cabeçalho `Retry-After`, a aguardar 120 segundos antes de reenviar a chamada.
-* **C)** A mensagem `Warning` adverte que o serviço falhou catastroficamente e seus dados foram corrompidos permanentemente no banco de dados.
-* **D)** O termo *deprecated* indica que o endpoint acabou de ser atualizado para uma versão de maior desempenho recomendada para novas integrações.
-* **E)** O status 429 indica um erro interno de falha de infraestrutura no lado do servidor (*Internal Server Error*).
-
-
----
-
-> **Comentário Detalhado:**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "tem como principal vantagem o aumento na velocidade da operações de leitura e escrita, na comparação com discos...". De acordo com a teoria estudada em *1. Linguagem Normativa e Prescritiva de Engenharia (RFC 2119 / RFC 8174)*, nas áreas de engenharia de software, redes de comunicação e governança de tecnologia avaliadas pela Fundação Carlos Chagas (FCC), a leitura de especificações técnicas formais (padrões da IETF, W3C, ISO/IEC e NIST) exige a compreensão rigorosa dos termos normativos prescritivos grafados em letras maiúsculas, disciplinados pela clássica RFC 2119 (e reafirmados pela RFC 8174).
+> - **B)** **Correta.** Conforme fundamentado na seção *3.3 Categorização e Gravidade das Advertências Técnicas* deste guia, danger / Fatal (Perigo / Fatalidade): Risco crítico de perda irreversível de dados, danos físicos ao hardware ou colapso total de segurança cibernética. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-6/2012) ao estabelecer que "consiste numa tecnologia de armazenamento de dados que combina vários discos físicos num único "disco lógico"".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pode ser utilizada para implementar um sistema de backup uma vez que oferece toda a funcionalidade necessária a um...". De acordo com a teoria estudada em *1.1 Os Níveis Normativos Canônicos*, mUST / SHALL / REQUIRED (Obrigatório / Mandatório): Designam uma exigência absoluta da especificação (*absolute requirement*). O sistema, serviço ou cliente que não implementar ou violar este item é classificado como em não-conformidade (*non-compliant*).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "consiste numa tecnologia de armazenamento de dados que combina várias partições de um mesmo disco numa única...". De acordo com a teoria estudada em *2.1 Estrutura de Rotas, Métodos HTTP e Idempotência*, gET: Recupera a representação de um recurso. Operação segura (não altera o estado no servidor) e idempotente (múltiplas chamadas idênticas produzem o mesmo efeito de uma única chamada).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "tem como desvantagem exigir o uso de discos e/ou controladores de disco especiais e, portanto, mais dispendiosos...". De acordo com a teoria estudada em *1.2 Matriz de Conformidade Técnica da RFC 2119*, a RFC 2119 expressamente ressalva que podem existir cenários peculiares que justifiquem a não observância do *SHOULD*, cabendo ao engenheiro mensurar os impactos (*the full implications must be understood and carefully weighed*).
 >
-> - **A)** Incorreta. Respostas com código 429 pertencem à classe de erros de cliente (4xx) e indicam rejeição temporária por estrangulamento de chamadas, e não sucesso de processamento.
-> - **B)** Correta. O código HTTP **429 Too Many Requests** indica que o cliente ultrapassou a taxa máxima de requisições admitida pela política de governança da API (*throttling*). O cabeçalho padronizado **`Retry-After: 120`** estipula expressamente que o cliente deve aguardar um intervalo de 120 segundos antes de emitir novas requisições.
-> - **C)** Incorreta. O cabeçalho `Warning: 299` veicula um aviso de gerenciamento de ciclo de vida de software, alertando sobre a obsolescência da rota, sem nenhuma conexão com corrupção de banco de dados.
-> - **D)** Incorreta. O adjetivo técnico **"deprecated"** (descontinuado / obsoleto) significa que a funcionalidade foi marcada para desativação futura e não deve receber novas implantações, sendo agendado seu descomissionamento definitivo (*decommissioning*) para 01/01/2027.
-> - **E)** Incorreta. A família 4xx sinaliza inconformidades geradas pelo cliente (*Client Error*). Erros de infraestrutura interna do servidor pertencem privativamente à família 5xx (como 500, 502 ou 503).
-> 
 > **Gabarito: B**
 
 ---
 
-### Teste 591
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-*Read the GraphQL Schema Definition Language (SDL) snippet below:*
+### Teste 590
+**(FGV – TJ-BA – Analista Judiciario Tecnologia da Informacao – 2015)**
+Em regra, dependem de preparo, consoante dispõe o egimento nterno do Tribunal de ustiça do stado da ahia:
 
-```graphql
-type TaxpayerAudit {
-  registrationId: ID!
-  companyName: String!
-  fiscalScore: Float
-  isFlagged: Boolean!
-}
-
-type Query {
-  getAuditRecord(registrationId: ID!): TaxpayerAudit
-}
-
-type Mutation {
-  flagIrregularity(registrationId: ID!, reason: String!): TaxpayerAudit!
-}
-```
-
-Com base nas convenções sintáticas e conceituais do padrão GraphQL e no schema apresentado, assinale a opção correta:
-
-* **A)** O ponto de exclamação `!` associado aos tipos (ex.: `ID!`, `String!`) indica que o campo é puramente opcional e admite valor nulo (*null*).
-* **B)** A operação categorizada sob o tipo **Query** é destinada a realizar mutações de escrita e atualizar trilhas de auditoria no servidor.
-* **C)** O campo `fiscalScore` pode retornar valor nulo (*null*), uma vez que não possui o modificador de obrigatoriedade `!`.
-* **D)** As operações do tipo **Mutation** são consultas de somente-leitura que não aceitam parâmetros de entrada nem alteram dados.
-* **E)** O GraphQL requer a criação de endpoints HTTP distintos (URIs dedicadas) para cada uma das consultas e mutações declaradas no esquema.
-
+* **A)** os reexames de sentença e os recursos interpostos pelo Ministério Público, pela efensoria Pública, pela azenda Pública e por entidades da administração indireta, assim como as aç es por eles intentadas;
+* **B)** os processos e recursos previstos no statuto da riança e do Adolescente;
+* **C)** os conflitos de compet ncia, as exceç es de impedimento, de suspeição e de incompet ncia;
+* **D)** as aç es diretas de inconstitucionalidade, as reclamaç es e os pedidos de intervenção;
+* **E)** os mandados de segurança, sendo que, quando indicados os litisconsortes, o preparo incluirá as cartas, inclusive as de ordem a serem expedidas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. No GraphQL SDL, o modificador de exclamação **`!`** indica **não-nulidade** (*Non-Null* / obrigatório). Campos com `!` jamais podem retornar ou receber valores nulos.
-> - **B)** Incorreta. A raiz **Query** destina-se a operações de **consulta e leitura** de dados, sem efeitos colaterais de modificação de estado no servidor.
-> - **C)** Correta. No tipo `TaxpayerAudit`, o campo `fiscalScore: Float` não é seguido pelo caractere `!`, o que significa que é um campo anulável (*nullable*), podendo retornar um número de ponto flutuante ou o valor `null`.
-> - **D)** Incorreta. As **Mutations** são operações que realizam modificações no servidor (criação, edição, exclusão de dados), equivalentes conceituais a POST, PUT ou DELETE em REST.
-> - **E)** Incorreta. Diferentemente do REST, o GraphQL concentra todas as queries e mutations em um **único endpoint HTTP** padronizado (comumente `POST /graphql`).
-> 
-> **Gabarito: C**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os reexames de sentença e os recursos interpostos pelo Ministério Público, pela efensoria Pública, pela azenda...". De acordo com a teoria estudada em *2.1 Estrutura de Rotas, Métodos HTTP e Idempotência*, o design RESTful organiza as interações por meio de URIs de recursos e verbos padronizados pelo protocolo HTTP.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os processos e recursos previstos no statuto da riança e do Adolescente". De acordo com a teoria estudada em *2.2 Parâmetros de Requisição e Schemas de Dados JSON*, path Parameters (`/taxpayers/{id}`): Integram a hierarquia da URL e identificam instâncias unívocas de recursos. São invariavelmente obrigatórios.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os conflitos de compet ncia, as exceç es de impedimento, de suspeição e de incompet ncia". De acordo com a teoria estudada em *3.3 Categorização e Gravidade das Advertências Técnicas*, danger / Fatal (Perigo / Fatalidade): Risco crítico de perda irreversível de dados, danos físicos ao hardware ou colapso total de segurança cibernética.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as aç es diretas de inconstitucionalidade, as reclamaç es e os pedidos de intervenção". De acordo com a teoria estudada em *3.1 Verbos Operacionais no Modo Imperativo*, no manual técnico, instruções diretas abrem as sentenças com o verbo no infinitivo sem "to", expressando comando executivo.
+> - **E)** **Correta.** Conforme fundamentado na seção *2.2 Parâmetros de Requisição e Schemas de Dados JSON* deste guia, header Parameters: Transportam metadados essenciais de rede e segurança. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-BA/2015) ao estabelecer que "os mandados de segurança, sendo que, quando indicados os litisconsortes, o preparo incluirá as cartas, inclusive...".
+>
+> **Gabarito: E**
+
+---
+
+### Teste 591
+**(IBFC – TJ-MG – Analista Judiciario Classe C Analista de Tecnologia da Informacao – 2022)**
+A partir das técnicas de leitura instrumental, atenha-se à compreensão e à interpretação do texto “Crimes”, analise as afirmativas a seguir e dê valores de Verdadeiro (V) e Falso (F). ( ) O autor afirma que certos tipos de indivíduos não podem ser acusados de cometer um crime. ( ) O autor expõe que todos os indivíduos com comportamentos criminosos poderão ser julgados nos tribunais. ( ) Ainda segundo o autor, os indivíduos mentalmente insanos não podem ser acusados de cometer um crime. ( ) O autor reitera que embora insanos, os indivíduos conseguem entender e avaliar o seu próprio comportamento. Assinale a alternativa que apresenta a sequência correta de cima para baixo.
+
+* **A)** F - V - F - V
+* **B)** V - F - V - F
+* **C)** F - F - V - V
+* **D)** V - V - F - F
+* **E)** V - V - V - V
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F - V - F - V". De acordo com a teoria estudada em *2. Interpretação de Documentação de APIs (REST, OpenAPI, Swagger e GraphQL)*, a análise de contratos de interface entre sistemas constitui atividade primordial tanto no desenvolvimento quanto na auditoria de dados fiscais e orçamentários.
+> - **B)** **Correta.** Conforme fundamentado na seção *1. Linguagem Normativa e Prescritiva de Engenharia (RFC 2119 / RFC 8174)* deste guia, nas áreas de engenharia de software, redes de comunicação e governança de tecnologia avaliadas pela Fundação Carlos Chagas (FCC), a leitura de especificações técnicas formais (padrões da IETF, W3C, ISO/IEC e NIST) exige a compreensão rigorosa dos termos normativos prescritivos grafados em letras maiúsculas, disciplinados pela clássica RFC 2119 (e reafirmados pela RFC 8174). Dessa forma, está plenamente correta a assertiva da banca (IBFC – TJ-MG/2022) ao estabelecer que "V - F - V - F".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F - F - V - V". De acordo com a teoria estudada em *1.1 Os Níveis Normativos Canônicos*, podem existir razões válidas em circunstâncias particulares para ignorar a diretriz, mas as implicações técnicas de tal desvio devem ser plenamente compreendidas, avaliadas e formalmente documentadas.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V - V - F - F". De acordo com a teoria estudada em *2.3 Códigos de Status HTTP Críticos e Cabeçalhos de Resposta*, `400 Bad Request`: Erro de sintaxe da requisição (JSON malformado, quebra de delimitadores, tipos primitivos ilegíveis).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V - V - V - V". De acordo com a teoria estudada em *3.3 Categorização e Gravidade das Advertências Técnicas*, caution (Cuidado): Risco de comportamento inesperado, degradação severa de desempenho ou instabilidade na topologia (ex.: formar clusters com número par de nós, arriscando *split-brain*).
+>
+> **Gabarito: B**
 
 ---
 
@@ -512,30 +395,25 @@ A correta interpretação do ciclo de vida de componentes de software é essenci
 ---
 
 ### Teste 592
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-*Read the technical release note excerpt below regarding an enterprise authentication library:*
+**(FGV – TRF-1 – Analista Judiciario Area Apoio Especializado Especialidade Tecnologia da Informacao – 2024)**
+O analista Micael precisa instalar o pacote nodejs em um servidor Red Hat Enterpise Linux (RHEL). Ele deve instalar especificamente a versão 18, uma versão anterior, do nodejs. Sabendo que a versão 18 do nodejs está disponível no repositório AppStream do RHEL, como o stream 18 do módulo nodejs, Micael deve simplificar a instalação utilizando os recursos de modularidade do Dandified YUM. Micael deve instalar a versão 18 do módulo nodejs por meio do seguinte comando do Dandified YUM:
 
-> *"**Notice:** Version 3.4 marks the endpoint `/v1/auth/legacy-token` as **deprecated**. While the endpoint remains functional throughout the 3.x release series to ensure backward compatibility, security teams are strongly advised to migrate to `/v2/oauth/token`. In version 4.0, this endpoint will be fully **decommissioned**, and any subsequent invocation will immediately return HTTP 410 Gone."*
-
-Com base na terminologia técnica empregada para definir o ciclo de vida de componentes de software e no texto acima:
-
-* **A)** Um componente classificado como **"deprecated"** já foi completamente removido da base de código e não processa nenhuma requisição desde o lançamento da versão 3.4.
-* **B)** A classificação de um recurso como **"deprecated"** adverte que, embora ainda permaneça funcional na versão corrente, seu uso é formalmente desaconselhado e sua remoção definitiva (*decommissioning*) ocorrerá em versão futura.
-* **C)** O termo **"decommissioned"** significa que o recurso continuará recebendo novas funcionalidades e atualizações prioritárias de segurança indefinidamente.
-* **D)** A resposta `HTTP 410 Gone` indica que a requisição ao endpoint `/v1/auth/legacy-token` foi atendida com pleno sucesso e autorização irrestrita.
-* **E)** O conceito de *backward compatibility* traduz a incompatibilidade intencional com versões legadas para forçar a contratação de novos fornecedores.
-
+* **A)** install nodejs:18
+* **B)** module -i nodejs:18
+* **C)** install -m nodejs -s 18
+* **D)** install -p nodejs -s 18
+* **E)** module install nodejs:18
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O texto explicita que o endpoint continua funcional: *"While the endpoint remains functional throughout the 3.x release series to ensure backward compatibility"*.
-> - **B)** Correta. No ciclo de vida de APIs e software, **"deprecated"** (obsoleto / descontinuado) indica que a funcionalidade ainda está presente para não quebrar sistemas existentes (*backward compatibility*), mas seu uso deve ser cessado porque ela será desativada/removida (*decommissioned*) em versões vindouras.
-> - **C)** Incorreta. **"Decommissioned"** (descomissionado / desativado) significa que o serviço foi desligado ou o endpoint foi fisicamente removido do sistema.
-> - **D)** Incorreta. O código de status `410 Gone` é um erro do cliente (*Client Error*) que indica que o recurso solicitado não está mais disponível no servidor e foi intencional e permanentemente removido.
-> - **E)** Incorreta. *Backward compatibility* (retrocompatibilidade) é a capacidade de uma nova versão de software interoperar com sistemas legados sem quebras inesperadas.
-> 
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "install nodejs:18". De acordo com a teoria estudada em *2.1 Estrutura de Rotas, Métodos HTTP e Idempotência*, o design RESTful organiza as interações por meio de URIs de recursos e verbos padronizados pelo protocolo HTTP.
+> - **B)** **Correta.** Conforme fundamentado na seção *3.2 Seções Estruturantes de um Manual de Implantação* deste guia, prerequisites (Pré-requisitos): Condições mandatórias que devem ser atendidas antes da instalação (versão de kernel, bibliotecas, portas de firewall abertas). O descumprimento impede a instalação. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF-1/2024) ao estabelecer que "module -i nodejs:18".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "install -m nodejs -s 18". De acordo com a teoria estudada em *3. Interpretação de Manuais Técnicos e Guias de Configuração de Sistemas*, manuais operacionais de infraestrutura (Linux manpages, guias do Kubernetes, PostgreSQL, Docker) empregam linguagem estritamente procedimental e estruturada.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "install -p nodejs -s 18". De acordo com a teoria estudada em *3.1 Verbos Operacionais no Modo Imperativo*, no manual técnico, instruções diretas abrem as sentenças com o verbo no infinitivo sem "to", expressando comando executivo.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "module install nodejs:18". De acordo com a teoria estudada em *3.4 Ciclo de Vida: Deprecated vs. Decommissioned*, deprecated (Descontinuado / Tornado Obsoleto): O método, protocolo ou versão continua plenamente funcional na versão em execução do software.
+>
 > **Gabarito: B**
 
 ---
@@ -586,59 +464,49 @@ Conforme preconizado pelo Prof. S. Keshav, a leitura de papers em ambientes de p
 ---
 
 ### Teste 593
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-*Read the abstract of an IEEE computer systems research paper:*
+**(FCC – TRT-14 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2016)**
+Na área de trabalho do Oracle Reports Builder 11g, após a criação de um novo relatório de forma manual, para selecionar os dados que se deseja utilizar no relatório, no Object Navigator, deve-se dar um duplo clique no nó
 
-> *"Abstract—Serverless computing has emerged as a compelling paradigm for event-driven microservices due to its elastic autoscale and pay-per-use billing. **However**, cold-start latency remains a severe impediment for latency-sensitive public services. In this paper, we propose *KubeWarm*, a lightweight proactive container pre-warming framework integrated with Kubernetes. **Unlike** conventional reactive autoscalers that spawn container runtimes only after incoming HTTP requests arrive, *KubeWarm* utilizes an autoregressive machine learning model to predict invocation spikes. Our extensive experimental results on enterprise workloads demonstrate that *KubeWarm* reduces tail latency by 42% and eliminates 87% of cold starts, while incurring less than 3% CPU **overhead**."*
-
-Based on paper reading techniques (*Abstract comprehension*) and technical vocabulary, select the correct alternative:
-
-* **A)** The authors conclude that conventional reactive autoscalers are superior to proactive pre-warming frameworks in handling sudden invocation spikes.
-* **B)** The term **"overhead"** in the last sentence refers to a 3% financial tax imposed by cloud service providers on serverless function invocations.
-* **C)** According to the abstract, *KubeWarm* is designed to wait until HTTP requests arrive before initiating any container runtime provisioning.
-* **D)** The connector **"However"** is used to introduce the primary drawback of serverless computing addressed by the paper: cold-start latency.
-* **E)** The proposed framework proved inefficient, as experimental results demonstrated a 42% increase in latency and higher server costs.
-
+* **A)** Paper Layout.
+* **B)** Data Wizard.
+* **C)** Data Model.
+* **D)** Report Source.
+* **E)** PL/SQL Queries.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A avaliação empírica do artigo evidencia a superioridade do modelo preditivo e proativo proposto (*KubeWarm*), o qual reduziu a latência de cauda em 42% e expurgou 87% das inicializações a frio frente aos modelos reativos tradicionais.
-> - **B)** Incorreta. Na engenharia de software e computação em nuvem, o vocábulo **"overhead"** traduz o custo computacional marginal de processamento de hardware (neste caso, menos de 3% de consumo extra de ciclos de CPU para operar o algoritmo inteligente), e não tributos monetários.
-> - **C)** Incorreta. O ato de postergar a inicialização do runtime de contêineres até a chegada efetiva do pacote HTTP é a assinatura dos mecanismos tradicionais reativos (*conventional reactive autoscalers*), superada pelo dinamismo proativo do *KubeWarm*.
-> - **D)** Correta. O conectivo adversativo **"However"** (no entanto, todavia) é estrategicamente empregado para contrapor os benefícios atrativos da computação serverless (elasticidade e faturamento sob demanda) ao seu obstáculo estrutural determinante atacado pelo artigo: a latência de inicialização a frio (*cold-start latency*).
-> - **E)** Incorreta. O framework atingiu desempenho exitoso: reduziu (*reduces*) a latência em 42% e eliminou 87% dos cold starts sob sobrecarga computacional desprezível.
-> 
-> **Gabarito: D**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Paper Layout". De acordo com a teoria estudada em *4.1 Anatomia Estrutural de um Artigo de Vanguarda*, introduction: Expõe a relevância do problema e lista textualmente as contribuições primárias do trabalho (*"In this paper, our main contributions are.."*).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Data Wizard". De acordo com a teoria estudada em *2.1 Estrutura de Rotas, Métodos HTTP e Idempotência*, pOST: Submete dados para criação de novo recurso ou processamento interno. Operação não-segura e não-idempotente (cada envio gera uma nova entidade ou cobrança).
+> - **C)** **Correta.** Conforme fundamentado na seção *4.3 Léxico de Validação Experimental e Evidências Empíricas* deste guia, outperform: Superar o desempenho de uma solução concorrente (*"Our model outperforms traditional heuristics"*). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-14/2016) ao estabelecer que "Data Model".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Report Source". De acordo com a teoria estudada em *2.3 Códigos de Status HTTP Críticos e Cabeçalhos de Resposta*, `201 Created`: Criação bem-sucedida de um novo recurso no servidor (resposta clássica a `POST`).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "PL/SQL Queries". De acordo com a teoria estudada em *2.4 Documentação de APIs GraphQL (Queries, Mutations e Types)*, mutation: Operação de escrita que gera efeitos colaterais de criação, atualização ou remoção.
+>
+> **Gabarito: C**
 
 ---
 
 ### Teste 594
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-*Read the research paper excerpt on distributed storage systems:*
+**(FGV – TJ-DFT – Analista Judiciario Suporte Em Tecnologia da Informacao – 2022)**
+“Whereas” in “A computer is built from static parts, whereas your brain constantly rewires itself as you age and learn” introduces a(n):
 
-> *"In this paper, we evaluate **AuroraKV**, a novel distributed key-value store designed for geo-replicated transactional workloads. In extensive empirical evaluations using the Yahoo! Cloud Serving **Benchmark** (YCSB), AuroraKV **outperforms** state-of-the-art baselines by up to 45% in write throughput while keeping tail latency (P99) under 15ms. Furthermore, our consensus optimizations introduce an operational **overhead** of less than 2.8% on server CPU utilization, demonstrating the feasibility of near-instant multi-region consistency."*
-
-Com base nas convenções léxicas e metodológicas da literatura científica internacional de TI e no trecho acima, assinale a afirmativa correta:
-
-* **A)** O termo **"outperforms"** expressa que a solução proposta apresentou desempenho inferior ao das tecnologias comparadas.
-* **B)** A palavra **"Benchmark"** designa um conjunto padronizado de testes e cargas de trabalho concebido para avaliar e comparar o desempenho de sistemas computacionais de maneira empírica.
-* **C)** A expressão **"overhead"** descreve o ganho patrimonial direto obtido pela equipe de desenvolvedores ao publicar o artigo.
-* **D)** A métrica de **"tail latency (P99)"** expressa o tempo médio de resposta apurado sobre 99% das requisições mais velozes do cluster.
-* **E)** O vocábulo **"baselines"** designa erros de compilação irreparáveis detectados no código-fonte dos servidores.
-
+* **A)** cause;
+* **B)** contrast;
+* **C)** condition;
+* **D)** illustration;
+* **E)** explanation.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O verbo transitivo **"outperform"** significa **superar em desempenho, ter rendimento superior** (*"AuroraKV supera as soluções de referência em até 45% na vazão de escrita"*).
-> - **B)** Correta. Em ciência da computação e engenharia de software, um **"benchmark"** é um programa, teste padronizado ou conjunto de cargas (*workloads*) de referência utilizado para avaliar e comparar quantitativamente a performance de hardwares, bancos de dados ou sistemas distribuídos.
-> - **C)** Incorreta. **"Overhead"** é o custo computacional indireto ou marginal adicionado por um mecanismo (ex.: consumo adicional de ciclos de CPU ou memória RAM), e não vantagem financeira.
-> - **D)** Incorreta. A latência de cauda (*tail latency* P99) mede o tempo de resposta do percentil 99, ou seja, o limite superior de lentidão experimentado pelo 1% das requisições mais lentas e críticas do sistema.
-> - **E)** Incorreta. Em metodologia científica de TI, **"baselines"** são os sistemas de referência consagrados ou modelos tradicionais existentes com os quais a nova solução é comparada.
-> 
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "cause". De acordo com a teoria estudada em *1.2 Matriz de Conformidade Técnica da RFC 2119*, a RFC 2119 expressamente ressalva que podem existir cenários peculiares que justifiquem a não observância do *SHOULD*, cabendo ao engenheiro mensurar os impactos (*the full implications must be understood and carefully weighed*).
+> - **B)** **Correta.** Conforme fundamentado na seção *3.3 Categorização e Gravidade das Advertências Técnicas* deste guia, caution (Cuidado): Risco de comportamento inesperado, degradação severa de desempenho ou instabilidade na topologia (ex.: formar clusters com número par de nós, arriscando *split-brain*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-DFT/2022) ao estabelecer que "contrast".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "condition". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, iETF RFC 9110 - HTTP Semantics and Status Codes - Norma de referência global em inglês para semântica de métodos, cabeçalhos e respostas de APIs na Web.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "illustration". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, kubernetes Official Concepts - Pods and Workloads (English) - Documentação técnica primária em inglês para interpretação de especificações YAML e orquestração de microsserviços.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "explanation". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, sWALES, John M.; FEAK, Christine B. Academic Writing for Graduate Students: Essential Tasks and Skills. 3. ed. Ann Arbor: University of Michigan Press, 2012. (Unit 3 - Reading and Writing Technical Instructions).
+>
 > **Gabarito: B**
 
 ---

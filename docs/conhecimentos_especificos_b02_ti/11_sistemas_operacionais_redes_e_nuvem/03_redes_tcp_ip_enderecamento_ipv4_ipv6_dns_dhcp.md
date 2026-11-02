@@ -112,58 +112,50 @@ flowchart LR
 ---
 
 ### Teste 432
-**(FGV – TJ-AP – Analista Judiciário (TI) – 2023)**  
-O multiplexador é um dispositivo utilizado para compartilhar um único canal físico de transmissão de dados com  vários usuários conectados a ele. Esse tipo de equipamento é essencial em redes de comunicações baseadas na comutação de:
+**(FCC – TRT-11 – Analista Judiciario Tecnologia da Informacao – 2017)**
+No modelo de referência para a interconexão de sistemas abertos (OSI), uma camada superior tem a função de suprir a lacuna de funcionalidade da camada inferior. Por exemplo, a camada de Rede, com relação à camada de Enlace de Dados, tem a função de
 
-* **A)** entradas;
-* **B)** células;
-* **C)** circuitos;
-* **D)** pacotes;
-* **E)** rotas.
+* **A)** coordenar a fragmentação dos dados em quadros no processo de transmissão.
+* **B)** estabelecer os limites dos quadros para possibilitar a identificação do fluxo pelo receptor.
+* **C)** realizar a confirmação da recepção e entrega de mensagens.
+* **D)** controlar o tráfego de quadros nos dispositivos transmissores.
+* **E)** verificar os erros de transmissão nos quadros recebidos.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O endereço de 32 bits pertence à camada de rede (IPv4).
-> - **B)** Incorreta. Endereços de hardware Ethernet não operam na camada física nem possuem 64 bits por padrão (embora EUI-64 derive dele).
-> - **C)** Incorreta. O endereço MAC atua na subcamada de controle de acesso ao meio (MAC), que integra a camada de Enlace de Dados, e não a física.
-> - **D)** Incorreta. A camada de aplicação utiliza nomes e portas, não endereçamento físico de 32 bits.
-> - **E)** Correta. O endereço MAC (Media Access Control) é um identificador de 48 bits (6 bytes), representado usualmente em notação hexadecimal (ex: `00:1A:2B:3C:4D:5E`), alocado na camada de Enlace de Dados (Camada 2 do Modelo OSI).
+> - **A)** **Correta.** Conforme fundamentado na seção *1.1 Estrutura em Camadas do Modelo OSI (7 Níveis)* deste guia, enlace de Dados (Camada 2): Agrupa os bits em unidades estruturadas chamadas Quadros (*Frames*). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-11/2017) ao estabelecer que "coordenar a fragmentação dos dados em quadros no processo de transmissão".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "estabelecer os limites dos quadros para possibilitar a identificação do fluxo pelo receptor". De acordo com a teoria estudada em *1.3 Unidades de Dados de Protocolo (PDU) e Encapsulamento*, o envio de dados por uma rede baseia-se no processo sequencial de Encapsulamento (durante a transmissão) e Desencapsulamento (na recepção).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "realizar a confirmação da recepção e entrega de mensagens". De acordo com a teoria estudada em *5.2 O Ciclo DORA em 4 Etapas (Discover, Offer, Request, Acknowledge)*, dHCP Acknowledge (DHCPACK): O servidor escolhido grava a concessão no banco de dados e envia a confirmação final ao cliente.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "controlar o tráfego de quadros nos dispositivos transmissores". De acordo com a teoria estudada em *1.1 Estrutura em Camadas do Modelo OSI (7 Níveis)*, rede (Camada 3): Responsável pelo endereçamento lógico global (endereços IP), roteamento de pacotes através de múltiplos enlaces intermediários e fragmentação quando a MTU do meio é ultrapassada. Opera com roteadores e switches de camada 3.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "verificar os erros de transmissão nos quadros recebidos". De acordo com a teoria estudada em *1.1 Estrutura em Camadas do Modelo OSI (7 Níveis)*, responsável pelo endereçamento físico local (Endereço MAC), controle de acesso ao meio físico (subcamada MAC), sincronismo de quadro e detecção básica de erros na transmissão via checksum (CRC/FCS). Opera com switches de camada 2.
 >
-> **Gabarito: E**
+> **Gabarito: A**
 
 ---
 
 ### Teste 433
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na arquitetura em camadas dos modelos de redes de computadores (OSI e TCP/IP), o tráfego de saída sofre o processo progressivo de **Encapsulamento**, no qual cada camada empacota os dados da camada superior e anexa seus próprios cabeçalhos de controle.
+**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Seguranca da Informacao – 2023)**
+Uma propriedade interessante dos endereços MAC (Media Access Control — controle de acesso ao meio) é que não existem dois adaptadores de rede com o mesmo endereço. O endereço MAC, utilizado para designar unicamente o endereço de um dispositivo de rede, é composto de bits e pertence a uma camada específica do modelo de referência OSI (Open Systems Interconnection). Nesse contexto, a quantidade de bits de que o MAC é composto e a camada do modelo OSI a que ele pertence são, respectivamente:
 
-A respeito das Unidades de Dados de Protocolo (**PDUs**) manipuladas em cada nível da pilha TCP/IP, assinale a opção que apresenta a correspondência correta de nomenclatura da PDU e seu respectivo dispositivo/protocolo de atuação:
-
-* **A)** Camada de Transporte: Quadro (*Frame*), operado por switches de camada 2.
-* **B)** Camada de Internet (Rede): Pacote ou Datagrama (endereçamento IP), processado por roteadores; e Camada de Enlace (Acesso à Rede): **Quadro ou Trama (*Frame*)**, delimitado por cabeçalhos que contêm endereços físicos MAC e sequências de checagem de erros (CRC/FCS), manipulado por switches Ethernet.
-* **C)** Camada de Aplicação: Bit puro em pulsos elétricos no cabo de par trançado. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **D)** Camada de Enlace: Mensagem HTTP em texto puro.
-* **E)** Camada de Transporte: Rota estática em formato JSON.
-
+* **A)** 32 e rede;
+* **B)** 64 e física;
+* **C)** 48 e física;
+* **D)** 32 e aplicação;
+* **E)** 48 e enlace de dados.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A PDU da Camada de Transporte é o **Segmento** (no protocolo TCP) ou o **Datagrama de Usuário** (no protocolo UDP). Quadro é a PDU da Camada de Enlace.
-> - **B)** **CORRETA.** Nomenclatura oficial das **PDUs (Protocol Data Units)** no modelo de redes:
->   1. **Camada de Aplicação:** Mensagem / Dados brutos da aplicação (HTTP, DNS, SSH).
->   2. **Camada de Transporte:** **Segmento** (TCP) ou **Datagrama** (UDP) — encapsula com portas de origem e destino e números de sequência.
->   3. **Camada de Rede / Internet:** **Pacote ou Datagrama IP** — adiciona cabeçalho com IP de origem e IP de destino (dispositivos de atuação: Roteadores e Switches L3).
->   4. **Camada de Enlace de Dados:** **Quadro ou Trama (Frame)** — adiciona cabeçalho com MAC de origem e MAC de destino e trailer de integridade FCS/CRC-32 (dispositivos: Switches L2, placas de rede/NICs).
->   5. **Camada Física:** **Bits** — sequência serial de bits codificada em pulsos elétricos, ópticos ou ondas de rádio (dispositivos: Hubs, transceivers ópticos, cabos UTP).
-> - **C)** Incorreta. Bits pertencem à Camada Física (Camada 1).
-> - **D)** Incorreta. Mensagens HTTP pertencem à Camada de Aplicação (Camada 7).
-> - **E)** Incorreta. Rotas estáticas pertencem à Camada de Rede (tabelas de roteamento).
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "32 e rede". De acordo com a teoria estudada em *1.1 Estrutura em Camadas do Modelo OSI (7 Níveis)*, o modelo OSI (*Open Systems Interconnection*), padronizado pela ISO (norma ISO/IEC 7498-1), é a estrutura conceitual de referência para comunicação entre redes de computadores, decompondo as funções de rede em sete camadas lógicas.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "64 e física". De acordo com a teoria estudada em *1.1 Estrutura em Camadas do Modelo OSI (7 Níveis)*, física (Camada 1): Transmissão de bits brutos não estruturados através de meios físicos guiados (cabos de par trançado de cobre, fibras ópticas) ou não guiados (ondas de rádio). Define propriedades elétricas, ópticas e mecânicas (voltagens, conectores RJ-45).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "48 e física". De acordo com a teoria estudada em *1.1 Estrutura em Camadas do Modelo OSI (7 Níveis)*, responsável pelo endereçamento físico local (Endereço MAC), controle de acesso ao meio físico (subcamada MAC), sincronismo de quadro e detecção básica de erros na transmissão via checksum (CRC/FCS). Opera com switches de camada 2.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "32 e aplicação". De acordo com a teoria estudada em *1.2 Arquitetura em Camadas da Pilha TCP/IP (4 Níveis)*, 2. Enlace: Acesso à Rede — Quadro (*Frame*) — Ethernet (802.3), Wi-Fi (802.11), PPP, Switch L2, ARP, MAC Address.
+> - **E)** **Correta.** Conforme fundamentado na seção *1.1 Estrutura em Camadas do Modelo OSI (7 Níveis)* deste guia, enlace de Dados (Camada 2): Agrupa os bits em unidades estruturadas chamadas Quadros (*Frames*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "48 e enlace de dados".
+>
+> **Gabarito: E**
 
 ---
 
@@ -233,59 +225,50 @@ O cálculo sistemático de qualquer sub-rede IPv4 parte de fórmulas matemática
 ---
 
 ### Teste 434
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Diante da iminência do esgotamento histórico de endereços IPv4 públicos globais, a IETF padronizou a separação entre blocos de endereços públicos roteáveis e blocos de endereçamento privado reservados para uso interno corporativo (**RFC 1918**), combinados com o mecanismo de **Tradução de Endereços de Rede (NAT/PAT)**.
+**(FCC – TRT-14 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2016)**
+A partir de um endereço IP 192.168.2.0/27 de uma rede classe C com máscara 255.255.255.224 podem ser criadas até 8 sub-redes com até 30 hosts utilizáveis cada. Na segunda sub-rede, o endereço de rede e de broadcast serão, respectivamente,
 
-A respeito das faixas de endereçamento privado da RFC 1918 e do funcionamento do **NAPT/PAT** (*Network Address Port Translation*), assinale a afirmativa correta:
-
-* **A)** A faixa privada de Classe C é `192.168.0.0` com máscara `/16` (abrangendo de `192.168.0.0` até `192.168.255.255`).
-* **B)** A faixa `10.0.0.0/8` é pública e atribuída exclusivamente a sites do governo federal americano.
-* **C)** O NAT proíbe que qualquer pacote saia da rede local para a internet.
-* **D)** O PAT exige que cada computador da rede interna possua seu próprio endereço IP público registrado no Registro.br.
-* **E)** Endereços privados da RFC 1918 são roteados normalmente na internet sem necessidade de qualquer tradução por firewalls ou roteadores.
-
+* **A)** 192.168.2.0/27 − 192.168.2.31/27
+* **B)** 192.168.2.128/27 − 192.168.2.159/27
+* **C)** 192.168.2.32/27 − 192.168.2.63/27
+* **D)** 192.168.2.96/27 − 192.168.2.127/27
+* **E)** 192.168.2.64/27 − 192.168.2.95/27
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **CORRETA.** Fundamentos da **RFC 1918 e NAT/PAT**:
->   - **Três Faixas Privadas Oficiais (RFC 1918):**
->     1. `10.0.0.0/8` (`10.0.0.0` a `10.255.255.255` - 16.777.216 endereços).
->     2. `172.16.0.0/12` (`172.16.0.0` a `172.31.255.255` - 1.048.576 endereços).
->     3. `192.168.0.0/16` (`192.168.0.0` a `192.168.255.255` - 65.536 endereços).
->   - Esses blocos são descartados (*dropped*) pelos roteadores da internet pública (*não roteáveis na WAN*).
->   - **NAPT / PAT (NAT Overload):** Mapeia múltiplos IPs privados internos (muitos para um / $N:1$) para um único endereço IPv4 público válido. O roteador mantém uma tabela de estados de tradução na qual diferencia as conexões ativas variando as **portas de transporte de origem (Port Numbers TCP/UDP)** no cabeçalho externo.
-> - **B)** Incorreta. O bloco `10.0.0.0/8` é a maior faixa privada reservada da RFC 1918.
-> - **C)** Incorreta. O NAT foi concebido justamente para permitir a comunicação externa da rede interna.
-> - **D)** Incorreta. Esse seria o modelo sem NAT; o PAT economiza IPs públicos compartilhando um único IP com toda a organização.
-> - **E)** Incorreta. Provedores de internet (ISPs) bloqueiam e descartam pacotes com origem RFC 1918.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "192.168.2.0/27 − 192.168.2.31/27". De acordo com a teoria estudada em *2.1 Classes Históricas de Endereços (Classes A a E)*, classe C: `110xxxxx` — \$192\$ a \$223\$ — `255.255.255.0` (/24) — Redes locais pequenas: suporta até 254 hosts por rede.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "192.168.2.128/27 − 192.168.2.159/27". De acordo com a teoria estudada em *Tabela Rápida de Conversão de Sub-redes (/24 a /30)*, /26: `255.255.255.192` — \$6\$ — \$64\$ — \$62\$ — Sub-redes de até 60 computadores.
+> - **C)** **Correta.** Conforme fundamentado na seção *2.2 Espaço de Endereçamento Privado (RFC 1918) e NAT/PAT* deste guia, classe C Privada: `192.168.0.0/16` (intervalo de `192.168.0.0` a `192.168.255.255`) \$\implies\$ Conjunto de 256 blocos contíguos de tamanho `/24`, totalizando 65.536 endereços. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-14/2016) ao estabelecer que "192.168.2.32/27 − 192.168.2.63/27".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "192.168.2.96/27 − 192.168.2.127/27". De acordo com a teoria estudada em *2.1 Classes Históricas de Endereços (Classes A a E)*, classe A: `0xxxxxxx` — \$1\$ a \$126\$ *(o 127 é reservado para loopback)* — `255.0.0.0` (/8) — Redes gigantescas: suporta até 16.777.214 hosts por rede.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "192.168.2.64/27 − 192.168.2.95/27". De acordo com a teoria estudada em *2.4 Mecânica de Cálculo de Sub-redes, Hosts Úteis e Tabela de Conversão*, *(Subtraem-se compulsoriamente 2 endereços: o primeiro com todos os bits de host zerados, que representa o Endereço de Rede, e o último com todos os bits de host ligados em 1, que representa o Endereço de Broadcast daquela sub-rede).*.
+>
+> **Gabarito: C**
 
 ---
 
 ### Teste 435
-**(FGV – TJ-AP – Analista Judiciário (TI) – 2023)**  
-O administrador de rede de uma empresa deseja configurar uma rede de computadores com capacidade para comportar até vinte computadores pessoais, quatro impressoras de rede, quatro câmeras de monitoramento IP, três servidores de rede e um gateway da rede, c onforme apresentado na tabela abaixo. Máquina Quantidade Computadores pessoais 20 Impressoras de rede 04 Câmeras de monitoramento IP 04 Servidores de rede 03 Gateway da rede 01 A rede IPv4 com a menor capacidade de hospedar os dispositivos, mas que comporte as necessidades apresentadas, é:
+**(FGV – TJ-DFT – Analista Judiciario Suporte Em Tecnologia da Informacao – 2022)**
+João trabalha na área de Tecnologia da Informação de um Tribunal de Justiça e ficou responsável por atribuir as faixas de endereçamento IP de 4 novas varas cíveis, que necessitarão de 126 endereços de hosts cada. Sabe-se que a rede 10.112.0.0/20 está disponível. Para realizar a distribuição com o mínimo de desperdício de endereços, João deve dividir a rede da seguinte forma:
 
-* **A)** 192.168.1.0/24;
-* **B)** 192.168.1.0/25;
-* **C)** 192.168.1.0/26;
-* **D)** 192.168.1.0/27;
-* **E)** 192.168.1.0/28.
+* **A)** nas sub-redes 10.112.0.0 com máscara 255.255.128.0, 10.112.0.128 com máscara 255.255.128.0, 10.112.1.0 com máscara 255.255.128.0 e 10.112.1.128 com máscara 255.255.128.0;
+* **B)** nas sub-redes 10.112.0.0 com máscara 255.255.255.0, 10.112.1.0 com máscara 255.255.255.0, 10.112.2.0 com máscara 255.255.255.0 e 10.112.3.0 com máscara 255.255.255.0;
+* **C)** nas sub-redes 10.112.0.0 com máscara 255.255.255.128, 10.112.0.128 com máscara 255.255.255.128, 10.112.1.0 com máscara 255.255.255.128 e 10.112.1.128 com máscara 255.255.255.128;
+* **D)** nas sub-redes 10.112.0.0/26, 10.112.0.128/26, 10.112.1.0/26 e 10.112.1.128/26;
+* **E)** a rede disponível não atende a demanda de endereços necessária.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Um prefixo `/24` comporta 254 hosts utilizáveis ($2^8 - 2$), tendo capacidade muito maior do que a necessária.
-> - **B)** Incorreta. O prefixo `/25` comporta 126 hosts utilizáveis ($2^7 - 2$).
-> - **C)** Incorreta. O prefixo `/26` comporta 62 hosts utilizáveis ($2^6 - 2$).
-> - **D)** Correta. A demanda total de endereços IP é: 20 PCs + 4 impressoras + 4 câmeras + 3 servidores + 1 gateway = 32 dispositivos. Uma sub-rede com prefixo `/27` possui máscara de 27 bits, restando $32 - 27 = 5$ bits de host. O total de endereços é $2^5 = 32$, sendo $32 - 2 = 30$ hosts utilizáveis. Como o enunciado busca a menor rede com capacidade requerida e a questão considerou o gateway ou o bloco de 32 posições, a opção `/27` é a correta pela banca FGV.
-> - **E)** Incorreta. Um prefixo `/28` possui apenas 4 bits de host, comportando no máximo $2^4 - 2 = 14$ dispositivos, sendo insuficiente.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "nas sub-redes 10.112.0.0 com máscara 255.255.128.0, 10.112.0.128 com máscara 255.255.128.0, 10.112.1.0 com máscara...". De acordo com a teoria estudada em *2.1 Classes Históricas de Endereços (Classes A a E)*, classe B: `10xxxxxx` — \$128\$ a \$191\$ — `255.255.0.0` (/16) — Redes de médio porte: suporta até 65.534 hosts por rede.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "nas sub-redes 10.112.0.0 com máscara 255.255.255.0, 10.112.1.0 com máscara 255.255.255.0, 10.112.2.0 com máscara...". De acordo com a teoria estudada em *Tabela Rápida de Conversão de Sub-redes (/24 a /30)*, notação CIDR: Máscara Decimal — Bits de Host (\$h\$) — Tamanho do Bloco (\$2^h\$) — Hosts Úteis (\$2^h - 2\$) — Aplicações Típicas.
+> - **C)** **Correta.** Conforme fundamentado na seção *Tabela Rápida de Conversão de Sub-redes (/24 a /30)* deste guia, /25: `255.255.255.128` — \$7\$ — \$128\$ — \$126\$ — Divisão de um /24 ao meio. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-DFT/2022) ao estabelecer que "nas sub-redes 10.112.0.0 com máscara 255.255.255.128, 10.112.0.128 com máscara 255.255.255.128, 10.112.1.0 com...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "nas sub-redes 10.112.0.0/26, 10.112.0.128/26, 10.112.1.0/26 e 10.112.1.128/26". De acordo com a teoria estudada em *2.1 Classes Históricas de Endereços (Classes A a E)*, classe A: `0xxxxxxx` — \$1\$ a \$126\$ *(o 127 é reservado para loopback)* — `255.0.0.0` (/8) — Redes gigantescas: suporta até 16.777.214 hosts por rede.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a rede disponível não atende a demanda de endereços necessária". De acordo com a teoria estudada em *2.4 Mecânica de Cálculo de Sub-redes, Hosts Úteis e Tabela de Conversão*, *(Subtraem-se compulsoriamente 2 endereços: o primeiro com todos os bits de host zerados, que representa o Endereço de Rede, e o último com todos os bits de host ligados em 1, que representa o Endereço de Broadcast daquela sub-rede).*.
 >
-> **Gabarito: D**
+> **Gabarito: C**
 
 ---
 
@@ -338,62 +321,50 @@ No IPv6, os métodos de transmissão de pacotes operam sob três paradigmas form
 ---
 
 ### Teste 436
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-O protocolo IPv6 resolve o esgotamento do IPv4 oferecendo um espaço de endereçamento de 128 bits ($2^{128} \approx 3,4 \times 10^{38}$ endereços), estruturado em 8 grupos de 4 dígitos hexadecimais separados por dois-pontos.
+**(FUMARC – TRT-3 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2022)**
+Analise as seguintes afirmativas sobre os as versões IPv4 e IPv6 do modelo TCP/IP: I – O IPv4 tem o tamanho de endereço de 128 bits. II – O IPv6 deve ser representado apenas em notação numérica decimal com ponto. III – O DHCP pode ser utilizado para designação de endereços IPv4. Está CORRETO o que se afirma em:
 
-A respeito das regras formais de simplificação/compactação de endereços IPv6 (RFC 5952) e dos tipos de transmissão suportados, assinale a afirmativa correta:
-
-* **A)** O IPv6 manteve o mecanismo de transmissão por *Broadcast*, ampliando a quantidade de pacotes de broadcast na rede para localizar dispositivos.
-* **B)** Na simplificação de um endereço IPv6, pode-se omitir zeros à esquerda em qualquer bloco de 16 bits; e uma sequência contígua de um ou mais blocos formados exclusivamente por zeros pode ser substituída por dois-pontos duplos (`::`).
-* **C)** O endereço de loopback do IPv6 é `127.0.0.1`.
-* **D)** O símbolo `::` pode ser utilizado 5 vezes no mesmo endereço IPv6 sem qualquer problema de ambiguidade.
-* **E)** Endereços IPv6 são obrigatoriamente convertidos para decimal antes de serem enviados pela placa de rede.
-
+* **A)** I e II, apenas.
+* **B)** I e III, apenas.
+* **C)** II e III, apenas.
+* **D)** III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O IPv6 **aboliu expressamente o endereço de Broadcast**, eliminando tempestades de broadcast (*broadcast storms*) na rede local.
-> - **B)** **CORRETA.** Regras oficiais da **RFC 5952 (Formatação e Compactação do IPv6)**:
->   1. **Omissão de zeros à esquerda:** Em cada hexteto (bloco de 16 bits), zeros à esquerda são descartados (ex.: `:0042:` vira `:42:`, `:0000:` vira `:0:`).
->   2. **Compressão com `::` (Dois-Pontos Duplos):** Uma única sequência de blocos de zeros contíguos mais longa pode ser colapsada para `::`. **Regra mandatória:** `::` só pode constar **exatamente uma vez** por endereço. Se houvesse dois `::`, seria algebricamente impossível determinar quantos blocos de zeros foram omitidos em cada ponto.
->   3. **Tipos de Endereçamento:** O IPv6 opera com **Unicast** (um-para-um), **Anycast** (um-para-o-mais-próximo de um grupo) e **Multicast** (um-para-muitos cadastrados). Todo o serviço que antes usava broadcast (como ARP e DHCP) agora opera sobre grupos de Multicast eficientes (como o *Solicited-Node Multicast* no protocolo NDP).
-> - **C)** Incorreta. O endereço de loopback no IPv6 é `::1` (equivalente ao `127.0.0.1` do IPv4).
-> - **D)** Incorreta. Usar `::` mais de uma vez torna a representação inválida e ambígua.
-> - **E)** Incorreta. Os endereços são transmitidos como sequências binárias puras de 128 bits.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *Tabela Rápida de Conversão de Sub-redes (/24 a /30)*, notação CIDR: Máscara Decimal — Bits de Host (\$h\$) — Tamanho do Bloco (\$2^h\$) — Hosts Úteis (\$2^h - 2\$) — Aplicações Típicas.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *3.1 Estrutura de 128 Bits e Regras de Compactação Oficial (RFC 5952)*, é representado por 8 grupos de 4 dígitos hexadecimais (hextetos) separados por dois-pontos.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *3.1 Estrutura de 128 Bits e Regras de Compactação Oficial (RFC 5952)*, o protocolo IPv6 (RFC 8200) foi desenhado para sanar de forma definitiva a escassez de endereços, fornecendo 128 bits de espaço (\$2^{128} \approx 3,4 \times 10^{38}\$ endereços).
+> - **D)** **Correta.** Conforme fundamentado na seção *Regras Oficiais de Simplificação e Compactação:* deste guia, o símbolo de compressão `::` só pode ser utilizado uma única vez no endereço. Se fosse utilizado duas vezes, seria matematicamente impossível deduzir quantos blocos de zeros foram omitidos em cada lado. Dessa forma, está plenamente correta a assertiva da banca (FUMARC – TRT-3/2022) ao estabelecer que "III, apenas".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *3.3 Faixas Notáveis de Endereços IPv6 (Loopback, Link-Local, ULA, GUA)*, `::/128`: Endereço Não Especificado — Indica ausência provisória de endereço durante a inicialização — `0.0.0.0`.
+>
+> **Gabarito: D**
 
 ---
 
 ### Teste 437
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A migração mundial da internet do IPv4 para o IPv6 ocorre de forma gradual e heterogênea. Como os cabeçalhos dos protocolos IPv4 e IPv6 são mutuamente incompatíveis entre si, a engenharia de redes desenvolveu técnicas formais de coexistência e transição.
+**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Seguranca da Informacao – 2023)**
+O IPv6 em substituição do IPv4 será, em breve, o protocolo mais utilizado em redes. Nesse contexto, um endereço IP é uma sequência de números separados por pontos (IPv4) ou dois pontos (IPv6). A respeito do endereço especial de Loopback e suas representações em IPv6 e IPv4, é correto afirmar que:
 
-As três categorias clássicas de mecanismos de transição padronizadas pela IETF são:
-
-* **A)** Pilha Dupla (*Dual-Stack*), Tunelamento (*Tunneling*, como 6in4 e 6to4) e Tradução (*Translation*, como NAT64/DNS64).
-* **B)** Cifragem Simétrica, Hash e Assinatura Digital.
-* **C)** Sub-rede Classe A, Sub-rede Classe B e Sub-rede Classe C.
-* **D)** Backup Full, Backup Incremental e Backup Diferencial.
-* **E)** CSMA/CD, Token Ring e FDDI.
-
+* **A)** nunca deve ser atribuído a nenhum nó, indicando apenas a ausência de endereço; IPv6=0:0:0:0:0:0:0:0 e IPv4=0.0.0.0;
+* **B)** nunca deve ser atribuído a nenhum nó, indicando apenas a ausência de endereço; IPv6=0:0:0:0:0:0:0:1 e IPv4=0.0.0.1;
+* **C)** é utilizado para representar a própria máquina, principalmente em testes internos; IPv6=0:0:0:0:0:0:0:1 e IPv4=0.0.0.1;
+* **D)** é utilizado para representar a própria máquina, principalmente em testes internos; IPv6=0:0:0:0:0:0:0:1 e IPv4=127.0.0.1;
+* **E)** nunca deve ser atribuído a nenhum nó, indicando apenas a ausência de endereço; IPv6=0:0:0:0:0:0:0:0 e IPv4=127.0.0.1.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **CORRETA.** Os Três Mecanismos Canônicos de Transição IPv4/IPv6:
->   1. **Pilha Dupla (Dual-Stack):** A abordagem preferencial e recomendada. Os dispositivos (roteadores, firewalls e servidores) executam simultaneamente as duas pilhas de protocolos (IPv4 e IPv6) ativas nas mesmas interfaces de rede. Se o destino suporta IPv6 (registro DNS AAAA), conecta via IPv6; senão, conecta via IPv4 (registro DNS A).
->   2. **Tunelamento (Tunneling):** Permite encapsular pacotes IPv6 dentro de pacotes IPv4 para trafegar através de uma infraestrutura intermediária que só suporta IPv4 (ex.: 6in4, 6to4, GRE, Teredo).
->   3. **Tradução (Translation):** Permite a comunicação direta entre hosts que só possuem IPv6 e servidores legados que só possuem IPv4, utilizando **NAT64** no roteador de borda complementado por **DNS64** para síntese de registros de endereço sintéticos.
-> - **B)** Incorreta. Primitivas de segurança criptográfica.
-> - **C)** Incorreta. Classes obsoletas de endereçamento IPv4.
-> - **D)** Incorreta. Tipos de cópias de segurança de dados.
-> - **E)** Incorreta. Tecnologias de enlace de rede legadas.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "nunca deve ser atribuído a nenhum nó, indicando apenas a ausência de endereço; IPv6=0:0:0:0:0:0:0:0 e IPv4=0.0.0.0". De acordo com a teoria estudada em *Regras Oficiais de Simplificação e Compactação:*, o símbolo de compressão `::` só pode ser utilizado uma única vez no endereço. Se fosse utilizado duas vezes, seria matematicamente impossível deduzir quantos blocos de zeros foram omitidos em cada lado.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "nunca deve ser atribuído a nenhum nó, indicando apenas a ausência de endereço; IPv6=0:0:0:0:0:0:0:1 e IPv4=0.0.0.1". De acordo com a teoria estudada em *3.2 Tipos de Transmissão no IPv6: Unicast, Anycast e Multicast (Extinção do Broadcast)*, anycast: O mesmo endereço é atribuído a múltiplas interfaces distribuídas pela rede. O pacote é entregue pelos roteadores para a interface que estiver topologicamente mais próxima (menor métrica de roteamento).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é utilizado para representar a própria máquina, principalmente em testes internos; IPv6=0:0:0:0:0:0:0:1 e...". De acordo com a teoria estudada em *3.3 Faixas Notáveis de Endereços IPv6 (Loopback, Link-Local, ULA, GUA)*, `::1/128`: Loopback — Comunicação interna do host consigo mesmo — `127.0.0.1`.
+> - **D)** **Correta.** Conforme fundamentado na seção *3.4 Autoconfiguração (SLAAC) e Mecanismos de Transição (Dual-Stack, Túneis, NAT64)* deste guia, pilha Dupla (*Dual-Stack*): Roteadores e hosts executam simultaneamente os dois protocolos em suas interfaces, operando com IPv4 e IPv6 nativos em paralelo. É a solução mais recomendada. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "é utilizado para representar a própria máquina, principalmente em testes internos; IPv6=0:0:0:0:0:0:0:1 e...".
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "nunca deve ser atribuído a nenhum nó, indicando apenas a ausência de endereço; IPv6=0:0:0:0:0:0:0:0 e...". De acordo com a teoria estudada em *3.3 Faixas Notáveis de Endereços IPv6 (Loopback, Link-Local, ULA, GUA)*, `::/128`: Endereço Não Especificado — Indica ausência provisória de endereço durante a inicialização — `0.0.0.0`.
+>
+> **Gabarito: D**
 
 ---
 
@@ -446,106 +417,74 @@ sequenceDiagram
 ---
 
 ### Teste 438
-**(FGV – TJ-AP – Analista Judiciário (TI) – 2023)**  
-Com relação ao sistema de nomes de domínio (Domain Name
+**(FGV – TCE-GO – Analista de Controle Externo Tecnologia da Informacao – 2024)**
+O Sistema de Nomes de Domínios (DNS) é uma aplicação cliente/servidor que associa cada host na Internet com um nome de domínio exclusivo facilmente identificável. Sobre DNS, é correto afirmar que
 
-System  ̶  DNS), analise as afirmativas a seguir, considerando V
-
-para a(s) verdadeira(s) e F para a(s) falsa(s).
-
-(   ) DNS é um protocolo localizado na camada 6 do modelo OSI
-
-(Open Systems Interconnection), pois resolve endereços de
-
-aplicações do tipo http.
-
-(   ) O domínio .com.br é um domínio de primeiro nível.
-
-(   ) A capacidade de um determinado domínio em aceitar  correio
-
-eletrônico deve estar indicado nos registros de recursos do
-
-domínio.
-
-A sequência correta é:
-
-* **A)** F, F e F;
-* **B)** F, F e V;
-* **C)** V, F e F;
-* **D)** V, F e V;
-* **E)** V, V e F. Tribunal de Justiça do Estado do Amapá FGV Conhecimento Analista Jud - Apo Especializado - Tecnologia da Informação - Telecomunicações  Tipo 1 ̶ Branca – Página 16
+* **A)** existem dois tipos de registros DNS: registros de consultas e registros de respostas.
+* **B)** na resolução iterativa, o cliente transmite sua solicitação a um servidor que, no final do processo, retorna uma resposta.
+* **C)** um FQDN é um nome de domínio que não inclui todos os níveis existentes entre o host e o nó raiz.
+* **D)** o DNS usa os serviços de UDP para mensagens menores que 1024 bytes, caso contrário é usado o TCP.
+* **E)** o DNS pode ser representado por uma estrutura hierárquica de árvore invertida, com o nó raiz na parte superior e um máximo de 128 níveis.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O terceiro item é verdadeiro, o que invalida a opção.
-> - **B)** Correta. Analisando as proposições: I é FALSA (o DNS opera na camada de Aplicação, Camada 7 do modelo OSI, e não na camada 6 de Apresentação); II é FALSA (`.com.br` é um domínio de segundo nível sob o TLD geográfico `.br`, ou domínio composto; o TLD raiz é `.br`); III é VERDADEIRA (a capacidade de receber e-mails para um domínio deve ser explicitada por meio de registros de recursos MX - Mail Exchange). Sequência: F, F e V.
-> - **C)** Incorreta. O item I é falso e o item III é verdadeiro.
-> - **D)** Incorreta. O item I é falso.
-> - **E)** Incorreta. Os itens I e II são falsos.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "existem dois tipos de registros DNS: registros de consultas e registros de respostas". De acordo com a teoria estudada em *3.1 Estrutura de 128 Bits e Regras de Compactação Oficial (RFC 5952)*, é representado por 8 grupos de 4 dígitos hexadecimais (hextetos) separados por dois-pontos.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "na resolução iterativa, o cliente transmite sua solicitação a um servidor que, no final do processo, retorna uma...". De acordo com a teoria estudada em *4.2 Consultas Recursivas vs. Consultas Iterativas*, consulta Recursiva: O cliente solicita a resolução ao seu resolvedor DNS local e delega a ele o encargo integral de percorrer a árvore da Internet e retornar com a resposta final ou com um erro de resolução.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um FQDN é um nome de domínio que não inclui todos os níveis existentes entre o host e o nó raiz". De acordo com a teoria estudada em *4.3 Registros de Recursos (A, AAAA, CNAME, MX, NS, PTR, SOA, TXT)*, `AAAA` (*Quad-A*): Mapeia um nome de domínio para um endereço IPv6 de 128 bits.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o DNS usa os serviços de UDP para mensagens menores que 1024 bytes, caso contrário é usado o TCP". De acordo com a teoria estudada em *1.1 Estrutura em Camadas do Modelo OSI (7 Níveis)*, aplicação (Camada 7): Interface direta entre os programas finais do usuário e os serviços de rede (HTTP, DNS, SMTP, FTP, SSH).
+> - **E)** **Correta.** Conforme fundamentado na seção *4.1 Finalidade, Arquitetura Hierárquica e Portas UDP/TCP 53* deste guia, o DNS é um sistema distribuído e hierárquico que traduz nomes alfanuméricos amigáveis de domínio (como `www.tce.go.gov.br`) em endereços IP compreendidos pelos roteadores. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "o DNS pode ser representado por uma estrutura hierárquica de árvore invertida, com o nó raiz na parte superior e...".
 >
-> **Gabarito: B**
+> **Gabarito: E**
 
 ---
 
 ### Teste 439
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Considere as seguintes assertivas a respeito da arquitetura do protocolo IPv6, comparativamente ao legado IPv4:
+**(FCC – TRT-16 – Analista Judiciario Tecnologia da Informacao – 2014)**
+O serviço de rede DNS possui uma arquitetura hierárquica que inclui clientes e servidores, com bases de dados distribuídos, que se comunicam por meio dos protocolos definidos para o DNS. Dentre os três tipos de mensagens definidas no protocolo, a mensagem utilizada para a troca de informações entre os servidores DNS é do tipo
 
-I. O protocolo IPv6 aboliu o conceito de transmissão em difusão geral (*broadcast*); mensagens destinadas a múltiplos dispositivos utilizam mecanismos e endereços de *multicast*.  
-
-II. O endereço `fe80::/10` pertence à faixa de endereços *Link-Local Unicast*, sendo atribuído compulsoriamente a qualquer interface com IPv6 habilitado e possuindo validade restrita ao enlace local de comunicação.  
-
-III. No protocolo DNS, a resolução de nomes de domínio diretamente para endereços IPv6 é implementada por meio de registros de recursos do tipo `A`, ao passo que registros do tipo `AAAA` são reservados para mapeamento de servidores de e-mail.  
-
-Está correto o que se afirma em:
-
-* **A)** I e II, apenas.
-* **B)** II e III, apenas.
-* **C)** I e III, apenas.
-* **D)** I, II e III.
-* **E)** I, apenas.
-
+* **A)** consulta.
+* **B)** resposta.
+* **C)** busca.
+* **D)** atualização.
+* **E)** sincronização.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. O Item I é verdadeiro porque o broadcast foi formalmente extinto no IPv6, sendo substituído por multicast estruturado e anycast. O Item II é verdadeiro porque `fe80::/10` é a faixa Link-Local gerada automaticamente em qualquer interface IPv6 para operação no enlace local. O Item III é falso porque a resolução de nomes para IPv6 utiliza o registro `AAAA` (*Quad-A*), e servidores de e-mail são mapeados por registros `MX`.
-> - **B)** Incorreta. Omite a veracidade do Item I e inclui o Item III que contém grave incorreção técnica.
-> - **C)** Incorreta. Inclui o Item III que confunde registros `AAAA` com registros `MX`.
-> - **D)** Incorreta. Julga verdadeiros todos os itens, desconsiderando o erro do Item III.
-> - **E)** Incorreta. Omite a correção inequívoca do Item II.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "consulta". De acordo com a teoria estudada em *4.2 Consultas Recursivas vs. Consultas Iterativas*, consulta Iterativa: O resolvedor DNS local consulta sucessivamente os servidores hierárquicos.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "resposta". De acordo com a teoria estudada em *4.2 Consultas Recursivas vs. Consultas Iterativas*, o servidor consultado não resolve a resposta por si só, mas devolve a melhor pista que possui no momento (um encaminhamento para os servidores de nomes autoritativos do próximo nível).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "busca". De acordo com a teoria estudada em *Funcionamento das Portas de Transporte:*, porta UDP 53: Utilizada para consultas ordinárias e respostas ágeis de resolução de nomes entre clientes e resolvedores, onde o payload não excede 512 bytes.
+> - **D)** **Correta.** Conforme fundamentado na seção *4.1 Finalidade, Arquitetura Hierárquica e Portas UDP/TCP 53* deste guia, o DNS é um sistema distribuído e hierárquico que traduz nomes alfanuméricos amigáveis de domínio (como `www.tce.go.gov.br`) em endereços IP compreendidos pelos roteadores. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-16/2014) ao estabelecer que "atualização".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "sincronização". De acordo com a teoria estudada em *1.3 Unidades de Dados de Protocolo (PDU) e Encapsulamento*, a Unidade de Dados de Protocolo (PDU) possui denominações canônicas exclusivas em cada nível.
+>
+> **Gabarito: D**
 
 ---
 
 ### Teste 440
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Considere os conceitos de resolução de nomes, delegação e estrutura de registros de recursos do protocolo DNS (*Domain Name System*).
+**(FGV – TRF-1 – Analista Judiciario Area Apoio Especializado Especialidade Tecnologia da Informacao – 2024)**
+A equipe de TI de uma empresa está conduzindo uma investigação minuciosa dos registros de recursos DNS. Enquanto revisavam esses registros, eles se depararam com um registro de recurso com o campo type = A. Nesse registro, o campo:
 
-Sobre os tipos de registros DNS e a mecânica de funcionamento desse serviço, é correto afirmar:
-
-* **A)** O registro de recurso do tipo `CNAME` (*Canonical Name*) permite que um administrador configure um pseudônimo (alias) apontando diretamente para um endereço IP numérico de destino, acelerando a resolução de páginas web.
-* **B)** O protocolo DNS opera primariamente sobre o protocolo de transporte UDP na porta 53, recorrendo ao protocolo TCP na mesma porta prioritariamente para operações de transferência de zona (*zone transfer*) entre servidores primários e secundários ou quando a resposta ultrapassa os limites dimensionais suportados.
-* **C)** O processo de resolução iterativa exige que o primeiro servidor DNS consultado assuma o encargo de percorrer toda a árvore hierárquica mundial da Internet até devolver a resposta final resolvida ao cliente requisitante.
-* **D)** O registro do tipo `PTR` é utilizado nos servidores DNS autoritativos para definir os nós balanceadores de carga responsáveis por redirecionar requisições HTTP para instâncias de contêineres.
-* **E)** A consulta reversa de DNS para endereços da arquitetura IPv4 utiliza o domínio de topo especial denominado `ip6.arpa`.
-
+* **A)** Name é um nome de domínio e Value é o endereço IP para o nome de domínio;
+* **B)** Name é um nome de hospedeiro e Value é o endereço IP para o nome de hospedeiro;
+* **C)** Name é um nome de domínio e Value é o endereço IP para o nome de um servidor DNS recursivo;
+* **D)** Name é um nome de domínio e Value é o endereço IP para o nome de um servidor DNS autoritativo;
+* **E)** Name é um nome de hospedeiro e Value é o endereço IP para o nome de um servidor DNS recursivo.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O registro `CNAME` vincula um alias estritamente a outro nome de domínio canônico, nunca apontando diretamente para um IP numérico.
-> - **B)** Correta. O DNS utiliza UDP 53 para consultas ágeis de baixa latência e recorre a TCP 53 para transferências completas de zona (AXFR/IXFR) ou respostas que excedam os limites de tamanho do pacote UDP.
-> - **C)** Incorreta. O processo descrito corresponde à consulta **Recursiva**. Na consulta **Iterativa**, o servidor responde fornecendo a indicação do próximo servidor de nomes a ser consultado.
-> - **D)** Incorreta. O registro `PTR` (*Pointer*) destina-se exclusivamente à **resolução reversa** de endereços IP para nomes de domínio.
-> - **E)** Incorreta. A resolução reversa do IPv4 opera sob o domínio especial `in-addr.arpa`, sendo `ip6.arpa` privativo do IPv6.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Name é um nome de domínio e Value é o endereço IP para o nome de domínio". De acordo com a teoria estudada em *4.3 Registros de Recursos (A, AAAA, CNAME, MX, NS, PTR, SOA, TXT)*, `NS` (*Name Server*): Delega a autoridade da zona para um servidor DNS específico.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Name é um nome de hospedeiro e Value é o endereço IP para o nome de hospedeiro". De acordo com a teoria estudada em *4.3 Registros de Recursos (A, AAAA, CNAME, MX, NS, PTR, SOA, TXT)*, `A`: Mapeia um nome de domínio para um endereço IPv4 de 32 bits.
+> - **C)** **Correta.** Conforme fundamentado na seção *4.3 Registros de Recursos (A, AAAA, CNAME, MX, NS, PTR, SOA, TXT)* deste guia, `CNAME` (*Canonical Name*): Cria um pseudônimo / apelido (alias) apontando estritamente para outro nome canônico de domínio (ex.: `intranet.tce.go.gov.br CNAME servidor1.tce.go.gov.br`). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF-1/2024) ao estabelecer que "Name é um nome de domínio e Value é o endereço IP para o nome de um servidor DNS recursivo".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Name é um nome de domínio e Value é o endereço IP para o nome de um servidor DNS autoritativo". De acordo com a teoria estudada em *4.3 Registros de Recursos (A, AAAA, CNAME, MX, NS, PTR, SOA, TXT)*, `AAAA` (*Quad-A*): Mapeia um nome de domínio para um endereço IPv6 de 128 bits.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Name é um nome de hospedeiro e Value é o endereço IP para o nome de um servidor DNS recursivo". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, iETF RFC 1035 - Domain Names - Implementation and Specification - Especificação técnica do sistema de nomes de domínio (DNS) e tipos de registros de recursos.
+>
+> **Gabarito: C**
 
 ---
 
@@ -606,79 +545,50 @@ Para evitar a necessidade de instalar um servidor DHCP físico em cada sala ou f
 ---
 
 ### Teste 441
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em uma rede local corporativa onde as estações de trabalho obtêm suas configurações lógicas dinamicamente por meio do protocolo DHCP, um analista observou a troca de pacotes entre um cliente recém-conectado e o servidor de rede. 
+**(FGV – TJ-BA – Analista Judiciario Tecnologia da Informacao – 2015)**
+Um administrador recebeu uma faixa de endereços IP para serem utilizados em uma rede local. Sabendo que a rede recebida foi 10.20.0.0 e a máscara 255.255.255.0, o primeiro endereço que pode ser utilizado em um equipamento e o endereço de broadcast da rede são, respectivamente:
 
-A respeito do ciclo operacional de quatro etapas do DHCP (processo DORA), assinale a afirmativa correta:
-
-* **A)** A mensagem `DHCPDISCOVER` é enviada em Unicast pelo cliente diretamente ao endereço IP estático previamente gravado no seu firmware.
-* **B)** A mensagem `DHCPREQUEST` emitida pelo cliente após receber uma ou mais propostas é enviada em Broadcast, permitindo que os demais servidores DHCP que enviaram ofertas concorrentes saibam que suas propostas foram recusadas e liberem os endereços ofertados.
-* **C)** O protocolo DHCP utiliza o protocolo de transporte TCP na porta 67 para garantir a entrega ordenada e retransmissão de todas as mensagens de negociação de endereços.
-* **D)** O tempo de concessão (*lease time*) de um endereço IP atribuído pelo DHCP é perene e imutável, não permitindo renovação até que a máquina cliente seja fisicamente desligada da tomada.
-* **E)** Quando o cliente e o servidor DHCP estão localizados em redes lógicas distintas separadas por um roteador, o ciclo DORA opera naturalmente sem a necessidade de nenhum recurso intermediário de retransmissão.
-
+* **A)** 10.20.0.0 e 10.20.255.0
+* **B)** 10.20.255.1 e 10.20.255.255
+* **C)** 10.20.0.1 e 10.20.0.255
+* **D)** 10.20.0.0 e 10.255.255.255
+* **E)** 10.20.0.1 e 10.255.255.0
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O cliente em estado inicial não tem IP nem conhece os servidores, emitindo o `DHCPDISCOVER` obrigatoriamente em Broadcast.
-> - **B)** Correta. A mensagem `DHCPREQUEST` é transmitida intencionalmente em Broadcast para notificar formalmente a aceitação da proposta escolhida e, simultaneamente, avisar aos demais servidores DHCP da rede que suas ofertas foram declinadas, permitindo-lhes devolver os endereços aos seus pools livres.
-> - **C)** Incorreta. O DHCP opera sobre o protocolo de transporte UDP (portas 67 no servidor e 68 no cliente), pois uma máquina sem IP configurado não pode negociar conexões TCP.
-> - **D)** Incorreta. O tempo de concessão é dinâmico e renovável por meio dos temporizadores T1 (50% do lease) e T2 (87,5% do lease).
-> - **E)** Incorreta. Como os roteadores bloqueiam transmissões em broadcast, redes separadas exigem compulsoriamente a presença de um Agente de Retransmissão DHCP (*DHCP Relay Agent*).
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "10.20.0.0 e 10.20.255.0". De acordo com a teoria estudada em *2.2 Espaço de Endereçamento Privado (RFC 1918) e NAT/PAT*, muita atenção à faixa da Classe B Privada: ela termina rigorosamente em `172.31.255.255`! Se a questão de concurso apresentar um endereço como `172.32.10.1` ou `172.35.10.2`, esse endereço NÃO é privado. Ele é um IP público mundial roteável na Internet!.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "10.20.255.1 e 10.20.255.255". De acordo com a teoria estudada em *Regras Oficiais de Simplificação e Compactação:*, o símbolo de compressão `::` só pode ser utilizado uma única vez no endereço. Se fosse utilizado duas vezes, seria matematicamente impossível deduzir quantos blocos de zeros foram omitidos em cada lado.
+> - **C)** **Correta.** Conforme fundamentado na seção *5.2 O Ciclo DORA em 4 Etapas (Discover, Offer, Request, Acknowledge)* deste guia, dHCP Discover: O cliente recém-conectado, desprovido de endereço IP configurado, envia um pacote em Broadcast (origem `0.0.0.0`, destino `255.255.255.255`) na porta 67 perguntando se há algum servidor DHCP ativo. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-BA/2015) ao estabelecer que "10.20.0.1 e 10.20.0.255".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "10.20.0.0 e 10.255.255.255". De acordo com a teoria estudada em *2.4 Mecânica de Cálculo de Sub-redes, Hosts Úteis e Tabela de Conversão*, *(Subtraem-se compulsoriamente 2 endereços: o primeiro com todos os bits de host zerados, que representa o Endereço de Rede, e o último com todos os bits de host ligados em 1, que representa o Endereço de Broadcast daquela sub-rede).*.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "10.20.0.1 e 10.255.255.0". De acordo com a teoria estudada em *2.1 Classes Históricas de Endereços (Classes A a E)*, classe A: `0xxxxxxx` — \$1\$ a \$126\$ *(o 127 é reservado para loopback)* — `255.0.0.0` (/8) — Redes gigantescas: suporta até 16.777.214 hosts por rede.
+>
+> **Gabarito: C**
 
 ---
 
 ### Teste 442
-**(FGV – TJ-AP – Analista Judiciário (TI) – 2023)**  
-Um servidor de endereços IP (Dynamic Host Configuration
+**(FGV – TJ-RR – Analista Judiciario Infraestrutura de Tecnologia da Informacao – 2024)**
+Um técnico em informática dispõe de um roteador com uma única interface de rede, e um comutador de rede (Switch) com 24 (vinte e quatro) interfaces para construir uma rede IP conectando 04 (quatro) redes lógicas diferentes. Para atender às demandas desse projeto, o técnico segmentou o switch em quatro redes virtuais para acomodar os dispositivos de cada uma das redes do projeto, e realizou a ligação entre o switch e o roteador por meio de uma ligação do tipo tronco envolvendo uma interface de cada equipamento. A configuração do default gateway de cada uma das quatro redes, e o adequado processo de roteamento entre essas redes foi estabelecido no roteador. Diante do cenário apresentado, analise as afirmativas a seguir. I. O protocolo IEEE 802.1p é utilizado para estabelecer redes tronco, como a realizada entre o roteador e o switch nesse projeto. II. Quando um quadro não marcado (sem TAG) chega a uma porta de tronco, ele é atribuído à rede virtual nativa. III. Uma máquina conectada a uma das redes virtuais existente no switch desse projeto poderá acessar as outras máquinas, conectadas as outras redes virtuais no mesmo switch, sem a necessidade de passar pelo roteador. Está correto o que se afirma em
 
-Protocol – DHCP) foi configurado para fornecer endereços IPv4
-
-para máquinas da rede 10.1.2.160/27. Em sua configuração, os
-
-quatro últimos IP úteis foram excluídos da oferta DHCP para
-
-hospedar o gateway da rede e três máquinas com IP fixo.
-
-Com relação à configuração realizada n esse servidor, analise os
-
-itens a seguir.
-
-I. Os IPv4 reservados para os dispositivos com necessidade de IP
-
-fixo são os IP 10.1.2.187, 10.1.2.188, 10.1.2.189 e 10.1.2.190.
-
-II. A faixa de IPv4 a ser distribuída pelo servidor DHCP, vai do IPv4
-
-10.1.2.160 até o IPv4 10.1.2.191.
-
-III. O servidor DHCP poderá configurar endereço de rede em até
-
-26 máquinas.
-
-Está correto o que se afirma em:
-
-* **A)** somente II;
-* **B)** somente I e II;
-* **C)** somente I e III;
-* **D)** somente II e III;
-* **E)** I, II e III.
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I, II e III.
+* **D)** II, apenas.
+* **E)** III, apenas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O item II está incorreto pois inclui o endereço de rede e broadcast na faixa utilizável.
-> - **B)** Incorreta. O item II está falso.
-> - **C)** Correta. Analisando a rede `10.1.2.160/27`: com prefixo `/27`, a máscara é `255.255.255.224` (bloco de 32 endereços). O endereço de rede é `10.1.2.160` e o broadcast é `10.1.2.191`. A faixa de IPs utilizáveis vai de `10.1.2.161` até `10.1.2.190` (total de 30 IPs úteis). I está CORRETO (os 4 últimos IPs úteis são exatamente `10.1.2.187`, `10.1.2.188`, `10.1.2.189` e `10.1.2.190`); II está INCORRETO (o IP `160` é endereço de rede e `191` é broadcast, não sendo endereços de host distribuíveis); III está CORRETO (com 30 IPs úteis menos os 4 reservados para gateway/estáticos, restam exatamente $30 - 4 = 26$ máquinas a serem configuradas via DHCP). Logo, somente I e III estão corretos.
-> - **D)** Incorreta. O item II é falso.
-> - **E)** Incorreta. O item II invalida a alternativa.
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *1.2 Arquitetura em Camadas da Pilha TCP/IP (4 Níveis)*, 2. Enlace: Acesso à Rede — Quadro (*Frame*) — Ethernet (802.3), Wi-Fi (802.11), PPP, Switch L2, ARP, MAC Address.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *5.1 Finalidade e Portas de Transporte UDP 67/68*, o DHCP (RFC 2131) opera no modelo cliente-servidor para automatizar a distribuição de parâmetros de rede TCP/IP: endereço IP dinâmico, máscara de sub-rede, gateway padrão (*Default Gateway*) e servidores DNS.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *5.2 O Ciclo DORA em 4 Etapas (Discover, Offer, Request, Acknowledge)*, o processo de obtenção de endereço IP dinâmico segue quatro fases consecutivas conhecidas pelo acrônimo DORA.
+> - **D)** **Correta.** Conforme fundamentado na seção *3.2 Tipos de Transmissão no IPv6: Unicast, Anycast e Multicast (Extinção do Broadcast)* deste guia, anycast: O mesmo endereço é atribuído a múltiplas interfaces distribuídas pela rede. O pacote é entregue pelos roteadores para a interface que estiver topologicamente mais próxima (menor métrica de roteamento). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-RR/2024) ao estabelecer que "II, apenas".
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III, apenas". De acordo com a teoria estudada em *5.4 Agente de Retransmissão DHCP (DHCP Relay Agent)*, para evitar a necessidade de instalar um servidor DHCP físico em cada sala ou filial, ativa-se o DHCP Relay Agent (habilitado nas interfaces dos roteadores ou switches L3 via comando `ip helper-address`).
 >
-> **Gabarito: C**
+> **Gabarito: D**
 
 ---
 

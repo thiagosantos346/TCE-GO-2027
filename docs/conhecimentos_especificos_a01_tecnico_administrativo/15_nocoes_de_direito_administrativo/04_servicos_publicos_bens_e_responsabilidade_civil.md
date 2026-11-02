@@ -139,89 +139,101 @@ O Supremo Tribunal Federal, ao julgar o RE 1.027.633 sob a sistemática da reper
 ---
 
 ### Teste 034
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Motorista de ambulância pertencente à Secretaria de Saúde de determinado Estado da Federação, ao conduzir o veículo oficial em velocidade compatível durante o transporte regular de paciente, colidiu contra o automóvel de um particular que avançou o sinal vermelho de um cruzamento. Diante dos danos materiais causados ao particular:
+**(FGV – TCE-PA – Auditor de Controle Externo Fiscalizacao Contabilidade – 2024)**
+Tereza, experiente negociadora de veículos usados, anuncia um veículo por preço bem abaixo do mercado, despertando o interesse de Cristina. Cristina então procurou Tereza a fim de adquirir o veículo. Curiosa para entender a razão pela qual Tereza estava vendendo o bem por um valor bem abaixo de mercado, interrogou Tereza, que então explicou que o veículo foi adquirido por herança de seu avô e que seus primos estariam reclamando judicialmente a propriedade do bem, informando, inclusive, o número do processo. Considerando o valor do bem, Cristina resolveu fechar o negócio, que foi firmado por escrito, contando cláusula específica de exclusão de responsabilidade de Tereza caso os primos lograssem êxito na referida ação judicial e carro fosse por eles retomado. Foi acertado ainda o pagamento à vista. Seis meses após a celebração da compra e venda, Cristina teve o carro apreendido por autoridade policial, que informou que o veículo era roubado e vinha sendo procurado há cerca de dois anos. Em seguida, Cristina procurou Tereza, requerendo a restituição dos valores pagos. Tereza, no entanto, se recusou, sob o argumento que o contrato celebrado entre as partes excluía integralmente a sua responsabilidade por eventual perda do bem. Diante da situação hipotética narrada e em conformidade com a legislação vigente, avalie as assertivas a seguir. I. Tereza poderá ser responsabilizada pela evicção, a qual abarca a restituição integral do preço pago por Cristina, bem como a indenização pelas despesas dos contratos e as custas judiciais e honorários advocatícios. II. Tereza está correta em sua argumentação, pois constou do contrato, cláusula específica de exclusão de responsabilidade pela eventual perda do bem, o que abarca a apreensão por autoridade judicial. III. Eventual responsabilidade de Tereza, dependerá de sentença transitada em julgado determinando a perda do bem, sendo insuficiente para tal, a apreensão por autoridade policial. IV. Tereza não poderá ser responsabilizada pela perda do bem, pois informou a Cristina que se tratava de coisa litigiosa e, para compensar o risco, o preço pactuado foi abaixo do valor de mercado. Está correto o que se afirma em
 
-* **A)** O Estado responde de forma objetiva fundada no risco integral, sendo irrelevante a conduta culposa do terceiro.
-* **B)** A culpa exclusiva da vítima ou de terceiro elide o nexo causal, afastando o dever de indenizar do Estado.
-* **C)** O particular prejudicado deve ajuizar a ação indenizatória diretamente em face do servidor público condutor.
-* **D)** A responsabilidade civil do ente público condiciona-se à prévia instauração de sindicância de trânsito.
-* **E)** O Estado responde subjetivamente por danos no trânsito, cabendo ao particular lesado provar dolo do agente.
+* **A)** I, apenas.
+* **B)** II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e IV, apenas.
+* **E)** IV, apenas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A regra geral da responsabilidade civil extracontratual do Estado no Brasil é a Teoria do Risco Administrativo (art. 37, § 6º da CF/88), a qual admite excludentes do nexo causal (como culpa exclusiva da vítima, caso fortuito e força maior). A Teoria do Risco Integral é excepcionalíssima.
-> - **B)** **Correto**. Sob a égide da Teoria do Risco Administrativo, a comprovação de que o dano adveio de culpa exclusiva da vítima (ao avançar o semáforo vermelho) ou de fato exclusivo de terceiro rompe o liame de causalidade entre a conduta administrativa e o resultado lesivo, eximindo o Poder Público do dever reparatório.
-> - **C)** **Incorreto**. Pelo Tema nº 940 do STF (Teoria da Dupla Garantia), a ação de indenização deve ser proposta unicamente contra a pessoa jurídica de direito público, vedado o litisconsórcio passivo com o agente.
-> - **D)** **Incorreto**. A tutela judicial independe de apuração administrativa prévia (art. 5º, XXXV da CF/88).
-> - **E)** **Incorreto**. A responsabilidade do Estado por condutas comissivas de seus agentes públicos é estritamente objetiva.
+> - **A)** **Correta.** Conforme fundamentado na seção *1.4 Teoria do Risco Integral e suas Hipóteses Excepcionais* deste guia, o Estado atua como garantidor universal de riscos, sendo vedada a invocação de qualquer causa excludente (o poder público é condenado mesmo diante de caso fortuito, força maior ou culpa exclusiva da vítima). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "I, apenas".
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas". De acordo com a teoria estudada em *A Teoria da Dupla Garantia:*, regime da Ação Regressiva: O Estado, após ser definitivamente condenado e efetuar o pagamento da indenização à vítima, tem o dever de ajuizar ação regressiva contra o servidor causador do dano.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *3.1 Classificação Quanto à Destinação (Código Civil, art. 99)*, bens Dominicais ou Dominicais (Art. 99, III): Bens que constituem o patrimônio disponível do Estado sem destinação pública específica ou aplicação administrativa direta (terras devolutas, prédios públicos desativados, títulos da dívida pública, bens desapropriados e não afetados).
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e IV, apenas". De acordo com a teoria estudada em *3.3 Prerrogativas do Regime Jurídico e a Imprescritibilidade Absoluta*, o art. 183, § 3º e o art. 191, parágrafo único, da Constituição Federal, corroborados pela Súmula 340 do STF, preceituam que nenhum bem público, qualquer que seja sua classificação (inclusive os bens dominicais), pode ser adquirido por usucapião.
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "IV, apenas". De acordo com a teoria estudada em *1.5 Responsabilidade por Omissão Estatal: Genérica vs. Específica*, omissão Específica (Responsabilidade Objetiva - Tema 592/STF): Ocorre quando o Estado atua na posição de garante, detendo a pessoa ou a coisa sob sua imediata custódia física institucional (ex.: morte ou lesão corporal de detento em estabelecimento penitenciário; acidente com criança no interior de escola pública municipal; suicídio de paciente internado em hospital psiquiátrico público).
 >
-> **Gabarito: B**
+> **Gabarito: A**
+
+---
+
 ### Teste 035
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No estudo da Responsabilidade Civil Extracontratual do Estado, a doutrina e a jurisprudência distinguem a Teoria do Risco Administrativo da Teoria do Risco Integral. A respeito das hipóteses em que o ordenamento jurídico pátrio adota excepcionalmente a Teoria do Risco Integral (em que o Estado responde sem possibilidade de alegar excludentes de culpabilidade da vítima ou força maior), assinale a opção que indica caso regido por essa teoria:
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Direito – 2024)**
+A empresa Gama Ltda adquiriu um terreno para ali construir um posto de combustível. O imóvel, segundo estudos preliminares, está localizado em uma Área de Preservação Permanente (APP), próximo a uma nascente subterrânea que alimenta um dos rios que cortam o município. Mesmo com essa informação, o Instituto Ambiental Estadual, autarquia estadual, concedeu a licença para a construção do posto sob o argumento de que a nascente está canalizada e não haveria impacto significativo no meio ambiente. Além disso, alegou a autarquia estadual que antes da instalação do posto de gasolina, já havia sido concedida licença ambiental para um outro empreendimento que funcionou e causou dano ambiental no local. O Ministério Público não concordou e ingressou com ação civil pública contra a empresa, o instituto ambiental e os sócios da pessoa jurídica argumentando que a instalação do posto de combustível em uma APP contraria as leis ambientais e comprovou novo dano ambiental causado pela empresa Gama Ltda. No entanto, o juiz julgou os pedidos improcedentes sob o argumento de que não foram produzidas provas da ilegalidade de localização e instalação da empresa, diante do fato de que a licença foi concedida antes da instalação do empreendimento. Além disso, o magistrado alegou que, antes da instalação do posto de gasolina, já havia sido concedida licença ambiental para um outro empreendimento que funcionou no local. Assim, o juízo entendeu que não foi o posto de gasolina não deve ser condenado, porque a área já estava degradada. A sentença foi mantida pelo Tribunal de 2ª instância, pelos mesmos fundamentos. Ainda inconformado, o Ministério Público interpôs recurso especial. Com base na narrativa, assinale a afirmativa correta.
 
-* **A)** Danos decorrentes de acidentes automobilísticos com viaturas policiais em perseguição de fugitivos.
-* **B)** Danos causados por desabamento de pontes e encostas provocados por chuvas torrenciais imprevisíveis.
-* **C)** Danos decorrentes de atividade ou acidente nuclear e danos causados por poluição ambiental grave.
-* **D)** Danos oriundos de assalto à mão armada ocorrido no interior de agência de sociedade de economia mista.
-* **E)** Danos causados por fuga de detento de presídio estadual dias após ter escapado do estabelecimento penal.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreto**. Acidentes com viaturas policiais submetem-se à Teoria do Risco Administrativo comum (art. 37, § 6º da CF/88), admitindo comprovação de culpa exclusiva da vítima ou de terceiro.
-> - **B)** **Incorreto**. Força maior e eventos climáticos extraordinários rompem o nexo causal no risco administrativo geral.
-> - **C)** **Correto**. No ordenamento jurídico brasileiro, a Teoria do Risco Integral é hipótese excepcionalíssima e taxativa que veda qualquer excludente de nexo causal, aplicando-se prioritariamente a: 1) danos nucleares (art. 21, XXIII, "d" da CF/88); 2) danos ambientais graves (art. 225, § 3º da CF/88 e Lei nº 6.938/1981); e 3) atentados terroristas contra aeronaves brasileiras (Lei nº 10.744/2003).
-> - **D)** **Incorreto**. Assalto em agência de estatal consubstancia fato de terceiro sem risco integral.
-> - **E)** **Incorreto**. O STF fixou no Tema nº 362 que a responsabilidade por ato de foragido exige nexo direto com o momento da fuga; decorridos dias ou meses, não há responsabilidade do Estado.
->
-> **Gabarito: C**
-### Teste 036
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Durante o período noturno de custódia em estabelecimento prisional estadual administrado pela Secretaria de Administração Penitenciária, um detento foi assassinado por companheiros de cela com instrumentos perfurantes artesanais. À luz do art. 5º, XLIX, da Constituição Federal e da jurisprudência vinculante do Supremo Tribunal Federal (Tema nº 592 de Repercussão Geral):
-
-* **A)** O Estado responde de forma puramente subjetiva, exigindo dos herdeiros prova cabal de dolo dos policiais penais.
-* **B)** A responsabilidade estatal é afastada sumariamente caso o preso assassinado contasse com histórico de rebeldia.
-* **C)** O Estado responde objetivamente pela morte de detento, salvo se provar que a morte decorreu de ato inoponível.
-* **D)** A indenização civil por morte de custodiado condiciona-se à prévia condenação criminal dos executores do homicídio.
-* **E)** O dever de indenizar é de responsabilidade subsidiária da empresa privada prestadora de segurança ao presídio.
+* **A)** Entendeu corretamente o tribunal de origem no sentido de que o posto de gasolina não tem responsabilidade civil, pois não teria provocado danos ambientais considerando que a área já estava degradada.
+* **B)** Eventual aplicação de penalidades administrativas, em razão da responsabilidade administrativa ambiental do posto de gasolina, não obedeceria à sistemática da teoria da culpabilidade, sendo desnecessária a demonstração de seu elemento subjetivo e demonstração do nexo causal entre a conduta e o dano.
+* **C)** Conquanto houvesse a instalação do empreendimento em área de preservação permanente, não foram produzidas provas da ilegalidade de localização e instalação da empresa, diante do fato de que a licença foi concedida antes da instalação do empreendimento.
+* **D)** A consolidação da intervenção na área de preservação permanente não justifica que seja mantida a situação lesiva ao meio ambiente.
+* **E)** A violação das regras protetivas do meio ambiente atrai a responsabilidade civil objetiva, informada pela teoria do risco integral, nos termos do Art. 14, § 1º, da Lei nº 6.938/81, contra a empresa e os sócios da pessoa jurídica, exceto para a autarquia estadual, com presunção do prejuízo causado ao meio ambiente (dano in re ipsa), ensejando o dever de indenizar.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A custódia prisional atrai responsabilidade civil objetiva por violação ao dever específico de proteção (art. 5º, XLIX da CF/88), não se aplicando a teoria subjetiva da culpa anônima comum.
-> - **B)** **Incorreto**. A conduta prévia do preso não exime o Poder Público do dever inafastável de zelar por sua integridade física.
-> - **C)** **Correto**. Tese Vinculante do Tema nº 592 do STF: "Em caso de inobservância do seu dever específico de proteção previsto no art. 5º, inciso XLIX, da Constituição Federal, o Estado responde de forma objetiva pela morte de detento. Essa responsabilidade só pode ser afastada quando o Estado demonstrar a quebra do nexo causal, isto é, que a morte não poderia ter sido evitada mesmo com a adoção de todas as cautelas de segurança legalmente exigíveis".
-> - **D)** **Incorreto**. A esfera cível indenizatória é independente da persecução penal contra os homicidas.
-> - **E)** **Incorreto**. A segurança penitenciária é função de polícia indelegável e de titularidade do Estado.
->
-> **Gabarito: C**
-### Teste 037
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Uma viatura oficial pertencente ao Tribunal de Contas, conduzida por servidor público efetivo em missão institucional, abalroou veículo de particular por negligência do agente ao não respeitar a preferência em rotatória. De acordo com o art. 37, § 6º, da CF/88 e a jurisprudência pacificada pelo Supremo Tribunal Federal no Tema nº 940:
-
-* **A)** O particular pode optar por propor a demanda indenizatória unicamente contra o servidor público condutor.
-* **B)** A ação indenizatória deve ser proposta exclusivamente contra o Estado, que dispõe de ação regressiva por dolo ou culpa.
-* **C)** O servidor condutor e o Poder Público estadual devem integrar obrigatoriamente litisconsórcio passivo necessário.
-* **D)** A reparação civil pelo Tribunal de Contas depende do trânsito em julgado de processo disciplinar administrativo.
-* **E)** A ação regressiva da Fazenda Pública prescreve em dois anos contados da data da ocorrência do sinistro viário.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreto**. O particular não detém a faculdade de processar diretamente o agente público.
-> - **B)** **Correto**. Tese de Repercussão Geral do Tema nº 940 do STF (Teoria da Dupla Garantia): "A teor do disposto no art. 37, § 6º, da Constituição Federal, a ação por danos causados por agente público deve ser ajuizada contra o Estado ou a pessoa jurídica de direito privado prestadora de serviço público, sendo parte ilegítima para a ação o autor do ato, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa". A dupla garantia protege o particular (certeza de pagamento pelo erário) e o agente (não ser acionado diretamente por terceiros no exercício funcional).
-> - **C)** **Incorreto**. O STF fixou a ilegitimidade passiva do servidor público para figurar no polo passivo da ação indenizatória ordinária.
-> - **D)** **Incorreto**. A obrigação de indenizar do Estado independe da apuração funcional interna do agente.
-> - **E)** **Incorreto**. O direito de regresso rege-se pelas normas de ressarcimento ao erário após o pagamento judicial efetivo.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Entendeu corretamente o tribunal de origem no sentido de que o posto de gasolina não tem responsabilidade civil...". De acordo com a teoria estudada em *1.3 Teoria do Risco Administrativo: Excludentes e Atenuantes*, *Fato Exclusivo de Terceiro:* Dano provocado exclusivamente por ação autônoma e imprevisível de outrem sem qualquer concurso da conduta estatal (ex.: assalto à mão armada ocorrido dentro de um ônibus coletivo com disparo de arma de fogo deflagrado pelo criminoso).
+> - **B)** **Correta.** Conforme fundamentado na seção *Elementos Indispensáveis para a Responsabilização Objetiva:* deste guia, nexo de Causalidade: Relação direta de causa e efeito entre a conduta oficial e o dano experimentado pela vítima (Teoria do Dano Direto e Imediato). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "Eventual aplicação de penalidades administrativas, em razão da responsabilidade administrativa ambiental do posto...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Conquanto houvesse a instalação do empreendimento em área de preservação permanente, não foram produzidas provas...". De acordo com a teoria estudada em *1.4 Teoria do Risco Integral e suas Hipóteses Excepcionais*, o Estado atua como garantidor universal de riscos, sendo vedada a invocação de qualquer causa excludente (o poder público é condenado mesmo diante de caso fortuito, força maior ou culpa exclusiva da vítima).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A consolidação da intervenção na área de preservação permanente não justifica que seja mantida a situação lesiva...". De acordo com a teoria estudada em *2.1 Princípios do Serviço Público Adequado*, segurança: Minimização de riscos aos usuários e ao meio ambiente.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A violação das regras protetivas do meio ambiente atrai a responsabilidade civil objetiva, informada pela teoria...". De acordo com a teoria estudada em *1.6 Ação Regressiva e a Teoria da Dupla Garantia (Tema 940 / STF)*, *"A teor do art. 37, § 6º, da Constituição Federal, a ação por danos causados por agente público deve ser ajuizada contra o Estado ou a pessoa jurídica de direito privado prestadora de serviço público, sendo parte ilegítima para figurar no polo passivo o autor do ato, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa."*.
 >
 > **Gabarito: B**
+
+---
+
+### Teste 036
+**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Banco de Dados – 2023)**
+Na qualidade de servidora pública ocupante do cargo de analista do Tribunal de Justiça do Estado do Amapá, Marieva foi questionada acerca de qual teoria foi adotada para responsabilidade civil do Estado pela conduta dos respectivos agentes públicos, à luz do disposto no Art. 37, §6º, da Constituição da República de 1988 e as peculiaridades decorrentes de tal orientação. Nesse contexto, considerando o entendimento do Supremo Tribunal Federal acerca da matéria, Marieva respondeu, corretamente, que se tratava da:
+
+* **A)** teoria do risco administrativo, que consagra a responsabilidade subjetiva do Estado e não admite excludentes do nexo de causalidade;
+* **B)** teoria do risco integral, que consagra a responsabilidade objetiva do Estado e não admite excludentes do nexo de causalidade;
+* **C)** teoria da culpa administrativa, que consagra a responsabilidade subjetiva do Estado e não admite excludentes do nexo de causalidade;
+* **D)** teoria do risco administrativo, que consagra a responsabilidade objetiva do Estado e admite excludentes do nexo de causalidade;
+* **E)** teoria do risco integral, que consagra a responsabilidade subjetiva do Estado e admite excludentes do nexo de causalidade.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "teoria do risco administrativo, que consagra a responsabilidade subjetiva do Estado e não admite excludentes do...". De acordo com a teoria estudada em *1.3 Teoria do Risco Administrativo: Excludentes e Atenuantes*, causas Atenuantes do Nexo de Causalidade.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "teoria do risco integral, que consagra a responsabilidade objetiva do Estado e não admite excludentes do nexo de...". De acordo com a teoria estudada em *1.3 Teoria do Risco Administrativo: Excludentes e Atenuantes*, todavia, NÃO se trata de responsabilidade absoluta, admitindo-se a ruptura ou atenuação do nexo causal nas seguintes hipóteses.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "teoria da culpa administrativa, que consagra a responsabilidade subjetiva do Estado e não admite excludentes do...". De acordo com a teoria estudada em *1.1 Evolução Histórica da Responsabilidade Estatal*, teoria Objetiva do Risco Administrativo: Consagrada pelo Direito Constitucional contemporâneo, dispensa integralmente a comprovação de dolo ou culpa estatal, fundando-se na causalidade material e na solidariedade social perante os riscos criados pela atividade administrativa.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.3 Teoria do Risco Administrativo: Excludentes e Atenuantes* deste guia, causas Excludentes do Nexo de Causalidade (Afastam 100% da Indenização). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "teoria do risco administrativo, que consagra a responsabilidade objetiva do Estado e admite excludentes do nexo de...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "teoria do risco integral, que consagra a responsabilidade subjetiva do Estado e admite excludentes do nexo de...". De acordo com a teoria estudada em *Elementos Indispensáveis para a Responsabilização Objetiva:*, nexo de Causalidade: Relação direta de causa e efeito entre a conduta oficial e o dano experimentado pela vítima (Teoria do Dano Direto e Imediato).
+>
+> **Gabarito: D**
+
+---
+
+### Teste 037
+**(FGV – TRT-1 – Analista Judiciario Area Administrativa – 2024)**
+Josélia decidiu aprofundar os seus conhecimentos com relação à orientação do Supremo Tribunal Federal acerca da responsabilidade civil do Estado, à luz do disposto no Art. 37, §6º, da CRFB/1988, vindo a concluir corretamente que:
+
+* **A)** no caso atinente a morte por disparo de arma de fogo em decorrência de operação policial, a responsabilidade civil do Estado é fundada na teoria do risco integral;
+* **B)** o direito de regresso em relação ao agente público causador do dano em sede de responsabilidade civil é imprescritível, por se tratar de ressarcimento ao erário;
+* **C)** não é cabível o reconhecimento de causas excludentes da responsabilidade civil, diante da previsão constitucional;
+* **D)** o agente causador do dano não tem legitimidade para constar do polo passivo da ação judicial que visa à responsabilização civil do Estado;
+* **E)** tanto o Estado quanto o agente causador do dano respondem objetivamente pelos danos por este causados no exercício de suas atribuições.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *1.3 Teoria do Risco Administrativo: Excludentes e Atenuantes* deste guia, *Fato Exclusivo de Terceiro:* Dano provocado exclusivamente por ação autônoma e imprevisível de outrem sem qualquer concurso da conduta estatal (ex.: assalto à mão armada ocorrido dentro de um ônibus coletivo com disparo de arma de fogo deflagrado pelo criminoso). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-1/2024) ao estabelecer que "no caso atinente a morte por disparo de arma de fogo em decorrência de operação policial, a responsabilidade civil...".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o direito de regresso em relação ao agente público causador do dano em sede de responsabilidade civil é...". De acordo com a teoria estudada em *1.4 Teoria do Risco Integral e suas Hipóteses Excepcionais*, dano Nuclear: Responsabilidade civil por acidentes radiológicos ou nucleares (CF/88, art. 21, XXIII, "d").
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não é cabível o reconhecimento de causas excludentes da responsabilidade civil, diante da previsão constitucional". De acordo com a teoria estudada em *1.4 Teoria do Risco Integral e suas Hipóteses Excepcionais*, o Estado atua como garantidor universal de riscos, sendo vedada a invocação de qualquer causa excludente (o poder público é condenado mesmo diante de caso fortuito, força maior ou culpa exclusiva da vítima).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o agente causador do dano não tem legitimidade para constar do polo passivo da ação judicial que visa à...". De acordo com a teoria estudada em *1.6 Ação Regressiva e a Teoria da Dupla Garantia (Tema 940 / STF)*, *"A teor do art. 37, § 6º, da Constituição Federal, a ação por danos causados por agente público deve ser ajuizada contra o Estado ou a pessoa jurídica de direito privado prestadora de serviço público, sendo parte ilegítima para figurar no polo passivo o autor do ato, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa."*.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "tanto o Estado quanto o agente causador do dano respondem objetivamente pelos danos por este causados no exercício...". De acordo com a teoria estudada em *1. Responsabilidade Civil Extracontratual do Estado*, a responsabilidade civil extracontratual da Administração Pública consiste na obrigação jurídica que recai sobre o Estado de reparar os danos materiais, morais e estéticos causados a particulares por condutas comissivas ou omissivas de seus agentes públicos no exercício de suas atribuições ou a pretexto de exercê-las.
+>
+> **Gabarito: A**
+
+---
+
 ## 2. Regime Jurídico dos Serviços Públicos e sua Delegação
 
 ### 2.1 Princípios do Serviço Público Adequado
@@ -282,92 +294,101 @@ As Parcerias Público-Privadas constituem concessões especiais destinadas a via
 ---
 
 ### Teste 038
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Sobre os princípios que informam a prestação de serviços públicos previstos na Lei Federal nº 8.987/1995 e na doutrina administrativista contemporânea, assinale a opção correta:
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Direito – 2026)**
+Carlos, proprietário de uma fazenda produtora de café, viajou ao exterior por longo período sem deixar procurador ou qualquer instrução formal. Durante sua ausência, seu vizinho André percebeu que uma praga estava rapidamente se alastrando na plantação de Carlos, podendo comprometer toda a safra. Diante disso, mesmo sem autorização, André contratou empresa especializada para conter a praga, assumindo custos elevados. Contudo, aproveitou a ocasião para também realizar melhorias estruturais na propriedade, visando aumentar a produtividade futura. Durante a execução dos serviços, André delegou a um terceiro a supervisão da aplicação de defensivos agrícolas. Esse terceiro, por negligência, utilizou produto inadequado, causando danos parciais à lavoura. Ao retornar, Carlos reconheceu a necessidade do controle da praga, mas recusou-se a pagar pelas melhorias, além de ter desaprovado a delegação a terceiro e ter afirmado que não deveria arcar com prejuízos decorrentes da má execução. Diante dessa situação, à luz das regras da gestão de negócios, assinale a afirmativa correta.
 
-* **A)** A continuidade veda em absoluto a interrupção do serviço, mesmo após aviso prévio por inadimplemento de fatura de água.
-* **B)** A modicidade tarifária impõe gratuidade universal aos serviços públicos, arcando o erário com o custo operacional total.
-* **C)** A mutabilidade do regime autoriza a adequação contínua do serviço às novas exigências técnicas e necessidades sociais.
-* **D)** A generalidade impede a concessão de tarifas sociais diferenciadas para atender famílias de comprovada baixa renda.
-* **E)** A atualidade restringe o emprego de tecnologias modernas para salvaguardar a estabilidade dos contratos concedidos.
+* **A)** Carlos está obrigado a indenizar integralmente André por todas as despesas realizadas, inclusive as melhorias, bem como assumir os prejuízos decorrentes da atuação do terceiro.
+* **B)** André responde pelos danos causados pelo terceiro, podendo Carlos recusar o pagamento das despesas úteis e exigir a recomposição integral do estado anterior.
+* **C)** Carlos deve reembolsar as despesas necessárias para conter a praga, mas não é obrigado a custear melhorias e André responde pelos danos causados pelo terceiro, que atuou por sua determinação.
+* **D)** André não responde pelos danos causados pelo terceiro, pois atuou em benefício de Carlos, que, por sua vez, deve indenizar todas as despesas, ainda que desnecessárias.
+* **E)** Carlos é obrigado a indenizar todas as despesas, independentemente de sua utilidade ou necessidade, sob pena de configurar enriquecimento sem causa.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. O art. 6º, § 3º, II da Lei nº 8.987/1995 autoriza a interrupção temporária do serviço público após prévio aviso formal decorrente de inadimplemento do usuário, sem violação à continuidade.
-> - **B)** **Incorreto**. A modicidade tarifária preconiza tarifas justas e acessíveis para manter o equilíbrio econômico-financeiro da concessão, não exigindo gratuidade irrestrita.
-> - **C)** **Correto**. O princípio da mutabilidade do regime jurídico (ou da flexibilidade) permite à Administração alterar unilateralmente cláusulas regulamentares da prestação para assegurar a evolução das técnicas, a modernização dos equipamentos e o atendimento eficiente às demandas mutáveis da sociedade (art. 6º, § 2º da Lei nº 8.987/1995).
-> - **D)** **Incorreto**. O princípio da generalidade (ou cortesia) não impede a fixação de tarifas sociais subsidiadas para consumidores carentes.
-> - **E)** **Incorreto**. O princípio da atualidade impõe a modernidade das técnicas, equipamentos e instalações.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Carlos está obrigado a indenizar integralmente André por todas as despesas realizadas, inclusive as melhorias, bem...". De acordo com a teoria estudada em *1.3 Teoria do Risco Administrativo: Excludentes e Atenuantes*, essa teoria baseia-se na ideia de que a atividade estatal gera riscos inerentes para a coletividade, devendo o poder público arcar com os prejuízos decorrentes.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "André responde pelos danos causados pelo terceiro, podendo Carlos recusar o pagamento das despesas úteis e exigir...". De acordo com a teoria estudada em *1.4 Teoria do Risco Integral e suas Hipóteses Excepcionais*, atos de Guerra e Terrorismo Aéreo: Danos a terceiros decorrentes de atentados terroristas contra aeronaves comerciais de matrícula brasileira (Lei Federal nº 10.744/2003).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Carlos deve reembolsar as despesas necessárias para conter a praga, mas não é obrigado a custear melhorias e André...". De acordo com a teoria estudada em *1.3 Teoria do Risco Administrativo: Excludentes e Atenuantes*, *Culpa Concorrente da Vítima:* A vítima e o agente público concorreram simultaneamente para a eclosão do evento danoso. O Estado continua obrigado a indenizar, mas o montante indenizatório é reduzido proporcionalmente ao grau de culpa da vítima.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.6 Ação Regressiva e a Teoria da Dupla Garantia (Tema 940 / STF)* deste guia, *"A teor do art. 37, § 6º, da Constituição Federal, a ação por danos causados por agente público deve ser ajuizada contra o Estado ou a pessoa jurídica de direito privado prestadora de serviço público, sendo parte ilegítima para figurar no polo passivo o autor do ato, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa."*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "André não responde pelos danos causados pelo terceiro, pois atuou em benefício de Carlos, que, por sua vez, deve...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Carlos é obrigado a indenizar todas as despesas, independentemente de sua utilidade ou necessidade, sob pena de...". De acordo com a teoria estudada em *1. Responsabilidade Civil Extracontratual do Estado*, a responsabilidade civil extracontratual da Administração Pública consiste na obrigação jurídica que recai sobre o Estado de reparar os danos materiais, morais e estéticos causados a particulares por condutas comissivas ou omissivas de seus agentes públicos no exercício de suas atribuições ou a pretexto de exercê-las.
+>
+> **Gabarito: D**
+
+---
+
+### Teste 039
+**(FGV – TRT-16 – Analista Judiciario Area Administrativa Tecnologia da Informacao – 2022)**
+Antônio, agente público, foi acusado, por seu superior hierárquico, de ter causado dano ao Erário, o que foi reduzido a termo em representação na qual lhe atribuiu ato de improbidade tipificado na Lei nº 8.429/1992. À luz da sistemática legal, é correto afirmar que a tipologia da Lei nº 8.429/1992, na qual pode ser enquadrada a mencionada conduta de Antônio, é
+
+* **A)** taxativa, admitindo apenas o dolo.
+* **B)** taxativa, admitindo o dolo e a culpa.
+* **C)** exemplificativa, admitindo apenas o dolo.
+* **D)** exemplificativa, admitindo o dolo e a culpa.
+* **E)** exemplificativa, sendo estruturada com base na responsabilidade objetiva.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "taxativa, admitindo apenas o dolo". De acordo com a teoria estudada em *2.2 Concessão Comum e Permissão de Serviço Público (Lei nº 8.987/1995)*, permissão de Serviço Público: Delegação formalizada mediante contrato de adesão, a título precário, após prévia licitação, admitindo como permitente pessoa física ou jurídica.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "taxativa, admitindo o dolo e a culpa". De acordo com a teoria estudada em *1.1 Evolução Histórica da Responsabilidade Estatal*, teoria Objetiva do Risco Administrativo: Consagrada pelo Direito Constitucional contemporâneo, dispensa integralmente a comprovação de dolo ou culpa estatal, fundando-se na causalidade material e na solidariedade social perante os riscos criados pela atividade administrativa.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.6 Ação Regressiva e a Teoria da Dupla Garantia (Tema 940 / STF)* deste guia, *"A teor do art. 37, § 6º, da Constituição Federal, a ação por danos causados por agente público deve ser ajuizada contra o Estado ou a pessoa jurídica de direito privado prestadora de serviço público, sendo parte ilegítima para figurar no polo passivo o autor do ato, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa."*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-16/2022) ao estabelecer que "exemplificativa, admitindo apenas o dolo".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "exemplificativa, admitindo o dolo e a culpa". De acordo com a teoria estudada em *1.2 O Art. 37, § 6º da CF/88 e os Elementos da Responsabilidade Objetiva*, as pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos responderão pelos danos que seus agentes, nessa qualidade, causarem a terceiros, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa."*.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "exemplificativa, sendo estruturada com base na responsabilidade objetiva". De acordo com a teoria estudada em *1.3 Teoria do Risco Administrativo: Excludentes e Atenuantes*, todavia, NÃO se trata de responsabilidade absoluta, admitindo-se a ruptura ou atenuação do nexo causal nas seguintes hipóteses.
 >
 > **Gabarito: C**
-### Teste 039
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A respeito dos regimes de delegação de serviços públicos previstos na Lei Federal nº 8.987/1995, assinale a afirmativa que apresenta distinção correta entre concessão comum e permissão de serviço público:
 
-* **A)** A concessão é outorgada a pessoa física ou jurídica, enquanto a permissão formaliza-se unicamente com pessoa jurídica.
-* **B)** A concessão outorga-se por contrato bilateral, ao passo que a permissão é formalizada a título precário por contrato.
-* **C)** A concessão dispensa procedimento de licitação, ao passo que a permissão exige modalidade estrita de pregão eletrônico.
-* **D)** A concessão tem caráter essencialmente precário, enquanto a permissão goza de prazo indeterminado e irrevogabilidade.
-* **E)** A concessão admite delegação de competências policiais sancionatórias, ao passo que a permissão restringe-se a obras.
+---
+
+### Teste 040
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Direito – 2024)**
+Instado a se manifestar acerca de certa permissão de serviço público, na forma em que expressamente previsto na Lei nº 8.987/95, Adalberto indicou corretamente que
+
+* **A)** a permissão de serviço público tem natureza de ato administrativo discricionário e precário.
+* **B)** o prazo mínimo para formalização de uma permissão de serviço público é de 10 (dez) anos.
+* **C)** é vedada a aplicação na permissão de serviço público dos ditames atinentes às concessões de serviços públicos.
+* **D)** a norma prevê a precariedade e a revogabilidade no âmbito da permissão de serviço público.
+* **E)** não é possível a realização de licitação na modalidade concorrência para a formalização de uma permissão de serviço público.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A concessão é formalizada exclusivamente com pessoa jurídica ou consórcio de empresas (art. 2º, II); já a permissão pode ser outorgada a pessoa física ou jurídica (art. 2º, IV da Lei nº 8.987/1995).
-> - **B)** **Correto**. Pela Lei nº 8.987/1995, a concessão é contrato bilateral celebrado por prazo determinado com garantias de equilíbrio econômico-financeiro; já a permissão (art. 40) formaliza-se por contrato de adesão marcado por precariedade mitigada e revogabilidade unilateral pelo poder concedente.
-> - **C)** **Incorreto**. Ambas exigem prévia licitação obrigatória (art. 175 da CF/88); ademais, para concessão a modalidade é concorrência pública ou diálogo competitivo.
-> - **D)** **Incorreto**. A precariedade é atributo da permissão, não da concessão.
-> - **E)** **Incorreto**. Atos de polícia punitiva geral não são passíveis de concessão nem permissão a entes mercantis privados.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a permissão de serviço público tem natureza de ato administrativo discricionário e precário". De acordo com a teoria estudada em *2.2 Concessão Comum e Permissão de Serviço Público (Lei nº 8.987/1995)*, permissão de Serviço Público: Delegação formalizada mediante contrato de adesão, a título precário, após prévia licitação, admitindo como permitente pessoa física ou jurídica.
+> - **B)** **Correta.** Conforme fundamentado na seção *2.2 Concessão Comum e Permissão de Serviço Público (Lei nº 8.987/1995)* deste guia, concessão Comum de Serviço Público: Delegação contratual bilateral formalizada com pessoa jurídica ou consórcio de empresas, mediante prévia licitação obrigatória, para exploração do serviço por prazo determinado, a expensas e risco da concessionária, remunerada unicamente pelas tarifas cobradas dos usuários. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "o prazo mínimo para formalização de uma permissão de serviço público é de 10 (dez) anos".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é vedada a aplicação na permissão de serviço público dos ditames atinentes às concessões de serviços públicos". De acordo com a teoria estudada em *2.1 Princípios do Serviço Público Adequado*, a Lei Federal nº 8.987/1995 (art. 6º) prescreve que toda concessão ou permissão pressupõe a prestação de serviço adequado, assim entendido o que satisfaz as condições de.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a norma prevê a precariedade e a revogabilidade no âmbito da permissão de serviço público". De acordo com a teoria estudada em *2.4 Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)*, contratos cujo valor total seja inferior a R$ 10.000.000,00 (dez milhões de reais).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não é possível a realização de licitação na modalidade concorrência para a formalização de uma permissão de...". De acordo com a teoria estudada em *2.1 Princípios do Serviço Público Adequado*, regularidade: Prestação sem oscilações arbitrárias de qualidade.
 >
 > **Gabarito: B**
-### Teste 040
-**(FGV – TRT-1 – Analista Judiciário – 2024)**  
-Josélia decidiu aprofundar os seus conhecimentos com relação à orientação do Supremo Tribunal Federal acerca da responsabilidade civil do Estado, à luz do disposto no Art. 37, §6º, da CRFB/1988, vindo a concluir corretamente que:
-
-* **A)** no caso atinente a morte por disparo de arma de fogo em decorrência de operação policial, a responsabilidade civil do Estado é fundada na teoria do risco integral;
-* **B)** o direito de regresso em relação ao agente público causador do dano em sede de responsabilidade civil é imp rescritível, por se tratar de ressarcimento ao erário;
-* **C)** não é cabível o reconhecimento de causas excludentes da responsabilidade civil, diante da previsão constitucional;
-* **D)** o agente causador do dano não tem legitimidade para constar do polo passivo da ação judicial que visa à responsabilização civil do Estado;
-* **E)** tanto o Estado quanto o agente causador do dano respondem objetivamente pelos danos por este causados no exercício de suas atribuições. Tribunal Regional Federal da 1ª Região FGV Conhecimento
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Correta. Nos termos do art. 37, § 6º, da Constituição Federal e da tese fixada pelo STF no Tema 940 de Repercussão Geral, a ação por danos causados por agente público deve ser ajuizada exclusivamente contra a pessoa jurídica de direito público ou privado prestadora de serviço público, sendo vedada a inclusão direta do agente público no polo passivo.
-> - **B)** Incorreta. A jurisprudência consolidada do STF afasta o litisconsórcio passivo facultativo originário entre Estado e agente.
-> - **C)** Incorreta. O direito de regresso é regressivo e depende de comprovação de dolo ou culpa do servidor em ação própria.
-> - **D)** Incorreta. O particular lesado tem pretensão reparatória direta e objetiva contra a Fazenda Pública.
-> - **E)** Incorreta. A responsabilidade primária do Estado independe de processo administrativo disciplinar prévio.
->
-> **Gabarito: A**
 
 ---
 
 ### Teste 041
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No Brasil, as Parcerias Público-Privadas (PPPs) são disciplinadas pela Lei Federal nº 11.079/2004 e contemplam duas modalidades contratuais distintas: a concessão patrocinada e a concessão administrativa. A respeito da concessão patrocinada, é correto afirmar que consiste no contrato de concessão de serviços públicos ou de obras públicas:
+**(FGV – TCE-GO – Analista de Controle Externo Controle Externo – 2024)**
+Considerando a natureza dos serviços públicos e as peculiaridades previstas no ordenamento pátrio, é correto afirmar que pode ser objeto de uma concessão patrocinada
 
-* **A)** em que a remuneração do parceiro privado advém unicamente de subsídio orçamentário mensal pago pela Administração.
-* **B)** que envolve, adicionalmente à tarifa cobrada dos usuários, contraprestação pecuniária do parceiro público ao parceiro privado.
-* **C)** que se destina à prestação de serviços de que a Administração Pública seja a usuária direta ou indireta de modo exclusivo.
-* **D)** cujo valor financeiro total estimado para o empreendimento de infraestrutura seja inferior a dez milhões de reais.
-* **E)** pactuado por prazo de execução inferior a cinco anos para permitir a renovação periódica dos termos licitados.
+* **A)** a delegação de atividade que tenha como objeto único a realização de uma obra pública.
+* **B)** a delegação do exercício do poder de polícia, com relação a todas as fases que compõem o respectivo ciclo.
+* **C)** a delegação do serviço de veículo leve sobre trilhos, com a previsão de instalação da respectiva infraestrutura e manutenção, mediante a cobrança de tarifa dos usuários.
+* **D)** a delegação da construção de uma universidade pública e a prestação do respectivo serviço de educação no estabelecimento oficial, mediante a cobrança de mensalidades.
+* **E)** a delegação do serviço de iluminação pública, mediante a realização de obras e manutenção da respectiva infraestrutura.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A remuneração unicamente decorrente do poder público caracteriza a concessão administrativa (art. 2º, § 2º).
-> - **B)** **Correto**. Conforme a definição legal expressa no art. 2º, § 1º, da Lei Federal nº 11.079/2004: "Concessão patrocinada é a concessão de serviços públicos ou de obras públicas de que trata a Lei nº 8.987, de 13 de fevereiro de 1995, quando envolver, adicionalmente à tarifa cobrada dos usuários, contraprestação pecuniária do parceiro público ao parceiro privado".
-> - **C)** **Incorreto**. Essa é a definição exata de concessão administrativa (art. 2º, § 2º).
-> - **D)** **Incorreto**. É vedada a celebração de PPP cujo valor seja inferior a R$ 10.000.000,00 (dez milhões de reais), nos termos do art. 2º, § 4º, I da lei.
-> - **E)** **Incorreto**. O prazo do contrato de PPP não pode ser inferior a 5 (cinco) anos nem superior a 35 (trinta e cinco) anos (art. 5º, I).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a delegação de atividade que tenha como objeto único a realização de uma obra pública". De acordo com a teoria estudada em *2.4 Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)*, contratos que tenham por objeto único o fornecimento de mão de obra, a mera locação de equipamentos ou a execução isolada de obra pública sem prestação continuada de serviços.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a delegação do exercício do poder de polícia, com relação a todas as fases que compõem o respectivo ciclo". De acordo com a teoria estudada em *2.2 Concessão Comum e Permissão de Serviço Público (Lei nº 8.987/1995)*, permissão de Serviço Público: Delegação formalizada mediante contrato de adesão, a título precário, após prévia licitação, admitindo como permitente pessoa física ou jurídica.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a delegação do serviço de veículo leve sobre trilhos, com a previsão de instalação da respectiva infraestrutura e...". De acordo com a teoria estudada em *2.4 Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)*, concessão Patrocinada (Art. 2º, § 1º): É a concessão de serviços públicos ou obras públicas em que a remuneração da concessionária envolve a combinação de tarifa paga pelos usuários mais uma contraprestação pecuniária complementar paga pelo parceiro público.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a delegação da construção de uma universidade pública e a prestação do respectivo serviço de educação no...". De acordo com a teoria estudada em *2.4 Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)*, a remuneração é 100% custeada pelo erário, inexistindo cobrança de tarifas dos cidadãos (ex.: construção e operação de hospitais públicos do SUS, presídios, iluminação pública).
+> - **E)** **Correta.** Conforme fundamentado na seção *2.2 Concessão Comum e Permissão de Serviço Público (Lei nº 8.987/1995)* deste guia, concessão Comum de Serviço Público: Delegação contratual bilateral formalizada com pessoa jurídica ou consórcio de empresas, mediante prévia licitação obrigatória, para exploração do serviço por prazo determinado, a expensas e risco da concessionária, remunerada unicamente pelas tarifas cobradas dos usuários. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "a delegação do serviço de iluminação pública, mediante a realização de obras e manutenção da respectiva...".
 >
-> **Gabarito: B**
+> **Gabarito: E**
+
+---
+
 ## 3. Bens Públicos: Classificação, Afetação e Prerrogativas
 
 Conforme o art. 98 do Código Civil, são bens públicos todos aqueles pertencentes às pessoas jurídicas de direito público interno (União, Estados, DF, Municípios e suas autarquias e fundações públicas de direito público). Todos os demais são bens privados.
@@ -398,68 +419,77 @@ O regime jurídico dos bens públicos é informado por quatro prerrogativas estr
 ---
 
 ### Teste 042
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O Código Civil brasileiro, em seu art. 99, classifica os bens públicos em bens de uso comum do povo, bens de uso especial e bens dominicais. A respeito do regime jurídico que recai sobre essas três categorias de bens públicos, assinale a opção correta:
+**(FGV – TCE-PI – Auditor de Controle Externo Controle Externo Especifica de Area Comum – 2025)**
+João é contador de uma sociedade empresária que comercializa roupas masculinas em um shopping localizado no Município Beta, no Estado do Piauí. Em razão de um pequeno acidente, João precisou ser atendido na emergência de um Hospital da rede pública do Município Beta. No entanto, após aguardar por atendimento por mais de 3 horas, foi informado pela equipe do Hospital de que não havia médicos disponíveis para atendê-lo, pelo que deveria retornar na manhã do dia seguinte. Revoltado, João quebrou um aparelho de diagnóstico e os computadores do laboratório do hospital, causando um prejuízo de R$ 150 mil. Considerando os fatos narrados e a jurisdição e competências constitucionais e regimentais do Tribunal de Contas do Estado do Piauí, é correto afirmar que João
 
-* **A)** Os bens de uso comum do povo e os de uso especial são inalienáveis enquanto conservarem a sua qualificação legal.
-* **B)** Os bens dominicais podem ser objeto de usucapião por particulares desde que a posse mansa supere vinte anos.
-* **C)** Os bens de uso especial podem ser penhorados judicialmente para satisfação de créditos trabalhistas e fiscais.
-* **D)** A desafetação de um bem de uso comum do povo opera-se tacitamente com a omissão da autoridade pública por dez anos.
-* **E)** Todos os bens públicos admitem oneração por garantias reais de hipoteca para obtenção de financiamento bancário.
+* **A)** não pode ser julgado pelo TCE-PI.
+* **B)** fica sujeito apenas à aplicação de multa pelo TCE-PI.
+* **C)** pode ser sujeito de tomada de contas especial, a ser submetida a julgamento do TCE-PI.
+* **D)** fica sujeito à responsabilização administrativa, que somente poderá ser apurada pelo Poder Judiciário.
+* **E)** não pode ser obrigado a ressarcir os prejuízos causados, tendo em vista que a falha na prestação dos serviços justifica sua conduta.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correto**. Conforme preceitua expressamente o art. 100 do Código Civil: "Os bens públicos de uso comum do povo e os de uso especial são inalienáveis, enquanto conservarem a sua qualificação, na forma que a lei dispuser". Somente após a regular desafetação (conversão em bens dominicais) é que podem ser alienados, observados os requisitos da lei de licitações.
-> - **B)** **Incorreto**. Pelo art. 102 do Código Civil e arts. 183, § 3º e 191, parágrafo único da CF/88, os bens públicos jamais são sujeitos a usucapião (imprescritibilidade).
-> - **C)** **Incorreto**. Todos os bens públicos gozam da prerrogativa de impenhorabilidade (art. 100 da CF/88).
-> - **D)** **Incorreto**. A desafetação exige ato formal do Poder Público ou fato administrativo inconteste; a mera omissão não desafeta bem público.
-> - **E)** **Incorreto**. Bens públicos não podem ser gravados com ônus reais de garantia (inonorabilidade).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não pode ser julgado pelo TCE-PI". De acordo com a teoria estudada em *3.2 Fenômeno da Afetação e Desafetação*, afetação: É a atribuição formal ou fática de uma destinação pública a determinado bem (o bem passa a ser de uso comum ou de uso especial). Enquanto afetado, o bem é inalienável.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "fica sujeito apenas à aplicação de multa pelo TCE-PI". De acordo com a teoria estudada em *3.3 Prerrogativas do Regime Jurídico e a Imprescritibilidade Absoluta*, inalienabilidade Relativa: Os bens de uso comum e de uso especial são inalienáveis enquanto conservarem sua qualificação pública. Os bens dominicais podem ser alienados, desde que cumpridos os requisitos da lei de licitações.
+> - **C)** **Correta.** Conforme fundamentado na seção *3.3 Prerrogativas do Regime Jurídico e a Imprescritibilidade Absoluta* deste guia, o art. 183, § 3º e o art. 191, parágrafo único, da Constituição Federal, corroborados pela Súmula 340 do STF, preceituam que nenhum bem público, qualquer que seja sua classificação (inclusive os bens dominicais), pode ser adquirido por usucapião. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PI/2025) ao estabelecer que "pode ser sujeito de tomada de contas especial, a ser submetida a julgamento do TCE-PI".
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "fica sujeito à responsabilização administrativa, que somente poderá ser apurada pelo Poder Judiciário". De acordo com a teoria estudada em *A Teoria da Dupla Garantia:*, segunda Garantia (Ao Agente Público): Protege o servidor contra ações temerárias de administrados inconformados, assegurando-lhe que jamais poderá ser réu direto na ação proposta pela vítima, nem compor litisconsórcio passivo originário com o Estado.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não pode ser obrigado a ressarcir os prejuízos causados, tendo em vista que a falha na prestação dos serviços...". De acordo com a teoria estudada em *1.6 Ação Regressiva e a Teoria da Dupla Garantia (Tema 940 / STF)*, *"A teor do art. 37, § 6º, da Constituição Federal, a ação por danos causados por agente público deve ser ajuizada contra o Estado ou a pessoa jurídica de direito privado prestadora de serviço público, sendo parte ilegítima para figurar no polo passivo o autor do ato, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa."*.
 >
-> **Gabarito: A**
+> **Gabarito: C**
+
+---
+
 ### Teste 043
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A afetação e a desafetação de bens públicos expressam a consagração ou a desvinculação de uma coisa pública a uma finalidade estatal específica. A respeito dos modos de afetação e desafetação e de suas repercussões para o controle patrimonial, é correto afirmar que:
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Gestao Governamental – 2024)**
+Em 24/01/2012, em patrulhamento realizado em uma ocupação irregular no Bairro Alfa, em Belém (PA), a Polícia Militar Ambiental constatou que Adriana teria desmatado área de preservação permanente de restinga no bioma Amazônico e que estava construindo uma residência no local. Na ocasião, Adriana disse que adquiriu o imóvel um ano antes, já com área desmatada, e que, na ocasião, o vendedor informou que ela poderia construir normalmente. Diante da ausência de licença ambiental, a autoridade lavrou auto de infração e embargou a obra. Posteriormente, em nova fiscalização ocorrida em 18/02/2012, constatou-se que Adriana descumpriu o embargo e deu prosseguimento à edificação da residência. Foi, então, lavrado novo auto de infração. O Ministério Público foi informado e instaurou inquérito civil para apuração dos fatos. No curso desse inquérito civil, o Ministério Publico requisitou que o Município informasse as providências que foram ou seriam adotadas, no exercício do poder de polícia, para coibir a prática ilegal. Ainda durante o curso do inquérito civil, a Polícia Militar Ambiental fez nova fiscalização no local e constatou que a residência embargada de Adriana permanece erguida e que existe outro imóvel, de propriedade de Antônio, em idêntica situação no local. Em resposta, o Município informou teve ciência das construções, mas não houve concessão de licença ambiental para a construção; e que a área investigada integra ocupação irregular. A responsabilidade civil do Município por dano ambiental, em caso de omissão de cumprimento adequado do seu dever de fiscalizar, será
 
-* **A)** A afetação exige sempre lei autorizativa específica aprovada pelo Legislativo, vedada a afetação tácita fática.
-* **B)** A desafetação de bem de uso especial para dominical transfere o bem para o comércio jurídico, admitindo alienação.
-* **C)** O bem desafetado perde a imunidade tributária e a impenhorabilidade mesmo pertencendo ao patrimônio estatal.
-* **D)** A construção de uma escola em terreno dominical consubstancia desafetação administrativa por ato formal de gestão.
-* **E)** Os bens de uso comum do povo não admitem desafetação por se tratarem de patrimônio com tutela constitucional absoluta.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreto**. A afetação pode ocorrer de forma expressa (por lei ou decreto) ou fática/tácita (quando a Administração simplesmente passa a destinar o bem a um serviço público).
-> - **B)** **Correto**. A desafetação é o fenômeno jurídico pelo qual o bem público deixa de estar vinculado a uma destinação pública direta (deixa de ser de uso comum ou de uso especial) e ingressa na categoria de bem dominical (patrimonial). Uma vez desafetado, passa a ser alienável, desde que cumpridos os requisitos legais (interesse público, avaliação prévia e autorização legislativa).
-> - **C)** **Incorreto**. O bem dominical continua sendo bem público e, portanto, mantém a impenhorabilidade e a imprescritibilidade.
-> - **D)** **Incorreto**. Destinar o imóvel à atividade escolar consubstancia afetação (e não desafetação).
-> - **E)** **Incorreto**. Bens de uso comum (praças, ruas) admitem desafetação mediante lei específica.
->
-> **Gabarito: B**
-### Teste 044
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Determinada área de terras devolutas pertencente ao patrimônio do Estado de Goiás foi invadida por particulares que ali construíram residências e desenvolveram atividade agropastoril contínua e pacífica por mais de quinze anos ininterruptos. Diante do pleito de usucapião formulado pelos posseiros em face da Fazenda Pública estadual:
-
-* **A)** A pretensão é juridicamente inviável, pois a Constituição veda o usucapião de imóveis públicos de qualquer espécie.
-* **B)** O usucapião é admissível exclusivamente para terras devolutas dominicais desprovidas de afetação administrativa direta.
-* **C)** A ocupação mansa e pacífica de terra pública por mais de dez anos converte a detenção ilícita em posse de boa-fé.
-* **D)** O Estado perde a titularidade do domínio imobiliário caso não comprove a cobrança periódica de foro ou taxa de ocupação.
-* **E)** O juiz deve declarar a prescrição aquisitiva extraordinária em favor dos posseiros que exploram a função social da terra.
+* **A)** solidária, se a omissão for determinante para concretização ou agravamento do dano, porém de execução subsidiária.
+* **B)** solidária, independentemente de a omissão ser determinante para concretização ou agravamento do dano, pois a responsabilidade é subjetiva.
+* **C)** subsidiária, se a omissão for determinante para concretização ou agravamento do dano, pois a responsabilidade é subjetiva.
+* **D)** solidária, ainda que a omissão não seja determinante para concretização ou agravamento do dano.
+* **E)** subsidiária, independentemente da omissão ser determinante para concretização ou agravamento do dano.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correto**. Conforme dispõem os arts. 183, § 3º e 191, parágrafo único, da CF/88, e a Súmula nº 340 do STF ("Desde a vigência do Código Civil, os bens dominicais, como os demais bens públicos, não podem ser adquiridos por usucapião"), os bens públicos de qualquer natureza (inclusive as terras devolutas dominicais) são absolutamente imprescritíveis. A ocupação de bem público por particular consubstancia mera detenção clandestina, insuscetível de gerar efeitos possessórios aquisitivos contra o Poder Público.
-> - **B)** **Incorreto**. Os bens dominicais gozam da mesma imprescritibilidade outorgada aos demais bens públicos.
-> - **C)** **Incorreto**. A jurisprudência consolidada do STJ (Súmula 619) reconhece que a ocupação de área pública não gera posse, mas mera detenção fática precária.
-> - **D)** **Incorreto**. A omissão do Estado não acarreta a perda da propriedade de terras públicas.
-> - **E)** **Incorreto**. A função social não autoriza a aquisição por usucapião de imóveis pertencentes ao domínio do Estado.
+> - **A)** **Correta.** Conforme fundamentado na seção *1.5 Responsabilidade por Omissão Estatal: Genérica vs. Específica* deste guia, a responsabilidade é OBJETIVA; o Estado só se exonera se comprovar que a morte ou o dano decorreu de causa natural ou que o evento era faticamente inevitável mesmo com o cumprimento de todos os protocolos regulares de vigilância. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "solidária, se a omissão for determinante para concretização ou agravamento do dano, porém de execução subsidiária".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "solidária, independentemente de a omissão ser determinante para concretização ou agravamento do dano, pois a...". De acordo com a teoria estudada em *1.5 Responsabilidade por Omissão Estatal: Genérica vs. Específica*, omissão Genérica (Responsabilidade Subjetiva): O Estado descumpre seu dever genérico de proteção da ordem social (ex.: furto de veículo particular estacionado em via pública comum; alagamento pontual em chuva sazonal).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "subsidiária, se a omissão for determinante para concretização ou agravamento do dano, pois a responsabilidade é...". De acordo com a teoria estudada em *1.5 Responsabilidade por Omissão Estatal: Genérica vs. Específica*, a vítima deve provar a ocorrência de culpa anônima do serviço (*faute du service*), demonstrando que o poder público foi negligente diante de um dever exigível.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "solidária, ainda que a omissão não seja determinante para concretização ou agravamento do dano". De acordo com a teoria estudada em *2.4 Parcerias Público-Privadas - PPPs (Lei nº 11.079/2004)*, concessão Administrativa (Art. 2º, § 2º): É o contrato de prestação de serviços de que a Administração Pública seja a usuária direta ou indireta, ainda que envolva a execução de obra ou fornecimento e instalação de bens.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "subsidiária, independentemente da omissão ser determinante para concretização ou agravamento do dano". De acordo com a teoria estudada em *1.5 Responsabilidade por Omissão Estatal: Genérica vs. Específica*, quando o dano decorre de um não-fazer da Administração Pública, a jurisprudência estabelece rígida bifurcação metodológica.
 >
 > **Gabarito: A**
+
+---
+
+### Teste 044
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Direito – 2024)**
+A Alfa Químicas do Pará é uma empresa que comercializa e distribui insumos industriais para diversos segmentos do mercado e se localiza na confluência do rio Beta com o manancial de captação de água do sistema de abastecimento público de 3 (três) cidades. Um dos produtos que a empresa comercializa é a substância tolueno, um líquido incolor, volátil, com odor característico, amplamente utilizado como solvente em indústrias que vão desde a produção de tintas e vernizes até a fabricação de produtos farmacêuticos e de borracha. No entanto, apesar de sua utilidade, o tolueno apresenta sérios riscos para a saúde humana e para o meio ambiente, alguns já conhecidos e outros ainda não comprovados por evidências científicas. Um dos funcionários da empresa Alfa Químicas do Pará, discordando da forma como estava sendo conduzido o processo de armazenamento do tolueno, denunciou-a à Secretaria de Meio Ambiente e Sustentabilidade do Pará, dando conta de que existiam tanques de armazenamento com má conservação e que estavam sendo feitas descargas industriais inadequadas. Após investigação, ficou constatada a presença de efluentes com a substância tolueno, sem qualquer tratamento, nas galerias de águas pluviais cujo curso, conforme planta industrial, desemboca no rio Beta. A empresa cessou as atividades alguns meses após o ajuizamento da ação civil pública pelo Ministério Público, que ocorreu 5 (cinco) anos após a ocorrência do fato constatado. Dessa forma, à luz dos Princípios do Direito Ambiental, da Política Nacional do Meio Ambiente – Lei nº 6938/81 e da jurisprudência dos Tribunais Superiores sobre a matéria, assinale a afirmativa correta.
+
+* **A)** A situação narrada caracteriza infração ambiental, passível de aplicação de sanções como a multa administrativa. Todavia, a demanda de reparação civil daí decorrente exige não apenas a ocorrência de infração, mas também que seja demonstrado o dano efetivo, observado o prazo prescricional de 10 (dez) anos.
+* **B)** Diante dos princípios da precaução e da prevenção e dado o alto grau de risco que a atividade de despejo de efluentes contaminados, sem qualquer tratamento, em rio com ponto de confluência com manancial de captação para abastecimento público representa para o meio ambiente e a saúde humana, a ausência de nova prova técnica pericial do dano na fase processual pela parte autora não inviabiliza o reconhecimento do dever de reparação ambiental.
+* **C)** Eventual ausência de realização de perícia judicial, em razão do grande tempo transcorrido para ajuizamento da ação e do fato de a empresa já ter finalizado suas atividades inviabiliza o reconhecimento do dever de reparação ambiental. Ademais, houve perda do interesse de agir, diante do encerramento das atividades da empresa.
+* **D)** A inversão do ônus da prova não se aplica à presente hipótese, tendo em vista que não há prova cabal da presença de tolueno ao longo do rio Beta. Assim, não é possível especificar minimamente qual marca deletéria o despejo do efluente contaminado por tolueno impactou no ambiente de entorno e à saúde humana.
+* **E)** Com base no ordenamento jurídico brasileiro, a regra geral é a de que a pretensão de exigir a reparação dos danos seja submetida à prescrição. Portanto, a despeito de a Constituição e leis ordinárias não disporem acerca do prazo prescricional para a reparação de danos civis ambientais, os tribunais superiores entendem que vigora a regra da estipulação de prazo de 5 anos para pretensão em matéria ambiental.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "A situação narrada caracteriza infração ambiental, passível de aplicação de sanções como a multa administrativa...". De acordo com a teoria estudada em *3.1 Classificação Quanto à Destinação (Código Civil, art. 99)*, bens de Uso Especial (Art. 99, II): Destinados à execução direta dos serviços públicos e ao funcionamento da máquina administrativa (edifícios de fóruns e tribunais, escolas públicas, hospitais estatais, viaturas policiais, quartéis).
+> - **B)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "Diante dos princípios da precaução e da prevenção e dado o alto grau de risco que a atividade de despejo de...". De acordo com a teoria estudada em *2.1 Princípios do Serviço Público Adequado*, segurança: Minimização de riscos aos usuários e ao meio ambiente.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Eventual ausência de realização de perícia judicial, em razão do grande tempo transcorrido para ajuizamento da...". De acordo com a teoria estudada em *1.6 Ação Regressiva e a Teoria da Dupla Garantia (Tema 940 / STF)*, *"A teor do art. 37, § 6º, da Constituição Federal, a ação por danos causados por agente público deve ser ajuizada contra o Estado ou a pessoa jurídica de direito privado prestadora de serviço público, sendo parte ilegítima para figurar no polo passivo o autor do ato, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa."*.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A inversão do ônus da prova não se aplica à presente hipótese, tendo em vista que não há prova cabal da presença...". De acordo com a teoria estudada em *1.4 Teoria do Risco Integral e suas Hipóteses Excepcionais*, o ordenamento constitucional e legal brasileiro reconhece a incidência do risco integral em apenas três hipóteses taxativas.
+> - **E)** **Correta.** Conforme fundamentado na seção *1.3 Teoria do Risco Administrativo: Excludentes e Atenuantes* deste guia, o ordenamento jurídico brasileiro adota como regra geral a Teoria do Risco Administrativo. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "Com base no ordenamento jurídico brasileiro, a regra geral é a de que a pretensão de exigir a reparação dos danos...".
+>
+> **Gabarito: E**
+
+---
+
 ## 4. Fontes Recomendadas na Internet
 
 - [Constituição Federal de 1988 - Art. 37, § 6º, Art. 183, § 3º e Art. 191](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art37)  

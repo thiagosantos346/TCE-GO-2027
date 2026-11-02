@@ -117,79 +117,74 @@ Além dos Quatro Sinais Dourados, destacam-se duas metodologias amplamente cobra
 ---
 
 ### Teste 224
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Na engenharia de sistemas modernos, a distinção conceitual entre o Monitoramento Tradicional e a Observabilidade Moderna fundamenta-se na teoria do controle. A respeito dessa distinção, é correto afirmar:
+**(CEBRASPE – TJ-RJ – Analista Judiciario Grupo Tecnologia da Informacao Analista de Infraestrutura de Tic – 2021)**
+A fim de melhorar o desempenho do sistema, deseja-se realizar ajustes em um servidor Windows Server 2012 e nos seus respectivos serviços, tendo como principais papéis configurados os servidores web e de arquivos. Durante os trabalhos preliminares, verificou-se um baixo uso de processamento, memória, banda de rede e discos; além de filas cheias de requisições ou de trabalhos dos serviços web e de compartilhamento de arquivos. Com base nas informações precedentes, julgue os seguintes itens, considerados para a situação em questão. I Segmentação de papéis em máquinas próprias, a fim de diminuir a concorrência por recursos computacionais do servidor, memória, processamento e banda de rede. II Aumento do valor no parâmetro de quantidade máxima de threads por fila, para melhoria no atendimento das requisições no servidor de arquivos. III Ativar ou manter cache do serviço de informação da Internet (IIS), com o objetivo de diminuir o tempo de resposta das requisições. IV Diminuir o tamanho do arquivo pagefiles.sys, forçando o uso da memória RAM e aumentando o atendimento dos serviços de compartilhamento de arquivos e web. Estão certos apenas os itens
 
-* **A)** O monitoramento tradicional testa os sistemas internamente com inteligência artificial, enquanto a observabilidade analisa exclusivamente se o computador está ligado à tomada.
-* **B)** O monitoramento tradicional foca em verificar sintomas e métricas pré-conhecidas de falha ("o sistema está funcionando?"), respondendo por problemas conhecidos (*known unknowns*); a observabilidade é a propriedade de inferir os estados internos de um sistema complexo exclusivamente a partir de suas saídas de telemetria externa, permitindo diagnosticar comportamentos inéditos e inesperados (*unknown unknowns*).
-* **C)** Observabilidade e monitoramento são termos rigorosamente sinônimos, não havendo qualquer distinção técnica ou arquitetural entre ambos.
-* **D)** A observabilidade exige o desligamento de todos os agentes de telemetria de produção.
-* **E)** O monitoramento tradicional é capaz de isolar falhas de concorrência em sistemas distribuídos de microsserviços sem necessidade de logs ou traces.
-
+* **A)** I e II.
+* **B)** I e IV.
+* **C)** II e III.
+* **D)** I, III e IV.
+* **E)** II, III e IV.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Relação invertida e simplória.
-> - **B) Correta.** Definição clássica de Charity Majors e da literatura SRE: o monitoramento tradicional avisa quando algo quebrou baseado em limites pré-definidos (*thresholds* e alertas de sintomas conhecidos). A **Observabilidade** mede quão bem você consegue compreender o estado interno de um sistema complexo examinando apenas suas saídas de telemetria (métricas, logs, traces), sendo essencial para desvendar causas inéditas em sistemas distribuídos (*unknown unknowns*).
-> - **C) Incorreta.** Há clara distinção de escopo e capacidade diagnóstica.
-> - **D) Incorreta.** A observabilidade alimenta-se diretamente da telemetria.
-> - **E) Incorreta.** Sistemas distribuídos demandam rastreamento distribuído e alta cardinalidade que o monitoramento tradicional não suporta.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e II". De acordo com a teoria estudada em *1.2 Os Quatro Sinais Dourados do Google SRE (Four Golden Signals)*, em serviços web e APIs REST, afere-se tipicamente pelo número de requisições HTTP por segundo (RPS); em serviços de banco de dados, pelo volume de transações por segundo (TPS); em redes de streaming, pela quantidade de conexões ativas ou vazão de dados em megabits por segundo.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e IV". De acordo com a teoria estudada em *1. Monitoramento Tradicional vs. Observabilidade Moderna*, o sistema pode estar com todos os servidores operando em 30% de CPU e, ainda assim, milhares de cidadãos enfrentarem erros HTTP 500 intermitentes devido a travamentos de conexões em banco de dados ou falhas de comunicação em malhas de rede.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.2 Os Quatro Sinais Dourados do Google SRE (Four Golden Signals)* deste guia, mede a fração utilizada de um recurso computacional finito e restrito (ex.: percentual de ocupação da memória RAM física, esgotamento do pool de threads do Tomcat, taxa de utilização de discos SSD ou filas de espera em conexões com bancos relacionais). À medida que a saturação se aproxima de 100%, o sistema degrada subitamente seu desempenho. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TJ-RJ/2021) ao estabelecer que "II e III".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, III e IV". De acordo com a teoria estudada em *1.2 Os Quatro Sinais Dourados do Google SRE (Four Golden Signals)*, frequentemente, uma falha de autenticação ou erro de rota retorna imediatamente em 3 ms com código HTTP 500; agregar essa resposta rápida à média geral mascararia a lentidão real das requisições legítimas que estão demorando 4 segundos para carregar dados.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II, III e IV". De acordo com a teoria estudada em *2.1 Métricas (Metrics) e Tipos Primários no Prometheus (Counter, Gauge, Histogram, Summary)*, usado para representar o estado momentâneo de um recurso variável: quantidade de memória RAM livre em bytes, temperatura da CPU, número de conexões ativas no pool do banco de dados ou contagem de réplicas de Pods rodando.
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
 
 ### Teste 225
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No contexto de arquiteturas de sistemas distribuídos e práticas modernas de confiabilidade de software (SRE - *Site Reliability Engineering*), assinale a afirmativa correta a respeito dos Quatro Sinais Dourados (*Four Golden Signals*):  
+**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Seguranca da Informacao – 2023)**
+A Internet é uma rede de computadores que interconecta centenas de milhões de dispositivos de computação ao redor do mundo. Cada vez mais sistemas finais modernos da Internet, como TVs, laptops, consoles para jogos, telefones celulares, webcams, automóveis, dispositivos de sensoriamento ambiental, quadros de imagens, e sistemas internos elétricos e de segurança, estão sendo conectados à rede. Assim, a estratégia de atribuição de endereços da Internet é conhecida como roteamento interdomínio sem classes (Classless Inter-Domain Routing — CIDR). Nesse contexto, a máscara de rede/sub-rede de uma rede IPv4 CIDR /29 é:
 
-* **A)** Os Quatro Sinais Dourados definidos pelo Google SRE são: Criptografia, Autenticação, Não Repúdio e Integridade.
-* **B)** A Saturação mede quão próximo da sua capacidade operacional máxima um recurso do sistema está operando, como o esgotamento do pool de threads ou da memória física disponível.
-* **C)** A Latência deve ser calculada unicamente agregando todas as requisições em uma média simples, sendo irrelevante diferenciar o tempo de resposta das requisições bem-sucedidas do tempo de resposta das requisições que falharam com erro 500.
-* **D)** O sinal de Tráfego avalia o custo financeiro da conta de energia elétrica dos servidores instalados no datacenter.
-* **E)** A observabilidade é uma técnica aplicável estritamente a softwares legados monolíticos, sendo desnecessária em microsserviços conteinerizados em Kubernetes.
-
+* **A)** 255.255.240.0
+* **B)** 255.255.255.240
+* **C)** 255.255.255.192
+* **D)** 255.255.255.224
+* **E)** 255.255.255.248
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Criptografia, autenticação, integridade e não repúdio são atributos de Segurança da Informação. Os Quatro Sinais Dourados do SRE são **Latência, Tráfego, Erros e Saturação**.
-> - **B)** Correta. A **Saturação (*Saturation*)** expressa quão "ocupado" ou sobrecarregado está o sistema, aferindo a fração utilizada de um recurso computacional finito (memória RAM, quotas de CPU, limites de conexões de banco de dados, buffers de rede). Ao atingir 100%, ocorre degradação aguda de performance.
-> - **C)** Incorreta. O modelo SRE enfatiza que é imperativo **diferenciar a latência das requisições com sucesso da latência de requisições com erro**, pois requisições abortadas com erro podem retornar rapidamente e mascarar a lentidão das requisições legítimas.
-> - **D)** Incorreta. Tráfego afere a demanda imposta ao sistema pelos usuários ou clientes (ex.: requisições por segundo, sessões ativas).
-> - **E)** Incorreta. A observabilidade é indispensável prioritariamente em sistemas distribuídos complexos e efêmeros.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "255.255.240.0". De acordo com a teoria estudada em *1.1 Transição de Sintomas para Estados Internos*, definição Matemática e Canônica: Originária da Teoria do Controle Linear formalizada por Rudolf E. Kálmán (1960) e consolidada na computação por Charity Majors.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "255.255.255.240". De acordo com a teoria estudada em *1.1 Transição de Sintomas para Estados Internos*, viabiliza a investigação aberta e multidimensional de problemas inéditos e imprevistos decorrentes do comportamento caótico de sistemas distribuídos (*unknown unknowns*).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "255.255.255.192". De acordo com a teoria estudada em *1.2 Os Quatro Sinais Dourados do Google SRE (Four Golden Signals)*, frequentemente, uma falha de autenticação ou erro de rota retorna imediatamente em 3 ms com código HTTP 500; agregar essa resposta rápida à média geral mascararia a lentidão real das requisições legítimas que estão demorando 4 segundos para carregar dados.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "255.255.255.224". De acordo com a teoria estudada em *1.2 Os Quatro Sinais Dourados do Google SRE (Four Golden Signals)*, as alternativas incorretas costumam substituir "Saturação" por "Segurança", "Simplicidade" ou "Sincronização" para induzir o candidato ao erro.
+> - **E)** **Correta.** Conforme fundamentado na seção *1. Monitoramento Tradicional vs. Observabilidade Moderna* deste guia, o sistema pode estar com todos os servidores operando em 30% de CPU e, ainda assim, milhares de cidadãos enfrentarem erros HTTP 500 intermitentes devido a travamentos de conexões em banco de dados ou falhas de comunicação em malhas de rede. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "255.255.255.248".
+>
+> **Gabarito: E**
 
 ---
 
 ### Teste 226
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No diagnóstico de desempenho de sistemas computacionais, duas metodologias de telemetria consagradas são o método **USE** (proposto por Brendan Gregg) e o método **RED** (proposto por Tom Wilkie). A correta caracterização dessas metodologias estabelece que:
+**(FCC – TRT-9 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2015)**
+A Qualidade de Serviço (QoS) de uma rede é determinada de acordo com alguns parâmetros definidos no estabelecimento específico da qualidade. Dentre os parâmetros, normalmente, é considerado a latência da rede que representa
 
-* **A)** O método USE aplica-se a requisições de microsserviços e o método RED foca em memórias ROM analógicas.
-* **B)** O método USE orienta-se a recursos físicos de infraestrutura e hardware, analisando a **Utilização** (% de tempo ocupado), a **Saturação** (filas de espera de trabalho reprimido) e os **Erros** de cada recurso; o método RED orienta-se a serviços e requisições de software, medindo a Taxa de Requisições (**Rate**), a Taxa de Falhas (**Errors**) e a Duração (**Duration** / tempo de resposta).
-* **C)** O método RED mede exclusivamente o consumo de energia elétrica em watts dos servidores.
-* **D)** Ambas as metodologias recomendam que a saturação dos discos seja mantida permanentemente em 100%.
-* **E)** O método USE proíbe o registro de erros em sistemas de arquivos.
-
+* **A)** o tempo médio entre ciclos de falhas na rede.
+* **B)** a taxa média de envio de pacotes em forma de rajadas.
+* **C)** o tempo de atraso total na entrega dos dados transmitidos.
+* **D)** a faixa de variação do tempo de espera na fila de transmissão.
+* **E)** o índice de colisões por quantidade de dados transmitidos.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** A relação de foco está invertida.
-> - **B) Correta.** É a divisão clássica da engenharia de observabilidade:
->   - **USE Method (Brendan Gregg):** foca em **recursos** (CPU, memória, disco, interfaces de rede): *Utilization, Saturation, Errors*;
->   - **RED Method (Tom Wilkie):** foca em **serviços e transações** (APIs e microsserviços): *Rate* (requisições por segundo), *Errors* (falhas por segundo) e *Duration* (latência/tempo gasto).
-> - **C) Incorreta.** RED mede tráfego, erros e duração de requisições de software.
-> - **D) Incorreta.** Saturação alta indica gargalo severo e filas reprimidas.
-> - **E) Incorreta.** Erros são o terceiro elemento obrigatório do método USE.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o tempo médio entre ciclos de falhas na rede". De acordo com a teoria estudada em *1. Monitoramento Tradicional vs. Observabilidade Moderna*, o sistema pode estar com todos os servidores operando em 30% de CPU e, ainda assim, milhares de cidadãos enfrentarem erros HTTP 500 intermitentes devido a travamentos de conexões em banco de dados ou falhas de comunicação em malhas de rede.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a taxa média de envio de pacotes em forma de rajadas". De acordo com a teoria estudada em *1.2 Os Quatro Sinais Dourados do Google SRE (Four Golden Signals)*, frequentemente, uma falha de autenticação ou erro de rota retorna imediatamente em 3 ms com código HTTP 500; agregar essa resposta rápida à média geral mascararia a lentidão real das requisições legítimas que estão demorando 4 segundos para carregar dados.
+> - **C)** **Correta.** Conforme fundamentado na seção *2.1 Métricas (Metrics) e Tipos Primários no Prometheus (Counter, Gauge, Histogram, Summary)* deste guia, usado para contar o número total de requisições atendidas, o total de erros registrados ou bytes transmitidos. No PromQL, utiliza-se a função `rate(http_requests_total[5m])` para derivar a taxa de requisições por segundo. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-9/2015) ao estabelecer que "o tempo de atraso total na entrega dos dados transmitidos".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a faixa de variação do tempo de espera na fila de transmissão". De acordo com a teoria estudada em *2.1 Métricas (Metrics) e Tipos Primários no Prometheus (Counter, Gauge, Histogram, Summary)*, as métricas são valores numéricos atômicos agregados ao longo do tempo (*Time Series*), enriquecidos com pares chave-valor denominados rótulos (*labels*). Exemplo no Prometheus: `http_requests_total{method="POST", handler="/pagamento", status="500"}`.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o índice de colisões por quantidade de dados transmitidos". De acordo com a teoria estudada em *1.2 Os Quatro Sinais Dourados do Google SRE (Four Golden Signals)*, em serviços web e APIs REST, afere-se tipicamente pelo número de requisições HTTP por segundo (RPS); em serviços de banco de dados, pelo volume de transações por segundo (TPS); em redes de streaming, pela quantidade de conexões ativas ou vazão de dados em megabits por segundo.
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
 
@@ -295,87 +290,74 @@ flowchart TD
 ---
 
 ### Teste 227
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A respeito dos três pilares fundamentais da observabilidade (Métricas, Logs e Rastreamento Distribuído/Traces), considere as seguintes afirmativas:
+**(CEBRASPE – TRT-8 – Analista Judiciario Area Apoio Especializado Tecnologia da Informacao – 2022)**
+Mecanismos de pesquisa e de visualização de dados de aplicações web são fornecidos, respectivamente, pelas ferramentas
 
-I. As métricas são representadas por dados numéricos agregados organizados ao longo do tempo (séries temporais), sendo computacionalmente eficientes e ideais para a geração de alertas instantâneos sobre a saúde do sistema.  
-
-II. Os logs registram eventos discretos com carimbo de tempo (*timestamp*); quando estruturados em formatos padronizados (como JSON), facilitam a indexação, agregação e correlação com identificadores de rastreamento (*trace_id*).  
-
-III. O tipo de métrica do Prometheus denominado *Counter* representa um valor numérico instantâneo que pode variar livremente para cima ou para baixo, sendo indicado para registrar a quantidade atual de memória RAM em uso em um servidor.  
-
-Está correto o que se afirma em:  
-
-* **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** II e III, apenas.
-* **D)** I e III, apenas.
-* **E)** I, II e III.
-
+* **A)** Elasticsearch e Zabbix.
+* **B)** Elasticsearch e Prometheus.
+* **C)** Kibana e Prometheus.
+* **D)** Prometheus e Zabbix.
+* **E)** Elasticsearch e Kibana.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O item II também está correto.
-> - **B)** Correta. Os itens I e II estão tecnicamente perfeitos: métricas são séries temporais numéricas de baixo overhead ideais para dashboards e alertas em tempo real; logs registram eventos discretos com contexto profundo que, quando estruturados em JSON, viabilizam buscas e correlação cruzada com traces.
-> - **C)** Incorreta. O item III está errado e o item I está correto.
-> - **D)** Incorreta. O item III é falso.
-> - **E)** Incorreta. O item III é falso porque o **Counter** é cumulativo monotônico (apenas sobe). A métrica do Prometheus que varia livremente para cima e para baixo (como o uso momentâneo de memória RAM ou temperatura) é o **Gauge** (Medidor).
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Elasticsearch e Zabbix". De acordo com a teoria estudada em *2.2 Logs Estruturados (Structured Logging) e Pilhas de Agregação (ELK, EFK, Loki)*, stack EFK (Elasticsearch, Fluentd/Fluent Bit, Kibana): Substitui o Logstash pelo Fluent Bit (leitor de logs levíssimo em C instalado como `DaemonSet` em cada nó do Kubernetes) para enviar os logs dos contêineres para o Elasticsearch.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Elasticsearch e Prometheus". De acordo com a teoria estudada em *3.1 Arquitetura Unificada: OTel API, OTel SDK e OTel Collector*, exporters: Traduzem e despacham a telemetria processada para os destinos de persistência configurados (Prometheus para métricas, Jaeger para traces, Elasticsearch para logs).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Kibana e Prometheus". De acordo com a teoria estudada em *2.1 Métricas (Metrics) e Tipos Primários no Prometheus (Counter, Gauge, Histogram, Summary)*, o modelo de dados do Prometheus (padrão ouro para Kubernetes) estabelece quatro tipos canônicos de métricas.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Prometheus e Zabbix". De acordo com a teoria estudada em *2.1 Métricas (Metrics) e Tipos Primários no Prometheus (Counter, Gauge, Histogram, Summary)*, usado para representar o estado momentâneo de um recurso variável: quantidade de memória RAM livre em bytes, temperatura da CPU, número de conexões ativas no pool do banco de dados ou contagem de réplicas de Pods rodando.
+> - **E)** **Correta.** Conforme fundamentado na seção *2.2 Logs Estruturados (Structured Logging) e Pilhas de Agregação (ELK, EFK, Loki)* deste guia, stack ELK (Elasticsearch, Logstash, Kibana): O Logstash coleta e processa os logs; o Elasticsearch atua como mecanismo de busca e indexação distribuída em texto integral; o Kibana provê os dashboards visuais de consulta. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT-8/2022) ao estabelecer que "Elasticsearch e Kibana".
+>
+> **Gabarito: E**
 
 ---
 
 ### Teste 228
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Em arquiteturas de microsserviços de grande escala, a substituição de logs em texto livre não estruturado por Logs Estruturados (*Structured Logging*, tipicamente formatados em JSON) é uma exigência essencial de observabilidade. A principal vantagem dos logs estruturados consiste em:
+**(FUMARC – TRT-3 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2022)**
+Analise as afirmativas a seguir sobre tecnologias utilizadas para monitoramento de ambientes tecnológicos. I – Prometheus é um banco de dados de série temporal dimensional que extrai métricas de instâncias de aplicativos periodicamente com base na descoberta de serviço. II – Kibana é uma ferramenta de visualização e exploração de dados usada para log e análise de séries temporais, monitoramento de aplicações e casos de uso de inteligência operacional. III – Elasticsearch é um coletor de dados de código aberto que unifica coleções de dados para uma melhor compreensão dos dados e foi escrito na linguagem de programação Ruby. Está CORRETO o que se afirma em:
 
-* **A)** Impedir que o arquivo de log seja aberto por editores de texto no sistema hospedeiro.
-* **B)** Permitir a indexação eficiente de pares chave-valor (como `timestamp`, `level`, `user_id`, `trace_id` e `http_status`), viabilizando consultas analíticas rápidas, correlações precisas e agregações estatísticas por ferramentas de ingestão centralizada (como Elasticsearch, OpenSearch e Grafana Loki).
-* **C)** Forçar que todos os logs sejam gravados exclusivamente em caixas de som de alta potência.
-* **D)** Aumentar a quantidade de erros da aplicação para gerar mais alertas à gerência.
-* **E)** Excluir automaticamente os rastros de auditoria fiscal a cada transação bancária.
-
+* **A)** I, II e III.
+* **B)** I, apenas.
+* **C)** I e II, apenas.
+* **D)** I e III, apenas.
+* **E)** II e III, apenas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Arquivos JSON continuam sendo texto legível por humanos.
-> - **B) Correta.** Logs estruturados padronizam as mensagens em JSON (`{"level": "ERROR", "trace_id": "abc-123", "duration_ms": 42}`). Isso transforma dados textuais caóticos em registros parseáveis e consultáveis instantaneamente por motores de busca e agregação, possibilitando correlações cruzadas e métricas em tempo real.
-> - **C) Incorreta.** Afirmação absurda.
-> - **D) Incorreta.** Não há geração forçada de erros.
-> - **E) Incorreta.** Registros de auditoria devem ser preservados com integridade.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *2.1 Métricas (Metrics) e Tipos Primários no Prometheus (Counter, Gauge, Histogram, Summary)*, não permite agregação matemática de percentis entre múltiplas instâncias no servidor.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *2.1 Métricas (Metrics) e Tipos Primários no Prometheus (Counter, Gauge, Histogram, Summary)*, as métricas são valores numéricos atômicos agregados ao longo do tempo (*Time Series*), enriquecidos com pares chave-valor denominados rótulos (*labels*). Exemplo no Prometheus: `http_requests_total{method="POST", handler="/pagamento", status="500"}`.
+> - **C)** **Correta.** Conforme fundamentado na seção *2.1 Métricas (Metrics) e Tipos Primários no Prometheus (Counter, Gauge, Histogram, Summary)* deste guia, usado para representar o estado momentâneo de um recurso variável: quantidade de memória RAM livre em bytes, temperatura da CPU, número de conexões ativas no pool do banco de dados ou contagem de réplicas de Pods rodando. Dessa forma, está plenamente correta a assertiva da banca (FUMARC – TRT-3/2022) ao estabelecer que "I e II, apenas".
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *2.4 Tabela Comparativa de Propósitos e Custos dos Três Pilares*, métricas: "Quando e onde algo está quebrado?" — Numérica, agregada e contínua (*Time Series*). — Muito Baixo (ótima relação custo/benefício para retenção longa). — Prometheus, Datadog, InfluxDB, Grafana.
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *1. Monitoramento Tradicional vs. Observabilidade Moderna*, o sistema pode estar com todos os servidores operando em 30% de CPU e, ainda assim, milhares de cidadãos enfrentarem erros HTTP 500 intermitentes devido a travamentos de conexões em banco de dados ou falhas de comunicação em malhas de rede.
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
 
 ### Teste 229
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Uma requisição de pagamento enviada ao portal da Secretaria de Fazenda percorre sequencialmente o serviço de borda (*Edge Gateway*), o microsserviço de validação cadastral e o serviço de liquidação bancária. Para depurar atrasos na resposta, a equipe de TI implementou rastreamento distribuído (*Distributed Tracing*) utilizando o padrão OpenTelemetry.
+**(FGV – TRT-16 – Analista Judiciario Area Administrativa Tecnologia da Informacao – 2022)**
+A ferramenta de desenvolvimento e depuração, utilizada no Kibana 7.0, que permite que um analista faça parser de dados não estruturados presentes em diferentes tipos de arquivos de logs de servidores web ou de banco de dados se denomina
 
-A esse respeito, assinale a opção correta:  
-
-* **A)** O *Trace* representa a unidade individual de execução dentro de um único método local de um microsserviço, enquanto o *Span* representa o conjunto de todas as transações financeiras ocorridas no mês.
-* **B)** Cada operação lógica realizada em um microsserviço no caminho da requisição é representada por um *Span*, o qual possui horário de início, duração, atributos contextuais, um identificador único (*Span ID*) e, opcionalmente, um identificador de pai (*Parent Span ID*), permitindo reconstruir a árvore hierárquica completa da transação associada a um *Trace ID* global.
-* **C)** A propagação de contexto entre microsserviços via protocolo HTTP dispensa qualquer cabeçalho de rede, pois o OpenTelemetry altera dinamicamente o endereço MAC das placas de rede físicas para transmitir o identificador do trace. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **D)** No coletor do OpenTelemetry (*OTel Collector*), a etapa denominada *Receiver* é responsável por despachar os dados consolidados para bancos de dados de armazenamento permanente como Prometheus ou Jaeger.
-* **E)** O padrão OpenTelemetry proíbe a exportação de dados para soluções abertas, exigindo contratação exclusiva de provedores de nuvem proprietários.
-
+* **A)** logprofiler.
+* **B)** logstach.
+* **C)** timelion.
+* **D)** beats.
+* **E)** grok.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Houve inversão terminológica: o **Trace** representa a árvore causal completa da transação de ponta a ponta, enquanto o **Span** representa a unidade individual de execução dentro de um componente específico.
-> - **B)** Correta. Definição precisa do padrão OTel: cada operação delimitada forma um **Span** (com Span ID, timestamps, atributos e Parent Span ID), os quais juntos constituem a árvore hierárquica do **Trace** (com seu Trace ID único de ponta a ponta).
-> - **C)** Incorreta. A propagação de contexto baseia-se em cabeçalhos HTTP padronizados da especificação W3C Trace Context (`traceparent`), não modificando endereços de hardware.
-> - **D)** Incorreta. No *OTel Collector*, o **Receiver** recebe os dados na entrada; quem despacha e exporta a telemetria processada para os backends de armazenamento é o **Exporter**.
-> - **E)** Incorreta. O OpenTelemetry é um padrão aberto sob a tutela da CNCF concebido exatamente para ser agnóstico de fornecedor (*vendor-neutral*).
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "logprofiler". De acordo com a teoria estudada em *2.2 Logs Estruturados (Structured Logging) e Pilhas de Agregação (ELK, EFK, Loki)*, stack EFK (Elasticsearch, Fluentd/Fluent Bit, Kibana): Substitui o Logstash pelo Fluent Bit (leitor de logs levíssimo em C instalado como `DaemonSet` em cada nó do Kubernetes) para enviar os logs dos contêineres para o Elasticsearch.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "logstach". De acordo com a teoria estudada em *1. Monitoramento Tradicional vs. Observabilidade Moderna*, o sistema pode estar com todos os servidores operando em 30% de CPU e, ainda assim, milhares de cidadãos enfrentarem erros HTTP 500 intermitentes devido a travamentos de conexões em banco de dados ou falhas de comunicação em malhas de rede.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "timelion". De acordo com a teoria estudada em *1.2 Os Quatro Sinais Dourados do Google SRE (Four Golden Signals)*, em serviços web e APIs REST, afere-se tipicamente pelo número de requisições HTTP por segundo (RPS); em serviços de banco de dados, pelo volume de transações por segundo (TPS); em redes de streaming, pela quantidade de conexões ativas ou vazão de dados em megabits por segundo.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "beats". De acordo com a teoria estudada em *2.1 Métricas (Metrics) e Tipos Primários no Prometheus (Counter, Gauge, Histogram, Summary)*, usado para representar o estado momentâneo de um recurso variável: quantidade de memória RAM livre em bytes, temperatura da CPU, número de conexões ativas no pool do banco de dados ou contagem de réplicas de Pods rodando.
+> - **E)** **Correta.** Conforme fundamentado na seção *2.2 Logs Estruturados (Structured Logging) e Pilhas de Agregação (ELK, EFK, Loki)* deste guia, stack ELK (Elasticsearch, Logstash, Kibana): O Logstash coleta e processa os logs; o Elasticsearch atua como mecanismo de busca e indexação distribuída em texto integral; o Kibana provê os dashboards visuais de consulta. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-16/2022) ao estabelecer que "grok".
+>
+> **Gabarito: E**
 
 ---
 
@@ -421,27 +403,26 @@ Para que o `Trace ID` seja preservado quando uma chamada cruza a fronteira de um
 ---
 
 ### Teste 230
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O OpenTelemetry (OTel), projeto incubado pela Cloud Native Computing Foundation (CNCF), consolidou-se como o padrão aberto da indústria para instrumentação e coleta de telemetria unificada (métricas, logs e traces). A arquitetura do OpenTelemetry estabelece uma separação clara entre:
+**(FGV – TRT-13 – Analista Judiciario Tecnologia da Informacao – 2022)**
+Sobre a ferramenta de monitoramento Prometheus, analise as afirmativas a seguir. I. Armazena fundamentalmente todos os dados como séries temporais. II. Possui uma linguagem para consulta das métricas armazenadas denominada PromQL. III. Coleta métricas através do protocolo HTTP. Está correto o que se afirma em
 
-* **A)** A API do OpenTelemetry (que fornece as interfaces e contratos de instrumentação agnósticos no código da aplicação, sem dependência de implementações concretas) e o SDK do OpenTelemetry (que implementa a API, gerenciando amostragem, buffers de memória e exportação de dados para coletores ou backends analíticos).
-* **B)** O monitor de vídeo LCD e a memória cache do processador.
-* **C)** O protocolo HTTP e os cabos de energia elétrica de corrente contínua.
-* **D)** O sistema de arquivos Windows FAT32 e os discos de estado sólido NVMe.
-* **E)** As linguagens de programação funcionais e os bancos de dados não relacionais NoSQL.
-
+* **A)** I, apenas.
+* **B)** II, apenas.
+* **C)** III, apenas.
+* **D)** I e II, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Correta.** A separação formal entre **OpenTelemetry API** e **OpenTelemetry SDK** é uma das maiores elegâncias arquiteturais do projeto: as bibliotecas e frameworks de terceiros só precisam depender da API (contrato abstrato estável), sem amarrar a aplicação a nenhum fornecedor. A aplicação final acopla o SDK para configurar para onde e como os dados serão exportados.
-> - **B) Incorreta.** Componentes de hardware.
-> - **C) Incorreta.** Protocolos de rede vs eletricidade.
-> - **D) Incorreta.** Sistemas de arquivos e storage.
-> - **E) Incorreta.** Paradigmas conceituais genéricos.
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *2.1 Métricas (Metrics) e Tipos Primários no Prometheus (Counter, Gauge, Histogram, Summary)*, usado para contar o número total de requisições atendidas, o total de erros registrados ou bytes transmitidos. No PromQL, utiliza-se a função `rate(http_requests_total[5m])` para derivar a taxa de requisições por segundo.
+> - **B)** **Correta.** Conforme fundamentado na seção *3.1 Arquitetura Unificada: OTel API, OTel SDK e OTel Collector* deste guia, oTel SDK: A implementação concreta da API. Gerencia filas de memória, suporte a amostragem (*sampling*), empacotamento em lotes e conversão dos dados de telemetria no protocolo nativo OTLP (*OpenTelemetry Protocol*) via gRPC ou HTTP. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-13/2022) ao estabelecer que "II, apenas".
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III, apenas". De acordo com a teoria estudada em *2.1 Métricas (Metrics) e Tipos Primários no Prometheus (Counter, Gauge, Histogram, Summary)*, as métricas são valores numéricos atômicos agregados ao longo do tempo (*Time Series*), enriquecidos com pares chave-valor denominados rótulos (*labels*). Exemplo no Prometheus: `http_requests_total{method="POST", handler="/pagamento", status="500"}`.
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *2.2 Logs Estruturados (Structured Logging) e Pilhas de Agregação (ELK, EFK, Loki)*, stack ELK (Elasticsearch, Logstash, Kibana): O Logstash coleta e processa os logs; o Elasticsearch atua como mecanismo de busca e indexação distribuída em texto integral; o Kibana provê os dashboards visuais de consulta.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *1. Monitoramento Tradicional vs. Observabilidade Moderna*, o sistema pode estar com todos os servidores operando em 30% de CPU e, ainda assim, milhares de cidadãos enfrentarem erros HTTP 500 intermitentes devido a travamentos de conexões em banco de dados ou falhas de comunicação em malhas de rede.
 >
-> **Gabarito: A**
+> **Gabarito: B**
 
 ---
 
@@ -505,52 +486,48 @@ O conceito mais transformador do SRE é o **Orçamento de Erro (*Error Budget*)*
 ---
 
 ### Teste 231
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em uma reunião de alinhamento entre a equipe de operações e os gestores de negócios de um Tribunal de Contas Estadual, foram discutidas as metas de confiabilidade e disponibilidade para o novo Portal de Prestação de Contas dos Jurisdicionados.
+**(FGV – TRT-13 – Analista Judiciario Tecnologia da Informacao – 2022)**
+A plataforma Elasticsearch integra diversos produtos compondo a Elastic Stack, cada um desses produtos possui funcionalidades bem definidas. O produto nativo da Stack que permite a visualização de dados é
 
-Com base nas práticas consagradas de SRE (*Site Reliability Engineering*), a relação conceitual e hierárquica entre SLI, SLO e SLA define que:  
-
-* **A)** O SLA deve ser rigorosamente mais estrito e exigente do que o SLO interno, para assegurar que penalidades financeiras sejam aplicadas antes que a equipe técnica perceba qualquer degradação do serviço.
-* **B)** O SLI (*Service Level Indicator*) é o indicador medido empiricamente em tempo real; o SLO (*Service Level Objective*) é a meta interna acordada pela engenharia; e o SLA (*Service Level Agreement*) é o acordo legal ou comercial com os usuários externos, contendo penalidades em caso de descumprimento.
-* **C)** O Orçamento de Erro (*Error Budget*) é uma verba financeira destinada à aquisição de equipamentos de hardware adicionais sempre que o sistema ultrapassa o SLA contratual.
-* **D)** Se uma equipe consome 100% do seu Orçamento de Erro (*Error Budget*), as diretrizes do SRE recomendam acelerar imediatamente a entrega de novos recursos e funcionalidades não testadas em produção.
-* **E)** O SLO é estritamente documental e não se relaciona com os valores obtidos pelo SLI.
-
+* **A)** dashviewer.
+* **B)** inforgram.
+* **C)** tableau.
+* **D)** kibana.
+* **E)** x-pack.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O SLA é sempre **mais tolerante (menos restritivo)** que o SLO interno, fornecendo uma margem de segurança operacional para a engenharia conter incidentes antes de violar obrigações contratuais externas.
-> - **B)** Correta. Formulação impecável do triângulo do SRE: o **SLI** é a métrica observada em produção em tempo real; o **SLO** é a meta interna de qualidade acordada pela engenharia; o **SLA** é o compromisso jurídico/formal vinculante com os usuários externos estipulando compensações ou penalidades.
-> - **C)** Incorreta. O *Error Budget* é uma margem métrica de tolerância a falhas calculada como $100\% - \text{SLO}$, não se tratando de recurso financeiro orçamentário.
-> - **D)** Incorreta. Ao consumir 100% do Error Budget, as diretrizes de SRE impõem o congelamento de novas entregas de funcionalidades, direcionando o esforço técnico exclusivamente para a restauração da estabilidade e resiliência.
-> - **E)** Incorreta. O SLO é a meta numérica de referência direta pela qual o SLI é monitorado e avaliado.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "dashviewer". De acordo com a teoria estudada em *2.2 Logs Estruturados (Structured Logging) e Pilhas de Agregação (ELK, EFK, Loki)*, stack ELK (Elasticsearch, Logstash, Kibana): O Logstash coleta e processa os logs; o Elasticsearch atua como mecanismo de busca e indexação distribuída em texto integral; o Kibana provê os dashboards visuais de consulta.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "inforgram". De acordo com a teoria estudada em *2.2 Logs Estruturados (Structured Logging) e Pilhas de Agregação (ELK, EFK, Loki)*, stack EFK (Elasticsearch, Fluentd/Fluent Bit, Kibana): Substitui o Logstash pelo Fluent Bit (leitor de logs levíssimo em C instalado como `DaemonSet` em cada nó do Kubernetes) para enviar os logs dos contêineres para o Elasticsearch.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "tableau". De acordo com a teoria estudada em *3.1 Arquitetura Unificada: OTel API, OTel SDK e OTel Collector*, oTel SDK: A implementação concreta da API. Gerencia filas de memória, suporte a amostragem (*sampling*), empacotamento em lotes e conversão dos dados de telemetria no protocolo nativo OTLP (*OpenTelemetry Protocol*) via gRPC ou HTTP.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "kibana". De acordo com a teoria estudada em *4.1 Distinção Formal entre SLI, SLO e SLA*, essa diferença matemática cria uma zona de amortecimento (*buffer de segurança*) que permite à equipe técnica detectar falhas, agir e restaurar o serviço antes que o descumprimento atinja o limite do SLA e gere multas financeiras para a organização.
+> - **E)** **Correta.** Conforme fundamentado na seção *4.2 O Orçamento de Erro (Error Budget) como Equilíbrio entre Inovação e Confiabilidade* deste guia, saldo Positivo no Error Budget: A equipe de desenvolvimento possui "crédito de risco" para acelerar deploys, experimentar novas funcionalidades e aceitar pequenos incidentes controlados. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-13/2022) ao estabelecer que "x-pack".
+>
+> **Gabarito: E**
 
 ---
 
 ### Teste 232
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Na Engenharia de Confiabilidade de Sites (*Site Reliability Engineering* - SRE), o conceito de Orçamento de Erro (*Error Budget*) é a métrica reguladora fundamental que equilibra o ritmo de inovação das equipes de produto com a estabilidade do sistema. Matematicamente e operacionalmente, o Orçamento de Erro é definido como:
+**(FGV – TJ-DFT – Analista Judiciario Suporte Em Tecnologia da Informacao – 2022)**
+A equipe de virtualização de um órgão público administra um cluster VMware composto por 6 hosts esx. Nesse cluster há um sistema de missão crítica que requer alto índice de disponibilidade. Para assegurar a disponibilidade desse sistema, a equipe de virtualização criou 2 máquinas virtuais idênticas e configurou-as para estarem sempre hospedadas em hosts esx diferentes. O recurso que assegura a configuração aplicada nas máquinas virtuais é o:
 
-* **A)** A quantia financeira em dólares destinada a pagar multas judiciais decorrentes de vazamento de senhas.
-* **B)** A fração de indisponibilidade ou falhas toleradas pelo objetivo acordado de nível de serviço, calculada formalmente como $100\% - SLO$; enquanto houver saldo positivo no Orçamento de Erro, a equipe pode realizar novos lançamentos arriscados em produção, mas caso o saldo seja consumido antes do fim da janela temporal, novos lançamentos são congelados e o esforço técnico é redirecionado para confiabilidade e correções.
-* **C)** A quantidade máxima de linhas de código com defeito que um desenvolvedor pode comitar por hora de trabalho.
-* **D)** A taxa de juros bancários cobrada por transações financeiras com cartão de crédito corporativo.
-* **E)** O número total de computadores queimados em um ano de operação do data center.
-
+* **A)** vCenter high availability;
+* **B)** fault tolerance;
+* **C)** cluster DRS;
+* **D)** distributed power management;
+* **E)** vMotion.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** O Error Budget é uma métrica de engenharia de confiabilidade temporal, não um fundo financeiro de multas.
-> - **B) Correta.** É a célebre definição do Google SRE: se o SLO (*Service Level Objective*) é de $99,9\%$, o **Error Budget** é de $0,1\%$ de falhas toleradas no período. Esse orçamento transforma a discussão política entre Produto (que quer velocidade) e Operações (que quer estabilidade) em uma regra matemática compartilhada: se há orçamento sobrando, libera-se a inovação; se o orçamento estourou, congelam-se novos deploys para focar em estabilização.
-> - **C) Incorreta.** Métrica sem fundamento técnico.
-> - **D) Incorreta.** Conceito financeiro bancário.
-> - **E) Incorreta.** Perda de hardware físico.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "vCenter high availability". De acordo com a teoria estudada em *4.2 O Orçamento de Erro (Error Budget) como Equilíbrio entre Inovação e Confiabilidade*, a equipe de engenharia inteira é mobilizada para trabalhar em confiabilidade: refatoração de código frágil, automação de testes, melhorias de observabilidade e fortalecimento de pipelines, até que o sistema recupere sua margem de estabilidade.
+> - **B)** **Correta.** Conforme fundamentado na seção *4.2 O Orçamento de Erro (Error Budget) como Equilíbrio entre Inovação e Confiabilidade* deste guia, parte do princípio de que 100% de disponibilidade é um objetivo equivocado e economicamente inviável. Exigir 100% paralisa a capacidade da equipe de inovar e lançar novas funcionalidades, pois qualquer deploy carrega risco residual. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-DFT/2022) ao estabelecer que "fault tolerance".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "cluster DRS". De acordo com a teoria estudada em *1.2 Os Quatro Sinais Dourados do Google SRE (Four Golden Signals)*, mede a fração utilizada de um recurso computacional finito e restrito (ex.: percentual de ocupação da memória RAM física, esgotamento do pool de threads do Tomcat, taxa de utilização de discos SSD ou filas de espera em conexões com bancos relacionais). À medida que a saturação se aproxima de 100%, o sistema degrada subitamente seu desempenho.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "distributed power management". De acordo com a teoria estudada em *2.3 Rastreamento Distribuído (Distributed Tracing): Traces, Spans e Identificadores Globais*, em arquiteturas de microsserviços, uma única ação do usuário desencadeia uma cascata de dezenas de chamadas assíncronas entre serviços distribuídos.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "vMotion". De acordo com a teoria estudada em *4.1 Distinção Formal entre SLI, SLO e SLA*, o SLA é sempre MAIS TOLERANTE (menos restritivo) que o SLO interno!.
 >
 > **Gabarito: B**
 
@@ -572,27 +549,26 @@ Desenvolvido pelo grupo *DevOps Research and Assessment* (DORA / Google Cloud), 
 ---
 
 ### Teste 233
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-De acordo com as pesquisas consolidadas do DORA (*DevOps Research and Assessment*), as quatro métricas chave utilizadas mundialmente para mensurar a maturidade e a performance das equipes de engenharia de software e entrega contínua são:  
+**(FCC – TRT-14 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2016)**
+Ao escrever testes funcionais, um Analista precisa utilizar um controle de espera para que uma ação seja disparada depois de alguma outra ação. No Selenium WebDriver, um Analista pode optar pela utilização de um controle de espera
 
-* **A)** Custo Total de Propriedade (TCO); Número de Linhas de Código (LOC); Quantidade de Commits por Hora; e Pontos de Função por Mês.
-* **B)** Frequência de Implantação (*Deployment Frequency*); Tempo de Lead para Mudanças (*Lead Time for Changes*); Taxa de Falha em Mudanças (*Change Failure Rate*); e Tempo de Restauração de Serviços (*Time to Restore Service* / MTTR).
-* **C)** Índice de Complexidade Ciclomática; Total de Branches Abertas; Cobertura de Testes Unitários de 100%; e Percentual de Homologações Manuais por Comitês Executivos.
-* **D)** Quantidade de Bugs Reabertos; Consumo de Memória por Usuário Conectado; Largura de Banda Utilizada por Download; e Número de E-mails Trocados no Suporte Técnico.
-* **E)** Frequência de Reuniões Diárias; Total de Histórias de Usuário no Backlog; Quantidade de Telas Desenvolvidas; e Tempo de Execução do Sistema Operacional.
-
+* **A)** implícito, como o Thread.sleep(), que determina um tempo fixo que alguma ação no teste precisa esperar antes de ser executada. Se este tempo for ultrapassado, o teste não falhará.
+* **B)** explícito, como o Thread.sleep(). Se a ação estiver pronta para ser executada antes do tempo fixado, o teste continuará.
+* **C)** explícito, como o WebDriver.manage().timeouts(), que permite esperar por um certo elemento na tela por um tempo de espera mínimo. Se este tempo for ultrapassado, o teste falhará.
+* **D)** implícito, cujo valor padrão é 0. Este tempo deve ser baixo, para evitar que o Selenium fique esperando por um elemento na tela antes de acusar um erro de tempo de espera excedido.
+* **E)** explícito, cujo valor padrão é 10. Seu valor não deve ser baixo para evitar problemas em controle de tempo entre ações no teste.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Linhas de código e commits horários são métricas de vaidade operacional que não mensuram eficácia de entrega contínua.
-> - **B) CORRETA.** As quatro métricas fundamentais comprovadas pelo DORA abrangem: Frequência de Implantação (*Deployment Frequency*), Tempo de Lead para Mudanças (*Lead Time for Changes*), Taxa de Falha em Mudanças (*Change Failure Rate*) e Tempo de Restauração de Serviços (*Time to Restore Service* / MTTR).
-> - **C) Incorreta.** Complexidade ciclomática e cobertura percentual de testes são métricas estáticas de código interno, e não métricas de fluxo de entrega DORA.
-> - **D) Incorreta.** Métricas operacionais periféricas de infraestrutura ou suporte sem enquadramento no framework DORA.
-> - **E) Incorreta.** Rituais ágeis e contagem de itens de backlog não compõem a matriz de mensuração de desempenho do DORA.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "implícito, como o Thread.sleep(), que determina um tempo fixo que alguma ação no teste precisa esperar antes de...". De acordo com a teoria estudada em *1.2 Os Quatro Sinais Dourados do Google SRE (Four Golden Signals)*, mede a fração utilizada de um recurso computacional finito e restrito (ex.: percentual de ocupação da memória RAM física, esgotamento do pool de threads do Tomcat, taxa de utilização de discos SSD ou filas de espera em conexões com bancos relacionais). À medida que a saturação se aproxima de 100%, o sistema degrada subitamente seu desempenho.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "explícito, como o Thread.sleep(). Se a ação estiver pronta para ser executada antes do tempo fixado, o teste...". De acordo com a teoria estudada em *2.1 Métricas (Metrics) e Tipos Primários no Prometheus (Counter, Gauge, Histogram, Summary)*, é uma métrica cumulativa monotônica cujo valor apenas sobe (ou é reiniciado em zero quando a aplicação reinicia).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "explícito, como o WebDriver.manage().timeouts(), que permite esperar por um certo elemento na tela por um tempo de...". De acordo com a teoria estudada em *4.1 Distinção Formal entre SLI, SLO e SLA*, essa diferença matemática cria uma zona de amortecimento (*buffer de segurança*) que permite à equipe técnica detectar falhas, agir e restaurar o serviço antes que o descumprimento atinja o limite do SLA e gere multas financeiras para a organização.
+> - **D)** **Correta.** Conforme fundamentado na seção *2.1 Métricas (Metrics) e Tipos Primários no Prometheus (Counter, Gauge, Histogram, Summary)* deste guia, é um valor numérico instantâneo que pode subir e descer livremente ao longo do tempo. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-14/2016) ao estabelecer que "implícito, cujo valor padrão é 0. Este tempo deve ser baixo, para evitar que o Selenium fique esperando por um...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "explícito, cujo valor padrão é 10. Seu valor não deve ser baixo para evitar problemas em controle de tempo entre...". De acordo com a teoria estudada em *2.1 Métricas (Metrics) e Tipos Primários no Prometheus (Counter, Gauge, Histogram, Summary)*, as métricas são valores numéricos atômicos agregados ao longo do tempo (*Time Series*), enriquecidos com pares chave-valor denominados rótulos (*labels*). Exemplo no Prometheus: `http_requests_total{method="POST", handler="/pagamento", status="500"}`.
+>
+> **Gabarito: D**
 
 ---
 

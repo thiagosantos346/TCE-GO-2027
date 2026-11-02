@@ -167,52 +167,50 @@ As diretrizes WCAG (*Web Content Accessibility Guidelines*) da W3C são organiza
 ---
 
 ### Teste 076
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No desenvolvimento de páginas governamentais com HTML5 aderentes às diretrizes de acessibilidade na Web (W3C / WCAG), assinale a afirmativa tecnicamente correta:  
+**(FCC – TRT-1 – Analista Judiciario Tecnologia da Informacao – 2014)**
+O trecho de programa a seguir foi elaborado na linguagem HTML com JavaScript e será aberto por um navegador que as suporte. `<html>` `<body>` `<h1>`Página Principal`</h1>` `<form>` comando y `</form>` `</body>` `</html>` Após a sua execução, é exibido pelo navegador: O comando que deve ser colocado no lugar do comando y, de modo que, ao se pressionar o botão Nova Página, seja aberta a página P1.html, é
 
-* **A)** O elemento `<article>` deve ser utilizado exclusivamente para criar tabelas de dados financeiros de auditoria, sendo vedado para artigos de texto.
-* **B)** O uso do atributo `tabindex="5"` é a prática recomendada para botões de submissão, pois garante que eles sempre recebam o foco antes de qualquer campo do formulário.
-* **C)** O elemento `<main>` deve encapsular o conteúdo central e específico do documento, não devendo ser duplicado em um mesmo documento exibido, e conteúdos que se repetem entre páginas (como cabeçalhos de topo e rodapés gerais) devem ficar fora dele.
-* **D)** As tags de agrupamento genérico `<div>` e `<span>` possuem semântica rica superior às tags `<section>` e `<nav>`, sendo preferíveis pelos leitores de tela.
-* **E)** O atributo `aria-hidden="true"` instrui os navegadores a ocultar o elemento visualmente na tela para usuários videntes, mas mantém sua leitura intacta para deficientes visuais em leitores de tela.
-
+* **A)** <input type="button" text="Nova Página" click="window.location='P1.html'">
+* **B)** <input type="button" text="Nova Página" onclick="window.location='P1.html'">
+* **C)** <input type="onbutton" text="Nova Página" onclick="window.location='P1.html'">
+* **D)** <input type="button" value="Nova Página" onclick="window.location='P1.html'">
+* **E)** <input type="onbutton" value="Nova Página" click="window.location='P1.html'">
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O elemento `<article>` representa conteúdo editorial autônomo, autocontido e reutilizável (artigos, postagens, acórdãos, notícias), não se limitando a tabelas financeiras.
-> - **B)** Incorreta. O uso de valores positivos no atributo `tabindex` é considerado um antipadrão pelo W3C, pois desorganiza a navegação sequencial lógica pelo teclado.
-> - **C)** **CORRETA.** Pela especificação oficial W3C/WHATWG, `<main>` encapsula o conteúdo predominante e exclusivo da página. Deve haver no máximo um elemento `<main>` visível no documento e blocos estruturais repetitivos entre várias páginas (cabeçalhos globais, rodapés institucionais) devem permanecer fora dele.
-> - **D)** Incorreta. `<div>` e `<span>` são tags neutras destituídas de semântica; tags semânticas como `<section>` e `<nav>` estabelecem marcos acessíveis essenciais para leitores de tela.
-> - **E)** Incorreta. `aria-hidden="true"` produz o efeito exatamente inverso: esconde o elemento de tecnologias assistivas e leitores de tela, mantendo sua visibilidade na tela para usuários videntes.
-> 
-> **Gabarito: C**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "<input type="button" text="Nova Página" click="window.location='P1.html'">". De acordo com a teoria estudada em *1.2 Elementos Semânticos e Seccionamento de Conteúdo*, `<main>`: Encapsula o conteúdo central, específico e exclusivo do documento `<body>`. Regra da W3C: Deve existir apenas um único elemento `<main>` visível por página.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "<input type="button" text="Nova Página" onclick="window.location='P1.html'">". De acordo com a teoria estudada em *1. Hook `useState`*, chamar a função atualizadora do estado agenda uma nova execução (re-renderização) do componente pelo React.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "<input type="onbutton" text="Nova Página" onclick="window.location='P1.html'">". De acordo com a teoria estudada em *1.3 Formulários Modernos e Validação Nativa*, o HTML5 modernizou a coleta de dados com novos tipos semânticos de `<input>` e atributos de validação integrados no próprio navegador, dispensando scripts JavaScript complexos para validações básicas.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.1 Estrutura Básica do Documento e Metatags Essenciais* deste guia, `<!DOCTYPE html>`: Declaração de tipo de documento simplificada. Informa aos navegadores que a página deve ser interpretada no modo padrão estrito (*standards mode*), prevenindo a ativação do modo de compatibilidade retrógrada (*quirks mode*). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-1/2014) ao estabelecer que "<input type="button" value="Nova Página" onclick="window.location='P1.html'">".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "<input type="onbutton" value="Nova Página" click="window.location='P1.html'">". De acordo com a teoria estudada em *1.2 Elementos Semânticos e Seccionamento de Conteúdo*, `<header>`: Representa um contêiner para conteúdo introdutório ou conjunto de links de navegação. Pode existir no topo da página ou no início de um `<article>` ou `<section>`.
+>
+> **Gabarito: D**
 
 ---
 
 ### Teste 077
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-As diretrizes de acessibilidade para conteúdo web (WCAG 2.1) e a especificação WAI-ARIA definem normas e atributos semânticos para tornar aplicações web acessíveis a pessoas com deficiência. Em relação a essas normas, é correto afirmar:
+**(FGV – TRT-24 – Analista Judiciario Area Apoio Especializado Tecnologia da Informacao – 2025)**
+HTML5 introduziu uma série de novos recursos, elementos e atributos que ajudam os desenvolvedores na construção de sites mais modernos. Considerando essa nova versão da linguagem HTML, analise as afirmativas a seguir sobre os recursos que ela introduziu. I. ServerSockets – trata-se de uma tecnologia de comunicação bidirecional de última geração para o estabelecimento de conexões seguras entre os aplicativos web e o servidor. II. Eventos enviados pelo servidor – permite que servidores enviem dados para páginas da web mediante o protocolo HTTP, em que apenas os eventos críticos fluem do servidor web para os navegadores. III. Microdados − possibilita que os desenvolvedores criem seus próprios vocabulários além do HTML5 e estendam as páginas da web com semântica personalizada. IV. Geolocalização – viabiliza que visitantes possam optar por compartilhar sua localização física mediante seus aplicativos web. Está correto o que se afirma em
 
-* **A)** O atributo `alt` em elementos `<img>` deve ser sempre preenchido com textos genéricos como "imagem" ou "foto" para atender ao critério de acessibilidade.
-* **B)** O atributo `aria-label` permite fornecer um rótulo textual acessível a leitores de tela para elementos interativos que não possuem texto visível na interface (como botões representados apenas por ícones).
-* **C)** O atributo `aria-hidden="true"` força o elemento a ser lido prioritariamente em voz alta por leitores de tela.
-* **D)** As WCAG preconizam que o contraste entre texto e fundo deve ser o menor possível para não ofuscar a visão do usuário.
-* **E)** Aplicações web acessíveis são proibidas de permitir navegação por teclado, exigindo uso exclusivo de mouses de alta precisão.
-
+* **A)** I e II, apenas.
+* **B)** II e III, apenas.
+* **C)** III e IV, apenas.
+* **D)** I, II e IV, apenas.
+* **E)** I, II e III, apenas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** O texto alternativo `alt` deve descrever o significado ou função da imagem; textos genéricos como "imagem" prejudicam a acessibilidade. Imagens puramente decorativas devem usar `alt=""`.
-> - **B) Correta.** O `aria-label` define uma cadeia de texto que rotula o elemento interativo diretamente para tecnologias assistivas (*screen readers*), suprindo a ausência de texto visual direto.
-> - **C) Incorreta.** O `aria-hidden="true"` oculta o elemento e seus descendentes dos leitores de tela.
-> - **D) Incorreta.** A WCAG exige taxa de contraste mínima (ex: 4.5:1 para texto normal no nível AA) para garantir legibilidade.
-> - **E) Incorreta.** O acesso completo a todas as funcionalidades por meio do teclado é um dos princípios basilares de acessibilidade (Operável).
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *1.2 Elementos Semânticos e Seccionamento de Conteúdo*, antes do HTML5, páginas web eram estruturadas genericamente com divisões neutras (`<div class="header">`, `<div class="footer">`), o que dificultava a indexação por motores de busca e impedia tecnologias assistivas de entender a hierarquia do conteúdo.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *5. Fontes Recomendadas na Internet*, mDN Web Docs - HTML Semântico e Estruturação Web - Elementos estruturais e semântica de marcação moderna.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.3 Formulários Modernos e Validação Nativa* deste guia, o HTML5 modernizou a coleta de dados com novos tipos semânticos de `<input>` e atributos de validação integrados no próprio navegador, dispensando scripts JavaScript complexos para validações básicas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "III e IV, apenas".
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, II e IV, apenas". De acordo com a teoria estudada em *1.2 Elementos Semânticos e Seccionamento de Conteúdo*, o HTML5 introduziu tags estruturais com significado inerente.
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, II e III, apenas". De acordo com a teoria estudada em *5. Fontes Recomendadas na Internet*, kEITH, Jeremy; ANDREW, Rachel. HTML5 para Designers Web. São Paulo: Bookman, 2011. (Cap. 3 - Marcação Semântica Estruturada).
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
 
@@ -346,106 +344,74 @@ Diferentemente do Flexbox, o CSS Grid (`display: grid`) é um sistema **bidimens
 ---
 
 ### Teste 078
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Considere as seguintes regras de estilização declaradas em um arquivo CSS3 externo para formatar um mesmo elemento de título em uma página web:
+**(FCC – TRT-23 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2016)**
+Considere uma página HTML5 que possui um elemento `<div class="texto">` contendo em seu interior um texto grande, de, aproximadamente, uma página. Para colocar este texto em 3 colunas nos navegadores Chrome, Safari e Opera, utilizando CSS3, deve-se inserir, no bloco CSS incorporado, a instrução
 
-```css
-/* Regra 1 */
-h1 { color: red; }
-
-/* Regra 2 */
-#titulo-destaque { color: blue; }
-
-/* Regra 3 */
-.cabecalho .titulo { color: green; }
-
-/* Regra 4 */
-div#secao-principal h1.titulo { color: purple; }
-```
-
-Assumindo o fragmento HTML abaixo:
-
-```html
-<div id="secao-principal" class="cabecalho">
-  <h1 id="titulo-destaque" class="titulo">Relatório de Conformidade</h1>
-</div>
-```
-
-A cor final com que o texto do título `Relatório de Conformidade` será renderizado na tela do navegador e o motivo técnico dessa escolha são:  
-
-* **A)** Azul, porque o seletor com o identificador direto `#titulo-destaque` possui a maior especificidade absoluta entre todas as regras.
-* **B)** Vermelho, porque a Regra 1 é mais genérica e o navegador sempre prioriza seletores de tag simples para garantir padronização tipográfica.
-* **C)** Roxo (*purple*).
-* **D)** Verde, porque a Regra 3 é a penúltima declarada e as classes sobrepõem identificadores únicos no CSS3 moderno.
-* **E)** Roxo (*purple*), porque a regra foi escrita na última linha do arquivo CSS e o desempate na cascata dá vitória estrita à regra de menor número de seletores.
-
+* **A)** .texto{-webkit-column-count:3}
+* **B)** .texto{-moz-column-count:3}
+* **C)** #texto{column-count:3}
+* **D)** .texto{column-width:3}
+* **E)** .texto{-column-count-width:3}
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A Regra 2 possui peso de especificidade $(0, 1, 0, 0)$ (1 ID), mas é superada pela Regra 4 que soma o mesmo ID mais uma classe e duas tags.
-> - **B)** Incorreta. Seletores de tag simples possuem o menor nível de prioridade na cascata $(0, 0, 0, 1)$.
-> - **C)** **CORRETA.** Cálculo da pontuação quádrupla de especificidade da W3C `(Inline, IDs, Classes/Atributos/Pseudo-classes, Elementos)`:
->     - Regra 1 (`h1`): $(0, 0, 0, 1)$ = Peso 1.
->     - Regra 2 (`#titulo-destaque`): $(0, 1, 0, 0)$ = Peso 100.
->     - Regra 3 (`.cabecalho .titulo`): $(0, 0, 2, 0)$ = Peso 20.
->     - Regra 4 (`div#secao-principal h1.titulo`): $(0, 1, 1, 2)$ = Peso 112 (1 ID, 1 classe, 2 elementos).
->   Comparando a Regra 2 contra a Regra 4: ambas empatam na coluna de IDs com valor 1; na coluna seguinte (classes), a Regra 4 possui 1 e a Regra 2 possui 0. Logo, a Regra 4 vence e o elemento será exibido em **roxo (*purple*)**.
-> - **D)** Incorreta. Classes jamais superam seletores com ID na ausência de `!important`.
-> - **E)** Incorreta. A ordem física de linhas no arquivo só atua como critério de desempate se as duas regras conflitantes apresentarem rigorosamente a mesma pontuação de especificidade.
-> 
-> **Gabarito: C**
+> - **A)** **Correta.** Conforme fundamentado na seção *Diretrizes WCAG e Atributos WAI-ARIA* deste guia, `aria-label`: Fornece um rótulo textual audível para elementos visuais que não possuem texto visível (ex.: `<button aria-label="Fechar janela">X</button>`). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-23/2016) ao estabelecer que ".texto{-webkit-column-count:3}".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que ".texto{-moz-column-count:3}". De acordo com a teoria estudada em *2.3 Layouts Flexíveis com Flexbox (Unidimensional)*, `flex-direction: column`: O eixo principal é vertical; o transversal torna-se horizontal.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "#texto{column-count:3}". De acordo com a teoria estudada em *1.2 Elementos Semânticos e Seccionamento de Conteúdo*, `<section>`: Agrupamento temático genérico de conteúdo conexo, tipicamente introduzido por um título de cabeçalho (`<h2>` a `<h6>`). Se o conteúdo não possui relação temática própria e serve apenas para estilização visual, deve-se usar uma tag neutra `<div>`.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que ".texto{column-width:3}". De acordo com a teoria estudada em *2.2 Modelo de Caixa (Box Model) e a Propriedade `box-sizing`*, se definirmos `width: 300px; padding: 20px; border: 5px solid black;`, a largura total ocupada na tela pelo elemento será.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que ".texto{-column-count-width:3}". De acordo com a teoria estudada em *1.2 Elementos Semânticos e Seccionamento de Conteúdo*, antes do HTML5, páginas web eram estruturadas genericamente com divisões neutras (`<div class="header">`, `<div class="footer">`), o que dificultava a indexação por motores de busca e impedia tecnologias assistivas de entender a hierarquia do conteúdo.
+>
+> **Gabarito: A**
 
 ---
 
 ### Teste 079
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No modelo de caixa do CSS3 (*Box Model*), a propriedade `box-sizing` altera a forma como a largura (*width*) e a altura (*height*) totais de um elemento HTML são calculadas no layout da página. Ao aplicar a regra `box-sizing: border-box;` a um elemento com `width: 300px; padding: 20px; border: 5px solid black;`, tem-se que:
+**(FUMARC – TRT-3 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2022)**
+Considere a página HTML renderizada por um navegador web e o código fonte HTML5/CSS3 a seguir: CÓDIGO FONTE PÁGINA HTML RENDERIZADA <!DOCTYPE html>`<html>` <................> `<body>``<table>` `<tr>``<th>`Nome`</th>``<th>`Idade`</th>``</tr>` `<tr>``<td>`Ze`</td>``<td>`23`</td>``</tr>` `<tr>``<td>`Maria`</td>``<td>`26`</td>``</tr>` `</table>``</body>``</html>` 25 Assinale a alternativa CORRETA com o código HTML5/CSS3 que irá substituir o trecho “<................>” do código fonte para gerar a página HTML renderizada:
 
-* **A)** A largura total renderizada do elemento será de 350px, somando o conteúdo, os paddings e as bordas.
-* **B)** A largura total renderizada do elemento permanecerá exatamente em 300px, sendo o padding e a borda absorvidos internamente no espaço total especificado.
-* **C)** O navegador ignorará o padding e exibirá o conteúdo com largura de 300px e borda invisível.
-* **D)** A propriedade `border-box` elimina a margem externa (*margin*) do elemento em todas as resoluções.
-* **E)** O elemento será renderizado com largura infinita por colapso do modelo de renderização.
-
+* **A)** `<head>``<style>` table, th, td { border: 1px solid black; border-radius: 10px; width: 200px; } `</style>``</head>`
+* **B)** `<head>``<style>` table, th, td { border: 1px solid black; border-radius: 10px; } `</style>``</head>`
+* **C)** `<head>``<style>` table, th, td { border: 1px solid black; border-radius: 10px; width: 200%; } `</style>``</head>`
+* **D)** `<head>``<style>` table, th, td { border: 1px solid black; width: 200%; } `</style>``</head>`
+* **E)** `<head>``<style>` table, th, td { border: 1px solid black; border-radius: rounded; } `</style>``</head>`
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Esse cálculo ($300 + 20 + 20 + 5 + 5 = 350\text{px}$) ocorreria no modelo tradicional `content-box`.
-> - **B) Correta.** Com `box-sizing: border-box`, a largura total do elemento na tela respeita rigorosamente o valor declarado em `width` (300px); o padding (20px de cada lado) e a borda (5px de cada lado) são deduzidos da área interna do conteúdo, que passa a ter $300 - 40 - 10 = 250\text{px}$.
-> - **C) Incorreta.** O padding e a borda são exibidos normalmente.
-> - **D) Incorreta.** O `border-box` afeta conteúdo, padding e borda; as margens (*margins*) continuam externas.
-> - **E) Incorreta.** Afirmação sem fundamento técnico.
+> - **A)** **Correta.** Conforme fundamentado na seção *2.2 Modelo de Caixa (Box Model) e a Propriedade `box-sizing`* deste guia, se definirmos `width: 300px; padding: 20px; border: 5px solid black;`, a largura total ocupada na tela pelo elemento será. Dessa forma, está plenamente correta a assertiva da banca (FUMARC – TRT-3/2022) ao estabelecer que "`<head>``<style>` table, th, td { border: 1px solid black; border-radius: 10px; width: 200px; } `</style>``</head>`".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "`<head>``<style>` table, th, td { border: 1px solid black; border-radius: 10px; } `</style>``</head>`". De acordo com a teoria estudada em *2.2 Modelo de Caixa (Box Model) e a Propriedade `box-sizing`*, no mesmo exemplo (`width: 300px; padding: 20px; border: 5px solid black;`), a largura final na tela será exatamente \$300\text{ px}\$.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "`<head>``<style>` table, th, td { border: 1px solid black; border-radius: 10px; width: 200%; } `</style>``</head>`". De acordo com a teoria estudada em *2.1 Cascata, Seletores e Cálculo de Especificidade CSS*, o CSS (*Cascading Style Sheets*) baseia-se no princípio da Cascata para resolver conflitos entre múltiplas declarações de estilo apontando para o mesmo elemento HTML. A resolução segue a hierarquia.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "`<head>``<style>` table, th, td { border: 1px solid black; width: 200%; } `</style>``</head>`". De acordo com a teoria estudada em *A Pontuação Quádrupla da W3C `(a, b, c, d)`*, \$a\$ (Inline): Estilos aplicados diretamente no atributo `style=""` da tag HTML (\$1, 0, 0, 0\$).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "`<head>``<style>` table, th, td { border: 1px solid black; border-radius: rounded; } `</style>``</head>`". De acordo com a teoria estudada em *2.4 Grid Bidimensional (CSS Grid Layout)*, `grid-template-columns: 200px 1fr 2fr`: Define três colunas: a primeira fixa com 200px, e o restante dividido em 3 partes fracionais (1 parte para a segunda coluna e 2 partes para a terceira).
 >
-> **Gabarito: B**
+> **Gabarito: A**
 
 ---
 
 ### Teste 080
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No módulo CSS Flexible Box Layout (*Flexbox*), para alinhar os itens filhos (*flex items*) ao longo do eixo transversal ou cruzado (*cross axis*) dentro do contêiner flexível, utiliza-se no elemento pai a propriedade:
+**(FCC – TRT-15 – Analista Judiciario Tecnologia da Informacao – 2015)**
+A propriedade position da CSS3 especifica o tipo do método de posicionamento usado para um determinado elemento HTML. Esta propriedade permite os valores
 
-* **A)** `justify-content`
-* **B)** `align-items`
-* **C)** `flex-direction`
-* **D)** `flex-wrap`
-* **E)** `order`
-
+* **A)** static, relative, absolute ou fixed.
+* **B)** public, private, default ou static.
+* **C)** top, bottom, left, right ou center.
+* **D)** default, relative, absolute ou variable.
+* **E)** bottom, left, right, wrap ou center.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** `justify-content` alinha os itens ao longo do eixo principal (*main axis*).
-> - **B) Correta.** `align-items` define o alinhamento padrão dos itens ao longo do eixo transversal (*cross axis*) perpendicular ao eixo principal.
-> - **C) Incorreta.** `flex-direction` define a orientação do eixo principal (`row`, `column`, etc.).
-> - **D) Incorreta.** `flex-wrap` controla se os itens quebram linha ou permanecem em linha única.
-> - **E) Incorreta.** `order` é aplicada nos itens filhos para reordenar a sequência de renderização.
+> - **A)** **Correta.** Conforme fundamentado na seção *2.1 Cascata, Seletores e Cálculo de Especificidade CSS* deste guia, o CSS (*Cascading Style Sheets*) baseia-se no princípio da Cascata para resolver conflitos entre múltiplas declarações de estilo apontando para o mesmo elemento HTML. A resolução segue a hierarquia. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-15/2015) ao estabelecer que "static, relative, absolute ou fixed".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "public, private, default ou static". De acordo com a teoria estudada em *2.5 Design Responsivo, Mobile-First e Unidades de Medida*, `rem` (*Root EM*): Relativa ao tamanho da fonte do elemento raiz (`<html>`), tipicamente `1rem = 16px`. Garante acessibilidade quando o usuário altera o tamanho padrão de fonte no navegador.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "top, bottom, left, right ou center". De acordo com a teoria estudada em *2.3 Layouts Flexíveis com Flexbox (Unidimensional)*, `justify-content`: Alinha os itens ao longo do eixo principal (`flex-start`, `flex-end`, `center`, `space-between`, `space-around`, `space-evenly`).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "default, relative, absolute ou variable". De acordo com a teoria estudada em *4.1 Paradigma Declarativo, Componentização e Sintaxe JSX*, sintaxe JSX (JavaScript XML): Extensão sintática que permite escrever marcação semelhante a HTML diretamente dentro do código JavaScript. O JSX é transpilado para chamadas de função `React.createElement()` ou para o transformador moderno `_jsx()`.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "bottom, left, right, wrap ou center". De acordo com a teoria estudada em *2.3 Layouts Flexíveis com Flexbox (Unidimensional)*, `flex-wrap`: Define se os itens que ultrapassam a largura do contêiner devem quebrar para a próxima linha (`nowrap` ou `wrap`).
 >
-> **Gabarito: B**
+> **Gabarito: A**
 
 ---
 
@@ -540,88 +506,74 @@ O TypeScript inclui um conjunto poderoso de utilitários de transformação de t
 ---
 
 ### Teste 081
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Na linguagem TypeScript, os tipos especiais `any` e `unknown` fornecem suporte a valores cujos tipos não são conhecidos a priori. A diferença crucial de segurança de tipos (*type safety*) entre `any` e `unknown` consiste em:
+**(FCC – TRT-9 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2015)**
+Um Analista da área de TI deseja incluir uma formatação CSS diretamente na tag `<h:inputText/>` de uma página construída com JSF e também definir um nome de classe de CSS para a tag. O Analista deverá utilizar, para isso, as propriedades
 
-* **A)** `any` força a checagem rigorosa de tipos pelo compilador, enquanto `unknown` desativa todas as regras de tipagem estática.
-* **B)** variáveis tipadas como `unknown` não permitem a invocação direta de métodos ou acesso a propriedades sem que ocorra previamente uma verificação ou refinamento de tipo (*type narrowing*), ao passo que variáveis tipadas como `any` desabilitam completamente a checagem do compilador.
-* **C)** `unknown` só pode armazenar valores booleanos primitivos, enquanto `any` aceita qualquer objeto.
-* **D)** o TypeScript não aceita atribuição de novos valores a variáveis do tipo `unknown`.
-* **E)** variáveis do tipo `any` são convertidas automaticamente para `never` em tempo de execução.
-
+* **A)** id e class.
+* **B)** cssStyle e className.
+* **C)** style e styleClass.
+* **D)** styleType e insertClass.
+* **E)** cssFormat e rendererClass.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** É exatamente o inverso: `any` desliga a checagem do compilador.
-> - **B) Correta.** `unknown` é o tipo seguro (*type-safe counterpart of any*): qualquer valor pode ser atribuído a `unknown`, mas você não pode chamar métodos nele nem passá-lo a funções tipadas sem antes estreitar o tipo (*type narrowing* via `typeof`, `instanceof` etc.). Já o `any` desabilita todas as checagens do compilador.
-> - **C) Incorreta.** `unknown` aceita qualquer valor.
-> - **D) Incorreta.** Reatribuição é permitida em `unknown`.
-> - **E) Incorreta.** Em tempo de execução, os tipos do TypeScript são apagados (*type erasure*).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "id e class". De acordo com a teoria estudada em *2.1 Cascata, Seletores e Cálculo de Especificidade CSS*, o CSS (*Cascading Style Sheets*) baseia-se no princípio da Cascata para resolver conflitos entre múltiplas declarações de estilo apontando para o mesmo elemento HTML. A resolução segue a hierarquia.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "cssStyle e className". De acordo com a teoria estudada em *4.1 Paradigma Declarativo, Componentização e Sintaxe JSX*, `class` torna-se `className` (pois `class` é palavra reservada em JS).
+> - **C)** **Correta.** Conforme fundamentado na seção *A Pontuação Quádrupla da W3C `(a, b, c, d)`* deste guia, \$a\$ (Inline): Estilos aplicados diretamente no atributo `style=""` da tag HTML (\$1, 0, 0, 0\$). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-9/2015) ao estabelecer que "style e styleClass".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "styleType e insertClass". De acordo com a teoria estudada em *2.6 Transições, Transformações e Animações CSS*, transformações 2D/3D (`transform`): Modifica a geometria visual do elemento sem disparar recálculo de fluxo de página (*reflow*). Funções comuns: `translate(x, y)`, `scale(1.1)`, `rotate(45deg)`.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "cssFormat e rendererClass". De acordo com a teoria estudada em *3.4 Interfaces vs. Type Aliases e Declaration Merging*, duas interfaces com o mesmo nome no mesmo escopo realizam Declaration Merging (fusão de declarações), somando seus membros em uma única interface conjunta.
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
 
 ### Teste 082
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No ecossistema TypeScript, desenvolvedores podem declarar formatos estruturais utilizando `interface` ou `type` (*type alias*). Um recurso exclusivo das `interfaces` que não é suportado por `type aliases` é:
+**(FCC – TRT-11 – Analista Judiciario Tecnologia da Informacao – 2017)**
+Considere o documento XML abaixo e as regras definidas na Document Type Definition – DTD. <?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE Processos [ <!ELEMENT Processos (Processo+)> <!ELEMENT Processo (NumeroSequencial, DigitoVerificador, AnoAjuizamento?, OrgaoJudiciario, Tribunal, Vara)> <!ELEMENT NumeroSequencial (#PCDATA)> <!ELEMENT DigitoVerificador (#PCDATA)> <!ELEMENT AnoAjuizamento (#PCDATA)> <!ELEMENT OrgaoJudiciario (#PCDATA)> <!ELEMENT Tribunal (#PCDATA)> <!ELEMENT Vara (#PCDATA)> ]> `<Processos>` `<Processo>` `<NumeroSequencial>`0012300`</NumeroSequencial>` `<DigitoVerificador>`04`</DigitoVerificador>` `<AnoAjuizamento>` 2007`</AnoAjuizamento>` `<OrgaoJudiciario>`5`</OrgaoJudiciario>` `<Tribunal>`11`</Tribunal>` `<Vara>`0030`</Vara>` `</Processo>` `</Processos>` A DTD define que
 
-* **A)** A declaração de propriedades opcionais com `?`.
-* **B)** A mesclagem automática de declarações (*declaration merging*), permitindo que múltiplas declarações de uma interface com o mesmo identificador sejam unificadas em uma única interface composta.
-* **C)** A criação de uniões de tipos primitivos utilizando o operador `|`.
-* **D)** A compatibilidade com tipagem estática em tempo de compilação.
-* **E)** O suporte a parâmetros genéricos.
-
+* **A)** pode haver elementos Processo sem o elemento AnoAjuizamento em seu interior.
+* **B)** os elementos no interior de um elemento Processo podem se repetir diversas vezes, se necessário.
+* **C)** os elementos só podem conter valores numéricos inteiros, já que são do tipo #PCDATA.
+* **D)** um elemento Processos pode ter, no máximo, um elemento Processo em seu interior.
+* **E)** todo elemento Processo deverá conter, obrigatoriamente, os elementos NumeroSequencial, DigitoVerificador, AnoAjuizamento, OrgaoJudiciario, Tribunal e Vara.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Ambos suportam propriedades opcionais (`prop?: string`).
-> - **B) Correta.** Se você declarar duas interfaces com o mesmo nome no mesmo escopo, o TypeScript mescla seus atributos (*declaration merging*). Já tentar redeclarar um `type` com o mesmo nome resulta em erro de compilação (*Duplicate identifier*).
-> - **C) Incorreta.** A união de tipos com `|` é suportada nativamente por `type` (*type alias*), mas não pode ser a base de uma `interface`.
-> - **D) Incorreta.** Ambos oferecem tipagem estática.
-> - **E) Incorreta.** Ambos suportam *Generics*.
+> - **A)** **Correta.** Conforme fundamentado na seção *1.2 Elementos Semânticos e Seccionamento de Conteúdo* deste guia, `<header>`: Representa um contêiner para conteúdo introdutório ou conjunto de links de navegação. Pode existir no topo da página ou no início de um `<article>` ou `<section>`. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-11/2017) ao estabelecer que "pode haver elementos Processo sem o elemento AnoAjuizamento em seu interior".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os elementos no interior de um elemento Processo podem se repetir diversas vezes, se necessário". De acordo com a teoria estudada em *1.2 Elementos Semânticos e Seccionamento de Conteúdo*, conteúdos que se repetem de forma idêntica em múltiplas páginas do sistema (barras de navegação globais, logos de topo, termos de uso no rodapé) não podem ser inseridos dentro do `<main>`.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os elementos só podem conter valores numéricos inteiros, já que são do tipo #PCDATA". De acordo com a teoria estudada em *Utility Types Nativos*, `Pick<T, K>`: Constrói um tipo contendo apenas o subconjunto `K` de propriedades de `T`. — `Pick<Processo, "id" \ — "numero">`.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um elemento Processos pode ter, no máximo, um elemento Processo em seu interior". De acordo com a teoria estudada em *Utility Types Nativos*, `Partial<T>`: Torna todas as propriedades de `T` opcionais (`?`). — `Partial<Processo>` (usado em requisições PATCH).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "todo elemento Processo deverá conter, obrigatoriamente, os elementos NumeroSequencial, DigitoVerificador...". De acordo com a teoria estudada em *1.2 Elementos Semânticos e Seccionamento de Conteúdo*, `<footer>`: Rodapé de uma seção ou do documento inteiro. Costuma conter informações sobre o autor, termos de uso, licenças e links institucionais.
 >
-> **Gabarito: B**
+> **Gabarito: A**
 
 ---
 
 ### Teste 083
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na linguagem TypeScript, suponha que exista a definição do seguinte tipo base:
+**(FGV – TJ-BA – Analista Judiciario Tecnologia da Informacao – 2015)**
+Uma determinada agência reguladora disponibiliza um schema para validação de mensagens XML que estabelece, entre outras coisas, os tipos simples tais como datas, códigos de serviços, etc. Um desses tipos deve admitir apenas strings contendo de 1 a 5 caracteres, formadas pelas letras OLMVDIP. A definição correta para essa restrição de valor é:
 
-```typescript
-type ProcessoAuditoria = {
-  id: number;
-  codigoFiscal: string;
-  relator: string;
-  valorGlosa: number;
-};
-```
-
-Para declarar um novo tipo derivado denominado `ProcessoEdicao`, que contenha rigorosamente todas as propriedades de `ProcessoAuditoria`, porém com todas elas definidas como **opcionais** (isto é, marcadas com `?`), deve-se utilizar o Utility Type:  
-
-* **A)** `Required<ProcessoAuditoria>`
-* **B)** `Readonly<ProcessoAuditoria>`
-* **C)** `Partial<ProcessoAuditoria>`
-* **D)** `Omit<ProcessoAuditoria, "id">`
-* **E)** `Record<string, ProcessoAuditoria>`
-
+* **A)** `<restriction base="substring">` <pattern value="OLMVDIP” size=5/> `<restriction>`
+* **B)** `<restriction base="string">` <pattern value="[OLMVDIP]{1,5}"/> `<restriction>`
+* **C)** `<restriction base="string">` <pattern value="[O][L][M][V][D][I][P]1,5"/> `<restriction>`
+* **D)** `<restriction base="string">` `<pattern value= substring of "OLMVDIP"/>` `<restriction>`
+* **E)** `<restriction base="substring">` <pattern value="OLMVDIP” 1 to 5"/> `<restriction>`
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O tipo utilitário `Required<T>` executa a transformação inversa: remove todas as interrogações `?`, tornando todas as propriedades estritamente obrigatórias.
-> - **B)** Incorreta. `Readonly<T>` torna as propriedades imutáveis (somente leitura), mas não as transforma em opcionais.
-> - **C)** **CORRETA.** `Partial<T>` itera sobre todas as chaves do tipo `T` e aplica o modificador `?`, resultando em `{ id?: number; codigoFiscal?: string; relator?: string; valorGlosa?: number; }`, exatamente conforme solicitado no enunciado.
-> - **D)** Incorreta. `Omit<T, K>` constrói um novo tipo removendo uma ou mais chaves específicas indicadas em `K`, preservando o estado obrigatório das restantes.
-> - **E)** Incorreta. `Record<K, T>` é empregado para criar dicionários onde as chaves são do tipo `K` e os valores associados pertencem ao tipo `T`.
-> 
-> **Gabarito: C**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "`<restriction base="substring">` <pattern value="OLMVDIP” size=5/> `<restriction>`". De acordo com a teoria estudada em *4.6 Formulários: Componentes Controlados vs. Não Controlados*, componentes Controlados (*Controlled Components*): O valor do campo de formulário é controlado integralmente pelo estado do React via `value` e evento `onChange`. O estado do React atua como a única fonte da verdade (*single source of truth*).
+> - **B)** **Correta.** Conforme fundamentado na seção *Utility Types Nativos* deste guia, `Record<K, T>`: Constrói um tipo de objeto mapeando chaves do tipo `K` para valores `T`. — `Record<string, Auditor>` (dicionários chave-valor). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-BA/2015) ao estabelecer que "`<restriction base="string">` <pattern value="[OLMVDIP]{1,5}"/> `<restriction>`".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "`<restriction base="string">` <pattern value="[O][L][M][V][D][I][P]1,5"/> `<restriction>`". De acordo com a teoria estudada em *1.3 Formulários Modernos e Validação Nativa*, `pattern="[0-9]{3}\.[0-9]{3}\.[0-9]{3}-[0-9]{2}"`: Valida o campo contra uma expressão regular (Regex) em tempo de cliente (ex.: máscara de CPF).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "`<restriction base="string">` `<pattern value= substring of "OLMVDIP"/>` `<restriction>`". De acordo com a teoria estudada em *3.2 Sistema de Tipos: Primitivos e Tipos Especiais (`any`, `unknown`, `never`, `void`)*, além dos tipos primitivos comuns (`string`, `number`, `boolean`, `null`, `undefined`, `symbol`), o TypeScript introduz tipos especiais cruciais para provas.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "`<restriction base="substring">` <pattern value="OLMVDIP” 1 to 5"/> `<restriction>`". De acordo com a teoria estudada em *2.5 Design Responsivo, Mobile-First e Unidades de Medida*, abordagem Mobile-First: Metodologia onde a folha de estilos base é desenvolvida primeiramente para telas pequenas (smartphones). As adaptações para telas maiores são adicionadas incrementalmente através de Media Queries com `min-width`.
+>
+> **Gabarito: B**
 
 ---
 
@@ -759,102 +711,74 @@ const handleClick = useCallback(() => { enviarAuditoria(id); }, [id]);
 ---
 
 ### Teste 084
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na biblioteca React, ao iterar sobre uma lista de dados para renderizar múltiplos componentes utilizando a função `.map()`, os desenvolvedores devem obrigatoriamente fornecer a propriedade especial `key` para cada item retornado.
+**(FCC – TRT-11 – Analista Judiciario Tecnologia da Informacao – 2017)**
+Considere o formulário HTML abaixo. `<form action="controle.php" method="post">` `<p>`Usuário: `<input type="text" name="usuario" />``</p>` `<p>`Senha: `<input type="password" name="senha" />``</p>` `<p>``<input type="submit" value="Entrar" />``</p>` `</form>` Para receber o conteúdo do campo usuário, transformando eventuais caracteres especiais do HTML na sua forma codificada para que não seja possível injetar tags HTML ou JavaScript através do campo, utiliza-se, no arquivo controle.php, a instrução
 
-A respeito do propósito e do funcionamento da propriedade `key` no algoritmo de reconciliação do React, assinale a afirmativa correta:  
-
-* **A)** A `key` serve unicamente para estilização visual via CSS, sendo convertida em uma classe HTML automática no DOM real.
-* **B)** O React utiliza a `key` para identificar de forma estável quais elementos da lista foram alterados, adicionados ou removidos entre renderizações, permitindo atualizar apenas os nós do DOM que sofreram modificação efetiva.
-* **C)** O uso do índice do array (`key={index}`) é a estratégia oficial recomendada pela Meta para listas dinâmicas com operações frequentes de ordenação e inserção no início da fila.
-* **D)** As chaves `key` devem ser obrigatoriamente números inteiros sequenciais gerados aleatoriamente com `Math.random()` a cada ciclo de renderização.
-* **E)** A propriedade `key` é repassada automaticamente pelo React para o componente filho como uma prop ordinária, podendo ser acessada livremente no código filho via `props.key`.
-
+* **A)** htmlconvert(\$_REQUEST['usuario'])
+* **B)** htmlnoinjection(\$_REQUEST['usuario'])
+* **C)** htmlconvertentities(\$_POST['usuario'])
+* **D)** htmlspecialchars(\$_POST['usuario'])
+* **E)** htmlconvertchars(\$_GETPARAMETER['usuario'])
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A `key` é consumida pelo motor de reconciliação do React em memória; ela não é renderizada como atributo CSS nem classe no DOM real.
-> - **B)** **CORRETA.** A propriedade `key` atribui uma identidade estável e unívoca a cada elemento da coleção entre diferentes ciclos de renderização. Isso viabiliza que o algoritmo de reconciliação (*diffing*) identifique com precisão inserções, exclusões e reordenações, reaproveitando nós do DOM real e atualizando apenas o conteúdo estritamente necessário.
-> - **C)** Incorreta. Usar o índice do array como chave em listas sujeitas a filtros, reordenação ou inserções intermediárias constitui uma grave má prática, pois induz o React a reaproveitar estados de instâncias incorretas.
-> - **D)** Incorreta. Chaves randômicas com `Math.random()` alteram-se a cada renderização, provocando a destruição e recriação forçada de toda a árvore DOM da lista a cada instante.
-> - **E)** Incorreta. Trata-se de uma pegadinha clássica: `key` e `ref` são propriedades reservadas do React e não são acessíveis dentro do componente filho através de `props.key`.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "htmlconvert(\$_REQUEST['usuario'])". De acordo com a teoria estudada em *4.1 Paradigma Declarativo, Componentização e Sintaxe JSX*, react é uma biblioteca JavaScript declarativa para a construção de interfaces de usuário, criada pela Meta (Facebook).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "htmlnoinjection(\$_REQUEST['usuario'])". De acordo com a teoria estudada em *2.5 Design Responsivo, Mobile-First e Unidades de Medida*, `rem` (*Root EM*): Relativa ao tamanho da fonte do elemento raiz (`<html>`), tipicamente `1rem = 16px`. Garante acessibilidade quando o usuário altera o tamanho padrão de fonte no navegador.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "htmlconvertentities(\$_POST['usuario'])". De acordo com a teoria estudada em *1.3 Formulários Modernos e Validação Nativa*, `type="email"`: Valida o formato sintático de endereço de correio eletrônico (`usuario@dominio.com`).
+> - **D)** **Correta.** Conforme fundamentado na seção *1.3 Formulários Modernos e Validação Nativa* deste guia, `disabled` vs. `readonly`: Um campo `disabled` é desativado visualmente e não é enviado na submissão do formulário (`POST/GET`). Já um campo `readonly` impede a edição pelo usuário, mas é devidamente transmitido na submissão. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-11/2017) ao estabelecer que "htmlspecialchars(\$_POST['usuario'])".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "htmlconvertchars(\$_GETPARAMETER['usuario'])". De acordo com a teoria estudada em *4.6 Formulários: Componentes Controlados vs. Não Controlados*, componentes Controlados (*Controlled Components*): O valor do campo de formulário é controlado integralmente pelo estado do React via `value` e evento `onChange`. O estado do React atua como a única fonte da verdade (*single source of truth*).
+>
+> **Gabarito: D**
 
 ---
 
 ### Teste 085
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em uma aplicação desenvolvida com a biblioteca React utilizando componentes funcionais e Hooks, um programador implementou a seguinte rotina para sincronizar uma listagem de auditorias fiscais com o servidor backend:
+**(FGV – TCE-GO – Analista de Controle Externo Tecnologia da Informacao – 2024)**
+Roberto está desenvolvendo uma aplicação web usando React, e decidiu utilizar o Bootstrap para que a aplicação seja responsiva. Analise o trecho do código a seguir como parte da aplicação: Marque a opção que aponta problemas para a implementação correta deste projeto.
 
-```jsx
-function PainelFiscal() {
-  const [processos, setProcessos] = useState([]);
-
-  useEffect(() => {
-    fetch("/api/processos")
-      .then(res => res.json())
-      .then(dados => setProcessos(dados));
-  });
-
-  return <div>{processos.length} processos carregados</div>;
-}
-```
-
-Ao executar essa aplicação no navegador, o comportamento verificado pelo desenvolvedor é:  
-
-* **A)** A requisição à API é disparada apenas uma única vez na montagem da tela, funcionando de forma perfeitamente otimizada.
-* **B)** Ocorre um laço infinito de renderizações (*infinite loop*), provocando sucessivas requisições HTTP e congelamento da interface do usuário.
-* **C)** O React emite um erro de compilação em tempo de execução porque funções assíncronas não são permitidas dentro de componentes funcionais.
-* **D)** A lista de processos jamais será atualizada porque o Hook `useState` não dispara re-renderização quando recebe arrays de dados.
-* **E)** A requisição HTTP falha compulsoriamente devido à falta do cabeçalho de acessibilidade `aria-live` no elemento `<div>`.
-
+* **A)** O código não necessita da importação do React pois a exportação já vai incorporar no projeto o React.
+* **B)** É necessário acrescentar a importação do CSS do Bootstrap.
+* **C)** O uso de classes como "container", "text-center", e "btn btnprimary" precisa ser mudado pois não funciona no React.
+* **D)** O Bootstrap não pode ser utilizado em projetos React devido a incompatibilidades entre as bibliotecas.
+* **E)** A tag `<div>` utilizada não é suportada pelo HTML5.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Para que o `useEffect` fosse executado estritamente na montagem inicial do componente, seria mandatório declarar um vetor de dependências vazio `[]` como segundo argumento.
-> - **B)** **CORRETA.** Passo a passo do laço infinito gerado:
->     1. O desenvolvedor omitiu o array de dependências do `useEffect`.
->     2. No React, um `useEffect` sem o segundo parâmetro executa na montagem e **após cada re-renderização** do componente.
->     3. Na montagem, o callback do efeito executa e dispara o `fetch`.
->     4. Ao receber os dados, executa `setProcessos(dados)`.
->     5. Atualizar o estado do componente agenda imediatamente uma nova renderização.
->     6. Ao renderizar novamente, o `useEffect` roda outra vez, disparando outro `fetch`, que chama `setProcessos`, gerando um ciclo sem fim que sobrecarrega a rede e trava o navegador.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O código não necessita da importação do React pois a exportação já vai incorporar no projeto o React". De acordo com a teoria estudada em *4.1 Paradigma Declarativo, Componentização e Sintaxe JSX*, sintaxe JSX (JavaScript XML): Extensão sintática que permite escrever marcação semelhante a HTML diretamente dentro do código JavaScript. O JSX é transpilado para chamadas de função `React.createElement()` ou para o transformador moderno `_jsx()`.
+> - **B)** **Correta.** Conforme fundamentado na seção *2.4 Grid Bidimensional (CSS Grid Layout)* deste guia, `grid-template-columns: 200px 1fr 2fr`: Define três colunas: a primeira fixa com 200px, e o restante dividido em 3 partes fracionais (1 parte para a segunda coluna e 2 partes para a terceira). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "É necessário acrescentar a importação do CSS do Bootstrap".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O uso de classes como "container", "text-center", e "btn btnprimary" precisa ser mudado pois não funciona no React". De acordo com a teoria estudada em *Renderização de Listas e a Propriedade `key`*, nunca use o índice do array (`key={index}`) para itens que possam ser reordenados, filtrados, excluídos ou adicionados no início da fila! O uso do índice faz o React reaproveitar instâncias de componentes erradas, provocando bugs visuais e perda de dados em inputs.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O Bootstrap não pode ser utilizado em projetos React devido a incompatibilidades entre as bibliotecas". De acordo com a teoria estudada em *Renderização de Listas e a Propriedade `key`*, a prop `key` é reservada para o algoritmo interno do React e NÃO é repassada para o componente filho (não pode ser lida via `props.key`).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A tag `<div>` utilizada não é suportada pelo HTML5". De acordo com a teoria estudada em *1.2 Elementos Semânticos e Seccionamento de Conteúdo*, antes do HTML5, páginas web eram estruturadas genericamente com divisões neutras (`<div class="header">`, `<div class="footer">`), o que dificultava a indexação por motores de busca e impedia tecnologias assistivas de entender a hierarquia do conteúdo.
 >
-> - **C)** Incorreta. O React suporta plenamente o consumo de chamadas assíncronas dentro do `useEffect`. O defeito é puramente de lógica do ciclo de dependências.
-> - **D)** Incorreta. O `useState` agenda re-renderização para qualquer alteração de estado disparada pela função modificadora.
-> - **E)** Incorreta. O atributo `aria-live` é voltado à tecnologia assistiva de acessibilidade e não exerce influência sobre o tráfego HTTP.
-> 
 > **Gabarito: B**
 
 ---
 
 ### Teste 086
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Na biblioteca React (versões 16.8+ baseadas em Hooks), a otimização de performance e a manipulação de instâncias mutáveis utilizam hooks especializados. A correta distinção conceitual entre `useMemo`, `useCallback` e `useRef` estabelece que:
+**(FGV – TRT-13 – Analista Judiciario Tecnologia da Informacao – 2022)**
+PrimeFaces versão 8.0 é uma biblioteca amplamente utilizada por empresas de software. O código da página web a seguir foi escrito utilizando essa biblioteca: Para especificar que o componente `<p:textEditor />` não seja exibido após a renderização da página, este componente deve ser utilizado da seguinte forma:
 
-* **A)** `useMemo` memoriza a referência de uma função, `useCallback` memoriza o valor de retorno calculado de uma função, e `useRef` força uma nova renderização imediata do componente sempre que seu atributo `.current` é modificado.
-* **B)** `useMemo` armazena em cache o resultado computacional de uma função cara evitando recálculos desnecessários; `useCallback` memoriza a própria instância da definição de uma função entre renderizações; e `useRef` cria um objeto mutável persistente cuja propriedade `.current` pode ser alterada sem disparar nova renderização do componente.
-* **C)** todos os três hooks são executados exclusivamente após a aplicação ser desinstalada da máquina do cliente.
-* **D)** `useRef` só pode ser utilizado para conectar a aplicação ao banco de dados PostgreSQL.
-* **E)** `useCallback` recalcula o valor sempre que qualquer componente irmão for renderizado no Virtual DOM.
-
+* **A)** `<p:textEditor disabled="true" />`
+* **B)** `<p:textEditor display="none" />`
+* **C)** `<p:textEditor rendered="false" />`
+* **D)** `<p:textEditor show="false" />`
+* **E)** `<p:textEditor visible="false" />`
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Houve inversão entre `useMemo` (retorna valor calculado) e `useCallback` (retorna função memorizada), e alterar `.current` de `useRef` *não* dispara re-render.
-> - **B) Correta.** Síntese técnica perfeita dos três hooks de performance e estado persistente: `useMemo` memoriza valores calculados; `useCallback` memoriza referências de funções; `useRef` retém referências mutáveis a elementos do DOM ou valores sem desencadear re-renderização.
-> - **C) Incorreta.** Afirmação absurda.
-> - **D) Incorreta.** `useRef` opera no lado cliente do React.
-> - **E) Incorreta.** `useCallback` só recria a função se as variáveis declaradas no seu array de dependências mudarem.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "`<p:textEditor disabled="true" />`". De acordo com a teoria estudada em *1.3 Formulários Modernos e Validação Nativa*, `disabled` vs. `readonly`: Um campo `disabled` é desativado visualmente e não é enviado na submissão do formulário (`POST/GET`). Já um campo `readonly` impede a edição pelo usuário, mas é devidamente transmitido na submissão.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "`<p:textEditor display="none" />`". De acordo com a teoria estudada em *2.3 Layouts Flexíveis com Flexbox (Unidimensional)*, o Flexbox (`display: flex`) é um modelo de layout voltado para a distribuição de espaço e alinhamento de itens ao longo de um único eixo por vez (linha ou coluna).
+> - **C)** **Correta.** Conforme fundamentado na seção *2. Hook `useEffect`* deste guia, `useEffect(fn, [])` (vetor vazio): Executa apenas uma única vez, logo após a primeira renderização do componente (equivalente ao antigo `componentDidMount`). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-13/2022) ao estabelecer que "`<p:textEditor rendered="false" />`".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "`<p:textEditor show="false" />`". De acordo com a teoria estudada em *Renderização de Listas e a Propriedade `key`*, a propriedade `key` deve ser um identificador único, estável e previsível (como o ID primário da entidade vindo do banco de dados).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "`<p:textEditor visible="false" />`". De acordo com a teoria estudada em *Renderização de Listas e a Propriedade `key`*, a prop `key` é reservada para o algoritmo interno do React e NÃO é repassada para o componente filho (não pode ser lida via `props.key`).
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
 

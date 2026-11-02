@@ -119,58 +119,50 @@ A trajetória histórica da IA subdivide-se em duas correntes metodológicas cen
 ---
 
 ### Teste 300
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na obra clássica de Stuart Russell e Peter Norvig (*Artificial Intelligence: A Modern Approach*), a definição canônica de Inteligência Artificial gravita em torno do conceito de **Agente Racional**.
+**(FGV – TJ-MT – Analista Judiciario Tecnologia da Informacao – 2024)**
+A Inteligência Artificial (IA) tem sido um campo de pesquisa e inovação que evoluiu bastante ao longo das décadas, e geralmente é dividida em IA fraca e IA forte, conceitos que se referem ao nível de “inteligência” que a IA consegue simular ou alcançar. Em relação ao conceito de Inteligência Artificial (IA), assinale a afirmativa que descreve corretamente a diferença entre IA forte e IA fraca.
 
-A respeito do conceito formal de racionalidade e da definição de agente racional nessa taxonomia, assinale a afirmativa correta:
-
-* **A)** Um agente racional é aquele que sempre atinge o resultado perfeito com 100% de onisciência, prevendo todos os eventos futuros com absoluta certeza.
-* **B)** A racionalidade depende do sucesso factual retrospectivo; logo, se um agente toma uma decisão logicamente ótima com base nas informações que possuía, mas um evento imprevisível causa um desfecho desfavorável, o agente é classificado como irracional.
-* **C)** Um agente racional é aquele que adota a ação esperada para maximizar sua medida de desempenho, considerando a sequência de percepções acumuladas até o momento e o conhecimento prévio embutido sobre o ambiente.
-* **D)** Agentes reflexos simples sem estado interno superam agentes baseados em metas em qualquer ambiente estocástico e parcialmente observável.
-* **E)** A racionalidade na IA é medida exclusivamente pela capacidade de um sistema em reproduzir emoções humanas em testes de conversação aberta.
-
+* **A)** IA forte é um sistema que simula a inteligência humana em tarefas específicas, enquanto IA fraca consegue aprender e entender contextos complexos, como um ser humano.
+* **B)** IA fraca se refere a sistemas que replicam com exatidão a consciência humana, enquanto IA forte realiza tarefas automatizadas sem a necessidade de consciência.
+* **C)** IA forte é caracterizada pela capacidade de adquirir consciência e compreensão geral, enquanto IA fraca é projetada para executar tarefas específicas sem consciência.
+* **D)** IA fraca é um sistema totalmente autônomo, que toma decisões complexas de forma independente, enquanto IA forte precisa da intervenção humana para operar.
+* **E)** IA forte e IA fraca não têm diferença quanto à forma de processamento de informações; a distinção está apenas na potência do hardware que utilizam.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Racionalidade **não é onisciência**. Onisciência significa saber o resultado real com antecedência absoluta. A racionalidade maximiza o desempenho *esperado*, não o desempenho factual garantido em face do imprevisível.
-> - **B)** Incorreta. A racionalidade avalia o processo decisório à luz do que era perceptível no momento da decisão, e não pelo resultado final afetado por fatores aleatórios externos.
-> - **C)** **CORRETA.** Segundo Russell & Norvig, um agente é qualquer entidade que percebe seu ambiente por meio de sensores e atua sobre ele por meio de atuadores. Um **agente racional** é aquele que, para cada sequência de percepções possível, seleciona uma ação que maximiza o valor esperado de sua **medida de desempenho**, dadas as evidências fornecidas pela sequência de percepções e o conhecimento que o agente possui a priori.
-> - **D)** Incorreta. Agentes reflexos simples falham redondamente em ambientes parcialmente observáveis por operarem sob regras estritas condição-ação sem reter histórico do estado do mundo.
-> - **E)** Incorreta. A abordagem moderna de IA foca na racionalidade dos atos e metas (*agir racionalmente*), e não na imitação superficial de processos psicológicos ou emocionais humanos.
-> 
-> **Gabarito: C**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "IA forte é um sistema que simula a inteligência humana em tarefas específicas, enquanto IA fraca consegue aprender...". De acordo com a teoria estudada em *1.2 Níveis de IA: Narrow AI vs. AGI vs. Superinteligência*, sistema hipotético dotado de plasticidade e capacidade cognitiva comparáveis ou equivalentes às de um ser humano adulto.
+> - **B)** **Correta.** Conforme fundamentado na seção *1. Fundamentos e Paradigmas da Inteligência Artificial* deste guia, a Inteligência Artificial (IA) estuda e projeta entidades computacionais capazes de realizar tarefas cognitivas historicamente associadas à inteligência biológica humana, tais como percepção visual, tomada de decisão sob incerteza, raciocínio lógico dedutivo e aprendizado contínuo. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-MT/2024) ao estabelecer que "IA fraca se refere a sistemas que replicam com exatidão a consciência humana, enquanto IA forte realiza tarefas...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "IA forte é caracterizada pela capacidade de adquirir consciência e compreensão geral, enquanto IA fraca é...". De acordo com a teoria estudada em *1.2 Níveis de IA: Narrow AI vs. AGI vs. Superinteligência*, iA Geral / Forte (*Artificial General Intelligence - AGI*).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "IA fraca é um sistema totalmente autônomo, que toma decisões complexas de forma independente, enquanto IA forte...". De acordo com a teoria estudada em *1.2 Níveis de IA: Narrow AI vs. AGI vs. Superinteligência*, uma AGI deve ser capaz de aprender, raciocinar, transferir aprendizado entre domínios totalmente distintos e solucionar desafios inéditos sem a necessidade de reconfiguração algorítmica ou retreinamento supervisionado por humanos.
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "IA forte e IA fraca não têm diferença quanto à forma de processamento de informações; a distinção está apenas na...". De acordo com a teoria estudada em *1.2 Níveis de IA: Narrow AI vs. AGI vs. Superinteligência*, iA Estreita / Fraca (*Narrow AI* ou *Weak AI*).
+>
+> **Gabarito: B**
 
 ---
 
 ### Teste 301
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A evolução histórica da Inteligência Artificial é marcada pela coexistência e competição entre duas correntes epistemológicas e arquiteturais: a **IA Simbólica** (Good Old-Fashioned AI - GOFAI) e a **IA Conexionista** (baseada em Aprendizado de Máquina e Redes Neurais Artificiais).
+**(FGV – TRT-1 – Analista Judiciario Area Administrativa – 2024)**
+À medida que a população cresce em larga escala, a produção industrial experimenta elevado incremento para acompanhar a nova demanda. Como resultado, temos uma crescente geração de resíduos. Nesse contexto, o gerenciamento de resíduos se mostra imprescindível para permitir o melhor aproveitamento das matérias-primas e a redução das agressões ao meio ambiente. Assim, em busca do desenvolvimento sustentável e a fim de propiciar padrões dignos de vida a esta e às futuras gerações, a Política Nacional de Resíduos Sólidos (PNRS) estabeleceu uma ordem de prioridade das ações que devem ser encaminhadas na gestão e no gerenciamento dos resíduos sólidos. A alternativa que contém práticas organizadas segundo a ordem de prioridade definida na PNRS é:
 
-A respeito das distinções técnicas fundamentais entre esses dois paradigmas, assinale a afirmativa correta:
-
-* **A)** A IA Simbólica baseia-se em manipulação explícita de símbolos, lógica formal e regras determinísticas (*se-então*), caracterizando-se por alta interpretabilidade humana, porém com grande fragilidade para lidar com ruídos, ambiguidade e dados brutos não estruturados.
-* **B)** O paradigma conexionista armazena o conhecimento em bancos de regras ontológicas explícitas escritas manualmente por especialistas de domínio.
-* **C)** As redes neurais profundas pertencem à IA Simbólica, pois seus pesos sinápticos são perfeitamente legíveis como proposições booleanas de primeira ordem. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **D)** A IA Conexionista dispensa treinamento com dados e independe de funções de custo diferenciáveis ou otimização matemática.
-* **E)** Sistemas Especialistas baseados em árvores de inferência lógica constituem a principal tecnologia do paradigma conexionista moderno.
-
+* **A)** reciclagem, comprar roupas em brechó, destinar resíduos ao aterro sanitário;
+* **B)** recuperação energética de resíduos, reaproveitamento da matéria prima em outras cadeias produtivas, reduzir impressões em papel;
+* **C)** embalagem retornável, reciclagem, destinar resíduos ao aterro sanitário;
+* **D)** recuperação energética, reciclagem, utilizar copos de vidro no lugar de descartáveis;
+* **E)** reciclagem, destinação a aterro, recuperação energética de resíduos.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **CORRETA.** Confronto paradigmático clássico da IA:
->   - **Paradigma Simbólico (Top-Down):** O conhecimento é representado de forma explícita por símbolos, predicados lógicos e bases de regras concebidas por engenheiros do conhecimento. É altamente transparente e auditável (*White-Box*), mas sofre do problema da ancoragem de símbolos (*symbol grounding problem*), tem baixa robustez a ruídos e exige esforço manual proibitivo para modelar o mundo real.
->   - **Paradigma Conexionista (Bottom-Up):** O conhecimento não reside em regras explícitas, mas está implicitamente disperso nos **pesos sinápticos** de uma rede neural artificial (*representação distribuída*). Aprende a partir de dados brutos por meio de gradiente descendente, apresentando excepcional robustez e generalização em dados não estruturados (áudio, imagem, texto), com o *trade-off* da opacidade de interpretação (*Black-Box*).
-> - **B)** Incorreta. Regras ontológicas manuais são características da IA Simbólica.
-> - **C)** Incorreta. Redes neurais são o coração da IA Conexionista; seus pesos são coeficientes numéricos de ponto flutuante, e não proposições lógicas booleanas diretas.
-> - **D)** Incorreta. O paradigma conexionista depende fundamentalmente de dados empíricos de treinamento e otimização numérica de funções de perda.
-> - **E)** Incorreta. Sistemas especialistas são o ápice histórico da IA Simbólica.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "reciclagem, comprar roupas em brechó, destinar resíduos ao aterro sanitário". De acordo com a teoria estudada em *2.2 Comitês de Modelos (Ensemble): Bagging vs. Boosting*, no Boosting, as árvores são geradas em série sequencial, onde cada árvore aprende a prever os resíduos/erros gerados pelo somatório das anteriores, reduzindo drasticamente o viés.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "recuperação energética de resíduos, reaproveitamento da matéria prima em outras cadeias produtivas, reduzir...". De acordo com a teoria estudada em *2.2 Comitês de Modelos (Ensemble): Bagging vs. Boosting*, foco Matemático no Erro: Reduzir a Variância (combater a tendência ao *overfitting* de modelos complexos). — Reduzir o Viés (combater o *underfitting* transformando modelos simples em preditores fortes).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "embalagem retornável, reciclagem, destinar resíduos ao aterro sanitário". De acordo com a teoria estudada em *2.3 Modelos de Regressão e Técnicas de Regularização (Ridge, Lasso e Elastic Net)*, por ser suave e esférica, a penalidade \$L_2\$ encolhe (*shrinks*) continuamente a magnitude dos coeficientes em direção a zero à medida que \$\lambda\$ cresce, mas nunca força nenhum coeficiente a se tornar rigorosamente zero.
+> - **D)** **Correta.** Conforme fundamentado na seção *3.3 Aprendizado por Reforço (Reinforcement Learning)* deste guia, dilema Exploração vs. Explotação (*Exploration vs. Exploitation*): O agente deve arbitrar entre descobrir ações inéditas (*exploration*) para colher melhores recompensas futuras e executar as ações que já provaram ser eficazes (*exploitation*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-1/2024) ao estabelecer que "recuperação energética, reciclagem, utilizar copos de vidro no lugar de descartáveis".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "reciclagem, destinação a aterro, recuperação energética de resíduos". De acordo com a teoria estudada em *3.2 Redução de Dimensionalidade (PCA, t-SNE e UMAP)*, o primeiro componente principal captura a direção de máxima variância dos dados; o segundo componente captura a segunda maior variância sob a restrição de ser rigorosamente ortogonal ao primeiro, e assim por diante.
+>
+> **Gabarito: D**
 
 ---
 
@@ -286,84 +278,73 @@ Para estabilizar o modelo, adiciona-se uma penalidade matemática $\lambda \cdot
 ---
 
 ### Teste 302
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-O classificador Naive Bayes é um algoritmo de aprendizado de máquina supervisionado amplamente empregado na triagem automatizada de petições judiciais e detecção de fraudes em licitações públicas.
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Ciencia de Dados – 2024)**
+Modelos de previsão podem ser obtidos a partir do uso de técnicas de regressão. Dentre essas técnicas, pode-se citar a técnica de regressão polinomial. Considere o conjunto de dados e a informação a seguir: Y 2 4 3 1 X 0 1 2 3 4 6 14 6 14 36 14 36 98 ] −1 20 [ 19 −21 5 −21 49 −15 5 −15 5 ]. = 1 Informação: [ Deseja-se encontrar um modelo de regressão polinomial de 2o grau 𝑌 = 𝑎0 + 𝑎1 𝑋 + 𝑎2 𝑋2 que melhor se encaixe nesse conjunto de dados. Estimando-se pelo método dos mínimos quadrados, os valores de 𝑎0, 𝑎1 e 𝑎2 serão dados, respectivamente, por
 
-O termo "Naive" (ingênuo) atribuído a esse classificador probabilístico decorre diretamente da seguinte premissa matemática:
-
-* **A)** Supor que todos os atributos de entrada possuem distribuição uniforme contínua com média zero.
-* **B)** Assumir a hipótese simplificadora de que todos os atributos preditores são condicionalmente independentes entre si, dada a classe do objeto.
-* **C)** Exigir que a variável alvo (*target*) seja obrigatoriamente um vetor contínuo de números irracionais.
-* **D)** Ignorar completamente a probabilidade a priori das classes durante o cálculo da probabilidade a posteriori.
-* **E)** Utilizar exclusivamente árvores de decisão binárias com profundidade máxima igual a 1.
-
+* **A)** 2,94; 0,64; -0,4.
+* **B)** 1,35; 4,7; -1,75.
+* **C)** 2,0; 3,5; -1,5.
+* **D)** 2,1; 2,6; -1,0.
+* **E)** 4,0; 0,5; -0,5.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Naive Bayes admite distribuições Gaussianas, Multinomial ou Bernoulli, não exigindo distribuição uniforme.
-> - **B)** **CORRETA.** O algoritmo baseia-se no **Teorema de Bayes**:
->   $$P(C_k | X) = \frac{P(C_k) \cdot P(X | C_k)}{P(X)}$$
->   Para calcular $P(X | C_k)$ sobre um vetor de características $X = (x_1, x_2, \dots, x_n)$, a computação exata das correlações conjuntas seria intratável. A simplificação "ingênua" (*Naive*) consiste em postular a **independência condicional entre todos os pares de atributos, dada a classe**:
->   $$P(x_1, x_2, \dots, x_n | C_k) = \prod_{i=1}^n P(x_i | C_k)$$
->   Embora essa suposição raramente se sustente no mundo real (ex.: em textos, certas palavras coocorrem fortemente), o algoritmo apresenta excelente poder discriminativo, baixo custo computacional e grande robustez com conjuntos de dados moderados.
-> - **C)** Incorreta. O alvo em classificação é categórico/discreto.
-> - **D)** Incorreta. A probabilidade a priori da classe $P(C_k)$ é elemento central da equação de Bayes.
-> - **E)** Incorreta. Naive Bayes é um modelo probabilístico puro, não baseado em árvores.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2,94; 0,64; -0,4". De acordo com a teoria estudada em *2.1 Modelos e Algoritmos de Classificação*, *Entropia e Ganho de Informação (Algoritmos ID3 e C4.5):* A Entropia mede o grau de desordem ou incerteza dos dados.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1,35; 4,7; -1,75". De acordo com a teoria estudada em *2.3 Modelos de Regressão e Técnicas de Regularização (Ridge, Lasso e Elastic Net)*, adiciona a soma dos quadrados dos coeficientes.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2,0; 3,5; -1,5". De acordo com a teoria estudada em *2.3 Modelos de Regressão e Técnicas de Regularização (Ridge, Lasso e Elastic Net)*, para estabilizar o modelo, adiciona-se uma penalidade matemática \$\lambda \cdot \Omega(\mathbf{w})\$ à função de perda.
+> - **D)** **Correta.** Conforme fundamentado na seção *2.3 Modelos de Regressão e Técnicas de Regularização (Ridge, Lasso e Elastic Net)* deste guia, o método clássico dos Mínimos Quadrados Ordinários (OLS - *Ordinary Least Squares*) minimiza o Erro Quadrático Médio (\$\text{MSE}\$). Em bases com dezenas ou centenas de variáveis multicolineares, o OLS produz coeficientes com variância gigante e sobreajuste. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "2,1; 2,6; -1,0".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "4,0; 0,5; -0,5". De acordo com a teoria estudada em *2.3 Modelos de Regressão e Técnicas de Regularização (Ridge, Lasso e Elastic Net)*, une a capacidade de gerar modelos esparsos do Lasso com a capacidade do Ridge de manter grupos inteiros de variáveis correlacionadas dentro do modelo.
+>
+> **Gabarito: D**
 
 ---
 
 ### Teste 303
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Uma equipe de auditores de dados está implementando modelos de aprendizado de máquina para classificar notas fiscais e declarações fiscais de contribuintes estaduais em duas classes: "Conforme" ou "Potencialmente Fraudulenta". Durante o desenvolvimento, debateu-se a utilização de algoritmos baseados em Comitês de Modelos (*Ensemble Learning*), especificamente comparando o *Random Forest* (baseado em *Bagging*) com o *XGBoost* e *LightGBM* (baseados em *Boosting*).
-Sobre os fundamentos teóricos desses métodos de ensemble, é correto afirmar:
+**(FGV – TCE-GO – Analista de Controle Externo Tecnologia da Informacao – 2024)**
+O algoritmo Naive Bayes é amplamente utilizado em problemas de classificação, especialmente em aplicações de processamento de linguagem natural e análise de texto. O princípio fundamental do algoritmo Naive Bayes
 
-* **A)** O *Random Forest* treina seus estimadores base de maneira estritamente sequencial, focando cada árvore sucessiva na redução do viés do modelo anterior.
-* **B)** O método de *Bagging* treina múltiplos estimadores em paralelo a partir de amostras geradas com reposição (*bootstrap*), tendo como foco matemático primordial a redução da variância do ensemble final sem aumentar substancialmente o seu viés.
-* **C)** Os algoritmos de *Boosting* constroem árvores de decisão profundas e complexas de maneira totalmente independente, utilizando a votação por maioria simples para reduzir a variância.
-* **D)** No *Random Forest*, o processo de amostragem aleatória restringe-se exclusivamente às linhas do dataset, sendo vedada a seleção aleatória de subconjuntos de atributos (*features*) na divisão dos nós.
-* **E)** O *AdaBoost* mantém pesos uniformes e imutáveis para todas as instâncias de treino ao longo de todas as iterações, independentemente de os estimadores anteriores terem classificado o registro corretamente ou não.
-
+* **A)** baseia-se na técnica de clustering para agrupar instâncias semelhantes.
+* **B)** calcula a média ponderada dos atributos para determinar a classe de um exemplo.
+* **C)** considera a independência condicional entre os atributos dos dados.
+* **D)** utiliza redes neurais profundas para modelar relações complexas entre os atributos.
+* **E)** utiliza uma abordagem de força bruta para encontrar a solução ótima de classificação.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Quem treina árvores em sequência focando na redução de viés é o **Boosting** (como o AdaBoost ou Gradient Boosting). O *Random Forest* utiliza **Bagging** com treinamento paralelo e independente.
-> - **B)** **Correta.** O **Bagging (*Bootstrap Aggregating*)** gera réplicas de conjuntos de dados via amostragem com reposição (*bootstrap*), ajustando estimadores base em **paralelo**. A agregação das predições de múltiplos modelos descorrelacionados reduz drasticamente a **variância** global do comitê, combatendo o sobreajuste (*overfitting*).
-> - **C)** Incorreta. O *Boosting* opera em **série sequencial** e utiliza estimadores fracos intencionalmente simples (*weak learners / stumps*), atuando precipuamente na redução do **viés**.
-> - **D)** Incorreta. O diferencial determinante do *Random Forest* é a amostragem aleatória de atributos (*feature subsampling*): ao avaliar cada divisão de nó, sorteia-se um subconjunto aleatório de features (tipicamente $\sqrt{p}$), descorrelacionando as árvores.
-> - **E)** Incorreta. O núcleo do *AdaBoost* reside no reponderamento adaptativo: instâncias classificadas com erro na iteração atual recebem **pesos significativamente maiores** no ciclo seguinte.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "baseia-se na técnica de clustering para agrupar instâncias semelhantes". De acordo com a teoria estudada em *2.1 Modelos e Algoritmos de Classificação*, algoritmo não-paramétrico baseado em instâncias (*instance-based*) e classificado como aprendizado preguiçoso (*lazy learning*), pois não possui uma fase de treinamento explícita que gere coeficientes ou modelos matemáticos: ele simplesmente memoriza todos os dados de treino na memória.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "calcula a média ponderada dos atributos para determinar a classe de um exemplo". De acordo com a teoria estudada em *2.1 Modelos e Algoritmos de Classificação*, durante a inferência, calcula a distância (Euclidiana, Manhattan ou Minkowski) entre a nova amostra e todos os pontos históricos da base, atribuindo a classe majoritária entre os \$k\$ vizinhos mais próximos.
+> - **C)** **Correta.** Conforme fundamentado na seção *2.1 Modelos e Algoritmos de Classificação* deste guia, suposição "Ingênua" (*Naive*): Assume categoricamente que todos os atributos preditores \$x_1, x_2, \dots, x_d\$ são mutuamente independentes entre si, dado o rótulo de classe \$y\$. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "considera a independência condicional entre os atributos dos dados".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "utiliza redes neurais profundas para modelar relações complexas entre os atributos". De acordo com a teoria estudada em *4. Redes Neurais Artificiais e Deep Learning*, o Aprendizado Profundo (*Deep Learning*) fundamenta-se em arquiteturas com múltiplas camadas ocultas empilhadas capazes de extrair representações hierárquicas e abstratas de dados não estruturados de ponta a ponta (*end-to-end*).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "utiliza uma abordagem de força bruta para encontrar a solução ótima de classificação". De acordo com a teoria estudada em *2.1 Modelos e Algoritmos de Classificação*, vetores de Suporte: São unicamente as instâncias críticas situadas sobre as fronteiras da margem que determinam a posição matemática e inclinação do hiperplano; todos os outros pontos podem ser adicionados ou removidos sem afetar a solução ótima.
+>
+> **Gabarito: C**
 
 ---
 
 ### Teste 304
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Um cientista de dados está desenvolvendo um modelo preditivo de regressão para projetar a arrecadação tributária estadual a partir de duzentas variáveis macroeconômicas. Sabendo que muitas dessas variáveis apresentam alta correlação entre si e que diversas delas não contribuem relevantemente para o poder explicativo do modelo, o analista deseja aplicar uma técnica de regularização que execute **seleção automática de atributos**, forçando expressamente a zero os coeficientes das variáveis irrelevantes para gerar um modelo final esparso e parcimonioso.
-A técnica de modelagem que atende estritamente ao requisito de zerar coeficientes e sua correspondente penalização matemática é:
+**(FGV – TCE-GO – Analista de Controle Externo Tecnologia da Informacao – 2024)**
+Os modelos de aprendizado de máquina desempenham um papel fundamental na análise e interpretação de dados em uma variedade de domínios. Uma característica dos modelos de aprendizado de máquina supervisionados e não supervisionados é que modelos supervisionados
 
-* **A)** Regressão Ridge, que utiliza uma penalidade baseada na norma $L_2$ (soma dos quadrados dos coeficientes).
-* **B)** Mínimos Quadrados Ordinários (OLS), que utiliza restrições de posto pleno para anular colinearidades.
-* **C)** Regressão Lasso (*Least Absolute Shrinkage and Selection Operator*), que utiliza uma penalidade baseada na norma $L_1$ (soma dos valores absolutos dos coeficientes).
-* **D)** Regressão Logística com regularização nula, que elimina preditores irrelevantes pelo determinante da matriz Hessiana.
-* **E)** Análise Discriminante Linear, que zera coeficientes descartando autovalores inferiores à unidade.
-
+* **A)** exploram a detecção de outliers, enquanto modelos não supervisionados usam dados representados em formatos como XML ou JSON para treinamento..
+* **B)** geralmente têm menos tendência ao overfitting do que modelos não supervisionados.
+* **C)** requerem dados rotulados para treinamento, enquanto modelos não supervisionados podem funcionar com dados não rotulados.
+* **D)** são mais adequados para tarefas de análise exploratória de dados, enquanto modelos não supervisionados são mais adequados para previsão de séries temporais.
+* **E)** são usados apenas para classificação, enquanto modelos não supervisionados são usados apenas para agrupamento.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A Regressão **Ridge** utiliza a norma $L_2$ ($\sum w_j^2$). A geometria esférica suave encolhe os coeficientes em direção a zero, mas **nunca zera nenhum estritamente**, não realizando seleção de atributos.
-> - **B)** Incorreta. O método OLS clássico não possui termo de regularização, sofrendo com alta variância e coeficientes instáveis sob multicolinearidade.
-> - **C)** **Correta.** A Regressão **Lasso** adiciona a penalidade com base na norma $L_1$ ($\lambda \sum |w_j|$). Devido aos vértices pontiagudos nos eixos cartesianos da restrição em losango da norma $L_1$, a solução atinge pontos onde os coeficientes tornam-se **rigorosamente iguais a zero**, realizando simultaneamente contração e **seleção automática de variáveis**.
-> - **D)** Incorreta. Modelos sem regularização não eliminam nem zeram coeficientes.
-> - **E)** Incorreta. A Análise Discriminante Linear é um método de classificação/redução dimensional, não um estimador de regressão com penalidade esparsa.
-> 
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "exploram a detecção de outliers, enquanto modelos não supervisionados usam dados representados em formatos como...". De acordo com a teoria estudada em *3.1 Algoritmos de Agrupamento (Clustering: K-Means, DBSCAN e Hierárquico)*, falha completamente na identificação de formatos orgânicos alongados e atribui compulsoriamente todo ponto a algum cluster, sendo muito sensível a *outliers*.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "geralmente têm menos tendência ao overfitting do que modelos não supervisionados". De acordo com a teoria estudada em *2.2 Comitês de Modelos (Ensemble): Bagging vs. Boosting*, foco Matemático no Erro: Reduzir a Variância (combater a tendência ao *overfitting* de modelos complexos). — Reduzir o Viés (combater o *underfitting* transformando modelos simples em preditores fortes).
+> - **C)** **Correta.** Conforme fundamentado na seção *2. Aprendizado de Máquina Supervisionado* deste guia, o Aprendizado Supervisionado opera sobre conjuntos de dados históricos previamente rotulados, formalizados pelo conjunto de treino \$\{(x_1, y_1), (x_2, y_2), \dots, (x_n, y_n)\}\$, onde \$x_i\$ representa o vetor de características (*features*) e \$y_i\$ representa o rótulo verdadeiro (*ground truth*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "requerem dados rotulados para treinamento, enquanto modelos não supervisionados podem funcionar com dados não...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "são mais adequados para tarefas de análise exploratória de dados, enquanto modelos não supervisionados são mais...". De acordo com a teoria estudada em *4.4 Arquiteturas Profundas: CNNs, RNNs/LSTM e Transformers*, concebidas para dados sequenciais e temporais (textos e séries temporais). Possuem conexões de realimentação que mantêm um estado oculto de memória.
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "são usados apenas para classificação, enquanto modelos não supervisionados são usados apenas para agrupamento". De acordo com a teoria estudada em *2.1 Modelos e Algoritmos de Classificação*, algoritmo não-paramétrico baseado em instâncias (*instance-based*) e classificado como aprendizado preguiçoso (*lazy learning*), pois não possui uma fase de treinamento explícita que gere coeficientes ou modelos matemáticos: ele simplesmente memoriza todos os dados de treino na memória.
+>
 > **Gabarito: C**
 
 ---
@@ -418,28 +399,26 @@ Um **Agente** aprende a tomar decisões sequenciais ideais através de tentativa
 ---
 
 ### Teste 305
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em uma auditoria de contratos de obras públicas, um auditor necessita aplicar técnicas de Aprendizado Não Supervisionado (*Clustering*) para segmentar os pagamentos emitidos e detectar desvios operacionais atípicos. O conjunto de dados apresenta geometrias arbitrárias com densidades heterogêneas e a auditoria não possui uma estimativa prévia de quantos grupos naturais existem na base.
-Nesse contexto, o algoritmo mais apropriado para a tarefa e sua fundamentação técnica é o:
+**(FGV – TRT-16 – Analista Judiciario Area Administrativa Tecnologia da Informacao – 2022)**
+Com relação aos conceitos de aprendizado de máquina, assinale V para a afirmativa verdadeira e F para a falsa. I. Os três principais paradigmas de aprendizado de máquina são os de aprendizado supervisionado, não supervisionado e por inteligência profunda. II. os algoritmos de classificação e clusterização estão correlacionados com paradigma de aprendizado supervisionado. III. os algoritmos de support vector machines e randon forest são paradigmas do aprendizado de inteligência profunda. As afirmativas são, respectivamente,
 
-* **A)** K-Means, pois particiona os dados descobrindo clusters de qualquer geometria arbitrária não-esférica sem exigir o valor de $k$ a priori.
-* **B)** PCA, pois é um algoritmo de particionamento estocástico que divide a base em grupos convexos através dos autovetores da matriz de confusão.
-* **C)** DBSCAN, pois identifica agrupamentos baseando-se na densidade local de pontos delimitada por raio e vizinhos mínimos, não exige o fornecimento prévio da quantidade de clusters e classifica dados em regiões rarefeitas explicitamente como ruído (*outliers*).
-* **D)** Regressão Logística, pois dispensa rótulos de classe para traçar a fronteira linear que separa automaticamente anomalias de observações regulares.
-* **E)** Agrupamento Hierárquico Divisivo com ligação simples (*Single Linkage*), pois exige a parametrização de centroides esféricos pré-fixados para evitar o efeito de encadeamento (*chaining*).
-
+* **A)** V, V e V.
+* **B)** V, V e F.
+* **C)** V, F e V.
+* **D)** F, V e V.
+* **E)** F, F e F.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O *K-Means* exige a parametrização prévia e obrigatória do número de clusters ($k$) e assume que os grupos são esféricos e de variâncias semelhantes, falhando em formatos arbitrários.
-> - **B)** Incorreta. O PCA é uma técnica de **redução de dimensionalidade linear**, e não um algoritmo de agrupamento.
-> - **C)** **Correta.** O **DBSCAN (*Density-Based Spatial Clustering of Applications with Noise*)** é sob medida para o problema: utiliza os parâmetros $\varepsilon$ e *min_samples*; **dispensa a definição prévia de $k$**; detecta formas geométricas não convexas e complexas; e isola dados em áreas de baixa densidade classificando-os formalmente como **ruído (*noise/outliers*)**, perfeito para auditoria e detecção de anomalias.
-> - **D)** Incorreta. A Regressão Logística é um modelo de aprendizado **supervisionado** que exige rótulos históricos de classe para treino.
-> - **E)** Incorreta. O método de ligação simples no agrupamento hierárquico é notório justamente por sofrer severamente do efeito de encadeamento (*chaining*), não resolvendo anomalias por centroides esféricos.
-> 
-> **Gabarito: C**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V, V e V". De acordo com a teoria estudada em *2. Aprendizado de Máquina Supervisionado*, o Aprendizado Supervisionado opera sobre conjuntos de dados históricos previamente rotulados, formalizados pelo conjunto de treino \$\{(x_1, y_1), (x_2, y_2), \dots, (x_n, y_n)\}\$, onde \$x_i\$ representa o vetor de características (*features*) e \$y_i\$ representa o rótulo verdadeiro (*ground truth*).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V, V e F". De acordo com a teoria estudada em *2. Aprendizado de Máquina Supervisionado*, o objetivo do algoritmo é estimar uma função \$f(x) \approx y\$ com alta capacidade de generalização para amostras inéditas.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V, F e V". De acordo com a teoria estudada em *3.2 Redução de Dimensionalidade (PCA, t-SNE e UMAP)*, técnica estatística linear e não supervisionada que transforma as variáveis originais em um novo conjunto de variáveis não correlacionadas denominadas Componentes Principais (PCs).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F, V e V". De acordo com a teoria estudada em *1.2 Níveis de IA: Narrow AI vs. AGI vs. Superinteligência*, uma AGI deve ser capaz de aprender, raciocinar, transferir aprendizado entre domínios totalmente distintos e solucionar desafios inéditos sem a necessidade de reconfiguração algorítmica ou retreinamento supervisionado por humanos.
+> - **E)** **Correta.** Conforme fundamentado na seção *1. Fundamentos e Paradigmas da Inteligência Artificial* deste guia, a Inteligência Artificial (IA) estuda e projeta entidades computacionais capazes de realizar tarefas cognitivas historicamente associadas à inteligência biológica humana, tais como percepção visual, tomada de decisão sob incerteza, raciocínio lógico dedutivo e aprendizado contínuo. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-16/2022) ao estabelecer que "F, F e F".
+>
+> **Gabarito: E**
 
 ---
 
@@ -475,34 +454,26 @@ A respeito dos fundamentos matemáticos e operacionais do PCA, assinale a afirma
 ---
 
 ### Teste 307
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-O Aprendizado por Reforço (*Reinforcement Learning - RL*) distingue-se do aprendizado supervisionado e não supervisionado pelo fato de o sistema aprender por tentativa e erro através da interação contínua com um ambiente dinâmico.
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Ciencia de Dados – 2024)**
+Diferentes técnicas de classificação são utilizadas em aprendizado de máquina para organizar e categorizar dados de acordo com características predefinidas. Com respeito a técnicas de classificação em aprendizado de máquina, analise as afirmativas a seguir. I. A regressão logística determina um hiperplano no espaço 𝑛- dimensional para separar as instâncias de dados de entrada em partições de acordo com suas classes. II. As máquinas de vetores de suporte (Support Vector Machines - SVM) consistem em uma abordagem probabilística, determinando uma distribuição de probabilidades de que uma nova instância de dados de entrada pertença as respectivas classes. III. O algoritmo K vizinhos mais próximos (K Nearest Neighbors - KNN) classifica uma nova instância de dados de entrada conforme a classe das instâncias mais próximas já observadas. Está correto o que se afirma em
 
-A respeito dos elementos conceituais do RL e do consagrado algoritmo **Q-Learning**, assinale a afirmativa correta:
-
-* **A)** No Aprendizado por Reforço, o agente recebe um conjunto de dados estático contendo pares prévios de entrada e rótulo correto fornecidos por um supervisor humano.
-* **B)** O algoritmo Q-Learning é um método *model-free* baseado em diferenças temporais que busca aprender uma função de valor de ação $Q(s, a)$, a qual estima a recompensa total acumulada descontada que o agente obterá ao tomar a ação $a$ no estado $s$ e seguir a política ótima a partir de então.
-* **C)** O fator de desconto $\gamma$ (gama) deve ser configurado como zero para que o agente priorize exclusivamente as recompensas distantes no longo prazo.
-* **D)** O dilema *Exploration vs. Exploitation* é irrelevante no Aprendizado por Reforço, devendo o agente sempre executar apenas a ação que forneceu a menor recompensa no passado. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **E)** O Q-Learning não converge se o ambiente for modelado como um Processo de Decisão de Markov (MDP).
-
+* **A)** I, apenas.
+* **B)** II, apenas.
+* **C)** III, apenas.
+* **D)** I e II, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Essa é a definição do aprendizado supervisionado. No RL, não há gabarito prévio; o agente recebe sinais escalares de **recompensa ou penalidade** (*reward signal*) decorrentes de suas ações.
-> - **B)** **CORRETA.** O **Q-Learning** (Watkins, 1989):
->   - É um algoritmo *off-policy* e *model-free* (dispensa o conhecimento prévio da dinâmica de transição de probabilidades do ambiente).
->   - Modela o problema como um Processo de Decisão de Markov (MDP).
->   - Atualiza a função de valor $Q(s, a)$ por meio da equação de Bellman modificada:
->     $$Q(s, a) \leftarrow Q(s, a) + \alpha \left[ r + \gamma \max_{a'} Q(s', a') - Q(s, a) \right]$$
->   - Estima a utilidade acumulada futura esperada de executar a ação $a$ no estado $s$.
-> - **C)** Incorreta. Se $\gamma = 0$, o agente torna-se completamente míope, considerando apenas a recompensa imediata presente; para valorizar o longo prazo, $\gamma$ deve aproximar-se de 1.
-> - **D)** Incorreta. O dilema *Exploração vs. Explotação* (*Exploration vs Exploitation*) é central no RL (frequentemente controlado por políticas como $\epsilon$-greedy).
-> - **E)** Incorreta. A garantia de convergência do Q-Learning repousa exatamente sobre a formulação em um MDP finito.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *2.1 Modelos e Algoritmos de Classificação*, constrói o hiperplano de separação ótimo que maximiza a distância geométrica perpendicular (margem de separação) até as instâncias mais próximas de cada classe.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas". De acordo com a teoria estudada em *2.1 Modelos e Algoritmos de Classificação*, vetores de Suporte: São unicamente as instâncias críticas situadas sobre as fronteiras da margem que determinam a posição matemática e inclinação do hiperplano; todos os outros pontos podem ser adicionados ou removidos sem afetar a solução ótima.
+> - **C)** **Correta.** Conforme fundamentado na seção *2.1 Modelos e Algoritmos de Classificação* deste guia, durante a inferência, calcula a distância (Euclidiana, Manhattan ou Minkowski) entre a nova amostra e todos os pontos históricos da base, atribuindo a classe majoritária entre os \$k\$ vizinhos mais próximos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "III, apenas".
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *2.1 Modelos e Algoritmos de Classificação*, apesar do termo "regressão", é um algoritmo de classificação linear. Estima a probabilidade a posteriori de uma classe binária através da função logística sigmoide.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *2.1 Modelos e Algoritmos de Classificação*, algoritmo não-paramétrico baseado em instâncias (*instance-based*) e classificado como aprendizado preguiçoso (*lazy learning*), pois não possui uma fase de treinamento explícita que gere coeficientes ou modelos matemáticos: ele simplesmente memoriza todos os dados de treino na memória.
+>
+> **Gabarito: C**
 
 ---
 
@@ -570,83 +541,74 @@ O ciclo de aprendizado de redes profundas articula quatro etapas fundamentais:
 ---
 
 ### Teste 308
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em arquiteturas de Redes Neurais Artificiais profundas (*Deep Learning*), as funções de ativação não lineares são elementos indispensáveis para viabilizar o aprendizado de fronteiras complexas. A respeito do comportamento dessas funções de ativação e de suas características computacionais, assinale a alternativa correta:
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Administracao – 2026)**
+O TCE-SC desenvolveu um modelo de IA para detectar fraudes em licitações. Durante o treinamento, o modelo apresentou 99% de acerto na base de dados histórica, mas, ao ser aplicado em dados novos de 2026, a precisão caiu para 55%. Esse fenômeno técnico, no qual o modelo decora os dados de treinamento mas falha em generalizar para dados novos, é conhecido como
 
-* **A)** A função de ativação ReLU (*Rectified Linear Unit*), definida por $f(z) = \max(0, z)$, resolve o desvanecimento do gradiente para valores positivos ($z > 0$), porém pode apresentar a patologia do "neurônio morto" (*Dying ReLU*) quando as entradas $z$ são negativas, caso em que o neurônio emite saída e gradiente nulos.
-* **B)** A função Sigmoide é a escolha recomendada para todas as camadas ocultas intermediárias de redes profundas com centenas de camadas, pois suas derivadas nunca se aproximam de zero.
-* **C)** A função de ativação *Softmax* pode ser aplicada indistintamente em qualquer camada oculta intermediária de redes convolucionais para acelerar o cálculo de tensores.
-* **D)** A função Tangente Hiperbólica ($\tanh$) gera valores de saída estritamente limitados ao intervalo de $0$ a $+1$, comportando-se de forma equivalente à função logística sigmoide.
-* **E)** A retropropagação (*Backpropagation*) dispensa a regra da cadeia e utiliza apenas a média aritmética simples dos erros da camada final para atualizar os pesos de todas as camadas. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-
+* **A)** Underfitting.
+* **B)** Overfitting.
+* **C)** Normalização de Dados.
+* **D)** Aprendizado não supervisionado.
+* **E)** Regressão Logística.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** A função **ReLU** ($f(z) = \max(0, z)$) possui derivada constante igual a $1$ para $z > 0$, prevenindo o desvanecimento de gradiente na região positiva. No entanto, para entradas menores ou iguais a zero ($z \le 0$), sua saída e derivada tornam-se zero. Se um neurônio for levado por gradientes desfavoráveis a um estado de ativação negativo para quase todo o dataset, ele não mais atualizará seus pesos, tornando-se inerte (*Dying ReLU*).
-> - **B)** Incorreta. A Sigmoide satura nas caudas ($|z| \gg 0$) gerando derivadas próximas a zero. Ao encadear dezenas de camadas, o produto sucessivo dessas derivadas zera o gradiente (**vanishing gradient**), inviabilizando o treino das camadas iniciais.
-> - **C)** Incorreta. A função **Softmax** converte saídas em probabilidades categóricas cuja soma resulta em $1$, pertencendo estrita e quase exclusivamente à **camada de saída** de problemas de classificação multiclasse.
-> - **D)** Incorreta. A Tangente Hiperbólica mapeia as entradas para o intervalo **$(-1, +1)$**, sendo centrada em zero, diferentemente da Sigmoide que mapeia para $(0, 1)$.
-> - **E)** Incorreta. O algoritmo de *Backpropagation* fundamenta-se compulsoriamente na **Regra da Cadeia** do cálculo diferencial multivariável.
-> 
+> - **A)** **Correta.** Conforme fundamentado na seção *2.2 Comitês de Modelos (Ensemble): Bagging vs. Boosting* deste guia, foco Matemático no Erro: Reduzir a Variância (combater a tendência ao *overfitting* de modelos complexos). — Reduzir o Viés (combater o *underfitting* transformando modelos simples em preditores fortes). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "Underfitting".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Overfitting". De acordo com a teoria estudada em *4.3 Treinamento: Backpropagation, Gradiente Descendente e Otimizadores*, *Early Stopping:* Interrompe o treinamento quando o erro no conjunto de validação começa a subir consecutivamente, evitando o *overfitting*.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Normalização de Dados". De acordo com a teoria estudada em *4.4 Arquiteturas Profundas: CNNs, RNNs/LSTM e Transformers*, projetadas especificamente para processar dados estruturados em grades bidimensionais ou tridimensionais (visão computacional, imagens de satélite para fiscalização de obras pelo TCE-GO).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Aprendizado não supervisionado". De acordo com a teoria estudada em *1.2 Níveis de IA: Narrow AI vs. AGI vs. Superinteligência*, uma AGI deve ser capaz de aprender, raciocinar, transferir aprendizado entre domínios totalmente distintos e solucionar desafios inéditos sem a necessidade de reconfiguração algorítmica ou retreinamento supervisionado por humanos.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Regressão Logística". De acordo com a teoria estudada em *2.1 Modelos e Algoritmos de Classificação*, apesar do termo "regressão", é um algoritmo de classificação linear. Estima a probabilidade a posteriori de uma classe binária através da função logística sigmoide.
+>
 > **Gabarito: A**
 
 ---
 
 ### Teste 309
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No treinamento de Redes Neurais Artificiais profundas (*Deep Learning*), o algoritmo de retropropagação do erro (*Backpropagation*) é utilizado para calcular os gradientes da função de perda em relação a cada peso sináptico da rede.
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Ciencia de Dados – 2024)**
+As redes neurais artificiais (Artificial Neural Networks - ANN) constituem um grupo de algoritmos inspirados nas funções dos neurônios no cérebro humano. Diversas arquiteturas de redes neurais são utilizadas para diferentes problemas, conforme suas funcionalidades. Existe uma arquitetura de rede neural específica, especialmente apropriada ao reconhecimento de padrões de imagens e vídeos, por possuir as seguintes propriedades: • As informações fluem apenas em uma direção. • As informações são propagadas em diferentes camadas neurais que filtram características (isto é, as features). • As informações são propagadas em diferentes camadas que reduzem sua dimensionalidade. Das opções a seguir, as redes que mais aderem às propriedades listadas acima são as redes
 
-A respeito do mecanismo de treinamento, do ajuste de gradientes e dos algoritmos otimizadores, assinale a afirmativa correta:
-
-* **A)** O algoritmo Backpropagation baseia-se na aplicação sistemática da Regra da Cadeia do cálculo diferencial para propagar o gradiente do erro da camada de saída em direção às camadas de entrada da rede.
-* **B)** A taxa de aprendizado (*learning rate*) deve ser configurada com o maior valor numérico possível (ex.: 100.00) para garantir convergência instantânea sem perigo de oscilações ou divergência da função de perda.
-* **C)** O otimizador Adam (*Adaptive Moment Estimation*) utiliza uma taxa de aprendizado estática e imutável para todos os parâmetros da rede, desconsiderando momentos de primeira e segunda ordem dos gradientes.
-* **D)** O Gradiente Descendente Estocástico (SGD) calcula o gradiente exato da função de perda utilizando simultaneamente todos os bilhões de exemplos do conjunto de dados de uma só vez a cada iteração.
-* **E)** O fenômeno do desaparecimento do gradiente (*Vanishing Gradient*) ocorre exclusivamente quando a função de ativação utilizada nas camadas intermediárias é a ReLU (*Rectified Linear Unit*).
-
+* **A)** de alimentação direta (feedforward).
+* **B)** recorrentes.
+* **C)** convolucionais.
+* **D)** generativas adversárias (GANs).
+* **E)** de Hopfield.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **CORRETA.** O **Backpropagation** é o alicerce computacional do Deep Learning:
->   1. **Passo Direto (Forward Pass):** Os dados de entrada atravessam a rede camada por camada até produzir a predição na saída e calcular a perda (*Loss*).
->   2. **Passo Reverso (Backward Pass):** Aplica recursivamente a **Regra da Cadeia** para derivar a função de perda em relação a cada peso sináptico ($\frac{\partial L}{\partial w_{ij}}$), propagando os gradientes de trás para frente.
->   3. **Atualização dos Pesos:** O otimizador ajusta os pesos no sentido oposto ao vetor gradiente para minimizar a perda.
-> - **B)** Incorreta. Uma taxa de aprendizado excessivamente alta provoca divergência e oscilações caóticas, impedindo o modelo de convergir para um mínimo da função de perda.
-> - **C)** Incorreta. O **Adam** combina o momento (primeiro momento: média móvel exponencial dos gradientes) com o RMSprop (segundo momento: média móvel dos gradientes ao quadrado), calculando **taxas de aprendizado adaptativas individuais para cada peso da rede**.
-> - **D)** Incorreta. O SGD calcula o gradiente com base em uma única amostra (ou em um pequeno lote / *mini-batch* no Mini-batch SGD). Quem usa o conjunto de dados inteiro a cada passo é o *Batch Gradient Descent*, que é inviável em dados massivos.
-> - **E)** Incorreta. O desaparecimento do gradiente é típico de funções saturantes como Sigmoide e Tangente Hiperbólica; a ReLU foi concebida justamente para mitigar o vanishing gradient nas regiões positivas.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de alimentação direta (feedforward)". De acordo com a teoria estudada em *4.1 Perceptron, Limitações Lineares e Redes Multicamadas (MLP)*, segundo o Teorema da Aproximação Universal (Cybenko, 1989 / Hornik, 1991), uma rede MLP feedforward com uma única camada oculta contendo uma quantidade finita de neurônios não lineares é capaz de aproximar qualquer função contínua arbitrária com precisão pré-estabelecida.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "recorrentes". De acordo com a teoria estudada em *4.4 Arquiteturas Profundas: CNNs, RNNs/LSTM e Transformers*, redes Neurais Recorrentes (RNNs) e Células LSTM / GRU.
+> - **C)** **Correta.** Conforme fundamentado na seção *4. Redes Neurais Artificiais e Deep Learning* deste guia, o Aprendizado Profundo (*Deep Learning*) fundamenta-se em arquiteturas com múltiplas camadas ocultas empilhadas capazes de extrair representações hierárquicas e abstratas de dados não estruturados de ponta a ponta (*end-to-end*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "convolucionais".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "generativas adversárias (GANs)". De acordo com a teoria estudada em *4.4 Arquiteturas Profundas: CNNs, RNNs/LSTM e Transformers*, *Pooling:* Camadas de subamostragem (*Max Pooling* e *Average Pooling*) que reduzem a resolução espacial dos mapas de características, conferindo tolerância a pequenas rotações e deformações geométricas.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de Hopfield". De acordo com a teoria estudada em *4.1 Perceptron, Limitações Lineares e Redes Multicamadas (MLP)*, a introdução de uma ou mais camadas ocultas (*hidden layers*) com funções de ativação não lineares resolveu essa limitação histórica.
+>
+> **Gabarito: C**
 
 ---
 
 ### Teste 310
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No ecossistema de arquiteturas especializadas de Aprendizado Profundo (*Deep Learning*), diversas redes foram desenvolvidas para processar eficientemente imagens, fluxos de áudio e dados textuais sequenciais.
-Sobre as características estruturais dessas arquiteturas, assinale a alternativa correta:
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Ciencia de Dados – 2024)**
+Alguns algoritmos de aprendizado de máquina servem para agrupar instâncias de dados em clusters, podendo ser utilizados para tarefas como segmentação de imagens, ou segmentação social (por exemplo, para agrupamento de clientes em uma mesma categoria. Dois dos mais populares algoritmos são o K-means e o DBSCAN. A respeito desses algoritmos, relacione-os com suas principais características: 1. K-means 2. DBSCAN ( ) Precisa da definição de um número inicial de agrupamentos. ( ) Mais robusto à ocorrência de outliers, por sua provável localização em regiões de baixa densidade de dados. ( ) Precisa da definição do número mínimo de vizinhos e do raio da vizinhança para determinar limites dos agrupamentos. ( ) Determina centróides dos agrupamentos e agrupa as instâncias de dados em função de uma métrica de distância entre as instâncias e os centróides. Assinale a opção que indica a relação correta, na sequência apresentada.
 
-* **A)** As Redes Neurais Convolucionais (CNNs) utilizam filtros deslizantes com compartilhamento de pesos nas camadas convolucionais, proporcionando invariância à translação espacial e reduzindo substancialmente a quantidade de parâmetros em comparação com redes totalmente conectadas.
-* **B)** As camadas de *Max Pooling* em uma rede convolucional aumentam a resolução espacial das matrizes de características para expandir o número de parâmetros ajustáveis na retropropagação.
-* **C)** As Redes Neurais Recorrentes (RNNs) simples conseguem manter dependências contextuais de longuíssimo prazo sem sofrer atenuação de gradientes, tornando as células LSTM obsoletas.
-* **D)** A arquitetura *Transformer* baseia-se exclusivamente em convoluções bidimensionais causais e descarta inteiramente mecanismos de atenção entre tokens.
-* **E)** As células LSTM (*Long Short-Term Memory*) descartam qualquer tipo de porta reguladora, substituindo todo o fluxo interno por uma única camada Perceptron sem função de ativação.
-
+* **A)** 2 – 1 – 2 – 1.
+* **B)** 1 – 1 – 2 – 1.
+* **C)** 2 – 1 – 1 – 2.
+* **D)** 2 – 1 – 1 – 1.
+* **E)** 1 – 2 – 2 – 1.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** As **CNNs** empregam filtros convolucionais deslizantes (*kernels*) que compartilham pesos ao longo de todo o mapa espacial. Isso confere a propriedade fundamental de **invariância à translação espacial** (um padrão como uma assinatura ou trinca em asfalto é reconhecido independentemente de sua posição na imagem) e derruba drasticamente a quantidade de parâmetros livres frente a redes densas (MLP).
-> - **B)** Incorreta. O propósito das camadas de pooling (*Max Pooling* ou *Average Pooling*) é realizar o **downsampling (subamostragem)**, ou seja, **reduzir** a resolução espacial das matrizes para diminuir o custo de processamento e conferir robustez a pequenas deformações.
-> - **C)** Incorreta. As RNNs simples sofrem severamente do problema de **desvanecimento do gradiente** (*vanishing gradient*) em sequências longas. Por esse motivo, as células **LSTM** e **GRU** foram desenvolvidas com portas seletivas para reter dependências contextuais distantes.
-> - **D)** Incorreta. O *Transformer* (Vaswani et al., 2017) fundamenta-se precipuamente no mecanismo de **Autoatenção (*Self-Attention*)**, dispensando tanto convoluções quanto recorrências sequenciais.
-> - **E)** Incorreta. A LSTM baseia-se exatamente em **portas reguladoras não lineares** (*forget gate*, *input gate* e *output gate*), que governam matematicamente a retenção e descarte de dados no fluxo de memória.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2 – 1 – 2 – 1". De acordo com a teoria estudada em *3.1 Algoritmos de Agrupamento (Clustering: K-Means, DBSCAN e Hierárquico)*, *Ruído / Outlier (Noise):* Não é núcleo nem borda (cai em regiões de baixa densidade).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1 – 1 – 2 – 1". De acordo com a teoria estudada em *3.1 Algoritmos de Agrupamento (Clustering: K-Means, DBSCAN e Hierárquico)*, *Vantagens Essenciais:* Não requer a definição prévia da quantidade de grupos (\$k\$), detecta agrupamentos de formatos geométricos arbitrários e não convexos e isola explicitamente ruídos e anomalias, constituindo o algoritmo perfeito para detecção de fraudes em auditorias de controle externo.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2 – 1 – 1 – 2". De acordo com a teoria estudada em *3.1 Algoritmos de Agrupamento (Clustering: K-Means, DBSCAN e Hierárquico)*, o algoritmo requer a especificação prévia do número de clusters (\$k\$).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2 – 1 – 1 – 1". De acordo com a teoria estudada em *3.1 Algoritmos de Agrupamento (Clustering: K-Means, DBSCAN e Hierárquico)*, k-Means (Agrupamento Particional por Centroides).
+> - **E)** **Correta.** Conforme fundamentado na seção *3.1 Algoritmos de Agrupamento (Clustering: K-Means, DBSCAN e Hierárquico)* deste guia, agrupa os dados com base na densidade espacial local, orientando-se por dois parâmetros: raio de vizinhança (\$\varepsilon\$) e número mínimo de pontos (*min_samples*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "1 – 2 – 2 – 1".
+>
+> **Gabarito: E**
 
 ---
 

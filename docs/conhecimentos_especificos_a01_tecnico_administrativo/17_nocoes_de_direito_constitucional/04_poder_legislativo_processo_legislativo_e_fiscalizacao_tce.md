@@ -101,26 +101,28 @@ O art. 53 da Constituição consagra o plexo de garantias institucionais dos mem
 ---
 
 ### Teste 143
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-As Comissões Parlamentares de Inquérito (CPIs), previstas no art. 58, § 3º, da Constituição Federal, possuem poderes de investigação próprios das autoridades judiciais, além de outros previstos nos regimentos das respectivas Casas. A respeito dos limites constitucionais de atuação das CPIs, é correto afirmar que:
+**(IBFC – TJ-MG – Analista Judiciario Classe C Analista de Tecnologia da Informacao – 2022)**
+Sobre os Poderes Legislativo, Executivo e Judiciário, segundo a Constituição Federal de 1988 (CF/88), analise as afirmativas a seguir. I. O Poder Legislativo é exercido pelo Congresso Nacional, que se compõe da Câmara dos Deputados e do Senado Federal, sendo que, cada legislatura terá a duração de quatro anos. II. O Poder Executivo é exercido pelo Presidente da República, auxiliado pelos Ministros de Estado, sendo que, a eleição do Presidente da República importará a do Vice-Presidente com ele registrado, ambos tomarão posse em sessão do Congresso Nacional, podendo modificar a Constituição e leis, segundo julgarem importantes para o crescimento econômico do Brasil. III. O Superior Tribunal de Justiça é o órgão máximo do Poder Judiciário, cujos Ministros serão nomeados pelo Presidente da República, cabendo-lhe, precipuamente, a guarda da Constituição. IV. São crimes de responsabilidade os atos do Presidente da República que atentem contra a Constituição Federal e, especialmente, contra o livre exercício do Poder Legislativo, do Poder Judiciário, do Ministério Público e dos Poderes constitucionais das unidades da Federação. Estão corretas as afirmativas:
 
-* **A)** podem decretar a quebra do sigilo bancário e fiscal de investigados fundamentadamente.
-* **B)** possuem competência originária para determinar a interceptação de comunicações telefônicas.
-* **C)** podem expedir mandado de busca e apreensão domiciliar na pendência de recesso parlamentar.
-* **D)** detêm poder de decretar a prisão preventiva de investigados em caso de fundado perigo de fuga.
-* **E)** suas conclusões condenam criminalmente os indiciados independentemente de ação do Ministério Público.
+* **A)** I e II apenas
+* **B)** II e III apenas
+* **C)** I e IV apenas
+* **D)** III e IV apenas
+* **E)** I e III apenas
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correto**. As CPIs federais e estaduais (art. 58, § 3º, CF/88) possuem poderes de instrução próprios das autoridades judiciais, podendo determinar diretamente a quebra dos sigilos bancário, fiscal e de dados telefônicos (registros de chamadas), desde que o façam mediante decisão fundamentada tomada pela maioria de seus membros (Súmula Vinculante 10 e jurisprudência pacífica do STF).
-> - **B)** **Incorreto**. A interceptação telefônica (escuta de conversas) submete-se à cláusula de reserva absoluta de jurisdição (art. 5º, XII, CF/88), sendo privativa de magistrado.
-> - **C)** **Incorreto**. A busca e apreensão domiciliar sem consentimento exige determinação judicial (art. 5º, XI, CF/88).
-> - **D)** **Incorreto**. As CPIs não podem decretar prisões cautelares (preventiva ou temporária), ressalvada unicamente a prisão em flagrante delito.
-> - **E)** **Incorreto**. As conclusões da CPI são encaminhadas ao Ministério Público ou à Advocacia-Geral para que promovam a responsabilidade civil ou criminal dos infratores.
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II apenas". De acordo com a teoria estudada em *1.2 Repartição de Competências no Congresso Nacional*, *Senado Federal (Art. 52, I e II):* Processar e julgar o Presidente e Vice-Presidente nos crimes de responsabilidade, bem como os Ministros do STF, os membros do CNJ e CNMP, o Procurador-Geral da República e o Advogado-Geral da União; sabatinar e aprovar a escolha de magistrados, Ministros do TCU e chefes de missão diplomática; suspender a execução, no todo ou em parte, de lei declarada inconstitucional por decisão definitiva do STF em controle difuso.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III apenas". De acordo com a teoria estudada em *1. Estrutura Bicameral e Atribuições das Casas Legislativas*, o Poder Legislativo da União é exercido pelo Congresso Nacional, que se compõe da Câmara dos Deputados e do Senado Federal (modelo bicameral federativo).
+> - **C)** **Correta.** Conforme fundamentado na seção *1.2 Repartição de Competências no Congresso Nacional* deste guia, competências Exclusivas do Congresso Nacional sem Sanção (Art. 49): Deliberadas em sessão conjunta ou separada e formalizadas por Decreto Legislativo, sem qualquer interferência presidencial (ex.: sustar atos normativos do Executivo que exorbitem do poder regulamentar; autorizar o Presidente a declarar guerra ou celebrar a paz; julgar anualmente as contas prestadas pelo Presidente da República). Dessa forma, está plenamente correta a assertiva da banca (IBFC – TJ-MG/2022) ao estabelecer que "I e IV apenas".
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III e IV apenas". De acordo com a teoria estudada em *1.2 Repartição de Competências no Congresso Nacional*, *Câmara dos Deputados (Art. 51, I):* Autorizar, por dois terços de seus membros, a instauração de processo contra o Presidente e o Vice-Presidente da República e os Ministros de Estado.
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III apenas". De acordo com a teoria estudada em *1.2 Repartição de Competências no Congresso Nacional*, competências com Sanção Presidencial (Art. 48): Matérias deliberadas pelo Congresso Nacional que geram leis e demandam envio ao Presidente da República para sanção ou veto (ex.: sistema tributário, planos orçamentários, criação e extinção de cargos públicos).
 >
-> **Gabarito: A**
+> **Gabarito: C**
+
+---
 
 ### Teste 144
 **(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**  
@@ -167,70 +169,76 @@ Ao organizar o Poder Legislativo na esfera federal, a Constituição da Repúbli
 > **Gabarito: A**
 
 ### Teste 146
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A respeito dos limites ao poder constituinte derivado reformador no processo legislativo de emendas à Constituição (art. 60 da CF/88), analise as regras constitucionais. É correto afirmar que:
+**(FGV – TRT-1 – Analista Judiciario Area Administrativa – 2024)**
+Com o objetivo de atender às necessidades urgentes do Poder Judiciário federal, o Presidente da República editou a Medida Provisória nº X, dispondo sobre a organização dos Tribunais Regionais Federais, o que foi muito comemorado por seus membros. Após o trâmite regular, a medida provisória teve sua votação iniciada na Câmara dos Deputados, sendo aprovada nessa Casa Legislativa e, posteriormente, no Senado Federal, sem alterações. Daí decorreu a promulgação da Lei nº Y, o que foi feito pelo Presidente da Mesa do Congresso Nacional. À luz da sistemática constitucional, é correto afirmar que essa narrativa:
 
-* **A)** A proposta de emenda deve ser votada em sessão unicameral conjunta do Congresso Nacional.
-* **B)** O Presidente da República possui prerrogativa de apor veto jurídico ou político à PEC aprovada.
-* **C)** A matéria constante de proposta de emenda rejeitada poderá ser reapresentada na mesma sessão.
-* **D)** O voto obrigatório e o regime presidencialista constituem cláusulas pétreas expressas da CF/88.
-* **E)** A emenda aprovada será promulgada pelas Mesas da Câmara dos Deputados e do Senado Federal.
+* **A)** não apresenta incorreção;
+* **B)** somente apresenta incorreção em relação à casa iniciadora;
+* **C)** somente apresenta incorreção em relação ao objeto da medida provisória;
+* **D)** somente apresenta incorreção em relação à promulgação no âmbito do Poder Legislativo;
+* **E)** somente apresenta incorreção em relação à votação em separado nas Casas Legislativas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A proposta será discutida e votada em cada Casa do Congresso Nacional, em dois turnos (art. 60, § 2º, CF/88).
-> - **B)** **Incorreto**. Não há sanção ou veto do Presidente da República em propostas de emenda constitucional.
-> - **C)** **Incorreto**. Conforme o art. 60, § 5º, da CF/88, a matéria constante de proposta de emenda rejeitada ou havida por prejudicada não pode ser objeto de nova proposta na mesma sessão legislativa.
-> - **D)** **Incorreto**. O art. 60, § 4º, II, tutela a forma federativa, o voto direto, secreto, universal e periódico (não o voto obrigatório). O presidencialismo não é cláusula pétrea expressa.
-> - **E)** **Correto**. Nos termos do art. 60, § 3º, da CF/88: "A emenda à Constituição será promulgada pelas Mesas da Câmara dos Deputados e do Senado Federal, com o respectivo número de ordem".
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não apresenta incorreção". De acordo com a teoria estudada em *1.2 Repartição de Competências no Congresso Nacional*, competências Exclusivas do Congresso Nacional sem Sanção (Art. 49): Deliberadas em sessão conjunta ou separada e formalizadas por Decreto Legislativo, sem qualquer interferência presidencial (ex.: sustar atos normativos do Executivo que exorbitem do poder regulamentar; autorizar o Presidente a declarar guerra ou celebrar a paz; julgar anualmente as contas prestadas pelo Presidente da República).
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente apresenta incorreção em relação à casa iniciadora". De acordo com a teoria estudada em *1.1 Modelo Bicameral Federal e Unicameral Estadual/Municipal*, enquanto na esfera federal vigora o bicameralismo, nos demais entes da Federação o Poder Legislativo adota compulsoriamente a estrutura unicameral.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente apresenta incorreção em relação ao objeto da medida provisória". De acordo com a teoria estudada em *1.2 Repartição de Competências no Congresso Nacional*, *Senado Federal (Art. 52, I e II):* Processar e julgar o Presidente e Vice-Presidente nos crimes de responsabilidade, bem como os Ministros do STF, os membros do CNJ e CNMP, o Procurador-Geral da República e o Advogado-Geral da União; sabatinar e aprovar a escolha de magistrados, Ministros do TCU e chefes de missão diplomática; suspender a execução, no todo ou em parte, de lei declarada inconstitucional por decisão definitiva do STF em controle difuso.
+> - **D)** **Correta.** Conforme fundamentado na seção *1. Estrutura Bicameral e Atribuições das Casas Legislativas* deste guia, o Poder Legislativo da União é exercido pelo Congresso Nacional, que se compõe da Câmara dos Deputados e do Senado Federal (modelo bicameral federativo). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-1/2024) ao estabelecer que "somente apresenta incorreção em relação à promulgação no âmbito do Poder Legislativo".
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente apresenta incorreção em relação à votação em separado nas Casas Legislativas". De acordo com a teoria estudada em *1. Estrutura Bicameral e Atribuições das Casas Legislativas*, câmara dos Deputados (Art. 45): Representa o povo brasileiro. Os deputados são eleitos pelo sistema eleitoral proporcional, para mandato de 4 anos (uma legislatura).
+>
+> **Gabarito: D**
+
+---
+
+### Teste 147
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Gestao Governamental – 2024)**
+O Presidente da República, em matéria de sua iniciativa privativa, apresentou projeto de lei à Câmara dos Deputados. Após tramitação regular, o projeto foi aprovado, com alterações, e encaminhado para o Senado Federal. Nessa Casa Legislativa, foi aprovado um substitutivo alterando integralmente, embora sem aumento de despesa, a forma como a respectiva matéria fora disciplinada no projeto. Considerando a sistemática constitucional, é correto afirmar que
+
+* **A)** o Senado Federal, ao aprovar o substitutivo, assumiu a função de Casa Iniciadora, reiniciando a tramitação do projeto.
+* **B)** por se tratar de matéria de iniciativa privativa do Chefe do Poder Executivo, o Senado Federal não poderia ter aprovado o substitutivo.
+* **C)** após ser apreciado pela Câmara dos Deputados, o substitutivo, se aprovado, será encaminhado ao Chefe do Poder Executivo para fins de sanção ou veto.
+* **D)** o Senado Federal, embora tenha atuado como Casa Revisora, deve apreciar as emendas que venham a ser aprovadas na Câmara dos Deputados, após esta Casa analisar o substitutivo.
+* **E)** por se tratar de matéria de iniciativa privativa do Chefe do Poder Executivo, o substitutivo aprovado pelo Senado Federal somente poderia versar sobre redação, não sobre o mérito.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o Senado Federal, ao aprovar o substitutivo, assumiu a função de Casa Iniciadora, reiniciando a tramitação do...". De acordo com a teoria estudada em *1. Estrutura Bicameral e Atribuições das Casas Legislativas*, o Poder Legislativo da União é exercido pelo Congresso Nacional, que se compõe da Câmara dos Deputados e do Senado Federal (modelo bicameral federativo).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "por se tratar de matéria de iniciativa privativa do Chefe do Poder Executivo, o Senado Federal não poderia ter...". De acordo com a teoria estudada em *1.2 Repartição de Competências no Congresso Nacional*, competências com Sanção Presidencial (Art. 48): Matérias deliberadas pelo Congresso Nacional que geram leis e demandam envio ao Presidente da República para sanção ou veto (ex.: sistema tributário, planos orçamentários, criação e extinção de cargos públicos).
+> - **C)** **Correta.** Conforme fundamentado na seção *1.2 Repartição de Competências no Congresso Nacional* deste guia, competências Exclusivas do Congresso Nacional sem Sanção (Art. 49): Deliberadas em sessão conjunta ou separada e formalizadas por Decreto Legislativo, sem qualquer interferência presidencial (ex.: sustar atos normativos do Executivo que exorbitem do poder regulamentar; autorizar o Presidente a declarar guerra ou celebrar a paz; julgar anualmente as contas prestadas pelo Presidente da República). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "após ser apreciado pela Câmara dos Deputados, o substitutivo, se aprovado, será encaminhado ao Chefe do Poder...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o Senado Federal, embora tenha atuado como Casa Revisora, deve apreciar as emendas que venham a ser aprovadas na...". De acordo com a teoria estudada em *1.2 Repartição de Competências no Congresso Nacional*, *Câmara dos Deputados (Art. 51, I):* Autorizar, por dois terços de seus membros, a instauração de processo contra o Presidente e o Vice-Presidente da República e os Ministros de Estado.
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "por se tratar de matéria de iniciativa privativa do Chefe do Poder Executivo, o substitutivo aprovado pelo Senado...". De acordo com a teoria estudada em *1.2 Repartição de Competências no Congresso Nacional*, *Senado Federal (Art. 52, I e II):* Processar e julgar o Presidente e Vice-Presidente nos crimes de responsabilidade, bem como os Ministros do STF, os membros do CNJ e CNMP, o Procurador-Geral da República e o Advogado-Geral da União; sabatinar e aprovar a escolha de magistrados, Ministros do TCU e chefes de missão diplomática; suspender a execução, no todo ou em parte, de lei declarada inconstitucional por decisão definitiva do STF em controle difuso.
+>
+> **Gabarito: C**
+
+---
+
+### Teste 148
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Administracao – 2024)**
+O Presidente da República apresentou projeto de lei complementar versando sobre matéria de sua iniciativa exclusiva, estranha à sistemática orçamentária. No âmbito da Câmara dos Deputados, foi aprovada emenda que estendia o alcance da proposição legislativa e acarretava aumento de despesa obrigatória, sendo indicada a respectiva fonte de custeio. Após o trâmite regular, o projeto foi aprovado nas duas Casas do Congresso Nacional, mas foi vetado pelo Presidente da República. O veto foi derrubado pelo Poder Legislativo e, ato contínuo, foi promulgada a Lei nº X pelo Presidente do Senado Federal. Com base nas normas constitucionais afetas ao processo legislativo, é correto afirmar que a narrativa
+
+* **A)** não apresenta nenhuma incorreção.
+* **B)** somente apresenta incorreção em relação à emenda aprovada pela Câmara dos Deputados.
+* **C)** somente apresenta incorreção em relação à promulgação realizada pelo Presidente do Senado Federal.
+* **D)** somente apresenta incorreção em relação à promulgação, que deveria ser realizada em momento anterior à derrubada do veto.
+* **E)** somente apresenta incorreção em relação à emenda aprovada pela Câmara dos Deputados, e à promulgação realizada pelo Presidente do Senado Federal.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não apresenta nenhuma incorreção". De acordo com a teoria estudada em *1.2 Repartição de Competências no Congresso Nacional*, *Câmara dos Deputados (Art. 51, I):* Autorizar, por dois terços de seus membros, a instauração de processo contra o Presidente e o Vice-Presidente da República e os Ministros de Estado.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente apresenta incorreção em relação à emenda aprovada pela Câmara dos Deputados". De acordo com a teoria estudada em *1.2 Repartição de Competências no Congresso Nacional*, *Senado Federal (Art. 52, I e II):* Processar e julgar o Presidente e Vice-Presidente nos crimes de responsabilidade, bem como os Ministros do STF, os membros do CNJ e CNMP, o Procurador-Geral da República e o Advogado-Geral da União; sabatinar e aprovar a escolha de magistrados, Ministros do TCU e chefes de missão diplomática; suspender a execução, no todo ou em parte, de lei declarada inconstitucional por decisão definitiva do STF em controle difuso.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente apresenta incorreção em relação à promulgação realizada pelo Presidente do Senado Federal". De acordo com a teoria estudada em *1.1 Modelo Bicameral Federal e Unicameral Estadual/Municipal*, distrito Federal: Câmara Legislativa do Distrito Federal, composta por Deputados Distritais (art. 32, § 2º).
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente apresenta incorreção em relação à promulgação, que deveria ser realizada em momento anterior à derrubada...". De acordo com a teoria estudada em *1.2 Repartição de Competências no Congresso Nacional*, competências com Sanção Presidencial (Art. 48): Matérias deliberadas pelo Congresso Nacional que geram leis e demandam envio ao Presidente da República para sanção ou veto (ex.: sistema tributário, planos orçamentários, criação e extinção de cargos públicos).
+> - **E)** **Correta.** Conforme fundamentado na seção *1. Estrutura Bicameral e Atribuições das Casas Legislativas* deste guia, o Poder Legislativo da União é exercido pelo Congresso Nacional, que se compõe da Câmara dos Deputados e do Senado Federal (modelo bicameral federativo). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "somente apresenta incorreção em relação à emenda aprovada pela Câmara dos Deputados, e à promulgação realizada...".
 >
 > **Gabarito: E**
 
-### Teste 147
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Acerca do processo legislativo ordinário disciplinado na Constituição Federal (arts. 61 a 67 da CF/88), analise as regras sobre iniciativa e veto presidencial. É correto afirmar que:
-
-* **A)** O veto parcial do Presidente da República deve abranger o texto integral de artigo, de parágrafo, de inciso ou de alínea.
-* **B)** O silêncio do Presidente da República no prazo de quinze dias úteis importará em veto tácito ao projeto aprovado.
-* **C)** O veto presidencial somente pode ser rejeitado pelo voto de dois terços dos membros de cada Casa parlamentar.
-* **D)** É admitida emenda parlamentar que aumente a despesa prevista nos projetos de iniciativa exclusiva do Presidente.
-* **E)** A matéria de projeto de lei rejeitado jamais poderá ser renovada na mesma sessão legislativa sob qualquer hipótese.
-
 ---
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correto**. Conforme expressa o art. 66, § 2º, da Constituição Federal: "O veto parcial somente abrangerá texto integral de artigo, de parágrafo, de inciso ou de alínea" (vedado expressamente o veto a palavras ou expressões isoladas).
-> - **B)** **Incorreto**. Decorrido o prazo de 15 dias úteis, o silêncio do Presidente da República importará em sanção tácita (art. 66, § 3º, CF/88).
-> - **C)** **Incorreto**. O veto será apreciado em sessão conjunta e só pode ser rejeitado pelo voto da maioria absoluta dos Deputados e Senadores (art. 66, § 4º, CF/88).
-> - **D)** **Incorreto**. É vedado aumento de despesa nos projetos de iniciativa exclusiva do Presidente da República (art. 63, I, CF/88), ressalvadas as emendas ao orçamento (art. 166).
-> - **E)** **Incorreto**. O projeto rejeitado pode ser renovado na mesma sessão legislativa mediante proposta da maioria absoluta dos membros de qualquer das Casas (art. 67, CF/88).
->
-> **Gabarito: A**
-
-### Teste 148
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O art. 62 da Constituição da República autoriza o Presidente a adotar medidas provisórias, com força de lei, em caso de relevância e urgência. A respeito do regime constitucional das medidas provisórias, é correto afirmar:
-
-* **A)** É permitida a edição de medida provisória que discipline matéria afeta a direito penal e processo penal.
-* **B)** É vedada a edição de medida provisória sobre matéria reservada a lei complementar ou de direito eleitoral.
-* **C)** A medida provisória perde a eficácia desde a edição se não for convertida em lei no prazo fatal de trinta dias.
-* **D)** A prorrogação da vigência da medida provisória por igual período de sessenta dias depende de votação em Plenário.
-* **E)** Se a medida provisória não for apreciada em quarenta e cinco dias, ocorrerá a sua imediata rejeição tácita.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreto**. O art. 62, § 1º, I, 'b', da CF/88 veda expressamente a edição de medidas provisórias sobre direito penal, processual penal e processual civil.
-> - **B)** **Correto**. O art. 62, § 1º, da CF/88 veda a edição de medida provisória que verse sobre nacionalidade, cidadania, direitos políticos, partidos políticos e direito eleitoral (inciso I, 'a'), bem como matéria reservada a lei complementar (inciso III).
-> - **C)** **Incorreto**. O prazo inicial de vigência é de sessenta dias, prorrogável uma única vez por igual período (art. 62, §§ 3º e 7º, CF/88).
-> - **D)** **Incorreto**. A prorrogação por sessenta dias dá-se de forma automática quando a medida não tiver sua votação encerrada nas duas Casas (art. 62, § 7º, CF/88).
-> - **E)** **Incorreto**. Não sendo votada em até 45 dias da publicação, a MP entrará em regime de urgência, ficando sobrestadas as demais deliberações legislativas da Casa (trancamento da pauta - art. 62, § 6º, CF/88).
->
-> **Gabarito: B**
 
 ### Teste 149
 **(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**  
@@ -256,26 +264,28 @@ Assinale a opção que indica o órgão que auxilia o controle externo da Câmar
 > **Gabarito: B**
 
 ### Teste 150
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A Câmara Municipal de determinado município goiano recebeu o parecer prévio desfavorável emitido pelo Tribunal de Contas sobre as contas anuais de governo prestadas pelo Prefeito. Considerando a jurisprudência fixada pelo STF em repercussão geral (Temas 157 e 835), analise as regras de julgamento:
+**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Banco de Dados – 2023)**
+Pedro, estudante de direito, foi questionado por seu professor em relação às fases do processo legislativo para a elaboração de uma lei orgânica municipal. De acordo com Pedro: (1) o projeto deve ser aprovado em dois turnos de votação; (2) pelo voto de dois terços dos membros da Câmara Municipal; e (3) com a sanção do chefe do Poder Executivo. Ao analisar as afirmações de Pedro em relação ao processo legislativo, o professor observou, corretamente, que:
 
-* **A)** O parecer prévio do Tribunal de Contas tem natureza vinculante imediata e gera a inelegibilidade automática.
-* **B)** As contas do chefe do Executivo que atue como ordenador de despesas são julgadas em definitivo pelo Tribunal de Contas.
-* **C)** A Câmara de Vereadores só pode rejeitar o parecer prévio pelo voto da maioria simples dos parlamentares presentes.
-* **D)** Compete exclusivamente à Câmara Municipal o julgamento das contas do Prefeito, atuando o TC como órgão de auxílio.
-* **E)** O parecer prévio do Tribunal de Contas deixa de prevalecer se for impugnado por recurso de iniciativa popular local.
+* **A)** todas estão certas;
+* **B)** apenas a afirmação 2 está certa;
+* **C)** apenas a afirmação 3 está certa;
+* **D)** apenas a afirmação 1 e 2 estão certas;
+* **E)** apenas a afirmação 1 e 3 estão certas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. O parecer prévio tem caráter técnico-opinativo e não vincula de forma absoluta o Legislativo municipal.
-> - **B)** **Incorreto**. O STF fixou nos Temas 157 e 835 que, para fins de inelegibilidade (art. 1º, I, 'g', da LC 64/90), a competência para julgar TODAS as contas prestadas por Prefeito (sejam contas de governo ou de gestão/ordenador de despesas) é exclusiva da Câmara Municipal.
-> - **C)** **Incorreto**. Conforme o art. 31, § 2º, da CF/88, o parecer prévio somente deixará de prevalecer por decisão de dois terços dos membros da Câmara Municipal (maioria qualificada).
-> - **D)** **Correto**. Consoante a tese vinculante do STF: para os fins da Lei Complementar nº 64/1990, a apreciação das contas de Prefeito, tanto as de governo quanto as de gestão, é de competência exclusiva do Poder Legislativo municipal, atuando o Tribunal de Contas apenas como órgão técnico auxiliar de assessoramento prévio.
-> - **E)** **Incorreto**. A derrubada do parecer técnico exige estritamente a deliberação qualificada de 2/3 dos vereadores.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "todas estão certas". De acordo com a teoria estudada em *1.2 Repartição de Competências no Congresso Nacional*, competências Exclusivas do Congresso Nacional sem Sanção (Art. 49): Deliberadas em sessão conjunta ou separada e formalizadas por Decreto Legislativo, sem qualquer interferência presidencial (ex.: sustar atos normativos do Executivo que exorbitem do poder regulamentar; autorizar o Presidente a declarar guerra ou celebrar a paz; julgar anualmente as contas prestadas pelo Presidente da República).
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "apenas a afirmação 2 está certa". De acordo com a teoria estudada em *1. Estrutura Bicameral e Atribuições das Casas Legislativas*, o Poder Legislativo da União é exercido pelo Congresso Nacional, que se compõe da Câmara dos Deputados e do Senado Federal (modelo bicameral federativo).
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "apenas a afirmação 3 está certa". De acordo com a teoria estudada em *1.1 Modelo Bicameral Federal e Unicameral Estadual/Municipal*, enquanto na esfera federal vigora o bicameralismo, nos demais entes da Federação o Poder Legislativo adota compulsoriamente a estrutura unicameral.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.2 Repartição de Competências no Congresso Nacional* deste guia, *Câmara dos Deputados (Art. 51, I):* Autorizar, por dois terços de seus membros, a instauração de processo contra o Presidente e o Vice-Presidente da República e os Ministros de Estado. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "apenas a afirmação 1 e 2 estão certas".
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "apenas a afirmação 1 e 3 estão certas". De acordo com a teoria estudada em *1. Estrutura Bicameral e Atribuições das Casas Legislativas*, a representação é renovada de quatro em quatro anos, alternadamente, por um terço (1/3) e dois terços (2/3).
 >
 > **Gabarito: D**
+
+---
 
 ### Teste 151
 **(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**  
@@ -300,46 +310,50 @@ Compete ao Tribunal de Contas do Estado de Goiás:
 > **Gabarito: A**
 
 ### Teste 152
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O Plenário do Tribunal de Contas do Estado de Goiás, ao fiscalizar a legalidade da folha de pagamento de determinado órgão estadual, deparou-se com gratificação instituída por lei cuja compatibilidade com o teto constitucional era duvidosa. À luz da Súmula 347 do STF e da jurisprudência recente da Suprema Corte sobre o tema, analise a atuação da Corte de Contas:
+**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Banco de Dados – 2023)**
+A Assembleia Legislativa do Estado Alfa recebeu uma proposição legislativa que tem por objeto a alteração das atribuições de certo órgão colegiado da Administração Superior do Ministério Público do Estado. Considerando os balizamentos estabelecidos pela Constituição da República a respeito das normas que estabelecem a organização, as atribuições e o estatuto de cada Ministério Público, é correto afirmar que a proposição legislativa precisa ter a natureza de:
 
-* **A)** O Tribunal de Contas pode declarar formalmente a inconstitucionalidade de lei estadual com efeitos erga omnes.
-* **B)** O Tribunal de Contas pode afastar incidenter tantum a aplicação de lei manifestamente contrária à Constituição.
-* **C)** É vedado ao Tribunal de Contas recusar a aplicação de ato normativo estadual mesmo diante de ofensa à Carta Magna.
-* **D)** O Tribunal de Contas exerce fiscalização abstrata de constitucionalidade quando provocado por representação da Mesa.
-* **E)** A recusa de aplicação de ato legislativo pela Corte de Contas depende de autorização do Tribunal de Justiça estadual.
+* **A)** projeto de lei ordinária, de iniciativa privativa do governador do Estado;
+* **B)** projeto de lei ordinária, de iniciativa privativa do Colégio de Procuradores de Justiça;
+* **C)** projeto de lei complementar, de iniciativa privativa do procurador-geral de Justiça;
+* **D)** proposta de emenda constitucional, podendo ter sido apresentada por qualquer legitimado para a reforma;
+* **E)** projeto de lei complementar, podendo ter sido apresentado pelo procurador-geral de Justiça ou pelo governador do Estado.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. O Tribunal de Contas não integra o Poder Judiciário e não realiza controle concentrado ou abstrato de constitucionalidade com eficácia erga omnes.
-> - **B)** **Correto**. Conforme o enunciado da Súmula 347 do STF: "O Tribunal de Contas, no exercício de suas atribuições, pode apreciar a constitucionalidade das leis e dos atos do Poder Público". Embora o STF venha modulando esse poder em precedentes recentes (como nos mandados de segurança sobre declaração geral de inconstitucionalidade), a jurisprudência tradicional das bancas de concurso reconhece a prerrogativa do Tribunal de Contas de afastar, incidentalmente e para o caso concreto sob seu exame, a aplicação de lei incompatível com a CF/88.
-> - **C)** **Incorreto**. O controle difuso/incidental no exercício da atividade fiscalizatória é assegurado pela Súmula 347.
-> - **D)** **Incorreto**. A fiscalização abstrata é exclusiva do Poder Judiciário via ADI perante o TJ ou STF.
-> - **E)** **Incorreto**. A apreciação incidental pelo Tribunal de Contas independe de autorização do Poder Judiciário.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "projeto de lei ordinária, de iniciativa privativa do governador do Estado". De acordo com a teoria estudada em *1.3 Estatuto dos Congressistas e Imunidades Parlamentares*, o art. 53 da Constituição consagra o plexo de garantias institucionais dos membros do Congresso Nacional.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "projeto de lei ordinária, de iniciativa privativa do Colégio de Procuradores de Justiça". De acordo com a teoria estudada em *1.1 Modelo Bicameral Federal e Unicameral Estadual/Municipal*, distrito Federal: Câmara Legislativa do Distrito Federal, composta por Deputados Distritais (art. 32, § 2º).
+> - **C)** **Correta.** Conforme fundamentado na seção *1.2 Repartição de Competências no Congresso Nacional* deste guia, *Senado Federal (Art. 52, I e II):* Processar e julgar o Presidente e Vice-Presidente nos crimes de responsabilidade, bem como os Ministros do STF, os membros do CNJ e CNMP, o Procurador-Geral da República e o Advogado-Geral da União; sabatinar e aprovar a escolha de magistrados, Ministros do TCU e chefes de missão diplomática; suspender a execução, no todo ou em parte, de lei declarada inconstitucional por decisão definitiva do STF em controle difuso. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "projeto de lei complementar, de iniciativa privativa do procurador-geral de Justiça".
+> - **D)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "proposta de emenda constitucional, podendo ter sido apresentada por qualquer legitimado para a reforma". De acordo com a teoria estudada em *1.2 Repartição de Competências no Congresso Nacional*, competências Exclusivas do Congresso Nacional sem Sanção (Art. 49): Deliberadas em sessão conjunta ou separada e formalizadas por Decreto Legislativo, sem qualquer interferência presidencial (ex.: sustar atos normativos do Executivo que exorbitem do poder regulamentar; autorizar o Presidente a declarar guerra ou celebrar a paz; julgar anualmente as contas prestadas pelo Presidente da República).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "projeto de lei complementar, podendo ter sido apresentado pelo procurador-geral de Justiça ou pelo governador do...". De acordo com a teoria estudada em *1.2 Repartição de Competências no Congresso Nacional*, competências com Sanção Presidencial (Art. 48): Matérias deliberadas pelo Congresso Nacional que geram leis e demandam envio ao Presidente da República para sanção ou veto (ex.: sistema tributário, planos orçamentários, criação e extinção de cargos públicos).
 >
-> **Gabarito: B**
+> **Gabarito: C**
+
+---
 
 ### Teste 153
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A fiscalização dos municípios é exercida pelo Poder Legislativo com o auxílio do Tribunal de Contas competente. Em relação à organização dos Tribunais de Contas municipais no direito brasileiro e à vedação expressa do art. 31, § 4º, da Constituição Federal, é correto afirmar:
+**(FGV – TCE-GO – Analista de Controle Externo Juridica – 2024)**
+O Chefe do Poder Executivo do Estado Alfa encaminhou o projeto de lei orçamentária anual à Assembleia Legislativa. Poucos dias depois, foi comunicado pelo Procurador-Geral de Justiça de que a proposta subscrita por este agente, referente à estrutura por ele chefiada, carecia de pequena alteração. À luz da sistemática da Constituição da República, aplicável por simetria ao Estado Alfa, é correto afirmar, em relação à alteração pretendida, que ela
 
-* **A)** É permitida a criação de novos Tribunais de Contas municipais em cidades com mais de dois milhões de habitantes.
-* **B)** É vedada a criação de novos Tribunais, Conselhos ou órgãos de Contas Municipais após a promulgação da CF/88.
-* **C)** Os Tribunais de Contas dos Municípios do Rio de Janeiro e de São Paulo foram compulsoriamente extintos pela CF/88.
-* **D)** O Estado federado não pode criar Tribunal de Contas dos Municípios dotado de jurisdição estadual compartilhada.
-* **E)** A competência fiscalizatória dos Tribunais de Contas estaduais sobre os Municípios foi delegada a conselhos distritais.
+* **A)** não pode ser promovida, considerando a ocorrência da preclusão consumativa no processo legislativo.
+* **B)** somente pode ser promovida pelo Governador do Estado, enquanto não iniciada a votação em Plenário.
+* **C)** somente pode ser promovida pelo Governador do Estado, por meio de proposição suplementar, enquanto não encerrada a apreciação do projeto pela Comissão competente.
+* **D)** somente pode ser promovida pelo Procurador-Geral de Justiça, considerando a autonomia financeira do Ministério Público, enquanto não iniciada a votação em Plenário.
+* **E)** somente pode ser promovida pelo Governador do Estado, por meio de mensagem, enquanto não iniciada a votação, na Comissão competente, da parte cuja alteração é proposta.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A proibição da CF/88 é categórica e independe do número de habitantes ou da capacidade orçamentária do Município.
-> - **B)** **Correto**. O art. 31, § 4º, da Constituição Federal dispõe taxativamente: "É vedada a criação de Tribunais, Conselhos ou órgãos de Contas Municipais". A vedação aplica-se a quaisquer novos órgãos municipais de contas criados a partir de 5 de outubro de 1988.
-> - **C)** **Incorreto**. Os Tribunais de Contas dos Municípios de São Paulo e do Rio de Janeiro já existiam antes de 1988 e foram recepcionados pela ordem constitucional vigente.
-> - **D)** **Incorreto**. A jurisprudência do STF autoriza a existência de Tribunais de Contas dos Municípios (órgãos estaduais com competência sobre os municípios, como ocorria na Bahia, Pará e Goiás), desde que instituídos antes de restrições ou conforme a ordem constitucional.
-> - **E)** **Incorreto**. A fiscalização é exercida diretamente pelos Tribunais de Contas constitucionais.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não pode ser promovida, considerando a ocorrência da preclusão consumativa no processo legislativo". De acordo com a teoria estudada em *1.1 Modelo Bicameral Federal e Unicameral Estadual/Municipal*, enquanto na esfera federal vigora o bicameralismo, nos demais entes da Federação o Poder Legislativo adota compulsoriamente a estrutura unicameral.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente pode ser promovida pelo Governador do Estado, enquanto não iniciada a votação em Plenário". De acordo com a teoria estudada em *1.3 Estatuto dos Congressistas e Imunidades Parlamentares*, imunidade Formal (Processual) quanto à Prisão (Art. 53, § 2º): Desde a expedição do diploma, os membros do Congresso Nacional não poderão ser presos, salvo em flagrante de crime inafiançável.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente pode ser promovida pelo Governador do Estado, por meio de proposição suplementar, enquanto não encerrada a...". De acordo com a teoria estudada em *1.3 Estatuto dos Congressistas e Imunidades Parlamentares*, conforme tese firmada pelo STF na AP 937 e reafirmada pelo plenário, o foro especial aplica-se apenas aos crimes cometidos durante o exercício do mandato e relacionados com as funções parlamentares.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.2 Repartição de Competências no Congresso Nacional* deste guia, *Senado Federal (Art. 52, I e II):* Processar e julgar o Presidente e Vice-Presidente nos crimes de responsabilidade, bem como os Ministros do STF, os membros do CNJ e CNMP, o Procurador-Geral da República e o Advogado-Geral da União; sabatinar e aprovar a escolha de magistrados, Ministros do TCU e chefes de missão diplomática; suspender a execução, no todo ou em parte, de lei declarada inconstitucional por decisão definitiva do STF em controle difuso. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "somente pode ser promovida pelo Procurador-Geral de Justiça, considerando a autonomia financeira do Ministério...".
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente pode ser promovida pelo Governador do Estado, por meio de mensagem, enquanto não iniciada a votação, na...". De acordo com a teoria estudada em *1.2 Repartição de Competências no Congresso Nacional*, competências Exclusivas do Congresso Nacional sem Sanção (Art. 49): Deliberadas em sessão conjunta ou separada e formalizadas por Decreto Legislativo, sem qualquer interferência presidencial (ex.: sustar atos normativos do Executivo que exorbitem do poder regulamentar; autorizar o Presidente a declarar guerra ou celebrar a paz; julgar anualmente as contas prestadas pelo Presidente da República).
 >
-> **Gabarito: B**
+> **Gabarito: D**
+
+---
 

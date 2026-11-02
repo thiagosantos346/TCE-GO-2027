@@ -87,245 +87,266 @@ As deliberações do Tribunal de Contas proferidas no julgamento de relatórios 
 ---
 
 ### Teste 198
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A respeito da comunicação dos resultados das fiscalizações e da tramitação processual dos relatórios de auditoria no âmbito dos Tribunais de Contas, analise as proposições:
+**(FGV – TCE-PI – Auditor de Controle Externo Controle Externo Especifica de Area Comum – 2025)**
+Avalie as seguintes situações: I. João é prefeito do Município Beta e ordenador de despesas da respectiva Secretaria de Saúde. II. José é Secretário de Educação do Município Alfa. III. Manoel é Presidente de uma autarquia do Município Ômega. Todos os gestores elaboraram suas prestações de contas e as encaminharam ao órgão competente, não havendo quaisquer indícios de dano ou de irregularidades. Sobre as contas anuais (ou de gestão) prestadas pelos referidos gestores, assinale a afirmativa correta.
 
-* **A)** O relatório de auditoria é peça vinculante de julgamento, não admitindo emissão de parecer divergente pelo MPC competente.
-* **B)** A equipe de auditoria elabora relatório com achados, conclusões e propostas de encaminhamento ao relator.
-* **C)** O parecer prévio emitido sobre as contas do Governador submete-se a recurso ordinário de apelação perante o STF.
-* **D)** O plenário do Tribunal de Contas pode julgar processos em sessão secreta sem publicação prévia de pauta regimental.
-* **E)** As deliberações das Câmaras do Tribunal de Contas prescindem de fundamentação jurídica e motivação técnica expressa.
+* **A)** As contas do Prefeito do Município Beta serão julgadas pelo Tribunal de Contas.
+* **B)** As contas da Secretaria de Saúde do Município Beta serão julgadas pelo Tribunal de Contas.
+* **C)** As contas da Autarquia do Município Ômega serão julgadas pelo Ministério Público de Contas.
+* **D)** As contas da Secretaria de Saúde do Município Beta serão julgadas pela respectiva Câmara Municipal.
+* **E)** As contas da Secretaria de Educação do Município Alfa são de responsabilidade da respectiva Auditoria Interna. Noções de Direito Administrativo
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. O relatório de auditoria é peça técnica instrutória; o Ministério Público de Contas atua como fiscal da lei com parecer autônomo, e o colegiado julgador é livre para formar sua convicção motivada.
-> - **B)** **Correto**. Conforme as normas regimentais dos Tribunais de Contas e a NBASP 100/300: a equipe de auditoria encerra os trabalhos elaborando o relatório de auditoria, no qual apresenta a caracterização do órgão, os achados comprovados por evidências, as conclusões técnicas e as propostas de encaminhamento (determinações, recomendações, audiências, citações ou aplicação de sanções) submetidas à apreciação do Conselheiro Relator.
-> - **C)** **Incorreto**. O parecer prévio tem natureza opinativa técnico-política encaminhada à Assembleia Legislativa.
-> - **D)** **Incorreto**. O art. 73 c/c art. 93, IX, da CF/88 impõe a publicidade das sessões dos Tribunais de Contas, ressalvadas matérias de estrito sigilo indispensável.
-> - **E)** **Incorreto**. Todas as decisões do Tribunal de Contas devem ser fundamentadas sob pena de nulidade absoluta.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "As contas do Prefeito do Município Beta serão julgadas pelo Tribunal de Contas". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, o descumprimento injustificado de determinação enseja a aplicação de multa ao gestor reincidente e julgamento de contas irregulares.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "As contas da Secretaria de Saúde do Município Beta serão julgadas pelo Tribunal de Contas". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, tempestividade: Emissão do relatório no momento oportuno, em tempo hábil para evitar o perecimento do direito ou o agravamento do dano.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.2 Espécies de Deliberações: Determinações versus Recomendações* deste guia, as deliberações do Tribunal de Contas proferidas no julgamento de relatórios de auditoria e processos de fiscalização dividem-se em duas categorias fundamentais. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PI/2025) ao estabelecer que "As contas da Autarquia do Município Ômega serão julgadas pelo Ministério Público de Contas".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "As contas da Secretaria de Saúde do Município Beta serão julgadas pela respectiva Câmara Municipal". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, a comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "As contas da Secretaria de Educação do Município Alfa são de responsabilidade da respectiva Auditoria Interna...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, clareza: Linguagem acessível, técnica e compreensível para os leitores e cidadãos.
 >
-> **Gabarito: B**
+> **Gabarito: C**
+
+---
 
 ### Teste 199
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A Tomada de Contas Especial (TCE) é um processo administrativo formal que visa a apurar a responsabilidade por ocorrência de dano ao erário. A respeito dos pressupostos materiais para a instauração de TCE perante o controle externo, é correto afirmar:
+**(FGV – TCE-PI – Auditor de Controle Externo Controle Externo Especifica de Area Comum – 2025)**
+No curso de auditoria governamental para fiscalização da regularidade dos contratos de fornecimento de merendas escolares para a Escola Municipal Alfa, os auditores de controle externo do TCE-PI verificaram fortes indícios de superfaturamento dos contratos, oriundos de conduta dolosa de agentes públicos, sob a chefia do Secretário Municipal de Educação. Percebendo que o avanço das investigações levaria inexoravelmente à descoberta de seu envolvimento nos danos causados ao erário, o secretário tomou providências para impedir a atuação da equipe de auditores, se negando a permitir sua entrada nas dependências da Secretaria, bem como negando o acesso às informações e aos documentos requisitados por ela. Ante a frustração da execução da auditoria, a equipe de auditores reportou o fato ao corpo deliberativo da Corte de Contas, sugerindo a aplicação de medidas que garantam a continuidade dos trabalhos. Ciente da situação, a Corte de Contas determinará,
 
-* **A)** Instala-se diante de omissão na prestação de contas, desfalque, desvio de bens ou prática de ato ilegal lesivo ao erário.
-* **B)** Deve ser instaurada de imediato pelo órgão de origem sem necessidade de esgotamento das medidas administrativas internas.
-* **C)** Pode ser instaurada mesmo quando o valor do dano for inferior ao limite mínimo fixado para cobrança pelo Tribunal de Contas.
-* **D)** É instrumento privativo para apuração de infrações disciplinares leves cometidas por servidores estáveis em comissão.
-* **E)** Prescinde da quantificação precisa do débito e da identificação individualizada dos responsáveis pelo prejuízo público.
+* **A)** cautelarmente, o julgamento das contas de Bruno irregulares, por deliberação do Conselheiro relator.
+* **B)** cautelarmente, o afastamento temporário de Bruno, por deliberação da maioria absoluta do colegiado competente.
+* **C)** definitivamente, o afastamento de Bruno, por deliberação da maioria relativa do colegiado competente, em voto secreto.
+* **D)** cautelarmente, o ressarcimento ao erário pelos danos decorrentes do superfaturamento dos contratos, ainda que não liquidados.
+* **E)** cautelarmente, a realização de monitoramento, com escolta da equipe de auditores pela polícia militar, visando garantir a continuidade da auditoria.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correto**. Conforme o art. 71, II, da CF/88 e a Lei Orgânica do Tribunal de Contas: diante da omissão no dever de prestar contas, da não comprovação da aplicação dos recursos, da ocorrência de desfalque, desvio de dinheiro, bens ou valores públicos, ou da prática de qualquer ato ilegal, ilegítimo ou antieconômico de que resulte dano ao erário, a autoridade administrativa competente é obrigada, sob pena de responsabilidade solidária, a instaurar a Tomada de Contas Especial (TCE) para identificar os responsáveis e quantificar o dano.
-> - **B)** **Incorreto**. A TCE é medida de exceção que pressupõe o prévio esgotamento das providências administrativas internas de cobrança.
-> - **C)** **Incorreto**. Os TCs fixam valores de alçada (critério de insignificância/racionalidade administrativa) abaixo dos quais a TCE é arquivada ou consolidada em demonstrativo.
-> - **D)** **Incorreto**. Infrações disciplinares sem dano ao erário são apuradas via PAD disciplinar interno.
-> - **E)** **Incorreto**. São pressupostos indispensáveis da TCE a comprovação do dano, sua quantificação e a individualização dos responsáveis.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "cautelarmente, o julgamento das contas de Bruno irregulares, por deliberação do Conselheiro relator". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, o descumprimento injustificado de determinação enseja a aplicação de multa ao gestor reincidente e julgamento de contas irregulares.
+> - **B)** **Correta.** Conforme fundamentado na seção *1.1 Atributos do Relatório de Auditoria* deste guia, a comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PI/2025) ao estabelecer que "cautelarmente, o afastamento temporário de Bruno, por deliberação da maioria absoluta do colegiado competente".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "definitivamente, o afastamento de Bruno, por deliberação da maioria relativa do colegiado competente, em voto...". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, as deliberações do Tribunal de Contas proferidas no julgamento de relatórios de auditoria e processos de fiscalização dividem-se em duas categorias fundamentais.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "cautelarmente, o ressarcimento ao erário pelos danos decorrentes do superfaturamento dos contratos, ainda que não...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, precisão: Informações exatas, lastreadas em evidências idôneas e documentação incontestável.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "cautelarmente, a realização de monitoramento, com escolta da equipe de auditores pela polícia militar, visando...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, completude: Inclusão de todos os dados necessários para o perfeito entendimento do fato e formulação do juízo de mérito.
 >
-> **Gabarito: A**
+> **Gabarito: B**
+
+---
 
 ### Teste 200
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A respeito da Tomada de Contas Especial (TCE) perante o sistema constitucional de controle externo e sua tramitação no Tribunal de Contas, analise as proposições:
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Administracao – 2024)**
+O órgão de auditoria interna da Secretaria de Estado de Saúde do Pará identificou desfalques na gestão de medicamentos que resultaram em danos da ordem de R$80.000,00 ao erário. Imediatamente, a auditoria interna oficiou a autoridade administrativa competente, que instaurou sindicância para apurar os fatos e, após quarenta dias, confirmou que: a) O dano apurado fora de R$84.000,00. b) Os atos danosos não decorreram de conduta dolosa dos servidores envolvidos. No mesmo prazo, a autoridade administrativa obteve o ressarcimento integral do dano. Considerando as normas do RITCE-PA aplicáveis à situação hipotética, assinale a opção que apresenta a medida a ser adotada pela autoridade administrativa da Secretaria de Saúde.
 
-* **A)** A citação do responsável no processo de TCE constitui faculdade instrutória exercida a critério discricionário do relator.
-* **B)** A comprovação de ausência de dolo na conduta exime o gestor do dever de ressarcimento integral do dano patrimonial apurado.
-* **C)** A instauração da TCE é obrigação da autoridade administrativa de origem sob pena de responsabilidade solidária funcional.
-* **D)** O falecimento do responsável extingue imediatamente o processo de TCE sem possibilidade de cobrança perante o espólio.
-* **E)** O Tribunal de Contas não pode decretar medidas cautelares como a indisponibilidade de bens no curso de processo de TCE.
+* **A)** Instaurar tomada de contas especial e encaminhar o processo ao TCE-PA no prazo de 120 dias.
+* **B)** Anular o processo de sindicância em razão de inobservância do prazo de 30 (trinta) dias para sua conclusão e determinar a instauração de tomada de contas especial.
+* **C)** Converter o processo de sindicância em tomada de contas especial e, independentemente dos valores envolvidos, encaminhar o resultado da apuração ao TCE-PA para julgamento.
+* **D)** Arquivar o processo, pois não há mais necessidade de instauração de tomada de contas e nem de seu encaminhamento ao TCE-PA.
+* **E)** Encaminhar os autos ao Ministério Público de Contas junto ao TCE-PA para adoção das medidas necessárias à ação de improbidade administrativa a ser processada pela Corte de Contas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A citação válida do responsável é ato obrigatório e garantia indispensável do contraditório e da ampla defesa (Súmula Vinculante 3 do STF).
-> - **B)** **Incorreto**. A responsabilidade civil de recomposição do erário alcança o dolo e a culpa (negligência, imprudência ou imperícia grave), não exigindo dolo para o dever de ressarcimento.
-> - **C)** **Correto**. O art. 8º da Lei nº 8.443/1992 e normas correlatas dos Tribunais de Contas estaduais estabelecem expressamente que, diante da ocorrência de dano ao erário, a autoridade administrativa competente deve instaurar a TCE imediatamente, sob pena de responder solidariamente com o agente causador do prejuízo.
-> - **D)** **Incorreto**. Conforme o art. 5º, XLV, da CF/88, a obrigação de reparar o dano e a decretação de perdimento de bens estendem-se aos sucessores e contra eles podem ser executadas até o limite do valor do patrimônio transferido pela herança.
-> - **E)** **Incorreto**. O Tribunal de Contas detém competência implícita e expressa para determinar cautelarmente a indisponibilidade de bens dos responsáveis (art. 71 c/c art. 44 da LOTCU).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Instaurar tomada de contas especial e encaminhar o processo ao TCE-PA no prazo de 120 dias". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, o descumprimento injustificado de determinação enseja a aplicação de multa ao gestor reincidente e julgamento de contas irregulares.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Anular o processo de sindicância em razão de inobservância do prazo de 30 (trinta) dias para sua conclusão e...". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, determinações: Provimentos mandamentais vinculantes que impõem à autoridade administrativa a obrigação jurídica de fazer ou deixar de fazer algo para sanar ilegalidade, anular ato viciado ou adequar condutas ao ordenamento jurídico.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Converter o processo de sindicância em tomada de contas especial e, independentemente dos valores envolvidos...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, tempestividade: Emissão do relatório no momento oportuno, em tempo hábil para evitar o perecimento do direito ou o agravamento do dano.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.2 Espécies de Deliberações: Determinações versus Recomendações* deste guia, as deliberações do Tribunal de Contas proferidas no julgamento de relatórios de auditoria e processos de fiscalização dividem-se em duas categorias fundamentais. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "Arquivar o processo, pois não há mais necessidade de instauração de tomada de contas e nem de seu encaminhamento...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Encaminhar os autos ao Ministério Público de Contas junto ao TCE-PA para adoção das medidas necessárias à ação de...". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, recomendações: Provimentos pedagógicos e propositivos destinados a orientar o gestor sobre oportunidades de melhoria de desempenho, aprimoramento de rotinas gerenciais e governança pública, no campo da discricionariedade administrativa.
 >
-> **Gabarito: C**
+> **Gabarito: D**
+
+---
 
 ### Teste 201
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No processo de tomada ou prestação de contas submetido ao julgamento do Tribunal de Contas, as contas dos gestores serão julgadas:
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Administracao – 2024)**
+Ao realizar uma fiscalização de contas em um órgão de estadual jurisdicionado ao TCE-PA, a equipe de auditoria evidenciou a prática de atos danosos ao erário. No mesmo processo, apurou-se os fatos e atos que resultaram no dano quantificado em R$ 550 mil, bem como o nexo de causalidade entre as condutas dos responsáveis e o dano apurado, sendo-lhes imputado o débito naquele valor após julgamento em que lhes fora assegurado o contraditório e a ampla defesa. Nessa hipótese e considerando as disposições da LOTCE-PA, o Tribunal poderá aplicar aos responsáveis a sanção de:
 
-* **A)** regulares, regulares com ressalva, irregulares ou iliquidáveis.
-* **B)** procedentes, parcialmente procedentes, improcedentes ou arquivadas.
-* **C)** válidas, anuláveis, nulas de pleno direito ou revogadas.
-* **D)** prescritas, decadentes, suspensas ou submetidas a transação.
-* **E)** homologadas, rejeitadas, convertidas em diligência ou embargadas.
+* **A)** Multa de até R$ 550 mil independentemente do ressarcimento.
+* **B)** Demissão dos agentes públicos envolvidos, caso sejam ocupantes de cargos efetivos.
+* **C)** Multa de até 14.000 (quatorze mil) vezes a Unidade Padrão Fiscal do Estado do Pará
+* **D)** Declaração da irregularidade das contas pela prática de ato antieconômico.
+* **E)** Indisponibilidade dos bens e multa de até 14.000 (quatorze mil) vezes a Unidade Padrão Fiscal do Estado do Pará.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correto**. Conforme o art. 16 da Lei nº 8.443/1992 (LOTCU) e legislações orgânicas dos Tribunais de Contas estaduais (inclusive LOTCE-GO): as contas serão julgadas regulares (dão quitação plena), regulares com ressalva (dão quitação com determinações de correções), irregulares (ensejam imputação de débito e/ou multa) ou iliquidáveis (quando caso fortuito ou força maior impedir o julgamento de mérito, ordenando-se seu trancamento).
-> - **B)** **Incorreto**. Terminologia típica de petições e ações cíveis ordinárias.
-> - **C)** **Incorreto**. Classificação afeta à teoria das nulidades do ato administrativo.
-> - **D)** **Incorreto**. Institutos de extinção de crédito tributário e obrigações civis.
-> - **E)** **Incorreto**. Termos processuais não coincidentes com a tipologia legal de decisão de contas.
+> - **A)** **Correta.** Conforme fundamentado na seção *1.2 Espécies de Deliberações: Determinações versus Recomendações* deste guia, o descumprimento injustificado de determinação enseja a aplicação de multa ao gestor reincidente e julgamento de contas irregulares. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "Multa de até R$ 550 mil independentemente do ressarcimento".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Demissão dos agentes públicos envolvidos, caso sejam ocupantes de cargos efetivos". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, as deliberações do Tribunal de Contas proferidas no julgamento de relatórios de auditoria e processos de fiscalização dividem-se em duas categorias fundamentais.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Multa de até 14.000 (quatorze mil) vezes a Unidade Padrão Fiscal do Estado do Pará". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, tempestividade: Emissão do relatório no momento oportuno, em tempo hábil para evitar o perecimento do direito ou o agravamento do dano.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Declaração da irregularidade das contas pela prática de ato antieconômico". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, determinações: Provimentos mandamentais vinculantes que impõem à autoridade administrativa a obrigação jurídica de fazer ou deixar de fazer algo para sanar ilegalidade, anular ato viciado ou adequar condutas ao ordenamento jurídico.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Indisponibilidade dos bens e multa de até 14.000 (quatorze mil) vezes a Unidade Padrão Fiscal do Estado do Pará". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, a comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100.
 >
 > **Gabarito: A**
 
-### Teste 202
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Determinada autoridade administrativa, regularmente citada para apresentar defesa em processo de tomada de contas especial perante o Tribunal de Contas, permaneceu inerte, não apresentando justificativas no prazo fixado. A respeito dos efeitos da revelia no processo de controle externo, é correto afirmar:
+---
 
-* **A)** A revelia induz a confissão ficta imediata quanto a toda a matéria de fato articulada na auditoria.
-* **B)** A revelia enseja o prosseguimento do processo, decidindo o Tribunal com base nas provas constantes dos autos.
-* **C)** A ausência de resposta tempestiva obriga o Tribunal de Contas a extinguir o processo sem exame do mérito administrativo.
-* **D)** O gestor revel é sumariamente destituído de suas funções públicas por decisão do Conselheiro Relator.
-* **E)** O Tribunal de Contas deve renovar a citação por edital no Diário Oficial antes de proferir o acórdão.
+### Teste 202
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Administracao – 2024)**
+O Engenheiro João foi eleito prefeito de um município sob jurisdição de Tribunal de Contas do Estado do Alfa. Ao iniciar seu mandato, João assumiu a função de ordenador de despesas da Secretaria de Obras. Ao fim do seu primeiro ano de mandato, encaminhou ao Tribunal de Contas toda a documentação exigida para prestação de contas da Secretaria referente ao respectivo exercício financeiro. No entanto, o Tribunal verificou graves irregularidades na gestão da Secretaria de Obras e a prática de atos antieconômicos que resultaram em danos ao erário. Considerando a situação hipotética e a jurisprudência do Supremo Tribunal Federal, assinale a afirmativa correta quanto ao processamento e julgamento das contas de João no Tribunal de Contas Estadual (TCE).
+
+* **A)** O TCE poderá aplicar multa e imputar débito a João, mas essa medida depende da rejeição das contas pelo Poder Legislativo.
+* **B)** O TCE deverá elaborar parecer prévio e submetê-lo à apreciação do legislativo municipal que somente o rejeitará por decisão de 2/3 de seus membros.
+* **C)** O TCE deverá julgar diretamente as contas de João como irregulares, aplicando-lhe as penalidades cabíveis.
+* **D)** O Tribunal poderá determinar o afastamento temporário de João do seu cargo de Secretário e de Prefeito, até que seja proferida a decisão de mérito.
+* **E)** O Tribunal deverá sobrestar o julgamento e considerar as contas iliquidáveis, tendo em vista a impossibilidade de julgamento.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. No processo perante os Tribunais de Contas vigora o princípio da verdade material. A revelia não opera os efeitos civis automáticos da presunção de veracidade absoluta de fatos não comprovados.
-> - **B)** **Correto**. A revelia do responsável citado perante o Tribunal de Contas não impede o julgamento: o processo terá prosseguimento regular para todos os efeitos e o Tribunal decidirá com base nos elementos fáticos, provas e evidências documentais acostadas aos autos pela equipe de fiscalização (art. 12, § 3º, da Lei 8.443/1992 e LOTCE-GO).
-> - **C)** **Incorreto**. O processo segue para julgamento de mérito com base na prova produzida.
-> - **D)** **Incorreto**. Cortes de Contas não decretam perda automática de cargo por mera revelia processual.
-> - **E)** **Incorreto**. Sendo válida a citação inicial pessoal ou postal, não há repetição por edital.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O TCE poderá aplicar multa e imputar débito a João, mas essa medida depende da rejeição das contas pelo Poder...". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, o descumprimento injustificado de determinação enseja a aplicação de multa ao gestor reincidente e julgamento de contas irregulares.
+> - **B)** **Correta.** Conforme fundamentado na seção *1.2 Espécies de Deliberações: Determinações versus Recomendações* deste guia, as deliberações do Tribunal de Contas proferidas no julgamento de relatórios de auditoria e processos de fiscalização dividem-se em duas categorias fundamentais. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "O TCE deverá elaborar parecer prévio e submetê-lo à apreciação do legislativo municipal que somente o rejeitará...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O TCE deverá julgar diretamente as contas de João como irregulares, aplicando-lhe as penalidades cabíveis". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, precisão: Informações exatas, lastreadas em evidências idôneas e documentação incontestável.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O Tribunal poderá determinar o afastamento temporário de João do seu cargo de Secretário e de Prefeito, até que...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, completude: Inclusão de todos os dados necessários para o perfeito entendimento do fato e formulação do juízo de mérito.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O Tribunal deverá sobrestar o julgamento e considerar as contas iliquidáveis, tendo em vista a impossibilidade de...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, a comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100.
 >
 > **Gabarito: B**
+
+---
 
 ### Teste 203
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Um Tribunal de Contas estadual, ao analisar o processo de prestação de contas de uma autarquia, identificou grave infração a norma legal de licitações praticada pelo diretor presidente, embora sem demonstração de locupletamento pessoal direto. Nesse caso, quanto ao poder sancionatório do Tribunal de Contas, é correto afirmar que a Corte:
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Administracao – 2026)**
+O Secretário de Estado, Sérgio, deixou de prestar contas a respeito da aquisição de materiais de escritório para as 10 unidades administrativas das quais é gestor, o que acarretou a instauração de tomada de contas por parte do Tribunal de Contas de Santa Catarina. Considerando as espécies de decisão que podem ser proferidas em respectivo processo, assinale a afirmativa correta.
 
-* **A)** não pode aplicar sanção ao responsável na ausência de comprovação de dano financeiro efetivo ao patrimônio público.
-* **B)** pode aplicar sanção de multa pecuniária proporcional à gravidade da infração apurada.
-* **C)** pode condenar o responsável a pena privativa de liberdade em regime aberto pelo crime praticado.
-* **D)** depende de ação judicial promovida pelo Ministério Público Estadual para imposição de penalidade.
-* **E)** pode decretar a cassação definitiva da cidadania e dos direitos políticos do gestor faltoso.
+* **A)** Definitiva é a decisão pela qual o Tribunal julga regulares, regulares com ressalva ou irregulares as contas.
+* **B)** Definitiva é a decisão pela qual o Tribunal julga parcialmente regulares, regulares com observações ou irregulares as contas.
+* **C)** Terminativa é a decisão pela qual o Tribunal ordena o trancamento das contas que forem consideradas irregulares ou parcialmente irregulares.
+* **D)** Preliminar é a decisão pela qual o Tribunal, após se pronunciar quanto ao mérito das contas, resolve sobrestar o julgamento, ordenar a citação dos responsáveis ou, ainda, determinar as diligências necessárias ao saneamento do processo.
+* **E)** Preliminar é a decisão pela qual o Tribunal, após se pronunciar quanto ao mérito das contas, resolve arquivar, suspender o julgamento, ou, ainda, determinar o trancamento das contas consideradas iliquidáveis.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A competência sancionatória dos Tribunais de Contas (art. 71, VIII, CF/88) autoriza a aplicação de multa por ato praticado com grave infração a norma legal ou regulamentar, independentemente da ocorrência de dano financeiro ou desfalque.
-> - **B)** **Correto**. Conforme o art. 71, VIII, da CF/88: cabe ao Tribunal de Contas "aplicar aos responsáveis, em caso de ilegalidade de despesa ou irregularidade de contas, as sanções previstas em lei, que estabelecerá, entre outras cominações, multa proporcional ao dano causado ao erário" e multas punitivas autônomas pela prática de atos com grave infração à legislação orçamentária ou de licitações.
-> - **C)** **Incorreto**. Tribunais de Contas não possuem competência penal.
-> - **D)** **Incorreto**. O poder sancionatório administrativo das Cortes de Contas é direto e autoaplicável.
-> - **E)** **Incorreto**. A suspensão de direitos políticos decorre de sentença judicial transitada em julgado (art. 15 da CF/88).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Definitiva é a decisão pela qual o Tribunal julga regulares, regulares com ressalva ou irregulares as contas". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, o descumprimento injustificado de determinação enseja a aplicação de multa ao gestor reincidente e julgamento de contas irregulares.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Definitiva é a decisão pela qual o Tribunal julga parcialmente regulares, regulares com observações ou irregulares...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, completude: Inclusão de todos os dados necessários para o perfeito entendimento do fato e formulação do juízo de mérito.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Terminativa é a decisão pela qual o Tribunal ordena o trancamento das contas que forem consideradas irregulares ou...". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, recomendações: Provimentos pedagógicos e propositivos destinados a orientar o gestor sobre oportunidades de melhoria de desempenho, aprimoramento de rotinas gerenciais e governança pública, no campo da discricionariedade administrativa.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Preliminar é a decisão pela qual o Tribunal, após se pronunciar quanto ao mérito das contas, resolve sobrestar o...". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, determinações: Provimentos mandamentais vinculantes que impõem à autoridade administrativa a obrigação jurídica de fazer ou deixar de fazer algo para sanar ilegalidade, anular ato viciado ou adequar condutas ao ordenamento jurídico.
+> - **E)** **Correta.** Conforme fundamentado na seção *1.2 Espécies de Deliberações: Determinações versus Recomendações* deste guia, as deliberações do Tribunal de Contas proferidas no julgamento de relatórios de auditoria e processos de fiscalização dividem-se em duas categorias fundamentais. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "Preliminar é a decisão pela qual o Tribunal, após se pronunciar quanto ao mérito das contas, resolve arquivar...".
 >
-> **Gabarito: B**
+> **Gabarito: E**
+
+---
 
 ### Teste 204
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A Lei nº 9.504/1997 (Lei das Eleições) atribui funções específicas aos Tribunais de Contas no contexto do processo eleitoral e na fiscalização das candidaturas públicas.  
-Assinale a opção que apresenta a atribuição legal cometida diretamente aos Tribunais de Contas pela legislação eleitoral:
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Administracao – 2026)**
+Após o devido processo, a sociedade Alfa foi responsabilizada em âmbito administrativo e judicial com base na Lei nº 12.846/2013, sendo aplicadas as penalidades proporcionais e adequadas, certo que na primeira esfera foi imposta a sanção de multa regularmente fixada e na segunda esfera as penas de perdimento dos bens e valores que representaram vantagem indevida e de proibição de receber incentivos, subsídios, subvenções, doações ou empréstimos de órgãos ou entidades públicas e de instituições financeiras públicas ou controladas pelo Poder Público, pelo prazo de 3 (três) anos, além da determinação de reparação integral do dano ocasionado. Considerando que a sociedade Alfa era controlada da sociedade Sigma ao tempo da infração, e que, após a mencionada penalização, foi incorporada pela sociedade Beta, bem como que é inequívoco que não houve simulação ou intuito de fraude nos aludidos arranjos societários, assinale a afirmativa correta à luz da Lei Anticorrupção (Lei nº 12.846/2013).
 
-* **A)** promover eventos periódicos de capacitação institucional para os candidatos a mandatos executivos e legislativos.
-* **B)** fiscalizar a prestação de contas eleitorais de campanha apresentadas pelos diretórios dos partidos políticos.
-* **C)** fornecer à Justiça Eleitoral relação dos gestores que tiveram contas relativas a cargos públicos julgadas irregulares.
-* **D)** julgar originariamente a inelegibilidade eleitoral dos servidores públicos que pretendam concorrer a cargos políticos.
-* **E)** emitir certidão de quitação eleitoral aos agentes públicos que tiveram contas aprovadas com parecer favorável.
+* **A)** A sociedade Sigma, na qualidade de controladora de Alfa, não pode responder por nenhuma das sanções a esta aplicadas em decorrência da prática de ato lesivo à Administração Pública, diante de expressa vedação legal.
+* **B)** A responsabilidade de Beta, enquanto sucessora de Alfa, será restrita à obrigação de pagamento de multa e reparação integral do dano causado, até o limite do patrimônio transferido, não lhe sendo aplicáveis as demais sanções previstas na lei em comento.
+* **C)** As sociedades controladoras, como é o caso de Sigma, respondem subsidiariamente pela prática de ato lesivo à Administração Pública praticado por sua controlada Alfa, restringindo-se tal responsabilidade à obrigação de pagamento de multa
+* **D)** A subsistência da responsabilidade da sociedade Alfa restringe-se às hipóteses de alteração contratual, fusão ou cisão, não sendo aplicável aos casos de incorporação, razão pela qual a sociedade Beta, na qualidade de sucessora, não responde por qualquer das mencionadas sanções.
+* **E)** Tanto a sociedade Sigma, controladora, quanto a sociedade Beta, que veio a incorporar a sociedade Alfa, respondem solidariamente pelas referidas sanções aplicadas pela prática de ato lesivo à Administração Pública, inexistindo restrição quanto à penalidades em que é passível a transferência de responsabilização.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A capacitação de candidatos é atribuição partidária ou de escolas de governo, não dever eleitoral do TC.
-> - **B)** **Incorreto**. O julgamento e a fiscalização das contas eleitorais de campanha cabem privativamente à Justiça Eleitoral (TREs e TSE).
-> - **C)** **Correto**. Nos expressos termos do art. 11, § 5º, da Lei nº 9.504/1997: "Até o dia 15 de agosto do ano da eleição, os Tribunais e Conselhos de Contas deverão disponibilizar à Justiça Eleitoral a relação dos que tiveram suas contas relativas ao exercício de cargos ou funções públicas rejeitadas por irregularidade insanável e por decisão irrecorrível do órgão competente, ressalvados os casos em que a questão estiver sendo submetida à apreciação do Poder Judiciário".
-> - **D)** **Incorreto**. A declaração de inelegibilidade e o indeferimento de registro de candidatura são matérias de competência privativa da Justiça Eleitoral.
-> - **E)** **Incorreto**. A quitação eleitoral é emitida exclusivamente pela Justiça Eleitoral.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A sociedade Sigma, na qualidade de controladora de Alfa, não pode responder por nenhuma das sanções a esta...". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, o descumprimento injustificado de determinação enseja a aplicação de multa ao gestor reincidente e julgamento de contas irregulares.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A responsabilidade de Beta, enquanto sucessora de Alfa, será restrita à obrigação de pagamento de multa e...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, tempestividade: Emissão do relatório no momento oportuno, em tempo hábil para evitar o perecimento do direito ou o agravamento do dano.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.2 Espécies de Deliberações: Determinações versus Recomendações* deste guia, determinações: Provimentos mandamentais vinculantes que impõem à autoridade administrativa a obrigação jurídica de fazer ou deixar de fazer algo para sanar ilegalidade, anular ato viciado ou adequar condutas ao ordenamento jurídico. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "As sociedades controladoras, como é o caso de Sigma, respondem subsidiariamente pela prática de ato lesivo à...".
+> - **D)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "A subsistência da responsabilidade da sociedade Alfa restringe-se às hipóteses de alteração contratual, fusão ou...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, a comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Tanto a sociedade Sigma, controladora, quanto a sociedade Beta, que veio a incorporar a sociedade Alfa, respondem...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, clareza: Linguagem acessível, técnica e compreensível para os leitores e cidadãos.
 >
 > **Gabarito: C**
+
+---
 
 ### Teste 205
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Contra acórdão proferido pelo Plenário do Tribunal de Contas que julgue irregulares as contas de determinado administrador público com imputação de débito e multa, a espécie recursal cabível, no prazo regimental de quinze dias e dotada de efeito suspensivo, é o:
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Ciencias Contabeis – 2026)**
+Após o devido processo, a sociedade Alfa foi responsabilizada em âmbito administrativo e judicial com base na Lei nº 12.846/2021, sendo aplicadas as penalidades proporcionais e adequadas, certo que na primeira esfera foi imposta a sanção de multa regularmente fixada e na segunda esfera as penas de perdimento dos bens e valores que representaram vantagem indevida e de proibição de receber incentivos, subsídios, subvenções, doações ou empréstimos de órgãos ou entidades públicas e de instituições financeiras públicas ou controladas pelo Poder Público, pelo prazo de 3 (três) anos, além da determinação de reparação integral do dano ocasionado. Considerando que a sociedade Alfa era controlada da sociedade Sigma ao tempo da infração, e que, após a mencionada penalização, foi incorporada pela sociedade Beta, bem como que é inequívoco que não houve simulação ou intuito de fraude nos aludidos arranjos societários, assinale a afirmativa correta à luz da Lei Anticorrupção (Lei nº 12.846/2021).
 
-* **A)** pedido de reexame de relatório.
-* **B)** recurso de apelação cível ordinária.
-* **C)** recurso de reconsideração de acórdão.
-* **D)** agravo regimental de despacho interno.
-* **E)** recurso especial de fiscalização externa.
+* **A)** A sociedade Sigma, na qualidade de controladora de Alfa, não pode responder por nenhuma das sanções a esta aplicadas em decorrência da prática de ato lesivo à Administração Pública, diante de expressa vedação legal.
+* **B)** A responsabilidade de Beta, enquanto sucessora de Alfa, será restrita à obrigação de pagamento de multa e reparação integral do dano causado, até o limite do patrimônio transferido, não lhe sendo aplicáveis as demais sanções previstas na lei em comento.
+* **C)** As sociedades controladoras, como é o caso de Sigma, respondem subsidiariamente pela prática de ato lesivo à Administração Pública praticado por sua controlada Alfa, restringindo-se tal responsabilidade à obrigação de pagamento de multa
+* **D)** A subsistência da responsabilidade da sociedade Alfa restringe-se às hipóteses de alteração contratual, fusão ou cisão, não sendo aplicável aos casos de incorporação, razão pela qual a sociedade Beta, na qualidade de sucessora, não responde por qualquer das mencionadas sanções.
+* **E)** Tanto a sociedade Sigma, controladora, quanto a sociedade Beta, que veio a incorporar a sociedade Alfa, respondem solidariamente pelas referidas sanções aplicadas pela prática de ato lesivo à Administração Pública, inexistindo restrição quanto à penalidades em que é passível a transferência de responsabilização.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. O Pedido de Reexame é a espécie recursal cabível contra decisões proferidas em processos de fiscalização (auditorias, inspeções, denúncias e representações), e não em processos de tomada ou prestação de contas (art. 48 da Lei 8.443/1992 e LOTCE-GO).
-> - **B)** **Incorreto**. Apelação é recurso judicial processual civil, inexistente na processualística interna dos Tribunais de Contas.
-> - **C)** **Correto**. Conforme o art. 32, I, c/c art. 33 da Lei Orgânica do Tribunal de Contas: de decisão definitiva proferida em processo de tomada ou prestação de contas cabe "Recurso de Reconsideração", formulado por escrito no prazo de 15 dias, dotado de efeito devolutivo e suspensivo.
-> - **D)** **Incorreto**. O agravo cabe contra despachos interlocutórios monocráticos do relator.
-> - **E)** **Incorreto**. Não existe tal figura processual no âmbito das Cortes de Contas.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A sociedade Sigma, na qualidade de controladora de Alfa, não pode responder por nenhuma das sanções a esta...". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, o descumprimento injustificado de determinação enseja a aplicação de multa ao gestor reincidente e julgamento de contas irregulares.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A responsabilidade de Beta, enquanto sucessora de Alfa, será restrita à obrigação de pagamento de multa e...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, tempestividade: Emissão do relatório no momento oportuno, em tempo hábil para evitar o perecimento do direito ou o agravamento do dano.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.2 Espécies de Deliberações: Determinações versus Recomendações* deste guia, determinações: Provimentos mandamentais vinculantes que impõem à autoridade administrativa a obrigação jurídica de fazer ou deixar de fazer algo para sanar ilegalidade, anular ato viciado ou adequar condutas ao ordenamento jurídico. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "As sociedades controladoras, como é o caso de Sigma, respondem subsidiariamente pela prática de ato lesivo à...".
+> - **D)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "A subsistência da responsabilidade da sociedade Alfa restringe-se às hipóteses de alteração contratual, fusão ou...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, a comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Tanto a sociedade Sigma, controladora, quanto a sociedade Beta, que veio a incorporar a sociedade Alfa, respondem...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, clareza: Linguagem acessível, técnica e compreensível para os leitores e cidadãos.
 >
 > **Gabarito: C**
 
-### Teste 206
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Sobre o sistema recursal no processo de controle externo perante o Tribunal de Contas, analise as hipóteses de cabimento do Recurso de Revisão:
+---
 
-* **A)** É cabível no prazo preclusivo de quinze dias contados da notificação do acórdão condenatório.
-* **B)** Tem natureza de ação rescisória e pode ser interposto em cinco anos fundado em superveniência de documentos.
-* **C)** É dotado de efeito suspensivo automático, impedindo a remessa da certidão de débito para execução fiscal fazendária.
-* **D)** Pode ser interposto por qualquer cidadão eleitor independentemente da demonstração de legítimo interesse processual.
-* **E)** Destina-se exclusivamente a corrigir erros materiais ou contradições evidentes no texto do acórdão proferido.
+### Teste 206
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Direito – 2026)**
+O Superior Tribunal de Justiça aprecia pedido de homologação de sentença estrangeira de divórcio. O Ministro Relator ordenou a citação do requerido, que foi realizada por oficial de justiça mediante ligação de voz pelo aplicativo WhatsApp, tendo o requerido conversado com o oficial durante a chamada, o que foi devidamente certificado nos autos. A respeito da citação por meio eletrônico no caso em referência, de acordo com a legislação processual civil à luz do atual posicionamento do Superior Tribunal de Justiça, a citação realizada é
+
+* **A)** válida, pois a citação por chamada de voz via WhatsApp equivale à citação pessoal, modalidade exigida pelo ordenamento processual brasileiro nas ações de estado;
+* **B)** inválida, pois a citação por chamada de voz ou por mensagem de texto via WhatsApp configuram citação por meio eletrônico vedada em ações de estado, sendo exigida a citação pessoal;
+* **C)** válida, pois o ordenamento admite citação por meio eletrônico nas ações de estado, desde que o oficial de justiça certifique que o requerido tomou conhecimento do ato, uma vez que o oficial detém fé pública e o resultado positivo do mandado confere validade ao ato citatório;
+* **D)** válida, pois, embora a citação por meio eletrônico seja vedada em ações de estado, a vedação aplica-se à citação por e-mail e sistemas processuais eletrônicos, não alcançando aplicativos de mensageria como o WhatsApp, que possui natureza híbrida;
+* **E)** inválida, pois a citação por chamada de voz via WhatsApp não pode ser comprovada pelo oficial de justiça, sendo válida, contudo, eventual citação por mensagem de texto via WhatsApp, desde que o oficial junte prints das mensagens trocadas com o citando atestando sua ciência.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. O recurso ordinário de reconsideração tem prazo de 15 dias. O Recurso de Revisão tem prazo decadencial amplo de 5 anos.
-> - **B)** **Correto**. Conforme o art. 35 da LOTCU e dispositivos correspondentes da LOTCE-GO: de decisão definitiva em processo de contas cabe "Recurso de Revisão" ao Plenário, sem efeito suspensivo, no prazo de cinco anos contados do trânsito administrativo, com natureza análoga à ação rescisória cível, fundado em erro de cálculo, falsidade de documento ou superveniência de documentos novos com eficácia probatória.
-> - **C)** **Incorreto**. O Recurso de Revisão não possui efeito suspensivo legal (art. 35 da LOTCU).
-> - **D)** **Incorreto**. Cabe apenas ao responsável, seus sucessores ou ao Ministério Público de Contas.
-> - **E)** **Incorreto**. A correção de erro material ou contradição dá-se pela via dos embargos de declaração (art. 34 da LOTCU).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "válida, pois a citação por chamada de voz via WhatsApp equivale à citação pessoal, modalidade exigida pelo...". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, determinações: Provimentos mandamentais vinculantes que impõem à autoridade administrativa a obrigação jurídica de fazer ou deixar de fazer algo para sanar ilegalidade, anular ato viciado ou adequar condutas ao ordenamento jurídico.
+> - **B)** **Correta.** Conforme fundamentado na seção *1.1 Atributos do Relatório de Auditoria* deste guia, a comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "inválida, pois a citação por chamada de voz ou por mensagem de texto via WhatsApp configuram citação por meio...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "válida, pois o ordenamento admite citação por meio eletrônico nas ações de estado, desde que o oficial de justiça...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, clareza: Linguagem acessível, técnica e compreensível para os leitores e cidadãos.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "válida, pois, embora a citação por meio eletrônico seja vedada em ações de estado, a vedação aplica-se à citação...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, concisão: Foco direto no que é materialmente relevante, sem prolixidade inútil.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "inválida, pois a citação por chamada de voz via WhatsApp não pode ser comprovada pelo oficial de justiça, sendo...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, precisão: Informações exatas, lastreadas em evidências idôneas e documentação incontestável.
 >
 > **Gabarito: B**
+
+---
 
 ### Teste 207
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Acerca dos reflexos eleitorais decorrentes das decisões terminativas e condenatórias dos Tribunais de Contas, a Lei Complementar nº 64/1990 (Lei das Inelegibilidades, art. 1º, I, alínea 'g') exige, para a configuração da inelegibilidade:
+**(FGV – TJ-SC – Analista Administrativo – 2026)**
+A sociedade empresária Alfa teria praticado atos lesivos ao Estado Beta, consistentes em alegada fraude à licitação praticada em detrimento da Secretaria de Estado de Educação do Poder Executivo do referido ente federativo. No curso do processo administrativo instaurado para a apuração dos fatos, o representante legal de Alfa cogitou a celebração de ajuste no âmbito da consensualidade de colaboração, conforme disciplina estabelecida na Lei nº 12.846/2013. Em relação ao ajuste cogitado pelo representante legal de Alfa, é correto afirmar que
 
-* **A)** aprovação com ressalvas das contas anuais e ausência de recurso ao Poder Judiciário.
-* **B)** rejeição de contas por falha insanável que configure ato doloso de improbidade por decisão irrecorrível.
-* **C)** condenação a multa administrativa de valor irrisório pelo descumprimento de prazos regimentais.
-* **D)** emissão de parecer prévio desfavorável pelo Tribunal de Contas sem necessidade de julgamento pela Câmara de Vereadores.
-* **E)** decretação de indisponibilidade cautelar de bens decretada monocraticamente pelo Conselheiro Relator.
+* **A)** é vedado, considerando a indisponibilidade dos interesses envolvidos.
+* **B)** deve ser celebrado no plano administrativo e homologado pelo Poder Judiciário.
+* **C)** exime Alfa, caso celebrado, da obrigação de reparar integralmente o dano causado.
+* **D)** deve ser celebrado no plano processual, pelo Ministério Público, com a correlata homologação pelo Poder Judiciário.
+* **E)** independe de homologação pelo Poder Judiciário e não afasta a possibilidade de suspensão ou interdição parcial das atividades de Alfa.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. Contas regulares com ressalva não geram qualquer inelegibilidade eleitoral.
-> - **B)** **Correto**. Conforme o art. 1º, I, 'g', da LC nº 64/1990 (com as alterações da Lei da Ficha Limpa - LC nº 135/2010), são inelegíveis para qualquer cargo os que tiverem suas contas relativas ao exercício de cargos ou funções públicas rejeitadas por irregularidade insanável que configure ato doloso de improbidade administrativa, e por decisão irrecorrível do órgão competente, salvo se esta houver sido suspensa ou anulada pelo Poder Judiciário, para as eleições que se realizarem nos 8 anos seguintes.
-> - **C)** **Incorreto**. Multas formais isoladas ou meras falhas burocráticas sanáveis não configuram inelegibilidade.
-> - **D)** **Incorreto**. Conforme os Temas 157 e 835 do STF, para contas de Prefeito a competência exclusiva de julgamento para fins eleitorais é da Câmara de Vereadores.
-> - **E)** **Incorreto**. Medidas cautelares não representam decisão definitiva irrecorrível de rejeição de contas.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é vedado, considerando a indisponibilidade dos interesses envolvidos". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, determinações: Provimentos mandamentais vinculantes que impõem à autoridade administrativa a obrigação jurídica de fazer ou deixar de fazer algo para sanar ilegalidade, anular ato viciado ou adequar condutas ao ordenamento jurídico.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "deve ser celebrado no plano administrativo e homologado pelo Poder Judiciário". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, a comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.1 Atributos do Relatório de Auditoria* deste guia, tempestividade: Emissão do relatório no momento oportuno, em tempo hábil para evitar o perecimento do direito ou o agravamento do dano. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-SC/2026) ao estabelecer que "exime Alfa, caso celebrado, da obrigação de reparar integralmente o dano causado".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "deve ser celebrado no plano processual, pelo Ministério Público, com a correlata homologação pelo Poder Judiciário". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, clareza: Linguagem acessível, técnica e compreensível para os leitores e cidadãos.
+> - **E)** **Incorreta.** A opção afasta requisito ou relação estrutural exigida pela matéria ao afirmar que "independe de homologação pelo Poder Judiciário e não afasta a possibilidade de suspensão ou interdição parcial das...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, concisão: Foco direto no que é materialmente relevante, sem prolixidade inútil.
 >
-> **Gabarito: B**
+> **Gabarito: C**
+
+---
 
 ### Teste 208
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A adoção da forma republicana de Estado acarreta o dever permanente de accountability, impondo-se a responsabilidade pessoal dos agentes públicos pela guarda e aplicação dos recursos públicos. A decisão do Tribunal de Contas que extingue o processo com julgamento de mérito das contas prestadas por administrador público de sociedade de economia mista estadual é classificada formalmente como decisão:
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Administracao – 2024)**
+Em determinado processo administrativo, o Tribunal de Contas do Estado do Pará constatou que a sociedade empresária Alfa tinha comprovadamente incorrido em fraude em uma licitação realizada por Beta, ente da Administração Pública indireta do Estado do Pará. Durante o julgamento do caso, foram realizados debates em relação à aplicação da declaração de inidoneidade para licitar e contratar. Por fim, à luz do disposto na Lei Complementar estadual nº 81/2012, conclui-se corretamente que
 
-* **A)** Preliminar, não sujeita a recurso por se tratar de pronunciamento de índole estritamente administrativa.
-* **B)** Definitiva, sujeita a recurso de reconsideração no prazo de quinze dias, dotado de efeito suspensivo.
-* **C)** Provisória, sujeita a confirmação obrigatória pelo plenário da Assembleia Legislativa estadual.
-* **D)** Interlocutória, sujeita a pedido de esclarecimento perante a Câmara técnica de instrução processual.
-* **E)** Terminativa, que não examina o mérito em virtude de ilegitimidade passiva do gestor fiscalizado.
+* **A)** a sanção apresenta caráter puramente administrativo, logo, sua aplicação, ou não, no caso concreto, fica a critério exclusivo da autoridade competente de Beta.
+* **B)** o Tribunal de Contas somente pode aplicar a sanção pelo voto da maioria absoluta dos seus membros, observadas as garantias do contraditório e da ampla defesa.
+* **C)** caso o Tribunal de Contas entenda que é pertinente, deve aplicar a sanção no âmbito do processo administrativo em que constatar a ocorrência da fraude à licitação.
+* **D)** caso o Tribunal de Contas entenda que é pertinente, deve determinar que a autoridade competente de Beta aplique a sanção, e, se a determinação não for atendida em noventa dias, deve aplicá-la.
+* **E)** o Tribunal de Contas deve aplicar a sanção caso a autoridade competente de Beta ainda não a tenha aplicado, requisito não atendido com a mera realização de juízo de valor diverso do que prevaleceu no colegiado.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. Decisão preliminar é a que ordena a citação, audiência ou diligência antes de julgar o mérito.
-> - **B)** **Correto**. Conforme a sistemática processual das Cortes de Contas (art. 1º, XXIII e art. 33 da Lei Orgânica dos TCs): a decisão pela qual o Tribunal julga o mérito das contas (regulares, regulares com ressalva ou irregulares) constitui "Decisão Definitiva". Dessa decisão definitiva cabe o Recurso de Reconsideração no prazo de quinze dias, com efeito suspensivo.
-> - **C)** **Incorreto**. Contas de dirigentes de estatais e órgãos da administração indireta são julgadas em definitivo pelo próprio Tribunal de Contas, sem envio para julgamento pelo Poder Legislativo.
-> - **D)** **Incorreto**. O pronunciamento de mérito resolve a causa em definitivo na via ordinária administrativa.
-> - **E)** **Incorreto**. Decisão terminativa é aquela pela qual o Tribunal de Contas tranca ou extingue o processo sem resolução de mérito (ex.: contas iliquidáveis ou ausência de pressupostos).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a sanção apresenta caráter puramente administrativo, logo, sua aplicação, ou não, no caso concreto, fica a...". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, as deliberações do Tribunal de Contas proferidas no julgamento de relatórios de auditoria e processos de fiscalização dividem-se em duas categorias fundamentais.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "o Tribunal de Contas somente pode aplicar a sanção pelo voto da maioria absoluta dos seus membros, observadas as...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, a comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "caso o Tribunal de Contas entenda que é pertinente, deve aplicar a sanção no âmbito do processo administrativo em...". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, determinações: Provimentos mandamentais vinculantes que impõem à autoridade administrativa a obrigação jurídica de fazer ou deixar de fazer algo para sanar ilegalidade, anular ato viciado ou adequar condutas ao ordenamento jurídico.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.2 Espécies de Deliberações: Determinações versus Recomendações* deste guia, o descumprimento injustificado de determinação enseja a aplicação de multa ao gestor reincidente e julgamento de contas irregulares. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "caso o Tribunal de Contas entenda que é pertinente, deve determinar que a autoridade competente de Beta aplique a...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o Tribunal de Contas deve aplicar a sanção caso a autoridade competente de Beta ainda não a tenha aplicado...". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, completude: Inclusão de todos os dados necessários para o perfeito entendimento do fato e formulação do juízo de mérito.
 >
-> **Gabarito: B**
+> **Gabarito: D**
+
+---
 

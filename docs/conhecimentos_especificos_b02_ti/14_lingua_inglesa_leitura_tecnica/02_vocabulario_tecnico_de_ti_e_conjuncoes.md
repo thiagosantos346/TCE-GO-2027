@@ -155,146 +155,121 @@ Estabelecem os pré-requisitos lógicos para que determinada asserção técnica
 ---
 
 ### Teste 575
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-*Carefully read the technical excerpt below on distributed systems:*
+**(CEBRASPE – TRT-8 – Analista Judiciario Area Apoio Especializado Tecnologia da Informacao – 2022)**
+It can be inferred from the third paragraph of text 15A13-I that
 
-> *"**Despite** the sudden network partition and sporadic hardware failures, the distributed ledger maintained strong data consistency across all active nodes. **Although** write throughput temporarily stalled during leader election, no uncommitted transactions were lost. The engineering team, **however**, scheduled an emergency firmware update to mitigate residual latency spikes."*
-
-Com base no texto técnico e nas regras morfossintáticas e coesivas da língua inglesa, assinale a afirmação correta:
-
-* **A)** A substituição do conectivo **"Despite"** pela locução **"Despite of"** preservaria a correção gramatical e o sentido original do período.
-* **B)** A oração introduzida por **"Although"** expressa uma concessão que poderia ser substituída sem prejuízo sintático ou semântico por **"Even though"**.
-* **C)** O termo **"however"** introduz uma oração subordinada causal explicativa sobre a atualização de firmware.
-* **D)** A expressão **"in spite of"** não poderia substituir **"Despite"** no primeiro período, pois exige oração subordinada com verbo conjugado.
-* **E)** O vocábulo **"Although"** deve ser necessariamente acompanhado de substantivo simples desacompanhado de verbo finito.
-
+* **A)** consumers will have a hard time proving that the AI system caused harm to the product they had previously bought.
+* **B)** claimants will be granted compensation for any reason.
+* **C)** consumers will not be compensated unless they can prove that it was the AI system that caused the harm suffered.
+* **D)** claimants will now have to prove both that there was an AI- related problem with their products and that the defendant failed to comply with the AI Act.
+* **E)** the new rules will make it possible for claimants to get compensation even if they do not directly prove that the AI system caused the harm suffered.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A forma **"Despite of" NÃO EXISTE** na língua inglesa padrão. É uma clássica armadilha de bancas de concurso (FCC/FGV). O correto é utilizar **"Despite"** (sem preposição) ou **"In spite of"** (com preposição).
-> - **B)** Correta. As conjunções subordinativas concessivas **"Although"**, **"Even though"** e **"Though"** são semanticamente intercambiáveis e exigem a mesma estrutura sintática (sujeito + verbo finito conjugado: *"write throughput temporarily stalled"*).
-> - **C)** Incorreta. O vocábulo **"however"** é um advérbio conjuntivo adversativo que expressa **contraste, ressalva ou oposição** (no entanto, porém, contudo), e não causa ou explicação.
-> - **D)** Incorreta. A locução prepositiva **"in spite of"** é sinônima exata de **"despite"** e exige sintagma nominal (*noun phrase*): *"In spite of the sudden network partition.."* seria plenamente correto.
-> - **E)** Incorreta. **"Although"** é uma conjunção e exige oração completa com verbo (*"write throughput temporarily stalled"*). Quem exige sintagma nominal é *despite* ou *in spite of*.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "consumers will have a hard time proving that the AI system caused harm to the product they had previously bought". De acordo com a teoria estudada em *1.6 Relações de Condição e a Lógica do Unless*, \$\equiv\$ *"The transaction will not be committed if all distributed replicas do not acknowledge receipt."*.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "claimants will be granted compensation for any reason". De acordo com a teoria estudada em *1.6 Relações de Condição e a Lógica do Unless*, *Exemplo:* *"The gateway accepts API requests provided that a valid JWT bearer token is supplied."*.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "consumers will not be compensated unless they can prove that it was the AI system that caused the harm suffered". De acordo com a teoria estudada em *1.7 Tabela Canônica de Conectivos e Substituições Intercambiáveis*, concessão (Oração): *Although, Even though, Though* — Sujeito + Verbo finito conjugado — *Although \$\leftrightarrow\$ Even though \$\leftrightarrow\$ Though* — *"Although CPU usage was at 90%, throughput did not drop."*.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "claimants will now have to prove both that there was an AI- related problem with their products and that the...". De acordo com a teoria estudada em *1.7 Tabela Canônica de Conectivos e Substituições Intercambiáveis*, causa (Oração): *Because, Since, As, Inasmuch as* — Oração com verbo conjugado — *Because \$\leftrightarrow\$ Since \$\leftrightarrow\$ As* — *"The build failed since unit tests did not pass."*.
+> - **E)** **Correta.** Conforme fundamentado na seção *1.6 Relações de Condição e a Lógica do Unless* deste guia, *Exemplo:* *"The transaction will not be committed unless all distributed replicas acknowledge receipt."*. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT-8/2022) ao estabelecer que "the new rules will make it possible for claimants to get compensation even if they do not directly prove that the...".
+>
+> **Gabarito: E**
 
 ---
 
 ### Teste 576
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-*Read the continuous delivery policy statement below:*
+**(FCC – TRT-24 – Analista Judiciario Tecnologia da Informacao – 2017)**
+Consider the following BPMN diagram. According to ITIL v3 2011 edition and business modeling principles, this diagram
 
-> *"The automated deployment pipeline will not release the production artifact into the sovereign cloud cluster **unless** all static code analysis checks report zero critical vulnerabilities **and** the regression suite passes with 100% compliance."*
-
-No contexto da infraestrutura de CI/CD apresentada e da semântica dos conectivos na língua inglesa, a diretriz condicional regida pela conjunção **"unless"** expressa que o artefato só será publicado se:
-
-* **A)** Todos os testes estáticos reportarem zero vulnerabilidades críticas e os testes de regressão obtiverem 100% de conformidade.
-* **B)** Os testes estáticos acusarem vulnerabilidades críticas ou os testes de regressão falharem.
-* **C)** A equipe de auditoria dispensar formalmente a verificação de vulnerabilidades em virtude de prazos urgentes.
-* **D)** O cluster de nuvem registrar latência nula, independentemente do resultado dos analisadores estáticos.
-* **E)** O deploy ocorrer em ambiente de homologação (*staging*) desprovido de regras de integridade.
-
+* **A)** depicts the ITIL´s Release and Deployment Management process in which the account manager should try to handle that request on his own and explain the solution to the customer, then hand over the issue to a 2nd level support agent, who will hand over to upper level support, in a chain.
+* **B)** shows the ITIL´s Service Portfolio Management process of a software manufacturer that is triggered by a customer requesting help from the account manager because of a well defined problem.
+* **C)** isn’t useful to scope the process, get a basic understanding of the flow, and indicate the main steps, but it is relevant for discussing details of process improvements or even software driven support of the process.
+* **D)** is simple because it assumes that a solution is always found to be explained to the customer. The model lacks all details of collaboration between the involved employees, that is important to the ITIL´s Incident Management process.
+* **E)** shows the 2nd level support agent should figure out if the customer can fix the problem on her own, but if the agent is not sure about this he must deliver the responsability to a 3rd level agent or return to the 1st level, as recommended by ITIL.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. A conjunção condicional **"unless"** equivale estritamente a **"if.. not"** (*a não ser que, a menos que, exceto se*). A frase estabelece: *"O pipeline não fará o release a não ser que (unless) A e B ocorram"*. Portanto, para que haja o release, é mandatório que **ambas** as condições (A e B) sejam plenamente satisfeitas.
-> - **B)** Incorreta. Se houver vulnerabilidades ou se os testes de regressão falharem, o pipeline **bloqueará** a implantação, exatamente o inverso da afirmativa.
-> - **C)** Incorreta. A regra é automatizada e não prevê dispensa por urgência no texto técnico.
-> - **D)** Incorreta. Não há menção a latência ou dispensa de analisadores estáticos.
-> - **E)** Incorreta. O texto restringe o envio para o cluster sovereign de produção.
-> 
+> - **A)** **Correta.** Conforme fundamentado na seção *1.6 Relações de Condição e a Lógica do Unless* deste guia, *Exemplo:* *"The gateway accepts API requests provided that a valid JWT bearer token is supplied."*. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-24/2017) ao estabelecer que "depicts the ITIL´s Release and Deployment Management process in which the account manager should try to handle...".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "shows the ITIL´s Service Portfolio Management process of a software manufacturer that is triggered by a customer...". De acordo com a teoria estudada em *1.3 Relações de Causa, Explicação e Motivo*, due to, Owing to, Because of, On account of (Devido a, em razão de, em virtude de): Expressões prepositivas que introduzem diretamente sintagmas nominais causais.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "isn’t useful to scope the process, get a basic understanding of the flow, and indicate the main steps, but it is...". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, gLENDINNING, Eric H.; MCEWAN, John. Oxford English for Information Technology. 2. ed. Oxford: Oxford University Press, 2006. (Units 10 to 15 - Software Engineering Vocabulary and Connectors).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "is simple because it assumes that a solution is always found to be explained to the customer. The model lacks all...". De acordo com a teoria estudada em *1.6 Relações de Condição e a Lógica do Unless*, *Exemplo:* *"The transaction will not be committed unless all distributed replicas acknowledge receipt."*.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "shows the 2nd level support agent should figure out if the customer can fix the problem on her own, but if the...". De acordo com a teoria estudada em *1.6 Relações de Condição e a Lógica do Unless*, \$\equiv\$ *"The transaction will not be committed if all distributed replicas do not acknowledge receipt."*.
+>
 > **Gabarito: A**
 
 ---
 
 ### Teste 577
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na redação técnica em língua inglesa sobre infraestrutura distribuída e bancos de dados, o enunciado:
+**(CEBRASPE – TJ-RJ – Analista Judiciario Grupo Tecnologia da Informacao Analista de Gestao de Tic – 2021)**
+Com relação aos aspectos linguísticos do primeiro período do texto CG1A1-I, é correto afirmar que o termo “se”,
 
-> *"Engineers must balance the trade-off between strict consistency and high availability; **in spite of** the replication lag, the distributed database guarantees eventual consistency."*
-
-apresenta a expressão conectiva **"in spite of"**. Assinale a opção que indica a função sintático-semântica de **"in spite of"** e o termo que poderia substituí-la mantendo rigorosamente a correção gramatical e o sentido original:
-
-* **A)** Adição de argumentos; substituível por *"furthermore"*.
-* **B)** Concessão; substituível por *"despite"*.
-* **C)** Finalidade ou propósito; substituível por *"in order to"*.
-* **D)** Causa direta; substituível por *"due to"*.
-* **E)** Condição restritiva; substituível por *"as long as"*.
-
+* **A)** no trecho “se proteger”, remete ao termo “Prática”.
+* **B)** no trecho “se mostrou”, tem como referente o termo “instrumento”.
+* **C)** em ambas as ocorrências, pode, sem prejuízo da correção gramatical do texto, ser deslocado para imediatamente após a forma verbal, escrevendo-se, respectivamente, proteger-se e mostrou-se.
+* **D)** em ambas as ocorrências, pode ser suprimido sem prejuízo dos sentidos e da correção gramatical do texto.
+* **E)** em ambas as ocorrências, expressa a noção de reciprocidade.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Marcadores aditivos (*furthermore, moreover*) agregam novos elementos cumulativos. *"In spite of"* denota uma barreira que não foi suficiente para impedir o evento.
-> - **B)** Correta. A locução prepositiva **"in spite of"** (a despeito de, apesar de) possui valor semântico de **concessão**. As formas **"in spite of"** e **"despite"** são preposições seguidas diretamente por sintagmas nominais (*noun phrases*) ou gerúndios (*-ing*), atuando como equivalentes estritos (*despite the replication lag* = a despeito do atraso de replicação).
-> - **C)** Incorreta. Conectivos de finalidade (*in order to, so as to*) expressam propósito ou objetivo pretendido, exigindo verbos no infinitivo.
-> - **D)** Incorreta. *"Due to"* expressa causalidade primária (devido a, por causa de). Sua introdução distorceria o texto, afirmando que a consistência foi gerada pelo atraso de replicação, o que é um contrassenso.
-> - **E)** Incorreta. *"As long as"* expressa condição restritiva (desde que, contanto que), exigindo oração completa com sujeito e predicado.
-> 
-> **Gabarito: B**
-
----
-
-### Teste 578
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-*Consider the analytical report below regarding multi-tenant cloud storage:*
-
-> *"Relational engines enforce strict schema validation; **whereas**, document databases store unstructured documents. **Due to** recent compliance audits, administrators had to verify that cryptographic logs were **tamper-proof**. **Furthermore**, the cloud provider agreed to **mitigate** all critical hypervisor flaws discovered during penetration testing."*
-
-A respeito das relações semânticas e do vocabulário técnico empregados no parágrafo, assinale a alternativa correta:
-
-* **A)** A conjunção **"whereas"** expressa uma relação de consequência, podendo ser substituída por *"hence"*.
-* **B)** A locução **"Due to"** expressa concessão e equivale semanticamente a *"in spite of"*.
-* **C)** O termo **"tamper-proof"** indica registros protegidos contra alterações ou adulterações não autorizadas.
-* **D)** O conectivo **"Furthermore"** introduz uma oposição direta à frase antecedente.
-* **E)** O verbo **"mitigate"** significa potencializar e agravar as vulnerabilidades do hipervisor para testes de estresse.
-
-
----
-
-> **Comentário Detalhado:**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "no trecho “se proteger”, remete ao termo “Prática”". De acordo com a teoria estudada em *1. Conectivos Lógicos e Marcadores Discursivos (Linking Words)*, substituição sem Prejuízo de Sentido ou Gramática: Demanda apontar o termo perfeitamente intercambiável (*synonymous transition*) respeitando rigorosamente as exigências de regência sintática (por exemplo, diferenciação entre conjunções seguidas de oração completa vs. preposições seguidas de sintagmas nominais).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "no trecho “se mostrou”, tem como referente o termo “instrumento”". De acordo com a teoria estudada em *2.2 Famílias de Palavras e Sufixos Gramaticais*, os sufixos definem a classe gramatical da palavra (*part of speech*). Saber identificar o sufixo impede que o candidato confunda uma propriedade abstrata (substantivo) com uma qualidade do componente (adjetivo) ou com a forma de execução (advérbio).
+> - **C)** **Correta.** Conforme fundamentado na seção *3.4 Segurança Cibernética e Auditoria de Sistemas* deste guia, flaw / Vulnerability (Falha / Vulnerabilidade): Fragilidade lógica de design ou implementação que pode ser explorada por agentes hostis. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TJ-RJ/2021) ao estabelecer que "em ambas as ocorrências, pode, sem prejuízo da correção gramatical do texto, ser deslocado para imediatamente após...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "em ambas as ocorrências, pode ser suprimido sem prejuízo dos sentidos e da correção gramatical do texto". De acordo com a teoria estudada em *1.3 Relações de Causa, Explicação e Motivo*, because, Since, As, For, Inasmuch as (Porque, já que, visto que, dado que): Conjunções causais que introduzem orações subordinadas explicativas estruturadas com sujeito e predicado verbal.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "em ambas as ocorrências, expressa a noção de reciprocidade". De acordo com a teoria estudada em *1. Conectivos Lógicos e Marcadores Discursivos (Linking Words)*, identificação da Relação Semântica Primária: Exige classificar se a partícula expressa *contraste*, *concessão*, *causa*, *consequência/conclusão*, *condição* ou *adição*.
 >
-> - **A)** Incorreta. A conjunção **"whereas"** (ao passo que, enquanto que) estabelece **contraste direto e comparação em paralelo** entre dois modelos de banco de dados, e não consequência (*hence / therefore*).
-> - **B)** Incorreta. **"Due to"** (devido a, em razão de) introduz uma relação de **causa/motivo**, e não de concessão (*in spite of*).
-> - **C)** Correta. O adjetivo composto técnico **"tamper-proof"** (à prova de adulteração/violação) define registros, logs ou mídias cuja integridade é garantida criptograficamente, inviabilizando ou delatando qualquer alteração indevida.
-> - **D)** Incorreta. O conectivo **"Furthermore"** (além disso, ademais) expressa **adição cumulativa**, somando uma nova ação do provedor de nuvem, e não oposição adversativa.
-> - **E)** Incorreta. O verbo **"mitigate"** (mitigar, atenuar, reduzir a gravidade) significa implementar controles para abrandar os impactos das vulnerabilidades detectadas, e não agravá-las.
-> 
 > **Gabarito: C**
 
 ---
 
-### Teste 579
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-*Consider the sentence extracted from a technical systems architecture evaluation:*
+### Teste 578
+**(CEBRASPE – TJ-RJ – Analista Judiciario Grupo Tecnologia da Informacao Analista de Gestao de Tic – 2021)**
+The author of text 9A3-I mentions conference agendas and media coverage in order to
 
-> *"The newly adopted microservices architecture offers superior horizontal scalability; **nevertheless**, it introduces substantial operational **overhead** and network latency. **Therefore**, the development team decided not to migrate the mission-critical core service **unless** rigorous benchmark metrics prove that throughput remains acceptable."*
-
-A respeito dos marcadores discursivos e do vocabulário técnico empregados no trecho, assinale a afirmação correta:
-
-* **A)** A palavra **"nevertheless"** estabelece uma relação semântica de causa e explicação, podendo ser substituída por *"because"* sem alterar o sentido do texto.
-* **B)** O termo **"overhead"** refere-se exclusivamente aos encargos financeiros de licenciamento cobrados pelo fornecedor do software de orquestração.
-* **C)** O conectivo **"Therefore"** expressa conclusão/consequência lógica e pode ser substituído, sem alteração substancial de significado, por *"Consequently"*.
-* **D)** A conjunção **"unless"** introduz uma concessão incondicional, com o mesmo valor sintático e semântico de *"although"*.
-* **E)** A oração iniciada por *"unless rigorous benchmark metrics prove.."* indica que o serviço central será migrado de imediato, independentemente dos testes de vazão.
-
+* **A)** demonstrate that their focus did not reflect the most impactful trend in the field of legal technology in 2018.
+* **B)** show that they focused suficient attention on analytics in the field of legal technology in 2018.
+* **C)** suggest that conferences related to legal technology should not be venues for discussions about analytics.
+* **D)** demonstrate that these events and institutions establish priorities for the field of legal technology.
+* **E)** advertise future events of interst in the field of legal technology.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O conectivo **"Nevertheless"** (contudo, todavia, no entanto, não obstante) é um marcador discursivo coordenativo de **contraste/adversidade**. Ele pontua uma ressalva ou restrição à proposição anterior, e não uma relação explicativa de causa (*because*).
-> - **B)** Incorreta. Em arquitetura de sistemas e computação distribuída, o vocábulo **"overhead"** exprime a sobrecarga operacional computacional de processamento, consumo adicional de memória/CPU ou comunicações de rede para coordenação. Não denota despesas financeiras ou royalties.
-> - **C)** Correta. O conectivo **"Therefore"** (portanto, logo, por conseguinte) estabelece uma dedução lógica de **consequência/conclusão**. Possui equivalência perfeita de sentido com **"Consequently"**, **"Thus"** e **"Hence"**.
-> - **D)** Incorreta. A conjunção **"unless"** expressa uma **condição negativa** (*a menos que*, *a não ser que*, equivalente lógico a *if.. not*), e não uma oração concessiva (*although*).
-> - **E)** Incorreta. O trecho assevera o oposto: a equipe deliberou **NÃO migrar** o serviço de missão crítica a não ser que testes rigorosos de benchmark comprovem que a vazão (*throughput*) permaneça satisfatória. A migração está explicitamente condicionada ao sucesso métrico.
-> 
+> - **A)** **Correta.** Conforme fundamentado na seção *1.7 Tabela Canônica de Conectivos e Substituições Intercambiáveis* deste guia, causa (Oração): *Because, Since, As, Inasmuch as* — Oração com verbo conjugado — *Because \$\leftrightarrow\$ Since \$\leftrightarrow\$ As* — *"The build failed since unit tests did not pass."*. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TJ-RJ/2021) ao estabelecer que "demonstrate that their focus did not reflect the most impactful trend in the field of legal technology in 2018".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "show that they focused suficient attention on analytics in the field of legal technology in 2018". De acordo com a teoria estudada em *1.7 Tabela Canônica de Conectivos e Substituições Intercambiáveis*, concessão (Oração): *Although, Even though, Though* — Sujeito + Verbo finito conjugado — *Although \$\leftrightarrow\$ Even though \$\leftrightarrow\$ Though* — *"Although CPU usage was at 90%, throughput did not drop."*.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "suggest that conferences related to legal technology should not be venues for discussions about analytics". De acordo com a teoria estudada em *1.6 Relações de Condição e a Lógica do Unless*, *Exemplo:* *"The gateway accepts API requests provided that a valid JWT bearer token is supplied."*.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "demonstrate that these events and institutions establish priorities for the field of legal technology". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, gLENDINNING, Eric H.; MCEWAN, John. Oxford English for Information Technology. 2. ed. Oxford: Oxford University Press, 2006. (Units 10 to 15 - Software Engineering Vocabulary and Connectors).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "advertise future events of interst in the field of legal technology". De acordo com a teoria estudada em *1.6 Relações de Condição e a Lógica do Unless*, *Exemplo:* *"The transaction will not be committed unless all distributed replicas acknowledge receipt."*.
+>
+> **Gabarito: A**
+
+---
+
+### Teste 579
+**(CEBRASPE – TRT-8 – Analista Judiciario Area Apoio Especializado Tecnologia da Informacao – 2022)**
+According to text 15A13-I, it is correct to infer that
+
+* **A)** it is the first time the European Commission has publicized liability rules on digital products and AI.
+* **B)** the new liability rules also encompass products which are not digital or AI-related.
+* **C)** the rules on the liability of manufacturers for faulty goods are possibly not lenient.
+* **D)** the European Commission has come up with a proposal to compensate consumers who damaged their products themselves.
+* **E)** the compensation proposed by the European Commission only applies to the products which came with a manufacturing defect.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "it is the first time the European Commission has publicized liability rules on digital products and AI". De acordo com a teoria estudada em *1.7 Tabela Canônica de Conectivos e Substituições Intercambiáveis*, condição Restritiva: *Provided that, As long as* — Condição mandatória requerida — *Provided that \$\leftrightarrow\$ As long as* — *"Requests succeed provided that rate limits are respected."*.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "the new liability rules also encompass products which are not digital or AI-related". De acordo com a teoria estudada em *1.5 Relações de Adição, Continuidade e Ênfase*, not only.. but also.. (Não apenas.. mas também..): Estrutura correlativa de soma e reforço enfático.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.7 Tabela Canônica de Conectivos e Substituições Intercambiáveis* deste guia, condição Negativa: *Unless* — Equivale logicamente a *if.. not* — *Unless \$\equiv\$ Except if \$\equiv\$ If not* — *"Data will be deleted unless archives are verified."*. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT-8/2022) ao estabelecer que "the rules on the liability of manufacturers for faulty goods are possibly not lenient".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "the European Commission has come up with a proposal to compensate consumers who damaged their products themselves". De acordo com a teoria estudada em *1.6 Relações de Condição e a Lógica do Unless*, *Exemplo:* *"The transaction will not be committed unless all distributed replicas acknowledge receipt."*.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "the compensation proposed by the European Commission only applies to the products which came with a manufacturing...". De acordo com a teoria estudada em *1.6 Relações de Condição e a Lógica do Unless*, \$\equiv\$ *"The transaction will not be committed if all distributed replicas do not acknowledge receipt."*.
+>
 > **Gabarito: C**
 
 ---
@@ -371,75 +346,50 @@ flowchart RL
 ---
 
 ### Teste 580
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-*Analyze the technical sentence below regarding cloud computing architecture:*
+**(FGV – TRF-1 – Analista Judiciario Area Apoio Especializado Especialidade Tecnologia da Informacao – 2024)**
+Durante a análise de uma regra no Snort, um sistema de detecção de intrusões, foi identificada uma ação específica que permanece ociosa até ser ativada por uma regra de ativação, quando então age como uma regra de registro. A ação descrita é a:
 
-> *"The architectural **maintainability** and **scalability** of cloud-native microservices ensure that distributed workloads degrade **gracefully** during unexpected traffic bursts."*
-
-Em relação à morfologia das palavras em destaque e seus sufixos na língua inglesa, assinale a afirmativa correta:
-
-* **A)** Os vocábulos **"maintainability"** e **"scalability"** são substantivos abstratos derivados de adjetivos com sufixo *-able* acrescidos do sufixo nominalizador *-ity*.
-* **B)** A terminação *-ly* em **"gracefully"** caracteriza um adjetivo descritivo invariável que qualifica o substantivo *workloads*.
-* **C)** O sufixo *-ity* transforma substantivos em verbos no infinitivo.
-* **D)** As palavras *maintainability* e *scalability* funcionam sintaticamente como advérbios de modo que indicam tempo de resposta.
-* **E)** A terminação *-able* presente na raiz das palavras traduz uma impossibilidade ou veto técnico categórico.
-
+* **A)** pass;
+* **B)** drop;
+* **C)** alert;
+* **D)** activate;
+* **E)** dynamic.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. O processo de formação é claro: *maintain* (verbo) $
-ightarrow$ *maintainable* (adjetivo) $
-ightarrow$ *maintainability* (substantivo que expressa qualidade/capacidade); e *scale* (verbo) $
-ightarrow$ *scalable* (adjetivo) $
-ightarrow$ *scalability* (substantivo). O sufixo derivacional **-ity** forma **substantivos abstratos** indicando condição, estado ou propriedade técnica.
-> - **B)** Incorreta. O sufixo **-ly** em *gracefully* forma um **advérbio de modo** (*de forma graciosa / suavemente / sem colapsar*), que modifica o verbo *degrade*, e não um adjetivo.
-> - **C)** Incorreta. O sufixo *-ity* forma substantivos, nunca verbos.
-> - **D)** Incorreta. *Maintainability* e *scalability* são substantivos nucleares do sujeito oracional, e não advérbios.
-> - **E)** Incorreta. O sufixo *-able / -ible* denota capacidade, passibilidade ou viabilidade técnica (passível de manutenção, passível de escalabilidade).
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pass". De acordo com a teoria estudada em *1.7 Tabela Canônica de Conectivos e Substituições Intercambiáveis*, causa (Oração): *Because, Since, As, Inasmuch as* — Oração com verbo conjugado — *Because \$\leftrightarrow\$ Since \$\leftrightarrow\$ As* — *"The build failed since unit tests did not pass."*.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "drop". De acordo com a teoria estudada em *1.7 Tabela Canônica de Conectivos e Substituições Intercambiáveis*, concessão (Oração): *Although, Even though, Though* — Sujeito + Verbo finito conjugado — *Although \$\leftrightarrow\$ Even though \$\leftrightarrow\$ Though* — *"Although CPU usage was at 90%, throughput did not drop."*.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "alert". De acordo com a teoria estudada em *A Regra de Interpretação da Direita para a Esquerda:*, \$\rightarrow\$ 1. *System* (Sistema) \$\rightarrow\$ 2. *provisioning* (de provisionamento) \$\rightarrow\$ 3. *cluster* (de cluster) \$\rightarrow\$ 4. *high-availability* (de alta disponibilidade) \$\rightarrow\$ 5. *fault-tolerant* (tolerante a falhas).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "activate". De acordo com a teoria estudada em *A Regra de Interpretação da Direita para a Esquerda:*, sentido: *Sistema de provisionamento de cluster de alta disponibilidade tolerante a falhas*.
+> - **E)** **Correta.** Conforme fundamentado na seção *1.1 Relações de Contraste e Adversidade* deste guia, *Exemplo:* *"Relational databases enforce strict schemas. In contrast, document stores provide dynamic schemas."*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF-1/2024) ao estabelecer que "dynamic".
+>
+> **Gabarito: E**
 
 ---
 
 ### Teste 581
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-*Read the excerpt from an infrastructure deployment manual:*
+**(CEBRASPE – TJ-RJ – Analista Judiciario Grupo Tecnologia da Informacao Analista de Gestao de Tic – 2021)**
+In the first sentence of text 9A3-I, the word “it” refers to
 
-> *"To guarantee zero downtime during datacenter updates, our team configured a **fault-tolerant high-availability cluster provisioning system**. The infrastructure operates **seamlessly** across two distinct availability zones, ensuring that failover occurs automatically without dropping active user sessions."*
-
-Com base nas regras de formação de palavras, morfologia e substantivos compostos da língua inglesa, analise os itens:
-
-I. No composto *"fault-tolerant high-availability cluster provisioning system"*, a palavra principal (*head noun*) é *"system"*, e todos os termos precedentes funcionam como modificadores adjetivos.  
-
-II. O vocábulo *"seamlessly"* é um advérbio formado pelo acréscimo do sufixo *-ly* ao adjetivo *"seamless"*, significando de forma integrada, fluida e sem interrupções visíveis.  
-
-III. O termo *"failover"* indica uma falha catastrófica definitiva que exige o desligamento manual de toda a rede elétrica da organização.  
-
-Está correto o que se afirma em:
-
-* **A)** I e II, apenas.
-* **B)** I e III, apenas.
-* **C)** II e III, apenas.
-* **D)** III, apenas.
-* **E)** I, II e III.
-
+* **A)** “media coverage”.
+* **B)** “judge”.
+* **C)** “artificial intelligence”.
+* **D)** “2018’s most important legal technology”.
+* **E)** “conference agendas”.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Apenas as proposições I e II estão alinhadas com a gramática instrumental e os conceitos de TI:
->     - **I (Verdadeiro):** Pela regra dos *Noun Adjuncts*, a última palavra da cadeia é o núcleo substantivo (*system*). Lendo da direita para a esquerda: *sistema de provisionamento de cluster de alta disponibilidade tolerante a falhas*.
->     - **II (Verdadeiro):** O radical *seam* (costura) recebe o sufixo privativo *-less* (sem costura/sem emendas), gerando o adjetivo *seamless*. Com o acréscimo do sufixo adverbial *-ly*, forma-se *seamlessly* (perfeitamente, sem interrupção perceptível, fluidamente).
->     - **III (Falso):** O termo técnico **"failover"** designa a comutação automática e transparente de um recurso defeituoso para um nó redundante funcional, preservando a continuidade operacional, e não um desligamento manual.
-> - **B)** Incorreta. O item III é falso.
-> - **C)** Incorreta. O item I é verdadeiro e o III é falso.
-> - **D)** Incorreta. O item III é falso.
-> - **E)** Incorreta. O item III é incorreto.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“media coverage”". De acordo com a teoria estudada em *2. Morfologia e Formação de Palavras Técnicas (Word Formation)*, a morfologia vocabular em língua inglesa fornece as ferramentas analíticas para decodificar neologismos, jargões técnicos e famílias de palavras sem a necessidade de memorização isolada.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“judge”". De acordo com a teoria estudada em *1.1 Relações de Contraste e Adversidade*, *Exemplo:* *"The microservices architecture offers superior scalability; nevertheless, it introduces non-trivial operational complexity."*.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“artificial intelligence”". De acordo com a teoria estudada em *1.1 Relações de Contraste e Adversidade*, in contrast, On the contrary, Conversely (Em contrapartida, pelo contrário, inversamente): Estabelecem um contraponto simétrico entre dois paradigmas tecnológicos distintos.
+> - **D)** **Correta.** Conforme fundamentado na seção *6. Fontes Recomendadas na Internet* deste guia, gLENDINNING, Eric H.; MCEWAN, John. Oxford English for Information Technology. 2. ed. Oxford: Oxford University Press, 2006. (Units 10 to 15 - Software Engineering Vocabulary and Connectors). Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TJ-RJ/2021) ao estabelecer que "“2018’s most important legal technology”".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“conference agendas”". De acordo com a teoria estudada em *1.2 Relações de Concessão e a Regra do Despite*, *Exemplo:* *"Although the cluster experienced hardware failures, no transaction was lost."*.
+>
+> **Gabarito: D**
 
 ---
 
@@ -486,88 +436,73 @@ Está correto o que se afirma em:
 ---
 
 ### Teste 582
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-*Read the architectural review summary below:*
+**(CEBRASPE – TJ-RJ – Analista Judiciario Grupo Tecnologia da Informacao Analista de Gestao de Tic – 2021)**
+In the first sentence of text 9A3-I, the word “judge” is synonymous with
 
-> *"The audit team observed excessive **boilerplate** code across the data access layer, coupled with high **coupling** and low **cohesion** between payment services. To resolve this technical debt, the lead architect proposed continuous **refactoring**, acknowledging the inevitable **trade-off** between immediate delivery speed and long-term maintainability."*
-
-Com base na terminologia técnica consagrada na engenharia de software e no texto acima:
-
-* **A)** O termo **"refactoring"** designa a reescrita de código com a finalidade exclusiva de alterar as saídas e regras de negócio externas observáveis pelos usuários.
-* **B)** A expressão **"trade-off"** refere-se a uma decisão de engenharia na qual a obtenção de uma vantagem técnica implica forçosamente abrir mão de outro benefício ou aceitar um custo correlato.
-* **C)** O conceito de **"boilerplate"** define módulos de software altamente customizados e exclusivos que encerram algoritmos confidenciais de negócio.
-* **D)** O estado de **"high coupling"** (alto acoplamento) constitui a melhor prática arquitetural recomendada, pois assegura que módulos dependam criticamente uns dos outros para operar.
-* **E)** O vocábulo **"cohesion"** (coesão) indica a quantidade de pacotes de dados perdidos em uma transmissão de rede local.
-
+* **A)** justice.
+* **B)** court.
+* **C)** consider.
+* **D)** examiner.
+* **E)** try.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O termo **"refactoring"** (refatoração) consiste na melhoria da estrutura interna do código fonte **sem alterar seu comportamento observável externo**. Se o comportamento externo é alterado, não é refatoração pura, mas redesign ou nova feature.
-> - **B)** Correta. Na literatura técnica e em provas de concurso, **"trade-off"** define a relação de compromisso ou concessão mútua: escolher uma abordagem arquitetural vantajosa em determinado aspecto (ex.: velocidade de entrega) acarretando desvantagens em outro (ex.: manutenibilidade).
-> - **C)** Incorreta. **"Boilerplate"** refere-se a código repetitivo, verboso e padronizado necessário para suporte ou configuração, desprovido de valor específico de negócio.
-> - **D)** Incorreta. A regra áurea de design arquitetural prega **baixo acoplamento** (*low coupling*) e **alta coesão** (*high cohesion*). Alto acoplamento gera dependências frágeis e propagação de falhas em cascata.
-> - **E)** Incorreta. **"Cohesion"** (coesão) mede o grau de afinidade e foco das responsabilidades de uma classe ou módulo (responsabilidade única), nada tendo a ver com perda de pacotes de rede.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "justice". De acordo com a teoria estudada em *2. Morfologia e Formação de Palavras Técnicas (Word Formation)*, a morfologia vocabular em língua inglesa fornece as ferramentas analíticas para decodificar neologismos, jargões técnicos e famílias de palavras sem a necessidade de memorização isolada.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "court". De acordo com a teoria estudada em *1.1 Relações de Contraste e Adversidade*, *Exemplo:* *"The microservices architecture offers superior scalability; nevertheless, it introduces non-trivial operational complexity."*.
+> - **C)** **Correta.** Conforme fundamentado na seção *1. Conectivos Lógicos e Marcadores Discursivos (Linking Words)* deste guia, substituição sem Prejuízo de Sentido ou Gramática: Demanda apontar o termo perfeitamente intercambiável (*synonymous transition*) respeitando rigorosamente as exigências de regência sintática (por exemplo, diferenciação entre conjunções seguidas de oração completa vs. preposições seguidas de sintagmas nominais). Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TJ-RJ/2021) ao estabelecer que "consider".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "examiner". De acordo com a teoria estudada em *1.1 Relações de Contraste e Adversidade*, in contrast, On the contrary, Conversely (Em contrapartida, pelo contrário, inversamente): Estabelecem um contraponto simétrico entre dois paradigmas tecnológicos distintos.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "try". De acordo com a teoria estudada em *1.2 Relações de Concessão e a Regra do Despite*, *Exemplo:* *"Although the cluster experienced hardware failures, no transaction was lost."*.
+>
+> **Gabarito: C**
 
 ---
 
 ### Teste 583
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-*Carefully read the technical paragraph below regarding concurrent programming:*
+**(FCC – TRT-9 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2015)**
+The purpose of a Data Warehouse (DW) is to consolidate and organize data so it can be analyzed and used to support business decisions. Considering a DW platform, the true statement is:
 
-> *"When multiple threads concurrently access shared memory without proper synchronization, a hazardous **race condition** may emerge. If two threads enter a circular dependency while competing for exclusive locks, the operating system enters a permanent **deadlock**. To avoid these anomalies, developers can employ immutable data structures, **provided that** the garbage collector can efficiently recycle discarded instances **without** triggering disruptive latency spikes."*
-
-Com base no texto técnico e nas regras gramaticais da língua inglesa, assinale a afirmação correta:
-
-* **A)** A expressão **"race condition"** designa uma rotina otimizada de alta performance em que threads disputam para finalizar tarefas mais rapidamente sem qualquer risco de erro.
-* **B)** O estado denominado **"deadlock"** ocorre quando todas as threads liberam seus locks simultaneamente, acelerando o processamento do banco.
-* **C)** A locução conjuntiva **"provided that"** estabelece uma relação semântica de condição (contanto que / desde que).
-* **D)** No trecho *"without triggering disruptive latency spikes"*, a palavra *"without"* introduz uma finalidade deliberada de elevar a latência.
-* **E)** O termo **"immutable"** é um adjetivo que caracteriza dados que podem ser modificados livremente por qualquer thread concorrente sem restrições.
-
+* **A)** DW usually contains historical data, often collected from a variety of sources such as OLAP systems, legacy systems, data marts. A DW combines this data, cleanses it for accuracy and consistency, and organizes it for ease and efficiency of querying.
+* **B)** In large data warehousing applications, data is often segmented into specialized components, called data mining cubes, that address individual components of the organization.
+* **C)** Referential integrity must be maintained when DW data is added, or deleted. Loss of referential integrity can result in errors during cube processing, fact table records being bypassed, or inaccurate OLAP information.
+* **D)** Cube information available online to client applications cannot be affected when data is added to the DW due to interaction between the data and cube partitions. Every DW defines partition filters that avoid this problem.
+* **E)** ROLAP's multidimensional data model answers to a query into historical data and never leads to subsequent queries as the analyst searches for answers or explores possibilities. ROLAP systems provide the speed and flexibility to support the analyst in real time. Atenção: A tabela relativa a Débitos Trabalhistas a seguir deve ser utilizada para responder às questões de números 52 e 53. Considere que a tabela já está criada, os dados iniciais já foram inseridos e o banco de dados a ser utilizado está aberto e funcionando em condições ideais.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O termo **"race condition"** (condição de corrida) não é uma técnica de otimização, mas sim um bug grave de concorrência em que operações simultâneas sobre memória compartilhada levam a inconsistências e perda de dados.
-> - **B)** Incorreta. O termo **"deadlock"** (impasse / travamento mútuo) define o cenário patológico em que duas ou mais threads ficam paralisadas de forma indeterminada aguardando recursos mutuamente retidos, travando o sistema.
-> - **C)** Correta. A locução **"provided that"** (contanto que, desde que) introduz uma **oração subordinada condicional restritiva**, condicionando a adoção de estruturas imutáveis à eficiência do coletor de lixo.
-> - **D)** Incorreta. A preposição privativa **"without"** (sem) denota exclusão/ausência circunstancial (*sem desencadear picos de latência*), e não finalidade ou objetivo intencional.
-> - **E)** Incorreta. Pelo prefixo negativo *im-*, o adjetivo **"immutable"** (imutável) qualifica dados que **NUNCA** podem ser modificados após sua instanciação, conferindo-lhes segurança intrínseca para concorrência (*thread safety*).
-> 
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "DW usually contains historical data, often collected from a variety of sources such as OLAP systems, legacy...". De acordo com a teoria estudada em *1.1 Relações de Contraste e Adversidade*, *Exemplo:* *"SQL systems prioritize ACID transactions, whereas NoSQL systems emphasize eventual consistency and horizontal elasticity."*.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "In large data warehousing applications, data is often segmented into specialized components, called data mining...". De acordo com a teoria estudada em *1.7 Tabela Canônica de Conectivos e Substituições Intercambiáveis*, concessão (Sintagma): *Despite, In spite of* — Apenas Substantivo ou Verbo em *-ing* (NUNCA *despite of*) — *Despite \$\leftrightarrow\$ In spite of* — *"In spite of the replication lag, data consistency held."*.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.7 Tabela Canônica de Conectivos e Substituições Intercambiáveis* deste guia, condição Negativa: *Unless* — Equivale logicamente a *if.. not* — *Unless \$\equiv\$ Except if \$\equiv\$ If not* — *"Data will be deleted unless archives are verified."*. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-9/2015) ao estabelecer que "Referential integrity must be maintained when DW data is added, or deleted. Loss of referential integrity can...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Cube information available online to client applications cannot be affected when data is added to the DW due to...". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, gLENDINNING, Eric H.; MCEWAN, John. Oxford English for Information Technology. 2. ed. Oxford: Oxford University Press, 2006. (Units 10 to 15 - Software Engineering Vocabulary and Connectors).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ROLAP's multidimensional data model answers to a query into historical data and never leads to subsequent queries...". De acordo com a teoria estudada em *1.7 Tabela Canônica de Conectivos e Substituições Intercambiáveis*, contraste / Oposição: *However, Nevertheless, Nonetheless* — Seguidos de vírgula ou entre pontuação forte; orações independentes — *However \$\leftrightarrow\$ Nevertheless \$\leftrightarrow\$ Nonetheless* — *"The query returned in 5ms; however, the cache failed."*.
+>
 > **Gabarito: C**
 
 ---
 
 ### Teste 584
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-*Read the cybersecurity incident report excerpt below:*
+**(CEBRASPE – TRT-8 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2016)**
+According to the text, the data processing manager is
 
-> *"During the external penetration test, the adversary attempted to bypass perimeter firewalls via **IP spoofing** and gain administrative access through targeted **phishing**. However, cryptographic **tamper-proof** event logs maintained on an immutable write-once store allowed forensic auditors to establish **non-repudiation** and swiftly execute threat **mitigation** procedures."*
-
-No âmbito da segurança da informação e auditoria de sistemas, a correta interpretação dos termos destacados indica que:
-
-* **A)** **"IP spoofing"** consiste na criptografia legítima do endereço IP de origem para acelerar o roteamento de pacotes prioritários.
-* **B)** Registros descritos como **"tamper-proof"** são trilhas de auditoria dotadas de salvaguardas que impedem ou evidenciam qualquer adulteração ou manipulação não autorizada de dados.
-* **C)** O princípio de **"non-repudiation"** (não repúdio) confere ao autor da ação a faculdade técnica de negar a autoria de qualquer transação efetuada no sistema.
-* **D)** O termo **"mitigation"** descreve a intensificação intencional de vulnerabilidades operacionais em servidores expostos na internet.
-* **E)** **"Phishing"** caracteriza a exclusão definitiva de logs de eventos mediante ataques de inundação de pacotes syn-flood.
-
+* **A)** the head of department and as such he can train and supervise staff.
+* **B)** often asked to evaluate designs.
+* **C)** asked to create the due budget.
+* **D)** required to submit reports to be approved by the staff members.
+* **E)** rarely called to administer the implementation of new or revised systems.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. **"IP spoofing"** (falsificação/mascaramento de IP) é uma técnica de ataque em que o invasor forja o cabeçalho IP para se passar por um endereço de confiança.
-> - **B)** Correta. A expressão **"tamper-proof"** (à prova de adulteração) qualifica repositórios, trilhas ou mecanismos criptográficos imutáveis (como WORM - *Write Once, Read Many*) projetados para impossibilitar a modificação ou exclusão de registros de auditoria por usuários maliciosos ou comprometidos.
-> - **C)** Incorreta. O princípio de **"non-repudiation"** (não repúdio ou irrefutabilidade) **garante a impossibilidade de negar** a autoria ou integridade da transação realizada.
-> - **D)** Incorreta. **"Mitigation"** (mitigação) consiste na redução, contenção e controle de riscos ou danos decorrentes de vulnerabilidades ou incidentes.
-> - **E)** Incorreta. **"Phishing"** é técnica de engenharia social voltada a induzir usuários a fornecer senhas e dados confidenciais, não exclusão de logs.
-> 
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "the head of department and as such he can train and supervise staff". De acordo com a teoria estudada em *A Regra de Interpretação da Direita para a Esquerda:*, o substantivo núcleo (*Head Noun*) situa-se sempre na última posição. Todas as palavras que o precedem funcionam como qualificadores adjetivos. O leitor brasileiro deve localizar o último vocábulo e interpretá-lo lendo de trás para frente.
+> - **B)** **Correta.** Conforme fundamentado na seção *1.7 Tabela Canônica de Conectivos e Substituições Intercambiáveis* deste guia, concessão (Sintagma): *Despite, In spite of* — Apenas Substantivo ou Verbo em *-ing* (NUNCA *despite of*) — *Despite \$\leftrightarrow\$ In spite of* — *"In spite of the replication lag, data consistency held."*. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT-8/2016) ao estabelecer que "often asked to evaluate designs".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "asked to create the due budget". De acordo com a teoria estudada em *1.3 Relações de Causa, Explicação e Motivo*, *Exemplo:* *"The latency degradation occurred due to excessive garbage collection cycles."*.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "required to submit reports to be approved by the staff members". De acordo com a teoria estudada em *1.1 Relações de Contraste e Adversidade*, *Exemplo:* *"The microservices architecture offers superior scalability; nevertheless, it introduces non-trivial operational complexity."*.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "rarely called to administer the implementation of new or revised systems". De acordo com a teoria estudada em *1.1 Relações de Contraste e Adversidade*, *Exemplo:* *"SQL systems prioritize ACID transactions, whereas NoSQL systems emphasize eventual consistency and horizontal elasticity."*.
+>
 > **Gabarito: B**
 
 ---

@@ -100,24 +100,8 @@ flowchart TD
 ---
 
 ### Teste 012
-**(FCC – TRT-23 – Analista Judiciário (TI) – 2016)**  
-Considere:
-
-I. Uma Especificação de Requisitos que reflete todas as decisões que foram tomadas e não contém cláusulas de
-
-pendências. Desta forma, contém todos os requisitos significativos relativos a funcionalidade, desempenho, restrições de
-
-desenho, atributos e interfaces externas, além de definir as respostas do software para todas as entradas possíveis,
-
-válidas e inválidas, em todas as situações possíveis.
-
-II. Uma Especificação de Requisitos em que todo requisito pres ente possui apenas uma única interpretação, aceita tanto
-
-pelos desenvolvedores quanto pelos usuários chaves. Em particular, ela é compreensível para todo o seu público alvo e é
-
-suficiente para a especificação dos testes de aceitação do produto.
-
-Os itens I e II descrevem especificações cujos requisitos contemplam, respectivamente, as qualidades
+**(FCC – TRT-23 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2016)**
+Considere: I. Uma Especificação de Requisitos que reflete todas as decisões que foram tomadas e não contém cláusulas de pendências. Desta forma, contém todos os requisitos significativos relativos a funcionalidade, desempenho, restrições de desenho, atributos e interfaces externas, além de definir as respostas do software para todas as entradas possíveis, válidas e inválidas, em todas as situações possíveis. II. Uma Especificação de Requisitos em que todo requisito presente possui apenas uma única interpretação, aceita tanto pelos desenvolvedores quanto pelos usuários chaves. Em particular, ela é compreensível para todo o seu público alvo e é suficiente para a especificação dos testes de aceitação do produto. Os itens I e II descrevem especificações cujos requisitos contemplam, respectivamente, as qualidades
 
 * **A)** rastreabilidade e consistência.
 * **B)** completeza e precisão.
@@ -129,37 +113,37 @@ Os itens I e II descrevem especificações cujos requisitos contemplam, respecti
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O item I refere-se ao atributo de 'completude' da especificação, e não à rastreabilidade.
-> - **B)** Incorreta. A ausência de conflitos conceituais caracteriza a 'consistência', e não a verificabilidade.
-> - **C)** Incorreta. As definições conceituais dos itens foram trocadas entre si.
-> - **D)** Correta. Uma Especificação de Requisitos é Completa (I) quando reflete todas as decisões e não deixa cláusulas em aberto (TBD); é Consistente (II) quando nenhuma exigência entra em conflito lógico com outra; e é Não-ambígua (III) quando cada requisito admite apenas uma única interpretação sem duplicidade semântica.
-> - **E)** Incorreta. O item III define a não-ambiguidade, e não a modificabilidade.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "rastreabilidade e consistência". De acordo com a teoria estudada em *1.1 Ciclo de Vida da Engenharia de Requisitos*, análise e Negociação: Detecção de conflitos entre requisitos de diferentes fontes, análise de completude, consistência e priorização de demandas.
+> - **B)** **Correta.** Conforme fundamentado na seção *1.3 Requisitos Funcionais vs. Requisitos Não Funcionais (Taxonomia de Sommerville)* deste guia, especificam o que o sistema deve fazer em resposta a determinadas entradas, como reagir a situações específicas e quais cálculos realizar (ex.: *"O sistema deve calcular a alíquota previdenciária com base na remuneração bruta"*). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-23/2016) ao estabelecer que "completeza e precisão".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "correção e completeza". De acordo com a teoria estudada em *1.3 Requisitos Funcionais vs. Requisitos Não Funcionais (Taxonomia de Sommerville)*, *Requisitos de Produto:* Especificam o comportamento do produto em tempo de execução (desempenho, tempo de resposta, taxa de ocupação de memória, confiabilidade e disponibilidade mínima de 99,9%).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "consistência e priorização". De acordo com a teoria estudada em *1.2 Técnicas de Elicitação de Requisitos*, questionários e Pesquisas: Eficientes para coletar impressões de uma base ampla de usuários geograficamente dispersa, com baixo custo, embora sujeita a respostas superficiais.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "verificabilidade e precisão". De acordo com a teoria estudada em *1.1 Ciclo de Vida da Engenharia de Requisitos*, especificação: Documentação formal dos requisitos levantados por meio de documentos formais (Documento de Requisitos de Software - DRS), Casos de Uso ou Histórias de Usuário.
 >
-> **Gabarito: D**
+> **Gabarito: B**
 
 ---
 
 ### Teste 013
-**(FCC – TRT-14 – Analista Judiciário (TI) – 2016)**  
-No gerenciamento de requisitos é importante relacionar os requi sitos identificados, mostrando quais são as fontes de cada requisito, como os requisitos se relacionam uns com os outros e com as interfaces internas e externas do sistema, quais os subsistemas que eles governam, dentre outros aspectos. Para isso utilizam-se
+**(FGV – TJ-RR – Analista Judiciario Infraestrutura de Tecnologia da Informacao – 2024)**
+De acordo com a norma ISO/IEC 27001, a organização precisa definir a aplicabilidade e os limites do sistema de gestão da segurança da informação para estabelecer o seu escopo. Nesse contexto, no que se refere ao que a organização deve considerar para a determinação do escopo descrito acima avalie as afirmativas a seguir e marque (V) para a verdadeira e (F) para a falsa. ( ) Questões internas e externas importantes para o seu propósito e que afetam sua capacidade para atingir os resultados desejados do seu sistema de gestão da segurança da informação. ( ) Requisitos das partes interessadas relevantes para a segurança da informação, os quais podem incluir requisitos legais e regulamentares, bem como obrigações contratuais. ( ) Interfaces e dependências entre as atividades desempenhadas pela organização e aquelas que são executadas por outras instituições. As afirmativas são, respectivamente,
 
-* **A)** protótipos de Caso de Uso da UML.
-* **B)** matrizes RACI.
-* **C)** tabelas de rastreamento.
-* **D)** diagramas de Atividades da UML.
-* **E)** matrizes de checklist.
+* **A)** V – V – F.
+* **B)** F – F – V.
+* **C)** V – V – V.
+* **D)** F – V – V.
+* **E)** V – F – F.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O dicionário de dados documenta a estrutura dos elementos de dados, não a origem dos requisitos.
-> - **B)** Incorreta. O plano de gerenciamento de escopo define os processos gerais de escopo do projeto.
-> - **C)** Incorreta. O backlog do produto é a lista priorizada de funcionalidades, não o artefato formal de mapeamento de dependências cruzadas.
-> - **D)** Incorreta. A especificação técnica de casos de uso foca na interação ator-sistema.
-> - **E)** Correta. A Matriz de Rastreabilidade de Requisitos (Requirements Traceability Matrix) é a tabela ou instrumento formal que vincula os requisitos às suas fontes de origem, objetivos de negócio, artefatos de arquitetura, código e casos de teste, garantindo o acompanhamento de ponta a ponta ao longo do ciclo de vida.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – V – F". De acordo com a teoria estudada em *1.3 Requisitos Funcionais vs. Requisitos Não Funcionais (Taxonomia de Sommerville)*, especificam o que o sistema deve fazer em resposta a determinadas entradas, como reagir a situações específicas e quais cálculos realizar (ex.: *"O sistema deve calcular a alíquota previdenciária com base na remuneração bruta"*).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – F – V". De acordo com a teoria estudada em *1.1 Ciclo de Vida da Engenharia de Requisitos*, elicitação (Levantamento): Identificação e descoberta dos requisitos junto aos clientes, usuários e demais partes interessadas (*stakeholders*).
+> - **C)** **Correta.** Conforme fundamentado na seção *2.1 Modelagem de Casos de Uso: Elementos e Relacionamentos («include» vs. «extend»)* deste guia, atores: Papéis desempenhados por entidades externas em relação ao sistema. Podem ser *Atores Primários* (iniciam o caso de uso para atingir um objetivo) ou *Atores Secundários* (fornecem serviços de apoio ao sistema, como um serviço externo de pagamento). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-RR/2024) ao estabelecer que "V – V – V".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – V – V". De acordo com a teoria estudada em *1.1 Ciclo de Vida da Engenharia de Requisitos*, concepção / Estudo de Viabilidade: Avalia se o sistema contribui para os objetivos da organização e se é técnica e economicamente viável.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – F – F". De acordo com a teoria estudada em *1.3 Requisitos Funcionais vs. Requisitos Não Funcionais (Taxonomia de Sommerville)*, *Requisitos Externos:* Derivam de fatores externos ao sistema e à organização (ex.: aderência à Lei Geral de Proteção de Dados - LGPD, normas de interoperabilidade e regulamentações do Banco Central).
 >
-> **Gabarito: E**
+> **Gabarito: C**
 
 ---
 
@@ -218,75 +202,74 @@ $$\text{"Como [papel de usuário], eu quero [funcionalidade/ação], para que [b
 ---
 
 ### Teste 014
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Ao auditar os artefatos de desenho e análise orientada a objetos de um sistema integrado de tramitação processual no âmbito de um Tribunal de Contas, um Auditor de TI inspecionou o diagrama de casos de uso modelado na notação UML 2.5. No diagrama, observou o emprego dos relacionamentos com estereótipos «include» e «extend». De acordo com as especificações formais da UML, é correto afirmar:
-
-* **A)** O relacionamento «include» indica que o caso de uso base depende da execução do caso de uso incluído para completar seu objetivo com sucesso, ao passo que o relacionamento «extend» especifica um comportamento condicional e acessório disparado a partir de um ponto de extensão.
-* **B)** O relacionamento «extend» estabelece uma inclusão incondicional de comportamento executada obrigatoriamente em todos os cenários de execução do caso de uso base.
-* **C)** No relacionamento «extend», o caso de uso base conhece previamente os detalhes e a estrutura do caso de uso extensor, exigindo que a seta tracejada aponte do caso base para o extensor.
-* **D)** Ambos os relacionamentos («include» e «extend») conectam atores primários a casos de uso abstratos, sendo vedado seu uso na comunicação direta entre casos de uso concretos.
-* **E)** O relacionamento «include» somente pode ser utilizado para descrever situações excepcionais de erro de negócio ou falhas de infraestrutura.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A) CORRETA.** Nos termos da OMG UML 2.5: o estereótipo `«include»` modela dependência obrigatória e incondicional (o fluxo do caso base incorpora o comportamento do caso incluído como etapa indispensável); já o estereótipo `«extend»` modela comportamento acessório ou alternativo que só é acionado se determinada condição pré-definida for satisfeita em um ponto de extensão (*extension point*).
-> - **B) Incorreta.** Inversão conceitual: a inclusão incondicional e obrigatória caracteriza o `«include»`, não o `«extend»`.
-> - **C) Incorreta.** O caso de uso base é independente do caso extensor e não precisa conhecer seus detalhes; na notação gráfica, a seta tracejada do `«extend»` aponta do caso de uso extensor em direção ao caso de uso base.
-> - **D) Incorreta.** Os estereótipos `«include»` e `«extend»` conectam casos de uso entre si, nunca atores a casos de uso. A conexão de atores a casos de uso dá-se por associação simples ou generalização entre atores.
-> - **E) Incorreta.** O `«include»` é utilizado para reaproveitar comportamentos comuns e obrigatórios compartilhados entre casos de uso (como autenticação ou validação de sessão), e não apenas para falhas.
->
-> **Gabarito: A**
-
----
-
-### Teste 015
-**(FCC – TRT-1 – Analista Judiciário (TI) – 2014)**  
+**(FCC – TRT-1 – Analista Judiciario Tecnologia da Informacao – 2014)**
 Diagramas de casos de uso constituem-se em um tipo de diagrama definido na UML. Segundo a UML 2.4.1, em um diagrama de casos de uso,
 
 * **A)** um ator pode ser representado apenas pelo símbolo do “stick man”.
 * **B)** só pode haver representado um único ator.
 * **C)** o número de atores e de casos de uso sempre deve ser o mesmo.
 * **D)** só pode haver representado um único caso de uso.
-* **E)** um ator pode ser representado pelo “stick man” ou por um retângulo com a expressão <<actor>>.
+* **E)** um ator pode ser representado pelo “stick man” ou por um retângulo com a expressão <`<actor>`>.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Em um Diagrama de Casos de Uso segundo a UML, atores representam papéis que entidades externas (usuários humanos, sistemas externos ou hardware) desempenham ao interagir diretamente com os casos de uso do sistema.
-> - **B)** Incorreta. Atores não são elementos internos do software nem classes de controle.
-> - **C)** Incorreta. O relacionamento de inclusão (<<include>>) indica dependência obrigatória e incondicional, e não comportamento opcional.
-> - **D)** Incorreta. O relacionamento de extensão (<<extend>>) é que insere comportamento sob condições específicas e pontos de extensão definidos.
-> - **E)** Incorreta. Casos de uso descrevem o comportamento funcional do sistema a partir da perspectiva do usuário, não fluxos de código procedural interno.
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "um ator pode ser representado apenas pelo símbolo do “stick man”". De acordo com a teoria estudada em *2.1 Modelagem de Casos de Uso: Elementos e Relacionamentos («include» vs. «extend»)*, associação: Linha contínua que conecta um ator a um caso de uso, denotando comunicação direta.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "só pode haver representado um único ator". De acordo com a teoria estudada em *2.1 Modelagem de Casos de Uso: Elementos e Relacionamentos («include» vs. «extend»)*, generalização / Especialização: Relação de herança representada por uma seta com triângulo vazado na ponta. Pode ocorrer entre casos de uso ou entre atores (ex.: *Auditor de TI* especializa *Auditor Geral*).
+> - **C)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "o número de atores e de casos de uso sempre deve ser o mesmo". De acordo com a teoria estudada em *2.1 Modelagem de Casos de Uso: Elementos e Relacionamentos («include» vs. «extend»)*, atores: Papéis desempenhados por entidades externas em relação ao sistema. Podem ser *Atores Primários* (iniciam o caso de uso para atingir um objetivo) ou *Atores Secundários* (fornecem serviços de apoio ao sistema, como um serviço externo de pagamento).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "só pode haver representado um único caso de uso". De acordo com a teoria estudada em *2.1 Modelagem de Casos de Uso: Elementos e Relacionamentos («include» vs. «extend»)*, o caso de uso base depende obrigatoriamente do caso de uso incluído para completar sua execução com sucesso.
+> - **E)** **Correta.** Conforme fundamentado na seção *2.1 Modelagem de Casos de Uso: Elementos e Relacionamentos («include» vs. «extend»)* deste guia, um Caso de Uso descreve uma sequência de interações entre um ator externo (humano ou outro sistema) e o software para atingir um objetivo específico que entregue valor mensurável. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-1/2014) ao estabelecer que "um ator pode ser representado pelo “stick man” ou por um retângulo com a expressão <`<actor>`>".
+>
+> **Gabarito: E**
+
+---
+
+### Teste 015
+**(FGV – TJ-RR – Analista Judiciario Gestao e Governanca de Tecnologia da Informacao – 2024)**
+Um bom diagrama pode ajudar a comunicar ideias sobre um sistema, principalmente quando deseja-se evitar muitos detalhes. Na UML, uma ferramenta recomendada para esse fim é o Caso de Uso. Acerca dos diagramas de casos de uso, avalie as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa. ( ) Casos de uso são uma técnica para capturar os requisitos não funcionais de um software. ( ) Casos de uso representam uma visão externa do sistema, logo não deve haver correlação com as classes internas do sistema. ( ) Raias, atores e transições são elementos comuns em casos de uso. As afirmativas são, respectivamente,
+
+* **A)** F – V – F.
+* **B)** V – V – F.
+* **C)** F – V – V.
+* **D)** F – F – V.
+* **E)** V – F – F.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *2.1 Modelagem de Casos de Uso: Elementos e Relacionamentos («include» vs. «extend»)* deste guia, atores: Papéis desempenhados por entidades externas em relação ao sistema. Podem ser *Atores Primários* (iniciam o caso de uso para atingir um objetivo) ou *Atores Secundários* (fornecem serviços de apoio ao sistema, como um serviço externo de pagamento). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-RR/2024) ao estabelecer que "F – V – F".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – V – F". De acordo com a teoria estudada em *2.1 Modelagem de Casos de Uso: Elementos e Relacionamentos («include» vs. «extend»)*, um Caso de Uso descreve uma sequência de interações entre um ator externo (humano ou outro sistema) e o software para atingir um objetivo específico que entregue valor mensurável.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – V – V". De acordo com a teoria estudada em *2.1 Modelagem de Casos de Uso: Elementos e Relacionamentos («include» vs. «extend»)*, generalização / Especialização: Relação de herança representada por uma seta com triângulo vazado na ponta. Pode ocorrer entre casos de uso ou entre atores (ex.: *Auditor de TI* especializa *Auditor Geral*).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – F – V". De acordo com a teoria estudada em *3.1 Taxonomia dos Diagramas UML: Estruturais vs. Comportamentais*, diagrama de Casos de Uso (interações de atores com funcionalidades).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – F – F". De acordo com a teoria estudada em *1.4 Gerenciamento, Rastreabilidade e Mudança de Requisitos*, matriz de Rastreabilidade: Tabela que mapeia a correlação bidirecional entre requisitos de usuário, requisitos de sistema, diagramas de arquitetura e casos de testes unitários.
 >
 > **Gabarito: A**
 
 ---
 
 ### Teste 016
-**(FGV – TJ-AP – Analista Judiciário (TI) – 2023)**  
-Observe o seguinte Diagrama de Classes UML 2.5.1. O elemento ALOCAÇÃO com o atributo Gratificação representa um(a):
+**(FCC – TRT-2 – Analista Judiciario Tecnologia da Informacao – 2014)**
+No Gerenciamento de Liberação e Implantação da ITIL v3, é proposto o Modelo V de Serviço para o planejamento da construção e teste dos serviços. Critério de Revisão de Serviço I Critério de Aceite II Critério Operacional III Critério de Teste de Liberação Desenhar Liberação do Serviço Desenvolver Liberação do Serviço Construir e Testar Serviço Validar Serviços, Pacotes, Ofertas e Contratos Teste de Aceite de Serviço Teste de Aceite Operacional Teste de Pacote de Liberação Teste de Componente No Modelo V, acima, as lacunas I, II e III são preenchidas, correta e respectivamente, com:
 
-* **A)** dependência;
-* **B)** generalização;
-* **C)** classe associativa;
-* **D)** agregação;
-* **E)** relacionamento de realização.
+* **A)** Definir Escopo da Liberação, Planejar Liberação, Definir Requisitos da Liberação.
+* **B)** Definir Escopo da Liberação, Definir Requisitos da Liberação, Definir Requisitos do Serviço.
+* **C)** Definir Requisitos da Liberação, Definir Requisitos do Negócio, Definir Requisitos do Serviço.
+* **D)** Definir Requisitos do Negócio, Definir Requisitos do Serviço, Definir Solução do Serviço.
+* **E)** Definir Requisitos do Negócio, Definir Requisitos do Sistema, Definir Requisitos do Serviço.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. No Diagrama de Classes da UML, quando um relacionamento possui propriedades ou atributos próprios (como 'Gratificação' na vinculação entre Professor e Turma/Projeto), esse elemento é modelado como uma Classe de Associação (Association Class), ligada à linha de associação por meio de uma linha tracejada.
-> - **B)** Incorreta. Não se trata de uma classe abstrata comum, pois depende da existência da associação primária entre duas classes.
-> - **C)** Incorreta. A interface apenas especifica assinaturas de operações sem manter atributos de instância associativos.
-> - **D)** Incorreta. Não é um estereótipo nem componente físico de implementação.
-> - **E)** Incorreta. Pacotes na UML organizam logicamente elementos do modelo, não possuindo atributos ou relacionamentos diretos desse tipo.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Definir Escopo da Liberação, Planejar Liberação, Definir Requisitos da Liberação". De acordo com a teoria estudada em *2.3 Critérios de Aceite e o Padrão INVEST*, n: Negotiable (Negociável) — A história não é um contrato pétreo. Seu escopo de detalhe deve permanecer aberto para negociações e ajustes durante a Sprint.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Definir Escopo da Liberação, Definir Requisitos da Liberação, Definir Requisitos do Serviço". De acordo com a teoria estudada em *1.4 Gerenciamento, Rastreabilidade e Mudança de Requisitos*, *Rastreabilidade para trás (Backward traceability):* Liga o requisito à sua fonte originária (norma legal, entrevista ou necessidade de negócio).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Definir Requisitos da Liberação, Definir Requisitos do Negócio, Definir Requisitos do Serviço". De acordo com a teoria estudada em *4.1 Elementos de Fluxo: Eventos, Atividades e Tipos de Tarefas*, *Tarefas (Atômicas):* Tarefa de Usuário (*User Task* - mão humana), Tarefa de Serviço (*Service Task* - engrenagem, executada por software automatizado), Tarefa Manual (*Manual Task*) e Tarefa de Script (*Script Task*).
+> - **D)** **Correta.** Conforme fundamentado na seção *2.1 Modelagem de Casos de Uso: Elementos e Relacionamentos («include» vs. «extend»)* deste guia, atores: Papéis desempenhados por entidades externas em relação ao sistema. Podem ser *Atores Primários* (iniciam o caso de uso para atingir um objetivo) ou *Atores Secundários* (fornecem serviços de apoio ao sistema, como um serviço externo de pagamento). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-2/2014) ao estabelecer que "Definir Requisitos do Negócio, Definir Requisitos do Serviço, Definir Solução do Serviço".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Definir Requisitos do Negócio, Definir Requisitos do Sistema, Definir Requisitos do Serviço". De acordo com a teoria estudada em *1.2 Técnicas de Elicitação de Requisitos*, prototipação Rápida: Construção de maquetes visuais ou versões interativas preliminares do sistema para permitir a validação antecipada de fluxos de navegação e layouts.
 >
-> **Gabarito: A**
+> **Gabarito: D**
 
 ---
 
@@ -358,31 +341,31 @@ classDiagram
 ---
 
 ### Teste 017
-**(FCC – TRT-9 – Analista Judiciário (TI) – 2015)**  
-Quando se utiliza a UML para modelar software há dois tipos de modelos de projeto possíveis: os modelos estruturais e os modelos dinâmicos. São adequados para serem usados na criação do modelo dinâmico, os diagramas de
+**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Desenvolvimento de Sistemas – 2023)**
+A análise orientada a objetos utiliza diagramas da UML para representar os diversos elementos de um projeto de software. Ana está modelando um sistema para Web, na arquitetura MVC, e agora precisa descrever o fluxo de mensagens entre os componentes View, Controller e DAO, segundo a cronologia com a qual ocorrem, para um processo de consulta aos dados na base e apresentação na interface de usuário. Para que possa desenhar corretamente o processo, Ana irá utilizar o diagrama de:
 
-* **A)** Pacotes e de Classes.
-* **B)** Sequência e de Máquina de estados.
-* **C)** Componentes e de Deployment.
-* **D)** Classes e de Objetos.
-* **E)** Estrutura composta e de Objetos.
+* **A)** classes;
+* **B)** componentes;
+* **C)** estados;
+* **D)** implantação;
+* **E)** sequência.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O Diagrama de Sequência é comportamental/interativo, e não estrutural.
-> - **B)** Correta. Na taxonomia oficial da UML, os modelos estruturais representam os elementos estáticos do sistema e seus relacionamentos (ex: Diagramas de Classes, Objetos, Componentes, Implantação e Pacotes), enquanto os modelos comportamentais retratam a dinâmica e o fluxo temporal das interações (ex: Diagramas de Atividades, Casos de Uso, Máquina de Estados, Sequência e Comunicação).
-> - **C)** Incorreta. O Diagrama de Casos de Uso é classificado como comportamental.
-> - **D)** Incorreta. Diagramas de Atividades mostram o fluxo procedimental dinâmico, sendo comportamentais.
-> - **E)** Incorreta. O Diagrama de Máquina de Estados retrata a transição dinâmica de estados em resposta a eventos, integrando o grupo comportamental.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "classes". De acordo com a teoria estudada em *3.2 Diagrama de Classes: Visibilidade, Multiplicidade, Agregação e Composição*, o Diagrama de Classes é o pilar estrutural da modelagem orientada a objetos.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "componentes". De acordo com a teoria estudada em *3.1 Taxonomia dos Diagramas UML: Estruturais vs. Comportamentais*, diagrama de Componentes (módulos executáveis e interfaces de software).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "estados". De acordo com a teoria estudada em *3.3 Diagramas de Sequência, Atividades e Máquina de Estados*, diagrama de Sequência: Representa como os objetos colaboram em uma sequência temporal ordenada. Elementos chave.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "implantação". De acordo com a teoria estudada em *3.1 Taxonomia dos Diagramas UML: Estruturais vs. Comportamentais*, diagrama de Implantação (*Deployment*) (arquitetura de hardware, nós de rede e distribuição de artefatos).
+> - **E)** **Correta.** Conforme fundamentado na seção *3.1 Taxonomia dos Diagramas UML: Estruturais vs. Comportamentais* deste guia, diagrama de Sequência (mensagens ordenadas cronologicamente ao longo do tempo). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "sequência".
 >
-> **Gabarito: B**
+> **Gabarito: E**
 
 ---
 
 ### Teste 018
-**(FCC – TRT-23 – Analista Judiciário (TI) – 2016)**  
+**(FCC – TRT-23 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2016)**
 Um Analista pretende desenvolver um projeto utilizando UML 2.0 e, em seus propósitos, verificou a possibilidade de uso de alguns diagramas. Um deles é o Diagrama de Sequência que representa a indicação do conjunto de objetos envolvidos em um cenário e a especificação das mensagens trocadas entre estes ao longo de linhas do tempo que são linhas tracejadas, traçadas verticalmente da base dos objetos até a parte inferior do diagrama. Retângulos colocados sobre as linhas de tempo indicam
 
 * **A)** o tempo decorrido entre as iterações de um processo recursivo.
@@ -395,35 +378,35 @@ Um Analista pretende desenvolver um projeto utilizando UML 2.0 e, em seus propó
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. A UML 2.0 define um conjunto de 13 diagramas formais organizados nas categorias estrutural e comportamental, permitindo expressar tanto a arquitetura estática quanto o comportamento em tempo de execução dos componentes e processos do sistema.
-> - **B)** Incorreta. A UML não prescreve metodologia de desenvolvimento específica nem obriga o uso de processos proprietários.
-> - **C)** Incorreta. Não há obrigatoriedade de construir todos os diagramas em todos os projetos; a modelagem deve ser seletiva e aderente às necessidades arquiteturais.
-> - **D)** Incorreta. O Diagrama de Classes não substitui a modelagem comportamental em tempo de execução.
-> - **E)** Incorreta. A notação da UML 2.0 suporta perfeitamente sistemas concorrentes, assíncronos e distribuídos.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o tempo decorrido entre as iterações de um processo recursivo". De acordo com a teoria estudada em *3.1 Taxonomia dos Diagramas UML: Estruturais vs. Comportamentais*, diagrama de Sequência (mensagens ordenadas cronologicamente ao longo do tempo).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as interações entre as atividades, no tempo". De acordo com a teoria estudada em *3.3 Diagramas de Sequência, Atividades e Máquina de Estados*, *Focos de Controle (*Activation bars*):* Retângulos estreitos que demonstram quando o objeto está executando operações ativas.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os casos de uso de cada objeto". De acordo com a teoria estudada em *3.2 Diagrama de Classes: Visibilidade, Multiplicidade, Agregação e Composição*, agregação (Todo-Parte Fraca - Losango Branco/Vazio): A existência da parte é independente do todo. O objeto todo agrega referências a objetos que podem existir isoladamente e pertencer a outros agregados (ex.: *Universidade e Professores*).
+> - **D)** **Correta.** Conforme fundamentado na seção *3.3 Diagramas de Sequência, Atividades e Máquina de Estados* deste guia, *Linhas de Vida (*Lifelines*):* Linha vertical tracejada que representa a existência do objeto no tempo. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-23/2016) ao estabelecer que "os períodos de ativação do objeto".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as etapas em que o objeto estará inativo". De acordo com a teoria estudada em *3.3 Diagramas de Sequência, Atividades e Máquina de Estados*, diagrama de Máquina de Estados: Modela os diferentes estados pelos quais um objeto singular transita durante sua vida útil em resposta a eventos (gatilhos), protegidos por guardas booleanas e disparando ações.
 >
-> **Gabarito: A**
+> **Gabarito: D**
 
 ---
 
 ### Teste 019
-**(FCC – TRT-13 – Analista Judiciário (TI) – 2014)**  
+**(FCC – TRT-13 – Analista Judiciario Tecnologia da Informacao – 2014)**
 Este diagrama da UML pode ser usado para modelar processos de negócio. Suporta comportamento paralelo e permite que, quem está seguindo o processo, escolha a ordem na qual fazer as coisas. Em outras palavras, ele simplesmente determina as regras essenciais de sequência que se deve seguir. São geralmente usados para mostrar o que acontece, mas não quem faz o que, já que faz sentido se concentrar no que é feito, em vez de em quem realiza quais partes do comportamento. O diagrama descrito é o diagrama de
 
 * **A)** sequência.
 * **B)** atividades.
 * **C)** casos de uso.
 * **D)** comunicação.
-* **E)** distribuição. Caderno de Prova ’K11’, Tipo 001 10 TRT13-An.Jud.-Tec.Informação-K11
+* **E)** distribuição.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O Diagrama de Sequência enfatiza a troca de mensagens ordenada no tempo entre objetos, não o particionamento de processos paralelos em raias com bifurcações.
-> - **B)** Correta. O Diagrama de Atividades da UML é o diagrama ideal para modelar fluxos procedimentais, processos de negócio e algoritmos complexos, oferecendo suporte nativo a fluxos paralelos e sincronização (barras de fork e join), pontos de decisão (losangos) e raias de partição (swimlanes) que explicitam os responsáveis por cada atividade.
-> - **C)** Incorreta. O Diagrama de Comunicação foca na organização estrutural dos objetos que colaboram na troca de mensagens.
-> - **D)** Incorreta. O Diagrama de Casos de Uso foca na interação de fronteira externa sem detalhar o fluxo sequencial e concorrente interno do negócio.
-> - **E)** Incorreta. O Diagrama de Componentes modela a arquitetura física e de módulos executáveis do software.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "sequência". De acordo com a teoria estudada em *3.3 Diagramas de Sequência, Atividades e Máquina de Estados*, *Fragmentos Combinados:* Blocos com operadores como `alt` (ramificações alternativas / *if-else*), `opt` (comportamento opcional / *if*) e `loop` (iterações / *for-while*).
+> - **B)** **Correta.** Conforme fundamentado na seção *3.3 Diagramas de Sequência, Atividades e Máquina de Estados* deste guia, diagrama de Máquina de Estados: Modela os diferentes estados pelos quais um objeto singular transita durante sua vida útil em resposta a eventos (gatilhos), protegidos por guardas booleanas e disparando ações. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-13/2014) ao estabelecer que "atividades".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "casos de uso". De acordo com a teoria estudada em *3.1 Taxonomia dos Diagramas UML: Estruturais vs. Comportamentais*, diagrama de Casos de Uso (interações de atores com funcionalidades).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "comunicação". De acordo com a teoria estudada em *4.3 Estruturas de Separação (Pools e Lanes) e Conectores de Sequência vs. Mensagem*, fluxo de Mensagem (*Message Flow*): Representado por linha tracejada com um círculo vazado na origem e uma seta aberta no destino. Utilizado estritamente para modelar comunicação e troca de mensagens entre duas Pools distintas.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "distribuição". De acordo com a teoria estudada em *3.1 Taxonomia dos Diagramas UML: Estruturais vs. Comportamentais*, diagrama de Implantação (*Deployment*) (arquitetura de hardware, nós de rede e distribuição de artefatos).
 >
 > **Gabarito: B**
 
@@ -476,76 +459,74 @@ flowchart TD
 ---
 
 ### Teste 020
-**(FCC – TRT-6 – Analista Judiciário (TI) – 2012)**  
-Considere o seguinte diagrama em UML: A B C D E Uma representação válida deste diagrama é obtida substituindo-se as classes representadas pelas letras A, B, C, D e E, respectivamente, por
+**(FCC – TRT-3 – Analista Judiciario Tecnologia da Informacao – 2015)**
+O analista de TI Matheus, do TRT da 3a Região, durante o desenho de um processo utilizando a BPMN, deparou-se com a seguinte situação: em um ponto do processo em que a decisão seria tomada com base em um evento existiam dois possíveis eventos: (I) que o cliente entregasse os documentos no prazo estabelecido ou (II) que não os entregasse e o prazo de 5 dias expiraria. O primeiro evento que ocorresse determinaria o caminho do fluxo. No seu desenho ele utilizou, corretamente, o objeto BPMN Gataway
 
-* **A)** Desenho, Cor, Tipo, Azul, Retângulo.
-* **B)** Computador, Notebook, Desktop, Impressora, Monitor.
-* **C)** Pedido, Compra, Venda, Item, Cliente.
-* **D)** Livro, Índice, Capa, Romance, Aventura.
-* **E)** Internet, Navegadores, Correio Eletrônico, Firefox, Outlook.
+* **A)** Exclusivo baseado em Eventos.
+* **B)** Paralelo.
+* **C)** Exclusivo baseado em Dados.
+* **D)** Inclusivo com Eventos.
+* **E)** Exclusivo Paralelo.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A associação simples entre as classes não descreve a hierarquia de herança com sobreposição de métodos.
-> - **B)** Incorreta. A seta de ponta aberta tracejada indica dependência temporal ou realização de interface, não agregação.
-> - **C)** Incorreta. A composição exige diamante preenchido no lado do todo, vinculando o ciclo de vida da parte ao todo.
-> - **D)** Incorreta. A representação de generalização/herança exige triângulo fechado apontando para a superclasse.
-> - **E)** Correta. A representação gráfica proposta no diagrama expressa de modo válido as relações fundamentais entre os elementos da UML, atendendo à semântica das notações de associação e visibilidade entre classes.
+> - **A)** **Correta.** Conforme fundamentado na seção *4.2 Gateways Decisórios no BPMN 2.0 (XOR, AND, OR e Event-based)* deste guia, gateway Baseado em Eventos (Pentágono): O desvio de fluxo depende de qual evento externo intermediário (recebimento de mensagem ou expiração de temporizador) ocorrer primeiro no tempo. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-3/2015) ao estabelecer que "Exclusivo baseado em Eventos".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Paralelo". De acordo com a teoria estudada em *4.1 Elementos de Fluxo: Eventos, Atividades e Tipos de Tarefas*, a notação BPMN 2.0 (*Business Process Model and Notation*), mantida pelo consórcio OMG, é o padrão global para desenho de processos de negócio.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Exclusivo baseado em Dados". De acordo com a teoria estudada em *4.2 Gateways Decisórios no BPMN 2.0 (XOR, AND, OR e Event-based)*, gateway Exclusivo (XOR - "X"): Seleciona exclusivamente uma única rota entre as disponíveis.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Inclusivo com Eventos". De acordo com a teoria estudada em *4.2 Gateways Decisórios no BPMN 2.0 (XOR, AND, OR e Event-based)*, gateway Inclusivo (OR - "O"): Ativa múltiplos ramos condicionalmente e sincroniza apenas os ramos ativados.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Exclusivo Paralelo". De acordo com a teoria estudada em *4.2 Gateways Decisórios no BPMN 2.0 (XOR, AND, OR e Event-based)*, gateway Paralelo (AND - "+"): Executa todos os caminhos de saída concorrentemente e sincroniza todos os caminhos na junção.
 >
-> **Gabarito: E**
+> **Gabarito: A**
 
 ---
 
 ### Teste 021
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Ao mapear o fluxo de processamento de denúncias no Tribunal de Contas com base no padrão BPMN 2.0, o Auditor de TI necessita representar uma bifurcação decisória na qual duas rotas de fiscalização subsequentes devam ser iniciadas e executadas concorrentemente (em paralelo), de modo incondicional e independente do teor dos dados da petição. Para atender formalmente a esse requisito de modelagem, deve-se empregar o gateway:
+**(FGV – TJ-SC – Analista Administrativo – 2026)**
+A modelagem de processos pode ser realizada por meio de diferentes formatos, cada qual mais adequado a uma finalidade específica. A escolha do formato depende da situação organizacional, do público-alvo e do grau de formalidade exigido. Considere as situações a seguir, vivenciadas por gestores em uma organização. I. "Tenho 15 minutos para explicar o processo a quem nunca o viu." II. "Preciso mapear gargalos com o time de operação." III. "Preciso compreender oportunidades de melhorias, realizar automação, implantar IA ou conduzir projeto de transformação digital ou organizacional." Os formatos de modelagem mais adequados a cada uma dessas situações são, respectivamente,
 
-* **A)** Paralelo (marcado com um sinal de adição "+").
-* **B)** Exclusivo baseado em dados (marcado com um "X" ou losango vazio).
-* **C)** Inclusivo (marcado com um círculo "O").
-* **D)** Baseado em eventos (marcado com um pentágono).
-* **E)** Complexo (marcado com um asterisco "*").
-
+* **A)** BPMN simplificado, fluxograma tradicional e desenho lúdico.
+* **B)** fluxograma tradicional, desenho lúdico e BPMN simplificado.
+* **C)** desenho lúdico, BPMN simplificado e fluxograma tradicional.
+* **D)** desenho lúdico, fluxograma tradicional e BPMN simplificado.
+* **E)** BPMN simplificado, desenho lúdico e fluxograma tradicional.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) CORRETA.** No BPMN 2.0, o **Gateway Paralelo (AND)**, graficamente caracterizado pelo marcador de **adição "+"** no interior do losango, é empregado para bifurcar o fluxo em múltiplos caminhos concorrentes que são executados simultaneamente e incondicionalmente (sem avaliação de testes lógicos ou dados de entrada). Na junção (*join*), ele sincroniza os fluxos aguardando a finalização de todos os ramos.
-> - **B) Incorreta.** O Gateway Exclusivo (XOR - "X") roteia o fluxo para rigorosamente uma única rota de saída com base em condições mutuamente excludentes.
-> - **C) Incorreta.** O Gateway Inclusivo (OR - "O") pode disparar múltiplos caminhos, porém subordina cada ramo de saída à avaliação de expressões booleanas sobre dados.
-> - **D) Incorreta.** O Gateway Baseado em Eventos direciona o fluxo com base na ocorrência cronológica do primeiro evento intermediário registrado (como recepção de mensagem ou disparo de temporizador).
-> - **E) Incorreta.** O Gateway Complexo (*) destina-se a comportamentos de sincronização avançados que não se enquadram nos gateways tradicionais.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "BPMN simplificado, fluxograma tradicional e desenho lúdico". De acordo com a teoria estudada em *4.2 Gateways Decisórios no BPMN 2.0 (XOR, AND, OR e Event-based)*, gateway Baseado em Eventos (Pentágono): O desvio de fluxo depende de qual evento externo intermediário (recebimento de mensagem ou expiração de temporizador) ocorrer primeiro no tempo.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "fluxograma tradicional, desenho lúdico e BPMN simplificado". De acordo com a teoria estudada em *4.2 Gateways Decisórios no BPMN 2.0 (XOR, AND, OR e Event-based)*, os Gateways são representados por Losangos e controlam a convergência e divergência dos fluxos.
+> - **C)** **Correta.** Conforme fundamentado na seção *4.1 Elementos de Fluxo: Eventos, Atividades e Tipos de Tarefas* deste guia, a notação BPMN 2.0 (*Business Process Model and Notation*), mantida pelo consórcio OMG, é o padrão global para desenho de processos de negócio. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-SC/2026) ao estabelecer que "desenho lúdico, BPMN simplificado e fluxograma tradicional".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "desenho lúdico, fluxograma tradicional e BPMN simplificado". De acordo com a teoria estudada em *4.2 Gateways Decisórios no BPMN 2.0 (XOR, AND, OR e Event-based)*, gateway Exclusivo (XOR - "X"): Seleciona exclusivamente uma única rota entre as disponíveis.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "BPMN simplificado, desenho lúdico e fluxograma tradicional". De acordo com a teoria estudada em *4.2 Gateways Decisórios no BPMN 2.0 (XOR, AND, OR e Event-based)*, gateway Paralelo (AND - "+"): Executa todos os caminhos de saída concorrentemente e sincroniza todos os caminhos na junção.
 >
-> **Gabarito: A**
+> **Gabarito: C**
 
 ---
 
 ### Teste 022
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A respeito das regras sintáticas e estruturas de particionamento estabelecidas pela especificação BPMN 2.0 para modelagem e auditoria de processos de negócio corporativos, assinale a afirmativa correta:
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Ciencias da Computacao Sistemas de Informacao – 2026)**
+No mapeamento de um processo de auditoria externa, o Auditor desenha um fluxo onde, após a análise preliminar, duas atividades devem ocorrer simultaneamente, sendo elas: “Notificar o Gestor” e “Publicar Edital”. O elemento do padrão BPMN 2.0, que deve ser utilizado para dividir o fluxo em dois caminhos simultâneos que não dependem de condições lógicas para iniciar, é o
 
-* **A)** Uma Piscina (*Pool*) representa um participante independente no processo, enquanto as Raias (*Lanes*) atuam como subdivisões internas destinadas a segregar funções, departamentos ou papéis operacionais daquela organização.
-* **B)** Um Fluxo de Sequência (*Sequence Flow*) pode interligar diretamente uma tarefa situada em uma Piscina (*Pool*) a uma tarefa localizada no interior de outra Piscina distinta.
-* **C)** O Fluxo de Mensagem (*Message Flow*) é desenhado por meio de uma linha contínua finalizada por uma seta preenchida sólida conectando raias da mesma piscina.
-* **D)** A notação proíbe que um processo contenha mais de uma raia (*lane*) caso as atividades façam uso de objetos de dados de leitura e gravação.
-* **E)** Os Objetos de Dados (*Data Objects*) são elementos de controle ativo responsáveis por direcionar o desvio e a tomada de decisão das rotas de fluxo.
-
+* **A)** Exclusive Gateway (X).
+* **B)** Parallel Gateway (+).
+* **C)** Inclusive Gateway (O).
+* **D)** Event-based Gateway.
+* **E)** Intermediate Timer Event.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) CORRETA.** No metamodelo oficial do BPMN 2.0, a **Piscina (*Pool*)** delimita um participante corporativo autônomo (uma organização, entidade externa ou processo independente). As **Raias (*Lanes*)** funcionam como partições internas da Pool para agrupar e organizar responsabilidades por setores, papéis funcionais ou sistemas operacionais internos daquela entidade.
-> - **B) Incorreta.** Regra fundamental e estrita do BPMN: o Fluxo de Sequência (linha contínua) **nunca pode cruzar as fronteiras entre Pools distintas**. A comunicação entre diferentes Pools dá-se obrigatoriamente por Fluxo de Mensagem (*Message Flow*).
-> - **C) Incorreta.** O Fluxo de Mensagem é graficamente representado por **linha tracejada com círculo vazado na origem e seta aberta no destino**, conectando elementos entre Pools distintas.
-> - **D) Incorreta.** Uma Piscina pode comportar múltiplas raias organizacionais independentemente da presença de objetos de dados.
-> - **E) Incorreta.** Objetos de dados têm natureza meramente informacional (mostram quais dados ou documentos são produzidos ou requeridos pelas atividades), não exercendo controle ativo sobre desvios de rota.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Exclusive Gateway (X)". De acordo com a teoria estudada em *4.2 Gateways Decisórios no BPMN 2.0 (XOR, AND, OR e Event-based)*, gateway Paralelo (AND - "+"): Executa todos os caminhos de saída concorrentemente e sincroniza todos os caminhos na junção.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Parallel Gateway (+)". De acordo com a teoria estudada em *4.2 Gateways Decisórios no BPMN 2.0 (XOR, AND, OR e Event-based)*, gateway Exclusivo (XOR - "X"): Seleciona exclusivamente uma única rota entre as disponíveis.
+> - **C)** **Correta.** Conforme fundamentado na seção *4.2 Gateways Decisórios no BPMN 2.0 (XOR, AND, OR e Event-based)* deste guia, gateway Baseado em Eventos (Pentágono): O desvio de fluxo depende de qual evento externo intermediário (recebimento de mensagem ou expiração de temporizador) ocorrer primeiro no tempo. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "Inclusive Gateway (O)".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Event-based Gateway". De acordo com a teoria estudada em *4.2 Gateways Decisórios no BPMN 2.0 (XOR, AND, OR e Event-based)*, gateway Inclusivo (OR - "O"): Ativa múltiplos ramos condicionalmente e sincroniza apenas os ramos ativados.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Intermediate Timer Event". De acordo com a teoria estudada em *4.1 Elementos de Fluxo: Eventos, Atividades e Tipos de Tarefas*, *Intermediário (Intermediate Event):* Linha de borda dupla.
 >
-> **Gabarito: A**
+> **Gabarito: C**
 
 ---
 

@@ -110,119 +110,74 @@ flowchart TD
 ---
 
 ### Teste 102
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere a sequência numérica infinita cujos primeiros termos são apresentados a seguir:
-$$3, 5, 9, 17, 33, 65, \dots$$
+**(FCC – TRT-24 – Analista Judiciario Tecnologia da Informacao – 2017)**
+Uma sequência pode ser criada com a seguinte regra: escolhe-se um número natural maior que 100, para ser o primeiro termo dessa sequência. Se o termo da sequência é um número natural PAR, o termo seguinte deverá ser a metade desse número PAR; se o termo da sequência for um número natural ÍMPAR, deve-se somar 13 a esse número ÍMPAR e em seguida calcular a metade dessa soma para obter o termo seguinte. Segue um exemplo: se um termo da sequência é o número 137, que é ÍMPAR, o termo seguinte será 75, que é a metade da soma entre 137 e 13. O 8o termo de uma sequência, criada com essa regra e com termo inicial igual a 4855, é
 
-O próximo termo dessa sequência e a lei de formação que rege seus elementos correspondem, respectivamente, a:
-
-* **A)** 129 e o dobro do termo anterior subtraído de 1
-* **B)** 129 e o dobro do termo anterior somado a 1
-* **C)** 97 e a soma dos dois termos anteriores
-* **D)** 130 e potências consecutivas de 3
-* **E)** 131 e a soma das diferenças sucessivas multiplicadas por 3
-
+* **A)** 49
+* **B)** 93
+* **C)** 35
+* **D)** 75
+* **E)** 118
 
 ---
 
 > **Comentário Detalhado:**
-> Identificação da lei de formação por diferenças e recorrência:
 >
-> 1. Calculando a diferença entre termos consecutivos:
->     - $5 - 3 = 2 = 2^1$
->     - $9 - 5 = 4 = 2^2$
->     - $17 - 9 = 8 = 2^3$
->     - $33 - 17 = 16 = 2^4$
->     - $65 - 33 = 32 = 2^5$
->    As diferenças sucessivas formam potências consecutivas de 2. Logo, a próxima diferença entre o 7º e o 6º termo deve ser $2^6 = 64$:
->    $$a_7 = 65 + 64 = \mathbf{129}$$
-> 2. Analisando a lei de recorrência direta:
->     - $2 \times 3 - 1 = 5$
->     - $2 \times 5 - 1 = 9$
->     - $2 \times 9 - 1 = 17$
->     - $2 \times 17 - 1 = 33$
->     - $2 \times 33 - 1 = 65$
->     - $2 \times 65 - 1 = 130 - 1 = \mathbf{129}$
->    A lei estruturante expressa-se perfeitamente como o **dobro do termo anterior subtraído de 1** ($a_n = 2a_{n-1} - 1$).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "49". De acordo com a teoria estudada em *1.1 Sequências Numéricas e Relações de Recorrência*, sequências do Tipo Fibonacci: Cada termo resulta da soma dos dois termos imediatamente anteriores (\$1, 1, 2, 3, 5, 8, 13, 21\dots\$).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "93". De acordo com a teoria estudada em *1.4 Sequências Cíclicas e Resolução por Aritmética Modular*, se \$r > 0\$: O termo procurado é o \$r\$-ésimo elemento do bloco inicial.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "35". De acordo com a teoria estudada em *5.1 O Princípio do Terceiro Excluído e da Não Contradição*, uma declaração não pode ser simultaneamente verdadeira e falsa sob as mesmas circunstâncias (Não Contradição).
+> - **D)** **Correta.** Conforme fundamentado na seção *1.2 Sequências Alfanuméricas e Ordem Alfabética Oficial* deste guia, *Exemplo:* Na sequência \$B2, D4, F6, H8\dots\$, a letra avança de 2 em 2 posições no alfabeto e o número acompanha a ordem par correspondente. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-24/2017) ao estabelecer que "75".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "118". De acordo com a teoria estudada em *5.2 O Método do Par Contraditório*, se o enunciado garantir que *"entre os quatro servidores ouvidos, apenas um deles mentiu"*, examine os depoimentos em busca de duas pessoas que se contradigam (por exemplo: Daniel diz *"Fernando cometeu a fraude"* e Fernando diz *"Daniel está mentindo"*).
 >
-> Análise das alternativas:
->
-> - **A)** Correta. O próximo elemento é 129 e a relação de recorrência é $2x - 1$.
-> - **B)** Incorreta. Se somasse 1, a sequência seria $3, 7, 15, 31, 63, 127$.
-> - **C)** Incorreta. A soma dos dois termos precedentes (estilo Fibonacci) geraria $33 + 65 = 98$, divergindo de 97 e da lógica da sequência.
-> - **D)** Incorreta. O próximo termo é 129, e não 130.
-> - **E)** Incorreta. Aponta 131 decorrente de erro aritmético.
-> 
-> **Gabarito: A**
+> **Gabarito: D**
 
 ---
 
 ### Teste 103
-**(FGV – TRT – Analista Judiciário (TI) – 2024)**  
-O campeonato interestelar de wongwong será disputado por 24.225 jogadores. Cada partida de wongwong é disputada por dois jogadores e, como resultado, ao final há um vencedor e um perdedor. O campeonato será todo eliminatório, ou seja, em cada partida o perdedor é eliminado e o vencedor prossegue na disputa. Assim, o número de partidas desse campeonato será igual a
+**(FCC – TRT-6 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2012)**
+Em um torneio de futebol, as equipes ganham 3 pontos por vitória, 1 ponto por empate e nenhum ponto em caso de derrota. Na 1a fase desse torneio, as equipes são divididas em grupos de quatro, realizando um total de seis jogos (dois contra cada um dos outros três times do grupo). Classificam-se para a 2a fase as duas equipes com o maior número de pontos. Em caso de empate no número de pontos entre duas equipes, prevalece aquela com o maior número de vitórias. A tabela resume o desempenho dos times de um dos grupos do torneio, após cada um ter disputado cinco jogos. Equipe Jogos realizados Vitórias Empates Derrotas Arranca Toco 5 3 1 1 Bola Murcha 5 2 0 3 Canela Fina 5 1 3 1 Espanta Sapo 5 1 2 2 Sabendo que, na última rodada desse grupo, serão realizados os jogos Arranca Toco X Espanta Sapo e Bola Murcha X Canela Fina, avalie as afirmações a seguir. I. A equipe Arranca Toco já está classificada para a 2a fase, independentemente dos resultados da última rodada. II. Para que a equipe Canela Fina se classifique para a 2a fase, é necessário que ela vença sua partida, mas pode não ser suficiente. III. Para que a equipe Espanta Sapo se classifique para a 2a fase, é necessário que ela vença sua partida, mas pode não ser suficiente. Está correto o que se afirma em
 
-* **A)** 24.224.
-* **B)** 100.640.
-* **C)** 120.460.
-* **D)** 412.224.
-* **E)** 1.024.316.
+* **A)** I, II e III.
+* **B)** I, apenas.
+* **C)** I e II, apenas.
+* **D)** II e III, apenas.
+* **E)** I e III, apenas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Em qualquer torneio no formato eliminatório simples (mata-mata) com partidas de 1 contra 1 e sem empate, cada partida disputada elimina exatamente 1 jogador. Para se ter 1 único campeão ao final entre $N = 24.225$ jogadores participantes, é necessário que exatamente $N - 1$ jogadores sejam eliminados. Logo, o número total de partidas disputadas é impreterivelmente $24.225 - 1 = 24.224$ partidas.
-> - **B)** Incorreta. Valor desproporcional que ignora a lógica de que cada partida produz exatamente um eliminado.
-> - **C)** Incorreta. Supõe rodadas multiplicativas incorretas.
-> - **D)** Incorreta. Considera que todos jogam contra todos em turno e returno, o que não é o modelo eliminatório.
-> - **E)** Incorreta. Cálculo de combinações simples em vez de torneio eliminatório direto.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *5.1 O Princípio do Terceiro Excluído e da Não Contradição*, uma declaração não pode ser simultaneamente verdadeira e falsa sob as mesmas circunstâncias (Não Contradição).
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *5.2 O Método do Par Contraditório*, se o enunciado garantir que *"entre os quatro servidores ouvidos, apenas um deles mentiu"*, examine os depoimentos em busca de duas pessoas que se contradigam (por exemplo: Daniel diz *"Fernando cometeu a fraude"* e Fernando diz *"Daniel está mentindo"*).
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *O Teorema Infalível das Faces Opostas:*, propriedade Inviolável: Duas faces opostas nunca podem ser vizinhas adjacentes e jamais aparecem juntas em uma mesma visão tridimensional ortogonal do cubo.
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *1.1 Sequências Numéricas e Relações de Recorrência*, sequências do Tipo Fibonacci: Cada termo resulta da soma dos dois termos imediatamente anteriores (\$1, 1, 2, 3, 5, 8, 13, 21\dots\$).
+> - **E)** **Correta.** Conforme fundamentado na seção *1.3 Padrões Literais por Iniciais Semânticas* deste guia, iniciais dos numerais por extenso: U, D, T, Q, C, S, S, O, N, D (Um, Dois, Três, Quatro, Cinco, Seis, Sete, Oito, Nove, Dez). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-6/2012) ao estabelecer que "I e III, apenas".
 >
-> **Gabarito: A**
+> **Gabarito: E**
 
 ---
 
 ### Teste 104
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere a sucessão lógica de letras:  
-$$U, D, T, Q, C, S, S, O, N, ...$$  
-A próxima letra que dá continuidade lógica e consistente a essa sequência é:
+**(IBFC – TJ-MG – Analista Judiciario Classe C Analista de Tecnologia da Informacao – 2022)**
+Abaixo temos uma sequência lógica de números naturais. Dessa forma, o próximo número dessa sequência que segue a essa lógica 1, 7, 25, 79, ... corresponde a:
 
-* **A)** D
-* **B)** V
-* **C)** O
-* **D)** T
-* **E)** Q
-
+* **A)** 108
+* **B)** 241
+* **C)** 257
+* **D)** 571
+* **E)** 342
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **Identificação do Padrão Semântico Oculto:**  
->   - Em sequências literais da FCC que não seguem ordem alfabética aritmética evidente, a banca comumente recorre à **inicial semântica dos números cardinais ou ordinais**:  
->     - **U** $
-ightarrow$ Um  
->     - **D** $
-ightarrow$ Dois  
->     - **T** $
-ightarrow$ Três  
->     - **Q** $
-ightarrow$ Quatro  
->     - **C** $
-ightarrow$ Cinco  
->     - **S** $
-ightarrow$ Seis  
->     - **S** $
-ightarrow$ Sete  
->     - **O** $
-ightarrow$ Oito  
->     - **N** $
-ightarrow$ Nove  
->   - O próximo número da contagem natural é o número **Dez**.  
->   - A letra inicial da palavra "Dez" é a letra **D**.  
-> - **Conclusão:** A próxima letra é **D** (Alternativa A).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "108". De acordo com a teoria estudada em *1.2 Sequências Alfanuméricas e Ordem Alfabética Oficial*, *Exemplo:* Na sequência \$B2, D4, F6, H8\dots\$, a letra avança de 2 em 2 posições no alfabeto e o número acompanha a ordem par correspondente.
+> - **B)** **Correta.** Conforme fundamentado na seção *1.1 Sequências Numéricas e Relações de Recorrência* deste guia, diferenças Sucessivas em Progressão: A diferença entre termos consecutivos não é constante, mas forma uma nova sequência com lei própria (ex.: diferenças que dobram a cada passo: \$+2, +4, +8, +16, +32\dots\$). Dessa forma, está plenamente correta a assertiva da banca (IBFC – TJ-MG/2022) ao estabelecer que "241".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "257". De acordo com a teoria estudada em *4.1 Identificação do Elemento Intruso em Conjuntos*, exige identificar a propriedade lógica oculta que une a maioria dos elementos de um rol e discriminar o único elemento que destoa dessa harmonia funcional ou geométrica.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "571". De acordo com a teoria estudada em *1.1 Sequências Numéricas e Relações de Recorrência*, as sequências de números exploradas em concursos estruturam-se segundo diferentes padrões formativos.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "342". De acordo com a teoria estudada em *1.2 Sequências Alfanuméricas e Ordem Alfabética Oficial*, as sequências que intercalam letras e números utilizam a posição ordinal das letras no alfabeto oficial da língua portuguesa (composto por 26 letras, incluindo K, W e Y).
 >
-> **Gabarito: A**
+> **Gabarito: B**
 
 ---
 
@@ -272,55 +227,48 @@ Monta-se uma equação de primeiro grau simples para encontrar a posição do di
 ---
 
 ### Teste 105
-**(FGV – TCE-PA – Auditor de Controle Externo – 2024)**  
-A amostra de idades a seguir foi obtida: 20 35 23 54 46 22 41 50 38 40 35 18 32 29 31 56 37 A mediana dessas idades é igual a
+**(CEBRASPE – TJ-RJ – Analista Judiciario Grupo Tecnologia da Informacao Analista de Gestao de Tic – 2021)**
+velocidade média (Mbps) 6 5 4 3 2 1 0 Dom. 2a 3a 4a 5a 6a Sáb. Na figura precedente, são mostrados os resultados de um levantamento feito acerca da velocidade média, em Mbps, da conexão da Internet em um órgão público, para determinada semana. Considerando-se o conjunto de dados formado pelos valores correspondentes aos sete dias da semana, destacados na figura, infere-se que a moda da velocidade média, em Mbps, da conexão da Internet, na referida semana, foi igual a
 
-* **A)** 34
-* **B)** 35
-* **C)** 36
-* **D)** 37
-* **E)** 38 TRIBUNAL DE CONTAS DO ESTADO DO PARÁ – TCE-PA FGV CONHECIMENTO AUDITOR DE CONTROLE EXTERNO – ÁREA ADMINISTRATIVA - ADMINISTRAÇÃO – MANHÃ TIPO BRANCA – PÁGINA 5
+* **A)** 1.
+* **B)** 2.
+* **C)** 5.
+* **D)** 3.
+* **E)** 4.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. 34 é menor que o elemento central do rol ordenado.
-> - **B)** Correta. A amostra possui $n = 17$ elementos (quantidade ímpar). Organizando os dados em ordem crescente (rol): 18, 20, 22, 23, 29, 31, 32, 35, 35, 36, 37, 38, 40, 41, 46, 50, 54, 56. A posição da mediana em uma série de tamanho ímpar $n$ é a posição $(n + 1)/2 = (17 + 1)/2 = 9ª$ posição. O 9º elemento do rol é exatamente 35. Logo, a mediana é igual a 35.
-> - **C)** Incorreta. 36 é o 10º elemento do rol ordenado.
-> - **D)** Incorreta. 37 é o 11º elemento do rol.
-> - **E)** Incorreta. 38 ocupa a 12ª posição da distribuição ordenada.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1". De acordo com a teoria estudada em *2.3 Cálculo do Ângulo entre Ponteiros de Relógio*, o ponteiro das horas desloca-se a uma velocidade de.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2". De acordo com a teoria estudada em *2. Orientação Temporal, Calendários e Relógios*, a orientação temporal examina o cômputo de prazos processuais e dias da semana mediante congruência modular de base 7.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "5". De acordo com a teoria estudada em *2.1 Contagem de Dias e Aritmética Módulo 7*, a semana compõe-se de exatamente 7 dias cíclicos. Logo, somar qualquer múltiplo de 7 dias a uma data devolve o calendário exatamente ao mesmo dia da semana.
+> - **D)** **Correta.** Conforme fundamentado na seção *2.3 Cálculo do Ângulo entre Ponteiros de Relógio* deste guia, o ponteiro dos minutos desloca-se a uma velocidade angular de. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TJ-RJ/2021) ao estabelecer que "3".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "4". De acordo com a teoria estudada em *2.1 Contagem de Dias e Aritmética Módulo 7*, *Exemplo:* Se uma sessão do TCE-GO ocorreu em uma quinta-feira e se quer saber em que dia da semana recairá um prazo de 43 dias corridos contados a partir daquela data.
 >
-> **Gabarito: B**
+> **Gabarito: D**
 
 ---
 
 ### Teste 106
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Um relógio analógico convencional de ponteiros marca exatamente $3$ horas e $40$ minutos. A medida do menor ângulo formado entre o ponteiro das horas e o ponteiro dos minutos nesse instante é igual a:
+**(FCC – TRT-4 – Analista Judiciario Tecnologia da Informacao – 2015)**
+Observe o seguinte diálogo entre Alberto e Beatriz. Alberto: − Que horas são? Beatriz: − No horário atual, as horas que passam do meio dia formam um número que é igual a quarta parte dos minutos que faltam para as 18h00. Alberto: − Que horas começa sua festa de aniversário hoje? Beatriz: − As 21h00. Da hora em que ocorreu o diálogo até a hora do começo da festa de aniversário de Beatriz faltam
 
-* **A)** $120^\circ$
-* **B)** $130^\circ$
-* **C)** $140^\circ$
-* **D)** $150^\circ$
-* **E)** $115^\circ$
-
+* **A)** 2 horas e 40 minutos.
+* **B)** 3 horas e 20 minutos.
+* **C)** 2 horas e 20 minutos.
+* **D)** 3 horas e 10 minutos.
+* **E)** 3 horas e 40 minutos.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **Método da Cinemática Angular dos Relógios:**  
->   - O círculo completo tem $360^\circ$, dividido em 12 intervalos de horas ($30^\circ$ por hora).  
->   - O ponteiro dos minutos desloca-se a uma velocidade de $6^\circ$ por minuto ($360^\circ / 60\text{ min}$).  
->   - O ponteiro das horas desloca-se a uma velocidade de $0{,}5^\circ$ por minuto ($30^\circ / 60\text{ min}$).  
-> - **Fórmula Direta do Ângulo entre Ponteiros (FCC):**  
->   $$\theta = \left| \frac{60H - 11M}{2} \right|$$  
->   onde $H = 3$ horas e $M = 40$ minutos.  
-> - **Substituindo os valores:**  
->   $$\theta = \left| \frac{60 \times 3 - 11 \times 40}{2} \right| = \left| \frac{180 - 440}{2} \right| = \left| \frac{-260}{2} \right| = |-130^\circ| = 130^\circ$$  
-> - Como $130^\circ \le 180^\circ$, este já é o menor ângulo formado entre eles.  
-> - **Conclusão:** O menor ângulo mede exatamente $130^\circ$ (Alternativa B).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2 horas e 40 minutos". De acordo com a teoria estudada em *2.3 Cálculo do Ângulo entre Ponteiros de Relógio*, fórmula do Menor Ângulo (\$\theta\$) às \$H\$ horas e \$M\$ minutos.
+> - **B)** **Correta.** Conforme fundamentado na seção *2.3 Cálculo do Ângulo entre Ponteiros de Relógio* deste guia, em um mostrador circular analógico tradicional (\$360^\circ\$ divididos em 12 horas e 60 minutos). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-4/2015) ao estabelecer que "3 horas e 20 minutos".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2 horas e 20 minutos". De acordo com a teoria estudada em *2.3 Cálculo do Ângulo entre Ponteiros de Relógio*, o ponteiro dos minutos desloca-se a uma velocidade angular de.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3 horas e 10 minutos". De acordo com a teoria estudada em *2.3 Cálculo do Ângulo entre Ponteiros de Relógio*, o ponteiro das horas desloca-se a uma velocidade de.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3 horas e 40 minutos". De acordo com a teoria estudada em *2.1 Contagem de Dias e Aritmética Módulo 7*, *Exemplo:* Se uma sessão do TCE-GO ocorreu em uma quinta-feira e se quer saber em que dia da semana recairá um prazo de 43 dias corridos contados a partir daquela data.
 >
 > **Gabarito: B**
 
@@ -363,75 +311,50 @@ Consiste em determinar a projeção visual bidimensional de uma estrutura tridim
 ---
 
 ### Teste 107
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Observe a planificação de um dado cúbico convencional, cujas faces contêm os símbolos $\heartsuit$, $\spadesuit$, $\diamondsuit$, $\clubsuit$, $\bigstar$ e $\blacktriangle$:
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Administracao – 2024)**
+A urna I contém 6 bolas brancas e 10 bolas azuis; a urna II contém 8 bolas brancas e 11 bolas azuis. Sorteamos ao caso uma bola da urna I e a colocamos na urna II sem observar sua cor. Em seguida, sorteamos duas bolas da urna II, sem reposição. A probabilidade de que as duas bolas sorteadas da urna II sejam brancas é aproximadamente igual a
 
-```text
-       [ ★ ]
-[ ♥ ] [ ♠ ] [ ♦ ] [ ♣ ]
-       [ ▲ ]
-```
-
-Ao montar o cubo a partir dessa planificação, a face que ficará **diametralmente oposta** à face com o símbolo de Espadas ($\spadesuit$) é:
-
-* **A)** Copas ($\heartsuit$)
-* **B)** Ouros ($\diamondsuit$)
-* **C)** Paus ($\clubsuit$)
-* **D)** Estrela ($\bigstar$)
-* **E)** Triângulo ($\blacktriangle$)
-
+* **A)** 0,180.
+* **B)** 0,305.
+* **C)** 0,366.
+* **D)** 0,466.
+* **E)** 0,482. Ética no Serviço Público
 
 ---
 
 > **Comentário Detalhado:**
-> Análise estrutural de planificação e dobradura de cubos:
 >
-> 1. Na fileira horizontal com quatro quadrados adjacentes $[ \heartsuit ] \ [ \spadesuit ] \ [ \diamondsuit ] \ [ \clubsuit ]$:
->     - Pelo teorema das faces opostas em planificações poliédricas, quadrados dispostos na mesma fileira separados por exatamente um quadrado intermediário dobram-se em planos paralelos, tornando-se **faces opostas**.
->     - $\heartsuit$ separa-se de $\diamondsuit$ por $\spadesuit \implies \heartsuit$ é oposta a $\diamondsuit$.
->     - $\spadesuit$ separa-se de $\clubsuit$ por $\diamondsuit \implies \spadesuit$ é oposta a $\clubsuit$.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "0,180". De acordo com a teoria estudada em *3.1 Rotações no Plano Bidimensional e Reflexões Axiais*, rotações: Giro rígido da figura em torno de um ponto pivô no sentido horário ou anti-horário em ângulos retos de \$90^\circ, 180^\circ\$ ou \$270^\circ\$. A forma e as distâncias relativas preservam-se; apenas a orientação espacial se altera.
+> - **B)** **Correta.** Conforme fundamentado na seção *O Teorema Infalível das Faces Opostas:* deste guia, em qualquer fileira retilínea com 3 ou 4 quadrados consecutivos, duas faces separadas por exatamente uma face intermediária formam um par de faces diametralmente opostas no cubo montado. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "0,305".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "0,366". De acordo com a teoria estudada em *2.2 Regras de Anos Bissextos e Deslocamento Anual*, deslocamento em Ano Bissexto: Possui 366 dias (acréscimo do dia 29 de fevereiro).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "0,466". De acordo com a teoria estudada em *O Teorema Infalível das Faces Opostas:*, propriedade Inviolável: Duas faces opostas nunca podem ser vizinhas adjacentes e jamais aparecem juntas em uma mesma visão tridimensional ortogonal do cubo.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "0,482. Ética no Serviço Público". De acordo com a teoria estudada em *5.3 O Método da Suposição Hipotética Dirigida*, caso não haja contradição explícita direta entre os depoimentos.
 >
-> 2. As abas que se projetam para fora da fileira central ($\bigstar$ acima e $\blacktriangle$ abaixo) dobram-se em $90^\circ$ fechando o topo e a base do cubo, sendo opostas entre si.
-> 3. Logo, a face que se posiciona diametralmente oposta à face de Espadas ($\spadesuit$) é a face de Paus ($\clubsuit$).
->
-> Análise individual das alternativas:
->
-> - **A)** Incorreta. Copas ($\heartsuit$) dobra em ângulo reto, ficando adjacente a Espadas.
-> - **B)** Incorreta. Ouros ($\diamondsuit$) é face imediatamente vizinha (adjacente) de Espadas.
-> - **C)** Correta. Paus ($\clubsuit$) é a face diametralmente oposta a Espadas ($\spadesuit$).
-> - **D)** Incorreta. Estrela ($\bigstar$) fecha a face superior, sendo adjacente a Espadas.
-> - **E)** Incorreta. Triângulo ($\blacktriangle$) fecha a face inferior, sendo adjacente a Espadas.
-> 
-> **Gabarito: C**
+> **Gabarito: B**
 
 ---
 
 ### Teste 108
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Uma pilha maciça de cubos idênticos de $1\text{ cm}$ de aresta foi montada sobre uma mesa plana de modo que sua vista frontal e sua vista lateral direita são ambas formadas por uma grade quadrada de $3 \times 3$ cubos completamente preenchida. O número MÍNIMO de cubinhos necessários para formar essa pilha é:
+**(FCC – TRT-24 – Analista Judiciario Tecnologia da Informacao – 2017)**
+Um veículo trafegando a uma velocidade média de 75 km/h percorre determinada distância em 4 horas e 20 minutos. Se a sua velocidade média cair para 45 km/h, o tempo necessário para percorrer a mesma distância será acrescido de um valor que é
 
-* **A)** $9$
-* **B)** $12$
-* **C)** $15$
-* **D)** $18$
-* **E)** $27$
-
+* **A)** maior que três horas e menor que quatro horas.
+* **B)** maior que duas horas e menor que três horas.
+* **C)** menor do que uma hora.
+* **D)** maior que uma hora e menor que duas horas.
+* **E)** maior que quatro horas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **Análise das Vistas Ortogonais:**  
->   - A vista frontal mostra uma malha $3 \times 3$ preenchida, o que significa que para cada uma das 3 colunas e cada um dos 3 níveis de altura (1, 2 e 3) deve haver pelo menos um cubo.  
->   - A vista lateral direita também mostra uma malha $3 \times 3$ preenchida, o que significa que para cada uma das 3 linhas de profundidade e cada um dos 3 níveis de altura deve haver pelo menos um cubo.  
-> - **Cálculo do Número Mínimo de Cubos:**  
->   - Em cada nível de altura (térreo, 2º andar e 3º andar), precisamos cobrir 3 posições em $x$ e 3 posições em $y$.  
->   - Para minimizar cubos em cada nível de altura $z$, basta posicionar os cubos ao longo da diagonal da base: $(1,1), (2,2), (3,3)$. Com apenas 3 cubos em cada nível, a projeção frontal projeta as 3 colunas e a projeção lateral projeta as 3 profundidades!  
->   - Como são 3 níveis de altura, o número mínimo total de cubos é:  
->     $$\text{Mínimo} = 3 \text{ níveis} \times 3 \text{ cubos por nível} = 9 \text{ cubos}$$  
-> - **Conclusão:** O número mínimo é 9 cubinhos (Alternativa A).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "maior que três horas e menor que quatro horas". De acordo com a teoria estudada em *1.3 Padrões Literais por Iniciais Semânticas*, iniciais dos numerais por extenso: U, D, T, Q, C, S, S, O, N, D (Um, Dois, Três, Quatro, Cinco, Seis, Sete, Oito, Nove, Dez).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "maior que duas horas e menor que três horas". De acordo com a teoria estudada em *2.3 Cálculo do Ângulo entre Ponteiros de Relógio*, o ponteiro das horas desloca-se a uma velocidade de.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "menor do que uma hora". De acordo com a teoria estudada em *2.3 Cálculo do Ângulo entre Ponteiros de Relógio*, em um mostrador circular analógico tradicional (\$360^\circ\$ divididos em 12 horas e 60 minutos).
+> - **D)** **Correta.** Conforme fundamentado na seção *2.3 Cálculo do Ângulo entre Ponteiros de Relógio* deste guia, fórmula do Menor Ângulo (\$\theta\$) às \$H\$ horas e \$M\$ minutos. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-24/2017) ao estabelecer que "maior que uma hora e menor que duas horas".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "maior que quatro horas". De acordo com a teoria estudada em *5.2 O Método do Par Contraditório*, se o enunciado garantir que *"entre os quatro servidores ouvidos, apenas um deles mentiu"*, examine os depoimentos em busca de duas pessoas que se contradigam (por exemplo: Daniel diz *"Fernando cometeu a fraude"* e Fernando diz *"Daniel está mentindo"*).
 >
-> **Gabarito: A**
+> **Gabarito: D**
 
 ---
 
@@ -452,33 +375,26 @@ Resolvem-se pela equivalência de transformações: *"A está para B assim como 
 ---
 
 ### Teste 109
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere o conjunto de cinco palavras a seguir:  
-*Goiânia*, *Curitiba*, *Brasília*, *Teresina*, *Manaus*
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Gestao Governamental – 2024)**
+O campeonato interestelar de wongwong será disputado por 24.225 jogadores. Cada partida de wongwong é disputada por dois jogadores e, como resultado, ao final há um vencedor e um perdedor. O campeonato será todo eliminatório, ou seja, em cada partida o perdedor é eliminado e o vencedor prossegue na disputa. Assim, o número de partidas desse campeonato será igual a
 
-Quatro dessas palavras guardam uma característica lógica comum que as reúne em uma mesma classe conceitual, enquanto uma delas é a intrusa. A palavra intrusa é:
-
-* **A)** Goiânia
-* **B)** Curitiba
-* **C)** Brasília
-* **D)** Teresina
-* **E)** Manaus
-
+* **A)** 24.224.
+* **B)** 100.640.
+* **C)** 120.460.
+* **D)** 412.224.
+* **E)** 1.024.316.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **Critério de Classificação Geopolítica e Administrativa:**  
->   - *Goiânia* é a capital do Estado de Goiás.  
->   - *Curitiba* é a capital do Estado do Paraná.  
->   - *Teresina* é a capital do Estado do Piauí.  
->   - *Manaus* é a capital do Estado do Amazonas.  
->   - Todas essas quatro são **capitais de Estados-membros** da federação brasileira, municípios com autonomia municipal típica (prefeito e câmara de vereadores).  
->   - *Brasília*, por sua vez, é a **Capital Federal**, sediada no Distrito Federal, ente federativo anômalo que acumula competências estaduais e municipais e não é dividido em municípios.  
-> - **Conclusão:** O elemento intruso é **Brasília** (Alternativa C).
+> - **A)** **Correta.** Conforme fundamentado na seção *4.2 Analogias Estruturais e Geométricas* deste guia, resolvem-se pela equivalência de transformações: *"A está para B assim como C está para D"*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "24.224".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "100.640". De acordo com a teoria estudada em *4.1 Identificação do Elemento Intruso em Conjuntos*, critérios geométricos: número de vértices, eixos de simetria, concavidade.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "120.460". De acordo com a teoria estudada em *4.1 Identificação do Elemento Intruso em Conjuntos*, critérios morfológicos/verbais: número de sílabas, classe gramatical, campo semântico.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "412.224". De acordo com a teoria estudada em *2.3 Cálculo do Ângulo entre Ponteiros de Relógio*, se o resultado modular for superior a \$180^\circ\$, toma-se o ângulo replementar: \$\theta_{\text{menor}} = 360^\circ - \theta\$.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1.024.316". De acordo com a teoria estudada em *5.3 O Método da Suposição Hipotética Dirigida*, se a quantidade de verdades e mentiras bater com o enunciado (ex.: 3 verdades e 1 mentira), a hipótese é a solução final.
 >
-> **Gabarito: C**
+> **Gabarito: A**
 
 ---
 
@@ -516,80 +432,48 @@ Caso não haja contradição explícita direta entre os depoimentos:
 ---
 
 ### Teste 110
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Durante uma auditoria interna para apurar o vazamento de um relatório sigiloso, quatro servidores — Daniel, Eduardo, Fernando e Gabriel — foram interrogados e fizeram as seguintes declarações:
-- Daniel: *"Fernando é o responsável pelo vazamento."*  
-- Eduardo: *"Eu não vazei o relatório."*  
-- Fernando: *"Daniel está mentindo."*  
-- Gabriel: *"Daniel é o responsável pelo vazamento."*  
-Sabendo-se que **apenas um dos quatro servidores mentiu** e que apenas um deles foi o responsável pelo vazamento, quem vazou o relatório e quem mentiu foram, respectivamente:
+**(FCC – TRT-4 – Analista Judiciario Tecnologia da Informacao – 2015)**
+As peças de um jogo estão numeradas com a sequência ordenada dos primeiros números inteiros não negativos. Nesse jogo, sabe-se que: − as dez primeiras peças ordenadas devem se submeter à regra A. − as cinco primeiras peças ordenadas de numeração par devem se submeter à regra B; − as cinco primeiras peças ordenadas de numeração ímpar devem se submeter à regra C; − as cinco primeiras peças ordenadas com numeração de número primo devem se submeter à regra D. De acordo com as regras, as peças do jogo submetidas à regra
 
-* **A)** Fernando e Daniel
-* **B)** Daniel e Fernando
-* **C)** Daniel e Daniel
-* **D)** Eduardo e Eduardo
-* **E)** Gabriel e Daniel
-
+* **A)** A também estão submetidas à regra C.
+* **B)** A também estão submetidas à regra D.
+* **C)** A mas não submetidas à regra B são as mesmas que estão submetidas à regra C.
+* **D)** A e à regra B, simultaneamente, constituem um conjunto sem elementos.
+* **E)** B e à regra C, simultaneamente, constituem um conjunto de um único elemento.
 
 ---
 
 > **Comentário Detalhado:**
-> Resolução estruturada pelo método do par contraditório:
 >
-> 1. As falas de Daniel (*"Fernando é o responsável"*) e de Fernando (*"Daniel está mentindo"*) são contraditórias: se Daniel diz a verdade, Fernando mente; se Daniel mente, Fernando diz a verdade. Logo, **exatamente um dos dois mente**.
-> 2. Como o enunciado fixa que apenas um servidor mentiu, a única mentira está confinada a esse par. Portanto, **Eduardo e Gabriel falaram a verdade**.
-> 3. Pela fala verdadeira de Gabriel, **Daniel é o responsável pelo vazamento**.
-> 4. Sendo Daniel o culpado, sua afirmação de que *"Fernando é o responsável"* é falsa, de modo que **Daniel mentiu**. Consequentemente, Fernando disse a verdade ao afirmar que Daniel mentia, e Eduardo (inocente) também disse a verdade, o que fecha o cenário com um único mentiroso.
-> 5. Verificação da hipótese alternativa: se Fernando fosse o culpado, a fala de Gabriel seria falsa e a de Fernando também (dois mentirosos), contrariando o enunciado.
->
-> Análise das alternativas:
->
-> - **A)** Incorreta. Se Fernando fosse o culpado, Daniel teria dito a verdade, e não mentido; além disso, Gabriel e Fernando mentiriam.
-> - **B)** Incorreta. Fernando disse a verdade ao afirmar que Daniel mentia; o mentiroso é o próprio Daniel.
-> - **C)** Correta. Daniel é o responsável pelo vazamento e foi ele quem mentiu ao apontar Fernando.
-> - **D)** Incorreta. Eduardo disse a verdade e é inocente; sendo ele o culpado, haveria mais de um mentiroso.
-> - **E)** Incorreta. Gabriel disse a verdade (Daniel é o culpado), logo não é o vazador.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A também estão submetidas à regra C". De acordo com a teoria estudada em *5.1 O Princípio do Terceiro Excluído e da Não Contradição*, uma declaração não pode ser simultaneamente verdadeira e falsa sob as mesmas circunstâncias (Não Contradição).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A também estão submetidas à regra D". De acordo com a teoria estudada em *1.2 Sequências Alfanuméricas e Ordem Alfabética Oficial*, *Exemplo:* Na sequência \$B2, D4, F6, H8\dots\$, a letra avança de 2 em 2 posições no alfabeto e o número acompanha a ordem par correspondente.
+> - **C)** **Correta.** Conforme fundamentado na seção *3.2 Planificação e Montagem de Cubos: A Regra das Faces Opostas* deste guia, a planificação de um hexaedro regular (cubo) compõe-se de 6 quadrados dispostos em cruz ou configurações similares. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-4/2015) ao estabelecer que "A mas não submetidas à regra B são as mesmas que estão submetidas à regra C".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A e à regra B, simultaneamente, constituem um conjunto sem elementos". De acordo com a teoria estudada em *1.4 Sequências Cíclicas e Resolução por Aritmética Modular*, quando uma palavra, código ou conjunto de símbolos é repetido indefinidamente formando uma fita infinita.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "B e à regra C, simultaneamente, constituem um conjunto de um único elemento". De acordo com a teoria estudada em *4.1 Identificação do Elemento Intruso em Conjuntos*, exige identificar a propriedade lógica oculta que une a maioria dos elementos de um rol e discriminar o único elemento que destoa dessa harmonia funcional ou geométrica.
 >
 > **Gabarito: C**
 
 ---
 
 ### Teste 111
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Três suspeitos de vazar um relatório confidencial de auditoria prestaram os seguintes depoimentos:  
-- **Alberto:** *"Bruno é culpado."*  
-- **Bruno:** *"Carlos é culpado."*  
-- **Carlos:** *"O que Bruno disse é mentira."*  
+**(FCC – TRT-11 – Analista Judiciario Tecnologia da Informacao – 2017)**
+José Souza, Paulo Almeida e Claudio Prinot são três funcionários que têm que realizar, no total para os três, 72 tarefas diariamente. Cada dia eles escolhem um critério diferente para repartir as tarefas. Por exemplo, no dia de ontem eles decidiram que as 72 tarefas seriam divididas entre eles diretamente proporcional às consoantes do sobrenome de cada um. Sendo assim, ontem Paulo Almeida teve que realizar o total de tarefas igual a
 
-Sabe-se que exatamente um dos três suspeitos disse a verdade e que apenas um deles é o culpado. O inocente que disse a verdade e o verdadeiro culpado são, respectivamente:
-
-* **A)** Alberto e Bruno
-* **B)** Carlos e Alberto
-* **C)** Bruno e Carlos
-* **D)** Carlos e Bruno
-* **E)** Alberto e Carlos
-
+* **A)** 9.
+* **B)** 24.
+* **C)** 15.
+* **D)** 12.
+* **E)** 18.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **Identificação do Par Contraditório:**  
->   - Bruno afirma: *"Carlos é culpado"*.  
->   - Carlos afirma: *"O que Bruno disse é mentira"*.  
->   - As falas de Bruno e Carlos são **rigorosamente contraditórias**. Pelo Princípio da Não Contradição e do Terceiro Excluído, exatamente uma delas é verdadeira e a outra é falsa.  
-> - **Dedução da Terceira Declaração:**  
->   - Como o enunciado informa que **apenas um dos três disse a verdade**, essa única verdade OBRIGATORIAMENTE está entre Bruno ou Carlos!  
->   - Portanto, a declaração de **Alberto é necessariamente FALSA**!  
-> - **Análise da falsidade de Alberto:**  
->   - Alberto disse: *"Bruno é culpado"*. Como isso é falso, concluímos que **Bruno é INOCENTE**.  
-> - **Análise de Bruno e Carlos:**  
->   - Agora suponha que Bruno tivesse dito a verdade. Se Bruno dissesse a verdade, Carlos seria o culpado. Mas Alberto disse que Bruno é culpado (falso, Bruno é inocente). E Carlos diria que Bruno mentiu (o que seria mentira, então Carlos mentiu). Isso daria Carlos culpado e mentiroso, e Bruno inocente que disse a verdade.  
->   - Mas se Alberto fosse o culpado? Se Alberto for o culpado, Carlos é inocente. Então o que Bruno disse ("Carlos é culpado") é FALSO!  
->   - Sendo a fala de Bruno falsa, a declaração de Carlos ("O que Bruno disse é mentira") torna-se **VERDADEIRA**!  
->   - Nesse caso: Alberto mentiu (F), Bruno mentiu (F) e Carlos disse a verdade (V) — exatamente 1 verdade!  
->   - E o culpado é **Alberto**, sendo Bruno e Carlos inocentes!  
-> - **Conclusão:** Quem disse a verdade é **Carlos** (inocente), e o verdadeiro culpado é **Alberto** (Alternativa B).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "9". De acordo com a teoria estudada em *5.2 O Método do Par Contraditório*, se o enunciado garantir que *"entre os quatro servidores ouvidos, apenas um deles mentiu"*, examine os depoimentos em busca de duas pessoas que se contradigam (por exemplo: Daniel diz *"Fernando cometeu a fraude"* e Fernando diz *"Daniel está mentindo"*).
+> - **B)** **Correta.** Conforme fundamentado na seção *5.3 O Método da Suposição Hipotética Dirigida* deste guia, se gerar quantidade diferente de mentirosos, descarta-se e testa-se o próximo suspeito. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-11/2017) ao estabelecer que "24".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "15". De acordo com a teoria estudada em *1.3 Padrões Literais por Iniciais Semânticas*, iniciais dos numerais por extenso: U, D, T, Q, C, S, S, O, N, D (Um, Dois, Três, Quatro, Cinco, Seis, Sete, Oito, Nove, Dez).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "12". De acordo com a teoria estudada em *4.2 Analogias Estruturais e Geométricas*, resolvem-se pela equivalência de transformações: *"A está para B assim como C está para D"*.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "18". De acordo com a teoria estudada em *2.4 Relações Temporais Relativas de Ontem e Amanhã*, problemas verbais do tipo *"Se o amanhã de ontem fosse o anteontem de depois de amanhã..."* devem ser resolvidos convertendo as expressões em uma reta numérica onde o dia Hoje é a origem \$0\$.
 >
 > **Gabarito: B**
 

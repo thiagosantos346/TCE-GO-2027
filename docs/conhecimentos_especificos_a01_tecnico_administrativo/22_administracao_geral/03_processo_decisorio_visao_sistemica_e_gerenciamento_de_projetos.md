@@ -92,53 +92,50 @@ flowchart TD
 ---
 
 ### Teste 360
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Determinado setor administrativo de um Tribunal de Contas analisa diariamente dezenas de pedidos de prorrogação de prazo protocolados por jurisdicionados. O procedimento para deferimento ou indeferimento do pedido segue critérios estritos, pré-fixados de forma taxativa em resolução normativa do Tribunal, avaliando-se apenas a tempestividade do protocolo e o anexo do atestado médico. Nos termos da tipologia do processo decisório formulada por Herbert Simon, a deliberação do chefe do setor constitui típica:
+**(FGV – TRT-24 – Tecnico Judiciario Area Administrativa Sem Especialidade – 2025)**
+O processo decisório abrange a análise e a escolha entre alternativas, e pode abranger diferentes tipos de decisões, cada uma com níveis distintos de complexidade e impacto na organização. Assinale a opção que apresenta, corretamente, a decisão programada de um problema não estruturado.
 
-* **A)** Decisão não programada.
-* **B)** Decisão intuitiva em condição de ambiguidade.
-* **C)** Decisão programada.
-* **D)** Decisão holística sob incerteza extrema.
-* **E)** Decisão estratégica de ruptura.
-
-
----
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** Decisões não programadas são tomadas perante fatos inéditos, complexos e que demandam soluções inovadoras.  
-> - **B) Incorreta.** Ambiguidade é a ausência de metas ou clareza sobre o problema; na hipótese narrada, as regras e dados são claros.  
-> - **C) CORRETA.** As **decisões programadas** são aquelas que tratam de problemas rotineiros, estruturados e repetitivos, cuja resposta é automática e amparada em normas regimentais, resoluções, regras fixas ou procedimentos operacionais padrão (POPs) preestabelecidos pela organização.  
-> - **D) Incorreta.** Os parâmetros são plenamente conhecidos, inexistindo incerteza extrema.  
-> - **E) Incorreta.** A análise de pedidos de prazo de rotina é tarefa operacional, e não decisão estratégica de ruptura.  
-> 
-> **Gabarito: C**
-
----
-
-### Teste 361
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Herbert Simon, em sua obra clássica *O Comportamento Administrativo* (prêmio Nobel de Economia de 1978), formulou a Teoria da **Racionalidade Limitada** (*Bounded Rationality*) na tomada de decisões.
-
-Segundo a teoria da racionalidade limitada de Simon:
-
-* **A)** O tomador de decisões é incapaz de obter e processar todas as informações disponíveis e prever todas as consequências futuras possíveis; por isso, em vez de buscar a decisão ótima máxima, ele opta por uma decisão **satisfatória** que atenda aos padrões mínimos aceitáveis.
-* **B)** O gestor público possui capacidade cognitiva infinita e recursos ilimitados para identificar a solução perfeita e maximizadora para cada problema.
-* **C)** O processo decisório deve ser guiado exclusivamente pela intuição e pela sorte, visto que a análise racional é impossível na vida pública.
-* **D)** As decisões programadas exigem a realização de assembleias públicas populares para cada ato administrativo rotineiro.
-* **E)** A racionalidade limitada impede que a Administração Pública utilize computadores ou sistemas de dados no auxílio à decisão.
-
+* **A)** Uma decisão programada de um problema não estruturado envolve dados imprecisos e informações que exigem tomada de decisão individual e criativa.
+* **B)** Quando a decisão programada se refere a um problema não estruturado, é necessário usar técnicas matemáticas e pesquisar soluções desconhecidas.
+* **C)** Para um problema não estruturado, uma decisão programada baseia-se em dados adequados e repetitivos, sem a necessidade de técnicas matemáticas ou previsibilidade.
+* **D)** A decisão programada de um problema não estruturado é tomada com base em dados inadequados e imprecisos, com um processo de decisão individual e criativa.
+* **E)** A decisão programada em um problema não estruturado não pode ser tomada de forma convencional, pois depende de dados incorretos ou variáveis.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Herbert Simon derrubou o mito do tomador de decisão econômico onisciente e onipotente (*racionalidade absoluta*): o ser humano possui limitações cognitivas, tempo escasso e informações incompletas. Por isso, ele atua no modelo do **homem administrativo**, que busca soluções satisfatórias (*satisficing*), e não maximizadoras.
-> - **B)** Incorreta. Visão do modelo da racionalidade absoluta que Simon refutou.
-> - **C)** Incorreta. Simon defende a racionalidade, reconhecendo apenas seus limites inerentes.
-> - **D), E)** Incorretas. Distorções que não representam o modelo de Simon.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Uma decisão programada de um problema não estruturado envolve dados imprecisos e informações que exigem tomada de...". De acordo com a teoria estudada em *2. Condições Ambientais da Tomada de Decisão*, condição de Ambiguidade: A situação mais crítica de gestão; as próprias metas organizacionais são nebulosas ou contraditórias, o problema é mal compreendido e inexistem alternativas claras de ação delineadas.
+> - **B)** **Correta.** Conforme fundamentado na seção *Decisões Programadas versus Não Programadas (Herbert Simon):* deste guia, natureza do Problema: Estruturado, rotineiro, repetitivo e frequente. — Inédito, mal estruturado, singular e imprevisível. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "Quando a decisão programada se refere a um problema não estruturado, é necessário usar técnicas matemáticas e...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Para um problema não estruturado, uma decisão programada baseia-se em dados adequados e repetitivos, sem a...". De acordo com a teoria estudada em *2. Condições Ambientais da Tomada de Decisão*, condição de Risco: O decisor desconhece com certeza o desfecho final, mas possui dados históricos, séries temporais e estatísticas suficientes para atribuir probabilidades matemáticas confiáveis a cada alternativa (ex.: probabilidade de 70% de êxito em uma fiscalização externa).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A decisão programada de um problema não estruturado é tomada com base em dados inadequados e imprecisos, com um...". De acordo com a teoria estudada em *2. Condições Ambientais da Tomada de Decisão*, em ambiente de RISCO, você consegue calcular probabilidades matemáticas associadas aos eventos futuros porque dispõe de séries históricas e dados estatísticos.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A decisão programada em um problema não estruturado não pode ser tomada de forma convencional, pois depende de...". De acordo com a teoria estudada em *2. Condições Ambientais da Tomada de Decisão*, em ambiente de INCERTEZA, os dados são precários ou inexistentes, sendo impossível estimar probabilidades matemáticas confiáveis.
+>
+> **Gabarito: B**
+
+---
+
+### Teste 361
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Gestao Governamental – 2024)**
+Na população de determinado município sobressaíram discussões quanto à necessidade de se incrementar a economia local, mais propriamente aquela referente aos microempreendedores. Após análises, verificou-se a dificuldade de obtenção de crédito por parte desse setor que, por sua vez, é o maior responsável pelas contratações diretas de mão de obra no setor privado. O Poder Executivo local elencou então alternativas possíveis, entre elas a concessão de microcrédito mediante agência pública de fomento a ser criada. Outra alternativa possível seria a concessão de benefícios exclusivos nas contratações públicas, mas parte do parlamento local discorda das propostas apresentadas. Assim, o tema foi conduzido à audiência pública na Câmara de Vereadores. A situação apresentada se refere à seguinte etapa do ciclo das políticas públicas:
+
+* **A)** Pré-definição do problema público.
+* **B)** Formação da agenda pública.
+* **C)** Elaboração da política pública.
+* **D)** Formulação da política pública.
+* **E)** Implementação da política pública.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Pré-definição do problema público". De acordo com a teoria estudada em *Decisões Programadas versus Não Programadas (Herbert Simon):*, natureza do Problema: Estruturado, rotineiro, repetitivo e frequente. — Inédito, mal estruturado, singular e imprevisível.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Formação da agenda pública". De acordo com a teoria estudada em *1. O Ciclo do Processo Decisório e a Tipologia de Decisões (Herbert Simon)*, o processo decisório é a sequência lógica e deliberada de passos cognitivos por meio da qual um administrador ou colegiado identifica uma demanda e elege uma linha de ação específica dentre alternativas concorrentes.
+> - **C)** **Correta.** Conforme fundamentado na seção *2. Condições Ambientais da Tomada de Decisão* deste guia, condição de Ambiguidade: A situação mais crítica de gestão; as próprias metas organizacionais são nebulosas ou contraditórias, o problema é mal compreendido e inexistem alternativas claras de ação delineadas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "Elaboração da política pública".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Formulação da política pública". De acordo com a teoria estudada em *3. Visão Sistêmica, Pensamento Holístico e Silos Organizacionais*, superação dos Silos Organizacionais (Feudos Administrativos): Na abordagem burocrática mecanicista tradicional, cada diretoria ou setor funcionava como um "feudo isolado" (*silo organizacional*), preocupado exclusivamente com suas próprias metas setoriais e cego aos impactos no restante do órgão.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Implementação da política pública". De acordo com a teoria estudada em *As Ferramentas de Planejamento e Controle de Cronograma:*, ferramenta probabilística empregada em projetos complexos ou inovadores com alto grau de incerteza quanto à duração das atividades.
+>
+> **Gabarito: C**
 
 ---
 
@@ -167,52 +164,50 @@ flowchart LR
 ---
 
 ### Teste 362
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A respeito da tomada de decisão em ambientes organizacionais e das condições de certeza, risco, incerteza e ambiguidade, assinale a opção correta:
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Administracao – 2024)**
+A mudança organizacional envolve toda a organização e segue passos progressivos: identificação do problema, análise das causas, formulação de estratégias e avaliação. A pesquisa-ação combina pesquisa e ação para gerenciar mudanças planejadas, seguindo cinco etapas: diagnóstico, análise, retroação, ação e avaliação. Na etapa de retroação o agente de mudança
 
-* **A)** Na condição de risco, o tomador de decisão possui informações completas e sabe com absoluta precisão o desfecho de cada alternativa de ação.
-* **B)** A condição de ambiguidade caracteriza-se pelo domínio pleno de dados históricos que permitem calcular probabilidades estatísticas exatas de insucesso.
-* **C)** A condição de certeza é a situação em que o decisor atua sem informações preliminares, confiando unicamente na sorte e na intuição.
-* **D)** Na condição de risco, o tomador de decisão desconhece com certeza o resultado final, contudo dispõe de dados suficientes para calcular probabilidades estatísticas associadas a cada alternativa.
-* **E)** A condição de incerteza permite ao gestor modelar todas as variáveis futuras por meio de equações determinísticas de causa e efeito imediato.
-
-
----
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** Informações completas e resultado exato definem a condição de **certeza**, e não de risco.  
-> - **B) Incorreta.** Na ambiguidade, as metas são desconhecidas e os dados são obscuros, sendo impossível calcular probabilidades.  
-> - **C) Incorreta.** Na certeza, o resultado é deterministicamente conhecido.  
-> - **D) CORRETA.** Na condição de **risco**, o resultado concreto de cada escolha é incerto, mas a organização possui informações e base histórica que tornam viável atribuir **probabilidades matemáticas ou estatísticas** de ocorrência a cada alternativa.  
-> - **E) Incorreta.** Na incerteza, as informações são escassas e as probabilidades matemáticas não podem ser calculadas com segurança.  
-> 
-> **Gabarito: D**
-
----
-
-### Teste 363
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na tomada de decisão sob diferentes condições ambientais, a situação em que o tomador de decisão conhece os possíveis desfechos alternativos e dispõe de dados históricos ou cálculos matemáticos que lhe permitem atribuir **probabilidades estatísticas objetivas** à ocorrência de cada resultado denomina-se:
-
-* **A)** Tomada de decisão em Condição de Risco.
-* **B)** Tomada de decisão em Condição de Certeza Absoluta.
-* **C)** Tomada de decisão em Condição de Incerteza Completa.
-* **D)** Tomada de decisão por Anarquia Organizada (*Garbage Can*).
-* **E)** Decisão de Consenso Heurístico Irrestrito.
-
+* **A)** envolve ativamente as pessoas na identificação do problema e na criação da solução.
+* **B)** identifica o problema ou necessidade de mudança dentro da organização.
+* **C)** investiga as causas subjacentes ao problema identificado, utilizando métodos de pesquisa.
+* **D)** implementa estratégias e intervenções planejadas para resolver o problema.
+* **E)** monitora os resultados das ações implementadas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Condições de tomada de decisão: **Certeza**: os resultados futuros de cada alternativa são perfeitamente previsíveis e conhecidos; **Risco**: os desfechos não são certos, mas é possível estimar a **probabilidade matemática/estatística** de cada alternativa ocorrer com base em dados; **Incerteza**: os desfechos são imprevisíveis e não se conhecem probabilidades estatísticas.
-> - **B)** Incorreta. Na certeza, conhece-se com exatidão o resultado, sem risco de desvio.
-> - **C)** Incorreta. Na incerteza, inexistem dados de probabilidade calculável.
-> - **D)** Incorreta. Modelo da "lata de lixo" (Cohen, March e Olsen) para anarquias organizadas.
-> - **E)** Incorreta. Expressão sem respaldo na tipologia ambiental de decisões.
-> 
+> - **A)** **Correta.** Conforme fundamentado na seção *2. Condições Ambientais da Tomada de Decisão* deste guia, condição de Ambiguidade: A situação mais crítica de gestão; as próprias metas organizacionais são nebulosas ou contraditórias, o problema é mal compreendido e inexistem alternativas claras de ação delineadas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "envolve ativamente as pessoas na identificação do problema e na criação da solução".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "identifica o problema ou necessidade de mudança dentro da organização". De acordo com a teoria estudada em *1. O Ciclo do Processo Decisório e a Tipologia de Decisões (Herbert Simon)*, o processo decisório é a sequência lógica e deliberada de passos cognitivos por meio da qual um administrador ou colegiado identifica uma demanda e elege uma linha de ação específica dentre alternativas concorrentes.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "investiga as causas subjacentes ao problema identificado, utilizando métodos de pesquisa". De acordo com a teoria estudada em *Decisões Programadas versus Não Programadas (Herbert Simon):*, natureza do Problema: Estruturado, rotineiro, repetitivo e frequente. — Inédito, mal estruturado, singular e imprevisível.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "implementa estratégias e intervenções planejadas para resolver o problema". De acordo com a teoria estudada em *3. Visão Sistêmica, Pensamento Holístico e Silos Organizacionais*, sinergia Organizacional: Fenômeno pelo qual a ação cooperativa e coordenada dos subsistemas integrados produz um resultado global significativamente superior à mera soma dos resultados obtidos por cada unidade isoladamente (\$1 + 1 > 2\$).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "monitora os resultados das ações implementadas". De acordo com a teoria estudada em *2. Condições Ambientais da Tomada de Decisão*, condição de Certeza: O decisor dispõe de informações completas, exatas e confiáveis. Os resultados de cada linha de ação são previsíveis com precisão matemática (resultado determinístico).
+>
 > **Gabarito: A**
+
+---
+
+### Teste 363
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Administracao – 2024)**
+Na população de determinado município sobressaíram discussões quanto à necessidade do incremento da economia local, mais propriamente dos microempreendedores. Após análises e discussões com os diferentes atores públicos, a Administração Pública decidiu implementar política de concessão de crédito mediante agência pública de fomento a ser criada. Para isso foi realizado planejamento inicial e apresentada proposição legislativa junto ao parlamento local para criação da agência, previsão orçamentária e autorização da instituição das linhas de crédito. A situação apresentada se refere à seguinte etapa do ciclo das políticas públicas:
+
+* **A)** predefinição do problema público.
+* **B)** formação da agenda pública.
+* **C)** elaboração da política pública.
+* **D)** formulação da política pública.
+* **E)** implementação da política pública.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "predefinição do problema público". De acordo com a teoria estudada em *Decisões Programadas versus Não Programadas (Herbert Simon):*, natureza do Problema: Estruturado, rotineiro, repetitivo e frequente. — Inédito, mal estruturado, singular e imprevisível.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "formação da agenda pública". De acordo com a teoria estudada em *2. Condições Ambientais da Tomada de Decisão*, condição de Incerteza: O ambiente é tão dinâmico ou a situação é tão inovadora que faltam dados históricos básicos. O gestor não tem condições de calcular probabilidades estatísticas confiáveis, dependendo de intuição embasada e cenários prospectivos.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "elaboração da política pública". De acordo com a teoria estudada em *As Ferramentas de Planejamento e Controle de Cronograma:*, ferramenta probabilística empregada em projetos complexos ou inovadores com alto grau de incerteza quanto à duração das atividades.
+> - **D)** **Correta.** Conforme fundamentado na seção *2. Condições Ambientais da Tomada de Decisão* deste guia, condição de Ambiguidade: A situação mais crítica de gestão; as próprias metas organizacionais são nebulosas ou contraditórias, o problema é mal compreendido e inexistem alternativas claras de ação delineadas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "formulação da política pública".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "implementação da política pública". De acordo com a teoria estudada em *As Ferramentas de Planejamento e Controle de Cronograma:*, o (Otimista): Tempo mínimo em que a atividade pode ser concluída em condições ideais.
+>
+> **Gabarito: D**
 
 ---
 
@@ -235,52 +230,50 @@ A abordagem sistêmica concebe a instituição pública como um **sistema aberto
 ---
 
 ### Teste 364
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O modelo de administração contemporâneo valoriza o pensamento holístico e a visão sistêmica em oposição aos tradicionais modelos mecanicistas burocráticos. A respeito da visão sistêmica aplicada às organizações públicas, assinale a afirmativa correta:
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Administracao – 2024)**
+Entre os conceitos delimitados na Lei nº 14.133/2021, existe aquele que se refere à peça técnica com todos os subsídios necessários à elaboração do projeto básico, que deve conter, no mínimo, os elementos elencados na mencionada norma, dentre os quais, a demonstração e justificativa do programa de necessidades, avaliação de demanda do público-alvo, motivação técnico-econômico-social do empreendimento, visão global dos investimentos e definições relacionadas ao nível de serviço desejado. O texto refere-se ao
 
-* **A)** Sustenta que cada setor deve priorizar exclusivamente suas metas individuais de departamento, competindo com as demais unidades pelo orçamento público.
-* **B)** Concebe a instituição como uma rede interdependente de subsistemas integrados, na qual as decisões adotadas em uma unidade provocam impactos diretos sobre todo o organismo institucional.
-* **C)** Elimina a necessidade de controle e avaliação de desempenho, pois presume que os servidores agem de forma espontânea em perfeita sincronia com o ambiente.
-* **D)** Restringe a atuação do órgão público à preservação de fronteiras rígidas e impenetráveis, impedindo qualquer intercâmbio de dados com a sociedade externa.
-* **E)** Rejeita o conceito de sinergia por considerá-lo incompatível com a estrita divisão formal de trabalho prescrita em leis administrativas.
-
-
----
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** Priorizar o próprio setor em detrimento do todo caracteriza a visão míope dos "silos organizacionais", combatida pela abordagem sistêmica.  
-> - **B) CORRETA.** A **visão sistêmica (ou holística)** enxerga a organização como um sistema aberto composto por subsistemas reciprocamente dependentes e interconectados; assim, qualquer alteração em um subsistema repercute em todos os demais e no resultado final entregue à sociedade.  
-> - **C) Incorreta.** O controle (retroalimentação/feedback) é elemento vital da teoria sistêmica para manter a homeostase dinâmica.  
-> - **D) Incorreta.** As organizações são sistemas **abertos**, com fronteiras permeáveis que realizam intercâmbio contínuo de recursos e dados com o meio externo.  
-> - **E) Incorreta.** A sinergia ($1 + 1 > 2$) é um dos pilares centrais da teoria de sistemas.  
-> 
-> **Gabarito: B**
-
----
-
-### Teste 365
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No Gerenciamento de Projetos e no controle do cronograma de atividades interdependentes, o método do **Caminho Crítico** (*Critical Path Method - CPM*) define-se como:
-
-* **A)** A sequência mais longa de atividades dependentes no diagrama de rede do projeto que determina a duração total mínima necessária para a conclusão do projeto, caracterizando-se por ter folga total igual a zero.
-* **B)** O conjunto de tarefas com menor custo financeiro que podem ser canceladas sem prejuízo do cronograma.
-* **C)** A lista de atividades secundárias executadas simultaneamente por equipes de suporte terceirizadas.
-* **D)** O gráfico de barras que demonstra a distribuição de competências funcionais dos membros da equipe.
-* **E)** O caminho que concentra exclusivamente os riscos jurídicos e trabalhistas do contrato de engenharia.
-
+* **A)** anteprojeto.
+* **B)** projeto referido.
+* **C)** projeto embrionário.
+* **D)** projeto executivo.
+* **E)** projeto de implementação.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. O **Caminho Crítico (CPM)** é a trajetória mais longa através do diagrama de rede (com maior duração total). As atividades que integram o caminho crítico têm **folga zero** (*zero slack*): qualquer atraso em uma atividade crítica provocará automaticamente atraso idêntico na data final de entrega de todo o projeto.
-> - **B)** Incorreta. Atividades críticas não podem ser suprimidas ou atrasadas.
-> - **C)** Incorreta. Descreve tarefas não críticas ou paralelas com folga.
-> - **D)** Incorreta. Gráfico de barras é o Gráfico de Gantt.
-> - **E)** Incorreta. CPM é metodologia de gestão de tempo e sequenciamento de atividades.
-> 
+> - **A)** **Correta.** Conforme fundamentado na seção *4. Gerenciamento de Projetos: Restrição Tripla, Gantt, CPM e PERT* deste guia, segundo o Project Management Institute (PMI/PMBOK), um projeto é um empreendimento temporário (possui início e fim previamente definidos) desenvolvido para criar um produto, serviço ou resultado único e exclusivo. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "anteprojeto".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "projeto referido". De acordo com a teoria estudada em *As Ferramentas de Planejamento e Controle de Cronograma:*, mapeia o diagrama de rede de dependências e precedências lógicas entre todas as atividades do projeto.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "projeto embrionário". De acordo com a teoria estudada em *As Ferramentas de Planejamento e Controle de Cronograma:*, o Caminho Crítico é a sequência mais longa de atividades interdependentes do início ao final do projeto, determinando a sua duração total mínima.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "projeto executivo". De acordo com a teoria estudada em *As Ferramentas de Planejamento e Controle de Cronograma:*, regra Mandatória de Prova: Todas as atividades situadas no caminho crítico possuem FOLGA TEMPORAL NULA (FOLGA ZERO). Qualquer atraso em uma tarefa do caminho crítico acarreta automaticamente o atraso na entrega final de todo o projeto!.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "projeto de implementação". De acordo com a teoria estudada em *As Ferramentas de Planejamento e Controle de Cronograma:*, questão clássica da FCC: perguntar qual é o valor da folga de tempo das atividades que integram o caminho crítico (CPM) de um projeto.
+>
 > **Gabarito: A**
+
+---
+
+### Teste 365
+**(FGV – TJ-SC – Analista Administrativo – 2026)**
+O Tribunal de Justiça do Estado Alfa, ao constatar elevados índices de congestionamento processual e morosidade no acesso à justiça, nas comarcas do interior, instaurou grupo de trabalho para diagnosticar as causas do fenômeno, mensurar sua abrangência e provocar a inclusão do tema entre as prioridades institucionais a serem enfrentadas pela Presidência do Tribunal. Conforme o ciclo de políticas públicas, as atividades descritas correspondem, respectivamente, às fases de
+
+* **A)** identificação do problema e formação da agenda.
+* **B)** formulação de alternativas e tomada de decisão.
+* **C)** tomada de decisão e implementação da política.
+* **D)** implementação da política e avaliação dos resultados.
+* **E)** avaliação dos resultados e extinção da política.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "identificação do problema e formação da agenda". De acordo com a teoria estudada em *Decisões Programadas versus Não Programadas (Herbert Simon):*, natureza do Problema: Estruturado, rotineiro, repetitivo e frequente. — Inédito, mal estruturado, singular e imprevisível.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "formulação de alternativas e tomada de decisão". De acordo com a teoria estudada em *2. Condições Ambientais da Tomada de Decisão*, condição de Certeza: O decisor dispõe de informações completas, exatas e confiáveis. Os resultados de cada linha de ação são previsíveis com precisão matemática (resultado determinístico).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "tomada de decisão e implementação da política". De acordo com a teoria estudada em *2. Condições Ambientais da Tomada de Decisão*, o contexto em que a decisão é tomada varia segundo a qualidade e a completude das informações disponíveis.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "implementação da política e avaliação dos resultados". De acordo com a teoria estudada em *3. Visão Sistêmica, Pensamento Holístico e Silos Organizacionais*, subsistema Estrutural: Desenho do organograma, divisão do trabalho, regimentos internos e linhas de subordinação hierárquica.
+> - **E)** **Correta.** Conforme fundamentado na seção *3. Visão Sistêmica, Pensamento Holístico e Silos Organizacionais* deste guia, sinergia Organizacional: Fenômeno pelo qual a ação cooperativa e coordenada dos subsistemas integrados produz um resultado global significativamente superior à mera soma dos resultados obtidos por cada unidade isoladamente (\$1 + 1 > 2\$). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-SC/2026) ao estabelecer que "avaliação dos resultados e extinção da política".
+>
+> **Gabarito: E**
 
 ---
 
@@ -333,101 +326,97 @@ flowchart TD
 ---
 
 ### Teste 366
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A respeito das técnicas de planejamento e cronograma utilizadas no gerenciamento de projetos, o Método do Caminho Crítico (CPM) caracteriza-se fundamentalmente por:
+**(FCC – TRT-15 – Analista Judiciario Tecnologia da Informacao – 2015)**
+No PMBoK 4a edição, a área de conhecimento em gerenciamento de projetos conhecida como Gerenciamento dos Custos do Projeto contém os processos: Estimar os Custos, Determinar Orçamento e Controlar os Custos. Dentre estes, faz (ou fazem) parte do grupo de processos de planejamento:
 
-* **A)** Indicar a sequência de atividades com maior número de folgas temporais disponíveis para remanejamento de equipe.
-* **B)** Identificar a sequência de atividades dependentes de maior duração total do projeto, cujas tarefas possuem folga temporal nula.
-* **C)** Consistir em um método exclusivo para orçamentação financeira que desconsidera os prazos de entrega das tarefas.
-* **D)** Representar uma estrutura analítica de decomposição hierárquica do escopo sem vinculação temporal.
-* **E)** Substituir o uso de diagramas de rede pela elaboração isolada de matrizes SWOT de contingência.
-
+* **A)** Estimar os Custos e Controlar os Custos.
+* **B)** Estimar os Custos, apenas.
+* **C)** Determinar Orçamento e Controlar os Custos.
+* **D)** Estimar os Custos e Determinar Orçamento.
+* **E)** Determinar Orçamento, apenas.
 
 ---
 
-> **Comentário Detalhado:**  
+> **Comentário Detalhado:**
 >
-> - **A) Incorreta.** As tarefas do caminho crítico não admitem folga de tempo; quem tem folga são as atividades fora do caminho crítico.  
-> - **B) CORRETA.** O **Caminho Crítico (CPM)** é precisamente a sequência de atividades dependentes de maior duração total contínua no diagrama de rede que define o tempo mínimo para a conclusão do projeto; todas as atividades que o compõem possuem **folga temporal zero (nula)**, de maneira que qualquer atraso nelas acarreta automaticamente o atraso de todo o projeto.  
-> - **C) Incorreta.** O CPM é uma ferramenta de gestão temporal de prazos e dependências em rede.  
-> - **D) Incorreta.** A decomposição do escopo em entregas é a EAP (WBS), que não se confunde com o CPM.  
-> - **E) Incorreta.** O CPM decorre compulsoriamente da montagem do diagrama de rede de precedências lógicas.  
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Estimar os Custos e Controlar os Custos". De acordo com a teoria estudada em *4. Gerenciamento de Projetos: Restrição Tripla, Gantt, CPM e PERT*, segundo o Project Management Institute (PMI/PMBOK), um projeto é um empreendimento temporário (possui início e fim previamente definidos) desenvolvido para criar um produto, serviço ou resultado único e exclusivo.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Estimar os Custos, apenas". De acordo com a teoria estudada em *4. Gerenciamento de Projetos: Restrição Tripla, Gantt, CPM e PERT*, diferencia-se dos processos, que são operações contínuas, rotineiras e padronizadas.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Determinar Orçamento e Controlar os Custos". De acordo com a teoria estudada em *As Ferramentas de Planejamento e Controle de Cronograma:*, ferramenta probabilística empregada em projetos complexos ou inovadores com alto grau de incerteza quanto à duração das atividades.
+> - **D)** **Correta.** Conforme fundamentado na seção *2. Condições Ambientais da Tomada de Decisão* deste guia, em ambiente de INCERTEZA, os dados são precários ou inexistentes, sendo impossível estimar probabilidades matemáticas confiáveis. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-15/2015) ao estabelecer que "Estimar os Custos e Determinar Orçamento".
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Determinar Orçamento, apenas". De acordo com a teoria estudada em *As Ferramentas de Planejamento e Controle de Cronograma:*, mapeia o diagrama de rede de dependências e precedências lógicas entre todas as atividades do projeto.
+>
+> **Gabarito: D**
 
 ---
 
 ### Teste 367
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No âmbito da gestão estratégica de projetos governamentais, uma equipe necessita estimar a duração provável de uma atividade inédita de digitalização de acervo histórico. Os especialistas estimaram que, no melhor cenário possível (otimista), a tarefa demandará 10 dias; no cenário mais provável, exigirá 16 dias; e, no pior cenário concebível (pessimista), demandará 28 dias. Utilizando a consagrada técnica probabilística PERT (*Program Evaluation and Review Technique*), a estimativa de tempo esperado (TE) para essa atividade é de:
+**(FCC – TRT-23 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2016)**
+Um Analista está avaliando alguns elementos do PMBOK 5a edição passíveis de auxiliarem na tarefa de gerenciamento do projeto que desenvolveu. Um dos instrumentos que poderiam auxiliar seria a análise de variação que é uma técnica
 
-* **A)** 18 dias.
-* **B)** 16 dias.
-* **C)** 17 dias.
-* **D)** 20 dias.
-* **E)** 15 dias.
-
+* **A)** analítica que usa modelos matemáticos para prever resultados futuros com base em resultados históricos.
+* **B)** para determinar a causa e o grau de diferença entre a linha de base e o desempenho real.
+* **C)** analítica para determinar as características e relações essenciais dos componentes do plano de gerenciamento do projeto a fim de estabelecer a reserva para a duração do cronograma, orçamento, custo estimado ou fundos de um projeto.
+* **D)** de identificação das datas de início mais cedo e mais tarde e também das datas de término mais cedo e mais tarde das partes incompletas das atividades do cronograma do projeto.
+* **E)** estatística para calcular o resultado médio quando o futuro inclui cenários que podem ou não acontecer. Uma utilização comum desta técnica está na análise da árvore de decisão.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Valor superestimado decorrente de média incorreta sem aplicar a ponderação de peso 4 sobre a estimativa mais provável.
-> - **B) Incorreta.** Representa exclusivamente a estimativa mais provável ($M = 16\text{ dias}$), desconsiderando a modelagem PERT de incertezas.
-> - **C) CORRETA.** Aplicação direta da média ponderada da técnica PERT: $\text{TE} = \frac{O + 4M + P}{6} = \frac{10 + (4 \times 16) + 28}{6} = \frac{10 + 64 + 28}{6} = \frac{102}{6} = 17\text{ dias}$.
-> - **D) Incorreta.** Erro de cálculo superdimensionado incompatível com a média ponderada dos três cenários.
-> - **E) Incorreta.** Estimativa subdimensionada inferior ao próprio cenário mais provável.
-> 
-> **Gabarito: C**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "analítica que usa modelos matemáticos para prever resultados futuros com base em resultados históricos". De acordo com a teoria estudada em *2. Condições Ambientais da Tomada de Decisão*, condição de Certeza: O decisor dispõe de informações completas, exatas e confiáveis. Os resultados de cada linha de ação são previsíveis com precisão matemática (resultado determinístico).
+> - **B)** **Correta.** Conforme fundamentado na seção *As Ferramentas de Planejamento e Controle de Cronograma:* deste guia, ferramenta probabilística empregada em projetos complexos ou inovadores com alto grau de incerteza quanto à duração das atividades. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-23/2016) ao estabelecer que "para determinar a causa e o grau de diferença entre a linha de base e o desempenho real".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "analítica para determinar as características e relações essenciais dos componentes do plano de gerenciamento do...". De acordo com a teoria estudada em *4. Gerenciamento de Projetos: Restrição Tripla, Gantt, CPM e PERT*, segundo o Project Management Institute (PMI/PMBOK), um projeto é um empreendimento temporário (possui início e fim previamente definidos) desenvolvido para criar um produto, serviço ou resultado único e exclusivo.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de identificação das datas de início mais cedo e mais tarde e também das datas de término mais cedo e mais tarde...". De acordo com a teoria estudada em *As Ferramentas de Planejamento e Controle de Cronograma:*, o Caminho Crítico é a sequência mais longa de atividades interdependentes do início ao final do projeto, determinando a sua duração total mínima.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "estatística para calcular o resultado médio quando o futuro inclui cenários que podem ou não acontecer. Uma...". De acordo com a teoria estudada em *2. Condições Ambientais da Tomada de Decisão*, grave a diferença estatística crucial nas provas da FCC.
+>
+> **Gabarito: B**
 
 ---
 
 ### Teste 368
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na teoria das organizações e no pensamento sistêmico, o fenômeno patológico no qual departamentos e setores operam de forma isolada, defendendo interesses corporativos paroquiais e fechando canais de comunicação com as demais unidades da instituição é denominado:
+**(FGV – TCE-PI – Auditor de Controle Externo Controle Externo Especifica de Area Comum – 2025)**
+O processo de elaboração de políticas públicas, ou ciclo de políticas públicas, organiza a vida de uma política em fases sequenciais e interdependentes. Assinale a opção que apresenta a definição de agenda formal.
 
-* **A)** Silos Organizacionais (Mentalidade de Silo).
-* **B)** Holacracia Sistêmica Integrada.
-* **C)** Sinergia Coletiva Positiva.
-* **D)** Homeostase Dinâmica Adaptativa.
-* **E)** Entropia Negativa Expansiva.
-
+* **A)** Conjunto de problemas que o poder público já decidiu enfrentar.
+* **B)** Conjunto de problemas que a sociedade civil traz para o debate público.
+* **C)** Conjunto de problemas que recebem atenção especial dos meios de comunicação.
+* **D)** Conjunto de problemas percebidos pela mídia como importantes para a sociedade.
+* **E)** Conjunto de problemas que a comunidade política considera merecedores de intervenção pública.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. A **mentalidade de silo (ou silos organizacionais)** ocorre quando divisões e gerências funcionam como redomas fechadas e impermeáveis ("feudos burocráticos"), bloqueando a troca de dados, gerando retrabalhos, desconfiança e inviabilizando a visão sistêmica e holística da instituição.
-> - **B)** Incorreta. Holacracia é modelo de gestão sem hierarquia tradicional e de alta cooperação.
-> - **C)** Incorreta. Sinergia positiva significa que o todo é maior que a soma das partes (cooperação produtiva).
-> - **D)** Incorreta. Homeostase é a capacidade de autorregulação e equilíbrio do sistema aberto.
-> - **E)** Incorreta. Entropia negativa (negentropia) é a importação de energia para evitar o perecimento do sistema.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Conjunto de problemas que o poder público já decidiu enfrentar". De acordo com a teoria estudada em *As Ferramentas de Planejamento e Controle de Cronograma:*, o Caminho Crítico é a sequência mais longa de atividades interdependentes do início ao final do projeto, determinando a sua duração total mínima.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Conjunto de problemas que a sociedade civil traz para o debate público". De acordo com a teoria estudada em *3. Visão Sistêmica, Pensamento Holístico e Silos Organizacionais*, a abordagem sistêmica concebe a instituição pública como um sistema aberto composto por partes dinamicamente interconectadas e em constante intercâmbio com a sociedade.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Conjunto de problemas que recebem atenção especial dos meios de comunicação". De acordo com a teoria estudada em *3. Visão Sistêmica, Pensamento Holístico e Silos Organizacionais*, na abordagem sistêmica, sinergia significa que as unidades interdependentes cooperando de forma harmônica geram um valor total que excede a simples soma de seus desempenhos isolados (\$1 + 1 > 2\$).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Conjunto de problemas percebidos pela mídia como importantes para a sociedade". De acordo com a teoria estudada em *4. Gerenciamento de Projetos: Restrição Tripla, Gantt, CPM e PERT*, segundo o Project Management Institute (PMI/PMBOK), um projeto é um empreendimento temporário (possui início e fim previamente definidos) desenvolvido para criar um produto, serviço ou resultado único e exclusivo.
+> - **E)** **Correta.** Conforme fundamentado na seção *1. O Ciclo do Processo Decisório e a Tipologia de Decisões (Herbert Simon)* deste guia, o processo decisório é a sequência lógica e deliberada de passos cognitivos por meio da qual um administrador ou colegiado identifica uma demanda e elege uma linha de ação específica dentre alternativas concorrentes. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PI/2025) ao estabelecer que "Conjunto de problemas que a comunidade política considera merecedores de intervenção pública".
+>
+> **Gabarito: E**
 
 ---
 
 ### Teste 369
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No gerenciamento de projetos, a técnica **PERT** (*Program Evaluation and Review Technique*) é particularmente recomendada quando as durações das atividades são incertas, utilizando uma média ponderada baseada em três estimativas de tempo:
+**(FCC – TRT-24 – Analista Judiciario Tecnologia da Informacao – 2017)**
+Uma das técnicas que podem ser usadas para estimar os custos de uma atividade no Gerenciamento dos Custos de um Projeto, segundo o guia PMBOK 5a Edição é a Técnica de Revisão e Avaliação de Programa − PERT. Esta técnica usa três estimativas para definir o custo estimado (CE) de uma atividade: custo mais provável (CM), custo otimista (CO) e custo pessimista (CP). Para um Analista calcular o custo estimado de uma atividade usando PERT, deverá utilizar a fórmula:
 
-As três estimativas temporais consideradas pelo modelo PERT são:
-
-* **A)** Tempo Otimista (a), Tempo Mais Provável (m) e Tempo Pessimista (b).
-* **B)** Tempo Mínimo legal, Tempo Médio da carreira e Tempo Máximo de estabilidade.
-* **C)** Duração da licitação, Duração do contrato e Duração da garantia.
-* **D)** Horário bancário de abertura, fechamento e compensação.
-* **E)** Prazo prescricional, Prazo decadencial e Prazo preclusivo.
-
+* **A)** CE = (CO + 2CM + CP)
+* **B)** CE = (2CO + 4CM + 3CP) / 9
+* **C)** CE = (CO + 4CM + CP) / 6
+* **D)** CE = (CO + 2CM + 3CP) / 5
+* **E)** CE = 4(CO + CM) + CP
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. O modelo probabilístico do **PERT** calcula a duração esperada (*Expected Time - TE*) pela fórmula ponderada: \(TE = 
-rac{a + 4m + b}{6}\), onde: **a** = tempo otimista (tudo dá certo); **m** = tempo mais provável (condições normais de operação); **b** = tempo pessimista (cenário em que ocorrem adversidades e problemas).
-> - **B), C), D), E)** Incorretas. Distorções sem respaldo técnico na metodologia PERT.
-> 
+> - **A)** **Correta.** Conforme fundamentado na seção *4. Gerenciamento de Projetos: Restrição Tripla, Gantt, CPM e PERT* deste guia, segundo o Project Management Institute (PMI/PMBOK), um projeto é um empreendimento temporário (possui início e fim previamente definidos) desenvolvido para criar um produto, serviço ou resultado único e exclusivo. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-24/2017) ao estabelecer que "CE = (CO + 2CM + CP)".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "CE = (2CO + 4CM + 3CP) / 9". De acordo com a teoria estudada em *As Ferramentas de Planejamento e Controle de Cronograma:*, o (Otimista): Tempo mínimo em que a atividade pode ser concluída em condições ideais.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "CE = (CO + 4CM + CP) / 6". De acordo com a teoria estudada em *As Ferramentas de Planejamento e Controle de Cronograma:*, utiliza a distribuição beta baseada em três estimativas temporais fornecidas pelos especialistas.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "CE = (CO + 2CM + 3CP) / 5". De acordo com a teoria estudada em *As Ferramentas de Planejamento e Controle de Cronograma:*, m (Mais Provável / *Most Likely*): Tempo esperado em circunstâncias normais de trabalho.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "CE = 4(CO + CM) + CP". De acordo com a teoria estudada em *As Ferramentas de Planejamento e Controle de Cronograma:*, técnica PERT (*Program Evaluation and Review Technique*).
+>
 > **Gabarito: A**
 
 ---

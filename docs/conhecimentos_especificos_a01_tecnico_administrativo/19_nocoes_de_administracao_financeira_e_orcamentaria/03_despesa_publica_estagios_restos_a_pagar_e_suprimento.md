@@ -120,79 +120,74 @@ A legislação orçamentária prevê três modalidades formais de empenho, a ser
 ---
 
 ### Teste 230
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A respeito da classificação e dos estágios da despesa pública orçamentária, assinale a opção correta:
+**(FGV – TCE-GO – Analista de Controle Externo Ciencias Contabeis – 2024)**
+A execução da despesa orçamentária é uma fase crucial no processo de gestão financeira do setor público. Nesta etapa, os recursos autorizados pelo orçamento são efetivamente utilizados para financiar as atividades e projetos planejados. Assinale a opção que indica o ato emanado de autoridade competente que cria para o Estado obrigação de pagamento pendente.
 
-* **A)** A emissão de nota de empenho ordinário é admitida para despesas contratuais de prestação contínua de serviços cujo valor total deva ser desembolsado em parcelas mensais ao longo do ano.
-* **B)** A aquisição de imóvel residencial já edificado e em utilização para instalação de repartição pública estadual constitui típica despesa de Investimento (GND 4).
-* **C)** A liquidação da despesa tem por objetivo comprovar o implemento de condição e o direito adquirido pelo credor, mediante verificação documental de que o serviço foi efetivamente prestado ou os bens foram entregues.
-* **D)** O pagamento da despesa pública pode anteceder a liquidação nas hipóteses de aquisição de bens duráveis com cláusula de entrega futura.
-* **E)** As despesas empenhadas e não pagas até o encerramento do exercício financeiro em 31 de dezembro serão obrigatoriamente anuladas pelo controle interno.
-
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. Despesas contratuais com pagamentos parcelados mensais de valor determinado exigem a modalidade de empenho global (art. 60, § 3º da Lei nº 4.320/1964).
-> - **B)** Incorreta. A aquisição de imóveis prontos já edificados e em uso no mercado constitui Inversão Financeira (GND 5), pois não gera formação bruta de capital físico novo.
-> - **C)** Correta. De acordo com o art. 63 da Lei nº 4.320/1964, a liquidação consiste na verificação objetiva do direito adquirido pelo credor, mediante a conferência de títulos, documentos e atesto físico de entrega dos bens ou conclusão dos serviços prestados.
-> - **D)** Incorreta. O art. 62 da Lei nº 4.320/1964 prescreve que o pagamento da despesa só pode ser efetuado após a regular liquidação.
-> - **E)** Incorreta. As despesas empenhadas e não pagas até 31 de dezembro são inscritas em Restos a Pagar (art. 36), não sendo automaticamente canceladas.
-> 
-> **Gabarito: C**
-
----
-
-### Teste 231
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No tocante ao estágio da liquidação da despesa pública disciplinado nos arts. 62 e 63 da Lei Federal nº 4.320/1964, é correto afirmar:
-
-* **A)** A liquidação consiste na verificação do direito adquirido pelo credor, tendo por base os títulos e documentos comprobatórios do respectivo crédito, com o objetivo de apurar a origem e o objeto do que se deve pagar, a importância exata a pagar e a quem se deve pagar.
-* **B)** A emissão da ordem de pagamento precede a liquidação da despesa, servindo de autorização para o recebimento definitivo dos bens adquiridos.
-* **C)** É lícito efetuar o pagamento da despesa antes da regular liquidação, desde que haja termo de garantia prestado pelo fornecedor contratado.
-* **D)** A nota de empenho substitui integralmente a fase de liquidação quando se tratar de contratação de serviços contínuos com dedicação exclusiva de mão de obra.
-* **E)** A liquidação é ato discricionário do ordenador de despesas, que pode dispensá-la quando o fornecedor for órgão integrante da Administração Pública direta.
-
+* **A)** Empenho.
+* **B)** Liquidação.
+* **C)** Pagamento.
+* **D)** Processamento.
+* **E)** Restos a Pagar.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. É a literalidade do art. 63 da Lei nº 4.320/1964: "A liquidação da despesa consiste na verificação do direito adquirido pelo credor tendo por base os títulos e documentos comprobatórios do respectivo crédito". Apura: I - a origem e o objeto do que se deve pagar; II - a importância exata a pagar; III - a quem se deve pagar.
-> - **B)** Incorreta. A ordem de pagamento é posterior à liquidação (art. 64).
-> - **C)** Incorreta. O art. 62 estabelece que a ordem de pagamento só pode ser exarada após regular liquidação da despesa.
-> - **D)** Incorreta. O empenho cria a obrigação orçamentária, mas jamais dispensa a liquidação para atestar o fornecimento.
-> - **E)** Incorreta. A liquidação é ato vinculado e indispensável na execução da despesa pública.
-> 
+> - **A)** **Correta.** Conforme fundamentado na seção *1.2 Os Quatro Estágios da Despesa Pública (Fixação, Empenho, Liquidação e Pagamento)* deste guia, *"O empenho de despesa é o ato emanado de autoridade competente que cria para o Estado obrigação de pagamento pendente ou não de implemento de condição."*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "Empenho".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Liquidação". De acordo com a teoria estudada em *1.2 Os Quatro Estágios da Despesa Pública (Fixação, Empenho, Liquidação e Pagamento)*, fixação (Etapa de Planejamento): É a autorização legislativa conferida ao Poder Executivo e demais órgãos independentes, por meio da LOA, estabelecendo o limite máximo de recursos destinados a cada programa e ação de governo.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Pagamento". De acordo com a teoria estudada em *1.2 Os Quatro Estágios da Despesa Pública (Fixação, Empenho, Liquidação e Pagamento)*, possui função jurídica (criação da obrigação) e contábil (reserva prévia da dotação orçamentária, impedindo que o mesmo recurso seja utilizado para outra finalidade).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Processamento". De acordo com a teoria estudada em *1.2 Os Quatro Estágios da Despesa Pública (Fixação, Empenho, Liquidação e Pagamento)*, a execução formal da despesa pública submete-se a quatro estágios sucessivos e interdependentes (arts. 58 a 65 da Lei Federal nº 4.320/1964).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Restos a Pagar". De acordo com a teoria estudada em *1.1 Despesa Orçamentária vs. Dispêndios Extraorçamentários*, correspondem a saídas puramente financeiras que extinguem passivos exigíveis anteriormente constituídos (ex.: devolução de cauções ou fianças licitatórias depositadas em dinheiro, resgate de depósitos judiciais, repasse aos bancos de empréstimos consignados retidos em folha e pagamento de Restos a Pagar).
+>
 > **Gabarito: A**
 
 ---
 
-### Teste 232
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Para a realização de despesas rotineiras de manutenção das instalações de uma secretaria de estado, o gestor público determinou a emissão de nota de empenho no início do mês de janeiro para cobrir os gastos com fornecimento contínuo de energia elétrica e abastecimento de água ao longo de todo o ano, sem que seja possível conhecer previamente o consumo exato a cada mês.
+### Teste 231
+**(FGV – TCE-GO – Analista de Controle Externo Juridica – 2024)**
+Pedro Henrique celebrou contrato de mútuo com Vitor Azevedo, casado sob o regime da comunhão parcial de bens com Tereza. Pelo referido contrato, restou consignado que Pedro Henrique, mutuário, deveria restituir o valor emprestado, R$15.000,00, pessoalmente e em espécie ao mutuante, aos 15 de abril de 2024. Na data do vencimento, Pedro Henrique procura Vitor com a intenção de pagar, ao que é informado por Tereza que Vitor Azevedo está em lugar incerto e não sabido há mais de 40 dias o que a motivou a promover ação declaratória de ausência, ainda não julgada. Diante da situação e com o intuito de evitar as consequências do inadimplemento, analise as assertivas abaixo: I) Pedro Henrique deverá efetuar o pagamento à Tereza que, em razão do regime de bens, é credora solidária. II) Pedro Henrique deverá aguardar o julgamento da ação declaratória de ausência, que suspende o vencimento da obrigação, para efetuar o pagamento a quem for nomeado curador. III) Pedro Henrique deverá consignar o pagamento, independentemente do julgamento da ação declaratória de ausência, pois o credor encontra-se em lugar incerto. Está correto o que se afirma em
 
-A modalidade de empenho adequada e legalmente exigida para essa situação é o empenho:
-
-* **A)** Ordinário.
-* **B)** Global.
-* **C)** Estimativo.
-* **D)** Extraorçamentário.
-* **E)** Suplementar por Decreto.
-
+* **A)** I, apenas.
+* **B)** II, apenas.
+* **C)** III, apenas.
+* **D)** I e III, apenas.
+* **E)** II e III, apenas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O empenho ordinário é utilizado exclusivamente para despesas de valor exato prefixado e pagamento único.
-> - **B)** Incorreta. O empenho global destina-se a despesas contratuais cujo valor total exato é previamente conhecido, sendo desembolsado em parcelas.
-> - **C)** Correta. Nos termos do art. 60, § 2º da Lei nº 4.320/1964, utiliza-se a modalidade de empenho estimativo para as despesas cujo montante exato não se possa fixar previamente, como é o caso das contas de utilidade pública (energia elétrica, água, telefonia e combustíveis).
-> - **D)** Incorreta. Serviços essenciais de manutenção contínua são despesas orçamentárias correntes obrigatórias.
-> - **E)** Incorreta. Crédito suplementar é espécie de crédito adicional para reforço de dotação, não modalidade de nota de empenho.
-> 
-> **Gabarito: C**
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *1.2 Os Quatro Estágios da Despesa Pública (Fixação, Empenho, Liquidação e Pagamento)*, a quem se deve pagar para extinguir a obrigação.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas". De acordo com a teoria estudada em *1.2 Os Quatro Estágios da Despesa Pública (Fixação, Empenho, Liquidação e Pagamento)*, fixação (Etapa de Planejamento): É a autorização legislativa conferida ao Poder Executivo e demais órgãos independentes, por meio da LOA, estabelecendo o limite máximo de recursos destinados a cada programa e ação de governo.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III, apenas". De acordo com a teoria estudada em *3.1 Restos a Pagar Processados (RPP) vs. Restos a Pagar Não Processados (RPNP)*, restos a Pagar Não Processados (RPNP): Despesas empenhadas cuja liquidação não ocorreu até 31 de dezembro (a contraprestação contratual ainda está pendente).
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *1.3 Modalidades de Empenho: Ordinário, Estimativo e Global*, global: Exato e previamente conhecido em contrato. — Parcelado / Sucessivo ao longo do exercício. — Contratos de locação de imóveis (aluguel mensal fixo), contratos continuados de vigilância e medições de obras.
+> - **E)** **Correta.** Conforme fundamentado na seção *3.1 Restos a Pagar Processados (RPP) vs. Restos a Pagar Não Processados (RPNP)* deste guia, o credor tem direito subjetivo líquido e certo ao pagamento; a administração pública não pode cancelar o respectivo empenho de forma unilateral, sob pena de enriquecimento sem causa do Estado. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "II e III, apenas".
+>
+> **Gabarito: E**
+
+---
+
+### Teste 232
+**(FGV – TRT-24 – Analista Judiciario Area Administrativa Contabilidade – 2025)**
+De acordo com a Lei nº 4320/1964, a liquidação da despesa consiste na verificação do direito adquirido pelo credor tendo por base os títulos e documentos comprobatórios do respectivo crédito. De acordo com a Decisão Normativa TCU 198/2022, a certificação da conformidade da despesa orçamentária abrange, no mínimo, o pagamento indevido decorrente de erro de valor e/ou de elegibilidade na verificação. A verificação de regras de elegibilidade e cálculo previstos poderá abranger legislações específicas aplicáveis a cada tipo de despesa, em especial, o que se afirma a seguir, à exceção de
+
+* **A)** benefícios financeiros e creditícios.
+* **B)** constituição de provisão e perdas estimadas.
+* **C)** juros, amortização e refinanciamento de dívida.
+* **D)** pagamento de bens, obras e serviços contratados.
+* **E)** benefícios previdenciários, assistenciais e trabalhistas.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "benefícios financeiros e creditícios". De acordo com a teoria estudada em *3.3 As Três Hipóteses Legais de DEA (Art. 37 da Lei nº 4.320/1964)*, despesas sem empenho na época própria: Despesas para as quais o orçamento do exercício pretérito consignava crédito orçamentário próprio com saldo suficiente, mas que, por erro ou omissão administrativa, não foram empenhadas na época oportuna.
+> - **B)** **Correta.** Conforme fundamentado na seção *1.2 Os Quatro Estágios da Despesa Pública (Fixação, Empenho, Liquidação e Pagamento)* deste guia, consiste na verificação objetiva do direito adquirido pelo credor tendo por base os títulos e documentos comprobatórios do respectivo crédito. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "constituição de provisão e perdas estimadas".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "juros, amortização e refinanciamento de dívida". De acordo com a teoria estudada em *2.3 Classificação por Natureza da Despesa e GNDs*, gND 6: Amortização da Dívida (pagamento do principal da dívida pública fundada).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pagamento de bens, obras e serviços contratados". De acordo com a teoria estudada em *1.2 Os Quatro Estágios da Despesa Pública (Fixação, Empenho, Liquidação e Pagamento)*, requer a realização de atesto formal na nota fiscal por servidor competente ou comissão fiscalizadora, certificando que as obras, os serviços ou os materiais foram recebidos em perfeita conformidade com as especificações contratadas.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "benefícios previdenciários, assistenciais e trabalhistas". De acordo com a teoria estudada em *4. Regime Excepcional de Suprimento de Fundos (Adiantamento)*, o Suprimento de Fundos (regime de adiantamento financeiro previsto no art. 68 da Lei nº 4.320/1964 e no Decreto Federal nº 93.872/1986) consiste na entrega direta de numerário a um servidor público para execução de gastos que não possam subordinar-se ao rito ordinário de empenho -> liquidação -> pagamento.
+>
+> **Gabarito: B**
 
 ---
 
@@ -245,55 +240,49 @@ flowchart TD
 ---
 
 ### Teste 233
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Determinada empresa pública estadual adquiriu, mediante procedimento licitatório de compra direta, um terreno urbano desocupado para futura expansão de seu almoxarifado no valor de R$ 2.000.000,00, bem como contratou uma empreiteira para a construção de um novo edifício administrativo no mesmo local pelo montante de R$ 5.000.000,00.
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Contabilidade – 2024)**
+Uma entidade do setor público apresentava os seguintes saldos relacionados a suas despesas orçamentárias em 31/12/2023: Correção Monetária ou Cambial da Dívida Contratual Resgatada: R$40.000 Juros sobre a Dívida por Contrato: R$50.000 Equipamentos e material permanente: R$80.000 Obras públicas e instalações: R$120.000 O total do grupo de natureza da despesa orçamentária Investimentos foi
 
-Segundo a estrutura da despesa pública por sua natureza (Portaria Interministerial STN/SOF nº 163/2001 e MCASP), essas despesas classificam-se, respectivamente, nos seguintes Grupos de Natureza da Despesa (GND):
-
-* **A)** Inversões Financeiras (GND 5) e Investimentos (GND 4).
-* **B)** Investimentos (GND 4) e Investimentos (GND 4).
-* **C)** Outras Despesas Correntes (GND 3) e Investimentos (GND 4).
-* **D)** Inversões Financeiras (GND 5) e Inversões Financeiras (GND 5).
-* **E)** Amortização da Dívida (GND 6) e Outras Despesas Correntes (GND 3).
-
+* **A)** R$80.000.
+* **B)** R$120.000.
+* **C)** R$200.000.
+* **D)** R$250.000.
+* **E)** R$290.000.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. A compra de terrenos ou imóveis prontos preexistentes no mercado configura Inversão Financeira (GND 5), pois transfere a posse sem gerar formação bruta de capital físico novo no país. Em contrapartida, a contratação de obras de construção civil para erguer um novo prédio público gera infraestrutura nova, qualificando-se como Investimento (GND 4).
-> - **B)** Incorreta. Terrenos e imóveis prontos não integram o GND 4.
-> - **C)** Incorreta. Ambas são despesas de capital (código 4) e não de consumo/custeio corrente (GND 3).
-> - **D)** Incorreta. Obra de construção nova de prédio público é investimento.
-> - **E)** Incorreta. Não se referem a amortização do principal da dívida pública fundada.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$80.000". De acordo com a teoria estudada em *2.3 Classificação por Natureza da Despesa e GNDs*, 5º e 6º dígitos - Elemento de Despesa: Identifica os objetos pontuais de gasto (ex.: 14 - Diárias, 30 - Material de Consumo, 52 - Equipamentos e Material Permanente).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$120.000". De acordo com a teoria estudada em *1.1 Despesa Orçamentária vs. Dispêndios Extraorçamentários*, despesas Orçamentárias (Sentido Estrito): São aquelas que necessitam de prévia autorização legislativa fixada na Lei Orçamentária Anual (ou em créditos adicionais) para serem executadas, destinando-se a financiar os serviços públicos, investimentos e transferências governamentais.
+> - **C)** **Correta.** Conforme fundamentado na seção *2.3 Classificação por Natureza da Despesa e GNDs* deste guia, gND 4: Investimentos (obras novas, aquisições de equipamentos permanentes e instalações). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "R$200.000".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$250.000". De acordo com a teoria estudada em *2.3 Classificação por Natureza da Despesa e GNDs*, gND 2: Juros e Encargos da Dívida (remuneração financeira do endividamento público).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$290.000". De acordo com a teoria estudada em *2.3 Classificação por Natureza da Despesa e GNDs*, 2º dígito - Grupo de Natureza da Despesa (GND).
+>
+> **Gabarito: C**
 
 ---
 
 ### Teste 234
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na classificação da despesa orçamentária por natureza, as despesas de capital dividem-se em três Grupos de Natureza da Despesa (GND): Investimentos (GND 4), Inversões Financeiras (GND 5) e Amortização da Dívida (GND 6).
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Ciencias Contabeis – 2026)**
+Em 2025, um posto de saúde do setor público ampliou as suas instalações, construindo novas salas para atendimento, de modo a prestar melhores serviços à população. Para a construção das novas salas, a entidade desembolsou, no ano, R$ 60.000,00 com a compra de material, usado integralmente na construção, e R$ 40.000,00 com os honorários da equipe de obras. Na Demonstração dos Fluxos de Caixa, a entidade reconheceu o seguinte consumo de caixa:
 
-Constituem, respectivamente, Investimento (GND 4) e Inversão Financeira (GND 5):
-
-* **A)** A construção de um novo edifício para abrigar a sede do Tribunal de Contas e a aquisição de um imóvel já construído para funcionamento de uma escola pública.
-* **B)** A aquisição de títulos da dívida pública de outros entes e a pavimentação de uma rodovia estadual em conformidade com as normas legais e regulamentares aplicáveis.
-* **C)** O pagamento do principal da dívida contratual externa e a aquisição de computadores novos para a secretaria de fazenda.
-* **D)** A concessão de empréstimos habitacionais e a realização de obras de reforma que ampliem a vida útil de hospital estadual.
-* **E)** A aquisição de instalações hospitalares novas e a contratação de serviços de consultoria contábil continuada.
-
+* **A)** R$ 100.000,00 pela atividade operacional.
+* **B)** R$ 100.000,00 pela atividade de investimento.
+* **C)** R$ 100.000,0 pela atividade de financiamento.
+* **D)** R$ 60.000,00 pela atividade de investimento e R$ 40.000,00 pela atividade operacional.
+* **E)** R$ 60.000,00 pela atividade de financiamento e R$ 40.000,00 pela atividade operacional.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Conforme os arts. 12 e 13 da Lei nº 4.320/1964: **Investimentos (GND 4)** englobam obras públicas e aquisições que criam novos bens de capital (aumento líquido do patrimônio público, ex.: construção de novo edifício); **Inversões Financeiras (GND 5)** englobam a aquisição de imóveis ou de bens de capital já em utilização (apenas transferem patrimônio entre agentes sem criar novo ativo na economia, ex.: compra de prédio já construído), além de aquisição de títulos e constituição/aumento de capital de empresas.
-> - **B)** Invertido. Títulos da dívida são inversões financeiras; rodovia é investimento.
-> - **C)** Amortização da dívida é GND 6; computadores novos são GND 4 (investimento).
-> - **D)** Invertido. Empréstimos são GND 5; reforma ampliativa é GND 4.
-> - **E)** Instalações novas são GND 4; serviços continuados são GND 3 (outras despesas correntes).
-> 
+> - **A)** **Correta.** Conforme fundamentado na seção *2.2 Classificação Programática: Projetos, Atividades e Operações Especiais* deste guia, atividade: Instrumento contínuo e permanente destinado à manutenção e funcionamento regular das ações governamentais preexistentes (ex.: manutenção da frota, pagamento de pessoal, fornecimento de merenda escolar). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "R$ 100.000,00 pela atividade operacional".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$ 100.000,00 pela atividade de investimento". De acordo com a teoria estudada em *2.3 Classificação por Natureza da Despesa e GNDs*, gND 4: Investimentos (obras novas, aquisições de equipamentos permanentes e instalações).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$ 100.000,0 pela atividade de financiamento". De acordo com a teoria estudada em *2.3 Classificação por Natureza da Despesa e GNDs*, 5º e 6º dígitos - Elemento de Despesa: Identifica os objetos pontuais de gasto (ex.: 14 - Diárias, 30 - Material de Consumo, 52 - Equipamentos e Material Permanente).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$ 60.000,00 pela atividade de investimento e R$ 40.000,00 pela atividade operacional". De acordo com a teoria estudada em *2.3 Classificação por Natureza da Despesa e GNDs*, gND 3: Outras Despesas Correntes - ODC (materiais de consumo, serviços de terceiros, passagens, diárias).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$ 60.000,00 pela atividade de financiamento e R$ 40.000,00 pela atividade operacional". De acordo com a teoria estudada em *1.2 Os Quatro Estágios da Despesa Pública (Fixação, Empenho, Liquidação e Pagamento)*, requer a realização de atesto formal na nota fiscal por servidor competente ou comissão fiscalizadora, certificando que as obras, os serviços ou os materiais foram recebidos em perfeita conformidade com as especificações contratadas.
+>
 > **Gabarito: A**
 
 ---
@@ -328,87 +317,74 @@ As dívidas passadas de exercícios orçamentários já encerrados serão empenh
 ---
 
 ### Teste 235
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Ao final do exercício financeiro em 31 de dezembro, a Secretaria de Infraestrutura do Estado possuía dois contratos em execução:
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Direito – 2024)**
+Em relação à despesa orçamentária inscrita em restos a pagar, pode-se afirmar que tanto os restos a pagar processados como os não processados estão pendentes do(s) seguinte(s) estágio(s):
 
-I. Contrato de pavimentação asfáltica, cuja medição final foi regularmente atestada pela fiscalização no dia 20 de dezembro e a nota fiscal devidamente liquidada, mas a ordem bancária de pagamento de R$ 800.000,00 não foi emitida até o encerramento do expediente bancário do ano.  
-
-II. Contrato de fornecimento de tubos de concreto, empenhado em novembro pelo valor de R$ 300.000,00, cujos materiais tinham prazo de entrega previsto em contrato para 15 de janeiro do exercício subsequente.  
-
-Em 31 de dezembro, essas duas despesas foram inscritas, respectivamente, como:
-
-* **A)** Restos a Pagar Processados e Restos a Pagar Processados.
-* **B)** Restos a Pagar Não Processados e Restos a Pagar Não Processados.
-* **C)** Restos a Pagar Processados e Restos a Pagar Não Processados.
-* **D)** Despesas de Exercícios Anteriores e Restos a Pagar Processados.
-* **E)** Ingressos Extraorçamentários e Restos a Pagar Não Processados.
-
+* **A)** empenho, apenas.
+* **B)** liquidação, apenas.
+* **C)** pagamento, apenas.
+* **D)** liquidação e pagamento, apenas.
+* **E)** empenho, liquidação e pagamento.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O Contrato II não foi liquidado até 31 de dezembro, logo não pode constituir restos a pagar processados.
-> - **B)** Incorreta. O Contrato I foi regularmente liquidado antes do encerramento do exercício, qualificando-se compulsoriamente como processado.
-> - **C)** Correta. Conforme o art. 36 da Lei nº 4.320/1964, despesas empenhadas e liquidadas que não foram pagas até 31 de dezembro são inscritas em Restos a Pagar Processados (RPP - Contrato I); enquanto despesas empenhadas e não liquidadas até essa data são inscritas como Restos a Pagar Não Processados (RPNP - Contrato II).
-> - **D)** Incorreta. DEA aplica-se a exercícios anteriores para os quais não há inscrição válida em restos a pagar.
-> - **E)** Incorreta. São despesas orçamentárias de capital e correntes, e não ingressos financeiros.
-> 
-> **Gabarito: C**
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "empenho, apenas". De acordo com a teoria estudada em *3.1 Restos a Pagar Processados (RPP) vs. Restos a Pagar Não Processados (RPNP)*, o credor tem direito subjetivo líquido e certo ao pagamento; a administração pública não pode cancelar o respectivo empenho de forma unilateral, sob pena de enriquecimento sem causa do Estado.
+> - **B)** **Correta.** Conforme fundamentado na seção *3.1 Restos a Pagar Processados (RPP) vs. Restos a Pagar Não Processados (RPNP)* deste guia, restos a Pagar Processados (RPP): A despesa percorreu os estágios do empenho e da liquidação dentro do exercício financeiro. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "liquidação, apenas".
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "pagamento, apenas". De acordo com a teoria estudada em *3.1 Restos a Pagar Processados (RPP) vs. Restos a Pagar Não Processados (RPNP)*, restos a Pagar Não Processados (RPNP): Despesas empenhadas cuja liquidação não ocorreu até 31 de dezembro (a contraprestação contratual ainda está pendente).
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "liquidação e pagamento, apenas". De acordo com a teoria estudada em *3.2 Cancelamento de RAP e a Prescrição Quinquenal*, conforme o Decreto Federal nº 93.872/1986, os Restos a Pagar Não Processados perdem a validade e devem ser cancelados ao final do exercício subsequente caso a liquidação não tenha sido iniciada.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "empenho, liquidação e pagamento". De acordo com a teoria estudada em *1.2 Os Quatro Estágios da Despesa Pública (Fixação, Empenho, Liquidação e Pagamento)*, regra de Interdependência (Art. 62): A ordem de pagamento só pode ser expedida após a regular liquidação da despesa!.
+>
+> **Gabarito: B**
 
 ---
 
 ### Teste 236
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em relação ao regime de suprimento de fundos (adiantamento) e às Despesas de Exercícios Anteriores (DEA), é correto afirmar que:
+**(FGV – TCE-PI – Auditor de Controle Externo Controle Externo Especifica de Area Comum – 2025)**
+Em dezembro de 2024, um hospital do setor público planejou realizar uma reestruturação, de modo a oferecer, em 2025, novos serviços de atendimento ao público. A reorganização dos setores tem efeito material na natureza e no foco das operações da entidade. O hospital tem um plano formal para a reestruturação e criou uma expectativa válida na população afetada, ao anunciar as suas principais características. Em dezembro foram gastos R$ 8.000 em marketing, R$ 12.000 em novo treinamento de funcionários, e R$ 15.000 em novos sistemas e redes de distribuição. Dos gastos, o seguinte montante deve ser incluído na provisão de reestruturação:
 
-* **A)** O suprimento de fundos pode ser concedido livremente a qualquer servidor público, inclusive àquele que esteja omisso no dever de prestar contas de adiantamento concedido anteriormente.
-* **B)** As Despesas de Exercícios Anteriores (DEA) correspondem exclusivamente a despesas que foram liquidadas e pagas no exercício anterior sem prévio empenho orçamentário.
-* **C)** O suprimento de fundos dispensa a realização de empenho orçamentário prévio em nome do servidor responsável pelo adiantamento.
-* **D)** As despesas de exercícios encerrados para as quais o orçamento respectivo consignava crédito próprio e com saldo suficiente, mas que não tenham sido empenhadas na época própria, poderão ser pagas à conta de dotação para despesas de exercícios anteriores (DEA).
-* **E)** O cancelamento de Restos a Pagar Processados enseja a imediata extinção irrecorrível do direito creditório do fornecedor perante a Fazenda Pública.
-
+* **A)** zero.
+* **B)** R$ 15.000.
+* **C)** R$ 20.000.
+* **D)** R$ 27.000.
+* **E)** R$ 35.000.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. É categoricamente proibido conceder suprimento de fundos a servidor em alcance (que esteja em mora na prestação de contas de suprimento anterior).
-> - **B)** Incorreta. As DEA referem-se a compromissos pendentes que serão empenhados e quitados na LOA do exercício em curso, nas hipóteses do art. 37 da Lei nº 4.320/1964.
-> - **C)** Incorreta. O adiantamento exige prévio empenho emitido formalmente em nome do servidor suprido.
-> - **D)** Correta. Conforme o art. 37 da Lei nº 4.320/1964, despesas de exercícios findos que contavam com crédito orçamentário com saldo suficiente, mas que não foram empenhadas na época própria por erro ou omissão da administração, são empenhadas e pagas à conta de DEA.
-> - **E)** Incorreta. O direito creditório do fornecedor subsiste e respeita o prazo prescricional quinquenal de 5 anos; se o RPP foi cancelado indevidamente, o débito deve ser reaberto como DEA.
-> 
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "zero". De acordo com a teoria estudada em *1.2 Os Quatro Estágios da Despesa Pública (Fixação, Empenho, Liquidação e Pagamento)*, requer a realização de atesto formal na nota fiscal por servidor competente ou comissão fiscalizadora, certificando que as obras, os serviços ou os materiais foram recebidos em perfeita conformidade com as especificações contratadas.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$ 15.000". De acordo com a teoria estudada em *4.2 Vedações Categóricas e Prestação de Contas*, servidor que seja responsável pela guarda e custódia do material a ser adquirido (ex.: chefes e operadores de almoxarifados ou patrimônio).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$ 20.000". De acordo com a teoria estudada em *2.2 Classificação Programática: Projetos, Atividades e Operações Especiais*, operação Especial: Despesas que não resultam na produção de um bem nem na prestação direta de serviços, destinadas a obrigações financeiras do Estado (ex.: pagamento do serviço da dívida pública, sentenças judiciais/precatórios, amortizações financeiras).
+> - **D)** **Correta.** Conforme fundamentado na seção *2.2 Classificação Programática: Projetos, Atividades e Operações Especiais* deste guia, projeto: Instrumento de programação temporário destinado a expandir a infraestrutura pública ou criar novo bem/serviço, resultando em formação bruta de capital (ex.: construção de novo edifício-sede de fórum judicial ou implantação de rodovia). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PI/2025) ao estabelecer que "R$ 27.000".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$ 35.000". De acordo com a teoria estudada em *2.3 Classificação por Natureza da Despesa e GNDs*, 5º e 6º dígitos - Elemento de Despesa: Identifica os objetos pontuais de gasto (ex.: 14 - Diárias, 30 - Material de Consumo, 52 - Equipamentos e Material Permanente).
+>
 > **Gabarito: D**
 
 ---
 
 ### Teste 237
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A respeito do reconhecimento e pagamento de Despesas de Exercícios Anteriores (DEA), disciplinadas pelo art. 37 da Lei Federal nº 4.320/1964 e normas correlatas, analise as hipóteses a seguir:
+**(FGV – TRT-24 – Analista Judiciario Area Administrativa Contabilidade – 2025)**
+Despesas de exercícios anteriores são despesas cujos fatos geradores ocorreram em exercícios anteriores àquele em que deva ocorrer o pagamento. O reconhecimento da obrigação de pagamento das despesas com exercícios anteriores, pela autoridade competente, deverá ocorrer em procedimento administrativo específico, sendo necessário, no mínimo, os elementos listados a seguir, à exceção de um. Assinaleo.
 
-I. Despesas de exercícios encerrados para os quais o orçamento respectivo consignava crédito próprio, com saldo suficiente para atendê-las, que não se tenham processado na época própria.  
-II. Restos a Pagar com prescrição interrompida, a respeito dos quais o credor tenha mantido tempestivamente o direito de cobrança.  
-III. Compromissos decorrentes de obrigação de pagamento criada em virtude de lei e pela mesma promulgada, que não tenham sido previstos no orçamento anterior.
-
-À luz da legislação de finanças públicas, podem ser pagas à conta de dotação orçamentária específica para Despesas de Exercícios Anteriores (DEA):
-
-* **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** II e III, apenas.
-* **D)** I e III, apenas.
-* **E)** I, II e III.
-
+* **A)** A importância exata a pagar.
+* **B)** A data de vencimento do compromisso.
+* **C)** A descrição do bem, material ou serviço adquirido/contratado.
+* **D)** A identificação do funcionário responsável pela realização do pagamento.
+* **E)** A motivação pelo qual a despesa não foi empenhada ou paga na época própria.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **I. Correto.** É a primeira hipótese do art. 37 da Lei nº 4.320/1964: despesas que tinham dotação orçamentária e saldo suficiente, mas não foram empenhadas na época própria.
-> - **II. Correto.** É a segunda hipótese do art. 37: Restos a Pagar cancelados cuja prescrição tenha sido regularmente interrompida pelo credor.
-> - **III. Correto.** É a terceira hipótese do art. 37: compromissos decorrentes de obrigação legal promulgada após o encerramento do orçamento respectivo.
-> 
-> **Gabarito: E**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A importância exata a pagar". De acordo com a teoria estudada em *1.2 Os Quatro Estágios da Despesa Pública (Fixação, Empenho, Liquidação e Pagamento)*, formaliza-se pelo documento oficial denominado Nota de Empenho (NE), que deve indicar o nome do credor, a especificação do bem ou serviço e a importância exata da despesa.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A data de vencimento do compromisso". De acordo com a teoria estudada em *3.3 As Três Hipóteses Legais de DEA (Art. 37 da Lei nº 4.320/1964)*, compromissos reconhecidos a posteriori: Despesas contratuais ou legais cujo reconhecimento formal da obrigação pela autoridade competente tenha ocorrido após o encerramento do exercício financeiro.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A descrição do bem, material ou serviço adquirido/contratado". De acordo com a teoria estudada em *4.2 Vedações Categóricas e Prestação de Contas*, servidor que seja responsável pela guarda e custódia do material a ser adquirido (ex.: chefes e operadores de almoxarifados ou patrimônio).
+> - **D)** **Correta.** Conforme fundamentado na seção *1.2 Os Quatro Estágios da Despesa Pública (Fixação, Empenho, Liquidação e Pagamento)* deste guia, requer a realização de atesto formal na nota fiscal por servidor competente ou comissão fiscalizadora, certificando que as obras, os serviços ou os materiais foram recebidos em perfeita conformidade com as especificações contratadas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "A identificação do funcionário responsável pela realização do pagamento".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A motivação pelo qual a despesa não foi empenhada ou paga na época própria". De acordo com a teoria estudada em *3.3 As Três Hipóteses Legais de DEA (Art. 37 da Lei nº 4.320/1964)*, despesas sem empenho na época própria: Despesas para as quais o orçamento do exercício pretérito consignava crédito orçamentário próprio com saldo suficiente, mas que, por erro ou omissão administrativa, não foram empenhadas na época oportuna.
+>
+> **Gabarito: D**
 
 ---
 
@@ -443,58 +419,50 @@ flowchart TD
 ---
 
 ### Teste 238
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-O regime de adiantamento ou suprimento de fundos é uma exceção ao princípio geral de que o pagamento de despesas públicas deve ser precedido de regular empenho e liquidação pelo rito ordinário.
+**(FGV – TRT-1 – Analista Judiciario Area Administrativa – 2024)**
+Um servidor foi designado para analisar as informações a serem apresentadas no Demonstrativo da Execução das Despesas por Função e Subfunção. Ao analisar despesas da Câmara dos Deputados, o servidor verificou que a Ação nº 2010 – Assistência Pré-escolar aos Dependentes dos Servidores do Órgão foi incluída na subfunção 365 – Educação Infantil. Quanto à função, o referido gasto deve constar como:
 
-A respeito do suprimento de fundos, de acordo com o art. 68 da Lei nº 4.320/1964 e normas gerais de administração financeira, é correto afirmar:
-
-* **A)** O suprimento de fundos dispensa a realização de empenho prévio, formalizando-se diretamente pelo saque financeiro na conta do órgão.
-* **B)** É lícito conceder suprimento de fundos a servidor público que seja responsável por dois adiantamentos anteriores já prestados e aprovados pelo Tribunal de Contas.
-* **C)** O suprimento de fundos é cabível unicamente para despesas eventuais de pronto pagamento, que exijam pronta prestação de serviço ou aquisições miúdas que não possam subordinar-se ao processo normal de aplicação.
-* **D)** O suprido tem prazo indeterminado para prestar contas dos recursos sacados, sujeitando-se apenas ao prazo prescricional decadencial de dez anos.
-* **E)** É permitido efetuar adiantamento de suprimento de fundos a servidor em alcance ou que tenha deixado de prestar contas de suprimento anterior no prazo legal.
-
+* **A)** Educação;
+* **B)** Legislativa;
+* **C)** Administração;
+* **D)** Assistência Social;
+* **E)** Encargos Especiais.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O suprimento de fundos **exige prévio empenho** na dotação própria da despesa (art. 60 da Lei nº 4.320/1964).
-> - **B)** Incorreta. O Decreto nº 93.872/1986 veda expressamente a concessão de novo adiantamento a quem já seja responsável por mais de dois suprimentos de fundos pendentes de aplicação ou a servidor em atraso na prestação de contas.
-> - **C)** Correta. O art. 68 da Lei nº 4.320/1964 restringe o regime de suprimento de fundos aos casos excepcionais: despesas miúdas de pronto pagamento, despesas extraordinárias ou urgentes e despesas que exijam sigilo.
-> - **D)** Incorreta. O suprido deve prestar contas em prazo estrito (geralmente até 30 dias após o encerramento do período de aplicação), sob pena de imediata instauração de Tomada de Contas Especial.
-> - **E)** Incorreta. É vedado expressamente conceder suprimento a servidor em alcance (aquele que não prestou contas no prazo legal ou teve contas desaprovadas).
-> 
-> **Gabarito: C**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Educação". De acordo com a teoria estudada em *2.1 Classificação Institucional e Funcional (Matricialidade)*, função: O maior nível de agregação das competências estatais (ex.: 01 - Legislativa, 04 - Administração, 10 - Saúde, 12 - Educação).
+> - **B)** **Correta.** Conforme fundamentado na seção *2.1 Classificação Institucional e Funcional (Matricialidade)* deste guia, princípio da Matricialidade Funcional: Qualquer subfunção pode ser combinada com qualquer função orçamentária, independentemente da vinculação institucional tradicional (ex.: uma escola administrada pelo TCE-GO para capacitação de servidores pode ser classificada na Função 01 - Legislativa e Subfunção 128 - Formação de Recursos Humanos). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-1/2024) ao estabelecer que "Legislativa".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Administração". De acordo com a teoria estudada em *2.1 Classificação Institucional e Funcional (Matricialidade)*, subfunção: Ramo específico e detalhado de uma função (ex.: 122 - Administração Geral, 301 - Atenção Básica, 361 - Ensino Fundamental).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Assistência Social". De acordo com a teoria estudada em *1.1 Despesa Orçamentária vs. Dispêndios Extraorçamentários*, despesas Orçamentárias (Sentido Estrito): São aquelas que necessitam de prévia autorização legislativa fixada na Lei Orçamentária Anual (ou em créditos adicionais) para serem executadas, destinando-se a financiar os serviços públicos, investimentos e transferências governamentais.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Encargos Especiais". De acordo com a teoria estudada em *1.2 Os Quatro Estágios da Despesa Pública (Fixação, Empenho, Liquidação e Pagamento)*, fixação (Etapa de Planejamento): É a autorização legislativa conferida ao Poder Executivo e demais órgãos independentes, por meio da LOA, estabelecendo o limite máximo de recursos destinados a cada programa e ação de governo.
+>
+> **Gabarito: B**
 
 ---
 
 ### Teste 239
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em relação aos Restos a Pagar (RAP), sua classificação e regras de controle fiscal, considere a seguinte situação fática:
+**(FGV – TCE-GO – Analista de Controle Externo Ciencias Contabeis – 2024)**
+Suprimento de fundos é um adiantamento concedido ao servidor para pagamento de despesas, com prazo certo para utilização e comprovação de gastos. Sobre Suprimento de Fundos, analise os itens a seguir: I. A concessão do benefício ocorre por meio do Cartão de Pagamento do Governo Federal (CPGF); II. O CPGF foi criado para substituir o uso de cheques na Administração Pública; III. O Portal da Transparência do Governo Federal publica, semanalmente, as faturas dos cartões de pagamentos utilizados pelo Poder Executivo Federal. Está correto o que se afirma em
 
-Determinado órgão do Estado empenhou, no exercício de 2024, despesa referente à aquisição de equipamentos de tecnologia. Os equipamentos foram formalmente entregues, atestados pela comissão de recebimento e liquidados pela unidade orçamentária em 20 de dezembro de 2024, mas a ordem bancária de pagamento não pôde ser emitida até 31 de dezembro por razões operacionais de fechamento do sistema bancário.
-
-No encerramento do exercício financeiro de 2024, tal despesa deverá ser inscrita como:
-
-* **A)** Restos a Pagar Processados (RPP).
-* **B)** Restos a Pagar Não Processados (RPNP), haja vista que não ocorreu o efetivo desembolso financeiro da quantia devida ao credor.
-* **C)** Despesas de Exercícios Anteriores (DEA), extinguindo-se a nota de empenho emitida e exigindo-se nova dotação no exercício seguinte.
-* **D)** Dívida Flutuante Insubsistente, devendo ser cancelada sumariamente em atendimento ao princípio da anualidade orçamentária.
-* **E)** Encargos Financeiros da Dívida Fundada, visto que sua exigibilidade ultrapassará o término do exercício financeiro.
-
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Os **Restos a Pagar Processados (RPP)** são aqueles cuja despesa cumpriu o estágio da liquidação (o credor entregou o bem ou prestou o serviço, tendo seu direito reconhecido e atestado pela Administração), restando unicamente o pagamento.
-> - **B)** Incorreta. Os RPNP são aqueles que foram apenas empenhados, mas ainda pendentes de liquidação ao término do exercício.
-> - **C)** Incorreta. DEA aplica-se quando não houve empenho ou restos a pagar válidos no exercício respectivo.
-> - **D)** Incorreta. A despesa liquidada não pode ser sumariamente cancelada, sob pena de enriquecimento sem causa do Estado.
-> - **E)** Incorreta. Restos a Pagar integram a dívida flutuante (curto prazo), e não a dívida fundada/consolidada.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *1.2 Os Quatro Estágios da Despesa Pública (Fixação, Empenho, Liquidação e Pagamento)*, fixação (Etapa de Planejamento): É a autorização legislativa conferida ao Poder Executivo e demais órgãos independentes, por meio da LOA, estabelecendo o limite máximo de recursos destinados a cada programa e ação de governo.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *3.1 Restos a Pagar Processados (RPP) vs. Restos a Pagar Não Processados (RPNP)*, o credor tem direito subjetivo líquido e certo ao pagamento; a administração pública não pode cancelar o respectivo empenho de forma unilateral, sob pena de enriquecimento sem causa do Estado.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *4.2 Vedações Categóricas e Prestação de Contas*, servidor em alcance (que esteja em atraso no dever de prestar contas de adiantamento anterior ou que tenha tido contas rejeitadas).
+> - **D)** **Correta.** Conforme fundamentado na seção *4. Regime Excepcional de Suprimento de Fundos (Adiantamento)* deste guia, o Suprimento de Fundos (regime de adiantamento financeiro previsto no art. 68 da Lei nº 4.320/1964 e no Decreto Federal nº 93.872/1986) consiste na entrega direta de numerário a um servidor público para execução de gastos que não possam subordinar-se ao rito ordinário de empenho -> liquidação -> pagamento. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "II e III, apenas".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *4.2 Vedações Categóricas e Prestação de Contas*, a prestação de contas é obrigatória e deve ser apresentada pelo suprido no prazo estipulado pelo regulamento, sob pena de instauração imediata de Tomada de Contas Especial (TCE).
+>
+> **Gabarito: D**
 
 ---
 

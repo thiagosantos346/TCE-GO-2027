@@ -91,26 +91,28 @@ O art. 19 da Carta da República veda à União, aos Estados, ao Distrito Federa
 ---
 
 ### Teste 132
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Incluem-se entre os bens dos Estados:
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Gestao Governamental – 2024)**
+O Estado do Pará editou a Lei Complementar X, alterada por outra Lei Complementar, permitindo a dispensa de estudo de impacto ambiental (EIA) e de relatório de impacto ambiental (RIMA) para todas as obras hidrelétricas com potencial de 10 a 30 megawatt (MW) e com determinada extensão da área inundada. Concernente aos temas de repartição de competência em matéria ambiental e licenciamento ambiental, assinale a afirmativa correta.
 
-* **A)** as terras devolutas indispensáveis à defesa das fronteiras e fortificações militares.
-* **B)** o mar territorial, os terrenos de marinha e seus acrescidos pela maré.
-* **C)** as terras tradicionalmente ocupadas pelas comunidades indígenas nacionais.
-* **D)** as ilhas fluviais e lacustres não pertencentes à União.
-* **E)** os potenciais de energia hidráulica e os recursos minerais do subsolo.
+* **A)** A atuação normativa estadual, ainda que flexibilizadora, considerou o patamar mínimo estabelecido para a configuração de atividade potencialmente poluidora, assegurando o direito fundamental ao meio ambiente ecologicamente equilibrado.
+* **B)** É permitido aos entes federados estabelecer procedimentos simplificados de licenciamento para determinados empreendimentos e atividades, desde que de médio ou de menor potencial de impacto ambiental.
+* **C)** No caso concreto, ao prever o aumento do mínimo de fonte de energia primária, bem como ao inserir requisito para o licenciamento, consistente na extensão da área inundada, o poder legislativo estadual, com fundamento em suas peculiaridades regionais e na preponderância de seu interesse, não exorbitou dos limites expressamente estabelecidos pela legislação federal para o tratamento da matéria.
+* **D)** No âmbito das competências legislativas e executivas em matéria ambiental, o sistema do direito constitucional positivo brasileiro não optou pelo federalismo cooperativo.
+* **E)** Ao criar dispensa do licenciamento ambiental para atividade potencialmente causadora de significativa degradação do meio ambiente, a norma estadual invadiu a competência legislativa geral da União (Art. 24, VI, §§ 1º e 2º, da CF/88) e violou o direito ao meio ambiente ecologicamente equilibrado (Art. 225, § 1º, IV, da CF/88).
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. Conforme o art. 20, II, da CF/88, as terras devolutas indispensáveis à defesa das fronteiras, das fortificações e construções militares são bens da União.
-> - **B)** **Incorreto**. O mar territorial e os terrenos de marinha pertencem à União (art. 20, VI e VII, CF/88).
-> - **C)** **Incorreto**. As terras tradicionalmente ocupadas pelos índios são bens dominicais da União (art. 20, XI, CF/88).
-> - **D)** **Correto**. Conforme o art. 26, III, da Constituição Federal, incluem-se expressamente entre os bens dos Estados federados "as ilhas fluviais e lacustres não pertencentes à União".
-> - **E)** **Incorreto**. Os potenciais de energia hidráulica e recursos minerais pertencem à União (art. 20, VIII e IX, CF/88).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A atuação normativa estadual, ainda que flexibilizadora, considerou o patamar mínimo estabelecido para a...". De acordo com a teoria estudada em *1.3 Bens Públicos Constitucionais e Criação de Novos Entes*, criação de Municípios (Art. 18, § 4º): Depende de Lei Complementar Federal (definindo o período temporal), divulgação prévia dos Estudos de Viabilidade Municipal, consulta prévia por plebiscito às populações dos municípios envolvidos e promulgação de Lei Ordinária Estadual.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "É permitido aos entes federados estabelecer procedimentos simplificados de licenciamento para determinados...". De acordo com a teoria estudada em *1.1 Características da Federação Brasileira e Autonomia dos Entes*, a Autonomia é outorgada aos entes federados (União, Estados, DF e Municípios), manifestando-se pela tríplice capacidade de auto-organização (Constituições e Leis Orgânicas), autogoverno (eleição de chefes dos poderes) e autoadministração (gestão e tributação próprias).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "No caso concreto, ao prever o aumento do mínimo de fonte de energia primária, bem como ao inserir requisito para o...". De acordo com a teoria estudada em *1.3 Bens Públicos Constitucionais e Criação de Novos Entes*, bens da União (Art. 20): Terras devolutas indispensáveis à defesa das fronteiras, recursos minerais (inclusive do subsolo), potenciais de energia hidráulica, mar territorial, terrenos de marinha e terras tradicionalmente ocupadas pelos índios.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "No âmbito das competências legislativas e executivas em matéria ambiental, o sistema do direito constitucional...". De acordo com a teoria estudada em *1.2 Vedações Constitucionais Federativas (Art. 19)*, criar distinções entre brasileiros ou preferências entre si *(Proibição de discriminação tributária, previdenciária ou funcional com base na origem regional)*.
+> - **E)** **Correta.** Conforme fundamentado na seção *1.3 Bens Públicos Constitucionais e Criação de Novos Entes* deste guia, criação de Estados (Art. 18, § 3º): Exige aprovação da população diretamente interessada por meio de plebiscito e edição de Lei Complementar Federal pelo Congresso Nacional. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "Ao criar dispensa do licenciamento ambiental para atividade potencialmente causadora de significativa degradação...".
 >
-> **Gabarito: D**
+> **Gabarito: E**
+
+---
 
 ### Teste 133
 **(FCC – TRT-2 – Analista Judiciário - Tecnologia da Informação – 2014)**  
@@ -135,115 +137,124 @@ Incluem-se entre os bens dos Estados:
 > **Gabarito: D**
 
 ### Teste 134
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O Estado Alfa, à míngua de normas da União disciplinando a respectiva temática, editou a Lei estadual nº X. Em momento posterior, a União editou a Lei nº Y, em sentido diametralmente oposto ao da Lei estadual nº X.  
-Considerando os balizamentos estabelecidos pela ordem constitucional, é correto afirmar que a Lei nº Y:
+**(FGV – TCE-GO – Analista de Controle Externo Ciencias Contabeis – 2024)**
+O Estado Alfa editou a Lei nº X, em matéria de competência legislativa concorrente com a União, em momento no qual este ente federativo ainda não tinha editado nenhuma norma a respeito da temática. Apesar desse diploma normativo ter sido enaltecido pela coletividade, muitos argumentavam com a sua inconstitucionalidade. À luz da sistemática constitucional vigente, é correto afirmar que o Estado Alfa
 
-* **A)** não deve ser aplicada no território de Alfa, enquanto a Lei estadual nº X permanecer formalmente vigente.
-* **B)** revoga a Lei estadual nº X, mas apenas se a temática estiver inserida na competência privativa da União.
-* **C)** deve ser considerada nula de pleno direito, considerando o princípio federativo da especialização legal.
-* **D)** suspende a eficácia da Lei estadual nº X, caso veicule normas gerais e a matéria seja concorrente.
-* **E)** revoga expressamente a Lei estadual nº X por força da soberania hierárquica conferida à legislação federal.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreto**. Em matéria concorrente, inexistindo lei federal sobre normas gerais, o Estado exerce a competência legislativa plena (art. 24, § 3º, CF/88). Porém, vindo a União a editar norma geral, o preceito estadual com ela incompatível tem sua eficácia suspensa.
-> - **B)** **Incorreto**. No federalismo brasileiro não há revogação de lei estadual por lei federal em competência concorrente; ocorre apenas a suspensão da eficácia.
-> - **C)** **Incorreto**. A União possui competência legítima para fixar normas gerais em matérias do art. 24 da CF/88.
-> - **D)** **Correto**. Nos exatos termos do art. 24, § 4º, da Constituição Federal: "A superveniência de lei federal sobre normas gerais suspende a eficácia da lei estadual, no que lhe for contrário".
-> - **E)** **Incorreto**. Não se opera a figura da revogação, mas sim a suspensão de eficácia no ponto incompatível.
->
-> **Gabarito: D**
-
-### Teste 135
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Em tema de repartição constitucional de competências legislativas e materiais dos Municípios (art. 30 da CF/88), analise as proposições à luz da jurisprudência consolidada do STF:
-
-* **A)** É constitucional lei municipal que fixa horário de funcionamento de agências bancárias locais.
-* **B)** É inconstitucional lei municipal que impõe a instalação de portas de segurança e biombos em agências.
-* **C)** Compete exclusivamente ao Estado membro disciplinar o tempo máximo de espera em filas bancárias.
-* **D)** Os Municípios possuem competência originária e plena para legislar sobre matéria de direito penal e civil.
-* **E)** É nula lei municipal que determina a obrigatoriedade de cinto de segurança em transportes coletivos.
+* **A)** não poderia ter editado a Lei nº X enquanto a União não legislasse sobre a temática.
+* **B)** somente poderia legislar sobre a temática se houvesse lei complementar autorizando-o.
+* **C)** editou corretamente a Lei nº X, e, caso colida com norma geral que venha a ser editada pela União, continuará válida, mas se tornará ineficaz.
+* **D)** tinha competência legislativa plena para legislar sobre a temática, sendo que a Lei nº X será tida como revogada quando sobrevier a lei da União.
+* **E)** pode legislar sobre a temática, sendo que a Lei nº X tem preeminência, no âmbito do seu território, em relação às normas gerais que venham a ser editadas pela União.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. Conforme a Súmula Vinculante 19 do STF: "A fixação do horário de funcionamento de estabelecimentos bancários é da competência da União" (competência do Banco Central / União ligada ao sistema financeiro nacional).
-> - **B)** **Incorreto**. Conforme a jurisprudência pacífica do STF (Tema 178 e Súmula Vinculante 38), é constitucional a lei municipal que determina a instalação de equipamentos de segurança e conforto em agências (como biombos e banheiros), por ser matéria de interesse local e proteção ao consumidor.
-> - **C)** **Incorreto**. A regulação do tempo de atendimento em filas de agências bancárias insere-se no interesse local municipal (art. 30, I, CF/88 e RE 610.221/SC).
-> - **D)** **Incorreto**. Direito penal e civil inserem-se na competência privativa da União (art. 22, I, CF/88).
-> - **E)** **Correto**. Compete privativamente à União legislar sobre trânsito e transporte (art. 22, XI, CF/88). Por conseguinte, lei municipal ou estadual que institua exigências sobre equipamentos de trânsito (como obrigatoriedade de cinto ou capacete específico) padece de inconstitucionalidade formal (Súmula 130 do STF e Súmula Vinculante 2).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não poderia ter editado a Lei nº X enquanto a União não legislasse sobre a temática". De acordo com a teoria estudada em *1.2 Vedações Constitucionais Federativas (Art. 19)*, estabelecer cultos religiosos ou igrejas, subvencioná-los, embaraçar-lhes o funcionamento ou manter com eles ou seus representantes relações de dependência ou aliança, ressalvada, na forma da lei, a colaboração de interesse público *(Princípio da Laicidade Estatal)*.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente poderia legislar sobre a temática se houvesse lei complementar autorizando-o". De acordo com a teoria estudada em *1.3 Bens Públicos Constitucionais e Criação de Novos Entes*, criação de Estados (Art. 18, § 3º): Exige aprovação da população diretamente interessada por meio de plebiscito e edição de Lei Complementar Federal pelo Congresso Nacional.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "editou corretamente a Lei nº X, e, caso colida com norma geral que venha a ser editada pela União, continuará...". De acordo com a teoria estudada em *1.3 Bens Públicos Constitucionais e Criação de Novos Entes*, criação de Municípios (Art. 18, § 4º): Depende de Lei Complementar Federal (definindo o período temporal), divulgação prévia dos Estudos de Viabilidade Municipal, consulta prévia por plebiscito às populações dos municípios envolvidos e promulgação de Lei Ordinária Estadual.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "tinha competência legislativa plena para legislar sobre a temática, sendo que a Lei nº X será tida como revogada...". De acordo com a teoria estudada em *1.1 Características da Federação Brasileira e Autonomia dos Entes*, a República Federativa do Brasil é formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal (Art. 18, *caput*).
+> - **E)** **Correta.** Conforme fundamentado na seção *1.1 Características da Federação Brasileira e Autonomia dos Entes* deste guia, indissolubilidade do Vínculo Federativo: Não existe o direito de secessão (nenhum Estado ou Município pode se separar do Brasil). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "pode legislar sobre a temática, sendo que a Lei nº X tem preeminência, no âmbito do seu território, em relação às...".
 >
 > **Gabarito: E**
 
-### Teste 136
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A criação, a incorporação, a fusão e o desmembramento de Municípios dependem de observância a um complexo rito constitucional previsto no art. 18, § 4º, da Constituição Federal. De acordo com o texto constitucional vigente, tais transformações:
+---
 
-* **A)** dependem de decreto legislativo do Congresso Nacional aprovado por maioria absoluta dos parlamentares.
-* **B)** far-se-ão por lei ordinária da União, após consulta plebiscitária aos eleitores da Capital do Estado.
-* **C)** prescindem de estudos de viabilidade municipal se aprovadas por dois terços dos membros da Assembleia.
-* **D)** far-se-ão por lei estadual, dentro do período determinado por Lei Complementar Federal, após plebiscito.
-* **E)** exigem aprovação popular mediante referendo ratificador convocado privativamente pelo Governador estadual.
+### Teste 135
+**(FGV – TRT-1 – Analista Judiciario Area Administrativa – 2024)**
+O estado Alfa, à mingua de normas da União disciplinando a respectiva temática, editou a Lei estadual nº X. Em momento posterior, a União editou a Lei nº Y, em sentido diametralmente oposto ao da Lei estadual nº X. Considerando os balizamentos estabelecidos pela ordem constitucional, é correto afirmar que a Lei nº Y:
+
+* **A)** não deve ser aplicada no território de Alfa, enquanto a Lei estadual nº X permanecer em vigor;
+* **B)** revoga a Lei estadual nº X, mas apenas se a temática estiver inserida na competência legislativa privativa da União;
+* **C)** deve ser considerada nula, considerando o princípio federativo da especialização legislativa nos entes de menor proporção;
+* **D)** suspende a eficácia da Lei estadual nº X, caso veicule normas gerais e a matéria se insira na competência legislativa concorrente;
+* **E)** revoga a Lei estadual nº X se a temática estiver inserida na competência legislativa privativa da União ou na competência legislativa concorrente.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A criação é efetivada por lei estadual, e não por decreto legislativo do Congresso.
-> - **B)** **Incorreto**. A lei instituidora é estadual e o plebiscito consulta as populações dos Municípios diretamente envolvidos.
-> - **C)** **Incorreto**. Os Estudos de Viabilidade Municipal são obrigatórios e devem ser apresentados e publicados na forma da lei.
-> - **D)** **Correto**. O art. 18, § 4º, da CF/88 (com redação da EC nº 15/1996) preconiza: "A criação, a incorporação, a fusão e o desmembramento de Municípios, far-se-ão por lei estadual, dentro do período determinado por Lei Complementar Federal, e dependerão de consulta prévia, mediante plebiscito, às populações dos Municípios envolvidos, após divulgação dos Estudos de Viabilidade Municipal, apresentados e publicados na forma da lei".
-> - **E)** **Incorreto**. A consulta popular exigida é prévia (plebiscito), e não posterior (referendo).
->
-> **Gabarito: D**
-
-### Teste 137
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A intervenção federal nos Estados e no Distrito Federal (art. 34 da CF/88) é medida excepcional que suspende temporariamente a autonomia do ente federativo. Sobre as hipóteses e o procedimento da intervenção federal, é correto afirmar:
-
-* **A)** A intervenção para prover a execução de lei federal depende de representação do Procurador-Geral da República.
-* **B)** O Presidente da República pode decretar de ofício a intervenção para repelir invasão estrangeira no território nacional.
-* **C)** A recusa à execução de decisão judiciária dispensa qualquer provocação dos órgãos integrantes do Poder Judiciário.
-* **D)** O decreto de intervenção é dispensado de apreciação pelo Congresso Nacional quando versar sobre defesa da ordem pública.
-* **E)** Cessados os motivos da intervenção, as autoridades afastadas retornam de imediato somente se houver autorização legislativa.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreto**. A intervenção para prover a execução de lei federal depende de representação do Procurador-Geral da República ao Superior Tribunal de Justiça (STJ), conforme art. 36, III, da CF/88. Já para assegurar princípios constitucionais sensíveis ou prover a execução de ordem judiciária, atua perante o STF.
-> - **B)** **Correto**. As hipóteses do art. 34, incisos I (repelir invasão estrangeira ou de uma unidade na outra), II (reorganizar as finanças), III (pôr termo a grave comprometimento da ordem pública) e V (garantir o livre exercício de qualquer dos Poderes nas unidades da Federação, quando solicitada pelo Executivo ou Legislativo) autorizam a decretação espontânea (de ofício) pelo Presidente da República, dispensando requisição jurisdicional prévia.
-> - **C)** **Incorreto**. A desobediência a ordem judiciária exige requisição do STF, STJ ou TSE (art. 36, II, CF/88).
-> - **D)** **Incorreto**. Conforme o art. 36, § 1º, da CF/88, o decreto de intervenção será submetido à apreciação do Congresso Nacional no prazo de vinte e quatro horas, exceto quando decorrente de requisição judicial para execução de ordem judicial.
-> - **E)** **Incorreto**. Cessados os motivos, as autoridades afastadas retornam aos seus cargos de pleno direito, independentemente de autorização congressual (art. 36, § 4º, CF/88).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não deve ser aplicada no território de Alfa, enquanto a Lei estadual nº X permanecer em vigor". De acordo com a teoria estudada em *1.2 Vedações Constitucionais Federativas (Art. 19)*, estabelecer cultos religiosos ou igrejas, subvencioná-los, embaraçar-lhes o funcionamento ou manter com eles ou seus representantes relações de dependência ou aliança, ressalvada, na forma da lei, a colaboração de interesse público *(Princípio da Laicidade Estatal)*.
+> - **B)** **Correta.** Conforme fundamentado na seção *1.3 Bens Públicos Constitucionais e Criação de Novos Entes* deste guia, criação de Municípios (Art. 18, § 4º): Depende de Lei Complementar Federal (definindo o período temporal), divulgação prévia dos Estudos de Viabilidade Municipal, consulta prévia por plebiscito às populações dos municípios envolvidos e promulgação de Lei Ordinária Estadual. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-1/2024) ao estabelecer que "revoga a Lei estadual nº X, mas apenas se a temática estiver inserida na competência legislativa privativa da União".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "deve ser considerada nula, considerando o princípio federativo da especialização legislativa nos entes de menor...". De acordo com a teoria estudada em *1.1 Características da Federação Brasileira e Autonomia dos Entes*, indissolubilidade do Vínculo Federativo: Não existe o direito de secessão (nenhum Estado ou Município pode se separar do Brasil).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "suspende a eficácia da Lei estadual nº X, caso veicule normas gerais e a matéria se insira na competência...". De acordo com a teoria estudada em *1.2 Vedações Constitucionais Federativas (Art. 19)*, recusar fé aos documentos públicos *(Eficácia probatória nacional dos documentos emitidos por órgãos oficiais)*.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "revoga a Lei estadual nº X se a temática estiver inserida na competência legislativa privativa da União ou na...". De acordo com a teoria estudada em *1.3 Bens Públicos Constitucionais e Criação de Novos Entes*, criação de Estados (Art. 18, § 3º): Exige aprovação da população diretamente interessada por meio de plebiscito e edição de Lei Complementar Federal pelo Congresso Nacional.
 >
 > **Gabarito: B**
 
-### Teste 138
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No âmbito do regime constitucional da Administração Pública e da disciplina remuneratória dos agentes estatais (art. 37 da CF/88), considere as seguintes regras sobre o teto remuneratório e acumulação de cargos:
+---
 
-* **A)** O subsídio dos Deputados Estaduais serve como limite único para todos os servidores públicos estaduais.
-* **B)** É permitida a percepção simultânea de proventos de aposentadoria decorrentes de três cargos de professor público.
-* **C)** No âmbito municipal, o teto remuneratório geral aplicável a todos os Poderes corresponde ao subsídio do Prefeito.
-* **D)** A vedação de acumulação remunerada de cargos públicos não alcança os empregados de empresas públicas e sociedades de economia mista.
-* **E)** A fixação de vencimentos dos cargos do Poder Legislativo estadual independe de lei específica se houver resolução da Mesa.
+### Teste 136
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Administracao – 2024)**
+O Deputado Estadual Pedro pretendia apresentar à Assembleia Legislativa do Estado Delta projeto de lei versando sobre matéria de competência legislativa concorrente entre a União, os Estados e o Distrito Federal. Após promover alentada busca, constatou que nem a União nem o Estado Delta tinha legislado sobre a matéria. À luz da divisão constitucional de competências, Pedro concluiu corretamente que o Estado Delta
+
+* **A)** somente pode legislar sobre a matéria após a União.
+* **B)** pode legislar sobre a matéria, desde que seja expressamente autorizado pela União.
+* **C)** pode legislar sobre a matéria, sendo que a superveniência de normas gerais da União revogará a lei estadual na hipótese de colidência.
+* **D)** pode legislar sobre a matéria, sendo que a superveniência de normas gerais da União suspenderá a eficácia da lei estadual na hipótese de colidência.
+* **E)** pode legislar sobre a matéria, sendo que a superveniência de normas gerais da União não terá influência sobre a lei estadual, ainda que sejam colidentes.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. Nos Estados, adota-se o teto escalonado por Poder: no Executivo, o subsídio do Governador; no Legislativo, o subsídio dos Deputados Estaduais; no Judiciário (e MP, Defensoria e Procuradorias), o subsídio dos Desembargadores do TJ (art. 37, XI, CF/88).
-> - **B)** **Incorreto**. A acumulação remunerada é permitida para no máximo dois cargos de professor, ou um de professor com outro técnico/científico, ou dois da saúde (art. 37, XVI, CF/88). Três cargos é expressamente vedado.
-> - **C)** **Correto**. Nos termos do art. 37, XI, parte final, da CF/88, nos Municípios, o teto remuneratório geral é único para todos os servidores e agentes de quaisquer Poderes e órgãos, correspondendo ao subsídio mensal do Prefeito Municipal.
-> - **D)** **Incorreto**. O art. 37, XVII, da CF/88 estende expressamente a proibição de acumular cargos, empregos e funções a autarquias, fundações, empresas públicas, sociedades de economia mista, suas subsidiárias e sociedades controladas direta ou indiretamente pelo poder público.
-> - **E)** **Incorreto**. A remuneração dos servidores públicos somente pode ser fixada ou alterada por lei específica (art. 37, X, CF/88).
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente pode legislar sobre a matéria após a União". De acordo com a teoria estudada em *1.1 Características da Federação Brasileira e Autonomia dos Entes*, indissolubilidade do Vínculo Federativo: Não existe o direito de secessão (nenhum Estado ou Município pode se separar do Brasil).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pode legislar sobre a matéria, desde que seja expressamente autorizado pela União". De acordo com a teoria estudada em *1.2 Vedações Constitucionais Federativas (Art. 19)*, recusar fé aos documentos públicos *(Eficácia probatória nacional dos documentos emitidos por órgãos oficiais)*.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pode legislar sobre a matéria, sendo que a superveniência de normas gerais da União revogará a lei estadual na...". De acordo com a teoria estudada em *1.1 Características da Federação Brasileira e Autonomia dos Entes*, a República Federativa do Brasil é formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal (Art. 18, *caput*).
+> - **D)** **Correta.** Conforme fundamentado na seção *1.3 Bens Públicos Constitucionais e Criação de Novos Entes* deste guia, criação de Municípios (Art. 18, § 4º): Depende de Lei Complementar Federal (definindo o período temporal), divulgação prévia dos Estudos de Viabilidade Municipal, consulta prévia por plebiscito às populações dos municípios envolvidos e promulgação de Lei Ordinária Estadual. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "pode legislar sobre a matéria, sendo que a superveniência de normas gerais da União suspenderá a eficácia da lei...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pode legislar sobre a matéria, sendo que a superveniência de normas gerais da União não terá influência sobre a...". De acordo com a teoria estudada em *1.2 Vedações Constitucionais Federativas (Art. 19)*, o art. 19 da Carta da República veda à União, aos Estados, ao Distrito Federal e aos Municípios.
+>
+> **Gabarito: D**
+
+---
+
+### Teste 137
+**(FGV – TCE-PI – Auditor de Controle Externo Controle Externo Especifica de Area Comum – 2025)**
+Após ampla mobilização popular, o Município Alfa editou a Lei municipal nº X, dispondo que os jovens de até vinte e um anos de idade teriam direito a concessão de desconto de 50% sobre o preço do ingresso cobrado por casas de diversões situadas em seu território. Esse diploma normativo foi muito festejado no ambiente social, pois nem a legislação do Estado em cujo território Alfa está situado nem a legislação da União contêm preceito similar. Apesar disso, a associação dos empresários do setor, os quais teriam seus lucros reduzidos, criticou duramente a Lei municipal nº X, tendo solicitado que um especialista analisasse a sua conformidade constitucional, mais especificamente se Alfa poderia legislar sobre a matéria. Assinale a opção que apresenta o esclarecimento correto dado à associação.
+
+* **A)** Compete privativamente à União legislar sobre produção e consumo, logo, a Lei municipal nº X é inconstitucional nesse aspecto.
+* **B)** O Município Alfa somente tem competência para legislar sobre a matéria se houver lei complementar federal autorizativa.
+* **C)** Todos os entes federativos possuem competência legislativa comum para legislar sobre lazer, logo, a Lei municipal nº X é constitucional nesse aspecto.
+* **D)** Se trata de típico interesse local, logo, Alfa tem competência privativa para legislar sobre a matéria, o que torna a Lei municipal nº X constitucional nesse aspecto.
+* **E)** O Município Alfa pode suplementar a legislação federal e estadual em matéria de direito econômico, logo, a Lei municipal nº X é constitucional nesse aspecto.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Compete privativamente à União legislar sobre produção e consumo, logo, a Lei municipal nº X é inconstitucional...". De acordo com a teoria estudada em *1.2 Vedações Constitucionais Federativas (Art. 19)*, estabelecer cultos religiosos ou igrejas, subvencioná-los, embaraçar-lhes o funcionamento ou manter com eles ou seus representantes relações de dependência ou aliança, ressalvada, na forma da lei, a colaboração de interesse público *(Princípio da Laicidade Estatal)*.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "O Município Alfa somente tem competência para legislar sobre a matéria se houver lei complementar federal...". De acordo com a teoria estudada em *1.1 Características da Federação Brasileira e Autonomia dos Entes*, indissolubilidade do Vínculo Federativo: Não existe o direito de secessão (nenhum Estado ou Município pode se separar do Brasil).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Todos os entes federativos possuem competência legislativa comum para legislar sobre lazer, logo, a Lei municipal...". De acordo com a teoria estudada em *1.3 Bens Públicos Constitucionais e Criação de Novos Entes*, criação de Estados (Art. 18, § 3º): Exige aprovação da população diretamente interessada por meio de plebiscito e edição de Lei Complementar Federal pelo Congresso Nacional.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.3 Bens Públicos Constitucionais e Criação de Novos Entes* deste guia, criação de Municípios (Art. 18, § 4º): Depende de Lei Complementar Federal (definindo o período temporal), divulgação prévia dos Estudos de Viabilidade Municipal, consulta prévia por plebiscito às populações dos municípios envolvidos e promulgação de Lei Ordinária Estadual. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PI/2025) ao estabelecer que "Se trata de típico interesse local, logo, Alfa tem competência privativa para legislar sobre a matéria, o que...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O Município Alfa pode suplementar a legislação federal e estadual em matéria de direito econômico, logo, a Lei...". De acordo com a teoria estudada em *1.1 Características da Federação Brasileira e Autonomia dos Entes*, a República Federativa do Brasil é formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal (Art. 18, *caput*).
+>
+> **Gabarito: D**
+
+---
+
+### Teste 138
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Gestao Governamental – 2024)**
+Monique Gume, servidora pública efetiva lotada na Secretaria de Educação do Estado do Pará, procura uma conceituada advogada paraense e relata que tomou posse no cargo, após o devido concurso, na vigência da Lei Complementar nº XYZ, de 2002. Ocorre que, em 2023, a citada norma jurídica foi extinta pela promulgação da Lei Complementar nº ABC, que extinguiu uma gratificação de cinquenta por cento sobre o vencimento a que ela tinha direito. Destaque-se que o artigo nono da Lei Complementar de 2023 prevê a revogação por inteiro da Lei Complementar de 2002. Monique explica, ainda, que só realizou o concurso devido à gratificação, pois do contrário o cargo não possuiria atrativo suficiente. Com base na situação hipotética, assinale a afirmativa correta.
+
+* **A)** A jurisprudência brasileira consagra a existência de direito adquirido a regime jurídico.
+* **B)** Salvo disposição em contrário, a lei revogada se restaura por ter a lei revogadora perdido a vigência.
+* **C)** Na situação hipotética, com a promulgação da Lei Complementar nº ABC de 2023, a Lei Complementar nº XYZ de 2002 foi ab-rogada expressamente.
+* **D)** O princípio da supremacia do interesse público permite a violação do direito adquirido pela promulgação de uma lei ordinária.
+* **E)** A lei nova que estabeleça disposições gerais ou especiais a par das já existentes revoga a lei anterior.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A jurisprudência brasileira consagra a existência de direito adquirido a regime jurídico". De acordo com a teoria estudada em *1.3 Bens Públicos Constitucionais e Criação de Novos Entes*, criação de Estados (Art. 18, § 3º): Exige aprovação da população diretamente interessada por meio de plebiscito e edição de Lei Complementar Federal pelo Congresso Nacional.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Salvo disposição em contrário, a lei revogada se restaura por ter a lei revogadora perdido a vigência". De acordo com a teoria estudada em *1.2 Vedações Constitucionais Federativas (Art. 19)*, estabelecer cultos religiosos ou igrejas, subvencioná-los, embaraçar-lhes o funcionamento ou manter com eles ou seus representantes relações de dependência ou aliança, ressalvada, na forma da lei, a colaboração de interesse público *(Princípio da Laicidade Estatal)*.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.3 Bens Públicos Constitucionais e Criação de Novos Entes* deste guia, criação de Municípios (Art. 18, § 4º): Depende de Lei Complementar Federal (definindo o período temporal), divulgação prévia dos Estudos de Viabilidade Municipal, consulta prévia por plebiscito às populações dos municípios envolvidos e promulgação de Lei Ordinária Estadual. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "Na situação hipotética, com a promulgação da Lei Complementar nº ABC de 2023, a Lei Complementar nº XYZ de 2002...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O princípio da supremacia do interesse público permite a violação do direito adquirido pela promulgação de uma lei...". De acordo com a teoria estudada em *1.1 Características da Federação Brasileira e Autonomia dos Entes*, indissolubilidade do Vínculo Federativo: Não existe o direito de secessão (nenhum Estado ou Município pode se separar do Brasil).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A lei nova que estabeleça disposições gerais ou especiais a par das já existentes revoga a lei anterior". De acordo com a teoria estudada em *1.2 Vedações Constitucionais Federativas (Art. 19)*, criar distinções entre brasileiros ou preferências entre si *(Proibição de discriminação tributária, previdenciária ou funcional com base na origem regional)*.
 >
 > **Gabarito: C**
+
+---
 
 ### Teste 139
 **(FGV – TJ-AP – Analista Judiciário - Tecnologia da Informação – 2023)**  
@@ -292,46 +303,50 @@ Ao final, Maria concluiu corretamente que, na perspectiva das eleições para ca
 > **Gabarito: A**
 
 ### Teste 141
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Sobre o regime constitucional de estabilidade dos servidores públicos ocupantes de cargo de provimento efetivo (art. 41 da CF/88), analise as hipóteses de aquisição e perda do cargo público estável. É correto afirmar que:
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Gestao Governamental – 2024)**
+O Partido Político Alfa elegeu dezenove parlamentares na eleição para a Câmara dos Deputados. João, um dos Deputados Federais eleitos por Alfa, logo após a posse, insatisfeito com o que considerou um “fraquíssimo desempenho” da legenda, declarou à imprensa que adotaria as medidas necessárias para a sua desfiliação, com a correlata filiação ao Partido Político Beta, que teve melhor desempenho. Ao tomar conhecimento da declaração de João, o Diretório Nacional de Alfa informou que a desfiliação, sem sua aquiescência, importaria na perda do mandato eletivo. À luz da sistemática constitucional, é correto afirmar que
 
-* **A)** O servidor adquire estabilidade após dois anos de efetivo exercício, prescindindo de avaliação de desempenho.
-* **B)** O servidor estável somente pode perder o cargo em virtude de sentença judicial transitada em julgado.
-* **C)** A perda do cargo por avaliação periódica de desempenho exige procedimento em que se assegure ampla defesa.
-* **D)** Invalidada por sentença a demissão do estável, o ocupante da vaga é exonerado sem qualquer indenização funcional.
-* **E)** A exoneração para cumprimento de limite com despesa de pessoal atinge o servidor estável antes do não estável.
+* **A)** caso João venha a se desfiliar de Alfa, partido político pelo qual foi eleito, a consequência será a perda do mandato eletivo.
+* **B)** como Alfa não preencheu a cláusula constitucional de desempenho, João poderá se desfiliar sem perda do mandato.
+* **C)** a desfiliação de Alfa, com a correlata filiação de Beta, somente será admitida na hipótese de transferência igualitária de parlamentares entre os partidos políticos.
+* **D)** João, a exemplo dos demais parlamentares, pode se desfiliar do respectivo partido político nos sessenta dias subsequentes ao início do mandato e nos sessenta dias anteriores ao término do mandato.
+* **E)** João apenas poderá se desfiliar de Alfa caso o partido político também não tenha obtido 3% dos votos válidos na eleição para a Câmara dos Deputados, distribuídos em um terço das unidades da Federação, com no mínimo 2% em cada uma.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A estabilidade é adquirida após três anos de efetivo exercício (art. 41, caput, CF/88) e é condição obrigatória para sua aquisição a avaliação especial de desempenho por comissão instituída para essa finalidade (art. 41, § 4º).
-> - **B)** **Incorreto**. O art. 41, § 1º, da CF/88 prevê quatro hipóteses de perda do cargo: sentença judicial transitada em julgado, processo administrativo disciplinar com ampla defesa, procedimento de avaliação periódica de desempenho (na forma de lei complementar) e excesso de despesas com pessoal (art. 169, § 4º).
-> - **C)** **Correto**. O art. 41, § 1º, III, da CF/88 autoriza a perda do cargo do servidor estável "mediante procedimento de avaliação periódica de desempenho, na forma de lei complementar, assegurada ampla defesa".
-> - **D)** **Incorreto**. Invalidada por sentença judicial a demissão do servidor estável, ele será reintegrado, e o eventual ocupante da vaga, se estável, reconduzido ao cargo de origem, sem direito a indenização, aproveitado em outro cargo ou posto em disponibilidade com remuneração proporcional ao tempo de serviço (art. 41, § 2º, CF/88).
-> - **E)** **Incorreto**. Conforme o art. 169, §§ 3º e 4º, da CF/88, para redução de despesas com pessoal demite-se primeiro os cargos em comissão, depois os servidores não estáveis, e somente em último caso os estáveis.
+> - **A)** **Correta.** Conforme fundamentado na seção *1.1 Características da Federação Brasileira e Autonomia dos Entes* deste guia, a Autonomia é outorgada aos entes federados (União, Estados, DF e Municípios), manifestando-se pela tríplice capacidade de auto-organização (Constituições e Leis Orgânicas), autogoverno (eleição de chefes dos poderes) e autoadministração (gestão e tributação próprias). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "caso João venha a se desfiliar de Alfa, partido político pelo qual foi eleito, a consequência será a perda do...".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "como Alfa não preencheu a cláusula constitucional de desempenho, João poderá se desfiliar sem perda do mandato". De acordo com a teoria estudada em *1.2 Vedações Constitucionais Federativas (Art. 19)*, recusar fé aos documentos públicos *(Eficácia probatória nacional dos documentos emitidos por órgãos oficiais)*.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "a desfiliação de Alfa, com a correlata filiação de Beta, somente será admitida na hipótese de transferência...". De acordo com a teoria estudada em *1.1 Características da Federação Brasileira e Autonomia dos Entes*, origem Histórica: Formou-se por desagregação (ou segregação), decorrente de um movimento centrífugo (o Estado unitário imperial descentralizou poderes políticos para as províncias que se transformaram em Estados-membros).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "João, a exemplo dos demais parlamentares, pode se desfiliar do respectivo partido político nos sessenta dias...". De acordo com a teoria estudada em *1.1 Características da Federação Brasileira e Autonomia dos Entes*, indissolubilidade do Vínculo Federativo: Não existe o direito de secessão (nenhum Estado ou Município pode se separar do Brasil).
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "João apenas poderá se desfiliar de Alfa caso o partido político também não tenha obtido 3% dos votos válidos na...". De acordo com a teoria estudada em *1.1 Características da Federação Brasileira e Autonomia dos Entes*, a República Federativa do Brasil é formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal (Art. 18, *caput*).
 >
-> **Gabarito: C**
+> **Gabarito: A**
+
+---
 
 ### Teste 142
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A estabilidade no serviço público é direito constitucional assegurado aos servidores nomeados para cargo de provimento efetivo em virtude de concurso público. A respeito da extinção do cargo ou declaração de sua desnecessidade, é correto afirmar:
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Direito – 2026)**
+A sociedade empresária Transporta 100% Ltda., com sede no Município Alfa, no ano de 2026, prestou serviço de transporte de 20 toneladas de feijão do Município Beta para o Município Gama. A mercadoria foi entregue sem avarias e integralmente ao destinatário constante no documento fiscal no Município Gama, a saber, a sociedade empresária Recebe 100% Ltda., que tem sua sede no Município Delta. Todos os quatro municípios se situam no mesmo estado da federação. Considerando as regras da Lei Complementar (LC) nº 214/2025 acerca do Imposto sobre Bens e Serviços (IBS), assinale a opção que indica corretamente o local onde se considera realizada essa operação de serviço de transporte de carga para efeitos de IBS:
 
-* **A)** O servidor estável cujo cargo for extinto será sumariamente demitido do serviço público com indenização pecuniária.
-* **B)** Extinto o cargo ou declarada sua desnecessidade, o estável ficará em disponibilidade com remuneração proporcional ao tempo.
-* **C)** O servidor em disponibilidade não poderá ser aproveitado em outro cargo mesmo que apresente atribuições compatíveis.
-* **D)** A remuneração do servidor em disponibilidade é integral e calculada sempre com base no subsídio do cargo em comissão.
-* **E)** O retorno do servidor estável ao serviço ativo por reintegração independe de anulação formal da demissão anterior.
+* **A)** Município Alfa, por ser o local da sede de Transporta 100% Ltda.
+* **B)** Município Beta, por ser o local de início do transporte.
+* **C)** Município Gama, por ser o local da entrega do bem ao destinatário constante no documento fiscal.
+* **D)** Município Delta, por ser o local da sede de Recebe 100% Ltda.
+* **E)** Qualquer um dos quatro municípios, deixando a LC nº 214/2025 à escolha do sujeito passivo tributário.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A extinção do cargo de servidor estável não autoriza demissão sumária. O servidor é amparado pelo instituto da disponibilidade remunerada.
-> - **B)** **Correto**. Nos termos precisos do art. 41, § 3º, da Constituição Federal: "Extinto o cargo ou declarada a sua desnecessidade, o servidor estável ficará em disponibilidade, com remuneração proporcional ao tempo de serviço, até seu adequado aproveitamento em outro cargo".
-> - **C)** **Incorreto**. O servidor em disponibilidade tem o dever de ser aproveitado em cargo de atribuições e vencimentos compatíveis tão logo surja vaga.
-> - **D)** **Incorreto**. A remuneração na disponibilidade é proporcional ao tempo de contribuição/serviço, e não integral.
-> - **E)** **Incorreto**. A reintegração pressupõe necessariamente a invalidação (administrativa ou judicial) do ato de demissão anterior.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Município Alfa, por ser o local da sede de Transporta 100% Ltda". De acordo com a teoria estudada em *1.3 Bens Públicos Constitucionais e Criação de Novos Entes*, criação de Municípios (Art. 18, § 4º): Depende de Lei Complementar Federal (definindo o período temporal), divulgação prévia dos Estudos de Viabilidade Municipal, consulta prévia por plebiscito às populações dos municípios envolvidos e promulgação de Lei Ordinária Estadual.
+> - **B)** **Correta.** Conforme fundamentado na seção *1.1 Características da Federação Brasileira e Autonomia dos Entes* deste guia, indissolubilidade do Vínculo Federativo: Não existe o direito de secessão (nenhum Estado ou Município pode se separar do Brasil). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "Município Beta, por ser o local de início do transporte".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Município Gama, por ser o local da entrega do bem ao destinatário constante no documento fiscal". De acordo com a teoria estudada em *1.3 Bens Públicos Constitucionais e Criação de Novos Entes*, criação de Estados (Art. 18, § 3º): Exige aprovação da população diretamente interessada por meio de plebiscito e edição de Lei Complementar Federal pelo Congresso Nacional.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Município Delta, por ser o local da sede de Recebe 100% Ltda". De acordo com a teoria estudada em *1.1 Características da Federação Brasileira e Autonomia dos Entes*, a República Federativa do Brasil é formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal (Art. 18, *caput*).
+> - **E)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "Qualquer um dos quatro municípios, deixando a LC nº 214/2025 à escolha do sujeito passivo tributário". De acordo com a teoria estudada em *1.1 Características da Federação Brasileira e Autonomia dos Entes*, a Autonomia é outorgada aos entes federados (União, Estados, DF e Municípios), manifestando-se pela tríplice capacidade de auto-organização (Constituições e Leis Orgânicas), autogoverno (eleição de chefes dos poderes) e autoadministração (gestão e tributação próprias).
 >
 > **Gabarito: B**
+
+---
 

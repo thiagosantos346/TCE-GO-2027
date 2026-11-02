@@ -86,51 +86,50 @@ flowchart TD
 ---
 
 ### Teste 380
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Determinada entidade governamental realizou o diagnóstico de seu ambiente por meio da matriz SWOT cruzada. A equipe constatou a existência concomitante de graves fragilidades operacionais internas (sistemas obsoletos e déficit crônico de servidores) associadas a um ambiente externo marcado por severas restrições orçamentárias impostas por lei e risco iminente de descontinuidade de convênios. Diante desse cenário de predomínio de fraquezas internas e ameaças externas, a postura estratégica recomendada pela teoria da administração é a:
+**(FGV – TJ-RR – Analista Judiciario Gestao e Governanca de Tecnologia da Informacao – 2024)**
+Considerando conceitos de gestão de projetos (PMBOK 7ª Edição), analise as afirmativas a seguir. I. Um risco é um evento ou condição incerta que, caso ocorra, causará um efeito positivo ou negativo a um ou mais objetivos do projeto. II. Cinco estratégias podem ser consideradas para lidar com ameaças: evitar, escalar, transferir, mitigar e aceitar. III. Uma análise SWOT avalia as forças, fraquezas, oportunidades e ameaças de uma organização, projeto ou opção. Está correto o que se afirma em
 
-* **A)** Postura de Alavancagem ou Ofensiva.
-* **B)** Postura de Sobrevivência.
-* **C)** Postura de Expansão Acelerada de Mercados.
-* **D)** Postura de Liderança em Diferenciação de Marca.
-* **E)** Postura de Reforço Baseada em Vantagem Sustentável.
-
-
----
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** A postura ofensiva/alavancagem ocorre no quadrante Forças + Oportunidades.  
-> - **B) CORRETA.** No cruzamento da matriz SWOT, quando uma instituição acumula **Fraquezas internas** diante de **Ameaças externas graves** (quadrante WT), a estratégia mandatória é a **Postura de Sobrevivência**, caracterizada pela contenção drástica de despesas, eliminação de desperdícios, redução de escopo e reestruturação para evitar o colapso operacional da organização.  
-> - **C) Incorreta.** Expansão é postura ofensiva para momentos favoráveis.  
-> - **D) Incorreta.** Diferenciação é estratégia de posicionamento mercadológico de Porter.  
-> - **E) Incorreta.** O momento é de mitigação extrema de riscos, e não de sustentação de vantagem.  
-> 
-> **Gabarito: B**
-
----
-
-### Teste 381
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na Análise SWOT Cruzada (Matriz FOFA), o confronto entre o ambiente interno (Forças e Fraquezas) e o ambiente externo (Oportunidades e Ameaças) permite delinear posturas estratégicas fundamentais para a organização.
-
-A postura estratégica recomendada quando a organização diagnostica um cenário caracterizado predominantemente pelo cruzamento entre **Fraquezas Internas** e **Ameaças Externas** é a postura de:
-
-* **A)** Sobrevivência (ou Defensiva), visando reduzir danos, conter prejuízos e desinvestir em áreas críticas inviabilizadas.
-* **B)** Desenvolvimento (ou Alavancagem agressiva), priorizando a expansão maciça de novos serviços e instalações.
-* **C)** Domínio Monopolista irrestrito de mercado.
-* **D)** Crescimento acelerado por meio de fusões estatais corporativas.
-* **E)** Terceirização integral das atividades exclusivas de Estado.
-
+* **A)** I, apenas.
+* **B)** II, apenas.
+* **C)** III, apenas.
+* **D)** I e II, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. As quatro posturas da matriz SWOT cruzada: (1) **Forças + Oportunidades**: Desenvolvimento / Alavancagem; (2) **Forças + Ameaças**: Manutenção / Proteção; (3) **Fraquezas + Oportunidades**: Crescimento / Mudança de Rumo; (4) **Fraquezas + Ameaças**: **Sobrevivência** (situação de vulnerabilidade extrema, exigindo contenção de despesas, enxugamento de custos, alienação de ativos e redução de danos).
-> - **B), C), D), E)** Incorretas. Incompatíveis com a combinação de fraquezas e ameaças.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *1. Análise SWOT Cruzada (FOFA) e as Quatro Posturas Estratégicas*, a análise SWOT (acrônimo para *Strengths, Weaknesses, Opportunities e Threats* / Matriz FOFA em português) combina as variáveis do ambiente interno e externo para subsidiar a escolha da postura estratégica mais adequada.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas". De acordo com a teoria estudada em *Tabela Analítica das Quatro Posturas Estratégicas:*, reorientação / Reforço: Fraquezas + Oportunidades — O ambiente externo é favorável, mas a organização possui carências internas que limitam seu aproveitamento. — Capacitação de pessoal, reestruturação de processos e correção de deficiências.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III, apenas". De acordo com a teoria estudada em *Tabela Analítica das Quatro Posturas Estratégicas:*, alavancagem / Ofensiva: Forças + Oportunidades — A organização é sólida internamente e o ambiente externo abre oportunidades vantajosas. — Expansão de atuação, modernização tecnológica e consolidação de liderança.
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *Tabela Analítica das Quatro Posturas Estratégicas:*, sobrevivência: Fraquezas + Ameaças — Situação crítica: a instituição acumula vulnerabilidades internas sob severas pressões e ameaças externas. — Contenção extrema de despesas, enxugamento de rotinas e abandono de ações secundárias.
+> - **E)** **Correta.** Conforme fundamentado na seção *Tabela Analítica das Quatro Posturas Estratégicas:* deste guia, no cruzamento SWOT, a postura de sobrevivência decorre da convergência entre Fraquezas internas predominantes e Ameaças externas graves, demandando corte imediato de gastos, redução de projetos e contenção rigorosa de danos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-RR/2024) ao estabelecer que "I, II e III".
+>
+> **Gabarito: E**
+
+---
+
+### Teste 381
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Administracao – 2024)**
+Os modelos estratégicos são ferramentas que auxiliam as organizações na análise, planejamento e implementação de estratégias eficazes. Modelos como SWOT, Análise PESTEL e as Cinco Forças de Porter ajudam a entender o contexto competitivo e as oportunidades. Assinale a opção que avalia as oportunidades oferecidas pelo ambiente.
+
+* **A)** Benchmarking.
+* **B)** Brainstorming.
+* **C)** PESTEL.
+* **D)** SWOT.
+* **E)** Matriz GUT.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Benchmarking". De acordo com a teoria estudada em *Tabela Analítica das Quatro Posturas Estratégicas:*, no cruzamento SWOT, a postura de sobrevivência decorre da convergência entre Fraquezas internas predominantes e Ameaças externas graves, demandando corte imediato de gastos, redução de projetos e contenção rigorosa de danos.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Brainstorming". De acordo com a teoria estudada em *3. A Visão Baseada em Recursos (RBV) e o Framework VRIO (Jay Barney)*, ao contrário dos modelos que olham prioritariamente para o mercado exterior (como Porter), a Visão Baseada em Recursos (RBV - *Resource-Based View*) sustenta que a fonte de vantagem competitiva sustentada e de desempenho superior das organizações reside em seu ambiente interno: nos recursos e capacidades que a organização possui e controla.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "PESTEL". De acordo com a teoria estudada em *Tabela Analítica das Quatro Posturas Estratégicas:*, nÃO! Isso é uma FORÇA (ambiente interno controlável)! Oportunidades são eventos estritamente externos que o órgão não controla (ex.: aprovação de linha federal de crédito para modernização ou surgimento de novas ferramentas abertas de IA).
+> - **D)** **Correta.** Conforme fundamentado na seção *1. Análise SWOT Cruzada (FOFA) e as Quatro Posturas Estratégicas* deste guia, a análise SWOT (acrônimo para *Strengths, Weaknesses, Opportunities e Threats* / Matriz FOFA em português) combina as variáveis do ambiente interno e externo para subsidiar a escolha da postura estratégica mais adequada. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "SWOT".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Matriz GUT". De acordo com a teoria estudada em *Tabela Analítica das Quatro Posturas Estratégicas:*, alavancagem / Ofensiva: Forças + Oportunidades — A organização é sólida internamente e o ambiente externo abre oportunidades vantajosas. — Expansão de atuação, modernização tecnológica e consolidação de liderança.
+>
+> **Gabarito: D**
 
 ---
 
@@ -161,30 +160,28 @@ flowchart TD
 ---
 
 ### Teste 382
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-De acordo com o modelo de análise das Cinco Forças Competitivas desenvolvido por Michael Porter, a intensidade com que novas empresas ou organizações ameaçam ingressar em determinado setor de atividade econômica é contida fundamentalmente pela presença de:
+**(FGV – TRT-1 – Analista Judiciario Area Administrativa – 2024)**
+Dora é gestora de uma empresa de produtos de beleza que iniciou suas atividades há três anos e encontra-se em fase de expansão, conquistando espaço no mercado. Ela quer adotar o balanced scorecard e está especialmente atenta à perspectiva financeira, nos seguintes temas estratégicos: crescimento e mix de receita; e redução de custos/melhoria de produtividade. Tendo em vista a fase em que a empresa se encontra, são indicadores adequados para os temas estratégicos citados, respectivamente:
 
-* **A)** Barreiras à entrada, tais como economias de escala consolidadas e elevados requisitos de capital inicial.
-* **B)** Alta rivalidade interna e ausência de regulamentação governamental setorial.
-* **C)** Facilidade de acesso aos canais de distribuição tradicionais pelos recém-chegados.
-* **D)** Baixo custo de mudança (*switching costs*) suportado pelos consumidores ao migrarem de fornecedor.
-* **E)** Existência de produtos substitutos com preços significativamente menores no mercado.
-
+* **A)** taxa de vendas por segmento; receita por funcionário;
+* **B)** lucratividade por cliente; taxa de utilização dos ativos;
+* **C)** investimentos como percentual de vendas; custo unitário de produção;
+* **D)** percentual da receita gerado por novos produtos; índices de capital de giro;
+* **E)** lucratividade por linha de produto; retorno sobre o patrimônio líquido.
 
 ---
 
-> **Comentário Detalhado:**  
+> **Comentário Detalhado:**
 >
-> - **A) CORRETA.** Segundo Michael Porter, a ameaça de novos concorrentes entrantes é diretamente atenuada pela existência de **barreiras à entrada**, que elevam os custos e riscos para quem deseja entrar no setor (ex.: economias de escala dos incumbentes, diferenciação de marcas, altos requisitos de investimento de capital, acesso restrito aos canais de distribuição e regulação pública).  
-> - **B) Incorreta.** Alta rivalidade é outra força competitiva; a ausência de barreiras facilita o ingresso.  
-> - **C) Incorreta.** Se os canais são de fácil acesso, a barreira é baixa, o que estimula a entrada de novos concorrentes.  
-> - **D) Incorreta.** Baixo custo de mudança (*switching costs*) estimula o consumidor a trocar de empresa, fragilizando a barreira.  
-> - **E) Incorreta.** A ameaça de produtos substitutos é a quinta força do modelo de Porter, não se confundindo com as barreiras à entrada de concorrentes no mesmo setor.  
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "taxa de vendas por segmento; receita por funcionário". De acordo com a teoria estudada em *As Três Estratégias Genéricas de Michael Porter:*, enfoque / Foco: A organização canaliza seus esforços para atender de forma estrita e especializada a um nicho de mercado específico, aplicando ou a liderança em custo ou a diferenciação restrita àquele segmento.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "lucratividade por cliente; taxa de utilização dos ativos". De acordo com a teoria estudada em *As Cinco Forças Competitivas:*, custos de mudança (*switching costs*) incorridos pelo cliente ao trocar de marca.
+> - **C)** **Correta.** Conforme fundamentado na seção *As Três Estratégias Genéricas de Michael Porter:* deste guia, liderança em Custo Total: A organização estrutura-se para produzir e operar com o menor custo unitário da indústria, valendo-se de economias de escala, rígido controle de despesas e processos padronizados. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-1/2024) ao estabelecer que "investimentos como percentual de vendas; custo unitário de produção".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "percentual da receita gerado por novos produtos; índices de capital de giro". De acordo com a teoria estudada em *As Três Estratégias Genéricas de Michael Porter:*, diferenciação: A organização busca criar produtos ou serviços percebidos no mercado como singulares, únicos e de qualidade superior, conquistando fidelidade à marca e viabilizando a cobrança de um preço superior (*premium price*).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "lucratividade por linha de produto; retorno sobre o patrimônio líquido". De acordo com a teoria estudada em *As Cinco Forças Competitivas:*, ameaça de Produtos Substitutos: Produtos ou serviços oriundos de outros setores/indústrias que desempenham a mesma função básica a um custo inferior ou com maior conveniência para o usuário.
+>
+> **Gabarito: C**
 
 ---
-
 
 #### As Três Estratégias Genéricas de Michael Porter:
 * **Liderança em Custo Total:** A organização estrutura-se para produzir e operar com o menor custo unitário da indústria, valendo-se de economias de escala, rígido controle de despesas e processos padronizados.
@@ -197,53 +194,49 @@ De acordo com o modelo de análise das Cinco Forças Competitivas desenvolvido p
 ---
 
 ### Teste 383
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No modelo das Estratégias Genéricas formulado por Michael Porter, a organização que opta por desenvolver serviços ou produtos com atributos peculiares e exclusivos, fortemente reconhecidos pelo público-alvo pela sua excelência técnica, design inovador e credibilidade institucional, cobra preços diferenciados e busca fidelizar seus usuários, adota a estratégia genérica de:
+**(FUMARC – TRT-3 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2022)**
+26 Considere o trecho de código abaixo escrito na linguagem Python 3.x e a saída desejada a seguir: CÓDIGO PYTHON SAÍDA DESEJADA itens = ['item1', 'item2', 'item3'] precos = [3.50, 4.0, 5.80] # código para gerar o dicionario produtos ................. # fim do código print(produtos) {'item1': 3.5, 'item2': 4.0, 'item3': 5.8} Assinale a alternativa que irá substituir o trecho “.................” com o código Python que irá executar corretamente para produzir a saída desejada:
 
-* **A)** Liderança em Custo Total.
-* **B)** Diferenciação.
-* **C)** Desinvestimento Operacional.
-* **D)** Conglomerado Diversificado.
-* **E)** Paridade Tecnológica Compulsória.
-
-
----
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** Liderança em custos busca operar com o menor custo unitário de produção da indústria com base em economias de escala.  
-> - **B) CORRETA.** A estratégia genérica de **Diferenciação** baseia-se na criação de um produto ou serviço percebido pelo mercado/usuário como exclusivo e singular em suas características, gerando lealdade à marca e permitindo que a organização cobre preços superiores (*preço premium*) ou atinja alto reconhecimento público.  
-> - **C) Incorreta.** Desinvestimento é manobra de redução de ativos, e não estratégia competitiva genérica.  
-> - **D) Incorreta.** Conglomerado é forma societária de diversificação corporativa.  
-> - **E) Incorreta.** Categoria inexistente na taxonomia de Porter.  
-> 
-> **Gabarito: B**
-
----
-
-### Teste 384
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Michael Porter formulou o célebre modelo das Cinco Forças Competitivas que determinam a atratividade e o nível de rentabilidade de uma indústria.
-
-São forças competitivas integrantes do modelo original de Porter:
-
-* **A)** Rivalidade entre os concorrentes existentes, Ameaça de novos entrantes, Poder de barganha dos compradores (clientes), Poder de barganha dos fornecedores e Ameaça de produtos ou serviços substitutos.
-* **B)** Poder Judiciário, Poder Executivo, Poder Legislativo, Ministério Público e Tribunal de Contas.
-* **C)** Gravidade, Urgência, Tendência, Capacidade Operacional e Risco Jurídico.
-* **D)** Inflação, Taxa Selic, Produto Interno Bruto, Balança Comercial e Dívida Soberana.
-* **E)** Hardware, Software, Peopleware, Sistemas de Redes e Dados na Nuvem.
-
+* **A)** produtos = {} for x in itens: for y in precos: produtos[x] = y
+* **B)** produtos = {} for x in itens: for y in precos: produtos.update( { x : y })
+* **C)** produtos = {} for x,y in zip(itens,precos): produtos.add(x[y])
+* **D)** produtos = { x:y for x,y in zip(itens,precos) }
+* **E)** produtos = {} for x,y in zip(itens,precos): produtos[y] = x
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. As **Cinco Forças de Porter**: (1) Rivalidade entre concorrentes existentes; (2) Ameaça de novos concorrentes entrantes; (3) Poder de barganha dos clientes/compradores; (4) Poder de barganha dos fornecedores; (5) Ameaça de produtos/serviços substitutos.
-> - **B)** Incorreta. Estrutura institucional dos Poderes estatais.
-> - **C)** Incorreta. Elementos da Matriz GUT.
-> - **D)** Incorreta. Indicadores macroeconômicos do ambiente geral.
-> - **E)** Incorreta. Componentes de tecnologia da informação.
-> 
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "produtos = {} for x in itens: for y in precos: produtos[x] = y". De acordo com a teoria estudada em *As Cinco Forças Competitivas:*, poder de Barganha dos Fornecedores: Elevado quando os fornecedores operam em mercado concentrado, o insumo fornecido é exclusivo ou crítico e inexistem produtos substitutos no mercado.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "produtos = {} for x in itens: for y in precos: produtos.update( { x : y })". De acordo com a teoria estudada em *As Cinco Forças Competitivas:*, ameaça de Produtos Substitutos: Produtos ou serviços oriundos de outros setores/indústrias que desempenham a mesma função básica a um custo inferior ou com maior conveniência para o usuário.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "produtos = {} for x,y in zip(itens,precos): produtos.add(x[y])". De acordo com a teoria estudada em *As Três Estratégias Genéricas de Michael Porter:*, diferenciação: A organização busca criar produtos ou serviços percebidos no mercado como singulares, únicos e de qualidade superior, conquistando fidelidade à marca e viabilizando a cobrança de um preço superior (*premium price*).
+> - **D)** **Correta.** Conforme fundamentado na seção *As Cinco Forças Competitivas:* deste guia, poder de Barganha dos Compradores (Clientes): Alto quando os clientes compram em grandes volumes, os produtos oferecidos são padronizados/comoditizados e os custos de migração para outra empresa são insignificantes. Dessa forma, está plenamente correta a assertiva da banca (FUMARC – TRT-3/2022) ao estabelecer que "produtos = { x:y for x,y in zip(itens,precos) }".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "produtos = {} for x,y in zip(itens,precos): produtos[y] = x". De acordo com a teoria estudada em *As Três Estratégias Genéricas de Michael Porter:*, cuidado: produtos substitutos na visão de Porter NÃO SÃO produtos de concorrentes diretos da mesma indústria (ex.: Pepsi e Coca-Cola são concorrentes diretos no setor de refrigerantes).
+>
+> **Gabarito: D**
+
+---
+
+### Teste 384
+**(FGV – TJ-SC – Analista Administrativo – 2026)**
+A empresa ABC tem investido em marketing de recrutamento para aumentar a atratividade e a visibilidade de sua marca como empregadora. A área de Gestão de Pessoas organizou os fatores de atratividade da organização em três grupos: intrínsecos, extrínsecos e eventuais. Relacione cada fator de atratividade a seguir ao respectivo grupo. Grupo Fator de atratividade 1. Intrínseco ( ) Employer branding, isto é, a marca, a imagem e a reputação da empresa. 2. Extrínseco ( ) Programa de jovem aprendiz. 3. Eventual ( ) Oferta de composição de remuneração total (Total Compensation). ( ) Política de desenvolvimento profissional e de carreira na organização ou mesmo fora dela. Assinale a opção que indica a relação correta, na ordem apresentada.
+
+* **A)** 1 – 2 – 3 – 1.
+* **B)** 2 – 3 – 1 – 1.
+* **C)** 3 – 2 – 1 – 2.
+* **D)** 2 – 1 – 3 – 3.
+* **E)** 1 – 3 – 2 – 2.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *As Três Estratégias Genéricas de Michael Porter:* deste guia, liderança em Custo Total: A organização estrutura-se para produzir e operar com o menor custo unitário da indústria, valendo-se de economias de escala, rígido controle de despesas e processos padronizados. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-SC/2026) ao estabelecer que "1 – 2 – 3 – 1".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2 – 3 – 1 – 1". De acordo com a teoria estudada em *As Três Estratégias Genéricas de Michael Porter:*, diferenciação: A organização busca criar produtos ou serviços percebidos no mercado como singulares, únicos e de qualidade superior, conquistando fidelidade à marca e viabilizando a cobrança de um preço superior (*premium price*).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3 – 2 – 1 – 2". De acordo com a teoria estudada em *2. O Modelo das Cinco Forças e as Estratégias Genéricas de Michael Porter*, michael Porter desenvolveu um clássico referencial para explicar como as forças estruturais de uma indústria determinam sua intensidade competitiva e seu nível de atratividade.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2 – 1 – 3 – 3". De acordo com a teoria estudada em *As Cinco Forças Competitivas:*, intensificada por fatores como: elevado número de concorrentes com forças semelhantes, lento crescimento do mercado, custos fixos altos e elevadas barreiras de saída (custos para abandonar o negócio).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1 – 3 – 2 – 2". De acordo com a teoria estudada em *As Cinco Forças Competitivas:*, poder de Barganha dos Compradores (Clientes): Alto quando os clientes compram em grandes volumes, os produtos oferecidos são padronizados/comoditizados e os custos de migração para outra empresa são insignificantes.
+>
 > **Gabarito: A**
 
 ---
@@ -291,52 +284,50 @@ flowchart TD
 ---
 
 ### Teste 385
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Segundo a Visão Baseada em Recursos (RBV) e o modelo conceitual VRIO formulado por Jay Barney, um recurso organizacional que seja considerado valioso pela organização e raro no seu mercado de atuação, porém passível de imitação a baixo custo pelos demais concorrentes, proporciona à entidade:
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Administracao – 2024)**
+Os principais fatores de atratividade organizacional são elementos que tornam uma organização atraente para potenciais colaboradores. Assinale a opção que apresenta um fator de atratividade organizacional intrínseco.
 
-* **A)** Desvantagem competitiva prolongada.
-* **B)** Vantagem competitiva temporária.
-* **C)** Vantagem competitiva sustentável.
-* **D)** Paridade competitiva definitiva.
-* **E)** Ineficiência operacional estrutural.
-
-
----
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** Como o recurso é valioso e raro, a empresa obtém diferencial positivo, e não desvantagem.  
-> - **B) CORRETA.** No framework VRIO:  
->     - Recurso Valioso, mas não Raro $\rightarrow$ Paridade Competitiva;  
->     - Recurso Valioso e Raro, mas **Imitável (fácil de copiar)** $\rightarrow$ **Vantagem Competitiva Temporária**, visto que logo os rivais conseguirão reproduzi-lo, extinguindo o diferencial inicial.  
->     - Apenas se for Inimitável e sustentado pela Organização é que se alcança a **Vantagem Competitiva Sustentável**.  
-> - **C) Incorreta.** A sustentabilidade requer obrigatoriamente que o recurso seja inimitável.  
-> - **D) Incorreta.** Paridade ocorre quando o recurso não é raro.  
-> - **E) Incorreta.** Não guarda pertinência com ineficiência estrutural.  
-> 
-> **Gabarito: B**
-
----
-
-### Teste 386
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na Visão Baseada em Recursos (RBV - *Resource-Based View*) e no framework **VRIO** desenvolvido por Jay Barney, para que um recurso interno gere uma **Vantagem Competitiva Sustentável** de longo prazo para a organização, ele deve preencher cumulativamente os quatro requisitos:
-
-* **A)** Ser Valioso (V), Raro (R), Difícil de Imitar/Inimitável (I) e a organização estar Organizada (O) para explorá-lo plenamente.
-* **B)** Ser Volátil, Razoável, Imediato e Onipresente.
-* **C)** Ser Vigoroso, Regular, Inflexível e Oneroso.
-* **D)** Ter Vencimento anual, Restrição orçamentária, Isenção tributária e Opção de resgate.
-* **E)** Ter Valor monetário alto, Rapidez de liquidação, Inscrição em dívida ativa e Ordem bancária emitida.
-
+* **A)** Serviços exemplares.
+* **B)** Boas práticas de gestão.
+* **C)** Nível de satisfação da opinião pública.
+* **D)** Marca da organização.
+* **E)** Oferta de salário.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. O modelo **VRIO** de Jay Barney estabelece que um recurso/capacidade gera vantagem sustentável quando é: **Valioso** (permite explorar oportunidades ou neutralizar ameaças); **Raro** (poucos concorrentes o possuem); **Inimitável / Imperfeitamente Imitável** (difícil e custoso de ser copiado ou substituído por concorrentes); e a instituição está **Organizada** (possui estrutura, governança e processos capazes de capturar esse potencial).
-> - **B), C), D), E)** Incorretas. Distorções arbitrárias sem qualquer respaldo na RBV.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Serviços exemplares". De acordo com a teoria estudada em *As Três Estratégias Genéricas de Michael Porter:*, diferenciação: A organização busca criar produtos ou serviços percebidos no mercado como singulares, únicos e de qualidade superior, conquistando fidelidade à marca e viabilizando a cobrança de um preço superior (*premium price*).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Boas práticas de gestão". De acordo com a teoria estudada em *4. O Business Model Canvas (Alexander Osterwalder)*, desenvolvido por Alexander Osterwalder e Yves Pigneur, o Business Model Canvas é uma ferramenta de gestão estratégica visual que sintetiza a arquitetura de negócios de uma instituição em um único painel composto por nove blocos interdependentes.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Nível de satisfação da opinião pública". De acordo com a teoria estudada em *2. O Modelo das Cinco Forças e as Estratégias Genéricas de Michael Porter*, michael Porter desenvolveu um clássico referencial para explicar como as forças estruturais de uma indústria determinam sua intensidade competitiva e seu nível de atratividade.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Marca da organização". De acordo com a teoria estudada em *Os Critérios do Framework VRIO:*, o - Organização: A instituição dispõe de desenho organizacional, sistemas de informação, liderança e governança estruturados para absorver e capitalizar plenamente o potencial desse recurso?.
+> - **E)** **Correta.** Conforme fundamentado na seção *Os Critérios do Framework VRIO:* deste guia, *Ambiguidade causal:* os competidores não conseguem decifrar exatamente qual fator específico causa o sucesso da organização. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "Oferta de salário".
+>
+> **Gabarito: E**
+
+---
+
+### Teste 386
+**(CEBRASPE – TJ-RJ – Analista Judiciario Grupo Tecnologia da Informacao Analista de Gestao de Tic – 2021)**
+Do trecho “e, quando esta se traduz pela abolição geral das grandes instituições docentes, isto é, pela hostilidade radical à inteligência do país nos focos mais altos de sua cultura, a estúpida selvageria dessa fórmula administrativa impressiona-me como o bramir de um oceano de barbaria ameaçando as fronteiras de nossa nacionalidade”, do texto CG1A1-II, infere-se que
+
+* **A)** os bárbaros atravessam os oceanos para bramir suas ameaças às fronteiras da nacionalidade.
+* **B)** a selvageria da fórmula administrativa que hostiliza as instituições docentes é uma barbaridade que ameaça as fronteiras da nacionalidade.
+* **C)** o bramir do oceano ameaça as fronteiras nacionais tanto quanto a selvageria estúpida das fórmulas administrativas que hostilizam a cultura nacional.
+* **D)** as instituições docentes são ameaçadas quando a selvageria da fórmula administrativa hostiliza as fronteiras da nacionalidade, admitindo a invasão estrangeira.
+* **E)** a hostilidade da fórmula administrativa aos focos mais elevados da cultura nacional é uma selvageria que ameaça a inteligência dos docentes do país, tal como a ameaça às
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os bárbaros atravessam os oceanos para bramir suas ameaças às fronteiras da nacionalidade". De acordo com a teoria estudada em *Tabela Analítica das Quatro Posturas Estratégicas:*, manutenção / Confronto: Forças + Ameaças — O órgão possui excelente capacidade interna, contudo enfrenta hostilidade ou riscos no ambiente externo. — Adoção de postura defensiva, preservação de competências essenciais e blindagem.
+> - **B)** **Correta.** Conforme fundamentado na seção *Os Critérios do Framework VRIO:* deste guia, v - Valor: O recurso permite à organização explorar uma oportunidade ambiental externa ou neutralizar uma ameaça?. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TJ-RJ/2021) ao estabelecer que "a selvageria da fórmula administrativa que hostiliza as instituições docentes é uma barbaridade que ameaça as...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o bramir do oceano ameaça as fronteiras nacionais tanto quanto a selvageria estúpida das fórmulas administrativas...". De acordo com a teoria estudada em *Os Critérios do Framework VRIO:*, *Complexidade social:* recursos enraizados em relações humanas, reputação, confiança mútua e cultura institucional.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as instituições docentes são ameaçadas quando a selvageria da fórmula administrativa hostiliza as fronteiras da...". De acordo com a teoria estudada em *As Cinco Forças Competitivas:*, ameaça de Novos Entrantes: Determinada pela solidez das barreiras à entrada, que representam dificuldades e custos impostos aos novatos, tais como.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a hostilidade da fórmula administrativa aos focos mais elevados da cultura nacional é uma selvageria que ameaça a...". De acordo com a teoria estudada em *1. Análise SWOT Cruzada (FOFA) e as Quatro Posturas Estratégicas*, a análise SWOT (acrônimo para *Strengths, Weaknesses, Opportunities e Threats* / Matriz FOFA em português) combina as variáveis do ambiente interno e externo para subsidiar a escolha da postura estratégica mais adequada.
+>
+> **Gabarito: B**
 
 ---
 
@@ -376,76 +367,74 @@ flowchart TD
 ---
 
 ### Teste 387
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A respeito da ferramenta Business Model Canvas desenvolvida por Alexander Osterwalder, assinale a opção correta:
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Gestao Governamental – 2024)**
+Uma Secretaria Municipal de Saúde levantou, durante a elaboração de seu planejamento estratégico, os seguintes fatores: I. Profissionais competentes e engajados. II. Dimensionamento inadequado das equipes. III. Equipe aderente à melhoria do processo. IV. Equipamentos modernos. V. Novas exigências pelo Ministério da Saúde como requisito para transferência de recursos de procedimentos não previstos. VI. Falta de estrutura física para expansão. VII. Dificuldade na integração entre sistemas de informação. VIII.Inovações tecnologias em saúde. IX. Contingenciamento orçamentário. X. Transferências da União por emenda parlamentar. Considerando a análise SWOT, assinale a afirmativa correta:
 
-* **A)** O bloco da Proposta de Valor descreve detalhadamente o organograma hierárquico e as linhas formais de subordinação funcional da empresa.
-* **B)** O bloco de Segmentos de Clientes situa-se no lado de infraestrutura interna (back-stage), ao lado da estrutura de custos e fornecedores.
-* **C)** O modelo Canvas é composto por nove blocos interdependentes que descrevem a lógica de como uma organização cria, entrega e captura valor perante seu público.
-* **D)** A ferramenta Canvas foi desenhada com a finalidade exclusiva de substituir as Demonstrações Contábeis Aplicadas ao Setor Público (DCASP).
-* **E)** O bloco das Parcerias Principais destina-se a mensurar os prazos cronológicos das tarefas críticas de projetos de curto prazo.
-
-
----
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** A Proposta de Valor define o conjunto de benefícios, produtos e soluções que resolvem o problema ou atendem à necessidade do cliente, sem tratar de organogramas internos.  
-> - **B) Incorreta.** Segmentos de Clientes integra o lado direito do Canvas (front-stage / mercado e clientes).  
-> - **C) CORRETA.** O **Business Model Canvas** é uma metodologia visual consagrada dividida em **nove blocos essenciais** (Proposta de Valor, Segmentos de Clientes, Canais, Relacionamento com Clientes, Fontes de Receita, Recursos Principais, Atividades-Chave, Parcerias Principais e Estrutura de Custos), concebida para mapear de forma sistêmica como a entidade gera, entrega e captura valor.  
-> - **D) Incorreta.** O Canvas é ferramenta de modelagem estratégica e de negócios, não tendo natureza de demonstrativo contábil.  
-> - **E) Incorreta.** Parcerias Principais mapeia a rede de fornecedores, aliados e parceiros estratégicos que viabilizam o funcionamento da instituição.  
-> 
-> **Gabarito: C**
-
----
-
-### Teste 388
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na modelagem inovadora de serviços e projetos públicos pelo *Business Model Canvas* (Alexander Osterwalder), o bloco que define como a instituição se comunica e entrega a sua proposta de valor aos diferentes segmentos de usuários e cidadãos é denominado:
-
-* **A)** Canais (de Comunicação, Distribuição e Acesso).
-* **B)** Estrutura de Custos.
-* **C)** Fluxo de Receitas.
-* **D)** Recursos Principais.
-* **E)** Parcerias-Chave.
-
+* **A)** Os fatores III, VIII e X são oportunidades.
+* **B)** Os fatores II, V e IX são ameaças.
+* **C)** Os fatores I, IV e VIII são forças.
+* **D)** Os fatores II, VI e IX são fraquezas.
+* **E)** Os fatores V, VI e X são ameaças.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. No **Canvas**: os **Canais** descrevem os pontos de contato e os meios pelos quais a organização se comunica com os usuários e entrega sua proposta de valor (ex.: atendimento presencial, portal eletrônico na internet, aplicativo móvel, ouvidoria, diário oficial).
-> - **B)** Incorreta. Custos reúne as principais despesas de operação.
-> - **C)** Incorreta. Fontes de receita descreve a monetização ou ingressos orçamentários.
-> - **D)** Incorreta. Recursos principais são os ativos humanos, físicos e tecnológicos essenciais.
-> - **E)** Incorreta. Parcerias-chave são a rede de colaboradores e fornecedores externos.
-> 
+> - **A)** **Correta.** Conforme fundamentado na seção *As Cinco Forças Competitivas:* deste guia, intensificada por fatores como: elevado número de concorrentes com forças semelhantes, lento crescimento do mercado, custos fixos altos e elevadas barreiras de saída (custos para abandonar o negócio). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "Os fatores III, VIII e X são oportunidades".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os fatores II, V e IX são ameaças". De acordo com a teoria estudada em *Tabela Analítica das Quatro Posturas Estratégicas:*, alavancagem / Ofensiva: Forças + Oportunidades — A organização é sólida internamente e o ambiente externo abre oportunidades vantajosas. — Expansão de atuação, modernização tecnológica e consolidação de liderança.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os fatores I, IV e VIII são forças". De acordo com a teoria estudada em *Tabela Analítica das Quatro Posturas Estratégicas:*, nÃO! Isso é uma FORÇA (ambiente interno controlável)! Oportunidades são eventos estritamente externos que o órgão não controla (ex.: aprovação de linha federal de crédito para modernização ou surgimento de novas ferramentas abertas de IA).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os fatores II, VI e IX são fraquezas". De acordo com a teoria estudada em *Tabela Analítica das Quatro Posturas Estratégicas:*, reorientação / Reforço: Fraquezas + Oportunidades — O ambiente externo é favorável, mas a organização possui carências internas que limitam seu aproveitamento. — Capacitação de pessoal, reestruturação de processos e correção de deficiências.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os fatores V, VI e X são ameaças". De acordo com a teoria estudada em *Tabela Analítica das Quatro Posturas Estratégicas:*, no cruzamento SWOT, a postura de sobrevivência decorre da convergência entre Fraquezas internas predominantes e Ameaças externas graves, demandando corte imediato de gastos, redução de projetos e contenção rigorosa de danos.
+>
+> **Gabarito: A**
+
+---
+
+### Teste 388
+**(FCC – TRT-11 – Analista Judiciario Tecnologia da Informacao – 2017)**
+Entende-se corretamente do trecho acima transcrito:
+
+* **A)** Em processo determinado pelo decurso da colonização, desapareceram nações indígenas que viviam ao longo do rio Amazonas e outros grupos de autóctones foram formados, em ato e efeito de aculturação.
+* **B)** O desaparecimento, em sentido étnico, caracteriza-se por despovoamento em larga escala e sucessivo e imediato repovoamento, este em patente escala bem menor do que se teve no povoamento primeiro.
+* **C)** Os exploradores quinhentistas e dos duzentos anos de vivência na região amazônica não foram competentes ao pesquisar o passado indígena, o que determinou graves equívocos na ocupação europeia.
+* **D)** A existência de um fenômeno demográfico e cultural que se desenvolveu de especial modo estendido, no tempo e no espaço, provocou mudanças relevantes no processo inicial de ocupação europeia na Amazônia.
+* **E)** A migração de certas nações indígenas que habitavam ao longo do rio Amazonas, em busca de melhores condições de sobrevivência, foi concomitante à migração de outros grupos para esse mesmo espaço.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *4. O Business Model Canvas (Alexander Osterwalder)* deste guia, parcerias Principais: A rede de cooperação interinstitucional (Ministério Público, Polícia Federal, universidades e outros Tribunais de Contas) que potencializa o alcance do órgão. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-11/2017) ao estabelecer que "Em processo determinado pelo decurso da colonização, desapareceram nações indígenas que viviam ao longo do rio...".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O desaparecimento, em sentido étnico, caracteriza-se por despovoamento em larga escala e sucessivo e imediato...". De acordo com a teoria estudada em *As Três Estratégias Genéricas de Michael Porter:*, liderança em Custo Total: A organização estrutura-se para produzir e operar com o menor custo unitário da indústria, valendo-se de economias de escala, rígido controle de despesas e processos padronizados.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os exploradores quinhentistas e dos duzentos anos de vivência na região amazônica não foram competentes ao...". De acordo com a teoria estudada em *Tabela Analítica das Quatro Posturas Estratégicas:*, no cruzamento SWOT, a postura de sobrevivência decorre da convergência entre Fraquezas internas predominantes e Ameaças externas graves, demandando corte imediato de gastos, redução de projetos e contenção rigorosa de danos.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A existência de um fenômeno demográfico e cultural que se desenvolveu de especial modo estendido, no tempo e no...". De acordo com a teoria estudada em *2. O Modelo das Cinco Forças e as Estratégias Genéricas de Michael Porter*, michael Porter desenvolveu um clássico referencial para explicar como as forças estruturais de uma indústria determinam sua intensidade competitiva e seu nível de atratividade.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A migração de certas nações indígenas que habitavam ao longo do rio Amazonas, em busca de melhores condições de...". De acordo com a teoria estudada em *Os Critérios do Framework VRIO:*, *Condições históricas únicas:* recursos desenvolvidos ao longo de trajetórias históricas irrepetíveis.
+>
 > **Gabarito: A**
 
 ---
 
 ### Teste 389
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Segundo as Estratégias Genéricas de Michael Porter, quando uma organização busca se destacar perante os usuários e a sociedade criando produtos ou serviços amplamente percebidos como únicos, de qualidade superior e com atributos exclusivos inigualáveis no setor, ela adota a estratégia de:
+**(FCC – TRT-16 – Analista Judiciario Tecnologia da Informacao – 2014)**
+Ao elaborar seus processos de planejamento, as organizações definem objetivos e deliberam estratégias com a finalidade de alcançá-los. Sobre as estratégias organizacionais é correto afirmar que há
 
-* **A)** Diferenciação.
-* **B)** Liderança em Custo Total.
-* **C)** Foco ou Enfoque em Custos Reduzidos.
-* **D)** Desinvestimento em Ativos Intangíveis.
-* **E)** Equalização Regressiva de Preços.
-
+* **A)** Estratégia Defensiva, utilizada por organizações que se encontram constantemente buscando oportunidades de mercado e regularmente estão experimentando responder tendências.
+* **B)** Estratégia Reativa, utilizada por organizações que operam em dois tipos de domínio de produto/mercado: um relacionamento estável e outro instável.
+* **C)** Estratégia Analítica, são aquelas cujos administradores percebem a ocorrência de mudanças e incertezas no ambiente, mas não possuem a habilidade necessária para responder eficazmente, carecendo de uma consistente relação estruturaestratégia.
+* **D)** Estratégia Exploradora, utilizada por organizações que possuem um estreito domínio de produto/mercado, não se preocupando com a busca de oportunidades fora do seu domínio atual.
+* **E)** Estratégia Defensiva, utilizada por organizações que raramente necessitam fazer grandes ajustes em sua tecnologia, em sua estrutura ou nos seus métodos de operação. Elas dedicam a sua maior atenção na constante melhora da eficiência das operações existentes.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Michael Porter descreve três estratégias genéricas: (1) **Liderança em Custo**: eficiência operacional para produzir ao menor custo da indústria; (2) **Diferenciação**: oferta de serviços/produtos percebidos como únicos e diferenciados pela inovação, marca e qualidade; (3) **Foco/Enfoque**: concentração em um nicho específico de mercado (por custo ou diferenciação).
-> - **B)** Incorreta. Liderança em custo foca no menor custo operacional possível.
-> - **C)** Incorreta. Foco em custos atende um nicho restrito pelo menor preço.
-> - **D), E)** Incorretas. Termos sem relação com o modelo porteriano.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Estratégia Defensiva, utilizada por organizações que se encontram constantemente buscando oportunidades de mercado...". De acordo com a teoria estudada em *3. A Visão Baseada em Recursos (RBV) e o Framework VRIO (Jay Barney)*, ao contrário dos modelos que olham prioritariamente para o mercado exterior (como Porter), a Visão Baseada em Recursos (RBV - *Resource-Based View*) sustenta que a fonte de vantagem competitiva sustentada e de desempenho superior das organizações reside em seu ambiente interno: nos recursos e capacidades que a organização possui e controla.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Estratégia Reativa, utilizada por organizações que operam em dois tipos de domínio de produto/mercado: um...". De acordo com a teoria estudada em *As Cinco Forças Competitivas:*, poder de Barganha dos Fornecedores: Elevado quando os fornecedores operam em mercado concentrado, o insumo fornecido é exclusivo ou crítico e inexistem produtos substitutos no mercado.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Estratégia Analítica, são aquelas cujos administradores percebem a ocorrência de mudanças e incertezas no...". De acordo com a teoria estudada em *Tabela Analítica das Quatro Posturas Estratégicas:*, manutenção / Confronto: Forças + Ameaças — O órgão possui excelente capacidade interna, contudo enfrenta hostilidade ou riscos no ambiente externo. — Adoção de postura defensiva, preservação de competências essenciais e blindagem.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Estratégia Exploradora, utilizada por organizações que possuem um estreito domínio de produto/mercado, não se...". De acordo com a teoria estudada em *3. A Visão Baseada em Recursos (RBV) e o Framework VRIO (Jay Barney)*, heterogeneidade de Recursos: As organizações possuem feixes de recursos e competências distintos entre si.
+> - **E)** **Correta.** Conforme fundamentado na seção *As Três Estratégias Genéricas de Michael Porter:* deste guia, liderança em Custo Total: A organização estrutura-se para produzir e operar com o menor custo unitário da indústria, valendo-se de economias de escala, rígido controle de despesas e processos padronizados. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-16/2014) ao estabelecer que "Estratégia Defensiva, utilizada por organizações que raramente necessitam fazer grandes ajustes em sua tecnologia...".
+>
+> **Gabarito: E**
 
 ---
 

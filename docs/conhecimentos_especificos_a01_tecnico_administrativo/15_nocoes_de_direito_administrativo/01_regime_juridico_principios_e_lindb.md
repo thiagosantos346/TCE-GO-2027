@@ -115,32 +115,29 @@ Sob o prisma **objetivo, material ou funcional**, a Administração Pública cor
 ---
 
 ### Teste 001
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere as afirmações abaixo, relativas ao conceito e sentidos da Administração Pública e de serviço público:
+**(FCC – TCE-GO – Analista de Controle Externo Gestao de Conhecimento – 2009)**
+Considere as afirmações abaixo, relativas ao conceito de serviço público: I. O conceito de serviço público varia no tempo e no espaço, cabendo a cada ordenamento jurídico definir quais são tais serviços. II. No Brasil, os serviços públicos são relacionados pela Constituição, embora haja espaço para a criação de novos serviços públicos por lei formal. III. O conceito estrito de serviço público inclui toda prestação de serviços pelos órgãos do Estado e entidades da Administração Indireta que possa gerar comodidade fruível pelos cidadãos, tais como justiça e segurança pública. Está correto o que se afirma APENAS em
 
-I. O conceito de serviço público é dinâmico e variável no tempo e no espaço, subordinado às contingências históricas e às necessidades da coletividade.  
-II. Apenas as atividades de prestação material de serviços de utilidade pública direta constituem a Administração em sentido objetivo ou funcional.  
-III. Em sentido estrito e subjetivo, integram a Administração Pública tão somente os órgãos e as entidades aos quais a lei atribui a função administrativa.
-
-Está correto o que se afirma em:
-
-* **A)** I e III, apenas.
-* **B)** II, apenas.
-* **C)** I e II, apenas.
-* **D)** I, apenas.
-* **E)** II e III, apenas.
+* **A)** I.
+* **B)** II.
+* **C)** I e II.
+* **D)** I e III.
+* **E)** II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correto**. O item I é exato, pois o conceito de serviço público é fluido e mutável conforme as demandas sociais e históricas. O item III é correto, pois no Brasil adotou-se o critério formal/subjetivo, segundo o qual a Administração em sentido subjetivo abrange estritamente os órgãos e entidades qualificados como tais pela ordem legal.
-> - **B)** **Incorreto**. A afirmação II é incorreta, pois a Administração em sentido objetivo compreende o fomento, a polícia administrativa e a intervenção, além do serviço público.
-> - **C)** **Incorreto**. O item II é falso pela restrição indevida do sentido objetivo.
-> - **D)** **Incorreto**. O item III também está correto, tornando a opção D incompleta.
-> - **E)** **Incorreto**. O item II é falso.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I". De acordo com a teoria estudada em *1.2 Sentido Objetivo, Material ou Funcional*, serviço Público: Prestação direta ou indireta de utilidades e comodidades materiais fruíveis individualmente pelos cidadãos (ex.: transporte coletivo, fornecimento de energia, saúde, saneamento básico).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II". De acordo com a teoria estudada em *1.3 Critérios Distintivos Adotados pela FCC*, composição: Pessoas jurídicas, órgãos e agentes públicos da Administração Direta e Indireta — Serviços públicos, polícia administrativa, fomento e intervenção.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.1 Sentido Subjetivo, Formal ou Orgânico* deste guia, no ordenamento brasileiro, adota-se o critério estritamente formal: integram a Administração Pública em sentido subjetivo exclusivamente os órgãos e entidades aos quais a lei confere tal condição (União, Estados, DF, Municípios, suas autarquias, fundações públicas, empresas públicas e sociedades de economia mista). Dessa forma, está plenamente correta a assertiva da banca (FCC – TCE-GO/2009) ao estabelecer que "I e II".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e III". De acordo com a teoria estudada em *3.5 Princípio da Eficiência (Emenda Constitucional nº 19/1998)*, *Desdobramentos Constitucionais Práticos:* Avaliação especial de desempenho para aquisição da estabilidade do servidor (art. 41, § 4º, CF); perda do cargo público por avaliação periódica de desempenho (art. 41, § 1º, III, CF); e fixação de metas de desempenho institucional mediante contratos de gestão (art. 37, § 8º, CF).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II e III". De acordo com a teoria estudada em *4.5 Princípio da Continuidade dos Serviços Públicos*, *Limites Legítimos de Suspensão (Lei nº 8.987/1995, art. 6º, § 3º):* O serviço pode ser suspenso após aviso prévio formal ao usuário por.
 >
-> **Gabarito: A**
+> **Gabarito: C**
+
+---
+
 ## 2. O Regime Jurídico-Administrativo e sua Bipolaridade Fundamental
 
 O **Regime Jurídico-Administrativo** é o conjunto harmônico de princípios e regras de Direito Público que colocam a Administração Pública em posição especial perante os administrados, conferindo-lhe prerrogativas extraordinárias, ao mesmo tempo em que lhe impõe severas restrições.
@@ -179,28 +176,29 @@ A jurisprudência do STF e do STJ acolhe expressamente a distinção doutrinári
 ---
 
 ### Teste 002
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Patrícia é proprietária de um imóvel urbano situado no Município Alfa. O Poder Público Municipal, com fundamento na supremacia do interesse público sobre o privado e na necessidade premente de ampliação da rede de saúde, decretou a utilidade pública do referido imóvel para fins de desapropriação. 
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Direito – 2026)**
+O Município Alfa celebrou contrato administrativo com a empresa Beta para exploração econômica de um imóvel urbano pertencente ao ente público, destinado à instalação de um centro cultural e comercial. O bem havia sido anteriormente usado como prédio administrativo, mas encontrava-se desativado há anos, sem destinação específica formalmente definida em lei. Durante a execução contratual, a empresa Beta ofereceu o imóvel em garantia hipotecária a uma instituição financeira e celebrou contratos de locação com terceiros. Posteriormente, o Município editou lei afetando formalmente o imóvel à prestação de serviço público cultural e os credores da empresa Beta tentaram penhorar o imóvel para satisfação de dívidas privadas. Diante da situação, à luz da disciplina dos bens públicos e sua circulação jurídica, assinale a afirmativa correta.
 
-Considerando os princípios que informam o regime jurídico-administrativo e o instituto da desapropriação, assinale a afirmativa correta.
-
-* **A)** A supremacia do interesse público justifica a prerrogativa expropriatória estatal, condicionada ao pagamento de justa e prévia indenização em dinheiro.
-* **B)** A indisponibilidade do interesse público autoriza o Município a apossar-se imediatamente do imóvel sem a observância do devido processo legal expropriatório.
-* **C)** A propriedade particular goza de tutela absoluta perante a Administração Pública, que não pode promover a desapropriação sem prévia anuência de Patrícia.
-* **D)** A supremacia do interesse público afasta a necessidade de motivação do ato expropriatório, constituindo ato administrativo de discricionariedade pura.
-* **E)** O princípio da legalidade impede a desapropriação de bens particulares por entidades municipais, prerrogativa privativa da União e dos Estados.
+* **A)** O imóvel, por não estar afetado a finalidade pública no momento da contratação, era bem dominical e, portanto, plenamente alienável, penhorável e passível de hipoteca pela empresa concessionária.
+* **B)** A ausência de afetação formal retira do bem sua natureza pública, permitindo sua livre circulação no comércio jurídico, inclusive por particulares.
+* **C)** A posterior afetação do bem à finalidade pública não altera os atos jurídicos anteriormente praticados, tornando válida a hipoteca constituída pela empresa Beta.
+* **D)** Ainda que dominical, o bem público permanece fora do comércio jurídico em sentido estrito, sendo insuscetível de penhora e de constituição de direitos reais por particulares sem autorização legal.
+* **E)** A tentativa de penhora é válida, pois o bem estava sob posse da empresa privada, o que o equipara a bem particular para fins de responsabilidade patrimonial.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correto**. A desapropriação é a manifestação clássica da supremacia do interesse público sobre o privado, outorgando ao Estado a prerrogativa de adquirir compulsoriamente a propriedade privada, desde que atendidos os requisitos constitucionais de utilidade pública ou interesse social e paga a prévia e justa indenização em dinheiro (art. 5º, XXIV, CF/88).
-> - **B)** **Incorreto**. A indisponibilidade vincula a Administração à estrita observância da legalidade e do devido processo legal, vedando o desapossamento arbitrário.
-> - **C)** **Incorreto**. O direito de propriedade não é absoluto, devendo cumprir sua função social e submeter-se à desapropriação.
-> - **D)** **Incorreto**. A desapropriação é ato formal e vinculado quanto à declaração de utilidade pública e motivação fática.
-> - **E)** **Incorreto**. Os Municípios possuem competência expressa para desapropriar bens em seu território (Dec.-Lei nº 3.365/1941, art. 2º).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O imóvel, por não estar afetado a finalidade pública no momento da contratação, era bem dominical e, portanto...". De acordo com a teoria estudada em *1.2 Sentido Objetivo, Material ou Funcional*, polícia Administrativa: Restrições e condicionamentos impostos a direitos e liberdades individuais e ao uso da propriedade privada em prol do bem-estar coletivo (ex.: fiscalização sanitária, ambiental, trânsito e posturas urbanas).
+> - **B)** **Correta.** Conforme fundamentado na seção *1.1 Sentido Subjetivo, Formal ou Orgânico* deste guia, particulares em colaboração com o poder público (concessionárias, permissionárias e organizações sociais) exercem atividade administrativa, mas não integram a Administração Pública em sentido formal. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "A ausência de afetação formal retira do bem sua natureza pública, permitindo sua livre circulação no comércio...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A posterior afetação do bem à finalidade pública não altera os atos jurídicos anteriormente praticados, tornando...". De acordo com a teoria estudada em *A Súmula Vinculante nº 13 do Supremo Tribunal Federal:*, contudo, a nomeação de parente para cargo político será considerada inválida pelo Judiciário/Tribunal de Contas se comprovada a manifesta ausência de qualificação técnica para a função ou caracterizado patente desvio de finalidade (fraude à lei).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Ainda que dominical, o bem público permanece fora do comércio jurídico em sentido estrito, sendo insuscetível de...". De acordo com a teoria estudada em *A Súmula Vinculante nº 13 do Supremo Tribunal Federal:*, *"A nomeação de cônjuge, companheiro ou parente em linha reta, colateral ou por afinidade, até o terceiro grau, inclusive, da autoridade nomeante ou de servidor da mesma pessoa jurídica investido em cargo de direção, chefia ou assessoramento, para o exercício de cargo em comissão ou de confiança ou, ainda, de função gratificada na administração pública direta e indireta em qualquer dos poderes da União, dos Estados, do Distrito Federal e dos Municípios, compreendido o ajuste mediante designações recíprocas (nepotismo cruzado), viola a Constituição Federal."*.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A tentativa de penhora é válida, pois o bem estava sob posse da empresa privada, o que o equipara a bem particular...". De acordo com a teoria estudada em *1.1 Sentido Subjetivo, Formal ou Orgânico*, sob o enfoque subjetivo, formal ou orgânico, a Administração Pública define o complexo estrutural de sujeitos de direito, órgãos e agentes encarregados pelo ordenamento de exercer a função administrativa.
 >
-> **Gabarito: A**
+> **Gabarito: B**
+
+---
+
 ## 3. Princípios Constitucionais Expressos (Art. 37, caput, CF/88 - LIMPE)
 
 O art. 37, *caput*, da Constituição Federal estabelece os cinco princípios expressos de observância obrigatória pela Administração Pública direta e indireta de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios:
@@ -269,68 +267,77 @@ A Administração pública está sujeita a princípios que conformam sua atuaç�
 >
 > **Gabarito: C**
 ### Teste 004
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O Prefeito de determinado município goiano autorizou a veiculação de campanha institucional sobre vacinação contendo seu nome, fotografia e slogan eleitoral. À luz do art. 37, § 1º, da Constituição Federal e da jurisprudência dos Tribunais de Contas:
+**(FCC – TRT-1 – Analista Judiciario Tecnologia da Informacao – 2014)**
+A Administração pública está sujeita a observância de normas e princípios, alguns expressos, outros implícitos. A instauração, instrução e decisão dos processos administrativos está sujeita a incidência de princípios, tendo a Lei no 9784/99 elencado, de forma expressa, mais princípios do que a Constituição Federal, no que concerne à atividade administrativa. Sobre a aplicação dos princípios mencionados nesses Diplomas, tem-se que
 
-* **A)** A conduta é lícita, pois a publicidade alcançou o objetivo informativo de saúde pública sem gastos extras.
-* **B)** Há violação expressa ao princípio da impessoalidade pela promoção pessoal com verba pública municipal.
-* **C)** Apenas o uso do slogan é vedado, sendo permitida a foto e o nome para identificação da autoridade local.
-* **D)** A publicidade é plenamente válida desde que o recurso financeiro utilizado pertença à verba de gabinete.
-* **E)** A caracterização da ilicitude exige prova pericial contábil de desvio pecuniário em proveito de terceiro.
+* **A)** os princípios do contraditório e da ampla defesa aplicam-se somente aos processos administrativos que tratem de apuração de infrações disciplinares, vez que punidas com sanções mais severas.
+* **B)** o princípio da segurança jurídica impede o exercício da competência discricionária pela Administração pública.
+* **C)** os princípios do interesse público e da eficiência admitem a derrogação de leis, quando houver meio jurídico mais ágil ao atendimento da finalidade pública.
+* **D)** o princípio da motivação não se aplica aos processos administrativos quando tratarem de atos de improbidade.
+* **E)** os princípios da razoabilidade e da proporcionalidade podem incidir no exercício, pela Administração pública, de competência discricionária.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A finalidade informativa não elide a proibição constitucional de promoção pessoal de agentes políticos.
-> - **B)** **Correto**. O art. 37, § 1º, da CF/88 estabelece que a publicidade governamental deve ter caráter educativo, informativo ou de orientação social, dela não podendo constar nomes, símbolos ou imagens que caracterizem promoção pessoal.
-> - **C)** **Incorreto**. É vedada a inclusão de nomes, fotos, slogans ou quaisquer símbolos de personalização individual.
-> - **D)** **Incorreto**. A origem orçamentária da dotação não afasta o preceito constitucional cogente.
-> - **E)** **Incorreto**. A infração ao princípio da impessoalidade independe de dano financeiro ou desvio orçamentário direto.
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "os princípios do contraditório e da ampla defesa aplicam-se somente aos processos administrativos que tratem de...". De acordo com a teoria estudada em *Enunciado da Súmula 473 do STF:*, garantia Processual: Exige contraditório e ampla defesa prévios se atingir direito de terceiros — Exige contraditório e ampla defesa se atingir direito constituído.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o princípio da segurança jurídica impede o exercício da competência discricionária pela Administração pública". De acordo com a teoria estudada em *A Súmula Vinculante nº 13 do Supremo Tribunal Federal:*, *"A nomeação de cônjuge, companheiro ou parente em linha reta, colateral ou por afinidade, até o terceiro grau, inclusive, da autoridade nomeante ou de servidor da mesma pessoa jurídica investido em cargo de direção, chefia ou assessoramento, para o exercício de cargo em comissão ou de confiança ou, ainda, de função gratificada na administração pública direta e indireta em qualquer dos poderes da União, dos Estados, do Distrito Federal e dos Municípios, compreendido o ajuste mediante designações recíprocas (nepotismo cruzado), viola a Constituição Federal."*.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os princípios do interesse público e da eficiência admitem a derrogação de leis, quando houver meio jurídico mais...". De acordo com a teoria estudada em *3.2 Princípio da Impessoalidade e a Vedação à Promoção Pessoal*, finalidade Pública: Todo ato administrativo deve visar ao atendimento do interesse público genérico e à finalidade específica prevista na lei para a respectiva competência.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o princípio da motivação não se aplica aos processos administrativos quando tratarem de atos de improbidade". De acordo com a teoria estudada em *4. Princípios Administrativos Implícitos e Regime Sumular*, além dos cinco princípios expressos no art. 37 da CF, o ordenamento constitucional e a legislação infraconstitucional (como a Lei do Processo Administrativo Federal nº 9.784/1999 e a Lei Estadual de Goiás nº 13.800/2001) consagram princípios implícitos de aplicação cogente.
+> - **E)** **Correta.** Conforme fundamentado na seção *3. Princípios Constitucionais Expressos (Art. 37, caput, CF/88 - LIMPE)* deste guia, o art. 37, *caput*, da Constituição Federal estabelece os cinco princípios expressos de observância obrigatória pela Administração Pública direta e indireta de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-1/2014) ao estabelecer que "os princípios da razoabilidade e da proporcionalidade podem incidir no exercício, pela Administração pública, de...".
 >
-> **Gabarito: B**
+> **Gabarito: E**
+
+---
+
 ### Teste 005
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O princípio da moralidade administrativa, consagrado no art. 37, caput, da Constituição Federal e corporificado na Súmula Vinculante nº 13 do Supremo Tribunal Federal, veda expressamente práticas de nepotismo no âmbito dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios. Sob a ótica desse enunciado sumular, é proibida a nomeação para cargo em comissão ou função de confiança de cônjuge, companheiro ou parente em linha reta, colateral ou por afinidade:
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Administracao – 2026)**
+Um servidor público federal, ao conduzir licitação para aquisição de equipamentos, favoreceu empresa de familiar próximo, mesmo sem obter vantagem pessoal direta. A comissão de ética concluiu que houve violação a um princípio constitucional da Administração Pública, independentemente de dolo ou de prejuízo ao erário. Com base nos artigos 37 a 42 da Constituição Federal de 1988, assinale a afirmativa correta a respeito do caso.
 
-* **A)** até o segundo grau, exclusivamente na linha reta consanguínea de agentes políticos.
-* **B)** até o quarto grau, na linha reta e colateral, independentemente da função desempenhada.
-* **C)** até o terceiro grau, inclusive, da autoridade nomeante ou de servidor da mesma pessoa jurídica.
-* **D)** até o terceiro grau, exclusivamente quando houver relação de parentesco civil por adoção.
-* **E)** até o primeiro grau apenas, alcançando tão somente genitores, cônjuges e filhos imediatos.
+* **A)** A conduta viola o princípio da legalidade, pois o servidor agiu sem expressa previsão legal que autorizasse a preferência à empresa do familiar.
+* **B)** A conduta viola o princípio da impessoalidade, pois a Administração deve tratar os administrados sem favoritismos ou discriminações, orientando seus atos pelo interesse público e não por interesses privados.
+* **C)** A conduta viola o princípio da publicidade, pois o servidor deixou de divulgar os atos da licitação nos meios oficiais exigidos pela legislação.
+* **D)** A conduta viola o princípio da eficiência, uma vez que a escolha de empresa não selecionada pelos critérios técnicos adequados compromete o desempenho da Administração.
+* **E)** Não há violação a princípio constitucional, pois a ausência de vantagem pessoal direta e de prejuízo ao erário afasta qualquer irregularidade no procedimento licitatório.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. O alcance da Súmula Vinculante nº 13 se estende até o terceiro grau e contempla afinidade e colaterais.
-> - **B)** **Incorreto**. O limite fixado pelo STF é o terceiro grau (não quarto grau).
-> - **C)** **Correto**. A Súmula Vinculante nº 13 preconiza que a nomeação de cônjuge, companheiro ou parente em linha reta, colateral ou por afinidade, até o terceiro grau, inclusive, da autoridade nomeante ou de servidor da mesma pessoa jurídica investido em cargo de direção, chefia ou assessoramento viola a Constituição Federal.
-> - **D)** **Incorreto**. A vedação abrange parentesco consanguíneo, afim e civil sem qualquer distinção restritiva.
-> - **E)** **Incorreto**. O grau fixado pela jurisprudência vinculante alcança tios e sobrinhos (terceiro grau).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A conduta viola o princípio da legalidade, pois o servidor agiu sem expressa previsão legal que autorizasse a...". De acordo com a teoria estudada em *3.1 Princípio da Legalidade Estrita*, enquanto o particular goza da autonomia da vontade e da legalidade ampla, podendo fazer tudo o que a lei não proíba (art. 5º, II, CF/88), o administrador público rege-se pela legalidade estrita: só pode agir e praticar atos quando houver prévia e expressa autorização ou determinação em lei (*subordinação estrita à lei*).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A conduta viola o princípio da impessoalidade, pois a Administração deve tratar os administrados sem favoritismos...". De acordo com a teoria estudada em *3.2 Princípio da Impessoalidade e a Vedação à Promoção Pessoal*, vedação à Promoção Pessoal (Art. 37, § 1º, CF/88): A publicidade dos atos, programas, obras, serviços e campanhas dos órgãos públicos deve possuir caráter estritamente educativo, informativo ou de orientação social, dela não podendo constar nomes, símbolos, slogans ou imagens que caracterizem promoção pessoal de autoridades ou servidores públicos.
+> - **C)** **Correta.** Conforme fundamentado na seção *A Súmula Vinculante nº 13 do Supremo Tribunal Federal:* deste guia, *"A nomeação de cônjuge, companheiro ou parente em linha reta, colateral ou por afinidade, até o terceiro grau, inclusive, da autoridade nomeante ou de servidor da mesma pessoa jurídica investido em cargo de direção, chefia ou assessoramento, para o exercício de cargo em comissão ou de confiança ou, ainda, de função gratificada na administração pública direta e indireta em qualquer dos poderes da União, dos Estados, do Distrito Federal e dos Municípios, compreendido o ajuste mediante designações recíprocas (nepotismo cruzado), viola a Constituição Federal."*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "A conduta viola o princípio da publicidade, pois o servidor deixou de divulgar os atos da licitação nos meios...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A conduta viola o princípio da eficiência, uma vez que a escolha de empresa não selecionada pelos critérios...". De acordo com a teoria estudada em *3.5 Princípio da Eficiência (Emenda Constitucional nº 19/1998)*, *Desdobramentos Constitucionais Práticos:* Avaliação especial de desempenho para aquisição da estabilidade do servidor (art. 41, § 4º, CF); perda do cargo público por avaliação periódica de desempenho (art. 41, § 1º, III, CF); e fixação de metas de desempenho institucional mediante contratos de gestão (art. 37, § 8º, CF).
+> - **E)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "Não há violação a princípio constitucional, pois a ausência de vantagem pessoal direta e de prejuízo ao erário...". De acordo com a teoria estudada em *3.2 Princípio da Impessoalidade e a Vedação à Promoção Pessoal*, isonomia e Tratamento Neutro: Proibição de concessão de privilégios ou perseguições arbitrárias. É a base axiológica do concurso público e da licitação.
 >
 > **Gabarito: C**
+
+---
+
 ### Teste 006
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Introduzido formalmente no caput do art. 37 da Constituição Federal pela Emenda Constitucional nº 19/1998, o princípio da eficiência impõe à Administração Pública e a seus agentes a busca pelo melhor rendimento com o menor dispêndio. Sob o aspecto jurídico-doutrinário e dogmático, esse princípio:
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Direito – 2026)**
+Nos termos do texto constitucional, lei complementar instituirá o imposto sobre bens e serviços de competência compartilhada entre Estados, Distrito Federal e Municípios, o qual será informado pelo princípio da neutralidade. A respeito do tema, considerando as disposições da Constituição Federal, avalie as afirmativas a seguir. I. Incidirá sobre a importação de bens materiais ou imateriais, inclusive direitos, ou de serviços, realizada por pessoa física ou jurídica, ainda que não seja sujeito passivo habitual do imposto, qualquer que seja a sua finalidade. II. Será não cumulativo, compensando o imposto devido pelo contribuinte com o montante cobrado sobre todas as operações nas quais seja adquirente de bem material ou imaterial, inclusive direito, ou de serviço, excetuadas exclusivamente as consideradas de uso ou consumo pessoal, especificadas em lei complementar e as hipóteses previstas na Constituição. III. Será cobrado pelo somatório das alíquotas do Estado e do Município de destino da operação. Nesse cenário, considerando as disposições da Constituição Federal, o referido imposto atenderá ao que se afirma em
 
-* **A)** Subordina a estrita legalidade ao juízo de oportunidade do gestor, legitimando atos contra legem em prol de metas orçamentárias.
-* **B)** Apresenta eficácia puramente moral e desprovida de densidade normativa, inviabilizando controle por Tribunais de Contas.
-* **C)** Opera em duas vertentes complementares: o modo de atuação do agente público e a estruturação dos órgãos estatais.
-* **D)** Aplica-se exclusivamente aos serviços públicos econômicos explorados em regime concorrencial pelas empresas estatais.
-* **E)** Impede a avaliação periódica de desempenho de servidores estáveis, resguardando a inamovibilidade dos cargos públicos.
+* **A)** I, apenas.
+* **B)** II, apenas.
+* **C)** III, apenas.
+* **D)** I e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A eficiência jamais se sobrepõe à legalidade; o administrador deve ser eficiente nos estritos limites da lei.
-> - **B)** **Incorreto**. O princípio possui força normativa vinculante, embasando a fiscalização de legitimidade e economicidade pelos Tribunais de Contas.
-> - **C)** **Correto**. Segundo a doutrina administrativista clássica (Maria Sylvia Zanella Di Pietro), a eficiência deve ser considerada em relação ao modo de atuação do agente público (esperando-se o melhor rendimento funcional) e quanto ao modo de organizar e estruturar a Administração Pública (visando aos melhores resultados práticos).
-> - **D)** **Incorreto**. A incidência do princípio da eficiência alcança todos os órgãos, poderes e esferas da federação.
-> - **E)** **Incorreto**. A própria EC nº 19/1998 introduziu a avaliação periódica de desempenho como hipótese de perda de cargo do servidor estável (art. 41, § 1º, III, CF/88).
+> - **A)** **Correta.** Conforme fundamentado na seção *A Súmula Vinculante nº 13 do Supremo Tribunal Federal:* deste guia, *"A nomeação de cônjuge, companheiro ou parente em linha reta, colateral ou por afinidade, até o terceiro grau, inclusive, da autoridade nomeante ou de servidor da mesma pessoa jurídica investido em cargo de direção, chefia ou assessoramento, para o exercício de cargo em comissão ou de confiança ou, ainda, de função gratificada na administração pública direta e indireta em qualquer dos poderes da União, dos Estados, do Distrito Federal e dos Municípios, compreendido o ajuste mediante designações recíprocas (nepotismo cruzado), viola a Constituição Federal."*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "I, apenas".
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas". De acordo com a teoria estudada em *3. Princípios Constitucionais Expressos (Art. 37, caput, CF/88 - LIMPE)*, o art. 37, *caput*, da Constituição Federal estabelece os cinco princípios expressos de observância obrigatória pela Administração Pública direta e indireta de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III, apenas". De acordo com a teoria estudada em *3.5 Princípio da Eficiência (Emenda Constitucional nº 19/1998)*, *Desdobramentos Constitucionais Práticos:* Avaliação especial de desempenho para aquisição da estabilidade do servidor (art. 41, § 4º, CF); perda do cargo público por avaliação periódica de desempenho (art. 41, § 1º, III, CF); e fixação de metas de desempenho institucional mediante contratos de gestão (art. 37, § 8º, CF).
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *1.1 Sentido Subjetivo, Formal ou Orgânico*, no ordenamento brasileiro, adota-se o critério estritamente formal: integram a Administração Pública em sentido subjetivo exclusivamente os órgãos e entidades aos quais a lei confere tal condição (União, Estados, DF, Municípios, suas autarquias, fundações públicas, empresas públicas e sociedades de economia mista).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *3.2 Princípio da Impessoalidade e a Vedação à Promoção Pessoal*, *Teoria do Órgão (Imputação Volitiva):* Os atos praticados pelos agentes públicos são juridicamente imputados ao órgão ou pessoa jurídica estatal a que pertencem, e não à pessoa física do agente.
 >
-> **Gabarito: C**
+> **Gabarito: A**
+
+---
+
 ## 4. Princípios Administrativos Implícitos e Regime Sumular
 
 Além dos cinco princípios expressos no art. 37 da CF, o ordenamento constitucional e a legislação infraconstitucional (como a Lei do Processo Administrativo Federal nº 9.784/1999 e a Lei Estadual de Goiás nº 13.800/2001) consagram princípios implícitos de aplicação cogente:
@@ -436,26 +443,29 @@ Nesse caso, com fulcro na autotutela e na Lei de Processo Administrativo (Lei n�
 >
 > **Gabarito: A**
 ### Teste 009
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Determinada autoridade administrativa removeu ex officio um servidor público, consignando formalmente na portaria que a medida se dava em razão da imperiosa necessidade de reforço de pessoal na unidade de destino. Restou documentalmente provado, contudo, que aquela unidade contava com excesso de servidores e nenhuma demanda reprimida. À luz da Teoria dos Motivos Determinantes, o ato de remoção é:
+**(FGV – TRT-16 – Analista Judiciario Area Administrativa Tecnologia da Informacao – 2022)**
+O Presidente da autarquia federal XX delegou a órgão hierarquicamente inferior, por tempo indeterminado, a competência para praticar certos atos administrativos de natureza não normativa. Apesar da plena vigência da delegação, esse agente desejava praticar, ele próprio, certo ato administrativo. À luz da sistemática estabelecida pela Lei nº 9.784/1999, é correto afirmar que o Presidente da autarquia federal XX
 
-* **A)** Válido e eficaz, pois a remoção funcional de ofício consubstancia ato administrativo eminentemente discricionário.
-* **B)** Nulo de pleno direito, pois a validade do ato vincula-se à veracidade e subsistência dos motivos expostos.
-* **C)** Anulável exclusivamente se o servidor comprovar que a autoridade nomeante agiu com intenção de perseguição política.
-* **D)** Convalidável pela Administração mediante expedição retroativa de nova justificativa que aponte carência orçamentária.
-* **E)** Revogável a pedido do servidor, permanecendo incólume o mérito administrativo quanto à necessidade de lotação.
+* **A)** pode exercer, no momento em que melhor lhe aprouver, independente de qualquer motivação, a competência que fora delegada, desde que comunique ao órgão delegado.
+* **B)** está impedido de exercer a competência que fora delegada, sem exceções, enquanto perdurar a delegação, pois se trata de uma nova regra de competência, de natureza derivada.
+* **C)** somente pode exercer a competência que fora delegada após o decurso de trinta dias, contados da notificação administrativa do órgão hierarquicamente inferior.
+* **D)** pode avocar temporariamente a competência que fora delegada, o que se dará em caráter excepcional e por motivos relevantes devidamente justificados.
+* **E)** possui competência concorrente com o órgão hierarquicamente inferior para o exercício da competência que fora delegada a este último.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. Embora a remoção possa ter margem de discricionariedade, ao explicitar a motivação, a autoridade fica vinculada à sua existência e veracidade.
-> - **B)** **Correto**. Pela Teoria dos Motivos Determinantes, a validade do ato administrativo condiciona-se à veracidade e realidade dos motivos apresentados pela autoridade julgadora. Uma vez provada a falsidade ou inexistência dos motivos alegados, o ato padece de vício de nulidade insuperável.
-> - **C)** **Incorreto**. A nulidade decorre objetivamente da falsidade do motivo declarado, sendo desnecessária a prova de ânimo de perseguição subjetiva.
-> - **D)** **Incorreto**. Vício de motivo não admite convalidação com substituição fática a posteriori.
-> - **E)** **Incorreto**. Ato eivado de ilegalidade/falsidade de motivos é nulo de pleno direito, devendo ser anulado e não revogado.
+> - **A)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "pode exercer, no momento em que melhor lhe aprouver, independente de qualquer motivação, a competência que fora...". De acordo com a teoria estudada em *5.2 Obstáculos Reais e Circunstâncias Práticas do Gestor (Art. 22)*, devem sopesar a escassez de recursos orçamentários, as falhas de infraestrutura, a urgência imposta por calamidades e o quadro pessoal deficiente do órgão no momento da prática do ato.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "está impedido de exercer a competência que fora delegada, sem exceções, enquanto perdurar a delegação, pois se...". De acordo com a teoria estudada em *3.1 Princípio da Legalidade Estrita*, enquanto o particular goza da autonomia da vontade e da legalidade ampla, podendo fazer tudo o que a lei não proíba (art. 5º, II, CF/88), o administrador público rege-se pela legalidade estrita: só pode agir e praticar atos quando houver prévia e expressa autorização ou determinação em lei (*subordinação estrita à lei*).
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente pode exercer a competência que fora delegada após o decurso de trinta dias, contados da notificação...". De acordo com a teoria estudada em *4.5 Princípio da Continuidade dos Serviços Públicos*, *Limites Legítimos de Suspensão (Lei nº 8.987/1995, art. 6º, § 3º):* O serviço pode ser suspenso após aviso prévio formal ao usuário por.
+> - **D)** **Correta.** Conforme fundamentado na seção *3.2 Princípio da Impessoalidade e a Vedação à Promoção Pessoal* deste guia, finalidade Pública: Todo ato administrativo deve visar ao atendimento do interesse público genérico e à finalidade específica prevista na lei para a respectiva competência. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-16/2022) ao estabelecer que "pode avocar temporariamente a competência que fora delegada, o que se dará em caráter excepcional e por motivos...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "possui competência concorrente com o órgão hierarquicamente inferior para o exercício da competência que fora...". De acordo com a teoria estudada em *3.2 Princípio da Impessoalidade e a Vedação à Promoção Pessoal*, *Teoria do Órgão (Imputação Volitiva):* Os atos praticados pelos agentes públicos são juridicamente imputados ao órgão ou pessoa jurídica estatal a que pertencem, e não à pessoa física do agente.
 >
-> **Gabarito: B**
+> **Gabarito: D**
+
+---
+
 ## 5. O Direito Público Positivo da LINDB (Arts. 20 a 30) e o Controle Externo
 
 A Lei de Introdução às Normas do Direito Brasileiro (LINDB - Decreto-Lei nº 4.657/1942), com as alterações introduzidas pela Lei nº 13.655/2018 e regulamentadas pelo Decreto Federal nº 9.830/2019, inaugurou uma nova fase de pragmatismo, segurança jurídica e racionalidade no Direito Administrativo sancionador e nas decisões dos Tribunais de Contas.
@@ -511,28 +521,29 @@ Caio, após tomar posse no cargo de analista no Tribunal de Justiça, constatou 
 >
 > **Gabarito: C**
 ### Teste 011
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A Lei nº 13.655/2018 introduziu, no Decreto-Lei nº 4.657/1942 (LINDB), disposições expressas acerca da segurança jurídica e eficiência na criação e na aplicação do direito público. Entre as inovações, destacam-se preceitos voltados a decisões proferidas nas esferas administrativa, controladora e judicial, impondo que a invalidação de ato, contrato ou ajuste considere expressamente as consequências jurídicas e administrativas da medida. 
+**(FGV – TRT-1 – Analista Judiciario Area Administrativa – 2024)**
+A Lei nº 13.655/2018 introduziu, no Decreto-Lei nº 4.657/1942, disposições acerca da segurança jurídica e eficiência na criação e na aplicação do direito público, contendo previsões relevantes quanto ao controle da Administração Pública, dentre as quais a norma que dispõe que a invalidação de ato, contrato ou ajuste deverá indicar, de modo expresso, suas consequências jurídicas e administrativas. Nesse contexto, é correto afirmar que tal determinação:
 
-Nesse contexto normativo, é correto afirmar que tal determinação:
-
-* **A)** não pode ser imposta ao controle judicial exercido pelo Poder Judiciário.
-* **B)** é de observância restrita e privativa no âmbito do controle externo dos Tribunais de Contas.
-* **C)** não se aplica à Administração Pública no exercício originário de seu poder de autotutela.
-* **D)** há de ser atendida nas esferas administrativa, controladora ou judicial.
-* **E)** restringe-se às hipóteses regimentais de auditorias de controle interno governamental.
+* **A)** não pode ser imposta ao controle judicial da Administração Pública;
+* **B)** apenas é aplicável no âmbito do controle externo;
+* **C)** não precisa ser observada no exercício da autotutela;
+* **D)** há de ser atendida nas esferas administrativa, controladora ou judicial;
+* **E)** restringe-se às hipóteses de controle interno da Administração Pública.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. O regime introduzido pelos arts. 20 a 30 da LINDB vincula expressamente os magistrados na esfera judicial.
-> - **B)** **Incorreto**. A regra abrange todos os julgadores e controladores das três esferas públicas.
-> - **C)** **Incorreto**. A própria autoridade administrativa, ao exercer a autotutela e anular atos, deve mensurar os impactos e indicar as medidas de transição necessárias.
-> - **D)** **Correto**. O art. 20 e o art. 21 da LINDB são expressos: as decisões que decretarem a invalidação de ato, contrato, ajuste, processo ou norma administrativa nas esferas administrativa, controladora ou judicial deverão indicar de modo expresso suas consequências jurídicas e administrativas e as condições de transição.
-> - **E)** **Incorreto**. O comando vincula universalmente os órgãos decisórios estatais, sem limitação a auditorias internas.
+> - **A)** **Correta.** Conforme fundamentado na seção *5. O Direito Público Positivo da LINDB (Arts. 20 a 30) e o Controle Externo* deste guia, a Lei de Introdução às Normas do Direito Brasileiro (LINDB - Decreto-Lei nº 4.657/1942), com as alterações introduzidas pela Lei nº 13.655/2018 e regulamentadas pelo Decreto Federal nº 9.830/2019, inaugurou uma nova fase de pragmatismo, segurança jurídica e racionalidade no Direito Administrativo sancionador e nas decisões dos Tribunais de Contas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-1/2024) ao estabelecer que "não pode ser imposta ao controle judicial da Administração Pública".
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "apenas é aplicável no âmbito do controle externo". De acordo com a teoria estudada em *Enunciado da Súmula 473 do STF:*, *"A administração pode anular seus próprios atos, quando eivados de vícios que os tornam ilegais, porque deles não se originam direitos; ou revogá-los, por motivo de conveniência ou oportunidade, respeitados os direitos adquiridos, e ressalvada, em todos os casos, a apreciação judicial."*.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não precisa ser observada no exercício da autotutela". De acordo com a teoria estudada em *4.3 Princípio da Autotutela (Súmulas 346 e 473 do STF): Anulação vs. Revogação*, o princípio da autotutela assegura à Administração Pública o poder-dever de controlar diretamente seus próprios atos, revendo-os quanto à legalidade ou ao mérito, sem necessidade de autorização judicial prévia.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "há de ser atendida nas esferas administrativa, controladora ou judicial". De acordo com a teoria estudada em *5.1 Consequencialismo Jurídico e Vedação de Valores Abstratos (Art. 20)*, *"Art. 20. Nas esferas administrativa, controladora e judicial, não se decidirá com base em valores jurídicos abstratos sem que sejam consideradas as consequências práticas da decisão."*.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "restringe-se às hipóteses de controle interno da Administração Pública". De acordo com a teoria estudada em *3.3 Princípio da Moralidade e a Súmula Vinculante nº 13 (Antinepotismo)*, o ato administrativo pode atender rigorosamente à literalidade da lei, mas ser manifestamente nulo se contaminado por torpeza, favorecimento antiético ou imoralidade administrativa.
 >
-> **Gabarito: D**
+> **Gabarito: A**
+
+---
+
 ## 6. Fontes Recomendadas na Internet
 
 - [Constituição Federal de 1988 - Art. 37 (Princípios Constitucionais da Administração Pública)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art37)  

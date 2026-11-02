@@ -96,26 +96,26 @@ A manutenibilidade reflete a facilidade e a eficiência com que o software pode 
 ---
 
 ### Teste 043
-**(FCC – TRT-1 – Analista Judiciário (TI) – 2014)**  
-A qualidade de software  constitui-se em um fator de grande importância no seu desenvolvimento. Dentre as propriedades utilizadas para determinar a qualidade de software ,
+**(FGV – TJ-DFT – Analista Judiciario Suporte Em Tecnologia da Informacao – 2022)**
+Os analistas de Tecnologia da Informação de uma instituição estão planejando modernizar o Centro de Dados da organização. Para isso, estão avaliando os indicadores de disponibilidade de sistemas e componentes, pois os indicadores são importantes para cálculos de desempenho e planejamento da manutenção. Um dos componentes em avaliação possui o tempo médio de operação sem falhas de 500 horas e o tempo médio de reparo é de 5 horas. Com base nessas informações, é correto afirmar que:
 
-* **A)** mede-se, exclusivamente, a qualidade da documen- tação produzida para o software .
-* **B)** verifica-se a satisfação de requisitos estabelecidos, incluindo o desempenho.
-* **C)** não se abrange questões relativas à interface do software .
-* **D)** não há preocupação com a facilidade de manuten- ção do software .
-* **E)** não se inclui a confiabilidade esperada do software . _________________________________________________________
+* **A)** o MTTF é de 5 horas;
+* **B)** o MTBF é de 100 horas;
+* **C)** o MTBF é de 500 horas;
+* **D)** a disponibilidade do componente é de 90%;
+* **E)** a disponibilidade do componente é de 95%.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A portabilidade refere-se à facilidade com que o software pode ser transferido de um ambiente computacional para outro.
-> - **B)** Correta. Segundo as normas de qualidade de produto de software (ISO/IEC 9126 e ISO/IEC 25010 SQuaRE), a confiabilidade (reliability) avalia a capacidade do software de manter seu nível de desempenho sob condições estabelecidas durante um período determinado, abrangendo maturidade, tolerância a falhas e capacidade de recuperação.
-> - **C)** Incorreta. A manutenibilidade mede o esforço necessário para modificar o software (corretiva, adaptativa ou evolutivamente).
-> - **D)** Incorreta. A usabilidade diz respeito à facilidade de aprendizado e operação pelo usuário.
-> - **E)** Incorreta. A eficiência avalia o tempo de resposta e o consumo adequado de recursos do sistema.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o MTTF é de 5 horas". De acordo com a teoria estudada em *1.3 Confiabilidade, Disponibilidade e Métricas de Manutenção (MTBF e MTTR)*, *99,9% ("três noves"):* Tolera até 8,76 horas de indisponibilidade por ano.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o MTBF é de 100 horas". De acordo com a teoria estudada em *1.3 Confiabilidade, Disponibilidade e Métricas de Manutenção (MTBF e MTTR)*, mTBF (*Mean Time Between Failures* - Tempo Médio Entre Falhas): Métrica de confiabilidade que calcula o tempo médio em que o sistema opera perfeitamente entre duas panes consecutivas.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.3 Confiabilidade, Disponibilidade e Métricas de Manutenção (MTBF e MTTR)* deste guia, mTTR (*Mean Time to Repair* - Tempo Médio para Reparo): Métrica de manutenibilidade que mede o tempo médio gasto pela equipe de suporte para diagnosticar, corrigir a falha e restaurar o sistema à plena operação. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-DFT/2022) ao estabelecer que "o MTBF é de 500 horas".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a disponibilidade do componente é de 90%". De acordo com a teoria estudada em *1.3 Confiabilidade, Disponibilidade e Métricas de Manutenção (MTBF e MTTR)*, confiabilidade: Grau em que o software desempenha suas funções requeridas sob condições estabelecidas por um período especificado de tempo. Avalia a maturidade, a tolerância a falhas e a capacidade de recuperação de desastres.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a disponibilidade do componente é de 95%". De acordo com a teoria estudada em *1.3 Confiabilidade, Disponibilidade e Métricas de Manutenção (MTBF e MTTR)*, métricas Clássicas de Sustentação de Sistemas.
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
 
@@ -183,144 +183,98 @@ Proposta por Thomas McCabe em 1976, a **Complexidade Ciclomática ($V(G)$)** med
 ---
 
 ### Teste 044
-**(FCC – TRT-1 – Analista Judiciário (TI) – 2014)**  
-Considerando o teste de software , há o chamado teste de unidade, que consiste em testar
+**(FCC – TRT-6 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2012)**
+Considere o seguinte trecho de código em Java: public class Teste { public conta c1,c2; Teste(int d,double i) { c1 = new conta(d,i); c2 = new conta(i,d); } public static void main(String[] args) { Teste t = new Teste(2,4.8); t.c1.imprime_total(); System.out.print(", "); t.c2.imprime_total(); System.out.print("."); } public class conta { private int total; public conta(int i,double d) { total = i + (int) (2 * d); } public conta(double d,int i) { total = (int) d + 2 * i; } public void imprime_total() { System.out.print(total); } } } Após a execução do método main, o texto que será escrito no console é
 
-* **A)** o software completo, incluindo todos os seus compo- nentes ou módulos, no ambiente de testes.
-* **B)** o funcionamento dos compiladores que estiverem sendo utilizados no desenvolvimento do software .
-* **C)** individualmente, componentes ou módulos de software que, posteriormente devem ser testados de maneira integrada.
-* **D)** o software completo em seu ambiente final de operação, já com o hardware base do projeto.
-* **E)** apenas componentes ou módulos de software cujo código fonte tenha mais de 100 linhas. _________________________________________________________
+* **A)** 8.8, 9.6.
+* **B)** 9.6, 4.
+* **C)** 2, 11.6.
+* **D)** 4.8, 2.
+* **E)** 11, 8.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Testar a comunicação entre subsistemas e módulos integrados caracteriza os testes de integração.
-> - **B)** Incorreta. Avaliar o sistema completo em conformidade com as regras de negócio finais é o objetivo do teste de aceitação.
-> - **C)** Correta. O teste de unidade (ou unitário) consiste em testar a menor parte testável de uma aplicação de software (como funções, métodos, classes ou módulos isolados), verificando se o componente individual se comporta rigorosamente conforme o especificado, tipicamente isolando dependências externas com o uso de stubs e mocks.
-> - **D)** Incorreta. Testar o comportamento sob alta carga de acessos concorrentes define os testes de estresse/desempenho.
-> - **E)** Incorreta. A verificação do sistema contra ataques externos refere-se aos testes de segurança e vulnerabilidade.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "8.8, 9.6". De acordo com a teoria estudada em *4.2 Refatoração de Código e os "Maus Cheiros" (Code Smells) de Fowler*, *Método Longo (*Long Method*):* Métodos com centenas de linhas de código. Técnica de correção: Extract Method (extrair trecho para novo método nomeado).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "9.6, 4". De acordo com a teoria estudada em *2.2 Dublês de Teste (Test Doubles de Gerard Meszaros)*, nos testes unitários, para isolar a unidade sob teste (*System Under Test - SUT*) de dependências pesadas, instáveis ou lentas (bancos de dados, serviços web externos, sistemas de arquivos), empregam-se Dublês de Teste.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2, 11.6". De acordo com a teoria estudada em *2.1 A Pirâmide de Testes de Mike Cohn*, nível de Teste: Velocidade de Execução — Custo de Construção/Manutenção — Foco do Diagnóstico de Falha — Escopo de Isolamento.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "4.8, 2". De acordo com a teoria estudada em *2.2 Dublês de Teste (Test Doubles de Gerard Meszaros)*, dummy: Objeto passado apenas para preencher parâmetros de assinatura de métodos obrigatórios, nunca sendo invocado durante a execução do teste.
+> - **E)** **Correta.** Conforme fundamentado na seção *2.1 A Pirâmide de Testes de Mike Cohn* deste guia, unitário: Milissegundos — Muito baixo — Linha exata do código / método — Total (isola com Stubs/Mocks). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-6/2012) ao estabelecer que "11, 8".
 >
-> **Gabarito: C**
+> **Gabarito: E**
 
 ---
 
 ### Teste 045
-**(FCC – TRT-14 – Analista Judiciário (TI) – 2016)**  
-Considere o código em Java que realiza testes unitários com o framework JUnit: import junit.framework.TestCase; public class MatematicaTest ......I  { private Matematica math=new Matematica(18, 3); public void testadd() { this.assertTrue(this.math.add()==21); } public void testsubtract() { this.assertTrue(this.math.subtract()=15); } public void testmultiply() { this.assertTrue(this.math.multiply()==54); } public void testdivide() { this.assertTrue(this.math.divide()==6); } public static void main(String[] args) { junit.textui.TestRunner.run( ......II  ); } } As lacunas I e II devem ser, correta e respectivamente, preenchidas com
+**(CEBRASPE – TRT-8 – Analista Judiciario Area Apoio Especializado Tecnologia da Informacao – 2022)**
+A respeito de testes automatizados, no contexto de DevOps e DevSecOps, assinale a opção correta.
 
-* **A)** extends TestCase e MatematicaTest.class
-* **B)** extends junit e MatematicaTest
-* **C)** protected e assertEquals (MatematicaTest.class)
-* **D)** protected TestCase e assertEquals(MatematicaTest)
-* **E)** throws Exception e assertSame (MatematicaTest) Caderno de Prova ’C03’, Tipo 001 TRT14R-An.Jud.-Tec.Informação-C03 11
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Correta. No framework de testes JUnit para Java, o método asserção assertEquals(esperado, obtido) verifica se o valor retornado pelo método sob teste coincide exatamente com o valor esperado, provocando a falha do teste caso haja discrepância.
-> - **B)** Incorreta. O método assertTrue avalia condições estritamente booleanas, e não igualdade de valores numéricos complexos.
-> - **C)** Incorreta. A anotação @Test identifica os métodos executáveis de teste, não servindo como método de verificação de resultado.
-> - **D)** Incorreta. O método fail() força explicitamente a reprovação do teste sem comparar resultados.
-> - **E)** Incorreta. assertSame verifica a identidade de referência em memória (==), e não a igualdade de valores de objetos.
->
-> **Gabarito: A**
-
----
-
-### Teste 046
-**(FCC – TRT-14 – Analista Judiciário (TI) – 2016)**  
-Ao escrever testes funcionais, um Analista precisa utilizar um controle de espera para que uma ação seja disparada depois d e alguma outra ação. No Selenium WebDriver, um Analista pode optar pela utilização de um controle de espera
-
-* **A)** implícito, como o Thread.sleep(), que determina um tempo fixo que alguma ação no teste precisa esperar antes de ser executada. Se este tempo for ultrapassado, o teste não falhará.
-* **B)** explícito, como o Thread.sleep(). Se a ação estiver pronta para ser executada antes do tempo fixado, o teste conti- nuará.
-* **C)** explícito, como o WebDriver.manage().timeouts(), que permite esperar por um certo elemento na tela por um tempo de espera mínimo. Se este tempo for ultrapassado, o teste falhará.
-* **D)** implícito, cujo valor padrão é 0. Este tempo deve ser baixo, para evitar que o Selenium fique esperando por um elemento na tela antes de acusar um erro de tempo de espera excedido.
-* **E)** explícito, cujo valor padrão é 10. Seu valor não deve ser ba ixo para evitar problemas em controle de tempo entre ações no teste.
+* **A)** Em um teste unitário, os métodos da classe sendo testada e suas dependências podem ter relação com recursos externos.
+* **B)** Os bugs são detectados no final do ciclo de desenvolvimento, o que pode aumentar o tempo na criação de novos produtos.
+* **C)** Os testes unitários são testes de caixa preta com cada função que compõe o software.
+* **D)** O TDD (Test Driven Development) eleva o nível dos testes unitários e tem como característica criar a classe de testes antes da classe de produção, de forma que os testes guiem o código a ser implementado.
+* **E)** Os testes de integração são caracterizados pela verificação de partes internas do sistema, que se inter-relacionam entre si, conforme definido pelos clientes.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A espera estática rígida (Thread.sleep) é uma má prática que torna os testes lentos e instáveis.
-> - **B)** Incorreta. O polling contínuo sem timeout pode gerar loops infinitos na suíte de testes automatizados.
-> - **C)** Incorreta. A espera implícita global afeta todos os elementos indiscriminadamente, não tratando condições específicas de eventos assíncronos.
-> - **D)** Correta. Na automação de testes funcionais (como no Selenium WebDriver), a Espera Explícita (Explicit Wait / WebDriverWait) configura o controle ideal para aguardar dinamicamente até que uma condição esperada (ExpectedCondition) específica se concretize antes de prosseguir com a interação, evitando quebras por assincronismo sem desperdício de tempo.
-> - **E)** Incorreta. O tratamento genérico de exceções mascara defeitos reais na interface gráfica da aplicação.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Em um teste unitário, os métodos da classe sendo testada e suas dependências podem ter relação com recursos...". De acordo com a teoria estudada em *2.2 Dublês de Teste (Test Doubles de Gerard Meszaros)*, nos testes unitários, para isolar a unidade sob teste (*System Under Test - SUT*) de dependências pesadas, instáveis ou lentas (bancos de dados, serviços web externos, sistemas de arquivos), empregam-se Dublês de Teste.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os bugs são detectados no final do ciclo de desenvolvimento, o que pode aumentar o tempo na criação de novos...". De acordo com a teoria estudada em *3.3 Práticas de TDD (Test-Driven Development) e BDD (Behavior-Driven Development)*, tDD (Desenvolvimento Guiado por Testes): Técnica de engenharia de software fundamentada no ciclo rápido e iterativo de três fases: Red \$\rightarrow\$ Green \$\rightarrow\$ Refactor.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os testes unitários são testes de caixa preta com cada função que compõe o software". De acordo com a teoria estudada em *3.3 Práticas de TDD (Test-Driven Development) e BDD (Behavior-Driven Development)*, *Refactor:* Limpar o código-fonte, eliminar duplicações e aperfeiçoar o design, garantindo que a suíte de testes continue verde.
+> - **D)** **Correta.** Conforme fundamentado na seção *3.3 Práticas de TDD (Test-Driven Development) e BDD (Behavior-Driven Development)* deste guia, *Red:* Escrever um teste automatizado que falha antes de escrever o código de produção. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT-8/2022) ao estabelecer que "O TDD (Test Driven Development) eleva o nível dos testes unitários e tem como característica criar a classe de...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os testes de integração são caracterizados pela verificação de partes internas do sistema, que se inter-relacionam...". De acordo com a teoria estudada em *3.3 Práticas de TDD (Test-Driven Development) e BDD (Behavior-Driven Development)*, bDD (Desenvolvimento Guiado por Comportamento): Evolução colaborativa do TDD focada na linguagem ubíqua e no comportamento do sistema sob a ótica do negócio. Expressa cenários no formato Given-When-Then (*Dado que... Quando... Então...* - sintaxe Gherkin).
 >
 > **Gabarito: D**
 
 ---
 
-### Teste 047
-**(FCC – TRT – Analista Judiciário (TI) – 2024)**  
-Considerando o DevOps e suas boas práticas, analise os itens a
+### Teste 046
+**(FCC – TRT-3 – Analista Judiciario Tecnologia da Informacao – 2015)**
+Um profissional está trabalhando no processo de testes de desenvolvimento de um software orientado a objetos. Inicialmente, realizou o teste das funcionalidades dos objetos ou métodos das classes individualmente. Em seguida, integrou várias unidades individuais criando elementos compostos e testou as interfaces desses elementos. Para concluir a bateria de testes, integrou todos os componentes do software e testou a integração entre eles como um todo. Os testes realizados pelo profissional foram testes
 
-seguir:
-
-I. Testes integrados são uma parte importante do processo
-
-DevOps. Esses testes devem levar em consideração as
-
-práticas de Test -Driven Development e Behavior -Driven
-
-Development, dessa forma a execução automática desses
-
-testes pode ser integrada ao pipeline de  CI. No entanto, é
-
-importante integrar outros tipos de testes, como testes
-
-funcionais ou testes de integração, que permitem que o
-
-aplicativo seja testado funcionalmente do início ao fim com
-
-os outros componentes do seu ecossistema.
-
-II. Recomenda-se automat izar apenas as tarefas críticas que
-
-envolvam poucas atualizações na implementação e nos testes
-
-dos aplicativos nas infraestruturas. Essas tarefas devem ser
-
-automatizadas em scripts que podem ser facilmente
-
-integradas e executadas em pipelines de CI/CD.
-
-III. A construção de pipelines de CI/CD envolvem a escolha de
-
-ferramentas de DevOps adequadas pelas equipes
-
-considerando a natureza da empresa. E necessário levar em
-
-conta aspectos financeiros, avaliar entre ferramentas de
-
-código aberto e gratuitas e as propr ietárias, que são mais
-
-ricas em recursos e suporte, mas exigem um investimento
-
-significativo.
-
-Está correto apenas o que se afirma em
-
-* **A)** I e III.
-* **B)** I.
-* **C)** I e II.
-* **D)** II e III.
-* **E)** II.
+* **A)** funcionais, de integração e de aceitação.
+* **B)** alfa, beta e de sistema.
+* **C)** unitários, de componentes e de sistema.
+* **D)** funcionais, de componentes e de integração.
+* **E)** unitários, de integração e de aceitação.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Nas práticas modernas de DevOps e Integração Contínua (CI/CD), a execução automatizada de testes integrados e regressivos no pipeline de entrega assegura a detecção precoce de incompatibilidades entre microsserviços e bibliotecas antes da promoção de artefatos para o ambiente de produção.
-> - **B)** Incorreta. O item II nega a utilidade dos testes de regressão automatizados, contrariando as premissas centrais do DevOps.
-> - **C)** Incorreta. O isolamento manual de ambientes sem automação eleva o risco de falhas operacionais em produção.
-> - **D)** Incorreta. O teste de fumaça (smoke test) não substitui os testes funcionais de cobertura completa.
-> - **E)** Incorreta. A ausência de monitoramento pós-deploy contraria a cultura de observabilidade do DevOps.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "funcionais, de integração e de aceitação". De acordo com a teoria estudada em *1.4 Manutenibilidade e Facilidade de Mudança*, modularidade: Grau em que o sistema é composto por componentes discretos, isolando o impacto de alterações.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "alfa, beta e de sistema". De acordo com a teoria estudada em *2.2 Dublês de Teste (Test Doubles de Gerard Meszaros)*, nos testes unitários, para isolar a unidade sob teste (*System Under Test - SUT*) de dependências pesadas, instáveis ou lentas (bancos de dados, serviços web externos, sistemas de arquivos), empregam-se Dublês de Teste.
+> - **C)** **Correta.** Conforme fundamentado na seção *2.1 A Pirâmide de Testes de Mike Cohn* deste guia, integração: Segundos — Moderado — Comunicação entre componentes — Parcial (integra com BD ou filas). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-3/2015) ao estabelecer que "unitários, de componentes e de sistema".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "funcionais, de componentes e de integração". De acordo com a teoria estudada em *2.3 Testes de Caixa-Preta (Funcionais) vs. Testes de Caixa-Branca (Estruturais)*, *Partição de Equivalência:* Divide os dados de entrada em classes válidas e inválidas, partindo do princípio de que qualquer dado dentro da mesma partição receberá o mesmo tratamento.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "unitários, de integração e de aceitação". De acordo com a teoria estudada em *2.4 Complexidade Ciclomática de Thomas McCabe e Grafo de Fluxo*, pela contagem de arestas (\$E\$), nós (\$N\$) e componentes conexos (\$P=1\$ para método único).
 >
-> **Gabarito: A**
+> **Gabarito: C**
+
+---
+
+### Teste 047
+**(FUMARC – TRT-3 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2022)**
+34 Analise as afirmativas referentes aos conceitos e ferramentas de testes de software: I – O Mockito é um framework de teste de código aberto para Java que permite instanciar classes e controlar o comportamento dos métodos. II – Teste de integração é um teste de validação no ambiente de produção dos usuários para identificar problemas antes de uma implantação. III – Testes unitários verificam se as menores partes testáveis de um software estão funcionando corretamente. Estão CORRETAS as afirmativas:
+
+* **A)** I e II, apenas.
+* **B)** I e III, apenas.
+* **C)** II e III, apenas.
+* **D)** III, apenas.
+* **E)** I, II e III.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *3.2 Testes de Desempenho: Carga vs. Estresse vs. Pico vs. Resistência*, teste de Carga (*Load Testing*): Carga operacional esperada (normal e pico previsto em projeto). — Avaliar o comportamento do sistema, tempos de resposta e uso de hardware sob o volume regular de usuários acordado no SLA.
+> - **B)** **Correta.** Conforme fundamentado na seção *3.3 Práticas de TDD (Test-Driven Development) e BDD (Behavior-Driven Development)* deste guia, *Red:* Escrever um teste automatizado que falha antes de escrever o código de produção. Dessa forma, está plenamente correta a assertiva da banca (FUMARC – TRT-3/2022) ao estabelecer que "I e III, apenas".
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *4.1 Técnicas Modernas de Revisão de Código (Code Review)*, antes de realizar o *merge* para a branch principal, outros desenvolvedores inspecionam o diff, verificam aderência a padrões arquiteturais, segurança e ausência de code smells.
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III, apenas". De acordo com a teoria estudada em *2.2 Dublês de Teste (Test Doubles de Gerard Meszaros)*, mock: Objeto pré-programado com expectativas formais de comportamento. O desenvolvedor configura explicitamente quais métodos devem ser chamados, com quais argumentos específicos e em que ordem.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *2.3 Testes de Caixa-Preta (Funcionais) vs. Testes de Caixa-Branca (Estruturais)*, testes de Caixa-Preta (Funcionais): Avaliam o comportamento do software sem conhecimento da estrutura interna ou do código-fonte. O foco reside nas entradas e saídas esperadas.
+>
+> **Gabarito: B**
 
 ---
 
@@ -353,80 +307,74 @@ A engenharia de testes de desempenho categoriza os testes de acordo com o padrã
 ---
 
 ### Teste 048
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Uma equipe de desenvolvimento do Tribunal de Contas concluiu a refatoração e a correção de um defeito crítico no módulo de cálculo de prazos de processos administrativos. Antes de autorizar a implantação da nova versão no ambiente de homologação, o auditor líder de testes determinou a execução imediata de uma suíte de testes com a finalidade específica de assegurar que a alteração realizada ou o defeito corrigido não introduziram novos erros ou efeitos colaterais indesejados em partes do software que funcionavam perfeitamente antes da modificação. Essa categoria de teste classifica-se como:
+**(FCC – TRT-6 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2012)**
+Sobre testes de sistemas, considere: I. Testes de cenário são úteis pois podem garantir que não restam erros no sistema. Neste ponto diferem dos testes de componentes que apenas garantem a integridade de módulos isolados do sistema, mas não garantem que a totalidade do sistema está isenta de erros. II. Testes de desenvolvimento incluem testes unitários, nos quais são testados objetos e métodos específicos; testes de componentes, nos quais são testados diversos grupos de objetos; testes de sistema, nos quais são testados sistemas parciais e sistemas completos. III. Os testes de usuário podem ser divididos em três fases: teste alfa, em que os usuários do software trabalham com a equipe de desenvolvimento para efetuar testes no local do desenvolvedor; teste beta, em que um release de software é disponibilizado aos usuários para que possam experimentar e levantar os problemas descobertos com os desenvolvedores do sistema; teste de sistema, em que os clientes testam um sistema para decidir se ele está pronto para ser implantado no ambiente de trabalho. Está correto o que se afirma em
 
-* **A)** Teste de Regressão.
-* **B)** Teste de Estresse.
-* **C)** Teste de Carga.
-* **D)** Teste de Usabilidade.
-* **E)** Teste de Penetração (*Pentest*).
-
+* **A)** I, II e III.
+* **B)** II, apenas.
+* **C)** I e II, apenas.
+* **D)** III, apenas.
+* **E)** II e III, apenas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) CORRETA.** O **Teste de Regressão** consiste na reexecução seletiva ou total de suítes de testes previamente aprovadas após qualquer modificação de código (correção de bugs, refatoração, atualização de dependências ou acréscimo de novas features), visando certificar que as funcionalidades estáveis pré-existentes não sofreram "regressão" ou danos acidentais.
-> - **B) Incorreta.** O Teste de Estresse avalia o comportamento do sistema sob sobrecargas extremas além de sua capacidade operacional máxima.
-> - **C) Incorreta.** O Teste de Carga afere a performance e tempo de resposta sob volumes operacionais esperados em produção.
-> - **D) Incorreta.** O Teste de Usabilidade avalia a facilidade de navegação, ergonomia e experiência do usuário na interface gráfica.
-> - **E) Incorreta.** O Teste de Penetração avalia brechas de segurança cibernética e vetores de exploração de vulnerabilidades.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *3.3 Práticas de TDD (Test-Driven Development) e BDD (Behavior-Driven Development)*, tDD (Desenvolvimento Guiado por Testes): Técnica de engenharia de software fundamentada no ciclo rápido e iterativo de três fases: Red \$\rightarrow\$ Green \$\rightarrow\$ Refactor.
+> - **B)** **Correta.** Conforme fundamentado na seção *2.2 Dublês de Teste (Test Doubles de Gerard Meszaros)* deste guia, mock: Objeto pré-programado com expectativas formais de comportamento. O desenvolvedor configura explicitamente quais métodos devem ser chamados, com quais argumentos específicos e em que ordem. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-6/2012) ao estabelecer que "II, apenas".
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *1.4 Manutenibilidade e Facilidade de Mudança*, a manutenibilidade reflete a facilidade e a eficiência com que o software pode ser modificado pelos desenvolvedores para corrigir defeitos, melhorar o desempenho ou adaptar o sistema a mudanças no ambiente de negócio. Subdivide-se em.
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III, apenas". De acordo com a teoria estudada em *3.1 Testes de Regressão e Automação Contínua*, conceito de Teste de Regressão: Bateria sistemática de testes executada após qualquer manutenção no software (correção de bugs, refatoração ou acréscimo de novas funcionalidades) para certificar que as alterações introduzidas não causaram efeitos colaterais adversos nem reintroduziram defeitos antigos em módulos que funcionavam perfeitamente.
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *3.2 Testes de Desempenho: Carga vs. Estresse vs. Pico vs. Resistência*, teste de Carga (*Load Testing*): Carga operacional esperada (normal e pico previsto em projeto). — Avaliar o comportamento do sistema, tempos de resposta e uso de hardware sob o volume regular de usuários acordado no SLA.
 >
-> **Gabarito: A**
+> **Gabarito: B**
 
 ---
 
 ### Teste 049
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Durante a auditoria de desempenho de um sistema de transmissão eletrônica de folhas de pagamento dos municípios jurisdicionados ao Tribunal de Contas, a equipe técnica planejou a execução de testes não-funcionais. O objetivo é submeter intencionalmente o cluster computacional a um volume de requisições concorrentes e tráfego que extrapole significativamente a sua capacidade operacional de pico, visando observar se o sistema degrada graciosamente suas funções, se mantém a consistência dos dados sob pane e de que maneira se restabelece após o cessamento da sobrecarga extrema. Esse teste de desempenho classifica-se como:
+**(FCC – TRT-2 – Analista Judiciario Tecnologia da Informacao – 2014)**
+Há diversos processos e práticas ágeis de desenvolvimento de software. Considere: I. Seu objetivo é criar um “código limpo que funcione”. Trabalha com a estratégia Red − Green − Refactor: − Codifique o teste; − Faça-o compilar e executar. O teste não deve passar (Red). − Implemente o requisito e faça o teste passar (Green). − Refatore o código (Refactor). II. Suas práticas, regras e valores garantem um agradável ambiente de desenvolvimento de software para os seus seguidores, que são conduzidos pelos princípios básicos: − Comunicação − manter o melhor relacionamento possível entre clientes e desenvolvedores, preferindo conversas pessoais a outros meios de comunicação; − Simplicidade − implementar apenas requisitos atuais, evitando adicionar funcionalidades que podem ser importantes somente no futuro; − Feedback − o desenvolvedor terá informações constantes do cliente e do código, em que testes constantes indicam os erros tanto individuais quanto do software integrado; − Coragem − encorajar as pessoas que não possuem facilidade de comunicação e bom relacionamento interpessoal, encorajar a equipe a experimentar e buscar novas soluções, além de encorajar a obtenção de feedback do cliente. III. Objetiva capturar os critérios de aceitação para as funcionalidades em desenvolvimento. Trabalha com as seguintes etapas: − Discutir (Discuss): discussão colaborativa com a equipe visando elicitar os critérios de aceitação. − Refinar (Distill): refinamento dos critérios de aceitação em um conjunto concreto de cenários/exemplos de uso descrevendo o comportamento esperado da aplicação em uma linguagem comum a todos os membros da equipe. − Desenvolver (Develop): transformação dos testes de aceitação (descrevendo o comportamento esperado do software) em testes/especificação automatizados. IV. Suas práticas incluem: − Envolver as partes interessadas no processo através de Outside-in Development. − Usar exemplos para descrever o comportamento de uma aplicação ou unidades de código. − Automatizar os exemplos para prover um feedback rápido e testes de regressão. − Usar o verbo deve (should) ao descrever o comportamento de software para ajudar a esclarecer responsabilidades e permitir que funcionalidades sejam questionadas. − Usar dublês de teste (mocks, stubs, fakes, dummies, spies) para auxiliar na colaboração entre módulos e códigos que ainda não foram escritos. Os processos ágeis I, II, III e IV são, correta e respectivamente, denominados:
 
-* **A)** Teste de Estresse (*Stress Testing*).
-* **B)** Teste de Carga (*Load Testing*).
-* **C)** Teste de Aceitação de Usuário (*UAT*).
-* **D)** Teste de Fumaça (*Smoke Testing*).
-* **E)** Teste de Sanidade (*Sanity Testing*).
-
+* **A)** BDD − DDD − ATDD − XP
+* **B)** TDD − BDD − DDD − XP
+* **C)** ATDD − XP − DDD − BDD
+* **D)** ATDD − BDD − TDD − DDD
+* **E)** TDD − XP − ATDD − BDD
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) CORRETA.** O **Teste de Estresse (*Stress Testing*)** tem como finalidade primordial avaliar a robustez, disponibilidade e resiliência de um sistema computacional quando submetido a condições operacionais que **extrapolam intencionalmente os limites máximos de projeto** (*breaking point*), verificando se ocorrem falhas catastróficas, vazamentos de memória ou corrupção de dados e como se dá sua capacidade de autorrecuperação.
-> - **B) Incorreta.** O Teste de Carga (*Load Testing*) testa o sistema operando dentro dos limites operacionais máximos previstos em regime normal ou de pico para medir latência e vazão.
-> - **C) Incorreta.** O UAT é o teste formal executado pelos usuários de negócio para validar se a aplicação atende às regras funcionais contratadas.
-> - **D) Incorreta.** O Smoke Test é uma bateria superficial rápida para checar se a compilação inicial da versão é estável o suficiente para iniciar os testes aprofundados.
-> - **E) Incorreta.** O Sanity Test é uma verificação pontual e rápida após uma correção isolada para garantir que a funcionalidade pontual alterada está respondendo.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "BDD − DDD − ATDD − XP". De acordo com a teoria estudada em *3.3 Práticas de TDD (Test-Driven Development) e BDD (Behavior-Driven Development)*, bDD (Desenvolvimento Guiado por Comportamento): Evolução colaborativa do TDD focada na linguagem ubíqua e no comportamento do sistema sob a ótica do negócio. Expressa cenários no formato Given-When-Then (*Dado que... Quando... Então...* - sintaxe Gherkin).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "TDD − BDD − DDD − XP". De acordo com a teoria estudada em *3.3 Práticas de TDD (Test-Driven Development) e BDD (Behavior-Driven Development)*, *Green:* Escrever o código mais simples possível apenas para fazer o teste passar com sucesso.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ATDD − XP − DDD − BDD". De acordo com a teoria estudada em *3.3 Práticas de TDD (Test-Driven Development) e BDD (Behavior-Driven Development)*, *Red:* Escrever um teste automatizado que falha antes de escrever o código de produção.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ATDD − BDD − TDD − DDD". De acordo com a teoria estudada em *3.3 Práticas de TDD (Test-Driven Development) e BDD (Behavior-Driven Development)*, *Refactor:* Limpar o código-fonte, eliminar duplicações e aperfeiçoar o design, garantindo que a suíte de testes continue verde.
+> - **E)** **Correta.** Conforme fundamentado na seção *3.3 Práticas de TDD (Test-Driven Development) e BDD (Behavior-Driven Development)* deste guia, tDD (Desenvolvimento Guiado por Testes): Técnica de engenharia de software fundamentada no ciclo rápido e iterativo de três fases: Red \$\rightarrow\$ Green \$\rightarrow\$ Refactor. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-2/2014) ao estabelecer que "TDD − XP − ATDD − BDD".
 >
-> **Gabarito: A**
+> **Gabarito: E**
 
 ---
 
 ### Teste 050
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A disciplina do Desenvolvimento Orientado por Testes (*Test-Driven Development* - TDD), preconizada por Kent Beck na metodologia Extreme Programming, estrutura a atividade de programação em torno de microiterações sistemáticas e disciplinadas conhecidas como o ciclo *Red-Green-Refactor*. A correta sequência de ações que define esse ciclo canônico estabelece que o desenvolvedor deve:
+**(FCC – TRT-24 – Analista Judiciario Tecnologia da Informacao – 2017)**
+As principais medidas de um teste incluem: I. medida da abrangência do teste que é expressa pela abrangência dos requisitos e casos de teste ou pela abrangência do código executado. II. medida de confiabilidade, de estabilidade e de desempenho do objetivo do teste (sistema ou aplicativo em teste), que se baseia na avaliação dos resultados do teste e na análise das solicitações de mudança (defeitos) identificadas durante o teste. É correto afirmar que I e II correspondem, correta e respectivamente, a
 
-* **A)** 1. Escrever um teste unitário automatizado que falha porque a funcionalidade ainda não foi implementada (Red); 2. Escrever o código mínimo necessário de produção para fazer o teste passar com sucesso (Green); 3. Aperfeiçoar o design e a legibilidade do código, eliminando duplicações, assegurando que todos os testes continuem passando (Refactor).
-* **B)** 1. Escrever o código completo de produção em camada de controle (Green); 2. Analisar falhas de compilação em tempo de execução (Red); 3. Otimizar as tabelas do banco de dados relacional (Refactor).
-* **C)** 1. Refatorar classes legadas sem cobertura de testes automatizados (Refactor); 2. Escrever testes exploratórios manuais na interface com o usuário (Red); 3. Publicar o incremento em produção assistida (Green).
-* **D)** 1. Gerar relatórios automatizados de violação de cobertura com SonarQube (Red); 2. Submeter pull request para autorização do comitê diretivo (Green); 3. Reescrever a documentação funcional do sistema (Refactor).
-* **E)** 1. Codificar os métodos de produção e as classes de teste de forma simultânea e acoplada no mesmo arquivo fonte (Green); 2. Aguardar a execução noturna da esteira CI/CD (Red); 3. Limpar variáveis de ambiente (Refactor).
-
+* **A)** Prioridade e Gravidade.
+* **B)** Detecção de Origem e Permanência de Defeitos.
+* **C)** Requisitos e Resultados.
+* **D)** Cobertura e Qualidade.
+* **E)** Tendência e Densidade.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) CORRETA.** O ciclo mestre do **TDD** é estruturado estritamente em três fases consecutivas:
->     1. **Red:** Escreve-se um teste unitário automatizado que expressa o comportamento desejado. O teste falha compulsoriamente (ficando vermelho), pois a funcionalidade ainda não existe;
->     2. **Green:** Escreve-se o código de produção estritamente mínimo e indispensável para fazer o teste passar (ficando verde);
->     3. **Refactor:** Aperfeiçoa-se a qualidade interna do código (eliminando duplicações, melhorando nomenclatura e arquitetura), mantendo a garantia de segurança de que a suíte de testes permanece verde.
-> - **B) Incorreta.** Inverte a ordem lógica: no TDD o teste sempre nasce antes do código funcional.
-> - **C) Incorreta.** Refatorar código sem a retaguarda de testes automatizados é violação das premissas de engenharia segura.
-> - **D) Incorreta.** Distorção com burocracias e ferramentas periféricas que não representam o ciclo ágil de TDD.
-> - **E) Incorreta.** Testes e código de produção residem em estruturas de diretórios segregadas (`src/main` e `src/test`), e a iteração do ciclo ocorre em questão de segundos a minutos.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Prioridade e Gravidade". De acordo com a teoria estudada em *3.2 Testes de Desempenho: Carga vs. Estresse vs. Pico vs. Resistência*, modalidade de Teste: Volume de Tráfego / Carga Injetada — Objetivo Específico da Avaliação.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Detecção de Origem e Permanência de Defeitos". De acordo com a teoria estudada em *1.4 Manutenibilidade e Facilidade de Mudança*, a manutenibilidade reflete a facilidade e a eficiência com que o software pode ser modificado pelos desenvolvedores para corrigir defeitos, melhorar o desempenho ou adaptar o sistema a mudanças no ambiente de negócio. Subdivide-se em.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Requisitos e Resultados". De acordo com a teoria estudada em *1. Atributos e Métricas de Qualidade de Software (ISO/IEC 25010)*, a norma internacional ISO/IEC 25010 (evolução da ISO 9126) define o modelo de qualidade de produto de software, estruturado em oito características fundamentais: adequação funcional, eficiência de desempenho, compatibilidade, usabilidade, confiabilidade, segurança, manutenibilidade e portabilidade.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.4 Manutenibilidade e Facilidade de Mudança* deste guia, modificabilidade: Facilidade com que o software pode ser modificado sem introduzir novos defeitos ou degradar a qualidade existente. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-24/2017) ao estabelecer que "Cobertura e Qualidade".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Tendência e Densidade". De acordo com a teoria estudada em *2.3 Testes de Caixa-Preta (Funcionais) vs. Testes de Caixa-Branca (Estruturais)*, *Critérios de Cobertura:* Cobertura de comandos (*Statement Coverage*), cobertura de decisões/desvios (*Branch Coverage*) e cobertura de caminhos independentes.
 >
-> **Gabarito: A**
+> **Gabarito: D**
 
 ---
 
@@ -472,81 +420,74 @@ flowchart TD
 ---
 
 ### Teste 051
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Em equipes de desenvolvimento de alta maturidade em Tribunais de Contas, a Revisão de Código (*Code Review*) por pares via *Pull Requests* associada à Análise Estática de Código compõe uma política essencial de controle de qualidade e governança. Em relação aos fundamentos dessas práticas de engenharia de software, é correto afirmar:
+**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Desenvolvimento de Sistemas – 2023)**
+Analise o código Java a seguir, no qual foi ocultada a segunda linha de código. abstract class X { --- public void exibe() { System.out.println("Concluído"); } } class Z extends X { public void X1(String P) { System.out.println(P); } } class Main { public static void main(String[] args) { Z objZ = new Z(); objZ.X1("OK"); objZ.exibe(); } } O trecho que substitui corretamente a linha tracejada é:
 
-* **A)** As ferramentas de análise estática de código examinam o código-fonte ou binários compilados sem executá-los dinamicamente, identificando potenciais falhas de segurança conhecidas, violações de diretrizes de codificação, duplicações de trechos e índices excessivos de complexidade ciclomática.
-* **B)** A análise estática de código exige compulsoriamente que o software esteja em execução ativa em ambiente de produção sob carga real de requisições.
-* **C)** A revisão de código por pares (*Code Review*) destina-se exclusivamente a medir o tempo e a quantidade nominal de linhas escritas por cada programador para subsidiar avaliações de desempenho individual.
-* **D)** A adoção de ferramentas automatizadas de análise estática de qualidade dispensa inteiramente a necessidade de testes funcionais e de integração na esteira CI/CD.
-* **E)** As análises de código devem ser executadas com periodicidade exclusivamente anual no encerramento de cada exercício contábil.
-
+* **A)** public abstract void X1(String P);
+* **B)** public static void X1(String P);
+* **C)** public String X1(String P);
+* **D)** public void X1(String P);
+* **E)** public X1(String P);
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) CORRETA.** A **Análise Estática de Código** (executada por ferramentas como SonarQube, Checkstyle e linters) analisa o código sem executá-lo, detectando antecipadamente *code smells*, riscos de segurança (vulnerabilidades OWASP), código duplicado, violações de padrões arquiteturais e métricas de complexidade e acoplamento.
-> - **B) Incorreta.** Inversão conceitual: o exame com o software em execução dinâmica sob carga caracteriza a **Análise Dinâmica de Código** (DAST / profiling), não a análise estática.
-> - **C) Incorreta.** Code Review é uma prática colaborativa voltada a assegurar qualidade técnica, aderência a padrões arquiteturais e disseminação de conhecimento, não uma ferramenta punitiva de medição de linhas de código.
-> - **D) Incorreta.** A análise estática identifica defeitos estruturais e estilísticos, mas é incapaz de testar a lógica dinâmica de execução de regras de negócio, que depende de testes funcionais.
-> - **E) Incorreta.** Práticas modernas de DevOps incorporam a análise estática e o code review continuamente a cada *commit* ou *pull request*.
+> - **A)** **Correta.** Conforme fundamentado na seção *4.2 Refatoração de Código e os "Maus Cheiros" (Code Smells) de Fowler* deste guia, *Método Longo (*Long Method*):* Métodos com centenas de linhas de código. Técnica de correção: Extract Method (extrair trecho para novo método nomeado). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "public abstract void X1(String P)".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "public static void X1(String P)". De acordo com a teoria estudada em *4.2 Refatoração de Código e os "Maus Cheiros" (Code Smells) de Fowler*, *Classe Grande / Objeto Deus (*Large Class / God Class*):* Classe que acumula responsabilidades demais. Correção: Extract Class.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "public String X1(String P)". De acordo com a teoria estudada em *2.1 A Pirâmide de Testes de Mike Cohn*, unitário: Milissegundos — Muito baixo — Linha exata do código / método — Total (isola com Stubs/Mocks).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "public void X1(String P)". De acordo com a teoria estudada em *2.2 Dublês de Teste (Test Doubles de Gerard Meszaros)*, nos testes unitários, para isolar a unidade sob teste (*System Under Test - SUT*) de dependências pesadas, instáveis ou lentas (bancos de dados, serviços web externos, sistemas de arquivos), empregam-se Dublês de Teste.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "public X1(String P)". De acordo com a teoria estudada em *2.3 Testes de Caixa-Preta (Funcionais) vs. Testes de Caixa-Branca (Estruturais)*, *Análise do Valor Limite (BVA):* Testa valores situados exatamente nas fronteiras e adjacências das partições (ex.: se o intervalo aceito é de 18 a 65 anos, testa-se 17, 18, 19, 64, 65 e 66 anos).
 >
 > **Gabarito: A**
 
 ---
 
 ### Teste 052
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A respeito da técnica de refatoração (*refactoring*) de código em engenharia de software e de sua aplicação na prevenção e pagamento de débitos estruturais, assinale a afirmativa tecnicamente correta:
+**(FGV – TRT-16 – Analista Judiciario Area Administrativa Tecnologia da Informacao – 2022)**
+Considerando o DevOps e suas boas práticas, analise os itens a seguir: I. Testes integrados são uma parte importante do processo DevOps. Esses testes devem levar em consideração as práticas de Test-Driven Development e Behavior-Driven Development, dessa forma a execução automática desses testes pode ser integrada ao pipeline de CI. No entanto, é importante integrar outros tipos de testes, como testes funcionais ou testes de integração, que permitem que o aplicativo seja testado funcionalmente do início ao fim com os outros componentes do seu ecossistema. II. Recomenda-se automatizar apenas as tarefas críticas que envolvam poucas atualizações na implementação e nos testes dos aplicativos nas infraestruturas. Essas tarefas devem ser automatizadas em scripts que podem ser facilmente integradas e executadas em pipelines de CI/CD. III. A construção de pipelines de CI/CD envolvem a escolha de ferramentas de DevOps adequadas pelas equipes considerando a natureza da empresa. E necessário levar em conta aspectos financeiros, avaliar entre ferramentas de código aberto e gratuitas e as proprietárias, que são mais ricas em recursos e suporte, mas exigem um investimento significativo. Está correto apenas o que se afirma em
 
-* **A)** A refatoração consiste no processo de alterar a estrutura interna de um software para torná-lo mais compreensível e manutenível, reduzindo seu custo de evolução, sem que haja modificação no seu comportamento observável externo.
-* **B)** A refatoração caracteriza-se compulsoriamente pela inclusão de novos requisitos de negócio demandados pelos usuários na iteração em andamento.
-* **C)** O termo dívida técnica refere-se exclusivamente aos custos financeiros contratuais e contingências tributárias de licenciamento de software proprietário.
-* **D)** A metodologia do desenvolvimento guiado por testes (TDD) proíbe a realização de refatorações de código após a aprovação da suíte de testes unitários.
-* **E)** A presença de classes gigantes (*God Classes*) e métodos extensos repletos de responsabilidades dispersas é considerada um padrão arquitetural desejável em sistemas corporativos.
-
+* **A)** I e III.
+* **B)** I.
+* **C)** I e II.
+* **D)** II e III.
+* **E)** II.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) CORRETA.** Definição formal cunhada por Martin Fowler: a **Refatoração (*Refactoring*)** é uma modificação na estrutura interna do software para torná-lo mais fácil de entender e mais barato de modificar, **sem alterar o seu comportamento observável externo** (as entradas produzem rigorosamente as mesmas saídas esperadas).
-> - **B) Incorreta.** Se há alteração de comportamento observável ou inclusão de novos requisitos de negócio, não se trata de refatoração pura, mas de desenvolvimento evolutivo de novas funcionalidades.
-> - **C) Incorreta.** Dívida Técnica (*Technical Debt*) é uma metáfora técnica de engenharia de software para custos ocultos de manutenção e retrabalho decorrentes de atalhos e código mal estruturado.
-> - **D) Incorreta.** Pelo contrário: o passo *Refactor* é a terceira etapa obrigatória do ciclo canônico do TDD (*Red-Green-Refactor*).
-> - **E) Incorreta.** God classes e métodos longos constituem graves *code smells* (sintomas de má qualidade) que violam o princípio da responsabilidade única.
+> - **A)** **Correta.** Conforme fundamentado na seção *3.3 Práticas de TDD (Test-Driven Development) e BDD (Behavior-Driven Development)* deste guia, *Green:* Escrever o código mais simples possível apenas para fazer o teste passar com sucesso. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-16/2022) ao estabelecer que "I e III".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I". De acordo com a teoria estudada em *3.3 Práticas de TDD (Test-Driven Development) e BDD (Behavior-Driven Development)*, *Refactor:* Limpar o código-fonte, eliminar duplicações e aperfeiçoar o design, garantindo que a suíte de testes continue verde.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e II". De acordo com a teoria estudada em *3.3 Práticas de TDD (Test-Driven Development) e BDD (Behavior-Driven Development)*, *Red:* Escrever um teste automatizado que falha antes de escrever o código de produção.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II e III". De acordo com a teoria estudada em *3.3 Práticas de TDD (Test-Driven Development) e BDD (Behavior-Driven Development)*, tDD (Desenvolvimento Guiado por Testes): Técnica de engenharia de software fundamentada no ciclo rápido e iterativo de três fases: Red \$\rightarrow\$ Green \$\rightarrow\$ Refactor.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II". De acordo com a teoria estudada em *3.3 Práticas de TDD (Test-Driven Development) e BDD (Behavior-Driven Development)*, bDD (Desenvolvimento Guiado por Comportamento): Evolução colaborativa do TDD focada na linguagem ubíqua e no comportamento do sistema sob a ótica do negócio. Expressa cenários no formato Given-When-Then (*Dado que... Quando... Então...* - sintaxe Gherkin).
 >
 > **Gabarito: A**
 
 ---
 
 ### Teste 053
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O conceito de Dívida Técnica (*Technical Debt*), cunhado originariamente por Ward Cunningham e categorizado no célebre "Quadrante da Dívida Técnica" por Martin Fowler, estabelece uma analogia entre decisões arquiteturais apressadas e empréstimos financeiros. No quadrante de Fowler, quando uma equipe técnica de desenvolvimento adota conscientemente uma solução temporária simplificada para atender a um prazo legal inadiável fixado pelo Tribunal de Contas, mantendo pleno conhecimento das deficiências técnicas da solução e planejando seu pagamento nas Sprints subsequentes de estabilização, essa dívida é classificada como:
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Ciencias da Computacao Sistemas de Informacao – 2026)**
+O Tribunal adotou o Test-Driven Development (TDD) para garantir a qualidade do código nos sistemas de cálculo de pensões. Um auditor está revisando o processo de desenvolvimento e quer validar se a equipe segue o ciclo padrão do TDD. A sequência correta de passos no ciclo Red-Green-Refactor do TDD é:
 
-* **A)** Prudente e Deliberada.
-* **B)** Imprudente e Inadvertida.
-* **C)** Imprudente e Deliberada.
-* **D)** Prudente e Inadvertida.
-* **E)** Acidental e Irreversível.
-
+* **A)** escrever o código, testar se funciona e depois documentar.
+* **B)** escrever um teste que falha, escrever o código mínimo para o teste passar e melhorar o código.
+* **C)** refatorar o código antigo, escrever novos testes e apagar os testes que falham.
+* **D)** desenvolver a interface, integrar a base de dados, escrever o teste e realizar testes de carga.
+* **E)** documentar os requisitos, codificar em par e realizar o deploy em produção.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) CORRETA.** No **Quadrante da Dívida Técnica de Martin Fowler** (cruzando os eixos Prudente/Imprudente com Deliberada/Inadvertida):
->     - **Prudente e Deliberada:** A equipe possui alto conhecimento técnico, calcula conscientemente o custo-benefício de antecipar a entrega (*"precisamos lançar a solução agora para atender ao prazo legal; sabemos as limitações e pagaremos esse débito na próxima Sprint"*);
->     - **Imprudente e Deliberada:** A equipe ignora as boas práticas por preguiça ou desleixo (*"não temos tempo para arquitetura ou testes, entregue de qualquer jeito"*);
->     - **Imprudente e Inadvertida:** A equipe desconhece práticas básicas de engenharia (*"o que são princípios SOLID ou testes automatizados?"*);
->     - **Prudente e Inadvertida:** A equipe aplica as melhores práticas, mas, após a entrega, aprende novos aspectos sobre o domínio que revelam como o sistema poderia ter sido desenhado de forma melhor.
-> - **B) Incorreta.** "Imprudente e Inadvertida" decorre da inexperiência e desconhecimento da equipe.
-> - **C) Incorreta.** "Imprudente e Deliberada" ocorre quando atalhos de má qualidade são adotados por descaso, sem planos de pagamento.
-> - **D) Incorreta.** "Prudente e Inadvertida" ocorre quando a percepção da dívida surge apenas a posteriori por evolução do conhecimento do time.
-> - **E) Incorreta.** Classificação inexistente no quadrante conceitual de Fowler.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "escrever o código, testar se funciona e depois documentar". De acordo com a teoria estudada em *3.3 Práticas de TDD (Test-Driven Development) e BDD (Behavior-Driven Development)*, *Red:* Escrever um teste automatizado que falha antes de escrever o código de produção.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "escrever um teste que falha, escrever o código mínimo para o teste passar e melhorar o código". De acordo com a teoria estudada em *3.3 Práticas de TDD (Test-Driven Development) e BDD (Behavior-Driven Development)*, *Green:* Escrever o código mais simples possível apenas para fazer o teste passar com sucesso.
+> - **C)** **Correta.** Conforme fundamentado na seção *3.3 Práticas de TDD (Test-Driven Development) e BDD (Behavior-Driven Development)* deste guia, tDD (Desenvolvimento Guiado por Testes): Técnica de engenharia de software fundamentada no ciclo rápido e iterativo de três fases: Red \$\rightarrow\$ Green \$\rightarrow\$ Refactor. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "refatorar o código antigo, escrever novos testes e apagar os testes que falham".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "desenvolver a interface, integrar a base de dados, escrever o teste e realizar testes de carga". De acordo com a teoria estudada em *3.3 Práticas de TDD (Test-Driven Development) e BDD (Behavior-Driven Development)*, *Refactor:* Limpar o código-fonte, eliminar duplicações e aperfeiçoar o design, garantindo que a suíte de testes continue verde.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "documentar os requisitos, codificar em par e realizar o deploy em produção". De acordo com a teoria estudada em *4.1 Técnicas Modernas de Revisão de Código (Code Review)*, antes de realizar o *merge* para a branch principal, outros desenvolvedores inspecionam o diff, verificam aderência a padrões arquiteturais, segurança e ausência de code smells.
 >
-> **Gabarito: A**
+> **Gabarito: C**
 
 ---
 

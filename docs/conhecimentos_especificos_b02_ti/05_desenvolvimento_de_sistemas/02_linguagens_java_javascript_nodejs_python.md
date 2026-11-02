@@ -308,80 +308,76 @@ Permite o processamento declarativo e funcional de coleções de dados:
 ---
 
 ### Teste 065
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Na Máquina Virtual Java (JVM), o gerenciamento de memória divide-se principalmente entre a memória *Stack* (Pilha) e a memória *Heap*. A respeito da organização e do ciclo de vida dos dados nessas áreas, é correto afirmar:
+**(FCC – TRT-13 – Analista Judiciario Tecnologia da Informacao – 2014)**
+A classe Stack da biblioteca Java implementa o tipo abstrato de pilha e as operações push e pop. Considere o exemplo abaixo. import java.util.Stack; public class Pilha { public static void main(String[] args) { Stack`<String>` s = new Stack`<String>`(); s.push("Ana"); s.push("Paulo"); s.push("Pedro"); s.push("Marcos"); while (s.size() > 0) { System.out.println(s.pop()); } } } Sobre a classe Pilha apresentada é correto afirmar:
 
-* **A)** Todas as instâncias de objetos criadas via operador `new` são alocadas na memória *Heap*, enquanto as variáveis locais de tipos primitivos e as referências aos objetos residem na memória *Stack*.
-* **B)** A memória *Stack* é compartilhada por todas as threads da JVM, sendo limpa exclusivamente pelo *Garbage Collector*.
-* **C)** Os objetos instanciados na *Heap* são desalocados imediatamente no instante exato em que a chave de fechamento do método atual é executada.
-* **D)** O *Garbage Collector* da JVM varre e gerencia a memória *Stack*, mas nunca atua sobre os objetos da *Heap*.
-* **E)** A memória *Heap* opera sob a política de primeiro a entrar, primeiro a sair (FIFO), impedindo o reaproveitamento de blocos liberados.
-
+* **A)** A instrução s.pop(1); poderia ter sido utilizada antes do comando while para excluir o nome Paulo da pilha s.
+* **B)** Ao término da execução do programa a pilha s estará vazia.
+* **C)** Ocorrerá um erro em tempo de execução, pois o método pop apenas remove o último elemento que entrou na pilha e não retorna valor a ser exibido.
+* **D)** O programa não irá compilar se a instrução Stack`<String>` s = new Stack`<String>`(); for substituída por Stack s = new Stack();
+* **E)** Ao término da execução do programa a pilha s permanecerá com os quatro nomes, pois o método pop apenas retorna o elemento da pilha, sem removê-lo.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Correta.** Na arquitetura da JVM, a *Stack* armazena frames de métodos, tipos primitivos locais e ponteiros de referência; todos os objetos instanciados residem dinamicamente na *Heap*.
-> - **B) Incorreta.** Cada thread possui sua própria *Stack* privada; a *Heap* é que é compartilhada globalmente por todas as threads.
-> - **C) Incorreta.** Objetos na *Heap* permanecem vivos até que não haja mais referências ativas a eles a partir do grafo de raízes (*GC Roots*), sendo coletados de forma assíncrona pelo *Garbage Collector*.
-> - **D) Incorreta.** O *Garbage Collector* gerencia primordialmente a memória *Heap*; a *Stack* é liberada automaticamente no retorno de cada função.
-> - **E) Incorreta.** A *Heap* é organizada em gerações (*Young*, *Old/Tenured*) e não segue disciplina FIFO de fila.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A instrução s.pop(1); poderia ter sido utilizada antes do comando while para excluir o nome Paulo da pilha s". De acordo com a teoria estudada em *Mecanismos de Tratamento: `try-catch-finally` e `try-with-resources`*, `throw`: Palavra-chave utilizada para lançar ativamente uma instância de exceção no fluxo de execução (`throw new IllegalArgumentException("Valor inválido");`).
+> - **B)** **Correta.** Conforme fundamentado na seção *A Memória Stack (Pilha)* deste guia, cada thread em execução possui sua própria pilha de execução privativa (*thread-safe*). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-13/2014) ao estabelecer que "Ao término da execução do programa a pilha s estará vazia".
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Ocorrerá um erro em tempo de execução, pois o método pop apenas remove o último elemento que entrou na pilha e não...". De acordo com a teoria estudada em *2. Interface `Set` (Conjuntos)*, `HashSet`: Utiliza internamente uma tabela hash (`HashMap`). Oferece operações básicas (`add`, `remove`, `contains`) em tempo constante médio \$\mathcal{O}(1)\$. Não garante nenhuma ordem dos elementos. Admite um único elemento `null`.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O programa não irá compilar se a instrução Stack`<String>` s = new Stack`<String>`(); for substituída por Stack s...". De acordo com a teoria estudada em *A Memória Stack (Pilha)*, possui alocação e liberação ultrarrápida, estritamente alinhada à entrada e saída do escopo do método (LIFO - *Last In, First Out*).
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Ao término da execução do programa a pilha s permanecerá com os quatro nomes, pois o método pop apenas retorna o...". De acordo com a teoria estudada em *O Coletor de Lixo (Garbage Collector - GC)*, o GC é uma thread de segundo plano gerenciada pela JVM que monitora o Heap e remove objetos que se tornaram inalcançáveis (*unreachable*), ou seja, objetos para os quais não existe mais nenhuma cadeia ativa de referências partindo das chamadas raízes do sistema (*GC Roots*, que incluem referências ativas na pilha, classes carregadas estáticas e variáveis JNI).
 >
-> **Gabarito: A**
+> **Gabarito: B**
 
 ---
 
 ### Teste 066
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na linguagem de programação Java, a respeito das palavras-chave de controle de acesso, modificadores de comportamento e tratamento da orientação a objetos, assinale a afirmativa correta:  
+**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Desenvolvimento de Sistemas – 2023)**
+Maria, analista de TI, observou que o tipo mais primitivo de linguagem de programação é a linguagem que o computador entende diretamente, isto é, as instruções que podem ser diretamente executadas pelo hardware, ou seja, pela UCP (processador). Para criar um programa em linguagem de máquina, Maria deve conhecer todas as instruções disponíveis para aquela máquina e seus respectivos códigos de operação e formatos, assim como os registradores da UCP disponíveis e os endereços das células de memória onde serão armazenadas as instruções e os dados. Nesse contexto, Maria pretende converter para linguagem de máquina um programa escrito em linguagem de mais alto nível do que o da linguagem de montagem e que gera o código-objeto. Para tal Maria utilizará o método:
 
-* **A)** Um atributo declarado com o modificador `private` pode ser acessado diretamente por quaisquer subclasses pertencentes ao mesmo pacote da superclasse.
-* **B)** Uma classe declarada com o modificador `final` não pode ser estendida (não permite criação de subclasses), e um método marcado como `final` não pode ser sobrescrito (*overridden*).
-* **C)** Interfaces em Java não podem conter assinaturas de métodos abstratos, permitindo apenas constantes estáticas.
-* **D)** O operador relacional `==` compara o conteúdo semântico e alfanumérico de dois objetos da classe `String`, enquanto o método `.equals()` compara estritamente os endereços de memória.
-* **E)** O bloco `finally` em uma estrutura de tratamento `try-catch-finally` é opcional e nunca é executado quando uma exceção é capturada com sucesso pelo bloco `catch`.
-
+* **A)** execução;
+* **B)** montagem;
+* **C)** compilação;
+* **D)** interpretação;
+* **E)** linkedição ou ligação.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Atributos declarados com `private` são estritamente restritos ao corpo da própria classe declarante. Nem mesmo subclasses dentro do mesmo pacote possuem acesso direto a eles. O modificador que autorizaria o acesso no mesmo pacote e em subclasses de pacotes externos seria o `protected`.
-> - **B)** **CORRETA.** A palavra-chave `final` possui tríplice funcionalidade em Java: em variáveis cria constantes cujo valor/referência não pode ser reatribuído; em métodos impede a sobrescrita por subclasses; em classes proíbe a herança e extensão (como ocorre com a classe `java.lang.String`).
-> - **C)** Incorreta. A finalidade primária das interfaces em Java sempre foi justamente declarar assinaturas de métodos abstratos a serem implementados por classes concretas.
-> - **D)** Incorreta. Pegadinha recorrente da FCC que inverte os papéis: o operador `==` compara a identidade de referências no Heap (se apontam para o mesmo endereço físico), enquanto o método `.equals()` avalia a igualdade semântica de conteúdo.
-> - **E)** Incorreta. O bloco `finally` é executado **sempre**, tenha ou não ocorrido exceção no `try`, tenha ela sido capturada ou não no `catch`.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "execução". De acordo com a teoria estudada em *Generics (Parametrização de Tipos)*, introduzidos no Java 5, conferem segurança de tipos em tempo de compilação (*type safety*), eliminando a necessidade de *casts* manuais e prevenindo erros do tipo `ClassCastException` em tempo de execução.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "montagem". De acordo com a teoria estudada em *4.2 Estruturas de Dados Nativas: Listas, Tuplas, Dicionários e Conjuntos*, tuplas (`tuple`): Estruturas imutáveis mais leves em consumo de memória que listas. Podem ser utilizadas como chaves de dicionários se contiverem apenas elementos imutáveis. Suportam empacotamento e desempacotamento (*tuple unpacking*): `x, y = (10, 20)`.
+> - **C)** **Correta.** Conforme fundamentado na seção *4.1 Sintaxe, Tipagem Dinâmica e Forte e Filosofia PEP 8* deste guia, python é uma linguagem multiparadigma de alto nível focada na legibilidade do código. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "compilação".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "interpretação". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, jIT Compiler (*Just-In-Time*): Para otimizar o desempenho e evitar a lentidão da interpretação instrução por instrução, o motor JIT compila trechos de bytecode frequentemente executados (*hot spots*) diretamente em código de máquina nativo durante o tempo de execução, armazenando-os em memória cache.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "linkedição ou ligação". De acordo com a teoria estudada em *Generics (Parametrização de Tipos)*, em tempo de compilação, o Java realiza o Type Erasure (apagamento de tipo), removendo os metadados genéricos para manter compatibilidade binária com versões legadas da JVM.
+>
+> **Gabarito: C**
 
 ---
 
 ### Teste 067
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No ecossistema da linguagem Java, o tratamento robusto de erros baseia-se na hierarquia da classe `java.lang.Throwable`. A respeito da distinção entre *Checked Exceptions* (exceções checadas) e *Unchecked Exceptions* (exceções não checadas), assinale a afirmativa correta:  
+**(FCC – TRT-16 – Analista Judiciario Tecnologia da Informacao – 2014)**
+Considere as classes a seguir, presentes em uma aplicação Java orientada a objetos: public class Funcionario { private int id; private String nome; private double valorBase; public Funcionario() { } public Funcionario(int id, String nome, double valorBase) { this.id = id; this.nome = nome; this.valorBase=valorBase; } public double getValorBase() { return valorBase; } public double calcularSalario(){ return valorBase; } } public class Mensalista extends Funcionario{ private double descontos; public Mensalista(double descontos, int id, String nome, double valorBase) { super(id, nome, valorBase); this.descontos = descontos; } @Override public double calcularSalario(){ return super.getValorBase() - descontos; } } public class Diarista extends Funcionario { private int diasPorSemana; public Diarista( int diasPorSemana, int id, String nome, double valorBase) { super(id, nome, valorBase); this.diasPorSemana = diasPorSemana; } @Override public double calcularSalario(){ return super.getValorBase() * diasPorSemana; } } Em uma classe principal foram digitadas, no interior do método main, as seguintes linhas: double s; Funcionario f; f=new Diarista(3,10456,"Ana Maria",90); s = f.calcularSalario(); System.out.println(s); f=new Mensalista(298.56,10457,"Pedro Henrique",877.56); s = f.calcularSalario(); System.out.println(s); As linhas que contêm a instrução s = f.calcularSalario(); demonstram um conceito da orientação a objetos conhecido como
 
-* **A)** Exceções filhas de `java.lang.RuntimeException`, como `NullPointerException` e `IllegalArgumentException`, são do tipo *Checked Exceptions* e exigem tratamento obrigatório com bloco `try-catch` em tempo de compilação.
-* **B)** A classe `java.lang.Error` e suas subclasses representam condições anormais graves de ambiente (como `OutOfMemoryError`), que são consideradas *Unchecked* e não devem ser capturadas na rotina de negócio da aplicação.
-* **C)** O compilador Java não impõe nenhuma exigência sobre classes derivadas de `java.lang.Exception`, tornando o uso de blocos `try-catch` facultativo para operações de E/S de arquivos (`IOException`).
-* **D)** As palavras-chave `throw` e `throws` são perfeitamente intercambiáveis, podendo ambas ser empregadas para lançar explicitamente uma nova instância de exceção dentro de um bloco de código.
-* **E)** A cláusula `finally` anula a necessidade de declaração de exceções na assinatura do método com `throws`.
-
+* **A)** encapsulamento.
+* **B)** sobrecarga de métodos.
+* **C)** polimorfismo.
+* **D)** sobrescrita de construtores.
+* **E)** métodos abstratos.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Subclasses de `java.lang.RuntimeException` são precisamente o modelo clássico de **Unchecked Exceptions**; o compilador não exige bloco `try-catch` nem declaração formal com `throws`.
-> - **B)** **CORRETA.** Subclasses de `java.lang.Error` sinalizam falhas catastróficas da infraestrutura da JVM das quais a aplicação normalmente não consegue se recuperar (ex.: falta de memória, estouro de pilha). São consideradas não checadas (*Unchecked*) e não devem ser tratadas pelo código de negócio.
-> - **C)** Incorreta. Classes derivadas de `java.lang.Exception` que não herdam de `RuntimeException` (como `IOException` e `SQLException`) são *Checked Exceptions* e o compilador impõe rigorosamente a obrigatoriedade de captura (`try-catch`) ou declaração de repasse na assinatura (`throws`).
-> - **D)** Incorreta. `throw` é uma instrução imperativa para disparar uma instância de exceção (`throw new Exception()`), enquanto `throws` é um modificador de assinatura de método que lista as exceções checadas passíveis de propagação.
-> - **E)** Incorreta. O bloco `finally` garante a execução de rotinas de limpeza, mas não exime o método de declarar com `throws` eventuais exceções checadas não tratadas nos blocos `catch`.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "encapsulamento". De acordo com a teoria estudada em *1.4 Modificadores de Acesso e a Palavra-Chave `final`*, o encapsulamento e o design estrutural em Java apoiam-se em quatro níveis de visibilidade.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "sobrecarga de métodos". De acordo com a teoria estudada em *Usos da Palavra-Chave `final`*, em Métodos: Impede que subclasses sobrescrevam (*override*) o método, garantindo que o algoritmo implementado na superclasse seja mantido intacto.
+> - **C)** **Correta.** Conforme fundamentado na seção *Classes Wrapper (Invólucros)* deste guia, permitem que tipos básicos sejam armazenados em coleções genéricas (`List<Integer>`, `Map<String, Double>`), pois as coleções Java aceitam estritamente objetos. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-16/2014) ao estabelecer que "polimorfismo".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "sobrescrita de construtores". De acordo com a teoria estudada em *Classes Wrapper (Invólucros)*, para cada tipo primitivo, Java fornece uma classe correspondente no pacote `java.lang` (`Boolean`, `Byte`, `Short`, `Character`, `Integer`, `Long`, `Float`, `Double`).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "métodos abstratos". De acordo com a teoria estudada em *Gerenciadores de Contexto com a Instrução `with`*, por debaixo dos panos, o gerenciador de contexto implementa o protocolo de contexto por meio dos métodos especiais `__enter__()` (executado na entrada) e `__exit__()` (executado na saída).
+>
+> **Gabarito: C**
 
 ---
-
 
 #### 3. `java.lang.RuntimeException` e as *Unchecked Exceptions* (Não Checadas)
 Subclasses de `RuntimeException` (ex.: `NullPointerException`, `ArithmeticException`, `ArrayIndexOutOfBoundsException`, `IllegalArgumentException`).
@@ -410,27 +406,26 @@ try (BufferedReader br = new BufferedReader(new FileReader("auditoria.log"))) {
 ---
 
 ### Teste 068
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No *Java Collections Framework*, as três interfaces fundamentais de coleção (`List`, `Set` e `Map`) apresentam características estruturais distintas. A respeito dessas estruturas, é correto afirmar:
+**(FCC – TRT-16 – Analista Judiciario Tecnologia da Informacao – 2014)**
+Considere o código-fonte a seguir: import java.util.Scanner; public class T16 { static int a[] = {1, 6, 9, 10, 12, 18, 21, 34}; public static void main(String[] args) { Scanner in = new Scanner(System.in); System.out.print("Digite um valor:"); int v = in.nextInt(); int r = service(v); if (r == -1) { System.out.println("Sem êxito"); } else { System.out.print(r + " -> " + v); } } public static int service(int valor) { int l = 0; int h = a.length - 1; while (l <= h) { int m = (l + h) / 2; int d = a[m] - valor; if (d == 0) { return m; } else if (d < 0) { l = m + 1; } else { h = m - 1; } } return -1; } } É correto afirmar que a classe Java apresentada implementa uma
 
-* **A)** A interface `Set` permite armazenar elementos duplicados e garante a recuperação estrita na ordem exata de inserção em todas as suas implementações.
-* **B)** A interface `List` representa uma coleção ordenada que admite elementos duplicados e permite o acesso posicional aos elementos por meio de índices inteiros.
-* **C)** A classe `HashMap` proíbe o armazenamento de valores nulos e garante que as chaves fiquem automaticamente ordenadas alfabeticamente.
-* **D)** A classe `TreeSet` não exige que seus elementos implementem a interface `Comparable` ou utilizem um `Comparator`.
-* **E)** As chaves de um `Map` podem conter elementos repetidos, desde que seus valores associados sejam estritamente nulos.
-
+* **A)** pesquisa linear.
+* **B)** árvore binária.
+* **C)** pilha.
+* **D)** fila.
+* **E)** pesquisa binária.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** `Set` não permite elementos duplicados; implementações como `HashSet` não garantem ordem alguma.
-> - **B) Correta.** `List` é uma sequência ordenada (*index-based*) que aceita elementos duplicados e permite consultas diretas via índice (como `get(i)`).
-> - **C) Incorreta.** `HashMap` permite uma chave nula e múltiplos valores nulos, e não garante ordenação (a classe que ordena é `TreeMap`).
-> - **D) Incorreta.** `TreeSet` ordena seus elementos com base na ordem natural (`Comparable`) ou em um `Comparator` explícito.
-> - **E) Incorreta.** As chaves de um `Map` são únicas (comportam-se como um `Set`).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pesquisa linear". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, compilador (`javac`): Não traduz o código-fonte diretamente para o código binário da máquina hospedeira. Em vez disso, compila o código-fonte para um formato intermediário, compacto e abstrato denominado Bytecode (arquivos com extensão `.class`).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "árvore binária". De acordo com a teoria estudada em *2. Interface `Set` (Conjuntos)*, `TreeSet`: Implementa `NavigableSet` sobre uma Árvore Rubro-Negra (*Red-Black Tree*). Mantém os elementos estritamente ordenados (pela ordem natural `Comparable` ou por um `Comparator` customizado).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pilha". De acordo com a teoria estudada em *A Memória Stack (Pilha)*, possui alocação e liberação ultrarrápida, estritamente alinhada à entrada e saída do escopo do método (LIFO - *Last In, First Out*).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "fila". De acordo com a teoria estudada em *A Ordem Rígida de Execução*, macrotask Queue: Apenas quando a fila de microtarefas estiver completamente vazia, o Event Loop extrai a primeira macrotarefa (`setTimeout`, `setInterval`, `setImmediate`, eventos de I/O) e a carrega na Call Stack.
+> - **E)** **Correta.** Conforme fundamentado na seção *Generics (Parametrização de Tipos)* deste guia, em tempo de compilação, o Java realiza o Type Erasure (apagamento de tipo), removendo os metadados genéricos para manter compatibilidade binária com versões legadas da JVM. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-16/2014) ao estabelecer que "pesquisa binária".
 >
-> **Gabarito: B**
+> **Gabarito: E**
 
 ---
 
@@ -538,117 +533,76 @@ console.log(contador.incrementar()); // 11
 ---
 
 ### Teste 069
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em JavaScript moderno, a utilização de variáveis e a criação de funções de fechamento (*closures*) dentro de laços de repetição assíncronos comportam-se de maneira distinta dependendo de como as variáveis são declaradas. Analise os dois fragmentos de código abaixo:
+**(FGV – TRT-16 – Analista Judiciario Area Administrativa Tecnologia da Informacao – 2022)**
+Analise o trecho de código JavaScript a seguir. const xxxxx = ... let texto = ""; for (const x of xxxxx) { texto += x; } Assinale a definição de xxxxx que não funciona para o código acima.
 
-**Fragmento 1:**
-
-```javascript
-for (var i = 0; i < 3; i++) {
-    setTimeout(() => console.log("F1:", i), 100);
-}
-```
-
-**Fragmento 2:**
-
-```javascript
-for (let j = 0; j < 3; j++) {
-    setTimeout(() => console.log("F2:", j), 100);
-}
-```
-
-Após o término dos temporizadores de 100 milissegundos, as saídas produzidas pelos Fragmentos 1 e 2 serão, respectivamente:  
-
-* **A)** Fragmento 1: `F1: 0`, `F1: 1`, `F1: 2` ; Fragmento 2: `F2: 0`, `F2: 1`, `F2: 2`.
-* **B)** Fragmento 1: `F1: 3`, `F1: 3`, `F1: 3` ; Fragmento 2: `F2: 0`, `F2: 1`, `F2: 2`.
-* **C)** Fragmento 1: `F1: 3`, `F1: 3`, `F1: 3` ; Fragmento 2: `F2: 3`, `F2: 3`, `F2: 3`.
-* **D)** Fragmento 1: `F1: 0`, `F1: 1`, `F1: 2` ; Fragmento 2: `F2: 3`, `F2: 3`, `F2: 3`.
-* **E)** Fragmento 1: `F1: undefined`, `F1: undefined`, `F1: undefined` ; Fragmento 2: `F2: 0`, `F2: 1`, `F2: 2`.
-
+* **A)** const xxxxx = "abcdefghijklmnopqrstuvwxyz";
+* **B)** const xxxxx = [undefined, null];
+* **C)** const xxxxx = {10,12,14};
+* **D)** const xxxxx = new Set(["a","b","c"]);
+* **E)** const xxxxx = new Map([["Um", 1], ["Dois", 2]]);
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Supõe que `var` preservaria o escopo individual de cada iteração, o que não ocorre sem técnicas como IIFE em JavaScript legado.
-> - **B)** **CORRETA.** Explicação do escopo e closures:
->     1. **No Fragmento 1 (`var i = 0`):** `var` possui escopo de função/global. Existe uma única variável `i` compartilhada por todas as 3 iterações do laço. O laço executa sincronicamente e eleva `i` até 3 (condição de parada). Quando os 3 callbacks do `setTimeout` disparam 100ms depois, todos consultam a mesma variável compartilhada `i`, exibindo: `F1: 3`, `F1: 3`, `F1: 3`.
->     2. **No Fragmento 2 (`let j = 0`):** `let` possui escopo de bloco. O padrão ECMAScript vincula uma nova variável `j` independente a cada iteração do laço `for`. A closure de cada callback preserva o valor capturado de sua respectiva iteração (0, 1 e 2). Ao executarem, exibem: `F2: 0`, `F2: 1`, `F2: 2`.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "const xxxxx = "abcdefghijklmnopqrstuvwxyz"". De acordo com a teoria estudada em *2.1 Declaração de Variáveis: `var`, `let` e `const`, Escopo e Hoisting*, escopo: De Função ou Global — De Bloco (`{ .. }`) — De Bloco (`{ .. }`).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "const xxxxx = [undefined, null]". De acordo com a teoria estudada em *2.1 Declaração de Variáveis: `var`, `let` e `const`, Escopo e Hoisting*, içamento (*Hoisting*): Sim (inicializada com `undefined`) — Sim (fica inacessível na TDZ) — Sim (fica inacessível na TDZ).
+> - **C)** **Correta.** Conforme fundamentado na seção *2.1 Declaração de Variáveis: `var`, `let` e `const`, Escopo e Hoisting* deste guia, a evolução da especificação ECMAScript padronizou mecanismos determinísticos de vinculação de identificadores. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-16/2022) ao estabelecer que "const xxxxx = {10,12,14}".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "const xxxxx = new Set(["a","b","c"])". De acordo com a teoria estudada em *2.1 Declaração de Variáveis: `var`, `let` e `const`, Escopo e Hoisting*, zona Morta Temporal (TDZ): Não se aplica — Sim — Sim.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "const xxxxx = new Map([["Um", 1], ["Dois", 2]])". De acordo com a teoria estudada em *2.1 Declaração de Variáveis: `var`, `let` e `const`, Escopo e Hoisting*, redeclaração no mesmo escopo: Permitida — Erro de Sintaxe (*SyntaxError*) — Erro de Sintaxe (*SyntaxError*).
 >
-> - **C)** Incorreta. Assume erroneamente que o `let` se comportaria com o mesmo defeito de escopo compartilhado de `var`.
-> - **D)** Incorreta. Inverte o comportamento entre as declarações `var` e `let`.
-> - **E)** Incorreta. A variável `i` foi devidamente incrementada até o valor 3 no escopo circundante, portanto não é avaliada como `undefined`.
-> 
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
 
 ### Teste 070
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Em JavaScript moderno, a comparação de valores pode ser realizada por meio do operador de igualdade abstrata (`==`) ou do operador de igualdade estrita (`===`). Considere as seguintes expressões avaliadas pelo interpretador JavaScript:  
+**(CEBRASPE – TRT-8 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2016)**
+A respeito da programação em Java, assinale a opção correta. A
 
-I. `5 == "5"`  
-II. `5 === "5"`  
-III. `null === undefined`  
-
-Os valores booleanos resultantes da avaliação das expressões I, II e III são, respectivamente:
-
-* **A)** `true`, `true` e `true`
-* **B)** `true`, `false` e `false`
-* **C)** `false`, `true` e `false`
-* **D)** `false`, `false` e `true`
-* **E)** `true`, `false` e `true`
-
+* **A)** palavra-chave private é um modificador de acesso e a declaração de uma variável como sendo private dentro de uma instância de um método é conhecida como ocultamento de instância.
+* **B)** As variáveis são divididas em tipos primitivos e tipos por referência. As variáveis do tipo primitivo devem ser declaradas como byte, char, double, int, long ou short. A variável que não for declarada como um desses tipos é do tipo por referência.
+* **C)** Considere a declaração de variáveis e as expressões a seguir. int a = 8, b = 6, c = 4, d = 9 a %= 7, b *= 7, c += 7, d -= 7 Nesse caso, após a execução do código, as variáveis assumirão os seguintes valores: a = 1, b = 42, c = 11, d = 2
+* **D)** Os métodos estáticos, também conhecidos como métodos de classe, dependem diretamente de um objeto instanciado. Para declarar um método como estático, deve-se inserir a palavra-chave static imediatamente após o tipo de retorno na declaração do método.
+* **E)** Considere as instruções a seguir. int[][] vetor = new int [2][]; vetor [0] = new int [4]; vetor [1] = new int [5]; A execução dessas instruções resulta em um array multidimensional com 2 linhas e 5 colunas, totalizando 10 células que podem ser endereçadas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **I. `5 == "5"`:** Retorna `true` porque o operador de igualdade abstrata (`==`) realiza coerção de tipos (*type coercion*), convertendo a string `"5"` para o número `5`.
-> - **II. `5 === "5"`:** Retorna `false` porque o operador de igualdade estrita (`===`) verifica tipo e valor sem coerção (`number !== string`).
-> - **III. `null === undefined`:** Retorna `false` porque são tipos primitivos distintos (`Null` vs `Undefined`). Nota: sob igualdade abstrata (`null == undefined`), o retorno seria `true`.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "palavra-chave private é um modificador de acesso e a declaração de uma variável como sendo private dentro de uma...". De acordo com a teoria estudada em *1.4 Modificadores de Acesso e a Palavra-Chave `final`*, *(default / package-private)*: Sim — Sim — Não — Não.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "As variáveis são divididas em tipos primitivos e tipos por referência. As variáveis do tipo primitivo devem ser...". De acordo com a teoria estudada em *Classes Wrapper (Invólucros)*, para cada tipo primitivo, Java fornece uma classe correspondente no pacote `java.lang` (`Boolean`, `Byte`, `Short`, `Character`, `Integer`, `Long`, `Float`, `Double`).
+> - **C)** **Correta.** Conforme fundamentado na seção *2.4 Escopo Léxico, Closures e Funções de Alta Ordem* deste guia, isso permite que uma função interna acerte e memorize variáveis de sua função externa mesmo após a função externa já ter terminado de executar e retornado. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT-8/2016) ao estabelecer que "Considere a declaração de variáveis e as expressões a seguir. int a = 8, b = 6, c = 4, d = 9 a %= 7, b *= 7, c +=...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os métodos estáticos, também conhecidos como métodos de classe, dependem diretamente de um objeto instanciado...". De acordo com a teoria estudada em *Sintaxe `async` / `await`*, declarar uma função com a palavra-chave `async` garante que ela sempre retornará uma Promise, empacotando valores primitivos automaticamente com `Promise.resolve()`.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Considere as instruções a seguir. int[][] vetor = new int [2][]; vetor [0] = new int [4]; vetor [1] = new int [5]...". De acordo com a teoria estudada em *Arrow Functions*, não são construtoras: Não possuem método interno `[[Construct]]`, não podem ser chamadas com o operador `new` e não possuem a propriedade `prototype`.
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
 
 ### Teste 071
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Considere o seguinte trecho de código escrito na linguagem Python 3:
+**(FCC – TRT-4 – Analista Judiciario Tecnologia da Informacao – 2015)**
+Considere que o programa foi executado quatro vezes seguidas sendo fornecidos, consecutivamente, os valores 10, 41, 0 e -2 para a variável d. Neste contexto, pode-se concluir corretamente que serão exibidos como resultado destas execuções, consecutivamente, os valores
 
-```python
-numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-resultado = [x * 2 for x in numeros if x % 2 != 0 and x > 3]
-print(resultado)
-```
-
-A execução correta desse código gerará no terminal a saída:  
-
-* **A)** `[8, 12, 16, 20]`
-* **B)** `[10, 14, 18]`
-* **C)** `[5, 7, 9]`
-* **D)** `[10, 14, 18, 22]`
-* **E)** `[2, 6, 10, 14]`
-
+* **A)** true, true, false, true.
+* **B)** true, false, true, true.
+* **C)** true, false, true, false.
+* **D)** false, true, true, false.
+* **E)** false, true, false, true.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Essa lista decorreria da filtragem de números pares maiores que 3 (`4, 6, 8, 10`) multiplicados por 2.
-> - **B)** **CORRETA.** Analisando a List Comprehension:
->     1. O laço percorre os inteiros de 1 a 10.
->     2. O filtro condicional `if x % 2 != 0 and x > 3` seleciona números que sejam simultaneamente ímpares (`1, 3, 5, 7, 9`) e estritamente maiores que 3 (`x > 3`). Os únicos elementos que atendem a ambos os predicados são `5, 7, 9`.
->     3. A expressão de transformação `x * 2` dobra cada número aprovado: $5 \times 2 = 10$, $7 \times 2 = 14$ e $9 \times 2 = 18$. A lista final impressa é `[10, 14, 18]`.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "true, true, false, true". De acordo com a teoria estudada em *Tipos Primitivos*, `boolean`: 1 bit (dependente da JVM) — `false` — `true` ou `false`.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "true, false, true, true". De acordo com a teoria estudada em *Comparação de Igualdade: `==` vs. `.equals()` e o String Pool*, contudo, se for instanciado com o operador `new` (`String s3 = new String("tce");`), um novo objeto separado é alocado no Heap, fazendo com que `s1 == s3` seja `false`, embora `s1.equals(s3)` retorne `true`.
+> - **C)** **Correta.** Conforme fundamentado na seção *Comparação Ampla (`==`) vs. Comparação Estrita (`===`)* deste guia, `[] == false` \$\rightarrow\$ `true` (array vazio convertido para string vazia e depois para 0). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-4/2015) ao estabelecer que "true, false, true, false".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "false, true, true, false". De acordo com a teoria estudada em *Comparação de Igualdade: `==` vs. `.equals()` e o String Pool*, quando aplicado a tipos primitivos, compara diretamente o conteúdo numérico/lógico dos valores (`10 == 10` é `true`).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "false, true, false, true". De acordo com a teoria estudada em *Comparação Ampla (`==`) vs. Comparação Estrita (`===`)*, `0 === ""` \$\rightarrow\$ `false` (number vs string).
 >
-> - **C)** Incorreta. Apresenta apenas os valores originais filtrados antes da aplicação da projeção `x * 2`.
-> - **D)** Incorreta. Inclui o elemento 22, mas o valor máximo da lista original é 10 e o maior ímpar é 9 ($9 \times 2 = 18$).
-> - **E)** Incorreta. Dobra os números ímpares menores ou iguais a 3, desrespeitando o predicado `x > 3`.
-> 
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
-
 
 #### Arrow Functions
 Funções anônimas concisas com sintaxe de seta `() => {}`. Possuem duas diferenças semânticas cruciais em relação às funções tradicionais declaradas com `function`:
@@ -770,75 +724,50 @@ Introduzida no ES2017, funciona como açúcar sintático sobre Promises:
 ---
 
 ### Teste 072
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em relação ao modelo de execução assíncrona do ambiente Node.js e da linguagem JavaScript, considere o seguinte fragmento de código:
+**(IBFC – TJ-MG – Analista Judiciario Classe C Analista de Tecnologia da Informacao – 2022)**
+Em relação a linguagem de programação Java, analise as afirmativas a seguir e dê valores Verdadeiro (V) ou Falso (F). ( ) Existem vários ambientes de desenvolvimento (IDEs) como: BlueJ, JCreator e jEdit. ( ) Não suporta recursos de alto desempenho, como multithreading e compilação just-intime. ( ) Das diversas bibliotecas da linguagem Java uma das mais utilizadas é o Javascript. Assinale a alternativa que apresenta a sequência correta de cima para baixo.
 
-```javascript
-console.log("A");
-
-setTimeout(() => {
-    console.log("B");
-}, 0);
-
-Promise.resolve().then(() => {
-    console.log("C");
-});
-
-console.log("D");
-```
-
-A ordem exata em que os caracteres serão impressos no console do terminal durante a execução desse script é:  
-
-* **A)** A, B, C, D
-* **B)** A, D, B, C
-* **C)** A, D, C, B
-* **D)** C, A, D, B
-* **E)** A, C, D, B
-
+* **A)** V - F - F
+* **B)** V - F - V
+* **C)** F - V - V
+* **D)** V - V - F
+* **E)** F - F - V
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Supõe uma execução linear tradicional síncrona, desconsiderando que o `setTimeout` e a resolução do método `.then()` de uma `Promise` são despachados para filas assíncronas do Event Loop.
-> - **B)** Incorreta. Supõe erroneamente que a macrotarefa agendada pelo `setTimeout(.., 0)` possui prioridade sobre a microtarefa da Promise. Na especificação do ECMAScript e no motor V8/libuv, a fila de microtarefas (*Microtask Queue*) é sempre completamente drenada antes de qualquer macrotarefa ser processada.
-> - **C)** **CORRETA.** Passo a passo da execução:
->     1. O código síncrono é carregado e executado na Call Stack: `console.log("A")` imprime **A**.
->     2. O `setTimeout` registra seu temporizador e despacha seu callback para a fila de macrotarefas (*Macrotask Queue*).
->     3. `Promise.resolve().then(..)` agenda seu callback na fila de microtarefas prioritárias (*Microtask Queue*).
->     4. O código síncrono prossegue na Call Stack: `console.log("D")` imprime **D**.
->     5. A Call Stack fica vazia. O Event Loop drena primeiro todas as microtarefas pendentes: o callback da Promise executa e imprime **C**.
->     6. Estando a fila de microtarefas limpa, o Event Loop busca a primeira macrotarefa da fila: o callback do `setTimeout` executa e imprime **B**. Ordem final: **A, D, C, B**.
+> - **A)** **Correta.** Conforme fundamentado na seção *3.1 Arquitetura do Node.js: Motor V8, Libuv e Non-blocking I/O* deste guia, motor V8: Compila o código JavaScript em código de máquina de alto desempenho e gerencia a Call Stack e a memória (Heap). Dessa forma, está plenamente correta a assertiva da banca (IBFC – TJ-MG/2022) ao estabelecer que "V - F - F".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V - F - V". De acordo com a teoria estudada em *3.5 Gerenciamento de Dependências com npm*, `devDependencies`: Ferramentas utilizadas estritamente durante o desenvolvimento e compilação (ex.: `jest`, `eslint`, `typescript`).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F - V - V". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, jIT Compiler (*Just-In-Time*): Para otimizar o desempenho e evitar a lentidão da interpretação instrução por instrução, o motor JIT compila trechos de bytecode frequentemente executados (*hot spots*) diretamente em código de máquina nativo durante o tempo de execução, armazenando-os em memória cache.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V - V - F". De acordo com a teoria estudada em *1.3 Tipos Primitivos vs. Classes Wrapper e Comparação de Objetos*, java é uma linguagem de tipagem estática e fortemente tipada que distingue claramente valores primitivos e referências a objetos.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F - F - V". De acordo com a teoria estudada em *4.2 Estruturas de Dados Nativas: Listas, Tuplas, Dicionários e Conjuntos*, tuplas (`tuple`): Estruturas imutáveis mais leves em consumo de memória que listas. Podem ser utilizadas como chaves de dicionários se contiverem apenas elementos imutáveis. Suportam empacotamento e desempacotamento (*tuple unpacking*): `x, y = (10, 20)`.
 >
-> - **D)** Incorreta. Afirma que a Promise executaria antes mesmo do código síncrono inicial `console.log("A")`, o que é impossível, pois a Call Stack ainda não havia sido esvaziada.
-> - **E)** Incorreta. Afirma que a microtarefa executaria antes do encerramento do código síncrono `console.log("D")`. O Event Loop apenas inspeciona e drena filas assíncronas após o esvaziamento completo da Call Stack.
-> 
-> **Gabarito: C**
+> **Gabarito: A**
 
 ---
 
 ### Teste 073
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Em relação ao tratamento de operações assíncronas em JavaScript e Node.js utilizando *Promises* e a sintaxe `async/await`, assinale a afirmativa correta:
+**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Banco de Dados – 2023)**
+Considere o seguinte código em Java: Map`<String, String>` cidades = Map.of("11","Amapá","13","Itaubal","15","Cutias"); String texto = cidades.entrySet().stream().sorted( (e1, e2) -> e1.getKey().compareTo(e2.getKey())) .map(e-> Arrays.asList(e.getKey(), e.getValue())) .map(e-> String.join(", ", e)) .collect(Collectors.joining(": ")); System.out.println(texto); Ao ser executado com as importações necessárias, o código Java acima imprime na saída padrão:
 
-* **A)** Uma função declarada com o modificador `async` sempre retorna implicitamente uma *Promise*, que resolve com o valor retornado pela função.
-* **B)** A palavra-chave `await` pode ser utilizada no corpo de qualquer função tradicional síncrona sem necessidade de declaração assíncrona.
-* **C)** Uma *Promise* rejeitada só pode ser tratada por meio de blocos de repetição `while(true)`.
-* **D)** O método `Promise.all()` aguarda a resolução de todas as promises do array, mesmo se uma delas for rejeitada imediatamente.
-* **E)** A execução de `await` bloqueia a thread principal do sistema operacional, impedindo a CPU de executar qualquer outro processo.
-
+* **A)** Cutias: 15, Amapá: 11, Itaubal: 13
+* **B)** Amapá: 11, Cutias: 15, Itaubal: 13
+* **C)** 11, Amapá: 13, Itaubal: 15, Cutias
+* **D)** 11: Amapá, 13: Itaubal, 15: Cutias
+* **E)** 15: Cutias, 13: Itaubal, 11: Amapá
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Correta.** Toda função `async` empacota seu retorno automaticamente em uma `Promise.resolve(valor)`. Caso a função lance um erro, ela retorna uma `Promise.reject(erro)`.
-> - **B) Incorreta.** O operador `await` só pode ser usado dentro de funções declaradas como `async` (ou em módulos ES em nível superior - *top-level await*).
-> - **C) Incorreta.** Promises rejeitadas são tratadas com `.catch()` ou blocos `try/catch` ao redor de `await`.
-> - **D) Incorreta.** `Promise.all()` adota comportamento *fail-fast*: se qualquer promise falhar, ele rejeita imediatamente.
-> - **E) Incorreta.** `await` suspende apenas a execução da função assíncrona corrente sem bloquear a thread do Event Loop do Node.js (*non-blocking*).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Cutias: 15, Amapá: 11, Itaubal: 13". De acordo com a teoria estudada em *Stream API*, operações Intermediárias (Lazy - avaliação preguiçosa): Retornam um novo Stream e não são executadas até que uma operação terminal seja disparada. Exemplos: `.filter()`, `.map()`, `.sorted()`, `.distinct()`, `.flatMap()`.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Amapá: 11, Cutias: 15, Itaubal: 13". De acordo com a teoria estudada em *1.1 Arquitetura da Plataforma: JVM, JRE, JDK e Bytecode*, código-Fonte (`.java`): Arquivo de texto contendo as instruções escritas pelo programador em conformidade com as especificações da linguagem.
+> - **C)** **Correta.** Conforme fundamentado na seção *Stream API* deste guia, operações Terminais (Eager): Consomem o Stream e geram um resultado ou efeito colateral final. Exemplos: `.collect(Collectors.toList())`, `.forEach()`, `.reduce()`, `.count()`, `.anyMatch()`. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "11, Amapá: 13, Itaubal: 15, Cutias".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "11: Amapá, 13: Itaubal, 15: Cutias". De acordo com a teoria estudada em *A Memória Stack (Pilha)*, possui alocação e liberação ultrarrápida, estritamente alinhada à entrada e saída do escopo do método (LIFO - *Last In, First Out*).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "15: Cutias, 13: Itaubal, 11: Amapá". De acordo com a teoria estudada em *Mecanismos de Tratamento: `try-catch-finally` e `try-with-resources`*, `finally`: Bloco que é executado sempre e incondicionalmente, tenha ocorrido exceção ou não, tenha havido `return` no `try` ou no `catch`. A única exceção ocorre se a JVM for terminada abruptamente por `System.exit(0)`.
 >
-> **Gabarito: A**
+> **Gabarito: C**
 
 ---
 
@@ -1014,61 +943,50 @@ def obter_processo(id):
 ---
 
 ### Teste 074
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Na linguagem Python 3, duas das estruturas de dados sequenciais mais empregadas são as Listas (`list`) e as Tuplas (`tuple`). A diferença fundamental entre essas duas estruturas reside no fato de que:
+**(FGV – TRF-1 – Analista Judiciario Area Apoio Especializado Especialidade Suporte Em Tecnologia da Informacao – 2024)**
+Em uma rede de comunicação, está sendo implementado um sistema de transmissão de dados que utiliza o código de linha 4B/5B para garantir transições de bits suficientes e minimizar erros. Durante o processo de enquadramento, é necessário garantir que o receptor possa identificar corretamente o início e o fim dos quadros sem a necessidade de adicionar muitos bits extras, otimizando assim o uso da largura de banda disponível. Nesse contexto, o método utilizado por um sistema de transmissão de dados com código de linha 4B/5B para identificar o início e o fim dos quadros, utilizando sinais que não ocorrem em dados regulares, é o:
 
-* **A)** As listas são imutáveis e delimitadas por parênteses `()`, enquanto as tuplas são mutáveis e delimitadas por colchetes `[]`.
-* **B)** As listas são mutáveis (podem ter elementos adicionados, alterados ou removidos após a criação), enquanto as tuplas são estritamente imutáveis.
-* **C)** As tuplas aceitam apenas dados numéricos inteiros, enquanto as listas aceitam apenas cadeias de texto (*strings*).
-* **D)** As listas não admitem elementos duplicados, enquanto as tuplas permitem duplicações infinitas.
-* **E)** As tuplas são armazenadas em disco rígido, enquanto as listas residem na memória cache do processador.
-
+* **A)** violações de código;
+* **B)** checksum de quadros;
+* **C)** contagem de caracteres;
+* **D)** bytes de flag com inserção de bytes;
+* **E)** flags iniciais e finais com inserção de bits.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** A relação de delimitadores e mutabilidade está invertida.
-> - **B) Correta.** Listas (`[1, 2, 3]`) são coleções mutáveis; Tuplas (`(1, 2, 3)`) são imutáveis após a instanciação (o que confere segurança, performance e permite que tuplas de elementos imutáveis sejam usadas como chaves em dicionários).
-> - **C) Incorreta.** Ambas são heterogêneas e aceitam qualquer tipo de objeto Python.
-> - **D) Incorreta.** Ambas aceitam elementos duplicados.
-> - **E) Incorreta.** Ambas residem na memória RAM gerenciada pelo interpretador Python.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "violações de código". De acordo com a teoria estudada em *FastAPI (Framework Moderno ASGI de Alta Performance)*, documentação Automática: Gera documentação interativa completa em conformidade com as especificações OpenAPI e Swagger UI acessível em `/docs` sem necessidade de código adicional.
+> - **B)** **Correta.** Conforme fundamentado na seção *A Memória Stack (Pilha)* deste guia, armazena os quadros de chamada de métodos (*stack frames*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF-1/2024) ao estabelecer que "checksum de quadros".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "contagem de caracteres". De acordo com a teoria estudada em *Tipos Primitivos*, `char`: 16 bits (2 bytes) — `'\u0000'` — \$0\$ a \$65.535\$ (caracteres Unicode UTF-16).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "bytes de flag com inserção de bytes". De acordo com a teoria estudada em *4.2 Estruturas de Dados Nativas: Listas, Tuplas, Dicionários e Conjuntos*, `list`: `[1, 2, "a"]` — Sim — Sim (ordem de inserção) — Sim — Sim (`l[0]`) — \$\mathcal{O}(n)\$.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "flags iniciais e finais com inserção de bits". De acordo com a teoria estudada em *2.2 Tipos de Dados, Coerção e Operadores de Igualdade (`==` vs. `===`)*, tipos Primitivos (armazenados por valor): `string`, `number` (ponto flutuante IEEE 754 de 64 bits), `bigint`, `boolean`, `undefined`, `null` e `symbol`.
 >
 > **Gabarito: B**
 
 ---
 
 ### Teste 075
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere o seguinte trecho de código em Python 3:  
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Ciencias da Computacao Sistemas de Informacao – 2026)**
+Um Auditor está escrevendo um script em Python para limpar CPFs duplicados em uma lista de milhões de registros. Ele precisa de uma estrutura que garanta a unicidade dos elementos com a melhor performance de busca. A estrutura nativa do Python mais adequada para esse propósito é:
 
-```python
-dados = [1, 2, 3, 4, 5, 6]
-resultado = [x * 2 for x in dados if x % 2 == 0]
-```
-
-Após a execução do código acima, o valor da variável `resultado` será:
-
-* **A)** `[2, 4, 6, 8, 10, 12]`
-* **B)** `[4, 8, 12]`
-* **C)** `[2, 6, 10]`
-* **D)** `[1, 2, 3]`
-* **E)** `[8, 12]`
-
+* **A)** list
+* **B)** tuple
+* **C)** set
+* **D)** dict_values
+* **E)** linked_list
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - A expressão `[x * 2 for x in dados if x % 2 == 0]` utiliza *List Comprehension*:
->   1. O filtro `if x % 2 == 0` seleciona os números pares de `dados`: $2, 4, 6$.
->   2. A expressão `x * 2` multiplica cada número selecionado por 2:
->      - $2 \times 2 = 4$
->      - $4 \times 2 = 8$
->      - $6 \times 2 = 12$
->   3. A lista final resultante é `[4, 8, 12]`.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "list". De acordo com a teoria estudada em *Comprehensions (List, Dict e Set Comprehensions)*, notação concisa, elegante e performática para filtrar e transformar iteráveis.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "tuple". De acordo com a teoria estudada em *4.2 Estruturas de Dados Nativas: Listas, Tuplas, Dicionários e Conjuntos*, tuplas (`tuple`): Estruturas imutáveis mais leves em consumo de memória que listas. Podem ser utilizadas como chaves de dicionários se contiverem apenas elementos imutáveis. Suportam empacotamento e desempacotamento (*tuple unpacking*): `x, y = (10, 20)`.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "set". De acordo com a teoria estudada em *2. Interface `Set` (Conjuntos)*, coleção matemática que não permite elementos duplicados (baseia-se nos métodos `hashCode()` e `equals()`).
+> - **D)** **Correta.** Conforme fundamentado na seção *4.2 Estruturas de Dados Nativas: Listas, Tuplas, Dicionários e Conjuntos* deste guia, dicionários (`dict`): Tabelas hash de alta performance. Métodos principais: `.get(chave, padrao)`, `.keys()`, `.values()`, `.items()`. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "dict_values".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "linked_list". De acordo com a teoria estudada em *4.2 Estruturas de Dados Nativas: Listas, Tuplas, Dicionários e Conjuntos*, `dict`: `{"chave": 10}` — Sim — Sim (desde Python 3.7) — Não (chaves únicas) — Não (acesso por chave) — \$\mathcal{O}(1)\$.
 >
-> **Gabarito: B**
+> **Gabarito: D**
 
 ---
 

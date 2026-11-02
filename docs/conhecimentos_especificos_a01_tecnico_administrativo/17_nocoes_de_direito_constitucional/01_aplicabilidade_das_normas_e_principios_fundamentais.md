@@ -93,91 +93,101 @@ No controle judicial de políticas públicas decorrentes de normas programática
 ---
 
 ### Teste 110
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Na clássica classificação tripartite das normas constitucionais quanto à sua eficácia e aplicabilidade proposta pelo constitucionalista José Afonso da Silva, as normas constitucionais são agrupadas em normas de eficácia plena, contida e limitada. A respeito das características dogmáticas dessa classificação, é correto afirmar que:
+**(FGV – TRT-1 – Analista Judiciario Area Administrativa – 2024)**
+O presidente da República ajuizou ação direta de inconstitucionalidade, junto ao Supremo Tribunal Federal (STF), impugnando uma lei que dispunha sobre a cobrança de taxas em concurso público na Administração Pública federal direta e indireta. Pelo diploma legislativo, a inscrição para concurso público destinado ao provimento de cargos em órgão da Administração Pública federal direta e indireta não terá custo superior a 20% do salário mínimo e será gratuita para quem estiver desempregado ou não possuir renda familiar superior a dois salários mínimos. À luz da Agenda 2030 da Organização das Nações Unidas (ONU) e do pensamento do STF, é correto afirmar que:
 
-* **A)** as normas de eficácia contida dependem de normação infraconstitucional integrativa para produzirem efeitos essenciais.
-* **B)** as normas de eficácia plena produzem todos os seus efeitos imediatos, independentemente de lei infraconstitucional posterior.
-* **C)** as normas de eficácia limitada possuem aplicabilidade direta, imediata e integral desde a promulgação da Constituição.
-* **D)** as normas de eficácia contida não admitem restrição por ato normativo posterior por força da cláusula de vedação ao retrocesso.
-* **E)** as normas programáticas são desprovidas de qualquer densidade normativa e não vinculam o legislador ordinário estatal.
+* **A)** a referida lei é exemplo do objetivo de garantir a igualdade de oportunidades e reduzir as desigualdades de resultados, por meio da promoção de legislação, políticas e ações adequadas a esse respeito;
+* **B)** o objetivo de reduzir a desigualdade dentro dos países e entre eles não compõe a agenda 2030 da ONU, já que, com o tempo, a organização adotou uma postura cada vez mais liberal;
+* **C)** o objetivo de desenvolvimento sustentável concernente a instituições eficazes leva à inconstitucionalidade da medida, ante a desqualificação de pessoal, consequência da limitação ou isenção da taxa de inscrição;
+* **D)** a isenção não pode ser concedida por ser o tema do enunciado, matéria que repercute na relação entre a Administração Pública e os seus agentes, independentemente de eventual busca contra a desigualdade;
+* **E)** a utilização do salário mínimo como critério de aferição do nível de pobreza atenta contra a Constituição de 1988, não podendo este ser empregado como referência paradigmática para limitar ou isentar taxa de inscrição em concurso.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. As normas de eficácia contida produzem efeitos imediatos desde logo, mas podem sofrer restrições legislativas posteriores. Quem depende de lei para surtir efeitos essenciais é a norma de eficácia limitada.
-> - **B)** **Correto**. As normas de eficácia plena têm aplicabilidade direta, imediata e integral: produzem, ou têm possibilidade de produzir, todos os seus efeitos essenciais imediatamente com a entrada em vigor da Constituição, independendo de lei integrativa.
-> - **C)** **Incorreto**. Normas de eficácia limitada possuem aplicabilidade indireta, mediata e reduzida.
-> - **D)** **Incorreto**. A característica definidora da eficácia contida (redutível) é exatamente admitir restrição posterior pela lei.
-> - **E)** **Incorreto**. Normas programáticas possuem eficácia jurídica vinculante: revogam normas anteriores contrárias e impedem leis infraconstitucionais incompatíveis.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a referida lei é exemplo do objetivo de garantir a igualdade de oportunidades e reduzir as desigualdades de...". De acordo com a teoria estudada em *2.4 Objetivos Fundamentais da República (Art. 3º)*, eRRAdicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais.
+> - **B)** **Correta.** Conforme fundamentado na seção *1.1 Classificação Tripartite de José Afonso da Silva* deste guia, *Normas de Princípio Institutivo (ou Organizatório):* Aquelas pelas quais o constituinte traça o esquema geral de criação e organização de órgãos, entidades ou instituições do Estado (ex.: art. 88 da CF/88, que dispõe que a lei disporá sobre a criação e extinção de Ministérios). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-1/2024) ao estabelecer que "o objetivo de reduzir a desigualdade dentro dos países e entre eles não compõe a agenda 2030 da ONU, já que, com o...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o objetivo de desenvolvimento sustentável concernente a instituições eficazes leva à inconstitucionalidade da...". De acordo com a teoria estudada em *1.2 Eficácia Mínima das Normas Limitadas e Remédios contra Omissão*, remédios Constitucionais contra a Omissão Inconstitucional: Para combater a mora legislativa que inviabiliza o exercício de direitos previstos em normas de eficácia limitada, a Constituição consagrou o Mandado de Injunção (art. 5º, LXXI, e Lei nº 13.300/2016) e a Ação Direta de Inconstitucionalidade por Omissão (ADO) (art. 103, § 2º).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a isenção não pode ser concedida por ser o tema do enunciado, matéria que repercute na relação entre a...". De acordo com a teoria estudada em *1.1 Classificação Tripartite de José Afonso da Silva*, classificação da Norma: Aplicabilidade — Depende de Lei Infraconstitucional? — Pode Ser Restringida por Lei? — Exemplos Canônicos na CF/88.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a utilização do salário mínimo como critério de aferição do nível de pobreza atenta contra a Constituição de 1988...". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, constituição do Estado de Goiás - Título I e Título II - Princípios fundamentais e organização do Estado no âmbito goiano.
 >
 > **Gabarito: B**
+
+---
+
 ### Teste 111
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O art. 5º, XIII, da Constituição Federal estabelece: "é livre o exercício de qualquer trabalho, ofício ou profissão, atendidas as qualificações profissionais que a lei estabelecer". Sob a ótica da aplicabilidade e eficácia das normas constitucionais, o referido dispositivo classifica-se como norma de eficácia:
+**(CEBRASPE – TRT-8 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2016)**
+Conforme o inciso VII do artigo 5.º da CF, “é assegurada, nos termos da lei, a prestação de assistência religiosa nas entidades civis e militares de internação coletiva”. Considerando-se a aplicabilidade das normas constitucionais e os critérios doutrinários de classificação, é correto afirmar que o referido dispositivo constitui norma
 
-* **A)** Plena, pois veda qualquer restrição por lei posterior em respeito ao direito adquirido do trabalhador.
-* **B)** Contida, de aplicabilidade direta e imediata, mas passível de restrição por lei ordinária superveniente.
-* **C)** Limitada de princípio institutivo, cuja fruição condiciona-se à edição obrigatória de regulamento executivo.
-* **D)** Esgotada ou de eficácia exaurida, por se tratar de preceito transitório atrelado à ordem constitucional pretérita.
-* **E)** Programática, pois veicula diretriz estatal desprovida de exigibilidade perante o Poder Judiciário.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreto**. O dispositivo expressa "atendidas as qualificações que a lei estabelecer", admitindo expressamente restrição legislativa posterior.
-> - **B)** **Correto**. O art. 5º, XIII da CF/88 é o exemplo clássico da norma de eficácia contida (ou redutível): tem aplicabilidade direta e imediata (qualquer profissão pode ser livremente exercida na ausência de lei), mas sua amplitude pode ser contida ou restringida por lei federal superveniente que fixe qualificações técnicas indispensáveis (ex.: OAB, CRM, CREA).
-> - **C)** **Incorreto**. Não depende de regulamentação para ser exercida imediatamente.
-> - **D)** **Incorreto**. Normas de eficácia exaurida são as do ADCT que já produziram efeitos.
-> - **E)** **Incorreto**. O preceito assegura direito fundamental individual e autoaplicável.
->
-> **Gabarito: B**
-### Teste 112
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O art. 37, VII, da Constituição Federal preceitua que "o direito de greve será exercido nos termos e nos limites definidos em lei específica". Diante da omissão legislativa do Congresso Nacional em regulamentar a referida norma por mais de três décadas, o Supremo Tribunal Federal apreciou o tema em sede de Mandado de Injunção (MIs 670, 708 e 712). 
-
-A respeito da eficácia da norma e da atuação da Suprema Corte, assinale a opção correta:
-
-* **A)** A norma é de eficácia contida e o STF declarou a perda de vigência do preceito em razão da inércia legislativa.
-* **B)** A norma é de eficácia plena e o STF fixou a proibição absoluta de greve no serviço público até edição de lei.
-* **C)** A norma é de eficácia limitada e o STF determinou a aplicação analógica da lei de greve do setor privado.
-* **D)** A norma é programática e o STF determinou a dissolução compulsória dos sindicatos de servidores civis.
-* **E)** A norma é de eficácia diferida e o STF fixou a impossibilidade jurídica de concessão de mandado de injunção.
+* **A)** de aplicabilidade imediata.
+* **B)** de eficácia plena programática.
+* **C)** de eficácia plena.
+* **D)** de eficácia limitada de princípio institutivo.
+* **E)** de eficácia limitada programática.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. O preceito é norma de eficácia limitada dependente de lei; o STF não declara perda de vigência.
-> - **B)** **Incorreto**. A greve é direito fundamental garantido, não podendo ser sumariamente proibida por inércia estatal.
-> - **C)** **Correto**. O art. 37, VII da CF/88 é norma de eficácia limitada definidora de princípio institutivo. Diante da mora inconstitucional do Poder Legislativo, o STF adotou a teoria concretista intermediária em mandado de injunção (MIs 670, 708 e 712) e determinou que se aplique, no que couber, a Lei Geral de Greve da iniciativa privada (Lei nº 7.783/1989) aos servidores públicos civis até a superveniência de lei específica.
-> - **D)** **Incorreto**. A liberdade sindical no serviço público é plena (art. 37, VI da CF).
-> - **E)** **Incorreto**. O mandado de injunção é garantia constitucional idônea exatamente para combater a omissão legislativa (art. 5º, LXXI).
->
-> **Gabarito: C**
-### Teste 113
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No estudo da aplicabilidade das normas constitucionais, doutrina especializada identifica a existência de normas de eficácia exaurida ou de aplicabilidade esgotada. Caracteriza-se como norma de eficácia exaurida aquela que:
-
-* **A)** Extinguiu a produção de seus efeitos após a ocorrência da condição fática prevista.
-* **B)** Depende de lei ordinária regulamentadora futura para iniciar a geração de seus efeitos típicos essenciais.
-* **C)** Pode sofrer restrição posterior pelo legislador infraconstitucional no exercício regular de suas competências.
-* **D)** Vincula o gestor público à implementação gradual de políticas orçamentárias de longo prazo de execução.
-* **E)** Veicula garantias fundamentais inalienáveis insuscetíveis de emenda constitucional por serem cláusulas pétreas.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correto**. As normas de eficácia exaurida (ou de aplicabilidade esgotada) são aquelas que já cumpriram integralmente a sua destinação histórica e consumaram seus efeitos fáticos e jurídicos, deixando de ter aplicabilidade material direta para o futuro, embora mantenham relevância histórica (ex.: art. 3º do ADCT, que convocou o plebiscito de 1993 sobre forma e sistema de governo).
-> - **B)** **Incorreto**. Essa é a definição de norma de eficácia limitada.
-> - **C)** **Incorreto**. Essa é a característica da norma de eficácia contida.
-> - **D)** **Incorreto**. Essa é a definição de norma programática.
-> - **E)** **Incorreto**. Refere-se a cláusulas pétreas (art. 60, § 4º da CF).
+> - **A)** **Correta.** Conforme fundamentado na seção *1.2 Eficácia Mínima das Normas Limitadas e Remédios contra Omissão* deste guia, embora as normas de eficácia limitada não confiram exigibilidade imediata da prestação originária sem integração legislativa, é incorreto afirmar que elas são desprovidas de valor jurídico. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT-8/2016) ao estabelecer que "de aplicabilidade imediata".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de eficácia plena programática". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, sILVA, José Afonso da. Aplicabilidade das Normas Constitucionais. 8. ed. São Paulo: Malheiros, 2012. (Cap. III - Normas Constitucionais de Eficácia Plena, Contida e Limitada).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de eficácia plena". De acordo com a teoria estudada em *1.1 Classificação Tripartite de José Afonso da Silva*, eficácia Plena: Direta, Imediata e Integral — NÃO — NÃO — Art. 2º (Separação dos Poderes); Art. 5º, III (Vedação da tortura); Art. 5º, LVI (Inadmissibilidade de provas ilícitas).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de eficácia limitada de princípio institutivo". De acordo com a teoria estudada em *1.1 Classificação Tripartite de José Afonso da Silva*, *Normas de Princípio Institutivo (ou Organizatório):* Aquelas pelas quais o constituinte traça o esquema geral de criação e organização de órgãos, entidades ou instituições do Estado (ex.: art. 88 da CF/88, que dispõe que a lei disporá sobre a criação e extinção de Ministérios).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de eficácia limitada programática". De acordo com a teoria estudada em *1.1 Classificação Tripartite de José Afonso da Silva*, eficácia Limitada: Indireta, Mediata e Reduzida — SIM (depende de atuação integradora do legislador ordinário) — Não se aplica (o direito nasce contido e depende de ampliação legal) — Art. 37, VII (Direito de greve dos servidores públicos civis).
 >
 > **Gabarito: A**
+
+---
+
+### Teste 112
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Administracao – 2026)**
+A Emenda Constitucional nº X (ECX) alterou o Art. W da Constituição da República, que veicula comando afeto ao direito constitucional financeiro, direcionado ao ciclo orçamentário, em norma de aplicabilidade imediata e eficácia contida. Em razão da natureza dessa norma, surgiram dúvidas, no âmbito do controle externo de determinado Tribunal de Contas, em relação à necessidade, ou não, de ser observada. A dúvida decorria do fato de existir lei estadual preexistente, a LY, dispondo em sentido contrário, e de ainda não ter sido editada lei posterior à ECX sobre a temática, federal ou estadual. Na situação descrita, é correto afirmar que a ECX
+
+* **A)** suspendeu a eficácia da LY, o que irá perdurar até a sua regulamentação.
+* **B)** revogou a LY, produzindo efeitos independentemente de qualquer regulamentação.
+* **C)** somente produzirá efeitos após a edição de lei federal que veiculará as normas gerais.
+* **D)** somente produzirá efeitos após a sua regulamentação, com a edição de lei federal ou estadual.
+* **E)** somente terá a sua eficácia integrada após a sua regulamentação, mas isso não obsta a produção de alguns efeitos, como a revogação da LY.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "suspendeu a eficácia da LY, o que irá perdurar até a sua regulamentação". De acordo com a teoria estudada em *1.1 Classificação Tripartite de José Afonso da Silva*, eficácia Contida (ou Redutível): Direta, Imediata e NÃO Integral — NÃO (produz efeitos plenos desde a promulgação) — SIM (a lei infraconstitucional pode restringir seu alcance) — Art. 5º, XIII (Liberdade de exercício profissional atendidas qualificações da lei).
+> - **B)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "revogou a LY, produzindo efeitos independentemente de qualquer regulamentação". De acordo com a teoria estudada em *1.1 Classificação Tripartite de José Afonso da Silva*, não dependem de qualquer regulamentação legal ulterior para produzirem todos os seus efeitos e não podem ser restringidas pelo legislador ordinário.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.1 Classificação Tripartite de José Afonso da Silva* deste guia, normas de Eficácia Contida (ou Redutível / Prospectiva): São normas que também produzem efeitos plenos e imediatos a partir da promulgação, mas nas quais o constituinte deixou expressa ou implicitamente uma cláusula de contenção (*"na forma da lei"*, *"atendidas as qualificações que a lei estabelecer"*, *"salvo disposição em contrário"*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "somente produzirá efeitos após a edição de lei federal que veiculará as normas gerais".
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente produzirá efeitos após a sua regulamentação, com a edição de lei federal ou estadual". De acordo com a teoria estudada em *1. Eficácia e Aplicabilidade das Normas Constitucionais*, o estudo da aplicabilidade das normas constitucionais investiga o grau de aptidão que cada preceito da Lei Fundamental possui para produzir efeitos jurídicos no mundo dos fatos desde a sua promulgação.
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente terá a sua eficácia integrada após a sua regulamentação, mas isso não obsta a produção de alguns efeitos...". De acordo com a teoria estudada em *2.3 Separação dos Poderes e o Sistema de Freios e Contrapesos (Art. 2º)*, poder Legislativo: Funções típicas: legislar (elaborar normas gerais e abstratas) e fiscalizar (controle financeiro e contábil externo com auxílio dos Tribunais de Contas).
+>
+> **Gabarito: C**
+
+---
+
+### Teste 113
+**(FGV – TRF-1 – Analista Judiciario Area Apoio Especializado Especialidade Suporte Em Tecnologia da Informacao – 2024)**
+O Art. 2º da Emenda Constitucional nº X, com o objetivo de aperfeiçoar o controle da qualidade dos direitos prestacionais oferecidos à coletividade, determinou a criação, por lei complementar, de um conselho nacional de natureza interfederativa, que seria responsável pelo referido controle. Extrai-se do Art. 2º da Emenda Constitucional nº X uma norma de eficácia:
+
+* **A)** plena;
+* **B)** contida;
+* **C)** limitada, de princípio institutivo;
+* **D)** limitada, de natureza programática;
+* **E)** restringível, mas de exigência imediata.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "plena". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, sILVA, José Afonso da. Aplicabilidade das Normas Constitucionais. 8. ed. São Paulo: Malheiros, 2012. (Cap. III - Normas Constitucionais de Eficácia Plena, Contida e Limitada).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "contida". De acordo com a teoria estudada em *1.2 Eficácia Mínima das Normas Limitadas e Remédios contra Omissão*, remédios Constitucionais contra a Omissão Inconstitucional: Para combater a mora legislativa que inviabiliza o exercício de direitos previstos em normas de eficácia limitada, a Constituição consagrou o Mandado de Injunção (art. 5º, LXXI, e Lei nº 13.300/2016) e a Ação Direta de Inconstitucionalidade por Omissão (ADO) (art. 103, § 2º).
+> - **C)** **Correta.** Conforme fundamentado na seção *1.1 Classificação Tripartite de José Afonso da Silva* deste guia, *Normas de Princípio Institutivo (ou Organizatório):* Aquelas pelas quais o constituinte traça o esquema geral de criação e organização de órgãos, entidades ou instituições do Estado (ex.: art. 88 da CF/88, que dispõe que a lei disporá sobre a criação e extinção de Ministérios). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF-1/2024) ao estabelecer que "limitada, de princípio institutivo".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "limitada, de natureza programática". De acordo com a teoria estudada em *1.1 Classificação Tripartite de José Afonso da Silva*, eficácia Limitada: Indireta, Mediata e Reduzida — SIM (depende de atuação integradora do legislador ordinário) — Não se aplica (o direito nasce contido e depende de ampliação legal) — Art. 37, VII (Direito de greve dos servidores públicos civis).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "restringível, mas de exigência imediata". De acordo com a teoria estudada em *1.2 Eficácia Mínima das Normas Limitadas e Remédios contra Omissão*, embora as normas de eficácia limitada não confiram exigibilidade imediata da prestação originária sem integração legislativa, é incorreto afirmar que elas são desprovidas de valor jurídico.
+>
+> **Gabarito: C**
+
+---
+
 ## 2. Princípios Fundamentais da CF/88 (Título I - Arts. 1º a 4º)
 
 O Título I da Constituição Federal delimita as decisões políticas estruturantes do Estado brasileiro.
@@ -246,73 +256,77 @@ A República Federativa do Brasil rege-se em suas relações internacionais pelo
 ---
 
 ### Teste 114
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O art. 1º da Constituição Federal de 1988 elenca os fundamentos do Estado Democrático de Direito na República Federativa do Brasil. Não constitui fundamento expresso da República previsto no referido artigo:
+**(FGV – TCE-GO – Analista de Controle Externo Juridica – 2024)**
+O processo estrutural tem atraído maior atenção da doutrina e jurisprudência pátrias. Aponta-se, como alguns fatores para tanto, o protagonismo do Poder Judiciário no combate às inações das políticas públicas, bem como a necessidade de tratamento macro de falhas na promoção de direitos fundamentais e sociais. Sobre o assunto, assinale a alternativa correta.
 
-* **A)** A soberania estatal.
-* **B)** A cidadania plena.
-* **C)** A dignidade da pessoa humana.
-* **D)** O desenvolvimento nacional.
-* **E)** O pluralismo político.
+* **A)** O processo estrutural tem como principal característica a sua similitude com o processo coletivo, razão pela qual sua disciplina é inteiramente dada pela Lei da Ação Civil Pública (Lei nº 7.347/1985).
+* **B)** A complexidade e a multipolaridade dos processos estruturais impedem a cumulação de pedidos em face do réu, somente admitindo pretensões de índole condenatória.
+* **C)** Por se tratar de espécie de processo destinada exclusivamente à efetivação de políticas públicas, o processo estrutural é incompatível com a pretensão de mudar o comportamento de estruturas privadas de interesse público.
+* **D)** A rigidez do procedimento faz com que os litígios estruturais não admitam a flexibilização de técnicas processuais em prol da eficiência da decisão judicial, tampouco a adoção de regimes de transição.
+* **E)** Um exemplo de processo estrutural colhido da jurisprudência é o julgamento no qual o Supremo Tribunal Federal reconheceu o estado de coisas inconstitucional no sistema carcerário brasileiro.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto (é fundamento)**. Previsto no art. 1º, I da CF/88.
-> - **B)** **Incorreto (é fundamento)**. Previsto no art. 1º, II da CF/88.
-> - **C)** **Incorreto (é fundamento)**. Previsto no art. 1º, III da CF/88.
-> - **D)** **CORRETO (Gabarito: NÃO é fundamento)**. A garantia do desenvolvimento nacional é um OBJETIVO fundamental da República Federativa do Brasil, previsto expressamente no art. 3º, II, da CF/88, e não um fundamento do art. 1º (mnemônico dos fundamentos: SO-CI-DI-VA-PLU: Soberania, Cidadania, Dignidade, Valores do trabalho/livre iniciativa e Pluralismo político).
-> - **E)** **Incorreto (é fundamento)**. Previsto no art. 1º, V da CF/88.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O processo estrutural tem como principal característica a sua similitude com o processo coletivo, razão pela qual...". De acordo com a teoria estudada em *1.3 Reserva do Possível versus Mínimo Existencial*, no controle judicial de políticas públicas decorrentes de normas programáticas (saúde, fornecimento de medicamentos de alto custo, vagas em creches).
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "A complexidade e a multipolaridade dos processos estruturais impedem a cumulação de pedidos em face do réu...". De acordo com a teoria estudada em *1.3 Reserva do Possível versus Mínimo Existencial*, reserva do Possível (*Vorbehalt des Möglichen*): Tese frequentemente invocada pela Fazenda Pública segundo a qual a efetivação dos direitos sociais condiciona-se à existência de capacidade orçamentária e financeira do Estado, bem como à discricionariedade do administrador na alocação de recursos escassos.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.1 Classificação Tripartite de José Afonso da Silva* deste guia, art. 196 (Direito à saúde como dever do Estado mediante políticas públicas). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "Por se tratar de espécie de processo destinada exclusivamente à efetivação de políticas públicas, o processo...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A rigidez do procedimento faz com que os litígios estruturais não admitam a flexibilização de técnicas processuais...". De acordo com a teoria estudada em *2. Princípios Fundamentais da CF/88 (Título I - Arts. 1º a 4º)*, o Título I da Constituição Federal delimita as decisões políticas estruturantes do Estado brasileiro.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Um exemplo de processo estrutural colhido da jurisprudência é o julgamento no qual o Supremo Tribunal Federal...". De acordo com a teoria estudada em *1. Eficácia e Aplicabilidade das Normas Constitucionais*, no direito público brasileiro, a doutrina amplamente majoritária e a jurisprudência pacífica do Supremo Tribunal Federal (STF) consagram a classificação tripartite formulada pelo professor José Afonso da Silva.
 >
-> **Gabarito: D**
+> **Gabarito: C**
+
+---
+
 ### Teste 115
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A respeito do princípio da separação de poderes consagrado no art. 2º da Constituição Federal ("São Poderes da União, independentes e harmônicos entre si, o Legislativo, o Executivo e o Judiciário"), assinale a afirmativa correta:
+**(FGV – TRT-1 – Analista Judiciario Area Administrativa – 2024)**
+A Declaração Universal dos Direitos Humanos foi adotada pela Assembleia Geral das Nações Unidas por meio da Resolução 217 A III, em dezembro de 1948. Umas de suas motivações é a proteção dos direitos humanos pelo império da lei. Não é possível negar que uma das suas inspirações foram as atrocidades praticadas por regimes totalitários. Hoje, no entanto, tem-se enfatizado a crise por que passa a democracia a partir das fragilidades próprias desse regime. Quanto à Declaração Universal dos Direitos Humanos de 1948, é correto afirmar que:
 
-* **A)** A separação de poderes é absoluta, vedada a atribuição de qualquer função administrativa ou jurisdicional atípica.
-* **B)** Cada Poder exerce função típica precípua, acumulando funções atípicas expressamente autorizadas na Constituição.
-* **C)** O Poder Judiciário exerce unicamente a jurisdição, sendo nulo ato que promova concurso público para seus servidores.
-* **D)** O Poder Legislativo exerce com exclusividade a gestão dos recursos orçamentários dos três poderes da República.
-* **E)** O princípio da harmonia entre os poderes autoriza o Governador a avocar processos em trâmite no Tribunal de Justiça.
+* **A)** a previsão do direito humano à liberdade de expressão, instrumento colocado para promover a democracia, não encontra limitação expressa, a significar que qualquer discurso é legítimo;
+* **B)** a disposição afirmando o direito a participar do governo do próprio país diretamente inexiste, muito embora haja previsão dessa participação por meio de representantes livremente eleitos;
+* **C)** o direito humano de liberdade de associação, próprio dos regimes democráticos, conquanto previsto e condicionado ao caráter pacífico, não vem acompanhado da inerente liberdade de não se associar;
+* **D)** a vontade do povo como sendo a base da autoridade de um governo é reconhecida como direito humano, mas isso abre espaço para o problema da tirania da maioria, não resolvido pelo texto;
+* **E)** o governo, apoiado na vontade do povo, reclama sua manifestação através de eleições periódicas e legítimas, sufrágio universal e voto secreto ou processo equivalente, assegurada a liberdade de voto.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A tripartição de poderes adotada no Brasil não é estanque nem absoluta; a própria Constituição distribui competências típicas (preponderantes) e atípicas (secundárias) a cada um dos poderes.
-> - **B)** **Correto**. O sistema constitucional brasileiro adota a teoria das funções típicas e atípicas: o Legislativo legisla e fiscaliza (típica), mas administra seus servidores e julga crimes de responsabilidade (atípica); o Judiciário julga (típica), mas administra seus quadros e elabora regimentos internos (atípica); o Executivo governa e administra (típica), mas edita decretos regulamentares e julga processos administrativos (atípica).
-> - **C)** **Incorreto**. A gestão administrativa interna de recursos humanos e concurso público é função atípica do Judiciário (art. 96, I).
-> - **D)** **Incorreto**. Cada Poder dispõe de autonomia orçamentária e financeira para gerir suas dotações (arts. 99 e 168 da CF).
-> - **E)** **Incorreto**. A independência dos poderes impede qualquer intromissão hierárquica do Executivo nos autos judiciais.
+> - **A)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "a previsão do direito humano à liberdade de expressão, instrumento colocado para promover a democracia, não...". De acordo com a teoria estudada em *2.2 Fundamentos da República Federativa do Brasil (Art. 1º)*, dIgnidade da Pessoa Humana: Matriz axiológica de todo o ordenamento jurídico, que coloca o ser humano como fim primordial do Estado, e não mero instrumento.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a disposição afirmando o direito a participar do governo do próprio país diretamente inexiste, muito embora haja...". De acordo com a teoria estudada em *2.1 Forma de Estado, Forma de Governo e Regime Político*, conforme o art. 1º, parágrafo único: *"Todo o poder emana do povo, que o exerce por meio de representantes eleitos ou diretamente, nos termos desta Constituição."* O exercício direto manifesta-se por meio do plebiscito, do referendo e da iniciativa popular de leis (art. 14, I, II e III).
+> - **C)** **Correta.** Conforme fundamentado na seção *2.1 Forma de Estado, Forma de Governo e Regime Político* deste guia, caracteriza-se pela descentralização política, coexistência de esferas federativas autônomas (União, Estados, Distrito Federal e Municípios), vedação ao direito de secessão e proteção sob cláusula pétrea explícita (art. 60, § 4º, I). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-1/2024) ao estabelecer que "o direito humano de liberdade de associação, próprio dos regimes democráticos, conquanto previsto e condicionado...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a vontade do povo como sendo a base da autoridade de um governo é reconhecida como direito humano, mas isso abre...". De acordo com a teoria estudada em *2.1 Forma de Estado, Forma de Governo e Regime Político*, regime Político: Democracia Semidireta (ou Participativa).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o governo, apoiado na vontade do povo, reclama sua manifestação através de eleições periódicas e legítimas...". De acordo com a teoria estudada em *2.2 Fundamentos da República Federativa do Brasil (Art. 1º)*, pLUralismo Político: Abertura para a livre manifestação e convivência harmoniosa de diferentes correntes ideológicas, filosóficas e políticas.
+>
+> **Gabarito: C**
+
+---
+
+### Teste 116
+**(FGV – TCE-PI – Auditor de Controle Externo Controle Externo Especifica de Area Comum – 2025)**
+O Art. 92-B, §2º, do Ato das Disposições Constitucionais Transitórias da Constituição da República, acrescido pela Emenda Constitucional nº 132/2023, tem a seguinte redação: Lei complementar instituirá Fundo de Sustentabilidade e Diversificação Econômica do Estado do Amazonas, que será constituído com recursos da União e por ela gerido, com a efetiva participação do Estado do Amazonas na definição das políticas, com o objetivo de fomentar o desenvolvimento e a diversificação das atividades econômicas no Estado. A interpretação desse comando normativo permite concluir que se está perante norma de
+
+* **A)** eficácia contida.
+* **B)** aplicabilidade imediata.
+* **C)** aplicabilidade direta, mas não integral.
+* **D)** eficácia limitada e de princípio institutivo.
+* **E)** eficácia limitada e de princípio programático.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "eficácia contida". De acordo com a teoria estudada em *1.1 Classificação Tripartite de José Afonso da Silva*, eficácia Contida (ou Redutível): Direta, Imediata e NÃO Integral — NÃO (produz efeitos plenos desde a promulgação) — SIM (a lei infraconstitucional pode restringir seu alcance) — Art. 5º, XIII (Liberdade de exercício profissional atendidas qualificações da lei).
+> - **B)** **Correta.** Conforme fundamentado na seção *6. Fontes Recomendadas na Internet* deste guia, mENDES, Gilmar Ferreira; BRANCO, Paulo Gustavo Gonet. Curso de Direito Constitucional. 19. ed. São Paulo: SaraivaJur, 2024. (Cap. 1 - Teoria da Constituição; Cap. 2 - Aplicabilidade e Eficácia das Normas Constitucionais). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PI/2025) ao estabelecer que "aplicabilidade imediata".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "aplicabilidade direta, mas não integral". De acordo com a teoria estudada em *1.1 Classificação Tripartite de José Afonso da Silva*, eficácia Plena: Direta, Imediata e Integral — NÃO — NÃO — Art. 2º (Separação dos Poderes); Art. 5º, III (Vedação da tortura); Art. 5º, LVI (Inadmissibilidade de provas ilícitas).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "eficácia limitada e de princípio institutivo". De acordo com a teoria estudada em *1.1 Classificação Tripartite de José Afonso da Silva*, *Normas de Princípio Institutivo (ou Organizatório):* Aquelas pelas quais o constituinte traça o esquema geral de criação e organização de órgãos, entidades ou instituições do Estado (ex.: art. 88 da CF/88, que dispõe que a lei disporá sobre a criação e extinção de Ministérios).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "eficácia limitada e de princípio programático". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, sILVA, José Afonso da. Aplicabilidade das Normas Constitucionais. 8. ed. São Paulo: Malheiros, 2012. (Cap. III - Normas Constitucionais de Eficácia Plena, Contida e Limitada).
 >
 > **Gabarito: B**
-### Teste 116
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere os seguintes preceitos constitucionais:  
-I. Promover o bem de todos, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação.  
-II. Garantir o desenvolvimento nacional.  
-III. A prevalência dos direitos humanos e a defesa da paz.
-
-À luz da Constituição Federal de 1988, constituem OBJETIVOS fundamentais da República Federativa do Brasil o que consta em:
-
-* **A)** I e II, apenas.
-* **B)** I, II e III.
-* **C)** II e III, apenas.
-* **D)** I e III, apenas.
-* **E)** I, apenas.
 
 ---
 
-> **Comentário Detalhado:**
->
-> - **A)** **Correto**. Os itens I e II correspondem a objetivos fundamentais da República Federativa do Brasil expressamente elencados no art. 3º da CF/88 (incisos IV e II). Já o item III ("prevalência dos direitos humanos e defesa da paz") constitui princípio que rege a República Federativa do Brasil nas suas RELAÇÕES INTERNACIONAIS, previsto no art. 4º, incisos II e VI da Carta Magna.
-> - **B)** **Incorreto**. O item III é princípio de relações internacionais (art. 4º), e não objetivo do art. 3º.
-> - **C)** **Incorreto**. O item I também é objetivo fundamental do art. 3º, IV.
-> - **D)** **Incorreto**. O item III não integra os objetivos fundamentais da República.
-> - **E)** **Incorreto**. O item II também é objetivo fundamental (art. 3º, II).
->
-> **Gabarito: A**
 ### Teste 117
 **(FGV – TJ-RR – Analista Judiciário - Suporte e Infraestrutura de TI – 2024)**  
 A República Federativa do Brasil rege-se, em suas relações internacionais, por princípios fundamentais expressamente previstos no art. 4º da Constituição Federal de 1988. Assinale a opção que indica princípio que rege o Brasil nas suas relações internacionais:
@@ -335,68 +349,77 @@ A República Federativa do Brasil rege-se, em suas relações internacionais, po
 >
 > **Gabarito: B**
 ### Teste 118
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O parágrafo único do art. 4º da Constituição Federal estabelece importante diretriz para a política externa e de cooperação da República Federativa do Brasil. Conforme preceitua expressamente o texto constitucional, o Brasil buscará a integração:
+**(FGV – TJ-SC – Analista Administrativo – 2026)**
+No ordenamento jurídico brasileiro, a proteção dos direitos fundamentais decorre tanto das normas constitucionais quanto dos tratados internacionais de direitos humanos ratificados pelo Brasil. Além disso, os direitos e as garantias fundamentais possuem aplicação imediata, nos termos da Constituição Federal, independentemente de regulamentação para produzirem efeitos. Considerando as disposições da Constituição Federal e dos tratados internacionais de direitos humanos incorporados ao ordenamento jurídico brasileiro, assinale a afirmativa correta.
 
-* **A)** militar, defensiva e armamentista dos Estados do hemisfério sul para constituir força de coalizão conjunta.
-* **B)** econômica, política e cultural dos povos latinos, visando à formação de uma comunidade regional.
-* **C)** financeira estrita com os países do Mercosul, vedada a cooperação cultural e de mobilidade de pessoas.
-* **D)** aduaneira e cambial unificada com os membros do Conselho de Segurança da Organização das Nações Unidas.
-* **E)** jurídica compulsória com submissão automática da jurisdição nacional aos tribunais regionais de arbitragem.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreto**. A integração preconizada tem natureza humanística e pacífica, e não belicista.
-> - **B)** **Correto**. Literalidade do parágrafo único do art. 4º da Constituição Federal de 1988: "A República Federativa do Brasil buscará a integração econômica, política, social e cultural dos povos da América Latina, visando à formação de uma comunidade latino-americana de nações".
-> - **C)** **Incorreto**. A integração abrange as vertentes social e cultural expressamente.
-> - **D)** **Incorreto**. O preceito constitucional foca nos povos da América Latina.
-> - **E)** **Incorreto**. O Brasil mantém a soberania jurisdicional originária ressalvada a adesão voluntária a tratados.
->
-> **Gabarito: B**
-### Teste 119
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O mecanismo de freios e contrapesos (checks and balances), teorizado por Montesquieu e acolhido pela ordem constitucional brasileira de 1988, impede a hegemonia ou tirania de qualquer dos Poderes da República. Constitui exemplo legítimo de aplicação do sistema de freios e contrapesos:
-
-* **A)** A edição de decreto legislativo pelo Congresso para anular sentenças judiciais transitadas em julgado.
-* **B)** A destituição liminar de membros de Tribunais Superiores por portaria sumária do Ministro da Justiça.
-* **C)** O controle de leis pelo Judiciário e a aprovação de autoridades pelo Senado.
-* **D)** A fixação autônoma de subsídios do Governador por ato do próprio Chefe do Poder Executivo estadual.
-* **E)** A sustação unilateral de processos de auditoria do Tribunal de Contas por ordem de líder partidário.
+* **A)** Os tratados de direitos humanos ratificados após a Emenda Constitucional nº 45/2004 com quórum qualificado (dois quintos, dois turnos, duas casas) equivalem a emendas constitucionais.
+* **B)** O Supremo Tribunal Federal não admite a utilização do Pacto de São José da Costa Rica para servir de fundamentos a determinadas decisões, como no caso da prisão civil do depositário infiel.
+* **C)** Os tratados de direitos humanos ratificados pelo rito comum, por maioria absoluta, possuem hierarquia superior à das leis ordinárias e inferior à da Constituição Federal.
+* **D)** Os juízes brasileiros devem verificar se as leis internas estão em conformidade com os tratados internacionais de direitos humanos, priorizando a norma mais favorável.
+* **E)** Ainda que haja inércia de autoridades estaduais, não é permitido à Justiça Federal assumir a competência para processar e julgar casos de graves violações de direitos humanos.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. O Legislativo não tem competência para anular decisões judiciais acobertadas pela coisa julgada.
-> - **B)** **Incorreto**. A destituição de magistrados de tribunais submete-se a processo constitucional estrito no Senado (impeachment).
-> - **C)** **Correto**. O sistema de freios e contrapesos manifesta-se nos controles recíprocos entre os Poderes previstos na CF: o Judiciário controla a constitucionalidade das leis emitidas pelo Legislativo; o Senado aprova a nomeação de Ministros do STF e dirigentes de agências indicados pelo Presidente (art. 52, III); o Presidente veta projetos de lei aprovados pelo Parlamento (art. 66, § 1º); e o Legislativo julga as contas do Executivo com parecer do TC.
-> - **D)** **Incorreto**. A fixação de subsídios é competência privativa da Assembleia Legislativa (art. 49, VII e VIII).
-> - **E)** **Incorreto**. As auditorias dos Tribunais de Contas decorrem de competência constitucional autônoma indelegável.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os tratados de direitos humanos ratificados após a Emenda Constitucional nº 45/2004 com quórum qualificado (dois...". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, mENDES, Gilmar Ferreira; BRANCO, Paulo Gustavo Gonet. Curso de Direito Constitucional. 19. ed. São Paulo: SaraivaJur, 2024. (Cap. 1 - Teoria da Constituição; Cap. 2 - Aplicabilidade e Eficácia das Normas Constitucionais).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O Supremo Tribunal Federal não admite a utilização do Pacto de São José da Costa Rica para servir de fundamentos a...". De acordo com a teoria estudada em *2. Princípios Fundamentais da CF/88 (Título I - Arts. 1º a 4º)*, o Título I da Constituição Federal delimita as decisões políticas estruturantes do Estado brasileiro.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.2 Eficácia Mínima das Normas Limitadas e Remédios contra Omissão* deste guia, remédios Constitucionais contra a Omissão Inconstitucional: Para combater a mora legislativa que inviabiliza o exercício de direitos previstos em normas de eficácia limitada, a Constituição consagrou o Mandado de Injunção (art. 5º, LXXI, e Lei nº 13.300/2016) e a Ação Direta de Inconstitucionalidade por Omissão (ADO) (art. 103, § 2º). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-SC/2026) ao estabelecer que "Os tratados de direitos humanos ratificados pelo rito comum, por maioria absoluta, possuem hierarquia superior à...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os juízes brasileiros devem verificar se as leis internas estão em conformidade com os tratados internacionais de...". De acordo com a teoria estudada em *2.1 Forma de Estado, Forma de Governo e Regime Político*, conforme o art. 1º, parágrafo único: *"Todo o poder emana do povo, que o exerce por meio de representantes eleitos ou diretamente, nos termos desta Constituição."* O exercício direto manifesta-se por meio do plebiscito, do referendo e da iniciativa popular de leis (art. 14, I, II e III).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Ainda que haja inércia de autoridades estaduais, não é permitido à Justiça Federal assumir a competência para...". De acordo com a teoria estudada em *2.3 Separação dos Poderes e o Sistema de Freios e Contrapesos (Art. 2º)*, não há separação estanque ou absoluta: Cada Poder desempenha uma função típica preponderante e funções atípicas secundárias expressamente delimitadas pela Constituição.
 >
 > **Gabarito: C**
-### Teste 120
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No controle de constitucionalidade difuso e incidental, o Poder Judiciário declara a inconstitucionalidade de determinada lei aprovada pelo Poder Legislativo e sancionada pelo Governador. A respeito da compatibilidade desse controle com o princípio da separação de poderes:
 
-* **A)** O controle judicial de constitucionalidade viola a separação de poderes ao invalidar atos de representantes eleitos.
-* **B)** A jurisdição assegura a supremacia constitucional e harmoniza o funcionamento dos poderes.
-* **C)** O controle difuso exige que todos os juízes monocráticos submetam suas decisões à aprovação da Assembleia.
-* **D)** A declaração incidental de inconstitucionalidade opera efeitos erga omnes automáticos em todo o território nacional.
-* **E)** O Judiciário pode substituir discricionariamente o texto da lei impugnada por norma legislativa substitutiva.
+---
+
+### Teste 119
+**(FGV – TRT-1 – Analista Judiciario Area Administrativa – 2024)**
+Em um processo judicial, foi debatido um dispositivo legal. Por ele, foi estipulado que o período de licença-gestante a uma servidora pública que teve seu filho deveria ser computado para fins do estágio probatório a que se refere o Art. 41 da Constituição da República Federativa do Brasil de 1988, conquanto este reclame efetivo exercício para aquisição da estabilidade. Os autos foram enviados ao gabinete do magistrado, que pediu para sua equipe analisar a solução à luz da Agenda 2030 da Organização das Nações Unidas (ONU) e do entendimento do Supremo Tribunal Federal (STF). Considerando os dados apresentados, é correto afirmar que:
+
+* **A)** a Agenda 2030 da ONU possui quinze objetivos de desenvolvimento sustentável, mas nenhum deles trata mais diretamente do tema do enunciado, o que permite dizer que o assunto não é relevante para a organização;
+* **B)** o STF respeita a imposição positivada no aludido dispositivo constitucional, significando isso que aquela, no gozo da aludida licença-gestante, por conta dessa condição de não trabalhar, não conta tempo para aquisição de estabilidade;
+* **C)** a licença-gestante não possui estatura constitucional, podendo, pela via legal que densifique o citado Art. 41, ser limitado o direito à proteção da maternidade e, por consequência, excluída a contagem do período de estabilidade;
+* **D)** a Agenda 2030 da ONU possui o objetivo de desenvolvimento sustentável afeto à educação de qualidade, único com intimidade ao assunto, podendo-se concluir que, mais instruída, a mulher só se tornará gestante após adquirida a estabilidade;
+* **E)** a abolição de todas as formas de discriminação contra as mulheres constitui objetivo de desenvolvimento sustentável, presente da Agenda 2030 da ONU, a impor que seja aceito o período de licença no tempo de estágio, sob pena de discriminação.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. O controle de constitucionalidade é atribuição típica e indeclinável conferida pela Carta Magna ao Poder Judiciário para resguardar a supremacia constitucional.
-> - **B)** **Correto**. O controle jurisdicional de constitucionalidade é o ápice do sistema de freios e contrapesos: longe de violar a tripartição dos poderes, garante que os atos emanados do Legislativo e do Executivo permaneçam dentro dos balizamentos materiais e formais traçados pelo poder constituinte originário na Constituição da República.
-> - **C)** **Incorreto**. O controle difuso é descentralizado e exercido por qualquer juiz ou tribunal da federação.
-> - **D)** **Incorreto**. No controle difuso, os efeitos são, em regra, inter partes, dependendo de resolução do Senado para suspensão erga omnes (art. 52, X).
-> - **E)** **Incorreto**. O Judiciário atua como legislador negativo, sendo-lhe vedado atuar como legislador positivo.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a Agenda 2030 da ONU possui quinze objetivos de desenvolvimento sustentável, mas nenhum deles trata mais...". De acordo com a teoria estudada em *2.4 Objetivos Fundamentais da República (Art. 3º)*, pROmover o bem de todos, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o STF respeita a imposição positivada no aludido dispositivo constitucional, significando isso que aquela, no gozo...". De acordo com a teoria estudada em *1.3 Reserva do Possível versus Mínimo Existencial*, mínimo Existencial: Entendimento consolidado pelo STF no sentido de que a reserva do possível encontra limite intransponível no núcleo essencial dos direitos fundamentais indispensáveis a uma vida digna (mínimo existencial).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a licença-gestante não possui estatura constitucional, podendo, pela via legal que densifique o citado Art. 41...". De acordo com a teoria estudada em *2.1 Forma de Estado, Forma de Governo e Regime Político*, caracteriza-se pela descentralização política, coexistência de esferas federativas autônomas (União, Estados, Distrito Federal e Municípios), vedação ao direito de secessão e proteção sob cláusula pétrea explícita (art. 60, § 4º, I).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a Agenda 2030 da ONU possui o objetivo de desenvolvimento sustentável afeto à educação de qualidade, único com...". De acordo com a teoria estudada em *2.2 Fundamentos da República Federativa do Brasil (Art. 1º)*, o pluripartidarismo (liberdade de criação de partidos políticos) é apenas uma das dimensões instrumentais do pluralismo político, que é um conceito infinitamente mais amplo de liberdade de pensamento e de cosmovisão.
+> - **E)** **Correta.** Conforme fundamentado na seção *1.2 Eficácia Mínima das Normas Limitadas e Remédios contra Omissão* deste guia, eficácia Impeditiva: Impedem a edição de leis futuras que contrariem seus vetores teleológicos, sob pena de inconstitucionalidade direta. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-1/2024) ao estabelecer que "a abolição de todas as formas de discriminação contra as mulheres constitui objetivo de desenvolvimento...".
 >
-> **Gabarito: B**
+> **Gabarito: E**
+
+---
+
+### Teste 120
+**(FGV – TCE-PI – Auditor de Controle Externo Controle Externo Especifica de Area Comum – 2025)**
+A Lei estadual nº X instituiu a Taxa de Serviços Diversos (TSD), dispondo que o seu fato gerador decorreria do exercício do poder de polícia ou pela utilização, efetiva ou potencial, de serviços públicos específicos e divisíveis, prestados ao contribuinte ou postos à sua disposição pela Secretaria Estadual de Desenvolvimento Econômico. Logo após a edição da Lei estadual nº X e a realização dos primeiros lançamentos tributários, diversos contribuintes insurgiram-se contra a cobrança desse tributo, argumentando com a sua inconstitucionalidade. Sobre a TSD, considerando a sistemática constitucional vigente, assinale a afirmativa correta.
+
+* **A)** É inconstitucional, pois somente a União poderia instituir tributo dessa natureza.
+* **B)** É inconstitucional, por não definir a atuação estatal que seria o fato gerador do tributo.
+* **C)** É constitucional, considerando que a descrição do fato gerador se ajusta ao permissivo constitucional.
+* **D)** É inconstitucional, pois tributo dessa natureza deveria ser criado por meio de lei complementar estadual.
+* **E)** É constitucional, pois cabe ao regulamento detalhar o fato gerador do tributo, a partir da enunciação geral da lei.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "É inconstitucional, pois somente a União poderia instituir tributo dessa natureza". De acordo com a teoria estudada em *1.2 Eficácia Mínima das Normas Limitadas e Remédios contra Omissão*, remédios Constitucionais contra a Omissão Inconstitucional: Para combater a mora legislativa que inviabiliza o exercício de direitos previstos em normas de eficácia limitada, a Constituição consagrou o Mandado de Injunção (art. 5º, LXXI, e Lei nº 13.300/2016) e a Ação Direta de Inconstitucionalidade por Omissão (ADO) (art. 103, § 2º).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "É inconstitucional, por não definir a atuação estatal que seria o fato gerador do tributo". De acordo com a teoria estudada em *2.3 Separação dos Poderes e o Sistema de Freios e Contrapesos (Art. 2º)*, sistema de Freios e Contrapesos (*Checks and Balances*): Mecanismo de controle recíproco em que um Poder limita e fiscaliza a atuação do outro, prevenindo abusos e garantindo a harmonia institucional (ex.: veto do Presidente a projetos de lei; sabatina e aprovação de ministros pelo Senado; controle de constitucionalidade de leis e atos do Executivo exercido pelo Judiciário).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "É constitucional, considerando que a descrição do fato gerador se ajusta ao permissivo constitucional". De acordo com a teoria estudada em *1.1 Classificação Tripartite de José Afonso da Silva*, *Normas de Princípio Institutivo (ou Organizatório):* Aquelas pelas quais o constituinte traça o esquema geral de criação e organização de órgãos, entidades ou instituições do Estado (ex.: art. 88 da CF/88, que dispõe que a lei disporá sobre a criação e extinção de Ministérios).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "É inconstitucional, pois tributo dessa natureza deveria ser criado por meio de lei complementar estadual". De acordo com a teoria estudada em *1.1 Classificação Tripartite de José Afonso da Silva*, classificação da Norma: Aplicabilidade — Depende de Lei Infraconstitucional? — Pode Ser Restringida por Lei? — Exemplos Canônicos na CF/88.
+> - **E)** **Correta.** Conforme fundamentado na seção *1.1 Classificação Tripartite de José Afonso da Silva* deste guia, normas de Eficácia Contida (ou Redutível / Prospectiva): São normas que também produzem efeitos plenos e imediatos a partir da promulgação, mas nas quais o constituinte deixou expressa ou implicitamente uma cláusula de contenção (*"na forma da lei"*, *"atendidas as qualificações que a lei estabelecer"*, *"salvo disposição em contrário"*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PI/2025) ao estabelecer que "É constitucional, pois cabe ao regulamento detalhar o fato gerador do tributo, a partir da enunciação geral da lei".
+>
+> **Gabarito: E**
+
+---
+
 ## 6. Fontes Recomendadas na Internet
 
 * [Constituição Federal de 1988 - Arts. 1º a 4º (Princípios Fundamentais)](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art1) - Texto oficial que consagra os fundamentos da República Federativa do Brasil, a separação dos poderes e os objetivos fundamentais.

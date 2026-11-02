@@ -85,52 +85,50 @@ flowchart LR
 ---
 
 ### Teste 340
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A respeito da evolução do pensamento administrativo e das premissas sustentadas pelas diferentes escolas da Teoria Geral da Administração, assinale a opção correta:
+**(FGV – TCE-GO – Analista de Controle Externo Controle Externo – 2024)**
+A evolução da Administração Pública, do modelo racional-legal ao paradigma pós-burocrático, reflete uma transição de estruturas hierárquicas e procedimentos formais para abordagens mais flexíveis, participativas e orientadas para resultados. Sobre o modelo racional-legal de administração pública, assinale a afirmação correta.
 
-* **A)** A Teoria das Relações Humanas concebia o trabalhador como o *Homo Economicus*, sustentando que a produtividade fabril dependia exclusivamente dos estímulos pecuniários e incentivos salariais por peça produzida.
-* **B)** A Teoria Contingencial defende a universalidade dos princípios administrativos, afirmando que existe uma única melhor maneira (*the one best way*) de gerenciar qualquer organização, independentemente do ambiente externo.
-* **C)** A Teoria Geral dos Sistemas postula que as organizações operam como sistemas abertos dotados de entropia negativa, o que lhes permite importar recursos e informações do ambiente externo para conter a tendência natural de degradação e manter sua integridade interna.
-* **D)** A Teoria Clássica preconizada por Henri Fayol refutou a unidade de comando, defendendo a supervisão funcional de múltiplos chefes proposta outrora pela administração científica.
-* **E)** O modelo weberiano de burocracia baseia-se na autoridade carismática como esteio fundamental para a profissionalização e estabilidade do quadro funcional das organizações.
-
+* **A)** Procura otimizar a eficiência.
+* **B)** Pretende gerar valor público.
+* **C)** Busca uma maior integração com o mercado.
+* **D)** Visa maior capacidade de idealizar políticas públicas.
+* **E)** Promove uma abordagem participativa em rede.
 
 ---
 
-> **Comentário Detalhado:**  
+> **Comentário Detalhado:**
 >
-> - **A) Incorreta.** O conceito de *Homo Economicus* pertence à Administração Científica (Taylor) e Teoria Clássica (Fayol). A Escola de Relações Humanas (Mayo) concebeu o trabalhador como **Homo Socialis** (motivado pelo grupo e integração social).  
-> - **B) Incorreta.** A Teoria Contingencial rejeita a existência de princípios universais ou de uma "melhor maneira" única, afirmando que a estrutura adequada depende da tecnologia e do ambiente.  
-> - **C) CORRETA.** Na Teoria Geral dos Sistemas, as organizações são concebidas como **sistemas abertos** que realizam trocas permanentes com o meio externo e possuem **entropia negativa (negentropia)**, ou seja, a capacidade de importar insumos e energia para deter o colapso e preservar a homeostase interna.  
-> - **D) Incorreta.** Fayol era o defensor categórico da **Unidade de Comando** (um único chefe direto); a supervisão funcional pertencia a Taylor.  
-> - **E) Incorreta.** A burocracia weberiana sustenta-se exclusivamente na **autoridade racional-legal** (leis, normas escritas e impessoalidade), e não na autoridade carismática.  
-> 
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Procura otimizar a eficiência". De acordo com a teoria estudada em *Tabela de Síntese Comparativa das Escolas:*, relações Humanas: Elton Mayo — Nas Pessoas e nos grupos informais. — *Homo Socialis* (motivado pelo grupo e integração). — Experiência de Hawthorne; o nível de produção é ditado pela integração social; recompensas e sanções sociais no trabalho; organização informal.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Pretende gerar valor público". De acordo com a teoria estudada em *B) A Teoria Clássica de Henri Fayol:*, unidade de Comando: Defendida categoricamente por Fayol (cada funcionário só pode receber ordens de um único chefe direto, sob pena de gerar desordem, conflito de lealdades e anarquia).
+> - **C)** **Correta.** Conforme fundamentado na seção *Tabela de Síntese Comparativa das Escolas:* deste guia, taylor — Nas Tarefas (chão de fábrica). — *Homo Economicus* (motivado exclusivamente pelo ganho financeiro). — Estudo de tempos e movimentos (ORT); fragmentação extrema; supervisão funcional; eliminação de movimentos inúteis e fadiga; busca do *the one best way*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "Busca uma maior integração com o mercado".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Visa maior capacidade de idealizar políticas públicas". De acordo com a teoria estudada em *3. Teoria das Relações Humanas (Elton Mayo) e a Experiência de Hawthorne*, o Nível de Produção é Fruto da Integração Social: A capacidade de produção não é determinada por limites puramente físicos ou fisiológicos (como acreditava Taylor), mas pela integração social do trabalhador e pelo padrão de normas coletivas estabelecido pelo grupo.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Promove uma abordagem participativa em rede". De acordo com a teoria estudada em *Comparação Estrutural (Burns & Stalker):*, estrutura Organizacional: Burocrática, verticalizada, piramidal e rígida. — Flexível, horizontalizada, em rede e achatada.
+>
 > **Gabarito: C**
 
 ---
 
 ### Teste 341
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Considere que um gestor público de departamento estadual dividiu as rotinas de trabalho em tarefas elementares repetitivas, cronometrou os tempos de digitação de cada processo e estipulou uma premiação pecuniária individual para os servidores que superassem a meta diária de processos autuados, partindo da premissa de que os indivíduos trabalham motivados exclusivamente pelo ganho monetário. Essa postura gerencial reflete diretamente os postulados da:
+**(FGV – TJ-SC – Analista Administrativo – 2026)**
+A Teoria Geral da Administração (TGA) estuda a Administração das organizações e empresas a partir da interação e da interdependência entre seis variáveis principais, cujo comportamento é sistêmico e complexo: cada uma influencia e é influenciada pelas demais, de modo que modificações em uma delas provocam alterações em todas as outras. As seis variáveis principais que, segundo o estado atual da TGA, constituem os componentes essenciais do estudo da Administração das organizações e empresas, são:
 
-* **A)** Teoria das Relações Humanas e a busca pela integração grupal informal.
-* **B)** Administração Científica de Taylor e a concepção do *Homo Economicus*.
-* **C)** Teoria Estruturalista e a mediação de conflitos institucionais inevitáveis.
-* **D)** Teoria Geral dos Sistemas e a busca pela homeostase dinâmica.
-* **E)** Teoria Comportamental fundamentada na Teoria Y de Douglas McGregor.
-
+* **A)** tarefas, estrutura, pessoas, tecnologia, ambiente e competitividade.
+* **B)** tarefas, estrutura, pessoas, tecnologia, ambiente e cultura organizacional.
+* **C)** tarefas, processos, pessoas, tecnologia, ambiente e competitividade.
+* **D)** tarefas, estrutura, liderança, tecnologia, ambiente e competitividade.
+* **E)** tarefas, estrutura, pessoas, inovação, ambiente e competitividade.
 
 ---
 
-> **Comentário Detalhado:**  
+> **Comentário Detalhado:**
 >
-> - **A) Incorreta.** As Relações Humanas valorizam o reconhecimento social e os grupos informais, rejeitando a primazia do dinheiro como motivador único.  
-> - **B) CORRETA.** A **Administração Científica de Frederick Taylor** baseava-se no estudo sistemático dos tempos e movimentos (ORT), fragmentação máxima das tarefas e estímulo pecuniário através do pagamento por produção individual, alicerçada no postulado antropológico do **Homo Economicus** (o ser humano é preguiçoso e move-se unicamente pela busca do ganho material/financeiro).  
-> - **C) Incorreta.** A abordagem estruturalista foca na interação entre estruturas formais e informais e no papel dos conflitos.  
-> - **D) Incorreta.** A teoria sistêmica foca no equilíbrio com o ambiente externo e fluxo de insumos/produtos.  
-> - **E) Incorreta.** A Teoria Y de McGregor sustenta que as pessoas são naturalmente motivadas, criativas e buscam autorrealização no trabalho.  
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "tarefas, estrutura, pessoas, tecnologia, ambiente e competitividade". De acordo com a teoria estudada em *7. Teoria Contingencial: Sistemas Mecanicistas vs. Orgânicos*, a eficácia gerencial depende (*é contingente*) da adequação entre a estrutura interna e as variáveis do ambiente externo e da tecnologia utilizada.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "tarefas, estrutura, pessoas, tecnologia, ambiente e cultura organizacional". De acordo com a teoria estudada em *Tabela de Síntese Comparativa das Escolas:*, teoria Contingencial: Woodward / Burns & Stalker — No Ambiente e na Tecnologia. — *Homem Complexo*. — "Nada é absoluto, tudo é relativo"; inexiste modelo único ideal; sistemas mecanicistas vs. sistemas orgânicos.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "tarefas, processos, pessoas, tecnologia, ambiente e competitividade". De acordo com a teoria estudada em *B) A Teoria Clássica de Henri Fayol:*, as Seis Funções Básicas da Empresa: Funções Técnicas (produção), Comerciais (compra/venda), Financeiras (gestão de capital), de Segurança (proteção dos bens e pessoas), Contábeis (balanços, custos) e Administrativas (que coordenam e presidem as outras cinco).
+> - **D)** **Correta.** Conforme fundamentado na seção *1. Síntese Comparativa das Escolas da Teoria Geral da Administração (TGA)* deste guia, a evolução do pensamento administrativo desenvolveu-se ao longo do século XX mediante sucessivas teorias que deslocaram gradualmente o foco de análise das tarefas individuais para a estrutura global, as relações humanas, o processo decisório e a interação dinâmica com o ambiente externo. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-SC/2026) ao estabelecer que "tarefas, estrutura, liderança, tecnologia, ambiente e competitividade".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "tarefas, estrutura, pessoas, inovação, ambiente e competitividade". De acordo com a teoria estudada em *Tabela de Síntese Comparativa das Escolas:*, teoria Comportamental: McGregor / Simon / Barnard — No Comportamento Humano e Decisão. — *Homo Administrativus* (decisor de racionalidade limitada). — Teoria X vs. Teoria Y; liderança e motivação.
+>
+> **Gabarito: D**
 
 ---
 
@@ -187,27 +185,26 @@ Desenvolvida a partir de 1932 nos Estados Unidos, a Teoria das Relações Humana
 ---
 
 ### Teste 342
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A Teoria das Relações Humanas, impulsionada pelos estudos de Elton Mayo na fábrica de Hawthorne (Western Electric Company, 1927-1932), revolucionou a teoria administrativa ao demonstrar que:
+**(FCC – TRT-16 – Analista Judiciario Tecnologia da Informacao – 2014)**
+As leis humanas são falíveis, os homens desrespeitam as leis humanas e destituem as leis humanas do sentido de uma profunda equidade que deveria reger as leis humanas. Evitam-se as viciosas repetições do período acima substituindo-se os elementos sublinhados, na ordem dada, por:
 
-* **A)** O nível de produção e a produtividade no trabalho são determinados primordialmente pela integração social e pelas normas informais do grupo, e não apenas pela capacidade física ou fisiológica do trabalhador.
-* **B)** O operário é motivado exclusivamente por incentivos salariais materiais e materiais financeiros (*Homo economicus*).
-* **C)** A divisão extrema do trabalho em tarefas microscópicas e cronometradas elimina qualquer necessidade de supervisão humana.
-* **D)** A fadiga muscular é a única causa de acidentes e quebras de produtividade no ambiente industrial.
-* **E)** As organizações formais funcionam como engrenagens mecânicas imunes a sentimentos, grupos informais e estados psicológicos.
-
+* **A)** desrespeitam a elas − destituem-nas − deveria reger-lhes
+* **B)** desrespeitam-lhes − as destituem − deveria regêlas
+* **C)** desrespeitam-nas − lhes destituem − lhes deveria reger
+* **D)** lhes desrespeitam − destituem-lhes − deveria regê-las
+* **E)** desrespeitam-nas − destituem-nas − as deveria reger
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. A experiência de Hawthorne revelou que o trabalhador não atua isolado, mas como membro de um grupo social (*Homo socialis*). A produtividade é influenciada por fatores psicossociais, reconhecimento, moral do grupo e liderança informal.
-> - **B)** Incorreta. O conceito de *Homo economicus* pertence à Administração Científica de Taylor.
-> - **C)** Incorreta. Concepção taylorista de estudos de tempos e movimentos.
-> - **D)** Incorreta. Elton Mayo provou que o efeito psicológico do grupo superava a fadiga física nas variações de produção.
-> - **E)** Incorreta. Visão mecanicista da Escola Clássica que foi superada pela abordagem humanística.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "desrespeitam a elas − destituem-nas − deveria reger-lhes". De acordo com a teoria estudada em *3. Teoria das Relações Humanas (Elton Mayo) e a Experiência de Hawthorne*, desenvolvida a partir de 1932 nos Estados Unidos, a Teoria das Relações Humanas representou uma profunda reação humanística e psicológica contra o mecanicismo da abordagem clássica.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "desrespeitam-lhes − as destituem − deveria regêlas". De acordo com a teoria estudada em *A) Características do Modelo Burocrático Puro:*, caráter legal e formal das normas: Comunicações, competências e rotinas são previamente fixadas em leis e regulamentos escritos.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "desrespeitam-nas − lhes destituem − lhes deveria reger". De acordo com a teoria estudada em *3. Teoria das Relações Humanas (Elton Mayo) e a Experiência de Hawthorne*, os estudos foram coordenados por Elton Mayo na fábrica da Western Electric Company em Hawthorne (Chicago).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "lhes desrespeitam − destituem-lhes − deveria regê-las". De acordo com a teoria estudada em *3. Teoria das Relações Humanas (Elton Mayo) e a Experiência de Hawthorne*, o Nível de Produção é Fruto da Integração Social: A capacidade de produção não é determinada por limites puramente físicos ou fisiológicos (como acreditava Taylor), mas pela integração social do trabalhador e pelo padrão de normas coletivas estabelecido pelo grupo.
+> - **E)** **Correta.** Conforme fundamentado na seção *5. Abordagem Comportamental: McGregor, Barnard e Herbert Simon* deste guia, ela só existe efetivamente quando o subordinado decide aceitar a ordem dada pelo superior, dentro de sua "zona de indiferença" (quando entende a ordem, julga-a compatível com os objetivos da organização e com seus valores pessoais). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-16/2014) ao estabelecer que "desrespeitam-nas − destituem-nas − as deveria reger".
+>
+> **Gabarito: E**
 
 ---
 
@@ -243,27 +240,26 @@ O sociólogo Robert Merton demonstrou que a tentativa de buscar o máximo de pre
 ---
 
 ### Teste 343
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No âmbito da Teoria Burocrática desenvolvida por Max Weber, o modelo ideal de burocracia é fundamentado no tipo de dominação racional-legal. No entanto, autores pós-weberianos como Robert Merton identificaram que a aplicação prática desse modelo suscita desvios conhecidos como disfunções da burocracia. Constitui uma clássica disfunção burocrática descrita por Merton:
+**(FGV – TRT-13 – Analista Judiciario Tecnologia da Informacao – 2022)**
+Nas frases abaixo, os adjetivos sublinhados estão relacionados à ideia de “movimento”. Assinale a opção na qual o adjetivo foi selecionado adequadamente para o contexto da frase.
 
-* **A)** A substituição da unidade de comando clássica pela supervisão funcional de múltiplos especialistas.
-* **B)** A flexibilização excessiva das rotinas operacionais em resposta aos apelos emocionais dos cidadãos.
-* **C)** O deslocamento de objetivos, em que a observância estrita das regras e normas procedimentais passa a ser um fim em si mesmo, prejudicando o atendimento dos objetivos reais da organização.
-* **D)** A contratação indiscriminada de pessoal comissionado com base em laços de parentesco e afinidade pessoal.
-* **E)** A proliferação descontrolada de grupos informais que ditam os padrões de produtividade à revelia da administração.
-
+* **A)** Assim que a orquestra iniciou a valsa, os formandos começaram a dançar com movimentos frenéticos.
+* **B)** Os soldados, perfeitamente perfilados, exibiam uma marcha ritmada.
+* **C)** O passante sofreu um ataque e caiu ao chão com movimentos oscilantes.
+* **D)** O pêndulo do relógio mostrava um movimento giratório.
+* **E)** O mar se chocava contra as rochas com força convulsiva.
 
 ---
 
-> **Comentário Detalhado:**  
+> **Comentário Detalhado:**
 >
-> - **A) Incorreta.** A supervisão funcional é uma proposta da Administração Científica de Taylor, não uma disfunção da burocracia de Merton.  
-> - **B) Incorreta.** A burocracia peca pelo excesso de rigidez e apego às regras, e não por flexibilização emocional.  
-> - **C) CORRETA.** Robert Merton demonstrou que o apego cego e intransigente aos regulamentos provoca o **deslocamento de objetivos**: a regra, que deveria ser um mero instrumento para atingir o fim público, transforma-se no objetivo primordial do funcionário. O cumprimento formal da norma passa a valer mais do que a solução do problema do cidadão.  
-> - **D) Incorreta.** Contratação por compadrio é traço típico do patrimonialismo, e não disfunção da burocracia (que preconiza o concurso público e mérito técnico).  
-> - **E) Incorreta.** A ação de grupos informais foi evidenciada por Elton Mayo na Teoria das Relações Humanas.  
-> 
-> **Gabarito: C**
+> - **A)** **Correta.** Conforme fundamentado na seção *Tabela de Síntese Comparativa das Escolas:* deste guia, taylor — Nas Tarefas (chão de fábrica). — *Homo Economicus* (motivado exclusivamente pelo ganho financeiro). — Estudo de tempos e movimentos (ORT); fragmentação extrema; supervisão funcional; eliminação de movimentos inúteis e fadiga; busca do *the one best way*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-13/2022) ao estabelecer que "Assim que a orquestra iniciou a valsa, os formandos começaram a dançar com movimentos frenéticos".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os soldados, perfeitamente perfilados, exibiam uma marcha ritmada". De acordo com a teoria estudada em *A) A Organização Racional do Trabalho (ORT) de Taylor:*, análise do Trabalho e Estudo dos Tempos e Movimentos: Decomposição de cada tarefa em seus movimentos fundamentais (*therbligs*), eliminando movimentos inúteis para padronizar o método de execução mais rápido (*the one best way*).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O passante sofreu um ataque e caiu ao chão com movimentos oscilantes". De acordo com a teoria estudada em *B) Disfunções da Burocracia (Robert Merton):*, superconformidade e Rigidez Procedimental: Resistência categórica a qualquer inovação, flexibilização ou mudança de contexto.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O pêndulo do relógio mostrava um movimento giratório". De acordo com a teoria estudada em *4. Teoria da Burocracia (Max Weber) e as Disfunções Burocráticas (Robert Merton)*, para Max Weber, a burocracia é a forma de organização social humana mais eficiente, técnica e racional para administrar grandes instituições e o Estado moderno.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O mar se chocava contra as rochas com força convulsiva". De acordo com a teoria estudada em *3. Teoria das Relações Humanas (Elton Mayo) e a Experiência de Hawthorne*, desenvolvida a partir de 1932 nos Estados Unidos, a Teoria das Relações Humanas representou uma profunda reação humanística e psicológica contra o mecanicismo da abordagem clássica.
+>
+> **Gabarito: A**
 
 ---
 
@@ -284,28 +280,25 @@ A Teoria Comportamental (Behaviorista) consolidou-se na década de 1950, adotand
 ---
 
 ### Teste 344
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na Teoria Comportamental da Administração, Douglas McGregor concebeu duas visões antagônicas a respeito da natureza humana e da atitude dos indivíduos em relação ao trabalho: a **Teoria X** e a **Teoria Y**.
+**(FCC – TRT-6 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2012)**
+O estilo tradicional de direção (Teoria X) está apoiado numa concepção da natureza humana que enfatiza
 
-Segundo McGregor, a **Teoria Y** fundamenta-se na premissa de que:
-
-* **A)** O dispêndio de esforço físico e mental no trabalho é tão natural quanto o lazer ou o repouso; o ser humano comum não tem aversão intrínseca ao trabalho e pode aprender não só a aceitar, mas a buscar responsabilidades sob condições favoráveis.
-* **B)** O homem médio é indolente por natureza, evita o trabalho sempre que possível e precisa ser coagido, vigiado e controlado rigorosamente por meio de punições.
-* **C)** As pessoas são desprovidas de ambição, preferem ser dirigidas e buscam prioritariamente a segurança acima de qualquer outro fator.
-* **D)** A criatividade na solução de problemas organizacionais é privilégio raro e exclusivo dos ocupantes da alta direção.
-* **E)** As recompensas financeiras estritas são a única força capaz de mobilizar a dedicação dos empregados.
-
+* **A)** o caráter egocêntrico dos homens e a oposição entre os objetivos pessoais e os objetivos da organização.
+* **B)** o caráter naturalmente empreendedor e ativo dos homens quando motivados por objetivos organizacionais ambiciosos.
+* **C)** a natureza independente, a predisposição ao autocontrole e facilidade ao comportamento disciplinado.
+* **D)** a capacidade de imaginação e de criatividade na solução de problemas como atributo comum à maioria dos homens.
+* **E)** a responsabilidade da administração em proporcionar condições para que as pessoas reconheçam e desenvolvam suas potencialidades.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. A **Teoria Y** baseia-se em premissas humanistas, democráticas e participativas: o trabalho é visto como fonte de satisfação; os trabalhadores são automotivados, responsáveis e criativos quando engajados em metas organizacionais que atendem às suas necessidades de autorrealização.
-> - **B)** Incorreta. Descrição clássica dos postulados autoritários da **Teoria X**.
-> - **C)** Incorreta. Premissa da **Teoria X**.
-> - **D)** Incorreta. Na Teoria Y, a criatividade e a engenhosidade são amplamente distribuídas na população.
-> - **E)** Incorreta. Visão de incentivos materiais típica da Teoria X e da Administração Científica.
-> 
+> - **A)** **Correta.** Conforme fundamentado na seção *5. Abordagem Comportamental: McGregor, Barnard e Herbert Simon* deste guia, ela só existe efetivamente quando o subordinado decide aceitar a ordem dada pelo superior, dentro de sua "zona de indiferença" (quando entende a ordem, julga-a compatível com os objetivos da organização e com seus valores pessoais). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-6/2012) ao estabelecer que "o caráter egocêntrico dos homens e a oposição entre os objetivos pessoais e os objetivos da organização".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o caráter naturalmente empreendedor e ativo dos homens quando motivados por objetivos organizacionais ambiciosos". De acordo com a teoria estudada em *8. Metáforas Organizacionais de Gareth Morgan*, em sua clássica obra *Imagens da Organização*, Gareth Morgan demonstra que as organizações podem ser concebidas e gerenciadas sob diferentes lentes metafóricas, cada qual ressaltando uma faceta da realidade institucional.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a natureza independente, a predisposição ao autocontrole e facilidade ao comportamento disciplinado". De acordo com a teoria estudada em *A) A Organização Racional do Trabalho (ORT) de Taylor:*, incentivos Salariais e Prêmios de Produção: Pagamento por peça produzida, fundamentado na tese de que o operário é indolente por natureza e reage exclusivamente a estímulos monetários (*Homo Economicus*).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a capacidade de imaginação e de criatividade na solução de problemas como atributo comum à maioria dos homens". De acordo com a teoria estudada em *5. Abordagem Comportamental: McGregor, Barnard e Herbert Simon*, teoria Y (Visão Moderna e Otimista): O esforço no trabalho é tão natural quanto o lazer. As pessoas são capazes de automotivação, criatividade, autodireção e buscam responsabilidades quando alinhadas aos propósitos institucionais.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a responsabilidade da administração em proporcionar condições para que as pessoas reconheçam e desenvolvam suas...". De acordo com a teoria estudada em *Tabela de Síntese Comparativa das Escolas:*, teoria Neoclássica: Peter Drucker — Nos Resultados e objetivos práticos. — *Homem Organizacional*. — Ecletismo teórico; reafirmação dos princípios clássicos ajustados; foco em eficácia; Administração por Objetivos (APO).
+>
 > **Gabarito: A**
 
 ---
@@ -367,52 +360,50 @@ flowchart TD
 ---
 
 ### Teste 345
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Estudos conduzidos por Tom Burns e G. M. Stalker, no âmbito da Teoria Contingencial, demonstraram que o desenho das organizações deve ajustar-se às demandas do ambiente externo, dividindo os sistemas gerenciais em mecanicistas e orgânicos. Em relação a essas duas tipologias, é correto afirmar:
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Administracao – 2026)**
+O Tribunal de Contas da União (TCU), por meio do Referencial Básico de Governança Aplicável a Organizações Públicas (2020), consolidou um conjunto de conceitos e diretrizes sobre governança pública que orienta a atuação dos órgãos e entidades da Administração Pública brasileira. Com base no referencial do TCU sobre governança pública, assinale a afirmativa correta.
 
-* **A)** Organizações que operam sob sistemas mecanicistas caracterizam-se por estruturas descentralizadas, canais de comunicação horizontais e adaptação veloz a ambientes altamente turbulentos.
-* **B)** Os sistemas orgânicos são recomendados prioritariamente para organizações inseridas em ambientes externos estáveis e previsíveis, com tarefas rotineiras e imutáveis.
-* **C)** Os sistemas mecanicistas caracterizam-se por hierarquia rígida, especialização acentuada das tarefas, centralização das decisões e adequação a ambientes externos estáveis.
-* **D)** A teoria contingencial preconiza que as estruturas orgânicas devem ser adotadas universalmente por todas as entidades públicas, independentemente do contexto tecnológico ou ambiental.
-* **E)** As organizações que adotam sistemas orgânicos eliminam integralmente a divisão do trabalho e suprimem as metas institucionais de longo prazo.
-
-
----
-
-> **Comentário Detalhado:**  
->
-> - **A) Incorreta.** Descentralização, comunicação horizontal e adaptabilidade rápida a ambientes dinâmicos são atributos dos sistemas **orgânicos**.  
-> - **B) Incorreta.** Ambientes estáveis e previsíveis ajustam-se melhor aos sistemas **mecanicistas**.  
-> - **C) CORRETA.** Segundo Burns e Stalker, os **sistemas mecanicistas** são marcados por hierarquia vertical estrita, autoridade centralizada na cúpula, tarefas fragmentadas e rotinas padronizadas, sendo ideais para ambientes externos **estáveis e previsíveis**.  
-> - **D) Incorreta.** A Teoria Contingencial rechaça receitas universais; a escolha entre modelo mecanicista ou orgânico é situacional e depende das contingências externas.  
-> - **E) Incorreta.** Os sistemas orgânicos mantêm a divisão de trabalho e os objetivos estratégicos, apenas operando com maior flexibilidade e integração de papéis.  
-> 
-> **Gabarito: C**
-
----
-
-### Teste 346
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A Teoria Contingencial da Administração (desenvolvida a partir de pesquisas de Lawrence & Lorsch, Burns & Stalker e Joan Woodward) estabelece que não existe uma "única melhor maneira" (*the one best way*) de administrar e organizar, pois a estrutura e as práticas organizacionais dependem das variáveis ambientais e tecnológicas.
-
-Segundo a tipologia de Tom Burns e G. M. Stalker, uma **estrutura orgânica** é mais adequada quando a organização opera em um ambiente:
-
-* **A)** Dinâmico, instável e imprevisível, exigindo flexibilidade, descentralização decisória, baixa formalização e comunicações laterais/horizontais.
-* **B)** Totalmente estável, estático e previsível, onde tarefas rotineiras repetitivas e centralização rígida produzem máxima eficiência.
-* **C)** Fechado a qualquer influência externa e focado em controle legalista estrito de ponto eletrônico.
-* **D)** Monopolista estatal sem qualquer interação com os cidadãos e a sociedade civil.
-* **E)** Altamente regulado por normas que proíbam a adaptação a novas tecnologias digitais.
-
+* **A)** Segundo o TCU, governança pública e gestão pública são conceitos equivalentes, pois ambos dizem respeito à execução das atividades finalísticas das organizações públicas com vistas ao atingimento de resultados.
+* **B)** O referencial do TCU define governança pública como o conjunto de mecanismos de liderança, estratégia e controle postos em prática para avaliar, direcionar e monitorar a atuação da gestão, com vistas à condução de políticas públicas e à prestação de serviços de interesse da sociedade.
+* **C)** Para o TCU, a governança pública tem como objetivo principal garantir a eficiência operacional dos processos internos das organizações, sendo sua aplicação restrita aos órgãos da Administração direta federal.
+* **D)** O referencial do TCU estabelece que os mecanismos de governança compreendem exclusivamente as estruturas de controle interno, não abrangendo aspectos de liderança e definição estratégica das organizações públicas.
+* **E)** Conforme o TCU, a boa governança pública dispensa a participação de partes interessadas externas à organização, pois a legitimidade das decisões decorre exclusivamente da competência técnica dos gestores públicos responsáveis pela condução institucional.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Burns e Stalker demonstraram que os **sistemas orgânicos** (flexíveis, descentralizados, baseados em redes e conhecimento especializado horizontal) ajustam-se a ambientes mutáveis e turbulentos; já os **sistemas mecanicistas** (burocráticos, verticais e rígidos) funcionam bem em ambientes estáveis e previsíveis.
-> - **B)** Incorreta. Ambientes estáveis favorecem estruturas mecanicistas/burocráticas.
-> - **C), D), E)** Incorretas. Distorções que contrariam a abertura e adaptabilidade dos modelos contingenciais.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Segundo o TCU, governança pública e gestão pública são conceitos equivalentes, pois ambos dizem respeito à...". De acordo com a teoria estudada em *Tabela de Síntese Comparativa das Escolas:*, teoria Neoclássica: Peter Drucker — Nos Resultados e objetivos práticos. — *Homem Organizacional*. — Ecletismo teórico; reafirmação dos princípios clássicos ajustados; foco em eficácia; Administração por Objetivos (APO).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O referencial do TCU define governança pública como o conjunto de mecanismos de liderança, estratégia e controle...". De acordo com a teoria estudada em *5. Abordagem Comportamental: McGregor, Barnard e Herbert Simon*, a Teoria Comportamental (Behaviorista) consolidou-se na década de 1950, adotando uma perspectiva realista, empírica e democrática do homem nas organizações.
+> - **C)** **Correta.** Conforme fundamentado na seção *B) A Teoria Clássica de Henri Fayol:* deste guia, destaque absoluto em provas para a Unidade de Comando (cada agente tem apenas um chefe imediato de quem recebe ordens), a Unidade de Direção (um só chefe e um só programa para um conjunto de operações com o mesmo objetivo), a Cadeia Escalar / Hierarquia (linha de autoridade do topo à base) e a Divisão do Trabalho. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "Para o TCU, a governança pública tem como objetivo principal garantir a eficiência operacional dos processos...".
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "O referencial do TCU estabelece que os mecanismos de governança compreendem exclusivamente as estruturas de...". De acordo com a teoria estudada em *7. Teoria Contingencial: Sistemas Mecanicistas vs. Orgânicos*, surgida no final dos anos 1960 a partir das pesquisas de Joan Woodward, Tom Burns, G. M. Stalker, Paul Lawrence e Jay Lorsch, a Teoria Contingencial estabelece o postulado de que "nada é absoluto nas organizações; tudo é relativo".
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Conforme o TCU, a boa governança pública dispensa a participação de partes interessadas externas à organização...". De acordo com a teoria estudada em *8. Metáforas Organizacionais de Gareth Morgan*, em sua clássica obra *Imagens da Organização*, Gareth Morgan demonstra que as organizações podem ser concebidas e gerenciadas sob diferentes lentes metafóricas, cada qual ressaltando uma faceta da realidade institucional.
+>
+> **Gabarito: C**
+
+---
+
+### Teste 346
+**(CEBRASPE – TRT-8 – Analista Judiciario Area Apoio Especializado Tecnologia da Informacao – 2022)**
+Três analistas do Poder Judiciário — Ângela, Bianca e Cláudia —, com especialidades diferentes — contabilidade, medicina do trabalho e psicologia — e tempos de experiência diferentes — 12 anos, 15 anos e 20 anos —, foram designadas para emitir parecer técnico sobre um processo trabalhista. Cláudia não é a psicóloga e tem 12 anos de experiência, a contadora tem 20 anos de experiência e a psicóloga não é Bianca. Considerando-se essa situação hipotética, é correto afirmar que
+
+* **A)** a médica do trabalho tem mais de 14 anos de experiência.
+* **B)** Cláudia é a médica do trabalho.
+* **C)** Bianca tem menos de 16 anos de experiência.
+* **D)** Ângela é a contadora.
+* **E)** a psicóloga tem mais de 17 anos de experiência.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a médica do trabalho tem mais de 14 anos de experiência". De acordo com a teoria estudada em *Tabela de Síntese Comparativa das Escolas:*, relações Humanas: Elton Mayo — Nas Pessoas e nos grupos informais. — *Homo Socialis* (motivado pelo grupo e integração). — Experiência de Hawthorne; o nível de produção é ditado pela integração social; recompensas e sanções sociais no trabalho; organização informal.
+> - **B)** **Correta.** Conforme fundamentado na seção *A) A Organização Racional do Trabalho (ORT) de Taylor:* deste guia, análise do Trabalho e Estudo dos Tempos e Movimentos: Decomposição de cada tarefa em seus movimentos fundamentais (*therbligs*), eliminando movimentos inúteis para padronizar o método de execução mais rápido (*the one best way*). Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT-8/2022) ao estabelecer que "Cláudia é a médica do trabalho".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Bianca tem menos de 16 anos de experiência". De acordo com a teoria estudada em *3. Teoria das Relações Humanas (Elton Mayo) e a Experiência de Hawthorne*, desenvolvida a partir de 1932 nos Estados Unidos, a Teoria das Relações Humanas representou uma profunda reação humanística e psicológica contra o mecanicismo da abordagem clássica.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Ângela é a contadora". De acordo com a teoria estudada em *Comparação Estrutural (Burns & Stalker):*, divisão do Trabalho: Tarefas altamente fragmentadas, rotineiras e especializadas. — Tarefas amplas, integradas e continuamente redefinidas.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a psicóloga tem mais de 17 anos de experiência". De acordo com a teoria estudada em *4. Teoria da Burocracia (Max Weber) e as Disfunções Burocráticas (Robert Merton)*, para Max Weber, a burocracia é a forma de organização social humana mais eficiente, técnica e racional para administrar grandes instituições e o Estado moderno.
+>
+> **Gabarito: B**
 
 ---
 
@@ -435,76 +426,74 @@ flowchart TD
 ---
 
 ### Teste 347
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Em sua consagrada obra sobre metáforas organizacionais, Gareth Morgan analisa as diversas imagens conceituais utilizadas para compreender o funcionamento das instituições. Ao retratar a organização sob a metáfora de uma máquina, o autor alinha-se prioritariamente às ideias sustentadas por:
+**(FGV – TCE-PI – Auditor de Controle Externo Controle Externo Especifica de Area Comum – 2025)**
+O neocorporativismo é um sistema de intermediação de interesses em que as organizações são limitadas, e o Estado lhes dá o monopólio da representação em troca de alguma influência sobre nomeações no parlamento. Assinale a opção que apresenta requisitos para o estabelecimento do neocorporativismo.
 
-* **A)** Elton Mayo e a Escola das Relações Humanas.
-* **B)** Frederick Taylor e Henri Fayol nas abordagens mecanicistas clássicas.
-* **C)** Ludwig von Bertalanffy e a Teoria Geral dos Sistemas.
-* **D)** Peter Senge e a teoria das organizações que aprendem.
-* **E)** Joan Woodward e os teóricos da abordagem situacional contemporânea.
-
+* **A)** Um governo pró-trabalhismo, centralização dos grupos de interesse e monopólio da representação.
+* **B)** Centralização dos grupos de interesse, pluralismo irrestrito e participação mínima do Executivo.
+* **C)** Descentralização dos grupos de interesse e abertura total para o pluralismo político.
+* **D)** Ausência de monopólio na representação e governo neoliberal.
+* **E)** Um governo antissindical e representação fragmentada.
 
 ---
 
-> **Comentário Detalhado:**  
+> **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Elton Mayo inaugurou a abordagem humanística focada no comportamento grupal e nas necessidades psicossociais.  
-> - **B) CORRETA.** A **metáfora da máquina** proposta por Morgan reflete a concepção mecanicista do início do século XX encabeçada por **Taylor (Administração Científica)** e **Fayol (Teoria Clássica)**, na qual a instituição é planejada como uma engrenagem mecânica precisa, projetada para funcionar com rotina, previsibilidade e máxima eficiência padronizada.  
-> - **C) Incorreta.** A Teoria dos Sistemas utiliza prioritariamente a metáfora dos organismos vivos.  
-> - **D) Incorreta.** As organizações que aprendem (*learning organizations*) são retratadas sob a metáfora dos cérebros.  
-> - **E) Incorreta.** A abordagem situacional enfatiza a adaptabilidade contingencial ao meio ambiente.  
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Um governo pró-trabalhismo, centralização dos grupos de interesse e monopólio da representação". De acordo com a teoria estudada em *Tabela de Síntese Comparativa das Escolas:*, relações Humanas: Elton Mayo — Nas Pessoas e nos grupos informais. — *Homo Socialis* (motivado pelo grupo e integração). — Experiência de Hawthorne; o nível de produção é ditado pela integração social; recompensas e sanções sociais no trabalho; organização informal.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Centralização dos grupos de interesse, pluralismo irrestrito e participação mínima do Executivo". De acordo com a teoria estudada em *6. Teoria Geral dos Sistemas (TGS): A Organização como Sistema Aberto*, formulada pelo biólogo Ludwig von Bertalanffy e aplicada às organizações por Katz e Kahn, a Teoria dos Sistemas concebe a organização não como uma máquina fechada, mas como um sistema aberto em constante interação e intercâmbio com seu ecossistema externo.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Descentralização dos grupos de interesse e abertura total para o pluralismo político". De acordo com a teoria estudada em *8. Metáforas Organizacionais de Gareth Morgan*, em sua clássica obra *Imagens da Organização*, Gareth Morgan demonstra que as organizações podem ser concebidas e gerenciadas sob diferentes lentes metafóricas, cada qual ressaltando uma faceta da realidade institucional.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Ausência de monopólio na representação e governo neoliberal". De acordo com a teoria estudada em *5. Abordagem Comportamental: McGregor, Barnard e Herbert Simon*, a Teoria Comportamental (Behaviorista) consolidou-se na década de 1950, adotando uma perspectiva realista, empírica e democrática do homem nas organizações.
+> - **E)** **Correta.** Conforme fundamentado na seção *A) A Organização Racional do Trabalho (ORT) de Taylor:* deste guia, supervisão Funcional: Existência de diversos supervisores especializados simultâneos na oficina, cada qual com autoridade funcional sobre determinado aspecto da tarefa do mesmo operário (autoridade funcional fragmentada). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PI/2025) ao estabelecer que "Um governo antissindical e representação fragmentada".
+>
+> **Gabarito: E**
 
 ---
 
 ### Teste 348
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na obra clássica *Imagens da Organização*, Gareth Morgan analisa as organizações por meio de diferentes metáforas para explicar como gestores percebem e projetam as instituições.
+**(FGV – TJ-SC – Analista Administrativo – 2026)**
+Embora se apresente como momento final do ciclo administrativo, o controle desempenha funções que extrapolam a mera verificação de resultados, sendo dotado de objetivos múltiplos que orientam sua aplicação na rotina das organizações. A respeito dos objetivos principais do controle como função administrativa, analise os itens a seguir. I. A regulação das atividades, voltada a mantê-las dentro dos padrões estabelecidos, assegurando que os resultados se mantenham na amplitude de variação compreendida entre os limites máximo e mínimo previamente definidos. II. A substituição integral das funções de planejamento, organização e direção sempre que se identificarem desvios entre os resultados obtidos e os padrões estabelecidos. III. A prevenção de novas falhas ou erros, na medida em que, ao corrigir os problemas detectados, o controle aponta os meios de evitar sua recorrência futura, contribuindo para o aprimoramento gradativo do processo administrativo. Está correto o que se apresenta em
 
-A metáfora que visualiza a organização como um sistema adaptativo que necessita processar informações constantemente, aprender com os erros e reestruturar sua própria base de conhecimento e diretrizes (conceito de circuito duplo de aprendizagem) é a:
-
-* **A)** Organização como Cérebro.
-* **B)** Organização como Máquina.
-* **C)** Organização como Prisão Psíquica.
-* **D)** Organização como Instrumento de Dominação.
-* **E)** Organização como Sistema Político de Coalizões.
-
+* **A)** I, II e III.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** III, apenas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. A metáfora do **Cérebro** (Gareth Morgan) retrata a organização como um sistema de processamento de informações e aprendizagem contínua (*learning organization*), inspirando-se na cibernética e no holograma, onde as partes contêm o todo e a organização aprende a aprender (aprendizagem de circuito duplo).
-> - **B)** Incorreta. A metáfora da Máquina retrata a burocracia clássica e mecanicista (Taylor e Weber).
-> - **C)** Incorreta. A Prisão Psíquica aborda armadilhas inconscientes e ilusões partilhadas.
-> - **D)** Incorreta. Instrumento de Dominação foca na exploração de empregados e comunidades.
-> - **E)** Incorreta. Sistema Político foca em disputas de poder, interesses e coalizões.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *5. Abordagem Comportamental: McGregor, Barnard e Herbert Simon*, ela só existe efetivamente quando o subordinado decide aceitar a ordem dada pelo superior, dentro de sua "zona de indiferença" (quando entende a ordem, julga-a compatível com os objetivos da organização e com seus valores pessoais).
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *Tabela de Síntese Comparativa das Escolas:*, teoria Neoclássica: Peter Drucker — Nos Resultados e objetivos práticos. — *Homem Organizacional*. — Ecletismo teórico; reafirmação dos princípios clássicos ajustados; foco em eficácia; Administração por Objetivos (APO).
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *7. Teoria Contingencial: Sistemas Mecanicistas vs. Orgânicos*, surgida no final dos anos 1960 a partir das pesquisas de Joan Woodward, Tom Burns, G. M. Stalker, Paul Lawrence e Jay Lorsch, a Teoria Contingencial estabelece o postulado de que "nada é absoluto nas organizações; tudo é relativo".
+> - **D)** **Correta.** Conforme fundamentado na seção *1. Síntese Comparativa das Escolas da Teoria Geral da Administração (TGA)* deste guia, a evolução do pensamento administrativo desenvolveu-se ao longo do século XX mediante sucessivas teorias que deslocaram gradualmente o foco de análise das tarefas individuais para a estrutura global, as relações humanas, o processo decisório e a interação dinâmica com o ambiente externo. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-SC/2026) ao estabelecer que "II e III, apenas".
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III, apenas". De acordo com a teoria estudada em *8. Metáforas Organizacionais de Gareth Morgan*, em sua clássica obra *Imagens da Organização*, Gareth Morgan demonstra que as organizações podem ser concebidas e gerenciadas sob diferentes lentes metafóricas, cada qual ressaltando uma faceta da realidade institucional.
+>
+> **Gabarito: D**
 
 ---
 
 ### Teste 349
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em relação aos 14 princípios gerais da administração enunciados por Henri Fayol na Teoria Clássica, assinale a opção que define o princípio da **Unidade de Comando**:
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Administracao – 2026)**
+Henri Fayol foi um dos primeiros teóricos a sistematizar as funções do administrador, propondo que prever, organizar, comandar, coordenar e controlar constituem atividades fundamentais presentes em todos os níveis da hierarquia organizacional. No âmbito dessas funções, coordenar significa
 
-* **A)** Cada colaborador ou servidor deve receber ordens e prestar contas exclusivamente a um único superior hierárquico direto.
-* **B)** Todas as unidades do órgão devem possuir o mesmo quantitativo de servidores em exercício.
-* **C)** O controle orçamentário deve ser unificado na presidência do Tribunal de Justiça.
-* **D)** As decisões estratégicas devem ser tomadas sempre em comissões colegiadas deliberativas.
-* **E)** Os servidores comissionados possuem autoridade irrestrita sobre os servidores estáveis.
-
+* **A)** verificar a conformidade entre os resultados obtidos e as metas, regras e orientações previamente definidas.
+* **B)** harmonizar atividades e esforços coletivos para que a organização atinja seus objetivos de forma coerente.
+* **C)** estabelecer a estrutura material e humana necessária para o funcionamento adequado da organização.
+* **D)** antecipar o futuro por meio da formulação de objetivos, planos e programas de ação.
+* **E)** orientar e conduzir o comportamento das pessoas na execução das atividades sob sua responsabilidade.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. O princípio da **Unidade de Comando** de Fayol postula que um subordinado deve reportar-se e receber ordens de apenas um único chefe imediato, evitando conflitos de autoridade, ambiguidade de papéis e instruções contraditórias.
-> - **B), C), D), E)** Incorretas. Não guardam nenhuma relação com o princípio clássico da unidade de comando de Fayol.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "verificar a conformidade entre os resultados obtidos e as metas, regras e orientações previamente definidas". De acordo com a teoria estudada em *Tabela de Síntese Comparativa das Escolas:*, teoria Neoclássica: Peter Drucker — Nos Resultados e objetivos práticos. — *Homem Organizacional*. — Ecletismo teórico; reafirmação dos princípios clássicos ajustados; foco em eficácia; Administração por Objetivos (APO).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "harmonizar atividades e esforços coletivos para que a organização atinja seus objetivos de forma coerente". De acordo com a teoria estudada em *B) A Teoria Clássica de Henri Fayol:*, coordenar: Ligar, unir, harmonizar e sincronizar todos os atos e esforços coletivos.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "estabelecer a estrutura material e humana necessária para o funcionamento adequado da organização". De acordo com a teoria estudada em *Tabela de Síntese Comparativa das Escolas:*, teoria Clássica: Henri Fayol — Na Estrutura organizacional global. — *Homo Economicus*. — Visão anatômica da empresa; funções do administrador (POCCC); 14 princípios gerais; Unidade de Comando estrita (um só chefe).
+> - **D)** **Correta.** Conforme fundamentado na seção *B) A Teoria Clássica de Henri Fayol:* deste guia, prever (ou Planejar): Visualizar o futuro e traçar o programa de ação institucional. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "antecipar o futuro por meio da formulação de objetivos, planos e programas de ação".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "orientar e conduzir o comportamento das pessoas na execução das atividades sob sua responsabilidade". De acordo com a teoria estudada em *B) A Teoria Clássica de Henri Fayol:*, comandar: Dirigir, orientar e instruir o corpo de funcionários.
+>
+> **Gabarito: D**
 
 ---
 

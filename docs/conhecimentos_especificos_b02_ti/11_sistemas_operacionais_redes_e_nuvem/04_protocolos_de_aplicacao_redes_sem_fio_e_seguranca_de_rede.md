@@ -122,91 +122,74 @@ O **HTTPS** nada mais é do que o tráfego HTTP executado sobre uma camada de se
 ---
 
 ### Teste 443
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Considere a evolução dos protocolos da arquitetura World Wide Web, em especial os padrões HTTP/1.1, HTTP/2 e HTTP/3, concebidos para aprimorar o desempenho, a segurança e a latência de transferência de dados em aplicações corporativas.
+**(FGV – TRF-1 – Analista Judiciario Area Apoio Especializado Especialidade Tecnologia da Informacao – 2024)**
+Ao analisar uma conexão HTTP não persistente, constatou-se o acesso ao endereço http://www.highschool.edu/departamentos/home.index. Uma das etapas da transferência dessa página do servidor para o cliente está corretamente descrita na seguinte alternativa:
 
-Sobre as características fundamentais desses protocolos, assinale a afirmativa correta:
-
-* **A)** O HTTP/2 resolveu integralmente o problema de bloqueio de início de fila (*head-of-line blocking*) em conexões suscetíveis a perdas de pacotes, pois aboliu o protocolo TCP e adotou datagramas UDP em conexões paralelas.
-* **B)** O HTTP/3 adota o protocolo de transporte QUIC operando primariamente sobre datagramas UDP, o que possibilita múltiplos fluxos multiplexados verdadeiramente independentes, nos quais a perda de um pacote individual em um fluxo não bloqueia o processamento dos demais fluxos da conexão.
-* **C)** O HTTP/1.1 introduziu o mecanismo de multiplexação binária através de uma única conexão TCP, dispensando conexões concorrentes para o download de folhas de estilo e imagens.
-* **D)** O protocolo QUIC do HTTP/3 opera em texto plano sem segurança criptográfica nativa, exigindo a instalação manual e facultativa de certificados SSL externos para cifrar dados sensíveis.
-* **E)** Os protocolos HTTP/2 e HTTP/3 mantiveram a estrutura de mensagens baseada em formato estritamente textual legível por humanos em seus cabeçalhos e fluxos, para simplificar a auditoria direta por analisadores de pacotes.
-
+* **A)** cliente HTTP envia uma mensagem de download HTTP ao servidor por meio do socket do servidor. Essa mensagem inclui o nome de caminho /departamentos/home.index;
+* **B)** processo servidor HTTP ordena ao TCP que encerre a conexão TCP. Mas, na realidade, o TCP só a encerrará quando tiver certeza de que o cliente recebeu a mensagem de resposta intacta;
+* **C)** processo cliente HTTP inicia uma conexão TCP para o servidor www.highschool.edu na porta número 90, que é o número de porta default para o HTTP. Associados à conexão UDP, haverá um socket no cliente e um socket no servidor;
+* **D)** cliente TCP recebe a mensagem de resposta e a conexão TCP é encerrada. A mensagem indica que o objeto encapsulado é um arquivo HTTP. O cliente extrai o arquivo da mensagem de resposta, analisa o arquivo HTML e encontra referências aos objetos JPEG;
+* **E)** processo servidor HTML solicita a mensagem de requisição por meio de seu socket, extrai o objeto /departamentos/home.index de seu armazenamento (RAM ou disco), encapsula-o em uma mensagem de resposta HTML e a envia ao cliente HTTP.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O HTTP/2 opera sobre o protocolo de transporte TCP, mantendo o problema do bloqueio de início de fila (*Head-of-Line Blocking*) na camada de transporte caso ocorra perda de pacotes.
-> - **B)** Correta. O HTTP/3 adota o protocolo QUIC sobre UDP, garantindo que os fluxos multiplexados operem de forma verdadeiramente independente, de modo que a perda de um pacote em um stream específico não paralisa a entrega dos demais fluxos da conexão.
-> - **C)** Incorreta. A multiplexação de fluxos binários sobre uma única conexão TCP foi a grande inovação do HTTP/2, e não do HTTP/1.1.
-> - **D)** Incorreta. O protocolo QUIC integra nativamente a criptografia TLS 1.3 em sua estrutura, sendo impossível operar HTTP/3 em texto claro na especificação padrão.
-> - **E)** Incorreta. Tanto o HTTP/2 (com HPACK) quanto o HTTP/3 (com QPACK) utilizam enquadramento binário estruturado, abandonando a sintaxe textual pura do HTTP/1.1.
-> 
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "cliente HTTP envia uma mensagem de download HTTP ao servidor por meio do socket do servidor. Essa mensagem inclui...". De acordo com a teoria estudada em *1.2 HTTP/2: Formato Binário, Multiplexação de Streams e Compressão HPACK*, server Push: O servidor pode enviar antecipadamente recursos essenciais ao cliente (como uma folha de estilo `style.css`) antes mesmo de o navegador interpretá-la e requisitá-la explicitamente.
+> - **B)** **Correta.** Conforme fundamentado na seção *1.1 HTTP/1.1 e o Bloqueio de Início de Fila (Head-of-Line Blocking) na Aplicação* deste guia, se uma página web demanda dezenas de imagens, folhas de estilo CSS e scripts JavaScript, o cliente envia uma requisição e precisa aguardar o servidor responder integralmente antes de enviar a próxima. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF-1/2024) ao estabelecer que "processo servidor HTTP ordena ao TCP que encerre a conexão TCP. Mas, na realidade, o TCP só a encerrará quando...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "processo cliente HTTP inicia uma conexão TCP para o servidor www.highschool.edu na porta número 90, que é o número...". De acordo com a teoria estudada em *Protocolos em Detalhes:*, utilizado pelo cliente para submeter e-mails ao seu servidor (porta 587 com autenticação e STARTTLS) e utilizado para retransmitir e-mails entre servidores de correio na Internet (porta 25).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "cliente TCP recebe a mensagem de resposta e a conexão TCP é encerrada. A mensagem indica que o objeto encapsulado...". De acordo com a teoria estudada em *1.1 HTTP/1.1 e o Bloqueio de Início de Fila (Head-of-Line Blocking) na Aplicação*, ele trouxe como avanço o suporte a conexões persistentes (*Keep-Alive*), permitindo que uma mesma conexão TCP fosse reaproveitada para transferir múltiplos recursos sem a necessidade de reabrir o handshake a cada arquivo.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "processo servidor HTML solicita a mensagem de requisição por meio de seu socket, extrai o objeto...". De acordo com a teoria estudada em *1.1 HTTP/1.1 e o Bloqueio de Início de Fila (Head-of-Line Blocking) na Aplicação*, as mensagens trafegam em formato estritamente textual e sequencial no modelo requisição-resposta.
+>
 > **Gabarito: B**
 
 ---
 
 ### Teste 444
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-O protocolo **HTTP/2** (RFC 7540) foi desenvolvido pelo IETF com o objetivo central de mitigar as graves restrições de latência e concorrência inerentes ao protocolo HTTP/1.1 clássico.
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Ciencias da Computacao Sistemas de Informacao – 2026)**
+Ao auditar os ativos de rede de uma prefeitura, o auditor percebe que o portal da transparência não utiliza o protocolo HTTPS, deixando os dados dos cidadãos vulneráveis. Esse protocolo utiliza uma combinação de protocolos para garantir a segurança. A camada adicional de segurança, responsável pela criptografia e autenticação do site, é
 
-A respeito das inovações arquiteturais introduzidas pelo HTTP/2, assinale a afirmativa correta:
-
-* **A)** O HTTP/2 aboliu o uso de cabeçalhos e passou a transferir mensagens exclusivamente em linguagem assembly.
-* **B)** O HTTP/2 substituiu o formato textual do HTTP/1.1 por um **protocolo binário estruturado em quadros (*Frames*) e fluxos (*Streams*)**, permitindo a **Multiplexação Completa** de múltiplas requisições e respostas bidirecionais concorrentes trafegando simultaneamente sobre uma **única conexão TCP**, eliminando o bloqueio de início de fila (*Head-of-Line Blocking*) na camada de aplicação e introduzindo a compressão de cabeçalhos via algoritmo **HPACK**.
-* **C)** O HTTP/2 exige a abertura de 50 conexões TCP paralelas para cada imagem carregada em uma página web.
-* **D)** O HTTP/2 é incompatível com criptografia TLS, funcionando exclusivamente em conexões HTTP não seguras na porta 80.. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **E)** O algoritmo HPACK do HTTP/2 foi projetado exclusivamente para descompactar arquivos de vídeo em formato AVI.
-
+* **A)** UDP.
+* **B)** BGP.
+* **C)** TLS/SSL.
+* **D)** ICMP.
+* **E)** DHCP.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Os cabeçalhos permanecem essenciais no HTTP/2, porém são comprimidos pelo HPACK.
-> - **B)** **CORRETA.** Avanços técnicos canônicos do **HTTP/2 (RFC 7540)**:
->   1. **Formato Binário:** Mensagens são estruturadas em quadros binários (*Frames* de dados, cabeçalhos, prioridade, etc.), sendo muito mais fáceis e rápidas de parsear por computadores do que o texto plano do HTTP/1.1.
->   2. **Multiplexação (Uma Única Conexão TCP):** Múltiplas requisições independentes e assíncronas viajam intercaladas (*interleaved*) em uma única conexão TCP persistente. Resolve o HoL Blocking na aplicação (uma requisição lenta não trava as demais).
->   3. **Compressão HPACK (RFC 7541):** Comprime cabeçalhos HTTP por codificação de Huffman e tabelas de indexação de cabeçalhos estática e dinâmica, eliminando o envio repetitivo de cookies e user-agents idênticos.
->   4. **Server Push:** Capacidade de o servidor enviar recursos preventivos ao cache do navegador antes mesmo de serem explicitamente solicitados.
-> - **C)** Incorreta. O objetivo do HTTP/2 é exatamente o inverso: concentrar tudo em **uma única conexão TCP**.
-> - **D)** Incorreta. Na prática dos navegadores modernos, o HTTP/2 exige obrigatoriamente transporte seguro sobre TLS (h2).
-> - **E)** Incorreta. O HPACK é um algoritmo de compressão específico para cabeçalhos HTTP.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "UDP". De acordo com a teoria estudada em *1.4 HTTPS e TLS 1.3 Integrado*, o HTTPS nada mais é do que o tráfego HTTP executado sobre uma camada de segurança de transporte criptográfica.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "BGP". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, sTALLINGS, William. Criptografia e Segurança de Redes: Princípios e Práticas. 7. ed. São Paulo: Pearson Education do Brasil, 2018. (Cap. 17 - Segurança de Camada de Transporte: TLS; Cap. 20 - Firewalls).
+> - **C)** **Correta.** Conforme fundamentado na seção *2.2 Transferência de Arquivos: FTP vs. FTPS vs. SFTP* deste guia, fTPS (*FTP over SSL/TLS*): TCP 21 (Controle) + Portas de Dados dinâmicas protegidas — Criptografia via TLS/SSL aplicada sobre as conexões de controle e dados do FTP. — É o protocolo FTP clássico encapsulado em uma sessão TLS. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "TLS/SSL".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ICMP". De acordo com a teoria estudada em *Inovações Tecnológicas do HTTP/3 (QUIC):*, handshake Acelerado (0-RTT e 1-RTT): Como o controle de transporte e a criptografia TLS 1.3 são integrados no mesmo protocolo, a conexão segura é estabelecida em apenas 1 RTT (ou 0-RTT se o host já for conhecido), contra 2 a 3 RTTs exigidos pelo par TCP + TLS 1.2.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "DHCP". De acordo com a teoria estudada em *Protocolos de Segurança do IPsec:*, eSP (*Encapsulating Security Payload* - Protocolo IP 50): Provê confidencialidade (criptografia dos dados), além de autenticação de origem e integridade. É o protocolo primário utilizado para túneis VPN seguros.
+>
+> **Gabarito: C**
 
 ---
 
 ### Teste 445
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Embora o HTTP/2 tenha solucionado o bloqueio de início de fila (*Head-of-Line Blocking*) na camada de aplicação, ele continuou sofrendo com o *Head-of-Line Blocking* na **Camada de Transporte**, decorrente da garantia de entrega estritamente sequencial e ordenada do protocolo TCP subjacente (onde a perda de um único pacote TCP paralisa todos os fluxos multiplexados).
+**(FUMARC – TRT-3 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2022)**
+O TCP (Transmission Control Protocol) é um protocolo da camada de transporte do modelo OSI utilizado no envio e no recebimento de dados na web. Todas as afirmativas abaixo sobre o protocolo TCP estão corretas, EXCETO:
 
-Para superar definitivamente essa barreira física, a IETF padronizou o **HTTP/3** (RFC 9114), cuja principal inovação reside na substituição do TCP pelo protocolo:
-
-* **A)** ICMP com criptografia DES.
-* **B)** **QUIC** (*Quick UDP Internet Connections*), executado sobre o protocolo de transporte **UDP**, no qual as perdas de pacotes em um fluxo (*stream*) individual não bloqueiam os demais fluxos independentes, incorporando criptografia **TLS 1.3 nativa** em seu núcleo e permitindo o estabelecimento de conexão ultrarrápido com handshake de zero tempo de ida e volta (**0-RTT**).
-* **C)** FTP tradicional com autenticação anônima.
-* **D)** AppleTalk em cabos coaxiais antigos.
-* **E)** SMTP executado diretamente sobre conexões seriais RS-232.. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-
+* **A)** O protocolo TCP é orientado à conexão.
+* **B)** O protocolo TCP faz a retransmissão de mensagens caso elas não cheguem ao destinatário.
+* **C)** O protocolo TCP não é compatível com o protocolo FTP (File Transfer Protocol).
+* **D)** O protocolo TCP possui mecanismos para garantir a entrega de dados.
+* **E)** O protocolo TCP trata a ordenação e a correção de pacotes.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O ICMP é um protocolo utilitário de controle e diagnóstico (ping/traceroute), não servindo para transporte de aplicações web.
-> - **B)** **CORRETA.** Revolução arquitetural do **HTTP/3 e QUIC (RFC 9000 / RFC 9114)**:
->   - **Fundamento:** O HTTP/3 abandona o TCP e roda no espaço de usuário sobre **UDP (User Datagram Protocol)**.
->   - **Eliminação do HoL Blocking de Transporte:** No QUIC, os *streams* multiplexados são gerenciados no nível do próprio protocolo de transporte. Se um pacote correspondente ao Stream 2 for perdido na rede, apenas o Stream 2 aguarda a retransmissão; os Streams 1, 3 e 4 continuam sendo entregues imediatamente à aplicação sem qualquer bloqueio.
->   - **Criptografia Integrada (TLS 1.3):** A segurança não é uma camada sobreposta como no TCP; o handshake do QUIC funde a negociação de transporte com o handshake do TLS 1.3, reduzindo o tempo de estabelecimento de conexão de múltiplos RTTs para **1-RTT** (ou **0-RTT** em conexões recorrentes).
->   - **Migração de Conexão (*Connection Migration*):** Utiliza um ID de Conexão (*Connection ID*) independente do IP; se o usuário sai do Wi-Fi e entra no 4G/5G, a conexão não cai nem precisa reiniciar o handshake.
-> - **C)** Incorreta. FTP é protocolo de transferência de arquivos.
-> - **D)** Incorreta. Protocolo legado proprietário da Apple da década de 1980.
-> - **E)** Incorreta. Protocolo de envio de e-mails.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O protocolo TCP é orientado à conexão". De acordo com a teoria estudada em *2.2 Transferência de Arquivos: FTP vs. FTPS vs. SFTP*, sFTP (*SSH File Transfer Protocol*): Apenas a porta TCP 22 — Criptografia forte de ponta a ponta e autenticação por chaves SSH. — NÃO tem nenhuma relação com o FTP! É um subsistema de extensão que opera inteiramente dentro de uma sessão SSH estabelecida.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O protocolo TCP faz a retransmissão de mensagens caso elas não cheguem ao destinatário". De acordo com a teoria estudada em *Protocolos em Detalhes:*, sMTP (*Simple Mail Transfer Protocol* - Portas TCP 25 e TCP 587).
+> - **C)** **Correta.** Conforme fundamentado na seção *2.2 Transferência de Arquivos: FTP vs. FTPS vs. SFTP* deste guia, fTP (*File Transfer Protocol*): TCP 21 (Controle) e TCP 20 (Dados no modo ativo) — NENHUMA. Usuário, senha e conteúdo dos arquivos transitam em texto claro puro. — Protocolo legado original. Opera com duas conexões distintas (modo Ativo vs. modo Passivo/PASV). Dessa forma, está plenamente correta a assertiva da banca (FUMARC – TRT-3/2022) ao estabelecer que "O protocolo TCP não é compatível com o protocolo FTP (File Transfer Protocol)".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O protocolo TCP possui mecanismos para garantir a entrega de dados". De acordo com a teoria estudada em *2.2 Transferência de Arquivos: FTP vs. FTPS vs. SFTP*, fTPS (*FTP over SSL/TLS*): TCP 21 (Controle) + Portas de Dados dinâmicas protegidas — Criptografia via TLS/SSL aplicada sobre as conexões de controle e dados do FTP. — É o protocolo FTP clássico encapsulado em uma sessão TLS.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O protocolo TCP trata a ordenação e a correção de pacotes". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, iETF RFC 4253 - The Secure Shell (SSH) Transport Layer Protocol - Especificação oficial da arquitetura de transporte e autenticação criptográfica do protocolo SSH.
+>
+> **Gabarito: C**
 
 ---
 
@@ -257,89 +240,48 @@ flowchart LR
 ---
 
 ### Teste 446
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em auditorias de sistemas governamentais, é frequente a necessidade de transferir arquivos volumosos contendo bases de dados e folhas de pagamento de órgãos fiscalizados para os servidores do tribunal.
+**(FGV – TJ-RR – Analista Judiciario Infraestrutura de Tecnologia da Informacao – 2024)**
+Com relação aos protocolos de redes de computadores, analise as afirmativas a seguir. I. O DHCP (Dynamic Host Configuration Protocol) é um protocolo cliente-servidor que permite que um host obtenha um endereço IP (Internet Protocol) automaticamente. II. Ao contrário do TCP (Transmission Control Protocol), o UDP (User Datagram Protocol) não é orientado a conexões. III. O SMTP (Simple Mail Transfer Protocol) permite que um servidor de correio eletrônico atue ora como cliente ora como servidor. Está correto o que se afirma em
 
-A respeito da distinção técnica fundamental entre os protocolos de transferência segura **SFTP** (*SSH File Transfer Protocol*) e **FTPS** (*FTP over SSL/TLS*), assinale a afirmativa correta:
-
-* **A)** O SFTP é uma extensão direta do protocolo FTP tradicional que utiliza duas portas de conexão (portas 20 e 21) com certificados X.509..
-* **B)** O **SFTP** é um protocolo completamente independente do FTP clássico, funcionando como um subsistema executado sobre um canal seguro do protocolo **SSH (*Secure Shell*)**, utilizando uma **única porta de rede (porta padrão TCP 22)** para comandos e transferência de dados com autenticação baseada em chaves públicas ou senhas; ao passo que o **FTPS** é o protocolo FTP tradicional legado encapsulado por uma camada de criptografia SSL/TLS, exigindo múltiplos canais de comunicação (porta de comando TCP 21 e uma faixa dinâmica de portas para os canais de dados em modo passivo), o que gera frequentes conflitos com firewalls corporativos.
-* **C)** O FTPS é proibido em redes IPv4 por ser um protocolo exclusivo de satélites espaciais.
-* **D)** Ambos os protocolos utilizam exclusivamente o protocolo UDP sem criptografia.
-* **E)** O SFTP transmite dados em texto claro e foi decifrado em 1995.
-
+* **A)** II, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O SFTP não tem nenhuma relação com o protocolo FTP nem com suas portas; ele roda integralmente dentro do protocolo SSH.
-> - **B)** **CORRETA.** Confronto arquitetural canônico:
->   - **SFTP (SSH File Transfer Protocol):** É uma extensão do SSH (porta TCP 22). Utiliza **uma única conexão TCP** multiplexada para envio de comandos de controle, transferência de arquivos e manipulação remota de diretórios. É extremamente amigável para firewalls corporativos (basta liberar a porta 22) e herda toda a infraestrutura de segurança do SSH (chaves assimétricas RSA/Ed25519, `known_hosts`).
->   - **FTPS (FTP over TLS/SSL):** É o FTP antigo (RFC 959) envolvido por TLS. Mantém a problemática arquitetura de canal duplo do FTP (um canal de controle na porta TCP 21 e múltiplos canais de dados dinâmicos na faixa efêmera em modo passivo), exigindo regras complexas de *Connection Tracking / Application Layer Gateway (ALG)* nos firewalls para autorizar as portas dinâmicas de dados.
-> - **C)** Incorreta. FTPS é amplamente suportado na internet padrão.
-> - **D)** Incorreta. Ambos usam conexões TCP confiáveis e criptografia de ponta a ponta.
-> - **E)** Incorreta. O SFTP cifra todo o tráfego de ponta a ponta através da criptografia robusta do túnel SSH.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas". De acordo com a teoria estudada em *2.3 Correio Eletrônico: SMTP vs. POP3 vs. IMAP*, o tráfego de correio eletrônico na Internet divide-se claramente entre envio/retransmissão e acesso/leitura.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *Protocolos em Detalhes:*, utilizado pelo cliente para submeter e-mails ao seu servidor (porta 587 com autenticação e STARTTLS) e utilizado para retransmitir e-mails entre servidores de correio na Internet (porta 25).
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *2.2 Transferência de Arquivos: FTP vs. FTPS vs. SFTP*, fTP (*File Transfer Protocol*): TCP 21 (Controle) e TCP 20 (Dados no modo ativo) — NENHUMA. Usuário, senha e conteúdo dos arquivos transitam em texto claro puro. — Protocolo legado original. Opera com duas conexões distintas (modo Ativo vs. modo Passivo/PASV).
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *2.2 Transferência de Arquivos: FTP vs. FTPS vs. SFTP*, sFTP (*SSH File Transfer Protocol*): Apenas a porta TCP 22 — Criptografia forte de ponta a ponta e autenticação por chaves SSH. — NÃO tem nenhuma relação com o FTP! É um subsistema de extensão que opera inteiramente dentro de uma sessão SSH estabelecida.
+> - **E)** **Correta.** Conforme fundamentado na seção *Protocolos em Detalhes:* deste guia, sMTP (*Simple Mail Transfer Protocol* - Portas TCP 25 e TCP 587). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-RR/2024) ao estabelecer que "I, II e III".
+>
+> **Gabarito: E**
 
 ---
 
 ### Teste 447
-**(FGV – TJ-AP – Analista Judiciário (TI) – 2023)**  
-O gerenciamento e a configuração de equipamentos de rede
+**(FGV – TCE-GO – Analista de Controle Externo Tecnologia da Informacao – 2024)**
+Em relação às tecnologias de segurança de rede e protocolos de comunicação segura, analise as afirmações abaixo: I. VPN (Virtual Private Network) e VPN-SSL (Virtual Private Network - Secure Sockets Layer) são tecnologias que permitem a criação de conexões seguras e criptografadas através de redes públicas, mas VPN-SSL especificamente utiliza o protocolo SSL; II. SSL (Secure Sockets Layer) é um protocolo criptográfico projetado exclusivamente para navegação web não funcionando com VPNs; III. A renegociação segura durante o handshake no protocolo TLS é um processo que permite que as partes já conectadas concordem em novos parâmetros de segurança sem necessidade de encerrar a conexão existente. Está correto o que se afirma em
 
-dependem de uma série de protocolos e aplicações. Dentre eles,
-
-podem-se destacar aqueles associados ao acesso remoto e ao
-
-monitoramento de equipamentos, e aqueles destinados à
-
-transferência de arquivos.
-
-Nesse sentido, analise os itens a seguir.
-
-I. O protocolo SSH (Secure Shell) permite a realização de
-
-autenticação em dispositivos de rede por meio do uso de
-
-criptografia. Por padrão, seus servidores utilizam a porta TCP 23
-
-para conexão.
-
-II. O protocolo FTP (File Transfer Protocol) realiza a transferência
-
-de arquivos de forma segura por meio do uso de criptografia. Por
-
-padrão, seus servidores utilizam a porta 21 para controle da
-
-conexão e a porta 20 é usada na transferência de dados.
-
-III. O protocolo SNMP (Simple Network Management Protocol)
-
-permite o monitoramento de uma série de informações de
-
-dispositivos de rede. Por padrão, dentre as portas utilizadas por
-
-seus servidores estão as portas UDP 161 e UDP 162.
-
-Está correto somente o que se afirma em:
-
-* **A)** I;
-* **B)** II;
-* **C)** III;
-* **D)** I e II;
-* **E)** II e III. Tribunal de Justiça do Estado do Amapá FGV Conhecimento Analista Jud - Apo Especializado - Tecnologia da Informação - Telecomunicações  Tipo 1 ̶ Branca – Página 14
+* **A)** I, apenas.
+* **B)** II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O SSH utiliza por padrão a porta TCP 22 (a porta 23 corresponde ao Telnet).
-> - **B)** Incorreta. O protocolo FTP básico não utiliza criptografia (tráfego em texto claro); além disso, na conexão passiva as portas de dados são negociadas dinamicamente.
-> - **C)** Correta. Analisando as assertivas: I é FALSA (SSH opera na porta TCP 22, não 23); II é FALSA (o protocolo FTP nativo não possui criptografia embutida); III é VERDADEIRA (o protocolo SNMP utiliza as portas padrão UDP 161 para consultas/polling do agente e UDP 162 para o recebimento de notificações assíncronas do tipo Traps/Informs). Portanto, apenas a assertiva III está correta.
-> - **D)** Incorreta. As assertivas I e II contêm erros conceituais graves de portas e segurança.
-> - **E)** Incorreta. Apenas a assertiva III é verdadeira.
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *Inovações Tecnológicas do HTTP/3 (QUIC):*, handshake Acelerado (0-RTT e 1-RTT): Como o controle de transporte e a criptografia TLS 1.3 são integrados no mesmo protocolo, a conexão segura é estabelecida em apenas 1 RTT (ou 0-RTT se o host já for conhecido), contra 2 a 3 RTTs exigidos pelo par TCP + TLS 1.2.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas". De acordo com a teoria estudada em *1.1 HTTP/1.1 e o Bloqueio de Início de Fila (Head-of-Line Blocking) na Aplicação*, ele trouxe como avanço o suporte a conexões persistentes (*Keep-Alive*), permitindo que uma mesma conexão TCP fosse reaproveitada para transferir múltiplos recursos sem a necessidade de reabrir o handshake a cada arquivo.
+> - **C)** **Correta.** Conforme fundamentado na seção *2.1 SSH (Secure Shell) e Redirecionamento de Portas* deste guia, o protocolo SSH opera na porta TCP 22 e provê comunicação criptografada segura para administração remota de servidores, transferência de arquivos e execução remota de comandos, substituindo protocolos inseguros legados (Telnet, rlogin). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "I e III, apenas".
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *Modos de Operação do IPsec:*, modo Túnel: Utilizado em conexões de borda VPN *Site-to-Site* interligando redes inteiras (Matriz e Filial) através de roteadores ou firewalls.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *1.1 HTTP/1.1 e o Bloqueio de Início de Fila (Head-of-Line Blocking) na Aplicação*, o protocolo HTTP/1.1 (RFC 2616) estruturou a comunicação na web durante duas décadas.
 >
 > **Gabarito: C**
 
@@ -390,82 +332,74 @@ Os Balanceadores de Carga (*Load Balancers*) distribuem o fluxo de requisições
 ---
 
 ### Teste 448
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Uma entidade governamental necessita interligar a rede local de seu data center sede à rede local de uma unidade regional descentralizada através da Internet pública. O projeto de segurança estipula que a solução deve mascarar integralmente os endereços IP corporativos internos de ambas as localidades e garantir sigilo criptográfico completo e autenticidade para todo o tráfego em trânsito.
+**(FGV – TJ-RR – Analista Judiciario Infraestrutura de Tecnologia da Informacao – 2024)**
+O Tribunal de Justiça do Estado de Roraima está modernizando sua infraestrutura de rede para melhorar a segurança e a eficiência na comunicação de dados. A equipe de Tecnologia da Informação está implementando mecanismos de Network Address Translation (NAT) e Port Address Translation (PAT) para otimizar o uso de endereços IP públicos e proteger a rede interna. Além disso, estão avaliando quais protocolos e padrões de segurança sem fio devem ser adotados para garantir a confidencialidade e integridade das informações transmitidas. Entre as opções consideradas estão os protocolos WEP, WPA, WPA2, WPA3 e a implementação do padrão IEEE 802.1X em conjunto com o EAP (Extensible Authentication Protocol). Considerando o cenário apresentado, a equipe de TI precisa entender o funcionamento do PAT na rede e selecionar o protocolo de segurança sem fio mais adequado para proteger as comunicações sem comprometer a eficiência. Com base nas informações fornecidas, assinale a opção que interpreta corretamente o papel do PAT na rede e identifica o protocolo de segurança sem fio mais adequado para garantir a confidencialidade e integridade dos dados transmitidos.
 
-Para atender plenamente aos requisitos de interconexão VPN *Site-to-Site*, o analista deve configurar a arquitetura IPsec utilizando:
-
-* **A)** O protocolo AH (*Authentication Header*) em Modo Transporte.
-* **B)** O protocolo ESP (*Encapsulating Security Payload*) em Modo Transporte.
-* **C)** O protocolo ESP (*Encapsulating Security Payload*) em Modo Túnel.
-* **D)** O protocolo AH (*Authentication Header*) em Modo Túnel.
-* **E)** O protocolo TLS em Modo Enlace com portas abertas.
-
+* **A)** O PAT permite que cada dispositivo interno tenha um endereço IP público exclusivo; o protocolo WEP deve ser implementado para proteger a rede sem fio.
+* **B)** O PAT traduz múltiplos endereços IP privados em um único endereço IP público usando números de porta para diferenciar as saídas; o protocolo WPA3 é o mais adequado para proteger a rede sem fio.
+* **C)** O PAT mapeia cada endereço IP privado para um endereço IP público diferente; o protocolo WPA deve ser utilizado para a segurança da rede sem fio.
+* **D)** O PAT não é necessário quando o NAT está em uso; o protocolo EAP é suficiente para proteger a rede sem fio.
+* **E)** O PAT converte endereços IPv4 em IPv6; o padrão IEEE 802.1X deve ser aplicado para garantir a segurança da rede sem fio.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O protocolo AH não fornece sigilo (criptografia de dados) e o Modo Transporte preserva o cabeçalho IP original visível na rede pública.
-> - **B)** Incorreta. O Modo Transporte expõe o cabeçalho IP original, revelando os endereços IPs internos dos servidores para qualquer nó intermediário da Internet.
-> - **C)** Correta. O protocolo ESP em Modo Túnel é a configuração canônica obrigatória para VPNs *Site-to-Site*, pois criptografa integralmente o pacote IP original (cabeçalho privado + payload) e insere um novo cabeçalho IP público externo para roteamento seguro entre os gateways de borda.
-> - **D)** Incorreta. O protocolo AH em Modo Túnel encapsula o pacote, mas não provê confidencialidade (não realiza criptografia do conteúdo).
-> - **E)** Incorreta. A especificação técnica requer o emprego dos padrões arquiteturais do IPsec em nível de rede.
-> 
-> **Gabarito: C**
-
----
-
-### Teste 449
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na infraestrutura de datacenters de tribunais de contas, o balanceamento de carga (*Load Balancing*) distribui o tráfego dos sistemas de processo eletrônico entre múltiplos servidores de aplicação em cluster, operando tipicamente na **Camada 4 (Transporte)** ou na **Camada 7 (Aplicação)**.
-
-A respeito das características que diferenciam um balanceador **Layer 4 (L4)** de um balanceador **Layer 7 (L7)**, assinale a afirmativa correta:
-
-* **A)** O balanceador L7 é incapaz de ler o conteúdo da requisição HTTP, roteando pacotes apenas pelo endereço IP de destino..
-* **B)** O balanceador **Layer 4 (L4)** toma decisões de roteamento em alta velocidade baseando-se exclusivamente em informações das camadas de rede e transporte (endereço IP de origem/destino e porta TCP/UDP), sem inspecionar a carga útil da aplicação; ao passo que o balanceador **Layer 7 (L7)** atua na camada de aplicação, inspecionando o conteúdo semântico da mensagem (cabeçalhos HTTP, URIs solicitadas, métodos `GET`/`POST`, cookies de sessão e dados de formulário), permitindo roteamento inteligente baseado em caminhos (ex.: direcionar `/api/` para um cluster de microsserviços e `/estaticos/` para outro), além de permitir terminação SSL/TLS e persistência de sessão baseada em cookies (*Sticky Sessions*).
-* **C)** O balanceador L4 é exclusivo de cabos de fibra óptica submarinos.
-* **D)** O balanceador L7 consome menos ciclos de CPU e memória do que o L4 por não analisar o cabeçalho das mensagens.
-* **E)** Ambos os tipos exigem que todos os servidores web de destino possuam o mesmo endereço IP físico.
-
-
----
-
-> **Comentário Detalhado:**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O PAT permite que cada dispositivo interno tenha um endereço IP público exclusivo; o protocolo WEP deve ser...". De acordo com a teoria estudada em *4.4 Evolução da Segurança Sem Fio: WEP, WPA, WPA2 e WPA3 (Personal vs. Enterprise)*, wEP: Cifra de fluxo RC4 (chave de 40 ou 104 bits + IV estático de 24 bits) — CRC-32 (fraco) — Totalmente Quebrado e Obsoleto. Pode ser decifrado em poucos minutos devido ao reúso de vetores de inicialização (IVs curtos). Banido pelas normas de segurança.
+> - **B)** **Correta.** Conforme fundamentado na seção *4.4 Evolução da Segurança Sem Fio: WEP, WPA, WPA2 e WPA3 (Personal vs. Enterprise)* deste guia, wPA2: AES (*Advanced Encryption Standard*) com protocolo CCMP — CBC-MAC — Padrão robusto da indústria. Vulnerável ao ataque de reinstalação de chave (KRACK) e ataques de força bruta/dicionário offline ao aperto de mão de 4 vias (modo PSK). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-RR/2024) ao estabelecer que "O PAT traduz múltiplos endereços IP privados em um único endereço IP público usando números de porta para...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O PAT mapeia cada endereço IP privado para um endereço IP público diferente; o protocolo WPA deve ser utilizado...". De acordo com a teoria estudada em *4.4 Evolução da Segurança Sem Fio: WEP, WPA, WPA2 e WPA3 (Personal vs. Enterprise)*, padrão: Criptografia Adotada — Mecanismo de Integridade — Vulnerabilidades Críticas / Situação Atual.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O PAT não é necessário quando o NAT está em uso; o protocolo EAP é suficiente para proteger a rede sem fio". De acordo com a teoria estudada em *Protocolos de Segurança do IPsec:*, o protocolo AH NÃO PROVÊ CONFIDENCIALIDADE (NÃO realiza criptografia de dados)! Além disso, é incompatível com NAT porque inclui o cabeçalho IP original no cálculo de integridade.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O PAT converte endereços IPv4 em IPv6; o padrão IEEE 802.1X deve ser aplicado para garantir a segurança da rede...". De acordo com a teoria estudada em *4.4 Evolução da Segurança Sem Fio: WEP, WPA, WPA2 e WPA3 (Personal vs. Enterprise)*, wPA: Cifra TKIP (*Temporal Key Integrity Protocol*) sobre RC4 — Michael (MIC) — Padrão emergencial de transição para cobrir as falhas do WEP sem exigir troca de hardware; hoje também considerado obsoleto.
 >
-> - **A)** Incorreta. O balanceador L7 inspeciona minuciosamente todo o tráfego da camada de aplicação HTTP/HTTPS.
-> - **B)** **CORRETA.** Comparativo técnico clássico de **Load Balancers**:
->   - **Layer 4 (L4 - Transporte):** Roteamento em nível de fluxo TCP/UDP. Olha apenas a tupla de 5 elementos (*IP Origem, Porta Origem, IP Destino, Porta Destino, Protocolo*). Não decifra a mensagem nem conhece HTTP. É extremamente veloz, consome pouca CPU e lida com centenas de milhares de conexões por segundo sem interferir nos dados.
->   - **Layer 7 (L7 - Aplicação):** Roteamento consciente do conteúdo (*Content-Aware / Application Routing*). Atua como um proxy reverso completo: termina a conexão TCP do cliente, decifra o TLS, analisa o payload HTTP e decide o servidor backend com base na URL (ex.: `/relatorios` $	o$ Servidor A; `/pagamentos` $	o$ Servidor B), cookies ou cabeçalhos. Oferece inteligência máxima e recursos como WAF e *Sticky Sessions*, com maior custo computacional de CPU/RAM.
-> - **C)** Incorreta. Dispositivos lógicos aplicados em qualquer infraestrutura corporativa.
-> - **D)** Incorreta. O L7 consome **muito mais recursos de CPU e memória** do que o L4 justamente porque precisa remontar pacotes TCP, decifrar criptografia SSL e analisar texto HTTP.
-> - **E)** Incorreta. Os servidores do pool de backend possuem endereços IPs privados distintos para os quais o balanceador despacha o tráfego.
-> 
 > **Gabarito: B**
 
 ---
 
-### Teste 450
-**(FCC – TRT-9 – Analista Judiciário (TI) – 2015)**  
-A adoção de um sistema de NAT ( Network Address Translation) no roteador de uma LAN apresenta a vantagem de segurança, pois
+### Teste 449
+**(FGV – TCE-GO – Analista de Controle Externo Tecnologia da Informacao – 2024)**
+O IPSec é um conjunto de protocolos desenvolvidos pelo IETF para oferecer segurança para um pacote no nível de rede. Com relação ao IPSec, assinale V para afirmativa verdadeira e F para a falsa. ( ) O IPSec no modo túnel não protege o cabeçalho IP enquanto no modo de transporte, protege o pacote inteiro. ( ) O protocolo ESP fornece somente autenticação de fonte e integridade de dados, enquanto o protocolo AH fornece, também, privacidade, além da autenticação e integridade. ( ) O IPSec oferece suporte tanto ao IPv4 quanto o IPv6, porém, apenas no IPv6 o ESP e o AH fazem parte do cabeçalho de extensão. As afirmativas são, respectivamente,
 
-* **A)** o NAT realiza a filtragem dos pacotes IPs que saem da LAN.
-* **B)** o NAT realiza a função de um servidor Proxy de conteúdo.
-* **C)** o NAT realiza a filtragem dos pacotes TCP que entram na LAN.
-* **D)** um pacote gerado na LAN é encapsulado e criptografado para sair da LAN.
-* **E)** um acesso ou pacote gerado externamente à LAN é automaticamente descartado.
+* **A)** V – V – V.
+* **B)** F – V – F.
+* **C)** F – F – F.
+* **D)** F – F – V.
+* **E)** V – F – V.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O NAT básico realiza a tradução de endereços IP privados/públicos, e não filtragem avançada de pacotes.
-> - **B)** Incorreta. NAT opera na camada de rede (Camada 3), enquanto um proxy de conteúdo atua na camada de aplicação (Camada 7).
-> - **C)** Incorreta. A filtragem de pacotes TCP é atribuição típica de firewalls de estado (Stateful Firewall).
-> - **D)** Incorreta. Encapsulamento e criptografia de datagramas são funções de protocolos de VPN (como IPsec), não do NAT padrão.
-> - **E)** Correta. O NAT (Network Address Translation) oferece uma camada intrínseca de proteção perimetral porque esconde os endereços IPv4 privados internos da rede local. Como as portas de mapeamento na tabela de estados só são abertas sob demanda a partir de conexões iniciadas internamente pelos hosts da LAN, qualquer tentativa de conexão externa não solicitada direcionada ao IP público é automaticamente descartada pelo roteador.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – V – V". De acordo com a teoria estudada em *Protocolos de Segurança do IPsec:*, eSP (*Encapsulating Security Payload* - Protocolo IP 50): Provê confidencialidade (criptografia dos dados), além de autenticação de origem e integridade. É o protocolo primário utilizado para túneis VPN seguros.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – V – F". De acordo com a teoria estudada em *Protocolos de Segurança do IPsec:*, o protocolo AH NÃO PROVÊ CONFIDENCIALIDADE (NÃO realiza criptografia de dados)! Além disso, é incompatível com NAT porque inclui o cabeçalho IP original no cálculo de integridade.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – F – F". De acordo com a teoria estudada em *Protocolos de Segurança do IPsec:*, aH (*Authentication Header* - Protocolo IP 51): Provê autenticação da origem e integridade estrita dos dados via hash criptográfico.
+> - **D)** **Correta.** Conforme fundamentado na seção *3.1 Arquitetura IPsec: Cabeçalhos AH vs. ESP e Modos Transporte vs. Túnel* deste guia, o conjunto de protocolos IPsec opera na Camada de Rede (Camada 3 do modelo OSI), sendo agnóstico em relação às aplicações de camadas superiores. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "F – F – V".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – F – V". De acordo com a teoria estudada em *Modos de Operação do IPsec:*, o pacote IP original inteiro (cabeçalho IP privado + carga útil) é completamente criptografado, e um novo cabeçalho IP externo contendo os endereços públicos dos gateways de borda é adicionado por fora.
 >
-> **Gabarito: E**
+> **Gabarito: D**
+
+---
+
+### Teste 450
+**(CEBRASPE – TJ-RJ – Analista Judiciario Grupo Tecnologia da Informacao Analista de Seguranca da Informacao – 2021)**
+A proteção de segurança de rede computacional de determinado tribunal é composta por firewall de aplicação Web (WAF), sistema de detecção e prevenção de intrusão (IDS/IPS), firewall e listas de acessos (ACL) utilizadas em switchs e roteadores. Um atacante conseguiu, a partir da Internet, ultrapassar a proteção dessa rede e acessar indevidamente informações restritas. A aplicação web afetada, E-processos, é utilizada para gestão de processos judiciais, sendo acessada tanto pela Internet quanto pela rede interna por diversos perfis de usuários, como servidores, advogados, juízes. A aplicação conta com alguns recursos de segurança, como bloqueio por tentativa de força bruta e protocolo de transferência de hipertexto seguro (HTTPS). Durante a análise do incidente, identificou-se a utilização da técnica de SQL Injection na exploração de uma vulnerabilidade na E-processos, o que permitiu o acesso não autorizado a dados armazenados no servidor de banco de dados. Nessa situação hipotética, as falhas que podem ser identificadas incluem
+
+* **A)** IDS/IPS configurado no modo de detecção e fluxo de comunicação da Internet para o servidor na porta TCP 443 liberado no firewall.
+* **B)** IDS/IPS configurado em modo de detecção e fluxo de comunicação da Internet para o servidor na porta TCP 443 liberado na ACL do roteador de borda.
+* **C)** WAF com regra de SQL Injection desativada no fluxo de comunicação da Internet para o servidor na porta TCP 443 e IDS/IPS configurado em modo de prevenção.
+* **D)** IDS/IPS configurado em modo de prevenção com regra de SQL Injection desativada no fluxo de comunicação da Internet para o servidor na porta TCP 443 e WAF com inspeção desativada para SSL/TLS em HTTP.
+* **E)** IDS/IPS e WAF com inspeção desativada para SSL/TLS em HTTP e fluxo de comunicação da Internet para o servidor nas portas TCP 80 e 443 liberadas na ACL do roteador de borda e no firewall.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "IDS/IPS configurado no modo de detecção e fluxo de comunicação da Internet para o servidor na porta TCP 443...". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, iETF RFC 8446 - The Transport Layer Security (TLS) Protocol Version 1.3 - Especificação oficial do protocolo TLS 1.3 para canal seguro de comunicação na Internet.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "IDS/IPS configurado em modo de detecção e fluxo de comunicação da Internet para o servidor na porta TCP 443...". De acordo com a teoria estudada em *2.1 SSH (Secure Shell) e Redirecionamento de Portas*, o protocolo SSH opera na porta TCP 22 e provê comunicação criptografada segura para administração remota de servidores, transferência de arquivos e execução remota de comandos, substituindo protocolos inseguros legados (Telnet, rlogin).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "WAF com regra de SQL Injection desativada no fluxo de comunicação da Internet para o servidor na porta TCP 443 e...". De acordo com a teoria estudada em *3.3 Servidores Proxy: Forward Proxy vs. Reverse Proxy*, atua como a vitrine pública de entrada: recebe as requisições dos usuários da Internet, faz terminação SSL, aplica balanceamento de carga, acelera a entrega por meio de cache de conteúdo estático e oculta a topologia interna e a quantidade de servidores do datacenter contra invasores externos.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.3 HTTP/3 e o Protocolo QUIC sobre UDP* deste guia, para eliminar em definitivo qualquer forma de bloqueio em redes móveis e de alta latência, a IETF padronizou o HTTP/3 (RFC 9114), substituindo o TCP pelo protocolo de transporte QUIC (*Quick UDP Internet Connections* - RFC 9000), que opera sobre datagramas UDP (Porta UDP 443). Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TJ-RJ/2021) ao estabelecer que "IDS/IPS configurado em modo de prevenção com regra de SQL Injection desativada no fluxo de comunicação da Internet...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "IDS/IPS e WAF com inspeção desativada para SSL/TLS em HTTP e fluxo de comunicação da Internet para o servidor nas...". De acordo com a teoria estudada em *2.2 Transferência de Arquivos: FTP vs. FTPS vs. SFTP*, fTPS (*FTP over SSL/TLS*): TCP 21 (Controle) + Portas de Dados dinâmicas protegidas — Criptografia via TLS/SSL aplicada sobre as conexões de controle e dados do FTP. — É o protocolo FTP clássico encapsulado em uma sessão TLS.
+>
+> **Gabarito: D**
 
 ---
 
@@ -535,79 +469,74 @@ O problema é neutralizado pelo mecanismo opcional de reserva via quadros de con
 ---
 
 ### Teste 451
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-A implantação de redes locais sem fio corporativas (*WLAN / Wi-Fi*) baseadas na família de padrões IEEE 802.11 requer o planejamento criterioso de frequências e canais para evitar interferências de rádio e degradação de sinal.
+**(FGV – TRF-1 – Analista Judiciario Area Apoio Especializado Especialidade Suporte Em Tecnologia da Informacao – 2024)**
+Um órgão que realiza atendimento presencial ao público implementou três redes sem fio e configurou protocolos de segurança distintos nelas. Os protocolos foram implementados de acordo com os requisitos de segurança necessários para cada rede, conforme descritos abaixo: 1. rede pública: protocolo com chave criptográfica única e estática de 128 bits que utiliza algoritmo de criptografia RC4; 2. rede interna: protocolo com chave criptográfica AES, com senhas longas; 3. rede terceirizada: protocolo com chave criptográfica gerada dinamicamente e alterada regularmente em tempos prédefinidos, com base no algoritmo de criptografia RC4, com senhas curtas. Os protocolos de segurança implementados na rede foram, respectivamente:
 
-A respeito da comparação técnica entre as bandas de frequência de **2.4 GHz** e **5 GHz**, assinale a afirmativa correta:
-
-* **A)** A banda de 2.4 GHz oferece maiores taxas de transmissão de dados e mais canais sem sobreposição do que a banda de 5 GHz.
-* **B)** A frequência de **2.4 GHz** possui maior alcance geográfico e maior capacidade de penetração de obstáculos físicos (paredes e divisórias) devido ao seu comprimento de onda maior, porém sofre de grande congestionamento e dispõe de apenas **3 canais sem sobreposição mútua** no espectro padrão (canais 1, 6 e 11); ao passo que a frequência de **5 GHz** oferece larguras de canal muito maiores, taxas de transmissão significativamente mais elevadas e dezenas de canais descorrelacionados, com o *trade-off* de apresentar menor alcance útil e maior atenuação ao atravessar obstáculos sólidos.
-* **C)** A banda de 5 GHz é totalmente imune a qualquer atenuação provocada por paredes de concreto armado.
-* **D)** O padrão IEEE 802.11b opera exclusivamente na faixa de 60 GHz com velocidade de 10 Gigabits por segundo.
-* **E)** Fornos micro-ondas e telefones sem fio antigos operam exclusivamente na faixa de 5 GHz, deixando a faixa de 2.4 GHz livre de qualquer interferência..
-
+* **A)** WPA, EAP e WPA3;
+* **B)** WPA, WEP e WPA2;
+* **C)** WEP, WPA2 e WPA;
+* **D)** WEP, WPA3 e EAP;
+* **E)** EAP, WEP e WPA2.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A banda de 5 GHz oferece taxas de transferência ordens de grandeza superiores e muito mais canais não sobrepostos.
-> - **B)** **CORRETA.** Propriedades físicas fundamentais da radiofrequência em redes Wi-Fi:
->   - **Banda de 2.4 GHz:** Comprimento de onda de cerca de 12,5 cm. **Vantagem:** Alcance mais longo e melhor propagação através de obstáculos sólidos. **Desvantagens:** Banda estreita, extremamente congestionada (Bluetooth, micro-ondas, telefones sem fio) e dispõe de apenas **três canais que não se sobrepõem: 1, 6 e 11** (canais adjacentes sofrem interferência de canal adjacente).
->   - **Banda de 5 GHz:** Comprimento de onda de cerca de 6 cm. **Vantagens:** Mais de 20 canais sem sobreposição, suporte a canais agregados de 40, 80 e 160 MHz (Wi-Fi 5 e 6), fornecendo taxas de múltiplos Gigabits/s com baixíssima interferência. **Desvantagem:** Maior absorção pelo ar e severa atenuação por obstáculos físicos (paredes grossas atenuam fortemente o sinal).
-> - **C)** Incorreta. Sinais de frequências mais altas sofrem atenuação significativamente mais severa ao atravessar materiais densos.
-> - **D)** Incorreta. O 802.11b é um padrão legado de 1999 que operava em 2.4 GHz com taxa máxima de 11 Mbps.
-> - **E)** Incorreta. Fornos micro-ondas operam exatamente na faixa de **2.4 GHz** (frequência de ressonância da água), sendo a principal fonte de interferência eletromagnética não-Wi-Fi nessa banda.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "WPA, EAP e WPA3". De acordo com a teoria estudada em *4.4 Evolução da Segurança Sem Fio: WEP, WPA, WPA2 e WPA3 (Personal vs. Enterprise)*, wEP: Cifra de fluxo RC4 (chave de 40 ou 104 bits + IV estático de 24 bits) — CRC-32 (fraco) — Totalmente Quebrado e Obsoleto. Pode ser decifrado em poucos minutos devido ao reúso de vetores de inicialização (IVs curtos). Banido pelas normas de segurança.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "WPA, WEP e WPA2". De acordo com a teoria estudada em *4.4 Evolução da Segurança Sem Fio: WEP, WPA, WPA2 e WPA3 (Personal vs. Enterprise)*, wPA2: AES (*Advanced Encryption Standard*) com protocolo CCMP — CBC-MAC — Padrão robusto da indústria. Vulnerável ao ataque de reinstalação de chave (KRACK) e ataques de força bruta/dicionário offline ao aperto de mão de 4 vias (modo PSK).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "WEP, WPA2 e WPA". De acordo com a teoria estudada em *4.4 Evolução da Segurança Sem Fio: WEP, WPA, WPA2 e WPA3 (Personal vs. Enterprise)*, wPA: Cifra TKIP (*Temporal Key Integrity Protocol*) sobre RC4 — Michael (MIC) — Padrão emergencial de transição para cobrir as falhas do WEP sem exigir troca de hardware; hoje também considerado obsoleto.
+> - **D)** **Correta.** Conforme fundamentado na seção *4.4 Evolução da Segurança Sem Fio: WEP, WPA, WPA2 e WPA3 (Personal vs. Enterprise)* deste guia, wPA3: AES-128 (modo Personal) ou CNSA de 192 bits (modo Enterprise) — Galois/Counter Mode (GCMP) — Padrão de Excelência Atual. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF-1/2024) ao estabelecer que "WEP, WPA3 e EAP".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "EAP, WEP e WPA2". De acordo com a teoria estudada em *4.4 Evolução da Segurança Sem Fio: WEP, WPA, WPA2 e WPA3 (Personal vs. Enterprise)*, padrão: Criptografia Adotada — Mecanismo de Integridade — Vulnerabilidades Críticas / Situação Atual.
+>
+> **Gabarito: D**
 
 ---
 
 ### Teste 452
-**(FGV – TJ-AP – Analista Judiciário (TI) – 2023)**  
-Em contraste com as redes conectadas fisicamente, as redes sem fio são ruidosas e pouco confiáveis. Um dos padrões mais famosos para redes sem fio é o IEEE 802.11. Dentre as características das redes que usam o protocolo IEEE 802.11, é correto afirmar que:
+**(FCC – TRT-6 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2012)**
+Dentre as redes sem fio mais comumente utilizadas estão aquelas designadas pela marca registrada Wi-Fi. A seu respeito, é correto afirmar que
 
-* **A)** o protocolo IEEE 802.11 tenta resolver os problemas das estações expostas, ocultas ou transparentes;
-* **B)** em ambientes abertos e sem obstáculos, quanto maior a frequência do sinal, menor a atenuação do sinal;
-* **C)** o IEEE 802.11, para o acesso ao meio, procura detectar as colisões, escutando o canal durante as transmissões;
-* **D)** a probabilidade de um quadro trafegar por essas redes com sucesso aumenta com o aumento do tamanho do quadro;
-* **E)** o IEEE 802.11, para o acesso ao meio, procura evitar as colisões, enviando quadros de aviso antes das transmissões.
+* **A)** para poder ser certificado como Wi-Fi, um aparelho precisa implementar o Wireless Application Protocol (WAP).
+* **B)** um aparelho que implemente o padrão de segurança WEP pode ser certificado como Wi-Fi, mesmo que não implemente o padrão de segurança WPA.
+* **C)** aparelhos baseados no padrão IEEE 802.11b trabalham na faixa de 2.4GHz e por isso estão sujeitos a interferência de outros equipamentos como fornos micro-ondas e telefones sem fio.
+* **D)** em ordem decrescente de alcance de operação estão os padrões 802.11b, 802.11g e 802.11n.
+* **E)** em ordem crescente de segurança estão os padrões WPA, WPA2 e WEP.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O protocolo tenta mitigar esses problemas por meio de RTS/CTS, mas a existência de estações 'transparentes' é terminologia estranha ao padrão.
-> - **B)** Incorreta. Quanto maior a frequência (ex: 5 GHz e 6 GHz em comparação a 2.4 GHz), maior é a atenuação do sinal por obstáculos físicos e distância.
-> - **C)** Incorreta. O padrão Ethernet com fio utiliza detecção de colisão (CSMA/CD), enquanto redes sem fio 802.11 não conseguem escutar e transmitir simultaneamente na mesma antena.
-> - **D)** Incorreta. Em canais ruidosos e sujeitos a interferência, quadros maiores têm maior probabilidade de sofrer corrupção de bits por erro de transmissão.
-> - **E)** Correta. Devido à impossibilidade de detectar colisões em tempo real no meio aéreo compartilhado (half-duplex em radiofrequência), o padrão IEEE 802.11 adota o protocolo de controle de acesso ao meio CSMA/CA (*Carrier Sense Multiple Access with Collision Avoidance*), que visa EVITAR colisões antes de transmitir por meio de temporizadores (DIFS, SIFS) e sinalização prévia com quadros de controle RTS (*Request to Send*) e CTS (*Clear to Send*).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "para poder ser certificado como Wi-Fi, um aparelho precisa implementar o Wireless Application Protocol (WAP)". De acordo com a teoria estudada em *4.3 Mecanismo de Acesso ao Meio: CSMA/CA e o Problema do Nó Oculto (RTS/CTS)*, diferente das redes cabeadas Ethernet (IEEE 802.3), que utilizam detecção de colisão (CSMA/CD), o meio sem fio via rádio impossibilita a detecção confiável de colisões elétricas na antena transmissora enquanto ela mesma emite sinal em alta potência.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um aparelho que implemente o padrão de segurança WEP pode ser certificado como Wi-Fi, mesmo que não implemente o...". De acordo com a teoria estudada em *4.4 Evolução da Segurança Sem Fio: WEP, WPA, WPA2 e WPA3 (Personal vs. Enterprise)*, wEP: Cifra de fluxo RC4 (chave de 40 ou 104 bits + IV estático de 24 bits) — CRC-32 (fraco) — Totalmente Quebrado e Obsoleto. Pode ser decifrado em poucos minutos devido ao reúso de vetores de inicialização (IVs curtos). Banido pelas normas de segurança.
+> - **C)** **Correta.** Conforme fundamentado na seção *4.2 Frequências de Operação: 2.4 GHz vs. 5 GHz* deste guia, *Desvantagem:* Menor largura de banda total e altíssima interferência (disputa espaço com Bluetooth, fornos micro-ondas e telefones sem fio). Possui apenas 3 canais não sobrepostos na regulamentação padrão (canais 1, 6 e 11). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-6/2012) ao estabelecer que "aparelhos baseados no padrão IEEE 802.11b trabalham na faixa de 2.4GHz e por isso estão sujeitos a interferência...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "em ordem decrescente de alcance de operação estão os padrões 802.11b, 802.11g e 802.11n". De acordo com a teoria estudada em *4.1 Evolução dos Padrões 802.11 (Wi-Fi 4, Wi-Fi 5 e Wi-Fi 6/6E)*, geração Comercial: Padrão IEEE — Frequências de Operação — Larguras de Canal — Principais Tecnologias e Recursos — Taxas Teóricas Máximas.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "em ordem crescente de segurança estão os padrões WPA, WPA2 e WEP". De acordo com a teoria estudada em *4.4 Evolução da Segurança Sem Fio: WEP, WPA, WPA2 e WPA3 (Personal vs. Enterprise)*, padrão: Criptografia Adotada — Mecanismo de Integridade — Vulnerabilidades Críticas / Situação Atual.
 >
-> **Gabarito: E**
+> **Gabarito: C**
 
 ---
 
 ### Teste 453
-**(FGV – TJ-AP – Analista Judiciário (TI) – 2023)**  
-O administrador de rede de uma empresa deseja realizar a autenticação de  dispositivos conectados em um comutador de rede (Switch), elemento da camada enlace de dados do modelo OSI, com auxílio de um servidor de autenticação. O protocolo adequado a esse tipo de operação é:
+**(FCC – TRT-1 – Analista Judiciario Tecnologia da Informacao – 2014)**
+Com a rápida expansão do uso das redes sem fio padrão IEEE 802.11, os mecanismos de segurança também têm evoluído na mesma velocidade. Originalmente o 802.11 disponibilizava o protocolo WEP (Wired Equivalent Privacy), mas devido às várias vulnerabilidades, foram introduzidos os WPA (Wi-Fi Protected Access) e o WPA2 (Wi-Fi Protected Access-2). Dentre as diferenças entre o WPA e o WPA2 está o uso do
 
-* **A)** IEEE 802.1q;
-* **B)** IEEE 802.1p;
-* **C)** IEEE 802.1x;
-* **D)** IEEE 802.11b;
-* **E)** IEEE 802.15.
+* **A)** RC4 no WPA e do AES no WPA2.
+* **B)** esquema de chaves estáticas no WPA e do esquema de chaves dinâmicas no WPA2.
+* **C)** RC2 no WPA e do RC4 no WPA2.
+* **D)** esquema de chaves dinâmicas no WPA e o esquema de chaves estáticas no WPA2.
+* **E)** TKIP no WPA e o PKIT no WPA2.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O IEEE 802.1Q é o padrão de marcação de VLANs (Virtual Local Area Networks) em enlaces de tronco.
-> - **B)** Incorreta. O IEEE 802.1p trata de priorização de tráfego e qualidade de serviço (QoS) na camada 2.
-> - **C)** Correta. O padrão IEEE 802.1X é o protocolo oficial de controle de acesso à rede baseado em portas (PNAC), amplamente empregado em switches corporativos e pontos de acesso Wi-Fi para autenticar dispositivos antes de liberar a porta lógica de rede, operando em conjunto com um servidor de autenticação centralizado (como RADIUS/TACACS+) via EAP (Extensible Authentication Protocol).
-> - **D)** Incorreta. O IEEE 802.11b é um padrão legado de rede local sem fio (11 Mbps a 2.4 GHz).
-> - **E)** Incorreta. O IEEE 802.15 abrange redes pessoais sem fio (WPAN), como o padrão Bluetooth.
+> - **A)** **Correta.** Conforme fundamentado na seção *4.4 Evolução da Segurança Sem Fio: WEP, WPA, WPA2 e WPA3 (Personal vs. Enterprise)* deste guia, wPA2: AES (*Advanced Encryption Standard*) com protocolo CCMP — CBC-MAC — Padrão robusto da indústria. Vulnerável ao ataque de reinstalação de chave (KRACK) e ataques de força bruta/dicionário offline ao aperto de mão de 4 vias (modo PSK). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-1/2014) ao estabelecer que "RC4 no WPA e do AES no WPA2".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "esquema de chaves estáticas no WPA e do esquema de chaves dinâmicas no WPA2". De acordo com a teoria estudada em *4.4 Evolução da Segurança Sem Fio: WEP, WPA, WPA2 e WPA3 (Personal vs. Enterprise)*, wEP: Cifra de fluxo RC4 (chave de 40 ou 104 bits + IV estático de 24 bits) — CRC-32 (fraco) — Totalmente Quebrado e Obsoleto. Pode ser decifrado em poucos minutos devido ao reúso de vetores de inicialização (IVs curtos). Banido pelas normas de segurança.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "RC2 no WPA e do RC4 no WPA2". De acordo com a teoria estudada em *4.4 Evolução da Segurança Sem Fio: WEP, WPA, WPA2 e WPA3 (Personal vs. Enterprise)*, wPA3: AES-128 (modo Personal) ou CNSA de 192 bits (modo Enterprise) — Galois/Counter Mode (GCMP) — Padrão de Excelência Atual.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "esquema de chaves dinâmicas no WPA e o esquema de chaves estáticas no WPA2". De acordo com a teoria estudada em *4.4 Evolução da Segurança Sem Fio: WEP, WPA, WPA2 e WPA3 (Personal vs. Enterprise)*, wPA: Cifra TKIP (*Temporal Key Integrity Protocol*) sobre RC4 — Michael (MIC) — Padrão emergencial de transição para cobrir as falhas do WEP sem exigir troca de hardware; hoje também considerado obsoleto.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "TKIP no WPA e o PKIT no WPA2". De acordo com a teoria estudada em *4.4 Evolução da Segurança Sem Fio: WEP, WPA, WPA2 e WPA3 (Personal vs. Enterprise)*, padrão: Criptografia Adotada — Mecanismo de Integridade — Vulnerabilidades Críticas / Situação Atual.
 >
-> **Gabarito: C**
+> **Gabarito: A**
 
 ---
 

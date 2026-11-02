@@ -87,26 +87,26 @@ flowchart TD
 ---
 
 ### Teste 475
-**(FGV – TRT – Analista Judiciário (TI) – 2024)**  
-Considerando as metodologias de gestão de projetos e de TI, COBIT, ITIL e PMBOK possuem abordagens distintas para a gestão de riscos. Assinale a opção que descreve corretamente a diferença fundamental entre esses três frameworks.
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Ciencias da Computacao Sistemas de Informacao – 2026)**
+Um auditor analisa a eficiência da entrega de serviços de TI no Tribunal e foca na forma como a organização cria valor para os seus usuários finais. No ITIL 4, o conceito que descreve o conjunto de componentes e atividades da organização que trabalham juntos para facilitar a criação de valor por meio de serviços de TI é
 
-* **A)** COBIT foca na governança de riscos gerais em TI, enquanto ITIL aborda a gestão de riscos nos serviços de TI e PMBOK se concentra na gestão de projetos em geral, sem especialização em TI.
-* **B)** ITIL é usado para análise quantitativa de riscos, ao contrário do COBIT e do PMBOK, qu e se concentram em análises qualitativas.
-* **C)** PMBOK não inclui processos de gestão de riscos, diferentemente do COBIT e do ITIL que oferecem guias detalhados sobre o tema.
-* **D)** COBIT, ITIL e PMBOK são equivalentes e intercambiáveis quando se trata de gestão de riscos, sendo uma questão de preferência pessoal a escolha entre eles.
-* **E)** ITIL e COBIT são focados em TI, com ITIL voltado exclusivamente para a gestão de riscos em serviços de TI e COBIT para a governança de riscos TI, enquanto PMBOK é um guia de práticas para a gestão de projetos em geral.
+* **A)** o Ciclo de Vida do Serviço.
+* **B)** a Gestão de Mudanças.
+* **C)** o Sistema de Valor de Serviço (SVS).
+* **D)** a Central de Serviços (Service Desk).
+* **E)** o Acordo de Nível de Serviço (SLA).
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. A ITIL 4 adota uma abordagem holística orientada ao Sistema de Valor de Serviço (SVS) e quatro dimensões da gestão de serviço, integrando a gestão de riscos e tratamento de incidentes à co-criação de valor contínua.
-> - **B)** Incorreta. A ITIL não prescreve regras inflexíveis nem desconsidera a cultura organizacional.
-> - **C)** Incorreta. A ITIL 4 evoluiu dos processos rígidos da v3 para práticas ágeis e flexíveis.
-> - **D)** Incorreta. ITIL e PMBOK são perfeitamente complementares no ecossistema corporativo.
-> - **E)** Incorreta. Gerenciamento de incidentes visa restaurar a operação normal do serviço no menor tempo possível.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o Ciclo de Vida do Serviço". De acordo com a teoria estudada em *1. O Modelo Central da ITIL v4*, em substituição ao modelo puramente linear baseado nos 5 estágios do ciclo de vida da ITIL v3 (Estratégia, Desenho, Transição, Operação e Melhoria Contínua), a ITIL v4 consolida uma abordagem ágil, holística, flexível e orientada à co-criação mútua de valor.
+> - **B)** **Correta.** Conforme fundamentado na seção *Definições Fundamentais da ITIL v4* deste guia, serviço (*Service*): Meio para permitir a co-criação de valor, facilitando os resultados que os clientes desejam alcançar, sem que eles precisem assumir a gestão de custos e riscos específicos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "a Gestão de Mudanças".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o Sistema de Valor de Serviço (SVS)". De acordo com a teoria estudada em *1.3 O Sistema de Valor de Serviço (SVS)*, o SVS (*Service Value System*) descreve como todos os componentes e atividades da organização atuam harmonicamente para transformar oportunidades e demandas em valor real para a sociedade e clientes.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a Central de Serviços (Service Desk)". De acordo com a teoria estudada em *2.1 Central de Serviços (Service Desk)*, a Central de Serviços atua como o Ponto Único de Contato (SPOC - *Single Point of Contact*) entre o provedor de serviços de TI e os usuários corporativos.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o Acordo de Nível de Serviço (SLA)". De acordo com a teoria estudada em *2.5 Gerenciamento de Nível de Serviço (SLA, OLA e UC)*, o objetivo do Gerenciamento de Nível de Serviço (*Service Level Management - SLM*) é definir metas claras baseadas em negócios para os níveis de serviço e garantir que a entrega de serviços seja avaliada, monitorada e gerenciada em relação a essas metas.
 >
-> **Gabarito: A**
+> **Gabarito: B**
 
 ---
 
@@ -141,26 +141,26 @@ Essas quatro dimensões sofrem pressão contínua de fatores externos incontrol�
 ---
 
 ### Teste 476
-**(FGV – TRT – Analista Judiciário (TI) – 2024)**  
-Considere as práticas de atribuição de funções de TI na gestão de responsabilidades sob as perspectivas do COBIT, ITIL e PMBOK. Na aplicação dessas práticas é correto que se deve
+**(IBFC – TJ-MG – Analista Judiciario Classe C Analista de Tecnologia da Informacao – 2022)**
+Em relação às quatro dimensões do gerenciamento de serviços, abordadas no ITIL v4, temos: (1) Parceiros e Fornecedores. (2) Dados e Informação. (3) Fluxos de valor e Processos. (4) Organizações e Pessoas. Da relação apresentada:
 
-* **A)** integrar os papéis de desenvolvimen to e a operação de sistemas para um funcionário garantindo eficiência e rapidez na resolução de problemas.
-* **B)** designar diferentes equipes para gerenciamento de incidentes e gerenciamento de problemas para, respectivamente, a análise e a correção de falhas.
-* **C)** concentrar as responsabilidades de gestão de mudanças e liberação de software em um único papel, dado que integram as mesmas funções.
-* **D)** permitir que o desenvolvedor de software faça uma prévia da auditoria de código de forma a acelerar o proc esso e economizar recursos.
-* **E)** delegar a um gestor a responsabilidade de aprovação de projetos de TI logo após o controle de custos facilitando a tomada de decisão.
+* **A)** somente são aplicados o 1, 2 e 3
+* **B)** somente são aplicados o 1, 2 e 4
+* **C)** somente são aplicados o 2, 3 e 4
+* **D)** somente são aplicados o 1, 3 e 4
+* **E)** todos podem ser aplicados
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A matriz RACI no COBIT e ITIL atribui papéis funcionais claros para evitar sobreposições e conflitos de interesse.
-> - **B)** Correta. Na governança e gestão de serviços (COBIT e ITIL), a clara definição de papéis, responsabilidades e autoridades (frequentemente mapeadas via matriz RACI) é indispensável para evitar ambiguidades entre funções de decisão estratégica e execução técnica operacional.
-> - **C)** Incorreta. Segregação de funções críticas é requisito obrigatório de auditoria e conformidade.
-> - **D)** Incorreta. O gestor de serviço atua em cooperação com os proprietários dos processos.
-> - **E)** Incorreta. Atribuições informais violam as boas práticas de governança corporativa.
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente são aplicados o 1, 2 e 3". De acordo com a teoria estudada em *1.2 As Quatro Dimensões do Gerenciamento de Serviço*, informação e Tecnologia: O ecossistema de informações gerado e processado (bancos de dados, integridade, conformidade com a LGPD) e as tecnologias de suporte aos serviços (computação em nuvem, ferramentas de automação, monitoramento e IA).
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente são aplicados o 1, 2 e 4". De acordo com a teoria estudada em *1.2 As Quatro Dimensões do Gerenciamento de Serviço*, fluxos de Valor e Processos: Como as diversas áreas da organização coordenam suas atividades por meio de fluxos de valor (*Value Streams*) e procedimentos operacionais padronizados para entregar resultados tangíveis.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente são aplicados o 2, 3 e 4". De acordo com a teoria estudada em *1.2 As Quatro Dimensões do Gerenciamento de Serviço*, organizações e Pessoas: Estrutura formal do órgão ou empresa, cultura corporativa compartilhada, definição inequívoca de papéis e responsabilidades, comunicação interpessoal, competências técnicas e estilos de liderança.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.2 As Quatro Dimensões do Gerenciamento de Serviço* deste guia, parceiros e Fornecedores: Relações contratuais com entidades externas que participam da concepção, desenvolvimento, entrega e suporte dos serviços (fábricas de software, provedores de nuvem, consultorias de TIC). Dessa forma, está plenamente correta a assertiva da banca (IBFC – TJ-MG/2022) ao estabelecer que "somente são aplicados o 1, 3 e 4".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "todos podem ser aplicados". De acordo com a teoria estudada em *1.5 A Cadeia de Valor de Serviço (SVC - 6 Atividades Operacionais)*, a Cadeia de Valor de Serviço (*Service Value Chain*) é a engrenagem operacional central do SVS. Trata-se de uma rede flexível e não linear de seis atividades que podem ser combinadas para criar múltiplos fluxos de valor (*Value Streams*).
 >
-> **Gabarito: B**
+> **Gabarito: D**
 
 ---
 
@@ -223,27 +223,26 @@ Os princípios orientadores da ITIL v4 são recomendações perenes, aplicáveis
 ---
 
 ### Teste 477
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** A ITIL v4 estabelece os 7 Princípios Orientadores (*Guiding Principles*), que representam recomendações que podem orientar uma organização em qualquer circunstância, independentemente de mudanças em suas metas, estratégias ou estrutura de trabalho. Dentre esses princípios, aquele que preconiza que a organização não deve descartar prematuramente soluções e processos existentes sem antes avaliar o que já está disponível e funcionando adequadamente, denomina-se:  
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Ciencia de Dados – 2024)**
+Com o avanço da tecnologia as empresas têm acesso a uma quantidade cada vez maior de dados que podem ser utilizados para diversas finalidades, como, por exemplo, melhorar os processos internos e o relacionamento com clientes. Contudo, não basta possuir os dados, é necessário saber lidar com eles. Nesse contexto, a Governança de Dados tem ganhado cada vez mais importância no ambiente empresarial. Analise os incidentes a seguir sob a ótica da Qualidade de Dados. I. Uma empresa relacionava a quantidade de óleo em litros necessária para suas operações. Contudo, após análise decorrente de resultados incoerentes, notou-se que para uma atividade específica, devido a um erro de digitação, foi inserido o valor do volume de óleo menor do que o realmente necessário. II. Ao migrar de sistema, a empresa teve problemas com valores numéricos, que, após análise, mostraram-se ser devido ao sistema original usar o separador decimal no padrão americano, enquanto o novo sistema usa o padrão brasileiro. III. Ao comparar dois bancos de dados relacionados a diferentes produtos, a empresa reparou que o mesmo CPF estava relacionado a dois clientes diferentes. Os requisitos para a qualidade dos dados diretamente relacionados aos incidentes I, II e III são, respectivamente,
 
-* **A)** Foco no Valor (*Focus on Value*).
-* **B)** Pense e Trabalhe Holisticamente (*Think and Work Holistically*).
-* **C)** Comece de Onde Você Está (*Start Where You Are*).
-* **D)** Otimize e Automatize (*Optimize and Automate*).
-* **E)** Mantenha Simples e Prático (*Keep It Simple and Practical*).
-
+* **A)** acurácia, validade e consistência.
+* **B)** consistência, integridade e completude.
+* **C)** integridade, consistência e validade.
+* **D)** acurácia, integridade e completude.
+* **E)** integridade, acurácia e consistência.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O princípio Foco no Valor estabelece que tudo o que a organização faz deve vincular-se, direta ou indiretamente, à entrega de valor para os stakeholders.
-> - **B)** Incorreta. O princípio Pense e Trabalhe Holisticamente exige que nenhuma parte da organização atue de forma isolada e que a entrega de serviços seja vista como um todo interconectado.
-> - **C)** **Correta.** O princípio Comece de Onde Você Está orienta a nunca começar do zero sem antes analisar o estado atual; processos, ferramentas e habilidades em vigor devem ser mensurados e reaproveitados sempre que viável.
-> - **D)** Incorreta. O princípio Otimize e Automatize orienta a tornar os processos o mais eficientes e úteis possível antes de aplicar ferramentas de automação tecnológica.
-> - **E)** Incorreta. O princípio Mantenha Simples e Prático prega a eliminação de burocracias, formulários e passos desnecessários que não agregam valor ao resultado final.
-> 
-> **Gabarito: C**
+> - **A)** **Correta.** Conforme fundamentado na seção *Tabela Comparativa: Incidente versus Problema versus Erro Conhecido* deste guia, problema (*Problem*): Uma causa, ou causa potencial, de um ou mais incidentes. — Identificar a causa-raiz real ou provável dos incidentes e prevenir a sua recorrência futura. — Análise de causa-raiz (RCA), auditoria de logs, simulação em ambiente de testes. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "acurácia, validade e consistência".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "consistência, integridade e completude". De acordo com a teoria estudada em *1.2 As Quatro Dimensões do Gerenciamento de Serviço*, informação e Tecnologia: O ecossistema de informações gerado e processado (bancos de dados, integridade, conformidade com a LGPD) e as tecnologias de suporte aos serviços (computação em nuvem, ferramentas de automação, monitoramento e IA).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "integridade, consistência e validade". De acordo com a teoria estudada em *Tabela Comparativa: Incidente versus Problema versus Erro Conhecido*, eRRADO! O foco do Gerenciamento de Incidentes é exclusivamente a restauração do serviço no menor tempo possível (*Time to Restore*). A busca minuciosa da causa-raiz é trabalho privativo do Gerenciamento de Problemas.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "acurácia, integridade e completude". De acordo com a teoria estudada em *1.4 Os 7 Princípios Orientadores (Guiding Principles)*, a FCC adora trocar a ordem de "Otimize e Automatize", afirmando que se deve "automatizar para depois descobrir o que precisa ser otimizado". ERRADO! Automatizar processos ruins apenas produz erros em maior velocidade.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "integridade, acurácia e consistência". De acordo com a teoria estudada em *1.2 As Quatro Dimensões do Gerenciamento de Serviço*, fluxos de Valor e Processos: Como as diversas áreas da organização coordenam suas atividades por meio de fluxos de valor (*Value Streams*) e procedimentos operacionais padronizados para entregar resultados tangíveis.
+>
+> **Gabarito: A**
 
 ---
 
@@ -284,26 +283,25 @@ flowchart TD
 ---
 
 ### Teste 478
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** A Cadeia de Valor de Serviço (SVC - *Service Value Chain*) é o elemento operacional nuclear do Sistema de Valor de Serviço (SVS) da ITIL v4, sendo composta por seis atividades-chave interconectadas. Assinale a alternativa que relaciona corretamente a atividade da cadeia de valor ao seu respectivo propósito:  
+**(FGV – TRF-1 – Analista Judiciario Area Apoio Especializado Especialidade Suporte Em Tecnologia da Informacao – 2024)**
+De acordo com a ITIL 4, para criar valor, uma organização deve fazer mais do que simplesmente fornecer um serviço. Deve também cooperar com os consumidores nas relações de serviço. Assim, existem interações entre prestador de serviços e consumidores para criação de valor. O gerenciamento de relacionamento de serviços:
 
-* **A)** A atividade 'Obter/Construir' (*Obtain/Build*) tem como foco principal realizar o atendimento de suporte telefônico e registrar chamados de help desk dos usuários.
-* **B)** A atividade 'Engajar' (*Engage*) visa proporcionar um bom entendimento das necessidades dos stakeholders, transparência e engajamento contínuo em todo o ciclo de vida dos serviços.
-* **C)** A atividade 'Planejar' (*Plan*) é restrita à codificação em linguagens de baixo nível e à compilação de binários para servidores locais.
-* **D)** A atividade 'Melhorar' (*Improve*) é realizada uma única vez durante a homologação do sistema, sendo expressamente vedada a sua repetição em serviços já em produção.
-* **E)** A atividade 'Entregar e Suportar' (*Deliver & Support*) visa exclusivamente negociar termos de distrato com fornecedores externos sancionados pelo Tribunal.
-
+* **A)** são as atividades conjuntas realizadas por um prestador de serviços e um consumidor de serviços para garantir a cocriação contínua de valor com base em ofertas de serviços acordadas e disponíveis;
+* **B)** é a cooperação entre um provedor de serviços e um consumidor de serviços, incluindo a prestação de serviços e o consumo de serviço;
+* **C)** são ações implementadas por uma terceira parte, que elabora os relatórios de desempenho dos serviços prestados, assim como as sugestões dadas pelo consumidor para melhoria dos serviços;
+* **D)** é uma das práticas realizadas pelo prestador de serviço, para garantir a cocriação contínua de valor com base no feedback dado pelo consumidor sobre o desempenho dos serviços prestados;
+* **E)** inclui as ações implementadas para melhoria do relacionamento entre fornecedores e consumidores.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Atendimento de chamados e suporte a incidentes pertencem à atividade 'Entregar e Suportar' (*Deliver & Support*). 'Obter/Construir' assegura a disponibilidade e desenvolvimento dos componentes de serviço.
-> - **B)** **Correta.** A atividade 'Engajar' (*Engage*) gerencia o relacionamento com todas as partes interessadas, captando demandas, compreendendo expectativas e mantendo transparência bidirecional.
-> - **C)** Incorreta. A atividade 'Planejar' (*Plan*) garante um entendimento compartilhado da visão, situação atual e direcionamento de evolução estratégica dos serviços e produtos.
-> - **D)** Incorreta. 'Melhorar' (*Improve*) é uma atividade contínua aplicada transversalmente a todos os serviços, práticas e componentes da cadeia de valor.
-> - **E)** Incorreta. 'Entregar e Suportar' foca na operação diária e na manutenção da entrega contínua dos serviços acordados aos usuários finais.
-> 
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "são as atividades conjuntas realizadas por um prestador de serviços e um consumidor de serviços para garantir a...". De acordo com a teoria estudada em *1.5 A Cadeia de Valor de Serviço (SVC - 6 Atividades Operacionais)*, obter/Construir (*Obtain/Build*): Garantir que os componentes de serviço (softwares, hardwares e documentações) estejam disponíveis quando e onde forem necessários.
+> - **B)** **Correta.** Conforme fundamentado na seção *Definições Fundamentais da ITIL v4* deste guia, co-criação de Valor: O valor não é gerado e empurrado unilateralmente pelo provedor de TI. Ele é co-criado ativamente por meio de parceria e interação constante entre o provedor e o consumidor do serviço. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF-1/2024) ao estabelecer que "é a cooperação entre um provedor de serviços e um consumidor de serviços, incluindo a prestação de serviços e o...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "são ações implementadas por uma terceira parte, que elabora os relatórios de desempenho dos serviços prestados...". De acordo com a teoria estudada em *1.3 O Sistema de Valor de Serviço (SVS)*, entradas: Oportunidades (chances de agregar valor) e Demanda (necessidade manifesta de novos serviços ou correções por parte dos usuários).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é uma das práticas realizadas pelo prestador de serviço, para garantir a cocriação contínua de valor com base no...". De acordo com a teoria estudada em *1.5 A Cadeia de Valor de Serviço (SVC - 6 Atividades Operacionais)*, melhorar (*Improve*): Garantir o aprimoramento contínuo dos serviços, práticas e componentes em todas as atividades da cadeia de valor.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "inclui as ações implementadas para melhoria do relacionamento entre fornecedores e consumidores". De acordo com a teoria estudada em *1.2 As Quatro Dimensões do Gerenciamento de Serviço*, parceiros e Fornecedores: Relações contratuais com entidades externas que participam da concepção, desenvolvimento, entrega e suporte dos serviços (fábricas de software, provedores de nuvem, consultorias de TIC).
+>
 > **Gabarito: B**
 
 ---
@@ -337,27 +335,26 @@ A **Central de Serviços** atua como o **Ponto Único de Contato (SPOC - *Single
 ---
 
 ### Teste 479
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** Na ITIL v4, a prática da Central de Serviços (*Service Desk*) desempenha um papel tático indispensável na relação cotidiana entre os usuários institucionais e a Diretoria de Tecnologia da Informação. Sobre as características, modelos organizacionais e competências da Central de Serviços, assinale a alternativa correta:  
+**(FGV – TRF-1 – Analista Judiciario Area Apoio Especializado Especialidade Suporte Em Tecnologia da Informacao – 2024)**
+O analista Alexandre é um dos responsáveis pelo desenvolvimento de um novo serviço de suporte técnico remoto no TRF1. Alexandre e sua equipe estão analisando a melhor forma de implementar o serviço em operação. Analisando os conceitos de gerenciamento de serviços de acordo com a ITIL 4, eles identificaram que a descrição formal de um ou mais serviços, projetados para atender às necessidades de um grupo de consumidores-alvo, podendo incluir mercadorias, acesso a recursos e ações de serviço, é conhecida como:
 
-* **A)** A Central de Serviços atua precipuamente como Ponto Único de Contato (SPOC - *Single Point of Contact*), sendo o canal centralizador para relatos de incidentes e solicitações de serviços da organização.
-* **B)** O modelo organizacional de Central de Serviços denominado 'Siga o Sol' (*Follow the Sun*) exige a alocação de todos os analistas exclusivamente em uma única sala física sede, sem qualquer trabalho remoto ou integração de fusos horários.
-* **C)** Para analistas da Central de Serviços moderna, o conhecimento puramente técnico sobre protocolos de rede e registradores de CPU é a única competência relevante, dispensando habilidades de comunicação, empatia e visão de processos de negócio.
-* **D)** A Central de Serviços é proibida de utilizar canais digitais automatizados, como portais de autoatendimento, chatbots com inteligência artificial ou correio eletrônico corporativo.
-* **E)** Compete à Central de Serviços executar pessoalmente a auditoria externa contábil e a emissão dos acórdãos definitivos do Tribunal de Contas.
-
+* **A)** garantia de serviços;
+* **B)** portfólio de serviços;
+* **C)** prática de serviços;
+* **D)** oferta de serviços;
+* **E)** marketing de serviços.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** A Central de Serviços atua como o Ponto Único de Contato (SPOC) para usuários, acolhendo incidentes, requisições de serviço, orientações e comunicações operacionais.
-> - **B)** Incorreta. O modelo *Follow the Sun* distribui equipes ao redor do globo em diferentes fusos horários para oferecer cobertura 24/7 de forma contínua durante o horário diurno de cada localidade.
-> - **C)** Incorreta. A Central de Serviços exige forte orientação ao cliente, empatia interpessoal, comunicação clara e compreensão do impacto dos serviços na atividade-fim institucional.
-> - **D)** Incorreta. A Central de Serviços utiliza amplamente portais web, autoatendimento, bots e automação para otimizar o fluxo de atendimento.
-> - **E)** Incorreta. A emissão de acórdãos e auditorias contábeis são funções finalísticas de controle externo do TCE-GO, totalmente alheias ao escopo do Service Desk.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "garantia de serviços". De acordo com a teoria estudada em *2.1 Central de Serviços (Service Desk)*, *Local:* Equipe de suporte alocada fisicamente nas dependências do órgão.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "portfólio de serviços". De acordo com a teoria estudada em *1.3 O Sistema de Valor de Serviço (SVS)*, práticas (*Practices*): Conjuntos de recursos organizacionais desenhados para realizar tarefas específicas (a ITIL v4 substitui o conceito de "processos" da v3 pelo termo mais abrangente "práticas").
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "prática de serviços". De acordo com a teoria estudada em *2.3 Habilitação de Mudanças (Change Enablement)*, a prática de Habilitação de Mudanças (denominada *Change Management* na v3) visa maximizar o número de mudanças bem-sucedidas em serviços e produtos, garantindo a adequada avaliação de riscos, a autorização formal pelas autoridades competentes e a execução coordenada.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "oferta de serviços". De acordo com a teoria estudada em *1.2 As Quatro Dimensões do Gerenciamento de Serviço*, informação e Tecnologia: O ecossistema de informações gerado e processado (bancos de dados, integridade, conformidade com a LGPD) e as tecnologias de suporte aos serviços (computação em nuvem, ferramentas de automação, monitoramento e IA).
+> - **E)** **Correta.** Conforme fundamentado na seção *1.2 As Quatro Dimensões do Gerenciamento de Serviço* deste guia, parceiros e Fornecedores: Relações contratuais com entidades externas que participam da concepção, desenvolvimento, entrega e suporte dos serviços (fábricas de software, provedores de nuvem, consultorias de TIC). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF-1/2024) ao estabelecer que "marketing de serviços".
+>
+> **Gabarito: E**
 
 ---
 
@@ -393,32 +390,25 @@ flowchart LR
 ---
 
 ### Teste 480
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** Em um Tribunal de Contas Estadual, a equipe de infraestrutura e operações de TIC vivenciou os seguintes episódios durante a rotina de sustentação tecnológica:  
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Ciencias da Computacao Sistemas de Informacao – 2026)**
+O Tribunal quer reduzir o número de incidentes repetitivos em sua Central de Serviços. O Auditor sugere focar na identificação da causa raiz desses incidentes. No ITIL 4, a prática que tem como objetivo principal reduzir a probabilidade e o impacto de incidentes por meio da identificação de suas causas reais e do gerenciamento de soluções de contorno é o(a)
 
-I. O sistema de protocolo eletrônico tornou-se subitamente indisponível no início do expediente; o analista plantonista reiniciou imediatamente os serviços de aplicação e executou um script de liberação de conexões residuais, restabelecendo a operação aos usuários em menos de dez minutos.  
-
-II. Durante a semana seguinte, uma equipe de especialistas foi destacada para investigar detalhadamente os logs de transação e os despejos de memória (*heap dumps*), com o objetivo de descobrir por que o subsistema de sessões acumulou conexões órfãs e formular uma solução definitiva, registrando no repositório de conhecimento uma solução de contorno para o caso de nova ocorrência.  
-
-Considerando as práticas preconizadas pela ITIL v4, as condutas descritas nos itens I e II correspondem, respectivamente, às práticas de:  
-
-* **A)** Gerenciamento de Problemas e Habilitação de Mudanças.
-* **B)** Gerenciamento de Incidentes e Gerenciamento de Problemas.
-* **C)** Gerenciamento de Liberação e Central de Serviços.
-* **D)** Gerenciamento de Problemas e Gerenciamento de Incidentes.
-* **E)** Gerenciamento de Capacidade e Gerenciamento de Ativos de TI.
-
+* **A)** Gerenciamento de Incidentes.
+* **B)** Gerenciamento de Problemas.
+* **C)** Gerenciamento de Mudanças.
+* **D)** Central de Serviços.
+* **E)** Gerenciamento de Nível de Serviço.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O item I trata de restabelecimento urgente de serviço (Incidentes), e não de Problemas; o item II trata de análise de causa-raiz e documentação de erro (Problemas), e não da prática de Habilitação de Mudanças.
-> - **B)** **Correta.** O item I caracteriza o Gerenciamento de Incidentes, cujo propósito central é restaurar a operação normal do serviço no menor tempo possível, minimizando o impacto negativo no negócio (mesmo usando soluções temporárias como reinicialização). O item II descreve com perfeição o Gerenciamento de Problemas, cuja finalidade é investigar a causa-raiz de incidentes repetidos ou graves, gerando soluções definitivas e alimentando o KEDB (*Known Error Database*) com soluções de contorno.
-> - **C)** Incorreta. Gerenciamento de Liberação cuida de tornar serviços e recursos novos ou modificados disponíveis para uso, enquanto a Central de Serviços é a unidade organizacional de contato com os usuários.
-> - **D)** Incorreta. Houve inversão da ordem cronológica e conceitual entre as condutas I e II.
-> - **E)** Incorreta. A conduta I não tratou de planejamento de capacidade futura de hardware, nem a II tratou de controle patrimonial/financeiro de ativos de TI.
-> 
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Gerenciamento de Incidentes". De acordo com a teoria estudada em *2.2 Gerenciamento de Incidentes vs. Gerenciamento de Problemas*, esta é a distinção mais testada em concursos de Tribunais de Contas.
+> - **B)** **Correta.** Conforme fundamentado na seção *Tabela Comparativa: Incidente versus Problema versus Erro Conhecido* deste guia, eRRADO! O foco do Gerenciamento de Incidentes é exclusivamente a restauração do serviço no menor tempo possível (*Time to Restore*). A busca minuciosa da causa-raiz é trabalho privativo do Gerenciamento de Problemas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "Gerenciamento de Problemas".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Gerenciamento de Mudanças". De acordo com a teoria estudada em *2.3 Habilitação de Mudanças (Change Enablement)*, a prática de Habilitação de Mudanças (denominada *Change Management* na v3) visa maximizar o número de mudanças bem-sucedidas em serviços e produtos, garantindo a adequada avaliação de riscos, a autorização formal pelas autoridades competentes e a execução coordenada.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Central de Serviços". De acordo com a teoria estudada em *1. O Modelo Central da ITIL v4*, a ITIL v4 (*Information Technology Infrastructure Library*) representa uma evolução substancial da biblioteca de boas práticas de Gerenciamento de Serviços de TI (ITSM).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Gerenciamento de Nível de Serviço". De acordo com a teoria estudada em *2.5 Gerenciamento de Nível de Serviço (SLA, OLA e UC)*, o objetivo do Gerenciamento de Nível de Serviço (*Service Level Management - SLM*) é definir metas claras baseadas em negócios para os níveis de serviço e garantir que a entrega de serviços seja avaliada, monitorada e gerenciada em relação a essas metas.
+>
 > **Gabarito: B**
 
 ---
@@ -459,36 +449,26 @@ stateDiagram-v2
 ---
 
 ### Teste 481
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** A respeito da prática de Habilitação de Mudanças (*Change Enablement*) da ITIL v4 e da classificação de tipos de mudança, considere as três situações a seguir em um órgão público:  
+**(FCC – TRT-2 – Analista Judiciario Tecnologia da Informacao – 2014)**
+Na Operação de Serviço da ITIL v3 são definidos muitos conceitos como Incidente, Problema, Evento e Solicitação de Serviço. Considere, em uma empresa que utiliza corretamente a ITIL v3, as solicitações de usuários por: 1. informação. 2. aconselhamento. 3. realização de uma Mudança Padrão. 4. acesso a um serviço de TI. 5. atendimento de um incidente. 6. reset de uma senha. São consideradas Solicitação de Serviço APENAS os itens
 
-1. Criação de login e concessão de perfil de acesso de rede padronizado para um novo servidor público empossado, conforme procedimento documentado e testado.  
-2. Atualização programada de versão do SGBD de produção do sistema fiscal, com planejamento prévio, análise de impacto e agendamento para o fim de semana.  
-3. Aplicação emergencial imediata de pacote de correção para estancar invasão cibernética em andamento no datacenter central.  
-As situações 1, 2 e 3 classificam-se, respectivamente, como mudanças:  
-
-* **A)** Emergencial, Normal e Padrão.
-* **B)** Padrão, Normal e de Emergência.
-* **C)** Normal, Padrão e Emergencial.
-* **D)** Padrão, Estratégica e Crítica.
-* **E)** Operacional, Tática e Governamental.
-
+* **A)** 1, 2 e 3.
+* **B)** 1, 3, 4 e 6.
+* **C)** 4, 5 e 6.
+* **D)** 3, 4, 5 e 6.
+* **E)** 1, 2, 3, 4 e 6.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A situação 1 não é emergencial (é uma rotina diária de baixo risco), e a situação 3 não é uma mudança padrão.
-> - **B)** **Correta.** A ITIL v4 classifica as mudanças em três tipos:  
->     1. **Mudança Padrão (*Standard*):** Mudança rotineira, de baixo risco, pré-autorizada e com procedimento documentado (criação de conta de usuário).  
->     2. **Mudança Normal (*Normal*):** Mudança que requer avaliação formal de risco, submissão de RFC (*Request for Change*) e aprovação pela Autoridade de Mudança / CAB antes da execução (atualização de SGBD).  
->     3. **Mudança de Emergência (*Emergency*):** Mudança que precisa ser implementada imediatamente para restaurar um serviço crítico ou tratar uma vulnerabilidade urgente de segurança cibernética, com validação rápida pelo ECAB.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1, 2 e 3". De acordo com a teoria estudada em *Os Três Tipos de Mudanças na ITIL v4*, mudança Padrão (*Standard Change*): Baixo — Pré-autorizada (formalmente aprovada de antemão). — Procedimento rotineiro, documentado e testado.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1, 3, 4 e 6". De acordo com a teoria estudada em *Tabela Comparativa: Incidente versus Problema versus Erro Conhecido*, incidente (*Incident*): Uma interrupção não planejada de um serviço ou redução na sua qualidade operacional. — Restaurar a operação normal do serviço o mais rápido possível e minimizar o impacto negativo no negócio. — Reiniciar aplicação, alternar para link redundante, aplicar solução paliativa temporária.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "4, 5 e 6". De acordo com a teoria estudada em *Os Três Tipos de Mudanças na ITIL v4*, mudança de Emergência (*Emergency Change*): Crítico — Autorizada com urgência pelo ECAB (*Emergency Change Advisory Board*). — Implementação veloz para conter incidente gravíssimo ou brecha crítica de segurança.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3, 4, 5 e 6". De acordo com a teoria estudada em *Tabela Comparativa: Incidente versus Problema versus Erro Conhecido*, solução de Contorno (*Workaround*): Uma medida paliativa que reduz ou elimina o impacto de um incidente ou problema para o qual a solução definitiva ainda não existe. — Viabilizar o retorno imediato da operação antes que a correção final seja desenvolvida. — Script de liberação temporária de cache, roteamento estático manual.
+> - **E)** **Correta.** Conforme fundamentado na seção *Tabela Comparativa: Incidente versus Problema versus Erro Conhecido* deste guia, erro Conhecido (*Known Error*): Um problema cuja análise foi concluída, com causa-raiz identificada e para o qual existe uma solução de contorno (*workaround*). — Documentar a falha e a solução de contorno no KEDB (*Known Error Database*) para acelerar futuros atendimentos. — Criação de artigo no KEDB e emissão de solicitação de mudança (RFC) para correção permanente no código. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-2/2014) ao estabelecer que "1, 2, 3, 4 e 6".
 >
-> - **C)** Incorreta. A situação 1 não é mudança normal; requerer análise e autorização formal do CAB para cada novo servidor admitido geraria burocracia desnecessária para uma rotina de baixo risco.
-> - **D)** Incorreta. "Estratégica" e "Crítica" não correspondem aos tipos formais de mudança da prática de Change Enablement da ITIL v4.
-> - **E)** Incorreta. A ITIL v4 não adota essa divisão de níveis gerenciais para tipificar mudanças no Change Enablement.
-> 
-> **Gabarito: B**
+> **Gabarito: E**
 
 ---
 
@@ -504,27 +484,26 @@ As situações 1, 2 e 3 classificam-se, respectivamente, como mudanças:
 ---
 
 ### Teste 482
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** Na gestão operacional de serviços de TI de uma instituição pública, dois repositórios de dados desempenham funções essenciais, porém com finalidades distintas: o repositório de Itens de Configuração (CIs) que mapeia os relacionamentos técnicos entre hardware, software e serviços para suporte operacional e análise de impacto, e o repositório financeiro/patrimonial destinado ao controle de licenças de software, custos de aquisição e ciclo de vida contábil dos equipamentos. Esses dois papéis correspondem, respectivamente, às práticas da ITIL v4 de:  
+**(FCC – TRT-24 – Analista Judiciario Tecnologia da Informacao – 2017)**
+Um Analista foi designado responsável por todos os processos de controle no gerenciamento de serviços de uma organização que usa a norma ABNT NBR ISO/IEC 20000-2:2013 para fornecer orientações sobre a aplicação de um Sistema de Gerenciamento de Serviços – SGS. O Analista cuidará, nesse caso, daqueles processos definidos pela norma como processos de controle, que são: Gerenciamento de
 
-* **A)** Gerenciamento de Nível de Serviço e Central de Serviços.
-* **B)** Gerenciamento de Configuração de Serviço e Gerenciamento de Ativos de TI (*ITAM*).
-* **C)** Gerenciamento de Problemas e Habilitação de Mudanças.
-* **D)** Gerenciamento de Ativos de TI (*ITAM*) e Gerenciamento de Liberação.
-* **E)** Gerenciamento de Continuidade e Gerenciamento de Disponibilidade.
-
+* **A)** Disponibilidade, Gerenciamento de Fornecedores e Gerenciamento da Capacidade.
+* **B)** Configuração, Gerenciamento de Mudanças e Gerenciamento de Capacidade.
+* **C)** Configuração, Gerenciamento de Mudanças e Gerenciamento de Liberação e Implementação.
+* **D)** Incidentes, Gerenciamento de Problemas e Gerenciamento do Nível de Serviço.
+* **E)** Capacidade, Relato de Serviço e Gerenciamento de Incidentes.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Gerenciamento de Nível de Serviço trata da negociação e monitoramento de SLAs com clientes; a Central de Serviços é o ponto único de contato (SPOC) para usuários.
-> - **B)** **Correta.** O Gerenciamento de Configuração de Serviço tem como foco manter informações precisas e confiáveis sobre os Itens de Configuração (CIs) e seus relacionamentos técnicos (armazenados tipicamente no CMDB), servindo de base para análises de impacto em incidentes e mudanças. Já o Gerenciamento de Ativos de TI (ITAM) trata do ciclo de vida completo dos ativos de TI sob a ótica financeira, legal e patrimonial, abrangendo aquisição, controle de licenças de software, depreciação contábil e descarte seguro.
-> - **C)** Incorreta. Gerenciamento de Problemas investiga causas-raiz de falhas, e Habilitação de Mudanças autoriza e agenda modificações na infraestrutura.
-> - **D)** Incorreta. Inverteu as funções e misturou com Gerenciamento de Liberação.
-> - **E)** Incorreta. Ambas são práticas de garantia de serviço voltadas à disponibilidade operacional e resiliência diante de desastres, não aos bancos de configuração e patrimônio.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Disponibilidade, Gerenciamento de Fornecedores e Gerenciamento da Capacidade". De acordo com a teoria estudada em *2.6 Gerenciamento de Continuidade de Serviços de TI (ITSCM: RTO e RPO)*, responsável por garantir que a disponibilidade e o desempenho dos serviços de TI sejam mantidos em níveis suficientes em caso de desastre operacional grave, alinhando-se ao Plano de Continuidade de Negócios (*Business Continuity Plan - BCP*) do Tribunal.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Configuração, Gerenciamento de Mudanças e Gerenciamento de Capacidade". De acordo com a teoria estudada em *Os Três Tipos de Mudanças na ITIL v4*, mudança de Emergência (*Emergency Change*): Crítico — Autorizada com urgência pelo ECAB (*Emergency Change Advisory Board*). — Implementação veloz para conter incidente gravíssimo ou brecha crítica de segurança.
+> - **C)** **Correta.** Conforme fundamentado na seção *Os Três Tipos de Mudanças na ITIL v4* deste guia, mudança Normal (*Normal Change*): Variável (Médio a Alto) — Requer autorização formal da Autoridade de Mudança (*Change Authority* / CAB). — Segue o fluxo formal: RFC \$\rightarrow\$ Avaliação de impacto/risco \$\rightarrow\$ Agendamento em janela \$\rightarrow\$ Testes \$\rightarrow\$ Implementação. — Atualização de versão do SGBD de produção, migração de datacenter, lançamento de nova versão do portal. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-24/2017) ao estabelecer que "Configuração, Gerenciamento de Mudanças e Gerenciamento de Liberação e Implementação".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Incidentes, Gerenciamento de Problemas e Gerenciamento do Nível de Serviço". De acordo com a teoria estudada em *Tabela Comparativa: Incidente versus Problema versus Erro Conhecido*, eRRADO! O foco do Gerenciamento de Incidentes é exclusivamente a restauração do serviço no menor tempo possível (*Time to Restore*). A busca minuciosa da causa-raiz é trabalho privativo do Gerenciamento de Problemas.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Capacidade, Relato de Serviço e Gerenciamento de Incidentes". De acordo com a teoria estudada em *2.4 Gerenciamento de Configuração de Serviço (CMDB) vs. Ativos de TI (ITAM)*, repositório Central: CMDB (*Configuration Management Database*) integrado ao CMS (*Configuration Management System*). — Sistema de Controle Patrimonial e Gerenciamento de Licenças de Software (*SAM - Software Asset Management*).
+>
+> **Gabarito: C**
 
 ---
 
@@ -541,26 +520,25 @@ A prática articula três tipos de instrumentos fundamentais:
 ---
 
 ### Teste 483
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** Segundo o ITIL versão 4, a prática que define metas claras e baseadas no negócio para o desempenho dos serviços, permitindo que a entrega de um serviço seja devidamente avaliada, monitorada e gerenciada com relação a essas metas, articulando instrumentos como SLA, OLA e Contratos de Apoio (UC), é o gerenciamento de:  
+**(FGV – TJ-DFT – Analista Judiciario Suporte Em Tecnologia da Informacao – 2022)**
+Segundo o ITIL versão 4, a prática que define metas claras e baseadas no negócio para o desempenho dos serviços, permitindo que a entrega de um serviço seja devidamente avaliada, monitorada e gerenciada com relação a essas metas, é o gerenciamento de:
 
-* **A)** Capacidade e Desempenho de Serviços.
-* **B)** Configuração de Serviços (CMDB).
-* **C)** Continuidade de Serviços de TI (ITSCM).
-* **D)** Ativos de TI (ITAM).
-* **E)** Nível de Serviço (*Service Level Management*).
-
+* **A)** capacidade de serviço;
+* **B)** configuração de serviço;
+* **C)** continuidade de serviço;
+* **D)** desempenho de serviço;
+* **E)** nível de serviço.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Gerenciamento de capacidade assegura que os serviços tenham capacidade computacional suficiente para atender à demanda de forma custo-efetiva.
-> - **B)** Incorreta. Gerenciamento de configuração cuida dos registros precisos sobre Itens de Configuração (CIs) e seus relacionamentos no CMDB.
-> - **C)** Incorreta. Continuidade de serviços gerencia riscos de desastres catastróficos para garantir sobrevivência da infraestrutura (RTO e RPO).
-> - **D)** Incorreta. Gerenciamento de ativos (ITAM) planeja e gerencia o ciclo de vida financeiro e contratual de hardware e licenças de software.
-> - **E)** **Correta.** O propósito da prática de Gerenciamento de Nível de Serviço (*Service Level Management*) é exatamente estabelecer uma visão de ponta a ponta dos serviços baseada no negócio, negociando SLAs (com clientes), OLAs (com áreas internas de TI) e UCs (com fornecedores externos).
-> 
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "capacidade de serviço". De acordo com a teoria estudada em *2.5 Gerenciamento de Nível de Serviço (SLA, OLA e UC)*, sLA (*Service Level Agreement* - Acordo de Nível de Serviço): Acordo documentado e firmado formalmente entre o provedor de serviços de TI e o cliente/negócio (ex.: DTI acordando com a Presidência do Tribunal que o Processo Eletrônico estará disponível 99,8% do tempo).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "configuração de serviço". De acordo com a teoria estudada em *2.5 Gerenciamento de Nível de Serviço (SLA, OLA e UC)*, a prática articula três tipos de instrumentos fundamentais.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "continuidade de serviço". De acordo com a teoria estudada em *2.6 Gerenciamento de Continuidade de Serviços de TI (ITSCM: RTO e RPO)*, responsável por garantir que a disponibilidade e o desempenho dos serviços de TI sejam mantidos em níveis suficientes em caso de desastre operacional grave, alinhando-se ao Plano de Continuidade de Negócios (*Business Continuity Plan - BCP*) do Tribunal.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "desempenho de serviço". De acordo com a teoria estudada em *2.5 Gerenciamento de Nível de Serviço (SLA, OLA e UC)*, oLA (*Operational Level Agreement* - Acordo de Nível Operacional): Acordo interno firmado entre diferentes áreas internas do mesmo provedor de TI (ex.: equipe de Redes acordando com a equipe de Aplicações o tempo de liberação de portas de firewall).
+> - **E)** **Correta.** Conforme fundamentado na seção *2.5 Gerenciamento de Nível de Serviço (SLA, OLA e UC)* deste guia, o objetivo do Gerenciamento de Nível de Serviço (*Service Level Management - SLM*) é definir metas claras baseadas em negócios para os níveis de serviço e garantir que a entrega de serviços seja avaliada, monitorada e gerenciada em relação a essas metas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-DFT/2022) ao estabelecer que "nível de serviço".
+>
 > **Gabarito: E**
 
 ---
@@ -575,27 +553,26 @@ Responsável por garantir que a disponibilidade e o desempenho dos serviços de 
 ---
 
 ### Teste 484
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** Em uma auditoria de resiliência e segurança operacional no data center de um Tribunal de Contas, os auditores avaliaram o Plano de Continuidade de Serviços de TI (ITSCM). A respeito das métricas RTO (*Recovery Time Objective*) e RPO (*Recovery Point Objective*), assinale a afirmativa correta:  
+**(FGV – TJ-MT – Analista Judiciario Tecnologia da Informacao – 2024)**
+A ITIL (Information Technology Infrastructure Library) define um conjunto de práticas para o gerenciamento de serviços de TI, orientando organizações na entrega de valor aos clientes. O propósito da prática de “Gerenciamento de Incidentes” na versão mais recente do ITIL é
 
-* **A)** O RTO representa a quantidade máxima admissível de dados perdidos em uma falha, mensurada em gigabytes de memória RAM.
-* **B)** O RPO estipula o tempo decorrido até que a equipe de desenvolvimento termine a escrita do manual de usuário de uma aplicação.
-* **C)** O RTO define o tempo máximo aceitável para restaurar a operação de um serviço de TI após uma interrupção, enquanto o RPO define a tolerância máxima a perdas de dados transacionais ocorrida entre o último ponto de restauração válido e o desastre.
-* **D)** Valores de RTO iguais a zero e RPO iguais a zero indicam ausência de proteção tecnológica e desídia administrativa por parte dos gestores de TI.
-* **E)** A definição de RTO e RPO é uma decisão puramente técnica que deve ser tomada pela equipe de suporte básico de TI, sem qualquer consulta aos gestores de negócio ou à alta administração do Tribunal.
-
+* **A)** proteger a organização contra ameaças de segurança, garantindo a integridade e confidencialidade dos dados.
+* **B)** identificar e corrigir falhas na infraestrutura de TI antes que afetem os usuários finais.
+* **C)** analisar causas de problemas recorrentes para reduzir a frequência de incidentes e melhorar a experiência do usuário.
+* **D)** minimizar o impacto negativo de interrupções, restaurando a operação normal de serviço o mais rápido possível.
+* **E)** planejar e implementar mudanças nos serviços de TI de forma estruturada e com o mínimo de interrupções.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O RTO mede tempo de indisponibilidade (velocidade de restauração do serviço), não volume de perda de dados.
-> - **B)** Incorreta. RPO não mede documentação; mede o ponto no tempo até onde os dados devem ser recuperados (ex.: tolerar perder no máximo 15 minutos de transações).
-> - **C)** **Correta.** RTO (*Recovery Time Objective*) é o tempo limite tolerável para restabelecer o serviço em produção. RPO (*Recovery Point Objective*) é o limite tolerável de perda de transações/dados no tempo.
-> - **D)** Incorreta. RTO=0 e RPO=0 representam o mais alto grau de resiliência tecnológica (replicação síncrona ativa-ativa em tempo real com failover instantâneo).
-> - **E)** Incorreta. As metas de RTO e RPO dependem do impacto das interrupções no negócio da organização (obtidas por meio da Análise de Impacto no Negócio - BIA) e devem ser validadas pela alta administração.
-> 
-> **Gabarito: C**
+> - **A)** **Correta.** Conforme fundamentado na seção *1. O Modelo Central da ITIL v4* deste guia, a ITIL v4 (*Information Technology Infrastructure Library*) representa uma evolução substancial da biblioteca de boas práticas de Gerenciamento de Serviços de TI (ITSM). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-MT/2024) ao estabelecer que "proteger a organização contra ameaças de segurança, garantindo a integridade e confidencialidade dos dados".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "identificar e corrigir falhas na infraestrutura de TI antes que afetem os usuários finais". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, governo Digital - Infraestrutura Nacional de Dados (IND) - Governança, compartilhamento e segurança de bases de dados do setor público.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "analisar causas de problemas recorrentes para reduzir a frequência de incidentes e melhorar a experiência do...". De acordo com a teoria estudada em *2.2 Gerenciamento de Incidentes vs. Gerenciamento de Problemas*, esta é a distinção mais testada em concursos de Tribunais de Contas.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "minimizar o impacto negativo de interrupções, restaurando a operação normal de serviço o mais rápido possível". De acordo com a teoria estudada em *Tabela Comparativa: Incidente versus Problema versus Erro Conhecido*, incidente (*Incident*): Uma interrupção não planejada de um serviço ou redução na sua qualidade operacional. — Restaurar a operação normal do serviço o mais rápido possível e minimizar o impacto negativo no negócio. — Reiniciar aplicação, alternar para link redundante, aplicar solução paliativa temporária.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "planejar e implementar mudanças nos serviços de TI de forma estruturada e com o mínimo de interrupções". De acordo com a teoria estudada em *Os Três Tipos de Mudanças na ITIL v4*, a documentação formal e a avaliação pós-implantação ocorrem a posteriori. — Aplicação de hotfix de segurança contra exploit ativo em firewall; restauração emergencial de servidor de autenticação caído.
+>
+> **Gabarito: A**
 
 ---
 

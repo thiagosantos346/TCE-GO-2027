@@ -148,58 +148,24 @@ Outro ponto importante é o **vocabulário em contexto**: a FCC frequentemente p
 
 
 ### Teste 001
-**(FCC – TRT-1 – Analista Judiciário (TI) – 2014)**  
-*Atenção: As questões a seguir referem-se ao texto abaixo:*
+**(FCC – TRT-16 – Analista Judiciario Tecnologia da Informacao – 2014)**
+Considere as afirmações abaixo. I. No primeiro parágrafo, a assertiva o prefácio seria um estraga-prazeres traduz o efeito imediato da causa indicada na assertiva os prefácios são textos inúteis. II. No segundo parágrafo, o autor afirma que vai de encontro à tese defendida no primeiro porque pode ocorrer que um prefácio represente a parte melhor de um livro. III. No terceiro parágrafo, o autor se vale de uma ocorrência real para demonstrar que o gênio inventivo de escritores iniciantes propicia prefácios igualmente criativos. Em relação ao texto, está correto o que se afirma APENAS em
 
-> **Os direitos “nossos” e os “deles”**  
->  
-> Não é incomum que julguemos o que chamamos “nossos” direitos superiores aos direitos do “outro”. Tanto no nível mais pessoal das relações como nos fatos sociais costuma ocorrer essa discrepância, com as consequências de sempre: soluções injustas.  
-> Durante um júri, em que defendia um escravo que havia matado o seu senhor, Luís Gama (1830 - 1882), advogado, jornalista e escritor mestiço, abolicionista que chegou a ser escravo por alguns anos, proferiu uma frase que se tornou célebre, numa sessão de julgamento: "O escravo que mata o senhor, seja em que circunstância for, mata sempre em legítima defesa". A frase causou tumulto e acabou por suspender a sessão do júri, despertando tremenda polêmica à época. Na verdade, continua provocando.  
-> Dissesse alguém isso hoje, em alguma circunstância análoga, seria aplaudido por uns e acusado por outros de demonizar o “proprietário”. Como se vê, também a demonização tem duas mãos: os partidários de quem subjuga acabam por demonizar a reação do subjugado. Tais fatos e tais polêmicas, sobre tais direitos, nem deveriam existir, mas existem; será que terão fim?  
-> O grande pensador e militante italiano Antonio Gramsci (1891-1937), que passou muitos anos na prisão por conta de suas ideias socialistas, propunha, em algum lugar de sua obra, que diante do dilema de uma escolha nossa conduta subsequente deve se reger pela avaliação objetiva das circunstâncias para então responder à seguinte pergunta: “Quem sofre?” Para Gramsci, o sofrimento humano é um parâmetro que não se pode perder de vista na avaliação das decisões pessoais ou políticas.  
-> *(Abelardo Trancoso, inédito)*
-
-Deve-se considerar que, na estruturação desse texto,
-
-I. o primeiro parágrafo apresenta uma tese com base
-
-numa discrepância de valores, que será ilustrada
-
-com o fato polêmico exposto no parágrafo seguinte.
-
-II. as controvérsias despertadas pela frase proferida
-
-por Luís Gama podem ser explicadas pela contun-
-
-dência de um argumento radicalmente abolicionista
-
-acionado em pleno regime escravocrata.
-
-III. a referência ao militante Antonio Gramsci, no pará-
-
-grafo final, propicia um argumento poderoso a favor
-
-de quem se pauta pelo cumprimento rigoroso da lei,
-
-não importando as circunstâncias.
-
-Em relação ao texto, é correto o que se considera em
-
-* **A)** I, II e III.
-* **B)** I e II, apenas.
-* **C)** II e III, apenas.
-* **D)** I e III, apenas.
-* **E)** II, apenas.
+* **A)** I.
+* **B)** II.
+* **C)** III.
+* **D)** I e II.
+* **E)** II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O item III está incorreto, pois Gramsci não propõe um apego cego e formalista ao 'cumprimento rigoroso da lei', mas sim a avaliação do 'sofrimento humano' diante das circunstâncias objetivas.
-> - **B)** Correta. O item I é verdadeiro: o 1º parágrafo apresenta a tese da discrepância entre 'nossos' direitos e os direitos do 'outro', ilustrada no 2º parágrafo com o episódio histórico de Luís Gama. O item II também é verdadeiro: a contundência da frase de Luís Gama em pleno regime escravocrata explica o tumulto e a polêmica gerados.
-> - **C)** Incorreta. O item I está plenamente correto na estruturação do texto, não podendo ser descartado.
-> - **D)** Incorreta. O item III é falso (Gramsci prioriza o sofrimento humano, não o rigor legalista) e o item I é verdadeiro.
-> - **E)** Incorreta. O item II está correto e o item III é incorreto.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I". De acordo com a teoria estudada em *1.4 Método Prático de Resolução*, o primeiro parágrafo de um texto dissertativo da FCC normalmente contextualiza o tema e apresenta a tese. O último parágrafo sintetiza a conclusão.
+> - **B)** **Correta.** Conforme fundamentado na seção *1.1 Compreensão Textual e Informação Explícita* deste guia, o perigo da compreensão é justamente a paráfrase "envenenada": a banca copia quase todas as palavras do texto, mas troca um único elemento — um quantificador ("alguns" vira "todos"), um tempo verbal (algo que "pode ocorrer" vira algo que "ocorreu"), uma relação de causa (o efeito vira causa) ou um sujeito (o que foi dito de um grupo passa a ser dito de outro). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-16/2014) ao estabelecer que "II".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "III". De acordo com a teoria estudada em *1.1 Compreensão Textual e Informação Explícita*, compreender é decodificar aquilo que está explicitamente escrito. A pergunta implícita é: *o que o texto diz?* Os comandos típicos são "segundo o texto", "de acordo com o autor", "o texto afirma que", "conforme o 2º parágrafo".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e II". De acordo com a teoria estudada em *6.2 Discurso Indireto*, observe que o discurso indireto não é introduzido por conectivo causal (*porque, pois*): a relação entre o verbo de elocução e a fala relatada é de complementação (o conteúdo dito é o objeto do verbo *dizer*), e não de causa.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II e III". De acordo com a teoria estudada em *4.1 Tese e Estrutura do Texto Argumentativo*, na FCC, é muito comum a estrutura concessivo-adversativa: o autor primeiro apresenta a opinião corrente ou o senso comum ("Muitos acreditam que...", "As novas tecnologias prometem...") e, em seguida, introduz sua própria posição com um conectivo adversativo ("Contudo", "No entanto", "Todavia").
 >
 > **Gabarito: B**
 
@@ -235,26 +201,26 @@ Na prova, isso aparece em perguntas sobre o **ponto de vista** do autor, sobre o
 --- 
 
 ### Teste 002
-**(FCC – TRT-1 – Analista Judiciário (TI) – 2014)**  
-A afirmação de que “a demonização tem duas mãos”, no 3o parágrafo, justifica-se quando
+**(FGV – TRT-24 – Analista Judiciario Area Administrativa Contabilidade – 2025)**
+Leia o texto a seguir. O fato de uma opinião ser amplamente compartilhada não é nenhuma evidência de que não seja completamente absurda; de fato, tendo-se em vista a maioria da humanidade, é mais provável que uma opinião difundida seja mais tola do que sensata. Bertrand Russell. Marriage and Morals. H. Liveright, 1929, p. 53. Assinale a afirmativa que indica corretamente o significado ou a estruturação do texto citado.
 
-* **A)** a reação do subjugado é desproporcional em rela- ção ao ato de quem o subjugou.
-* **B)** a violência de quem subjuga aproveita-se da extre- ma fragilidade de quem é subjugado.
-* **C)** nem quem subjuga, nem quem é subjugado é intei- ramente culpado pelos excessos de seus atos.
-* **D)** tanto o subjugado como quem subjuga são censura- dos por ações dadas como indefensáveis.
-* **E)** ambos os envolvidos num delito se acusam mutua- mente, ainda que não tenham razão para fazê-lo. _________________________________________________________
+* **A)** O texto se opõe ao pensamento de que um argumento seja considerado verdadeiro porque se apoia no que pensa a maioria das pessoas.
+* **B)** O autor mostra a vantagem de uma opinião ser amplamente compartilhada a fim de que se torne mais segura.
+* **C)** O texto é do tipo argumentativo, pois apresenta uma tese, ainda que não acompanhada de argumentos.
+* **D)** A opinião final do texto é apresentada como certeza a fim de melhor convencer o leitor.
+* **E)** O texto se estrutura com a apresentação de um contraargumento seguido da apresentação da opinião contrária.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A expressão não se refere à desproporção da reação, mas ao fato de que ambos os lados se acusam mutuamente de injustiça.
-> - **B)** Incorreta. Não se trata da violência aproveitando-se da fragilidade, mas da dinâmica de julgamento moral recíproco.
-> - **C)** Incorreta. O texto não absolve de culpa ambas as partes; trata da demonização mútua que ocorre no debate ideológico e social.
-> - **D)** Correta. 'A demonização tem duas mãos' sintetiza o raciocínio explicitado na sequência: 'os partidários de quem subjuga acabam por demonizar a reação do subjugado', isto é, tanto o subjugado quanto quem subjuga são censurados e julgados por atos considerados intoleráveis pelo outro polo.
-> - **E)** Incorreta. A alternativa insere o juízo 'ainda que não tenham razão para fazê-lo', o que extrapola a análise textual do autor.
+> - **A)** **Correta.** Conforme fundamentado na seção *4.2 Estratégias Argumentativas* deste guia, argumento por senso comum ou consenso: apoia-se em ideias amplamente aceitas ("É sabido que a educação transforma vidas"). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "O texto se opõe ao pensamento de que um argumento seja considerado verdadeiro porque se apoia no que pensa a...".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O autor mostra a vantagem de uma opinião ser amplamente compartilhada a fim de que se torne mais segura". De acordo com a teoria estudada em *2.2 Ensaio, Editorial, Crônica e Artigo de Opinião*, artigo de opinião: texto argumentativo assinado, em que um autor identificado (jornalista, especialista, colunista) defende seu ponto de vista sobre um tema.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O texto é do tipo argumentativo, pois apresenta uma tese, ainda que não acompanhada de argumentos". De acordo com a teoria estudada em *4.1 Tese e Estrutura do Texto Argumentativo*, a estrutura clássica do texto argumentativo tem três partes: introdução (apresenta o tema e, geralmente, a tese), desenvolvimento (expõe os argumentos que sustentam a tese e, por vezes, refuta posições contrárias) e conclusão (retoma a tese, sintetiza a argumentação ou propõe soluções).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A opinião final do texto é apresentada como certeza a fim de melhor convencer o leitor". De acordo com a teoria estudada em *1.2 Interpretação Textual e Inferência Autorizada*, na FCC, "depreende-se" e "infere-se" não autorizam opinião pessoal do candidato. A inferência deve ser aquela que qualquer leitor atento extrairia das pistas do texto. Se você precisou usar conhecimento externo para justificar a alternativa, desconfie.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O texto se estrutura com a apresentação de um contraargumento seguido da apresentação da opinião contrária". De acordo com a teoria estudada em *4.1 Tese e Estrutura do Texto Argumentativo*, na FCC, é muito comum a estrutura concessivo-adversativa: o autor primeiro apresenta a opinião corrente ou o senso comum ("Muitos acreditam que...", "As novas tecnologias prometem...") e, em seguida, introduz sua própria posição com um conectivo adversativo ("Contudo", "No entanto", "Todavia").
 >
-> **Gabarito: C**
+> **Gabarito: A**
 
 ---
 
@@ -289,26 +255,26 @@ A **injunção** orienta o comportamento do leitor: diz o que fazer e como fazer
 --- 
 
 ### Teste 003
-**(FCC – TRT – Analista Judiciário (TI) – 2024)**  
-Para que um texto progrida de forma organizada, é preciso que a informação nele contida seja apresentada de forma conveniente. Veja, por exemplo, o texto a seguir: “A Corte Suprema dos Estados Unidos, cuja composição 1983 - 1984 terminou há pouco, parece ter  mostrado uma direção mais conservadora que a anterior, notadamente no que concerne aos direitos dos indivíduos diante do Estado. Ela decretou que os prisioneiros não tinham nenhum direito sobre sua vida privada e que os juízes, e não os jurados, devem dec idir sobre a pena de morte. Ela também apoiou a posição do governo de Ronald Reagan em vários casos que envolviam liberdades civis ou de discriminação”. A organização da informação nesse texto pode ser identificada do seguinte modo:
+**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Banco de Dados – 2023)**
+Observe o trecho narrativo a seguir, fundamentado na carta de Pero Vaz de Caminha ao rei de Portugal: “No dia 23 de abril, pela manhã, saímos de nossa nau, preparamos um batel e dirigimo-nos à terra, onde já nos esperavam alguns índios. Reconheci, entre eles, um que, no dia anterior, me dera um colar de penas em troca de algumas contas. Logo a seguir, passamos a caminhar pela areia, ainda que com alguma dificuldade, porque nossos casacos grandes não ajudavam com o calor e nossas botas grossas atrapalhavam nosso andar. Pensava no que nos estaria aguardando mais tarde, depois que passássemos o pequeno rochedo da extremidade da praia, talvez uma tribo inteira ou alguns animais ferozes. Continuamos nossa caminhada.” Sobre a estruturação desse texto narrativo, é inadequada a seguinte afirmativa:
 
-* **A)** cada frase parte de um mesmo elemento, dado como conhecido desde o primeiro momento, a que se acrescentam novas informações.
-* **B)** cada frase parte do tema explorado na frase precedente, tornando-se ela mesma um novo tema, completado por uma nova informação.
-* **C)** o tema da prim eira frase é decomposto em múltiplos elementos, tomados como temas sucessivos das frases seguintes.
-* **D)** dois temas são apresentados em sequência e analisados de forma paralela, com informações contrastantes.
-* **E)** dois temas são apresentados inicialmente e i nformações comuns aos dois são dadas progressivamente.
+* **A)** a marcação do tempo, no início do texto, é feita de forma direta, pela indicação de uma data;
+* **B)** certas indicações sobre a cronologia da narrativa aparecem de forma indireta por meio das vestimentas dos personagens;
+* **C)** o ritmo desse texto inclui uma volta ao passado por meio da lembrança de com quem o narrador havia trocado presentes;
+* **D)** o ritmo dessa narrativa também inclui uma projeção futura, com os fatos imaginados pelo narrador sobre o que o esperava após o rochedo;
+* **E)** como narrador onisciente que é, o autor do texto tem o cuidado de informar o leitor sobre os fatos mais importantes da narrativa, principalmente sobre a passagem do tempo.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. As frases não partem todas de um elemento idêntico e repetido estaticamente sem progressão temático-conceitual.
-> - **B)** Incorreta. O texto não cria um encadeamento linear em que o rema da frase anterior vira o tema único da seguinte (progressão linear em cadeia).
-> - **C)** Correta. A primeira frase estabelece o hipertema geral: a postura conservadora da Corte Suprema em relação aos direitos individuais. As frases seguintes desdobram esse tema decompondo-o em múltiplos elementos ilustrativos (direitos dos prisioneiros, pena de morte, apoio ao governo Reagan em liberdades civis). Trata-se da progressão temática com tema derivado/decomposto.
-> - **D)** Incorreta. Não há dois temas contrastantes em análise paralela, mas a desagregação de uma decisão geral da Suprema Corte.
-> - **E)** Incorreta. Não existem dois polos temáticos iniciais combinados progressivamente.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a marcação do tempo, no início do texto, é feita de forma direta, pela indicação de uma data". De acordo com a teoria estudada em *8.3 Citação, Epígrafe e Alusão*, a citação é a transcrição de um trecho de outro texto, com indicação da fonte. Pode ser direta (literal, entre aspas) ou indireta (a ideia do autor reformulada, sem aspas, mas com referência à autoria).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "certas indicações sobre a cronologia da narrativa aparecem de forma indireta por meio das vestimentas dos...". De acordo com a teoria estudada em *3.2 Narração e Descrição*, o foco narrativo pode ser em 1ª pessoa (narrador-personagem, que participa da história e tem visão limitada) ou em 3ª pessoa (narrador-observador, que apenas relata, ou narrador onisciente, que conhece pensamentos e sentimentos das personagens).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o ritmo desse texto inclui uma volta ao passado por meio da lembrança de com quem o narrador havia trocado...". De acordo com a teoria estudada em *7.1 Tabela de Transposição do Direto para o Indireto*, tempo Verbal (Passado): Pretérito Perfeito — Pretérito Mais-Que-Perfeito — *"Estudei ontem"* → Disse que *estudara* (ou *tinha estudado*) na véspera.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o ritmo dessa narrativa também inclui uma projeção futura, com os fatos imaginados pelo narrador sobre o que o...". De acordo com a teoria estudada em *1.2 Interpretação Textual e Inferência Autorizada*, a interpretação também envolve reconhecer a postura do autor (crítica, irônica, neutra, entusiasmada), a intenção comunicativa (convencer, informar, denunciar, divertir) e o sentido global do texto.
+> - **E)** **Correta.** Conforme fundamentado na seção *3.2 Narração e Descrição* deste guia, seus elementos são: narrador (quem conta), personagens (quem vive os fatos), enredo (a sequência de acontecimentos, geralmente com situação inicial, conflito, clímax e desfecho), tempo (cronológico, marcado pelo relógio e pelo calendário, ou psicológico, que acompanha as emoções da personagem) e espaço (onde a ação ocorre). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "como narrador onisciente que é, o autor do texto tem o cuidado de informar o leitor sobre os fatos mais...".
 >
-> **Gabarito: C**
+> **Gabarito: E**
 
 ---
 
@@ -366,53 +332,50 @@ O **subentendido** é uma insinuação que **depende do contexto** e da interpre
 ---
 
 ### Teste 004
-**(FCC – TRT-1 – Analista Judiciário (TI) – 2014)**  
-No último parágrafo, deve-se entender que a preocupação de Antonio Gramsci implica, na iminência de uma decisão difícil,
+**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Banco de Dados – 2023)**
+“O estudo dos textos argumentativos ocupa um lugar importante no ensino de textos. Isso parece amplamente justificado, porque é essencial dominar a argumentação antes de entrar na vida adulta. De um lado, isso permite não se deixar influenciar de maneira inconsciente por aqueles que dominam a argumentação, sejam eles políticos ou publicitários, por exemplo. De outro lado, saber argumentar permite fazer-se entender e realizar seus desejos. Assim, entre dois candidatos a um emprego, se os perfis são idênticos, aquele que sabe argumentar será certamente favorecido.” Sobre o fragmento argumentativo acima, é correto afirmar que:
 
-* **A)** promover uma análise objetiva que leve em conta o padecimento de quem será afetado pela decisão.
-* **B)** aceitar a existência de um fator emocional, mas ain- da assim adotar o critério mais pragmático possível.
-* **C)** suspender a análise objetiva da ocorrência e levar em conta tão somente os impulsos pessoais.
-* **D)** considerar inocente aquele que fez sofrer motivado por uma intenção politicamente justa.
-* **E)** absolver quem se arrepende de seus atos, tendo já passado pelo sofrimento da culpa e da penitência. _________________________________________________________
+* **A)** a tese do texto é a de que se deve aprender argumentação antes de entrar-se na vida adulta;
+* **B)** o primeiro período do texto mostra a opinião do argumentador sobre o tema discutido;
+* **C)** ao citar políticos e publicitários, o argumentador aponta pessoas que desonestamente manipulam argumentos;
+* **D)** o argumentador limita-se a citar exemplos, substituindo os argumentos por eles;
+* **E)** o público-alvo do texto acima é, prioritariamente, os candidatos a alguma entrevista de emprego.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O sofrimento para Gramsci é um parâmetro ético e orientador da conduta, e não um obstáculo impeditivo da ação.
-> - **B)** Incorreta. Gramsci não defende abster-se da ação moral, mas agir considerando quem sofre.
-> - **C)** Incorreta. A consideração pelo sofrimento alheio é a própria base da escolha ética em Gramsci, e não uma distorção.
-> - **D)** Correta. No último parágrafo, o autor ressalta que para Gramsci a avaliação das circunstâncias objetivas e a pergunta 'Quem sofre?' devem orientar as escolhas políticas e pessoais, estabelecendo o sofrimento humano como parâmetro ético intransigente.
-> - **E)** Incorreta. O texto não associa Gramsci à indiferença pragmática nem à renúncia dos princípios em favor de interesses imediatos.
+> - **A)** **Correta.** Conforme fundamentado na seção *4.1 Tese e Estrutura do Texto Argumentativo* deste guia, a estrutura clássica do texto argumentativo tem três partes: introdução (apresenta o tema e, geralmente, a tese), desenvolvimento (expõe os argumentos que sustentam a tese e, por vezes, refuta posições contrárias) e conclusão (retoma a tese, sintetiza a argumentação ou propõe soluções). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "a tese do texto é a de que se deve aprender argumentação antes de entrar-se na vida adulta".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o primeiro período do texto mostra a opinião do argumentador sobre o tema discutido". De acordo com a teoria estudada em *4.1 Tese e Estrutura do Texto Argumentativo*, na FCC, é muito comum a estrutura concessivo-adversativa: o autor primeiro apresenta a opinião corrente ou o senso comum ("Muitos acreditam que...", "As novas tecnologias prometem...") e, em seguida, introduz sua própria posição com um conectivo adversativo ("Contudo", "No entanto", "Todavia").
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ao citar políticos e publicitários, o argumentador aponta pessoas que desonestamente manipulam argumentos". De acordo com a teoria estudada em *1.4 Método Prático de Resolução*, ler o texto identificando a tese e os conectivos que organizam a argumentação.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o argumentador limita-se a citar exemplos, substituindo os argumentos por eles". De acordo com a teoria estudada em *3.1 Quadro Comparativo das Tipologias*, dissertativo-Argumentativo: Defender um ponto de vista (tese) e persuadir o leitor mediante argumentos lógicos. — Presença de operadores argumentativos (*portanto, contudo, por conseguinte*), juízos de valor, dados estatísticos e citações. — É a tipologia campeã da FCC.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o público-alvo do texto acima é, prioritariamente, os candidatos a alguma entrevista de emprego". De acordo com a teoria estudada em *4.4 Pressupostos e Subentendidos*, a FCC pergunta frequentemente "a palavra X pressupõe que..." ou "o emprego de 'ainda' permite inferir que...". Procure o marcador linguístico (*ainda, já, voltar a, deixar de, também, até*).
 >
-> **Gabarito: E**
+> **Gabarito: A**
 
 ---
 
 ### Teste 005
-**(FCC – TRT-14 – Analista Judiciário (TI) – 2016)**  
-*Considere o trecho:*  
-*"A hipocrisia existe, mas o aparente exagero tem a ver com a luta da mulher americana para mudar um quadro de pressupostos e tabus tão machistas quanto os nossos (...)"*
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Direito – 2026)**
+Leia o segmento textual a seguir. A fundamentar o entendimento de que o Tribunal de Contas exerce função jurisdicional está o argumento de que a competência de “julgar”, constante da letra do Art. 71, II, indica que o Tribunal de Contas foi investido, ainda que parcialmente, de jurisdição específica de julgar as contas dos responsáveis por dinheiros e outros bens públicos. E se assim não se considerasse, de modo a permitir que após a decisão definitiva da Corte de Cortas pudesse ser revista, em seu mérito, em regra, pelo Poder Judiciário, tratar-se-ia de um órgão inócuo. O segmento deve ser classificado, em seu modo de organização discursiva e em sua tipologia, como
 
-No segmento A hipocrisia existe, mas o aparente exagero tem a ver com a luta da mulher americana para mudar um quadro de pressupostos e tabus tão machistas (...), (1o parágrafo)
-
-* **A)** a hipocrisia aqui referida é aquela que caracteriza o comportamento dos que acompanham no Brasil a luta das mulheres americanas.
-* **B)** pressupostos e tabus tão machistas designam os valores que as mulheres americanas passam a combater sob o disfarce de um relutante consentimento.
-* **C)** a expressão aparente exagero deixa ver a possibilidade de parecerem excessivas as justas providências das mulheres americanas em sua luta.
-* **D)** a luta da mulher americana expressa uma reação histórica que pouco ou nada tem a ver com os costumes que marcam as questões de gênero em outros países.
-* **E)** a expressão para mudar um quadro diz respeito ao objetivo maior da luta das mulheres, que é combater a hipocrisia praticada pelos políticos americanos. Caderno de Prova ’C03’, Tipo 001 TRT14R-Conhecimentos Gerais1 3
+* **A)** texto narrativo histórico, que tem por objeto sucessivas decisões de Tribunais.
+* **B)** texto dissertativo expositivo de caráter didático.
+* **C)** texto descritivo de caráter jurídico, destacando-se marcas típicas dos processos judiciais corretamente conduzidos.
+* **D)** texto dissertativo de caráter argumentativo, com a defesa de uma ideia.
+* **E)** texto dissertativo de tipo informativo, atualizando os leitores no conhecimento jurídico.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O excerto não estabelece relação de causa e efeito determinística entre a hipocrisia e os tabus.
-> - **B)** Correta. Ao afirmar que 'a hipocrisia existe, mas o aparente exagero tem a ver com a luta da mulher americana para mudar um quadro de pressupostos e tabus tão machistas', o autor pressupõe que as atitudes das mulheres, embora possam soar exageradas aos olhos superficiais, são respostas legítimas a uma estrutura social prévia opressora.
-> - **C)** Incorreta. O autor não desqualifica a luta das mulheres como hipócrita; a conjunção adversativa 'mas' contrapõe a existência da hipocrisia geral à legitimidade da luta.
-> - **D)** Incorreta. A alternativa restringe indevidamente o escopo da afirmação, ignorando a contextualização cultural apresentada.
-> - **E)** Incorreta. Trata-se de extrapolação conceitual que não encontra respaldo no excerto original.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "texto narrativo histórico, que tem por objeto sucessivas decisões de Tribunais". De acordo com a teoria estudada em *6.3 Discurso Indireto Livre*, discurso indireto livre não é figura de linguagem (não é metáfora, metonímia nem prosopopeia) e não é tipologia textual (não é dissertação). É um recurso de foco narrativo, ou seja, de organização da voz no texto narrativo.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "texto dissertativo expositivo de caráter didático". De acordo com a teoria estudada em *3.1 Quadro Comparativo das Tipologias*, dissertativo-Expositivo: Apresentar ideias, conceitos ou teorias de forma estritamente informativa e impessoal. — Verbos na 3ª pessoa, linguagem técnica/denotativa, ausência de juízos morais subjetivos. — Textos científicos ou técnicos sobre administração, finanças públicas e tecnologia.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "texto descritivo de caráter jurídico, destacando-se marcas típicas dos processos judiciais corretamente conduzidos". De acordo com a teoria estudada em *2.1 Tipo Textual vs. Gênero Textual*, um mesmo gênero pode combinar vários tipos. Uma crônica pode narrar um episódio cotidiano (tipo narrativo), descrever o ambiente (tipo descritivo) e terminar com uma reflexão (tipo dissertativo).
+> - **D)** **Correta.** Conforme fundamentado na seção *4.1 Tese e Estrutura do Texto Argumentativo* deste guia, a tese é a ideia central que o autor defende — o ponto de vista que ele quer que o leitor aceite. Ela é diferente do tema (o assunto genérico tratado). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "texto dissertativo de caráter argumentativo, com a defesa de uma ideia".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "texto dissertativo de tipo informativo, atualizando os leitores no conhecimento jurídico". De acordo com a teoria estudada em *1.2 Interpretação Textual e Inferência Autorizada*, na FCC, "depreende-se" e "infere-se" não autorizam opinião pessoal do candidato. A inferência deve ser aquela que qualquer leitor atento extrairia das pistas do texto. Se você precisou usar conhecimento externo para justificar a alternativa, desconfie.
 >
-> **Gabarito: B**
+> **Gabarito: D**
 
 ---
 
@@ -435,26 +398,26 @@ A conotação está na base das **figuras de linguagem** (item 9), especialmente
 ---
 
 ### Teste 006
-**(FGV – TRT-24 – Analista Judiciário (TI) – 2025)**  
-No fragmento a seguir, “...presta também um grande serviço à medicina.” o uso do acento grave indicativo da crase está correto. Assinale a frase em que a utilização do acento grave indicativo da crase também está correta.
+**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Banco de Dados – 2023)**
+“Numa peça teatral ou romance, uma palavra imprópria é apenas uma palavra: e a impropriedade, seja ou não percebida, não acarreta consequência alguma. Num código legal – especialmente composto de leis tidas como fundamentais – uma palavra imprópria pode ser uma calamidade nacional: e a guerra civil, a consequência disso. De uma palavra tola podem irromper mil punhais.” (Bentham, 1796) A finalidade básica desse fragmento textual é:
 
-* **A)** Todos queriam ver à cena de perto.
-* **B)** Não à mal que sempre dure.
-* **C)** Assistiu à cena e se maravilhou.
-* **D)** Observou à paisagem de longe.
-* **E)** Falava palavrões à torto e a direito. Tribunal Regional do Trabalho da 24ª Região (TRT-24) FGV CONHECIMENTO Técnico Judiciário – Área Administrativa - Sem Especialidade – TARDE  TIPO BRANCA – PÁGINA 4
+* **A)** alertar contra o uso impróprio de palavras, especialmente em textos de grande aplicabilidade social;
+* **B)** mostrar o uso irresponsável das palavras em textos modernos, mesmo naqueles produzidos por pessoas cultas;
+* **C)** indicar que a impropriedade vocabular é fruto da inadequação entre o significado da palavra e a situação em que é empregada;
+* **D)** demonstrar a absoluta necessidade de que os usuários das palavras tenham perfeito conhecimento de seus significados;
+* **E)** aconselhar que os autores dos textos verifiquem a possibilidade de ambiguidade no uso dos vocábulos a fim de evitarem consequências desastrosas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. O trecho utiliza uma analogia figurada (linguagem conotativa) entre a criação literária do romancista e a navegação do capitão de navio que parte com ordens seladas. A metáfora ilustra o processo criativo no qual o plano inicial do autor pode ser transformado pelo próprio desenrolar da narrativa.
-> - **B)** Incorreta. Não se trata de uma afirmação denotativa ou literal sobre náutica ou táticas navais.
-> - **C)** Incorreta. A comparação não expressa descontentamento ou censura à conduta militar, mas uma figura ilustrativa da escrita de ficção.
-> - **D)** Incorreta. A analogia não nega o planejamento da escrita, mas salienta a maleabilidade da criação literária diante dos rumos do texto.
-> - **E)** Incorreta. O foco não é a imprevisibilidade meteorológica, mas a liberdade e descobertas do escritor ao longo de sua criação.
+> - **A)** **Correta.** Conforme fundamentado na seção *5.2 Linguagem Conotativa* deste guia, a conotação está na base das figuras de linguagem (item 9), especialmente da metáfora e da prosopopeia, e é predominante em textos literários, crônicas, ensaios e publicidade. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "alertar contra o uso impróprio de palavras, especialmente em textos de grande aplicabilidade social".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "mostrar o uso irresponsável das palavras em textos modernos, mesmo naqueles produzidos por pessoas cultas". De acordo com a teoria estudada em *9.1 Figuras Semânticas ou de Palavra*, catacrese: metáfora desgastada pelo uso, que se incorporou à língua para nomear algo que não tinha nome próprio, a ponto de não ser mais percebida como figura (*"pé da mesa"*, *"braço da cadeira"*, *"céu da boca"*, *"embarcar no ônibus"*).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "indicar que a impropriedade vocabular é fruto da inadequação entre o significado da palavra e a situação em que é...". De acordo com a teoria estudada em *9.1 Figuras Semânticas ou de Palavra*, atuam sobre o significado das palavras, transferindo-as para um sentido diferente do habitual.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "demonstrar a absoluta necessidade de que os usuários das palavras tenham perfeito conhecimento de seus significados". De acordo com a teoria estudada em *1.2 Interpretação Textual e Inferência Autorizada*, na FCC, "depreende-se" e "infere-se" não autorizam opinião pessoal do candidato. A inferência deve ser aquela que qualquer leitor atento extrairia das pistas do texto. Se você precisou usar conhecimento externo para justificar a alternativa, desconfie.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "aconselhar que os autores dos textos verifiquem a possibilidade de ambiguidade no uso dos vocábulos a fim de...". De acordo com a teoria estudada em *1.1 Compreensão Textual e Informação Explícita*, um exemplo simples: se o texto diz que "os sistemas algorítmicos *podem* reproduzir desigualdades", a alternativa que afirma que eles "*necessariamente* reproduzem desigualdades" troca possibilidade por certeza e, portanto, deixa de ser fiel ao texto, ainda que use praticamente as mesmas palavras.
 >
-> **Gabarito: C**
+> **Gabarito: A**
 
 ---
 
@@ -500,29 +463,26 @@ Exemplo: *"O relator permaneceu em silêncio. **Como solucionar aquele impasse s
 ---
 
 ### Teste 007
-**(FCC – TRT-3 – Analista Judiciário (TI) – 2015)**  
-*Considere o seguinte trecho para análise:*  
-*"A primeira pessoa que me falou foi a vizinha: — Agora sim sabemos que o Antônio rompeu o noivado! Chegara ao meu ouvido o rumor daquela fofoca que tinha de ouvir todos os dias."*
+**(FGV – TJ-MT – Analista Judiciario Tecnologia da Informacao – 2024)**
+Observe o narrador do seguinte texto narrativo: Eu saí bruscamente, sem avisar a ninguém. Eu não levava nada. Estava vestido com um terno escuro e um sobretudo azul. Eu andava pela rua: as árvores, a calçada, alguns transeuntes. Ao desembocar na praça, percebi o ônibus. Acelerei o passo, atravessei correndo a rua e subi após alguns outros passageiros. O ônibus partiu. Eu me sentei ao fundo. Os vidros estavam cobertos de chuva. Duas pessoas estavam diante de mim, uma senhora, um homem que lia o jornal. Sobre o narrador desse segmento, é correto afirmar que
 
-Sobre o que se tem acima, afirma-se corretamente, levando em conta a norma-padrão:
-
-* **A)** A forma tinha de ouvir situa a ação no mesmo tempo expresso pela forma verbal "ouvia", mas agrega a ideia de obrigatoriedade à ação praticada.
-* **B)** A forma verbal chegara indica que a ação se dá em simultaneidade com a ação expressa por tinha de ouvir.
-* **C)** Transpondo o discurso direto acima para o indireto, a formulação obtida deve ser "A vizinha disse que, então, sabia que Antônio rompeu o noivado".
-* **D)** A palavra fofoca, de uso informal, deve ser evitada em textos escritos, mesmo que se trate de uma narrativa, como se tem nesse trecho.
-* **E)** Se, em vez de A primeira, houvesse "Uma das primeiras", o verbo deveria obrigatoriamente ir para o plural − "anunciarem".
+* **A)** o texto mostra claramente a diferença entre o autor e o narrador do texto.
+* **B)** o narrador é de ponto de vista interno, ou seja, os fatos e os personagens são vistos pelo olhar de um personagem.
+* **C)** o ponto de vista interno está ligado ao fato de o narrador ser identificado como o autor do texto.
+* **D)** o texto mostra um ponto de vista externo, ou seja, os fatos são narrados por um personagem que não participa da história.
+* **E)** o texto exemplifica um narrador onisciente, ou seja, o narrador tem todas as informações sobre os fatos e os personagens.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. 'Tinha de ouvir' expressa obrigação/necessidade no passado, enquanto 'ouvia' traduz mera habitualidade temporal (pretérito imperfeito simples).
-> - **B)** Incorreta. A forma 'chegara' está no pretérito mais-que-perfeito, indicando ação anterior (e não simultânea) ao fato expresso por 'tinha de ouvir'.
-> - **C)** Incorreta. Na transposição adequada para o discurso indireto, o tempo verbal deve sofrer a correlação: o presente 'sabemos' transpassa para o imperfeito 'sabiam', e o perfeito 'rompeu' para o mais-que-perfeito 'rompera' (ou 'havia rompido').
-> - **D)** Correta. Na variedade padrão e culta da língua prescrita para concursos, vocábulos de registro marcadamente coloquial/informal como 'fofoca' devem ser evitados em redações e análises formais, ainda que o autor os utilize em contexto de narrativa ficcional.
-> - **E)** Incorreta. Com a locução 'Uma das primeiras', o verbo pode concordar tanto no singular (enfatizando o núcleo 'uma') quanto no plural (concordando com o termo partitivo no plural).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o texto mostra claramente a diferença entre o autor e o narrador do texto". De acordo com a teoria estudada em *6.3 Discurso Indireto Livre*, b) de repente surgem perguntas, exclamações, reticências ou expressões coloquiais que claramente pertencem à mente da personagem, e não ao narrador.
+> - **B)** **Correta.** Conforme fundamentado na seção *3.2 Narração e Descrição* deste guia, seus elementos são: narrador (quem conta), personagens (quem vive os fatos), enredo (a sequência de acontecimentos, geralmente com situação inicial, conflito, clímax e desfecho), tempo (cronológico, marcado pelo relógio e pelo calendário, ou psicológico, que acompanha as emoções da personagem) e espaço (onde a ação ocorre). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-MT/2024) ao estabelecer que "o narrador é de ponto de vista interno, ou seja, os fatos e os personagens são vistos pelo olhar de um personagem".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o ponto de vista interno está ligado ao fato de o narrador ser identificado como o autor do texto". De acordo com a teoria estudada em *2.2 Ensaio, Editorial, Crônica e Artigo de Opinião*, artigo de opinião: texto argumentativo assinado, em que um autor identificado (jornalista, especialista, colunista) defende seu ponto de vista sobre um tema.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o texto mostra um ponto de vista externo, ou seja, os fatos são narrados por um personagem que não participa da...". De acordo com a teoria estudada em *3.2 Narração e Descrição*, o foco narrativo pode ser em 1ª pessoa (narrador-personagem, que participa da história e tem visão limitada) ou em 3ª pessoa (narrador-observador, que apenas relata, ou narrador onisciente, que conhece pensamentos e sentimentos das personagens).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o texto exemplifica um narrador onisciente, ou seja, o narrador tem todas as informações sobre os fatos e os...". De acordo com a teoria estudada em *7.1 Tabela de Transposição do Direto para o Indireto*, advérbios de Tempo: *Hoje*, *ontem*, *amanhã*, *agora* — *Naquele dia*, *na véspera*, *no dia seguinte*, *então* — Ajuste ao ponto de vista do narrador.
 >
-> **Gabarito: D**
+> **Gabarito: B**
 
 ---
 
@@ -563,26 +523,26 @@ A transposição exige **ajuste simultâneo** de todos os elementos: uma alterna
 ---
 
 ### Teste 008
-**(FGV – TRT – Analista Judiciário (TI) – 2025)**  
-Leia a frase em discurso direto a seguir. — Amanhã estarei saindo daqui com minha irmã. Assinale a opção que apresenta essa frase em discurso indireto. (Começando por Ele disse que...)
+**(FCC – TRT-4 – Analista Judiciario Tecnologia da Informacao – 2015)**
+Ópera é um tipo de teatro no qual a maioria ou todos os personagens cantam durante a maior parte do tempo ou o tempo todo. Nesse sentido, é muito óbvio que ela não seja realística, e com frequência, no decorrer de seus mais de quatrocentos anos de história, tem sido considerada exótica e estranha. Além disso, é quase sempre bastante cara de se encenar e de se assistir. Em nenhum momento da história a sociedade, como um todo, conseguiu sustentar facilmente os 5 custos exorbitantes da ópera. Por que, então, tanta gente gosta dela de maneira tão profunda? Por que dedicam suas vidas a apresentá-la, escrever sobre ela, assistir a ela? Por que alguns fãs de ópera atravessam o mundo para ver uma nova produção ou ouvir um cantor favorito, pagando imensas quantias por esse fugaz privilégio? E por que a ópera é a única forma de música erudita que ainda desenvolve de modo significativo novas audiências, apesar de que, no último século ou por volta disso, o fluxo de novas obras, que uma vez foi seu sangue vital, secou até se reduzir a um débil gotejar? 10 Essas perguntas são mais sobre a ópera tal como ela é hoje em dia: sobre aquilo em que a ópera se tornou no início do século XXI. No que se segue teremos muito a dizer sobre a história de nosso tema, sobre as maneiras em que a ópera se desenvolveu durante sua jornada de quatrocentos anos até nós; mas nossa ênfase será sempre no presente, no efeito que a ópera continua a ter sobre as audiências no mundo inteiro. Nosso objetivo é lidar com uma forma de arte cujas obras mais populares e duradouras foram quase sempre escritas num distante passado europeu, [...] mas cuja influência em 15 muitos de nós – e cuja significância em nossa vida hoje em dia – é ainda palpável. A ópera pode nos transformar: física, emocional e intelectualmente. Queremos investigar por quê. (Carolyn Abbate e Roger Parker. Uma história da ópera: os últimos quatrocentos anos. Trad. Paulo Geiger. 1.ed. São Paulo: Companhia das Letras, 2015, p. 21-22) 1. Os autores do texto
 
-* **A)** amanhã estará saindo de lá com sua irmã.
-* **B)** amanhã estaria saindo de lá com a irmã dele.
-* **C)** amanhã estava saindo de lá com a irmã dele.
-* **D)** no dia seguinte estaria saindo de lá com sua irmã.
-* **E)** no dia seguinte ele estaria saindo de lá com a irmã dele.
+* **A)** apontam que a ópera é sempre bastante dispendiosa porque esse tipo de teatro renuncia a personagens que não se fazem presentes em cena por meio do canto.
+* **B)** acusam a incongruência que existe entre a sociedade sustentar produções caríssimas e as pessoas, diferentemente deles mesmos, não investigarem o que justificaria manter esses projetos.
+* **C)** indicam como usual que se tome a ópera como um gênero dramático excêntrico, pelo fato de representar situações estranhas ao que se considera "vida real".
+* **D)** expressam as intenções que têm ao escrever a história da ópera, demonstrando acreditar que a melhor maneira de fazê-lo é fixar-se na atualidade, auge dessa manifestação erudita.
+* **E)** anunciam que têm muito a dizer e deixam entrever que suas reflexões desnudarão alguns mitos sobre a ópera, como a visão idealizada de que a profusão de obras já constituiu o sangue vital desse tipo de teatro.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. No discurso indireto iniciado por verbo no passado ('Ele disse que...'), o advérbio 'amanhã' deve ser transposto para 'no dia seguinte' ou 'no dia posterior', e o futuro do presente deve converter-se em futuro do pretérito.
-> - **B)** Incorreta. Mantém incorretamente o advérbio temporal 'amanhã', sem a devida transposição dêitica.
-> - **C)** Incorreta. Mantém 'amanhã' e altera a locução verbal para o pretérito imperfeito 'estava saindo', descaracterizando o futuro do pretérito.
-> - **D)** Correta. A transposição perfeita do discurso direto para o indireto exige a concordância de todos os dêiticos: o tempo verbal do futuro perifrástico 'estarei saindo' passa ao futuro do pretérito 'estaria saindo'; o advérbio de lugar 'daqui' converte-se em 'de lá'; o advérbio de tempo 'amanhã' transita para 'no dia seguinte'; e o pronome possessivo de 1ª pessoa 'minha irmã' passa para 'sua irmã'.
-> - **E)** Incorreta. A introdução desnecessária do pronome reto 'ele' e a troca por 'a irmã dele' criam prolixidade desnecessária diante da forma canônica de transposição com pronome possessivo de terceira pessoa.
+> - **A)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "apontam que a ópera é sempre bastante dispendiosa porque esse tipo de teatro renuncia a personagens que não se...". De acordo com a teoria estudada em *2.1 Tipo Textual vs. Gênero Textual*, os tipos são poucos e fixos — narração, descrição, dissertação (expositiva e argumentativa) e injunção (alguns autores acrescentam o tipo dialogal).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "acusam a incongruência que existe entre a sociedade sustentar produções caríssimas e as pessoas, diferentemente...". De acordo com a teoria estudada em *2.1 Tipo Textual vs. Gênero Textual*, os gêneros são praticamente infinitos e mudam com a sociedade (o *e-mail* e o *post* são gêneros recentes).
+> - **C)** **Correta.** Conforme fundamentado na seção *7.2 Correlação Verbal e Armadilhas na Transposição* deste guia, na língua corrente, essa forma pode aparecer quando o fato ainda é futuro em relação ao momento em que se narra, mas, nas questões de transposição da FCC, o gabarito segue a correlação canônica: pretérito no verbo principal → futuro do pretérito na subordinada. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-4/2015) ao estabelecer que "indicam como usual que se tome a ópera como um gênero dramático excêntrico, pelo fato de representar situações...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "expressam as intenções que têm ao escrever a história da ópera, demonstrando acreditar que a melhor maneira de...". De acordo com a teoria estudada em *3.2 Narração e Descrição*, o foco narrativo pode ser em 1ª pessoa (narrador-personagem, que participa da história e tem visão limitada) ou em 3ª pessoa (narrador-observador, que apenas relata, ou narrador onisciente, que conhece pensamentos e sentimentos das personagens).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "anunciam que têm muito a dizer e deixam entrever que suas reflexões desnudarão alguns mitos sobre a ópera, como a...". De acordo com a teoria estudada em *1.1 Compreensão Textual e Informação Explícita*, o perigo da compreensão é justamente a paráfrase "envenenada": a banca copia quase todas as palavras do texto, mas troca um único elemento — um quantificador ("alguns" vira "todos"), um tempo verbal (algo que "pode ocorrer" vira algo que "ocorreu"), uma relação de causa (o efeito vira causa) ou um sujeito (o que foi dito de um grupo passa a ser dito de outro).
 >
-> **Gabarito: D**
+> **Gabarito: C**
 
 ---
 
@@ -610,26 +570,26 @@ A **alusão** é uma **referência indireta**, breve e sem citação literal, a 
 
 
 ### Teste 009
-**(FCC – TRT-24 – Analista Judiciário (TI) – 2017)**  
-Está reescrito conforme a norma-padrão da língua e com o s entido preservado em linhas gerais o seguinte trecho do texto:
+**(FCC – TRT-3 – Analista Judiciario Tecnologia da Informacao – 2015)**
+A graça da não-notícia A leitura crítica dos jornais brasileiros pode produzir momentos interessantes, não propriamente pelo que dizem, mas principalmente pelo que tentam esconder. O hábito de analisar criticamente o conteúdo da mídia tradicional produz calos no cérebro, e eventualmente o observador passa a enxergar não mais a notícia, mas a não-notícia, ou seja, aquilo que o noticiário dissimula ou omite. 5 Trata-se de um exercício divertido, como se o leitor estivesse desfazendo um jogo de palavras cruzadas já preenchido. É mais ou menos como adivinhar, a partir das palavras que se interconectam num texto, o sentido que o autor pretendeu dar à sua construção, uma espécie de jogo de “interpretação reversa". Transparece o aspecto ambíguo da imprensa quando, por exemplo, para defender o pluralismo de sua linha editorial, jornais propõem artigos sobre tema da atualidade a serem tratados por dois distintos analistas − "o leitor pode apreciar duas 10 opiniões diferentes". Ocorre que as propostas, normalmente sob a forma de pergunta, são formuladas de modo a garantir a perspectiva de que um ponto de vista se oponha frontalmente ao outro − um analista representa um "sim", o outro um "não" ao que está sendo perguntado pelos editores. Como se vê, a tal “pluralidade” já nasce condicionada, porque a imprensa brasileira quer convencer o leitor de que existem apenas duas interpretações possíveis para questões complexas como as que são postas aos analistas. São complexas, ou, no mínimo, controversas, porque é isso que define uma notícia. 15 Uma árvore caiu. Por que a árvore caiu? − mesmo num evento corriqueiro e aparentemente banal, há muitas respostas possíveis. Por que a imprensa brasileira tenta pintar tudo em preto e branco, sem considerar as muitas tonalidades entre os dois extremos? Ora, porque a imprensa faz parte do sistema de poder na sociedade moderna, e exerce esse poder fazendo pender as opiniões para um lado ou para outro, usa o mito da objetividade para valorizar seus produtos e cobra de seus financiadores um custo por esse trabalho. 20 Mas pode-se elaborar melhor essa análise. O observador arriscaria afirmar que a narrativa jornalística, tal como foi construída ao longo do tempo, já não dá conta de acompanhar a percepção da realidade, amplificada pelo domínio da imagem transmitida globalmente em tempo real. Como notou o filósofo Vilém Flusser, a superfície ínfima da tela substitui o mundo real. O que a imprensa faz é comentar essa superficialidade, não a realidade. 25 Mas a resposta é ainda mais simples: para ser levado a sério, um jornal precisa dar a impressão de concretude em seu conteúdo, mas, ao se tornar refém do mundo das imagens, produz uma concretude − ou, como diz Flusser, uma “concreticidade” superficial. Essa superficialidade procura esconder o propósito do conteúdo jornalístico, que não é informar, como pensam os leitores correligionários: é induzir uma opinião específica. 30 Se tudo é opinião, tudo é não-notícia. Obs.: Vilém Flusser (1920 - 1991) − filósofo tcheco, naturalizado brasileiro; professor, jornalista, conferencista e escritor. 1. Compreende-se corretamente do texto: O autor
 
-* **A)** ... não precisava contar nada para ninguém. (1o parágrafo) / ... não era impelido de me reportar à quem quer que fosse.
-* **B)** ... ainda sinto desconforto em ver... (4o parágrafo) / ... continuo a sentir-me incomodado ao testemunhar...
-* **C)** ... fotografar pratos envolvia um dilema... (3o parágrafo) / ... fotografar pratos abrangia-se de uma controvérsia...
-* **D)** Contudo, presumo que... (2o parágrafo) / Porquanto, afirmo por conjectura que...
-* **E)** ... acho que já estamos nos acostumando. (4o parágrafo) / ... tenho a impressão que já tornamo-nos resignados.
+* **A)** defende a ideia de que jornais instigantes são os que contam com um leitor crítico e atualizado, disposto a preencher as involuntárias lacunas das matérias veiculadas.
+* **B)** atribui interpretações grosseiras de notícias e o desejo de enxergar a não-notícia à prática constante de analisá-las sob perspectiva cética, resultado de juízo crítico muito aguçado e resistente à distensão.
+* **C)** considera a leitura de jornais um exercício divertido sempre que a matéria se dispõe a adivinhações, desvendamentos relacionados tanto à construção do texto, quanto aos fatos reais que a teriam inspirado.
+* **D)** mostra que matérias jornalísticas informam não só pelo que explicitamente comunicam, mas também pelo que evitam comunicar; esse modo de noticiar, em sua concretude, permite o desvendamento de propósitos de autores e editores.
+* **E)** expõe a ambiguidade que a imprensa pode manifestar quando é imprecisa no trato do assunto, falta de precisão originada por "palavras cruzadas", isto é, intrincadas conexões na estrutura verbal.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A regência 'impelido de me reportar à quem quer que fosse' comete crase indevida antes de pronome indefinido ('quem').
-> - **B)** Incorreta. 'Continuo a sentir-me incomodado ao testemunhar' não preserva com exatidão a nuance estilística de 'ainda sinto desconforto em ver'.
-> - **C)** Correta. A substituição proposta mantém plenamente a conformidade com o padrão culto e as relações de sentido originais do texto, operando paráfrase irretocável dos termos essenciais.
-> - **D)** Incorreta. 'Porquanto' exprime causa/explicação, ao passo que 'contudo' é conectivo adversativo de oposição, alterando radicalmente o sentido.
-> - **E)** Incorreta. Há erro crasso de próclise/ênclise ('já tornamo-nos', pois 'já' atrai próclise: 'já nos tornamos') e omissão indevida da preposição exigida pelo substantivo 'impressão'.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "defende a ideia de que jornais instigantes são os que contam com um leitor crítico e atualizado, disposto a...". De acordo com a teoria estudada em *4.1 Tese e Estrutura do Texto Argumentativo*, a tese é a ideia central que o autor defende — o ponto de vista que ele quer que o leitor aceite. Ela é diferente do tema (o assunto genérico tratado).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "atribui interpretações grosseiras de notícias e o desejo de enxergar a não-notícia à prática constante de...". De acordo com a teoria estudada em *6.1 Discurso Direto*, suas marcas são: verbo de elocução (ou *dicendi*: *dizer, afirmar, perguntar, responder, declarar, exclamar, retrucar, murmurar*), que pode vir antes, no meio ou depois da fala; pontuação específica — dois-pontos seguidos de travessão ou de aspas; e a manutenção da perspectiva da personagem (1ª pessoa, presente, dêiticos como *este, aqui, hoje, amanhã*).
+> - **C)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "considera a leitura de jornais um exercício divertido sempre que a matéria se dispõe a adivinhações...". De acordo com a teoria estudada em *1.3 Os Três Erros Clássicos de Leitura*, c) uma comparação quantitativa inexistente (ex.: "as máquinas erram tanto quanto os humanos").
+> - **D)** **Correta.** Conforme fundamentado na seção *1.2 Interpretação Textual e Inferência Autorizada* deste guia, a pergunta implícita é: *o que se pode concluir a partir do texto?* Os comandos típicos são "depreende-se", "infere-se", "conclui-se", "o autor sugere", "o texto permite entender que". Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-3/2015) ao estabelecer que "mostra que matérias jornalísticas informam não só pelo que explicitamente comunicam, mas também pelo que evitam...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "expõe a ambiguidade que a imprensa pode manifestar quando é imprecisa no trato do assunto, falta de precisão...". De acordo com a teoria estudada em *1.1 Compreensão Textual e Informação Explícita*, o perigo da compreensão é justamente a paráfrase "envenenada": a banca copia quase todas as palavras do texto, mas troca um único elemento — um quantificador ("alguns" vira "todos"), um tempo verbal (algo que "pode ocorrer" vira algo que "ocorreu"), uma relação de causa (o efeito vira causa) ou um sujeito (o que foi dito de um grupo passa a ser dito de outro).
 >
-> **Gabarito: C**
+> **Gabarito: D**
 
 ---
 
@@ -693,53 +653,50 @@ Exploram a **sonoridade** das palavras, sendo frequentes em poesia, publicidade 
 ---
 
 ### Teste 010
-**(FGV – TRT-24 – Analista Judiciário (TI) – 2025)**  
-Entre os textos a seguir, assinale aquele que pertence ao gênero narrativo.
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Administracao – 2024)**
+Leia a frase abaixo com atenção: A carta é telefonema antiquado, do tempo em que as pessoas sabiam escrever e ler. Assinale a afirmativa correta acerca da frase apresentada.
 
-* **A)** Nunca a questão do olhar esteve tão no centro do debate da cultura e das sociedades contemporâneas. Um mundo onde tudo é produzido para ser visto coloca necessariamente o ver como problema.
-* **B)** Manifestações públicas constituem um dos aspectos essenciais da vida democrática. Um regime político que é incapaz de tolerar a livre manifestação da população não pode ser considerado democrático.
-* **C)** A reunião do gabinete foi marcada para as sete horas da manhã, mas um pequeno atraso do presidente provocou a transferência da discussão sobre a redução dos impostos para amanhã.
-* **D)** O trabalho de arte é um processo. Resulta de uma vida. Em 1501, Michelangelo volta de viagem a Florença e concentra seu trabalho artístico em um grande bloco de mármore abandonado. Assim se faz arte.
-* **E)** Solidariedade não faz bem apenas para quem recebe ajuda, mas também para quem a pratica. Raciocínio Lógico-matemático
+* **A)** A frase mostra a superioridade da língua escrita sobre a língua falada.
+* **B)** A frase traz uma crítica à educação moderna.
+* **C)** A carta é comparada a um telefonema por ambos os meios serem considerados antiquados.
+* **D)** O autor da frase indica um aspecto da modernidade superior aos tempos passados.
+* **E)** Saber escrever e ler não é visto na frase como traço se qualidade superior.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Trata-se de um texto puramente dissertativo-argumentativo, que discute e teoriza sobre o papel do olhar e da imagem na cultura contemporânea.
-> - **B)** Incorreta. Texto de tipologia dissertativa, no qual se defende a tese de que a manifestação pública é basilar para a democracia.
-> - **C)** Incorreta. Apresenta caráter informativo/expositivo e noticioso sobre o adiamento de uma reunião, sem estrutura narrativa com progressão de ações e personagens.
-> - **D)** Correta. O fragmento estrutura-se com elementos típicos da narração: marco temporal preciso ('Em 1501'), personagem com ação sucessiva no tempo ('Michelangelo volta de viagem a Florença e concentra seu trabalho artístico em um grande bloco de mármore abandonado'), narrando um episódio concreto com transformação de estado.
-> - **E)** Incorreta. Frase puramente aforística/dissertativa com juízo de valor sobre o conceito de solidariedade.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A frase mostra a superioridade da língua escrita sobre a língua falada". De acordo com a teoria estudada em *4.2 Estratégias Argumentativas*, argumento por senso comum ou consenso: apoia-se em ideias amplamente aceitas ("É sabido que a educação transforma vidas").
+> - **B)** **Correta.** Conforme fundamentado na seção *1.3 Os Três Erros Clássicos de Leitura* deste guia, a alternativa reduzida até contém algo verdadeiro, mas é parcial: responde a uma pergunta diferente da feita (ex.: a questão pede a ideia central e a alternativa traz um exemplo usado em um parágrafo). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "A frase traz uma crítica à educação moderna".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A carta é comparada a um telefonema por ambos os meios serem considerados antiquados". De acordo com a teoria estudada em *2.1 Tipo Textual vs. Gênero Textual*, o gênero textual, por sua vez, é a forma concreta e socialmente reconhecida que o texto assume no dia a dia: notícia, editorial, crônica, receita, edital, ofício, sentença, ensaio, carta de leitor.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O autor da frase indica um aspecto da modernidade superior aos tempos passados". De acordo com a teoria estudada em *1.3 Os Três Erros Clássicos de Leitura*, redução: A alternativa pinça um detalhe secundário ou aspecto particular do texto e o apresenta como se fosse a tese central ou a conclusão definitiva do autor.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Saber escrever e ler não é visto na frase como traço se qualidade superior". De acordo com a teoria estudada em *1.4 Método Prático de Resolução*, ler o enunciado antes do texto, para saber se a questão é de compreensão (explícito) ou interpretação (implícito).
 >
-> **Gabarito: D**
+> **Gabarito: B**
 
 ---
 
 ### Teste 011
-**(FCC – TRT-3 – Analista Judiciário (TI) – 2015)**  
-*Considere o trecho:*  
-*"A imprensa frequentemente anuncia que o leitor pode apreciar duas opiniões diferentes sobre um mesmo tema polêmico, colocando lado a lado análises que divergem apenas em pormenores cosméticos, mas convergem no alinhamento ideológico com o status quo."*
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Administracao – 2024)**
+A respeito da obra do artista contemporâneo Éder Oliveira, leia um trecho de sua entrevista e observe uma de suas telas. Essa obra é um autorretrato do meu trabalho. Ali consta tudo que venho fazendo nos últimos anos. Em um primeiro plano, tem um homem que está sendo forçado por um policial a ser fotografado. O policial puxa o rosto dele. Depois a foto vai para um jornal, eu me aproprio do jornal. E nessa de transformar em pintura, eu propositalmente cubro um pouco a identidade desse homem. Quando ele vira pintura, ele deixa de ser aquela pessoa. Eu pinto essas pessoas todas de vermelho, de azul. Isso ajuda a torná-los menos reconhecíveis enquanto indivíduos, enquanto fulano que foi preso por tal coisa. Então, é por isso que o meu braço cobre a identidade dele fazendo uma tarja vermelha. Uma alegoria do meu trabalho, um autorretrato. Trecho adaptado de entrevista com o artista paraenese Éder de Oliveira in: https://www.revistaderivasanaliticas.com.br/index.php/eder Éder Oliveira, Autorretrato, 2016. Óleo sobre tela, 297 x 205 cm. Com base na entrevista e na imagem, analise as afirmativas a seguir sobre a obra de Éder Oliveira. I. O artista se especializou no gênero autorretrato, usado para investigar a própria individualidade, única e irrepetível, em um contexto paraense marcado pelo hibridismo cultural. II. As fotos, publicadas em jornais, de homens presos, ou supostos autores de crimes, são ressignificadas pictoricamente e denunciam a construção de uma identidade social negativa e violenta associada aos ditos homens comuns, os negros, mestiços e caboclos amazonenses. III. A obra explora as relações entre retrato, imagem e identidade, estabelecendo um diálogo entre arte e mídia para denunciar mecanismos de invisibilidade e estigmatização social. Está correto o que se afirma em
 
-Sobre a frase " o leitor pode apreciar duas opiniões diferentes" (linhas 9 e 10), na situação em que está inserida, comenta-se com propriedade:
-
-* **A)** o contexto e as aspas justificam que a consideremos o título da seção de um dado jornal em que dois analistas se expressam sobre o mesmo tema.
-* **B)** é ela que determina que as análises, sem outra possibilidade, se cumpram de modo diametralmente oposto.
-* **C)** é ponto de apoio do raciocínio que conduz à denúncia de falso pluralismo da imprensa.
-* **D)** é frase emblemática do que, segundo o autor, uma linha editorial deveria ter como objetivo.
-* **E)** considerado o tom irônico que pode ser imprimido a ela, expressa que autor considera legítimo esse tipo de pluralismo, mas não atingível pela imprensa brasileira. Caderno de Prova ’A28’, Tipo 001 TRT3R-Conhecimentos Básicos2 3
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. As aspas marcam uma citação irônica ou distanciamento crítico, e não o nome da seção do jornal.
-> - **B)** Correta. A análise contextual do autor demonstra a ironia na promessa de pluralismo ('o leitor pode apreciar duas opiniões diferentes'), revelando que o arranjo editorial força uma falsa polarização que mascara uma base ideológica idêntica.
-> - **C)** Incorreta. A frase em si não denuncia o falso pluralismo diretamente; ela é o mote convencional que o autor ironiza para depois construir sua crítica.
-> - **D)** Incorreta. O autor critica esse modelo cosmético, logo ele não o toma como objetivo ideal a ser perseguido por uma linha editorial séria.
-> - **E)** Incorreta. O autor não afirma a impossibilidade do pluralismo no Brasil, mas desmascara o pseudopluralismo das análises binárias na imprensa.
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *9.3 Figuras de Construção ou de Sintaxe*, silepse: concordância feita com a ideia, e não com a forma gramatical do termo; pode ser de gênero (*"Vossa Excelência está preocupado"*), de número (*"A multidão chegou; gritavam palavras de ordem"*) ou de pessoa (*"Os brasileiros somos otimistas"*).
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *1.1 Compreensão Textual e Informação Explícita*, o perigo da compreensão é justamente a paráfrase "envenenada": a banca copia quase todas as palavras do texto, mas troca um único elemento — um quantificador ("alguns" vira "todos"), um tempo verbal (algo que "pode ocorrer" vira algo que "ocorreu"), uma relação de causa (o efeito vira causa) ou um sujeito (o que foi dito de um grupo passa a ser dito de outro).
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *9.1 Figuras Semânticas ou de Palavra*, casos típicos: o autor pela obra (*"Li Machado de Assis"*), a parte pelo todo (*"Várias cabeças pensavam na solução"* — esta modalidade é também chamada sinédoque), o continente pelo conteúdo (*"Bebeu dois copos"*), a marca pelo produto (*"Comprou uma gilete"*), o símbolo pela coisa (*"A coroa decidiu"* = o rei), o lugar pela instituição (*"O Planalto vetou o projeto"*).
+> - **D)** **Correta.** Conforme fundamentado na seção *2.3 Contexto Histórico, Cultural e Ideológico* deste guia, o contexto histórico diz respeito ao momento em que o texto foi escrito (uma crônica de Machado de Assis sobre a escravidão no século XIX deve ser lida à luz daquela sociedade). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "II e III, apenas".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *2.3 Contexto Histórico, Cultural e Ideológico*, na prova, isso aparece em perguntas sobre o ponto de vista do autor, sobre o efeito de sentido de uma referência histórica ou sobre a crítica social implícita em uma narrativa.
 >
-> **Gabarito: B**
+> **Gabarito: D**
 
 ---
 

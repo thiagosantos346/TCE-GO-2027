@@ -102,68 +102,77 @@ Na sistemática da NLLC, os recursos administrativos não são mais interpostos 
 ---
 
 ### Teste 077
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A Lei nº 14.133/2021 estruturou o processo de licitação em uma sequência de fases no art. 17. A respeito da ordem legal canônica das fases do procedimento licitatório ordinário na Nova Lei de Licitações, assinale a opção que indica a sequência correta:
+**(FGV – TRT-24 – Analista Judiciario Area Administrativa Contabilidade – 2025)**
+De acordo com a Lei nº 14.133/2021, após o resultado do processo de licitação, será facultado à Administração, quando o convocado não assinar o termo de contrato ou não aceitar ou não retirar o instrumento equivalente no prazo e nas condições estabelecidas, convocar os licitantes remanescentes, na ordem de classificação, para a celebração do contrato nas condições propostas pelo licitante vencedor. Em relação à hipótese de nenhum dos licitantes aceitar a contratação nos termos propostos, analise o que se afirma a seguir. I. A Administração poderá convocar os licitantes remanescentes para negociação, na ordem de classificação, com vistas à obtenção de preço melhor, mesmo que acima do preço do adjudicatário. II. A Administração poderá adjudicar e celebrar o contrato nas condições ofertadas pelos licitantes remanescentes, atendida a ordem classificatória, quando frustrada a negociação de melhor condição. III. A Administração poderá anular o edital de licitação e suspender as suas intenções originais em relação ao objeto da licitação. Está correto o que se afirma em
 
-* **A)** Preparatória, divulgação do edital, apresentação de propostas, julgamento, habilitação, recursal e homologação.
-* **B)** Preparatória, habilitação prévia dos licitantes, apresentação de propostas, julgamento, recursal e adjudicação.
-* **C)** Divulgação do edital, apresentação de propostas, habilitação preliminar, julgamento técnico, recursal e homologação.
-* **D)** Preparatória, homologação do certame, publicação do edital, julgamento de preços, habilitação e fase recursal.
-* **E)** Apresentação de propostas, julgamento, habilitação jurídica, preparatória, divulgação do edital e homologação.
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correto**. O art. 17 da Lei nº 14.133/2021 estabelece a sequência canônica ordinária: I - preparatória; II - de divulgação do edital de licitação; III - de apresentação de propostas e lances; IV - de julgamento; V - de habilitação; VI - recursal; e VII - de homologação. A regra geral é o julgamento prévio à habilitação.
-> - **B)** **Incorreto**. A habilitação prévia tornou-se exceção que exige justificativa expressa no art. 17, § 1º.
-> - **C)** **Incorreto**. A fase preparatória antecede obrigatoriamente a divulgação do edital.
-> - **D)** **Incorreto**. A homologação é a fase final de encerramento do procedimento licitatório.
-> - **E)** **Incorreto**. Sequência inteiramente anacrônica e desconforme com o comando legal.
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *1.2 A Inversão de Fases e a Habilitação Exclusiva do Vencedor*, se a documentação estiver regular, ele é declarado vencedor; se for inabilitado, o agente convoca o segundo colocado na ordem de classificação, e assim sucessivamente.
+> - **B)** **Correta.** Conforme fundamentado na seção *1.2 A Inversão de Fases e a Habilitação Exclusiva do Vencedor* deste guia, julgamento Antes da Habilitação: Em vez de abrir os envelopes documentais de dezenas de licitantes antes de conhecer seus preços (modelo da Lei 8.666/93), a Administração Pública classifica primeiro as propostas de preços/técnica. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "I e II, apenas".
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *3. Critérios de Julgamento das Propostas (Art. 33)*, o art. 33 da Lei nº 14.133/2021 estabelece os critérios objetivos de julgamento que devem constar obrigatoriamente do edital.
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *1.3 Fase Recursal Única e Concentrada (Art. 165)*, o licitante que discordar de qualquer decisão deve manifestar imediatamente sua intenção de recorrer sob pena de preclusão, dispondo do prazo de 3 (três) dias úteis para apresentação das razões recursais, abrangendo indistintamente matérias de julgamento de propostas e de habilitação.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *5. Fontes Recomendadas na Internet*, lei Federal nº 14.133/2021 - Arts. 17 a 27 (Fases do Processo Licitatório e Inversão de Fases).
 >
-> **Gabarito: A**
+> **Gabarito: B**
+
+---
+
 ### Teste 078
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Em um certame licitatório conduzido sob a modalidade Concorrência, a Administração Pública estadual pretende antecipar a fase de habilitação para que ocorra antes do julgamento das propostas. Nos termos expressos do art. 17, § 1º, da Lei nº 14.133/2021:
+**(FGV – TCE-GO – Analista de Controle Externo Ciencias Contabeis – 2024)**
+Após a fase de habilitação em determinado procedimento licitatório, realizado na modalidade concorrência, que seguiu a sequência estabelecida como regra na Lei nº 14.133/2021, surgiram dúvidas sobre o adequado encadeamento do certame, bem como quanto à viabilidade de apresentação de recursos administrativos, assim também acerca das peculiaridades das irresignações previstas na aludida norma. Nesse contexto, considerando o disposto no mencionado Diploma Legal, é correto afirmar que
 
-* **A)** A inversão de fases para realizar a habilitação antes do julgamento é vedada em qualquer hipótese licitatória.
-* **B)** A habilitação pode anteceder o julgamento havendo previsão no edital e ato motivado.
-* **C)** A antecipação da habilitação é obrigatória em todas as licitações cujo critério seja técnica e preço.
-* **D)** A inversão de fases depende de prévia e indispensável autorização legislativa da Assembleia do Estado.
-* **E)** A realização prévia da habilitação dispensa a fase recursal referente ao julgamento das propostas de preços.
+* **A)** a fase de habilitação em questão é seguida da fase de julgamento, sendo certo que essa última só pode ser realizada após a apreciação dos recursos apresentados na fase anterior, diante de efeito suspensivo conferido às irresignações formuladas durante o procedimento.
+* **B)** a fase de habilitação em questão é seguida da apreciação dos respectivos recursos, sendo certo que aqueles atinentes ao julgamento das propostas já foram examinados, antes da habilitação, diante do efeito suspensivo de tais irresignações em sede administrativa.
+* **C)** a fase de habilitação em questão é seguida da homologação do certame, momento em que serão apreciados os recursos contra a habilitação e julgamento, mesmo que, em regra, tais irresignações não tenham efeito suspensivo, para que então possa ser promovido o encerramento do procedimento licitatório.
+* **D)** a fase de habilitação em questão é seguida da recursal, sendo certo que os recursos são dotados de efeito suspensivo e apreciados em fase única quanto às questões atinentes à habilitação e ao julgamento, dependendo, no entanto, da imediata manifestação da intenção de recorrer, sob pena de preclusão.
+* **E)** a fase de habilitação em questão é seguida da fase de encerramento, que poderá resultar na homologação, anulação ou revogação da licitação, independentemente da apreciação de recursos administrativos quanto as questões atinentes à habilitação e ao julgamento, que não são dotados de efeito suspensivo.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A lei autoriza excepcionalmente a antecipação da fase de habilitação.
-> - **B)** **Correto**. O art. 17, § 1º, da Lei nº 14.133/2021 preceitua expressamente: "A fase referida no inciso V do caput deste artigo [habilitação] poderá, mediante ato motivado com explicitação dos benefícios decorrentes, anteceder as fases referidas nos incisos III e IV do caput deste artigo [apresentação de propostas e julgamento], desde que expressamente previsto no edital de licitação".
-> - **C)** **Incorreto**. Não é obrigatória, constituindo faculdade discricionária motivada da Administração.
-> - **D)** **Incorreto**. Dispensa autorização legislativa, bastando ato administrativo motivado da autoridade competente.
-> - **E)** **Incorreto**. A fase recursal única é mantida, apreciando conjuntamente os atos do procedimento.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a fase de habilitação em questão é seguida da fase de julgamento, sendo certo que essa última só pode ser...". De acordo com a teoria estudada em *1.2 A Inversão de Fases e a Habilitação Exclusiva do Vencedor*, exceção de Habilitação Prévia (Art. 17, § 1º): A inversão pode ser excepcionada (realizando-se a habilitação antes do julgamento das propostas), desde que haja motivação expressa de interesse público na fase preparatória e prévia previsão no edital.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a fase de habilitação em questão é seguida da apreciação dos respectivos recursos, sendo certo que aqueles...". De acordo com a teoria estudada em *1.2 A Inversão de Fases e a Habilitação Exclusiva do Vencedor*, julgamento Antes da Habilitação: Em vez de abrir os envelopes documentais de dezenas de licitantes antes de conhecer seus preços (modelo da Lei 8.666/93), a Administração Pública classifica primeiro as propostas de preços/técnica.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a fase de habilitação em questão é seguida da homologação do certame, momento em que serão apreciados os recursos...". De acordo com a teoria estudada em *1.1 Sequência Cronológica Canônica (Art. 17)*, fase Recursal: Etapa única concentrada na qual os licitantes manifestam e fundamentam inconformismos contra o julgamento e a habilitação.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a fase de habilitação em questão é seguida da recursal, sendo certo que os recursos são dotados de efeito...". De acordo com a teoria estudada em *1.3 Fase Recursal Única e Concentrada (Art. 165)*, o licitante que discordar de qualquer decisão deve manifestar imediatamente sua intenção de recorrer sob pena de preclusão, dispondo do prazo de 3 (três) dias úteis para apresentação das razões recursais, abrangendo indistintamente matérias de julgamento de propostas e de habilitação.
+> - **E)** **Correta.** Conforme fundamentado na seção *1.3 Fase Recursal Única e Concentrada (Art. 165)* deste guia, na sistemática da NLLC, os recursos administrativos não são mais interpostos de forma fracionada ao término de cada etapa. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "a fase de habilitação em questão é seguida da fase de encerramento, que poderá resultar na homologação, anulação...".
 >
-> **Gabarito: B**
+> **Gabarito: E**
+
+---
+
 ### Teste 079
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Após a conclusão da fase de habilitação em determinado procedimento licitatório realizado sob a égide da Lei Federal nº 14.133/2021, foi aberto prazo para a interposição de recursos administrativos pelos licitantes participantes. A respeito da fase recursal única disciplinada no art. 165 da NLLC, é correto afirmar que:
+**(FGV – TJ-RR – Analista Judiciario Gestao e Governanca de Tecnologia da Informacao – 2024)**
+Considerando conceitos básicos de contratações de TI, analise as afirmativas. I. Em sequência, segundo a Lei nº 14.133/2021, o processo licitatório deverá seguir as seguintes fases: preparatória; de divulgação do edital de licitação; de cadastramento; de apresentação de propostas e lances, quando for o caso; de julgamento; recursal; de habilitação; e de homologação. II. Segundo a IN 67/2021 da SEGES/ME, no caso de procedimento de contratação restar fracassado, o órgão poderá, dentre outras ações, valer-se, para a contratação, de proposta obtida na pesquisa de preços que serviu de base ao procedimento, se houver, privilegiando-se os menores preços, sempre que possível, e desde que atendidas às condições de habilitação exigidas. III. Segundo a Lei nº 14.133/2021, o processo de padronização deverá conter: parecer técnico sobre o produto, considerados especificações técnicas e estéticas, desempenho, análise de contratações anteriores, custo e condições de manutenção e garantia; despacho motivado do responsável técnico pela contratação, com a adoção do padrão; e síntese da justificativa e descrição sucinta do padrão definido, divulgadas em sítio eletrônico oficial. Está correto o que se afirma em
 
-* **A)** os licitantes devem interpor recursos autônomos e sucessivos imediatamente após cada ato decisório na sessão.
-* **B)** a intenção de recorrer manifesta-se ao final, em fase recursal única sobre julgamento e habilitação.
-* **C)** o recurso contra o julgamento de propostas tem efeito suspensivo automático que impede a abertura da habilitação.
-* **D)** o prazo para apresentação das razões recursais recursais escritas na Nova Lei de Licitações é de quinze dias úteis.
-* **E)** a ausência de protesto na fase preparatória impede a impugnação judicial do edital pelos órgãos de controle externo.
+* **A)** I, apenas.
+* **B)** II, apenas.
+* **C)** III, apenas.
+* **D)** I e II, apenas.
+* **E)** I e III, apenas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. A Lei nº 14.133/2021 aboliu a fragmentação recursal da Lei nº 8.666/1993, concentrando os recursos.
-> - **B)** **Correto**. Pelo art. 165, § 1º, da Lei nº 14.133/2021, a fase recursal é realizada em momento ÚNICO ao término do julgamento e da habilitação: os licitantes manifestam imediatamente a intenção de recorrer e as razões e contrarrazões apreciam, conjuntamente, tanto o julgamento das propostas quanto a habilitação ou inabilitação dos competidores.
-> - **C)** **Incorreto**. Não há paralisação imediata após a proposta; a habilitação do primeiro colocado prossegue de imediato.
-> - **D)** **Incorreto**. O prazo para apresentação das razões de recurso é de 3 (três) dias úteis (art. 165, I).
-> - **E)** **Incorreto**. O controle de legalidade pelos Tribunais de Contas independe de manifestação prévia de licitante.
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *1.1 Sequência Cronológica Canônica (Art. 17)*, divulgação do Edital de Licitação: Publicidade oficial e centralizada mediante inserção obrigatória no Portal Nacional de Contratações Públicas (PNCP).
+> - **B)** **Correta.** Conforme fundamentado na seção *1.2 A Inversão de Fases e a Habilitação Exclusiva do Vencedor* deste guia, exceção de Habilitação Prévia (Art. 17, § 1º): A inversão pode ser excepcionada (realizando-se a habilitação antes do julgamento das propostas), desde que haja motivação expressa de interesse público na fase preparatória e prévia previsão no edital. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-RR/2024) ao estabelecer que "II, apenas".
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III, apenas". De acordo com a teoria estudada em *1. Fases e Rito Procedimental na Lei Federal nº 14.133/2021*, a Lei Federal nº 14.133/2021 reestruturou o procedimento licitatório com o objetivo de assegurar celeridade, eficiência e redução de custos burocráticos.
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *1.1 Sequência Cronológica Canônica (Art. 17)*, fase Preparatória: Concepção da necessidade, confecção do ETP, TR ou Projeto Básico, elaboração da matriz de riscos, pesquisa de preços e redação da minuta de edital e de contrato.
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *5. Fontes Recomendadas na Internet*, lei Federal nº 14.133/2021 - Arts. 17 a 27 (Fases do Processo Licitatório e Inversão de Fases).
 >
 > **Gabarito: B**
+
+---
+
 ## 2. As Cinco Modalidades Licitatórias Modernas (Art. 28)
 
 O art. 28 da Lei Federal nº 14.133/2021 estabelece um rol taxativo com cinco modalidades licitatórias aplicáveis a toda a Administração Pública brasileira:
@@ -223,112 +232,125 @@ A NLLC **extinguiu formal e definitivamente as modalidades Tomada de Preços e C
 ---
 
 ### Teste 080
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O Departamento Estadual de Infraestrutura necessita licitar a construção de um complexo hospitalar de alta complexidade e optou pela modalidade Concorrência. A respeito da modalidade Concorrência na disciplina da Lei Federal nº 14.133/2021 (arts. 6º, XXXVIII e 29):
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Administracao – 2026)**
+Um estado federado celebrou contrato de Parceria Público- Privada (PPP) na modalidade concessão patrocinada para a construção e operação de um complexo hospitalar público, com prazo de 25 anos. O contrato prevê contraprestação pecuniária do poder concedente ao parceiro privado, condicionada ao desempenho mensurado por indicadores de qualidade assistencial. Durante a fase de execução, surgiram três controvérsias: I. o parceiro privado alegou que a contraprestação pública não poderia ser suspensa unilateralmente pelo poder concedente, ainda que houvesse inadimplemento parcial dos indicadores de desempenho previstos; II. a Secretaria de Fazenda questionou se o Estado poderia assumir compromissos de contraprestação futura sem constituir fundo garantidor ou oferecer outra forma de garantia ao parceiro privado; e III. o órgão de controle interno apontou que o contrato não havia sido precedido de licitação na modalidade concorrência, mas de diálogo competitivo, e que isso configuraria nulidade insanável. Considerando a Lei nº 11.079/2004 e suas alterações, assinale a afirmativa correta.
 
-* **A)** A concorrência aplica-se a obras de engenharia, admitindo critérios de menor preço ou técnica e preço.
-* **B)** A concorrência restringe-se ao critério estrito de menor preço, vedada a adoção de técnica e preço em engenharia.
-* **C)** A concorrência subordina-se compulsoriamente a valor estimado superior a cinquenta milhões de reais no projeto.
-* **D)** A concorrência é conduzida privativamente por leiloeiro oficial credenciado perante a junta comercial do Estado.
-* **E)** A concorrência admite a participação exclusiva de empresas sediadas no território estadual onde será executada.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correto**. O art. 6º, XXXVIII, da Lei nº 14.133/2021 conceitua Concorrência como a "modalidade de licitação para contratação de bens e serviços especiais e de obras e serviços comuns e especiais de engenharia, cujo critério de julgamento poderá ser: a) menor preço; b) melhor técnica ou conteúdo artístico; c) técnica e preço; d) maior retorno econômico; e) maior desconto". A definição abandonou o critério de valor monetário da lei anterior.
-> - **B)** **Incorreto**. A concorrência admite ampla gama de critérios de julgamento, inclusive técnica e preço.
-> - **C)** **Incorreto**. A escolha da modalidade na NLLC não depende do valor estimado, mas da natureza comum ou especial do objeto.
-> - **D)** **Incorreto**. O leiloeiro atua no leilão; a concorrência é conduzida por agente de contratação ou comissão.
-> - **E)** **Incorreto**. É vedada a restrição territorial sob pena de violação à isonomia e à ampla concorrência.
->
-> **Gabarito: A**
-### Teste 081
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A modalidade de licitação denominada Pregão, disciplinada no art. 6º, XLI e art. 29 da Lei nº 14.133/2021, é obrigatória para a aquisição de bens e serviços comuns no âmbito de todos os Poderes e esferas estatais. A respeito do Pregão e de seus limites legais:
-
-* **A)** É cabível para contratação de serviços técnicos especializados de natureza predominantemente intelectual.
-* **B)** Aplica-se compulsoriamente para a contratação de obras comuns de engenharia com regime integrado.
-* **C)** É obrigatório para bens e serviços comuns, julgado por menor preço ou maior desconto.
-* **D)** Admite o critério de melhor técnica ou técnica e preço para garantir produtos de tecnologia avançada.
-* **E)** Veda a realização sob a forma eletrônica em municípios com população inferior a cinquenta mil habitantes.
+* **A)** As três controvérsias procedem: a contraprestação pública não pode ser suspensa unilateralmente em nenhuma hipótese; o Poder Público é obrigado a constituir fundo garantidor em todos os contratos de PPP; e o diálogo competitivo não é modalidade licitatória admitida para PPPs, configurando nulidade do contrato.
+* **B)** Apenas a controvérsia I procede: a Lei nº 11.079/2004 veda expressamente a suspensão unilateral da contraprestação pública, mesmo diante de inadimplemento dos indicadores de desempenho pelo parceiro privado, pois o poder concedente dispõe apenas de sanções pecuniárias para responsabilizá-lo.
+* **C)** As controvérsias I e III não procedem, e a controvérsia II procede parcialmente: a contraprestação pode ser reduzida proporcionalmente ao inadimplemento dos indicadores; o Poder Público não é obrigado a constituir fundo garantidor, mas deve oferecer alguma das garantias previstas na Lei nº 11.079/2004; e o diálogo competitivo é modalidade licitatória admitida para PPPs desde a Lei nº 14.133/2021, não configurando nulidade.
+* **D)** Apenas a controvérsia III procede: o diálogo competitivo não é admitido para contratos de PPP, que exigem obrigatoriamente licitação na modalidade concorrência, nos termos originais da Lei nº 11.079/2004, independentemente das alterações promovidas pela Lei nº 14.133/2021.
+* **E)** Nenhuma das três controvérsias procede integralmente: a
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. O art. 29, parágrafo único, veda o pregão para contratações de serviços técnicos especializados de natureza predominantemente intelectual.
-> - **B)** **Incorreto**. O pregão não se aplica a obras de engenharia (art. 29, parágrafo único), aplicando-se apenas a serviços comuns de engenharia.
-> - **C)** **Correto**. O art. 6º, XLI c/c o art. 29 da Lei nº 14.133/2021 estabelecem que o pregão é a modalidade de licitação obrigatória para aquisição de bens e serviços comuns, cujo critério de julgamento poderá ser exclusivamente o de menor preço ou o de maior desconto (art. 34, § 2º).
-> - **D)** **Incorreto**. O pregão jamais admite critérios de julgamento de técnica ou conteúdo artístico.
-> - **E)** **Incorreto**. O pregão é realizado preferencialmente sob a forma eletrônica em todos os entes federados.
->
-> **Gabarito: C**
-### Teste 082
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A respeito da modalidade licitatória denominada Concurso, disciplinada no art. 6º, XXXIX e art. 30 da Lei Federal nº 14.133/2021, assinale a afirmativa correta:
-
-* **A)** O concurso destina-se à alienação de bens móveis inservíveis e veículos penhorados em execução fiscal.
-* **B)** O concurso destina-se a trabalho técnico, científico ou artístico, mediante prêmio ou remuneração.
-* **C)** O concurso é julgado obrigatoriamente por leiloeiro oficial credenciado junto à administração fazendária.
-* **D)** O edital de concurso dispensa a fixação prévia de qualificações e de regras de julgamento das comissões.
-* **E)** A modalidade concurso admite como critério de julgamento o maior desconto sobre tabela referencial.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreto**. Alienação de bens móveis inservíveis realiza-se mediante leilão (art. 6º, XL).
-> - **B)** **Correto**. Conforme o art. 6º, XXXIX da Lei nº 14.133/2021, o Concurso é a "modalidade de licitação para escolha de trabalho técnico, científico ou artístico, cujo critério de julgamento será o de melhor técnica ou conteúdo artístico, e para concessão de prêmio ou remuneração ao vencedor".
-> - **C)** **Incorreto**. O concurso é julgado por comissão especial formada por pessoas de reputação ilibada e conhecimento na matéria (art. 30, § 1º).
-> - **D)** **Incorreto**. O edital deve estabelecer com precisão as diretrizes de apresentação, qualificação e critérios de premiação.
-> - **E)** **Incorreto**. O critério de julgamento é exclusivamente melhor técnica ou conteúdo artístico.
+> - **A)** **Incorreta.** A opção apresenta vedação ou negativa absoluta incompatível com a regra aplicável ao afirmar que "As três controvérsias procedem: a contraprestação pública não pode ser suspensa unilateralmente em nenhuma...". De acordo com a teoria estudada em *2.5 Diálogo Competitivo: Inovação, Rito e Comissão Efetiva (Art. 32)*, condução Obrigatória por Comissão Efetiva: O Diálogo Competitivo deve ser conduzido obrigatoriamente por comissão de contratação composta de, no mínimo, 3 (três) servidores efetivos ou empregados permanentes (art. 32, XI).
+> - **B)** **Correta.** Conforme fundamentado na seção *2.1 Pregão: Bens e Serviços Comuns de Engenharia e Consumo* deste guia, objeto Mandatório (Art. 29): Modalidade de contratação obrigatória para bens e serviços comuns, incluindo expressamente os serviços comuns de engenharia (assim entendidos aqueles cujos padrões de desempenho e qualidade podem ser objetivamente descritos pelo edital por especificações usuais de mercado). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "Apenas a controvérsia I procede: a Lei nº 11.079/2004 veda expressamente a suspensão unilateral da contraprestação...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "As controvérsias I e III não procedem, e a controvérsia II procede parcialmente: a contraprestação pode ser...". De acordo com a teoria estudada em *5. Fontes Recomendadas na Internet*, dI PIETRO, Maria Sylvia Zanella. Direito Administrativo. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 9 - Modalidades Licitatórias, Diálogo Competitivo, Leilão e Procedimento da Lei 14.133/2021).
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Apenas a controvérsia III procede: o diálogo competitivo não é admitido para contratos de PPP, que exigem...". De acordo com a teoria estudada em *2.2 Concorrência: Bens e Serviços Especiais e Obras*, objeto: Modalidade de licitação destinada à contratação de bens e serviços especiais, obras e serviços de engenharia comuns e especiais.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Nenhuma das três controvérsias procede integralmente: a". De acordo com a teoria estudada em *2.3 Concurso: Premiação de Trabalhos Técnicos e Artísticos*, contraprestação: Concessão de prêmio ou remuneração ao vencedor.
 >
 > **Gabarito: B**
-### Teste 083
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O Tribunal de Contas do Estado necessita alienar vinte veículos de sua frota oficial classificados formalmente como bens móveis inservíveis e antieconômicos para a repartição. À luz das normas da Lei nº 14.133/2021 (arts. 6º, XL e 31):
 
-* **A)** A alienação de bens móveis inservíveis e de imóveis públicos realiza-se privativamente na modalidade leilão.
-* **B)** A alienação exige a modalidade concorrência pública caso o valor contábil supere duzentos salários mínimos.
-* **C)** O leilão não admite a condução por servidor público designado, exigindo sempre leiloeiro oficial privado.
-* **D)** Os bens arrematados em leilão podem ser entregues ao comprador antes da integralização do pagamento do lance.
-* **E)** A modalidade leilão dispensa a publicação de edital de convocação em sítio eletrônico de livre acesso.
+---
+
+### Teste 081
+**(FGV – TRT-24 – Analista Judiciario Area Administrativa Contabilidade – 2025)**
+Uma entidade do setor público planeja realizar um trabalho de grande complexidade técnica. Para isso, deseja contratar um profissional técnico de notória especialização para compor a comissão de avaliação de critérios de técnica. Nesse caso, de acordo com a Lei nº 14.133/2021, a licitação é
+
+* **A)** dispensável.
+* **B)** obrigatória, em qualquer modalidade.
+* **C)** obrigatória, na modalidade concurso.
+* **D)** obrigatória, na modalidade concorrência.
+* **E)** obrigatória, na modalidade diálogo competitivo.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correto**. Pela Nova Lei de Licitações (art. 31 c/c art. 6º, XL), o Leilão tornou-se a modalidade unificada para alienação de quaisquer bens públicos: tanto bens móveis inservíveis ou legalmente apreendidos quanto bens imóveis da Administração Pública. A modalidade concorrência não é mais utilizada para alienação imobiliária.
-> - **B)** **Incorreto**. A regra anterior da Lei 8.666 que exigia concorrência para bens imóveis de maior valor foi superada pela NLLC.
-> - **C)** **Incorreto**. O art. 31, § 1º autoriza expressamente a condução do leilão por leiloeiro oficial ou por servidor designado pela Administração.
-> - **D)** **Incorreto**. A entrega dos bens leiloados subordina-se à comprovação do pagamento à vista ou caução do parcelamento legal.
-> - **E)** **Incorreto**. O edital do leilão deve ser divulgado no PNCP com antecedência mínima de 15 dias úteis (art. 54, § 1º).
+> - **A)** **Correta.** Conforme fundamentado na seção *5. Fontes Recomendadas na Internet* deste guia, lei Federal nº 14.133/2021 - Arts. 28 a 39 (Modalidades de Licitação e Critérios de Julgamento). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "dispensável".
+> - **B)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "obrigatória, em qualquer modalidade". De acordo com a teoria estudada em *2.1 Pregão: Bens e Serviços Comuns de Engenharia e Consumo*, objeto Mandatório (Art. 29): Modalidade de contratação obrigatória para bens e serviços comuns, incluindo expressamente os serviços comuns de engenharia (assim entendidos aqueles cujos padrões de desempenho e qualidade podem ser objetivamente descritos pelo edital por especificações usuais de mercado).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "obrigatória, na modalidade concurso". De acordo com a teoria estudada em *2.4 Leilão: A Nova Sistemática para Móveis Inservíveis e Imóveis*, objeto Unificado (Art. 28, § 2º c/c Art. 31): Modalidade obrigatória para alienação de bens móveis inservíveis ou apreendidos e de QUAISQUER BENS IMÓVEIS pertencentes ao Poder Público.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "obrigatória, na modalidade concorrência". De acordo com a teoria estudada em *2.2 Concorrência: Bens e Serviços Especiais e Obras*, objeto: Modalidade de licitação destinada à contratação de bens e serviços especiais, obras e serviços de engenharia comuns e especiais.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "obrigatória, na modalidade diálogo competitivo". De acordo com a teoria estudada em *2.5 Diálogo Competitivo: Inovação, Rito e Comissão Efetiva (Art. 32)*, modalidade moderna instituída pela NLLC, restrita a contratações de alta complexidade em que a Administração identifica uma necessidade pública, mas não possui capacidade técnica de definir previamente as especificações do objeto.
 >
 > **Gabarito: A**
-### Teste 084
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A nova Lei de Licitações e Contratos Administrativos (Lei Federal nº 14.133/2021) instituiu uma inovadora modalidade de licitação voltada para a contratação de obras, serviços e compras em que a Administração Pública busca desenvolver soluções complexas ou inovações tecnológicas diante da impossibilidade de definir previamente as especificações técnicas no mercado. 
 
-Essa modalidade licitatória denomina-se:
+---
 
-* **A)** leilão eletrônico.
-* **B)** concurso público de projetos.
-* **C)** credenciamento simplificado.
-* **D)** pré-qualificação técnica.
-* **E)** diálogo competitivo.
+### Teste 082
+**(FGV – TJ-MT – Analista Judiciario Tecnologia da Informacao – 2024)**
+O Tribunal de Justiça do Estado Alfa pretende adquirir, mediante licitação, milhares de rolos de papel higiênico, com o objetivo de os distribuir para todos os cartórios e gabinetes dos juízos em âmbito estadual. Em síntese, busca-se a aquisição de bens comuns, sendo certo que será adotado, na licitação, o critério de julgamento do menor preço. Nesse cenário, considerando as disposições da Lei nº 14.133/2021, é correto afirmar que o Tribunal de Justiça do Estado Alfa adotará a seguinte modalidade de licitação:
+
+* **A)** diálogo competitivo.
+* **B)** credenciamento.
+* **C)** pré-qualificação.
+* **D)** pregão.
+* **E)** leilão.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. O leilão presta-se à alienação de bens públicos.
-> - **B)** **Incorreto**. O concurso destina-se a trabalhos científicos, técnicos ou artísticos com prêmio.
-> - **C)** **Incorreto**. O credenciamento é procedimento auxiliar de contratação (art. 78 da NLLC).
-> - **D)** **Incorreto**. A pré-qualificação é procedimento preparatório/auxiliar subjetivo e objetivo.
-> - **E)** **Correto**. O Diálogo Competitivo é a modalidade de licitação introduzida pelo art. 6º, XLII e disciplinada no art. 32 da Lei nº 14.133/2021 para "contratação de obras, serviços e compras em que a Administração Pública realiza diálogos com licitantes previamente selecionados mediante critérios objetivos, com o intuito de desenvolver uma ou mais alternativas capazes de atender às suas necessidades, devendo os licitantes apresentar proposta final após o encerramento dos diálogos". Aplica-se a inovações tecnológicas e soluções técnicas complexas.
+> - **A)** **Correta.** Conforme fundamentado na seção *5. Fontes Recomendadas na Internet* deste guia, dI PIETRO, Maria Sylvia Zanella. Direito Administrativo. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 9 - Modalidades Licitatórias, Diálogo Competitivo, Leilão e Procedimento da Lei 14.133/2021). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-MT/2024) ao estabelecer que "diálogo competitivo".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "credenciamento". De acordo com a teoria estudada em *2.5 Diálogo Competitivo: Inovação, Rito e Comissão Efetiva (Art. 32)*, modalidade moderna instituída pela NLLC, restrita a contratações de alta complexidade em que a Administração identifica uma necessidade pública, mas não possui capacidade técnica de definir previamente as especificações do objeto.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pré-qualificação". De acordo com a teoria estudada em *2.5 Diálogo Competitivo: Inovação, Rito e Comissão Efetiva (Art. 32)*, *Fase de Diálogos:* O edital publica os objetivos do órgão; os licitantes pré-selecionados debatem com a comissão técnica em reuniões gravadas para construir alternativas metodológicas.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pregão". De acordo com a teoria estudada em *5. Fontes Recomendadas na Internet*, regramento do pregão, concorrência, concurso, leilão e diálogo competitivo, bem como dos seis critérios de julgamento.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "leilão". De acordo com a teoria estudada em *2.5 Diálogo Competitivo: Inovação, Rito e Comissão Efetiva (Art. 32)*, hipóteses de Cabimento: Inovação tecnológica; complexidade de engenharia ou software; impossibilidade de adaptar soluções de mercado existentes.
+>
+> **Gabarito: A**
+
+---
+
+### Teste 083
+**(FCC – TCE-GO – Analista de Controle Externo Gestao de Conhecimento – 2009)**
+A modalidade de licitação em que a disputa pelo fornecimento de bens ou serviços comuns é feita em sessão pública, por meio de propostas de preços escritas e lances verbais, denomina-se
+
+* **A)** convite.
+* **B)** registro de preço.
+* **C)** leilão.
+* **D)** tomada de preço.
+* **E)** pregão.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "convite". De acordo com a teoria estudada em *2.6 A Extinção Definitiva da Tomada de Preços e do Convite*, a NLLC extinguiu formal e definitivamente as modalidades Tomada de Preços e Convite. Na nova ordem jurídica, as modalidades são delimitadas estritamente pela natureza do objeto, e jamais pelo valor econômico da contratação.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "registro de preço". De acordo com a teoria estudada em *2.1 Pregão: Bens e Serviços Comuns de Engenharia e Consumo*, critérios de Julgamento Permitidos: Unicamente Menor Preço ou Maior Desconto.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "leilão". De acordo com a teoria estudada em *2.1 Pregão: Bens e Serviços Comuns de Engenharia e Consumo*, condução: Conduzido pelo Pregoeiro, com auxílio da equipe de apoio.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "tomada de preço". De acordo com a teoria estudada em *4.2 Prazos Mínimos de Apresentação de Propostas (Art. 55)*, bens Comuns (Menor Preço ou Maior Desconto): Pregão — 8 dias úteis.
+> - **E)** **Correta.** Conforme fundamentado na seção *2.1 Pregão: Bens e Serviços Comuns de Engenharia e Consumo* deste guia, objeto Mandatório (Art. 29): Modalidade de contratação obrigatória para bens e serviços comuns, incluindo expressamente os serviços comuns de engenharia (assim entendidos aqueles cujos padrões de desempenho e qualidade podem ser objetivamente descritos pelo edital por especificações usuais de mercado). Dessa forma, está plenamente correta a assertiva da banca (FCC – TCE-GO/2009) ao estabelecer que "pregão".
 >
 > **Gabarito: E**
+
+---
+
+### Teste 084
+**(FGV – TCE-GO – Analista de Controle Externo Controle Externo – 2024)**
+Após a fase de habilitação em determinado procedimento licitatório, realizado na modalidade concorrência, que seguiu a sequência estabelecida como regra na Lei nº 14.133/2021, surgiram dúvidas sobre o adequado encadeamento do certame, bem como quanto à viabilidade de apresentação de recursos administrativos, assim também acerca das peculiaridades das irresignações previstas na aludida norma. Nesse contexto, considerando o disposto no mencionado Diploma Legal, é correto afirmar que a fase de habilitação em questão
+
+* **A)** é seguida da fase de julgamento, sendo certo que essa última só pode ser realizada após a apreciação dos recursos apresentados na fase anterior, diante de efeito suspensivo conferido às irresignações formuladas durante o procedimento.
+* **B)** é seguida da apreciação dos respectivos recursos, sendo certo que aqueles atinentes ao julgamento das propostas já foram examinados, antes da habilitação, diante do efeito suspensivo de tais irresignações em sede administrativa.
+* **C)** é seguida da homologação do certame, momento em que serão apreciados os recursos contra a habilitação e julgamento, mesmo que, em regra, tais irresignações não tenham efeito suspensivo, para que então possa ser promovido o encerramento do procedimento licitatório.
+* **D)** é seguida da recursal, sendo certo que os recursos são dotados de efeito suspensivo e apreciados em fase única quanto às questões atinentes à habilitação e ao julgamento, dependendo, no entanto, da imediata manifestação da intenção de recorrer, sob pena de preclusão.
+* **E)** é seguida da fase de encerramento, que poderá resultar na homologação, anulação ou revogação da licitação, independentemente da apreciação de recursos administrativos quanto as questões atinentes à habilitação e ao julgamento, que não são dotados de efeito suspensivo.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *1.2 A Inversão de Fases e a Habilitação Exclusiva do Vencedor* deste guia, exceção de Habilitação Prévia (Art. 17, § 1º): A inversão pode ser excepcionada (realizando-se a habilitação antes do julgamento das propostas), desde que haja motivação expressa de interesse público na fase preparatória e prévia previsão no edital. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "é seguida da fase de julgamento, sendo certo que essa última só pode ser realizada após a apreciação dos recursos...".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é seguida da apreciação dos respectivos recursos, sendo certo que aqueles atinentes ao julgamento das propostas já...". De acordo com a teoria estudada em *1.2 A Inversão de Fases e a Habilitação Exclusiva do Vencedor*, julgamento Antes da Habilitação: Em vez de abrir os envelopes documentais de dezenas de licitantes antes de conhecer seus preços (modelo da Lei 8.666/93), a Administração Pública classifica primeiro as propostas de preços/técnica.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é seguida da homologação do certame, momento em que serão apreciados os recursos contra a habilitação e...". De acordo com a teoria estudada em *1.3 Fase Recursal Única e Concentrada (Art. 165)*, existe uma Fase Recursal ÚNICA e concentrada ao final do certame, deflagrada logo após a declaração do vencedor habilitado.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é seguida da recursal, sendo certo que os recursos são dotados de efeito suspensivo e apreciados em fase única...". De acordo com a teoria estudada em *1.3 Fase Recursal Única e Concentrada (Art. 165)*, o licitante que discordar de qualquer decisão deve manifestar imediatamente sua intenção de recorrer sob pena de preclusão, dispondo do prazo de 3 (três) dias úteis para apresentação das razões recursais, abrangendo indistintamente matérias de julgamento de propostas e de habilitação.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é seguida da fase de encerramento, que poderá resultar na homologação, anulação ou revogação da licitação...". De acordo com a teoria estudada em *1.3 Fase Recursal Única e Concentrada (Art. 165)*, na sistemática da NLLC, os recursos administrativos não são mais interpostos de forma fracionada ao término de cada etapa.
+>
+> **Gabarito: A**
+
+---
+
 ## 3. Critérios de Julgamento das Propostas (Art. 33)
 
 O art. 33 da Lei nº 14.133/2021 estabelece os critérios objetivos de julgamento que devem constar obrigatoriamente do edital:
@@ -366,49 +388,53 @@ Critério inovador privativo da celebração de **Contratos de Eficiência**:
 ---
 
 ### Teste 085
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Na disciplina dos critérios de julgamento estabelecidos no art. 33 da Lei Federal nº 14.133/2021, o julgamento das propostas dos licitantes pode adotar diferentes parâmetros de vantajabilidade. A respeito desses critérios, assinale a afirmativa correta:
+**(IBFC – TJ-MG – Analista Judiciario Classe C Analista de Tecnologia da Informacao – 2022)**
+Conforme a Lei de Licitações e Contratos Administrativos (Lei nº 14.133/2021), assinale a alternativa incorreta.
 
-* **A)** O critério de maior desconto aplica-se a serviços comuns, tendo como base o preço global fixado no edital.
-* **B)** O critério de menor preço avalia exclusivamente a menor despesa nominal sem admitir custos de manutenção.
-* **C)** O critério de melhor técnica pode ser utilizado no pregão para seleção de softwares proprietários comuns.
-* **D)** O critério de maior lance destina-se ao diálogo competitivo para celebração de parcerias de grande vulto.
-* **E)** O critério de melhor técnica dispensa a fixação de valor prêmio fixo no instrumento convocatório do certame.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correto**. O art. 34 da Lei nº 14.133/2021 define que o julgamento por maior desconto terá como referência o preço global fixado no edital de licitação, e o desconto será estendido aos eventuais termos aditivos. Aplica-se tanto a bens e serviços no pregão e na concorrência quanto em tabelas referenciais de preços.
-> - **B)** **Incorreto**. O art. 34, § 1º autoriza expressamente a apuração do menor preço considerando os custos indiretos e de ciclo de vida do objeto.
-> - **C)** **Incorreto**. O pregão admite unicamente os critérios de menor preço e maior desconto (art. 34, § 2º).
-> - **D)** **Incorreto**. Maior lance é critério exclusivo da modalidade leilão.
-> - **E)** **Incorreto**. O critério de melhor técnica (quando em concurso) exige a fixação do prêmio no edital.
->
-> **Gabarito: A**
-### Teste 086
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Determinada entidade governamental pretende licitar a modernização do parque de iluminação pública e climatização de prédios estaduais mediante celebração de contrato de eficiência, em que a remuneração do particular contratado será proporcional à economia orçamentária gerada para o erário. 
-
-Nos termos do art. 39 da Lei nº 14.133/2021, o critério de julgamento adequado para o contrato de eficiência é o de:
-
-* **A)** melhor técnica ou conteúdo artístico.
-* **B)** maior retorno econômico ao erário.
-* **C)** menor preço com desconsideração de custos.
-* **D)** maior desconto sobre taxa de amortização.
-* **E)** técnica e preço com pontuação de marca.
+* **A)** O edital de licitação poderá, na forma disposta em regulamento, exigir que percentual mínimo da mão de obra responsável pela execução do objeto da contratação seja constituído por mulheres vítimas de violência doméstica ou de indivíduos oriundos ou egressos do sistema prisional
+* **B)** No julgamento das propostas por técnica e preço, deverão ser avaliadas e ponderadas as propostas técnicas e, em seguida, as propostas de preço apresentadas pelos licitantes, na proporção máxima de 65% (sessenta e cinco por cento) de valoração para a proposta técnica
+* **C)** Na hipótese de aquisição de bens, os prazos mínimos para apresentação de propostas e lances, contados a partir da data de divulgação do edital de licitação, são de 8 (oito) dias úteis, quando adotados os critérios de julgamento de menor preço ou de maior desconto
+* **D)** Poderá ser exigida, no momento da apresentação da proposta, a comprovação do recolhimento de quantia a título de garantia de proposta, como requisito de pré-habilitação. A garantia de proposta será devolvida aos licitantes no prazo de 10 (dez) dias úteis, contado da assinatura do contrato ou da data em que for declarada fracassada a licitação
+* **E)** A Administração, nas compras para entrega futura e na execução de obras e serviços, poderá estabelecer no edital a exigência de capital mínimo ou de patrimônio líquido mínimo equivalente a até 10% (dez por cento) do valor estimado da contratação
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. O critério de técnica aplica-se a serviços intelectuais ou concursos artísticos.
-> - **B)** **Correto**. O art. 39 da Lei nº 14.133/2021 preconiza expressamente que o julgamento por maior retorno econômico, utilizado exclusivamente para a celebração de contrato de eficiência, considerará a maior economia para a Administração, e a remuneração deverá ser fixada em percentual que incidirá de forma proporcional sobre a economia efetivamente gerada durante a vigência do contrato.
-> - **C)** **Incorreto**. O critério de menor preço não capta a economia gerada no tempo como base da remuneração de eficiência.
-> - **D)** **Incorreto**. O maior desconto incide sobre tabelas e compras convencionais, não sobre o modelo de eficiência energética/gestão.
-> - **E)** **Incorreto**. É vedada a preferência ou pontuação de marcas comerciais sem padronização prévia motivada.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O edital de licitação poderá, na forma disposta em regulamento, exigir que percentual mínimo da mão de obra...". De acordo com a teoria estudada em *3.3 Técnica e Preço e o Limite de Ponderação*, pondera a pontuação da proposta técnica combinada com a proposta de preço dos licitantes, atribuindo-se pesos específicos no edital.
+> - **B)** **Correta.** Conforme fundamentado na seção *3.3 Técnica e Preço e o Limite de Ponderação* deste guia, limite Legal de Ponderação (Art. 36, § 1º): A pontuação atribuída à valoração técnica não pode ultrapassar o teto máximo de 70% (setenta por cento) da pontuação total. Dessa forma, está plenamente correta a assertiva da banca (IBFC – TJ-MG/2022) ao estabelecer que "No julgamento das propostas por técnica e preço, deverão ser avaliadas e ponderadas as propostas técnicas e, em...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Na hipótese de aquisição de bens, os prazos mínimos para apresentação de propostas e lances, contados a partir da...". De acordo com a teoria estudada em *4.2 Prazos Mínimos de Apresentação de Propostas (Art. 55)*, os prazos mínimos de divulgação do edital contam-se a partir da data de publicação no PNCP.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Poderá ser exigida, no momento da apresentação da proposta, a comprovação do recolhimento de quantia a título de...". De acordo com a teoria estudada em *1.3 Fase Recursal Única e Concentrada (Art. 165)*, o licitante que discordar de qualquer decisão deve manifestar imediatamente sua intenção de recorrer sob pena de preclusão, dispondo do prazo de 3 (três) dias úteis para apresentação das razões recursais, abrangendo indistintamente matérias de julgamento de propostas e de habilitação.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A Administração, nas compras para entrega futura e na execução de obras e serviços, poderá estabelecer no edital a...". De acordo com a teoria estudada em *1.2 A Inversão de Fases e a Habilitação Exclusiva do Vencedor*, julgamento Antes da Habilitação: Em vez de abrir os envelopes documentais de dezenas de licitantes antes de conhecer seus preços (modelo da Lei 8.666/93), a Administração Pública classifica primeiro as propostas de preços/técnica.
 >
 > **Gabarito: B**
+
+---
+
+### Teste 086
+**(FCC – TCE-GO – Analista de Controle Externo Gestao de Conhecimento – 2009)**
+A modalidade de Licitação para registro de preços, realizada a critério do órgão gerenciador e mediante despacho devidamente fundamentado da autoridade máxima do órgão ou da entidade, é
+
+* **A)** a tomada de preço.
+* **B)** a concorrência do tipo técnica e preço.
+* **C)** a tomada de preço do tipo técnica e preço.
+* **D)** o pregão do tipo técnica e preço.
+* **E)** a tomada de preço do menor preço.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a tomada de preço". De acordo com a teoria estudada em *2.6 A Extinção Definitiva da Tomada de Preços e do Convite*, a NLLC extinguiu formal e definitivamente as modalidades Tomada de Preços e Convite. Na nova ordem jurídica, as modalidades são delimitadas estritamente pela natureza do objeto, e jamais pelo valor econômico da contratação.
+> - **B)** **Correta.** Conforme fundamentado na seção *2.2 Concorrência: Bens e Serviços Especiais e Obras* deste guia, critérios de Julgamento: Ampla flexibilidade, admitindo Menor Preço, Maior Desconto, Melhor Técnica, Técnica e Preço e Maior Retorno Econômico. Dessa forma, está plenamente correta a assertiva da banca (FCC – TCE-GO/2009) ao estabelecer que "a concorrência do tipo técnica e preço".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a tomada de preço do tipo técnica e preço". De acordo com a teoria estudada em *3.1 Menor Preço e Maior Desconto*, maior Desconto: O licitante oferece o maior percentual de abatimento linear sobre uma tabela referencial de preços previamente divulgada pelo órgão no edital (muito comum em manutenção automotiva e compra de medicamentos).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o pregão do tipo técnica e preço". De acordo com a teoria estudada em *4.2 Prazos Mínimos de Apresentação de Propostas (Art. 55)*, serviços Comuns e Obras Comuns de Engenharia: Pregão ou Concorrência — 10 dias úteis.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a tomada de preço do menor preço". De acordo com a teoria estudada em *4.1 Modos de Disputa: Aberto, Fechado e Combinações (Art. 56)*, é proibida a utilização isolada do modo de disputa fechado quando o critério de julgamento for Menor Preço ou Maior Desconto.
+>
+> **Gabarito: B**
+
+---
+
 ## 4. Modos de Disputa e Prazos Mínimos de Divulgação do Edital
 
 ### 4.1 Modos de Disputa: Aberto, Fechado e Combinações (Art. 56)
@@ -439,26 +465,29 @@ Os prazos mínimos de divulgação do edital contam-se a partir da data de publi
 ---
 
 ### Teste 087
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Os modos de disputa na Lei Federal nº 14.133/2021 podem ser aberto, fechado ou combinado, conforme preceitua o art. 56. A respeito da disciplina normativa dos modos de disputa nas licitações públicas, assinale a opção correta:
+**(FCC – TRT-24 – Analista Judiciario Tecnologia da Informacao – 2017)**
+Em determinada semana o preço do tomate é 80% do preço da batata. Na semana seguinte o preço da batata cai 48% e o preço do tomate sobe 30%. Nessa segunda situação, para que o preço da batata se iguale ao preço do tomate, ele deverá subir
 
-* **A)** O modo de disputa aberto admite o envio de propostas sigilosas até a abertura simultânea pelo pregoeiro.
-* **B)** É vedada a utilização isolada do modo de disputa fechado quando a licitação adotar o critério de menor preço.
-* **C)** O modo combinado exige sempre que a fase aberta com lances sucessivos ocorra antes da proposta sigilosa.
-* **D)** O modo de disputa aberto é proibido nas licitações processadas sob a modalidade pregão eletrônico.
-* **E)** O edital não pode fixar intervalo mínimo de diferença de valores ou de percentuais entre os lances sucessivos.
+* **A)** 75%.
+* **B)** 50%.
+* **C)** 80%.
+* **D)** 100%.
+* **E)** 90%.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. No modo aberto, os licitantes apresentam lances públicos e sucessivos, crescentes ou decrescentes.
-> - **B)** **Correto**. O art. 56, § 1º, da Lei nº 14.133/2021 estabelece que "a utilização do modo de disputa aberto será vedada quando for adotado o critério de julgamento de técnica e preço; e a utilização isolada do modo de disputa fechado será vedada quando adotados os critérios de julgamento de menor preço ou de maior desconto". Exige-se disputa aberta para ampliar a concorrência em menor preço.
-> - **C)** **Incorreto**. O modo combinado admite tanto aberto-fechado quanto fechado-aberto (art. 56, § 2º).
-> - **D)** **Incorreto**. O modo aberto é a forma padrão e primordial utilizada no pregão eletrônico.
-> - **E)** **Incorreto**. O art. 57 autoriza o edital a estabelecer intervalo mínimo de diferença de valores entre lances.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "75%". De acordo com a teoria estudada em *4.2 Prazos Mínimos de Apresentação de Propostas (Art. 55)*, bens Comuns (Menor Preço ou Maior Desconto): Pregão — 8 dias úteis.
+> - **B)** **Correta.** Conforme fundamentado na seção *4.1 Modos de Disputa: Aberto, Fechado e Combinações (Art. 56)* deste guia, é proibida a utilização isolada do modo de disputa fechado quando o critério de julgamento for Menor Preço ou Maior Desconto. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-24/2017) ao estabelecer que "50%".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "80%". De acordo com a teoria estudada em *4.2 Prazos Mínimos de Apresentação de Propostas (Art. 55)*, obras com Regime de Empreitada por Preço Global: Concorrência — 25 dias úteis.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "100%". De acordo com a teoria estudada em *2.1 Pregão: Bens e Serviços Comuns de Engenharia e Consumo*, critérios de Julgamento Permitidos: Unicamente Menor Preço ou Maior Desconto.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "90%". De acordo com a teoria estudada em *2.2 Concorrência: Bens e Serviços Especiais e Obras*, critérios de Julgamento: Ampla flexibilidade, admitindo Menor Preço, Maior Desconto, Melhor Técnica, Técnica e Preço e Maior Retorno Econômico.
 >
 > **Gabarito: B**
+
+---
+
 ## 5. Fontes Recomendadas na Internet
 
 - [Lei Federal nº 14.133/2021 - Arts. 17 a 27 (Fases do Processo Licitatório e Inversão de Fases)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art17)  

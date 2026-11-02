@@ -153,26 +153,26 @@ Monossílabos tônicos terminados em *-i* ou *-u* (*ti, vi, tu, cru, nus*) não 
 ---
 
 ### Teste 012
-**(FGV – TJ-RR – Analista Judiciário (TI) – 2024)**  
-A contracapa do Minidicionário da Língua Portuguesa, de autoria de Evanildo Bechara, traz o seguinte: Elaborado pelo prof. Evanildo Bechara, o único representante da ABL no novo Acordo Ortográfico. Muito fácil de consultar. Todas as palavras alteradas pela Reforma Ortográfica vêm assinaladas. Mais de 30 mil palavras e locuções. Regionalismos, estrangeirismos e siglas. Assinale a opção que não mostra uma vantagem que está explícita ou implicitamente aí indicada.
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Direito – 2026)**
+A língua portuguesa contém vocábulos com três acentuações tônicas: oxítonas, paroxítonas e proparoxítonas. Entre as opções abaixo, assinale aquela que mostra dois vocábulos com idêntica acentuação tônica (as palavras estão propositalmente sem acentos gráficos).
 
-* **A)** Grande número de vocábulos incluídos na obra.
-* **B)** Classificação gramatical dos vocábulos.
-* **C)** Facilidade de acesso à obra.
-* **D)** Informações de qualidade diferenciada.
-* **E)** Informações atuais sobre palavras.
+* **A)** interim / decano.
+* **B)** prototipo / gratuito.
+* **C)** pesames / carater.
+* **D)** filantropo / maquinaria.
+* **E)** hipodromo / futil.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A obra explicita 'Mais de 30 mil palavras e locuções', o que comprova grande quantidade de vocábulos.
-> - **B)** Correta. O texto da contracapa elenca facilidade de consulta, indicação da reforma ortográfica, volume lexical e tipos de termos, mas não menciona a inclusão da classe ou classificação gramatical de cada termo.
-> - **C)** Incorreta. A facilidade de acesso está evidente em 'Muito fácil de consultar'.
-> - **D)** Incorreta. A autoria do prof. Evanildo Bechara ('único representante da ABL no novo Acordo') confere chancela de qualidade diferenciada.
-> - **E)** Incorreta. As informações atuais sobre o léxico são expressas em 'Todas as palavras alteradas pela Reforma Ortográfica vêm assinaladas'.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "interim / decano". De acordo com a teoria estudada em *1. Sistema Geral de Acentuação Gráfica e Acordo Ortográfico*, a estrutura acentual do idioma apoia-se em um princípio de economia: a grande maioria dos vocábulos da língua portuguesa é paroxítona terminada nas vogais mais comuns (*-a*, *-e*, *-o* seguidas ou não de *-s*).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "prototipo / gratuito". De acordo com a teoria estudada em *1.1 Posição da Sílaba Tônica e Tonicidade Vocálica*, proparoxítonas (ou proparoxítonos): a sílaba tônica situa-se na antepenúltima posição (*lâmp-a-da*, *ár-vo-re*, *vér-ti-ce*). Na língua portuguesa, nenhuma palavra de padrão vernáculo recebe tonicidade anterior à antepenúltima sílaba.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pesames / carater". De acordo com a teoria estudada em *1.3 Regra das Paroxítonas e Ditongos Orais*, r: *revólver, açúcar, caráter, cadáver, éter*.
+> - **D)** **Correta.** Conforme fundamentado na seção *1. Sistema Geral de Acentuação Gráfica e Acordo Ortográfico* deste guia, a acentuação gráfica na língua portuguesa tem por objetivo assinalar, na escrita, a sílaba de maior intensidade fonética (sílaba tônica) de determinadas palavras e, em situações específicas, indicar o timbre aberto ou fechado da vogal. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "filantropo / maquinaria".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "hipodromo / futil". De acordo com a teoria estudada em *1. Sistema Geral de Acentuação Gráfica e Acordo Ortográfico*, o sistema gráfico oficial brasileiro é regido pelo Acordo Ortográfico da Língua Portuguesa de 1990, promulgado no território nacional pelo Decreto nº 6.583/2008 e tornado obrigatório a partir de 1º de janeiro de 2016.
 >
-> **Gabarito: B**
+> **Gabarito: D**
 
 ---
 
@@ -239,26 +239,26 @@ O Novo Acordo Ortográfico eliminou a quase totalidade dos acentos diferenciais 
 ---
 
 ### Teste 013
-**(FGV – TRT-24 – Analista Judiciário (TI) – 2025)**  
-No fragmento a seguir, “...presta também um grande serviço à medicina.” o uso do acento grave indicativo da crase está correto. Assinale a frase em que a utilização do acento grave indicativo da crase também está correta.
+**(FGV – TJ-RR – Analista Judiciario Gestao e Governanca de Tecnologia da Informacao – 2024)**
+A contracapa do Minidicionário da Língua Portuguesa, de autoria de Evanildo Bechara, traz o seguinte: Elaborado pelo prof. Evanildo Bechara, o único representante da ABL no novo Acordo Ortográfico. Muito fácil de consultar. Todas as palavras alteradas pela Reforma Ortográfica vêm assinaladas. Mais de 30 mil palavras e locuções. Regionalismos, estrangeirismos e siglas. Assinale a opção que não mostra uma vantagem que está explícita ou implicitamente aí indicada.
 
-* **A)** Todos queriam ver à cena de perto.
-* **B)** Não à mal que sempre dure.
-* **C)** Assistiu à cena e se maravilhou.
-* **D)** Observou à paisagem de longe.
-* **E)** Falava palavrões à torto e a direito. Tribunal Regional do Trabalho da 24ª Região (TRT-24) FGV CONHECIMENTO Técnico Judiciário – Área Administrativa - Sem Especialidade – TARDE  TIPO BRANCA – PÁGINA 4
+* **A)** Grande número de vocábulos incluídos na obra.
+* **B)** Classificação gramatical dos vocábulos.
+* **C)** Facilidade de acesso à obra.
+* **D)** Informações de qualidade diferenciada.
+* **E)** Informações atuais sobre palavras.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O termo 'medicina' admite artigo definido feminino ('a medicina'), justificando a crase pela fusão preposição + artigo.
-> - **B)** Incorreta. Antes de substantivos masculinos ou verbos não ocorre acento grave indicativo de crase.
-> - **C)** Correta. O verbo 'prestar' exige preposição 'a' (prestar algo 'a' alguém/algo) e 'medicina' é substantivo feminino que admite artigo 'a', formando a contração 'à'.
-> - **D)** Incorreta. A regra de regência e acentuação gráfica é geral e não facultativa nesse contexto.
-> - **E)** Incorreta. Não se trata de locução adverbial de modo, mas de complemento regido por preposição.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Grande número de vocábulos incluídos na obra". De acordo com a teoria estudada em *1. Sistema Geral de Acentuação Gráfica e Acordo Ortográfico*, a estrutura acentual do idioma apoia-se em um princípio de economia: a grande maioria dos vocábulos da língua portuguesa é paroxítona terminada nas vogais mais comuns (*-a*, *-e*, *-o* seguidas ou não de *-s*).
+> - **B)** **Correta.** Conforme fundamentado na seção *1.2 Regra das Proparoxítonas e Proparoxítonas Eventuais na FCC* deste guia, visão Tradicional (Paroxítonas Terminadas em Ditongo): Autores como Evanildo Bechara e a ABL registram primordialmente que tais vocábulos são paroxítonos, pois na linguagem fluida a semivogal e a vogal final formam uma única sílaba (*re-la-tó-rio*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-RR/2024) ao estabelecer que "Classificação gramatical dos vocábulos".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Facilidade de acesso à obra". De acordo com a teoria estudada em *1.2 Regra das Proparoxítonas e Proparoxítonas Eventuais na FCC*, a regra basilar do idioma determina que todas as palavras proparoxítonas reais são acentuadas graficamente, sem exceção, sejam elas de origem vernácula ou vocábulos latinos e estrangeiros aportuguesados que se integraram ao léxico (*médico*, *álvoroço*, *espírito*, *déficit*, *superávit*, *habitat*).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Informações de qualidade diferenciada". De acordo com a teoria estudada em *2. Regras Especiais de Acentuação*, além das regras gerais dependentes unicamente da terminação e da contagem silábica, o português adota regras que consideram a qualidade do encontro vocálico e a necessidade de desambiguação morfológica.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Informações atuais sobre palavras". De acordo com a teoria estudada em *1. Sistema Geral de Acentuação Gráfica e Acordo Ortográfico*, por essa razão estatística, tais vocábulos não recebem acento gráfico (como em *mesa*, *parede*, *livro*). O acento é reservado àquelas palavras cuja terminação ou estrutura silábica contraria o padrão fonológico predominante.
 >
-> **Gabarito: C**
+> **Gabarito: B**
 
 ---
 
@@ -340,50 +340,50 @@ Entretanto, o Acordo Ortográfico determinou o **fim do hífen nas locuções de
 ---
 
 ### Teste 014
-**(FGV – TRT – Analista Judiciário (TI) – 2024)**  
-Assinale a opção em que os termos estão em paralelismo sintático, ou seja, apresentam segmentos estruturalmente idênticos.
+**(FGV – TCE-GO – Analista de Controle Externo Ciencias Contabeis – 2024)**
+Entre as opções a seguir, assinale aquela que mostra o acento grave indicativo da crase num contexto em que seu uso é optativo.
 
-* **A)** Viajarei pela Europa, conhecerei Paris e voltarei feliz da vida.
-* **B)** Pelas notícias de ontem, o jornal de hoje faz temer as de amanhã.
-* **C)** A imprensa mente, deturpa os fatos e agride o vernáculo.
-* **D)** A conversação não é apenas dizer a coisa certa no momento certo, mas não dizer o que está errado no momento preciso.
-* **E)** O amor é mais precioso que a vida, e a honra é mais preciosa que o dinheiro.
+* **A)** Quanto mais felizes somos, menos atenção prestamos à nossa felicidade.
+* **B)** De todos os caminhos que conduzem à riqueza, os mais seguros são a perseverança e o trabalho.
+* **C)** Se achares três mil-réis, leva-os à polícia; se achares três contos leva-os a um banco.
+* **D)** Derrote o medo da morte e dê boas-vindas à morte do medo.
+* **E)** Tudo o que vem da terra volta à terra e o que vem das águas volta ao mar.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. 'Irritado' indica estado transitório da pessoa, e não qualidade permanente.
-> - **B)** Incorreta. 'Difícil' expressa uma característica intrínseca do objeto ou tarefa.
-> - **C)** Incorreta. 'Sábios' e 'imbecis' funcionam como qualificadores/características predicativas.
-> - **D)** Incorreta. 'Instintivo' expressa característica essencial da mente humana.
-> - **E)** Incorreta. 'Sábios' qualifica os homens de maneira atributiva.
+> - **A)** **Correta.** Conforme fundamentado na seção *3.3 Prefixos Especiais, Acentuados e Casos de Aglutinação Forçada* deste guia, atenção: se o elemento for átono e sem acento próprio, aglutina-se sem hífen: *proativo, predeterminado, pospor*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "Quanto mais felizes somos, menos atenção prestamos à nossa felicidade".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "De todos os caminhos que conduzem à riqueza, os mais seguros são a perseverança e o trabalho". De acordo com a teoria estudada em *3.1 Regra Geral dos Opostos e Casos com Consoante H*, com o prefixo *sub-*, o vocabulário oficial registra tanto a forma hifenizada *sub-humano* quanto a forma aglutinada sem H *subumano*. A FCC costuma cobrar preferencialmente a forma geral hifenizada (*sub-humano*).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Se achares três mil-réis, leva-os à polícia; se achares três contos leva-os a um banco". De acordo com a teoria estudada em *1.3 Regra das Paroxítonas e Ditongos Orais*, n: *pólen, hífen, cânon, elétron* (Atenção: o plural dessas palavras perde o acento, pois termina em *-ens*: *polens, hifens, canons, eletrons* — ver alerta abaixo).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Derrote o medo da morte e dê boas-vindas à morte do medo". De acordo com a teoria estudada em *5.3 Desinências Nominais e Desinências Verbais*, modo-Temporais (DMT): Indicam o tempo cronológico e o modo em que se desenvolve a ação verbal (*cant-`<ins>`va`</ins>`-mos* [pretérito imperfeito do indicativo]; *cant-a-`<ins>`sse`</ins>`-mos* [pretérito imperfeito do subjuntivo]; *cant-a-`<ins>`ra`</ins>`-mos* [pretérito mais-que-perfeito]).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Tudo o que vem da terra volta à terra e o que vem das águas volta ao mar". De acordo com a teoria estudada em *3.3 Prefixos Especiais, Acentuados e Casos de Aglutinação Forçada*, *ex-diretor, ex-presidente, vice-governador, sem-terra, além-mar, aquém-fronteiras, recém-empossado, pós-graduação, pré-edital, pró-ativo*.
 >
-> **Gabarito: E**
+> **Gabarito: A**
 
 ---
 
 ### Teste 015
-**(FGV – TRT – Analista Judiciário (TI) – 2024)**  
-Assinale a opção em que a frase inicial, introduzida pela conjunção “se”, não apresenta valor de condição.
+**(FGV – TJ-BA – Analista Judiciario Tecnologia da Informacao – 2015)**
+No texto 1, a palavra “bem-intencionada” aparece grafada com hífen; o Novo Acordo Ortográfico diz que “Nas palavras em que o primeiro elemento é bem-, a regra geral é o emprego do hífen, não importando se o segundo elemento começa por vogal ou consoante”. Sobre esse caso, a afirmação correta é:
 
-* **A)** Se a voz do povo é a voz de Deus, começo a pressupor que Deus é um sujeito muito calado.
-* **B)** Se os homens são tão maus com o auxílio da religião, como seriam sem ela?
-* **C)** Se os homens tivessem verdadeiramente convicção de sua fé, seriam todos santos.
-* **D)** Se quiserdes saber o que Deus pensa do dinheiro, é só olhar a quem Ele o dá.
-* **E)** Se existe Deus, por que há coisas como a fome e os horários políticos na televisão?
+* **A)** a palavra foi mal grafada, pois deve ser escrita sem hífen;
+* **B)** a palavra foi bem grafada já que se trata da junção de um advérbio de modo + adjetivo;
+* **C)** a palavra foi bem grafada, pois se trata de um adjetivo composto com um elemento de valor prefixal;
+* **D)** a palavra foi mal grafada, visto que não se trata de um vocábulo, mas de dois;
+* **E)** a palavra foi bem grafada, pois houve mudanças nesse
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A estrutura quebra a simetria ao misturar predicações verbais heterogêneas.
-> - **B)** Incorreta. As estruturas temporais não apresentam equivalência morfossintática estrita.
-> - **C)** Incorreta. Apresenta orações coordenadas assindéticas sem equivalência de termos internos.
-> - **D)** Incorreta. A coordenação correlativa contrapõe orações com estruturas sintáticas dispares.
-> - **E)** Correta. Ambas as orações coordenadas apresentam rigorosa simetria sintática: [Sujeito + Verbo de ligação + Predicativo comparativo]: 'O amor é mais precioso que a vida' // 'a honra é mais preciosa que o dinheiro'.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a palavra foi mal grafada, pois deve ser escrita sem hífen". De acordo com a teoria estudada em *3.1 Regra Geral dos Opostos e Casos com Consoante H*, segundo Elemento Iniciado por Consoante H: O fonema inicial mudo da letra *h* não admite fusão ortográfica direta com prefixos na língua padrão. Logo, diante de palavra iniciada por *h*, o uso do hífen é sempre obrigatório, qualquer que seja o prefixo.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a palavra foi bem grafada já que se trata da junção de um advérbio de modo + adjetivo". De acordo com a teoria estudada em *5.2 Tema e Afixos Formadores (Prefixos e Sufixos)*, sufixos: Morfemas pospostos ao radical, possuindo alta capacidade de converter a palavra em outra classe gramatical: *leal \$\rightarrow\$ leal-`<ins>`dade`</ins>`* (adjetivo em substantivo); *atual \$\rightarrow\$ atual-`<ins>`izar`</ins>`* (adjetivo em verbo); *rápido \$\rightarrow\$ rapida-`<ins>`mente`</ins>`* (adjetivo em advérbio).
+> - **C)** **Correta.** Conforme fundamentado na seção *3.2 Duplicação das Consoantes R e S* deste guia, se o prefixo terminar em vogal e o segundo elemento principiar pelas consoantes R ou S, o hífen é eliminado e a consoante correspondente deve ser duplicada (*rr* ou *ss*), a fim de manter o valor sonoro original do fonema. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-BA/2015) ao estabelecer que "a palavra foi bem grafada, pois se trata de um adjetivo composto com um elemento de valor prefixal".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a palavra foi mal grafada, visto que não se trata de um vocábulo, mas de dois". De acordo com a teoria estudada em *6.5 Composição: Justaposição e Aglutinação*, a composição ocorre quando dois ou mais radicais autônomos unem-se para estruturar um vocábulo composto.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a palavra foi bem grafada, pois houve mudanças nesse". De acordo com a teoria estudada em *6.2 Derivação Parassintética*, para a FCC, o teste do desmonte é soberano: retire mentalmente o prefixo da palavra. Se a forma remanescente com o sufixo fizer sentido na língua padrão, trata-se de derivação prefixal e sufixal (*deslealdade* \$\rightarrow\$ *lealdade* existe).
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
 
@@ -455,50 +455,50 @@ Os parônimos são palavras muito semelhantes na grafia e na pronúncia, mas que
 ---
 
 ### Teste 016
-**(FCC – TRT – Analista Judiciário (TI) – 2009)**  
-Considerando-se a correção da frase e o contexto, o termo sublinhado pode ser substituído pelo que vem entre parênteses em:
+**(FUMARC – TRT-3 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2022)**
+A posição do pronome oblíquo é facultativa em:
 
-* **A)** A ciência considera incorreto falar em diferentes raças quando se trata de seres humanos. ( aonde for o caso de)
-* **B)** (...) as semelhanças e diferenças que estabelecem entre si decorrem de processos históricos, sempre culturais, jamais naturais. (em meio a elas)
-* **C)** (...) e tal crença é compartilhada pelos demais indi- víduos que compõem o mesmo grupo. (se comparte entre os)
-* **D)** (...) as populações humanas não são homogêneas, em razão das migrações no decorrer da história. (não obstante as)
-* **E)** (...) serviu (e por vezes ainda serve) de pretexto para justificar as mais cruéis manifestações de preconcei- to (...) (razão de somenos para) _________________________________________________________
+* **A)** "Mendigo" é um termo horrível não porque as vogais e consoantes se juntem de forma deselegante.”
+* **B)** “Do contrário, a linguagem deixa de ser uma ferramenta que busca representar a vida como ela é e se torna um tapume nos impedindo de enxergála.”
+* **C)** “Não, não estará se não nos indignarmos com a indigência e agirmos.”
+* **D)** “Nosso objetivo deveria ser dar condições de vida decente praquela gente, não nos sentirmos confortáveis ao mencioná-la.”
+* **E)** “Talvez fosse bom deixarmos o incômodo nos tomar toda vez que disséssemos ou ouvíssemos "favela" ou "favelados [...].”
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A substituição proposta altera o sentido original do segmento e incorre em impropriedade vocabular.
-> - **B)** Correta. O termo substituto entre parênteses preserva com exatidão a significação contextual e a correção gramatical da frase.
-> - **C)** Incorreta. Há alteração da nuance de significado exigida pelo contexto discursivo do texto.
-> - **D)** Incorreta. A troca de palavras gera incorreção semântica e quebra a coesão do período.
-> - **E)** Incorreta. O vocábulo entre parênteses não traduz a acepção pretendida pelo autor.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que ""Mendigo" é um termo horrível não porque as vogais e consoantes se juntem de forma deselegante.”". De acordo com a teoria estudada em *5.4 Vogais e Consoantes de Ligação*, são fonemas inseridos unicamente por imperativo de eufonia, isto é, para viabilizar ou facilitar a pronúncia da junção entre radicais ou entre radical e sufixo, evitando a dissonância fonética. Não possuem qualquer valor significativo ou semântico.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“Do contrário, a linguagem deixa de ser uma ferramenta que busca representar a vida como ela é e se torna um...". De acordo com a teoria estudada em *4.4 Parônimos e Homófonos de Alta Incidência em Concursos*, *Mandado:* ordem formal emanada de autoridade judiciária (*"mandado de segurança", "mandado de prisão", "mandado de busca e apreensão"*).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“Não, não estará se não nos indignarmos com a indigência e agirmos.”". De acordo com a teoria estudada em *2.3 Formas Verbais com Pronomes Enclíticos*, na conjugação de verbos acompanhados de pronomes oblíquos enclíticos (*-lo, -la, -los, -las, -no, -na*), a análise da tonicidade e das regras de acentuação deve isolar completamente o pronome e incidir exclusivamente sobre a terminação da forma verbal residual.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“Nosso objetivo deveria ser dar condições de vida decente praquela gente, não nos sentirmos confortáveis ao...". De acordo com a teoria estudada em *1. Sistema Geral de Acentuação Gráfica e Acordo Ortográfico*, a acentuação gráfica na língua portuguesa tem por objetivo assinalar, na escrita, a sílaba de maior intensidade fonética (sílaba tônica) de determinadas palavras e, em situações específicas, indicar o timbre aberto ou fechado da vogal.
+> - **E)** **Correta.** Conforme fundamentado na seção *4.4 Parônimos e Homófonos de Alta Incidência em Concursos* deste guia, *Senso (com S):* faculdade de julgar, discernimento, prudência, bom juízo (*"Faltou-lhe bom senso na condução dos debates"*). Dessa forma, está plenamente correta a assertiva da banca (FUMARC – TRT-3/2022) ao estabelecer que "“Talvez fosse bom deixarmos o incômodo nos tomar toda vez que disséssemos ou ouvíssemos "favela" ou "favelados...".
 >
-> **Gabarito: B**
+> **Gabarito: E**
 
 ---
 
 ### Teste 017
-**(FCC – TRT – Analista Judiciário (TI) – 2009)**  
-Está correto o emprego do elemento sublinhado na fra- se:
+**(FUMARC – TRT-3 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2022)**
+Em: “Talvez fosse bom deixarmos o incômodo nos tomar toda vez que disséssemos ou ouvíssemos "favela" ou "favelados", os verbos destacados estão flexionados no:
 
-* **A)** São vários os atributos a que se pode recorrer para caracterizar um grupo étnico.
-* **B)** Não são claras as fronteiras em cujas se deseja estabelecer uma objetiva distinção entre etnias.
-* **C)** São mínimas as variações genéticas de que se po- deria levar em conta para configurar alguma dife- renciação racial.
-* **D)** O fenômeno das migrações é um fator concorrente de que as populações não sejam homogêneas.
-* **E)** O próprio conceito de raça humana, de cujo ninguém duvidava, é hoje dado como ultrapassado. _________________________________________________________
+* **A)** futuro do pretérito do indicativo.
+* **B)** futuro do subjuntivo.
+* **C)** pretérito imperfeito do indicativo.
+* **D)** pretérito imperfeito do subjuntivo.
+* **E)** pretérito perfeito do indicativo.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O verbo 'recorrer' exige preposição 'a' ('recorrer a atributos'), logo 'a que' está correto na regência.
-> - **B)** Incorreta. 'Em cujas' é agramatical sem o substantivo determinado consequente (o pronome relativo 'cujo' exige substantivo consequente sem artigo).
-> - **C)** Correta. A locução 'levar em conta' é transitiva direta quanto ao objeto levado em conta ('levar em conta as mínimas variações genéticas'), de modo que a preposição 'de' é indevida antes do pronome relativo ('que se poderia levar em conta').
-> - **D)** Incorreta. A regência nominal de 'fator concorrente' exige a preposição 'para' ('para que as populações...').
-> - **E)** Incorreta. O verbo 'duvidar' exige preposição 'de' ('duvidar de alguém/algo'), mas 'cujo' deve determinar um substantivo, não podendo ser empregado isoladamente como pronome relativo substantivo.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "futuro do pretérito do indicativo". De acordo com a teoria estudada em *Acentos Diferenciais Obrigatórios:*, pôde (Pretérito Perfeito) \$\neq\$ Pode (Presente do Indicativo): O verbo *poder* recebe acento circunflexo na 3ª pessoa do singular do pretérito perfeito (*"Ontem o auditor não pôde comparecer"*) para se distinguir da forma homógrafa no presente do indicativo (*"Hoje ele pode analisar o processo"*).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "futuro do subjuntivo". De acordo com a teoria estudada em *4.4 Parônimos e Homófonos de Alta Incidência em Concursos*, *Senso (com S):* faculdade de julgar, discernimento, prudência, bom juízo (*"Faltou-lhe bom senso na condução dos debates"*).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pretérito imperfeito do indicativo". De acordo com a teoria estudada em *Acentos Diferenciais Obrigatórios:*, têm e Vêm (Plural) \$\neq\$ Tem e Vem (Singular): Os verbos *ter* e *vir* levam acento circunflexo na 3ª pessoa do plural do presente do indicativo.
+> - **D)** **Correta.** Conforme fundamentado na seção *5.3 Desinências Nominais e Desinências Verbais* deste guia, modo-Temporais (DMT): Indicam o tempo cronológico e o modo em que se desenvolve a ação verbal (*cant-`<ins>`va`</ins>`-mos* [pretérito imperfeito do indicativo]; *cant-a-`<ins>`sse`</ins>`-mos* [pretérito imperfeito do subjuntivo]; *cant-a-`<ins>`ra`</ins>`-mos* [pretérito mais-que-perfeito]). Dessa forma, está plenamente correta a assertiva da banca (FUMARC – TRT-3/2022) ao estabelecer que "pretérito imperfeito do subjuntivo".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pretérito perfeito do indicativo". De acordo com a teoria estudada em *3.4 Hífen em Compostos por Justaposição e Expressões Consagradas*, exceções consagradas pela tradição: Mantêm o hífen as consagradas *cor-de-rosa, água-de-colônia, arco-da-velha, mais-que-perfeito, pé-de-meia*, bem como os nomes botânicos e zoológicos ligados por hífen (*couve-flor, bem-te-vi, erva-doce*).
 >
-> **Gabarito: C**
+> **Gabarito: D**
 
 ---
 
@@ -561,26 +561,26 @@ São fonemas inseridos unicamente por imperativo de eufonia, isto é, para viabi
 ---
 
 ### Teste 018
-**(FCC – TRT-14 – Analista Judiciário (TI) – 2016)**  
-Está plenamente adequado o emprego de ambos os elementos sublinhados em:
+**(IBFC – TJ-MG – Analista Judiciario Classe C Analista de Tecnologia da Informacao – 2022)**
+Uma das áreas de formação da língua inglesa, a morfologia, justifica que a palavra é formada por afixos (prefixos + sufixos) e radical/raiz. A forma dos afixos é mais rígida quanto à posição de formação da palavra. Os sufixos podem modificar a classe gramatical e os prefixos o sentido (positivo ou negativo) da palavra, sendo que o radical, raiz, é que traz o significado da palavra. Diante do exposto, assinale a alternativa que apresenta a palavra pósfixada.
 
-* **A)** Ele não se dispõe à abandonar os jogos eletrônicos, mas volta e meia fica atento às histórias que lhe narram.
-* **B)** Mesmo àqueles meninos estudiosos não falta tempo para os joguinhos eletrônicos com cujos se entretêm.
-* **C)** A conexão da qual eles permanecem interligados permite-lhes conversarem todo o tempo à muita distância.
-* **D)** As narrativas clássicas, a cuja mágica oralidade sentimo-nos presos, competem com os meios da informática.
-* **E)** Cabe à plateia de um contador de histórias participar ativamente da narração em cuja se acha envolvida.
+* **A)** Misunderstand
+* **B)** Bicolour
+* **C)** Disappear
+* **D)** Impossible
+* **E)** Finally
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Ocorre incorreção no emprego do pronome ou da preposição destacada.
-> - **B)** Correta. Ambos os elementos sublinhados atendem plenamente às normas de grafia e regência da norma-padrão culta.
-> - **C)** Incorreta. Um dos termos sublinhados foi grafado com desvio ortográfico ou regencial.
-> - **D)** Incorreta. Há impropriedade no valor semântico de um dos vocábulos sublinhados.
-> - **E)** Incorreta. Há erro de concordância ou grafia no segundo termo sublinhado.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Misunderstand". De acordo com a teoria estudada em *5.2 Tema e Afixos Formadores (Prefixos e Sufixos)*, sufixos: Morfemas pospostos ao radical, possuindo alta capacidade de converter a palavra em outra classe gramatical: *leal \$\rightarrow\$ leal-`<ins>`dade`</ins>`* (adjetivo em substantivo); *atual \$\rightarrow\$ atual-`<ins>`izar`</ins>`* (adjetivo em verbo); *rápido \$\rightarrow\$ rapida-`<ins>`mente`</ins>`* (adjetivo em advérbio).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Bicolour". De acordo com a teoria estudada em *5. Morfologia: Elementos Estruturais da Palavra*, as palavras na língua portuguesa são formadas pela articulação lógica de unidades mínimas portadoras de significado, denominadas morfemas ou elementos mórficos.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Disappear". De acordo com a teoria estudada em *5.2 Tema e Afixos Formadores (Prefixos e Sufixos)*, em *cant-a-r*, o tema verbal é *canta-*; em *livr-o*, o tema nominal é *livro-*. Quando a palavra não possui vogal temática (como em vocábulos terminados em consoante forte: *mar, dor, sol*), o tema confunde-se diretamente com o próprio radical.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Impossible". De acordo com a teoria estudada em *6.1 Derivação Prefixal, Sufixal e Prefixal-Sufixal*, derivação Sufixal (ou Sufixação): Acréscimo de um sufixo à raiz primitiva, modificando frequentemente a classe gramatical original ou seu significado estilístico: *leal-dade, feliz-mente, auditor-ia, flor-ista*.
+> - **E)** **Correta.** Conforme fundamentado na seção *5.2 Tema e Afixos Formadores (Prefixos e Sufixos)* deste guia, prefixos: Morfemas antepostos ao radical, operando predominantemente mudança de sentido lexical sem alterar a classe gramatical primitiva: *`<ins>`des`</ins>`-leal, `<ins>`in`</ins>`-apto, `<ins>`re`</ins>`-fazer, `<ins>`sub`</ins>`-chefe*. Dessa forma, está plenamente correta a assertiva da banca (IBFC – TJ-MG/2022) ao estabelecer que "Finally".
 >
-> **Gabarito: B**
+> **Gabarito: E**
 
 ---
 
@@ -680,74 +680,74 @@ Além dos processos clássicos, a língua recorre a outros expedientes formais:
 ---
 
 ### Teste 019
-**(FGV – TCE-PA – Auditor de Controle Externo – 2024)**  
-Observe o trecho descritivo abaixo, que tem por objeto um personagem de uma cidade interiorana: ’Seu Paulo’ era um mineiro já de alguma idade, que já havia trabalhado em São Paulo como motorista, mas agora era um faz - tudo em Lavras. Tinha bom humor, gostava muito de conversar e, na minha pequena propriedade, fazia as pequenas tarefas agrícolas diárias, como limpar o terreno, botar água nas plantas e tirar pragas que surgissem na grama. Essa pequena descrição
+**(FGV – TJ-SC – Analista Administrativo – 2026)**
+Saúde SC reforça importância da vacinação contra o Vírus Sincicial Respiratório em gestantes Com a aproximação do frio, a Secretaria de Estado da Saúde (SES) reforça a importância da vacinação de gestantes contra o Vírus Sincicial Respiratório (VSR). A imunização tem como principal objetivo reduzir complicações respiratórias em bebês nos primeiros meses de vida, como bronquiolite e pneumonia — doenças que tendem a aumentar durante o inverno e podem levar a internações. https://saude.sc.gov.br A utilização de letras maiúsculas na apresentação do “Vírus Sincicial Respiratório”, em todas as ocorrências no texto, serve para
 
-* **A)** procura identificar o personagem por meio de seus traços físicos.
-* **B)** destaca sobretudo os traços psíquicos do personagem.
-* **C)** mostra traços físicos e psíquicos do personagem.
-* **D)** descreve o personagem em diversas épocas, procurando valorizá-lo.
-* **E)** indica somente características sociais do personagem descrito, mostrando-o como símbolo do interiorano. TRIBUNAL DE CONTAS DO ESTADO DO PARÁ – TCE-PA FGV CONHECIMENTO AUDITOR DE CONTROLE EXTERNO - FISCALIZAÇÃO - CONTABILIDADE – MANHÃ TIPO BRANCA – PÁGINA 4
+* **A)** indicar destaque informativo dentro do texto, relacionado à relevância do tema abordado.
+* **B)** ser uma estratégia de destaque para enfatizar a gravidade da doença mencionada no texto.
+* **C)** apresentar o uso de linguagem técnica, comum em textos da área da saúde.
+* **D)** corresponder à denominação oficial de um agente viral específico, funcionando como nome próprio.
+* **E)** marcar a presença de termos estrangeiros incorporados ao vocabulário científico.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O texto descritivo não menciona a compleição física, altura, cor dos olhos ou vestimenta de 'Seu Paulo'.
-> - **B)** Correta. A caracterização prioriza aspectos de personalidade, índole e comportamento ('Tinha bom humor, gostava muito de conversar'), ou seja, traços psíquicos e psicológicos do personagem.
-> - **C)** Incorreta. Faltam traços físicos objetivos na caracterização apresentada.
-> - **D)** Incorreta. Não há divisão da descrição em diversas épocas históricas.
-> - **E)** Incorreta. A descrição foca no temperamento pessoal e nas atividades diárias, sem reduzi-lo a mero símbolo sociológico genérico.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "indicar destaque informativo dentro do texto, relacionado à relevância do tema abordado". De acordo com a teoria estudada em *1. Sistema Geral de Acentuação Gráfica e Acordo Ortográfico*, a acentuação gráfica na língua portuguesa tem por objetivo assinalar, na escrita, a sílaba de maior intensidade fonética (sílaba tônica) de determinadas palavras e, em situações específicas, indicar o timbre aberto ou fechado da vogal.
+> - **B)** **Correta.** Conforme fundamentado na seção *4.2 Hiperonímia e Hiponímia* deste guia, a banca FCC frequentemente formula itens elogiando o uso de hiperônimos para evitar repetições vocabulares no texto (*"O TCE-GO julgou a tomada de contas especial. A corte de contas concluiu pela condenação do gestor"*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-SC/2026) ao estabelecer que "ser uma estratégia de destaque para enfatizar a gravidade da doença mencionada no texto".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "apresentar o uso de linguagem técnica, comum em textos da área da saúde". De acordo com a teoria estudada em *1.2 Regra das Proparoxítonas e Proparoxítonas Eventuais na FCC*, o ponto inegociável para a FCC é que palavras como *relatório* e *renúncia* pertencem à mesma regra, ao passo que confrontadas com *médico* (proparoxítona real pura) ou *saúde* (regra do hiato) configuram regras distintas.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "corresponder à denominação oficial de um agente viral específico, funcionando como nome próprio". De acordo com a teoria estudada em *4.2 Hiperonímia e Hiponímia*, hipônimo (Hiponímia): Vocábulo de sentido restrito, específico, pontual, que integra a classe de um termo maior. O hipônimo funciona como a "espécie".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "marcar a presença de termos estrangeiros incorporados ao vocabulário científico". De acordo com a teoria estudada em *1.2 Regra das Proparoxítonas e Proparoxítonas Eventuais na FCC*, a regra basilar do idioma determina que todas as palavras proparoxítonas reais são acentuadas graficamente, sem exceção, sejam elas de origem vernácula ou vocábulos latinos e estrangeiros aportuguesados que se integraram ao léxico (*médico*, *álvoroço*, *espírito*, *déficit*, *superávit*, *habitat*).
 >
 > **Gabarito: B**
 
 ---
 
 ### Teste 020
-**(FGV – TRT – Analista Judiciário (TI) – 2024)**  
-Assinale a frase em que o termo sublinhado mostra valor interrogativo.
+**(FUMARC – TRT-3 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2022)**
+6 As palavras destacadas foram corretamente interpretadas entre parênteses, EX- CETO em:
 
-* **A)** Não sei como é a alma de um criminoso, mas a alma do homem bom, honesto, é um inferno.
-* **B)** Se quem ama o vinho e o amor vai para o inferno, o paraíso deve estar vazio.
-* **C)** Onde há humanos há moscas e deuses.
-* **D)** Uma sociedade sem religião é como um navio sem bússola.
-* **E)** Não é lícito confiar quando os deuses são contrários.
+* **A)** “[...] mas mudar para "morador de comunidade", embora amacie na semântica, não leva água encanada, esgoto e luz para ninguém.” (sentido das palavras)
+* **B)** “A gente ouve "comunidade" e dá a impressão de que aquelas pessoas estão todas de mãos dadas fazendo uma ciranda em torno da horta orgânica, não apinhando-se em condições sub-humanas.” (aglomerando-se)
+* **C)** “Como se a mudança na nomenclatura incorporasse o preconceito, quando deveria ser justamente o contrário” (vocabulário)
+* **D)** “Em certo momento dos anos 90, "favela" virou "comunidade". "Favelado" era um termo pejorativo.” (vulgar)
+* **E)** “Não, não estará se não nos indignarmos com a indigência e agirmos.” (miséria)
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. Na oração 'Não sei como é a alma de um criminoso', o termo 'como' introduz uma interrogação indireta substantiva com valor nitidamente interrogativo.
-> - **B)** Incorreta. 'Se' introduz uma oração subordinada adverbial condicional ('Se quem ama...').
-> - **C)** Incorreta. 'Onde' introduz uma oração adverbial de lugar com valor relativo ou circunstancial.
-> - **D)** Incorreta. 'Como' atua como conjunção subordinativa comparativa ('como um navio sem bússola').
-> - **E)** Incorreta. 'Quando' expressa circunstância temporal subordinada.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“[...] mas mudar para "morador de comunidade", embora amacie na semântica, não leva água encanada, esgoto e luz...". De acordo com a teoria estudada em *4. Semântica Lexical: Relações de Sentido e Vocabulário*, o estudo da semântica vocabular foca as relações de significação estabelecidas entre as palavras de uma língua, permitindo analisar a coesão referencial, a precisão textual e os desvios de significação em textos técnicos e jurídicos.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“A gente ouve "comunidade" e dá a impressão de que aquelas pessoas estão todas de mãos dadas fazendo uma ciranda...". De acordo com a teoria estudada em *1.2 Regra das Proparoxítonas e Proparoxítonas Eventuais na FCC*, a regra basilar do idioma determina que todas as palavras proparoxítonas reais são acentuadas graficamente, sem exceção, sejam elas de origem vernácula ou vocábulos latinos e estrangeiros aportuguesados que se integraram ao léxico (*médico*, *álvoroço*, *espírito*, *déficit*, *superávit*, *habitat*).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“Como se a mudança na nomenclatura incorporasse o preconceito, quando deveria ser justamente o contrário”...". De acordo com a teoria estudada em *5.2 Tema e Afixos Formadores (Prefixos e Sufixos)*, prefixos: Morfemas antepostos ao radical, operando predominantemente mudança de sentido lexical sem alterar a classe gramatical primitiva: *`<ins>`des`</ins>`-leal, `<ins>`in`</ins>`-apto, `<ins>`re`</ins>`-fazer, `<ins>`sub`</ins>`-chefe*.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.1 Posição da Sílaba Tônica e Tonicidade Vocálica* deste guia, as palavras derivadas por sufixação (como *cafezinho*, *rapidamente*) desenvolvem uma sílaba de intensidade secundária, chamada de subtônica, que coincide historicamente com a sílaba tônica do termo primitivo. Dessa forma, está plenamente correta a assertiva da banca (FUMARC – TRT-3/2022) ao estabelecer que "“Em certo momento dos anos 90, "favela" virou "comunidade". "Favelado" era um termo pejorativo.” (vulgar)".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“Não, não estará se não nos indignarmos com a indigência e agirmos.” (miséria)". De acordo com a teoria estudada em *4.2 Hiperonímia e Hiponímia*, hipônimo (Hiponímia): Vocábulo de sentido restrito, específico, pontual, que integra a classe de um termo maior. O hipônimo funciona como a "espécie".
 >
-> **Gabarito: A**
+> **Gabarito: D**
 
 ---
 
 ### Teste 021
-**(FGV – TRT – Analista Judiciário (TI) – 2024)**  
-As frases abaixo mostram uma comparação. Assinale a opção em que a comparação não é explicada.
+**(FGV – TCE-GO – Analista de Controle Externo Ciencias Contabeis – 2024)**
+Assinale a opção em que não está presente uma expressão ou termo indicativo de causa.
 
-* **A)** Ideias são como crianças. As nossas são sempre maravilhosas.
-* **B)** As bibliotecas são como as farmácias: muitos venenos e poucos remédios.
-* **C)** A leitura, como a comida, não alimenta se não digerida.
-* **D)** Os discursos são como as orações copiadas dos textos religiosos.
-* **E)** Os talheres são como o papel higiênico: só ficam limpos se não forem usados.
+* **A)** O paisagista pinta tranquilo porque a paisagem defronte não se pode aproximar do quadro para ver se está parecida.
+* **B)** A História é como um estilingue. Quanto mais fundo você puxa, mais longe você alcança.
+* **C)** Algumas pessoas são o centro das atenções numa festa por terem ótimo senso se humor.
+* **D)** Em função de algumas declarações falsas, a repórter foi obrigada a desmenti-las.
+* **E)** Em vista do aumento de impostos, houve grande reclamação dos empresários.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A transposição para a forma desenvolvida alterou a correlação dos tempos verbais.
-> - **B)** Correta. A oração reduzida foi perfeitamente expandida em oração desenvolvida com a conjunção integrante apropriada e tempo verbal correlato em conformidade com a norma-padrão.
-> - **C)** Incorreta. Houve truncamento na regência do verbo principal ao desenvolver a oração.
-> - **D)** Incorreta. A substituição do conectivo alterou a relação semântica original entre as orações.
-> - **E)** Incorreta. Ocorreu erro de modo verbal no desenvolvimento da oração.
+> - **A)** **Correta.** Conforme fundamentado na seção *Acentos Diferenciais Obrigatórios:* deste guia, pôde (Pretérito Perfeito) \$\neq\$ Pode (Presente do Indicativo): O verbo *poder* recebe acento circunflexo na 3ª pessoa do singular do pretérito perfeito (*"Ontem o auditor não pôde comparecer"*) para se distinguir da forma homógrafa no presente do indicativo (*"Hoje ele pode analisar o processo"*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "O paisagista pinta tranquilo porque a paisagem defronte não se pode aproximar do quadro para ver se está parecida".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A História é como um estilingue. Quanto mais fundo você puxa, mais longe você alcança". De acordo com a teoria estudada em *6.1 Derivação Prefixal, Sufixal e Prefixal-Sufixal*, derivação Prefixal (ou Prefixação): Incorporação de um prefixo ao radical de uma palavra primitiva, mantendo-se a categoria gramatical básica: *in-justo, des-leal, re-ver, pré-história*.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Algumas pessoas são o centro das atenções numa festa por terem ótimo senso se humor". De acordo com a teoria estudada em *6.4 Derivação Imprópria ou Conversão*, palavra invariável convertida em Substantivo: *"Não compreendi o `<ins>`porquê`</ins>` de sua relutância"*.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Em função de algumas declarações falsas, a repórter foi obrigada a desmenti-las". De acordo com a teoria estudada em *2.3 Formas Verbais com Pronomes Enclíticos*, na conjugação de verbos acompanhados de pronomes oblíquos enclíticos (*-lo, -la, -los, -las, -no, -na*), a análise da tonicidade e das regras de acentuação deve isolar completamente o pronome e incidir exclusivamente sobre a terminação da forma verbal residual.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Em vista do aumento de impostos, houve grande reclamação dos empresários". De acordo com a teoria estudada em *1. Sistema Geral de Acentuação Gráfica e Acordo Ortográfico*, a estrutura acentual do idioma apoia-se em um princípio de economia: a grande maioria dos vocábulos da língua portuguesa é paroxítona terminada nas vogais mais comuns (*-a*, *-e*, *-o* seguidas ou não de *-s*).
 >
-> **Gabarito: D**
+> **Gabarito: A**
 
 ---
 

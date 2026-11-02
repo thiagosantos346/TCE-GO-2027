@@ -88,34 +88,26 @@ Essa propriedade é a base algébrica definitiva para solucionar repartições o
 ---
 
 ### Teste 082
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Em um tribunal, a razão entre o número de processos físicos e o número de processos eletrônicos que aguardavam triagem era de $3$ para $7$. Se o número total de processos aguardando triagem era de $250$, quantos processos eletrônicos havia a mais do que processos físicos?
+**(FCC – TRT-2 – Analista Judiciario Tecnologia da Informacao – 2014)**
+O número A é composto por 2000 algarismos, todos eles iguais a 1, e o número B é composto por 1000 algarismos, todos eles iguais a 3. Se o número C é igual à soma dos números A e B, então a soma de todos os algarismos que compõem C é igual a
 
-* **A)** $80$
-* **B)** $100$
-* **C)** $120$
-* **D)** $140$
-* **E)** $175$
-
+* **A)** 5000.
+* **B)** 4444.
+* **C)** 4000.
+* **D)** 3333.
+* **E)** 3000.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **Método da Constante de Proporcionalidade ($k$):**  
->   - Seja $F$ o número de processos físicos e $E$ o número de processos eletrônicos.  
->   - A razão é dada por $\frac{F}{E} = \frac{3}{7} \implies F = 3k \text{ e } E = 7k$.  
-> - **Equação do total:**  
->   $$F + E = 250 \implies 3k + 7k = 250 \implies 10k = 250 \implies k = 25$$  
-> - **Cálculo das quantidades:**  
->   - Processos físicos: $F = 3 \times 25 = 75$.  
->   - Processos eletrônicos: $E = 7 \times 25 = 175$.  
-> - **Diferença solicitada no enunciado:**  
->   $$E - F = 175 - 75 = 100$$  
->   (Ou diretamente pela diferença em partes: $(7 - 3)k = 4k = 4 \times 25 = 100$).  
-> - **Conclusão:** Havia 100 processos eletrônicos a mais do que físicos (Alternativa B).
+> - **A)** **Correta.** Conforme fundamentado na seção *1.3 Propriedade da Soma dos Termos e Constante de Proporcionalidade* deste guia, em uma série de razões iguais, a soma dos antecedentes dividida pela soma dos consequentes é igual a qualquer uma das razões primitivas, correspondendo à constante de proporcionalidade \$k\$. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-2/2014) ao estabelecer que "5000".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "4444". De acordo com a teoria estudada em *1.1 Conceito de Razão e Grandezas Comensuráveis*, razão: Dados dois números reais \$a\$ e \$b\$ (com \$b \neq 0\$), a razão entre \$a\$ e \$b\$ (nesta ordem) é o quociente indicado pela divisão.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "4000". De acordo com a teoria estudada em *A Propriedade Fundamental das Proporções:*, em qualquer proporção válida, o produto dos extremos é rigorosamente igual ao produto dos meios.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3333". De acordo com a teoria estudada em *1.3 Propriedade da Soma dos Termos e Constante de Proporcionalidade*, \$\$\frac{a}{b} = \frac{c}{d} = \frac{e}{f} = k \implies \frac{a + c + e}{b + d + f} = k\$\$.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3000". De acordo com a teoria estudada em *1.3 Propriedade da Soma dos Termos e Constante de Proporcionalidade*, essa propriedade é a base algébrica definitiva para solucionar repartições orçamentárias e partilhas de bens em auditoria sem necessidade de recorrer a sistemas lineares extensos.
 >
-> **Gabarito: B**
+> **Gabarito: A**
 
 ---
 
@@ -159,116 +151,74 @@ Reduzem-se as frações resultantes a termos inteiros via MMC e aplica-se o mét
 ---
 
 ### Teste 083
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Uma gratificação extraordinária no valor de R$ 18.000,00 foi dividida entre três auditores de controle externo em partes diretamente proporcionais aos seus respectivos tempos de atuação no órgão: $2$ anos, $3$ anos e $5$ anos. O auditor com maior tempo de serviço recebeu:
+**(FCC – TRT-9 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2015)**
+Em 2014, para proceder à fusão de suas empresas, os proprietários Antonio, Beto e Carlos decidiram que as partes de cada um, na nova sociedade, deveriam ser proporcionais ao faturamentos de suas empresas no ano de 2013, que foram, respectivamente, de R$ 150.000,00; R$ 150.000,00 e R$ 200.000,00. No final do ano de 2015, entretanto, o sócio Beto estimou que as operações baseadas na estrutura trazida por sua antiga empresa estariam sendo responsáveis por cerca de 65% do faturamento da nova empresa. Assim, pleiteou que sua parte no negócio passasse a 65% e que os 35% restantes fossem divididos proporcionalmente entre os outros dois, de acordo com o faturamento das empresas de Antonio e Carlos em 2013 (ou seja, de acordo com a fração que Antonio e Carlos tinham do faturamento total de suas duas empresas em 2013). A aceitação da proposta de Beto implicaria que a participação percentual de Carlos no negócio diminuísse de
 
-* **A)** R$ 3.600,00
-* **B)** R$ 5.400,00
-* **C)** R$ 9.000,00
-* **D)** R$ 10.000,00
-* **E)** R$ 12.000,00
-
+* **A)** 40% para 20%.
+* **B)** 40% para 15%.
+* **C)** 30% para 10%.
+* **D)** 30% para 20%
+* **E)** 35% para 15%.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **Divisão Diretamente Proporcional:**  
->   - Sejam $A_1$, $A_2$ e $A_3$ os valores recebidos pelos auditores com 2, 3 e 5 anos de atuação, respectivamente.  
->   - $A_1 = 2k$, $A_2 = 3k$, $A_3 = 5k$.  
-> - **Soma das quotas:**  
->   $$A_1 + A_2 + A_3 = 18.000 \implies (2 + 3 + 5)k = 18.000 \implies 10k = 18.000 \implies k = 1.800$$  
-> - **Valor do auditor com maior tempo de serviço (5 anos):**  
->   $$A_3 = 5 \times 1.800 = 9.000,00$$  
-> - **Conferência:** $A_1 = 3.600$, $A_2 = 5.400$, $A_3 = 9.000$. Soma: $3.600 + 5.400 + 9.000 = 18.000,00$.  
-> - **Conclusão:** O auditor recebeu R$ 9.000,00 (Alternativa C).
+> - **A)** **Correta.** Conforme fundamentado na seção *2. Divisão em Partes Proporcionais* deste guia, a partilha proporcional consiste em distribuir uma quantia total \$V\$ entre vários beneficiários ou centros de custo em conformidade com critérios predeterminados de mérito, produtividade ou penalidade. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-9/2015) ao estabelecer que "40% para 20%".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "40% para 15%". De acordo com a teoria estudada em *2.1 Divisão Diretamente Proporcional com a Constante k*, repartir um total \$V\$ em partes \$x, y, z\$ diretamente proporcionais aos pesos \$a, b, c\$.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "30% para 10%". De acordo com a teoria estudada em *2.2 Divisão Inversamente Proporcional e o Método do MMC*, repartir um montante \$V\$ em partes \$x, y, z\$ inversamente proporcionais aos coeficientes \$a, b, c\$ significa repartir diretamente aos seus inversos \$\frac{1}{a}, \frac{1}{b}, \frac{1}{c}\$.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "30% para 20%". De acordo com a teoria estudada em *4.3 Inversão da Base de Referência Percentual*, \$\$\text{Taxa de Redução} = \frac{\text{Diferença}}{\text{Nova Base}} = \frac{125 - 100}{125} = \frac{25}{125} = \frac{1}{5} = 0{,}20 = \mathbf{20\%}\$\$.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "35% para 15%". De acordo com a teoria estudada em *1. Razões, Proporções e Propriedades Fundamentais*, o estudo das grandezas proporcionais é um dos temas de maior peso quantitativo nas provas da Fundação Carlos Chagas.
 >
-> **Gabarito: C**
+> **Gabarito: A**
 
 ---
 
 ### Teste 084
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A Diretoria de Fiscalização de um Tribunal de Contas distribuiu um bônus de incentivo de R$ 45.000,00 entre três equipes técnicas de auditoria ($A$, $B$ e $C$) em partes **inversamente proporcionais** ao número de dias de atraso na entrega dos seus respectivos relatórios finais. A equipe $A$ atrasou 2 dias; a equipe $B$ atrasou 3 dias; e a equipe $C$ atrasou 4 dias.
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Contabilidade – 2024)**
+Em 01/12/2023, uma escola estadual recebeu uma doação de 100.000 pesos, em dinheiro, de entidades argentinas. Na data da doação, um peso argentino era cotado a 0,01352 Reais. Já em 31/12/2023, a cotação de um peso argentino era de R$0,006014. Além disso, sabe-se que em dezembro de 2023, a pior taxa cambial para o peso foi de R$0,005979, enquanto a melhor taxa foi de R$0,01364. Além disso, a taxa cambial média, em dezembro, foi de R$0,008921. No mês de dezembro, não houve movimentação no dinheiro doado. Assinale a opção que indica o valor contabilizado, referente à doação, no balanço patrimonial da escola, em 31/12/2023:
 
-Nessas condições, o valor recebido pela equipe $A$ superou o valor recebido pela equipe $C$ em:
-
-* **A)** R$ 10.000,00
-* **B)** R$ 10.384,62
-* **C)** R$ 12.000,00
-* **D)** R$ 13.500,00
-* **E)** R$ 15.000,00
-
+* **A)** R$597,90.
+* **B)** R$601,40.
+* **C)** R$892,10.
+* **D)** R$1.352,00.
+* **E)** R$1.364,00.
 
 ---
 
 > **Comentário Detalhado:**
-> Resolução sistemática da partilha inversamente proporcional:
 >
-> 1. Como a divisão é inversamente proporcional a 2, 3 e 4, as frações de ponderação são os seus inversos:
->    $$\text{Pesos:} \quad \frac{1}{2}, \quad \frac{1}{3}, \quad \frac{1}{4}$$
-> 2. Reduzem-se todas as frações ao mesmo denominador comum via $\text{MMC}(2, 3, 4) = 12$:
->    $$\frac{1}{2} = \frac{6}{12}; \qquad \frac{1}{3} = \frac{4}{12}; \qquad \frac{1}{4} = \frac{3}{12}$$
-> 3. Eliminando o denominador comum 12, as cotas correspondentes são diretamente proporcionais a 6, 4 e 3:
->    $$\text{Equipe } A = 6k; \quad \text{Equipe } B = 4k; \quad \text{Equipe } C = 3k$$
-> 4. Somando as cotas de bonificação para atingir o montante de R$ 45.000,00:
->    $$6k + 4k + 3k = 45.000 \implies 13k = 45.000 \implies k = \frac{45.000}{13} \approx 3.461,538$$
-> 5. A questão solicita a diferença entre os valores recebidos pela equipe $A$ e pela equipe $C$:
->    $$\text{Diferença} = A - C = 6k - 3k = 3k$$
->    $$\text{Diferença} = 3 \times \left(\frac{45.000}{13}\right) = \frac{135.000}{13} \approx \text{R\$ }\mathbf{\ 10.384,62}$$
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$597,90". De acordo com a teoria estudada em *4. Porcentagem, Fatores Multiplicadores e Variações*, \$\$p\% = \frac{p}{100} = i \quad (\text{taxa unitária ou decimal})\$\$.
+> - **B)** **Correta.** Conforme fundamentado na seção *4.3 Inversão da Base de Referência Percentual* deste guia, a base de referência percentual corresponde ao valor que ocupa o denominador da razão comparativa (\$\text{Base} = 100\%\$). Ao inverter o ponto de vista da comparação, a base numérica altera-se, mudando compulsoriamente a taxa percentual. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "R$601,40".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$892,10". De acordo com a teoria estudada em *4.3 Inversão da Base de Referência Percentual*, \$\$\text{Taxa de Redução} = \frac{\text{Diferença}}{\text{Nova Base}} = \frac{125 - 100}{125} = \frac{25}{125} = \frac{1}{5} = 0{,}20 = \mathbf{20\%}\$\$.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$1.352,00". De acordo com a teoria estudada em *2.1 Divisão Diretamente Proporcional com a Constante k*, define-se cada cota multiplicando o peso respectivo pela constante \$k\$.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$1.364,00". De acordo com a teoria estudada em *2.1 Divisão Diretamente Proporcional com a Constante k*, cada parte individual é calculada multiplicando \$k\$ pelo peso do beneficiário.
 >
-> Análise individual das alternativas:
->
-> - **A)** Incorreta. R$ 10.000,00 seria a diferença entre as cotas de C e de A em uma partilha *diretamente* proporcional a 2, 3 e 4 (cotas de R$ 10.000,00 e R$ 20.000,00), isto é, com o sentido da proporcionalidade invertido.
-> - **B)** Correta. O cálculo exato de $3k = \frac{135.000}{13}$ resulta em $10.384{,}615\ldots$, que, arredondado ao centavo, é R$ 10.384,62.
-> - **C)** Incorreta. Não corresponde a nenhuma partilha coerente com as cotas $6k$, $4k$ e $3k$; a diferença deve ser exatamente $3k = \frac{135.000}{13}$.
-> - **D)** Incorreta. Corresponderia a 3 cotas se o denominador da soma fosse 10 em vez de 13.
-> - **E)** Incorreta. R$ 15.000,00 é a cota de cada equipe em uma divisão igualitária ($45.000 \div 3$); nessa hipótese a diferença entre A e C seria nula, e não R$ 15.000,00.
-> 
 > **Gabarito: B**
 
 ---
 
 ### Teste 085
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Uma gratificação especial de desempenho no valor de R$ 36.000,00 foi dividida entre dois auditores, Rodrigo e Samuel. O regulamento determinou que a divisão fosse **diretamente proporcional ao tempo de serviço** no Tribunal (Rodrigo tem 6 anos e Samuel tem 4 anos) e, simultaneamente, **inversamente proporcional ao número de processos pendentes** de julgamento em seus gabinetes (Rodrigo tem 3 processos pendentes e Samuel tem 1 processo pendente).
+**(FCC – TRT-24 – Analista Judiciario Tecnologia da Informacao – 2017)**
+(E) 13. Um bônus de R$ 47.600,00 foi distribuído, a três funcionários de uma empresa, em partes diretamente proporcionais às respectivas idades. Sabendo que as idades são 23, 35 e 54 anos, a diferença, em reais, entre o valor daquele que recebeu mais e o valor daquele que recebeu menos, é
 
-Com base nessas regras, a quantia recebida por Samuel foi de:
-
-* **A)** R$ 12.000,00
-* **B)** R$ 14.400,00
-* **C)** R$ 18.000,00
-* **D)** R$ 21.600,00
-* **E)** R$ 24.000,00
-
+* **A)** 13175
+* **B)** 9850
+* **C)** 16650
+* **D)** 8925
+* **E)** 12745
 
 ---
 
 > **Comentário Detalhado:**
-> Resolução de divisão composta (direta e inversa concomitantemente):
 >
-> 1. Estruturação dos pesos individuais de cada beneficiário:
->     - Para Rodrigo: diretamente proporcional a 6 anos e inversamente a 3 processos pendentes:
->      $$\text{Peso de Rodrigo} = 6 \times \frac{1}{3} = \frac{6}{3} = 2$$
->     - Para Samuel: diretamente proporcional a 4 anos e inversamente a 1 processo pendente:
->      $$\text{Peso de Samuel} = 4 \times \frac{1}{1} = \frac{4}{1} = 4$$
-> 2. Aplicação da constante de proporcionalidade $k$:
->    $$\text{Rodrigo} = 2k; \qquad \text{Samuel} = 4k$$
-> 3. Montagem da equação orçamentária para a gratificação de R$ 36.000,00:
->    $$2k + 4k = 36.000 \implies 6k = 36.000 \implies k = \frac{36.000}{6} = 6.000$$
-> 4. Cálculo da parcela recebida por Samuel:
->    $$\text{Samuel} = 4k = 4 \times 6.000 = \text{R\$ }\mathbf{\ 24.000,00}$$
->    *(A título de conferência, Rodrigo recebeu $2k = 2 \times 6.000 = \text{R\$} 12.000,00$. A soma dos valores totaliza $12.000 + 24.000 = \text{R\$} 36.000,00$)*.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "13175". De acordo com a teoria estudada em *2.1 Divisão Diretamente Proporcional com a Constante k*, repartir um total \$V\$ em partes \$x, y, z\$ diretamente proporcionais aos pesos \$a, b, c\$.
+> - **B)** **Correta.** Conforme fundamentado na seção *3.2 Grandezas Inversamente Proporcionais e Multiplicação em Linha Reta* deste guia, o erro mais comum do candidato afobado em regra de três simples é multiplicar todas as matrizes em cruz de forma mecânica! Antes de efetuar qualquer conta, teste mentalmente: *"Se eu aumentar o número de técnicos, vou precisar de mais ou de menos dias para fazer o mesmo trabalho?"*. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-24/2017) ao estabelecer que "9850".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "16650". De acordo com a teoria estudada em *2.2 Divisão Inversamente Proporcional e o Método do MMC*, repartir um montante \$V\$ em partes \$x, y, z\$ inversamente proporcionais aos coeficientes \$a, b, c\$ significa repartir diretamente aos seus inversos \$\frac{1}{a}, \frac{1}{b}, \frac{1}{c}\$.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "8925". De acordo com a teoria estudada em *3. Classificação de Grandezas e Regra de Três Simples*, a regra de três simples é o método algébrico que permite descobrir um quarto valor desconhecido a partir de três valores conhecidos de duas grandezas proporcionais.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "12745". De acordo com a teoria estudada em *2.1 Divisão Diretamente Proporcional com a Constante k*, como a soma das partes totaliza o montante global \$V\$.
 >
-> Análise das alternativas:
->
-> - **A)** Incorreta. R$ 12.000,00 corresponde à cota recebida por Rodrigo ($2k$).
-> - **B)** Incorreta. Valor que Samuel receberia se a partilha considerasse unicamente o tempo de serviço de forma direta ($\frac{4}{10} \times 36.000 = 14.400$).
-> - **C)** Incorreta. Divisão meio a meio simples, desconsiderando ambos os critérios do edital.
-> - **D)** Incorreta. Corresponderia à parte de Rodrigo se a partilha fosse baseada unicamente no tempo de serviço ($\frac{6}{10} \times 36.000 = 21.600$).
-> - **E)** Correta. O peso final de Samuel (4) representa quatro sextos ($\frac{2}{3}$) do montante global de R$ 36.000,00, totalizando R$ 24.000,00.
-> 
-> **Gabarito: E**
+> **Gabarito: B**
 
 ---
 
@@ -306,50 +256,50 @@ Para não errar na prova:
 ---
 
 ### Teste 086
-**(FCC – TRT-9 – Analista Judiciário (TI) – 2015)**  
-A companhia de abastecimento de água de certa região divulga, em seu website, a Tabela Tarifária vigente a partir de julho de 2015, na qual informa as tarifas mensais relativas ao consumo de água e ao tratamento de esgoto. A cobrança é sempre feita com base no consumo mensal de água e, se o imóvel for servido também por tratamento de esgoto, a companhia cobra por este último considerando que a água consumida retorna na forma de esgoto. Até 10 m3 de água consumida Excedente a 10 m3 de água consumida Excedente a 30 m3 de água consumida Água (todas as localidades) R$ 30,54 R$ 4,58/m3 R$  7,81/m 3 Esgoto (Capital) R$ 25,96 R$ 3,89/m3 R$  6,64/m 3 Total (Capital) R$ 56,50 R$ 8,47/m3 R$ 14,45/m 3 Esgoto (demais localidades) R$ 24,43 R$ 3,66/m3 R$  6,25/m 3 Total (demais localidades) R$ 54,97 R$ 8,24/m3 R$ 14,06/m 3 O proprietário de uma residência na Capital, que é servida por água e esgoto, recebeu a conta de água (incluindo a cobrança de água e de esgoto) referente ao mês de outubro de 2015 com valor muito superior ao de costume: R$ 254,80. Desconfiado de algum vazamento, consultou os dados da tabela acima para calcular o volume de água consumida em sua residência no referido mês. De acordo com esses dados, tal consumo foi de, em m3,
+**(FCC – TRT-11 – Analista Judiciario Tecnologia da Informacao – 2017)**
+Marlene, Jair, Renata, Alexandre e Patrícia fizeram uma prova de um concurso obtendo cinco pontuações diferentes. Sabe-se ainda que, nessa prova: − Marlene obteve mais pontos do que Alexandre, mas menos pontos do que Patrícia; − Jair obteve mais pontos do que Renata, que por sua vez obteve mais pontos do que Marlene. Sendo assim, é necessariamente correto que
 
-* **A)** 20.
-* **B)** 28.
-* **C)** 32.
-* **D)** 44.
-* **E)** 55.
+* **A)** Alexandre foi o que obteve menos pontos.
+* **B)** Patrícia foi a que obteve mais pontos.
+* **C)** Marlene obteve mais pontos do que Renata.
+* **D)** Jair obteve menos pontos do que Patrícia.
+* **E)** Renata obteve menos pontos do que Patrícia.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O cálculo aplicou a alíquota marginal sobre o consumo total cumulativo sem faixas.
-> - **B)** Incorreta. Erro na apuração do valor da faixa intermediária de consumo.
-> - **C)** Incorreta. Desconsiderou a taxa básica de disponibilidade da infraestrutura.
-> - **D)** Correta. O valor cobrado é calculado de forma particionada pelas faixas progressivas de consumo estabelecidas na tabela tarifária proporcional: cada faixa de volume possui seu valor unitário por metro cúbico, somando-se as parcelas correspondentes ao volume consumido para compor exatamente o valor faturado.
-> - **E)** Incorreta. Aplicação linear sem progressividade por faixas de consumo.
+> - **A)** **Correta.** Conforme fundamentado na seção *3.2 Grandezas Inversamente Proporcionais e Multiplicação em Linha Reta* deste guia, o erro mais comum do candidato afobado em regra de três simples é multiplicar todas as matrizes em cruz de forma mecânica! Antes de efetuar qualquer conta, teste mentalmente: *"Se eu aumentar o número de técnicos, vou precisar de mais ou de menos dias para fazer o mesmo trabalho?"*. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-11/2017) ao estabelecer que "Alexandre foi o que obteve menos pontos".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Patrícia foi a que obteve mais pontos". De acordo com a teoria estudada em *3.2 Grandezas Inversamente Proporcionais e Multiplicação em Linha Reta*, como serão necessários menos dias, a relação é inversamente proporcional e a multiplicação deve ser feita obrigatoriamente em linha reta (\$6 \times 8 = 8 \times D \implies D = 6\$).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Marlene obteve mais pontos do que Renata". De acordo com a teoria estudada em *1.2 Proporções e a Propriedade Fundamental*, uma proporção é formalmente definida como a igualdade matemática entre duas ou mais razões equivalentes.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Jair obteve menos pontos do que Patrícia". De acordo com a teoria estudada em *4.4 Diferença entre Pontos Percentuais e Variação Percentual*, pontos Percentuais (p.p.): É a diferença aritmética simples entre duas taxas percentuais (ex.: uma taxa que sobe de \$10\%\$ para \$12\%\$ aumentou \$2\$ pontos percentuais).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Renata obteve menos pontos do que Patrícia". De acordo com a teoria estudada em *4.4 Diferença entre Pontos Percentuais e Variação Percentual*, variação Percentual Relativa (\$\Delta\%\$): É a magnitude do crescimento em relação à taxa original de partida.
 >
-> **Gabarito: D**
+> **Gabarito: A**
 
 ---
 
 ### Teste 087
-**(FGV – TRT – Analista Judiciário (TI) – 2024)**  
-Com os algarismos 0, 1, 2, 3, 4 e 5 é possível formar a seguinte quantidade de números de 3 algarismos:
+**(FGV – TRT-16 – Analista Judiciario Area Administrativa Tecnologia da Informacao – 2022)**
+Anjos Tronchos (Caetano Veloso) Uns anjos tronchos do Vale do Silício Desses que vivem no escuro em plena luz Disseram: Vai ser virtuoso no vício Das telas dos azuis mais do que azuis Agora a minha história é um denso algoritmo Que vende venda a vendedores reais Neurônios meus ganharam novo outro ritmo E mais, e mais, e mais, e mais, e mais Primavera árabe E logo o horror Querer que o mundo acabe-se Sombras do amor Palhaços líderes brotaram macabros No império e nos seus vastos quintais Ao que revêm impérios já milenares Munidos de controles totais Anjos já mi, ou bi, ou trilionários Comandam só seus mi, bi, trilhões E nós, quando não somos otários Ouvimos Schoenberg, Webern, Cage, canções Ah, morena bela Estás aqui Sem pele, tela a tela Estamos aí Um post vil poderá matar Que é que pode ser salvação? Que nuvem, se nem espaço há? Nem tempo, nem sim, nem não Sim, nem não Mas há poemas como jamais Ou como algum poeta sonhou Nos tempos em que havia tempos atrás E eu vou, por que não? Eu vou, por que não? Eu vou Uns anjos tronchos do Vale do Silício Tocaram fundo o minimíssimo grão E enquanto nós nos perguntamos do início Miss Eilish faz tudo do quarto com o irmão. As afirmativas a seguir, acerca de referências que a letra da música faz, estão corretas, à exceção de uma. Assinale-a.
 
-* **A)** 120.
-* **B)** 144.
-* **C)** 156.
-* **D)** 180.
-* **E)** 216.
+* **A)** “Vale do Silício”, na Califórnia, EUA, é uma das maiores aglomerações de empresas com domínio de tecnologia de ponta do mundo.
+* **B)** “Primavera Árabe” é uma expressão criada para designar a onda de protestos que marcou os países árabes a partir do final do ano de 2010.
+* **C)** “Schoenberg, Webern, Cage” foram compositores eruditos com obra marcante no século XIX.
+* **D)** “E eu vou, por que não? Eu vou, por que não? Eu vou” cita versos do próprio Caetano em Alegria, Alegria.
+* **E)** “Miss Eilish” refere-se a Billie Eilish, jovem compositora e cantora, já ganhadora de Oscar e outros prêmios importantes, que compôs seu álbum de estreia no quarto do irmão, Finneas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. 120 corresponde a $5 \times 4 \times 3$, que desconsidera a possibilidade de repetição de algarismos.
-> - **B)** Incorreta. 144 resulta de erro na contagem da casa das centenas.
-> - **C)** Incorreta. 156 não é compatível com o princípio fundamental da contagem com algarismos disponíveis.
-> - **D)** Correta. Para formar números de 3 algarismos com os elementos $\{0, 1, 2, 3, 4, 5\}$: o primeiro algarismo (centena) não pode ser zero, logo há 5 escolhas possíveis $\{1, 2, 3, 4, 5\}$. O segundo algarismo (dezena) pode ser qualquer um dos 6 dígitos disponíveis $\{0, 1, 2, 3, 4, 5\}$ (6 escolhas). O terceiro algarismo (unidade) também pode ser qualquer um dos 6 dígitos (6 escolhas). Pelo Princípio Fundamental da Contagem: $5 \times 6 \times 6 = 180$ números.
-> - **E)** Incorreta. 216 ($6 \times 6 \times 6$) inclui números iniciados por zero (como 012), que são de dois algarismos.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“Vale do Silício”, na Califórnia, EUA, é uma das maiores aglomerações de empresas com domínio de tecnologia de...". De acordo com a teoria estudada em *1. Razões, Proporções e Propriedades Fundamentais*, seu domínio instrumentaliza a análise de contratos públicos, distribuição orçamentária, cálculo de auditorias e reajustes econômico-financeiros.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“Primavera Árabe” é uma expressão criada para designar a onda de protestos que marcou os países árabes a partir do...". De acordo com a teoria estudada em *3. Classificação de Grandezas e Regra de Três Simples*, a regra de três simples é o método algébrico que permite descobrir um quarto valor desconhecido a partir de três valores conhecidos de duas grandezas proporcionais.
+> - **C)** **Correta.** Conforme fundamentado na seção *3.2 Grandezas Inversamente Proporcionais e Multiplicação em Linha Reta* deste guia, o erro mais comum do candidato afobado em regra de três simples é multiplicar todas as matrizes em cruz de forma mecânica! Antes de efetuar qualquer conta, teste mentalmente: *"Se eu aumentar o número de técnicos, vou precisar de mais ou de menos dias para fazer o mesmo trabalho?"*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-16/2022) ao estabelecer que "“Schoenberg, Webern, Cage” foram compositores eruditos com obra marcante no século XIX".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“E eu vou, por que não? Eu vou, por que não? Eu vou” cita versos do próprio Caetano em Alegria, Alegria". De acordo com a teoria estudada em *4.1 Conceito e Fatores de Aumento e Desconto*, qualquer acréscimo ou dedução percentual pode ser calculado de modo instantâneo multiplicando o valor primitivo (\$V_0\$) pelo seu respectivo Fator Multiplicador (\$F\$).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“Miss Eilish” refere-se a Billie Eilish, jovem compositora e cantora, já ganhadora de Oscar e outros prêmios...". De acordo com a teoria estudada em *4.2 Aumentos e Descontos Sucessivos Cumulativos*, aumentos e descontos sucessivos incidem sempre em cascata sobre o valor recém-atualizado, e nunca sobre o valor original primitivo. Por esse motivo, taxas percentuais sucessivas jamais podem ser somadas ou subtraídas aritmeticamente.
 >
-> **Gabarito: D**
+> **Gabarito: C**
 
 ---
 
@@ -403,116 +353,98 @@ A base de referência percentual corresponde ao valor que ocupa o denominador da
 ---
 
 ### Teste 088
-**(FGV – TJ-MT – Analista Judiciário (TI) – 2024)**  
-Em uma caixa, há 1 bola branca, 2 bolas azuis e 3 bolas vermelhas. As bolas serão retiradas ao acaso, uma a uma, sem serem repostas, até que, pela primeira vez, entre as bolas retiradas, haja duas de uma mesma cor. A probabilidade de que isso ocorra na 3ª retirada é
+**(FGV – TJ-SC – Analista Administrativo – 2026)**
+O Departamento de Produção da empresa X apresentava consumo anual de 9.000 materiais diferentes. Após a aplicação da técnica da curva ABC, obteve-se a seguinte distribuição: - 720 itens correspondiam a 70% do valor anual do consumo; - 1.800 itens correspondiam a 20% do valor anual do consumo; - 6.480 itens correspondiam a 10% do valor anual do consumo. Com base nas premissas da curva ABC, assinale a afirmativa correta.
 
-* **A)** 9/60.
-* **B)** 10/60.
-* **C)** 11/60.
-* **D)** 12/60.
-* **E)** 13/60.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** Incorreta. A probabilidade composta sem reposição altera o espaço amostral no segundo evento.
-> - **B)** Incorreta. O cálculo tratou as retiradas como independentes com reposição.
-> - **C)** Incorreta. Omitiu as permutações de ordem das cores sorteadas.
-> - **D)** Correta. A probabilidade do evento é calculada pelo produto das probabilidades condicionais em retiradas sucessivas sem reposição sobre o espaço amostral decrescente ($6 \times 5 \times 4...$), combinada com o número de ordens favoráveis dos eventos.
-> - **E)** Incorreta. Valor que não reflete a razão entre casos favoráveis e casos possíveis.
->
-> **Gabarito: D**
-
----
-
-### Teste 089
-**(FGV – TRT – Analista Judiciário (TI) – 2024)**  
-Numa população, 50% das pessoas sofrem de um certo mal. Se um grupo de 5 pessoas for aleatoriamente sorteado, com reposição, dessa população, a probabilidade de que duas dessas pessoas sofram desse mal é aproximadamente igual a
-
-* **A)** 0,26
-* **B)** 0,31
-* **C)** 0,36
-* **D)** 0,41
-* **E)** 0,46
+* **A)** Os 6.480 itens compõem a classe A, pois, em razão de sua quantidade expressiva, demandam controles administrativos mais rigorosos.
+* **B)** Os 1.800 itens compõem a classe C, por ocuparem posição intermediária na ordenação dos materiais por valor de consumo.
+* **C)** Os 720 itens compõem a classe A e devem receber atenção especial da administração, por concentrarem a maior parcela do valor anual do consumo.
+* **D)** Para controlar 90% do valor de consumo, é necessário estabelecer controles rigorosos sobre a totalidade dos 9.000 itens da curva.
+* **E)** A classe C, por reunir o maior número de itens, justifica a aplicação das técnicas mais sofisticadas de gestão administrativa.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O cálculo linear desconsidera os coeficientes binomiais de combinações possíveis.
-> - **B)** Incorreta. Considerou apenas uma ordenação específica sem a permutação dos elementos amostrais.
-> - **C)** Incorreta. Calculou a probabilidade complementar incorreta.
-> - **D)** Correta. Trata-se de um experimento binomial clássico com $n = 5$ tentativas independentes, com probabilidade de sucesso $p = 0{,}5$ e fracasso $q = 0{,}5$. A probabilidade de obter exatamente $k$ pessoas afetadas obedece à distribuição binomial: $P(X = k) = \binom{n}{k} p^k (1-p)^{n-k}$, resultando no valor da alternativa D.
-> - **E)** Incorreta. Valor além do limite probabilístico da distribuição discreta.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os 6.480 itens compõem a classe A, pois, em razão de sua quantidade expressiva, demandam controles administrativos...". De acordo com a teoria estudada em *4.3 Inversão da Base de Referência Percentual*, a base de referência percentual corresponde ao valor que ocupa o denominador da razão comparativa (\$\text{Base} = 100\%\$). Ao inverter o ponto de vista da comparação, a base numérica altera-se, mudando compulsoriamente a taxa percentual.
+> - **B)** **Correta.** Conforme fundamentado na seção *3.1 Grandezas Diretamente Proporcionais e Multiplicação Cruzada* deste guia, exemplos: Número de auditores e quantidade de processos analisados (mesmo tempo); horas trabalhadas e páginas digitalizadas; consumo de combustível e distância percorrida. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-SC/2026) ao estabelecer que "Os 1.800 itens compõem a classe C, por ocuparem posição intermediária na ordenação dos materiais por valor de...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os 720 itens compõem a classe A e devem receber atenção especial da administração, por concentrarem a maior...". De acordo com a teoria estudada em *4.3 Inversão da Base de Referência Percentual*, se a grandeza \$E\$ é \$25\%\$ maior que a grandeza \$P\$.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Para controlar 90% do valor de consumo, é necessário estabelecer controles rigorosos sobre a totalidade dos 9.000...". De acordo com a teoria estudada em *4.1 Conceito e Fatores de Aumento e Desconto*, qualquer acréscimo ou dedução percentual pode ser calculado de modo instantâneo multiplicando o valor primitivo (\$V_0\$) pelo seu respectivo Fator Multiplicador (\$F\$).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A classe C, por reunir o maior número de itens, justifica a aplicação das técnicas mais sofisticadas de gestão...". De acordo com a teoria estudada em *3.2 Grandezas Inversamente Proporcionais e Multiplicação em Linha Reta*, o erro mais comum do candidato afobado em regra de três simples é multiplicar todas as matrizes em cruz de forma mecânica! Antes de efetuar qualquer conta, teste mentalmente: *"Se eu aumentar o número de técnicos, vou precisar de mais ou de menos dias para fazer o mesmo trabalho?"*.
 >
-> **Gabarito: D**
-
----
-
-### Teste 090
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Em determinado setor do Tribunal de Contas do Estado de Goiás, o número de processos em meio eletrônico é 25% maior do que o número de processos físicos em papel. 
-
-Em relação ao número de processos eletrônicos, o número de processos em papel é inferior em:
-
-* **A)** 15%
-* **B)** 20%
-* **C)** 25%
-* **D)** 30%
-* **E)** 33,3%
-
-
----
-
-> **Comentário Detalhado:**
-> Problema que exige a técnica de inversão da base de referência percentual:
->
-> 1. Atribuição de uma base de cálculo simples:
->     - Seja $P$ o número de processos em papel: adotemos $P = 100$.
->
-> 2. O número de processos eletrônicos ($E$) é 25% maior que $P$:
->    $$E = 100 + 0{,}25 \times 100 = 125$$
-> 3. O comando da questão indaga o percentual em que os processos em papel são inferiores **em relação ao total de processos eletrônicos** (o que define que o novo denominador da divisão passa a ser $E = 125$):
->    $$\text{Diferença absoluta} = E - P = 125 - 100 = 25$$
->    $$\text{Percentual relativo} = \frac{\text{Diferença}}{\text{Nova Base } E} = \frac{25}{125} = \frac{1}{5} = 0{,}20 = \mathbf{20\%}$$
->    Portanto, o número de processos físicos em papel é exatamente **20% inferior** ao de processos eletrônicos.
->
-> Análise das alternativas:
->
-> - **A)** Incorreta. Estimativa arbitrária sem respaldo nos cálculos.
-> - **B)** Correta. Razão precisa de $\frac{25}{125} = 0{,}20 = 20\%$.
-> - **C)** Incorreta. A pegadinha clássica em que o candidato repete os 25% citados no texto, ignorando que o referencial da comparação foi invertido (de $P$ para $E$).
-> - **D)** Incorreta. Valor incorreto.
-> - **E)** Incorreta. Confusão com a relação matemática inversa de uma alta de 33,3% (que gera redução simétrica de 25%).
-> 
 > **Gabarito: B**
 
 ---
 
-### Teste 091
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Em determinado município goiano, a alíquota do Imposto Sobre Serviços (ISS) incidente sobre serviços de informática passou de $2\%$ para $3\%$ da receita bruta. Comparando a alíquota final com a inicial, verifica-se que houve um acréscimo de:
+### Teste 089
+**(FCC – TRT-11 – Analista Judiciario Tecnologia da Informacao – 2017)**
+Considere que em um projeto foi utilizada a métrica com base na contagem de Pontos de Função (PF). O projeto foi estimado em 100 PF. Em uma determinada fase, que corresponde a 20% do projeto: − trabalham 4 pessoas; − a produtividade média é de 20 horas/PF; − a jornada diária é de 8 horas, 5 dias por semana; − o valor por 1 hora de trabalho é R$ 50,00. Com base nos dados relativos à fase, o esforço total em horas, o prazo em dias e o custo do projeto podem ser estimados e correspondem, correta e respectivamente, a:
 
-* **A)** $1$ ponto percentual e uma variação percentual relativa de $50\%$.
-* **B)** $1\%$ absoluto e uma variação percentual relativa de $33{,}3\%$.
-* **C)** $50$ pontos percentuais e uma variação percentual relativa de $1\%$.
-* **D)** $1$ ponto percentual e uma variação percentual relativa de $100\%$.
-* **E)** $1{,}5$ ponto percentual e uma variação percentual relativa de $25\%$.
-
+* **A)** 500 horas − 12.5 dias − R$ 25.000,00.
+* **B)** 400 horas − 10 dias − R$ 20.000,00.
+* **C)** 480 horas − 12 dias − R$ 24.000,00.
+* **D)** 200 horas − 5 dias − R$ 10.000,00.
+* **E)** 600 horas − 15 dias − R$ 30.000,00.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **Distinção Técnica entre Pontos Percentuais e Variação Relativa:**  
->   - **Pontos Percentuais (Diferença Aritmética Absoluta):**  
->     $$\Delta = 3\% - 2\% = 1 \text{ ponto percentual (p.p.)}$$  
->   - **Variação Percentual Relativa (Aumento em relação à base original de $2\%$):**  
->     $$V = \frac{\text{Valor Final} - \text{Valor Inicial}}{\text{Valor Inicial}} = \frac{3 - 2}{2} = \frac{1}{2} = 0{,}50 = 50\%$$  
-> - **Conclusão:** O aumento foi de 1 ponto percentual e representou uma variação percentual relativa de $50\%$ sobre a alíquota anterior (Alternativa A).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "500 horas − 12.5 dias − R$ 25.000,00". De acordo com a teoria estudada em *2.3 Divisão Proporcional Composta ou Mista*, ocorre quando a partilha obedece simultaneamente a critérios diretos (como tempo de casa, horas trabalhadas) e inversos (como número de faltas, processos pendentes, dias de atraso).
+> - **B)** **Correta.** Conforme fundamentado na seção *4.3 Inversão da Base de Referência Percentual* deste guia, a base de referência percentual corresponde ao valor que ocupa o denominador da razão comparativa (\$\text{Base} = 100\%\$). Ao inverter o ponto de vista da comparação, a base numérica altera-se, mudando compulsoriamente a taxa percentual. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-11/2017) ao estabelecer que "400 horas − 10 dias − R$ 20.000,00".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "480 horas − 12 dias − R$ 24.000,00". De acordo com a teoria estudada em *3.1 Grandezas Diretamente Proporcionais e Multiplicação Cruzada*, exemplos: Número de auditores e quantidade de processos analisados (mesmo tempo); horas trabalhadas e páginas digitalizadas; consumo de combustível e distância percorrida.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "200 horas − 5 dias − R$ 10.000,00". De acordo com a teoria estudada em *4.2 Aumentos e Descontos Sucessivos Cumulativos*, aumentos e descontos sucessivos incidem sempre em cascata sobre o valor recém-atualizado, e nunca sobre o valor original primitivo. Por esse motivo, taxas percentuais sucessivas jamais podem ser somadas ou subtraídas aritmeticamente.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "600 horas − 15 dias − R$ 30.000,00". De acordo com a teoria estudada em *2. Divisão em Partes Proporcionais*, a partilha proporcional consiste em distribuir uma quantia total \$V\$ entre vários beneficiários ou centros de custo em conformidade com critérios predeterminados de mérito, produtividade ou penalidade.
 >
-> **Gabarito: A**
+> **Gabarito: B**
+
+---
+
+### Teste 090
+**(FGV – TRT-1 – Analista Judiciario Area Administrativa – 2024)**
+A cada vértice de um pentágono convexo é atribuído um valor positivo. O valor de cada lado e de cada diagonal do pentágono é definido como a soma dos valores dos vértices correspondentes. O valor do pentágono é definido como a soma dos valores de todos os seus lados e de todas as suas diagonais. Se a soma dos valores atribuídos aos vértices de um pentágono convexo é igual a 120, o valor do pentágono é:
+
+* **A)** 600;
+* **B)** 540;
+* **C)** 480;
+* **D)** 420;
+* **E)** 360.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "600". De acordo com a teoria estudada em *1.3 Propriedade da Soma dos Termos e Constante de Proporcionalidade*, em uma série de razões iguais, a soma dos antecedentes dividida pela soma dos consequentes é igual a qualquer uma das razões primitivas, correspondendo à constante de proporcionalidade \$k\$.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "540". De acordo com a teoria estudada em *4. Porcentagem, Fatores Multiplicadores e Variações*, a porcentagem (ou percentagem) é uma razão cujo consequente (denominador) é igual a 100.
+> - **C)** **Correta.** Conforme fundamentado na seção *3. Classificação de Grandezas e Regra de Três Simples* deste guia, a regra de três simples é o método algébrico que permite descobrir um quarto valor desconhecido a partir de três valores conhecidos de duas grandezas proporcionais. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-1/2024) ao estabelecer que "480".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "420". De acordo com a teoria estudada em *4.1 Conceito e Fatores de Aumento e Desconto*, qualquer acréscimo ou dedução percentual pode ser calculado de modo instantâneo multiplicando o valor primitivo (\$V_0\$) pelo seu respectivo Fator Multiplicador (\$F\$).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "360". De acordo com a teoria estudada em *4.2 Aumentos e Descontos Sucessivos Cumulativos*, aumentos e descontos sucessivos incidem sempre em cascata sobre o valor recém-atualizado, e nunca sobre o valor original primitivo. Por esse motivo, taxas percentuais sucessivas jamais podem ser somadas ou subtraídas aritmeticamente.
+>
+> **Gabarito: C**
+
+---
+
+### Teste 091
+**(FCC – TRT-4 – Analista Judiciario Tecnologia da Informacao – 2015)**
+Para produzir 900 catálogos, cada um de 240 páginas, uma gráfica consome 250 kg de papel. Se os catálogos produzidos tivessem 180 páginas cada um, o número de catálogos que poderiam ser produzidos com 780 kg de papel seria igual a
+
+* **A)** 2985.
+* **B)** 3280.
+* **C)** 3744.
+* **D)** 2864.
+* **E)** 3426.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2985". De acordo com a teoria estudada em *4. Porcentagem, Fatores Multiplicadores e Variações*, a porcentagem (ou percentagem) é uma razão cujo consequente (denominador) é igual a 100.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3280". De acordo com a teoria estudada em *4.1 Conceito e Fatores de Aumento e Desconto*, qualquer acréscimo ou dedução percentual pode ser calculado de modo instantâneo multiplicando o valor primitivo (\$V_0\$) pelo seu respectivo Fator Multiplicador (\$F\$).
+> - **C)** **Correta.** Conforme fundamentado na seção *3.1 Grandezas Diretamente Proporcionais e Multiplicação Cruzada* deste guia, exemplos: Número de auditores e quantidade de processos analisados (mesmo tempo); horas trabalhadas e páginas digitalizadas; consumo de combustível e distância percorrida. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-4/2015) ao estabelecer que "3744".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2864". De acordo com a teoria estudada em *4.2 Aumentos e Descontos Sucessivos Cumulativos*, aumentos e descontos sucessivos incidem sempre em cascata sobre o valor recém-atualizado, e nunca sobre o valor original primitivo. Por esse motivo, taxas percentuais sucessivas jamais podem ser somadas ou subtraídas aritmeticamente.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3426". De acordo com a teoria estudada em *A Propriedade Fundamental das Proporções:*, em qualquer proporção válida, o produto dos extremos é rigorosamente igual ao produto dos meios.
+>
+> **Gabarito: C**
 
 ---
 

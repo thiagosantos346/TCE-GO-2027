@@ -113,26 +113,26 @@ A governança assegura a integração bidirecional contínua entre a estratégia
 ---
 
 ### Teste 465
-**(FGV – TRT – Analista Judiciário (TI) – 2024)**  
-Assinale a opção que descreve corretamente um ponto principal característico de COBIT 2019, ITIL v4 e PMBOK.
+**(FCC – TRT-13 – Analista Judiciario Tecnologia da Informacao – 2014)**
+Observe as seguintes considerações do modelo de maturidade do processo Cobit 4.1, Definir um Plano Estratégico de TI: I. O planejamento estratégico de TI é uma prática padrão cujas exceções são detectadas pela Direção. É uma função da Direção com nível sênior de responsabilidade. A Direção é capaz de monitorar o processo de planejamento estratégico de TI, tomar decisões baseadas nesse processo e medir sua efetividade. Os planejamentos de TI, de curto e longo prazos, são cascateados de cima para baixo na organização, com atualizações quando necessário. A estratégia de TI e a estratégia global da organização estão se tornando gradativamente mais coordenadas por abordar processos de negócio, capacidades de valor agregado e alavancar o uso de aplicativos e tecnologias na reengenharia dos processos de negócios. Há um processo bem definido para determinar o uso dos recursos internos e externos no desenvolvimento de sistema e operações. II. O planejamento estratégico de TI é compartilhado com a Direção do Negócio conforme a necessidade. A atualização dos planos de TI acontece em resposta aos pedidos da Direção. As decisões estratégicas são tomadas projeto a projeto, sem consistência com uma estratégia corporativa. Os riscos e benefícios do usuário nas principais decisões estratégicas são determinados de forma intuitiva. As considerações I e II referem-se, respectivamente, aos níveis
 
-* **A)** COBIT 2019 é centrado na governança de TI, ITIL v4 foca na gestão de serviços de TI e PMBOK orienta sobre a gestão de projetos tradicionais.
-* **B)** COBIT 2019 é um gui a para auditoria de TI, ITIL v4 é um framework para desenvolvimento de software, e PMBOK é uma metodologia ágil.
-* **C)** COBIT 2019, ITIL v4 e PMBOK são frameworks que priorizam a implementação de práticas ágeis e DevOps em suas abordagens.
-* **D)** COBIT 2019, IT IL v4 e PMBOK são estruturas voltadas exclusivamente para o controle financeiro de projetos de TI.
-* **E)** COBIT 2019 define princípios de governança corporativa, ITIL v4 prioriza a gestão de serviços de TI focada no cliente, e PMBOK foca na entrega de valor através da gestão de projetos. Desenvolvimento Web e Mobile
+* **A)** Gerenciado e Mensurável - Inicial/ Ad hoc
+* **B)** Otimizado - Processo Definido
+* **C)** Gerenciado e Mensurável - Repetível, porém Intuitivo
+* **D)** Processo Definido - Inicial/ Ad hoc
+* **E)** Inicial/ Ad hoc - Inexistente
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Correta. O COBIT 2019 foca primordialmente na governança corporativa de informações e tecnologia (distinguindo os domínios de governança EDM e gestão), a ITIL v4 adota o Sistema de Valor de Serviço (SVS) centrado na co-criação de valor através de 34 práticas, e o PMBOK foca nas entregas de projetos e princípios de entrega de valor.
-> - **B)** Incorreta. ITIL não é um framework exclusivo de governança estratégica corporativa.
-> - **C)** Incorreta. O COBIT não é voltado ao gerenciamento operacional de chamados ou código-fonte.
-> - **D)** Incorreta. PMBOK não substitui governança institucional e gestão de serviços contínuos.
-> - **E)** Incorreta. ITIL não se limita a gerenciamento de projetos temporários.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Gerenciado e Mensurável - Inicial/ Ad hoc". De acordo com a teoria estudada em *1.2 Alinhamento Estratégico e Criação de Valor Público*, isso significa garantir que os recursos aplicados em tecnologia resultem em fiscalizações mais ágeis, auditorias digitais baseadas em cruzamento massivo de dados, transparência ativa ao cidadão e prestação jurisdicional de excelência.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Otimizado - Processo Definido". De acordo com a teoria estudada em *Níveis de Capacidade de Processo (CPM / CMMI: 0 a 5)*, 3: Definido (*Defined*) — O processo é bem caracterizado, compreendido e executado com base em procedimentos padronizados em toda a organização (*organizational standards*).
+> - **C)** **Correta.** Conforme fundamentado na seção *Tabela Comparativa dos Princípios do COBIT 2019* deste guia, 1. Prover valor aos stakeholders: O sistema deve gerar valor a partir do uso de I&T balanceando benefícios, riscos e uso otimizado de recursos.: 1. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-13/2014) ao estabelecer que "Gerenciado e Mensurável - Repetível, porém Intuitivo".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Processo Definido - Inicial/ Ad hoc". De acordo com a teoria estudada em *Níveis de Capacidade de Processo (CPM / CMMI: 0 a 5)*, 2: Gerenciado (*Managed*) — O processo é planejado, executado, monitorado e ajustado para atingir objetivos específicos. Os produtos de trabalho são controlados e mantidos adequadamente.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Inicial/ Ad hoc - Inexistente". De acordo com a teoria estudada em *Níveis de Capacidade de Processo (CPM / CMMI: 0 a 5)*, 4: Quantitativamente Gerenciado (*Quantitatively Managed*) — O processo é controlado quantitativamente por meio de métricas estatísticas e técnicas de controle de qualidade, sendo altamente previsível.
 >
-> **Gabarito: A**
+> **Gabarito: C**
 
 ---
 
@@ -169,26 +169,25 @@ sequenceDiagram
 ---
 
 ### Teste 466
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** A norma ABNT NBR ISO/IEC 38500:2024 define que a governança de Tecnologia da Informação pela alta administração é exercida por meio de um ciclo contínuo de três tarefas fundamentais (modelo EDM). Acerca desse modelo e dos papéis desempenhados pelo órgão de governança, assinale a alternativa correta:  
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Ciencia de Dados – 2024)**
+A Governança Corporativa de TI busca fazer o alinhamento entre a área de Tecnologia da Informação (TI) em uma organização com os objetivos estratégicos e operacionais da empresa. Para isso, algumas normas buscam caminhos para alcançar tal alinhamento. O principal objetivo da norma ABNT NBR ISO/IEC 38500 em Governança Corporativa de TI é
 
-* **A)** Na tarefa de Dirigir (*Direct*), o órgão de governança assume diretamente a programação de scripts e o deploy contínuo de aplicações em ambientes de produção.
-* **B)** Na tarefa de Avaliar (*Evaluate*), o órgão de governança examina e julga o uso presente e futuro da TI, considerando as estratégias institucionais, propostas de projetos e demandas das partes interessadas (*stakeholders*).
-* **C)** O modelo EDM determina que a tarefa de Monitorar (*Monitor*) é dispensável caso a organização possua certificação ISO 9001 e auditoria interna constituída.
-* **D)** A governança corporativa de TI conforme a ISO/IEC 38500 limita-se a organizações privadas com fins lucrativos, sendo vedada sua aplicação em tribunais de contas ou autarquias públicas.
-* **E)** A tarefa de Dirigir (*Direct*) consiste exclusivamente na realização de auditorias fiscais pós-fato, sem competência para emitir políticas ou planos de investimento.
-
+* **A)** definir requisitos técnicos específicos para sistemas de TI.
+* **B)** estabelecer diretrizes para a gestão eficaz da governança de TI.
+* **C)** fornecer procedimentos detalhados para auditoria de segurança da informação.
+* **D)** implementar práticas para desenvolvimento ágil de software.
+* **E)** padronizar protocolos de rede para interoperabilidade entre sistemas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O papel de *Direct* consiste em definir políticas institucionais, prioridades e direcionamentos estratégicos, jamais na programação direta ou intervenção operacional diária de TI.
-> - **B)** **Correta.** A avaliação (*Evaluate*) examina continuamente as circunstâncias presentes e futuras, considerando demandas dos stakeholders, tendências tecnológicas, requisitos legais e restrições financeiras.
-> - **C)** Incorreta. O monitoramento contínuo de conformidade e desempenho é tarefa indispensável e mandatória da governança.
-> - **D)** Incorreta. A norma ABNT NBR ISO/IEC 38500 aplica-se universalmente a qualquer organização pública ou privada, independente de porte ou finalidade lucrativa.
-> - **E)** Incorreta. Dirigir é atribuir responsabilidades, definir estratégias e planos de TI de forma proativa.
-> 
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "definir requisitos técnicos específicos para sistemas de TI". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, aSSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. ABNT NBR ISO/IEC 38500:2018: Governança corporativa de tecnologia da informação. Rio de Janeiro: ABNT, 2018.
+> - **B)** **Correta.** Conforme fundamentado na seção *2.1 Escopo e Modelo de Governança (Ciclo EDM)* deste guia, a norma ABNT NBR ISO/IEC 38500:2024 fornece princípios e diretrizes para os órgãos deliberativos e membros da alta administração das organizações (públicas ou privadas, de qualquer porte ou setor) sobre a utilização aceitável, eficaz e eficiente da TI. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "estabelecer diretrizes para a gestão eficaz da governança de TI".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "fornecer procedimentos detalhados para auditoria de segurança da informação". De acordo com a teoria estudada em *3.2 Componentes do Sistema de Governança (7 Componentes)*, informação: Dados e fluxos informacionais consumidos e produzidos pela organização (relevância, segurança, precisão, completude).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "implementar práticas para desenvolvimento ágil de software". De acordo com a teoria estudada em *Tabela Comparativa: Governança de TI versus Gestão de TI*, responsável Típico: Alta Administração, Conselho de Administração, Plenário e Comitês Estratégicos de Governança. — Diretoria Executiva de TI (CIO/DTI), gerentes de projetos, equipes de desenvolvimento e suporte.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "padronizar protocolos de rede para interoperabilidade entre sistemas". De acordo com a teoria estudada em *Tabela Comparativa: Governança de TI versus Gestão de TI*, objetivo Maior: Criação de Valor: Realização de benefícios com balanceamento e otimização de riscos e recursos. — Eficiência técnica, cumprimento estrito de SLAs, produtividade e estabilidade dos sistemas em produção.
+>
 > **Gabarito: B**
 
 ---
@@ -212,24 +211,24 @@ A ISO/IEC 38500 prescreve **seis princípios** fundamentais que orientam a tomad
 ---
 
 ### Teste 467
-**(FGV – TCE-GO – Analista de Controle Externo (TI) – 2024)**  
-Uma empresa de TI está considerando a terceirização de algumas de suas funções de TI para melhorar a eficiência e reduzir custos. Assinale a opção que descreve corretamente uma etapa crítica que tem que ser abordada antes de implementar a terceirização de TI.
+**(FCC – TRT-2 – Analista Judiciario Tecnologia da Informacao – 2014)**
+Considere as afirmativas sobre a Norma NBR ISO/IEC 12207 e a Norma ISO/IEC 20968. I. A Norma NBR ISO/IEC 12207: 2009 possui duas seções principais para tratar os processos de software: Processos de Contexto de Sistema, para ser utilizado na implementação de um produto ou de um serviço de software que seja elemento de um sistema maior, e Processos Específicos de Software, para lidar com produto ou serviço de software ou um sistema de software independente. II. O método definido pela Norma ISO/IEC 20968: 2002 pode ser usado para medir o tamanho funcional de qualquer aplicação de software que possa ser descrita em termos de transações lógicas, cada uma composta por um componente de entrada, processo e saída. As regras de tamanho foram designadas para aplicações de software do domínio de sistemas de informação de negócios, nas quais o componente de processamento de cada transação tende a ser determinado por considerações de armazenamento ou recuperação de informação. III. Há duas categorias de processos de projeto, de acordo com a Norma NBR ISO/IEC 12207: 2009, Processos de Gestão de Projeto, utilizados para planejar, executar, avaliar e controlar o progresso de um projeto e Processos de Apoio ao Projeto, que fornecem um conjunto de tarefas específicas focadas na execução de um objetivo de gerenciamento especializado. Está correto o que consta APENAS em
 
-* **A)** Reduzir o quadro de pessoal interno para garantir economias de custo substanciais antes de firmar qualquer contrato de terceirização.
-* **B)** Implementar uma ferramenta de software que autom atize completamente os processos de TI.
-* **C)** Conduzir uma análise detalhada das necessidades da empresa e do impacto da terceirização no atual ambiente de TI e nos funcionários envolvidos.
-* **D)** Aumentar os investimentos em infraestrutura de TI para permitir a melhor gestão de empresas terceirizadas com capacidades tecnológicas avançadas.
-* **E)** Focar nas tendências de mercado. TRIBUNAL DE CONTAS DO ESTADO DE GOIÁS FGV CONHECIMENTO ANALISTA DE CONTROLE EXTERNO - TECNOLOGIA DA INFORMACAO – MANHÃ TIPO BRANCA – PÁGINA 13
+* **A)** I e II.
+* **B)** III.
+* **C)** II e III.
+* **D)** I e III.
+* **E)** I.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A governança e as decisões estratégicas de TI são indelegáveis.
-> - **B)** Incorreta. Riscos de conformidade jurídica e segurança da informação permanecem sob responsabilidade primária da organização contratante.
-> - **C)** Correta. Na terceirização de serviços de TI em organizações e órgãos de controle, é fundamental manter internamente a capacidade de governança, o planejamento estratégico, o monitoramento e a fiscalização técnica dos contratos (gestão de fornecedores), assegurando alinhamento aos objetivos do negócio.
-> - **D)** Incorreta. Custos indiretos de gestão contratual devem ser rigorosamente considerados.
-> - **E)** Incorreta. Terceirização sem governança acarreta dependência tecnológica (*vendor lock-in*) e riscos de descontinuidade.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e II". De acordo com a teoria estudada em *Tabela Comparativa: Governança de TI versus Gestão de TI*, objetivo Maior: Criação de Valor: Realização de benefícios com balanceamento e otimização de riscos e recursos. — Eficiência técnica, cumprimento estrito de SLAs, produtividade e estabilidade dos sistemas em produção.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "III". De acordo com a teoria estudada em *Tabela Comparativa: Governança de TI versus Gestão de TI*, a banca frequentemente tenta confundir o candidato atribuindo à Governança tarefas de execução (como configurar roteadores, gerenciar chamados de help desk ou planejar sprints).
+> - **C)** **Correta.** Conforme fundamentado na seção *2.1 Escopo e Modelo de Governança (Ciclo EDM)* deste guia, a norma ABNT NBR ISO/IEC 38500:2024 fornece princípios e diretrizes para os órgãos deliberativos e membros da alta administração das organizações (públicas ou privadas, de qualquer porte ou setor) sobre a utilização aceitável, eficaz e eficiente da TI. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-2/2014) ao estabelecer que "II e III".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e III". De acordo com a teoria estudada em *Tabela Comparativa: Governança de TI versus Gestão de TI*, atividades Centrais: EDM: Avaliar (*Evaluate*), Dirigir (*Direct*) e Monitorar (*Monitor*). — PBRM: Planejar (*Plan*), Construir (*Build*), Executar (*Run*) e Monitorar (*Monitor*).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, aSSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. ABNT NBR ISO/IEC 38500:2018: Governança corporativa de tecnologia da informação. Rio de Janeiro: ABNT, 2018.
 >
 > **Gabarito: C**
 
@@ -283,27 +282,26 @@ flowchart LR
 ---
 
 ### Teste 468
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** O framework COBIT 2019 estruturou seus fundamentos separando os princípios aplicáveis ao "Sistema de Governança" dos princípios aplicáveis ao "Framework de Governança". A respeito dessa classificação e dos componentes de governança do COBIT 2019, assinale a afirmativa correta:  
+**(FGV – TRF-1 – Analista Judiciario Area Apoio Especializado Especialidade Suporte Em Tecnologia da Informacao – 2024)**
+Os princípios de governança do COBIT 2019® descrevem os principais requisitos de um sistema de governança para informações e tecnologia da organização. O princípio “sistema de governança dinâmico” determina que um sistema de governança deve:
 
-* **A)** "Baseado em um modelo conceitual", "Aberto e flexível" e "Alinhado aos principais padrões" constituem os 3 princípios do Framework de Governança.
-* **B)** O princípio de "Prover valor aos stakeholders" pertence com exclusividade ao Framework de Governança, não tendo qualquer relação com o Sistema de Governança.
-* **C)** O COBIT 2019 extinguiu os componentes organizacionais, considerando que processos de software são os únicos elementos necessários para garantir uma governança robusta.
-* **D)** O princípio do "Sistema dinâmico" postula que o sistema de governança, uma vez implementado no órgão público, deve permanecer estático e imutável por no mínimo dez anos.
-* **E)** A separação conceitual entre governança e gestão foi descontinuada na versão 2019, passando ambos a serem regidos pelo mesmo princípio unificado de desenvolvimento ágil.
-
+* **A)** atender às necessidades das partes interessadas;
+* **B)** distinguir claramente entre as atividades e estruturas de governança e gestão;
+* **C)** ser construído a partir de vários componentes, que podem ser de diferentes tipos e que trabalham juntos;
+* **D)** ser capaz de considerar os impactos da alteração de um ou mais fatores de desenho no sistema de governança;
+* **E)** ser adaptado para as necessidades da organização usando um conjunto de fatores de desenho como parâmetros para adaptar e priorizar os componentes do sistema de governança.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** O COBIT 2019 estabelece exatamente 3 princípios para o Framework de Governança: 1. Baseado em um modelo conceitual; 2. Aberto e flexível; 3. Alinhado aos principais padrões e normas mundiais (ISO, ITIL, TOGAF, etc.).
-> - **B)** Incorreta. "Prover valor aos stakeholders" é o primeiro e mais importante princípio do Sistema de Governança (e não do framework).
-> - **C)** Incorreta. O COBIT 2019 define 7 componentes holísticos (Processos; Estruturas Organizacionais; Princípios, Políticas e Estruturas; Informação; Cultura, Ética e Comportamento; Pessoas, Habilidades e Competências; Serviços, Infraestrutura e Aplicações). Ele rejeita a visão míope de focar apenas em processos.
-> - **D)** Incorreta. O princípio do "Sistema dinâmico" afirma exatamente o contrário: sempre que um ou mais fatores de design mudarem (ex.: nova legislação, alteração de diretoria, mudança tecnológica), o impacto sobre a governança de TI deve ser reavaliado dinamicamente.
-> - **E)** Incorreta. A governança distinta da gestão é mantida explicitamente como o Princípio 4 do Sistema de Governança no COBIT 2019.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "atender às necessidades das partes interessadas". De acordo com a teoria estudada em *3.4 Cascatamento de Objetivos (Goals Cascade)*, o mecanismo do COBIT 2019 traduz as necessidades das partes interessadas em ações e objetivos práticos de TI por meio de quatro níveis em cascata.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "distinguir claramente entre as atividades e estruturas de governança e gestão". De acordo com a teoria estudada em *Tabela Comparativa dos Princípios do COBIT 2019*, 3. Sistema dinâmico: Sempre que um ou mais fatores de design mudarem, o impacto sobre o sistema de governança deve ser reavaliado.: 3. Alinhado aos principais padrões: Deve harmonizar-se com os padrões de referência (ISO, ITIL, TOGAF, PMBOK, NIST).
+> - **C)** **Correta.** Conforme fundamentado na seção *Tabela Comparativa dos Princípios do COBIT 2019* deste guia, 2. Abordagem holística: O sistema é construído a partir de múltiplos tipos de componentes integrados entre si.: 2. Aberto e flexível: Deve permitir a inclusão de novos conteúdos e tecnologias emergentes sem desestruturar o núcleo original. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF-1/2024) ao estabelecer que "ser construído a partir de vários componentes, que podem ser de diferentes tipos e que trabalham juntos".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ser capaz de considerar os impactos da alteração de um ou mais fatores de desenho no sistema de governança". De acordo com a teoria estudada em *Tabela Comparativa dos Princípios do COBIT 2019*, 1. Prover valor aos stakeholders: O sistema deve gerar valor a partir do uso de I&T balanceando benefícios, riscos e uso otimizado de recursos.: 1.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ser adaptado para as necessidades da organização usando um conjunto de fatores de desenho como parâmetros para...". De acordo com a teoria estudada em *Tabela Comparativa dos Princípios do COBIT 2019*, 5. Adaptado às necessidades corporativas: Deve ser customizado conforme o contexto organizacional por meio de fatores de design (*tailoring*).: —.
+>
+> **Gabarito: C**
 
 ---
 
@@ -322,24 +320,24 @@ Para construir, operar e manter um sistema de governança funcional, o COBIT 201
 ---
 
 ### Teste 469
-**(FGV – TRT – Analista Judiciário (TI) – 2024)**  
-Quando uma organização busca implementar um Planejamento Estratégico de Tecnologia da Informação (PETI), é essencial considerar o alinhamento estratégico entre a área de TI e os negócios. Marque a ação que garante esse alinhamento e apoia a governança de TI.
+**(FGV – TRT-24 – Tecnico Judiciario Area Administrativa Sem Especialidade – 2025)**
+A governança pública organizacional envolve a aplicação de práticas de liderança, estratégia e controle para que os gestores e as partes interessadas possam avaliar, direcionar e monitorar a atuação da organização pública, com o objetivo de melhorar os resultados entregues aos cidadãos, especialmente em serviços e políticas públicas. Assinale a opção que apresenta, corretamente, a diferença entre governança e gestão.
 
-* **A)** Implementação de práticas ITIL em comunicação com as equipes de operações de infraestrutura.
-* **B)** Desenvolvimento de políticas e procedimentos de TI que reflitam as estratégias definidas pelo framework ITIL
-* **C)** Centralização das decisões de TI usand o o framework COBIT combinado com ITIL para as áreas de gestão.
-* **D)** Reestruturação da equipe de TI em alinhamento com operações e desenvolvimento.
-* **E)** Integração dos frameworks COBIT e ITIL para estabelecer processos que suportem os objetivos estratégicos de negócios e TI.
+* **A)** A governança concentra-se em planejar e executar atividades, enquanto a gestão é voltada para avaliar e monitorar a eficácia organizacional.
+* **B)** A governança foca em aspectos como eficácia e eficiência, enquanto a gestão ocupa-se da estratégia e do planejamento organizacional.
+* **C)** A governança está relacionada à avaliação, à direção e ao monitoramento em prol da efetividade, enquanto a gestão envolve planejar, executar e controlar as atividades organizacionais visando à eficiência.
+* **D)** A gestão é responsável por avaliar a eficácia econômica e monitorar as atividades, enquanto a governança trata de planejar e controlar os recursos.
+* **E)** A governança e a gestão são processos idênticos, sem distinção clara entre suas funções dentro da organização.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O PETI não deve ser elaborado isoladamente sem considerar as estratégias da organização.
-> - **B)** Incorreta. Indicadores puramente operacionais não asseguram alinhamento estratégico corporativo.
-> - **C)** Incorreta. O PETI não se restringe a aquisições pontuais de hardware.
-> - **D)** Incorreta. O planejamento deve envolver todas as áreas finalísticas institucionais.
-> - **E)** Correta. No Planejamento Estratégico de Tecnologia da Informação (PETI), o alinhamento estratégico entre as metas institucionais de negócio e as iniciativas de TIC é essencial, assegurando priorização de investimentos e geração de valor público.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A governança concentra-se em planejar e executar atividades, enquanto a gestão é voltada para avaliar e monitorar...". De acordo com a teoria estudada em *Tabela Comparativa: Governança de TI versus Gestão de TI*, atividades Centrais: EDM: Avaliar (*Evaluate*), Dirigir (*Direct*) e Monitorar (*Monitor*). — PBRM: Planejar (*Plan*), Construir (*Build*), Executar (*Run*) e Monitorar (*Monitor*).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A governança foca em aspectos como eficácia e eficiência, enquanto a gestão ocupa-se da estratégia e do...". De acordo com a teoria estudada em *2.2 Os Seis Princípios da Boa Governança de TI*, 4: Desempenho (*Performance*) — A TI atende às necessidades da organização, entregando serviços com os níveis de serviço e capacidade exigidos pelo negócio. — Monitoramento contínuo de disponibilidade, tempo de resposta e eficácia dos sistemas em produção.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A governança está relacionada à avaliação, à direção e ao monitoramento em prol da efetividade, enquanto a gestão...". De acordo com a teoria estudada em *Tabela Comparativa: Governança de TI versus Gestão de TI*, objetivo Maior: Criação de Valor: Realização de benefícios com balanceamento e otimização de riscos e recursos. — Eficiência técnica, cumprimento estrito de SLAs, produtividade e estabilidade dos sistemas em produção.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A gestão é responsável por avaliar a eficácia econômica e monitorar as atividades, enquanto a governança trata de...". De acordo com a teoria estudada em *1.1 Distinção Essencial entre Governança e Gestão*, trata-se de responsabilidades, papéis e ciclos operacionais completamente distintos, embora fortemente integrados.
+> - **E)** **Correta.** Conforme fundamentado na seção *Tabela Comparativa dos Princípios do COBIT 2019* deste guia, 4. Governança distinta da gestão: O sistema mantém clara separação estrutural e conceitual entre governança e gestão.: —. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "A governança e a gestão são processos idênticos, sem distinção clara entre suas funções dentro da organização".
 >
 > **Gabarito: E**
 
@@ -368,27 +366,26 @@ Uma **Área de Foco** descreve um tópico, domínio de governança ou desafio te
 ---
 
 ### Teste 470
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** No COBIT 2019, o sistema de governança deve ser moldado sob medida para cada organização, recusando a premissa de 'tamanho único' (*one size fits all*). Para essa personalização e adaptação (*tailoring*), o framework utiliza os Fatores de Design (*Design Factors*). Sobre os Fatores de Design e as Áreas de Foco no COBIT 2019, assinale a alternativa correta:  
+**(FGV – TJ-MT – Analista Judiciario Tecnologia da Informacao – 2024)**
+A governança de dados é um conjunto de práticas, processos e políticas que garantem a disponibilidade, integridade, segurança e usabilidade dos dados dentro de uma organização. Ela envolve a criação de regras e a definição de responsabilidades para a gestão dos dados ao longo de seu ciclo de vida. Diferentes tipos de governança de dados podem ser implementados, dependendo dos objetivos da organização e dos requisitos regulatórios. No contexto de Governança de Dados, no modelo de governança de dados colegiado
 
-* **A)** Os 11 Fatores de Design incluem aspectos como Estratégia corporativa, Perfil de risco, Cenário de ameaças, Requisitos de conformidade e Modelo de fornecimento de TI.
-* **B)** As Áreas de Foco são rigidamente limitadas a exatamente 5 domínios fixos e imutáveis, sendo vedada pela ISACA a publicação de novos guias de foco temático.
-* **C)** O Fator de Design 'Papel da TI' reconhece apenas a TI como área de apoio secundário, proibindo a classificação de TI como motor estratégico do negócio.
-* **D)** Os Fatores de Design são aplicados exclusivamente após a conclusão integral de todos os 40 processos de gestão, atuando como ferramentas de auditoria punitiva.
-* **E)** O tamanho da organização (*Enterprise Size*) não é considerado fator de design pelo COBIT 2019, aplicando-se exatamente o mesmo modelo e volume documental a qualquer porte institucional.
-
+* **A)** a governança de dados é centralizada em uma única equipe responsável por todas as decisões, garantindo padronização e controle rígido.
+* **B)** múltiplas áreas da organização compartilham a responsabilidade pelas decisões de dados, com a liderança de um comitê ou grupo interdepartamental.
+* **C)** todas as decisões são tomadas de forma independente por cada equipe de dados, sem coordenação centralizada.
+* **D)** a governança de dados é mantida por um único setor que gerencia a coleta, o armazenamento e a análise dos dados de toda a organização.
+* **E)** a responsabilidade de governança é atribuída exclusivamente aos usuários finais dos dados, garantindo maior autonomia para o uso.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Os 11 fatores de design englobam estratégia institucional, objetivos, perfil de risco, problemas de I&T, cenário de ameaças, requisitos de conformidade, papel da TI, modelo de fornecimento, métodos de implementação, estratégia de adoção tecnológica e tamanho da organização.
-> - **B)** Incorreta. Áreas de Foco podem ser ilimitadas e abertas, expandidas conforme o surgimento de novas demandas tecnológicas (ex.: Segurança, DevOps, Nuvem).
-> - **C)** Incorreta. O papel da TI pode variar entre suporte, fábrica, transição e estratégico.
-> - **D)** Incorreta. Fatores de design são utilizados no início, na concepção do sistema de governança (*design guide*), para selecionar e priorizar objetivos.
-> - **E)** Incorreta. Tamanho da organização é expressamente o 11º Fator de Design.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a governança de dados é centralizada em uma única equipe responsável por todas as decisões, garantindo...". De acordo com a teoria estudada em *2.2 Os Seis Princípios da Boa Governança de TI*, 6: Comportamento Humano (*Human Behaviour*) — As políticas, práticas e decisões de TI respeitam os fatores humanos, culturais e as necessidades de todas as pessoas envolvidas. — Treinamento, usabilidade, ergonomia, acessibilidade e gestão de mudanças comportamentais no trabalho.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "múltiplas áreas da organização compartilham a responsabilidade pelas decisões de dados, com a liderança de um...". De acordo com a teoria estudada em *Tabela Comparativa dos Princípios do COBIT 2019*, 6. Sistema ponta a ponta: Cobre todas as informações e tecnologias de toda a organização, e não apenas o departamento de TI.: —.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "todas as decisões são tomadas de forma independente por cada equipe de dados, sem coordenação centralizada". De acordo com a teoria estudada em *Níveis de Capacidade de Processo (CPM / CMMI: 0 a 5)*, 3: Definido (*Defined*) — O processo é bem caracterizado, compreendido e executado com base em procedimentos padronizados em toda a organização (*organizational standards*).
+> - **D)** **Correta.** Conforme fundamentado na seção *3.2 Componentes do Sistema de Governança (7 Componentes)* deste guia, informação: Dados e fluxos informacionais consumidos e produzidos pela organização (relevância, segurança, precisão, completude). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-MT/2024) ao estabelecer que "a governança de dados é mantida por um único setor que gerencia a coleta, o armazenamento e a análise dos dados de...".
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "a responsabilidade de governança é atribuída exclusivamente aos usuários finais dos dados, garantindo maior...". De acordo com a teoria estudada em *Os 11 Fatores de Design (Design Factors)*, o COBIT 2019 não adota o modelo "tamanho único" (*one size fits all*). Para viabilizar a adaptação (*tailoring*) do sistema de governança à realidade de cada órgão ou empresa, são utilizados 11 Fatores de Design.
+>
+> **Gabarito: D**
 
 ---
 
@@ -411,26 +408,25 @@ flowchart TD
 ---
 
 ### Teste 471
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** Em uma auditoria de governança de TI no setor público, a equipe avaliou como as metas institucionais do órgão são traduzidas em prioridades concretas de investimento tecnológico por meio do mecanismo de Cascatamento de Objetivos (*Goals Cascade*) e dos Fatores de Design (*Design Factors*) do COBIT 2019. A respeito desses instrumentos, assinale a alternativa correta:  
+**(FCC – TRT-9 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2015)**
+Seguindo as boas práticas preconizadas pelo COBIT 5, um Analista da área de TI elencou as seguintes perguntas: − Como posso saber se as operações de um parceiro comercial são seguras e confiáveis? − Como posso saber se a organização cumpre as regras e regulamentos aplicáveis? − Como posso saber se a organização mantém um sistema eficiente de controle interno? − Os parceiros comerciais têm a cadeia de informações entre eles sob controle? De acordo com o COBIT 5, estas perguntas
 
-* **A)** O cascatamento de objetivos do COBIT 2019 estabelece que as necessidades dos stakeholders devem ser desdobradas primeiramente em 13 Objetivos Corporativos (*Enterprise Goals*), os quais se desdobram em 13 Objetivos de Alinhamento (*Alignment Goals*) e, finalmente, nos 40 Objetivos de Governança e Gestão.
-* **B)** Os Fatores de Design foram concebidos com a finalidade exclusiva de impedir a customização do COBIT 2019, tornando sua adoção rígida e idêntica para qualquer entidade do planeta.
-* **C)** O Perfil de Risco e o Cenário de Ameaças são classificados pelo COBIT 2019 como objetivos de alinhamento financeiro, não exercendo papel na definição dos fatores de design.
-* **D)** O número de objetivos corporativos no COBIT 2019 foi ampliado para 114 itens, abolindo-se a correlação com as perspectivas clássicas do Balanced Scorecard (BSC).
-* **E)** A estratégia corporativa da organização não exerce influência sobre o desenho do sistema de governança de TI, sendo este definido exclusivamente pelo fornecedor de hardware.
-
+* **A)** são dirigidas às partes interessadas externas. Estão relacionadas aos objetivos corporativos, versam sobre governança e gestão de TI da organização e servem como entrada para a cascata de objetivos.
+* **B)** visam unificar a criação de valor para as diversas partes interessadas de uma organização. Gestão de contratos é negociar e decidir entre os interesses de valor das diferentes partes interessadas externas.
+* **C)** indicam que o sistema de governança de TI deve considerar apenas as partes interessadas externas ao tomar decisões sobre a avaliação dos recursos, benefícios e riscos.
+* **D)** referem-se às necessidades das partes interessadas internas e norteiam a cascata de objetivos do COBIT 5, que é o mecanismo de tradução das necessidades dos stakeholders em objetivos corporativos amplos e gerais.
+* **E)** refletem a cascata de objetivos, que deve ser seguida à risca, pois contém o mapeamento universal entre os objetivos corporativos e os objetivos de TI e entre os objetivos de TI e os habilitadores do COBIT 5.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** No COBIT 2019, a Cascata de Objetivos (*Goals Cascade*) segue a sequência rigorosa: Necessidades dos Stakeholders $\rightarrow$ 13 Objetivos Corporativos (*Enterprise Goals* estruturados no BSC) $\rightarrow$ 13 Objetivos de Alinhamento (*Alignment Goals*) $\rightarrow$ 40 Objetivos de Governança e Gestão nos domínios EDM, APO, BAI, DSS e MEA.
-> - **B)** Incorreta. Os 11 Fatores de Design têm como propósito justamente permitir o *tailoring* (adaptação personalizada) do sistema de governança às particularidades de porte, risco, estratégia e maturidade de cada organização.
-> - **C)** Incorreta. O Perfil de Risco (Design Factor 3) e o Cenário de Ameaças (Design Factor 5) são explicitamente Fatores de Design (*Design Factors*), e não objetivos de alinhamento.
-> - **D)** Incorreta. São exatamente 13 Objetivos Corporativos no COBIT 2019, organizados diretamente sob as quatro dimensões clássicas do BSC (Financeira, Clientes, Processos Internos, Aprendizado e Crescimento).
-> - **E)** Incorreta. A Estratégia Corporativa é o Fator de Design número 1 (*Design Factor 1*), exercendo impacto primordial sobre as prioridades e o sistema de governança de I&T.
-> 
+> - **A)** **Correta.** Conforme fundamentado na seção *3.4 Cascatamento de Objetivos (Goals Cascade)* deste guia, o mecanismo do COBIT 2019 traduz as necessidades das partes interessadas em ações e objetivos práticos de TI por meio de quatro níveis em cascata. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-9/2015) ao estabelecer que "são dirigidas às partes interessadas externas. Estão relacionadas aos objetivos corporativos, versam sobre...".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "visam unificar a criação de valor para as diversas partes interessadas de uma organização. Gestão de contratos é...". De acordo com a teoria estudada em *Tabela Comparativa: Governança de TI versus Gestão de TI*, ponto de Partida: Necessidades das partes interessadas (*stakeholders*: cidadãos, magistrados, auditores, jurisdicionados). — Diretrizes, limites orçamentários, apetite a risco e prioridades deliberadas pela governança.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "indicam que o sistema de governança de TI deve considerar apenas as partes interessadas externas ao tomar decisões...". De acordo com a teoria estudada em *Tabela Comparativa dos Princípios do COBIT 2019*, 1. Prover valor aos stakeholders: O sistema deve gerar valor a partir do uso de I&T balanceando benefícios, riscos e uso otimizado de recursos.: 1.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "referem-se às necessidades das partes interessadas internas e norteiam a cascata de objetivos do COBIT 5, que é o...". De acordo com a teoria estudada em *3.4 Cascatamento de Objetivos (Goals Cascade)*, 1. Necessidades dos Stakeholders: Criam os direcionadores corporativos e estratégicos do órgão.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "refletem a cascata de objetivos, que deve ser seguida à risca, pois contém o mapeamento universal entre os...". De acordo com a teoria estudada em *Relação Detalhada dos 40 Objetivos do COBIT 2019*, eDM05: Garantir o Engajamento das Partes Interessadas (*Stakeholder Engagement*).
+>
 > **Gabarito: A**
 
 ---
@@ -514,27 +510,26 @@ flowchart TB
 ---
 
 ### Teste 472
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** O framework COBIT 2019 da ISACA estabelece uma distinção estrutural e operacional inequívoca entre Governança e Gestão de TI na organização. Com base nas definições dos domínios e competências organizacionais do COBIT 2019, assinale a alternativa correta:  
+**(FGV – TJ-RR – Analista Judiciario Gestao e Governanca de Tecnologia da Informacao – 2024)**
+O COBIT 2019 é um framework de governança e gestão de Tecnologia da Informação (TI) que fornece um conjunto de princípios, práticas e ferramentas para ajudar as organizações a alcançarem seus objetivos estratégicos por meio do gerenciamento eficaz da informação e tecnologia. Ele se concentra em garantir que a TI esteja alinhada com as metas da empresa, gerando valor e gerenciando riscos de forma eficiente. Entre os domínios que agrupam os objetivos da gestão no COBIT 2019 listados a seguir, assinale aquele que foca em como os objetivos estratégicos são traduzidos em planos táticos e operacionais, garantindo o alinhamento entre TI e os objetivos do negócio.
 
-* **A)** A Governança tem como domínio executivo primário o APO (*Align, Plan and Organize*), sendo de sua competência a programação de sprints de desenvolvimento e a instalação de atualizações operacionais de sistemas.
-* **B)** O domínio de Governança no COBIT 2019 é o EDM (*Evaluate, Direct and Monitor*), cabendo aos dirigentes máximos e comitês de governança avaliar necessidades, dirigir políticas e monitorar o alcance estratégico, enquanto a Gestão opera por meio de quatro domínios (APO, BAI, DSS e MEA).
-* **C)** As atividades operacionais de atendimento a incidentes de suporte e requisições de serviço na Central de Serviços integram o domínio EDM, sob a responsabilidade direta dos membros do Conselho de Administração.
-* **D)** O COBIT 2019 revogou o princípio da separação entre governança e gestão preconizado pelo COBIT 5, determinando que gerentes operacionais de redes acumulem privativamente as funções de deliberação estratégica e fixação de apetite a risco.
-* **E)** O domínio BAI (*Build, Acquire and Implement*) é o único domínio classificado como de governança, destinando-se exclusivamente à fiscalização judicial de contratos públicos de TI.
-
+* **A)** Alinhar, Planejar e Organizar (APO -Align, Plan, and Organize).
+* **B)** Construir, Adquirir e Implantar (BAI -Buid, Acquire, and Implement).
+* **C)** Entregar, Prestar Serviço e Dar e Suporte (DSS - Deliver, Service, and Support).
+* **D)** Monitorar, Avaliar e Melhorar (MEA -Monitor, Evaluate, and Assess).
+* **E)** Construir, Adquirir e Melhorar (BEA – Bild, Evaluate and Assess).
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O domínio APO pertence à Gestão, e não à Governança. Além disso, tarefas cotidianas como instalar atualizações operacionais pertencem à operação técnica (domínio DSS), e não ao planejamento tático ou à governança.
-> - **B)** **Correta.** No COBIT 2019, o domínio exclusivo de governança é o EDM (*Evaluate, Direct and Monitor*), composto por 5 objetivos direcionados à Alta Administração (Board). Os domínios de Gestão são quatro: APO (*Align, Plan and Organize*), BAI (*Build, Acquire and Implement*), DSS (*Deliver, Service and Support*) e MEA (*Monitor, Evaluate and Assess*).
-> - **C)** Incorreta. O atendimento a incidentes e requisições de serviço pertence ao domínio de gestão DSS (especificamente objetivo *DSS02 - Gerenciar Requisições de Serviços e Incidentes*), sendo executado pela Central de Serviços e equipes de suporte, jamais pelo Conselho de Administração.
-> - **D)** Incorreta. O COBIT 2019 manteve inalterado o princípio basilar de que "Governança é distinta da gestão" (Princípio 4 do Sistema de Governança). A segregação de funções é imperativa para evitar conflitos de interesse e desvios de controle interno.
-> - **E)** Incorreta. O domínio BAI é um domínio de Gestão (focado em construir, adquirir e implementar soluções, gerenciar projetos e mudanças), e não de governança, nem tem foco judicial exclusivo.
-> 
-> **Gabarito: B**
+> - **A)** **Correta.** Conforme fundamentado na seção *Tabela Comparativa: Governança de TI versus Gestão de TI* deste guia, atividades Centrais: EDM: Avaliar (*Evaluate*), Dirigir (*Direct*) e Monitorar (*Monitor*). — PBRM: Planejar (*Plan*), Construir (*Build*), Executar (*Run*) e Monitorar (*Monitor*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-RR/2024) ao estabelecer que "Alinhar, Planejar e Organizar (APO -Align, Plan, and Organize)".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Construir, Adquirir e Implantar (BAI -Buid, Acquire, and Implement)". De acordo com a teoria estudada em *3. Framework COBIT 2019 (ISACA)*, o COBIT 2019 (*Control Objectives for Information and Related Technologies*) é o framework líder mundial de governança e gestão corporativa de informação e tecnologia (I&T), publicado pela ISACA.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Entregar, Prestar Serviço e Dar e Suporte (DSS - Deliver, Service, and Support)". De acordo com a teoria estudada em *2.1 Escopo e Modelo de Governança (Ciclo EDM)*, a norma ABNT NBR ISO/IEC 38500:2024 fornece princípios e diretrizes para os órgãos deliberativos e membros da alta administração das organizações (públicas ou privadas, de qualquer porte ou setor) sobre a utilização aceitável, eficaz e eficiente da TI.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Monitorar, Avaliar e Melhorar (MEA -Monitor, Evaluate, and Assess)". De acordo com a teoria estudada em *2.1 Escopo e Modelo de Governança (Ciclo EDM)*, monitorar (*Monitor*): Acompanhar periodicamente se a gestão está operando em conformidade com as diretrizes e se os objetivos de desempenho planejados estão sendo atingidos.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Construir, Adquirir e Melhorar (BEA – Bild, Evaluate and Assess)". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, iSACA. COBIT 2019 Framework: Introduction and Methodology. Schaumburg: ISACA, 2018. (Cap. 2 - Principles; Cap. 4 - Governance and Management Objectives).
+>
+> **Gabarito: A**
 
 ---
 
@@ -565,30 +560,28 @@ flowchart LR
 ---
 
 ### Teste 473
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** O modelo de Gestão de Desempenho do COBIT 2019 (CPM - *COBIT Performance Management*) utiliza a abordagem de Níveis de Capacidade de Processo (*Process Capability Levels*) alinhada ao CMMI, graduando a maturidade de execução de cada processo em uma escala de 0 a 5. Um processo que atinge o seu propósito por meio da aplicação de procedimentos formalmente padronizados, documentados e disseminados por toda a organização, classifica-se no:  
+**(FCC – TRT-24 – Analista Judiciario Tecnologia da Informacao – 2017)**
+O guia do COBIT 5 traz considerações acerca dos modelos de capacidade x maturidade, sobre os quais é correto afirmar que
 
-* **A)** Nível 0 - Incompleto (*Incomplete*).
-* **B)** Nível 1 - Executado (*Initial / Performed*).
-* **C)** Nível 2 - Gerenciado (*Managed*).
-* **D)** Nível 3 - Definido (*Defined*).
-* **E)** Nível 5 - Em Otimização (*Optimizing*).
-
+* **A)** o modelo de maturidade do COBIT 5 visa produzir um perfil de maturidade da organização. Esta abordagem pode ser utilizada caso haja foco na melhoria em vez da necessidade de obter um número de maturidade para fins de relatório.
+* **B)** uma organização que utilizava a abordagem dos atributos do modelo de maturidade do COBIT 4.1 poderá reutilizar os dados da sua avaliação e reclassificá-los segundo as avaliações de atributos do COBIT 5.
+* **C)** os atributos de capacidade de processo do COBIT 4.1 e os atributos de maturidade do COBIT 5 não são idênticos.
+* **D)** não há mais um modelo de capacidade específico por processo detalhado no COBIT 5, porque a abordagem da avaliação da maturidade de processo ISO/IEC 15505 não exige isso e ainda proíbe esta abordagem.
+* **E)** no COBIT 5 o modelo de avaliação fornece uma escala de medição para cada atributo de maturidade e orientação sobre como aplicá-la, então para cada processo uma avaliação pode ser feita para cada um dos seis atributos de capacidade.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. No Nível 0 (Incompleto), o processo não atinge seu propósito; praticamente nenhuma atividade relevante foi executada.
-> - **B)** Incorreta. No Nível 1 (Executado), o processo atinge seu propósito através de um conjunto incompleto de atividades, funcionando de forma ad-hoc, dependente do heroísmo individual e sem padrão.
-> - **C)** Incorreta. No Nível 2 (Gerenciado), o processo é planejado, monitorado e controlado para um projeto ou unidade específica, gerando produtos de trabalho controlados, mas ainda não se tornou um padrão organizacional institucionalizado.
-> - **D)** **Correta.** No Nível 3 (Definido), o processo é executado com base em um conjunto de procedimentos e normas documentadas e padronizadas em nível corporativo (*organizational standards*).
-> - **E)** Incorreta. No Nível 5 (Em Otimização), o processo foca na melhoria contínua preditiva com base em inovações tecnológicas e controle estatístico de causas de variação (passando antes pelo Nível 4 - Quantitativamente Gerenciado).
-> 
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o modelo de maturidade do COBIT 5 visa produzir um perfil de maturidade da organização. Esta abordagem pode ser...". De acordo com a teoria estudada em *Tabela Comparativa dos Princípios do COBIT 2019*, 3. Sistema dinâmico: Sempre que um ou mais fatores de design mudarem, o impacto sobre o sistema de governança deve ser reavaliado.: 3. Alinhado aos principais padrões: Deve harmonizar-se com os padrões de referência (ISO, ITIL, TOGAF, PMBOK, NIST).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "uma organização que utilizava a abordagem dos atributos do modelo de maturidade do COBIT 4.1 poderá reutilizar os...". De acordo com a teoria estudada em *Níveis de Capacidade de Processo (CPM / CMMI: 0 a 5)*, 3: Definido (*Defined*) — O processo é bem caracterizado, compreendido e executado com base em procedimentos padronizados em toda a organização (*organizational standards*).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os atributos de capacidade de processo do COBIT 4.1 e os atributos de maturidade do COBIT 5 não são idênticos". De acordo com a teoria estudada em *2.1 Escopo e Modelo de Governança (Ciclo EDM)*, a norma ABNT NBR ISO/IEC 38500:2024 fornece princípios e diretrizes para os órgãos deliberativos e membros da alta administração das organizações (públicas ou privadas, de qualquer porte ou setor) sobre a utilização aceitável, eficaz e eficiente da TI.
+> - **D)** **Correta.** Conforme fundamentado na seção *3.6 Gestão de Desempenho do COBIT (CPM) e Níveis de Capacidade CMMI* deste guia, no COBIT 2019, o modelo de medição de capacidade e maturidade migrou da ISO/IEC 33000 (usada no COBIT 5) para a escala alinhada ao CMMI (*Capability Maturity Model Integration*). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-24/2017) ao estabelecer que "não há mais um modelo de capacidade específico por processo detalhado no COBIT 5, porque a abordagem da avaliação...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "no COBIT 5 o modelo de avaliação fornece uma escala de medição para cada atributo de maturidade e orientação sobre...". De acordo com a teoria estudada em *2.2 Os Seis Princípios da Boa Governança de TI*, autoridade delegada deve ser proporcional à responsabilidade. — Não pode haver ambiguidade de papéis; a responsabilidade de governança jamais pode ser transferida ou terceirizada a fornecedores externos.
+>
 > **Gabarito: D**
 
 ---
-
 
 #### Escala de Avaliação de Atividades e Práticas
 Cada atividade é avaliada conforme a escala percentual de alcance:
@@ -601,27 +594,26 @@ Cada atividade é avaliada conforme a escala percentual de alcance:
 ---
 
 ### Teste 474
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-**Enunciado:** No modelo de Gestão de Desempenho do COBIT 2019 (CPM), para determinar o nível de capacidade de um processo, avalia-se o grau de alcance das práticas e atividades de governança e gestão por meio de uma escala percentual padrão dividida em quatro níveis (N, P, L e F). Assinale a alternativa que descreve corretamente essa escala:  
+**(FCC – TRT-23 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2016)**
+De acordo com a referência mundial em Gerenciamento de Processos de Negócio − BPM, durante a Análise de Processo o Analista deve observar diversas situações. Dentre elas: I. Fatores que impõem restrições e direcionam decisões que impactam a natureza e o desempenho do processo. Frequentemente esses fatores são criados sem suficiente compreensão dos cenários que a organização pode encontrar ou se tornam desconectados devido a mudanças não gerenciadas. II. Elementos que testam os limites de sustentação inferior e superior do processo e determinam se seus fatores de execução podem apropriadamente diminuir ou aumentar em escala para atender à demanda. III. Elementos que restringem a capacidade do processo e criam uma fila. Os itens I, II e III correspondem, correta e respectivamente, aos elementos
 
-* **A)** Uma atividade com evidência de alcance entre maior que 15% e 50% é classificada como Parcialmente Atingida (*Partially Achieved* - P).
-* **B)** Uma atividade com evidência de alcance de 0% a 15% é considerada Praticamente Atingida (*Largely Achieved* - L).
-* **C)** Uma atividade é considerada Totalmente Atingida (*Fully Achieved* - F) apenas quando atinge 100% de conformidade formal sem qualquer margem de tolerância.
-* **D)** A classificação 'Não Atingido' (*Not Achieved* - N) exige demonstração de fraude ou negligência dolosa comprovada por auditoria externa.
-* **E)** A escala N-P-L-F foi descontinuada no COBIT 2019 e substituída exclusivamente pelo modelo binário de Sucesso ou Falha.
-
+* **A)** gargalo, regras de negócio e capacidade.
+* **B)** gargalo, capacidade e regras de negócio.
+* **C)** capacidade, regras de negócio e gargalo.
+* **D)** regras de negócio, capacidade e gargalo.
+* **E)** regras de negócio, gargalo e capacidade.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme a régua oficial do CPM/CMMI: N (Não Atingido: 0% a 15%), P (Parcialmente Atingido: > 15% a 50%), L (Praticamente Atingido: > 50% a 85%) e F (Totalmente Atingido: > 85% a 100%).
-> - **B)** Incorreta. De 0% a 15% a classificação é Não Atingido (*Not Achieved* - N). Praticamente Atingido (L) situa-se na faixa de > 50% a 85%.
-> - **C)** Incorreta. Totalmente Atingido (F) abrange a faixa superior de > 85% até 100%.
-> - **D)** Incorreta. A classificação N reflete ausência ou nível incipiente de evidências de execução (0% a 15%), sem relação com fraude ou dolo.
-> - **E)** Incorreta. A escala N-P-L-F permanece a métrica de avaliação contínua de atividades e práticas do COBIT 2019.
-> 
-> **Gabarito: A**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "gargalo, regras de negócio e capacidade". De acordo com a teoria estudada em *Níveis de Capacidade de Processo (CPM / CMMI: 0 a 5)*, 5: Em Otimização (*Optimizing*) — O processo é continuamente aprimorado com base na compreensão quantitativa das causas de variações e na adoção de inovações tecnológicas.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "gargalo, capacidade e regras de negócio". De acordo com a teoria estudada em *3.6 Gestão de Desempenho do COBIT (CPM) e Níveis de Capacidade CMMI*, no COBIT 2019, o modelo de medição de capacidade e maturidade migrou da ISO/IEC 33000 (usada no COBIT 5) para a escala alinhada ao CMMI (*Capability Maturity Model Integration*).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "capacidade, regras de negócio e gargalo". De acordo com a teoria estudada em *Níveis de Capacidade de Processo (CPM / CMMI: 0 a 5)*, nível: Classificação — Descrição Prática do Desempenho do Processo.
+> - **D)** **Correta.** Conforme fundamentado na seção *2.2 Os Seis Princípios da Boa Governança de TI* deste guia, 4: Desempenho (*Performance*) — A TI atende às necessidades da organização, entregando serviços com os níveis de serviço e capacidade exigidos pelo negócio. — Monitoramento contínuo de disponibilidade, tempo de resposta e eficácia dos sistemas em produção. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-23/2016) ao estabelecer que "regras de negócio, capacidade e gargalo".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "regras de negócio, gargalo e capacidade". De acordo com a teoria estudada em *Níveis de Capacidade de Processo (CPM / CMMI: 0 a 5)*, 3: Definido (*Defined*) — O processo é bem caracterizado, compreendido e executado com base em procedimentos padronizados em toda a organização (*organizational standards*).
+>
+> **Gabarito: D**
 
 ---
 
