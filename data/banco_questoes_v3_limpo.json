@@ -1996,9 +1996,9 @@
     "gabarito_oficial": "E",
     "formato": "MULTIPLA_ESCOLHA_5",
     "target_area": "CONHECIMENTOS ESPECÍFICOS A01 - TÉCNICO ADMINISTRATIVO",
-    "target_materia": "Noções de Direito Constitucional",
-    "target_topico": "Do Poder Legislativo: do Congresso Nacional",
-    "status_integracao": "injetada",
+    "target_materia": "Noções de Administração Financeira e Orçamentária",
+    "target_topico": "Orçamento público: conceitos, princípios orçamentários, ciclo orçamentário",
+    "status_integracao": "reclassificada_aguardando",
     "llm_classified": true
   },
   {
@@ -2941,11 +2941,11 @@
     },
     "gabarito_oficial": "C",
     "formato": "MULTIPLA_ESCOLHA_5",
-    "target_area": "CONHECIMENTOS GERAIS (A01 E B02)",
-    "target_materia": "Matemática e Raciocínio Lógico",
-    "target_topico": "Compreensão do processo lógico que, a partir de um conjunto de hipóteses, conduz, de forma válida, a conclusões determinadas",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS A01 - TÉCNICO ADMINISTRATIVO",
+    "target_materia": "Noções de Direito Administrativo",
+    "target_topico": "Responsabilidade civil do Estado: evolução doutrinária, teorias subjetiva e objetiva, dano moral e material, causas excludentes e atenuantes, direito de regresso",
     "llm_classified": true,
-    "status_integracao": "injetada"
+    "status_integracao": "reclassificada_aguardando"
   },
   {
     "id": "V3_FCC_TCE_GO_2009_Q0240",
@@ -3117,11 +3117,11 @@
     },
     "gabarito_oficial": "D",
     "formato": "MULTIPLA_ESCOLHA_5",
-    "target_area": "CONHECIMENTOS GERAIS (A01 E B02)",
-    "target_materia": "Matemática e Raciocínio Lógico",
-    "target_topico": "Compreensão do processo lógico que, a partir de um conjunto de hipóteses, conduz, de forma válida, a conclusões determinadas",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS A01 - TÉCNICO ADMINISTRATIVO",
+    "target_materia": "Noções de Direito Constitucional",
+    "target_topico": "Do Poder Legislativo: processo legislativo",
     "llm_classified": true,
-    "status_integracao": "injetada"
+    "status_integracao": "reclassificada_aguardando"
   },
   {
     "id": "V3_FGV_TCE_GO_2024_Q0260",
@@ -5146,11 +5146,11 @@
     },
     "gabarito_oficial": "C",
     "formato": "MULTIPLA_ESCOLHA_5",
-    "target_area": "CONHECIMENTOS GERAIS (A01 E B02)",
-    "target_materia": "Matemática e Raciocínio Lógico",
-    "target_topico": "Compreensão do processo lógico que, a partir de um conjunto de hipóteses, conduz, de forma válida, a conclusões determinadas",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS A01 - TÉCNICO ADMINISTRATIVO",
+    "target_materia": "Noções de Direito Constitucional",
+    "target_topico": "Do Poder Legislativo: processo legislativo",
     "llm_classified": true,
-    "status_integracao": "injetada"
+    "status_integracao": "reclassificada_aguardando"
   },
   {
     "id": "V3_FGV_TJ_AP_2023_Q0490",
@@ -5894,11 +5894,11 @@
     },
     "gabarito_oficial": "A",
     "formato": "MULTIPLA_ESCOLHA_5",
-    "target_area": "CONHECIMENTOS GERAIS (A01 E B02)",
-    "target_materia": "Matemática e Raciocínio Lógico",
-    "target_topico": "Compreensão do processo lógico que, a partir de um conjunto de hipóteses, conduz, de forma válida, a conclusões determinadas",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Gestão de riscos: conceitos, identificação, análise, avaliação, tratamento e monitoramento de riscos, metodologias e frameworks (ISO/IEC 27005)",
     "llm_classified": true,
-    "status_integracao": "injetada"
+    "status_integracao": "reclassificada_aguardando"
   },
   {
     "id": "V3_FGV_TJ_AP_2023_Q0586",
@@ -6158,10 +6158,10 @@
     },
     "gabarito_oficial": "E",
     "formato": "MULTIPLA_ESCOLHA_5",
-    "target_area": "CONHECIMENTOS GERAIS (A01 E B02)",
-    "target_materia": "Matemática e Raciocínio Lógico",
-    "target_topico": "Compreensão do processo lógico que, a partir de um conjunto de hipóteses, conduz, de forma válida, a conclusões determinadas",
-    "status_integracao": "injetada",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Sistemas Operacionais, Redes e Computação em Nuvem",
+    "target_topico": "Redes de computadores: conceitos, arquiteturas, topologias, protocolos de comunicação, modelos OSI e TCP/IP",
+    "status_integracao": "reclassificada_aguardando",
     "llm_classified": true
   },
   {
@@ -8065,10 +8065,10 @@
     },
     "gabarito_oficial": "B",
     "formato": "MULTIPLA_ESCOLHA_5",
-    "target_area": "CONHECIMENTOS GERAIS (A01 E B02)",
-    "target_materia": "Matemática e Raciocínio Lógico",
-    "target_topico": "Compreensão do processo lógico que, a partir de um conjunto de hipóteses, conduz, de forma válida, a conclusões determinadas",
-    "status_integracao": "injetada",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Gestão de riscos: conceitos, identificação, análise, avaliação, tratamento e monitoramento de riscos, metodologias e frameworks (ISO/IEC 27005)",
+    "status_integracao": "reclassificada_aguardando",
     "llm_classified": true
   },
   {
@@ -8637,10 +8637,10 @@
     },
     "gabarito_oficial": "C",
     "formato": "MULTIPLA_ESCOLHA_5",
-    "target_area": "CONHECIMENTOS GERAIS (A01 E B02)",
-    "target_materia": "Matemática e Raciocínio Lógico",
-    "target_topico": "Compreensão do processo lógico que, a partir de um conjunto de hipóteses, conduz, de forma válida, a conclusões determinadas",
-    "status_integracao": "injetada",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Inteligência Artificial, Ciência de Dados e Automação",
+    "target_topico": "Ciência de dados e analytics: conceitos fundamentais, estatística descritiva e inferencial",
+    "status_integracao": "reclassificada_aguardando",
     "llm_classified": true
   },
   {
@@ -9275,11 +9275,11 @@
     },
     "gabarito_oficial": "D",
     "formato": "MULTIPLA_ESCOLHA_5",
-    "target_area": "CONHECIMENTOS GERAIS (A01 E B02)",
-    "target_materia": "Matemática e Raciocínio Lógico",
-    "target_topico": "Compreensão do processo lógico que, a partir de um conjunto de hipóteses, conduz, de forma válida, a conclusões determinadas",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS A01 - TÉCNICO ADMINISTRATIVO",
+    "target_materia": "Noções de Direito Constitucional",
+    "target_topico": "Do Poder Judiciário: do Supremo Tribunal Federal",
     "llm_classified": true,
-    "status_integracao": "injetada"
+    "status_integracao": "reclassificada_aguardando"
   },
   {
     "id": "V3_FGV_TRT_1_2024_Q1059",
@@ -9913,11 +9913,11 @@
     },
     "gabarito_oficial": "D",
     "formato": "MULTIPLA_ESCOLHA_5",
-    "target_area": "CONHECIMENTOS GERAIS (A01 E B02)",
-    "target_materia": "Matemática e Raciocínio Lógico",
-    "target_topico": "Compreensão do processo lógico que, a partir de um conjunto de hipóteses, conduz, de forma válida, a conclusões determinadas",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS A01 - TÉCNICO ADMINISTRATIVO",
+    "target_materia": "Noções de Direito Constitucional",
+    "target_topico": "Da fiscalização contábil, financeira e orçamentária",
     "llm_classified": true,
-    "status_integracao": "injetada"
+    "status_integracao": "reclassificada_aguardando"
   },
   {
     "id": "V3_FGV_TRF_1_2024_Q1113",
@@ -10177,11 +10177,11 @@
     },
     "gabarito_oficial": "E",
     "formato": "MULTIPLA_ESCOLHA_5",
-    "target_area": "CONHECIMENTOS GERAIS (A01 E B02)",
-    "target_materia": "Matemática e Raciocínio Lógico",
-    "target_topico": "Compreensão do processo lógico que, a partir de um conjunto de hipóteses, conduz, de forma válida, a conclusões determinadas",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Governança de Tecnologia da Informação",
+    "target_topico": "Gestão de projetos: fundamentos do PMBOK (8ª edição) e de métodos ágeis aplicados a projetos de TI",
     "llm_classified": true,
-    "status_integracao": "injetada"
+    "status_integracao": "reclassificada_aguardando"
   },
   {
     "id": "V3_FGV_TRF_1_2024_Q1137",
@@ -12436,11 +12436,11 @@
     },
     "gabarito_oficial": "C",
     "formato": "CERTO_ERRADO",
-    "target_area": "CONHECIMENTOS GERAIS (A01 E B02)",
-    "target_materia": "Matemática e Raciocínio Lógico",
-    "target_topico": "Compreensão do processo lógico que, a partir de um conjunto de hipóteses, conduz, de forma válida, a conclusões determinadas",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Segurança da informação: conceitos, princípios (confidencialidade, integridade, disponibilidade, autenticidade, não repúdio), políticas de segurança, gestão de riscos, normas da família ABNT NBR ISO/IEC 27000",
     "llm_classified": true,
-    "status_integracao": "injetada"
+    "status_integracao": "reclassificada_aguardando"
   },
   {
     "id": "V3_CEBRASPE_STF_2013_Q1460",
@@ -14304,10 +14304,10 @@
     },
     "gabarito_oficial": "C",
     "formato": "MULTIPLA_ESCOLHA_5",
-    "target_area": "CONHECIMENTOS GERAIS (A01 E B02)",
-    "target_materia": "Matemática e Raciocínio Lógico",
-    "target_topico": "Compreensão do processo lógico que, a partir de um conjunto de hipóteses, conduz, de forma válida, a conclusões determinadas",
-    "status_integracao": "injetada",
+    "target_area": "DESCARTADA",
+    "target_materia": "DESCARTADA",
+    "target_topico": "DESCARTADA",
+    "status_integracao": "descartada_alienigena",
     "llm_classified": true
   },
   {
@@ -15052,11 +15052,11 @@
     },
     "gabarito_oficial": "D",
     "formato": "MULTIPLA_ESCOLHA_5",
-    "target_area": "CONHECIMENTOS GERAIS (A01 E B02)",
-    "target_materia": "Matemática e Raciocínio Lógico",
-    "target_topico": "Compreensão do processo lógico que, a partir de um conjunto de hipóteses, conduz, de forma válida, a conclusões determinadas",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Sistemas Operacionais, Redes e Computação em Nuvem",
+    "target_topico": "Redes de computadores: conceitos, arquiteturas, topologias, protocolos de comunicação, modelos OSI e TCP/IP",
     "llm_classified": true,
-    "status_integracao": "injetada"
+    "status_integracao": "reclassificada_aguardando"
   },
   {
     "id": "V3_FCC_TRT_1_2014_Q1927",
@@ -16184,10 +16184,10 @@
     },
     "gabarito_oficial": "A",
     "formato": "MULTIPLA_ESCOLHA_5",
-    "target_area": "CONHECIMENTOS GERAIS (A01 E B02)",
-    "target_materia": "Matemática e Raciocínio Lógico",
-    "target_topico": "Compreensão do processo lógico que, a partir de um conjunto de hipóteses, conduz, de forma válida, a conclusões determinadas",
-    "status_integracao": "injetada",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Sistemas Operacionais, Redes e Computação em Nuvem",
+    "target_topico": "Redes de computadores: conceitos, arquiteturas, topologias, protocolos de comunicação, modelos OSI e TCP/IP",
+    "status_integracao": "reclassificada_aguardando",
     "llm_classified": true
   },
   {
@@ -18978,10 +18978,10 @@
     },
     "gabarito_oficial": "E",
     "formato": "MULTIPLA_ESCOLHA_5",
-    "target_area": "CONHECIMENTOS GERAIS (A01 E B02)",
-    "target_materia": "Matemática e Raciocínio Lógico",
-    "target_topico": "Compreensão do processo lógico que, a partir de um conjunto de hipóteses, conduz, de forma válida, a conclusões determinadas",
-    "status_integracao": "injetada",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS A01 - TÉCNICO ADMINISTRATIVO",
+    "target_materia": "Noções de Direito Constitucional",
+    "target_topico": "Do Poder Executivo: do Presidente e do Vice-Presidente da República",
+    "status_integracao": "reclassificada_aguardando",
     "llm_classified": true
   },
   {
@@ -19088,11 +19088,11 @@
     },
     "gabarito_oficial": "D",
     "formato": "MULTIPLA_ESCOLHA_5",
-    "target_area": "CONHECIMENTOS GERAIS (A01 E B02)",
-    "target_materia": "Matemática e Raciocínio Lógico",
-    "target_topico": "Compreensão do processo lógico que, a partir de um conjunto de hipóteses, conduz, de forma válida, a conclusões determinadas",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS A01 - TÉCNICO ADMINISTRATIVO",
+    "target_materia": "Noções de Direito Administrativo",
+    "target_topico": "Organização administrativa: administração direta e indireta, centralizada e descentralizada, órgãos e entidades (autarquias, fundações públicas, empresas públicas e sociedades de economia mista)",
     "llm_classified": true,
-    "status_integracao": "injetada"
+    "status_integracao": "reclassificada_aguardando"
   },
   {
     "id": "V3_FGV_TCE_PA_2024_Q2506",
@@ -20386,10 +20386,10 @@
     },
     "gabarito_oficial": "C",
     "formato": "MULTIPLA_ESCOLHA_5",
-    "target_area": "CONHECIMENTOS GERAIS (A01 E B02)",
-    "target_materia": "Matemática e Raciocínio Lógico",
-    "target_topico": "Compreensão do processo lógico que, a partir de um conjunto de hipóteses, conduz, de forma válida, a conclusões determinadas",
-    "status_integracao": "injetada",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Inteligência Artificial, Ciência de Dados e Automação",
+    "target_topico": "Inteligência artificial e machine learning: conceitos fundamentais, aprendizado supervisionado, não supervisionado e por reforço, redes neurais e deep learning",
+    "status_integracao": "reclassificada_aguardando",
     "llm_classified": true
   },
   {
@@ -21134,11 +21134,11 @@
     },
     "gabarito_oficial": "E",
     "formato": "MULTIPLA_ESCOLHA_5",
-    "target_area": "CONHECIMENTOS GERAIS (A01 E B02)",
-    "target_materia": "Matemática e Raciocínio Lógico",
-    "target_topico": "Compreensão do processo lógico que, a partir de um conjunto de hipóteses, conduz, de forma válida, a conclusões determinadas",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS A01 - TÉCNICO ADMINISTRATIVO",
+    "target_materia": "Noções de Administração Financeira e Orçamentária",
+    "target_topico": "Orçamento público: conceitos, princípios orçamentários, ciclo orçamentário",
     "llm_classified": true,
-    "status_integracao": "injetada"
+    "status_integracao": "reclassificada_aguardando"
   },
   {
     "id": "V3_FGV_TCE_PA_2024_Q2700",
@@ -21508,11 +21508,11 @@
     },
     "gabarito_oficial": "A",
     "formato": "MULTIPLA_ESCOLHA_5",
-    "target_area": "CONHECIMENTOS GERAIS (A01 E B02)",
-    "target_materia": "Matemática e Raciocínio Lógico",
-    "target_topico": "Compreensão do processo lógico que, a partir de um conjunto de hipóteses, conduz, de forma válida, a conclusões determinadas",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Segurança da Informação",
+    "target_topico": "Gestão de riscos: conceitos, identificação, análise, avaliação, tratamento e monitoramento de riscos, metodologias e frameworks (ISO/IEC 27005)",
     "llm_classified": true,
-    "status_integracao": "injetada"
+    "status_integracao": "reclassificada_aguardando"
   },
   {
     "id": "V3_FGV_TCE_PA_2024_Q2841",
@@ -21596,11 +21596,11 @@
     },
     "gabarito_oficial": "B",
     "formato": "MULTIPLA_ESCOLHA_5",
-    "target_area": "CONHECIMENTOS GERAIS (A01 E B02)",
-    "target_materia": "Matemática e Raciocínio Lógico",
-    "target_topico": "Compreensão do processo lógico que, a partir de um conjunto de hipóteses, conduz, de forma válida, a conclusões determinadas",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS A01 - TÉCNICO ADMINISTRATIVO",
+    "target_materia": "Noções de Direito Administrativo",
+    "target_topico": "Serviços públicos: conceitos, classificação, regulamentação, formas de prestação e delegação (concessão, permissão e autorização), direitos dos usuários",
     "llm_classified": true,
-    "status_integracao": "injetada"
+    "status_integracao": "reclassificada_aguardando"
   },
   {
     "id": "V3_FGV_TCE_PA_2024_Q2867",
@@ -23114,11 +23114,11 @@
     },
     "gabarito_oficial": "C",
     "formato": "MULTIPLA_ESCOLHA_5",
-    "target_area": "CONHECIMENTOS GERAIS (A01 E B02)",
-    "target_materia": "Matemática e Raciocínio Lógico",
-    "target_topico": "Compreensão do processo lógico que, a partir de um conjunto de hipóteses, conduz, de forma válida, a conclusões determinadas",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Inteligência Artificial, Ciência de Dados e Automação",
+    "target_topico": "Ciência de dados e analytics: conceitos fundamentais, estatística descritiva e inferencial",
     "llm_classified": true,
-    "status_integracao": "injetada"
+    "status_integracao": "reclassificada_aguardando"
   },
   {
     "id": "V3_FGV_TCE_PI_2025_Q3006",
@@ -23488,10 +23488,10 @@
     },
     "gabarito_oficial": "D",
     "formato": "MULTIPLA_ESCOLHA_5",
-    "target_area": "CONHECIMENTOS GERAIS (A01 E B02)",
-    "target_materia": "Matemática e Raciocínio Lógico",
-    "target_topico": "Compreensão do processo lógico que, a partir de um conjunto de hipóteses, conduz, de forma válida, a conclusões determinadas",
-    "status_integracao": "injetada",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS A01 - TÉCNICO ADMINISTRATIVO",
+    "target_materia": "Noções de Direito Administrativo",
+    "target_topico": "Regime jurídico-administrativo: princípios expressos (legalidade, impessoalidade, moralidade, publicidade e eficiência) e reconhecidos (razoabilidade, proporcionalidade, autotutela, motivação, segurança jurídica e continuidade dos serviços públicos)",
+    "status_integracao": "reclassificada_aguardando",
     "llm_classified": true
   },
   {
@@ -25160,11 +25160,11 @@
     },
     "gabarito_oficial": "C",
     "formato": "MULTIPLA_ESCOLHA_5",
-    "target_area": "CONHECIMENTOS GERAIS (A01 E B02)",
-    "target_materia": "Matemática e Raciocínio Lógico",
-    "target_topico": "Compreensão do processo lógico que, a partir de um conjunto de hipóteses, conduz, de forma válida, a conclusões determinadas",
+    "target_area": "DESCARTADA",
+    "target_materia": "DESCARTADA",
+    "target_topico": "DESCARTADA",
     "llm_classified": true,
-    "status_integracao": "injetada"
+    "status_integracao": "descartada_alienigena"
   },
   {
     "id": "V3_FGV_TCE_SC_2026_Q3220",
@@ -25996,10 +25996,10 @@
     },
     "gabarito_oficial": "B",
     "formato": "MULTIPLA_ESCOLHA_5",
-    "target_area": "CONHECIMENTOS GERAIS (A01 E B02)",
-    "target_materia": "Matemática e Raciocínio Lógico",
-    "target_topico": "Compreensão do processo lógico que, a partir de um conjunto de hipóteses, conduz, de forma válida, a conclusões determinadas",
-    "status_integracao": "injetada",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Governança de Tecnologia da Informação",
+    "target_topico": "Gerenciamento de serviços de TI: ITIL v4 (conceitos fundamentais, quatro dimensões do gerenciamento de serviços, Sistema de Valor de Serviço - SVS, cadeia de valor de serviço, práticas de gerenciamento de serviços)",
+    "status_integracao": "reclassificada_aguardando",
     "llm_classified": true
   },
   {
@@ -27030,11 +27030,11 @@
     },
     "gabarito_oficial": "C",
     "formato": "MULTIPLA_ESCOLHA_5",
-    "target_area": "CONHECIMENTOS GERAIS (A01 E B02)",
-    "target_materia": "Matemática e Raciocínio Lógico",
-    "target_topico": "Compreensão do processo lógico que, a partir de um conjunto de hipóteses, conduz, de forma válida, a conclusões determinadas",
+    "target_area": "CONHECIMENTOS ESPECÍFICOS B02 - TI",
+    "target_materia": "Inteligência Artificial, Ciência de Dados e Automação",
+    "target_topico": "Ciência de dados e analytics: conceitos fundamentais, estatística descritiva e inferencial",
     "llm_classified": true,
-    "status_integracao": "injetada"
+    "status_integracao": "reclassificada_aguardando"
   },
   {
     "id": "V3_FGV_TRT_DA_2025_Q3470",
