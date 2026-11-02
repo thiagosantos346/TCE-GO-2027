@@ -81,57 +81,6 @@ flowchart LR
 
 ---
 
-### Teste 001
-**(FGV – TJ/SC – 2026 – Analista Administrativo)**
-A Diretoria da empresa ABC adota uma ferramenta visual que dispõe, em colunas verticais, a variável tempo subdividida em frações regulares (originalmente, cada mês representado por quatro subcolunas correspondentes às semanas) e, em linhas horizontais, as atividades a serem executadas, permitindo o acompanhamento do cronograma sem necessidade de consulta ao calendário convencional. A ferramenta foi originalmente concebida por um engenheiro colaborador de Taylor, voltada ao planejamento e ao controle da produção semanal. A ferramenta de planejamento e controle descrita corresponde ao
-
-* **A)** cronograma.
-* **B)** fluxograma.
-* **C)** diagrama de blocos.
-* **D)** gráfico de Gantt.
-* **E)** análise de Pareto.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "cronograma". De acordo com a teoria estudada em *A) A Organização Racional do Trabalho (ORT) de Taylor:*, incentivos Salariais e Prêmios de Produção: Pagamento por peça produzida, fundamentado na tese de que o operário é indolente por natureza e reage exclusivamente a estímulos monetários ( Homo Economicus ).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "fluxograma". De acordo com a teoria estudada em *3. Teoria das Relações Humanas (Elton Mayo) e a Experiência de Hawthorne*, o Nível de Produção é Fruto da Integração Social: A capacidade de produção não é determinada por limites puramente físicos ou fisiológicos (como acreditava Taylor), mas pela integração social do trabalhador e pelo padrão de normas coletivas estabelecido pelo grupo.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "diagrama de blocos". De acordo com a teoria estudada em *Tabela de Síntese Comparativa das Escolas:*, relações Humanas: Elton Mayo — Nas Pessoas e nos grupos informais. — Homo Socialis (motivado pelo grupo e integração). — Experiência de Hawthorne; o nível de produção é ditado pela integração social; recompensas e sanções sociais no trabalho; organização informal.
-> - **D)** **Correta.** Conforme fundamentado na seção *B) A Teoria Clássica de Henri Fayol:* deste guia, as Seis Funções Básicas da Empresa: Funções Técnicas (produção), Comerciais (compra/venda), Financeiras (gestão de capital), de Segurança (proteção dos bens e pessoas), Contábeis (balanços, custos) e Administrativas (que coordenam e presidem as outras cinco). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/SC/2026) ao estabelecer que "gráfico de Gantt".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "análise de Pareto". De acordo com a teoria estudada em *A) A Organização Racional do Trabalho (ORT) de Taylor:*, análise do Trabalho e Estudo dos Tempos e Movimentos: Decomposição de cada tarefa em seus movimentos fundamentais ( therbligs ), eliminando movimentos inúteis para padronizar o método de execução mais rápido ( the one best way ).
->
-> **Gabarito: D**
-
----
-
-
-### Teste 002
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
-Henri Fayol foi um dos primeiros teóricos a sistematizar as funções do administrador, propondo que prever, organizar, comandar, coordenar e controlar constituem atividades fundamentais presentes em todos os níveis da hierarquia organizacional. No âmbito dessas funções, coordenar significa
-
-* **A)** verificar a conformidade entre os resultados obtidos e as metas, regras e orientações previamente definidas.
-* **B)** harmonizar atividades e esforços coletivos para que a organização atinja seus objetivos de forma coerente.
-* **C)** estabelecer a estrutura material e humana necessária para o funcionamento adequado da organização.
-* **D)** antecipar o futuro por meio da formulação de objetivos, planos e programas de ação.
-* **E)** orientar e conduzir o comportamento das pessoas na execução das atividades sob sua responsabilidade.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "verificar a conformidade entre os resultados obtidos e as metas, regras e orientações previamente definidas". De acordo com a teoria estudada em *Tabela de Síntese Comparativa das Escolas:*, teoria Neoclássica: Peter Drucker — Nos Resultados e objetivos práticos. — Homem Organizacional . — Ecletismo teórico; reafirmação dos princípios clássicos ajustados; foco em eficácia; Administração por Objetivos (APO).
-> - **B)** **Correta.** Conforme fundamentado na seção *B) A Teoria Clássica de Henri Fayol:* deste guia, coordenar: Ligar, unir, harmonizar e sincronizar todos os atos e esforços coletivos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "harmonizar atividades e esforços coletivos para que a organização atinja seus objetivos de forma coerente".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "estabelecer a estrutura material e humana necessária para o funcionamento adequado da organização". De acordo com a teoria estudada em *4. Teoria da Burocracia (Max Weber) e as Disfunções Burocráticas (Robert Merton)*, para Max Weber, a burocracia é a forma de organização social humana mais eficiente, técnica e racional para administrar grandes instituições e o Estado moderno.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "antecipar o futuro por meio da formulação de objetivos, planos e programas de ação". De acordo com a teoria estudada em *B) A Teoria Clássica de Henri Fayol:*, prever (ou Planejar): Visualizar o futuro e traçar o programa de ação institucional.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "orientar e conduzir o comportamento das pessoas na execução das atividades sob sua responsabilidade". De acordo com a teoria estudada em *B) A Teoria Clássica de Henri Fayol:*, comandar: Dirigir, orientar e instruir o corpo de funcionários.
->
-> **Gabarito: B**
-
----
-
-
-
 ## 2. A Divergência Clássica: Taylor (Científica) vs. Fayol (Clássica)
 
 Embora ambas pertençam à abordagem clássica e compartilhem a visão mecanicista da organização (tratando-a como um sistema fechado isolado do meio externo), Taylor e Fayol partiram de pontos de vista estruturais diametralmente opostos:

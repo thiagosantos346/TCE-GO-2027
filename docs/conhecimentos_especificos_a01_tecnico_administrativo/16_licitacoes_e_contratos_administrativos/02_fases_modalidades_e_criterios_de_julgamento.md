@@ -98,32 +98,6 @@ Na sistemática da NLLC, os recursos administrativos não são mais interpostos 
 
 ---
 
-### Teste 001
-**(FGV – TJ/RR – 2024 – Analista Judiciario Gestao E Governanca De Tecnologia Da Informacao)**
-A nova lei de licitações (Lei nº 14.133/21) instituiu uma nova modalidade de licitação denominada
-
-* **A)** pregão.
-* **B)** tomada de preços.
-* **C)** leilão.
-* **D)** cotação prévia.
-* **E)** diálogo competitivo.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pregão". De acordo com a teoria estudada em *5. Fontes Recomendadas na Internet*, regramento do pregão, concorrência, concurso, leilão e diálogo competitivo, bem como dos seis critérios de julgamento.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "tomada de preços". De acordo com a teoria estudada em *2.6 A Extinção Definitiva da Tomada de Preços e do Convite*, a NLLC extinguiu formal e definitivamente as modalidades Tomada de Preços e Convite. Na nova ordem jurídica, as modalidades são delimitadas estritamente pela natureza do objeto, e jamais pelo valor econômico da contratação.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "leilão". De acordo com a teoria estudada em *2.5 Diálogo Competitivo: Inovação, Rito e Comissão Efetiva (Art. 32)*, modalidade moderna instituída pela NLLC, restrita a contratações de alta complexidade em que a Administração identifica uma necessidade pública, mas não possui capacidade técnica de definir previamente as especificações do objeto.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "cotação prévia". De acordo com a teoria estudada em *2. As Cinco Modalidades Licitatórias Modernas (Art. 28)*, mOD D["DIÁLOGO COMPETITIVO<br/ • Inovação, complexidade técnica e metodológica<br/ • Duas fases de conversas e propostas finais"].
-> - **E)** **Correta.** Conforme fundamentado na seção *5. Fontes Recomendadas na Internet* deste guia, dI PIETRO, Maria Sylvia Zanella. Direito Administrativo. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 9 Modalidades Licitatórias, Diálogo Competitivo, Leilão e Procedimento da Lei 14.133/2021). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "diálogo competitivo".
->
-> **Gabarito: E**
-
----
-
-
-
 ## 2. As Cinco Modalidades Licitatórias Modernas (Art. 28)
 
 O art. 28 da Lei Federal nº 14.133/2021 estabelece um rol taxativo com cinco modalidades licitatórias aplicáveis a toda a Administração Pública brasileira:
@@ -217,76 +191,6 @@ Critério inovador privativo da celebração de **Contratos de Eficiência**:
 - O julgamento apura a **maior vantagem econômica líquida**: maior economia estimada menos a remuneração cobrada. Se a economia real aferida for menor que a proposta pelo licitante, a diferença é glosada e descontada de sua fatura.
 
 ---
-
-### Teste 002
-**(CEBRASPE – TRT/10 – 2013 – Analista Judiciario Tecnologia Da Informacao)**
-O protocolo de bloqueio é utilizado para resolver problemas relacionados à concorrência.
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *3.2 Melhor Técnica ou Conteúdo Artístico*, considera exclusivamente a pontuação atribuída à proposta técnica ou artística formulada pelo participante, fixando o edital previamente o valor do prêmio ou da remuneração que será outorgada. Utilizado no Concurso. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT/10/2013) ao afirmar que "O protocolo de bloqueio é utilizado para resolver problemas relacionados à concorrência".
-> - **E)** **Incorreta.** A assertiva não incorre em erro conceitual, guardando conformidade com a teoria estudada.
->
-> **Gabarito: C**
-
----
-
-
-### Teste 003
-**(FCC – TRT 24ª – 2017 – Analista Judiciário - Tecnologia da Informação)**
-Em determinado pregão eletrônico, uma das empresas interessadas em participar do certame pretende impugnar o edital. Nos termos do Decreto no 5.450/2005, o prazo para apresentar a impugnação é de até
-
-* **A)** 5 dias úteis antes da data fixada para abertura da sessão pública, e caberá ao pregoeiro, auxiliado pelo setor responsável pela elaboração do edital, decidir sobre a impugnação no prazo de até 24 horas.
-* **B)** 2 dias úteis contados da data fixada para abertura da sessão pública, e caberá ao pregoeiro, auxiliado pelo setor responsável pela elaboração do edital, decidir sobre a impugnação no prazo de até 72 horas.
-* **C)** 2 dias úteis antes da data fixada para abertura da sessão pública, e caberá ao pregoeiro, auxiliado pelo setor responsável pela elaboração do edital, decidir sobre a impugnação no prazo de até 24 horas.
-* **D)** 5 dias úteis contados da data fixada para abertura da sessão pública, e caberá ao pregoeiro, auxiliado pelo setor responsável pela elaboração do edital, decidir sobre a impugnação no prazo de até 48 horas.
-* **E)** 10 dias úteis antes da data fixada para abertura da sessão pública, e caberá ao pregoeiro, auxiliado pelo setor responsável pela elaboração do edital, decidir sobre a impugnação no prazo de até 24 horas.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "5 dias úteis antes da data fixada para abertura da sessão pública, e caberá ao pregoeiro, auxiliado pelo setor...". De acordo com a teoria estudada em *4.1 Modos de Disputa: Aberto, Fechado e Combinações (Art. 56)*, modo Fechado: As propostas permanecem em sigilo absoluto no sistema até a data e hora designadas para a abertura simultânea perante todos.
-> - **B)** **Correta.** Conforme fundamentado na seção *1.3 Fase Recursal Única e Concentrada (Art. 165)* deste guia, o licitante que discordar de qualquer decisão deve manifestar imediatamente sua intenção de recorrer sob pena de preclusão, dispondo do prazo de 3 (três) dias úteis para apresentação das razões recursais, abrangendo indistintamente matérias de julgamento de propostas e de habilitação. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 24ª/2017) ao estabelecer que "2 dias úteis contados da data fixada para abertura da sessão pública, e caberá ao pregoeiro, auxiliado pelo setor...".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2 dias úteis antes da data fixada para abertura da sessão pública, e caberá ao pregoeiro, auxiliado pelo setor...". De acordo com a teoria estudada em *1.1 Sequência Cronológica Canônica (Art. 17)*, fase Preparatória: Concepção da necessidade, confecção do ETP, TR ou Projeto Básico, elaboração da matriz de riscos, pesquisa de preços e redação da minuta de edital e de contrato.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "5 dias úteis contados da data fixada para abertura da sessão pública, e caberá ao pregoeiro, auxiliado pelo setor...". De acordo com a teoria estudada em *4.2 Prazos Mínimos de Apresentação de Propostas (Art. 55)*, os prazos mínimos de divulgação do edital contam se a partir da data de publicação no PNCP.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "10 dias úteis antes da data fixada para abertura da sessão pública, e caberá ao pregoeiro, auxiliado pelo setor...". De acordo com a teoria estudada em *1.2 A Inversão de Fases e a Habilitação Exclusiva do Vencedor*, exceção de Habilitação Prévia (Art. 17, § 1º): A inversão pode ser excepcionada (realizando se a habilitação antes do julgamento das propostas), desde que haja motivação expressa de interesse público na fase preparatória e prévia previsão no edital.
->
-> **Gabarito: B**
-
----
-
-
-### Teste 004
-**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Economia)**
-Em determinado mercado, há um número reduzido de empresas com participação relevante na oferta, existem barreiras significativas à entrada de novos concorrentes e cada firma, ao definir preço, produção ou investimento, leva em conta as possíveis reações das demais. A estrutura de mercado descrita é classificada como
-
-* **A)** concorrência perfeita.
-* **B)** monopólio.
-* **C)** concorrência monopolística.
-* **D)** oligopólio.
-* **E)** monopsônio.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "concorrência perfeita". De acordo com a teoria estudada em *2.2 Concorrência: Bens e Serviços Especiais e Obras*, critérios de Julgamento: Ampla flexibilidade, admitindo Menor Preço, Maior Desconto, Melhor Técnica, Técnica e Preço e Maior Retorno Econômico.
-> - **B)** **Correta.** Conforme fundamentado na seção *2.5 Diálogo Competitivo: Inovação, Rito e Comissão Efetiva (Art. 32)* deste guia, modalidade moderna instituída pela NLLC, restrita a contratações de alta complexidade em que a Administração identifica uma necessidade pública, mas não possui capacidade técnica de definir previamente as especificações do objeto. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "monopólio".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "concorrência monopolística". De acordo com a teoria estudada em *4.2 Prazos Mínimos de Apresentação de Propostas (Art. 55)*, obras com Regime de Empreitada por Preço Global: Concorrência — 25 dias úteis.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "oligopólio". De acordo com a teoria estudada em *4.1 Modos de Disputa: Aberto, Fechado e Combinações (Art. 56)*, modo Aberto: Os licitantes encaminham lances públicos sucessivos em plataforma eletrônica, conhecendo em tempo real os lances dos concorrentes.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "monopsônio". De acordo com a teoria estudada em *3.1 Menor Preço e Maior Desconto*, menor Preço: O vencedor é o licitante que apresenta o menor valor financeiro global ou unitário para a execução do objeto.
->
-> **Gabarito: B**
-
----
-
-
 
 ## 4. Modos de Disputa e Prazos Mínimos de Divulgação do Edital
 

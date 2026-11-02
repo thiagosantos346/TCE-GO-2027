@@ -367,57 +367,6 @@ flowchart LR
 
 ---
 
-### Teste 001
-**(FCC – TRT 15ª – 2015 – Analista Judiciário - Tecnologia da Informação)**
-Com respeito à DMZ, do termo em inglês “DeMilitarized Zone”, ou seja, “Zona Desmilitarizada” considere: I. Tem como função manter os serviços que possuem acesso externo separados da rede local, restringindo ao máximo um potencial dano causado por algum invasor, tanto interno como externo. II. Permite o acesso de usuários externos aos servidores específicos localizados na rede de perímetro e também o acesso deles à rede corporativa interna. III. Tem como papel principal ser uma rede “tampão” entre as redes externa e interna. IV. A configuração é realizada através do uso de equipamentos de Firewall, que vão realizar o controle de acesso entre ela, a rede local e a Internet. Está correto o que consta APENAS em
-
-* **A)** II.
-* **B)** I, III e IV.
-* **C)** II, III e IV.
-* **D)** I e II.
-* **E)** I e III.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II". De acordo com a teoria estudada em *4.1 O Colapso da Segurança de Borda Tradicional ("Castelo e Fosso")*, uma vez que o colaborador acessava a rede local (conectando o cabo de rede na sede do órgão ou autenticando se na VPN), ele passava a gozar de confiança implícita, podendo navegar livremente por dezenas de servidores e sub redes.
-> - **B)** **Correta.** Conforme fundamentado na seção *4.1 O Colapso da Segurança de Borda Tradicional ("Castelo e Fosso")* deste guia, fOSSO["Borda Externa / Firewall / VPN"] |"Se entrar, TUDO é confiável"| REDE LIVRE["Rede Interna Aberta (Movimento Lateral Livre)"]. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 15ª/2015) ao estabelecer que "I, III e IV".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II, III e IV". De acordo com a teoria estudada em *4.4 Microsegmentação e Contenção do Movimento Lateral*, diferente dos firewalls tradicionais que filtram apenas tráfego norte sul (entrada e saída da Internet), a microsegmentação aplica regras rigorosas ao tráfego leste oeste (comunicação entre servidores internos). Assim, caso um servidor web seja invadido, o atacante é impedido de realizar movimento lateral para alcançar o banco de dados contábil que reside na mesma rede física.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e II". De acordo com a teoria estudada em *4.1 O Colapso da Segurança de Borda Tradicional ("Castelo e Fosso")*, dividia se a rede em "Externa (Hostil)" e "Interna (Confiável)".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e III". De acordo com a teoria estudada em *4.1 O Colapso da Segurança de Borda Tradicional ("Castelo e Fosso")*, movimento Lateral de Malwares: Uma vez infectado um único terminal de entrada (ex.: computador da recepção), o ransomware explora a confiança implícita da rede interna para se espalhar horizontalmente até servidores centrais de banco de dados e controladores de domínio.
->
-> **Gabarito: B**
-
----
-
-
-### Teste 002
-**(FGV – TCE/SC – 2026 – Auditor Fiscal De Controle Externo Engenharia Sanitaria)**
-De acordo com a Política Nacional de Meio Ambiente, a servidão ambiental é instituída quando, além de todos os procedimentos necessários do ponto de vista legal, o proprietário ou possuidor de um imóvel
-
-* **A)** limita o uso de toda ou parte de sua propriedade para preservar, conservar ou recuperar os recursos ambientais existentes.
-* **B)** promove a averbação de área de reserva legal no registro do imóvel, garantindo a manutenção de cobertura vegetal nativa nos termos da legislação vigente.
-* **C)** realiza compensação ambiental mediante o plantio de espécies vegetais em área distinta da impactada, visando à reposição da cobertura vegetal suprimida.
-* **D)** estabelece contrapartida financeira ou material junto ao ente público competente, com o objetivo de compensar danos ambientais decorrentes da utilização da propriedade.
-* **E)** assegura o acesso à propriedade em conformidade com critérios de sustentabilidade ambiental, com vistas à minimização de impactos sobre a fauna e a flora locais.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *2.5 ABAC (Attribute-Based Access Control) e a Norma XACML* deste guia, atributos do Ambiente / Contexto: Horário da solicitação, geolocalização física (país/cidade), se a conexão parte da VPN institucional ou rede aberta, conformidade de segurança do dispositivo ( health status ). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "limita o uso de toda ou parte de sua propriedade para preservar, conservar ou recuperar os recursos ambientais...".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "promove a averbação de área de reserva legal no registro do imóvel, garantindo a manutenção de cobertura vegetal...". De acordo com a teoria estudada em *3.3 Gestão de Acessos Privilegiados (PAM): Cofre, JIT e Sessões Gravadas*, gravação e Auditoria de Sessões Privilegiadas: Toda conexão administrativa é intermediada por um proxy seguro que grava em vídeo e em texto todos os comandos digitados pelo administrador, garantindo responsabilização irrefutável ( non repudiation ).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "realiza compensação ambiental mediante o plantio de espécies vegetais em área distinta da impactada, visando à...". De acordo com a teoria estudada em *1.1 O Modelo AAA (Authentication, Authorization, Accounting)*, autorização: Uma vez que a autenticidade foi comprovada, o sistema consulta as matrizes de permissão para definir os privilégios exatos e as ações que aquele sujeito específico está legalmente autorizado a executar sobre os recursos.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "estabelece contrapartida financeira ou material junto ao ente público competente, com o objetivo de compensar...". De acordo com a teoria estudada em *3.3 Gestão de Acessos Privilegiados (PAM): Cofre, JIT e Sessões Gravadas*, cofre Seguro de Senhas ( Password Vault ): As senhas de superusuário ficam guardadas em um cofre criptografado central. Nenhum administrador humano conhece a senha real; o sistema altera as senhas automaticamente após cada utilização (senhas descartáveis de uso único).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "assegura o acesso à propriedade em conformidade com critérios de sustentabilidade ambiental, com vistas à...". De acordo com a teoria estudada em *4.2 Os Três Princípios Norteadores Oficiais do Zero Trust*, não existe zona de confiança implícita, mesmo para conexões originadas do prédio sede da corporação ou de computadores patrimoniados. Toda e qualquer requisição de acesso deve ser autenticada, autorizada e criptografada explicitamente, avaliando em tempo real o contexto da sessão.
->
-> **Gabarito: A**
-
----
-
-
-
 ## 6. Fontes Recomendadas na Internet
 
 * [NIST SP 800-207 - Zero Trust Architecture](https://csrc.nist.gov/pubs/sp/800/207/final) - Publicação seminal do NIST definindo os princípios e a arquitetura oficial Zero Trust.

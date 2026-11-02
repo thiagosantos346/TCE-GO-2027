@@ -107,57 +107,6 @@ A **desconcentração** é uma técnica puramente interna de divisão e distribu
 
 ---
 
-### Teste 001
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Engenharia Telecomunicação)**
-Na execução de um processo licitatório, o valor global de um serviço de engenharia a ser contratado por uma empresa pública foi de R$ 500.000,00 (quinhentos mil reais). As propostas apresentadas na licitação, em milhares de reais, são mostradas na tabela abaixo: Licitante Valor Global I 240,00 II 420,00 III 480,00 IV 450,00 V 270,00 De acordo com a Lei nº 13.303, de 2016, é correto afirmar que a vencedora do certame foi a empresa
-
-* **A)** I.
-* **B)** II.
-* **C)** III.
-* **D)** IV.
-* **E)** V.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I". De acordo com a teoria estudada em *1.1 Centralização e Descentralização*, descentralização por Serviços, Outorga ou Funcional: O poder público transfere a titularidade e a execução do serviço mediante lei formal para entidades da Administração Pública Indireta (Autarquias, Fundações Públicas, Empresas Públicas e Sociedades de Economia Mista). Possui caráter de estabilidade institucional duradoura.
-> - **B)** **Correta.** Conforme fundamentado na seção *2.4 O Estatuto Jurídico das Estatais (Lei nº 13.303/2016)* deste guia, regime Próprio de Licitações das Estatais: As estatais possuem regime licitatório próprio disciplinado pelos arts. 28 a 84 da Lei 13.303/2016, com modalidades licitatórias simplificadas e procedimentos de negociação direta, não se sujeitando como regra geral à Lei nº 14.133/2021. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "II".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "III". De acordo com a teoria estudada em *3.1 Serviços Sociais Autônomos (Sistema S)*, não integram a Administração Pública; financiam se mediante contribuições parafiscais arrecadadas compulsoriamente pelo Estado. Submetem se ao controle externo exercido pelo Tribunal de Contas quanto aos recursos parafiscais, mas possuem regulamentos próprios de licitação e processo seletivo simplificado para pessoal.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "IV". De acordo com a teoria estudada em *1.1 Centralização e Descentralização*, descentralização por Colaboração ou Delegação: O poder público transfere apenas a execução material do serviço para particulares (concessionárias e permissionárias de serviços públicos) mediante contrato administrativo de concessão ou ato unilateral de permissão. A titularidade permanece nas mãos do poder concedente.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V". De acordo com a teoria estudada em *2.4 O Estatuto Jurídico das Estatais (Lei nº 13.303/2016)*, a Lei Federal nº 13.303/2016 instituiu o estatuto jurídico unificado de governança e contratações para todas as empresas públicas e sociedades de economia mista da União, Estados, DF e Municípios.
->
-> **Gabarito: B**
-
----
-
-
-### Teste 002
-**(FGV – TCE/PI – 2025 – Auditor de Controle Externo - Controle Externo - Específica de Área Comum)**
-Em razão da prática de ato danoso ao erário, o TCE-PI aplicou multa e imputou débito a João, gestor de uma autarquia de município jurisdicionado àquela Corte de Contas. A decisão do TCE-PI que resultou na imputação de débito a João tem natureza de
-
-* **A)** dívida ativa.
-* **B)** dívida tributária.
-* **C)** decisão jurisdicional.
-* **D)** título de crédito judicial.
-* **E)** título executivo extrajudicial.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "dívida ativa". De acordo com a teoria estudada em *4.4 Poder Regulamentar / Normativo e os Decretos Autônomos*, prerrogativa outorgada aos Chefes do Poder Executivo para expedir atos gerais e abstratos.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "dívida tributária". De acordo com a teoria estudada em *2.1 Autarquias e Autarquias de Regime Especial*, regime Jurídico: Totalmente público. Seus bens são públicos (impenhoráveis, inalienáveis e imprescritíveis); gozam de imunidade tributária recíproca (CF, art. 150, § 2º) sobre patrimônio, renda e serviços vinculados a suas finalidades; seus servidores submetem se ao regime estatutário do respectivo ente; e suas dívidas judiciais são quitadas mediante precatórios.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "decisão jurisdicional". De acordo com a teoria estudada em *4.1 Poder Vinculado vs. Poder Discricionário e o Mérito Administrativo*, poder Discricionário: A lei confere expressamente ao administrador uma margem controlada de livre apreciação para eleger a decisão mais adequada perante o caso concreto, com base na conveniência e oportunidade (Mérito Administrativo).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "título de crédito judicial". De acordo com a teoria estudada em *4.1 Poder Vinculado vs. Poder Discricionário e o Mérito Administrativo*, limites do Controle Judicial: O Poder Judiciário e o Tribunal de Contas não podem invadir o mérito administrativo puro (não podem substituir a escolha legítima e discricionária do gestor); todavia, exercem pleno controle de legalidade, proporcionalidade, razoabilidade e moralidade sobre o ato.
-> - **E)** **Correta.** Conforme fundamentado na seção *3.2 Organizações Sociais (OS) e Contratos de Gestão* deste guia, pessoas jurídicas de direito privado sem fins lucrativos que recebem a qualificação jurídica de OS pelo Poder Executivo (Lei nº 9.637/1998 e legislações estaduais congêneres). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PI/2025) ao estabelecer que "título executivo extrajudicial".
->
-> **Gabarito: E**
-
----
-
-
-
 ## 2. Entidades da Administração Indireta
 
 A Administração Indireta é o conjunto de entes descentralizados aos quais a lei confere personalidade jurídica própria para desempenhar atividades especializadas de interesse coletivo. Rege-se pelo art. 37, XIX, da CF/88.

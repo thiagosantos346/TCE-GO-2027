@@ -123,57 +123,6 @@ flowchart TD
 
 ---
 
-### Teste 001
-**(FGV – TRT da 24º Região – 2025 – Analista Judiciário - Área Administrativa - Contabilidade)**
-De acordo com a NBC TSP Estrutura Conceitual, os fenômenos econômicos e outros fenômenos representados no Relatório Contábil de Propósito Geral das Entidades do Setor Público (RCPG) ocorrem normalmente sob condições de incerteza. Assinale a opção que indica o posicionamento da estrutura conceitual em relação às estimativas.
-
-* **A)** Devem ser evitadas sempre que possível.
-* **B)** Devem ser utilizadas apenas quando representarem certeza em relação aos dados.
-* **C)** Devem ser utilizadas apenas quando se referirem a fato novo para a entidade.
-* **D)** Devem ser suportadas por laudos de peritos especializados e independentes.
-* **E)** Devem ser baseadas em dados apropriados e que refletem a melhor informação disponível.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "Devem ser evitadas sempre que possível". De acordo com a teoria estudada em *2.1 As Seis Características Qualitativas*, informações complexas e essenciais à governança jamais devem ser omitidas sob o pretexto de tornar o relatório "simples" ou acessível!.
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Devem ser utilizadas apenas quando representarem certeza em relação aos dados". De acordo com a teoria estudada em *🌐 Fontes Oficiais & Normativas Recomendadas*, cONSELHO FEDERAL DE CONTABILIDADE. Normas Brasileiras de Contabilidade: NBC TSP — Estrutura Conceitual para Elaboração e Divulgação de Informação Contábil de Propósito Geral pelas Entidades do Setor Público. Brasília: CFC, 2016.
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Devem ser utilizadas apenas quando se referirem a fato novo para a entidade". De acordo com a teoria estudada em *1.1 Evolução: Do Enfoque Orçamentário ao Patrimonial Integrado*, antigo["Modelo Clássico (Lei 4.320/64)<br/ • Primazia orçamentária estrita<br/ • Foco no fluxo de caixa e créditos<br/ • Despesas com obras lançadas como consumo"] Novo["Modelo Moderno NBC TSP / MCASP<br/ • Primazia PATRIMONIAL integrada<br/ • Regime de COMPETÊNCIA PURO para variações<br/ • Registro de Ativos, Passivos, VPA e VPD pelo fato gerador"].
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Devem ser suportadas por laudos de peritos especializados e independentes". De acordo com a teoria estudada em *3.2 Bases de Mensuração para Ativos e Passivos*, valor de Mercado: Montante pelo qual um ativo pode ser trocado entre partes conhecedoras, dispostas e em condições normais de mercado. — Montante pelo qual o passivo poderia ser liquidado entre partes independentes.
-> - **E)** **Correta.** Conforme fundamentado na seção *2.1 As Seis Características Qualitativas* deste guia, representação Fidedigna: A informação deve retratar com fidelidade a substância econômica das transações. Para ser fidedigna, a representação deve ser completa, neutra e livre de erro material (a neutralidade implica a ausência de viés na seleção ou apresentação dos dados). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT da 24º Região/2025) ao estabelecer que "Devem ser baseadas em dados apropriados e que refletem a melhor informação disponível".
->
-> **Gabarito: E**
-
----
-
-
-### Teste 002
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Fiscalização - Contabilidade)**
-Um hospital universitário utiliza força de trabalho de estudantes. Deste modo, o hospital não é o responsável pelo desembolso, no entanto, tem benefícios dele. Assinale a opção que indica a atribuição dos custos de recursos que não geram desembolsos, de acordo com a NBC TSP 34 – Custos no Setor Público
-
-* **A)** os recursos consumidos devem ser atribuídos aos objetos de custos, de modo a tornar o processo mais simples e rápido.
-* **B)** os recursos consumidos devem ser atribuídos aos objetos de custos, de modo a representar com fidedignidade o custo dos recursos consumidos.
-* **C)** os recursos consumidos não devem ser atribuídos aos objetos de custos, de modo a quantificar o montante efetivamente dispendido.
-* **D)** os recursos consumidos não devem ser atribuídos aos objetos de custos, de modo a diferenciar entre recursos que geram e os que não geram desembolso.
-* **E)** os recursos consumidos devem ser atribuídos aos objetos de custos, uma vez que os custos para segregar os recursos que geram dos que não geram desembolsos são maiores do que os benefícios.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os recursos consumidos devem ser atribuídos aos objetos de custos, de modo a tornar o processo mais simples e...". De acordo com a teoria estudada em *2.1 As Seis Características Qualitativas*, informações complexas e essenciais à governança jamais devem ser omitidas sob o pretexto de tornar o relatório "simples" ou acessível!.
-> - **B)** **Correta.** Conforme fundamentado na seção *2.2 Restrições Inerentes: Custo-Benefício e Materialidade* deste guia, custo Benefício: Os benefícios derivados da informação devem exceder os custos decorrentes de sua coleta, processamento e divulgação. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "os recursos consumidos devem ser atribuídos aos objetos de custos, de modo a representar com fidedignidade o custo...".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os recursos consumidos não devem ser atribuídos aos objetos de custos, de modo a quantificar o montante...". De acordo com a teoria estudada em *3.2 Bases de Mensuração para Ativos e Passivos*, custo Histórico: Montante de caixa fornecido para adquirir ou construir o ativo. — Montante de recursos recebidos para assumir a obrigação no passado.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os recursos consumidos não devem ser atribuídos aos objetos de custos, de modo a diferenciar entre recursos que...". De acordo com a teoria estudada em *4.2 Mensuração de Estoques Públicos para Distribuição Gratuita (NBC TSP 04)*, quando os estoques forem mantidos para distribuição gratuita ou por valor simbólico (ex.: medicamentos e vacinas do SUS, kits de merenda escolar, livros didáticos), eles devem ser mensurados pelo menor valor entre o custo histórico de aquisição e o CUSTO CORRENTE DE REPOSIÇÃO!.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os recursos consumidos devem ser atribuídos aos objetos de custos, uma vez que os custos para segregar os recursos...". De acordo com a teoria estudada em *3.2 Bases de Mensuração para Ativos e Passivos*, custo de Cumprimento: (Não aplicável) — Custos que a entidade pública incorrerá para satisfazer as obrigações assumidas com terceiros.
->
-> **Gabarito: B**
-
----
-
-
-
 ## 3. Elementos das Demonstrações Contábeis e Bases de Mensuração
 
 ### 3.1 Elementos Patrimoniais: Ativo, Passivo, SPL, VPA e VPD

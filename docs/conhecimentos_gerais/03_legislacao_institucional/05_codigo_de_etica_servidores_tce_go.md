@@ -188,32 +188,6 @@ graph TD
 
 ---
 
-### Teste 001
-**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Ciências Contábeis)**
-Maria, servidora do Tribunal de Contas do Estado de Goiás, teve conhecimento, em sua vida privada, de que Joana, também servidora dessa estrutura orgânica, não era assídua e frequente ao serviço, o que comprometia o regular funcionamento do setor a que estava vinculada. Ao analisar o Código de Ética para os Servidores do Tribunal de Contas do Estado de Goiás, Maria concluiu corretamente que
-
-* **A)** tem a faculdade de informar ao superior hierárquico de Joana sobre a sua conduta.
-* **B)** em razão dos princípios da ética relacional, não deve se arvorar em órgão correcional de Joana.
-* **C)** deve notificar a Comissão de Ética a respeito da conduta de Joana, por ser contrária ao Código de Ética.
-* **D)** deve representar ao Presidente do Tribunal de Contas para que adote as providências cabíveis contra Joana, no plano estatutário.
-* **E)** deve informar ao seu superior hierárquico em relação à conduta de Joana, cabendo àquele comunicar ao superior hierárquico desta última.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "tem a faculdade de informar ao superior hierárquico de Joana sobre a sua conduta". De acordo com a teoria estudada em *1.1 Princípios e Valores Éticos do Controle Externo*, o Código de Ética e de Conduta dos Servidores do Tribunal de Contas do Estado de Goiás, veiculado pela Resolução Administrativa nº 01/2014 (Anexo II) e complementado pelos atos de integridade institucional, estabelece as diretrizes axiológicas que regem a conduta de todos os servidores efetivos, comissionados, estagiários e colaboradores que prestam serviços ao Tribunal.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "em razão dos princípios da ética relacional, não deve se arvorar em órgão correcional de Joana". De acordo com a teoria estudada em *1.1 Princípios e Valores Éticos do Controle Externo*, dignidade, Decoro e Zelo: O servidor público não pode dissociar sua vida funcional de sua conduta perante a sociedade; sua atuação deve refletir o prestígio e a respeitabilidade do Tribunal de Contas.
-> - **C)** **Correta.** Conforme fundamentado na seção *Fundamentos Teóricos* deste guia, ato Normativo: Código de Ética e de Conduta dos Servidores do Tribunal de Contas do Estado de Goiás (Resolução Administrativa nº 01/2014, Anexo II, e alterações normativas de integridade). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "deve notificar a Comissão de Ética a respeito da conduta de Joana, por ser contrária ao Código de Ética".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "deve representar ao Presidente do Tribunal de Contas para que adote as providências cabíveis contra Joana, no...". De acordo com a teoria estudada em *5. Fontes Oficiais e Referências Bibliográficas*, código de Ética dos Servidores do TCE GO (Documento Oficial TCE GO) Texto oficial com deveres, vedações e funcionamento da Comissão de Ética.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "deve informar ao seu superior hierárquico em relação à conduta de Joana, cabendo àquele comunicar ao superior...". De acordo com a teoria estudada em *4.1 Composição e Tríplice Atuação da Comissão de Ética*, função Educativa: Promove campanhas institucionais de integridade, transparência e respeito à ética pública.
->
-> **Gabarito: C**
-
----
-
-
-
 ## 5. Fontes Oficiais e Referências Bibliográficas
 
 * [Código de Ética dos Servidores do TCE-GO (Documento Oficial TCE-GO)](https://portal.tce.go.gov.br/documents/20181/574123/C%C3%B3digo+de+%C3%89tica/056863be-6768-4c35-a6e8-ccdd40421211) - Texto oficial com deveres, vedações e funcionamento da Comissão de Ética.

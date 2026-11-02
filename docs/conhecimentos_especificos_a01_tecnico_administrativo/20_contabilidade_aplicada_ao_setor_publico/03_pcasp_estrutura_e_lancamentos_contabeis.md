@@ -122,32 +122,6 @@ flowchart LR
 
 ---
 
-### Teste 001
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Contabilidade)**
-O Plano de Contas Aplicado ao Setor Público (PCASP) elenca alguns tipos de provisões, que estão apresentadas a seguir, à exceção de uma. Assinale-a.
-
-* **A)** Para riscos cíveis.
-* **B)** Para riscos fiscais.
-* **C)** Para riscos trabalhistas.
-* **D)** Para crédito de liquidação duvidosa.
-* **E)** Para repartição de créditos tributários.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Para riscos cíveis". De acordo com a teoria estudada em *5.2 Execução da Despesa Orçamentária Passo a Passo (Empenho, Liquidação e Pagamento)*, est1 Est2["ESTÁGIO 2: LIQUIDAÇÃO (Atesto / Recebimento)<br/ • Subsistema Orçamentário:<br/ D: 6.2.2.1.3 Crédito Empenhado a Liquidar<br/ C: 6.2.2.1.4 Crédito Empenhado Liquidado a Pagar<br/ • Subsistema Patrimonial:<br/ D: 3.X (VPD Consumo) OU 1.2 (Ativo Imobilizado)<br/ C: 2.1.3.X Fornecedores a Pagar (Passivo Circulante)"].
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Para riscos fiscais". De acordo com a teoria estudada em *5.2 Execução da Despesa Orçamentária Passo a Passo (Empenho, Liquidação e Pagamento)*, est2 Est3["ESTÁGIO 3: PAGAMENTO (Ordem Bancária)<br/ • Subsistema Orçamentário:<br/ D: 6.2.2.1.4 Crédito Empenhado Liquidado a Pagar<br/ C: 6.2.2.1.5 Crédito Empenhado Pago<br/ • Subsistema Patrimonial:<br/ D: 2.1.3.X Fornecedores a Pagar (Baixa da Obrigação)<br/ C: 1.1.1.1 Caixa e Equivalentes de Caixa (Conta Única)"].
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Para riscos trabalhistas". De acordo com a teoria estudada em *1.1 Objetivos Centrais e Abrangência Federativa Obrigatória*, o Plano de Contas Aplicado ao Setor Público (PCASP) é a espinha dorsal da escrituração contábil e orçamentária governamental no Brasil. Instituído pela Secretaria do Tesouro Nacional (STN) e pelo Conselho Federal de Contabilidade (CFC), tem aplicação obrigatória em todos os entes da Federação (União, Estados, Distrito Federal e Municípios) e abrange todos os Poderes (Executivo, Legislativo e Judiciário), além do Ministério Público e dos Tribunais de Contas.
-> - **D)** **Correta.** Conforme fundamentado na seção *5.2 Execução da Despesa Orçamentária Passo a Passo (Empenho, Liquidação e Pagamento)* deste guia, desp Est1["ESTÁGIO 1: EMPENHO<br/ • Subsistema Orçamentário:<br/ D: 6.2.2.1.1 Crédito Disponível<br/ C: 6.2.2.1.3 Crédito Empenhado a Liquidar<br/ • Subsistema Patrimonial: NENHUM REGISTRO!"]. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Para crédito de liquidação duvidosa".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Para repartição de créditos tributários". De acordo com a teoria estudada em *5.3 Execução da Receita Orçamentária (Lançamento e Arrecadação/Recolhimento)*, d 1.1.2.X Créditos Tributários a Receber (Ativo Circulante).
->
-> **Gabarito: D**
-
----
-
-
-
 ## 3. Os Três Subsistemas de Informação Contábil e Regra da Autonomia
 
 O PCASP estrutura a contabilidade em três subsistemas autônomos e integrados:

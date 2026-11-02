@@ -87,32 +87,6 @@ Para maximizar a eficiência, a leitura técnica orientada a concurso estrutura-
 
 ---
 
-### Teste 001
-**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Ciências Contábeis)**
-The text ends in a note of
-
-* **A)** outrage.
-* **B)** appreciation.
-* **C)** indebtedness.
-* **D)** apprehension.
-* **E)** encouragement. Normas Específicas do Estado de Goiás
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "outrage". De acordo com a teoria estudada em *1. Fundamentos do Inglês Instrumental (English for Specific Purposes - ESP)*, o Inglês Instrumental ( English for Specific Purposes ESP ) rege se pelo princípio da utilidade pragmática: o propósito do candidato ou técnico não é adquirir fluência de conversação, pronúncia nativa ou redação literária, mas sim a decodificação rápida, crítica e exata de textos técnicos especializados no domínio de Tecnologia da Informação.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "appreciation". De acordo com a teoria estudada em *1. Fundamentos do Inglês Instrumental (English for Specific Purposes - ESP)*, em certames públicos organizados pela Fundação Carlos Chagas (FCC) para cargos de Auditoria e Tecnologia de Controle Externo, o tempo médio disponível por questão gira em torno de 3 minutos. Candidatos que adotam a estratégia ingênua de tentar traduzir mentalmente o texto palavra por palavra ( word by word translation ) exaurem o tempo de prova, sobrecarregam a memória de trabalho e perdem a percepção da macroestrutura argumentativa do autor.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "indebtedness". De acordo com a teoria estudada em *1.1 Tripé de Competências Cognitivas*, a proficiência instrumental sólida decorre da integração sinérgica de três dimensões cognitivas.
-> - **D)** **Correta.** Conforme fundamentado na seção *2.2 Identificação de Tipos de Questões FCC* deste guia, "The main purpose of the text is to.." (O objetivo central do texto é..). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "apprehension".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "encouragement. Normas Específicas do Estado de Goiás". De acordo com a teoria estudada em *1.1 Tripé de Competências Cognitivas*, competência Linguística Mínima ( Linguistic Competence ): Domínio de estruturas morfossintáticas centrais (voz passiva abundante em relatórios técnicos, verbos modais que regulam graus de certeza e obrigatoriedade, ordem sintática modificador núcleo e conectivos de coesão lógica).
->
-> **Gabarito: D**
-
----
-
-
-
 ## 2. Skimming: Leitura Rápida Panorâmica (Main Idea & Gist)
 
 O **Skimming** (derivado do verbo *to skim*, "desnatar", retirar a camada superior) consiste em uma leitura acelerada e panorâmica com o objetivo precípuo de **captar a ideia principal (*gist / main idea*), o tema global, o tom e a arquitetura macrotextual**, sem deter-se em pormenores secundários, dados numéricos isolados ou termos desconhecidos.
@@ -182,26 +156,6 @@ flowchart TD
 ```
 
 ---
-
-### Teste 002
-**(CEBRASPE – TRT/8 – 2016 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao)**
-Monitoring a data processing department’s efficiency and effectiveness is another ongoing task for data processing managers. Producing cost estimates for hardware and software 10 upgrades is another typical job duty for data processing managers. They may also oversee computer systems operations, working with staff to troubleshoot problems and 13 design solutions. Coordinating the installation of hardware, data communications systems and software may also fall under the data processing manager’s job description. A data 16 processing manager is often required to administer the implementation of new or revised systems, evaluate designs, or develop technical standards and procedures for system 19 maintenance and operation. Often, they lead the data processing department; in this capacity, they may recruit, hire, train and supervise staff. Other job duties for data processing 22 managers may include: preparing and administering departmental budgets; preparing and presenting reports related to data processing operations; acting as liaison between staff 25 and management; interfacing with external vendors; and negotiating proposals. Internet: <www.floridatechonline.com> (adapted). In relation to the ideas expressed in the text and to its grammatical aspects, choose the true option. A After getting the organizational needs from the staff the IT professionals fix the best way to get them. B Processing managers are in charge of providing data to contribute to the efficiency and effectiveness of the department. C In the text, the pronoun “them” (R.6) refers to “information technology (IT) professionals” (R.3). D The processing manager is supposed to perform just three activities. E The IT professionals get in touch with staff and senior management to find out the organizational needs. According to the text, the data processing manager is A the head of department and as such he can train and supervise staff. B often asked to evaluate designs. C asked to create the due budget. D required to submit reports to be approved by the staff members. E rarely called to administer the implementation of new or Assinale a opção correta a respeito dos princípios fundamentais na Constituição Federal de 1988 (CF). A A valorização social do trabalho e da livre-iniciativa não alcança, indiscriminadamente, quaisquer manifestações, mas apenas atividades econômicas capazes de impulsionar o desenvolvimento nacional. B O conceito atual de soberania exprime o autorreconhecimento do Estado como sujeito de direito internacional, mas não engloba os conceitos de abertura, cooperação e integração. C A cidadania envolve não só prerrogativas que viabilizem o poder do cidadão de influenciar as decisões políticas, mas também a obrigação de respeitar tais decisões, ainda que delas discorde. D A dignidade da pessoa humana é conceito eminentemente ético-filosófico, insuscetível de detalhada qualificação normativa, de modo que de sua previsão na Constituição não resulta grande eficácia jurídica, em razão de seu conteúdo abstrato. E O valor social do trabalho possui como traço caracterizador primordial e principal a liberdade de escolha profissional, correspondendo à opção pelo modelo capitalista de produção. Conforme o inciso VII do artigo 5.º da CF, “é assegurada, nos termos da lei, a prestação de assistência religiosa nas entidades civis e militares de internação coletiva”. Considerando-se a aplicabilidade das normas constitucionais e os critérios doutrinários de classificação, é correto afirmar que o referido dispositivo constitui norma A de aplicabilidade imediata. B de eficácia plena programática. C de eficácia plena. D de eficácia limitada de princípio institutivo. E de eficácia limitada programática. Assinale a opção correta acerca do que dispõe a CF sobre partidos políticos. A É inconstitucional, por ofensa ao pluripartidarismo e ao pluralismo político, a fixação de proporcionalidade entre a representatividade partidária e a distribuição do fundo partidário e do tempo na televisão e no rádio. B A exigência de caráter nacional dos partidos políticos visa resguardar o princípio federativo da unidade nacional. C A vedação à utilização de organização paramilitar não obsta que os partidos, em razão da autonomia que lhe é constitucionalmente assegurada, convencionem indumentária uniformizada ou que estabeleçam, em seu âmbito interno, relação de comando e obediência baseada em hierarquia rígida e fidelidade partidária. D Os partidos políticos possuem personalidade jurídica de direito público. E A previsão constitucional de que a lei regrará a função parlamentar autoriza o estabelecimento, pela legislação infraconstitucional, de padrões mínimos de desempenho eleitoral como condição para funcionamento do partido nas De acordo com a CF, compete A à União, aos estados, ao Distrito Federal e aos municípios legislar concorrentemente sobre direito agrário. B aos estados elaborar e executar planos regionais de ordenação do território e de desenvolvimento econômico e social. C aos municípios explorar diretamente serviços de radiodifusão. D à União legislar privativamente sobre desapropriação. E à União legislar privativamente sobre direito financeiro. À luz do disposto na CF, assinale a opção correta a respeito do concurso público. A A constitucionalidade da sujeição de candidato a exame psicotécnico em concurso público depende apenas de haver previsão editalícia nesse sentido. B As provas de títulos em concurso público devem possuir caráter eliminatório e classificatório. C É inconstitucional a disposição, em edital, que limite o número de participantes de cada fase de concurso público e que possa, por isso, eliminar eventuais candidatos que, embora aprovados, não alcancem a classificação mínima exigida. D Os serviços sociais autônomos, embora não integrem a administração pública, submetem-se à regra constitucional de exigência de concurso público para provimento de seus quadros. E É constitucional a limitação de idade para inscrição em concurso público quando essa limitação se justificar em razão das atribuições do cargo.
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *6. Fontes Recomendadas na Internet*, gLENDINNING, Eric H.; MCEWAN, John. Oxford English for Information Technology. 2. ed. Oxford: Oxford University Press, 2006. (Units 1 to 5 Computer Architecture and Technical Reading Skills). Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT/8/2016) ao afirmar que "Monitoring a data processing department’s efficiency and effectiveness is another ongoing task for data...".
-> - **E)** **Incorreta.** A assertiva não incorre em erro conceitual, guardando conformidade com a teoria estudada.
->
-> **Gabarito: C**
-
----
-
-
 
 ## 4. Predição e Pistas Contextuais de Vocabulário (Context Clues)
 

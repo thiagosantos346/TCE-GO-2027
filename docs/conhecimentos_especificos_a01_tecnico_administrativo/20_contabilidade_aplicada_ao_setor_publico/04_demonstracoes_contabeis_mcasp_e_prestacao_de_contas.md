@@ -86,32 +86,6 @@ $$\text{Resultado Orçamentário} = \text{Receitas Realizadas} - \text{Despesas 
 
 ---
 
-### Teste 001
-**(FGV – TRT 1ª – 2024 – Analista Judiciário - Área Administrativa)**
-Um cidadão solicitou um pedido de acesso à informação para verificar a adequação da Dívida Consolidada Líquida (DCL) do município em que reside. Sua solicitação decorre de um conjunto de matérias jornalísticas indicando que o referido ente teria comprometido cerca de 250% da Receita Corrente Líquida (RCL) com tais rubricas. Na resposta ao cidadão, a prefeitura indicou corretamente que a informação demandada está disponível para consulta pública no portal da transparência por meio do:
-
-* **A)** balanço patrimonial;
-* **B)** balanço orçamentário;
-* **C)** balanço financeiro;
-* **D)** relatório de gestão fiscal;
-* **E)** relatório resumido de execução orçamentária.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "balanço patrimonial". De acordo com a teoria estudada em *5.2 Composição Documental Obrigatória e Papel do Controle Interno*, relatório e Certificado de Auditoria emitidos pelo Órgão Central do Sistema de Controle Interno estadual, com parecer conclusivo sobre a regularidade da gestão examinada.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "balanço orçamentário". De acordo com a teoria estudada em *1.1 Estrutura e Quadros Demonstrativos*, o Balanço Orçamentário (BO) demonstra as receitas e despesas previstas em confronto com as realizadas, consoante determina o art. 102 da Lei Federal nº 4.320/1964 e a Parte V do Manual de Contabilidade Aplicada ao Setor Público (MCASP). É composto por três quadros integrados.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "balanço financeiro". De acordo com a teoria estudada em *1.2 Apuração do Resultado Orçamentário (Superávit vs. Déficit)*, a banca frequentemente afirma que o Resultado Orçamentário apurado no BO serve de fonte para a abertura de créditos suplementares. FALSO! O superávit orçamentário é um fluxo anual de execução. A fonte legal autorizada pelo art. 43, § 1º, I da Lei nº 4.320/1964 é o Superávit Financeiro apurado no Balanço Patrimonial!.
-> - **D)** **Correta.** Conforme fundamentado na seção *5.2 Composição Documental Obrigatória e Papel do Controle Interno* deste guia, os relatórios fiscais previstos na LRF: Relatório Resumido da Execução Orçamentária (RREO) e Relatório de Gestão Fiscal (RGF). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 1ª/2024) ao estabelecer que "relatório de gestão fiscal".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "relatório resumido de execução orçamentária". De acordo com a teoria estudada em *5.1 Contas de Governo (Parecer Prévio) vs. Contas de Gestão (Julgamento Técnico)*, consubstanciam o balanço geral anual do Estado e a prestação macroeconômica da execução orçamentária e financeira.
->
-> **Gabarito: D**
-
----
-
-
-
 ## 2. Balanço Financeiro (BF - Art. 103 da Lei nº 4.320/1964)
 
 ### 2.1 Estrutura de Ingressos e Dispêndios

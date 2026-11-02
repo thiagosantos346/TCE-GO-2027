@@ -105,57 +105,6 @@ A legislação financeira reparte os créditos adicionais em três espécies bem
 
 ---
 
-### Teste 001
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Gestão Governamental)**
-São consideradas “créditos adicionais” as autorizações de despesas não computadas ou insuficientemente dotadas na Lei de Orçamento. De acordo com a Lei nº 4.320/64, os créditos adicionais são classificados como
-
-* **A)** Especiais e de Custeio.
-* **B)** Correntes e de Custeio.
-* **C)** de Capital, Patrimonial e de Empréstimos.
-* **D)** Suplementares, Especiais e Extraordinários.
-* **E)** de Custeio e de Capital.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Especiais e de Custeio". De acordo com a teoria estudada em *1.1 Conceito e Função no Sistema Orçamentário*, conforme o art. 40 da Lei Federal nº 4.320/1964, os créditos adicionais são as autorizações de despesa não computadas ou insuficientemente dotadas na Lei de Orçamento. Atuam como válvulas de flexibilidade indispensáveis para corrigir imperfeições ou desvios na previsão orçamentária original provocados pela dinâmica econômica e social ao longo do exercício financeiro.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Correntes e de Custeio". De acordo com a teoria estudada em *3. As Fontes Legais de Cobertura para Abertura de Créditos*, conforme determina o art. 43 da Lei Federal nº 4.320/1964, a abertura de créditos suplementares e especiais é nula de pleno direito caso não seja precedida de exposição justificativa que comprove a existência de recursos disponíveis para o seu financiamento. O ordenamento jurídico reconhece seis fontes formais.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de Capital, Patrimonial e de Empréstimos". De acordo com a teoria estudada em *3.2 Excesso de Arrecadação (Art. 43, § 3º)*, do montante apurado de excesso de arrecadação devem ser deduzidas as importâncias dos créditos adicionais suplementares e especiais já abertos com base nessa mesma fonte ao longo do ano corrente.
-> - **D)** **Correta.** Conforme fundamentado na seção *🌐 Fontes Oficiais & Manuais Técnicos Recomendados* deste guia, lei Federal nº 4.320/1964 Arts. 40 a 46 (Créditos Adicionais) Definição, tipos (suplementares, especiais e extraordinários) e fontes de recursos para abertura de créditos adicionais. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Suplementares, Especiais e Extraordinários".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de Custeio e de Capital". De acordo com a teoria estudada em *3.4 Reserva de Contingência e Recursos Decorrentes de Veto/Rejeição*, reserva de Contingência (Art. 5º, III da LRF): Dotação orçamentária global sem destinação específica a órgão ou programa, fixada na LOA com base na LDO, destinada a cobrir passivos contingentes e outros riscos fiscais imprevistos. Serve legitimamente como fonte de anulação para abertura de créditos suplementares e especiais.
->
-> **Gabarito: D**
-
----
-
-
-### Teste 002
-**(FGV – TCE/PI – 2025 – Auditor de Controle Externo - Controle Externo - Específica de Área Comum)**
-Em relação ao orçamento final, considere as informações a seguir. I. Reservas e transferências. II. Alocações e créditos adicionais. III. Estimativas e projeções divulgadas para os períodos seguintes. De acordo com a NBC TSP 13 – Apresentação de Informação Orçamentária nas Demonstrações Contábeis, o orçamento final é o orçamento original ajustado pelo que se apresenta em
-
-* **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** I e III, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *2.2 Requisitos Cumulativos para a Reabertura*, vigência Final: O saldo reaberto incorpora se ao orçamento do ano subsequente, vigorando impreterivelmente até o dia 31 de dezembro do exercício seguinte.
-> - **B)** **Correta.** Conforme fundamentado na seção *1.1 Conceito e Função no Sistema Orçamentário* deste guia, conforme o art. 40 da Lei Federal nº 4.320/1964, os créditos adicionais são as autorizações de despesa não computadas ou insuficientemente dotadas na Lei de Orçamento. Atuam como válvulas de flexibilidade indispensáveis para corrigir imperfeições ou desvios na previsão orçamentária original provocados pela dinâmica econômica e social ao longo do exercício financeiro. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PI/2025) ao estabelecer que "I e II, apenas".
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *3.4 Reserva de Contingência e Recursos Decorrentes de Veto/Rejeição*, reserva de Contingência (Art. 5º, III da LRF): Dotação orçamentária global sem destinação específica a órgão ou programa, fixada na LOA com base na LDO, destinada a cobrir passivos contingentes e outros riscos fiscais imprevistos. Serve legitimamente como fonte de anulação para abertura de créditos suplementares e especiais.
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *3. As Fontes Legais de Cobertura para Abertura de Créditos*, fontes F5["5. Reserva de Contingência (Art. 5º, III da LRF)<br/ (Dotação global para cobertura de riscos e passivos fiscais)"].
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *🌐 Fontes Oficiais & Manuais Técnicos Recomendados*, gIACOMONI, James. Orçamento Público. 18. ed. São Paulo: Atlas, 2021. (Cap. 10 Modificações Orçamentárias: Os Créditos Adicionais).
->
-> **Gabarito: B**
-
----
-
-
-
 ## 2. A Regra Constitucional de Reabertura de Saldos (Art. 167, § 2º da CF/88)
 
 ### 2.1 Princípio da Anualidade e a Reabertura Quadrimestral

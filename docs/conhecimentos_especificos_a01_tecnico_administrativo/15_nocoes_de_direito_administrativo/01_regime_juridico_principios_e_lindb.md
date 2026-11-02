@@ -146,32 +146,6 @@ A jurisprudência do STF e do STJ acolhe expressamente a distinção doutrinári
 
 ---
 
-### Teste 001
-**(FCC – TCE/GO – 2009 – Analista de Controle Externo - Gestão de Conhecimento)**
-NÃO contempla prerrogativa inerente ao regime jurídico de trabalho administrativo:
-
-* **A)** impenhorabilidade dos bens públicos. desemprego involuntário.
-* **B)** a garantia de irredutibilidade do salário.
-* **C)** o décimo-terceiro salário com base na remuneração integral ou no valor da aposentadoria.
-* **D)** o prazo prescricional para propositura de ação ju- dicial quanto aos créditos resultantes da relação de
-* **E)** a redução dos riscos inerentes ao trabalho, por meio 42. Considere as afirmações abaixo, relativas ao conceito de de normas de saúde, higiene e segurança. serviço público: _________________________________________________________ I. O conceito de serviço público varia no tempo e no
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "impenhorabilidade dos bens públicos. desemprego involuntário". De acordo com a teoria estudada em *2.2 Princípio da Indisponibilidade do Interesse Público*, representa o contrapeso democrático às prerrogativas estatais, corporificando as sujeições e limitações administrativas. O administrador público não é o proprietário dos bens e interesses que gere; atua como mero curador e gestor fiduciário do patrimônio do povo.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a garantia de irredutibilidade do salário". De acordo com a teoria estudada em *Enunciado da Súmula 473 do STF:*, garantia Processual: Exige contraditório e ampla defesa prévios se atingir direito de terceiros — Exige contraditório e ampla defesa se atingir direito constituído.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o décimo terceiro salário com base na remuneração integral ou no valor da aposentadoria". De acordo com a teoria estudada em *5.3 Responsabilização por Dolo ou Erro Grosseiro (Art. 28 da LINDB c/c Dec. 9.830/2019)*, conceito de Erro Grosseiro (Decreto nº 9.830/2019, art. 12): Considera se erro grosseiro aquele manifesto, evidente e inescusável praticado com culpa grave, caracterizado por ação ou omissão com elevado grau de negligência, imprudência ou imperícia, demonstrando desprezo ostensivo às regras elementares de cautela que um profissional com diligência média adotaria nas mesmas circunstâncias fáticas.
-> - **D)** **Correta.** Conforme fundamentado na seção *4.3 Princípio da Autotutela (Súmulas 346 e 473 do STF): Anulação vs. Revogação* deste guia, o princípio da autotutela assegura à Administração Pública o poder dever de controlar diretamente seus próprios atos, revendo os quanto à legalidade ou ao mérito, sem necessidade de autorização judicial prévia. Dessa forma, está plenamente correta a assertiva da banca (FCC – TCE/GO/2009) ao estabelecer que "o prazo prescricional para propositura de ação ju dicial quanto aos créditos resultantes da relação de".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a redução dos riscos inerentes ao trabalho, por meio 42. Considere as afirmações abaixo, relativas ao conceito de...". De acordo com a teoria estudada em *1.2 Sentido Objetivo, Material ou Funcional*, serviço Público: Prestação direta ou indireta de utilidades e comodidades materiais fruíveis individualmente pelos cidadãos (ex.: transporte coletivo, fornecimento de energia, saúde, saneamento básico).
->
-> **Gabarito: D**
-
----
-
-
-
 ## 3. Princípios Constitucionais Expressos (Art. 37, caput, CF/88 - LIMPE)
 
 O art. 37, *caput*, da Constituição Federal estabelece os cinco princípios expressos de observância obrigatória pela Administração Pública direta e indireta de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios:
@@ -217,57 +191,6 @@ Inserido formalmente no rol do art. 37 pela Reforma Administrativa (EC nº 19/19
 - *Desdobramentos Constitucionais Práticos:* Avaliação especial de desempenho para aquisição da estabilidade do servidor (art. 41, § 4º, CF); perda do cargo público por avaliação periódica de desempenho (art. 41, § 1º, III, CF); e fixação de metas de desempenho institucional mediante contratos de gestão (art. 37, § 8º, CF).
 
 ---
-
-### Teste 002
-**(FCC – TRT 9ª – 2015 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
-No âmbito federal sobreveio a Lei no 9.784/1999, que foi muito bem recebida, porquanto tem por objetivo a proteção dos direitos dos administrados e o melhor cumprimento dos fins da administração. Para o alcance de referidos objetivos, o diploma legal elenca diversos princípios informadores da atuação da Administração, dentre eles o princípio da
-
-* **A)** legalidade estrita, que significa a vinculação do agir administrativo à lei formal, que se sobrepõe, em razão do princípio da supremacia do interesse público ao privado, aos princípios gerais do direito e aos informadores do próprio direito administrativo.
-* **B)** publicidade, que, no entanto, é menos amplo que o que informa o processo judicial, em razão de a Administração estar autorizada, pela lei, a sacrificar direitos na busca do interesse público.
-* **C)** oficialidade, que garante ao administrado, com exclusividade, o direito de instaurar o processo administrativo e, sob outro enforque, à Administração de impulsioná-lo de ofício.
-* **D)** razoabilidade e proporcionalidade, que impõe à Administração um dever de adequação entre meios e fins, vedando a imposição de obrigações, restrições e sanções em medida superior à estritamente necessária à cura do interesse público.
-* **E)** eficiência, que em casos específicos autoriza a Administração a agir de forma contrária ao princípio da legalidade, se,
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "legalidade estrita, que significa a vinculação do agir administrativo à lei formal, que se sobrepõe, em razão do...". De acordo com a teoria estudada em *3.1 Princípio da Legalidade Estrita*, enquanto o particular goza da autonomia da vontade e da legalidade ampla, podendo fazer tudo o que a lei não proíba (art. 5º, II, CF/88), o administrador público rege se pela legalidade estrita: só pode agir e praticar atos quando houver prévia e expressa autorização ou determinação em lei ( subordinação estrita à lei ). O ato administrativo sem amparo legal é nulo de pleno direito.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "publicidade, que, no entanto, é menos amplo que o que informa o processo judicial, em razão de a Administração...". De acordo com a teoria estudada em *1.2 Sentido Objetivo, Material ou Funcional*, polícia Administrativa: Restrições e condicionamentos impostos a direitos e liberdades individuais e ao uso da propriedade privada em prol do bem estar coletivo (ex.: fiscalização sanitária, ambiental, trânsito e posturas urbanas).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "oficialidade, que garante ao administrado, com exclusividade, o direito de instaurar o processo administrativo e...". De acordo com a teoria estudada em *2. O Regime Jurídico-Administrativo e sua Bipolaridade Fundamental*, o Regime Jurídico Administrativo é o conjunto harmônico de princípios e regras de Direito Público que colocam a Administração Pública em posição especial perante os administrados, conferindo lhe prerrogativas extraordinárias, ao mesmo tempo em que lhe impõe severas restrições.
-> - **D)** **Correta.** Conforme fundamentado na seção *4.1 Razoabilidade e Proporcionalidade* deste guia, exigem equilíbrio, bom senso, coerência e adequação entre os meios empregados pelo Estado e os fins pretendidos pela lei, vedando restrições desmedidas ou sacrifícios inúteis impostos aos administrados. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 9ª/2015) ao estabelecer que "razoabilidade e proporcionalidade, que impõe à Administração um dever de adequação entre meios e fins, vedando a...".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "eficiência, que em casos específicos autoriza a Administração a agir de forma contrária ao princípio da...". De acordo com a teoria estudada em *3.5 Princípio da Eficiência (Emenda Constitucional nº 19/1998)*, inserido formalmente no rol do art. 37 pela Reforma Administrativa (EC nº 19/1998), impõe à Administração o dever de obter o melhor rendimento funcional, presteza, perfeição técnica, celeridade na tramitação e economicidade, maximizando os resultados com o menor dispêndio possível de recursos públicos.
->
-> **Gabarito: D**
-
----
-
-
-### Teste 003
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Administração)**
-O processo administrativo abrange planejamento, organização, direção e controle. O planejamento define objetivos e estratégias; a organização estrutura recursos e atividades; a direção lidera e motiva as equipes; e o controle monitora o desempenho, ajustando conforme necessário para garantir o sucesso organizacional. Assinale a base de atuação da função de ideias.
-
-* **A)** Organização.
-* **B)** Controle.
-* **C)** Planejamento.
-* **D)** Direção.
-* **E)** Retroação.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Organização". De acordo com a teoria estudada em *1.2 Sentido Objetivo, Material ou Funcional*, abrange classicamente quatro atividades administrativas basilares.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Controle". De acordo com a teoria estudada em *1.1 Sentido Subjetivo, Formal ou Orgânico*, sob o enfoque subjetivo, formal ou orgânico, a Administração Pública define o complexo estrutural de sujeitos de direito, órgãos e agentes encarregados pelo ordenamento de exercer a função administrativa.
-> - **C)** **Correta.** Conforme fundamentado na seção *A Súmula Vinculante nº 13 do Supremo Tribunal Federal:* deste guia, "A nomeação de cônjuge, companheiro ou parente em linha reta, colateral ou por afinidade, até o terceiro grau, inclusive, da autoridade nomeante ou de servidor da mesma pessoa jurídica investido em cargo de direção, chefia ou assessoramento, para o exercício de cargo em comissão ou de confiança ou, ainda, de função gratificada na administração pública direta e indireta em qualquer dos poderes da União, dos Estados, do Distrito Federal e dos Municípios, compreendido o ajuste mediante designações recíprocas (nepotismo cruzado), viola a Constituição Federal.". Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Planejamento".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Direção". De acordo com a teoria estudada em *2. O Regime Jurídico-Administrativo e sua Bipolaridade Fundamental*, conforme consagrado pela doutrina de Celso Antônio Bandeira de Mello, o regime administrativo estrutura se sobre dois pilares axiológicos fundamentais (bipolaridade do direito administrativo).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Retroação". De acordo com a teoria estudada em *4. Princípios Administrativos Implícitos e Regime Sumular*, além dos cinco princípios expressos no art. 37 da CF, o ordenamento constitucional e a legislação infraconstitucional (como a Lei do Processo Administrativo Federal nº 9.784/1999 e a Lei Estadual de Goiás nº 13.800/2001) consagram princípios implícitos de aplicação cogente.
->
-> **Gabarito: C**
-
----
-
-
 
 ## 4. Princípios Administrativos Implícitos e Regime Sumular
 

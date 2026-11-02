@@ -154,32 +154,6 @@ O objeto é o efeito jurídico imediato e substantivo que o ato produz no mundo 
 
 ---
 
-### Teste 001
-**(FGV – TRF/1 – 2024 – Analista Judiciario Area Apoio Especializado Especialidade Suporte Em Tecnologia Da Informacao)**
-Ao estudar as hipóteses de extinção do ato administrativo, Júlia verificou que há uma modalidade em que isso ocorre em razão da incompatibilidade do ato administrativo com outro posterior, tal como ocorre com a nomeação do servidor, que é extinta com a sua exoneração. Tal modalidade de extinção corresponde a:
-
-* **A)** recusa;
-* **B)** renúncia;
-* **C)** anulação;
-* **D)** revogação;
-* **E)** contraposição.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "recusa". De acordo com a teoria estudada em *5.1 Modos de Extinção: Anulação, Revogação, Cassação, Caducidade e Contraposição*, modalidade de Extinção: Causa Primária — Efeitos no Tempo — Competência — Distinção Prática FCC.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "renúncia". De acordo com a teoria estudada em *5.1 Modos de Extinção: Anulação, Revogação, Cassação, Caducidade e Contraposição*, renúncia: Desistência expressa voluntária manifestada pelo beneficiário — Ex nunc — Manifestação do particular — O titular abre mão do benefício conferido pelo ato.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "anulação". De acordo com a teoria estudada em *5.1 Modos de Extinção: Anulação, Revogação, Cassação, Caducidade e Contraposição*, anulação: Ilegalidade originária do ato (vício de legalidade insanável) — Retroativo ( ex tunc ) — Administração Pública ou Poder Judiciário — Desfaz o ato desde o nascimento, pois dele não se originam direitos.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "revogação". De acordo com a teoria estudada em *5.1 Modos de Extinção: Anulação, Revogação, Cassação, Caducidade e Contraposição*, caducidade: Superveniência de lei nova que torna a atividade ilegal — Ex nunc — Administração Pública — O ato era legal, mas nova legislação proibiu a atividade (ex.: lei que veda pedágio na área).
-> - **E)** **Correta.** Conforme fundamentado na seção *5.1 Modos de Extinção: Anulação, Revogação, Cassação, Caducidade e Contraposição* deste guia, contraposição / Derrubada: Emissão de novo ato com efeitos antagônicos e incompatíveis — Ex nunc — Administração Pública — O novo ato extingue o anterior (ex.: ato de exoneração contrapõe se ao de nomeação). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF/1/2024) ao estabelecer que "contraposição".
->
-> **Gabarito: E**
-
----
-
-
-
 ## 3. Atributos do Ato Administrativo (Mnemônico PATI)
 
 Os atributos do ato administrativo consagram prerrogativas que decorrem diretamente do princípio da supremacia do interesse público:

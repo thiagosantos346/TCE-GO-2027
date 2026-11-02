@@ -84,32 +84,6 @@ Os 23 padrões são classificados de acordo com duas dimensões: o **Propósito*
 
 ---
 
-### Teste 001
-**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Desenvolvimento De Sistemas)**
-Padrões de projeto são representados por meio de diagramas da UML, sendo possível identificá-los através da análise de métodos e relacionamentos entre classes ou interfaces. Observe o diagrama de classes apresentado a seguir. No diagrama é representado o padrão de projeto:
-
-* **A)** Singleton;
-* **B)** Prototype;
-* **C)** Data Access Object;
-* **D)** Observer;
-* **E)** Abstract Factory.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Singleton". De acordo com a teoria estudada em *1.3 A Matriz Canônica dos 23 Padrões GoF (Propósito vs. Escopo)*, criacional (Criação de Objetos): Factory Method — Abstract Factory, Builder, Prototype, Singleton.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Prototype". De acordo com a teoria estudada em *2.1 Factory Method vs. Abstract Factory*, mecanismo: Utiliza composição de objetos. Uma fábrica abstrata declara múltiplos métodos de criação de produtos ( criarBotao() , criarJanela() ), e cada fábrica concreta produz uma família inteira harmonizada (ex.: FabricaTemaEscuro cria BotaoEscuro e JanelaEscura ; FabricaTemaClaro cria BotaoClaro e JanelaClara ).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Data Access Object". De acordo com a teoria estudada em *2.1 Factory Method vs. Abstract Factory*, intenção: Fornece uma interface para criar famílias de objetos relacionados ou dependentes sem especificar suas classes concretas.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Observer". De acordo com a teoria estudada em *2. Padrões de Criação (Creational Patterns)*, aF["Abstract Factory<br/ (Cria famílias inteiras de produtos relacionados)"].
-> - **E)** **Correta.** Conforme fundamentado na seção *5. Fontes Oficiais e Referências Bibliográficas* deste guia, refactoring.Guru — Padrões de Projeto Criacionais Detalhamento técnico de Factory Method, Abstract Factory, Builder, Prototype e Singleton. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "Abstract Factory".
->
-> **Gabarito: E**
-
----
-
-
-
 ## 2. Padrões de Criação (Creational Patterns)
 
 Os padrões criacionais abstraem o processo de instanciação, tornando o sistema independente de como seus objetos são criados, compostos e representados.
