@@ -27,35 +27,25 @@
     1. [Conceito de Período Composto e Mecanismos de Junção Oracional](#11-conceito-de-periodo-composto-e-mecanismos-de-juncao-oracional)
     2. [Processo de Coordenação e Autonomia Sintática](#12-processo-de-coordenacao-e-autonomia-sintatica)
     3. [Processo de Subordinação e Encaixamento Hierárquico](#13-processo-de-subordinacao-e-encaixamento-hierarquico)
-    4. [Teste 032](#Teste-032)
 2. [Orações Coordenadas e Conectivos Coordenativos](#2-oracoes-coordenadas-e-conectivos-coordenativos)
     1. [Coordenadas Assindéticas e Sindéticas](#21-coordenadas-assindeticas-e-sindeticas)
     2. [Valores Semânticos das Conjunções Coordenativas](#22-valores-semanticos-das-conjuncoes-coordenativas)
     3. [Posição e Valores Polissêmicos da Conjunção Pois](#23-posicao-e-valores-polissemicos-da-conjuncao-pois)
-    4. [Teste 033](#Teste-033)
 3. [Orações Subordinadas Substantivas e Adjetivas](#3-oracoes-subordinadas-substantivas-e-adjetivas)
     1. [Orações Substantivas e o Método do Pronome ISSO](#31-oracoes-substantivas-e-o-metodo-do-pronome-isso)
     2. [Classificação Sintática das Orações Subordinadas Substantivas](#32-classificacao-sintatica-das-oracoes-subordinadas-substantivas)
     3. [Orações Subordinadas Adjetivas: Explicativas vs. Restritivas](#33-oracoes-subordinadas-adjetivas-explicativas-vs-restritivas)
-    4. [Teste 034](#Teste-034)
-    5. [Teste 035](#Teste-035)
 4. [Orações Subordinadas Adverbiais e Conectivos Críticos](#4-oracoes-subordinadas-adverbiais-e-conectivos-criticos)
     1. [Quadro Completo das Conjunções Subordinativas Adverbiais](#41-quadro-completo-das-conjuncoes-subordinativas-adverbiais)
     2. [Adversativas vs. Concessivas: Conflito Sintático, Semântico e Modal](#42-adversativas-vs-concessivas-conflito-sintatico-semantico-e-modal)
     3. [O Trio Crítico da FCC: Porquanto, Portanto e Conquanto](#43-o-trio-critico-da-fcc-porquanto-portanto-e-conquanto)
     4. [A Polissemia do Conectivo Como](#44-a-polissemia-do-conectivo-como)
-    5. [Teste 036](#Teste-036)
-    6. [Teste 037](#Teste-037)
-    7. [Teste 038](#Teste-038)
 5. [Sintaxe da Pontuação e Efeitos Semânticos](#5-sintaxe-da-pontuacao-e-efeitos-semanticos)
     1. [A Proibição Inegociável da Quebra SVC](#51-a-proibicao-inegociavel-da-quebra-svc)
     2. [Regras do Uso da Vírgula no Período Simples](#52-regras-do-uso-da-virgula-no-periodo-simples)
     3. [Regras do Uso da Vírgula no Período Composto](#53-regras-do-uso-da-virgula-no-periodo-composto)
     4. [Emprego de Ponto e Vírgula, Dois-Pontos, Travessões e Parênteses](#54-emprego-de-ponto-e-virgula-dois-pontos-travessoes-e-parenteses)
     5. [Alterações de Sentido Provocadas pela Supressão ou Deslocamento de Pontuação](#55-alteracoes-de-sentido-provocadas-pela-supressao-ou-deslocamento-de-pontuacao)
-    6. [Teste 039](#Teste-039)
-    7. [Teste 040](#Teste-040)
-    8. [Teste 041](#Teste-041)
 6. [🌐 Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
@@ -339,24 +329,6 @@ Leia o fragmento de texto a seguir. Sentimento que não espairo; pois eu mesmo n
 ---
 
 ### Teste 002
-**(CEBRASPE – TRF 6ª – 2025 – Analista Judiciário - Apoio Especializado - Governança e Gestão de Tecnologia da Informação)**
-No processamento de linguagem natural, para transformar texto bruto em um formato mais estruturado e padronizado, utilizam-se técnicas como a remoção de pontuação, a normalização dos dados, a tokenização e a eliminação de stop words.
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *5.5 Alterações de Sentido Provocadas pela Supressão ou Deslocamento de Pontuação*, a pontuação é ferramenta de arquitetura do sentido discursivo. O deslocamento ou a eliminação de um sinal de pontuação pode transformar completamente o sentido da mensagem. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRF 6ª/2025) ao afirmar que "No processamento de linguagem natural, para transformar texto bruto em um formato mais estruturado e...".
-> - **E)** **Incorreta.** A assertiva não incorre em erro conceitual, guardando conformidade com a teoria estudada.
->
-> **Gabarito: C**
-
----
-
-### Teste 003
 **(CEBRASPE – TRT/10 – 2013 – Analista Judiciario Tecnologia Da Informacao)**
 Infere-se da leitura do texto que a eliminação de todas as formas de discriminação, que abrange a promoção da igualdade de oportunidades, constitui o fundamento da Declaração dos Direitos e Princípios Fundamentais do Trabalho e da Agenda do Trabalho Decente da OIT. com o código E, caso julgue o item ERRADO. A ausência de seja, não receberão pontuação negativa. Para as devidas marcações, suas provas objetivas. BÁSICOS
 
@@ -374,7 +346,7 @@ Infere-se da leitura do texto que a eliminação de todas as formas de discrimin
 
 ---
 
-### Teste 004
+### Teste 003
 **(FCC – TRT 11ª – 2017 – Analista Judiciário - Tecnologia da Informação)**
 É legítimo afirmar: no texto,
 
@@ -398,7 +370,7 @@ Infere-se da leitura do texto que a eliminação de todas as formas de discrimin
 
 ---
 
-### Teste 005
+### Teste 004
 **(FCC – TRT 11ª – 2017 – Analista Judiciário - Tecnologia da Informação)**
 (3o parágrafo) Não obstante a permanência ininterrupta da enorme desigualdade em tamanho e estatura das religiões no Brasil, não é mais possível, nos dias que correm, desconhecer que a sociedade brasileira está passando por um processo de transição religiosa que é notório. Visível a olho nu. Considerado o trecho acima, no contexto em que está inserido, é apropriado afirmar:
 
@@ -422,7 +394,7 @@ Infere-se da leitura do texto que a eliminação de todas as formas de discrimin
 
 ---
 
-### Teste 006
+### Teste 005
 **(FCC – TRT 16ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
 Quanto à pontuação, a frase inteiramente correta é:
 

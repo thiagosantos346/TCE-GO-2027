@@ -27,31 +27,24 @@
     3. [Concordância com Expressões Numéricas, Frações e Percentuais](#13-concordancia-com-expressoes-numericas-fracoes-e-percentuais)
     4. [Concordância com Pronomes Relativos Que e Quem](#14-concordancia-com-pronomes-relativos-que-e-quem)
     5. [Sujeito Composto: Posição Anteposta, Posposta e Aposto Recapitulativo](#15-sujeito-composto-posicao-anteposta-posposta-e-aposto-recapitulativo)
-    6. [Teste 042](#Teste-042)
 2. [Verbos Impessoais e a Dinâmica das Locuções Verbais](#2-verbos-impessoais-e-a-dinamica-das-locucoes-verbais)
     1. [O Verbo Haver Impessoal e a Comparação com o Verbo Existir](#21-o-verbo-haver-impessoal-e-a-comparacao-com-o-verbo-existir)
     2. [O Verbo Fazer Indicando Tempo Decorrido ou Fenômenos Climáticos](#22-o-verbo-fazer-indicando-tempo-decorrido-ou-fenomenos-climaticos)
     3. [Transmissão de Impessoalidade ao Verbo Auxiliar nas Locuções](#23-transmissao-de-impessoalidade-ao-verbo-auxiliar-nas-locucoes)
     4. [Concordância Verbal com a Partícula SE](#24-concordancia-verbal-com-a-particula-se)
-    5. [Teste 043](#Teste-043)
 3. [Concordância Nominal e Casos Especiais](#3-concordancia-nominal-e-casos-especiais)
     1. [Regra Geral da Concordância Nominal](#31-regra-geral-da-concordancia-nominal)
     2. [Adjetivo Referente a Mais de um Substantivo](#32-adjetivo-referente-a-mais-de-um-substantivo)
     3. [Palavras e Expressões Críticas: Anexo, Incluso, Próprio e Mesmo](#33-palavras-e-expressoes-criticas-anexo-incluso-proprio-e-mesmo)
     4. [O Funcionamento de Bastante, Meio, Menos e Alerta](#34-o-funcionamento-de-bastante-meio-menos-e-alerta)
     5. [Expressões do Tipo É Proibido, É Necessário e É Bom](#35-expressoes-do-tipo-e-proibido-e-necessario-e-e-bom)
-    6. [Teste 044](#Teste-044)
-    7. [Teste 045](#Teste-045)
 4. [Regência Verbal: Transitividade e Complementação dos Verbos Críticos](#4-regencia-verbal-transitividade-e-complementacao-dos-verbos-criticos)
     1. [Princípios da Regência Verbal na Norma Culta](#41-principios-da-regencia-verbal-na-norma-culta)
     2. [O Cardápio dos Verbos Preferidos da FCC](#42-o-cardapio-dos-verbos-preferidos-da-fcc)
     3. [Regência Verbal Associada a Pronomes Relativos](#43-regencia-verbal-associada-a-pronomes-relativos)
-    4. [Teste 046](#Teste-046)
-    5. [Teste 047](#Teste-047)
 5. [Regência Nominal de Substantivos e Adjetivos](#5-regencia-nominal-de-substantivos-e-adjetivos)
     1. [Mecânica do Complemento Nominal](#51-mecanica-do-complemento-nominal)
     2. [Nomes de Alta Frequência em Atos de Controle e Direito Público](#52-nomes-de-alta-frequencia-em-atos-de-controle-e-direito-publico)
-    3. [Teste 048](#Teste-048)
 6. [Teoria Geral e Emprego do Sinal Indicativo de Crase](#6-teoria-geral-e-emprego-do-sinal-indicativo-de-crase)
     1. [Natureza Fonética e Morfossintática da Crase](#61-natureza-fonetica-e-morfossintatica-da-crase)
     2. [Métodos Práticos de Reconhecimento: A Troca pelo Masculino (Método do AO)](#62-metodos-praticos-de-reconhecimento-a-troca-pelo-masculino-metodo-do-ao)
@@ -59,9 +52,6 @@
     4. [Casos de Crase Obrigatória](#64-casos-de-crase-obrigatoria)
     5. [Casos de Crase Facultativa](#65-casos-de-crase-facultativa)
     6. [Crase com Pronomes Demonstrativos Aquele, Aquela e Aquilo](#66-crase-com-pronomes-demonstrativos-aquele-aquela-e-aquilo)
-    7. [Teste 049](#Teste-049)
-    8. [Teste 050](#Teste-050)
-    9. [Teste 051](#Teste-051)
 7. [🌐 Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
@@ -473,30 +463,6 @@ Consideradas a correção e as relações de sentido estabelecidas no texto, afi
 ---
 
 ### Teste 004
-**(FGV – TRT 16ª – 2022 – Analista Judiciário (Área Administrativa - Tecnologia da Informação))**
-O JavaScript Object Notation (JSON) é um formato de intercâmbio de dados baseado em texto. De acordo com a gramática JSON, especificada na RFC 8259, é correto afirmar que
-
-* **A)** um array é representado como colchetes em torno de zero ou mais elementos.
-* **B)** uma string começa e termina com crases.
-* **C)** nomes literais devem ser utilizados em caixa alta.
-* **D)** um número é representado na base 16 usando símbolos alfanuméricos.
-* **E)** um objeto é representado como um par de parênteses em torno de zero ou mais pares nome/valor.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *6. Teoria Geral e Emprego do Sinal Indicativo de Crase* deste guia, a palavra crase (do grego krâsis ) significa fusão, mistura ou coalescência fonética de dois sons vocálicos idênticos em um só. Na escrita da língua portuguesa, o fenômeno da crase é representado visualmente pelo acento grave ( \grave{a} ). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 16ª/2022) ao estabelecer que "um array é representado como colchetes em torno de zero ou mais elementos".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "uma string começa e termina com crases". De acordo com a teoria estudada em *6.1 Natureza Fonética e Morfossintática da Crase*, a ocorrência da crase clássica pressupõe o encontro simultâneo e inseparável de dois elementos gramaticais.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "nomes literais devem ser utilizados em caixa alta". De acordo com a teoria estudada em *5.2 Nomes de Alta Frequência em Atos de Controle e Direito Público*, acessível a: "O portal é acessível a todos os cidadãos.".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um número é representado na base 16 usando símbolos alfanuméricos". De acordo com a teoria estudada em *1.5 Sujeito Composto: Posição Anteposta, Posposta e Aposto Recapitulativo*, concordância atrativa (o verbo concorda em número e gênero com o núcleo mais próximo): "Abriu a sessão solene o conselheiro presidente e o procurador geral.".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um objeto é representado como um par de parênteses em torno de zero ou mais pares nome/valor". De acordo com a teoria estudada em *2.1 O Verbo Haver Impessoal e a Comparação com o Verbo Existir*, haver Impessoal: Empregado no sentido de existir, ocorrer, acontecer ou indicando tempo cronológico decorrido, o verbo haver não admite sujeito. O termo substantivo que o acompanha exerce a função sintática de objeto direto, e não de sujeito. Consequentemente, o verbo permanece inalteravelmente no singular.
->
-> **Gabarito: A**
-
----
-
-### Teste 005
 **(CEBRASPE – STF – 2008 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
 A partir do desenvolvimento das idéias do texto, conclui-se tal modo que, se for empregado o substantivo que a palavra “crítico” ((cid:53).9) está sendo empregada como correspondente a “perceber”, percepção, a preposição crucial, perigoso. continuará presente e será correto o emprego da crase: à
 
@@ -514,7 +480,7 @@ A partir do desenvolvimento das idéias do texto, conclui-se tal modo que, se fo
 
 ---
 
-### Teste 006
+### Teste 005
 **(CEBRASPE – STJ – 2015 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
 A correção gramatical do texto seria prejudicada caso se 4 ser que possa viver isolado; é, ao contrário, ordenado empregasse o sinal indicativo de crase no vocábulo “a” em “dá teleologicamente a viver em sociedade. É um ser que vive, atua (R.20). suporte a exigências recíprocas” e relaciona-se na comunidade, e sente-se vinculado aos seus
 
@@ -532,7 +498,7 @@ A correção gramatical do texto seria prejudicada caso se 4 ser que possa viver
 
 ---
 
-### Teste 007
+### Teste 006
 **(FGV – TJ/MT – 2024 – Analista Judiciario Tecnologia Da Informacao)**
 Leia a frase abaixo: O pior que uma pessoa pode fazer em relação à verdade é conhecê- la e virar-lhe as costas. Assinale a afirmativa adequada em relação à sua estruturação ou significado.
 
@@ -556,7 +522,7 @@ Leia a frase abaixo: O pior que uma pessoa pode fazer em relação à verdade é
 
 ---
 
-### Teste 008
+### Teste 007
 **(FCC – TRT 4ª – 2015 – Analista Judiciário - Tecnologia Da Informação)**
 Considerados o contexto e a norma-padrão,
 
@@ -580,7 +546,7 @@ Considerados o contexto e a norma-padrão,
 
 ---
 
-### Teste 009
+### Teste 008
 **(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
 Uma notícia recente dizia: A Presidente da Associação Nacional dos Auditores de Controle Externo dos Tribunais de Contas do Brasil (ANTC), Thaisse Craveiro, convocou os Membros Institucionais do Conselho de Representantes para Reunião Extraordinária a ser realizada no dia 23 de fevereiro de 2026 (segunda-feira), às 17h, em modalidade virtual, por meio da plataforma Zoom. A convocação ocorre nos termos do Estatuto da entidade e tem como pauta o exame de situação institucional envolvendo procedimento disciplinar contra Auditor de Controle Externo, bem como a definição de estratégias políticas e jurídicas voltadas à preservação da independência funcional e das garantias inerentes à função de auditoria. Nesse segmento textual, há exemplos corretos da utilização do acento grave indicativo da crase. Assinale a frase em que o emprego desse acento mostra incorreção.
 
@@ -604,7 +570,7 @@ Uma notícia recente dizia: A Presidente da Associação Nacional dos Auditores 
 
 ---
 
-### Teste 010
+### Teste 009
 **(FGV – TRT/DA – 2025 – Tecnico Judiciario Area Administrativa Agente Da Policia Judicial)**
 No fragmento a seguir, “...presta também um grande serviço à medicina.” o uso do acento grave indicativo da crase está correto. Assinale a frase em que a utilização do acento grave indicativo da crase também está correta.
 

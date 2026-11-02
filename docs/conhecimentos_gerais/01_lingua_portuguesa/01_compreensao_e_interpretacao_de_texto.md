@@ -27,49 +27,38 @@
     2. [Interpretação Textual e Inferência Autorizada](#12-interpretacao-textual-e-inferencia-autorizada)
     3. [Os Três Erros Clássicos de Leitura](#13-os-tres-erros-classicos-de-leitura)
     4. [Método Prático de Resolução](#14-metodo-pratico-de-resolucao)
-    5. [Teste 001](#Teste-001)
 2. [Gêneros Textuais e Contexto de Produção](#2-generos-textuais-e-contexto-de-producao)
     1. [Tipo Textual vs. Gênero Textual](#21-tipo-textual-vs-genero-textual)
     2. [Ensaio, Editorial, Crônica e Artigo de Opinião](#22-ensaio-editorial-cronica-e-artigo-de-opiniao)
     3. [Contexto Histórico, Cultural e Ideológico](#23-contexto-historico-cultural-e-ideologico)
-    4. [Teste 002](#Teste-002)
 3. [Tipologias Textuais](#3-tipologias-textuais)
     1. [Quadro Comparativo das Tipologias](#31-quadro-comparativo-das-tipologias)
     2. [Narração e Descrição](#32-narracao-e-descricao)
     3. [Exposição e Injunção](#33-exposicao-e-injuncao)
-    4. [Teste 003](#Teste-003)
 4. [Argumentação na Tipologia Dissertativa](#4-argumentacao-na-tipologia-dissertativa)
     1. [Tese e Estrutura do Texto Argumentativo](#41-tese-e-estrutura-do-texto-argumentativo)
     2. [Estratégias Argumentativas](#42-estrategias-argumentativas)
     3. [Operadores Argumentativos](#43-operadores-argumentativos)
     4. [Pressupostos e Subentendidos](#44-pressupostos-e-subentendidos)
-    5. [Teste 004](#Teste-004)
-    6. [Teste 005](#Teste-005)
 5. [Níveis de Linguagem e Denotação e Conotação](#5-niveis-de-linguagem-e-denotacao-e-conotacao)
     1. [Linguagem Denotativa](#51-linguagem-denotativa)
     2. [Linguagem Conotativa](#52-linguagem-conotativa)
-    3. [Teste 006](#Teste-006)
 6. [Modalidades de Discurso](#6-modalidades-de-discurso)
     1. [Discurso Direto](#61-discurso-direto)
     2. [Discurso Indireto](#62-discurso-indireto)
     3. [Discurso Indireto Livre](#63-discurso-indireto-livre)
-    4. [Teste 007](#Teste-007)
 7. [Transposição de Discursos](#7-transposicao-de-discursos)
     1. [Tabela de Transposição do Direto para o Indireto](#71-tabela-de-transposicao-do-direto-para-o-indireto)
     2. [Correlação Verbal e Armadilhas na Transposição](#72-correlacao-verbal-e-armadilhas-na-transposicao)
-    3. [Teste 008](#Teste-008)
 8. [Intertextualidade](#8-intertextualidade)
     1. [Paráfrase](#81-parafrase)
     2. [Paródia](#82-parodia)
     3. [Citação, Epígrafe e Alusão](#83-citacao-epigrafe-e-alusao)
-    4. [Teste 009](#Teste-009)
 9. [Figuras de Linguagem](#9-figuras-de-linguagem)
     1. [Figuras Semânticas ou de Palavra](#91-figuras-semanticas-ou-de-palavra)
     2. [Figuras de Pensamento](#92-figuras-de-pensamento)
     3. [Figuras de Construção ou de Sintaxe](#93-figuras-de-construcao-ou-de-sintaxe)
     4. [Figuras Sonoras ou Fonéticas](#94-figuras-sonoras-ou-foneticas)
-    5. [Teste 010](#Teste-010)
-    6. [Teste 011](#Teste-011)
 10. [Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
@@ -299,120 +288,6 @@ Em “mas, sobretudo, realizada por todos” (R.51), a palavra “sobretudo” s
 > - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
 >
 > **Gabarito: E**
-
----
-
-### Teste 008
-**(CEBRASPE – TRT/10 – 2013 – Analista Judiciario Tecnologia Da Informacao)**
-A proposição P pode ser corretamente representada pela 1 forma simbólica PvQ, em que P e Q são proposições convenientemente escolhidas e o símbolo v representa o conectivo lógico denominado conjunção.
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *9.3 Figuras de Construção ou de Sintaxe*, silepse: concordância feita com a ideia, e não com a forma gramatical do termo; pode ser de gênero ( "Vossa Excelência está preocupado" ), de número ( "A multidão chegou; gritavam palavras de ordem" ) ou de pessoa ( "Os brasileiros somos otimistas" ). Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT/10/2013) ao afirmar que "A proposição P pode ser corretamente representada pela 1 forma simbólica PvQ, em que P e Q são proposições...".
-> - **E)** **Incorreta.** A assertiva não incorre em erro conceitual, guardando conformidade com a teoria estudada.
->
-> **Gabarito: C**
-
----
-
-### Teste 009
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Contabilidade)**
-Leia o fragmento a seguir em relação à evolução da contabilidade de custos. Em um primeiro momento, a contabilidade de custos visava à mensuração monetária _____. Posteriormente, a contabilidade de custos passou a ter duas funções relevantes, o auxílio ao _____ e a ajuda à _____. Assinale a opção que completa corretamente as lacunas do fragmento acima.
-
-* **A)** dos ativos e dos passivos- controle- evidenciação.
-* **B)** dos estoques e do resultado – controle- tomada de decisões.
-* **C)** dos estoques e do resultado – monitoramento – mensuração do resultado.
-* **D)** das receitas e das despesas – controle – mensuração do resultado.
-* **E)** dos ativos e dos passivos – monitoramento – tomada de decisões.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "dos ativos e dos passivos controle evidenciação". De acordo com a teoria estudada em *7.2 Correlação Verbal e Armadilhas na Transposição*, a regra dos tempos decorre da correlação verbal (ou consecutio temporum ): quando o verbo de elocução está no pretérito ( afirmou, disse, perguntou ), os verbos da oração subordinada devem acompanhá lo no plano do passado. Assim, o futuro do presente ( concluirei ), que indica um fato posterior ao momento da fala, converte se em futuro do pretérito ( concluiria ), que indica um fato posterior a um momento passado. Manter o futuro do presente ( afirmou que concluirá ) quebra essa correlação. Na língua corrente, essa forma pode aparecer quando o fato ainda é futuro em relação ao momento em que se narra, mas, nas questões de transposição da FCC, o gabarito segue a correlação canônica: pretérito no verbo principal → futuro do pretérito na subordinada.
-> - **B)** **Correta.** Conforme fundamentado na seção *2.3 Contexto Histórico, Cultural e Ideológico* deste guia, nenhum texto surge do nada: ele é produzido por alguém, em determinada época, para determinado público, sob certos valores. Relacionar o texto ao seu contexto significa perceber como esses fatores condicionam o sentido. O contexto histórico diz respeito ao momento em que o texto foi escrito (uma crônica de Machado de Assis sobre a escravidão no século XIX deve ser lida à luz daquela sociedade). O contexto cultural envolve os costumes, crenças e referências partilhadas por autor e leitores (uma alusão bíblica ou a um poema canônico só é percebida por quem conhece a referência). O contexto ideológico refere se ao conjunto de valores e visões de mundo que o texto assume, defende ou critica — por exemplo, um texto que denuncia a "neutralidade" da tecnologia adota uma posição crítica em relação à ideologia tecnicista. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "dos estoques e do resultado – controle tomada de decisões".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "dos estoques e do resultado – monitoramento – mensuração do resultado". De acordo com a teoria estudada em *1.4 Método Prático de Resolução*, outro ponto importante é o vocabulário em contexto: a FCC frequentemente pergunta o sentido de uma palavra "no contexto". A resposta não é necessariamente o primeiro sentido do dicionário, mas aquele que a frase ativa. "Panaceia", "asséptica", "miopia ética", por exemplo, são usados em sentido figurado em textos ensaísticos (ver item 5.2).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "das receitas e das despesas – controle – mensuração do resultado". De acordo com a teoria estudada em *3.3 Exposição e Injunção*, a injunção orienta o comportamento do leitor: diz o que fazer e como fazer. Caracteriza se pelo imperativo ("preencha", "anexe"), pelo infinitivo com valor de ordem ("Encaminhar o processo ao setor competente") e por enumerações sequenciais. Manuais, editais, receitas e normas procedimentais são exemplos típicos.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "dos ativos e dos passivos – monitoramento – tomada de decisões". De acordo com a teoria estudada em *1.4 Método Prático de Resolução*, o primeiro parágrafo de um texto dissertativo da FCC normalmente contextualiza o tema e apresenta a tese. O último parágrafo sintetiza a conclusão. Se a questão indagar a ideia central, releia atentamente o início e o fim do texto antes de analisar as alternativas intermediárias.
->
-> **Gabarito: B**
-
----
-
-### Teste 010
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Gestão Governamental)**
-Leia o texto a seguir: A Lei no 4.320, de 1964, traz normas para elaboração dos orçamentos e balanços do setor público em seus três níveis. De acordo com esse dispositivo, é possível identificarmos despesas que foram empenhadas pelo ente público, mas que não serão pagas até o dia 31 de dezembro do ano corrente, assim como também há a possibilidade de autorizações de despesas não computadas ou insuficientemente dotadas na Lei de Orçamento. O texto trata, respectivamente, dos conceitos de
-
-* **A)** Despesas de Exercícios Anteriores (DEA) e Restos a Pagar.
-* **B)** Restos a Pagar e Créditos Adicionais.
-* **C)** Despesas Liquidadas e Créditos Adicionais.
-* **D)** Despesas Empenadas e Restos a Pagar.
-* **E)** Restos a Pagar e Despesas Extraordinárias.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Despesas de Exercícios Anteriores (DEA) e Restos a Pagar". De acordo com a teoria estudada em *1.3 Os Três Erros Clássicos de Leitura*, redução: A alternativa pinça um detalhe secundário ou aspecto particular do texto e o apresenta como se fosse a tese central ou a conclusão definitiva do autor. A alternativa reduzida até contém algo verdadeiro, mas é parcial: responde a uma pergunta diferente da feita (ex.: a questão pede a ideia central e a alternativa traz um exemplo usado em um parágrafo).
-> - **B)** **Correta.** Conforme fundamentado na seção *3.3 Exposição e Injunção* deste guia, a injunção orienta o comportamento do leitor: diz o que fazer e como fazer. Caracteriza se pelo imperativo ("preencha", "anexe"), pelo infinitivo com valor de ordem ("Encaminhar o processo ao setor competente") e por enumerações sequenciais. Manuais, editais, receitas e normas procedimentais são exemplos típicos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Restos a Pagar e Créditos Adicionais".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Despesas Liquidadas e Créditos Adicionais". De acordo com a teoria estudada em *7.2 Correlação Verbal e Armadilhas na Transposição*, a regra dos tempos decorre da correlação verbal (ou consecutio temporum ): quando o verbo de elocução está no pretérito ( afirmou, disse, perguntou ), os verbos da oração subordinada devem acompanhá lo no plano do passado. Assim, o futuro do presente ( concluirei ), que indica um fato posterior ao momento da fala, converte se em futuro do pretérito ( concluiria ), que indica um fato posterior a um momento passado. Manter o futuro do presente ( afirmou que concluirá ) quebra essa correlação. Na língua corrente, essa forma pode aparecer quando o fato ainda é futuro em relação ao momento em que se narra, mas, nas questões de transposição da FCC, o gabarito segue a correlação canônica: pretérito no verbo principal → futuro do pretérito na subordinada.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Despesas Empenadas e Restos a Pagar". De acordo com a teoria estudada em *4.1 Tese e Estrutura do Texto Argumentativo*, a estrutura clássica do texto argumentativo tem três partes: introdução (apresenta o tema e, geralmente, a tese), desenvolvimento (expõe os argumentos que sustentam a tese e, por vezes, refuta posições contrárias) e conclusão (retoma a tese, sintetiza a argumentação ou propõe soluções). Na FCC, é muito comum a estrutura concessivo adversativa: o autor primeiro apresenta a opinião corrente ou o senso comum ("Muitos acreditam que...", "As novas tecnologias prometem...") e, em seguida, introduz sua própria posição com um conectivo adversativo ("Contudo", "No entanto", "Todavia"). Nesse caso, a tese está depois do conectivo, e a visão inicial é aquela que o autor critica.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Restos a Pagar e Despesas Extraordinárias". De acordo com a teoria estudada em *1.1 Compreensão Textual e Informação Explícita*, o perigo da compreensão é justamente a paráfrase "envenenada": a banca copia quase todas as palavras do texto, mas troca um único elemento — um quantificador ("alguns" vira "todos"), um tempo verbal (algo que "pode ocorrer" vira algo que "ocorreu"), uma relação de causa (o efeito vira causa) ou um sujeito (o que foi dito de um grupo passa a ser dito de outro). Por isso, ao comparar alternativa e texto, o candidato deve conferir: quem fez, o quê, em que grau (certeza ou possibilidade), em que extensão (todos ou alguns) e por qual motivo.
->
-> **Gabarito: B**
-
----
-
-### Teste 011
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Fiscalização - Contabilidade)**
-Leia o fragmento a seguir. Uma fábrica de brinquedos adquiriu 3 computadores para serem utilizados pelos profissionais de contabilidade do escritório geral por R$20.000, para pagamento em seis meses. No momento da compra, o computador é considerado um _____. Anualmente, seu uso é considerado um(a) _____. Assinale a opção que completa corretamente as lacunas do fragmento acima
-
-* **A)** custo – despesa.
-* **B)** desembolso – custo.
-* **C)** investimento – custo.
-* **D)** desembolso – despesa.
-* **E)** investimento – despesa.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "custo – despesa". De acordo com a teoria estudada em *4.3 Operadores Argumentativos*, restrição / Retificação: longe de, ao contrário, em vez de, aliás, ou melhor — Nega uma visão para afirmar outra ("Longe de serem neutros, os algoritmos...").
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "desembolso – custo". De acordo com a teoria estudada em *2.3 Contexto Histórico, Cultural e Ideológico*, nenhum texto surge do nada: ele é produzido por alguém, em determinada época, para determinado público, sob certos valores. Relacionar o texto ao seu contexto significa perceber como esses fatores condicionam o sentido. O contexto histórico diz respeito ao momento em que o texto foi escrito (uma crônica de Machado de Assis sobre a escravidão no século XIX deve ser lida à luz daquela sociedade). O contexto cultural envolve os costumes, crenças e referências partilhadas por autor e leitores (uma alusão bíblica ou a um poema canônico só é percebida por quem conhece a referência). O contexto ideológico refere se ao conjunto de valores e visões de mundo que o texto assume, defende ou critica — por exemplo, um texto que denuncia a "neutralidade" da tecnologia adota uma posição crítica em relação à ideologia tecnicista.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "investimento – custo". De acordo com a teoria estudada em *7.1 Tabela de Transposição do Direto para o Indireto*, ao passar uma fala do discurso direto para o indireto, o ponto de referência deixa de ser o momento e o lugar da fala da personagem e passa a ser o momento e o lugar da narração, que é posterior. Por isso, tudo o que se ancorava no "agora" da personagem precisa ser deslocado para o passado e para a distância: pessoas (1ª → 3ª), tempos verbais (recuam um grau), advérbios de tempo e lugar e pronomes demonstrativos.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "desembolso – despesa". De acordo com a teoria estudada em *7.2 Correlação Verbal e Armadilhas na Transposição*, a regra dos tempos decorre da correlação verbal (ou consecutio temporum ): quando o verbo de elocução está no pretérito ( afirmou, disse, perguntou ), os verbos da oração subordinada devem acompanhá lo no plano do passado. Assim, o futuro do presente ( concluirei ), que indica um fato posterior ao momento da fala, converte se em futuro do pretérito ( concluiria ), que indica um fato posterior a um momento passado. Manter o futuro do presente ( afirmou que concluirá ) quebra essa correlação. Na língua corrente, essa forma pode aparecer quando o fato ainda é futuro em relação ao momento em que se narra, mas, nas questões de transposição da FCC, o gabarito segue a correlação canônica: pretérito no verbo principal → futuro do pretérito na subordinada.
-> - **E)** **Correta.** Conforme fundamentado na seção *1. Compreensão vs. Interpretação na Tradição da FCC* deste guia, interp Erro2["CUIDADO COM OS TRÊS ERROS CLÁSSICOS:<br/ 1. Extrapolação (ir além das pistas do texto)<br/ 2. Redução (restringir a ideia geral)<br/ 3. Contradição (afirmar o oposto)"]. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "investimento – despesa".
->
-> **Gabarito: E**
-
----
-
-### Teste 012
-**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Fiscalização - Contabilidade)**
-Leia o fragmento a seguir. O Demonstrativo da Disponibilidade de Caixa e dos Restos a Pagar é parte integrante do Relatório de Gestão Fiscal e visa a dar transparência ao equilíbrio entre _____ e a disponibilidade de caixa, bem como ao equilíbrio entre a inscrição em Restos a Pagar Não Processados e ______. Assinale a opção que completa corretamente as lacunas do fragmento acima, de acordo com o Manual de Demonstrativos Fiscais (MDF).
-
-* **A)** o resultado obtido – a disponibilidade de caixa
-* **B)** o resultado obtido – o resultado esperado.
-* **C)** a geração de obrigações de despesa – a disponibilidade de caixa
-* **D)** a geração de obrigações de despesa – em restos a pagar processados.
-* **E)** a geração de origens de receitas – em restos a pagar processados. Realização
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o resultado obtido – a disponibilidade de caixa". De acordo com a teoria estudada em *6. Modalidades de Discurso*, discursos DI["DISCURSO INDIRETO<br/ • Narrador relata com suas próprias palavras<br/ • Conjunção integrante (que / se)<br/ • Ex: O auditor declarou QUE CONCLUIRIA o relatório NAQUELE DIA."].
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o resultado obtido – o resultado esperado". De acordo com a teoria estudada em *1. Compreensão vs. Interpretação na Tradição da FCC*, a Fundação Carlos Chagas (FCC) constrói enunciados rigorosos em que a distinção entre compreensão e interpretação define o método de resolução. Ler bem, para a banca, não é "achar a resposta que parece bonita", mas verificar, palavra por palavra, se a alternativa encontra autorização no texto. Toda questão de leitura é, no fundo, um teste de fidelidade: o candidato deve demonstrar que sabe distinguir o que o autor disse, o que o autor permite concluir e o que o autor jamais afirmou.
-> - **C)** **Correta.** Conforme fundamentado na seção *8.3 Citação, Epígrafe e Alusão* deste guia, a alusão é uma referência indireta, breve e sem citação literal, a uma obra, personagem, fato histórico ou texto conhecido, cabendo ao leitor reconhecê la. Dizer que um processo "é um verdadeiro calcanhar de Aquiles da gestão" ou que alguém "abriu a caixa de Pandora " são alusões mitológicas; dizer que uma reforma "foi um presente de grego " alude ao cavalo de Troia. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "a geração de obrigações de despesa – a disponibilidade de caixa".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a geração de obrigações de despesa – em restos a pagar processados". De acordo com a teoria estudada em *2.2 Ensaio, Editorial, Crônica e Artigo de Opinião*, crônica: texto curto, geralmente publicado em jornal ou revista, que parte de um fato cotidiano aparentemente banal para extrair dele uma reflexão, uma emoção ou um humor. Mistura narração, descrição e comentário; tem linguagem mais leve, próxima da oralidade, e frequentemente emprega ironia, humor e lirismo. Na FCC são comuns crônicas de autores como Rubem Braga, Carlos Drummond de Andrade, Machado de Assis e Lima Barreto.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a geração de origens de receitas – em restos a pagar processados. Realização". De acordo com a teoria estudada em *3.3 Exposição e Injunção*, a injunção orienta o comportamento do leitor: diz o que fazer e como fazer. Caracteriza se pelo imperativo ("preencha", "anexe"), pelo infinitivo com valor de ordem ("Encaminhar o processo ao setor competente") e por enumerações sequenciais. Manuais, editais, receitas e normas procedimentais são exemplos típicos.
->
-> **Gabarito: C**
 
 ---
 

@@ -26,23 +26,18 @@
     1. [Definição e Finalidade da Comunicação Pública](#11-definicao-e-finalidade-da-comunicacao-publica)
     2. [Fundamentos Constitucionais: O Artigo 37 da CF/88 e os Princípios da Administração](#12-fundamentos-constitucionais-o-artigo-37-da-cf88-e-os-principios-da-administracao)
     3. [Evolução Normativa: O MRPR 3ª Edição e o Decreto Federal nº 9.758/2019](#13-evolucao-normativa-o-mrpr-3a-edicao-e-o-decreto-federal-no-97582019)
-    4. [Teste 062](#Teste-062)
 2. [Atributos Fundamentais da Redação Oficial](#2-atributos-fundamentais-da-redacao-oficial)
     1. [Princípio da Impessoalidade e Seus Três Desdobramentos](#21-principio-da-impessoalidade-e-seus-tres-desdobramentos)
     2. [Clareza e Precisão Linguística](#22-clareza-e-precisao-linguistica)
     3. [Concisão Textual e Eliminação da Prolixidade](#23-concisao-textual-e-eliminacao-da-prolixidade)
     4. [Formalidade, Padronização e Tipografia](#24-formalidade-padronizacao-e-tipografia)
     5. [O Uso do Padrão Culto da Língua](#25-o-uso-do-padrao-culto-da-lingua)
-    6. [Teste 063](#Teste-063)
-    7. [Teste 064](#Teste-064)
 3. [Pronomes de Tratamento, Vocativos e Endereçamento](#3-pronomes-de-tratamento-vocativos-e-enderecamento)
     1. [Vossa Excelência vs. Vossa Senhoria: Tabela Completa de Aplicação](#31-vossa-excelencia-vs-vossa-senhoria-tabela-completa-de-aplicacao)
     2. [Regras Rígidas de Concordância Gramatical com Pronomes de Tratamento](#32-regras-rigidas-de-concordancia-gramatical-com-pronomes-de-tratamento)
     3. [Sistema de Vocativos: A Distinção entre Chefes de Poder e Demais Autoridades](#33-sistema-de-vocativos-a-distincao-entre-chefes-de-poder-e-demais-autoridades)
     4. [Endereçamento no Envelope e Regras Dêiticas: Vossa vs. Sua](#34-enderecamento-no-envelope-e-regras-deiticas-vossa-vs-sua)
     5. [Abolição de Fórmulas Laudatórias, Adulações e Arcaísmos](#35-abolicao-de-formulas-laudatorias-adulacoes-e-arcaismos)
-    6. [Teste 065](#Teste-065)
-    7. [Teste 066](#Teste-066)
 4. [O Padrão Ofício Unificado na 3ª Edição do MRPR](#4-o-padrao-oficio-unificado-na-3a-edicao-do-mrpr)
     1. [Unificação Formal: Extinção do Aviso e do Memorando](#41-unificacao-formal-extincao-do-aviso-e-do-memorando)
     2. [Partes Componentes e Diagramação Oficial do Ofício](#42-partes-componentes-e-diagramacao-oficial-do-oficio)
@@ -50,16 +45,11 @@
     4. [Regras de Numeração de Parágrafos](#44-regras-de-numeracao-de-paragrafos)
     5. [Identificação do Signatário e Vedação à Linha de Assinatura](#45-identificacao-do-signatario-e-vedacao-a-linha-de-assinatura)
     6. [O Sistema Binário de Fechos Regulamentares](#46-o-sistema-binario-de-fechos-regulamentares)
-    7. [Teste 067](#Teste-067)
-    8. [Teste 068](#Teste-068)
-    9. [Teste 069](#Teste-069)
 5. [Espécies Documentais e Comunicação Digital](#5-especies-documentais-e-comunicacao-digital)
     1. [O Correio Eletrônico Institucional (E-mail Público)](#51-o-correio-eletronico-institucional-e-mail-publico)
     2. [A Mensagem entre Chefes de Poder](#52-a-mensagem-entre-chefes-de-poder)
     3. [A Exposição de Motivos (EM)](#53-a-exposicao-de-motivos-em)
     4. [Atos Típicos dos Tribunais de Contas: Relatório Técnico, Parecer e Acórdão](#54-atos-tipicos-dos-tribunais-de-contas-relatorio-tecnico-parecer-e-acordao)
-    5. [Teste 070](#Teste-070)
-    6. [Teste 071](#Teste-071)
 6. [🌐 Fontes Oficiais e Referências Bibliográficas](#fontes-oficiais-e-referencias-bibliograficas)
 
 ---
@@ -89,24 +79,6 @@ O documento de referência primária no Brasil é o **Manual de Redação da Pre
 ---
 
 ### Teste 001
-**(CEBRASPE – TRT/10 – 2013 – Analista Judiciario Tecnologia Da Informacao)**
-As taxas de desemprego das mulheres são mais altas do que às dos homens em escala mundial e não se prevê melhoras desse quadro nos próximos anos, segundo relatório da OIT que analisa as desigualdades de gênero em matéria de desemprego, emprego, participação na força de trabalho, vulnerabilidade e segregação setorial e profissional. Com relação a aspectos gerais das correspondências oficiais, julgue os itens a seguir segundo o Manual de Redação da Presidência da República.
-
-* **C)** Certo
-* **E)** Errado
-
----
-
-> **Comentário Detalhado:**
->
-> - **C)** **Incorreta.** A proposição apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "As taxas de desemprego das mulheres são mais altas do que às dos homens em escala mundial e não se prevê...". De acordo com a teoria em *🌐 Fontes Oficiais e Referências Bibliográficas*, manual de Redação da Presidência da República — 3ª Edição Revista e Atualizada (PDF Oficial Planalto) Texto normativo integral que disciplina os atributos da redação oficial, pronomes de tratamento, vocativos, fechos e o Padrão Ofício unificado.
-> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
->
-> **Gabarito: E**
-
----
-
-### Teste 002
 **(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
 O Manual de Redação da Presidência da República (2018) estabelece padrões para a produção de documentos oficiais, diferenciando-os conforme sua finalidade, seu destinatário e sua forma de circulação. Com base nesses padrões, assinale a afirmativa correta.
 
@@ -130,7 +102,7 @@ O Manual de Redação da Presidência da República (2018) estabelece padrões p
 
 ---
 
-### Teste 003
+### Teste 002
 **(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
 A tramitação de documentos oficiais envolve procedimentos que garantem o registro, o controle e o encaminhamento adequado das comunicações na Administração Pública, assegurando rastreabilidade e eficiência no fluxo de informações. Com base no Manual de Redação da Presidência da República (2018), assinale a afirmativa correta.
 
