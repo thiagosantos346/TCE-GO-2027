@@ -125,104 +125,98 @@ Durante a fase de inferência (geração da resposta), o modelo projeta logits (
 ---
 
 ### Teste 119
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Durante a integração de um modelo de linguagem baseado na arquitetura Transformer com uma esteira de desenvolvimento de software em uma Secretaria da Fazenda, a equipe de arquitetura analisou os aspectos de tokenização de código-fonte e o mecanismo de atenção do modelo.
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Ciencias da Computacao Sistemas de Informacao – 2026)**
+Durante uma auditoria técnica em um projeto de desenvolvimento de software público, o auditor observa que a equipe de desenvolvimento está ignorando sistematicamente a Definition of Done (DoD) para cumprir o prazo de uma Sprint, sob orientação do Product Owner. O incremento foi movido para o status Concluído, mas não possui testes de integração nem documentação técnica. Sob a ótica do Guia Scrum e da governança de software, a consequência direta dessa prática para o Tribunal de Contas e para a qualidade do produto é
 
-A respeito desse funcionamento interno, assinale a afirmativa correta:  
-
-* **A)** O mecanismo de *Self-Attention* analisa apenas a palavra imediatamente anterior na sequência, comportando-se exatamente como uma Cadeia de Markov de primeira ordem.
-* **B)** O processo de tokenização baseado em algoritmos como Byte-Pair Encoding (BPE) converte palavras em tokens indivisíveis de no mínimo dez caracteres, impedindo a fragmentação de identificadores em código.
-* **C)** Na arquitetura Transformer do tipo *Decoder-Only*, a máscara causal (*Causal Masking*) impede que a previsão do próximo token tenha acesso aos tokens subsequentes da sequência, viabilizando a geração de código autoregressiva.
-* **D)** A indentação em Python (quatro espaços) consome obrigatoriamente 40 tokens por linha em qualquer tokenizador moderno, inviabilizando o uso de LLMs para desenvolvimento nessa linguagem.
-* **E)** Os vetores de Consulta ($Q$), Chave ($K$) e Valor ($V$) no mecanismo de atenção são constantes numéricas fixas imutáveis, definidas pelos desenvolvedores e independentes do texto de entrada.
-
+* **A)** o aumento imediato da velocidade da equipe, otimizando o gasto público.
+* **B)** a criação de dívida técnica oculta, mascarando o real progresso do projeto e elevando o custo de manutenção futura.
+* **C)** a conformidade com o princípio de “Software em funcionamento mais que documentação abrangente” do Manifesto Ágil.
+* **D)** a transferência da responsabilidade de qualidade exclusivamente para o Scrum Master.
+* **E)** a viabilização de entregas contínuas (CI/CD) sem a necessidade de processos burocráticos de revisão.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O mecanismo de *Self-Attention* calcula correlações dinâmicas de longo alcance entre todos os tokens da sequência simultaneamente, superando as limitações locais das Cadeias de Markov.
-> - **B)** Incorreta. O algoritmo BPE decompõe palavras e identificadores desconhecidos em subpalavras e caracteres individuais quando necessário.
-> - **C)** **CORRETA.** Em modelos decodificadores autoregressivos (como GPT e Claude), a aplicação da máscara causal (*Causal Masking*) no mecanismo de autoatenção impede que a previsão do token na posição $t$ consulte informações de posições futuras ($t+1, t+2, \dots$), assegurando a geração estritamente sequencial da esquerda para a direita.
-> - **D)** Incorreta. Tokenizadores otimizados para código agrupam blocos de 2, 4 e 8 espaços consecutivos em tokens únicos, tornando a geração em Python eficiente.
-> - **E)** Incorreta. As matrizes $Q, K, V$ são geradas dinamicamente multiplicando-se os embeddings da entrada por matrizes de pesos aprendidas pela rede.
-> 
-> **Gabarito: C**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o aumento imediato da velocidade da equipe, otimizando o gasto público". De acordo com a teoria estudada em *1.2 Variantes Arquiteturais: Encoder-Only, Decoder-Only e Encoder-Decoder*, decoder-Only *(Apenas Decodificador)*: Autoregressivo Unidirecional: Utiliza uma máscara causal (*Causal Masking*) que oculta tokens futuros.
+> - **B)** **Correta.** Conforme fundamentado na seção *3.2 Técnicas Centrais de Prompting: Zero-Shot, Few-Shot, CoT e Test-Driven* deste guia, técnica: Mecânica de Funcionamento — Indicação Principal em TI — Cuidados e Limitações. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "a criação de dívida técnica oculta, mascarando o real progresso do projeto e elevando o custo de manutenção futura".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a conformidade com o princípio de “Software em funcionamento mais que documentação abrangente” do Manifesto Ágil". De acordo com a teoria estudada em *1.2 Variantes Arquiteturais: Encoder-Only, Decoder-Only e Encoder-Decoder*, encoder-Decoder *(Codificador-Decodificador)*: O codificador processa a entrada bidirecionalmente e o decodificador sintetiza a saída de forma autoregressiva. — Tradução entre diferentes linguagens de programação (ex.: COBOL para Java), sumarização de pull requests e geração automática de documentação. — T5, CodeT5.
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "a transferência da responsabilidade de qualidade exclusivamente para o Scrum Master". De acordo com a teoria estudada em *Impactos Cruciais da Tokenização em Código-Fonte:*, economia e Métricas de Custo: As APIs de modelos de IA tarifam o processamento com base no volume de tokens de entrada (*input tokens*) e saída (*output tokens*).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a viabilização de entregas contínuas (CI/CD) sem a necessidade de processos burocráticos de revisão". De acordo com a teoria estudada em *Impactos Cruciais da Tokenização em Código-Fonte:*, a otimização e a curadoria de arquivos enviados para o contexto impactam diretamente o custo operacional das soluções corporativas.
+>
+> **Gabarito: B**
 
 ---
 
 ### Teste 120
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No desenvolvimento de sistemas assistidos por inteligência artificial, a arquitetura *Transformer* deu origem a três famílias arquiteturais predominantes: *Encoder-Only*, *Decoder-Only* e *Encoder-Decoder*. A respeito das características e dos casos de uso de cada família em tarefas de engenharia de software, é correto afirmar:
+**(FCC – TRT-14 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2016)**
+A compilação é o processo de tradução de um programa escrito em uma linguagem fonte em um programa equivalente em linguagem de máquina. Nesse processo, o programa fonte normalmente passa pelas fases: I. Identificação de sequências de caracteres de entrada e produção de uma sequência de elementos de saída, os tokens. Nesta fase, verifica-se se cada caractere do programa fonte pertence ao alfabeto da linguagem, identificando os tokens e desprezando comentários e espaços em branco. Os tokens constituem classes de símbolos, tais como palavras reservadas, delimitadores, identificadores etc. II. Identificação de sequências de símbolos que constituem estruturas como expressões e comandos, através de uma varredura, ou parsing, da representação interna do programa fonte, produzindo uma estrutura em árvore, chamada árvore de derivação. III. Verificação das estruturas quanto ao sentido, ou seja, se o programa não possui erros de significado. Por exemplo, verifica se um identificador declarado como variável é utilizado como tal, se existe compatibilidade entre operandos e operadores em expressões etc. Os itens I, II e III referem-se, correta e respectivamente, às fases
 
-* **A)** Modelos *Encoder-Only* (como o BERT) são amplamente empregados para geração autorregressiva contínua de grandes blocos de código-fonte em tempo real.
-* **B)** Modelos *Decoder-Only* (como a família GPT, Claude e LLaMA) operam por geração autorregressiva token a token guiada por máscaras causais de atenção.
-* **C)** Modelos *Encoder-Decoder* são incapazes de realizar tradução de código entre linguagens distintas (como COBOL para Java).
-* **D)** A atenção bidirecional irrestrita é uma característica exclusiva dos modelos *Decoder-Only*.
-* **E)** Modelos *Decoder-Only* não utilizam embeddings nem camadas de normalização (*LayerNorm*).
-
+* **A)** Análise Léxica − Análise Sintática − Análise Semântica.
+* **B)** Interpretação − Análise Sintática − Montagem.
+* **C)** Busca Binária − Montagem Léxica − Análise Semântica.
+* **D)** Classificação − Análise Léxica − Montagem.
+* **E)** Identificação Inicial − Análise Estrutural − Geração de Código.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Modelos *Encoder-Only* usam autoatenção bidirecional, ideais para classificação, busca semântica e análise estática (não para geração autorregressiva de texto/código).
-> - **B) Correta.** Os modelos *Decoder-Only* utilizam máscara causal de atenção (*causal masking*), que impede que a posição atual veja tokens futuros, gerando tokens sequencialmente de forma autorregressiva. Essa arquitetura consolidou-se como o padrão hegemônico para assistentes de programação e LLMs generativos.
-> - **C) Incorreta.** Modelos *Encoder-Decoder* (como T5 e CodeT5) são historicamente muito eficientes em tarefas seq2seq como tradução de código e sumarização.
-> - **D) Incorreta.** A atenção bidirecional é típica do *Encoder*, e não do *Decoder* (que é causal/unidirecional).
-> - **E) Incorreta.** Camadas de embedding e normalização são componentes universais de Transformers.
+> - **A)** **Correta.** Conforme fundamentado na seção *1.3 Ciclo de Vida do Treinamento: Pré-Treinamento, SFT e Alinhamento (RLHF/DPO)* deste guia, ele aprende a estrutura léxica e sintática prevendo o próximo token (*Next Token Prediction*) e através do preenchimento de lacunas intermediárias (Fill-in-the-Middle - FIM), fundamental para autocompletar código dentro de arquivos existentes. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-14/2016) ao estabelecer que "Análise Léxica − Análise Sintática − Análise Semântica".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Interpretação − Análise Sintática − Montagem". De acordo com a teoria estudada em *1.2 Variantes Arquiteturais: Encoder-Only, Decoder-Only e Encoder-Decoder*, encoder-Only *(Apenas Codificador)*: Bidirecional: O modelo enxerga os tokens à esquerda e à direita simultaneamente em todas as camadas. — Análise estática de código, classificação de vulnerabilidades de segurança, detecção de bugs e busca semântica em repositórios de código. — BERT, CodeBERT, RoBERTa.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Busca Binária − Montagem Léxica − Análise Semântica". De acordo com a teoria estudada em *Impactos Cruciais da Tokenização em Código-Fonte:*, indentação e Espaços: Em linguagens onde a indentação é sintática (como Python), tokenizadores antigos emitiam um token para cada espaço em branco individual (4 espaços = 4 tokens).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Classificação − Análise Léxica − Montagem". De acordo com a teoria estudada em *2.2 Sintaxe Estrita vs. Semântica Declarativa e Contratos de Interface*, na programação clássica, o compilador atua como um juiz sintático inflexível: a omissão de uma vírgula ou chave aborta o processo de compilação. Na programação orientada a linguagem natural assistida por IA.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Identificação Inicial − Análise Estrutural − Geração de Código". De acordo com a teoria estudada em *1.5 Hiperparâmetros de Inferência e Amostragem: Temperature, Top-P e Penalidades*, presence Penalty: Aplica penalização fixa se um token já tiver aparecido ao menos uma vez no texto. — Sem interferência na estrutura sintática. — Força a introdução contínua de novos tópicos, induzindo variáveis inventadas. — \$0.0\$ estrito para código-fonte.
 >
-> **Gabarito: B**
+> **Gabarito: A**
 
 ---
 
 ### Teste 121
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-O pipeline moderno de treinamento de modelos de linguagem para engenharia de software é estruturado em três fases fundamentais: Pré-treinamento (*Pre-training*), Ajuste Fino Supervisionado (*Supervised Fine-Tuning* - SFT) e Alinhamento (*Alignment* via RLHF ou DPO). A esse respeito, assinale a afirmativa tecnicamente correta:
+**(FCC – TRT-9 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2015)**
+A visão estática do RUP, uma variação do UP (Unified Process), prioriza as atividades que ocorrem durante o processo de desenvolvimento. Na descrição do RUP, estas atividades são chamadas de workflows. No workflow
 
-* **A)** O pré-treinamento exige anotação manual linha a linha por engenheiros humanos de cada arquivo de código consumido pelo modelo.
-* **B)** O Ajuste Fino Supervisionado (SFT) utiliza conjuntos de dados de instruções com pares curados de solicitações e respostas ideais (prompts e códigos corretos) para ensinar o modelo a seguir instruções e dialogar com o desenvolvedor.
-* **C)** O alinhamento por Aprendizado por Reforço com Feedback Humano (RLHF) serve exclusivamente para acelerar a velocidade de clock da placa de vídeo GPU durante o treinamento.
-* **D)** O DPO (*Direct Preference Optimization*) exige obrigatoriamente o treinamento de um modelo de recompensa (*reward model*) separado e instável, ao contrário do RLHF clássico.
-* **E)** Após o pré-treinamento, o modelo base já possui capacidade nativa e alinhada para recusar instruções maliciosas de exploração de vulnerabilidades.
-
+* **A)** Gerenciamento de Configuração e Mudança os atores que interagem com o sistema são identificados e os casos de uso são desenvolvidos para modelar os requisitos do sistema.
+* **B)** Meio Ambiente os processos de negócio são modelados por meio de casos de uso de negócios.
+* **C)** Análise e Projeto um modelo de projeto é criado e documentado com modelos de arquitetura, modelos de componentes, modelos de objetos e modelos de sequência.
+* **D)** Gerenciamento de Projeto, um dos principais do RUP, os componentes do sistema são implementados e estruturados em subsistemas de implementação.
+* **E)** Modelagem de Negócios são disponibilizadas as ferramentas apropriadas para a equipe de desenvolvimento implementar o modelo de projeto do software.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** O pré-treinamento é auto-supervisionado (*self-supervised*), treinando o modelo para prever o próximo token em terabytes de código público sem anotação manual.
-> - **B) Correta.** No SFT, o modelo base (que aprendeu a completar texto) é treinado com pares de instrução e resposta ideal (*instruction tuning*), tornando-se um assistente conversacional capaz de interpretar tarefas de engenharia de software.
-> - **C) Incorreta.** O RLHF alinha o modelo com valores de utilidade, veracidade e segurança (*helpful, honest, harmless*).
-> - **D) Incorreta.** É o inverso: o DPO simplifica o alinhamento ao otimizar a política diretamente sobre pares de preferências (resposta aceita vs. rejeitada), dispensando o modelo de recompensa explícito do PPO/RLHF.
-> - **E) Incorreta.** Modelos base brutos apenas completam padrões textuais; os mecanismos de recusa e segurança são introduzidos no alinhamento.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Gerenciamento de Configuração e Mudança os atores que interagem com o sistema são identificados e os casos de uso...". De acordo com a teoria estudada em *1.2 Variantes Arquiteturais: Encoder-Only, Decoder-Only e Encoder-Decoder*, família Arquitetural: Mecânica de Processamento — Casos de Uso Predominantes em Software — Modelos Representativos.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Meio Ambiente os processos de negócio são modelados por meio de casos de uso de negócios". De acordo com a teoria estudada em *1.1 A Arquitetura Transformer e o Mecanismo de Autoatenção (Self-Attention)*, ao contrário das arquiteturas recorrentes anteriores (RNNs, LSTMs), que processavam palavras de forma estritamente sequencial e sofriam com o esquecimento de dependências de longo alcance, o Transformer opera com paralelismo massivo por meio do mecanismo de Autoatenção Escalar por Produto Escalar (*Scaled Dot-Product Attention*).
+> - **C)** **Correta.** Conforme fundamentado na seção *1.2 Variantes Arquiteturais: Encoder-Only, Decoder-Only e Encoder-Decoder* deste guia, encoder-Only *(Apenas Codificador)*: Bidirecional: O modelo enxerga os tokens à esquerda e à direita simultaneamente em todas as camadas. — Análise estática de código, classificação de vulnerabilidades de segurança, detecção de bugs e busca semântica em repositórios de código. — BERT, CodeBERT, RoBERTa. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-9/2015) ao estabelecer que "Análise e Projeto um modelo de projeto é criado e documentado com modelos de arquitetura, modelos de componentes...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Gerenciamento de Projeto, um dos principais do RUP, os componentes do sistema são implementados e estruturados em...". De acordo com a teoria estudada em *3.4 Curadoria de Contexto e Minimização de Ruído no Repositório*, uso de Delimitadores Estruturados: Separe claramente o código-fonte das instruções utilizando tags XML (`<context>`, `<instructions>`, `<code>`) para evitar ataques de injeção de prompt e prevenir confusão no analisador sintático do modelo.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Modelagem de Negócios são disponibilizadas as ferramentas apropriadas para a equipe de desenvolvimento implementar...". De acordo com a teoria estudada em *1.3 Ciclo de Vida do Treinamento: Pré-Treinamento, SFT e Alinhamento (RLHF/DPO)*, o desenvolvimento de um modelo fundacional voltado para engenharia de software ocorre em três estágios sucessivos.
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
 
 ### Teste 122
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Na inferência de modelos de linguagem utilizados para geração de código-fonte de missão crítica, a calibração de hiperparâmetros de amostragem exerce impacto decisivo na corretude e determinismo dos programas gerados. A respeito dos hiperparâmetros *Temperature* e *Top-P* (*Nucleus Sampling*), é correto afirmar:
+**(FCC – TRT-16 – Analista Judiciario Tecnologia da Informacao – 2014)**
+André trabalha como Analista Judiciário e, analisando o modelo de maturidade do CobiT 4.1, concluiu que a performance atual do TRT da 16a Região nos seus processos de TI encontra-se no seguinte patamar: “os processos evoluíram para um estágio em que procedimentos similares são seguidos por diferentes funcionários fazendo a mesma tarefa. Mas não existe um treinamento formal ou uma comunicação dos procedimentos padronizados e a responsabilidade é deixada com cada um dos funcionários. Há um alto grau de confiança no conhecimento por parte deles e, consequentemente, erros podem ocorrer”. O TRT da 16a Região encontra-se no nível de maturidade
 
-* **A)** Valores elevados de *Temperature* (próximos a 1.5 ou 2.0) tornam a distribuição de probabilidades mais íngreme, garantindo código determinístico, rigoroso e sem bugs de sintaxe.
-* **B)** Para tarefas de geração de código-fonte, migração de dados e depuração de erros lógicos, recomenda-se configurar a *Temperature* com valores baixos (próximos a 0.0 ou 0.2).
-* **C)** O *Top-P* seleciona aleatoriamente os tokens mais raros do vocabulário para enriquecer a diversidade léxica dos comandos SQL.
-* **D)** Configurar a *Temperature* em 0.0 impede que o modelo execute inferência em computadores com sistema operacional Windows.
-* **E)** O hiperparâmetro *Top-K* define a quantidade de GPUs necessárias para rodar o modelo no data center.
-
+* **A)** 3 (Processo Definido) e o próximo nível de maturidade a ser alcançado é o nível 4 (Gerenciado e Mensurável). No nível 4, a gerência passa a monitorar e medir a aderência aos procedimentos e adotar ações em que os processos parecem não funcionar muito bem no TRT da 16a Região. Os processos estarão em constante aprimoramento e fornecerão boas práticas. Automação e ferramentas serão utilizadas de uma maneira limitada ou fragmentada.
+* **B)** 4 (Gerenciado e Mensurável) e o próximo nível de maturidade a ser alcançado é o nível 5 (Processo Definido). No nível 5, a gerência passa a monitorar e medir a aderência aos procedimentos e adotar ações em que os processos parecem não funcionar muito bem no TRT da 16a Região. Os processos estarão em constante aprimoramento e fornecerão boas práticas. Automação e ferramentas serão utilizadas de uma maneira limitada ou fragmentada.
+* **C)** 2 (Repetível, porém Intuitivo) e o próximo nível de maturidade a ser alcançado é o nível 3 (Processo Definido). No nível 3, os procedimentos terão sido padronizados, documentados e comunicados através de treinamento. Todos do TRT da 16a Região devem seguir estes processos, mas possivelmente desvios não serão detectados. Os procedimentos não serão sofisticados, mas existirá a formalização das práticas existentes.
+* **D)** 1 (Inicial / Ad hoc) e o próximo nível de maturidade a ser alcançado é o nível 2 (Repetível, porém Intuitivo). No nível 2, os procedimentos terão sido padronizados, documentados e comunicados através de treinamento. Todos do TRT da 16a Região devem seguir estes processos, mas possivelmente desvios não serão detectados. Os procedimentos não serão sofisticados, mas existirá a formalização das práticas existentes.
+* **E)** 3 (Repetível, porém Intuitivo) e o próximo nível de maturidade a ser alcançado é o nível 4 (Gerenciado e Mensurável). No nível 4, os processos terão sido refinados a um nível de boas práticas, baseado no resultado de um contínuo aprimoramento e modelagem da maturidade como em outros Tribunais. A TI passará a ser utilizada no TRT da 16a Região como um caminho integrado para automatizar o fluxo de trabalho, provendo ferramentas para aprimorar a qualidade e efetividade, tornando a organização rápida em adaptar-se.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Temperaturas altas achatam a distribuição de probabilidades (*softmax* mais suave), aumentando a criatividade e o risco de alucinações sintáticas em código.
-> - **B) Correta.** Na engenharia de software, onde a precisão sintática e lógica é indispensável, adota-se *Temperature* baixa ($0.0 \le T \le 0.2$) para promover saídas reprodutíveis, determinísticas e focadas nos caminhos mais prováveis e testados.
-> - **C) Incorreta.** O *Top-P* (amostragem por núcleo) seleciona o menor conjunto de tokens cuja soma cumulativa de probabilidades atinge $P$ (descartando a cauda improvável).
-> - **D) Incorreta.** *Temperature* é uma constante matemática no cálculo da distribuição de probabilidade da inferência.
-> - **E) Incorreta.** *Top-K* limita a amostragem aos $K$ tokens mais prováveis no vocabulário.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3 (Processo Definido) e o próximo nível de maturidade a ser alcançado é o nível 4 (Gerenciado e Mensurável). No...". De acordo com a teoria estudada em *3.1 Estrutura Canônica de um Prompt de Código Corporativo*, um prompt corporativo de alto nível para desenvolvimento de software não deve ser uma simples frase coloquial. Ele organiza-se em quatro seções formais estruturadas (frequentemente delimitadas por tags XML ou seções Markdown).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "4 (Gerenciado e Mensurável) e o próximo nível de maturidade a ser alcançado é o nível 5 (Processo Definido). No...". De acordo com a teoria estudada em *1.1 A Arquitetura Transformer e o Mecanismo de Autoatenção (Self-Attention)*, a integração da Inteligência Artificial Generativa à Engenharia de Software estabelece uma transição paradigmática fundamental: passa-se da programação procedural e imperativa estrita para a computação probabilística baseada em reconhecimento de padrões e atenção contextual em espaços vetoriais de alta dimensão.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.3 Ciclo de Vida do Treinamento: Pré-Treinamento, SFT e Alinhamento (RLHF/DPO)* deste guia, ele aprende a estrutura léxica e sintática prevendo o próximo token (*Next Token Prediction*) e através do preenchimento de lacunas intermediárias (Fill-in-the-Middle - FIM), fundamental para autocompletar código dentro de arquivos existentes. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-16/2014) ao estabelecer que "2 (Repetível, porém Intuitivo) e o próximo nível de maturidade a ser alcançado é o nível 3 (Processo Definido). No...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1 (Inicial / Ad hoc) e o próximo nível de maturidade a ser alcançado é o nível 2 (Repetível, porém Intuitivo). No...". De acordo com a teoria estudada em *1.4 Tokenização, Vocabulário e Gestão de Custos Computacionais*, modelos de linguagem não leem palavras inteiras ou caracteres isolados; eles operam sobre tokens (números inteiros que mapeiam fragmentos de palavras e símbolos em um vocabulário pré-definido).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3 (Repetível, porém Intuitivo) e o próximo nível de maturidade a ser alcançado é o nível 4 (Gerenciado e...". De acordo com a teoria estudada em *3.3 Janela de Contexto e a Mitigação do Efeito "Lost in the Middle"*, a Janela de Contexto (*Context Window*) é a quantidade máxima de tokens que um modelo de IA consegue manter na memória de trabalho durante uma sessão de inferência.
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
 
@@ -271,54 +265,50 @@ O LLM recebe esse contrato comportamental e gera simultaneamente a suíte de tes
 ---
 
 ### Teste 123
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-No contexto da evolução da engenharia de software assistida por inteligência artificial, destacam-se os conceitos de Programação Baseada em Intenção (*Intent-Based Programming*) e a gestão criteriosa da janela de contexto (*Context Window*).
+**(FCC – TRT-23 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2016)**
+Para utilizar o OpenSource Selenium, um Analista deve conhecer suas atuais e principais ferramentas. Uma delas é a que permite distribuir os testes em múltiplas máquinas, reduzindo assim o tempo gasto na execução de uma suíte de testes. É ideal para escalonar suítes de testes grandes ou que devem ser executadas em múltiplos ambientes. Essa ferramenta é o Selenium
 
-Sobre esses conceitos, assinale a afirmativa correta:  
-
-* **A)** A programação baseada em intenção substitui completamente a necessidade de validação humana, testes automatizados e critérios de aceite, transferindo a responsabilidade civil pelo software integralmente ao provedor do modelo de IA.
-* **B)** O efeito conhecido na literatura como *"Lost in the Middle"* demonstra que os modelos LLMs recuperam informações com igual precisão em qualquer ponto de uma janela de contexto extensa, tornando indiferente a ordem em que os arquivos de código são dispostos no prompt.
-* **C)** Na programação baseada em intenção, o desenvolvedor expressa o objetivo de negócio, pré-condições e invariantes em linguagem declarativa/natural, enquanto o sistema de IA infere a estratégia algorítmica e gera as instruções imperativas correspondentes.
-* **D)** A janela de contexto de um LLM armazena exclusivamente os parâmetros pré-treinados estáticos dos pesos neurais, não guardando relação com a quantidade de tokens de código fornecidos como entrada na requisição.
-* **E)** *Few-Shot Prompting* e *Fine-Tuning* são termos sinônimos que descrevem o processo de re-treinamento dos pesos do modelo com retropropagação de gradientes (*backpropagation*) a cada nova instrução de código.
-
+* **A)** SELECT.
+* **B)** RC.
+* **C)** IDE.
+* **D)** TYPE.
+* **E)** GRID.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A programação baseada em intenção não suprime a supervisão humana (*Human-in-the-Loop*) nem a exigência de testes formais, sendo a responsabilidade técnica e jurídica intransferível do desenvolvedor e da organização.
-> - **B)** Incorreta. A pesquisa seminal de Liu et al. (2023) comprovou exatamente o oposto: modelos de linguagem apresentam forte degradação de recuperação para informações situadas no meio geométrico da janela de contexto (*Lost in the Middle*).
-> - **C)** **CORRETA.** Na *Intent-Based Programming*, o engenheiro de software foca na declaração da intenção (o "O QUÊ" - requisitos, invariantes, contratos e pós-condições), cabendo ao sistema de IA sintetizar o algoritmo correspondente (o "COMO" imperativo).
-> - **D)** Incorreta. Os pesos do modelo são parâmetros estáticos. A janela de contexto é a memória de trabalho dinâmica que limita a quantidade de tokens de entrada e saída em uma requisição.
-> - **E)** Incorreta. *Few-Shot Prompting* é aprendizado em contexto em tempo de inferência, sem alteração de pesos. *Fine-Tuning* implica o recálculo e modificação permanente dos pesos sinápticos via retropropagação de gradientes.
-> 
-> **Gabarito: C**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "SELECT". De acordo com a teoria estudada em *2.3 Especificações Dirigidas por Comportamento (BDD) como Prompts Executáveis*, o LLM recebe esse contrato comportamental e gera simultaneamente a suíte de testes correspondente e o código de domínio que satisfaz o cenário.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "RC". De acordo com a teoria estudada em *3.1 Estrutura Canônica de um Prompt de Código Corporativo*, um prompt corporativo de alto nível para desenvolvimento de software não deve ser uma simples frase coloquial. Ele organiza-se em quatro seções formais estruturadas (frequentemente delimitadas por tags XML ou seções Markdown).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "IDE". De acordo com a teoria estudada em *2.3 Especificações Dirigidas por Comportamento (BDD) como Prompts Executáveis*, a disciplina do BDD (*Behavior-Driven Development*) serve como ponte natural entre intenção em linguagem humana e testes automatizados. Cenários descritos em sintaxe Gherkin (`Dado que.. Quando.. Então..`) são utilizados como especificações inequívocas.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "TYPE". De acordo com a teoria estudada em *Impactos Cruciais da Tokenização em Código-Fonte:*, modelos modernos voltados para código possuem tokens agrupados dedicados para 2, 4 e 8 espaços consecutivos, reduzindo drasticamente o consumo de tokens.
+> - **E)** **Correta.** Conforme fundamentado na seção *2.1 Intent-Based Programming: A Transição do "COMO" para o "O QUÊ"* deste guia, a IA generativa sintetiza o código executável, que é imediatamente validado por suítes de testes determinísticos. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-23/2016) ao estabelecer que "GRID".
+>
+> **Gabarito: E**
 
 ---
 
 ### Teste 124
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No paradigma de Programação Baseada em Intenção (*Intent-Based Programming*), o desenvolvedor expressa a intenção de negócio em linguagem natural estruturada, cabendo a agentes de IA sintetizar a lógica técnica e a implementação. No entanto, na integração desse código aos pipelines de entrega, a relação entre semântica declarativa e sintaxe estrita exige que:
+**(FCC – TRT-2 – Analista Judiciario Tecnologia da Informacao – 2014)**
+O modelo de ciclo de vida incremental e iterativo foi proposto como uma resposta aos problemas encontrados no modelo em cascata. Em relação a este tipo de modelo de processo, é INCORRETO afirmar que
 
-* **A)** O código gerado pela IA seja enviado para produção imediatamente sem compilação, pois a intenção declarada sobrepõe-se às regras de sintaxe do compilador garantindo a observância dos protocolos de governança e interoperabilidade vigentes.
-* **B)** O compilador, o analisador de tipos (como TypeScript) e os linters estáticos atuem como filtros determinísticos inegociáveis, validando rigorosamente contratos de interface e consistência tipológica da solução antes de qualquer execução.
-* **C)** As interfaces de contratos sejam eliminadas do código para permitir que a IA altere tipos de dados livremente em tempo de execução.
-* **D)** A semântica probabilística dos LLMs substitua a necessidade de contratos formais de API (como OpenAPI e Protocol Buffers).
-* **E)** Erros de compilação em código gerado por IA sejam ignorados pelo pipeline de integração contínua.
-
+* **A)** um processo de desenvolvimento, segundo essa abordagem, divide o desenvolvimento de um produto de software em ciclos. Em cada ciclo de desenvolvimento podem ser identificadas as fases de análise, projeto, implementação e testes.
+* **B)** cada um dos ciclos de desenvolvimento considera um subconjunto de requisitos. Os requisitos são desenvolvidos uma vez que sejam alocados a um ciclo de desenvolvimento. No próximo ciclo, um outro subconjunto dos requisitos é considerado para ser desenvolvido, o que produz um novo incremento do sistema que contém extensões e refinamentos sobre o incremento anterior.
+* **C)** o desenvolvimento evolui em versões, através da construção incremental e iterativa de novas funcionalidades até que o sistema completo esteja construído. Apenas uma parte dos requisitos é considerada em cada ciclo de desenvolvimento.
+* **D)** o desenvolvimento incremental e iterativo de software sempre é possível, desde que a equipe de desenvolvimento divida os requisitos do sistema em partes, para que cada parte seja alocada a um ciclo de desenvolvimento. Para isso, a Norma NBR ISO/IEC 12207:2009 traz recomendações em sua seção Processos de Contexto de Sistema.
+* **E)** os dois padrões mais conhecidos de sistemas iterativos de desenvolvimento são: o UP (Processo Unificado) e o desenvolvimento ágil de software. Por isso, o desenvolvimento iterativo e incremental é também uma parte essencial do XP.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** A intenção precisa obrigatoriamente se materializar em código sintaticamente e semanticamente perfeito perante os validadores formais da linguagem.
-> - **B) Correta.** A chave da engenharia de software assistida por IA é a complementariedade: a IA gera propostas de código no espaço semântico probabilístico, mas essas propostas são imediatamente submetidas a verificadores determinísticos estritos (compiladores, checadores de tipo estático, linters e suítes de testes automatizados).
-> - **C) Incorreta.** Contratos estritos de interface são ainda mais essenciais quando se utiliza código assistido por IA.
-> - **D) Incorreta.** Contratos padronizados (OpenAPI, protobuf) são a âncora que impede a IA de quebrar integrações existentes.
-> - **E) Incorreta.** Viola os princípios mais elementares de CI/CD e confiabilidade.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um processo de desenvolvimento, segundo essa abordagem, divide o desenvolvimento de um produto de software em...". De acordo com a teoria estudada em *3.1 Estrutura Canônica de um Prompt de Código Corporativo*, um prompt corporativo de alto nível para desenvolvimento de software não deve ser uma simples frase coloquial. Ele organiza-se em quatro seções formais estruturadas (frequentemente delimitadas por tags XML ou seções Markdown).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "cada um dos ciclos de desenvolvimento considera um subconjunto de requisitos. Os requisitos são desenvolvidos uma...". De acordo com a teoria estudada em *1.3 Ciclo de Vida do Treinamento: Pré-Treinamento, SFT e Alinhamento (RLHF/DPO)*, ele aprende a estrutura léxica e sintática prevendo o próximo token (*Next Token Prediction*) e através do preenchimento de lacunas intermediárias (Fill-in-the-Middle - FIM), fundamental para autocompletar código dentro de arquivos existentes.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "o desenvolvimento evolui em versões, através da construção incremental e iterativa de novas funcionalidades até...". De acordo com a teoria estudada em *1.3 Ciclo de Vida do Treinamento: Pré-Treinamento, SFT e Alinhamento (RLHF/DPO)*, o modelo aprende a dialogar no papel de assistente técnico e seguir convenções de software.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.3 Ciclo de Vida do Treinamento: Pré-Treinamento, SFT e Alinhamento (RLHF/DPO)* deste guia, o desenvolvimento de um modelo fundacional voltado para engenharia de software ocorre em três estágios sucessivos. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-2/2014) ao estabelecer que "o desenvolvimento incremental e iterativo de software sempre é possível, desde que a equipe de desenvolvimento...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os dois padrões mais conhecidos de sistemas iterativos de desenvolvimento são: o UP (Processo Unificado) e o...". De acordo com a teoria estudada em *2.2 Sintaxe Estrita vs. Semântica Declarativa e Contratos de Interface*, na programação clássica, o compilador atua como um juiz sintático inflexível: a omissão de uma vírgula ou chave aborta o processo de compilação. Na programação orientada a linguagem natural assistida por IA.
 >
-> **Gabarito: B**
+> **Gabarito: D**
 
 ---
 
@@ -403,108 +393,98 @@ Para contornar o efeito *Lost in the Middle* e evitar estouros de cotas financei
 ---
 
 ### Teste 125
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Um desenvolvedor de software de um Tribunal de Contas Estadual está configurando a integração de uma ferramenta de IA generativa para auxiliar na geração automatizada de funções de validação de regras fiscais e cálculos contábeis em Python. Ele precisa garantir que as implementações geradas sejam estritamente determinísticas, fiéis à sintaxe da linguagem e sigam um padrão corporativo pré-estabelecido de tratamento de exceções.
+**(FCC – TRT-4 – Analista Judiciario Tecnologia da Informacao – 2015)**
+Um Tribunal está modelando: I. os processos de negócio para a construção de um novo sistema orientado a objetos; II. a interação entre os usuários e os requisitos funcionais, na fase de levantamento de requisitos. Nesse contexto, considerando que a linguagem UML foi escolhida como única linguagem de modelagem, os diagramas que devem ser utilizados em I e II são, respectivamente,
 
-Considerando as técnicas de engenharia de prompts e a calibração de modelos de linguagem (LLMs):  
-
-* **A)** O desenvolvedor deve configurar o hiperparâmetro `temperature` com valor próximo a `1.0` (ou superior), pois valores altos eliminam o risco de alucinações sintáticas e forçam o modelo a seguir rigidamente a documentação oficial.
-* **B)** A técnica de *Zero-Shot Prompting* consiste em fornecer ao modelo múltiplos exemplos comentados de funções de validação no prompt antes de solicitar o código final, garantindo a replicação do padrão corporativo.
-* **C)** O desenvolvedor deve ajustar o hiperparâmetro `temperature` para valores baixos (próximos de `0.0`), conferindo determinismo e reprodutibilidade à resposta, e utilizar a técnica de *Few-Shot Prompting*, fornecendo no contexto alguns exemplos prévios do padrão esperado de entrada, lógica e tratamento de erro.
-* **D)** A técnica de *Chain-of-Thought* (CoT) é desaconselhada para problemas de programação e lógica algorítmica, visto que forçar o modelo a verbalizar o raciocínio intermediário degrada sua precisão na geração da sintaxe final do código considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
-* **E)** O *System Prompt* não tem impacto no comportamento global do modelo, servindo apenas para armazenar o histórico efêmero de mensagens trocadas na sessão atual.
-
+* **A)** de Sequência e de Casos de Uso.
+* **B)** Business Process Model and Notation e Diagrama de Comunicação.
+* **C)** de Atividades e de Casos de Uso.
+* **D)** Fluxogramas e Diagramas de Contexto.
+* **E)** de Atividades e de Comunicação.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Uma temperatura alta ($T \approx 1.0$) achata a distribuição probabilística dos logits, aumentando a entropia e aleatoriedade das previsões. Isso induz alucinações sintáticas, gerando nomes de métodos inexistentes e quebrando o código.
-> - **B)** Incorreta. O fornecimento de múltiplos exemplos de demonstração no prompt é a definição canônica de **Few-Shot Prompting** (In-Context Learning). O *Zero-Shot Prompting* fornece apenas a instrução da tarefa sem nenhum exemplo prévio.
-> - **C)** **CORRETA.** Para geração de código, testes e validações contábeis determinísticas, deve-se adotar temperatura baixa ($0.0 \le T \le 0.2$), assegurando repetibilidade e fidelidade sintática. O uso combinado com *Few-Shot Prompting* (fornecendo 2 a 3 exemplos do padrão institucional) garante a conformidade com a arquitetura desejada.
-> - **D)** Incorreta. A técnica de *Chain-of-Thought* (CoT) é altamente benéfica para código, pois induz o modelo a decompor a lógica algorítmica passo a passo antes de emitir a sintaxe final, reduzindo erros de raciocínio.
-> - **E)** Incorreta. O *System Prompt* define as diretrizes mestras, persona, restrições corporativas e regras comportamentais imutáveis que guiam todo o processamento da sessão.
-> 
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de Sequência e de Casos de Uso". De acordo com a teoria estudada em *3.4 Curadoria de Contexto e Minimização de Ruído no Repositório*, uso de Delimitadores Estruturados: Separe claramente o código-fonte das instruções utilizando tags XML (`<context>`, `<instructions>`, `<code>`) para evitar ataques de injeção de prompt e prevenir confusão no analisador sintático do modelo.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Business Process Model and Notation e Diagrama de Comunicação". De acordo com a teoria estudada em *4. Fontes Recomendadas na Internet*, jURAFSKY, Daniel; MARTIN, James H. Speech and Language Processing. 3. ed. Stanford University, 2024. (Cap. 10 e 11 - Large Language Models and Prompting).
+> - **C)** **Correta.** Conforme fundamentado na seção *1.2 Variantes Arquiteturais: Encoder-Only, Decoder-Only e Encoder-Decoder* deste guia, família Arquitetural: Mecânica de Processamento — Casos de Uso Predominantes em Software — Modelos Representativos. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-4/2015) ao estabelecer que "de Atividades e de Casos de Uso".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Fluxogramas e Diagramas de Contexto". De acordo com a teoria estudada em *3.3 Janela de Contexto e a Mitigação do Efeito "Lost in the Middle"*, degradação Central (*The Middle Dip*): Trechos de código ou requisitos críticos situados no meio geométrico de um contexto longo sofrem perda drástica de atenção, gerando omissões e alucinações.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de Atividades e de Comunicação". De acordo com a teoria estudada em *1.5 Hiperparâmetros de Inferência e Amostragem: Temperature, Top-P e Penalidades*, frequency Penalty: Aplica uma penalização proporcional ao número de vezes que um token já apareceu no texto gerado. — Permite repetições lexicais legítimas. — Inibe repetições, forçando o uso de sinônimos estranhos. — \$0.0\$ estrito.
+>
 > **Gabarito: C**
 
 ---
 
 ### Teste 126
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Um analista de sistemas da área fiscal precisa refatorar uma rotina crítica de cálculo do ITCMD (Imposto sobre Transmissão Causa Mortis e Doação) que envolve alíquotas progressivas, meação, herança legítima e múltiplas condições de isenção. Para obter da IA generativa uma solução robusta e livre de falhas de lógica contábil, ele decide aplicar técnicas avançadas de engenharia de prompts.
+**(CEBRASPE – TRT-8 – Analista Judiciario Area Apoio Especializado Tecnologia da Informacao – 2022)**
+No LibreOffice Calc, o assistente de funções é utilizado tanto para criar fórmulas na planilha quanto para verificar a construção da fórmula, identificadas, respectivamente, pelas guias
 
-Nesse cenário, a abordagem metodologicamente mais adequada é:  
-
-* **A)** Utilizar a técnica *Zero-Shot* com temperatura ajustada em $1.0$, instruindo o modelo a fornecer apenas o código final em uma única linha compactada sem comentários.
-* **B)** Aplicar a técnica de *Chain-of-Thought* (Cadeia de Pensamento), instruindo explicitamente o modelo a decompor as regras tributárias, detalhar o raciocínio matemático passo a passo e, somente após validar as etapas lógicas, emitir o código Python correspondente com testes unitários cobrindo as faixas de tributação.
-* **C)** Evitar o uso de *System Prompts*, pois estes anulam as diretrizes de segurança da plataforma de IA.
-* **D)** Utilizar a técnica de *Tree-of-Thoughts* apenas para alterar o nome das variáveis para formatos em caixa-alta, pois a lógica fiscal dispensa decomposição passo a passo. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **E)** Aumentar a `Frequency Penalty` para seu valor máximo possível, garantindo que palavras reservadas da linguagem como `if` e `return` nunca se repitam no código gerado.
-
+* **A)** Fórmula e Resultado.
+* **B)** Soma e Argumento.
+* **C)** Categoria e Matriz.
+* **D)** Funções e Estrutura.
+* **E)** Tipos de funções e Operadores.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. A abordagem Zero-Shot com temperatura máxima ($1.0$) produz alta variabilidade estatística e erros grosseiros de cálculo contábil.
-> - **B)** **CORRETA.** A técnica de *Chain-of-Thought* (CoT) compele o modelo a decompor o problema em etapas explícitas de raciocínio lógico. Ao calcular passo a passo a meação, as faixas progressivas e as isenções antes da codificação final, a precisão matemática atinge seu nível máximo.
-> - **C)** Incorreta. O *System Prompt* é mandatório para estabelecer governança, restrições e requisitos de segurança.
-> - **D)** Incorreta. Alteração de nomes de variáveis é tarefa trivial; a complexidade da questão reside na lógica tributária.
-> - **E)** Incorreta. Elevar a `Frequency Penalty` para o valor máximo penaliza palavras repetidas essenciais para o código, destruindo a sintaxe funcional da linguagem de programação.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Fórmula e Resultado". De acordo com a teoria estudada em *3.1 Estrutura Canônica de um Prompt de Código Corporativo*, papel e Persona (*System Prompt*): Define a identidade, senioridade e princípios arquiteturais (ex.: *"Você é um arquiteto de software sênior especialista em Java 21 e Spring Boot 3.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Soma e Argumento". De acordo com a teoria estudada em *A Formulação Matemática da Atenção*, \$\text{softmax}\$: Transforma a matriz de afinidade em uma distribuição de probabilidades normalizada entre 0 e 1, atribuindo pesos dinâmicos que ponderam a soma dos vetores de valor \$V\$.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Categoria e Matriz". De acordo com a teoria estudada em *3.1 Estrutura Canônica de um Prompt de Código Corporativo*, priorize código idiomático, imutabilidade, princípios SOLID e práticas de segurança OWASP"*).
+> - **D)** **Correta.** Conforme fundamentado na seção *3.1 Estrutura Canônica de um Prompt de Código Corporativo* deste guia, um prompt corporativo de alto nível para desenvolvimento de software não deve ser uma simples frase coloquial. Ele organiza-se em quatro seções formais estruturadas (frequentemente delimitadas por tags XML ou seções Markdown). Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT-8/2022) ao estabelecer que "Funções e Estrutura".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Tipos de funções e Operadores". De acordo com a teoria estudada em *A Formulação Matemática da Atenção*, em código-fonte, uma cabeça de atenção pode especializar-se em rastrear o escopo de variáveis, outra na correspondência entre chaves `{}` e outra no rastreamento de tipos de retorno.
+>
+> **Gabarito: D**
 
 ---
 
 ### Teste 127
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Em arquiteturas de LLMs com janelas de contexto estendidas (acima de 128k tokens), pesquisadores identificaram o fenômeno empírico denominado *"Lost in the Middle"*. Esse efeito consiste na tendência de o modelo:
+**(FGV – TRT-24 – Analista Judiciario Area Apoio Especializado Tecnologia da Informacao – 2025)**
+Analise o código JAVA exibido a seguir. public class EV { public static void main(String[] args) { mpR(265.7/3); } public static void mpR(double points) { if (points >= 265.7) { System.out.println("A1"); } else if (points >= 132.4) { System.out.println("A2"); } else if (points >= 62.1) { System.out.println("A3"); } else if (points >= 30.9) { System.out.println("A4"); } else { System.out.println("A5"); } } } Ao executar o código, o resultado impresso é
 
-* **A)** Esquecer completamente todas as palavras iniciadas pela letra "M" ao longo do texto.
-* **B)** Apresentar atenção e capacidade de recuperação substancialmente superiores para informações situadas no início e no final do prompt de contexto, degradando a precisão na recuperação de fatos e restrições posicionados no meio do contexto volumoso.
-* **C)** Exigir o reinício manual do computador sempre que o prompt ultrapassar 500 caracteres. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **D)** Alucinar apenas em tarefas que envolvem operações de banco de dados relacional.
-* **E)** Travar o mecanismo de autocompletar da IDE exclusivamente durante a madrugada.
-
+* **A)** A1.
+* **B)** A2.
+* **C)** A3.
+* **D)** A4.
+* **E)** A5.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Não há relação léxica com a letra "M".
-> - **B) Correta.** O estudo canônico sobre o fenômeno *"Lost in the Middle"* (Liu et al., 2023) demonstrou que a atenção dos Transformers degrada em formato de "U": a retenção é máxima no início (efeito primazia) e no fim (efeito recência) do prompt, diminuindo sensivelmente no miolo. Portanto, instruções arquiteturais críticas e regras restritivas devem ser posicionadas nas extremidades do prompt.
-> - **C) Incorreta.** O efeito é puramente matemático da distribuição de autoatenção (*self-attention weights*).
-> - **D) Incorreta.** O efeito ocorre em qualquer domínio de conhecimento textual.
-> - **E) Incorreta.** Afirmação sem fundamento.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A1". De acordo com a teoria estudada em *1.2 Variantes Arquiteturais: Encoder-Only, Decoder-Only e Encoder-Decoder*, encoder-Only *(Apenas Codificador)*: Bidirecional: O modelo enxerga os tokens à esquerda e à direita simultaneamente em todas as camadas. — Análise estática de código, classificação de vulnerabilidades de segurança, detecção de bugs e busca semântica em repositórios de código. — BERT, CodeBERT, RoBERTa.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A2". De acordo com a teoria estudada em *3.3 Janela de Contexto e a Mitigação do Efeito "Lost in the Middle"*, viés de Primazia (*Primacy Bias*): Altíssima retenção das informações posicionadas no início do contexto (System Prompt, primeiras instruções).
+> - **C)** **Correta.** Conforme fundamentado na seção *3.1 Estrutura Canônica de um Prompt de Código Corporativo* deste guia, papel e Persona (*System Prompt*): Define a identidade, senioridade e princípios arquiteturais (ex.: *"Você é um arquiteto de software sênior especialista em Java 21 e Spring Boot 3. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "A3".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A4". De acordo com a teoria estudada em *3.4 Curadoria de Contexto e Minimização de Ruído no Repositório*, posicionamento Estratégico: As diretrizes inegociáveis e regras de segurança devem residir no início (*System Prompt*); o comando operacional imediato e os dados de entrada prioritários devem ficar no final do prompt.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A5". De acordo com a teoria estudada em *1.5 Hiperparâmetros de Inferência e Amostragem: Temperature, Top-P e Penalidades*, em programação, palavras reservadas (`if`, `return`, `class`) precisam se repetir compulsoriamente.
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
 
 ### Teste 128
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Na formulação de prompts para agentes de geração de código em larga escala, a equipe técnica deparou-se com a necessidade de submeter múltiplos artefatos: a especificação de uma API REST, esquemas de banco de dados e requisitos de negócio complexos.
+**(CEBRASPE – TJ-RJ – Analista Judiciario Grupo Tecnologia da Informacao Analista de Gestao de Tic – 2021)**
+Os profissionais técnicos de aplicativos responsáveis por plataformas, arquitetura e integração devem racionalizar inovações recentes para revitalizar seus portfólios de aplicativos. A modernização da arquitetura e da entrega de aplicativos e integração é necessária para oferecer suporte à agilidade comercial sustentável. Nesse contexto, é correto
 
-Considerando as boas práticas de curadoria de contexto e a mitigação de vieses posicionais em LLMs:  
-
-* **A)** Todas as diretrizes obrigatórias e regras de negócio críticas devem ser colocadas exatamente no centro geométrico do prompt, pois é a região onde o mecanismo de atenção possui seu pico de sensibilidade.
-* **B)** O desenvolvedor deve concatenar todos os arquivos do repositório, incluindo pastas de dependências compiladas (`node_modules` e arquivos `.lock`), sem filtragem prévia, para maximizar a entropia do modelo. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **C)** As instruções fundamentais, restrições invioláveis de arquitetura e o comando principal de execução devem ser posicionados nas extremidades do prompt (no início e no final), aplicando-se técnicas de delimitação clara de contexto (como tags estruturadas) e expurgando arquivos irrelevantes para contornar o efeito *"Lost in the Middle"*.
-* **D)** O uso de tags delimitadoras (como marcadores XML ou blocos Markdown) é proibido por provedores de LLMs, pois causa falhas irreparáveis no decodificador causal.
-* **E)** A janela de contexto não impõe nenhum custo financeiro adicional em provedores de nuvem, visto que a tarifação incide unicamente sobre o tempo de conexão TCP/IP mantido aberto.
-
+* **A)** tratar a arquitetura e a tecnologia isoladamente, de forma que processos, estrutura organizacional e plataformas somente sejam acoplados quando finalizados.
+* **B)** realizar a modernização para todos os produtos e cenários possíveis de uma vez, abrangendo todos os serviços, ainda que haja maiores riscos.
+* **C)** implantar as aplicações em multicloud na arquitetura de microsserviços e somente aplicar princípios de desenvolvimento ágil e DevOps, se ambas implantações ocorrerem com sucesso.
+* **D)** priorizar a liberação de atualizações para toda a organização (big bang), evitando os princípios de aplicativos de malha (mesh app) e MASA (mesh app and service architecture).
+* **E)** criar APIs (application programming interface) para que os aplicativos as usem de modo que não haja acesso direto ao banco de dados, ou seja, tornar os aplicativos fracamente acoplados.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O centro do contexto é o local onde a atenção decai (*Lost in the Middle*); posicionar regras essenciais no centro leva à omissão de diretrizes.
-> - **B)** Incorreta. Enviar pastas de dependências (`node_modules`, `.lock`) polui o contexto com ruído desnecessário, esgota tokens e prejudica a qualidade da inferência.
-> - **C)** **CORRETA.** Para contornar os vieses de primazia e recência (*Lost in the Middle*), as regras centrais devem ficar nas extremidades (no System Prompt/início e no comando final imediato), utilizando tags estruturadas (`<context>`, `<rules>`) para delimitar blocos e mantendo apenas arquivos pertinentes.
-> - **D)** Incorreta. O uso de tags XML ou Markdown é explicitamente encorajado pelas diretrizes de engenharia de prompts da Anthropic e da OpenAI para isolar dados e comandos.
-> - **E)** Incorreta. A tarifação de modelos comerciais incide diretamente sobre a quantidade de tokens consumidos na entrada e na saída.
-> 
-> **Gabarito: C**
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "tratar a arquitetura e a tecnologia isoladamente, de forma que processos, estrutura organizacional e plataformas...". De acordo com a teoria estudada em *1.1 A Arquitetura Transformer e o Mecanismo de Autoatenção (Self-Attention)*, ao contrário das arquiteturas recorrentes anteriores (RNNs, LSTMs), que processavam palavras de forma estritamente sequencial e sofriam com o esquecimento de dependências de longo alcance, o Transformer opera com paralelismo massivo por meio do mecanismo de Autoatenção Escalar por Produto Escalar (*Scaled Dot-Product Attention*).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "realizar a modernização para todos os produtos e cenários possíveis de uma vez, abrangendo todos os serviços...". De acordo com a teoria estudada em *1.3 Ciclo de Vida do Treinamento: Pré-Treinamento, SFT e Alinhamento (RLHF/DPO)*, ajuste Fino Supervisionado (*Supervised Fine-Tuning - SFT*): O modelo pré-treinado recebe conjuntos de dados selecionados contendo tarefas explícitas e suas respectivas respostas ideais (`instrução -> código correto em Markdown`).
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "implantar as aplicações em multicloud na arquitetura de microsserviços e somente aplicar princípios de...". De acordo com a teoria estudada em *1.1 A Arquitetura Transformer e o Mecanismo de Autoatenção (Self-Attention)*, a integração da Inteligência Artificial Generativa à Engenharia de Software estabelece uma transição paradigmática fundamental: passa-se da programação procedural e imperativa estrita para a computação probabilística baseada em reconhecimento de padrões e atenção contextual em espaços vetoriais de alta dimensão.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "priorizar a liberação de atualizações para toda a organização (big bang), evitando os princípios de aplicativos de...". De acordo com a teoria estudada em *3.2 Técnicas Centrais de Prompting: Zero-Shot, Few-Shot, CoT e Test-Driven*, zero-Shot Prompting: Instrução direta sem o fornecimento de exemplos de entrada e saída. — Tarefas padronizadas e código trivial (ex.: CRUD padrão, DTOs simples, Regex básica). — Maior incidência de violação de padrões proprietários da organização.
+> - **E)** **Correta.** Conforme fundamentado na seção *3.4 Curadoria de Contexto e Minimização de Ruído no Repositório* deste guia, posicionamento Estratégico: As diretrizes inegociáveis e regras de segurança devem residir no início (*System Prompt*); o comando operacional imediato e os dados de entrada prioritários devem ficar no final do prompt. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TJ-RJ/2021) ao estabelecer que "criar APIs (application programming interface) para que os aplicativos as usem de modo que não haja acesso direto...".
+>
+> **Gabarito: E**
 
 ---
 

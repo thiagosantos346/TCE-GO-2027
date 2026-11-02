@@ -136,92 +136,74 @@ flowchart TD
 ---
 
 ### Teste 129
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Na evolução da inteligência artificial aplicada ao desenvolvimento de software, a transição de chatbots passivos para sistemas agentivos orientados a objetivos (*Goal-Driven Agents*) representa um salto paradigmático fundamental. A principal distinção operacional entre essas duas abordagens consiste em:
+**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Ciencia de Dados – 2024)**
+Com relação ao framework pytest, da linguagem de programação Python, avalie as afirmativas a seguir: I. O comando pytest executa os arquivos no formato test_*.py ou *_test.py no diretório corrente e nos subdiretórios. II. O comando abaixo mostra os 5 testes com maior tempo de duração. >>> pytest -vv --durations=5 III. É possível invocar o framework pytest usando o próprio interpretador do Python por meio do comando abaixo: >>> python -m pytest Está correto o que se afirma em
 
-* **A)** Chatbots passivos respondem a prompts isolados com sugestões textuais que exigem intervenção humana para cópia e aplicação manual no projeto, enquanto agentes orientados a objetivos recebem metas de alto nível, planejam passos intermediários, utilizam ferramentas para interagir com o ambiente (leitura de arquivos, execução de comandos, testes) e iteram até atingir o objetivo com verificação de resultados.
-* **B)** Chatbots passivos só funcionam em computadores quânticos, ao passo que agentes autônomos executam em qualquer microcontrolador simples.
-* **C)** Agentes orientados a objetivos dispensam completamente o uso de modelos de linguagem (LLMs).
-* **D)** Chatbots passivos são capazes de depurar pipelines de CI/CD de forma totalmente autônoma.
-* **E)** Agentes orientados a objetivos têm seu uso restrito à criação de interfaces gráficas em HTML puro.
-
+* **A)** I, apenas.
+* **B)** II, apenas.
+* **C)** I e II, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Correta.** Um chatbot opera em laço aberto (*open loop*): gera texto e para. Um agente opera em laço fechado (*closed loop*): recebe uma meta ("corrigir bug de concorrência na classe X"), delibera, inspeciona arquivos, formula planos, executa alterações no sistema de arquivos, roda os testes e ajusta a solução se houver falhas.
-> - **B) Incorreta.** Ambos operam na infraestrutura tradicional de IA.
-> - **C) Incorreta.** LLMs atuam exatamente como o "cérebro" de raciocínio (*reasoning engine*) do agente.
-> - **D) Incorreta.** Chatbots passivos não possuem ferramentaria para interagir com o ambiente externo.
-> - **E) Incorreta.** Agentes atuam em toda a esteira de engenharia de software (backend, infra, testes, arquitetura).
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *1.3 Padrões de Interface: Agentes de Linha de Comando (CLI) vs. Agentes Nativos em IDE*, cenário de Uso Ideal: Servidores remotos via SSH, máquinas virtuais sem interface gráfica (*headless*), automações de esteiras CI/CD e refatorações multi-repositório. — Programação interativa do dia a dia com edição visual lado a lado e navegação gráfica do código.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas". De acordo com a teoria estudada em *1.1 A Evolução: De Chatbots Passivos a Agentes Orientados a Objetivos (Goal-Driven)*, o agente assume a condução do fluxo: descobre a estrutura do projeto, inspeciona dependências, cria ou modifica arquivos no disco rígido, executa o compilador no shell, analisa as saídas de erro e realiza ciclos contínuos de autocorreção até que todas as condições de sucesso sejam satisfeitas.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *1.3 Padrões de Interface: Agentes de Linha de Comando (CLI) vs. Agentes Nativos em IDE*, acesso a Ferramentas: Acesso nativo direto a comandos do SO (`git`, `grep`, `find`, `docker`, scripts shell compilados). — Acesso intermediado por APIs da IDE e protocolos de linguagem (LSP - *Language Server Protocol*).
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *1.3 Padrões de Interface: Agentes de Linha de Comando (CLI) vs. Agentes Nativos em IDE*, consumo de Recursos: Mínimo overhead de memória e CPU; dispensa renderização de interfaces gráficas pesadas. — Elevado consumo de memória RAM devido aos processos gráficos e servidores de linguagem paralelos.
+> - **E)** **Correta.** Conforme fundamentado na seção *2.5 Fase 4: Verificação Autônoma e o Loop de Autocorreção (Self-Healing)* deste guia, disparo de Verificadores: O agente roda suítes automatizadas de testes unitários e de integração (`pytest`, `jest`, `mvn test`), bem como linters e analisadores estáticos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "I, II e III".
 >
-> **Gabarito: A**
+> **Gabarito: E**
 
 ---
 
 ### Teste 130
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-A arquitetura estrutural canônica de um agente de inteligência artificial voltado para a engenharia de software articula-se em quatro componentes fundamentais. Assinale a alternativa que elenca corretamente esses quatro componentes:
+**(FUMARC – TRT-3 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2022)**
+33 Analise as afirmativas sobre as tecnologias utilizadas na Arquitetura de Desenvolvimento da Plataforma Digital do Poder Judiciário (PDPJ-Br). I – Flyway é uma ferramenta para organização de scripts SQL que são executados no banco de dados, funcionando como um controle de versão do mesmo. II – MapStruct é um gerador de código para a implementação de mapeamento entre tipos de beans java. III – Keycloak é uma linguagem de descrição de interface para descrever APIs RESTful expressas usando JSON. Está CORRETO o que se afirma em:
 
-* **A)** Monitor de vídeo, placa de rede cabeada, disco rígido SATA e teclado mecânico.
-* **B)** Percepção/Contexto (sensores/leitores), Mecanismo de Raciocínio e Planejamento (LLM), Memória (curto e longo prazo) e Ferramental de Ação (atuadores/tools/APIs).
-* **C)** Compilador C++, interpretador PHP, banco de dados Access e firewall de borda.
-* **D)** Diagrama de casos de uso, diagrama de classes, diagrama de sequência e diagrama de atividades.
-* **E)** Linters estáticos, bibliotecas de terceiros, variáveis de ambiente e licenças GPLv3.
-
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Componentes de hardware físico tradicional.
-> - **B) Correta.** A arquitetura universal de um agente compreende:
->   1. **Percepção/Contexto:** leitura do estado do ambiente (arquivos, AST, logs, mensagens);
->   2. **Raciocínio/Planejador:** LLM processando planos e estratégias (decomposição de metas);
->   3. **Memória:** retenção de curto prazo (histórico da conversa/sessão) e longo prazo (vetores, repositórios de conhecimento);
->   4. **Ferramental de Ação (*Tools*):** capacidade de invocar ferramentas (editar arquivos, executar comandos no terminal, chamar APIs).
-> - **C) Incorreta.** Ferramentas isoladas de desenvolvimento.
-> - **D) Incorreta.** Diagramas da UML.
-> - **E) Incorreta.** Artefatos de software.
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *2.2 Fase 1: Descoberta e Coleta de Contexto (Percepção)*, identificação da Pilha Tecnológica: Localização e leitura de manifestos de dependências (`pom.xml` para Java, `package.json` para TypeScript/Node, `pyproject.toml` para Python).
+> - **B)** **Correta.** Conforme fundamentado na seção *1.3 Padrões de Interface: Agentes de Linha de Comando (CLI) vs. Agentes Nativos em IDE* deste guia, acesso a Ferramentas: Acesso nativo direto a comandos do SO (`git`, `grep`, `find`, `docker`, scripts shell compilados). — Acesso intermediado por APIs da IDE e protocolos de linguagem (LSP - *Language Server Protocol*). Dessa forma, está plenamente correta a assertiva da banca (FUMARC – TRT-3/2022) ao estabelecer que "I e II, apenas".
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *1.3 Padrões de Interface: Agentes de Linha de Comando (CLI) vs. Agentes Nativos em IDE*, ambiente de Hospedagem: Terminal do Sistema Operacional (Bash, Zsh, PowerShell). — Painéis internos de Ambientes de Desenvolvimento Integrados (forks do VS Code, plugins JetBrains).
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *1.3 Padrões de Interface: Agentes de Linha de Comando (CLI) vs. Agentes Nativos em IDE*, consumo de Recursos: Mínimo overhead de memória e CPU; dispensa renderização de interfaces gráficas pesadas. — Elevado consumo de memória RAM devido aos processos gráficos e servidores de linguagem paralelos.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *3.3 Segurança Cibernética, Privilégio Mínimo e Human-in-the-Loop*, em contrapartida, para ações potencialmente destrutivas ou com efeitos colaterais irreversíveis (ex.: exclusão de arquivos, comandos com privilégios de superusuário `sudo`, alterações de banco de dados ou operações forçadas de rede), o sistema deve obrigatoriamente impor confirmação humana explícita (*Human-in-the-Loop*).
 >
 > **Gabarito: B**
 
 ---
 
 ### Teste 131
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Analise as afirmativas abaixo a respeito das diferenças operacionais e arquiteturais entre assistentes agentivos de linha de comando (CLI) e extensões integradas a Ambientes de Desenvolvimento Integrados (IDEs):
+**(FGV – TCE-GO – Analista de Controle Externo Tecnologia da Informacao – 2024)**
+Na programação estruturada, os laços de repetição são fundamentais para executar uma determinada sequência de instruções várias vezes, facilitando a automação de tarefas repetitivas. Dois dos laços mais comuns são os comandos "for" e "while", cada um com suas características específicas. Assinale a opção que descreve corretamente as diferenças entre os laços "for" e "while" na programação estruturada.
 
-I. Agentes em CLI (como Claude Code ou Aider) possuem integração direta com o ambiente de terminal do sistema operacional, permitindo encadear ferramentas nativas de busca textual (como `grep`), comandos de compilação e automação de scripts bash sem a necessidade de uma interface gráfica ativa.  
-
-II. Assistentes nativos em IDE dependem exclusivamente de protocolos de completamento sintático local e são tecnicamente impedidos de utilizar modelos de linguagem em nuvem.  
-
-III. O uso de agentes em CLI é especialmente vantajoso em ambientes de servidores remotos (acessados via SSH) e pipelines automatizados de esteiras DevOps, onde interfaces gráficas pesadas de IDEs não estão disponíveis.  
-
-Está correto o que se afirma em:  
-
-* **A)** I e II, apenas.
-* **B)** I e III, apenas.
-* **C)** II e III, apenas.
-* **D)** I, apenas.
-* **E)** I, II e III.
-
+* **A)** O laço "for" é adequado para situações em que o número de iterações é conhecido antecipadamente, enquanto o laço "while" atende situações em que o número de iterações é desconhecido e depende de uma condição.
+* **B)** O laço "for" é usado quando se deseja percorrer uma coleção de elementos, como uma lista ou um array, enquanto o laço "while" é aplicado em situações em que é necessário repetir uma ação até que uma condição específica seja atendida.
+* **C)** O laço "for" é uma opção mais flexível, pois permite a declaração e inicialização de variáveis de controle dentro da própria estrutura do laço, enquanto o laço "while" exige que essas variáveis sejam definidas antes do laço.
+* **D)** O laço "while" é mais propenso a causar loops infinitos se a condição de parada não for adequadamente definida, enquanto o laço "for" oferece controle sobre o número de iterações devido à sua estrutura mais definida.
+* **E)** O laço "while" é mais eficiente em termos de desempenho do que o laço "for", pois avalia a condição de parada apenas no início de cada iteração, enquanto o laço "for" precisa avaliar a condição a cada iteração.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O item II está incorreto porque IDEs agentivas utilizam amplamente modelos em nuvem.
-> - **B)** **CORRETA.** Análise detalhada dos itens:
->     - **Item I (Correto):** Agentes CLI operam nativamente sobre o shell, alavancando utilitários UNIX e comandos de sistema sem demandar interface gráfica.
->     - **Item II (Incorreto):** IDEs agentivas (como Cursor e extensões de VS Code) utilizam intensamente modelos de última geração hospedados em nuvem via requisições de API.
->     - **Item III (Correto):** Em servidores de teste remotos via SSH e runners de esteiras de CI/CD sem ambiente gráfico (*headless*), agentes CLI são a solução ideal devido à leveza operacional.
-> - **C)** Incorreta. O item II é falso.
-> - **D)** Incorreta. O item III também está plenamente correto.
-> - **E)** Incorreta. O item II é falso.
-> 
-> **Gabarito: B**
+> - **A)** **Correta.** Conforme fundamentado na seção *2.6 Critérios de Parada (Stop Conditions) e Disjuntores (Circuit Breakers)* deste guia, disjuntor (*Circuit Breaker*): Limite máximo parametrizado de iterações consecutivas sem progresso (tipicamente entre 3 e 5 iterações de *Self-Healing*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "O laço "for" é adequado para situações em que o número de iterações é conhecido antecipadamente, enquanto o laço...".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O laço "for" é usado quando se deseja percorrer uma coleção de elementos, como uma lista ou um array, enquanto o...". De acordo com a teoria estudada em *2.1 Fundamentos do Paradigma ReAct e Ciclo OODA*, o núcleo operacional que rege o comportamento autônomo apoia-se no paradigma ReAct (*Reasoning + Acting*, Yao et al., 2023), integrando raciocínio reflexivo e ação no mundo físico.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O laço "for" é uma opção mais flexível, pois permite a declaração e inicialização de variáveis de controle dentro...". De acordo com a teoria estudada em *3.2 Antigravity CLI e a Orquestração Hierárquica Multiagente*, emissão Estruturada de Artefatos: Geração de relatórios, memoriais de cálculo e planos de execução em arquivos Markdown estruturados, facilitando a inspeção e conferência humana antes e durante a execução.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O laço "while" é mais propenso a causar loops infinitos se a condição de parada não for adequadamente definida...". De acordo com a teoria estudada em *2.6 Critérios de Parada (Stop Conditions) e Disjuntores (Circuit Breakers)*, para evitar que o agente entre em ciclos infinitos de tentativa e erro que consumam excessivamente a cota de tokens e recursos de máquina, arquiteturas agentivas incorporam critérios rígidos de parada.
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "O laço "while" é mais eficiente em termos de desempenho do que o laço "for", pois avalia a condição de parada...". De acordo com a teoria estudada em *1.1 A Evolução: De Chatbots Passivos a Agentes Orientados a Objetivos (Goal-Driven)*, diante de erros sintáticos ou falhas em testes, o desenvolvedor precisa copiar o log, colar na caixa de diálogo e pedir uma nova versão, aplicando o código manualmente no editor.
+>
+> **Gabarito: A**
 
 ---
 
@@ -307,133 +289,122 @@ Para evitar que o agente entre em ciclos infinitos de tentativa e erro que consu
 ---
 
 ### Teste 132
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Diferente dos chatbots passivos baseados em LLMs tradicionais, os sistemas agentivos modernos de desenvolvimento de software (como agentes de codificação em terminal e IDEs inteligentes) operam com base em ciclos autônomos orientados a objetivos (*Goal-Driven Agents*).
+**(FCC – TRT-4 – Analista Judiciario Tecnologia da Informacao – 2015)**
+Considere os dois trechos de código PL/SQL do Oracle 11g. Trecho 1 Trecho 2 SQL> BEGIN 2 FOR cont IN 1..3 LOOP 3 DBMS_OUTPUT.PUT_LINE 4 ('Dentro do loop, cont = ' || TO_CHAR(cont)); 5 END LOOP; 6 7 DBMS_OUTPUT.PUT_LINE 8 ('Fora do loop, cont = ' || TO_CHAR(cont)); 9 END; 10 / O trecho
 
-A respeito da dinâmica de funcionamento e das propriedades de um ciclo agentivo de desenvolvimento, assinale a afirmativa correta:  
-
-* **A)** O mecanismo de *Self-Healing* (autocorreção) exige que o desenvolvedor humano interrompa o agente a cada falha de compilação para reescrever manualmente os arquivos antes que o agente possa continuar.
-* **B)** No paradigma ReAct (*Reasoning + Acting*), o ciclo operacional do agente envolve os passos ordenados de pensamento/raciocínio (*Thought*), execução de uma ferramenta no ambiente (*Action*), coleta e assimilação do resultado obtido (*Observation*) e reavaliação (*Reflection*) até atingir o critério de parada.
-* **C)** Os agentes de software em linha de comando (CLI) são conceituados como modelos puramente estáticos que não possuem capacidade de invocar ferramentas do sistema operacional ou inspecionar o sistema de arquivos local.
-* **D)** O uso de memória de curto prazo em sistemas agentivos substitui a necessidade de manter janelas de contexto ativas, operando sem consumir tokens de inferência do modelo de linguagem.
-* **E)** Caso um teste unitário falhe durante a execução de uma tarefa de codificação pelo agente, o ciclo agentivo é imediatamente abortado por razões de conformidade, sendo proibido ao agente rodar suites de teste subsequentes.
-
+* **A)** 1 e o trecho 2 estão corretos e irão executar sem erros. SQL> DECLARE 2 done BOOLEAN; 3 BEGIN 4 FOR cont IN 1..50 LOOP 5 IF done THEN 6 GOTO end_loop; 7 END IF; 8 <`<end_loop>`> 9 END LOOP; 10 END; 11 /
+* **B)** 1 e o trecho 2 têm o mesmo erro: falta declarar a variável cont.
+* **C)** 2 tem erro, pois o label <`<end_loop>`> da linha 8 está escrito com sintaxe errada: não existem << >>.
+* **D)** 1 tem erro, pois não se pode referenciar a variável não declarada cont fora do LOOP.
+* **E)** 2 apresenta erro na declaração da variável done e faltou declarar a variável cont.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. O propósito primordial do mecanismo de *Self-Healing* é viabilizar a autonomia do agente para diagnosticar falhas de compilação ou testes e aplicar correções no código sem requerer intervenção humana em cada ciclo intermediário.
-> - **B)** **CORRETA.** O paradigma **ReAct** (Yao et al., 2023) estabelece a sincronização de quatro etapas essenciais: o raciocínio preliminar (*Thought*), a emissão de chamada de ferramenta no ambiente (*Action*), a recepção do feedback do sistema (*Observation*) e a reflexão avaliativa (*Reflection*) para direcionar o próximo passo até a meta.
-> - **C)** Incorreta. Agentes CLI interagem diretamente com o sistema operacional por meio de comandos shell, manipulando arquivos e diretórios locais.
-> - **D)** Incorreta. A memória de curto prazo de um agente reside precisamente na janela de contexto ativa e consome tokens de entrada a cada iteração do ciclo.
-> - **E)** Incorreta. A falha de um teste unitário é exatamente o estímulo de retroalimentação que deflagra o loop de *Self-Healing*, permitindo que o agente ajuste o código para fazer o teste passar.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1 e o trecho 2 estão corretos e irão executar sem erros. SQL> DECLARE 2 done BOOLEAN; 3 BEGIN 4 FOR cont IN 1..50...". De acordo com a teoria estudada em *1.1 A Evolução: De Chatbots Passivos a Agentes Orientados a Objetivos (Goal-Driven)*, a evolução da inteligência artificial aplicada ao desenvolvimento de software pode ser compreendida pela transição entre sistemas de loop aberto (*Open-Loop*) e sistemas cibernéticos autônomos de loop fechado (*Closed-Loop*).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1 e o trecho 2 têm o mesmo erro: falta declarar a variável cont". De acordo com a teoria estudada em *2.6 Critérios de Parada (Stop Conditions) e Disjuntores (Circuit Breakers)*, para evitar que o agente entre em ciclos infinitos de tentativa e erro que consumam excessivamente a cota de tokens e recursos de máquina, arquiteturas agentivas incorporam critérios rígidos de parada.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2 tem erro, pois o label <`<end_loop>`> da linha 8 está escrito com sintaxe errada: não existem << >>". De acordo com a teoria estudada em *2.5 Fase 4: Verificação Autônoma e o Loop de Autocorreção (Self-Healing)*, ele lê a linha exata apontada pelo stack trace, diagnostica a causa-raiz, elabora uma correção no código e dispara os testes novamente de forma totalmente autônoma.
+> - **D)** **Correta.** Conforme fundamentado na seção *2.5 Fase 4: Verificação Autônoma e o Loop de Autocorreção (Self-Healing)* deste guia, captura do Feedback do Ambiente: O agente intercepta o código de retorno do processo (*exit code*) e os logs detalhados de erro emitidos no canal `stderr`. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-4/2015) ao estabelecer que "1 tem erro, pois não se pode referenciar a variável não declarada cont fora do LOOP".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2 apresenta erro na declaração da variável done e faltou declarar a variável cont". De acordo com a teoria estudada em *2.5 Fase 4: Verificação Autônoma e o Loop de Autocorreção (Self-Healing)*, é a fase que separa definitivamente um gerador estático de código de um sistema agentivo autônomo.
+>
+> **Gabarito: D**
 
 ---
 
 ### Teste 133
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Na primeira etapa do ciclo agentivo (*The Agentic Loop*), denominada Fase de Percepção ou Descoberta de Contexto, antes de efetuar qualquer alteração no repositório de software, o agente deve:
+**(FGV – TRT-24 – Analista Judiciario Area Apoio Especializado Tecnologia da Informacao – 2025)**
+O Swagger Editor é um editor de código aberto usado para projetar, definir e documentar APIs HTTP segundo a especificação OpenAPI. A respeito dos pré-requisitos necessários para o editor ser executado localmente, avalie os itens a seguir. I. Git em qualquer versão. II. Node.js em versão 20.3.0. ou superior. III. Npm em versão 9.6.7 ou superior. IV. OAuth em versão 2.0 ou superior. São pré-requisitos necessários para que o Swagger Editor seja executado localmente os indicados em
 
-* **A)** Deletar todos os arquivos da pasta `.git` para economizar memória do agente.
-* **B)** Explorar a estrutura de diretórios, inspecionar contratos de interfaces, ler arquivos de documentação técnica e mapear o código relevante relacionado à tarefa, evitando modificações cegas no código-fonte.
-* **C)** Executar commits forçados com a flag `--force` na branch `main` de produção.
-* **D)** Solicitar autorização judicial para ler arquivos de texto com extensão `.md`. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **E)** Paralisar todos os contêineres Docker do cluster de homologação.
-
+* **A)** I e III, apenas.
+* **B)** II e IV, apenas.
+* **C)** I, II e III, apenas.
+* **D)** I, II e IV, apenas.
+* **E)** II, III e IV, apenas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** Apagar a pasta `.git` destruiria o histórico de versionamento.
-> - **B) Correta.** A fase de percepção assegura que o agente colete informações vitais e analise as dependências do projeto antes de tomar decisões de implementação (*look before you leap*).
-> - **C) Incorreta.** Ação destrutiva e inaceitável.
-> - **D) Incorreta.** Afirmação absurda.
-> - **E) Incorreta.** O agente deve inspecionar o código de forma controlada e segura.
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *1.1 A Evolução: De Chatbots Passivos a Agentes Orientados a Objetivos (Goal-Driven)*, a evolução da inteligência artificial aplicada ao desenvolvimento de software pode ser compreendida pela transição entre sistemas de loop aberto (*Open-Loop*) e sistemas cibernéticos autônomos de loop fechado (*Closed-Loop*).
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e IV, apenas". De acordo com a teoria estudada em *2.2 Fase 1: Descoberta e Coleta de Contexto (Percepção)*, antes de redigir qualquer instrução de código, o agente inspeciona o ambiente para ancorar seu raciocínio em dados concretos.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.1 A Evolução: De Chatbots Passivos a Agentes Orientados a Objetivos (Goal-Driven)* deste guia, diante de erros sintáticos ou falhas em testes, o desenvolvedor precisa copiar o log, colar na caixa de diálogo e pedir uma nova versão, aplicando o código manualmente no editor. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "I, II e III, apenas".
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, II e IV, apenas". De acordo com a teoria estudada em *2.4 Fase 3: Execução de Ações no Ambiente (Action)*, edição Atômica de Arquivos: Aplicação de modificações cirúrgicas por correspondência de texto exato (`replace_file_content`), evitando a reescrita desnecessária de arquivos extensos de milhares de linhas (o que geraria alto custo e risco de truncamento acidental de código pré-existente).
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, III e IV, apenas". De acordo com a teoria estudada em *2.4 Fase 3: Execução de Ações no Ambiente (Action)*, comandos de Terminal: Compilação de código (`mvn compile`, `npm run build`), instalação de dependências e gerenciamento de processos em background.
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
 
 ### Teste 134
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-No âmbito dos sistemas agentivos aplicados à engenharia de software, a etapa de Planejamento e Decomposição de Metas (*Task Decomposition*) tem por finalidade técnica:
+**(FGV – TRT-16 – Analista Judiciario Area Administrativa Tecnologia da Informacao – 2022)**
+Analise o código Node.JS, exibido a seguir, que estabelece um servidor HTTP que recebe e responde mensagens. var http = require('http'); http.createServer(function (req, res) { res.write('Ok'); res.end(); }).listen(8080); Assinale a afirmativa correta a respeito dessa operação.
 
-* **A)** Reduzir uma demanda complexa de negócio a uma sequência estruturada de subtarefas atômicas e verificáveis, permitindo ao agente raciocinar sobre passos intermediários antes de disparar ações com efeitos colaterais no repositório.
-* **B)** Unificar todas as classes do sistema em um único arquivo monolítico de 100.000 linhas de código. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **C)** Excluir todas as suítes de testes unitários para evitar reprovação do build.
-* **D)** Impedir que o desenvolvedor humano visualize as etapas planejadas pelo sistema.
-* **E)** Substituir o uso de linguagens de alto nível por cartões perfurados.
-
+* **A)** A função definida é executada somente em caso de erro de parâmetros.
+* **B)** A função definida é sempre executada no lado cliente.
+* **C)** O parâmetro req da função definida deve ser do tipo http.IncomingMessage object.
+* **D)** O parâmetro req da função definida é opcional.
+* **E)** O parâmetro res da função definida é opcional.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Correta.** A decomposição de tarefas divide metas globais complexas em subpassos granulares (ex: 1. localizar arquivos afetados; 2. criar testes de regressão; 3. refatorar método; 4. rodar testes; 5. verificar lint), prevenindo loops caóticos e facilitando o monitoramento.
-> - **B) Incorreta.** Anti-padrão grave.
-> - **C) Incorreta.** Os testes são essenciais para verificação do plano.
-> - **D) Incorreta.** A transparência (*observability/human-in-the-loop*) é um pilar da governança agentiva.
-> - **E) Incorreta.** Afirmação disparatada.
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "A função definida é executada somente em caso de erro de parâmetros". De acordo com a teoria estudada em *2.3 Fase 2: Planejamento, Decomposição e Deliberação (Reasoning & Planning)*, mecanismo *Human-in-the-Loop* para Ambiguidade: Caso o requisito de negócio contenha contradições ou indefinições, o agente pausa a execução e questiona o usuário de forma estruturada antes de tomar decisões arbitrárias.
+> - **B)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "A função definida é sempre executada no lado cliente". De acordo com a teoria estudada em *4. Fontes Recomendadas na Internet*, model Context Protocol (MCP) Official Documentation - Arquitetura cliente-servidor do protocolo aberto MCP para integração de LLMs com ferramentas.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.1 A Evolução: De Chatbots Passivos a Agentes Orientados a Objetivos (Goal-Driven)* deste guia, a evolução da inteligência artificial aplicada ao desenvolvimento de software pode ser compreendida pela transição entre sistemas de loop aberto (*Open-Loop*) e sistemas cibernéticos autônomos de loop fechado (*Closed-Loop*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-16/2022) ao estabelecer que "O parâmetro req da função definida deve ser do tipo http.IncomingMessage object".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O parâmetro req da função definida é opcional". De acordo com a teoria estudada em *3.3 Segurança Cibernética, Privilégio Mínimo e Human-in-the-Loop*, em contrapartida, para ações potencialmente destrutivas ou com efeitos colaterais irreversíveis (ex.: exclusão de arquivos, comandos com privilégios de superusuário `sudo`, alterações de banco de dados ou operações forçadas de rede), o sistema deve obrigatoriamente impor confirmação humana explícita (*Human-in-the-Loop*).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O parâmetro res da função definida é opcional". De acordo com a teoria estudada em *2.2 Fase 1: Descoberta e Coleta de Contexto (Percepção)*, identificação da Pilha Tecnológica: Localização e leitura de manifestos de dependências (`pom.xml` para Java, `package.json` para TypeScript/Node, `pyproject.toml` para Python).
 >
-> **Gabarito: A**
+> **Gabarito: C**
 
 ---
 
 ### Teste 135
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em um fluxo de integração contínua (CI), um agente autônomo foi configurado para resolver chamados de correção de defeitos em microsserviços legados em Java. Durante o processamento de um chamado, o agente realizou a modificação do arquivo `CalculadoraAliquotaService.java`, mas o comando de compilação disparado pelo próprio agente retornou o erro: `error: cannot find symbol: class BigDecimalUtils`.
+**(CEBRASPE – TJ-RJ – Analista Judiciario Grupo Tecnologia da Informacao Analista de Infraestrutura de Tic – 2021)**
+Considere que, no log de uma instância do Microsoft SQL Server, é encontrada a mensagem: “Falha na atualização do SQL Server. Para continuar, investigue o motivo da falha, corrija o problema e repare a instalação”. Assinale a opção que descreve o comando a ser usado para executar o processo de reparação da instância de nome instance.
 
-Diante dessa situação em um ciclo agentivo dotado de *Self-Healing*, a ação esperada do agente é:  
-
-* **A)** Encerrar a execução imediatamente e desinstalar o JDK da máquina hospedeira para prevenir danos sistêmicos.
-* **B)** Capturar a mensagem de erro da saída do compilador (`stderr`), interpretar que a dependência ou classe auxiliar não foi importada ou não existe, buscar referências similares no repositório, realizar o ajuste atômico do código e reexecutar o comando de compilação.
-* **C)** Ignorar a mensagem de erro e realizar o merge forçado da alteração no branch principal do repositório de produção.
-* **D)** Reescrever todo o sistema operacional da máquina servidora em linguagem Rust para contornar o erro de compilação do Java.
-* **E)** Solicitar que o usuário humano reescreva todo o método do zero, pois agentes são formalmente incapazes de ler mensagens de erro de compiladores. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-
+* **A)** Setup.exe/q /ACTION=ENU /INSTANCENAME=instance
+* **B)** Setup.exe /q /ACTION=UpdateEnabled /INSTANCENAME=instance
+* **C)** Setup.exe /q /ACTION=Install /INSTANCENAME=instance
+* **D)** Setup.exe /q /ACTION=Sysprep /INSTANCENAME=instance
+* **E)** Setup.exe /q /ACTION=Repair /INSTANCENAME=instance
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Erros de compilação são ocorrências ordinárias; desinstalar ferramentas de desenvolvimento é uma ação absurda.
-> - **B)** **CORRETA.** A dinâmica do **Self-Healing** apoia-se precisamente nessa sequência: captura da saída de erro (`stderr`), diagnóstico da ausência de importação ou símbolo, localização da referência correta no projeto, aplicação da correção no arquivo e nova compilação automatizada.
-> - **C)** Incorreta. Fazer merge de código com erro de compilação viola preceitos básicos de integração contínua e quebra o sistema.
-> - **D)** Incorreta. Proposição inverossímil e sem sentido técnico.
-> - **E)** Incorreta. A leitura e interpretação de stack traces de compiladores constitui uma das competências centrais dos modelos em sistemas agentivos.
-> 
-> **Gabarito: B**
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Setup.exe/q /ACTION=ENU /INSTANCENAME=instance". De acordo com a teoria estudada em *2.4 Fase 3: Execução de Ações no Ambiente (Action)*, o agente invoca as ferramentas disponibilizadas para alterar o estado do sistema.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Setup.exe /q /ACTION=UpdateEnabled /INSTANCENAME=instance". De acordo com a teoria estudada em *2.4 Fase 3: Execução de Ações no Ambiente (Action)*, edição Atômica de Arquivos: Aplicação de modificações cirúrgicas por correspondência de texto exato (`replace_file_content`), evitando a reescrita desnecessária de arquivos extensos de milhares de linhas (o que geraria alto custo e risco de truncamento acidental de código pré-existente).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Setup.exe /q /ACTION=Install /INSTANCENAME=instance". De acordo com a teoria estudada em *2.5 Fase 4: Verificação Autônoma e o Loop de Autocorreção (Self-Healing)*, mecânica do *Self-Healing*: Ao se deparar com uma falha (como um `NullPointerException` ou uma asserção de teste frustrada), o agente não desiste nem repassa o problema ao usuário imediatamente.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Setup.exe /q /ACTION=Sysprep /INSTANCENAME=instance". De acordo com a teoria estudada em *1.3 Padrões de Interface: Agentes de Linha de Comando (CLI) vs. Agentes Nativos em IDE*, acesso a Ferramentas: Acesso nativo direto a comandos do SO (`git`, `grep`, `find`, `docker`, scripts shell compilados). — Acesso intermediado por APIs da IDE e protocolos de linguagem (LSP - *Language Server Protocol*).
+> - **E)** **Correta.** Conforme fundamentado na seção *2.4 Fase 3: Execução de Ações no Ambiente (Action)* deste guia, comandos de Terminal: Compilação de código (`mvn compile`, `npm run build`), instalação de dependências e gerenciamento de processos em background. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TJ-RJ/2021) ao estabelecer que "Setup.exe /q /ACTION=Repair /INSTANCENAME=instance".
+>
+> **Gabarito: E**
 
 ---
 
 ### Teste 136
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Em arquiteturas de agentes de software autônomos, o conceito de Critério de Parada (*Stop Condition*) ou Disjuntor (*Circuit Breaker*) é essencial para garantir a estabilidade e a viabilidade econômica do sistema.
+**(FCC – TRT-6 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2012)**
+O termo malware é uma denominação genérica para designar software projetado para causar danos a quem o executa. Software assim pode ganhar acesso a um computador através dos seguintes meios, EXCETO
 
-A função primária desse mecanismo é:  
-
-* **A)** Impedir que o agente consuma energia elétrica nas placas de vídeo durante a noite.
-* **B)** Evitar que o agente entre em loops infinitos de autocorreção não convergente, interrompendo a execução caso o número máximo de iterações configurado seja atingido sem que os testes passem.
-* **C)** Bloquear o acesso do desenvolvedor humano aos logs de execução após o término da primeira iteração.
-* **D)** Assegurar que nenhum código seja compilado caso o sistema identifique mais de três variáveis locais no método considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
-* **E)** Desconectar a máquina da rede local toda vez que uma requisição de ferramenta for concluída com êxito.
-
+* **A)** um arquivo .mp3 que infecta o sistema ao ser tocado.
+* **B)** um arquivo .doc que infecta o sistema ao ser aberto no editor.
+* **C)** uma extensão do navegador que infecta o sistema ao ser executada.
+* **D)** um programa executável que infecta o sistema ao ser executado.
+* **E)** uma arquivo .xls que infecta o sistema ao ser aberto.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Disjuntores em sistemas de software controlam fluxo de execução e consumo de cotas de computação lógica, não energia elétrica predial.
-> - **B)** **CORRETA.** Caso o agente caia em um ciclo de autocorreção não convergente (onde a correção de um erro desencadeia um novo erro ciclicamente), o **Circuit Breaker** (critério de parada por esgotamento de tentativas) interrompe a execução, preserva o repositório e notifica o desenvolvedor humano, prevenindo custos descontrolados de API e congelamento de recursos.
-> - **C)** Incorreta. Os logs devem ser preservados para viabilizar auditoria e depuração pelo desenvolvedor humano.
-> - **D)** Incorreta. A quantidade de variáveis locais não é critério arquitetural de interrupção de agentes.
-> - **E)** Incorreta. Desconectar a rede após ações bem-sucedidas impediria o funcionamento contínuo do sistema.
-> 
-> **Gabarito: B**
+> - **A)** **Correta.** Conforme fundamentado na seção *1.1 A Evolução: De Chatbots Passivos a Agentes Orientados a Objetivos (Goal-Driven)* deste guia, a evolução da inteligência artificial aplicada ao desenvolvimento de software pode ser compreendida pela transição entre sistemas de loop aberto (*Open-Loop*) e sistemas cibernéticos autônomos de loop fechado (*Closed-Loop*). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-6/2012) ao estabelecer que "um arquivo .mp3 que infecta o sistema ao ser tocado".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um arquivo .doc que infecta o sistema ao ser aberto no editor". De acordo com a teoria estudada em *1.1 A Evolução: De Chatbots Passivos a Agentes Orientados a Objetivos (Goal-Driven)*, diante de erros sintáticos ou falhas em testes, o desenvolvedor precisa copiar o log, colar na caixa de diálogo e pedir uma nova versão, aplicando o código manualmente no editor.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "uma extensão do navegador que infecta o sistema ao ser executada". De acordo com a teoria estudada em *2.4 Fase 3: Execução de Ações no Ambiente (Action)*, o agente invoca as ferramentas disponibilizadas para alterar o estado do sistema.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um programa executável que infecta o sistema ao ser executado". De acordo com a teoria estudada em *1.1 A Evolução: De Chatbots Passivos a Agentes Orientados a Objetivos (Goal-Driven)*, chatbots e Completadores Passivos (Autocompletion): Modelos reativos baseados em sugestão de texto fantasma (*ghost text*). O desenvolvedor programa manualmente e o modelo prevê a próxima linha.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "uma arquivo .xls que infecta o sistema ao ser aberto". De acordo com a teoria estudada em *4. Fontes Recomendadas na Internet*, model Context Protocol (MCP) Official Documentation - Arquitetura cliente-servidor do protocolo aberto MCP para integração de LLMs com ferramentas.
+>
+> **Gabarito: A**
 
 ---
 
@@ -473,53 +444,49 @@ flowchart TD
 ---
 
 ### Teste 137
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
-Na arquitetura multiagente hierárquica utilizada em ferramentas modernas de engenharia de software assistida (como no ecossistema Antigravity), o agente orquestrador principal delega tarefas especializadas para subagentes dedicados. A principal vantagem arquitetural dessa segregação de responsabilidades é:
+**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Ciencias da Computacao Sistemas de Informacao – 2026)**
+Um auditor precisa consolidar dados de 12 planilhas mensais diferentes em um único relatório anual no Excel 365. Ele deseja que, ao atualizar um dado na planilha mensal, o relatório anual seja atualizado automaticamente, sem a necessidade de copiar e colar. O recurso do Excel 365 mais adequado para realizar essa extração e transformação de dados de fontes externas é
 
-* **A)** Aumentar a poluição da janela de contexto do agente principal com milhares de linhas de saídas intermediárias de debug e comandos do terminal. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **B)** Isolar contextos de raciocínio, permitindo que subagentes especializados executem pesquisas profundas ou tarefas de escrita em workspaces dedicados, retornando apenas os resultados consolidados ao agente pai e mantendo a janela de contexto principal limpa e eficiente.
-* **C)** Eliminar a necessidade de qualquer modelo de linguagem nas tomadas de decisão.
-* **D)** Exigir que todos os subagentes compartilhem obrigatoriamente a mesma thread síncrona bloqueante.
-* **E)** Restringir a quantidade máxima de linhas de código de todo o projeto a no máximo 50 linhas.
-
+* **A)** a criação de atalhos na área de trabalho para cada arquivo.
+* **B)** o uso da área de transferência com Colar Especial -> Valores.
+* **C)** o Power Query.
+* **D)** a gravação de uma macro para formatar a fonte do cabeçalho.
+* **E)** a inserção de um gráfico de pizza em cada planilha mensal.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A) Incorreta.** O objetivo da arquitetura multiagente é exatamente o oposto: evitar a contaminação da janela de contexto do coordenador.
-> - **B) Correta.** Ao delegar tarefas específicas a subagentes (como pesquisador de documentação, auditor de segurança ou desenvolvedor de testes), cada subagente explora seu domínio com sua própria janela de contexto limpa, reportando apenas a síntese dos resultados ao orquestrador, preservando tokens e capacidade de raciocínio.
-> - **C) Incorreta.** Cada subagente utiliza LLMs para deliberar sobre sua especialidade.
-> - **D) Incorreta.** A comunicação multiagente é tipicamente orientada a mensagens assíncronas reativas.
-> - **E) Incorreta.** Afirmação sem fundamento.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a criação de atalhos na área de trabalho para cada arquivo". De acordo com a teoria estudada em *1.2 Os Quatro Componentes Estruturais de um Agente de Software*, memória de Curto Prazo (*Working Memory*): Reside na janela de contexto da sessão ativa. Retém o objetivo da tarefa, o plano de trabalho corrente, o histórico recente de ações executadas e os logs parciais retornados pelo terminal.
+> - **B)** **Correta.** Conforme fundamentado na seção *1.1 A Evolução: De Chatbots Passivos a Agentes Orientados a Objetivos (Goal-Driven)* deste guia, diante de erros sintáticos ou falhas em testes, o desenvolvedor precisa copiar o log, colar na caixa de diálogo e pedir uma nova versão, aplicando o código manualmente no editor. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "o uso da área de transferência com Colar Especial -> Valores".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o Power Query". De acordo com a teoria estudada em *1.3 Padrões de Interface: Agentes de Linha de Comando (CLI) vs. Agentes Nativos em IDE*, cenário de Uso Ideal: Servidores remotos via SSH, máquinas virtuais sem interface gráfica (*headless*), automações de esteiras CI/CD e refatorações multi-repositório. — Programação interativa do dia a dia com edição visual lado a lado e navegação gráfica do código.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a gravação de uma macro para formatar a fonte do cabeçalho". De acordo com a teoria estudada em *1.1 A Evolução: De Chatbots Passivos a Agentes Orientados a Objetivos (Goal-Driven)*, agentes Autônomos Orientados a Objetivos (*Goal-Driven Agents*): O usuário define a meta macro em linguagem natural (ex.: *"Implemente a emissão de certidão de débitos tributários com tratamento de concorrência e testes unitários"*).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a inserção de um gráfico de pizza em cada planilha mensal". De acordo com a teoria estudada em *3.3 Segurança Cibernética, Privilégio Mínimo e Human-in-the-Loop*, em contrapartida, para ações potencialmente destrutivas ou com efeitos colaterais irreversíveis (ex.: exclusão de arquivos, comandos com privilégios de superusuário `sudo`, alterações de banco de dados ou operações forçadas de rede), o sistema deve obrigatoriamente impor confirmação humana explícita (*Human-in-the-Loop*).
 >
 > **Gabarito: B**
 
 ---
 
 ### Teste 138
-**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**
-Ao adotar ferramentas de engenharia de software assistidas por IA com execução de comandos no terminal (CLI) e no sistema de arquivos, uma organização pública de controle externo deve mitigar riscos cibernéticos decorrentes de ações potencialmente destrutivas ou não autorizadas no ambiente de infraestrutura.
+**(CEBRASPE – TJ-RJ – Analista Judiciario Grupo Tecnologia da Informacao Analista de Gestao de Tic – 2021)**
+Tipicamente, a gestão de projetos é adotada quando se deseja empreender tarefas
 
-Para equilibrar produtividade e governança corporativa na operação desses agentes autônomos, a melhor prática arquitetural consiste em:  
-
-* **A)** Conceder ao processo do agente privilégios de superusuário (*root* ou *Administrator*) com bypass irrestrito de confirmação para todas as chamadas de sistema, a fim de garantir autonomia total. em conformidade com as diretrizes e padrões de arquitetura corporativa.
-* **B)** Impedir qualquer leitura de arquivos do repositório pelo agente, restringindo sua atuação exclusivamente à emissão de trechos de código em formato texto no chat da interface gráfica.
-* **C)** Implementar políticas de isolamento em ambiente de desenvolvimento controlado (*sandboxing* / containers) e mecanismos de aprovação humana (*Human-in-the-Loop*) para comandos de alto impacto ou potencialmente destrutivos (como remoção recursiva de diretórios, formatação de volumes ou operações com dados produtivos).
-* **D)** Desativar a coleta de logs e telemetria das ações tomadas pelo agente, pois registros de comandos executados no shell expõem os pesos internos do modelo de linguagem.
-* **E)** Bloquear a integração do agente com o sistema de controle de versão (Git), evitando que o histórico registre commits assistidos por ferramentas autônomas.
-
+* **A)** repetitivas, sob prazo indeterminado e de forma rotineira.
+* **B)** específicas, sob prazo indeterminado e de forma não rotineira.
+* **C)** específicas, sob prazo determinado e de forma não rotineira.
+* **D)** repetitivas, sob prazo determinado e de forma rotineira.
+* **E)** recorrentes, sob prazo indeterminado e de forma rotineira.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** Incorreta. Conceder permissões de superusuário irrestritas viola o princípio do privilégio mínimo e expõe o ambiente a catástrofes decorrentes de alucinações ou comandos indevidos.
-> - **B)** Incorreta. Proibir a leitura de arquivos descaracteriza a arquitetura agentiva, rebaixando a ferramenta a um chatbot desconectado do repositório de código.
-> - **C)** **CORRETA.** A governança em sistemas agentivos estabelece a execução em caixas de areia seguras (*sandboxes* ou containers) combinada com a imposição obrigatória de **Human-in-the-Loop** (aprovação explícita do operador humano) para comandos de alto risco ou ações com potencial destrutivo irreversível.
-> - **D)** Incorreta. A coleta de logs de auditoria é mandatória para conformidade e rastreabilidade em órgãos públicos, e comandos de shell não revelam os pesos do modelo.
-> - **E)** Incorreta. A integração com o Git é essencial para garantir rastreabilidade, auditoria e facilidade de reversão (*rollback*) de alterações.
-> 
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "repetitivas, sob prazo indeterminado e de forma rotineira". De acordo com a teoria estudada em *1.2 Os Quatro Componentes Estruturais de um Agente de Software*, memória de Longo Prazo: Bases vetoriais locais ou grafos de código que mantêm o repositório indexado semanticamente, além de documentações e diretrizes institucionais persistentes entre sessões.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "específicas, sob prazo indeterminado e de forma não rotineira". De acordo com a teoria estudada em *2.3 Fase 2: Planejamento, Decomposição e Deliberação (Reasoning & Planning)*, mecanismo *Human-in-the-Loop* para Ambiguidade: Caso o requisito de negócio contenha contradições ou indefinições, o agente pausa a execução e questiona o usuário de forma estruturada antes de tomar decisões arbitrárias.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.2 Os Quatro Componentes Estruturais de um Agente de Software* deste guia, memória de Curto Prazo (*Working Memory*): Reside na janela de contexto da sessão ativa. Retém o objetivo da tarefa, o plano de trabalho corrente, o histórico recente de ações executadas e os logs parciais retornados pelo terminal. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TJ-RJ/2021) ao estabelecer que "específicas, sob prazo determinado e de forma não rotineira".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "repetitivas, sob prazo determinado e de forma rotineira". De acordo com a teoria estudada em *2.5 Fase 4: Verificação Autônoma e o Loop de Autocorreção (Self-Healing)*, ele lê a linha exata apontada pelo stack trace, diagnostica a causa-raiz, elabora uma correção no código e dispara os testes novamente de forma totalmente autônoma.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "recorrentes, sob prazo indeterminado e de forma rotineira". De acordo com a teoria estudada em *3.2 Antigravity CLI e a Orquestração Hierárquica Multiagente*, o Antigravity CLI destaca-se pela sua arquitetura modular voltada para governança e execução de tarefas concorrentes.
+>
 > **Gabarito: C**
 
 ---
