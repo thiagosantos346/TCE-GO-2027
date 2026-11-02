@@ -185,6 +185,78 @@ O PAD é o procedimento contraditório formal destinado a apurar a responsabilid
 
 ---
 
+### Teste 001
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Ciências Contábeis)**
+Pedro, servidor ocupante de cargo de provimento efetivo no Estado de Goiás, em exercício há cinco anos ininterruptos, após regular processo administrativo-disciplinar, veio a ser demitido. O cargo que ocupava, por sua vez, de nomenclatura X, foi transformado no cargo Y, que passou a ser ocupado por Maria. A demissão de Pedro, no entanto, foi invalidada pelo Poder Judiciário. De acordo com a Lei Estadual nº 20.756/2020, é correto afirmar que ocorrerá
+
+* **A)** a recondução de Pedro.
+* **B)** a reintegração de Pedro.
+* **C)** a disponibilidade de Pedro.
+* **D)** o reaproveitamento de Pedro.
+* **E)** o retorno de Pedro, e Maria será exonerada.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a recondução de Pedro". De acordo com a teoria estudada em *1.1 Conceito de Servidor, Cargo Público e Formas de Provimento*, recondução: Retorno do servidor público estável ao cargo de origem anteriormente ocupado, decorrente de: 1) Inabilitação em estágio probatório de outro cargo público; ou 2) Retorno do titular daquele cargo em virtude de reintegração. — Retorno formal sem direito a qualquer indenização financeira pelo período em que esteve fora.
+> - **B)** **Correta.** Conforme fundamentado na seção *1.1 Conceito de Servidor, Cargo Público e Formas de Provimento* deste guia, reintegração: Retorno do servidor público estável ao cargo anteriormente ocupado quando sua demissão for invalidada por decisão judicial transitada em julgado ou administrativa. — O servidor é reintegrado com ressarcimento integral de todos os vencimentos, remunerações e vantagens retroativas a que faria jus. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "a reintegração de Pedro".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a disponibilidade de Pedro". De acordo com a teoria estudada em *1.7 Prescrição da Pretensão Punitiva Disciplinar*, cinco (5) anos: Para infrações disciplinares puníveis com demissão, cassação de aposentadoria ou disponibilidade e destituição de cargo em comissão ou função de confiança.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o reaproveitamento de Pedro". De acordo com a teoria estudada em *1.1 Conceito de Servidor, Cargo Público e Formas de Provimento*, a Lei Estadual nº 20.756, de 28 de janeiro de 2020, estabelece o regime jurídico único dos servidores públicos civis da administração direta, autárquica e fundacional dos Poderes Executivo, Legislativo e Judiciário do Estado de Goiás, aplicando se também aos servidores dos Tribunais de Contas (TCE GO e TCM GO) e do Ministério Público.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o retorno de Pedro, e Maria será exonerada". De acordo com a teoria estudada em *3. Fontes Oficiais e Referências Bibliográficas*, dI PIETRO, Maria Sylvia Zanella. Direito Administrativo. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 14 Servidores Públicos e Regime Estatutário).
+>
+> **Gabarito: B**
+
+---
+
+### Teste 002
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Ciências Contábeis)**
+João, servidor público ocupante de cargo em comissão no âmbito do poder Executivo do Estado de Goiás, foi afastado da direção do órgão público X, em razão de permissivo constante da Lei estadual nº 20.756/2020. Maria, por sua vez, que dirigia o órgão público Y, foi informada que iria substituir João. Nessa situação, é correto afirmar que Maria, ao ser designada para substituir João
+
+* **A)** continuará no órgão público Y, e receberá a integralidade da retribuição estipendial do cargo de João, paga proporcionalmente aos dias de efetiva substituição.
+* **B)** continuará no órgão público Y, e poderá optar pela remuneração integral do cargo de João, ao invés daquela correspondente ao cargo que ocupa.
+* **C)** continuará no órgão publico Y, e receberá 60% da retribuição estipendial do cargo de João, paga proporcionalmente aos dias de efetiva substituição.
+* **D)** continuará no órgão público Y, e não fará jus a qualquer retribuição estipendial pela acumulação do órgão público x.
+* **E)** será afastada do órgão público Y, em razão da vedação à acumulação de cargos.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "continuará no órgão público Y, e receberá a integralidade da retribuição estipendial do cargo de João, paga...". De acordo com a teoria estudada em *1.5 Direitos, Vantagens Pecuniárias, Férias e Licenças*, vencimento: É a retribuição pecuniária básica fixada em lei para o padrão ocupado pelo servidor no cargo público efetivo.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "continuará no órgão público Y, e poderá optar pela remuneração integral do cargo de João, ao invés daquela...". De acordo com a teoria estudada em *1.6 Regime Disciplinar: Deveres, Proibições e Penalidades*, conversão em Multa: Quando houver conveniência para o serviço público, a penalidade de suspensão poderá ser convertida em multa na base de 50% (cinquenta por cento) por dia de remuneração, ficando o servidor obrigado a permanecer em serviço.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.1 Conceito de Servidor, Cargo Público e Formas de Provimento* deste guia, a Lei Estadual nº 20.756, de 28 de janeiro de 2020, estabelece o regime jurídico único dos servidores públicos civis da administração direta, autárquica e fundacional dos Poderes Executivo, Legislativo e Judiciário do Estado de Goiás, aplicando se também aos servidores dos Tribunais de Contas (TCE GO e TCM GO) e do Ministério Público. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "continuará no órgão publico Y, e receberá 60% da retribuição estipendial do cargo de João, paga proporcionalmente...".
+> - **D)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "continuará no órgão público Y, e não fará jus a qualquer retribuição estipendial pela acumulação do órgão público x". De acordo com a teoria estudada em *1.5 Direitos, Vantagens Pecuniárias, Férias e Licenças*, férias: O servidor faz jus a 30 (trinta) dias de férias anuais remuneradas, pagas com acréscimo de 1/3 (um terço) constitucional. É vedada a acumulação de mais de dois períodos de férias por absoluta necessidade do serviço.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "será afastada do órgão público Y, em razão da vedação à acumulação de cargos". De acordo com a teoria estudada em *Fundamentos Teóricos*, atos Normativos: Lei Estadual nº 20.756, de 28 de janeiro de 2020 (Estatuto Geral dos Servidores Públicos Civis do Estado de Goiás) e Lei Estadual nº 15.122, de 04 de fevereiro de 2005 (Plano de Cargos, Carreiras e Remuneração do TCE GO).
+>
+> **Gabarito: C**
+
+---
+
+### Teste 003
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Jurídica)**
+Após ser aprovado em concurso público para cargo efetivo de determinada autarquia do Estado de Goiás, Josivaldo passou a perquirir os diversos aspectos atinentes ao provimento previstos na Lei Estadual nº 20.756/2020 (Regime Jurídico dos Servidores Públicos Civis do Estado de Goiás), situação em que verificou corretamente que
+
+* **A)** o ato de provimento de cargo público compete ao Chefe do Poder Executivo, mediante decreto.
+* **B)** é cabível a edição de atos de nomeação, admissão ou contratação, posse ou exercício com efeito retroativo.
+* **C)** são formas de provimento de cargo público apenas a nomeação, a recondução e a reintegração.
+* **D)** as funções de confiança são de livre nomeação e exoneração, não sendo, portanto, privativas de servidores ocupantes de cargos de provimento efetivo.
+* **E)** os requisitos para investidura em cargo público de provimento efetivo devem ser comprovados por ocasião da homologação do respectivo concurso público.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *1.1 Conceito de Servidor, Cargo Público e Formas de Provimento* deste guia, a Lei Estadual nº 20.756, de 28 de janeiro de 2020, estabelece o regime jurídico único dos servidores públicos civis da administração direta, autárquica e fundacional dos Poderes Executivo, Legislativo e Judiciário do Estado de Goiás, aplicando se também aos servidores dos Tribunais de Contas (TCE GO e TCM GO) e do Ministério Público. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "o ato de provimento de cargo público compete ao Chefe do Poder Executivo, mediante decreto".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é cabível a edição de atos de nomeação, admissão ou contratação, posse ou exercício com efeito retroativo". De acordo com a teoria estudada em *1.2 Posse e Exercício: Prazos e Consequências do Descumprimento*, nomeacao["Publicação do Decreto/Ato de Nomeação"].
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "são formas de provimento de cargo público apenas a nomeação, a recondução e a reintegração". De acordo com a teoria estudada em *1.1 Conceito de Servidor, Cargo Público e Formas de Provimento*, recondução: Retorno do servidor público estável ao cargo de origem anteriormente ocupado, decorrente de: 1) Inabilitação em estágio probatório de outro cargo público; ou 2) Retorno do titular daquele cargo em virtude de reintegração. — Retorno formal sem direito a qualquer indenização financeira pelo período em que esteve fora.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as funções de confiança são de livre nomeação e exoneração, não sendo, portanto, privativas de servidores...". De acordo com a teoria estudada em *1.1 Conceito de Servidor, Cargo Público e Formas de Provimento*, cargo Público: Conjunto de atribuições, deveres e responsabilidades cometidos a um servidor, criado por lei, em número certo, com denominação própria e subsídio ou vencimento pago pelos cofres públicos. Podem ser de provimento efetivo (exige concurso público) ou em comissão (de livre nomeação e livre exoneração).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os requisitos para investidura em cargo público de provimento efetivo devem ser comprovados por ocasião da...". De acordo com a teoria estudada em *3. Fontes Oficiais e Referências Bibliográficas*, lei Estadual nº 20.756/2020 Estatuto dos Servidores de Goiás (Casa Civil/GO) Texto compilado do regime jurídico dos servidores públicos civis estaduais.
+>
+> **Gabarito: A**
+
+---
+
 ## 2. Plano de Cargos, Carreiras e Remuneração do TCE-GO (Lei nº 15.122/2005)
 
 ### 2.1 Estrutura do Quadro Efetivo do TCE-GO

@@ -297,6 +297,30 @@ O **Apache Spark** superou as limitações de I/O do Hadoop executando a computa
 
 ---
 
+### Teste 001
+**(FCC – TRT 23ª – 2016 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
+Um Analista está avaliando alguns elementos do PMBOK 5a edição passíveis de auxiliarem na tarefa de gerenciamento do projeto que desenvolveu. Um dos instrumentos que poderiam auxiliar seria a análise de variação que é uma técnica
+
+* **A)** analítica que usa modelos matemáticos para prever resultados futuros com base em resultados históricos.
+* **B)** para determinar a causa e o grau de diferença entre a linha de base e o desempenho real.
+* **C)** analítica para determinar as características e relações essenciais dos componentes do plano de gerenciamento do projeto a fim de estabelecer a reserva para a duração do cronograma, orçamento, custo estimado ou fundos de um projeto.
+* **D)** de identificação das datas de início mais cedo e mais tarde e também das datas de término mais cedo e mais tarde das partes incompletas das atividades do cronograma do projeto.
+* **E)** estatística para calcular o resultado médio quando o futuro inclui cenários que podem ou não acontecer. Uma utilização comum desta técnica está na análise da árvore de decisão.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "analítica que usa modelos matemáticos para prever resultados futuros com base em resultados históricos". De acordo com a teoria estudada em *1. Metodologia CRISP-DM e Pipeline de Engenharia de Dados*, a Ciência de Dados constitui a intersecção analítica entre Estatística, Ciência da Computação e Conhecimento do Negócio (Auditoria e Controle Externo), operando transformações metodológicas para converter dados brutos não estruturados em conhecimento aplicável.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "para determinar a causa e o grau de diferença entre a linha de base e o desempenho real". De acordo com a teoria estudada em *4.3 Apache Spark: Processamento em Memória, Lazy Evaluation e RDDs*, ações ( Actions ): Imediatas ( Eager Evaluation ). — count() , collect() , show() , take() , saveAsTextFile() — Disparam a compilação do plano físico no DAG e a execução real nos nós trabalhadores, devolvendo o resultado ao Driver.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "analítica para determinar as características e relações essenciais dos componentes do plano de gerenciamento do...". De acordo com a teoria estudada em *2.3 Testes de Hipóteses, Erros Tipo I e II e Critério do p-Valor*, estrutura formal de tomada de decisão estatística sob incerteza.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de identificação das datas de início mais cedo e mais tarde e também das datas de término mais cedo e mais tarde...". De acordo com a teoria estudada em *2.3 Testes de Hipóteses, Erros Tipo I e II e Critério do p-Valor*, o $p$ valor indica a probabilidade de obter uma estatística de teste tão ou mais extrema que a observada, assumindo $H 0$ como verdadeira.
+> - **E)** **Correta.** Conforme fundamentado na seção *3.1 O Trade-off Viés vs. Variância (Bias-Variance Tradeoff)* deste guia, overfitting (Sobreajuste / Alta Variância): O modelo é hipercomplexo (ex.: árvore de decisão profunda sem limites) e decora as particularidades e ruídos estocásticos do treino, apresentando erro mínimo no treino e erro elevado nos dados inéditos de teste. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 23ª/2016) ao estabelecer que "estatística para calcular o resultado médio quando o futuro inclui cenários que podem ou não acontecer. Uma...".
+>
+> **Gabarito: E**
+
+---
+
 ## 🌐 Fontes Oficiais e Referências Bibliográficas
 
 * [Scikit-Learn Official User Guide - Model Evaluation and Metrics](https://scikit-learn.org/stable/modules/model_evaluation.html) - Matriz de confusão, acurácia, precisão, recall, F1-score, curva ROC e AUC.

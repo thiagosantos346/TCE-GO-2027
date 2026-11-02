@@ -209,6 +209,30 @@ flowchart TD
 
 ---
 
+### Teste 001
+**(FGV – TRT da 24º Região – 2025 – Analista Judiciário - Área Administrativa - Sem Especialidade)**
+A gestão por competências na Administração Pública contribui para o desenvolvimento organizacional ao alinhar as habilidades dos servidores às estratégias institucionais, promovendo maior eficiência, desempenho e qualidade na entrega de serviços à sociedade. Assinale a opção que apresenta corretamente a relação entre conhecimento, habilidade e competência no contexto da gestão por competências.
+
+* **A)** Competência refere-se apenas à acumulação de conhecimento técnico e acadêmico.
+* **B)** Habilidade é saber aprender continuamente e transformar o conhecimento em resultado concreto.
+* **C)** Conhecimento é a aplicação prática da habilidade para alcançar resultados e metas organizacionais.
+* **D)** Conhecimento, habilidade e competência são conceitos equivalentes e podem ser usados como sinônimos na gestão pública.
+* **E)** A competência envolve a integração entre conhecimento (saber), habilidade (saber fazer) e a capacidade de alcançar resultados (saber fazer acontecer).
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Competência refere se apenas à acumulação de conhecimento técnico e acadêmico". De acordo com a teoria estudada em *Fundamentos Teóricos*, conteúdo Oficial: Treinamento vs. Desenvolvimento de Pessoas; As Quatro Etapas do Ciclo de Treinamento (LNT, Desenho, Execução e Avaliação de Resultados); Modelo dos 4 Níveis de Kirkpatrick; Gestão do Conhecimento (Tácito vs. Explícito e Modelo SECI de Nonaka e Takeuchi); Aprendizagem Organizacional e as Cinco Disciplinas de Peter Senge; Educação Corporativa e Escolas de Governo.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Habilidade é saber aprender continuamente e transformar o conhecimento em resultado concreto". De acordo com a teoria estudada em *D) Etapa 4: Avaliação dos Resultados (Modelo de Donald Kirkpatrick)*, n3 N4["Nível 4: RESULTADOS / IMPACTO<br/ Mede o benefício concreto alcançado pela instituição"].
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Conhecimento é a aplicação prática da habilidade para alcançar resultados e metas organizacionais". De acordo com a teoria estudada em *D) Etapa 4: Avaliação dos Resultados (Modelo de Donald Kirkpatrick)*, nível 4: Resultados / Impacto Organizacional: Avalia os impactos macroinstitucionais obtidos pelo órgão (redução de custos, agilidade processual). — Longo prazo (semestral ou anual). — Indicadores de desempenho, relatórios gerenciais e metas institucionais atingidas.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Conhecimento, habilidade e competência são conceitos equivalentes e podem ser usados como sinônimos na gestão...". De acordo com a teoria estudada em *3. Gestão do Conhecimento Organizacional e o Modelo SECI*, a gestão do conhecimento é o conjunto integrado de processos que criam, organizam, disseminam e aplicam saberes para alavancar a eficiência organizacional.
+> - **E)** **Correta.** Conforme fundamentado na seção *A) A Pirâmide DIKW (Hierarquia do Saber)* deste guia, sabedoria: Capacidade superior de aplicar o conhecimento com prudência, discernimento ético e visão de longo prazo em prol da sociedade. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT da 24º Região/2025) ao estabelecer que "A competência envolve a integração entre conhecimento (saber), habilidade (saber fazer) e a capacidade de alcançar...".
+>
+> **Gabarito: E**
+
+---
+
 ## 4. Aprendizagem Organizacional e as Cinco Disciplinas de Peter Senge
 
 A aprendizagem organizacional ocorre quando o aprendizado individual e coletivo é incorporado aos processos, valores, estruturas e cultura permanente da organização.

@@ -31,6 +31,17 @@ def normalizar(texto: str) -> str:
     return sem_acento.lower()
 
 
+class PalavraInteira(str):
+    """str cujo operador `in` casa termos como palavra inteira (plural s/es opcional).
+
+    Evita falsos positivos de substring, ex.: 'pod' em 'podem', 'iac' em 'especialista'.
+    """
+
+    def __contains__(self, termo):
+        padrao = r"(?<![a-z0-9])" + re.escape(termo) + r"(?:s|es)?(?![a-z0-9])"
+        return re.search(padrao, str(self)) is not None
+
+
 def carregar_edital():
     data = json.loads(EDITAL_PATH.read_text(encoding="utf-8"))
     catalogo = []
@@ -63,7 +74,7 @@ def formatar_texto_questao(q: dict) -> str:
 
 def classificar_questao(q: dict, catalogo: list) -> dict:
     texto_completo = formatar_texto_questao(q)
-    norm = normalizar(texto_completo)
+    norm = PalavraInteira(normalizar(texto_completo))
     norm_cargo = normalizar(q.get("cargo", ""))
     norm_orgao = normalizar(q.get("orgao", ""))
 

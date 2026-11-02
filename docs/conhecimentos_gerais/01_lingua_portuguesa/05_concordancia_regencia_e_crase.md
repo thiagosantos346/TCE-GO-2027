@@ -311,6 +311,48 @@ O complemento nominal completa o sentido passivo de uma palavra que, por si só,
 
 ---
 
+### Teste 001
+**(CEBRASPE – STF – 2008 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+O conectivo “Então” ((cid:53).6) estabelece uma relação de tempo entre as idéias expressas em duas orações. 10 É pela acepção do verbo levar, em “leva a perceber” ((cid:53).11), que se justifica o emprego da preposição “a” nesse trecho, de
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Incorreta.** A proposição apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O conectivo “Então” ((cid:53).6) estabelece uma relação de tempo entre as idéias expressas em duas orações...". De acordo com a teoria em *1.1 Regra Geral da Concordância Verbal e Identificação do Núcleo*, a diretriz basilar estabelece que o verbo concorda em número e pessoa com o núcleo do sujeito. A principal armadilha em provas consiste na existência de adjuntos adnominais preposicionados ou orações intercaladas que se interpõem entre o núcleo do sujeito e a forma verbal.
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
+>
+> **Gabarito: E**
+
+---
+
+### Teste 002
+**(FGV – TJ/BA – 2015 – Analista Judiciario Tecnologia Da Informacao)**
+“A(1) esses perigos eles resistiam, pois àquela(2) altura já se haviam acostumado a(3) tais infortúnios, mas, por fim, chegaram a(4) um lugar onde o caminho era estreito demais para os elefantes e até para os animais de carga.” Nesse segmento do texto 4 há quatro ocorrências numeradas da preposição A; dessas quatro ocorrências, as exigidas pela regência verbal são:
+
+* **A)** 1-2-3;
+* **B)** 2-3-4;
+* **C)** 1-2-4;
+* **D)** 1-3-4;
+* **E)** 1-2-3-4.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1 2 3". De acordo com a teoria estudada em *4.3 Regência Verbal Associada a Pronomes Relativos*, um dos pontos mais sofisticados da sintaxe na banca FCC reside na combinação da regência do verbo subordinado com a escolha do pronome relativo antecedente. Se o verbo da oração adjetiva exigir preposição, ela deve ser deslocada para antes do pronome relativo.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2 3 4". De acordo com a teoria estudada em *4.3 Regência Verbal Associada a Pronomes Relativos*, "O projeto de infraestrutura a que o secretário se referiu..." (quem se refere, refere se a algo $\rightarrow$ preposição a anteposta ao pronome que ).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1 2 4". De acordo com a teoria estudada em *4.3 Regência Verbal Associada a Pronomes Relativos*, "O cargo público a que o candidato aspira..." (quem aspira no sentido de almejar, aspira a algo $\rightarrow$ preposição a antes de que ).
+> - **D)** **Correta.** Conforme fundamentado na seção *4.1 Princípios da Regência Verbal na Norma Culta* deste guia, a mesma forma verbal pode assumir trânsitos sintáticos e acepções semânticas completamente distintas conforme seja construída de forma direta (sem preposição) ou indireta (revestida por preposição específica). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/BA/2015) ao estabelecer que "1 3 4".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1 2 3 4". De acordo com a teoria estudada em *4.3 Regência Verbal Associada a Pronomes Relativos*, "A diretriz orçamentária a cuja execução a população aspira..." (o verbo aspirar rege a preposição a , a qual se antepõe ao pronome relativo possessivo cuja ).
+>
+> **Gabarito: D**
+
+---
+
 ## 6. Teoria Geral e Emprego do Sinal Indicativo de Crase
 
 A palavra crase (do grego *krâsis*) significa fusão, mistura ou coalescência fonética de dois sons vocálicos idênticos em um só. Na escrita da língua portuguesa, o fenômeno da crase é representado visualmente pelo **acento grave (`\grave{a}`)**.
@@ -405,3 +447,184 @@ Ocorre a fusão da preposição *a* (exigida por regência verbal ou nominal) co
 * *referir-se + a + aquilo* $\rightarrow$ *"O relator referiu-se **àquilo** que constava nos laudos."*
 
 ---
+
+### Teste 003
+**(FCC – TRT 9ª – 2015 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
+Consideradas a correção e as relações de sentido estabelecidas no texto, afirma-se corretamente:
+
+* **A)** No segmento ...vai como que destruindo a golpes de medida impaciência... (2o parágrafo), o elemento sublinhado por ser substituído por: "por assim dizer".
+* **B)** O sinal indicativo de crase é facultativo e pode ser inserido no elemento sublinhado em: que um leigo creditaria a uma mera expressão de ressentimento confessional... (2o parágrafo)
+* **C)** O segmento ...para atrair turistas ao som da música típica do Tirol (1o parágrafo) introduz noção de causa, de maneira que o elemento sublinhado pode ser substituído por: "por".
+* **D)** O elemento sublinhado em porque dilapidou, desperdiçou e aniquilou... (3o parágrafo) introduz a consequência do que se afirma antes e pode ser substituído por “por isso”.
+* **E)** O elemento sublinhado em ...que Thomas Bernhard transformou numa província asfixiante... (último parágrafo) introduz uma restrição ao termo imediatamente anterior.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "No segmento ...vai como que destruindo a golpes de medida impaciência... (2o parágrafo), o elemento sublinhado por...". De acordo com a teoria estudada em *6.4 Casos de Crase Obrigatória*, à medida que, à proporção que, à espera de, à procura de, à custa de, à semelhança de.
+> - **B)** **Incorreta.** A opção afasta requisito ou relação estrutural exigida pela matéria ao afirmar que "O sinal indicativo de crase é facultativo e pode ser inserido no elemento sublinhado em: que um leigo creditaria a...". De acordo com a teoria estudada em *6. Teoria Geral e Emprego do Sinal Indicativo de Crase*, a palavra crase (do grego krâsis ) significa fusão, mistura ou coalescência fonética de dois sons vocálicos idênticos em um só. Na escrita da língua portuguesa, o fenômeno da crase é representado visualmente pelo acento grave ( \grave{a} ).
+> - **C)** **Correta.** Conforme fundamentado na seção *6.5 Casos de Crase Facultativa* deste guia, a locução prepositiva pode ser até ou até a. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 9ª/2015) ao estabelecer que "O segmento ...para atrair turistas ao som da música típica do Tirol (1o parágrafo) introduz noção de causa, de...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O elemento sublinhado em porque dilapidou, desperdiçou e aniquilou... (3o parágrafo) introduz a consequência do...". De acordo com a teoria estudada em *4.3 Regência Verbal Associada a Pronomes Relativos*, um dos pontos mais sofisticados da sintaxe na banca FCC reside na combinação da regência do verbo subordinado com a escolha do pronome relativo antecedente. Se o verbo da oração adjetiva exigir preposição, ela deve ser deslocada para antes do pronome relativo.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O elemento sublinhado em ...que Thomas Bernhard transformou numa província asfixiante... (último parágrafo)...". De acordo com a teoria estudada em *6.4 Casos de Crase Obrigatória*, locução Elíptica "À Moda De / À Maneira De": Ocorre crase mesmo diante de vocábulos masculinos quando estiver subentendida a expressão feminina à moda de : "Pediu um bife à [moda de] milanesa" , "Escrevia versos à [maneira de] Olavo Bilac".
+>
+> **Gabarito: C**
+
+---
+
+### Teste 004
+**(FGV – TRT 16ª – 2022 – Analista Judiciário (Área Administrativa - Tecnologia da Informação))**
+O JavaScript Object Notation (JSON) é um formato de intercâmbio de dados baseado em texto. De acordo com a gramática JSON, especificada na RFC 8259, é correto afirmar que
+
+* **A)** um array é representado como colchetes em torno de zero ou mais elementos.
+* **B)** uma string começa e termina com crases.
+* **C)** nomes literais devem ser utilizados em caixa alta.
+* **D)** um número é representado na base 16 usando símbolos alfanuméricos.
+* **E)** um objeto é representado como um par de parênteses em torno de zero ou mais pares nome/valor.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *6. Teoria Geral e Emprego do Sinal Indicativo de Crase* deste guia, a palavra crase (do grego krâsis ) significa fusão, mistura ou coalescência fonética de dois sons vocálicos idênticos em um só. Na escrita da língua portuguesa, o fenômeno da crase é representado visualmente pelo acento grave ( \grave{a} ). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 16ª/2022) ao estabelecer que "um array é representado como colchetes em torno de zero ou mais elementos".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "uma string começa e termina com crases". De acordo com a teoria estudada em *6.1 Natureza Fonética e Morfossintática da Crase*, a ocorrência da crase clássica pressupõe o encontro simultâneo e inseparável de dois elementos gramaticais.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "nomes literais devem ser utilizados em caixa alta". De acordo com a teoria estudada em *5.2 Nomes de Alta Frequência em Atos de Controle e Direito Público*, acessível a: "O portal é acessível a todos os cidadãos.".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um número é representado na base 16 usando símbolos alfanuméricos". De acordo com a teoria estudada em *1.5 Sujeito Composto: Posição Anteposta, Posposta e Aposto Recapitulativo*, concordância atrativa (o verbo concorda em número e gênero com o núcleo mais próximo): "Abriu a sessão solene o conselheiro presidente e o procurador geral.".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um objeto é representado como um par de parênteses em torno de zero ou mais pares nome/valor". De acordo com a teoria estudada em *2.1 O Verbo Haver Impessoal e a Comparação com o Verbo Existir*, haver Impessoal: Empregado no sentido de existir, ocorrer, acontecer ou indicando tempo cronológico decorrido, o verbo haver não admite sujeito. O termo substantivo que o acompanha exerce a função sintática de objeto direto, e não de sujeito. Consequentemente, o verbo permanece inalteravelmente no singular.
+>
+> **Gabarito: A**
+
+---
+
+### Teste 005
+**(CEBRASPE – STF – 2008 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+A partir do desenvolvimento das idéias do texto, conclui-se tal modo que, se for empregado o substantivo que a palavra “crítico” ((cid:53).9) está sendo empregada como correspondente a “perceber”, percepção, a preposição crucial, perigoso. continuará presente e será correto o emprego da crase: à
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Incorreta.** A proposição apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A partir do desenvolvimento das idéias do texto, conclui se tal modo que, se for empregado o substantivo que...". De acordo com a teoria em *6.4 Casos de Crase Obrigatória*, locuções Adverbiais Femininas: Expressam circunstâncias de tempo, modo ou lugar estruturadas com palavra feminina.
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
+>
+> **Gabarito: E**
+
+---
+
+### Teste 006
+**(CEBRASPE – STJ – 2015 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+A correção gramatical do texto seria prejudicada caso se 4 ser que possa viver isolado; é, ao contrário, ordenado empregasse o sinal indicativo de crase no vocábulo “a” em “dá teleologicamente a viver em sociedade. É um ser que vive, atua (R.20). suporte a exigências recíprocas” e relaciona-se na comunidade, e sente-se vinculado aos seus
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *6. Teoria Geral e Emprego do Sinal Indicativo de Crase*, a palavra crase (do grego krâsis ) significa fusão, mistura ou coalescência fonética de dois sons vocálicos idênticos em um só. Na escrita da língua portuguesa, o fenômeno da crase é representado visualmente pelo acento grave ( \grave{a} ). Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – STJ/2015) ao afirmar que "A correção gramatical do texto seria prejudicada caso se 4 ser que possa viver isolado; é, ao contrário...".
+> - **E)** **Incorreta.** A assertiva não incorre em erro conceitual, guardando conformidade com a teoria estudada.
+>
+> **Gabarito: C**
+
+---
+
+### Teste 007
+**(FGV – TJ/MT – 2024 – Analista Judiciario Tecnologia Da Informacao)**
+Leia a frase abaixo: O pior que uma pessoa pode fazer em relação à verdade é conhecê- la e virar-lhe as costas. Assinale a afirmativa adequada em relação à sua estruturação ou significado.
+
+* **A)** Os pronomes “la” e “lhe” se referem ao mesmo antecedente.
+* **B)** O termo “uma pessoa” tem significado específico.
+* **C)** Há um erro no emprego da crase em “à verdade”.
+* **D)** Na frase deveria estar escrito “conhecer-lhe” e não “conhecê- la”.
+* **E)** Em lugar de “virar-lhe” deveria estar escrito “virá-la”. LEGISLAÇÃO INSTITUCIONAL
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *3. Concordância Nominal e Casos Especiais* deste guia, a concordância nominal é o princípio de ajuste morfológico em gênero (masculino ou feminino) e número (singular ou plural) estabelecido entre o substantivo (ou pronome substantivo) e os termos que a ele se referem: artigos, adjetivos, pronomes adjetivos, numerais e particípios. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/MT/2024) ao estabelecer que "Os pronomes “la” e “lhe” se referem ao mesmo antecedente".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O termo “uma pessoa” tem significado específico". De acordo com a teoria estudada em *1.4 Concordância com Pronomes Relativos Que e Quem*, pronome QUE: O verbo concorda obrigatoriamente em número e pessoa com o antecedente do pronome.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Há um erro no emprego da crase em “à verdade”". De acordo com a teoria estudada em *2.3 Transmissão de Impessoalidade ao Verbo Auxiliar nas Locuções*, "Pode fazer cinco anos que o processo tramita." (Correto) $\leftrightarrow$ "Podem fazer cinco anos..." (ERRO!).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Na frase deveria estar escrito “conhecer lhe” e não “conhecê la”". De acordo com a teoria estudada em *6.3 Casos de Crase Proibida*, a presença do a singular diante de termo plural demonstra que se trata exclusivamente de preposição pura, sem artigo: "Fez alusão a normas constitucionais" (sem crase). Para ocorrer crase, o artigo deveria estar presente no plural: "Fez alusão às normas constitucionais".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Em lugar de “virar lhe” deveria estar escrito “virá la”. LEGISLAÇÃO INSTITUCIONAL". De acordo com a teoria estudada em *1.4 Concordância com Pronomes Relativos Que e Quem*, concordância atrativa com o antecedente do pronome: "Fui eu quem elaborei o relatório.".
+>
+> **Gabarito: A**
+
+---
+
+### Teste 008
+**(FCC – TRT 4ª – 2015 – Analista Judiciário - Tecnologia Da Informação)**
+Considerados o contexto e a norma-padrão,
+
+* **A)** (linha 13) resulta em incorreção o acréscimo de vírgula entre Spinoza e segundo.
+* **B)** (linha 24) o emprego de aspas em "apenas" empresta ironia à palavra, tal como em: "Ele foi "apenas" assaltado, sem muita violência".
+* **C)** (linha 21) em O rubor pode subir às faces de alguém, está correto o emprego do sinal de crase, assim como o está em “O sentimento de vergonha é comum à qualquer pessoa”.
+* **D)** (linha 2) as palavras opróbrio e ignomínia estão corretamente grafadas e acentuadas, assim como o estão as palavras desta frase: "A ausência de rúbrica nos documentos é mais um deslise para o qual ela tem o intuíto de reinvindicar tratamento de excessão."
+* **E)** (linha 18) em a vergonha pressupõe um controle interno: quem [...], os dois-pontos introduzem consequência.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "(linha 13) resulta em incorreção o acréscimo de vírgula entre Spinoza e segundo". De acordo com a teoria estudada em *3.4 O Funcionamento de Bastante, Meio, Menos e Alerta*, são palavras sempre invariáveis: "Havia menos vagas" (a palavra "menas" não existe na norma culta); "Os guardas permaneceram alerta" (advérbio).
+> - **B)** **Correta.** Conforme fundamentado na seção *6. Teoria Geral e Emprego do Sinal Indicativo de Crase* deste guia, a palavra crase (do grego krâsis ) significa fusão, mistura ou coalescência fonética de dois sons vocálicos idênticos em um só. Na escrita da língua portuguesa, o fenômeno da crase é representado visualmente pelo acento grave ( \grave{a} ). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 4ª/2015) ao estabelecer que "(linha 24) o emprego de aspas em "apenas" empresta ironia à palavra, tal como em: "Ele foi "apenas" assaltado, sem...".
+> - **C)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "(linha 21) em O rubor pode subir às faces de alguém, está correto o emprego do sinal de crase, assim como o está...". De acordo com a teoria estudada em *6.3 Casos de Crase Proibida*, diante de pronomes indefinidos que não aceitam artigo ( toda, cada, qualquer, ninguém, alguém, tudo ): "Comunicou o fato a todas as autoridades" , "Não fez referência a nenhuma servidora".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "(linha 2) as palavras opróbrio e ignomínia estão corretamente grafadas e acentuadas, assim como o estão as...". De acordo com a teoria estudada em *1.5 Sujeito Composto: Posição Anteposta, Posposta e Aposto Recapitulativo*, "Documentos, notas fiscais, contratos, extratos bancários, nada escapou à perícia dos auditores.".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "(linha 18) em a vergonha pressupõe um controle interno: quem [...], os dois pontos introduzem consequência". De acordo com a teoria estudada em *6.1 Natureza Fonética e Morfossintática da Crase*, a ocorrência da crase clássica pressupõe o encontro simultâneo e inseparável de dois elementos gramaticais.
+>
+> **Gabarito: B**
+
+---
+
+### Teste 009
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
+Uma notícia recente dizia: A Presidente da Associação Nacional dos Auditores de Controle Externo dos Tribunais de Contas do Brasil (ANTC), Thaisse Craveiro, convocou os Membros Institucionais do Conselho de Representantes para Reunião Extraordinária a ser realizada no dia 23 de fevereiro de 2026 (segunda-feira), às 17h, em modalidade virtual, por meio da plataforma Zoom. A convocação ocorre nos termos do Estatuto da entidade e tem como pauta o exame de situação institucional envolvendo procedimento disciplinar contra Auditor de Controle Externo, bem como a definição de estratégias políticas e jurídicas voltadas à preservação da independência funcional e das garantias inerentes à função de auditoria. Nesse segmento textual, há exemplos corretos da utilização do acento grave indicativo da crase. Assinale a frase em que o emprego desse acento mostra incorreção.
+
+* **A)** As leis respondem às necessidades da população.
+* **B)** Os olhos dos tribunais estão voltados à fiscalização.
+* **C)** As leis não devem ser obedecidas à força.
+* **D)** Os sonegadores foram levados à Justiça.
+* **E)** O artigo dirige seu foco para às novas funções.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "As leis respondem às necessidades da população". De acordo com a teoria estudada em *4.3 Regência Verbal Associada a Pronomes Relativos*, "A diretriz orçamentária a cuja execução a população aspira..." (o verbo aspirar rege a preposição a , a qual se antepõe ao pronome relativo possessivo cuja ).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os olhos dos tribunais estão voltados à fiscalização". De acordo com a teoria estudada em *2.3 Transmissão de Impessoalidade ao Verbo Auxiliar nas Locuções*, "Vai haver novas diligências na próxima semana." (Correto) $\leftrightarrow$ "Vão haver novas..." (ERRO!).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "As leis não devem ser obedecidas à força". De acordo com a teoria estudada em *3.5 Expressões do Tipo É Proibido, É Necessário e É Bom*, expressões formadas pelo verbo ser mais adjetivo qualificando um substantivo genérico seguem uma regra polarizada pela presença do artigo.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os sonegadores foram levados à Justiça". De acordo com a teoria estudada em *2.3 Transmissão de Impessoalidade ao Verbo Auxiliar nas Locuções*, "Podem ocorrer novas diligências." (Correto, sujeito plural novas diligências ).
+> - **E)** **Correta.** Conforme fundamentado na seção *6. Teoria Geral e Emprego do Sinal Indicativo de Crase* deste guia, a palavra crase (do grego krâsis ) significa fusão, mistura ou coalescência fonética de dois sons vocálicos idênticos em um só. Na escrita da língua portuguesa, o fenômeno da crase é representado visualmente pelo acento grave ( \grave{a} ). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "O artigo dirige seu foco para às novas funções".
+>
+> **Gabarito: E**
+
+---
+
+### Teste 010
+**(FGV – TRT/DA – 2025 – Tecnico Judiciario Area Administrativa Agente Da Policia Judicial)**
+No fragmento a seguir, “...presta também um grande serviço à medicina.” o uso do acento grave indicativo da crase está correto. Assinale a frase em que a utilização do acento grave indicativo da crase também está correta.
+
+* **A)** Todos queriam ver à cena de perto.
+* **B)** Não à mal que sempre dure.
+* **C)** Assistiu à cena e se maravilhou.
+* **D)** Observou à paisagem de longe.
+* **E)** Falava palavrões à torto e a direito.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Todos queriam ver à cena de perto". De acordo com a teoria estudada em *4.2 O Cardápio dos Verbos Preferidos da FCC*, assistir: VTI — Preposição a — Ver, presenciar — "O auditor assistiu à sessão plenária." (rejeita lhe ; usa se a ela ).
+> - **B)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "Não à mal que sempre dure". De acordo com a teoria estudada em *6.3 Casos de Crase Proibida*, antes de Palavras Masculinas: Diante de vocábulos do gênero masculino não existe artigo definido feminino: "Andou a pé" , "Pagou a prazo" , "Andava a cavalo" , "Assistiu a espetáculos".
+> - **C)** **Correta.** Conforme fundamentado na seção *6. Teoria Geral e Emprego do Sinal Indicativo de Crase* deste guia, a palavra crase (do grego krâsis ) significa fusão, mistura ou coalescência fonética de dois sons vocálicos idênticos em um só. Na escrita da língua portuguesa, o fenômeno da crase é representado visualmente pelo acento grave ( \grave{a} ). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/DA/2025) ao estabelecer que "Assistiu à cena e se maravilhou".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Observou à paisagem de longe". De acordo com a teoria estudada em *4.2 O Cardápio dos Verbos Preferidos da FCC*, assistir: VTD ou VTI — Direto ou a — Ajudar, socorrer — "O médico assistiu o/ao paciente enfermo.".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Falava palavrões à torto e a direito". De acordo com a teoria estudada em *4.2 O Cardápio dos Verbos Preferidos da FCC*, assistir: VTI — Preposição a — Competir, caber — "Este direito assiste ao cidadão / assiste lhe.".
+>
+> **Gabarito: C**
+
+---
+

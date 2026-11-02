@@ -199,6 +199,216 @@ flowchart TD
 
 ---
 
+### Teste 001
+**(CEBRASPE – TRF 6ª – 2025 – Analista Judiciário - Apoio Especializado - Governança e Gestão de Tecnologia da Informação)**
+O grupo revisor de código-fonte das soluções da PDPJ-Br pode aceitar merge requests no código-fonte sem a necessidade de aprovação de testes, desde que a funcionalidade desenvolvida atenda às necessidades operacionais.
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Incorreta.** A proposição apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O grupo revisor de código fonte das soluções da PDPJ Br pode aceitar merge requests no código fonte sem a...". De acordo com a teoria em *1.2 Trunk-Based Development (TBD): Filosofia, Feature Flags e Branch by Abstraction*, branch by Abstraction: Padrão arquitetural em nível de código fonte utilizado para refatorar subsistemas complexos diretamente no trunk: cria se uma interface/abstração intermediária entre o chamador e a implementação legada; implementa se o novo componente gradualmente; redireciona se o chamador para a nova implementação; e expurga se o código legado do repositório, sem a necessidade de criar branches paralelas de longa duração.
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
+>
+> **Gabarito: E**
+
+---
+
+### Teste 002
+**(CEBRASPE – TRF 6ª – 2025 – Analista Judiciário - Apoio Especializado - Governança e Gestão de Tecnologia da Informação)**
+No RabbitMQ, a forma padrão de se distribuir mensagens é round-robin, de modo que cada consumidor terá, em média, o mesmo número de mensagens. 120 git branch -D test A execução do comando precedente excluirá a branch test caso todos os commits tenham sido realizados; porém, se a master estiver em estado de check-out, a exclusão será cancelada.
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *3.2 O Arquivo `CODEOWNERS` e Revisões Bloqueantes*, mecânica de Aplicação: Quando um desenvolvedor abre uma Pull Request alterando qualquer arquivo coberto pelas regras do CODEOWNERS , a plataforma Git adiciona automaticamente e de forma obrigatória as equipes ou usuários especificados como revisores bloqueantes. O merge da PR torna se tecnicamente impossível até que os proprietários do código tenham revisado e concedido a aprovação. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRF 6ª/2025) ao afirmar que "No RabbitMQ, a forma padrão de se distribuir mensagens é round robin, de modo que cada consumidor terá, em...".
+> - **E)** **Incorreta.** A assertiva não incorre em erro conceitual, guardando conformidade com a teoria estudada.
+>
+> **Gabarito: C**
+
+---
+
+### Teste 003
+**(CEBRASPE – STJ – 2024 – Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação)**
+O merge request será aceito se pelo menos dois tribunais, distintos daquele que houver desenvolvido a funcionalidade ou solução, aprovarem-no. Em consonância com a Portaria CNJ n.º 162/2021, julgue os itens seguintes, relativos à Estratégia Nacional de Segurança Cibernética do Poder Judiciário.
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Incorreta.** A proposição apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O merge request será aceito se pelo menos dois tribunais, distintos daquele que houver desenvolvido a...". De acordo com a teoria em *1. Modelos e Estratégias de Branching*, a estratégia de ramificação ( branching strategy ) estabelece as regras e convenções que orientam como desenvolvedores criam branches, integram códigos, isolam novas funcionalidades e estabilizam versões para publicação. A escolha inadequada de um modelo de ramificação é a principal causadora do chamado "Merge Hell" — o cenário traumático em que múltiplas branches isoladas divergem por semanas ou meses, acumulando centenas de conflitos de mesclagem de resolução complexa e arriscada.
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
+>
+> **Gabarito: E**
+
+---
+
+### Teste 004
+**(CEBRASPE – STJ – 2024 – Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação)**
+O comando Git a seguir, ao ser executado, copiará todo o conteúdo do repositório local para o repositório remoto git, e, por padrão, fará a mesclagem com a branch master. git clone --bare -l /home/projetox/ .git/pub/projetox
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Incorreta.** A proposição apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O comando Git a seguir, ao ser executado, copiará todo o conteúdo do repositório local para o repositório...". De acordo com a teoria em *1. Ramos Perenes (Long-Lived Branches)*, main (ou master ): Armazena exclusivamente o código em estado de prontidão para produção ou que já está rodando nos servidores produtivos. Cada commit na branch main representa um release oficial de software e deve ser compulsoriamente etiquetado com uma tag semântica (ex.: v1.0.0 , v1.1.0 ).
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
+>
+> **Gabarito: E**
+
+---
+
+### Teste 005
+**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Desenvolvimento De Sistemas)**
+A analista Cátia criou o branch tarefa10 em um repositório Git local. Logo após, Cátia alternou o branch de trabalho atual para o branch recém-criado, tarefa10. Estando no branch local tarefa10, Cátia precisou renomear o branch para t10_concluida, com um único comando da ferramenta git. Para renomear o branch de trabalho atual com um único comando, Cátia executou no repositório Git local o comando do git:
+
+* **A)** mv t10_concluida;
+* **B)** reset t10_concluida;
+* **C)** rebase t10_concluida;
+* **D)** branch -m t10_concluida;
+* **E)** checkout -b t10_concluida.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "mv t10 concluida". De acordo com a teoria estudada em *2.2 Squash and Merge (`git merge --squash`)*, operação Subjacente: Coleta todas as modificações introduzidas pelos múltiplos commits da branch de trabalho, une as em uma única alteração atômica e registra um único e coeso commit novo no topo da branch de destino, descartando os commits individuais intermediários.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "reset t10 concluida". De acordo com a teoria estudada em *2.1 Create a Merge Commit (`git merge --no-ff`)*, operação Subjacente: Executa um merge do tipo no fast forward . Cria um nó de commit especial na árvore do Git que possui dois nós pais: o último commit da branch de destino e o último commit da branch de trabalho.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "rebase t10 concluida". De acordo com a teoria estudada em *2.3 Rebase and Merge (`git rebase`)*, operação Subjacente: Pega os commits individuais da branch de trabalho e os reaplica um a um sobre a ponta mais recente da branch de destino, gerando um histórico estritamente linear sem nós de merge intermediários.
+> - **D)** **Correta.** Conforme fundamentado na seção *2.2 Squash and Merge (`git merge --squash`)* deste guia, vantagens: Mantém o histórico do branch principal ( main ) estritamente limpo, coeso e legível. Cada commit na main corresponde a uma entrega funcional completa ( atomic commit ). Facilita drasticamente a identificação de bugs via git bisect e a reversão de falhas em produção via um único comando git revert <hash. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "branch m t10 concluida".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "checkout b t10 concluida". De acordo com a teoria estudada em *1.2 Trunk-Based Development (TBD): Filosofia, Feature Flags e Branch by Abstraction*, branch by Abstraction: Padrão arquitetural em nível de código fonte utilizado para refatorar subsistemas complexos diretamente no trunk: cria se uma interface/abstração intermediária entre o chamador e a implementação legada; implementa se o novo componente gradualmente; redireciona se o chamador para a nova implementação; e expurga se o código legado do repositório, sem a necessidade de criar branches paralelas de longa duração.
+>
+> **Gabarito: D**
+
+---
+
+### Teste 006
+**(CEBRASPE – TRF/6 – 2025 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao)**
+No RabbitMQ, a forma padrão de se distribuir mensagens é round-robin, de modo que cada consumidor terá, em média, o mesmo número de mensagens. 110 git branch -D test A execução do comando precedente excluirá a branch test caso todos os commits tenham sido realizados; porém, se a master estiver em estado de check-out, a exclusão será cancelada.
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Incorreta.** A proposição apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "No RabbitMQ, a forma padrão de se distribuir mensagens é round robin, de modo que cada consumidor terá, em...". De acordo com a teoria em *3.2 O Arquivo `CODEOWNERS` e Revisões Bloqueantes*, mecânica de Aplicação: Quando um desenvolvedor abre uma Pull Request alterando qualquer arquivo coberto pelas regras do CODEOWNERS , a plataforma Git adiciona automaticamente e de forma obrigatória as equipes ou usuários especificados como revisores bloqueantes. O merge da PR torna se tecnicamente impossível até que os proprietários do código tenham revisado e concedido a aprovação.
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
+>
+> **Gabarito: E**
+
+---
+
+### Teste 007
+**(FGV – TRT 16ª – 2022 – Analista Judiciário (Área Administrativa - Tecnologia da Informação))**
+O comando que pode ser executado na ferramenta de versionamento Git para exibir a lista dos arquivos alterados no diretório de trabalho local é
+
+* **A)** git fetch
+* **B)** git gc
+* **C)** git status
+* **D)** git prune
+* **E)** git remote
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "git fetch". De acordo com a teoria estudada em *🌐 Fontes Oficiais e Referências Bibliográficas*, gitHub Documentation Managing Protected Branches and Pull Requests Regras de proteção, revisões obrigatórias (code review) e status checks.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "git gc". De acordo com a teoria estudada em *2.1 Create a Merge Commit (`git merge --no-ff`)*, desvantagens: Pode transformar o grafo visual do repositório em uma "teia de espaguete" de difícil interpretação, repleta de commits triviais como "wip" , "corrigindo typo" ou "ajuste de teste".
+> - **C)** **Correta.** Conforme fundamentado na seção *3.1 Regras de Proteção de Branches (Branch Protection Rules)* deste guia, aprovação Obrigatória em Verificações de Status do CI ( Required Status Checks ): Exige que suítes de testes unitários, checagens de linter e análises de vulnerabilidades executadas nos runners de CI reportem sucesso obrigatório antes que o botão de merge seja liberado. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 16ª/2022) ao estabelecer que "git status".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "git prune". De acordo com a teoria estudada em *2.2 Squash and Merge (`git merge --squash`)*, vantagens: Mantém o histórico do branch principal ( main ) estritamente limpo, coeso e legível. Cada commit na main corresponde a uma entrega funcional completa ( atomic commit ). Facilita drasticamente a identificação de bugs via git bisect e a reversão de falhas em produção via um único comando git revert <hash.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "git remote". De acordo com a teoria estudada em *1.1 O Modelo Git Flow: Ramos Perenes e Ramos Temporários*, formalizado por Vincent Driessen em 2010, o Git Flow foi concebido para produtos de software que operam com ciclos de lançamento formais e programados com versionamento semântico estrito (como distribuições empacotadas para desktop, aplicativos de smartphone em lojas de apps e sistemas legados com janelas mensais ou trimestrais de homologação).
+>
+> **Gabarito: C**
+
+---
+
+### Teste 008
+**(FCC – TRT 13ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
+Paulo está executando o Git no Linux. Ele tem um repositório Git e um checkout ou cópia funcional dos arquivos para o projeto atual. Cada arquivo, no diretório de trabalho de Paulo, pode estar em um de dois estados: monitorado ou não monitorado. Arquivos monitorados são arquivos que estavam no último snapshot; podendo estar inalterados, modificados ou selecionados. Arquivos não monitorados são os restantes. Para Paulo verificar, em linha de comando, quais arquivos estão em quais estados ele utilizou o comando git status. Em seguida, ele adicionou um novo arquivo chamado trt ao projeto. Para passar a monitorar este arquivo ele deve usar o comando
+
+* **A)** git add trt
+* **B)** git -a --sx trt
+* **C)** git state trt
+* **D)** git fetch trt
+* **E)** git -mu trt
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *2.1 Create a Merge Commit (`git merge --no-ff`)* deste guia, operação Subjacente: Executa um merge do tipo no fast forward . Cria um nó de commit especial na árvore do Git que possui dois nós pais: o último commit da branch de destino e o último commit da branch de trabalho. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 13ª/2014) ao estabelecer que "git add trt".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "git a sx trt". De acordo com a teoria estudada em *2.2 Squash and Merge (`git merge --squash`)*, vantagens: Mantém o histórico do branch principal ( main ) estritamente limpo, coeso e legível. Cada commit na main corresponde a uma entrega funcional completa ( atomic commit ). Facilita drasticamente a identificação de bugs via git bisect e a reversão de falhas em produção via um único comando git revert <hash.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "git state trt". De acordo com a teoria estudada em *2.1 Create a Merge Commit (`git merge --no-ff`)*, desvantagens: Pode transformar o grafo visual do repositório em uma "teia de espaguete" de difícil interpretação, repleta de commits triviais como "wip" , "corrigindo typo" ou "ajuste de teste".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "git fetch trt". De acordo com a teoria estudada em *1.3 O Modelo GitHub Flow*, cria se uma branch descritiva diretamente a partir da main (ex.: add oauth2 support ).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "git mu trt". De acordo com a teoria estudada em *2.2 Squash and Merge (`git merge --squash`)*, operação Subjacente: Coleta todas as modificações introduzidas pelos múltiplos commits da branch de trabalho, une as em uma única alteração atômica e registra um único e coeso commit novo no topo da branch de destino, descartando os commits individuais intermediários.
+>
+> **Gabarito: A**
+
+---
+
+### Teste 009
+**(FGV – TRT/13 – 2022 – Analista Judiciario Tecnologia Da Informacao)**
+Sobre os comandos da ferramenta de controle de versões Git, é correto afirmar que
+
+* **A)** o comando git add altera simultaneamente os repositórios local e remoto.
+* **B)** o comando git commit envia para o repositório remoto as alterações no espaço de trabalho local.
+* **C)** o comando git status faz o download do repositório remoto para o espaço de trabalho local.
+* **D)** o comando git push somente faz o upload das alterações que já estão em um commit.
+* **E)** o comando git pull resolve automaticamente qualquer conflito entre os códigos dos repositórios local e remoto.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o comando git add altera simultaneamente os repositórios local e remoto". De acordo com a teoria estudada em *3.1 Regras de Proteção de Branches (Branch Protection Rules)*, bloqueio de Forçamento de Histórico ( Block Force Pushes ): Desativa compulsoriamente a permissão para executar comandos git push force , impedindo a reescrita deliberada ou acidental do histórico versionado.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o comando git commit envia para o repositório remoto as alterações no espaço de trabalho local". De acordo com a teoria estudada em *2.1 Create a Merge Commit (`git merge --no-ff`)*, desvantagens: Pode transformar o grafo visual do repositório em uma "teia de espaguete" de difícil interpretação, repleta de commits triviais como "wip" , "corrigindo typo" ou "ajuste de teste".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o comando git status faz o download do repositório remoto para o espaço de trabalho local". De acordo com a teoria estudada em *2.1 Create a Merge Commit (`git merge --no-ff`)*, operação Subjacente: Executa um merge do tipo no fast forward . Cria um nó de commit especial na árvore do Git que possui dois nós pais: o último commit da branch de destino e o último commit da branch de trabalho.
+> - **D)** **Correta.** Conforme fundamentado na seção *2.2 Squash and Merge (`git merge --squash`)* deste guia, vantagens: Mantém o histórico do branch principal ( main ) estritamente limpo, coeso e legível. Cada commit na main corresponde a uma entrega funcional completa ( atomic commit ). Facilita drasticamente a identificação de bugs via git bisect e a reversão de falhas em produção via um único comando git revert <hash. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/13/2022) ao estabelecer que "o comando git push somente faz o upload das alterações que já estão em um commit".
+> - **E)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "o comando git pull resolve automaticamente qualquer conflito entre os códigos dos repositórios local e remoto". De acordo com a teoria estudada em *3.2 O Arquivo `CODEOWNERS` e Revisões Bloqueantes*, mecânica de Aplicação: Quando um desenvolvedor abre uma Pull Request alterando qualquer arquivo coberto pelas regras do CODEOWNERS , a plataforma Git adiciona automaticamente e de forma obrigatória as equipes ou usuários especificados como revisores bloqueantes. O merge da PR torna se tecnicamente impossível até que os proprietários do código tenham revisado e concedido a aprovação.
+>
+> **Gabarito: D**
+
+---
+
+### Teste 010
+**(FCC – TRT 2ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
+No sistema de controle de versões Git, para efetuar o download dos commits de um repositório remoto para o repositório local é utilizado o comando git
+
+* **A)** apply.
+* **B)** get.
+* **C)** push.
+* **D)** fetch.
+* **E)** update.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "apply". De acordo com a teoria estudada em *2.1 Create a Merge Commit (`git merge --no-ff`)*, desvantagens: Pode transformar o grafo visual do repositório em uma "teia de espaguete" de difícil interpretação, repleta de commits triviais como "wip" , "corrigindo typo" ou "ajuste de teste".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "get". De acordo com a teoria estudada em *1.2 Trunk-Based Development (TBD): Filosofia, Feature Flags e Branch by Abstraction*, branch by Abstraction: Padrão arquitetural em nível de código fonte utilizado para refatorar subsistemas complexos diretamente no trunk: cria se uma interface/abstração intermediária entre o chamador e a implementação legada; implementa se o novo componente gradualmente; redireciona se o chamador para a nova implementação; e expurga se o código legado do repositório, sem a necessidade de criar branches paralelas de longa duração.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "push". De acordo com a teoria estudada em *3.1 Regras de Proteção de Branches (Branch Protection Rules)*, bloqueio de Push Direto ( Require a pull request before merging ): Impede que qualquer desenvolvedor envie commits diretamente para a branch principal sem a abertura de uma Pull Request formal.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.4 O Modelo GitLab Flow (Ambientes e Versões)* deste guia, utilizado quando uma organização precisa manter suporte a múltiplas versões ativas de um mesmo software distribuído (ex.: versões 1.x, 2.x e 3.x). Correções de bugs são aplicadas primeiro na main e depois retroalimentadas ( backported ) nas branches de versão ativas através de comandos git cherry pick. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 2ª/2014) ao estabelecer que "fetch".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "update". De acordo com a teoria estudada em *2.2 Squash and Merge (`git merge --squash`)*, vantagens: Mantém o histórico do branch principal ( main ) estritamente limpo, coeso e legível. Cada commit na main corresponde a uma entrega funcional completa ( atomic commit ). Facilita drasticamente a identificação de bugs via git bisect e a reversão de falhas em produção via um único comando git revert <hash.
+>
+> **Gabarito: D**
+
+---
+
 ## 3. Governança, Regras de Proteção de Branches e `CODEOWNERS`
 
 Em instituições governamentais e órgãos de controle externo como o TCE-GO, os repositórios de código constituem ativos estratégicos sujeitos a rígidos requisitos de conformidade, trilhas de auditoria e segregação de funções.

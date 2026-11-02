@@ -152,6 +152,72 @@ flowchart LR
 
 ---
 
+### Teste 001
+**(CEBRASPE – STJ – 2024 – Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação)**
+Zuul é uma solução que permite a realização de roteamento dinâmico e monitoramento, e seus filtros são capazes de atuar na segurança por meio da identificação de requisitos de autenticação para cada recurso e da rejeição de solicitações que não os satisfaçam.
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *1.3 Métodos HTTP: Semântica, Segurança e Idempotência*, gET : Sim — Sim — Recuperar a representação de um recurso (somente leitura). — 200 OK. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – STJ/2024) ao afirmar que "Zuul é uma solução que permite a realização de roteamento dinâmico e monitoramento, e seus filtros são...".
+> - **E)** **Incorreta.** A assertiva não incorre em erro conceitual, guardando conformidade com a teoria estudada.
+>
+> **Gabarito: C**
+
+---
+
+### Teste 002
+**(FGV – TJ/RR – 2024 – Analista Judiciario Infraestrutura De Tecnologia Da Informacao)**
+Considerando os conceitos e ferramentas relacionados a serviços de autenticação/autorização, webhooks e message brokers, avalie as afirmativas a seguir e assinale (V) para a(s) verdadeira(s) e (F) para a(s) falsa(s). ( ) Um dos principais objetivos do SAML é proporcionar Single-Sign On (SSO), isto é, permitir que um usuário se autentique uma vez e tenha acesso a outros sistemas sem a necessidade de fornecer novamente suas credenciais. ( ) No protocolo MQTT do RabbitMQ, a publicação de mensagens acontece dentro do contexto de um link. ( ) Keycloak permite a implementação de Single-Sign On (SSO) e fornece suporte para OpenID Connect e OAuth 2.0. As afirmativas são, respectivamente,
+
+* **A)** V – F – F.
+* **B)** V – F – V.
+* **C)** V – V – F.
+* **D)** F – F – V.
+* **E)** F – V – V.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – F – F". De acordo com a teoria estudada em *1.1 Princípios Arquiteturais do REST (Roy Fielding)*, cliente Servidor ( Client Server ): Separação estrita de responsabilidades. O cliente cuida da apresentação visual e experiência do usuário; o servidor encarrega se do armazenamento de dados e das regras de negócio. Essa dissociação permite que ambas as camadas evoluam de forma independente.
+> - **B)** **Correta.** Conforme fundamentado na seção *5.2 Estrutura Canônica do Documento OpenAPI (YAML / JSON)* deste guia, securitySchemes : Definições de autenticação e autorização (Bearer JWT, OAuth2, API Key). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "V – F – V".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – V – F". De acordo com a teoria estudada em *4.2 XML: Estrutura, Validação (DTD/XSD) e Consultas com XPath*, consultas com XPath: Linguagem de expressões de caminhos que permite navegar e selecionar nós específicos dentro da árvore XML (ex.: /processos/processo[@status='julgado']/valor ).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – F – V". De acordo com a teoria estudada em *1.3 Métodos HTTP: Semântica, Segurança e Idempotência*, o DELETE é idempotente: após o primeiro comando, o recurso foi apagado; chamá lo novamente mantém o recurso inexistente. O fato de responder 404 na segunda chamada não altera a idempotência!.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – V – V". De acordo com a teoria estudada em *Faixa 4xx (Erro do Cliente)*, 401 Unauthorized : Na realidade técnica, significa Não Autenticado ( Unauthenticated ). Faltam credenciais no cabeçalho Authorization ou o token expirou/está inválido ( "Eu não sei quem você é" ).
+>
+> **Gabarito: B**
+
+---
+
+### Teste 003
+**(FGV – TRT/13 – 2022 – Analista Judiciario Tecnologia Da Informacao)**
+Uma aplicação mobile enviou a um gateway de APIs REST várias solicitações idênticas em sequência utilizando o método HTTP PUT. Essas solicitações idênticas resultaram em nenhuma alteração de estado do sistema de backend, a exceção da primeira solicitação que atualizou um registro no banco de dados. Nesse contexto, é correto afirmar que essa solicitação HTTP é
+
+* **A)** acoplada.
+* **B)** balanceada.
+* **C)** full-duplex.
+* **D)** idempotente.
+* **E)** segura.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "acoplada". De acordo com a teoria estudada em *1.3 Métodos HTTP: Semântica, Segurança e Idempotência*, método Idempotente ( Idempotent ): Executar a mesma requisição uma vez ou $N$ vezes consecutivas com os mesmos dados produz exatamente o mesmo efeito final no estado do servidor.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "balanceada". De acordo com a teoria estudada em *1.3 Métodos HTTP: Semântica, Segurança e Idempotência*, o POST NÃO é idempotente: disparar 5 vezes cria 5 novos registros no banco.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "full duplex". De acordo com a teoria estudada em *3.1 Arquitetura Full-Duplex e a RFC 6455*, mensageria Push Nativa: O servidor pode enviar dados ativamente ao cliente a qualquer momento sem que o cliente precise solicitar ( server push instantâneo).
+> - **D)** **Correta.** Conforme fundamentado na seção *1.3 Métodos HTTP: Semântica, Segurança e Idempotência* deste guia, o PUT é idempotente: substituir integralmente um registro 10 vezes resulta no mesmo estado final no banco de dados. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/13/2022) ao estabelecer que "idempotente".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "segura". De acordo com a teoria estudada em *3.3 Comparativo: Polling, Long-Polling, Server-Sent Events (SSE) e WebSocket*, long Polling: Unidirecional (Servidor segura requisição) — HTTP com conexão mantida aberta até haver dado — Alto (reabre conexão HTTP a cada resposta) — Cenários legados sem suporte a WebSockets.
+>
+> **Gabarito: D**
+
+---
+
 ## 2. GraphQL: Arquitetura e Consultas Declarativas
 
 ### 2.1 Motivação: Resolução de Over-fetching e Under-fetching

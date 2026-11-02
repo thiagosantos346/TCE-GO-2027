@@ -188,6 +188,162 @@ flowchart TD
 
 ---
 
+### Teste 001
+**(FGV – TJ/SC – 2026 – Analista Administrativo)**
+A Lei nº 12.527/2011 (Lei de Acesso à Informação) e a Lei Complementar nº 131/2009, que acrescentou dispositivos à Lei de Responsabilidade Fiscal, estabelecem deveres de divulgação de informações pelos órgãos e entidades públicos, distinguindo-se duas modalidades de prestação dessas informações, conforme exista ou não provocação do interessado. Na Secretaria Estadual de Planejamento, foram registradas, em determinada semana, as seguintes ocorrências: I. publicação espontânea, no portal eletrônico do órgão, dos dados relativos à execução orçamentária e financeira, com atualização em tempo real, contendo informações pormenorizadas sobre receitas e despesas; II. fornecimento de cópia integral de contrato administrativo a cidadão que apresentou requerimento formal por meio do Serviço de Informação ao Cidadão (SIC), no prazo legal de resposta; e III. divulgação, em sítio oficial, do rol de competências, da estrutura organizacional, dos endereços e telefones das respectivas unidades e dos horários de atendimento ao público, independentemente de qualquer solicitação. As ocorrências I, II e III correspondem, respectivamente, às hipóteses de transparência
+
+* **A)** passiva, ativa e passiva.
+* **B)** ativa, passiva e ativa.
+* **C)** ativa, ativa e passiva.
+* **D)** passiva, passiva e ativa.
+* **E)** ativa, passiva e passiva.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "passiva, ativa e passiva". De acordo com a teoria estudada em *4.2 A Divulgação no PNCP como Requisito Indispensável de Eficácia (Art. 94)*, a publicação no Diário Oficial e em jornais de grande circulação não substitui a divulgação no PNCP. Sem a veiculação tempestiva no PNCP, o contrato administrativo é considerado inoperante, carecendo de eficácia jurídica para produzir obrigações e autorizar pagamentos com recursos públicos.
+> - **B)** **Correta.** Conforme fundamentado na seção *4.1 Natureza e Atribuições Centrais do Portal* deste guia, o Portal Nacional de Contratações Públicas (PNCP), disciplinado pelos arts. 174 a 176 da Lei nº 14.133/2021, é o sítio eletrônico oficial único de divulgação de compras públicas gerido pelo Comitê Gestor da Rede Nacional de Contratações Públicas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/SC/2026) ao estabelecer que "ativa, passiva e ativa".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ativa, ativa e passiva". De acordo com a teoria estudada em *3.1 Plano de Contratações Anual (PCA) e Integração Orçamentária*, seu objetivo primordial é racionalizar as compras públicas, viabilizar o ganho de escala e garantir a perfeita compatibilização das despesas com as metas do Plano Plurianual (PPA), da Lei de Diretrizes Orçamentárias (LDO) e da Lei Orçamentária Anual (LOA).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "passiva, passiva e ativa". De acordo com a teoria estudada em *5. Fontes Recomendadas na Internet*, nIEBUHR, Joel de Menezes. Licitação Pública e Contrato Administrativo. 6. ed. Belo Horizonte: Fórum, 2023. (Cap. 4 e Cap. 5 Planejamento da Contratação, Estudo Técnico Preliminar e PNCP).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ativa, passiva e passiva". De acordo com a teoria estudada em *4.2 A Divulgação no PNCP como Requisito Indispensável de Eficácia (Art. 94)*, "Art. 94. A divulgação no Portal Nacional de Contratações Públicas (PNCP) é condição indispensável para a eficácia do contrato e de seus aditamentos e deverá ocorrer nos seguintes prazos, contados da data de sua assinatura.
+>
+> **Gabarito: B**
+
+---
+
+### Teste 002
+**(FGV – TRT 16ª – 2022 – Analista Judiciário (Área Administrativa - Tecnologia da Informação))**
+João, Diretor de Licitações no âmbito da Administração Pública direta do Município Alfa, foi consultado por Maria sobre o documento necessário, previsto na Lei nº 14.133/2021, para a contratação de bens e serviços, isto com o objetivo de estabelecer os contornos básicos do objeto a ser contratado. João respondeu corretamente que
+
+* **A)** o projeto básico é o documento necessário à contratação de bens.
+* **B)** o anteprojeto é o documento necessário à contratação de bens e serviços.
+* **C)** o termo de referência é o documento necessário à referida contratação.
+* **D)** o projeto executivo é o documento necessário à contratação de bens e serviços.
+* **E)** a matriz de objeto e riscos é o documento necessário à contratação de serviços.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o projeto básico é o documento necessário à contratação de bens". De acordo com a teoria estudada em *3.3 Termo de Referência vs. Projeto Básico e Projeto Executivo*, projeto Básico (Art. 6º, XXV): Documento elaborado para obras e serviços de engenharia, contendo elementos técnicos precisos e consolidados que permitam a perfeita identificação do empreendimento e a estimativa de custos de cada etapa construtiva.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o anteprojeto é o documento necessário à contratação de bens e serviços". De acordo com a teoria estudada em *2.2 Comissão de Contratação e a Regra do Diálogo Competitivo*, hipóteses de Atuação: Bens e serviços especiais; procedimentos auxiliares; e obrigatoriamente no Diálogo Competitivo.
+> - **C)** **Correta.** Conforme fundamentado na seção *3.3 Termo de Referência vs. Projeto Básico e Projeto Executivo* deste guia, termo de Referência (TR Art. 6º, XXIII): Documento elaborado para a contratação de bens e serviços em geral, contendo os elementos técnicos necessários para caracterizar o objeto de forma clara, o modelo de execução, os critérios de medição e pagamento e os parâmetros de aceitabilidade das propostas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 16ª/2022) ao estabelecer que "o termo de referência é o documento necessário à referida contratação".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o projeto executivo é o documento necessário à contratação de bens e serviços". De acordo com a teoria estudada em *3.3 Termo de Referência vs. Projeto Básico e Projeto Executivo*, projeto Executivo (Art. 6º, XXVI): Conjunto dos elementos detalhados necessários e suficientes para a execução completa da obra civil.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a matriz de objeto e riscos é o documento necessário à contratação de serviços". De acordo com a teoria estudada em *5. Fontes Recomendadas na Internet*, dI PIETRO, Maria Sylvia Zanella. Direito Administrativo. 37. ed. Rio de Janeiro: Forense, 2024. (Cap. 9 Licitação Pública: Princípios, Governança, ETP, Termo de Referência e Matriz de Riscos).
+>
+> **Gabarito: C**
+
+---
+
+### Teste 003
+**(FGV – TRF/1 – 2024 – Analista Judiciario Area Apoio Especializado Especialidade Suporte Em Tecnologia Da Informacao)**
+Para além dos princípios previstos expressamente no Art. 37, caput, da CRFB/1988, as normas que versam sobre direito administrativo costumam elencar outros princípios relacionados às respectivas matérias (setoriais), tal como se observa no Art. 2º da Lei nº 9.784/1999, que trata do processo administrativo, e no Art. 5º da Lei nº 14.133/2021, que trata de licitações e contratos. Nesse contexto, os princípios que NÃO estão no aludido dispositivo constitucional, mas que constam textualmente das referidas normas, são, respectivamente:
+
+* **A)** impessoalidade e vinculação ao edital;
+* **B)** segregação de funções e moralidade;
+* **C)** motivação e publicidade;
+* **D)** proporcionalidade e planejamento;
+* **E)** probidade administrativa e eficiência. Noções de Direito Constitucional
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "impessoalidade e vinculação ao edital". De acordo com a teoria estudada em *1. Princípios Gerais e Regime da Lei Federal nº 14.133/2021 (NLLC)*, a Lei Federal nº 14.133/2021 (Nova Lei de Licitações e Contratos Administrativos NLLC) consolidou o regime jurídico das compras públicas no Brasil, revogando expressamente a Lei nº 8.666/1993, a Lei do Pregão (Lei nº 10.520/2002) e o Regime Diferenciado de Contratações Públicas (RDC Lei nº 12.462/2011).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "segregação de funções e moralidade". De acordo com a teoria estudada em *5. Fontes Recomendadas na Internet*, jUSTEN FILHO, Marçal. Comentários à Lei de Licitações e Contratações Administrativas: Lei 14.133/2021. 2. ed. São Paulo: Thomson Reuters Brasil, 2023. (Comentários aos arts. 5º a 27 Governança, Agentes de Contratação, Segregação de Funções e Fase Preparatória).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "motivação e publicidade". De acordo com a teoria estudada em *3. Planejamento das Contratações e Instrumentos Preparatórios*, a Lei nº 14.133/2021 consagrou a centralidade da fase preparatória, superando a cultura de contratações improvisadas.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.1 Âmbito de Aplicação Subjetivo e Objetos Abrangidos* deste guia, princípios Expressos (Art. 5º): Legalidade, impessoalidade, moralidade, publicidade, eficiência, interesse público, probidade administrativa, igualdade, planejamento, transparência, eficácia, segregação de funções, motivação, vinculação ao edital, julgamento objetivo, segurança jurídica, razoabilidade, proporcionalidade, celeridade, economicidade e desenvolvimento nacional sustentável. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF/1/2024) ao estabelecer que "proporcionalidade e planejamento".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "probidade administrativa e eficiência. Noções de Direito Constitucional". De acordo com a teoria estudada em *5. Fontes Recomendadas na Internet*, constituição Federal de 1988 Art. 37, XXI (Obrigatoriedade Constitucional de Licitar).
+>
+> **Gabarito: D**
+
+---
+
+### Teste 004
+**(CEBRASPE – STF – 2013 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+Estudos técnicos preliminares, plano de trabalho, no caso da contratação de serviços, e o termo de referência ou projeto básico são requisitos mínimos exigidos no processo de planejamento da contratação de soluções em TI.
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *3.3 Termo de Referência vs. Projeto Básico e Projeto Executivo*, termo de Referência (TR Art. 6º, XXIII): Documento elaborado para a contratação de bens e serviços em geral, contendo os elementos técnicos necessários para caracterizar o objeto de forma clara, o modelo de execução, os critérios de medição e pagamento e os parâmetros de aceitabilidade das propostas. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – STF/2013) ao afirmar que "Estudos técnicos preliminares, plano de trabalho, no caso da contratação de serviços, e o termo de referência...".
+> - **E)** **Incorreta.** A assertiva não incorre em erro conceitual, guardando conformidade com a teoria estudada.
+>
+> **Gabarito: C**
+
+---
+
+### Teste 005
+**(CEBRASPE – STJ – 2015 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+Se determinado órgão estiver participando de uma licitação para registro de preços, será obrigatória a elaboração da análise de riscos na fase de planejamento da contratação. De acordo com a norma ISO 20000, que regulamenta o padrão para gerenciamento de serviços de TI, julgue os itens que se seguem.
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Incorreta.** A proposição apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Se determinado órgão estiver participando de uma licitação para registro de preços, será obrigatória a...". De acordo com a teoria em *4.1 Natureza e Atribuições Centrais do Portal*, suas atribuições envolvem centralizar a publicação de editais, atas de registro de preços, planos anuais de contratações, catálogos eletrônicos de padronização e o cadastro unificado de fornecedores impedidos e inidôneos.
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
+>
+> **Gabarito: E**
+
+---
+
+### Teste 006
+**(FCC – TRT 16ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
+O Capítulo II da Instrução Normativa MP/SLTI no 04, de 12 de novembro de 2010, está divido em 3 seções que contemplam todo o procedimento para execução das fases de Planejamento da Contratação, Seleção de Fornecedor e Gerenciamento do Contrato. Na Seção II do capítulo II, que trata da Seleção de Fornecedor, afirma-se que
+
+* **A)** a fase de Seleção do Fornecedor se encerrará com a assinatura do contrato e com a nomeação do Gestor do Contrato.
+* **B)** caberá exclusivamente à Área Jurídica apoiar tecnicamente o pregoeiro ou a Comissão de Licitação na análise e julgamento das propostas e dos recursos apresentados pelos licitantes.
+* **C)** caberá exclusivamente à Área de Planejamento e Contratação apoiar tecnicamente o pregoeiro ou a Comissão de Licitação na resposta aos questionamentos ou às impugnações dos licitantes.
+* **D)** caberá à Área de Licitações conduzir as etapas da fase de Seleção do Fornecedor.
+* **E)** caberá à Área de Licitações analisar as sugestões feitas pela área de TI para o Termo de Referência ou Projeto Básico e demais documentos.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a fase de Seleção do Fornecedor se encerrará com a assinatura do contrato e com a nomeação do Gestor do Contrato". De acordo com a teoria estudada em *4.2 A Divulgação no PNCP como Requisito Indispensável de Eficácia (Art. 94)*, "Art. 94. A divulgação no Portal Nacional de Contratações Públicas (PNCP) é condição indispensável para a eficácia do contrato e de seus aditamentos e deverá ocorrer nos seguintes prazos, contados da data de sua assinatura.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "caberá exclusivamente à Área Jurídica apoiar tecnicamente o pregoeiro ou a Comissão de Licitação na análise e...". De acordo com a teoria estudada em *2.3 O Princípio da Segregação de Funções e Conflito de Interesses*, o agente que elabora o Estudo Técnico Preliminar e o Termo de Referência (fase interna) não deve conduzir o julgamento das propostas como agente de contratação (fase externa).
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "caberá exclusivamente à Área de Planejamento e Contratação apoiar tecnicamente o pregoeiro ou a Comissão de...". De acordo com a teoria estudada em *2.1 O Agente de Contratação e o Pregoeiro*, responsabilidade Individual: Responde individualmente pelos atos que praticar na condução do procedimento, salvo quando for induzido a erro pela atuação de sua equipe de apoio ou comissão.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.3 Governança das Contratações e Gestão por Competências* deste guia, exige gestão por competências, determinando que os agentes públicos designados para atuar na área de licitações possuam formação compatível ou qualificação atestada por certificação profissional emitida por escola de governo. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 16ª/2014) ao estabelecer que "caberá à Área de Licitações conduzir as etapas da fase de Seleção do Fornecedor".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "caberá à Área de Licitações analisar as sugestões feitas pela área de TI para o Termo de Referência ou Projeto...". De acordo com a teoria estudada em *3.3 Termo de Referência vs. Projeto Básico e Projeto Executivo*, termo de Referência (TR Art. 6º, XXIII): Documento elaborado para a contratação de bens e serviços em geral, contendo os elementos técnicos necessários para caracterizar o objeto de forma clara, o modelo de execução, os critérios de medição e pagamento e os parâmetros de aceitabilidade das propostas.
+>
+> **Gabarito: D**
+
+---
+
+### Teste 007
+**(FGV – TCE/SC – 2026 – Auditor Fiscal De Controle Externo Engenharia Sanitaria)**
+Nos contratos de prestação de serviços públicos de abastecimento de água e esgotamento sanitário, está previsto um instrumento, pelo qual se define a repartição objetiva de riscos entre as partes, para arcar com as consequências de eventos supervenientes à contratação que afetem o equilíbrio econômico-financeiro do contrato. Esse instrumento é denominado
+
+* **A)** equação econômico-financeira.
+* **B)** plano de investimentos.
+* **C)** estrutura tarifária.
+* **D)** revisão ordinária.
+* **E)** matriz de riscos.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "equação econômico financeira". De acordo com a teoria estudada em *3.4 Matriz de Alocação de Riscos e Equilíbrio Econômico-Financeiro*, vedação ao Reequilíbrio Econômico Financeiro (Art. 124, § 1º): Se determinado evento imprevisível ou oscilação de mercado ocorrer, mas sua responsabilidade financeira tiver sido previamente alocada à contratada na matriz de riscos, a empresa NÃO tem direito a aditivo de reequilíbrio econômico financeiro. O risco já foi precificado e assumido pela empresa em sua proposta licitatória originária.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "plano de investimentos". De acordo com a teoria estudada em *3.4 Matriz de Alocação de Riscos e Equilíbrio Econômico-Financeiro*, mR OBRIG["OBRIGATÓRIA em:<br/ 1. Contratações de GRANDE VULTO ( R$ 200 milhões)<br/ 2. Regimes de Contratação INTEGRADA e SEMI INTEGRADA"].
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "estrutura tarifária". De acordo com a teoria estudada em *3.4 Matriz de Alocação de Riscos e Equilíbrio Econômico-Financeiro*, obrigatoriedade: É obrigatória nas contratações de grande vulto (valor que ultrapassa R$ 200.000.000,00) e nos regimes de contratação integrada e semi integrada.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "revisão ordinária". De acordo com a teoria estudada em *3.4 Matriz de Alocação de Riscos e Equilíbrio Econômico-Financeiro*, mR["Matriz de Alocação de Riscos (Art. 22)"].
+> - **E)** **Correta.** Conforme fundamentado na seção *3.4 Matriz de Alocação de Riscos e Equilíbrio Econômico-Financeiro* deste guia, a Matriz de Alocação de Riscos (art. 6º, XXVII e art. 22) é a cláusula contratual que promove a divisão objetiva e contratual de encargos financeiros e riscos supervenientes entre a Administração Pública e o contratado. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "matriz de riscos".
+>
+> **Gabarito: E**
+
+---
+
 ## 4. O Portal Nacional de Contratações Públicas (PNCP)
 
 ### 4.1 Natureza e Atribuições Centrais do Portal

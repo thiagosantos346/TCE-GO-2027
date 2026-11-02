@@ -149,6 +149,48 @@ Monossílabos tônicos terminados em *-i* ou *-u* (*ti, vi, tu, cru, nus*) não 
 
 ---
 
+### Teste 001
+**(CEBRASPE – TRT/10 – 2013 – Analista Judiciario Tecnologia Da Informacao)**
+As palavras “países”, “famílias” e “níveis” são acentuadas de acordo com a mesma regra de acentuação gráfica.
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Incorreta.** A proposição apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "As palavras “países”, “famílias” e “níveis” são acentuadas de acordo com a mesma regra de acentuação gráfica". De acordo com a teoria em *1. Sistema Geral de Acentuação Gráfica e Acordo Ortográfico*, posicao |Antepenúltima| Proparox["PROPAROXÍTONA<br/ Regra Absoluta:<br/ TODAS são acentuadas!<br/ (médico, público, déficit)"].
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
+>
+> **Gabarito: E**
+
+---
+
+### Teste 002
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Direito)**
+A língua portuguesa contém vocábulos com três acentuações tônicas: oxítonas, paroxítonas e proparoxítonas. Entre as opções abaixo, assinale aquela que mostra dois vocábulos com idêntica acentuação tônica (as palavras estão propositalmente sem acentos gráficos).
+
+* **A)** interim / decano.
+* **B)** prototipo / gratuito.
+* **C)** pesames / carater.
+* **D)** filantropo / maquinaria.
+* **E)** hipodromo / futil. Raciocínio Lógico Matemático
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "interim / decano". De acordo com a teoria estudada em *1. Sistema Geral de Acentuação Gráfica e Acordo Ortográfico*, a acentuação gráfica na língua portuguesa tem por objetivo assinalar, na escrita, a sílaba de maior intensidade fonética (sílaba tônica) de determinadas palavras e, em situações específicas, indicar o timbre aberto ou fechado da vogal. O sistema gráfico oficial brasileiro é regido pelo Acordo Ortográfico da Língua Portuguesa de 1990, promulgado no território nacional pelo Decreto nº 6.583/2008 e tornado obrigatório a partir de 1º de janeiro de 2016.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "prototipo / gratuito". De acordo com a teoria estudada em *1.1 Posição da Sílaba Tônica e Tonicidade Vocálica*, proparoxítonas (ou proparoxítonos): a sílaba tônica situa se na antepenúltima posição ( lâmp a da , ár vo re , vér ti ce ). Na língua portuguesa, nenhuma palavra de padrão vernáculo recebe tonicidade anterior à antepenúltima sílaba.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pesames / carater". De acordo com a teoria estudada em *1.3 Regra das Paroxítonas e Ditongos Orais*, r: revólver, açúcar, caráter, cadáver, éter.
+> - **D)** **Correta.** Conforme fundamentado na seção *1. Sistema Geral de Acentuação Gráfica e Acordo Ortográfico* deste guia, a estrutura acentual do idioma apoia se em um princípio de economia: a grande maioria dos vocábulos da língua portuguesa é paroxítona terminada nas vogais mais comuns ( a , e , o seguidas ou não de s ). Por essa razão estatística, tais vocábulos não recebem acento gráfico (como em mesa , parede , livro ). O acento é reservado àquelas palavras cuja terminação ou estrutura silábica contraria o padrão fonológico predominante. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "filantropo / maquinaria".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "hipodromo / futil. Raciocínio Lógico Matemático". De acordo com a teoria estudada em *4.3 Polissemia e Homonímia*, polissemia: Propriedade de uma única palavra que pode assumir múltiplos significados distintos a depender do contexto discursivo em que é empregada, preservando entretanto uma raiz semântica comum de parentesco conceitual ( "A <ins linha</ins de raciocínio do parecer" , "A <ins linha</ins telefônica do gabinete" , "A <ins linha</ins divisória do município" ).
+>
+> **Gabarito: D**
+
+---
+
 ## 2. Regras Especiais de Acentuação
 
 Além das regras gerais dependentes unicamente da terminação e da contagem silábica, o português adota regras que consideram a qualidade do encontro vocálico e a necessidade de desambiguação morfológica.

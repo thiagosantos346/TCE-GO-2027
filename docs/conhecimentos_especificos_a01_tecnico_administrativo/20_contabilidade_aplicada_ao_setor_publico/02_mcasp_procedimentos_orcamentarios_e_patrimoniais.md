@@ -91,6 +91,30 @@ No âmbito patrimonial (MCASP e NBC TSP Estrutura Conceitual), vigora o **regime
 
 ---
 
+### Teste 001
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Fiscalização - Contabilidade)**
+Em uma entidade do setor público, no Quadro das Contas de Compensação no Balanço Patrimonial, são considerados atos potenciais ativos, de acordo com o Manual de Contabilidade Aplicada ao Setor Público (MCASP):
+
+* **A)** garantias e contragarantias recebidas.
+* **B)** obrigações conveniadas e contratuais.
+* **C)** demandas judiciais e contas a pagar.
+* **D)** variações patrimoniais diminutivas pagas antecipadamente.
+* **E)** variações patrimoniais aumentativas recebidas
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *2.1 Variações Qualitativas (Permutativas) vs. Quantitativas (Modificativas)* deste guia, variação Patrimonial Aumentativa (VPA): Transação que eleva o PL (ex.: arrecadação de tributos não lançados, doações de bens recebidas de terceiros, juros ativos ganhos em aplicações). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "garantias e contragarantias recebidas".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "obrigações conveniadas e contratuais". De acordo com a teoria estudada em *🌐 Fontes Oficiais & Manuais Técnicos Recomendados*, fEIJÓ, Paulo Henrique et al. Curso de Contabilidade Aplicada ao Setor Público. 8. ed. Brasília: Gestão Pública, 2022. (Cap. 5 Variações Patrimoniais e Mensuração de Ativos).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "demandas judiciais e contas a pagar". De acordo com a teoria estudada em *🌐 Fontes Oficiais & Manuais Técnicos Recomendados*, tCE GO Prestação de Contas e Análise Patrimonial Normas do Tribunal de Contas para prestação de contas com evidenciação patrimonial e depreciação acumulada.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "variações patrimoniais diminutivas pagas antecipadamente". De acordo com a teoria estudada em *1. O Dualismo de Regimes na Contabilidade Pública (Orçamentário vs. Patrimonial)*, dualismo RegPat["2. REGIME PATRIMONIAL (NBC TSP / MCASP Parte II)<br/ • Variações Patrimoniais Aumentativas (VPA): Fato gerador econômico<br/ • Variações Patrimoniais Diminutivas (VPD): Fato gerador / consumo<br/ • Competência pura e integral para o Patrimônio Líquido"].
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "variações patrimoniais aumentativas recebidas". De acordo com a teoria estudada em *🌐 Fontes Oficiais & Manuais Técnicos Recomendados*, tesouro Transparente MCASP 11ª Edição (Parte II Procedimentos Patrimoniais PCP) Variações Patrimoniais Aumentativas (VPA), Diminutivas (VPD), mensuração de ativos, reavaliação, depreciação e provisões.
+>
+> **Gabarito: A**
+
+---
+
 ## 2. Variações Patrimoniais: Classificações e Origens
 
 ### 2.1 Variações Qualitativas (Permutativas) vs. Quantitativas (Modificativas)

@@ -70,6 +70,192 @@ flowchart TD
 
 ---
 
+### Teste 001
+**(CEBRASPE – STJ – 2024 – Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação)**
+É facultativa a execução da fase de planejamento da contratação de solução de TIC nos casos de inexigibilidade de licitação.
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Incorreta.** A proposição afasta requisito ou relação estrutural exigida pela matéria ao afirmar que "É facultativa a execução da fase de planejamento da contratação de solução de TIC nos casos de...". De acordo com a teoria em *1. Distinção Fundamental: Inexigibilidade x Dispensa de Licitação*, a regra geral insculpida no art. 37, XXI, da CF/88 impõe a obrigatoriedade de licitar para obras, serviços, compras e alienações no setor público. Todavia, a própria Constituição ressalva "os casos especificados na legislação". A Nova Lei de Licitações (Lei nº 14.133/2021) estrutura a contratação direta sem certame competitivo em duas categorias nucleares: a Inexigibilidade e a Dispensa.
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
+>
+> **Gabarito: E**
+
+---
+
+### Teste 002
+**(FGV – TRT da 24º Região – 2025 – Analista Judiciário - Área Administrativa - Sem Especialidade)**
+A Lei n.° 14.133/2021, além de modernizar as licitações e contratos administrativos, reforça as atribuições do gestor e do fiscal de contratos, promovendo uma gestão mais eficiente e transparente por meio do acompanhamento rigoroso e da garantia do cumprimento dos termos contratuais. Assinale a opção que apresenta corretamente disposições sobre o acompanhamento e a fiscalização da execução contratual.
+
+* **A)** A fiscalização contratual pode ser feita apenas por servidores ocupantes de cargos efetivos, sendo vedada a participação de terceiros no processo.
+* **B)** O fiscal do contrato pode delegar integralmente suas funções a terceiros contratados, que passam a responder exclusivamente pela execução do contrato.
+* **C)** O contrato será fiscalizado por um ou mais fiscais designados pela Administração, podendo contar com o auxílio de terceiros contratados, sem prejuízo das responsabilidades do fiscal.
+* **D)** A contratação de terceiros para auxiliar na fiscalização dispensa a Administração da designação de fiscais próprios.
+* **E)** O fiscal do contrato responde apenas por atos que extrapolem as informações prestadas por terceiros contratados para auxiliá-lo.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "A fiscalização contratual pode ser feita apenas por servidores ocupantes de cargos efetivos, sendo vedada a...". De acordo com a teoria estudada em *2.2 Pré-Qualificação Subjetiva e Objetiva (Art. 80)*, a pré qualificação é realizada mediante chamamento público aberto permanentemente. A validade da pré qualificação é de no máximo 1 (um) ano, podendo ser atualizada a qualquer tempo pelos interessados ou revogada de ofício pela Administração quando comprovada perda dos requisitos originais. A pré qualificação pode ser realizada em grupos ou segmentos determinados e sua existência permite agilizar certames posteriores com dispensa de reapresentação de documentos já convalidados.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "O fiscal do contrato pode delegar integralmente suas funções a terceiros contratados, que passam a responder...". De acordo com a teoria estudada em *2.5 Registro Cadastral Unificado (Art. 87)*, a Lei nº 14.133/2021 impõe a criação do sistema de registro cadastral unificado, operacionalizado no Portal Nacional de Contratações Públicas (PNCP), de acesso público e permanente. O registro cadastral simplifica a verificação de regularidade fiscal, trabalhista e qualificação econômico financeira de licitantes, dispensando os inscritos da apresentação física de certidões válidas já integradas digitalmente ao sistema.
+> - **C)** **Correta.** Conforme fundamentado na seção *5.3 Licitação Deserta, Fracassada e Remanescente de Contrato* deste guia, licitação Deserta (Art. 75, III, "a"): Licitação na qual não compareceu nenhum licitante interessado (ausência de propostas). A dispensa é autorizada se comprovado que nova licitação causaria prejuízo à Administração e desde que sejam mantidas todas as condições preestabelecidas no edital primitivo. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT da 24º Região/2025) ao estabelecer que "O contrato será fiscalizado por um ou mais fiscais designados pela Administração, podendo contar com o auxílio de...".
+> - **D)** **Incorreta.** A opção afasta requisito ou relação estrutural exigida pela matéria ao afirmar que "A contratação de terceiros para auxiliar na fiscalização dispensa a Administração da designação de fiscais próprios". De acordo com a teoria estudada em *2.1 Credenciamento (Art. 79)*, a Lei nº 14.133/2021 tratou o credenciamento sob dupla face: no art. 78, como procedimento auxiliar, e no art. 74, inciso IV, como modalidade expressa de inexigibilidade de licitação. Como não há disputa concorrencial entre os credenciados (todos que cumprem os requisitos são credenciados sob tabela prefixada), há inviabilidade jurídica de competição, caracterizando a inexigibilidade formal da contratação.
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "O fiscal do contrato responde apenas por atos que extrapolem as informações prestadas por terceiros contratados...". De acordo com a teoria estudada em *3. Processo Administrativo de Contratação Direta (Art. 72)*, o ato que autoriza a contratação direta ou o respectivo extrato de contrato deve ser publicado e divulgado obrigatoriamente no Portal Nacional de Contratações Públicas (PNCP) no prazo de 10 (dez) dias úteis, contado da data de sua assinatura, como condição indispensável para sua eficácia jurídica perante terceiros.
+>
+> **Gabarito: C**
+
+---
+
+### Teste 003
+**(FGV – TRF/1 – 2024 – Analista Judiciario Area Apoio Especializado Especialidade Suporte Em Tecnologia Da Informacao)**
+Tendo em vista que o Tribunal Regional da 1ª Região necessita adquirir determinados produtos, com muita frequência, para o adequado exercício de suas atribuições constitucionais, as autoridades competentes estão verificando as normas atinentes ao sistema de registro de preços, à luz do disposto na Lei nº 14.133/2021, sendo certo que tais produtos são considerados bens comuns e que é viável a competição, por existirem diversos fornecedores. Diante dessa situação hipotética, à luz do mencionado diploma legal, é correto afirmar que:
+
+* **A)** não é cabível a realização de licitação, por ser ela inexigível na situação descrita;
+* **B)** é cabível a realização de licitação, em qualquer das modalidades previstas na norma em comento, admissíveis na situação descrita;
+* **C)** não é cabível a realização de licitação, diante da possibilidade de escolha por qualquer das modalidades de contratação direta na situação descrita;
+* **D)** é cabível a realização de licitação, que deverá ser na modalidade pregão, que é a pertinente para a situação descrita;
+* **E)** não é cabível a realização de licitação, por ser ela dispensável, em essência, na situação descrita, independentemente do valor contrato ou do objeto a ser contratado.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não é cabível a realização de licitação, por ser ela inexigível na situação descrita". De acordo com a teoria estudada em *2.3 Procedimento de Manifestação de Interesse - PMI (Art. 81)*, o Procedimento de Manifestação de Interesse (PMI) é o chamamento público facultativo dirigido a pessoas físicas ou jurídicas de direito privado para a propositura e realização de estudos, investigações, levantamentos e projetos de soluções inovadoras que subsidiem futuras concessões comuns, parcerias público privadas (PPPs), concessões de serviços públicos ou grandes projetos de infraestrutura.
+> - **B)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "é cabível a realização de licitação, em qualquer das modalidades previstas na norma em comento, admissíveis na...". De acordo com a teoria estudada em *2.2 Pré-Qualificação Subjetiva e Objetiva (Art. 80)*, a pré qualificação é realizada mediante chamamento público aberto permanentemente. A validade da pré qualificação é de no máximo 1 (um) ano, podendo ser atualizada a qualquer tempo pelos interessados ou revogada de ofício pela Administração quando comprovada perda dos requisitos originais. A pré qualificação pode ser realizada em grupos ou segmentos determinados e sua existência permite agilizar certames posteriores com dispensa de reapresentação de documentos já convalidados.
+> - **C)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "não é cabível a realização de licitação, diante da possibilidade de escolha por qualquer das modalidades de...". De acordo com a teoria estudada em *1. Distinção Fundamental: Inexigibilidade x Dispensa de Licitação*, cONTRAT["Contratação Direta sem Licitação Prévia"] CRIT{"A competição entre potenciais fornecedores é viável?"}.
+> - **D)** **Correta.** Conforme fundamentado na seção *2.1 Credenciamento (Art. 79)* deste guia, a Lei nº 14.133/2021 tratou o credenciamento sob dupla face: no art. 78, como procedimento auxiliar, e no art. 74, inciso IV, como modalidade expressa de inexigibilidade de licitação. Como não há disputa concorrencial entre os credenciados (todos que cumprem os requisitos são credenciados sob tabela prefixada), há inviabilidade jurídica de competição, caracterizando a inexigibilidade formal da contratação. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF/1/2024) ao estabelecer que "é cabível a realização de licitação, que deverá ser na modalidade pregão, que é a pertinente para a situação...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não é cabível a realização de licitação, por ser ela dispensável, em essência, na situação descrita...". De acordo com a teoria estudada em *5.2 Dispensa por Emergência ou Calamidade Pública (Inciso VIII)*, vedação de Recontratação da Empresa Causadora: É expressamente vedada a recontratação de empresa que tenha dado causa à situação emergencial ou de calamidade por inexecução culposa ou inadimplemento de contrato anterior.
+>
+> **Gabarito: D**
+
+---
+
+### Teste 004
+**(FCC – TRT 13ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
+O Tribunal Regional do Trabalho pretende modernizar seus processos de trabalho, ampliando o processamento eletrônico de várias etapas e instituindo uma solução integrada de informática. Necessita, ainda, adquirir uma significativa quantidade de computadores com tecnologia e capacidade de processamento compatíveis com a solução a ser adotada. De acordo com as disposições da Lei no 8.666/93, a autoridade competente
+
+* **A)** poderá adquirir os computadores com inexigibilidade de licitação, optando, desde que justificadamente, por marca de sua preferência.
+* **B)** poderá contratar, conjuntamente, o desenvolvimento da solução de informática e a aquisição dos computadores, com dispensa de licitação, se comprovar a economicidade da contratação.
+* **C)** deverá realizar pré-qualificação das empresas prestadoras de serviço e fornecedoras de equipamentos, para fins de escolha das propostas mais vantajosas.
+* **D)** poderá contratar a aquisição dos computadores com inexigibilidade de licitação, se comprovar que somente podem ser fornecidos por representante comercial exclusivo.
+* **E)** poderá contratar os serviços e fornecimentos com inexigibilidade de licitação, desde que comprove que os mesmos não possuem natureza comum.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "poderá adquirir os computadores com inexigibilidade de licitação, optando, desde que justificadamente, por marca...". De acordo com a teoria estudada em *4.1 Fornecedor e Prestador Exclusivo (Inciso I)*, vedação à Preferência de Marca: É expressamente vedada a indicação de marca, modelo ou preferência injustificada na fase preparatória que venha a fabricar artificialmente uma exclusividade mercantil.
+> - **B)** **Incorreta.** A opção afasta requisito ou relação estrutural exigida pela matéria ao afirmar que "poderá contratar, conjuntamente, o desenvolvimento da solução de informática e a aquisição dos computadores, com...". De acordo com a teoria estudada em *1. Distinção Fundamental: Inexigibilidade x Dispensa de Licitação*, dispensa (Art. 75): A disputa concorrencial é plenamente viável no plano fático e de mercado, porém o legislador, sopesando critérios de economicidade, celeridade ou interesse público primário, optou por autorizar a Administração a não licitar. Em face de seu caráter derrogatório da regra constitucional, o rol do art. 75 é taxativo ( numerus clausus ), vedada interpretação extensiva ou analógica para criar novas hipóteses de dispensa.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "deverá realizar pré qualificação das empresas prestadoras de serviço e fornecedoras de equipamentos, para fins de...". De acordo com a teoria estudada em *1. Distinção Fundamental: Inexigibilidade x Dispensa de Licitação*, inexigibilidade (Art. 74): Configura se sempre que houver inviabilidade fática ou jurídica de competição. Não há como comparar objetivamente propostas porque o objeto é único, o fornecedor é exclusivo ou a prestação decorre de dotes personalíssimos/intelectuais singulares. Por essa razão, a jurisprudência pacífica do TCU e a doutrina consagram que o rol do art. 74 é exemplificativo ( numerus apertus ), admitindo outros casos em que se comprove a impossibilidade fática de disputa.
+> - **D)** **Correta.** Conforme fundamentado na seção *4.1 Fornecedor e Prestador Exclusivo (Inciso I)* deste guia, aquisição de materiais, equipamentos ou gêneros, ou contratação de serviços que só possam ser fornecidos por produtor, empresa ou representante comercial exclusivo. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 13ª/2014) ao estabelecer que "poderá contratar a aquisição dos computadores com inexigibilidade de licitação, se comprovar que somente podem ser...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "poderá contratar os serviços e fornecimentos com inexigibilidade de licitação, desde que comprove que os mesmos...". De acordo com a teoria estudada em *4.3 Serviços Técnicos Especializados e Notória Especialização (Inciso III)*, que o serviço possua natureza singular (características peculiares que afastam a padronização comum de mercado).
+>
+> **Gabarito: D**
+
+---
+
+### Teste 005
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Administração)**
+Após distinguir as peculiaridades atinentes as situações em que a licitação é inexigível e aquelas em que tal procedimento é dispensável, Daniel foi instado a dar um exemplo dessa última hipótese de contratação direta, à luz do disposto na Lei nº 14.133/2021, e indicou corretamente a
+
+* **A)** contratação de objetos que devam ou possam ser contratados por meio de credenciamento.
+* **B)** aquisição ou locação de imóvel cujas características de instalações e de localização tornem necessária sua escolha.
+* **C)** contratação de profissional do setor artístico, diretamente ou por meio de empresário exclusivo, desde que consagrado pela crítica especializada ou pela opinião pública.
+* **D)** aquisição de materiais, de equipamentos ou de gêneros ou contratação de serviços que só possam ser fornecidos por produtor, empresa ou representante comercial exclusivos.
+* **E)** contratação de bens ou serviços que tenham por objeto bens ou serviços produzidos ou prestados no País que envolvam, cumulativamente, alta complexidade tecnológica e defesa nacional.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "contratação de objetos que devam ou possam ser contratados por meio de credenciamento". De acordo com a teoria estudada em *4.1 Fornecedor e Prestador Exclusivo (Inciso I)*, aquisição de materiais, equipamentos ou gêneros, ou contratação de serviços que só possam ser fornecidos por produtor, empresa ou representante comercial exclusivo.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "aquisição ou locação de imóvel cujas características de instalações e de localização tornem necessária sua escolha". De acordo com a teoria estudada em *4.4 Aquisição ou Locação de Imóvel Singular (Inciso V)*, aquisição ou locação de imóvel cujas características de instalações e de localização tornem necessária sua escolha pela Administração.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "contratação de profissional do setor artístico, diretamente ou por meio de empresário exclusivo, desde que...". De acordo com a teoria estudada em *4.2 Profissional do Setor Artístico Consagrado (Inciso II)*, requisito Subjetivo: O artista deve ser consagrado pela crítica especializada ou pela opinião pública regional/nacional.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "aquisição de materiais, de equipamentos ou de gêneros ou contratação de serviços que só possam ser fornecidos por...". De acordo com a teoria estudada em *5.2 Dispensa por Emergência ou Calamidade Pública (Inciso VIII)*, aplica se em situações de emergência ou calamidade pública quando caracterizada urgência de atendimento de situação que possa ocasionar prejuízo ou comprometer a segurança de pessoas, obras, serviços, equipamentos e outros bens, públicos ou particulares.
+> - **E)** **Correta.** Conforme fundamentado na seção *4.3 Serviços Técnicos Especializados e Notória Especialização (Inciso III)* deste guia, a contratação direta sem licitação para serviços técnicos especializados exige cumulativamente três requisitos fundamentais. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "contratação de bens ou serviços que tenham por objeto bens ou serviços produzidos ou prestados no País que...".
+>
+> **Gabarito: E**
+
+---
+
+### Teste 006
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Engenharia Civil)**
+Com base na Lei nº 14.133/2021, avalie se as afirmativas a seguir são verdadeiras (V) ou falsas (F). ( ) A licitação é inexigível quando for inviável a competição, nos casos em que os serviços só possam ser fornecidos por um produtor. ( ) No caso de obras e serviços de engenharia , o limite estabelecido para dispensa de licitação em obras de engenharia é de R$200mil. ( ) A licitação pode ser dispensada em contratações que tenham como objeto produtos para pesquisa e desenvolvimento, respeitado o limite estabelecido por lei. As afirmativas são, respectivamente,
+
+* **A)** F – V – F.
+* **B)** F – V – V.
+* **C)** V – V – F.
+* **D)** V – F – F.
+* **E)** V – F – V.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – V – F". De acordo com a teoria estudada em *4.1 Fornecedor e Prestador Exclusivo (Inciso I)*, aquisição de materiais, equipamentos ou gêneros, ou contratação de serviços que só possam ser fornecidos por produtor, empresa ou representante comercial exclusivo.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – V – V". De acordo com a teoria estudada em *5.1 Dispensa em Razão do Valor (Pequeno Valor - Incisos I e II)*, inciso I: Obras e serviços de engenharia ou serviços de manutenção de veículos automotores (valor base de R$ 100.000,00 na publicação da lei, reajustado anualmente por decreto federal).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – V – F". De acordo com a teoria estudada em *1. Distinção Fundamental: Inexigibilidade x Dispensa de Licitação*, inexigibilidade (Art. 74): Configura se sempre que houver inviabilidade fática ou jurídica de competição. Não há como comparar objetivamente propostas porque o objeto é único, o fornecedor é exclusivo ou a prestação decorre de dotes personalíssimos/intelectuais singulares. Por essa razão, a jurisprudência pacífica do TCU e a doutrina consagram que o rol do art. 74 é exemplificativo ( numerus apertus ), admitindo outros casos em que se comprove a impossibilidade fática de disputa.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – F – F". De acordo com a teoria estudada em *2.1 Credenciamento (Art. 79)*, a Lei nº 14.133/2021 tratou o credenciamento sob dupla face: no art. 78, como procedimento auxiliar, e no art. 74, inciso IV, como modalidade expressa de inexigibilidade de licitação. Como não há disputa concorrencial entre os credenciados (todos que cumprem os requisitos são credenciados sob tabela prefixada), há inviabilidade jurídica de competição, caracterizando a inexigibilidade formal da contratação.
+> - **E)** **Correta.** Conforme fundamentado na seção *1. Distinção Fundamental: Inexigibilidade x Dispensa de Licitação* deste guia, a regra geral insculpida no art. 37, XXI, da CF/88 impõe a obrigatoriedade de licitar para obras, serviços, compras e alienações no setor público. Todavia, a própria Constituição ressalva "os casos especificados na legislação". A Nova Lei de Licitações (Lei nº 14.133/2021) estrutura a contratação direta sem certame competitivo em duas categorias nucleares: a Inexigibilidade e a Dispensa. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "V – F – V".
+>
+> **Gabarito: E**
+
+---
+
+### Teste 007
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Gestão Governamental)**
+Instado a se manifestar acerca de contratos atinentes a compras a serem realizadas por determinada unidade gestora da Administração, notadamente sobre o planejamento, possibilidade de fracionamento de despesa e viabilidade de contratação direta em razão do valor, o agente da contratação Lucrécio, à luz do disposto na Lei nº 14.133/2021, esclareceu corretamente que
+
+* **A)** o planejamento de compras deve ser realizado mês a mês, independentemente da expectativa de consumo anual.
+* **B)** é possível o fracionamento da despesa para fins de adequação à contratação direta para a realização de compras, por se tratar de hipótese de inexigibilidade de licitação.
+* **C)** com relação às compras, é vedado o parcelamento do objeto, mesmo quando for tecnicamente viável e economicamente vantajoso para a Administração Pública.
+* **D)** para fins de que a licitação seja dispensável em razão do valor nos contratos em questão, há de ser considerado o somatório do que for despendido no exercício financeiro pela respectiva unidade gestora.
+* **E)** as compras a serem contratadas diretamente pela Administração Pública em razão do valor são analisadas individualmente, independente do todo da despesa realizada com objetos de mesma natureza.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o planejamento de compras deve ser realizado mês a mês, independentemente da expectativa de consumo anual". De acordo com a teoria estudada em *5.1 Dispensa em Razão do Valor (Pequeno Valor - Incisos I e II)*, inciso II: Outros serviços e compras em geral (valor base de R$ 50.000,00 na publicação da lei, reajustado anualmente por decreto federal).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é possível o fracionamento da despesa para fins de adequação à contratação direta para a realização de compras...". De acordo com a teoria estudada em *1. Distinção Fundamental: Inexigibilidade x Dispensa de Licitação*, cRIT |"SIM, É VIÁVEL<br/ (A disputa é plenamente possível, mas a lei autoriza dispensar)"| DISP["DISPENSA (Art. 75)<br/ • Rol TAXATIVO (numerus clausus)<br/ • Pequeno valor (compras, obras e serviços)<br/ • Emergência ou calamidade (máx. 1 ano, sem prorrogação)<br/ • Licitação deserta ou fracassada<br/ • Remanescente de obra ou serviço"].
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "com relação às compras, é vedado o parcelamento do objeto, mesmo quando for tecnicamente viável e economicamente...". De acordo com a teoria estudada em *2.4 Sistema de Registro de Preços - SRP e Regras do Carona (Arts. 82 a 86)*, for impossível prever com exatidão prévia o quantitativo total a ser demandado no exercício financeiro.
+> - **D)** **Correta.** Conforme fundamentado na seção *5.1 Dispensa em Razão do Valor (Pequeno Valor - Incisos I e II)* deste guia, vedação ao Fracionamento Ilícito (§ 1º do art. 75): Para fins de aferição dos valores limite, deve ser considerado o somatório do que for despendido no mesmo exercício financeiro pela mesma unidade gestora com objetos de mesma natureza, entendidos como aqueles relativos a contratações no mesmo ramo de atividade econômica. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "para fins de que a licitação seja dispensável em razão do valor nos contratos em questão, há de ser considerado o...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as compras a serem contratadas diretamente pela Administração Pública em razão do valor são analisadas...". De acordo com a teoria estudada em *2.2 Pré-Qualificação Subjetiva e Objetiva (Art. 80)*, a pré qualificação é realizada mediante chamamento público aberto permanentemente. A validade da pré qualificação é de no máximo 1 (um) ano, podendo ser atualizada a qualquer tempo pelos interessados ou revogada de ofício pela Administração quando comprovada perda dos requisitos originais. A pré qualificação pode ser realizada em grupos ou segmentos determinados e sua existência permite agilizar certames posteriores com dispensa de reapresentação de documentos já convalidados.
+>
+> **Gabarito: D**
+
+---
+
+### Teste 008
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Engenharia Civil)**
+A Lei nº 14.133/2021 distingue os regimes de contratação integrada e semi-integrada nas contratações de obras e serviços de Engenharia. Uma diferença entre elas reside no fato de que, na contratação integrada,
+
+* **A)** a Administração fornece o projeto básico completo; na semi- integrada, fornece apenas o anteprojeto de Engenharia.
+* **B)** o projeto executivo deve ser entregue pela Administração antes da licitação; na semi-integrada, dispensa-se a elaboração de projeto básico.
+* **C)** o contratado realiza apenas o projeto executivo; na semi- integrada, o contratado fica responsável exclusivamente pela execução material da obra.
+* **D)** são vedadas alterações técnicas durante a execução contratual; na semi-integrada, o contratado pode modificar livremente o objeto licitado sem anuência da Administração.
+* **E)** o contratado elabora os projetos básico e executivo, a partir do anteprojeto elaborado pela Administração; na semi- integrada, a Administração apresenta previamente o projeto básico da contratação.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "a Administração fornece o projeto básico completo; na semi integrada, fornece apenas o anteprojeto de Engenharia". De acordo com a teoria estudada em *5.1 Dispensa em Razão do Valor (Pequeno Valor - Incisos I e II)*, inciso I: Obras e serviços de engenharia ou serviços de manutenção de veículos automotores (valor base de R$ 100.000,00 na publicação da lei, reajustado anualmente por decreto federal).
+> - **B)** **Incorreta.** A opção afasta requisito ou relação estrutural exigida pela matéria ao afirmar que "o projeto executivo deve ser entregue pela Administração antes da licitação; na semi integrada, dispensa se a...". De acordo com a teoria estudada em *3. Processo Administrativo de Contratação Direta (Art. 72)*, tanto a dispensa quanto a inexigibilidade não significam informalidade ou ausência de procedimento. O art. 72 da Lei nº 14.133/2021 estabelece que o processo de contratação direta deve ser obrigatoriamente instruído com os seguintes elementos mínimos sob pena de nulidade.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "o contratado realiza apenas o projeto executivo; na semi integrada, o contratado fica responsável exclusivamente...". De acordo com a teoria estudada em *2.1 Credenciamento (Art. 79)*, o credenciamento é o procedimento administrativo pelo qual a Administração convoca, mediante edital de chamamento público com inscrições permanentemente abertas, todos os interessados que preencham os requisitos previamente definidos para prestar serviços ou fornecer bens.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "são vedadas alterações técnicas durante a execução contratual; na semi integrada, o contratado pode modificar...". De acordo com a teoria estudada em *2.2 Pré-Qualificação Subjetiva e Objetiva (Art. 80)*, pré qualificação Objetiva: A conformidade técnica e operacional de bens, produtos ou serviços que atendam às exigências técnicas e padrões mínimos de desempenho da Administração.
+> - **E)** **Correta.** Conforme fundamentado na seção *3. Processo Administrativo de Contratação Direta (Art. 72)* deste guia, termo de Referência (TR), anteprojeto, projeto básico ou projeto executivo. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "o contratado elabora os projetos básico e executivo, a partir do anteprojeto elaborado pela Administração; na semi...".
+>
+> **Gabarito: E**
+
+---
+
 ## 2. Procedimentos Auxiliares da Lei nº 14.133/2021 (Art. 78)
 
 O art. 78 da Lei nº 14.133/2021 sistematizou cinco procedimentos auxiliares das licitações e contratações administrativas:
@@ -150,6 +336,30 @@ A Lei nº 14.133/2021 impõe a criação do sistema de registro cadastral unific
 
 ---
 
+### Teste 009
+**(FGV – TCE/PI – 2025 – Auditor de Controle Externo - Controle Externo - Específica de Área Comum)**
+O Governo do Estado do Piauí pretende realizar, no exercício financeiro de 2025, tratativas para adquirir, entre outros, os bens e serviços listados a seguir. I. Aquisição de software inovador de inteligência artificial com funcionalidades adaptadas, específica e individualmente, para cada tipo de trabalho executado por suas Secretarias de Estado, a serem definidas e identificados durante o processo licitatório. II. Registro formal de preços de notebooks de última geração a serem licitados quando da implementação do software de inteligência artificial. III. Chamamento público de profissionais interessados na prestação de serviço de TI e manutenção de equipamentos informáticos, em regime de contratação simultânea e padronizada. No que tange à Lei de Licitações (Lei nº 14.133/2021), os instrumentos jurídicos a serem adotados pela administração do Estado do Piauí para a aquisição dos bens e serviços supramencionados (segundo a ordem apresentada) são, respectivamente,
+
+* **A)** concurso, pregão e diálogo competitivo.
+* **B)** pré-qualificação, credenciamento e diálogo competitivo.
+* **C)** diálogo competitivo, sistema de registro de preços e pregão.
+* **D)** credenciamento, diálogo competitivo e sistema de registro de preços.
+* **E)** diálogo competitivo, sistema de registro de preços e credenciamento.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "concurso, pregão e diálogo competitivo". De acordo com a teoria estudada em *1. Distinção Fundamental: Inexigibilidade x Dispensa de Licitação*, a regra geral insculpida no art. 37, XXI, da CF/88 impõe a obrigatoriedade de licitar para obras, serviços, compras e alienações no setor público. Todavia, a própria Constituição ressalva "os casos especificados na legislação". A Nova Lei de Licitações (Lei nº 14.133/2021) estrutura a contratação direta sem certame competitivo em duas categorias nucleares: a Inexigibilidade e a Dispensa.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pré qualificação, credenciamento e diálogo competitivo". De acordo com a teoria estudada em *2.2 Pré-Qualificação Subjetiva e Objetiva (Art. 80)*, a pré qualificação é realizada mediante chamamento público aberto permanentemente. A validade da pré qualificação é de no máximo 1 (um) ano, podendo ser atualizada a qualquer tempo pelos interessados ou revogada de ofício pela Administração quando comprovada perda dos requisitos originais. A pré qualificação pode ser realizada em grupos ou segmentos determinados e sua existência permite agilizar certames posteriores com dispensa de reapresentação de documentos já convalidados.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "diálogo competitivo, sistema de registro de preços e pregão". De acordo com a teoria estudada em *2.4 Sistema de Registro de Preços - SRP e Regras do Carona (Arts. 82 a 86)*, for impossível prever com exatidão prévia o quantitativo total a ser demandado no exercício financeiro.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "credenciamento, diálogo competitivo e sistema de registro de preços". De acordo com a teoria estudada em *2. Procedimentos Auxiliares da Lei nº 14.133/2021 (Art. 78)*, sistema de Registro de Preços (SRP).
+> - **E)** **Correta.** Conforme fundamentado na seção *2.4 Sistema de Registro de Preços - SRP e Regras do Carona (Arts. 82 a 86)* deste guia, o SRP é um conjunto de procedimentos para registro formal de preços relativos à prestação de serviços, obras e aquisição e locação de bens para contratações futuras e incertas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PI/2025) ao estabelecer que "diálogo competitivo, sistema de registro de preços e credenciamento".
+>
+> **Gabarito: E**
+
+---
+
 ## 3. Processo Administrativo de Contratação Direta (Art. 72)
 
 Tanto a dispensa quanto a inexigibilidade não significam informalidade ou ausência de procedimento. O art. 72 da Lei nº 14.133/2021 estabelece que o processo de contratação direta deve ser obrigatoriamente instruído com os seguintes elementos mínimos sob pena de nulidade:
@@ -166,6 +376,102 @@ Tanto a dispensa quanto a inexigibilidade não significam informalidade ou ausê
 
 > 📢 **Eficácia no PNCP (Art. 94 e Art. 72, parágrafo único):**  
 > O ato que autoriza a contratação direta ou o respectivo extrato de contrato deve ser publicado e divulgado obrigatoriamente no **Portal Nacional de Contratações Públicas (PNCP)** no prazo de **10 (dez) dias úteis**, contado da data de sua assinatura, como condição indispensável para sua eficácia jurídica perante terceiros.
+
+---
+
+### Teste 010
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Tecnologia da Informação)**
+Uma instituição federal está em processo de modernização de seu sistema de informações e necessita adquirir novos servidores de alta capacidade. O setor de TI realizou estudos preliminares e definiu especificações técnicas detalhadas que apenas uma marca específica de servidores atende. Considerando a Lei nº 14.133/2021, o setor de compras, para a aquisição destes servidores, deve
+
+* **A)** realizar licitação na modalidade concorrência, permitindo a participação de várias marcas para assegurar a obtenção de propostas competitivas.
+* **B)** efetuar uma dispensa de licitação, uma vez que a especificação detalhada restringe a aquisição à marca única, caracterizando fornecedor exclusivo.
+* **C)** proceder com a inexigibilidade de licitação devido à especificação técnica que justifica a escolha de uma única marca, evitando a competição.
+* **D)** solicitar autorização judicial para adquirir diretamente do fornecedor sem necessidade de licitação, dado o caráter exclusivo da especificação.
+* **E)** realizar um pregão eletrônico com indicação de marca no edital para garantir a compatibilidade com o sistema atual da instituição.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "realizar licitação na modalidade concorrência, permitindo a participação de várias marcas para assegurar a...". De acordo com a teoria estudada em *1. Distinção Fundamental: Inexigibilidade x Dispensa de Licitação*, inexigibilidade (Art. 74): Configura se sempre que houver inviabilidade fática ou jurídica de competição. Não há como comparar objetivamente propostas porque o objeto é único, o fornecedor é exclusivo ou a prestação decorre de dotes personalíssimos/intelectuais singulares. Por essa razão, a jurisprudência pacífica do TCU e a doutrina consagram que o rol do art. 74 é exemplificativo ( numerus apertus ), admitindo outros casos em que se comprove a impossibilidade fática de disputa.
+> - **B)** **Incorreta.** A opção afasta requisito ou relação estrutural exigida pela matéria ao afirmar que "efetuar uma dispensa de licitação, uma vez que a especificação detalhada restringe a aquisição à marca única...". De acordo com a teoria estudada em *1. Distinção Fundamental: Inexigibilidade x Dispensa de Licitação*, cRIT |"NÃO É VIÁVEL<br/ (Inviabilidade fática, técnica ou jurídica de disputa)"| INEX["INEXIGIBILIDADE (Art. 74)<br/ • Rol EXEMPLIFICATIVO (numerus apertus)<br/ • Fornecedor exclusivo comprovado<br/ • Notória especialização intelectual<br/ • Artista consagrado pela crítica/público<br/ • Imóvel singularmente adequado<br/ • Credenciamento<br/ • VEDAÇÃO ABSOLUTA: Publicidade e propaganda!"].
+> - **C)** **Correta.** Conforme fundamentado na seção *2.1 Credenciamento (Art. 79)* deste guia, a Lei nº 14.133/2021 tratou o credenciamento sob dupla face: no art. 78, como procedimento auxiliar, e no art. 74, inciso IV, como modalidade expressa de inexigibilidade de licitação. Como não há disputa concorrencial entre os credenciados (todos que cumprem os requisitos são credenciados sob tabela prefixada), há inviabilidade jurídica de competição, caracterizando a inexigibilidade formal da contratação. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "proceder com a inexigibilidade de licitação devido à especificação técnica que justifica a escolha de uma única...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "solicitar autorização judicial para adquirir diretamente do fornecedor sem necessidade de licitação, dado o...". De acordo com a teoria estudada em *4.1 Fornecedor e Prestador Exclusivo (Inciso I)*, vedação à Preferência de Marca: É expressamente vedada a indicação de marca, modelo ou preferência injustificada na fase preparatória que venha a fabricar artificialmente uma exclusividade mercantil.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "realizar um pregão eletrônico com indicação de marca no edital para garantir a compatibilidade com o sistema atual...". De acordo com a teoria estudada em *1. Distinção Fundamental: Inexigibilidade x Dispensa de Licitação*, a regra geral insculpida no art. 37, XXI, da CF/88 impõe a obrigatoriedade de licitar para obras, serviços, compras e alienações no setor público. Todavia, a própria Constituição ressalva "os casos especificados na legislação". A Nova Lei de Licitações (Lei nº 14.133/2021) estrutura a contratação direta sem certame competitivo em duas categorias nucleares: a Inexigibilidade e a Dispensa.
+>
+> **Gabarito: C**
+
+---
+
+### Teste 011
+**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Banco De Dados)**
+Joyce acabou de ler certo edital que veiculou a realização de um processo administrativo de chamamento público por meio do qual a Administração Pública convocou profissionais interessados em prestar determinado serviço, para que, preenchidos os requisitos necessários devidamente delimitados, se habilitem junto ao órgão ou entidade para executar o objeto quando convocados, viabilizando a sua contratação direta, mediante critérios determinados. No âmbito da Lei nº 14.133/2021, tal edital versa sobre:
+
+* **A)** credenciamento, que caracteriza hipótese de licitação dispensável;
+* **B)** pré-qualificação, que caracteriza hipótese de licitação inexigível;
+* **C)** catálogo eletrônico de padronização de serviços, que caracteriza hipótese de licitação inexigível;
+* **D)** credenciamento, que caracteriza hipótese de licitação inexigível;
+* **E)** pré-qualificação, que caracteriza hipótese de licitação dispensável.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "credenciamento, que caracteriza hipótese de licitação dispensável". De acordo com a teoria estudada em *2.1 Credenciamento (Art. 79)*, em mercados fluidos: Hipótese em que a flutuação constante de preços e a exigência de rapidez tornam inviável a fixação antecipada por licitação tradicional, realizando se cotação volátil em tempo real no momento de cada contratação (ex.: compra de combustíveis para abastecimento de frota pública em trânsito).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pré qualificação, que caracteriza hipótese de licitação inexigível". De acordo com a teoria estudada em *2.2 Pré-Qualificação Subjetiva e Objetiva (Art. 80)*, a pré qualificação é realizada mediante chamamento público aberto permanentemente. A validade da pré qualificação é de no máximo 1 (um) ano, podendo ser atualizada a qualquer tempo pelos interessados ou revogada de ofício pela Administração quando comprovada perda dos requisitos originais. A pré qualificação pode ser realizada em grupos ou segmentos determinados e sua existência permite agilizar certames posteriores com dispensa de reapresentação de documentos já convalidados.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "catálogo eletrônico de padronização de serviços, que caracteriza hipótese de licitação inexigível". De acordo com a teoria estudada em *2.1 Credenciamento (Art. 79)*, a Lei nº 14.133/2021 tratou o credenciamento sob dupla face: no art. 78, como procedimento auxiliar, e no art. 74, inciso IV, como modalidade expressa de inexigibilidade de licitação. Como não há disputa concorrencial entre os credenciados (todos que cumprem os requisitos são credenciados sob tabela prefixada), há inviabilidade jurídica de competição, caracterizando a inexigibilidade formal da contratação.
+> - **D)** **Correta.** Conforme fundamentado na seção *2.1 Credenciamento (Art. 79)* deste guia, o credenciamento é o procedimento administrativo pelo qual a Administração convoca, mediante edital de chamamento público com inscrições permanentemente abertas, todos os interessados que preencham os requisitos previamente definidos para prestar serviços ou fornecer bens. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "credenciamento, que caracteriza hipótese de licitação inexigível".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pré qualificação, que caracteriza hipótese de licitação dispensável". De acordo com a teoria estudada em *2.2 Pré-Qualificação Subjetiva e Objetiva (Art. 80)*, pré qualificação Objetiva: A conformidade técnica e operacional de bens, produtos ou serviços que atendam às exigências técnicas e padrões mínimos de desempenho da Administração.
+>
+> **Gabarito: D**
+
+---
+
+### Teste 012
+**(FGV – TRT da 24º Região – 2025 – Analista Judiciário - Área Administrativa - Sem Especialidade)**
+A Lei n.° 14.133/2021, nova Lei de Licitações e Contratos Administrativos, apresenta um conjunto de inovações e aprimoramentos destinados a modernizar, tornar mais transparente e eficiente o processo de contratação pública no Brasil. Assinale a opção que apresenta corretamente uma hipótese de inexigibilidade de licitação.
+
+* **A)** Quando o preço for muito baixo, dispensando a licitação.
+* **B)** Quando houver dois ou mais fornecedores para o mesmo serviço.
+* **C)** Quando o serviço puder ser prestado por qualquer empresa registrada.
+* **D)** Quando o objeto puder ser dividido entre vários fornecedores.
+* **E)** Quando a competição for inviável, como na contratação de artista consagrado por meio de empresário exclusivo.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Quando o preço for muito baixo, dispensando a licitação". De acordo com a teoria estudada em *1. Distinção Fundamental: Inexigibilidade x Dispensa de Licitação*, cRIT |"NÃO É VIÁVEL<br/ (Inviabilidade fática, técnica ou jurídica de disputa)"| INEX["INEXIGIBILIDADE (Art. 74)<br/ • Rol EXEMPLIFICATIVO (numerus apertus)<br/ • Fornecedor exclusivo comprovado<br/ • Notória especialização intelectual<br/ • Artista consagrado pela crítica/público<br/ • Imóvel singularmente adequado<br/ • Credenciamento<br/ • VEDAÇÃO ABSOLUTA: Publicidade e propaganda!"].
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Quando houver dois ou mais fornecedores para o mesmo serviço". De acordo com a teoria estudada em *1. Distinção Fundamental: Inexigibilidade x Dispensa de Licitação*, inexigibilidade (Art. 74): Configura se sempre que houver inviabilidade fática ou jurídica de competição. Não há como comparar objetivamente propostas porque o objeto é único, o fornecedor é exclusivo ou a prestação decorre de dotes personalíssimos/intelectuais singulares. Por essa razão, a jurisprudência pacífica do TCU e a doutrina consagram que o rol do art. 74 é exemplificativo ( numerus apertus ), admitindo outros casos em que se comprove a impossibilidade fática de disputa.
+> - **C)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "Quando o serviço puder ser prestado por qualquer empresa registrada". De acordo com a teoria estudada em *4.1 Fornecedor e Prestador Exclusivo (Inciso I)*, aquisição de materiais, equipamentos ou gêneros, ou contratação de serviços que só possam ser fornecidos por produtor, empresa ou representante comercial exclusivo.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Quando o objeto puder ser dividido entre vários fornecedores". De acordo com a teoria estudada em *1. Distinção Fundamental: Inexigibilidade x Dispensa de Licitação*, cONTRAT["Contratação Direta sem Licitação Prévia"] CRIT{"A competição entre potenciais fornecedores é viável?"}.
+> - **E)** **Correta.** Conforme fundamentado na seção *4.2 Profissional do Setor Artístico Consagrado (Inciso II)* deste guia, contratação de profissional de qualquer setor artístico, diretamente ou por meio de empresário exclusivo. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT da 24º Região/2025) ao estabelecer que "Quando a competição for inviável, como na contratação de artista consagrado por meio de empresário exclusivo".
+>
+> **Gabarito: E**
+
+---
+
+### Teste 013
+**(FGV – TRT/DA – 2025 – Tecnico Judiciario Area Administrativa Agente Da Policia Judicial)**
+O Município Alfa, em observância às formalidades legais, celebrou contrato administrativo com determinada sociedade empresária, sem o prévio processo licitatório (contratação direta). Registre-se que o pacto envolveu a contratação do serviço técnico especializado, de natureza predominantemente intelectual, de treinamento e aperfeiçoamento de pessoal, sendo certo que a contratada é empresa de notória especialização. De acordo com a narrativa e considerando as disposições da Lei no 14.133/2021, analise as afirmativas a seguir. I. O Município Alfa celebrou contratação direta em razão da dispensa de licitação. II. No caso apresentado, é vedada a subcontratação de empresa distinta daquela que justificou a contratação direta. III. O ato que autorizou a contratação direta ou o extrato decorrente do contrato deverá ser mantido à disposição do público na sede física da repartição pública. Está correto o que se afirma em
+
+* **A)** I, apenas.
+* **B)** II, apenas.
+* **C)** III, apenas.
+* **D)** I e III, apenas.
+* **E)** I, II e III.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *3. Processo Administrativo de Contratação Direta (Art. 72)*, o ato que autoriza a contratação direta ou o respectivo extrato de contrato deve ser publicado e divulgado obrigatoriamente no Portal Nacional de Contratações Públicas (PNCP) no prazo de 10 (dez) dias úteis, contado da data de sua assinatura, como condição indispensável para sua eficácia jurídica perante terceiros.
+> - **B)** **Correta.** Conforme fundamentado na seção *4.3 Serviços Técnicos Especializados e Notória Especialização (Inciso III)* deste guia, que o serviço seja de natureza predominantemente intelectual e enquadrado no rol do art. 67 (pareceres, perícias, laudos, assessorias técnicas, patrocínio ou defesa de causas judiciais e administrativas, auditorias financeiras e tributárias, restauração de obras de arte, treinamento e aperfeiçoamento de pessoal). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/DA/2025) ao estabelecer que "II, apenas".
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III, apenas". De acordo com a teoria estudada em *4.3 Serviços Técnicos Especializados e Notória Especialização (Inciso III)*, é vedada a inexigibilidade de licitação para serviços de publicidade e divulgação. Campanhas publicitárias institucionais e propaganda governamental exigem compulsoriamente licitação com rito regulado pela Lei Federal nº 12.232/2010 (julgamento por melhor técnica ou técnica e preço, com subcomissão técnica imparcial).
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *4.3 Serviços Técnicos Especializados e Notória Especialização (Inciso III)*, que o serviço possua natureza singular (características peculiares que afastam a padronização comum de mercado).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *4.3 Serviços Técnicos Especializados e Notória Especialização (Inciso III)*, a contratação direta sem licitação para serviços técnicos especializados exige cumulativamente três requisitos fundamentais.
+>
+> **Gabarito: B**
 
 ---
 

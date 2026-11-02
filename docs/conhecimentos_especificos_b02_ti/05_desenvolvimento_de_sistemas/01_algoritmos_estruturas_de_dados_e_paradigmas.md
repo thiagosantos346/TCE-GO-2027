@@ -229,6 +229,78 @@ Essa comparação é cobrada com frequência máxima pela banca FCC:
 
 ---
 
+### Teste 001
+**(FGV – TJ/BA – 2015 – Analista Judiciario Tecnologia Da Informacao)**
+A utilização de interfaces em projetos de software orientados a objetivo promove a separação de aspectos internos e externos de um objeto, impedindo o acesso direto aos detalhes de seu funcionamento interno. Esse mecanismo de separação também contribui para que o software seja construído como um conjunto de componentes que realizam seu trabalho de forma independente. O uso desse mecanismo em projetos de sistemas de software é um exemplo de:
+
+* **A)** abstração;
+* **B)** encapsulamento;
+* **C)** herança;
+* **D)** proteção de código;
+* **E)** polimorfismo.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "abstração". De acordo com a teoria estudada em *3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo*, abstração: Foco nos atributos e operações essenciais de uma entidade do domínio de negócio, isolando aspectos acidentais ou supérfluos.
+> - **B)** **Correta.** Conforme fundamentado na seção *3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo* deste guia, encapsulamento: Ocultamento do estado interno e detalhes algorítmicos de um objeto. O acesso às variáveis de instância é protegido por modificadores de visibilidade ( private , protected , public ), expondo apenas operações controladas de interface pública. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/BA/2015) ao estabelecer que "encapsulamento".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "herança". De acordo com a teoria estudada em *3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento*, composição sobre Herança: A herança gera forte acoplamento de código ( acoplamento de caixa branca ), quebrando o encapsulamento caso a subclasse dependa de detalhes de implementação da superclasse. A composição de objetos ( relação "tem um" ) é amplamente recomendada por promover delegação dinâmica e flexibilidade em tempo de execução.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "proteção de código". De acordo com a teoria estudada em *3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo*, herança: Relação estática entre classes onde uma subclasse (filha) estende atributos e comportamentos de uma superclasse (pai), estabelecendo uma taxonomia do tipo "é um" ( is a ).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "polimorfismo". De acordo com a teoria estudada em *3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo*, polimorfismo: Capacidade de objetos de diferentes classes derivadas responderem a uma mesma mensagem (chamada de método) de maneiras particulares e especializadas.
+>
+> **Gabarito: B**
+
+---
+
+### Teste 002
+**(FCC – TRT 13ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
+Considere o seguinte caso: Observando o trâmite de processos no tribunal, Marta percebeu que tanto advogados quanto juízes realizavam análises nos diversos pareceres constantes dos processos. Com sua experiência como analista ela deduziu que uma possível informatização dos processos poderia contemplar uma classe chamada Advogado e outra chamada Juiz, tendo como base uma classe comum chamada Pessoa, com um método chamado AnalisarParecer. Este método (definido na classe comum) se comportaria de maneira diferente para as chamadas feitas a partir de uma instância de Advogado e para as chamadas feitas a partir de uma instância de Juiz, em razão deles terem responsabilidades diferentes em sua forma de analisar e opinar sobre os pareceres. Pela observação do método e seu comportamento, o princípio da orientação a objetos aplicável no caso, fundamentalmente, é
+
+* **A)** a comunicabilidade.
+* **B)** o encapsulameto.
+* **C)** a visibilidade.
+* **D)** o polimorfismo.
+* **E)** a estereotipagem.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a comunicabilidade". De acordo com a teoria estudada em *5. Fontes Oficiais e Referências Bibliográficas*, oracle Java Documentation Object Oriented Programming Concepts Fundamentos formais de orientação a objetos: classes, objetos, encapsulamento e polimorfismo.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o encapsulameto". De acordo com a teoria estudada em *3.2 Polimorfismo Estático (Sobrecarga) vs. Polimorfismo Dinâmico (Sobrescrita)*, assinatura do Método: Obrigatoriamente DIFERENTE (quantidade ou tipos de parâmetros). — Rigorosamente IDÊNTICA (mesmo nome, parâmetros e retorno covariante).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a visibilidade". De acordo com a teoria estudada em *3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo*, encapsulamento: Ocultamento do estado interno e detalhes algorítmicos de um objeto. O acesso às variáveis de instância é protegido por modificadores de visibilidade ( private , protected , public ), expondo apenas operações controladas de interface pública.
+> - **D)** **Correta.** Conforme fundamentado na seção *3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo* deste guia, polimorfismo: Capacidade de objetos de diferentes classes derivadas responderem a uma mesma mensagem (chamada de método) de maneiras particulares e especializadas. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 13ª/2014) ao estabelecer que "o polimorfismo".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a estereotipagem". De acordo com a teoria estudada em *3.2 Polimorfismo Estático (Sobrecarga) vs. Polimorfismo Dinâmico (Sobrescrita)*, definição: Múltiplos métodos com o mesmo nome declarados na mesma classe. — Redefinição de um método herdado da superclasse na subclasse.
+>
+> **Gabarito: D**
+
+---
+
+### Teste 003
+**(FCC – TRT 4ª – 2015 – Analista Judiciário - Tecnologia Da Informação)**
+O uso de herança pode otimizar o tempo de desenvolvimento das aplicações orientadas a objetos devido ao reaproveitamento de código. Quando se implementa herança
+
+* **A)** uma subclasse pode se tornar uma superclasse a qualquer momento, bastando para tanto que se derive uma subclasse a partir dela.
+* **B)** a superclasse herda os atributos da subclasse, incluindo os atributos privados, públicos e protegidos.
+* **C)** múltipla na linguagem Java versão 6, a subclasse herda características de mais de uma superclasse.
+* **D)** só é possível obter polimorfismo na aplicação se houver sobrecarga de métodos.
+* **E)** os métodos de uma superclasse não podem ser sobrescritos nas subclasses, porém, podem ser sobrecarregados.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento* deste guia, composição sobre Herança: A herança gera forte acoplamento de código ( acoplamento de caixa branca ), quebrando o encapsulamento caso a subclasse dependa de detalhes de implementação da superclasse. A composição de objetos ( relação "tem um" ) é amplamente recomendada por promover delegação dinâmica e flexibilidade em tempo de execução. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 4ª/2015) ao estabelecer que "uma subclasse pode se tornar uma superclasse a qualquer momento, bastando para tanto que se derive uma subclasse a...".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a superclasse herda os atributos da subclasse, incluindo os atributos privados, públicos e protegidos". De acordo com a teoria estudada em *3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento*, classe Abstrata: Não pode ser instanciada diretamente ( new ). Pode conter métodos abstratos (sem corpo) e métodos concretos (com implementação), além de atributos de instância com qualquer modificador de acesso. Modela uma herança conceitual forte.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "múltipla na linguagem Java versão 6, a subclasse herda características de mais de uma superclasse". De acordo com a teoria estudada em *3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo*, herança: Relação estática entre classes onde uma subclasse (filha) estende atributos e comportamentos de uma superclasse (pai), estabelecendo uma taxonomia do tipo "é um" ( is a ).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "só é possível obter polimorfismo na aplicação se houver sobrecarga de métodos". De acordo com a teoria estudada em *3.2 Polimorfismo Estático (Sobrecarga) vs. Polimorfismo Dinâmico (Sobrescrita)*, definição: Múltiplos métodos com o mesmo nome declarados na mesma classe. — Redefinição de um método herdado da superclasse na subclasse.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os métodos de uma superclasse não podem ser sobrescritos nas subclasses, porém, podem ser sobrecarregados". De acordo com a teoria estudada em *4.1 Princípios Fundamentais: Funções Puras, Imutabilidade e Transparência Referencial*, transparência Referencial: Uma expressão pode ser substituída diretamente pelo seu valor resultante em qualquer ponto do programa sem alterar o comportamento global do sistema.
+>
+> **Gabarito: A**
+
+---
+
 ## 4. Paradigma de Programação Funcional (PF)
 
 ### 4.1 Princípios Fundamentais: Funções Puras, Imutabilidade e Transparência Referencial

@@ -162,6 +162,102 @@ Os padrões estruturais tratam de como classes e objetos são compostos para for
 
 ---
 
+### Teste 001
+**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Desenvolvimento De Sistemas)**
+Padrões de projeto são representados por meio de diagramas da UML, sendo possível identificá-los através da análise de métodos e relacionamentos entre classes ou interfaces. Observe o diagrama de classes apresentado a seguir. No diagrama é representado o padrão de projeto:
+
+* **A)** Singleton;
+* **B)** Prototype;
+* **C)** Data Access Object;
+* **D)** Observer;
+* **E)** Abstract Factory.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Singleton". De acordo com a teoria estudada em *1.3 A Matriz Canônica dos 23 Padrões GoF (Propósito vs. Escopo)*, criacional (Criação de Objetos): Factory Method — Abstract Factory, Builder, Prototype, Singleton.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Prototype". De acordo com a teoria estudada em *2.1 Factory Method vs. Abstract Factory*, mecanismo: Utiliza composição de objetos. Uma fábrica abstrata declara múltiplos métodos de criação de produtos ( criarBotao() , criarJanela() ), e cada fábrica concreta produz uma família inteira harmonizada (ex.: FabricaTemaEscuro cria BotaoEscuro e JanelaEscura ; FabricaTemaClaro cria BotaoClaro e JanelaClara ).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Data Access Object". De acordo com a teoria estudada em *2.1 Factory Method vs. Abstract Factory*, intenção: Fornece uma interface para criar famílias de objetos relacionados ou dependentes sem especificar suas classes concretas.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Observer". De acordo com a teoria estudada em *2. Padrões de Criação (Creational Patterns)*, aF["Abstract Factory<br/ (Cria famílias inteiras de produtos relacionados)"].
+> - **E)** **Correta.** Conforme fundamentado na seção *5. Fontes Oficiais e Referências Bibliográficas* deste guia, refactoring.Guru — Padrões de Projeto Criacionais Detalhamento técnico de Factory Method, Abstract Factory, Builder, Prototype e Singleton. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "Abstract Factory".
+>
+> **Gabarito: E**
+
+---
+
+### Teste 002
+**(FCC – TRT 23ª – 2016 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
+Um Analista de Sistemas necessita utilizar alguns padrões de projeto para solucionar determinados problemas. De acordo com as Categorias de Padrões do Gang of Four − GoF, ele vai utilizar um padrão de cada uma das três categorias, pela ordem, a saber: − Padrões de Criação − Padrões Estruturais − Padrões Comportamentais Em relação a essas três categorias, os padrões são, respectivamente,
+
+* **A)** Concepção e Elaboração.
+* **B)** Elaboração e Construção.
+* **C)** Transição e Construção.
+* **D)** Implementação e Transição.
+* **E)** Implantação e Implementação.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Concepção e Elaboração". De acordo com a teoria estudada em *5. Fontes Oficiais e Referências Bibliográficas*, refactoring.Guru — Catálogo Completo dos 23 Padrões de Projeto GoF Visão geral estruturada, diagramas UML e aplicabilidade dos padrões do Gang of Four.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Elaboração e Construção". De acordo com a teoria estudada em *2.2 Builder, Prototype e Singleton*, mecanismo: Permite a construção passo a passo ( step by step ) do objeto com métodos encadeados ( setNome() , setCPF() , build() ). Envolve os papéis do Director (define a ordem dos passos) e do Builder Concreto (executa a montagem física).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Transição e Construção". De acordo com a teoria estudada em *2.2 Builder, Prototype e Singleton*, intenção: Separa a construção de um objeto complexo da sua representação final, de modo que o mesmo processo de construção possa criar diferentes representações.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Implementação e Transição". De acordo com a teoria estudada em *1.2 Os Dois Grandes Princípios de Design do GoF*, "Programe para uma interface, não para uma implementação": Os clientes devem permanecer completamente alheios às classes concretas e aos tipos específicos dos objetos que utilizam, conhecendo unicamente a interface ou classe abstrata que define o contrato de operação. Isso viabiliza o polimorfismo puro e a substituição dinâmica de implementações em tempo de execução.
+> - **E)** **Correta.** Conforme fundamentado na seção *1.1 Definição Canônica e Elementos Estruturantes* deste guia, publicado em 1994 por Erich Gamma, Richard Helm, Ralph Johnson e John Vlissides ( Gang of Four GoF ), o catálogo clássico de Padrões de Projeto ( Design Patterns ) formalizou soluções reutilizáveis para problemas recorrentes no desenvolvimento de software orientado a objetos. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 23ª/2016) ao estabelecer que "Implantação e Implementação".
+>
+> **Gabarito: E**
+
+---
+
+### Teste 003
+**(FGV – TJ/BA – 2015 – Analista Judiciario Tecnologia Da Informacao)**
+Um padrão de projeto (do inglês design pattern) é uma solução reutilizável para problemas que ocorrem com frequência dentro de um determinado contexto de um projeto de sistema de software orientado a objetos, e que ganhou popularidade com o catálogo denominado Padrões GoF ('Gang of Four') que define e organiza essas soluções reutilizáveis em 3 famílias conforme o propósito de cada solução. Os padrões de projetos denominados Composite, Factory Method e Memento, que fazem parte desse catálogo, pertencem, respectivamente, às famílias:
+
+* **A)** padrão de criação, padrão estrutural e padrão comportamental;
+* **B)** padrão estrutural, padrão comportamental e padrão de criação;
+* **C)** padrão comportamental, padrão estrutural e padrão de criação;
+* **D)** padrão estrutural, padrão de criação e padrão comportamental;
+* **E)** padrão de criação, padrão comportamental e padrão estrutural.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "padrão de criação, padrão estrutural e padrão comportamental". De acordo com a teoria estudada em *5. Fontes Oficiais e Referências Bibliográficas*, gAMMA, Erich; HELM, Richard; JOHNSON, Ralph; VLISSIDES, John. Padrões de Projetos: Soluções Reutilizáveis de Software Orientado a Objetos. Porto Alegre: Bookman, 2000. (Cap. 1 Introdução; Cap. 3 a 5 Catálogo de Padrões Criacionais, Estruturais e Comportamentais).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "padrão estrutural, padrão comportamental e padrão de criação". De acordo com a teoria estudada em *1.3 A Matriz Canônica dos 23 Padrões GoF (Propósito vs. Escopo)*, comportamental (Comunicação e Algoritmos): Interpreter, Template Method — Chain of Responsibility, Command, Iterator, Mediator, Memento, Observer, State, Strategy, Visitor.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "padrão comportamental, padrão estrutural e padrão de criação". De acordo com a teoria estudada em *1.1 Definição Canônica e Elementos Estruturantes*, um padrão de projeto não é código fonte acabado nem uma biblioteca pronta, mas uma descrição e template arquitetural que orienta como estruturar classes e objetos para resolver determinado problema de design com flexibilidade e baixo acoplamento.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.1 Definição Canônica e Elementos Estruturantes* deste guia, publicado em 1994 por Erich Gamma, Richard Helm, Ralph Johnson e John Vlissides ( Gang of Four GoF ), o catálogo clássico de Padrões de Projeto ( Design Patterns ) formalizou soluções reutilizáveis para problemas recorrentes no desenvolvimento de software orientado a objetos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/BA/2015) ao estabelecer que "padrão estrutural, padrão de criação e padrão comportamental".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "padrão de criação, padrão comportamental e padrão estrutural". De acordo com a teoria estudada em *1.3 A Matriz Canônica dos 23 Padrões GoF (Propósito vs. Escopo)*, template Method (Comportamental).
+>
+> **Gabarito: D**
+
+---
+
+### Teste 004
+**(FCC – TRT 15ª – 2015 – Analista Judiciário - Tecnologia da Informação)**
+Os padrões de projeto tornam mais fácil reutilizar projetos e arquiteturas bem sucedidas. Atualmente existem diversos padrões de projetos conforme abaixo: I. Fornece uma interface para a criação de famílias de objetos relacionados ou dependentes sem especificar suas classes concretas. II. Converte a interface de uma classe em outra interface esperada pelos clientes permitindo que certas classes trabalhem em conjunto, pois de outra forma, seria impossível por causa de suas interfaces incompatíveis. III. Fornece uma maneira de acessar sequencialmente os elementos de uma agregação de objetos sem expor sua representação subjacente. Os padrões de projeto apresentados em I, II e III são, respectivamente,
+
+* **A)** Façade, Builder e Mediator.
+* **B)** Abstract Factory, Adapter e Iterator.
+* **C)** Façade, Adapter e Interpreter.
+* **D)** Singleton, Builder e Mediator.
+* **E)** Abstract Factory, Prototype e Iterator.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Façade, Builder e Mediator". De acordo com a teoria estudada em *3.1 Adapter vs. Bridge vs. Facade*, intenção: Converte a interface de uma classe existente na interface esperada pelos clientes. Permite que classes com interfaces incompatíveis trabalhem juntas.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Abstract Factory, Adapter e Iterator". De acordo com a teoria estudada em *2.1 Factory Method vs. Abstract Factory*, intenção: Fornece uma interface para criar famílias de objetos relacionados ou dependentes sem especificar suas classes concretas.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Façade, Adapter e Interpreter". De acordo com a teoria estudada em *3.1 Adapter vs. Bridge vs. Facade*, intenção: Fornece uma interface unificada e simplificada para um conjunto complexo de interfaces em um subsistema.
+> - **D)** **Correta.** Conforme fundamentado na seção *4.3 Command, Chain of Responsibility, Iterator, Mediator, Memento e Visitor* deste guia, iterator (Iterador): Fornece uma maneira de acessar sequencialmente os elementos de um objeto agregado (lista, árvore, grafo) sem expor sua representação estrutural subjacente. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 15ª/2015) ao estabelecer que "Singleton, Builder e Mediator".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Abstract Factory, Prototype e Iterator". De acordo com a teoria estudada em *1.3 A Matriz Canônica dos 23 Padrões GoF (Propósito vs. Escopo)*, criacional (Criação de Objetos): Factory Method — Abstract Factory, Builder, Prototype, Singleton.
+>
+> **Gabarito: D**
+
+---
+
 ## 4. Padrões Comportamentais (Behavioral Patterns)
 
 Os padrões comportamentais concentram-se nos algoritmos, na distribuição de responsabilidades e na dinâmica de comunicação e colaboração entre objetos.

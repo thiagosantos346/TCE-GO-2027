@@ -88,6 +88,72 @@ O documento de referência primária no Brasil é o **Manual de Redação da Pre
 
 ---
 
+### Teste 001
+**(CEBRASPE – TRT/10 – 2013 – Analista Judiciario Tecnologia Da Informacao)**
+As taxas de desemprego das mulheres são mais altas do que às dos homens em escala mundial e não se prevê melhoras desse quadro nos próximos anos, segundo relatório da OIT que analisa as desigualdades de gênero em matéria de desemprego, emprego, participação na força de trabalho, vulnerabilidade e segregação setorial e profissional. Com relação a aspectos gerais das correspondências oficiais, julgue os itens a seguir segundo o Manual de Redação da Presidência da República.
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Incorreta.** A proposição apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "As taxas de desemprego das mulheres são mais altas do que às dos homens em escala mundial e não se prevê...". De acordo com a teoria em *🌐 Fontes Oficiais e Referências Bibliográficas*, manual de Redação da Presidência da República — 3ª Edição Revista e Atualizada (PDF Oficial Planalto) Texto normativo integral que disciplina os atributos da redação oficial, pronomes de tratamento, vocativos, fechos e o Padrão Ofício unificado.
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
+>
+> **Gabarito: E**
+
+---
+
+### Teste 002
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
+O Manual de Redação da Presidência da República (2018) estabelece padrões para a produção de documentos oficiais, diferenciando-os conforme sua finalidade, seu destinatário e sua forma de circulação. Com base nesses padrões, assinale a afirmativa correta.
+
+* **A)** O memorando é o documento oficial adequado para a comunicação entre órgãos de diferentes esferas federativas, sendo vedado seu uso para comunicações internas de um mesmo órgão.
+* **B)** A ata é um documento de caráter normativo, utilizado para registrar decisões de caráter vinculante emanadas de autoridade competente.
+* **C)** O ofício é o documento oficial utilizado tanto para comunicações entre unidades de um mesmo órgão quanto para a comunicação com particulares e outros órgãos públicos.
+* **D)** O relatório tem como finalidade registrar, de forma sumária e cronológica, acontecimentos e deliberações ocorridos em reuniões ou assembleias.
+* **E)** A ata é o instrumento adequado para encaminhar documentos ou informações entre diferentes órgãos públicos, devendo conter identificação do remetente e do destinatário.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O memorando é o documento oficial adequado para a comunicação entre órgãos de diferentes esferas federativas...". De acordo com a teoria estudada em *4.1 Unificação Formal: Extinção do Aviso e do Memorando*, a 3ª edição do MRPR promoveu uma revolução de simplificação: aboliu formalmente o Aviso e o Memorando, unificando todas as correspondências oficiais sob a designação única e abrangente de OFÍCIO. O ofício passou a ser o instrumento geral de comunicação tanto externa quanto interna.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A ata é um documento de caráter normativo, utilizado para registrar decisões de caráter vinculante emanadas de...". De acordo com a teoria estudada em *1.1 Definição e Finalidade da Comunicação Pública*, a redação oficial destina se a viabilizar a comunicação clara, transparente e juridicamente vinculante entre os órgãos da administração pública direta e indireta dos Poderes Executivo, Legislativo e Judiciário, bem como entre estes e os administrados em geral. Sua finalidade última é assegurar que a manifestação da vontade estatal seja plenamente compreensível a qualquer cidadão, afastando ambiguidades que possam comprometer a fruição de direitos ou a imposição de deveres.
+> - **C)** **Correta.** Conforme fundamentado na seção *4.1 Unificação Formal: Extinção do Aviso e do Memorando* deste guia, historicamente, a administração federal brasileira dividia suas correspondências formais entre três modalidades: o Ofício (comunicação externa com outros órgãos ou particulares), o Aviso (comunicação exclusiva expedida por Ministros de Estado para autoridades de idêntica hierarquia) e o Memorando (comunicação interna de caráter eminentemente intersetorial). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "O ofício é o documento oficial utilizado tanto para comunicações entre unidades de um mesmo órgão quanto para a...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O relatório tem como finalidade registrar, de forma sumária e cronológica, acontecimentos e deliberações ocorridos...". De acordo com a teoria estudada em *1.3 Evolução Normativa: O MRPR 3ª Edição e o Decreto Federal nº 9.758/2019*, o documento de referência primária no Brasil é o Manual de Redação da Presidência da República (MRPR), cuja 3ª edição (revista e atualizada em 2018) unificou expedientes históricos e aboliu formalismos estéreis. Complementarmente, o Decreto Federal nº 9.758/2019 consolidou o princípio da simplicidade e da moderação no tratamento dispensado aos agentes públicos, vedando o uso de pronomes honoríficos desproporcionais e simplificando o diálogo entre o Estado e a sociedade.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A ata é o instrumento adequado para encaminhar documentos ou informações entre diferentes órgãos públicos, devendo...". De acordo com a teoria estudada em *4.2 Partes Componentes e Diagramação Oficial do Ofício*, identificação do Expediente: Alinhado à margem esquerda, composto por tipo do documento, número, ano e sigla do órgão emissor ( Ofício 123/2026/GAB PRES/TCE GO ).
+>
+> **Gabarito: C**
+
+---
+
+### Teste 003
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
+A tramitação de documentos oficiais envolve procedimentos que garantem o registro, o controle e o encaminhamento adequado das comunicações na Administração Pública, assegurando rastreabilidade e eficiência no fluxo de informações. Com base no Manual de Redação da Presidência da República (2018), assinale a afirmativa correta.
+
+* **A)** A numeração dos ofícios é facultativa e pode ser suprimida quando o documento se destinar a comunicações internas de baixa complexidade.
+* **B)** O registro e o controle da tramitação de documentos oficiais dispensam identificação do destinatário, desde que o assunto esteja claramente descrito no corpo do texto.
+* **C)** A identificação do signatário, o número do documento e o registro do assunto são elementos que contribuem para o controle e a rastreabilidade da tramitação dos expedientes oficiais.
+* **D)** A tramitação de documentos oficiais prescinde de registro formal quando realizada entre unidades de um mesmo órgão público.
+* **E)** O arquivamento dos documentos oficiais é uma etapa opcional do processo de tramitação, cabendo a cada unidade definir se adota ou não esse procedimento.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção afasta requisito ou relação estrutural exigida pela matéria ao afirmar que "A numeração dos ofícios é facultativa e pode ser suprimida quando o documento se destinar a comunicações internas...". De acordo com a teoria estudada em *🌐 Fontes Oficiais e Referências Bibliográficas*, bRASIL. Presidência da República. Casa Civil. Manual de Redação da Presidência da República. 3. ed. rev., atual. e ampl. Brasília: Presidência da República, 2018. (Cap. I a III As Comunicações Oficiais, Pronomes de Tratamento e O Padrão Ofício).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O registro e o controle da tramitação de documentos oficiais dispensam identificação do destinatário, desde que o...". De acordo com a teoria estudada em *4.2 Partes Componentes e Diagramação Oficial do Ofício*, identificação do Expediente: Alinhado à margem esquerda, composto por tipo do documento, número, ano e sigla do órgão emissor ( Ofício 123/2026/GAB PRES/TCE GO ).
+> - **C)** **Correta.** Conforme fundamentado na seção *1.3 Evolução Normativa: O MRPR 3ª Edição e o Decreto Federal nº 9.758/2019* deste guia, o documento de referência primária no Brasil é o Manual de Redação da Presidência da República (MRPR), cuja 3ª edição (revista e atualizada em 2018) unificou expedientes históricos e aboliu formalismos estéreis. Complementarmente, o Decreto Federal nº 9.758/2019 consolidou o princípio da simplicidade e da moderação no tratamento dispensado aos agentes públicos, vedando o uso de pronomes honoríficos desproporcionais e simplificando o diálogo entre o Estado e a sociedade. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "A identificação do signatário, o número do documento e o registro do assunto são elementos que contribuem para o...".
+> - **D)** **Incorreta.** A opção afasta requisito ou relação estrutural exigida pela matéria ao afirmar que "A tramitação de documentos oficiais prescinde de registro formal quando realizada entre unidades de um mesmo órgão...". De acordo com a teoria estudada em *1.2 Fundamentos Constitucionais: O Artigo 37 da CF/88 e os Princípios da Administração*, eficiência: Impõe o dever de concisão, clareza e celeridade na tramitação e no entendimento das ordens e solicitações administrativas.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O arquivamento dos documentos oficiais é uma etapa opcional do processo de tramitação, cabendo a cada unidade...". De acordo com a teoria estudada em *Fundamentos Teóricos*, documento Base: Manual de Redação da Presidência da República (MRPR 3ª Edição, revista e atualizada) e Decreto Federal nº 9.758/2019.
+>
+> **Gabarito: C**
+
+---
+
 ## 2. Atributos Fundamentais da Redação Oficial
 
 Para que uma correspondência ou ato público cumpra sua missão constitucional, deve observar cumulativamente seis atributos indeclináveis.

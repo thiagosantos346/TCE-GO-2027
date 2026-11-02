@@ -282,6 +282,126 @@ Para mitigar a fadiga de senhas e a dispersão de credenciais entre múltiplos p
 
 ---
 
+### Teste 001
+**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Seguranca Da Informacao)**
+Davi é o coordenador de TI da empresa X e está efetuando uma prova de conceito (POC) para a computação em nuvem de alguns serviços e informações. Durante esse processo, Davi identificou alguns riscos de segurança que são específicos aos ambientes de nuvem. Dentre eles, há as questões tecnológicas partilhadas, que consistem na entrega dos serviços de forma escalável através da partilha de infraestrutura. Muitas vezes, essa infraestrutura não foi projetada para oferecer o isolamento necessário para uma arquitetura multilocatária. Algumas contramedidas que devem ser implementadas por Davi para evitar os riscos da partilha são:
+
+* **A)** especificação dos requisitos de recursos humanos como parte de contrato legal e determinação dos processos de notificação de violação de segurança;
+* **B)** análise do modelo de interfaces de segurança do provedor de nuvem e compreensão da cadeia de dependência associada à API;
+* **C)** implantação de técnicas de autenticação fortes de dois fatores, sempre que possível, e monitoramento proativo para detectar atividades não autorizadas;
+* **D)** monitoramento do ambiente para atividades não autorizadas e a promoção de forte autenticação para o controle de acesso administrativo e de operações;
+* **E)** implementação de uma forte API de controle de acesso e encriptação e proteção da integridade dos dados em trânsito.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "especificação dos requisitos de recursos humanos como parte de contrato legal e determinação dos processos de...". De acordo com a teoria estudada em *2.5 ABAC (Attribute-Based Access Control) e a Norma XACML*, atributos do Ambiente / Contexto: Horário da solicitação, geolocalização física (país/cidade), se a conexão parte da VPN institucional ou rede aberta, conformidade de segurança do dispositivo ( health status ).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "análise do modelo de interfaces de segurança do provedor de nuvem e compreensão da cadeia de dependência associada...". De acordo com a teoria estudada em *3.4 Federação de Identidades e Single Sign-On (SSO, SAML 2.0, OpenID Connect)*, openID Connect (OIDC): Camada de autenticação moderna de identidade construída sobre a infraestrutura REST/HTTPS do protocolo OAuth 2.0. Emprega tokens de identidade codificados em JSON Web Token (JWT), sendo amplamente adotada em aplicações web móveis e microsserviços em nuvem.
+> - **C)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "implantação de técnicas de autenticação fortes de dois fatores, sempre que possível, e monitoramento proativo para...". De acordo com a teoria estudada em *1.2 Os Três Fatores Clássicos de Autenticação*, vulnerabilidades: Suscetível a ataques de força bruta, tabelas arco íris ( rainbow tables ), interceptações por keyloggers , ataques de repetição e técnicas de engenharia social (phishing).
+> - **D)** **Correta.** Conforme fundamentado na seção *2.1 Visão Geral e Comparativo dos Modelos (DAC, MAC, RBAC, ABAC)* deste guia, aBAC ( Attribute Based Access Control ): Controle Baseado em Atributos. Avalia dinamicamente atributos do sujeito, do recurso, da ação solicitada e do ambiente (horário, local, dispositivo, risco) via regras booleanas. — Motor de Políticas Centralizado (ex.: XACML). — Ambientes em nuvem (AWS IAM), microsserviços modernos e arquiteturas Zero Trust. — Concessão granular, dinâmica e sensível ao contexto em tempo real. Desvantagem: maior custo de processamento. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "monitoramento do ambiente para atividades não autorizadas e a promoção de forte autenticação para o controle de...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "implementação de uma forte API de controle de acesso e encriptação e proteção da integridade dos dados em trânsito". De acordo com a teoria estudada em *4.2 Os Três Princípios Norteadores Oficiais do Zero Trust*, projete os sistemas partindo da certeza de que o adversário já conseguiu comprometer algum elemento da infraestrutura. Reduza ao máximo o "raio de explosão" ( blast radius ) do ataque por meio de microsegmentação, inspeção detalhada de todo o tráfego e criptografia de dados em trânsito e em repouso.
+>
+> **Gabarito: D**
+
+---
+
+### Teste 002
+**(FCC – TRT 23ª – 2016 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
+De acordo com a norma ABNT NBR ISO/IEC 27002:2013 a política de controle de acesso deve considerar
+
+* **A)** a disponibilidade de referências de caráter satisfatórias do usuário, por exemplo, uma profissional e uma pessoal.
+* **B)** verificações financeiras e verificações de registros criminais do usuário.
+* **C)** ações a serem tomadas no caso de o funcionário desrespeitar os requisitos de segurança da informação da organização.
+* **D)** a legislação pertinente e qualquer obrigação contratual relativa à proteção de acesso para dados ou serviços.
+* **E)** a confirmação e documentação das qualificações acadêmicas e profissionais do usuário.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a disponibilidade de referências de caráter satisfatórias do usuário, por exemplo, uma profissional e uma pessoal". De acordo com a teoria estudada em *4.2 Os Três Princípios Norteadores Oficiais do Zero Trust*, não existe zona de confiança implícita, mesmo para conexões originadas do prédio sede da corporação ou de computadores patrimoniados. Toda e qualquer requisição de acesso deve ser autenticada, autorizada e criptografada explicitamente, avaliando em tempo real o contexto da sessão.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "verificações financeiras e verificações de registros criminais do usuário". De acordo com a teoria estudada em *2.2 DAC (Discretionary Access Control) e Listas de Controle de Acesso*, no modelo discricionário, a segurança gira em torno da figura do proprietário ( owner ). Quando um usuário cria um documento, planilha ou banco de dados, o sistema operacional atribui a ele a titularidade do objeto. O titular possui discricionariedade absoluta para.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ações a serem tomadas no caso de o funcionário desrespeitar os requisitos de segurança da informação da organização". De acordo com a teoria estudada em *2.1 Visão Geral e Comparativo dos Modelos (DAC, MAC, RBAC, ABAC)*, rBAC ( Role Based Access Control ): Controle Baseado em Papéis. Os privilégios são vinculados a cargos ou perfis funcionais (ex.: "Auditor Fiscal", "Operador"), e os usuários são associados aos papéis. — Administrador de Segurança Corporativo. — Bancos de dados relacionais (PostgreSQL, Oracle), sistemas ERP, processos eletrônicos de tribunais. — Alinhamento com a estrutura administrativa da organização, simplificação da auditoria e facilidade de escala.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.1 O Modelo AAA (Authentication, Authorization, Accounting)* deste guia, o controle de acesso lógico é a barreira de segurança primordial de qualquer sistema de tecnologia da informação. Ele disciplina e audita a interação entre entidades ativas (sujeitos, como usuários humanos, rotinas de código ou microsserviços) e os bens protegidos (objetos, como arquivos, bancos de dados ou servidores). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 23ª/2016) ao estabelecer que "a legislação pertinente e qualquer obrigação contratual relativa à proteção de acesso para dados ou serviços".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a confirmação e documentação das qualificações acadêmicas e profissionais do usuário". De acordo com a teoria estudada em *Modelo Bell-LaPadula (Foco Exclusivo em CONFIDENCIALIDADE):*, um sujeito em determinado nível não pode gravar ou transferir dados para um objeto de nível de sensibilidade inferior ao seu ("No Write Down" Proibido escrever para baixo). Objetivo: Evita que um usuário com acesso a dados "Ultrassecretos" copie inadvertidamente ou maliciosamente informações para um documento "Público".
+>
+> **Gabarito: D**
+
+---
+
+### Teste 003
+**(FGV – TRF/1 – 2024 – Analista Judiciario Area Apoio Especializado Especialidade Suporte Em Tecnologia Da Informacao)**
+O gerente de recursos humanos está organizando uma atividade institucional que contará com a presença de familiares dos servidores do órgão. Para fins de controle de acesso e organização do evento, será necessário registrar o nome, idade e CPF de todos. Além disso, a atividade contará com o apoio da equipe de marketing, que divulgará, após o seu término, uma notícia com fotos do evento na página de Internet da instituição. O gerente de recursos humanos solicita ao encarregado pelo tratamento de dados pessoais que o oriente sobre como proceder para coletar dados pessoais de crianças que venham a participar do evento. O encarregado esclarece corretamente que, nos termos da Lei Geral de Proteção de Dados Pessoais, deverá ser solicitado o consentimento:
+
+* **A)** expresso e em destaque, dado pelo responsável legal;
+* **B)** expresso e em destaque, dado por ambos os pais ou responsável legal;
+* **C)** específico e em destaque, dado pelo servidor que acompanhará a criança no evento;
+* **D)** expresso e em destaque, dado por pelo menos um dos pais ou responsável legal;
+* **E)** específico, em destaque, dado por pelo menos um dos pais ou responsável legal.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "expresso e em destaque, dado pelo responsável legal". De acordo com a teoria estudada em *2.5 ABAC (Attribute-Based Access Control) e a Norma XACML*, atributos do Ambiente / Contexto: Horário da solicitação, geolocalização física (país/cidade), se a conexão parte da VPN institucional ou rede aberta, conformidade de segurança do dispositivo ( health status ).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "expresso e em destaque, dado por ambos os pais ou responsável legal". De acordo com a teoria estudada em *1.1 O Modelo AAA (Authentication, Authorization, Accounting)*, identificação: O sujeito declara perante o sistema quem ele alega ser (fornecendo um nome de usuário, login, endereço de e mail institucional ou CPF).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "específico e em destaque, dado pelo servidor que acompanhará a criança no evento". De acordo com a teoria estudada em *4.4 Microsegmentação e Contenção do Movimento Lateral*, diferente dos firewalls tradicionais que filtram apenas tráfego norte sul (entrada e saída da Internet), a microsegmentação aplica regras rigorosas ao tráfego leste oeste (comunicação entre servidores internos). Assim, caso um servidor web seja invadido, o atacante é impedido de realizar movimento lateral para alcançar o banco de dados contábil que reside na mesma rede física.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "expresso e em destaque, dado por pelo menos um dos pais ou responsável legal". De acordo com a teoria estudada em *1.3 Autenticação Multifator (MFA / 2FA) e Regras Mandatórias*, a Autenticação Multifator (MFA Multi Factor Authentication ), que engloba a Autenticação em Dois Fatores (2FA), é a técnica de segurança que condiciona o sucesso do logon à apresentação mandatória de pelo menos dois elementos pertencentes a categorias conceituais DIFERENTES.
+> - **E)** **Correta.** Conforme fundamentado na seção *1.1 O Modelo AAA (Authentication, Authorization, Accounting)* deste guia, autorização: Uma vez que a autenticidade foi comprovada, o sistema consulta as matrizes de permissão para definir os privilégios exatos e as ações que aquele sujeito específico está legalmente autorizado a executar sobre os recursos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF/1/2024) ao estabelecer que "específico, em destaque, dado por pelo menos um dos pais ou responsável legal".
+>
+> **Gabarito: E**
+
+---
+
+### Teste 004
+**(FGV – TJ/RR – 2024 – Analista Judiciario Infraestrutura De Tecnologia Da Informacao)**
+Os modelos de Controle de Acesso Obrigatório (Mandatory Access Control - MAC) e Controle de Acesso Discricionário (Discretionary Access Control - DAC) são amplamente utilizados em sistemas de segurança da informação para gerenciar o acesso a dados e recursos. Cada um tem suas características próprias, que os tornam mais adequados para diferentes tipos de ambientes e níveis de segurança. No entanto, a escolha entre MAC e DAC depende das necessidades específicas de controle e gerenciamento de permissões em um determinado contexto. Diante do exposto, assinale a opção que diferencia corretamente os modelos MAC e DAC.
+
+* **A)** O MAC permite que os administradores do sistema definam permissões detalhadas para cada usuário, enquanto no DAC as permissões são automaticamente atribuídas com base nas regras do sistema.
+* **B)** No modelo MAC, o controle de permissões é centralizado e determinado por políticas de segurança rígidas, enquanto no modelo DAC as permissões são definidas pelo proprietário do recurso, permitindo uma maior flexibilidade.
+* **C)** O modelo DAC impõe regras de segurança mais restritivas e inalteráveis que o MAC, sendo geralmente aplicado em ambientes de alta segurança com dados sensíveis.
+* **D)** O MAC utiliza permissões dinâmicas baseadas nas necessidades de cada usuário, enquanto o DAC segue um conjunto fixo de políticas definidas no momento da criação dos recursos.
+* **E)** Tanto o MAC quanto o DAC compartilham o mesmo princípio de que as permissões são gerenciadas pelos próprios usuários, mas o MAC se concentra em ambientes corporativos, enquanto o DAC é usado em sistemas pessoais.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O MAC permite que os administradores do sistema definam permissões detalhadas para cada usuário, enquanto no DAC...". De acordo com a teoria estudada em *2.1 Visão Geral e Comparativo dos Modelos (DAC, MAC, RBAC, ABAC)*, mAC ( Mandatory Access Control ): Controle Obrigatório. O sistema central impõe regras invioláveis baseadas em rótulos de sensibilidade da informação e credenciais formais de segurança do usuário. — Administrador Central do Sistema / Política global do kernel. — Ambientes militares, de inteligência e servidores de altíssima segurança (SELinux, AppArmor). — Rigidez máxima contra vazamento e cavalos de troia. Desvantagem: complexidade extrema de configuração e pouca flexibilidade.
+> - **B)** **Correta.** Conforme fundamentado na seção *2.1 Visão Geral e Comparativo dos Modelos (DAC, MAC, RBAC, ABAC)* deste guia, aBAC ( Attribute Based Access Control ): Controle Baseado em Atributos. Avalia dinamicamente atributos do sujeito, do recurso, da ação solicitada e do ambiente (horário, local, dispositivo, risco) via regras booleanas. — Motor de Políticas Centralizado (ex.: XACML). — Ambientes em nuvem (AWS IAM), microsserviços modernos e arquiteturas Zero Trust. — Concessão granular, dinâmica e sensível ao contexto em tempo real. Desvantagem: maior custo de processamento. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "No modelo MAC, o controle de permissões é centralizado e determinado por políticas de segurança rígidas, enquanto...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O modelo DAC impõe regras de segurança mais restritivas e inalteráveis que o MAC, sendo geralmente aplicado em...". De acordo com a teoria estudada em *2.1 Visão Geral e Comparativo dos Modelos (DAC, MAC, RBAC, ABAC)*, dAC ( Discretionary Access Control ): Controle Discricionário. O criador ou proprietário do objeto tem autonomia total para conceder, delegar ou revogar permissões a outros usuários. — O proprietário ( Owner ) do objeto. — Sistemas de arquivos tradicionais (permissões NTFS no Windows, chmod / chown no Linux). — Alta flexibilidade e operação descentralizada. Desvantagem: baixa governança e vulnerável a vazamentos causados por erros de usuários.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O MAC utiliza permissões dinâmicas baseadas nas necessidades de cada usuário, enquanto o DAC segue um conjunto...". De acordo com a teoria estudada em *2.2 DAC (Discretionary Access Control) e Listas de Controle de Acesso*, no modelo discricionário, a segurança gira em torno da figura do proprietário ( owner ). Quando um usuário cria um documento, planilha ou banco de dados, o sistema operacional atribui a ele a titularidade do objeto. O titular possui discricionariedade absoluta para.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Tanto o MAC quanto o DAC compartilham o mesmo princípio de que as permissões são gerenciadas pelos próprios...". De acordo com a teoria estudada em *2.1 Visão Geral e Comparativo dos Modelos (DAC, MAC, RBAC, ABAC)*, rBAC ( Role Based Access Control ): Controle Baseado em Papéis. Os privilégios são vinculados a cargos ou perfis funcionais (ex.: "Auditor Fiscal", "Operador"), e os usuários são associados aos papéis. — Administrador de Segurança Corporativo. — Bancos de dados relacionais (PostgreSQL, Oracle), sistemas ERP, processos eletrônicos de tribunais. — Alinhamento com a estrutura administrativa da organização, simplificação da auditoria e facilidade de escala.
+>
+> **Gabarito: B**
+
+---
+
+### Teste 005
+**(FCC – TRT 15ª – 2015 – Analista Judiciário - Tecnologia da Informação)**
+Com respeito à DMZ, do termo em inglês “DeMilitarized Zone”, ou seja, “Zona Desmilitarizada” considere: I. Tem como função manter os serviços que possuem acesso externo separados da rede local, restringindo ao máximo um potencial dano causado por algum invasor, tanto interno como externo. II. Permite o acesso de usuários externos aos servidores específicos localizados na rede de perímetro e também o acesso deles à rede corporativa interna. III. Tem como papel principal ser uma rede “tampão” entre as redes externa e interna. IV. A configuração é realizada através do uso de equipamentos de Firewall, que vão realizar o controle de acesso entre ela, a rede local e a Internet. Está correto o que consta APENAS em
+
+* **A)** II.
+* **B)** I, III e IV.
+* **C)** II, III e IV.
+* **D)** I e II.
+* **E)** I e III.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II". De acordo com a teoria estudada em *4.1 O Colapso da Segurança de Borda Tradicional ("Castelo e Fosso")*, uma vez que o colaborador acessava a rede local (conectando o cabo de rede na sede do órgão ou autenticando se na VPN), ele passava a gozar de confiança implícita, podendo navegar livremente por dezenas de servidores e sub redes.
+> - **B)** **Correta.** Conforme fundamentado na seção *4.1 O Colapso da Segurança de Borda Tradicional ("Castelo e Fosso")* deste guia, fOSSO["Borda Externa / Firewall / VPN"] |"Se entrar, TUDO é confiável"| REDE LIVRE["Rede Interna Aberta (Movimento Lateral Livre)"]. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 15ª/2015) ao estabelecer que "I, III e IV".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II, III e IV". De acordo com a teoria estudada em *4.4 Microsegmentação e Contenção do Movimento Lateral*, diferente dos firewalls tradicionais que filtram apenas tráfego norte sul (entrada e saída da Internet), a microsegmentação aplica regras rigorosas ao tráfego leste oeste (comunicação entre servidores internos). Assim, caso um servidor web seja invadido, o atacante é impedido de realizar movimento lateral para alcançar o banco de dados contábil que reside na mesma rede física.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e II". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, sTALLINGS, William. Criptografia e Segurança de Redes: Princípios e Práticas. 7. ed. São Paulo: Pearson Education do Brasil, 2018. (Cap. 15 Controle de Acesso de Usuários).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e III". De acordo com a teoria estudada em *4.1 O Colapso da Segurança de Borda Tradicional ("Castelo e Fosso")*, dividia se a rede em "Externa (Hostil)" e "Interna (Confiável)".
+>
+> **Gabarito: B**
+
+---
+
 ## 4. Arquitetura Zero Trust (Confiança Zero - NIST SP 800-207)
 
 ### 4.1 O Colapso da Segurança de Borda Tradicional ("Castelo e Fosso")

@@ -82,3 +82,28 @@ As deliberações do Tribunal de Contas proferidas no julgamento de relatórios 
 - **Recomendações:** Provimentos pedagógicos e propositivos destinados a orientar o gestor sobre oportunidades de melhoria de desempenho, aprimoramento de rotinas gerenciais e governança pública, no campo da discricionariedade administrativa. Não possuem caráter sancionatório direto imediato.
 
 ---
+
+### Teste 001
+**(FGV – TCE/PI – 2025 – Auditor de Controle Externo - Controle Externo - Específica de Área Comum)**
+José, Diretor-Presidente da Fundação de Educação do Município Beta, localizado no Estado Alfa, foi nomeado para esse cargo em janeiro de 2016, hipótese em que recebeu um montante significativo de recursos necessários à implementação de uma política pública voltada à melhoria da qualidade da educação. Em agosto de 2022, José foi exonerado do cargo, ocasião em que o Tribunal de Contas do Estado Alfa (TCE) iniciou uma auditoria para apurar a falta de aplicação dos recursos e a não realização da referida política pública. Em setembro de 2024, o TCE julgou os fatos apontados no relatório de auditoria, aplicando a José as penalidades de multa e de inabilitação para o exercício de cargo em comissão na administração pública direta e indireta nos entes federativos do Estado Alfa. Nessa hipótese, sobre a decisão do TCE que resultou na aplicação de penalidades, assinale a afirmativa correta.
+
+* **A)** Não está sujeita ao controle jurisdicional.
+* **B)** Tem a prescrição interrompida com a publicação do ato de exoneração de João.
+* **C)** Decai em 10 anos, a contar da prática dos fatos apurados no relatório de auditoria.
+* **D)** É válida, pois a pretensão punitiva do TCE tem seu termo prescricional iniciado em agosto de 2022.
+* **E)** É nula, em razão do advento da prescrição da pretensão punitiva, cujo termo inicial se deu em janeiro de 2016.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Não está sujeita ao controle jurisdicional". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, a comunicação dos resultados dos trabalhos de auditoria e fiscalização deve atender aos seguintes atributos de qualidade estabelecidos na NBASP 100.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Tem a prescrição interrompida com a publicação do ato de exoneração de João". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, completude: Inclusão de todos os dados necessários para o perfeito entendimento do fato e formulação do juízo de mérito.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Decai em 10 anos, a contar da prática dos fatos apurados no relatório de auditoria". De acordo com a teoria estudada em *1.1 Atributos do Relatório de Auditoria*, clareza: Linguagem acessível, técnica e compreensível para os leitores e cidadãos.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.2 Espécies de Deliberações: Determinações versus Recomendações* deste guia, determinações: Provimentos mandamentais vinculantes que impõem à autoridade administrativa a obrigação jurídica de fazer ou deixar de fazer algo para sanar ilegalidade, anular ato viciado ou adequar condutas ao ordenamento jurídico. O descumprimento injustificado de determinação enseja a aplicação de multa ao gestor reincidente e julgamento de contas irregulares. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PI/2025) ao estabelecer que "É válida, pois a pretensão punitiva do TCE tem seu termo prescricional iniciado em agosto de 2022".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "É nula, em razão do advento da prescrição da pretensão punitiva, cujo termo inicial se deu em janeiro de 2016". De acordo com a teoria estudada em *1.2 Espécies de Deliberações: Determinações versus Recomendações*, recomendações: Provimentos pedagógicos e propositivos destinados a orientar o gestor sobre oportunidades de melhoria de desempenho, aprimoramento de rotinas gerenciais e governança pública, no campo da discricionariedade administrativa. Não possuem caráter sancionatório direto imediato.
+>
+> **Gabarito: D**
+
+---
+

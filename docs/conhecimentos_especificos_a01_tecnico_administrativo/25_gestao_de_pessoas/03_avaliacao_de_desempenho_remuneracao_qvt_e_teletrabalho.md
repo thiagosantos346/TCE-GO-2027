@@ -109,6 +109,168 @@ flowchart TD
 
 ---
 
+### Teste 001
+**(FCC – TRT 23ª – 2016 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
+Um Analista do TRT23 deve estabelecer o sistema de gestão de segurança do Tribunal baseado na norma ABNT NBR ISO/IEC 27001:2013. Na fase de planejamento, os objetivos de segurança devem ser
+
+* **A)** independentes da política de segurança da informação.
+* **B)** mantidos em segredo pela alta direção da organização.
+* **C)** fixos e imutáveis para possibilitar a avaliação de desempenho.
+* **D)** distintos ao plano de negócio da organização.
+* **E)** elaborados considerando os tratamentos de riscos.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *5. Teletrabalho e Trabalho Híbrido no Setor Público* deste guia, segurança da Informação e Sigilo de Processos: Necessidade de criptografia avançada, redes privadas virtuais (VPN) e certificação digital. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 23ª/2016) ao estabelecer que "independentes da política de segurança da informação".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "mantidos em segredo pela alta direção da organização". De acordo com a teoria estudada em *Comparativo Completo dos Métodos de Avaliação de Desempenho*, pesquisa de Campo: Um analista técnico de Gestão de Pessoas vai até cada setor e entrevista o chefe imediato para avaliar conjuntamente cada colaborador. — Alta padronização, profundo rigor técnico, orienta a chefia sobre planos de melhoria. — Método de altíssimo custo, extrema lentidão e inviável para quadros muito volumosos.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "fixos e imutáveis para possibilitar a avaliação de desempenho". De acordo com a teoria estudada em *5. Teletrabalho e Trabalho Híbrido no Setor Público*, redução expressiva dos custos fixos de manutenção predial (energia elétrica, água, insumos de escritório, mobiliário).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "distintos ao plano de negócio da organização". De acordo com a teoria estudada em *4. Qualidade de Vida no Trabalho (QVT): Modelo de Richard Walton*, d4["4. Oportunidade e Segurança<br/ (Plano de carreira e estabilidade)"].
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "elaborados considerando os tratamentos de riscos". De acordo com a teoria estudada em *4. Qualidade de Vida no Trabalho (QVT): Modelo de Richard Walton*, condições de Segurança e Saúde no Trabalho: Instalações físicas saudáveis, equipamentos ergonômicos, prevenção de acidentes, ausência de insalubridade e limites saudáveis de jornada laboral.
+>
+> **Gabarito: A**
+
+---
+
+### Teste 002
+**(FGV – TRT 1ª – 2024 – Analista Judiciário - Área Administrativa)**
+A figura abaixo mostra uma matriz do tipo “Nine Box” com parte das saídas de uma avaliação de desempenho com foco em competências realizada em certa organização. O gráfico mostra as entregas confrontadas com as capacidades (conhecimento/habilidades) de cinco profissionais (A, B, C, D e E), com a seguinte escala: 1 (não atende); 2 (em desenvolvimento); 3 a 5 (atende) e 6 (supera). A diretora de RH da organização está analisando esses resultados para propor possíveis ações de gestão de pessoas. Em relação aos profissionais, os dados da matriz indicam as seguintes situações e possibilidades de ação adequadas:
+
+* **A)** A é um profissional pouco experiente: indicar para treinamento comportamental;
+* **B)** B supera as exigências de capacitação, mas tem entregas insatisfatórias: reavaliar a área ou posição de atuação;
+* **C)** C é um profissional com capacitação e entrega adequadas: requer orientação imediata do líder em relação às expectativas de entrega e deve priorizar a complementação técnica;
+* **D)** D e E mostram excelente entrega: indicar para promoção;
+* **E)** A e B atendem parcialmente aos requisitos: atribuir mais desafios com vistas a assumir atribuições mais complexas.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A é um profissional pouco experiente: indicar para treinamento comportamental". De acordo com a teoria estudada em *6. Fontes Oficiais e Referências Bibliográficas*, decreto Federal nº 11.072/2022 (Programa de Gestão e Desempenho PGD e Teletrabalho) Disciplina o teletrabalho, planos de trabalho individuais, metas de produtividade e qualidade das entregas.
+> - **B)** **Correta.** Conforme fundamentado na seção *Comparativo Completo dos Métodos de Avaliação de Desempenho* deste guia, avaliação por Objetivos (APO Participativa): Chefia e servidor sentam juntos, negociam metas quantitativas/qualitativas para o ciclo, acompanham periodicamente e realizam autoavaliação final. — Alto engajamento, estímulo à autonomia, foco em entregas futuras e resultados concretos. — Risco de conflito na fixação de metas; exige elevada maturidade gerencial; foco excessivo no quantitativo em detrimento de valores. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 1ª/2024) ao estabelecer que "B supera as exigências de capacitação, mas tem entregas insatisfatórias: reavaliar a área ou posição de atuação".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "C é um profissional com capacitação e entrega adequadas: requer orientação imediata do líder em relação às...". De acordo com a teoria estudada em *5. Teletrabalho e Trabalho Híbrido no Setor Público*, deve entregar metas previamente pactuadas com a chefia imediata (frequentemente estipuladas com produtividade superior à exigida no trabalho presencial).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "D e E mostram excelente entrega: indicar para promoção". De acordo com a teoria estudada em *Dinâmica dos Planos de Cargos e Carreiras*, promoção: Elevação do servidor de uma classe para a classe imediatamente superior dentro da mesma carreira, dependendo de merecimento, capacitação continuada e vacância. Não se confunde com ascensão ou transposição (formas de provimento derivado banidas pela CF/88).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A e B atendem parcialmente aos requisitos: atribuir mais desafios com vistas a assumir atribuições mais complexas". De acordo com a teoria estudada em *1. Gestão e Métodos de Avaliação de Desempenho*, a avaliação de desempenho é uma apreciação sistemática do comportamento e da entrega funcional do servidor no exercício de suas atribuições. Integra o macroprocesso de Aplicar Pessoas (Chiavenato).
+>
+> **Gabarito: B**
+
+---
+
+### Teste 003
+**(CEBRASPE – TRT/10 – 2013 – Analista Judiciario Tecnologia Da Informacao)**
+As medidas objetivas, tais como índices de produtividade, questionários de percepção e indicadores referentes a resultados quantitativos, constituem as principais métricas de avaliação de desempenho nas organizações, pois eliminam a subjetividade.
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Incorreta.** A proposição apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "As medidas objetivas, tais como índices de produtividade, questionários de percepção e indicadores referentes...". De acordo com a teoria em *Comparativo Completo dos Métodos de Avaliação de Desempenho*, método de Avaliação: Como Funciona na Prática — Principais Vantagens — Principais Críticas / Desvantagens.
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
+>
+> **Gabarito: E**
+
+---
+
+### Teste 004
+**(FCC – TRT 15ª – 2015 – Analista Judiciário - Tecnologia da Informação)**
+O denominado Ciclo PDCA, também conhecido como Ciclo da Melhoria Contínua,
+
+* **A)** analisa os processos com vistas a realizá-los de maneira otimizada, envolvendo as etapas de planejamento, execução, controle e avaliação.
+* **B)** é um instrumento de gerenciamento de projetos, que contempla planejamento, desenvolvimento, controle e atualização.
+* **C)** consiste em uma metodologia de avaliação de desempenho individual, vinculada a um projeto de constante desenvolvimento e aprimoramento.
+* **D)** corresponde a método de gestão corporativa com dinâmicas de capacitação e aprendizagem.
+* **E)** é um programa de excelência em gestão pública introduzido no âmbito da reforma voltada à implantação do modelo gerencial.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "analisa os processos com vistas a realizá los de maneira otimizada, envolvendo as etapas de planejamento...". De acordo com a teoria estudada em *5. Teletrabalho e Trabalho Híbrido no Setor Público*, aumento comprovado de produtividade na análise minuciosa de processos licitatórios e relatórios de auditoria que demandam concentração prolongada.
+> - **B)** **Correta.** Conforme fundamentado na seção *4. Qualidade de Vida no Trabalho (QVT): Modelo de Richard Walton* deste guia, utilização e Desenvolvimento de Capacidades: Oportunidade dada ao colaborador de exercer autonomia intelectual, aplicar habilidades cognitivas, planejar seu trabalho e obter feedback claro. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 15ª/2015) ao estabelecer que "é um instrumento de gerenciamento de projetos, que contempla planejamento, desenvolvimento, controle e atualização".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "consiste em uma metodologia de avaliação de desempenho individual, vinculada a um projeto de constante...". De acordo com a teoria estudada em *Comparativo Completo dos Métodos de Avaliação de Desempenho*, a banca frequentemente afirma que o método da Escolha Forçada é o mais indicado quando o objetivo central do órgão é promover sessões ricas de feedback individual entre o chefe e o subordinado. ERRADO! Esse é um dos maiores "peguenhas" da FCC! A Escolha Forçada NÃO serve para fornecer feedback, pois o avaliador desconhece a pontuação estatística das frases preenchidas, o que impossibilita justificar detalhadamente a avaliação para o servidor.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "corresponde a método de gestão corporativa com dinâmicas de capacitação e aprendizagem". De acordo com a teoria estudada em *Comparativo Completo dos Métodos de Avaliação de Desempenho*, pesquisa de Campo: Um analista técnico de Gestão de Pessoas vai até cada setor e entrevista o chefe imediato para avaliar conjuntamente cada colaborador. — Alta padronização, profundo rigor técnico, orienta a chefia sobre planos de melhoria. — Método de altíssimo custo, extrema lentidão e inviável para quadros muito volumosos.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é um programa de excelência em gestão pública introduzido no âmbito da reforma voltada à implantação do modelo...". De acordo com a teoria estudada em *6. Fontes Oficiais e Referências Bibliográficas*, decreto Federal nº 11.072/2022 (Programa de Gestão e Desempenho PGD e Teletrabalho) Disciplina o teletrabalho, planos de trabalho individuais, metas de produtividade e qualidade das entregas.
+>
+> **Gabarito: B**
+
+---
+
+### Teste 005
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Administração)**
+A gestão estratégica de pessoas é um enfoque que alinha as práticas de gestão de recursos humanos aos objetivos organizacionais. Essa abordagem integra planejamento de carreira, treinamento e desenvolvimento, avaliação de desempenho e recompensas, promovendo um ambiente de trabalho motivador e produtivo. Com relação à gestão estratégica de pessoas, avalie as afirmativas a seguir. I. A gestão estratégica de pessoas integra-se à estratégia organizacional, atendendo a objetivos estratégicos, táticos e operacionais, todos devidamente interconectados. II. Não é necessário ter uma clara ideia do impacto do mercado e do ambiente externo em que a empresa está envolvida; a organização pode focar apenas em seus processos internos sem considerar essas variáveis para a gestão estratégica de pessoas. III. A avaliação do desempenho e dos resultados é a etapa de feedback constante e ágil para medição do que foi planejado e realizado. Está correto o que se afirma em
+
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *6. Fontes Oficiais e Referências Bibliográficas*, cHIAVENATO, Idalberto. Gestão de Pessoas: O Novo Papel dos Recursos Humanos nas Organizações. 5. ed. São Paulo: Atlas, 2020. (Cap. 8 Avaliação do Desempenho Humano; Cap. 9 Remuneração; Cap. 13 Qualidade de Vida no Trabalho).
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *1. Gestão e Métodos de Avaliação de Desempenho*, a avaliação de desempenho é uma apreciação sistemática do comportamento e da entrega funcional do servidor no exercício de suas atribuições. Integra o macroprocesso de Aplicar Pessoas (Chiavenato).
+> - **C)** **Correta.** Conforme fundamentado na seção *6. Fontes Oficiais e Referências Bibliográficas* deste guia, constituição Federal de 1988 Art. 41, § 1º, III (Avaliação Periódica de Desempenho) Condição constitucional para perda de cargo do servidor estável mediante procedimento de avaliação periódica de desempenho. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "I e III, apenas".
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *6. Fontes Oficiais e Referências Bibliográficas*, tCU Governança da Gestão de Pessoas e Teletrabalho Referencial de boas práticas para acompanhamento do desempenho individual e institucional.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *6. Fontes Oficiais e Referências Bibliográficas*, mARRAS, Jean Pierre. Administração de Recursos Humanos: Do Operacional ao Estratégico. 15. ed. São Paulo: Saraiva, 2016. (Cap. 7 Avaliação de Desempenho; Cap. 8 Remuneração e Benefícios).
+>
+> **Gabarito: C**
+
+---
+
+### Teste 006
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Ciência de Dados)**
+Para assegurar que o SGSI esteja em conformidade com a norma ABNT NBR ISO/IEC 27001:2022, a organização deve
+
+* **A)** focar na tecnologia, sem considerar o contexto da organização.
+* **B)** envolver a alta administração e definir políticas claras de segurança da informação.
+* **C)** implementar controles de segurança sem a necessidade de avaliação de riscos.
+* **D)** evitar o monitoramento contínuo e a avaliação de desempenho do SGSI.
+* **E)** ignorar a necessidade de melhorias contínuas após a implementação inicial.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "focar na tecnologia, sem considerar o contexto da organização". De acordo com a teoria estudada em *5. Teletrabalho e Trabalho Híbrido no Setor Público*, segurança da Informação e Sigilo de Processos: Necessidade de criptografia avançada, redes privadas virtuais (VPN) e certificação digital.
+> - **B)** **Correta.** Conforme fundamentado na seção *5. Teletrabalho e Trabalho Híbrido no Setor Público* deste guia, direito à Desconexão e Síndrome de Burnout : Risco de o servidor trabalhar ininterruptamente no espaço doméstico. A administração pública deve estabelecer políticas rígidas de respeito aos períodos de repouso e desconexão digital fora do expediente pactuado. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "envolver a alta administração e definir políticas claras de segurança da informação".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "implementar controles de segurança sem a necessidade de avaliação de riscos". De acordo com a teoria estudada em *Comparativo Completo dos Métodos de Avaliação de Desempenho*, pesquisa de Campo: Um analista técnico de Gestão de Pessoas vai até cada setor e entrevista o chefe imediato para avaliar conjuntamente cada colaborador. — Alta padronização, profundo rigor técnico, orienta a chefia sobre planos de melhoria. — Método de altíssimo custo, extrema lentidão e inviável para quadros muito volumosos.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "evitar o monitoramento contínuo e a avaliação de desempenho do SGSI". De acordo com a teoria estudada em *4. Qualidade de Vida no Trabalho (QVT): Modelo de Richard Walton*, oportunidade de Crescimento Contínuo e Segurança: Perspectiva concreta de progressão na carreira, investimento institucional em capacitação e garantia de estabilidade funcional no emprego.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ignorar a necessidade de melhorias contínuas após a implementação inicial". De acordo com a teoria estudada em *5. Teletrabalho e Trabalho Híbrido no Setor Público*, vantagens para a Administração Pública.
+>
+> **Gabarito: B**
+
+---
+
+### Teste 007
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
+A avaliação de desempenho supera o papel de simples instrumento avaliativo e passa a funcionar como mecanismo de retroação voltado ao autodesenvolvimento do servidor. Nessa concepção ampliada, a retroação não se restringe a uma única dimensão de análise, mas abrange um conjunto integrado de competências necessárias ao exercício profissional. Essa abordagem caracteriza-se por
+
+* **A)** atuar como instrumento multidimensional de retroação, articulando quatro categorias de competências — pessoais, tecnológicas, metodológicas e sociais — para que o servidor identifique lacunas e direcione seu próprio crescimento profissional.
+* **B)** restringir-se à aferição de metas quantitativas, por serem os únicos indicadores objetivos capazes de fornecer retroação precisa sobre o desempenho individual.
+* **C)** focalizar as competências técnicas exigidas pelo cargo, consideradas a principal referência para ajustes de desempenho no curto prazo.
+* **D)** limitar a retroação aos comportamentos observáveis e previamente descritos em padrões de conduta, excluindo dimensões não mensuráveis do desenvolvimento profissional.
+* **E)** valorizar prioritariamente as competências adquiridas em programas formais de capacitação, por serem aquelas passíveis de mensuração objetiva e comparação entre servidores.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *Comparativo Completo dos Métodos de Avaliação de Desempenho* deste guia, escolha Forçada: Blocos de duas ou quatro frases descritivas (positivas/neutras). O gestor é obrigado a escolher a frase que mais descreve e a que menos descreve o servidor. — Neutraliza a subjetividade, o favoritismo pessoal e a complacência do gestor. — Método complexo de montar; gera desconfiança no gestor; não permite fornecer feedback claro (pesos estatísticos secretos). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "atuar como instrumento multidimensional de retroação, articulando quatro categorias de competências — pessoais...".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "restringir se à aferição de metas quantitativas, por serem os únicos indicadores objetivos capazes de fornecer...". De acordo com a teoria estudada em *Comparativo Completo dos Métodos de Avaliação de Desempenho*, avaliação por Objetivos (APO Participativa): Chefia e servidor sentam juntos, negociam metas quantitativas/qualitativas para o ciclo, acompanham periodicamente e realizam autoavaliação final. — Alto engajamento, estímulo à autonomia, foco em entregas futuras e resultados concretos. — Risco de conflito na fixação de metas; exige elevada maturidade gerencial; foco excessivo no quantitativo em detrimento de valores.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "focalizar as competências técnicas exigidas pelo cargo, consideradas a principal referência para ajustes de...". De acordo com a teoria estudada em *4. Qualidade de Vida no Trabalho (QVT): Modelo de Richard Walton*, o modelo formulado por Richard Walton (1973) é a principal referência doutrinária exigida em provas sobre o bem estar no ambiente corporativo e público. Walton estruturou a QVT em oito dimensões conceituais.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "limitar a retroação aos comportamentos observáveis e previamente descritos em padrões de conduta, excluindo...". De acordo com a teoria estudada em *2. Erros, Vieses e Distorções Cognitivas do Avaliador*, erro de Contraste: O avaliador julga o servidor comparando o diretamente com o indivíduo avaliado logo antes, e não confrontando seu desempenho com os padrões objetivos do cargo.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "valorizar prioritariamente as competências adquiridas em programas formais de capacitação, por serem aquelas...". De acordo com a teoria estudada em *4. Qualidade de Vida no Trabalho (QVT): Modelo de Richard Walton*, oportunidade de Crescimento Contínuo e Segurança: Perspectiva concreta de progressão na carreira, investimento institucional em capacitação e garantia de estabilidade funcional no emprego.
+>
+> **Gabarito: A**
+
+---
+
 ## 2. Erros, Vieses e Distorções Cognitivas do Avaliador
 
 A subjetividade humana constitui o maior obstáculo à precisão da avaliação de desempenho:

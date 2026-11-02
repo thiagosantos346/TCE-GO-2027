@@ -140,6 +140,102 @@ onde $Q$ são as Consultas (*Queries*), $K$ são as Chaves (*Keys*), $V$ são os
 
 ---
 
+### Teste 001
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Tecnologia da Informação)**
+O Processamento de Linguagem Natural (PLN) é uma área de estudo dedicada à pesquisa e desenvolvimento de métodos e sistemas que visam compreender e processar a linguagem humana por meio de computadores. São paradigmas de PLN:
+
+* **A)** Neural e Simbólico.
+* **B)** Neural e Regressivo.
+* **C)** Estatístico e Sentimental.
+* **D)** Neural e Sentimental.
+* **E)** Simbólico e Sentimental.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *1. Processamento de Linguagem Natural (PLN / NLP)* deste guia, o Processamento de Linguagem Natural é a disciplina interdisciplinar na fronteira entre a Ciência da Computação, Inteligência Artificial e Linguística Formal voltada a viabilizar a compreensão, interpretação, análise e geração da linguagem humana em formato computacional. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "Neural e Simbólico".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Neural e Regressivo". De acordo com a teoria estudada em *2.3 Modelos de Difusão (Diffusion Models)*, processo Reverso ( Reverse Diffusion Process ): Uma rede neural profunda especializada (geralmente uma arquitetura U Net associada a mecanismos de atenção cruzada condicionados por texto) é treinada para predizer e remover iterativamente a fração exata de ruído adicionada em cada passo. Partindo de puro ruído gaussiano aleatório, o modelo desconstrói o ruído passo a passo até reconstituir uma imagem hiper realista.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Estatístico e Sentimental". De acordo com a teoria estudada em *🌐 Fontes Oficiais e Referências Bibliográficas*, arXiv BERT: Pre training of Deep Bidirectional Transformers (Devlin et al.) Representações bidirecionais profundas para compreensão textual e processamento de linguagem natural.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Neural e Sentimental". De acordo com a teoria estudada em *🌐 Fontes Oficiais e Referências Bibliográficas*, rUSSELL, Stuart; NORVIG, Peter. Inteligência Artificial: Uma Abordagem Moderna. 4. ed. Rio de Janeiro: GEN LTC, 2022. (Cap. 24 Processamento de Linguagem Natural com Aprendizado Profundo).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Simbólico e Sentimental". De acordo com a teoria estudada em *1.3 A Revolução dos Transformers em PLN: BERT vs. GPT*, opera em regime estritamente bidirecional: ao processar um token, as camadas de autoatenção conectam no simultaneamente a todas as palavras à esquerda e à direita na sentença.
+>
+> **Gabarito: A**
+
+---
+
+### Teste 002
+**(FGV – TJ/MT – 2024 – Analista Judiciario Tecnologia Da Informacao)**
+O Processamento de Linguagem Natural (PLN) é uma subárea da inteligência artificial focada em permitir que máquinas compreendam, interpretem, gerem e respondam à linguagem humana de maneira natural e significativa. O objetivo do PLN é fazer com que sistemas computacionais realizem tarefas que envolvem a linguagem humana, como leitura, escrita e interpretação de forma semelhante à forma como os humanos processam o idioma. Em Processamento de Linguagem Natural (PLN), a tokenização
+
+* **A)** é a técnica que remove todas as palavras de um texto que não são substantivos, para focar apenas em entidades.
+* **B)** consiste em dividir o texto em unidades menores, como palavras ou subpalavras, para facilitar o processamento do texto por modelos de PLN.
+* **C)** é o processo de sintetizar novas palavras com base em um modelo probabilístico, permitindo a expansão do vocabulário.
+* **D)** é a técnica que converte palavras em números aleatórios para evitar vieses durante a análise textual.
+* **E)** é o processo de combinar palavras em frases inteiras para entender o contexto completo de um texto.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "é a técnica que remove todas as palavras de um texto que não são substantivos, para focar apenas em entidades". De acordo com a teoria estudada em *1.1 Pipeline de Pré-Processamento Textual Clássico*, por subpalavras ( Subword Tokenization ): Padrão hegemônico adotado por modelos baseados em Transformers. Algoritmos como BPE ( Byte Pair Encoding ), WordPiece e SentencePiece começam na granularidade de caracteres e unem progressivamente pares de símbolos estatisticamente frequentes na base de treino.
+> - **B)** **Correta.** Conforme fundamentado na seção *1. Processamento de Linguagem Natural (PLN / NLP)* deste guia, o Processamento de Linguagem Natural é a disciplina interdisciplinar na fronteira entre a Ciência da Computação, Inteligência Artificial e Linguística Formal voltada a viabilizar a compreensão, interpretação, análise e geração da linguagem humana em formato computacional. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/MT/2024) ao estabelecer que "consiste em dividir o texto em unidades menores, como palavras ou subpalavras, para facilitar o processamento do...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é o processo de sintetizar novas palavras com base em um modelo probabilístico, permitindo a expansão do...". De acordo com a teoria estudada em *1.2 Representação Numérica de Texto: BoW, TF-IDF e Embeddings Estáticos*, se um termo aparece em 100% dos documentos da base ($|\{d \in d\}| = N$), a fração interna é $N/N = 1$ e seu $\text{IDF} = \log(1) = 0$. Assim, palavras genéricas ou termos institucionais comuns a todos os processos (ex.: "Tribunal", "Processo") são naturalmente silenciadas.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é a técnica que converte palavras em números aleatórios para evitar vieses durante a análise textual". De acordo com a teoria estudada em *1.1 Pipeline de Pré-Processamento Textual Clássico*, atenção: Essa técnica é vital para reduzir dimensionalidade e ruído em modelos estatísticos de frequência ( Bag of Words , TF IDF); porém, é contraindicada e jamais deve ser aplicada em modelos baseados em Transformers contextuais (BERT, GPT), pois pronomes e preposições são indispensáveis para o cálculo da autoatenção sintática e semântica entre termos na oração.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é o processo de combinar palavras em frases inteiras para entender o contexto completo de um texto". De acordo com a teoria estudada em *1.2 Representação Numérica de Texto: BoW, TF-IDF e Embeddings Estáticos*, limitações Graves: Vetores com dimensionalidade massiva e esparsidade extrema; perda total da sintaxe, contexto e ordem das palavras (as frases "o réu processou o auditor" e "o auditor processou o réu" produzem vetores exatamente idênticos no BoW).
+>
+> **Gabarito: B**
+
+---
+
+### Teste 003
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Ciência de Dados)**
+A análise de componentes principais (Principal Component Analysis - PCA) é uma técnica de redução de dimensionalidade de dados utilizada em diversas aplicações, tais como em compressão de imagens e em processamento de linguagem natural. Em relação à análise de componentes principais, avalie se as afirmativas a seguir são verdadeiras (V) ou falsas. ( ) Permite a identificação de correlações e de estruturas de menor dimensionalidade na distribuição espacial dos dados, caracterizadas pelas direções onde há maior variância. ( ) Envolve o cálculo de autovalores e autovetores de matrizes de covariâncias, determinando-se as componentes principais das distribuições de dados. ( ) É adequada para identificar correlações não-lineares entre os dados de um conjunto de alta dimensionalidade, projetando estruturas em espaços vetoriais de menores dimensões. As afirmativas são, respectivamente,
+
+* **A)** V – F – V.
+* **B)** F – V – V.
+* **C)** F – F – V.
+* **D)** V – V – F.
+* **E)** V – F – F.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – F – V". De acordo com a teoria estudada em *2.4 Modelos de Linguagem Autoregressivos (LLMs) e Parâmetros de Amostragem*, alta Temperatura ($T 1$): Suaviza a curva de probabilidades, elevando as chances de tokens menos frequentes serem sorteados, gerando respostas mais criativas, variadas e diversas (com maior propensão a alucinações se excessivamente alta).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – V – V". De acordo com a teoria estudada em *2.4 Modelos de Linguagem Autoregressivos (LLMs) e Parâmetros de Amostragem*, em vez de fixar uma contagem estática $k$, seleciona dinamicamente o menor conjunto de tokens cuja soma cumulativa de probabilidades atinja o limiar estipulado $p$ (ex.: $p = 0.90$).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – F – V". De acordo com a teoria estudada em *1. Processamento de Linguagem Natural (PLN / NLP)*, o Processamento de Linguagem Natural é a disciplina interdisciplinar na fronteira entre a Ciência da Computação, Inteligência Artificial e Linguística Formal voltada a viabilizar a compreensão, interpretação, análise e geração da linguagem humana em formato computacional.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.1 Pipeline de Pré-Processamento Textual Clássico* deste guia, atenção: Essa técnica é vital para reduzir dimensionalidade e ruído em modelos estatísticos de frequência ( Bag of Words , TF IDF); porém, é contraindicada e jamais deve ser aplicada em modelos baseados em Transformers contextuais (BERT, GPT), pois pronomes e preposições são indispensáveis para o cálculo da autoatenção sintática e semântica entre termos na oração. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "V – V – F".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – F – F". De acordo com a teoria estudada em *4.2 Aplicações em Auditoria de Controle Externo (TCE-GO)*, auditoria de Obras e Engenharia Pública: Uso de Modelos de Visão Linguagem (VLMs) para inspecionar fotografias de vistorias técnicas, imagens de satélite multiespectrais e vídeos capturados por drones, cruzando automaticamente evidências visuais com o cronograma físico financeiro e as planilhas orçamentárias de medição da obra pública.
+>
+> **Gabarito: D**
+
+---
+
+### Teste 004
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Ciência de Dados)**
+Em processamento de linguagem natural (Natural Language Processing - NLP), é fundamental que sejam utilizadas técnicas para representar palavras numericamente como vetores. As representações numéricas são importantes para capturar relações semânticas entre as palavras, permitindo, por exemplo, processamentos para a detecção de similaridades entre palavras e o desenvolvimento de chatbots. Entre as técnicas de NLP para a representação numérica de palavras destacam-se as seguintes:
+
+* **A)** word2vec e GloVe.
+* **B)** stemming e lemmatization.
+* **C)** segmentation e efficient embedding.
+* **D)** seq2seq e symbolic representation.
+* **E)** text-to-speech (TTS) e part-of-speech (POS).
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *1.2 Representação Numérica de Texto: BoW, TF-IDF e Embeddings Estáticos* deste guia, estende o Word2Vec ao representar cada palavra como um saco de n gramas de caracteres (ex.: a palavra "tribunal" com $n=3$ é decomposta em <tr , tri , rib , ibu , bun , una , nal , al ). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "word2vec e GloVe".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "stemming e lemmatization". De acordo com a teoria estudada em *1.1 Pipeline de Pré-Processamento Textual Clássico*, normalização Morfológica: Stemming vs. Lemmatization.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "segmentation e efficient embedding". De acordo com a teoria estudada em *1.2 Representação Numérica de Texto: BoW, TF-IDF e Embeddings Estáticos*, embeddings Estáticos Densos (Word2Vec e FastText).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "seq2seq e symbolic representation". De acordo com a teoria estudada em *1.2 Representação Numérica de Texto: BoW, TF-IDF e Embeddings Estáticos*, word2Vec (Mikolov et al., 2013).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "text to speech (TTS) e part of speech (POS)". De acordo com a teoria estudada em *1.1 Pipeline de Pré-Processamento Textual Clássico*, pOS Tagging ( Part of Speech Tagging ): Identificação e rotulação sintática da classe gramatical de cada token na oração (Substantivo, Verbo, Adjetivo, Preposição).
+>
+> **Gabarito: A**
+
+---
+
 ## 2. Inteligência Artificial Generativa
 
 A IA Generativa fundamenta-se em arquiteturas matemáticas capazes de estimar a densidade de probabilidade $P(X)$ subjacente a distribuições empíricas de dados, permitindo a amostragem estocástica para sintetizar novos dados fidedignos e inéditos.
@@ -197,6 +293,72 @@ A conversão do vetor de números reais (*logits*) emitido pela rede em tokens t
 3. **Top-$p$ Sampling (Amostragem por Núcleo / *Nucleus Sampling*):**
     - Em vez de fixar uma contagem estática $k$, seleciona dinamicamente o menor conjunto de tokens cuja soma cumulativa de probabilidades atinja o limiar estipulado $p$ (ex.: $p = 0.90$).
     - Adapta-se fluidamente: em momentos de certeza gramatical, o núcleo pode conter apenas 1 ou 2 tokens; em contextos abertos, o núcleo expande-se dinamicamente para dezenas de opções viáveis.
+
+---
+
+### Teste 005
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Tecnologia da Informação)**
+A inteligência artificial generativa (IA generativa) é um campo da inteligência artificial que se concentra na capacidade de criar novos conteúdos e ideias de forma autônoma. Em vez de simplesmente responder a comandos ou fornecer respostas predefinidas, uma IA generativa tem a capacidade de gerar conteúdos originais em uma variedade de formas, como texto, imagens, áudio e vídeo. São exemplos de categorias amplas de modelos de IA generativa
+
+* **A)** Autocodificadores variacionais e Multilayer Perceptrons.
+* **B)** Transformadores e Algoritmos de retropropagação.
+* **C)** Autocodificadores variacionais e Redes Adversariais.
+* **D)** Algoritmos de retropropagação e ChatGPT.
+* **E)** Gemini e Multilayer Perceptrons. Aquisição de Bens e Serviços de TI
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Autocodificadores variacionais e Multilayer Perceptrons". De acordo com a teoria estudada em *2. Inteligência Artificial Generativa*, a IA Generativa fundamenta se em arquiteturas matemáticas capazes de estimar a densidade de probabilidade $P(X)$ subjacente a distribuições empíricas de dados, permitindo a amostragem estocástica para sintetizar novos dados fidedignos e inéditos.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Transformadores e Algoritmos de retropropagação". De acordo com a teoria estudada em *2.2 Redes Adversárias Generativas (GANs) e Colapso de Modo*, ocorre quando o Gerador encontra uma única amostra sintética específica (ou uma diversidade insignificante de amostras) altamente eficaz em enganar o Discriminador. O Gerador passa então a produzir repetidamente e sempre a mesma saída idêntica, ignorando a riqueza e variedade do restante do espaço amostral.
+> - **C)** **Correta.** Conforme fundamentado na seção *4. Modelos Multimodais e Aplicações no Setor Público* deste guia, a Multimodalidade representa a capacidade dos sistemas modernos de IA de ingerir, alinhar, correlacionar e sintetizar simultaneamente informações provenientes de múltiplas modalidades sensoriais (texto, imagem, áudio e vídeo). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "Autocodificadores variacionais e Redes Adversariais".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Algoritmos de retropropagação e ChatGPT". De acordo com a teoria estudada em *1.1 Pipeline de Pré-Processamento Textual Clássico*, por subpalavras ( Subword Tokenization ): Padrão hegemônico adotado por modelos baseados em Transformers. Algoritmos como BPE ( Byte Pair Encoding ), WordPiece e SentencePiece começam na granularidade de caracteres e unem progressivamente pares de símbolos estatisticamente frequentes na base de treino.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Gemini e Multilayer Perceptrons. Aquisição de Bens e Serviços de TI". De acordo com a teoria estudada em *1.1 Pipeline de Pré-Processamento Textual Clássico*, nER ( Named Entity Recognition Reconhecimento de Entidades Nomeadas): Identificação de termos específicos no texto estruturados em categorias predefinidas de interesse do órgão (Pessoas, Empresas/Organizações, Valores Monetários, Processos, Datas, CPFs e CNPJs), utilizando a notação padronizada BIO: B ( Beginning , início da entidade), I ( Inside , continuação interna da entidade) e O ( Outside , fora de qualquer entidade).
+>
+> **Gabarito: C**
+
+---
+
+### Teste 006
+**(CEBRASPE – TRF 6ª – 2025 – Analista Judiciário - Apoio Especializado - Governança e Gestão de Tecnologia da Informação)**
+O RAG (retrieval-augmented generation) reduz a necessidade de contextualizar prompts, pois o LLM, sozinho, consegue acessar, dinamicamente, informações externas sem qualquer integração prévia com sistemas de recuperação.
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Incorreta.** A proposição promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "O RAG (retrieval augmented generation) reduz a necessidade de contextualizar prompts, pois o LLM, sozinho...". De acordo com a teoria em *3.3 As Cinco Tipologias Clássicas de Agentes (Russell & Norvig)*, consegue operar com excelência em ambientes parcialmente observáveis, deduzindo informações que não estão diretamente acessíveis nos sensores naquele instante.
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
+>
+> **Gabarito: E**
+
+---
+
+### Teste 007
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Ciências da Computação, Sistemas de Informação...)**
+O TCE-SC está a implementar um assistente virtual para auxiliar os auditores na consulta de normas jurídicas complexas. Para evitar alucinações do modelo de linguagem (LLM) e garantir que as respostas sejam baseadas estritamente no repositório de resoluções do Tribunal, a equipe técnica optou pela arquitetura Retrieval-Augmented Generation (RAG). No fluxo de funcionamento de um sistema RAG, o papel fundamental do Vector Database é
+
+* **A)** armazenar as representações matemáticas dos documentos para permitir a busca por similaridade semântica.
+* **B)** realizar a tradução juramentada dos termos técnicos para linguagem natural.
+* **C)** armazenar o código-fonte do modelo pré-treinado para ajuste fino.
+* **D)** substituir completamente o LLM na geração do texto final da resposta.
+* **E)** gerir o histórico de conversas do usuário em formato de texto estruturado JSON.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *1.3 A Revolução dos Transformers em PLN: BERT vs. GPT* deste guia, ideal para tarefas de compreensão textual profunda: Classificação de Documentos, Reconhecimento de Entidades Nomeadas (NER), Pergunta Resposta Extrativa e Busca Semântica em Bases Vetoriais. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "armazenar as representações matemáticas dos documentos para permitir a busca por similaridade semântica".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "realizar a tradução juramentada dos termos técnicos para linguagem natural". De acordo com a teoria estudada em *4.2 Aplicações em Auditoria de Controle Externo (TCE-GO)*, oCR Semântico de Documentos Administrativos Legados: Digitalização e leitura ótica inteligente de contratos históricos, certidões com caligrafia manual e processos digitalizados com baixa resolução, onde o modelo de linguagem contextual auxilia o modelo visual na recomposição de termos degradados pelo tempo.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "armazenar o código fonte do modelo pré treinado para ajuste fino". De acordo com a teoria estudada em *1.3 A Revolução dos Transformers em PLN: BERT vs. GPT*, pré treinado via Masked Language Modeling (MLM) (ocultando 15% dos tokens aleatoriamente com a tag [MASK] para que o modelo aprenda a reconstruí los a partir do contexto global) e Next Sentence Prediction (NSP).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "substituir completamente o LLM na geração do texto final da resposta". De acordo com a teoria estudada em *3.3 As Cinco Tipologias Clássicas de Agentes (Russell & Norvig)*, combina o estado interno do mundo com a descrição explícita de uma ou mais Metas/Objetivos. Utiliza algoritmos de busca e planejamento para selecionar trajetórias de ações que conduzam ao estado final desejado.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "gerir o histórico de conversas do usuário em formato de texto estruturado JSON". De acordo com a teoria estudada em *4.1 Alinhamento Semântico Multimodal e a Arquitetura CLIP*, maximiza a similaridade de cosseno entre a imagem $I i$ e seu texto descritivo correto $T i$ (pares positivos).
+>
+> **Gabarito: A**
 
 ---
 

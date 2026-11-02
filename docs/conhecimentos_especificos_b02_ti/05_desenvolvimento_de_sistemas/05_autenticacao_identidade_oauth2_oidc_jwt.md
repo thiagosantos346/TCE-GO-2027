@@ -228,6 +228,66 @@ O OpenID Connect padroniza os endpoints do Provedor de Identidade (*Identity Pro
 
 ---
 
+### Teste 001
+**(CEBRASPE – TRF 6ª – 2025 – Analista Judiciário - Apoio Especializado - Governança e Gestão de Tecnologia da Informação)**
+A estrutura de autorização do OAuth 2.0 permite que uma aplicação obtenha acesso ilimitado a um serviço HTTP se houver token válido, mas não permite que uma aplicação de
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Incorreta.** A proposição apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A estrutura de autorização do OAuth 2.0 permite que uma aplicação obtenha acesso ilimitado a um serviço HTTP...". De acordo com a teoria em *3.1 Distinção Essencial: OAuth 2.0 vs. OpenID Connect*, oAuth 2.0 é exclusivamente um framework de autorização delegada. Ele informa que uma aplicação tem autorização para consumir determinadas APIs, mas não padroniza quem é o usuário, qual o formato do token nem como consultar o perfil do usuário.
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
+>
+> **Gabarito: E**
+
+---
+
+### Teste 002
+**(CEBRASPE – TRF/6 – 2025 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao)**
+A estrutura de autorização do OAuth 2.0 permite que uma aplicação obtenha acesso ilimitado a um serviço HTTP se houver token válido, mas não permite que uma aplicação de terceiros obtenha acesso por conta própria.
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *2.2 Fluxos de Concessão (Grant Types) e Cenários de Aplicação*, resource Owner Password Credentials (ROPC): O usuário digita suas credenciais corporativas diretamente na tela da aplicação cliente. — Crítico — DEPRECADO E PROIBIDO no OAuth 2.1 (viola a premissa central de não compartilhar senhas com clientes terceiros). Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRF/6/2025) ao afirmar que "A estrutura de autorização do OAuth 2.0 permite que uma aplicação obtenha acesso ilimitado a um serviço HTTP...".
+> - **E)** **Incorreta.** A assertiva não incorre em erro conceitual, guardando conformidade com a teoria estudada.
+>
+> **Gabarito: C**
+
+---
+
+### Teste 003
+**(FGV – TRT/13 – 2022 – Analista Judiciario Tecnologia Da Informacao)**
+O protocolo de autorização OAuth 2.0 permite que aplicativos obtenham acesso limitado aos serviços HTTP. As quatro funções (roles) descritas na RFC 6749 para esse protocolo são
+
+* **A)** protected resource, resource user, client e token server.
+* **B)** access token, HTTP server, client credential e authorization broker.
+* **C)** resource owner, resource server, client e authorization server.
+* **D)** authorization resource, authorization code, client e token server.
+* **E)** resource owner, password credential, access token e refresh token.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "protected resource, resource user, client e token server". De acordo com a teoria estudada em *3.2 Tríade de Tokens no OIDC: ID Token, Access Token e Refresh Token*, destinatário ( Audience ): A Aplicação Cliente ( Client ) — O Servidor de Recursos ( Resource Server / API) — O Servidor de Autorização ( Authorization Server ).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "access token, HTTP server, client credential e authorization broker". De acordo com a teoria estudada em *2.1 Os Quatro Papéis Fundamentais*, client (Aplicação Cliente): A aplicação que realiza requisições a recursos protegidos em nome do Resource Owner . Classifica se em.
+> - **C)** **Correta.** Conforme fundamentado na seção *2.1 Os Quatro Papéis Fundamentais* deste guia, authorization Server (Servidor de Autorização): Servidor responsável por autenticar o Resource Owner , colher o seu consentimento expresso e emitir os tokens criptográficos de acesso ( Access Tokens ) após validação das credenciais e escopos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/13/2022) ao estabelecer que "resource owner, resource server, client e authorization server".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "authorization resource, authorization code, client e token server". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, iETF RFC 6749: The OAuth 2.0 Authorization Framework Papéis, fluxos de autorização (Authorization Code, Client Credentials, Refresh Token).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "resource owner, password credential, access token e refresh token". De acordo com a teoria estudada em *2.2 Fluxos de Concessão (Grant Types) e Cenários de Aplicação*, resource Owner Password Credentials (ROPC): O usuário digita suas credenciais corporativas diretamente na tela da aplicação cliente. — Crítico — DEPRECADO E PROIBIDO no OAuth 2.1 (viola a premissa central de não compartilhar senhas com clientes terceiros).
+>
+> **Gabarito: C**
+
+---
+
 ## 4. JSON Web Token - JWT (RFC 7519)
 
 ### 4.1 Anatomia Estrutural: Header, Payload e Signature

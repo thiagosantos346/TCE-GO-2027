@@ -197,6 +197,72 @@ A combinação de conjuntos de tuplas originários de duas tabelas (ou subconsul
 
 ---
 
+### Teste 001
+**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Banco De Dados)**
+João, administrador de Banco de Dados Oracle, deverá criar índices para melhorar o desempenho de consultas complexas sobre processos judiciais. Para isso, deverá escolher a estrutura que facilita a busca rápida de informações em operações de junção e intervalo, como: SELECT parte.nome, movimento.descricao, movimento.data FROM parte JOIN movimento ON parte.processoID = movimento.processoID WHERE parte.processoID BETWEEN 10 AND 20; Para tanto, João criou um índice específico na coluna “processoID” da tabela “movimento”: CREATE INDEX idx_movimento_processoID ON movimento(processoID); Após a execução do script apresentado, o tipo de índice criado por João é:
+
+* **A)** bitmap;
+* **B)** hashing;
+* **C)** espacial;
+* **D)** árvore B;
+* **E)** sequencial.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "bitmap". De acordo com a teoria estudada em *1.1 Tipos de Índices: B+Tree, Hash, Bitmap, GIN, GiST e BRIN*, vantagens analíticas (Data Warehousing/OLAP): Operações lógicas complexas com múltiplos filtros ( WHERE sexo = 'F' AND status = 'ATIVO' AND uf = 'GO' ) são resolvidas com operações booleanas bit a bit ( bitwise AND , OR , NOT ) em memória ultrarrápida antes de qualquer acesso ao disco.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "hashing". De acordo com a teoria estudada em *2.4 Algoritmos de Junção: Nested Loop, Hash Join e Merge Join*, consumo de Memória: Se a tabela hash exceder o espaço alocado de memória para ordenação/hashing ( work mem no PostgreSQL ou área de hash da PGA no Oracle), ocorre o spill para disco (armazenamento temporário em batches ), degradando a performance.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "espacial". De acordo com a teoria estudada em *2. Otimização de Consultas e Planos de Execução (Query Tuning)*, o Query Tuning envolve a análise algorítmica e heurística empregada pelo SGBD para converter o comando declarativo SQL em uma árvore sequencial de operadores de acesso a dados de menor custo computacional.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.2 Índices Clusterizados vs. Não-Clusterizados, Parciais e Baseados em Expressão* deste guia, no PostgreSQL, o comando CLUSTER tabela USING nome indice reorganiza as linhas fisicamente no disco com base no índice, mas não mantém essa ordem automaticamente em inserções futuras (exige nova execução manual de CLUSTER ). No Oracle, as tabelas organizadas por índice são explicitamente criadas como CREATE TABLE .. ORGANIZATION INDEX. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "árvore B".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "sequencial". De acordo com a teoria estudada em *1.2 Índices Clusterizados vs. Não-Clusterizados, Parciais e Baseados em Expressão*, como os dados físicos só podem seguir uma única ordem sequencial no disco, uma tabela pode ter no máximo UM índice clusterizado (frequentemente associado à Chave Primária).
+>
+> **Gabarito: D**
+
+---
+
+### Teste 002
+**(FGV – TJ/DFT – 2022 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+No contexto do MySQL, analise as afirmativas a seguir a respeito da carga de dados (Bulk Data Loading) para tabelas InnoDB. I. No caso da existência de restrições (constraints) do tipo UNIQUE, é possível suspender temporariamente a verificação com o comando SET unique_checks=1. II. Tabelas InnoDB utilizam índices clusterizados, o que normalmente torna mais rápida a carga de dados dispostos na mesma ordem da chave primária (primary key). III. Na carga de arquivos muito grandes, a shell do MySQL oferece serviços de importação rápida por meio do utilitário util.importTable(). Está correto somente o que se afirma em:
+
+* **A)** II;
+* **B)** III;
+* **C)** I e II;
+* **D)** I e III;
+* **E)** II e III.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II". De acordo com a teoria estudada em *1.2 Índices Clusterizados vs. Não-Clusterizados, Parciais e Baseados em Expressão*, no PostgreSQL, o comando CLUSTER tabela USING nome indice reorganiza as linhas fisicamente no disco com base no índice, mas não mantém essa ordem automaticamente em inserções futuras (exige nova execução manual de CLUSTER ). No Oracle, as tabelas organizadas por índice são explicitamente criadas como CREATE TABLE .. ORGANIZATION INDEX.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "III". De acordo com a teoria estudada em *4.1 Instância vs. Banco de Dados e Estruturas de Memória (SGA e PGA)*, data Dictionary Cache (Row Cache): Armazena definições de tabelas, privilégios, colunas e restrições oriundas do catálogo interno de metadados.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e II". De acordo com a teoria estudada em *2.4 Algoritmos de Junção: Nested Loop, Hash Join e Merge Join*, uso ideal: Tabelas volumosas onde os dados de ambas já vêm previamente ordenados (ex.: derivados de um índice B Tree pré existente) ou quando a consulta já exige ordenação explícita ( ORDER BY ) pela mesma chave de junção.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e III". De acordo com a teoria estudada em *1.1 Tipos de Índices: B+Tree, Hash, Bitmap, GIN, GiST e BRIN*, b+Tree: É a estrutura padrão ( default ) na esmagadora maioria dos SGBDs relacionais (PostgreSQL, Oracle, MySQL/InnoDB, SQL Server).
+> - **E)** **Correta.** Conforme fundamentado na seção *1.2 Índices Clusterizados vs. Não-Clusterizados, Parciais e Baseados em Expressão* deste guia, como os dados físicos só podem seguir uma única ordem sequencial no disco, uma tabela pode ter no máximo UM índice clusterizado (frequentemente associado à Chave Primária). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/DFT/2022) ao estabelecer que "II e III".
+>
+> **Gabarito: E**
+
+---
+
+### Teste 003
+**(CEBRASPE – TRT/10 – 2013 – Analista Judiciario Tecnologia Da Informacao)**
+Os índices são chaves secundárias utilizadas para acessar uma tabela mediante forma diferente da utilizada por uma chave primária.
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *1.2 Índices Clusterizados vs. Não-Clusterizados, Parciais e Baseados em Expressão*, como os dados físicos só podem seguir uma única ordem sequencial no disco, uma tabela pode ter no máximo UM índice clusterizado (frequentemente associado à Chave Primária). Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT/10/2013) ao afirmar que "Os índices são chaves secundárias utilizadas para acessar uma tabela mediante forma diferente da utilizada...".
+> - **E)** **Incorreta.** A assertiva não incorre em erro conceitual, guardando conformidade com a teoria estudada.
+>
+> **Gabarito: C**
+
+---
+
 ## 3. Arquitetura e Administração do PostgreSQL
 
 O PostgreSQL é um Sistema Gerenciador de Banco de Dados Objeto-Relacional (SGBD-OR) de código aberto reconhecido por sua robustez, conformidade estrita com padrões SQL e arquitetura altamente modular e extensível.
@@ -380,6 +446,54 @@ TABLESPACE ────────► SEGMENTO ────────► EXTE
     - **Extensão (Extent):** Um número específico de blocos de dados Oracle logicamente e fisicamente contíguos alocados de uma só vez para acomodar o crescimento de um objeto.
     - **Segmento (Segment):** Conjunto completo de extensões alocadas para uma estrutura de dados relacional específica. Tipos de segmentos: Segmento de Dados (Tabela), Segmento de Índice, Segmento Temporário e Segmento de Undo.
     - **Tablespace:** A maior unidade lógica de armazenamento. Uma tablespace agrupa múltiplos segmentos e é mapeada fisicamente por **um ou mais Datafiles**. Um datafile pertence estrita e exclusivamente a uma única tablespace.
+
+---
+
+### Teste 004
+**(FCC – TRT 9ª – 2015 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
+Considere o programa PL/SQL para o Oracle 11g: SQL> DECLARE 2 aumento NUMBER(8,2); 3 processo VARCHAR2(10) := '555/15'; 4 BEGIN 5 SELECT HonorPericiais * 0.20 INTO aumento 6 FROM DebTrab 7 WHERE processos = NroProcesso; 8 END; 9 / O programa acima
+
+* **A)** Oracle 11g, utiliza o comando DBMS_CONNECTION_POOL para criar um pool denominado Database Resident Connection Pool que permite utilizar bibliotecas para armazenar imagens e metadados.
+* **B)** Microsoft SQL Server não precisa configurar links para outros servidores na organização, nem definir uma estratégia de backup do banco de dados, pois tudo é feito automaticamente.
+* **C)** PostgreSQL pode utilizar os seguintes comandos via linha de comando: pgdump, pgdumptotal, pgrestoreall, create_db, drop_db, create_role, drop_role, dentre outros.
+* **D)** PostgreSQL pode utilizar a ferramenta PGAdmin para administrar banco de dados na plataforma Windows, pois trata-se de um aplicativo da Microsoft que oferece uma interface completa de administração.
+* **E)** Microsoft SQL Server, não deve excluir ou mover o log de transações, pois se houver uma falha do sistema, será necessário que o log de transações retorne o banco de dados a um estado consistente.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *4.1 Instância vs. Banco de Dados e Estruturas de Memória (SGA e PGA)* deste guia, database Buffer Cache: Shared Pool — Redo Log Buffer. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 9ª/2015) ao estabelecer que "Oracle 11g, utiliza o comando DBMS CONNECTION POOL para criar um pool denominado Database Resident Connection Pool...".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Microsoft SQL Server não precisa configurar links para outros servidores na organização, nem definir uma...". De acordo com a teoria estudada em *4.1 Instância vs. Banco de Dados e Estruturas de Memória (SGA e PGA)*, outras Pools: Large Pool (para backup RMAN e buffers de I/O em grande escala), Java Pool e Streams Pool.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "PostgreSQL pode utilizar os seguintes comandos via linha de comando: pgdump, pgdumptotal, pgrestoreall, create db...". De acordo com a teoria estudada em *4.1 Instância vs. Banco de Dados e Estruturas de Memória (SGA e PGA)*, library Cache: Armazena comandos SQL executados, instruções PL/SQL compiladas e planos de execução gerados. Permite a reutilização de código e planos por meio de Hard Parse (análise sintática/semântica completa e geração de plano) e Soft Parse (reaproveitamento instantâneo de um plano já presente na Library Cache via bind variables ).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "PostgreSQL pode utilizar a ferramenta PGAdmin para administrar banco de dados na plataforma Windows, pois trata se...". De acordo com a teoria estudada em *4. Arquitetura e Administração do Oracle Database*, o Oracle Database adota uma separação rigorosa e altamente formalizada entre a entidade computacional em memória (Instância) e a estrutura física armazenada em disco (Banco de Dados).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Microsoft SQL Server, não deve excluir ou mover o log de transações, pois se houver uma falha do sistema, será...". De acordo com a teoria estudada em *1.1 Tipos de Índices: B+Tree, Hash, Bitmap, GIN, GiST e BRIN*, b+Tree: É a estrutura padrão ( default ) na esmagadora maioria dos SGBDs relacionais (PostgreSQL, Oracle, MySQL/InnoDB, SQL Server).
+>
+> **Gabarito: A**
+
+---
+
+### Teste 005
+**(FGV – TRT/13 – 2022 – Analista Judiciario Tecnologia Da Informacao)**
+Considere o script a seguir. SELECT * FROM FT_SEARCH('xxxxxx', 0, 0); Assinale a lista de implementações de bancos de dados que admitem nativamente a sintaxe usada acima.
+
+* **A)** H2 e PostgreSQL, somente.
+* **B)** H2, somente.
+* **C)** Oracle e PostgreSQL, somente.
+* **D)** Oracle, somente.
+* **E)** PostgreSQL, somente.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "H2 e PostgreSQL, somente". De acordo com a teoria estudada em *2.3 Estratégias de Varredura: Seq Scan, Index Scan, Index Only Scan e Bitmap Scan*, index Only Scan: Todas as colunas requeridas na projeção ( SELECT ) e filtros ( WHERE ) já estão armazenadas nas folhas do próprio índice. O motor obtém a resposta sem tocar nos blocos de dados da tabela. — Consultas cujas colunas requeridas formam um índice cobridor ( covering index ). No PostgreSQL, requer consulta ao Visibility Map para garantir visibilidade MVCC.
+> - **B)** **Correta.** Conforme fundamentado na seção *3.2 Parâmetros Críticos de Memória* deste guia, define a quantidade máxima de memória privada que pode ser usada por uma única operação interna de ordenação ( ORDER BY , DISTINCT ) ou tabela hash (em Hash Join ou agregação por GROUP BY ) antes de despejar dados para arquivos temporários no disco. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/13/2022) ao estabelecer que "H2, somente".
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Oracle e PostgreSQL, somente". De acordo com a teoria estudada em *1.3 Trade-offs e Custos de Manutenção de Índices*, consumo de Memória de Buffer: Índices volumosos competem com os blocos de dados por espaço na memória cache principal ( shared buffers no PostgreSQL / Buffer Cache no Oracle).
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Oracle, somente". De acordo com a teoria estudada em *4. Arquitetura e Administração do Oracle Database*, o Oracle Database adota uma separação rigorosa e altamente formalizada entre a entidade computacional em memória (Instância) e a estrutura física armazenada em disco (Banco de Dados).
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "PostgreSQL, somente". De acordo com a teoria estudada em *1.1 Tipos de Índices: B+Tree, Hash, Bitmap, GIN, GiST e BRIN*, estrutura especializada no PostgreSQL para dados compostos onde um único valor de coluna contém múltiplos elementos internos: arrays, documentos semiestruturados JSONB e vetores de busca textual ( tsvector para Full Text Search ).
+>
+> **Gabarito: B**
 
 ---
 

@@ -313,3 +313,136 @@ A pontuação é ferramenta de arquitetura do sentido discursivo. O deslocamento
 * *Supressão da vírgula de vocativo:* Transforma o chamamento em sujeito da oração (*"Auditor, assine o documento"* [ordem a um interlocutor] vs. *"Auditor assine o documento"* [frase defeituosa ou ambígua]).
 
 ---
+
+### Teste 001
+**(FGV – TJ/SC – 2026 – Analista Administrativo)**
+Leia o fragmento de texto a seguir. Sentimento que não espairo; pois eu mesmo nem acerto com o mote disso ― o que queria e o que não queria, estória sem final. O correr da vida embrulha tudo, a vida é assim: esquenta e esfria, aperta e daí afrouxa, sossega e depois desinquieta. O que ela quer da gente é coragem. O que Deus quer é ver a gente aprendendo a ser capaz de ficar alegre a mais, no meio da alegria, e inda mais alegre no meio da tristeza! Só assim de repente, na horinha em que se quer, de propósito ― por coragem. Será? Era o que eu às vezes achava. Ao clarear do dia. ROSA, João Guimarães. Grande Sertão: Veredas. São Paulo: Cia das Letras. 2019. p. 293. No fragmento apresentado, o uso de diferentes sinais de pontuação contribui para a construção de sentidos e para a expressão da subjetividade do narrador. Considerando esse aspecto, assinale a afirmativa que analisa corretamente o papel desses recursos no texto.
+
+* **A)** O uso do ponto e vírgula estabelece relações de subordinação entre as orações, organizando o texto de forma hierarquizada.
+* **B)** Os dois-pontos introduzem explicações e enumerações, contribuindo para o encadeamento reflexivo das ideias do narrador.
+* **C)** O travessão é empregado para indicar mudança de interlocutor, caracterizando o texto como diálogo direto.
+* **D)** Os pontos finais fragmentam o texto em períodos independentes, sem relação com o ritmo ou com a construção de sentido.
+* **E)** O ponto de interrogação é utilizado para organizar sintaticamente o texto, sem interferir na expressividade da linguagem.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O uso do ponto e vírgula estabelece relações de subordinação entre as orações, organizando o texto de forma...". De acordo com a teoria estudada em *1.1 Conceito de Período Composto e Mecanismos de Junção Oracional*, o reconhecimento do número de orações em um período faz se pela identificação da quantidade de verbos ou locuções verbais presentes. A ligação entre essas orações processa se ou por meio de conectivos expressos (conjunções coordenativas ou subordinativas, locuções conjuntivas e pronomes relativos) ou por simples justaposição assindética mediada por sinais de pontuação (vírgulas, ponto e vírgula ou dois pontos).
+> - **B)** **Correta.** Conforme fundamentado na seção *1. Fundamentos do Período Composto: Coordenação e Subordinação* deste guia, o período composto é aquele constituído por duas ou mais orações que se articulam para veicular um pensamento complexo. No texto formal, técnico e legislativo, o encadeamento das proposições obedece a dois processos estruturais básicos: a coordenação e a subordinação. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/SC/2026) ao estabelecer que "Os dois pontos introduzem explicações e enumerações, contribuindo para o encadeamento reflexivo das ideias do...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O travessão é empregado para indicar mudança de interlocutor, caracterizando o texto como diálogo direto". De acordo com a teoria estudada em *5.4 Emprego de Ponto e Vírgula, Dois-Pontos, Travessões e Parênteses*, o travessão duplo atua como recurso expressivo para isolar termos intercalados, comentários enfáticos ou orações adjetivas explicativas, substituindo com elegância as vírgulas duplas ou os parênteses ( "O processo de auditoria — cuja complexidade assustava os neófitos — transcorreu dentro da mais estrita normalidade" ).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os pontos finais fragmentam o texto em períodos independentes, sem relação com o ritmo ou com a construção de...". De acordo com a teoria estudada em *Distinção Semântica e Sintática Crucial:*, a FCC explora intensamente assertivas que indagam: "A retirada das vírgulas da oração adjetiva mantém a correção gramatical e o sentido original do período?" . Resposta técnica obrigatória: a retirada das vírgulas mantém a correção gramatical, mas SEMPRE ALTERA O SENTIDO DO TEXTO, transformando uma explicação genérica sobre a totalidade em uma restrição delimitadora sobre uma fração.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O ponto de interrogação é utilizado para organizar sintaticamente o texto, sem interferir na expressividade da...". De acordo com a teoria estudada em *5.4 Emprego de Ponto e Vírgula, Dois-Pontos, Travessões e Parênteses*, separa orações coordenadas de certa extensão que já contenham vírgulas internas: "O relatório inicial apontou desvios de combustível; o parecer conclusivo, elaborado pela auditoria de engenharia, recomendou a instauração de tomada de contas especial.".
+>
+> **Gabarito: B**
+
+---
+
+### Teste 002
+**(CEBRASPE – TRF 6ª – 2025 – Analista Judiciário - Apoio Especializado - Governança e Gestão de Tecnologia da Informação)**
+No processamento de linguagem natural, para transformar texto bruto em um formato mais estruturado e padronizado, utilizam-se técnicas como a remoção de pontuação, a normalização dos dados, a tokenização e a eliminação de stop words.
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *5.5 Alterações de Sentido Provocadas pela Supressão ou Deslocamento de Pontuação*, a pontuação é ferramenta de arquitetura do sentido discursivo. O deslocamento ou a eliminação de um sinal de pontuação pode transformar completamente o sentido da mensagem. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRF 6ª/2025) ao afirmar que "No processamento de linguagem natural, para transformar texto bruto em um formato mais estruturado e...".
+> - **E)** **Incorreta.** A assertiva não incorre em erro conceitual, guardando conformidade com a teoria estudada.
+>
+> **Gabarito: C**
+
+---
+
+### Teste 003
+**(CEBRASPE – TRT/10 – 2013 – Analista Judiciario Tecnologia Da Informacao)**
+Infere-se da leitura do texto que a eliminação de todas as formas de discriminação, que abrange a promoção da igualdade de oportunidades, constitui o fundamento da Declaração dos Direitos e Princípios Fundamentais do Trabalho e da Agenda do Trabalho Decente da OIT. com o código E, caso julgue o item ERRADO. A ausência de seja, não receberão pontuação negativa. Para as devidas marcações, suas provas objetivas. BÁSICOS
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Incorreta.** A proposição apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Infere se da leitura do texto que a eliminação de todas as formas de discriminação, que abrange a promoção da...". De acordo com a teoria em *1. Fundamentos do Período Composto: Coordenação e Subordinação*, o período composto é aquele constituído por duas ou mais orações que se articulam para veicular um pensamento complexo. No texto formal, técnico e legislativo, o encadeamento das proposições obedece a dois processos estruturais básicos: a coordenação e a subordinação.
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
+>
+> **Gabarito: E**
+
+---
+
+### Teste 004
+**(FCC – TRT 11ª – 2017 – Analista Judiciário - Tecnologia da Informação)**
+É legítimo afirmar: no texto,
+
+* **A)** Transpondo a voz passiva presente na frase para a voz ativa, a forma correta a ser grafada é “têm acompanhado”.
+* **B)** A retirada da vírgula após a palavra reiteradamente prejudica o sentido original da frase.
+* **C)** A expressão Visível a olho nu, que constitui caracterização da palavra que a antecede, dá oportunidade para que se introduza outro argumento a favor da ideia expressa por notório.
+* **D)** Se o assunto fosse não um processo, mas “processos”, a correção exigiria a forma “se tratam de processos”.
+* **E)** O verbo “haver”, na frase, está empregado como indica o seguinte verbete do Dicionário eletrônico Houaiss: transitivo direto [impessoal] ter transcorrido ou ser decorrido (tempo).
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Transpondo a voz passiva presente na frase para a voz ativa, a forma correta a ser grafada é “têm acompanhado”". De acordo com a teoria estudada em *3.2 Classificação Sintática das Orações Subordinadas Substantivas*, subjetiva: Exerce a função de sujeito da oração principal. Ocorre quando a oração principal possui verbo de ligação + predicativo ( "É evidente que o prazo expirou" $\rightarrow$ ISSO é evidente ), verbo na voz passiva analítica ou sintética ( "Sabe se que haverá concurso" ) ou verbos unipessoais ( convém, cumpre, importa, parece, urge ): "Convém que todos estudem".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A retirada da vírgula após a palavra reiteradamente prejudica o sentido original da frase". De acordo com a teoria estudada em *Distinção Semântica e Sintática Crucial:*, a FCC explora intensamente assertivas que indagam: "A retirada das vírgulas da oração adjetiva mantém a correção gramatical e o sentido original do período?" . Resposta técnica obrigatória: a retirada das vírgulas mantém a correção gramatical, mas SEMPRE ALTERA O SENTIDO DO TEXTO, transformando uma explicação genérica sobre a totalidade em uma restrição delimitadora sobre uma fração.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A expressão Visível a olho nu, que constitui caracterização da palavra que a antecede, dá oportunidade para que se...". De acordo com a teoria estudada em *Distinções Gramaticais Determinantes:*, na oração coordenada adversativa, o argumento mais forte, que orienta a conclusão final do autor, situa se dentro da própria oração adversativa ( "O projeto é dispendioso, mas trará enormes benefícios à coletividade" $\rightarrow$ prevalece a ideia de aprovação do projeto).
+> - **D)** **Correta.** Conforme fundamentado na seção *1.3 Processo de Subordinação e Encaixamento Hierárquico* deste guia, na subordinação, verifica se uma relação de dependência hierárquica e encaixamento funcional: a oração subordinada desempenha uma função sintática essencial, integrante ou acessória em benefício da oração principal (atuando como se fosse um substantivo, um adjetivo ou um advérbio desta). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 11ª/2017) ao estabelecer que "Se o assunto fosse não um processo, mas “processos”, a correção exigiria a forma “se tratam de processos”".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O verbo “haver”, na frase, está empregado como indica o seguinte verbete do Dicionário eletrônico Houaiss...". De acordo com a teoria estudada em *1.3 Processo de Subordinação e Encaixamento Hierárquico*, "O tribunal determinou [oração principal] <ins que o contrato fosse suspenso</ins [oração subordinada substantiva com função de objeto direto da principal].".
+>
+> **Gabarito: D**
+
+---
+
+### Teste 005
+**(FCC – TRT 11ª – 2017 – Analista Judiciário - Tecnologia da Informação)**
+(3o parágrafo) Não obstante a permanência ininterrupta da enorme desigualdade em tamanho e estatura das religiões no Brasil, não é mais possível, nos dias que correm, desconhecer que a sociedade brasileira está passando por um processo de transição religiosa que é notório. Visível a olho nu. Considerado o trecho acima, no contexto em que está inserido, é apropriado afirmar:
+
+* **A)** A expressão nos dias que correm expressa um fator condicionante.
+* **B)** A locução verbal em que está presente o gerúndio indica uma ação durativa em tempo não marcado.
+* **C)** As incontestes desigualdades estruturais do Brasil impossibilitam leituras mais pontuais e consistentes acerca da vida dos brasileiros, principalmente no que se refere a seus hábitos religiosos.
+* **D)** A inclusão de uma vírgula depois de Não obstante mantém a correção e a clareza da frase, visto que o emprego desse sinal de pontuação, nessa específica formulação, é facultativo.
+* **E)** Em a permanência ininterrupta da enorme desigualdade em tamanho e estatura das religiões no Brasil, a substituição de ininterrupta por “intermitente” mantém o sentido original da frase.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *2.1 Coordenadas Assindéticas e Sindéticas* deste guia, coordenadas Assindéticas: São orações justapostas, separadas por vírgula ou ponto e vírgula, sem qualquer conjunção expressa: "Chegou ao tribunal, conferiu a pauta, dirigiu se ao plenário". Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 11ª/2017) ao estabelecer que "A expressão nos dias que correm expressa um fator condicionante".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A locução verbal em que está presente o gerúndio indica uma ação durativa em tempo não marcado". De acordo com a teoria estudada em *4.1 Quadro Completo das Conjunções Subordinativas Adverbiais*, temporal: Momento cronológico em que ocorre a ação — quando, enquanto, logo que, assim que, desde que, todas as vezes que — "Assim que a sessão terminou, a ata foi lavrada.".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "As incontestes desigualdades estruturais do Brasil impossibilitam leituras mais pontuais e consistentes acerca da...". De acordo com a teoria estudada em *1. Fundamentos do Período Composto: Coordenação e Subordinação*, o período composto é aquele constituído por duas ou mais orações que se articulam para veicular um pensamento complexo. No texto formal, técnico e legislativo, o encadeamento das proposições obedece a dois processos estruturais básicos: a coordenação e a subordinação.
+> - **D)** **Incorreta.** A opção afasta requisito ou relação estrutural exigida pela matéria ao afirmar que "A inclusão de uma vírgula depois de Não obstante mantém a correção e a clareza da frase, visto que o emprego desse...". De acordo com a teoria estudada em *Distinção Semântica e Sintática Crucial:*, a FCC explora intensamente assertivas que indagam: "A retirada das vírgulas da oração adjetiva mantém a correção gramatical e o sentido original do período?" . Resposta técnica obrigatória: a retirada das vírgulas mantém a correção gramatical, mas SEMPRE ALTERA O SENTIDO DO TEXTO, transformando uma explicação genérica sobre a totalidade em uma restrição delimitadora sobre uma fração.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Em a permanência ininterrupta da enorme desigualdade em tamanho e estatura das religiões no Brasil, a substituição...". De acordo com a teoria estudada em *5.5 Alterações de Sentido Provocadas pela Supressão ou Deslocamento de Pontuação*, supressão da vírgula de vocativo: Transforma o chamamento em sujeito da oração ( "Auditor, assine o documento" [ordem a um interlocutor] vs. "Auditor assine o documento" [frase defeituosa ou ambígua]).
+>
+> **Gabarito: A**
+
+---
+
+### Teste 006
+**(FCC – TRT 16ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
+Quanto à pontuação, a frase inteiramente correta é:
+
+* **A)** Já pela má fama adquirida já por preconceito, sem- pre haverá por parte de certos leitores, alguma relu- tância diante da leitura de um prefácio.
+* **B)** O autor do texto não hesita honestamente, de re- correr a experiências pessoais, para demonstrar sua tese, favorável em boa parte à existência mesma dos prefácios.
+* **C)** A escritora Cecília Meireles tão talentosa quanto bo- nita, é citada no texto como parâmetro de excelên- cia, na comparação com uma jovem, bela e pouco inspirada poetisa.
+* **D)** Muita gente acabará por confessar tal como fez o autor, que um prefácio pode prender nossa atenção, com muito mais força, do que o texto principal de uma obra.
+* **E)** O autor conclui, não sem razão, que as bibliografias que indicam apenas o prefácio de uma obra per- mitem deduzir, não há dúvida, que o restante do li- pírito das leis, obra clássica do filósofo francês Montesquieu, publicada em 1748. [Do espírito das leis] Falta muito para que o mundo inteligente seja tão bem governado quanto o mundo físico, pois ainda que o mundo inteligente possua também leis que por sua natureza são invariáveis, não as segue constantemente como o mundo físico segue as suas. A razão disso reside no fato de estarem os seres particulares inteligentes limitados por sua natureza e, consequentemente, sujeitos a erro; e, por outro lado, é próprio de sua natureza agirem por si mesmos. (...) O homem, como ser físico, tal como os outros corpos da natureza, é governado por leis invariáveis. Como ser inteligente, _________________________________________________________ viola incessantemente as leis que Deus estabeleceu e modifica as que ele próprio estabeleceu. Tal ser poderia, a todo instante, esquecer seu criador − Deus, pelas leis da religião, chamou-o a si; um tal ser poderia, a todo instante, esquecer-se de si mesmo − os filósofos advertiram-no pelas leis da moral. (Montesquieu − Os Pensadores. São Paulo: Abril Cultural, 1973, p. 33 e 34)
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Já pela má fama adquirida já por preconceito, sem pre haverá por parte de certos leitores, alguma relu tância...". De acordo com a teoria estudada em *2.2 Valores Semânticos das Conjunções Coordenativas*, conectivos: e, nem (= e não), não só.. mas também, não só.. como também, bem como, tanto.. quanto.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O autor do texto não hesita honestamente, de re correr a experiências pessoais, para demonstrar sua tese...". De acordo com a teoria estudada em *4.3 O Trio Crítico da FCC: Porquanto, Portanto e Conquanto*, poucas pegadinhas são tão reiteradas pela Fundação Carlos Chagas quanto a semelhança gráfica entre os conectivos do trio.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A escritora Cecília Meireles tão talentosa quanto bo nita, é citada no texto como parâmetro de excelên cia, na...". De acordo com a teoria estudada em *4.1 Quadro Completo das Conjunções Subordinativas Adverbiais*, consecutiva: Consequência, resultado ou efeito decorrente — tal.. que, tanto.. que, tão.. que, tamanho.. que, de forma que, de modo que — "A fraude foi tamanha que chocou os auditores.".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Muita gente acabará por confessar tal como fez o autor, que um prefácio pode prender nossa atenção, com muito mais...". De acordo com a teoria estudada em *4.2 Adversativas vs. Concessivas: Conflito Sintático, Semântico e Modal*, oposicao Conc["SUBORDINADA CONCESSIVA<br/ • Conectivos: embora, conquanto, ainda que, posto que, a despeito de<br/ • Modo verbal: SUBJUNTIVO<br/ • Força Argumentativa: A oração principal VENCE o confronto!<br/ • Ex: EMBORA NÃO TENHA ESTUDADO, o gestor foi aprovado.<br/ (O foco principal é o sucesso da oração principal)"].
+> - **E)** **Correta.** Conforme fundamentado na seção *4.1 Quadro Completo das Conjunções Subordinativas Adverbiais* deste guia, concessiva: Fato que se opõe à principal sem impedi la — embora, conquanto, ainda que, mesmo que, a despeito de, posto que, se bem que — "Conquanto houvesse pressão, o relator manteve o voto.". Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 16ª/2014) ao estabelecer que "O autor conclui, não sem razão, que as bibliografias que indicam apenas o prefácio de uma obra per mitem deduzir...".
+>
+> **Gabarito: E**
+
+---
+

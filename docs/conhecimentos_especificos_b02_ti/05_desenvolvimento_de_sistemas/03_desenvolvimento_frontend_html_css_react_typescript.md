@@ -515,6 +515,54 @@ const handleClick = useCallback(() => { enviarAuditoria(id); }, [id]);
 
 ---
 
+### Teste 001
+**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Desenvolvimento De Sistemas)**
+Silvia está desenvolvendo o front-end do novo sistema de ordens de serviço de sua empresa, onde foi especificado o uso do framework Angular no projeto. A nova interface utilizará o roteamento do Angular e, para incluir o componente da rota corrente no template HTML da tela principal, Silvia irá definir a área de apresentação através de uma tag:
+
+* **A)** pathMatch;
+* **B)** router-outlet;
+* **C)** snapshot;
+* **D)** nav;
+* **E)** routerLink.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pathMatch". De acordo com a teoria estudada em *2.3 Layouts Flexíveis com Flexbox (Unidimensional)*, justify content : Alinha os itens ao longo do eixo principal ( flex start , flex end , center , space between , space around , space evenly ).
+> - **B)** **Correta.** Conforme fundamentado na seção *2.5 Design Responsivo, Mobile-First e Unidades de Medida* deste guia, abordagem Mobile First: Metodologia onde a folha de estilos base é desenvolvida primeiramente para telas pequenas (smartphones). As adaptações para telas maiores são adicionadas incrementalmente através de Media Queries com min width. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "router outlet".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "snapshot". De acordo com a teoria estudada em *A Pontuação Quádrupla da W3C `(a, b, c, d)`*, $a$ (Inline): Estilos aplicados diretamente no atributo style="" da tag HTML ($1, 0, 0, 0$).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "nav". De acordo com a teoria estudada em *1.2 Elementos Semânticos e Seccionamento de Conteúdo*, n["&lt;nav&gt; Navegação Principal da Aplicação"].
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "routerLink". De acordo com a teoria estudada em *1.2 Elementos Semânticos e Seccionamento de Conteúdo*, <main : Encapsula o conteúdo central, específico e exclusivo do documento <body . Regra da W3C: Deve existir apenas um único elemento <main visível por página. Conteúdos que se repetem de forma idêntica em múltiplas páginas do sistema (barras de navegação globais, logos de topo, termos de uso no rodapé) não podem ser inseridos dentro do <main.
+>
+> **Gabarito: B**
+
+---
+
+### Teste 002
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Ciências da Computação, Sistemas de Informação...)**
+No cronograma de implementação de um novo portal do cidadão, o Auditor identifica duas tarefas: “A - Configurar Servidores” (4 dias) e “B - Desenvolver Front-end” (6 dias). Ambas começam no dia 1. A tarefa “C - Testes Integrados” (2 dias) só pode começar após A e B terminarem. Assinale a opção que indica a folga da tarefa A e a tarefa que pertence ao Caminho Crítico desse projeto.
+
+* **A)** Folga de 2 dias para a tarefa A; tarefa B pertence ao Caminho Crítico.
+* **B)** Folga de 0 dias para a tarefa A; tarefa A pertence ao Caminho Crítico.
+* **C)** Folga de 1 dia para a tarefa B; tarefas A e C pertencem ao Caminho Crítico.
+* **D)** Folga de 4 dias para a tarefa A; tarefa C não pertence ao Caminho Crítico.
+* **E)** Todas as tarefas possuem folga zero; não há tarefa que pertença ao Caminho Crítico.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *1.1 Estrutura Básica do Documento e Metatags Essenciais* deste guia, <title Portal do TCE GO</title. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "Folga de 2 dias para a tarefa A; tarefa B pertence ao Caminho Crítico".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Folga de 0 dias para a tarefa A; tarefa A pertence ao Caminho Crítico". De acordo com a teoria estudada em *3.1 Arquitetura, Transpilação e o Arquivo `tsconfig.json`*, tsconfig.json : Arquivo de configuração raiz do projeto TypeScript. Opções cruciais.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Folga de 1 dia para a tarefa B; tarefas A e C pertencem ao Caminho Crítico". De acordo com a teoria estudada em *3.2 Sistema de Tipos: Primitivos e Tipos Especiais (`any`, `unknown`, `never`, `void`)*, void : Indica que uma função não retorna nenhum valor utilizável. — Sim — Não.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Folga de 4 dias para a tarefa A; tarefa C não pertence ao Caminho Crítico". De acordo com a teoria estudada em *1.3 Formulários Modernos e Validação Nativa*, o HTML5 modernizou a coleta de dados com novos tipos semânticos de <input e atributos de validação integrados no próprio navegador, dispensando scripts JavaScript complexos para validações básicas.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Todas as tarefas possuem folga zero; não há tarefa que pertença ao Caminho Crítico". De acordo com a teoria estudada em *Utility Types Nativos*, readonly<T : Torna todas as propriedades de T imutáveis (somente leitura). — Impede reatribuição: p.status = "NOVO" dá erro de compilação.
+>
+> **Gabarito: A**
+
+---
+
 ## 5. Fontes Recomendadas na Internet
 
 * [React Official Documentation - Learn React](https://react.dev/learn) - Fundamentos de componentes declarativos, props, JSX, Virtual DOM e reconciliação.

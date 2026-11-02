@@ -112,6 +112,126 @@ O protocolo LDAP define um conjunto de operações primitivas:
 
 ---
 
+### Teste 001
+**(CEBRASPE – STJ – 2024 – Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação)**
+O LDAP utiliza como mecanismo de segurança o protocolo TLS (Transport Layer Security), a fim de criptografar as mensagens entre o cliente e o servidor.
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *1.1 Conceito: Diretório Hierárquico vs. Banco de Dados Relacional (RDBMS)*, mecanismo de Consulta: Protocolo LDAP com filtros de busca estruturados (ex.: (&(objectCategory=person)(sAMAccountName=jsilva)) ). — Linguagem declarativa SQL com junções relacionais complexas ( JOIN ). Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – STJ/2024) ao afirmar que "O LDAP utiliza como mecanismo de segurança o protocolo TLS (Transport Layer Security), a fim de criptografar...".
+> - **E)** **Incorreta.** A assertiva não incorre em erro conceitual, guardando conformidade com a teoria estudada.
+>
+> **Gabarito: C**
+
+---
+
+### Teste 002
+**(CEBRASPE – STJ – 2024 – Analista Judiciário - Apoio Especializado - Suporte em Tecnologia da Informação)**
+O arquivo edb.log tem como função armazenar todo o banco de dados do Active Directory.
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Incorreta.** A proposição apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O arquivo edb.log tem como função armazenar todo o banco de dados do Active Directory". De acordo com a teoria em *3.1 Controladores de Domínio (DCs), ntds.dit e SYSVOL*, ntds.dit : O arquivo de banco de dados do Active Directory propriamente dito (baseado no mecanismo ESE / JET Blue).
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
+>
+> **Gabarito: E**
+
+---
+
+### Teste 003
+**(CEBRASPE – STF – 2013 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+No processo de atualização do VMWare ESXi 5.1 para a versão 5.5 por meio do vCenter Single Sign-On, se a versão anterior possuir uma conta de administrador do ambiente em Active Directory, a conta será desativada por questões de segurança após o processo de atualização.
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Incorreta.** A proposição apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "No processo de atualização do VMWare ESXi 5.1 para a versão 5.5 por meio do vCenter Single Sign On, se a...". De acordo com a teoria em *4.3 Mecânica do Kerberos v5: KDC, AS, TGS, TGT e Bilhetes de Serviço*, o protocolo Kerberos v5 (RFC 4120) é o alicerce de autenticação e Single Sign On (SSO) do Active Directory.
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**), pois contraria a disciplina teórica aplicável.
+>
+> **Gabarito: E**
+
+---
+
+### Teste 004
+**(CEBRASPE – STJ – 2015 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+É possível implementar autenticação de usuários por meio de módulos que consultam um servidor LDAP.
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *4.4 Tolerância Temporal (Clock Skew) e o Papel do PDC Emulator*, o KDC exige que a diferença entre o relógio da estação cliente e o relógio do servidor de autenticação não ultrapasse um limite máximo, denominado Desvio de Relógio ( Clock Skew ), configurado por padrão em 5 minutos. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – STJ/2015) ao afirmar que "É possível implementar autenticação de usuários por meio de módulos que consultam um servidor LDAP".
+> - **E)** **Incorreta.** A assertiva não incorre em erro conceitual, guardando conformidade com a teoria estudada.
+>
+> **Gabarito: C**
+
+---
+
+### Teste 005
+**(FGV – TJ/DFT – 2022 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+O analista João administra o domínio Active Directory ad.tj.dft e precisa atribuir novas permissões ao usuário administrador RaizSD_u. O usuário RaizSD_u é membro de um grupo protegido do Active Directory. Sendo assim, para que esta alteração de permissões persista ao longo do tempo, João deve adicionar as novas permissões no objeto de ad.tj.dft:
+
+* **A)** AdminSDHolder;
+* **B)** IIS_IUSRS;
+* **C)** rootDSE;
+* **D)** Krbtgt;
+* **E)** Replicator.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *Escopos de Grupos:* deste guia, global (G): Agrupa usuários e computadores do mesmo domínio. Pode ser utilizado para atribuir permissões em qualquer domínio da floresta. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/DFT/2022) ao estabelecer que "AdminSDHolder".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "IIS IUSRS". De acordo com a teoria estudada em *4.3 Mecânica do Kerberos v5: KDC, AS, TGS, TGT e Bilhetes de Serviço*, c AS: 1. KRB AS REQ (Solicitação com carimbo de tempo cifrado pela senha do usuário).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "rootDSE". De acordo com a teoria estudada em *4.3 Mecânica do Kerberos v5: KDC, AS, TGS, TGT e Bilhetes de Serviço*, kRB TGS REQ / KRB TGS REP : De posse do TGT, quando o usuário precisa acessar um servidor de arquivos ou intranet, ele solicita um bilhete ao serviço concessor de bilhetes (TGS). O TGS valida o TGT e emite um Ticket de Serviço ( Service Ticket ) cifrado com a chave do servidor de destino.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Krbtgt". De acordo com a teoria estudada em *4.3 Mecânica do Kerberos v5: KDC, AS, TGS, TGT e Bilhetes de Serviço*, kRB AS REQ / KRB AS REP : O cliente envia uma requisição ao serviço de autenticação (AS). O AS valida a identidade e devolve uma chave de sessão e o TGT ( Ticket Granting Ticket ), um bilhete cifrado com a chave secreta exclusiva do KDC (a conta krbtgt ).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Replicator". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, microsoft Learn Objetos de Diretiva de Grupo (GPO) Documentação oficial sobre criação, herança e aplicação de políticas de grupo (GPO) no Active Directory.
+>
+> **Gabarito: A**
+
+---
+
+### Teste 006
+**(FCC – TRT 4ª – 2015 – Analista Judiciário - Tecnologia Da Informação)**
+No sistema operacional Windows Server 2008, com os serviços do Active Directory em funcionamento, o comando dsmod, do prompt de comandos, é utilizado, dentre outras funções, para
+
+* **A)** listar os módulos de kernel em utilização.
+* **B)** listar os usuários cadastrados no Active Directory.
+* **C)** modificar os atributos de um computador existente no diretório.
+* **D)** exibir os atributos dos arquivos de um diretório.
+* **E)** exibir as propriedades de um objeto no diretório.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "listar os módulos de kernel em utilização". De acordo com a teoria estudada em *3.4 As 5 Funções Mestres de Operação Única (FSMO)*, nível de Floresta (Apenas 1 por Floresta) : Schema Master (Mestre de Esquema) — Controla todas as modificações e extensões no Esquema do AD DS (criação de novas classes e atributos de objetos). — Não impacta logons de usuários; impede unicamente a instalação de softwares que alteram o schema (ex.: Exchange, SCCM).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "listar os usuários cadastrados no Active Directory". De acordo com a teoria estudada em *1.1 Conceito: Diretório Hierárquico vs. Banco de Dados Relacional (RDBMS)*, um Serviço de Diretório é uma base de dados especializada, estruturada hierarquicamente em formato de árvore invertida (DIT Directory Information Tree ), concebida para gerenciar, pesquisar e localizar recursos de rede (usuários, grupos funcionais, computadores, servidores, políticas de segurança e certificados).
+> - **C)** **Correta.** Conforme fundamentado na seção *2.3 A Estratégia Canônica de Permissões: AGDLP e AGUDLP* deste guia, g DL["3. Domain Local Groups<br Representam Direitos (ex: DL PastaProcessos Modificar)"]. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 4ª/2015) ao estabelecer que "modificar os atributos de um computador existente no diretório".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "exibir os atributos dos arquivos de um diretório". De acordo com a teoria estudada em *6. Fontes Recomendadas na Internet*, microsoft Learn Visão Geral do Kerberos no Windows Server Funcionamento oficial da autenticação Kerberos, KDC, tickets TGT e autenticação de rede.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "exibir as propriedades de um objeto no diretório". De acordo com a teoria estudada em *1.1 Conceito: Diretório Hierárquico vs. Banco de Dados Relacional (RDBMS)*, transacionalidade / ACID: Suporte transacional limitado; prioriza alta disponibilidade e replicação eventual. — Suporte rigoroso às propriedades ACID (Atomicidade, Consistência, Isolamento, Durabilidade).
+>
+> **Gabarito: C**
+
+---
+
 ## 2. Arquitetura Lógica do Microsoft Active Directory (AD DS)
 
 ### 2.1 Níveis Hierárquicos: OUs, Domínios, Árvores e Floresta

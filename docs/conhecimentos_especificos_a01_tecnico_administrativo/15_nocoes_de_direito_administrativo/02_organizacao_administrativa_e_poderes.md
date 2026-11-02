@@ -107,6 +107,126 @@ A **desconcentração** é uma técnica puramente interna de divisão e distribu
 
 ---
 
+### Teste 001
+**(FGV – TRT 1ª – 2024 – Analista Judiciário - Área Administrativa)**
+Com relação à organização administrativa, tem-se que a respectiva função pode ser exercida pela Administração Direta ou Indireta, sendo correto apontar como atividade realizada no âmbito daquela:
+
+* **A)** o processamento de precatórios pelos Tribunais de Justiça;
+* **B)** o exercício da competência regulatória por meio de agências reguladoras;
+* **C)** a realização de atividades de interesse público pelos serviços sociais autônomos;
+* **D)** a prestação de um serviço público por uma concessionária de serviço público;
+* **E)** a realização de atividade econômica por uma empresa pública.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *5.3 Sujeitos Ativos no Âmbito dos Tribunais de Contas* deste guia, o art. 2º da Lei nº 13.869/2019 estabelece que é sujeito ativo de crime de abuso de autoridade qualquer agente público, servidor ou não, da administração direta e indireta de todos os Poderes, incluindo expressamente os membros e servidores dos Tribunais e Conselhos de Contas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 1ª/2024) ao estabelecer que "o processamento de precatórios pelos Tribunais de Justiça".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o exercício da competência regulatória por meio de agências reguladoras". De acordo com a teoria estudada em *5.3 Sujeitos Ativos no Âmbito dos Tribunais de Contas*, efeitos da Condenação (Art. 4º): A perda do cargo, mandato ou função pública e a inabilitação para o exercício de cargo público por período de 1 a 5 anos NÃO são efeitos automáticos da condenação penal. Exigem declaração motivada na sentença e estão condicionados à reincidência específica em crime de abuso de autoridade.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a realização de atividades de interesse público pelos serviços sociais autônomos". De acordo com a teoria estudada em *3.1 Serviços Sociais Autônomos (Sistema S)*, pessoas jurídicas de direito privado criadas por autorização legislativa para prestar serviços de interesse social e capacitação profissional a categorias de empregados (SESI, SENAI, SESC, SENAC, SEST, SENAT, SEBRAE).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a prestação de um serviço público por uma concessionária de serviço público". De acordo com a teoria estudada em *2.3 Empresas Públicas e Sociedades de Economia Mista*, são as empresas estatais, pessoas jurídicas de direito privado instituídas para exploração de atividade econômica de produção ou comercialização de bens/serviços ou para prestação de serviços públicos.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a realização de atividade econômica por uma empresa pública". De acordo com a teoria estudada em *1.1 Centralização e Descentralização*, descentralização: Ocorre quando o Estado transfere a execução ou a titularidade e execução de determinada atividade administrativa para outra pessoa jurídica distinta, dotada de personalidade própria.
+>
+> **Gabarito: A**
+
+---
+
+### Teste 002
+**(FGV – TJ/DFT – 2022 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+O prefeito do Município Alfa decidiu promover uma ampla reestruturação da Administração pública indireta. Para tanto, decidiu que fosse elaborado um estudo preliminar, de modo a delinear os contornos gerais de: (1) duas entidades com personalidade jurídica própria, para a execução dos serviços públicos de limpeza urbana e de administração de cemitérios públicos; e (2) de órgãos específicos, a serem criados no âmbito da Secretaria de Saúde e da Secretaria de Ordem Pública, de modo a aumentar a especialização e, consequentemente, o nível de eficiência estatal. É correto afirmar que:
+
+* **A)** em (1) são mencionados exemplos de descentralização administrativa por especificação e em (2) de descentralização administrativa por serviços;
+* **B)** em (1) são mencionados exemplos de desconcentração administrativa por especificação e em (2) de desconcentração administrativa por serviços;
+* **C)** em (1) são mencionados exemplos de descentralização administrativa por serviços e em (2) de desconcentração administrativa;
+* **D)** em (1) são mencionados exemplos de desestatização por serviços e em (2) de descentralização administrativa por eficiência;
+* **E)** em (1) são mencionados exemplos de desestatização por serviços e em (2) de estatização por padrão de eficiência.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "em (1) são mencionados exemplos de descentralização administrativa por especificação e em (2) de descentralização...". De acordo com a teoria estudada em *1.1 Centralização e Descentralização*, descentralização: Ocorre quando o Estado transfere a execução ou a titularidade e execução de determinada atividade administrativa para outra pessoa jurídica distinta, dotada de personalidade própria.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "em (1) são mencionados exemplos de desconcentração administrativa por especificação e em (2) de desconcentração...". De acordo com a teoria estudada em *1.3 Quadro Distintivo: Descentralização vs. Desconcentração*, criação Resultante: Cria novas entidades autônomas da Administração Indireta — Cria órgãos públicos despersonalizados.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.1 Centralização e Descentralização* deste guia, descentralização por Serviços, Outorga ou Funcional: O poder público transfere a titularidade e a execução do serviço mediante lei formal para entidades da Administração Pública Indireta (Autarquias, Fundações Públicas, Empresas Públicas e Sociedades de Economia Mista). Possui caráter de estabilidade institucional duradoura. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/DFT/2022) ao estabelecer que "em (1) são mencionados exemplos de descentralização administrativa por serviços e em (2) de desconcentração...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "em (1) são mencionados exemplos de desestatização por serviços e em (2) de descentralização administrativa por...". De acordo com a teoria estudada em *1.1 Centralização e Descentralização*, descentralização por Colaboração ou Delegação: O poder público transfere apenas a execução material do serviço para particulares (concessionárias e permissionárias de serviços públicos) mediante contrato administrativo de concessão ou ato unilateral de permissão. A titularidade permanece nas mãos do poder concedente.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "em (1) são mencionados exemplos de desestatização por serviços e em (2) de estatização por padrão de eficiência". De acordo com a teoria estudada em *1. Organização Administrativa: Técnicas de Estruturação Estatal*, desc D1["Por Serviços / Outorga (Cria Adm. Indireta via Lei)"].
+>
+> **Gabarito: C**
+
+---
+
+### Teste 003
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Administração)**
+Os níveis hierárquicos em uma organização distribuem responsabilidades e poder, facilitando a gestão e a comunicação interna. Cada nível tem um papel específico, desde a alta administração, que define a visão estratégica, até os níveis operacionais, que executam tarefas diárias. A estrutura organizacional dirige atividades para alcançar objetivos e pode variar conforme tamanho, setor e estratégia. Atualmente, há uma tendência à descentralização, embora algumas grandes organizações busquem centralizar funções anteriormente descentralizadas. Assinale a opção que apresenta uma vantagem da descentralização.
+
+* **A)** Agilidade.
+* **B)** Controle.
+* **C)** Comunicação clara.
+* **D)** Interdependência.
+* **E)** Economia de escala.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *3. O Terceiro Setor e Entidades Paraestatais* deste guia, o Terceiro Setor compreende entidades privadas sem fins lucrativos que colaboram voluntariamente com o Estado na consecução de finalidades públicas e sociais, sem integrar a estrutura formal da Administração Pública. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Agilidade".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Controle". De acordo com a teoria estudada em *4.4 Poder Regulamentar / Normativo e os Decretos Autônomos*, alínea "a": Organização e funcionamento da administração pública, desde que não implique aumento de despesa nem criação ou extinção de órgãos públicos.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Comunicação clara". De acordo com a teoria estudada em *1.1 Centralização e Descentralização*, centralização: Ocorre quando o Estado executa suas tarefas administrativas diretamente, por meio dos órgãos e agentes integrantes da própria pessoa jurídica política matriz (União, Estados, DF e Municípios — Administração Direta).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Interdependência". De acordo com a teoria estudada em *3.2 Organizações Sociais (OS) e Contratos de Gestão*, pessoas jurídicas de direito privado sem fins lucrativos que recebem a qualificação jurídica de OS pelo Poder Executivo (Lei nº 9.637/1998 e legislações estaduais congêneres).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Economia de escala". De acordo com a teoria estudada em *1.1 Centralização e Descentralização*, descentralização por Serviços, Outorga ou Funcional: O poder público transfere a titularidade e a execução do serviço mediante lei formal para entidades da Administração Pública Indireta (Autarquias, Fundações Públicas, Empresas Públicas e Sociedades de Economia Mista). Possui caráter de estabilidade institucional duradoura.
+>
+> **Gabarito: A**
+
+---
+
+### Teste 004
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
+Durante atividade fiscalizatória exercida regularmente pela autoridade pública competente, descobriu-se que a empresa pública Alfa, integrante da Administração Indireta do Estado Beta, estava em descumprimento a um requisito de transparência previsto na legislação de regência. Nesse cenário, os requisitos de transparência apresentados a seguir estão elencados na Lei nº 13.303/2016, à exceção de um. Assinale-o.
+
+* **A)** Elaboração de carta anual, subscrita pelos membros do Conselho de Administração, com a explicitação dos compromissos de consecução de objetivos de políticas públicas pela empresa pública, pela sociedade de economia mista e por suas subsidiárias, em atendimento ao interesse coletivo ou ao imperativo de segurança nacional que justificou a autorização para suas respectivas criações, com definição clara dos recursos a serem empregados para esse fim, bem como dos impactos econômico-financeiros da consecução desses objetivos, mensuráveis por meio de indicadores objetivos.
+* **B)** Divulgação tempestiva e atualizada de informações relevantes, em especial as relativas a atividades desenvolvidas, estrutura de controle, fatores de risco, dados econômico-financeiros, comentários dos administradores sobre o desempenho, políticas e práticas de governança corporativa e descrição da composição e da remuneração da administração.
+* **C)** Elaboração e divulgação da política de transações com partes relacionadas, em conformidade com os requisitos de competitividade, conformidade, transparência, equidade e comutatividade, que deverá ser revista, no mínimo, semestralmente e aprovada pelo Conselho Fiscal.
+* **D)** Divulgação, em nota explicativa às demonstrações financeiras, dos dados operacionais e financeiros das atividades relacionadas à consecução dos fins de interesse coletivo ou de segurança nacional.
+* **E)** Elaboração e divulgação de política de divulgação de informações, em conformidade com a legislação em vigor e com as melhores práticas.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Elaboração de carta anual, subscrita pelos membros do Conselho de Administração, com a explicitação dos...". De acordo com a teoria estudada em *3.1 Serviços Sociais Autônomos (Sistema S)*, pessoas jurídicas de direito privado criadas por autorização legislativa para prestar serviços de interesse social e capacitação profissional a categorias de empregados (SESI, SENAI, SESC, SENAC, SEST, SENAT, SEBRAE).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Divulgação tempestiva e atualizada de informações relevantes, em especial as relativas a atividades desenvolvidas...". De acordo com a teoria estudada em *4.1 Poder Vinculado vs. Poder Discricionário e o Mérito Administrativo*, poder Vinculado: A lei estabelece com precisão exaustiva todos os requisitos e a única conduta obrigatória a ser adotada pelo agente, inexistindo qualquer margem de liberdade ou juízo de conveniência (ex.: concessão de aposentadoria ao servidor que cumpriu todos os requisitos legais).
+> - **C)** **Correta.** Conforme fundamentado na seção *2.4 O Estatuto Jurídico das Estatais (Lei nº 13.303/2016)* deste guia, governança Corporativa e Conformidade: Exigência de comitês estatutários de auditoria e risco, regras de integridade e requisitos rigorosos de idoneidade técnica e experiência profissional para a indicação de membros do Conselho de Administração e Diretorias Executivas (vedação a ocupantes de cargos políticos e sindicais partidários). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "Elaboração e divulgação da política de transações com partes relacionadas, em conformidade com os requisitos de...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Divulgação, em nota explicativa às demonstrações financeiras, dos dados operacionais e financeiros das atividades...". De acordo com a teoria estudada em *2. Entidades da Administração Indireta*, a Administração Indireta é o conjunto de entes descentralizados aos quais a lei confere personalidade jurídica própria para desempenhar atividades especializadas de interesse coletivo. Rege se pelo art. 37, XIX, da CF/88.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Elaboração e divulgação de política de divulgação de informações, em conformidade com a legislação em vigor e com...". De acordo com a teoria estudada em *1.1 Centralização e Descentralização*, centralização: Ocorre quando o Estado executa suas tarefas administrativas diretamente, por meio dos órgãos e agentes integrantes da própria pessoa jurídica política matriz (União, Estados, DF e Municípios — Administração Direta).
+>
+> **Gabarito: C**
+
+---
+
+### Teste 005
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Ciências Atuariais)**
+De acordo com a Portaria MTP nº 1.467/2022, assinale a situação a seguir em que a exigência do Certificado de Regularidade Previdenciária (CRP) é dispensada, constituindo uma exceção às regras gerais de comprovação.
+
+* **A)** Celebração de contratos e convênios com a Administração direta e indireta da União.
+* **B)** Liberação de empréstimos e financiamentos por instituições financeiras federais.
+* **C)** Realização de transferências relativas a ações de educação, saúde e assistência social.
+* **D)** Realização de transferências voluntárias de recursos pela União.
+* **E)** Repasse de compensação financeira previdenciária.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Celebração de contratos e convênios com a Administração direta e indireta da União". De acordo com a teoria estudada em *3.2 Organizações Sociais (OS) e Contratos de Gestão*, atuam na área de saúde, educação, cultura e pesquisa mediante a celebração de Contrato de Gestão. Podem receber fomento financeiro direto, dotações orçamentárias e cessão especial de servidores e bens públicos.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Liberação de empréstimos e financiamentos por instituições financeiras federais". De acordo com a teoria estudada em *2.3 Empresas Públicas e Sociedades de Economia Mista*, composição Societária do Capital: 100% Capital Público (admitida a copropriedade entre entes estatais diversos) — Capital Misto (Público + Privado; o Estado detém a maioria das ações com direito a voto).
+> - **C)** **Correta.** Conforme fundamentado na seção *2.2 Fundações Públicas (Direito Público vs. Direito Privado)* deste guia, entidades com patrimônio personalizado voltadas a finalidades sociais, de saúde, educação, cultura ou pesquisa (sem fins lucrativos). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "Realização de transferências relativas a ações de educação, saúde e assistência social".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Realização de transferências voluntárias de recursos pela União". De acordo com a teoria estudada em *3.1 Serviços Sociais Autônomos (Sistema S)*, pessoas jurídicas de direito privado criadas por autorização legislativa para prestar serviços de interesse social e capacitação profissional a categorias de empregados (SESI, SENAI, SESC, SENAC, SEST, SENAT, SEBRAE).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Repasse de compensação financeira previdenciária". De acordo com a teoria estudada em *2.1 Autarquias e Autarquias de Regime Especial*, conceito: Pessoa jurídica de direito público, instituída diretamente por lei específica, para desempenhar atividades típicas e exclusivas de Estado que requeiram gestão administrativa e financeira descentralizada.
+>
+> **Gabarito: C**
+
+---
+
 ## 2. Entidades da Administração Indireta
 
 A Administração Indireta é o conjunto de entes descentralizados aos quais a lei confere personalidade jurídica própria para desempenhar atividades especializadas de interesse coletivo. Rege-se pelo art. 37, XIX, da CF/88.
@@ -160,6 +280,54 @@ Entre a Administração Direta e as entidades da Administração Indireta **NÃO
 
 - É um controle de conformidade com os fins para os quais a entidade foi criada (*princípio da especialidade*).
 - Não autoriza intervenções abusivas no mérito ou na gestão interna autônoma, limitando-se aos atos expressamente autorizados em lei.
+
+---
+
+### Teste 006
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Controle Externo)**
+Considerando a natureza dos serviços públicos e as peculiaridades previstas no ordenamento pátrio, é correto afirmar que pode ser objeto de uma concessão patrocinada
+
+* **A)** a delegação de atividade que tenha como objeto único a realização de uma obra pública.
+* **B)** a delegação do exercício do poder de polícia, com relação a todas as fases que compõem o respectivo ciclo.
+* **C)** a delegação do serviço de veículo leve sobre trilhos, com a previsão de instalação da respectiva infraestrutura e manutenção, mediante a cobrança de tarifa dos usuários.
+* **D)** a delegação da construção de uma universidade pública e a prestação do respectivo serviço de educação no estabelecimento oficial, mediante a cobrança de mensalidades.
+* **E)** a delegação do serviço de iluminação pública, mediante a realização de obras e manutenção da respectiva infraestrutura.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a delegação de atividade que tenha como objeto único a realização de uma obra pública". De acordo com a teoria estudada em *2.3 Empresas Públicas e Sociedades de Economia Mista*, são as empresas estatais, pessoas jurídicas de direito privado instituídas para exploração de atividade econômica de produção ou comercialização de bens/serviços ou para prestação de serviços públicos.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a delegação do exercício do poder de polícia, com relação a todas as fases que compõem o respectivo ciclo". De acordo com a teoria estudada em *4.5 Poder de Polícia, Ciclo de Polícia e Delegação (Tema 532/STF)*, sanção de Polícia: Aplicação punitiva da penalidade administrativa (multa, apreensão de mercadoria, interdição de estabelecimento).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a delegação do serviço de veículo leve sobre trilhos, com a previsão de instalação da respectiva infraestrutura e...". De acordo com a teoria estudada em *2.1 Autarquias e Autarquias de Regime Especial*, regime Jurídico: Totalmente público. Seus bens são públicos (impenhoráveis, inalienáveis e imprescritíveis); gozam de imunidade tributária recíproca (CF, art. 150, § 2º) sobre patrimônio, renda e serviços vinculados a suas finalidades; seus servidores submetem se ao regime estatutário do respectivo ente; e suas dívidas judiciais são quitadas mediante precatórios.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.1 Centralização e Descentralização* deste guia, descentralização por Colaboração ou Delegação: O poder público transfere apenas a execução material do serviço para particulares (concessionárias e permissionárias de serviços públicos) mediante contrato administrativo de concessão ou ato unilateral de permissão. A titularidade permanece nas mãos do poder concedente. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "a delegação da construção de uma universidade pública e a prestação do respectivo serviço de educação no...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a delegação do serviço de iluminação pública, mediante a realização de obras e manutenção da respectiva...". De acordo com a teoria estudada em *3.2 Organizações Sociais (OS) e Contratos de Gestão*, atuam na área de saúde, educação, cultura e pesquisa mediante a celebração de Contrato de Gestão. Podem receber fomento financeiro direto, dotações orçamentárias e cessão especial de servidores e bens públicos.
+>
+> **Gabarito: D**
+
+---
+
+### Teste 007
+**(FCC – TRT 24ª – 2017 – Analista Judiciário - Tecnologia da Informação)**
+Com relação à Administração indireta, no que concerne às características das autarquias, considere: I. As autarquias só por lei podem ser criadas. II. Apenas no caso de exaustão dos recursos da autarquia é que incidirá a responsabilidade do Estado, que é subsidiária. III. As autarquias não são subordinadas a órgão algum do Estado, mas apenas controladas. IV. Os bens e rendas das autarquias, não apenas quando vinculados a suas finalidades essenciais, mas em toda e qualquer circunstância, possuem imunidade tributária. Está correto o que se afirma APENAS em
+
+* **A)** I, II e III.
+* **B)** I e III.
+* **C)** I, II e IV.
+* **D)** III.
+* **E)** II e IV.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *2. Entidades da Administração Indireta*, indireta Aut["Autarquias<br/ • Direito Público<br/ • Criadas diretamente por Lei<br/ • Atividades Típicas de Estado"].
+> - **B)** **Correta.** Conforme fundamentado na seção *2.1 Autarquias e Autarquias de Regime Especial* deste guia, regime Jurídico: Totalmente público. Seus bens são públicos (impenhoráveis, inalienáveis e imprescritíveis); gozam de imunidade tributária recíproca (CF, art. 150, § 2º) sobre patrimônio, renda e serviços vinculados a suas finalidades; seus servidores submetem se ao regime estatutário do respectivo ente; e suas dívidas judiciais são quitadas mediante precatórios. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 24ª/2017) ao estabelecer que "I e III".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e IV". De acordo com a teoria estudada em *4.1 Poder Vinculado vs. Poder Discricionário e o Mérito Administrativo*, poder Vinculado: A lei estabelece com precisão exaustiva todos os requisitos e a única conduta obrigatória a ser adotada pelo agente, inexistindo qualquer margem de liberdade ou juízo de conveniência (ex.: concessão de aposentadoria ao servidor que cumpriu todos os requisitos legais).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "III". De acordo com a teoria estudada em *3.1 Serviços Sociais Autônomos (Sistema S)*, não integram a Administração Pública; financiam se mediante contribuições parafiscais arrecadadas compulsoriamente pelo Estado. Submetem se ao controle externo exercido pelo Tribunal de Contas quanto aos recursos parafiscais, mas possuem regulamentos próprios de licitação e processo seletivo simplificado para pessoal.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II e IV". De acordo com a teoria estudada em *5.3 Sujeitos Ativos no Âmbito dos Tribunais de Contas*, o art. 2º da Lei nº 13.869/2019 estabelece que é sujeito ativo de crime de abuso de autoridade qualquer agente público, servidor ou não, da administração direta e indireta de todos os Poderes, incluindo expressamente os membros e servidores dos Tribunais e Conselhos de Contas.
+>
+> **Gabarito: B**
 
 ---
 
@@ -248,6 +416,30 @@ Superando divergências anteriores, o STF pacificou a tese com eficácia vincula
 > *"É constitucional a delegação do poder de polícia, por meio de lei, a pessoas jurídicas de direito privado integrantes da Administração Pública indireta de capital social majoritariamente público que prestem exclusivamente serviço público de atuação própria do Estado e em regime não concorrencial."*
 
 - É constitucional delegar a estatais as fases de **consentimento, fiscalização e sanção**. Apenas a primeira fase (**legislar / ordem de polícia**) permanece indelegável, privativa do Estado.
+
+---
+
+### Teste 008
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Direito)**
+Determinado Estado da Federação instituiu a taxa de prevenção e combate a incêndio. Sobre o tema, assinale a afirmativa correta.
+
+* **A)** A taxa é constitucional, pois trata-se de taxa de serviço, cobrado pela utilização potencial do serviço de extinção de incêndio.
+* **B)** Trata-se de taxa cobrada em razão do exercício do poder de polícia, sendo inconstitucional, pois a segurança pública é dever dos Municípios da Federação.
+* **C)** A taxa é inconstitucional, pois a segurança pública é serviço público geral e indivisível e somente pode ser remunerada através de imposto.
+* **D)** A taxa é constitucional, cobrada em razão do exercício do poder de polícia.
+* **E)** A taxa é inconstitucional, pois possui base de cálculo idêntica a outro imposto.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A taxa é constitucional, pois trata se de taxa de serviço, cobrado pela utilização potencial do serviço de...". De acordo com a teoria estudada em *4.4 Poder Regulamentar / Normativo e os Decretos Autônomos*, decreto autônomo NUNCA pode criar ou extinguir órgãos públicos, e NUNCA pode extinguir cargos públicos se estiverem ocupados! A criação e extinção de órgãos públicos exige expressamente lei formal em sentido estrito (CF, art. 48, XI e art. 61, § 1º, II, "e").
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Trata se de taxa cobrada em razão do exercício do poder de polícia, sendo inconstitucional, pois a segurança...". De acordo com a teoria estudada em *4.5 Poder de Polícia, Ciclo de Polícia e Delegação (Tema 532/STF)*, o art. 78 do Código Tributário Nacional (CTN) conceitua o poder de polícia como a atividade da administração pública que, regulando a prática de ato ou a abstenção de fato em razão de interesse público, limita ou disciplina direito, interesse ou liberdade individual.
+> - **C)** **Correta.** Conforme fundamentado na seção *O Marco Histórico do Tema 532 da Repercussão Geral do STF:* deste guia, "É constitucional a delegação do poder de polícia, por meio de lei, a pessoas jurídicas de direito privado integrantes da Administração Pública indireta de capital social majoritariamente público que prestem exclusivamente serviço público de atuação própria do Estado e em regime não concorrencial.". Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "A taxa é inconstitucional, pois a segurança pública é serviço público geral e indivisível e somente pode ser...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A taxa é constitucional, cobrada em razão do exercício do poder de polícia". De acordo com a teoria estudada em *O Marco Histórico do Tema 532 da Repercussão Geral do STF:*, é constitucional delegar a estatais as fases de consentimento, fiscalização e sanção. Apenas a primeira fase (legislar / ordem de polícia) permanece indelegável, privativa do Estado.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A taxa é inconstitucional, pois possui base de cálculo idêntica a outro imposto". De acordo com a teoria estudada em *1.1 Centralização e Descentralização*, descentralização por Serviços, Outorga ou Funcional: O poder público transfere a titularidade e a execução do serviço mediante lei formal para entidades da Administração Pública Indireta (Autarquias, Fundações Públicas, Empresas Públicas e Sociedades de Economia Mista). Possui caráter de estabilidade institucional duradoura.
+>
+> **Gabarito: C**
 
 ---
 
