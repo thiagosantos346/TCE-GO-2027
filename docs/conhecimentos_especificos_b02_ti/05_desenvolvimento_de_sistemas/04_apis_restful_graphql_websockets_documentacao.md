@@ -156,31 +156,49 @@ flowchart LR
 ---
 
 ### Teste 087
-**(CEBRASPE – TRT-8 – Analista Judiciario Area Apoio Especializado Tecnologia da Informacao – 2022)**
-Em uma API RESTful, cada solicitação deve conter todos os dados necessários ao seu atendimento para não depender de informações armazenadas em outras sessões, o que caracteriza uma restrição de
+**(FGV – TRT 16ª – 2022 – Analista Judiciário (Área Administrativa - Tecnologia da Informação))**
+Considere o trecho abaixo. <h1 id="teste"></h1> <script> ----- const x = JSON.parse(xpto); document.getElementById("teste").innerHTML = x.alunos[1].nome + " " + x.alunos[1].sobreNome; </script> Para que o nome Maria Bueno seja exibido no elemento da primeira linha (tag h1), o trecho tracejado deve ser substituído por:
 
-* **A)** cache.
-* **B)** arquitetura cliente-servidor.
-* **C)** interface uniforme.
-* **D)** sistema de camadas.
-* **E)** comunicação stateless.
+* **A)** let '{"alunos":[' + '{"nome":"Maria","sobreNome":"Bueno" },' + '{"nome":"Edson","sobreNome":"Arantes" }]}';
+* **B)** let '{"xpto":[' + '{"nome":"Edson","sobreNome":"Arantes" },' + '{"nome":"Maria","sobreNome":"Bueno" }]}';
+* **C)** let alunos = '{"xpto":[' + '{"nome":"Edson","sobreNome":"Arantes" },' + '{"nome":"Maria","sobreNome":"Bueno" }]}';
+* **D)** let xpto = '{"alunos":[' + '{"nome":"Edson","sobreNome":"Arantes" },' + '{"nome":"Maria","sobreNome":"Bueno" }]}';
+* **E)** let xpto = alunos '{[' + '{nome:"Edson",sobreNome:"Arantes" },' + '{nome:"Maria",sobreNome:"Bueno" }]}';
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "cache". De acordo com a teoria estudada em *Faixa 3xx (Redirecionamento)*, `304 Not Modified`: Validação condicional de cache bem-sucedida (via `ETag` ou `If-Modified-Since`). O cliente deve reutilizar os dados já armazenados em seu cache local sem trafegar o corpo do arquivo.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "arquitetura cliente-servidor". De acordo com a teoria estudada em *3.1 Arquitetura Full-Duplex e a RFC 6455*, o protocolo HTTP tradicional baseia-se no modelo *Request-Response* *half-duplex*, no qual toda comunicação precisa ser iniciada pelo cliente.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "interface uniforme". De acordo com a teoria estudada em *1.1 Princípios Arquiteturais do REST (Roy Fielding)*, interface Uniforme (*Uniform Interface*): É o princípio distintivo do REST, subdividido em 4 pilares.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "sistema de camadas". De acordo com a teoria estudada em *1.1 Princípios Arquiteturais do REST (Roy Fielding)*, sistema em Camadas (*Layered System*): A arquitetura pode incluir intermediários transparentes para o cliente (balanceadores de carga, firewalls de aplicação - WAF, proxies reversos e gateways de API), sem que o cliente precise saber se está falando com o servidor final.
-> - **E)** **Correta.** Conforme fundamentado na seção *1.1 Princípios Arquiteturais do REST (Roy Fielding)* deste guia, sem Estado (*Statelessness*): Cada requisição do cliente para o servidor deve conter todas as informações contextuais necessárias para que o servidor a interprete e execute. O servidor não armazena nenhuma sessão em memória entre requisições. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT-8/2022) ao estabelecer que "comunicação stateless".
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "let '{"alunos":[' + '{"nome":"Maria","sobreNome":"Bueno" },' + '{"nome":"Edson","sobreNome":"Arantes" }]}'". De acordo com a teoria estudada em *1.1 Princípios Arquiteturais do REST (Roy Fielding)*, *Mensagens Autodescritivas:* Cada mensagem inclui metadados suficientes para indicar como deve ser processada (cabeçalho `Content-Type: application/json`).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "let '{"xpto":[' + '{"nome":"Edson","sobreNome":"Arantes" },' + '{"nome":"Maria","sobreNome":"Bueno" }]}'". De acordo com a teoria estudada em *4.1 JSON: Tipagem, Sintaxe Estrita e Validação com JSON Schema*, proibida vírgula residual no último elemento (*trailing comma*): `{"id": 1,}` é inválido.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "let alunos = '{"xpto":[' + '{"nome":"Edson","sobreNome":"Arantes" },' + '{"nome":"Maria","sobreNome":"Bueno" }]}'". De acordo com a teoria estudada em *1.1 Princípios Arquiteturais do REST (Roy Fielding)*, sem Estado (*Statelessness*): Cada requisição do cliente para o servidor deve conter todas as informações contextuais necessárias para que o servidor a interprete e execute. O servidor não armazena nenhuma sessão em memória entre requisições.
+> - **D)** **Correta.** Conforme fundamentado na seção *2.1 Motivação: Resolução de Over-fetching e Under-fetching* deste guia, over-fetching (Excesso de Dados): Ocorre no REST quando um endpoint fixo retorna dezenas de campos complexos, embora a interface do cliente só precise de dois (ex.: renderizar apenas o nome do relator em uma lista móvel consumindo centenas de kilobytes de dados irrelevantes). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 16ª/2022) ao estabelecer que "let xpto = '{"alunos":[' + '{"nome":"Edson","sobreNome":"Arantes" },' + '{"nome":"Maria","sobreNome":"Bueno" }]}'".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "let xpto = alunos '{[' + '{nome:"Edson",sobreNome:"Arantes" },' + '{nome:"Maria",sobreNome:"Bueno" }]}'". De acordo com a teoria estudada em *Faixa 2xx (Sucesso)*, `201 Created`: Um novo recurso foi criado com sucesso. O cabeçalho `Location` deve conter a URI do recurso recém-criado.
 >
-> **Gabarito: E**
+> **Gabarito: D**
 
 ---
 
 ### Teste 088
-**(FGV – TJ-RR – Analista Judiciario Infraestrutura de Tecnologia da Informacao – 2024)**
+**(CEBRASPE – TRF 6ª – 2025 – Analista Judiciário - Apoio Especializado - Governança e Gestão de Tecnologia da Informação)**
+O Swagger é um conjunto de ferramentas voltado para o desenvolvimento de todo o ciclo de vida da API, incluindo as etapas de design, documentação, teste e implantação. 108 import java.io.*; class Easy { public static void main(String[] args) { int x[] = {1, 3, 7, 22, 51}; for (int size : x) System.out.print(size); } } O resultado da execução do código precedente, desenvolvido em Java, será 6.
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *5.3 Ferramental Swagger: Swagger UI, Editor e Codegen* deste guia, swagger UI: Converte o contrato OpenAPI em uma interface visual web interativa, onde desenvolvedores e analistas podem inspecionar a documentação e realizar disparos de testes reais diretamente pelo navegador (*Try it out*). Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – TRF 6ª/2025) ao afirmar que "O Swagger é um conjunto de ferramentas voltado para o desenvolvimento de todo o ciclo de vida da API...".
+> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *2.1 Motivação: Resolução de Over-fetching e Under-fetching*, segundo a qual desenvolvido pelo Facebook (Meta) em 2012 e tornado código aberto em 2015, o GraphQL é uma linguagem de consulta para APIs e um ambiente de execução para cumprir essas consultas com dados existentes.
+>
+> **Gabarito: C**
+
+---
+
+### Teste 089
+**(FGV – TJ/RR – 2024 – Analista Judiciario Infraestrutura De Tecnologia Da Informacao)**
 Uma API REST (Representational State Transfer) é uma interface que permite a comunicação entre sistemas utilizando um determinado protocolo, em que os recursos são acessados e manipulados por meio de requisições padrão como GET, POST, PUT e DELETE, seguindo princípios de simplicidade, escalabilidade e independência de plataforma. Isso posto, assinale a afirmativa correta sobre API REST.
 
 * **A)** Normalmente, uma solicitação PUT cria um novo registro.
@@ -194,58 +212,34 @@ Uma API REST (Representational State Transfer) é uma interface que permite a co
 > **Comentário Detalhado:**
 >
 > - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Normalmente, uma solicitação PUT cria um novo registro". De acordo com a teoria estudada em *1.3 Métodos HTTP: Semântica, Segurança e Idempotência*, o `PUT` é idempotente: substituir integralmente um registro 10 vezes resulta no mesmo estado final no banco de dados.
-> - **B)** **Correta.** Conforme fundamentado na seção *Faixa 2xx (Sucesso)* deste guia, `204 No Content`: A requisição foi processada com êxito, mas o servidor não envia nenhum corpo de resposta (comum após operações `DELETE` ou `PUT`). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-RR/2024) ao estabelecer que "Nenhum dado do cliente é armazenado no servidor entre as solicitações e toda solicitação é separada e desconectada".
+> - **B)** **Correta.** Conforme fundamentado na seção *Faixa 2xx (Sucesso)* deste guia, `204 No Content`: A requisição foi processada com êxito, mas o servidor não envia nenhum corpo de resposta (comum após operações `DELETE` ou `PUT`). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "Nenhum dado do cliente é armazenado no servidor entre as solicitações e toda solicitação é separada e desconectada".
 > - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Não há a possibilidade de utilização de cache". De acordo com a teoria estudada em *3.1 Arquitetura Full-Duplex e a RFC 6455*, o protocolo HTTP tradicional baseia-se no modelo *Request-Response* *half-duplex*, no qual toda comunicação precisa ser iniciada pelo cliente.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Utiliza WSDL como linguagem de descrição de serviços web". De acordo com a teoria estudada em *1.2 O Modelo de Maturidade de Richardson*, nível 1 (Recursos): A API introduz URIs específicas para identificar recursos distintos (ex.: `/processos`, `/processos/12`), mas ainda utiliza métodos HTTP de forma genérica (frequentemente apenas POST ou GET).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "É um protocolo com requisitos específicos, como a mensageria XML". De acordo com a teoria estudada em *Faixa 4xx (Erro do Cliente)*, `404 Not Found`: O servidor não encontrou nenhum recurso na URI solicitada.
->
-> **Gabarito: B**
-
----
-
-### Teste 089
-**(FGV – TRT-16 – Analista Judiciario Area Administrativa Tecnologia da Informacao – 2022)**
-O Swagger é uma plataforma que possui diversas ferramentas, entre as quais o SwaggerHub. Em relação ao SwaggerHub, analise os itens a seguir: I. Permite que os desenvolvedores definam suas APIs no formato OpenAPI ou AsyncAPI. II. É uma plataforma colaborativa capaz de hospedar todas as definições de APIs em um único local. III. Para o AsyncAPI, gera códigos de servidor e cliente e envia-os por push para as plataformas GitHub, GitLab, Bitbucket ou Azure DevOps Services. Está correto apenas o que se afirma em
-
-* **A)** I.
-* **B)** I e II.
-* **C)** II e III.
-* **D)** I e III.
-* **E)** III.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I". De acordo com a teoria estudada em *1.2 O Modelo de Maturidade de Richardson*, nível 0 (The Swamp of POX): Utiliza HTTP apenas como protocolo de transporte para chamadas RPC remotas sobre um único endpoint (ex.: SOAP ou XML-RPC, onde todas as operações são enviadas via `POST /servico`).
-> - **B)** **Correta.** Conforme fundamentado na seção *5.3 Ferramental Swagger: Swagger UI, Editor e Codegen* deste guia, swagger UI: Converte o contrato OpenAPI em uma interface visual web interativa, onde desenvolvedores e analistas podem inspecionar a documentação e realizar disparos de testes reais diretamente pelo navegador (*Try it out*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-16/2022) ao estabelecer que "I e II".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II e III". De acordo com a teoria estudada em *1.1 Princípios Arquiteturais do REST (Roy Fielding)*, sem Estado (*Statelessness*): Cada requisição do cliente para o servidor deve conter todas as informações contextuais necessárias para que o servidor a interprete e execute. O servidor não armazena nenhuma sessão em memória entre requisições.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e III". De acordo com a teoria estudada em *1.1 Princípios Arquiteturais do REST (Roy Fielding)*, código sob Demanda (*Code on Demand* - Única Opcional): Permite ao servidor estender a funcionalidade do cliente transmitindo código executável (ex.: scripts JavaScript).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "III". De acordo com a teoria estudada em *2.1 Motivação: Resolução de Over-fetching e Under-fetching*, solução do GraphQL: O cliente envia uma consulta declarativa especificando exatamente quais campos e relacionamentos deseja.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Utiliza WSDL como linguagem de descrição de serviços web". De acordo com a teoria estudada em *1.2 O Modelo de Maturidade de Richardson*, leonard Richardson concebeu um modelo para classificar a aderência de serviços web aos preceitos REST.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "É um protocolo com requisitos específicos, como a mensageria XML". De acordo com a teoria estudada em *4.2 XML: Estrutura, Validação (DTD/XSD) e Consultas com XPath*, consultas com XPath: Linguagem de expressões de caminhos que permite navegar e selecionar nós específicos dentro da árvore XML (ex.: `/processos/processo[@status='julgado']/valor`).
 >
 > **Gabarito: B**
 
 ---
 
 ### Teste 090
-**(FGV – TRT-13 – Analista Judiciario Tecnologia da Informacao – 2022)**
-Uma aplicação mobile enviou a um gateway de APIs REST várias solicitações idênticas em sequência utilizando o método HTTP PUT. Essas solicitações idênticas resultaram em nenhuma alteração de estado do sistema de backend, a exceção da primeira solicitação que atualizou um registro no banco de dados. Nesse contexto, é correto afirmar que essa solicitação HTTP é
+**(FGV – TRT 16ª – 2022 – Analista Judiciário (Área Administrativa - Tecnologia da Informação))**
+O SwaggerEditor permite editar e documentar APIs. Em relação ao tema, assinale V para a afirmativa verdadeira e F para a falsa. I. O editor pode ser utilizado online como uma ferramenta web de código aberto ou ser instalada e executada localmente a partir de um servidor. II. A página inicial da versão online é composta por quatro elementos de interface: um toolbar, um painel de edição de API, um painel de visualização de documentos e um painel para testar os webhooks e chamadas da API. III. O editor, na versão online, salva os códigos da APIs nos formatos das especificações YAML, JSON e XML. As afirmativas são, respectivamente,
 
-* **A)** acoplada.
-* **B)** balanceada.
-* **C)** full-duplex.
-* **D)** idempotente.
-* **E)** segura.
+* **A)** V, F e F.
+* **B)** V, V e F.
+* **C)** V, F e V.
+* **D)** F, V e V.
+* **E)** F, F e V.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *1.3 Métodos HTTP: Semântica, Segurança e Idempotência* deste guia, o `PUT` é idempotente: substituir integralmente um registro 10 vezes resulta no mesmo estado final no banco de dados. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-13/2022) ao estabelecer que "acoplada".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "balanceada". De acordo com a teoria estudada em *1.1 Princípios Arquiteturais do REST (Roy Fielding)*, sistema em Camadas (*Layered System*): A arquitetura pode incluir intermediários transparentes para o cliente (balanceadores de carga, firewalls de aplicação - WAF, proxies reversos e gateways de API), sem que o cliente precise saber se está falando com o servidor final.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "full-duplex". De acordo com a teoria estudada em *3.1 Arquitetura Full-Duplex e a RFC 6455*, mensageria Push Nativa: O servidor pode enviar dados ativamente ao cliente a qualquer momento sem que o cliente precise solicitar (*server push* instantâneo).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "idempotente". De acordo com a teoria estudada em *1.3 Métodos HTTP: Semântica, Segurança e Idempotência*, método Idempotente (*Idempotent*): Executar a mesma requisição uma vez ou \$N\$ vezes consecutivas com os mesmos dados produz exatamente o mesmo efeito final no estado do servidor.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "segura". De acordo com a teoria estudada em *3.3 Comparativo: Polling, Long-Polling, Server-Sent Events (SSE) e WebSocket*, long Polling: Unidirecional (Servidor segura requisição) — HTTP com conexão mantida aberta até haver dado — Alto (reabre conexão HTTP a cada resposta) — Cenários legados sem suporte a WebSockets.
+> - **A)** **Correta.** Conforme fundamentado na seção *5.2 Estrutura Canônica do Documento OpenAPI (YAML / JSON)* deste guia, `info`: Título, descrição, versão e termos da API. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 16ª/2022) ao estabelecer que "V, F e F".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V, V e F". De acordo com a teoria estudada em *5.3 Ferramental Swagger: Swagger UI, Editor e Codegen*, swagger UI: Converte o contrato OpenAPI em uma interface visual web interativa, onde desenvolvedores e analistas podem inspecionar a documentação e realizar disparos de testes reais diretamente pelo navegador (*Try it out*).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V, F e V". De acordo com a teoria estudada em *2.1 Motivação: Resolução de Over-fetching e Under-fetching*, desenvolvido pelo Facebook (Meta) em 2012 e tornado código aberto em 2015, o GraphQL é uma linguagem de consulta para APIs e um ambiente de execução para cumprir essas consultas com dados existentes.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F, V e V". De acordo com a teoria estudada em *1.1 Princípios Arquiteturais do REST (Roy Fielding)*, sistema em Camadas (*Layered System*): A arquitetura pode incluir intermediários transparentes para o cliente (balanceadores de carga, firewalls de aplicação - WAF, proxies reversos e gateways de API), sem que o cliente precise saber se está falando com o servidor final.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F, F e V". De acordo com a teoria estudada em *1.1 Princípios Arquiteturais do REST (Roy Fielding)*, código sob Demanda (*Code on Demand* - Única Opcional): Permite ao servidor estender a funcionalidade do cliente transmitindo código executável (ex.: scripts JavaScript).
 >
 > **Gabarito: A**
 
@@ -260,26 +254,20 @@ Uma aplicação mobile enviou a um gateway de APIs REST várias solicitações i
 ---
 
 ### Teste 091
-**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Desenvolvimento de Sistemas – 2023)**
-Observe a seguinte requisição em Hypertext Transfer Protocol (HTTP) feita a uma Application Programming Interface (API) RESTful: PUT http://webservice.tjapp/recursos/1 A respectiva resposta HTTP da API RESTful apresentou o código de status 204. Os dados apresentados acima indicam que a API RESTful processou a solicitação de:
+**(CEBRASPE – TRF 6ª – 2025 – Analista Judiciário - Apoio Especializado - Governança e Gestão de Tecnologia da Informação)**
+A documentação técnica referente à API dos microsserviços desenvolvidos na PDPJ-Br deve seguir o padrão Swagger 2.0, a fim de garantir a compatibilidade com as especificações legadas dos sistemas antigos.
 
-* **A)** obtenção de um recurso de forma bem-sucedida;
-* **B)** atualização de um recurso de forma malsucedida;
-* **C)** criação de um novo recurso de forma malsucedida;
-* **D)** atualização de um recurso de forma bem-sucedida;
-* **E)** criação de um novo recurso de forma bem-sucedida.
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "obtenção de um recurso de forma bem-sucedida". De acordo com a teoria estudada em *1.2 O Modelo de Maturidade de Richardson*, nível 1 (Recursos): A API introduz URIs específicas para identificar recursos distintos (ex.: `/processos`, `/processos/12`), mas ainda utiliza métodos HTTP de forma genérica (frequentemente apenas POST ou GET).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "atualização de um recurso de forma malsucedida". De acordo com a teoria estudada em *1.3 Métodos HTTP: Semântica, Segurança e Idempotência*, `PUT`: Não — Sim — Substituição completa do recurso especificado na URI. — `200 OK`, `204 No Content`.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "criação de um novo recurso de forma malsucedida". De acordo com a teoria estudada em *1.3 Métodos HTTP: Semântica, Segurança e Idempotência*, `POST`: Não — Não — Criação de recurso subordinado ou processamento arbitrário. — `201 Created`, `200 OK`.
-> - **D)** **Correta.** Conforme fundamentado na seção *Faixa 3xx (Redirecionamento)* deste guia, `304 Not Modified`: Validação condicional de cache bem-sucedida (via `ETag` ou `If-Modified-Since`). O cliente deve reutilizar os dados já armazenados em seu cache local sem trafegar o corpo do arquivo. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "atualização de um recurso de forma bem-sucedida".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "criação de um novo recurso de forma bem-sucedida". De acordo com a teoria estudada em *1.2 O Modelo de Maturidade de Richardson*, nível 2 (Verbos HTTP & Status Codes): Emprega os verbos HTTP de acordo com sua semântica oficial (`GET` para leitura, `POST` para criação, `PUT` para substituição, `DELETE` para exclusão) e responde com códigos de status padronizados (`200`, `201`, `404`).
+> - **C)** **Incorreta.** A marcação como **Certo** não procede, pois o enunciado apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A documentação técnica referente à API dos microsserviços desenvolvidos na PDPJ-Br deve seguir o padrão...". De acordo com a teoria estudada em *Faixa 4xx (Erro do Cliente)*, `401 Unauthorized`: Na realidade técnica, significa Não Autenticado (*Unauthenticated*). Faltam credenciais no cabeçalho `Authorization` ou o token expirou/está inválido (*"Eu não sei quem você é"*).
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**). Conforme fundamentado na seção *5.3 Ferramental Swagger: Swagger UI, Editor e Codegen* deste guia, swagger UI: Converte o contrato OpenAPI em uma interface visual web interativa, onde desenvolvedores e analistas podem inspecionar a documentação e realizar disparos de testes reais diretamente pelo navegador (*Try it out*). Portanto, a assertiva examinada pela banca (CEBRASPE – TRF 6ª/2025) viola os preceitos técnicos do tópico.
 >
-> **Gabarito: D**
+> **Gabarito: E**
 
 ---
 
@@ -359,50 +347,50 @@ mutation CriarProcesso($dados: NovoProcessoInput!) {
 ---
 
 ### Teste 092
-**(CEBRASPE – TRT-8 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2016)**
-Assinale a opção que apresenta o método HTTP que envia dados, colocando-os no corpo da mensagem, e deixa a URI separada dos dados que serão enviados.
+**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Desenvolvimento De Sistemas)**
+Observe os dados do seguinte documento XML. <?xml version="1.0" encoding="UTF-8" ?> <root> <Pessoa> <Hospede> <Nome>Ana</Nome> <Acompanhantes>Bia</Acompanhantes> <Acompanhantes>Maitê</Acompanhantes> </Hospede> </Pessoa> </root> Os dados no formato JSON correspondente é:
 
-* **A)** HEAD
-* **B)** PUT
-* **C)** CONNECT
-* **D)** GET
-* **E)** POST
+* **A)** {"Pessoa":{"Hospede":[{"Nome":"Thomas"},{"Nome": "Ana","Acompanhantes":["Bia","Maitê"]}]}}
+* **B)** <"Pessoa":<"Hospede":[{"Nome":"Thomas"};{"Nome": "Ana";"Acompanhantes":["Bia";"Maitê"]}]/>/>
+* **C)** ["Pessoa":["Hospede":[["Nome":"Thomas"],["Nome": "Ana","Acompanhantes":["Bia","Maitê"]]]]]
+* **D)** {"Pessoa"{"Hospede"[{"Nome";"Thomas"},{"Nome"; "Ana","Acompanhantes"("Bia";"Maitê")}]}}
+* **E)** <"Pessoa"{"Hospede":[{"Nome";"Thomas"},{"Nome": "Ana","Acompanhantes":("Bia";"Maitê")}]}/>
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "HEAD". De acordo com a teoria estudada em *1.3 Métodos HTTP: Semântica, Segurança e Idempotência*, método Seguro (*Safe*): A execução da requisição NÃO altera o estado dos recursos no servidor (leitura pura). `GET`, `HEAD` e `OPTIONS` são seguros.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "PUT". De acordo com a teoria estudada em *1.2 O Modelo de Maturidade de Richardson*, nível 2 (Verbos HTTP & Status Codes): Emprega os verbos HTTP de acordo com sua semântica oficial (`GET` para leitura, `POST` para criação, `PUT` para substituição, `DELETE` para exclusão) e responde com códigos de status padronizados (`200`, `201`, `404`).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "CONNECT". De acordo com a teoria estudada em *2.1 Motivação: Resolução de Over-fetching e Under-fetching*, o backend responde com um JSON espelhado na estrutura exata do pedido, através de um endpoint único (geralmente `/graphql`), operando via requisições HTTP `POST`.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "GET". De acordo com a teoria estudada em *1.2 O Modelo de Maturidade de Richardson*, nível 1 (Recursos): A API introduz URIs específicas para identificar recursos distintos (ex.: `/processos`, `/processos/12`), mas ainda utiliza métodos HTTP de forma genérica (frequentemente apenas POST ou GET).
-> - **E)** **Correta.** Conforme fundamentado na seção *2.3 Operações Centrais: Queries, Mutations, Subscriptions e Resolvers* deste guia, `Mutation`: Operações que provocam modificações no servidor (criação, edição, exclusão de dados — análogas ao `POST`, `PUT`, `DELETE`). Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT-8/2016) ao estabelecer que "POST".
+> - **A)** **Correta.** Conforme fundamentado na seção *2.1 Motivação: Resolução de Over-fetching e Under-fetching* deste guia, over-fetching (Excesso de Dados): Ocorre no REST quando um endpoint fixo retorna dezenas de campos complexos, embora a interface do cliente só precise de dois (ex.: renderizar apenas o nome do relator em uma lista móvel consumindo centenas de kilobytes de dados irrelevantes). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "{"Pessoa":{"Hospede":[{"Nome":"Thomas"},{"Nome": "Ana","Acompanhantes":["Bia","Maitê"]}]}}".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "<"Pessoa":<"Hospede":[{"Nome":"Thomas"};{"Nome": "Ana";"Acompanhantes":["Bia";"Maitê"]}]/>/>". De acordo com a teoria estudada em *4.2 XML: Estrutura, Validação (DTD/XSD) e Consultas com XPath*, estrutura: Exige prólogo `<?xml version="1.0" encoding="UTF-8"?>`, raiz única (*root element*) e fechamento obrigatório de todas as tags (sensível a maiúsculas/minúsculas).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "["Pessoa":["Hospede":[["Nome":"Thomas"],["Nome": "Ana","Acompanhantes":["Bia","Maitê"]]]]]". De acordo com a teoria estudada em *4.3 Comparativo Prático entre JSON e XML*, formato de Estrutura: Pares chave-valor e listas (`{}`, `[]`) — Árvore de elementos com tags e atributos.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "{"Pessoa"{"Hospede"[{"Nome";"Thomas"},{"Nome"; "Ana","Acompanhantes"("Bia";"Maitê")}]}}". De acordo com a teoria estudada em *4.1 JSON: Tipagem, Sintaxe Estrita e Validação com JSON Schema*, o JSON (*JavaScript Object Notation*, padronizado pela RFC 8259) é o formato dominante no intercâmbio de dados em APIs REST modernas.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "<"Pessoa"{"Hospede":[{"Nome";"Thomas"},{"Nome": "Ana","Acompanhantes":("Bia";"Maitê")}]}/>". De acordo com a teoria estudada em *5.2 Estrutura Canônica do Documento OpenAPI (YAML / JSON)*, `schemas`: Modelos de entidades de dados.
 >
-> **Gabarito: E**
+> **Gabarito: A**
 
 ---
 
 ### Teste 093
-**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Desenvolvimento de Sistemas – 2023)**
-Breno está criando um serviço REST, que será disponibilizado por meio de um aplicativo Spring Boot. Como ele já conhece o padrão do REST, criou um método de inclusão no controlador, tendo como parâmetro uma entidade do tipo gerenciado pelo serviço. Para que o parâmetro receba corretamente os dados fornecidos pela requisição, no formato JSON, Breno irá utilizar nesse parâmetro a anotação:
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Tecnologia da Informação)**
+Os modelos de aprendizado de máquina desempenham um papel fundamental na análise e interpretação de dados em uma variedade de domínios. Uma característica dos modelos de aprendizado de máquina supervisionados e não supervisionados é que modelos supervisionados
 
-* **A)** PostMapping;
-* **B)** RestController;
-* **C)** GetMapping;
-* **D)** RequestBody;
-* **E)** PathParam.
+* **A)** exploram a detecção de outliers, enquanto modelos não supervisionados usam dados representados em formatos como XML ou JSON para treinamento..
+* **B)** geralmente têm menos tendência ao overfitting do que modelos não supervisionados.
+* **C)** requerem dados rotulados para treinamento, enquanto modelos não supervisionados podem funcionar com dados não rotulados.
+* **D)** são mais adequados para tarefas de análise exploratória de dados, enquanto modelos não supervisionados são mais adequados para previsão de séries temporais.
+* **E)** são usados apenas para classificação, enquanto modelos não supervisionados são usados apenas para agrupamento.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "PostMapping". De acordo com a teoria estudada em *4.1 JSON: Tipagem, Sintaxe Estrita e Validação com JSON Schema*, o JSON (*JavaScript Object Notation*, padronizado pela RFC 8259) é o formato dominante no intercâmbio de dados em APIs REST modernas.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "RestController". De acordo com a teoria estudada em *2.3 Operações Centrais: Queries, Mutations, Subscriptions e Resolvers*, `Query`: Operações de consulta e leitura de dados. Não devem provocar efeitos colaterais no backend (análogas ao método `GET` do REST).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "GetMapping". De acordo com a teoria estudada em *1.3 Métodos HTTP: Semântica, Segurança e Idempotência*, método Idempotente (*Idempotent*): Executar a mesma requisição uma vez ou \$N\$ vezes consecutivas com os mesmos dados produz exatamente o mesmo efeito final no estado do servidor.
-> - **D)** **Correta.** Conforme fundamentado na seção *5.2 Estrutura Canônica do Documento OpenAPI (YAML / JSON)* deste guia, `paths`: Mapeia os endpoints (URIs), métodos HTTP suportados, parâmetros (path, query, header), corpo de requisição (`requestBody`) e respostas (`responses`). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "RequestBody".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "PathParam". De acordo com a teoria estudada em *1.3 Métodos HTTP: Semântica, Segurança e Idempotência*, método Seguro (*Safe*): A execução da requisição NÃO altera o estado dos recursos no servidor (leitura pura). `GET`, `HEAD` e `OPTIONS` são seguros.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "exploram a detecção de outliers, enquanto modelos não supervisionados usam dados representados em formatos como...". De acordo com a teoria estudada em *1.1 Princípios Arquiteturais do REST (Roy Fielding)*, *Manipulação por Representações:* O cliente manipula o recurso através de sua representação textual (JSON, XML), e não do objeto bruto no banco de dados.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "geralmente têm menos tendência ao overfitting do que modelos não supervisionados". De acordo com a teoria estudada em *2.1 Motivação: Resolução de Over-fetching e Under-fetching*, o backend responde com um JSON espelhado na estrutura exata do pedido, através de um endpoint único (geralmente `/graphql`), operando via requisições HTTP `POST`.
+> - **C)** **Correta.** Conforme fundamentado na seção *5.2 Estrutura Canônica do Documento OpenAPI (YAML / JSON)* deste guia, `schemas`: Modelos de entidades de dados. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "requerem dados rotulados para treinamento, enquanto modelos não supervisionados podem funcionar com dados não...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "são mais adequados para tarefas de análise exploratória de dados, enquanto modelos não supervisionados são mais...". De acordo com a teoria estudada em *1.1 Princípios Arquiteturais do REST (Roy Fielding)*, cacheabilidade (*Cacheable*): As respostas devem explicitar claramente se podem ou não ser retidas em cache pelo cliente ou por nós intermediários (via cabeçalhos `Cache-Control`, `ETag`, `Last-Modified`), reduzindo a latência e o consumo de banda.
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "são usados apenas para classificação, enquanto modelos não supervisionados são usados apenas para agrupamento". De acordo com a teoria estudada em *5.3 Ferramental Swagger: Swagger UI, Editor e Codegen*, swagger UI: Converte o contrato OpenAPI em uma interface visual web interativa, onde desenvolvedores e analistas podem inspecionar a documentação e realizar disparos de testes reais diretamente pelo navegador (*Try it out*).
 >
-> **Gabarito: D**
+> **Gabarito: C**
 
 ---
 
@@ -453,50 +441,44 @@ sequenceDiagram
 ---
 
 ### Teste 094
-**(CEBRASPE – TRT-8 – Analista Judiciario Area Apoio Especializado Tecnologia da Informacao – 2022)**
-O cabeçalho do protocolo HTTP que contém o DNS do servidor é o
+**(CEBRASPE – STF – 2013 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+A declaração de aplicabilidade deve estar obrigatoriamente incluída na documentação do SGSI.
 
-* **A)** host.
-* **B)** authorization.
-* **C)** referer.
-* **D)** location.
-* **E)** server.
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *3.1 Arquitetura Full-Duplex e a RFC 6455* deste guia, o protocolo HTTP tradicional baseia-se no modelo *Request-Response* *half-duplex*, no qual toda comunicação precisa ser iniciada pelo cliente. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT-8/2022) ao estabelecer que "host".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "authorization". De acordo com a teoria estudada em *Faixa 4xx (Erro do Cliente)*, `401 Unauthorized`: Na realidade técnica, significa Não Autenticado (*Unauthenticated*). Faltam credenciais no cabeçalho `Authorization` ou o token expirou/está inválido (*"Eu não sei quem você é"*).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "referer". De acordo com a teoria estudada em *3.2 O Handshake HTTP Upgrade e os Esquemas `ws://` e `wss://`*, a conexão WebSocket não inicia diretamente no protocolo WebSocket; ela nasce sobre o protocolo HTTP através de um procedimento de negociação denominado HTTP Upgrade Handshake.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "location". De acordo com a teoria estudada em *Faixa 2xx (Sucesso)*, `201 Created`: Um novo recurso foi criado com sucesso. O cabeçalho `Location` deve conter a URI do recurso recém-criado.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "server". De acordo com a teoria estudada em *3.3 Comparativo: Polling, Long-Polling, Server-Sent Events (SSE) e WebSocket*, short Polling: Unidirecional (Cliente \$\rightarrow\$ Servidor) — HTTP repetitivo em intervalos fixos — Altíssimo (novo handshake e cabeçalhos a cada requisição) — Verificações esporádicas e simples.
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *5.3 Ferramental Swagger: Swagger UI, Editor e Codegen* deste guia, swagger UI: Converte o contrato OpenAPI em uma interface visual web interativa, onde desenvolvedores e analistas podem inspecionar a documentação e realizar disparos de testes reais diretamente pelo navegador (*Try it out*). Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – STF/2013) ao afirmar que "A declaração de aplicabilidade deve estar obrigatoriamente incluída na documentação do SGSI".
+> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *2.2 Modelo Operacional e a Schema Definition Language (SDL)*, segundo a qual tipos de Lista (`[]`): `[String]` indica uma lista de strings. `[String!]!` indica uma lista não nula contendo itens obrigatoriamente não nulos.
 >
-> **Gabarito: A**
+> **Gabarito: C**
 
 ---
 
 ### Teste 095
-**(CEBRASPE – TRT-8 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2016)**
-No que se refere à interoperabilidade de sistemas, assinale a opção correta.
+**(FCC – TRT 23ª – 2016 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
+RSS permite compartilhar conteúdo entre websites utilizando documentos XML. Nestes documentos, o elemento utilizado para descrever o RSS é o
 
-* **A)** Mensagens SOAP possuem estrutura que descreve uma chamada de método, contendo alguma solicitação ou resposta. Considerando uma solicitação, o corpo da mensagem SOAP deve conter instruções para outra máquina executar determinada tarefa de forma remota.
-* **B)** Os documentos formatados como XML contêm todas as instruções necessárias para a exibição de dados, razão pela qual dispensam aplicativos complementares para decidir como esses dados serão apresentados.
-* **C)** Os diretórios UDDI são catálogos de web services que descrevem o negócio e os serviços disponíveis por meio das páginas amarelas, as quais definem as principais características da companhia, e das páginas brancas, as quais detalham a interface para o serviço.
-* **D)** Os documentos WSDL disponibilizam a metodologia necessária para a integração entre os aplicativos e os web services, especificando informações de entrada e saída do serviço, sem indicar os formatos de solicitações e respostas.
-* **E)** A arquitetura ePING consiste em um conjunto mínimo de informações técnicas que regulamentam os padrões de interoperabilidade de governo eletrônico, definindo as condições de interação dentro das diversas esferas do governo. As áreas cobertas pela ePING estão segmentadas em interconexão, segurança, planejamento, fiscalização e integração para governo eletrônico.
+* **A)** <channel>
+* **B)** <article>
+* **C)** <story>
+* **D)** <content>
+* **E)** <feed>
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *1.1 Princípios Arquiteturais do REST (Roy Fielding)* deste guia, *Mensagens Autodescritivas:* Cada mensagem inclui metadados suficientes para indicar como deve ser processada (cabeçalho `Content-Type: application/json`). Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT-8/2016) ao estabelecer que "Mensagens SOAP possuem estrutura que descreve uma chamada de método, contendo alguma solicitação ou resposta...".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os documentos formatados como XML contêm todas as instruções necessárias para a exibição de dados, razão pela qual...". De acordo com a teoria estudada em *1.1 Princípios Arquiteturais do REST (Roy Fielding)*, sem Estado (*Statelessness*): Cada requisição do cliente para o servidor deve conter todas as informações contextuais necessárias para que o servidor a interprete e execute. O servidor não armazena nenhuma sessão em memória entre requisições.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os diretórios UDDI são catálogos de web services que descrevem o negócio e os serviços disponíveis por meio das...". De acordo com a teoria estudada em *1.2 O Modelo de Maturidade de Richardson*, nível 0 (The Swamp of POX): Utiliza HTTP apenas como protocolo de transporte para chamadas RPC remotas sobre um único endpoint (ex.: SOAP ou XML-RPC, onde todas as operações são enviadas via `POST /servico`).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os documentos WSDL disponibilizam a metodologia necessária para a integração entre os aplicativos e os web...". De acordo com a teoria estudada em *5.2 Estrutura Canônica do Documento OpenAPI (YAML / JSON)*, `paths`: Mapeia os endpoints (URIs), métodos HTTP suportados, parâmetros (path, query, header), corpo de requisição (`requestBody`) e respostas (`responses`).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A arquitetura ePING consiste em um conjunto mínimo de informações técnicas que regulamentam os padrões de...". De acordo com a teoria estudada em *3.1 Arquitetura Full-Duplex e a RFC 6455*, baixa Latência e Mínimo Overhead: Após a conexão ser aberta, os cabeçalhos HTTP volumosos não são mais transmitidos. As mensagens trafegam divididas em frames levíssimos contendo cabeçalhos de apenas 2 a 10 bytes.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "`<channel>`". De acordo com a teoria estudada em *4.1 JSON: Tipagem, Sintaxe Estrita e Validação com JSON Schema*, proibida vírgula residual no último elemento (*trailing comma*): `{"id": 1,}` é inválido.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "`<article>`". De acordo com a teoria estudada em *1.1 Princípios Arquiteturais do REST (Roy Fielding)*, essa dissociação permite que ambas as camadas evoluam de forma independente.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "`<story>`". De acordo com a teoria estudada em *1.1 Princípios Arquiteturais do REST (Roy Fielding)*, código sob Demanda (*Code on Demand* - Única Opcional): Permite ao servidor estender a funcionalidade do cliente transmitindo código executável (ex.: scripts JavaScript).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "`<content>`". De acordo com a teoria estudada em *1.1 Princípios Arquiteturais do REST (Roy Fielding)*, *Mensagens Autodescritivas:* Cada mensagem inclui metadados suficientes para indicar como deve ser processada (cabeçalho `Content-Type: application/json`).
+> - **E)** **Correta.** Conforme fundamentado na seção *4.2 XML: Estrutura, Validação (DTD/XSD) e Consultas com XPath* deste guia, consultas com XPath: Linguagem de expressões de caminhos que permite navegar e selecionar nós específicos dentro da árvore XML (ex.: `/processos/processo[@status='julgado']/valor`). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 23ª/2016) ao estabelecer que "`<feed>`".
 >
-> **Gabarito: A**
+> **Gabarito: E**
 
 ---
 
@@ -538,7 +520,7 @@ O XML (*Extensible Markup Language*) é uma linguagem de marcação baseada em t
 ---
 
 ### Teste 096
-**(FGV – TRT-24 – Analista Judiciario Area Apoio Especializado Tecnologia da Informacao – 2025)**
+**(FGV – TRT/DA – 2025 – Analista Judiciario Area Apoio Especializado Tecnologia Da Informacao)**
 Paula e Maria estão avaliando as potencialidades dos usos de JSON e XML no desenvolvimento de aplicações Web para uma grande companhia estatal. As analistas sabem que JSON e XML são duas escolhas muito comuns quando se trata de formatos de dados na Web. A esse respeito, assinale a afirmativa correta.
 
 * **A)** Com relação à legibilidade, Paula informa que ambos são legíveis por humanos, mas os documentos XML são mais detalhados.
@@ -551,7 +533,7 @@ Paula e Maria estão avaliando as potencialidades dos usos de JSON e XML no dese
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *4.2 XML: Estrutura, Validação (DTD/XSD) e Consultas com XPath* deste guia, dTD (*Document Type Definition*): Mecanismo mais antigo com sintaxe própria. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "Com relação à legibilidade, Paula informa que ambos são legíveis por humanos, mas os documentos XML são mais...".
+> - **A)** **Correta.** Conforme fundamentado na seção *4.2 XML: Estrutura, Validação (DTD/XSD) e Consultas com XPath* deste guia, dTD (*Document Type Definition*): Mecanismo mais antigo com sintaxe própria. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/DA/2025) ao estabelecer que "Com relação à legibilidade, Paula informa que ambos são legíveis por humanos, mas os documentos XML são mais...".
 > - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Com relação ao volume de dados, Maria informa que o JSON é maior e menos compacto que o XML devido aos elementos...". De acordo com a teoria estudada em *4.3 Comparativo Prático entre JSON e XML*, tamanho da Mensagem: Compacto, sem redundância de tags — Verboso devido à duplicação de tags de fechamento.
 > - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Com relação as análises, Paula informa que as análises dos documentos JSON são mais complexas que os XML". De acordo com a teoria estudada em *1.1 Princípios Arquiteturais do REST (Roy Fielding)*, *Manipulação por Representações:* O cliente manipula o recurso através de sua representação textual (JSON, XML), e não do objeto bruto no banco de dados.
 > - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Com relação ao apoio à gestão de dados, Maria informa que ambos possuem limitado suporte ao idioma português e que...". De acordo com a teoria estudada em *4.2 XML: Estrutura, Validação (DTD/XSD) e Consultas com XPath*, xSD (*XML Schema Definition*): Esquema moderno escrito na própria sintaxe XML, com suporte a tipos de dados ricos e namespaces.
@@ -632,26 +614,26 @@ components:
 ---
 
 ### Teste 097
-**(FGV – TRT-16 – Analista Judiciario Area Administrativa Tecnologia da Informacao – 2022)**
-O SwaggerEditor permite editar e documentar APIs. Em relação ao tema, assinale V para a afirmativa verdadeira e F para a falsa. I. O editor pode ser utilizado online como uma ferramenta web de código aberto ou ser instalada e executada localmente a partir de um servidor. II. A página inicial da versão online é composta por quatro elementos de interface: um toolbar, um painel de edição de API, um painel de visualização de documentos e um painel para testar os webhooks e chamadas da API. III. O editor, na versão online, salva os códigos da APIs nos formatos das especificações YAML, JSON e XML. As afirmativas são, respectivamente,
+**(FGV – TRT/DA – 2025 – Analista Judiciario Area Apoio Especializado Tecnologia Da Informacao)**
+O Swagger Editor é um editor de código aberto usado para projetar, definir e documentar APIs HTTP segundo a especificação OpenAPI. A respeito dos pré-requisitos necessários para o editor ser executado localmente, avalie os itens a seguir. I. Git em qualquer versão. II. Node.js em versão 20.3.0. ou superior. III. Npm em versão 9.6.7 ou superior. IV. OAuth em versão 2.0 ou superior. São pré-requisitos necessários para que o Swagger Editor seja executado localmente os indicados em
 
-* **A)** V, F e F.
-* **B)** V, V e F.
-* **C)** V, F e V.
-* **D)** F, V e V.
-* **E)** F, F e V.
+* **A)** I e III, apenas.
+* **B)** II e IV, apenas.
+* **C)** I, II e III, apenas.
+* **D)** I, II e IV, apenas.
+* **E)** II, III e IV, apenas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *5.2 Estrutura Canônica do Documento OpenAPI (YAML / JSON)* deste guia, `info`: Título, descrição, versão e termos da API. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-16/2022) ao estabelecer que "V, F e F".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V, V e F". De acordo com a teoria estudada em *5.3 Ferramental Swagger: Swagger UI, Editor e Codegen*, swagger UI: Converte o contrato OpenAPI em uma interface visual web interativa, onde desenvolvedores e analistas podem inspecionar a documentação e realizar disparos de testes reais diretamente pelo navegador (*Try it out*).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V, F e V". De acordo com a teoria estudada em *2.1 Motivação: Resolução de Over-fetching e Under-fetching*, desenvolvido pelo Facebook (Meta) em 2012 e tornado código aberto em 2015, o GraphQL é uma linguagem de consulta para APIs e um ambiente de execução para cumprir essas consultas com dados existentes.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F, V e V". De acordo com a teoria estudada em *5.2 Estrutura Canônica do Documento OpenAPI (YAML / JSON)*, `openapi`: Versão da especificação OpenAPI empregada.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F, F e V". De acordo com a teoria estudada em *5.3 Ferramental Swagger: Swagger UI, Editor e Codegen*, swagger Editor: Editor visual com validação sintática em tempo real para projetar contratos OpenAPI em YAML/JSON.
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *5.3 Ferramental Swagger: Swagger UI, Editor e Codegen*, openAPI Generator / Swagger Codegen: Utilitários que leem o arquivo OpenAPI e geram automaticamente o código boilerplate de clientes SDK (em Java, Python, TypeScript) ou esqueletos de servidores backend.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e IV, apenas". De acordo com a teoria estudada em *5.2 Estrutura Canônica do Documento OpenAPI (YAML / JSON)*, `openapi`: Versão da especificação OpenAPI empregada.
+> - **C)** **Correta.** Conforme fundamentado na seção *5.3 Ferramental Swagger: Swagger UI, Editor e Codegen* deste guia, swagger Editor: Editor visual com validação sintática em tempo real para projetar contratos OpenAPI em YAML/JSON. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/DA/2025) ao estabelecer que "I, II e III, apenas".
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, II e IV, apenas". De acordo com a teoria estudada em *5.3 Ferramental Swagger: Swagger UI, Editor e Codegen*, swagger UI: Converte o contrato OpenAPI em uma interface visual web interativa, onde desenvolvedores e analistas podem inspecionar a documentação e realizar disparos de testes reais diretamente pelo navegador (*Try it out*).
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, III e IV, apenas". De acordo com a teoria estudada em *5.1 A Especificação OpenAPI (OAS 3.0 / 3.1)*, a especificação OpenAPI (gerenciada pela *OpenAPI Initiative* sob tutela da Linux Foundation) é uma descrição padronizada, legível por humanos e máquinas, para interfaces de APIs RESTful.
 >
-> **Gabarito: A**
+> **Gabarito: C**
 
 ---
 

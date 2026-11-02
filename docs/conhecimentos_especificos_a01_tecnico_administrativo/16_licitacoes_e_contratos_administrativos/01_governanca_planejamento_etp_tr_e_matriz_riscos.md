@@ -90,48 +90,48 @@ A NLLC elevou a governança ao patamar de exigência legal expressa (art. 11, pa
 ---
 
 ### Teste 066
-**(FGV – TRF-1 – Analista Judiciario Area Apoio Especializado Especialidade Suporte Em Tecnologia da Informacao – 2024)**
-Para além dos princípios previstos expressamente no Art. 37, caput, da CRFB/1988, as normas que versam sobre direito administrativo costumam elencar outros princípios relacionados às respectivas matérias (setoriais), tal como se observa no Art. 2º da Lei nº 9.784/1999, que trata do processo administrativo, e no Art. 5º da Lei nº 14.133/2021, que trata de licitações e contratos. Nesse contexto, os princípios que NÃO estão no aludido dispositivo constitucional, mas que constam textualmente das referidas normas, são, respectivamente:
+**(FGV – TJ/MT – 2024 – Analista Judiciario Tecnologia Da Informacao)**
+O planejamento estratégico de TI é uma prática essencial para assegurar que as atividades e investimentos em tecnologia estejam alinhados com os objetivos organizacionais e que a TI contribua diretamente para o sucesso do negócio. Uma prática recomendada no processo de planejamento estratégico de TI é
 
-* **A)** impessoalidade e vinculação ao edital;
-* **B)** segregação de funções e moralidade;
-* **C)** motivação e publicidade;
-* **D)** proporcionalidade e planejamento;
-* **E)** probidade administrativa e eficiência. Noções de Direito Constitucional
+* **A)** priorizar exclusivamente a implementação de tecnologias emergentes para manter a TI atualizada com as últimas tendências do mercado.
+* **B)** definir um orçamento fixo anual para TI, independentemente das mudanças nos objetivos e prioridades estratégicas da organização.
+* **C)** estabelecer metas de TI focadas principalmente na redução de custos, com o objetivo de minimizar o impacto financeiro da tecnologia na organização.
+* **D)** centralizar todas as decisões de TI no setor técnico, sem envolver outras áreas da empresa, para aumentar a eficiência operacional.
+* **E)** realizar análises periódicas de cenário e reavaliar o plano estratégico de TI para garantir que ele continue alinhado com os objetivos organizacionais e com o ambiente de negócios.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "impessoalidade e vinculação ao edital". De acordo com a teoria estudada em *1. Princípios Gerais e Regime da Lei Federal nº 14.133/2021 (NLLC)*, a Lei Federal nº 14.133/2021 (Nova Lei de Licitações e Contratos Administrativos - NLLC) consolidou o regime jurídico das compras públicas no Brasil, revogando expressamente a Lei nº 8.666/1993, a Lei do Pregão (Lei nº 10.520/2002) e o Regime Diferenciado de Contratações Públicas (RDC - Lei nº 12.462/2011).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "segregação de funções e moralidade". De acordo com a teoria estudada em *2.3 O Princípio da Segregação de Funções e Conflito de Interesses*, conceito: Impõe a repartição criteriosa de funções entre agentes públicos distintos, vedando expressamente a concentração de atribuições mais suscetíveis a riscos em uma mesma autoridade.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "motivação e publicidade". De acordo com a teoria estudada em *1.1 Âmbito de Aplicação Subjetivo e Objetos Abrangidos*, ressalva das Empresas Estatais: As empresas públicas e as sociedades de economia mista continuam submetidas ao seu regime licitatório e contratual próprio preconizado pela Lei Federal nº 13.303/2016, aplicando-se-lhes a NLLC apenas no capítulo referente aos crimes em licitações e contratos (arts. 337-E a 337-P do Código Penal, inseridos pelo art. 178 da Lei 14.133/2021).
-> - **D)** **Correta.** Conforme fundamentado na seção *1.1 Âmbito de Aplicação Subjetivo e Objetos Abrangidos* deste guia, princípios Expressos (Art. 5º): Legalidade, impessoalidade, moralidade, publicidade, eficiência, interesse público, probidade administrativa, igualdade, planejamento, transparência, eficácia, segregação de funções, motivação, vinculação ao edital, julgamento objetivo, segurança jurídica, razoabilidade, proporcionalidade, celeridade, economicidade e desenvolvimento nacional sustentável. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF-1/2024) ao estabelecer que "proporcionalidade e planejamento".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "probidade administrativa e eficiência. Noções de Direito Constitucional". De acordo com a teoria estudada em *5. Fontes Recomendadas na Internet*, constituição Federal de 1988 - Art. 37, XXI (Obrigatoriedade Constitucional de Licitar).
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "priorizar exclusivamente a implementação de tecnologias emergentes para manter a TI atualizada com as últimas...". De acordo com a teoria estudada em *3.1 Plano de Contratações Anual (PCA) e Integração Orçamentária*, seu objetivo primordial é racionalizar as compras públicas, viabilizar o ganho de escala e garantir a perfeita compatibilização das despesas com as metas do Plano Plurianual (PPA), da Lei de Diretrizes Orçamentárias (LDO) e da Lei Orçamentária Anual (LOA).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "definir um orçamento fixo anual para TI, independentemente das mudanças nos objetivos e prioridades estratégicas...". De acordo com a teoria estudada em *1.2 Os Objetivos Fundamentais do Processo Licitatório (Art. 11)*, a NLLC inovou ao estruturar quatro objetivos finalísticos obrigatórios a serem perseguidos pela Administração.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "estabelecer metas de TI focadas principalmente na redução de custos, com o objetivo de minimizar o impacto...". De acordo com a teoria estudada em *1.1 Âmbito de Aplicação Subjetivo e Objetos Abrangidos*, princípios Expressos (Art. 5º): Legalidade, impessoalidade, moralidade, publicidade, eficiência, interesse público, probidade administrativa, igualdade, planejamento, transparência, eficácia, segregação de funções, motivação, vinculação ao edital, julgamento objetivo, segurança jurídica, razoabilidade, proporcionalidade, celeridade, economicidade e desenvolvimento nacional sustentável.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "centralizar todas as decisões de TI no setor técnico, sem envolver outras áreas da empresa, para aumentar a...". De acordo com a teoria estudada em *2.1 O Agente de Contratação e o Pregoeiro*, o Agente de Contratação (art. 8º) é a pessoa física designada pela autoridade competente para tomar decisões, acompanhar o trâmite da licitação, dar impulso ao procedimento e executar quaisquer outras atividades necessárias ao bom andamento do certame até a homologação.
+> - **E)** **Correta.** Conforme fundamentado na seção *3.1 Plano de Contratações Anual (PCA) e Integração Orçamentária* deste guia, o art. 12, VII, preconiza a elaboração do Plano de Contratações Anual (PCA), instrumento de governança que consolida todas as compras e contratações que o órgão pretende realizar no exercício financeiro subsequente. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/MT/2024) ao estabelecer que "realizar análises periódicas de cenário e reavaliar o plano estratégico de TI para garantir que ele continue...".
 >
-> **Gabarito: D**
+> **Gabarito: E**
 
 ---
 
 ### Teste 067
-**(FGV – TCE-GO – Analista de Controle Externo Ciencias Contabeis – 2024)**
-A Lei nº 14.133/2021 define as funções dos Tribunais de Contas no contexto das normas que regem as licitações e contratos administrativos no Brasil. Assinale a opção que indica uma função dos Tribunais de Contas constante na Lei nº 14.133/2021.
+**(FGV – TRF/1 – 2024 – Analista Judiciario Area Apoio Especializado Especialidade Suporte Em Tecnologia Da Informacao)**
+Os princípios de governança do COBIT 2019® descrevem os principais requisitos de um sistema de governança para informações e tecnologia da organização. O princípio “sistema de governança dinâmico” determina que um sistema de governança deve:
 
-* **A)** Julgar documentos relativos às licitações.
-* **B)** Promover gestão por competências.
-* **C)** Frustrar a competitividade em licitações com a participação de cooperativas.
-* **D)** Estabelecer tratamento igualitário entre empresas brasileiras e estrangeiras.
-* **E)** Promover congressos sobre contratações públicas.
+* **A)** atender às necessidades das partes interessadas;
+* **B)** distinguir claramente entre as atividades e estruturas de governança e gestão;
+* **C)** ser construído a partir de vários componentes, que podem ser de diferentes tipos e que trabalham juntos;
+* **D)** ser capaz de considerar os impactos da alteração de um ou mais fatores de desenho no sistema de governança;
+* **E)** ser adaptado para as necessidades da organização usando um conjunto de fatores de desenho como parâmetros para adaptar e priorizar os componentes do sistema de governança.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Julgar documentos relativos às licitações". De acordo com a teoria estudada em *1. Princípios Gerais e Regime da Lei Federal nº 14.133/2021 (NLLC)*, a Lei Federal nº 14.133/2021 (Nova Lei de Licitações e Contratos Administrativos - NLLC) consolidou o regime jurídico das compras públicas no Brasil, revogando expressamente a Lei nº 8.666/1993, a Lei do Pregão (Lei nº 10.520/2002) e o Regime Diferenciado de Contratações Públicas (RDC - Lei nº 12.462/2011).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Promover gestão por competências". De acordo com a teoria estudada em *1.3 Governança das Contratações e Gestão por Competências*, exige gestão por competências, determinando que os agentes públicos designados para atuar na área de licitações possuam formação compatível ou qualificação atestada por certificação profissional emitida por escola de governo.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Frustrar a competitividade em licitações com a participação de cooperativas". De acordo com a teoria estudada em *5. Fontes Recomendadas na Internet*, jUSTEN FILHO, Marçal. Comentários à Lei de Licitações e Contratações Administrativas: Lei 14.133/2021. 2. ed.
-> - **D)** **Correta.** Conforme fundamentado na seção *1.1 Âmbito de Aplicação Subjetivo e Objetos Abrangidos* deste guia, ressalva das Empresas Estatais: As empresas públicas e as sociedades de economia mista continuam submetidas ao seu regime licitatório e contratual próprio preconizado pela Lei Federal nº 13.303/2016, aplicando-se-lhes a NLLC apenas no capítulo referente aos crimes em licitações e contratos (arts. 337-E a 337-P do Código Penal, inseridos pelo art. 178 da Lei 14.133/2021). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "Estabelecer tratamento igualitário entre empresas brasileiras e estrangeiras".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Promover congressos sobre contratações públicas". De acordo com a teoria estudada em *4.1 Natureza e Atribuições Centrais do Portal*, o Portal Nacional de Contratações Públicas (PNCP), disciplinado pelos arts. 174 a 176 da Lei nº 14.133/2021, é o sítio eletrônico oficial único de divulgação de compras públicas gerido pelo Comitê Gestor da Rede Nacional de Contratações Públicas.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "atender às necessidades das partes interessadas". De acordo com a teoria estudada em *2.3 O Princípio da Segregação de Funções e Conflito de Interesses*, conceito: Impõe a repartição criteriosa de funções entre agentes públicos distintos, vedando expressamente a concentração de atribuições mais suscetíveis a riscos em uma mesma autoridade.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "distinguir claramente entre as atividades e estruturas de governança e gestão". De acordo com a teoria estudada em *1.3 Governança das Contratações e Gestão por Competências*, a NLLC elevou a governança ao patamar de exigência legal expressa (art. 11, parágrafo único).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ser construído a partir de vários componentes, que podem ser de diferentes tipos e que trabalham juntos". De acordo com a teoria estudada em *1.3 Governança das Contratações e Gestão por Competências*, a alta administração do órgão ou entidade é responsável pela implementação e fiscalização contínua de mecanismos de liderança, estratégia e controle.
+> - **D)** **Correta.** Conforme fundamentado na seção *3.2 Estudo Técnico Preliminar (ETP): Conceito e Elementos Obrigatórios* deste guia, ele evidencia o problema público a ser resolvido e avalia comparativamente as alternativas viáveis disponíveis no mercado para eleger a solução mais eficiente (art. 18). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF/1/2024) ao estabelecer que "ser capaz de considerar os impactos da alteração de um ou mais fatores de desenho no sistema de governança".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ser adaptado para as necessidades da organização usando um conjunto de fatores de desenho como parâmetros para...". De acordo com a teoria estudada em *1.3 Governança das Contratações e Gestão por Competências*, exige gestão por competências, determinando que os agentes públicos designados para atuar na área de licitações possuam formação compatível ou qualificação atestada por certificação profissional emitida por escola de governo.
 >
 > **Gabarito: D**
 
@@ -194,98 +194,98 @@ Se o agente público for demandado nas esferas judicial ou controladora (perante
 ---
 
 ### Teste 068
-**(FGV – TJ-RR – Analista Judiciario Gestao e Governanca de Tecnologia da Informacao – 2024)**
-A unidade de sustentabilidade prevista na resolução nº 400/21 deve, preferencialmente, ser subordinada diretamente à Presidência, à Secretária-Geral ou à Diretoria-Geral do órgão do Poder Judiciário. A seguinte lotação mínima deverá ser observada na unidade de sustentabilidade:
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
+Carolina é analista de controle externo de um Tribunal de Contas estadual. Em determinada semana, ela se depara com as seguintes demandas simultâneas: I. elaborar, até o fim do dia, o relatório de instrução de um processo com prazo regimental vencendo às 18h, sob pena de nulidade da autuação; II. responder a e-mails de colegas solicitando informações sobre procedimentos administrativos de rotina, sem prazo definido; III. desenvolver um plano de capacitação para a equipe, atividade estratégica alinhada ao planejamento anual do tribunal, sem data de entrega imediata; e IV. participar de uma reunião convocada com urgência por outro setor para discutir a pauta da confraternização de fim de ano. Para organizar essas demandas, Carolina as classifica segundo dois critérios (importância e urgência), identificando quais devem ser executadas imediatamente, quais devem ser agendadas, quais devem ser delegadas e quais devem ser eliminadas ou postergadas. Nesse caso, Carolina utiliza a seguinte técnica de gestão de tarefas:
 
-* **A)** 10 (dez) servidores(as), nos tribunais que possuam mais de 5.000 servidores do quadro de pessoal.
-* **B)** 3 (três) servidores(as), nos tribunais que possuam mais de 5.000 servidores do quadro de pessoal.
-* **C)** 4 (quatro) servidores(as), nos tribunais cuja quantidade de servidores seja inferior ao quantitativo de 5.000 servidores do quadro de pessoal.
-* **D)** 3 (três) servidores(as), nos tribunais cuja quantidade de servidores seja inferior ao quantitativo de 5.000 servidores do quadro de pessoal.
-* **E)** 6 (seis) servidores(as), nos tribunais que possuam mais de 5.000 servidores do quadro de pessoal.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "10 (dez) servidores(as), nos tribunais que possuam mais de 5.000 servidores do quadro de pessoal". De acordo com a teoria estudada em *2.2 Comissão de Contratação e a Regra do Diálogo Competitivo*, na modalidade Diálogo Competitivo, a condução por comissão de contratação de no mínimo 3 servidores efetivos é OBRIGATÓRIA por expressa exigência do art. 32, inciso XI, da Lei nº 14.133/2021. Jamais pode ser conduzida por agente monocrático isolado!.
-> - **B)** **Correta.** Conforme fundamentado na seção *2.2 Comissão de Contratação e a Regra do Diálogo Competitivo* deste guia, composição da Comissão: Composta por, no mínimo, 3 (três) membros, sendo a maioria servidores efetivos ou empregados públicos permanentes. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-RR/2024) ao estabelecer que "3 (três) servidores(as), nos tribunais que possuam mais de 5.000 servidores do quadro de pessoal".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "4 (quatro) servidores(as), nos tribunais cuja quantidade de servidores seja inferior ao quantitativo de 5.000...". De acordo com a teoria estudada em *3.2 Estudo Técnico Preliminar (ETP): Conceito e Elementos Obrigatórios*, ele evidencia o problema público a ser resolvido e avalia comparativamente as alternativas viáveis disponíveis no mercado para eleger a solução mais eficiente (art. 18).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3 (três) servidores(as), nos tribunais cuja quantidade de servidores seja inferior ao quantitativo de 5.000...". De acordo com a teoria estudada em *2.1 O Agente de Contratação e o Pregoeiro*, requisito Obrigatório de Investidura: Deve ser, preferencialmente, servidor efetivo ou empregado público dos quadros permanentes da Administração Pública.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "6 (seis) servidores(as), nos tribunais que possuam mais de 5.000 servidores do quadro de pessoal". De acordo com a teoria estudada em *2.3 O Princípio da Segregação de Funções e Conflito de Interesses*, conceito: Impõe a repartição criteriosa de funções entre agentes públicos distintos, vedando expressamente a concentração de atribuições mais suscetíveis a riscos em uma mesma autoridade.
->
-> **Gabarito: B**
-
----
-
-### Teste 069
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Gestao Governamental – 2024)**
-Instado a se manifestar acerca de contratos atinentes a compras a serem realizadas por determinada unidade gestora da Administração, notadamente sobre o planejamento, possibilidade de fracionamento de despesa e viabilidade de contratação direta em razão do valor, o agente da contratação Lucrécio, à luz do disposto na Lei nº 14.133/2021, esclareceu corretamente que
-
-* **A)** o planejamento de compras deve ser realizado mês a mês, independentemente da expectativa de consumo anual.
-* **B)** é possível o fracionamento da despesa para fins de adequação à contratação direta para a realização de compras, por se tratar de hipótese de inexigibilidade de licitação.
-* **C)** com relação às compras, é vedado o parcelamento do objeto, mesmo quando for tecnicamente viável e economicamente vantajoso para a Administração Pública.
-* **D)** para fins de que a licitação seja dispensável em razão do valor nos contratos em questão, há de ser considerado o somatório do que for despendido no exercício financeiro pela respectiva unidade gestora.
-* **E)** as compras a serem contratadas diretamente pela Administração Pública em razão do valor são analisadas individualmente, independente do todo da despesa realizada com objetos de mesma natureza.
+* **A)** Método GTD (Getting Things Done).
+* **B)** Técnica Pomodoro.
+* **C)** Método Kanban.
+* **D)** Matriz de Eisenhower.
+* **E)** Método OKR (Objectives and Key Results).
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o planejamento de compras deve ser realizado mês a mês, independentemente da expectativa de consumo anual". De acordo com a teoria estudada em *3.1 Plano de Contratações Anual (PCA) e Integração Orçamentária*, o art. 12, VII, preconiza a elaboração do Plano de Contratações Anual (PCA), instrumento de governança que consolida todas as compras e contratações que o órgão pretende realizar no exercício financeiro subsequente.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é possível o fracionamento da despesa para fins de adequação à contratação direta para a realização de compras...". De acordo com a teoria estudada em *1. Princípios Gerais e Regime da Lei Federal nº 14.133/2021 (NLLC)*, a Lei Federal nº 14.133/2021 (Nova Lei de Licitações e Contratos Administrativos - NLLC) consolidou o regime jurídico das compras públicas no Brasil, revogando expressamente a Lei nº 8.666/1993, a Lei do Pregão (Lei nº 10.520/2002) e o Regime Diferenciado de Contratações Públicas (RDC - Lei nº 12.462/2011).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "com relação às compras, é vedado o parcelamento do objeto, mesmo quando for tecnicamente viável e economicamente...". De acordo com a teoria estudada em *1.1 Âmbito de Aplicação Subjetivo e Objetos Abrangidos*, entes Abrangidos (Art. 1º): Submetem-se aos seus comandos a Administração Pública direta, autárquica e fundacional de todos os entes federados (União, Estados, Distrito Federal e Municípios), abrangendo os Poderes Executivo, Legislativo e Judiciário, além do Tribunal de Contas e do Ministério Público no exercício de suas funções administrativas atípicas.
-> - **D)** **Correta.** Conforme fundamentado na seção *3.4 Matriz de Alocação de Riscos e Equilíbrio Econômico-Financeiro* deste guia, obrigatoriedade: É obrigatória nas contratações de grande vulto (valor que ultrapassa R$ 200.000.000,00) e nos regimes de contratação integrada e semi-integrada. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "para fins de que a licitação seja dispensável em razão do valor nos contratos em questão, há de ser considerado o...".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as compras a serem contratadas diretamente pela Administração Pública em razão do valor são analisadas...". De acordo com a teoria estudada em *1.1 Âmbito de Aplicação Subjetivo e Objetos Abrangidos*, ressalva das Empresas Estatais: As empresas públicas e as sociedades de economia mista continuam submetidas ao seu regime licitatório e contratual próprio preconizado pela Lei Federal nº 13.303/2016, aplicando-se-lhes a NLLC apenas no capítulo referente aos crimes em licitações e contratos (arts. 337-E a 337-P do Código Penal, inseridos pelo art. 178 da Lei 14.133/2021).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Método GTD (Getting Things Done)". De acordo com a teoria estudada em *3.4 Matriz de Alocação de Riscos e Equilíbrio Econômico-Financeiro*, obrigatoriedade: É obrigatória nas contratações de grande vulto (valor que ultrapassa R$ 200.000.000,00) e nos regimes de contratação integrada e semi-integrada.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Técnica Pomodoro". De acordo com a teoria estudada em *3.4 Matriz de Alocação de Riscos e Equilíbrio Econômico-Financeiro*, vedação ao Reequilíbrio Econômico-Financeiro (Art. 124, § 1º): Se determinado evento imprevisível ou oscilação de mercado ocorrer, mas sua responsabilidade financeira tiver sido previamente alocada à contratada na matriz de riscos, a empresa NÃO tem direito a aditivo de reequilíbrio econômico-financeiro.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Método Kanban". De acordo com a teoria estudada em *3.4 Matriz de Alocação de Riscos e Equilíbrio Econômico-Financeiro*, o risco já foi precificado e assumido pela empresa em sua proposta licitatória originária.
+> - **D)** **Correta.** Conforme fundamentado na seção *3.4 Matriz de Alocação de Riscos e Equilíbrio Econômico-Financeiro* deste guia, a Matriz de Alocação de Riscos (art. 6º, XXVII e art. 22) é a cláusula contratual que promove a divisão objetiva e contratual de encargos financeiros e riscos supervenientes entre a Administração Pública e o contratado. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "Matriz de Eisenhower".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Método OKR (Objectives and Key Results)". De acordo com a teoria estudada em *3.1 Plano de Contratações Anual (PCA) e Integração Orçamentária*, o art. 12, VII, preconiza a elaboração do Plano de Contratações Anual (PCA), instrumento de governança que consolida todas as compras e contratações que o órgão pretende realizar no exercício financeiro subsequente.
 >
 > **Gabarito: D**
 
 ---
 
-### Teste 070
-**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Ciencias Contabeis – 2026)**
-Em novembro de 2025, a Cia X detectou erro de escrituração no estoque, ocorrido no primeiro semestre do ano. O procedimento inadequado foi realizado intencionalmente para produzir um resultado melhor no ano. Como o erro foi considerado imaterial, a administração não pretende efetuar correção. O procedimento é considerado tecnicamente
+### Teste 069
+**(FGV – TJ/SC – 2026 – Analista Administrativo)**
+Na elaboração da Lei de Diretrizes Orçamentárias (LDO), determinado ente federativo deixou de incluir avaliação de passivos contingentes e de outros riscos capazes de afetar as contas públicas, sob o argumento de que tais eventos seriam imprevisíveis e, portanto, dispensariam previsão formal. À luz da Lei de Responsabilidade Fiscal, é correto afirmar que
 
-* **A)** correto, uma vez que apenas erros materiais precisam ser corrigidos.
-* **B)** correto, uma vez que não houve exigência de correção pela auditoria externa.
-* **C)** correto, uma vez que será necessário corrigir a escrituração apenas a partir do ano seguinte.
-* **D)** incorreto, uma vez que a administração não pode tomar decisões sem consultar o Conselho de Administração.
-* **E)** incorreto, uma vez que o erro deve ser corrigido antes de as demonstrações contábeis serem autorizadas para publicação.
+* **A)** os riscos fiscais somente devem ser tratados na Lei Orçamentária Anual.
+* **B)** a LDO deve conter Anexo de Riscos Fiscais com avaliação e medidas a serem adotadas.
+* **C)** a omissão é justificável, desde que haja previsão genérica de reserva de contingência na Lei Orçamentária Anual.
+* **D)** a avaliação de riscos fiscais é facultativa, podendo ser substituída por metas fiscais anuais.
+* **E)** a avaliação de riscos fiscais deve constar exclusivamente do Plano Plurianual.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *2.1 O Agente de Contratação e o Pregoeiro* deste guia, requisito Obrigatório de Investidura: Deve ser, preferencialmente, servidor efetivo ou empregado público dos quadros permanentes da Administração Pública. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "correto, uma vez que apenas erros materiais precisam ser corrigidos".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "correto, uma vez que não houve exigência de correção pela auditoria externa". De acordo com a teoria estudada em *2.2 Comissão de Contratação e a Regra do Diálogo Competitivo*, na modalidade Diálogo Competitivo, a condução por comissão de contratação de no mínimo 3 servidores efetivos é OBRIGATÓRIA por expressa exigência do art. 32, inciso XI, da Lei nº 14.133/2021. Jamais pode ser conduzida por agente monocrático isolado!.
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "correto, uma vez que será necessário corrigir a escrituração apenas a partir do ano seguinte". De acordo com a teoria estudada em *2.3 O Princípio da Segregação de Funções e Conflito de Interesses*, o agente que julga e adjudica a licitação não pode atuar como fiscal ou gestor do contrato, nem ser o responsável por atestar faturas e autorizar pagamentos financeiros.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "incorreto, uma vez que a administração não pode tomar decisões sem consultar o Conselho de Administração". De acordo com a teoria estudada em *2.1 O Agente de Contratação e o Pregoeiro*, o Agente de Contratação (art. 8º) é a pessoa física designada pela autoridade competente para tomar decisões, acompanhar o trâmite da licitação, dar impulso ao procedimento e executar quaisquer outras atividades necessárias ao bom andamento do certame até a homologação.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "incorreto, uma vez que o erro deve ser corrigido antes de as demonstrações contábeis serem autorizadas para...". De acordo com a teoria estudada em *2.1 O Agente de Contratação e o Pregoeiro*, responsabilidade Individual: Responde individualmente pelos atos que praticar na condução do procedimento, salvo quando for induzido a erro pela atuação de sua equipe de apoio ou comissão.
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "os riscos fiscais somente devem ser tratados na Lei Orçamentária Anual". De acordo com a teoria estudada em *3.1 Plano de Contratações Anual (PCA) e Integração Orçamentária*, o art. 12, VII, preconiza a elaboração do Plano de Contratações Anual (PCA), instrumento de governança que consolida todas as compras e contratações que o órgão pretende realizar no exercício financeiro subsequente.
+> - **B)** **Correta.** Conforme fundamentado na seção *3.1 Plano de Contratações Anual (PCA) e Integração Orçamentária* deste guia, seu objetivo primordial é racionalizar as compras públicas, viabilizar o ganho de escala e garantir a perfeita compatibilização das despesas com as metas do Plano Plurianual (PPA), da Lei de Diretrizes Orçamentárias (LDO) e da Lei Orçamentária Anual (LOA). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/SC/2026) ao estabelecer que "a LDO deve conter Anexo de Riscos Fiscais com avaliação e medidas a serem adotadas".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a omissão é justificável, desde que haja previsão genérica de reserva de contingência na Lei Orçamentária Anual". De acordo com a teoria estudada em *3.4 Matriz de Alocação de Riscos e Equilíbrio Econômico-Financeiro*, vedação ao Reequilíbrio Econômico-Financeiro (Art. 124, § 1º): Se determinado evento imprevisível ou oscilação de mercado ocorrer, mas sua responsabilidade financeira tiver sido previamente alocada à contratada na matriz de riscos, a empresa NÃO tem direito a aditivo de reequilíbrio econômico-financeiro.
+> - **D)** **Incorreta.** A opção afasta requisito ou relação estrutural exigida pela matéria ao afirmar que "a avaliação de riscos fiscais é facultativa, podendo ser substituída por metas fiscais anuais". De acordo com a teoria estudada em *2.1 O Agente de Contratação e o Pregoeiro*, requisito Obrigatório de Investidura: Deve ser, preferencialmente, servidor efetivo ou empregado público dos quadros permanentes da Administração Pública.
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "a avaliação de riscos fiscais deve constar exclusivamente do Plano Plurianual". De acordo com a teoria estudada em *2.3 O Princípio da Segregação de Funções e Conflito de Interesses*, o agente que elabora o Estudo Técnico Preliminar e o Termo de Referência (fase interna) não deve conduzir o julgamento das propostas como agente de contratação (fase externa).
+>
+> **Gabarito: B**
+
+---
+
+### Teste 070
+**(FCC – TCE/GO – 2009 – Analista de Controle Externo - Gestão de Conhecimento)**
+Ao planejar e implantar serviços reprográficos em uma V. Segundo o AACR-2, a área dos detalhes específi- biblioteca, além dos aspectos administrativos, físicos e cos do documento, cuja citação é obrigatória, financeiros, deve-se considerar aplica-se a monografias, livros, folhetos e folhas soltas impressas.
+
+* **A)** acompanhar o usuário durante todo o processo de busca de informação.
+* **B)** auxiliar leitores no momento da utilização de docu- dada em formato eletrônico. mentos com a finalidade de estudo e pesquisa.
+* **C)** responder perguntas e orientar o consulente no uso internet oferecidos aos usuários. das obras de referência.
+* **D)** não necessite ser proprietária do documento solicita- criando um ambiente amistoso no qual o leitor se do pelo usuário. sinta à vontade.
+* **E)** transforme o seu acervo físico em documentos a um serviço capacitado para satisfazer essa virtuais de acesso remoto. necessidade. _________________________________________________________ _________________________________________________________
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *2.1 O Agente de Contratação e o Pregoeiro* deste guia, o Agente de Contratação (art. 8º) é a pessoa física designada pela autoridade competente para tomar decisões, acompanhar o trâmite da licitação, dar impulso ao procedimento e executar quaisquer outras atividades necessárias ao bom andamento do certame até a homologação. Dessa forma, está plenamente correta a assertiva da banca (FCC – TCE/GO/2009) ao estabelecer que "acompanhar o usuário durante todo o processo de busca de informação".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "auxiliar leitores no momento da utilização de docu- dada em formato eletrônico. mentos com a finalidade de estudo...". De acordo com a teoria estudada em *2.3 O Princípio da Segregação de Funções e Conflito de Interesses*, o agente que elabora o Estudo Técnico Preliminar e o Termo de Referência (fase interna) não deve conduzir o julgamento das propostas como agente de contratação (fase externa).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "responder perguntas e orientar o consulente no uso internet oferecidos aos usuários. das obras de referência". De acordo com a teoria estudada em *3.3 Termo de Referência vs. Projeto Básico e Projeto Executivo*, projeto Básico (Art. 6º, XXV): Documento elaborado para obras e serviços de engenharia, contendo elementos técnicos precisos e consolidados que permitam a perfeita identificação do empreendimento e a estimativa de custos de cada etapa construtiva.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não necessite ser proprietária do documento solicita- criando um ambiente amistoso no qual o leitor se do pelo...". De acordo com a teoria estudada em *3.3 Termo de Referência vs. Projeto Básico e Projeto Executivo*, termo de Referência (TR - Art. 6º, XXIII): Documento elaborado para a contratação de bens e serviços em geral, contendo os elementos técnicos necessários para caracterizar o objeto de forma clara, o modelo de execução, os critérios de medição e pagamento e os parâmetros de aceitabilidade das propostas.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "transforme o seu acervo físico em documentos a um serviço capacitado para satisfazer essa virtuais de acesso...". De acordo com a teoria estudada em *1.2 Os Objetivos Fundamentais do Processo Licitatório (Art. 11)*, a NLLC inovou ao estruturar quatro objetivos finalísticos obrigatórios a serem perseguidos pela Administração.
 >
 > **Gabarito: A**
 
 ---
 
 ### Teste 071
-**(FGV – TCE-PI – Auditor de Controle Externo Controle Externo Especifica de Area Comum – 2025)**
-Ismar Viana destaca que é necessário “...afastar das atividades de controle o agente a quem é atribuído o mister de executar outras funções, tendo em vista que, no regular exercício da função de controle, quem controla não deve executar, quem executa não deve controlar.” (2019, p.12) O princípio da atividade de controle da Administração Pública a que se refere o autor é o
+**(FCC – TCE/GO – 2009 – Analista de Controle Externo - Gestão de Conhecimento)**
+O autor vale-se da referência do assalto no bar da esquina (Aristides Bianco, inédito) aos confrontos do Oriente Médio para 1. O autor do texto mostra-se, fundamentalmente, insatisfeito
 
-* **A)** da probidade.
-* **B)** da objetividade.
-* **C)** da impessoalidade.
-* **D)** da segregação de funções.
-* **E)** do ceticismo profissional.
+* **A)** Parece pouco, mas é mais que muito. A respeito do termo etnia
+* **B)** O ideal talvez fosse um meio termo. Por etnia entende-se um grupo de pessoas que parti-
+* **C)** (...) partiria de nós mesmos a violação desse estado (...) lham vários atributos, como espaço geográfico, língua, costu-
+* **D)** Minha utopia é esta: acordar num dia sem notícias mes e valores, e que reivindicam para si o mesmo nome étnico (...) e a mesma ascendência. Mas sempre há nisso grande dose de
+* **E)** (...) pura e permanente percepção de si e do mundo. subjetividade. Daí ser difícil estabelecer fronteiras claras entre _________________________________________________________ as etnias e quantificar os grupos étnicos existentes no planeta.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "da probidade". De acordo com a teoria estudada em *1.1 Âmbito de Aplicação Subjetivo e Objetos Abrangidos*, princípios Expressos (Art. 5º): Legalidade, impessoalidade, moralidade, publicidade, eficiência, interesse público, probidade administrativa, igualdade, planejamento, transparência, eficácia, segregação de funções, motivação, vinculação ao edital, julgamento objetivo, segurança jurídica, razoabilidade, proporcionalidade, celeridade, economicidade e desenvolvimento nacional sustentável.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "da objetividade". De acordo com a teoria estudada em *2.3 O Princípio da Segregação de Funções e Conflito de Interesses*, o agente que julga e adjudica a licitação não pode atuar como fiscal ou gestor do contrato, nem ser o responsável por atestar faturas e autorizar pagamentos financeiros.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "da impessoalidade". De acordo com a teoria estudada em *2.3 O Princípio da Segregação de Funções e Conflito de Interesses*, positivado formalmente no art. 5º e detalhado no art. 7º, § 1º, da NLLC.
-> - **D)** **Correta.** Conforme fundamentado na seção *2.3 O Princípio da Segregação de Funções e Conflito de Interesses* deste guia, o agente que elabora o Estudo Técnico Preliminar e o Termo de Referência (fase interna) não deve conduzir o julgamento das propostas como agente de contratação (fase externa). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PI/2025) ao estabelecer que "da segregação de funções".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "do ceticismo profissional". De acordo com a teoria estudada em *2.3 O Princípio da Segregação de Funções e Conflito de Interesses*, conceito: Impõe a repartição criteriosa de funções entre agentes públicos distintos, vedando expressamente a concentração de atribuições mais suscetíveis a riscos em uma mesma autoridade.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Parece pouco, mas é mais que muito. A respeito do termo etnia". De acordo com a teoria estudada em *2.3 O Princípio da Segregação de Funções e Conflito de Interesses*, conceito: Impõe a repartição criteriosa de funções entre agentes públicos distintos, vedando expressamente a concentração de atribuições mais suscetíveis a riscos em uma mesma autoridade.
+> - **B)** **Correta.** Conforme fundamentado na seção *2.3 O Princípio da Segregação de Funções e Conflito de Interesses* deste guia, o agente que elabora o Estudo Técnico Preliminar e o Termo de Referência (fase interna) não deve conduzir o julgamento das propostas como agente de contratação (fase externa). Dessa forma, está plenamente correta a assertiva da banca (FCC – TCE/GO/2009) ao estabelecer que "O ideal talvez fosse um meio termo. Por etnia entende-se um grupo de pessoas que parti-".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "(...) partiria de nós mesmos a violação desse estado (...) lham vários atributos, como espaço geográfico, língua...". De acordo com a teoria estudada em *3.3 Termo de Referência vs. Projeto Básico e Projeto Executivo*, termo de Referência (TR - Art. 6º, XXIII): Documento elaborado para a contratação de bens e serviços em geral, contendo os elementos técnicos necessários para caracterizar o objeto de forma clara, o modelo de execução, os critérios de medição e pagamento e os parâmetros de aceitabilidade das propostas.
+> - **D)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "Minha utopia é esta: acordar num dia sem notícias mes e valores, e que reivindicam para si o mesmo nome étnico...". De acordo com a teoria estudada em *3.3 Termo de Referência vs. Projeto Básico e Projeto Executivo*, projeto Básico (Art. 6º, XXV): Documento elaborado para obras e serviços de engenharia, contendo elementos técnicos precisos e consolidados que permitam a perfeita identificação do empreendimento e a estimativa de custos de cada etapa construtiva.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "(...) pura e permanente percepção de si e do mundo. subjetividade. Daí ser difícil estabelecer fronteiras claras...". De acordo com a teoria estudada em *3.3 Termo de Referência vs. Projeto Básico e Projeto Executivo*, projeto Executivo (Art. 6º, XXVI): Conjunto dos elementos detalhados necessários e suficientes para a execução completa da obra civil.
 >
-> **Gabarito: D**
+> **Gabarito: B**
 
 ---
 
@@ -336,96 +336,90 @@ flowchart TD
 ---
 
 ### Teste 072
-**(FGV – TJ-RR – Analista Judiciario Gestao e Governanca de Tecnologia da Informacao – 2024)**
-A Resolução CNJ nº 468, de 15 de julho de 2022, trata sobre diretrizes para as contratações de Solução de Tecnologia da Informação e Comunicação pelos órgãos submetidos ao controle administrativo e financeiro do Conselho Nacional de Justiça. Com relação à essa resolução, julgue as afirmativas a seguir. I. As contratações de STIC devem apresentar as seguintes fases: planejamento da contratação, seleção do fornecedor e gestão do contrato. II. Nas contratações, via de regra, deve-se adotar a métrica homem-hora para aferição de esforço. III. Na contratação por inexigibilidade, é facultativa a execução da fase de planejamento da contratação de STIC. Está correto o que se afirma em
+**(CEBRASPE – STF – 2013 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+Estudos técnicos preliminares, plano de trabalho, no caso da contratação de serviços, e o termo de referência ou projeto básico são requisitos mínimos exigidos no processo de planejamento da contratação de soluções em TI.
 
-* **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** I e III, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *5. Fontes Recomendadas na Internet* deste guia, nIEBUHR, Joel de Menezes. Licitação Pública e Contrato Administrativo. 6. ed. Belo Horizonte: Fórum, 2023. (Cap. 4 e Cap. 5 - Planejamento da Contratação, Estudo Técnico Preliminar e PNCP). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-RR/2024) ao estabelecer que "I, apenas".
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *3. Planejamento das Contratações e Instrumentos Preparatórios*, a Lei nº 14.133/2021 consagrou a centralidade da fase preparatória, superando a cultura de contratações improvisadas.
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *2.3 O Princípio da Segregação de Funções e Conflito de Interesses*, o agente que elabora o Estudo Técnico Preliminar e o Termo de Referência (fase interna) não deve conduzir o julgamento das propostas como agente de contratação (fase externa).
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *3.1 Plano de Contratações Anual (PCA) e Integração Orçamentária*, seu objetivo primordial é racionalizar as compras públicas, viabilizar o ganho de escala e garantir a perfeita compatibilização das despesas com as metas do Plano Plurianual (PPA), da Lei de Diretrizes Orçamentárias (LDO) e da Lei Orçamentária Anual (LOA).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *3.4 Matriz de Alocação de Riscos e Equilíbrio Econômico-Financeiro*, obrigatoriedade: É obrigatória nas contratações de grande vulto (valor que ultrapassa R$ 200.000.000,00) e nos regimes de contratação integrada e semi-integrada.
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *3.3 Termo de Referência vs. Projeto Básico e Projeto Executivo* deste guia, termo de Referência (TR - Art. 6º, XXIII): Documento elaborado para a contratação de bens e serviços em geral, contendo os elementos técnicos necessários para caracterizar o objeto de forma clara, o modelo de execução, os critérios de medição e pagamento e os parâmetros de aceitabilidade das propostas. Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – STF/2013) ao afirmar que "Estudos técnicos preliminares, plano de trabalho, no caso da contratação de serviços, e o termo de referência...".
+> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *3.3 Termo de Referência vs. Projeto Básico e Projeto Executivo*, segundo a qual projeto Básico (Art. 6º, XXV): Documento elaborado para obras e serviços de engenharia, contendo elementos técnicos precisos e consolidados que permitam a perfeita identificação do empreendimento e a estimativa de custos de cada etapa construtiva.
 >
-> **Gabarito: A**
+> **Gabarito: C**
 
 ---
 
 ### Teste 073
-**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Administracao – 2026)**
-As atividades de controle interno são desenvolvidas em níveis de governança e gestão, denominadas pela legislação brasileira como “linhas de defesa”. Acerca dessa temática, considere as seguintes atividades de controle: I. Aplicação de procedimentos de gestão relativos à pesquisa e à formação de preços em um processo de contratação. II. Análise e assessoramento jurídico na elaboração de um edital de concorrência pública. III. Instauração de procedimento, pela unidade de controle interno da própria unidade organizacional, para verificar a adequação dos controles internos implementados. Assinale a opção que apresenta apenas atividades típicas de segunda linha de defesa.
+**(FGV – TRF/1 – 2024 – Analista Judiciario Area Apoio Especializado Especialidade Tecnologia Da Informacao)**
+O TRF1 iniciou o planejamento da contratação para o desenvolvimento de uma nova solução tecnológica. A equipe de planejamento da contratação registrou, no estudo técnico preliminar, que a solução está aderente aos requisitos técnicos da plataforma digital do Poder Judiciário brasileiro (PDPJ-Br). Considerando a política pública para a governança e gestão do processo judicial eletrônico, a contratação da solução tecnológicas será proibida se:
 
-* **A)** I.
-* **B)** II.
-* **C)** I e III.
-* **D)** II e III.
-* **E)** I, II e III.
+* **A)** atender a peculiaridades regionais do Tribunal;
+* **B)** causar redução dos custos com ações isoladas;
+* **C)** causar dependência tecnológica do fornecedor;
+* **D)** permitir o compartilhamento da solução na PDPJ-Br;
+* **E)** permitir a coexistência com outras soluções da PDPJ-Br.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I". De acordo com a teoria estudada em *1.3 Governança das Contratações e Gestão por Competências*, exige gestão por competências, determinando que os agentes públicos designados para atuar na área de licitações possuam formação compatível ou qualificação atestada por certificação profissional emitida por escola de governo.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II". De acordo com a teoria estudada em *2.1 O Agente de Contratação e o Pregoeiro*, o Agente de Contratação (art. 8º) é a pessoa física designada pela autoridade competente para tomar decisões, acompanhar o trâmite da licitação, dar impulso ao procedimento e executar quaisquer outras atividades necessárias ao bom andamento do certame até a homologação.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e III". De acordo com a teoria estudada em *3.1 Plano de Contratações Anual (PCA) e Integração Orçamentária*, o art. 12, VII, preconiza a elaboração do Plano de Contratações Anual (PCA), instrumento de governança que consolida todas as compras e contratações que o órgão pretende realizar no exercício financeiro subsequente.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II e III". De acordo com a teoria estudada em *2.4 Defesa Jurídica Institucional dos Agentes (Art. 10)*, se o agente público for demandado nas esferas judicial ou controladora (perante o Tribunal de Contas) em virtude de atos praticados em estrito cumprimento do dever legal na licitação, terá direito à representação judicial pela Advocacia Pública (Procuradoria do Estado), desde que sua conduta tenha sido previamente respaldada por parecer jurídico da assessoria do órgão.
-> - **E)** **Correta.** Conforme fundamentado na seção *Os 5 Elementos Obrigatórios do ETP (Art. 18, § 2º):* deste guia, estimativa do valor da contratação, amparada em pesquisa prévia de preços. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "I, II e III".
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "atender a peculiaridades regionais do Tribunal". De acordo com a teoria estudada em *3.2 Estudo Técnico Preliminar (ETP): Conceito e Elementos Obrigatórios*, o Estudo Técnico Preliminar (ETP) é o documento constitutivo da primeira etapa do planejamento de uma contratação.
+> - **B)** **Correta.** Conforme fundamentado na seção *3.3 Termo de Referência vs. Projeto Básico e Projeto Executivo* deste guia, projeto Básico (Art. 6º, XXV): Documento elaborado para obras e serviços de engenharia, contendo elementos técnicos precisos e consolidados que permitam a perfeita identificação do empreendimento e a estimativa de custos de cada etapa construtiva. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF/1/2024) ao estabelecer que "causar redução dos custos com ações isoladas".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "causar dependência tecnológica do fornecedor". De acordo com a teoria estudada em *3.2 Estudo Técnico Preliminar (ETP): Conceito e Elementos Obrigatórios*, ele evidencia o problema público a ser resolvido e avalia comparativamente as alternativas viáveis disponíveis no mercado para eleger a solução mais eficiente (art. 18).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "permitir o compartilhamento da solução na PDPJ-Br". De acordo com a teoria estudada em *Os 5 Elementos Obrigatórios do ETP (Art. 18, § 2º):*, justificativa para o parcelamento ou não da solução de mercado.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "permitir a coexistência com outras soluções da PDPJ-Br". De acordo com a teoria estudada em *2.1 O Agente de Contratação e o Pregoeiro*, o Agente de Contratação (art. 8º) é a pessoa física designada pela autoridade competente para tomar decisões, acompanhar o trâmite da licitação, dar impulso ao procedimento e executar quaisquer outras atividades necessárias ao bom andamento do certame até a homologação.
 >
-> **Gabarito: E**
+> **Gabarito: B**
 
 ---
 
 ### Teste 074
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Gestao Governamental – 2024)**
-A Lei nº 14.133/2021 estabelece que as contratações públicas deverão submeter-se a práticas contínuas e permanentes de gestão de riscos e de controle preventivo, inclusive mediante adoção de recursos de tecnologia da informação, e, além de estar subordinadas ao controle social, sujeitar-se-ão às linhas de defesa nela delimitadas. Acerca do aludido tema, à luz do mencionado Diploma Legal, é correto afirmar que os Tribunal de Contas
+**(FCC – TRT 16ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
+O Capítulo II da Instrução Normativa MP/SLTI no 04, de 12 de novembro de 2010, está divido em 3 seções que contemplam todo o procedimento para execução das fases de Planejamento da Contratação, Seleção de Fornecedor e Gerenciamento do Contrato. Na Seção II do capítulo II, que trata da Seleção de Fornecedor, afirma-se que
 
-* **A)** integram todas as linhas de defesa, em razão da relevância do controle por eles exercido.
-* **B)** integram a primeira linha de defesa, juntamente com as autoridades que atuam na estrutura de governança do órgão ou entidade.
-* **C)** integram a segunda linha de defesa, juntamente com as unidades de assessoramento jurídico.
-* **D)** integram a terceira linha de defesa, juntamente o órgão central de controle interno da Administração.
-* **E)** não integram tais linhas de defesa, que são compostas apenas pelos órgãos de controle interno.
+* **A)** a fase de Seleção do Fornecedor se encerrará com a assinatura do contrato e com a nomeação do Gestor do Contrato.
+* **B)** caberá exclusivamente à Área Jurídica apoiar tecnicamente o pregoeiro ou a Comissão de Licitação na análise e julgamento das propostas e dos recursos apresentados pelos licitantes.
+* **C)** caberá exclusivamente à Área de Planejamento e Contratação apoiar tecnicamente o pregoeiro ou a Comissão de Licitação na resposta aos questionamentos ou às impugnações dos licitantes.
+* **D)** caberá à Área de Licitações conduzir as etapas da fase de Seleção do Fornecedor.
+* **E)** caberá à Área de Licitações analisar as sugestões feitas pela área de TI para o Termo de Referência ou Projeto Básico e demais documentos.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "integram todas as linhas de defesa, em razão da relevância do controle por eles exercido". De acordo com a teoria estudada em *3.1 Plano de Contratações Anual (PCA) e Integração Orçamentária*, o art. 12, VII, preconiza a elaboração do Plano de Contratações Anual (PCA), instrumento de governança que consolida todas as compras e contratações que o órgão pretende realizar no exercício financeiro subsequente.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "integram a primeira linha de defesa, juntamente com as autoridades que atuam na estrutura de governança do órgão...". De acordo com a teoria estudada em *1.3 Governança das Contratações e Gestão por Competências*, a alta administração do órgão ou entidade é responsável pela implementação e fiscalização contínua de mecanismos de liderança, estratégia e controle.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "integram a segunda linha de defesa, juntamente com as unidades de assessoramento jurídico". De acordo com a teoria estudada em *1. Princípios Gerais e Regime da Lei Federal nº 14.133/2021 (NLLC)*, a Lei Federal nº 14.133/2021 (Nova Lei de Licitações e Contratos Administrativos - NLLC) consolidou o regime jurídico das compras públicas no Brasil, revogando expressamente a Lei nº 8.666/1993, a Lei do Pregão (Lei nº 10.520/2002) e o Regime Diferenciado de Contratações Públicas (RDC - Lei nº 12.462/2011).
-> - **D)** **Correta.** Conforme fundamentado na seção *2.4 Defesa Jurídica Institucional dos Agentes (Art. 10)* deste guia, se o agente público for demandado nas esferas judicial ou controladora (perante o Tribunal de Contas) em virtude de atos praticados em estrito cumprimento do dever legal na licitação, terá direito à representação judicial pela Advocacia Pública (Procuradoria do Estado), desde que sua conduta tenha sido previamente respaldada por parecer jurídico da assessoria do órgão. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "integram a terceira linha de defesa, juntamente o órgão central de controle interno da Administração".
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "não integram tais linhas de defesa, que são compostas apenas pelos órgãos de controle interno". De acordo com a teoria estudada em *1.1 Âmbito de Aplicação Subjetivo e Objetos Abrangidos*, entes Abrangidos (Art. 1º): Submetem-se aos seus comandos a Administração Pública direta, autárquica e fundacional de todos os entes federados (União, Estados, Distrito Federal e Municípios), abrangendo os Poderes Executivo, Legislativo e Judiciário, além do Tribunal de Contas e do Ministério Público no exercício de suas funções administrativas atípicas.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a fase de Seleção do Fornecedor se encerrará com a assinatura do contrato e com a nomeação do Gestor do Contrato". De acordo com a teoria estudada em *4.2 A Divulgação no PNCP como Requisito Indispensável de Eficácia (Art. 94)*, *"Art. 94. A divulgação no Portal Nacional de Contratações Públicas (PNCP) é condição indispensável para a eficácia do contrato e de seus aditamentos e deverá ocorrer nos seguintes prazos, contados da data de sua assinatura:*.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "caberá exclusivamente à Área Jurídica apoiar tecnicamente o pregoeiro ou a Comissão de Licitação na análise e...". De acordo com a teoria estudada em *4.2 A Divulgação no PNCP como Requisito Indispensável de Eficácia (Art. 94)*, sem a veiculação tempestiva no PNCP, o contrato administrativo é considerado inoperante, carecendo de eficácia jurídica para produzir obrigações e autorizar pagamentos com recursos públicos.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "caberá exclusivamente à Área de Planejamento e Contratação apoiar tecnicamente o pregoeiro ou a Comissão de...". De acordo com a teoria estudada em *3. Planejamento das Contratações e Instrumentos Preparatórios*, a Lei nº 14.133/2021 consagrou a centralidade da fase preparatória, superando a cultura de contratações improvisadas.
+> - **D)** **Correta.** Conforme fundamentado na seção *2.3 O Princípio da Segregação de Funções e Conflito de Interesses* deste guia, o agente que elabora o Estudo Técnico Preliminar e o Termo de Referência (fase interna) não deve conduzir o julgamento das propostas como agente de contratação (fase externa). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 16ª/2014) ao estabelecer que "caberá à Área de Licitações conduzir as etapas da fase de Seleção do Fornecedor".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "caberá à Área de Licitações analisar as sugestões feitas pela área de TI para o Termo de Referência ou Projeto...". De acordo com a teoria estudada em *3.3 Termo de Referência vs. Projeto Básico e Projeto Executivo*, termo de Referência (TR - Art. 6º, XXIII): Documento elaborado para a contratação de bens e serviços em geral, contendo os elementos técnicos necessários para caracterizar o objeto de forma clara, o modelo de execução, os critérios de medição e pagamento e os parâmetros de aceitabilidade das propostas.
 >
 > **Gabarito: D**
 
 ---
 
 ### Teste 075
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Gestao Governamental – 2024)**
-No exercício de suas atribuições como auditor de controle externo do Tribunal de Contas do Estado do Pará, para fins de elaboração de certos contratos administrativos, Ednardo foi instado a se manifestar acerca da existência de discricionariedade quanto à previsão de matriz de alocação de riscos entre contratante e contratado nos respectivos editais. Nesse contexto, diante do disposto na Lei nº 14.133/2021, Ednardo respondeu corretamente que
+**(FGV – TRT 16ª – 2022 – Analista Judiciário (Área Administrativa - Tecnologia da Informação))**
+João, Diretor de Licitações no âmbito da Administração Pública direta do Município Alfa, foi consultado por Maria sobre o documento necessário, previsto na Lei nº 14.133/2021, para a contratação de bens e serviços, isto com o objetivo de estabelecer os contornos básicos do objeto a ser contratado. João respondeu corretamente que
 
-* **A)** a previsão de matriz de risco submete-se à discricionariedade da Administração em qualquer contrato, independente do objeto ou do regime de execução.
-* **B)** há discricionariedade quanto à previsão de matriz de risco nos contratos de fornecimento, nas locações e nos contratos de obra, ainda que sejam realizados pelo regime da contratação semi-integrada.
-* **C)** nos contratos de grande vulto, além de outras hipóteses especificadas na lei de regência, notadamente quanto ao regime de execução, não há discricionariedade com relação à previsão de matriz de risco.
-* **D)** nas hipóteses de contratação pelos regimes de empreitada integral e empreitada por preço global não há discricionariedade da Administração acerca da previsão de matriz de risco.
-* **E)** dentre os regimes de execução indireta previstos na norma de regência, não há discricionariedade da Administração quanto à previsão de matriz de risco apenas em relação ao da contratação integrada.
+* **A)** o projeto básico é o documento necessário à contratação de bens.
+* **B)** o anteprojeto é o documento necessário à contratação de bens e serviços.
+* **C)** o termo de referência é o documento necessário à referida contratação.
+* **D)** o projeto executivo é o documento necessário à contratação de bens e serviços.
+* **E)** a matriz de objeto e riscos é o documento necessário à contratação de serviços.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "a previsão de matriz de risco submete-se à discricionariedade da Administração em qualquer contrato, independente...". De acordo com a teoria estudada em *3.4 Matriz de Alocação de Riscos e Equilíbrio Econômico-Financeiro*, obrigatoriedade: É obrigatória nas contratações de grande vulto (valor que ultrapassa R$ 200.000.000,00) e nos regimes de contratação integrada e semi-integrada.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "há discricionariedade quanto à previsão de matriz de risco nos contratos de fornecimento, nas locações e nos...". De acordo com a teoria estudada em *1.1 Âmbito de Aplicação Subjetivo e Objetos Abrangidos*, ressalva das Empresas Estatais: As empresas públicas e as sociedades de economia mista continuam submetidas ao seu regime licitatório e contratual próprio preconizado pela Lei Federal nº 13.303/2016, aplicando-se-lhes a NLLC apenas no capítulo referente aos crimes em licitações e contratos (arts. 337-E a 337-P do Código Penal, inseridos pelo art. 178 da Lei 14.133/2021).
-> - **C)** **Correta.** Conforme fundamentado na seção *1. Princípios Gerais e Regime da Lei Federal nº 14.133/2021 (NLLC)* deste guia, a Lei Federal nº 14.133/2021 (Nova Lei de Licitações e Contratos Administrativos - NLLC) consolidou o regime jurídico das compras públicas no Brasil, revogando expressamente a Lei nº 8.666/1993, a Lei do Pregão (Lei nº 10.520/2002) e o Regime Diferenciado de Contratações Públicas (RDC - Lei nº 12.462/2011). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "nos contratos de grande vulto, além de outras hipóteses especificadas na lei de regência, notadamente quanto ao...".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "nas hipóteses de contratação pelos regimes de empreitada integral e empreitada por preço global não há...". De acordo com a teoria estudada em *3.4 Matriz de Alocação de Riscos e Equilíbrio Econômico-Financeiro*, o risco já foi precificado e assumido pela empresa em sua proposta licitatória originária.
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "dentre os regimes de execução indireta previstos na norma de regência, não há discricionariedade da Administração...". De acordo com a teoria estudada em *3.4 Matriz de Alocação de Riscos e Equilíbrio Econômico-Financeiro*, a Matriz de Alocação de Riscos (art. 6º, XXVII e art. 22) é a cláusula contratual que promove a divisão objetiva e contratual de encargos financeiros e riscos supervenientes entre a Administração Pública e o contratado.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o projeto básico é o documento necessário à contratação de bens". De acordo com a teoria estudada em *3.3 Termo de Referência vs. Projeto Básico e Projeto Executivo*, projeto Básico (Art. 6º, XXV): Documento elaborado para obras e serviços de engenharia, contendo elementos técnicos precisos e consolidados que permitam a perfeita identificação do empreendimento e a estimativa de custos de cada etapa construtiva.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o anteprojeto é o documento necessário à contratação de bens e serviços". De acordo com a teoria estudada em *2.2 Comissão de Contratação e a Regra do Diálogo Competitivo*, hipóteses de Atuação: Bens e serviços especiais; procedimentos auxiliares; e obrigatoriamente no Diálogo Competitivo.
+> - **C)** **Correta.** Conforme fundamentado na seção *3.3 Termo de Referência vs. Projeto Básico e Projeto Executivo* deste guia, termo de Referência (TR - Art. 6º, XXIII): Documento elaborado para a contratação de bens e serviços em geral, contendo os elementos técnicos necessários para caracterizar o objeto de forma clara, o modelo de execução, os critérios de medição e pagamento e os parâmetros de aceitabilidade das propostas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 16ª/2022) ao estabelecer que "o termo de referência é o documento necessário à referida contratação".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o projeto executivo é o documento necessário à contratação de bens e serviços". De acordo com a teoria estudada em *3.3 Termo de Referência vs. Projeto Básico e Projeto Executivo*, projeto Executivo (Art. 6º, XXVI): Conjunto dos elementos detalhados necessários e suficientes para a execução completa da obra civil.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a matriz de objeto e riscos é o documento necessário à contratação de serviços". De acordo com a teoria estudada em *3.4 Matriz de Alocação de Riscos e Equilíbrio Econômico-Financeiro*, a Matriz de Alocação de Riscos (art. 6º, XXVII e art. 22) é a cláusula contratual que promove a divisão objetiva e contratual de encargos financeiros e riscos supervenientes entre a Administração Pública e o contratado.
 >
 > **Gabarito: C**
 
@@ -451,26 +445,26 @@ O **Portal Nacional de Contratações Públicas (PNCP)**, disciplinado pelos art
 ---
 
 ### Teste 076
-**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Administracao – 2026)**
-Durante atividade fiscalizatória exercida regularmente pela autoridade pública competente, descobriu-se que a empresa pública Alfa, integrante da Administração Indireta do Estado Beta, estava em descumprimento a um requisito de transparência previsto na legislação de regência. Nesse cenário, os requisitos de transparência apresentados a seguir estão elencados na Lei nº 13.303/2016, à exceção de um. Assinale-o.
+**(FGV – TCE/SC – 2026 – Auditor Fiscal De Controle Externo Engenharia Sanitaria)**
+De acordo com a NR nº 11/2024 da Agência Nacional de Águas e Saneamento Básico, toda edificação permanente que disponha de redes públicas de abastecimento de água e de esgotamento sanitário deve, obrigatoriamente, estar ligada à rede pública. Desse modo, quanto a essa ligação, analise as afirmativas a seguir. I. É dever da prestadora do serviço público garantir que o usuário de edificações residenciais desative as soluções alternativas de esgotamento sanitário a partir da efetiva ligação à rede pública de esgotamento sanitário. II. Nas áreas cobertas por rede pública de esgotamento sanitário, onde o serviço de abastecimento de água é prestado regularmente, os pedidos de nova ligação de água serão atendidos pelo prestador de serviços mediante a solicitação simultânea de ligação do domicílio ao sistema de esgotamento sanitário disponível. III. O ponto de entrega de água e o de coleta de esgoto deve, preferencialmente, situar-se no limite do lote com o logradouro público e em local de fácil acesso. Está correto apenas o que se afirma em
 
-* **A)** Elaboração de carta anual, subscrita pelos membros do Conselho de Administração, com a explicitação dos compromissos de consecução de objetivos de políticas públicas pela empresa pública, pela sociedade de economia mista e por suas subsidiárias, em atendimento ao interesse coletivo ou ao imperativo de segurança nacional que justificou a autorização para suas respectivas criações, com definição clara dos recursos a serem empregados para esse fim, bem como dos impactos econômico-financeiros da consecução desses objetivos, mensuráveis por meio de indicadores objetivos.
-* **B)** Divulgação tempestiva e atualizada de informações relevantes, em especial as relativas a atividades desenvolvidas, estrutura de controle, fatores de risco, dados econômico-financeiros, comentários dos administradores sobre o desempenho, políticas e práticas de governança corporativa e descrição da composição e da remuneração da administração.
-* **C)** Elaboração e divulgação da política de transações com partes relacionadas, em conformidade com os requisitos de competitividade, conformidade, transparência, equidade e comutatividade, que deverá ser revista, no mínimo, semestralmente e aprovada pelo Conselho Fiscal.
-* **D)** Divulgação, em nota explicativa às demonstrações financeiras, dos dados operacionais e financeiros das atividades relacionadas à consecução dos fins de interesse coletivo ou de segurança nacional.
-* **E)** Elaboração e divulgação de política de divulgação de informações, em conformidade com a legislação em vigor e com as melhores práticas.
+* **A)** I.
+* **B)** II.
+* **C)** I e II.
+* **D)** I e III.
+* **E)** II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Elaboração de carta anual, subscrita pelos membros do Conselho de Administração, com a explicitação dos...". De acordo com a teoria estudada em *1.1 Âmbito de Aplicação Subjetivo e Objetos Abrangidos*, ressalva das Empresas Estatais: As empresas públicas e as sociedades de economia mista continuam submetidas ao seu regime licitatório e contratual próprio preconizado pela Lei Federal nº 13.303/2016, aplicando-se-lhes a NLLC apenas no capítulo referente aos crimes em licitações e contratos (arts. 337-E a 337-P do Código Penal, inseridos pelo art. 178 da Lei 14.133/2021).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Divulgação tempestiva e atualizada de informações relevantes, em especial as relativas a atividades desenvolvidas...". De acordo com a teoria estudada em *3.4 Matriz de Alocação de Riscos e Equilíbrio Econômico-Financeiro*, a Matriz de Alocação de Riscos (art. 6º, XXVII e art. 22) é a cláusula contratual que promove a divisão objetiva e contratual de encargos financeiros e riscos supervenientes entre a Administração Pública e o contratado.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Elaboração e divulgação da política de transações com partes relacionadas, em conformidade com os requisitos de...". De acordo com a teoria estudada em *2.3 O Princípio da Segregação de Funções e Conflito de Interesses*, o agente que julga e adjudica a licitação não pode atuar como fiscal ou gestor do contrato, nem ser o responsável por atestar faturas e autorizar pagamentos financeiros.
-> - **D)** **Correta.** Conforme fundamentado na seção *1.1 Âmbito de Aplicação Subjetivo e Objetos Abrangidos* deste guia, princípios Expressos (Art. 5º): Legalidade, impessoalidade, moralidade, publicidade, eficiência, interesse público, probidade administrativa, igualdade, planejamento, transparência, eficácia, segregação de funções, motivação, vinculação ao edital, julgamento objetivo, segurança jurídica, razoabilidade, proporcionalidade, celeridade, economicidade e desenvolvimento nacional sustentável. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "Divulgação, em nota explicativa às demonstrações financeiras, dos dados operacionais e financeiros das atividades...".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Elaboração e divulgação de política de divulgação de informações, em conformidade com a legislação em vigor e com...". De acordo com a teoria estudada em *2.1 O Agente de Contratação e o Pregoeiro*, o Agente de Contratação (art. 8º) é a pessoa física designada pela autoridade competente para tomar decisões, acompanhar o trâmite da licitação, dar impulso ao procedimento e executar quaisquer outras atividades necessárias ao bom andamento do certame até a homologação.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I". De acordo com a teoria estudada em *4.2 A Divulgação no PNCP como Requisito Indispensável de Eficácia (Art. 94)*, *"Art. 94. A divulgação no Portal Nacional de Contratações Públicas (PNCP) é condição indispensável para a eficácia do contrato e de seus aditamentos e deverá ocorrer nos seguintes prazos, contados da data de sua assinatura:*.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II". De acordo com a teoria estudada em *2.1 O Agente de Contratação e o Pregoeiro*, requisito Obrigatório de Investidura: Deve ser, preferencialmente, servidor efetivo ou empregado público dos quadros permanentes da Administração Pública.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e II". De acordo com a teoria estudada em *2.2 Comissão de Contratação e a Regra do Diálogo Competitivo*, hipóteses de Atuação: Bens e serviços especiais; procedimentos auxiliares; e obrigatoriamente no Diálogo Competitivo.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e III". De acordo com a teoria estudada em *1. Princípios Gerais e Regime da Lei Federal nº 14.133/2021 (NLLC)*, a Lei Federal nº 14.133/2021 (Nova Lei de Licitações e Contratos Administrativos - NLLC) consolidou o regime jurídico das compras públicas no Brasil, revogando expressamente a Lei nº 8.666/1993, a Lei do Pregão (Lei nº 10.520/2002) e o Regime Diferenciado de Contratações Públicas (RDC - Lei nº 12.462/2011).
+> - **E)** **Correta.** Conforme fundamentado na seção *4.1 Natureza e Atribuições Centrais do Portal* deste guia, o Portal Nacional de Contratações Públicas (PNCP), disciplinado pelos arts. 174 a 176 da Lei nº 14.133/2021, é o sítio eletrônico oficial único de divulgação de compras públicas gerido pelo Comitê Gestor da Rede Nacional de Contratações Públicas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "II e III".
 >
-> **Gabarito: D**
+> **Gabarito: E**
 
 ---
 

@@ -123,128 +123,127 @@ flowchart TD
 ---
 
 ### Teste 165
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**  
-Em um Tribunal de Contas Estadual havia sete conselheiros, sendo quatro nomeados pela Assembleia Legislativa e três nomeados pelo Governador do Estado com aprovação do parlamento estadual. Surgida vaga de conselheiro reservada ao Poder Executivo estadual, o Governador pretende nomear membro do Ministério Público de Contas para ocupar a respectiva vaga.  
-À luz do modelo constitucional de composição dos Tribunais de Contas dos Estados (art. 73, § 2º c/c art. 75 da CF/88), a pretensão governamental:
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
+O Tribunal de Contas do Estado de Santa Catarina ampliou nos últimos anos seus mecanismos de interação com a sociedade civil, disponibilizando portais de transparência com dados abertos sobre a aplicação de recursos públicos municipais e estaduais, instituindo canais eletrônicos para recebimento de denúncias de irregularidades por qualquer cidadão e desenvolvendo programas de educação para a cidadania voltados ao fomento do controle social. Um pesquisador avaliou essas iniciativas e concluiu que, embora representem avanço na transparência ativa do Tribunal, ainda existem limites estruturais que restringem a efetividade do controle social exercido pela população sobre a Administração Pública. Considerando os conceitos de controle interno, externo e social, o papel constitucional do Tribunal de Contas e os instrumentos de transparência e controle social, assinale a afirmativa correta.
 
-* **A)** mostra-se plenamente viável desde que haja aprovação prévia por maioria simples da Assembleia Legislativa.
-* **B)** não se mostra juridicamente possível por ser a vaga privativa de auditores concursados do próprio Tribunal.
-* **C)** é admitida de imediato, assegurando-se a alternância com a vaga destinada aos auditores de carreira.
-* **D)** depende de emenda constitucional prévia para criar o cargo no âmbito do respectivo Tribunal de Contas.
-* **E)** é legítima desde que a vaga corresponda à cota destinada a membros do Ministério Público junto ao Tribunal.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreto**. A aprovação da escolha pelo Poder Legislativo exige quórum de maioria absoluta dos parlamentares (art. 73, § 2º c/c art. 75, CF/88).
-> - **B)** **Incorreto**. Dentre as três vagas de livre e técnica indicação do Governador, uma é privativa de auditores (conselheiros-substitutos) e uma é privativa de membros do Ministério Público junto ao Tribunal de Contas.
-> - **C)** **Incorreto**. A vaga técnica do MPC é titularizada especificamente pela respectiva carreira, em lista tríplice de antiguidade e merecimento, não havendo confusão aleatória com a vaga dos auditores.
-> - **D)** **Incorreto**. A regra decorre diretamente do modelo federal de reprodução obrigatória pelo constituinte estadual (art. 75 da CF/88 e Súmula Vinculante correspondente).
-> - **E)** **Correto**. Conforme o art. 75, parágrafo único, c/c art. 73, § 2º, I, da Constituição Federal, os Tribunais de Contas dos Estados são compostos por 7 conselheiros: 4 escolhidos pela Assembleia Legislativa e 3 pelo Governador do Estado (com aprovação da Assembleia), sendo estes 3 necessariamente: 1 de livre escolha e 2 escolhidos alternadamente entre auditores e membros do Ministério Público junto ao Tribunal, indicados em lista tríplice segundo critérios de antiguidade e merecimento. Logo, a nomeação governamental é válida se referida à vaga constitucional do MPC.
->
-> **Gabarito: E**
-
-### Teste 166
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**  
-A NBASP 50 - Princípios de Atividades Jurisdicionais dos Tribunais de Contas desenvolve princípios fundamentais aplicáveis às Cortes que exercem função judicante sobre a responsabilidade de gestores. Considere as seguintes afirmativas:
-
-I. O Tribunal de Contas deve ser dotado de garantias legais e institucionais que assegurem independência e autonomia a seus membros.  
-II. O exercício da competência sancionatória dos Tribunais de Contas deve respeitar o contraditório, a ampla defesa e o devido processo legal.  
-III. As decisões definitivas dos Tribunais de Contas que imputem débito ou multa possuem eficácia de título executivo judicial.  
-
-Está correto o que se afirma em:
-
-* **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** I e III, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
+* **A)** A disponibilização de portais de dados abertos pelo TCE-SC caracteriza transparência passiva, pois a publicação proativa de informações depende de solicitação prévia do cidadão, ao contrário da transparência ativa, que se realiza por meio de respostas a pedidos formalizados pelo interessado junto ao órgão.
+* **B)** A transparência ativa praticada pelo TCE e os canais de denúncia abertos à sociedade civil são instrumentos complementares ao controle externo institucional, pois ampliam a capacidade da população de identificar irregularidades e acionar o Tribunal, fortalecendo a accountability democrática sem substituir a atuação técnica do órgão de controle.
+* **C)** O controle social exercido pelos cidadãos sobre a Administração Pública substitui o controle externo exercido pelo Tribunal de Contas nos municípios em que os portais de transparência estiverem plenamente implementados, tornando dispensável a atuação técnica do TCE-SC nesses casos.
+* **D)** Os canais eletrônicos de denúncia instituídos pelo TCE-SC são incompatíveis com a Constituição Federal, que restringe a legitimidade para denunciar irregularidades perante o Tribunal de Contas a partidos políticos, associações e sindicatos, excluindo os cidadãos individualmente considerados dessa prerrogativa.
+* **E)** O controle social e o controle externo são modalidades excludentes de fiscalização da Administração Pública: enquanto o controle externo é exercido pelo Tribunal de Contas com base em critérios técnicos e jurídicos, o controle social exercido pelos cidadãos não produz efeitos jurídicos e não subsidia processos de fiscalização institucional. Realização
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. O item II também está inteiramente correto nos termos da NBASP 50 e da CF/88.
-> - **B)** **Correto**. O item I expressa princípio basilar da Declaração de Lima, do art. 73 da CF/88 e da NBASP 50 (autonomia orgânica, funcional e independência dos membros com garantias de magistratura). O item II reproduz garantia elementar da processualística do controle externo e princípio jurisdicional da NBASP 50 (devido processo legal sancionatório com contraditório e ampla defesa). Já o item III está incorreto porque o art. 71, § 3º, da CF/88 confere às decisões condenatórias do Tribunal de Contas eficácia de "título executivo extrajudicial", e não título judicial.
-> - **C)** **Incorreto**. O item III padece de erro técnico grave (título extrajudicial).
-> - **D)** **Incorreto**. O item I é verdadeiro e o item III é falso.
-> - **E)** **Incorreto**. O item III inviabiliza a afirmativa global.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A disponibilização de portais de dados abertos pelo TCE-SC caracteriza transparência passiva, pois a publicação...". De acordo com a teoria estudada em *1.1 Sistemas de Controle Externo, Interno e Social*, o Controle Social assegura a qualquer cidadão, partido político, associação ou sindicato legitimidade para denunciar irregularidades perante o Tribunal de Contas (art. 74, § 2º).
+> - **B)** **Correta.** Conforme fundamentado na seção *1. O Modelo Constitucional de Controle e a Responsabilidade Solidária* deste guia, controle Social: Exercido diretamente pela sociedade civil mediante instrumentos de transparência e cidadania (art. 74, § 2º). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "A transparência ativa praticada pelo TCE e os canais de denúncia abertos à sociedade civil são instrumentos...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O controle social exercido pelos cidadãos sobre a Administração Pública substitui o controle externo exercido pelo...". De acordo com a teoria estudada em *1.1 Sistemas de Controle Externo, Interno e Social*, o Controle Externo possui titularidade política no Poder Legislativo, sendo operacionalizado na plenitude técnica pelo Tribunal de Contas, órgão constitucional independente de controle da legitimidade, legalidade, economicidade, aplicação de subvenções e renúncia de receitas públicas.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os canais eletrônicos de denúncia instituídos pelo TCE-SC são incompatíveis com a Constituição Federal, que...". De acordo com a teoria estudada em *2.2 O Princípio da Simetria Constitucional Federativa e a Composição dos TCEs*, composição dos Tribunais de Contas Estaduais (TCE-GO).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O controle social e o controle externo são modalidades excludentes de fiscalização da Administração Pública...". De acordo com a teoria estudada em *1. O Modelo Constitucional de Controle e a Responsabilidade Solidária*, controle Externo: Exercido pelo Poder Legislativo com o auxílio técnico-constitucional do Tribunal de Contas competente (TCU na União, TCE nos Estados e DF, TCMs onde existentes).
 >
 > **Gabarito: B**
 
-### Teste 167
-**(FGV – TCE-PI – Auditor de Controle Externo Controle Externo Especifica de Area Comum – 2025)**
-Os Tribunais de Contas dos Estados são compostos por sete Conselheiros, dentre os quais, três são escolhidos pelo Poder Executivo (Governador do Estado) e os demais pelo Poder Legislativo (Assembleia Legislativa). Sobre as regras constitucionais de escolha de Conselheiro do TCE pelo Governador do Estado Alfa, avalie as afirmativas a seguir. I. Os critérios de antiguidade e merecimento não se aplicam na escolha do Conselheiro-Substituto para a vaga de Conselheiro Titular. II. A escolha de Procurador do Ministério Público de Contas para a vaga de Conselheiro do TCE prescinde de aprovação da Assembleia Legislativa do Estado Alfa. III. O Membro do Ministério Público de Contas deve contar com idade máxima de setenta anos para ocupar a vaga de Conselheiro do TCE. Está correto o que se afirma em
+---
 
-* **A)** I, apenas.
-* **B)** II apenas.
-* **C)** III, apenas.
-* **D)** I e III, apenas.
-* **E)** II e III, apenas.
+### Teste 166
+**(FGV – TRT da 24º Região – 2025 – Analista Judiciário - Área Administrativa - Contabilidade)**
+Maria, servidora pública federal, recebia auxílio-moradia em razão da inexistência de imóvel funcional disponível na localidade em que estava lotada, além de preencher os demais requisitos exigidos na sistemática vigente. Sobre a hipótese, considerando os balizamentos estabelecidos pela Lei nº 8.112/1990, assinale a afirmativa correta.
+
+* **A)** O auxílio tem a natureza jurídica de adicional.
+* **B)** O auxílio tem a natureza jurídica de gratificação.
+* **C)** O valor do auxílio é estabelecido apenas em regulamento.
+* **D)** O auxílio se incorpora ao vencimento de Maria, nas situações indicadas em lei.
+* **E)** No caso de falecimento de Maria, o auxílio continuará sendo pago por um mês.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *2.2 O Princípio da Simetria Constitucional Federativa e a Composição dos TCEs*, o art. 75 da Carta Magna estabelece que as normas constitucionais federais sobre fiscalização financeira e organização do Tribunal de Contas da União aplicam-se compulsoriamente aos Tribunais de Contas dos Estados, do Distrito Federal e dos Municípios.
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II apenas". De acordo com a teoria estudada em *2.2 O Princípio da Simetria Constitucional Federativa e a Composição dos TCEs*, 1 obrigatoriamente escolhido dentre os Procuradores do Ministério Público de Contas, a partir de lista tríplice de antiguidade e merecimento.
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III, apenas". De acordo com a teoria estudada em *2.2 O Princípio da Simetria Constitucional Federativa e a Composição dos TCEs*, 1 obrigatoriamente escolhido dentre os Auditores de Controle Externo (Conselheiros-Substitutos), a partir de lista tríplice de antiguidade e merecimento.
-> - **D)** **Correta.** Conforme fundamentado na seção *2.2 O Princípio da Simetria Constitucional Federativa e a Composição dos TCEs* deste guia, 3 Conselheiros indicados pelo Governador do Estado, com prévia aprovação da Assembleia Legislativa, sendo. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PI/2025) ao estabelecer que "I e III, apenas".
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *2.1 Natureza Jurídica e Autonomias dos Tribunais de Contas*, não integram a estrutura hierárquica do Poder Legislativo, tampouco do Poder Executivo ou do Judiciário. Exercem magistratura técnica de contas especializada dotada de autogoverno.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O auxílio tem a natureza jurídica de adicional". De acordo com a teoria estudada em *2.1 Natureza Jurídica e Autonomias dos Tribunais de Contas*, possuem autonomia administrativa, funcional, orçamentária e financeira, além de quadro próprio de servidores públicos efetivos e poder de iniciativa reservada para suas leis orgânicas.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O auxílio tem a natureza jurídica de gratificação". De acordo com a teoria estudada em *2.1 Natureza Jurídica e Autonomias dos Tribunais de Contas*, os Tribunais de Contas são órgãos estatais independentes, de extração estritamente constitucional.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "O valor do auxílio é estabelecido apenas em regulamento". De acordo com a teoria estudada em *2.2 O Princípio da Simetria Constitucional Federativa e a Composição dos TCEs*, 3 Conselheiros indicados pelo Governador do Estado, com prévia aprovação da Assembleia Legislativa, sendo.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O auxílio se incorpora ao vencimento de Maria, nas situações indicadas em lei". De acordo com a teoria estudada em *1.1 Sistemas de Controle Externo, Interno e Social*, o Controle Externo possui titularidade política no Poder Legislativo, sendo operacionalizado na plenitude técnica pelo Tribunal de Contas, órgão constitucional independente de controle da legitimidade, legalidade, economicidade, aplicação de subvenções e renúncia de receitas públicas.
+> - **E)** **Correta.** Conforme fundamentado na seção *1. O Modelo Constitucional de Controle e a Responsabilidade Solidária* deste guia, controle Externo: Exercido pelo Poder Legislativo com o auxílio técnico-constitucional do Tribunal de Contas competente (TCU na União, TCE nos Estados e DF, TCMs onde existentes). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT da 24º Região/2025) ao estabelecer que "No caso de falecimento de Maria, o auxílio continuará sendo pago por um mês".
 >
-> **Gabarito: D**
+> **Gabarito: E**
+
+---
+
+### Teste 167
+**(FGV – TJ/RR – 2024 – Analista Judiciario Gestao E Governanca De Tecnologia Da Informacao)**
+A maioria dos projetos de computadores modernos baseia-se em conceitos desenvolvidos por John Von Neumann. Para a execução de uma instrução, diversos componentes do sistema computacional são envolvidos, tais como processadores, barramentos, operadores lógicos e memórias. O ciclo de execução de uma instrução pode abranger várias operações, dependendo da natureza da instrução. A seguir, são apresentadas quatro etapas do ciclo de execução de uma instrução: I. A busca do código de operação na memória principal, localizado no endereço indicado pelo Ciclo de Instrução, e seu armazenamento no Registrador de Instrução. II. A Unidade de Controle comanda a execução da instrução e, se necessário, processa os dados disponíveis nos registradores. III. Caso a instrução exija, a Unidade de Controle busca o(s) dado(s) na memória e os armazena nos registradores. Esta fase se repete até que todos os dados necessários à execução sejam transferidos. IV. O Decodificador de Instrução decodifica o código de operação contido no Registrador de Instrução. A sequência correta dessas etapas, desde o início até a execução da instrução, é
+
+* **A)** III – I – IV – II.
+* **B)** I – III – IV – II.
+* **C)** I – IV – III – II.
+* **D)** III – I – II – IV.
+* **E)** III – IV – I – II.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "III – I – IV – II". De acordo com a teoria estudada em *2.1 Natureza Jurídica e Autonomias dos Tribunais de Contas*, não integram a estrutura hierárquica do Poder Legislativo, tampouco do Poder Executivo ou do Judiciário. Exercem magistratura técnica de contas especializada dotada de autogoverno.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I – III – IV – II". De acordo com a teoria estudada em *2.1 Natureza Jurídica e Autonomias dos Tribunais de Contas*, possuem autonomia administrativa, funcional, orçamentária e financeira, além de quadro próprio de servidores públicos efetivos e poder de iniciativa reservada para suas leis orgânicas.
+> - **C)** **Correta.** Conforme fundamentado na seção *2.1 Natureza Jurídica e Autonomias dos Tribunais de Contas* deste guia, os Tribunais de Contas são órgãos estatais independentes, de extração estritamente constitucional. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "I – IV – III – II".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "III – I – II – IV". De acordo com a teoria estudada em *2.2 O Princípio da Simetria Constitucional Federativa e a Composição dos TCEs*, o art. 75 da Carta Magna estabelece que as normas constitucionais federais sobre fiscalização financeira e organização do Tribunal de Contas da União aplicam-se compulsoriamente aos Tribunais de Contas dos Estados, do Distrito Federal e dos Municípios.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "III – IV – I – II". De acordo com a teoria estudada em *2.2 O Princípio da Simetria Constitucional Federativa e a Composição dos TCEs*, composição dos Tribunais de Contas Estaduais (TCE-GO).
+>
+> **Gabarito: C**
 
 ---
 
 ### Teste 168
-**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**  
-Sobre as disposições constitucionais referentes ao controle externo das entidades públicas (art. 71 da CF/88), é correto afirmar:
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
+Em uma inspeção, o controle externo do Tribunal de Contas do Estado Alfa constatou que o Município Beta direcionou recursos públicos a uma escola confessional sem fins lucrativos, prosélita da religião X, o que desagradou fiéis vinculados a outras religiões. Na situação descrita, é correto afirmar que o referido direcionamento de recursos é
 
-* **A)** O Tribunal de Contas tem competência para apreciar a legalidade de atos de admissão de pessoal a qualquer título.
-* **B)** O parecer prévio emitido sobre as contas do Governador deixará de prevalecer por decisão de dois terços da Assembleia.
-* **C)** As decisões dos Tribunais de Contas que resultem em imputação de débito ou multa têm eficácia de título executivo judicial.
-* **D)** A sustação de contratos administrativos irregulares é competência originária e direta do próprio Tribunal de Contas.
-* **E)** O controle externo exercido pelo Tribunal de Contas restringe-se exclusivamente aos aspectos contábil e de legalidade.
+* **A)** ilícito, considerando o caráter laico do Estado.
+* **B)** lícito, considerando o dever de o Estado subvencionar atividades religiosas, enquanto manifestação cultural popular.
+* **C)** lícito, caso a escola preencha os requisitos exigidos pela ordem constitucional, ainda que os recursos não sejam destinados a bolsas de estudo.
+* **D)** lícito, desde que os recursos sejam integralmente direcionados a bolsas de estudos e a escola aplique eventuais excedentes financeiros em educação.
+* **E)** ilícito, pois, embora seja possível a celebração de ajustes com as escolas confessionais, recursos públicos devem ser direcionados apenas a escolas públicas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. O art. 71, III, da CF/88 excepciona expressamente da apreciação do Tribunal de Contas as nomeações para cargo de provimento em comissão.
-> - **B)** **Correto**. Conforme o modelo federal reproduzido no âmbito estadual (art. 71, I c/c art. 31, § 2º e art. 75 da CF/88), o parecer prévio emitido pelo Tribunal de Contas sobre as contas gerais prestadas anualmente pelo Chefe do Poder Executivo somente deixará de prevalecer por deliberação de dois terços dos membros do Poder Legislativo.
-> - **C)** **Incorreto**. As decisões condenatórias têm eficácia de título executivo extrajudicial (art. 71, § 3º, CF/88).
-> - **D)** **Incorreto**. No caso de contrato, o ato de sustação é adotado diretamente pelo Congresso Nacional / Assembleia Legislativa; somente se o Legislativo não efetivar a medida em 90 dias é que o Tribunal de Contas decidirá a respeito (art. 71, §§ 1º e 2º, CF/88).
-> - **E)** **Incorreto**. O controle externo abrange a fiscalização contábil, financeira, orçamentária, operacional e patrimonial, sob os aspectos da legalidade, legitimidade e economicidade (art. 70, caput, CF/88).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ilícito, considerando o caráter laico do Estado". De acordo com a teoria estudada em *2.1 Natureza Jurídica e Autonomias dos Tribunais de Contas*, possuem autonomia administrativa, funcional, orçamentária e financeira, além de quadro próprio de servidores públicos efetivos e poder de iniciativa reservada para suas leis orgânicas.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "lícito, considerando o dever de o Estado subvencionar atividades religiosas, enquanto manifestação cultural popular". De acordo com a teoria estudada em *1.2 O Dever de Comunicação do Controle Interno e Sanção de Solidariedade (Art. 74, § 1º)*, os responsáveis pelo controle interno, ao tomarem conhecimento de qualquer irregularidade ou ilegalidade no órgão, devem dar ciência imediata ao Tribunal de Contas competente.
+> - **C)** **Correta.** Conforme fundamentado na seção *1. O Modelo Constitucional de Controle e a Responsabilidade Solidária* deste guia, o controle dos recursos públicos no Brasil é tripartite e integrado. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "lícito, caso a escola preencha os requisitos exigidos pela ordem constitucional, ainda que os recursos não sejam...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "lícito, desde que os recursos sejam integralmente direcionados a bolsas de estudos e a escola aplique eventuais...". De acordo com a teoria estudada em *2.1 Natureza Jurídica e Autonomias dos Tribunais de Contas*, os Tribunais de Contas são órgãos estatais independentes, de extração estritamente constitucional.
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "ilícito, pois, embora seja possível a celebração de ajustes com as escolas confessionais, recursos públicos devem...". De acordo com a teoria estudada em *1.1 Sistemas de Controle Externo, Interno e Social*, o Controle Externo possui titularidade política no Poder Legislativo, sendo operacionalizado na plenitude técnica pelo Tribunal de Contas, órgão constitucional independente de controle da legitimidade, legalidade, economicidade, aplicação de subvenções e renúncia de receitas públicas.
 >
-> **Gabarito: B**
+> **Gabarito: C**
+
+---
 
 ### Teste 169
-**(FGV – TCE-GO – Analista de Controle Externo Ciencias Contabeis – 2024)**
-A Constituição do Estado de Goiás dispõe sobre o Sistema de controle externo. Analise os itens a seguir: I. O controle externo a cargo da Câmara Municipal será exercido com o auxílio do TCE-GO, que emitirá parecer prévio, no prazo de sessenta dias de sua apresentação, sobre as contas mensais e anuais do Município; II. Somente por decisão de dois terços dos membros da Câmara Municipal deixará de prevalecer o parecer prévio emitido pelo TCE-GO, sobre as contas do Prefeito; III. A Câmara Municipal não julgará as contas, antes do parecer do TCE-GO, nem antes de escoado o prazo para exame dos contribuintes. Está correto o que se afirma em
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Ciências Contábeis)**
+A Lei nº 13.303/2016 estabelece que os órgãos de controle externo e interno das três esferas de governo fiscalizarão as empresas públicas e as sociedades de economia mista a eles relacionados, inclusive aquelas domiciliadas no exterior, quanto à legitimidade, à economicidade e à eficácia da aplicação de seus recursos, sob o ponto de vista contábil, financeiro, operacional e patrimonial. Acerca do mencionado tema, à luz da referida norma, é correto afirmar que
 
-* **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** I e III, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
+* **A)** as ações e deliberações do órgão ou ente de controle não podem implicar interferência na gestão das empresas públicas e das sociedades de economia mista a eles submetidas nem ingerência no exercício de suas competências ou na definição de políticas públicas.
+* **B)** é vedado que os Tribunais de Contas realizem o controle externo em relação às licitações e contratos formalizados pelas empresas públicas e sociedades de economia mista, considerando a natureza jurídica de tais entidades administrativas.
+* **C)** as gravações e filmagens existentes de reuniões, ordinárias ou extraordinárias, dos conselhos de administração ou fiscal das empresas públicas e das sociedades de economia mista, não poderão ser disponibilizados para os órgãos de controle, no âmbito dos trabalhos de auditoria.
+* **D)** o exercício da supervisão por vinculação da empresa pública ou da sociedade de economia mista, pelo órgão a que se vincula, enseja necessariamente a redução da autonomia conferida pela lei específica que autorizou a criação da entidade supervisionada ou inerente a sua natureza, autorizando, assim, a ingerência do supervisor em sua administração e funcionamento.
+* **E)** para a realização da aludida atividade fiscalizatória, os órgãos de controle deverão ter acesso às informações e aos documentos necessários à realização dos trabalhos, ressalvados aqueles classificados como sigilosos pela empresa pública ou pela sociedade de economia mista, nos termos da legislação de regência.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *1. O Modelo Constitucional de Controle e a Responsabilidade Solidária* deste guia, controle Externo: Exercido pelo Poder Legislativo com o auxílio técnico-constitucional do Tribunal de Contas competente (TCU na União, TCE nos Estados e DF, TCMs onde existentes). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "I, apenas".
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *2.2 O Princípio da Simetria Constitucional Federativa e a Composição dos TCEs*, composição dos Tribunais de Contas Estaduais (TCE-GO).
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *2.1 Natureza Jurídica e Autonomias dos Tribunais de Contas*, os Tribunais de Contas são órgãos estatais independentes, de extração estritamente constitucional.
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *2.1 Natureza Jurídica e Autonomias dos Tribunais de Contas*, não integram a estrutura hierárquica do Poder Legislativo, tampouco do Poder Executivo ou do Judiciário. Exercem magistratura técnica de contas especializada dotada de autogoverno.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *2.1 Natureza Jurídica e Autonomias dos Tribunais de Contas*, possuem autonomia administrativa, funcional, orçamentária e financeira, além de quadro próprio de servidores públicos efetivos e poder de iniciativa reservada para suas leis orgânicas.
+> - **A)** **Correta.** Conforme fundamentado na seção *1.1 Sistemas de Controle Externo, Interno e Social* deste guia, o Controle Externo possui titularidade política no Poder Legislativo, sendo operacionalizado na plenitude técnica pelo Tribunal de Contas, órgão constitucional independente de controle da legitimidade, legalidade, economicidade, aplicação de subvenções e renúncia de receitas públicas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "as ações e deliberações do órgão ou ente de controle não podem implicar interferência na gestão das empresas...".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é vedado que os Tribunais de Contas realizem o controle externo em relação às licitações e contratos formalizados...". De acordo com a teoria estudada em *2.1 Natureza Jurídica e Autonomias dos Tribunais de Contas*, os Tribunais de Contas são órgãos estatais independentes, de extração estritamente constitucional.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as gravações e filmagens existentes de reuniões, ordinárias ou extraordinárias, dos conselhos de administração ou...". De acordo com a teoria estudada em *1.1 Sistemas de Controle Externo, Interno e Social*, o Controle Interno atua no seio de cada estrutura orgânica para avaliar o cumprimento das metas do PPA, comprovar a legalidade da gestão orçamentária e apoiar o controle externo no exercício de sua missão institucional (art. 74, I a IV).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o exercício da supervisão por vinculação da empresa pública ou da sociedade de economia mista, pelo órgão a que se...". De acordo com a teoria estudada em *2.1 Natureza Jurídica e Autonomias dos Tribunais de Contas*, possuem autonomia administrativa, funcional, orçamentária e financeira, além de quadro próprio de servidores públicos efetivos e poder de iniciativa reservada para suas leis orgânicas.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "para a realização da aludida atividade fiscalizatória, os órgãos de controle deverão ter acesso às informações e...". De acordo com a teoria estudada em *1. O Modelo Constitucional de Controle e a Responsabilidade Solidária*, controle Social: Exercido diretamente pela sociedade civil mediante instrumentos de transparência e cidadania (art. 74, § 2º).
 >
 > **Gabarito: A**
 
 ---
 
 ### Teste 170
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Gestao Governamental – 2024)**
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Gestão Governamental)**
 O recente fenômeno relacionado aos órgãos constitucionais autônomos faz com que, embora inseridos na organização dos poderes, esses órgãos não se enfeixem nos três blocos orgânicos clássicos, e, sim, ao lado deles. O Tribunal de Contas é definido como “órgão especial” de destaque constitucional, possuindo caráter “sui generis”. (GUERRA, Evandro Martins. Controle Externo da Administração Pública. Ed. Forum, 2019, p. 168) O autor discorre sobre a natureza jurídica dos Tribunais de Contas e destaca que, dessa natureza, decorrem algumas características peculiares. Avalie se essas características dos Tribunais de Contas incluem: I. são órgãos híbridos, com função de controle externo formada por distintas competências de caráter técnico. II. possuem hierarquia própria e independente, apartada dos poderes. III. seus membros são equiparados aos do Poder Judiciário, possuindo as mesmas garantias, prerrogativas e impedimentos. IV. possuem iniciativa legislativa própria e competência normativa reguladora específica. Estão corretas:
 
 * **A)** II, III e IV, somente.
@@ -260,7 +259,7 @@ O recente fenômeno relacionado aos órgãos constitucionais autônomos faz com 
 > - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, III e IV, somente". De acordo com a teoria estudada em *2.1 Natureza Jurídica e Autonomias dos Tribunais de Contas*, os Tribunais de Contas são órgãos estatais independentes, de extração estritamente constitucional.
 > - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e IV, somente". De acordo com a teoria estudada em *2.2 O Princípio da Simetria Constitucional Federativa e a Composição dos TCEs*, o art. 75 da Carta Magna estabelece que as normas constitucionais federais sobre fiscalização financeira e organização do Tribunal de Contas da União aplicam-se compulsoriamente aos Tribunais de Contas dos Estados, do Distrito Federal e dos Municípios.
 > - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, II e IV, somente". De acordo com a teoria estudada em *2.1 Natureza Jurídica e Autonomias dos Tribunais de Contas*, não integram a estrutura hierárquica do Poder Legislativo, tampouco do Poder Executivo ou do Judiciário. Exercem magistratura técnica de contas especializada dotada de autogoverno.
-> - **D)** **Correta.** Conforme fundamentado na seção *2.1 Natureza Jurídica e Autonomias dos Tribunais de Contas* deste guia, possuem autonomia administrativa, funcional, orçamentária e financeira, além de quadro próprio de servidores públicos efetivos e poder de iniciativa reservada para suas leis orgânicas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "I, II, III e IV".
+> - **D)** **Correta.** Conforme fundamentado na seção *2.1 Natureza Jurídica e Autonomias dos Tribunais de Contas* deste guia, possuem autonomia administrativa, funcional, orçamentária e financeira, além de quadro próprio de servidores públicos efetivos e poder de iniciativa reservada para suas leis orgânicas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "I, II, III e IV".
 > - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, II e III, somente". De acordo com a teoria estudada em *1.1 Sistemas de Controle Externo, Interno e Social*, o Controle Externo possui titularidade política no Poder Legislativo, sendo operacionalizado na plenitude técnica pelo Tribunal de Contas, órgão constitucional independente de controle da legitimidade, legalidade, economicidade, aplicação de subvenções e renúncia de receitas públicas.
 >
 > **Gabarito: D**
@@ -268,120 +267,122 @@ O recente fenômeno relacionado aos órgãos constitucionais autônomos faz com 
 ---
 
 ### Teste 171
-**(FGV – TCE-GO – Analista de Controle Externo Ciencias Contabeis – 2024)**
-Certo Tribunal de Contas, no âmbito de sua competência, realizou uma tomada de contas especial, para fins de verificar a regularidade no cumprimento de determinado convênio interfederativo de repasse de verbas e promover a responsabilização pessoal dos envolvidos, dentre os quais o prefeito do Município Alfa. Considerando as disposições constitucionais acerca do controle exercido pelas Cortes de Contas e a orientação do Supremo Tribunal Federal acerca do tema, é correto afirmar que, em relação à mencionada tomada de contas especial
+**(FGV – TCE/PI – 2025 – Auditor de Controle Externo - Controle Externo - Específica de Área Comum)**
+Em razão da prática de ato danoso ao erário, o TCE-PI aplicou multa e imputou débito a João, gestor de uma autarquia de município jurisdicionado àquela Corte de Contas. A decisão do TCE-PI que resultou na imputação de débito a João tem natureza de
 
-* **A)** não é possível que o Tribunal de Contas aprecie condutas e gastos realizados pelo prefeito, considerando que a Constituição determina que o julgamento das contas do Chefe do Poder Executivo deve ser realizado pela respectiva Casa Legislativa.
-* **B)** cabe ao Tribunal de Contas apenas apreciar a regularidade dos gastos realizados pelo prefeito, mediante a elaboração de parecer, cuja conclusão apenas deixa de prevalecer pela votação de 2/3 (dois terços) da Câmara de Vereadores.
-* **C)** deve aplicar as sanções pertinentes ao prefeito, em decorrência da apuração de irregularidades no convênio em questão, considerando ser o órgão responsável pelo julgamento anual das contas do Chefe do Poder Executivo.
-* **D)** não pode ser compreendida como atribuição autônoma do Tribunal de Contas, de modo que eventual aplicação de penalidade ao Chefe do Poder Executivo, em decorrência de irregularidades no convênio em questão, deve ser submetida à apreciação da Casa Legislativa.
-* **E)** pode promover a condenação administrativa do Chefe do Poder Executivo, quando identificada a responsabilidade pessoal em face de irregularidades no cumprimento do convênio em questão, sem necessidade de posterior julgamento ou aprovação do ato pelo respectivo Poder Legislativo.
+* **A)** dívida ativa.
+* **B)** dívida tributária.
+* **C)** decisão jurisdicional.
+* **D)** título de crédito judicial.
+* **E)** título executivo extrajudicial.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *2.1 Natureza Jurídica e Autonomias dos Tribunais de Contas* deste guia, não integram a estrutura hierárquica do Poder Legislativo, tampouco do Poder Executivo ou do Judiciário. Exercem magistratura técnica de contas especializada dotada de autogoverno. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "não é possível que o Tribunal de Contas aprecie condutas e gastos realizados pelo prefeito, considerando que a...".
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "cabe ao Tribunal de Contas apenas apreciar a regularidade dos gastos realizados pelo prefeito, mediante a...". De acordo com a teoria estudada em *1. O Modelo Constitucional de Controle e a Responsabilidade Solidária*, controle Social: Exercido diretamente pela sociedade civil mediante instrumentos de transparência e cidadania (art. 74, § 2º).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "deve aplicar as sanções pertinentes ao prefeito, em decorrência da apuração de irregularidades no convênio em...". De acordo com a teoria estudada em *1.1 Sistemas de Controle Externo, Interno e Social*, o Controle Externo possui titularidade política no Poder Legislativo, sendo operacionalizado na plenitude técnica pelo Tribunal de Contas, órgão constitucional independente de controle da legitimidade, legalidade, economicidade, aplicação de subvenções e renúncia de receitas públicas.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não pode ser compreendida como atribuição autônoma do Tribunal de Contas, de modo que eventual aplicação de...". De acordo com a teoria estudada em *1.1 Sistemas de Controle Externo, Interno e Social*, o Controle Social assegura a qualquer cidadão, partido político, associação ou sindicato legitimidade para denunciar irregularidades perante o Tribunal de Contas (art. 74, § 2º).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pode promover a condenação administrativa do Chefe do Poder Executivo, quando identificada a responsabilidade...". De acordo com a teoria estudada em *1. O Modelo Constitucional de Controle e a Responsabilidade Solidária*, controle Externo: Exercido pelo Poder Legislativo com o auxílio técnico-constitucional do Tribunal de Contas competente (TCU na União, TCE nos Estados e DF, TCMs onde existentes).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "dívida ativa". De acordo com a teoria estudada em *1. O Modelo Constitucional de Controle e a Responsabilidade Solidária*, controle Interno: Mantido de forma integrada por cada um dos Poderes (Executivo, Legislativo e Judiciário) e pelo Ministério Público.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "dívida tributária". De acordo com a teoria estudada em *2.2 O Princípio da Simetria Constitucional Federativa e a Composição dos TCEs*, composição dos Tribunais de Contas Estaduais (TCE-GO).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "decisão jurisdicional". De acordo com a teoria estudada em *2.1 Natureza Jurídica e Autonomias dos Tribunais de Contas*, os Tribunais de Contas são órgãos estatais independentes, de extração estritamente constitucional.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "título de crédito judicial". De acordo com a teoria estudada em *2.1 Natureza Jurídica e Autonomias dos Tribunais de Contas*, possuem autonomia administrativa, funcional, orçamentária e financeira, além de quadro próprio de servidores públicos efetivos e poder de iniciativa reservada para suas leis orgânicas.
+> - **E)** **Correta.** Conforme fundamentado na seção *2.1 Natureza Jurídica e Autonomias dos Tribunais de Contas* deste guia, não integram a estrutura hierárquica do Poder Legislativo, tampouco do Poder Executivo ou do Judiciário. Exercem magistratura técnica de contas especializada dotada de autogoverno. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PI/2025) ao estabelecer que "título executivo extrajudicial".
 >
-> **Gabarito: A**
+> **Gabarito: E**
 
 ---
 
 ### Teste 172
-**(FGV – TCE-GO – Analista de Controle Externo Juridica – 2024)**
-Em relação ao controle orçamentário, assinale V para a afirmativa verdadeira e F para a falsa. ( ) A fiscalização orçamentária, quanto à legalidade, legitimidade, economicidade, aplicação das subvenções e renúncia de receitas, será exercida pelo Congresso Nacional, com o auxílio do Tribunal de Contas, mediante controle externo, e pelo sistema de controle interno de cada Poder. ( ) A Constituição da República contempla comando expresso de espelhamento obrigatório, nos Estados, no Distrito Federal e nos Municípios, do modelo nela estabelecido de controle externo da higidez orçamentária dos atos administrativos, sendo materialmente inconstitucional a norma de regência da organização ou funcionamento de Tribunal de Contas estadual divorciada do modelo federal de controle externo das contas públicas. ( ) É vedado ao Tribunal de Contas realizar, por iniciativa própria, inspeções e auditorias de natureza orçamentária, nas unidades administrativas dos Poderes Legislativo, Executivo e Judiciário. As afirmativas são, respectivamente,
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Ciências Contábeis)**
+No exercício da atribuição de avaliar as prestações de contas realizadas no âmbito das parcerias formalizadas com fulcro na Lei nº 13.019/2014, a autoridade competente deparou-se com as seguintes situações: I. Omissão no dever de prestar contas; II. Descumprimento injustificado dos objetivos e metas estabelecidos no plano de trabalho; III. Danos ao erário decorrente de ato de gestão ilegítimo ou antieconômico. Diante dessa situação hipotética, considerando que foram comprovadas as aludidas circunstâncias, é correto afirmar que deve ser avaliado regular, com ressalvas, o cenário descrito
 
-* **A)** F – V – F.
-* **B)** F – V – V.
-* **C)** V – F – F.
-* **D)** V – V – F.
-* **E)** F – F – V.
+* **A)** no item I, apenas.
+* **B)** no item II, apenas.
+* **C)** nos itens I e III, apenas.
+* **D)** em todos os itens.
+* **E)** em nenhum dos itens.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – V – F". De acordo com a teoria estudada em *2.2 O Princípio da Simetria Constitucional Federativa e a Composição dos TCEs*, o art. 75 da Carta Magna estabelece que as normas constitucionais federais sobre fiscalização financeira e organização do Tribunal de Contas da União aplicam-se compulsoriamente aos Tribunais de Contas dos Estados, do Distrito Federal e dos Municípios.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – V – V". De acordo com a teoria estudada em *2.1 Natureza Jurídica e Autonomias dos Tribunais de Contas*, possuem autonomia administrativa, funcional, orçamentária e financeira, além de quadro próprio de servidores públicos efetivos e poder de iniciativa reservada para suas leis orgânicas.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – F – F". De acordo com a teoria estudada em *1. O Modelo Constitucional de Controle e a Responsabilidade Solidária*, controle Externo: Exercido pelo Poder Legislativo com o auxílio técnico-constitucional do Tribunal de Contas competente (TCU na União, TCE nos Estados e DF, TCMs onde existentes).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – V – F". De acordo com a teoria estudada em *2.1 Natureza Jurídica e Autonomias dos Tribunais de Contas*, não integram a estrutura hierárquica do Poder Legislativo, tampouco do Poder Executivo ou do Judiciário. Exercem magistratura técnica de contas especializada dotada de autogoverno.
-> - **E)** **Correta.** Conforme fundamentado na seção *1.1 Sistemas de Controle Externo, Interno e Social* deste guia, o Controle Externo possui titularidade política no Poder Legislativo, sendo operacionalizado na plenitude técnica pelo Tribunal de Contas, órgão constitucional independente de controle da legitimidade, legalidade, economicidade, aplicação de subvenções e renúncia de receitas públicas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "F – F – V".
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "no item I, apenas". De acordo com a teoria estudada em *1.2 O Dever de Comunicação do Controle Interno e Sanção de Solidariedade (Art. 74, § 1º)*, sanção por Omissão: Se o titular do controle interno silenciar dolosa ou culposamente, responderá pessoal e solidariamente com o gestor ímprobo pelo dano apurado e pelas sanções cominadas pelo Tribunal de Contas.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "no item II, apenas". De acordo com a teoria estudada em *1.2 O Dever de Comunicação do Controle Interno e Sanção de Solidariedade (Art. 74, § 1º)*, os responsáveis pelo controle interno, ao tomarem conhecimento de qualquer irregularidade ou ilegalidade no órgão, devem dar ciência imediata ao Tribunal de Contas competente.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "nos itens I e III, apenas". De acordo com a teoria estudada em *1. O Modelo Constitucional de Controle e a Responsabilidade Solidária*, controle Externo: Exercido pelo Poder Legislativo com o auxílio técnico-constitucional do Tribunal de Contas competente (TCU na União, TCE nos Estados e DF, TCMs onde existentes).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "em todos os itens". De acordo com a teoria estudada em *2.1 Natureza Jurídica e Autonomias dos Tribunais de Contas*, os Tribunais de Contas são órgãos estatais independentes, de extração estritamente constitucional.
+> - **E)** **Correta.** Conforme fundamentado na seção *1.1 Sistemas de Controle Externo, Interno e Social* deste guia, o Controle Interno atua no seio de cada estrutura orgânica para avaliar o cumprimento das metas do PPA, comprovar a legalidade da gestão orçamentária e apoiar o controle externo no exercício de sua missão institucional (art. 74, I a IV). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "em nenhum dos itens".
 >
 > **Gabarito: E**
 
 ---
 
 ### Teste 173
-**(FGV – TCE-PI – Auditor de Controle Externo Controle Externo Especifica de Area Comum – 2025)**
-Sobre a organização, os papéis e as funções constitucionais e jurisprudenciais atribuídas aos Tribunais de Contas, avalie as afirmativas a seguir. I. Na ausência do Ministério Público Especial, de atuação específica no Tribunal de Contas Estadual, é constitucional o dispositivo da Lei Orgânica dessa Corte que possibilita a atuação de promotores de justiça para suprirem a inexistência de procuradores de contas. II. Tendo em vista o princípio da simetria, que orienta a organização e a estruturação dos Tribunais de Contas, é constitucional a atribuição às Cortes de Contas estaduais de competência para homologação dos cálculos das cotas do ICMS devidas aos Municípios. III. É possível a aprovação de Emenda à Constituição estadual, de iniciativa parlamentar, que tenha por finalidade a extinção de Tribunal de Contas responsável pela fiscalização dos Municípios. Está correto o que se afirma em
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Direito)**
+Em decorrência de ampla mobilização popular, foi aprovada no último ano, a partir de iniciativa da maioria absoluta dos Deputados Estaduais, a Emenda Constitucional nº X (ECX) à Constituição do Estado Alfa, que vinculou 18% (dezoito por cento) dos recursos orçamentários anuais ao sistema estadual de saúde. Apesar do acolhimento popular, um legitimado submeteu a ECX ao controle concentrado de constitucionalidade. O órgão jurisdicional competente decidiu corretamente que a ECX é
 
-* **A)** I, apenas.
-* **B)** II, apenas.
-* **C)** III, apenas.
-* **D)** I e II, apenas.
-* **E)** I e III, apenas.
+* **A)** constitucional, pois mantém uma relação de simetria com previsão expressa da Constituição da República.
+* **B)** inconstitucional, tendo incursionado em temática própria da lei e caminhado em norte contrário à necessidade de reavaliação dos índices a cada quinquênio.
+* **C)** constitucional, considerando que a vedação de vinculação da receita pública a fundo não é aplicável, em se tratando de recursos destinados a ações e serviços públicos de saúde.
+* **D)** constitucional, pois a sistemática estabelecida na Constituição da República assegura o nível mínimo de proteção do direito à saúde, que pode ser ampliado a nível estadual.
+* **E)** inconstitucional, considerando que os percentuais mínimos de vinculação de receitas orçamentárias, a ações e serviços de saúde, estão definidos na Constituição da República em patamares distintos dos estabelecidos em ECX.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *2.2 O Princípio da Simetria Constitucional Federativa e a Composição dos TCEs*, 1 obrigatoriamente escolhido dentre os Procuradores do Ministério Público de Contas, a partir de lista tríplice de antiguidade e merecimento.
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas". De acordo com a teoria estudada em *2.2 O Princípio da Simetria Constitucional Federativa e a Composição dos TCEs*, composição dos Tribunais de Contas Estaduais (TCE-GO).
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III, apenas". De acordo com a teoria estudada em *2.2 O Princípio da Simetria Constitucional Federativa e a Composição dos TCEs*, 3 Conselheiros indicados pelo Governador do Estado, com prévia aprovação da Assembleia Legislativa, sendo.
-> - **D)** **Correta.** Conforme fundamentado na seção *2.2 O Princípio da Simetria Constitucional Federativa e a Composição dos TCEs* deste guia, o art. 75 da Carta Magna estabelece que as normas constitucionais federais sobre fiscalização financeira e organização do Tribunal de Contas da União aplicam-se compulsoriamente aos Tribunais de Contas dos Estados, do Distrito Federal e dos Municípios. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PI/2025) ao estabelecer que "I e II, apenas".
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *2.1 Natureza Jurídica e Autonomias dos Tribunais de Contas*, possuem autonomia administrativa, funcional, orçamentária e financeira, além de quadro próprio de servidores públicos efetivos e poder de iniciativa reservada para suas leis orgânicas.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "constitucional, pois mantém uma relação de simetria com previsão expressa da Constituição da República". De acordo com a teoria estudada em *2.2 O Princípio da Simetria Constitucional Federativa e a Composição dos TCEs*, composição dos Tribunais de Contas Estaduais (TCE-GO).
+> - **B)** **Correta.** Conforme fundamentado na seção *2.2 O Princípio da Simetria Constitucional Federativa e a Composição dos TCEs* deste guia, o plenário é composto por 7 Conselheiros (ao contrário do TCU, que possui 9 Ministros). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "inconstitucional, tendo incursionado em temática própria da lei e caminhado em norte contrário à necessidade de...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "constitucional, considerando que a vedação de vinculação da receita pública a fundo não é aplicável, em se...". De acordo com a teoria estudada em *1. O Modelo Constitucional de Controle e a Responsabilidade Solidária*, o controle dos recursos públicos no Brasil é tripartite e integrado.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "constitucional, pois a sistemática estabelecida na Constituição da República assegura o nível mínimo de proteção...". De acordo com a teoria estudada em *1.1 Sistemas de Controle Externo, Interno e Social*, o Controle Social assegura a qualquer cidadão, partido político, associação ou sindicato legitimidade para denunciar irregularidades perante o Tribunal de Contas (art. 74, § 2º).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "inconstitucional, considerando que os percentuais mínimos de vinculação de receitas orçamentárias, a ações e...". De acordo com a teoria estudada em *1.1 Sistemas de Controle Externo, Interno e Social*, o Controle Externo possui titularidade política no Poder Legislativo, sendo operacionalizado na plenitude técnica pelo Tribunal de Contas, órgão constitucional independente de controle da legitimidade, legalidade, economicidade, aplicação de subvenções e renúncia de receitas públicas.
+>
+> **Gabarito: B**
+
+---
+
+### Teste 174
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Direito)**
+Determinada lei estadual amplia as possibilidades de aposentadoria voluntária dos servidores locais, com a opção de retiro precoce aos 55 anos de idade, sem qualquer previsão adicional de reajuste no plano de custeio do sistema previdenciário local. Diante do cenário hipotético, pode-se afirmar que a medida legislativa é:
+
+* **A)** constitucional, desde que extensível a todos os servidores estaduais.
+* **B)** inconstitucional, pois somente a União Federal pode legislar sobre previdência social de servidores.
+* **C)** constitucional, desde que a lei local tenha sido aprovada no rito estabelecido pela Assembleia Legislativa.
+* **D)** inconstitucional, por ampliar benefício previdenciário sem fonte de custeio.
+* **E)** constitucional, desde que permita o retiro precoce de mulheres em idade mínima inferior.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "constitucional, desde que extensível a todos os servidores estaduais". De acordo com a teoria estudada em *2.2 O Princípio da Simetria Constitucional Federativa e a Composição dos TCEs*, composição dos Tribunais de Contas Estaduais (TCE-GO).
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "inconstitucional, pois somente a União Federal pode legislar sobre previdência social de servidores". De acordo com a teoria estudada em *2.2 O Princípio da Simetria Constitucional Federativa e a Composição dos TCEs*, o art. 75 da Carta Magna estabelece que as normas constitucionais federais sobre fiscalização financeira e organização do Tribunal de Contas da União aplicam-se compulsoriamente aos Tribunais de Contas dos Estados, do Distrito Federal e dos Municípios.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "constitucional, desde que a lei local tenha sido aprovada no rito estabelecido pela Assembleia Legislativa". De acordo com a teoria estudada em *2.2 O Princípio da Simetria Constitucional Federativa e a Composição dos TCEs*, 4 Conselheiros indicados e eleitos pela Assembleia Legislativa.
+> - **D)** **Correta.** Conforme fundamentado na seção *2.1 Natureza Jurídica e Autonomias dos Tribunais de Contas* deste guia, possuem autonomia administrativa, funcional, orçamentária e financeira, além de quadro próprio de servidores públicos efetivos e poder de iniciativa reservada para suas leis orgânicas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "inconstitucional, por ampliar benefício previdenciário sem fonte de custeio".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "constitucional, desde que permita o retiro precoce de mulheres em idade mínima inferior". De acordo com a teoria estudada em *2.2 O Princípio da Simetria Constitucional Federativa e a Composição dos TCEs*, 3 Conselheiros indicados pelo Governador do Estado, com prévia aprovação da Assembleia Legislativa, sendo.
 >
 > **Gabarito: D**
 
 ---
 
-### Teste 174
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**  
-A Lei nº 16.168, de 11 de dezembro de 2007, estabelece a Lei Orgânica do Tribunal de Contas do Estado de Goiás (LOTCE-GO), disciplinando sua jurisdição, competência e processo. À luz da LOTCE-GO, é correto afirmar que:
-
-* **A)** os responsáveis por contas de gestão que causarem prejuízo ao erário respondem solidariamente com seus subordinados.
-* **B)** a decisão do Tribunal de Contas que julgar regulares com ressalva as contas confere quitação irrestrita ao responsável.
-* **C)** o Tribunal de Contas é órgão subordinado administrativamente à Mesa Diretora da Assembleia Legislativa goiana.
-* **D)** as certidões emitidas pelo TCE-GO sobre imputação de débito dependem de cobrança privativa pelo próprio Tribunal.
-* **E)** a fiscalização contábil exercida pelo TCE-GO alcança apenas os recursos oriundos do Tesouro do Estado de Goiás.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correto**. Nos termos da LOTCE-GO (Lei Estadual nº 16.168/2007) e do art. 71, II, da CF/88, aqueles que derem causa a perda, extravio ou outra irregularidade de que resulte dano ao erário público estadual respondem civilmente pelo dever de ressarcimento, caracterizando-se a responsabilidade solidária de todos os agentes públicos que concorreram para a consumação do ato lesivo.
-> - **B)** **Incorreto**. As contas julgadas regulares com ressalva conferem quitação com determinação de providências (quitação condicionada/parcial, e não plena).
-> - **C)** **Incorreto**. O TCE-GO possui autonomia funcional e orçamentária constitucional.
-> - **D)** **Incorreto**. A execução do título cabe à Fazenda Pública / Procuradoria-Geral do Estado.
-> - **E)** **Incorreto**. Alcança recursos estaduais, fundos, convênios e quaisquer valores geridos por entidades sujeitas à sua jurisdição.
->
-> **Gabarito: A**
-
 ### Teste 175
-**(FGV – TCE-GO – Analista de Controle Externo Ciencias Contabeis – 2024)**
-A NBASP 10 tem como objetivo definir, no nível institucional, os princípios relacionados ao pré-requisito da independência e as diretrizes que devem reger a atuação independente dos Tribunais de Contas. Sobre a NBASP 10 - Independência dos Tribunais de Contas, analise os itens a seguir: I. O auxílio prestado pelos Tribunais de Contas ao Poder Legislativo, conforme art. 71 da Constituição Federal, representa subordinação hierárquica. II. Os Tribunais de Contas somente podem exercer suas funções com objetividade quando são independentes das entidades fiscalizadas e estão protegidos contra influências externas. III. Embora se reconheça que as instituições do Estado não podem ser totalmente independentes, os Tribunais de Contas devem exercer sua independência funcional e organizacional no cumprimento de suas competências constitucionais. Está correto o que se afirma em
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Jurídica)**
+Em decorrência da verificação em processo de tomada especial de contas de fraude à lei e confusão patrimonial entre sociedade e sócios da sociedade Ômega, certo Tribunal de Contas determinou, após o devido processo administrativo, a desconsideração da personalidade jurídica da mencionada sociedade, viabilizando que a imposição de ressarcimento ao erário alcançasse o patrimônio de seus sócios, para fins de resguardar o resultado útil do processo, mediante a garantia do contraditório e da ampla defesa. Diante dessa situação hipotética, à luz da orientação do Supremo Tribunal Federal, é correto afirmar que a medida determinada no âmbito do controle realizado pela Corte de Contas é
 
-* **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** I e III, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
+* **A)** inconstitucional, na medida em que viola a propriedade privada e a livre iniciativa.
+* **B)** constitucional, por se lhe reconhecer todos os poderes inerentes à atividade jurisdicional.
+* **C)** inconstitucional, considerando que não está especificada dentre as suas atribuições na forma em que delimitada na Constituição.
+* **D)** inconstitucional, pois tal desconsideração da personalidade jurídica apenas poderia ser determinada pelo Poder Judiciário.
+* **E)** constitucional, porque abarcada pelo poder geral de cautela que lhe é reconhecido com base na teoria dos poderes implícitos. Direito Civil
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *2.1 Natureza Jurídica e Autonomias dos Tribunais de Contas*, possuem autonomia administrativa, funcional, orçamentária e financeira, além de quadro próprio de servidores públicos efetivos e poder de iniciativa reservada para suas leis orgânicas.
-> - **B)** **Correta.** Conforme fundamentado na seção *2.1 Natureza Jurídica e Autonomias dos Tribunais de Contas* deste guia, não integram a estrutura hierárquica do Poder Legislativo, tampouco do Poder Executivo ou do Judiciário. Exercem magistratura técnica de contas especializada dotada de autogoverno. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "I e II, apenas".
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *2.2 O Princípio da Simetria Constitucional Federativa e a Composição dos TCEs*, o art. 75 da Carta Magna estabelece que as normas constitucionais federais sobre fiscalização financeira e organização do Tribunal de Contas da União aplicam-se compulsoriamente aos Tribunais de Contas dos Estados, do Distrito Federal e dos Municípios.
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *1. O Modelo Constitucional de Controle e a Responsabilidade Solidária*, controle Externo: Exercido pelo Poder Legislativo com o auxílio técnico-constitucional do Tribunal de Contas competente (TCU na União, TCE nos Estados e DF, TCMs onde existentes).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *1.1 Sistemas de Controle Externo, Interno e Social*, o Controle Externo possui titularidade política no Poder Legislativo, sendo operacionalizado na plenitude técnica pelo Tribunal de Contas, órgão constitucional independente de controle da legitimidade, legalidade, economicidade, aplicação de subvenções e renúncia de receitas públicas.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "inconstitucional, na medida em que viola a propriedade privada e a livre iniciativa". De acordo com a teoria estudada em *2.1 Natureza Jurídica e Autonomias dos Tribunais de Contas*, possuem autonomia administrativa, funcional, orçamentária e financeira, além de quadro próprio de servidores públicos efetivos e poder de iniciativa reservada para suas leis orgânicas.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "constitucional, por se lhe reconhecer todos os poderes inerentes à atividade jurisdicional". De acordo com a teoria estudada em *1. O Modelo Constitucional de Controle e a Responsabilidade Solidária*, controle Interno: Mantido de forma integrada por cada um dos Poderes (Executivo, Legislativo e Judiciário) e pelo Ministério Público.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "inconstitucional, considerando que não está especificada dentre as suas atribuições na forma em que delimitada na...". De acordo com a teoria estudada em *2.2 O Princípio da Simetria Constitucional Federativa e a Composição dos TCEs*, 1 obrigatoriamente escolhido dentre os Procuradores do Ministério Público de Contas, a partir de lista tríplice de antiguidade e merecimento.
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "inconstitucional, pois tal desconsideração da personalidade jurídica apenas poderia ser determinada pelo Poder...". De acordo com a teoria estudada em *2.1 Natureza Jurídica e Autonomias dos Tribunais de Contas*, não integram a estrutura hierárquica do Poder Legislativo, tampouco do Poder Executivo ou do Judiciário. Exercem magistratura técnica de contas especializada dotada de autogoverno.
+> - **E)** **Correta.** Conforme fundamentado na seção *1. O Modelo Constitucional de Controle e a Responsabilidade Solidária* deste guia, controle Social: Exercido diretamente pela sociedade civil mediante instrumentos de transparência e cidadania (art. 74, § 2º). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "constitucional, porque abarcada pelo poder geral de cautela que lhe é reconhecido com base na teoria dos poderes...".
 >
-> **Gabarito: B**
+> **Gabarito: E**
 
 ---
 

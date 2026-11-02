@@ -94,50 +94,50 @@ flowchart TD
 ---
 
 ### Teste 440
-**(FGV – TJ-SC – Analista Administrativo – 2026)**
-A empresa ABC encomendou uma análise de sua cultura organizacional, comparando-a aos modelos identificados por William G. Ouchi. O diagnóstico revelou os seguintes traços: emprego de longo prazo; avaliação lenta e qualitativa; trajetória de carreira moderadamente abrangente; controle implícito e informal; tomada de decisão em grupo e consensual; responsabilidade individual; e preocupação holística com as pessoas. Considerando os sete pontos de comparação desenvolvidos por Ouchi, o diagnóstico apresentado caracteriza a empresa ABC como empresa
+**(FGV – TRF/1 – 2024 – Analista Judiciario Area Apoio Especializado Especialidade Suporte Em Tecnologia Da Informacao)**
+Para ministrar um treinamento, Ana precisará durante a apresentação: • ver o slide atual, o slide seguinte e anotações do orador; • ver o tempo atual para ajudá-la a definir o ritmo de sua apresentação; • escolher o ícone da caneta de anotações para desenhar na tela em tempo real, ou escolher um apontador laser; • escolher a lupa para aumentar o zoom em uma determinada parte de um slide. Para isso, no Microsoft Power Point, Ana deve:
 
-* **A)** norte-americana típica.
-* **B)** norte-americana Tipo Z.
-* **C)** japonesa típica.
-* **D)** norte-americana Tipo J.
-* **E)** híbrida transacional.
+* **A)** executar narrações;
+* **B)** exibir slide mestre;
+* **C)** configurar transições;
+* **D)** mostrar controles de mídias;
+* **E)** usar modo de exibição do apresentador.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *D) Etapa 4: Avaliação dos Resultados (Modelo de Donald Kirkpatrick)* deste guia, nível 4: Resultados / Impacto Organizacional: Avalia os impactos macroinstitucionais obtidos pelo órgão (redução de custos, agilidade processual). — Longo prazo (semestral ou anual). — Indicadores de desempenho, relatórios gerenciais e metas institucionais atingidas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-SC/2026) ao estabelecer que "norte-americana típica".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "norte-americana Tipo Z". De acordo com a teoria estudada em *4. Aprendizagem Organizacional e as Cinco Disciplinas de Peter Senge*, a aprendizagem organizacional ocorre quando o aprendizado individual e coletivo é incorporado aos processos, valores, estruturas e cultura permanente da organização.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "japonesa típica". De acordo com a teoria estudada em *A) Etapa 1: Diagnóstico / Levantamento das Necessidades de Treinamento (LNT)*, análise Organizacional: examina a missão, a visão de futuro, os planos estratégicos e as metas globais do órgão para identificar quais competências coletivas são essenciais.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "norte-americana Tipo J". De acordo com a teoria estudada em *A) A Pirâmide DIKW (Hierarquia do Saber)*, conhecimento: Informação processada pela mente humana, combinada com experiência, valores e intuição, capacitando o indivíduo para a tomada de decisão (ex.: "Auditor identifica irregularidade na dispensa com base no histórico do fornecedor e na Lei 14.133/2021").
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "híbrida transacional". De acordo com a teoria estudada em *Tabela Comparativa: Treinamento vs. Desenvolvimento*, dimensão Temporal: Curto prazo (ação pontual e imediata). — Médio e longo prazo (processo contínuo).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "executar narrações". De acordo com a teoria estudada em *Tabela Comparativa: Treinamento vs. Desenvolvimento*, treinamento refere-se ao presente e ao cargo atual (objetivo imediato e operacional). Desenvolvimento refere-se ao futuro e à carreira como um todo (objetivo mediato, estratégico e de liderança).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "exibir slide mestre". De acordo com a teoria estudada em *B) Etapa 2: Desenho e Programação do Treinamento*, quem deve ser treinado? (público-alvo / participantes selecionados).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "configurar transições". De acordo com a teoria estudada em *C) Etapa 3: Execução e Condução do Treinamento*, aplicação prática do plano pedagógico. Exige ambiente físico e tecnológico adequado, motivação dos educandos e domínio didático por parte dos instrutores.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "mostrar controles de mídias". De acordo com a teoria estudada em *D) Etapa 4: Avaliação dos Resultados (Modelo de Donald Kirkpatrick)*, nível 2: Aprendizagem: Avalia a aquisição e fixação de novos conhecimentos, habilidades e atitudes. — Durante ou logo após o término do curso. — Testes teóricos, provas de conhecimento e exames práticos (pré-teste e pós-teste).
+> - **E)** **Correta.** Conforme fundamentado na seção *Tabela Comparativa: Treinamento vs. Desenvolvimento* deste guia, foco de Atuação: Cargo atual: prepara o servidor para as atribuições que exerce hoje. — Carreira e organização: prepara o servidor para cargos futuros e novas atribuições. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF/1/2024) ao estabelecer que "usar modo de exibição do apresentador".
 >
-> **Gabarito: A**
+> **Gabarito: E**
 
 ---
 
 ### Teste 441
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Administracao – 2024)**
-A gestão de carreiras é o processo pelo qual organizações e colaboradores planejam e desenvolvem o percurso profissional dentro da organização. A gestão de carreira muitas vezes enfrenta o dilema entre priorizar o desempenho atual dos colaboradores ou focar no potencial de desenvolvimento do talento. Enquanto o desempenho atual garante resultados imediatos e contribui para a eficácia operacional, investir no potencial de desenvolvimento pode promover inovação e sustentabilidade a longo prazo. As organizações precisam equilibrar essas duas abordagens, reconhecendo e recompensando o desempenho, enquanto criam oportunidades para o crescimento e desenvolvimento futuro. Essa estratégia híbrida não apenas maximiza o engajamento dos funcionários, mas também assegura que a empresa esteja preparada para enfrentar desafios futuros com uma equipe qualificada e motivada. Assinale a opção que apresenta a avaliação de elevado potencial e alto desempenho ideal para a sucessão em cargos sêniores.
+**(FGV – TRT 1ª – 2024 – Analista Judiciário - Área Administrativa)**
+A figura abaixo mostra uma matriz do tipo “Nine Box” com parte das saídas de uma avaliação de desempenho com foco em competências realizada em certa organização. O gráfico mostra as entregas confrontadas com as capacidades (conhecimento/habilidades) de cinco profissionais (A, B, C, D e E), com a seguinte escala: 1 (não atende); 2 (em desenvolvimento); 3 a 5 (atende) e 6 (supera). A diretora de RH da organização está analisando esses resultados para propor possíveis ações de gestão de pessoas. Em relação aos profissionais, os dados da matriz indicam as seguintes situações e possibilidades de ação adequadas:
 
-* **A)** Enigma.
-* **B)** Dilema.
-* **C)** Colaborador do centro.
-* **D)** Futuro líder.
-* **E)** Profissional confiável.
+* **A)** A é um profissional pouco experiente: indicar para treinamento comportamental;
+* **B)** B supera as exigências de capacitação, mas tem entregas insatisfatórias: reavaliar a área ou posição de atuação;
+* **C)** C é um profissional com capacitação e entrega adequadas: requer orientação imediata do líder em relação às expectativas de entrega e deve priorizar a complementação técnica;
+* **D)** D e E mostram excelente entrega: indicar para promoção;
+* **E)** A e B atendem parcialmente aos requisitos: atribuir mais desafios com vistas a assumir atribuições mais complexas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Enigma". De acordo com a teoria estudada em *Tabela Comparativa: Treinamento vs. Desenvolvimento*, foco de Atuação: Cargo atual: prepara o servidor para as atribuições que exerce hoje. — Carreira e organização: prepara o servidor para cargos futuros e novas atribuições.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Dilema". De acordo com a teoria estudada em *D) Etapa 4: Avaliação dos Resultados (Modelo de Donald Kirkpatrick)*, nível 4: Resultados / Impacto Organizacional: Avalia os impactos macroinstitucionais obtidos pelo órgão (redução de custos, agilidade processual). — Longo prazo (semestral ou anual). — Indicadores de desempenho, relatórios gerenciais e metas institucionais atingidas.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Colaborador do centro". De acordo com a teoria estudada em *Tabela Comparativa: Treinamento vs. Desenvolvimento*, dimensão Temporal: Curto prazo (ação pontual e imediata). — Médio e longo prazo (processo contínuo).
-> - **D)** **Correta.** Conforme fundamentado na seção *Tabela Comparativa: Treinamento vs. Desenvolvimento* deste guia, treinamento refere-se ao presente e ao cargo atual (objetivo imediato e operacional). Desenvolvimento refere-se ao futuro e à carreira como um todo (objetivo mediato, estratégico e de liderança). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "Futuro líder".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Profissional confiável". De acordo com a teoria estudada em *A) Etapa 1: Diagnóstico / Levantamento das Necessidades de Treinamento (LNT)*, análise Organizacional: examina a missão, a visão de futuro, os planos estratégicos e as metas globais do órgão para identificar quais competências coletivas são essenciais.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A é um profissional pouco experiente: indicar para treinamento comportamental". De acordo com a teoria estudada em *1. Treinamento vs. Desenvolvimento de Pessoas*, na moderna gestão de pessoas, capacitação não é evento esporádico, mas processo permanente de agregação de valor. A literatura estabelece uma divisão nítida entre Treinamento e Desenvolvimento.
+> - **B)** **Correta.** Conforme fundamentado na seção *Tabela Comparativa: Treinamento vs. Desenvolvimento* deste guia, foco de Atuação: Cargo atual: prepara o servidor para as atribuições que exerce hoje. — Carreira e organização: prepara o servidor para cargos futuros e novas atribuições. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 1ª/2024) ao estabelecer que "B supera as exigências de capacitação, mas tem entregas insatisfatórias: reavaliar a área ou posição de atuação".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "C é um profissional com capacitação e entrega adequadas: requer orientação imediata do líder em relação às...". De acordo com a teoria estudada em *5. Educação Corporativa e Escolas de Governo (ILB/TCE-GO)*, escola Superior de Controle do TCE-GO (Instituto Leopoldo de Bulhões - ILB): Unidade de formação e capacitação que promove o contínuo aperfeiçoamento dos servidores do Tribunal de Contas do Estado de Goiás e a orientação pedagógica dos gestores municipais e estaduais jurisdicionados, funcionando como vetor de controle preventivo e pedagógico.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "D e E mostram excelente entrega: indicar para promoção". De acordo com a teoria estudada em *D) Etapa 4: Avaliação dos Resultados (Modelo de Donald Kirkpatrick)*, eRRADO! O Nível 1 mede apenas se os participantes gostaram da aula e das instalações. Uma reação excelente pode conviver com zero aprendizagem (Nível 2) ou zero aplicação no trabalho (Nível 3).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A e B atendem parcialmente aos requisitos: atribuir mais desafios com vistas a assumir atribuições mais complexas". De acordo com a teoria estudada em *D) Etapa 4: Avaliação dos Resultados (Modelo de Donald Kirkpatrick)*, donald Kirkpatrick propôs a metodologia mais consagrada e cobrada em concursos públicos para mensurar a eficácia de programas de capacitação, dividida em quatro níveis sucessivos de complexidade.
 >
-> **Gabarito: D**
+> **Gabarito: B**
 
 ---
 
@@ -198,31 +198,7 @@ flowchart TD
 ---
 
 ### Teste 442
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Gestao Governamental – 2024)**
-Na avaliação de políticas públicas espera-se um estudo de relação causal entre o objetivo e o resultado proposto pelo programa, ou mesmo entre a proposta defendida e o impacto social esperado. (...) Na classificação dos estudos da avaliação de políticas públicas, “o primeiro consiste no levantamento das necessidades e estudos de factibilidade que irão orientar a formulação e o desenvolvimento do programa. Inclui a definição de seus objetivos, âmbito de aplicação, caracterização de beneficiários e de suas necessidades. (CHRISPINO, Álvaro. Introdução ao estudo das políticas públicas. Ed. FGV, 2016, p. 134-136). O texto se refere à classificação dos estudos da avaliação de políticas públicas denominada
-
-* **A)** Ex ante.
-* **B)** Processual.
-* **C)** Instrumental.
-* **D)** Somativa.
-* **E)** Corretiva.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *A) Etapa 1: Diagnóstico / Levantamento das Necessidades de Treinamento (LNT)* deste guia, análise das Operações e Tarefas (Cargos): avalia a descrição de cada cargo, os requisitos técnicos e o padrão de excelência esperado para cada função pública. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "Ex ante".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Processual". De acordo com a teoria estudada em *D) Etapa 4: Avaliação dos Resultados (Modelo de Donald Kirkpatrick)*, nível 4: Resultados / Impacto Organizacional: Avalia os impactos macroinstitucionais obtidos pelo órgão (redução de custos, agilidade processual). — Longo prazo (semestral ou anual). — Indicadores de desempenho, relatórios gerenciais e metas institucionais atingidas.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Instrumental". De acordo com a teoria estudada em *Tabela Comparativa: Treinamento vs. Desenvolvimento*, treinamento refere-se ao presente e ao cargo atual (objetivo imediato e operacional). Desenvolvimento refere-se ao futuro e à carreira como um todo (objetivo mediato, estratégico e de liderança).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Somativa". De acordo com a teoria estudada em *D) Etapa 4: Avaliação dos Resultados (Modelo de Donald Kirkpatrick)*, nível 5: ROI (Jack Phillips): Avalia a relação financeira entre o custo do treinamento e os benefícios monetários gerados. — Pós-implementação. — Fórmula do ROI: \$\text{ROI (\%)} = \frac{\text{Benefícios Líquidos}}{\text{Custos do Treinamento}} \times 100\$.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Corretiva". De acordo com a teoria estudada em *A) Etapa 1: Diagnóstico / Levantamento das Necessidades de Treinamento (LNT)*, o LNT é o diagnóstico das carências de competências que prejudicam o alcance das metas organizacionais. O diagnóstico ocorre em três níveis de análise.
->
-> **Gabarito: A**
-
----
-
-### Teste 443
-**(FGV – TJ-SC – Analista Administrativo – 2026)**
+**(FGV – TJ/SC – 2026 – Analista Administrativo)**
 A área de Gestão de Pessoas da empresa ABC tem revisado sua estratégia de treinamento à luz das tendências contemporâneas. Após diagnóstico interno, optou por implementar uma abordagem em que o conteúdo é entregue em pequenas doses, facilitando a assimilação rápida e eficaz das informações, permitindo que os colaboradores aprendam de forma flexível e acessem o conteúdo em momentos compatíveis com sua rotina, o que favorece a retenção do conhecimento. A tendência contemporânea de treinamento descrita corresponde ao
 
 * **A)** microlearning.
@@ -235,13 +211,37 @@ A área de Gestão de Pessoas da empresa ABC tem revisado sua estratégia de tre
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "microlearning". De acordo com a teoria estudada em *Tabela Comparativa: Treinamento vs. Desenvolvimento*, avaliação do Sucesso: Rápida execução sem erros na rotina diária do posto de trabalho. — Capacidade de inovação, liderança adaptativa e visão sistêmica institucional.
+> - **A)** **Correta.** Conforme fundamentado na seção *D) Etapa 4: Avaliação dos Resultados (Modelo de Donald Kirkpatrick)* deste guia, nível 3: Comportamento no Cargo (Transferência): Avalia se o participante modificou sua conduta no posto de trabalho e aplica o que aprendeu. — Aplicado semanas ou meses após o retorno à rotina (30 a 90 dias). — Observação em serviço, relatórios de produtividade e avaliação da chefia imediata. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/SC/2026) ao estabelecer que "microlearning".
 > - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "aprendizado experiencial". De acordo com a teoria estudada em *B) Conhecimento Tácito vs. Conhecimento Explícito*, forma de Aprendizado: Aprendizado prático por convivência, mentoria, tutoria e imitação. — Leitura de documentos, estudo de normas e consulta a bancos de dados.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "mentoring digital". De acordo com a teoria estudada em *1. Treinamento vs. Desenvolvimento de Pessoas*, na moderna gestão de pessoas, capacitação não é evento esporádico, mas processo permanente de agregação de valor. A literatura estabelece uma divisão nítida entre Treinamento e Desenvolvimento.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "treinamento baseado em dados". De acordo com a teoria estudada em *A) A Pirâmide DIKW (Hierarquia do Saber)*, informação: Dados organizados em determinado contexto, dotados de sentido e propósito (ex.: "Contrato de TI no valor de R\$ 1.500.000,00 celebrado com dispensa indevida de licitação").
-> - **E)** **Correta.** Conforme fundamentado na seção *D) Etapa 4: Avaliação dos Resultados (Modelo de Donald Kirkpatrick)* deste guia, nível 3: Comportamento no Cargo (Transferência): Avalia se o participante modificou sua conduta no posto de trabalho e aplica o que aprendeu. — Aplicado semanas ou meses após o retorno à rotina (30 a 90 dias). — Observação em serviço, relatórios de produtividade e avaliação da chefia imediata. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-SC/2026) ao estabelecer que "role-playing".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "mentoring digital". De acordo com a teoria estudada em *Tabela Comparativa: Treinamento vs. Desenvolvimento*, avaliação do Sucesso: Rápida execução sem erros na rotina diária do posto de trabalho. — Capacidade de inovação, liderança adaptativa e visão sistêmica institucional.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "treinamento baseado em dados". De acordo com a teoria estudada em *1. Treinamento vs. Desenvolvimento de Pessoas*, na moderna gestão de pessoas, capacitação não é evento esporádico, mas processo permanente de agregação de valor. A literatura estabelece uma divisão nítida entre Treinamento e Desenvolvimento.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "role-playing". De acordo com a teoria estudada em *D) Etapa 4: Avaliação dos Resultados (Modelo de Donald Kirkpatrick)*, nível 2: Aprendizagem: Avalia a aquisição e fixação de novos conhecimentos, habilidades e atitudes. — Durante ou logo após o término do curso. — Testes teóricos, provas de conhecimento e exames práticos (pré-teste e pós-teste).
 >
-> **Gabarito: E**
+> **Gabarito: A**
+
+---
+
+### Teste 443
+**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Banco De Dados)**
+“Numa peça teatral ou romance, uma palavra imprópria é apenas uma palavra: e a impropriedade, seja ou não percebida, não acarreta consequência alguma. Num código legal – especialmente composto de leis tidas como fundamentais – uma palavra imprópria pode ser uma calamidade nacional: e a guerra civil, a consequência disso. De uma palavra tola podem irromper mil punhais.” (Bentham, 1796) A finalidade básica desse fragmento textual é:
+
+* **A)** alertar contra o uso impróprio de palavras, especialmente em textos de grande aplicabilidade social;
+* **B)** mostrar o uso irresponsável das palavras em textos modernos, mesmo naqueles produzidos por pessoas cultas;
+* **C)** indicar que a impropriedade vocabular é fruto da inadequação entre o significado da palavra e a situação em que é empregada;
+* **D)** demonstrar a absoluta necessidade de que os usuários das palavras tenham perfeito conhecimento de seus significados;
+* **E)** aconselhar que os autores dos textos verifiquem a possibilidade de ambiguidade no uso dos vocábulos a fim de evitarem consequências desastrosas.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *C) O Modelo SECI e a Espiral do Conhecimento (Ikujiro Nonaka & Hirotaka Takeuchi)* deste guia, socialização (Tácito $\rightarrow$ Tácito): Compartilhamento de experiências diretas entre pessoas, sem uso necessário da linguagem escrita (ex.: tutoria de um técnico novato por um auditor sênior, conversas informais e observação em campo no *Ba Originário*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "alertar contra o uso impróprio de palavras, especialmente em textos de grande aplicabilidade social".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "mostrar o uso irresponsável das palavras em textos modernos, mesmo naqueles produzidos por pessoas cultas". De acordo com a teoria estudada em *1. Treinamento vs. Desenvolvimento de Pessoas*, na moderna gestão de pessoas, capacitação não é evento esporádico, mas processo permanente de agregação de valor. A literatura estabelece uma divisão nítida entre Treinamento e Desenvolvimento.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "indicar que a impropriedade vocabular é fruto da inadequação entre o significado da palavra e a situação em que é...". De acordo com a teoria estudada em *2. O Ciclo de Treinamento em Quatro Etapas e a Avaliação de Kirkpatrick*, segundo Idalberto Chiavenato, o treinamento funciona como um ciclo contínuo composto por quatro fases lógicas e sequenciais.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "demonstrar a absoluta necessidade de que os usuários das palavras tenham perfeito conhecimento de seus significados". De acordo com a teoria estudada em *B) Conhecimento Tácito vs. Conhecimento Explícito*, localização: Armazenado na mente e na experiência dos indivíduos (*know-how*). — Registrado em suportes físicos ou digitais (manuais, livros, leis, normas e sistemas).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "aconselhar que os autores dos textos verifiquem a possibilidade de ambiguidade no uso dos vocábulos a fim de...". De acordo com a teoria estudada em *B) Etapa 2: Desenho e Programação do Treinamento*, quem deve ser treinado? (público-alvo / participantes selecionados).
+>
+> **Gabarito: A**
 
 ---
 
@@ -309,50 +309,50 @@ flowchart TD
 ---
 
 ### Teste 444
-**(CEBRASPE – TRT-8 – Analista Judiciario Area Apoio Especializado Tecnologia da Informacao – 2022)**
-Em cada uma das opções a seguir, é apresentada uma proposta de reescrita do seguinte trecho do texto CG1A1 “As Big Techs — seguidas por outras firmas, laboratórios e governos — usam tecnologias da informação e comunicação (TIC) para expropriar a experiência humana, que se torna matéria-prima processada e mercantilizada como dados comportamentais.” (segundo período do primeiro parágrafo). Assinale a opção cuja proposta de reescrita, além de estar gramaticalmente correta, preserva os sentidos originais do texto.
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Administração)**
+Liderança, poder e autoridade são conceitos interconectados que desempenham papéis cruciais na dinâmica das organizações e sociedades. A compreensão de como esses elementos funcionam e interagem é fundamental para a gestão eficaz e para a promoção de ambientes de trabalho produtivos e harmoniosos. Assinale a opção que descreve o poder exercido quando B reconhece que A possui conhecimento, experiência ou competência especial em uma determinada situação.
 
-* **A)** As Big Techs, seguidas de outras firmas, laboratórios e governos, usam tecnologias da informação e comunicação (TIC) para expropriar a experiência humana, que se torna matéria-prima processada e mercantilizada na forma de dados de comportamento.
-* **B)** As Big Techs, seguidas por outras firmas, laboratórios e governos — usam tecnologias da informação e comunicação (TIC) para reaproveitar a experiência humana, que se torna eventos processados e vendidos como dados comportamentais.
-* **C)** As Big Techs — acompanhadas por outras firmas, laboratórios e governos — usam tecnologias da informação e comunicação (TIC) para expropriar a experiência humana, que se tornam insumos processados e mercantilizados como dados comportamentais.
-* **D)** As Big Techs — seguidas por outras firmas, laboratórios e governos — usam tecnologias da informação e comunicação (TIC) para expropriar a experiência humana, que se tornam elementos processados e mercantilizados como dados comportamentais.
-* **E)** As Big Techs, bem como outras firmas, laboratórios e governos — aproveitam tecnologias da informação e comunicação (TIC) para recriar a experiência humana, que se torna matéria-prima processada e mercantilizada como dados comportamentais.
+* **A)** Poder legitimado.
+* **B)** Poder de referência.
+* **C)** Poder de perícia.
+* **D)** Poder coercitivo.
+* **E)** Poder de recompensa.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *A) A Pirâmide DIKW (Hierarquia do Saber)* deste guia, conhecimento: Informação processada pela mente humana, combinada com experiência, valores e intuição, capacitando o indivíduo para a tomada de decisão (ex.: "Auditor identifica irregularidade na dispensa com base no histórico do fornecedor e na Lei 14.133/2021"). Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT-8/2022) ao estabelecer que "As Big Techs, seguidas de outras firmas, laboratórios e governos, usam tecnologias da informação e comunicação...".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "As Big Techs, seguidas por outras firmas, laboratórios e governos — usam tecnologias da informação e comunicação...". De acordo com a teoria estudada em *A) A Pirâmide DIKW (Hierarquia do Saber)*, informação: Dados organizados em determinado contexto, dotados de sentido e propósito (ex.: "Contrato de TI no valor de R\$ 1.500.000,00 celebrado com dispensa indevida de licitação").
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "As Big Techs — acompanhadas por outras firmas, laboratórios e governos — usam tecnologias da informação e...". De acordo com a teoria estudada em *B) Conhecimento Tácito vs. Conhecimento Explícito*, forma de Aprendizado: Aprendizado prático por convivência, mentoria, tutoria e imitação. — Leitura de documentos, estudo de normas e consulta a bancos de dados.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "As Big Techs — seguidas por outras firmas, laboratórios e governos — usam tecnologias da informação e comunicação...". De acordo com a teoria estudada em *B) Etapa 2: Desenho e Programação do Treinamento*, onde treinar? (salas de aula presenciais, laboratórios ou ambiente virtual EaD).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "As Big Techs, bem como outras firmas, laboratórios e governos — aproveitam tecnologias da informação e comunicação...". De acordo com a teoria estudada em *B) As Cinco Disciplinas de Peter Senge (A Quinta Disciplina)*, pensamento Sistêmico (A 5ª Disciplina): É a disciplina integradora que conecta as outras quatro.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Poder legitimado". De acordo com a teoria estudada em *C) O Modelo SECI e a Espiral do Conhecimento (Ikujiro Nonaka & Hirotaka Takeuchi)*, externalização (Tácito $\rightarrow$ Explícito): Articulação e tradução do conhecimento tácito em conceitos compreensíveis, modelos visuais, metáforas, manuais operacionais e fluxogramas acessíveis a todos (no *Ba Interativo*).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Poder de referência". De acordo com a teoria estudada em *3. Gestão do Conhecimento Organizacional e o Modelo SECI*, a gestão do conhecimento é o conjunto integrado de processos que criam, organizam, disseminam e aplicam saberes para alavancar a eficiência organizacional.
+> - **C)** **Correta.** Conforme fundamentado na seção *C) O Modelo SECI e a Espiral do Conhecimento (Ikujiro Nonaka & Hirotaka Takeuchi)* deste guia, segundo Nonaka e Takeuchi, o conhecimento institucional é criado a partir da interação dinâmica e ininterrupta entre o conhecimento tácito e o explícito, percorrendo quatro modos de conversão. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Poder de perícia".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Poder coercitivo". De acordo com a teoria estudada em *A) A Pirâmide DIKW (Hierarquia do Saber)*, conhecimento: Informação processada pela mente humana, combinada com experiência, valores e intuição, capacitando o indivíduo para a tomada de decisão (ex.: "Auditor identifica irregularidade na dispensa com base no histórico do fornecedor e na Lei 14.133/2021").
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Poder de recompensa". De acordo com a teoria estudada em *B) Conhecimento Tácito vs. Conhecimento Explícito*, localização: Armazenado na mente e na experiência dos indivíduos (*know-how*). — Registrado em suportes físicos ou digitais (manuais, livros, leis, normas e sistemas).
 >
-> **Gabarito: A**
+> **Gabarito: C**
 
 ---
 
 ### Teste 445
-**(CEBRASPE – TRT-8 – Analista Judiciario Area Apoio Especializado Tecnologia da Informacao – 2022)**
-Considere, ainda, o texto a seguir: O direito do trabalho e a justiça social são os pilares de uma organização de trabalho mais justa e igualitária, e, por essa razão, o currículo do ensino médio inclui disciplinas sobre cidadania, direitos humanos e empreendedorismo consciente. Tendo em vista essas informações, o texto precedente pode ser expresso corretamente pela proposição lógica
+**(FGV – TRT/13 – 2022 – Analista Judiciario Tecnologia Da Informacao)**
+Em todas as frases a seguir foi usada a conjunção “porque”; as opções a seguir apresentam formas adequadas de reescrever essas frases, retirando-se essa conjunção, com a manutenção do sentido original, à exceção de uma. Assinale-a.
 
-* **A)** P.
-* **B)** P˄Q.
-* **C)** P ⇒ Q.
-* **D)** (P˄Q) ⇒ (R˄S˄T).
-* **E)** (P˄Q) ⇒ R.
+* **A)** O invejoso é tirano e verdugo de si próprio: ele sofre porque os outros gozam / Por causa do gozo dos outros, o invejoso sofre e é tirano e verdugo de si próprio.
+* **B)** Muitos homens são louvados porque são mal conhecidos / Pelo mau conhecimento que se tem de alguns homens, eles são louvados.
+* **C)** Arguimos a vaidade alheia porque ofende a nossa própria / Por ofensa à nossa própria vaidade, arguimos a vaidade alheia.
+* **D)** A mocidade é temerária; presume muito porque sabe pouco / Pela pouca sabedoria, a mocidade é temerária e presume muito.
+* **E)** As nações não envelhecem como as pessoas, porque todos os dias se renovam pelos nascimentos / Pela renovação diária por meio dos nascimentos, as nações, como as pessoas, não envelhecem.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "P". De acordo com a teoria estudada em *4. Aprendizagem Organizacional e as Cinco Disciplinas de Peter Senge*, a aprendizagem organizacional ocorre quando o aprendizado individual e coletivo é incorporado aos processos, valores, estruturas e cultura permanente da organização.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "P˄Q". De acordo com a teoria estudada em *B) As Cinco Disciplinas de Peter Senge (A Quinta Disciplina)*, para Peter Senge, uma Organização que Aprende (*Learning Organization*) baseia-se na prática contínua de cinco disciplinas essenciais.
-> - **C)** **Correta.** Conforme fundamentado na seção *D) Etapa 4: Avaliação dos Resultados (Modelo de Donald Kirkpatrick)* deste guia, eRRADO! O Nível 1 mede apenas se os participantes gostaram da aula e das instalações. Uma reação excelente pode conviver com zero aprendizagem (Nível 2) ou zero aplicação no trabalho (Nível 3). Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT-8/2022) ao estabelecer que "P ⇒ Q".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "(P˄Q) ⇒ (R˄S˄T)". De acordo com a teoria estudada em *B) As Cinco Disciplinas de Peter Senge (A Quinta Disciplina)*, permite enxergar a organização não como partes fragmentadas, mas como uma rede viva de inter-relações e interdependências mútuas, focando nas causas estruturais dos problemas em vez de remediar sintomas superficiais.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "(P˄Q) ⇒ R". De acordo com a teoria estudada em *C) O Modelo SECI e a Espiral do Conhecimento (Ikujiro Nonaka & Hirotaka Takeuchi)*, internalização (Explícito \$\rightarrow\$ Tácito): Incorporação do conhecimento explícito recém-produzido na mente e nos hábitos de trabalho do servidor por meio do "aprender fazendo" (*learning by doing* no *Ba Exercitante*).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O invejoso é tirano e verdugo de si próprio: ele sofre porque os outros gozam / Por causa do gozo dos outros, o...". De acordo com a teoria estudada em *C) O Modelo SECI e a Espiral do Conhecimento (Ikujiro Nonaka & Hirotaka Takeuchi)*, internalização (Explícito $\rightarrow$ Tácito): Incorporação do conhecimento explícito recém-produzido na mente e nos hábitos de trabalho do servidor por meio do "aprender fazendo" (*learning by doing* no *Ba Exercitante*).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Muitos homens são louvados porque são mal conhecidos / Pelo mau conhecimento que se tem de alguns homens, eles são...". De acordo com a teoria estudada em *C) O Modelo SECI e a Espiral do Conhecimento (Ikujiro Nonaka & Hirotaka Takeuchi)*, a FCC adora cobrar o Modelo SECI por meio de situações hipotéticas de trabalho.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Arguimos a vaidade alheia porque ofende a nossa própria / Por ofensa à nossa própria vaidade, arguimos a vaidade...". De acordo com a teoria estudada em *Tabela Comparativa: Treinamento vs. Desenvolvimento*, avaliação do Sucesso: Rápida execução sem erros na rotina diária do posto de trabalho. — Capacidade de inovação, liderança adaptativa e visão sistêmica institucional.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A mocidade é temerária; presume muito porque sabe pouco / Pela pouca sabedoria, a mocidade é temerária e presume...". De acordo com a teoria estudada em *A) A Pirâmide DIKW (Hierarquia do Saber)*, sabedoria: Capacidade superior de aplicar o conhecimento com prudência, discernimento ético e visão de longo prazo em prol da sociedade.
+> - **E)** **Correta.** Conforme fundamentado na seção *C) O Modelo SECI e a Espiral do Conhecimento (Ikujiro Nonaka & Hirotaka Takeuchi)* deste guia, socialização (Tácito $\rightarrow$ Tácito): Compartilhamento de experiências diretas entre pessoas, sem uso necessário da linguagem escrita (ex.: tutoria de um técnico novato por um auditor sênior, conversas informais e observação em campo no *Ba Originário*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/13/2022) ao estabelecer que "As nações não envelhecem como as pessoas, porque todos os dias se renovam pelos nascimentos / Pela renovação...".
 >
-> **Gabarito: C**
+> **Gabarito: E**
 
 ---
 
@@ -373,26 +373,26 @@ A aprendizagem organizacional ocorre quando o aprendizado individual e coletivo 
 ---
 
 ### Teste 446
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Administracao – 2024)**
-Com a crescente permeabilidade das organizações e um conceito mais amplo de Administração, a organização do futuro deve oferecer produtos de alta qualidade e competitividade, atendendo aos consumidores sem prejudicar o planeta ou a qualidade de vida. Diante desses desafios, o gestor precisa ressignificar sua mentalidade e desenvolver novas competências gerenciais. Assinale a opção que destaca uma competência gerencial que reconhece um ambiente em constante evolução e a incerteza sobre o futuro.
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Gestão Governamental)**
+Assinale a oração adversativa que estabelece entre os segmentos indicados uma relação de real oposição.
 
-* **A)** Estrela do norte ao longo da organização.
-* **B)** Ciclos rápidos e decisão e aprendizado.
-* **C)** Rede de equipes capacitadas e empoderadas.
-* **D)** Modelo dinâmico de pessoas que desperta a paixão.
-* **E)** Tecnologia habilitada para a próxima geração.
+* **A)** A palavra é dom de todos, mas a sabedoria cabe a poucos.
+* **B)** Há muito o que saber, mas pouco que viver.
+* **C)** O que os homens realmente querem não é conhecimento, mas certezas.
+* **D)** Esteja pronto para escutar, mas lento para dar a resposta.
+* **E)** Mestre não é quem sempre ensina, mas quem de repente aprende.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Estrela do norte ao longo da organização". De acordo com a teoria estudada em *Tabela Comparativa: Treinamento vs. Desenvolvimento*, foco de Atuação: Cargo atual: prepara o servidor para as atribuições que exerce hoje. — Carreira e organização: prepara o servidor para cargos futuros e novas atribuições.
-> - **B)** **Correta.** Conforme fundamentado na seção *4. Aprendizagem Organizacional e as Cinco Disciplinas de Peter Senge* deste guia, a aprendizagem organizacional ocorre quando o aprendizado individual e coletivo é incorporado aos processos, valores, estruturas e cultura permanente da organização. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "Ciclos rápidos e decisão e aprendizado".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Rede de equipes capacitadas e empoderadas". De acordo com a teoria estudada em *B) As Cinco Disciplinas de Peter Senge (A Quinta Disciplina)*, permite enxergar a organização não como partes fragmentadas, mas como uma rede viva de inter-relações e interdependências mútuas, focando nas causas estruturais dos problemas em vez de remediar sintomas superficiais.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Modelo dinâmico de pessoas que desperta a paixão". De acordo com a teoria estudada em *C) O Modelo SECI e a Espiral do Conhecimento (Ikujiro Nonaka & Hirotaka Takeuchi)*, socialização (Tácito \$\rightarrow\$ Tácito): Compartilhamento de experiências diretas entre pessoas, sem uso necessário da linguagem escrita (ex.: tutoria de um técnico novato por um auditor sênior, conversas informais e observação em campo no *Ba Originário*).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Tecnologia habilitada para a próxima geração". De acordo com a teoria estudada em *A) A Pirâmide DIKW (Hierarquia do Saber)*, conhecimento: Informação processada pela mente humana, combinada com experiência, valores e intuição, capacitando o indivíduo para a tomada de decisão (ex.: "Auditor identifica irregularidade na dispensa com base no histórico do fornecedor e na Lei 14.133/2021").
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A palavra é dom de todos, mas a sabedoria cabe a poucos". De acordo com a teoria estudada em *A) A Pirâmide DIKW (Hierarquia do Saber)*, sabedoria: Capacidade superior de aplicar o conhecimento com prudência, discernimento ético e visão de longo prazo em prol da sociedade.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Há muito o que saber, mas pouco que viver". De acordo com a teoria estudada em *A) A Pirâmide DIKW (Hierarquia do Saber)*, dado: Registro numérico ou textual isolado, sem interpretação (ex.: "R\$ 1.500.000,00").
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O que os homens realmente querem não é conhecimento, mas certezas". De acordo com a teoria estudada em *1. Treinamento vs. Desenvolvimento de Pessoas*, na moderna gestão de pessoas, capacitação não é evento esporádico, mas processo permanente de agregação de valor. A literatura estabelece uma divisão nítida entre Treinamento e Desenvolvimento.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Esteja pronto para escutar, mas lento para dar a resposta". De acordo com a teoria estudada em *D) Etapa 4: Avaliação dos Resultados (Modelo de Donald Kirkpatrick)*, nível 5: ROI (Jack Phillips): Avalia a relação financeira entre o custo do treinamento e os benefícios monetários gerados. — Pós-implementação. — Fórmula do ROI: $\text{ROI (\%)} = \frac{\text{Benefícios Líquidos}}{\text{Custos do Treinamento}} \times 100$.
+> - **E)** **Correta.** Conforme fundamentado na seção *B) As Cinco Disciplinas de Peter Senge (A Quinta Disciplina)* deste guia, para Peter Senge, uma Organização que Aprende (*Learning Organization*) baseia-se na prática contínua de cinco disciplinas essenciais. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Mestre não é quem sempre ensina, mas quem de repente aprende".
 >
-> **Gabarito: B**
+> **Gabarito: E**
 
 ---
 
@@ -422,26 +422,26 @@ flowchart TD
 ---
 
 ### Teste 447
-**(FCC – TRT-14 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2016)**
-Uma organização atingiu o nível 1 de capacidade de processo do COBIT 5. Isso significa dizer que
+**(FGV – TRT 1ª – 2024 – Analista Judiciário - Área Administrativa)**
+As inferências são fruto do conhecimento de mundo do leitor, que deve reconhecer as ligações semânticas não explicitadas. A única frase abaixo que NÃO se enquadra entre inferências é:
 
-* **A)** o atributo de desempenho do processo foi amplamente atingido; o processo está sendo realizado com sucesso e os resultados esperados estão sendo obtidos pela organização.
-* **B)** não há uma diferença significativa entre a capacidade de processo nível 1 e os níveis de capacidade mais altos.
-* **C)** houve um engano, pois o COBIT 5 trabalha com níveis de maturidade e não com níveis de capacidade.
-* **D)** todos os cinco atributos de desempenho dos dois processos foram amplamente atingidos; a organização progride com sucesso e os resultados esperados estão sendo obtidos.
-* **E)** a organização atingiu o nível de capacidade Processo Gerenciado e seus produtos de trabalho estão adequadamente estabelecidos, controlados e mantidos.
+* **A)** “O carro entrou bastante devagar no estacionamento, com os pneus traseiros arriados”;
+* **B)** “O Novo Testamento é de leitura mais fácil que o Velho Testamento; os evangelhos são úteis para nossa vida”;
+* **C)** “Os turistas compraram uma casa na cidade visitada; os quartos davam vista para a montanha”;
+* **D)** “As garrafas de vinho foram colocadas deitadas no armário, com os rótulos para cima”;
+* **E)** “O médico pegou o formulário de cima da mesa e escreveu o endereço para o cliente”.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *D) Etapa 4: Avaliação dos Resultados (Modelo de Donald Kirkpatrick)* deste guia, nível 4: Resultados / Impacto Organizacional: Avalia os impactos macroinstitucionais obtidos pelo órgão (redução de custos, agilidade processual). — Longo prazo (semestral ou anual). — Indicadores de desempenho, relatórios gerenciais e metas institucionais atingidas. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-14/2016) ao estabelecer que "o atributo de desempenho do processo foi amplamente atingido; o processo está sendo realizado com sucesso e os...".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não há uma diferença significativa entre a capacidade de processo nível 1 e os níveis de capacidade mais altos". De acordo com a teoria estudada em *D) Etapa 4: Avaliação dos Resultados (Modelo de Donald Kirkpatrick)*, donald Kirkpatrick propôs a metodologia mais consagrada e cobrada em concursos públicos para mensurar a eficácia de programas de capacitação, dividida em quatro níveis sucessivos de complexidade.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "houve um engano, pois o COBIT 5 trabalha com níveis de maturidade e não com níveis de capacidade". De acordo com a teoria estudada em *Tabela Comparativa: Treinamento vs. Desenvolvimento*, avaliação do Sucesso: Rápida execução sem erros na rotina diária do posto de trabalho. — Capacidade de inovação, liderança adaptativa e visão sistêmica institucional.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "todos os cinco atributos de desempenho dos dois processos foram amplamente atingidos; a organização progride com...". De acordo com a teoria estudada em *4. Aprendizagem Organizacional e as Cinco Disciplinas de Peter Senge*, a aprendizagem organizacional ocorre quando o aprendizado individual e coletivo é incorporado aos processos, valores, estruturas e cultura permanente da organização.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a organização atingiu o nível de capacidade Processo Gerenciado e seus produtos de trabalho estão adequadamente...". De acordo com a teoria estudada em *D) Etapa 4: Avaliação dos Resultados (Modelo de Donald Kirkpatrick)*, nível 3: Comportamento no Cargo (Transferência): Avalia se o participante modificou sua conduta no posto de trabalho e aplica o que aprendeu. — Aplicado semanas ou meses após o retorno à rotina (30 a 90 dias). — Observação em serviço, relatórios de produtividade e avaliação da chefia imediata.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“O carro entrou bastante devagar no estacionamento, com os pneus traseiros arriados”". De acordo com a teoria estudada em *B) Etapa 2: Desenho e Programação do Treinamento*, quem deve ser treinado? (público-alvo / participantes selecionados).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“O Novo Testamento é de leitura mais fácil que o Velho Testamento; os evangelhos são úteis para nossa vida”". De acordo com a teoria estudada em *B) As Cinco Disciplinas de Peter Senge (A Quinta Disciplina)*, domínio Pessoal: Busca contínua pelo aprimoramento e autodesenvolvimento, com clareza dos objetivos de vida e visão realista das próprias forças e fragilidades.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“Os turistas compraram uma casa na cidade visitada; os quartos davam vista para a montanha”". De acordo com a teoria estudada em *4. Aprendizagem Organizacional e as Cinco Disciplinas de Peter Senge*, a aprendizagem organizacional ocorre quando o aprendizado individual e coletivo é incorporado aos processos, valores, estruturas e cultura permanente da organização.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“As garrafas de vinho foram colocadas deitadas no armário, com os rótulos para cima”". De acordo com a teoria estudada em *A) Circuito Simples vs. Circuito Duplo (Chris Argyris e Donald Schön)*, aprendizagem em Circuito Simples (*Single-Loop Learning*): A organização detecta um erro e corrige os procedimentos imediatos, sem questionar as premissas, normas ou políticas básicas que originaram a falha (comportamento de mero "termostato").
+> - **E)** **Correta.** Conforme fundamentado na seção *B) As Cinco Disciplinas de Peter Senge (A Quinta Disciplina)* deste guia, modelos Mentais: Capacidade de identificar, questionar e transformar as imagens e preconceitos internos enraizados que condicionam nossa percepção do mundo organizacional. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 1ª/2024) ao estabelecer que "“O médico pegou o formulário de cima da mesa e escreveu o endereço para o cliente”".
 >
-> **Gabarito: A**
+> **Gabarito: E**
 
 ---
 
@@ -455,50 +455,38 @@ No setor público moderno, a visão fragmentada de "cursos isolados" foi substit
 ---
 
 ### Teste 448
-**(CEBRASPE – TJ-RJ – Analista Judiciario Grupo Tecnologia da Informacao Analista de Gestao de Tic – 2021)**
-A Resolução n.º 192/2014 do CNJ descreve a Política Nacional de Formação e Aperfeiçoamento dos Servidores do Poder Judiciário. Segundo essa resolução,
+**(CEBRASPE – TRT/10 – 2013 – Analista Judiciario Tecnologia Da Informacao)**
+A alta gestão corporativa não possui responsabilidade decisória direta sobre os elementos de infraestrutura e arquitetura de TI, pois tais decisões são de natureza estritamente técnica, não tendo influência direta na forma como as necessidades de informação são atendidas.
 
-* **A)** as horas da ação de formação e aperfeiçoamento que excederem a jornada diária deverão ser compensadas como horas extraordinárias e pagas em pecúnia ou inseridas em bancos de horas.
-* **B)** as ações de formação e aperfeiçoamento deverão ser oferecidas, preferencialmente, fora da jornada de trabalho do servidor, de modo a não atrapalhar o andamento do setor ou área no qual ele esteja lotado.
-* **C)** ainda que a ação de formação e aperfeiçoamento tenha carga horária inferior à jornada diária, o servidor não necessita cumprir as horas faltantes.
-* **D)** a frequência em eventos presenciais de capacitação oferecidos pelo órgão será computada como hora trabalhada, exceto as horas de estudo realizadas pelo servidor fora das dependências do Poder Judiciário, na metodologia à distância.
-* **E)** os servidores inscritos em ações de educação a distância oferecidas pelo órgão podem dedicar até duas horas diárias de trabalho para participação nas atividades, desde que seja de interesse da administração.
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as horas da ação de formação e aperfeiçoamento que excederem a jornada diária deverão ser compensadas como horas...". De acordo com a teoria estudada em *B) Conhecimento Tácito vs. Conhecimento Explícito*, forma de Aprendizado: Aprendizado prático por convivência, mentoria, tutoria e imitação. — Leitura de documentos, estudo de normas e consulta a bancos de dados.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as ações de formação e aperfeiçoamento deverão ser oferecidas, preferencialmente, fora da jornada de trabalho do...". De acordo com a teoria estudada em *D) Etapa 4: Avaliação dos Resultados (Modelo de Donald Kirkpatrick)*, donald Kirkpatrick propôs a metodologia mais consagrada e cobrada em concursos públicos para mensurar a eficácia de programas de capacitação, dividida em quatro níveis sucessivos de complexidade.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ainda que a ação de formação e aperfeiçoamento tenha carga horária inferior à jornada diária, o servidor não...". De acordo com a teoria estudada em *B) Etapa 2: Desenho e Programação do Treinamento*, quando treinar? (cronograma, carga horária e período de realização).
-> - **D)** **Correta.** Conforme fundamentado na seção *5. Educação Corporativa e Escolas de Governo (ILB/TCE-GO)* deste guia, escola Superior de Controle do TCE-GO (Instituto Leopoldo de Bulhões - ILB): Unidade de formação e capacitação que promove o contínuo aperfeiçoamento dos servidores do Tribunal de Contas do Estado de Goiás e a orientação pedagógica dos gestores municipais e estaduais jurisdicionados, funcionando como vetor de controle preventivo e pedagógico. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TJ-RJ/2021) ao estabelecer que "a frequência em eventos presenciais de capacitação oferecidos pelo órgão será computada como hora trabalhada...".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os servidores inscritos em ações de educação a distância oferecidas pelo órgão podem dedicar até duas horas...". De acordo com a teoria estudada em *A) Etapa 1: Diagnóstico / Levantamento das Necessidades de Treinamento (LNT)*, análise dos Recursos Humanos (Competências): mapeia as competências atuais dos servidores frente às competências exigidas pelo órgão, detectando as lacunas (*skills gaps*).
+> - **C)** **Incorreta.** A marcação como **Certo** não procede, pois o enunciado apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A alta gestão corporativa não possui responsabilidade decisória direta sobre os elementos de infraestrutura e...". De acordo com a teoria estudada em *B) Conhecimento Tácito vs. Conhecimento Explícito*, origem e Natureza: Subjetivo, pessoal, intuitivo e empírico. — Objetivo, racional, formal e lógico.
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**). Conforme fundamentado na seção *D) Etapa 4: Avaliação dos Resultados (Modelo de Donald Kirkpatrick)* deste guia, nível 1: Reação: Avalia o grau de satisfação dos participantes com o curso, material, didática e infraestrutura. — Aplicado imediatamente no encerramento da aula. — Questionário de pesquisa de satisfação (escala Likert). Portanto, a assertiva examinada pela banca (CEBRASPE – TRT/10/2013) viola os preceitos técnicos do tópico.
 >
-> **Gabarito: D**
+> **Gabarito: E**
 
 ---
 
 ### Teste 449
-**(FGV – TRT-24 – Tecnico Judiciario Area Administrativa Sem Especialidade – 2025)**
-O processo cíclico da gestão do desempenho pode ser entendido como um ecossistema integrado composto por oito etapas. Assinale a opção que apresenta, corretamente, a etapa na qual se pergunta “para que fazer?”.
+**(CEBRASPE – TRT/10 – 2013 – Analista Judiciario Tecnologia Da Informacao)**
+O uso extensivo de políticas e procedimentos formalizados torna a administração burocratizada e ineficiente, devendo ser evitado. investimentos de TI sistemas de informação contribuição decisão contribuição decisão alta X X gestão gestão X X de TI áreas técnicas X X de TI
 
-* **A)** Planejamento do desempenho.
-* **B)** Definição de objetivos de desempenho.
-* **C)** Modelagem do trabalho.
-* **D)** Definição do local de trabalho.
-* **E)** Revisão do desempenho.
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *D) Etapa 4: Avaliação dos Resultados (Modelo de Donald Kirkpatrick)* deste guia, nível 4: Resultados / Impacto Organizacional: Avalia os impactos macroinstitucionais obtidos pelo órgão (redução de custos, agilidade processual). — Longo prazo (semestral ou anual). — Indicadores de desempenho, relatórios gerenciais e metas institucionais atingidas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "Planejamento do desempenho".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Definição de objetivos de desempenho". De acordo com a teoria estudada em *B) Etapa 2: Desenho e Programação do Treinamento*, consiste no planejamento instrucional estruturado, respondendo a seis questões cruciais.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Modelagem do trabalho". De acordo com a teoria estudada em *D) Etapa 4: Avaliação dos Resultados (Modelo de Donald Kirkpatrick)*, eRRADO! O Nível 1 mede apenas se os participantes gostaram da aula e das instalações. Uma reação excelente pode conviver com zero aprendizagem (Nível 2) ou zero aplicação no trabalho (Nível 3).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Definição do local de trabalho". De acordo com a teoria estudada em *D) Etapa 4: Avaliação dos Resultados (Modelo de Donald Kirkpatrick)*, nível 3: Comportamento no Cargo (Transferência): Avalia se o participante modificou sua conduta no posto de trabalho e aplica o que aprendeu. — Aplicado semanas ou meses após o retorno à rotina (30 a 90 dias). — Observação em serviço, relatórios de produtividade e avaliação da chefia imediata.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Revisão do desempenho". De acordo com a teoria estudada em *2. O Ciclo de Treinamento em Quatro Etapas e a Avaliação de Kirkpatrick*, segundo Idalberto Chiavenato, o treinamento funciona como um ciclo contínuo composto por quatro fases lógicas e sequenciais.
+> - **C)** **Incorreta.** A marcação como **Certo** não procede, pois o enunciado apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O uso extensivo de políticas e procedimentos formalizados torna a administração burocratizada e ineficiente...". De acordo com a teoria estudada em *A) A Pirâmide DIKW (Hierarquia do Saber)*, conhecimento: Informação processada pela mente humana, combinada com experiência, valores e intuição, capacitando o indivíduo para a tomada de decisão (ex.: "Auditor identifica irregularidade na dispensa com base no histórico do fornecedor e na Lei 14.133/2021").
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**). Conforme fundamentado na seção *A) Circuito Simples vs. Circuito Duplo (Chris Argyris e Donald Schön)* deste guia, aprendizagem em Circuito Simples (*Single-Loop Learning*): A organização detecta um erro e corrige os procedimentos imediatos, sem questionar as premissas, normas ou políticas básicas que originaram a falha (comportamento de mero "termostato"). Portanto, a assertiva examinada pela banca (CEBRASPE – TRT/10/2013) viola os preceitos técnicos do tópico.
 >
-> **Gabarito: A**
+> **Gabarito: E**
 
 ---
 

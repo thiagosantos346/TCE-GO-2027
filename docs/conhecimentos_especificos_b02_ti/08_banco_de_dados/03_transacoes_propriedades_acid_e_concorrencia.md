@@ -117,7 +117,7 @@ flowchart TD
 ---
 
 ### Teste 256
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Ciencia de Dados – 2024)**
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Ciência de Dados)**
 Diferentemente do armazenamento feito em sistema de arquivos, o armazenamento em sistemas de banco de dados ou SGBD possui características especiais que garantem um funcionamento superior em relação à outras formas de armazenamento. Nesse contexto, as propriedades fundamentais garantidas pelo conceito ACID em sistemas de banco de dados são:
 
 * **A)** Atomicidade, Complexidade, Integridade, Durabilidade.
@@ -132,7 +132,7 @@ Diferentemente do armazenamento feito em sistema de arquivos, o armazenamento em
 >
 > - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Atomicidade, Complexidade, Integridade, Durabilidade". De acordo com a teoria estudada em *1.2 As Quatro Propriedades Fundamentais: ACID*, para que a integridade dos dados seja inviolável mesmo diante de falhas de hardware, interrupções de energia elétrica e concorrência massiva de usuários, o SGBD deve garantir integralmente as propriedades do acrônimo ACID (Jim Gray e Andreas Reuter).
 > - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Atividade, Consistência, Inovação, Durabilidade". De acordo com a teoria estudada em *1.3 Mecanismos Internos: Undo Log, Redo Log e Write-Ahead Logging (WAL)*, isso garante a Durabilidade: se faltar energia imediatamente após o commit, o SGBD lê o Redo Log no boot de recuperação (*Crash Recovery*) e reaplica (*redo*) as alterações nas tabelas.
-> - **C)** **Correta.** Conforme fundamentado na seção *1.3 Mecanismos Internos: Undo Log, Redo Log e Write-Ahead Logging (WAL)* deste guia, undo Log (Segmentos de Rollback): Registra os valores anteriores à modificação. Se uma transação falhar ou for cancelada, o SGBD lê o Undo Log para restaurar os dados originais (garantindo a Atomicidade). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "Atomicidade, Consistência, Isolamento, Durabilidade".
+> - **C)** **Correta.** Conforme fundamentado na seção *1.3 Mecanismos Internos: Undo Log, Redo Log e Write-Ahead Logging (WAL)* deste guia, undo Log (Segmentos de Rollback): Registra os valores anteriores à modificação. Se uma transação falhar ou for cancelada, o SGBD lê o Undo Log para restaurar os dados originais (garantindo a Atomicidade). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Atomicidade, Consistência, Isolamento, Durabilidade".
 > - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Autenticidade, Conformidade, Integridade, Desempenho". De acordo com a teoria estudada em *1.2 As Quatro Propriedades Fundamentais: ACID*, a transação não pode violar nenhuma regra de integridade declarativa (chaves primárias, chaves estrangeiras, restrições `CHECK`, valores `NOT NULL`) ou procedimental (gatilhos e regras de negócio).
 > - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Automação, Convergência, Interoperabilidade, Desempenho". De acordo com a teoria estudada em *1. O Conceito Formal de Transação e o Modelo ACID*, no contexto de auditoria e controle externo no setor público, uma transação típica é a liquidação de uma despesa orçamentária: o sistema deve simultaneamente debitar o saldo do empenho e creditar a conta bancária do fornecedor.
 >
@@ -141,24 +141,24 @@ Diferentemente do armazenamento feito em sistema de arquivos, o armazenamento em
 ---
 
 ### Teste 257
-**(FCC – TRT-14 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2016)**
-Em uma empresa, um servidor Oracle 11g apresentou um problema e o disco no qual se localizavam os arquivos do banco de dados foi danificado e perderam-se todos os arquivos (control files, datafiles, online redo log files etc.), porém, o disco no qual estava a flash recovery area ficou intacto. Neste caso,
+**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Banco De Dados)**
+João, administrador de banco de dados, deverá configurar a inicialização de uma instância do Banco de Dados Oracle. Para isso, deverá considerar que somente poderá executar o “shutdown” da instância após o “rollback” das transações não submetidas a “commit”. Para tanto, como João não precisa aguardar a conclusão de todas as transações, ele deverá executar o modo de “shutdown”:
 
-* **A)** não será possível restaurar um backup do banco de dados, pois os control files, datafiles e online redo log files foram perdidos.
-* **B)** será possível restaurar um backup do banco de dados utilizando o aplicativo DUMP ou RESTORE a partir da flash recovery area.
-* **C)** não será possível restaurar um banco de dados porque o servidor sempre fica off-line quando o disco é danificado, impedindo o acesso à flash recovery area.
-* **D)** será possível restaurar um backup RMAN em conjunto com os archive redo log files contidos na flash recovery area.
-* **E)** não será possível restaurar o banco de dados, pois o software Oracle foi corrompido e o disco no qual se localizavam os arquivos do banco de dados foi danificado.
+* **A)** abort;
+* **B)** mount;
+* **C)** nomount;
+* **D)** immediate;
+* **E)** transactional.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não será possível restaurar um backup do banco de dados, pois os control files, datafiles e online redo log files...". De acordo com a teoria estudada em *1.3 Mecanismos Internos: Undo Log, Redo Log e Write-Ahead Logging (WAL)*, a Regra Inviolável do WAL: O registro de log que descreve a alteração deve ser gravado fisicamente em disco síncrono ANTES que as páginas de dados correspondentes sejam descarregadas da memória RAM para os arquivos de dados (*datafiles*).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "será possível restaurar um backup do banco de dados utilizando o aplicativo DUMP ou RESTORE a partir da flash...". De acordo com a teoria estudada em *1.3 Mecanismos Internos: Undo Log, Redo Log e Write-Ahead Logging (WAL)*, undo Log (Segmentos de Rollback): Registra os valores anteriores à modificação. Se uma transação falhar ou for cancelada, o SGBD lê o Undo Log para restaurar os dados originais (garantindo a Atomicidade).
-> - **C)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "não será possível restaurar um banco de dados porque o servidor sempre fica off-line quando o disco é danificado...". De acordo com a teoria estudada em *1.1 Ciclo de Vida e Estados de uma Transação*, parcialmente Comitada (*Partially Committed*): A última instrução SQL foi processada na memória RAM, mas os dados ainda não foram gravados permanentemente no log em disco.
-> - **D)** **Correta.** Conforme fundamentado na seção *1.3 Mecanismos Internos: Undo Log, Redo Log e Write-Ahead Logging (WAL)* deste guia, isso garante a Durabilidade: se faltar energia imediatamente após o commit, o SGBD lê o Redo Log no boot de recuperação (*Crash Recovery*) e reaplica (*redo*) as alterações nas tabelas. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-14/2016) ao estabelecer que "será possível restaurar um backup RMAN em conjunto com os archive redo log files contidos na flash recovery area".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não será possível restaurar o banco de dados, pois o software Oracle foi corrompido e o disco no qual se...". De acordo com a teoria estudada em *1.2 As Quatro Propriedades Fundamentais: ACID*, princípio do "tudo ou nada" (*all-or-nothing*). Todas as operações que compõem a transação são consolidadas em conjunto no banco de dados, ou nenhuma delas produzirá efeito algum. Não existe efetivação parcial de transação.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "abort". De acordo com a teoria estudada em *1.2 As Quatro Propriedades Fundamentais: ACID*, princípio do "tudo ou nada" (*all-or-nothing*). Todas as operações que compõem a transação são consolidadas em conjunto no banco de dados, ou nenhuma delas produzirá efeito algum. Não existe efetivação parcial de transação.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "mount". De acordo com a teoria estudada em *5.2 Protocolo de Bloqueio em Duas Fases (2PL - Two-Phase Locking): Básico, Estrito e Rigoroso*, rigorous 2PL (2PL Rigoroso): Todos os bloqueios (tanto compartilhados - S quanto exclusivos - X) devem ser mantidos até o `COMMIT` ou `ROLLBACK`. É a variante mais utilizada na prática por garantir serializabilidade estrita.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "nomount". De acordo com a teoria estudada em *1.1 Ciclo de Vida e Estados de uma Transação*, abortada (*Aborted*): O SGBD executa o comando `ROLLBACK`, desfazendo todas as modificações parciais já executadas e restaurando a base de dados ao estado exato anterior ao início da transação.
+> - **D)** **Correta.** Conforme fundamentado na seção *1. O Conceito Formal de Transação e o Modelo ACID* deste guia, uma transação de banco de dados é uma unidade lógica e atômica de processamento que agrupa uma ou mais instruções SQL (leitura e escrita) que devem ser executadas de modo estritamente indivisível. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "immediate".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "transactional". De acordo com a teoria estudada em *2.1 COMMIT, ROLLBACK e Gestão de SAVEPOINTs*, `ROLLBACK TO SAVEPOINT nome_ponto`: Reverte as operações executadas apenas após o marco especificado, mantendo preservadas as instruções anteriores ao savepoint.
 >
 > **Gabarito: D**
 
@@ -178,26 +178,26 @@ A linguagem SQL provê comandos dedicados para controlar as fronteiras transacio
 ---
 
 ### Teste 258
-**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Banco de Dados – 2023)**
-Transação é uma unidade lógica de trabalho e é fundamental para garantir a integridade e a consistência dos dados. Observe o seguinte script de uma transação implementada no MySQL: CREATE TABLE candidato (id INT, nome CHAR (50), INDEX (id)); START TRANSACTION; INSERT INTO candidato VALUES (1, 'JULIA'); INSERT INTO candidato VALUES (2, 'MARIA'); COMMIT; SET autocommit = 0; INSERT INTO candidato VALUES (3, 'SOFIA'); UPDATE candidato SET nome='ANA' WHERE id=3; DELETE FROM candidato WHERE nome='JULIA'; ROLLBACK; SELECT * FROM candidato; Após a execução do script apresentado, a consulta retornará as colunas id e nome com os valores:
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Engenharia Mecânica)**
+Os combustíveis líquidos aplicados na indústria apresentam diversas propriedades que os distinguem entre si. Quando se aplica uma chama escorvadora sobre a superfície líquida do combustível, a temperatura na qual ocorre uma combustão transitória é denominada
 
-* **A)** 2,MARIA
-* **B)** 1,JULIA 2,MARIA
-* **C)** 1,JULIA 2,MARIA 3,SOFIA
-* **D)** 1,JULIA 2,MARIA 3,ANA
-* **E)** 2,MARIA 3,ANA
+* **A)** ponto de fulgor.
+* **B)** ponto de ignição.
+* **C)** ponto de fluidez.
+* **D)** viscosidade sob calor.
+* **E)** Ponto de autoignição.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2,MARIA". De acordo com a teoria estudada em *2.1 COMMIT, ROLLBACK e Gestão de SAVEPOINTs*, `ROLLBACK TO SAVEPOINT nome_ponto`: Reverte as operações executadas apenas após o marco especificado, mantendo preservadas as instruções anteriores ao savepoint.
-> - **B)** **Correta.** Conforme fundamentado na seção *3.3 Leitura Fantasma (Phantom Read)* deste guia, definição: Ocorre quando a transação \$T_1\$ executa uma consulta filtrando um intervalo de dados (ex.: `SELECT * FROM contratos WHERE valor > 500000`) e recupera 10 tuplas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "1,JULIA 2,MARIA".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1,JULIA 2,MARIA 3,SOFIA". De acordo com a teoria estudada em *5.1 Bloqueios (Locks) e Matriz de Compatibilidade (Shared vs. Exclusive)*, bloqueio Exclusivo (Exclusive Lock - X): Solicitado para operações de modificação (`INSERT`, `UPDATE`, `DELETE`). Apenas uma transação pode reter o bloqueio exclusivo; nenhuma outra transação pode obter bloqueio S ou X sobre a mesma linha até sua liberação.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1,JULIA 2,MARIA 3,ANA". De acordo com a teoria estudada em *1. O Conceito Formal de Transação e o Modelo ACID*, uma transação de banco de dados é uma unidade lógica e atômica de processamento que agrupa uma ou mais instruções SQL (leitura e escrita) que devem ser executadas de modo estritamente indivisível.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2,MARIA 3,ANA". De acordo com a teoria estudada em *2.1 COMMIT, ROLLBACK e Gestão de SAVEPOINTs*, `ROLLBACK`: Cancela integralmente a transação, desfazendo todas as operações pendentes desde o `BEGIN TRANSACTION` e restaurando a base ao estado inicial.
+> - **A)** **Correta.** Conforme fundamentado na seção *2.1 COMMIT, ROLLBACK e Gestão de SAVEPOINTs* deste guia, `SAVEPOINT nome_ponto`: Estabelece um marco intermediário de salvamento dentro de uma transação aberta. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "ponto de fulgor".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ponto de ignição". De acordo com a teoria estudada em *2.1 COMMIT, ROLLBACK e Gestão de SAVEPOINTs*, `ROLLBACK TO SAVEPOINT nome_ponto`: Reverte as operações executadas apenas após o marco especificado, mantendo preservadas as instruções anteriores ao savepoint.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ponto de fluidez". De acordo com a teoria estudada em *1.1 Ciclo de Vida e Estados de uma Transação*, falha (*Failed*): Ocorre quando uma instrução viola uma restrição de integridade ou o sistema sofre interrupção antes da conclusão definitiva.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "viscosidade sob calor". De acordo com a teoria estudada em *1.2 As Quatro Propriedades Fundamentais: ACID*, as alterações não serão perdidas sob nenhuma hipótese, resistindo até mesmo a falhas catastróficas de energia física ou travamentos no sistema operacional da máquina servidora.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Ponto de autoignição". De acordo com a teoria estudada em *3.1 Leitura Suja (Dirty Read)*, definição: Ocorre quando uma transação $T_1$ modifica uma linha no buffer, a transação $T_2$ lê esse valor ainda não comitado, e logo em seguida a transação $T_1$ sofre um `ROLLBACK`.
 >
-> **Gabarito: B**
+> **Gabarito: A**
 
 ---
 
@@ -223,26 +223,20 @@ Quando múltiplas transações concorrem pelo acesso aos mesmos dados sem contro
 ---
 
 ### Teste 259
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Ciencia de Dados – 2024)**
-Um banco de dados projetado para apoiar a tarefa de alocação automática de analistas para os processos recém inseridos no sistema. O modelo relacional especificado e implementado restringe a alocação de processos apenas a analistas disponíveis no departamento. Caso haja tentativa de inserção de nome fora da lista de valores já registrados, a transação não será completada, ou seja, nenhum valor será inserido. Selecione a alternativa que contém duas propriedades de transação aplicáveis ao cenário acima.
+**(CEBRASPE – TRF/6 – 2025 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao)**
+Entre os dados exportáveis do Microsoft Outlook para um arquivo .pst estão emails e seus anexos, informações de calendário, propriedades de pastas, regras de mensagens e listas de remetentes bloqueados.
 
-* **A)** Atomicidade e Consistência.
-* **B)** Consistência e Durabilidade.
-* **C)** Durabilidade e Segurança.
-* **D)** Isolamento e Segurança.
-* **E)** Isolamento e Consistência.
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *1.3 Mecanismos Internos: Undo Log, Redo Log e Write-Ahead Logging (WAL)* deste guia, undo Log (Segmentos de Rollback): Registra os valores anteriores à modificação. Se uma transação falhar ou for cancelada, o SGBD lê o Undo Log para restaurar os dados originais (garantindo a Atomicidade). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "Atomicidade e Consistência".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Consistência e Durabilidade". De acordo com a teoria estudada em *1.3 Mecanismos Internos: Undo Log, Redo Log e Write-Ahead Logging (WAL)*, isso garante a Durabilidade: se faltar energia imediatamente após o commit, o SGBD lê o Redo Log no boot de recuperação (*Crash Recovery*) e reaplica (*redo*) as alterações nas tabelas.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Durabilidade e Segurança". De acordo com a teoria estudada em *1. O Conceito Formal de Transação e o Modelo ACID*, uma transação de banco de dados é uma unidade lógica e atômica de processamento que agrupa uma ou mais instruções SQL (leitura e escrita) que devem ser executadas de modo estritamente indivisível.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Isolamento e Segurança". De acordo com a teoria estudada em *4.2 Snapshot Isolation (Isolamento por Instantâneo)*, implementado em motores que utilizam controle de concorrência multiversão (MVCC).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Isolamento e Consistência". De acordo com a teoria estudada em *4.2 Snapshot Isolation (Isolamento por Instantâneo)*, no início da transação, o SGBD captura uma "fotografia" lógica (*snapshot*) do banco baseada no número de transação (*Transaction ID - XID*).
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *1.2 As Quatro Propriedades Fundamentais: ACID* deste guia, a transação não pode violar nenhuma regra de integridade declarativa (chaves primárias, chaves estrangeiras, restrições `CHECK`, valores `NOT NULL`) ou procedimental (gatilhos e regras de negócio). Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – TRF/6/2025) ao afirmar que "Entre os dados exportáveis do Microsoft Outlook para um arquivo .pst estão emails e seus anexos, informações...".
+> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *1.2 As Quatro Propriedades Fundamentais: ACID*, segundo a qual para que a integridade dos dados seja inviolável mesmo diante de falhas de hardware, interrupções de energia elétrica e concorrência massiva de usuários, o SGBD deve garantir integralmente as propriedades do acrônimo ACID (Jim Gray e Andreas Reuter).
 >
-> **Gabarito: A**
+> **Gabarito: C**
 
 ---
 
@@ -275,50 +269,50 @@ Implementado em motores que utilizam controle de concorrência multiversão (MVC
 ---
 
 ### Teste 260
-**(FGV – TJ-RR – Analista Judiciario Infraestrutura de Tecnologia da Informacao – 2024)**
-O administrador de banco de dados MySQL de um certo tribunal precisa restaurar o banco de dados MySQL, chamado "tjdb", usando o arquivo de backup nomeado backup_tjdb.sql". Para isso ele deve acessar o usuário root, usando a senha apropriada. Um comando que poderia ser usado é
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Ciência de Dados)**
+Um banco de dados projetado para apoiar a tarefa de alocação automática de analistas para os processos recém inseridos no sistema. O modelo relacional especificado e implementado restringe a alocação de processos apenas a analistas disponíveis no departamento. Caso haja tentativa de inserção de nome fora da lista de valores já registrados, a transação não será completada, ou seja, nenhum valor será inserido. Selecione a alternativa que contém duas propriedades de transação aplicáveis ao cenário acima.
 
-* **A)** mysql -u root -p tjdb > backup_tjdb.sql
-* **B)** mysql -u root -p -D tjdb < backup_tjdb.sql
-* **C)** mysql -u root -p -D tjdb > backup_tjdb.sql
-* **D)** mysql -u root -p -h tjdb < backup_tjdb.sql
-* **E)** mysql -u root -p -D tjdb backup_tjdb.sql
+* **A)** Atomicidade e Consistência.
+* **B)** Consistência e Durabilidade.
+* **C)** Durabilidade e Segurança.
+* **D)** Isolamento e Segurança.
+* **E)** Isolamento e Consistência.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "mysql -u root -p tjdb > backup_tjdb.sql". De acordo com a teoria estudada em *1. O Conceito Formal de Transação e o Modelo ACID*, uma transação de banco de dados é uma unidade lógica e atômica de processamento que agrupa uma ou mais instruções SQL (leitura e escrita) que devem ser executadas de modo estritamente indivisível.
-> - **B)** **Correta.** Conforme fundamentado na seção *4.1 Matriz de Isolamento vs. Fenômenos Admitidos* deste guia, `REPEATABLE READ`: ✅ Previne — ✅ Previne — ❌ Permite *(no ANSI)* — Lê o snapshot gerado no instante em que a primeira instrução da transação iniciou. *(Padrão no MySQL InnoDB)*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-RR/2024) ao estabelecer que "mysql -u root -p -D tjdb < backup_tjdb.sql".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "mysql -u root -p -D tjdb > backup_tjdb.sql". De acordo com a teoria estudada em *4.1 Matriz de Isolamento vs. Fenômenos Admitidos*, no PostgreSQL, a implementação prática do nível `REPEATABLE READ` via MVCC impede também leituras fantasmas; contudo, nas questões teóricas da FCC baseadas estritamente no padrão ANSI SQL-92, o candidato deve assinalar que o `REPEATABLE READ` admite Leitura Fantasma!.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "mysql -u root -p -h tjdb < backup_tjdb.sql". De acordo com a teoria estudada em *4. Níveis de Isolamento ANSI SQL-92*, a norma ANSI/ISO SQL-92 estabelece quatro níveis canônicos de isolamento transacional, regulados pela tolerância ou bloqueio formal às anomalias de concorrência.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "mysql -u root -p -D tjdb backup_tjdb.sql". De acordo com a teoria estudada em *1.1 Ciclo de Vida e Estados de uma Transação*, parcialmente Comitada (*Partially Committed*): A última instrução SQL foi processada na memória RAM, mas os dados ainda não foram gravados permanentemente no log em disco.
+> - **A)** **Correta.** Conforme fundamentado na seção *1.3 Mecanismos Internos: Undo Log, Redo Log e Write-Ahead Logging (WAL)* deste guia, undo Log (Segmentos de Rollback): Registra os valores anteriores à modificação. Se uma transação falhar ou for cancelada, o SGBD lê o Undo Log para restaurar os dados originais (garantindo a Atomicidade). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Atomicidade e Consistência".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Consistência e Durabilidade". De acordo com a teoria estudada em *1.3 Mecanismos Internos: Undo Log, Redo Log e Write-Ahead Logging (WAL)*, isso garante a Durabilidade: se faltar energia imediatamente após o commit, o SGBD lê o Redo Log no boot de recuperação (*Crash Recovery*) e reaplica (*redo*) as alterações nas tabelas.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Durabilidade e Segurança". De acordo com a teoria estudada em *1. O Conceito Formal de Transação e o Modelo ACID*, uma transação de banco de dados é uma unidade lógica e atômica de processamento que agrupa uma ou mais instruções SQL (leitura e escrita) que devem ser executadas de modo estritamente indivisível.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Isolamento e Segurança". De acordo com a teoria estudada em *4.2 Snapshot Isolation (Isolamento por Instantâneo)*, implementado em motores que utilizam controle de concorrência multiversão (MVCC).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Isolamento e Consistência". De acordo com a teoria estudada em *4.2 Snapshot Isolation (Isolamento por Instantâneo)*, no início da transação, o SGBD captura uma "fotografia" lógica (*snapshot*) do banco baseada no número de transação (*Transaction ID - XID*).
 >
-> **Gabarito: B**
+> **Gabarito: A**
 
 ---
 
 ### Teste 261
-**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Banco de Dados – 2023)**
-No contexto de transações em banco de dados, a transação T1 está inserindo um novo registro na tabela TB_JUIZ. Enquanto isso, a transação T2 está lendo todos os registros de TB_JUIZ para gerar uma listagem. Considere que: - T1 iniciou antes de T2; - T1 ainda não concluiu; e - T2 não enxerga o registro que está sendo inserido por T1. A situação apresentada acima representa um:
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Engenharia Civil)**
+Um pavimento de estrada é classificado como sendo flexível. Desta forma, pode-se dizer que duas das propriedades físicas desse pavimento são
 
-* **A)** bloqueio por inanição;
-* **B)** bloqueio do tipo Latches;
-* **C)** conflito causado por um registro fantasma;
-* **D)** conflito lógico entre T1 e T2, com bloqueio do item (registro) que está sendo inserido por T1;
-* **E)** deadlock que pode ser prevenido pelo esquema esperar-morrer (wait-die).
+* **A)** elevada atividade química e permeabilidade.
+* **B)** elevada atividade química e impermeabilidade.
+* **C)** Inércia química e baixa sensibilidade à temperatura.
+* **D)** inércia química e grande sensibilidade à temperatura.
+* **E)** permeabilidade e grande sensibilidade à temperatura.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "bloqueio por inanição". De acordo com a teoria estudada em *5.1 Bloqueios (Locks) e Matriz de Compatibilidade (Shared vs. Exclusive)*, bloqueio Compartilhado (Shared Lock - S): Solicitado para operações de leitura (`SELECT`). Múltiplas transações podem reter simultaneamente bloqueios compartilhados sobre o mesmo registro.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "bloqueio do tipo Latches". De acordo com a teoria estudada em *3.3 Leitura Fantasma (Phantom Read)*, impacto: Surgem novos registros ("fantasmas") que satisfazem a condição de busca no curso da mesma transação.
-> - **C)** **Correta.** Conforme fundamentado na seção *1.3 Mecanismos Internos: Undo Log, Redo Log e Write-Ahead Logging (WAL)* deste guia, a Regra Inviolável do WAL: O registro de log que descreve a alteração deve ser gravado fisicamente em disco síncrono ANTES que as páginas de dados correspondentes sejam descarregadas da memória RAM para os arquivos de dados (*datafiles*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "conflito causado por um registro fantasma".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "conflito lógico entre T1 e T2, com bloqueio do item (registro) que está sendo inserido por T1". De acordo com a teoria estudada em *1.1 Ciclo de Vida e Estados de uma Transação*, ativa (*Active*): O estado inicial. A transação está sendo executada pela aplicação.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "deadlock que pode ser prevenido pelo esquema esperar-morrer (wait-die)". De acordo com a teoria estudada em *5.4 Impasses (Deadlocks): Detecção via Wait-For Graph e Resolução por Transação Vítima*, um deadlock ocorre quando duas ou mais transações entram em estado de bloqueio mútuo e circular: a transação \$T_1\$ retém o recurso \$A\$ e aguarda o recurso \$B\$, enquanto a transação \$T_2\$ retém o recurso \$B\$ e aguarda o recurso \$A\$.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "elevada atividade química e permeabilidade". De acordo com a teoria estudada em *5.2 Protocolo de Bloqueio em Duas Fases (2PL - Two-Phase Locking): Básico, Estrito e Rigoroso*, *Fase de Crescimento (*Growing Phase*):* A transação pode adquirir quantos bloqueios precisar, mas é terminantemente proibida de liberar qualquer bloqueio.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "elevada atividade química e impermeabilidade". De acordo com a teoria estudada em *5.2 Protocolo de Bloqueio em Duas Fases (2PL - Two-Phase Locking): Básico, Estrito e Rigoroso*, *Fase de Encolhimento (*Shrinking Phase*):* A transação pode liberar bloqueios já utilizados, mas é terminantemente proibida de adquirir novos bloqueios.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Inércia química e baixa sensibilidade à temperatura". De acordo com a teoria estudada em *1.1 Ciclo de Vida e Estados de uma Transação*, ativa (*Active*): O estado inicial. A transação está sendo executada pela aplicação.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.2 As Quatro Propriedades Fundamentais: ACID* deste guia, a transação não pode violar nenhuma regra de integridade declarativa (chaves primárias, chaves estrangeiras, restrições `CHECK`, valores `NOT NULL`) ou procedimental (gatilhos e regras de negócio). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "inércia química e grande sensibilidade à temperatura".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "permeabilidade e grande sensibilidade à temperatura". De acordo com a teoria estudada em *5.1 Bloqueios (Locks) e Matriz de Compatibilidade (Shared vs. Exclusive)*, bloqueio Exclusivo (Exclusive Lock - X): Solicitado para operações de modificação (`INSERT`, `UPDATE`, `DELETE`). Apenas uma transação pode reter o bloqueio exclusivo; nenhuma outra transação pode obter bloqueio S ou X sobre a mesma linha até sua liberação.
 >
-> **Gabarito: C**
+> **Gabarito: D**
 
 ---
 
@@ -386,79 +380,79 @@ flowchart LR
 ---
 
 ### Teste 262
-**(FUMARC – TRT-3 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2022)**
-27 Considere que a mensagem de erro em inglês técnico “Transaction (Process ID XX) was deadlocked on lock resources with another process and has been chosen as the deadlock victim. Rerun the transaction.” foi recebida por um usuário de uma aplicação, cujo banco de dados é o Microsoft SQL Server. De acordo com esta mensagem, assinale a opção que MELHOR explica o significado da mensagem:
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Engenharia Civil)**
+Uma das propriedades físicas de um solo é o grau de saturação. Em uma amostra, essa propriedade pode ser medida como a razão entre o volume ocupado pela água e
 
-* **A)** Uma transação entrou em deadlock (impasse) ao bloquear recursos com outro processo e foi escolhida como a vítima do deadlock. A transação será executada novamente de forma automática.
-* **B)** Uma transação entrou em deadlock (impasse) ao bloquear recursos com outro processo e foi escolhida como a vítima do deadlock. Execute a transação novamente.
-* **C)** Uma transação foi bloqueada por outro processo que rodava uma transação de deadlock (impasse) e foi escolhida como a vítima deste processo. Execute a transação novamente.
-* **D)** Uma transação foi bloqueada por outro processo que rodava uma transação de deadlock (impasse) e foi escolhida como a vítima deste processo. A transação será executada novamente de forma automática.
-* **E)** Uma transação foi bloqueada por recursos de deadlock (impasse) com outro processo e foi escolhida como a vítima dos bloqueios. A transação será executada novamente de forma automática.
+* **A)** a soma dos volumes de água e solo.
+* **B)** a soma dos volumes de água e ar.
+* **C)** o volume de solo.
+* **D)** o volume de ar.
+* **E)** o volume total.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Uma transação entrou em deadlock (impasse) ao bloquear recursos com outro processo e foi escolhida como a vítima...". De acordo com a teoria estudada em *5.4 Impasses (Deadlocks): Detecção via Wait-For Graph e Resolução por Transação Vítima*, detecção via Wait-For Graph (Grafo de Espera): O SGBD constrói dinamicamente um grafo direcionado onde os nós são transações e as arestas indicam dependências de espera. A detecção de um ciclo no grafo sinaliza formalmente um deadlock.
-> - **B)** **Correta.** Conforme fundamentado na seção *5.4 Impasses (Deadlocks): Detecção via Wait-For Graph e Resolução por Transação Vítima* deste guia, um deadlock ocorre quando duas ou mais transações entram em estado de bloqueio mútuo e circular: a transação \$T_1\$ retém o recurso \$A\$ e aguarda o recurso \$B\$, enquanto a transação \$T_2\$ retém o recurso \$B\$ e aguarda o recurso \$A\$. Dessa forma, está plenamente correta a assertiva da banca (FUMARC – TRT-3/2022) ao estabelecer que "Uma transação entrou em deadlock (impasse) ao bloquear recursos com outro processo e foi escolhida como a vítima...".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Uma transação foi bloqueada por outro processo que rodava uma transação de deadlock (impasse) e foi escolhida como...". De acordo com a teoria estudada em *5.4 Impasses (Deadlocks): Detecção via Wait-For Graph e Resolução por Transação Vítima*, resolução via Transação Vítima: Ao detectar o ciclo, o SGBD seleciona uma transação vítima (com base em critérios de menor custo computacional ou menor volume de dados alterados), aborta sua execução compulsoriamente via `ROLLBACK` forçado e devolve o erro à aplicação cliente.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Uma transação foi bloqueada por outro processo que rodava uma transação de deadlock (impasse) e foi escolhida como...". De acordo com a teoria estudada em *1.2 As Quatro Propriedades Fundamentais: ACID*, garante que a transação conduz o banco de dados de um estado válido para outro estado igualmente válido.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Uma transação foi bloqueada por recursos de deadlock (impasse) com outro processo e foi escolhida como a vítima...". De acordo com a teoria estudada em *2.1 COMMIT, ROLLBACK e Gestão de SAVEPOINTs*, `COMMIT`: Finaliza a transação com sucesso, gravando definitivamente todas as alterações pendentes no log transacional e liberando todos os bloqueios (*locks*) de recursos retidos.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a soma dos volumes de água e solo". De acordo com a teoria estudada em *5.4 Impasses (Deadlocks): Detecção via Wait-For Graph e Resolução por Transação Vítima*, resolução via Transação Vítima: Ao detectar o ciclo, o SGBD seleciona uma transação vítima (com base em critérios de menor custo computacional ou menor volume de dados alterados), aborta sua execução compulsoriamente via `ROLLBACK` forçado e devolve o erro à aplicação cliente.
+> - **B)** **Correta.** Conforme fundamentado na seção *3.4 Atualização Perdida (Lost Update)* deste guia, definição: Duas transações ($T_1$ e $T_2$) leem simultaneamente a mesma tupla (ex.: saldo = 100). Ambas realizam cálculos locais independentes ($T_1$ soma 50; $T_2$ subtrai 30) e gravam os novos valores. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "a soma dos volumes de água e ar".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o volume de solo". De acordo com a teoria estudada em *1.2 As Quatro Propriedades Fundamentais: ACID*, a transação não pode violar nenhuma regra de integridade declarativa (chaves primárias, chaves estrangeiras, restrições `CHECK`, valores `NOT NULL`) ou procedimental (gatilhos e regras de negócio).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o volume de ar". De acordo com a teoria estudada em *1.2 As Quatro Propriedades Fundamentais: ACID*, assegura que a execução concomitante de múltiplas transações seja invisível entre si. Os efeitos intermediários e temporários de uma transação não comitada não podem ser observados por outras transações concorrentes.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o volume total". De acordo com a teoria estudada em *2.1 COMMIT, ROLLBACK e Gestão de SAVEPOINTs*, atenção: O comando `ROLLBACK TO SAVEPOINT` NÃO encerra a transação; ela permanece aberta aguardando novas instruções ou a finalização formal com `COMMIT` ou `ROLLBACK` total.
 >
 > **Gabarito: B**
 
 ---
 
 ### Teste 263
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Ciencia de Dados – 2024)**
-Para garantir que operações complexas sejam executadas de maneira segura e eficiente, assegurando que o banco de dados mantenha sua integridade mesmo em situações adversas, os Sistemas de Gerenciamento de Banco de Dados (SGBD) implementam o conceito de transação. Transação é
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Engenharia Mecânica)**
+Entre os materiais utilizados na indústria, encontram-se os chamados materiais “compósitos”, que se constituem da combinação de dois ou mais diferentes materiais, que não dissolvem um no outro, e que resultam em propriedades não verificadas nos constituintes individuais. Assinale a opção que apresenta dois exemplos de materiais compósitos.
 
-* **A)** um conjunto de operações que são executadas sequencialmente para garantir a integridade dos dados.
-* **B)** um mecanismo que permite a cópia de segurança (backup) automática dos dados do banco.
-* **C)** um protocolo utilizado para distribuir os dados entre diferentes servidores de banco de dados.
-* **D)** um conjunto de operações que devem ser tratadas como uma unidade atômica e indivisível.
-* **E)** um método para criar índices que otimizam o acesso aos dados armazenados.
+* **A)** Polímeros e semicondutores.
+* **B)** Ferro fundido e cobre.
+* **C)** Magnésio e titânio.
+* **D)** Concreto e asfalto.
+* **E)** Alumina e silícia.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um conjunto de operações que são executadas sequencialmente para garantir a integridade dos dados". De acordo com a teoria estudada em *1.2 As Quatro Propriedades Fundamentais: ACID*, para que a integridade dos dados seja inviolável mesmo diante de falhas de hardware, interrupções de energia elétrica e concorrência massiva de usuários, o SGBD deve garantir integralmente as propriedades do acrônimo ACID (Jim Gray e Andreas Reuter).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um mecanismo que permite a cópia de segurança (backup) automática dos dados do banco". De acordo com a teoria estudada em *1.2 As Quatro Propriedades Fundamentais: ACID*, princípio do "tudo ou nada" (*all-or-nothing*). Todas as operações que compõem a transação são consolidadas em conjunto no banco de dados, ou nenhuma delas produzirá efeito algum. Não existe efetivação parcial de transação.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um protocolo utilizado para distribuir os dados entre diferentes servidores de banco de dados". De acordo com a teoria estudada em *5.2 Protocolo de Bloqueio em Duas Fases (2PL - Two-Phase Locking): Básico, Estrito e Rigoroso*, rigorous 2PL (2PL Rigoroso): Todos os bloqueios (tanto compartilhados - S quanto exclusivos - X) devem ser mantidos até o `COMMIT` ou `ROLLBACK`. É a variante mais utilizada na prática por garantir serializabilidade estrita.
-> - **D)** **Correta.** Conforme fundamentado na seção *1. O Conceito Formal de Transação e o Modelo ACID* deste guia, uma transação de banco de dados é uma unidade lógica e atômica de processamento que agrupa uma ou mais instruções SQL (leitura e escrita) que devem ser executadas de modo estritamente indivisível. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "um conjunto de operações que devem ser tratadas como uma unidade atômica e indivisível".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um método para criar índices que otimizam o acesso aos dados armazenados". De acordo com a teoria estudada em *5.2 Protocolo de Bloqueio em Duas Fases (2PL - Two-Phase Locking): Básico, Estrito e Rigoroso*, strict 2PL (2PL Estrito): Todos os bloqueios exclusivos (X) devem ser mantidos até o fim definitivo da transação (`COMMIT` ou `ROLLBACK`). Evita abortos em cascata (*cascadeless schedules*).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Polímeros e semicondutores". De acordo com a teoria estudada em *5.2 Protocolo de Bloqueio em Duas Fases (2PL - Two-Phase Locking): Básico, Estrito e Rigoroso*, *Fase de Encolhimento (*Shrinking Phase*):* A transação pode liberar bloqueios já utilizados, mas é terminantemente proibida de adquirir novos bloqueios.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Ferro fundido e cobre". De acordo com a teoria estudada em *5.2 Protocolo de Bloqueio em Duas Fases (2PL - Two-Phase Locking): Básico, Estrito e Rigoroso*, rigorous 2PL (2PL Rigoroso): Todos os bloqueios (tanto compartilhados - S quanto exclusivos - X) devem ser mantidos até o `COMMIT` ou `ROLLBACK`. É a variante mais utilizada na prática por garantir serializabilidade estrita.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Magnésio e titânio". De acordo com a teoria estudada em *5.4 Impasses (Deadlocks): Detecção via Wait-For Graph e Resolução por Transação Vítima*, um deadlock ocorre quando duas ou mais transações entram em estado de bloqueio mútuo e circular: a transação $T_1$ retém o recurso $A$ e aguarda o recurso $B$, enquanto a transação $T_2$ retém o recurso $B$ e aguarda o recurso $A$.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.2 As Quatro Propriedades Fundamentais: ACID* deste guia, garante que a transação conduz o banco de dados de um estado válido para outro estado igualmente válido. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Concreto e asfalto".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Alumina e silícia". De acordo com a teoria estudada em *5.4 Impasses (Deadlocks): Detecção via Wait-For Graph e Resolução por Transação Vítima*, *Wait-Die (Não-preemptivo):* Se a transação mais antiga solicitar recurso retido pela mais nova, ela espera (*wait*); se a mais nova solicitar recurso retido pela mais antiga, a mais nova morre (*die/rollback*).
 >
 > **Gabarito: D**
 
 ---
 
 ### Teste 264
-**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Banco de Dados – 2023)**
-João, administrador de banco de dados MySQL, deverá realizar, periodicamente, o backup lógico completo do banco de dados "tjap_db". Para isso, João deverá utilizar o comando:
+**(FGV – TRF/1 – 2024 – Analista Judiciario Area Apoio Especializado Especialidade Tecnologia Da Informacao)**
+João editou o documento ListaNomes.odt com informações sensíveis e quer enviá-lo para Maria com segurança utilizando uma senha. No LibreOffice, para definir uma senha para Maria abrir o documento ListaNomes.odt, João deve executar:
 
-* **A)** backup -u root -p tjap_db > backup.sql;
-* **B)** mydump -u root -p tjap_db > backup.sql;
-* **C)** mybackup -u root -p tjap_db > backup.sql;
-* **D)** mysqldump -u root -p tjap_db > backup.sql;
-* **E)** select * from tjap_db into outfile backup.sql;
+* **A)** Formatar/Congelar Documento
+* **B)** Ferramenta/Proteger Documento
+* **C)** Geral/Segurança/Definir Senha
+* **D)** Editar/Registrar Alterações
+* **E)** Propriedades/Segurança/Proteger
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "backup -u root -p tjap_db > backup.sql". De acordo com a teoria estudada em *1.1 Ciclo de Vida e Estados de uma Transação*, parcialmente Comitada (*Partially Committed*): A última instrução SQL foi processada na memória RAM, mas os dados ainda não foram gravados permanentemente no log em disco.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "mydump -u root -p tjap_db > backup.sql". De acordo com a teoria estudada em *2. Comandos de Controle Transacional (TCL)*, a linguagem SQL provê comandos dedicados para controlar as fronteiras transacionais.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "mybackup -u root -p tjap_db > backup.sql". De acordo com a teoria estudada em *4. Níveis de Isolamento ANSI SQL-92*, a norma ANSI/ISO SQL-92 estabelece quatro níveis canônicos de isolamento transacional, regulados pela tolerância ou bloqueio formal às anomalias de concorrência.
-> - **D)** **Correta.** Conforme fundamentado na seção *1. O Conceito Formal de Transação e o Modelo ACID* deste guia, uma transação de banco de dados é uma unidade lógica e atômica de processamento que agrupa uma ou mais instruções SQL (leitura e escrita) que devem ser executadas de modo estritamente indivisível. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "mysqldump -u root -p tjap_db > backup.sql".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "select * from tjap_db into outfile backup.sql". De acordo com a teoria estudada em *3.3 Leitura Fantasma (Phantom Read)*, definição: Ocorre quando a transação \$T_1\$ executa uma consulta filtrando um intervalo de dados (ex.: `SELECT * FROM contratos WHERE valor > 500000`) e recupera 10 tuplas.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Formatar/Congelar Documento". De acordo com a teoria estudada em *1.2 As Quatro Propriedades Fundamentais: ACID*, para que a integridade dos dados seja inviolável mesmo diante de falhas de hardware, interrupções de energia elétrica e concorrência massiva de usuários, o SGBD deve garantir integralmente as propriedades do acrônimo ACID (Jim Gray e Andreas Reuter).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Ferramenta/Proteger Documento". De acordo com a teoria estudada em *1.2 As Quatro Propriedades Fundamentais: ACID*, o resultado final deve equivaler a uma execução estritamente sequencial (*serializável*).
+> - **C)** **Correta.** Conforme fundamentado na seção *1. O Conceito Formal de Transação e o Modelo ACID* deste guia, no contexto de auditoria e controle externo no setor público, uma transação típica é a liquidação de uma despesa orçamentária: o sistema deve simultaneamente debitar o saldo do empenho e creditar a conta bancária do fornecedor. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF/1/2024) ao estabelecer que "Geral/Segurança/Definir Senha".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Editar/Registrar Alterações". De acordo com a teoria estudada em *1.1 Ciclo de Vida e Estados de uma Transação*, comitada (*Committed*): Todas as alterações foram confirmadas e gravadas no log transacional em armazenamento persistente (*Write-Ahead Logging*). A transação foi concluída com sucesso.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Propriedades/Segurança/Proteger". De acordo com a teoria estudada em *1.2 As Quatro Propriedades Fundamentais: ACID*, princípio do "tudo ou nada" (*all-or-nothing*). Todas as operações que compõem a transação são consolidadas em conjunto no banco de dados, ou nenhuma delas produzirá efeito algum. Não existe efetivação parcial de transação.
 >
-> **Gabarito: D**
+> **Gabarito: C**
 
 ---
 
 ### Teste 265
-**(FGV – TRF-1 – Analista Judiciario Area Apoio Especializado Especialidade Suporte Em Tecnologia da Informacao – 2024)**
+**(FGV – TRF/1 – 2024 – Analista Judiciario Area Apoio Especializado Especialidade Suporte Em Tecnologia Da Informacao)**
 Ana identificou que, em seu banco de dados, ocorria muita demora na execução de algumas transações específicas, que chegavam até a falhar algumas vezes. Ao efetuar uma análise, viu que não havia controle nas transações ocorridas. Como forma de garantir seus schedules estritos, Ana implementou um bloqueio em 2 fases rigoroso. Esse bloqueio implementado por Ana fará com que:
 
 * **A)** uma transação bloqueie todos os itens que ela acessa antes que a transação inicie a execução;
@@ -471,35 +465,35 @@ Ana identificou que, em seu banco de dados, ocorria muita demora na execução d
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "uma transação bloqueie todos os itens que ela acessa antes que a transação inicie a execução". De acordo com a teoria estudada em *5.2 Protocolo de Bloqueio em Duas Fases (2PL - Two-Phase Locking): Básico, Estrito e Rigoroso*, rigorous 2PL (2PL Rigoroso): Todos os bloqueios (tanto compartilhados - S quanto exclusivos - X) devem ser mantidos até o `COMMIT` ou `ROLLBACK`. É a variante mais utilizada na prática por garantir serializabilidade estrita.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "seja executado um downgrade do bloqueio ao se emitir uma operação read_lock(X), mesmo com a transação ainda em...". De acordo com a teoria estudada em *5.1 Bloqueios (Locks) e Matriz de Compatibilidade (Shared vs. Exclusive)*, bloqueio Compartilhado (Shared Lock - S): Solicitado para operações de leitura (`SELECT`). Múltiplas transações podem reter simultaneamente bloqueios compartilhados sobre o mesmo registro.
-> - **C)** **Correta.** Conforme fundamentado na seção *5.2 Protocolo de Bloqueio em Duas Fases (2PL - Two-Phase Locking): Básico, Estrito e Rigoroso* deste guia, strict 2PL (2PL Estrito): Todos os bloqueios exclusivos (X) devem ser mantidos até o fim definitivo da transação (`COMMIT` ou `ROLLBACK`). Evita abortos em cascata (*cascadeless schedules*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF-1/2024) ao estabelecer que "uma transação T não libere nenhum de seus bloqueios exclusivos (gravação) até depois de confirmar ou abortar".
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "uma transação bloqueie todos os itens que ela acessa antes que a transação inicie a execução". De acordo com a teoria estudada em *5.1 Bloqueios (Locks) e Matriz de Compatibilidade (Shared vs. Exclusive)*, bloqueio Exclusivo (Exclusive Lock - X): Solicitado para operações de modificação (`INSERT`, `UPDATE`, `DELETE`). Apenas uma transação pode reter o bloqueio exclusivo; nenhuma outra transação pode obter bloqueio S ou X sobre a mesma linha até sua liberação.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "seja executado um downgrade do bloqueio ao se emitir uma operação read_lock(X), mesmo com a transação ainda em...". De acordo com a teoria estudada em *5.2 Protocolo de Bloqueio em Duas Fases (2PL - Two-Phase Locking): Básico, Estrito e Rigoroso*, strict 2PL (2PL Estrito): Todos os bloqueios exclusivos (X) devem ser mantidos até o fim definitivo da transação (`COMMIT` ou `ROLLBACK`). Evita abortos em cascata (*cascadeless schedules*).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "uma transação T não libere nenhum de seus bloqueios exclusivos (gravação) até depois de confirmar ou abortar". De acordo com a teoria estudada em *5.2 Protocolo de Bloqueio em Duas Fases (2PL - Two-Phase Locking): Básico, Estrito e Rigoroso*, rigorous 2PL (2PL Rigoroso): Todos os bloqueios (tanto compartilhados - S quanto exclusivos - X) devem ser mantidos até o `COMMIT` ou `ROLLBACK`. É a variante mais utilizada na prática por garantir serializabilidade estrita.
 > - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "seja gerado um rótulo de tempo, que será usado para garantir a serialização das transações". De acordo com a teoria estudada em *5.2 Protocolo de Bloqueio em Duas Fases (2PL - Two-Phase Locking): Básico, Estrito e Rigoroso*, o protocolo 2PL garante a serializabilidade, mas NÃO evita impasses (*deadlocks*)! Transações operando sob o 2PL básico podem sofrer deadlocks frequentemente.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "uma transação T não libere nenhum de seus bloqueios (exclusivo ou compartilhado) até depois de confirmar ou abortar". De acordo com a teoria estudada em *5.1 Bloqueios (Locks) e Matriz de Compatibilidade (Shared vs. Exclusive)*, bloqueio Exclusivo (Exclusive Lock - X): Solicitado para operações de modificação (`INSERT`, `UPDATE`, `DELETE`). Apenas uma transação pode reter o bloqueio exclusivo; nenhuma outra transação pode obter bloqueio S ou X sobre a mesma linha até sua liberação.
+> - **E)** **Correta.** Conforme fundamentado na seção *5.1 Bloqueios (Locks) e Matriz de Compatibilidade (Shared vs. Exclusive)* deste guia, bloqueio Compartilhado (Shared Lock - S): Solicitado para operações de leitura (`SELECT`). Múltiplas transações podem reter simultaneamente bloqueios compartilhados sobre o mesmo registro. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF/1/2024) ao estabelecer que "uma transação T não libere nenhum de seus bloqueios (exclusivo ou compartilhado) até depois de confirmar ou abortar".
 >
-> **Gabarito: C**
+> **Gabarito: E**
 
 ---
 
 ### Teste 266
-**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Banco de Dados – 2023)**
-O mecanismo de recuperação de banco de dados precisa garantir que uma transação possa ser desfeita. Para execução do rollback em cascata são necessárias entradas de log do(s) valor(es):
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Engenharia Civil)**
+A NBR 7190:2021 especifica que as propriedades de resistência da madeira correspondem a peças classe 1 de umidade, ou seja, a norma considera peças com teor de umidade de equilíbrio de 12%. Desse modo, uma madeira com resistência última à tração igual a 10,0MPa caracterizada a 20% de umidade deve ter sua resistência, para fins de utilização da NBR 7190:2021, corrigida para
 
-* **A)** novo;
-* **B)** antigo;
-* **C)** antigo e novo;
-* **D)** write-ahead;
-* **E)** undo/redo.
+* **A)** 7,6MPa.
+* **B)** 12,4MPa.
+* **C)** 14,8MPa.
+* **D)** 16,7MPa.
+* **E)** 19,2MPa.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "novo". De acordo com a teoria estudada em *4.1 Matriz de Isolamento vs. Fenômenos Admitidos*, `READ COMMITTED`: ✅ Previne — ❌ Permite — ❌ Permite — Lê apenas dados já comitados. Cada instrução `SELECT` tira um novo snapshot. *(Padrão em PostgreSQL e Oracle)*.
-> - **B)** **Correta.** Conforme fundamentado na seção *5.2 Protocolo de Bloqueio em Duas Fases (2PL - Two-Phase Locking): Básico, Estrito e Rigoroso* deste guia, strict 2PL (2PL Estrito): Todos os bloqueios exclusivos (X) devem ser mantidos até o fim definitivo da transação (`COMMIT` ou `ROLLBACK`). Evita abortos em cascata (*cascadeless schedules*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "antigo".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "antigo e novo". De acordo com a teoria estudada em *5.2 Protocolo de Bloqueio em Duas Fases (2PL - Two-Phase Locking): Básico, Estrito e Rigoroso*, rigorous 2PL (2PL Rigoroso): Todos os bloqueios (tanto compartilhados - S quanto exclusivos - X) devem ser mantidos até o `COMMIT` ou `ROLLBACK`. É a variante mais utilizada na prática por garantir serializabilidade estrita.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "write-ahead". De acordo com a teoria estudada em *1.3 Mecanismos Internos: Undo Log, Redo Log e Write-Ahead Logging (WAL)*, a Regra Inviolável do WAL: O registro de log que descreve a alteração deve ser gravado fisicamente em disco síncrono ANTES que as páginas de dados correspondentes sejam descarregadas da memória RAM para os arquivos de dados (*datafiles*).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "undo/redo". De acordo com a teoria estudada em *1.3 Mecanismos Internos: Undo Log, Redo Log e Write-Ahead Logging (WAL)*, isso garante a Durabilidade: se faltar energia imediatamente após o commit, o SGBD lê o Redo Log no boot de recuperação (*Crash Recovery*) e reaplica (*redo*) as alterações nas tabelas.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "7,6MPa". De acordo com a teoria estudada em *1.2 As Quatro Propriedades Fundamentais: ACID*, o resultado final deve equivaler a uma execução estritamente sequencial (*serializável*).
+> - **B)** **Correta.** Conforme fundamentado na seção *1.2 As Quatro Propriedades Fundamentais: ACID* deste guia, para que a integridade dos dados seja inviolável mesmo diante de falhas de hardware, interrupções de energia elétrica e concorrência massiva de usuários, o SGBD deve garantir integralmente as propriedades do acrônimo ACID (Jim Gray e Andreas Reuter). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "12,4MPa".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "14,8MPa". De acordo com a teoria estudada em *1. O Conceito Formal de Transação e o Modelo ACID*, uma transação de banco de dados é uma unidade lógica e atômica de processamento que agrupa uma ou mais instruções SQL (leitura e escrita) que devem ser executadas de modo estritamente indivisível.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "16,7MPa". De acordo com a teoria estudada em *1.1 Ciclo de Vida e Estados de uma Transação*, parcialmente Comitada (*Partially Committed*): A última instrução SQL foi processada na memória RAM, mas os dados ainda não foram gravados permanentemente no log em disco.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "19,2MPa". De acordo com a teoria estudada em *3.2 Leitura Não Repetível (Non-Repeatable Read)*, definição: Ocorre quando a transação $T_1$ consulta uma linha específica. Em seguida, a transação $T_2$ altera ou apaga essa exata linha e executa `COMMIT`.
 >
 > **Gabarito: B**
 

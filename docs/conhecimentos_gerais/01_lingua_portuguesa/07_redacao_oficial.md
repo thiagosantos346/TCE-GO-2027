@@ -92,7 +92,7 @@ O documento de referência primária no Brasil é o **Manual de Redação da Pre
 ---
 
 ### Teste 062
-**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Administracao – 2026)**
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
 O Manual de Redação da Presidência da República (2018) estabelece padrões para a produção de documentos oficiais, diferenciando-os conforme sua finalidade, seu destinatário e sua forma de circulação. Com base nesses padrões, assinale a afirmativa correta.
 
 * **A)** O memorando é o documento oficial adequado para a comunicação entre órgãos de diferentes esferas federativas, sendo vedado seu uso para comunicações internas de um mesmo órgão.
@@ -105,13 +105,13 @@ O Manual de Redação da Presidência da República (2018) estabelece padrões p
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *1.1 Definição e Finalidade da Comunicação Pública* deste guia, a redação oficial destina-se a viabilizar a comunicação clara, transparente e juridicamente vinculante entre os órgãos da administração pública direta e indireta dos Poderes Executivo, Legislativo e Judiciário, bem como entre estes e os administrados em geral. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "O memorando é o documento oficial adequado para a comunicação entre órgãos de diferentes esferas federativas...".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A ata é um documento de caráter normativo, utilizado para registrar decisões de caráter vinculante emanadas de...". De acordo com a teoria estudada em *4.1 Unificação Formal: Extinção do Aviso e do Memorando*, historicamente, a administração federal brasileira dividia suas correspondências formais entre três modalidades: o *Ofício* (comunicação externa com outros órgãos ou particulares), o *Aviso* (comunicação exclusiva expedida por Ministros de Estado para autoridades de idêntica hierarquia) e o *Memorando* (comunicação interna de caráter eminentemente intersetorial).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O ofício é o documento oficial utilizado tanto para comunicações entre unidades de um mesmo órgão quanto para a...". De acordo com a teoria estudada em *4.1 Unificação Formal: Extinção do Aviso e do Memorando*, o ofício passou a ser o instrumento geral de comunicação tanto externa quanto interna.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O relatório tem como finalidade registrar, de forma sumária e cronológica, acontecimentos e deliberações ocorridos...". De acordo com a teoria estudada em *1.3 Evolução Normativa: O MRPR 3ª Edição e o Decreto Federal nº 9.758/2019*, o documento de referência primária no Brasil é o Manual de Redação da Presidência da República (MRPR), cuja 3ª edição (revista e atualizada em 2018) unificou expedientes históricos e aboliu formalismos estéreis.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A ata é o instrumento adequado para encaminhar documentos ou informações entre diferentes órgãos públicos, devendo...". De acordo com a teoria estudada em *4.2 Partes Componentes e Diagramação Oficial do Ofício*, identificação do Expediente: Alinhado à margem esquerda, composto por tipo do documento, número, ano e sigla do órgão emissor (*Ofício 123/2026/GAB-PRES/TCE-GO*).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O memorando é o documento oficial adequado para a comunicação entre órgãos de diferentes esferas federativas...". De acordo com a teoria estudada em *4.1 Unificação Formal: Extinção do Aviso e do Memorando*, o ofício passou a ser o instrumento geral de comunicação tanto externa quanto interna.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A ata é um documento de caráter normativo, utilizado para registrar decisões de caráter vinculante emanadas de...". De acordo com a teoria estudada em *1.1 Definição e Finalidade da Comunicação Pública*, a redação oficial destina-se a viabilizar a comunicação clara, transparente e juridicamente vinculante entre os órgãos da administração pública direta e indireta dos Poderes Executivo, Legislativo e Judiciário, bem como entre estes e os administrados em geral.
+> - **C)** **Correta.** Conforme fundamentado na seção *4.1 Unificação Formal: Extinção do Aviso e do Memorando* deste guia, historicamente, a administração federal brasileira dividia suas correspondências formais entre três modalidades: o *Ofício* (comunicação externa com outros órgãos ou particulares), o *Aviso* (comunicação exclusiva expedida por Ministros de Estado para autoridades de idêntica hierarquia) e o *Memorando* (comunicação interna de caráter eminentemente intersetorial). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "O ofício é o documento oficial utilizado tanto para comunicações entre unidades de um mesmo órgão quanto para a...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O relatório tem como finalidade registrar, de forma sumária e cronológica, acontecimentos e deliberações ocorridos...". De acordo com a teoria estudada em *4.2 Partes Componentes e Diagramação Oficial do Ofício*, identificação do Expediente: Alinhado à margem esquerda, composto por tipo do documento, número, ano e sigla do órgão emissor (*Ofício 123/2026/GAB-PRES/TCE-GO*).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A ata é o instrumento adequado para encaminhar documentos ou informações entre diferentes órgãos públicos, devendo...". De acordo com a teoria estudada em *1.3 Evolução Normativa: O MRPR 3ª Edição e o Decreto Federal nº 9.758/2019*, o documento de referência primária no Brasil é o Manual de Redação da Presidência da República (MRPR), cuja 3ª edição (revista e atualizada em 2018) unificou expedientes históricos e aboliu formalismos estéreis.
 >
-> **Gabarito: A**
+> **Gabarito: C**
 
 ---
 
@@ -155,50 +155,50 @@ O emprego da norma-padrão da língua portuguesa decorre do fato de que a língu
 ---
 
 ### Teste 063
-**(FGV – TRT-24 – Analista Judiciario Area Administrativa Sem Especialidade – 2025)**
-Os documentos oficiais da Administração Pública devem observar, entre outros, os princípios da clareza, concisão, impessoalidade e objetividade na sua redação. Assinale a opção em que há uma inadequação em relação a um ou mais desses princípios.
+**(FCC – TRT 3ª – 2015 – Analista Judiciário - Tecnologia da Informação)**
+A redação clara e correta, segundo a norma-padrão, é:
 
-* **A)** A sociedade se divide em duas classes: os que têm mais refeições que apetite e os que têm mais apetite que refeições.
-* **B)** Só existe uma coisa melhor do que fazer novos amigos: conservar os velhos.
-* **C)** São necessários três elementos para amar os vizinhos: desejar o melhor possível para todos, fazermos o bem que pudermos e aguentar as falhas dos outros.
-* **D)** Há dois tipos de pessoas: aquelas que terminam o que começam e aquelas que estão sempre começando.
-* **E)** Existem duas classes de escritores geniais: os que pensam obras imortais são eternos.
+* **A)** A não erradicação da tuberculose, além de ser decorrente da pobreza, seu motivo é também devido a pacientes no início do tratamento sentirem-se curados, abandonando o mesmo e possibilitando, dessa forma, o aparecimento de cepas resistentes às drogas.
+* **B)** O motivo da não erradicação da tuberculose, doença decorrente da pobreza, é porque pacientes no início do tratamento sentem-se curados, o que leva a abandoná-lo, possibilitando dessa forma, o aparecimento de cepas resistentes às drogas.
+* **C)** A não erradicação da tuberculose, além de decorrente da pobreza, é também devido a pacientes, no início do tratamento, sentirem-se curados, abandonando o mesmo e possibilitando, dessa forma, o aparecimento de cepas resistentes às drogas.
+* **D)** O motivo da não erradicação da tuberculose, doença decorrente da pobreza, é também devido pacientes iniciando tratamento sentirem-se curados; abandonam o mesmo e possibilitando, dessa forma, o aparecimento de cepas resistentes às drogas.
+* **E)** O motivo da não erradicação da tuberculose, doença decorrente da pobreza, é também o fato de pacientes, no início do tratamento, sentirem-se curados, o que os faz abandoná-lo, possibilitando, dessa forma, o aparecimento de cepas resistentes às drogas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A sociedade se divide em duas classes: os que têm mais refeições que apetite e os que têm mais apetite que...". De acordo com a teoria estudada em *3.5 Abolição de Fórmulas Laudatórias, Adulações e Arcaísmos*, é vedado o uso de fórmulas de encerramento vazias ou servientes (*"Com votos de elevado apreço e distinta consideração"*, *"Aproveito o ensejo para renovar protestos de estima"* ou *"Sem mais para o momento"*).
-> - **B)** **Correta.** Conforme fundamentado na seção *1.2 Fundamentos Constitucionais: O Artigo 37 da CF/88 e os Princípios da Administração* deste guia, publicidade: Os atos oficiais devem ser amplamente acessíveis e inteligíveis a todos os destinatários da norma pública. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "Só existe uma coisa melhor do que fazer novos amigos: conservar os velhos".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "São necessários três elementos para amar os vizinhos: desejar o melhor possível para todos, fazermos o bem que...". De acordo com a teoria estudada em *4.1 Unificação Formal: Extinção do Aviso e do Memorando*, historicamente, a administração federal brasileira dividia suas correspondências formais entre três modalidades: o *Ofício* (comunicação externa com outros órgãos ou particulares), o *Aviso* (comunicação exclusiva expedida por Ministros de Estado para autoridades de idêntica hierarquia) e o *Memorando* (comunicação interna de caráter eminentemente intersetorial).
-> - **D)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "Há dois tipos de pessoas: aquelas que terminam o que começam e aquelas que estão sempre começando". De acordo com a teoria estudada em *4.4 Regras de Numeração de Parágrafos*, se o texto contiver dois ou mais parágrafos, todos os parágrafos são numerados a partir do segundo (o primeiro parágrafo, correspondente à introdução, nunca é numerado).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Existem duas classes de escritores geniais: os que pensam obras imortais são eternos". De acordo com a teoria estudada em *1.2 Fundamentos Constitucionais: O Artigo 37 da CF/88 e os Princípios da Administração*, eficiência: Impõe o dever de concisão, clareza e celeridade na tramitação e no entendimento das ordens e solicitações administrativas.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A não erradicação da tuberculose, além de ser decorrente da pobreza, seu motivo é também devido a pacientes no...". De acordo com a teoria estudada em *3.2 Regras Rígidas de Concordância Gramatical com Pronomes de Tratamento*, concordância Verbal Compulsoriamente em 3ª Pessoa: Embora o pronome de tratamento se refira à pessoa com quem se fala (2ª pessoa do discurso), a forma verbal associada deve ser flexionada obrigatoriamente na 3ª pessoa do singular (ou do plural).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O motivo da não erradicação da tuberculose, doença decorrente da pobreza, é porque pacientes no início do...". De acordo com a teoria estudada em *2.3 Concisão Textual e Eliminação da Prolixidade*, eliminar rodeios oratórios e circunlóquios burocráticos (*"Vimos pela presente trazer ao vosso conhecimento o fato de que.."* $\rightarrow$ substitua simplesmente por: *"Comunico que.."*).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A não erradicação da tuberculose, além de decorrente da pobreza, é também devido a pacientes, no início do...". De acordo com a teoria estudada em *2.3 Concisão Textual e Eliminação da Prolixidade*, suprimir períodos de introdução cerimoniosa que nada acrescentam à matéria de fato.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O motivo da não erradicação da tuberculose, doença decorrente da pobreza, é também devido pacientes iniciando...". De acordo com a teoria estudada em *2.2 Clareza e Precisão Linguística*, clareza: O texto deve ser compreendido de forma imediata e inequívoca desde a primeira leitura. Rejeitam-se frases labirínticas, períodos excessivamente longos, inversões sintáticas rebuscadas e termos ambíguos.
+> - **E)** **Correta.** Conforme fundamentado na seção *2.5 O Uso do Padrão Culto da Língua* deste guia, o emprego da norma-padrão da língua portuguesa decorre do fato de que a língua culta é a única variante linguística que desfruta de uniformidade nacional codificada pelas gramáticas e dicionários, estando imune às flutuações passageiras de gírias e regionalismos orais. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 3ª/2015) ao estabelecer que "O motivo da não erradicação da tuberculose, doença decorrente da pobreza, é também o fato de pacientes, no início...".
 >
-> **Gabarito: B**
+> **Gabarito: E**
 
 ---
 
 ### Teste 064
-**(FGV – TRT-24 – Analista Judiciario Area Administrativa Sem Especialidade – 2025)**
+**(FGV – TRT da 24º Região – 2025 – Analista Judiciário - Área Administrativa - Sem Especialidade)**
 Segundo o Manual de Redação da Presidência da República, a objetividade é uma das marcas de um texto de redação oficial. Para que essa objetividade seja atingida, é aconselhável, entre outras coisas,
 
-* **A)** eliminar marcas de caráter informativo.
-* **B)** mostrar a organização textual dos conteúdos.
+* **A)** Identifique, pelo menos, três fatores (de ordens diferentes) que podem estar impactando negativamente a QVT na unidade.
+* **B)** Indique duas ações práticas que poderiam ser implementadas para melhorar o clima organizacional e aumentar a motivação dos servidores, justificando sua escolha.
 * **C)** usar digressões temáticas.
 * **D)** empregar linguagem culta ou erudita.
-* **E)** construir textos longos em parágrafos extensos.
+* **E)** construir textos longos em parágrafos extensos. Questão Discursiva Você foi recém-nomeado para o cargo de Analista Judiciário em uma unidade administrativa do Poder Judiciário Federal. Após os primeiros meses de ambientação, identificou que o clima organizacional da unidade é tenso, com sinais evidentes de insatisfação dos servidores, que mostram alto índice de afastamentos por problemas de saúde mental, baixa motivação, comunicação falha entre as equipes, resistência a mudanças, alta rotatividade e produtividade em declínio. Conversando com colegas e líderes da unidade, percebeu que a organização ainda não possui uma política estruturada voltada para a promoção da Qualidade de Vida no Trabalho (QVT). Diante disso, e considerando os cinco grupos de fatores condicionantes da QVT (de primeira a quinta ordem), você foi convidado pela chefia a propor ações práticas para melhorar a qualidade de vida dos servidores da unidade. Com base nos seus conhecimentos sobre QVT, responda aos questionamentos a seguir.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "eliminar marcas de caráter informativo". De acordo com a teoria estudada em *2.3 Concisão Textual e Eliminação da Prolixidade*, eliminar rodeios oratórios e circunlóquios burocráticos (*"Vimos pela presente trazer ao vosso conhecimento o fato de que.."* \$\rightarrow\$ substitua simplesmente por: *"Comunico que.."*).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "mostrar a organização textual dos conteúdos". De acordo com a teoria estudada em *1.3 Evolução Normativa: O MRPR 3ª Edição e o Decreto Federal nº 9.758/2019*, o documento de referência primária no Brasil é o Manual de Redação da Presidência da República (MRPR), cuja 3ª edição (revista e atualizada em 2018) unificou expedientes históricos e aboliu formalismos estéreis.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "usar digressões temáticas". De acordo com a teoria estudada em *3.5 Abolição de Fórmulas Laudatórias, Adulações e Arcaísmos*, o Manual de Redação da Presidência da República e o Decreto nº 9.758/2019 baniram expressamente o uso de qualificativos bajuladores e expressões arcaicas na administração pública.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Identifique, pelo menos, três fatores (de ordens diferentes) que podem estar impactando negativamente a QVT na...". De acordo com a teoria estudada em *1.3 Evolução Normativa: O MRPR 3ª Edição e o Decreto Federal nº 9.758/2019*, o documento de referência primária no Brasil é o Manual de Redação da Presidência da República (MRPR), cuja 3ª edição (revista e atualizada em 2018) unificou expedientes históricos e aboliu formalismos estéreis.
+> - **B)** **Correta.** Conforme fundamentado na seção *2.3 Concisão Textual e Eliminação da Prolixidade* deste guia, a concisão consiste em transmitir o máximo de conteúdo informativo útil com o menor número possível de palavras, sem jamais sacrificar a clareza. São regras práticas para atingir a concisão. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT da 24º Região/2025) ao estabelecer que "Indique duas ações práticas que poderiam ser implementadas para melhorar o clima organizacional e aumentar a...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "usar digressões temáticas". De acordo com a teoria estudada em *3.2 Regras Rígidas de Concordância Gramatical com Pronomes de Tratamento*, concordância Pronominal em 3ª Pessoa: Os pronomes possessivos ou oblíquos associados devem ser estritamente de terceira pessoa (seu, sua, seus, suas, o, a, lhe). É erro gravíssimo usar formas de 2ª pessoa do plural (*vosso, vossa, vos*).
 > - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "empregar linguagem culta ou erudita". De acordo com a teoria estudada em *2.5 O Uso do Padrão Culto da Língua*, o emprego da norma-padrão da língua portuguesa decorre do fato de que a língua culta é a única variante linguística que desfruta de uniformidade nacional codificada pelas gramáticas e dicionários, estando imune às flutuações passageiras de gírias e regionalismos orais.
-> - **E)** **Correta.** Conforme fundamentado na seção *2.2 Clareza e Precisão Linguística* deste guia, clareza: O texto deve ser compreendido de forma imediata e inequívoca desde a primeira leitura. Rejeitam-se frases labirínticas, períodos excessivamente longos, inversões sintáticas rebuscadas e termos ambíguos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "construir textos longos em parágrafos extensos".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "construir textos longos em parágrafos extensos. Questão Discursiva Você foi recém-nomeado para o cargo de Analista...". De acordo com a teoria estudada em *2.2 Clareza e Precisão Linguística*, clareza: O texto deve ser compreendido de forma imediata e inequívoca desde a primeira leitura. Rejeitam-se frases labirínticas, períodos excessivamente longos, inversões sintáticas rebuscadas e termos ambíguos.
 >
-> **Gabarito: E**
+> **Gabarito: B**
 
 ---
 
@@ -279,50 +279,50 @@ O Manual de Redação da Presidência da República e o Decreto nº 9.758/2019 b
 ---
 
 ### Teste 065
-**(FCC – TRT-24 – Analista Judiciario Tecnologia da Informacao – 2017)**
-Para fins de atendimento prioritário, é considerado idoso
+**(FCC – TRT 14ª – 2016 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
+Está clara e correta a redação deste livre comentário sobre o texto:
 
-* **A)** o homem, a partir de 70 anos, e a mulher, a partir dos 60
-* **B)** tanto o homem como a mulher a partir de 60 anos.
-* **C)** o homem, a partir de 65 anos, e a mulher, a partir dos 60.
-* **D)** tanto o homem como a mulher a partir de 65 anos.
-* **E)** tanto o homem como a mulher a partir de 70 anos.
+* **A)** Os homens interiorizam conceitos e valores referentes à mulher sem acreditarem que estão cultivando e pondo em prática os mais abomináveis preconceitos.
+* **B)** São abomináveis os conceitos e valores de que os homens acreditam e põem em prática no que diz respeito às mulheres sem ter consciência disso.
+* **C)** As mulheres são vítimas dos preconceitos e valores abomináveis com que os homens cultivam e interiorizam a seu respeito em suas práticas.
+* **D)** Conceitos e valores preconceituosos no que dizem respeito à mulher são cultivados pelos homens que nem sequer ao menos parecem ter consciência por este fato abominável.
+* **E)** São abomináveis os preconceitos onde os homens praticam contra as mulheres sob a forma de conceitos e valores que só fazem desacreditá-las.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o homem, a partir de 70 anos, e a mulher, a partir dos 60". De acordo com a teoria estudada em *3.2 Regras Rígidas de Concordância Gramatical com Pronomes de Tratamento*, se a Conselheira for mulher: *"Vossa Excelência está atenta às recomendações."*.
-> - **B)** **Correta.** Conforme fundamentado na seção *3.2 Regras Rígidas de Concordância Gramatical com Pronomes de Tratamento* deste guia, se o Conselheiro for homem: *"Vossa Excelência está atento às recomendações."*. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-24/2017) ao estabelecer que "tanto o homem como a mulher a partir de 60 anos".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o homem, a partir de 65 anos, e a mulher, a partir dos 60". De acordo com a teoria estudada em *4.1 Unificação Formal: Extinção do Aviso e do Memorando*, o ofício passou a ser o instrumento geral de comunicação tanto externa quanto interna.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "tanto o homem como a mulher a partir de 65 anos". De acordo com a teoria estudada em *4.4 Regras de Numeração de Parágrafos*, se o texto contiver dois ou mais parágrafos, todos os parágrafos são numerados a partir do segundo (o primeiro parágrafo, correspondente à introdução, nunca é numerado).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "tanto o homem como a mulher a partir de 70 anos". De acordo com a teoria estudada em *2.1 Princípio da Impessoalidade e Seus Três Desdobramentos*, impessoalidade do Destinatário: O público-alvo ou o cidadão é considerado genericamente como membro da coletividade, vedando-se qualquer distinção fundada em simpatias, antipatias ou privilégios de casta.
+> - **A)** **Correta.** Conforme fundamentado na seção *3.2 Regras Rígidas de Concordância Gramatical com Pronomes de Tratamento* deste guia, se a Conselheira for mulher: *"Vossa Excelência está atenta às recomendações."*. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 14ª/2016) ao estabelecer que "Os homens interiorizam conceitos e valores referentes à mulher sem acreditarem que estão cultivando e pondo em...".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "São abomináveis os conceitos e valores de que os homens acreditam e põem em prática no que diz respeito às...". De acordo com a teoria estudada em *4.4 Regras de Numeração de Parágrafos*, se o texto contiver dois ou mais parágrafos, todos os parágrafos são numerados a partir do segundo (o primeiro parágrafo, correspondente à introdução, nunca é numerado).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "As mulheres são vítimas dos preconceitos e valores abomináveis com que os homens cultivam e interiorizam a seu...". De acordo com a teoria estudada em *3.5 Abolição de Fórmulas Laudatórias, Adulações e Arcaísmos*, é vedado o uso de fórmulas de encerramento vazias ou servientes (*"Com votos de elevado apreço e distinta consideração"*, *"Aproveito o ensejo para renovar protestos de estima"* ou *"Sem mais para o momento"*).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Conceitos e valores preconceituosos no que dizem respeito à mulher são cultivados pelos homens que nem sequer ao...". De acordo com a teoria estudada em *4.1 Unificação Formal: Extinção do Aviso e do Memorando*, questões que afirmem que a comunicação interna entre diretorias ou secretarias de um mesmo tribunal de contas deve ser expedida sob a forma de *Memorando* estão desatualizadas e incorretas perante o MRPR vigente.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "São abomináveis os preconceitos onde os homens praticam contra as mulheres sob a forma de conceitos e valores que...". De acordo com a teoria estudada em *3.3 Sistema de Vocativos: A Distinção entre Chefes de Poder e Demais Autoridades*, a Fundação Carlos Chagas reiteradamente tenta induzir o candidato ao erro inserindo o vocativo *"Excelentíssimo Senhor Governador,"* ou *"Excelentíssimo Senhor Ministro de Estado,"*. Trata-se de erro frontal contra a 3ª edição do MRPR.
 >
-> **Gabarito: B**
+> **Gabarito: A**
 
 ---
 
 ### Teste 066
-**(FGV – TJ-SC – Analista Administrativo – 2026)**
-Leia o texto a seguir: Departamento de Libras promove palestra ‘Trazendo a universidade para a vida e vida à universidade’ O Departamento de Libras da UFSC irá promover a palestra “Trazendo a universidade para a vida e vida à universidade” com o educador Fernando Leão (vice-presidente do Instituto Caminho do Meio). O evento será realizado na sala 305 do Espaço Físico Integrado (EFI), 3º andar, no dia 8 de outubro, das 8h30 às 11h30. Haverá interpretação para Libras. https://noticias.ufsc.br/tags/departamento-de-libras/ No texto apresentado, observa-se a predominância de verbos no futuro, como em “irá promover”, “será realizado” e “haverá”. Considerando o efeito de sentido produzido por essa escolha verbal, é correto afirmar que
+**(FCC – TRT 6ª – 2012 – Analista Judiciário - Apoio Especializado/Tecnologia da Informação)**
+O Estado deve ficar fora das atividades de que o setor privado já dá conta. A nova redação da frase acima estará correta caso se substitua o elemento sublinhado por
 
-* **A)** o emprego de verbos no futuro reforça o caráter informativo e prospectivo do texto, anunciando ações previstas para momento posterior.
-* **B)** o uso predominante de verbos no futuro indica hipótese, sugerindo incerteza quanto à realização do evento anunciado.
-* **C)** a predominância de verbos no futuro contribui para a construção de um texto narrativo, relatando acontecimentos posteriores ao momento da enunciação.
-* **D)** o uso do futuro verbal aproxima o texto da linguagem injuntiva, orientando o leitor sobre ações que deverão ser realizadas.
-* **E)** a utilização do futuro verbal confere subjetividade ao texto, destacando expectativas pessoais do autor sobre o evento divulgado.
+* **A)** nem impor a alguém que reze, nem impedi-la de fazer o mesmo.
+* **B)** deixar de obrigar uma pessoa a rezar, ou lhe proibir de o fazer.
+* **C)** seja obrigar que uma pessoa reze, ou mesmo que o deixe de o praticar.
+* **D)** coagir alguém a que reze, ou impedi-lo de o fazer.
+* **E)** forçar uma pessoa para que reze, ou não fazê-la de modo algum. _________________________________________________________
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o emprego de verbos no futuro reforça o caráter informativo e prospectivo do texto, anunciando ações previstas...". De acordo com a teoria estudada em *3.5 Abolição de Fórmulas Laudatórias, Adulações e Arcaísmos*, é vedado o uso de fórmulas de encerramento vazias ou servientes (*"Com votos de elevado apreço e distinta consideração"*, *"Aproveito o ensejo para renovar protestos de estima"* ou *"Sem mais para o momento"*).
-> - **B)** **Correta.** Conforme fundamentado na seção *4.1 Unificação Formal: Extinção do Aviso e do Memorando* deste guia, o ofício passou a ser o instrumento geral de comunicação tanto externa quanto interna. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-SC/2026) ao estabelecer que "o uso predominante de verbos no futuro indica hipótese, sugerindo incerteza quanto à realização do evento anunciado".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a predominância de verbos no futuro contribui para a construção de um texto narrativo, relatando acontecimentos...". De acordo com a teoria estudada em *3.4 Endereçamento no Envelope e Regras Dêiticas: Vossa vs. Sua*, vossa Excelência / Vossa Senhoria: Utiliza-se a forma Vossa quando o enunciador está em comunicação direta face a face com o interlocutor (no corpo do texto ou no diálogo oral): *"Informo a Vossa Excelência que os autos foram instruídos"*.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o uso do futuro verbal aproxima o texto da linguagem injuntiva, orientando o leitor sobre ações que deverão ser...". De acordo com a teoria estudada em *3.2 Regras Rígidas de Concordância Gramatical com Pronomes de Tratamento*, concordância Verbal Compulsoriamente em 3ª Pessoa: Embora o pronome de tratamento se refira à pessoa com quem se fala (2ª pessoa do discurso), a forma verbal associada deve ser flexionada obrigatoriamente na 3ª pessoa do singular (ou do plural).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a utilização do futuro verbal confere subjetividade ao texto, destacando expectativas pessoais do autor sobre o...". De acordo com a teoria estudada em *5.1 O Correio Eletrônico Institucional (E-mail Público)*, o endereço eletrônico deve ser invariavelmente institucional (*@tce.go.gov.br*), repudiando-se o uso de e-mails pessoais para a prática de atos funcionais.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "nem impor a alguém que reze, nem impedi-la de fazer o mesmo". De acordo com a teoria estudada em *3.2 Regras Rígidas de Concordância Gramatical com Pronomes de Tratamento*, concordância Pronominal em 3ª Pessoa: Os pronomes possessivos ou oblíquos associados devem ser estritamente de terceira pessoa (seu, sua, seus, suas, o, a, lhe). É erro gravíssimo usar formas de 2ª pessoa do plural (*vosso, vossa, vos*).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "deixar de obrigar uma pessoa a rezar, ou lhe proibir de o fazer". De acordo com a teoria estudada em *3.2 Regras Rígidas de Concordância Gramatical com Pronomes de Tratamento*, concordância de Gênero com o Sexo Real do Interlocutor: Adjetivos e particípios predicativos concordam em gênero gramatical com o sexo real e biológico da pessoa física a quem o pronome se dirige (concordância por silepse de gênero consagrada).
+> - **C)** **Correta.** Conforme fundamentado na seção *3.2 Regras Rígidas de Concordância Gramatical com Pronomes de Tratamento* deste guia, concordância Verbal Compulsoriamente em 3ª Pessoa: Embora o pronome de tratamento se refira à pessoa com quem se fala (2ª pessoa do discurso), a forma verbal associada deve ser flexionada obrigatoriamente na 3ª pessoa do singular (ou do plural). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 6ª/2012) ao estabelecer que "seja obrigar que uma pessoa reze, ou mesmo que o deixe de o praticar".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "coagir alguém a que reze, ou impedi-lo de o fazer". De acordo com a teoria estudada em *2. Atributos Fundamentais da Redação Oficial*, para que uma correspondência ou ato público cumpra sua missão constitucional, deve observar cumulativamente seis atributos indeclináveis.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "forçar uma pessoa para que reze, ou não fazê-la de modo algum...". De acordo com a teoria estudada em *2.1 Princípio da Impessoalidade e Seus Três Desdobramentos*, impessoalidade do Emissor: Quem emite a comunicação não é o cidadão privado que ocupa temporariamente o cargo, mas o serviço público institucionalizado. Não cabem impressões individuais, desabafos, opiniões particulares ou estilo literário floreado.
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
 
@@ -394,74 +394,68 @@ flowchart TD
 ---
 
 ### Teste 067
-**(FCC – TRT-14 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2016)**
-Entre os graves equívocos que podem se incluir na relação entre um homem e uma mulher destaca-se, no texto,
+**(CEBRASPE – STF – 2008 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+Respeita as normas de redação de documento oficial o seguinte exemplo para a parte final de um relatório: 3. A fim de que sejam evitados novos fatos dessa natureza, sugerimos uma divulgação mais bem consubstanciada nos dispositivos legais que norteiam o funcionamento do referido Departamento que desde o advento de sua criação vem melhorando a olhos vistos no atendimento aos seus objetivos. Respeitosamente Brasília, 3.º de abril de 2008 A escalada nos preços dos alimentos diante da forte demanda no mercado mundial mobiliza autoridades em todo o planeta. Desde o ano passado, os preços de alimentos subiram em média 40%. Nos últimos três anos, a alta foi de 83%. O presidente Lula, na Holanda, disse que é necessário produzir mais em nível mundial, mas que não se pode culpar o investimento nos biocombustíveis pela pressão. Segundo ele, o aumento dos preços de alimentos se dá pelo fato de “as pessoas pobres estarem começando a comer” em lugares como China, Índia e América Latina. Para o representante da Organização das Nações Unidas para a Agricultura e Alimentação (FAO) no Brasil, a crise mundial de alimentos é fruto de ataque especulativo. Jornal do Brasil, 11/4/2008, p. A17 (com adaptações). Tendo o texto acima como referência inicial e considerando aspectos significativos do atual panorama da economia mundial, julgue os itens que se seguem.
 
-* **A)** a natural subserviência que a mulher prefere demonstrar a seu parceiro violento, em vez de confrontá-lo.
-* **B)** a falta da discriminação masculina entre o que seja uma demonstração de amor e uma iniciativa intimidadora.
-* **C)** o exagero de se avaliar como violentas algumas iniciativas masculinas tão somente carinhosas.
-* **D)** o fato de a moral dominante classificar como hipócrita toda e qualquer iniciativa amorosa do homem machista.
-* **E)** o fato de a mulher relutante tomar como amorosa a violência da sedução a que se atira seu namorado.
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a natural subserviência que a mulher prefere demonstrar a seu parceiro violento, em vez de confrontá-lo". De acordo com a teoria estudada em *3.2 Regras Rígidas de Concordância Gramatical com Pronomes de Tratamento*, se a Conselheira for mulher: *"Vossa Excelência está atenta às recomendações."*.
-> - **B)** **Correta.** Conforme fundamentado na seção *3.2 Regras Rígidas de Concordância Gramatical com Pronomes de Tratamento* deste guia, se o Conselheiro for homem: *"Vossa Excelência está atento às recomendações."*. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-14/2016) ao estabelecer que "a falta da discriminação masculina entre o que seja uma demonstração de amor e uma iniciativa intimidadora".
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "o exagero de se avaliar como violentas algumas iniciativas masculinas tão somente carinhosas". De acordo com a teoria estudada em *4.2 Partes Componentes e Diagramação Oficial do Ofício*, corpo do Texto: Dividido em introdução, desenvolvimento e conclusão.
-> - **D)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "o fato de a moral dominante classificar como hipócrita toda e qualquer iniciativa amorosa do homem machista". De acordo com a teoria estudada em *1.1 Definição e Finalidade da Comunicação Pública*, sua finalidade última é assegurar que a manifestação da vontade estatal seja plenamente compreensível a qualquer cidadão, afastando ambiguidades que possam comprometer a fruição de direitos ou a imposição de deveres.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o fato de a mulher relutante tomar como amorosa a violência da sedução a que se atira seu namorado". De acordo com a teoria estudada em *2.3 Concisão Textual e Eliminação da Prolixidade*, eliminar rodeios oratórios e circunlóquios burocráticos (*"Vimos pela presente trazer ao vosso conhecimento o fato de que.."* \$\rightarrow\$ substitua simplesmente por: *"Comunico que.."*).
+> - **C)** **Incorreta.** A marcação como **Certo** não procede, pois o enunciado apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Respeita as normas de redação de documento oficial o seguinte exemplo para a parte final de um relatório: 3...". De acordo com a teoria estudada em *1.1 Definição e Finalidade da Comunicação Pública*, a redação oficial destina-se a viabilizar a comunicação clara, transparente e juridicamente vinculante entre os órgãos da administração pública direta e indireta dos Poderes Executivo, Legislativo e Judiciário, bem como entre estes e os administrados em geral.
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**). Conforme fundamentado na seção *1.3 Evolução Normativa: O MRPR 3ª Edição e o Decreto Federal nº 9.758/2019* deste guia, o documento de referência primária no Brasil é o Manual de Redação da Presidência da República (MRPR), cuja 3ª edição (revista e atualizada em 2018) unificou expedientes históricos e aboliu formalismos estéreis. Portanto, a assertiva examinada pela banca (CEBRASPE – STF/2008) viola os preceitos técnicos do tópico.
 >
-> **Gabarito: B**
+> **Gabarito: E**
 
 ---
 
 ### Teste 068
-**(FCC – TCE-GO – Analista de Controle Externo Gestao de Conhecimento – 2009)**
-Considere as afirmativas abaixo sobre catalogação. I. Enquanto o AACR-2 é usado para descrever fisicamente um documento e definir a forma das suas entradas, o padrão MARC organiza esses mesmos dados para que possam ser processados por linguagens de marcação. II. Os Requisitos Funcionais para Registros Bibliográficos podem ser entendidos como um modelo conceitual que reestrutura os registros bibliográficos baseado na necessidade dos usuários. III. De acordo com o AACR-2, quando uma obra tem mais de três autores, a entrada principal é pelo primeiro autor, seguido da expressão “et al”. IV. O AACR-2 especifica três níveis para a descrição catalográfica, o que dá às bibliotecas certa flexibilidade para determinar a sua política de catalogação. V. Segundo o AACR-2, a área dos detalhes específicos do documento, cuja citação é obrigatória, aplica-se a monografias, livros, folhetos e folhas soltas impressas. Está correto o que se afirma APENAS em
+**(FCC – TRT 4ª – 2015 – Analista Judiciário - Tecnologia Da Informação)**
+A nova redação mantém o sentido original e obedece à norma-padrão escrita em:
 
-* **A)** I, II e III.
-* **B)** I, III e IV.
-* **C)** II, III e IV.
-* **D)** II, IV e V.
-* **E)** III, IV e V.
+* **A)** definições com nuanças diferentes (linha 6): que têm nuanças diferentes.
+* **B)** as pessoas sentem desconforto ao serem “apenas” observadas (linha 24): as pessoas sentem-se desconfortável ao ser “somente” examinadas.
+* **C)** a fantasia [...] de que o tenha sido (linhas 17 e 18): a fantasia que tenha sido.
+* **D)** culturas da culpa, que interiorizam a convicção do pecado (linha 16): culturas da culpa às quais interiorizam a convicção do pecado.
+* **E)** significados atribuídos a este sentimento (linha 8): significados lhes atribuídos.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *4.1 Unificação Formal: Extinção do Aviso e do Memorando*, questões que afirmem que a comunicação interna entre diretorias ou secretarias de um mesmo tribunal de contas deve ser expedida sob a forma de *Memorando* estão desatualizadas e incorretas perante o MRPR vigente.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, III e IV". De acordo com a teoria estudada em *1.3 Evolução Normativa: O MRPR 3ª Edição e o Decreto Federal nº 9.758/2019*, o documento de referência primária no Brasil é o Manual de Redação da Presidência da República (MRPR), cuja 3ª edição (revista e atualizada em 2018) unificou expedientes históricos e aboliu formalismos estéreis.
-> - **C)** **Correta.** Conforme fundamentado na seção *4.4 Regras de Numeração de Parágrafos* deste guia, se o texto contiver dois ou mais parágrafos, todos os parágrafos são numerados a partir do segundo (o primeiro parágrafo, correspondente à introdução, nunca é numerado). Dessa forma, está plenamente correta a assertiva da banca (FCC – TCE-GO/2009) ao estabelecer que "II, III e IV".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II, IV e V". De acordo com a teoria estudada em *5.1 O Correio Eletrônico Institucional (E-mail Público)*, o endereço eletrônico deve ser invariavelmente institucional (*@tce.go.gov.br*), repudiando-se o uso de e-mails pessoais para a prática de atos funcionais.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "III, IV e V". De acordo com a teoria estudada em *3.4 Endereçamento no Envelope e Regras Dêiticas: Vossa vs. Sua*, sua Excelência / Sua Senhoria: Emprega-se a forma Sua quando o enunciador refere-se a uma terceira autoridade sobre quem se está falando ou no sobrescrito do envelope/endereçamento do documento.
+> - **A)** **Correta.** Conforme fundamentado na seção *4.5 Identificação do Signatário e Vedação à Linha de Assinatura* deste guia, escreve-se o nome da autoridade signatária em letras maiúsculas e negrito. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 4ª/2015) ao estabelecer que "definições com nuanças diferentes (linha 6): que têm nuanças diferentes".
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "as pessoas sentem desconforto ao serem “apenas” observadas (linha 24): as pessoas sentem-se desconfortável ao ser...". De acordo com a teoria estudada em *4.5 Identificação do Signatário e Vedação à Linha de Assinatura*, imediatamente abaixo, sem negrito, inscreve-se a designação de seu cargo público.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a fantasia [...] de que o tenha sido (linhas 17 e 18): a fantasia que tenha sido". De acordo com a teoria estudada em *4.5 Identificação do Signatário e Vedação à Linha de Assinatura*, é formalmente vedada a colocação de linha tracejada ou traço sobreposto para apor a assinatura. A assinatura física ou digital deve recair diretamente sobre o nome digitado.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "culturas da culpa, que interiorizam a convicção do pecado (linha 16): culturas da culpa às quais interiorizam a...". De acordo com a teoria estudada em *2.5 O Uso do Padrão Culto da Língua*, o emprego da norma-padrão da língua portuguesa decorre do fato de que a língua culta é a única variante linguística que desfruta de uniformidade nacional codificada pelas gramáticas e dicionários, estando imune às flutuações passageiras de gírias e regionalismos orais.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "significados atribuídos a este sentimento (linha 8): significados lhes atribuídos". De acordo com a teoria estudada em *4.2 Partes Componentes e Diagramação Oficial do Ofício*, o expediente regido pelo Padrão Ofício estrutura-se nos seguintes blocos obrigatórios.
 >
-> **Gabarito: C**
+> **Gabarito: A**
 
 ---
 
 ### Teste 069
-**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Administracao – 2026)**
-A tramitação de documentos oficiais envolve procedimentos que garantem o registro, o controle e o encaminhamento adequado das comunicações na Administração Pública, assegurando rastreabilidade e eficiência no fluxo de informações. Com base no Manual de Redação da Presidência da República (2018), assinale a afirmativa correta.
+**(FCC – TRT 11ª – 2017 – Analista Judiciário - Tecnologia da Informação)**
+Considerada a norma-padrão da língua, é adequado o que se afirma em:
 
-* **A)** A numeração dos ofícios é facultativa e pode ser suprimida quando o documento se destinar a comunicações internas de baixa complexidade.
-* **B)** O registro e o controle da tramitação de documentos oficiais dispensam identificação do destinatário, desde que o assunto esteja claramente descrito no corpo do texto.
-* **C)** A identificação do signatário, o número do documento e o registro do assunto são elementos que contribuem para o controle e a rastreabilidade da tramitação dos expedientes oficiais.
-* **D)** A tramitação de documentos oficiais prescinde de registro formal quando realizada entre unidades de um mesmo órgão público.
-* **E)** O arquivamento dos documentos oficiais é uma etapa opcional do processo de tramitação, cabendo a cada unidade definir se adota ou não esse procedimento.
+* **A)** (linha 7) A colocação do pronome oblíquo observada em ver-se-á é correta; essa mesóclise é restrita ao emprego do futuro do presente.
+* **B)** (linha 9) O emprego do verbo auxiliar destacado em que não chegam a se reconstituir indica que haveria a possibilidade de a ação denotada pelo verbo principal ter sido concluída.
+* **C)** (linhas 1 e 2) Redação alternativa do segmento cuja percepção é necessária ao entendimento do passado e do presente da região, que não prejudique nem seu sentido no contexto original, nem a correção gramatical, poderia ser “percepção da qual depende necessariamente o entendimento do passado e do presente da região”.
+* **D)** (linha 3) No contexto em que está empregada, a forma verbal irá resultar não é adequada, pois a menção a meados do século XVIII exigiria o uso de “iria resultar”.
+* **E)** (linha 4) A substituição da forma havia sido observada por “teria sido observada” não prejudica o sentido original da frase.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção afasta requisito ou relação estrutural exigida pela matéria ao afirmar que "A numeração dos ofícios é facultativa e pode ser suprimida quando o documento se destinar a comunicações internas...". De acordo com a teoria estudada em *4.2 Partes Componentes e Diagramação Oficial do Ofício*, identificação do Expediente: Alinhado à margem esquerda, composto por tipo do documento, número, ano e sigla do órgão emissor (*Ofício 123/2026/GAB-PRES/TCE-GO*).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O registro e o controle da tramitação de documentos oficiais dispensam identificação do destinatário, desde que o...". De acordo com a teoria estudada em *1.2 Fundamentos Constitucionais: O Artigo 37 da CF/88 e os Princípios da Administração*, a redação de expedientes oficiais decorre imediatamente dos princípios basilares esculpidos no *caput* do artigo 37 da Constituição Federal de 1988.
-> - **C)** **Correta.** Conforme fundamentado na seção *1.3 Evolução Normativa: O MRPR 3ª Edição e o Decreto Federal nº 9.758/2019* deste guia, o documento de referência primária no Brasil é o Manual de Redação da Presidência da República (MRPR), cuja 3ª edição (revista e atualizada em 2018) unificou expedientes históricos e aboliu formalismos estéreis. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "A identificação do signatário, o número do documento e o registro do assunto são elementos que contribuem para o...".
-> - **D)** **Incorreta.** A opção afasta requisito ou relação estrutural exigida pela matéria ao afirmar que "A tramitação de documentos oficiais prescinde de registro formal quando realizada entre unidades de um mesmo órgão...". De acordo com a teoria estudada em *1.2 Fundamentos Constitucionais: O Artigo 37 da CF/88 e os Princípios da Administração*, eficiência: Impõe o dever de concisão, clareza e celeridade na tramitação e no entendimento das ordens e solicitações administrativas.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O arquivamento dos documentos oficiais é uma etapa opcional do processo de tramitação, cabendo a cada unidade...". De acordo com a teoria estudada em *4.5 Identificação do Signatário e Vedação à Linha de Assinatura*, escreve-se o nome da autoridade signatária em letras maiúsculas e negrito.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "(linha 7) A colocação do pronome oblíquo observada em ver-se-á é correta; essa mesóclise é restrita ao emprego do...". De acordo com a teoria estudada em *4.5 Identificação do Signatário e Vedação à Linha de Assinatura*, é formalmente vedada a colocação de linha tracejada ou traço sobreposto para apor a assinatura. A assinatura física ou digital deve recair diretamente sobre o nome digitado.
+> - **B)** **Correta.** Conforme fundamentado na seção *2.5 O Uso do Padrão Culto da Língua* deste guia, o emprego da norma-padrão da língua portuguesa decorre do fato de que a língua culta é a única variante linguística que desfruta de uniformidade nacional codificada pelas gramáticas e dicionários, estando imune às flutuações passageiras de gírias e regionalismos orais. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 11ª/2017) ao estabelecer que "(linha 9) O emprego do verbo auxiliar destacado em que não chegam a se reconstituir indica que haveria a...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "(linhas 1 e 2) Redação alternativa do segmento cuja percepção é necessária ao entendimento do passado e do...". De acordo com a teoria estudada em *1.3 Evolução Normativa: O MRPR 3ª Edição e o Decreto Federal nº 9.758/2019*, o documento de referência primária no Brasil é o Manual de Redação da Presidência da República (MRPR), cuja 3ª edição (revista e atualizada em 2018) unificou expedientes históricos e aboliu formalismos estéreis.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "(linha 3) No contexto em que está empregada, a forma verbal irá resultar não é adequada, pois a menção a meados do...". De acordo com a teoria estudada em *3.2 Regras Rígidas de Concordância Gramatical com Pronomes de Tratamento*, concordância Verbal Compulsoriamente em 3ª Pessoa: Embora o pronome de tratamento se refira à pessoa com quem se fala (2ª pessoa do discurso), a forma verbal associada deve ser flexionada obrigatoriamente na 3ª pessoa do singular (ou do plural).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "(linha 4) A substituição da forma havia sido observada por “teria sido observada” não prejudica o sentido original...". De acordo com a teoria estudada em *4.2 Partes Componentes e Diagramação Oficial do Ofício*, assunto: Frase curta, destacada em negrito, sintetizando o objeto da correspondência (*Assunto: Encaminhamento do relatório de auditoria governamental.*).
 >
-> **Gabarito: C**
+> **Gabarito: B**
 
 ---
 
@@ -503,50 +497,38 @@ No âmbito do controle externo, a produção textual desdobra-se em espécies es
 ---
 
 ### Teste 070
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Administracao – 2024)**
-Observe o texto a seguir: De fato, na língua falada, o homem vive a sua vida sobre a terra. Cada uma das medidas naturais de sua existência está inscrita em quatro palavras. As duas primeiras ‘Bom dia’. Ao dizê-las, ingressamos em um dia a mais, nos preparamos para consumir uma mais dessas unidades de tempo, feitas do céu, do sol e da luz. E, quando, já usado, nos corre por entre as mãos esse pedaço da nossa existência, nos despedimos com outras duas palavras: ‘Boa noite’ ou ‘Até amanhã’. Essas duas formas verbais nos contam o transcorrer de nossos passos sobre a terra. Esse segmento textual deve estar inserido no modo expositivo de organização discursiva. Uma marca que caracteriza esse modo de organização é a
+**(CEBRASPE – TRT/10 – 2013 – Analista Judiciario Tecnologia Da Informacao)**
+A mensagem é a comunicação oficial utilizada entre pessoas que ocupam cargos de mesma hierarquia, independentemente da esfera de poder de que elas façam parte.
 
-* **A)** apresentação de uma série de fatos cronologicamente sucessivos que dão conta de um período de tempo.
-* **B)** exposição de um tema de forma coerente, ordenada e clara, de modo que possa ser lido com fluidez e interpretado com facilidade.
-* **C)** indicação de um conjunto de traços de uma realidade qualquer de forma que a possamos identificar.
-* **D)** defesa de uma ideia diante de uma realidade que permite mais de um posicionamento ideológico.
-* **E)** demonstração de uma ideia apoiada em diferentes meios de comprovação ou apoio para convencimento do leitor.
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "apresentação de uma série de fatos cronologicamente sucessivos que dão conta de um período de tempo". De acordo com a teoria estudada em *3.2 Regras Rígidas de Concordância Gramatical com Pronomes de Tratamento*, concordância Verbal Compulsoriamente em 3ª Pessoa: Embora o pronome de tratamento se refira à pessoa com quem se fala (2ª pessoa do discurso), a forma verbal associada deve ser flexionada obrigatoriamente na 3ª pessoa do singular (ou do plural).
-> - **B)** **Correta.** Conforme fundamentado na seção *2.2 Clareza e Precisão Linguística* deste guia, clareza: O texto deve ser compreendido de forma imediata e inequívoca desde a primeira leitura. Rejeitam-se frases labirínticas, períodos excessivamente longos, inversões sintáticas rebuscadas e termos ambíguos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "exposição de um tema de forma coerente, ordenada e clara, de modo que possa ser lido com fluidez e interpretado...".
-> - **C)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "indicação de um conjunto de traços de uma realidade qualquer de forma que a possamos identificar". De acordo com a teoria estudada em *4.1 Unificação Formal: Extinção do Aviso e do Memorando*, questões que afirmem que a comunicação interna entre diretorias ou secretarias de um mesmo tribunal de contas deve ser expedida sob a forma de *Memorando* estão desatualizadas e incorretas perante o MRPR vigente.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "defesa de uma ideia diante de uma realidade que permite mais de um posicionamento ideológico". De acordo com a teoria estudada em *4.4 Regras de Numeração de Parágrafos*, se o texto contiver dois ou mais parágrafos, todos os parágrafos são numerados a partir do segundo (o primeiro parágrafo, correspondente à introdução, nunca é numerado).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "demonstração de uma ideia apoiada em diferentes meios de comprovação ou apoio para convencimento do leitor". De acordo com a teoria estudada em *1.1 Definição e Finalidade da Comunicação Pública*, a redação oficial destina-se a viabilizar a comunicação clara, transparente e juridicamente vinculante entre os órgãos da administração pública direta e indireta dos Poderes Executivo, Legislativo e Judiciário, bem como entre estes e os administrados em geral.
+> - **C)** **Incorreta.** A marcação como **Certo** não procede, pois o enunciado apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A mensagem é a comunicação oficial utilizada entre pessoas que ocupam cargos de mesma hierarquia...". De acordo com a teoria estudada em *5.2 A Mensagem entre Chefes de Poder*, comunicação de razões de veto a projetos de lei.
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**). Conforme fundamentado na seção *4.6 O Sistema Binário de Fechos Regulamentares* deste guia, atenciosamente, $\rightarrow$ Utilizado para autoridades de mesma hierarquia, de hierarquia subordinada/inferior e para particulares em geral. Portanto, a assertiva examinada pela banca (CEBRASPE – TRT/10/2013) viola os preceitos técnicos do tópico.
 >
-> **Gabarito: B**
+> **Gabarito: E**
 
 ---
 
 ### Teste 071
-**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Administracao – 2026)**
-No contexto do atendimento ao público, a comunicação assertiva se caracteriza por permitir que o servidor expresse posições, limites e informações de forma clara e respeitosa, sem adotar comportamentos passivos ou agressivos. Com base nesse conceito, assinale a opção que apresenta um exemplo de comunicação assertiva no atendimento ao cidadão.
+**(CEBRASPE – STJ – 2015 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+A linguagem empregada no documento hipotético em questão atende aos princípios de clareza, concisão e uso de linguagem formal e, portanto, é adequada à comunicação oficial.
 
-* **A)** Concordar com todas as solicitações do cidadão, ainda que inviáveis, para evitar qualquer situação de desconforto durante o atendimento.
-* **B)** Interromper o cidadão repetidamente para demonstrar domínio técnico e agilizar a resolução do problema.
-* **C)** Responder de forma monossilábica e sem explicações adicionais, a fim de manter a objetividade e reduzir o tempo de atendimento.
-* **D)** Informar ao cidadão, com clareza e respeito, que sua solicitação não pode ser atendida naquele momento, explicando o motivo e indicando alternativas disponíveis.
-* **E)** Utilizar linguagem técnica e formal em todas as situações, independentemente do perfil do cidadão, para assegurar a precisão das informações transmitidas.
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "Concordar com todas as solicitações do cidadão, ainda que inviáveis, para evitar qualquer situação de desconforto...". De acordo com a teoria estudada em *1.1 Definição e Finalidade da Comunicação Pública*, sua finalidade última é assegurar que a manifestação da vontade estatal seja plenamente compreensível a qualquer cidadão, afastando ambiguidades que possam comprometer a fruição de direitos ou a imposição de deveres.
-> - **B)** **Correta.** Conforme fundamentado na seção *2.2 Clareza e Precisão Linguística* deste guia, precisão: Consiste no emprego da palavra exata para designar o conceito jurídico, contábil ou técnico correspondente, evitando generalizações vagas ou eufemismos evasivos. Evita-se o jargão corporativo hermético quando o destinatário for o cidadão comum. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "Interromper o cidadão repetidamente para demonstrar domínio técnico e agilizar a resolução do problema".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Responder de forma monossilábica e sem explicações adicionais, a fim de manter a objetividade e reduzir o tempo de...". De acordo com a teoria estudada em *2.1 Princípio da Impessoalidade e Seus Três Desdobramentos*, impessoalidade do Emissor: Quem emite a comunicação não é o cidadão privado que ocupa temporariamente o cargo, mas o serviço público institucionalizado. Não cabem impressões individuais, desabafos, opiniões particulares ou estilo literário floreado.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Informar ao cidadão, com clareza e respeito, que sua solicitação não pode ser atendida naquele momento, explicando...". De acordo com a teoria estudada em *2.2 Clareza e Precisão Linguística*, clareza: O texto deve ser compreendido de forma imediata e inequívoca desde a primeira leitura. Rejeitam-se frases labirínticas, períodos excessivamente longos, inversões sintáticas rebuscadas e termos ambíguos.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Utilizar linguagem técnica e formal em todas as situações, independentemente do perfil do cidadão, para assegurar...". De acordo com a teoria estudada em *4.1 Unificação Formal: Extinção do Aviso e do Memorando*, a 3ª edição do MRPR promoveu uma revolução de simplificação: aboliu formalmente o Aviso e o Memorando, unificando todas as correspondências oficiais sob a designação única e abrangente de OFÍCIO.
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *1.2 Fundamentos Constitucionais: O Artigo 37 da CF/88 e os Princípios da Administração* deste guia, eficiência: Impõe o dever de concisão, clareza e celeridade na tramitação e no entendimento das ordens e solicitações administrativas. Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – STJ/2015) ao afirmar que "A linguagem empregada no documento hipotético em questão atende aos princípios de clareza, concisão e uso de...".
+> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *2.3 Concisão Textual e Eliminação da Prolixidade*, segundo a qual a concisão consiste em transmitir o máximo de conteúdo informativo útil com o menor número possível de palavras, sem jamais sacrificar a clareza. São regras práticas para atingir a concisão.
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
 

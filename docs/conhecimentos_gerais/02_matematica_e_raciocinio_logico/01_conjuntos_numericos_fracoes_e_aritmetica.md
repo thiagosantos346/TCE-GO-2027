@@ -111,50 +111,50 @@ Propriedades críticas da divisão inteira:
 ---
 
 ### Teste 072
-**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Administracao – 2026)**
-Gabriel fez um sorteio dos seis primeiros números naturais e obteve a sequência: 6 3 5 1 4 2 Essa sequência poderá ser alterada mediante uma sucessão de movimentos. Realizar um movimento significa escolher um dos números da sequência e fazê-lo pular o número que está imediatamente à sua direita. A partir da sequência dada, após 𝑛 movimentos, Gabriel obteve esta sequência natural: 1 2 3 4 5 6. O menor valor possível de 𝑛 é
+**(FGV – TRT/13 – 2022 – Analista Judiciario Tecnologia Da Informacao)**
+No contexto do PostgreSQL, avalie se o comando TRUNCATE I. Inibe a ação dos triggers para DELETE associados à tabela durante a deleção dos registros (linhas); II. Requer o privilégio TRUNCATE; III. Permite “resetar” as colunas identificadoras para os valores originais por meio da cláusula RESTART IDENTITY; IV. Permite o truncamento ode várias tabelas numa única linha de comando. Assinale o número de características que são fidedignas ao funcionamento do PostgreSQL.
 
-* **A)** 10.
-* **B)** 11.
-* **C)** 12.
-* **D)** 13.
-* **E)** 14.
+* **A)** Zero.
+* **B)** Uma.
+* **C)** Duas.
+* **D)** Três.
+* **E)** Quatro. Questão Discursiva Analise o código JavaScript da função XPTO exibido a seguir. function XPTO(valor, lista) { var i = 0; var posicao = -1; for (i = 0; i < lista.length; i++) { if (lista[i] == valor) { posicao = i; } } return posicao; } A função percorre um array contendo números inteiros e retorna a posição de um determinado número. Se esse número não é encontrado no array, a função retorna o valor -1. O número procurado e o array são fornecidos como parâmetros. Note que o código, como apresentado, executa tantos ciclos quantos forem os elementos na lista. Por exemplo, XPTO (11, [2, 1, 3, 4, 7, 8, 10, 12]) retornaria -1, e percorreria 8 ciclos. XPTO (13, [1, 2, 3, 5, 8, 13, 21]) retornaria 5, e percorreria 7 ciclos. XPTO (1, [1, 2]) retornaria 0, e percorreria 2 ciclos. Pede-se Considerando que o array fornecido jamais contém números repetidos, e que seus elementos estão sempre dispostos em ordem crescente, apresente uma nova versão do código dessa função de modo que o tempo de processamento (ou número de ciclos) diminua tanto quanto possível. Note que a solução apresentada: a) deve manter a assinatura original e a especificação da função original; b) não pode utilizar funções/métodos de busca auxiliares; c) não pode criar/utilizar índices/tabelas auxiliares; c) deve manter a sintaxe JavaScript; d) não deve conter comentários. Serão avaliados: a) a conformidade com a assinatura e a especificação original; b) a correção da versão apresentada; c) o grau de redução do tempo de processamento obtida.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "10". De acordo com a teoria estudada em *1.2 Conjunto dos Números Racionais: Decimais Finitos e Dízimas Periódicas*, dízima Periódica Simples: O período principia imediatamente após a vírgula.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "11". De acordo com a teoria estudada em *3.2 Decomposição em Fatores Primos e Contagem de Divisores Positivos*, pelo Teorema Fundamental da Aritmética, qualquer número natural maior que 1 pode ser decomposto de forma única (a menos da ordem dos fatores) em um produto de potências de números primos.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "12". De acordo com a teoria estudada em *1.2 Conjunto dos Números Racionais: Decimais Finitos e Dízimas Periódicas*, decimais Exatos (ou Finitos): Apresentam um número finito de casas decimais após a vírgula. Isso ocorre quando a fração irredutível \$\frac{a}{b}\$ possui um denominador \$b\$ decomposto exclusivamente em fatores primos iguais a \$2\$ e/ou \$5\$.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "13". De acordo com a teoria estudada em *3.3 Mínimo Múltiplo Comum: Ciclos, Coincidências e Periodicidade*, o Mínimo Múltiplo Comum (MMC) entre dois ou mais inteiros é o menor número natural não nulo que é divisível simultaneamente por todos eles.
-> - **E)** **Correta.** Conforme fundamentado na seção *1.1 Conjunto dos Números Naturais e Inteiros* deste guia, é fechado sob as operações de adição e multiplicação (a soma ou produto de dois naturais é sempre um natural), mas falha no fechamento da subtração quando o minuendo é menor que o subtraendo (\$3 - 8 \notin \mathbb{N}\$). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "14".
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Zero". De acordo com a teoria estudada em *1.2 Conjunto dos Números Racionais: Decimais Finitos e Dízimas Periódicas*, $$\text{Fração Geratriz} = \frac{(\text{Antiperíodo seguido do Período}) - (\text{Antiperíodo})}{(\text{tantos 9 quantos forem os dígitos do período}) \times 10^{(\text{dígitos do antiperíodo})}}$$.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Uma". De acordo com a teoria estudada em *3.2 Decomposição em Fatores Primos e Contagem de Divisores Positivos*, pelo Teorema Fundamental da Aritmética, qualquer número natural maior que 1 pode ser decomposto de forma única (a menos da ordem dos fatores) em um produto de potências de números primos.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Duas". De acordo com a teoria estudada em *1.2 Conjunto dos Números Racionais: Decimais Finitos e Dízimas Periódicas*, todo número racional pode ser transcrito sob representação decimal, dividindo-se o numerador pelo denominador, resultando em apenas duas possibilidades formais.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Três". De acordo com a teoria estudada em *Quantidade Total de Divisores Positivos:*, *Exemplo:* Para encontrar quantos divisores possui o número 360.
+> - **E)** **Correta.** Conforme fundamentado na seção *3.4 Máximo Divisor Comum: Partições Equitativas e Lotes Máximos* deste guia, em problemas de particionamento (como arquivar pastas em caixas de maior tamanho possível), o cálculo do MDC fornece a capacidade de cada caixa, e não a quantidade total de caixas! Para achar a quantidade de caixas, deve-se somar a divisão de cada lote pelo valor do MDC encontrado. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/13/2022) ao estabelecer que "Quatro. Questão Discursiva Analise o código JavaScript da função XPTO exibido a seguir. function XPTO(valor...".
 >
 > **Gabarito: E**
 
 ---
 
 ### Teste 073
-**(FGV – TJ-MT – Analista Judiciario Tecnologia da Informacao – 2024)**
-A linguagem de programação Python é uma linguagem de alto nível, de tipagem dinâmica e interpretada, conhecida pela sua simplicidade, legibilidade e versatilidade. Criada por Guido van Rossum e lançada pela primeira vez em 1991, Python tem se tornado uma das linguagens mais populares do mundo, devido à sua capacidade de ser usada em diversos tipos de projetos, como desenvolvimento web, automação, análise de dados, inteligência artificial, aprendizado de máquina, automação de tarefas, entre outros. Em Python, o operador //
+**(FCC – TRT 23ª – 2016 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
+São vários os tipos de dados numéricos no PostgreSQL. O tipo
 
-* **A)** realiza a divisão entre dois números e retorna o resultado com a maior precisão possível.
-* **B)** realiza a divisão entre dois números e sempre retorna um número com ponto decimal, mesmo que o resultado seja inteiro.
-* **C)** eleva o primeiro número ao segundo número, funcionando como um operador de potência.
-* **D)** realiza a divisão inteira entre dois números, retornando apenas a parte inteira do resultado e descartando o resto.
-* **E)** realiza a divisão entre dois números e retorna o resto da divisão, semelhante ao operador %.
+* **A)** smallint tem tamanho de armazenamento de 1 byte, que permite armazenar a faixa de valores inteiros de −128 a 127.
+* **B)** bigint é a escolha usual para números inteiros, pois oferece o melhor equilíbrio entre faixa de valores, tamanho de armazenamento e desempenho.
+* **C)** integer tem tamanho de armazenamento de 4 bytes e pode armazenar valores na faixa de −32768 a 32767.
+* **D)** numeric pode armazenar números com precisão variável de, no máximo, 100 dígitos.
+* **E)** serial é um tipo conveniente para definir colunas identificadoras únicas, semelhante à propriedade auto incremento.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *3.4 Máximo Divisor Comum: Partições Equitativas e Lotes Máximos* deste guia, em problemas de particionamento (como arquivar pastas em caixas de maior tamanho possível), o cálculo do MDC fornece a capacidade de cada caixa, e não a quantidade total de caixas! Para achar a quantidade de caixas, deve-se somar a divisão de cada lote pelo valor do MDC encontrado. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-MT/2024) ao estabelecer que "realiza a divisão entre dois números e retorna o resultado com a maior precisão possível".
-> - **B)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "realiza a divisão entre dois números e sempre retorna um número com ponto decimal, mesmo que o resultado seja...". De acordo com a teoria estudada em *3.4 Máximo Divisor Comum: Partições Equitativas e Lotes Máximos*, o Máximo Divisor Comum (MDC) é o maior número inteiro capaz de dividir exatamente todos os números dados, sem deixar resto.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "eleva o primeiro número ao segundo número, funcionando como um operador de potência". De acordo com a teoria estudada em *3.4 Máximo Divisor Comum: Partições Equitativas e Lotes Máximos*, palavras-chave: "Quando voltarão a se encontrar?", "periodicidade", "ciclos", "simultaneamente" — "Maior tamanho possível", "sem sobras", "dividir igualmente", "menor número de caixas".
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "realiza a divisão inteira entre dois números, retornando apenas a parte inteira do resultado e descartando o resto". De acordo com a teoria estudada em *5.2 Problemas de Trabalho Conjunto e Torneiras*, *Atenção à Conversão de Tempo:* Se o resultado da divisão em horas for decimal, como \$2,4\text{ horas}\$, a parte inteira corresponde a \$2\text{ horas}\$ e a parte decimal \$0,4\$ deve ser multiplicada por \$60\text{ minutos}\$ (\$0,4 \times 60 = 24\text{ minutos}\$).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "realiza a divisão entre dois números e retorna o resto da divisão, semelhante ao operador %". De acordo com a teoria estudada em *1.3 Algoritmo da Divisão Euclidiana e Aritmética dos Restos*, para quaisquer dois números inteiros \$D\$ (dividendo) e \$d\$ (divisor não nulo), existem inteiros únicos \$q\$ (quociente) e \$r\$ (resto) tais que.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "smallint tem tamanho de armazenamento de 1 byte, que permite armazenar a faixa de valores inteiros de −128 a 127". De acordo com a teoria estudada em *1.1 Conjunto dos Números Naturais e Inteiros*, *Adição de Inteiros com Sinais Opostos:* Conserva-se o sinal do termo de maior valor absoluto (módulo) e subtraem-se os valores: $(-15) + (+9) = -(15 - 9) = -6$.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "bigint é a escolha usual para números inteiros, pois oferece o melhor equilíbrio entre faixa de valores, tamanho...". De acordo com a teoria estudada em *1.2 Conjunto dos Números Racionais: Decimais Finitos e Dízimas Periódicas*, $$\text{Fração Geratriz} = \frac{(\text{Antiperíodo seguido do Período}) - (\text{Antiperíodo})}{(\text{tantos 9 quantos forem os dígitos do período}) \times 10^{(\text{dígitos do antiperíodo})}}$$.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "integer tem tamanho de armazenamento de 4 bytes e pode armazenar valores na faixa de −32768 a 32767". De acordo com a teoria estudada em *3.4 Máximo Divisor Comum: Partições Equitativas e Lotes Máximos*, palavras-chave: "Quando voltarão a se encontrar?", "periodicidade", "ciclos", "simultaneamente" — "Maior tamanho possível", "sem sobras", "dividir igualmente", "menor número de caixas".
+> - **D)** **Correta.** Conforme fundamentado na seção *1.2 Conjunto dos Números Racionais: Decimais Finitos e Dízimas Periódicas* deste guia, $$0,75 = \frac{75}{100} = \frac{3}{4} \quad (4 = 2^2); \qquad 0,35 = \frac{35}{100} = \frac{7}{20} \quad (20 = 2^2 \times 5)$$. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 23ª/2016) ao estabelecer que "numeric pode armazenar números com precisão variável de, no máximo, 100 dígitos".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "serial é um tipo conveniente para definir colunas identificadoras únicas, semelhante à propriedade auto incremento". De acordo com a teoria estudada em *1.2 Conjunto dos Números Racionais: Decimais Finitos e Dízimas Periódicas*, todo número racional pode ser transcrito sob representação decimal, dividindo-se o numerador pelo denominador, resultando em apenas duas possibilidades formais.
 >
-> **Gabarito: A**
+> **Gabarito: D**
 
 ---
 
@@ -190,26 +190,26 @@ A potenciação traduz o produto de fatores idênticos repetidos ($a^n = \underb
 ---
 
 ### Teste 074
-**(FGV – TCE-GO – Analista de Controle Externo Ciencias Contabeis – 2024)**
-Tanto a auditoria interna quanto a auditoria externa são essenciais para garantir a integridade, transparência e eficácia das operações de uma organização. Assinale a opção que indica o Princípio Orçamentário que evita múltiplos orçamentos paralelos dentro da mesma pessoa política.
+**(FGV – TJ/MT – 2024 – Analista Judiciario Tecnologia Da Informacao)**
+Os tabuleiros utilizados para jogos de damas e de xadrez são objetos quadrados divididos em linhas e colunas formando uma matriz 8 x 8. Cada uma das casas do tabuleiro corresponde a posições na matriz. As linhas (𝐿) são numeradas de 1 a 8, de cima para baixo e as colunas (𝐶) são numeradas de 1 a 8, da esquerda para a direita, conforme ilustra a figura a seguir. Cada casa do tabuleiro tem uma única cor definida como segue: branca,se 𝐿+𝐶 é par cor da casa = { preta,se 𝐿+𝐶 é ímpar Se, na definição das cores das casas do tabuleiro apresentada acima, ambas as operações de adição fossem trocadas por operações de multiplicação, o tabuleiro passaria a ter
 
-* **A)** Profundidade dos trabalhos maior e periodicidade dos testes menor.
-* **B)** Grau de independência menor e periodicidade dos testes maior.
-* **C)** Profundidade dos trabalhos menor e periodicidade dos testes maior.
-* **D)** Grau de independência maior e periodicidade dos testes menor.
-* **E)** Profundidade dos trabalhos maior e periodicidade dos testes maior.
+* **A)** 8 casas brancas e 56 casas pretas.
+* **B)** 16 casas brancas e 48 casas pretas.
+* **C)** 24 casas brancas e 40 casas pretas.
+* **D)** 36 casas brancas e 28 casas pretas.
+* **E)** 48 casas brancas e 16 casas pretas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *3.4 Máximo Divisor Comum: Partições Equitativas e Lotes Máximos* deste guia, palavras-chave: "Quando voltarão a se encontrar?", "periodicidade", "ciclos", "simultaneamente" — "Maior tamanho possível", "sem sobras", "dividir igualmente", "menor número de caixas". Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "Profundidade dos trabalhos maior e periodicidade dos testes menor".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Grau de independência menor e periodicidade dos testes maior". De acordo com a teoria estudada em *3.3 Mínimo Múltiplo Comum: Ciclos, Coincidências e Periodicidade*, o Mínimo Múltiplo Comum (MMC) entre dois ou mais inteiros é o menor número natural não nulo que é divisível simultaneamente por todos eles.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Profundidade dos trabalhos menor e periodicidade dos testes maior". De acordo com a teoria estudada em *3. Teoria dos Números: Divisibilidade, Primos, MMC e MDC*, a teoria dos números fornece o ferramental algébrico para lidar com divisões inteiras, periodicidade de escalas e otimização de lotes em logística e auditoria.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Grau de independência maior e periodicidade dos testes menor". De acordo com a teoria estudada em *1.1 Conjunto dos Números Naturais e Inteiros*, é fechado sob as operações de adição e multiplicação (a soma ou produto de dois naturais é sempre um natural), mas falha no fechamento da subtração quando o minuendo é menor que o subtraendo (\$3 - 8 \notin \mathbb{N}\$).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Profundidade dos trabalhos maior e periodicidade dos testes maior". De acordo com a teoria estudada em *1.3 Algoritmo da Divisão Euclidiana e Aritmética dos Restos*, o resto \$r\$ é estritamente não negativo e menor que o divisor (\$0 \le r \le d - 1\$).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "8 casas brancas e 56 casas pretas". De acordo com a teoria estudada em *1.2 Conjunto dos Números Racionais: Decimais Finitos e Dízimas Periódicas*, decimais Exatos (ou Finitos): Apresentam um número finito de casas decimais após a vírgula. Isso ocorre quando a fração irredutível $\frac{a}{b}$ possui um denominador $b$ decomposto exclusivamente em fatores primos iguais a $2$ e/ou $5$.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "16 casas brancas e 48 casas pretas". De acordo com a teoria estudada em *1.2 Conjunto dos Números Racionais: Decimais Finitos e Dízimas Periódicas*, dízimas Periódicas: Apresentam infinitas casas decimais que se repetem de maneira cíclica a partir de um bloco repetitivo denominado período.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "24 casas brancas e 40 casas pretas". De acordo com a teoria estudada em *2.1 Ordem de Precedência das Operações e Delimitadores*, 1º) Potenciações e Radiciações (na ordem em que aparecem da esquerda para a direita).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "36 casas brancas e 28 casas pretas". De acordo com a teoria estudada em *2.1 Ordem de Precedência das Operações e Delimitadores*, 2º) Multiplicações e Divisões (com estrita igualdade de precedência, calculando-se o que vier primeiro da esquerda para a direita).
+> - **E)** **Correta.** Conforme fundamentado na seção *2.1 Ordem de Precedência das Operações e Delimitadores* deste guia, na expressão $12 \div 3 \times 2$, a multiplicação não tem prioridade sobre a divisão! Ambas possuem a mesma hierarquia; resolve-se da esquerda para a direita: $12 \div 3 = 4$, e $4 \times 2 = 8$ (o cálculo incorreto $12 \div 6 = 2$ é uma armadilha frequente). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/MT/2024) ao estabelecer que "48 casas brancas e 16 casas pretas".
 >
-> **Gabarito: A**
+> **Gabarito: E**
 
 ---
 
@@ -279,7 +279,7 @@ $$\text{MMC}(a, b) \times \text{MDC}(a, b) = a \times b$$
 ---
 
 ### Teste 075
-**(FGV – TRT-13 – Analista Judiciario Tecnologia da Informacao – 2022)**
+**(FGV – TRT/13 – 2022 – Analista Judiciario Tecnologia Da Informacao)**
 A soma de 2 números naturais é 22253. Um dos números é divisível por 10 e se retirarmos o algarismo das unidades desse número obtém-se o outro número. A diferença entre o maior e o menor número é
 
 * **A)** 13222.
@@ -292,61 +292,61 @@ A soma de 2 números naturais é 22253. Um dos números é divisível por 10 e s
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *3.1 Critérios de Divisibilidade Aplicados* deste guia, permitem verificar se um número inteiro \$N\$ é divisível por outro sem executar a divisão longa. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-13/2022) ao estabelecer que "13222".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "14644". De acordo com a teoria estudada em *1.1 Conjunto dos Números Naturais e Inteiros*, é fechado sob as operações de adição e multiplicação (a soma ou produto de dois naturais é sempre um natural), mas falha no fechamento da subtração quando o minuendo é menor que o subtraendo (\$3 - 8 \notin \mathbb{N}\$).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "15876". De acordo com a teoria estudada em *3.3 Mínimo Múltiplo Comum: Ciclos, Coincidências e Periodicidade*, o Mínimo Múltiplo Comum (MMC) entre dois ou mais inteiros é o menor número natural não nulo que é divisível simultaneamente por todos eles.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "17732". De acordo com a teoria estudada em *3.4 Máximo Divisor Comum: Partições Equitativas e Lotes Máximos*, palavras-chave: "Quando voltarão a se encontrar?", "periodicidade", "ciclos", "simultaneamente" — "Maior tamanho possível", "sem sobras", "dividir igualmente", "menor número de caixas".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "18207". De acordo com a teoria estudada em *3.1 Critérios de Divisibilidade Aplicados*, por 11: A diferença entre a soma dos algarismos de ordem ímpar e a soma dos algarismos de ordem par é múltipla de 11 (incluindo o zero).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "13222". De acordo com a teoria estudada em *1.1 Conjunto dos Números Naturais e Inteiros*, é fechado sob as operações de adição e multiplicação (a soma ou produto de dois naturais é sempre um natural), mas falha no fechamento da subtração quando o minuendo é menor que o subtraendo ($3 - 8 \notin \mathbb{N}$).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "14644". De acordo com a teoria estudada em *3.3 Mínimo Múltiplo Comum: Ciclos, Coincidências e Periodicidade*, o Mínimo Múltiplo Comum (MMC) entre dois ou mais inteiros é o menor número natural não nulo que é divisível simultaneamente por todos eles.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "15876". De acordo com a teoria estudada em *3.4 Máximo Divisor Comum: Partições Equitativas e Lotes Máximos*, palavras-chave: "Quando voltarão a se encontrar?", "periodicidade", "ciclos", "simultaneamente" — "Maior tamanho possível", "sem sobras", "dividir igualmente", "menor número de caixas".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "17732". De acordo com a teoria estudada em *3.1 Critérios de Divisibilidade Aplicados*, por 11: A diferença entre a soma dos algarismos de ordem ímpar e a soma dos algarismos de ordem par é múltipla de 11 (incluindo o zero).
+> - **E)** **Correta.** Conforme fundamentado na seção *3.1 Critérios de Divisibilidade Aplicados* deste guia, permitem verificar se um número inteiro $N$ é divisível por outro sem executar a divisão longa. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/13/2022) ao estabelecer que "18207".
 >
-> **Gabarito: A**
+> **Gabarito: E**
 
 ---
 
 ### Teste 076
-**(FGV – TRT-13 – Analista Judiciario Tecnologia da Informacao – 2022)**
-Um número inteiro positivo é chamado de “quadrado perfeito” quando ele é o quadrado de um número inteiro positivo. Por exemplo, 16 é um quadrado perfeito pois é igual a 42. O número de quadrados perfeitos maiores do que 100 e menores do que 2023 é
+**(FGV – TRT/DA – 2025 – Tecnico Judiciario Area Administrativa Agente Da Policia Judicial)**
+Um palíndromo numérico, ou capicua, é um número que lido de trás para a frente é igual ao número original. Por exemplo: 121, 35653, 8778, 108801 são palíndromos. Entre os números de seis algarismos, a quantidade de palíndromos numéricos é igual a
 
-* **A)** 28.
-* **B)** 34.
-* **C)** 42.
-* **D)** 44.
-* **E)** 48.
+* **A)** 600.
+* **B)** 900.
+* **C)** 8.100.
+* **D)** 18.000.
+* **E)** 180.000.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "28". De acordo com a teoria estudada em *Quantidade Total de Divisores Positivos:*, *Exemplo:* Para encontrar quantos divisores possui o número 360.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "34". De acordo com a teoria estudada em *3.1 Critérios de Divisibilidade Aplicados*, permitem verificar se um número inteiro \$N\$ é divisível por outro sem executar a divisão longa.
-> - **C)** **Correta.** Conforme fundamentado na seção *3.4 Máximo Divisor Comum: Partições Equitativas e Lotes Máximos* deste guia, fatoração em primos: Fatores comuns e não comuns com os maiores expoentes — Apenas fatores comuns com os menores expoentes. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-13/2022) ao estabelecer que "42".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "44". De acordo com a teoria estudada em *3.4 Máximo Divisor Comum: Partições Equitativas e Lotes Máximos*, o Máximo Divisor Comum (MDC) é o maior número inteiro capaz de dividir exatamente todos os números dados, sem deixar resto.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "48". De acordo com a teoria estudada em *4.1 Conceito, Tipologias e Equivalência de Frações*, fração Aparente: O numerador é múltiplo exato do denominador, consubstanciando um número inteiro disfarçado (\$\frac{12}{3} = 4, \frac{35}{7} = 5\$).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "600". De acordo com a teoria estudada em *Quantidade Total de Divisores Positivos:*, o número total de divisores inteiros positivos de $N$ é obtido somando-se uma unidade a cada expoente da fatoração canônica e multiplicando-se os resultados.
+> - **B)** **Correta.** Conforme fundamentado na seção *Quantidade Total de Divisores Positivos:* deste guia, *Exemplo:* Para encontrar quantos divisores possui o número 360. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/DA/2025) ao estabelecer que "900".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "8.100". De acordo com a teoria estudada em *1.2 Conjunto dos Números Racionais: Decimais Finitos e Dízimas Periódicas*, $$0,75 = \frac{75}{100} = \frac{3}{4} \quad (4 = 2^2); \qquad 0,35 = \frac{35}{100} = \frac{7}{20} \quad (20 = 2^2 \times 5)$$.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "18.000". De acordo com a teoria estudada em *3.1 Critérios de Divisibilidade Aplicados*, por 8: O número formado pelos três últimos algarismos é divisível por 8 ou termina em $000$.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "180.000". De acordo com a teoria estudada em *3.1 Critérios de Divisibilidade Aplicados*, por 4: O número formado pelos dois últimos algarismos é divisível por 4 ou termina em $00$.
 >
-> **Gabarito: C**
+> **Gabarito: B**
 
 ---
 
 ### Teste 077
-**(IBFC – TJ-MG – Analista Judiciario Classe C Analista de Tecnologia da Informacao – 2022)**
-A negação da proposição “Existem números inteiros divisíveis por 5” corresponde a:
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Administração)**
+Gabriel fez um sorteio dos seis primeiros números naturais e obteve a sequência: 6 3 5 1 4 2 Essa sequência poderá ser alterada mediante uma sucessão de movimentos. Realizar um movimento significa escolher um dos números da sequência e fazê-lo pular o número que está imediatamente à sua direita. A partir da sequência dada, após 𝑛 movimentos, Gabriel obteve esta sequência natural: 1 2 3 4 5 6. O menor valor possível de 𝑛 é
 
-* **A)** Existem números inteiros não divisíveis por 5
-* **B)** Não existem números inteiros divisíveis por 5
-* **C)** Qualquer número inteiro é divisível por 5
-* **D)** Qualquer número inteiro não é divisível por 5
-* **E)** Nem todo número inteiro é divisível por 5
+* **A)** 10.
+* **B)** 11.
+* **C)** 12.
+* **D)** 13.
+* **E)** 14. Ética no Serviço Público
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Existem números inteiros não divisíveis por 5". De acordo com a teoria estudada em *1.3 Algoritmo da Divisão Euclidiana e Aritmética dos Restos*, para quaisquer dois números inteiros \$D\$ (dividendo) e \$d\$ (divisor não nulo), existem inteiros únicos \$q\$ (quociente) e \$r\$ (resto) tais que.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Não existem números inteiros divisíveis por 5". De acordo com a teoria estudada em *3.2 Decomposição em Fatores Primos e Contagem de Divisores Positivos*, pelo Teorema Fundamental da Aritmética, qualquer número natural maior que 1 pode ser decomposto de forma única (a menos da ordem dos fatores) em um produto de potências de números primos.
-> - **C)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "Qualquer número inteiro é divisível por 5". De acordo com a teoria estudada em *3.4 Máximo Divisor Comum: Partições Equitativas e Lotes Máximos*, o Máximo Divisor Comum (MDC) é o maior número inteiro capaz de dividir exatamente todos os números dados, sem deixar resto.
-> - **D)** **Correta.** Conforme fundamentado na seção *3.1 Critérios de Divisibilidade Aplicados* deste guia, permitem verificar se um número inteiro \$N\$ é divisível por outro sem executar a divisão longa. Dessa forma, está plenamente correta a assertiva da banca (IBFC – TJ-MG/2022) ao estabelecer que "Qualquer número inteiro não é divisível por 5".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Nem todo número inteiro é divisível por 5". De acordo com a teoria estudada em *3.3 Mínimo Múltiplo Comum: Ciclos, Coincidências e Periodicidade*, o Mínimo Múltiplo Comum (MMC) entre dois ou mais inteiros é o menor número natural não nulo que é divisível simultaneamente por todos eles.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "10". De acordo com a teoria estudada em *3.3 Mínimo Múltiplo Comum: Ciclos, Coincidências e Periodicidade*, o Mínimo Múltiplo Comum (MMC) entre dois ou mais inteiros é o menor número natural não nulo que é divisível simultaneamente por todos eles.
+> - **B)** **Correta.** Conforme fundamentado na seção *3.2 Decomposição em Fatores Primos e Contagem de Divisores Positivos* deste guia, pelo Teorema Fundamental da Aritmética, qualquer número natural maior que 1 pode ser decomposto de forma única (a menos da ordem dos fatores) em um produto de potências de números primos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "11".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "12". De acordo com a teoria estudada em *3.4 Máximo Divisor Comum: Partições Equitativas e Lotes Máximos*, palavras-chave: "Quando voltarão a se encontrar?", "periodicidade", "ciclos", "simultaneamente" — "Maior tamanho possível", "sem sobras", "dividir igualmente", "menor número de caixas".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "13". De acordo com a teoria estudada em *1.1 Conjunto dos Números Naturais e Inteiros*, é fechado sob as operações de adição e multiplicação (a soma ou produto de dois naturais é sempre um natural), mas falha no fechamento da subtração quando o minuendo é menor que o subtraendo ($3 - 8 \notin \mathbb{N}$).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "14. Ética no Serviço Público". De acordo com a teoria estudada em *1.2 Conjunto dos Números Racionais: Decimais Finitos e Dízimas Periódicas*, dízima Periódica Simples: O período principia imediatamente após a vírgula.
 >
-> **Gabarito: D**
+> **Gabarito: B**
 
 ---
 
@@ -376,24 +376,24 @@ Uma fração $\frac{a}{b}$ representa uma divisão indicada onde o denominador $
 ---
 
 ### Teste 078
-**(FGV – TRT-13 – Analista Judiciario Tecnologia da Informacao – 2022)**
-Carlos considera que um número é agradável quando a soma dos seus algarismos é 7 ou múltiplo de 7. Por exemplo, o ano de 2005 foi agradável pois 2 + 0 + 0 + 5 = 7, e o de 2039 será também, pois 2 + 0 + 3 + 9 = 14. Por esse critério, o número de anos agradáveis do século XX foi igual a
+**(FCC – TRT 13ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
+A classe Stack da biblioteca Java implementa o tipo abstrato de pilha e as operações push e pop. Considere o exemplo abaixo. import java.util.Stack; public class Pilha { public static void main(String[] args) { Stack<String> s = new Stack<String>(); s.push("Ana"); s.push("Paulo"); s.push("Pedro"); s.push("Marcos"); while (s.size() > 0) { System.out.println(s.pop()); } } } Sobre a classe Pilha apresentada é correto afirmar:
 
-* **A)** 7.
-* **B)** 10.
-* **C)** 11.
-* **D)** 13.
-* **E)** 14.
+* **A)** JTest e teste de carga.
+* **B)** JMeter e teste de unidade.
+* **C)** JRun e teste funcional.
+* **D)** JUnit e teste de unidade.
+* **E)** JMeter e teste de carga.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "7". De acordo com a teoria estudada em *3.1 Critérios de Divisibilidade Aplicados*, por 9: A soma dos seus algarismos resulta em um múltiplo de 9.
-> - **B)** **Correta.** Conforme fundamentado na seção *3.1 Critérios de Divisibilidade Aplicados* deste guia, por 3: A soma dos valores absolutos dos seus algarismos é um múltiplo de 3 (ex.: \$7.458 \rightarrow 7 + 4 + 5 + 8 = 24\$, que é divisível por 3). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-13/2022) ao estabelecer que "10".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "11". De acordo com a teoria estudada em *4.1 Conceito, Tipologias e Equivalência de Frações*, fração Aparente: O numerador é múltiplo exato do denominador, consubstanciando um número inteiro disfarçado (\$\frac{12}{3} = 4, \frac{35}{7} = 5\$).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "13". De acordo com a teoria estudada em *Quantidade Total de Divisores Positivos:*, *Exemplo:* Para encontrar quantos divisores possui o número 360.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "14". De acordo com a teoria estudada em *3.1 Critérios de Divisibilidade Aplicados*, por 6: É simultaneamente divisível por 2 (par) e por 3 (soma dos algarismos múltipla de 3).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "JTest e teste de carga". De acordo com a teoria estudada em *4.1 Conceito, Tipologias e Equivalência de Frações*, fração Própria: O numerador é menor que o denominador ($a < b$). Representa um valor estritamente menor que a unidade inteira ($\frac{2}{5}, \frac{7}{9}$).
+> - **B)** **Correta.** Conforme fundamentado na seção *4. Álgebra Fracionária e Operações com Frações* deste guia, uma fração $\frac{a}{b}$ representa uma divisão indicada onde o denominador $b$ assinala em quantas partes iguais a unidade inteira foi particionada, e o numerador $a$ indica quantas dessas partes foram tomadas. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 13ª/2014) ao estabelecer que "JMeter e teste de unidade".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "JRun e teste funcional". De acordo com a teoria estudada em *4.1 Conceito, Tipologias e Equivalência de Frações*, fração Imprópria: O numerador é maior ou igual ao denominador ($a \ge b$). Representa um valor maior ou igual à unidade inteira ($\frac{7}{4}, \frac{11}{3}$). Podem ser convertidas em números mistos: $\frac{7}{4} = 1 \frac{3}{4}$.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "JUnit e teste de unidade". De acordo com a teoria estudada em *Quantidade Total de Divisores Positivos:*, o número total de divisores inteiros positivos de $N$ é obtido somando-se uma unidade a cada expoente da fatoração canônica e multiplicando-se os resultados.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "JMeter e teste de carga". De acordo com a teoria estudada em *Quantidade Total de Divisores Positivos:*, *Exemplo:* Para encontrar quantos divisores possui o número 360.
 >
 > **Gabarito: B**
 
@@ -433,74 +433,74 @@ Em problemas que constroem sequências infinitas repetindo ciclicamente um conju
 ---
 
 ### Teste 079
-**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Administracao – 2026)**
-Sejam 𝑋 e 𝑌 dois números inteiros maiores do que zero, tais que 2𝑋𝑌−𝑌= 36. A soma dos possíveis valores de 𝑋 é
+**(FCC – TRT 14ª – 2016 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
+De acordo com o texto, a Microsoft
 
-* **A)** 8.
-* **B)** 10.
-* **C)** 12.
-* **D)** 15.
-* **E)** 21.
+* **A)** criou o OneDrive para concorrer com o Dropbox.
+* **B)** faz ofertas de tempos em tempos.
+* **C)** tem problemas em encontrar nomes adequados para seus produtos.
+* **D)** tem um padrão consagrado para nomear seus produtos.
+* **E)** foi processada por usar a palavra Sky para nomear um de seus produtos.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "8". De acordo com a teoria estudada em *1.1 Conjunto dos Números Naturais e Inteiros*, é fechado sob as operações de adição e multiplicação (a soma ou produto de dois naturais é sempre um natural), mas falha no fechamento da subtração quando o minuendo é menor que o subtraendo (\$3 - 8 \notin \mathbb{N}\$).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "10". De acordo com a teoria estudada em *1.1 Conjunto dos Números Naturais e Inteiros*, *Adição de Inteiros com Sinais Opostos:* Conserva-se o sinal do termo de maior valor absoluto (módulo) e subtraem-se os valores: \$(-15) + (+9) = -(15 - 9) = -6\$.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "12". De acordo com a teoria estudada em *3.1 Critérios de Divisibilidade Aplicados*, por 3: A soma dos valores absolutos dos seus algarismos é um múltiplo de 3 (ex.: \$7.458 \rightarrow 7 + 4 + 5 + 8 = 24\$, que é divisível por 3).
-> - **D)** **Correta.** Conforme fundamentado na seção *1.3 Algoritmo da Divisão Euclidiana e Aritmética dos Restos* deste guia, para quaisquer dois números inteiros \$D\$ (dividendo) e \$d\$ (divisor não nulo), existem inteiros únicos \$q\$ (quociente) e \$r\$ (resto) tais que. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "15".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "21". De acordo com a teoria estudada em *1.1 Conjunto dos Números Naturais e Inteiros*, incorpora os opostos simétricos (negativos) aos números naturais, viabilizando o fechamento irrestrito da subtração. Na reta numérica, os inteiros organizam-se ordenadamente em torno da origem zero.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "criou o OneDrive para concorrer com o Dropbox". De acordo com a teoria estudada em *3.3 Mínimo Múltiplo Comum: Ciclos, Coincidências e Periodicidade*, o problema exige MMC sempre que veicular ideias de coincidência temporal futura, reencontro de eventos periódicos, ciclos de rondas/inspeções ou questões que indaguem: *"quando voltarão a se encontrar simultaneamente?"*.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "faz ofertas de tempos em tempos". De acordo com a teoria estudada em *5.2 Problemas de Trabalho Conjunto e Torneiras*, para o caso específico de dois agentes que levam tempos individuais $t_1$ e $t_2$.
+> - **C)** **Correta.** Conforme fundamentado na seção *Quantidade Total de Divisores Positivos:* deste guia, *Exemplo:* Para encontrar quantos divisores possui o número 360. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 14ª/2016) ao estabelecer que "tem problemas em encontrar nomes adequados para seus produtos".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "tem um padrão consagrado para nomear seus produtos". De acordo com a teoria estudada em *5.3 Problemas de Ciclos Periódicos e Padrões Sequenciais*, se o resto $r > 0$: O termo procurado é exatamente o $r$-ésimo elemento do ciclo padrão.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "foi processada por usar a palavra Sky para nomear um de seus produtos". De acordo com a teoria estudada em *3.4 Máximo Divisor Comum: Partições Equitativas e Lotes Máximos*, palavras-chave: "Quando voltarão a se encontrar?", "periodicidade", "ciclos", "simultaneamente" — "Maior tamanho possível", "sem sobras", "dividir igualmente", "menor número de caixas".
 >
-> **Gabarito: D**
+> **Gabarito: C**
 
 ---
 
 ### Teste 080
-**(FCC – TRT-24 – Analista Judiciario Tecnologia da Informacao – 2017)**
-Na sequência 1A3E; 5I7O; 9U11A; 13E15I; 17O19U; 21A23E; . . ., o 12o termo é formado por algarismos e pelas letras
+**(FGV – TJ/BA – 2015 – Analista Judiciario Tecnologia Da Informacao)**
+“A saga do rapto de Helena e a subsequente Guerra de Troia continuam sendo um dos melhores exemplos dos perigos da luxúria.” Sobre os componentes desse segmento do texto 2, a afirmação correta é:
 
-* **A)** IO.
-* **B)** AE.
-* **C)** EI.
-* **D)** UA.
-* **E)** OA.
+* **A)** os termos “de Helena” e “de Troia” desempenham a mesma função sintática;
+* **B)** a saga do rapto de Helena e a Guerra de Troia são acontecimentos sucessivos, sendo o segundo causa do primeiro;
+* **C)** o verbo “continuar” é um verbo de ligação, expressando mudança de estado;
+* **D)** a Guerra de Troia, segundo o texto, é o exemplo mais importante dos problemas trazidos pela luxúria;
+* **E)** na expressão “perigos da luxúria”, o termo “da luxúria” representa a causa dos “perigos” aludidos.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "IO". De acordo com a teoria estudada em *3.1 Critérios de Divisibilidade Aplicados*, por 8: O número formado pelos três últimos algarismos é divisível por 8 ou termina em \$000\$.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "AE". De acordo com a teoria estudada em *5.3 Problemas de Ciclos Periódicos e Padrões Sequenciais*, se o resto \$r > 0\$: O termo procurado é exatamente o \$r\$-ésimo elemento do ciclo padrão.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "EI". De acordo com a teoria estudada em *5.3 Problemas de Ciclos Periódicos e Padrões Sequenciais*, se o resto \$r = 0\$: O termo procurado é o último elemento do ciclo (o \$k\$-ésimo elemento).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "UA". De acordo com a teoria estudada em *1.1 Conjunto dos Números Naturais e Inteiros*, *Adição de Inteiros com Sinais Opostos:* Conserva-se o sinal do termo de maior valor absoluto (módulo) e subtraem-se os valores: \$(-15) + (+9) = -(15 - 9) = -6\$.
-> - **E)** **Correta.** Conforme fundamentado na seção *3.1 Critérios de Divisibilidade Aplicados* deste guia, por 4: O número formado pelos dois últimos algarismos é divisível por 4 ou termina em \$00\$. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-24/2017) ao estabelecer que "OA".
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os termos “de Helena” e “de Troia” desempenham a mesma função sintática". De acordo com a teoria estudada em *5.3 Problemas de Ciclos Periódicos e Padrões Sequenciais*, se o resto $r > 0$: O termo procurado é exatamente o $r$-ésimo elemento do ciclo padrão.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a saga do rapto de Helena e a Guerra de Troia são acontecimentos sucessivos, sendo o segundo causa do primeiro". De acordo com a teoria estudada em *5.1 Problemas de Fração de Resto ou Cadeia Regressiva*, problemas clássicos da FCC narram um agente que consome uma fração de um montante total no primeiro dia, gasta uma fração do restante no segundo dia e encerra com uma quantia fixa final.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o verbo “continuar” é um verbo de ligação, expressando mudança de estado". De acordo com a teoria estudada em *5.3 Problemas de Ciclos Periódicos e Padrões Sequenciais*, se o resto $r = 0$: O termo procurado é o último elemento do ciclo (o $k$-ésimo elemento).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a Guerra de Troia, segundo o texto, é o exemplo mais importante dos problemas trazidos pela luxúria". De acordo com a teoria estudada em *Quantidade Total de Divisores Positivos:*, *Exemplo:* Para encontrar quantos divisores possui o número 360.
+> - **E)** **Correta.** Conforme fundamentado na seção *2.1 Ordem de Precedência das Operações e Delimitadores* deste guia, na expressão $12 \div 3 \times 2$, a multiplicação não tem prioridade sobre a divisão! Ambas possuem a mesma hierarquia; resolve-se da esquerda para a direita: $12 \div 3 = 4$, e $4 \times 2 = 8$ (o cálculo incorreto $12 \div 6 = 2$ é uma armadilha frequente). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/BA/2015) ao estabelecer que "na expressão “perigos da luxúria”, o termo “da luxúria” representa a causa dos “perigos” aludidos".
 >
 > **Gabarito: E**
 
 ---
 
 ### Teste 081
-**(FGV – TCE-GO – Analista de Controle Externo Ciencias Contabeis – 2024)**
-Assinale a opção em que a troca de posição realizada na frase é feita de forma a provocar modificação de sentido.
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Administração)**
+Um dos problemas da escrita é o emprego desnecessário de palavras. Assinale a frase a seguir em que não ocorre esse problema.
 
-* **A)** Alguns me acham antipático porque minha cara não espelha minha alma / Porque minha cara não espelha minha alma, alguns me acham antipático.
-* **B)** Os espíritos mais elevados são capazes das maiores faltas e das maiores virtudes / Os espíritos mais elevados são capazes das maiores virtudes e das maiores faltas.
-* **C)** Diga “sim” sempre que possível e “não” sempre que necessário / Diga “não” sempre que necessário e “sim” sempre que possível.
-* **D)** A sabedoria é a compreensão do eu e do mundo / A sabedoria é a compreensão do mundo e do eu.
-* **E)** São as nossas escolhas e não as nossas habilidades que verdadeiramente mostram quem somos / São as nossas habilidades e não as nossas escolhas que verdadeiramente mostram quem somos.
+* **A)** Todas as interações humanas são oportunidades ou para aprender ou para ensinar.
+* **B)** O destino do mundo depende em primeiro lugar dos estadistas. Em segundo lugar, dos intérpretes.
+* **C)** Para o seu próprio bem, não fale demais.
+* **D)** Umas vezes penso; outras vezes, existo.
+* **E)** Uma hora de conversação vale mais que 50 cartas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Alguns me acham antipático porque minha cara não espelha minha alma / Porque minha cara não espelha minha alma...". De acordo com a teoria estudada em *1.1 Conjunto dos Números Naturais e Inteiros*, é fechado sob as operações de adição e multiplicação (a soma ou produto de dois naturais é sempre um natural), mas falha no fechamento da subtração quando o minuendo é menor que o subtraendo (\$3 - 8 \notin \mathbb{N}\$).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os espíritos mais elevados são capazes das maiores faltas e das maiores virtudes / Os espíritos mais elevados são...". De acordo com a teoria estudada em *3.3 Mínimo Múltiplo Comum: Ciclos, Coincidências e Periodicidade*, cálculo Prático: Decompõem-se os números em fatores primos; o MMC é o produto de todos os fatores primos comuns e não comuns, elevados aos seus maiores expoentes.
-> - **C)** **Correta.** Conforme fundamentado na seção *1.3 Algoritmo da Divisão Euclidiana e Aritmética dos Restos* deste guia, o resto máximo possível na divisão por um divisor \$d\$ é sempre igual a \$d - 1\$. Se um problema indagar o resto máximo obtido na divisão por \$15\$, esse valor é inequivocamente \$15 - 1 = 14\$. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "Diga “sim” sempre que possível e “não” sempre que necessário / Diga “não” sempre que necessário e “sim” sempre que...".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A sabedoria é a compreensão do eu e do mundo / A sabedoria é a compreensão do mundo e do eu". De acordo com a teoria estudada em *3.3 Mínimo Múltiplo Comum: Ciclos, Coincidências e Periodicidade*, o problema exige MMC sempre que veicular ideias de coincidência temporal futura, reencontro de eventos periódicos, ciclos de rondas/inspeções ou questões que indaguem: *"quando voltarão a se encontrar simultaneamente?"*.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "São as nossas escolhas e não as nossas habilidades que verdadeiramente mostram quem somos / São as nossas...". De acordo com a teoria estudada em *3.4 Máximo Divisor Comum: Partições Equitativas e Lotes Máximos*, palavras-chave: "Quando voltarão a se encontrar?", "periodicidade", "ciclos", "simultaneamente" — "Maior tamanho possível", "sem sobras", "dividir igualmente", "menor número de caixas".
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Todas as interações humanas são oportunidades ou para aprender ou para ensinar". De acordo com a teoria estudada em *3.3 Mínimo Múltiplo Comum: Ciclos, Coincidências e Periodicidade*, o Mínimo Múltiplo Comum (MMC) entre dois ou mais inteiros é o menor número natural não nulo que é divisível simultaneamente por todos eles.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O destino do mundo depende em primeiro lugar dos estadistas. Em segundo lugar, dos intérpretes". De acordo com a teoria estudada em *5.1 Problemas de Fração de Resto ou Cadeia Regressiva*, problemas clássicos da FCC narram um agente que consome uma fração de um montante total no primeiro dia, gasta uma fração do restante no segundo dia e encerra com uma quantia fixa final.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Para o seu próprio bem, não fale demais". De acordo com a teoria estudada em *1.2 Conjunto dos Números Racionais: Decimais Finitos e Dízimas Periódicas*, decimais Exatos (ou Finitos): Apresentam um número finito de casas decimais após a vírgula. Isso ocorre quando a fração irredutível $\frac{a}{b}$ possui um denominador $b$ decomposto exclusivamente em fatores primos iguais a $2$ e/ou $5$.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Umas vezes penso; outras vezes, existo". De acordo com a teoria estudada em *3.4 Máximo Divisor Comum: Partições Equitativas e Lotes Máximos*, palavras-chave: "Quando voltarão a se encontrar?", "periodicidade", "ciclos", "simultaneamente" — "Maior tamanho possível", "sem sobras", "dividir igualmente", "menor número de caixas".
+> - **E)** **Correta.** Conforme fundamentado na seção *1. Conjuntos Numéricos Fundamentais e Propriedades Estruturais* deste guia, a estruturação desses conjuntos desenvolveu-se historicamente para sanar impossibilidades operatórias verificadas em conjuntos mais restritos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Uma hora de conversação vale mais que 50 cartas".
 >
-> **Gabarito: C**
+> **Gabarito: E**
 
 ---
 

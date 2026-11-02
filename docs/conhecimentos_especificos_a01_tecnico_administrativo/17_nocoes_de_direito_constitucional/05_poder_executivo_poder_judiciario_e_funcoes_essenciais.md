@@ -118,127 +118,152 @@ O Presidente da República responde perante o STF por crimes comuns e perante o 
 ---
 
 ### Teste 154
-**(FGV – TCE-GO – Analista de Controle Externo Juridica – 2024)**
-O Presidente da República editou o Decreto nº X, o qual dispôs sobre o seguinte: I. extinção dos órgãos públicos Alfa e Beta, com realocação dos respectivos ocupantes, o que decorria da exponencial diminuição de suas atividades, fruto de alterações no ambiente social; II. extinção dos cargos em comissão de simbologia W, na medida em que vagassem; III. disciplina da organização da Administração Pública federal. Por discordar das medidas adotadas, o Partido Político Alfa, com representação no Congresso Nacional, consultou sua assessoria jurídica em relação à conformidade constitucional das medidas adotadas. A assessoria informou que é constitucional o que consta em
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Gestão Governamental)**
+O Presidente da República, em matéria de sua iniciativa privativa, apresentou projeto de lei à Câmara dos Deputados. Após tramitação regular, o projeto foi aprovado, com alterações, e encaminhado para o Senado Federal. Nessa Casa Legislativa, foi aprovado um substitutivo alterando integralmente, embora sem aumento de despesa, a forma como a respectiva matéria fora disciplinada no projeto. Considerando a sistemática constitucional, é correto afirmar que
 
-* **A)** I, II e III.
-* **B)** I, apenas.
-* **C)** III, apenas.
-* **D)** I e II, apenas.
-* **E)** II e III, apenas.
+* **A)** o Senado Federal, ao aprovar o substitutivo, assumiu a função de Casa Iniciadora, reiniciando a tramitação do projeto.
+* **B)** por se tratar de matéria de iniciativa privativa do Chefe do Poder Executivo, o Senado Federal não poderia ter aprovado o substitutivo.
+* **C)** após ser apreciado pela Câmara dos Deputados, o substitutivo, se aprovado, será encaminhado ao Chefe do Poder Executivo para fins de sanção ou veto.
+* **D)** o Senado Federal, embora tenha atuado como Casa Revisora, deve apreciar as emendas que venham a ser aprovadas na Câmara dos Deputados, após esta Casa analisar o substitutivo.
+* **E)** por se tratar de matéria de iniciativa privativa do Chefe do Poder Executivo, o substitutivo aprovado pelo Senado Federal somente poderia versar sobre redação, não sobre o mérito.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *1.2 Atribuições Delegáveis do Presidente da República (Art. 84, Parágrafo Único)*, extinção de Órgãos Públicos: O Presidente NÃO pode criar nem extinguir Ministérios ou órgãos públicos por decreto! A criação e extinção de órgãos públicos exige expressamente lei formal ordinária (art. 88 da CF/88).
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *1.1 Dupla Vacância dos Cargos Presidenciais (Art. 81 da CF/88)*, últimos 2 anos do mandato: Se a dupla vacância definitiva ocorrer na segunda metade da legislatura (3º ou 4º ano do mandato), a eleição para ambos os cargos será feita indireta, trinta dias depois da última vaga, pelo Congresso Nacional, na forma da lei.
-> - **C)** **Correta.** Conforme fundamentado na seção *1.2 Atribuições Delegáveis do Presidente da República (Art. 84, Parágrafo Único)* deste guia, *a)* Organização e funcionamento da administração federal, quando não implicar aumento de despesa nem criação ou extinção de órgãos públicos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "III, apenas".
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *1.2 Atribuições Delegáveis do Presidente da República (Art. 84, Parágrafo Único)*, extinção de Cargos Públicos Ocupados: Depende obrigatoriamente de lei formal. Por decreto autônomo, o Chefe do Executivo só pode extinguir cargos e funções quando estiverem vagos!.
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *1.2 Atribuições Delegáveis do Presidente da República (Art. 84, Parágrafo Único)*, o decreto autônomo serve exclusivamente para organizar órgãos existentes sem gerar custos ou extinguir cargos vagos.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o Senado Federal, ao aprovar o substitutivo, assumiu a função de Casa Iniciadora, reiniciando a tramitação do...". De acordo com a teoria estudada em *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)*, sanção Constitucional: Penas privativas de liberdade / multas criminais — Perda do cargo + inabilitação por 8 anos para qualquer função pública (quórum de 2/3 do Senado).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "por se tratar de matéria de iniciativa privativa do Chefe do Poder Executivo, o Senado Federal não poderia ter...". De acordo com a teoria estudada em *1.2 Atribuições Delegáveis do Presidente da República (Art. 84, Parágrafo Único)*, extinção de Cargos Públicos Ocupados: Depende obrigatoriamente de lei formal. Por decreto autônomo, o Chefe do Executivo só pode extinguir cargos e funções quando estiverem vagos!.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)* deste guia, juízo de Admissibilidade: Câmara dos Deputados (quórum de 2/3 dos membros) — Câmara dos Deputados (quórum de 2/3 dos membros). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "após ser apreciado pela Câmara dos Deputados, o substitutivo, se aprovado, será encaminhado ao Chefe do Poder...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o Senado Federal, embora tenha atuado como Casa Revisora, deve apreciar as emendas que venham a ser aprovadas na...". De acordo com a teoria estudada em *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)*, imunidade Prisional (Art. 86, § 3º): Não pode ser preso, na vigência do mandato, senão após sentença penal condenatória transitada em julgado — Inaplicável medida penal coercitiva.
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "por se tratar de matéria de iniciativa privativa do Chefe do Poder Executivo, o substitutivo aprovado pelo Senado...". De acordo com a teoria estudada em *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)*, irresponsabilidade Relativa (Art. 86, § 4º): Não pode ser responsabilizado por atos estranhos ao exercício de suas funções na vigência do mandato — Aplicável a atos conexos ao exercício funcional.
 >
 > **Gabarito: C**
 
 ---
 
 ### Teste 155
-**(CEBRASPE – TRT-8 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2016)**
-Com base no que dispõe a CF sobre o presidente da República, assinale a opção correta. A
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Fiscalização - Ciências Atuariais)**
+Após ampla mobilização popular, visando à contenção do gasto público e ao zelo pela moralidade administrativa, foram iniciados debates, no âmbito da Assembleia Legislativa do Estado Sigma, para a apresentação de proposta de emenda constitucional que iria dispor que as leis orgânicas dos municípios situados no território de Sigma devem estatuir: I. o número máximo de secretarias do Poder Executivo; II. a remuneração máxima dos cargos do Poder Executivo; III. os balizamentos a serem observados para a prática de atos discricionários. Considerando as três temáticas referidas, é correto afirmar que a Constituição Estadual
 
-* **A)** renúncia ao mandado pelo presidente da República prejudica, por perda de objeto, o processo de impeachment eventualmente em curso, acarretando a sua extinção automática.
-* **B)** Por força do princípio da inafastabilidade jurisdicional, eventual decisão condenatória proferida pelo Senado Federal em julgamento por crime de responsabilidade estará sujeita a controle judicial posterior.
-* **C)** Por ser norma punitiva, o rol de crimes de responsabilidade previsto na CF é taxativo, nele não podendo ser inseridos novos tipos.
-* **D)** A CF admite excepcionalmente a edição, pelo presidente da República, de decreto como fonte normativa primária, o chamado decreto autônomo.
-* **E)** Em processo de impeachment por crime de responsabilidade, o contraditório e a ampla defesa somente são exercidos pelo presidente da República perante o Senado Federal, na fase de processo e julgamento.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "renúncia ao mandado pelo presidente da República prejudica, por perda de objeto, o processo de impeachment...". De acordo com a teoria estudada em *1.2 Atribuições Delegáveis do Presidente da República (Art. 84, Parágrafo Único)*, extinção de Cargos Públicos Ocupados: Depende obrigatoriamente de lei formal. Por decreto autônomo, o Chefe do Executivo só pode extinguir cargos e funções quando estiverem vagos!.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Por força do princípio da inafastabilidade jurisdicional, eventual decisão condenatória proferida pelo Senado...". De acordo com a teoria estudada em *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)*, imunidade Prisional (Art. 86, § 3º): Não pode ser preso, na vigência do mandato, senão após sentença penal condenatória transitada em julgado — Inaplicável medida penal coercitiva.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Por ser norma punitiva, o rol de crimes de responsabilidade previsto na CF é taxativo, nele não podendo ser...". De acordo com a teoria estudada em *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)*, o Presidente da República responde perante o STF por crimes comuns e perante o Senado Federal por crimes de responsabilidade (*impeachment*).
-> - **D)** **Correta.** Conforme fundamentado na seção *1.2 Atribuições Delegáveis do Presidente da República (Art. 84, Parágrafo Único)* deste guia, art. 84, VI: Dispor, mediante decreto autônomo, sobre. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT-8/2016) ao estabelecer que "A CF admite excepcionalmente a edição, pelo presidente da República, de decreto como fonte normativa primária, o...".
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Em processo de impeachment por crime de responsabilidade, o contraditório e a ampla defesa somente são exercidos...". De acordo com a teoria estudada em *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)*, instauração do Processo: Recebimento da denúncia ou queixa pelo STF — Deliberação do Plenário do Senado Federal por maioria simples.
->
-> **Gabarito: D**
-
----
-
-### Teste 156
-**(FCC – TRT-2 – Analista Judiciário - Tecnologia da Informação – 2014)**  
-Entre as atribuições conferidas pelo texto constitucional ao Presidente da República está o poder de "conceder indulto e comutar penas" (art. 84, XII). O exercício dessa atribuição presidencial não é cabível, nos termos da Constituição Federal, para beneficiar os condenados pela prática das infrações criminais de:
-
-* **A)** terrorismo, racismo, crimes hediondos e ação de grupos armados contra a ordem constitucional.
-* **B)** tortura, racismo, crimes hediondos e tráfico ilícito de entorpecentes e drogas afins.
-* **C)** terrorismo, tortura, crimes hediondos e tráfico ilícito de entorpecentes e drogas afins.
-* **D)** terrorismo, tortura, ação de grupos armados contra a ordem constitucional e tráfico ilícito de drogas.
-* **E)** terrorismo, tortura, racismo, estelionato previdenciário e crimes contra a administração pública.
+* **A)** pode dispor sobre todas.
+* **B)** não pode dispor sobre nenhuma.
+* **C)** pode dispor apenas sobre a matéria referida em II.
+* **D)** pode dispor apenas sobre as matérias referidas em I e III.
+* **E)** pode dispor apenas sobre as matérias referidas em I e II.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. O racismo e a ação de grupos armados são crimes inafiançáveis e imprescritíveis (art. 5º, XLII e XLIV), mas a vedação de graça/indulto não incide expressamente sobre eles.
-> - **B)** **Incorreto**. O racismo não consta da vedação de graça ou anistia do inciso XLIII.
-> - **C)** **Correto**. Nos termos do art. 5º, XLIII, da Constituição Federal: "a lei considerará crimes inafiançáveis e insuscetíveis de graça ou anistia a prática da tortura, o tráfico ilícito de entorpecentes e drogas afins, o terrorismo e os definidos como crimes hediondos, por eles respondendo os mandantes, os executores e os que, podendo evitá-los, se omitirem". Conforme pacífica jurisprudência do STF, a vedação da graça alcança também o indulto coletivo (que é espécie do gênero graça em sentido amplo).
-> - **D)** **Incorreto**. Ação de grupos armados é imprescritível e inafiançável, mas a vedação de indulto refere-se a tortura, tráfico, terrorismo e hediondos (o grupo 3T + H).
-> - **E)** **Incorreto**. O racismo não integra a cláusula de vedação de graça/anistia do art. 5º, XLIII.
->
-> **Gabarito: C**
-
-### Teste 157
-**(FCC – TCE-GO – Analista de Controle Externo Gestao de Conhecimento – 2009)**
-Vagando os cargos de Presidente e Vice-Presidente da República,
-
-* **A)** será chamado ao exercício da Presidência o Presidente da Câmara dos Deputados, que deverá completar o período de mandato de seus antecessores.
-* **B)** será realizada eleição pelo Congresso Nacional, trinta dias depois da última vaga, caso a vacância ocorra nos últimos dois anos do período presidencial.
-* **C)** deverá ser convocado plebiscito para decidir quanto à necessidade de realização de nova eleição.
-* **D)** caberá ao Tribunal Superior Eleitoral dar posse aos candidatos segundos colocados no pleito em que eleitos os antecessores.
-* **E)** não há solução prevista expressamente na Constituição da República para a sucessão, cabendo ao Congresso Nacional dispor sobre a matéria.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "será chamado ao exercício da Presidência o Presidente da Câmara dos Deputados, que deverá completar o período de...". De acordo com a teoria estudada em *1.1 Dupla Vacância dos Cargos Presidenciais (Art. 81 da CF/88)*, em qualquer das hipóteses de eleição extraordinária, os eleitos deverão completar o período remanescente de seus antecessores (*mandato-tampão* - art. 81, § 2º).
-> - **B)** **Correta.** Conforme fundamentado na seção *1.1 Dupla Vacância dos Cargos Presidenciais (Art. 81 da CF/88)* deste guia, últimos 2 anos do mandato: Se a dupla vacância definitiva ocorrer na segunda metade da legislatura (3º ou 4º ano do mandato), a eleição para ambos os cargos será feita indireta, trinta dias depois da última vaga, pelo Congresso Nacional, na forma da lei. Dessa forma, está plenamente correta a assertiva da banca (FCC – TCE-GO/2009) ao estabelecer que "será realizada eleição pelo Congresso Nacional, trinta dias depois da última vaga, caso a vacância ocorra nos...".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "deverá ser convocado plebiscito para decidir quanto à necessidade de realização de nova eleição". De acordo com a teoria estudada em *1.1 Dupla Vacância dos Cargos Presidenciais (Art. 81 da CF/88)*, primeiros 2 anos do mandato: Ocorrendo a vacância definitiva de ambos os cargos na primeira metade da legislatura, far-se-á eleição direta noventa dias depois de aberta a última vaga.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "caberá ao Tribunal Superior Eleitoral dar posse aos candidatos segundos colocados no pleito em que eleitos os...". De acordo com a teoria estudada em *1.1 Dupla Vacância dos Cargos Presidenciais (Art. 81 da CF/88)*, ocorrendo a vacância definitiva tanto do cargo de Presidente quanto de Vice-Presidente da República, aplicam-se regras distintas a depender do momento do mandato.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não há solução prevista expressamente na Constituição da República para a sucessão, cabendo ao Congresso Nacional...". De acordo com a teoria estudada em *1.2 Atribuições Delegáveis do Presidente da República (Art. 84, Parágrafo Único)*, o art. 84 fixa as competências privativas do Presidente da República. Em regra, são privativas e indelegáveis. Todavia, a Constituição autoriza a delegação de apenas TRÊS matérias específicas.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pode dispor sobre todas". De acordo com a teoria estudada em *1.2 Atribuições Delegáveis do Presidente da República (Art. 84, Parágrafo Único)*, extinção de Cargos Públicos Ocupados: Depende obrigatoriamente de lei formal. Por decreto autônomo, o Chefe do Executivo só pode extinguir cargos e funções quando estiverem vagos!.
+> - **B)** **Correta.** Conforme fundamentado na seção *1.2 Atribuições Delegáveis do Presidente da República (Art. 84, Parágrafo Único)* deste guia, art. 84, VI: Dispor, mediante decreto autônomo, sobre. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "não pode dispor sobre nenhuma".
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "pode dispor apenas sobre a matéria referida em II". De acordo com a teoria estudada em *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)*, imunidade Prisional (Art. 86, § 3º): Não pode ser preso, na vigência do mandato, senão após sentença penal condenatória transitada em julgado — Inaplicável medida penal coercitiva.
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "pode dispor apenas sobre as matérias referidas em I e III". De acordo com a teoria estudada em *1.2 Atribuições Delegáveis do Presidente da República (Art. 84, Parágrafo Único)*, o art. 84 fixa as competências privativas do Presidente da República. Em regra, são privativas e indelegáveis. Todavia, a Constituição autoriza a delegação de apenas TRÊS matérias específicas.
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "pode dispor apenas sobre as matérias referidas em I e II". De acordo com a teoria estudada em *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)*, irresponsabilidade Relativa (Art. 86, § 4º): Não pode ser responsabilizado por atos estranhos ao exercício de suas funções na vigência do mandato — Aplicável a atos conexos ao exercício funcional.
 >
 > **Gabarito: B**
 
 ---
 
-### Teste 158
-**(FCC – TRT-24 – Analista Judiciario Tecnologia da Informacao – 2017)**
-Em razão do recente falecimento de Ministro do Supremo Tribunal Federal, o Presidente da República indicou determinado jurista para ocupar o referido cargo. Neste caso, a nomeação de novo Ministro pelo Presidente da República depende da aprovação da referida escolha
+### Teste 156
+**(FCC – TCE/GO – 2009 – Analista de Controle Externo - Gestão de Conhecimento)**
+Vagando os cargos de Presidente e Vice-Presidente da República,
 
-* **A)** pela maioria absoluta do Congresso Nacional.
-* **B)** pela maioria relativa do Congresso Nacional.
-* **C)** pela maioria relativa do Senado Federal.
-* **D)** pela maioria absoluta do Senado Federal.
-* **E)** por 1/3 do Senado Federal.
+* **A)** será chamado ao exercício da Presidência o Pre- sidente da Câmara dos Deputados, que deverá com- pletar o período de mandato de seus antecessores.
+* **B)** será realizada eleição pelo Congresso Nacional, trin- ta dias depois da última vaga, caso a vacância ocorra nos últimos dois anos do período presiden- cial.
+* **C)** deverá ser convocado plebiscito para decidir quanto à necessidade de realização de nova eleição.
+* **D)** caberá ao Tribunal Superior Eleitoral dar posse aos candidatos segundos colocados no pleito em que eleitos os antecessores.
+* **E)** não há solução prevista expressamente na Cons- tituição da República para a sucessão, cabendo ao Congresso Nacional dispor sobre a matéria. _________________________________________________________
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pela maioria absoluta do Congresso Nacional". De acordo com a teoria estudada em *1.1 Dupla Vacância dos Cargos Presidenciais (Art. 81 da CF/88)*, últimos 2 anos do mandato: Se a dupla vacância definitiva ocorrer na segunda metade da legislatura (3º ou 4º ano do mandato), a eleição para ambos os cargos será feita indireta, trinta dias depois da última vaga, pelo Congresso Nacional, na forma da lei.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pela maioria relativa do Congresso Nacional". De acordo com a teoria estudada em *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)*, instauração do Processo: Recebimento da denúncia ou queixa pelo STF — Deliberação do Plenário do Senado Federal por maioria simples.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pela maioria relativa do Senado Federal". De acordo com a teoria estudada em *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)*, irresponsabilidade Relativa (Art. 86, § 4º): Não pode ser responsabilizado por atos estranhos ao exercício de suas funções na vigência do mandato — Aplicável a atos conexos ao exercício funcional.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pela maioria absoluta do Senado Federal". De acordo com a teoria estudada em *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)*, o Presidente da República responde perante o STF por crimes comuns e perante o Senado Federal por crimes de responsabilidade (*impeachment*).
-> - **E)** **Correta.** Conforme fundamentado na seção *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)* deste guia, órgão Julgador Competente: Supremo Tribunal Federal (STF) — Senado Federal (sob presidência do Presidente do STF). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-24/2017) ao estabelecer que "por 1/3 do Senado Federal".
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "será chamado ao exercício da Presidência o Pre- sidente da Câmara dos Deputados, que deverá com- pletar o período...". De acordo com a teoria estudada em *1.1 Dupla Vacância dos Cargos Presidenciais (Art. 81 da CF/88)*, em qualquer das hipóteses de eleição extraordinária, os eleitos deverão completar o período remanescente de seus antecessores (*mandato-tampão* - art. 81, § 2º).
+> - **B)** **Correta.** Conforme fundamentado na seção *1.1 Dupla Vacância dos Cargos Presidenciais (Art. 81 da CF/88)* deste guia, últimos 2 anos do mandato: Se a dupla vacância definitiva ocorrer na segunda metade da legislatura (3º ou 4º ano do mandato), a eleição para ambos os cargos será feita indireta, trinta dias depois da última vaga, pelo Congresso Nacional, na forma da lei. Dessa forma, está plenamente correta a assertiva da banca (FCC – TCE/GO/2009) ao estabelecer que "será realizada eleição pelo Congresso Nacional, trin- ta dias depois da última vaga, caso a vacância ocorra nos...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "deverá ser convocado plebiscito para decidir quanto à necessidade de realização de nova eleição". De acordo com a teoria estudada em *1.1 Dupla Vacância dos Cargos Presidenciais (Art. 81 da CF/88)*, primeiros 2 anos do mandato: Ocorrendo a vacância definitiva de ambos os cargos na primeira metade da legislatura, far-se-á eleição direta noventa dias depois de aberta a última vaga.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "caberá ao Tribunal Superior Eleitoral dar posse aos candidatos segundos colocados no pleito em que eleitos os...". De acordo com a teoria estudada em *1.1 Dupla Vacância dos Cargos Presidenciais (Art. 81 da CF/88)*, ocorrendo a vacância definitiva tanto do cargo de Presidente quanto de Vice-Presidente da República, aplicam-se regras distintas a depender do momento do mandato.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não há solução prevista expressamente na Cons- tituição da República para a sucessão, cabendo ao Congresso...". De acordo com a teoria estudada em *1.2 Atribuições Delegáveis do Presidente da República (Art. 84, Parágrafo Único)*, art. 84, VI: Dispor, mediante decreto autônomo, sobre.
 >
-> **Gabarito: E**
+> **Gabarito: B**
+
+---
+
+### Teste 157
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Fiscalização - Ciências Atuariais)**
+Foi instituído um grupo de trabalho no âmbito do Poder Executivo do Estado Alfa, com o objetivo de elaborar anteprojeto de proposição legislativa destinada a promover alterações no regime próprio de previdência social, especificamente direcionadas aos servidores públicos com deficiência que fossem ocupantes de cargos de provimento efetivo. As medidas propostas no anteprojeto são as seguintes: I. a avaliação da deficiência seria realizada não só nos planos físico e mental, mas em uma perspectiva biopsicossocial; II. o cômputo, como tempo de contribuição, dos períodos de férias e licença especial não fruídos pelos servidores até o requerimento de aposentadoria; e III. esses servidores, conforme o grau da deficiência, podem se aposentar com idade inferior aos servidores que não possuem deficiência. A assessoria do Chefe do Poder Executivo, ao analisar a conformidade, com a Constituição da República, das três alterações propostas, concluiu corretamente que
+
+* **A)** todas apresentam conformidade constitucional.
+* **B)** apenas a alteração I apresenta conformidade constitucional.
+* **C)** apenas a alteração II apresenta conformidade constitucional.
+* **D)** apenas as alterações I e III apresentam conformidade constitucional.
+* **E)** apenas as alterações II e III apresentam conformidade constitucional.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "todas apresentam conformidade constitucional". De acordo com a teoria estudada em *1.2 Atribuições Delegáveis do Presidente da República (Art. 84, Parágrafo Único)*, extinção de Cargos Públicos Ocupados: Depende obrigatoriamente de lei formal. Por decreto autônomo, o Chefe do Executivo só pode extinguir cargos e funções quando estiverem vagos!.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "apenas a alteração I apresenta conformidade constitucional". De acordo com a teoria estudada em *1.2 Atribuições Delegáveis do Presidente da República (Art. 84, Parágrafo Único)*, o art. 84 fixa as competências privativas do Presidente da República. Em regra, são privativas e indelegáveis. Todavia, a Constituição autoriza a delegação de apenas TRÊS matérias específicas.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "apenas a alteração II apresenta conformidade constitucional". De acordo com a teoria estudada em *1.2 Atribuições Delegáveis do Presidente da República (Art. 84, Parágrafo Único)*, *b)* Extinção de funções ou cargos públicos, quando vagos.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)* deste guia, sanção Constitucional: Penas privativas de liberdade / multas criminais — Perda do cargo + inabilitação por 8 anos para qualquer função pública (quórum de 2/3 do Senado). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "apenas as alterações I e III apresentam conformidade constitucional".
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "apenas as alterações II e III apresentam conformidade constitucional". De acordo com a teoria estudada em *1.2 Atribuições Delegáveis do Presidente da República (Art. 84, Parágrafo Único)*, art. 84, XXV, primeira parte: Prover cargos públicos federais, na forma da lei.
+>
+> **Gabarito: D**
+
+---
+
+### Teste 158
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Fiscalização - Ciências Atuariais)**
+Com o objetivo de evitar uma iminente greve em certos setores do funcionalismo público federal, o Presidente da República, após se reunir com os Ministros das respectivas áreas, editou a Medida Provisória nº X (MPX), acolhendo parte das reivindicações das lideranças dos servidores públicos, de modo a alterar o regime jurídico da categoria. A MPX foi editada no dia seguinte à aprovação do Projeto de Lei nº Y (PLY) sobre a matéria no âmbito do Congresso Nacional. O PLY, no entanto, ainda não tinha sido encaminhado ao Poder Executivo. À luz da sistemática constitucional, é correto afirmar que a MPX
+
+* **A)** não poderia ter sido editada.
+* **B)** somente poderia ter sido editada após o recebimento do PLY.
+* **C)** irá sobrestar o encaminhamento do PLY, devendo ser anexada a ele.
+* **D)** foi editada com base no juízo de conveniência e oportunidade do Presidente da República, não tendo vício.
+* **E)** embora não tenha vício, perderá a eficácia, naquilo que for colidente com o PLY, caso este último seja sancionado.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *1.1 Dupla Vacância dos Cargos Presidenciais (Art. 81 da CF/88)* deste guia, últimos 2 anos do mandato: Se a dupla vacância definitiva ocorrer na segunda metade da legislatura (3º ou 4º ano do mandato), a eleição para ambos os cargos será feita indireta, trinta dias depois da última vaga, pelo Congresso Nacional, na forma da lei. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "não poderia ter sido editada".
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente poderia ter sido editada após o recebimento do PLY". De acordo com a teoria estudada em *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)*, imunidade Prisional (Art. 86, § 3º): Não pode ser preso, na vigência do mandato, senão após sentença penal condenatória transitada em julgado — Inaplicável medida penal coercitiva.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "irá sobrestar o encaminhamento do PLY, devendo ser anexada a ele". De acordo com a teoria estudada em *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)*, irresponsabilidade Relativa (Art. 86, § 4º): Não pode ser responsabilizado por atos estranhos ao exercício de suas funções na vigência do mandato — Aplicável a atos conexos ao exercício funcional.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "foi editada com base no juízo de conveniência e oportunidade do Presidente da República, não tendo vício". De acordo com a teoria estudada em *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)*, juízo de Admissibilidade: Câmara dos Deputados (quórum de 2/3 dos membros) — Câmara dos Deputados (quórum de 2/3 dos membros).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "embora não tenha vício, perderá a eficácia, naquilo que for colidente com o PLY, caso este último seja sancionado". De acordo com a teoria estudada em *1.2 Atribuições Delegáveis do Presidente da República (Art. 84, Parágrafo Único)*, art. 84, XXV, primeira parte: Prover cargos públicos federais, na forma da lei.
+>
+> **Gabarito: A**
 
 ---
 
 ### Teste 159
-**(FGV – TJ-MT – Analista Judiciário - Tecnologia da Informação – 2024)**  
-Determinado órgão, em âmbito nacional, tem a competência de controlar a atuação administrativa e financeira do Poder Judiciário e o cumprimento dos deveres funcionais dos juízes, além de outras atribuições que lhe forem conferidas pelo Estatuto da Magistratura.  
-Nesse cenário, considerando as disposições da Constituição Federal de 1988, está-se diante de uma competência do:
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Direito)**
+Marcos, Juiz de Direito, passou a responder a processo administrativo perante o Tribunal de Justiça a que estava vinculado, em razão da possível prática de infração disciplinar. Por gozar de grande popularidade na comarca em que era titular de órgão jurisdicional, situada no Município Alfa, e por entender que a instauração desse processo era manifestamente injusta, decidiu pedir exoneração do cargo de Juiz de Direito para concorrer ao cargo eletivo de Prefeito Municipal de Alfa. Ao terem conhecimento desses fatos, partidos políticos que pretendiam apresentar candidatos próprios iniciaram estudos com o objetivo de avaliar a possível configuração de uma causa de inelegibilidade. Nesse caso, é correto afirmar que
+
+* **A)** Marcos somente está inelegível para concorrer a um cargo eletivo no Município Alfa.
+* **B)** o pedido de exoneração é direito subjetivo de Marcos, não podendo caracterizar uma causa de inelegibilidade.
+* **C)** Marcos está inelegível, considerando que respondia a processo administrativo disciplinar ao pedir exoneração.
+* **D)** Marcos somente está inelegível se o processo administrativo disciplinar estiver em tramitação no âmbito do Conselho Nacional de Justiça.
+* **E)** Marcos somente estaria inelegível se tivesse pedido exoneração após a prolação de decisão condenatória, ainda que suscetível de recurso.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Marcos somente está inelegível para concorrer a um cargo eletivo no Município Alfa". De acordo com a teoria estudada em *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)*, o Presidente da República responde perante o STF por crimes comuns e perante o Senado Federal por crimes de responsabilidade (*impeachment*).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o pedido de exoneração é direito subjetivo de Marcos, não podendo caracterizar uma causa de inelegibilidade". De acordo com a teoria estudada em *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)*, órgão Julgador Competente: Supremo Tribunal Federal (STF) — Senado Federal (sob presidência do Presidente do STF).
+> - **C)** **Correta.** Conforme fundamentado na seção *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)* deste guia, instauração do Processo: Recebimento da denúncia ou queixa pelo STF — Deliberação do Plenário do Senado Federal por maioria simples. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Marcos está inelegível, considerando que respondia a processo administrativo disciplinar ao pedir exoneração".
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Marcos somente está inelegível se o processo administrativo disciplinar estiver em tramitação no âmbito do...". De acordo com a teoria estudada em *1.1 Dupla Vacância dos Cargos Presidenciais (Art. 81 da CF/88)*, últimos 2 anos do mandato: Se a dupla vacância definitiva ocorrer na segunda metade da legislatura (3º ou 4º ano do mandato), a eleição para ambos os cargos será feita indireta, trinta dias depois da última vaga, pelo Congresso Nacional, na forma da lei.
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Marcos somente estaria inelegível se tivesse pedido exoneração após a prolação de decisão condenatória, ainda que...". De acordo com a teoria estudada em *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)*, imunidade Prisional (Art. 86, § 3º): Não pode ser preso, na vigência do mandato, senão após sentença penal condenatória transitada em julgado — Inaplicável medida penal coercitiva.
+>
+> **Gabarito: C**
+
+---
+
+### Teste 160
+**(FGV – TJ/MT – 2024 – Analista Judiciario Tecnologia Da Informacao)**
+Determinado órgão, em âmbito nacional, tem a competência de controlar a atuação administrativa e financeira do Poder Judiciário e o cumprimento dos deveres funcionais dos juízes, além de outras atribuições que lhe forem conferidas pelo Estatuto da Magistratura. Nesse cenário, considerando as disposições da Constituição Federal de 1988, se está diante de uma competência do
 
 * **A)** Tribunal Superior do Trabalho.
 * **B)** Conselho Nacional de Justiça.
@@ -250,129 +275,109 @@ Nesse cenário, considerando as disposições da Constituição Federal de 1988,
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. O TST é órgão de cúpula da Justiça do Trabalho, com atribuições essencialmente jurisdicionais.
-> - **B)** **Correto**. Conforme o art. 103-B, § 4º, da Constituição Federal: "Compete ao Conselho o controle da atuação administrativa e financeira do Poder Judiciário e do cumprimento dos deveres funcionais dos juízes, cabendo-lhe, além de outras atribuições que lhe forem conferidas pelo Estatuto da Magistratura...". O CNJ não possui competência jurisdicional, atuando exclusivamente como órgão de controle administrativo e correcional.
-> - **C)** **Incorreto**. O STJ é tribunal jurisdicional responsável pela uniformização da legislação infraconstitucional federal.
-> - **D)** **Incorreto**. O TSE coordena a jurisdição eleitoral em nível nacional.
-> - **E)** **Incorreto**. O STF é o guardião da Constituição e cúpula jurisdicional máxima do Estado brasileiro.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Tribunal Superior do Trabalho". De acordo com a teoria estudada em *1.2 Atribuições Delegáveis do Presidente da República (Art. 84, Parágrafo Único)*, o art. 84 fixa as competências privativas do Presidente da República. Em regra, são privativas e indelegáveis. Todavia, a Constituição autoriza a delegação de apenas TRÊS matérias específicas.
+> - **B)** **Correta.** Conforme fundamentado na seção *1.1 Dupla Vacância dos Cargos Presidenciais (Art. 81 da CF/88)* deste guia, últimos 2 anos do mandato: Se a dupla vacância definitiva ocorrer na segunda metade da legislatura (3º ou 4º ano do mandato), a eleição para ambos os cargos será feita indireta, trinta dias depois da última vaga, pelo Congresso Nacional, na forma da lei. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/MT/2024) ao estabelecer que "Conselho Nacional de Justiça".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Superior Tribunal de Justiça". De acordo com a teoria estudada em *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)*, órgão Julgador Competente: Supremo Tribunal Federal (STF) — Senado Federal (sob presidência do Presidente do STF).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Tribunal Superior Eleitoral". De acordo com a teoria estudada em *1.2 Atribuições Delegáveis do Presidente da República (Art. 84, Parágrafo Único)*, art. 84, VI: Dispor, mediante decreto autônomo, sobre.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Supremo Tribunal Federal". De acordo com a teoria estudada em *1.2 Atribuições Delegáveis do Presidente da República (Art. 84, Parágrafo Único)*, *a)* Organização e funcionamento da administração federal, quando não implicar aumento de despesa nem criação ou extinção de órgãos públicos.
 >
 > **Gabarito: B**
 
-### Teste 160
-**(FGV – TJ-RR – Analista Judiciário - Suporte e Infraestrutura de TI – 2024)**  
-O Conselho Nacional de Justiça compõe-se de 15 (quinze) membros com mandato de 2 (dois) anos, admitida 1 (uma) recondução. As opções a seguir apresentam membros que participam da composição constitucional desse Conselho, à exceção de uma. Assinale-a:
+---
+
+### Teste 161
+**(FGV – TJ/RR – 2024 – Analista Judiciario Gestao E Governanca De Tecnologia Da Informacao)**
+O Conselho Nacional de Justiça compõe-se de 15 (quinze) membros com mandato de 2 (dois) anos, admitida 1 (uma) recondução. As opções a seguir apresentam membros que participam desse Conselho, à exceção de uma. Assinale-a.
 
 * **A)** Um juiz de Tribunal Regional Federal, indicado pelo Superior Tribunal de Justiça.
 * **B)** Um juiz de Tribunal Regional do Trabalho, indicado pelo Tribunal Superior do Trabalho.
-* **C)** Dois cidadãos de notável saber jurídico e reputação ilibada, indicados pela Câmara e pelo Senado.
-* **D)** Um juiz de Tribunal Regional Eleitoral, indicado privativamente pelo Supremo Tribunal Federal.
-* **E)** Um membro do Ministério Público estadual, escolhido pelo Procurador-Geral da República.
+* **C)** Dois cidadãos, de notável saber jurídico e reputação ilibada, indicados um pela Câmara dos Deputados e outro pelo Senado Federal.
+* **D)** Um juiz do Tribunal Regional Eleitoral, indicado pelo Supremo Tribunal Federal.
+* **E)** Um membro do Ministério Público estadual, escolhido pelo Procurador-Geral da República dentre os nomes indicados pelo órgão competente de cada instituição estadual.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. É membro integrante expressamente previsto no art. 103-B, V, da CF/88.
-> - **B)** **Incorreto**. É membro integrante expressamente previsto no art. 103-B, VIII, da CF/88.
-> - **C)** **Incorreto**. Membros previstos no art. 103-B, XIII, da CF/88 (um indicado pela Câmara dos Deputados e um pelo Senado Federal).
-> - **D)** **Correto**. O art. 103-B da Constituição Federal NÃO contempla na composição do CNJ a figura de juiz de Tribunal Regional Eleitoral (TRE). A composição conta com: o Presidente do STF, 1 Ministro do STJ, 1 Ministro do TST, 1 Desembargador de TJ, 1 Juiz de Direito estadual, 1 Juiz de TRF, 1 Juiz federal, 1 Juiz de TRT, 1 Juiz do trabalho, 1 membro do MPU, 1 membro do MPE, 2 advogados indicados pelo CFOAB e 2 cidadãos indicados pelo Congresso Nacional. Logo, esta é a única opção que traz membro inexistente no colegiado.
-> - **E)** **Incorreto**. É membro integrante expressamente previsto no art. 103-B, XI, da CF/88.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Um juiz de Tribunal Regional Federal, indicado pelo Superior Tribunal de Justiça". De acordo com a teoria estudada em *1.1 Dupla Vacância dos Cargos Presidenciais (Art. 81 da CF/88)*, últimos 2 anos do mandato: Se a dupla vacância definitiva ocorrer na segunda metade da legislatura (3º ou 4º ano do mandato), a eleição para ambos os cargos será feita indireta, trinta dias depois da última vaga, pelo Congresso Nacional, na forma da lei.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Um juiz de Tribunal Regional do Trabalho, indicado pelo Tribunal Superior do Trabalho". De acordo com a teoria estudada em *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)*, juízo de Admissibilidade: Câmara dos Deputados (quórum de 2/3 dos membros) — Câmara dos Deputados (quórum de 2/3 dos membros).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Dois cidadãos, de notável saber jurídico e reputação ilibada, indicados um pela Câmara dos Deputados e outro pelo...". De acordo com a teoria estudada em *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)*, o Presidente da República responde perante o STF por crimes comuns e perante o Senado Federal por crimes de responsabilidade (*impeachment*).
+> - **D)** **Correta.** Conforme fundamentado na seção *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)* deste guia, órgão Julgador Competente: Supremo Tribunal Federal (STF) — Senado Federal (sob presidência do Presidente do STF). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "Um juiz do Tribunal Regional Eleitoral, indicado pelo Supremo Tribunal Federal".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Um membro do Ministério Público estadual, escolhido pelo Procurador-Geral da República dentre os nomes indicados...". De acordo com a teoria estudada em *1.1 Dupla Vacância dos Cargos Presidenciais (Art. 81 da CF/88)*, ocorrendo a vacância definitiva tanto do cargo de Presidente quanto de Vice-Presidente da República, aplicam-se regras distintas a depender do momento do mandato.
 >
 > **Gabarito: D**
 
-### Teste 161
-**(FGV – TRF-1 – Analista Judiciario Area Apoio Especializado Especialidade Suporte Em Tecnologia da Informacao – 2024)**
-Em determinada relação processual, o Tribunal Regional Federal X dispensou à lei federal interpretação diametralmente oposta àquela realizada pelo Tribunal Regional Federal Y. Ao tomar conhecimento desse fato, a parte, que não teve seus interesses atendidos pela interpretação realizada pelo Tribunal Regional Federal X, decidiu interpor o recurso cabível após o exaurimento da atividade jurisdicional por este último órgão. A narrativa indica que a referida parte almeja que o seu recurso seja julgado pelo:
+---
 
-* **A)** Supremo Tribunal Federal;
-* **B)** Conselho da Justiça Federal;
-* **C)** Superior Tribunal de Justiça;
-* **D)** Conselho Nacional de Justiça;
-* **E)** Turma de Uniformização de Jurisprudência.
+### Teste 162
+**(FGV – TJ/SC – 2026 – Analista Administrativo)**
+No Brasil, as políticas judiciárias de inclusão e cidadania são coordenadas, principalmente, pelo Conselho Nacional de Justiça (CNJ) e visam a transformar o Poder Judiciário em um agente ativo na promoção de direitos fundamentais e na remoção de barreiras ao acesso à justiça. Considerando as normas vigentes sobre essas políticas, assinale a afirmativa correta.
+
+* **A)** As pessoas em situação de rua terão assegurado o acesso às dependências do Poder Judiciário para o exercício de seus direitos, salvo se estiverem com vestimentas e condições de higiene incompatíveis com as regras do Tribunal.
+* **B)** Os tribunais deverão viabilizar atendimento prioritário e desburocratizado às pessoas em situação de rua, não se conferindo atendimento especial a qualquer pessoa, ainda que caracterizada como LGBTQUIA+ ou migrantes.
+* **C)** Entende-se como mulheres em condição de especial vulnerabilidade econômico-social, as mulheres vítimas de violência física, moral, patrimonial, psicológica ou sexual, salvo as mulheres trans e travestis.
+* **D)** A Resolução 497/2023 do CNJ instituiu, no âmbito do Poder Judiciário Nacional, à exceção do Supremo Tribunal Federal, o Programa “Transformação”, para fomentar a adoção de políticas afirmativas que reduzam as desigualdades no mercado de trabalho de mulheres de grupos vulneráveis.
+* **E)** O Programa “Transformação” consiste na reserva, pelos Tribunais e Conselhos, de, no mínimo, 10% (dez por cento) das vagas nos contratos que envolvam prestação de serviços contínuos com regime de dedicação exclusiva de mão de obra. Conhecimentos Específicos Administração Geral
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Supremo Tribunal Federal". De acordo com a teoria estudada em *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)*, órgão Julgador Competente: Supremo Tribunal Federal (STF) — Senado Federal (sob presidência do Presidente do STF).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Conselho da Justiça Federal". De acordo com a teoria estudada em *1.2 Atribuições Delegáveis do Presidente da República (Art. 84, Parágrafo Único)*, art. 84, XXV, primeira parte: Prover cargos públicos federais, na forma da lei.
-> - **C)** **Correta.** Conforme fundamentado na seção *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)* deste guia, imunidade Prisional (Art. 86, § 3º): Não pode ser preso, na vigência do mandato, senão após sentença penal condenatória transitada em julgado — Inaplicável medida penal coercitiva. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF-1/2024) ao estabelecer que "Superior Tribunal de Justiça".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Conselho Nacional de Justiça". De acordo com a teoria estudada em *1.1 Dupla Vacância dos Cargos Presidenciais (Art. 81 da CF/88)*, últimos 2 anos do mandato: Se a dupla vacância definitiva ocorrer na segunda metade da legislatura (3º ou 4º ano do mandato), a eleição para ambos os cargos será feita indireta, trinta dias depois da última vaga, pelo Congresso Nacional, na forma da lei.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Turma de Uniformização de Jurisprudência". De acordo com a teoria estudada em *1.2 Atribuições Delegáveis do Presidente da República (Art. 84, Parágrafo Único)*, art. 84, XII: Conceder indulto e comutar penas, com audiência, se necessário, dos órgãos instituídos em lei.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "As pessoas em situação de rua terão assegurado o acesso às dependências do Poder Judiciário para o exercício de...". De acordo com a teoria estudada em *1.1 Dupla Vacância dos Cargos Presidenciais (Art. 81 da CF/88)*, ocorrendo a vacância definitiva tanto do cargo de Presidente quanto de Vice-Presidente da República, aplicam-se regras distintas a depender do momento do mandato.
+> - **B)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "Os tribunais deverão viabilizar atendimento prioritário e desburocratizado às pessoas em situação de rua, não se...". De acordo com a teoria estudada em *1.1 Dupla Vacância dos Cargos Presidenciais (Art. 81 da CF/88)*, em qualquer das hipóteses de eleição extraordinária, os eleitos deverão completar o período remanescente de seus antecessores (*mandato-tampão* - art. 81, § 2º).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Entende-se como mulheres em condição de especial vulnerabilidade econômico-social, as mulheres vítimas de...". De acordo com a teoria estudada em *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)*, órgão Julgador Competente: Supremo Tribunal Federal (STF) — Senado Federal (sob presidência do Presidente do STF).
+> - **D)** **Correta.** Conforme fundamentado na seção *1.1 Dupla Vacância dos Cargos Presidenciais (Art. 81 da CF/88)* deste guia, últimos 2 anos do mandato: Se a dupla vacância definitiva ocorrer na segunda metade da legislatura (3º ou 4º ano do mandato), a eleição para ambos os cargos será feita indireta, trinta dias depois da última vaga, pelo Congresso Nacional, na forma da lei. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/SC/2026) ao estabelecer que "A Resolução 497/2023 do CNJ instituiu, no âmbito do Poder Judiciário Nacional, à exceção do Supremo Tribunal...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O Programa “Transformação” consiste na reserva, pelos Tribunais e Conselhos, de, no mínimo, 10% (dez por cento)...". De acordo com a teoria estudada em *1.2 Atribuições Delegáveis do Presidente da República (Art. 84, Parágrafo Único)*, *a)* Organização e funcionamento da administração federal, quando não implicar aumento de despesa nem criação ou extinção de órgãos públicos.
+>
+> **Gabarito: D**
+
+---
+
+### Teste 163
+**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Banco De Dados)**
+A Assembleia Legislativa do Estado Alfa recebeu uma proposição legislativa que tem por objeto a alteração das atribuições de certo órgão colegiado da Administração Superior do Ministério Público do Estado. Considerando os balizamentos estabelecidos pela Constituição da República a respeito das normas que estabelecem a organização, as atribuições e o estatuto de cada Ministério Público, é correto afirmar que a proposição legislativa precisa ter a natureza de:
+
+* **A)** projeto de lei ordinária, de iniciativa privativa do governador do Estado;
+* **B)** projeto de lei ordinária, de iniciativa privativa do Colégio de Procuradores de Justiça;
+* **C)** projeto de lei complementar, de iniciativa privativa do procurador-geral de Justiça;
+* **D)** proposta de emenda constitucional, podendo ter sido apresentada por qualquer legitimado para a reforma;
+* **E)** projeto de lei complementar, podendo ter sido apresentado pelo procurador-geral de Justiça ou pelo governador do Estado.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "projeto de lei ordinária, de iniciativa privativa do governador do Estado". De acordo com a teoria estudada em *1.2 Atribuições Delegáveis do Presidente da República (Art. 84, Parágrafo Único)*, extinção de Órgãos Públicos: O Presidente NÃO pode criar nem extinguir Ministérios ou órgãos públicos por decreto! A criação e extinção de órgãos públicos exige expressamente lei formal ordinária (art. 88 da CF/88).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "projeto de lei ordinária, de iniciativa privativa do Colégio de Procuradores de Justiça". De acordo com a teoria estudada em *1.2 Atribuições Delegáveis do Presidente da República (Art. 84, Parágrafo Único)*, art. 84, XII: Conceder indulto e comutar penas, com audiência, se necessário, dos órgãos instituídos em lei.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.2 Atribuições Delegáveis do Presidente da República (Art. 84, Parágrafo Único)* deste guia, *a)* Organização e funcionamento da administração federal, quando não implicar aumento de despesa nem criação ou extinção de órgãos públicos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "projeto de lei complementar, de iniciativa privativa do procurador-geral de Justiça".
+> - **D)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "proposta de emenda constitucional, podendo ter sido apresentada por qualquer legitimado para a reforma". De acordo com a teoria estudada em *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)*, sanção Constitucional: Penas privativas de liberdade / multas criminais — Perda do cargo + inabilitação por 8 anos para qualquer função pública (quórum de 2/3 do Senado).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "projeto de lei complementar, podendo ter sido apresentado pelo procurador-geral de Justiça ou pelo governador do...". De acordo com a teoria estudada em *1.2 Atribuições Delegáveis do Presidente da República (Art. 84, Parágrafo Único)*, art. 84, XXV, primeira parte: Prover cargos públicos federais, na forma da lei.
 >
 > **Gabarito: C**
 
 ---
 
-### Teste 162
-**(FGV – TRT-1 – Analista Judiciario Area Administrativa – 2024)**
-O Tribunal Regional Federal da 1ª Região, ao apreciar mandado de segurança impetrado contra ato de juiz federal, denegou a ordem por não identificar a violação de direito líquido e certo. Esse acórdão, ao ver do impetrante, era manifestamente contrário à ordem constitucional. Nesse caso, é correto afirmar que, contra o referido acórdão:
-
-* **A)** não é cabível a interposição de recurso;
-* **B)** é cabível o ajuizamento de reclamação perante o Conselho Nacional de Justiça;
-* **C)** é cabível a interposição de recurso a ser julgado pelo Superior Tribunal de Justiça;
-* **D)** é cabível a interposição de recurso a ser julgado pelo Supremo Tribunal Federal;
-* **E)** somente é cabível pedido de reconsideração endereçado ao próprio Tribunal Regional Federal da 1ª Região.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não é cabível a interposição de recurso". De acordo com a teoria estudada em *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)*, o Presidente da República responde perante o STF por crimes comuns e perante o Senado Federal por crimes de responsabilidade (*impeachment*).
-> - **B)** **Correta.** Conforme fundamentado na seção *1.1 Dupla Vacância dos Cargos Presidenciais (Art. 81 da CF/88)* deste guia, últimos 2 anos do mandato: Se a dupla vacância definitiva ocorrer na segunda metade da legislatura (3º ou 4º ano do mandato), a eleição para ambos os cargos será feita indireta, trinta dias depois da última vaga, pelo Congresso Nacional, na forma da lei. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-1/2024) ao estabelecer que "é cabível o ajuizamento de reclamação perante o Conselho Nacional de Justiça".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é cabível a interposição de recurso a ser julgado pelo Superior Tribunal de Justiça". De acordo com a teoria estudada em *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)*, imunidade Prisional (Art. 86, § 3º): Não pode ser preso, na vigência do mandato, senão após sentença penal condenatória transitada em julgado — Inaplicável medida penal coercitiva.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é cabível a interposição de recurso a ser julgado pelo Supremo Tribunal Federal". De acordo com a teoria estudada em *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)*, órgão Julgador Competente: Supremo Tribunal Federal (STF) — Senado Federal (sob presidência do Presidente do STF).
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente é cabível pedido de reconsideração endereçado ao próprio Tribunal Regional Federal da 1ª Região". De acordo com a teoria estudada em *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)*, sanção Constitucional: Penas privativas de liberdade / multas criminais — Perda do cargo + inabilitação por 8 anos para qualquer função pública (quórum de 2/3 do Senado).
->
-> **Gabarito: B**
-
----
-
-### Teste 163
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Direito – 2024)**
-João, após regular processo judicial, foi condenado pela prática de crime político pelo órgão constitucional que tem competência originária para conhecer da ação. Irresignado com a sua condenação, decidiu interpor recurso de fundamentação livre a ser julgado pelo tribunal competente. À luz da sistemática constitucional, é correto afirmar que a condenação de João resultou de decisão proferida
-
-* **A)** por Juiz Federal, sendo que o recurso será julgado por Tribunal Regional Federal.
-* **B)** por Juiz Federal, sendo que o recurso será julgado pelo Supremo Tribunal Federal.
-* **C)** por Juiz Federal, sendo que o recurso será julgado pelo Superior Tribunal de Justiça.
-* **D)** pelo Supremo Tribunal Federal, sendo que o recurso será julgado pelo próprio Tribunal.
-* **E)** pelo Superior Tribunal de Justiça, sendo que o recurso será julgado pelo Supremo Tribunal Federal.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correta.** Conforme fundamentado na seção *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)* deste guia, imunidade Prisional (Art. 86, § 3º): Não pode ser preso, na vigência do mandato, senão após sentença penal condenatória transitada em julgado — Inaplicável medida penal coercitiva. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "por Juiz Federal, sendo que o recurso será julgado por Tribunal Regional Federal".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "por Juiz Federal, sendo que o recurso será julgado pelo Supremo Tribunal Federal". De acordo com a teoria estudada em *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)*, órgão Julgador Competente: Supremo Tribunal Federal (STF) — Senado Federal (sob presidência do Presidente do STF).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "por Juiz Federal, sendo que o recurso será julgado pelo Superior Tribunal de Justiça". De acordo com a teoria estudada em *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)*, instauração do Processo: Recebimento da denúncia ou queixa pelo STF — Deliberação do Plenário do Senado Federal por maioria simples.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pelo Supremo Tribunal Federal, sendo que o recurso será julgado pelo próprio Tribunal". De acordo com a teoria estudada em *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)*, sanção Constitucional: Penas privativas de liberdade / multas criminais — Perda do cargo + inabilitação por 8 anos para qualquer função pública (quórum de 2/3 do Senado).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pelo Superior Tribunal de Justiça, sendo que o recurso será julgado pelo Supremo Tribunal Federal". De acordo com a teoria estudada em *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)*, irresponsabilidade Relativa (Art. 86, § 4º): Não pode ser responsabilizado por atos estranhos ao exercício de suas funções na vigência do mandato — Aplicável a atos conexos ao exercício funcional.
->
-> **Gabarito: A**
-
----
-
 ### Teste 164
-**(FCC – TRT-9 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2015)**
-Julgar os juízes estaduais, bem como os membros do Ministério Público, nos crimes comuns e de responsabilidade, ressalvada a competência da Justiça Eleitoral, compete
+**(FGV – TJ/RR – 2024 – Analista Judiciario Gestao E Governanca De Tecnologia Da Informacao)**
+Considerando os impedimentos e incompatibilidades dos Magistrados e dos Servidores da Justiça previstos no Novo Código de Organização Judiciária do Estado de Roraima (Lei Complementar Estadual nº 221/2014 - COJERR), é correto afirmar que
 
-* **A)** ao Supremo Tribunal Federal, privativamente.
-* **B)** ao Supremo Tribunal Federal e ao Superior Tribunal de Justiça, concorrentemente.
-* **C)** ao Superior Tribunal de Justiça, privativamente.
-* **D)** ao Superior Tribunal de Justiça e aos Tribunais de Justiça, concorrentemente.
-* **E)** aos Tribunais de Justiça, privativamente.
+* **A)** nenhum Servidor da Justiça, em qualquer categoria, poderá funcionar juntamente com o cônjuge ou parente, consanguíneo ou afim, em linha reta ou colateral até o terceiro grau na mesma Comarca, mesmo que não haja dependência hierárquica entre as funções dos respectivos cargos.
+* **B)** o impedimento relativo ao funcionamento de servidores da Justiça de atuar no mesmo feito com cônjuges e parentes não pode ser aplicado quando alguma das partes, seu procurador ou o agente do Ministério Público, mantiver com o servidor idêntica relação de parentesco, consanguíneo ou afim.
+* **C)** na hipótese de verificação de impedimento do servidor da Justiça em razão da atuação de seu com o cônjuge ou parente, consanguíneo ou afim, em linha reta ou colateral até o terceiro grau na mesma Comarca, será afastado o primeiro nomeado.
+* **D)** exceto em atos ou processos administrativos ou de jurisdição graciosa do Tribunal de Justiça, não poderão funcionar conjuntamente como Juízes, no Tribunal Pleno, cônjuges e parentes consanguíneos ou afins em linha reta, ou colateral até o terceiro grau.
+* **E)** são válidas e eficazes as remoções de Magistrados feitas a pedido que motivarem impedimento entre Magistrados ou entre Magistrado e o membro do Ministério Público ou Auxiliar de Justiça, em razão de ser o cônjuge ou parente, consanguíneo ou afim, em linha reta ou colateral até o terceiro grau.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ao Supremo Tribunal Federal, privativamente". De acordo com a teoria estudada em *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)*, órgão Julgador Competente: Supremo Tribunal Federal (STF) — Senado Federal (sob presidência do Presidente do STF).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ao Supremo Tribunal Federal e ao Superior Tribunal de Justiça, concorrentemente". De acordo com a teoria estudada em *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)*, juízo de Admissibilidade: Câmara dos Deputados (quórum de 2/3 dos membros) — Câmara dos Deputados (quórum de 2/3 dos membros).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ao Superior Tribunal de Justiça, privativamente". De acordo com a teoria estudada em *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)*, instauração do Processo: Recebimento da denúncia ou queixa pelo STF — Deliberação do Plenário do Senado Federal por maioria simples.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ao Superior Tribunal de Justiça e aos Tribunais de Justiça, concorrentemente". De acordo com a teoria estudada em *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)*, afastamento Preventivo: Fica suspenso de suas funções por até 180 dias — Fica suspenso de suas funções por até 180 dias.
-> - **E)** **Correta.** Conforme fundamentado na seção *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)* deste guia, o Presidente da República responde perante o STF por crimes comuns e perante o Senado Federal por crimes de responsabilidade (*impeachment*). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-9/2015) ao estabelecer que "aos Tribunais de Justiça, privativamente".
+> - **A)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "nenhum Servidor da Justiça, em qualquer categoria, poderá funcionar juntamente com o cônjuge ou parente...". De acordo com a teoria estudada em *1.1 Dupla Vacância dos Cargos Presidenciais (Art. 81 da CF/88)*, em qualquer das hipóteses de eleição extraordinária, os eleitos deverão completar o período remanescente de seus antecessores (*mandato-tampão* - art. 81, § 2º).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o impedimento relativo ao funcionamento de servidores da Justiça de atuar no mesmo feito com cônjuges e parentes...". De acordo com a teoria estudada em *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)*, imunidade Prisional (Art. 86, § 3º): Não pode ser preso, na vigência do mandato, senão após sentença penal condenatória transitada em julgado — Inaplicável medida penal coercitiva.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "na hipótese de verificação de impedimento do servidor da Justiça em razão da atuação de seu com o cônjuge ou...". De acordo com a teoria estudada em *1.2 Atribuições Delegáveis do Presidente da República (Art. 84, Parágrafo Único)*, *a)* Organização e funcionamento da administração federal, quando não implicar aumento de despesa nem criação ou extinção de órgãos públicos.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.3 Responsabilidade do Presidente da República e Imunidades (Arts. 85 e 86)* deste guia, irresponsabilidade Relativa (Art. 86, § 4º): Não pode ser responsabilizado por atos estranhos ao exercício de suas funções na vigência do mandato — Aplicável a atos conexos ao exercício funcional. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "exceto em atos ou processos administrativos ou de jurisdição graciosa do Tribunal de Justiça, não poderão...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "são válidas e eficazes as remoções de Magistrados feitas a pedido que motivarem impedimento entre Magistrados ou...". De acordo com a teoria estudada em *1.1 Dupla Vacância dos Cargos Presidenciais (Art. 81 da CF/88)*, últimos 2 anos do mandato: Se a dupla vacância definitiva ocorrer na segunda metade da legislatura (3º ou 4º ano do mandato), a eleição para ambos os cargos será feita indireta, trinta dias depois da última vaga, pelo Congresso Nacional, na forma da lei.
 >
-> **Gabarito: E**
+> **Gabarito: D**
 
 ---
 

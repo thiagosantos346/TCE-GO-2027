@@ -97,7 +97,7 @@ Conforme a NBC TSP Estrutura Conceitual, os Relatórios Contábeis de Propósito
 ---
 
 ### Teste 260
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Direito – 2024)**
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Direito)**
 De acordo com a NBC TSP Estrutura Conceitual- Estrutura Conceitual para Elaboração e Divulgação de Informação Contábil de Propósito Geral pelas Entidades do Setor Público, as informações sobre a situação patrimonial, sobre o desempenho e sobre os fluxos de caixa do governo ou outra entidade do setor público são normalmente apresentadas nas demonstrações contábeis. Relacione a informação com a sua respectiva explicação: 1-Situação patrimonial 2-Desempenho 3-Fluxos de caixa ( ) contribui para as avaliações do desempenho e da liquidez e da solvência da entidade e indica como a entidade arrecadou e utilizou os recursos durante o período. ( ) possibilita aos usuários identificar os recursos da entidade e as demandas sobre esses recursos na data de divulgação do relatório. ( ) orienta as avaliações de questões, como, por exemplo, se a entidade adquiriu recursos com economicidade e os utilizou com eficácia e eficiência para atingir os seus objetivos de prestação de serviços. Assinale a opção que mostra a relação correta, na ordem apresentada.
 
 * **A)** 1 – 3 – 2.
@@ -111,36 +111,36 @@ De acordo com a NBC TSP Estrutura Conceitual- Estrutura Conceitual para Elabora�
 > **Comentário Detalhado:**
 >
 > - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1 – 3 – 2". De acordo com a teoria estudada em *2.1 As Seis Características Qualitativas*, comparabilidade: Permite aos usuários identificar semelhanças e diferenças entre diferentes entidades governamentais no mesmo período (comparabilidade espacial) ou em relação à mesma entidade ao longo de exercícios sucessivos (comparabilidade temporal).
-> - **B)** **Correta.** Conforme fundamentado na seção *1.3 Usuários Primários e Objetivos Centrais dos RCPGs* deste guia, conforme a NBC TSP Estrutura Conceitual, os Relatórios Contábeis de Propósito Geral das Entidades do Setor Público (RCPGs) destinam-se a atender às necessidades comuns dos seguintes usuários primários. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "2 – 1 – 3".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2 – 3 – 1". De acordo com a teoria estudada em *1.2 O Conceito Crítico de "Potencial de Serviços"*, *"Potencial de serviços é a capacidade de gerar serviços que contribuam para alcançar os objetivos da entidade pública, sem necessariamente gerar fluxos de caixa líquidos positivos."*.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3 – 1 – 2". De acordo com a teoria estudada em *2. Características Qualitativas da Informação Contábil Útil (NBC TSP EC)*, as características qualitativas são atributos indispensáveis que tornam as informações contidas nos RCPGs úteis para os usuários na tomada de decisão e na prestação de contas.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2 – 1 – 3". De acordo com a teoria estudada em *1.2 O Conceito Crítico de "Potencial de Serviços"*, *"Potencial de serviços é a capacidade de gerar serviços que contribuam para alcançar os objetivos da entidade pública, sem necessariamente gerar fluxos de caixa líquidos positivos."*.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2 – 3 – 1". De acordo com a teoria estudada em *2. Características Qualitativas da Informação Contábil Útil (NBC TSP EC)*, as características qualitativas são atributos indispensáveis que tornam as informações contidas nos RCPGs úteis para os usuários na tomada de decisão e na prestação de contas.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.3 Usuários Primários e Objetivos Centrais dos RCPGs* deste guia, conforme a NBC TSP Estrutura Conceitual, os Relatórios Contábeis de Propósito Geral das Entidades do Setor Público (RCPGs) destinam-se a atender às necessidades comuns dos seguintes usuários primários. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "3 – 1 – 2".
 > - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3 – 2 – 1". De acordo com a teoria estudada em *2.1 As Seis Características Qualitativas*, compreensibilidade: Qualidade que permite aos usuários com conhecimento razoável do setor público e disposição para estudar as demonstrações compreender prontamente o significado das informações contábeis.
 >
-> **Gabarito: B**
+> **Gabarito: D**
 
 ---
 
 ### Teste 261
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Gestao Governamental – 2024)**
-Com relação às informações fornecidas pelas demonstrações contábeis, de acordo com a NBC TSP 11 – Apresentação das Demonstrações Contábeis, avalie se as afirmativas a seguir são verdadeiras (V) ou falsas (F). ( ) As demonstrações contábeis fornecem aos usuários informações sobre recursos e obrigações da entidade na data das demonstrações contábeis e sobre o fluxo dos recursos no período a que se refere as demonstrações. ( ) As entidades devem apresentar informações adicionais para auxiliar às decisões do Governo relacionadas à alocação de recursos, na forma de indicadores contábeis e financeiros. ( ) As informações fornecidas pelas demonstrações contábeis são úteis para os usuários na realização de avaliações sobre a capacidade de a entidade continuar a fornecer bens e serviços a certo nível e a quantidade necessária de recursos que devem ser fornecidos à entidade no futuro para que ela possa continuar a cumprir com suas obrigações de fornecer bens e serviços. As afirmativas são, respectivamente,
+**(FGV – TCE/PI – 2025 – Auditor de Controle Externo - Controle Externo - Específica de Área Comum)**
+Em relação à seleção das bases de mensuração de ativos e passivos, de acordo com a NBC TSP Estrutura Conceitual – estrutura conceitual para elaboração e divulgação de informação contábil de propósito geral pelas entidades do setor público, considere os itens a seguir. I. O custo dos serviços prestados no período, em termos históricos ou atuais. II. A capacidade operacional, que representa a capacidade da entidade em dar suporte à prestação de serviços no futuro por meio de recursos físicos e outros. III. A capacidade financeira, que representa a capacidade da entidade em financiar as suas próprias atividades. A seleção da base de mensuração para ativos e passivos contribui para satisfazer aos objetivos da elaboração e divulgação da informação contábil pelas entidades do setor público, ao fornecer a informação que possibilita aos usuários avaliarem o(s) item(ns)
 
-* **A)** F – F – V.
-* **B)** V – V – F.
-* **C)** V – F – V.
-* **D)** F – V – F.
-* **E)** F – V – V.
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – F – V". De acordo com a teoria estudada em *1.3 Usuários Primários e Objetivos Centrais dos RCPGs*, fornecer subsídios técnicos indispensáveis para a tomada de decisão sobre a alocação de recursos públicos.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – V – F". De acordo com a teoria estudada em *1.3 Usuários Primários e Objetivos Centrais dos RCPGs*, fornecer informações úteis para a prestação de contas e responsabilização (*accountability*).
-> - **C)** **Correta.** Conforme fundamentado na seção *2.1 As Seis Características Qualitativas* deste guia, comparabilidade: Permite aos usuários identificar semelhanças e diferenças entre diferentes entidades governamentais no mesmo período (comparabilidade espacial) ou em relação à mesma entidade ao longo de exercícios sucessivos (comparabilidade temporal). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "V – F – V".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – V – F". De acordo com a teoria estudada em *1.3 Usuários Primários e Objetivos Centrais dos RCPGs*, conforme a NBC TSP Estrutura Conceitual, os Relatórios Contábeis de Propósito Geral das Entidades do Setor Público (RCPGs) destinam-se a atender às necessidades comuns dos seguintes usuários primários.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – V – V". De acordo com a teoria estudada em *3.2 Bases de Mensuração para Ativos e Passivos*, custo de Reposição / Substituição: Custo mais econômico exigido para a entidade substituir o potencial de serviços do ativo na data de mensuração. — *(Não aplicável nesta forma conceitual)*.
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *3.2 Bases de Mensuração para Ativos e Passivos*, custo de Reposição / Substituição: Custo mais econômico exigido para a entidade substituir o potencial de serviços do ativo na data de mensuração. — *(Não aplicável nesta forma conceitual)*.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *2.1 As Seis Características Qualitativas*, comparabilidade: Permite aos usuários identificar semelhanças e diferenças entre diferentes entidades governamentais no mesmo período (comparabilidade espacial) ou em relação à mesma entidade ao longo de exercícios sucessivos (comparabilidade temporal).
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *3.2 Bases de Mensuração para Ativos e Passivos*, custo de Cumprimento: *(Não aplicável)* — Custos que a entidade pública incorrerá para satisfazer as obrigações assumidas com terceiros.
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *1.3 Usuários Primários e Objetivos Centrais dos RCPGs*, fornecer informações úteis para a prestação de contas e responsabilização (*accountability*).
+> - **E)** **Correta.** Conforme fundamentado na seção *1.3 Usuários Primários e Objetivos Centrais dos RCPGs* deste guia, conforme a NBC TSP Estrutura Conceitual, os Relatórios Contábeis de Propósito Geral das Entidades do Setor Público (RCPGs) destinam-se a atender às necessidades comuns dos seguintes usuários primários. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PI/2025) ao estabelecer que "I, II e III".
 >
-> **Gabarito: C**
+> **Gabarito: E**
 
 ---
 
@@ -175,7 +175,7 @@ flowchart TD
 ---
 
 ### Teste 262
-**(FGV – TCE-GO – Analista de Controle Externo Ciencias Contabeis – 2024)**
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Ciências Contábeis)**
 De acordo com a NBC Estrutura Conceitual- Estrutura Conceitual para Elaboração e Divulgação de Informação Contábil de Propósito Geral pelas Entidades do Setor Público, no Relatório Contábil de Propósito Geral das Entidades do Setor Público, a informação é selecionada para exposição ou para evidenciação. Em relação à informação evidenciada nas notas explicativas às demonstrações contábeis, analise as afirmativas a seguir: I. É necessária para a compreensão dos usuários das demonstrações contábeis; II. Fornece informação que apresenta as demonstrações contábeis no contexto da entidade e o seu ambiente operacional; III. É complementar à informação exposta nas demonstrações contábeis, de modo que não tem relação com ela. Está correto o que se afirma em
 
 * **A)** I, somente.
@@ -188,18 +188,18 @@ De acordo com a NBC Estrutura Conceitual- Estrutura Conceitual para Elaboração
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *1.3 Usuários Primários e Objetivos Centrais dos RCPGs* deste guia, conforme a NBC TSP Estrutura Conceitual, os Relatórios Contábeis de Propósito Geral das Entidades do Setor Público (RCPGs) destinam-se a atender às necessidades comuns dos seguintes usuários primários. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "I, somente".
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, somente". De acordo com a teoria estudada em *2.1 As Seis Características Qualitativas*, comparabilidade: Permite aos usuários identificar semelhanças e diferenças entre diferentes entidades governamentais no mesmo período (comparabilidade espacial) ou em relação à mesma entidade ao longo de exercícios sucessivos (comparabilidade temporal).
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, somente". De acordo com a teoria estudada em *2.1 As Seis Características Qualitativas*, comparabilidade: Permite aos usuários identificar semelhanças e diferenças entre diferentes entidades governamentais no mesmo período (comparabilidade espacial) ou em relação à mesma entidade ao longo de exercícios sucessivos (comparabilidade temporal).
+> - **B)** **Correta.** Conforme fundamentado na seção *1.3 Usuários Primários e Objetivos Centrais dos RCPGs* deste guia, conforme a NBC TSP Estrutura Conceitual, os Relatórios Contábeis de Propósito Geral das Entidades do Setor Público (RCPGs) destinam-se a atender às necessidades comuns dos seguintes usuários primários. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "I e II, somente".
 > - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, somente". De acordo com a teoria estudada em *2.1 As Seis Características Qualitativas*, compreensibilidade: Qualidade que permite aos usuários com conhecimento razoável do setor público e disposição para estudar as demonstrações compreender prontamente o significado das informações contábeis.
 > - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, somente". De acordo com a teoria estudada em *2.2 Restrições Inerentes: Custo-Benefício e Materialidade*, materialidade: A informação é material se a sua omissão ou distorção puder influenciar o julgamento ou as decisões dos usuários dos RCPGs. A materialidade depende da natureza ou da magnitude do item no contexto orçamentário e patrimonial específico.
 > - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *2. Características Qualitativas da Informação Contábil Útil (NBC TSP EC)*, as características qualitativas são atributos indispensáveis que tornam as informações contidas nos RCPGs úteis para os usuários na tomada de decisão e na prestação de contas.
 >
-> **Gabarito: A**
+> **Gabarito: B**
 
 ---
 
 ### Teste 263
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Direito – 2024)**
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Direito)**
 Avalie se as características-chave de entidade do setor público que reporta a informação contábil incluem: I. ser uma entidade que capta recursos da sociedade ou em nome desta e/ou utiliza recursos para realizar atividades em benefício dela; II. existirem usuários de serviços ou provedores de recursos dependentes de informações contidas nos relatórios contábeis de propósito geral das entidades do setor público para fins de prestação de contas e responsabilização e tomada de decisão; III. apresentar resultado superavitário em pelo menos dois exercícios sociais, mesmo não sendo essa a sua finalidade. De acordo com a NBC TSP Estrutura Conceitual – Estrutura Conceitual para Elaboração e Divulgação de Informação Contábil de Propósito Geral pelas Entidades do Setor Público, a entidade do setor público que reporta a informação contábil deve apresentar as seguintes características-chave:
 
 * **A)** I, apenas.
@@ -212,13 +212,13 @@ Avalie se as características-chave de entidade do setor público que reporta a 
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *2. Características Qualitativas da Informação Contábil Útil (NBC TSP EC)* deste guia, as características qualitativas são atributos indispensáveis que tornam as informações contidas nos RCPGs úteis para os usuários na tomada de decisão e na prestação de contas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "I, apenas".
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *1.3 Usuários Primários e Objetivos Centrais dos RCPGs*, conforme a NBC TSP Estrutura Conceitual, os Relatórios Contábeis de Propósito Geral das Entidades do Setor Público (RCPGs) destinam-se a atender às necessidades comuns dos seguintes usuários primários.
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *1.3 Usuários Primários e Objetivos Centrais dos RCPGs*, conforme a NBC TSP Estrutura Conceitual, os Relatórios Contábeis de Propósito Geral das Entidades do Setor Público (RCPGs) destinam-se a atender às necessidades comuns dos seguintes usuários primários.
+> - **B)** **Correta.** Conforme fundamentado na seção *2. Características Qualitativas da Informação Contábil Útil (NBC TSP EC)* deste guia, as características qualitativas são atributos indispensáveis que tornam as informações contidas nos RCPGs úteis para os usuários na tomada de decisão e na prestação de contas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "I e II, apenas".
 > - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *2.1 As Seis Características Qualitativas*, comparabilidade: Permite aos usuários identificar semelhanças e diferenças entre diferentes entidades governamentais no mesmo período (comparabilidade espacial) ou em relação à mesma entidade ao longo de exercícios sucessivos (comparabilidade temporal).
 > - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *1.3 Usuários Primários e Objetivos Centrais dos RCPGs*, fornecer informações úteis para a prestação de contas e responsabilização (*accountability*).
 > - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *2.1 As Seis Características Qualitativas*, compreensibilidade: Qualidade que permite aos usuários com conhecimento razoável do setor público e disposição para estudar as demonstrações compreender prontamente o significado das informações contábeis.
 >
-> **Gabarito: A**
+> **Gabarito: B**
 
 ---
 
@@ -252,26 +252,26 @@ A mensuração consiste no processo de determinar os valores monetários pelos q
 ---
 
 ### Teste 264
-**(FGV – TCE-PI – Auditor de Controle Externo Controle Externo Especifica de Area Comum – 2025)**
-Em relação à seleção das bases de mensuração de ativos e passivos, de acordo com a NBC TSP Estrutura Conceitual – estrutura conceitual para elaboração e divulgação de informação contábil de propósito geral pelas entidades do setor público, considere os itens a seguir. I. O custo dos serviços prestados no período, em termos históricos ou atuais. II. A capacidade operacional, que representa a capacidade da entidade em dar suporte à prestação de serviços no futuro por meio de recursos físicos e outros. III. A capacidade financeira, que representa a capacidade da entidade em financiar as suas próprias atividades. A seleção da base de mensuração para ativos e passivos contribui para satisfazer aos objetivos da elaboração e divulgação da informação contábil pelas entidades do setor público, ao fornecer a informação que possibilita aos usuários avaliarem o(s) item(ns)
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Contabilidade)**
+Mensuração é o processo que consiste em determinar os valores pelos quais os elementos das demonstrações contábeis devem ser reconhecidos e apresentados nas demonstrações contábeis. A seleção da base de mensuração para ativos e passivos contribui para satisfazer aos objetivos da elaboração e divulgação da informação contábil pelas entidades do setor público ao fornecer informação que possibilita os usuários avaliarem, entre outros pontos, a capacidade financeira, que representa a capacidade da entidade
 
-* **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** I e III, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
+* **A)** financiar as suas próprias atividades.
+* **B)** otimizar a prestação de contas aos usuários externos.
+* **C)** dar suporte à prestação de serviços no futuro por meio de recursos físicos.
+* **D)** determinar o custo dos serviços prestados no período, em termos históricos ou atuais.
+* **E)** maximizar a disponibilidade dos serviços prestados frente aos recursos disponíveis.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *3.2 Bases de Mensuração para Ativos e Passivos*, custo de Reposição / Substituição: Custo mais econômico exigido para a entidade substituir o potencial de serviços do ativo na data de mensuração. — *(Não aplicável nesta forma conceitual)*.
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *3.2 Bases de Mensuração para Ativos e Passivos*, custo de Cumprimento: *(Não aplicável)* — Custos que a entidade pública incorrerá para satisfazer as obrigações assumidas com terceiros.
-> - **C)** **Correta.** Conforme fundamentado na seção *1.3 Usuários Primários e Objetivos Centrais dos RCPGs* deste guia, conforme a NBC TSP Estrutura Conceitual, os Relatórios Contábeis de Propósito Geral das Entidades do Setor Público (RCPGs) destinam-se a atender às necessidades comuns dos seguintes usuários primários. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PI/2025) ao estabelecer que "I e III, apenas".
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *2.1 As Seis Características Qualitativas*, comparabilidade: Permite aos usuários identificar semelhanças e diferenças entre diferentes entidades governamentais no mesmo período (comparabilidade espacial) ou em relação à mesma entidade ao longo de exercícios sucessivos (comparabilidade temporal).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *3.2 Bases de Mensuração para Ativos e Passivos*, custo Histórico: Montante de caixa fornecido para adquirir ou construir o ativo. — Montante de recursos recebidos para assumir a obrigação no passado.
+> - **A)** **Correta.** Conforme fundamentado na seção *3.2 Bases de Mensuração para Ativos e Passivos* deste guia, a mensuração consiste no processo de determinar os valores monetários pelos quais os elementos serão reconhecidos nas demonstrações contábeis. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "financiar as suas próprias atividades".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "otimizar a prestação de contas aos usuários externos". De acordo com a teoria estudada em *1.3 Usuários Primários e Objetivos Centrais dos RCPGs*, fornecer informações úteis para a prestação de contas e responsabilização (*accountability*).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "dar suporte à prestação de serviços no futuro por meio de recursos físicos". De acordo com a teoria estudada em *1.3 Usuários Primários e Objetivos Centrais dos RCPGs*, cidadãos e usuários de serviços públicos: Avaliam a gestão dos recursos públicos, a sustentabilidade intergeracional e a qualidade dos serviços ofertados (controle social).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "determinar o custo dos serviços prestados no período, em termos históricos ou atuais". De acordo com a teoria estudada em *3.2 Bases de Mensuração para Ativos e Passivos*, custo de Reposição / Substituição: Custo mais econômico exigido para a entidade substituir o potencial de serviços do ativo na data de mensuração. — *(Não aplicável nesta forma conceitual)*.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "maximizar a disponibilidade dos serviços prestados frente aos recursos disponíveis". De acordo com a teoria estudada em *1.3 Usuários Primários e Objetivos Centrais dos RCPGs*, fornecer subsídios técnicos indispensáveis para a tomada de decisão sobre a alocação de recursos públicos.
 >
-> **Gabarito: C**
+> **Gabarito: A**
 
 ---
 
@@ -314,31 +314,31 @@ flowchart TD
 ---
 
 ### Teste 265
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Gestao Governamental – 2024)**
-De acordo com a NBC TSP Estrutura Conceitual– Estrutura Conceitual para Elaboração e Divulgação de Informação Contábil de Propósito Geral pelas Entidades do Setor Público, no Relatório Contábil de Propósito Geral das Entidades do Setor Público, os objetivos da elaboração e divulgação da informação contábil são determinadas com base
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Ciências Contábeis)**
+Na elaboração das demonstrações contábeis de uma entidade do setor público, constatou-se que a mensuração de um passivo só poderia ser realizada por meio de estimativas. Desse modo, o passivo não foi incluído nas demonstrações. De acordo com a NBC TSP ESTRUTURA CONCEITUAL (R1) – ESTRUTURA CONCEITUAL PARA ELABORAÇÃO E DIVULGAÇÃO DE INFORMAÇÃO CONTÁBIL DE PROPÓSITO GERAL PELAS ENTIDADES DO SETOR PÚBLICO, o procedimento foi considerado
 
-* **A)** nas exigências dos órgãos reguladores.
-* **B)** nas prioridades de divulgação do Governo.
-* **C)** nas determinações da legislação contábil vigente.
-* **D)** nas necessidades de informações dos usuários dos relatórios.
-* **E)** nos interesses dos dirigentes das entidades do setor público.
+* **A)** correto, uma vez que estimativas não representam o valor real do passivo.
+* **B)** correto, uma vez que a definição de passivo exige que ele seja mensurável.
+* **C)** correto, uma vez que as demonstrações devem seguir a característica qualitativa da fidedignidade.
+* **D)** incorreto, uma vez que se o passivo não for apresentado, as demonstrações não serão tempestivas.
+* **E)** incorreto, uma vez que o uso de estimativas é parte essencial da contabilidade sob o regime de competência.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "nas exigências dos órgãos reguladores". De acordo com a teoria estudada em *1.3 Usuários Primários e Objetivos Centrais dos RCPGs*, representantes políticos: Parlamentares da Assembleia Legislativa, vereadores e os órgãos de controle externo (Tribunais de Contas), que necessitam de informações fidedignas para o julgamento das contas e a fiscalização orçamentária e financeira.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "nas prioridades de divulgação do Governo". De acordo com a teoria estudada em *2. Características Qualitativas da Informação Contábil Útil (NBC TSP EC)*, as características qualitativas são atributos indispensáveis que tornam as informações contidas nos RCPGs úteis para os usuários na tomada de decisão e na prestação de contas.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "nas determinações da legislação contábil vigente". De acordo com a teoria estudada em *3.1 Elementos Patrimoniais: Ativo, Passivo, SPL, VPA e VPD*, a Estrutura Conceitual define os seguintes elementos constitutivos dos relatórios patrimoniais.
-> - **D)** **Correta.** Conforme fundamentado na seção *1.3 Usuários Primários e Objetivos Centrais dos RCPGs* deste guia, conforme a NBC TSP Estrutura Conceitual, os Relatórios Contábeis de Propósito Geral das Entidades do Setor Público (RCPGs) destinam-se a atender às necessidades comuns dos seguintes usuários primários. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "nas necessidades de informações dos usuários dos relatórios".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "nos interesses dos dirigentes das entidades do setor público". De acordo com a teoria estudada em *2.1 As Seis Características Qualitativas*, compreensibilidade: Qualidade que permite aos usuários com conhecimento razoável do setor público e disposição para estudar as demonstrações compreender prontamente o significado das informações contábeis.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "correto, uma vez que estimativas não representam o valor real do passivo". De acordo com a teoria estudada em *3.2 Bases de Mensuração para Ativos e Passivos*, valor de Mercado: Montante pelo qual um ativo pode ser trocado entre partes conhecedoras, dispostas e em condições normais de mercado. — Montante pelo qual o passivo poderia ser liquidado entre partes independentes.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "correto, uma vez que a definição de passivo exige que ele seja mensurável". De acordo com a teoria estudada em *1.3 Usuários Primários e Objetivos Centrais dos RCPGs*, conforme a NBC TSP Estrutura Conceitual, os Relatórios Contábeis de Propósito Geral das Entidades do Setor Público (RCPGs) destinam-se a atender às necessidades comuns dos seguintes usuários primários.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "correto, uma vez que as demonstrações devem seguir a característica qualitativa da fidedignidade". De acordo com a teoria estudada em *1.1 Evolução: Do Enfoque Orçamentário ao Patrimonial Integrado*, o registro contábil patrimonial independe da execução orçamentária: o reconhecimento de bens, direitos e obrigações ocorre no momento do fato gerador (regime de competência), gerando Variações Patrimoniais Aumentativas (VPA) e Variações Patrimoniais Diminutivas (VPD).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "incorreto, uma vez que se o passivo não for apresentado, as demonstrações não serão tempestivas". De acordo com a teoria estudada em *2.1 As Seis Características Qualitativas*, compreensibilidade: Qualidade que permite aos usuários com conhecimento razoável do setor público e disposição para estudar as demonstrações compreender prontamente o significado das informações contábeis.
+> - **E)** **Correta.** Conforme fundamentado na seção *1.1 Evolução: Do Enfoque Orçamentário ao Patrimonial Integrado* deste guia, historicamente, a contabilidade governamental brasileira sob a égide da Lei Federal nº 4.320/1964 priorizou o enfoque orçamentário (controle de legalidade de créditos, empenhos e arrecadação de tributos), adotando um regime misto: caixa para as receitas e competência para as despesas (art. 35 da Lei nº 4.320/1964). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "incorreto, uma vez que o uso de estimativas é parte essencial da contabilidade sob o regime de competência".
 >
-> **Gabarito: D**
+> **Gabarito: E**
 
 ---
 
 ### Teste 266
-**(FGV – TCE-GO – Analista de Controle Externo Ciencias Contabeis – 2024)**
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Ciências Contábeis)**
 Em relação à apresentação e divulgação de Informação Orçamentária nas Demonstrações Contábeis, de acordo com a NBC TSP 13- Apresentação de Informação Orçamentária nas Demonstrações Contábeis, assinale V para a alternativa verdadeira e F para a falsa. ( ) A entidade deve apresentar a comparação do orçamento com os valores realizados por meio de colunas adicionais nas demonstrações contábeis somente quando as demonstrações e o orçamento são elaborados em base comparável. ( ) Quando o orçamento e as demonstrações contábeis não são elaborados em base comparável, não deve haver apresentação e divulgação e o fato deve ser aclarado em nota explicativa. ( ) Quando os orçamentos são elaborados com base no regime de competência e abrangem todas as demonstrações contábeis, colunas adicionais de orçamento podem ser adicionadas a todas as demonstrações contábeis exigidas pelas normas contábeis. As afirmativas são, respectivamente,
 
 * **A)** V – V – V.
@@ -353,83 +353,83 @@ Em relação à apresentação e divulgação de Informação Orçamentária nas
 >
 > - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – V – V". De acordo com a teoria estudada em *4.1 Matriz de Provisões e Passivos Contingentes (NBC TSP 03)*, o risco remoto é sumariamente ignorado (sem registro e sem nota explicativa).
 > - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – V – F". De acordo com a teoria estudada em *3.2 Bases de Mensuração para Ativos e Passivos*, a mensuração consiste no processo de determinar os valores monetários pelos quais os elementos serão reconhecidos nas demonstrações contábeis.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – F – V". De acordo com a teoria estudada em *4.1 Matriz de Provisões e Passivos Contingentes (NBC TSP 03)*, a banca frequentemente tenta confundir o candidato afirmando que um risco possível deve ser registrado no Balanço Patrimonial. FALSO!.
-> - **D)** **Correta.** Conforme fundamentado na seção *1.1 Evolução: Do Enfoque Orçamentário ao Patrimonial Integrado* deste guia, o registro contábil patrimonial independe da execução orçamentária: o reconhecimento de bens, direitos e obrigações ocorre no momento do fato gerador (regime de competência), gerando Variações Patrimoniais Aumentativas (VPA) e Variações Patrimoniais Diminutivas (VPD). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "F – V – V".
+> - **C)** **Correta.** Conforme fundamentado na seção *1.1 Evolução: Do Enfoque Orçamentário ao Patrimonial Integrado* deste guia, o registro contábil patrimonial independe da execução orçamentária: o reconhecimento de bens, direitos e obrigações ocorre no momento do fato gerador (regime de competência), gerando Variações Patrimoniais Aumentativas (VPA) e Variações Patrimoniais Diminutivas (VPD). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "V – F – V".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F – V – V". De acordo com a teoria estudada em *4.1 Matriz de Provisões e Passivos Contingentes (NBC TSP 03)*, a banca frequentemente tenta confundir o candidato afirmando que um risco possível deve ser registrado no Balanço Patrimonial. FALSO!.
 > - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V – F – F". De acordo com a teoria estudada em *2.1 As Seis Características Qualitativas*, para ser fidedigna, a representação deve ser completa, neutra e livre de erro material (a neutralidade implica a ausência de viés na seleção ou apresentação dos dados).
 >
-> **Gabarito: D**
+> **Gabarito: C**
 
 ---
 
 ### Teste 267
-**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Ciencias Contabeis – 2026)**
-Na elaboração das demonstrações contábeis de uma entidade do setor público, constatou-se que a mensuração de um passivo só poderia ser realizada por meio de estimativas. Desse modo, o passivo não foi incluído nas demonstrações. De acordo com a NBC TSP ESTRUTURA CONCEITUAL (R1) – ESTRUTURA CONCEITUAL PARA ELABORAÇÃO E DIVULGAÇÃO DE INFORMAÇÃO CONTÁBIL DE PROPÓSITO GERAL PELAS ENTIDADES DO SETOR PÚBLICO, o procedimento foi considerado
+**(FGV – TRT da 24º Região – 2025 – Analista Judiciário - Área Administrativa - Contabilidade)**
+De acordo com a NBC TSP Estrutura Conceitual, os fenômenos econômicos e outros fenômenos representados no Relatório Contábil de Propósito Geral das Entidades do Setor Público (RCPG) ocorrem normalmente sob condições de incerteza. Assinale a opção que indica o posicionamento da estrutura conceitual em relação às estimativas.
 
-* **A)** correto, uma vez que estimativas não representam o valor real do passivo.
-* **B)** correto, uma vez que a definição de passivo exige que ele seja mensurável.
-* **C)** correto, uma vez que as demonstrações devem seguir a característica qualitativa da fidedignidade.
-* **D)** incorreto, uma vez que se o passivo não for apresentado, as demonstrações não serão tempestivas.
-* **E)** incorreto, uma vez que o uso de estimativas é parte essencial da contabilidade sob o regime de competência.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "correto, uma vez que estimativas não representam o valor real do passivo". De acordo com a teoria estudada em *3.2 Bases de Mensuração para Ativos e Passivos*, valor de Mercado: Montante pelo qual um ativo pode ser trocado entre partes conhecedoras, dispostas e em condições normais de mercado. — Montante pelo qual o passivo poderia ser liquidado entre partes independentes.
-> - **B)** **Correta.** Conforme fundamentado na seção *1.3 Usuários Primários e Objetivos Centrais dos RCPGs* deste guia, conforme a NBC TSP Estrutura Conceitual, os Relatórios Contábeis de Propósito Geral das Entidades do Setor Público (RCPGs) destinam-se a atender às necessidades comuns dos seguintes usuários primários. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "correto, uma vez que a definição de passivo exige que ele seja mensurável".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "correto, uma vez que as demonstrações devem seguir a característica qualitativa da fidedignidade". De acordo com a teoria estudada em *2.1 As Seis Características Qualitativas*, compreensibilidade: Qualidade que permite aos usuários com conhecimento razoável do setor público e disposição para estudar as demonstrações compreender prontamente o significado das informações contábeis.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "incorreto, uma vez que se o passivo não for apresentado, as demonstrações não serão tempestivas". De acordo com a teoria estudada em *3.2 Bases de Mensuração para Ativos e Passivos*, a mensuração consiste no processo de determinar os valores monetários pelos quais os elementos serão reconhecidos nas demonstrações contábeis.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "incorreto, uma vez que o uso de estimativas é parte essencial da contabilidade sob o regime de competência". De acordo com a teoria estudada em *1.1 Evolução: Do Enfoque Orçamentário ao Patrimonial Integrado*, historicamente, a contabilidade governamental brasileira sob a égide da Lei Federal nº 4.320/1964 priorizou o enfoque orçamentário (controle de legalidade de créditos, empenhos e arrecadação de tributos), adotando um regime misto: caixa para as receitas e competência para as despesas (art. 35 da Lei nº 4.320/1964).
->
-> **Gabarito: B**
-
----
-
-### Teste 268
-**(FGV – TCE-GO – Analista de Controle Externo Ciencias Contabeis – 2024)**
-De acordo com a norma NBC TSP 34 – Custos no Setor Público, Obrigatoriedade do Sistema de Custos, as informações de custo devem ser confiáveis e úteis para os processos de planejamento, tomada de decisão, monitoramento, avaliação de desempenho, transparência, prestação de contas e responsabilização. Ao mesmo tempo, devem ser evitados
-
-* **A)** exatidão e refinamentos desnecessários dos dados.
-* **B)** detalhamentos e divulgação externa.
-* **C)** rastreamento da informação que não é essencial.
-* **D)** uso de diferentes métodos de custeio e bases de mensuração.
-* **E)** mapeamento e documentação da forma como foram obtidos os resultados.
+* **A)** Devem ser evitadas sempre que possível.
+* **B)** Devem ser utilizadas apenas quando representarem certeza em relação aos dados.
+* **C)** Devem ser utilizadas apenas quando se referirem a fato novo para a entidade.
+* **D)** Devem ser suportadas por laudos de peritos especializados e independentes.
+* **E)** Devem ser baseadas em dados apropriados e que refletem a melhor informação disponível.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "exatidão e refinamentos desnecessários dos dados". De acordo com a teoria estudada em *1.3 Usuários Primários e Objetivos Centrais dos RCPGs*, fornecer informações úteis para a prestação de contas e responsabilização (*accountability*).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "detalhamentos e divulgação externa". De acordo com a teoria estudada em *2.2 Restrições Inerentes: Custo-Benefício e Materialidade*, custo-Benefício: Os benefícios derivados da informação devem exceder os custos decorrentes de sua coleta, processamento e divulgação.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "rastreamento da informação que não é essencial". De acordo com a teoria estudada em *1.1 Evolução: Do Enfoque Orçamentário ao Patrimonial Integrado*, a dimensão orçamentária e a patrimonial coexistem de forma harmônica e integrada por meio do Plano de Contas Aplicado ao Setor Público (PCASP).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "uso de diferentes métodos de custeio e bases de mensuração". De acordo com a teoria estudada em *3.2 Bases de Mensuração para Ativos e Passivos*, custo de Reposição / Substituição: Custo mais econômico exigido para a entidade substituir o potencial de serviços do ativo na data de mensuração. — *(Não aplicável nesta forma conceitual)*.
-> - **E)** **Correta.** Conforme fundamentado na seção *2. Características Qualitativas da Informação Contábil Útil (NBC TSP EC)* deste guia, as características qualitativas são atributos indispensáveis que tornam as informações contidas nos RCPGs úteis para os usuários na tomada de decisão e na prestação de contas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "mapeamento e documentação da forma como foram obtidos os resultados".
+> - **A)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "Devem ser evitadas sempre que possível". De acordo com a teoria estudada em *1.3 Usuários Primários e Objetivos Centrais dos RCPGs*, conforme a NBC TSP Estrutura Conceitual, os Relatórios Contábeis de Propósito Geral das Entidades do Setor Público (RCPGs) destinam-se a atender às necessidades comuns dos seguintes usuários primários.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Devem ser utilizadas apenas quando representarem certeza em relação aos dados". De acordo com a teoria estudada em *4.2 Mensuração de Estoques Públicos para Distribuição Gratuita (NBC TSP 04)*, quando os estoques forem mantidos para distribuição gratuita ou por valor simbólico (ex.: medicamentos e vacinas do SUS, kits de merenda escolar, livros didáticos), eles devem ser mensurados pelo menor valor entre o custo histórico de aquisição e o CUSTO CORRENTE DE REPOSIÇÃO!.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Devem ser utilizadas apenas quando se referirem a fato novo para a entidade". De acordo com a teoria estudada em *2.1 As Seis Características Qualitativas*, para ser fidedigna, a representação deve ser completa, neutra e livre de erro material (a neutralidade implica a ausência de viés na seleção ou apresentação dos dados).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Devem ser suportadas por laudos de peritos especializados e independentes". De acordo com a teoria estudada em *3.2 Bases de Mensuração para Ativos e Passivos*, valor de Mercado: Montante pelo qual um ativo pode ser trocado entre partes conhecedoras, dispostas e em condições normais de mercado. — Montante pelo qual o passivo poderia ser liquidado entre partes independentes.
+> - **E)** **Correta.** Conforme fundamentado na seção *2.1 As Seis Características Qualitativas* deste guia, informações complexas e essenciais à governança jamais devem ser omitidas sob o pretexto de tornar o relatório "simples" ou acessível!. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT da 24º Região/2025) ao estabelecer que "Devem ser baseadas em dados apropriados e que refletem a melhor informação disponível".
 >
 > **Gabarito: E**
 
 ---
 
-### Teste 269
-**(FGV – TRT-24 – Analista Judiciario Area Administrativa Sem Especialidade – 2025)**
-De acordo com a NBC TSP Estrutura Conceitual - Estrutura Conceitual para Elaboração e Divulgação de Informação Contábil de Propósito Geral pelas Entidades do Setor Público, o desempenho da maioria das entidades do setor público pode ser apenas parcialmente avaliado por meio da análise da situação patrimonial, do desempenho e dos fluxos de caixa. Isso é consequência do seguinte fato:
+### Teste 268
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Fiscalização - Contabilidade)**
+Um hospital universitário utiliza força de trabalho de estudantes. Deste modo, o hospital não é o responsável pelo desembolso, no entanto, tem benefícios dele. Assinale a opção que indica a atribuição dos custos de recursos que não geram desembolsos, de acordo com a NBC TSP 34 – Custos no Setor Público
 
-* **A)** a prestação de contas (accountability) não é necessária para ela.
-* **B)** os seus usuários têm restrições em relação à interpretação de análises econômicos financeiras.
-* **C)** o objetivo principal delas é prestar serviços à sociedade, em vez de obter lucros e gerar retorno financeiro aos investidores.
-* **D)** essas entidades seguem regras contábeis que não são, ainda, aderentes às normas internacionais.
-* **E)** essas entidades devem concentrar os seus esforços, principalmente, na obtenção de superávit econômico para a população.
+* **A)** os recursos consumidos devem ser atribuídos aos objetos de custos, de modo a tornar o processo mais simples e rápido.
+* **B)** os recursos consumidos devem ser atribuídos aos objetos de custos, de modo a representar com fidedignidade o custo dos recursos consumidos.
+* **C)** os recursos consumidos não devem ser atribuídos aos objetos de custos, de modo a quantificar o montante efetivamente dispendido.
+* **D)** os recursos consumidos não devem ser atribuídos aos objetos de custos, de modo a diferenciar entre recursos que geram e os que não geram desembolso.
+* **E)** os recursos consumidos devem ser atribuídos aos objetos de custos, uma vez que os custos para segregar os recursos que geram dos que não geram desembolsos são maiores do que os benefícios.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *1.3 Usuários Primários e Objetivos Centrais dos RCPGs* deste guia, fornecer informações úteis para a prestação de contas e responsabilização (*accountability*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "a prestação de contas (accountability) não é necessária para ela".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os seus usuários têm restrições em relação à interpretação de análises econômicos financeiras". De acordo com a teoria estudada em *2. Características Qualitativas da Informação Contábil Útil (NBC TSP EC)*, as características qualitativas são atributos indispensáveis que tornam as informações contidas nos RCPGs úteis para os usuários na tomada de decisão e na prestação de contas.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o objetivo principal delas é prestar serviços à sociedade, em vez de obter lucros e gerar retorno financeiro aos...". De acordo com a teoria estudada em *1.2 O Conceito Crítico de "Potencial de Serviços"*, no setor público, a grande maioria dos ativos controlados pelo Estado (escolas públicas, postos de saúde, pontes, praças, viaturas policiais e sistemas de esgoto) não se destina a gerar lucro financeiro, mas sim a atender necessidades coletivas e prestar serviços públicos gratuitos ou subsidiados à sociedade.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "essas entidades seguem regras contábeis que não são, ainda, aderentes às normas internacionais". De acordo com a teoria estudada em *1.3 Usuários Primários e Objetivos Centrais dos RCPGs*, conforme a NBC TSP Estrutura Conceitual, os Relatórios Contábeis de Propósito Geral das Entidades do Setor Público (RCPGs) destinam-se a atender às necessidades comuns dos seguintes usuários primários.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "essas entidades devem concentrar os seus esforços, principalmente, na obtenção de superávit econômico para a...". De acordo com a teoria estudada em *1.1 Evolução: Do Enfoque Orçamentário ao Patrimonial Integrado*, a dimensão orçamentária e a patrimonial coexistem de forma harmônica e integrada por meio do Plano de Contas Aplicado ao Setor Público (PCASP).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os recursos consumidos devem ser atribuídos aos objetos de custos, de modo a tornar o processo mais simples e...". De acordo com a teoria estudada em *2.1 As Seis Características Qualitativas*, informações complexas e essenciais à governança jamais devem ser omitidas sob o pretexto de tornar o relatório "simples" ou acessível!.
+> - **B)** **Correta.** Conforme fundamentado na seção *2.2 Restrições Inerentes: Custo-Benefício e Materialidade* deste guia, custo-Benefício: Os benefícios derivados da informação devem exceder os custos decorrentes de sua coleta, processamento e divulgação. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "os recursos consumidos devem ser atribuídos aos objetos de custos, de modo a representar com fidedignidade o custo...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os recursos consumidos não devem ser atribuídos aos objetos de custos, de modo a quantificar o montante...". De acordo com a teoria estudada em *3.2 Bases de Mensuração para Ativos e Passivos*, custo Histórico: Montante de caixa fornecido para adquirir ou construir o ativo. — Montante de recursos recebidos para assumir a obrigação no passado.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os recursos consumidos não devem ser atribuídos aos objetos de custos, de modo a diferenciar entre recursos que...". De acordo com a teoria estudada em *4.2 Mensuração de Estoques Públicos para Distribuição Gratuita (NBC TSP 04)*, quando os estoques forem mantidos para distribuição gratuita ou por valor simbólico (ex.: medicamentos e vacinas do SUS, kits de merenda escolar, livros didáticos), eles devem ser mensurados pelo menor valor entre o custo histórico de aquisição e o CUSTO CORRENTE DE REPOSIÇÃO!.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os recursos consumidos devem ser atribuídos aos objetos de custos, uma vez que os custos para segregar os recursos...". De acordo com a teoria estudada em *3.2 Bases de Mensuração para Ativos e Passivos*, custo de Cumprimento: *(Não aplicável)* — Custos que a entidade pública incorrerá para satisfazer as obrigações assumidas com terceiros.
 >
-> **Gabarito: A**
+> **Gabarito: B**
+
+---
+
+### Teste 269
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Ciências Contábeis)**
+Um ente público arrecada os seus tributos por intermédio de um agente arrecadador. Inicialmente, quando o montante é recebido pelo agente arrecadador, ele reconhece uma receita. Já quando o montante é transferido para o ente público, o agente arrecadador reconhece uma despesa, e o ente público, uma receita. De acordo com a NBC TSP 01– RECEITA DE TRANSAÇÃO SEM CONTRAPRESTAÇÃO, o procedimento é considerado
+
+* **A)** correto, uma vez que o reconhecimento da receita deve seguir a ordem financeira dos fatos.
+* **B)** correto, uma vez que as duas entidades prestam serviços, de acordo com a definição da receita.
+* **C)** incorreto, uma vez que a receita deve ser reconhecida pelo ente público, apenas.
+* **D)** incorreto, uma vez que a receita deve ser reconhecida pelo ente arrecadador, apenas.
+* **E)** incorreto, uma vez que a receita deve ser reconhecida de modo concomitante pelas duas entidades.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "correto, uma vez que o reconhecimento da receita deve seguir a ordem financeira dos fatos". De acordo com a teoria estudada em *2.1 As Seis Características Qualitativas*, para ser fidedigna, a representação deve ser completa, neutra e livre de erro material (a neutralidade implica a ausência de viés na seleção ou apresentação dos dados).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "correto, uma vez que as duas entidades prestam serviços, de acordo com a definição da receita". De acordo com a teoria estudada em *4.3 Ativo Imobilizado e Depreciação Sistemática (NBC TSP 07)*, depreciação Periódica: Consiste na alocação sistemática do valor depreciável de um bem ativo ao longo de sua vida útil estimada. Reconhece-se a perda de potencial de serviços por uso, desgaste natural ou obsolescência tecnológica.
+> - **C)** **Correta.** Conforme fundamentado na seção *4.1 Matriz de Provisões e Passivos Contingentes (NBC TSP 03)* deste guia, a banca frequentemente tenta confundir o candidato afirmando que um risco possível deve ser registrado no Balanço Patrimonial. FALSO!. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "incorreto, uma vez que a receita deve ser reconhecida pelo ente público, apenas".
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "incorreto, uma vez que a receita deve ser reconhecida pelo ente arrecadador, apenas". De acordo com a teoria estudada em *4.2 Mensuração de Estoques Públicos para Distribuição Gratuita (NBC TSP 04)*, quando os estoques forem mantidos para distribuição gratuita ou por valor simbólico (ex.: medicamentos e vacinas do SUS, kits de merenda escolar, livros didáticos), eles devem ser mensurados pelo menor valor entre o custo histórico de aquisição e o CUSTO CORRENTE DE REPOSIÇÃO!.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "incorreto, uma vez que a receita deve ser reconhecida de modo concomitante pelas duas entidades". De acordo com a teoria estudada em *1.3 Usuários Primários e Objetivos Centrais dos RCPGs*, conforme a NBC TSP Estrutura Conceitual, os Relatórios Contábeis de Propósito Geral das Entidades do Setor Público (RCPGs) destinam-se a atender às necessidades comuns dos seguintes usuários primários.
+>
+> **Gabarito: C**
 
 ---
 

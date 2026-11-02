@@ -101,123 +101,127 @@ O art. 53 da Constituição consagra o plexo de garantias institucionais dos mem
 ---
 
 ### Teste 143
-**(IBFC – TJ-MG – Analista Judiciario Classe C Analista de Tecnologia da Informacao – 2022)**
-Sobre os Poderes Legislativo, Executivo e Judiciário, segundo a Constituição Federal de 1988 (CF/88), analise as afirmativas a seguir. I. O Poder Legislativo é exercido pelo Congresso Nacional, que se compõe da Câmara dos Deputados e do Senado Federal, sendo que, cada legislatura terá a duração de quatro anos. II. O Poder Executivo é exercido pelo Presidente da República, auxiliado pelos Ministros de Estado, sendo que, a eleição do Presidente da República importará a do Vice-Presidente com ele registrado, ambos tomarão posse em sessão do Congresso Nacional, podendo modificar a Constituição e leis, segundo julgarem importantes para o crescimento econômico do Brasil. III. O Superior Tribunal de Justiça é o órgão máximo do Poder Judiciário, cujos Ministros serão nomeados pelo Presidente da República, cabendo-lhe, precipuamente, a guarda da Constituição. IV. São crimes de responsabilidade os atos do Presidente da República que atentem contra a Constituição Federal e, especialmente, contra o livre exercício do Poder Legislativo, do Poder Judiciário, do Ministério Público e dos Poderes constitucionais das unidades da Federação. Estão corretas as afirmativas:
+**(FCC – TCE/GO – 2009 – Analista de Controle Externo - Gestão de Conhecimento)**
+Compete ao Supremo Tribunal Federal processar e julgar, originariamente,
 
-* **A)** I e II apenas
-* **B)** II e III apenas
-* **C)** I e IV apenas
-* **D)** III e IV apenas
-* **E)** I e III apenas
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II apenas". De acordo com a teoria estudada em *1.2 Repartição de Competências no Congresso Nacional*, *Senado Federal (Art. 52, I e II):* Processar e julgar o Presidente e Vice-Presidente nos crimes de responsabilidade, bem como os Ministros do STF, os membros do CNJ e CNMP, o Procurador-Geral da República e o Advogado-Geral da União; sabatinar e aprovar a escolha de magistrados, Ministros do TCU e chefes de missão diplomática; suspender a execução, no todo ou em parte, de lei declarada inconstitucional por decisão definitiva do STF em controle difuso.
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III apenas". De acordo com a teoria estudada em *1. Estrutura Bicameral e Atribuições das Casas Legislativas*, o Poder Legislativo da União é exercido pelo Congresso Nacional, que se compõe da Câmara dos Deputados e do Senado Federal (modelo bicameral federativo).
-> - **C)** **Correta.** Conforme fundamentado na seção *1.2 Repartição de Competências no Congresso Nacional* deste guia, competências Exclusivas do Congresso Nacional sem Sanção (Art. 49): Deliberadas em sessão conjunta ou separada e formalizadas por Decreto Legislativo, sem qualquer interferência presidencial (ex.: sustar atos normativos do Executivo que exorbitem do poder regulamentar; autorizar o Presidente a declarar guerra ou celebrar a paz; julgar anualmente as contas prestadas pelo Presidente da República). Dessa forma, está plenamente correta a assertiva da banca (IBFC – TJ-MG/2022) ao estabelecer que "I e IV apenas".
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III e IV apenas". De acordo com a teoria estudada em *1.2 Repartição de Competências no Congresso Nacional*, *Câmara dos Deputados (Art. 51, I):* Autorizar, por dois terços de seus membros, a instauração de processo contra o Presidente e o Vice-Presidente da República e os Ministros de Estado.
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III apenas". De acordo com a teoria estudada em *1.2 Repartição de Competências no Congresso Nacional*, competências com Sanção Presidencial (Art. 48): Matérias deliberadas pelo Congresso Nacional que geram leis e demandam envio ao Presidente da República para sanção ou veto (ex.: sistema tributário, planos orçamentários, criação e extinção de cargos públicos).
->
-> **Gabarito: C**
-
----
-
-### Teste 144
-**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**  
-Compete ao Congresso Nacional, com a sanção do Presidente da República:
-
-* **A)** dispor sobre fixação do subsídio dos Ministros do Supremo Tribunal Federal por lei específica.
-* **B)** apreciar os atos de outorga e renovação de concessão de emissoras de rádio e televisão.
-* **C)** escolher dois terços dos membros que compõem o Tribunal de Contas da União.
-* **D)** autorizar previamente a realização de referendo e convocar plebiscito nacional.
-* **E)** autorizar, em terras indígenas, a exploração e o aproveitamento de recursos hídricos.
+* **A)** a homologação de sentenças estrangeiras e a con- cessão de exequatur às cartas rogatórias.
+* **B)** os conflitos de atribuições entre autoridades adminis- trativas e judiciárias da União, ou entre autoridades judiciárias de um Estado e administrativas de outro, ou do Distrito Federal, ou entre as deste e da União.
+* **C)** as causas em que forem partes Estado estrangeiro ou organismo internacional, de um lado, e, do outro, Município ou pessoa residente ou domiciliada no País.
+* **D)** nas infrações penais comuns, o Presidente da Repú- blica, o Vice-Presidente, os membros do Congresso Nacional, seus próprios Ministros e o Procurador- Geral da República.
+* **E)** a execução de sentença nas causas de sua compe- tência originária, sendo vedada a delegação de atribuições para a prática de atos processuais. _________________________________________________________
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correto**. O art. 48, XV, da CF/88 estabelece que cabe ao Congresso Nacional, com a sanção do Presidente da República (mediante lei ordinária federal de iniciativa conjunta dos Poderes), dispor sobre a "fixação do subsídio dos Ministros do Supremo Tribunal Federal". As matérias do art. 48 exigem sanção presidencial.
-> - **B)** **Incorreto**. A apreciação de atos de concessão e renovação de emissoras de rádio e televisão é competência exclusiva do Congresso Nacional (art. 49, XII, CF/88), formalizada por decreto legislativo, sem sanção presidencial.
-> - **C)** **Incorreto**. Escolher dois terços dos membros do TCU é competência exclusiva do Congresso Nacional (art. 49, XIII, CF/88).
-> - **D)** **Incorreto**. Autorizar referendo e convocar plebiscito é competência exclusiva do Congresso Nacional (art. 49, XV, CF/88).
-> - **E)** **Incorreto**. Autorizar a exploração de recursos hídricos e minerais em terras indígenas é competência exclusiva do Congresso Nacional (art. 49, XVI, CF/88).
->
-> **Gabarito: A**
-
-### Teste 145
-**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**  
-Ao organizar o Poder Legislativo na esfera federal, a Constituição da República prevê que:
-
-* **A)** a Câmara dos Deputados será composta de representantes eleitos pelo sistema proporcional em cada unidade federada.
-* **B)** o Senado Federal será composto de representantes dos Estados e do Distrito Federal, eleitos segundo o princípio proporcional.
-* **C)** a representação de cada Estado no Senado Federal será renovada de quatro em quatro anos pelo critério de um terço fixo.
-* **D)** as deliberações de cada Casa Legislativa serão tomadas pela unanimidade de seus membros, salvo disposição regimental.
-* **E)** o número total de Senadores varia proporcionalmente à população de cada Estado apurada pelo Censo oficial da União.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Correto**. Conforme o art. 45 da CF/88: "A Câmara dos Deputados compõe-se de representantes do povo, eleitos, pelo sistema proporcional, em cada Estado, em cada Território e no Distrito Federal".
-> - **B)** **Incorreto**. O Senado Federal é composto por representantes eleitos segundo o princípio majoritário (art. 46, caput, CF/88).
-> - **C)** **Incorreto**. A representação no Senado é renovada de quatro em quatro anos, alternadamente, por um e dois terços (art. 46, § 2º, CF/88).
-> - **D)** **Incorreto**. As deliberações são tomadas, em regra, por maioria simples (maioria dos votos, presente a maioria absoluta de seus membros - art. 47, CF/88).
-> - **E)** **Incorreto**. Cada Estado e o Distrito Federal elegem exatamente três Senadores, com representação paritária e fixa que não varia com a população (art. 46, § 1º, CF/88).
->
-> **Gabarito: A**
-
-### Teste 146
-**(FGV – TRT-1 – Analista Judiciario Area Administrativa – 2024)**
-Com o objetivo de atender às necessidades urgentes do Poder Judiciário federal, o Presidente da República editou a Medida Provisória nº X, dispondo sobre a organização dos Tribunais Regionais Federais, o que foi muito comemorado por seus membros. Após o trâmite regular, a medida provisória teve sua votação iniciada na Câmara dos Deputados, sendo aprovada nessa Casa Legislativa e, posteriormente, no Senado Federal, sem alterações. Daí decorreu a promulgação da Lei nº Y, o que foi feito pelo Presidente da Mesa do Congresso Nacional. À luz da sistemática constitucional, é correto afirmar que essa narrativa:
-
-* **A)** não apresenta incorreção;
-* **B)** somente apresenta incorreção em relação à casa iniciadora;
-* **C)** somente apresenta incorreção em relação ao objeto da medida provisória;
-* **D)** somente apresenta incorreção em relação à promulgação no âmbito do Poder Legislativo;
-* **E)** somente apresenta incorreção em relação à votação em separado nas Casas Legislativas.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não apresenta incorreção". De acordo com a teoria estudada em *1.2 Repartição de Competências no Congresso Nacional*, competências Exclusivas do Congresso Nacional sem Sanção (Art. 49): Deliberadas em sessão conjunta ou separada e formalizadas por Decreto Legislativo, sem qualquer interferência presidencial (ex.: sustar atos normativos do Executivo que exorbitem do poder regulamentar; autorizar o Presidente a declarar guerra ou celebrar a paz; julgar anualmente as contas prestadas pelo Presidente da República).
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente apresenta incorreção em relação à casa iniciadora". De acordo com a teoria estudada em *1.1 Modelo Bicameral Federal e Unicameral Estadual/Municipal*, enquanto na esfera federal vigora o bicameralismo, nos demais entes da Federação o Poder Legislativo adota compulsoriamente a estrutura unicameral.
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente apresenta incorreção em relação ao objeto da medida provisória". De acordo com a teoria estudada em *1.2 Repartição de Competências no Congresso Nacional*, *Senado Federal (Art. 52, I e II):* Processar e julgar o Presidente e Vice-Presidente nos crimes de responsabilidade, bem como os Ministros do STF, os membros do CNJ e CNMP, o Procurador-Geral da República e o Advogado-Geral da União; sabatinar e aprovar a escolha de magistrados, Ministros do TCU e chefes de missão diplomática; suspender a execução, no todo ou em parte, de lei declarada inconstitucional por decisão definitiva do STF em controle difuso.
-> - **D)** **Correta.** Conforme fundamentado na seção *1. Estrutura Bicameral e Atribuições das Casas Legislativas* deste guia, o Poder Legislativo da União é exercido pelo Congresso Nacional, que se compõe da Câmara dos Deputados e do Senado Federal (modelo bicameral federativo). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-1/2024) ao estabelecer que "somente apresenta incorreção em relação à promulgação no âmbito do Poder Legislativo".
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente apresenta incorreção em relação à votação em separado nas Casas Legislativas". De acordo com a teoria estudada em *1. Estrutura Bicameral e Atribuições das Casas Legislativas*, câmara dos Deputados (Art. 45): Representa o povo brasileiro. Os deputados são eleitos pelo sistema eleitoral proporcional, para mandato de 4 anos (uma legislatura).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a homologação de sentenças estrangeiras e a con- cessão de exequatur às cartas rogatórias". De acordo com a teoria estudada em *1.2 Repartição de Competências no Congresso Nacional*, *Câmara dos Deputados (Art. 51, I):* Autorizar, por dois terços de seus membros, a instauração de processo contra o Presidente e o Vice-Presidente da República e os Ministros de Estado.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os conflitos de atribuições entre autoridades adminis- trativas e judiciárias da União, ou entre autoridades...". De acordo com a teoria estudada em *1.2 Repartição de Competências no Congresso Nacional*, competências Exclusivas do Congresso Nacional sem Sanção (Art. 49): Deliberadas em sessão conjunta ou separada e formalizadas por Decreto Legislativo, sem qualquer interferência presidencial (ex.: sustar atos normativos do Executivo que exorbitem do poder regulamentar; autorizar o Presidente a declarar guerra ou celebrar a paz; julgar anualmente as contas prestadas pelo Presidente da República).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as causas em que forem partes Estado estrangeiro ou organismo internacional, de um lado, e, do outro, Município ou...". De acordo com a teoria estudada em *1.2 Repartição de Competências no Congresso Nacional*, competências com Sanção Presidencial (Art. 48): Matérias deliberadas pelo Congresso Nacional que geram leis e demandam envio ao Presidente da República para sanção ou veto (ex.: sistema tributário, planos orçamentários, criação e extinção de cargos públicos).
+> - **D)** **Correta.** Conforme fundamentado na seção *1.2 Repartição de Competências no Congresso Nacional* deste guia, *Senado Federal (Art. 52, I e II):* Processar e julgar o Presidente e Vice-Presidente nos crimes de responsabilidade, bem como os Ministros do STF, os membros do CNJ e CNMP, o Procurador-Geral da República e o Advogado-Geral da União; sabatinar e aprovar a escolha de magistrados, Ministros do TCU e chefes de missão diplomática; suspender a execução, no todo ou em parte, de lei declarada inconstitucional por decisão definitiva do STF em controle difuso. Dessa forma, está plenamente correta a assertiva da banca (FCC – TCE/GO/2009) ao estabelecer que "nas infrações penais comuns, o Presidente da Repú- blica, o Vice-Presidente, os membros do Congresso Nacional...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a execução de sentença nas causas de sua compe- tência originária, sendo vedada a delegação de atribuições para a...". De acordo com a teoria estudada em *1.2 Repartição de Competências no Congresso Nacional*, competências Privativas de Cada Casa (Arts. 51 e 52): Formalizadas por Resolução, sem envio ao Presidente.
 >
 > **Gabarito: D**
 
 ---
 
-### Teste 147
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Gestao Governamental – 2024)**
-O Presidente da República, em matéria de sua iniciativa privativa, apresentou projeto de lei à Câmara dos Deputados. Após tramitação regular, o projeto foi aprovado, com alterações, e encaminhado para o Senado Federal. Nessa Casa Legislativa, foi aprovado um substitutivo alterando integralmente, embora sem aumento de despesa, a forma como a respectiva matéria fora disciplinada no projeto. Considerando a sistemática constitucional, é correto afirmar que
+### Teste 144
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Direito)**
+A empresa Gama Ltda adquiriu um terreno para ali construir um posto de combustível. O imóvel, segundo estudos preliminares, está localizado em uma Área de Preservação Permanente (APP), próximo a uma nascente subterrânea que alimenta um dos rios que cortam o município. Mesmo com essa informação, o Instituto Ambiental Estadual, autarquia estadual, concedeu a licença para a construção do posto sob o argumento de que a nascente está canalizada e não haveria impacto significativo no meio ambiente. Além disso, alegou a autarquia estadual que antes da instalação do posto de gasolina, já havia sido concedida licença ambiental para um outro empreendimento que funcionou e causou dano ambiental no local. O Ministério Público não concordou e ingressou com ação civil pública contra a empresa, o instituto ambiental e os sócios da pessoa jurídica argumentando que a instalação do posto de combustível em uma APP contraria as leis ambientais e comprovou novo dano ambiental causado pela empresa Gama Ltda. No entanto, o juiz julgou os pedidos improcedentes sob o argumento de que não foram produzidas provas da ilegalidade de localização e instalação da empresa, diante do fato de que a licença foi concedida antes da instalação do empreendimento. Além disso, o magistrado alegou que, antes da instalação do posto de gasolina, já havia sido concedida licença ambiental para um outro empreendimento que funcionou no local. Assim, o juízo entendeu que não foi o posto de gasolina não deve ser condenado, porque a área já estava degradada. A sentença foi mantida pelo Tribunal de 2ª instância, pelos mesmos fundamentos. Ainda inconformado, o Ministério Público interpôs recurso especial. Com base na narrativa, assinale a afirmativa correta.
 
-* **A)** o Senado Federal, ao aprovar o substitutivo, assumiu a função de Casa Iniciadora, reiniciando a tramitação do projeto.
-* **B)** por se tratar de matéria de iniciativa privativa do Chefe do Poder Executivo, o Senado Federal não poderia ter aprovado o substitutivo.
-* **C)** após ser apreciado pela Câmara dos Deputados, o substitutivo, se aprovado, será encaminhado ao Chefe do Poder Executivo para fins de sanção ou veto.
-* **D)** o Senado Federal, embora tenha atuado como Casa Revisora, deve apreciar as emendas que venham a ser aprovadas na Câmara dos Deputados, após esta Casa analisar o substitutivo.
-* **E)** por se tratar de matéria de iniciativa privativa do Chefe do Poder Executivo, o substitutivo aprovado pelo Senado Federal somente poderia versar sobre redação, não sobre o mérito.
+* **A)** Entendeu corretamente o tribunal de origem no sentido de que o posto de gasolina não tem responsabilidade civil, pois não teria provocado danos ambientais considerando que a área já estava degradada.
+* **B)** Eventual aplicação de penalidades administrativas, em razão da responsabilidade administrativa ambiental do posto de gasolina, não obedeceria à sistemática da teoria da culpabilidade, sendo desnecessária a demonstração de seu elemento subjetivo e demonstração do nexo causal entre a conduta e o dano.
+* **C)** Conquanto houvesse a instalação do empreendimento em área de preservação permanente, não foram produzidas provas da ilegalidade de localização e instalação da empresa, diante do fato de que a licença foi concedida antes da instalação do empreendimento.
+* **D)** A consolidação da intervenção na área de preservação permanente não justifica que seja mantida a situação lesiva ao meio ambiente.
+* **E)** A violação das regras protetivas do meio ambiente atrai a responsabilidade civil objetiva, informada pela teoria do risco integral, nos termos do Art. 14, § 1º, da Lei nº 6.938/81, contra a empresa e os sócios da pessoa jurídica, exceto para a autarquia estadual, com presunção do prejuízo causado ao meio ambiente (dano in re ipsa), ensejando o dever de indenizar.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o Senado Federal, ao aprovar o substitutivo, assumiu a função de Casa Iniciadora, reiniciando a tramitação do...". De acordo com a teoria estudada em *1. Estrutura Bicameral e Atribuições das Casas Legislativas*, o Poder Legislativo da União é exercido pelo Congresso Nacional, que se compõe da Câmara dos Deputados e do Senado Federal (modelo bicameral federativo).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "por se tratar de matéria de iniciativa privativa do Chefe do Poder Executivo, o Senado Federal não poderia ter...". De acordo com a teoria estudada em *1.2 Repartição de Competências no Congresso Nacional*, competências com Sanção Presidencial (Art. 48): Matérias deliberadas pelo Congresso Nacional que geram leis e demandam envio ao Presidente da República para sanção ou veto (ex.: sistema tributário, planos orçamentários, criação e extinção de cargos públicos).
-> - **C)** **Correta.** Conforme fundamentado na seção *1.2 Repartição de Competências no Congresso Nacional* deste guia, competências Exclusivas do Congresso Nacional sem Sanção (Art. 49): Deliberadas em sessão conjunta ou separada e formalizadas por Decreto Legislativo, sem qualquer interferência presidencial (ex.: sustar atos normativos do Executivo que exorbitem do poder regulamentar; autorizar o Presidente a declarar guerra ou celebrar a paz; julgar anualmente as contas prestadas pelo Presidente da República). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "após ser apreciado pela Câmara dos Deputados, o substitutivo, se aprovado, será encaminhado ao Chefe do Poder...".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o Senado Federal, embora tenha atuado como Casa Revisora, deve apreciar as emendas que venham a ser aprovadas na...". De acordo com a teoria estudada em *1.2 Repartição de Competências no Congresso Nacional*, *Câmara dos Deputados (Art. 51, I):* Autorizar, por dois terços de seus membros, a instauração de processo contra o Presidente e o Vice-Presidente da República e os Ministros de Estado.
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "por se tratar de matéria de iniciativa privativa do Chefe do Poder Executivo, o substitutivo aprovado pelo Senado...". De acordo com a teoria estudada em *1.2 Repartição de Competências no Congresso Nacional*, *Senado Federal (Art. 52, I e II):* Processar e julgar o Presidente e Vice-Presidente nos crimes de responsabilidade, bem como os Ministros do STF, os membros do CNJ e CNMP, o Procurador-Geral da República e o Advogado-Geral da União; sabatinar e aprovar a escolha de magistrados, Ministros do TCU e chefes de missão diplomática; suspender a execução, no todo ou em parte, de lei declarada inconstitucional por decisão definitiva do STF em controle difuso.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Entendeu corretamente o tribunal de origem no sentido de que o posto de gasolina não tem responsabilidade civil...". De acordo com a teoria estudada em *1.3 Estatuto dos Congressistas e Imunidades Parlamentares*, imunidade Material (Real ou Substantiva): Os Deputados e Senadores são invioláveis, civil e penalmente, por quaisquer de suas opiniões, palavras e votos.
+> - **B)** **Incorreta.** A opção afasta requisito ou relação estrutural exigida pela matéria ao afirmar que "Eventual aplicação de penalidades administrativas, em razão da responsabilidade administrativa ambiental do posto...". De acordo com a teoria estudada em *1.3 Estatuto dos Congressistas e Imunidades Parlamentares*, exige conexão (nexo de causalidade) com o desempenho das funções parlamentares, sendo absoluta quando manifestada dentro do recinto do parlamento.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Conquanto houvesse a instalação do empreendimento em área de preservação permanente, não foram produzidas provas...". De acordo com a teoria estudada em *1.2 Repartição de Competências no Congresso Nacional*, *Câmara dos Deputados (Art. 51, I):* Autorizar, por dois terços de seus membros, a instauração de processo contra o Presidente e o Vice-Presidente da República e os Ministros de Estado.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.2 Repartição de Competências no Congresso Nacional* deste guia, competências com Sanção Presidencial (Art. 48): Matérias deliberadas pelo Congresso Nacional que geram leis e demandam envio ao Presidente da República para sanção ou veto (ex.: sistema tributário, planos orçamentários, criação e extinção de cargos públicos). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "A consolidação da intervenção na área de preservação permanente não justifica que seja mantida a situação lesiva...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A violação das regras protetivas do meio ambiente atrai a responsabilidade civil objetiva, informada pela teoria...". De acordo com a teoria estudada em *1.2 Repartição de Competências no Congresso Nacional*, *Senado Federal (Art. 52, I e II):* Processar e julgar o Presidente e Vice-Presidente nos crimes de responsabilidade, bem como os Ministros do STF, os membros do CNJ e CNMP, o Procurador-Geral da República e o Advogado-Geral da União; sabatinar e aprovar a escolha de magistrados, Ministros do TCU e chefes de missão diplomática; suspender a execução, no todo ou em parte, de lei declarada inconstitucional por decisão definitiva do STF em controle difuso.
+>
+> **Gabarito: D**
+
+---
+
+### Teste 145
+**(FGV – TJ/SC – 2026 – Analista Administrativo)**
+No primeiro ano de mandato, o Presidente da República encaminha ao Congresso Nacional projeto de lei que estabelece, de forma regionalizada, diretrizes, objetivos e metas da Administração Pública federal, voltados às despesas de capital e aos programas de duração continuada, com vigência para os anos subsequentes. À luz da Constituição Federal, é correto afirmar que esse projeto de lei
+
+* **A)** possui vigência de quatro anos, iniciando-se no segundo ano do mandato e encerrando-se no primeiro ano do mandato seguinte.
+* **B)** tem vigência coincidente com o mandato presidencial, iniciando-se no primeiro ano e encerrando-se no último ano de governo.
+* **C)** abrange exclusivamente despesas correntes, vedada a inclusão de despesas de capital.
+* **D)** dispensa a regionalização das metas, por se tratar de planejamento estratégico nacional.
+* **E)** caso rejeitado pelo Poder Legislativo, pode ser reeditado por medida provisória, em razão de sua natureza programática e provisória.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Correta.** Conforme fundamentado na seção *1.2 Repartição de Competências no Congresso Nacional* deste guia, *Senado Federal (Art. 52, I e II):* Processar e julgar o Presidente e Vice-Presidente nos crimes de responsabilidade, bem como os Ministros do STF, os membros do CNJ e CNMP, o Procurador-Geral da República e o Advogado-Geral da União; sabatinar e aprovar a escolha de magistrados, Ministros do TCU e chefes de missão diplomática; suspender a execução, no todo ou em parte, de lei declarada inconstitucional por decisão definitiva do STF em controle difuso. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/SC/2026) ao estabelecer que "possui vigência de quatro anos, iniciando-se no segundo ano do mandato e encerrando-se no primeiro ano do mandato...".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "tem vigência coincidente com o mandato presidencial, iniciando-se no primeiro ano e encerrando-se no último ano de...". De acordo com a teoria estudada em *1.2 Repartição de Competências no Congresso Nacional*, competências com Sanção Presidencial (Art. 48): Matérias deliberadas pelo Congresso Nacional que geram leis e demandam envio ao Presidente da República para sanção ou veto (ex.: sistema tributário, planos orçamentários, criação e extinção de cargos públicos).
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "abrange exclusivamente despesas correntes, vedada a inclusão de despesas de capital". De acordo com a teoria estudada em *1. Estrutura Bicameral e Atribuições das Casas Legislativas*, câmara dos Deputados (Art. 45): Representa o povo brasileiro. Os deputados são eleitos pelo sistema eleitoral proporcional, para mandato de 4 anos (uma legislatura).
+> - **D)** **Incorreta.** A opção afasta requisito ou relação estrutural exigida pela matéria ao afirmar que "dispensa a regionalização das metas, por se tratar de planejamento estratégico nacional". De acordo com a teoria estudada em *1.2 Repartição de Competências no Congresso Nacional*, competências Exclusivas do Congresso Nacional sem Sanção (Art. 49): Deliberadas em sessão conjunta ou separada e formalizadas por Decreto Legislativo, sem qualquer interferência presidencial (ex.: sustar atos normativos do Executivo que exorbitem do poder regulamentar; autorizar o Presidente a declarar guerra ou celebrar a paz; julgar anualmente as contas prestadas pelo Presidente da República).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "caso rejeitado pelo Poder Legislativo, pode ser reeditado por medida provisória, em razão de sua natureza...". De acordo com a teoria estudada em *1.3 Estatuto dos Congressistas e Imunidades Parlamentares*, nesse caso, os autos serão remetidos dentro de vinte e quatro horas à Casa respectiva, para que, pelo voto da maioria de seus membros, resolva sobre a prisão.
+>
+> **Gabarito: A**
+
+---
+
+### Teste 146
+**(FCC – TCE/GO – 2009 – Analista de Controle Externo - Gestão de Conhecimento)**
+Ao organizar o Poder Legislativo, na esfera federal, a Constituição da República prevê que
+
+* **A)** a Câmara dos Deputados será composta de repre- sentantes do povo, eleitos, pelo sistema majoritário, em cada Estado, em cada Território e no Distrito Federal.
+* **B)** o Senado Federal será composto de representantes dos Estados e do Distrito Federal, eleitos segundo o princípio proporcional.
+* **C)** a representação de cada Estado e do Distrito Fede- ral no Senado Federal será renovada de quatro em quatro anos, alternadamente, por um e dois terços.
+* **D)** as deliberações de cada Casa Legislativa serão tomadas pela maioria absoluta de seus membros, salvo disposição constitucional em contrário.
+* **E)** o número total de Senadores será estabelecido por lei complementar, proporcionalmente à população, procedendo-se aos ajustes necessários, no ano an- terior às eleições, para que nenhuma daquelas uni- dades da Federação tenha menos de oito ou mais de setenta representantes. _________________________________________________________
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a Câmara dos Deputados será composta de repre- sentantes do povo, eleitos, pelo sistema majoritário, em cada...". De acordo com a teoria estudada em *1. Estrutura Bicameral e Atribuições das Casas Legislativas*, câmara dos Deputados (Art. 45): Representa o povo brasileiro. Os deputados são eleitos pelo sistema eleitoral proporcional, para mandato de 4 anos (uma legislatura).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o Senado Federal será composto de representantes dos Estados e do Distrito Federal, eleitos segundo o princípio...". De acordo com a teoria estudada em *1. Estrutura Bicameral e Atribuições das Casas Legislativas*, senado Federal (Art. 46): Representa os Estados e o Distrito Federal. Cada unidade federada elege 3 senadores, pelo sistema majoritário, com mandato de 8 anos (duas legislaturas).
+> - **C)** **Correta.** Conforme fundamentado na seção *1. Estrutura Bicameral e Atribuições das Casas Legislativas* deste guia, a representação é renovada de quatro em quatro anos, alternadamente, por um terço (1/3) e dois terços (2/3). Dessa forma, está plenamente correta a assertiva da banca (FCC – TCE/GO/2009) ao estabelecer que "a representação de cada Estado e do Distrito Fede- ral no Senado Federal será renovada de quatro em quatro anos...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as deliberações de cada Casa Legislativa serão tomadas pela maioria absoluta de seus membros, salvo disposição...". De acordo com a teoria estudada em *1.3 Estatuto dos Congressistas e Imunidades Parlamentares*, nesse caso, os autos serão remetidos dentro de vinte e quatro horas à Casa respectiva, para que, pelo voto da maioria de seus membros, resolva sobre a prisão.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o número total de Senadores será estabelecido por lei complementar, proporcionalmente à população, procedendo-se...". De acordo com a teoria estudada em *1. Estrutura Bicameral e Atribuições das Casas Legislativas*, o número total de deputados por Estado e DF é proporcional à população, com piso mínimo de 8 e teto máximo de 70 deputados.
 >
 > **Gabarito: C**
 
 ---
 
+### Teste 147
+**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Banco De Dados)**
+Pedro, estudante de direito, foi questionado por seu professor em relação às fases do processo legislativo para a elaboração de uma lei orgânica municipal. De acordo com Pedro: (1) o projeto deve ser aprovado em dois turnos de votação; (2) pelo voto de dois terços dos membros da Câmara Municipal; e (3) com a sanção do chefe do Poder Executivo. Ao analisar as afirmações de Pedro em relação ao processo legislativo, o professor observou, corretamente, que:
+
+* **A)** todas estão certas;
+* **B)** apenas a afirmação 2 está certa;
+* **C)** apenas a afirmação 3 está certa;
+* **D)** apenas a afirmação 1 e 2 estão certas;
+* **E)** apenas a afirmação 1 e 3 estão certas.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "todas estão certas". De acordo com a teoria estudada em *1.2 Repartição de Competências no Congresso Nacional*, competências Exclusivas do Congresso Nacional sem Sanção (Art. 49): Deliberadas em sessão conjunta ou separada e formalizadas por Decreto Legislativo, sem qualquer interferência presidencial (ex.: sustar atos normativos do Executivo que exorbitem do poder regulamentar; autorizar o Presidente a declarar guerra ou celebrar a paz; julgar anualmente as contas prestadas pelo Presidente da República).
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "apenas a afirmação 2 está certa". De acordo com a teoria estudada em *1. Estrutura Bicameral e Atribuições das Casas Legislativas*, o Poder Legislativo da União é exercido pelo Congresso Nacional, que se compõe da Câmara dos Deputados e do Senado Federal (modelo bicameral federativo).
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "apenas a afirmação 3 está certa". De acordo com a teoria estudada em *1.1 Modelo Bicameral Federal e Unicameral Estadual/Municipal*, enquanto na esfera federal vigora o bicameralismo, nos demais entes da Federação o Poder Legislativo adota compulsoriamente a estrutura unicameral.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.2 Repartição de Competências no Congresso Nacional* deste guia, *Câmara dos Deputados (Art. 51, I):* Autorizar, por dois terços de seus membros, a instauração de processo contra o Presidente e o Vice-Presidente da República e os Ministros de Estado. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "apenas a afirmação 1 e 2 estão certas".
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "apenas a afirmação 1 e 3 estão certas". De acordo com a teoria estudada em *1. Estrutura Bicameral e Atribuições das Casas Legislativas*, a representação é renovada de quatro em quatro anos, alternadamente, por um terço (1/3) e dois terços (2/3).
+>
+> **Gabarito: D**
+
+---
+
 ### Teste 148
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Administracao – 2024)**
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Administração)**
 O Presidente da República apresentou projeto de lei complementar versando sobre matéria de sua iniciativa exclusiva, estranha à sistemática orçamentária. No âmbito da Câmara dos Deputados, foi aprovada emenda que estendia o alcance da proposição legislativa e acarretava aumento de despesa obrigatória, sendo indicada a respectiva fonte de custeio. Após o trâmite regular, o projeto foi aprovado nas duas Casas do Congresso Nacional, mas foi vetado pelo Presidente da República. O veto foi derrubado pelo Poder Legislativo e, ato contínuo, foi promulgada a Lei nº X pelo Presidente do Senado Federal. Com base nas normas constitucionais afetas ao processo legislativo, é correto afirmar que a narrativa
 
 * **A)** não apresenta nenhuma incorreção.
@@ -234,126 +238,129 @@ O Presidente da República apresentou projeto de lei complementar versando sobre
 > - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente apresenta incorreção em relação à emenda aprovada pela Câmara dos Deputados". De acordo com a teoria estudada em *1.2 Repartição de Competências no Congresso Nacional*, *Senado Federal (Art. 52, I e II):* Processar e julgar o Presidente e Vice-Presidente nos crimes de responsabilidade, bem como os Ministros do STF, os membros do CNJ e CNMP, o Procurador-Geral da República e o Advogado-Geral da União; sabatinar e aprovar a escolha de magistrados, Ministros do TCU e chefes de missão diplomática; suspender a execução, no todo ou em parte, de lei declarada inconstitucional por decisão definitiva do STF em controle difuso.
 > - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente apresenta incorreção em relação à promulgação realizada pelo Presidente do Senado Federal". De acordo com a teoria estudada em *1.1 Modelo Bicameral Federal e Unicameral Estadual/Municipal*, distrito Federal: Câmara Legislativa do Distrito Federal, composta por Deputados Distritais (art. 32, § 2º).
 > - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente apresenta incorreção em relação à promulgação, que deveria ser realizada em momento anterior à derrubada...". De acordo com a teoria estudada em *1.2 Repartição de Competências no Congresso Nacional*, competências com Sanção Presidencial (Art. 48): Matérias deliberadas pelo Congresso Nacional que geram leis e demandam envio ao Presidente da República para sanção ou veto (ex.: sistema tributário, planos orçamentários, criação e extinção de cargos públicos).
-> - **E)** **Correta.** Conforme fundamentado na seção *1. Estrutura Bicameral e Atribuições das Casas Legislativas* deste guia, o Poder Legislativo da União é exercido pelo Congresso Nacional, que se compõe da Câmara dos Deputados e do Senado Federal (modelo bicameral federativo). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "somente apresenta incorreção em relação à emenda aprovada pela Câmara dos Deputados, e à promulgação realizada...".
+> - **E)** **Correta.** Conforme fundamentado na seção *1. Estrutura Bicameral e Atribuições das Casas Legislativas* deste guia, o Poder Legislativo da União é exercido pelo Congresso Nacional, que se compõe da Câmara dos Deputados e do Senado Federal (modelo bicameral federativo). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "somente apresenta incorreção em relação à emenda aprovada pela Câmara dos Deputados, e à promulgação realizada...".
 >
 > **Gabarito: E**
 
 ---
 
 ### Teste 149
-**(FGV – TRT – Analista Judiciário - Tecnologia da Informação – 2024)**  
-O artigo 31 da Constituição Federal do Brasil estabelece que a fiscalização no âmbito municipal será conduzida pelo Poder Legislativo Municipal, por meio de controle externo, e pelos sistemas de controle interno do Poder Executivo Municipal, conforme determinado pela legislação.  
-Assinale a opção que indica o órgão que auxilia o controle externo da Câmara Municipal:
+**(FGV – TRT 1ª – 2024 – Analista Judiciário - Área Administrativa)**
+Com o objetivo de atender às necessidades urgentes do Poder Judiciário federal, o Presidente da República editou a Medida Provisória nº X, dispondo sobre a organização dos Tribunais Regionais Federais, o que foi muito comemorado por seus membros. Após o trâmite regular, a medida provisória teve sua votação iniciada na Câmara dos Deputados, sendo aprovada nessa Casa Legislativa e, posteriormente, no Senado Federal, sem alterações. Daí decorreu a promulgação da Lei nº Y, o que foi feito pelo Presidente da Mesa do Congresso Nacional. À luz da sistemática constitucional, é correto afirmar que essa narrativa:
 
-* **A)** Controladoria-Geral do Estado federado.
-* **B)** Tribunal de Contas do Estado competente.
-* **C)** Secretaria da Fazenda e Planejamento.
-* **D)** Secretaria Municipal de Auditoria Interna.
-* **E)** Conselho Comunitário de Controle Social.
+* **A)** não apresenta incorreção;
+* **B)** somente apresenta incorreção em relação à casa iniciadora;
+* **C)** somente apresenta incorreção em relação ao objeto da medida provisória;
+* **D)** somente apresenta incorreção em relação à promulgação no âmbito do Poder Legislativo;
+* **E)** somente apresenta incorreção em relação à votação em separado nas Casas Legislativas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreto**. As controladorias executivas atuam no controle interno de seus respectivos entes federativos.
-> - **B)** **Correto**. Conforme o art. 31, § 1º, da Constituição Federal: "O controle externo da Câmara Municipal será exercido com o auxílio dos Tribunais de Contas dos Estados ou do Município ou dos Conselhos ou Tribunais de Contas dos Municípios, onde houver". No caso de Goiás, o controle das contas municipais era historicamente exercido com o auxílio do TCM-GO e, no plano geral dos Estados que não possuem tribunal municipal, pelo respectivo Tribunal de Contas do Estado (TCE).
-> - **C)** **Incorreto**. A Fazenda é órgão executivo integrante da administração direta municipal.
-> - **D)** **Incorreto**. A secretaria de auditoria integra a estrutura de controle interno do Executivo.
-> - **E)** **Incorreto**. Conselhos comunitários realizam controle social, sem caráter de órgão técnico auxiliar constitucional.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não apresenta incorreção". De acordo com a teoria estudada em *1.2 Repartição de Competências no Congresso Nacional*, *Câmara dos Deputados (Art. 51, I):* Autorizar, por dois terços de seus membros, a instauração de processo contra o Presidente e o Vice-Presidente da República e os Ministros de Estado.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente apresenta incorreção em relação à casa iniciadora". De acordo com a teoria estudada em *1.2 Repartição de Competências no Congresso Nacional*, competências Privativas de Cada Casa (Arts. 51 e 52): Formalizadas por Resolução, sem envio ao Presidente.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.2 Repartição de Competências no Congresso Nacional* deste guia, *Senado Federal (Art. 52, I e II):* Processar e julgar o Presidente e Vice-Presidente nos crimes de responsabilidade, bem como os Ministros do STF, os membros do CNJ e CNMP, o Procurador-Geral da República e o Advogado-Geral da União; sabatinar e aprovar a escolha de magistrados, Ministros do TCU e chefes de missão diplomática; suspender a execução, no todo ou em parte, de lei declarada inconstitucional por decisão definitiva do STF em controle difuso. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 1ª/2024) ao estabelecer que "somente apresenta incorreção em relação ao objeto da medida provisória".
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente apresenta incorreção em relação à promulgação no âmbito do Poder Legislativo". De acordo com a teoria estudada em *1. Estrutura Bicameral e Atribuições das Casas Legislativas*, o Poder Legislativo da União é exercido pelo Congresso Nacional, que se compõe da Câmara dos Deputados e do Senado Federal (modelo bicameral federativo).
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente apresenta incorreção em relação à votação em separado nas Casas Legislativas". De acordo com a teoria estudada em *1. Estrutura Bicameral e Atribuições das Casas Legislativas*, câmara dos Deputados (Art. 45): Representa o povo brasileiro. Os deputados são eleitos pelo sistema eleitoral proporcional, para mandato de 4 anos (uma legislatura).
 >
-> **Gabarito: B**
+> **Gabarito: C**
+
+---
 
 ### Teste 150
-**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Banco de Dados – 2023)**
-Pedro, estudante de direito, foi questionado por seu professor em relação às fases do processo legislativo para a elaboração de uma lei orgânica municipal. De acordo com Pedro: (1) o projeto deve ser aprovado em dois turnos de votação; (2) pelo voto de dois terços dos membros da Câmara Municipal; e (3) com a sanção do chefe do Poder Executivo. Ao analisar as afirmações de Pedro em relação ao processo legislativo, o professor observou, corretamente, que:
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Administração)**
+O órgão de auditoria interna da Secretaria de Estado de Saúde do Pará identificou desfalques na gestão de medicamentos que resultaram em danos da ordem de R$80.000,00 ao erário. Imediatamente, a auditoria interna oficiou a autoridade administrativa competente, que instaurou sindicância para apurar os fatos e, após quarenta dias, confirmou que: a) O dano apurado fora de R$84.000,00. b) Os atos danosos não decorreram de conduta dolosa dos servidores envolvidos. No mesmo prazo, a autoridade administrativa obteve o ressarcimento integral do dano. Considerando as normas do RITCE-PA aplicáveis à situação hipotética, assinale a opção que apresenta a medida a ser adotada pela autoridade administrativa da Secretaria de Saúde.
 
-* **A)** todas estão certas;
-* **B)** apenas a afirmação 2 está certa;
-* **C)** apenas a afirmação 3 está certa;
-* **D)** apenas a afirmação 1 e 2 estão certas;
-* **E)** apenas a afirmação 1 e 3 estão certas.
+* **A)** Instaurar tomada de contas especial e encaminhar o processo ao TCE-PA no prazo de 120 dias.
+* **B)** Anular o processo de sindicância em razão de inobservância do prazo de 30 (trinta) dias para sua conclusão e determinar a instauração de tomada de contas especial.
+* **C)** Converter o processo de sindicância em tomada de contas especial e, independentemente dos valores envolvidos, encaminhar o resultado da apuração ao TCE-PA para julgamento.
+* **D)** Arquivar o processo, pois não há mais necessidade de instauração de tomada de contas e nem de seu encaminhamento ao TCE-PA.
+* **E)** Encaminhar os autos ao Ministério Público de Contas junto ao TCE-PA para adoção das medidas necessárias à ação de improbidade administrativa a ser processada pela Corte de Contas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "todas estão certas". De acordo com a teoria estudada em *1.2 Repartição de Competências no Congresso Nacional*, competências Exclusivas do Congresso Nacional sem Sanção (Art. 49): Deliberadas em sessão conjunta ou separada e formalizadas por Decreto Legislativo, sem qualquer interferência presidencial (ex.: sustar atos normativos do Executivo que exorbitem do poder regulamentar; autorizar o Presidente a declarar guerra ou celebrar a paz; julgar anualmente as contas prestadas pelo Presidente da República).
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "apenas a afirmação 2 está certa". De acordo com a teoria estudada em *1. Estrutura Bicameral e Atribuições das Casas Legislativas*, o Poder Legislativo da União é exercido pelo Congresso Nacional, que se compõe da Câmara dos Deputados e do Senado Federal (modelo bicameral federativo).
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "apenas a afirmação 3 está certa". De acordo com a teoria estudada em *1.1 Modelo Bicameral Federal e Unicameral Estadual/Municipal*, enquanto na esfera federal vigora o bicameralismo, nos demais entes da Federação o Poder Legislativo adota compulsoriamente a estrutura unicameral.
-> - **D)** **Correta.** Conforme fundamentado na seção *1.2 Repartição de Competências no Congresso Nacional* deste guia, *Câmara dos Deputados (Art. 51, I):* Autorizar, por dois terços de seus membros, a instauração de processo contra o Presidente e o Vice-Presidente da República e os Ministros de Estado. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "apenas a afirmação 1 e 2 estão certas".
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "apenas a afirmação 1 e 3 estão certas". De acordo com a teoria estudada em *1. Estrutura Bicameral e Atribuições das Casas Legislativas*, a representação é renovada de quatro em quatro anos, alternadamente, por um terço (1/3) e dois terços (2/3).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Instaurar tomada de contas especial e encaminhar o processo ao TCE-PA no prazo de 120 dias". De acordo com a teoria estudada em *1.2 Repartição de Competências no Congresso Nacional*, competências Exclusivas do Congresso Nacional sem Sanção (Art. 49): Deliberadas em sessão conjunta ou separada e formalizadas por Decreto Legislativo, sem qualquer interferência presidencial (ex.: sustar atos normativos do Executivo que exorbitem do poder regulamentar; autorizar o Presidente a declarar guerra ou celebrar a paz; julgar anualmente as contas prestadas pelo Presidente da República).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Anular o processo de sindicância em razão de inobservância do prazo de 30 (trinta) dias para sua conclusão e...". De acordo com a teoria estudada em *1.3 Estatuto dos Congressistas e Imunidades Parlamentares*, conforme tese firmada pelo STF na AP 937 e reafirmada pelo plenário, o foro especial aplica-se apenas aos crimes cometidos durante o exercício do mandato e relacionados com as funções parlamentares.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Converter o processo de sindicância em tomada de contas especial e, independentemente dos valores envolvidos...". De acordo com a teoria estudada em *1.3 Estatuto dos Congressistas e Imunidades Parlamentares*, foro por Prerrogativa de Função (Art. 53, § 1º): Os Deputados e Senadores serão submetidos a julgamento perante o STF desde a expedição do diploma.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.2 Repartição de Competências no Congresso Nacional* deste guia, *Câmara dos Deputados (Art. 51, I):* Autorizar, por dois terços de seus membros, a instauração de processo contra o Presidente e o Vice-Presidente da República e os Ministros de Estado. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Arquivar o processo, pois não há mais necessidade de instauração de tomada de contas e nem de seu encaminhamento...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Encaminhar os autos ao Ministério Público de Contas junto ao TCE-PA para adoção das medidas necessárias à ação de...". De acordo com a teoria estudada em *1.3 Estatuto dos Congressistas e Imunidades Parlamentares*, imunidade Formal (Processual) quanto à Prisão (Art. 53, § 2º): Desde a expedição do diploma, os membros do Congresso Nacional não poderão ser presos, salvo em flagrante de crime inafiançável.
 >
 > **Gabarito: D**
 
 ---
 
 ### Teste 151
-**(FCC – TRT – Analista Judiciário - Tecnologia da Informação – 2009)**  
-Compete ao Tribunal de Contas do Estado de Goiás:
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Gestão Governamental)**
+Benjamin Zimler registra que o controle interno se caracteriza como gênero do qual se constituem espécies o controle administrativo e o sistema de controle interno estatuído no art. 74 da Constituição Federal. (ZIMLER, Benjamin. Direito Administrativo e Controle. Ed. Fórum, 2015, p. 165) O dispositivo constitucional citado pelo autor atribui ao sistema de controle interno a função de
 
-* **A)** julgar as contas dos administradores e demais responsáveis por bens públicos da administração direta e indireta.
-* **B)** apreciar as contas dos gestores e ordenadores de despesas exclusivamente dos órgãos da administração direta.
-* **C)** processar e julgar o Governador e o Vice-Governador por crimes de responsabilidade e infrações político-administrativas.
-* **D)** julgar, anualmente, as contas prestadas pelo Governador do Estado com força executiva condenatória.
-* **E)** proceder à tomada de contas do Governador quando não prestadas dentro de sessenta dias da abertura da sessão.
+* **A)** fiscalizar as contas nacionais das empresas supranacionais de cujo capital social a União participe, de forma direta ou indireta, nos termos do tratado constitutivo.
+* **B)** fiscalizar a aplicação de quaisquer recursos repassados pela União mediante convênio, acordo, ajuste ou outros instrumentos congêneres, a Estado, ao Distrito Federal ou a Município.
+* **C)** julgar as contas dos administradores e demais responsáveis por dinheiros, bens e valores públicos da administração direta e indireta.
+* **D)** exercer o controle das operações de crédito, avais e garantias, bem como dos direitos e haveres da União.
+* **E)** comprovar somente a legalidade da gestão orçamentária, financeira e patrimonial nos órgãos e entidades da administração federal.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correto**. Nos termos do art. 71, II, da CF/88 (reproduzido na Constituição Estadual de Goiás): compete ao Tribunal de Contas "julgar as contas dos administradores e demais responsáveis por dinheiros, bens e valores públicos da administração direta e indireta, incluídas as fundações e sociedades instituídas e mantidas pelo Poder Público estadual, e as contas daqueles que derem causa a perda, extravio ou outra irregularidade de que resulte prejuízo ao erário público".
-> - **B)** **Incorreto**. A competência abrange indistintamente os responsáveis pela administração direta e indireta, e não apenas a direta. Ademais, o ato sobre tais gestores é de *julgar*, e não meramente apreciar.
-> - **C)** **Incorreto**. O julgamento do Governador por crime de responsabilidade compete a Tribunal Especial (ou Assembleia Legislativa), jamais ao Tribunal de Contas.
-> - **D)** **Incorreto**. O Tribunal de Contas não *julga* as contas do Chefe do Executivo; compete-lhe emitir *parecer prévio* anual (art. 71, I, CF/88), cabendo o julgamento político exclusivamente ao Poder Legislativo.
-> - **E)** **Incorreto**. Proceder à tomada de contas do Governador na omissão deste é competência privativa da Assembleia Legislativa (art. 51, II c/c art. 84, XXIV, CF/88).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "fiscalizar as contas nacionais das empresas supranacionais de cujo capital social a União participe, de forma...". De acordo com a teoria estudada em *1.3 Estatuto dos Congressistas e Imunidades Parlamentares*, o art. 53 da Constituição consagra o plexo de garantias institucionais dos membros do Congresso Nacional.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "fiscalizar a aplicação de quaisquer recursos repassados pela União mediante convênio, acordo, ajuste ou outros...". De acordo com a teoria estudada em *1. Estrutura Bicameral e Atribuições das Casas Legislativas*, senado Federal (Art. 46): Representa os Estados e o Distrito Federal. Cada unidade federada elege 3 senadores, pelo sistema majoritário, com mandato de 8 anos (duas legislaturas).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "julgar as contas dos administradores e demais responsáveis por dinheiros, bens e valores públicos da administração...". De acordo com a teoria estudada em *1.2 Repartição de Competências no Congresso Nacional*, competências Exclusivas do Congresso Nacional sem Sanção (Art. 49): Deliberadas em sessão conjunta ou separada e formalizadas por Decreto Legislativo, sem qualquer interferência presidencial (ex.: sustar atos normativos do Executivo que exorbitem do poder regulamentar; autorizar o Presidente a declarar guerra ou celebrar a paz; julgar anualmente as contas prestadas pelo Presidente da República).
+> - **D)** **Correta.** Conforme fundamentado na seção *1.2 Repartição de Competências no Congresso Nacional* deste guia, *Senado Federal (Art. 52, I e II):* Processar e julgar o Presidente e Vice-Presidente nos crimes de responsabilidade, bem como os Ministros do STF, os membros do CNJ e CNMP, o Procurador-Geral da República e o Advogado-Geral da União; sabatinar e aprovar a escolha de magistrados, Ministros do TCU e chefes de missão diplomática; suspender a execução, no todo ou em parte, de lei declarada inconstitucional por decisão definitiva do STF em controle difuso. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "exercer o controle das operações de crédito, avais e garantias, bem como dos direitos e haveres da União".
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "comprovar somente a legalidade da gestão orçamentária, financeira e patrimonial nos órgãos e entidades da...". De acordo com a teoria estudada em *1. Estrutura Bicameral e Atribuições das Casas Legislativas*, o Poder Legislativo da União é exercido pelo Congresso Nacional, que se compõe da Câmara dos Deputados e do Senado Federal (modelo bicameral federativo).
 >
-> **Gabarito: A**
+> **Gabarito: D**
+
+---
 
 ### Teste 152
-**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Banco de Dados – 2023)**
-A Assembleia Legislativa do Estado Alfa recebeu uma proposição legislativa que tem por objeto a alteração das atribuições de certo órgão colegiado da Administração Superior do Ministério Público do Estado. Considerando os balizamentos estabelecidos pela Constituição da República a respeito das normas que estabelecem a organização, as atribuições e o estatuto de cada Ministério Público, é correto afirmar que a proposição legislativa precisa ter a natureza de:
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Administração)**
+Um dos grandes debates doutrinários se relaciona às objeções dirigidas contra a ideia de jurisdição de contas: A oposição que se faz à jurisdição de contas, ou seja, aquela realizada no âmbito da atividade processual do Tribunal de Contas, diz respeito à jurisdição uma. Outros elementos compõem o espectro de oposições, porém, encontram-se conectados a esta principal objeção. (HOEMKE, Hamilton Hobus. Tribunal de Contas-Direito Processual de Contas: jurisdição, provas e partes. Conceito Editorial, 2015, p. 56) Os argumentos a favor do reconhecimento da função jurisdicional na atividade processual dos Tribunais de Contas se fundam em sua função constitucional de
 
-* **A)** projeto de lei ordinária, de iniciativa privativa do governador do Estado;
-* **B)** projeto de lei ordinária, de iniciativa privativa do Colégio de Procuradores de Justiça;
-* **C)** projeto de lei complementar, de iniciativa privativa do procurador-geral de Justiça;
-* **D)** proposta de emenda constitucional, podendo ter sido apresentada por qualquer legitimado para a reforma;
-* **E)** projeto de lei complementar, podendo ter sido apresentado pelo procurador-geral de Justiça ou pelo governador do Estado.
+* **A)** exercer o controle das operações de crédito, avais e garantias, bem como dos direitos e haveres da União.
+* **B)** comprovar a legalidade e avaliar os resultados, quanto à eficácia e eficiência, da gestão orçamentária, financeira e patrimonial nos órgãos e entidades da administração federal, bem como da aplicação de recursos públicos por entidades de direito privado.
+* **C)** avaliar o cumprimento das metas previstas no plano plurianual, a execução dos programas de governo e dos orçamentos da União.
+* **D)** julgar as contas dos administradores e demais responsáveis por dinheiros, bens e valores públicos da administração direta e indireta, incluídas as fundações e sociedades instituídas e mantidas pelo Poder Público federal, e as contas daqueles que derem causa a perda, extravio ou outra irregularidade de que resulte prejuízo ao erário público.
+* **E)** executar, diretamente, as multas e débitos imputados pela Corte de Contas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "projeto de lei ordinária, de iniciativa privativa do governador do Estado". De acordo com a teoria estudada em *1.3 Estatuto dos Congressistas e Imunidades Parlamentares*, o art. 53 da Constituição consagra o plexo de garantias institucionais dos membros do Congresso Nacional.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "projeto de lei ordinária, de iniciativa privativa do Colégio de Procuradores de Justiça". De acordo com a teoria estudada em *1.1 Modelo Bicameral Federal e Unicameral Estadual/Municipal*, distrito Federal: Câmara Legislativa do Distrito Federal, composta por Deputados Distritais (art. 32, § 2º).
-> - **C)** **Correta.** Conforme fundamentado na seção *1.2 Repartição de Competências no Congresso Nacional* deste guia, *Senado Federal (Art. 52, I e II):* Processar e julgar o Presidente e Vice-Presidente nos crimes de responsabilidade, bem como os Ministros do STF, os membros do CNJ e CNMP, o Procurador-Geral da República e o Advogado-Geral da União; sabatinar e aprovar a escolha de magistrados, Ministros do TCU e chefes de missão diplomática; suspender a execução, no todo ou em parte, de lei declarada inconstitucional por decisão definitiva do STF em controle difuso. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "projeto de lei complementar, de iniciativa privativa do procurador-geral de Justiça".
-> - **D)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "proposta de emenda constitucional, podendo ter sido apresentada por qualquer legitimado para a reforma". De acordo com a teoria estudada em *1.2 Repartição de Competências no Congresso Nacional*, competências Exclusivas do Congresso Nacional sem Sanção (Art. 49): Deliberadas em sessão conjunta ou separada e formalizadas por Decreto Legislativo, sem qualquer interferência presidencial (ex.: sustar atos normativos do Executivo que exorbitem do poder regulamentar; autorizar o Presidente a declarar guerra ou celebrar a paz; julgar anualmente as contas prestadas pelo Presidente da República).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "projeto de lei complementar, podendo ter sido apresentado pelo procurador-geral de Justiça ou pelo governador do...". De acordo com a teoria estudada em *1.2 Repartição de Competências no Congresso Nacional*, competências com Sanção Presidencial (Art. 48): Matérias deliberadas pelo Congresso Nacional que geram leis e demandam envio ao Presidente da República para sanção ou veto (ex.: sistema tributário, planos orçamentários, criação e extinção de cargos públicos).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "exercer o controle das operações de crédito, avais e garantias, bem como dos direitos e haveres da União". De acordo com a teoria estudada em *1.2 Repartição de Competências no Congresso Nacional*, *Senado Federal (Art. 52, I e II):* Processar e julgar o Presidente e Vice-Presidente nos crimes de responsabilidade, bem como os Ministros do STF, os membros do CNJ e CNMP, o Procurador-Geral da República e o Advogado-Geral da União; sabatinar e aprovar a escolha de magistrados, Ministros do TCU e chefes de missão diplomática; suspender a execução, no todo ou em parte, de lei declarada inconstitucional por decisão definitiva do STF em controle difuso.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "comprovar a legalidade e avaliar os resultados, quanto à eficácia e eficiência, da gestão orçamentária, financeira...". De acordo com a teoria estudada em *1.1 Modelo Bicameral Federal e Unicameral Estadual/Municipal*, enquanto na esfera federal vigora o bicameralismo, nos demais entes da Federação o Poder Legislativo adota compulsoriamente a estrutura unicameral.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "avaliar o cumprimento das metas previstas no plano plurianual, a execução dos programas de governo e dos...". De acordo com a teoria estudada em *1. Estrutura Bicameral e Atribuições das Casas Legislativas*, o Poder Legislativo da União é exercido pelo Congresso Nacional, que se compõe da Câmara dos Deputados e do Senado Federal (modelo bicameral federativo).
+> - **D)** **Correta.** Conforme fundamentado na seção *1.2 Repartição de Competências no Congresso Nacional* deste guia, competências Exclusivas do Congresso Nacional sem Sanção (Art. 49): Deliberadas em sessão conjunta ou separada e formalizadas por Decreto Legislativo, sem qualquer interferência presidencial (ex.: sustar atos normativos do Executivo que exorbitem do poder regulamentar; autorizar o Presidente a declarar guerra ou celebrar a paz; julgar anualmente as contas prestadas pelo Presidente da República). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "julgar as contas dos administradores e demais responsáveis por dinheiros, bens e valores públicos da administração...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "executar, diretamente, as multas e débitos imputados pela Corte de Contas". De acordo com a teoria estudada em *1.2 Repartição de Competências no Congresso Nacional*, competências com Sanção Presidencial (Art. 48): Matérias deliberadas pelo Congresso Nacional que geram leis e demandam envio ao Presidente da República para sanção ou veto (ex.: sistema tributário, planos orçamentários, criação e extinção de cargos públicos).
 >
-> **Gabarito: C**
+> **Gabarito: D**
 
 ---
 
 ### Teste 153
-**(FGV – TCE-GO – Analista de Controle Externo Juridica – 2024)**
-O Chefe do Poder Executivo do Estado Alfa encaminhou o projeto de lei orçamentária anual à Assembleia Legislativa. Poucos dias depois, foi comunicado pelo Procurador-Geral de Justiça de que a proposta subscrita por este agente, referente à estrutura por ele chefiada, carecia de pequena alteração. À luz da sistemática da Constituição da República, aplicável por simetria ao Estado Alfa, é correto afirmar, em relação à alteração pretendida, que ela
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Gestão Governamental)**
+O Estado do Pará editou a Lei Complementar X, alterada por outra Lei Complementar, permitindo a dispensa de estudo de impacto ambiental (EIA) e de relatório de impacto ambiental (RIMA) para todas as obras hidrelétricas com potencial de 10 a 30 megawatt (MW) e com determinada extensão da área inundada. Concernente aos temas de repartição de competência em matéria ambiental e licenciamento ambiental, assinale a afirmativa correta.
 
-* **A)** não pode ser promovida, considerando a ocorrência da preclusão consumativa no processo legislativo.
-* **B)** somente pode ser promovida pelo Governador do Estado, enquanto não iniciada a votação em Plenário.
-* **C)** somente pode ser promovida pelo Governador do Estado, por meio de proposição suplementar, enquanto não encerrada a apreciação do projeto pela Comissão competente.
-* **D)** somente pode ser promovida pelo Procurador-Geral de Justiça, considerando a autonomia financeira do Ministério Público, enquanto não iniciada a votação em Plenário.
-* **E)** somente pode ser promovida pelo Governador do Estado, por meio de mensagem, enquanto não iniciada a votação, na Comissão competente, da parte cuja alteração é proposta.
+* **A)** A atuação normativa estadual, ainda que flexibilizadora, considerou o patamar mínimo estabelecido para a configuração de atividade potencialmente poluidora, assegurando o direito fundamental ao meio ambiente ecologicamente equilibrado.
+* **B)** É permitido aos entes federados estabelecer procedimentos simplificados de licenciamento para determinados empreendimentos e atividades, desde que de médio ou de menor potencial de impacto ambiental.
+* **C)** No caso concreto, ao prever o aumento do mínimo de fonte de energia primária, bem como ao inserir requisito para o licenciamento, consistente na extensão da área inundada, o poder legislativo estadual, com fundamento em suas peculiaridades regionais e na preponderância de seu interesse, não exorbitou dos limites expressamente estabelecidos pela legislação federal para o tratamento da matéria.
+* **D)** No âmbito das competências legislativas e executivas em matéria ambiental, o sistema do direito constitucional positivo brasileiro não optou pelo federalismo cooperativo.
+* **E)** Ao criar dispensa do licenciamento ambiental para atividade potencialmente causadora de significativa degradação do meio ambiente, a norma estadual invadiu a competência legislativa geral da União (Art. 24, VI, §§ 1º e 2º, da CF/88) e violou o direito ao meio ambiente ecologicamente equilibrado (Art. 225, § 1º, IV, da CF/88).
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não pode ser promovida, considerando a ocorrência da preclusão consumativa no processo legislativo". De acordo com a teoria estudada em *1.1 Modelo Bicameral Federal e Unicameral Estadual/Municipal*, enquanto na esfera federal vigora o bicameralismo, nos demais entes da Federação o Poder Legislativo adota compulsoriamente a estrutura unicameral.
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente pode ser promovida pelo Governador do Estado, enquanto não iniciada a votação em Plenário". De acordo com a teoria estudada em *1.3 Estatuto dos Congressistas e Imunidades Parlamentares*, imunidade Formal (Processual) quanto à Prisão (Art. 53, § 2º): Desde a expedição do diploma, os membros do Congresso Nacional não poderão ser presos, salvo em flagrante de crime inafiançável.
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente pode ser promovida pelo Governador do Estado, por meio de proposição suplementar, enquanto não encerrada a...". De acordo com a teoria estudada em *1.3 Estatuto dos Congressistas e Imunidades Parlamentares*, conforme tese firmada pelo STF na AP 937 e reafirmada pelo plenário, o foro especial aplica-se apenas aos crimes cometidos durante o exercício do mandato e relacionados com as funções parlamentares.
-> - **D)** **Correta.** Conforme fundamentado na seção *1.2 Repartição de Competências no Congresso Nacional* deste guia, *Senado Federal (Art. 52, I e II):* Processar e julgar o Presidente e Vice-Presidente nos crimes de responsabilidade, bem como os Ministros do STF, os membros do CNJ e CNMP, o Procurador-Geral da República e o Advogado-Geral da União; sabatinar e aprovar a escolha de magistrados, Ministros do TCU e chefes de missão diplomática; suspender a execução, no todo ou em parte, de lei declarada inconstitucional por decisão definitiva do STF em controle difuso. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-GO/2024) ao estabelecer que "somente pode ser promovida pelo Procurador-Geral de Justiça, considerando a autonomia financeira do Ministério...".
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente pode ser promovida pelo Governador do Estado, por meio de mensagem, enquanto não iniciada a votação, na...". De acordo com a teoria estudada em *1.2 Repartição de Competências no Congresso Nacional*, competências Exclusivas do Congresso Nacional sem Sanção (Art. 49): Deliberadas em sessão conjunta ou separada e formalizadas por Decreto Legislativo, sem qualquer interferência presidencial (ex.: sustar atos normativos do Executivo que exorbitem do poder regulamentar; autorizar o Presidente a declarar guerra ou celebrar a paz; julgar anualmente as contas prestadas pelo Presidente da República).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A atuação normativa estadual, ainda que flexibilizadora, considerou o patamar mínimo estabelecido para a...". De acordo com a teoria estudada em *1.1 Modelo Bicameral Federal e Unicameral Estadual/Municipal*, distrito Federal: Câmara Legislativa do Distrito Federal, composta por Deputados Distritais (art. 32, § 2º).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "É permitido aos entes federados estabelecer procedimentos simplificados de licenciamento para determinados...". De acordo com a teoria estudada em *1.1 Modelo Bicameral Federal e Unicameral Estadual/Municipal*, enquanto na esfera federal vigora o bicameralismo, nos demais entes da Federação o Poder Legislativo adota compulsoriamente a estrutura unicameral.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "No caso concreto, ao prever o aumento do mínimo de fonte de energia primária, bem como ao inserir requisito para o...". De acordo com a teoria estudada em *1. Estrutura Bicameral e Atribuições das Casas Legislativas*, o Poder Legislativo da União é exercido pelo Congresso Nacional, que se compõe da Câmara dos Deputados e do Senado Federal (modelo bicameral federativo).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "No âmbito das competências legislativas e executivas em matéria ambiental, o sistema do direito constitucional...". De acordo com a teoria estudada em *1. Estrutura Bicameral e Atribuições das Casas Legislativas*, câmara dos Deputados (Art. 45): Representa o povo brasileiro. Os deputados são eleitos pelo sistema eleitoral proporcional, para mandato de 4 anos (uma legislatura).
+> - **E)** **Correta.** Conforme fundamentado na seção *1.2 Repartição de Competências no Congresso Nacional* deste guia, *Senado Federal (Art. 52, I e II):* Processar e julgar o Presidente e Vice-Presidente nos crimes de responsabilidade, bem como os Ministros do STF, os membros do CNJ e CNMP, o Procurador-Geral da República e o Advogado-Geral da União; sabatinar e aprovar a escolha de magistrados, Ministros do TCU e chefes de missão diplomática; suspender a execução, no todo ou em parte, de lei declarada inconstitucional por decisão definitiva do STF em controle difuso. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Ao criar dispensa do licenciamento ambiental para atividade potencialmente causadora de significativa degradação...".
 >
-> **Gabarito: D**
+> **Gabarito: E**
 
 ---
 

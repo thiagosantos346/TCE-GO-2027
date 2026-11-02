@@ -129,31 +129,31 @@ flowchart TD
 ---
 
 ### Teste 320
-**(CEBRASPE – TJ-RJ – Analista Judiciario Grupo Tecnologia da Informacao Analista de Negocios – 2021)**
-Com relação às ferramentas de gestão estratégica e qualidade, julgue os itens a seguir. I O benchmarking é um processo contínuo para avaliar serviços, produtos e práticas da organização, comparando-os com organizações reconhecidas como líderes em sua área de atuação. II O diagrama de Pareto se baseia na tese de que 80% dos eventos causadores constituem apenas 20% do volume dos problemas. III O ciclo PDCA, quando aplicado à melhoria de processos, em regra, significa estabelecer uma nova diretriz de controle, da qual decorre um novo nível de controle. IV No diagrama de Ishikawa, parte-se da identificação das causas para os efeitos dos problemas, colocando-as em grau de importância da esquerda para a direita. Estão certos apenas os itens
+**(FGV – TRT/DA – 2025 – Tecnico Judiciario Area Administrativa Sem Especialidade)**
+A gestão de resultados na produção de serviços públicos visa aumentar a eficiência, a eficácia e a qualidade das políticas e ações governamentais, garantindo que os recursos públicos sejam utilizados de forma estratégica para gerar impacto positivo e valor para a sociedade. Assinale a opção que apresenta, corretamente, o fluxo lógico de um modelo de gestão de resultados.
 
-* **A)** I e II.
-* **B)** I, II e III.
-* **C)** I e III.
-* **D)** II e IV.
-* **E)** III e IV.
+* **A)** O modelo inicia-se com o monitoramento do desempenho, seguido da definição dos objetivos estratégicos, indicadores de desempenho e metas, culminando com a formulação da missão da organização.
+* **B)** O diagnóstico do ambiente ocorre antes da definição da missão, permitindo que os objetivos estratégicos sejam adaptados conforme o monitoramento de desempenho.
+* **C)** A missão da organização é o ponto de partida do modelo, orientando o diagnóstico do ambiente, a definição de objetivos estratégicos, a criação de indicadores e metas, o monitoramento do desempenho e os planos de ação.
+* **D)** Os planos de ação são definidos antes do diagnóstico do ambiente, sendo revisados posteriormente com base nos indicadores de desempenho e metas estabelecidos.
+* **E)** O modelo segue uma lógica circular, sem início ou fim definidos, focando exclusivamente no monitoramento do desempenho como eixo central do processo.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e II". De acordo com a teoria estudada em *1.3 O Ciclo PDCA e as Sete Ferramentas da Qualidade*, *Diagrama de Ishikawa:* Identificação visual e estruturada das causas raízes de um defeito.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *1.3 O Ciclo PDCA e as Sete Ferramentas da Qualidade*, o Ciclo PDCA (Deming/Shewhart) é um método iterativo de gestão de quatro passos utilizado para o controle e melhoria contínua de processos.
-> - **C)** **Correta.** Conforme fundamentado na seção *1.3 O Ciclo PDCA e as Sete Ferramentas da Qualidade* deste guia, *Diagrama de Pareto:* Gráfico de barras ordenado decrescente associado a uma curva cumulativa baseado no Princípio 80/20 ("80% dos problemas decorrem de 20% das causas vitais"). Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TJ-RJ/2021) ao estabelecer que "I e III".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II e IV". De acordo com a teoria estudada em *1.1 Evolução das Quatro Eras da Qualidade*, era da Gestão da Qualidade Total (*Total Quality Management* - TQM): Envolvimento de todos os colaboradores e departamentos da organização, com foco prioritário na satisfação das necessidades do usuário-cidadão e na busca perene pela melhoria contínua (*Kaizen*).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "III e IV". De acordo com a teoria estudada em *1.2 Os Mestres da Qualidade e suas Contribuições (Deming, Juran, Ishikawa e Crosby)*, criou o célebre Diagrama de Causa e Efeito (Diagrama Espinha de Peixe / Diagrama de Ishikawa), que organiza as causas de um problema nos tradicionais 6Ms: Método, Matéria-prima, Mão de obra, Máquinas/Tecnologia, Medição e Meio ambiente.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O modelo inicia-se com o monitoramento do desempenho, seguido da definição dos objetivos estratégicos, indicadores...". De acordo com a teoria estudada em *1.4 Modelos de Excelência: MEG / FNQ e o GesPública*, modelo de Excelência da Gestão (MEG / Fundação Nacional da Qualidade): Baseado na visão sistêmica e em fundamentos de gestão contemporâneos (liderança transformadora, foco no cidadão, orientação para resultados, governança e responsabilidade socioambiental).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O diagnóstico do ambiente ocorre antes da definição da missão, permitindo que os objetivos estratégicos sejam...". De acordo com a teoria estudada em *3.3 Redesenho de Processos: Diagnóstico AS-IS vs. Modelagem TO-BE*, tO-BE ("Como Deve Ser"): Proposta e modelagem do fluxo futuro ideal e otimizado, incorporando ferramentas digitais, eliminando etapas que não agregam valor e encurtando o tempo de ciclo.
+> - **C)** **Correta.** Conforme fundamentado na seção *3. Gestão de Processos de Negócio (BPM)* deste guia, o *Business Process Management* (BPM) é uma abordagem disciplinada para identificar, desenhar, executar, documentar, medir, monitorar e controlar processos de trabalho para alcançar resultados alinhados aos objetivos da organização. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/DA/2025) ao estabelecer que "A missão da organização é o ponto de partida do modelo, orientando o diagnóstico do ambiente, a definição de...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os planos de ação são definidos antes do diagnóstico do ambiente, sendo revisados posteriormente com base nos...". De acordo com a teoria estudada em *2.3 O CPF como Chave Unificada de Identificação*, conforme as alterações trazidas pelo Decreto nº 9.723/2019 e Lei nº 14.534/2023, o número de inscrição no Cadastro de Pessoas Físicas (CPF) é o dado suficiente e universal para a identificação do cidadão nos bancos de dados de serviços públicos federais, estaduais e municipais, sendo dispensada a exigência de múltiplos números de cadastro (como PIS, Pasep, carteira de trabalho ou RG estadual).
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "O modelo segue uma lógica circular, sem início ou fim definidos, focando exclusivamente no monitoramento do...". De acordo com a teoria estudada em *4.3 Instrumentos Primordiais: TAP e EAP (WBS)*, a EAP NÃO é um cronograma de atividades! A EAP é orientada exclusivamente a entregas (produtos e subprodutos). Ela não contém datas de início/fim nem lista de tarefas diárias.
 >
 > **Gabarito: C**
 
 ---
 
 ### Teste 321
-**(FGV – TRT-24 – Tecnico Judiciario Area Administrativa Sem Especialidade – 2025)**
+**(FGV – TRT/DA – 2025 – Tecnico Judiciario Area Administrativa Sem Especialidade)**
 A Gestão por Processos é uma abordagem que visa otimizar a eficiência organizacional ao focar na análise, na melhoria e na integração contínua dos fluxos de trabalho. Assinale a opção que apresenta, corretamente, a ferramenta de Gestão por Processos que permite estruturar hierarquicamente as causas de determinado problema ou oportunidade de melhoria.
 
 * **A)** Diagrama de Ishikawa.
@@ -166,13 +166,13 @@ A Gestão por Processos é uma abordagem que visa otimizar a eficiência organiz
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Diagrama de Ishikawa". De acordo com a teoria estudada em *1.2 Os Mestres da Qualidade e suas Contribuições (Deming, Juran, Ishikawa e Crosby)*, criou o célebre Diagrama de Causa e Efeito (Diagrama Espinha de Peixe / Diagrama de Ishikawa), que organiza as causas de um problema nos tradicionais 6Ms: Método, Matéria-prima, Mão de obra, Máquinas/Tecnologia, Medição e Meio ambiente.
+> - **A)** **Correta.** Conforme fundamentado na seção *1.2 Os Mestres da Qualidade e suas Contribuições (Deming, Juran, Ishikawa e Crosby)* deste guia, criou o célebre Diagrama de Causa e Efeito (Diagrama Espinha de Peixe / Diagrama de Ishikawa), que organiza as causas de um problema nos tradicionais 6Ms: Método, Matéria-prima, Mão de obra, Máquinas/Tecnologia, Medição e Meio ambiente. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/DA/2025) ao estabelecer que "Diagrama de Ishikawa".
 > - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Gráfico de Tendência". De acordo com a teoria estudada em *1.3 O Ciclo PDCA e as Sete Ferramentas da Qualidade*, *Diagrama de Pareto:* Gráfico de barras ordenado decrescente associado a uma curva cumulativa baseado no Princípio 80/20 ("80% dos problemas decorrem de 20% das causas vitais").
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Histograma". De acordo com a teoria estudada em *1.3 O Ciclo PDCA e as Sete Ferramentas da Qualidade*, *Histograma:* Gráfico de barras que ilustra a distribuição de frequência de dados quantitativos.
-> - **D)** **Correta.** Conforme fundamentado na seção *1.3 O Ciclo PDCA e as Sete Ferramentas da Qualidade* deste guia, *Gráfico de Dispersão:* Avaliação gráfica da correlação estatística entre duas variáveis. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "Gráfico de Dispersão".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Diagrama de Pareto". De acordo com a teoria estudada em *4.3 Instrumentos Primordiais: TAP e EAP (WBS)*, o documento que contém datas e dependências temporais é o Cronograma do Projeto (Diagrama de Rede ou Gráfico de Gantt).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Histograma". De acordo com a teoria estudada em *1.3 O Ciclo PDCA e as Sete Ferramentas da Qualidade*, *Diagrama de Ishikawa:* Identificação visual e estruturada das causas raízes de um defeito.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Gráfico de Dispersão". De acordo com a teoria estudada em *1.3 O Ciclo PDCA e as Sete Ferramentas da Qualidade*, *Gráfico de Dispersão:* Avaliação gráfica da correlação estatística entre duas variáveis.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Diagrama de Pareto". De acordo com a teoria estudada em *1.2 Os Mestres da Qualidade e suas Contribuições (Deming, Juran, Ishikawa e Crosby)*, *Melhoria da Qualidade:* Conduzir projetos contínuos de aprimoramento estrutural de processos.
 >
-> **Gabarito: D**
+> **Gabarito: A**
 
 ---
 
@@ -213,48 +213,48 @@ A Carta de Serviços ao Usuário é um instrumento de governança e transparênc
 ---
 
 ### Teste 322
-**(FGV – TJ-RR – Analista Judiciario Infraestrutura de Tecnologia da Informacao – 2024)**
-O Modelo de Requisitos para Sistemas Informatizados de Gestão de Processos e Documentos do Poder Judiciário (MoReq-Jus), em sua 2ª edição, foi elaborado com o objetivo de especificar requisitos funcionais e não funcionais aos quais devem aderir os sistemas informatizados de gestão de processos e documentos utilizados em atividades judiciais e administrativas dos órgãos integrantes do Poder Judiciário. Selecione a opção que contém um exemplo de requisito não funcional especificado pelo MoReq-Jus.
+**(FGV – TJ/SC – 2026 – Analista Administrativo)**
+Na Administração Pública federal direta, autárquica e fundacional, a terceirização é disciplinada pelo Decreto nº 9.507/2018, que enumera, em seu art. 3º, hipóteses em que se veda a execução indireta de serviços, em razão da natureza nuclear ou indelegável das atividades envolvidas. Dentre as hipóteses em que o Decreto nº 9.507/2018 veda a execução indireta de serviços na Administração Pública federal direta, autárquica e fundacional, encontra-se a contratação de serviços de
 
-* **A)** Classificar todos os documentos de acordo com o Plano de Classificação.
-* **B)** Interoperar com outros sistemas, permitindo a importação e exportação de documentos.
-* **C)** Permitir avaliação periódica dos direitos de acesso dos usuários do sistema.
-* **D)** Registrar a tramitação de todos os documentos no processo.
-* **E)** Impedir a eliminação de documentos definidos como de guarda permanente pela política de gestão documental.
+* **A)** conservação, limpeza e copeiragem.
+* **B)** recepção e telecomunicações.
+* **C)** manutenção predial e de equipamentos.
+* **D)** regulação e outorga de serviços públicos.
+* **E)** transporte de cargas e de passageiros.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Classificar todos os documentos de acordo com o Plano de Classificação". De acordo com a teoria estudada em *2.4 A Carta de Serviços ao Usuário*, requisitos, documentos e informações necessários para cada serviço.
-> - **B)** **Correta.** Conforme fundamentado na seção *2.2 Proibição de Exigência Documental Redundante e Interoperabilidade* deste guia, os órgãos devem integrar seus sistemas e proceder à busca de informações e documentos diretamente nas bases públicas compartilhadas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-RR/2024) ao estabelecer que "Interoperar com outros sistemas, permitindo a importação e exportação de documentos".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Permitir avaliação periódica dos direitos de acesso dos usuários do sistema". De acordo com a teoria estudada em *2.2 Proibição de Exigência Documental Redundante e Interoperabilidade*, é expressamente vedado ao órgão público exigir do requerente a apresentação de certidões, certidões negativas de débito ou documentos comprobatórios emitidos pelo próprio órgão ou que constem em bancos de dados oficiais da administração pública.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Registrar a tramitação de todos os documentos no processo". De acordo com a teoria estudada em *4.4 A Restrição Tripla Clássica (Escopo, Custo e Tempo)*, a alteração em qualquer um desses vértices impacta compulsoriamente os outros dois (ex.: antecipar o prazo de conclusão exige aumento de custos com horas extras ou redução do escopo entregue).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Impedir a eliminação de documentos definidos como de guarda permanente pela política de gestão documental". De acordo com a teoria estudada em *1.4 Modelos de Excelência: MEG / FNQ e o GesPública*, modelo de Excelência da Gestão (MEG / Fundação Nacional da Qualidade): Baseado na visão sistêmica e em fundamentos de gestão contemporâneos (liderança transformadora, foco no cidadão, orientação para resultados, governança e responsabilidade socioambiental).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "conservação, limpeza e copeiragem". De acordo com a teoria estudada em *3.2 Tipos de Processos: Finalísticos, de Suporte e de Gerenciamento*, *Exemplos:* Gestão da folha de pagamento, contratação de serviços de vigilância e limpeza, suporte de TI e manutenção de viaturas.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "recepção e telecomunicações". De acordo com a teoria estudada em *1.4 Modelos de Excelência: MEG / FNQ e o GesPública*, programa Nacional de Gestão Pública e Desburocratização (GesPública): Instituído pelo Decreto Federal nº 5.378/2005 para disseminar no setor público brasileiro a autoavaliação continuada e a busca por excelência nos serviços públicos prestados ao cidadão.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "manutenção predial e de equipamentos". De acordo com a teoria estudada em *2.4 A Carta de Serviços ao Usuário*, os serviços públicos oferecidos pelo órgão e as formas de acesso.
+> - **D)** **Correta.** Conforme fundamentado na seção *2.3 O CPF como Chave Unificada de Identificação* deste guia, conforme as alterações trazidas pelo Decreto nº 9.723/2019 e Lei nº 14.534/2023, o número de inscrição no Cadastro de Pessoas Físicas (CPF) é o dado suficiente e universal para a identificação do cidadão nos bancos de dados de serviços públicos federais, estaduais e municipais, sendo dispensada a exigência de múltiplos números de cadastro (como PIS, Pasep, carteira de trabalho ou RG estadual). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/SC/2026) ao estabelecer que "regulação e outorga de serviços públicos".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "transporte de cargas e de passageiros". De acordo com a teoria estudada em *2. Desburocratização e Atendimento ao Cidadão (Decreto nº 9.094/2017)*, o Decreto Federal nº 9.094/2017 (regulamentado e reforçado pela Lei Federal nº 13.726/2018 - Lei de Desburocratização) estabeleceu diretrizes expressas de simplificação administrativa e presunção de boa-fé nas relações entre a administração pública e a sociedade.
 >
-> **Gabarito: B**
+> **Gabarito: D**
 
 ---
 
 ### Teste 323
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Gestao Governamental – 2024)**
-Em razão de uma grave crise na economia, o que gerou comprometimento na prestação de serviços de caráter essencial, prestados indiretamente pela União, mediante concessão, foram iniciados debates, no âmbito da Câmara dos Deputados, para a instituição de um empréstimo compulsório, cujas receitas seriam direcionadas ao referido serviço. Em relação à exigibilidade desse tributo, concluiu-se corretamente que
+**(FGV – TCE/PI – 2025 – Auditor de Controle Externo - Controle Externo - Específica de Área Comum)**
+A Lei estadual nº X instituiu a Taxa de Serviços Diversos (TSD), dispondo que o seu fato gerador decorreria do exercício do poder de polícia ou pela utilização, efetiva ou potencial, de serviços públicos específicos e divisíveis, prestados ao contribuinte ou postos à sua disposição pela Secretaria Estadual de Desenvolvimento Econômico. Logo após a edição da Lei estadual nº X e a realização dos primeiros lançamentos tributários, diversos contribuintes insurgiram-se contra a cobrança desse tributo, argumentando com a sua inconstitucionalidade. Sobre a TSD, considerando a sistemática constitucional vigente, assinale a afirmativa correta.
 
-* **A)** devem ser observados os princípios da anterioridade e da anterioridade nonagesimal, e o tributo deve ser instituído mediante lei ordinária.
-* **B)** não devem ser observados os princípios da anterioridade e da anterioridade nonagesimal, e o tributo deve ser instituído mediante lei complementar.
-* **C)** deve ser observado o princípio da anterioridade, não o da anterioridade nonagesimal, e o tributo deve ser instituído mediante lei complementar.
-* **D)** deve ser observado o princípio da anterioridade, não o da anterioridade nonagesimal, e o tributo pode ser instituído mediante lei ordinária ou lei complementar.
-* **E)** somente não devem ser observados os princípios da anterioridade e da anterioridade nonagesimal se o tributo for instituído mediante emenda constitucional.
+* **A)** É inconstitucional, pois somente a União poderia instituir tributo dessa natureza.
+* **B)** É inconstitucional, por não definir a atuação estatal que seria o fato gerador do tributo.
+* **C)** É constitucional, considerando que a descrição do fato gerador se ajusta ao permissivo constitucional.
+* **D)** É inconstitucional, pois tributo dessa natureza deveria ser criado por meio de lei complementar estadual.
+* **E)** É constitucional, pois cabe ao regulamento detalhar o fato gerador do tributo, a partir da enunciação geral da lei.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "devem ser observados os princípios da anterioridade e da anterioridade nonagesimal, e o tributo deve ser...". De acordo com a teoria estudada em *2.1 Supressão de Custos Cartorários (Reconhecimento de Firma e Autenticação)*, reconhecimento de Firma: Fica vedada a exigência de reconhecimento de firma em cartório para a prática de atos perante os órgãos e entidades públicas, salvo se houver dúvida fundada de autenticidade ou previsão legal expressa em lei ordinária formal.
-> - **B)** **Correta.** Conforme fundamentado na seção *1.2 Os Mestres da Qualidade e suas Contribuições (Deming, Juran, Ishikawa e Crosby)* deste guia, joseph Juran: Enfatizou que a qualidade deve ser gerenciada como uma função executiva de negócios. Concebeu a Trilogia da Qualidade. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "não devem ser observados os princípios da anterioridade e da anterioridade nonagesimal, e o tributo deve ser...".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "deve ser observado o princípio da anterioridade, não o da anterioridade nonagesimal, e o tributo deve ser...". De acordo com a teoria estudada em *3.3 Redesenho de Processos: Diagnóstico AS-IS vs. Modelagem TO-BE*, tO-BE ("Como Deve Ser"): Proposta e modelagem do fluxo futuro ideal e otimizado, incorporando ferramentas digitais, eliminando etapas que não agregam valor e encurtando o tempo de ciclo.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "deve ser observado o princípio da anterioridade, não o da anterioridade nonagesimal, e o tributo pode ser...". De acordo com a teoria estudada em *1.4 Modelos de Excelência: MEG / FNQ e o GesPública*, programa Nacional de Gestão Pública e Desburocratização (GesPública): Instituído pelo Decreto Federal nº 5.378/2005 para disseminar no setor público brasileiro a autoavaliação continuada e a busca por excelência nos serviços públicos prestados ao cidadão.
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente não devem ser observados os princípios da anterioridade e da anterioridade nonagesimal se o tributo for...". De acordo com a teoria estudada em *2.2 Proibição de Exigência Documental Redundante e Interoperabilidade*, os órgãos devem integrar seus sistemas e proceder à busca de informações e documentos diretamente nas bases públicas compartilhadas.
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "É inconstitucional, pois somente a União poderia instituir tributo dessa natureza". De acordo com a teoria estudada em *1.2 Os Mestres da Qualidade e suas Contribuições (Deming, Juran, Ishikawa e Crosby)*, defendeu que a qualidade significa estrita "conformidade com os requisitos", afirmando que "a qualidade é de graça" (*Quality is Free*), pois os custos de fazer certo da primeira vez são infinitamente menores do que os custos do retrabalho e do desperdício.
+> - **B)** **Correta.** Conforme fundamentado na seção *2.3 O CPF como Chave Unificada de Identificação* deste guia, conforme as alterações trazidas pelo Decreto nº 9.723/2019 e Lei nº 14.534/2023, o número de inscrição no Cadastro de Pessoas Físicas (CPF) é o dado suficiente e universal para a identificação do cidadão nos bancos de dados de serviços públicos federais, estaduais e municipais, sendo dispensada a exigência de múltiplos números de cadastro (como PIS, Pasep, carteira de trabalho ou RG estadual). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PI/2025) ao estabelecer que "É inconstitucional, por não definir a atuação estatal que seria o fato gerador do tributo".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "É constitucional, considerando que a descrição do fato gerador se ajusta ao permissivo constitucional". De acordo com a teoria estudada em *1.4 Modelos de Excelência: MEG / FNQ e o GesPública*, programa Nacional de Gestão Pública e Desburocratização (GesPública): Instituído pelo Decreto Federal nº 5.378/2005 para disseminar no setor público brasileiro a autoavaliação continuada e a busca por excelência nos serviços públicos prestados ao cidadão.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "É inconstitucional, pois tributo dessa natureza deveria ser criado por meio de lei complementar estadual". De acordo com a teoria estudada em *2. Desburocratização e Atendimento ao Cidadão (Decreto nº 9.094/2017)*, o Decreto Federal nº 9.094/2017 (regulamentado e reforçado pela Lei Federal nº 13.726/2018 - Lei de Desburocratização) estabeleceu diretrizes expressas de simplificação administrativa e presunção de boa-fé nas relações entre a administração pública e a sociedade.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "É constitucional, pois cabe ao regulamento detalhar o fato gerador do tributo, a partir da enunciação geral da lei". De acordo com a teoria estudada em *2.4 A Carta de Serviços ao Usuário*, a Carta de Serviços ao Usuário é um instrumento de governança e transparência de publicação compulsória nos portais oficiais na internet e em local visível nas repartições públicas. Deve detalhar.
 >
 > **Gabarito: B**
 
@@ -309,50 +309,50 @@ flowchart LR
 ---
 
 ### Teste 324
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Ciencia de Dados – 2024)**
-Com base nos conceitos referentes ao Gerenciamento de Processos de Negócio (BPM), analise as afirmativas a seguir. I. O BPMS (Business Process Management System) é um conjunto de símbolos que representam os fluxos dos processos da empresa de forma padronizada para facilitar seu entendimento. II. O BPM é um ciclo contínuo para projetar, modelar, simular, executar, monitorar e melhorar os processos de negócio da organização, automatizados ou não, para alcançar resultados consistentes e alinhados com os objetivos estratégicos da organização. III. O BPMN (Business Process Modeling and Notation) é um software que facilita a implementação de práticas de BPM em todas as suas etapas, mapeando, automatizando, executando e monitorando os processos da empresa. Está correto o que se afirma em
+**(FGV – TJ/RR – 2024 – Analista Judiciario Gestao E Governanca De Tecnologia Da Informacao)**
+Mais do que uma simples abordagem operacional, a gestão de processos é uma ferramenta importante para líderes de variados níveis hierárquicos, fornecendo subsídios para a tomada de decisão e na implantação de melhorias impactantes em diversos setores das instituições e na geração de valor público. Nesse contexto, assinale a afirmativa correta acerca de gestão de processos.
 
-* **A)** II e III, apenas.
-* **B)** II, apenas.
-* **C)** I, II e III.
-* **D)** III, apenas.
-* **E)** I e II, apenas.
+* **A)** Cadeia de valor encontra-se em um nível intermediário na estratégia de uma organização.
+* **B)** Uma tarefa é um conjunto de atividades e comportamentos executados por pessoas ou máquinas cujo objetivo é alcançar um ou mais resultados organizacionais.
+* **C)** O Ciclo BPM possui etapas como: planejar, analisar, desenhar, implantar e monitorar os processos.
+* **D)** Processos de suporte são associados às atividades-fim da organização ou diretamente envolvidos no atendimento às necessidades dos seus usuários finais.
+* **E)** Um processo é uma agregação de tarefas necessárias para entregar uma parte específica e definível de um produto ou serviço.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *3.3 Redesenho de Processos: Diagnóstico AS-IS vs. Modelagem TO-BE*, tO-BE ("Como Deve Ser"): Proposta e modelagem do fluxo futuro ideal e otimizado, incorporando ferramentas digitais, eliminando etapas que não agregam valor e encurtando o tempo de ciclo.
-> - **B)** **Correta.** Conforme fundamentado na seção *3. Gestão de Processos de Negócio (BPM)* deste guia, o *Business Process Management* (BPM) é uma abordagem disciplinada para identificar, desenhar, executar, documentar, medir, monitorar e controlar processos de trabalho para alcançar resultados alinhados aos objetivos da organização. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "II, apenas".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *3.1 Conceito e Hierarquia Estrutural dos Processos*, processo: Conjunto estruturado de atividades logicamente encadeadas que transformam entradas (*inputs*) em saídas (*outputs*) que agregam valor perceptível a um cliente ou cidadão-usuário.
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III, apenas". De acordo com a teoria estudada em *1.1 Evolução das Quatro Eras da Qualidade*, era da Garantia da Qualidade: Foco sistêmico na prevenção de defeitos. A qualidade é planejada em todas as etapas de projeto, suprimentos e fabricação, surgindo normas formais de certificação (família ISO 9000).
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *1.1 Evolução das Quatro Eras da Qualidade*, era da Gestão da Qualidade Total (*Total Quality Management* - TQM): Envolvimento de todos os colaboradores e departamentos da organização, com foco prioritário na satisfação das necessidades do usuário-cidadão e na busca perene pela melhoria contínua (*Kaizen*).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Cadeia de valor encontra-se em um nível intermediário na estratégia de uma organização". De acordo com a teoria estudada em *3.3 Redesenho de Processos: Diagnóstico AS-IS vs. Modelagem TO-BE*, tO-BE ("Como Deve Ser"): Proposta e modelagem do fluxo futuro ideal e otimizado, incorporando ferramentas digitais, eliminando etapas que não agregam valor e encurtando o tempo de ciclo.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Uma tarefa é um conjunto de atividades e comportamentos executados por pessoas ou máquinas cujo objetivo é...". De acordo com a teoria estudada em *3.1 Conceito e Hierarquia Estrutural dos Processos*, processo: Conjunto estruturado de atividades logicamente encadeadas que transformam entradas (*inputs*) em saídas (*outputs*) que agregam valor perceptível a um cliente ou cidadão-usuário.
+> - **C)** **Correta.** Conforme fundamentado na seção *3. Gestão de Processos de Negócio (BPM)* deste guia, o *Business Process Management* (BPM) é uma abordagem disciplinada para identificar, desenhar, executar, documentar, medir, monitorar e controlar processos de trabalho para alcançar resultados alinhados aos objetivos da organização. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "O Ciclo BPM possui etapas como: planejar, analisar, desenhar, implantar e monitorar os processos".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Processos de suporte são associados às atividades-fim da organização ou diretamente envolvidos no atendimento às...". De acordo com a teoria estudada em *3.2 Tipos de Processos: Finalísticos, de Suporte e de Gerenciamento*, diretamente relacionados ao cumprimento da missão essencial do órgão e à entrega direta de valor público ao cidadão ou usuário externo.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Um processo é uma agregação de tarefas necessárias para entregar uma parte específica e definível de um produto ou...". De acordo com a teoria estudada em *4.1 Distinção Conceitual: Projeto versus Processo*, resultado Produzido: Gera um produto, serviço ou resultado único, exclusivo e inédito. — Gera produtos ou serviços padronizados, uniformes e repetitivos.
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
 
 ### Teste 325
-**(CEBRASPE – TRT-8 – Analista Judiciario Area Apoio Especializado Tecnologia da Informacao – 2022)**
-Com relação ao Modelo de Requisitos para Sistemas Informatizados de Gestão de Processos e Documentos do Judiciário brasileiro (MoReq-Jus), aprovado pela Resolução CNJ n.º 91/2009, assinale a opção correta.
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Administração)**
+A gestão de processos é uma abordagem que busca otimizar e melhorar continuamente as atividades organizacionais para aumentar a eficiência e a eficácia. Foca na análise, documentação e monitoramento dos processos, visando identificar e eliminar gargalos e desperdícios. Assinale a opção que apresenta os processos que direcionam as entregas de valor aos clientes.
 
-* **A)** O MoReq-Jus estabelece processos e requisitos mínimos para um Sistema Informatizado de Gestão de Processos e Documentos (GestãoDoc) somente se este sistema for desenvolvido por meio de software livre.
-* **B)** O MoReq-Jus é conhecido por ser um modelo direcionado, pois tem como único objetivo fornecer especificações funcionais, para orientar a aquisição, o detalhamento e o desenvolvimento de sistemas de gestão de processos e documentos no âmbito do Poder Judiciário brasileiro.
-* **C)** De acordo com o MoReq-Jus, metadado é o dado, estruturado ou não estruturado, que descreve e permite encontrar, gerenciar e compreender documentos institucionais ao longo do tempo.
-* **D)** No MoReq-Jus, a metodologia de planejamento e implantação de um programa de gestão de processos e documentos estabelece seis passos, os quais devem ser executados de forma sequencial. Levantamento preliminar e avaliação dos sistemas existentes são alguns exemplos desses passos.
-* **E)** O MoReq-Jus é dirigido a fornecedores e desenvolvedores de sistemas e a profissionais e provedores de serviços de gestão de documentos, entre outros.
+* **A)** De suporte.
+* **B)** De inovação.
+* **C)** Primários.
+* **D)** Operacionais.
+* **E)** Secundários.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "O MoReq-Jus estabelece processos e requisitos mínimos para um Sistema Informatizado de Gestão de Processos e...". De acordo com a teoria estudada em *2.4 A Carta de Serviços ao Usuário*, requisitos, documentos e informações necessários para cada serviço.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O MoReq-Jus é conhecido por ser um modelo direcionado, pois tem como único objetivo fornecer especificações...". De acordo com a teoria estudada em *1.4 Modelos de Excelência: MEG / FNQ e o GesPública*, programa Nacional de Gestão Pública e Desburocratização (GesPública): Instituído pelo Decreto Federal nº 5.378/2005 para disseminar no setor público brasileiro a autoavaliação continuada e a busca por excelência nos serviços públicos prestados ao cidadão.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "De acordo com o MoReq-Jus, metadado é o dado, estruturado ou não estruturado, que descreve e permite encontrar...". De acordo com a teoria estudada em *4.4 A Restrição Tripla Clássica (Escopo, Custo e Tempo)*, a alteração em qualquer um desses vértices impacta compulsoriamente os outros dois (ex.: antecipar o prazo de conclusão exige aumento de custos com horas extras ou redução do escopo entregue).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "No MoReq-Jus, a metodologia de planejamento e implantação de um programa de gestão de processos e documentos...". De acordo com a teoria estudada em *3.2 Tipos de Processos: Finalísticos, de Suporte e de Gerenciamento*, *Exemplos:* Gestão da folha de pagamento, contratação de serviços de vigilância e limpeza, suporte de TI e manutenção de viaturas.
-> - **E)** **Correta.** Conforme fundamentado na seção *2.2 Proibição de Exigência Documental Redundante e Interoperabilidade* deste guia, os órgãos devem integrar seus sistemas e proceder à busca de informações e documentos diretamente nas bases públicas compartilhadas. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT-8/2022) ao estabelecer que "O MoReq-Jus é dirigido a fornecedores e desenvolvedores de sistemas e a profissionais e provedores de serviços de...".
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "De suporte". De acordo com a teoria estudada em *3.2 Tipos de Processos: Finalísticos, de Suporte e de Gerenciamento*, garantem a infraestrutura material, tecnológica e humana indispensável para que os processos finalísticos ocorram com sucesso, atendendo a clientes internos.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "De inovação". De acordo com a teoria estudada em *3. Gestão de Processos de Negócio (BPM)*, o *Business Process Management* (BPM) é uma abordagem disciplinada para identificar, desenhar, executar, documentar, medir, monitorar e controlar processos de trabalho para alcançar resultados alinhados aos objetivos da organização.
+> - **C)** **Correta.** Conforme fundamentado na seção *3.2 Tipos de Processos: Finalísticos, de Suporte e de Gerenciamento* deste guia, processos Finalísticos (Primários ou de Ponta a Ponta). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Primários".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Operacionais". De acordo com a teoria estudada em *1.3 O Ciclo PDCA e as Sete Ferramentas da Qualidade*, *Folha de Verificação:* Formulário padronizado para coleta metódica de dados operacionais.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Secundários". De acordo com a teoria estudada em *3.2 Tipos de Processos: Finalísticos, de Suporte e de Gerenciamento*, processos de Suporte (Secundários ou de Apoio).
 >
-> **Gabarito: E**
+> **Gabarito: C**
 
 ---
 
@@ -400,98 +400,92 @@ A alteração em qualquer um desses vértices impacta compulsoriamente os outros
 ---
 
 ### Teste 326
-**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Ciencias da Computacao Sistemas de Informacao – 2026)**
-Ao revisar a EAP de um contrato de infraestrutura de TI, o auditor percebe que o somatório dos custos dos pacotes de trabalho de um nível inferior é menor do que o custo estimado para o nível pai. De acordo com a Regra dos 100%, assinale a afirmativa correta a respeito da falha na construção desse artefato.
+**(FGV – TJ/SC – 2026 – Analista Administrativo)**
+A Gestão da Qualidade, ao analisar percepções equivocadas ou parciais sobre o tema observadas no cotidiano organizacional, costuma reconvertê-las em ações estratégicas, transformando cada limitação em ponto de partida para uma intervenção orientada à produção da qualidade. Relacione as posições consagradas sobre qualidade às respectivas ações estratégicas que a Gestão da Qualidade pode desenvolver a partir delas. Posição sobre Ação estratégica qualidade 1. A qualidade é um ( ) Priorizar processos produtivos aspecto subjetivo. mais confiáveis. 2. A qualidade ( ) Ampliar o número de clientes, identifica-se com cujas preferências passariam a capacidade de ser atendidas por essas novas fabricação. alternativas de produtos ou de itens que os compõem. 3. A qualidade ( ) Investir em melhorias do envolve a processo produtivo que evitem diversidade de o aparecimento de quaisquer opções que um defeitos e falhas. produto ou serviço pode oferecer a seus clientes. 4. A qualidade é ( ) Desenvolver processos em que considerada como o cliente interfira na produção a falta de defeitos de bens ou serviços da no produto ou no empresa, tornando-os mais serviço prestado. adequados às suas necessidades, preferências ou conveniências. Assinale a opção que indica a relação correta, na ordem apresentada.
 
-* **A)** Não há falha, pois o nível pai deve prever uma reserva de contingência oculta.
-* **B)** A EAP deve conter apenas atividades e não pacotes de trabalho.
-* **C)** A EAP está incompleta, pois o nível superior deve representar a soma exata de todo o trabalho dos seus subordinados.
-* **D)** O erro é da ferramenta de software utilizada, que não sincronizou os dados.
-* **E)** A EAP deve ser excluída em favor de uma lista de tarefas sequenciais no Excel.
+* **A)** 1 – 3 – 4 – 2.
+* **B)** 2 – 3 – 4 – 1.
+* **C)** 2 – 4 – 3 – 1.
+* **D)** 4 – 1 – 2 – 3.
+* **E)** 3 – 2 – 1 – 4.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Não há falha, pois o nível pai deve prever uma reserva de contingência oculta". De acordo com a teoria estudada em *4.3 Instrumentos Primordiais: TAP e EAP (WBS)*, documento formal emitido pelo patrocinador (*sponsor*) que autoriza oficialmente a existência do projeto e concede ao gerente do projeto a autoridade para aplicar recursos da instituição nas atividades do projeto.
-> - **B)** **Correta.** Conforme fundamentado na seção *4.3 Instrumentos Primordiais: TAP e EAP (WBS)* deste guia, decomposição hierárquica e visual do escopo total de trabalho do projeto em partes menores e gerenciáveis chamadas de pacotes de trabalho. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "A EAP deve conter apenas atividades e não pacotes de trabalho".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A EAP está incompleta, pois o nível superior deve representar a soma exata de todo o trabalho dos seus subordinados". De acordo com a teoria estudada em *4.3 Instrumentos Primordiais: TAP e EAP (WBS)*, a EAP NÃO é um cronograma de atividades! A EAP é orientada exclusivamente a entregas (produtos e subprodutos). Ela não contém datas de início/fim nem lista de tarefas diárias.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O erro é da ferramenta de software utilizada, que não sincronizou os dados". De acordo com a teoria estudada em *2.3 O CPF como Chave Unificada de Identificação*, conforme as alterações trazidas pelo Decreto nº 9.723/2019 e Lei nº 14.534/2023, o número de inscrição no Cadastro de Pessoas Físicas (CPF) é o dado suficiente e universal para a identificação do cidadão nos bancos de dados de serviços públicos federais, estaduais e municipais, sendo dispensada a exigência de múltiplos números de cadastro (como PIS, Pasep, carteira de trabalho ou RG estadual).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A EAP deve ser excluída em favor de uma lista de tarefas sequenciais no Excel". De acordo com a teoria estudada em *1.2 Os Mestres da Qualidade e suas Contribuições (Deming, Juran, Ishikawa e Crosby)*, joseph Juran: Enfatizou que a qualidade deve ser gerenciada como uma função executiva de negócios. Concebeu a Trilogia da Qualidade.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1 – 3 – 4 – 2". De acordo com a teoria estudada em *4.1 Distinção Conceitual: Projeto versus Processo*, finalidade Estratégica: Conduzir mudanças, inovações ou implantar novas capacidades. — Manter a regularidade operacional e o funcionamento estável da entidade.
+> - **B)** **Correta.** Conforme fundamentado na seção *4.1 Distinção Conceitual: Projeto versus Processo* deste guia, resultado Produzido: Gera um produto, serviço ou resultado único, exclusivo e inédito. — Gera produtos ou serviços padronizados, uniformes e repetitivos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/SC/2026) ao estabelecer que "2 – 3 – 4 – 1".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2 – 4 – 3 – 1". De acordo com a teoria estudada em *1.2 Os Mestres da Qualidade e suas Contribuições (Deming, Juran, Ishikawa e Crosby)*, *Planejamento da Qualidade:* Identificar quem são os clientes e desenvolver processos capazes de produzir as características exigidas.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "4 – 1 – 2 – 3". De acordo com a teoria estudada em *4.3 Instrumentos Primordiais: TAP e EAP (WBS)*, a EAP NÃO é um cronograma de atividades! A EAP é orientada exclusivamente a entregas (produtos e subprodutos). Ela não contém datas de início/fim nem lista de tarefas diárias.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3 – 2 – 1 – 4". De acordo com a teoria estudada em *1.1 Evolução das Quatro Eras da Qualidade*, era da Garantia da Qualidade: Foco sistêmico na prevenção de defeitos. A qualidade é planejada em todas as etapas de projeto, suprimentos e fabricação, surgindo normas formais de certificação (família ISO 9000).
 >
 > **Gabarito: B**
 
 ---
 
 ### Teste 327
-**(FGV – TJ-RR – Analista Judiciario Gestao e Governanca de Tecnologia da Informacao – 2024)**
-O Modelo de Requisitos para Sistemas Informatizados de Gestão de Processos e Documentos do Poder Judiciário (MoReq-Jus), em sua 2ª edição, foi elaborado com o objetivo de especificar requisitos funcionais e não funcionais aos quais devem aderir os sistemas informatizados de gestão de processos e documentos utilizados em atividades judiciais e administrativas dos órgãos integrantes do Poder Judiciário. Um exemplo de requisito não funcional especificado pelo MoReq- Jus é
+**(CEBRASPE – TRT/10 – 2013 – Analista Judiciario Tecnologia Da Informacao)**
+O diagrama de Ishikawa é recomendado para avaliar os principais aspectos e recursos valiosos que permitirão que os processos e projetos possam ter sucesso quando colocados em prática nas organizações.
 
-* **A)** classificar todos os documentos de acordo com o Plano de Classificação.
-* **B)** interoperar com outros sistemas, permitindo a importação e exportação de documentos.
-* **C)** permitir avaliação periódica dos direitos de acesso dos usuários do sistema.
-* **D)** registrar a tramitação de todos os documentos no processo.
-* **E)** impedir a eliminação de documentos definidos como de guarda permanente pela política de gestão documental.
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "classificar todos os documentos de acordo com o Plano de Classificação". De acordo com a teoria estudada em *2.4 A Carta de Serviços ao Usuário*, requisitos, documentos e informações necessários para cada serviço.
-> - **B)** **Correta.** Conforme fundamentado na seção *2.2 Proibição de Exigência Documental Redundante e Interoperabilidade* deste guia, os órgãos devem integrar seus sistemas e proceder à busca de informações e documentos diretamente nas bases públicas compartilhadas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-RR/2024) ao estabelecer que "interoperar com outros sistemas, permitindo a importação e exportação de documentos".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "permitir avaliação periódica dos direitos de acesso dos usuários do sistema". De acordo com a teoria estudada em *4.4 A Restrição Tripla Clássica (Escopo, Custo e Tempo)*, a alteração em qualquer um desses vértices impacta compulsoriamente os outros dois (ex.: antecipar o prazo de conclusão exige aumento de custos com horas extras ou redução do escopo entregue).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "registrar a tramitação de todos os documentos no processo". De acordo com a teoria estudada em *2.2 Proibição de Exigência Documental Redundante e Interoperabilidade*, é expressamente vedado ao órgão público exigir do requerente a apresentação de certidões, certidões negativas de débito ou documentos comprobatórios emitidos pelo próprio órgão ou que constem em bancos de dados oficiais da administração pública.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "impedir a eliminação de documentos definidos como de guarda permanente pela política de gestão documental". De acordo com a teoria estudada em *4.1 Distinção Conceitual: Projeto versus Processo*, temporalidade: Temporário: Possui data de início e término prefixadas no tempo. — Permanente e Contínuo: Repete-se rotineiramente sem data de encerramento.
->
-> **Gabarito: B**
-
----
-
-### Teste 328
-**(FCC – TRT-24 – Analista Judiciario Tecnologia da Informacao – 2017)**
-A norma ABNT NBR ISO/IEC 27004:2010 recomenda que se estabeleça e gerencie um Programa de Medição de Segurança da Informação − PMSI a fim de alcançar os objetivos de medição estabelecidos e adotar o modelo PDCA nas atividades de medição globais da organização. A Norma recomenda que o PMSI inclua os processos de
-
-* **A)** Definição do escopo da medição, Levantamento de requisitos de medição, Execução da medição e Análise dos resultados da medição.
-* **B)** Planejamento da medição, Operação da medição, Verificação da Medição e Relato dos resultados para a alta gestão.
-* **C)** Definição da Estratégia de medição, Projeto da medição, Operação da Medição e Melhoria Contínua do PMSI.
-* **D)** Desenvolvimento de medidas e medição, Operação da medição, Relato dos resultados da análise de dados e da medição e Avaliação e melhoria do PMSI.
-* **E)** Planejamento da medição, Execução da medição, Avaliação do PMSI e Ajuste no PMSI.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Definição do escopo da medição, Levantamento de requisitos de medição, Execução da medição e Análise dos...". De acordo com a teoria estudada em *3. Gestão de Processos de Negócio (BPM)*, o *Business Process Management* (BPM) é uma abordagem disciplinada para identificar, desenhar, executar, documentar, medir, monitorar e controlar processos de trabalho para alcançar resultados alinhados aos objetivos da organização.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Planejamento da medição, Operação da medição, Verificação da Medição e Relato dos resultados para a alta gestão". De acordo com a teoria estudada em *1.4 Modelos de Excelência: MEG / FNQ e o GesPública*, modelo de Excelência da Gestão (MEG / Fundação Nacional da Qualidade): Baseado na visão sistêmica e em fundamentos de gestão contemporâneos (liderança transformadora, foco no cidadão, orientação para resultados, governança e responsabilidade socioambiental).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Definição da Estratégia de medição, Projeto da medição, Operação da Medição e Melhoria Contínua do PMSI". De acordo com a teoria estudada em *1.1 Evolução das Quatro Eras da Qualidade*, era da Gestão da Qualidade Total (*Total Quality Management* - TQM): Envolvimento de todos os colaboradores e departamentos da organização, com foco prioritário na satisfação das necessidades do usuário-cidadão e na busca perene pela melhoria contínua (*Kaizen*).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Desenvolvimento de medidas e medição, Operação da medição, Relato dos resultados da análise de dados e da medição...". De acordo com a teoria estudada em *1.3 O Ciclo PDCA e as Sete Ferramentas da Qualidade*, *Gráfico de Dispersão:* Avaliação gráfica da correlação estatística entre duas variáveis.
-> - **E)** **Correta.** Conforme fundamentado na seção *3.2 Tipos de Processos: Finalísticos, de Suporte e de Gerenciamento* deste guia, asseguram a governança corporativa, o direcionamento estratégico, a medição contínua e a gestão de riscos e integridade da instituição. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-24/2017) ao estabelecer que "Planejamento da medição, Execução da medição, Avaliação do PMSI e Ajuste no PMSI".
+> - **C)** **Incorreta.** A marcação como **Certo** não procede, pois o enunciado apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O diagrama de Ishikawa é recomendado para avaliar os principais aspectos e recursos valiosos que permitirão...". De acordo com a teoria estudada em *4.2 Os Cinco Grupos de Processos do PMBOK*, o ciclo de vida do gerenciamento de projetos organiza-se em cinco grupos fundamentais de processos.
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**). Conforme fundamentado na seção *1.2 Os Mestres da Qualidade e suas Contribuições (Deming, Juran, Ishikawa e Crosby)* deste guia, *Melhoria da Qualidade:* Conduzir projetos contínuos de aprimoramento estrutural de processos. Portanto, a assertiva examinada pela banca (CEBRASPE – TRT/10/2013) viola os preceitos técnicos do tópico.
 >
 > **Gabarito: E**
 
 ---
 
-### Teste 329
-**(FGV – TJ-SC – Analista Administrativo – 2026)**
-A Diretoria da empresa ABC adota uma ferramenta visual que dispõe, em colunas verticais, a variável tempo subdividida em frações regulares (originalmente, cada mês representado por quatro subcolunas correspondentes às semanas) e, em linhas horizontais, as atividades a serem executadas, permitindo o acompanhamento do cronograma sem necessidade de consulta ao calendário convencional. A ferramenta foi originalmente concebida por um engenheiro colaborador de Taylor, voltada ao planejamento e ao controle da produção semanal. A ferramenta de planejamento e controle descrita corresponde ao
+### Teste 328
+**(FGV – TRF/1 – 2024 – Analista Judiciario Area Apoio Especializado Especialidade Suporte Em Tecnologia Da Informacao)**
+De acordo com a ITIL 4, para criar valor, uma organização deve fazer mais do que simplesmente fornecer um serviço. Deve também cooperar com os consumidores nas relações de serviço. Assim, existem interações entre prestador de serviços e consumidores para criação de valor. O gerenciamento de relacionamento de serviços:
 
-* **A)** cronograma.
-* **B)** fluxograma.
-* **C)** diagrama de blocos.
-* **D)** gráfico de Gantt.
-* **E)** análise de Pareto.
+* **A)** são as atividades conjuntas realizadas por um prestador de serviços e um consumidor de serviços para garantir a cocriação contínua de valor com base em ofertas de serviços acordadas e disponíveis;
+* **B)** é a cooperação entre um provedor de serviços e um consumidor de serviços, incluindo a prestação de serviços e o consumo de serviço;
+* **C)** são ações implementadas por uma terceira parte, que elabora os relatórios de desempenho dos serviços prestados, assim como as sugestões dadas pelo consumidor para melhoria dos serviços;
+* **D)** é uma das práticas realizadas pelo prestador de serviço, para garantir a cocriação contínua de valor com base no feedback dado pelo consumidor sobre o desempenho dos serviços prestados;
+* **E)** inclui as ações implementadas para melhoria do relacionamento entre fornecedores e consumidores.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "cronograma". De acordo com a teoria estudada em *4.3 Instrumentos Primordiais: TAP e EAP (WBS)*, a EAP NÃO é um cronograma de atividades! A EAP é orientada exclusivamente a entregas (produtos e subprodutos). Ela não contém datas de início/fim nem lista de tarefas diárias.
-> - **B)** **Correta.** Conforme fundamentado na seção *1.3 O Ciclo PDCA e as Sete Ferramentas da Qualidade* deste guia, *Fluxograma:* Representação gráfica sequencial do fluxo de etapas de um processo. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-SC/2026) ao estabelecer que "fluxograma".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "diagrama de blocos". De acordo com a teoria estudada em *4.3 Instrumentos Primordiais: TAP e EAP (WBS)*, o documento que contém datas e dependências temporais é o Cronograma do Projeto (Diagrama de Rede ou Gráfico de Gantt).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "gráfico de Gantt". De acordo com a teoria estudada em *1.3 O Ciclo PDCA e as Sete Ferramentas da Qualidade*, *Diagrama de Pareto:* Gráfico de barras ordenado decrescente associado a uma curva cumulativa baseado no Princípio 80/20 ("80% dos problemas decorrem de 20% das causas vitais").
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "análise de Pareto". De acordo com a teoria estudada em *4.4 A Restrição Tripla Clássica (Escopo, Custo e Tempo)*, \$\$\text{Escopo} \iff \text{Tempo / Cronograma} \iff \text{Custo / Orçamento}\$\$.
+> - **A)** **Correta.** Conforme fundamentado na seção *3.1 Conceito e Hierarquia Estrutural dos Processos* deste guia, processo: Conjunto estruturado de atividades logicamente encadeadas que transformam entradas (*inputs*) em saídas (*outputs*) que agregam valor perceptível a um cliente ou cidadão-usuário. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF/1/2024) ao estabelecer que "são as atividades conjuntas realizadas por um prestador de serviços e um consumidor de serviços para garantir a...".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é a cooperação entre um provedor de serviços e um consumidor de serviços, incluindo a prestação de serviços e o...". De acordo com a teoria estudada em *4.1 Distinção Conceitual: Projeto versus Processo*, resultado Produzido: Gera um produto, serviço ou resultado único, exclusivo e inédito. — Gera produtos ou serviços padronizados, uniformes e repetitivos.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "são ações implementadas por uma terceira parte, que elabora os relatórios de desempenho dos serviços prestados...". De acordo com a teoria estudada em *1.1 Evolução das Quatro Eras da Qualidade*, era da Gestão da Qualidade Total (*Total Quality Management* - TQM): Envolvimento de todos os colaboradores e departamentos da organização, com foco prioritário na satisfação das necessidades do usuário-cidadão e na busca perene pela melhoria contínua (*Kaizen*).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é uma das práticas realizadas pelo prestador de serviço, para garantir a cocriação contínua de valor com base no...". De acordo com a teoria estudada em *2.4 A Carta de Serviços ao Usuário*, requisitos, documentos e informações necessários para cada serviço.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "inclui as ações implementadas para melhoria do relacionamento entre fornecedores e consumidores". De acordo com a teoria estudada em *1.3 O Ciclo PDCA e as Sete Ferramentas da Qualidade*, o Ciclo PDCA (Deming/Shewhart) é um método iterativo de gestão de quatro passos utilizado para o controle e melhoria contínua de processos.
 >
-> **Gabarito: B**
+> **Gabarito: A**
+
+---
+
+### Teste 329
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Controle Externo)**
+Considerando a natureza dos serviços públicos e as peculiaridades previstas no ordenamento pátrio, é correto afirmar que pode ser objeto de uma concessão patrocinada
+
+* **A)** a delegação de atividade que tenha como objeto único a realização de uma obra pública.
+* **B)** a delegação do exercício do poder de polícia, com relação a todas as fases que compõem o respectivo ciclo.
+* **C)** a delegação do serviço de veículo leve sobre trilhos, com a previsão de instalação da respectiva infraestrutura e manutenção, mediante a cobrança de tarifa dos usuários.
+* **D)** a delegação da construção de uma universidade pública e a prestação do respectivo serviço de educação no estabelecimento oficial, mediante a cobrança de mensalidades.
+* **E)** a delegação do serviço de iluminação pública, mediante a realização de obras e manutenção da respectiva infraestrutura.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a delegação de atividade que tenha como objeto único a realização de uma obra pública". De acordo com a teoria estudada em *2.4 A Carta de Serviços ao Usuário*, requisitos, documentos e informações necessários para cada serviço.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a delegação do exercício do poder de polícia, com relação a todas as fases que compõem o respectivo ciclo". De acordo com a teoria estudada em *1.1 Evolução das Quatro Eras da Qualidade*, era da Garantia da Qualidade: Foco sistêmico na prevenção de defeitos. A qualidade é planejada em todas as etapas de projeto, suprimentos e fabricação, surgindo normas formais de certificação (família ISO 9000).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a delegação do serviço de veículo leve sobre trilhos, com a previsão de instalação da respectiva infraestrutura e...". De acordo com a teoria estudada em *3.2 Tipos de Processos: Finalísticos, de Suporte e de Gerenciamento*, *Exemplos:* Gestão da folha de pagamento, contratação de serviços de vigilância e limpeza, suporte de TI e manutenção de viaturas.
+> - **D)** **Correta.** Conforme fundamentado na seção *4.1 Distinção Conceitual: Projeto versus Processo* deste guia, resultado Produzido: Gera um produto, serviço ou resultado único, exclusivo e inédito. — Gera produtos ou serviços padronizados, uniformes e repetitivos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "a delegação da construção de uma universidade pública e a prestação do respectivo serviço de educação no...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a delegação do serviço de iluminação pública, mediante a realização de obras e manutenção da respectiva...". De acordo com a teoria estudada em *3.2 Tipos de Processos: Finalísticos, de Suporte e de Gerenciamento*, *Exemplos:* Emissão de certidões, realização de cirurgias no SUS, fiscalização de contas de prefeituras pelo TCE-GO.
+>
+> **Gabarito: D**
 
 ---
 

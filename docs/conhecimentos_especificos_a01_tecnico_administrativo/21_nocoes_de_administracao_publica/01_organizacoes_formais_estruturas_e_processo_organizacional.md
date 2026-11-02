@@ -118,50 +118,50 @@ flowchart TD
 ---
 
 ### Teste 300
-**(FGV – TRT-1 – Analista Judiciario Area Administrativa – 2024)**
-Marcelo é gerente de uma equipe de seis pessoas. Recentemente, ele recebeu os resultados de uma pesquisa sobre percepções e expectativas no trabalho realizada junto a sua equipe. A pesquisa foi realizada pela área de recursos humanos, devido aos sinais de forte desmotivação e falta de empenho da equipe na realização do trabalho. Os resultados da pesquisa indicaram que os membros da equipe consideram que: seu trabalho é repetitivo, exigindo que apliquem sempre as mesmas capacidades; e eles não recebem feedback claro e adequado sobre seu trabalho. Marcelo gostaria de realizar mudanças no trabalho da equipe que permitissem estimular a motivação dos membros. Na situação descrita, com base no modelo das características do trabalho (MCT) de Hackman e Oldham, é adequado adotar, respectivamente, as seguintes iniciativas:
+**(FCC – TRT 9ª – 2015 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
+Um Analista da área de TI, ao seguir as melhores práticas do Guia PMBOK 5a edição, sugeriu cuidados a serem tomados em relação à governança do projeto, que seria essencial ao projeto de software complexo que se iniciava. Ele afirmou, corretamente, que a governança do projeto
 
-* **A)** expansão vertical dos cargos; rotação de cargos;
-* **B)** formação de unidades naturais de trabalho; estabelecimento de relação com os clientes;
-* **C)** combinação de tarefas; formação de unidades naturais de trabalho;
-* **D)** expansão vertical dos cargos; expansão vertical dos cargos;
-* **E)** estabelecimento de relação com os clientes; estabelecimento de relação com os clientes.
+* **A)** é uma função de supervisão que está alinhada com o modelo de governança da organização e que engloba o ciclo de vida global do projeto, não podendo determinar ciclo de vida específico de projetos individuais.
+* **B)** fornece à equipe a estrutura, processos e ferramentas para gerenciar o projeto, deixando para a alta direção o controle do projeto e os modelos de tomada de decisões, a fim de todos chegarem a uma entrega bem sucedida.
+* **C)** fornece um método específico de desenvolver o projeto, garantindo o seu sucesso através da definição e documentação de práticas confiáveis, deixando a equipe livre da obrigação de prestar contas orçamentárias.
+* **D)** é definida e se adequa ao contexto específico do portfólio, programa ou organização que patrocina o projeto, sendo parte essencial da governança organizacional.
+* **E)** fornece a estrutura em que a equipe do projeto atua, mantendo-a responsável pelo planejamento, execução, controle e encerramento do projeto. A abordagem da governança do projeto deve ser descrita no plano de gerenciamento do projeto.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *1.2 Amplitude Administrativa e Formato Organizacional (Agudo vs. Plano)* deste guia, a banca frequentemente explora o impacto da "desverticalização" (ou *downsizing*) e redução de níveis hierárquicos: quando uma organização extingue cargos intermediários mantendo o mesmo número de servidores operacionais, ocorre o alargamento da amplitude de controle e o achatamento da estrutura (horizontalização), exigindo maior autonomia e descentralização!. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-1/2024) ao estabelecer que "expansão vertical dos cargos; rotação de cargos".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "formação de unidades naturais de trabalho; estabelecimento de relação com os clientes". De acordo com a teoria estudada em *3.2 Departamentalização por Clientes, Processos e Projetos*, por Processos: Estrutura as unidades segundo a sequência lógica e temporal das etapas de trabalho produtivo (ex.: Protocolo Geral \$\rightarrow\$ Triagem Documental \$\rightarrow\$ Instrução Processual \$\rightarrow\$ Julgamento pelo Tribunal Pleno).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "combinação de tarefas; formação de unidades naturais de trabalho". De acordo com a teoria estudada em *4.2 Organização: Distribuição de Tarefas, Autoridade e Recursos*, função responsável pela modelagem dos órgãos, desenho de cargos, atribuição de responsabilidades, alocação de recursos financeiros e materiais e estabelecimento de relações formais de cooperação e subordinação para que os planos possam ser implementados com eficácia.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "expansão vertical dos cargos; expansão vertical dos cargos". De acordo com a teoria estudada em *1.2 Amplitude Administrativa e Formato Organizacional (Agudo vs. Plano)*, custo de Administração: Elevado (grande número de cargos comissionados de chefia). — Baixo (estrutura enxuta com menos gerentes intermediários).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "estabelecimento de relação com os clientes; estabelecimento de relação com os clientes". De acordo com a teoria estudada em *3.2 Departamentalização por Clientes, Processos e Projetos*, ao término do projeto, a equipe é desmobilizada e os membros retornam aos seus órgãos funcionais.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é uma função de supervisão que está alinhada com o modelo de governança da organização e que engloba o ciclo de...". De acordo com a teoria estudada em *4.2 Organização: Distribuição de Tarefas, Autoridade e Recursos*, função responsável pela modelagem dos órgãos, desenho de cargos, atribuição de responsabilidades, alocação de recursos financeiros e materiais e estabelecimento de relações formais de cooperação e subordinação para que os planos possam ser implementados com eficácia.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "fornece à equipe a estrutura, processos e ferramentas para gerenciar o projeto, deixando para a alta direção o...". De acordo com a teoria estudada em *4.1 Planejamento: Estratégico, Tático e Operacional*, estratégico: Alta Administração (Cúpula / Presidência). — Longo Prazo (4 a 8 anos). — Abrange a instituição como um todo em sua relação com o ambiente externo. — Missão, Visão de Futuro, Valores, Objetivos Estratégicos e Plano de Metas Global.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "fornece um método específico de desenvolver o projeto, garantindo o seu sucesso através da definição e...". De acordo com a teoria estudada em *1.2 Amplitude Administrativa e Formato Organizacional (Agudo vs. Plano)*, a banca frequentemente explora o impacto da "desverticalização" (ou *downsizing*) e redução de níveis hierárquicos: quando uma organização extingue cargos intermediários mantendo o mesmo número de servidores operacionais, ocorre o alargamento da amplitude de controle e o achatamento da estrutura (horizontalização), exigindo maior autonomia e descentralização!.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é definida e se adequa ao contexto específico do portfólio, programa ou organização que patrocina o projeto, sendo...". De acordo com a teoria estudada em *4.1 Planejamento: Estratégico, Tático e Operacional*, nível de Planejamento: Nível Hierárquico Responsável — Horizonte Temporal — Amplitude e Abrangência — Conteúdo Típico.
+> - **E)** **Correta.** Conforme fundamentado na seção *3.2 Departamentalização por Clientes, Processos e Projetos* deste guia, ao término do projeto, a equipe é desmobilizada e os membros retornam aos seus órgãos funcionais. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 9ª/2015) ao estabelecer que "fornece a estrutura em que a equipe do projeto atua, mantendo-a responsável pelo planejamento, execução, controle...".
 >
-> **Gabarito: A**
+> **Gabarito: E**
 
 ---
 
 ### Teste 301
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Administracao – 2024)**
-Os níveis hierárquicos em uma organização distribuem responsabilidades e poder, facilitando a gestão e a comunicação interna. Cada nível tem um papel específico, desde a alta administração, que define a visão estratégica, até os níveis operacionais, que executam tarefas diárias. A estrutura organizacional dirige atividades para alcançar objetivos e pode variar conforme tamanho, setor e estratégia. Atualmente, há uma tendência à descentralização, embora algumas grandes organizações busquem centralizar funções anteriormente descentralizadas. Assinale a opção que apresenta uma vantagem da descentralização.
+**(FCC – TRT 4ª – 2015 – Analista Judiciário - Tecnologia Da Informação)**
+Considere que uma organização tenha implantado o Modelo de Referência MPS para Software (MR-MPS-SW) e tenha atingido o nível de maturidade B. Neste nível, denominado
 
-* **A)** Agilidade.
-* **B)** Controle.
-* **C)** Comunicação clara.
-* **D)** Interdependência.
-* **E)** Economia de escala.
+* **A)** Em Otimização, todos os processos dos níveis de maturidade anteriores (G ao C) foram cumpridos. Este nível não possui processos específicos.
+* **B)** Gerenciado Quantitativamente, o processo de Gerência de Projetos sofre sua segunda evolução, sendo acrescentados novos resultados para atender aos objetivos de gerenciamento quantitativo. Este nível não possui processos específicos.
+* **C)** Parcialmente Definido, todos os processos dos níveis de maturidade anteriores (G ao C) foram cumpridos e são acrescidos os processos Avaliação e Melhoria do Processo Organizacional, Definição do Processo Organizacional, Gerência de Recursos Humanos e Gerência de Reutilização.
+* **D)** Em Otimização, o processo Gerência de Projetos sofre sua primeira evolução, retratando seu novo propósito: gerenciar o projeto com base no processo definido para o projeto e nos planos integrados.
+* **E)** Gerenciado Quantitativamente, todos os processos dos níveis de maturidade anteriores (F ao C) foram cumpridos e são acrescidos os processos Avaliação e Melhoria do Processo Organizacional, Definição do Processo Organizacional, Gerência de Recursos Humanos e Gerência de Reutilização.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *1.3 Centralização vs. Descentralização Decisória* deste guia, promove agilidade, adaptação às peculiaridades operacionais e valorização dos servidores, mas pode gerar inconsistência e perda de visão sistêmica se não houver mecanismos eficazes de governança e alinhamento. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "Agilidade".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Controle". De acordo com a teoria estudada em *1.2 Amplitude Administrativa e Formato Organizacional (Agudo vs. Plano)*, a banca frequentemente explora o impacto da "desverticalização" (ou *downsizing*) e redução de níveis hierárquicos: quando uma organização extingue cargos intermediários mantendo o mesmo número de servidores operacionais, ocorre o alargamento da amplitude de controle e o achatamento da estrutura (horizontalização), exigindo maior autonomia e descentralização!.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Comunicação clara". De acordo com a teoria estudada em *4.3 Direção, Liderança e Comunicação Organizacional*, fluxo Diagonal: Atravessa diferentes setores e diferentes níveis hierárquicos simultaneamente (agiliza soluções de problemas complexos).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Interdependência". De acordo com a teoria estudada em *1.2 Amplitude Administrativa e Formato Organizacional (Agudo vs. Plano)*, níveis Hierárquicos: Muitos níveis intermediários (organização alta). — Poucos níveis intermediários (organização horizontal).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Economia de escala". De acordo com a teoria estudada em *3.1 Departamentalização Funcional, Territorial e por Produtos*, funcional: Agrupa servidores que desempenham funções correlatas ou utilizam competências e equipamentos semelhantes (ex.: Secretaria de Estado da Fazenda, Gerência de Recursos Humanos). Propicia economia de escala, mas cria isolamento setorial ("feudos").
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Em Otimização, todos os processos dos níveis de maturidade anteriores (G ao C) foram cumpridos. Este nível não...". De acordo com a teoria estudada em *4.4 Controle: Padrões, Medição e Momentos de Atuação (Prévio, Concomitante e Posterior)*, controle Posterior (Corretivo / Ex Post): Incide após a conclusão da ação ou do ciclo de gestão para auditar a conformidade e os resultados alcançados (ex.: prestação anual de contas julgada pelo Tribunal de Contas, processo disciplinar por desvio de conduta).
+> - **B)** **Correta.** Conforme fundamentado na seção *2.4 Estrutura Matricial (Dupla Subordinação)* deste guia, vantagens: Altíssima flexibilidade, orientação estratégica para resultados e objetivos de longo prazo, cooperação interdisciplinar e resposta ágil a demandas complexas. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 4ª/2015) ao estabelecer que "Gerenciado Quantitativamente, o processo de Gerência de Projetos sofre sua segunda evolução, sendo acrescentados...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Parcialmente Definido, todos os processos dos níveis de maturidade anteriores (G ao C) foram cumpridos e são...". De acordo com a teoria estudada em *1.1 Os Pilares da Organização Formal Moderna*, a organização formal é a estrutura deliberadamente planejada, racionalmente desenhada e oficialmente sancionada por normas e regulamentos para integrar recursos humanos, materiais, financeiros e tecnológicos em direção a objetivos comuns.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Em Otimização, o processo Gerência de Projetos sofre sua primeira evolução, retratando seu novo propósito...". De acordo com a teoria estudada em *3.2 Departamentalização por Clientes, Processos e Projetos*, por Projetos: Agrupamento temporário de recursos e profissionais de diversas especialidades dedicados exclusivamente a entregar um empreendimento único com data de encerramento prefixada (ex.: Comitê de Construção do Novo Prédio do TCE-GO).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Gerenciado Quantitativamente, todos os processos dos níveis de maturidade anteriores (F ao C) foram cumpridos e...". De acordo com a teoria estudada em *3.1 Departamentalização Funcional, Territorial e por Produtos*, funcional: Agrupa servidores que desempenham funções correlatas ou utilizam competências e equipamentos semelhantes (ex.: Secretaria de Estado da Fazenda, Gerência de Recursos Humanos). Propicia economia de escala, mas cria isolamento setorial ("feudos").
 >
-> **Gabarito: A**
+> **Gabarito: B**
 
 ---
 
@@ -213,50 +213,50 @@ flowchart TD
 ---
 
 ### Teste 302
-**(FGV – TJ-SC – Analista Administrativo – 2026)**
-A empresa ABC opera sem instalações físicas centralizadas e estrutura hierárquica convencional. Suas atividades são desenvolvidas por meio de módulos e grupos interconectados eletronicamente, articulados por alianças e redes de cooperação que transcendem fronteiras geográficas, tendo a Tecnologia da Informação como principal facilitadora dessa configuração. A estrutura organizacional descrita corresponde à organização
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Gestão Governamental)**
+Modelos de administração pública compreendem um conjunto de teorias, características, normas, padrões, finalidades e práticas próprias, que identificam/definem o tipo de administração de determinada época/período. Os modelos passados demonstram organização, estrutura e “modus operandi” que já existiram – e o modelo atual serve de referência para a administração pública contemporânea, ao mesmo tempo que indica perspectivas e tendências para o futuro. (PALUDO, Augustinho. Administração Pública. São Paulo: Editora Jvspodium, 2024. p. 119.) Quanto aos modelos de administração pública avalie as afirmativas a seguir: I. Embora haja predominância de determinado modelo no curso histórico da Administração Pública, os três modelos coexistem. II. O modelo burocrático não foi plenamente implementado no Brasil. III. Exemplo de manutenção do modelo patrimonialista é o corporativismo, que se torna evidente nos momentos de ameaça aos setores dominantes. Está correto o que se afirma em
 
-* **A)** virtual.
-* **B)** divisional.
-* **C)** matricial.
-* **D)** funcional.
-* **E)** linha-staff.
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *2.5 Estrutura em Rede (Modular e Desverticalizada)* deste guia, a entidade mantém um núcleo estratégico enxuto central que coordena uma rede de prestadores de serviços, parceiros, órgãos conveniados e fornecedores externos conectados por tecnologia da informação e contratos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-SC/2026) ao estabelecer que "virtual".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "divisional". De acordo com a teoria estudada em *2.3 Estrutura Linha-Staff (Comando e Assessoria)*, os órgãos de linha detêm a autoridade de comando e decisão sobre as atividades-fim da organização; os órgãos de staff (assessoria) prestam serviços especializados, pareceres técnicos, estudos e consultoria às chefias de linha.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "matricial". De acordo com a teoria estudada em *2.4 Estrutura Matricial (Dupla Subordinação)*, vantagens: Altíssima flexibilidade, orientação estratégica para resultados e objetivos de longo prazo, cooperação interdisciplinar e resposta ágil a demandas complexas.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "funcional". De acordo com a teoria estudada em *2.2 Estrutura Funcional (Tayloriana)*, princípio Central: Especialização funcional proposta por Frederick Taylor: a autoridade não decorre do posto na linha hierárquica, mas do domínio técnico especializado.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "linha-staff". De acordo com a teoria estudada em *2.3 Estrutura Linha-Staff (Comando e Assessoria)*, princípio Central: Combinação harmônica dos modelos linear e funcional.
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *4.4 Controle: Padrões, Medição e Momentos de Atuação (Prévio, Concomitante e Posterior)*, controle Concomitante (Diretivo / Em Tempo Real): Acompanha a execução física e financeira no momento em que ela está ocorrendo (ex.: fiscalização presencial de obra pública, medições parciais de cronograma).
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *4.1 Planejamento: Estratégico, Tático e Operacional*, estratégico: Alta Administração (Cúpula / Presidência). — Longo Prazo (4 a 8 anos). — Abrange a instituição como um todo em sua relação com o ambiente externo. — Missão, Visão de Futuro, Valores, Objetivos Estratégicos e Plano de Metas Global.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *3.2 Departamentalização por Clientes, Processos e Projetos*, por Clientes / Cidadãos: Organiza os setores com foco nas características peculiares de segmentos de usuários do serviço público (ex.: Delegacia de Atendimento à Mulher, Promotoria do Idoso).
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *1.1 Os Pilares da Organização Formal Moderna*, a organização formal é a estrutura deliberadamente planejada, racionalmente desenhada e oficialmente sancionada por normas e regulamentos para integrar recursos humanos, materiais, financeiros e tecnológicos em direção a objetivos comuns.
+> - **E)** **Correta.** Conforme fundamentado na seção *2.2 Estrutura Funcional (Tayloriana)* deste guia, características: Cada trabalhador reporta-se simultaneamente a vários supervisores especializados (ex.: chefe de qualidade, chefe de manutenção, chefe de prazos). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "I, II e III".
 >
-> **Gabarito: A**
+> **Gabarito: E**
 
 ---
 
 ### Teste 303
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Administracao – 2024)**
-Os níveis hierárquicos e as competências gerenciais são elementos fundamentais na estrutura organizacional. Cada nível hierárquico, desde a alta direção até a supervisão operacional, requer competências específicas para liderar eficazmente. Assinale a opção que apresenta uma competência gerencial de gestores da atualidade.
+**(FGV – TJ/SC – 2026 – Analista Administrativo)**
+A Teoria Geral da Administração (TGA) estuda a Administração das organizações e empresas a partir da interação e da interdependência entre seis variáveis principais, cujo comportamento é sistêmico e complexo: cada uma influencia e é influenciada pelas demais, de modo que modificações em uma delas provocam alterações em todas as outras. As seis variáveis principais que, segundo o estado atual da TGA, constituem os componentes essenciais do estudo da Administração das organizações e empresas, são:
 
-* **A)** Guardião do espírito de equipe corporativo.
-* **B)** Preservação das crenças e valores organizacionais.
-* **C)** Promoção contínua da identidade organizacional em constante evolução.
-* **D)** Proteção da visão compartilhada para o futuro.
-* **E)** Conservação da cultura organizacional.
+* **A)** tarefas, estrutura, pessoas, tecnologia, ambiente e competitividade.
+* **B)** tarefas, estrutura, pessoas, tecnologia, ambiente e cultura organizacional.
+* **C)** tarefas, processos, pessoas, tecnologia, ambiente e competitividade.
+* **D)** tarefas, estrutura, liderança, tecnologia, ambiente e competitividade.
+* **E)** tarefas, estrutura, pessoas, inovação, ambiente e competitividade.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Guardião do espírito de equipe corporativo". De acordo com a teoria estudada em *1.2 Amplitude Administrativa e Formato Organizacional (Agudo vs. Plano)*, níveis Hierárquicos: Muitos níveis intermediários (organização alta). — Poucos níveis intermediários (organização horizontal).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Preservação das crenças e valores organizacionais". De acordo com a teoria estudada em *4.1 Planejamento: Estratégico, Tático e Operacional*, estratégico: Alta Administração (Cúpula / Presidência). — Longo Prazo (4 a 8 anos). — Abrange a instituição como um todo em sua relação com o ambiente externo. — Missão, Visão de Futuro, Valores, Objetivos Estratégicos e Plano de Metas Global.
-> - **C)** **Correta.** Conforme fundamentado na seção *2.3 Estrutura Linha-Staff (Comando e Assessoria)* deste guia, desvantagens: Risco constante de atrito e conflito entre os assessores teóricos do *staff* e os gerentes práticos da *linha*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "Promoção contínua da identidade organizacional em constante evolução".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Proteção da visão compartilhada para o futuro". De acordo com a teoria estudada em *4.3 Direção, Liderança e Comunicação Organizacional*, fluxo Horizontal (Lateral): Entre servidores ou unidades situados no mesmo nível hierárquico (coordenação interdisciplinar e cooperação técnica).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Conservação da cultura organizacional". De acordo com a teoria estudada em *4.3 Direção, Liderança e Comunicação Organizacional*, fluxo Diagonal: Atravessa diferentes setores e diferentes níveis hierárquicos simultaneamente (agiliza soluções de problemas complexos).
+> - **A)** **Correta.** Conforme fundamentado na seção *2.5 Estrutura em Rede (Modular e Desverticalizada)* deste guia, vantagens: Custos fixos estruturais mínimos, extrema adaptabilidade a oscilações do ambiente e foco exclusivo nas competências essenciais (*core business*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/SC/2026) ao estabelecer que "tarefas, estrutura, pessoas, tecnologia, ambiente e competitividade".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "tarefas, estrutura, pessoas, tecnologia, ambiente e cultura organizacional". De acordo com a teoria estudada em *4.3 Direção, Liderança e Comunicação Organizacional*, a função de Direção dinamiza a organização, orientando e influenciando as pessoas para que desempenhem com zelo suas atribuições.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "tarefas, processos, pessoas, tecnologia, ambiente e competitividade". De acordo com a teoria estudada em *3.2 Departamentalização por Clientes, Processos e Projetos*, otimiza o fluxo de valor contínuo e a tecnologia de produção, mas é vulnerável a gargalos operacionais em qualquer etapa.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "tarefas, estrutura, liderança, tecnologia, ambiente e competitividade". De acordo com a teoria estudada em *2.5 Estrutura em Rede (Modular e Desverticalizada)*, a entidade mantém um núcleo estratégico enxuto central que coordena uma rede de prestadores de serviços, parceiros, órgãos conveniados e fornecedores externos conectados por tecnologia da informação e contratos.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "tarefas, estrutura, pessoas, inovação, ambiente e competitividade". De acordo com a teoria estudada em *4.1 Planejamento: Estratégico, Tático e Operacional*, estratégico: Alta Administração (Cúpula / Presidência). — Longo Prazo (4 a 8 anos). — Abrange a instituição como um todo em sua relação com o ambiente externo. — Missão, Visão de Futuro, Valores, Objetivos Estratégicos e Plano de Metas Global.
 >
-> **Gabarito: C**
+> **Gabarito: A**
 
 ---
 
@@ -289,26 +289,26 @@ flowchart TD
 ---
 
 ### Teste 304
-**(FCC – TRT-15 – Analista Judiciario Tecnologia da Informacao – 2015)**
-Sobre as estruturas organizacionais, considere: I. O grupamento das atividades de uma entidade em órgãos é efetuado de acordo com critérios de departamentalização que, entre outros, podem ser: por produtos, por clientes ou por área geográfica. II. Dentre as relações formais verificadas na estrutura organizacional de uma instituição, pode-se citar a autoridade de linha, ou seja, aquela exercida pelo chefe de um órgão diretamente sobre seus subordinados. III. A denominada estrutura matricial, descrita por Fayol, pressupõe, no primeiro nível de departamentalização, as funções de produção, comercialização, finanças e administração. Está correto o que consta APENAS em
+**(FGV – TRT da 24º Região – 2025 – Analista Judiciário - Área Administrativa - Contabilidade)**
+A Administração Pública, como organização formal moderna, apresenta características básicas como divisão do trabalho, hierarquia funcional, formalização de regras, impessoalidade e busca pela eficiência na prestação dos serviços públicos. Assinale a opção que apresenta, corretamente, uma característica das organizações formais modernas no âmbito da Administração Pública.
 
-* **A)** II e III.
-* **B)** I e III.
-* **C)** I e II.
-* **D)** III.
-* **E)** I.
+* **A)** Os clientes internos não influenciam os processos organizacionais, pois seu papel está restrito ao consumo dos produtos finais da organização.
+* **B)** Departamentos, divisões e seções não são considerados unidades organizacionais por não estarem diretamente ligados à alta gestão.
+* **C)** A departamentalização por cliente é característica das estruturas informais e não se aplica à Administração Pública.
+* **D)** Unidades organizacionais, como grupos de trabalho e seções, podem funcionar tanto como fornecedores quanto como clientes internos, conforme o fluxo de processos internos.
+* **E)** A estrutura organizacional da Administração Pública não permite a existência de fornecedores internos, pois todos os insumos provêm do setor privado.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II e III". De acordo com a teoria estudada em *3. Critérios de Departamentalização*, a departamentalização consiste no agrupamento de atividades, recursos e servidores em unidades organizacionais homogêneas para viabilizar a divisão equilibrada do trabalho.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e III". De acordo com a teoria estudada em *3.1 Departamentalização Funcional, Territorial e por Produtos*, territorial ou Geográfica: Baseia-se na dispersão espacial dos usuários e das atividades (ex.: Delegacias Regionais do Trabalho, Superintendências Regionais do Dnit). Permite adaptação precisa ao contexto local, mas duplica custos de infraestrutura física.
-> - **C)** **Correta.** Conforme fundamentado na seção *4.2 Organização: Distribuição de Tarefas, Autoridade e Recursos* deste guia, função responsável pela modelagem dos órgãos, desenho de cargos, atribuição de responsabilidades, alocação de recursos financeiros e materiais e estabelecimento de relações formais de cooperação e subordinação para que os planos possam ser implementados com eficácia. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-15/2015) ao estabelecer que "I e II".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "III". De acordo com a teoria estudada em *2.3 Estrutura Linha-Staff (Comando e Assessoria)*, os órgãos de linha detêm a autoridade de comando e decisão sobre as atividades-fim da organização; os órgãos de staff (assessoria) prestam serviços especializados, pareceres técnicos, estudos e consultoria às chefias de linha.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I". De acordo com a teoria estudada em *3.2 Departamentalização por Clientes, Processos e Projetos*, otimiza o fluxo de valor contínuo e a tecnologia de produção, mas é vulnerável a gargalos operacionais em qualquer etapa.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os clientes internos não influenciam os processos organizacionais, pois seu papel está restrito ao consumo dos...". De acordo com a teoria estudada em *3.2 Departamentalização por Clientes, Processos e Projetos*, por Processos: Estrutura as unidades segundo a sequência lógica e temporal das etapas de trabalho produtivo (ex.: Protocolo Geral $\rightarrow$ Triagem Documental $\rightarrow$ Instrução Processual $\rightarrow$ Julgamento pelo Tribunal Pleno).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Departamentos, divisões e seções não são considerados unidades organizacionais por não estarem diretamente ligados...". De acordo com a teoria estudada em *5. Gestão Pública vs. Gestão Privada: Convergências e Diferenças*, convergências Modernas: Adoção de técnicas de gestão por processos, governança, foco no usuário-cidadão e busca contínua por eficiência e qualidade. — Responsabilidade socioambiental (ESG), governança corporativa e conformidade com normas regulatórias (*compliance*).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A departamentalização por cliente é característica das estruturas informais e não se aplica à Administração Pública". De acordo com a teoria estudada em *3.2 Departamentalização por Clientes, Processos e Projetos*, otimiza o fluxo de valor contínuo e a tecnologia de produção, mas é vulnerável a gargalos operacionais em qualquer etapa.
+> - **D)** **Correta.** Conforme fundamentado na seção *3. Critérios de Departamentalização* deste guia, a departamentalização consiste no agrupamento de atividades, recursos e servidores em unidades organizacionais homogêneas para viabilizar a divisão equilibrada do trabalho. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT da 24º Região/2025) ao estabelecer que "Unidades organizacionais, como grupos de trabalho e seções, podem funcionar tanto como fornecedores quanto como...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A estrutura organizacional da Administração Pública não permite a existência de fornecedores internos, pois todos...". De acordo com a teoria estudada em *2. Modelos de Estrutura Organizacional*, as organizações estruturam-se segundo diferentes desenhos formais de autoridade e divisão do trabalho.
 >
-> **Gabarito: C**
+> **Gabarito: D**
 
 ---
 
@@ -370,50 +370,50 @@ O controle assegura que o desempenho real esteja em consonância com o que foi p
 ---
 
 ### Teste 305
-**(FGV – TJ-SC – Analista Administrativo – 2026)**
-A empresa ABC atua na construção naval, dedicando-se à concepção e à execução de navios de grande porte. Cada empreendimento possui orçamento, cronograma e equipe próprios; exige a convergência de competências diversas - engenharia naval, metalurgia, sistemas elétricos e eletrônicos-; demanda elevado aporte de recursos; e estende-se por tempo prolongado, sendo tratado pela Diretoria como um produto único, exclusivo e individualizado. O critério de departamentalização adotado pela empresa ABC corresponde à departamentalização por
+**(FGV – TRT da 24º Região – 2025 – Analista Judiciário - Área Administrativa - Contabilidade)**
+A gestão de desempenho compreende planejamento, organização, supervisão e controle para entregar excelentes resultados. Assinale a opção que apresenta, corretamente, os processos da gestão de desempenho e respectivas funções típicas.
 
-* **A)** função.
-* **B)** projetos.
-* **C)** processos.
-* **D)** clientes.
-* **E)** área geográfica.
+* **A)** Planejamento: fixação de objetivos e definição de planos. Organização: implementação e infraestrutura de trabalho. Supervisão: comunicação e orientação para equipe. Controle: indicadores de desempenho e criação de valor.
+* **B)** Planejamento: criação de valor. Organização: alocação de recursos. Supervisão: fixação de objetivos. Controle: implementação de sistemas de informação.
+* **C)** Planejamento: definição de metas e planos de trabalho. Organização: execução de tarefas e controle de resultados. Supervisão: análise de competências. Controle: comunicação com a equipe.
+* **D)** Planejamento: avaliação de competências. Organização: gestão de pessoas. Supervisão: avaliação de resultados. Controle: treinamento e desenvolvimento.
+* **E)** Planejamento: distribuição de tarefas. Organização: análise de indicadores. Supervisão: criação de métricas. Controle: gestão de sistemas de informação.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *3.2 Departamentalização por Clientes, Processos e Projetos* deste guia, por Projetos: Agrupamento temporário de recursos e profissionais de diversas especialidades dedicados exclusivamente a entregar um empreendimento único com data de encerramento prefixada (ex.: Comitê de Construção do Novo Prédio do TCE-GO). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-SC/2026) ao estabelecer que "função".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "projetos". De acordo com a teoria estudada em *4.2 Organização: Distribuição de Tarefas, Autoridade e Recursos*, função responsável pela modelagem dos órgãos, desenho de cargos, atribuição de responsabilidades, alocação de recursos financeiros e materiais e estabelecimento de relações formais de cooperação e subordinação para que os planos possam ser implementados com eficácia.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "processos". De acordo com a teoria estudada em *4.4 Controle: Padrões, Medição e Momentos de Atuação (Prévio, Concomitante e Posterior)*, controle Concomitante (Diretivo / Em Tempo Real): Acompanha a execução física e financeira no momento em que ela está ocorrendo (ex.: fiscalização presencial de obra pública, medições parciais de cronograma).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "clientes". De acordo com a teoria estudada em *3.2 Departamentalização por Clientes, Processos e Projetos*, ao término do projeto, a equipe é desmobilizada e os membros retornam aos seus órgãos funcionais.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "área geográfica". De acordo com a teoria estudada em *3.1 Departamentalização Funcional, Territorial e por Produtos*, territorial ou Geográfica: Baseia-se na dispersão espacial dos usuários e das atividades (ex.: Delegacias Regionais do Trabalho, Superintendências Regionais do Dnit). Permite adaptação precisa ao contexto local, mas duplica custos de infraestrutura física.
+> - **A)** **Correta.** Conforme fundamentado na seção *4.4 Controle: Padrões, Medição e Momentos de Atuação (Prévio, Concomitante e Posterior)* deste guia, estabelecimento de Padrões de Desempenho: Fixação prévia de metas, indicadores e prazos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT da 24º Região/2025) ao estabelecer que "Planejamento: fixação de objetivos e definição de planos. Organização: implementação e infraestrutura de trabalho...".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Planejamento: criação de valor. Organização: alocação de recursos. Supervisão: fixação de objetivos. Controle...". De acordo com a teoria estudada em *4.1 Planejamento: Estratégico, Tático e Operacional*, tático: Gerências Intermediárias (Diretorias). — Médio Prazo (1 a 3 anos). — Abrange cada unidade ou departamento funcional isoladamente. — Planos setoriais (RH, TI, Logística), alocação departamental de recursos e metas intermediárias.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Planejamento: definição de metas e planos de trabalho. Organização: execução de tarefas e controle de resultados...". De acordo com a teoria estudada em *2.4 Estrutura Matricial (Dupla Subordinação)*, vantagens: Altíssima flexibilidade, orientação estratégica para resultados e objetivos de longo prazo, cooperação interdisciplinar e resposta ágil a demandas complexas.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Planejamento: avaliação de competências. Organização: gestão de pessoas. Supervisão: avaliação de resultados...". De acordo com a teoria estudada em *1.2 Amplitude Administrativa e Formato Organizacional (Agudo vs. Plano)*, estilo de Supervisão: Cerrada, rigorosa, minuciosa e controladora. — Frouxa, com foco na autonomia, confiança e resultados.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Planejamento: distribuição de tarefas. Organização: análise de indicadores. Supervisão: criação de métricas...". De acordo com a teoria estudada em *4.2 Organização: Distribuição de Tarefas, Autoridade e Recursos*, função responsável pela modelagem dos órgãos, desenho de cargos, atribuição de responsabilidades, alocação de recursos financeiros e materiais e estabelecimento de relações formais de cooperação e subordinação para que os planos possam ser implementados com eficácia.
 >
 > **Gabarito: A**
 
 ---
 
 ### Teste 306
-**(FGV – TRT-1 – Analista Judiciario Area Administrativa – 2024)**
-A empresa fictícia XPTO é uma fabricante de móveis de médio porte que adota a seguinte departamentalização: setor de corte; setor de montagem; setor de acabamento e pintura. A direção da XPTO reconhece que uma das vantagens desse tipo de departamentalização é a eficiência gerada pela racionalização das diferentes etapas do processo produtivo. No entanto, a departamentalização adotada também apresenta potenciais desvantagens, tais como:
+**(FGV – TJ/SC – 2026 – Analista Administrativo)**
+Embora se apresente como momento final do ciclo administrativo, o controle desempenha funções que extrapolam a mera verificação de resultados, sendo dotado de objetivos múltiplos que orientam sua aplicação na rotina das organizações. A respeito dos objetivos principais do controle como função administrativa, analise os itens a seguir. I. A regulação das atividades, voltada a mantê-las dentro dos padrões estabelecidos, assegurando que os resultados se mantenham na amplitude de variação compreendida entre os limites máximo e mínimo previamente definidos. II. A substituição integral das funções de planejamento, organização e direção sempre que se identificarem desvios entre os resultados obtidos e os padrões estabelecidos. III. A prevenção de novas falhas ou erros, na medida em que, ao corrigir os problemas detectados, o controle aponta os meios de evitar sua recorrência futura, contribuindo para o aprimoramento gradativo do processo administrativo. Está correto o que se apresenta em
 
-* **A)** dificultar a coordenação intradepartamental;
-* **B)** gerar conflitos decorrentes da duplicidade de supervisão;
-* **C)** oferecer pouca flexibilidade e capacidade de adaptação a mudanças tecnológicas;
-* **D)** aumentar os custos operacionais devido à redundância de funções;
-* **E)** induzir à burocratização e aumento do número de níveis hierárquicos.
+* **A)** I, II e III.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** III, apenas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "dificultar a coordenação intradepartamental". De acordo com a teoria estudada em *4.3 Direção, Liderança e Comunicação Organizacional*, fluxo Horizontal (Lateral): Entre servidores ou unidades situados no mesmo nível hierárquico (coordenação interdisciplinar e cooperação técnica).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "gerar conflitos decorrentes da duplicidade de supervisão". De acordo com a teoria estudada em *1.3 Centralização vs. Descentralização Decisória*, promove agilidade, adaptação às peculiaridades operacionais e valorização dos servidores, mas pode gerar inconsistência e perda de visão sistêmica se não houver mecanismos eficazes de governança e alinhamento.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "oferecer pouca flexibilidade e capacidade de adaptação a mudanças tecnológicas". De acordo com a teoria estudada em *3.1 Departamentalização Funcional, Territorial e por Produtos*, territorial ou Geográfica: Baseia-se na dispersão espacial dos usuários e das atividades (ex.: Delegacias Regionais do Trabalho, Superintendências Regionais do Dnit). Permite adaptação precisa ao contexto local, mas duplica custos de infraestrutura física.
-> - **D)** **Correta.** Conforme fundamentado na seção *4. O Processo Organizacional e as Funções Administrativas (PODC)* deste guia, a administração moderna concebe o processo organizacional como um fluxo dinâmico, interdependente e contínuo composto por quatro funções clássicas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-1/2024) ao estabelecer que "aumentar os custos operacionais devido à redundância de funções".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "induzir à burocratização e aumento do número de níveis hierárquicos". De acordo com a teoria estudada em *1.2 Amplitude Administrativa e Formato Organizacional (Agudo vs. Plano)*, a banca frequentemente explora o impacto da "desverticalização" (ou *downsizing*) e redução de níveis hierárquicos: quando uma organização extingue cargos intermediários mantendo o mesmo número de servidores operacionais, ocorre o alargamento da amplitude de controle e o achatamento da estrutura (horizontalização), exigindo maior autonomia e descentralização!.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *1.1 Os Pilares da Organização Formal Moderna*, especialização: Concentração individual em funções específicas do processo de trabalho, permitindo aprimoramento da perícia técnica.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *4.4 Controle: Padrões, Medição e Momentos de Atuação (Prévio, Concomitante e Posterior)*, comparação entre Desempenho Real e Padrão: Identificação de variações, desvios e erros.
+> - **C)** **Correta.** Conforme fundamentado na seção *4.4 Controle: Padrões, Medição e Momentos de Atuação (Prévio, Concomitante e Posterior)* deste guia, controle Posterior (Corretivo / Ex Post): Incide após a conclusão da ação ou do ciclo de gestão para auditar a conformidade e os resultados alcançados (ex.: prestação anual de contas julgada pelo Tribunal de Contas, processo disciplinar por desvio de conduta). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/SC/2026) ao estabelecer que "I e III, apenas".
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *4.3 Direção, Liderança e Comunicação Organizacional*, a função de Direção dinamiza a organização, orientando e influenciando as pessoas para que desempenhem com zelo suas atribuições.
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III, apenas". De acordo com a teoria estudada em *4.4 Controle: Padrões, Medição e Momentos de Atuação (Prévio, Concomitante e Posterior)*, o controle assegura que o desempenho real esteja em consonância com o que foi previamente planejado.
 >
-> **Gabarito: D**
+> **Gabarito: C**
 
 ---
 
@@ -449,74 +449,74 @@ flowchart TD
 ---
 
 ### Teste 307
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Administracao – 2024)**
-O processo de diferenciação é a segmentação das operações de uma organização em áreas especializadas, como resposta ao crescimento e à complexidade. Inclui a divisão do trabalho, a criação de estruturas funcionais e departamentalização, e a diversificação de produtos e serviços. Assinale a opção que apresenta a vantagem de agrupar todas as funções em torno de determinada tecnologia, conjunto de produtos ou grupo de clientes.
+**(FGV – TRT/DA – 2025 – Tecnico Judiciario Area Administrativa Sem Especialidade)**
+É essencial, no esforço de compreender a Administração Pública, identificar as características mais relevantes que dizem respeito à natureza pública das organizações, com vista a perceber, com clareza, as diferenças destas com as organizações do setor privado. Assinale a opção que apresenta, corretamente, uma divergência entre a gestão pública e a gestão privada.
 
-* **A)** Diferenciação ocupacional.
-* **B)** Descentralização geográfica.
-* **C)** Diferenciação por tecnologia.
-* **D)** Departamentalização.
-* **E)** Diferenciação por nível hierárquico.
+* **A)** A Administração Pública deve agir com base no princípio da legalidade, podendo realizar apenas aquilo que está expressamente permitido em lei, enquanto a iniciativa privada pode atuar livremente, desde que não haja proibição legal.
+* **B)** Tanto a gestão pública quanto a gestão privada operam sob a lógica da autonomia da vontade privada, garantindo que suas decisões sejam pautadas apenas pelos interesses internos da organização.
+* **C)** Diferentemente da Administração Pública, as organizações privadas não precisam se preocupar com a transparência e o controle social, pois sua atuação não gera impactos significativos para a sociedade.
+* **D)** A segmentação de mercado, estratégia comum na iniciativa privada para diferenciação de atendimento a clientes, é também aplicada integralmente na Administração Pública, permitindo o tratamento preferencial a determinados grupos sociais conforme interesse do gestor público.
+* **E)** O objetivo principal da Administração Pública é garantir a sustentabilidade financeira do Estado, enquanto a iniciativa privada busca unicamente maximizar o lucro, sem a preocupação com questões de responsabilidade social ou desenvolvimento sustentável.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Diferenciação ocupacional". De acordo com a teoria estudada em *3.2 Departamentalização por Clientes, Processos e Projetos*, ao término do projeto, a equipe é desmobilizada e os membros retornam aos seus órgãos funcionais.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Descentralização geográfica". De acordo com a teoria estudada em *3.1 Departamentalização Funcional, Territorial e por Produtos*, territorial ou Geográfica: Baseia-se na dispersão espacial dos usuários e das atividades (ex.: Delegacias Regionais do Trabalho, Superintendências Regionais do Dnit). Permite adaptação precisa ao contexto local, mas duplica custos de infraestrutura física.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Diferenciação por tecnologia". De acordo com a teoria estudada em *3.2 Departamentalização por Clientes, Processos e Projetos*, otimiza o fluxo de valor contínuo e a tecnologia de produção, mas é vulnerável a gargalos operacionais em qualquer etapa.
-> - **D)** **Correta.** Conforme fundamentado na seção *3.1 Departamentalização Funcional, Territorial e por Produtos* deste guia, por Produtos ou Serviços: Agrupa atividades em torno das saídas ou linhas de bens produzidos (ex.: numa agência reguladora, diretoria de energia elétrica, diretoria de petróleo e diretoria de biocombustíveis). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "Departamentalização".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Diferenciação por nível hierárquico". De acordo com a teoria estudada em *4.1 Planejamento: Estratégico, Tático e Operacional*, nível de Planejamento: Nível Hierárquico Responsável — Horizonte Temporal — Amplitude e Abrangência — Conteúdo Típico.
+> - **A)** **Correta.** Conforme fundamentado na seção *5. Gestão Pública vs. Gestão Privada: Convergências e Diferenças* deste guia, princípio da Legalidade: Legalidade Estrita (Art. 37 da CF): O gestor só pode fazer o que a lei expressamente autoriza ou determina. — Autonomia da Vontade (Art. 5º, II da CF): A empresa pode fazer tudo o que a lei não proíbe. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/DA/2025) ao estabelecer que "A Administração Pública deve agir com base no princípio da legalidade, podendo realizar apenas aquilo que está...".
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "Tanto a gestão pública quanto a gestão privada operam sob a lógica da autonomia da vontade privada, garantindo que...". De acordo com a teoria estudada em *5. Gestão Pública vs. Gestão Privada: Convergências e Diferenças*, sistema de Controle: Submissão a rígido controle externo (Poder Legislativo auxiliado pelo Tribunal de Contas, Ministério Público e cidadãos). — Submissão a controles societários internos (Conselho de Administração, acionistas e auditorias privadas).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Diferentemente da Administração Pública, as organizações privadas não precisam se preocupar com a transparência e...". De acordo com a teoria estudada em *5. Gestão Pública vs. Gestão Privada: Convergências e Diferenças*, objetivo Primordial: Promoção do bem comum, satisfação de necessidades coletivas e justiça social. — Maximização do lucro financeiro, participação de mercado e retorno aos investidores.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A segmentação de mercado, estratégia comum na iniciativa privada para diferenciação de atendimento a clientes, é...". De acordo com a teoria estudada em *5. Gestão Pública vs. Gestão Privada: Convergências e Diferenças*, recursos Financeiros: Receitas públicas derivadas (tributos arrecadados coercitivamente da sociedade). — Preços de venda de produtos e serviços cobrados em regime de concorrência de mercado.
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "O objetivo principal da Administração Pública é garantir a sustentabilidade financeira do Estado, enquanto a...". De acordo com a teoria estudada em *5. Gestão Pública vs. Gestão Privada: Convergências e Diferenças*, convergências Modernas: Adoção de técnicas de gestão por processos, governança, foco no usuário-cidadão e busca contínua por eficiência e qualidade. — Responsabilidade socioambiental (ESG), governança corporativa e conformidade com normas regulatórias (*compliance*).
+>
+> **Gabarito: A**
+
+---
+
+### Teste 308
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Administração)**
+Os teóricos da denominada Reforma do Estado incluíram as organizações sociais no que denominam terceiro setor, aquele que é composto por entidades da sociedade civil que exercem atividades de interesse público e não lucrativas. O terceiro setor coexiste com o primeiro setor, que é o Estado, e o segundo, que é o mercado. Na realidade ele caracteriza-se por prestar atividade de interesse público, por iniciativa privada, sem fins lucrativos; precisamente pelo interesse público da atividade, o Estado tem interesse em fazer parceria com as mesmas, dentro da atividade de fomento; para essa parceria, as entidades têm que atender a determinados requisitos impostos por lei e que variam de um caso para outro; uma vez preenchidos os requisitos, a entidade recebe um título, como o de utilidade pública ou o certificado de fins filantrópicos (hoje denominado de certificado da entidade beneficente de assistência social). As entidades do terceiro setor sempre existiram e tradicionalmente formalizavam a parceria com o poder público por meio de convênio; com as Leis números 9.637, de 15-5-1998 (sobre organizações sociais), e 9.790, de 23- 9-1999 (sobre Oscips), os instrumentos de parceria idealizados foram respectivamente, o contrato de gestão e o termo de parceria, que se somaram ao tradicional convênio. (DI PIETRO, 2022, pág. 334. Adaptado.) Em relação às Organizações Sociais e às Organizações da Sociedade Civil de Interesse Público assinale a afirmativa incorreta.
+
+* **A)** A celebração do contrato de gestão deve ser conduzida de forma pública, objetiva e impessoal, com observância dos princípios do caput do Art. 37 da Constituição Federal de 1988.
+* **B)** A execução do objeto do Termo de Parceria firmado com OSCIP será acompanhada e fiscalizada por órgão do Poder Público da área de atuação correspondente à atividade fomentada, e pelos Conselhos de Políticas Públicas das áreas correspondentes de atuação existentes, em cada nível de governo.
+* **C)** Os resultados atingidos com a execução do Termo de Parceria devem ser analisados por comissão de avaliação, composta de comum acordo entre o órgão parceiro e a Organização da Sociedade Civil de Interesse Público.
+* **D)** Os responsáveis pela fiscalização da execução do contrato de gestão, ao tomarem conhecimento de qualquer irregularidade ou ilegalidade na utilização de recursos ou bens de origem pública por organização social, dela darão ciência ao respectivo Tribunal de Contas, sob pena de responsabilidade subsidiária.
+* **E)** Havendo indícios fundados de malversação de bens ou recursos de origem pública por Organização Social, os responsáveis pela fiscalização representarão ao Ministério Público ou à Procuradoria da entidade para que requeira ao juízo competente a decretação da indisponibilidade dos bens da entidade e o sequestro dos bens dos seus dirigentes.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A celebração do contrato de gestão deve ser conduzida de forma pública, objetiva e impessoal, com observância dos...". De acordo com a teoria estudada em *5. Gestão Pública vs. Gestão Privada: Convergências e Diferenças*, princípio da Legalidade: Legalidade Estrita (Art. 37 da CF): O gestor só pode fazer o que a lei expressamente autoriza ou determina. — Autonomia da Vontade (Art. 5º, II da CF): A empresa pode fazer tudo o que a lei não proíbe.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A execução do objeto do Termo de Parceria firmado com OSCIP será acompanhada e fiscalizada por órgão do Poder...". De acordo com a teoria estudada em *5. Gestão Pública vs. Gestão Privada: Convergências e Diferenças*, recursos Financeiros: Receitas públicas derivadas (tributos arrecadados coercitivamente da sociedade). — Preços de venda de produtos e serviços cobrados em regime de concorrência de mercado.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os resultados atingidos com a execução do Termo de Parceria devem ser analisados por comissão de avaliação...". De acordo com a teoria estudada em *4.4 Controle: Padrões, Medição e Momentos de Atuação (Prévio, Concomitante e Posterior)*, controle Posterior (Corretivo / Ex Post): Incide após a conclusão da ação ou do ciclo de gestão para auditar a conformidade e os resultados alcançados (ex.: prestação anual de contas julgada pelo Tribunal de Contas, processo disciplinar por desvio de conduta).
+> - **D)** **Correta.** Conforme fundamentado na seção *5. Gestão Pública vs. Gestão Privada: Convergências e Diferenças* deste guia, objetivo Primordial: Promoção do bem comum, satisfação de necessidades coletivas e justiça social. — Maximização do lucro financeiro, participação de mercado e retorno aos investidores. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Os responsáveis pela fiscalização da execução do contrato de gestão, ao tomarem conhecimento de qualquer...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Havendo indícios fundados de malversação de bens ou recursos de origem pública por Organização Social, os...". De acordo com a teoria estudada em *5. Gestão Pública vs. Gestão Privada: Convergências e Diferenças*, sistema de Controle: Submissão a rígido controle externo (Poder Legislativo auxiliado pelo Tribunal de Contas, Ministério Público e cidadãos). — Submissão a controles societários internos (Conselho de Administração, acionistas e auditorias privadas).
 >
 > **Gabarito: D**
 
 ---
 
-### Teste 308
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Administracao – 2024)**
-O processo administrativo abrange planejamento, organização, direção e controle. O planejamento define objetivos e estratégias; a organização estrutura recursos e atividades; a direção lidera e motiva as equipes; e o controle monitora o desempenho, ajustando conforme necessário para garantir o sucesso organizacional. Assinale a base de atuação da função de ideias.
-
-* **A)** Organização.
-* **B)** Controle.
-* **C)** Planejamento.
-* **D)** Direção.
-* **E)** Retroação.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Organização". De acordo com a teoria estudada em *4.1 Planejamento: Estratégico, Tático e Operacional*, tático: Gerências Intermediárias (Diretorias). — Médio Prazo (1 a 3 anos). — Abrange cada unidade ou departamento funcional isoladamente. — Planos setoriais (RH, TI, Logística), alocação departamental de recursos e metas intermediárias.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Controle". De acordo com a teoria estudada em *4.1 Planejamento: Estratégico, Tático e Operacional*, operacional: Supervisores e Equipes Operacionais. — Curto Prazo (dias, semanas, meses). — Focado em tarefas, procedimentos e rotinas específicas. — Procedimentos Operacionais Padrão (POP), rotinas de atendimento, escalas diárias e cronogramas.
-> - **C)** **Correta.** Conforme fundamentado na seção *4.1 Planejamento: Estratégico, Tático e Operacional* deste guia, estratégico: Alta Administração (Cúpula / Presidência). — Longo Prazo (4 a 8 anos). — Abrange a instituição como um todo em sua relação com o ambiente externo. — Missão, Visão de Futuro, Valores, Objetivos Estratégicos e Plano de Metas Global. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "Planejamento".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Direção". De acordo com a teoria estudada em *1.1 Os Pilares da Organização Formal Moderna*, a organização formal é a estrutura deliberadamente planejada, racionalmente desenhada e oficialmente sancionada por normas e regulamentos para integrar recursos humanos, materiais, financeiros e tecnológicos em direção a objetivos comuns.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Retroação". De acordo com a teoria estudada em *4.1 Planejamento: Estratégico, Tático e Operacional*, o planejamento é a função que precede e fundamenta todas as demais, determinando onde a instituição pretende chegar e quais caminhos trilhar.
->
-> **Gabarito: C**
-
----
-
 ### Teste 309
-**(FGV – TRT-24 – Tecnico Judiciario Area Administrativa Sem Especialidade – 2025)**
-Os critérios de departamentalização na Administração Pública devem alinhar-se aos princípios da legalidade, impessoalidade, moralidade, publicidade e eficiência. Assinale a opção que apresenta, corretamente, a departamentalização que procura agrupar órgãos e cargos por função para aproveitar a integração de conhecimentos, habilidades, competências e processos de trabalho em uma só unidade.
+**(FGV – TRT/DA – 2025 – Tecnico Judiciario Area Administrativa Sem Especialidade)**
+A gestão pública e a gestão privada convergem na busca por eficiência, inovação e entrega de valor aos stakeholders. Assinale a opção que apresenta, corretamente, uma convergência entre a gestão pública e a gestão privada.
 
-* **A)** Geográfica.
-* **B)** Funcional.
-* **C)** Por clientela.
-* **D)** Por processos.
-* **E)** Por projetos.
+* **A)** Ambas operam sob os mesmos princípios de rentabilidade e competição de mercado.
+* **B)** O principal objetivo da gestão pública é maximizar os lucros para os contribuintes, assim como a gestão privada faz para os acionistas.
+* **C)** A burocracia estatal impede qualquer tipo de inovação e eficiência na administração pública.
+* **D)** A administração pública pode adotar práticas gerenciais da iniciativa privada, mas sua finalidade principal é atender ao interesse público.
+* **E)** A transparência e a responsabilidade social são exclusivas da administração pública, não sendo relevantes para a gestão privada.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Geográfica". De acordo com a teoria estudada em *3.1 Departamentalização Funcional, Territorial e por Produtos*, territorial ou Geográfica: Baseia-se na dispersão espacial dos usuários e das atividades (ex.: Delegacias Regionais do Trabalho, Superintendências Regionais do Dnit). Permite adaptação precisa ao contexto local, mas duplica custos de infraestrutura física.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Funcional". De acordo com a teoria estudada em *3.1 Departamentalização Funcional, Territorial e por Produtos*, funcional: Agrupa servidores que desempenham funções correlatas ou utilizam competências e equipamentos semelhantes (ex.: Secretaria de Estado da Fazenda, Gerência de Recursos Humanos). Propicia economia de escala, mas cria isolamento setorial ("feudos").
-> - **C)** **Correta.** Conforme fundamentado na seção *4.2 Organização: Distribuição de Tarefas, Autoridade e Recursos* deste guia, função responsável pela modelagem dos órgãos, desenho de cargos, atribuição de responsabilidades, alocação de recursos financeiros e materiais e estabelecimento de relações formais de cooperação e subordinação para que os planos possam ser implementados com eficácia. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "Por clientela".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Por processos". De acordo com a teoria estudada em *5. Gestão Pública vs. Gestão Privada: Convergências e Diferenças*, convergências Modernas: Adoção de técnicas de gestão por processos, governança, foco no usuário-cidadão e busca contínua por eficiência e qualidade. — Responsabilidade socioambiental (ESG), governança corporativa e conformidade com normas regulatórias (*compliance*).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Por projetos". De acordo com a teoria estudada em *3.2 Departamentalização por Clientes, Processos e Projetos*, ao término do projeto, a equipe é desmobilizada e os membros retornam aos seus órgãos funcionais.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Ambas operam sob os mesmos princípios de rentabilidade e competição de mercado". De acordo com a teoria estudada em *5. Gestão Pública vs. Gestão Privada: Convergências e Diferenças*, objetivo Primordial: Promoção do bem comum, satisfação de necessidades coletivas e justiça social. — Maximização do lucro financeiro, participação de mercado e retorno aos investidores.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O principal objetivo da gestão pública é maximizar os lucros para os contribuintes, assim como a gestão privada...". De acordo com a teoria estudada em *5. Gestão Pública vs. Gestão Privada: Convergências e Diferenças*, sistema de Controle: Submissão a rígido controle externo (Poder Legislativo auxiliado pelo Tribunal de Contas, Ministério Público e cidadãos). — Submissão a controles societários internos (Conselho de Administração, acionistas e auditorias privadas).
+> - **C)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "A burocracia estatal impede qualquer tipo de inovação e eficiência na administração pública". De acordo com a teoria estudada em *5. Gestão Pública vs. Gestão Privada: Convergências e Diferenças*, convergências Modernas: Adoção de técnicas de gestão por processos, governança, foco no usuário-cidadão e busca contínua por eficiência e qualidade. — Responsabilidade socioambiental (ESG), governança corporativa e conformidade com normas regulatórias (*compliance*).
+> - **D)** **Correta.** Conforme fundamentado na seção *5. Gestão Pública vs. Gestão Privada: Convergências e Diferenças* deste guia, princípio da Legalidade: Legalidade Estrita (Art. 37 da CF): O gestor só pode fazer o que a lei expressamente autoriza ou determina. — Autonomia da Vontade (Art. 5º, II da CF): A empresa pode fazer tudo o que a lei não proíbe. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/DA/2025) ao estabelecer que "A administração pública pode adotar práticas gerenciais da iniciativa privada, mas sua finalidade principal é...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A transparência e a responsabilidade social são exclusivas da administração pública, não sendo relevantes para a...". De acordo com a teoria estudada em *5. Gestão Pública vs. Gestão Privada: Convergências e Diferenças*, dimensão de Análise: Gestão Pública — Gestão Privada.
 >
-> **Gabarito: C**
+> **Gabarito: D**
 
 ---
 

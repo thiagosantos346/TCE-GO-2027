@@ -3,7 +3,7 @@
 """
 src/injection/audit_questions.py
 
-Audita os 119 guias de estudo em docs/ e o banco sanitizado data/banco_questoes_v2.json,
+Audita os 119 guias de estudo em docs/ e o banco oficial data/banco_questoes_v3.json,
 imprimindo o relatório consolidado de cobertura real vs. simulada por módulo e globalmente.
 """
 
@@ -12,7 +12,7 @@ import os
 import re
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-DB_FILE = os.path.join(BASE_DIR, "data", "banco_questoes_v2.json")
+DB_FILE = os.path.join(BASE_DIR, "data", "banco_questoes_v3.json")
 DOCS_DIR = os.path.join(BASE_DIR, "docs")
 
 
@@ -20,7 +20,7 @@ def audit():
     with open(DB_FILE, "r", encoding="utf-8") as f:
         db = json.load(f)
 
-    questoes_db = db.get("questoes", [])
+    questoes_db = db if isinstance(db, list) else db.get("questoes", [])
     total_banco = len(questoes_db)
     injetadas_db = sum(1 for q in questoes_db if q.get("status_integracao") == "injetada")
     pendentes_db = sum(1 for q in questoes_db if q.get("status_integracao") != "injetada")
@@ -73,9 +73,9 @@ def audit():
         print(f"{mod:<50} | {stat['reais']:<6} | {stat['simuladas']:<6} | {stat['total']:<6} | {pct:>6.1f}%")
     print("=" * 85)
     pct_global = (total_reais_files / total_questoes_files * 100) if total_questoes_files > 0 else 0
-    print(f"{'TOTAL GERAL':<50} | {total_reais_files:<6} | {total_sim_files:<6} | {total_questoes_files:<6} | {pct_global:>6.1f}%")
+    print(f"{'TOTAL GERAL':<50} | {total_reais_files:<6} | {total_sim_files:<6} | {total_questoes_files:<6} | {pct_global:>6.2f}%")
     print("=" * 85)
-    print(f"Banco de Questões V2: {total_banco} itens ({injetadas_db} marcadas injetadas, {pendentes_db} disponíveis no acervo reserva)")
+    print(f"Banco de Questões V3 (MCP): {total_banco} itens ({injetadas_db} marcadas injetadas, {pendentes_db} disponíveis no acervo reserva)")
 
 
 if __name__ == "__main__":

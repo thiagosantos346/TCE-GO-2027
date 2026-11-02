@@ -106,50 +106,50 @@ A notação **Big-O ($\mathcal{O}$)** mensura o crescimento do tempo de execuç�
 ---
 
 ### Teste 054
-**(CEBRASPE – TRT-8 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2016)**
-Assinale a opção que apresenta o algoritmo de ordenação com o pior desempenho, considerando-se um vetor de 100 elementos, com valores inteiros ordenados em ordem inversa ao do algoritmo de ordenação.
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Fiscalização - Ciências Atuariais)**
+Sobre o Modelo de Referência Cross- Industry Standard Process for Data Mining (CRISP-DM), avalie as afirmativas a seguir: I. Após a fase de “Preparação dos dados” ocorre a fase de “Compreensão dos dados”. II. Durante a fase de “Mineração de Dados” ocorre a aplicação de algoritmos de mineração de dados buscando a extração de padrões. III. Durante a fase de “Preparação dos Dados”, pode ocorrer a construção de novos atributos a partir de outros já existentes. Está correto o que se afirma em
 
-* **A)** shell sort
-* **B)** quicksort
-* **C)** heapsort
-* **D)** radix sort
-* **E)** bubble sort
+* **A)** I, apenas.
+* **B)** III, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "shell sort". De acordo com a teoria estudada em *1.3 Análise Assintótica e a Notação Big-O*, \$\mathcal{O}(n \log n)\$: Linearítmica — Aumenta um pouco mais que o dobro — *Merge Sort*, *Heap Sort*, *Quick Sort* (caso médio).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "quicksort". De acordo com a teoria estudada em *2.2 Tabelas Hash (Hash Tables) e Métodos de Tratamento de Colisão*, endereçamento Aberto (*Open Addressing*): Todos os elementos residem diretamente no vetor principal. Ocorrendo colisão, o algoritmo pesquisa sistematicamente o próximo slot vago.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "heapsort". De acordo com a teoria estudada em *1.3 Análise Assintótica e a Notação Big-O*, a notação Big-O (\$\mathcal{O}\$) mensura o crescimento do tempo de execução ou do consumo de memória de um algoritmo à medida que o tamanho da entrada (\$n\$) tende ao infinito, descrevendo o limite superior assintótico (*pior caso* ou caso geral).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "radix sort". De acordo com a teoria estudada em *2.4 Árvores Auto-Balanceadas (AVL e Rubro-Negra) e Grafos*, degeneração da BST: Se inserirmos elementos já ordenados (`10, 20, 30, 40, 50`) em uma BST simples, a árvore degenera em uma lista linear encadeada, e as operações de busca caem de \$\mathcal{O}(\log n)\$ para \$\mathcal{O}(n)\$.
-> - **E)** **Correta.** Conforme fundamentado na seção *1.3 Análise Assintótica e a Notação Big-O* deste guia, \$\mathcal{O}(n^2)\$: Quadrática — O tempo quadruplica — Laços aninhados simples, *Bubble Sort*, *Insertion Sort*. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT-8/2016) ao estabelecer que "bubble sort".
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *4.1 Princípios Fundamentais: Funções Puras, Imutabilidade e Transparência Referencial*, *Ausência de Efeitos Colaterais (*No Side Effects*):* Não modifica variáveis externas ou globais, não altera parâmetros recebidos por referência e não realiza operações de I/O em disco ou rede durante a sua computação pura.
+> - **B)** **Correta.** Conforme fundamentado na seção *3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento* deste guia, *Classe Abstrata:* Não pode ser instanciada diretamente (`new`). Pode conter métodos abstratos (sem corpo) e métodos concretos (com implementação), além de atributos de instância com qualquer modificador de acesso. Modela uma herança conceitual forte. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "III, apenas".
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *4.1 Princípios Fundamentais: Funções Puras, Imutabilidade e Transparência Referencial*, imutabilidade: As estruturas de dados não são alteradas após criadas. Qualquer transformação produz uma nova estrutura de dados, deixando a original intacta.
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *1.3 Análise Assintótica e a Notação Big-O*, $\mathcal{O}(2^n)$: Exponencial — Crescimento explosivo impraticável — Algoritmos de força bruta (ex.: subconjuntos).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *2.5 Matriz Geral de Complexidade das Estruturas de Dados*, *\*Inserção e remoção em lista encadeada são $\mathcal{O}(1)$ se a referência direta ao nó alvo for previamente conhecida.*.
 >
-> **Gabarito: E**
+> **Gabarito: B**
 
 ---
 
 ### Teste 055
-**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Banco de Dados – 2023)**
-Analise, no código JavaScript exibido a seguir, a função f que recebe um array como parâmetro. É dado que a função Math.trunc retorna a parte inteira de um número. function f(x) { i = 0; for (i=0; i < Math.trunc(x.length/2); i++) { a = x[i]; x[i] = x[x.length -i -1]; x[x.length -i -1] = a; } return x; } A complexidade do algoritmo é da ordem:
+**(FCC – TRT 4ª – 2015 – Analista Judiciário - Tecnologia Da Informação)**
+Se a instrução System.out.print(f(v, 3, 2, d)); for alterada para System.out.print(f(v, 2, 3, d)); e para a variável d for fornecido o valor 51, quando o programa for executado
 
-* **A)** Log (N)
-* **B)** N Log(N)
-* **C)** N/2
-* **D)** N
-* **E)** N2
+* **A)** garantir que todos os caminhos independentes dentro de um módulo de software tenham sido exercitados pelo menos uma vez.
+* **B)** exercitar todas as decisões lógicas para valores verdadeiros e falsos.
+* **C)** garantir que todos os laços sejam testados dentro dos limites operacionais do sistema.
+* **D)** encontrar funções incorretas ou ausentes.
+* **E)** exercitar estruturas de dados internas para garantir a sua qualidade e validade.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Log (N)". De acordo com a teoria estudada em *1.3 Análise Assintótica e a Notação Big-O*, \$\mathcal{O}(\log n)\$: Logarítmica — Aumenta em uma fração constante — Busca Binária (*Binary Search*) em array ordenado.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "N Log(N)". De acordo com a teoria estudada em *1.3 Análise Assintótica e a Notação Big-O*, a Busca Binária exige obrigatoriamente que a estrutura esteja previamente ordenada e suporte acesso aleatório indexado em tempo \$\mathcal{O}(1)\$ (como arrays e vetores contíguos). Sua complexidade temporal é \$\mathcal{O}(\log n)\$.
-> - **C)** **Correta.** Conforme fundamentado na seção *2.2 Tabelas Hash (Hash Tables) e Métodos de Tratamento de Colisão* deste guia, uma Tabela Hash associa chaves de busca a índices de um array de tamanho \$m\$ por meio de uma função de espalhamento (*hash function*): \$\text{índice} = h(\text{chave}) \pmod m\$. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "N/2".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "N". De acordo com a teoria estudada em *1.3 Análise Assintótica e a Notação Big-O*, \$\mathcal{O}(1)\$: Constante — Tempo inalterado — Acesso a índice de array; `push`/`pop` em pilha.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "N2". De acordo com a teoria estudada em *1.3 Análise Assintótica e a Notação Big-O*, a notação Big-O (\$\mathcal{O}\$) mensura o crescimento do tempo de execução ou do consumo de memória de um algoritmo à medida que o tamanho da entrada (\$n\$) tende ao infinito, descrevendo o limite superior assintótico (*pior caso* ou caso geral).
+> - **A)** **Correta.** Conforme fundamentado na seção *1.1 Variáveis, Escopo e Passagem de Parâmetros (Valor vs. Referência)* deste guia, *Escopo Global:* Acessível em qualquer parte do módulo ou programa. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 4ª/2015) ao estabelecer que "garantir que todos os caminhos independentes dentro de um módulo de software tenham sido exercitados pelo menos...".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "exercitar todas as decisões lógicas para valores verdadeiros e falsos". De acordo com a teoria estudada em *1.1 Variáveis, Escopo e Passagem de Parâmetros (Valor vs. Referência)*, reatribuir a variável inteira dentro do método (ex.: `obj = new Objeto()`) altera apenas a cópia local do ponteiro, mantendo a variável original inalterada.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "garantir que todos os laços sejam testados dentro dos limites operacionais do sistema". De acordo com a teoria estudada em *4.1 Princípios Fundamentais: Funções Puras, Imutabilidade e Transparência Referencial*, transparência Referencial: Uma expressão pode ser substituída diretamente pelo seu valor resultante em qualquer ponto do programa sem alterar o comportamento global do sistema.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "encontrar funções incorretas ou ausentes". De acordo com a teoria estudada em *1.1 Variáveis, Escopo e Passagem de Parâmetros (Valor vs. Referência)*, *Escopo Local de Bloco/Função:* Visível estritamente dentro do corpo da sub-rotina onde foi declarada, sendo liberada da pilha (*stack*) ao término da execução.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "exercitar estruturas de dados internas para garantir a sua qualidade e validade". De acordo com a teoria estudada em *2.4 Árvores Auto-Balanceadas (AVL e Rubro-Negra) e Grafos*, menos rígida que a AVL em altura, demandando menor quantidade de rotações em operações frequentes de inserção e exclusão (utilizada internamente no `TreeMap` e `HashMap` do Java).
 >
-> **Gabarito: C**
+> **Gabarito: A**
 
 ---
 
@@ -250,56 +250,32 @@ graph TD
 ---
 
 ### Teste 056
-**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Desenvolvimento de Sistemas – 2023)**
-O paradigma funcional, evidenciado na linguagem LISP, criada em 1958, voltou com muita força atualmente, sendo incluído em diversas linguagens, como o Java. Considere o trecho de código apresentado a seguir. List`<String>` lista = Arrays.asList("UM","DOIS","TRES"); for(int i=0; i<lista.size(); i++){ System.out.println(lista.get(i)); } Para utilizar o paradigma funcional, o loop para apresentação dos valores deve ser reescrito da seguinte forma:
+**(FGV – TJ/RR – 2024 – Analista Judiciario Infraestrutura De Tecnologia Da Informacao)**
+Árvores são um importante tipo de estrutura de dados. Sobre as árvores, no contexto de estrutura de dados, analise as afirmativas a seguir. I. Árvores são estruturas de dados lineares. II. Em uma árvore cada nó pode ter no máximo dois filhos. III. Nós que não possuem filhos são chamados de Folhas. Está correto o que se afirma em
 
-* **A)** for(String s: lista){ System.out.println(s); }
-* **B)** for (Iterator`<String>` it = lista.iterator(); it.hasNext();) { System.out.println(it.next()); }
-* **C)** lista.forEach(s -> { System.out.println(s); });
-* **D)** Iterator`<String>` it = lista.iterator(); while(it.hasNext()) { System.out.println(it.next()); }
-* **E)** for(var s: lista){ System.out.println(s); }
+* **A)** I, apenas.
+* **B)** II, apenas.
+* **C)** III, apenas.
+* **D)** I e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "for(String s: lista){ System.out.println(s); }". De acordo com a teoria estudada em *4.3 Operações Funcionais sobre Coleções: map, filter e reduce*, `reduce`: Acumula todos os elementos da coleção aplicando iterativamente uma função de combinação. — Exatamente \$1\$ valor — Valor escalar consolidado ou objeto acumulador único (número, string).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "for (Iterator`<String>` it = lista.iterator(); it.hasNext();) { System.out.println(it.next()); }". De acordo com a teoria estudada em *2.1 Estruturas Lineares: Vetores, Listas Encadeadas, Pilhas e Filas*, *Last-In, First-Out* (o último elemento a entrar é o primeiro a sair).
-> - **C)** **Correta.** Conforme fundamentado na seção *2.1 Estruturas Lineares: Vetores, Listas Encadeadas, Pilhas e Filas* deste guia, *First-In, First-Out* (o primeiro elemento a entrar é o primeiro a ser processado). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "lista.forEach(s -> { System.out.println(s); })".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Iterator`<String>` it = lista.iterator(); while(it.hasNext()) { System.out.println(it.next()); }". De acordo com a teoria estudada em *2.2 Tabelas Hash (Hash Tables) e Métodos de Tratamento de Colisão*, encadeamento Separado (*Separate Chaining*): Cada slot do vetor principal referencia uma lista encadeada (ou árvore binária balanceada quando a lista cresce demais, como no Java 8+).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "for(var s: lista){ System.out.println(s); }". De acordo com a teoria estudada em *2.1 Estruturas Lineares: Vetores, Listas Encadeadas, Pilhas e Filas*, *Circular:* O último nó aponta de volta para o primeiro nó da lista.
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *2.3 Estruturas Não Lineares: Árvores Binárias de Busca (BST) e Percursos*, todos os nós situados em sua subárvore esquerda possuem chaves estritamente menores que a chave de $X$.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas". De acordo com a teoria estudada em *2.3 Estruturas Não Lineares: Árvores Binárias de Busca (BST) e Percursos*, todos os nós situados em sua subárvore direita possuem chaves estritamente maiores que a chave de $X$.
+> - **C)** **Correta.** Conforme fundamentado na seção *2.3 Estruturas Não Lineares: Árvores Binárias de Busca (BST) e Percursos* deste guia, uma Árvore Binária de Busca (BST - Binary Search Tree) é uma estrutura hierárquica na qual, para cada nó raiz $X$. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "III, apenas".
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *2.3 Estruturas Não Lineares: Árvores Binárias de Busca (BST) e Percursos*, *Sequência na árvore acima:* `40, 20, 10, 30, 60, 50, 70`. (Utilizada para clonagem ou serialização estrutural da árvore).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *2.3 Estruturas Não Lineares: Árvores Binárias de Busca (BST) e Percursos*, *Sequência na árvore acima:* `10, 20, 30, 40, 50, 60, 70`.
 >
 > **Gabarito: C**
 
 ---
 
 ### Teste 057
-**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Desenvolvimento de Sistemas – 2023)**
-Observe os seguintes fragmentos de um documento XML. Fragmento 1: `<table>` `<tr>` `<td>`Fruta`</td>` `<td>`Quantidade`</td>` `</tr>` `</table>` Fragmento 2: `<table>` `<name>`Manga`</name>` `<quantidade>`10`</quantidade>` `</table>` Ambos os fragmentos possuem o elemento `<table>`. Para evitar conflito entre os nomes dos elementos no mesmo documento XML, deve-se usar um:
-
-* **A)** XSLT;
-* **B)** Parser;
-* **C)** Tag;
-* **D)** Comments;
-* **E)** Namespace.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "XSLT". De acordo com a teoria estudada em *2.3 Estruturas Não Lineares: Árvores Binárias de Busca (BST) e Percursos*, todos os nós situados em sua subárvore esquerda possuem chaves estritamente menores que a chave de \$X\$.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Parser". De acordo com a teoria estudada em *2.3 Estruturas Não Lineares: Árvores Binárias de Busca (BST) e Percursos*, todos os nós situados em sua subárvore direita possuem chaves estritamente maiores que a chave de \$X\$.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Tag". De acordo com a teoria estudada em *2.4 Árvores Auto-Balanceadas (AVL e Rubro-Negra) e Grafos*, menos rígida que a AVL em altura, demandando menor quantidade de rotações em operações frequentes de inserção e exclusão (utilizada internamente no `TreeMap` e `HashMap` do Java).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Comments". De acordo com a teoria estudada em *2.1 Estruturas Lineares: Vetores, Listas Encadeadas, Pilhas e Filas*, *Last-In, First-Out* (o último elemento a entrar é o primeiro a sair).
-> - **E)** **Correta.** Conforme fundamentado na seção *4.3 Operações Funcionais sobre Coleções: map, filter e reduce* deste guia, `map`: Aplica uma função de transformação individual a cada elemento da coleção. — Rigorosamente igual a \$n\$ — Nova coleção com elementos transformados (mesmo tamanho). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "Namespace".
->
-> **Gabarito: E**
-
----
-
-### Teste 058
-**(FUMARC – TRT-3 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2022)**
-Ao acessar a opção “Personalização” na janela “Configurações” do Microsoft Windows 10, versão português, é possível fazer várias configurações personalizadas referentes ao sistema operacional. Analise as afirmativas abaixo sobre as funcionalidades da opção “Personalização” da janela “Configurações” do Microsoft Windows 10: I – Na opção “Tela de fundo” é possível definir o modo “Apresentação de Slides” e selecionar uma pasta contendo imagens que se alternam em um intervalo de tempo. II – Na opção “Tela de bloqueio”, é possível escolher um aplicativo para mostrar o status detalhado na tela de bloqueio. III – Na opção “Barra de Tarefas”, existe a opção para desativar a lista de aplicativos do “Menu Iniciar”. Estão CORRETAS as afirmativas:
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Ciência de Dados)**
+Sobre a Análise Exploratória de Dados (AED), avalie as afirmativas a seguir. I. A AED permite a obtenção do entendimento sobre os dados coletados. II. A AED fornece uma ideia de como os dados se distribuem e sua forma de apresentação. III. Algoritmos de Machine Learning são as principais ferramentas utilizadas na AED. Está correto o que se afirma em
 
 * **A)** I, apenas.
 * **B)** I e II, apenas.
@@ -311,37 +287,55 @@ Ao acessar a opção “Personalização” na janela “Configurações” do M
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *1.3 Análise Assintótica e a Notação Big-O*, \$\mathcal{O}(n)\$: Linear — O tempo dobra proporcionalmente — Busca Linear em vetor; percurso em lista encadeada.
-> - **B)** **Correta.** Conforme fundamentado na seção *1.2 Recursão e Pilha de Execução (Call Stack)* deste guia, a ausência ou falha no caso base gera recursão infinita e o esgotamento da memória de pilha do sistema operacional (*StackOverflowError*). Dessa forma, está plenamente correta a assertiva da banca (FUMARC – TRT-3/2022) ao estabelecer que "I e II, apenas".
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *2.1 Estruturas Lineares: Vetores, Listas Encadeadas, Pilhas e Filas*, listas Encadeadas (*Linked Lists*): Elementos (nós) alocados dinamicamente na memória, contendo o dado e ponteiros.
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *1.3 Análise Assintótica e a Notação Big-O*, a notação Big-O (\$\mathcal{O}\$) mensura o crescimento do tempo de execução ou do consumo de memória de um algoritmo à medida que o tamanho da entrada (\$n\$) tende ao infinito, descrevendo o limite superior assintótico (*pior caso* ou caso geral).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *1.3 Análise Assintótica e a Notação Big-O*, \$\mathcal{O}(1)\$: Constante — Tempo inalterado — Acesso a índice de array; `push`/`pop` em pilha.
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *2.4 Árvores Auto-Balanceadas (AVL e Rubro-Negra) e Grafos*, *Algoritmos de Percurso:* Busca em Profundidade (DFS - usa pilha/recursão) e Busca em Largura (BFS - usa fila).
+> - **B)** **Correta.** Conforme fundamentado na seção *1.3 Análise Assintótica e a Notação Big-O* deste guia, $\mathcal{O}(2^n)$: Exponencial — Crescimento explosivo impraticável — Algoritmos de força bruta (ex.: subconjuntos). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "I e II, apenas".
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *2.5 Matriz Geral de Complexidade das Estruturas de Dados*, estrutura de Dados: Acesso Médio — Acesso Pior — Busca Média — Busca Pior — Inserção Média — Inserção Pior — Remoção Média — Remoção Pior.
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *2.5 Matriz Geral de Complexidade das Estruturas de Dados*, vetor (Array): $\mathcal{O}(1)$ — $\mathcal{O}(1)$ — $\mathcal{O}(n)$ — $\mathcal{O}(n)$ — $\mathcal{O}(n)$ — $\mathcal{O}(n)$ — $\mathcal{O}(n)$ — $\mathcal{O}(n)$.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *2.5 Matriz Geral de Complexidade das Estruturas de Dados*, lista Encadeada: $\mathcal{O}(n)$ — $\mathcal{O}(n)$ — $\mathcal{O}(n)$ — $\mathcal{O}(n)$ — $\mathcal{O}(1)^*$ — $\mathcal{O}(1)^*$ — $\mathcal{O}(1)^*$ — $\mathcal{O}(1)^*$.
 >
 > **Gabarito: B**
 
 ---
 
-### Teste 059
-**(FCC – TRT-23 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2016)**
-Considere o método de ordenação abaixo. void ordena(int m,int x[]) { int aux,j,i; for(i=0;i<m-1;i++) { for(j=0;j<m-i-1;j++) if (x[j] > x[j+1]) { aux=x[j]; x[j]=x[j+1]; x[j+1]=aux; } } } Utilizando este algoritmo de ordenação, percorre-se a lista dada da esquerda para a direita, comparando pares de elementos consecutivos, trocando de lugar os que estão fora da ordem. Em cada troca, o maior elemento é deslocado uma posição para a direita. Trata-se de um algoritmo de ordenação
+### Teste 058
+**(CEBRASPE – STF – 2013 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+O OpenSSL usa algoritmos de hash, como o SHA1 e MD5.
 
-* **A)** Select Sort.
-* **B)** Insert Sort.
-* **C)** Bubble Sort.
-* **D)** Shell Sort.
-* **E)** Quick Sort.
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Select Sort". De acordo com a teoria estudada em *2.3 Estruturas Não Lineares: Árvores Binárias de Busca (BST) e Percursos*, pré-Ordem (Pre-order / Raiz \$\rightarrow\$ Esquerda \$\rightarrow\$ Direita): Visita a Raiz, depois percorre a subárvore Esquerda, e por fim a Direita.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Insert Sort". De acordo com a teoria estudada em *2.3 Estruturas Não Lineares: Árvores Binárias de Busca (BST) e Percursos*, em-Ordem (In-order / Esquerda \$\rightarrow\$ Raiz \$\rightarrow\$ Direita): Percorre a subárvore Esquerda, visita a Raiz, e por fim a Direita.
-> - **C)** **Correta.** Conforme fundamentado na seção *1.3 Análise Assintótica e a Notação Big-O* deste guia, \$\mathcal{O}(n^2)\$: Quadrática — O tempo quadruplica — Laços aninhados simples, *Bubble Sort*, *Insertion Sort*. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-23/2016) ao estabelecer que "Bubble Sort".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Shell Sort". De acordo com a teoria estudada em *2.3 Estruturas Não Lineares: Árvores Binárias de Busca (BST) e Percursos*, pós-Ordem (Post-order / Esquerda \$\rightarrow\$ Direita \$\rightarrow\$ Raiz): Percorre a subárvore Esquerda, depois a Direita, e por fim visita a Raiz.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Quick Sort". De acordo com a teoria estudada em *1.3 Análise Assintótica e a Notação Big-O*, \$\mathcal{O}(n \log n)\$: Linearítmica — Aumenta um pouco mais que o dobro — *Merge Sort*, *Heap Sort*, *Quick Sort* (caso médio).
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *2.4 Árvores Auto-Balanceadas (AVL e Rubro-Negra) e Grafos* deste guia, *Algoritmos de Percurso:* Busca em Profundidade (DFS - usa pilha/recursão) e Busca em Largura (BFS - usa fila). Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – STF/2013) ao afirmar que "O OpenSSL usa algoritmos de hash, como o SHA1 e MD5".
+> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *1.3 Análise Assintótica e a Notação Big-O*, segundo a qual $\mathcal{O}(2^n)$: Exponencial — Crescimento explosivo impraticável — Algoritmos de força bruta (ex.: subconjuntos).
 >
 > **Gabarito: C**
+
+---
+
+### Teste 059
+**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Banco De Dados)**
+Transação é uma unidade lógica de trabalho e é fundamental para garantir a integridade e a consistência dos dados. Observe o seguinte script de uma transação implementada no MySQL: CREATE TABLE candidato (id INT, nome CHAR (50), INDEX (id)); START TRANSACTION; INSERT INTO candidato VALUES (1, 'JULIA'); INSERT INTO candidato VALUES (2, 'MARIA'); COMMIT; SET autocommit = 0; INSERT INTO candidato VALUES (3, 'SOFIA'); UPDATE candidato SET nome='ANA' WHERE id=3; DELETE FROM candidato WHERE nome='JULIA'; ROLLBACK; SELECT * FROM candidato; Após a execução do script apresentado, a consulta retornará as colunas id e nome com os valores:
+
+* **A)** 2,MARIA
+* **B)** 1,JULIA 2,MARIA
+* **C)** 1,JULIA 2,MARIA 3,SOFIA
+* **D)** 1,JULIA 2,MARIA 3,ANA
+* **E)** 2,MARIA 3,ANA
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2,MARIA". De acordo com a teoria estudada em *4.1 Princípios Fundamentais: Funções Puras, Imutabilidade e Transparência Referencial*, imutabilidade: As estruturas de dados não são alteradas após criadas. Qualquer transformação produz uma nova estrutura de dados, deixando a original intacta.
+> - **B)** **Correta.** Conforme fundamentado na seção *3.2 Polimorfismo Estático (Sobrecarga) vs. Polimorfismo Dinâmico (Sobrescrita)* deste guia, a FCC adora afirmar que dois métodos são sobrecarregados se eles tiverem o mesmo nome, os mesmos parâmetros e apenas o tipo de retorno diferente (ex.: `int calcular(int x)` e `double calcular(int x)`). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "1,JULIA 2,MARIA".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1,JULIA 2,MARIA 3,SOFIA". De acordo com a teoria estudada em *2.2 Tabelas Hash (Hash Tables) e Métodos de Tratamento de Colisão*, a FCC frequentemente tenta enganar o candidato afirmando que a busca em tabela hash é $\mathcal{O}(1)$ em qualquer circunstância!.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1,JULIA 2,MARIA 3,ANA". De acordo com a teoria estudada em *1.1 Variáveis, Escopo e Passagem de Parâmetros (Valor vs. Referência)*, a lógica de programação orienta a elaboração de sequências finitas, ordenadas e inequívocas de passos para a resolução computacional de problemas.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2,MARIA 3,ANA". De acordo com a teoria estudada em *2.1 Estruturas Lineares: Vetores, Listas Encadeadas, Pilhas e Filas*, aplicações: Pilha de execução de sub-rotinas (*Call Stack*), conversão de expressões polonesas reversas (RPN), mecanismos de desfazer/refazer (*Undo/Redo*) e validação de fechamento de delimitadores (chaves e parênteses).
+>
+> **Gabarito: B**
 
 ---
 
@@ -377,74 +371,74 @@ Essa comparação é cobrada com frequência máxima pela banca FCC:
 ---
 
 ### Teste 060
-**(FCC – TRT-15 – Analista Judiciario Tecnologia da Informacao – 2015)**
-A herança é uma das características mais poderosas e importantes da orientação a objetos, pois permite o reaproveitamento de atributos e métodos. Em aplicações que utilizam herança,
+**(FCC – TRT 11ª – 2017 – Analista Judiciário - Tecnologia da Informação)**
+Em uma aplicação Java orientada a objetos que usa relações de herança, uma
 
-* **A)** não é possível sobrescrever em uma subclasse, um método de sua superclasse.
-* **B)** cada superclasse pode ter apenas uma subclasse.
-* **C)** somente as superclasses poderão ter métodos ou construtores sobrecarregados.
-* **D)** é possível se obter polimorfismo.
-* **E)** é possível a implementação de herança múltipla, em todas as linguagens orientadas a objetos.
+* **A)** subclasse herda somente os atributos e os métodos privados da superclasse.
+* **B)** subclasse normalmente usa a anotação @Override para indicar que um método da superclasse foi sobrescrito.
+* **C)** subclasse não pode ter mais que um construtor, mesmo que receba parâmetros diferentes.
+* **D)** superclasse não pode ter métodos sobrecarregados ou sobrescritos.
+* **E)** subclasse não pode sobrescrever um método da superclasse, mas o contrário é permitido.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não é possível sobrescrever em uma subclasse, um método de sua superclasse". De acordo com a teoria estudada em *3.2 Polimorfismo Estático (Sobrecarga) vs. Polimorfismo Dinâmico (Sobrescrita)*, definição: Múltiplos métodos com o mesmo nome declarados na mesma classe. — Redefinição de um método herdado da superclasse na subclasse.
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "cada superclasse pode ter apenas uma subclasse". De acordo com a teoria estudada em *3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo*, herança: Relação estática entre classes onde uma subclasse (filha) estende atributos e comportamentos de uma superclasse (pai), estabelecendo uma taxonomia do tipo "é um" (*is-a*).
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "somente as superclasses poderão ter métodos ou construtores sobrecarregados". De acordo com a teoria estudada em *3.2 Polimorfismo Estático (Sobrecarga) vs. Polimorfismo Dinâmico (Sobrescrita)*, a FCC adora afirmar que dois métodos são sobrecarregados se eles tiverem o mesmo nome, os mesmos parâmetros e apenas o tipo de retorno diferente (ex.: `int calcular(int x)` e `double calcular(int x)`).
-> - **D)** **Correta.** Conforme fundamentado na seção *3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo* deste guia, abstração: Foco nos atributos e operações essenciais de uma entidade do domínio de negócio, isolando aspectos acidentais ou supérfluos. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-15/2015) ao estabelecer que "é possível se obter polimorfismo".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "é possível a implementação de herança múltipla, em todas as linguagens orientadas a objetos". De acordo com a teoria estudada em *3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo*, polimorfismo: Capacidade de objetos de diferentes classes derivadas responderem a uma mesma mensagem (chamada de método) de maneiras particulares e especializadas.
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "subclasse herda somente os atributos e os métodos privados da superclasse". De acordo com a teoria estudada em *3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo*, herança: Relação estática entre classes onde uma subclasse (filha) estende atributos e comportamentos de uma superclasse (pai), estabelecendo uma taxonomia do tipo "é um" (*is-a*).
+> - **B)** **Correta.** Conforme fundamentado na seção *3.2 Polimorfismo Estático (Sobrecarga) vs. Polimorfismo Dinâmico (Sobrescrita)* deste guia, definição: Múltiplos métodos com o mesmo nome declarados na mesma classe. — Redefinição de um método herdado da superclasse na subclasse. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 11ª/2017) ao estabelecer que "subclasse normalmente usa a anotação @Override para indicar que um método da superclasse foi sobrescrito".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "subclasse não pode ter mais que um construtor, mesmo que receba parâmetros diferentes". De acordo com a teoria estudada em *3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo*, polimorfismo: Capacidade de objetos de diferentes classes derivadas responderem a uma mesma mensagem (chamada de método) de maneiras particulares e especializadas.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "superclasse não pode ter métodos sobrecarregados ou sobrescritos". De acordo com a teoria estudada em *3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento*, composição sobre Herança: A herança gera forte acoplamento de código (*acoplamento de caixa-branca*), quebrando o encapsulamento caso a subclasse dependa de detalhes de implementação da superclasse.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "subclasse não pode sobrescrever um método da superclasse, mas o contrário é permitido". De acordo com a teoria estudada em *3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento*, *Classe Abstrata:* Não pode ser instanciada diretamente (`new`). Pode conter métodos abstratos (sem corpo) e métodos concretos (com implementação), além de atributos de instância com qualquer modificador de acesso. Modela uma herança conceitual forte.
 >
-> **Gabarito: D**
+> **Gabarito: B**
 
 ---
 
 ### Teste 061
-**(FCC – TRT-9 – Analista Judiciario Apoio Especializado Tecnologia da Informacao – 2015)**
-Em uma servlet de uma aplicação web construída com Java EE, os dados de um objeto do tipo ArrayList chamado listaFun, contendo um conjunto de objetos de uma classe bean chamada Funcionario, foram incluídos em um atributo de requisição chamado funcionarios, enviado para um arquivo chamado exibefun.jsp. Estas operações foram realizadas pelo fragmento de código a seguir: request.setAttribute("funcionarios", listaFun); RequestDispatcher disp = request.getRequestDispatcher("exibefun.jsp");; disp.forward(request, response); No arquivo exibefun.jsp, para receber o atributo de requisição funcionarios, no interior de uma tag de scriptlet pode-se utilizar a instrução
+**(FCC – TRT 16ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
+Considere as classes a seguir, presentes em uma aplicação Java orientada a objetos: public class Funcionario { private int id; private String nome; private double valorBase; public Funcionario() { } public Funcionario(int id, String nome, double valorBase) { this.id = id; this.nome = nome; this.valorBase=valorBase; } public double getValorBase() { return valorBase; } public double calcularSalario(){ return valorBase; } } public class Mensalista extends Funcionario{ private double descontos; public Mensalista(double descontos, int id, String nome, double valorBase) { super(id, nome, valorBase); this.descontos = descontos; } @Override public double calcularSalario(){ return super.getValorBase() - descontos; } } public class Diarista extends Funcionario { private int diasPorSemana; public Diarista( int diasPorSemana, int id, String nome, double valorBase) { super(id, nome, valorBase); this.diasPorSemana = diasPorSemana; } @Override public double calcularSalario(){ return super.getValorBase() * diasPorSemana; } } Em uma classe principal foram digitadas, no interior do método main, as seguintes linhas: double s; Funcionario f; f=new Diarista(3,10456,"Ana Maria",90); s = f.calcularSalario(); System.out.println(s); f=new Mensalista(298.56,10457,"Pedro Henrique",877.56); s = f.calcularSalario(); System.out.println(s); As linhas que contêm a instrução s = f.calcularSalario(); demonstram um conceito da orientação a objetos conhecido como
 
-* **A)** ArrayList`<Funcionario>` funcionarios = request.getAttribute("funcionarios");
-* **B)** ArrayList funcionarios = (ArrayList) response.getAttribute("funcionarios");
-* **C)** ArrayList funcionarios = (Funcionario) request.getAttribute("funcionarios");
-* **D)** ArrayList`<Funcionario>` funcionarios = (ArrayList`<Funcionario>`) request.getAttribute ("funcionarios");
-* **E)** ArrayList funcionarios = response.getAttribute("funcionarios").toArrayList();
+* **A)** <errorcode>, <faultmessage>, <faultsource> e <faultowner>
+* **B)** <faultcode>, <faultstring>, <details> e <faultactor>
+* **C)** <faultcode>, <faulttype>, <faultdetails> e <faultfactor>
+* **D)** <errorcode>, <errormessage>, <errorsource> e <workaround>
+* **E)** <fault_error_code>, <fault_string>, <fault_details> e <fault_actor>
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ArrayList`<Funcionario>` funcionarios = request.getAttribute("funcionarios")". De acordo com a teoria estudada em *3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo*, polimorfismo: Capacidade de objetos de diferentes classes derivadas responderem a uma mesma mensagem (chamada de método) de maneiras particulares e especializadas.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ArrayList funcionarios = (ArrayList) response.getAttribute("funcionarios")". De acordo com a teoria estudada em *3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento*, *Classe Abstrata:* Não pode ser instanciada diretamente (`new`). Pode conter métodos abstratos (sem corpo) e métodos concretos (com implementação), além de atributos de instância com qualquer modificador de acesso. Modela uma herança conceitual forte.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ArrayList funcionarios = (Funcionario) request.getAttribute("funcionarios")". De acordo com a teoria estudada em *3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo*, encapsulamento: Ocultamento do estado interno e detalhes algorítmicos de um objeto. O acesso às variáveis de instância é protegido por modificadores de visibilidade (`private`, `protected`, `public`), expondo apenas operações controladas de interface pública.
-> - **D)** **Correta.** Conforme fundamentado na seção *1.1 Variáveis, Escopo e Passagem de Parâmetros (Valor vs. Referência)* deste guia, passagem por Referência (ou Valor da Referência): Em linguagens modernas como Java e Python, a passagem é estritamente por valor, mas para variáveis de tipos não primitivos (objetos e coleções), o "valor" copiado é o endereço de memória (ponteiro) do objeto. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-9/2015) ao estabelecer que "ArrayList`<Funcionario>` funcionarios = (ArrayList`<Funcionario>`) request.getAttribute ("funcionarios")".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ArrayList funcionarios = response.getAttribute("funcionarios").toArrayList()". De acordo com a teoria estudada em *3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento*, composição sobre Herança: A herança gera forte acoplamento de código (*acoplamento de caixa-branca*), quebrando o encapsulamento caso a subclasse dependa de detalhes de implementação da superclasse.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "`<errorcode>`, `<faultmessage>`, `<faultsource>` e `<faultowner>`". De acordo com a teoria estudada em *3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento*, *Classe Abstrata:* Não pode ser instanciada diretamente (`new`). Pode conter métodos abstratos (sem corpo) e métodos concretos (com implementação), além de atributos de instância com qualquer modificador de acesso. Modela uma herança conceitual forte.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "`<faultcode>`, `<faultstring>`, `<details>` e `<faultactor>`". De acordo com a teoria estudada em *3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo*, polimorfismo: Capacidade de objetos de diferentes classes derivadas responderem a uma mesma mensagem (chamada de método) de maneiras particulares e especializadas.
+> - **C)** **Correta.** Conforme fundamentado na seção *3.2 Polimorfismo Estático (Sobrecarga) vs. Polimorfismo Dinâmico (Sobrescrita)* deste guia, a FCC adora afirmar que dois métodos são sobrecarregados se eles tiverem o mesmo nome, os mesmos parâmetros e apenas o tipo de retorno diferente (ex.: `int calcular(int x)` e `double calcular(int x)`). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 16ª/2014) ao estabelecer que "`<faultcode>`, `<faulttype>`, `<faultdetails>` e `<faultfactor>`".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "`<errorcode>`, `<errormessage>`, `<errorsource>` e `<workaround>`". De acordo com a teoria estudada em *3.2 Polimorfismo Estático (Sobrecarga) vs. Polimorfismo Dinâmico (Sobrescrita)*, definição: Múltiplos métodos com o mesmo nome declarados na mesma classe. — Redefinição de um método herdado da superclasse na subclasse.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "`<fault_error_code>`, `<fault_string>`, `<fault_details>` e `<fault_actor>`". De acordo com a teoria estudada em *4.3 Operações Funcionais sobre Coleções: map, filter e reduce*, `reduce`: Acumula todos os elementos da coleção aplicando iterativamente uma função de combinação. — Exatamente $1$ valor — Valor escalar consolidado ou objeto acumulador único (número, string).
 >
-> **Gabarito: D**
+> **Gabarito: C**
 
 ---
 
 ### Teste 062
-**(FGV – TJ-BA – Analista Judiciario Tecnologia da Informacao – 2015)**
-Considere os termos private / protected, usados para especificar os direitos de acesso aos membros de classes escritas na linguagem C++. Na ordem respectiva, esses termos denotam permissões de acesso que se limitam aos membros:
+**(FCC – TRT 23ª – 2016 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
+A modelagem funcional de um sistema pode ser realizada por meio de DFDs que
 
-* **A)** da mesma classe / da mesma classe e de classes derivadas;
-* **B)** da mesma classe / de classes derivadas que sejam protected;
-* **C)** da mesma classe que não sejam public / de classes derivadas que não sejam public;
-* **D)** de classes derivadas que sejam private / da mesma classe;
-* **E)** da mesma classe e de classes derivadas / da mesma classe.
+* **A)** mostram a organização dos valores no interior dos objetos e a sequência em que ocorrem as interações entre os processos.
+* **B)** não mostram informações de controle, como o momento em que os processos são executados, ou decisões entre vias alternativas de dados.
+* **C)** apresentam os relacionamentos funcionais dos valores calculados por um sistema incluindo valores de entrada e saída, mas não inclui valores de depósitos de dados.
+* **D)** mostram as classes, atributos, operações e relacionamentos entre os processos e atores do sistema.
+* **E)** são compostos por processos, fluxo de dados, entidades externas, atributos e métodos.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo* deste guia, polimorfismo: Capacidade de objetos de diferentes classes derivadas responderem a uma mesma mensagem (chamada de método) de maneiras particulares e especializadas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-BA/2015) ao estabelecer que "da mesma classe / da mesma classe e de classes derivadas".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "da mesma classe / de classes derivadas que sejam protected". De acordo com a teoria estudada em *3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo*, encapsulamento: Ocultamento do estado interno e detalhes algorítmicos de um objeto. O acesso às variáveis de instância é protegido por modificadores de visibilidade (`private`, `protected`, `public`), expondo apenas operações controladas de interface pública.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "da mesma classe que não sejam public / de classes derivadas que não sejam public". De acordo com a teoria estudada em *3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento*, *Classe Abstrata:* Não pode ser instanciada diretamente (`new`). Pode conter métodos abstratos (sem corpo) e métodos concretos (com implementação), além de atributos de instância com qualquer modificador de acesso. Modela uma herança conceitual forte.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de classes derivadas que sejam private / da mesma classe". De acordo com a teoria estudada em *3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento*, *Interface:* Define um contrato puro de comportamento. Classes de diferentes hierarquias podem implementar a mesma interface, viabilizando o desacoplamento de contratos e a substituição de componentes.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "da mesma classe e de classes derivadas / da mesma classe". De acordo com a teoria estudada em *3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento*, alta Coesão e Baixo Acoplamento: Módulos de software de excelência devem ser altamente coesos (cada classe com foco em um propósito único do negócio) e fracamente acoplados (comunicação através de interfaces abstratas, permitindo substituição dinâmica).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "mostram a organização dos valores no interior dos objetos e a sequência em que ocorrem as interações entre os...". De acordo com a teoria estudada em *3.1 Os Quatro Pilares da POO: Abstração, Encapsulamento, Herança e Polimorfismo*, polimorfismo: Capacidade de objetos de diferentes classes derivadas responderem a uma mesma mensagem (chamada de método) de maneiras particulares e especializadas.
+> - **B)** **Correta.** Conforme fundamentado na seção *3.2 Polimorfismo Estático (Sobrecarga) vs. Polimorfismo Dinâmico (Sobrescrita)* deste guia, momento de Resolução: Tempo de Compilação (*Compile-time* / Ligação Estática / *Early Binding*). — Tempo de Execução (*Runtime* / Ligação Dinâmica / *Late Binding*). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 23ª/2016) ao estabelecer que "não mostram informações de controle, como o momento em que os processos são executados, ou decisões entre vias...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "apresentam os relacionamentos funcionais dos valores calculados por um sistema incluindo valores de entrada e...". De acordo com a teoria estudada em *4.3 Operações Funcionais sobre Coleções: map, filter e reduce*, método Funcional: Propósito Central da Operação — Cardinalidade de Saída vs. Entrada — Tipo do Retorno.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "mostram as classes, atributos, operações e relacionamentos entre os processos e atores do sistema". De acordo com a teoria estudada em *3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento*, *Classe Abstrata:* Não pode ser instanciada diretamente (`new`). Pode conter métodos abstratos (sem corpo) e métodos concretos (com implementação), além de atributos de instância com qualquer modificador de acesso. Modela uma herança conceitual forte.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "são compostos por processos, fluxo de dados, entidades externas, atributos e métodos". De acordo com a teoria estudada em *4.1 Princípios Fundamentais: Funções Puras, Imutabilidade e Transparência Referencial*, *Ausência de Efeitos Colaterais (*No Side Effects*):* Não modifica variáveis externas ou globais, não altera parâmetros recebidos por referência e não realiza operações de I/O em disco ou rede durante a sua computação pura.
 >
-> **Gabarito: A**
+> **Gabarito: B**
 
 ---
 
@@ -484,48 +478,48 @@ flowchart LR
 ---
 
 ### Teste 063
-**(FGV – TJ-MT – Analista Judiciario Tecnologia da Informacao – 2024)**
-A linguagem de programação R é uma linguagem especializada em análise estatística e manipulação de dados, muito popular em áreas como ciência de dados, estatísticas, biotecnologia, econometria e inteligência artificial. Desenvolvida por Ross Ihaka e Robert Gentleman na década de 1990, R foi projetada para fornecer um ambiente de desenvolvimento para análise de dados, com um foco particular em estatísticas e gráficos. Em R, o operador %in%
+**(FGV – TJ/RR – 2024 – Analista Judiciario Gestao E Governanca De Tecnologia Da Informacao)**
+Em sistemas computacionais, diversos componentes desempenham funções essenciais e interagem para assegurar o funcionamento eficiente do sistema. A compreensão de como esses elementos se conectam e colaboram é fundamental para entender o funcionamento do hardware. Nesse contexto, analise as seguintes afirmações. I. O barramento é o canal de comunicação responsável por interligar os componentes, viabilizando a troca de dados entre os diversos dispositivos. Ele pode ser utilizado para a transmissão de sinais de controle, instruções e dados. II. O componente responsável por coordenar e gerenciar toda a atividade de um processador é a Unidade Lógica e Aritmética. III. Os registradores são memórias de média velocidade e alta capacidade de armazenamento, porém seu uso é limitado devido ao alto custo. Está correto o que se afirma em
 
-* **A)** compara dois vetores e retorna TRUE se todos os elementos do primeiro vetor estiverem contidos no segundo.
-* **B)** realiza a união de dois vetores, retornando um vetor com todos os elementos exclusivos dos dois vetores.
-* **C)** verifica se dois vetores têm exatamente os mesmos elementos e na mesma ordem, retornando TRUE ou FALSE.
-* **D)** calcula a interseção entre dois vetores, retornando apenas os elementos que são comuns entre eles.
-* **E)** verifica se um elemento ou conjunto de elementos do primeiro vetor está presente no segundo vetor, retornando um vetor lógico.
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *2.1 Estruturas Lineares: Vetores, Listas Encadeadas, Pilhas e Filas* deste guia, *Desvantagem:* Inserções ou remoções no meio do vetor exigem o deslocamento (*shift*) de todos os elementos posteriores, consumindo tempo \$\mathcal{O}(n)\$. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-MT/2024) ao estabelecer que "compara dois vetores e retorna TRUE se todos os elementos do primeiro vetor estiverem contidos no segundo".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "realiza a união de dois vetores, retornando um vetor com todos os elementos exclusivos dos dois vetores". De acordo com a teoria estudada em *2.1 Estruturas Lineares: Vetores, Listas Encadeadas, Pilhas e Filas*, *Circular:* O último nó aponta de volta para o primeiro nó da lista.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "verifica se dois vetores têm exatamente os mesmos elementos e na mesma ordem, retornando TRUE ou FALSE". De acordo com a teoria estudada em *4.1 Princípios Fundamentais: Funções Puras, Imutabilidade e Transparência Referencial*, *Determinismo:* Para os mesmos argumentos de entrada, a função retorna rigorosamente o mesmo valor.
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "calcula a interseção entre dois vetores, retornando apenas os elementos que são comuns entre eles". De acordo com a teoria estudada em *2.1 Estruturas Lineares: Vetores, Listas Encadeadas, Pilhas e Filas*, *Last-In, First-Out* (o último elemento a entrar é o primeiro a sair).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "verifica se um elemento ou conjunto de elementos do primeiro vetor está presente no segundo vetor, retornando um...". De acordo com a teoria estudada em *2.1 Estruturas Lineares: Vetores, Listas Encadeadas, Pilhas e Filas*, *First-In, First-Out* (o primeiro elemento a entrar é o primeiro a ser processado).
+> - **A)** **Correta.** Conforme fundamentado na seção *4.1 Princípios Fundamentais: Funções Puras, Imutabilidade e Transparência Referencial* deste guia, transparência Referencial: Uma expressão pode ser substituída diretamente pelo seu valor resultante em qualquer ponto do programa sem alterar o comportamento global do sistema. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "I, apenas".
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *4.2 Funções de Primeira Classe e Funções de Alta Ordem (Higher-Order Functions)*, funções como Cidadãs de Primeira Classe (*First-Class Citizens*): Funções podem ser atribuídas a variáveis, armazenadas em estruturas de dados, passadas como parâmetros e retornadas como resultado de outras funções.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento*, alta Coesão e Baixo Acoplamento: Módulos de software de excelência devem ser altamente coesos (cada classe com foco em um propósito único do negócio) e fracamente acoplados (comunicação através de interfaces abstratas, permitindo substituição dinâmica).
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento*, *Interface:* Define um contrato puro de comportamento. Classes de diferentes hierarquias podem implementar a mesma interface, viabilizando o desacoplamento de contratos e a substituição de componentes.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *4.2 Funções de Primeira Classe e Funções de Alta Ordem (Higher-Order Functions)*, funções de Alta Ordem (*Higher-Order Functions*): Funções que recebem uma ou mais funções como argumento ou retornam uma função (como `map`, `filter`, `reduce`).
 >
 > **Gabarito: A**
 
 ---
 
 ### Teste 064
-**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Desenvolvimento de Sistemas – 2023)**
-No contexto do jQuery, analise o script a seguir. `<script>` \$(document).ready(function(){ \$("button").click(function(){ alert(\$("#xpto").val()); }); }); `</script>` A função do termo “#xpto”, utilizado nesse código, é:
+**(FCC – TRT 4ª – 2015 – Analista Judiciário - Tecnologia Da Informação)**
+Para determinar o tamanho do software, de acordo com a AFP, devem ser seguidos procedimentos de contagem compostos por várias etapas. Na etapa de contagem das funções de transação, são definidas as Entradas Externas (EE), Saídas Externas (SE) e Consultas Externas (CE). Dentre os exemplos de CE estão
 
-* **A)** detectar o acionamento do evento “xpto”;
-* **B)** provocar o acionamento do evento “#xpto”;
-* **C)** acionar uma função JavaScript intitulada “xpto”;
-* **D)** referenciar um elemento HTML que pertence à class “xpto”;
-* **E)** referenciar um elemento HTML que possui o valor do atributo id igual a “xpto”.
+* **A)** os dados passados entre online e batch dentro das fronteiras da mesma aplicação.
+* **B)** as informações provenientes de cálculos ou procedimentos para obtenção de dados derivados.
+* **C)** as mensagens de erros ou de confirmação associadas às EE, SE ou CE.
+* **D)** os relatórios de vendas semanais que requerem o uso de algoritmos e cálculos.
+* **E)** as operações de recuperação de e-mail de uma mailbox.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "detectar o acionamento do evento “xpto”". De acordo com a teoria estudada em *4.1 Princípios Fundamentais: Funções Puras, Imutabilidade e Transparência Referencial*, *Determinismo:* Para os mesmos argumentos de entrada, a função retorna rigorosamente o mesmo valor.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "provocar o acionamento do evento “#xpto”". De acordo com a teoria estudada em *4.3 Operações Funcionais sobre Coleções: map, filter e reduce*, `reduce`: Acumula todos os elementos da coleção aplicando iterativamente uma função de combinação. — Exatamente \$1\$ valor — Valor escalar consolidado ou objeto acumulador único (número, string).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "acionar uma função JavaScript intitulada “xpto”". De acordo com a teoria estudada em *1.1 Variáveis, Escopo e Passagem de Parâmetros (Valor vs. Referência)*, *Escopo Local de Bloco/Função:* Visível estritamente dentro do corpo da sub-rotina onde foi declarada, sendo liberada da pilha (*stack*) ao término da execução.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "referenciar um elemento HTML que pertence à class “xpto”". De acordo com a teoria estudada em *4.2 Funções de Primeira Classe e Funções de Alta Ordem (Higher-Order Functions)*, funções como Cidadãs de Primeira Classe (*First-Class Citizens*): Funções podem ser atribuídas a variáveis, armazenadas em estruturas de dados, passadas como parâmetros e retornadas como resultado de outras funções.
-> - **E)** **Correta.** Conforme fundamentado na seção *4.3 Operações Funcionais sobre Coleções: map, filter e reduce* deste guia, `map`: Aplica uma função de transformação individual a cada elemento da coleção. — Rigorosamente igual a \$n\$ — Nova coleção com elementos transformados (mesmo tamanho). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "referenciar um elemento HTML que possui o valor do atributo id igual a “xpto”".
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os dados passados entre online e batch dentro das fronteiras da mesma aplicação". De acordo com a teoria estudada em *4.2 Funções de Primeira Classe e Funções de Alta Ordem (Higher-Order Functions)*, funções como Cidadãs de Primeira Classe (*First-Class Citizens*): Funções podem ser atribuídas a variáveis, armazenadas em estruturas de dados, passadas como parâmetros e retornadas como resultado de outras funções.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as informações provenientes de cálculos ou procedimentos para obtenção de dados derivados". De acordo com a teoria estudada em *3.3 Relações Estruturais: Classes Abstratas, Interfaces, Coesão e Acoplamento*, alta Coesão e Baixo Acoplamento: Módulos de software de excelência devem ser altamente coesos (cada classe com foco em um propósito único do negócio) e fracamente acoplados (comunicação através de interfaces abstratas, permitindo substituição dinâmica).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as mensagens de erros ou de confirmação associadas às EE, SE ou CE". De acordo com a teoria estudada em *2.1 Estruturas Lineares: Vetores, Listas Encadeadas, Pilhas e Filas*, aplicações: Spoolers de impressão, filas de mensagens assíncronas (RabbitMQ/Kafka) e algoritmo de busca em largura (BFS) em grafos e árvores.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os relatórios de vendas semanais que requerem o uso de algoritmos e cálculos". De acordo com a teoria estudada em *4.3 Operações Funcionais sobre Coleções: map, filter e reduce*, `filter`: Seleciona os elementos da coleção que satisfazem um predicado booleano. — $0 \le \text{tamanho} \le n$ — Nova coleção filtrada com elementos do mesmo tipo.
+> - **E)** **Correta.** Conforme fundamentado na seção *4.1 Princípios Fundamentais: Funções Puras, Imutabilidade e Transparência Referencial* deste guia, *Ausência de Efeitos Colaterais (*No Side Effects*):* Não modifica variáveis externas ou globais, não altera parâmetros recebidos por referência e não realiza operações de I/O em disco ou rede durante a sua computação pura. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 4ª/2015) ao estabelecer que "as operações de recuperação de e-mail de uma mailbox".
 >
 > **Gabarito: E**
 

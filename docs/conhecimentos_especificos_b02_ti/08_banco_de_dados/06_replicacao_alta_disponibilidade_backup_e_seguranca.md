@@ -105,50 +105,50 @@ Cliente ◄──(2. SUCESSO)── Primário
 ---
 
 ### Teste 289
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Ciencia de Dados – 2024)**
-SGBD é a sigla para Sistema de Gerenciamento de Banco de Dados. Trata-se de um software que permite a criação, manipulação e administração de bancos de dados. Como um ecossistema completo para gerenciamento dos dados, muitos recursos são implementados nos SGBDs, sendo um dos mais importantes os chamados índices. Em um Sistema de Gerenciamento de Banco de Dados (SGBD), os índices são utilizados para
+**(FCC – TRT 11ª – 2017 – Analista Judiciário - Tecnologia da Informação)**
+Pode-se calcular o valor total de um sistema em Use Case Points (UCP) utilizando-se a seguinte fórmula: UCP = UUCP × TCF × ECF Um Analista afirma corretamente:
 
-* **A)** armazenar dados sensíveis de forma criptografada.
-* **B)** melhorar o desempenho das consultas ao permitir acesso rápido aos registros.
-* **C)** controlar as permissões de acesso aos dados por meio de políticas de segurança.
-* **D)** efetuar cópias de segurança (backups) automáticos dos dados do banco.
-* **E)** executar operações de migração de esquema entre diferentes versões do SGBD.
+* **A)** Determinar que um dado fator ambiental (ECF) tem nível de influência alta corresponde a atribuir a ele o valor 10, indi- cando que está presente no projeto e influencia um único Use Case.
+* **B)** A fim de se determinar o tempo necessário para o desenvolvimento do projeto, devem-se usar 20 horas de trabalho para cada UCP e dividir este valor por 60.
+* **C)** O Peso Total Não Ajustado (Unadjusted Use Case Points-UUCP) é calculado pelo somatório entre os pesos de atores (Unadjusted Actor Weight) e os pesos de casos de uso (Unadjusted Use Case Weight).
+* **D)** TCF se refere ao Fator de Complexidade de Tempo do sistema ou Time Complexity Factor.
+* **E)** No caso dos fatores ambientais ou Environment and Conservation Fact (ECF), o nível de influência indica o nível de disponibilidade de cada recurso no decorrer do projeto.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "armazenar dados sensíveis de forma criptografada". De acordo com a teoria estudada em *4.2 Mascaramento Dinâmico de Dados (DDM) e Privacidade (LGPD)*, o Dynamic Data Masking (DDM) intercepta as consultas SQL no momento de sua emissão e ofusca dinamicamente campos sensíveis (CPF, dados bancários, prontuários de saúde).
-> - **B)** **Correta.** Conforme fundamentado na seção *3.1 Backup Lógico vs. Backup Físico* deste guia, lê os registros das tabelas via consultas SQL e extrai a estrutura e os dados em arquivos de texto plano contendo instruções DDL/DML (`CREATE TABLE`, `INSERT`) ou em formatos proprietários compactados. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "melhorar o desempenho das consultas ao permitir acesso rápido aos registros".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "controlar as permissões de acesso aos dados por meio de políticas de segurança". De acordo com a teoria estudada em *4. Segurança, Criptografia, Privacidade e Governança de Dados*, a proteção de ativos de informação em tribunais de controle externo exige mecanismos em camadas (*defense-in-depth*), combinando criptografia, controle de acesso e conformidade legal com a Lei Geral de Proteção de Dados (LGPD).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "efetuar cópias de segurança (backups) automáticos dos dados do banco". De acordo com a teoria estudada em *4.3 Trilhas de Auditoria e Controle de Acesso Baseado em Papéis (RBAC)*, registram de modo irrefutável e imutável os eventos críticos no banco: quem executou (`username`), qual máquina de origem (`ip_address`), quando (`timestamp`) e o comando SQL exato que alterou ou consultou tabelas fiscais confidenciais, viabilizando perícias judiciais e investigações de controle externo.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "executar operações de migração de esquema entre diferentes versões do SGBD". De acordo com a teoria estudada em *1.3 Replicação Física vs. Replicação Lógica*, *Flexibilidade:* Permite arquiteturas do tipo *Publish/Subscribe*, replicação granular de tabelas específicas, consolidação de múltiplos bancos departamentais em um *Data Warehouse* central e replicação entre versões heterogêneas do SGBD.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Determinar que um dado fator ambiental (ECF) tem nível de influência alta corresponde a atribuir a ele o valor 10...". De acordo com a teoria estudada em *4.2 Mascaramento Dinâmico de Dados (DDM) e Privacidade (LGPD)*, *Pseudonimização:* O dado só pode ser associado a um titular mediante o uso de informação adicional mantida separadamente em ambiente seguro.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A fim de se determinar o tempo necessário para o desenvolvimento do projeto, devem-se usar 20 horas de trabalho...". De acordo com a teoria estudada em *2.4 Soluções de HA Corporativas: Patroni, Oracle Data Guard e RAC*, utiliza uma camada de armazenamento de chave-valor distribuída com algoritmo Raft (etcd) para armazenar o estado do cluster (*DCS - Distributed Consensus Store*), garantindo eleições transparentes de líder, failover automatizado e proteção matemática estrita contra split-brain.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.2 Topologias de Replicação: Leader-Follower vs. Multi-Master* deste guia, desvantagem: O nó primário atua como gargalo único para a capacidade total de escrita do sistema. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 11ª/2017) ao estabelecer que "O Peso Total Não Ajustado (Unadjusted Use Case Points-UUCP) é calculado pelo somatório entre os pesos de atores...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "TCF se refere ao Fator de Complexidade de Tempo do sistema ou Time Complexity Factor". De acordo com a teoria estudada em *1.2 Topologias de Replicação: Leader-Follower vs. Multi-Master*, se dois usuários alterarem a mesma coluna da mesma tupla em nós diferentes no mesmo milissegundo, o sistema deve adotar heurísticas determinísticas para desempate, tais como: *Last-Write-Wins (LWW)* baseado em carimbos de tempo sincronizados, tipos de dados livres de conflito (*CRDTs*) ou mediação por regras negociais na camada de aplicação.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "No caso dos fatores ambientais ou Environment and Conservation Fact (ECF), o nível de influência indica o nível de...". De acordo com a teoria estudada em *3.1 Backup Lógico vs. Backup Físico*, *Vantagens:* Portabilidade total entre sistemas operacionais heterogêneos, facilidade de restauração de tabelas avulsas e inspeção textual legível.
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
 
 ### Teste 290
-**(FGV – TRT-24 – Analista Judiciario Area Apoio Especializado Tecnologia da Informacao – 2025)**
-Carlos necessita instalar o Grafana (versão 11.6) em um servidor de um tribunal para criar dashboards interativos e monitorar métricas de sistemas, aplicações e infraestruturas em tempo real. Com relação aos requisitos mínimos de hardware e software para que uma instalação seja bem-sucedida, analise as afirmativas a seguir. I. A instalação do Grafana é suportada pelos fabricantes dos seguintes sistemas operacionais: Debian ou Ubuntu, RHEL ou Fedora, SUSE ou openSUSE, Mac OS e Windows. II. A recomendação mínima de hardware é de pelo menos 1.204 MB de memória RAM e CPU com nó mínimo 2 núcleos. III. O Grafana requer um sistema gerenciador de banco de dados (SGBD) para armazenar os dados de configuração, de usuários e seus dashboards; ele suporta os seguintes SGBDs: SQLite 3, MySQL 8.0 ou superior e PostgreSQL 12 ou superior. Está correto o que se afirma em
+**(FGV – TJ/DFT – 2022 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+No contexto do aplicativo pg_dump no PostgreSQL, analise as afirmativas a seguir. I. O acionamento do pg_dump deve ser feito no servidor onde o PostgreSQL está instalado. II. Na recuperação do backup, o banco de dados não pode existir, uma vez que é totalmente recriado. III. As informações a respeito de roles e tablespaces do banco de dados não são incluídas no backup. Está correto somente o que se afirma em:
 
-* **A)** I, apenas.
-* **B)** II, apenas.
-* **C)** III, apenas.
-* **D)** I e III, apenas.
-* **E)** II e III, apenas.
+* **A)** II;
+* **B)** III;
+* **C)** I e II;
+* **D)** I e III;
+* **E)** II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *1.3 Replicação Física vs. Replicação Lógica*, *Restrições:* Exige rigorosamente a mesma versão principal do SGBD, mesmo sistema operacional e mesma arquitetura de hardware entre os servidores. Não permite replicar tabelas selecionadas.
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas". De acordo com a teoria estudada em *1.1 Replicação Síncrona vs. Assíncrona*, latência e Desempenho: Maior latência por transação de escrita, diretamente dependente do tempo de ida e volta da rede (*Round-Trip Time - RTT*). — Mínima latência e máxima vazão de escrita local, idêntica à de um servidor autônomo.
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III, apenas". De acordo com a teoria estudada em *1.2 Topologias de Replicação: Leader-Follower vs. Multi-Master*, se dois usuários alterarem a mesma coluna da mesma tupla em nós diferentes no mesmo milissegundo, o sistema deve adotar heurísticas determinísticas para desempate, tais como: *Last-Write-Wins (LWW)* baseado em carimbos de tempo sincronizados, tipos de dados livres de conflito (*CRDTs*) ou mediação por regras negociais na camada de aplicação.
-> - **D)** **Correta.** Conforme fundamentado na seção *4.1 Criptografia em Repouso: Transparent Data Encryption (TDE)* deste guia, transparência Absoluta: O processo de criptografia e descriptografia ocorre na memória RAM pelo motor do SGBD durante as operações de I/O de blocos. Aplicações clientes e consultas SQL não exigem nenhuma alteração de código. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "I e III, apenas".
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *3.1 Backup Lógico vs. Backup Físico*, *Vantagens:* Portabilidade total entre sistemas operacionais heterogêneos, facilidade de restauração de tabelas avulsas e inspeção textual legível.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II". De acordo com a teoria estudada em *2.2 O Fenômeno Crítico do Split-Brain*, o Split-Brain (Cérebro Dividido) é a falha arquitetural mais destrutiva que pode ocorrer em um cluster de banco de dados distribuído.
+> - **B)** **Correta.** Conforme fundamentado na seção *4.2 Mascaramento Dinâmico de Dados (DDM) e Privacidade (LGPD)* deste guia, *Pseudonimização:* O dado só pode ser associado a um titular mediante o uso de informação adicional mantida separadamente em ambiente seguro. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/DFT/2022) ao estabelecer que "III".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e II". De acordo com a teoria estudada em *2.3 Estratégias de Quórum Distribuído, Árbitros e STONITH*, para que um nó possa ser eleito líder ou continue a processar comandos de escrita, ele deve manter contato simultâneo com a maioria estrita dos nós do cluster.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e III". De acordo com a teoria estudada em *1.2 Topologias de Replicação: Leader-Follower vs. Multi-Master*, se dois usuários alterarem a mesma coluna da mesma tupla em nós diferentes no mesmo milissegundo, o sistema deve adotar heurísticas determinísticas para desempate, tais como: *Last-Write-Wins (LWW)* baseado em carimbos de tempo sincronizados, tipos de dados livres de conflito (*CRDTs*) ou mediação por regras negociais na camada de aplicação.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II e III". De acordo com a teoria estudada em *3.3 Point-in-Time Recovery (PITR)*, o PITR (Recuperação para um Ponto no Tempo) é a tecnologia que viabiliza reverter o banco de dados para um instante cronológico exato no passado (ex.: 14:35:28), anterior a um erro humano (ex.: `DROP TABLE` ou `DELETE` em lote sem `WHERE`) ou ataque destrutivo.
 >
-> **Gabarito: D**
+> **Gabarito: B**
 
 ---
 
@@ -223,50 +223,50 @@ Para erradicar a ocorrência de split-brain, os sistemas modernos de HA utilizam
 ---
 
 ### Teste 291
-**(CEBRASPE – TJ-RJ – Analista Judiciario Grupo Tecnologia da Informacao Analista de Infraestrutura de Tic – 2021)**
-Uma organização que utiliza servidores de bancos de dados Oracle possui dois datacenters (DC1 e DC2): o banco de dados do DC 1 tem estado ativo para leitura e escrita; o banco de dados do DC 2 tem estado de somente leitura. A organização necessita manter os dados armazenados nos dois datacenters, não suportando mais que 20 minutos de perda de dados, portanto, os dados devem ser replicados do DC1 para o DC2 imediatamente após serem gravados, considerando-se a estratégia near real time. Com os mecanismos suportados pelo fabricante Oracle, essa necessidade é atendida usando-se
+**(FGV – TJ/DFT – 2022 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+A equipe de banco de dados (BD) necessita implementar em sua infraestrutura própria um cluster de BD com 3 nós (3 servidores físicos), os quais irão compartilhar os mesmos discos, que deverão ser apresentados para os 3 nós como raw devices para criação da base de dados. O protocolo utilizado deverá ser o Fibre Channel (FC) e será utilizado um switch com suporte ao FC para permitir que os nós acessem os discos a eles apresentados. A arquitetura de armazenamento que deve ser utilizada para atender os requisitos de armazenamento para o cluster de BD é o:
 
-* **A)** timesten.
-* **B)** DBMSREPAIR.
-* **C)** site guard.
-* **D)** data guard.
-* **E)** audit vault.
+* **A)** RAID 1;
+* **B)** DAS;
+* **C)** NAS;
+* **D)** RAID 6;
+* **E)** SAN.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "timesten". De acordo com a teoria estudada em *2.4 Soluções de HA Corporativas: Patroni, Oracle Data Guard e RAC*, múltiplas instâncias Oracle independentes executadas em servidores distintos acessam e modificam simultaneamente a mesma base de dados persistida em uma SAN/Storage unificado via Oracle ASM, sincronizando blocos de dados em memória através do barramento ultrarrápido *Cache Fusion*.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "DBMSREPAIR". De acordo com a teoria estudada em *2.4 Soluções de HA Corporativas: Patroni, Oracle Data Guard e RAC*, arquitetura de cluster ativo-ativo com armazenamento compartilhado (*Shared-Disk Architecture*).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "site guard". De acordo com a teoria estudada em *2.4 Soluções de HA Corporativas: Patroni, Oracle Data Guard e RAC*, utiliza uma camada de armazenamento de chave-valor distribuída com algoritmo Raft (etcd) para armazenar o estado do cluster (*DCS - Distributed Consensus Store*), garantindo eleições transparentes de líder, failover automatizado e proteção matemática estrita contra split-brain.
-> - **D)** **Correta.** Conforme fundamentado na seção *2.4 Soluções de HA Corporativas: Patroni, Oracle Data Guard e RAC* deste guia, mantém bancos de dados em espera (*Standby Databases*) sincronizados via transporte e aplicação de *Redo Logs*. Emprega o *Fast-Start Failover (FSFO)* com um processo observador (*Observer*) para automatizar a promoção do standby em falhas. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TJ-RJ/2021) ao estabelecer que "data guard".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "audit vault". De acordo com a teoria estudada em *2.4 Soluções de HA Corporativas: Patroni, Oracle Data Guard e RAC*, solução de código aberto padrão de fato para gerenciamento de HA em PostgreSQL.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "RAID 1". De acordo com a teoria estudada em *2.3 Estratégias de Quórum Distribuído, Árbitros e STONITH*, para que um nó possa ser eleito líder ou continue a processar comandos de escrita, ele deve manter contato simultâneo com a maioria estrita dos nós do cluster.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "DAS". De acordo com a teoria estudada em *2.4 Soluções de HA Corporativas: Patroni, Oracle Data Guard e RAC*, arquitetura de cluster ativo-ativo com armazenamento compartilhado (*Shared-Disk Architecture*).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "NAS". De acordo com a teoria estudada em *4.1 Criptografia em Repouso: Transparent Data Encryption (TDE)*, finalidade: Protege o banco caso os discos físicos, storages ou mídias de backup sejam extraviados ou roubados fisicamente.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "RAID 6". De acordo com a teoria estudada em *2.1 Switchover vs. Failover: Transições Planejadas e Emergenciais*, evento controlado e agendado pela equipe de infraestrutura (ex.: manutenção de hardware ou atualização de patch do sistema operacional).
+> - **E)** **Correta.** Conforme fundamentado na seção *2.4 Soluções de HA Corporativas: Patroni, Oracle Data Guard e RAC* deste guia, múltiplas instâncias Oracle independentes executadas em servidores distintos acessam e modificam simultaneamente a mesma base de dados persistida em uma SAN/Storage unificado via Oracle ASM, sincronizando blocos de dados em memória através do barramento ultrarrápido *Cache Fusion*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/DFT/2022) ao estabelecer que "SAN".
 >
-> **Gabarito: D**
+> **Gabarito: E**
 
 ---
 
 ### Teste 292
-**(FGV – TJ-DFT – Analista Judiciario Suporte Em Tecnologia da Informacao – 2022)**
-No contexto do aplicativo pg_dump no PostgreSQL, analise as afirmativas a seguir. I. O acionamento do pg_dump deve ser feito no servidor onde o PostgreSQL está instalado. II. Na recuperação do backup, o banco de dados não pode existir, uma vez que é totalmente recriado. III. As informações a respeito de roles e tablespaces do banco de dados não são incluídas no backup. Está correto somente o que se afirma em:
+**(FGV – TRT/13 – 2022 – Analista Judiciario Tecnologia Da Informacao)**
+A infraestrutura recomendada para instalar o Rancher em um cluster Kubernetes K3 de alta disponibilidade é
 
-* **A)** II;
-* **B)** III;
-* **C)** I e II;
-* **D)** I e III;
-* **E)** II e III.
+* **A)** dois nós Linux, normalmente máquina virtual, e um banco de dados externo do tipo NoSQL.
+* **B)** um cluster com Linux com menos dois nós ou quatro nós se Windows Server normalmente máquinas virtuais; com pelos menos 64 GB de memória RAM no provedor de infraestrutura e um banco de dados externo do tipo NoSQL.
+* **C)** um cluster com Linux de dois nós normalmente máquinas virtuais; com pelos menos 48 GB de memória RAM no provedor de infraestrutura.
+* **D)** dois nós Linux, normalmente máquinas virtuais; um banco de dados externo do tipo relacional, um balanceador de carga e um registro DNS.
+* **E)** quatro nós Windows Server, normalmente máquinas virtuais; um banco de dados externo do tipo relacional, um balanceador de carga entre os quatro nós e dois registros DNS como redundância.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II". De acordo com a teoria estudada em *2.3 Estratégias de Quórum Distribuído, Árbitros e STONITH*, para que um nó possa ser eleito líder ou continue a processar comandos de escrita, ele deve manter contato simultâneo com a maioria estrita dos nós do cluster.
-> - **B)** **Correta.** Conforme fundamentado na seção *2.2 O Fenômeno Crítico do Split-Brain* deste guia, o Split-Brain (Cérebro Dividido) é a falha arquitetural mais destrutiva que pode ocorrer em um cluster de banco de dados distribuído. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-DFT/2022) ao estabelecer que "III".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e II". De acordo com a teoria estudada em *4.2 Mascaramento Dinâmico de Dados (DDM) e Privacidade (LGPD)*, *Pseudonimização:* O dado só pode ser associado a um titular mediante o uso de informação adicional mantida separadamente em ambiente seguro.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e III". De acordo com a teoria estudada em *3.3 Point-in-Time Recovery (PITR)*, o PITR (Recuperação para um Ponto no Tempo) é a tecnologia que viabiliza reverter o banco de dados para um instante cronológico exato no passado (ex.: 14:35:28), anterior a um erro humano (ex.: `DROP TABLE` ou `DELETE` em lote sem `WHERE`) ou ataque destrutivo.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II e III". De acordo com a teoria estudada em *3.1 Backup Lógico vs. Backup Físico*, backup Lógico (`pg_dump` / Oracle Data Pump `expdp`).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "dois nós Linux, normalmente máquina virtual, e um banco de dados externo do tipo NoSQL". De acordo com a teoria estudada em *4.3 Trilhas de Auditoria e Controle de Acesso Baseado em Papéis (RBAC)*, registram de modo irrefutável e imutável os eventos críticos no banco: quem executou (`username`), qual máquina de origem (`ip_address`), quando (`timestamp`) e o comando SQL exato que alterou ou consultou tabelas fiscais confidenciais, viabilizando perícias judiciais e investigações de controle externo.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um cluster com Linux com menos dois nós ou quatro nós se Windows Server normalmente máquinas virtuais; com pelos...". De acordo com a teoria estudada em *2.2 O Fenômeno Crítico do Split-Brain*, o Split-Brain (Cérebro Dividido) é a falha arquitetural mais destrutiva que pode ocorrer em um cluster de banco de dados distribuído.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um cluster com Linux de dois nós normalmente máquinas virtuais; com pelos menos 48 GB de memória RAM no provedor...". De acordo com a teoria estudada em *4.1 Criptografia em Repouso: Transparent Data Encryption (TDE)*, transparência Absoluta: O processo de criptografia e descriptografia ocorre na memória RAM pelo motor do SGBD durante as operações de I/O de blocos. Aplicações clientes e consultas SQL não exigem nenhuma alteração de código.
+> - **D)** **Correta.** Conforme fundamentado na seção *2. Alta Disponibilidade (HA), Failover e Mitigação de Split-Brain* deste guia, a Alta Disponibilidade (*High Availability - HA*) congrega práticas, redundâncias e automações destinadas a assegurar que o serviço de banco de dados permaneça operacional e acessível, mesmo na ocorrência de desastres ou falhas locais. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/13/2022) ao estabelecer que "dois nós Linux, normalmente máquinas virtuais; um banco de dados externo do tipo relacional, um balanceador de...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "quatro nós Windows Server, normalmente máquinas virtuais; um banco de dados externo do tipo relacional, um...". De acordo com a teoria estudada em *1. Replicação de Dados e Topologias Distribuídas*, a replicação consiste na manutenção sincronizada de cópias de dados em múltiplos nós de computação interconectados, provendo redundância geográfica, tolerância a desastres e escalabilidade horizontal para operações de leitura.
 >
-> **Gabarito: B**
+> **Gabarito: D**
 
 ---
 
@@ -343,79 +343,31 @@ A elaboração de acordos de nível de serviço (SLA) para desastres baseia-se e
 ---
 
 ### Teste 293
-**(FGV – TJ-RR – Analista Judiciario Gestao e Governanca de Tecnologia da Informacao – 2024)**
-Para garantir a continuidade dos negócios e a proteção adequada dos dados, uma organização deve definir claramente os objetivos de RTO (Recovery Time Objective) e RPO (Recovery Point Objective). Esses conceitos ajudam a estabelecer estratégias eficazes de recuperação e minimizam o impacto de incidentes. Considerando a importância dos objetivos de recuperação em um plano de continuidade de negócios, assinale a opção que apresenta corretas definições para RTO e RPO.
+**(FCC – TRT 13ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
+Recovery Manager − RMAN é um utilitário de banco de dados que faz o backup, restauração e recuperação de bancos de dados Oracle 11g. Este utilitário
 
-* **A)** RTO é o intervalo máximo aceitável entre o último backup realizado e o momento de um incidente, enquanto RPO é o tempo máximo permitido para restaurar a operação após um incidente.
-* **B)** RTO é o tempo máximo aceitável para restaurar a operação de um sistema após um incidente, enquanto RPO é a quantidade máxima de dados que podem ser perdidos sem causar danos significativos aos negócios.
-* **C)** RTO é a quantidade máxima de dados que podem ser perdidos sem impactos negativos, enquanto RPO é o tempo máximo permitido para a execução de testes de recuperação de desastres.
-* **D)** RTO é o intervalo de tempo entre o último backup realizado e a perda de dados, enquanto RPO é o tempo máximo necessário para restaurar a operação após uma interrupção.
-* **E)** RTO é o tempo máximo permitido para o backup de dados em uma organização, enquanto RPO é o período durante o qual a organização deve manter um backup de dados.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "RTO é o intervalo máximo aceitável entre o último backup realizado e o momento de um incidente, enquanto RPO é o...". De acordo com a teoria estudada em *3. Estratégias de Backup, PITR e Métricas de Continuidade de Negócios*, o plano de recuperação de desastres (*Disaster Recovery Plan*) constitui a última barreira de proteção do patrimônio informacional do Tribunal de Contas perante ataques de ransomware, corrupção lógica de dados ou danos físicos a datacenters.
-> - **B)** **Correta.** Conforme fundamentado na seção *3.4 Métricas Críticas: RPO vs. RTO* deste guia, mede o tempo máximo aceitável de paralisação do sistema até que ele retorne à plena operacionalidade. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-RR/2024) ao estabelecer que "RTO é o tempo máximo aceitável para restaurar a operação de um sistema após um incidente, enquanto RPO é a...".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "RTO é a quantidade máxima de dados que podem ser perdidos sem impactos negativos, enquanto RPO é o tempo máximo...". De acordo com a teoria estudada em *3.4 Métricas Críticas: RPO vs. RTO*, mede a tolerância máxima aceitável de perda de dados, expressa em unidades de tempo.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "RTO é o intervalo de tempo entre o último backup realizado e a perda de dados, enquanto RPO é o tempo máximo...". De acordo com a teoria estudada em *3.4 Métricas Críticas: RPO vs. RTO*, rTO (Recovery Time Objective - Objetivo de Tempo de Recuperação).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "RTO é o tempo máximo permitido para o backup de dados em uma organização, enquanto RPO é o período durante o qual...". De acordo com a teoria estudada em *3.4 Métricas Críticas: RPO vs. RTO*, responde à indagação: *"Por quanto tempo a instituição aguenta manter o sistema fora do ar até a recuperação?"*.
->
-> **Gabarito: B**
-
----
-
-### Teste 294
-**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Seguranca da Informacao – 2023)**
-O setor de Tecnologia da Informação (TI) realiza as cópias de segurança (backup) de acordo com as políticas de backup definidas para cada sistema, conforme os requisitos estabelecidos pelos seus gestores. A fim de agilizar a cópia dos dados e diminuir o tempo da janela de backup diária, o setor de TI implementou um tipo de backup que copia nos dias úteis somente os dados modificados desde o último backup. Essa estratégia implementa um backup:
-
-* **A)** híbrido;
-* **B)** completo;
-* **C)** diferencial;
-* **D)** incremental;
-* **E)** em disco.
+* **A)** permite definir, para cada cópia de segurança, os valores de status: iniciado, finalizado, em andamento, expirado e obsoleto.
+* **B)** permite definir uma tag para identificar um backup como parte de um grupo de backups. Todos os seus backups são etiquetados com uma tag, exceto os incrementais.
+* **C)** armazena os backups de bancos de dados como cópias de imagens (image copies), conjuntos de backup (backup sets) ou backups de arquivos de configuração (configuration file backup).
+* **D)** mantém em um metadado o registro dos arquivos de banco de dados e backups para cada banco de dados em que executa operações.
+* **E)** não suporta paralelismo, que é o uso de múltiplos canais e sessões de servidor para executar o trabalho de um backup ou a tarefa de recuperação.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "híbrido". De acordo com a teoria estudada em *3.3 Point-in-Time Recovery (PITR)*, o PITR (Recuperação para um Ponto no Tempo) é a tecnologia que viabiliza reverter o banco de dados para um instante cronológico exato no passado (ex.: 14:35:28), anterior a um erro humano (ex.: `DROP TABLE` ou `DELETE` em lote sem `WHERE`) ou ataque destrutivo.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "completo". De acordo com a teoria estudada em *4. Segurança, Criptografia, Privacidade e Governança de Dados*, a proteção de ativos de informação em tribunais de controle externo exige mecanismos em camadas (*defense-in-depth*), combinando criptografia, controle de acesso e conformidade legal com a Lei Geral de Proteção de Dados (LGPD).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "diferencial". De acordo com a teoria estudada em *3.3 Point-in-Time Recovery (PITR)*, restauração de um Backup Físico de Base (*Base Backup*): Uma cópia física íntegra anterior ao evento.
-> - **D)** **Correta.** Conforme fundamentado na seção *3.1 Backup Lógico vs. Backup Físico* deste guia, realiza a cópia binária dos blocos de dados físicos brutos (*Datafiles*), arquivos de controle (*Control Files*) e cabeçalhos em nível de sistema de arquivos ou raw disk. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "incremental".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "em disco". De acordo com a teoria estudada em *4.2 Mascaramento Dinâmico de Dados (DDM) e Privacidade (LGPD)*, preservação do Dado Físico: Os dados gravados fisicamente em disco permanecem completamente intactos, originais e íntegros.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "permite definir, para cada cópia de segurança, os valores de status: iniciado, finalizado, em andamento, expirado...". De acordo com a teoria estudada em *3.1 Backup Lógico vs. Backup Físico*, realiza a cópia binária dos blocos de dados físicos brutos (*Datafiles*), arquivos de controle (*Control Files*) e cabeçalhos em nível de sistema de arquivos ou raw disk.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "permite definir uma tag para identificar um backup como parte de um grupo de backups. Todos os seus backups são...". De acordo com a teoria estudada em *3.1 Backup Lógico vs. Backup Físico*, lê os registros das tabelas via consultas SQL e extrai a estrutura e os dados em arquivos de texto plano contendo instruções DDL/DML (`CREATE TABLE`, `INSERT`) ou em formatos proprietários compactados.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "armazena os backups de bancos de dados como cópias de imagens (image copies), conjuntos de backup (backup sets) ou...". De acordo com a teoria estudada em *4.1 Criptografia em Repouso: Transparent Data Encryption (TDE)*, o TDE (*Transparent Data Encryption*) cifra os arquivos binários em repouso (*data-at-rest*) gravados no subsistema de armazenamento, abrangendo datafiles, redo logs/WALs e cópias de backup.
+> - **D)** **Correta.** Conforme fundamentado na seção *2.4 Soluções de HA Corporativas: Patroni, Oracle Data Guard e RAC* deste guia, mantém bancos de dados em espera (*Standby Databases*) sincronizados via transporte e aplicação de *Redo Logs*. Emprega o *Fast-Start Failover (FSFO)* com um processo observador (*Observer*) para automatizar a promoção do standby em falhas. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 13ª/2014) ao estabelecer que "mantém em um metadado o registro dos arquivos de banco de dados e backups para cada banco de dados em que executa...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não suporta paralelismo, que é o uso de múltiplos canais e sessões de servidor para executar o trabalho de um...". De acordo com a teoria estudada em *3.3 Point-in-Time Recovery (PITR)*, o PITR (Recuperação para um Ponto no Tempo) é a tecnologia que viabiliza reverter o banco de dados para um instante cronológico exato no passado (ex.: 14:35:28), anterior a um erro humano (ex.: `DROP TABLE` ou `DELETE` em lote sem `WHERE`) ou ataque destrutivo.
 >
 > **Gabarito: D**
 
 ---
 
-### Teste 295
-**(FGV – TRT-16 – Analista Judiciario Area Administrativa Tecnologia da Informacao – 2022)**
-Com relação aos tipos de backup suportados pelo SQL Server 2016, analise as afirmativas a seguir. I. Um backup incremental de transações inclui todos os registros de log dos quais não foi feito backup de dados anteriores. II. Um backup de logs registra apenas as extensões de dados que foram alteradas nos grupos de arquivos desde o último backup, conhecido como base para o backup diferencial. III. Os backups de banco de dados completos representam todo o banco de dados quando o backup foi concluído. Está correto o que se afirma em
-
-* **A)** I, apenas.
-* **B)** II, apenas.
-* **C)** III, apenas.
-* **D)** I e II, apenas.
-* **E)** II e III, apenas.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *3.3 Point-in-Time Recovery (PITR)*, reaplicação de Logs Transacionais (*Roll-Forward / Replay*): O motor de recuperação lê sequencialmente os arquivos arquivados de log (Archived WALs no PostgreSQL ou Archived Redo Logs no Oracle) e reaplica todas as transações cronologicamente até parar milissegundos antes do timestamp ou número de alteração (*SCN*) do comando danoso.
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas". De acordo com a teoria estudada em *3.1 Backup Lógico vs. Backup Físico*, realiza a cópia binária dos blocos de dados físicos brutos (*Datafiles*), arquivos de controle (*Control Files*) e cabeçalhos em nível de sistema de arquivos ou raw disk.
-> - **C)** **Correta.** Conforme fundamentado na seção *3.1 Backup Lógico vs. Backup Físico* deste guia, lê os registros das tabelas via consultas SQL e extrai a estrutura e os dados em arquivos de texto plano contendo instruções DDL/DML (`CREATE TABLE`, `INSERT`) ou em formatos proprietários compactados. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-16/2022) ao estabelecer que "III, apenas".
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *4.1 Criptografia em Repouso: Transparent Data Encryption (TDE)*, o TDE (*Transparent Data Encryption*) cifra os arquivos binários em repouso (*data-at-rest*) gravados no subsistema de armazenamento, abrangendo datafiles, redo logs/WALs e cópias de backup.
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *3.3 Point-in-Time Recovery (PITR)*, restauração de um Backup Físico de Base (*Base Backup*): Uma cópia física íntegra anterior ao evento.
->
-> **Gabarito: C**
-
----
-
-### Teste 296
-**(FGV – TJ-RR – Analista Judiciario Gestao e Governanca de Tecnologia da Informacao – 2024)**
+### Teste 294
+**(FGV – TJ/RR – 2024 – Analista Judiciario Gestao E Governanca De Tecnologia Da Informacao)**
 O TJ-RR realiza backups completos aos domingos e backups diferenciais diariamente durante a semana. Após uma falha crítica no sistema na sexta-feira, a equipe de TI precisa restaurar os dados o mais rápido possível para retomar as operações. Sabendo que o objetivo é minimizar o tempo de restauração, o seguinte procedimento melhoraria significativamente o processo de recuperação dos dados. Assinale-o.
 
 * **A)** Implementar um backup diferencial adicional às quartas-feiras.
@@ -429,12 +381,48 @@ O TJ-RR realiza backups completos aos domingos e backups diferenciais diariament
 > **Comentário Detalhado:**
 >
 > - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Implementar um backup diferencial adicional às quartas-feiras". De acordo com a teoria estudada em *3.1 Backup Lógico vs. Backup Físico*, realiza a cópia binária dos blocos de dados físicos brutos (*Datafiles*), arquivos de controle (*Control Files*) e cabeçalhos em nível de sistema de arquivos ou raw disk.
-> - **B)** **Correta.** Conforme fundamentado na seção *3.4 Métricas Críticas: RPO vs. RTO* deste guia, exemplo: Uma política com backups diários sem arquivamento contínuo tem \$RPO = 24 \text{ horas}\$. Para alcançar \$RPO = 0\$ (perda zero), é mandatório utilizar replicação síncrona. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-RR/2024) ao estabelecer que "Substituir os backups diferenciais por backups completos diários".
+> - **B)** **Correta.** Conforme fundamentado na seção *3.4 Métricas Críticas: RPO vs. RTO* deste guia, exemplo: Uma política com backups diários sem arquivamento contínuo tem $RPO = 24 \text{ horas}$. Para alcançar $RPO = 0$ (perda zero), é mandatório utilizar replicação síncrona. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "Substituir os backups diferenciais por backups completos diários".
 > - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Realizar backups incrementais após o backup diferencial de quarta-feira". De acordo com a teoria estudada em *1.1 Replicação Síncrona vs. Assíncrona*, garantia de Commit: O nó primário só devolve a confirmação de sucesso à aplicação após receber o aviso de gravação persistente (*ACK*) de ao menos uma réplica secundária. — O nó primário confirma o commit imediatamente após a persistência em seu próprio log local, sem aguardar a réplica.
 > - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Utilizar backups incrementais ao invés de diferenciais durante toda a semana". De acordo com a teoria estudada em *4.1 Criptografia em Repouso: Transparent Data Encryption (TDE)*, transparência Absoluta: O processo de criptografia e descriptografia ocorre na memória RAM pelo motor do SGBD durante as operações de I/O de blocos. Aplicações clientes e consultas SQL não exigem nenhuma alteração de código.
 > - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Alternar entre backups diferenciais e incrementais a cada dois dias". De acordo com a teoria estudada em *1.2 Topologias de Replicação: Leader-Follower vs. Multi-Master*, estrutura: Dois ou mais nós no cluster operam simultaneamente como primários, aceitando operações concorrentes de leitura e escrita. As mutações ocorridas em qualquer nó são propagadas bidirecionalmente para os demais parceiros do cluster.
 >
 > **Gabarito: B**
+
+---
+
+### Teste 295
+**(CEBRASPE – TRF/6 – 2025 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao)**
+Denomina-se screenlogger o código malicioso projetado para monitorar o uso de teclados virtuais, capturar as regiões de tela acionadas por esses teclados e enviar as informações coletadas para terceiros. Em uma organização hipotética, a agenda semanal de backups de um sistema, que ocorrem sempre às 23 h, prevê um backup completo no sábado e backups diferenciais em todos os demais dias da semana. Um evento demandou a restauração de dados do sistema em uma quarta-feira às 15 h e as restaurações viáveis ocorram com sucesso.
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *3.3 Point-in-Time Recovery (PITR)* deste guia, restauração de um Backup Físico de Base (*Base Backup*): Uma cópia física íntegra anterior ao evento. Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – TRF/6/2025) ao afirmar que "Denomina-se screenlogger o código malicioso projetado para monitorar o uso de teclados virtuais, capturar as...".
+> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *3.1 Backup Lógico vs. Backup Físico*, segundo a qual realiza a cópia binária dos blocos de dados físicos brutos (*Datafiles*), arquivos de controle (*Control Files*) e cabeçalhos em nível de sistema de arquivos ou raw disk.
+>
+> **Gabarito: C**
+
+---
+
+### Teste 296
+**(CEBRASPE – TRF/6 – 2025 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao)**
+No caso em questão, será necessário restaurar o backup completo do sábado anterior e o backup diferencial da terça-feira, bem como que os dados produzidos pelo sistema
+
+* **C)** Certo
+* **E)** Errado
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **C)** **Incorreta.** A marcação como **Certo** não procede, pois o enunciado apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "No caso em questão, será necessário restaurar o backup completo do sábado anterior e o backup diferencial da...". De acordo com a teoria estudada em *3.3 Point-in-Time Recovery (PITR)*, restauração de um Backup Físico de Base (*Base Backup*): Uma cópia física íntegra anterior ao evento.
+> - **E)** **Correta.** O item está **Errado** (gabarito oficial: **E**). Conforme fundamentado na seção *3.1 Backup Lógico vs. Backup Físico* deste guia, realiza a cópia binária dos blocos de dados físicos brutos (*Datafiles*), arquivos de controle (*Control Files*) e cabeçalhos em nível de sistema de arquivos ou raw disk. Portanto, a assertiva examinada pela banca (CEBRASPE – TRF/6/2025) viola os preceitos técnicos do tópico.
+>
+> **Gabarito: E**
 
 ---
 
@@ -471,74 +459,74 @@ O **Dynamic Data Masking (DDM)** intercepta as consultas SQL no momento de sua e
 ---
 
 ### Teste 297
-**(FCC – TRT-13 – Analista Judiciario Tecnologia da Informacao – 2014)**
+**(FCC – TRT 13ª – 2014 – Analista Judiciário - Tecnologia da Informação)**
 Paulo utiliza o pg_dump do PostgreSQL para fazer cópia de segurança de um banco de dados. Normalmente faz cópias de segurança no formato tar e utiliza o pg_restore para reconstruir o banco de dados, quando necessário. O pg_restore pode selecionar o que será restaurado, ou mesmo reordenar os itens antes de restaurá-los, além de permitir salvar e restaurar objetos grandes. Certo dia Paulo fez uma cópia de segurança do banco de dados chamado trt13 para o arquivo tribunal.tar, incluindo os objetos grandes. Paulo utilizou uma instrução que permitiu a seleção manual e reordenação de itens arquivados durante a restauração, porém, a ordem relativa de itens de dados das tabelas não pôde ser alterada durante o processo de restauração. Paulo utilizou, em linha de comando, a instrução
 
-* **A)** pg_dump -Ec -h trt13 > tribunal.tar
-* **B)** pg_dump -Ft -b trt13 > tribunal.tar
-* **C)** pg_dump -tar -a trt13 > tribunal.tar
-* **D)** pg_dump -tar -c trt13 > tribunal.tar
-* **E)** pg_dump -Fp -b trt13 > tribunal.tar
+* **A)** I e IV.
+* **B)** I.
+* **C)** II e IV.
+* **D)** II e III.
+* **E)** III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pg_dump -Ec -h trt13 > tribunal.tar". De acordo com a teoria estudada em *3.3 Point-in-Time Recovery (PITR)*, reaplicação de Logs Transacionais (*Roll-Forward / Replay*): O motor de recuperação lê sequencialmente os arquivos arquivados de log (Archived WALs no PostgreSQL ou Archived Redo Logs no Oracle) e reaplica todas as transações cronologicamente até parar milissegundos antes do timestamp ou número de alteração (*SCN*) do comando danoso.
-> - **B)** **Correta.** Conforme fundamentado na seção *3.1 Backup Lógico vs. Backup Físico* deste guia, backup Lógico (`pg_dump` / Oracle Data Pump `expdp`). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-13/2014) ao estabelecer que "pg_dump -Ft -b trt13 > tribunal.tar".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pg_dump -tar -a trt13 > tribunal.tar". De acordo com a teoria estudada em *4.3 Trilhas de Auditoria e Controle de Acesso Baseado em Papéis (RBAC)*, registram de modo irrefutável e imutável os eventos críticos no banco: quem executou (`username`), qual máquina de origem (`ip_address`), quando (`timestamp`) e o comando SQL exato que alterou ou consultou tabelas fiscais confidenciais, viabilizando perícias judiciais e investigações de controle externo.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pg_dump -tar -c trt13 > tribunal.tar". De acordo com a teoria estudada em *4.2 Mascaramento Dinâmico de Dados (DDM) e Privacidade (LGPD)*, *Pseudonimização:* O dado só pode ser associado a um titular mediante o uso de informação adicional mantida separadamente em ambiente seguro.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "pg_dump -Fp -b trt13 > tribunal.tar". De acordo com a teoria estudada em *4.1 Criptografia em Repouso: Transparent Data Encryption (TDE)*, transparência Absoluta: O processo de criptografia e descriptografia ocorre na memória RAM pelo motor do SGBD durante as operações de I/O de blocos. Aplicações clientes e consultas SQL não exigem nenhuma alteração de código.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e IV". De acordo com a teoria estudada em *4.3 Trilhas de Auditoria e Controle de Acesso Baseado em Papéis (RBAC)*, registram de modo irrefutável e imutável os eventos críticos no banco: quem executou (`username`), qual máquina de origem (`ip_address`), quando (`timestamp`) e o comando SQL exato que alterou ou consultou tabelas fiscais confidenciais, viabilizando perícias judiciais e investigações de controle externo.
+> - **B)** **Correta.** Conforme fundamentado na seção *3.3 Point-in-Time Recovery (PITR)* deste guia, reaplicação de Logs Transacionais (*Roll-Forward / Replay*): O motor de recuperação lê sequencialmente os arquivos arquivados de log (Archived WALs no PostgreSQL ou Archived Redo Logs no Oracle) e reaplica todas as transações cronologicamente até parar milissegundos antes do timestamp ou número de alteração (*SCN*) do comando danoso. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 13ª/2014) ao estabelecer que "I".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II e IV". De acordo com a teoria estudada em *4.2 Mascaramento Dinâmico de Dados (DDM) e Privacidade (LGPD)*, *Pseudonimização:* O dado só pode ser associado a um titular mediante o uso de informação adicional mantida separadamente em ambiente seguro.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II e III". De acordo com a teoria estudada em *4.1 Criptografia em Repouso: Transparent Data Encryption (TDE)*, transparência Absoluta: O processo de criptografia e descriptografia ocorre na memória RAM pelo motor do SGBD durante as operações de I/O de blocos. Aplicações clientes e consultas SQL não exigem nenhuma alteração de código.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "III". De acordo com a teoria estudada em *2.2 O Fenômeno Crítico do Split-Brain*, o Split-Brain (Cérebro Dividido) é a falha arquitetural mais destrutiva que pode ocorrer em um cluster de banco de dados distribuído.
 >
 > **Gabarito: B**
 
 ---
 
 ### Teste 298
-**(FCC – TRT-13 – Analista Judiciario Tecnologia da Informacao – 2014)**
-Recovery Manager − RMAN é um utilitário de banco de dados que faz o backup, restauração e recuperação de bancos de dados Oracle 11g. Este utilitário
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Ciência de Dados)**
+Para garantir que operações complexas sejam executadas de maneira segura e eficiente, assegurando que o banco de dados mantenha sua integridade mesmo em situações adversas, os Sistemas de Gerenciamento de Banco de Dados (SGBD) implementam o conceito de transação. Transação é
 
-* **A)** permite definir, para cada cópia de segurança, os valores de status: iniciado, finalizado, em andamento, expirado e obsoleto.
-* **B)** permite definir uma tag para identificar um backup como parte de um grupo de backups. Todos os seus backups são etiquetados com uma tag, exceto os incrementais.
-* **C)** armazena os backups de bancos de dados como cópias de imagens (image copies), conjuntos de backup (backup sets) ou backups de arquivos de configuração (configuration file backup).
-* **D)** mantém em um metadado o registro dos arquivos de banco de dados e backups para cada banco de dados em que executa operações.
-* **E)** não suporta paralelismo, que é o uso de múltiplos canais e sessões de servidor para executar o trabalho de um backup ou a tarefa de recuperação.
+* **A)** um conjunto de operações que são executadas sequencialmente para garantir a integridade dos dados.
+* **B)** um mecanismo que permite a cópia de segurança (backup) automática dos dados do banco.
+* **C)** um protocolo utilizado para distribuir os dados entre diferentes servidores de banco de dados.
+* **D)** um conjunto de operações que devem ser tratadas como uma unidade atômica e indivisível.
+* **E)** um método para criar índices que otimizam o acesso aos dados armazenados. Módulo III - Conhecimentos Específicos Avançados
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "permite definir, para cada cópia de segurança, os valores de status: iniciado, finalizado, em andamento, expirado...". De acordo com a teoria estudada em *3.1 Backup Lógico vs. Backup Físico*, realiza a cópia binária dos blocos de dados físicos brutos (*Datafiles*), arquivos de controle (*Control Files*) e cabeçalhos em nível de sistema de arquivos ou raw disk.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "permite definir uma tag para identificar um backup como parte de um grupo de backups. Todos os seus backups são...". De acordo com a teoria estudada em *3.1 Backup Lógico vs. Backup Físico*, lê os registros das tabelas via consultas SQL e extrai a estrutura e os dados em arquivos de texto plano contendo instruções DDL/DML (`CREATE TABLE`, `INSERT`) ou em formatos proprietários compactados.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "armazena os backups de bancos de dados como cópias de imagens (image copies), conjuntos de backup (backup sets) ou...". De acordo com a teoria estudada em *4.1 Criptografia em Repouso: Transparent Data Encryption (TDE)*, o TDE (*Transparent Data Encryption*) cifra os arquivos binários em repouso (*data-at-rest*) gravados no subsistema de armazenamento, abrangendo datafiles, redo logs/WALs e cópias de backup.
-> - **D)** **Correta.** Conforme fundamentado na seção *2.4 Soluções de HA Corporativas: Patroni, Oracle Data Guard e RAC* deste guia, mantém bancos de dados em espera (*Standby Databases*) sincronizados via transporte e aplicação de *Redo Logs*. Emprega o *Fast-Start Failover (FSFO)* com um processo observador (*Observer*) para automatizar a promoção do standby em falhas. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-13/2014) ao estabelecer que "mantém em um metadado o registro dos arquivos de banco de dados e backups para cada banco de dados em que executa...".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não suporta paralelismo, que é o uso de múltiplos canais e sessões de servidor para executar o trabalho de um...". De acordo com a teoria estudada em *4.2 Mascaramento Dinâmico de Dados (DDM) e Privacidade (LGPD)*, controle por Privilégio: Um usuário privilegiado (ex.: Auditor Fiscal) executa `SELECT cpf FROM servidor` e visualiza `123.456.789-00`; um atendente ou estagiário sem privilégios emite o mesmo comando e visualiza `*.*.789-`.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um conjunto de operações que são executadas sequencialmente para garantir a integridade dos dados". De acordo com a teoria estudada em *2.3 Estratégias de Quórum Distribuído, Árbitros e STONITH*, em arquiteturas com apenas dois servidores de dados, adiciona-se um terceiro nó leve (que não armazena dados de tabelas) cuja função exclusiva é emitir voto para desempatar eleições e garantir o quórum da maioria.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um mecanismo que permite a cópia de segurança (backup) automática dos dados do banco". De acordo com a teoria estudada em *3.1 Backup Lógico vs. Backup Físico*, realiza a cópia binária dos blocos de dados físicos brutos (*Datafiles*), arquivos de controle (*Control Files*) e cabeçalhos em nível de sistema de arquivos ou raw disk.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um protocolo utilizado para distribuir os dados entre diferentes servidores de banco de dados". De acordo com a teoria estudada em *2.4 Soluções de HA Corporativas: Patroni, Oracle Data Guard e RAC*, múltiplas instâncias Oracle independentes executadas em servidores distintos acessam e modificam simultaneamente a mesma base de dados persistida em uma SAN/Storage unificado via Oracle ASM, sincronizando blocos de dados em memória através do barramento ultrarrápido *Cache Fusion*.
+> - **D)** **Correta.** Conforme fundamentado na seção *2.3 Estratégias de Quórum Distribuído, Árbitros e STONITH* deste guia, regra de Ouro: Clusters de alta disponibilidade devem ser configurados preferencialmente com um número ímpar de nós (3, 5, 7) para evitar cenários de empate em partições binárias (50%/50%). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "um conjunto de operações que devem ser tratadas como uma unidade atômica e indivisível".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um método para criar índices que otimizam o acesso aos dados armazenados. Módulo III - Conhecimentos Específicos...". De acordo com a teoria estudada em *4.3 Trilhas de Auditoria e Controle de Acesso Baseado em Papéis (RBAC)*, os privilégios de acesso a tabelas, visões e procedimentos armazenados não são concedidos a usuários individuais, mas sim a Papéis (*Roles*) institucionais (ex.: `role_auditor_ti`, `role_consultor_externo`), respeitando o Princípio do Menor Privilégio (*Least Privilege*).
 >
 > **Gabarito: D**
 
 ---
 
 ### Teste 299
-**(FCC – TRT-11 – Analista Judiciario Tecnologia da Informacao – 2017)**
-Uma SAN Fibre Channel (SAN FC) usa o protocolo Fibre Channel (FC) para transportar dados, comandos e informações de status entre os sistemas computacionais e os sistemas de armazenamento e também para a transferência de dados entre os sistemas de armazenamento. Considere a arquitetura FC abaixo. A forma de interconectividade da arquitetura FC mostrada na figura é chamada
+**(FGV – TJ/MT – 2024 – Analista Judiciario Tecnologia Da Informacao)**
+A governança de dados é um conjunto de práticas, processos e políticas que garantem a disponibilidade, integridade, segurança e usabilidade dos dados dentro de uma organização. Ela envolve a criação de regras e a definição de responsabilidades para a gestão dos dados ao longo de seu ciclo de vida. Diferentes tipos de governança de dados podem ser implementados, dependendo dos objetivos da organização e dos requisitos regulatórios. No contexto de Governança de Dados, no modelo de governança de dados colegiado
 
-* **A)** FC Switched Loop (FC-SL).
-* **B)** FC Multiswitched Link (FC-MSwL).
-* **C)** FC Switched Fabric (FC-SW).
-* **D)** FC Arbitrated Loop (FC-AL).
-* **E)** FC Point-to-Point (FC-PP).
+* **A)** a governança de dados é centralizada em uma única equipe responsável por todas as decisões, garantindo padronização e controle rígido.
+* **B)** múltiplas áreas da organização compartilham a responsabilidade pelas decisões de dados, com a liderança de um comitê ou grupo interdepartamental.
+* **C)** todas as decisões são tomadas de forma independente por cada equipe de dados, sem coordenação centralizada.
+* **D)** a governança de dados é mantida por um único setor que gerencia a coleta, o armazenamento e a análise dos dados de toda a organização.
+* **E)** a responsabilidade de governança é atribuída exclusivamente aos usuários finais dos dados, garantindo maior autonomia para o uso.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "FC Switched Loop (FC-SL)". De acordo com a teoria estudada em *2.4 Soluções de HA Corporativas: Patroni, Oracle Data Guard e RAC*, arquitetura de cluster ativo-ativo com armazenamento compartilhado (*Shared-Disk Architecture*).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "FC Multiswitched Link (FC-MSwL)". De acordo com a teoria estudada em *1.1 Replicação Síncrona vs. Assíncrona*, impacto de Falhas na Rede: Se o link de comunicação cair ou a réplica travar, as transações de escrita no nó primário podem ficar suspensas (*blocked*). — O nó primário continua processando escritas normalmente, acumulando logs para entrega posterior.
-> - **C)** **Correta.** Conforme fundamentado na seção *2.3 Estratégias de Quórum Distribuído, Árbitros e STONITH* deste guia, antes que um nó secundário tome a posse do armazenamento compartilhado e seja promovido a novo primário, ele aciona comandos remotos via interface de gerenciamento de hardware fora de banda (IPMI, iLO, BMC ou tomadas elétricas inteligentes) para cortar compulsoriamente a energia física do antigo primário, assegurando que ele jamais voltará a gravar dados simultaneamente. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-11/2017) ao estabelecer que "FC Switched Fabric (FC-SW)".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "FC Arbitrated Loop (FC-AL)". De acordo com a teoria estudada em *2.4 Soluções de HA Corporativas: Patroni, Oracle Data Guard e RAC*, múltiplas instâncias Oracle independentes executadas em servidores distintos acessam e modificam simultaneamente a mesma base de dados persistida em uma SAN/Storage unificado via Oracle ASM, sincronizando blocos de dados em memória através do barramento ultrarrápido *Cache Fusion*.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "FC Point-to-Point (FC-PP)". De acordo com a teoria estudada em *3.3 Point-in-Time Recovery (PITR)*, o PITR (Recuperação para um Ponto no Tempo) é a tecnologia que viabiliza reverter o banco de dados para um instante cronológico exato no passado (ex.: 14:35:28), anterior a um erro humano (ex.: `DROP TABLE` ou `DELETE` em lote sem `WHERE`) ou ataque destrutivo.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a governança de dados é centralizada em uma única equipe responsável por todas as decisões, garantindo...". De acordo com a teoria estudada em *4. Segurança, Criptografia, Privacidade e Governança de Dados*, a proteção de ativos de informação em tribunais de controle externo exige mecanismos em camadas (*defense-in-depth*), combinando criptografia, controle de acesso e conformidade legal com a Lei Geral de Proteção de Dados (LGPD).
+> - **B)** **Correta.** Conforme fundamentado na seção *1.2 Topologias de Replicação: Leader-Follower vs. Multi-Master* deste guia, se dois usuários alterarem a mesma coluna da mesma tupla em nós diferentes no mesmo milissegundo, o sistema deve adotar heurísticas determinísticas para desempate, tais como: *Last-Write-Wins (LWW)* baseado em carimbos de tempo sincronizados, tipos de dados livres de conflito (*CRDTs*) ou mediação por regras negociais na camada de aplicação. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/MT/2024) ao estabelecer que "múltiplas áreas da organização compartilham a responsabilidade pelas decisões de dados, com a liderança de um...".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "todas as decisões são tomadas de forma independente por cada equipe de dados, sem coordenação centralizada". De acordo com a teoria estudada em *2.1 Switchover vs. Failover: Transições Planejadas e Emergenciais*, o nó primário transfere a liderança para o nó secundário de forma graciosa e sem nenhuma perda de dados: as transações ativas são finalizadas, os logs são drenados e as funções dos nós são invertidas de forma ordenada.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a governança de dados é mantida por um único setor que gerencia a coleta, o armazenamento e a análise dos dados de...". De acordo com a teoria estudada em *4.2 Mascaramento Dinâmico de Dados (DDM) e Privacidade (LGPD)*, *Pseudonimização:* O dado só pode ser associado a um titular mediante o uso de informação adicional mantida separadamente em ambiente seguro.
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "a responsabilidade de governança é atribuída exclusivamente aos usuários finais dos dados, garantindo maior...". De acordo com a teoria estudada em *2.4 Soluções de HA Corporativas: Patroni, Oracle Data Guard e RAC*, múltiplas instâncias Oracle independentes executadas em servidores distintos acessam e modificam simultaneamente a mesma base de dados persistida em uma SAN/Storage unificado via Oracle ASM, sincronizando blocos de dados em memória através do barramento ultrarrápido *Cache Fusion*.
 >
-> **Gabarito: C**
+> **Gabarito: B**
 
 ---
 

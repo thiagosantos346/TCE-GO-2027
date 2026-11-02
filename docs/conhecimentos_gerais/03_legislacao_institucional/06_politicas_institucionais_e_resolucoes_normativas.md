@@ -92,26 +92,27 @@ As atividades finalísticas e corporativas do Tribunal são executadas por secre
 ---
 
 ### Teste 172
-**(FGV – TRT-24 – Analista Judiciario Area Apoio Especializado Tecnologia da Informacao – 2025)**
-A Portaria 252/2020 do Conselho Nacional de Justiça dispõe sobre o Modelo de Governança e Gestão da Plataforma Digital do Poder Judiciário (PDPJ-Br). A respeito das atribuições que competem ao Comitê Gestor Nacional do PDPJ-Br, que exerce a supervisão geral da Plataforma, avalie as afirmativas a seguir. I. Homologar e propor ajustes aos projetos de desenvolvimento de microsserviços sugeridos pela Gerência Executiva e pelos Comitês Gestores dos tribunais. II. Propor à Presidência, mediante sugestão do Comitê Gestor Nacional da PDPJ, a política de tecnologia da informação a ser seguida pela PDPJ-Br. III. Propor normas regulamentadoras à Comissão Permanente de Tecnologia da Informação e Infraestrutura do Conselho Nacional de Justiça. Está correto o que se afirma em
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+De acordo com a Estrutura Organizacional e Competências Técnicas do TCE-GO aprovada pela Resolução Administrativa nº 14/2025:
 
-* **A)** I, apenas.
-* **B)** II, apenas.
-* **C)** III, apenas.
-* **D)** I e III, apenas.
-* **E)** II e III, apenas.
+* **A)** A Secretaria-Geral de Controle Externo subordina-se hierarquicamente à Procuradoria-Geral do Estado para fins de definição das diretrizes de auditoria.
+* **B)** A macroestrutura executiva do Tribunal de Contas do Estado de Goiás compreende unidades de assessoramento superior, a Secretaria de Controle Externo (responsável pela coordenação executiva e técnica das ações fiscalizatórias especializadas) e a Secretaria de Gestão Integrada, estruturadas para conferir celeridade, inovação e rigor metodológico ao controle governamental.
+* **C)** A criação ou extinção de diretorias e secretarias operacionais dispensa qualquer aprovação do Tribunal Pleno.
+* **D)** As equipes de auditoria técnica das gerências especializadas possuem competência para aplicar multas e emitir acórdãos terminativos de forma monocrática e independente do Tribunal Pleno. considerando os requisitos operacionais de segurança, escalabilidade e desempenho.
+* **E)** As decisões administrativas sobre recursos humanos da Secretaria de Controle Externo são julgadas exclusivamente pelo Ministério Público de Contas.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *3.1 Aplicação da LGPD ao Controle Externo: Dispensabilidade do Consentimento*, artigo 7º, III da LGPD: Execução de políticas públicas e exercício de competências institucionais de fiscalização e controle externo atribuídas pela Constituição Federal e Estadual.
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas". De acordo com a teoria estudada em *1.2 Secretarias de Controle Externo e Unidades de Apoio Estratégico*, *Secretaria de Tecnologia da Informação (STI):* Gestão de infraestrutura de TI, governança de dados, inteligência artificial, segurança cibernética e sustentação de sistemas processuais.
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III, apenas". De acordo com a teoria estudada em *1.1 Macroestrutura Superior e Órgãos Deliberativos*, presidência: Direção executiva, administração geral, ordenação de despesas e representação institucional.
-> - **D)** **Correta.** Conforme fundamentado na seção *3.2 Governança de Privacidade: Controlador, Operador, DPO e Comitê* deste guia, comitê de Privacidade e Proteção de Dados: Órgão multidisciplinar permanente encarregado de propor normas, aprovar o inventário de dados e auditar a conformidade da instituição com a LGPD. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "I e III, apenas".
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *1.1 Macroestrutura Superior e Órgãos Deliberativos*, vice-Presidência: Substituição regimental e supervisão de projetos institucionais.
+> - **A)** Incorreta. O Tribunal de Contas goza de autonomia administrativa, financeira e institucional garantida pela Constituição (art. 73 c/c art. 96 da CF/88), inexistindo qualquer subordinação à PGE.
+> - **B)** Correta. A Resolução Administrativa nº 14/2025 estabeleceu o organograma moderno do TCE-GO, delineando a divisão das atribuições finalísticas de fiscalização contábil, financeira e operacional sob a coordenação técnica da Secretaria de Controle Externo, atuando em harmonia com as secretarias de governança e apoio corporativo.
+> - **C)** Incorreta. A organização interna e a fixação de competências das unidades decorrem de deliberação normativa colegiada do Pleno.
+> - **D)** Incorreta. As unidades técnicas de fiscalização emitem relatórios de auditoria, notas técnicas e pareceres instrutórios; a competência para julgar e aplicar penalidades é privativa dos colegiados (Pleno e Câmaras) e dos relatores, nos limites regimentais.
+> - **E)** Incorreta. A gestão administrativa de pessoal compete à Presidência do Tribunal.
 >
-> **Gabarito: D**
+> **Gabarito: B**
 
 ---
 
@@ -156,50 +157,52 @@ A infraestrutura do TCE-GO conta com a **Equipe de Tratamento de Incidentes de R
 ---
 
 ### Teste 173
-**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Seguranca da Informacao – 2023)**
-Um órgão público realiza tratamento dos dados pessoais dos seus servidores para implementar o módulo de autenticação de usuários de seus sistemas de informação e para prevenir ataques de softwares maliciosos na sua rede interna. Nesse cenário, é correto afirmar que:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A respeito da Política de Segurança da Informação (PSI) do Tribunal de Contas do Estado de Goiás, veiculada pela Resolução Administrativa nº 17/2024, assinale a afirmativa correta:
 
-* **A)** o órgão público deve recorrer à base legal do legítimo interesse adotando medidas para garantir a transparência do tratamento dos dados dos seus funcionários;
-* **B)** o órgão público deve anonimizar os dados dos funcionários para poder usar no módulo de autenticação;
-* **C)** a Autoridade Nacional de Proteção de Dados deverá autorizar o tratamento dos dados sensíveis dos funcionários do órgão público;
-* **D)** o registro de um incidente de segurança é requisito para justificar o tratamento dos dados do servidor para o módulo de segurança;
-* **E)** cada funcionário deve manifestar seu consentimento concordando com o tratamento de seus dados pessoais para serem usados pelo módulo de autenticação.
+* **A)** Os princípios fundamentais da PSI restringem-se à disponibilidade e agilidade computacional, reputando-se secundária a confidencialidade no setor público.
+* **B)** As normas e diretrizes da PSI vinculam todos os usuários de recursos de tecnologia do TCE-GO, incluindo membros, servidores efetivos e comissionados, residentes, estagiários e colaboradores terceirizados.
+* **C)** É lícito aos servidores de um mesmo setor compartilhar entre si senhas corporativas de acesso para agilizar o atendimento de demandas urgentes na ausência do titular em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **D)** A Política de Segurança da Informação aplica-se estritamente aos servidores lotados na Secretaria de Tecnologia da Informação.
+* **E)** A classificação de informações em níveis de confidencialidade é vedada no âmbito do Tribunal em virtude do princípio constitucional da publicidade ampla.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *3.3 Minimização, Anonimização e Relatório de Impacto (RIPD)* deste guia, relatório de Impacto à Proteção de Dados Pessoais (RIPD): Documento elaborado pelo setor de governança antes da implantação de novos sistemas ou processos que envolvam tratamento massivo de dados sensíveis, mapeando riscos de vazamento e indicando medidas mitigadoras. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "o órgão público deve recorrer à base legal do legítimo interesse adotando medidas para garantir a transparência do...".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o órgão público deve anonimizar os dados dos funcionários para poder usar no módulo de autenticação". De acordo com a teoria estudada em *3.1 Aplicação da LGPD ao Controle Externo: Dispensabilidade do Consentimento*, o direito de eliminação de dados não se aplica quando o tratamento for amparado no cumprimento de obrigação legal de fiscalização e guarda de documentos públicos (Art. 16 da LGPD).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a Autoridade Nacional de Proteção de Dados deverá autorizar o tratamento dos dados sensíveis dos funcionários do...". De acordo com a teoria estudada em *3.2 Governança de Privacidade: Controlador, Operador, DPO e Comitê*, encarregado pelo Tratamento de Dados Pessoais (DPO): Servidor formalmente designado pelo Presidente do Tribunal, responsável por atuar como canal oficial de comunicação entre o TCE-GO, os titulares dos dados e a Autoridade Nacional de Proteção de Dados (ANPD).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o registro de um incidente de segurança é requisito para justificar o tratamento dos dados do servidor para o...". De acordo com a teoria estudada em *2.3 Tratamento de Incidentes Cibernéticos e Rastreabilidade*, qualquer usuário que identificar comportamento anômalo em sistemas, tentativas de invasão, *phishing* ou perda de dados tem o dever imediato de notificar a equipe de segurança da STI.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "cada funcionário deve manifestar seu consentimento concordando com o tratamento de seus dados pessoais para serem...". De acordo com a teoria estudada em *3.1 Aplicação da LGPD ao Controle Externo: Dispensabilidade do Consentimento*, a Resolução Normativa nº 5/2024 disciplina o tratamento de dados pessoais no âmbito do TCE-GO em harmonia com a Lei Geral de Proteção de Dados Pessoais (Lei Federal nº 13.709/2018 - LGPD).
->
-> **Gabarito: A**
+> - **A) Incorreta.** A PSI fundamenta-se nos princípios consolidados da Confidencialidade, Integridade, Disponibilidade, Autenticidade e Legalidade (CIDA+L), não sendo a confidencialidade secundária.
+> - **B) CORRETA.** Conforme preceitua a Resolução Administrativa nº 17/2024, a Política de Segurança da Informação é de **observância compulsória por todos os usuários**, abrangendo os Conselheiros titulares e substitutos, Procuradores de Contas, servidores efetivos e comissionados, servidores cedidos, estagiários, residentes e empregados de empresas terceirizadas que utilizem a rede ou ativos da Casa.
+> - **C) Incorreta.** O compartilhamento de senhas individuais é terminantemente vedado, constituindo falta funcional grave por violar os princípios da rastreabilidade e autenticidade de acessos.
+> - **D) Incorreta.** A PSI tem alcance institucional pleno sobre todos os órgãos, gabinetes e usuários do Tribunal.
+> - **E) Incorreta.** A classificação das informações (Pública, Interna, Confidencial e Secreta/Ultrassecreta) é mandamento legal de conformidade com a Lei de Acesso à Informação.
+> 
+> **Gabarito: B**
 
 ---
 
 ### Teste 174
-**(FCC – TRT-15 – Analista Judiciario Tecnologia da Informacao – 2015)**
-A política de segurança define os direitos e as responsabilidades de cada um em relação à segurança dos recursos computacionais que utiliza e as penalidades às quais está sujeito, caso não a cumpra. É considerada como um importante mecanismo de segurança, tanto para as instituições quanto para os usuários, pois com ela é possível deixar claro o comportamento esperado de cada um. Desta forma, casos de mau comportamento, que estejam previstos na política, podem ser tratados de forma adequada pelas partes envolvidas. A política de segurança pode conter outras políticas específicas, como: I. Política de senhas: define as regras sobre o uso de senhas nos recursos computacionais, como tamanho mínimo e máximo, regra de formação e periodicidade de troca. II. Política de privacidade: define como são tratadas as informações institucionais, ou seja, se elas podem ser repassadas a terceiros. III. Política de confidencialidade: define como são tratadas as informações pessoais, sejam elas de clientes, usuários ou funcionários. IV. Política de uso aceitável − PUA ou Acceptable Use Policy − AUP: também chamada de "Termo de Uso" ou "Termo de Serviço", define as regras de uso dos recursos computacionais, os direitos e as responsabilidades de quem os utiliza e as situações que são consideradas abusivas. Está correto o que consta APENAS em
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A Política de Segurança da Informação (PSI) do TCE-GO, instituída pela Resolução Administrativa nº 17/2024, baseia-se nos pilares essenciais da segurança cibernética (CIDA+L). No tocante à classificação e ao tratamento da informação institucional:
 
-* **A)** I e IV.
-* **B)** II e III.
-* **C)** III e IV.
-* **D)** I, II e III.
-* **E)** II e IV.
+* **A)** Toda informação produzida ou custodiada pelo Tribunal é classificada automaticamente como ultrassecreta por tempo indeterminado, sendo vedado o acesso aos cidadãos.
+* **B)** As informações no âmbito do TCE-GO são classificadas quanto ao grau de confidencialidade (pública, interna, restrita e sigilosa), cabendo aos servidores e colaboradores zelar pela salvaguarda das credenciais de acesso.
+* **C)** O compartilhamento de senhas funcionais de acesso à rede interna entre colegas de uma mesma equipe de auditoria é estimulado pela PSI para garantir a continuidade dos serviços em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **D)** O pilar da autenticidade assegura que a informação permaneça acessível aos usuários mesmo em situações de ataque de negação de serviço.
+* **E)** Incidentes de quebra de sigilo ou vazamento cibernético de dados dispensam notificação à área de segurança da informação se resolvidos internamente no setor em 24 horas.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *2.2 Classificação da Informação e Controles Operacionais de TI* deste guia, interna: Informações de uso corporativo ordinário interno, que não devem ser divulgadas publicamente sem justificativa. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-15/2015) ao estabelecer que "I e IV".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II e III". De acordo com a teoria estudada em *3.1 Aplicação da LGPD ao Controle Externo: Dispensabilidade do Consentimento*, artigo 7º, III da LGPD: Execução de políticas públicas e exercício de competências institucionais de fiscalização e controle externo atribuídas pela Constituição Federal e Estadual.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "III e IV". De acordo com a teoria estudada em *4.2 Proibição Estrita de Dados Sigilosos em Modelos Abertos*, uso de Soluções Corporativas Homologadas: O desenvolvimento e uso de inteligência artificial no Tribunal deve ocorrer prioritariamente dentro do ecossistema tecnológico corporativo mantido e monitorado pela Secretaria de Tecnologia da Informação (STI), sob acordos estritos de confidencialidade e segurança de dados.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *2.3 Tratamento de Incidentes Cibernéticos e Rastreabilidade*, qualquer usuário que identificar comportamento anômalo em sistemas, tentativas de invasão, *phishing* ou perda de dados tem o dever imediato de notificar a equipe de segurança da STI.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II e IV". De acordo com a teoria estudada em *4.3 Responsabilidade Funcional Exclusiva do Servidor Operador*, questões de concurso podem tentar enganar o candidato sugerindo que "o servidor que utilizar inteligência artificial homologada pelo Tribunal fica isento de responsabilidade disciplinar caso a minuta traga jurisprudência forjada pelo modelo".
+> - **A)** Incorreta. Pelo princípio constitucional da publicidade (art. 37 da CF/88 e Lei de Acesso à Informação), a publicidade é a regra geral e o sigilo é a exceção devidamente fundamentada.
+> - **B)** Correta. A RA nº 17/2024 (PSI) estrutura a proteção de dados e ativos corporativos do TCE-GO em conformidade com as normas ABNT NBR ISO/IEC 27001 e 27002, estabelecendo a taxonomia formal de classificação da informação e impondo a responsabilidade individual e intransferível pelo uso de credenciais e senhas funcionais de acesso.
+> - **C)** Incorreta. As credenciais de acesso são estritamente pessoais e intransferíveis; compartilhar senhas constitui grave infração de segurança da informação.
+> - **D)** Incorreta. A garantia de disponibilidade contínua refere-se ao pilar da **Disponibilidade**; o pilar da **Autenticidade** assegura a identidade inequívoca do autor ou emissor da informação.
+> - **E)** Incorreta. Qualquer incidente de segurança da informação deve ser imediatamente comunicado à equipe de resposta a incidentes (CSIRT/TI) da Corte.
 >
-> **Gabarito: A**
+> **Gabarito: B**
 
 ---
 
@@ -231,50 +234,52 @@ A governança de dados pessoais no TCE-GO é estruturada com clareza funcional:
 ---
 
 ### Teste 175
-**(FGV – TJ-SC – Analista Administrativo – 2026)**
-No que diz respeito às políticas institucionais de privacidade e ao tratamento de dados pessoais no âmbito do Poder Judiciário, analise as afirmativas a seguir. I. O tratamento de dados pessoais realizado para fins de atividades jurisdicionais é isento de medidas de segurança e conformidade, as quais devem ser aplicadas exclusivamente às atividades administrativas dos tribunais. II. Os tribunais devem designar um Encarregado pelo Tratamento de Dados Pessoais (DPO) para atuar como canal de comunicação entre o órgão, os titulares dos dados e a Autoridade Nacional de Proteção de Dados (ANPD). III. No Poder Judiciário, a responsabilidade pela segurança da informação e pela preservação da confidencialidade dos dados é atribuída exclusivamente aos servidores das unidades de Tecnologia da Informação (TI). Está correto o que se afirma, apenas, em
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Determinado jurisdicionado ingressou com requerimento administrativo perante o TCE-GO exigindo a imediata exclusão e o expurgo de seus dados cadastrais e financeiros constantes de procedimento de fiscalização de obras, invocando o direito de eliminação assegurado pela Lei Geral de Proteção de Dados (LGPD). De acordo com a Resolução Normativa nº 5/2024 do TCE-GO e com a Lei nº 13.709/2018:
 
-* **A)** I.
-* **B)** II.
-* **C)** III.
-* **D)** I e II.
-* **E)** II e III.
+* **A)** O Tribunal deve atender prontamente ao pedido, sob pena de incorrer em infração civil gravíssima sujeita a multa cominada pela ANPD.
+* **B)** O tratamento de dados pessoais no âmbito do controle externo independe do consentimento do titular, estando respaldado nas hipóteses legais de cumprimento de obrigação legal e exercício de competências constitucionais fiscalizatórias.
+* **C)** O controle externo estadual não se submete aos princípios da LGPD, sendo vedado ao Tribunal instituir Comitê de Privacidade ou nomear Encarregado de Dados.
+* **D)** A eliminação dos dados cadastrais é obrigatória, devendo os relatórios de auditoria ser cancelados e arquivados sem decisão de mérito.
+* **E)** O titular de dados possui direito potestativo absoluto de impedir o acesso de auditores aos seus dados bancários, mesmo diante de comprovado desvio de recursos públicos em conformidade com as diretrizes e padrões de arquitetura corporativa.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I". De acordo com a teoria estudada em *3.2 Governança de Privacidade: Controlador, Operador, DPO e Comitê*, comitê de Privacidade e Proteção de Dados: Órgão multidisciplinar permanente encarregado de propor normas, aprovar o inventário de dados e auditar a conformidade da instituição com a LGPD.
-> - **B)** **Correta.** Conforme fundamentado na seção *3.2 Governança de Privacidade: Controlador, Operador, DPO e Comitê* deste guia, encarregado pelo Tratamento de Dados Pessoais (DPO): Servidor formalmente designado pelo Presidente do Tribunal, responsável por atuar como canal oficial de comunicação entre o TCE-GO, os titulares dos dados e a Autoridade Nacional de Proteção de Dados (ANPD). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-SC/2026) ao estabelecer que "II".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "III". De acordo com a teoria estudada em *3.1 Aplicação da LGPD ao Controle Externo: Dispensabilidade do Consentimento*, artigo 7º, III da LGPD: Execução de políticas públicas e exercício de competências institucionais de fiscalização e controle externo atribuídas pela Constituição Federal e Estadual.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e II". De acordo com a teoria estudada em *3.3 Minimização, Anonimização e Relatório de Impacto (RIPD)*, relatório de Impacto à Proteção de Dados Pessoais (RIPD): Documento elaborado pelo setor de governança antes da implantação de novos sistemas ou processos que envolvam tratamento massivo de dados sensíveis, mapeando riscos de vazamento e indicando medidas mitigadoras.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II e III". De acordo com a teoria estudada em *3.1 Aplicação da LGPD ao Controle Externo: Dispensabilidade do Consentimento*, a Resolução Normativa nº 5/2024 disciplina o tratamento de dados pessoais no âmbito do TCE-GO em harmonia com a Lei Geral de Proteção de Dados Pessoais (Lei Federal nº 13.709/2018 - LGPD).
->
+> - **A) Incorreta.** O direito de eliminação de dados não ostenta caráter absoluto e cede diante das finalidades públicas imperativas de controle financeiro do Estado.
+> - **B) CORRETA.** Nos termos da Resolução Normativa nº 5/2024 e do artigo 7º, II e III da Lei Federal nº 13.709/2018, as atividades finalísticas do TCE-GO fundam-se no **cumprimento de dever legal e regulatório** e no **exercício regular de competências constitucionais fiscalizatórias**, dispensando-se o consentimento do titular e obstando a exclusão de dados indispensáveis à instrução de processos de controle da despesa pública.
+> - **C) Incorreta.** O Tribunal adota integralmente as normas da LGPD, possuindo Comitê de Privacidade, Encarregado (DPO) e diretrizes rígidas de segurança da informação.
+> - **D) Incorreta.** O interesse público no julgamento e controle das contas coletivas prevalece sobre pretensões de ocultação cadastral do auditado.
+> - **E) Incorreta.** O dever universal de prestar contas e submeter-se à auditoria decorre diretamente do texto constitucional (Art. 70, parágrafo único da CF), sendo vedada a oposição arbitrária de sigilo em desfavor da Corte de Contas.
+> 
 > **Gabarito: B**
 
 ---
 
 ### Teste 176
-**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Banco de Dados – 2023)**
-De acordo com a Resolução CNJ nº 396/2021, que institui a Estratégia Nacional de Segurança Cibernética do Poder Judiciário (ENSEC-PJ), no seu Art. 18, estabelece que a Rede de Cooperação do Judiciário na área de segurança cibernética tem o seguinte objetivo:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Em relação à governança de privacidade e à proteção de dados pessoais no âmbito do TCE-GO (Resolução Normativa nº 5/2024, em sintonia com a Lei Geral de Proteção de Dados Pessoais - LGPD, Lei nº 13.709/2018):
 
-* **A)** evitar ambiente colaborativo com outros órgãos do Poder Judiciário, de forma a manter em segredo quaisquer ameaças e eventuais ataques ou incidentes cibernéticos;
-* **B)** estimular o compartilhamento de informações sobre incidentes e vulnerabilidades cibernéticas, exceto as do âmbito do Poder Judiciário;
-* **C)** realizar exercícios cibernéticos com a participação de entes restritos ao Poder Judiciário, no intuito de evitar vazamento de dados sensíveis;
-* **D)** fortalecer o Centro de Prevenção, Tratamento e Resposta a Incidentes Cibernéticos (CPTRIC-PJ) do CNJ;
-* **E)** desestimular a estrutura judiciária quanto ao aprimoramento de investigações de crimes cibernéticos.
+* **A)** O tratamento de dados pessoais realizado pelo TCE-GO para o cumprimento de suas competências constitucionais de fiscalização e controle externo depende do prévio e expresso consentimento de cada gestor auditado. em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **B)** O Tribunal de Contas pode tratar dados pessoais de jurisdicionados, licitantes e servidores sem necessidade de consentimento do titular, com fundamento na base legal do cumprimento de obrigação legal e execução de políticas públicas previstas em lei (arts. 7º, II e III, e 23 da LGPD), devendo observar o princípio da minimização e adotar salvaguardas técnicas adequadas.
+* **C)** O Encarregado pelo Tratamento de Dados Pessoais (DPO) do TCE-GO responde solidariamente com seu patrimônio pessoal por qualquer vazamento externo provocado por criminosos virtuais.
+* **D)** O Relatório de Impacto à Proteção de Dados Pessoais (RIPD) é documento dispensável mesmo quando houver tratamento de dados sensíveis em larga escala.
+* **E)** Os titulares de dados perdem qualquer direito de informação ou retificação de seus dados cadastrais perante o Tribunal de Contas.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "evitar ambiente colaborativo com outros órgãos do Poder Judiciário, de forma a manter em segredo quaisquer ameaças...". De acordo com a teoria estudada em *2.3 Tratamento de Incidentes Cibernéticos e Rastreabilidade*, a infraestrutura do TCE-GO conta com a Equipe de Tratamento de Incidentes de Redes (ETIR).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "estimular o compartilhamento de informações sobre incidentes e vulnerabilidades cibernéticas, exceto as do âmbito...". De acordo com a teoria estudada em *2.3 Tratamento de Incidentes Cibernéticos e Rastreabilidade*, o Tribunal mantém trilhas de auditoria eletrônica e logs de acesso detalhados para garantir a rastreabilidade absoluta de qualquer modificação ou consulta indevida em processos de controle externo.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "realizar exercícios cibernéticos com a participação de entes restritos ao Poder Judiciário, no intuito de evitar...". De acordo com a teoria estudada em *3.3 Minimização, Anonimização e Relatório de Impacto (RIPD)*, relatório de Impacto à Proteção de Dados Pessoais (RIPD): Documento elaborado pelo setor de governança antes da implantação de novos sistemas ou processos que envolvam tratamento massivo de dados sensíveis, mapeando riscos de vazamento e indicando medidas mitigadoras.
-> - **D)** **Correta.** Conforme fundamentado na seção *2.3 Tratamento de Incidentes Cibernéticos e Rastreabilidade* deste guia, qualquer usuário que identificar comportamento anômalo em sistemas, tentativas de invasão, *phishing* ou perda de dados tem o dever imediato de notificar a equipe de segurança da STI. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "fortalecer o Centro de Prevenção, Tratamento e Resposta a Incidentes Cibernéticos (CPTRIC-PJ) do CNJ".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "desestimular a estrutura judiciária quanto ao aprimoramento de investigações de crimes cibernéticos". De acordo com a teoria estudada em *2.2 Classificação da Informação e Controles Operacionais de TI*, secreta ou Ultrassecreta: Informações sensíveis de segurança de Estado e investigações especiais sob regime restritivo formal da Lei de Acesso à Informação.
+> - **A)** Incorreta. Exigir consentimento prévio inviabilizaria a própria atividade de auditoria e repressão à corrupção. A LGPD expressamente afasta a exigência de consentimento para a atuação de órgãos estatais no cumprimento de deveres legais (art. 7º, II) e exercício regular de direitos em processos administrativos (art. 7º, VI).
+> - **B)** Correta. A RN nº 5/2024 disciplina com precisão a incidência da LGPD no controle externo goiano: a atuação fiscalizatória apoia-se em hipóteses legais vinculadas (art. 23 da LGPD), dispensando consentimento, mas submetendo o TCE-GO aos princípios reitores da lei, em especial a **finalidade legítima**, a **adequação**, a **segurança da informação** e a **minimização** (coletar apenas os dados estritamente necessários ao objetivo da auditoria).
+> - **C)** Incorreta. O Encarregado (DPO) atua como canal de comunicação entre o órgão, os titulares e a ANPD, não assumindo responsabilidade patrimonial automática por ações criminosas de terceiros.
+> - **D)** Incorreta. O RIPD é obrigatório e fundamental quando o tratamento de dados envolver riscos relevantes aos direitos dos titulares ou dados sensíveis.
+> - **E)** Incorreta. Os direitos básicos dos titulares assegurados pelo art. 18 da LGPD (confirmação de tratamento, acesso e correção) são garantidos no que for compatível com a tutela do sigilo legal das investigações.
 >
-> **Gabarito: D**
+> **Gabarito: B**
 
 ---
 
@@ -313,50 +318,52 @@ O servidor que utilizar ferramentas de IA para redigir peças processuais, despa
 ---
 
 ### Teste 177
-**(FGV – TJ-DFT – Analista Judiciario Suporte Em Tecnologia da Informacao – 2022)**
-A Estratégia Nacional de Segurança da Informação e Cibernética do Poder Judiciário (ENSEC-PJ) foi instituída com o objetivo de incrementar a segurança cibernética nos órgãos do Poder Judiciário, abrangendo aspectos essenciais da segurança da informação e definindo objetivos para fortalecer o espaço cibernético do Poder Judiciário, assim como divulgar ações para os órgãos em seu âmbito de atuação. Um dos objetivos da ENSEC-PJ, instituída pela Resolução CNJ nº 396/2021, é:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Em conformidade com a Resolução Administrativa nº 24/2024 do Tribunal de Contas do Estado de Goiás, que disciplina o uso de ferramentas de Inteligência Artificial (IA) no âmbito da Corte, o auditor que utiliza assistente generativo para subsidiar a elaboração de matriz de auditoria governamental:
 
-* **A)** estabelecer modelo centralizado de governança cibernética nacional;
-* **B)** permitir a manutenção e a continuidade dos serviços, ou o seu restabelecimento em menor tempo possível;
-* **C)** fortalecer as ações de governança cibernética;
-* **D)** realizar prática em gestão de incidentes e efetivar o aprimoramento contínuo do processo;
-* **E)** estabelecer rede de cooperação do Judiciário para a segurança cibernética.
+* **A)** Fica isento de responsabilidade funcional caso a ferramenta produza precedentes jurisprudenciais fictícios ou cite dispositivos revogados.
+* **B)** Deve observar a supervisão humana compulsória (*Human-in-the-loop*), permanecendo como o único e integral responsável pela exatidão, consistência e adequação jurídica de todo o teor elaborado.
+* **C)** Tem autorização para inserir dados fiscais e bancários protegidos por sigilo constitucional em qualquer ferramenta pública de IA disponível na web para agilizar o processamento em conformidade com as diretrizes e padrões de arquitetura corporativa.
+* **D)** Está dispensado de checar as fontes citadas pelo modelo, haja vista a presunção legal de veracidade das plataformas de inteligência computacional.
+* **E)** Só poderá utilizar modelos de linguagem mediante autorização prévia individual e por escrito expedida pelo Plenário do Tribunal.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "estabelecer modelo centralizado de governança cibernética nacional". De acordo com a teoria estudada em *3.2 Governança de Privacidade: Controlador, Operador, DPO e Comitê*, encarregado pelo Tratamento de Dados Pessoais (DPO): Servidor formalmente designado pelo Presidente do Tribunal, responsável por atuar como canal oficial de comunicação entre o TCE-GO, os titulares dos dados e a Autoridade Nacional de Proteção de Dados (ANPD).
-> - **B)** **Correta.** Conforme fundamentado na seção *1.2 Secretarias de Controle Externo e Unidades de Apoio Estratégico* deste guia, *Secretaria de Tecnologia da Informação (STI):* Gestão de infraestrutura de TI, governança de dados, inteligência artificial, segurança cibernética e sustentação de sistemas processuais. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-DFT/2022) ao estabelecer que "permitir a manutenção e a continuidade dos serviços, ou o seu restabelecimento em menor tempo possível".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "fortalecer as ações de governança cibernética". De acordo com a teoria estudada em *4.1 Princípio da Supervisão Humana Compulsória (Human-in-the-loop)*, a Resolução Administrativa nº 24/2024 estabelece as diretrizes éticas e de governança para o uso de ferramentas de Inteligência Artificial (IA) no âmbito do TCE-GO.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "realizar prática em gestão de incidentes e efetivar o aprimoramento contínuo do processo". De acordo com a teoria estudada em *2.3 Tratamento de Incidentes Cibernéticos e Rastreabilidade*, qualquer usuário que identificar comportamento anômalo em sistemas, tentativas de invasão, *phishing* ou perda de dados tem o dever imediato de notificar a equipe de segurança da STI.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "estabelecer rede de cooperação do Judiciário para a segurança cibernética". De acordo com a teoria estudada em *2.1 Pilares Basilares: CIDA+L e Destinatários da Norma*, a Resolução Administrativa nº 17/2024 estabelece a Política de Segurança da Informação (PSI) do TCE-GO, estruturada sobre cinco pilares fundamentais (CIDA+L).
->
+> - **A) Incorreta.** O servidor público não goza de isenção funcional; o eventual fenômeno de "alucinação" algorítmica não escusa o profissional por erro técnico em peça oficial.
+> - **B) CORRETA.** A Resolução Administrativa nº 24/2024 do TCE-GO positiva categoricamente a diretriz da **supervisão humana indelegável (*Human-in-the-loop*)**. As ferramentas de inteligência artificial desempenham papel puramente auxiliar e de suporte de produtividade, permanecendo a autoria jurídica, a análise crítica e a **responsabilidade pessoal e disciplinar** pela fidedignidade e precisão do trabalho sob encargo exclusivo e intransferível do servidor que o subscrever.
+> - **C) Incorreta.** É expressamente vedado carregar dados protegidos por sigilo constitucional (fiscal, bancário, judicial) ou dados sensíveis em plataformas abertas de inteligência artificial desprovidas de salvaguardas contratuais corporativas de segurança.
+> - **D) Incorreta.** Inexiste presunção de veracidade em sistemas computacionais; o dever de checagem documental e validação probatória é mandatório.
+> - **E) Incorreta.** As ferramentas de IA autorizadas e homologadas pela STI integram os fluxos ordinários de trabalho, dispensando autorização pontual do Pleno para cada expediente.
+> 
 > **Gabarito: B**
 
 ---
 
 ### Teste 178
-**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Seguranca da Informacao – 2023)**
-A Estratégia Nacional de Segurança Cibernética do Poder Judiciário (ENSEC-PJ) define, em seu Art. 12, um modelo centralizado de governança nacional na segurança cibernética para os órgãos no âmbito do Poder Judiciário, à exceção do Supremo Tribunal Federal. Um dos objetivos desse modelo centralizado é:
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A Resolução Administrativa nº 24/2024 estabelece a Política de Governança e Uso de Inteligência Artificial no TCE-GO. Sobre as diretrizes éticas e operacionais de ferramentas de IA na Corte de Contas goiana, é correto afirmar:
 
-* **A)** realizar exercícios cibernéticos com a participação de múltiplos entes;
-* **B)** estabelecer norma sobre a definição dos requisitos metodológicos para a implementação da gestão de risco dos ativos da informação no Poder Judiciário;
-* **C)** estabelecer rotinas de verificações de conformidade em segurança cibernética;
-* **D)** elaborar a Política de Segurança da Informação e normas internas correlatas ao tema, observadas as normas de segurança da informação editadas pelo CNJ;
-* **E)** promover ações de capacitação e profissionalização dos recursos humanos em temas relacionados à segurança da informação.
+* **A)** É permitida a delegação integral da tomada de decisão de mérito em processos de contas aos algoritmos de inteligência artificial generativa, dispensando a intervenção humana.
+* **B)** É expressamente vedada a inserção de documentos sigilosos, dados pessoais não públicos ou peças de auditoria sob segredo de justiça em modelos públicos ou abertos de inteligência artificial generativa baseados em nuvem externa, subsistindo a supervisão humana obrigatória (*human-in-the-loop*) e a responsabilidade funcional indelegável do servidor que utilizar a ferramenta.
+* **C)** A inteligência artificial pode ser utilizada para gerar automaticamente acórdãos condenatórios sem conferência técnica do relator.
+* **D)** As ferramentas de IA utilizadas no Tribunal são dispensadas de observar princípios de explicabilidade e auditabilidade algorítmica.
+* **E)** O servidor que assina relatório gerado com auxílio de IA fica isento de responsabilidade por erros materiais ou alucinações de conteúdo produzidas pela máquina.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "realizar exercícios cibernéticos com a participação de múltiplos entes". De acordo com a teoria estudada em *2.3 Tratamento de Incidentes Cibernéticos e Rastreabilidade*, qualquer usuário que identificar comportamento anômalo em sistemas, tentativas de invasão, *phishing* ou perda de dados tem o dever imediato de notificar a equipe de segurança da STI.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "estabelecer norma sobre a definição dos requisitos metodológicos para a implementação da gestão de risco dos...". De acordo com a teoria estudada em *4.2 Proibição Estrita de Dados Sigilosos em Modelos Abertos*, a norma impõe restrições operacionais categóricas à segurança da informação.
-> - **C)** **Correta.** Conforme fundamentado na seção *1.2 Secretarias de Controle Externo e Unidades de Apoio Estratégico* deste guia, *Secretaria de Tecnologia da Informação (STI):* Gestão de infraestrutura de TI, governança de dados, inteligência artificial, segurança cibernética e sustentação de sistemas processuais. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "estabelecer rotinas de verificações de conformidade em segurança cibernética".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "elaborar a Política de Segurança da Informação e normas internas correlatas ao tema, observadas as normas de...". De acordo com a teoria estudada em *3.2 Governança de Privacidade: Controlador, Operador, DPO e Comitê*, comitê de Privacidade e Proteção de Dados: Órgão multidisciplinar permanente encarregado de propor normas, aprovar o inventário de dados e auditar a conformidade da instituição com a LGPD.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "promover ações de capacitação e profissionalização dos recursos humanos em temas relacionados à segurança da...". De acordo com a teoria estudada em *4.2 Proibição Estrita de Dados Sigilosos em Modelos Abertos*, uso de Soluções Corporativas Homologadas: O desenvolvimento e uso de inteligência artificial no Tribunal deve ocorrer prioritariamente dentro do ecossistema tecnológico corporativo mantido e monitorado pela Secretaria de Tecnologia da Informação (STI), sob acordos estritos de confidencialidade e segurança de dados.
+> - **A)** Incorreta. A tomada de decisão jurisdicional e sancionatória é ato privativo e indelegável de agentes públicos humanos investidos de autoridade constitucional.
+> - **B)** Correta. A RA nº 24/2024 do TCE-GO consagra balizas de vanguarda na governança de IA pública: 1) Vedação peremptória ao upload de dados sigilosos e informações sob segredo em plataformas públicas abertas (para evitar vazamentos e quebra da LGPD); 2) O princípio da supervisão humana compulsória (*human-in-the-loop*); 3) A responsabilidade pessoal e intransferível do servidor operador por todo e qualquer texto ou cálculo incorporado às minutas oficiais.
+> - **C)** Incorreta. A decisão colegiada exige juízo crítico motivado do julgador humano.
+> - **D)** Incorreta. A transparência, explicabilidade e auditabilidade dos sistemas inteligentes são exigências éticas fundamentais da norma.
+> - **E)** Incorreta. O servidor responde plenamente por qualquer "alucinação", dado incorreto ou citação inexistente formulada pela IA que for submetida sem a devida validação humana.
 >
-> **Gabarito: C**
+> **Gabarito: B**
 
 ---
 
@@ -397,74 +404,77 @@ graph TD
 ---
 
 ### Teste 179
-**(FGV – TRT-24 – Analista Judiciario Area Apoio Especializado Tecnologia da Informacao – 2025)**
-A Resolução 396/2021 do Conselho Nacional de Justiça institui a Estratégia Nacional de Segurança Cibernética do Poder Judiciário (ENSEC-PJ). A respeito dos objetivos da ENSEC-PJ, avalie as afirmativas a seguir. I. Baratear a execução das atividades do Judiciário no ambiente digital para reduzir o tempo de atendimento e recuperação de falhas. II. Aumentar a resiliência às ameaças cibernéticas por meio da gestão ativa de permissões de usuários de sistemas informatizados. III. Permitir a manutenção e a continuidade dos serviços, ou o seu restabelecimento em menor tempo possível. IV. Estabelecer governança de segurança cibernética e fortalecer a gestão e coordenação integrada de ações de segurança cibernética nos órgãos do Poder Judiciário. Está correto o que se afirma em
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+A respeito da Política de Comunicação Institucional (Resolução Administrativa nº 19/2024) e da Política de Gestão de Pessoas (Resolução Administrativa nº 5/2024) do TCE-GO:
 
-* **A)** I e II, apenas.
-* **B)** II e III, apenas.
-* **C)** III e IV, apenas.
-* **D)** I, III e IV, apenas.
-* **E)** II, III e IV, apenas.
+* **A)** A Política de Comunicação incentiva o uso de linguagem rebuscada e jargões processuais latinos em todos os atos públicos para demonstrar erudição jurídica.
+* **B)** A Política de Comunicação adota as diretrizes da Linguagem Simples e Cidadã, buscando transmitir as decisões e informações de controle externo de forma acessível e compreensível a qualquer cidadão.
+* **C)** O regime de teletrabalho previsto na Política de Gestão de Pessoas é obrigatório para todos os servidores sem necessidade de avaliação ou metas de produtividade.
+* **D)** A capacitação dos servidores é facultativa ao Tribunal, sendo vedada a oferta de pós-graduações pela Escola Superior de Controle Externo.
+* **E)** Os servidores do Tribunal têm liberdade para conceder entrevistas individuais em nome da Corte de Contas a emissoras de televisão sem alinhamento com a Assessoria de Comunicação em conformidade com as diretrizes e padrões de arquitetura corporativa.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *1.2 Secretarias de Controle Externo e Unidades de Apoio Estratégico*, *Secretaria de Tecnologia da Informação (STI):* Gestão de infraestrutura de TI, governança de dados, inteligência artificial, segurança cibernética e sustentação de sistemas processuais.
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *5.1 Política de Gestão de Pessoas e Teletrabalho (RA nº 5/2024)*, papel da ESCOEX: Planejamento e execução de programas de capacitação continuada e pós-graduações, com foco no controle externo e governança pública.
-> - **C)** **Correta.** Conforme fundamentado na seção *3.1 Aplicação da LGPD ao Controle Externo: Dispensabilidade do Consentimento* deste guia, artigo 7º, III da LGPD: Execução de políticas públicas e exercício de competências institucionais de fiscalização e controle externo atribuídas pela Constituição Federal e Estadual. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-24/2025) ao estabelecer que "III e IV, apenas".
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, III e IV, apenas". De acordo com a teoria estudada em *1.2 Secretarias de Controle Externo e Unidades de Apoio Estratégico*, *Secretaria de Fiscalização de Obras Públicas e Meio Ambiente:* Auditorias de engenharia, medições físicas, editais de infraestrutura e sustentabilidade.
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, III e IV, apenas". De acordo com a teoria estudada em *2.2 Classificação da Informação e Controles Operacionais de TI*, conexão obrigatória via Rede Virtual Privada (VPN) institucional criptografada para execução de atividades em regime de teletrabalho.
->
-> **Gabarito: C**
+> - **A) Incorreta.** A política veda expressamente o rebuscamento inútil e o jargão excessivo, orientando a clareza e concisão.
+> - **B) CORRETA.** A Resolução Administrativa nº 19/2024 estabelece como pilar central o uso da **Linguagem Simples e Cidadã**, visando assegurar que acórdãos, resumos de julgamentos e informativos sejam compreendidos pela sociedade em geral, fortalecendo o controle social e a transparência pública.
+> - **C) Incorreta.** O teletrabalho é facultativo, submete-se ao interesse da administração e exige pactuação formal de metas de produtividade (em regra, superiores às presenciais).
+> - **D) Incorreta.** A formação continuada é prioridade institucional, ofertando a ESCOEX programas regulares de pós-graduação e aperfeiçoamento.
+> - **E) Incorreta.** O contato com veículos de comunicação social é institucionalmente centralizado na Assessoria de Comunicação (ASCOM).
+> 
+> **Gabarito: B**
 
 ---
 
 ### Teste 180
-**(FGV – TRT-13 – Analista Judiciario Tecnologia da Informacao – 2022)**
-A Estratégia Nacional de Segurança Cibernética do Poder Judiciário (ENSEC-PJ) tem sua regulamentação instituída pela Resolução CNJ nº 396/2021 e pela Portaria CNJ nº 162/2021. Quanto às definições de eventos Cibernéticos do Poder Judiciário, assinale V para a afirmativa verdadeira e F para a falsa. I. Na Prevenção de Incidentes Cibernéticos do Poder Judiciário são princípios críticos que asseguram a construção de sistema de segurança cibernética eficaz: base de conhecimento de vírus, diagnóstico contínuo e automação. II. Na Investigação para Ilícitos Cibernéticos do Poder Judiciário o protocolo tem por finalidade estabelecer os procedimentos básicos para coleta e preservação de evidências e para comunicação obrigatória dos fatos penalmente relevantes ao Ministério Público e ao órgão de polícia judiciária com atribuição para o início da persecução penal. III. Considerando a Prevenção e Mitigação de Ameaças Cibernéticas e Confiança Digital, na etapa de recuperação espera-se que a organização conte com plano que preveja ações a serem executadas durante ou após um incidente e que incorpore as lições aprendidas, bem como que exista gerenciamento de comunicação com o público e um plano de recuperação de reputação após incidentes. As afirmativas são, respectivamente,
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+No âmbito do Sistema de Planejamento e Gestão Institucional do TCE-GO, normatizado pela Resolução Administrativa nº 15/2024, a gestão de riscos e os controles internos da gestão estruturam-se consoante o internacionalmente reconhecido Modelo das Três Linhas (*Three Lines Model* do IIA). Nesse modelo, as atribuições da 1ª Linha, da 2ª Linha e da 3ª Linha correspondem, respectivamente, a:
 
-* **A)** F, V e V.
-* **B)** F, F e V.
-* **C)** V, F e F.
-* **D)** V, V e F.
-* **E)** V, F e V.
+* **A)** Auditoria interna independente; Ministério Público de Contas; Tribunal Pleno.
+* **B)** Gestores operacionais diretos que gerenciam os riscos nos processos diários; Unidades de supervisão, conformidade e governança de riscos; Auditoria interna independente.
+* **C)** Ouvidoria e cidadãos; Assessoria de Comunicação; Diretoria de Recursos Humanos.
+* **D)** Assembleia Legislativa do Estado; Governador do Estado; Tribunal de Justiça.
+* **E)** Empresas terceirizadas; Conselheiros relatores; Servidores em estágio probatório.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F, V e V". De acordo com a teoria estudada em *5.3 Planejamento Institucional e o Modelo das Três Linhas do IIA (RA nº 15/2024)*, a Resolução Administrativa nº 15/2024 organiza o Sistema de Planejamento e Gestão de Riscos do TCE-GO, adotando o internacionalmente consagrado Modelo das Três Linhas do *Institute of Internal Auditors* (IIA).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "F, F e V". De acordo com a teoria estudada em *3.3 Minimização, Anonimização e Relatório de Impacto (RIPD)*, princípio da Minimização da Coleta: As auditorias e sistemas do Tribunal devem coletar apenas os dados pessoais estritamente necessários e pertinentes à finalidade da fiscalização.
-> - **C)** **Correta.** Conforme fundamentado na seção *2.3 Tratamento de Incidentes Cibernéticos e Rastreabilidade* deste guia, qualquer usuário que identificar comportamento anômalo em sistemas, tentativas de invasão, *phishing* ou perda de dados tem o dever imediato de notificar a equipe de segurança da STI. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-13/2022) ao estabelecer que "V, F e F".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V, V e F". De acordo com a teoria estudada em *5.2 Política de Comunicação Institucional e Linguagem Simples (RA nº 19/2024)*, a Resolução Administrativa nº 19/2024 orienta a comunicação pública do TCE-GO.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "V, F e V". De acordo com a teoria estudada em *1.1 Macroestrutura Superior e Órgãos Deliberativos*, ministério Público de Contas (MPC-GO): Atuação ministerial autônoma com intervenção obrigatória em todos os processos.
->
-> **Gabarito: C**
+> - **A) Incorreta.** A Auditoria Interna Independente atua na 3ª Linha do modelo, e não na 1ª Linha operacional.
+> - **B) CORRETA.** Conforme a Resolução Administrativa nº 15/2024 do TCE-GO e o padrão IIA: a 1ª Linha compreende os gestores operacionais diretos; a 2ª Linha congrega as unidades de conformidade, riscos e governança; e a 3ª Linha cabe à Auditoria Interna Independente.
+> - **C) Incorreta.** Ouvidoria e assessoria não definem as linhas estruturais do modelo metodológico do IIA.
+> - **D) Incorreta.** Cita instâncias políticas e órgãos externos que transcendem a governança interna do Tribunal.
+> - **E) Incorreta.** Aponta papéis avulsos e sem correspondência conceitual com a taxonomia das Três Linhas.
+> 
+> **Gabarito: B**
 
 ---
 
 ### Teste 181
-**(FGV – TJ-RR – Analista Judiciario Gestao e Governanca de Tecnologia da Informacao – 2024)**
-O Poder Judiciário adotou o modelo centralizado de governança na segurança cibernética, de acordo com a Resolução Nº 396 de 07/06/2021 que instituiu a Estratégia Nacional de Segurança Cibernética do Poder Judiciário (ENSEC-PJ). Nesse modelo, o órgão central que coordena as ações para viabilizar a governança na segurança cibernética é
+**(Questão Inédita / Simulada Estilo FCC – Nível: Controle Externo / TI)**  
+Quanto ao regime de teletrabalho disciplinado na Política de Gestão de Pessoas do TCE-GO (Resolução Administrativa nº 5/2024):
 
-* **A)** o Conselho Nacional de Justiça (CNJ).
-* **B)** o Comitê Gestor de Segurança da Informação do Poder Judiciário (CGSI-PJ).
-* **C)** o Centro de Prevenção, Tratamento e Resposta a Incidentes Cibernéticos do Poder Judiciário (CPTRIC-PJ).
-* **D)** a Equipe de Tratamento e Resposta a Incidentes de Segurança Cibernética (ETIR).
-* **E)** o Sistema de Gestão de Segurança da Informação do Poder Judiciário (SGSI-PJ).
+* **A)** O teletrabalho é direito subjetivo incondicionado de todo servidor recém-empossado, independentemente de avaliação do estágio probatório ou interesse da administração.
+* **B)** A adesão ao teletrabalho vincula-se ao cumprimento de plano de trabalho com metas de desempenho superiores às da atividade presencial.
+* **C)** No regime de teletrabalho, o servidor fica desobrigado de manter canais de comunicação ativos durante o horário regular de funcionamento do Tribunal.
+* **D)** O não atingimento imotivado das metas de desempenho fixadas no plano de trabalho acarreta a promoção automática do servidor por merecimento presumido.
+* **E)** O teletrabalho impede a realização de auditorias presenciais mesmo quando expressamente requisitadas pelo relator dos autos.
+
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *3.2 Governança de Privacidade: Controlador, Operador, DPO e Comitê* deste guia, encarregado pelo Tratamento de Dados Pessoais (DPO): Servidor formalmente designado pelo Presidente do Tribunal, responsável por atuar como canal oficial de comunicação entre o TCE-GO, os titulares dos dados e a Autoridade Nacional de Proteção de Dados (ANPD). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-RR/2024) ao estabelecer que "o Conselho Nacional de Justiça (CNJ)".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o Comitê Gestor de Segurança da Informação do Poder Judiciário (CGSI-PJ)". De acordo com a teoria estudada em *1.2 Secretarias de Controle Externo e Unidades de Apoio Estratégico*, *Secretaria de Tecnologia da Informação (STI):* Gestão de infraestrutura de TI, governança de dados, inteligência artificial, segurança cibernética e sustentação de sistemas processuais.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o Centro de Prevenção, Tratamento e Resposta a Incidentes Cibernéticos do Poder Judiciário (CPTRIC-PJ)". De acordo com a teoria estudada em *2.3 Tratamento de Incidentes Cibernéticos e Rastreabilidade*, qualquer usuário que identificar comportamento anômalo em sistemas, tentativas de invasão, *phishing* ou perda de dados tem o dever imediato de notificar a equipe de segurança da STI.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a Equipe de Tratamento e Resposta a Incidentes de Segurança Cibernética (ETIR)". De acordo com a teoria estudada em *2.3 Tratamento de Incidentes Cibernéticos e Rastreabilidade*, a infraestrutura do TCE-GO conta com a Equipe de Tratamento de Incidentes de Redes (ETIR).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o Sistema de Gestão de Segurança da Informação do Poder Judiciário (SGSI-PJ)". De acordo com a teoria estudada em *5.3 Planejamento Institucional e o Modelo das Três Linhas do IIA (RA nº 15/2024)*, a Resolução Administrativa nº 15/2024 organiza o Sistema de Planejamento e Gestão de Riscos do TCE-GO, adotando o internacionalmente consagrado Modelo das Três Linhas do *Institute of Internal Auditors* (IIA).
+> - **A)** Incorreta. O teletrabalho não constitui direito adquirido nem subjetivo incondicional; é ato discricionário deferido no estrito interesse e conveniência do serviço público.
+> - **B)** Correta. De acordo com a RA nº 5/2024, a inclusão no regime de teletrabalho no TCE-GO exige pactuação formal de metas de produtividade e qualidade (geralmente fixadas em patamar superior ao presencial), observando-se vedações expressas, tais como a existência de penalidade disciplinar nos últimos anos ou tramitação de PAD por falta funcional grave.
+> - **C)** Incorreta. O servidor em teletrabalho deve manter plena disponibilidade de comunicação (telefone, e-mail institucional, aplicativo corporativo) durante a jornada regular.
+> - **D)** Incorreta. O descumprimento injustificado das metas resulta no imediato desligamento do regime de teletrabalho e na apuração de eventuais faltas funcionais.
+> - **E)** Incorreta. O servidor em teletrabalho permanece obrigado a comparecer ao Tribunal ou a diligências externas sempre que convocado pela chefia ou pelo Relator.
 >
-> **Gabarito: A**
+> **Gabarito: B**
 
 ---
 

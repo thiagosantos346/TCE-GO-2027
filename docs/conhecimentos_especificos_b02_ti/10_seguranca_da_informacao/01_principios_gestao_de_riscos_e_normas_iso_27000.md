@@ -104,7 +104,7 @@ A segurança da informação é definida pela norma ABNT NBR ISO/IEC 27000 como 
 ---
 
 ### Teste 355
-**(FGV – TRF-1 – Analista Judiciario Area Apoio Especializado Especialidade Suporte Em Tecnologia da Informacao – 2024)**
+**(FGV – TRF/1 – 2024 – Analista Judiciario Area Apoio Especializado Especialidade Suporte Em Tecnologia Da Informacao)**
 O uso de criptografia na armazenagem ou tráfego de dados visa a garantir os pilares da segurança da informação. As ações a seguir podem ser garantidas com o uso da criptografia: I. proteção das informações armazenadas ou transmitidas; II. comprovação da ocorrência ou não ocorrência de um evento ou ação; III. verificação da correção da informação; IV. validação de usuários nos sistemas. Assinale a alternativa que identifica, respectivamente, os pilares da segurança da informação associados a cada uma das ações acima:
 
 * **A)** confidencialidade, não repúdio, integridade e autenticação;
@@ -117,18 +117,18 @@ O uso de criptografia na armazenagem ou tráfego de dados visa a garantir os pil
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "confidencialidade, não repúdio, integridade e autenticação". De acordo com a teoria estudada em *1. Princípios Básicos da Segurança da Informação (CIDAN)*, a segurança da informação é definida pela norma ABNT NBR ISO/IEC 27000 como a preservação da confidencialidade, integridade e disponibilidade da informação, admitindo-se adicionalmente propriedades vitais para transações formais como a autenticidade e o não repúdio.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não repúdio, confidencialidade, autenticidade e integridade". De acordo com a teoria estudada em *1.1 Os Pilares Fundamentais: Confidencialidade, Integridade e Disponibilidade*, garantia de que a informação, os sistemas computacionais e os ativos de telecomunicações associados estejam acessíveis e utilizáveis sob demanda pelos usuários autorizados sempre que necessário.
-> - **C)** **Correta.** Conforme fundamentado na seção *1.1 Os Pilares Fundamentais: Confidencialidade, Integridade e Disponibilidade* deste guia, *Mecanismos técnicos:* Funções criptográficas de espalhamento (*hashing* criptográfico como SHA-256 e SHA-512), códigos de autenticação de mensagem (HMAC), assinaturas digitais, somas de verificação (*checksums*) e trilhas de auditoria imutáveis. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF-1/2024) ao estabelecer que "integridade, autenticidade, autenticação e disponibilidade".
+> - **A)** **Correta.** Conforme fundamentado na seção *1.1 Os Pilares Fundamentais: Confidencialidade, Integridade e Disponibilidade* deste guia, *Mecanismos técnicos:* Funções criptográficas de espalhamento (*hashing* criptográfico como SHA-256 e SHA-512), códigos de autenticação de mensagem (HMAC), assinaturas digitais, somas de verificação (*checksums*) e trilhas de auditoria imutáveis. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRF/1/2024) ao estabelecer que "confidencialidade, não repúdio, integridade e autenticação".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não repúdio, confidencialidade, autenticidade e integridade". De acordo com a teoria estudada em *1. Princípios Básicos da Segurança da Informação (CIDAN)*, a segurança da informação é definida pela norma ABNT NBR ISO/IEC 27000 como a preservação da confidencialidade, integridade e disponibilidade da informação, admitindo-se adicionalmente propriedades vitais para transações formais como a autenticidade e o não repúdio.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "integridade, autenticidade, autenticação e disponibilidade". De acordo com a teoria estudada em *1.1 Os Pilares Fundamentais: Confidencialidade, Integridade e Disponibilidade*, garantia de que a informação, os sistemas computacionais e os ativos de telecomunicações associados estejam acessíveis e utilizáveis sob demanda pelos usuários autorizados sempre que necessário.
 > - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "autenticidade, integridade, disponibilidade e não repúdio". De acordo com a teoria estudada em *1.1 Os Pilares Fundamentais: Confidencialidade, Integridade e Disponibilidade*, *Mecanismos técnicos:* Criptografia em trânsito (TLS) e em repouso (TDE), controle de acesso lógico baseado em papéis (RBAC), mascaramento dinâmico de dados e soluções de Prevenção contra Perda de Dados (*DLP - Data Loss Prevention*).
 > - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "disponibilidade, integridade, autenticidade e confidencialidade". De acordo com a teoria estudada em *1.1 Os Pilares Fundamentais: Confidencialidade, Integridade e Disponibilidade*, *Mecanismos técnicos:* Redundância de hardware e fontes de alimentação, clusters de alta disponibilidade (HA ativo-ativo ou ativo-passivo), sistemas anti-DDoS, geradores e nobreaks comutáveis, planos de continuidade de negócios (PCN/DRP) e rotinas estruturadas de backup.
 >
-> **Gabarito: C**
+> **Gabarito: A**
 
 ---
 
 ### Teste 356
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Ciencia de Dados – 2024)**
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Ciência de Dados)**
 A segurança da informação é fundamentada em três pilares principais: 1. Confidencialidade: Garantir que a informação seja acessível apenas a indivíduos autorizados. 2. Integridade: Assegurar que a informação seja precisa e completa, não sofrendo alterações não autorizadas. 3. Disponibilidade: Garantir que a informação e os recursos estejam disponíveis para uso quando necessário. Esses conceitos são frequentemente referidos como a Tríade CIA (Confidentiality, Integrity, Availability). A equipe de TI do TCE-PA está desenvolvendo um plano de segurança da informação. Eles precisam garantir que informações sensíveis estejam protegidas contra acessos não autorizados, que os dados das transações permaneçam inalterados e corretos, e que os sistemas estejam sempre disponíveis para realizarem suas operações. Assinale a opção que melhor representa a implementação dos três pilares da segurança da informação (confidencialidade, integridade e disponibilidade) no cenário descrito.
 
 * **A)** Utilizar funções de hash para garantir que os dados estão ´- íntegros, criptografia para assegurar a confidencialidade e redundância de servidores para garantir a disponibilidade.
@@ -141,7 +141,7 @@ A segurança da informação é fundamentada em três pilares principais: 1. Con
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *1.1 Os Pilares Fundamentais: Confidencialidade, Integridade e Disponibilidade* deste guia, *Mecanismos técnicos:* Criptografia em trânsito (TLS) e em repouso (TDE), controle de acesso lógico baseado em papéis (RBAC), mascaramento dinâmico de dados e soluções de Prevenção contra Perda de Dados (*DLP - Data Loss Prevention*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "Utilizar funções de hash para garantir que os dados estão ´- íntegros, criptografia para assegurar a...".
+> - **A)** **Correta.** Conforme fundamentado na seção *1.1 Os Pilares Fundamentais: Confidencialidade, Integridade e Disponibilidade* deste guia, *Mecanismos técnicos:* Criptografia em trânsito (TLS) e em repouso (TDE), controle de acesso lógico baseado em papéis (RBAC), mascaramento dinâmico de dados e soluções de Prevenção contra Perda de Dados (*DLP - Data Loss Prevention*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "Utilizar funções de hash para garantir que os dados estão ´- íntegros, criptografia para assegurar a...".
 > - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Utilizar criptografia para proteger a integridade dos dados, backups regulares para assegurar a confiabilidade e...". De acordo com a teoria estudada em *1.1 Os Pilares Fundamentais: Confidencialidade, Integridade e Disponibilidade*, garantia de que a informação, os sistemas computacionais e os ativos de telecomunicações associados estejam acessíveis e utilizáveis sob demanda pelos usuários autorizados sempre que necessário.
 > - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Implementar redundância de servidores para proteger a confiabilidade, criptografia para assegurar a integridade e...". De acordo com a teoria estudada em *1.1 Os Pilares Fundamentais: Confidencialidade, Integridade e Disponibilidade*, *Ameaças clássicas:* Escuta clandestina de rede (*sniffing/eavesdropping*), roubo de dispositivos físicos, engenharia social, vazamento inadvertido de dados fiscais protegidos por sigilo e acessos não autorizados.
 > - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Utilizar criptografia para proteger a disponibilidade dos dados, backups regulares para assegurar a integridade e...". De acordo com a teoria estudada em *1.1 Os Pilares Fundamentais: Confidencialidade, Integridade e Disponibilidade*, *Mecanismos técnicos:* Redundância de hardware e fontes de alimentação, clusters de alta disponibilidade (HA ativo-ativo ou ativo-passivo), sistemas anti-DDoS, geradores e nobreaks comutáveis, planos de continuidade de negócios (PCN/DRP) e rotinas estruturadas de backup.
@@ -189,37 +189,37 @@ No âmbito corporativo preconizado pela ISO/IEC 27002:
 ---
 
 ### Teste 357
-**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Ciencias da Computacao Sistemas de Informacao – 2026)**
-Durante uma auditoria de conformidade em Segurança da Informação, um Auditor analisa os procedimentos de backup e os mecanismos de redundância de hardware de um órgão público. Essas salvaguardas são implementadas para garantir que, mesmo diante de falhas técnicas ou desastres, os dados possam ser acessados pelos usuários autorizados e que seu conteúdo não tenha sofrido modificações indesejadas durante o incidente. De acordo com a norma ISO/IEC 27002, os princípios da segurança da informação que visam assegurar, respectivamente, o acesso oportuno à informação e a preservação da exatidão dos dados são os de
+**(FGV – TRT 1ª – 2024 – Analista Judiciário - Área Administrativa)**
+De acordo com a Lei nº 12.527/2011, cabe aos órgãos e entidades do Poder Público, observados os procedimentos específicos aplicáveis e as normas, assegurar a proteção da informação sigilosa. É correto afirmar acerca desse tema, à luz do mencionado diploma legal, que:
 
-* **A)** confidencialidade e autenticidade.
-* **B)** disponibilidade e integridade.
-* **C)** não repúdio e irretratabilidade.
-* **D)** elasticidade e escalabilidade.
-* **E)** governança e compliance.
+* **A)** o prazo máximo de restrição de acesso para informação classificada como secreta é de vinte e cinco anos, vigorando a partir da data de sua produção;
+* **B)** as informações cuja divulgação ou acesso irrestrito possam prejudicar ou causar risco a projetos de pesquisa e desenvolvimento científico ou tecnológico não podem ser consideradas como imprescindíveis à segurança da sociedade e do Estado e, portanto, passíveis de classificação de sigilo;
+* **C)** a classificação do sigilo de informações no âmbito da Administração Pública federal no grau reservado é de competência de todos os servidores públicos federais que tenham sido regularmente investidos em cargos efetivos;
+* **D)** o requerente deverá ser informado sobre a possibilidade de recurso, prazos e condições para sua interposição, quando não for autorizado o acesso por se tratar de informação total ou parcialmente sigilosa, devendo, ainda, ser-lhe indicada a autoridade competente para sua apreciação;
+* **E)** o disposto na aludida norma abarca as situações previstas nas demais hipóteses legais de sigilo e de segredo de justiça, além de hipóteses de segredo industrial decorrentes da exploração direta de atividade econômica pelo Estado, afastando, por conseguinte, a aplicação das respectivas normas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "confidencialidade e autenticidade". De acordo com a teoria estudada em *1.1 Os Pilares Fundamentais: Confidencialidade, Integridade e Disponibilidade*, *Mecanismos técnicos:* Redundância de hardware e fontes de alimentação, clusters de alta disponibilidade (HA ativo-ativo ou ativo-passivo), sistemas anti-DDoS, geradores e nobreaks comutáveis, planos de continuidade de negócios (PCN/DRP) e rotinas estruturadas de backup.
-> - **B)** **Correta.** Conforme fundamentado na seção *1. Princípios Básicos da Segurança da Informação (CIDAN)* deste guia, a segurança da informação é definida pela norma ABNT NBR ISO/IEC 27000 como a preservação da confidencialidade, integridade e disponibilidade da informação, admitindo-se adicionalmente propriedades vitais para transações formais como a autenticidade e o não repúdio. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "disponibilidade e integridade".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "não repúdio e irretratabilidade". De acordo com a teoria estudada em *1.1 Os Pilares Fundamentais: Confidencialidade, Integridade e Disponibilidade*, *Ameaças clássicas:* Ataques de negação de serviço (DoS e DDoS), falhas físicas de hardware em servidores e storages, interrupção no fornecimento de energia elétrica, panes nos links de internet e desastres ambientais (enchentes, incêndios em datacenters).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "elasticidade e escalabilidade". De acordo com a teoria estudada em *1.1 Os Pilares Fundamentais: Confidencialidade, Integridade e Disponibilidade*, garantia de que a informação, os sistemas computacionais e os ativos de telecomunicações associados estejam acessíveis e utilizáveis sob demanda pelos usuários autorizados sempre que necessário.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "governança e compliance". De acordo com a teoria estudada em *1.1 Os Pilares Fundamentais: Confidencialidade, Integridade e Disponibilidade*, *Mecanismos técnicos:* Criptografia em trânsito (TLS) e em repouso (TDE), controle de acesso lógico baseado em papéis (RBAC), mascaramento dinâmico de dados e soluções de Prevenção contra Perda de Dados (*DLP - Data Loss Prevention*).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o prazo máximo de restrição de acesso para informação classificada como secreta é de vinte e cinco anos, vigorando...". De acordo com a teoria estudada em *2.1 Graus de Sigilo no Setor Público (Lei de Acesso à Informação - Lei nº 12.527/2011)*, além disso, lembre-se: informações relativas à intimidade, vida privada, honra e imagem das pessoas têm restrição de acesso máxima de até 100 anos a contar da data de sua produção (Art. 31 da LAI), não se confundindo com prazos de segurança de Estado!.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as informações cuja divulgação ou acesso irrestrito possam prejudicar ou causar risco a projetos de pesquisa e...". De acordo com a teoria estudada em *2.1 Graus de Sigilo no Setor Público (Lei de Acesso à Informação - Lei nº 12.527/2011)*, nos termos do Artigo 24 da Lei nº 12.527/2011 (LAI), as informações passíveis de restrição por representarem risco à segurança da sociedade e do Estado classificam-se em três graus solenes.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a classificação do sigilo de informações no âmbito da Administração Pública federal no grau reservado é de...". De acordo com a teoria estudada em *2.1 Graus de Sigilo no Setor Público (Lei de Acesso à Informação - Lei nº 12.527/2011)*, grau de Sigilo: Prazo Máximo de Restrição — Competência Originária Típica para Classificar — Regime de Prorrogação.
+> - **D)** **Correta.** Conforme fundamentado na seção *2.1 Graus de Sigilo no Setor Público (Lei de Acesso à Informação - Lei nº 12.527/2011)* deste guia, decore rigorosamente os prazos decrescentes: 25 anos $\rightarrow$ 15 anos $\rightarrow$ 5 anos. A FCC inventa prazos alternativos inexistentes (como 10 ou 20 anos) ou inverte Secreta e Reservada. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 1ª/2024) ao estabelecer que "o requerente deverá ser informado sobre a possibilidade de recurso, prazos e condições para sua interposição...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o disposto na aludida norma abarca as situações previstas nas demais hipóteses legais de sigilo e de segredo de...". De acordo com a teoria estudada em *2.1 Graus de Sigilo no Setor Público (Lei de Acesso à Informação - Lei nº 12.527/2011)*, secreta: 15 anos — Titulares de autarquias, fundações e órgãos públicos sob mesma alçada legal — Não admite prorrogação. O prazo cessa impreterivelmente aos 15 anos.
 >
-> **Gabarito: B**
+> **Gabarito: D**
 
 ---
 
 ### Teste 358
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Ciencia de Dados – 2024)**
-Considere o cenário em que uma empresa está revisando suas políticas de segurança da informação para garantir a proteção abrangente de seus dados. A empresa deseja assegurar que suas práticas estejam alinhadas com os melhores padrões de segurança. Em relação ao tema, analise as afirmativas a seguir. I. A classificação de informações ajuda a determinar o nível de proteção necessário para diferentes tipos de dados. II. A implementação de controles de acesso e autenticação garante que apenas pessoas autorizadas possam acessar informações sensíveis. III. A segurança física é irrelevante para a proteção dos dados digitais, pois a segurança lógica é suficiente para impedir acessos não autorizados. Está correto o que se afirma em
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Fiscalização - Ciências Atuariais)**
+A Lei de Acesso à Informação (Lei nº 12.527/2011) traz uma Seção específica para a classificação da informação quanto ao grau e prazos de sigilo. Em relação ao tema, avalie as afirmativas a seguir: I. Observado o seu teor e em razão de sua imprescindibilidade à segurança da sociedade ou do Estado, a informação em poder dos órgãos e entidades públicas poderá ser classificada como ultrassecreta, secreta ou reservada. II. Os prazos máximos de restrição de acesso à informação vigoram a partir da data de sua classificação e são: ultrassecreta: 25 anos, secreta: 15 anos e reservada: 5 anos. III. São passíveis de classificação as informações cuja divulgação ou acesso irrestrito possam oferecer elevado risco à estabilidade financeira, econômica ou monetária do País. Está correto o que se afirma em
 
 * **A)** I, apenas.
-* **B)** II, apenas.
+* **B)** III, apenas.
 * **C)** I e II, apenas.
-* **D)** II e III, apenas.
+* **D)** I e III, apenas
 * **E)** I, II e III.
 
 ---
@@ -227,12 +227,12 @@ Considere o cenário em que uma empresa está revisando suas políticas de segur
 > **Comentário Detalhado:**
 >
 > - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *2.1 Graus de Sigilo no Setor Público (Lei de Acesso à Informação - Lei nº 12.527/2011)*, além disso, lembre-se: informações relativas à intimidade, vida privada, honra e imagem das pessoas têm restrição de acesso máxima de até 100 anos a contar da data de sua produção (Art. 31 da LAI), não se confundindo com prazos de segurança de Estado!.
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas". De acordo com a teoria estudada em *1.1 Os Pilares Fundamentais: Confidencialidade, Integridade e Disponibilidade*, garantia de que a informação, os sistemas computacionais e os ativos de telecomunicações associados estejam acessíveis e utilizáveis sob demanda pelos usuários autorizados sempre que necessário.
-> - **C)** **Correta.** Conforme fundamentado na seção *2. Classificação e Rotulagem da Informação* deste guia, a classificação atribui rótulos de sensibilidade aos ativos de informação da organização, ditando os níveis de proteção lógica e física a serem aplicados de forma proporcional ao dano decorrente de divulgação ou modificação indevida. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "I e II, apenas".
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *5.2 A Nova ISO/IEC 27002 (Edição 2022: 4 Temas e 93 Controles)*, a norma ISO/IEC 27002 constitui um Código de Práticas que detalha diretrizes para implementação dos controles de segurança do Anexo A da ISO 27001. Não é passível de certificação independente.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *1.1 Os Pilares Fundamentais: Confidencialidade, Integridade e Disponibilidade*, garantia de que o acesso à informação é restrito estrita e exclusivamente a pessoas, entidades ou processos formalmente autorizados.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III, apenas". De acordo com a teoria estudada em *2.1 Graus de Sigilo no Setor Público (Lei de Acesso à Informação - Lei nº 12.527/2011)*, decore rigorosamente os prazos decrescentes: 25 anos $\rightarrow$ 15 anos $\rightarrow$ 5 anos. A FCC inventa prazos alternativos inexistentes (como 10 ou 20 anos) ou inverte Secreta e Reservada.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *2.1 Graus de Sigilo no Setor Público (Lei de Acesso à Informação - Lei nº 12.527/2011)*, grau de Sigilo: Prazo Máximo de Restrição — Competência Originária Típica para Classificar — Regime de Prorrogação.
+> - **D)** **Correta.** Conforme fundamentado na seção *2.1 Graus de Sigilo no Setor Público (Lei de Acesso à Informação - Lei nº 12.527/2011)* deste guia, nos termos do Artigo 24 da Lei nº 12.527/2011 (LAI), as informações passíveis de restrição por representarem risco à segurança da sociedade e do Estado classificam-se em três graus solenes. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "I e III, apenas".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *2.1 Graus de Sigilo no Setor Público (Lei de Acesso à Informação - Lei nº 12.527/2011)*, secreta: 15 anos — Titulares de autarquias, fundações e órgãos públicos sob mesma alçada legal — Não admite prorrogação. O prazo cessa impreterivelmente aos 15 anos.
 >
-> **Gabarito: C**
+> **Gabarito: D**
 
 ---
 
@@ -298,61 +298,37 @@ Concluída a avaliação do risco, a organização deve optar formalmente por um
 ---
 
 ### Teste 359
-**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Banco de Dados – 2023)**
-Uma empresa de consultoria X foi contratada para verificar os riscos quanto à segurança da informação no Tribunal de Justiça do Amapá (TJAP). Para atender ao requisito licitatório, a consultoria fez uso da norma ABNT NBR ISO/IEC 27005:2011. Em seu relatório de segurança, a consultoria identificou riscos causados por fenômenos naturais, de forma que a melhor alternativa era mover fisicamente as instalações para um local onde tal risco não exista ou esteja sob controle. A empresa de consultoria X se baseou no tópico de tratamento de riscos de:
+**(FCC – TRT 4ª – 2015 – Analista Judiciário - Tecnologia Da Informação)**
+Considere que um Analista do Tribunal Regional do Trabalho ficou com a tarefa de definir um processo de tratamento dos riscos de segurança da informação de acordo com a Norma NBR ISO/IEC 27001:2013. Uma ação correta é:
 
-* **A)** reter o risco;
-* **B)** modificar o risco;
-* **C)** evitar o risco;
-* **D)** compartilhar o risco;
-* **E)** aceitar o risco.
+* **A)** Selecionar, de forma apropriada, as opções de tratamento dos riscos de segurança da informação, levando em consideração os resultados da avaliação do risco.
+* **B)** Determinar quais os controles e objetivos de controle definidos pela Norma serão utilizados, sem a inclusão de controles adicionais não listados, como recomendado.
+* **C)** Elaborar, cautelosamente, uma declaração de aplicabilidade que contenha os controles necessários e sua justificativa, já que a Norma recomenda que não haja exclusão de controles.
+* **D)** Preparar um plano para tratamento dos riscos residuais de segurança da informação, obtendo a aprovação da alta gerência e dos técnicos de TI.
+* **E)** Não reter a informação documentada relativa ao processo de tratamento dos riscos de segurança da informação no Trecho 1 Trecho 2 SQL> BEGIN SQL> DECLARE 2 FOR cont IN 1..3 LOOP 2 done BOOLEAN; 3 DBMS_OUTPUT.PUT_LINE 3 BEGIN 4 ('Dentro do loop, cont = ' || 4 FOR cont IN 1..50 LOOP TO_CHAR(cont)); 5 IF done THEN 5 END LOOP; 6 GOTO end_loop;
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "reter o risco". De acordo com a teoria estudada em *3.3 As Quatro Estratégias de Tratamento do Risco (ISO/IEC 27005)*, aceitar / Reter (*Risk Acceptance / Retention*): Manter o risco no nível atual sem novos controles, mediante aprovação formal fundamentada da alta administração, quando o custo da salvaguarda técnica for superior à perda monetária potencial estimada.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "modificar o risco". De acordo com a teoria estudada em *3.3 As Quatro Estratégias de Tratamento do Risco (ISO/IEC 27005)*, transferir / Compartilhar (*Risk Transfer / Sharing*): Compartilhar a carga financeira ou operacional das perdas com terceiros (ex.: contratação de apólice de seguro contra incidentes cibernéticos ou terceirização da infraestrutura de datacenter para provedores de nuvem sob contratos de SLA estritos).
-> - **C)** **Correta.** Conforme fundamentado na seção *3.3 As Quatro Estratégias de Tratamento do Risco (ISO/IEC 27005)* deste guia, evitar / Eliminar (*Risk Avoidance*): Descontinuar a atividade, processo ou serviço gerador do risco (ex.: desligar e desativar em definitivo um sistema legado vulnerável sem suporte do fabricante). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "evitar o risco".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "compartilhar o risco". De acordo com a teoria estudada em *3.3 As Quatro Estratégias de Tratamento do Risco (ISO/IEC 27005)*, mitigar / Reduzir (*Risk Mitigation / Reduction*): Implementar controles de segurança (técnicos, administrativos ou físicos) para reduzir a probabilidade e/ou o impacto do risco até patamares aceitáveis (ex.: instalar firewalls, adotar MFA e criptografia).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "aceitar o risco". De acordo com a teoria estudada em *3.3 As Quatro Estratégias de Tratamento do Risco (ISO/IEC 27005)*, concluída a avaliação do risco, a organização deve optar formalmente por uma das quatro respostas estratégicas.
+> - **A)** **Correta.** Conforme fundamentado na seção *5.3 A Declaração de Aplicabilidade (SoA) e a ISO/IEC 27005* deste guia, iSO/IEC 27005: Norma que fornece diretrizes especializadas para o processo de avaliação e tratamento de riscos de segurança da informação no suporte ao SGSI. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 4ª/2015) ao estabelecer que "Selecionar, de forma apropriada, as opções de tratamento dos riscos de segurança da informação, levando em...".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Determinar quais os controles e objetivos de controle definidos pela Norma serão utilizados, sem a inclusão de...". De acordo com a teoria estudada em *5.1 A Norma Certificável ISO/IEC 27001 e o Anexo SL*, *Cláusula 6:* Planejamento (Tratamento de riscos e objetivos de segurança).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Elaborar, cautelosamente, uma declaração de aplicabilidade que contenha os controles necessários e sua...". De acordo com a teoria estudada em *3. Gestão e Análise de Riscos de Segurança da Informação*, a gestão de riscos estabelece um processo contínuo e estruturado para identificar incertezas, avaliar a probabilidade de falhas e selecionar salvaguardas economicamente proporcionais.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Preparar um plano para tratamento dos riscos residuais de segurança da informação, obtendo a aprovação da alta...". De acordo com a teoria estudada em *3.3 As Quatro Estratégias de Tratamento do Risco (ISO/IEC 27005)*, aceitar / Reter (*Risk Acceptance / Retention*): Manter o risco no nível atual sem novos controles, mediante aprovação formal fundamentada da alta administração, quando o custo da salvaguarda técnica for superior à perda monetária potencial estimada.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Não reter a informação documentada relativa ao processo de tratamento dos riscos de segurança da informação no...". De acordo com a teoria estudada em *5.1 A Norma Certificável ISO/IEC 27001 e o Anexo SL*, *Cláusula 8:* Operação (Execução do tratamento de riscos de segurança).
 >
-> **Gabarito: C**
+> **Gabarito: A**
 
 ---
 
 ### Teste 360
-**(FCC – TRT-15 – Analista Judiciario Tecnologia da Informacao – 2015)**
-Sobre as definições aplicadas na NBR ISO/IEC 27001:2006, considere: I. Segurança da informação é a preservação da confidencialidade, integridade e disponibilidade da informação; adicionalmente, outras propriedades, tais como autenticidade, responsabilidade, não repúdio e confiabilidade, podem também estar envolvidas. II. Evento de segurança da informação é um evento simples ou uma série de eventos de segurança da informação indesejados ou inesperados, que tenham uma grande probabilidade de comprometer as operações do negócio e ameaçar a segurança da informação. III. Incidente de segurança da informação é uma ocorrência identificada de um estado de sistema, serviço ou rede, indicando uma possível violação da política de segurança da informação ou falha de controles, ou uma situação previamente desconhecida, que possa ser relevante para a segurança da informação. IV. Confidencialidade é a propriedade de que a informação não esteja disponível ou revelada a indivíduos, entidades ou processos não autorizados. Está correto o que consta APENAS em
-
-* **A)** III e IV.
-* **B)** I e IV.
-* **C)** I e II.
-* **D)** II e III.
-* **E)** II e IV.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "III e IV". De acordo com a teoria estudada em *1.1 Os Pilares Fundamentais: Confidencialidade, Integridade e Disponibilidade*, garantia de que o acesso à informação é restrito estrita e exclusivamente a pessoas, entidades ou processos formalmente autorizados.
-> - **B)** **Correta.** Conforme fundamentado na seção *1. Princípios Básicos da Segurança da Informação (CIDAN)* deste guia, a segurança da informação é definida pela norma ABNT NBR ISO/IEC 27000 como a preservação da confidencialidade, integridade e disponibilidade da informação, admitindo-se adicionalmente propriedades vitais para transações formais como a autenticidade e o não repúdio. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-15/2015) ao estabelecer que "I e IV".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e II". De acordo com a teoria estudada em *5.1 A Norma Certificável ISO/IEC 27001 e o Anexo SL*, a norma ABNT NBR ISO/IEC 27001 estabelece os requisitos formais para estabelecer, implementar, manter e melhorar continuamente um Sistema de Gestão de Segurança da Informação (SGSI).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II e III". De acordo com a teoria estudada em *1.1 Os Pilares Fundamentais: Confidencialidade, Integridade e Disponibilidade*, *Ameaças clássicas:* Escuta clandestina de rede (*sniffing/eavesdropping*), roubo de dispositivos físicos, engenharia social, vazamento inadvertido de dados fiscais protegidos por sigilo e acessos não autorizados.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II e IV". De acordo com a teoria estudada em *1.1 Os Pilares Fundamentais: Confidencialidade, Integridade e Disponibilidade*, propriedade de salvaguardar a exatidão, originalidade e completude da informação e de seus métodos de processamento, impedindo alterações, corrupções ou supressões indevidas ou não autorizadas.
->
-> **Gabarito: B**
-
----
-
-### Teste 361
-**(FCC – TRT-3 – Analista Judiciario Tecnologia da Informacao – 2015)**
+**(FCC – TRT 3ª – 2015 – Analista Judiciário - Tecnologia da Informação)**
 Um analista de TI está utilizando as recomendações da norma ABNT NBR ISO/IEC 27005:2011 para realizar o tratamento de riscos dentro do processo de gestão de riscos de segurança da informação. Nesse contexto, a norma recomenda que
 
 * **A)** as opções de tratamento do risco sejam selecionadas apenas com base no resultado do processo de avaliação de riscos e no custo esperado para implementações dessas opções.
 * **B)** as quatro opções para tratamento do risco sejam aplicadas de forma mutuamente exclusiva, ou seja, não combinadas.
-* **C)** as opções de tratamento do risco sejam consideradas levando-se em conta como o risco é percebido pelas partes afetadas e as formas mais apropriadas de comunicação com estas partes.
-* **D)** as consequências adversas do risco sejam reduzidas ao mínimo possível de acordo com critérios absolutos, como a probabilidade do risco, pois riscos mais prováveis devem ser os primeiros a serem considerados.
+* **C)** as opções de tratamento do risco sejam consideradas levando-se em conta como o risco é percebido pelas partes afeta- das e as formas mais apropriadas de comunicação com estas partes.
+* **D)** as consequências adversas do risco sejam reduzidas ao mínimo possível de acordo com critérios absolutos, como a proba- bilidade do risco, pois riscos mais prováveis devem ser os primeiros a serem considerados.
 * **E)** um plano de tratamento de riscos seja definido identificando os riscos mais prováveis, as formas de tratar estes riscos, independente das prioridades, e os prazos de execução das ações de tratamento de risco indicadas.
 
 ---
@@ -361,11 +337,35 @@ Um analista de TI está utilizando as recomendações da norma ABNT NBR ISO/IEC 
 >
 > - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "as opções de tratamento do risco sejam selecionadas apenas com base no resultado do processo de avaliação de...". De acordo com a teoria estudada em *5.3 A Declaração de Aplicabilidade (SoA) e a ISO/IEC 27005*, iSO/IEC 27005: Norma que fornece diretrizes especializadas para o processo de avaliação e tratamento de riscos de segurança da informação no suporte ao SGSI.
 > - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as quatro opções para tratamento do risco sejam aplicadas de forma mutuamente exclusiva, ou seja, não combinadas". De acordo com a teoria estudada em *3.3 As Quatro Estratégias de Tratamento do Risco (ISO/IEC 27005)*, mitigar / Reduzir (*Risk Mitigation / Reduction*): Implementar controles de segurança (técnicos, administrativos ou físicos) para reduzir a probabilidade e/ou o impacto do risco até patamares aceitáveis (ex.: instalar firewalls, adotar MFA e criptografia).
-> - **C)** **Correta.** Conforme fundamentado na seção *3.3 As Quatro Estratégias de Tratamento do Risco (ISO/IEC 27005)* deste guia, evitar / Eliminar (*Risk Avoidance*): Descontinuar a atividade, processo ou serviço gerador do risco (ex.: desligar e desativar em definitivo um sistema legado vulnerável sem suporte do fabricante). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-3/2015) ao estabelecer que "as opções de tratamento do risco sejam consideradas levando-se em conta como o risco é percebido pelas partes...".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as consequências adversas do risco sejam reduzidas ao mínimo possível de acordo com critérios absolutos, como a...". De acordo com a teoria estudada em *3. Gestão e Análise de Riscos de Segurança da Informação*, a gestão de riscos estabelece um processo contínuo e estruturado para identificar incertezas, avaliar a probabilidade de falhas e selecionar salvaguardas economicamente proporcionais.
+> - **C)** **Correta.** Conforme fundamentado na seção *3.3 As Quatro Estratégias de Tratamento do Risco (ISO/IEC 27005)* deste guia, evitar / Eliminar (*Risk Avoidance*): Descontinuar a atividade, processo ou serviço gerador do risco (ex.: desligar e desativar em definitivo um sistema legado vulnerável sem suporte do fabricante). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 3ª/2015) ao estabelecer que "as opções de tratamento do risco sejam consideradas levando-se em conta como o risco é percebido pelas partes...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as consequências adversas do risco sejam reduzidas ao mínimo possível de acordo com critérios absolutos, como a...". De acordo com a teoria estudada em *5.1 A Norma Certificável ISO/IEC 27001 e o Anexo SL*, *Cláusula 6:* Planejamento (Tratamento de riscos e objetivos de segurança).
 > - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "um plano de tratamento de riscos seja definido identificando os riscos mais prováveis, as formas de tratar estes...". De acordo com a teoria estudada em *5.1 A Norma Certificável ISO/IEC 27001 e o Anexo SL*, *Cláusula 8:* Operação (Execução do tratamento de riscos de segurança).
 >
 > **Gabarito: C**
+
+---
+
+### Teste 361
+**(FCC – TRT 24ª – 2017 – Analista Judiciário - Tecnologia da Informação)**
+Considere os processos abaixo. Processos do SGSI Processos de GRSI − Planejar. − Definição do contexto. − Executar. − Avaliação de riscos. − Verificar. − Definição do plano de tratamento do risco. − Agir. − Aceitação do risco. − Implementação do plano de tratamento do risco. − Monitoramento contínuo e análise crítica de riscos. − Manter e melhorar o processo de GRSI. A norma ABNT NBR ISO/IEC 27005:2011 apresenta o alinhamento do processo do Sistema de Gestão da Segurança da In- formação – SGSI e do processo de Gestão de Riscos de Segurança da Informação – GRSI. Segundo a Norma, o processo de GRSI denominado
+
+* **A)** no JBoss EAP 6 a fonte de dados é configurada no arquivo de configuração do servidor. Caso a instância do JBoss EAP estiver sendo executada como servidor autônomo, a fonte de dados é configurada no arquivo standalone/ configuration/standalone.xml.
+* **B)** o JBoss Messaging passou a ser incluído no JBoss EAP 6, já que o JBoss EAP 5 usava o HornetQ como provedor messaging.
+* **C)** no JBoss EAP 5 a arquitetura de carregamento de classe era baseado nos JBoss Modules, mas no JBoss EAP6, o carregamento de classe é hierárquico, ocultando as classes de implementação do servidor e carregando apenas as classes que o aplicativo necessita.
+* **D)** no JBoss EAP 5, o servidor podia ser executado em um managed domain, mas no JBoss EAP 6 executa como um servidor autônomo, permitindo configurar todos os grupos dos servidores de uma só vez, mantendo as configurações sincronizadas por toda a rede de servidores.
+* **E)** o JBoss EAP 5 usava perfis baseados na configuração de implantação, localizados no diretório EAP_HOME/ configuration/. No JBoss EAP 6, a configuração da implantação é feita usando um arquivo e um servidor autônomo, que é configurado usando o arquivo EAP_HOME/domain/server/domain.xml.
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "no JBoss EAP 6 a fonte de dados é configurada no arquivo de configuração do servidor. Caso a instância do JBoss...". De acordo com a teoria estudada em *3.1 A Tríade Ativo, Ameaça e Vulnerabilidade*, vulnerabilidade (*Vulnerability*): Ponto fraco, falha de projeto, brecha de configuração ou deficiência de controle em um ativo que pode ser explorado por uma ameaça.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o JBoss Messaging passou a ser incluído no JBoss EAP 6, já que o JBoss EAP 5 usava o HornetQ como provedor...". De acordo com a teoria estudada em *5.3 A Declaração de Aplicabilidade (SoA) e a ISO/IEC 27005*, iSO/IEC 27005: Norma que fornece diretrizes especializadas para o processo de avaliação e tratamento de riscos de segurança da informação no suporte ao SGSI.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "no JBoss EAP 5 a arquitetura de carregamento de classe era baseado nos JBoss Modules, mas no JBoss EAP6, o...". De acordo com a teoria estudada em *3. Gestão e Análise de Riscos de Segurança da Informação*, a gestão de riscos estabelece um processo contínuo e estruturado para identificar incertezas, avaliar a probabilidade de falhas e selecionar salvaguardas economicamente proporcionais.
+> - **D)** **Correta.** Conforme fundamentado na seção *5.1 A Norma Certificável ISO/IEC 27001 e o Anexo SL* deste guia, a norma ABNT NBR ISO/IEC 27001 estabelece os requisitos formais para estabelecer, implementar, manter e melhorar continuamente um Sistema de Gestão de Segurança da Informação (SGSI). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 24ª/2017) ao estabelecer que "no JBoss EAP 5, o servidor podia ser executado em um managed domain, mas no JBoss EAP 6 executa como um servidor...".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o JBoss EAP 5 usava perfis baseados na configuração de implantação, localizados no diretório EAP_HOME/...". De acordo com a teoria estudada em *3.3 As Quatro Estratégias de Tratamento do Risco (ISO/IEC 27005)*, evitar / Eliminar (*Risk Avoidance*): Descontinuar a atividade, processo ou serviço gerador do risco (ex.: desligar e desativar em definitivo um sistema legado vulnerável sem suporte do fabricante).
+>
+> **Gabarito: D**
 
 ---
 
@@ -423,50 +423,50 @@ O tratamento de incidentes cibernéticos adota o ciclo formalizado no guia NIST 
 ---
 
 ### Teste 362
-**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Seguranca da Informacao – 2023)**
-Em um Sistema de Continuidade de Negócios (SCN), a organização deve considerar vários aspectos internos e externos ao órgão para determinar as consequências das paralisações das suas atividades, definindo planos de recuperação em caso de incidentes, permitindo a sua operação durante o momento de crise e no retorno à normalidade. O SCN envolve vários processos e planos formalmente estabelecidos. O estabelecimento dos prazos priorizados dentro do período máximo tolerável de interrupção para a retomada das atividades suspensas a uma capacidade mínima aceitável é definido no(a):
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Tecnologia da Informação)**
+Assinale a opção correta sobre a segurança de redes de computadores.
 
-* **A)** procedimento de continuidade de negócios;
-* **B)** processo de análise de impacto nos negócios;
-* **C)** plano de continuidade de negócios;
-* **D)** processo de avaliação de riscos;
-* **E)** seleção de estratégias e soluções.
+* **A)** Os sistemas de detecção de intrusão (IDS) e os sistemas de prevenção de intrusão (IPS) são ferramentas com a mesma função
+* **B)** Gestão de vulnerabilidades é um processo para correção de vulnerabilidades em softwares, não tendo relação direta com o firewall.
+* **C)** Um sistema de detecção de intrusão (IDS) não funciona numa DMZ (Demilitarized Zone), pois ela necessita de visibilidade completa da rede.
+* **D)** O uso de NAC (Network Access Control) não contribui para a gestão de vulnerabilidades.
+* **E)** Os Sistemas de detecção de intrusão (IDS) são projetados para monitorar e alertar sobre possíveis intrusões, enquanto sistemas de prevenção de intrusão (IPS) atuam ativamente para bloquear ataques detectados.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "procedimento de continuidade de negócios". De acordo com a teoria estudada em *3.2 Análise Qualitativa vs. Análise Quantitativa (SLE, ARO e ALE)*, utiliza escalas ordinais descritivas (ex.: Baixo, Médio, Alto, Crítico) distribuídas em uma Matriz de Probabilidade vs. Impacto.
-> - **B)** **Correta.** Conforme fundamentado na seção *1.1 Os Pilares Fundamentais: Confidencialidade, Integridade e Disponibilidade* deste guia, *Mecanismos técnicos:* Redundância de hardware e fontes de alimentação, clusters de alta disponibilidade (HA ativo-ativo ou ativo-passivo), sistemas anti-DDoS, geradores e nobreaks comutáveis, planos de continuidade de negócios (PCN/DRP) e rotinas estruturadas de backup. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "processo de análise de impacto nos negócios".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "plano de continuidade de negócios". De acordo com a teoria estudada em *3. Gestão e Análise de Riscos de Segurança da Informação*, a gestão de riscos estabelece um processo contínuo e estruturado para identificar incertezas, avaliar a probabilidade de falhas e selecionar salvaguardas economicamente proporcionais.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "processo de avaliação de riscos". De acordo com a teoria estudada em *5.3 A Declaração de Aplicabilidade (SoA) e a ISO/IEC 27005*, iSO/IEC 27005: Norma que fornece diretrizes especializadas para o processo de avaliação e tratamento de riscos de segurança da informação no suporte ao SGSI.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "seleção de estratégias e soluções". De acordo com a teoria estudada em *3.3 As Quatro Estratégias de Tratamento do Risco (ISO/IEC 27005)*, evitar / Eliminar (*Risk Avoidance*): Descontinuar a atividade, processo ou serviço gerador do risco (ex.: desligar e desativar em definitivo um sistema legado vulnerável sem suporte do fabricante).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os sistemas de detecção de intrusão (IDS) e os sistemas de prevenção de intrusão (IPS) são ferramentas com a mesma...". De acordo com a teoria estudada em *4.2 As Quatro Fases do Ciclo de Resposta a Incidentes (NIST SP 800-61)*, preparação (*Preparation*): Estabelecimento e capacitação da equipe técnica de resposta (CSIRT / CERT), aquisição de ferramentas de investigação forense, implantação de políticas e planos de comunicação.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Gestão de vulnerabilidades é um processo para correção de vulnerabilidades em softwares, não tendo relação direta...". De acordo com a teoria estudada em *3. Gestão e Análise de Riscos de Segurança da Informação*, a gestão de riscos estabelece um processo contínuo e estruturado para identificar incertezas, avaliar a probabilidade de falhas e selecionar salvaguardas economicamente proporcionais.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Um sistema de detecção de intrusão (IDS) não funciona numa DMZ (Demilitarized Zone), pois ela necessita de...". De acordo com a teoria estudada em *4.2 As Quatro Fases do Ciclo de Resposta a Incidentes (NIST SP 800-61)*, *Contenção:* Ação emergencial prioritária voltada a estancar a disseminação do ataque e limitar o raio de destruição (*blast radius*), tal como isolar a máquina da rede, desconectar cabos ou bloquear portas de switches.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O uso de NAC (Network Access Control) não contribui para a gestão de vulnerabilidades". De acordo com a teoria estudada em *4.1 Métricas do CVSS v3.1 (Common Vulnerability Scoring System)*, o padrão CVSS (mantido pelo FIRST) quantifica a gravidade técnica de vulnerabilidades de software e hardware em uma escala contínua de 0,0 a 10,0.
+> - **E)** **Correta.** Conforme fundamentado na seção *4.2 As Quatro Fases do Ciclo de Resposta a Incidentes (NIST SP 800-61)* deste guia, detecção e Análise (*Detection and Analysis*): Monitoramento contínuo de alertas de IDS/IPS, antivírus/EDR e correlação de logs em SIEM para constatar indícios de comprometimento (*IoCs*) e dimensionar o alcance do ataque. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "Os Sistemas de detecção de intrusão (IDS) são projetados para monitorar e alertar sobre possíveis intrusões...".
 >
-> **Gabarito: B**
+> **Gabarito: E**
 
 ---
 
 ### Teste 363
-**(FCC – TRT-3 – Analista Judiciario Tecnologia da Informacao – 2015)**
-A fase “Definindo o SGSI” da norma ABNT NBR ISO/IEC 27003:2011 tem como objetivo completar o plano final de implantação do SGSI por meio da definição da segurança da organização com base nas opções de tratamento de risco selecionadas e nos requisitos de registros e documentação, definição dos controles pela integração com as provisões de segurança para TIC, infraestrutura e processos organizacionais, e definição dos requisitos específicos do SGSI. Nesta fase, na atividade de definição de uma estrutura para a documentação do SGSI, a saída é um documento
+**(FGV – TJ/AP – 2023 – Analista Judiciario Apoio Especializado Tecnologia Da Informacao Banco De Dados)**
+De acordo com a Resolução CNJ nº 396/2021, que institui a Estratégia Nacional de Segurança Cibernética do Poder Judiciário (ENSEC-PJ), no seu Art. 18, estabelece que a Rede de Cooperação do Judiciário na área de segurança cibernética tem o seguinte objetivo:
 
-* **A)** resumindo os requisitos para os registros do SGSI e do controle da documentação, e repositórios e modelos para os registros necessários do SGSI.
-* **B)** da Política da Segurança da Informação e do Plano de Continuidade de Negócios.
-* **C)** que detalha um plano de implementação estruturado para os controles relacionados à segurança da organização como parte do plano final do projeto do SGSI.
-* **D)** resumindo a estrutura da organização, papéis e responsabilidades para a segurança da informação alinhadas com o tratamento de risco.
-* **E)** que resume o plano necessário para realizar uma análise crítica pela direção incluindo entradas e procedimentos exigidos para executar a análise crítica, aspectos de auditorias, controle e medição.
+* **A)** evitar ambiente colaborativo com outros órgãos do Poder Judiciário, de forma a manter em segredo quaisquer ameaças e eventuais ataques ou incidentes cibernéticos;
+* **B)** estimular o compartilhamento de informações sobre incidentes e vulnerabilidades cibernéticas, exceto as do âmbito do Poder Judiciário;
+* **C)** realizar exercícios cibernéticos com a participação de entes restritos ao Poder Judiciário, no intuito de evitar vazamento de dados sensíveis;
+* **D)** fortalecer o Centro de Prevenção, Tratamento e Resposta a Incidentes Cibernéticos (CPTRIC-PJ) do CNJ;
+* **E)** desestimular a estrutura judiciária quanto ao aprimoramento de investigações de crimes cibernéticos.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *5.1 A Norma Certificável ISO/IEC 27001 e o Anexo SL* deste guia, a norma ABNT NBR ISO/IEC 27001 estabelece os requisitos formais para estabelecer, implementar, manter e melhorar continuamente um Sistema de Gestão de Segurança da Informação (SGSI). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-3/2015) ao estabelecer que "resumindo os requisitos para os registros do SGSI e do controle da documentação, e repositórios e modelos para os...".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "da Política da Segurança da Informação e do Plano de Continuidade de Negócios". De acordo com a teoria estudada em *5.3 A Declaração de Aplicabilidade (SoA) e a ISO/IEC 27005*, iSO/IEC 27005: Norma que fornece diretrizes especializadas para o processo de avaliação e tratamento de riscos de segurança da informação no suporte ao SGSI.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "que detalha um plano de implementação estruturado para os controles relacionados à segurança da organização como...". De acordo com a teoria estudada em *5.2 A Nova ISO/IEC 27002 (Edição 2022: 4 Temas e 93 Controles)*, a norma ISO/IEC 27002 constitui um Código de Práticas que detalha diretrizes para implementação dos controles de segurança do Anexo A da ISO 27001. Não é passível de certificação independente.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "resumindo a estrutura da organização, papéis e responsabilidades para a segurança da informação alinhadas com o...". De acordo com a teoria estudada em *3.3 As Quatro Estratégias de Tratamento do Risco (ISO/IEC 27005)*, concluída a avaliação do risco, a organização deve optar formalmente por uma das quatro respostas estratégicas.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "que resume o plano necessário para realizar uma análise crítica pela direção incluindo entradas e procedimentos...". De acordo com a teoria estudada em *5.1 A Norma Certificável ISO/IEC 27001 e o Anexo SL*, *Cláusula 9:* Avaliação de Desempenho (Auditorias internas e análise pela direção).
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "evitar ambiente colaborativo com outros órgãos do Poder Judiciário, de forma a manter em segredo quaisquer ameaças...". De acordo com a teoria estudada em *3.3 As Quatro Estratégias de Tratamento do Risco (ISO/IEC 27005)*, transferir / Compartilhar (*Risk Transfer / Sharing*): Compartilhar a carga financeira ou operacional das perdas com terceiros (ex.: contratação de apólice de seguro contra incidentes cibernéticos ou terceirização da infraestrutura de datacenter para provedores de nuvem sob contratos de SLA estritos).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "estimular o compartilhamento de informações sobre incidentes e vulnerabilidades cibernéticas, exceto as do âmbito...". De acordo com a teoria estudada em *4.2 As Quatro Fases do Ciclo de Resposta a Incidentes (NIST SP 800-61)*, *Contenção:* Ação emergencial prioritária voltada a estancar a disseminação do ataque e limitar o raio de destruição (*blast radius*), tal como isolar a máquina da rede, desconectar cabos ou bloquear portas de switches.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "realizar exercícios cibernéticos com a participação de entes restritos ao Poder Judiciário, no intuito de evitar...". De acordo com a teoria estudada em *1.1 Os Pilares Fundamentais: Confidencialidade, Integridade e Disponibilidade*, *Ameaças clássicas:* Escuta clandestina de rede (*sniffing/eavesdropping*), roubo de dispositivos físicos, engenharia social, vazamento inadvertido de dados fiscais protegidos por sigilo e acessos não autorizados.
+> - **D)** **Correta.** Conforme fundamentado na seção *4.2 As Quatro Fases do Ciclo de Resposta a Incidentes (NIST SP 800-61)* deste guia, o tratamento de incidentes cibernéticos adota o ciclo formalizado no guia NIST SP 800-61 Rev. 2. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/AP/2023) ao estabelecer que "fortalecer o Centro de Prevenção, Tratamento e Resposta a Incidentes Cibernéticos (CPTRIC-PJ) do CNJ".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "desestimular a estrutura judiciária quanto ao aprimoramento de investigações de crimes cibernéticos". De acordo com a teoria estudada em *4.2 As Quatro Fases do Ciclo de Resposta a Incidentes (NIST SP 800-61)*, preparação (*Preparation*): Estabelecimento e capacitação da equipe técnica de resposta (CSIRT / CERT), aquisição de ferramentas de investigação forense, implantação de políticas e planos de comunicação.
 >
-> **Gabarito: A**
+> **Gabarito: D**
 
 ---
 
@@ -521,50 +521,50 @@ A edição atualizada (ISO/IEC 27002:2022) simplificou os antigos 14 domínios d
 ---
 
 ### Teste 364
-**(FGV – TJ-RR – Analista Judiciario Infraestrutura de Tecnologia da Informacao – 2024)**
-Com base nas normas ABNT referentes à segurança da informação, avalie as afirmativas a seguir. I. A Norma ABNT NBR ISO/IEC 27001:2022 estabelece requisitos genéricos e aplicáveis a todas as instituições, de qualquer tipo, tamanho ou natureza. II. A Norma ABNT NBR ISO/IEC 27002:2022 fornece orientações para ajudar as organizações a cumprirem os requisitos da ABNT NBR ISO/IEC 27005 em relação às ações para abordar riscos de segurança da informação. III. A Norma ABNT NBR ISO/IEC 27005:2022 determina os requisitos para estabelecer, implementar, manter e melhorar continuamente um sistema de gestão da segurança da informação dentro do contexto da organização. Está correto o que se afirma em
+**(FCC – TRT 3ª – 2015 – Analista Judiciário - Tecnologia da Informação)**
+A fase “Definindo o SGSI” da norma ABNT NBR ISO/IEC 27003:2011 tem como objetivo completar o plano final de implantação do SGSI por meio da definição da segurança da organização com base nas opções de tratamento de risco selecionadas e nos requisitos de registros e documentação, definição dos controles pela integração com as provisões de segurança para TIC, infraestrutura e processos organizacionais, e definição dos requisitos específicos do SGSI. Nesta fase, na atividade de definição de uma estrutura para a documentação do SGSI, a saída é um documento
 
-* **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** I e III, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
+* **A)** resumindo os requisitos para os registros do SGSI e do controle da documentação, e repositórios e modelos para os registros necessários do SGSI.
+* **B)** da Política da Segurança da Informação e do Plano de Continuidade de Negócios.
+* **C)** que detalha um plano de implementação estruturado para os controles relacionados à segurança da organização como parte do plano final do projeto do SGSI.
+* **D)** resumindo a estrutura da organização, papéis e responsabilidades para a segurança da informação alinhadas com o tratamento de risco.
+* **E)** que resume o plano necessário para realizar uma análise crítica pela direção incluindo entradas e procedimentos exigidos avaliar a eficácia dos requisitos do SGSI para a gestão de controles de segurança da informação no projeto em que está trabalhando, o analista consultou a seção 7 da norma para descobrir as atividades sugeridas para serem estabelecidas e documentadas no desenvolvimento das medidas e medições. Nesse contexto, considere as atividades abaixo.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *5.1 A Norma Certificável ISO/IEC 27001 e o Anexo SL* deste guia, a norma ABNT NBR ISO/IEC 27001 estabelece os requisitos formais para estabelecer, implementar, manter e melhorar continuamente um Sistema de Gestão de Segurança da Informação (SGSI). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-RR/2024) ao estabelecer que "I, apenas".
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *5.3 A Declaração de Aplicabilidade (SoA) e a ISO/IEC 27005*, iSO/IEC 27005: Norma que fornece diretrizes especializadas para o processo de avaliação e tratamento de riscos de segurança da informação no suporte ao SGSI.
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *5.2 A Nova ISO/IEC 27002 (Edição 2022: 4 Temas e 93 Controles)*, a norma ISO/IEC 27002 constitui um Código de Práticas que detalha diretrizes para implementação dos controles de segurança do Anexo A da ISO 27001. Não é passível de certificação independente.
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *5.1 A Norma Certificável ISO/IEC 27001 e o Anexo SL*, *Cláusula 4:* Contexto da Organização (partes interessadas e escopo do SGSI).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *1. Princípios Básicos da Segurança da Informação (CIDAN)*, a segurança da informação é definida pela norma ABNT NBR ISO/IEC 27000 como a preservação da confidencialidade, integridade e disponibilidade da informação, admitindo-se adicionalmente propriedades vitais para transações formais como a autenticidade e o não repúdio.
+> - **A)** **Correta.** Conforme fundamentado na seção *5.1 A Norma Certificável ISO/IEC 27001 e o Anexo SL* deste guia, a norma ABNT NBR ISO/IEC 27001 estabelece os requisitos formais para estabelecer, implementar, manter e melhorar continuamente um Sistema de Gestão de Segurança da Informação (SGSI). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 3ª/2015) ao estabelecer que "resumindo os requisitos para os registros do SGSI e do controle da documentação, e repositórios e modelos para os...".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "da Política da Segurança da Informação e do Plano de Continuidade de Negócios". De acordo com a teoria estudada em *5.3 A Declaração de Aplicabilidade (SoA) e a ISO/IEC 27005*, iSO/IEC 27005: Norma que fornece diretrizes especializadas para o processo de avaliação e tratamento de riscos de segurança da informação no suporte ao SGSI.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "que detalha um plano de implementação estruturado para os controles relacionados à segurança da organização como...". De acordo com a teoria estudada em *5.2 A Nova ISO/IEC 27002 (Edição 2022: 4 Temas e 93 Controles)*, a norma ISO/IEC 27002 constitui um Código de Práticas que detalha diretrizes para implementação dos controles de segurança do Anexo A da ISO 27001. Não é passível de certificação independente.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "resumindo a estrutura da organização, papéis e responsabilidades para a segurança da informação alinhadas com o...". De acordo com a teoria estudada em *3.3 As Quatro Estratégias de Tratamento do Risco (ISO/IEC 27005)*, concluída a avaliação do risco, a organização deve optar formalmente por uma das quatro respostas estratégicas.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "que resume o plano necessário para realizar uma análise crítica pela direção incluindo entradas e procedimentos...". De acordo com a teoria estudada em *3. Gestão e Análise de Riscos de Segurança da Informação*, a gestão de riscos estabelece um processo contínuo e estruturado para identificar incertezas, avaliar a probabilidade de falhas e selecionar salvaguardas economicamente proporcionais.
 >
 > **Gabarito: A**
 
 ---
 
 ### Teste 365
-**(FGV – TJ-RR – Analista Judiciario Gestao e Governanca de Tecnologia da Informacao – 2024)**
-Com base nas normas ABNT referentes à segurança da informação, julgue as afirmativas a seguir. I. A Norma ABNT NBR ISO/IEC 27001:2022 estabelece requisitos genéricos e aplicáveis a todas as instituições, de qualquer tipo, tamanho ou natureza. II. A Norma ABNT NBR ISO/IEC 27002:2022 fornece orientações para ajudar as organizações a cumprirem os requisitos da ABNT NBR ISO/IEC 27005 em relação às ações para abordar riscos de segurança da informação. III. A Norma ABNT NBR ISO/IEC 27005:2022 determina os requisitos para estabelecer, implementar, manter e melhorar continuamente um sistema de gestão da segurança da informação dentro do contexto da organização. Está correto o que se afirma em
+**(FCC – TRT 23ª – 2016 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
+De acordo com a norma ABNT NBR ISO/IEC 27002:2013 a política de controle de acesso deve considerar
 
-* **A)** I, apenas.
-* **B)** I e II, apenas.
-* **C)** I e III, apenas.
-* **D)** II e III, apenas.
-* **E)** I, II e III.
+* **A)** a disponibilidade de referências de caráter satisfatórias do usuário, por exemplo, uma profissional e uma pessoal.
+* **B)** verificações financeiras e verificações de registros criminais do usuário.
+* **C)** ações a serem tomadas no caso de o funcionário desrespeitar os requisitos de segurança da informação da organização.
+* **D)** a legislação pertinente e qualquer obrigação contratual relativa à proteção de acesso para dados ou serviços.
+* **E)** a confirmação e documentação das qualificações acadêmicas e profissionais do usuário.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *5.1 A Norma Certificável ISO/IEC 27001 e o Anexo SL* deste guia, a norma ABNT NBR ISO/IEC 27001 estabelece os requisitos formais para estabelecer, implementar, manter e melhorar continuamente um Sistema de Gestão de Segurança da Informação (SGSI). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-RR/2024) ao estabelecer que "I, apenas".
-> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *5.3 A Declaração de Aplicabilidade (SoA) e a ISO/IEC 27005*, iSO/IEC 27005: Norma que fornece diretrizes especializadas para o processo de avaliação e tratamento de riscos de segurança da informação no suporte ao SGSI.
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *5.2 A Nova ISO/IEC 27002 (Edição 2022: 4 Temas e 93 Controles)*, a norma ISO/IEC 27002 constitui um Código de Práticas que detalha diretrizes para implementação dos controles de segurança do Anexo A da ISO 27001. Não é passível de certificação independente.
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *5.1 A Norma Certificável ISO/IEC 27001 e o Anexo SL*, *Cláusula 4:* Contexto da Organização (partes interessadas e escopo do SGSI).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *1. Princípios Básicos da Segurança da Informação (CIDAN)*, a segurança da informação é definida pela norma ABNT NBR ISO/IEC 27000 como a preservação da confidencialidade, integridade e disponibilidade da informação, admitindo-se adicionalmente propriedades vitais para transações formais como a autenticidade e o não repúdio.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a disponibilidade de referências de caráter satisfatórias do usuário, por exemplo, uma profissional e uma pessoal". De acordo com a teoria estudada em *1. Princípios Básicos da Segurança da Informação (CIDAN)*, a segurança da informação é definida pela norma ABNT NBR ISO/IEC 27000 como a preservação da confidencialidade, integridade e disponibilidade da informação, admitindo-se adicionalmente propriedades vitais para transações formais como a autenticidade e o não repúdio.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "verificações financeiras e verificações de registros criminais do usuário". De acordo com a teoria estudada em *5.3 A Declaração de Aplicabilidade (SoA) e a ISO/IEC 27005*, a justificativa formal obrigatória para a exclusão de qualquer controle que não tenha sido adotado.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ações a serem tomadas no caso de o funcionário desrespeitar os requisitos de segurança da informação da organização". De acordo com a teoria estudada em *2. Classificação e Rotulagem da Informação*, a classificação atribui rótulos de sensibilidade aos ativos de informação da organização, ditando os níveis de proteção lógica e física a serem aplicados de forma proporcional ao dano decorrente de divulgação ou modificação indevida.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.1 Os Pilares Fundamentais: Confidencialidade, Integridade e Disponibilidade* deste guia, *Mecanismos técnicos:* Criptografia em trânsito (TLS) e em repouso (TDE), controle de acesso lógico baseado em papéis (RBAC), mascaramento dinâmico de dados e soluções de Prevenção contra Perda de Dados (*DLP - Data Loss Prevention*). Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 23ª/2016) ao estabelecer que "a legislação pertinente e qualquer obrigação contratual relativa à proteção de acesso para dados ou serviços".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a confirmação e documentação das qualificações acadêmicas e profissionais do usuário". De acordo com a teoria estudada em *5.1 A Norma Certificável ISO/IEC 27001 e o Anexo SL*, a norma ABNT NBR ISO/IEC 27001 estabelece os requisitos formais para estabelecer, implementar, manter e melhorar continuamente um Sistema de Gestão de Segurança da Informação (SGSI).
 >
-> **Gabarito: A**
+> **Gabarito: D**
 
 ---
 

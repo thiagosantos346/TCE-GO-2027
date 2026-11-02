@@ -113,26 +113,26 @@ A língua culta formal não admite o uso de pronomes pessoais do caso reto (*ele
 ---
 
 ### Teste 052
-**(FGV – TJ-DFT – Analista Judiciario Suporte Em Tecnologia da Informacao – 2022)**
-“A liberdade, como a vida, só a merece quem deve conquistá-la a cada dia!” Essa frase exemplifica um caso de linguagem figurada que é um(a):
+**(FGV – TRT 16ª – 2022 – Analista Judiciário (Área Administrativa - Tecnologia da Informação))**
+Em todas as opções abaixo mostram-se duas frases independentes, com termos repetidos; para evitar a repetição, elas foram unidas por meio de um pronome relativo. Assinale a frase em que essa modificação foi feita de forma adequada.
 
-* **A)** pleonasmo, com a repetição da palavra “liberdade” por meio do pronome pessoal em “a merece”;
-* **B)** hipérbole, com a expressão “deve conquistá-la a cada dia”, já que indica um exagero;
-* **C)** elipse do termo “liberdade” no segmento “só a merece quem deve conquistá-la”;
-* **D)** ironia na comparação “como a vida”, igualando duas realidades muito diferentes: a liberdade e a vida;
-* **E)** anacoluto com o termo inicial “liberdade”, já que ele não mostra continuidade sintática na frase.
+* **A)** Li o novo livro de Eduardo Gianetti / Comprei o novo livro de Eduardo Gianetti na nova livraria do bairro --- Li o novo livro de Eduardo Gianetti, cujo foi comprado na nova livraria do bairro.
+* **B)** Estudei durante dois anos em Madrid / Em Madrid aprendi bastante --- Estudei durante dois anos em Madrid, aonde aprendi bastante.
+* **C)** Comprei um carro novo na agência Oxford / O preço do carro foi baixo --- Comprei, na agência Oxford, um carro novo cujo preço foi baixo.
+* **D)** Gostei muito da salada / Os legumes da salada são frescos --- Gostei muito de salada onde os legumes são frescos.
+* **E)** Encontrei Maria e João / Maria é minha amiga --- Encontrei Maria e João, que é minha amiga.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *1.1 Estratégia de Varredura e Identificação de Vícios Gramaticais* deste guia, emprego do Sinal Indicativo de Crase: Cheque se a fusão decorre de preposição exigida e se não há crase antes de palavra masculina, verbo, pronome indefinido ou em expressões simétricas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-DFT/2022) ao estabelecer que "pleonasmo, com a repetição da palavra “liberdade” por meio do pronome pessoal em “a merece”".
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "hipérbole, com a expressão “deve conquistá-la a cada dia”, já que indica um exagero". De acordo com a teoria estudada em *1.3 Pronomes Retos Usados Indevidamente como Objetos*, essa frase está eivada de erro gramatical inadmissível na norma culta! A forma exigida é com pronome oblíquo enclítico ajustado à terminação consonantal: *"deve cumpri-las"*.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "elipse do termo “liberdade” no segmento “só a merece quem deve conquistá-la”". De acordo com a teoria estudada em *3.4 O Emprego Vicioso do Vocábulo O Mesmo*, forma escorreita: Deve-se substituir por pronome oblíquo (*"encaminhou-o ao plenário"*), por pronome demonstrativo (*"encaminhou este ao plenário"*) ou por elipse pura (*"assinou o parecer e encaminhou ao plenário"*).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ironia na comparação “como a vida”, igualando duas realidades muito diferentes: a liberdade e a vida". De acordo com a teoria estudada em *6.1 Por que: Interrogativo e Relativo*, equivalendo ao pronome relativo "pelo qual / pela qual / pelos quais / pelas quais": liga duas orações associando a preposição *por* ao pronome relativo *que*.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "anacoluto com o termo inicial “liberdade”, já que ele não mostra continuidade sintática na frase". De acordo com a teoria estudada em *6. O Emprego Correto das Quatro Formas dos Porquês*, a distinção ortográfica e sintática entre as quatro formas da grafia dos porquês decorre do papel morfológico exercido pela palavra na frase.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Li o novo livro de Eduardo Gianetti / Comprei o novo livro de Eduardo Gianetti na nova livraria do bairro --- Li o...". De acordo com a teoria estudada em *2.3 Casos Típicos de Quebra de Paralelismo e Métodos de Correção*, *"A comissão propôs a revisão das medições e que se fizesse nova perícia."*: Coordenou frase nominal com oração subordinada substantiva. — *"A comissão propôs a revisão das medições e a realização de nova perícia."*.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Estudei durante dois anos em Madrid / Em Madrid aprendi bastante --- Estudei durante dois anos em Madrid, aonde...". De acordo com a teoria estudada em *4.2 Posicionamento Estratégico de Termos Intercalados e Pontuação*, termos intercalados (apóstrofos explicativos, orações adjetivas explicativas, conjunções conclusivas deslocadas e adjuntos adverbiais) devem vir sempre isolados por pontuação simétrica (duas vírgulas, dois travessões ou parênteses), garantindo que a linha sintática principal do período não seja rompida.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.1 Estratégia de Varredura e Identificação de Vícios Gramaticais* deste guia, regência Verbal associada a Pronomes Relativos: Verifique se o verbo da oração subordinada adjetiva exige preposição e se essa preposição foi corretamente anteposta ao pronome relativo *que, quem, cujo* ou *o qual*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 16ª/2022) ao estabelecer que "Comprei um carro novo na agência Oxford / O preço do carro foi baixo --- Comprei, na agência Oxford, um carro novo...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Gostei muito da salada / Os legumes da salada são frescos --- Gostei muito de salada onde os legumes são frescos". De acordo com a teoria estudada em *3.2 Ambiguidade pelo Mau Emprego de Pronomes Possessivos (Seu/Sua)*, *"O presidente comunicou ao conselheiro a transferência da assessoria dele [do conselheiro] para o novo gabinete."*.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Encontrei Maria e João / Maria é minha amiga --- Encontrei Maria e João, que é minha amiga". De acordo com a teoria estudada em *1.3 Pronomes Retos Usados Indevidamente como Objetos*, essa frase está eivada de erro gramatical inadmissível na norma culta! A forma exigida é com pronome oblíquo enclítico ajustado à terminação consonantal: *"deve cumpri-las"*.
 >
-> **Gabarito: A**
+> **Gabarito: C**
 
 ---
 
@@ -167,50 +167,44 @@ Nas estruturas formadas por pares de conectivos correlativos (*não só... mas t
 ---
 
 ### Teste 053
-**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Banco de Dados – 2023)**
-Observe o texto argumentativo a seguir. “No século XXI, a igualdade entre mulheres e homens ainda não é uma realidade. Por que é tão difícil atribuir às mulheres as mesmas posições que aos homens? Não há nenhum motivo por que uma mulher receba salário menor do que o de um homem, se o trabalho é o mesmo. E esse é exatamente o caso. Em nossos dias, na França, com o mesmo tempo de trabalho, mesma seção, mesma categoria profissional, a redução do salário feminino chega a 10%. Do mesmo modo, não é normal que postos de trabalho de mais responsabilidade sejam majoritariamente ocupados por homens. Segundo os dados fornecidos pela Comissão Europeia, na França de 2017, só 33% dos quadros superiores são de mulheres. É mais do que nos Países Baixos e na Grécia (25%), muito mais que em Luxemburgo (18%), mas menos que na Polônia ou na Eslovênia (41%), do que na Hungria ou na Suécia (39%). De qualquer modo, nenhum país da comunidade europeia chega à paridade nesse terreno.” Sobre o fragmento argumentativo acima, é correto afirmar que:
+**(CEBRASPE – STJ – 2015 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+No IPTABLES, tabelas são as estruturas usadas para armazenar os chains e as regras. As tabelas disponíveis no IPTABLES são filter, nat e mangle, que podem ser referenciadas com a opção -t tabela.
 
-* **A)** o texto não apresenta argumentos em defesa da tese exposta, limitando-se a citar exemplos;
-* **B)** as estatísticas apresentadas servem para apoiar uma tese contrária à defendida no texto;
-* **C)** a tese do texto é a de que as mulheres devem receber tratamento igual ao dos homens, no mercado de trabalho;
-* **D)** os argumentos apresentados no texto são do tipo subjetivo, apoiados basicamente na opinião do argumentador;
-* **E)** o último período do texto confirma a razão de as mulheres receberem distinção no tratamento profissional.
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o texto não apresenta argumentos em defesa da tese exposta, limitando-se a citar exemplos". De acordo com a teoria estudada em *4.3 Coesão Sequencial e Encadeamento Lógico de Argumentos*, a reorganização de um período não pode corromper a progressão tópica. Os conectivos oracionais e pronomes de retomada devem orientar o leitor ao longo da cadeia de causas e consequências.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as estatísticas apresentadas servem para apoiar uma tese contrária à defendida no texto". De acordo com a teoria estudada em *4. Organização e Reorganização de Orações e Períodos*, a estruturação eficiente de um texto formal exige domínio sobre a arquitetura da frase, equilibrando clareza semântica, expressividade e conformidade às regras de pontuação.
-> - **C)** **Correta.** Conforme fundamentado na seção *1. Confronto e Julgamento de Frases: O Checklist Caça-Erros da FCC* deste guia, nelas, o enunciado costuma indagar: *"A frase redigida de modo inteiramente claro, correto e condizente com a norma-padrão é:"* ou *"O período que expressa com correção e concisão as ideias do texto é:"*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "a tese do texto é a de que as mulheres devem receber tratamento igual ao dos homens, no mercado de trabalho".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os argumentos apresentados no texto são do tipo subjetivo, apoiados basicamente na opinião do argumentador". De acordo com a teoria estudada em *5. Equivalência, Transformação de Estruturas e Paráfrase*, a paráfrase é a reescrita de um texto ou segmento mantendo com fidelidade absoluta o sentido e as relações lógicas da mensagem original, expressando-a por meio de novos recursos vocabulares e sintáticos.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o último período do texto confirma a razão de as mulheres receberem distinção no tratamento profissional". De acordo com a teoria estudada em *2. Paralelismo Sintático e Semântico*, o paralelismo (ou simetria de construção) é o princípio gramatical e estilístico que determina que elementos coordenados entre si, desempenhando a mesma função sintática no período, devem apresentar estruturas morfológicas e gramaticais idênticas ou equivalentes.
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *3.2 Ambiguidade pelo Mau Emprego de Pronomes Possessivos (Seu/Sua)* deste guia, no português moderno, os pronomes possessivos de terceira pessoa (*seu, sua, seus, suas*) podem referir-se tanto à pessoa de quem se fala (ele/ela) quanto à pessoa com quem se fala (você / o interlocutor), ou gerar dúvida entre dois sujeitos de terceira pessoa já mencionados. Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – STJ/2015) ao afirmar que "No IPTABLES, tabelas são as estruturas usadas para armazenar os chains e as regras. As tabelas disponíveis no...".
+> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *1.3 Pronomes Retos Usados Indevidamente como Objetos*, segundo a qual ao ler uma alternativa da FCC, desconfie sumariamente de sentenças que terminam com construções do tipo: *"A nova lei orçamentária trouxe regras rígidas e o gestor deve cumprir elas"*.
 >
 > **Gabarito: C**
 
 ---
 
 ### Teste 054
-**(FGV – TJ-RR – Analista Judiciario Gestao e Governanca de Tecnologia da Informacao – 2024)**
-Observe a seguinte frase: Se disser algo errado, poderá dizê-lo de novo. Se escrever algo errado, poderá reescrevê-lo. Se fizer algo errado, o erro ficará com você para sempre. Sobre a estruturação ou a significação dessa frase, é correto afirmar que
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Administração)**
+Entre as frases abaixo – do livro A Cidade e as Serras, de Eça de Queiroz -, aquela em que a forma debaixo está mal-empregada, é:
 
-* **A)** os pronomes “lo” usados na frase não possuem antecedente expresso.
-* **B)** as ações de “dizer”, “escrever” e “fazer” mostram uma progressão ascendente de gravidade nos três termos.
-* **C)** os períodos que formam a frase mostram certo paralelismo sintático.
-* **D)** os segmentos “Se disser”, “Se escrever” e “Se fizer” mostram três formas de infinitivo dos verbos.
-* **E)** o termo “o erro” não tem antecedente expresso na frase.
+* **A)** “-Ainda estive para me abrigar em casa do Esgueira, que é um caseiro de cá. Aquela casa, ali debaixo, onde está a figueira...”.
+* **B)** “Os séculos rolam; e sempre imutáveis farrapos lhe cobrem o corpo, e sempre debaixo deles, através do longo dia, os homens labutarão e as mulheres chorarão”.
+* **C)** “No Inverno, logo que na amável cidade começavam a morrer de frio, debaixo das pontes, criancinhas sem abrigo – ela preparava com comovido cuidado os seus vestidos de patinagem”.
+* **D)** “Findou pôr voltar ao montão de jornais amarrotados, ergueu melancolicamente um velho Diário de Notícias, e com ele debaixo do braço subiu ao seu quarto, para dormir, para esquecer”.
+* **E)** “Assobiando o fado meigo tirei debaixo da cama a minha velha mala, e meti solicitamente entre calças e peúgas um Tratado de direito civil, para aprender enfim, nos vagares da aldeia, estendido sob a faia, as leis que regem os homens”.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os pronomes “lo” usados na frase não possuem antecedente expresso". De acordo com a teoria estudada em *1.3 Pronomes Retos Usados Indevidamente como Objetos*, essa frase está eivada de erro gramatical inadmissível na norma culta! A forma exigida é com pronome oblíquo enclítico ajustado à terminação consonantal: *"deve cumpri-las"*.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "as ações de “dizer”, “escrever” e “fazer” mostram uma progressão ascendente de gravidade nos três termos". De acordo com a teoria estudada em *2. Paralelismo Sintático e Semântico*, o paralelismo (ou simetria de construção) é o princípio gramatical e estilístico que determina que elementos coordenados entre si, desempenhando a mesma função sintática no período, devem apresentar estruturas morfológicas e gramaticais idênticas ou equivalentes.
-> - **C)** **Correta.** Conforme fundamentado na seção *4. Organização e Reorganização de Orações e Períodos* deste guia, a estruturação eficiente de um texto formal exige domínio sobre a arquitetura da frase, equilibrando clareza semântica, expressividade e conformidade às regras de pontuação. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-RR/2024) ao estabelecer que "os períodos que formam a frase mostram certo paralelismo sintático".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os segmentos “Se disser”, “Se escrever” e “Se fizer” mostram três formas de infinitivo dos verbos". De acordo com a teoria estudada em *6. O Emprego Correto das Quatro Formas dos Porquês*, a distinção ortográfica e sintática entre as quatro formas da grafia dos porquês decorre do papel morfológico exercido pela palavra na frase.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o termo “o erro” não tem antecedente expresso na frase". De acordo com a teoria estudada em *2.2 Paralelismo em Estruturas Correlativas*, nas estruturas formadas por pares de conectivos correlativos (*não só... mas também*, *não apenas... como também*, *tanto... quanto*, *seja... seja*, *quer... quer*, *ora... ora*), a exigência de simetria é rigorosa: o que vier imediatamente após o primeiro termo correlativo deve ter a mesma natureza sintática do que vier após o segundo polo.
+> - **A)** **Correta.** Conforme fundamentado na seção *5.3 Matriz de Substituição e Equivalência de Conectivos* deste guia, concessivos equivalentes: *embora, conquanto, ainda que, mesmo que, a despeito de, posto que, se bem que*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "“-Ainda estive para me abrigar em casa do Esgueira, que é um caseiro de cá. Aquela casa, ali debaixo, onde está a...".
+> - **B)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "“Os séculos rolam; e sempre imutáveis farrapos lhe cobrem o corpo, e sempre debaixo deles, através do longo dia...". De acordo com a teoria estudada em *6.2 Por quê: Isolado ou Imediatamente Antes de Pontuação*, a grafia separada e com acento circunflexo é utilizada sempre que a palavra se posicionar imediatamente antes de um sinal de pontuação (ponto final, ponto de interrogação, ponto de exclamação ou reticências) ou surgir de forma isolada na oração.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“No Inverno, logo que na amável cidade começavam a morrer de frio, debaixo das pontes, criancinhas sem abrigo –...". De acordo com a teoria estudada em *5.3 Matriz de Substituição e Equivalência de Conectivos*, proporcionais equivalentes: *à medida que, à proporção que, ao passo que*. Cuidado: a expressão *"à medida em que"* é considerada híbrida e incorreta pela norma padrão; a forma aceita é *à medida que*.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“Findou pôr voltar ao montão de jornais amarrotados, ergueu melancolicamente um velho Diário de Notícias, e com...". De acordo com a teoria estudada em *2.3 Casos Típicos de Quebra de Paralelismo e Métodos de Correção*, *"O tribunal tem como atribuição fiscalizar as contas e a emissão de pareceres."*: Coordenou forma verbal no infinitivo (*fiscalizar*) com substantivo abstrato (*a emissão*). — *"O tribunal tem como atribuição fiscalizar as contas e emitir pareceres."*.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "“Assobiando o fado meigo tirei debaixo da cama a minha velha mala, e meti solicitamente entre calças e peúgas um...". De acordo com a teoria estudada em *1. Confronto e Julgamento de Frases: O Checklist Caça-Erros da FCC*, as questões de confronto e reconhecimento de frases corretas e incorretas constituem uma das marcas mais temidas e refinadas das provas elaboradas pela Fundação Carlos Chagas.
 >
-> **Gabarito: C**
+> **Gabarito: A**
 
 ---
 
@@ -250,48 +244,48 @@ O Manual de Redação da Presidência da República e a boa gramática normativa
 ---
 
 ### Teste 055
-**(FGV – TJ-BA – Analista Judiciario Tecnologia da Informacao – 2015)**
-“chegaram a um lugar onde o caminho era estreito”; nesse segmento do texto 4 ocorre o emprego correto do vocábulo sublinhado. A frase abaixo em que o emprego do mesmo vocábulo também mostra correção é:
+**(FGV – TJ/RR – 2024 – Analista Judiciario Gestao E Governanca De Tecnologia Da Informacao)**
+Uma marca que mostra um traço da língua falada e não da língua escrita, é
 
-* **A)** Os soldados sentiram desespero pelo momento onde todos estavam.
-* **B)** Em função do mau tempo por onde passavam, decidiram mudar o caminho.
-* **C)** No final da tarde, onde as nuvens se escondiam, tudo era mais perigoso.
-* **D)** Na viagem, onde tudo era desconhecido, as surpresas preocupavam.
-* **E)** No meio da noite, onde o medo aumenta, o comandante tranquilizava a todos.
+* **A)** a predominância de frases complexas.
+* **B)** o uso frequente da voz passiva.
+* **C)** o uso de interrupções para melhoria da expressão.
+* **D)** o apelo a variadas estratégias de produção textual.
+* **E)** a continuidade na expressão textual.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os soldados sentiram desespero pelo momento onde todos estavam". De acordo com a teoria estudada em *1.3 Pronomes Retos Usados Indevidamente como Objetos*, a língua culta formal não admite o uso de pronomes pessoais do caso reto (*ele, ela, eles, elas*) na posição de complemento verbal direto. O pronome reto possui vocação exclusivamente subjetiva (função de sujeito da oração).
-> - **B)** **Correta.** Conforme fundamentado na seção *1. Confronto e Julgamento de Frases: O Checklist Caça-Erros da FCC* deste guia, nelas, o enunciado costuma indagar: *"A frase redigida de modo inteiramente claro, correto e condizente com a norma-padrão é:"* ou *"O período que expressa com correção e concisão as ideias do texto é:"*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-BA/2015) ao estabelecer que "Em função do mau tempo por onde passavam, decidiram mudar o caminho".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "No final da tarde, onde as nuvens se escondiam, tudo era mais perigoso". De acordo com a teoria estudada em *3. Ambiguidade e Vícios de Construção Frasal*, a ambiguidade (ou anfibologia) ocorre quando uma frase admite duas ou mais interpretações lógicas distintas em decorrência da má ordenação de suas palavras ou do uso impreciso de termos relacionais.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Na viagem, onde tudo era desconhecido, as surpresas preocupavam". De acordo com a teoria estudada em *2. Paralelismo Sintático e Semântico*, o paralelismo (ou simetria de construção) é o princípio gramatical e estilístico que determina que elementos coordenados entre si, desempenhando a mesma função sintática no período, devem apresentar estruturas morfológicas e gramaticais idênticas ou equivalentes.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "No meio da noite, onde o medo aumenta, o comandante tranquilizava a todos". De acordo com a teoria estudada em *5. Equivalência, Transformação de Estruturas e Paráfrase*, a paráfrase é a reescrita de um texto ou segmento mantendo com fidelidade absoluta o sentido e as relações lógicas da mensagem original, expressando-a por meio de novos recursos vocabulares e sintáticos.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a predominância de frases complexas". De acordo com a teoria estudada em *5.3 Matriz de Substituição e Equivalência de Conectivos*, proporcionais equivalentes: *à medida que, à proporção que, ao passo que*. Cuidado: a expressão *"à medida em que"* é considerada híbrida e incorreta pela norma padrão; a forma aceita é *à medida que*.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o uso frequente da voz passiva". De acordo com a teoria estudada em *5.5 Transposição de Vozes Verbais na Reescrita*, a equivalência sintática frequentemente explora a alternância entre voz ativa e passiva analítica ou sintética.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.3 Pronomes Retos Usados Indevidamente como Objetos* deste guia, a língua culta formal não admite o uso de pronomes pessoais do caso reto (*ele, ela, eles, elas*) na posição de complemento verbal direto. O pronome reto possui vocação exclusivamente subjetiva (função de sujeito da oração). Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/RR/2024) ao estabelecer que "o uso de interrupções para melhoria da expressão".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o apelo a variadas estratégias de produção textual". De acordo com a teoria estudada em *3. Ambiguidade e Vícios de Construção Frasal*, a ambiguidade (ou anfibologia) ocorre quando uma frase admite duas ou mais interpretações lógicas distintas em decorrência da má ordenação de suas palavras ou do uso impreciso de termos relacionais.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "a continuidade na expressão textual". De acordo com a teoria estudada em *3.4 O Emprego Vicioso do Vocábulo O Mesmo*, o Manual de Redação da Presidência da República e a boa gramática normativa condenam expressamente o uso das formas *o mesmo, a mesma, os mesmos, as mesmas* como pronomes anafóricos para substituir pessoas ou coisas.
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
 
 ### Teste 056
-**(FGV – TRT-16 – Analista Judiciario Area Administrativa Tecnologia da Informacao – 2022)**
-Em todas as opções abaixo mostram-se duas frases independentes, com termos repetidos; para evitar a repetição, elas foram unidas por meio de um pronome relativo. Assinale a frase em que essa modificação foi feita de forma adequada.
+**(FCC – TRT 14ª – 2016 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
+Atente para as seguintes frases: I. Ele ama os joguinhos eletrônicos, que vê como desafios. II. Ele se vicia em joguinhos eletrônicos, independentemente do grau de dificuldade que ofereçam. III. Ele sente especial atração pelos joguinhos eletrônicos difíceis, nos quais vem se aprimorando. A supressão da vírgula altera o sentido do que está APENAS em
 
-* **A)** Li o novo livro de Eduardo Gianetti / Comprei o novo livro de Eduardo Gianetti na nova livraria do bairro --- Li o novo livro de Eduardo Gianetti, cujo foi comprado na nova livraria do bairro.
-* **B)** Estudei durante dois anos em Madrid / Em Madrid aprendi bastante --- Estudei durante dois anos em Madrid, aonde aprendi bastante.
-* **C)** Comprei um carro novo na agência Oxford / O preço do carro foi baixo --- Comprei, na agência Oxford, um carro novo cujo preço foi baixo.
-* **D)** Gostei muito da salada / Os legumes da salada são frescos --- Gostei muito de salada onde os legumes são frescos.
-* **E)** Encontrei Maria e João / Maria é minha amiga --- Encontrei Maria e João, que é minha amiga.
+* **A)** I.
+* **B)** I e II.
+* **C)** I e III.
+* **D)** II e III.
+* **E)** III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Li o novo livro de Eduardo Gianetti / Comprei o novo livro de Eduardo Gianetti na nova livraria do bairro --- Li o...". De acordo com a teoria estudada em *3.2 Ambiguidade pelo Mau Emprego de Pronomes Possessivos (Seu/Sua)*, *"O presidente comunicou ao conselheiro a transferência da assessoria dele [do conselheiro] para o novo gabinete."*.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Estudei durante dois anos em Madrid / Em Madrid aprendi bastante --- Estudei durante dois anos em Madrid, aonde...". De acordo com a teoria estudada em *4.2 Posicionamento Estratégico de Termos Intercalados e Pontuação*, termos intercalados (apóstrofos explicativos, orações adjetivas explicativas, conjunções conclusivas deslocadas e adjuntos adverbiais) devem vir sempre isolados por pontuação simétrica (duas vírgulas, dois travessões ou parênteses), garantindo que a linha sintática principal do período não seja rompida.
-> - **C)** **Correta.** Conforme fundamentado na seção *1.1 Estratégia de Varredura e Identificação de Vícios Gramaticais* deste guia, regência Verbal associada a Pronomes Relativos: Verifique se o verbo da oração subordinada adjetiva exige preposição e se essa preposição foi corretamente anteposta ao pronome relativo *que, quem, cujo* ou *o qual*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-16/2022) ao estabelecer que "Comprei um carro novo na agência Oxford / O preço do carro foi baixo --- Comprei, na agência Oxford, um carro novo...".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Gostei muito da salada / Os legumes da salada são frescos --- Gostei muito de salada onde os legumes são frescos". De acordo com a teoria estudada em *3. Ambiguidade e Vícios de Construção Frasal*, a ambiguidade (ou anfibologia) ocorre quando uma frase admite duas ou mais interpretações lógicas distintas em decorrência da má ordenação de suas palavras ou do uso impreciso de termos relacionais.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Encontrei Maria e João / Maria é minha amiga --- Encontrei Maria e João, que é minha amiga". De acordo com a teoria estudada em *6.1 Por que: Interrogativo e Relativo*, equivalendo ao pronome relativo "pelo qual / pela qual / pelos quais / pelas quais": liga duas orações associando a preposição *por* ao pronome relativo *que*.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I". De acordo com a teoria estudada em *1.1 Estratégia de Varredura e Identificação de Vícios Gramaticais*, sintaxe de Pontuação e Ordem SVC: Verifique se não houve a colocação de uma vírgula simples entre o sujeito e o predicado, ou entre o verbo e seus complementos diretos/indiretos.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e II". De acordo com a teoria estudada em *2.1 Princípio da Simetria Estrutural em Termos Coordenados*, quando se coordenam termos em enumeração (ligados por vírgula ou pela conjunção *e*), todos devem pertencer à mesma classe gramatical ou seguir o mesmo padrão frasal.
+> - **C)** **Correta.** Conforme fundamentado na seção *5. Equivalência, Transformação de Estruturas e Paráfrase* deste guia, a paráfrase é a reescrita de um texto ou segmento mantendo com fidelidade absoluta o sentido e as relações lógicas da mensagem original, expressando-a por meio de novos recursos vocabulares e sintáticos. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 14ª/2016) ao estabelecer que "I e III".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II e III". De acordo com a teoria estudada em *6.1 Por que: Interrogativo e Relativo*, equivalendo ao pronome relativo "pelo qual / pela qual / pelos quais / pelas quais": liga duas orações associando a preposição *por* ao pronome relativo *que*.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "III". De acordo com a teoria estudada em *6.1 Por que: Interrogativo e Relativo*, *"Os motivos por que [pelos quais] o contrato foi rescindido são graves."*.
 >
 > **Gabarito: C**
 
@@ -327,26 +321,26 @@ A reorganização de um período não pode corromper a progressão tópica. Os c
 ---
 
 ### Teste 057
-**(FGV – TRT-16 – Analista Judiciario Area Administrativa Tecnologia da Informacao – 2022)**
-Pedro, pessoa com deficiência, após concluir a educação básica, almejava ingressar em uma instituição de ensino superior (IES). Ao se inteirar dos seus direitos, visando à participação no processo seletivo, foi-lhe informado que a Lei nº 13.146/2015 lhe assegurava: (1) disponibilização de provas em formatos acessíveis, para atendimento às suas necessidades especiais; (2) disponibilização, de ofício, pela IES, de recursos de acessibilidade, permitindo que ele possa escolher, entre essas opções, aquela que mais se aproxima da satisfação de suas necessidades; (3) dilação de tempo, em 20%, no exame de seleção, a ser oferecida a todas as pessoas com deficiência, incluindo Pedro; e (4) adoção de critérios de avaliação das provas escritas, discursivas ou de redação, que considerem a singularidade linguística de Pedro no domínio da escrita da língua portuguesa. À luz das informações fornecidas a Pedro, é correto afirmar que
+**(FGV – TCE/GO – 2024 – Analista de Controle Externo - Controle Externo)**
+Considere uma variável aleatória X com distribuição normal com média  e variância 2 e avalie se as seguintes afirmativas estão corretas: I. A variável Z = (X - )/ tem distribuição normal com média 0 e variância 1. II. A probabilidade P[  – 2 < X <  + 2] é aproximadamente igual a 95%. III. P [ X <  ] = 0,5 Está correto o que se afirma em
 
-* **A)** todas estão corretas.
-* **B)** apenas as informações 1 e 4 estão corretas.
-* **C)** apenas as informações 2 e 3 estão corretas.
-* **D)** apenas as informações 1, 3 e 4 estão corretas.
-* **E)** apenas as informações 2, 3 e 4 estão corretas.
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "todas estão corretas". De acordo com a teoria estudada em *5.1 Critérios Cumulativos da Paráfrase Legítima*, correção Gramatical Absoluta: Deve respeitar integralmente todas as normas de concordância, regência, crase, colocação e pontuação.
-> - **B)** **Correta.** Conforme fundamentado na seção *1. Confronto e Julgamento de Frases: O Checklist Caça-Erros da FCC* deste guia, as questões de confronto e reconhecimento de frases corretas e incorretas constituem uma das marcas mais temidas e refinadas das provas elaboradas pela Fundação Carlos Chagas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-16/2022) ao estabelecer que "apenas as informações 1 e 4 estão corretas".
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "apenas as informações 2 e 3 estão corretas". De acordo com a teoria estudada em *4.1 Ordem Direta e os Efeitos Comunicativos das Inversões*, a ordem direta canônica da oração na língua portuguesa é constituída por.
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "apenas as informações 1, 3 e 4 estão corretas". De acordo com a teoria estudada em *5.1 Critérios Cumulativos da Paráfrase Legítima*, para ser declarada correta nas provas da FCC, a reescrita proposta deve atender a dois requisitos inegociáveis.
-> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "apenas as informações 2, 3 e 4 estão corretas". De acordo com a teoria estudada em *3.4 O Emprego Vicioso do Vocábulo O Mesmo*, o Manual de Redação da Presidência da República e a boa gramática normativa condenam expressamente o uso das formas *o mesmo, a mesma, os mesmos, as mesmas* como pronomes anafóricos para substituir pessoas ou coisas.
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *1. Confronto e Julgamento de Frases: O Checklist Caça-Erros da FCC*, nelas, o enunciado costuma indagar: *"A frase redigida de modo inteiramente claro, correto e condizente com a norma-padrão é:"* ou *"O período que expressa com correção e concisão as ideias do texto é:"*.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *6. O Emprego Correto das Quatro Formas dos Porquês*, a distinção ortográfica e sintática entre as quatro formas da grafia dos porquês decorre do papel morfológico exercido pela palavra na frase.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *4. Organização e Reorganização de Orações e Períodos*, a estruturação eficiente de um texto formal exige domínio sobre a arquitetura da frase, equilibrando clareza semântica, expressividade e conformidade às regras de pontuação.
+> - **D)** **Correta.** Conforme fundamentado na seção *1. Confronto e Julgamento de Frases: O Checklist Caça-Erros da FCC* deste guia, as questões de confronto e reconhecimento de frases corretas e incorretas constituem uma das marcas mais temidas e refinadas das provas elaboradas pela Fundação Carlos Chagas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/GO/2024) ao estabelecer que "II e III, apenas".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *4.1 Ordem Direta e os Efeitos Comunicativos das Inversões*, a ordem direta canônica da oração na língua portuguesa é constituída por.
 >
-> **Gabarito: B**
+> **Gabarito: D**
 
 ---
 
@@ -416,50 +410,44 @@ A equivalência sintática frequentemente explora a alternância entre voz ativa
 ---
 
 ### Teste 058
-**(FCC – TRT-11 – Analista Judiciario Tecnologia da Informacao – 2017)**
-Há um traço fundamental na história indígena do rio Amazonas, cuja percepção é necessária ao entendimento do passado e do presente da região. É um fenômeno demográfico e cultural de longa duração que acompanha os primeiros duzentos anos da ocupação europeia e que irá resultar, em meados do século XVIII, numa realidade etnográfica substancialmente distinta da que havia sido observada pelos primeiros exploradores quinhentistas. 5 Trata-se do desaparecimento das nações que viviam ao longo do rio Amazonas e da sua substituição por novos contingentes indígenas que foram sendo descidos dos afluentes para a calha amazônica pelos agentes da colonização. Desaparecimento, em sentido étnico, é o termo adequado, e ver-se-á mais adiante de que forma ele se deu. Neste processo de despovoamento maciço e repovoamento parcial, dois aspectos devem ser assinalados: a) o desaparecimento dos padrões adaptativos (demográficos, organizacionais e ergológicos) da população original, que não chegam a se reconstituir, a não ser parcial- 10 mente, quando do povoamento induzido pelo colonizador; neste segundo momento ocorre b) a formação de um estrato que chamaremos neo-indígena, inserido na sociedade colonial e marcado pelo desenraizamento e pela aculturação intertribal e interétnica. Obs.: ergológico: relativo à ergologia, ramo da etnologia que estuda a cultura material. (PORRO, Antônio. História indígena do alto e médio Amazonas: séculos XVI a XVIII. In: CUNHA, Manuela C. (org). História dos índios no Brasil. 2. ed. São Paulo, Companhia das Letras; Secretaria Municipal de Cultura; FAPESP,1998, p. 175) 1. Infere-se corretamente do texto:
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Engenharia Mecânica)**
+Os átomos dos metais se organizam em estruturas cristalinas, que se relacionam diretamente com suas propriedades. Dessa forma, observe atentamente as duas estruturas apresentadas na figura a seguir. (1) (2) As estruturas (1) e (2) se aplicam, respectivamente, a(o):
 
-* **A)** Povos que vivem nas margens de rios são predestinados a migrar, quer em sua totalidade, quer de modo parcial e paulatino.
-* **B)** Processos de colonização introduzem padrões de adaptação – no que se refere à distribuição demográfica, ao modo de organização social, ao modo de criar objetos −, porque modelos de comportamento inexistem em grupos autóctones.
-* **C)** É traço essencial e determinante na história de um povo aquele que ilumina não só o seu passado, mas também o seu presente.
-* **D)** A história de populações autóctones de um país é constituída de poucos fatos de relevo, o que exige percepção apurada daquele que busca entender o passado anterior a um processo colonizador.
-* **E)** Da vivência de duzentos anos de um determinado povo procede naturalmente uma realidade que implica desaparecimento e surgimento de etnias.
+* **A)** prata e cromo.
+* **B)** magnésio e ferro.
+* **C)** cromo e ferro.
+* **D)** prata e magnésio.
+* **E)** cromo e magnésio.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Povos que vivem nas margens de rios são predestinados a migrar, quer em sua totalidade, quer de modo parcial e...". De acordo com a teoria estudada em *2.2 Paralelismo em Estruturas Correlativas*, nas estruturas formadas por pares de conectivos correlativos (*não só... mas também*, *não apenas... como também*, *tanto... quanto*, *seja... seja*, *quer... quer*, *ora... ora*), a exigência de simetria é rigorosa: o que vier imediatamente após o primeiro termo correlativo deve ter a mesma natureza sintática do que vier após o segundo polo.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Processos de colonização introduzem padrões de adaptação – no que se refere à distribuição demográfica, ao modo de...". De acordo com a teoria estudada em *6.4 Porquê: Substantivo com Artigo ou Determinante*, apresenta-se compulsoriamente antecedido por um artigo definido (*o porquê*), pronome demonstrativo (*este porquê*), pronome possessivo (*seu porquê*) ou numeral (*dois porquês*), admitindo inclusive flexão de plural (*os porquês*).
-> - **C)** **Correta.** Conforme fundamentado na seção *5. Equivalência, Transformação de Estruturas e Paráfrase* deste guia, a paráfrase é a reescrita de um texto ou segmento mantendo com fidelidade absoluta o sentido e as relações lógicas da mensagem original, expressando-a por meio de novos recursos vocabulares e sintáticos. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-11/2017) ao estabelecer que "É traço essencial e determinante na história de um povo aquele que ilumina não só o seu passado, mas também o seu...".
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A história de populações autóctones de um país é constituída de poucos fatos de relevo, o que exige percepção...". De acordo com a teoria estudada em *1. Confronto e Julgamento de Frases: O Checklist Caça-Erros da FCC*, resolver esse modelo de questão exige do candidato abandonar a leitura intuitiva e aplicar uma metodologia de varredura sintática por camadas, inspecionando cada alternativa em busca dos vícios gramaticais recorrentes.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Da vivência de duzentos anos de um determinado povo procede naturalmente uma realidade que implica desaparecimento...". De acordo com a teoria estudada em *2.1 Princípio da Simetria Estrutural em Termos Coordenados*, se o primeiro termo for um substantivo, os seguintes devem ser substantivos (*"Exige-se probidade, competência e lealdade"*).
+> - **A)** **Correta.** Conforme fundamentado na seção *5. Equivalência, Transformação de Estruturas e Paráfrase* deste guia, a paráfrase é a reescrita de um texto ou segmento mantendo com fidelidade absoluta o sentido e as relações lógicas da mensagem original, expressando-a por meio de novos recursos vocabulares e sintáticos. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "prata e cromo".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "magnésio e ferro". De acordo com a teoria estudada em *5.3 Matriz de Substituição e Equivalência de Conectivos*, proporcionais equivalentes: *à medida que, à proporção que, ao passo que*. Cuidado: a expressão *"à medida em que"* é considerada híbrida e incorreta pela norma padrão; a forma aceita é *à medida que*.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "cromo e ferro". De acordo com a teoria estudada em *3. Ambiguidade e Vícios de Construção Frasal*, a ambiguidade (ou anfibologia) ocorre quando uma frase admite duas ou mais interpretações lógicas distintas em decorrência da má ordenação de suas palavras ou do uso impreciso de termos relacionais.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "prata e magnésio". De acordo com a teoria estudada em *4.2 Posicionamento Estratégico de Termos Intercalados e Pontuação*, termos intercalados (apóstrofos explicativos, orações adjetivas explicativas, conjunções conclusivas deslocadas e adjuntos adverbiais) devem vir sempre isolados por pontuação simétrica (duas vírgulas, dois travessões ou parênteses), garantindo que a linha sintática principal do período não seja rompida.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "cromo e magnésio". De acordo com a teoria estudada em *6.1 Por que: Interrogativo e Relativo*, equivalendo ao pronome relativo "pelo qual / pela qual / pelos quais / pelas quais": liga duas orações associando a preposição *por* ao pronome relativo *que*.
 >
-> **Gabarito: C**
+> **Gabarito: A**
 
 ---
 
 ### Teste 059
-**(FCC – TRT-3 – Analista Judiciario Tecnologia da Informacao – 2015)**
-Considere os segmentos 1, 2 e 3 abaixo e os comentários que os seguem. 1. Mas pode-se elaborar melhor essa análise. 2. Se tudo é opinião, tudo é não-notícia. 3. ...não propriamente pelo que dizem, mas principalmente pelo que tentam esconder. I. A formulação "Mas essa análise pode ser mais bem elaborada" respeita as orientações da gramática normativa, tanto quanto a redação de 1. II. A formulação "Tudo é não-notícia, à medida que tudo é opinião" preserva a relação estabelecida entre os fatos na redação de 2. III. A formulação "não exatamente pelo que dizem, mas sobretudo pelo que tentam esconder" mantém o sentido e a correção vistos em 3. Está correto o que se afirma APENAS em
+**(CEBRASPE – STF – 2008 – Analista Judiciario Suporte Em Tecnologia Da Informacao)**
+Em tempos de globalização, as disputas esportivas, sobretudo aquelas que envolvem as modalidades de maior apelo popular, também se subordinam aos mecanismos da economia de mercado, o que implica altos investimentos, grandes estruturas e possibilidades de lucros expressivos. A figura acima ilustra uma janela do Windows XP, denominada Atividades, que contém uma pasta e dois arquivos. Com relação a essa figura e ao Windows XP, julgue os itens a seguir.
 
-* **A)** I.
-* **B)** I e II.
-* **C)** II e III.
-* **D)** III.
-* **E)** I e III. Atenção: As questões de números 10 e 11 referem-se ao texto que segue.
+* **C)** Certo
+* **E)** Errado
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I". De acordo com a teoria estudada em *5. Equivalência, Transformação de Estruturas e Paráfrase*, a paráfrase é a reescrita de um texto ou segmento mantendo com fidelidade absoluta o sentido e as relações lógicas da mensagem original, expressando-a por meio de novos recursos vocabulares e sintáticos.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I e II". De acordo com a teoria estudada em *1. Confronto e Julgamento de Frases: O Checklist Caça-Erros da FCC*, as questões de confronto e reconhecimento de frases corretas e incorretas constituem uma das marcas mais temidas e refinadas das provas elaboradas pela Fundação Carlos Chagas.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "II e III". De acordo com a teoria estudada em *3.4 O Emprego Vicioso do Vocábulo O Mesmo*, o Manual de Redação da Presidência da República e a boa gramática normativa condenam expressamente o uso das formas *o mesmo, a mesma, os mesmos, as mesmas* como pronomes anafóricos para substituir pessoas ou coisas.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "III". De acordo com a teoria estudada em *4. Organização e Reorganização de Orações e Períodos*, a estruturação eficiente de um texto formal exige domínio sobre a arquitetura da frase, equilibrando clareza semântica, expressividade e conformidade às regras de pontuação.
-> - **E)** **Correta.** Conforme fundamentado na seção *1. Confronto e Julgamento de Frases: O Checklist Caça-Erros da FCC* deste guia, nelas, o enunciado costuma indagar: *"A frase redigida de modo inteiramente claro, correto e condizente com a norma-padrão é:"* ou *"O período que expressa com correção e concisão as ideias do texto é:"*. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-3/2015) ao estabelecer que "I e III. Atenção: As questões de números 10 e 11 referem-se ao texto que segue".
+> - **C)** **Correta.** O item está **Certo**. Conforme fundamentado na seção *2.2 Paralelismo em Estruturas Correlativas* deste guia, construção Perfeita: *"O tribunal busca aprimorar os mecanismos de fiscalização não só para conferir transparência, mas também para garantir a legalidade."* (ambos estruturados por oração subordinada final reduzida de infinitivo: *para conferir* $\leftrightarrow$ *para garantir*). Dessa forma, está plenamente correta a proposição da banca (CEBRASPE – STF/2008) ao afirmar que "Em tempos de globalização, as disputas esportivas, sobretudo aquelas que envolvem as modalidades de maior...".
+> - **E)** **Incorreta.** A marcação como **Errado** não procede, visto que a assertiva guarda integral conformidade com a teoria estudada em *2.2 Paralelismo em Estruturas Correlativas*, segundo a qual construção Defeituosa (Quebra de Paralelismo): *"O tribunal busca aprimorar os mecanismos não só para conferir transparência, mas garantindo a legalidade."* (misturou oração com preposição + infinitivo com oração reduzida no gerúndio).
 >
-> **Gabarito: E**
+> **Gabarito: C**
 
 ---
 
@@ -519,50 +507,50 @@ Para garantir a perfeição no confronto de frases da FCC:
 ---
 
 ### Teste 060
-**(FGV – TRT-13 – Analista Judiciario Tecnologia da Informacao – 2022)**
-Em todas as frases a seguir foi usada a conjunção “porque”; as opções a seguir apresentam formas adequadas de reescrever essas frases, retirando-se essa conjunção, com a manutenção do sentido original, à exceção de uma. Assinale-a.
+**(FGV – TRT/13 – 2022 – Analista Judiciario Tecnologia Da Informacao)**
+Em todas as frases abaixo substituímos por um particípio o segmento sublinhado. Assinale a frase em que essa substituição foi feita de forma inadequada.
 
-* **A)** O invejoso é tirano e verdugo de si próprio: ele sofre porque os outros gozam / Por causa do gozo dos outros, o invejoso sofre e é tirano e verdugo de si próprio.
-* **B)** Muitos homens são louvados porque são mal conhecidos / Pelo mau conhecimento que se tem de alguns homens, eles são louvados.
-* **C)** Arguimos a vaidade alheia porque ofende a nossa própria / Por ofensa à nossa própria vaidade, arguimos a vaidade alheia.
-* **D)** A mocidade é temerária; presume muito porque sabe pouco / Pela pouca sabedoria, a mocidade é temerária e presume muito.
-* **E)** As nações não envelhecem como as pessoas, porque todos os dias se renovam pelos nascimentos / Pela renovação diária por meio dos nascimentos, as nações, como as pessoas, não envelhecem.
+* **A)** Um edifício que está sobre quatro colunas / erigido.
+* **B)** Os carros que estão em fila dupla / estacionados.
+* **C)** O território que está entre Rio e São Paulo / localizado, situado.
+* **D)** Os presos que estão nessa cela / inseridos.
+* **E)** Uma esmeralda que está nesse anel / encrustada.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O invejoso é tirano e verdugo de si próprio: ele sofre porque os outros gozam / Por causa do gozo dos outros, o...". De acordo com a teoria estudada em *6.3 Porque: Conjunção Causal ou Explicativa*, *"A prestação de contas foi reprovada porque [pois / visto que] os gastos não foram devidamente comprovados."*.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Muitos homens são louvados porque são mal conhecidos / Pelo mau conhecimento que se tem de alguns homens, eles são...". De acordo com a teoria estudada em *6.3 Porque: Conjunção Causal ou Explicativa*, *"Não atrase a entrega dos relatórios, porque [pois] a pauta do plenário já está fechada."*.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Arguimos a vaidade alheia porque ofende a nossa própria / Por ofensa à nossa própria vaidade, arguimos a vaidade...". De acordo com a teoria estudada em *6.2 Por quê: Isolado ou Imediatamente Antes de Pontuação*, *"O ordenador de despesas não apresentou recurso no prazo regulamentar, e ninguém sabe por quê."*.
-> - **D)** **Correta.** Conforme fundamentado na seção *6.3 Porque: Conjunção Causal ou Explicativa* deste guia, a grafia junta e sem acento corresponde a uma conjunção subordinativa causal ou conjunção coordenativa explicativa, equivalendo a *pois, já que, visto que, porquanto, dado que*. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT-13/2022) ao estabelecer que "A mocidade é temerária; presume muito porque sabe pouco / Pela pouca sabedoria, a mocidade é temerária e presume...".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "As nações não envelhecem como as pessoas, porque todos os dias se renovam pelos nascimentos / Pela renovação...". De acordo com a teoria estudada em *5. Equivalência, Transformação de Estruturas e Paráfrase*, a paráfrase é a reescrita de um texto ou segmento mantendo com fidelidade absoluta o sentido e as relações lógicas da mensagem original, expressando-a por meio de novos recursos vocabulares e sintáticos.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Um edifício que está sobre quatro colunas / erigido". De acordo com a teoria estudada em *6. O Emprego Correto das Quatro Formas dos Porquês*, a distinção ortográfica e sintática entre as quatro formas da grafia dos porquês decorre do papel morfológico exercido pela palavra na frase.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Os carros que estão em fila dupla / estacionados". De acordo com a teoria estudada em *5.3 Matriz de Substituição e Equivalência de Conectivos*, proporcionais equivalentes: *à medida que, à proporção que, ao passo que*. Cuidado: a expressão *"à medida em que"* é considerada híbrida e incorreta pela norma padrão; a forma aceita é *à medida que*.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O território que está entre Rio e São Paulo / localizado, situado". De acordo com a teoria estudada em *1. Confronto e Julgamento de Frases: O Checklist Caça-Erros da FCC*, nelas, o enunciado costuma indagar: *"A frase redigida de modo inteiramente claro, correto e condizente com a norma-padrão é:"* ou *"O período que expressa com correção e concisão as ideias do texto é:"*.
+> - **D)** **Correta.** Conforme fundamentado na seção *6.2 Por quê: Isolado ou Imediatamente Antes de Pontuação* deste guia, nessa posição de final de frase, o monossílabo *que* sofre tonicidade fonética e atrai o acento gráfico. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/13/2022) ao estabelecer que "Os presos que estão nessa cela / inseridos".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Uma esmeralda que está nesse anel / encrustada". De acordo com a teoria estudada em *1.3 Pronomes Retos Usados Indevidamente como Objetos*, essa frase está eivada de erro gramatical inadmissível na norma culta! A forma exigida é com pronome oblíquo enclítico ajustado à terminação consonantal: *"deve cumpri-las"*.
 >
 > **Gabarito: D**
 
 ---
 
 ### Teste 061
-**(FCC – TRT-16 – Analista Judiciario Tecnologia da Informacao – 2014)**
-Em um encontro de 60 colegas, 20% são homens, e o restante mulheres. Sabe-se que 37,5% das mulheres presentes no encontro têm mais de 50 anos de idade, e que 25% dos homens presentes no encontro têm mais de 50 anos de idade. Apenas com relação às pessoas com 50 anos de idade ou menos, presentes no encontro, os homens correspondem à
+**(FGV – TRT/13 – 2022 – Analista Judiciario Tecnologia Da Informacao)**
+Em todas as frases abaixo ocorre a presença do adjetivo “bom” / “boa” com diferentes sentidos. Assinale a frase em que há a indicação de um sinônimo inadequado para esse adjetivo.
 
-* **A)** 25% das mulheres.
-* **B)** 30% das mulheres.
-* **C)** 20% das mulheres.
-* **D)** 35% das mulheres.
-* **E)** 15% das mulheres.
+* **A)** Uma boa risada é um raio de sol na casa / barulhenta.
+* **B)** É um prazer navegar com bom tempo / estável.
+* **C)** Aquele apartamento está sendo vendido por bom preço / barato.
+* **D)** Acho que esse vestido está bom nela / bem ajustado.
+* **E)** Aquele aluno tem uma boa letra / legível.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "25% das mulheres". De acordo com a teoria estudada em *6.5 Distinções Léxicas Adicionais: A Fim De vs. Afim e Ao Encontro De vs. De Encontro A*, para garantir a perfeição no confronto de frases da FCC.
-> - **B)** **Correta.** Conforme fundamentado na seção *6.2 Por quê: Isolado ou Imediatamente Antes de Pontuação* deste guia, *"O ordenador de despesas não apresentou recurso no prazo regulamentar, e ninguém sabe por quê."*. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT-16/2014) ao estabelecer que "30% das mulheres".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "20% das mulheres". De acordo com a teoria estudada em *6.5 Distinções Léxicas Adicionais: A Fim De vs. Afim e Ao Encontro De vs. De Encontro A*, a fim de (separado): locução prepositiva de finalidade (= com o objetivo de, com o propósito de): *"Reuniram-se a fim de deliberar sobre as diretrizes"*.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "35% das mulheres". De acordo com a teoria estudada em *6.5 Distinções Léxicas Adicionais: A Fim De vs. Afim e Ao Encontro De vs. De Encontro A*, afim (junto): adjetivo que expressa parentesco, semelhança ou afinidade de interesses: *"Possuíam ideias afins sobre auditoria"*; *"Parentes afins"*.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "15% das mulheres". De acordo com a teoria estudada em *6.5 Distinções Léxicas Adicionais: A Fim De vs. Afim e Ao Encontro De vs. De Encontro A*, ao encontro de: indica concordância, harmonia, aproximação favorável: *"A decisão do pleno foi ao encontro dos anseios da sociedade"*.
+> - **A)** **Correta.** Conforme fundamentado na seção *3.4 O Emprego Vicioso do Vocábulo O Mesmo* deste guia, o Manual de Redação da Presidência da República e a boa gramática normativa condenam expressamente o uso das formas *o mesmo, a mesma, os mesmos, as mesmas* como pronomes anafóricos para substituir pessoas ou coisas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT/13/2022) ao estabelecer que "Uma boa risada é um raio de sol na casa / barulhenta".
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "É um prazer navegar com bom tempo / estável". De acordo com a teoria estudada em *3. Ambiguidade e Vícios de Construção Frasal*, a ambiguidade (ou anfibologia) ocorre quando uma frase admite duas ou mais interpretações lógicas distintas em decorrência da má ordenação de suas palavras ou do uso impreciso de termos relacionais.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Aquele apartamento está sendo vendido por bom preço / barato". De acordo com a teoria estudada em *3.1 Ambiguidade Estrutural vs. Ambiguidade Lexical*, ambiguidade Estrutural: Resulta do mau posicionamento sintático de adjuntos, orações ou pronomes no interior do período, gerando dúvida sobre qual elemento está sendo modificado.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Acho que esse vestido está bom nela / bem ajustado". De acordo com a teoria estudada em *6.1 Por que: Interrogativo e Relativo*, a grafia separada e sem acento ocorre em três contextos bem delimitados.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Aquele aluno tem uma boa letra / legível". De acordo com a teoria estudada em *6.4 Porquê: Substantivo com Artigo ou Determinante*, a grafia junta e com acento circunflexo consubstancia um substantivo masculino, sinônimo exato de *"o motivo", "a razão", "o fundamento"*.
 >
-> **Gabarito: B**
+> **Gabarito: A**
 
 ---
 

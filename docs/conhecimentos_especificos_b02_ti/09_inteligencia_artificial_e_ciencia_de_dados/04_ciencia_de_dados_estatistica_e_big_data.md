@@ -122,74 +122,74 @@ O **CRISP-DM (*Cross-Industry Standard Process for Data Mining*)** é o padrão 
 ---
 
 ### Teste 333
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Ciencia de Dados – 2024)**
-Ao se utilizar bancos de dados reais no treinamento de métodos de aprendizado de máquina é normal se deparar com entradas que possuem um ou mais parâmetros (campos) ausentes. Com relação às estratégias para lidar com dados ausentes, analise as afirmativas a seguir. I. Só é possível realizar imputation quando o atributo (feature) ausente é numérico. II. Ao utilizar o k-nearest neighbors (KNN) para fazer o imputation é uma boa estratégia primeiro fazer a normalização ou padronização dos dados. III. Ao se trabalhar com bancos de dados com poucas amostras (itens), uma estratégia usualmente utilizada para lidar com as amostras) que possuem valores ausentes é a remoção. Está correto o que se afirma em
+**(FGV – TRT 16ª – 2022 – Analista Judiciário (Área Administrativa - Tecnologia da Informação))**
+O RAID é um subsistema de armazenamento de dados composto por várias unidades de discos individuais de baixo custo. Com relação ao RAID 6, analise os itens a seguir. I. Provê elevada tolerância a falhas e pode sustentar várias falhas simultâneas em suas unidades, efetua dois cálculos independentes de paridades que são armazenados em duas unidades distintas. II. Como desvantagem requer controladoras de disco mais complexas, que em geral, possuem alta sobrecarga para computar os endereçamentos das paridades. III. Essa configuração é recomendada para aplicações de missão crítica pois os dados dos usuários são espelhados unidades de disco pareadas. Está correto o que se afirma em
 
 * **A)** I, apenas.
 * **B)** II, apenas.
 * **C)** III, apenas.
-* **D)** I e II apenas.
-* **E)** I, II e III.
+* **D)** I e II, apenas.
+* **E)** II e III, apenas.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *1.1 As Seis Fases do Framework CRISP-DM*, modeling (Modelagem): Escolha de técnicas algorítmicas de aprendizado de máquina (árvores de decisão, regressões, redes neurais), divisão em partições de treino e calibração de hiperparâmetros.
-> - **B)** **Correta.** Conforme fundamentado na seção *1.2 Tratamento de Valores Ausentes e Outliers (Critério IQR)* deste guia, *Imputação Avançada:* KNN Imputer (imputa pelo valor ponderado dos \$k\$ vizinhos mais próximos no espaço vetorial) e MICE (*Multivariate Imputation by Chained Equations*). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "II, apenas".
-> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III, apenas". De acordo com a teoria estudada em *1.2 Tratamento de Valores Ausentes e Outliers (Critério IQR)*, *Remoção:* Exclusão de linhas (*listwise*) ou colunas. Inviável quando reduz excessivamente o poder estatístico da amostra.
-> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II apenas". De acordo com a teoria estudada em *1.2 Tratamento de Valores Ausentes e Outliers (Critério IQR)*, mAR (*Missing at Random*): A probabilidade de o dado faltar relaciona-se sistematicamente com outras variáveis conhecidas da base (ex.: declarações de renda faltam mais frequentemente para determinados perfis etários observados).
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *1.2 Tratamento de Valores Ausentes e Outliers (Critério IQR)*, o critério do Escore Z (*Z-Score*) (\$Z = \frac{x - \mu}{\sigma}\$) sinaliza anomalias quando \$|Z| > 3\$, pressupondo distribuição aproximadamente normal.
->
-> **Gabarito: B**
-
----
-
-### Teste 334
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Administracao – 2024)**
-A administração de materiais e estoques é uma função crítica na gestão de uma organização, focada na supervisão eficiente e eficaz de materiais e suprimentos necessários para a produção e operações diárias. A tabela seguinte é utilizada pela empresa XYZ para controlar seus estoques: Mês Estoque Inicial Entradas Saídas Estoque Final Jan 150 350 200 300 Fev 300 50 250 100 Mar 100 200 250 50 Abril 50 400 150 300 Maio 300 150 300 150 Junho 150 50 100 200 Assinale a opção que apresenta o número aproximado de vezes que o estoque girou de janeiro a maio.
-
-* **A)** 3,4 vezes.
-* **B)** 4,7 vezes.
-* **C)** 5,2 vezes.
-* **D)** 6,4 vezes.
-* **E)** 7,1 vezes.
-
----
-
-> **Comentário Detalhado:**
->
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3,4 vezes". De acordo com a teoria estudada em *1.1 As Seis Fases do Framework CRISP-DM*, deployment (Implantação): Disponibilização do modelo em ambiente de produção (APIs de auditoria em tempo real, rotinas de escoragem em lote ou dashboards de fiscalização), estabelecendo governança contínua contra degradação temporal do modelo (*model drift* e *concept drift*).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "4,7 vezes". De acordo com a teoria estudada em *1.2 Tratamento de Valores Ausentes e Outliers (Critério IQR)*, mAR (*Missing at Random*): A probabilidade de o dado faltar relaciona-se sistematicamente com outras variáveis conhecidas da base (ex.: declarações de renda faltam mais frequentemente para determinados perfis etários observados).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "5,2 vezes". De acordo com a teoria estudada em *2.2 Distribuições de Probabilidade: Normal, Binomial e Poisson*, modela o número de sucessos \$k\$ em \$n\$ ensaios de Bernoulli independentes com probabilidade de sucesso \$p\$.
-> - **D)** **Correta.** Conforme fundamentado na seção *1.1 As Seis Fases do Framework CRISP-DM* deste guia, data Understanding (Compreensão dos Dados): Coleta dos dados brutos preliminares, exploração de tipos de variáveis, inspeção inicial de integridade e formulação das primeiras hipóteses estatísticas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "6,4 vezes".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "7,1 vezes". De acordo com a teoria estudada em *4.2 Paradigma MapReduce e suas Limitações de I/O em Disco*, fase Reduce: Agrega e sintetiza os valores associados a cada chave, emitindo o resultado final.
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *4.2 Paradigma MapReduce e suas Limitações de I/O em Disco*, o MapReduce opera o processamento em lote (*batch*) em duas etapas estruturadas.
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II, apenas". De acordo com a teoria estudada em *1.1 As Seis Fases do Framework CRISP-DM*, o CRISP-DM (*Cross-Industry Standard Process for Data Mining*) é o padrão internacional mais adotado para estruturar ciclos analíticos de dados em fases iterativas e interdependentes.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III, apenas". De acordo com a teoria estudada em *3.1 O Trade-off Viés vs. Variância (Bias-Variance Tradeoff)*, overfitting (Sobreajuste / Alta Variância): O modelo é hipercomplexo (ex.: árvore de decisão profunda sem limites) e decora as particularidades e ruídos estocásticos do treino, apresentando erro mínimo no treino e erro elevado nos dados inéditos de teste.
+> - **D)** **Correta.** Conforme fundamentado na seção *1.3 Escalonamento e Codificação de Variáveis Categóricas* deste guia, one-Hot Encoding: Cria uma coluna binária indicadora ($0$ ou $1$) para cada uma das $K$ categorias existentes. Indicado para variáveis nominais sem relação de hierarquia (ex.: Unidades Federativas). Dessa forma, está plenamente correta a assertiva da banca (FGV – TRT 16ª/2022) ao estabelecer que "I e II, apenas".
+> - **E)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *4.1 Os Vs do Big Data e a Arquitetura HDFS/YARN do Hadoop*, dataNodes: Servidores de trabalho que armazenam os blocos de dados físicos em seus discos rígidos locais.
 >
 > **Gabarito: D**
 
 ---
 
-### Teste 335
-**(FGV – TJ-AP – Analista Judiciario Apoio Especializado Tecnologia da Informacao Banco de Dados – 2023)**
-Uma das primeiras etapas da modelagem multidimensional de dados, para o desenvolvimento de um ambiente de Data Warehouse (DW), é a definição do nível de detalhamento dos dados que serão carregados na tabela fato. Quanto mais detalhado ou atômico, maior será o volume de dados armazenados e maior serão as possibilidades de agregação. O nível de detalhamento dos dados de um DW é definido pelo(a):
+### Teste 334
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Engenharia Elétrica)**
+Um sistema elétrico de potência trifásico é composto por um gerador, um transformador e uma linha de transmissão, conforme descrito a seguir. • Gerador: 50√3 MVA, 15 kV, reatâncias de sequências: 𝑋 =𝑋 =0,20 pu e 𝑋 =0,10 pu. 1 2 0 • Transformador: 50√3 MVA, 15/150 kV, ligação Δ-Y aterrada, reatâncias de sequências: 𝑋 =𝑋 =0,10 pu e 𝑋 =0,20 pu. 1 2 0 • Linha de transmissão: 150 kV, reatâncias de sequências: 𝑋 =𝑋 =0,20 pu e 𝑋 =0,80pu. 1 2 0 Considere que o sistema operava em vazio antes da falta e que a tensão pré-falta no ponto de análise é de 1,0 pu. O curto-circuito fase-terra ocorreu no final da linha de transmissão (lado de 150 kV). Considere como bases os dados de placa do gerador no setor em que se encontra. O valor dessa corrente de falta é de
 
-* **A)** surrogate key;
-* **B)** granularidade;
-* **C)** conformed facts;
-* **D)** barramento de dados;
-* **E)** aditividade das métricas.
+* **A)** 0,25 kA.
+* **B)** 0,33 kA.
+* **C)** 0,50 kA.
+* **D)** 0,67 kA.
+* **E)** 0,87 kA.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "surrogate key". De acordo com a teoria estudada em *1.1 As Seis Fases do Framework CRISP-DM*, data Preparation (Preparação dos Dados): Fase que tradicionalmente consome a maior parcela do esforço do projeto (70% a 80%).
-> - **B)** **Correta.** Conforme fundamentado na seção *1.1 As Seis Fases do Framework CRISP-DM* deste guia, data Understanding (Compreensão dos Dados): Coleta dos dados brutos preliminares, exploração de tipos de variáveis, inspeção inicial de integridade e formulação das primeiras hipóteses estatísticas. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-AP/2023) ao estabelecer que "granularidade".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "conformed facts". De acordo com a teoria estudada em *1.1 As Seis Fases do Framework CRISP-DM*, o CRISP-DM (*Cross-Industry Standard Process for Data Mining*) é o padrão internacional mais adotado para estruturar ciclos analíticos de dados em fases iterativas e interdependentes.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "barramento de dados". De acordo com a teoria estudada em *4.1 Os Vs do Big Data e a Arquitetura HDFS/YARN do Hadoop*, dataNodes: Servidores de trabalho que armazenam os blocos de dados físicos em seus discos rígidos locais.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "aditividade das métricas". De acordo com a teoria estudada em *3.2 Matriz de Confusão e Métricas para Classes Desbalanceadas*, em dados desbalanceados, a acurácia é totalmente inútil, exigindo-se Precisão, Recall e F1-Score.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "0,25 kA". De acordo com a teoria estudada em *1.1 As Seis Fases do Framework CRISP-DM*, envolve seleção de registros e colunas, limpeza, higienização, tratamento de nulos, enriquecimento de bases, transformação de escalas e codificação categórica.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "0,33 kA". De acordo com a teoria estudada em *1.2 Tratamento de Valores Ausentes e Outliers (Critério IQR)*, mCAR (*Missing Completely at Random*): A falta do dado ocorre de forma estritamente aleatória, não guardando correlação com nenhuma variável observada ou não observada na base.
+> - **C)** **Correta.** Conforme fundamentado na seção *4.2 Paradigma MapReduce e suas Limitações de I/O em Disco* deste guia, fase Reduce: Agrega e sintetiza os valores associados a cada chave, emitindo o resultado final. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "0,50 kA".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "0,67 kA". De acordo com a teoria estudada em *1.1 As Seis Fases do Framework CRISP-DM*, business Understanding (Compreensão do Negócio): Fase inaugural que define os objetivos institucionais, metas de negócio e restrições regulatórias do tribunal, convertendo-os em problemas formais de mineração de dados e planejamento técnico.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "0,87 kA". De acordo com a teoria estudada em *1.1 As Seis Fases do Framework CRISP-DM*, data Preparation (Preparação dos Dados): Fase que tradicionalmente consome a maior parcela do esforço do projeto (70% a 80%).
 >
-> **Gabarito: B**
+> **Gabarito: C**
+
+---
+
+### Teste 335
+**(FGV – TJ/SC – 2026 – Analista Administrativo)**
+Na empresa ABC, o gestor de materiais elabora estudo para fixação de parâmetros de ressuprimento de determinado item de consumo regular. No diagnóstico inicial, registrou as seguintes etapas e prazos verificados em ciclos anteriores: o intervalo entre a emissão da ordem de compra e seu efetivo recebimento pelo fornecedor; o intervalo despendido pelo fornecedor para fabricar, separar, faturar e disponibilizar os produtos para transporte; e o intervalo entre a saída do fornecedor e o recebimento dos materiais no almoxarifado da empresa. A partir desses elementos, analise as afirmativas a seguir. I. O tempo de reposição (TR) corresponde ao intervalo decorrido desde a constatação da necessidade de ressuprimento até a chegada efetiva do material no almoxarifado, sendo composto pelos tempos de emissão do pedido, de preparação do pedido e de transporte. II. O ponto de pedido (PP) é o nível de estoque que, ao ser atingido, dispara a emissão de nova ordem de compra, de modo que o material chegue ao almoxarifado antes que o estoque alcance o nível zero, considerados o consumo e o tempo de reposição. III. O tempo gasto pelo fornecedor para fabricar, separar, emitir faturamento e disponibilizar os produtos para transporte integra a etapa de preparação do pedido, e não a de transporte. Está correto o que se afirma em
+
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** I e III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III. Administração Pública
+
+---
+
+> **Comentário Detalhado:**
+>
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *3.2 Matriz de Confusão e Métricas para Classes Desbalanceadas*, a FCC explora exaustivamente a falácia da Acurácia em classes desbalanceadas! Se um tribunal possui uma base com 99% de processos regulares e 1% com fraudes, um modelo tolo que declare "regular" para 100% dos casos terá uma fantástica acurácia de 99%, mas terá detectado zero fraudes ($0\%$ de sensibilidade).
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *2.2 Distribuições de Probabilidade: Normal, Binomial e Poisson*, modela a contagem de ocorrências de eventos raros que acontecem a uma taxa média constante $\lambda$ em um intervalo fixado contínuo de tempo ou espaço.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e III, apenas". De acordo com a teoria estudada em *1.1 As Seis Fases do Framework CRISP-DM*, o CRISP-DM (*Cross-Industry Standard Process for Data Mining*) é o padrão internacional mais adotado para estruturar ciclos analíticos de dados em fases iterativas e interdependentes.
+> - **D)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "II e III, apenas". De acordo com a teoria estudada em *1.1 As Seis Fases do Framework CRISP-DM*, data Understanding (Compreensão dos Dados): Coleta dos dados brutos preliminares, exploração de tipos de variáveis, inspeção inicial de integridade e formulação das primeiras hipóteses estatísticas.
+> - **E)** **Correta.** Conforme fundamentado na seção *4.3 Apache Spark: Processamento em Memória, Lazy Evaluation e RDDs* deste guia, a resiliência decorre do Grafo de Linhagem (*Lineage Graph*): se um nó quebra, o Spark recalcula estritamente a partição perdida a partir do histórico de transformações, sem necessidade de replicação redundante em disco. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/SC/2026) ao estabelecer que "I, II e III. Administração Pública".
+>
+> **Gabarito: E**
 
 ---
 
@@ -258,74 +258,74 @@ Estrutura formal de tomada de decisão estatística sob incerteza:
 ---
 
 ### Teste 336
-**(CEBRASPE – TJ-RJ – Analista Judiciario Grupo Tecnologia da Informacao Analista de Gestao de Tic – 2021)**
-Considere que, em um estudo para avaliar a satisfação dos serviços de comunicação de dados oferecidos por uma operadora, no qual foram utilizadas duas variáveis, X e Y, observou-se que X = 6Y + 24 e que o valor da variância de Y foi igual a 1. Nesse caso, o valor da variância de X é
+**(FCC – TRT 23ª – 2016 – Analista Judiciário - Apoio Especializado - Tecnologia da Informação)**
+Um Analista está avaliando alguns elementos do PMBOK 5a edição passíveis de auxiliarem na tarefa de gerenciamento do projeto que desenvolveu. Um dos instrumentos que poderiam auxiliar seria a análise de variação que é uma técnica
 
-* **A)** 30.
-* **B)** 60.
-* **C)** 6.
-* **D)** 24.
-* **E)** 36.
+* **A)** analítica que usa modelos matemáticos para prever resultados futuros com base em resultados históricos.
+* **B)** para determinar a causa e o grau de diferença entre a linha de base e o desempenho real.
+* **C)** analítica para determinar as características e relações essenciais dos componentes do plano de gerenciamento do projeto a fim de estabelecer a reserva para a duração do cronograma, orçamento, custo estimado ou fundos de um projeto.
+* **D)** de identificação das datas de início mais cedo e mais tarde e também das datas de término mais cedo e mais tarde das partes incompletas das atividades do cronograma do projeto.
+* **E)** estatística para calcular o resultado médio quando o futuro inclui cenários que podem ou não acontecer. Uma utilização comum desta técnica está na análise da árvore de decisão.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "30". De acordo com a teoria estudada em *4.2 Paradigma MapReduce e suas Limitações de I/O em Disco*, o MapReduce opera o processamento em lote (*batch*) em duas etapas estruturadas.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "60". De acordo com a teoria estudada em *3.1 O Trade-off Viés vs. Variância (Bias-Variance Tradeoff)*, overfitting (Sobreajuste / Alta Variância): O modelo é hipercomplexo (ex.: árvore de decisão profunda sem limites) e decora as particularidades e ruídos estocásticos do treino, apresentando erro mínimo no treino e erro elevado nos dados inéditos de teste.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "6". De acordo com a teoria estudada em *3.1 O Trade-off Viés vs. Variância (Bias-Variance Tradeoff)*, validação Cruzada k-Fold Estratificada (*Stratified k-Fold*): Divide os dados em \$k\$ partições preservando a mesma proporção percentual das classes em cada dobra, técnica mandatória em problemas desbalanceados.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "24". De acordo com a teoria estudada em *2.1 Medidas de Tendência Central, Dispersão e Assimetria*, variância Amostral (\$s^2\$): \$\frac{1}{n-1}\sum (x_i - \bar{x})^2\$ (utiliza o divisor de Bessel \$n-1\$ para estimador não enviesado).
-> - **E)** **Correta.** Conforme fundamentado na seção *1.3 Escalonamento e Codificação de Variáveis Categóricas* deste guia, padronização (StandardScaler / Z-Score): Reescalona a distribuição para apresentar média zero (\$\mu = 0\$) e variância unitária (\$\sigma = 1\$). Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TJ-RJ/2021) ao estabelecer que "36".
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "analítica que usa modelos matemáticos para prever resultados futuros com base em resultados históricos". De acordo com a teoria estudada em *1. Metodologia CRISP-DM e Pipeline de Engenharia de Dados*, a Ciência de Dados constitui a intersecção analítica entre Estatística, Ciência da Computação e Conhecimento do Negócio (Auditoria e Controle Externo), operando transformações metodológicas para converter dados brutos não estruturados em conhecimento aplicável.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "para determinar a causa e o grau de diferença entre a linha de base e o desempenho real". De acordo com a teoria estudada em *4.3 Apache Spark: Processamento em Memória, Lazy Evaluation e RDDs*, ações (*Actions*): Imediatas (*Eager Evaluation*). — `count()`, `collect()`, `show()`, `take()`, `saveAsTextFile()` — Disparam a compilação do plano físico no DAG e a execução real nos nós trabalhadores, devolvendo o resultado ao *Driver*.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "analítica para determinar as características e relações essenciais dos componentes do plano de gerenciamento do...". De acordo com a teoria estudada em *2.3 Testes de Hipóteses, Erros Tipo I e II e Critério do p-Valor*, estrutura formal de tomada de decisão estatística sob incerteza.
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "de identificação das datas de início mais cedo e mais tarde e também das datas de término mais cedo e mais tarde...". De acordo com a teoria estudada em *2.3 Testes de Hipóteses, Erros Tipo I e II e Critério do p-Valor*, o $p$-valor indica a probabilidade de obter uma estatística de teste tão ou mais extrema que a observada, assumindo $H_0$ como verdadeira.
+> - **E)** **Correta.** Conforme fundamentado na seção *3.1 O Trade-off Viés vs. Variância (Bias-Variance Tradeoff)* deste guia, overfitting (Sobreajuste / Alta Variância): O modelo é hipercomplexo (ex.: árvore de decisão profunda sem limites) e decora as particularidades e ruídos estocásticos do treino, apresentando erro mínimo no treino e erro elevado nos dados inéditos de teste. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 23ª/2016) ao estabelecer que "estatística para calcular o resultado médio quando o futuro inclui cenários que podem ou não acontecer. Uma...".
 >
 > **Gabarito: E**
 
 ---
 
 ### Teste 337
-**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Administracao – 2026)**
-Um Auditor deseja comparar se a média de gastos per capita com educação, nos Municípios da região Oeste de Santa Catarina, é significativamente diferente da média da região Serrana. Ele sabe que a suposição de que tais gastos seguem uma distribuição normal é válida. O método estatístico mais adequado, para comparar as médias dessas duas amostras independentes, é o
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Ciências Atuariais)**
+Um Regime Próprio de Previdência Social realiza uma avaliação atuarial partindo do enfoque determinístico para o enfoque estocástico. De acordo com o Teorema Central do Limite, a simulação de Monte Carlo para o valor presente dos benefícios futuros estruturados em regime de capitalização gerou uma distribuição estatística Normal com os seguintes valores: • Média do Passivo Atuarial: R$ 200.000.000,00; • Desvio Padrão do Passivo Atuarial: R$ 10.000.000,00. Obs.: escore Z Padrão para 95% de confiança: 1,644853627. O atuário recomenda a constituição de um Fundo de Oscilação de Riscos para garantir que o plano tenha resultado positivo em 95% dos cenários projetados. O valor que deve ser destinado exclusivamente à composição do fundo é de
 
-* **A)** teste t de Student.
-* **B)** teste qui-quadrado.
-* **C)** do coeficiente de correlação de Pearson.
-* **D)** da regressão logística.
-* **E)** da distribuição de Poisson.
+* **A)** R$ 8.224.268,13.
+* **B)** R$ 16.448.536,26.
+* **C)** R$ 64.485.362,70.
+* **D)** R$ 128.970.725,39.
+* **E)** R$ 216.448.536,26.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "teste t de Student". De acordo com a teoria estudada em *2.3 Testes de Hipóteses, Erros Tipo I e II e Critério do p-Valor*, o \$p\$-valor indica a probabilidade de obter uma estatística de teste tão ou mais extrema que a observada, assumindo \$H_0\$ como verdadeira.
-> - **B)** **Correta.** Conforme fundamentado na seção *2.3 Testes de Hipóteses, Erros Tipo I e II e Critério do p-Valor* deste guia, erro Tipo II (\$\beta\$): Não rejeitar \$H_0\$ quando \$H_0\$ é falsa (Falso Negativo estatístico). O complemento \$1 - \beta\$ define o Poder do Teste. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "teste qui-quadrado".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "do coeficiente de correlação de Pearson". De acordo com a teoria estudada em *2.1 Medidas de Tendência Central, Dispersão e Assimetria*, coeficiente de Variação (CV): \$\text{CV} = \frac{s}{\bar{x}} \times 100\%\$. Medida relativa adimensional que viabiliza a comparação direta da variabilidade entre variáveis de escalas ou grandezas distintas.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "da regressão logística". De acordo com a teoria estudada em *3.3 Curva ROC, AUC-ROC e Métricas de Regressão (MAE, MSE, RMSE, R²)*, mSE (Mean Squared Error): \$\frac{1}{n}\sum (y - \hat{y})^2\$. Penaliza exponencialmente erros grandes ao elevá-los ao quadrado.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "da distribuição de Poisson". De acordo com a teoria estudada em *2.1 Medidas de Tendência Central, Dispersão e Assimetria*, média Aritmética (\$\bar{x}\$): Centro de massa da distribuição (\$\bar{x} = \frac{1}{n}\sum x_i\$). Extremamente vulnerável a distorções por valores discrepantes.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$ 8.224.268,13". De acordo com a teoria estudada em *1.2 Tratamento de Valores Ausentes e Outliers (Critério IQR)*, o critério do Escore Z (*Z-Score*) ($Z = \frac{x - \mu}{\sigma}$) sinaliza anomalias quando $|Z| > 3$, pressupondo distribuição aproximadamente normal.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$ 16.448.536,26". De acordo com a teoria estudada em *2.1 Medidas de Tendência Central, Dispersão e Assimetria*, média Aritmética ($\bar{x}$): Centro de massa da distribuição ($\bar{x} = \frac{1}{n}\sum x_i$). Extremamente vulnerável a distorções por valores discrepantes.
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$ 64.485.362,70". De acordo com a teoria estudada em *2.3 Testes de Hipóteses, Erros Tipo I e II e Critério do p-Valor*, erro Tipo I ($\alpha$): Rejeitar $H_0$ quando $H_0$ é verdadeira (Falso Positivo estatístico). O limite tolerado de ocorrência desse erro define o Nível de Significância ($\alpha$, tipicamente fixado em 5%).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "R$ 128.970.725,39". De acordo com a teoria estudada em *4.1 Os Vs do Big Data e a Arquitetura HDFS/YARN do Hadoop*, tamanho de Bloco: Projetado para arquivos volumosos; adota blocos gigantes de 128 MB ou 256 MB, reduzindo a sobrecarga de metadados no NameNode.
+> - **E)** **Correta.** Conforme fundamentado na seção *2.2 Distribuições de Probabilidade: Normal, Binomial e Poisson* deste guia, curva simétrica em formato de sino governada pela média $\mu$ e desvio padrão $\sigma$. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "R$ 216.448.536,26".
 >
-> **Gabarito: B**
+> **Gabarito: E**
 
 ---
 
 ### Teste 338
-**(CEBRASPE – TJ-RJ – Analista Judiciario Grupo Tecnologia da Informacao Analista de Gestao de Tic – 2021)**
-Considere que um levantamento sobre o número diário de vezes (N) que um usuário observa códigos de erros em determinada página de Internet produziu a tabela de frequências a seguir. N frequência (%) 0 20 1 60 2 10 4 10 total 100 Nesse caso, a diferença entre a média e a mediana da variável N é igual a
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Ciência de Dados)**
+Testes de hipóteses são ferramentas estatísticas que viabilizam a tomada de decisões com base em dados, mesmo quando há incerteza. A respeito dessas ferramentas, relacione cada definição com as características a que elas mais se adequam: 1. Teste-z 2. Teste-t 3. ANOVA 4. Teste chi-quadrado (χ2) ( ) Usado(a) para comparar as médias de duas amostras independentes, com amostragens suficientemente grandes e desvios-padrão conhecidos. ( ) Usado(a) para comparar as médias de duas ou mais amostras independentes, normalmente distribuídas. ( ) Usado(a) para comparar as médias de duas amostras independentes, com pequeno número de amostras ou com desvio-padrão desconhecido. ( ) Usado(a) para verificar a normalidade de uma amostra. A relação correta, na ordem apresentada, é
 
-* **A)** 0.
-* **B)** 0,2.
-* **C)** 1.
-* **D)** 0,25.
-* **E)** 0,75.
+* **A)** 1 – 2 – 3 – 4.
+* **B)** 2 – 3 – 1 – 4.
+* **C)** 1 – 3 – 2 – 4.
+* **D)** 2 – 1 – 4 – 3.
+* **E)** 3 – 2 – 4 – 1.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "0". De acordo com a teoria estudada em *2.1 Medidas de Tendência Central, Dispersão e Assimetria*, assimetria Positiva (à Direita / Cauda Longa Superior): Típica de dados salariais e contratações públicas onde poucos valores gigantescos puxam a média: \$\text{Moda} < \text{Mediana} < \text{Média}\$.
-> - **B)** **Correta.** Conforme fundamentado na seção *2.3 Testes de Hipóteses, Erros Tipo I e II e Critério do p-Valor* deste guia, hipótese Nula (\$H_0\$): Premissa básica de ausência de diferença, conformidade ou efeito padrão. Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TJ-RJ/2021) ao estabelecer que "0,2".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1". De acordo com a teoria estudada em *2.1 Medidas de Tendência Central, Dispersão e Assimetria*, assimetria Negativa (à Esquerda / Cauda Longa Inferior): \$\text{Média} < \text{Mediana} < \text{Moda}\$.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "0,25". De acordo com a teoria estudada em *2.1 Medidas de Tendência Central, Dispersão e Assimetria*, distribuição Simétrica: \$\text{Média} = \text{Mediana} = \text{Moda}\$.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "0,75". De acordo com a teoria estudada em *2.1 Medidas de Tendência Central, Dispersão e Assimetria*, moda (\$Mo\$): O valor que ocorre com a maior frequência estatística observada.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "1 – 2 – 3 – 4". De acordo com a teoria estudada em *2.3 Testes de Hipóteses, Erros Tipo I e II e Critério do p-Valor*, o $p$-valor indica a probabilidade de obter uma estatística de teste tão ou mais extrema que a observada, assumindo $H_0$ como verdadeira.
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2 – 3 – 1 – 4". De acordo com a teoria estudada em *2.2 Distribuições de Probabilidade: Normal, Binomial e Poisson*, modela o número de sucessos $k$ em $n$ ensaios de Bernoulli independentes com probabilidade de sucesso $p$.
+> - **C)** **Correta.** Conforme fundamentado na seção *2.3 Testes de Hipóteses, Erros Tipo I e II e Critério do p-Valor* deste guia, estrutura formal de tomada de decisão estatística sob incerteza. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "1 – 3 – 2 – 4".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "2 – 1 – 4 – 3". De acordo com a teoria estudada em *2.3 Testes de Hipóteses, Erros Tipo I e II e Critério do p-Valor*, hipótese Nula ($H_0$): Premissa básica de ausência de diferença, conformidade ou efeito padrão.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "3 – 2 – 4 – 1". De acordo com a teoria estudada em *2.3 Testes de Hipóteses, Erros Tipo I e II e Critério do p-Valor*, erro Tipo II ($\beta$): Não rejeitar $H_0$ quando $H_0$ é falsa (Falso Negativo estatístico). O complemento $1 - \beta$ define o Poder do Teste.
 >
-> **Gabarito: B**
+> **Gabarito: C**
 
 ---
 
@@ -383,72 +383,72 @@ $$\text{Erro de Teste} = \text{Viés}^2 + \text{Variância} + \sigma_{\text{ruí
 ---
 
 ### Teste 339
-**(CEBRASPE – TRT-8 – Analista Judiciario Area Apoio Especializado Tecnologia da Informacao – 2022)**
-Quanto à avaliação de modelos preditivos, assinale a opção correta.
+**(FCC – TRT 15ª – 2015 – Analista Judiciário - Tecnologia da Informação)**
+No contexto de Business Intelligence, os sistemas OLAP e OLTP se diferenciam em diversas características. Na tabela abaixo, no que diz respeito às características, está INCORRETO: Característica OLAP OLTP Alta velocidade na manipulação de dados operacio- Otimização para leitura e geração de análise e
 
-* **A)** A taxa de acerto da métrica de classificação é o complemento da taxa de erro; valores próximos de 0 são considerados melhores.
-* **B)** O gráfico ROC é tridimensional, plotado em um espaço chamado de espaço ROC, com eixos X, Y e Z.
-* **C)** As duas medidas de erro mais comumente utilizadas na métrica de regressão são o potencial erro definido e a distância média, sempre utilizando números negativos.
-* **D)** Nas métricas de classificação, a taxa de erro varia entre 0 e 1, sendo os valores próximos ao extremo 0 melhores.
-* **E)** Uma forma de avaliar classificadores em problemas complexos, ou seja, que possuem mais de duas classes, é com o uso das curvas ROC (Receiving Operating Characteristics).
+* **A)** Performance. nais, porém ineficiente para geração de análises relatórios gerenciais. gerenciais. Tipo de permissões É permitido apenas inserção e leitura. Para o Podem ser feitas leitura, inserção, modificação e ex-
+* **B)** nos dados. usuário está disponível apenas a leitura. clusão de dados. Armazenamento feito em Data Warehouse com Armazenamento feito em bancos de dados conven-
+* **C)** Estrutura dos dados. otimização no desempenho em grandes volumes cionais pelos sistemas de informação da organização. de dados. Nível operacional da organização. Visa a exe- Nível estratégico da organização. Visa a análise
+* **D)** Foco. cução operacional do negócio. empresarial e tomada de decisão. Dados históricos e não voláteis que praticamente
+* **E)** Volatilidade. não sofrem alterações salvo em casos específi- Dados voláteis, passíveis de modificação e exclusão. Atenção: Conforme Edital do Concurso, Capítulo X, itens: “8. ... a Prova Estudo de Caso terá caráter eliminatório e classificatório. Cada uma das questões será avaliada na escala de 0 (zero) a 100 (cem) pontos, considerando-se habilitado o candidato que tiver obtido, no conjunto das duas questões, média igual ou superior a 50 (cinquenta).
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "A taxa de acerto da métrica de classificação é o complemento da taxa de erro; valores próximos de 0 são...". De acordo com a teoria estudada em *3.2 Matriz de Confusão e Métricas para Classes Desbalanceadas*, é a média harmônica entre Precisão e Recall, penalizando severamente modelos desequilibrados que sacrificam uma métrica em favor da outra.
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "O gráfico ROC é tridimensional, plotado em um espaço chamado de espaço ROC, com eixos X, Y e Z". De acordo com a teoria estudada em *3.3 Curva ROC, AUC-ROC e Métricas de Regressão (MAE, MSE, RMSE, R²)*, mAE (Mean Absolute Error): \$\frac{1}{n}\sum |y - \hat{y}|\$. Erro linear simples, altamente robusto a outliers.
-> - **C)** **Incorreta.** A opção promove generalização excessiva que desconsidera as condições técnicas e normativas ao afirmar que "As duas medidas de erro mais comumente utilizadas na métrica de regressão são o potencial erro definido e a...". De acordo com a teoria estudada em *4.3 Apache Spark: Processamento em Memória, Lazy Evaluation e RDDs*, o Apache Spark superou as limitações de I/O do Hadoop executando a computação massiva diretamente na memória RAM, sendo até \$100\times\$ mais rápido para algoritmos iterativos.
-> - **D)** **Correta.** Conforme fundamentado na seção *1.2 Tratamento de Valores Ausentes e Outliers (Critério IQR)* deste guia, *Imputação Avançada:* KNN Imputer (imputa pelo valor ponderado dos \$k\$ vizinhos mais próximos no espaço vetorial) e MICE (*Multivariate Imputation by Chained Equations*). Dessa forma, está plenamente correta a assertiva da banca (CEBRASPE – TRT-8/2022) ao estabelecer que "Nas métricas de classificação, a taxa de erro varia entre 0 e 1, sendo os valores próximos ao extremo 0 melhores".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Uma forma de avaliar classificadores em problemas complexos, ou seja, que possuem mais de duas classes, é com o...". De acordo com a teoria estudada em *3.1 O Trade-off Viés vs. Variância (Bias-Variance Tradeoff)*, validação Cruzada k-Fold Estratificada (*Stratified k-Fold*): Divide os dados em \$k\$ partições preservando a mesma proporção percentual das classes em cada dobra, técnica mandatória em problemas desbalanceados.
+> - **A)** **Correta.** Conforme fundamentado na seção *2.3 Testes de Hipóteses, Erros Tipo I e II e Critério do p-Valor* deste guia, estrutura formal de tomada de decisão estatística sob incerteza. Dessa forma, está plenamente correta a assertiva da banca (FCC – TRT 15ª/2015) ao estabelecer que "Performance. nais, porém ineficiente para geração de análises relatórios gerenciais. gerenciais. Tipo de...".
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "nos dados. usuário está disponível apenas a leitura. clusão de dados. Armazenamento feito em Data Warehouse com...". De acordo com a teoria estudada em *4.1 Os Vs do Big Data e a Arquitetura HDFS/YARN do Hadoop*, o Apache Hadoop é a infraestrutura de código aberto pioneira para armazenamento e processamento distribuído em clusters de hardware comum (*commodity hardware*).
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Estrutura dos dados. otimização no desempenho em grandes volumes cionais pelos sistemas de informação da...". De acordo com a teoria estudada em *2.3 Testes de Hipóteses, Erros Tipo I e II e Critério do p-Valor*, erro Tipo I ($\alpha$): Rejeitar $H_0$ quando $H_0$ é verdadeira (Falso Positivo estatístico). O limite tolerado de ocorrência desse erro define o Nível de Significância ($\alpha$, tipicamente fixado em 5%).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Foco. cução operacional do negócio. empresarial e tomada de decisão. Dados históricos e não voláteis que...". De acordo com a teoria estudada em *3.1 O Trade-off Viés vs. Variância (Bias-Variance Tradeoff)*, overfitting (Sobreajuste / Alta Variância): O modelo é hipercomplexo (ex.: árvore de decisão profunda sem limites) e decora as particularidades e ruídos estocásticos do treino, apresentando erro mínimo no treino e erro elevado nos dados inéditos de teste.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Volatilidade. não sofrem alterações salvo em casos específi- Dados voláteis, passíveis de modificação e exclusão...". De acordo com a teoria estudada em *3.2 Matriz de Confusão e Métricas para Classes Desbalanceadas*, a FCC explora exaustivamente a falácia da Acurácia em classes desbalanceadas! Se um tribunal possui uma base com 99% de processos regulares e 1% com fraudes, um modelo tolo que declare "regular" para 100% dos casos terá uma fantástica acurácia de 99%, mas terá detectado zero fraudes ($0\%$ de sensibilidade).
 >
-> **Gabarito: D**
+> **Gabarito: A**
 
 ---
 
 ### Teste 340
-**(FGV – TJ-RR – Analista Judiciario Gestao e Governanca de Tecnologia da Informacao – 2024)**
-Dados são importantes elementos de apoio à tomada de decisão, sendo que algumas aplicações geram quantidade massiva e heterogênea de dados, com alta velocidade. Para lidar com esse cenário, foi desenvolvido o seguinte modelo de programação que consiste em dividir, processar e combinar os dados em paralelo, de forma a acelerar o processamento e garantir a confiabilidade dos resultados:
+**(FGV – TJ/MT – 2024 – Analista Judiciario Tecnologia Da Informacao)**
+O ciclo de vida de um processo de ciência de dados envolve uma série de etapas estruturadas que guiam o desenvolvimento de projetos de ciência de dados desde a definição do problema até a implementação e o monitoramento das soluções. No ciclo de vida de um processo de ciência de dados, na fase de preparação de dados
 
-* **A)** Data Warehousing.
-* **B)** Elastic Search.
-* **C)** Hadoop.
-* **D)** MapReduce.
-* **E)** NoSQL.
+* **A)** são definidos os objetivos do projeto e formuladas as perguntas que o modelo deve responder.
+* **B)** o modelo é treinado e avaliado usando algoritmos de aprendizado de máquina.
+* **C)** são realizadas atividades como limpeza, transformação e formatação dos dados para garantir qualidade e adequação ao modelo.
+* **D)** os resultados são comunicados aos stakeholders por meio de visualizações e relatórios.
+* **E)** os dados são coletados diretamente dos usuários para garantir que o modelo esteja alinhado com as necessidades do público.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Data Warehousing". De acordo com a teoria estudada em *4.1 Os Vs do Big Data e a Arquitetura HDFS/YARN do Hadoop*, os cinco pilares conceituais do Big Data compreendem: Volume (escala de terabytes/petabytes), Velocidade (taxa contínua de ingestão e processamento), Variedade (estruturados, semiestruturados e não estruturados), Veracidade (qualidade e confiabilidade da fonte) e Valor (impacto no negócio).
-> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Elastic Search". De acordo com a teoria estudada em *4.2 Paradigma MapReduce e suas Limitações de I/O em Disco*, *Gargalo Crítico:* O MapReduce grava compulsoriamente os resultados intermediários em disco rígido (*spill to disk*) ao término de cada fase, impondo severos gargalos de I/O mecânico em pipelines analíticos de múltiplos estágios.
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Hadoop". De acordo com a teoria estudada em *4.3 Apache Spark: Processamento em Memória, Lazy Evaluation e RDDs*, o Apache Spark superou as limitações de I/O do Hadoop executando a computação massiva diretamente na memória RAM, sendo até \$100\times\$ mais rápido para algoritmos iterativos.
-> - **D)** **Correta.** Conforme fundamentado na seção *3.1 O Trade-off Viés vs. Variância (Bias-Variance Tradeoff)* deste guia, overfitting (Sobreajuste / Alta Variância): O modelo é hipercomplexo (ex.: árvore de decisão profunda sem limites) e decora as particularidades e ruídos estocásticos do treino, apresentando erro mínimo no treino e erro elevado nos dados inéditos de teste. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ-RR/2024) ao estabelecer que "MapReduce".
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "NoSQL". De acordo com a teoria estudada em *4.2 Paradigma MapReduce e suas Limitações de I/O em Disco*, o MapReduce opera o processamento em lote (*batch*) em duas etapas estruturadas.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "são definidos os objetivos do projeto e formuladas as perguntas que o modelo deve responder". De acordo com a teoria estudada em *1.1 As Seis Fases do Framework CRISP-DM*, data Preparation (Preparação dos Dados): Fase que tradicionalmente consome a maior parcela do esforço do projeto (70% a 80%).
+> - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "o modelo é treinado e avaliado usando algoritmos de aprendizado de máquina". De acordo com a teoria estudada em *1.1 As Seis Fases do Framework CRISP-DM*, modeling (Modelagem): Escolha de técnicas algorítmicas de aprendizado de máquina (árvores de decisão, regressões, redes neurais), divisão em partições de treino e calibração de hiperparâmetros.
+> - **C)** **Correta.** Conforme fundamentado na seção *1.1 As Seis Fases do Framework CRISP-DM* deste guia, envolve seleção de registros e colunas, limpeza, higienização, tratamento de nulos, enriquecimento de bases, transformação de escalas e codificação categórica. Dessa forma, está plenamente correta a assertiva da banca (FGV – TJ/MT/2024) ao estabelecer que "são realizadas atividades como limpeza, transformação e formatação dos dados para garantir qualidade e adequação...".
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os resultados são comunicados aos stakeholders por meio de visualizações e relatórios". De acordo com a teoria estudada em *3.1 O Trade-off Viés vs. Variância (Bias-Variance Tradeoff)*, overfitting (Sobreajuste / Alta Variância): O modelo é hipercomplexo (ex.: árvore de decisão profunda sem limites) e decora as particularidades e ruídos estocásticos do treino, apresentando erro mínimo no treino e erro elevado nos dados inéditos de teste.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "os dados são coletados diretamente dos usuários para garantir que o modelo esteja alinhado com as necessidades do...". De acordo com a teoria estudada em *4.1 Os Vs do Big Data e a Arquitetura HDFS/YARN do Hadoop*, os cinco pilares conceituais do Big Data compreendem: Volume (escala de terabytes/petabytes), Velocidade (taxa contínua de ingestão e processamento), Variedade (estruturados, semiestruturados e não estruturados), Veracidade (qualidade e confiabilidade da fonte) e Valor (impacto no negócio).
 >
-> **Gabarito: D**
+> **Gabarito: C**
 
 ---
 
 ### Teste 341
-**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Ciencias da Computacao Sistemas de Informacao – 2026)**
-Um modelo de classificação foi treinado para identificar transações bancárias fraudulentas. Como as fraudes são eventos muito raros (1 em cada 10.000), o auditor nota que a métrica de Acurácia é enganosa, pois o modelo poderia simplesmente classificar tudo como não fraude, e ainda assim ter 99,99% de acerto. A seguinte métrica seria a mais adequada para avaliar a performance do modelo, nesse cenário de dados altamente desbalanceados, focando na capacidade de detectar o máximo de fraudes reais:
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Ciência de Dados)**
+Modelos de aprendizagem de máquina são, em geral, avaliados com métricas que indicam os quão poderosos e relevantes eles são. Entre exemplos de métricas de avaliação utilizadas para modelos de classificação binária, podemos citar: • Taxa de precisão (razão entre verdadeiros positivos e o total dos verdadeiros positivos e falsos positivos); • Taxa de sensibilidade (razão entre verdadeiros positivos e o total dos verdadeiros positivos e falsos negativos, também conhecida por recall); e • Escore F1 (F1-score, também chamado de F-measure), que relaciona as taxas de precisão e de sensibilidade. Suponha a existência de um modelo de classificação binária cuja taxa de precisão é de 90,00% e cuja taxa de sensibilidade é de 75,00%. Utilize aproximação de duas casas decimais. O escore F1 referente a esse modelo é
 
-* **A)** acurácia global.
-* **B)** recall.
-* **C)** precision.
-* **D)** erro quadrático médio.
-* **E)** coeficiente de correlação r².
+* **A)** 41,42%.
+* **B)** 81,82%.
+* **C)** 82,15%.
+* **D)** 82,50%.
+* **E)** 82,84%.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "acurácia global". De acordo com a teoria estudada em *3.2 Matriz de Confusão e Métricas para Classes Desbalanceadas*, a FCC explora exaustivamente a falácia da Acurácia em classes desbalanceadas! Se um tribunal possui uma base com 99% de processos regulares e 1% com fraudes, um modelo tolo que declare "regular" para 100% dos casos terá uma fantástica acurácia de 99%, mas terá detectado zero fraudes (\$0\%\$ de sensibilidade).
-> - **B)** **Correta.** Conforme fundamentado na seção *3.2 Matriz de Confusão e Métricas para Classes Desbalanceadas* deste guia, em dados desbalanceados, a acurácia é totalmente inútil, exigindo-se Precisão, Recall e F1-Score. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "recall".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "precision". De acordo com a teoria estudada em *3.2 Matriz de Confusão e Métricas para Classes Desbalanceadas*, precisão (Precision / Confiabilidade Preditiva).
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "erro quadrático médio". De acordo com a teoria estudada em *3.2 Matriz de Confusão e Métricas para Classes Desbalanceadas*, é a média harmônica entre Precisão e Recall, penalizando severamente modelos desequilibrados que sacrificam uma métrica em favor da outra.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "coeficiente de correlação r²". De acordo com a teoria estudada em *3.3 Curva ROC, AUC-ROC e Métricas de Regressão (MAE, MSE, RMSE, R²)*, \$R^2\$ (Coeficiente de Determinação): \$1 - \frac{\sum (y_i - \hat{y}_i)^2}{\sum (y_i - \bar{y})^2}\$, quantificando a proporção da variância explicada pelo modelo.
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "41,42%". De acordo com a teoria estudada em *3.2 Matriz de Confusão e Métricas para Classes Desbalanceadas*, em dados desbalanceados, a acurácia é totalmente inútil, exigindo-se Precisão, Recall e F1-Score.
+> - **B)** **Correta.** Conforme fundamentado na seção *3.2 Matriz de Confusão e Métricas para Classes Desbalanceadas* deste guia, é a média harmônica entre Precisão e Recall, penalizando severamente modelos desequilibrados que sacrificam uma métrica em favor da outra. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "81,82%".
+> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "82,15%". De acordo com a teoria estudada em *3.2 Matriz de Confusão e Métricas para Classes Desbalanceadas*, mede a proporção de casos positivos reais capturados pelo modelo. Priorizada quando o custo de um Falso Negativo é catastrófico (ex.: não detectar um esquema ilícito de desvio de verbas).
+> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "82,50%". De acordo com a teoria estudada em *3.2 Matriz de Confusão e Métricas para Classes Desbalanceadas*, sensibilidade / Revocação / Recall (True Positive Rate - TPR).
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "82,84%". De acordo com a teoria estudada em *3.3 Curva ROC, AUC-ROC e Métricas de Regressão (MAE, MSE, RMSE, R²)*, a Curva ROC mapeia o $\text{Recall}$ (Sensibilidade, Eixo Y) contra o $\text{FPR} = \frac{\text{FP}}{\text{FP} + \text{VN}} = 1 - \text{Especificidade}$ (Eixo X) variando o limiar de probabilidade de $0$ a $1$.
 >
 > **Gabarito: B**
 
@@ -517,7 +517,7 @@ O **Apache Spark** superou as limitações de I/O do Hadoop executando a computa
 ---
 
 ### Teste 342
-**(FGV – TCE-SC – Auditor Fiscal de Controle Externo Ciencias da Computacao Sistemas de Informacao – 2026)**
+**(FGV – TCE/SC – 2026 – Auditor Fiscal de Controle Externo - Ciências da Computação, Sistemas de Informação...)**
 Para processar terabytes de logs de notas fiscais eletrônicas, o TCE-SC utiliza um cluster Apache Spark. O Auditor nota que o processamento está lento devido ao excesso de movimentação de dados entre os nós da rede durante operações de agrupamento. A operação do Spark conhecida por causar esse fenômeno de Shuffle e que deve ser utilizada com cautela em grandes datasets é:
 
 * **A)** map()
@@ -530,37 +530,37 @@ Para processar terabytes de logs de notas fiscais eletrônicas, o TCE-SC utiliza
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Correta.** Conforme fundamentado na seção *4.3 Apache Spark: Processamento em Memória, Lazy Evaluation e RDDs* deste guia, *Narrow (Estreita):* Cada partição de entrada é consumida por no máximo uma partição de saída, sem transferência de dados entre máquinas pela rede (*sem shuffle*, ex.: `map()`, `filter()`). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-SC/2026) ao estabelecer que "map()".
+> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "map()". De acordo com a teoria estudada em *4.3 Apache Spark: Processamento em Memória, Lazy Evaluation e RDDs*, *Narrow (Estreita):* Cada partição de entrada é consumida por no máximo uma partição de saída, sem transferência de dados entre máquinas pela rede (*sem shuffle*, ex.: `map()`, `filter()`).
 > - **B)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "filter()". De acordo com a teoria estudada em *4.3 Apache Spark: Processamento em Memória, Lazy Evaluation e RDDs*, transformações (*Transformations*): Preguiçosas (*Lazy Evaluation*). — `filter()`, `map()`, `select()`, `groupBy()`, `join()` — Não executam o processamento físico de imediato. Apenas constroem e encadeiam as etapas no Grafo Acíclico Direcionado (DAG).
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "groupByKey()". De acordo com a teoria estudada em *4.3 Apache Spark: Processamento em Memória, Lazy Evaluation e RDDs*, *Wide (Ampla):* A partição de saída depende de dados espalhados em múltiplos nós, exigindo redistribuição massiva de partições pela rede (*com shuffle*, ex.: `groupByKey()`, `join()`).
+> - **C)** **Correta.** Conforme fundamentado na seção *4.3 Apache Spark: Processamento em Memória, Lazy Evaluation e RDDs* deste guia, *Wide (Ampla):* A partição de saída depende de dados espalhados em múltiplos nós, exigindo redistribuição massiva de partições pela rede (*com shuffle*, ex.: `groupByKey()`, `join()`). Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/SC/2026) ao estabelecer que "groupByKey()".
 > - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "broadcast()". De acordo com a teoria estudada em *4.3 Apache Spark: Processamento em Memória, Lazy Evaluation e RDDs*, categoria: Comportamento de Execução — Exemplos de Operações — Papel no Pipeline.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "first()". De acordo com a teoria estudada em *4.2 Paradigma MapReduce e suas Limitações de I/O em Disco*, fase Map: Lê os blocos distribuídos e emite pares intermediários no formato \$(chave, valor)\$.
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "first()". De acordo com a teoria estudada em *4.2 Paradigma MapReduce e suas Limitações de I/O em Disco*, fase Shuffle and Sort: Agrupa e ordena via rede todos os registros intermediários que compartilham a mesma chave.
 >
-> **Gabarito: A**
+> **Gabarito: C**
 
 ---
 
 ### Teste 343
-**(FGV – TCE-PA – Auditor de Controle Externo Administrativa Ciencia de Dados – 2024)**
-Analise o trecho a seguir: É um padrão de transformação de dados em lote que foi introduzido como uma alternativa para lidar com grandes volumes de dados. Consiste em tarefas de mapa que leem blocos de dados individuais espalhados pelos nós, seguidas por uma etapa de shuffle que redistribui os dados de resultado e uma etapa de redução que agrega os dados em cada nó. Seu paradigma foi construído em torno da ideia de que a capacidade e largura de banda do disco magnético eram tão baratas que fazia sentido simplesmente usar uma enorme quantidade de disco para realizar consultas ultrarrápidas. A tecnologia em questão é:
+**(FGV – TCE/PA – 2024 – Auditor de Controle Externo - Administrativa - Ciência de Dados)**
+A eficiência no armazenamento de dados é crucial para muitas organizações. Tecnologias como Amazon S3, CEPH e HDFS apresentam soluções adequadas a diferentes necessidades. Sobre esses modelos de armazenamento, avalie as afirmativas a seguir. I. O Amazon Simple Storage Service utiliza um sistema de arquivos distribuídos, o que proporciona uma escalabilidade praticamente ilimitada. II. O modelo CEPH é indicado para organizações que lidam com dados altamente sensíveis, como informações financeiras, jurídicas ou dados governamentais. III. Dividir arquivos grandes em blocos de tamanho fixo aumenta a eficiência do HDFS no processamento de grandes volumes de dados, ou Big Data. Está correto o que se afirma em
 
-* **A)** Apache Spark.
-* **B)** Hadoop MapReduce.
-* **C)** Business Warehouse.
-* **D)** ETL (Extract, Transform, Load).
-* **E)** GIS (Geographic Information System).
+* **A)** I, apenas.
+* **B)** I e II, apenas.
+* **C)** III, apenas.
+* **D)** II e III, apenas.
+* **E)** I, II e III.
 
 ---
 
 > **Comentário Detalhado:**
 >
-> - **A)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Apache Spark". De acordo com a teoria estudada em *4.3 Apache Spark: Processamento em Memória, Lazy Evaluation e RDDs*, *Wide (Ampla):* A partição de saída depende de dados espalhados em múltiplos nós, exigindo redistribuição massiva de partições pela rede (*com shuffle*, ex.: `groupByKey()`, `join()`).
-> - **B)** **Correta.** Conforme fundamentado na seção *4.2 Paradigma MapReduce e suas Limitações de I/O em Disco* deste guia, fase Reduce: Agrega e sintetiza os valores associados a cada chave, emitindo o resultado final. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE-PA/2024) ao estabelecer que "Hadoop MapReduce".
-> - **C)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "Business Warehouse". De acordo com a teoria estudada em *4.2 Paradigma MapReduce e suas Limitações de I/O em Disco*, o MapReduce opera o processamento em lote (*batch*) em duas etapas estruturadas.
-> - **D)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "ETL (Extract, Transform, Load)". De acordo com a teoria estudada em *4.2 Paradigma MapReduce e suas Limitações de I/O em Disco*, fase Shuffle and Sort: Agrupa e ordena via rede todos os registros intermediários que compartilham a mesma chave.
-> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "GIS (Geographic Information System)". De acordo com a teoria estudada em *4.2 Paradigma MapReduce e suas Limitações de I/O em Disco*, fase Map: Lê os blocos distribuídos e emite pares intermediários no formato \$(chave, valor)\$.
+> - **A)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I, apenas". De acordo com a teoria estudada em *4.1 Os Vs do Big Data e a Arquitetura HDFS/YARN do Hadoop*, o Apache Hadoop é a infraestrutura de código aberto pioneira para armazenamento e processamento distribuído em clusters de hardware comum (*commodity hardware*).
+> - **B)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "I e II, apenas". De acordo com a teoria estudada em *4.1 Os Vs do Big Data e a Arquitetura HDFS/YARN do Hadoop*, dataNodes: Servidores de trabalho que armazenam os blocos de dados físicos em seus discos rígidos locais.
+> - **C)** **Incorreta.** A opção incorre em restrição indevida ao limitar o escopo conceitual ao afirmar que "III, apenas". De acordo com a teoria estudada em *4.1 Os Vs do Big Data e a Arquitetura HDFS/YARN do Hadoop*, nameNode: Mantém o catálogo de diretórios e o mapeamento dos blocos na memória RAM para garantir respostas instantâneas.
+> - **D)** **Correta.** Conforme fundamentado na seção *4.1 Os Vs do Big Data e a Arquitetura HDFS/YARN do Hadoop* deste guia, tamanho de Bloco: Projetado para arquivos volumosos; adota blocos gigantes de 128 MB ou 256 MB, reduzindo a sobrecarga de metadados no NameNode. Dessa forma, está plenamente correta a assertiva da banca (FGV – TCE/PA/2024) ao estabelecer que "II e III, apenas".
+> - **E)** **Incorreta.** A opção apresenta proposição em desacordo com os fundamentos teóricos e técnicos do tópico ao afirmar que "I, II e III". De acordo com a teoria estudada em *4.1 Os Vs do Big Data e a Arquitetura HDFS/YARN do Hadoop*, os cinco pilares conceituais do Big Data compreendem: Volume (escala de terabytes/petabytes), Velocidade (taxa contínua de ingestão e processamento), Variedade (estruturados, semiestruturados e não estruturados), Veracidade (qualidade e confiabilidade da fonte) e Valor (impacto no negócio).
 >
-> **Gabarito: B**
+> **Gabarito: D**
 
 ---
 
